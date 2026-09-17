@@ -1,0 +1,6 @@
+# Netlify build settings.
+# The site is plain HTML/CSS/JS; build-artifact.py just copies the public
+# files into dist/ (and writes the single-file bundle used for sharing).
+[build]
+  command = "python3 build-artifact.py"
+  publish = "dist"
