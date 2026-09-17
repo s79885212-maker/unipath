@@ -4,7 +4,10 @@
     {
       "name": "unipath",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "8777"],
+      "runtimeArgs": [
+        ".claude/preview-server.py",
+        "8777"
+      ],
       "port": 8777
     }
   ]
