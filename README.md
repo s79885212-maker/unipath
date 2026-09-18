@@ -161,7 +161,6 @@ data/universities.kr.js 8 universities
 data/universities.uk.js 8 universities
 data/photos.js          Campus photos + attribution
 data/i18n/ru.js         Russian dictionary
-data/i18n/ru.uk.js      Russian additions (UK, Berkeley, Princeton, About, estimates)
 data/admission-profiles.js  Admission statistics + target bands (updated yearly)
 
 build-artifact.py       Builds dist/ (the website to upload) and build/unipath.html
