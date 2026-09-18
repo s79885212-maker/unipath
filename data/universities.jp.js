@@ -16,11 +16,11 @@ window.UNIPATH.universities.push(
   type: 'National research university',
   brand: { c1: '#004098', c2: '#001f4a', initials: '東' },
   description: 'Japan\'s leading national university. Fees are set at the national rate and are identical for international and domestic students — far below comparable universities in the United States or the UK. English-taught undergraduate entry is in flux: UTokyo has announced that PEAK, its English-medium programme at Komaba, has held its final student recruitment.',
-  englishTaught: null,
+  englishTaught: true,
   languageOfInstruction: 'Japanese, with some English-taught routes',
   programs: ['engineering','computer-science','economics','mathematics','biology','social-sciences','humanities','law','medicine','arts'],
   englishTaughtPrograms: [],
-  programNote: 'Undergraduates enter a Junior Division for two years of broad study at Komaba before moving to a Senior Division faculty. PEAK offered two English-medium senior-division tracks — Japan in East Asia, and Environmental Sciences.',
+  programNote: 'Undergraduates enter a Junior Division for two years of broad study at Komaba before moving to a Senior Division faculty. PEAK offered two English-medium senior-division tracks — Japan in East Asia, and Environmental Sciences. From September 2027 the new UTokyo College of Design teaches a bachelor\'s programme in which "All courses are taught in English"; students do not choose a named major but build an interdisciplinary pathway across five domains, so no single field is listed as English-taught.',
   links: {
     website: 'https://www.u-tokyo.ac.jp/en/',
     admissions: 'https://www.u-tokyo.ac.jp/en/prospective-students/undergraduate_admissions.html',
@@ -95,9 +95,10 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Undergraduate programs in English (PEAK and GSC)', url: 'https://www.u-tokyo.ac.jp/en/prospective-students/undergraduate_english.html' },
     { label: 'Admission fee and tuition', url: 'https://www.u-tokyo.ac.jp/en/prospective-students/tuition_fees.html' },
-    { label: 'PEAK fees & scholarships', url: 'https://peak.c.u-tokyo.ac.jp/fees_scholarships/index.html' }
+    { label: 'PEAK fees & scholarships', url: 'https://peak.c.u-tokyo.ac.jp/fees_scholarships/index.html' },
+    { label: 'UTokyo College of Design — FAQ (language of instruction)', url: 'https://design.adm.u-tokyo.ac.jp/faq/' }
   ],
-  lastVerified: '2026-09-16'
+  lastVerified: '2026-09-18'
 },
 
 {
@@ -673,7 +674,7 @@ window.UNIPATH.universities.push(
   languageOfInstruction: 'English (FGL / Gateway College) or Japanese',
   programs: ['engineering','biology','computer-science','mathematics','medicine','social-sciences','humanities','economics'],
   englishTaughtPrograms: [],
-  programNote: 'FGL taught three English-medium undergraduate courses: Advanced Molecular Chemistry (AMC), International Mechanical and Aerospace Engineering (IMAC-U) and Applied Marine Biology (AMB). These are being succeeded by Gateway College from 2027.',
+  programNote: 'FGL taught three English-medium undergraduate courses: Advanced Molecular Chemistry (AMC), International Mechanical and Aerospace Engineering (IMAC-U) and Applied Marine Biology (AMB). These are being succeeded by Gateway College from 2027. Gateway College is interdisciplinary: applicants choose a Humanities & Social Sciences or a STEM admission track and declare a major from the third year. Tohoku has not yet published the list of majors, and notes that Humanities & Social Sciences students may need Japanese for research, so no field is listed as English-taught yet.',
   links: {
     website: 'https://www.tohoku.ac.jp/en/',
     admissions: 'https://www.insc.tohoku.ac.jp/english/degree/undergraduate-english/',
@@ -749,8 +750,9 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Undergraduate programmes taught in English', url: 'https://www.insc.tohoku.ac.jp/english/degree/undergraduate-english/' },
     { label: 'Future Global Leadership (FGL) programme', url: 'https://www.insc.tohoku.ac.jp/english/degree/undergraduate-english-future-global-leadership-program/' },
-    { label: 'FGL FAQ (PDF)', url: 'https://www.insc.tohoku.ac.jp/english/wp-content/uploads/2025/05/FGL-FAQ_20260501.pdf' }
+    { label: 'FGL FAQ (PDF)', url: 'https://www.insc.tohoku.ac.jp/english/wp-content/uploads/2025/05/FGL-FAQ_20260501.pdf' },
+    { label: 'Gateway College — admissions', url: 'https://admissions.tohoku.ac.jp/en/admissions/undergraduate/gateway_college/' }
   ],
-  lastVerified: '2026-09-16'
+  lastVerified: '2026-09-18'
 }
 );

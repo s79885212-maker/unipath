@@ -485,8 +485,8 @@ window.UNIPATH.universities.push(
   englishTaught: true,
   languageOfInstruction: 'Korean, with an English Track at the Seoul campus',
   programs: ['engineering','computer-science','business','economics','social-sciences','humanities','arts','biology','mathematics','education'],
-  englishTaughtPrograms: [],
-  programNote: 'The Seoul campus runs English Track courses; the ERICA campus in Ansan runs its own international programmes.',
+  englishTaughtPrograms: ['computer-science','business'],
+  programNote: 'The Seoul campus runs English Track courses; the ERICA campus in Ansan runs its own international programmes. On the Seoul campus two majors are English Track: Data Science and Business Administration (Global Management Track), both requiring TOEFL iBT 80 or IELTS 6.0 or higher, with an English interview for Data Science; every other major is Korean Track (2025 spring admission guideline).',
   links: {
     website: 'https://www.hanyang.ac.kr/web/eng',
     admissions: 'https://www.hanyang.ac.kr/web/eng/admissions-guide',
@@ -559,9 +559,10 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Scholarships', url: 'https://www.hanyang.ac.kr/web/eng/scholarships' },
     { label: 'Admissions guide', url: 'https://www.hanyang.ac.kr/web/eng/admissions-guide' },
-    { label: 'International programmes (Seoul)', url: 'https://www.hanyang.ac.kr/web/eng/global_s' }
+    { label: 'International programmes (Seoul)', url: 'https://www.hanyang.ac.kr/web/eng/global_s' },
+    { label: 'Admission guidelines for international students, spring 2025 (PDF)', url: 'https://oia.hanyang.ac.kr/files/attach/filebox/2025/2025_1_undergraduate_en_new.pdf' }
   ],
-  lastVerified: '2026-09-16'
+  lastVerified: '2026-09-18'
 },
 
 {
