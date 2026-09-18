@@ -61,7 +61,7 @@
     return m ? decodeURIComponent(m[1].replace(/\+/g, ' ')) : null;
   }
 
-  var CURRENCY_SYMBOL = { USD: '$', JPY: '¥', KRW: '₩' };
+  var CURRENCY_SYMBOL = { USD: '$', JPY: '¥', KRW: '₩', GBP: '£' };
   function money(amount, currency) {
     if (!has(amount)) return UNKNOWN;
     var sym = CURRENCY_SYMBOL[currency] || '';

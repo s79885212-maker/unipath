@@ -796,4 +796,221 @@ window.UNIPATH.universities.push(
   ],
   lastVerified: '2026-09-16'
 }
+,
+
+{
+  id: 'uc-berkeley',
+  name: 'University of California, Berkeley',
+  shortName: 'UC Berkeley',
+  country: 'us',
+  city: 'Berkeley',
+  region: 'California',
+  founded: 1868,
+  type: 'Public research university',
+  brand: { c1: '#003262', c2: '#001832', initials: 'CAL' },
+  description: 'The oldest campus of the University of California and the strongest public university in the country by most measures. Berkeley is unusual among elite US universities in ignoring SAT and ACT scores entirely — and equally unusual in offering international students almost no need-based aid.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['computer-science','engineering','business','economics','mathematics','biology','social-sciences','humanities','psychology','arts','law','education'],
+  programNote: 'Berkeley admits to a college — Letters and Science, Engineering, Chemistry, Environmental Design, Business or Natural Resources — and some majors, notably Computer Science and Haas business, are capped and far harder to enter than the university as a whole.',
+  links: {
+    website: 'https://www.berkeley.edu/',
+    admissions: 'https://admissions.berkeley.edu/',
+    internationalAdmissions: 'https://admissions.berkeley.edu/requirements-for-international-students/',
+    applicationPortal: 'https://apply.universityofcalifornia.edu/',
+    scholarships: 'https://financialaid.berkeley.edu/types-of-aid-at-berkeley/scholarships/regents-and-chancellors-scholarship/international-student-scholarships/',
+    financialAid: 'https://financialaid.berkeley.edu/apply-now/international-students/',
+    programs: 'https://guide.berkeley.edu/undergraduate/degree-programs/',
+    cost: 'https://financialaid.berkeley.edu/how-aid-works/student-budgets-cost-of-attendance/'
+  },
+  admissions: {
+    platforms: ['UC Application (shared by all nine UC campuses)'],
+    deadlines: [
+      { name: 'Application filing period', date: '1 October – 30 November', note: 'One application covers every UC campus you choose' },
+      { name: 'English proficiency evidence', date: '31 January', note: 'Proficiency must be satisfied by this date' },
+      { name: 'Optional InitialView interview', date: '30 November', note: 'Optional, and it cannot replace a required English test score' }
+    ],
+    applicationFee: { amount: 95, currency: 'USD', waiver: 'International applicants pay $95 per campus; those already enrolled at a US institution may qualify for the $80 fee. UC does not describe fee waivers for international applicants.' },
+    documents: [
+      'UC Application, completed once for all campuses',
+      'Official academic records from every institution attended, showing dates, courses, grades and any diploma',
+      'External exam results such as IGCSE/GCSE reported on the International Exams page of the application',
+      'Certificate of secondary school completion allowing university entry in your own country'
+    ],
+    recommendations: 'None — UC states you should not submit letters of recommendation with the application',
+    essay: 'Personal insight questions within the UC Application',
+    interview: 'No admission interview. The optional InitialView interview is only additional evidence.',
+    notes: [
+      'International students on a visa can never be classified as California residents for tuition, so the nonresident rate applies for the whole degree.'
+    ]
+  },
+  english: {
+    ielts: { min: 6.5, recommended: null, note: 'IELTS 6.5 or better satisfies the requirement.' },
+    toefl: { min: 90, recommended: null, note: 'TOEFL 90 or better satisfies the requirement.' },
+    duolingo: { min: 115, recommended: null, note: 'Duolingo English Test 115 or better is accepted.' },
+    waiver: 'Three or more years of instruction in English satisfies the requirement. Mixed-language instruction does not count.',
+    note: 'Berkeley also accepts an SAT Writing and Language score of 31+ or an ACT English and Language Arts score of 24+ as evidence of English proficiency. Proficiency must be demonstrated by 31 January.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'not-used', note: 'Berkeley lists the SAT only as one way to evidence English proficiency, not as part of the admission decision.' },
+    act: { policy: 'not-used', note: 'Listed only as evidence of English proficiency (ACT English and Language Arts 24+).' },
+    otherTests: 'International applicants must report external examination results such as IGCSE/GCSE, and must hold qualifications such as A-Levels, the French Baccalaureate, IGCSE or ATAR where their own curriculum requires them.',
+    internationalQualifications: 'You must finish secondary school and earn the certificate of completion that would admit you to a university in your own country.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: '$101,598 total for a nonresident',
+    items: [
+      { label: 'Tuition and fees', amount: 18214 },
+      { label: 'Nonresident supplemental tuition', amount: 39270 },
+      { label: 'Housing (residence hall)', amount: 16640 },
+      { label: 'Meal plan', amount: 7000 },
+      { label: 'Student health insurance plan', amount: 5066 },
+      { label: 'Personal expenses, books, food and transport', amount: 7754 }
+    ],
+    billedSubtotal: 93844,
+    totalText: '$101,598',
+    note: 'These are Berkeley\'s published figures for a nonresident student living in a residence hall. Direct costs billed by the university come to $93,844; the rest covers books, extra food, transport and personal spending. International students pay the nonresident supplemental tuition for all four years.'
+  },
+  scholarships: {
+    fullRide: {
+      available: true,
+      internationalEligible: true,
+      basis: 'need-based',
+      covers: { tuition: true, housing: null, meals: null, insurance: null, books: null },
+      renewable: true,
+      competitiveness: 'Extremely narrow. The only Berkeley award that reaches the full cost of attendance for international students is the Swaniker Scholars Program, which requires nomination by ALX or African Leadership Academy.',
+      howToApply: 'You cannot apply directly — candidates must be nominated by ALX or ALA. All other admitted international students are automatically considered for the scholarships they are eligible for.',
+      note: 'The Swaniker Scholars Program covers "up to the full cost of attendance for four years" for talented students from across the African continent. For everyone else, Berkeley states plainly that international students are ineligible for federal, state and need-based university aid.'
+    },
+    merit: [
+      { name: 'Regents\' and Chancellor\'s Scholarship', amount: 'A monetary award plus additional benefits; Berkeley does not publish the amount on the international scholarships page', eligibility: 'Exceptional admitted students showing creativity, leadership, service and strong convictions', deadline: null, application: 'All admitted international students are automatically considered', renewable: null, note: 'Berkeley calls this its most prestigious undergraduate scholarship.' },
+      { name: 'Robinson International Scholars Program', amount: 'Need-based scholarship for up to four years, plus full Regents\' and Chancellor\'s benefits', eligibility: 'International students who are refugees or stateless people from Sub-Saharan African and developing nations, or who graduated from secondary school in such a country', deadline: null, application: 'Automatic consideration on admission', renewable: true, note: null },
+      { name: 'International Leaders Scholarship at UC Berkeley', amount: 'Financial assistance for up to four years, plus full Regents\' and Chancellor\'s benefits', eligibility: 'Talented international students showing academic excellence and leadership; priority for students resident in Peru', deadline: null, application: 'Automatic consideration on admission', renewable: true, note: null },
+      { name: 'Swaniker Scholars Program at UC Berkeley', amount: 'Up to the full cost of attendance for four years', eligibility: 'Students from across the African continent who are ALX Pathway participants or African Leadership Academy graduates', deadline: null, application: 'By nomination from ALX or ALA only', renewable: true, note: 'Need-based, and includes the full Regents\' and Chancellor\'s benefits.' }
+    ],
+    needBased: {
+      availableToInternational: false,
+      meetsFullNeed: false,
+      needBlindInternational: false,
+      forms: [],
+      deadlines: null,
+      note: 'Berkeley states: "International students are ineligible for federal, state, and need-based university financial aid." Only US citizens, eligible non-citizens and AB 540 students can receive it. Plan on paying the full nonresident cost unless you win one of the named scholarships above.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'Requirements for international students', url: 'https://admissions.berkeley.edu/requirements-for-international-students/' },
+    { label: 'Student budgets (cost of attendance)', url: 'https://financialaid.berkeley.edu/how-aid-works/student-budgets-cost-of-attendance/' },
+    { label: 'Financial aid for international students', url: 'https://financialaid.berkeley.edu/apply-now/international-students/' },
+    { label: 'Scholarship opportunities for international students', url: 'https://financialaid.berkeley.edu/types-of-aid-at-berkeley/scholarships/regents-and-chancellors-scholarship/international-student-scholarships/' },
+    { label: 'UC — applying for admission as an international applicant', url: 'https://admission.universityofcalifornia.edu/admission-requirements/international-applicants/applying-for-admission/' }
+  ],
+  lastVerified: '2026-09-18'
+},
+
+{
+  id: 'princeton-university',
+  name: 'Princeton University',
+  country: 'us',
+  city: 'Princeton',
+  region: 'New Jersey',
+  founded: 1746,
+  type: 'Private research university',
+  brand: { c1: '#E77500', c2: '#8a4600', initials: 'P' },
+  description: 'A small, undergraduate-focused Ivy League university in New Jersey. Princeton applies exactly the same financial aid policy to international students as to Americans: admission is need-blind, every admitted student\'s full demonstrated need is met with grants, and there are no loans in aid packages.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['engineering','computer-science','economics','mathematics','humanities','social-sciences','biology','psychology','arts','law'],
+  programNote: 'Princeton has no business, law or medical school for undergraduates; economics and the School of Public and International Affairs are the usual routes towards those careers. Every undergraduate writes a senior thesis.',
+  links: {
+    website: 'https://www.princeton.edu/',
+    admissions: 'https://admission.princeton.edu/apply',
+    internationalAdmissions: 'https://admission.princeton.edu/how-apply/international-students',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://admission.princeton.edu/cost-aid',
+    financialAid: 'https://admission.princeton.edu/cost-aid',
+    programs: 'https://www.princeton.edu/academics/areas-study',
+    cost: 'https://admission.princeton.edu/cost-aid'
+  },
+  admissions: {
+    platforms: ['Common Application'],
+    deadlines: [
+      { name: 'Single-Choice Early Action', date: '1 November', note: 'Financial aid application due 9 November; decisions in mid-December' },
+      { name: 'Regular Decision', date: '1 January', note: 'Financial aid application due 1 February; decisions in late March' },
+      { name: 'Reply deadline', date: '1 May', note: 'Same for both rounds' }
+    ],
+    applicationFee: { amount: null, currency: 'USD', waiver: 'Princeton offers its own fee waiver to low-income applicants and to anyone serving or who has served in the US military, with no counsellor approval needed. Waivers through the Common Application, ACT, College Board and NACAC are also accepted.' },
+    documents: [
+      'Common Application with the Princeton-specific questions',
+      'A graded written paper, preferably in English or history, written in English and not translated',
+      'Official transcript and School Report form',
+      'Midyear School Report'
+    ],
+    recommendations: 'Two teacher recommendations from core academic subjects, plus a counsellor recommendation',
+    essay: 'Common Application personal essay plus the Princeton-specific questions',
+    interview: 'An optional alumni interview may be offered',
+    notes: [
+      'Requesting a fee waiver does not disadvantage an application.'
+    ]
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'IELTS Academic is accepted, but Princeton does not publish a minimum score.' },
+    toefl: { min: null, recommended: null, note: 'TOEFL is accepted; no minimum score is published.' },
+    duolingo: { min: null, recommended: null, note: 'The Duolingo English Test is accepted; no minimum score is published.' },
+    waiver: 'No test is required if English is your native language, or if you have spent at least three years at a secondary school where English is the main language of instruction.',
+    note: 'A test is required only when English is not your native language and your school does not teach primarily in English. Pearson PTE Academic is also accepted. Princeton publishes no minimum scores at all — treat strong scores as expected rather than optional.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'optional', note: 'Test-optional for students entering in fall 2026 and fall 2027. Princeton has said testing will be required again for fall 2028 entry.' },
+    act: { policy: 'optional', note: 'Same policy as the SAT: optional for fall 2026 and fall 2027 entry, required from fall 2028.' },
+    otherTests: 'SAT Subject Tests may be reported but are optional.',
+    internationalQualifications: 'Transcripts are assessed within the context of your own education system. School reports and recommendations may be in another language if officially translated — the graded written paper may not.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: '$90,574 average total',
+    items: [
+      { label: 'Tuition', amount: 68140 },
+      { label: 'Average total of tuition, fees, housing and food', amount: 90574 },
+      { label: 'Average net cost paid by aid recipients', amount: 7574 }
+    ],
+    billedSubtotal: null,
+    totalText: '$90,574 on average before aid — about $7,574 for students who receive aid',
+    note: 'Princeton publishes the average total charge rather than a long itemised list on its cost and aid page. The figure most students actually pay is far lower: the university reports an average net cost of $7,574 for aid recipients.'
+  },
+  scholarships: {
+    fullRide: {
+      available: true,
+      internationalEligible: true,
+      basis: 'need-based',
+      covers: { tuition: true, housing: true, meals: true, insurance: null, books: null },
+      renewable: true,
+      competitiveness: 'Admission is the hard part. Once admitted, aid is assessed on need alone and is not a separate competition.',
+      howToApply: 'Apply for financial aid alongside the admission application — by 9 November for Single-Choice Early Action, or 1 February for Regular Decision.',
+      note: 'Princeton states it "applies the same financial aid policy to international students", meets 100% of demonstrated need with grant aid, and replaces student loans with grants that are never repaid. On its published example table a family earning $150,000 with typical assets contributes $0.'
+    },
+    merit: [],
+    needBased: {
+      availableToInternational: true,
+      meetsFullNeed: true,
+      needBlindInternational: true,
+      forms: ['Princeton Financial Aid Application', 'CSS Profile or equivalent documentation'],
+      deadlines: '9 November for Single-Choice Early Action; 1 February for Regular Decision',
+      note: 'Princeton states that admission is need-blind and there is no disadvantage for aid applicants. Its published contribution examples — $0 at $150,000 of income, $12,500 at $200,000, $37,500 at $300,000 — apply to families with assets under $175,000 living in the United States with one child in college, so an international family\'s result can differ.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'Cost and aid', url: 'https://admission.princeton.edu/cost-aid' },
+    { label: 'Application checklist', url: 'https://admission.princeton.edu/apply/application-checklist' },
+    { label: 'First-year application dates and deadlines', url: 'https://admission.princeton.edu/apply/first-year-application-dates-deadlines' },
+    { label: 'International students', url: 'https://admission.princeton.edu/how-apply/international-students' }
+  ],
+  lastVerified: '2026-09-18'
+}
 );

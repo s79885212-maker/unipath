@@ -31,7 +31,7 @@
 
     return '' +
 '<section class="hero"><div class="wrap">' +
-  '<span class="hero-eyebrow reveal">' + flags + '&nbsp; Three countries · ' + s.unis + ' universities</span>' +
+  '<span class="hero-eyebrow reveal">' + flags + '&nbsp; ' + s.countries + ' countries · ' + s.unis + ' universities</span>' +
   '<h1 class="reveal reveal-1">Find Your University. Find Your Opportunity.</h1>' +
   '<p class="hero-sub reveal reveal-2">Explore universities, scholarships, admission requirements and application information for international students.</p>' +
   '<div class="searchbox reveal reveal-3" data-searchbox>' +
@@ -137,7 +137,7 @@
     }).join('');
 
     return '<section class="page-head"><div class="wrap"><h1>Countries</h1>' +
-      '<p>Three destinations in this first version. The data layer is built so more countries can be added without changing any page.</p>' +
+      '<p>Four destinations so far. The data layer is built so more countries can be added without changing any page.</p>' +
       '</div></section>' +
       '<section class="section"><div class="wrap">' +
         '<div class="grid grid-3">' + U.DB.countries.map(U.countryCard).join('') + '</div>' +
@@ -231,7 +231,7 @@
       '<div>' +
         '<h2>What this is</h2>' +
         '<p>UniPath collects the information an international undergraduate applicant actually needs — admission requirements, English and standardized test policies, scholarships, financial aid, full cost of attendance, available programs and the official application links — and puts it in one consistent structure for every university.</p>' +
-        '<p>The first version covers the United States, Japan and South Korea. The architecture is deliberately boring: countries and universities live in plain data files, and the interface is generated from them. Adding a country means adding one data file. Adding a university means appending one object.</p>' +
+        '<p>The database covers the United States, the United Kingdom, Japan and South Korea. The architecture is deliberately boring: countries and universities live in plain data files, and the interface is generated from them. Adding a country means adding one data file. Adding a university means appending one object.</p>' +
         '<h2 style="margin-top:36px">How the data is sourced</h2>' +
         '<p data-i18n-html>Every figure on this site was read from an official university page. Each university profile lists the specific pages used, with direct links, and carries a <strong>Last verified</strong> date.</p>' +
         '<p data-i18n-html>Where a university does not publish something — a minimum IELTS score, an application fee, a cost breakdown — the field says <em>“Not confirmed — check the official source”</em>. It is never filled with a plausible-looking guess. That is why some profiles have visible gaps: the gaps are honest.</p>' +
@@ -246,7 +246,7 @@
       '<div>' +
         '<div class="card"><div class="card-body"><h3>Coverage today</h3><dl class="deflist">' + rows + '</dl></div></div>' +
         '<div class="card" style="margin-top:20px"><div class="card-body"><h3>Built to grow</h3>' +
-          '<p class="small">The data schema already carries every field needed for the countries planned next — Canada, Germany, the United Kingdom, the Netherlands, Australia and France — plus room for features such as saved universities, deadline tracking and personalised recommendations.</p>' +
+          '<p class="small">The data schema already carries every field needed for the countries planned next — Canada, Germany, the Netherlands, Australia and France — plus room for features such as saved universities, deadline tracking and personalised recommendations.</p>' +
           '<h4 style="font-size:.9rem;margin-top:16px">Adding a university</h4>' +
           '<pre class="mono small" style="background:var(--surface-2);padding:12px;border-radius:8px;overflow-x:auto;margin:0">window.UNIPATH.universities.push({\n  id: \'example-university\',\n  name: \'Example University\',\n  country: \'us\',\n  city: \'Boston\',\n  …\n  sources: [{ label: \'…\', url: \'…\' }],\n  lastVerified: \'2026-09-16\'\n});</pre>' +
         '</div></div>' +

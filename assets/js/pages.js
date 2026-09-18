@@ -82,7 +82,7 @@
     /* Overview */
     var overview = '<section class="profile-section" id="overview"><h2>Overview</h2>' +
       verifyBar(u) +
-      (u.photos && u.photos.gallery
+      (u.photos && u.photos.main && u.photos.gallery && u.photos.gallery.length
         ? '<figure class="hero-photo"><img src="' + esc(u.photos.main) + '" alt="' + esc(u.photos.gallery[0].title || u.name) + '">' +
           '<figcaption>' + esc(u.photos.gallery[0].title) + ' · <a href="' + U.uniUrl(u) + '/photos">More photos &amp; credits</a></figcaption></figure>'
         : '') +

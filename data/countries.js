@@ -60,5 +60,28 @@ window.UNIPATH.countries.push(
     { label: 'Study in Korea — official government portal', url: 'https://www.studyinkorea.go.kr/en/main.do' },
     { label: 'Global Korea Scholarship (GKS)', url: 'https://www.studyinkorea.go.kr/en/plan/scholarship.do' }
   ]
+},
+{
+  code: 'uk',
+  name: 'United Kingdom',
+  flag: '🇬🇧',
+  currency: 'GBP',
+  tagline: 'Three-year degrees, one shared application, and fees published openly by course — with little need-based aid for international students.',
+  overview: 'UK bachelor\'s degrees are short and specialised: three years in England, Wales and Northern Ireland, four in Scotland, and you apply to one subject rather than choosing a major later. Every applicant uses the same system, UCAS, and a single £34.50 fee covers up to five universities. International tuition is charged per course, so the same university can charge £22,000 for one degree and £48,000 for another. The trade-off for the shorter degree is that scholarships are smaller and rarer than in the United States — most universities publish partial awards rather than need-based aid.',
+  applicationInfo: 'Applications run through UCAS. For 2027 entry, applications could be submitted from 1 September 2026; the deadline is 15 October 2026 for Oxford, Cambridge, medicine, dentistry and veterinary medicine, and 18:00 UK time on 13 January 2027 for everything else — the “equal consideration” deadline, by which universities must treat all applications alike. You write one personal statement for all five choices, and your school supplies one academic reference. Many courses add a subject admissions test, and a few add an interview.',
+  fieldsPopular: ['business', 'economics', 'engineering', 'computer-science', 'law'],
+  notes: [
+    'Need-based aid for international students barely exists. The main exceptions in this database are Oxford\'s Reach Oxford Scholarship and UCL\'s Global Undergraduate Scholarship, and both make only a handful of awards a year.',
+    'Tuition is set per course, not per university — always check the fee on the page for your exact degree, and check whether it is fixed for the whole course or rises each year.',
+    'You choose your subject when you apply and changing later is difficult, so the choice matters more than it does in the United States.',
+    'A Student visa requires proof of money as well as an offer: for 2026 the Home Office asks for £1,529 a month in London or £1,171 outside it, for up to nine months, plus your first year of tuition, held for 28 days in a row.',
+    'The Student visa application costs £558 from outside the UK, and the immigration health surcharge is charged separately on top of it.'
+  ],
+  sources: [
+    { label: 'UCAS — official undergraduate application service', url: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications' },
+    { label: 'UCAS — application fee for the 2027 cycle', url: 'https://www.ucas.com/faqs/what-is-the-application-fee-for-the-2027-cycle' },
+    { label: 'GOV.UK — Student visa: money you need', url: 'https://www.gov.uk/student-visa/money' },
+    { label: 'GOV.UK — Student visa', url: 'https://www.gov.uk/student-visa' }
+  ]
 }
 );

@@ -1,7 +1,7 @@
 # UniPath
 
 A research platform for international students: universities, admission requirements,
-scholarships, costs and official application links for the USA, Japan and South Korea.
+scholarships, costs and official application links for the USA, the UK, Japan and South Korea.
 
 ## Live site
 
@@ -139,11 +139,13 @@ assets/js/i18n.js       Translation layer (EN / RU)
 
 data/registry.js        Bootstrap + study-field taxonomy
 data/countries.js       Country profiles
-data/universities.us.js 8 universities
+data/universities.us.js 10 universities
 data/universities.jp.js 8 universities
 data/universities.kr.js 8 universities
+data/universities.uk.js 8 universities
 data/photos.js          Campus photos + attribution
 data/i18n/ru.js         Russian dictionary
+data/i18n/ru.uk.js      Russian additions for the UK, Berkeley and Princeton
 data/admission-profiles.js  Admission statistics + target bands (updated yearly)
 
 build-artifact.py       Builds dist/ (the website to upload) and build/unipath.html
