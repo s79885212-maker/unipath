@@ -57,7 +57,7 @@
           '<div class="pill-row">' +
             (fr.available === true && fr.internationalEligible === true ? '<span class="badge">★ Full scholarship for internationals</span>' : '') +
             (need.meetsFullNeed === true ? '<span class="badge">Meets full demonstrated need</span>' : '') +
-            (u.englishTaught === true ? '<span class="badge">English-taught degree</span>' : '') +
+            (U.englishLabel(u) ? '<span class="badge">' + esc(U.englishLabel(u)) + '</span>' : '') +
             '<span class="badge">' + esc(U.satLabel(u)) + '</span>' +
             (merit.length ? '<span class="badge">' + merit.length + ' merit scholarship' + (merit.length > 1 ? 's' : '') + '</span>' : '') +
           '</div>' +
@@ -102,7 +102,7 @@
     var deadlines = has(a.deadlines)
       ? '<div class="table-scroll"><table class="data-table"><thead><tr><th>Round</th><th>Deadline</th><th>Notes</th></tr></thead><tbody>' +
         a.deadlines.map(function (d) {
-          return '<tr><td><strong>' + esc(d.name) + '</strong></td><td>' + esc(d.date) + '</td><td>' + (has(d.note) ? esc(d.note) : '—') + '</td></tr>';
+          return '<tr><td><strong>' + esc(d.name) + '</strong></td><td>' + U.deadlineHtml(d) + '</td><td>' + (has(d.note) ? esc(d.note) : '—') + '</td></tr>';
         }).join('') + '</tbody></table></div>'
       : '<p>' + UNKNOWN + '</p>';
 
@@ -301,9 +301,20 @@
         '<h4>' + f.icon + ' ' + esc(f.label) + '</h4>' +
         '<p>See other universities offering ' + esc(f.label) + ' →</p></a>';
     }).join('');
+    var enProgs = U.englishPrograms(u);
+    var englishBlock = '<h3 style="margin-top:22px">Available fully in English</h3>' +
+      (enProgs.length
+        ? '<div class="pill-row">' + enProgs.map(function (p) { var f = U.field(p); return '<span class="badge badge-info">' + f.icon + ' ' + esc(f.label) + '</span>'; }).join('') + '</div>' +
+          (enProgs.length < (u.programs || []).length
+            ? '<p class="small muted" style="margin-top:8px">Other fields above are taught in the local language, or their English availability is not confirmed.</p>' : '')
+        : '<p class="small muted">' + (u.englishTaught === true
+            ? 'This university has an English-taught route, but which fields it covers is not confirmed. Check the official programme list before applying.'
+            : 'No fully English-taught bachelor’s field is confirmed.') + '</p>');
     var programs = '<section class="profile-section" id="programs"><h2>Undergraduate programs</h2>' +
       (has(u.programNote) ? '<p>' + esc(u.programNote) + '</p>' : '') +
+      '<h3 style="margin-top:6px">All undergraduate fields</h3>' +
       (progs ? '<div class="prog-groups">' + progs + '</div>' : '<p>' + UNKNOWN + '</p>') +
+      englishBlock +
       '</section>';
 
     /* Photos — every image carries its Wikimedia Commons attribution */
@@ -617,6 +628,11 @@
       ['Location', function (u) { return '<span>' + esc(u.city) + '</span>' + (has(u.region) ? ', <span>' + esc(u.region) + '</span>' : ''); }],
       ['University type', function (u) { return or(u.type); }],
       ['English-taught degree', function (u) { return yesNo(u.englishTaught); }],
+      ['Fields fully in English', function (u) {
+        var en = U.englishPrograms(u);
+        return en.length ? en.map(function (p) { return '<span>' + esc(U.field(p).label) + '</span>'; }).join('<br>')
+          : (u.englishTaught === true ? '<span class="unknown">Not confirmed</span>' : '<span class="unknown">None confirmed</span>');
+      }],
       ['group', 'Money'],
       ['Tuition / headline cost', function (u) { return U.costHeadline(u) ? esc(U.costHeadline(u)) : UNKNOWN; }],
       ['Estimated total cost', function (u) {
@@ -634,7 +650,7 @@
       ['Application deadline', function (u) {
         var d = u.admissions && u.admissions.deadlines;
         if (!has(d)) return UNKNOWN;
-        return d.map(function (x) { return '<strong>' + esc(x.name) + '</strong><br>' + esc(x.date); }).join('<br><br>');
+        return d.map(function (x) { return '<span>' + esc(x.name) + '</span><br>' + U.deadlineHtml(x); }).join('<br><br>');
       }],
       ['group', 'Who gets in'],
       ['Acceptance rate', function (u) { var o = (u.stats || {}).official || {}; return o.admitRate ? '<strong>' + esc(o.admitRate.value) + '%</strong>' : '<span class="unknown">Not published</span>'; }],

@@ -170,8 +170,11 @@ def shell(template: str, head: str, main_html: str) -> str:
     # Drop the generic tags the page overrides.
     page = re.sub(r"<title>.*?</title>\n?", "", page, flags=re.S)
     page = re.sub(r'<meta (name="description"|property="og:[a-z_]+")[^>]*>\n?', "", page)
-    # <base> keeps the shell's relative asset paths and #/ links working from /university/<id>/.
-    page = page.replace('<meta charset="utf-8">', '<meta charset="utf-8">\n<base href="/">\n' + head, 1)
+    # Pages live at /university/<id>/, so every local file must be requested
+    # from the site root. The meta tag tells the app it is on such a page
+    # (photo paths from data/photos.js and #/ links are then made root-based).
+    page = re.sub(r'(src|href)="(assets|data)/', r'\1="/\2/', page)
+    page = page.replace('<meta charset="utf-8">', '<meta charset="utf-8">\n<meta name="unipath-root" content="/">\n' + head, 1)
     page = page.replace('<main id="main"></main>', f'<main id="main">{main_html}</main>', 1)
     return page
 
@@ -203,7 +206,13 @@ def university_page(u, country, fields):
         row("Cost", e(costs["headline"]) + (f" <span class=\"small muted\">({e(costs.get('academicYear'))})</span>" if has(costs.get("academicYear")) else ""))
     deadlines = adm.get("deadlines") or []
     if deadlines:
-        row("Deadlines", "<br>".join(f"{e(d.get('name'))}: <strong>{e(d.get('date'))}</strong>" for d in deadlines))
+        def one(d):
+            text = d.get("displayDate") or d.get("date") or ""
+            year = bool(d.get("dateISO")) or bool(re.search(r"\b(19|20)\d{2}\b", text))
+            term = f" ({e(d['entryTerm'])})" if d.get("entryTerm") else ""
+            flag = "" if year else " \u2014 current cycle date not confirmed"
+            return f"{e(d.get('name'))}{term}: <strong>{e(text)}</strong>{flag}"
+        row("Deadlines", "<br>".join(one(d) for d in deadlines))
     row("Application fee", e(fee_text(u)))
     for key, name in (("ielts", "IELTS"), ("toefl", "TOEFL"), ("duolingo", "Duolingo English Test")):
         lines = english_lines(eng.get(key), name)
@@ -228,7 +237,13 @@ def university_page(u, country, fields):
     labels = {f["id"]: f["label"] for f in fields}
     programs = ""
     if u.get("programs"):
-        programs = "<h2>Undergraduate programs</h2><p>" + e(", ".join(labels.get(p, p) for p in u["programs"])) + "</p>"
+        programs = ("<h2>Undergraduate programs</h2><p><strong>All undergraduate fields:</strong> "
+                    + e(", ".join(labels.get(p, p) for p in u["programs"])) + "</p>")
+        en = u.get("englishTaughtPrograms") or []
+        if en:
+            programs += "<p><strong>Available fully in English:</strong> " + e(", ".join(labels.get(p, p) for p in en)) + "</p>"
+        elif u.get("englishTaught") is True:
+            programs += "<p><strong>Available fully in English:</strong> not confirmed \u2014 check the official programme list.</p>"
         if has(u.get("programNote")):
             programs += f"<p>{e(u['programNote'])}</p>"
 

@@ -205,6 +205,18 @@
 
   /* ---------------- about ---------------- */
 
+  /* "Report an error" appears only when a real, monitored address is set in
+     data/registry.js (UNIPATH.config.reportErrorUrl). */
+  function reportError() {
+    var url = (U.DB.config || {}).reportErrorUrl;
+    var safe = typeof url === 'string' && /^(https:\/\/|mailto:)/i.test(url);
+    if (safe) {
+      return '<p>If something on a profile is wrong or out of date, tell us which university and section it is, what is wrong, and — if you have it — the official page that shows the correct information.</p>' +
+        '<a class="btn btn-primary" href="' + esc(url) + '" target="_blank" rel="noopener">Report an error ↗</a>';
+    }
+    return '<p>A public way to report errors has not been set up yet. Until it is, the official source linked at the bottom of every profile always takes precedence over anything shown here.</p>';
+  }
+
   function about() {
     document.title = 'About — UniPath';
     var s = stats();
@@ -248,7 +260,7 @@
         '<p>Campus photographs come from Wikimedia Commons under free licences, and every photo is credited to its author on the university profile.</p>' +
 
         '<h2 style="margin-top:36px">Found a mistake?</h2>' +
-        '<p>A way to report errors directly on the site is being prepared. Until then, the official source linked at the bottom of every profile always takes precedence over anything shown here.</p>' +
+        reportError() +
 
         '<h2 style="margin-top:36px">Disclaimer</h2>' +
         '<div class="notice notice-warn"><span class="ico">⚠️</span><div>' + esc(U.DISCLAIMER) + '</div></div>' +

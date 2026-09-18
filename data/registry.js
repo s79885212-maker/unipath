@@ -9,6 +9,13 @@ window.UNIPATH = window.UNIPATH || {
   universities: [],
   /* Admission statistics layer — see data/admission-profiles.js */
   profiles: {},
+  /* Site settings. reportErrorUrl: a real, monitored address for error
+     reports (an https:// form or issue link, or a mailto: link). While it is
+     null the About page shows neutral text and no button — never a form
+     that goes nowhere. */
+  config: {
+    reportErrorUrl: null
+  },
   /* Program taxonomy. Add a key here and every filter/menu picks it up. */
   fields: [
     { id: 'business',         label: 'Business',          icon: '📊' },
@@ -40,6 +47,11 @@ window.UNIPATH.applyLayers = function () {
   DB._layersApplied = true;
   var profiles = DB.profiles || {};
   var photos = DB.photos || {};
+  /* Static pages at /university/<id>/ declare <meta name="unipath-root" content="/">:
+     photo paths in data/photos.js are relative to the site root, so they get it as a prefix. */
+  var rootMeta = typeof document !== 'undefined' && document.querySelector ? document.querySelector('meta[name="unipath-root"]') : null;
+  var root = rootMeta ? rootMeta.getAttribute('content') || '' : '';
+  function at(path) { return root && !/^(\/|[a-z]+:)/i.test(path) ? root + path : path; }
   DB.universities.forEach(function (u) {
     var p = profiles[u.id];
     if (p) {
@@ -55,7 +67,13 @@ window.UNIPATH.applyLayers = function () {
     }
     var list = photos[u.id];
     if (list && list.length) {
-      u.photos = { main: list[0].src, thumb: list[0].src.replace(/[^/]+$/, 'thumb.jpg'), gallery: list };
+      var gallery = list.map(function (g) {
+        var copy = {};
+        for (var k in g) if (g.hasOwnProperty(k)) copy[k] = g[k];
+        copy.src = at(g.src);
+        return copy;
+      });
+      u.photos = { main: gallery[0].src, thumb: gallery[0].src.replace(/[^/]+$/, 'thumb.jpg'), gallery: gallery };
     }
   });
 };

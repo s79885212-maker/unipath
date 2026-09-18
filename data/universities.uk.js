@@ -25,6 +25,7 @@ window.UNIPATH.universities.push(
   englishTaught: true,
   languageOfInstruction: 'English',
   programs: ['humanities','social-sciences','mathematics','computer-science','engineering','economics','law','medicine','biology','psychology','arts'],
+  englishTaughtPrograms: ['humanities','social-sciences','mathematics','computer-science','engineering','economics','law','medicine','biology','psychology','arts'],
   programNote: 'Oxford admits to a specific course from day one; there is no "undeclared" year and changing course later is difficult. Philosophy, Politics and Economics (PPE) is the traditional route towards politics and business, and there is no undergraduate business degree.',
   links: {
     website: 'https://www.ox.ac.uk/',
@@ -39,11 +40,11 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['UCAS (required)', 'Admissions test for most courses, registered separately'],
     deadlines: [
-      { name: 'UCAS application (2027 entry)', date: '15 October 2026', note: 'Closes at 18:00 UK time — three months earlier than most UK universities' },
-      { name: 'Admissions tests', date: 'October 2026', note: 'All applicants for courses that require a test sit it in October' },
-      { name: 'Interviews', date: 'December 2026', note: 'Shortlisted applicants are interviewed online' },
-      { name: 'Decisions', date: '12 January 2027', note: 'Released through UCAS' },
-      { name: 'Reach Oxford Scholarship application', date: '26 January 2027', note: 'Separate scholarship deadline for offer holders from eligible countries' }
+      { name: 'UCAS application (2027 entry)', entryTerm: '2027 entry', dateISO: '2026-10-15', date: '15 October 2026', note: 'Closes at 18:00 UK time — three months earlier than most UK universities' },
+      { name: 'Admissions tests', entryTerm: '2027 entry', date: 'October 2026', note: 'All applicants for courses that require a test sit it in October' },
+      { name: 'Interviews', entryTerm: '2027 entry', date: 'December 2026', note: 'Shortlisted applicants are interviewed online' },
+      { name: 'Decisions', entryTerm: '2027 entry', dateISO: '2027-01-12', date: '12 January 2027', note: 'Released through UCAS' },
+      { name: 'Reach Oxford Scholarship application', entryTerm: '2027 entry', dateISO: '2027-01-26', date: '26 January 2027', note: 'Separate scholarship deadline for offer holders from eligible countries' }
     ],
     applicationFee: { amount: 34.50, currency: 'GBP', waiver: 'The £34.50 is the UCAS fee for the whole application (up to five universities), not an Oxford fee' },
     documents: [
@@ -133,6 +134,7 @@ window.UNIPATH.universities.push(
   englishTaught: true,
   languageOfInstruction: 'English',
   programs: ['mathematics','engineering','computer-science','economics','humanities','social-sciences','biology','medicine','law','arts','psychology'],
+  englishTaughtPrograms: ['mathematics','engineering','computer-science','economics','humanities','social-sciences','biology','medicine','law','arts','psychology'],
   programNote: 'Cambridge groups subjects into "Triposes". Natural Sciences covers physics, chemistry and biology in one broad first year, which is unusually flexible for a UK degree; there is no undergraduate business degree, and Economics or Management Studies (as a later-year option) are the closest routes.',
   links: {
     website: 'https://www.cam.ac.uk/',
@@ -147,9 +149,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['UCAS (required)', 'My Cambridge Application — an extra form completed after the UCAS application', 'Admissions assessment for most courses'],
     deadlines: [
-      { name: 'UCAS application (2027 entry)', date: '15 October 2026', note: 'Closes at 18:00 UK time' },
+      { name: 'UCAS application (2027 entry)', entryTerm: '2027 entry', dateISO: '2026-10-15', date: '15 October 2026', note: 'Closes at 18:00 UK time' },
       { name: 'My Cambridge Application', date: 'Shortly after the UCAS deadline', note: 'Cambridge emails the form once your UCAS application arrives — the exact date is published each cycle' },
-      { name: 'Interviews', date: 'December 2026', note: 'Most overseas applicants are interviewed online' }
+      { name: 'Interviews', entryTerm: '2027 entry', date: 'December 2026', note: 'Most overseas applicants are interviewed online' }
     ],
     applicationFee: { amount: 34.50, currency: 'GBP', waiver: 'The £34.50 is the UCAS fee for the whole application, not a Cambridge fee' },
     documents: [
@@ -246,8 +248,9 @@ window.UNIPATH.universities.push(
   description: 'A university devoted entirely to science, engineering, medicine and business, on a central London campus in South Kensington. Imperial publishes one of the clearest scholarship offers for international undergraduates in the UK — a flat £15,000 a year for every year of the course.',
   englishTaught: true,
   languageOfInstruction: 'English',
-  programs: ['engineering','computer-science','mathematics','biology','medicine','business','economics'],
-  programNote: 'Every undergraduate course is in science, engineering, medicine or business — there are no humanities degrees. Many engineering courses are four-year MEng programmes rather than three-year BEng ones.',
+  programs: ['engineering','computer-science','mathematics','biology','medicine','economics'],
+  englishTaughtPrograms: ['engineering','computer-science','mathematics','biology','medicine','economics'],
+  programNote: 'Every undergraduate course is in science, engineering, medicine or business — there are no humanities degrees. Many engineering courses are four-year MEng programmes rather than three-year BEng ones. Imperial Business School\'s bachelor\'s degree is the BSc Economics, Finance and Data Science, so Imperial is listed under Economics rather than Business.',
   links: {
     website: 'https://www.imperial.ac.uk/',
     admissions: 'https://www.imperial.ac.uk/study/apply/undergraduate/',
@@ -261,8 +264,8 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['UCAS (required)', 'Admissions test for some courses, such as medicine'],
     deadlines: [
-      { name: 'UCAS equal consideration deadline (2027 entry)', date: '13 January 2027', note: 'Closes at 18:00 UK time' },
-      { name: 'Medicine and related courses', date: '15 October 2026', note: 'The early UCAS deadline applies to medicine' }
+      { name: 'UCAS equal consideration deadline (2027 entry)', entryTerm: '2027 entry', dateISO: '2027-01-13', date: '13 January 2027', note: 'Closes at 18:00 UK time' },
+      { name: 'Medicine and related courses', entryTerm: '2027 entry', dateISO: '2026-10-15', date: '15 October 2026', note: 'The early UCAS deadline applies to medicine' }
     ],
     applicationFee: { amount: 34.50, currency: 'GBP', waiver: 'The £34.50 UCAS fee covers the whole application, not one university' },
     documents: [
@@ -329,7 +332,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Undergraduate tuition fees', url: 'https://www.imperial.ac.uk/study/fees-and-funding/undergraduate/tuition-fees/' },
     { label: 'English language requirements', url: 'https://www.imperial.ac.uk/study/apply/english-language/' },
-    { label: 'Computing (International Programme of Study) MEng — fees and scholarships', url: 'https://www.imperial.ac.uk/study/courses/undergraduate/computing-international-programme-of-study/' }
+    { label: 'Computing (International Programme of Study) MEng — fees and scholarships', url: 'https://www.imperial.ac.uk/study/courses/undergraduate/computing-international-programme-of-study/' },
+    { label: 'Imperial Business School — undergraduate programmes', url: 'https://www.imperial.ac.uk/business-school/undergraduate/' }
   ],
   lastVerified: '2026-09-18'
 },
@@ -348,6 +352,7 @@ window.UNIPATH.universities.push(
   englishTaught: true,
   languageOfInstruction: 'English',
   programs: ['engineering','computer-science','mathematics','economics','humanities','social-sciences','arts','biology','medicine','law','psychology','education'],
+  englishTaughtPrograms: ['engineering','computer-science','mathematics','economics','humanities','social-sciences','arts','biology','medicine','law','psychology','education'],
   programNote: 'UCL offers over 400 undergraduate programmes across the arts, sciences, engineering, medicine and the built environment — the widest subject range of the UK universities in this database.',
   links: {
     website: 'https://www.ucl.ac.uk/',
@@ -362,7 +367,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['UCAS (required)'],
     deadlines: [
-      { name: 'UCAS equal consideration deadline (2027 entry)', date: '13 January 2027', note: 'Closes at 18:00 UK time; applications may stay open afterwards for some courses' },
+      { name: 'UCAS equal consideration deadline (2027 entry)', entryTerm: '2027 entry', dateISO: '2027-01-13', date: '13 January 2027', note: 'Closes at 18:00 UK time; applications may stay open afterwards for some courses' },
       { name: 'UCL Global Undergraduate Scholarship', date: '27 April (2026 date; 2027 to be confirmed)', note: 'Separate scholarship application, closes 17:00 BST' },
       { name: 'Meeting offer conditions, including English', date: '3 September (2026 date)', note: 'Offer holders must meet all conditions by 17:00 UK time' }
     ],
@@ -450,6 +455,7 @@ window.UNIPATH.universities.push(
   englishTaught: true,
   languageOfInstruction: 'English',
   programs: ['medicine','law','humanities','social-sciences','business','computer-science','engineering','mathematics','psychology','biology','education'],
+  englishTaughtPrograms: ['medicine','law','humanities','social-sciences','business','computer-science','engineering','mathematics','psychology','biology','education'],
   programNote: 'King\'s is best known for medicine, dentistry, nursing, law and war studies. Its Department of Informatics covers computer science and artificial intelligence.',
   links: {
     website: 'https://www.kcl.ac.uk/',
@@ -464,8 +470,8 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['UCAS (required)'],
     deadlines: [
-      { name: 'UCAS equal consideration deadline (2027 entry)', date: '13 January 2027', note: 'Closes at 18:00 UK time' },
-      { name: 'Medicine and dentistry', date: '15 October 2026', note: 'The early UCAS deadline applies' }
+      { name: 'UCAS equal consideration deadline (2027 entry)', entryTerm: '2027 entry', dateISO: '2027-01-13', date: '13 January 2027', note: 'Closes at 18:00 UK time' },
+      { name: 'Medicine and dentistry', entryTerm: '2027 entry', dateISO: '2026-10-15', date: '15 October 2026', note: 'The early UCAS deadline applies' }
     ],
     applicationFee: { amount: 34.50, currency: 'GBP', waiver: 'The £34.50 UCAS fee covers the whole application' },
     documents: [
@@ -552,6 +558,7 @@ window.UNIPATH.universities.push(
   englishTaught: true,
   languageOfInstruction: 'English',
   programs: ['humanities','social-sciences','computer-science','engineering','mathematics','biology','medicine','business','economics','arts','psychology','law','education'],
+  englishTaughtPrograms: ['humanities','social-sciences','computer-science','engineering','mathematics','biology','medicine','business','economics','arts','psychology','law','education'],
   programNote: 'Most Edinburgh honours degrees take four years, and students take a wider set of subjects in years one and two before specialising. Informatics is the department covering computer science and artificial intelligence.',
   links: {
     website: 'https://www.ed.ac.uk/',
@@ -566,8 +573,8 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['UCAS (required)'],
     deadlines: [
-      { name: 'UCAS equal consideration deadline (2027 entry)', date: '13 January 2027', note: 'Closes at 18:00 UK time' },
-      { name: 'Medicine and veterinary medicine', date: '15 October 2026', note: 'The early UCAS deadline applies' }
+      { name: 'UCAS equal consideration deadline (2027 entry)', entryTerm: '2027 entry', dateISO: '2027-01-13', date: '13 January 2027', note: 'Closes at 18:00 UK time' },
+      { name: 'Medicine and veterinary medicine', entryTerm: '2027 entry', dateISO: '2026-10-15', date: '15 October 2026', note: 'The early UCAS deadline applies' }
     ],
     applicationFee: { amount: 34.50, currency: 'GBP', waiver: 'The £34.50 UCAS fee covers the whole application' },
     documents: [
@@ -657,6 +664,7 @@ window.UNIPATH.universities.push(
   englishTaught: true,
   languageOfInstruction: 'English',
   programs: ['engineering','computer-science','business','economics','humanities','social-sciences','biology','medicine','mathematics','psychology','law','arts','education'],
+  englishTaughtPrograms: ['engineering','computer-science','business','economics','humanities','social-sciences','biology','medicine','mathematics','psychology','law','arts','education'],
   programNote: 'Manchester teaches across essentially every major subject area, and several engineering and science degrees can be taken as four-year MEng/MSci programmes or with a year in industry.',
   links: {
     website: 'https://www.manchester.ac.uk/',
@@ -671,8 +679,8 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['UCAS (required)'],
     deadlines: [
-      { name: 'UCAS equal consideration deadline (2027 entry)', date: '13 January 2027', note: 'Closes at 18:00 UK time' },
-      { name: 'Medicine and dentistry', date: '15 October 2026', note: 'The early UCAS deadline applies' }
+      { name: 'UCAS equal consideration deadline (2027 entry)', entryTerm: '2027 entry', dateISO: '2027-01-13', date: '13 January 2027', note: 'Closes at 18:00 UK time' },
+      { name: 'Medicine and dentistry', entryTerm: '2027 entry', dateISO: '2026-10-15', date: '15 October 2026', note: 'The early UCAS deadline applies' }
     ],
     applicationFee: { amount: 34.50, currency: 'GBP', waiver: 'The £34.50 UCAS fee covers the whole application' },
     documents: [
@@ -759,6 +767,7 @@ window.UNIPATH.universities.push(
   englishTaught: true,
   languageOfInstruction: 'English',
   programs: ['mathematics','economics','business','computer-science','engineering','humanities','social-sciences','law','psychology','biology','arts'],
+  englishTaughtPrograms: ['mathematics','economics','business','computer-science','engineering','humanities','social-sciences','law','psychology','biology','arts'],
   programNote: 'Warwick is strongest in mathematics, economics, computer science and business. Many degrees can be combined — for example Mathematics and Economics, or Computer Science with Business Studies.',
   links: {
     website: 'https://warwick.ac.uk/',
@@ -773,8 +782,8 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['UCAS (required)'],
     deadlines: [
-      { name: 'UCAS equal consideration deadline (2027 entry)', date: '13 January 2027', note: 'Closes at 18:00 UK time' },
-      { name: 'Medicine (MBChB)', date: '15 October 2026', note: 'The early UCAS deadline applies' }
+      { name: 'UCAS equal consideration deadline (2027 entry)', entryTerm: '2027 entry', dateISO: '2027-01-13', date: '13 January 2027', note: 'Closes at 18:00 UK time' },
+      { name: 'Medicine (MBChB)', entryTerm: '2027 entry', dateISO: '2026-10-15', date: '15 October 2026', note: 'The early UCAS deadline applies' }
     ],
     applicationFee: { amount: 34.50, currency: 'GBP', waiver: 'The £34.50 UCAS fee covers the whole application' },
     documents: [

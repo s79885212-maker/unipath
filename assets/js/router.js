@@ -138,8 +138,25 @@
     link.href = global.location.origin + path;
   }
 
+  /* On a static page (/university/<id>/, /country/<code>/) the app's
+     "#/..." links belong to the home document at "/". Send them there
+     instead of stacking a hash route on top of the static URL. */
+  var ROOT_META = document.querySelector('meta[name="unipath-root"]');
+  function wireStaticLinks() {
+    if (!ROOT_META) return;
+    var root = ROOT_META.getAttribute('content') || '/';
+    document.addEventListener('click', function (ev) {
+      if (ev.defaultPrevented || ev.button !== 0 || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return;
+      var a = ev.target.closest && ev.target.closest('a[href^="#/"]');
+      if (!a || a.target === '_blank') return;
+      ev.preventDefault();
+      global.location.assign(root + a.getAttribute('href'));
+    });
+  }
+
   function start() {
     main = document.getElementById('main');
+    wireStaticLinks();
     /* No hash is simply the home route — avoid a redirect, which some
        sandboxed embeds block. */
     U.mount('home');

@@ -18,6 +18,7 @@ window.UNIPATH.universities.push(
   englishTaught: true,
   languageOfInstruction: 'English',
   programs: ['economics','computer-science','engineering','psychology','biology','mathematics','social-sciences','humanities','arts'],
+  englishTaughtPrograms: ['economics','computer-science','engineering','psychology','biology','mathematics','social-sciences','humanities','arts'],
   programNote: 'Harvard College offers roughly 50 undergraduate concentrations across arts and humanities, social sciences, sciences and engineering. There is no undergraduate business major; economics and applied mathematics are the usual routes into business careers.',
   links: {
     website: 'https://www.harvard.edu/',
@@ -121,6 +122,7 @@ window.UNIPATH.universities.push(
   englishTaught: true,
   languageOfInstruction: 'English',
   programs: ['computer-science','engineering','mathematics','economics','business','biology','social-sciences','humanities','arts'],
+  englishTaughtPrograms: ['computer-science','engineering','mathematics','economics','business','biology','social-sciences','humanities','arts'],
   programNote: 'Undergraduate majors are numbered by course (Course 6 is EECS, Course 15 is Management). Management Science at Sloan is the undergraduate business route.',
   links: {
     website: 'https://www.mit.edu/',
@@ -176,31 +178,32 @@ window.UNIPATH.universities.push(
   scholarships: {
     fullRide: {
       available: true,
-      internationalEligible: null,
+      internationalEligible: true,
       basis: 'need-based',
-      covers: { tuition: true, housing: null, meals: null, insurance: null, books: null },
+      covers: { tuition: null, housing: null, meals: null, insurance: null, books: null },
       renewable: true,
-      competitiveness: 'Aid is assessed, not competed for. Families earning under $100,000 with typical assets have a $0 parental contribution; families under $200,000 have full tuition paid.',
+      competitiveness: 'Aid is assessed, not competed for: every admitted student who applies for aid receives what their family is assessed to need. Families earning under $100,000 with typical assets have a $0 parental contribution; families under $200,000 have full tuition paid.',
       howToApply: 'Apply for financial aid and complete the CSS Profile; you are then automatically considered for an MIT Scholarship.',
-      note: 'MIT awards no merit scholarships — all MIT Scholarship money is need-based. Whether MIT is need-blind for international applicants was not confirmed on the pages consulted; verify on MIT\'s international aid page.'
+      note: 'MIT states that it is need-blind and full-need, and that its goal is "to admit and enroll the best students from around the world regardless of their financial circumstances". Aid meets 100% of each admitted student\'s demonstrated need and is "based entirely upon your family\'s demonstrated financial need—not any measure of merit." The size of the package depends on what the family is assessed to need, so admitted students do not all receive the same amount, and housing, food, insurance and books are covered only to the extent the package reaches them.'
     },
     merit: [],
     needBased: {
-      availableToInternational: null,
+      availableToInternational: true,
       meetsFullNeed: true,
-      needBlindInternational: null,
+      needBlindInternational: true,
       forms: ['CSS Profile'],
       deadlines: null,
-      note: 'MIT states it is "committed to helping you pay for your education and providing aid that meets 100% of your demonstrated financial need", with $0 parental contribution under $100,000 income and full tuition paid under $200,000. The pages consulted did not state the policy specifically for international applicants — confirm directly with MIT Student Financial Services.'
+      note: 'MIT states: "We are proud to be one of the very few institutions in the United States that are need-blind and full-need", "We offer aid that meets 100% of your demonstrated financial need", and "Our goal is to admit and enroll the best students from around the world regardless of their financial circumstances." Aid is need-based only — MIT gives no merit scholarships — and the amount is calculated from each family\'s demonstrated need.'
     }
   },
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'First-year deadlines & requirements', url: 'https://mitadmissions.org/apply/firstyear/deadlines-requirements/' },
     { label: 'Cost of attendance 2026–27', url: 'https://sfs.mit.edu/undergraduate-students/the-cost-of-attendance/coa/' },
-    { label: 'Affording MIT', url: 'https://mitadmissions.org/afford/' }
+    { label: 'Affording MIT', url: 'https://mitadmissions.org/afford/' },
+    { label: 'Access and affordability (need-blind, full-need)', url: 'https://mitadmissions.org/afford/cost-aid-basics/access-affordability/' }
   ],
-  lastVerified: '2026-09-16'
+  lastVerified: '2026-09-18'
 },
 
 {
@@ -215,7 +218,8 @@ window.UNIPATH.universities.push(
   description: 'Yale is need-blind for every applicant in the world and meets 100% of demonstrated need without loans. From the 2026–27 entering class, families earning under $100,000 with typical assets are expected to pay nothing at all.',
   englishTaught: true,
   languageOfInstruction: 'English',
-  programs: ['economics','computer-science','engineering','psychology','biology','mathematics','social-sciences','humanities','arts','law'],
+  programs: ['economics','computer-science','engineering','psychology','biology','mathematics','social-sciences','humanities','arts'],
+  englishTaughtPrograms: ['economics','computer-science','engineering','psychology','biology','mathematics','social-sciences','humanities','arts'],
   programNote: 'Yale College offers about 80 undergraduate majors. There is no undergraduate business degree; Economics is the largest major and the usual route into business careers.',
   links: {
     website: 'https://www.yale.edu/',
@@ -298,7 +302,7 @@ window.UNIPATH.universities.push(
     { label: 'International students', url: 'https://admissions.yale.edu/international' },
     { label: 'Affordability / need-based aid', url: 'https://admissions.yale.edu/affordability' }
   ],
-  lastVerified: '2026-09-16'
+  lastVerified: '2026-09-18'
 },
 
 {
@@ -314,8 +318,9 @@ window.UNIPATH.universities.push(
   description: 'A large private university spread through Manhattan with one of the biggest international student populations in the United States. NYU states that first-year students admitted to the New York campus have 100% of demonstrated need met regardless of citizenship, provided they apply for aid on time.',
   englishTaught: true,
   languageOfInstruction: 'English',
-  programs: ['business','economics','computer-science','engineering','psychology','biology','mathematics','social-sciences','humanities','arts','law','medicine'],
-  programNote: 'NYU admits to a specific school or college — Stern (business), Tandon (engineering), Tisch (arts), CAS (arts & science) and others — so requirements and competitiveness differ by school.',
+  programs: ['business','economics','computer-science','engineering','psychology','biology','mathematics','social-sciences','humanities','arts','medicine'],
+  englishTaughtPrograms: ['business','economics','computer-science','engineering','psychology','biology','mathematics','social-sciences','humanities','arts','medicine'],
+  programNote: 'NYU admits to a specific school or college — Stern (business), Tandon (engineering), Tisch (arts), CAS (arts & science) and others — so requirements and competitiveness differ by school. The Health & Medicine tag reflects the Bachelor of Science in Nursing at NYU Rory Meyers College of Nursing; medicine (MD) is graduate study in the United States.',
   links: {
     website: 'https://www.nyu.edu/',
     admissions: 'https://www.nyu.edu/admissions/undergraduate-admissions.html',
@@ -388,9 +393,10 @@ window.UNIPATH.universities.push(
     { label: 'First-year applicants', url: 'https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply/all-freshmen-applicants.html' },
     { label: 'English language testing', url: 'https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply/standardized-tests/english-language-testing.html' },
     { label: 'Financial aid — first-year applicants', url: 'https://www.nyu.edu/admissions/financial-aid-and-scholarships/applying-as-a-prospective-undergraduate-student/first-year-applicants.html' },
-    { label: 'The NYU Promise', url: 'https://www.nyu.edu/admissions/financial-aid-and-scholarships/applying-as-a-prospective-undergraduate-student/first-year-applicants/the-nyu-promise.html' }
+    { label: 'The NYU Promise', url: 'https://www.nyu.edu/admissions/financial-aid-and-scholarships/applying-as-a-prospective-undergraduate-student/first-year-applicants/the-nyu-promise.html' },
+    { label: 'Nursing (BS), traditional 4-year', url: 'https://bulletins.nyu.edu/undergraduate/nursing/programs/nursing-traditional-4-year-bs/' }
   ],
-  lastVerified: '2026-09-16'
+  lastVerified: '2026-09-18'
 },
 
 {
@@ -407,7 +413,8 @@ window.UNIPATH.universities.push(
   englishTaught: true,
   languageOfInstruction: 'English',
   programs: ['business','economics','computer-science','engineering','psychology','biology','mathematics','social-sciences','humanities','arts','medicine','education'],
-  programNote: 'Ross School of Business and the College of Engineering admit directly from high school, which makes them noticeably more competitive than general admission to LSA.',
+  englishTaughtPrograms: ['business','economics','computer-science','engineering','psychology','biology','mathematics','social-sciences','humanities','arts','medicine','education'],
+  programNote: 'Ross School of Business and the College of Engineering admit directly from high school, which makes them noticeably more competitive than general admission to LSA. The Health & Medicine tag reflects the Bachelor of Science in Nursing (BSN) at the U-M School of Nursing; medicine (MD) is graduate study in the United States.',
   links: {
     website: 'https://umich.edu/',
     admissions: 'https://admissions.umich.edu/',
@@ -479,9 +486,10 @@ window.UNIPATH.universities.push(
     { label: 'Requirements & deadlines', url: 'https://admissions.umich.edu/apply/first-year-applicants/requirements-deadlines' },
     { label: 'Exams & visas (English requirements)', url: 'https://admissions.umich.edu/apply/international-applicants/exams-visas' },
     { label: 'International students', url: 'https://admissions.umich.edu/i-am/international-students' },
-    { label: 'Costs', url: 'https://admissions.umich.edu/costs-aid/costs' }
+    { label: 'Costs', url: 'https://admissions.umich.edu/costs-aid/costs' },
+    { label: 'School of Nursing — BSN first-year entry', url: 'https://nursing.umich.edu/admissions-aid/admission-requirements/bachelor-science-nursing-bsn-first-year-entry' }
   ],
-  lastVerified: '2026-09-16'
+  lastVerified: '2026-09-18'
 },
 
 {
@@ -497,8 +505,9 @@ window.UNIPATH.universities.push(
   description: 'A very large public university with an unusually open admissions policy for a research institution — a 3.0 GPA meets the published academic requirement — plus automatic merit scholarship consideration for international students. A realistic option for strong-but-not-elite applicants.',
   englishTaught: true,
   languageOfInstruction: 'English',
-  programs: ['business','economics','computer-science','engineering','psychology','biology','mathematics','social-sciences','humanities','arts','law','medicine','education'],
-  programNote: 'ASU offers more than 350 undergraduate degree programmes across its campuses. Some programmes set higher admission or English requirements than the university minimum and may consider ACT/SAT scores.',
+  programs: ['business','economics','computer-science','engineering','psychology','biology','mathematics','social-sciences','humanities','arts','medicine','education'],
+  englishTaughtPrograms: ['business','economics','computer-science','engineering','psychology','biology','mathematics','social-sciences','humanities','arts','medicine','education'],
+  programNote: 'ASU offers more than 350 undergraduate degree programmes across its campuses. Some programmes set higher admission or English requirements than the university minimum and may consider ACT/SAT scores. The Health & Medicine tag reflects the Nursing BSN at ASU\'s Edson College of Nursing and Health Innovation; medicine (MD) is graduate study in the United States.',
   links: {
     website: 'https://www.asu.edu/',
     admissions: 'https://admission.asu.edu/',
@@ -598,9 +607,10 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'International first-year student admission', url: 'https://admission.asu.edu/apply/international/first-year' },
     { label: 'English language proficiency admission', url: 'https://admission.asu.edu/apply/international/undergrad/english-proficiency' },
-    { label: 'International student cost of college', url: 'https://admission.asu.edu/cost-aid/international' }
+    { label: 'International student cost of college', url: 'https://admission.asu.edu/cost-aid/international' },
+    { label: 'Nursing, BSN', url: 'https://degrees.asu.edu/bachelors/major/ASU00/NUNURDBSN/nursing' }
   ],
-  lastVerified: '2026-09-16'
+  lastVerified: '2026-09-18'
 },
 
 {
@@ -617,7 +627,8 @@ window.UNIPATH.universities.push(
   englishTaught: true,
   languageOfInstruction: 'English',
   programs: ['business','economics','computer-science','engineering','psychology','biology','mathematics','social-sciences','humanities','arts','education','medicine'],
-  programNote: 'UA offers a broad range of bachelor\'s degrees; the Culverhouse College of Business and the College of Engineering are the largest draws for international applicants.',
+  englishTaughtPrograms: ['business','economics','computer-science','engineering','psychology','biology','mathematics','social-sciences','humanities','arts','education','medicine'],
+  programNote: 'UA offers a broad range of bachelor\'s degrees; the Culverhouse College of Business and the College of Engineering are the largest draws for international applicants. The Health & Medicine tag reflects the Bachelor of Science in Nursing at UA\'s Capstone College of Nursing; medicine (MD) is graduate study in the United States.',
   links: {
     website: 'https://www.ua.edu/',
     admissions: 'https://admissions.ua.edu/',
@@ -701,9 +712,10 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'International freshman scholarships', url: 'https://afford.ua.edu/scholarships/international/' },
     { label: 'International freshman admissions', url: 'https://admissions.ua.edu/international/freshman/' },
-    { label: 'English language proficiency policy', url: 'https://admissions.ua.edu/international/english-language-proficiency/' }
+    { label: 'English language proficiency policy', url: 'https://admissions.ua.edu/international/english-language-proficiency/' },
+    { label: 'Capstone College of Nursing — BSN', url: 'https://nursing.ua.edu/academics/undergraduate/bsn/' }
   ],
-  lastVerified: '2026-09-16'
+  lastVerified: '2026-09-18'
 },
 
 {
@@ -719,6 +731,7 @@ window.UNIPATH.universities.push(
   englishTaught: true,
   languageOfInstruction: 'English',
   programs: ['business','economics','computer-science','psychology','biology','mathematics','social-sciences','humanities','arts','education','engineering'],
+  englishTaughtPrograms: ['business','economics','computer-science','psychology','biology','mathematics','social-sciences','humanities','arts','education','engineering'],
   programNote: 'A small liberal arts college with around 30 undergraduate majors. Every student works a campus job as part of the Work College model.',
   links: {
     website: 'https://www.berea.edu/',
@@ -792,9 +805,10 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Student financial aid', url: 'https://www.berea.edu/student-financial-aid' },
     { label: 'International applicant information', url: 'https://www.berea.edu/admissions/admission-information/apply/checklist-items/international-faqs' },
-    { label: 'No Tuition Promise', url: 'https://www.berea.edu/admissions/no-tuition-promise/' }
+    { label: 'No Tuition Promise', url: 'https://www.berea.edu/admissions/no-tuition-promise/' },
+    { label: 'Economics and Business — majors and minors', url: 'https://www.berea.edu/academics/departments-programs/economics-and-business/eco-bus-majors-and-minors' }
   ],
-  lastVerified: '2026-09-16'
+  lastVerified: '2026-09-18'
 }
 ,
 
@@ -812,7 +826,8 @@ window.UNIPATH.universities.push(
   englishTaught: true,
   languageOfInstruction: 'English',
   programs: ['computer-science','engineering','business','economics','mathematics','biology','social-sciences','humanities','psychology','arts','law','education'],
-  programNote: 'Berkeley admits to a college — Letters and Science, Engineering, Chemistry, Environmental Design, Business or Natural Resources — and some majors, notably Computer Science and Haas business, are capped and far harder to enter than the university as a whole.',
+  englishTaughtPrograms: ['computer-science','engineering','business','economics','mathematics','biology','social-sciences','humanities','psychology','arts','law','education'],
+  programNote: 'Berkeley admits to a college — Letters and Science, Engineering, Chemistry, Environmental Design, Business or Natural Resources — and some majors, notably Computer Science and Haas business, are capped and far harder to enter than the university as a whole. The Law & Policy tag reflects Berkeley\'s undergraduate Legal Studies major (BA), taught under the supervision of the law school; law as a professional degree (JD) is graduate study.',
   links: {
     website: 'https://www.berkeley.edu/',
     admissions: 'https://admissions.berkeley.edu/',
@@ -906,7 +921,8 @@ window.UNIPATH.universities.push(
     { label: 'Student budgets (cost of attendance)', url: 'https://financialaid.berkeley.edu/how-aid-works/student-budgets-cost-of-attendance/' },
     { label: 'Financial aid for international students', url: 'https://financialaid.berkeley.edu/apply-now/international-students/' },
     { label: 'Scholarship opportunities for international students', url: 'https://financialaid.berkeley.edu/types-of-aid-at-berkeley/scholarships/regents-and-chancellors-scholarship/international-student-scholarships/' },
-    { label: 'UC — applying for admission as an international applicant', url: 'https://admission.universityofcalifornia.edu/admission-requirements/international-applicants/applying-for-admission/' }
+    { label: 'UC — applying for admission as an international applicant', url: 'https://admission.universityofcalifornia.edu/admission-requirements/international-applicants/applying-for-admission/' },
+    { label: 'Legal Studies undergraduate program', url: 'https://jsp-ls.berkeley.edu/legal-studies' }
   ],
   lastVerified: '2026-09-18'
 },
@@ -923,7 +939,8 @@ window.UNIPATH.universities.push(
   description: 'A small, undergraduate-focused Ivy League university in New Jersey. Princeton applies exactly the same financial aid policy to international students as to Americans: admission is need-blind, every admitted student\'s full demonstrated need is met with grants, and there are no loans in aid packages.',
   englishTaught: true,
   languageOfInstruction: 'English',
-  programs: ['engineering','computer-science','economics','mathematics','humanities','social-sciences','biology','psychology','arts','law'],
+  programs: ['engineering','computer-science','economics','mathematics','humanities','social-sciences','biology','psychology','arts'],
+  englishTaughtPrograms: ['engineering','computer-science','economics','mathematics','humanities','social-sciences','biology','psychology','arts'],
   programNote: 'Princeton has no business, law or medical school for undergraduates; economics and the School of Public and International Affairs are the usual routes towards those careers. Every undergraduate writes a senior thesis.',
   links: {
     website: 'https://www.princeton.edu/',

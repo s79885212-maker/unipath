@@ -19,6 +19,7 @@ window.UNIPATH.universities.push(
   englishTaught: null,
   languageOfInstruction: 'Korean, with English-taught courses in many departments',
   programs: ['engineering','computer-science','business','economics','social-sciences','humanities','biology','mathematics','law','medicine','arts','education'],
+  englishTaughtPrograms: [],
   programNote: 'SNU teaches across every major field. Departments differ in how much English-medium teaching they offer, and SNU warns that weak Korean can count against you in some departments.',
   links: {
     website: 'https://en.snu.ac.kr/',
@@ -113,6 +114,7 @@ window.UNIPATH.universities.push(
   englishTaught: true,
   languageOfInstruction: 'English (most undergraduate courses are taught in English by policy)',
   programs: ['engineering','computer-science','mathematics','biology','business','economics','social-sciences'],
+  englishTaughtPrograms: ['engineering','computer-science','mathematics','biology','business'],
   programNote: 'KAIST undergraduates enter without a declared major and choose their department after the first year. Its strengths are engineering, computer science, natural sciences and mathematics.',
   links: {
     website: 'https://www.kaist.ac.kr/en/',
@@ -203,6 +205,7 @@ window.UNIPATH.universities.push(
   englishTaught: true,
   languageOfInstruction: 'English — all UIC courses are conducted in English',
   programs: ['economics','business','social-sciences','humanities','computer-science','engineering','biology','arts','law','psychology'],
+  englishTaughtPrograms: ['humanities','social-sciences','engineering'],
   programNote: 'UIC is organised into divisions covering liberal arts and sciences, humanities/social sciences, integrated social sciences and engineering, and science and technology.',
   links: {
     website: 'https://www.yonsei.ac.kr/en_sc/index.do',
@@ -301,6 +304,7 @@ window.UNIPATH.universities.push(
   englishTaught: null,
   languageOfInstruction: 'Korean and English',
   programs: ['business','economics','engineering','computer-science','social-sciences','humanities','law','medicine','biology','mathematics','psychology','arts'],
+  englishTaughtPrograms: [],
   programNote: 'Korea University teaches across all major fields. Whether you can study largely in English depends on your department — students with high English proficiency may be exempted from intensive Korean language training.',
   links: {
     website: 'https://www.korea.edu/en/index.do',
@@ -389,6 +393,7 @@ window.UNIPATH.universities.push(
   englishTaught: true,
   languageOfInstruction: 'Korean and English',
   programs: ['business','economics','engineering','computer-science','social-sciences','humanities','biology','mathematics','medicine','arts','education','law'],
+  englishTaughtPrograms: [],
   programNote: 'SKKU splits into a Humanities and Social Sciences campus in central Seoul and a Natural Sciences campus in Suwon. Scholarship rules differ slightly between the two.',
   links: {
     website: 'https://www.skku.edu/eng/',
@@ -480,6 +485,7 @@ window.UNIPATH.universities.push(
   englishTaught: true,
   languageOfInstruction: 'Korean, with an English Track at the Seoul campus',
   programs: ['engineering','computer-science','business','economics','social-sciences','humanities','arts','biology','mathematics','education'],
+  englishTaughtPrograms: [],
   programNote: 'The Seoul campus runs English Track courses; the ERICA campus in Ansan runs its own international programmes.',
   links: {
     website: 'https://www.hanyang.ac.kr/web/eng',
@@ -572,6 +578,7 @@ window.UNIPATH.universities.push(
   englishTaught: true,
   languageOfInstruction: 'Korean, with English-taught programmes including the Division of International Studies',
   programs: ['social-sciences','humanities','business','economics','engineering','computer-science','biology','arts','education','psychology','medicine','law'],
+  englishTaughtPrograms: ['social-sciences'],
   programNote: 'The Division of International Studies is the main fully English-taught undergraduate route and is exempt from the TOPIK graduation requirement that applies elsewhere.',
   links: {
     website: 'https://www.ewha.ac.kr/ewhaen/index.do',
@@ -666,6 +673,7 @@ window.UNIPATH.universities.push(
   englishTaught: true,
   languageOfInstruction: 'Korean, with an English Track and a Department of International Studies',
   programs: ['business','economics','engineering','computer-science','social-sciences','humanities','arts','medicine','biology','education','law'],
+  englishTaughtPrograms: ['social-sciences'],
   programNote: 'Kyung Hee runs a Seoul campus and a Global campus in Yongin. The Department of International Studies and the English Track are the main English-medium routes.',
   links: {
     website: 'https://www.khu.ac.kr/eng/',

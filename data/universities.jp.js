@@ -19,6 +19,7 @@ window.UNIPATH.universities.push(
   englishTaught: null,
   languageOfInstruction: 'Japanese, with some English-taught routes',
   programs: ['engineering','computer-science','economics','mathematics','biology','social-sciences','humanities','law','medicine','arts'],
+  englishTaughtPrograms: [],
   programNote: 'Undergraduates enter a Junior Division for two years of broad study at Komaba before moving to a Senior Division faculty. PEAK offered two English-medium senior-division tracks — Japan in East Asia, and Environmental Sciences.',
   links: {
     website: 'https://www.u-tokyo.ac.jp/en/',
@@ -112,6 +113,7 @@ window.UNIPATH.universities.push(
   englishTaught: true,
   languageOfInstruction: 'Bilingual — English and Japanese',
   programs: ['engineering','computer-science','economics','mathematics','biology','social-sciences','humanities','law','medicine','education'],
+  englishTaughtPrograms: [],
   programNote: 'Kyoto iUP is a 4.5-year route: a six-month preparatory course followed by four years of undergraduate study in a chosen faculty. Students graduate with academic-level Japanese in addition to their degree.',
   links: {
     website: 'https://www.kyoto-u.ac.jp/en',
@@ -201,6 +203,7 @@ window.UNIPATH.universities.push(
   englishTaught: true,
   languageOfInstruction: 'English (English-based degree programmes) or Japanese',
   programs: ['economics','business','social-sciences','computer-science','engineering','mathematics','humanities','arts','law'],
+  englishTaughtPrograms: ['economics','social-sciences','humanities','mathematics','computer-science','engineering'],
   programNote: 'Six schools offer English-based degrees: Political Science and Economics (Political Science, Economics, Global Political Economy); Social Sciences (TAISI); International Liberal Studies (SILS); Culture, Media and Society (Transcultural Studies, Global Studies in Japanese Cultures); Fundamental Science and Engineering (Mathematical Sciences, Computer Science and Communications Engineering); and Creative Science and Engineering (Mechanical Engineering, Civil and Environmental Engineering).',
   links: {
     website: 'https://www.waseda.jp/top/en/',
@@ -290,6 +293,7 @@ window.UNIPATH.universities.push(
   englishTaught: true,
   languageOfInstruction: 'English (PEARL and GIGA) or Japanese',
   programs: ['economics','business','social-sciences','computer-science','engineering','humanities','law','medicine','arts'],
+  englishTaughtPrograms: ['economics','social-sciences','computer-science'],
   programNote: 'PEARL (Programme in Economics for Alliances, Research and Leadership) sits in the Faculty of Economics. GIGA spans the Faculty of Policy Management and the Faculty of Environment and Information Studies at the Shonan Fujisawa Campus, combining technology, design, business and policy.',
   links: {
     website: 'https://www.keio.ac.jp/en/',
@@ -371,6 +375,7 @@ window.UNIPATH.universities.push(
   englishTaught: true,
   languageOfInstruction: 'English (Faculty of Liberal Arts and other English-taught programmes) or Japanese',
   programs: ['social-sciences','humanities','economics','business','engineering','computer-science','arts','law','education'],
+  englishTaughtPrograms: ['humanities','social-sciences','engineering'],
   programNote: 'The Faculty of Liberal Arts (FLA) is the flagship English-taught route. Sophia also runs English-taught programmes in science and technology, and in green engineering and science.',
   links: {
     website: 'https://www.sophia.ac.jp/eng/',
@@ -463,6 +468,7 @@ window.UNIPATH.universities.push(
   englishTaught: true,
   languageOfInstruction: 'Bilingual — English and Japanese',
   programs: ['social-sciences','humanities','economics','business','computer-science','mathematics','biology','psychology','arts','education'],
+  englishTaughtPrograms: [],
   programNote: 'ICU has a single College of Liberal Arts with one admission point; students choose from around 30 majors at the end of their second year rather than applying to a faculty.',
   links: {
     website: 'https://www.icu.ac.jp/en/',
@@ -568,6 +574,7 @@ window.UNIPATH.universities.push(
   englishTaught: true,
   languageOfInstruction: 'English and Japanese (dual-language campus)',
   programs: ['business','economics','social-sciences','humanities','computer-science','education','arts'],
+  englishTaughtPrograms: ['social-sciences','business'],
   programNote: 'APU has colleges covering Asia Pacific Studies, International Management (AACSB-accredited) and Sustainability and Tourism. Students can study in English throughout while learning Japanese alongside.',
   links: {
     website: 'https://en.apu.ac.jp/home/',
@@ -665,6 +672,7 @@ window.UNIPATH.universities.push(
   englishTaught: true,
   languageOfInstruction: 'English (FGL / Gateway College) or Japanese',
   programs: ['engineering','biology','computer-science','mathematics','medicine','social-sciences','humanities','economics'],
+  englishTaughtPrograms: [],
   programNote: 'FGL taught three English-medium undergraduate courses: Advanced Molecular Chemistry (AMC), International Mechanical and Aerospace Engineering (IMAC-U) and Applied Marine Biology (AMB). These are being succeeded by Gateway College from 2027.',
   links: {
     website: 'https://www.tohoku.ac.jp/en/',

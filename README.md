@@ -182,6 +182,29 @@ tools/prerender.py      Static university/country pages + sitemap (run by the bu
 /country/uk/                    Static, indexable country page
 ```
 
+## Programmes, English-taught fields and deadlines
+
+- `programs`: every confirmed **bachelor's** field at the university. Professional
+  degrees that are graduate study (a US JD or MD) are not listed; where a tag rests
+  on a specific bachelor's degree (e.g. nursing under Health & Medicine), the
+  `programNote` says so.
+- `englishTaughtPrograms`: only the fields available as a fully English-taught
+  or official English-track bachelor's degree. For the US and UK it equals
+  `programs`; for Japan and Korea it lists only routes named in the record, and is
+  `[]` when the fields are not confirmed. With "English-taught degree available"
+  selected, the field filter uses this list instead of `programs`.
+- Deadlines: `{ name, date, note }` still works. New records may add `entryTerm`
+  (e.g. `'2027 entry'`), `dateISO` (`'2027-01-13'`) and `displayDate`. A date
+  without a year is shown as "Current cycle date not confirmed"; a past cycle's
+  date is never rolled forward. `UP.deadlineInfo()` exposes an ISO date for
+  future "nearest deadline" sorting.
+
+## Reporting errors
+
+`UNIPATH.config.reportErrorUrl` in `data/registry.js` is empty on purpose. Set it
+to a real, monitored `https://` form/issue link or a `mailto:` address and the
+About page shows a "Report an error" button; until then it shows neutral text.
+
 ## Adding a university
 
 Append one object to the relevant `data/universities.<code>.js` file. Nothing else

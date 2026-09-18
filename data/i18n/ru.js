@@ -1103,7 +1103,7 @@ window.UNIPATH_I18N.ru = {
   "Route B option 2 (qualifications completed by 31 August 2027): IB 38/42 across six subjects plus at least 2 points for TOK/EE; International A-Level with at least three A grades (Cambridge, OxfordAQA, Pearson Edexcel or LRN); European Baccalaureate average of 87%+. Other country-specific qualifications may be accepted — contact the office.": "Route B, вариант 2 (аттестат получен до 31 августа 2027): IB 38/42 по шести предметам и не менее 2 баллов за TOK/EE; International A-Level не менее чем с тремя оценками A (Cambridge, OxfordAQA, Pearson Edexcel или LRN); средний балл European Baccalaureate от 87%. Могут приниматься и национальные аттестаты других стран — уточняйте в приёмной комиссии.",
   "SAT / ACT policy": "Политика по SAT / ACT",
   "SAT and GPA targets follow Harvard's published middle-50% ranges above. The IELTS target is an estimate, since Harvard publishes none.": "Ориентиры по SAT и GPA основаны на опубликованных Harvard диапазонах средних 50% (см. выше). Ориентир по IELTS — оценка, так как Harvard его не публикует.",
-  "SAT of admitted students": "SAT поступивших",
+  "SAT of admitted students": "SAT у поступивших студентов",
   "SAT or ACT is required.": "Требуется SAT или ACT.",
   "SAT or ACT required unless you hold (or expect) the IB Diploma or three GCE A-Levels, or have at least two years of career experience. No minimum score. The SAT must be sent directly by the College Board and taken within two years.": "SAT или ACT обязательны, если у вас нет (и не ожидается) диплома IB или трёх GCE A-Level либо как минимум двух лет опыта работы. Минимального балла нет. SAT должен прийти напрямую от College Board и быть сдан не раньше чем за два года.",
   "SAT or ACT required unless you hold the IB Diploma or three A-Levels.": "SAT или ACT обязательны, если у вас нет диплома IB или трёх A-Level.",
@@ -2105,8 +2105,8 @@ window.UNIPATH_I18N.ru = {
   /* ---------- SAT ---------- */
   "Median SAT:": "Медиана SAT:",
   "Average SAT:": "Средний SAT:",
-  "Reading and Writing median:": "Медиана Reading and Writing:",
-  "Math median:": "Медиана Math:",
+  "Reading and Writing median:": "Медиана по чтению и письму:",
+  "Math median:": "Медиана по математике:",
   "SAT/ACT not used": "SAT/ACT не используются",
   "Not used": "Не используется",
 
@@ -2117,5 +2117,41 @@ window.UNIPATH_I18N.ru = {
   "Key facts for international applicants": "Главное для иностранных абитуриентов",
   "Apply and learn more": "Подать заявку и узнать больше",
   "Deadlines": "Дедлайны",
-  "Good to know": "Полезно знать"
+  "Good to know": "Полезно знать",
+
+  /* ---- report an error ---- */
+  "A public way to report errors has not been set up yet. Until it is, the official source linked at the bottom of every profile always takes precedence over anything shown here.": "Публичный способ сообщить об ошибке пока не настроен. До тех пор официальный источник, ссылка на который есть внизу каждого профиля, всегда важнее того, что показано здесь.",
+  "If something on a profile is wrong or out of date, tell us which university and section it is, what is wrong, and — if you have it — the official page that shows the correct information.": "Если в профиле что-то неверно или устарело, укажите университет и раздел, опишите ошибку и, если есть, дайте ссылку на официальную страницу с правильной информацией.",
+  "Report an error ↗": "Сообщить об ошибке ↗",
+
+  /* ---- MIT financial aid ---- */
+  "MIT states that it is need-blind and full-need, and that its goal is \"to admit and enroll the best students from around the world regardless of their financial circumstances\". Aid meets 100% of each admitted student's demonstrated need and is \"based entirely upon your family's demonstrated financial need—not any measure of merit.\" The size of the package depends on what the family is assessed to need, so admitted students do not all receive the same amount, and housing, food, insurance and books are covered only to the extent the package reaches them.": "MIT заявляет, что принимает без учёта финансов семьи (need-blind) и покрывает всю потребность (full-need), а его цель — «принимать и зачислять лучших студентов со всего мира независимо от их финансового положения». Помощь покрывает 100% подтверждённой потребности каждого принятого студента и «полностью основана на подтверждённой финансовой потребности семьи — а не на каком-либо показателе успехов». Размер пакета зависит от рассчитанной потребности семьи, поэтому принятые студенты получают разные суммы, а жильё, питание, страховка и книги покрываются лишь в той мере, в какой до них доходит пакет.",
+  "MIT states: \"We are proud to be one of the very few institutions in the United States that are need-blind and full-need\", \"We offer aid that meets 100% of your demonstrated financial need\", and \"Our goal is to admit and enroll the best students from around the world regardless of their financial circumstances.\" Aid is need-based only — MIT gives no merit scholarships — and the amount is calculated from each family's demonstrated need.": "MIT пишет: «Мы гордимся тем, что входим в число очень немногих вузов США, которые принимают без учёта финансов и покрывают всю потребность», «Наша помощь покрывает 100% вашей подтверждённой финансовой потребности» и «Наша цель — принимать и зачислять лучших студентов со всего мира независимо от их финансового положения». Помощь — только по нуждаемости (стипендий за успехи в MIT нет), а сумма рассчитывается по подтверждённой потребности каждой семьи.",
+  "Aid is assessed, not competed for: every admitted student who applies for aid receives what their family is assessed to need. Families earning under $100,000 with typical assets have a $0 parental contribution; families under $200,000 have full tuition paid.": "За помощь не соревнуются — её рассчитывают: каждый принятый студент, подавший на помощь, получает то, что по расчёту нужно его семье. Семьи с доходом до $100,000 и обычными активами платят $0; при доходе до $200,000 обучение оплачивается полностью.",
+  "Access and affordability (need-blind, full-need)": "Доступность и помощь (need-blind, full-need)",
+
+  /* ---- English-taught programmes ---- */
+  "All undergraduate fields": "Все направления бакалавриата",
+  "Available fully in English": "Полностью на английском",
+  "Fields fully in English": "Направления полностью на английском",
+  "All fields taught in English": "Все направления на английском",
+  "English-taught: {#0} of {#1} fields": "На английском: {0} из {1} направлений",
+  "English route — fields not confirmed": "Есть англоязычный путь — направления не подтверждены",
+  "This university has an English-taught route, but which fields it covers is not confirmed. Check the official programme list before applying.": "В этом вузе есть англоязычный путь обучения, но какие направления он охватывает, не подтверждено. Перед подачей сверьтесь с официальным списком программ.",
+  "Other fields above are taught in the local language, or their English availability is not confirmed.": "Остальные направления выше преподаются на местном языке, либо их доступность на английском не подтверждена.",
+  "No fully English-taught bachelor’s field is confirmed.": "Ни одно направление бакалавриата полностью на английском не подтверждено.",
+  "None confirmed": "Не подтверждено",
+
+  /* ---- deadlines ---- */
+  "Entry term:": "Набор:",
+  "2027 entry": "2027",
+  "Current cycle date not confirmed": "Дата для текущего цикла не подтверждена",
+
+  /* ---- programme notes extended with the tag explanations ---- */
+  "NYU admits to a specific school or college — Stern (business), Tandon (engineering), Tisch (arts), CAS (arts & science) and others — so requirements and competitiveness differ by school. The Health & Medicine tag reflects the Bachelor of Science in Nursing at NYU Rory Meyers College of Nursing; medicine (MD) is graduate study in the United States.": "NYU принимает в конкретную школу или колледж — Stern (бизнес), Tandon (инженерия), Tisch (искусство), CAS (гуманитарные и естественные науки) и другие, — поэтому требования и конкурс зависят от школы. Направление «Здоровье и медицина» здесь означает бакалавриат по сестринскому делу (Bachelor of Science in Nursing) в NYU Rory Meyers College of Nursing; медицина (MD) в США — это уровень после бакалавриата.",
+  "Ross School of Business and the College of Engineering admit directly from high school, which makes them noticeably more competitive than general admission to LSA. The Health & Medicine tag reflects the Bachelor of Science in Nursing (BSN) at the U-M School of Nursing; medicine (MD) is graduate study in the United States.": "Ross School of Business и College of Engineering принимают сразу после школы, поэтому конкурс туда заметно выше, чем при общем поступлении в LSA. Направление «Здоровье и медицина» здесь означает бакалавриат по сестринскому делу (BSN) в U-M School of Nursing; медицина (MD) в США — это уровень после бакалавриата.",
+  "ASU offers more than 350 undergraduate degree programmes across its campuses. Some programmes set higher admission or English requirements than the university minimum and may consider ACT/SAT scores. The Health & Medicine tag reflects the Nursing BSN at ASU's Edson College of Nursing and Health Innovation; medicine (MD) is graduate study in the United States.": "ASU предлагает более 350 программ бакалавриата на разных кампусах. На некоторых программах требования к поступлению или английскому выше университетского минимума, а баллы ACT/SAT могут учитываться. Направление «Здоровье и медицина» здесь означает бакалавриат Nursing BSN в Edson College of Nursing and Health Innovation; медицина (MD) в США — это уровень после бакалавриата.",
+  "UA offers a broad range of bachelor's degrees; the Culverhouse College of Business and the College of Engineering are the largest draws for international applicants. The Health & Medicine tag reflects the Bachelor of Science in Nursing at UA's Capstone College of Nursing; medicine (MD) is graduate study in the United States.": "UA предлагает широкий выбор бакалавриата; больше всего иностранцев привлекают Culverhouse College of Business и College of Engineering. Направление «Здоровье и медицина» здесь означает бакалавриат по сестринскому делу в Capstone College of Nursing; медицина (MD) в США — это уровень после бакалавриата.",
+  "Berkeley admits to a college — Letters and Science, Engineering, Chemistry, Environmental Design, Business or Natural Resources — and some majors, notably Computer Science and Haas business, are capped and far harder to enter than the university as a whole. The Law & Policy tag reflects Berkeley's undergraduate Legal Studies major (BA), taught under the supervision of the law school; law as a professional degree (JD) is graduate study.": "Berkeley принимает в колледж — Letters and Science, Engineering, Chemistry, Environmental Design, Business или Natural Resources, — а на некоторые специальности, прежде всего Computer Science и бизнес в Haas, места ограничены, и попасть туда намного труднее, чем в сам университет. Направление «Право и политика» здесь означает бакалавриат Legal Studies (BA), который курирует юридическая школа; профессиональное юридическое образование (JD) — это уровень после бакалавриата.",
+  "Every undergraduate course is in science, engineering, medicine or business — there are no humanities degrees. Many engineering courses are four-year MEng programmes rather than three-year BEng ones. Imperial Business School's bachelor's degree is the BSc Economics, Finance and Data Science, so Imperial is listed under Economics rather than Business.": "Все программы бакалавриата — наука, инженерия, медицина или бизнес; гуманитарных нет. Многие инженерные программы — четырёхлетние MEng, а не трёхлетние BEng. Бакалавриат Imperial Business School — это BSc Economics, Finance and Data Science, поэтому Imperial отнесён к экономике, а не к бизнесу."
 };

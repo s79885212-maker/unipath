@@ -173,6 +173,17 @@
     if (has(t.estimate)) return [t.estimate + ' · UniPath estimate'];
     return [];
   }
+  /* englishTaught = at least one English-taught bachelor's route exists.
+     englishTaughtPrograms = the fields available fully in English (or on an
+     official English track). The label spells out which of the two applies. */
+  function englishPrograms(u) { return Array.isArray(u.englishTaughtPrograms) ? u.englishTaughtPrograms : []; }
+  function englishLabel(u) {
+    if (u.englishTaught !== true) return null;
+    var en = englishPrograms(u), all = u.programs || [];
+    if (en.length && en.length >= all.length) return 'All fields taught in English';
+    if (en.length) return 'English-taught: ' + en.length + ' of ' + all.length + ' fields';
+    return 'English route — fields not confirmed';
+  }
   function fullRide(u) { return u.scholarships && u.scholarships.fullRide ? u.scholarships.fullRide : {}; }
   function meritList(u) { return (u.scholarships && u.scholarships.merit) || []; }
   function needBased(u) { return (u.scholarships && u.scholarships.needBased) || {}; }
@@ -191,6 +202,34 @@
     if (f.amount === 0) return 'No application fee';
     if (!has(f.amount)) return UNKNOWN;
     return money(f.amount, f.currency || 'USD');
+  }
+  /* Deadlines may carry { entryTerm, dateISO, displayDate } in addition to the
+     older { date }. A year is shown only when the source gives one; otherwise
+     the date is flagged as not confirmed for the current cycle. `iso` is kept
+     for sorting by the nearest deadline — from dateISO, or read from a single
+     "15 October 2026"-style date. A past cycle's date is never rolled forward. */
+  var MONTH_NUM = { january: 1, february: 2, march: 3, april: 4, may: 5, june: 6, july: 7,
+    august: 8, september: 9, october: 10, november: 11, december: 12 };
+  function deadlineInfo(d) {
+    var text = has(d.displayDate) ? String(d.displayDate) : (has(d.date) ? String(d.date) : '');
+    var iso = has(d.dateISO) ? String(d.dateISO) : null;
+    if (!iso && !/–|\s-\s/.test(text)) {   /* a window ("8 Jan – 10 Feb") is not one date */
+      var m = /^\s*(\d{1,2}) ([A-Za-z]+) (\d{4})\b/.exec(text);
+      var mon = m && MONTH_NUM[m[2].toLowerCase()];
+      if (mon) iso = m[3] + '-' + (mon < 10 ? '0' : '') + mon + '-' + (m[1].length < 2 ? '0' : '') + m[1];
+    }
+    return {
+      name: d.name, note: d.note, text: text, iso: iso,
+      term: has(d.entryTerm) ? String(d.entryTerm) : null,
+      yearConfirmed: !!iso || /\b(19|20)\d{2}\b/.test(text)
+    };
+  }
+  /* Plain-HTML block for one deadline's date, term and year status (escaped). */
+  function deadlineHtml(d) {
+    var x = deadlineInfo(d);
+    return '<strong>' + esc(x.text || '—') + '</strong>' +
+      (x.term ? '<br><span class="small muted">Entry term: <span>' + esc(x.term) + '</span></span>' : '') +
+      (x.yearConfirmed ? '' : '<br><span class="small muted">Current cycle date not confirmed</span>');
   }
   function firstDeadline(u) {
     var d = u.admissions && u.admissions.deadlines;
@@ -318,7 +357,14 @@
     {
       id: 'field', title: 'Field of study',
       options: DB.fields.map(function (f) {
-        return { id: f.id, label: f.icon + ' ' + f.label, test: function (u) { return (u.programs || []).indexOf(f.id) > -1; } };
+        /* With "English-taught degree available" also selected, the field must be
+           one the university teaches fully in English (englishTaughtPrograms),
+           not merely one of its fields plus any English programme elsewhere. */
+        return { id: f.id, label: f.icon + ' ' + f.label, test: function (u, selected) {
+          var inEnglish = selected && selected.language && selected.language.indexOf('english-yes') > -1;
+          var list = inEnglish ? (u.englishTaughtPrograms || []) : (u.programs || []);
+          return list.indexOf(f.id) > -1;
+        } };
       })
     }
   ];
@@ -338,7 +384,7 @@
         if (!ids || !ids.length) continue;
         var any = ids.some(function (oid) {
           var o = optionById(gid, oid);
-          return o ? o.test(u) : true;
+          return o ? o.test(u, selected) : true;
         });
         if (!any) return false;
       }
@@ -509,7 +555,7 @@
           '<div class="loc">' + c.flag + ' <span>' + esc(u.city) + '</span>, <span>' + esc(c.name) + '</span></div>' +
           '<h3><a href="' + uniUrl(u) + '">' + esc(u.name) + '</a></h3>' +
           '<div class="pill-row">' + scholarBadge(u) +
-            (u.englishTaught === true ? '<span class="badge badge-info">English-taught</span>' : '') +
+            (englishLabel(u) ? '<span class="badge badge-info">' + esc(englishLabel(u)) + '</span>' : '') +
           '</div>' +
           '<dl class="uni-facts">' +
             '<div><dt>Cost</dt><dd>' + (costHeadline(u) ? esc(costHeadline(u)) : '<span class="unknown">Not listed</span>') + '</dd></div>' +
@@ -685,10 +731,10 @@
     DISCLAIMER: DISCLAIMER,
     country: country, field: field, uniById: uniById, unisByCountry: unisByCountry,
     displayName: displayName, uniUrl: uniUrl,
-    satPolicy: satPolicy, satLabel: satLabel, hasIelts: hasIelts, ieltsPublished: ieltsPublished, ieltsMin: ieltsMin, toeflLines: toeflLines, ieltsLabel: ieltsLabel, statsOf: statsOf, toeflMin: toeflMin,
+    satPolicy: satPolicy, satLabel: satLabel, hasIelts: hasIelts, ieltsPublished: ieltsPublished, englishPrograms: englishPrograms, englishLabel: englishLabel, ieltsMin: ieltsMin, toeflLines: toeflLines, ieltsLabel: ieltsLabel, statsOf: statsOf, toeflMin: toeflMin,
     fullRide: fullRide, meritList: meritList, needBased: needBased,
     feeAmount: feeAmount, feeWaiver: feeWaiver, feeLabel: feeLabel,
-    firstDeadline: firstDeadline, costHeadline: costHeadline, totalCostText: totalCostText,
+    firstDeadline: firstDeadline, deadlineInfo: deadlineInfo, deadlineHtml: deadlineHtml, costHeadline: costHeadline, totalCostText: totalCostText,
     search: search, FILTER_GROUPS: FILTER_GROUPS, applyFilters: applyFilters, optionById: optionById,
     compareGet: compareGet, compareSet: compareSet, compareHas: compareHas, compareToggle: compareToggle, compareClear: compareClear,
     COMPARE_MAX: COMPARE_MAX,
