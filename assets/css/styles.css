@@ -224,6 +224,9 @@ p  { margin: 0 0 1em; }
 .grid-3 { grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); }
 .grid-2 { grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); }
 .grid-4 { grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); }
+/* Country cards: always a balanced 2 × 2 on wide screens, one column on phones */
+.grid-countries { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (max-width: 700px) { .grid-countries { grid-template-columns: 1fr; } }
 
 /* ---------- Media placeholder (no fake photos) ---------- */
 .media {

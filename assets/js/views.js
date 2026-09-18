@@ -23,9 +23,6 @@
   function home() {
     var s = stats();
     var flags = U.DB.countries.map(function (c) { return c.flag; }).join(' ');
-    var featured = U.DB.universities.filter(function (u) {
-      return U.fullRide(u).available === true && U.fullRide(u).internationalEligible === true;
-    }).slice(0, 6);
 
     document.title = 'UniPath — Find Your University. Find Your Opportunity.';
 
@@ -58,7 +55,7 @@
 '<section class="section"><div class="wrap">' +
   '<div class="section-head"><span class="eyebrow">Start here</span><h2>Choose a country</h2>' +
     '<p>Each country page explains how admissions work there, what studying costs, and which scholarships international students can realistically reach.</p></div>' +
-  '<div class="grid grid-3">' + U.DB.countries.map(U.countryCard).join('') + '</div>' +
+  '<div class="grid grid-countries">' + U.DB.countries.map(U.countryCard).join('') + '</div>' +
 '</div></section>' +
 
 '<section class="section section-alt"><div class="wrap">' +
@@ -78,15 +75,7 @@
   '</div>' +
 '</div></section>' +
 
-'<section class="section"><div class="wrap">' +
-  '<div class="section-head-row"><div class="section-head" style="margin:0">' +
-    '<span class="eyebrow">Money first</span><h2>Universities with a full scholarship route</h2>' +
-    '<p>Every one of these publishes a route that can cover tuition in full for international students. Open the profile to see exactly what each award covers — and what it doesn’t.</p></div>' +
-    '<a class="btn btn-ghost" href="#/scholarships">All scholarships →</a></div>' +
-  '<div class="grid grid-3" style="margin-top:24px">' + featured.map(U.uniCard).join('') + '</div>' +
-'</div></section>' +
-
-'<section class="section section-alt"><div class="wrap"><div class="grid grid-2">' +
+'<section class="section"><div class="wrap"><div class="grid grid-2">' +
   '<div>' +
     '<div class="section-head"><span class="eyebrow">Why trust this</span><h2>Nothing important is invented</h2></div>' +
     '<p>Admission and scholarship information decides where people spend four years and a great deal of money, so this site treats accuracy as the product.</p>' +
@@ -140,7 +129,7 @@
       '<p>Four destinations so far. The data layer is built so more countries can be added without changing any page.</p>' +
       '</div></section>' +
       '<section class="section"><div class="wrap">' +
-        '<div class="grid grid-3">' + U.DB.countries.map(U.countryCard).join('') + '</div>' +
+        '<div class="grid grid-countries">' + U.DB.countries.map(U.countryCard).join('') + '</div>' +
         '<div class="grid grid-2" style="margin-top:36px">' + detail + '</div>' +
       '</div></section>';
   }
