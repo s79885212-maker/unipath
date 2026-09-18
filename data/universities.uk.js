@@ -62,7 +62,7 @@ window.UNIPATH.universities.push(
   },
   english: {
     ielts: { min: 7.5, recommended: null, note: 'IELTS Academic 7.5 overall with a minimum of 7.0 in each component. IELTS General, Life Skills and IELTS Online are not accepted.' },
-    toefl: { min: 110, recommended: null, note: 'TOEFL iBT 110 overall (Listening 22, Reading 24, Speaking 25, Writing 24) — but only for tests taken up to and including 20 January 2026. Oxford does not accept TOEFL tests taken from 21 January 2026 while the revised test is under review.' },
+    toefl: { min: 110, recommended: null, scales: [{ period: 'pre2026', min: 110, recommended: null }, { period: 'post2026', min: null, recommended: null, accepted: false }], note: 'TOEFL iBT 110 overall (Listening 22, Reading 24, Speaking 25, Writing 24) — but only for tests taken up to and including 20 January 2026. Oxford does not accept TOEFL tests taken from 21 January 2026 while the revised test is under review.' },
     duolingo: { min: null, recommended: null, note: 'Not listed among the accepted qualifications.' },
     waiver: 'Applicants from majority English-speaking countries, and holders of accepted school qualifications in English such as GCSE English Language at grade B/6 with the speaking endorsement, do not need a separate test.',
     note: 'Oxford also accepts C1 Advanced and C2 Proficiency at 191 (minimum 185 per component), Pearson PTE Academic 76 (minimum 66 in each skill) and the Oxford Test of English (Advanced) at 165. Proof is not needed when you apply — offer holders must meet the condition by 31 July of the year they receive the offer.'
@@ -277,8 +277,8 @@ window.UNIPATH.universities.push(
     notes: []
   },
   english: {
-    ielts: { min: 6.5, recommended: 7.0, note: 'Standard level: IELTS Academic 6.5 overall with a minimum of 6.0 in all elements. Higher level: 7.0 overall with a minimum of 6.5 in all elements. Which level applies is set by the course.' },
-    toefl: { min: 92, recommended: 100, note: 'Standard level: TOEFL iBT 92 overall with a minimum of 20 in all elements. Higher level: 100 overall with a minimum of 22.' },
+    ielts: { min: 6.5, recommended: null, lowestLevel: true, note: 'Standard level: IELTS Academic 6.5 overall with a minimum of 6.0 in all elements. Higher level: 7.0 overall with a minimum of 6.5 in all elements. Which level applies is set by the course.' },
+    toefl: { min: 92, recommended: null, lowestLevel: true, note: 'Standard level: TOEFL iBT 92 overall with a minimum of 20 in all elements. Higher level: 100 overall with a minimum of 22.' },
     duolingo: { min: null, recommended: null, note: 'Not listed among the accepted tests on the undergraduate page.' },
     waiver: 'Qualifications taught and examined in English can satisfy the requirement — the accepted list is on Imperial\'s English language page.',
     note: 'Imperial also lists Pearson PTE Academic at 62 (minimum 56 per element) for the standard level and 69 (minimum 62) for the higher level, plus C1 Advanced at 176 and 185 respectively. Test scores must still be valid when your course starts.'
@@ -379,8 +379,8 @@ window.UNIPATH.universities.push(
     notes: []
   },
   english: {
-    ielts: { min: 6.5, recommended: null, note: 'UCL sets five levels and each programme states which applies. Level 1: 6.5 overall with 6.0 in each component. Level 2: 7.0 with 6.5. Level 3: 7.0 with 7.0. Level 4: 7.5 with 7.0. Level 5: 8.0 with 8.0.' },
-    toefl: { min: 92, recommended: null, note: 'For tests taken before 21 January 2026: Level 1 is 92 overall (24 reading and writing, 20 speaking and listening), rising to 110 at Level 5. For tests from 21 January 2026 UCL uses the new scale: Level 1 is 4.5 overall with 4.0 in each skill, up to 5.5 at Level 5.' },
+    ielts: { min: 6.5, recommended: null, lowestLevel: true, note: 'UCL sets five levels and each programme states which applies. Level 1: 6.5 overall with 6.0 in each component. Level 2: 7.0 with 6.5. Level 3: 7.0 with 7.0. Level 4: 7.5 with 7.0. Level 5: 8.0 with 8.0.' },
+    toefl: { min: 92, recommended: null, lowestLevel: true, scales: [{ period: 'pre2026', min: 92, recommended: null }, { period: 'post2026', min: 4.5, recommended: null }], note: 'For tests taken before 21 January 2026: Level 1 is 92 overall (24 reading and writing, 20 speaking and listening), rising to 110 at Level 5. For tests from 21 January 2026 UCL uses the new scale: Level 1 is 4.5 overall with 4.0 in each skill, up to 5.5 at Level 5.' },
     duolingo: { min: null, recommended: null, note: 'Not listed among the accepted tests.' },
     waiver: 'Applicants from UK Home Office majority English-speaking countries, and holders of accepted school-leaving qualifications containing English, do not need a test.',
     note: 'UCL also accepts C1 Advanced, C2 Proficiency, PTE Academic, Trinity ISE, LanguageCert Academic and the Oxford Test of English Advanced. All components must be met in a single sitting — TOEFL MyBest and IELTS One Skill Retake are not accepted.'
@@ -482,8 +482,8 @@ window.UNIPATH.universities.push(
     ]
   },
   english: {
-    ielts: { min: 6.5, recommended: 7.0, note: 'King\'s sets bands per course. Band D: IELTS 6.5 overall with 6.0 in each skill (science, mathematics and engineering courses). Band B: 7.0 with 6.5 (arts, humanities, business, law, medicine, nursing, psychology). Band A: 7.5 with 7.0.' },
-    toefl: { min: 92, recommended: 100, note: 'For tests before 21 January 2026 — Band D: 92 overall (23 writing, 20 other skills). Band B: 100 (25 writing, 23 other skills). Band A: 109 (27 writing, 25 other skills). For tests from 21 January 2026 King\'s uses the new scale: Band D 4.5, Band B 5.0, Band A 5.5.' },
+    ielts: { min: 6.5, recommended: null, lowestLevel: true, note: 'King\'s sets bands per course. Band D: IELTS 6.5 overall with 6.0 in each skill (science, mathematics and engineering courses). Band B: 7.0 with 6.5 (arts, humanities, business, law, medicine, nursing, psychology). Band A: 7.5 with 7.0.' },
+    toefl: { min: 92, recommended: null, lowestLevel: true, scales: [{ period: 'pre2026', min: 92, recommended: null }, { period: 'post2026', min: 4.5, recommended: null }], note: 'For tests before 21 January 2026 — Band D: 92 overall (23 writing, 20 other skills). Band B: 100 (25 writing, 23 other skills). Band A: 109 (27 writing, 25 other skills). For tests from 21 January 2026 King\'s uses the new scale: Band D 4.5, Band B 5.0, Band A 5.5.' },
     duolingo: { min: null, recommended: null, note: 'Not listed among the accepted tests on the undergraduate bands page.' },
     waiver: 'Applicants from majority English-speaking countries and holders of accepted qualifications taught in English are exempt.',
     note: 'The whole test must be taken in one sitting — King\'s does not combine scores across two tests, and does not accept TOEFL MyBest or IELTS One Skill Retake. For a September 2027 start the test must be dated within two years of 1 September 2027.'
@@ -687,7 +687,7 @@ window.UNIPATH.universities.push(
     notes: []
   },
   english: {
-    ielts: { min: 6.0, recommended: 6.5, note: 'The typical minimum is IELTS 6.0 overall, but each course sets its own requirement — many ask for 6.5 or 7.0. IELTS Academic and IELTS UKVI taken at official test centres are accepted.' },
+    ielts: { min: 6.0, recommended: null, lowestLevel: true, note: 'The typical minimum is IELTS 6.0 overall, but each course sets its own requirement — many ask for 6.5 or 7.0. IELTS Academic and IELTS UKVI taken at official test centres are accepted.' },
     toefl: { min: 80, recommended: null, note: 'TOEFL iBT 80 is listed as the equivalent of IELTS 6.0. The Special Home Edition is not accepted.' },
     duolingo: { min: null, recommended: null, note: 'Not listed among the accepted tests on the language requirements page.' },
     waiver: 'Applicants from majority English-speaking countries, and holders of a bachelor\'s degree or higher from those countries, may be exempt.',
@@ -789,8 +789,8 @@ window.UNIPATH.universities.push(
     notes: []
   },
   english: {
-    ielts: { min: 6.0, recommended: 6.5, note: 'Warwick sets three bands and the course page says which applies. Band A: IELTS 6.0 with a minimum of 5.5 in each component. Band B: 6.5 with 6.0. Band C: 7.0 with 6.5.' },
-    toefl: { min: 87, recommended: 92, note: 'For tests taken before 21 January 2026 — Band A: 87, Band B: 92, Band C: 100, each with minimum component scores of 21 listening and writing, 22 reading and 23 speaking. For tests from 21 January 2026 Warwick uses the new scale: Band A and B 4.5 overall, Band C 5.0.' },
+    ielts: { min: 6.0, recommended: null, lowestLevel: true, note: 'Warwick sets three bands and the course page says which applies. Band A: IELTS 6.0 with a minimum of 5.5 in each component. Band B: 6.5 with 6.0. Band C: 7.0 with 6.5.' },
+    toefl: { min: 87, recommended: null, lowestLevel: true, scales: [{ period: 'pre2026', min: 87, recommended: null }, { period: 'post2026', min: 4.5, recommended: null }], note: 'For tests taken before 21 January 2026 — Band A: 87, Band B: 92, Band C: 100, each with minimum component scores of 21 listening and writing, 22 reading and 23 speaking. For tests from 21 January 2026 Warwick uses the new scale: Band A and B 4.5 overall, Band C 5.0.' },
     duolingo: { min: null, recommended: null, note: 'Not listed among the accepted tests on the undergraduate page.' },
     waiver: 'Applicants with accepted qualifications taught in English may be exempt — the list is on Warwick\'s English language requirements page.',
     note: 'The test must be taken in one sitting within two years and one month before the course starts; IELTS One Skill Retake is not accepted.'

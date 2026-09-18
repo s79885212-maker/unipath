@@ -40,8 +40,16 @@ path keeps the existing link.
 
 - `stats.official`: numbers the university itself publishes (US: the Common Data
   Set, sections C1/C9/C11/C12; Waseda: the SILS admissions data page).
-- `stats.targets`: UniPath guidance bands for IELTS, SAT and GPA. They are always
-  shown labelled as guidance, with the reasoning in `basis`.
+- `stats.targets`: UniPath estimate bands for IELTS, SAT and GPA. They are always
+  shown labelled "UniPath estimate", with the reasoning in `basis`.
+- `english.<test>.estimate` (+ `english.estimateBasis`): an estimated English
+  score where the university publishes none. Shown as "UniPath estimate" next to
+  its basis, and ignored by the "IELTS score published" filter, which counts only
+  an official `min` or `recommended`.
+- `english.toefl.scales`: TOEFL changed to a 1–6 scale for tests taken from
+  21 January 2026. `[{ period: 'pre2026', min, recommended },
+  { period: 'post2026', min, recommended, accepted }]` holds both published sets.
+  `lowestLevel: true` marks a `min` that is the lowest of several course levels.
 - `english`, `academics`, `admissions` and `costs` overrides, for fields confirmed
   after the base records were written.
 
@@ -126,6 +134,14 @@ to *Domain management → Add a domain* and follow the DNS instructions it shows
 The site is a single page with a hash router, so it works identically from disk,
 from a local server and from a hosted URL.
 
+For search engines and link previews, the build also writes a static page for
+every university and country (`/university/<id>/`, `/country/<code>/`) plus
+`sitemap.xml` and `robots.txt` — see `tools/prerender.py`. Each page has its own
+title, description, canonical URL and Open Graph tags, and the key facts already
+in its HTML; when JavaScript runs, the app takes over the same page. The pages
+are generated from `data/*.js` (Node.js on Netlify, macOS JavaScriptCore
+locally), so nothing is copied by hand. Old `#/university/<id>` links still work.
+
 ```
 index.html              Shell: header, #main, footer, script tags
 
@@ -137,7 +153,7 @@ assets/js/router.js     Hash router
 assets/js/gate.js       Invisible bot check (Cloudflare Turnstile)
 assets/js/i18n.js       Translation layer (EN / RU)
 
-data/registry.js        Bootstrap + study-field taxonomy
+data/registry.js        Bootstrap, study-field taxonomy, layer merge (applyLayers)
 data/countries.js       Country profiles
 data/universities.us.js 10 universities
 data/universities.jp.js 8 universities
@@ -145,10 +161,11 @@ data/universities.kr.js 8 universities
 data/universities.uk.js 8 universities
 data/photos.js          Campus photos + attribution
 data/i18n/ru.js         Russian dictionary
-data/i18n/ru.uk.js      Russian additions for the UK, Berkeley and Princeton
+data/i18n/ru.uk.js      Russian additions (UK, Berkeley, Princeton, About, estimates)
 data/admission-profiles.js  Admission statistics + target bands (updated yearly)
 
 build-artifact.py       Builds dist/ (the website to upload) and build/unipath.html
+tools/prerender.py      Static university/country pages + sitemap (run by the build)
 ```
 
 ### Routes
@@ -161,6 +178,9 @@ build-artifact.py       Builds dist/ (the website to upload) and build/unipath.h
 #/university/mit                University profile
 #/university/mit/scholarships   Profile, scrolled to a section
 #/scholarships  #/compare  #/about
+
+/university/mit/                Static, indexable page (opens the same profile)
+/country/uk/                    Static, indexable country page
 ```
 
 ## Adding a university
@@ -182,11 +202,13 @@ strictly required; every other field may be `null` and will render as
 
 ## Data rules
 
-- Every figure was read from the university's own website. Each profile lists the
-  exact pages used, and carries a `lastVerified` date.
-- Anything a university does not publish is `null` in the base records. The only
-  estimates on the site are the IELTS/SAT/GPA target bands in
-  `data/admission-profiles.js`, which are always labelled as UniPath guidance.
+- Requirements, costs, deadlines, scholarships and published statistics come from
+  the universities' own websites. Each profile lists the exact pages used, and
+  carries a `lastVerified` date.
+- Anything a university does not publish is `null` and shows as "Not confirmed" /
+  "Not published". The only estimates are in `data/admission-profiles.js` (target
+  bands and a few English scores); they are always labelled "UniPath estimate",
+  shown with their basis, and never presented as official requirements.
 - A scholarship is called a **full ride** only when the official source states what it
   covers. Coverage has three states: covered, not covered, not confirmed.
 - Campus photos come only from Wikimedia Commons under free licences (CC BY,

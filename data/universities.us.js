@@ -17,7 +17,7 @@ window.UNIPATH.universities.push(
   description: 'The oldest university in the United States and one of the best-funded. For international applicants the decisive fact is financial: Harvard evaluates applications without regard to ability to pay and offers international students exactly the same need-based aid as U.S. students.',
   englishTaught: true,
   languageOfInstruction: 'English',
-  programs: ['business','economics','computer-science','engineering','psychology','biology','mathematics','social-sciences','humanities','arts'],
+  programs: ['economics','computer-science','engineering','psychology','biology','mathematics','social-sciences','humanities','arts'],
   programNote: 'Harvard College offers roughly 50 undergraduate concentrations across arts and humanities, social sciences, sciences and engineering. There is no undergraduate business major; economics and applied mathematics are the usual routes into business careers.',
   links: {
     website: 'https://www.harvard.edu/',

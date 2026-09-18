@@ -126,10 +126,18 @@
     function testRow(label, t) {
       if (!t) return row(label, UNKNOWN);
       var v = [];
-      if (has(t.min)) v.push('<strong>Minimum: ' + esc(t.min) + '</strong>');
-      if (has(t.recommended)) v.push('<strong>Recommended / competitive: ' + esc(t.recommended) + '</strong>');
-      if (!has(t.min) && !has(t.recommended)) v.push('<span class="muted">No minimum published by the university.</span>');
-      if (has(t.estimate)) v.push('<span class="badge badge-warn">UniPath estimate</span> Aim for <strong>' + esc(t.estimate) + '</strong>');
+      if (t.scales && t.scales.length) {
+        v = U.toeflLines(u).map(function (l) { return '<strong>' + esc(l) + '</strong>'; });
+      } else {
+        if (has(t.min)) v.push('<strong>' + (t.lowestLevel ? 'Lowest minimum (varies by course): ' : 'Minimum: ') + esc(t.min) + '</strong>');
+        if (has(t.recommended)) v.push('<strong>Recommended / competitive: ' + esc(t.recommended) + '</strong>');
+      }
+      if (!has(t.min) && !has(t.recommended)) v.push('<span class="muted">Not published by the university.</span>');
+      if (has(t.estimate)) {
+        v.push('<span class="estimate-line"><span class="badge badge-warn">UniPath estimate</span> Aim for <strong>' + esc(t.estimate) + '</strong></span>');
+        if (has(eng.estimateBasis)) v.push('<span class="small muted">' + esc(eng.estimateBasis) + '</span>');
+        v.push('<span class="small muted">This is guidance, not an official requirement or a guarantee of admission.</span>');
+      }
       if (has(t.note)) v.push('<span class="small muted">' + esc(t.note) + '</span>');
       return row(label, v.length ? v.join('<br>') : UNKNOWN);
     }
@@ -151,7 +159,8 @@
       : esc(gpa));
     function testPolicyRow(label, t) {
       if (!t) return row(label, UNKNOWN);
-      var p = has(t.policy) ? '<strong>' + esc(String(t.policy).replace(/^./, function (m) { return m.toUpperCase(); })) + '</strong>' : UNKNOWN;
+      var POLICY = { required: 'Required', optional: 'Optional', accepted: 'Accepted', 'not-used': 'Not used' };
+      var p = has(t.policy) ? '<strong>' + esc(POLICY[t.policy] || String(t.policy)) + '</strong>' : UNKNOWN;
       return row(label, p + (has(t.note) ? '<br><span class="small muted">' + esc(t.note) + '</span>' : ''));
     }
     function range3(a) { return a ? esc(a[0]) + ' / <strong>' + esc(a[1]) + '</strong> / ' + esc(a[2]) : null; }
@@ -190,14 +199,14 @@
         (rows ? '<dl class="deflist">' + rows + '</dl>' : '');
       if (t.ielts || t.sat || t.gpa) {
         html += '<div class="target-box">' +
-          '<h4>🎯 Recommended target band <span class="badge badge-warn">UniPath guidance</span></h4>' +
+          '<h4>🎯 Target band <span class="badge badge-warn">UniPath estimate</span></h4>' +
           '<div class="target-grid">' +
             '<div><span>IELTS</span><b>' + or(t.ielts) + '</b></div>' +
             '<div><span>SAT</span><b>' + or(t.sat) + '</b></div>' +
             '<div><span>GPA</span><b>' + or(t.gpa) + '</b></div>' +
           '</div>' +
           (has(t.basis) ? '<p class="small muted" style="margin:10px 0 0">' + esc(t.basis) + '</p>' : '') +
-          '<p class="tiny muted" style="margin:6px 0 0">These targets are guidance for planning, not official cut-offs. Meeting them does not guarantee admission.</p>' +
+          '<p class="tiny muted" style="margin:6px 0 0">UniPath estimates are guidance for planning, not official requirements or cut-offs. Meeting them does not guarantee admission.</p>' +
         '</div>';
       }
       return html + '</div></div>';
@@ -617,7 +626,10 @@
       ['Application fee', function (u) { return U.feeLabel(u); }],
       ['group', 'Requirements'],
       ['IELTS requirement', function (u) { var l = U.ieltsLabel(u); return l ? esc(l) : UNKNOWN; }],
-      ['TOEFL requirement', function (u) { var m = U.toeflMin(u); return m ? '<strong>' + esc(m) + '</strong>' : UNKNOWN; }],
+      ['TOEFL requirement', function (u) {
+        var lines = U.toeflLines(u);
+        return lines.length ? lines.map(function (l) { return '<span>' + esc(l) + '</span>'; }).join('<br>') : UNKNOWN;
+      }],
       ['SAT / ACT policy', function (u) { return esc(U.satLabel(u)); }],
       ['Application deadline', function (u) {
         var d = u.admissions && u.admissions.deadlines;
@@ -627,16 +639,21 @@
       ['group', 'Who gets in'],
       ['Acceptance rate', function (u) { var o = (u.stats || {}).official || {}; return o.admitRate ? '<strong>' + esc(o.admitRate.value) + '%</strong>' : '<span class="unknown">Not published</span>'; }],
       ['Average GPA', function (u) { var o = (u.stats || {}).official || {}; return o.gpa && has(o.gpa.average) ? '<strong>' + esc(o.gpa.average) + '</strong>' : '<span class="unknown">Not published</span>'; }],
-      ['Median SAT', function (u) {
-        var o = (u.stats || {}).official || {}, sat = o.sat || {};
-        if (sat.composite) return '<strong>' + esc(sat.composite[1]) + '</strong>';
-        if (has(sat.mean)) return '<strong>' + esc(sat.mean) + '</strong> (average)';
-        if (sat.math && sat.rw) return '<strong>' + esc(sat.math[1] + sat.rw[1]) + '</strong> (sum of section medians)';
-        return '<span class="unknown">Not published</span>';
+      ['SAT of admitted students', function (u) {
+        /* Only published figures: a total median is never derived by adding section medians. */
+        var o = (u.stats || {}).official || {}, sat = o.sat || {}, out = [];
+        if (sat.composite) out.push('<span>Median SAT: <strong>' + esc(sat.composite[1]) + '</strong></span>');
+        if (has(sat.mean)) out.push('<span>Average SAT: <strong>' + esc(sat.mean) + '</strong></span>');
+        if (!sat.composite) {
+          if (sat.rw) out.push('<span>Reading and Writing median: <strong>' + esc(sat.rw[1]) + '</strong></span>');
+          if (sat.math) out.push('<span>Math median: <strong>' + esc(sat.math[1]) + '</strong></span>');
+        }
+        return out.length ? out.join('<br>') : '<span class="unknown">Not published</span>';
       }],
-      ['Target band (guidance)', function (u) {
+      ['UniPath estimate (target band)', function (u) {
         var t = (u.stats || {}).targets; if (!t) return UNKNOWN;
-        return '<span class="small">IELTS: ' + or(t.ielts) + '<br>SAT: ' + or(t.sat) + '<br>GPA: ' + or(t.gpa) + '</span>';
+        return '<span class="badge badge-warn">UniPath estimate</span><br><span class="small">IELTS: ' + or(t.ielts) + '<br>SAT: ' + or(t.sat) + '<br>GPA: ' + or(t.gpa) + '</span>' +
+          '<br><span class="tiny muted">Guidance only — not an official requirement.</span>';
       }],
       ['group', 'Scholarships'],
       ['Full-ride availability', function (u) {

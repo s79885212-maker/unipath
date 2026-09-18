@@ -492,7 +492,7 @@ window.UNIPATH.universities.push(
   },
   english: {
     ielts: { min: 6.5, recommended: null, note: 'Minimum overall band 6.5.' },
-    toefl: { min: 79, recommended: null, note: 'TOEFL iBT 79 for tests taken before 20 January 2026; 4.5 for tests taken on or after 21 January 2026 under the revised scale. Only single test-date scores count — MyBest scores are not accepted.' },
+    toefl: { min: 79, recommended: null, scales: [{ period: 'pre2026', min: 79, recommended: null }, { period: 'post2026', min: 4.5, recommended: null }], note: 'TOEFL iBT 79 for tests taken before 20 January 2026; 4.5 for tests taken on or after 21 January 2026 under the revised scale. Only single test-date scores count — MyBest scores are not accepted.' },
     duolingo: { min: null, recommended: null, note: 'Not confirmed on the page consulted.' },
     waiver: null,
     note: 'No Japanese language proficiency is required at the time of application.'

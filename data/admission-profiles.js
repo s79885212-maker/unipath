@@ -22,6 +22,7 @@
 
   P['harvard-university'] = {
     english: {
+      estimateBasis: 'Harvard publishes no English score for first-year applicants. The estimates follow what MIT and Yale publish as competitive.',
       ielts: { min: null, recommended: null, estimate: '7.5+', note: 'Not required for first-year applicants.' },
       toefl: { min: null, recommended: null, estimate: '100+ (5.5+ on the 2026 scale)', note: 'Not required for first-year applicants.' },
       duolingo: { min: null, recommended: null, estimate: '125+', note: 'Not required for first-year applicants.' },
@@ -50,7 +51,7 @@
   P['mit'] = {
     english: {
       ielts: { min: 7, recommended: 7.5, note: 'IELTS Academic.' },
-      toefl: { min: 90, recommended: 100, note: 'Tests before 21 January 2026. On the new scale (tests on or after 21 January 2026): minimum 5, recommended 5.5.' },
+      toefl: { min: 90, recommended: 100, scales: [{ period: 'pre2026', min: 90, recommended: 100 }, { period: 'post2026', min: 5, recommended: 5.5 }], note: 'MIT publishes both scales: minimum 90 and recommended 100 for tests taken before 21 January 2026; minimum 5 and recommended 5.5 for tests taken on or after 21 January 2026.' },
       duolingo: { min: 120, recommended: 125, note: 'Duolingo English Test (DET).' },
       waiver: 'MIT strongly recommends an English exam for non-native speakers who have used English for fewer than five years or do not speak English at home or in school. Scores are self-reported on the application and verified on enrolment.',
       note: 'MIT also accepts PTE Academic (minimum 65, recommended 70) and Cambridge C1 Advanced / C2 Proficiency (minimum 185, recommended 190).'
@@ -75,8 +76,9 @@
 
   P['yale-university'] = {
     english: {
+      estimateBasis: 'Yale publishes no Duolingo figure. The estimate follows MIT\'s published Duolingo recommendation of 125.',
       ielts: { min: null, recommended: 7, note: 'Yale\'s most competitive applicants score 7 or higher.' },
-      toefl: { min: null, recommended: 100, note: 'Most competitive applicants: at least 100 (tests before 21 January 2026) or 5+ (tests on or after 21 January 2026).' },
+      toefl: { min: null, recommended: 100, scales: [{ period: 'pre2026', min: null, recommended: 100 }, { period: 'post2026', min: null, recommended: 5 }], note: 'Most competitive applicants: at least 100 (tests before 21 January 2026) or 5+ (tests on or after 21 January 2026).' },
       duolingo: { min: null, recommended: null, estimate: '125+', note: 'Accepted. Yale publishes no competitive DET score.' },
       waiver: 'Required from non-native English speakers who have not completed at least two years of secondary education where English is the medium of instruction.',
       note: 'Yale accepts TOEFL, IELTS, Cambridge English, the Duolingo English Test or InitialView.'
@@ -102,8 +104,9 @@
 
   P['new-york-university'] = {
     english: {
+      estimateBasis: 'NYU publishes a competitive TOEFL score of 100 but no IELTS or Duolingo figure. The estimates are set at a comparable level, using MIT\'s published Duolingo recommendation of 125.',
       ielts: { min: null, recommended: null, estimate: '7.0–7.5+', note: 'IELTS Academic accepted; NYU publishes no minimum.' },
-      toefl: { min: null, recommended: 100, note: 'NYU sets no minimum. Competitive applicants score 100+ (tests up to 20 January 2026) or 5+ overall and in each subscore (tests from 21 January 2026).' },
+      toefl: { min: null, recommended: 100, scales: [{ period: 'pre2026', min: null, recommended: 100 }, { period: 'post2026', min: null, recommended: 5 }], note: 'NYU sets no minimum. Competitive applicants score 100+ (tests up to 20 January 2026) or 5+ overall and in each subscore (tests from 21 January 2026).' },
       duolingo: { min: null, recommended: null, estimate: '125+', note: 'Accepted; NYU publishes no minimum.' }
     },
     admissions: {
@@ -174,6 +177,7 @@
 
   P['university-of-alabama'] = {
     english: {
+      estimateBasis: 'Based on UA\'s published IELTS 6.0 writing threshold for avoiding English support courses.',
       ielts: { min: null, recommended: 6.0, estimate: '6.0+ overall', note: 'A writing sub-score of 6.0 or higher avoids mandatory English support courses.' }
     },
     admissions: {
@@ -236,6 +240,7 @@
   P['university-of-tokyo'] = {
     englishTaught: true,
     english: {
+      estimateBasis: 'The College of Design names the accepted tests but publishes no competitive score here. The estimate sits above its stated expected level of IELTS 6.0+ to reflect a competitive application.',
       ielts: { min: null, recommended: null, estimate: '7.0+', note: 'The College of Design requires a designated English test; the accepted tests and scores are listed in the Application Guidelines appendix.' },
       toefl: { min: null, recommended: null, estimate: '100+ (5.5+ on the 2026 scale)', note: 'See the College of Design Application Guidelines.' },
       duolingo: { min: null, recommended: null, note: 'Check the Application Guidelines appendix for the designated tests.' },
@@ -272,7 +277,7 @@
   P['kyoto-university'] = {
     english: {
       ielts: { min: null, recommended: 6.5, note: 'No minimum. 6.5 is the typical score of successful Kyoto iUP candidates.' },
-      toefl: { min: null, recommended: 90, note: 'Typical successful score: 90 (tests before 21 January 2026), or 4.5 on the new 1–6 scale. iBT, iBT Home Edition and PBT are accepted; MyBest and ITP are not.' },
+      toefl: { min: null, recommended: 90, scales: [{ period: 'pre2026', min: null, recommended: 90 }, { period: 'post2026', min: null, recommended: 4.5 }], note: 'Typical successful score: 90 (tests before 21 January 2026), or 4.5 on the new 1–6 scale. iBT, iBT Home Edition and PBT are accepted; MyBest and ITP are not.' },
       duolingo: { min: null, recommended: null, note: 'Not accepted — Kyoto iUP accepts only TOEFL or IELTS.' },
       waiver: 'Native English speakers may submit Form C (English Proficiency Evaluation Form) instead of a test result.'
     },
@@ -292,7 +297,7 @@
   P['waseda-university'] = {
     english: {
       ielts: { min: null, recommended: 7, note: 'SILS: competitive applicants score 7 or above. Scores are needed only from non-native speakers.' },
-      toefl: { min: null, recommended: 95, note: 'SILS: competitive applicants score 95+ (out of 120), or 5.0+ on the new 6-point scale.' },
+      toefl: { min: null, recommended: 95, scales: [{ period: 'pre2026', min: null, recommended: 95 }, { period: 'post2026', min: null, recommended: 5 }], note: 'SILS: competitive applicants score 95+ (out of 120), or 5.0+ on the new 6-point scale.' },
       duolingo: { min: null, recommended: null, note: 'Check the requirements of your specific school.' },
       waiver: 'Not required from non-native speakers studying where English is the language of instruction. English proof is optional if you submit an English-system exam certificate such as the SAT, ACT, A-Levels or an IBDP taught entirely in English.'
     },
@@ -318,6 +323,7 @@
 
   P['keio-university'] = {
     english: {
+      estimateBasis: 'Keio reviews scores holistically with no cut-off. The estimate follows levels a comparable Tokyo university publishes as competitive (Waseda SILS: TOEFL 95+).',
       ielts: { min: null, recommended: null, estimate: '7.0+', note: 'IELTS Academic accepted. There are no cut-off scores; scores are reviewed holistically. One Skill Retake is not accepted.' },
       toefl: { min: null, recommended: null, estimate: '95+ (5.0+ on the 2026 scale)', note: 'TOEFL iBT accepted. No cut-off; superscores (MyBest) are not accepted.' },
       duolingo: { min: null, recommended: null, note: 'Not accepted for PEARL — only TOEFL iBT and/or IELTS Academic.' },
@@ -339,6 +345,7 @@
 
   P['sophia-university'] = {
     english: {
+      estimateBasis: 'Sophia publishes no minimum. The estimate follows levels that comparable English-taught programmes in Japan publish (ICU: TOEFL 79, or 4.5 on the new scale).',
       ielts: { min: null, recommended: null, estimate: '6.5+', note: 'IELTS (Academic) required; IELTS Online and IELTS Indicator are not accepted. Must be taken within two years of applying.' },
       toefl: { min: null, recommended: null, estimate: '85+ (4.5+ on the 2026 scale)', note: 'TOEFL required; Home Edition, ITP and Essentials are not accepted.' },
       duolingo: { min: null, recommended: null, note: 'Not accepted — Sophia FLA requires TOEFL or IELTS.' },
@@ -392,7 +399,7 @@
   P['ritsumeikan-apu'] = {
     english: {
       ielts: { min: 5.5, recommended: null, note: 'A minimum of 5.5 in each section. The General Training module is not accepted.' },
-      toefl: { min: 75, recommended: null, note: 'A total of 75+ (tests before 21 January 2026) or 4.0+ (tests on or after 21 January 2026). Home Edition and ITP are not accepted.' },
+      toefl: { min: 75, recommended: null, scales: [{ period: 'pre2026', min: 75, recommended: null }, { period: 'post2026', min: 4, recommended: null }], note: 'A total of 75+ (tests before 21 January 2026) or 4.0+ (tests on or after 21 January 2026). Home Edition and ITP are not accepted.' },
       duolingo: { min: null, recommended: null, note: 'Accepted by APU — see the Application Handbook for the required score.' },
       waiver: 'Applicants who meet certain conditions may choose not to submit a language test — see the Application Handbook.'
     },
@@ -479,6 +486,7 @@
 
   P['yonsei-university'] = {
     english: {
+      estimateBasis: 'UIC sets no minimum. The estimate follows what a comparable Seoul university publishes for English-taught majors (Korea University: TOEFL 100).',
       ielts: { min: null, recommended: null, estimate: '7.0+', note: 'Accepted; UIC sets no minimum score.' },
       toefl: { min: null, recommended: null, estimate: '100+ (5.5+ on the 2026 scale)', note: 'TOEFL PBT/CBT/iBT accepted; no minimum score.' },
       duolingo: { min: null, recommended: null, note: 'Not listed among UIC\'s accepted English proofs.' },
@@ -505,7 +513,7 @@
   P['korea-university'] = {
     english: {
       ielts: { min: null, recommended: 7.0, note: 'To be assigned to an English-based major at the end of the Global Open Major year, you need IELTS 7.0+ (or TOPIK 5 for a Korean-based major). IELTS Indicator is not accepted.' },
-      toefl: { min: null, recommended: 100, note: 'TOEFL iBT 100+ (5 on the new scale) is needed for English-based major assignment. Home Edition is accepted; MyBest and Essentials are not.' },
+      toefl: { min: null, recommended: 100, scales: [{ period: 'pre2026', min: null, recommended: 100 }, { period: 'post2026', min: null, recommended: 5 }], note: 'TOEFL iBT 100+ (5 on the new scale) is needed for English-based major assignment. Home Edition is accepted; MyBest and Essentials are not.' },
       duolingo: { min: null, recommended: null, note: 'Not accepted — only TOEFL iBT or IELTS Academic count as English proof.' },
       waiver: 'Applicants who completed all of secondary school with English (or Korean) as the primary language of instruction can submit a school confirmation letter instead. The International Studies major requires an English qualification.'
     },
@@ -556,7 +564,7 @@
 
   P['ewha-womans-university'] = {
     english: {
-      toefl: { min: 80, recommended: null, note: 'TOEFL iBT 80, or 4.0+ for tests taken on or after 21 January 2026.' }
+      toefl: { min: 80, recommended: null, scales: [{ period: 'pre2026', min: 80, recommended: null }, { period: 'post2026', min: 4, recommended: null }], note: 'TOEFL iBT 80, or 4.0+ for tests taken on or after 21 January 2026.' }
     },
     admissions: {
       applicationFee: { amount: 150000, currency: 'KRW', waiver: 'Special Admission for Foreigners: ₩150,000 (about US$150).' }
@@ -590,6 +598,7 @@
 
   P['kyung-hee-university'] = {
     english: {
+      estimateBasis: 'An estimated level for applying. Kyung Hee\'s published IELTS 7.5 / TOEFL 105 are scholarship thresholds, not admission requirements.',
       ielts: { min: null, recommended: 7.5, estimate: '6.0+ to apply', note: 'IELTS 7.5+ earns English Track applicants Admission Scholarship B (full tuition for the first semester). The admission minimum is in the current guidelines PDF.' },
       toefl: { min: null, recommended: 105, estimate: '80+ to apply', note: 'TOEFL iBT 105+ earns Admission Scholarship B (full first-semester tuition).' }
     },
@@ -641,7 +650,7 @@
   patch('university-of-tokyo', {
     english: {
       ielts: { min: null, recommended: '6.0+ (expected level)', note: 'IELTS Academic (IELTS Online accepted). UTokyo lists "greater than 6.0" as the expected level at application — not a cut-off. Tests must be taken after 1 January 2025.' },
-      toefl: { min: null, recommended: '80+ / 4+ (expected level)', note: 'TOEFL iBT including Home Edition: greater than 80 (tests before 21 January 2026) or greater than 4 (tests from 21 January 2026).' },
+      toefl: { min: null, recommended: '80+ / 4+ (expected level)', scales: [{ period: 'pre2026', min: null, recommended: '80+' }, { period: 'post2026', min: null, recommended: '4+' }], note: 'TOEFL iBT including Home Edition: greater than 80 (tests before 21 January 2026) or greater than 4 (tests from 21 January 2026).' },
       duolingo: { min: null, recommended: '110+ (expected level)', note: 'Duolingo English Test: greater than 110. Cambridge (B2/C1/C2) greater than 169 and EIKEN Grade Pre-1/1 greater than 2,400 are also accepted.' },
       waiver: 'Route B applicants may skip the English test if they have had English-medium education for at least three of the final four school years (bilingual programmes do not count).'
     },
@@ -868,7 +877,7 @@
     },
     english: {
       ielts: { min: 6.5, recommended: 8.0, note: 'English-track majors require IELTS 6.5 before you select your major (end of first year). For scholarships: IELTS 7.0 earns 50% and IELTS 8.0 earns 100% of first-semester tuition.' },
-      toefl: { min: 80, recommended: 110, note: 'English-track majors require TOEFL iBT 80 (4.5 on the 2026 scale) before major selection. Scholarships: 95 → 50%; 110 (5.5) → 100% of first-semester tuition.' }
+      toefl: { min: 80, recommended: null, scales: [{ period: 'pre2026', min: 80, recommended: null }, { period: 'post2026', min: 4.5, recommended: null }], note: 'English-track majors require TOEFL iBT 80 (4.5 on the 2026 scale) before major selection. Scholarships: 95 → 50%; 110 (5.5) → 100% of first-semester tuition.' }
     },
     academics: {
       sat: { policy: 'accepted', note: 'IB, A-Level, AP, SAT and national exams can be submitted as academic references.' },

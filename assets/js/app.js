@@ -77,38 +77,10 @@
 
   /* ---------------- data access ---------------- */
 
-  /* Merge the admission-statistics layer (data/admission-profiles.js) into
-     the base records. Listed sub-fields replace the base ones; sources are
-     appended. Runs before the search index is built. */
-  (function applyProfiles() {
-    var profiles = DB.profiles || {};
-    DB.universities.forEach(function (u) {
-      var p = profiles[u.id];
-      if (!p) return;
-      ['english', 'academics', 'admissions', 'costs'].forEach(function (key) {
-        if (!p[key]) return;
-        if (key === 'costs') { u.costs = p.costs; return; }
-        u[key] = u[key] || {};
-        for (var f in p[key]) if (p[key].hasOwnProperty(f)) u[key][f] = p[key][f];
-      });
-      if (p.englishTaught !== undefined) u.englishTaught = p.englishTaught;
-      if (p.sources) u.sources = (u.sources || []).concat(p.sources);
-      u.stats = p.stats || null;
-    });
-
-    /* Campus photos (data/photos.js). The first photo is the main one;
-       a small thumb.jpg next to it is used on cards. */
-    var photos = DB.photos || {};
-    DB.universities.forEach(function (u) {
-      var list = photos[u.id];
-      if (!list || !list.length) return;
-      u.photos = {
-        main: list[0].src,
-        thumb: list[0].src.replace(/[^/]+$/, 'thumb.jpg'),
-        gallery: list
-      };
-    });
-  })();
+  /* Merge the admission-statistics and photo layers into the base records.
+     The merge lives in data/registry.js so the build step that writes the
+     static university pages uses exactly the same data. */
+  DB.applyLayers();
 
   var countryByCode = {};
   DB.countries.forEach(function (c) { countryByCode[c.code] = c; });
@@ -138,6 +110,7 @@
     if (p === 'required') return 'required';
     if (p === 'optional') return 'optional';
     if (p === 'accepted') return 'accepted';
+    if (p === 'not-used') return 'not-used';
     return 'unstated';
   }
   function satLabel(u) {
@@ -145,9 +118,16 @@
     return p === 'required' ? 'SAT/ACT required'
       : p === 'optional' ? 'Test-optional'
       : p === 'accepted' ? 'SAT/ACT accepted'
+      : p === 'not-used' ? 'SAT/ACT not used'
       : 'Policy not confirmed';
   }
   function hasIelts(u) { return !!(u.english && u.english.ielts); }
+  /* True only when the university itself publishes an IELTS minimum or
+     recommended score — a UniPath estimate alone does not count. */
+  function ieltsPublished(u) {
+    var t = u.english && u.english.ielts;
+    return !!t && (has(t.min) || has(t.recommended));
+  }
   function ieltsMin(u) {
     return (u.english && u.english.ielts && has(u.english.ielts.min)) ? u.english.ielts.min : null;
   }
@@ -155,14 +135,43 @@
   function ieltsLabel(u) {
     var t = u.english && u.english.ielts;
     if (!t) return null;
-    if (has(t.min)) return 'Min ' + t.min;
+    if (has(t.min)) return 'Min ' + t.min + (t.lowestLevel ? ' (varies by course)' : '');
     if (has(t.recommended)) return typeof t.recommended === 'number' ? t.recommended + '+ competitive' : String(t.recommended);
-    if (has(t.estimate)) return t.estimate + ' (est.)';
+    if (has(t.estimate)) return t.estimate + ' · UniPath estimate';
     return 'Accepted';
   }
   function statsOf(u) { return u.stats || null; }
   function toeflMin(u) {
     return (u.english && u.english.toefl && has(u.english.toefl.min)) ? u.english.toefl.min : null;
+  }
+  /* TOEFL changed to a 1–6 scale for tests taken from 21 January 2026, so
+     universities may publish two sets of scores. Each line is plain text
+     (escape before inserting). Falls back to the single published values. */
+  var TOEFL_PERIOD = {
+    pre2026: 'Tests taken before 21 Jan 2026',
+    post2026: 'Tests taken from 21 Jan 2026 (1–6 scale)'
+  };
+  function scoreParts(x, lowest) {
+    var parts = [];
+    if (has(x.min)) parts.push((lowest ? 'lowest minimum ' : 'minimum ') + x.min);
+    if (has(x.recommended)) parts.push('recommended ' + x.recommended);
+    return parts.join(', ');
+  }
+  function toeflLines(u) {
+    var t = u.english && u.english.toefl;
+    if (!t) return [];
+    if (t.scales && t.scales.length) {
+      return t.scales.map(function (sc) {
+        var label = TOEFL_PERIOD[sc.period] || sc.period;
+        if (sc.accepted === false) return label + ': not accepted';
+        var parts = scoreParts(sc, t.lowestLevel);
+        return parts ? label + ': ' + parts : label + ': not published';
+      });
+    }
+    var one = scoreParts(t, t.lowestLevel);
+    if (one) return [one.charAt(0).toUpperCase() + one.slice(1)];
+    if (has(t.estimate)) return [t.estimate + ' · UniPath estimate'];
+    return [];
   }
   function fullRide(u) { return u.scholarships && u.scholarships.fullRide ? u.scholarships.fullRide : {}; }
   function meritList(u) { return (u.scholarships && u.scholarships.merit) || []; }
@@ -205,7 +214,7 @@
       u.name, u.shortName || '', u.city, u.region || '',
       country(u.country).name, u.type, u.description || '',
       satLabel(u),
-      hasIelts(u) ? 'IELTS ' + (ieltsMin(u) || 'accepted') : '',
+      hasIelts(u) ? 'IELTS ' + (ieltsMin(u) || (ieltsPublished(u) ? u.english.ielts.recommended : 'accepted')) : '',
       toeflMin(u) ? 'TOEFL ' + toeflMin(u) : '',
       u.englishTaught === true ? 'English-taught english taught' : '',
       fullRide(u).available === true ? 'full scholarship full ride full funding' : '',
@@ -281,8 +290,8 @@
       options: [
         { id: 'sat-required', label: 'SAT/ACT required', test: function (u) { return satPolicy(u) === 'required'; } },
         { id: 'sat-optional', label: 'SAT/ACT optional', test: function (u) { return satPolicy(u) === 'optional'; } },
-        { id: 'sat-none', label: 'SAT/ACT not required', test: function (u) { return satPolicy(u) === 'optional' || satPolicy(u) === 'unstated' || satPolicy(u) === 'accepted'; } },
-        { id: 'ielts', label: 'IELTS score published', test: function (u) { return hasIelts(u); } }
+        { id: 'sat-none', label: 'SAT/ACT not required', test: function (u) { var p = satPolicy(u); return p === 'optional' || p === 'unstated' || p === 'accepted' || p === 'not-used'; } },
+        { id: 'ielts', label: 'IELTS score published', test: function (u) { return ieltsPublished(u); } }
       ]
     },
     {
@@ -676,7 +685,7 @@
     DISCLAIMER: DISCLAIMER,
     country: country, field: field, uniById: uniById, unisByCountry: unisByCountry,
     displayName: displayName, uniUrl: uniUrl,
-    satPolicy: satPolicy, satLabel: satLabel, hasIelts: hasIelts, ieltsMin: ieltsMin, ieltsLabel: ieltsLabel, statsOf: statsOf, toeflMin: toeflMin,
+    satPolicy: satPolicy, satLabel: satLabel, hasIelts: hasIelts, ieltsPublished: ieltsPublished, ieltsMin: ieltsMin, toeflLines: toeflLines, ieltsLabel: ieltsLabel, statsOf: statsOf, toeflMin: toeflMin,
     fullRide: fullRide, meritList: meritList, needBased: needBased,
     feeAmount: feeAmount, feeWaiver: feeWaiver, feeLabel: feeLabel,
     firstDeadline: firstDeadline, costHeadline: costHeadline, totalCostText: totalCostText,

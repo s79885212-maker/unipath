@@ -7,14 +7,24 @@
      #/universities?q=&c=&field= browse with filters
      #/university/<id>[/<sec>]   university profile
      #/scholarships  #/compare  #/about
+   Static pages: /university/<id>/ and /country/<code>/ (built from the
+   same data by build-artifact.py) open the matching route.
    ============================================================ */
 (function (global) {
   'use strict';
   var U = global.UP, V = global.UPViews, P = global.UPPages;
   var main, current = null;
 
+  /* Static pages written at build time live at /university/<id>/ and
+     /country/<code>/. Without a hash, the path decides the route there. */
+  function pathRoute() {
+    var m = /^\/(university|country)\/([a-z0-9-]+)\/?$/.exec(global.location.pathname || '');
+    return m ? '#/' + m[1] + '/' + m[2] : null;
+  }
+
   function parse() {
-    var raw = (global.location.hash || '#/').replace(/^#/, '');
+    var hash = global.location.hash;
+    var raw = (hash && hash !== '#' ? hash : (pathRoute() || '#/')).replace(/^#/, '');
     var q = raw.indexOf('?');
     if (q > -1) raw = raw.slice(0, q);
     var parts = raw.split('/').filter(Boolean);
@@ -82,6 +92,7 @@
         P.renderProfile(u, r.parts[2]);
         U.setActiveNav('universities');
         current = { type: 'university', id: u.id };
+        setCanonical(r);
         return;
 
       case 'scholarships':
@@ -111,8 +122,20 @@
         current = null;
     }
 
+    setCanonical(r);
     global.scrollTo(0, 0);
     document.querySelectorAll('[data-searchbox]').forEach(U.wireSearchBox);
+  }
+
+  /* Point search engines at the static page for each university and
+     country (built by build-artifact.py). Only on a real web host. */
+  function setCanonical(r) {
+    if (!/^https?:$/.test(global.location.protocol)) return;
+    var head = r.parts[0], id = r.parts[1], path = '/';
+    if ((head === 'university' || head === 'country') && id && /^[a-z0-9-]+$/.test(id)) path = '/' + head + '/' + id + '/';
+    var link = document.querySelector('link[rel="canonical"]');
+    if (!link) { link = document.createElement('link'); link.rel = 'canonical'; document.head.appendChild(link); }
+    link.href = global.location.origin + path;
   }
 
   function start() {

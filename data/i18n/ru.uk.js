@@ -1,5 +1,6 @@
-/* Russian dictionary — additions for the United Kingdom and the
-   universities added in September 2026 (UC Berkeley, Princeton).
+/* Russian dictionary — additions made after the first release: the United
+   Kingdom, UC Berkeley and Princeton, the About page, UniPath estimates and
+   the two TOEFL scales.
    Extends the main dictionary in data/i18n/ru.js; same key rules. */
 Object.assign(window.UNIPATH_I18N.ru, {
   /* ---------- site copy ---------- */
@@ -9,6 +10,13 @@ Object.assign(window.UNIPATH_I18N.ru, {
   "The data schema already carries every field needed for the countries planned next — Canada, Germany, the Netherlands, Australia and France — plus room for features such as saved universities, deadline tracking and personalised recommendations.": "Схема данных уже содержит все поля для следующих стран — Канады, Германии, Нидерландов, Австралии и Франции, — а также оставляет место для избранных вузов, отслеживания сроков и персональных рекомендаций.",
 
   /* ---------- United Kingdom: country page ---------- */
+  "Oxford": "Оксфорд",
+  "London": "Лондон",
+  "Edinburgh": "Эдинбург",
+  "Manchester": "Манчестер",
+  "Coventry": "Ковентри",
+  "Berkeley": "Беркли",
+  "Princeton": "Принстон",
   "United Kingdom": "Великобритания",
   "🇬🇧 United Kingdom": "🇬🇧 Великобритания",
   "England": "Англия",
@@ -448,5 +456,86 @@ Object.assign(window.UNIPATH_I18N.ru, {
   "International students": "Иностранные студенты",
   "California": "Калифорния",
   "New Jersey": "Нью-Джерси",
-  "Admission is the hard part. Once admitted, aid is assessed on need alone and is not a separate competition.": "Самое трудное — поступить. После зачисления помощь рассчитывается только по нуждаемости, отдельного конкурса нет."
+  "Admission is the hard part. Once admitted, aid is assessed on need alone and is not a separate competition.": "Самое трудное — поступить. После зачисления помощь рассчитывается только по нуждаемости, отдельного конкурса нет.",
+
+  /* ---------- About page (rewritten for applicants) ---------- */
+  "What UniPath does": "Что делает UniPath",
+  "You can browse by country, filter by funding, tests and field of study, and compare up to three universities side by side.": "Можно смотреть вузы по странам, фильтровать по финансированию, тестам и направлениям и сравнивать до трёх университетов рядом.",
+  "Who it is for": "Для кого этот сайт",
+  "Students applying to a bachelor’s degree outside their own country, and the parents and teachers helping them. It is most useful early on, when you are deciding where to apply and what you can afford.": "Для тех, кто поступает в бакалавриат за границей, а также для родителей и учителей, которые им помогают. Особенно полезен в начале, когда вы решаете, куда подавать и что вам по карману.",
+  "How the data is collected and checked": "Как собираются и проверяются данные",
+  "Admission requirements, costs, deadlines, scholarship details and published student statistics are collected from official university sources. When a university does not publish a figure, UniPath shows it as ‘Not confirmed’ or ‘Not published’. In some profiles, UniPath also provides a clearly labelled estimate to help students set a target. These estimates are guidance only, are based on the stated evidence, and are not official requirements or guarantees of admission.": "Требования к поступлению, стоимость, сроки, данные о стипендиях и опубликованная статистика студентов берутся из официальных источников университетов. Если университет не публикует какой-то показатель, UniPath показывает его как «Не подтверждено» или «Не опубликовано». В некоторых профилях UniPath также даёт чётко обозначенную оценку, чтобы помочь поставить цель. Такие оценки — лишь ориентир, они основаны на указанных данных и не являются официальными требованиями или гарантией поступления.",
+  "Every profile lists the exact pages its information came from, with direct links, so you can check any figure yourself.": "В каждом профиле перечислены страницы, откуда взята информация, с прямыми ссылками — любую цифру можно проверить самому.",
+  "What “Last verified” means": "Что означает «Последняя проверка»",
+  "Each profile shows a <strong>Last verified</strong> date: the day its information was last checked against the official sources listed on it. Universities update fees, deadlines and requirements every year, so the older the date, the more important it is to re-check the official page.": "В каждом профиле указана дата <strong>последней проверки</strong> — день, когда информацию в последний раз сверяли с указанными официальными источниками. Вузы обновляют плату, сроки и требования каждый год, поэтому чем старше дата, тем важнее перепроверить официальную страницу.",
+  "How UniPath estimates work": "Как работают оценки UniPath",
+  "Some universities publish no English score or no typical grades. Where that happens, a profile may show a target marked <strong>UniPath estimate</strong>, always next to a short note on what it is based on — the university’s own published statistics, the ranges of admitted students, or figures that comparable universities publish. An estimate is never shown as an official requirement, and meeting it does not guarantee admission.": "Некоторые вузы не публикуют требований к английскому или типичных оценок. Тогда в профиле может быть ориентир с пометкой <strong>оценка UniPath</strong> — всегда с короткой припиской, на чём он основан: на опубликованной статистике самого вуза, на диапазонах баллов принятых студентов или на цифрах сопоставимых университетов. Оценка никогда не выдаётся за официальное требование, и её достижение не гарантирует поступления.",
+  "Campus photographs come from Wikimedia Commons under free licences, and every photo is credited to its author on the university profile.": "Фотографии кампусов взяты с Wikimedia Commons под свободными лицензиями, и у каждого фото в профиле указан автор.",
+  "Found a mistake?": "Нашли ошибку?",
+  "A way to report errors directly on the site is being prepared. Until then, the official source linked at the bottom of every profile always takes precedence over anything shown here.": "Возможность сообщать об ошибках прямо на сайте готовится. А пока официальный источник, ссылка на который есть внизу каждого профиля, всегда важнее того, что показано здесь.",
+  "Countries covered": "Представленные страны",
+
+  /* ---------- home page trust block ---------- */
+  "Requirements, costs, deadlines and scholarships come from the universities’ own websites, and every profile lists the exact pages they came from.": "Требования, стоимость, сроки и стипендии взяты с сайтов самих университетов, и в каждом профиле указаны конкретные страницы-источники.",
+  "Where a profile offers a target to aim for, it is marked <strong>UniPath estimate</strong> and explains what it is based on — it is never presented as an official requirement.": "Если профиль предлагает ориентир, к которому стоит стремиться, он помечен как <strong>оценка UniPath</strong> и объясняет, на чём основан, — и никогда не выдаётся за официальное требование.",
+
+  /* ---------- UniPath estimates ---------- */
+  "UniPath estimate": "Оценка UniPath",
+  "{0} · UniPath estimate": "{0} · оценка UniPath",
+  "UniPath estimate (target band)": "Оценка UniPath (целевой диапазон)",
+  "Guidance only — not an official requirement.": "Только ориентир — не официальное требование.",
+  "🎯 Target band": "🎯 Целевой диапазон",
+  "UniPath estimates are guidance for planning, not official requirements or cut-offs. Meeting them does not guarantee admission.": "Оценки UniPath — ориентир для планирования, а не официальные требования или проходные баллы. Их достижение не гарантирует поступления.",
+  "This is guidance, not an official requirement or a guarantee of admission.": "Это ориентир, а не официальное требование и не гарантия поступления.",
+  "Not published by the university.": "Университет это не публикует.",
+  "Harvard publishes no English score for first-year applicants. The estimates follow what MIT and Yale publish as competitive.": "Harvard не публикует требований к английскому для первокурсников. Оценки опираются на то, что MIT и Yale называют конкурентным уровнем.",
+  "Yale publishes no Duolingo figure. The estimate follows MIT's published Duolingo recommendation of 125.": "Yale не публикует балл Duolingo. Оценка опирается на опубликованную рекомендацию MIT — 125.",
+  "NYU publishes a competitive TOEFL score of 100 but no IELTS or Duolingo figure. The estimates are set at a comparable level, using MIT's published Duolingo recommendation of 125.": "NYU публикует конкурентный TOEFL 100, но не IELTS и не Duolingo. Оценки выставлены на сопоставимом уровне, для Duolingo — по опубликованной рекомендации MIT (125).",
+  "Based on UA's published IELTS 6.0 writing threshold for avoiding English support courses.": "Основано на опубликованном UA пороге IELTS 6.0 за письмо, позволяющем обойтись без курсов английского.",
+  "The College of Design names the accepted tests but publishes no competitive score here. The estimate sits above its stated expected level of IELTS 6.0+ to reflect a competitive application.": "College of Design называет принимаемые тесты, но не публикует конкурентный балл. Оценка выше заявленного ожидаемого уровня IELTS 6.0+, чтобы отразить сильную заявку.",
+  "Keio reviews scores holistically with no cut-off. The estimate follows levels a comparable Tokyo university publishes as competitive (Waseda SILS: TOEFL 95+).": "Keio оценивает баллы в комплексе, без порога. Оценка опирается на конкурентный уровень, который публикует сопоставимый токийский вуз (Waseda SILS: TOEFL 95+).",
+  "Sophia publishes no minimum. The estimate follows levels that comparable English-taught programmes in Japan publish (ICU: TOEFL 79, or 4.5 on the new scale).": "Sophia не публикует минимума. Оценка опирается на уровни, которые публикуют сопоставимые англоязычные программы Японии (ICU: TOEFL 79 или 4.5 по новой шкале).",
+  "UIC sets no minimum. The estimate follows what a comparable Seoul university publishes for English-taught majors (Korea University: TOEFL 100).": "UIC не устанавливает минимума. Оценка опирается на то, что публикует сопоставимый сеульский вуз для англоязычных специальностей (Korea University: TOEFL 100).",
+  "An estimated level for applying. Kyung Hee's published IELTS 7.5 / TOEFL 105 are scholarship thresholds, not admission requirements.": "Ориентировочный уровень для подачи. Опубликованные Kyung Hee IELTS 7.5 / TOEFL 105 — пороги для стипендий, а не требования к поступлению.",
+
+  /* ---------- English scores: both TOEFL scales ---------- */
+  "Tests taken before 21 Jan 2026: minimum {0}, recommended {1}": "Тесты до 21 янв. 2026: минимум {0}, рекомендуемый {1}",
+  "Tests taken before 21 Jan 2026: minimum {0}": "Тесты до 21 янв. 2026: минимум {0}",
+  "Tests taken before 21 Jan 2026: recommended {0}": "Тесты до 21 янв. 2026: рекомендуемый {0}",
+  "Tests taken before 21 Jan 2026: lowest minimum {0}": "Тесты до 21 янв. 2026: наименьший минимум {0}",
+  "Tests taken before 21 Jan 2026: not accepted": "Тесты до 21 янв. 2026: не принимаются",
+  "Tests taken before 21 Jan 2026: not published": "Тесты до 21 янв. 2026: не опубликовано",
+  "Tests taken from 21 Jan 2026 (1–6 scale): minimum {0}, recommended {1}": "Тесты с 21 янв. 2026 (шкала 1–6): минимум {0}, рекомендуемый {1}",
+  "Tests taken from 21 Jan 2026 (1–6 scale): minimum {0}": "Тесты с 21 янв. 2026 (шкала 1–6): минимум {0}",
+  "Tests taken from 21 Jan 2026 (1–6 scale): recommended {0}": "Тесты с 21 янв. 2026 (шкала 1–6): рекомендуемый {0}",
+  "Tests taken from 21 Jan 2026 (1–6 scale): lowest minimum {0}": "Тесты с 21 янв. 2026 (шкала 1–6): наименьший минимум {0}",
+  "Tests taken from 21 Jan 2026 (1–6 scale): not accepted": "Тесты с 21 янв. 2026 (шкала 1–6): не принимаются",
+  "Tests taken from 21 Jan 2026 (1–6 scale): not published": "Тесты с 21 янв. 2026 (шкала 1–6): не опубликовано",
+  "Minimum {0}, recommended {1}": "Минимум {0}, рекомендуемый {1}",
+  "Minimum {0}": "Минимум {0}",
+  "Recommended {0}": "Рекомендуемый {0}",
+  "Lowest minimum {0}": "Наименьший минимум {0}",
+  "Lowest minimum (varies by course): {0}": "Наименьший минимум (зависит от программы): {0}",
+  "Min {0} (varies by course)": "Мин. {0} (зависит от программы)",
+  "MIT publishes both scales: minimum 90 and recommended 100 for tests taken before 21 January 2026; minimum 5 and recommended 5.5 for tests taken on or after 21 January 2026.": "MIT публикует обе шкалы: минимум 90 и рекомендуемый 100 для тестов, сданных до 21 января 2026; минимум 5 и рекомендуемый 5.5 для тестов с 21 января 2026.",
+
+  /* ---------- SAT ---------- */
+  "SAT of admitted students": "SAT принятых студентов",
+  "Median SAT:": "Медиана SAT:",
+  "Average SAT:": "Средний SAT:",
+  "Reading and Writing median:": "Медиана Reading and Writing:",
+  "Math median:": "Медиана Math:",
+  "SAT/ACT not used": "SAT/ACT не используются",
+  "Not used": "Не используется",
+
+  /* ---------- misc ---------- */
+  "Estimated cost of attendance — 2027–2028": "Ориентировочная стоимость — 2027–2028",
+  "UCL Global Undergraduate Scholarship application, Financial evidence if shortlisted": "Заявка на UCL Global Undergraduate Scholarship, подтверждение доходов при прохождении отбора",
+  "Open the full interactive profile": "Открыть полный интерактивный профиль",
+  "Key facts for international applicants": "Главное для иностранных абитуриентов",
+  "Apply and learn more": "Подать заявку и узнать больше",
+  "Deadlines": "Дедлайны",
+  "Cost": "Стоимость",
+  "Full scholarship route": "Путь к полной стипендии",
+  "Good to know": "Полезно знать"
 });

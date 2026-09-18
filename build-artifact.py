@@ -101,6 +101,13 @@ shutil.copytree(ROOT / "assets", DIST / "assets")
 shutil.copytree(ROOT / "data", DIST / "data")
 (DIST / ".nojekyll").write_text("")  # GitHub Pages: serve files as-is
 
+# Indexable static pages (/university/<id>/, /country/<code>/) + sitemap,
+# generated from the same data files — see tools/prerender.py.
+import sys
+sys.path.insert(0, str(ROOT / "tools"))
+import prerender  # noqa: E402
+print(f"prerender: {prerender.build(ROOT, DIST)} static pages")
+
 zip_base = BUILD / "unipath-site"
 shutil.make_archive(str(zip_base), "zip", DIST)
 print(f"{DIST}/  (upload this folder)  +  {zip_base}.zip")

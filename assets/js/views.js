@@ -80,9 +80,10 @@
     '<div class="section-head"><span class="eyebrow">Why trust this</span><h2>Nothing important is invented</h2></div>' +
     '<p>Admission and scholarship information decides where people spend four years and a great deal of money, so this site treats accuracy as the product.</p>' +
     '<ul class="stack" style="padding-left:1.1em">' +
-      '<li>Every figure was read from the university’s own website, and every profile lists the exact pages it came from.</li>' +
+      '<li>Requirements, costs, deadlines and scholarships come from the universities’ own websites, and every profile lists the exact pages they came from.</li>' +
       '<li data-i18n-html>Where a university does not publish something, the field says <em>“Not confirmed — check the official source”</em> instead of guessing a plausible number.</li>' +
       '<li data-i18n-html>A scholarship is only labelled a <strong>full ride</strong> when the official source states what it covers. Tuition-only awards are labelled as tuition-only.</li>' +
+      '<li data-i18n-html>Where a profile offers a target to aim for, it is marked <strong>UniPath estimate</strong> and explains what it is based on — it is never presented as an official requirement.</li>' +
       '<li data-i18n-html>Every profile carries a <strong>Last verified</strong> date.</li>' +
     '</ul>' +
     '<a class="btn btn-primary" href="#/about">How the data is sourced →</a>' +
@@ -212,39 +213,54 @@
       ['With a full scholarship route', s.fullRide], ['With English-taught degrees', s.english],
       ['Merit scholarships listed', s.merit], ['Study fields', U.DB.fields.length]
     ].map(function (r) { return '<div><dt>' + r[0] + '</dt><dd>' + r[1] + '</dd></div>'; }).join('');
+    var countryList = U.DB.countries.map(function (c) {
+      var n = U.unisByCountry(c.code).length;
+      return '<li><a href="#/country/' + esc(c.code) + '">' + c.flag + ' <span>' + esc(c.name) + '</span></a> — ' +
+        '<span>' + n + ' universities</span></li>';
+    }).join('');
 
     return '<section class="page-head"><div class="wrap"><h1>About UniPath</h1>' +
       '<p>A research tool for international students who want to understand admission requirements, scholarships and real costs without reading forty university websites.</p>' +
       '</div></section>' +
       '<section class="section"><div class="wrap"><div class="grid grid-2">' +
       '<div>' +
-        '<h2>What this is</h2>' +
+        '<h2>What UniPath does</h2>' +
         '<p>UniPath collects the information an international undergraduate applicant actually needs — admission requirements, English and standardized test policies, scholarships, financial aid, full cost of attendance, available programs and the official application links — and puts it in one consistent structure for every university.</p>' +
-        '<p>The database covers the United States, the United Kingdom, Japan and South Korea. The architecture is deliberately boring: countries and universities live in plain data files, and the interface is generated from them. Adding a country means adding one data file. Adding a university means appending one object.</p>' +
-        '<h2 style="margin-top:36px">How the data is sourced</h2>' +
-        '<p data-i18n-html>Every figure on this site was read from an official university page. Each university profile lists the specific pages used, with direct links, and carries a <strong>Last verified</strong> date.</p>' +
-        '<p data-i18n-html>Where a university does not publish something — a minimum IELTS score, an application fee, a cost breakdown — the field says <em>“Not confirmed — check the official source”</em>. It is never filled with a plausible-looking guess. That is why some profiles have visible gaps: the gaps are honest.</p>' +
+        '<p>You can browse by country, filter by funding, tests and field of study, and compare up to three universities side by side.</p>' +
+
+        '<h2 style="margin-top:36px">Who it is for</h2>' +
+        '<p>Students applying to a bachelor’s degree outside their own country, and the parents and teachers helping them. It is most useful early on, when you are deciding where to apply and what you can afford.</p>' +
+
+        '<h2 style="margin-top:36px">How the data is collected and checked</h2>' +
+        '<p>Admission requirements, costs, deadlines, scholarship details and published student statistics are collected from official university sources. When a university does not publish a figure, UniPath shows it as ‘Not confirmed’ or ‘Not published’. In some profiles, UniPath also provides a clearly labelled estimate to help students set a target. These estimates are guidance only, are based on the stated evidence, and are not official requirements or guarantees of admission.</p>' +
+        '<p>Every profile lists the exact pages its information came from, with direct links, so you can check any figure yourself.</p>' +
+
+        '<h3>What “Last verified” means</h3>' +
+        '<p data-i18n-html>Each profile shows a <strong>Last verified</strong> date: the day its information was last checked against the official sources listed on it. Universities update fees, deadlines and requirements every year, so the older the date, the more important it is to re-check the official page.</p>' +
+
+        '<h3>How UniPath estimates work</h3>' +
+        '<p data-i18n-html>Some universities publish no English score or no typical grades. Where that happens, a profile may show a target marked <strong>UniPath estimate</strong>, always next to a short note on what it is based on — the university’s own published statistics, the ranges of admitted students, or figures that comparable universities publish. An estimate is never shown as an official requirement, and meeting it does not guarantee admission.</p>' +
+
         '<h3>The full-ride rule</h3>' +
         '<p data-i18n-html>A scholarship is described as a <strong>full ride</strong> only when the official source states what it covers. Most awards advertised as “100% scholarships” cover 100% of <em>tuition</em> — not housing, food, insurance or flights. Every scholarship on this site shows a coverage breakdown with three states: covered (✓), not covered (✕), and not confirmed (?).</p>' +
+
         '<h3>Photographs</h3>' +
-        '<p>Campus photographs come only from Wikimedia Commons under free licences (CC BY, CC BY-SA, CC0 or public domain), and every photo is credited to its author on the university profile. Stock images that could misrepresent a campus are never used; a university without a suitable free photo shows a generated placeholder in its own colours instead.</p>' +
+        '<p>Campus photographs come from Wikimedia Commons under free licences, and every photo is credited to its author on the university profile.</p>' +
+
+        '<h2 style="margin-top:36px">Found a mistake?</h2>' +
+        '<p>A way to report errors directly on the site is being prepared. Until then, the official source linked at the bottom of every profile always takes precedence over anything shown here.</p>' +
+
         '<h2 style="margin-top:36px">Disclaimer</h2>' +
         '<div class="notice notice-warn"><span class="ico">⚠️</span><div>' + esc(U.DISCLAIMER) + '</div></div>' +
         '<p class="small muted" style="margin-top:14px">UniPath is an independent research project and is not affiliated with, endorsed by, or connected to any university listed on it.</p>' +
       '</div>' +
       '<div>' +
-        '<div class="card"><div class="card-body"><h3>Coverage today</h3><dl class="deflist">' + rows + '</dl></div></div>' +
-        '<div class="card" style="margin-top:20px"><div class="card-body"><h3>Built to grow</h3>' +
-          '<p class="small">The data schema already carries every field needed for the countries planned next — Canada, Germany, the Netherlands, Australia and France — plus room for features such as saved universities, deadline tracking and personalised recommendations.</p>' +
-          '<h4 style="font-size:.9rem;margin-top:16px">Adding a university</h4>' +
-          '<pre class="mono small" style="background:var(--surface-2);padding:12px;border-radius:8px;overflow-x:auto;margin:0">window.UNIPATH.universities.push({\n  id: \'example-university\',\n  name: \'Example University\',\n  country: \'us\',\n  city: \'Boston\',\n  …\n  sources: [{ label: \'…\', url: \'…\' }],\n  lastVerified: \'2026-09-16\'\n});</pre>' +
-        '</div></div>' +
-        '<div class="card" style="margin-top:20px"><div class="card-body"><h3>Fields in every record</h3>' +
-          '<p class="small muted">id · name · country · city · founded · type · description · links (website, admissions, international admissions, application portal, scholarships, financial aid, programs, cost) · programs · admissions (platforms, deadlines, fee, documents, recommendations, essay, interview) · english (IELTS, TOEFL, Duolingo, waiver) · academics (GPA, SAT, ACT, other tests, international qualifications) · scholarships (full ride, merit, need-based) · costs · photos · sources · lastVerified</p>' +
-        '</div></div>' +
+        '<div class="card"><div class="card-body"><h3>Countries covered</h3><ul class="stack" style="padding-left:1.1em;margin:0">' + countryList + '</ul></div></div>' +
+        '<div class="card" style="margin-top:20px"><div class="card-body"><h3>Coverage today</h3><dl class="deflist">' + rows + '</dl></div></div>' +
       '</div>' +
       '</div></div></section>';
   }
+
 
   global.UPViews = { home: home, countries: countries, scholarships: scholarships, about: about };
 })(window);

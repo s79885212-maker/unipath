@@ -27,3 +27,35 @@ window.UNIPATH = window.UNIPATH || {
     { id: 'other',            label: 'Other',             icon: '✨' }
   ]
 };
+
+/* Merge the layers loaded after the base records:
+   - data/admission-profiles.js: listed sub-fields replace the base ones,
+     sources are appended, `stats` is attached;
+   - data/photos.js: the first photo is the main one, thumb.jpg sits beside it.
+   Called once by the site (assets/js/app.js) and by the build step that
+   writes static university pages (build-artifact.py). Safe to call twice. */
+window.UNIPATH.applyLayers = function () {
+  var DB = window.UNIPATH;
+  if (DB._layersApplied) return;
+  DB._layersApplied = true;
+  var profiles = DB.profiles || {};
+  var photos = DB.photos || {};
+  DB.universities.forEach(function (u) {
+    var p = profiles[u.id];
+    if (p) {
+      ['english', 'academics', 'admissions', 'costs'].forEach(function (key) {
+        if (!p[key]) return;
+        if (key === 'costs') { u.costs = p.costs; return; }
+        u[key] = u[key] || {};
+        for (var f in p[key]) if (p[key].hasOwnProperty(f)) u[key][f] = p[key][f];
+      });
+      if (p.englishTaught !== undefined) u.englishTaught = p.englishTaught;
+      if (p.sources) u.sources = (u.sources || []).concat(p.sources);
+      u.stats = p.stats || null;
+    }
+    var list = photos[u.id];
+    if (list && list.length) {
+      u.photos = { main: list[0].src, thumb: list[0].src.replace(/[^/]+$/, 'thumb.jpg'), gallery: list };
+    }
+  });
+};
