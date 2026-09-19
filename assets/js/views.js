@@ -127,7 +127,7 @@
     }).join('');
 
     return '<section class="page-head"><div class="wrap"><h1>Countries</h1>' +
-      '<p>Four destinations so far. The data layer is built so more countries can be added without changing any page.</p>' +
+      '<p>Five destinations so far. The data layer is built so more countries can be added without changing any page.</p>' +
       '</div></section>' +
       '<section class="section"><div class="wrap">' +
         '<div class="grid grid-countries">' + U.DB.countries.map(U.countryCard).join('') + '</div>' +

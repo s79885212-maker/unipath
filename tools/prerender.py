@@ -33,6 +33,7 @@ DATA_FILES = [
     "data/universities.jp.js",
     "data/universities.kr.js",
     "data/universities.uk.js",
+    "data/universities.de.js",
     "data/photos.js",
     "data/admission-profiles.js",
 ]
@@ -96,7 +97,7 @@ def has(value) -> bool:
 
 
 def money(amount, currency):
-    sym = {"USD": "$", "JPY": "¥", "KRW": "₩", "GBP": "£"}.get(currency, "")
+    sym = {"USD": "$", "JPY": "¥", "KRW": "₩", "GBP": "£", "EUR": "€"}.get(currency, "")
     if isinstance(amount, float) and not amount.is_integer():
         return f"{sym}{amount:,.2f}"
     return f"{sym}{int(amount):,}"

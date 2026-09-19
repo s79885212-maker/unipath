@@ -27,6 +27,7 @@ JS_FILES = [
     "data/universities.jp.js",
     "data/universities.kr.js",
     "data/universities.uk.js",
+    "data/universities.de.js",
     "data/admission-profiles.js",
     "data/i18n/ru.js",
     "assets/js/i18n.js",

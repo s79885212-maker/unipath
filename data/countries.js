@@ -83,5 +83,27 @@ window.UNIPATH.countries.push(
     { label: 'GOV.UK — Student visa: money you need', url: 'https://www.gov.uk/student-visa/money' },
     { label: 'GOV.UK — Student visa', url: 'https://www.gov.uk/student-visa' }
   ]
+},
+{
+  code: 'de',
+  name: 'Germany',
+  flag: '🇩🇪',
+  currency: 'EUR',
+  tagline: 'Little or no tuition at public universities — but only a minority of bachelor\u2019s degrees are taught in English, and your school certificate must be recognised.',
+  overview: 'Germany is the cheapest major study destination in this database: DAAD states that state universities generally charge no fees for bachelor\u2019s courses, and every student pays only a semester contribution of about \u20ac70 \u2013 \u20ac430. The exceptions are Baden-W\u00fcrttemberg, which charges students from outside the EU \u20ac1,500 a semester, and some Bavarian universities such as TUM and FAU. The catch is language: most bachelor\u2019s degrees are taught in German, and DAAD lists only about 240 bachelor\u2019s programmes taught entirely in English across the whole country. Private universities teach more in English but charge tuition comparable to the UK.',
+  applicationInfo: 'You apply to each university directly, often through uni-assist, which checks certificates from outside Germany. For a winter-semester start, bachelor\u2019s applications usually close on 15 July. Before anything else, check whether your school-leaving certificate counts as a German university entrance qualification (HZB) in the DAAD admission database; if it does not, you need a one-year foundation course (Studienkolleg) or some university study in your own country first.',
+  fieldsPopular: ['engineering', 'computer-science', 'business', 'economics', 'social-sciences'],
+  notes: [
+    'Check the DAAD admission database for your country first: without a recognised university entrance qualification you cannot start a bachelor\u2019s degree directly.',
+    'Search for English-taught degrees specifically — a university offering a few English programmes usually teaches everything else in German.',
+    'A Student visa requires proof of money, usually in a blocked account: the German embassy\u2019s January 2025 leaflet asks for at least \u20ac992 a month, \u20ac11,904 for a year. Check the current figure with your German mission before applying.',
+    'DAAD estimates student living costs at \u20ac900 \u2013 \u20ac1,200 a month; the blocked-account amount covers part of that, not all of it.'
+  ],
+  sources: [
+    { label: 'DAAD \u2014 costs of education and living', url: 'https://www.daad.de/en/studying-in-germany/living-in-germany/finances/' },
+    { label: 'DAAD \u2014 Studienkollegs and university entrance qualification', url: 'https://www.daad.de/en/studying-in-germany/requirements/studienkollegs/' },
+    { label: 'DAAD \u2014 International Programmes database', url: 'https://www2.daad.de/deutschland/studienangebote/international-programmes/en/' },
+    { label: 'German Missions in the US \u2014 National Visa for Students (January 2025, PDF)', url: 'https://www.germany.info/resource/blob/2435500/d4beca8da37c3570d38b2bf5e9bdd64c/study-data.pdf' }
+  ]
 }
 );
