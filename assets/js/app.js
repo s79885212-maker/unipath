@@ -138,7 +138,7 @@
     if (has(t.min)) return 'Min ' + t.min + (t.lowestLevel ? ' (varies by course)' : '');
     if (has(t.recommended)) return typeof t.recommended === 'number' ? t.recommended + '+ competitive' : String(t.recommended);
     if (has(t.estimate)) return t.estimate + ' · UniPath estimate';
-    return 'Accepted';
+    return 'Accepted, no minimum published';
   }
   function statsOf(u) { return u.stats || null; }
   function toeflMin(u) {

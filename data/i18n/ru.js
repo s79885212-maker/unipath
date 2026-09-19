@@ -2512,5 +2512,6 @@ window.UNIPATH_I18N.ru = {
   "SAT or ACT is required, and no score was entered.": "Нужен SAT или ACT, а балл не введён.",
   "GPA {0} is below the average of admitted students ({1}).": "GPA {0} ниже среднего у принятых студентов ({1}).",
   "GPA {0} is at or above the average of admitted students ({1}).": "GPA {0} не ниже среднего у принятых студентов ({1}).",
-  "Acceptance rate {0}% — admission is uncertain even with top scores.": "Доля принятых {0}% — поступление не гарантировано даже с высшими баллами."
+  "Acceptance rate {0}% — admission is uncertain even with top scores.": "Доля принятых {0}% — поступление не гарантировано даже с высшими баллами.",
+  "Accepted, no minimum published": "Принимается, минимум не опубликован"
 };
