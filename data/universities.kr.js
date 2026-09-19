@@ -20,7 +20,7 @@ window.UNIPATH.universities.push(
   languageOfInstruction: 'Korean, with English-taught courses in many departments',
   programs: ['engineering','computer-science','business','economics','social-sciences','humanities','biology','mathematics','law','medicine','arts','education'],
   englishTaughtPrograms: [],
-  programNote: 'SNU teaches across every major field. Departments differ in how much English-medium teaching they offer, and SNU warns that weak Korean can count against you in some departments.',
+  programNote: 'SNU teaches across every major field. Departments differ in how much English-medium teaching they offer, and SNU warns that weak Korean can count against you in some departments. SNU advises that most courses are in Korean and that students may not be able to complete the credits needed to graduate without Korean-taught courses, so no field is listed as fully English-taught.',
   links: {
     website: 'https://en.snu.ac.kr/',
     admissions: 'https://en.snu.ac.kr/admission',
@@ -95,9 +95,10 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Scholarships before admission (undergraduate)', url: 'https://en.snu.ac.kr/admission/undergraduate/scholarships/before_admission' },
     { label: 'Undergraduate application', url: 'https://en.snu.ac.kr/admission/undergraduate/application' },
-    { label: 'Admissions FAQ', url: 'https://en.snu.ac.kr/admission/overview/faq/admission' }
+    { label: 'Admissions FAQ', url: 'https://en.snu.ac.kr/admission/overview/faq/admission' },
+    { label: 'Undergraduate admissions FAQ', url: 'https://en.snu.ac.kr/admission/overview/faq/admission' }
   ],
-  lastVerified: '2026-09-16'
+  lastVerified: '2026-09-19'
 },
 
 {
@@ -301,11 +302,11 @@ window.UNIPATH.universities.push(
   type: 'Private research university',
   brand: { c1: '#862633', c2: '#43131a', initials: 'KU' },
   description: 'One of Korea\'s "SKY" universities alongside SNU and Yonsei, with a dedicated international admissions office and a broad list of accepted language qualifications. Scholarships are decided at admission with no separate application.',
-  englishTaught: null,
+  englishTaught: true,
   languageOfInstruction: 'Korean and English',
   programs: ['business','economics','engineering','computer-science','social-sciences','humanities','law','medicine','biology','mathematics','psychology','arts'],
-  englishTaughtPrograms: [],
-  programNote: 'Korea University teaches across all major fields. Whether you can study largely in English depends on your department — students with high English proficiency may be exempted from intensive Korean language training.',
+  englishTaughtPrograms: ['social-sciences'],
+  programNote: 'Korea University teaches across all major fields. Whether you can study largely in English depends on your department — students with high English proficiency may be exempted from intensive Korean language training. The fall 2026 guide lists International Studies (English Track) in the College of International Studies, which requires proof of English. The Global Open Major can also lead to an English-based major (IELTS 7.0 / TOEFL iBT 100 needed), but its list of eligible departments is published separately and is not confirmed here.',
   links: {
     website: 'https://www.korea.edu/en/index.do',
     admissions: 'https://oia.korea.ac.kr/oia/under/admission.do',
@@ -374,9 +375,10 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'Undergraduate admission guide (Office of International Affairs)', url: 'https://oia.korea.ac.kr/oia/under/admission.do' },
-    { label: 'Application Guide for Fall 2026 (Freshman) PDF', url: 'https://oia.korea.ac.kr/_res/oia/etc/Application_Guide_for_Fall_2026_Freshman(ENG).pdf' }
+    { label: 'Application Guide for Fall 2026 (Freshman) PDF', url: 'https://oia.korea.ac.kr/_res/oia/etc/Application_Guide_for_Fall_2026_Freshman(ENG).pdf' },
+    { label: 'Fall 2026 undergraduate application guide for international freshmen (PDF)', url: 'https://oia.korea.ac.kr/_res/oia/etc/Application_Guide_for_Fall_2026_Freshman(ENG).pdf' }
   ],
-  lastVerified: '2026-09-16'
+  lastVerified: '2026-09-19'
 },
 
 {

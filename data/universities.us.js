@@ -841,7 +841,10 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['UC Application (shared by all nine UC campuses)'],
     deadlines: [
-      { name: 'Application filing period', date: '1 October – 30 November', note: 'One application covers every UC campus you choose' },
+      { name: 'Application opens', entryTerm: 'Fall 2027', dateISO: '2026-08-01', date: '1 August 2026', note: 'You can start the UC Application from this date' },
+      { name: 'Application filing period', entryTerm: 'Fall 2027', displayDate: '1 October – 30 November 2026', date: '1 October – 30 November', note: 'One application covers every UC campus you choose' },
+      { name: 'Admission decisions', entryTerm: 'Fall 2027', date: 'March 2027', note: 'UC says some campuses may release decisions earlier' },
+      { name: 'Statement of Intent to Register', entryTerm: 'Fall 2027', dateISO: '2027-05-01', date: '1 May 2027', note: 'Deadline for admitted first-year students to accept' },
       { name: 'English proficiency evidence', date: '31 January', note: 'Proficiency must be satisfied by this date' },
       { name: 'Optional InitialView interview', date: '30 November', note: 'Optional, and it cannot replace a required English test score' }
     ],
@@ -922,6 +925,7 @@ window.UNIPATH.universities.push(
     { label: 'Financial aid for international students', url: 'https://financialaid.berkeley.edu/apply-now/international-students/' },
     { label: 'Scholarship opportunities for international students', url: 'https://financialaid.berkeley.edu/types-of-aid-at-berkeley/scholarships/regents-and-chancellors-scholarship/international-student-scholarships/' },
     { label: 'UC — applying for admission as an international applicant', url: 'https://admission.universityofcalifornia.edu/admission-requirements/international-applicants/applying-for-admission/' },
+    { label: 'UC — dates and deadlines 2026–27 (fall 2027 entry)', url: 'https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/dates-and-deadlines.html' },
     { label: 'Legal Studies undergraduate program', url: 'https://jsp-ls.berkeley.edu/legal-studies' }
   ],
   lastVerified: '2026-09-18'

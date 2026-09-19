@@ -115,7 +115,7 @@ window.UNIPATH.universities.push(
   languageOfInstruction: 'Bilingual — English and Japanese',
   programs: ['engineering','computer-science','economics','mathematics','biology','social-sciences','humanities','law','medicine','education'],
   englishTaughtPrograms: [],
-  programNote: 'Kyoto iUP is a 4.5-year route: a six-month preparatory course followed by four years of undergraduate study in a chosen faculty. Students graduate with academic-level Japanese in addition to their degree.',
+  programNote: 'Kyoto iUP is a 4.5-year route: a six-month preparatory course followed by four years of undergraduate study in a chosen faculty. Students graduate with academic-level Japanese in addition to their degree. Kyoto iUP states that the first two years are taught in English and/or Japanese, and the final two years focus on the major, "taught mainly or exclusively in Japanese" — so no field is listed as fully English-taught.',
   links: {
     website: 'https://www.kyoto-u.ac.jp/en',
     admissions: 'https://www.kyoto-u.ac.jp/en/education-campus/education-and-admissions/undergraduate-degree-programs',
@@ -186,9 +186,10 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Kyoto iUP official site', url: 'https://www.iup.kyoto-u.ac.jp/' },
     { label: 'Kyoto iUP programme overview', url: 'https://www.iup.kyoto-u.ac.jp/about/overview.html' },
-    { label: 'Kyoto iUP on the university site', url: 'https://www.kyoto-u.ac.jp/en/education-campus/education-and-admissions/undergraduate-degree-programs/kyoto-iup-kyoto-university-international-undergraduate-program' }
+    { label: 'Kyoto iUP on the university site', url: 'https://www.kyoto-u.ac.jp/en/education-campus/education-and-admissions/undergraduate-degree-programs/kyoto-iup-kyoto-university-international-undergraduate-program' },
+    { label: 'Kyoto iUP — curriculum', url: 'https://www.iup.kyoto-u.ac.jp/academics/' }
   ],
-  lastVerified: '2026-09-16'
+  lastVerified: '2026-09-19'
 },
 
 {
