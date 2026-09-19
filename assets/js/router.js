@@ -6,7 +6,7 @@
      #/country/<code>            one country
      #/universities?q=&c=&field= browse with filters
      #/university/<id>[/<sec>]   university profile
-     #/scholarships  #/compare  #/about
+     #/scholarships  #/match  #/compare  #/about
    Static pages: /university/<id>/ and /country/<code>/ (built from the
    same data by build-artifact.py) open the matching route.
    ============================================================ */
@@ -99,6 +99,12 @@
         main.innerHTML = V.scholarships();
         U.setActiveNav('scholarships');
         current = { type: 'scholarships' };
+        break;
+
+      case 'match':
+        global.UPMatch.render(main);
+        U.setActiveNav('match');
+        current = { type: 'match' };
         break;
 
       case 'compare':

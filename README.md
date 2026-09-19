@@ -1,7 +1,7 @@
 # UniPath
 
 A research platform for international students: universities, admission requirements,
-scholarships, costs and official application links for the USA, the UK, Japan and South Korea.
+scholarships, costs and official application links for the USA, the UK, Germany, Japan and South Korea.
 
 ## Live site
 
@@ -149,6 +149,7 @@ assets/css/styles.css   Design system
 assets/js/app.js        Data access, search, filters, comparison store, shared chrome
 assets/js/pages.js      Renderers: university profile, browse, country, compare
 assets/js/views.js      Renderers: home, countries, scholarships, about
+assets/js/match.js      Find my match (#/match)
 assets/js/router.js     Hash router
 assets/js/gate.js       Invisible bot check (Cloudflare Turnstile)
 assets/js/i18n.js       Translation layer (EN / RU)
@@ -159,6 +160,8 @@ data/universities.us.js 10 universities
 data/universities.jp.js 8 universities
 data/universities.kr.js 8 universities
 data/universities.uk.js 8 universities
+data/universities.de.js 8 universities
+data/match.js           Yearly cost per university + ECB rates for Find my match
 data/photos.js          Campus photos + attribution
 data/i18n/ru.js         Russian dictionary
 data/admission-profiles.js  Admission statistics + target bands (updated yearly)
@@ -176,7 +179,7 @@ tools/prerender.py      Static university/country pages + sitemap (run by the bu
 #/universities                  Browse (accepts ?q= ?c= ?field= ?scholarship=)
 #/university/mit                University profile
 #/university/mit/scholarships   Profile, scrolled to a section
-#/scholarships  #/compare  #/about
+#/scholarships  #/match  #/compare  #/about
 
 /university/mit/                Static, indexable page (opens the same profile)
 /country/uk/                    Static, indexable country page
@@ -198,6 +201,17 @@ tools/prerender.py      Static university/country pages + sitemap (run by the bu
   without a year is shown as "Current cycle date not confirmed"; a past cycle's
   date is never rolled forward. `UP.deadlineInfo()` exposes an ISO date for
   future "nearest deadline" sorting.
+
+## Find my match
+
+`#/match` compares a student's IELTS, GPA, SAT and yearly budget with what each
+university publishes: the IELTS minimum (a hard line), the competitive score or a
+labelled UniPath estimate, the SAT middle-50% range and average GPA of admitted
+students, and the yearly figure in `data/match.js`. Budgets are converted with the
+ECB reference rates stored in the same file — update the rates and `annualCost`
+together with the profiles. Results are grouped as "meets the published
+requirements", "possible but competitive", "scores not enough yet" and "not enough
+published data"; nothing is presented as a prediction.
 
 ## Reporting errors
 

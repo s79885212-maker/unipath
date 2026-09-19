@@ -29,11 +29,13 @@ JS_FILES = [
     "data/universities.uk.js",
     "data/universities.de.js",
     "data/admission-profiles.js",
+    "data/match.js",
     "data/i18n/ru.js",
     "assets/js/i18n.js",
     "assets/js/app.js",
     "assets/js/pages.js",
     "assets/js/views.js",
+    "assets/js/match.js",
     "assets/js/router.js",
 ]
 CSS_FILES = ["assets/css/styles.css"]

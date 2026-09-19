@@ -433,6 +433,7 @@
     { href: '#/countries', label: 'Countries', key: 'countries' },
     { href: '#/universities', label: 'Universities', key: 'universities' },
     { href: '#/scholarships', label: 'Scholarships', key: 'scholarships' },
+    { href: '#/match', label: 'Find my match', key: 'match' },
     { href: '#/compare', label: 'Compare', key: 'compare' },
     { href: '#/about', label: 'About', key: 'about' }
   ];
@@ -478,6 +479,7 @@
             '<div><h4>Explore</h4><ul>' +
               '<li><a href="#/universities">All universities</a></li>' +
               '<li><a href="#/scholarships">Scholarships</a></li>' +
+              '<li><a href="#/match">Find my match</a></li>' +
               '<li><a href="#/compare">Compare universities</a></li>' +
             '</ul></div>' +
             '<div><h4>About</h4><ul>' +
@@ -682,7 +684,7 @@
         var links = document.querySelector('[data-nav-links]');
         var open = toggle.getAttribute('aria-expanded') === 'true';
         toggle.setAttribute('aria-expanded', open ? 'false' : 'true');
-        if (links && global.matchMedia('(max-width: 1024px)').matches) links.hidden = open;
+        if (links && global.matchMedia('(max-width: 1180px)').matches) links.hidden = open;
         return;
       }
 
@@ -709,7 +711,7 @@
     function syncNav() {
       var links = document.querySelector('[data-nav-links]');
       if (!links) return;
-      links.hidden = global.matchMedia('(max-width: 1024px)').matches &&
+      links.hidden = global.matchMedia('(max-width: 1180px)').matches &&
         document.querySelector('[data-nav-toggle]').getAttribute('aria-expanded') !== 'true';
     }
     syncNav();
