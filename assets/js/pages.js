@@ -448,7 +448,10 @@
       if (!o) return 0;
       var probe = {};
       for (var k in selected) if (selected.hasOwnProperty(k) && k !== gid) probe[k] = selected[k];
-      return U.applyFilters(current, probe).filter(o.test).length;
+      /* Pass the other selected filters: options such as Field of study read
+         them (English-taught + Field uses englishTaughtPrograms). Array.filter
+         would otherwise hand the option's test an index as its second argument. */
+      return U.applyFilters(current, probe).filter(function (u) { return o.test(u, probe); }).length;
     }
 
     function drawFilters() {
