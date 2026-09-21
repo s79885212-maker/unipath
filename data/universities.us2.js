@@ -4800,3 +4800,789 @@ window.UNIPATH.universities.push(
   lastVerified: '2026-09-21'
 }
 );
+
+/* ---- Batch added 22 September 2026: the last eight universities from
+   the requested list. ---- */
+window.UNIPATH.universities.push(
+{
+  id: 'macalester-college',
+  name: 'Macalester College',
+  country: 'us',
+  city: 'Saint Paul',
+  region: 'Minnesota',
+  founded: 1874,
+  type: 'Private liberal arts college',
+  brand: { c1: '#01426A', c2: '#D44420', initials: 'MAC' },
+  description: 'A liberal arts college in Saint Paul known for its international outlook and a long tradition of students from abroad. Macalester meets 100% of every admitted student’s demonstrated need and runs a merit scholarship programme too, but because its budget is finite, the amount of aid an international applicant needs is a factor in admission.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts'],
+  englishTaughtPrograms: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts'],
+  programNote: 'Macalester sits in a city, unusually for a liberal arts college, and is known for international studies, economics and political science.',
+  links: {
+    website: 'https://www.macalester.edu/',
+    admissions: 'https://www.macalester.edu/admissions/apply/',
+    internationalAdmissions: 'https://www.macalester.edu/admissions/international/first-year/',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://www.macalester.edu/admissions/financial-aid/',
+    financialAid: 'https://www.macalester.edu/financial-aid/apply/international/',
+    programs: 'https://www.macalester.edu/academics/',
+    cost: 'https://www.macalester.edu/admissions/financial-aid/'
+  },
+  admissions: {
+    platforms: ['Common Application', 'QuestBridge Application'],
+    deadlines: [
+      { name: 'Early Decision I', entryTerm: 'Autumn 2027', dateISO: '2026-11-01', date: '1 November 2026', note: 'Binding; priority financial aid 9 November; decision 6 December' },
+      { name: 'Early Action', entryTerm: 'Autumn 2027', dateISO: '2026-11-01', date: '1 November 2026', note: 'Non-binding; priority financial aid 9 November; decision 19 December' },
+      { name: 'Early Decision II', entryTerm: 'Autumn 2027', dateISO: '2027-01-01', date: '1 January 2027', note: 'Binding; priority financial aid 8 January; decision 31 January' },
+      { name: 'Regular Decision', entryTerm: 'Autumn 2027', dateISO: '2027-01-15', date: '15 January 2027', note: 'Priority financial aid 22 January; decision 14 March' }
+    ],
+    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    documents: ['Common Application', 'Proof of funding', 'High school transcript', 'Two recommendation letters', 'Senior year grades'],
+    recommendations: 'Two recommendation letters',
+    essay: 'Personal essay',
+    interview: 'Optional',
+    notes: ['SAT/ACT, English proficiency results, interviews and an art portfolio are listed as optional items for international applicants.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Listed as optional; no minimum published on the pages consulted.' },
+    toefl: { min: null, recommended: null, note: 'Listed as optional; no minimum published on the pages consulted.' },
+    duolingo: { min: null, recommended: null, note: 'Listed as optional; no minimum published on the pages consulted.' },
+    waiver: null,
+    note: 'Macalester lists proof of English proficiency among the optional items for international first-year applicants.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'optional', note: 'The ACT or SAT is listed as an optional item for international first-year applicants.' },
+    act: { policy: 'optional', note: 'Same as the SAT.' },
+    otherTests: null,
+    internationalQualifications: 'International qualifications are accepted and read in context.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: 'Not confirmed — see Macalester’s tuition page',
+    items: [
+      { label: 'Tuition, housing, food and fees', text: 'Published on Macalester’s tuition page; the 2026–27 figures were not confirmed here' }
+    ],
+    billedSubtotal: null,
+    totalText: 'Not confirmed — check the official tuition page',
+    note: 'International students must show family resources that meet the I-20 cost of attendance, which combines billed charges and estimated personal costs.'
+  },
+  scholarships: {
+    fullRide: {
+      available: true, internationalEligible: true, basis: 'need-based',
+      covers: { tuition: true, housing: true, meals: true, insurance: null, books: null },
+      renewable: true,
+      competitiveness: 'Macalester says its aid budget is not unlimited, so the amount of aid an applicant requires is a factor in admission.',
+      howToApply: 'Complete the financial aid forms by the priority date for your round.',
+      note: 'Macalester states it is committed to meeting the full demonstrated need of every student it admits, and gives international students a four-year aid package at the time of admission.'
+    },
+    merit: [
+      {
+        name: 'Macalester merit scholarships',
+        amount: 'Not published on the pages consulted',
+        internationalEligible: null,
+        criteria: 'Macalester describes a "robust merit-based scholarship program" alongside need-based aid.',
+        note: 'Whether each award is open to international students was not confirmed.'
+      }
+    ],
+    needBased: {
+      availableToInternational: true, meetsFullNeed: true, needBlindInternational: false,
+      forms: ['Macalester financial aid forms for international applicants'],
+      deadlines: '9 November 2026 (ED I and EA), 8 January 2027 (ED II), 22 January 2027 (Regular Decision)',
+      note: '59% of Macalester students receive need-based grants from the college.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'Dates and deadlines', url: 'https://www.macalester.edu/admissions/deadlines/' },
+    { label: 'International students — financial aid', url: 'https://www.macalester.edu/financial-aid/apply/international/' },
+    { label: 'International first-year FAQs', url: 'https://www.macalester.edu/admissions/international/faq/' },
+    { label: 'Financial aid and tuition', url: 'https://www.macalester.edu/admissions/financial-aid/' }
+  ],
+  lastVerified: '2026-09-22'
+},
+
+{
+  id: 'oberlin-college',
+  name: 'Oberlin College and Conservatory',
+  shortName: 'Oberlin',
+  country: 'us',
+  city: 'Oberlin',
+  region: 'Ohio',
+  founded: 1833,
+  type: 'Private liberal arts college and music conservatory',
+  brand: { c1: '#A6192E', c2: '#FFC72C', initials: 'OC' },
+  description: 'A liberal arts college with a renowned music conservatory in northern Ohio. Oberlin is openly need-aware and says applicants who can contribute at least $35,000 a year are the most competitive; only about 8% of international applicants are admitted, but those who apply for aid have their full calculated need met.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts'],
+  englishTaughtPrograms: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts'],
+  programNote: 'Oberlin combines the College of Arts and Sciences with the Conservatory of Music; some students take a double degree across both.',
+  links: {
+    website: 'https://www.oberlin.edu/',
+    admissions: 'https://www.oberlin.edu/admissions-and-aid/arts-and-sciences/first-year-applicants',
+    internationalAdmissions: 'https://www.oberlin.edu/admissions-and-aid/arts-and-sciences/international-applicants',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://www.oberlin.edu/financial-aid/basics/scholarships-offered',
+    financialAid: 'https://www.oberlin.edu/admissions-and-aid/financial-aid/applying-aid-international-students',
+    programs: 'https://www.oberlin.edu/arts-and-sciences',
+    cost: 'https://www.oberlin.edu/admissions-and-aid/tuition-and-fees'
+  },
+  admissions: {
+    platforms: ['Common Application'],
+    deadlines: [
+      { name: 'Early Decision I and Early Action', date: '1 November', note: 'Financial aid due the same day' },
+      { name: 'Early Decision II', date: '5 January', note: 'Binding; financial aid due the same day' },
+      { name: 'Regular Decision', date: '15 January', note: 'Financial aid due the same day' }
+    ],
+    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile (code 1587) or ISAFA with parental income documents for aid applicants'],
+    recommendations: 'Teacher and counsellor recommendations',
+    essay: 'Personal essay',
+    interview: null,
+    notes: ['Students who do not apply for aid at the time of admission are not eligible for it in later years.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    waiver: null,
+    note: 'Check Oberlin’s international applicants page for the current English requirement.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    otherTests: null,
+    internationalQualifications: 'International qualifications are accepted and read in context.'
+  },
+  costs: {
+    academicYear: '2025–2026',
+    currency: 'USD',
+    headline: '$90,000 expected support (2025–26)',
+    items: [
+      { label: 'Expected yearly support for a student not applying for aid', amount: 90000 }
+    ],
+    billedSubtotal: null,
+    totalText: 'About $90,000 for 2025–26; Oberlin expects costs to rise 3–5% a year',
+    note: 'This is the amount of support Oberlin expects international students not applying for aid to show.'
+  },
+  scholarships: {
+    fullRide: {
+      available: true, internationalEligible: true, basis: 'need-based',
+      covers: { tuition: true, housing: true, meals: true, insurance: null, books: null },
+      renewable: true,
+      competitiveness: 'Very competitive: about 8% of international applicants are admitted, and those able to contribute at least $35,000 a year are the most competitive.',
+      howToApply: 'Submit the CSS Profile or ISAFA with parental income documents by your round’s deadline.',
+      note: 'Oberlin states it provides grants, scholarships, loans and on-campus employment to meet 100% of calculated need for all international students who apply for aid, and that it is need-aware.'
+    },
+    merit: [
+      {
+        name: 'Oberlin merit scholarships',
+        amount: 'Not published on the pages consulted',
+        internationalEligible: true,
+        criteria: 'Oberlin says eligible international students may be considered for its merit scholarships.',
+        note: 'Details are on Oberlin’s scholarships page.'
+      }
+    ],
+    needBased: {
+      availableToInternational: true, meetsFullNeed: true, needBlindInternational: false,
+      forms: ['CSS Profile (code 1587)', 'ISAFA', 'Parental income documents'],
+      deadlines: '1 November (ED I and EA), 5 January (ED II), 15 January (Regular Decision)',
+      note: 'Oberlin’s international aid budget is limited, and packages can include loans.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'Applying for aid: international students', url: 'https://www.oberlin.edu/admissions-and-aid/financial-aid/applying-aid-international-students' },
+    { label: 'International applicants', url: 'https://www.oberlin.edu/admissions-and-aid/arts-and-sciences/international-applicants' },
+    { label: 'Tuition and fees', url: 'https://www.oberlin.edu/admissions-and-aid/tuition-and-fees' }
+  ],
+  lastVerified: '2026-09-22'
+},
+
+{
+  id: 'kenyon-college',
+  name: 'Kenyon College',
+  country: 'us',
+  city: 'Gambier',
+  region: 'Ohio',
+  founded: 1824,
+  type: 'Private liberal arts college',
+  brand: { c1: '#4B2E83', c2: '#2d1b4f', initials: 'KC' },
+  description: 'A liberal arts college on a hilltop in rural Ohio, famous for creative writing and the Kenyon Review. Kenyon commits to meeting 100% of demonstrated need for four years, but says it must remain need-aware, so a student’s ability to pay is part of the decision.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts'],
+  englishTaughtPrograms: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts'],
+  programNote: 'Kenyon is especially known for English and creative writing, and is home to the literary magazine the Kenyon Review.',
+  links: {
+    website: 'https://www.kenyon.edu/',
+    admissions: 'https://www.kenyon.edu/admissions-aid/how-to-apply/',
+    internationalAdmissions: 'https://www.kenyon.edu/admissions-aid/how-to-apply/international-students/',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://www.kenyon.edu/admissions-aid/financial-aid-scholarships/',
+    financialAid: 'https://www.kenyon.edu/admissions-aid/financial-aid-scholarships/apply-for-financial-aid/',
+    programs: 'https://www.kenyon.edu/academics/',
+    cost: 'https://www.kenyon.edu/admissions-aid/financial-aid-scholarships/tuition-costs/'
+  },
+  admissions: {
+    platforms: ['Common Application'],
+    deadlines: [
+      { name: 'Early Decision I', date: '15 November', note: 'Binding; decisions mid-December' },
+      { name: 'Early Decision II', date: '15 January', note: 'Binding; decisions mid-February' },
+      { name: 'Regular Decision', date: '15 January', note: 'Decisions late March' }
+    ],
+    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'English proficiency score', 'CSS Profile (code 1370) or Kenyon’s international financial aid application'],
+    recommendations: 'Teacher and counsellor recommendations',
+    essay: 'Personal essay',
+    interview: null,
+    notes: ['International students living in the US or Canada must use the CSS Profile rather than Kenyon’s international aid form.']
+  },
+  english: {
+    ielts: { min: null, recommended: 7, note: 'IELTS Academic or IELTS Indicator 7.0 is encouraged.' },
+    toefl: { min: null, recommended: 100, note: 'TOEFL iBT (including Special Home Edition) 100 is encouraged.' },
+    duolingo: { min: null, recommended: 130, note: 'Duolingo English Test 130 is encouraged.' },
+    waiver: null,
+    note: 'Kenyon presents these as encouraged minimums.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'optional', note: 'Kenyon is test-optional for all applicants.' },
+    act: { policy: 'optional', note: 'Same as the SAT.' },
+    otherTests: null,
+    internationalQualifications: 'International qualifications are accepted and read in context.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: '$93,090 in tuition, room, board and fees',
+    items: [
+      { label: 'Tuition', amount: 71870 },
+      { label: 'Housing (double room)', amount: 7600 },
+      { label: 'Meals', amount: 9780 },
+      { label: 'Student activities fee', amount: 350 },
+      { label: 'Books and personal costs', amount: 1900 },
+      { label: 'Transportation and miscellaneous', amount: 1950 }
+    ],
+    billedSubtotal: 93090,
+    totalText: '$93,090 in total charges, plus about $3,850 in books, personal and travel costs',
+    note: 'Kenyon’s financial aid budget for 2026–27 is about $68.6 million.'
+  },
+  scholarships: {
+    fullRide: {
+      available: true, internationalEligible: true, basis: 'need-based',
+      covers: { tuition: true, housing: true, meals: true, insurance: null, books: null },
+      renewable: true,
+      competitiveness: 'Kenyon says it must remain need-aware, factoring in a student’s ability to pay when deciding whether to admit.',
+      howToApply: 'Submit the CSS Profile or Kenyon’s international aid application by the priority deadline.',
+      note: 'Kenyon commits to meeting 100% of demonstrated need for qualifying students for all four years.'
+    },
+    merit: [],
+    needBased: {
+      availableToInternational: true, meetsFullNeed: true, needBlindInternational: false,
+      forms: ['CSS Profile (code 1370)', 'Kenyon International Financial Aid Application'],
+      deadlines: 'By the priority deadlines; applications up to ten days late are treated as on time',
+      note: 'Late applications may be wait-listed for aid and considered only if money remains after 15 May.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'Deadlines and requirements — international students', url: 'https://www.kenyon.edu/admissions-aid/how-to-apply/international-students/' },
+    { label: 'Apply for financial aid', url: 'https://www.kenyon.edu/admissions-aid/financial-aid-scholarships/apply-for-financial-aid/' },
+    { label: 'Tuition and costs', url: 'https://www.kenyon.edu/admissions-aid/financial-aid-scholarships/tuition-costs/' },
+    { label: 'Spring 2026 report from the Board of Trustees', url: 'https://www.kenyon.edu/news/archive/spring-2026-report-from-the-board-of-trustees/' }
+  ],
+  lastVerified: '2026-09-22'
+},
+
+{
+  id: 'denison-university',
+  name: 'Denison University',
+  country: 'us',
+  city: 'Granville',
+  region: 'Ohio',
+  founded: 1831,
+  type: 'Private liberal arts college',
+  brand: { c1: '#C8102E', c2: '#8a0b20', initials: 'DU' },
+  description: 'A liberal arts college in central Ohio with a strong emphasis on career preparation. Denison gives international students the same need-based aid and merit scholarships as Americans — merit awards run from $5,000 a year to full tuition — and meets 100% of need, while being need-aware in admission.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['humanities','social-sciences','economics','business','computer-science','mathematics','biology','psychology','arts'],
+  englishTaughtPrograms: ['humanities','social-sciences','economics','business','computer-science','mathematics','biology','psychology','arts'],
+  programNote: 'Denison teaches the liberal arts and sciences and puts particular weight on preparing students for careers after college.',
+  links: {
+    website: 'https://denison.edu/',
+    admissions: 'https://denison.edu/campus/admission/international-applicants',
+    internationalAdmissions: 'https://denison.edu/campus/admission/international-applicants',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://denison.edu/campus/finances/types-of-scholarships-aid',
+    financialAid: 'https://denison.edu/campus/admission/international-applicant-financial-aid',
+    programs: 'https://denison.edu/academics',
+    cost: 'https://denison.edu/campus/admission/tuition-aid'
+  },
+  admissions: {
+    platforms: ['Common Application'],
+    deadlines: [
+      { name: 'Early Decision I', date: '15 November', note: 'Binding; financial aid due the same day' },
+      { name: 'Early Decision II', date: '15 January', note: 'Binding; financial aid due the same day' },
+      { name: 'Regular Decision', date: '15 January', note: 'Financial aid due the same day' }
+    ],
+    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'Denison Certification of Finances (free; Denison does not use the CSS Profile for international applicants)'],
+    recommendations: 'Teacher and counsellor recommendations',
+    essay: 'Personal essay',
+    interview: null,
+    notes: ['International students can apply for need-based aid only during the admission process; those who enrol without it cannot apply later.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    waiver: null,
+    note: 'Check Denison’s international applicants page for the current English requirement.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    otherTests: null,
+    internationalQualifications: 'International qualifications are accepted and read in context.'
+  },
+  costs: {
+    academicYear: '2025–2026',
+    currency: 'USD',
+    headline: '$92,900 total (2025–26)',
+    items: [
+      { label: 'Cost of attendance', amount: 92900 },
+      { label: 'Allowance for personal expenses and books (included)', amount: 4500 }
+    ],
+    billedSubtotal: null,
+    totalText: '$92,900 for 2025–26, the latest figure found',
+    note: 'Denison’s tuition, housing and food charges exclude books, transport and health insurance.'
+  },
+  scholarships: {
+    fullRide: {
+      available: true, internationalEligible: true, basis: 'need-based',
+      covers: { tuition: true, housing: true, meals: true, insurance: null, books: null },
+      renewable: true,
+      competitiveness: 'Denison is need-aware, which it says lets it meet 100% of demonstrated need for everyone it admits.',
+      howToApply: 'Submit the free Denison Certification of Finances by your round’s deadline.',
+      note: 'Denison states it offers international students the same need-based aid and merit scholarships as US students and meets 100% of demonstrated need for all students.'
+    },
+    merit: [
+      {
+        name: 'Denison merit scholarships',
+        amount: 'From $5,000 a year up to full tuition',
+        internationalEligible: true,
+        criteria: 'Automatic consideration with a complete admission application by the round’s deadline.',
+        note: 'Merit and need-based aid can be combined.'
+      }
+    ],
+    needBased: {
+      availableToInternational: true, meetsFullNeed: true, needBlindInternational: false,
+      forms: ['Denison Certification of Finances'],
+      deadlines: '15 November (ED I) or 15 January (ED II and Regular Decision)',
+      note: 'Denison states: "Denison is need-aware in the application process as this allows us to meet 100% of demonstrated need for all admitted students."'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International applicant financial aid', url: 'https://denison.edu/campus/admission/international-applicant-financial-aid' },
+    { label: 'Types of scholarships and aid', url: 'https://denison.edu/campus/finances/types-of-scholarships-aid' },
+    { label: 'Affordability and cost', url: 'https://denison.edu/campus/admission/tuition-aid' }
+  ],
+  lastVerified: '2026-09-22'
+},
+
+{
+  id: 'franklin-and-marshall-college',
+  name: 'Franklin & Marshall College',
+  country: 'us',
+  city: 'Lancaster',
+  region: 'Pennsylvania',
+  founded: 1787,
+  type: 'Private liberal arts college',
+  brand: { c1: '#003C71', c2: '#002447', initials: 'F&M' },
+  description: 'A liberal arts college in Lancaster, Pennsylvania, known for its residential "college house" system. F&M meets 100% of institutionally determined need for four years for every student it admits, but says the admission process is more competitive for those needing a high level of aid.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['humanities','social-sciences','economics','business','computer-science','mathematics','biology','psychology','arts'],
+  englishTaughtPrograms: ['humanities','social-sciences','economics','business','computer-science','mathematics','biology','psychology','arts'],
+  programNote: 'F&M offers business, organisations and society alongside the liberal arts and sciences.',
+  links: {
+    website: 'https://www.fandm.edu/',
+    admissions: 'https://www.fandm.edu/apply/international-first-year-application-checklist.html',
+    internationalAdmissions: 'https://www.fandm.edu/apply/international-student-admission/',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://www.fandm.edu/financial-aid/',
+    financialAid: 'https://www.fandm.edu/financial-aid/apply.html',
+    programs: 'https://www.fandm.edu/academics',
+    cost: 'https://www.fandm.edu/financial-aid/cost-of-attendance.html'
+  },
+  admissions: {
+    platforms: ['Common Application'],
+    deadlines: [
+      { name: 'Early Decision I', date: '15 November', note: 'Binding; notified within 30 days' },
+      { name: 'Early Decision II', date: '15 January', note: 'Binding; notified within 30 days' },
+      { name: 'Regular Decision', date: '15 January', note: 'Notified by 1 April' }
+    ],
+    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'English proficiency score where required', 'CSS Profile or F&M’s International Aid Form for aid applicants'],
+    recommendations: 'Teacher and counsellor recommendations',
+    essay: 'Personal essay',
+    interview: null,
+    notes: ['Students admitted without aid in their first year are not eligible for it in later years.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Accepted; no minimum published on the pages consulted.' },
+    toefl: { min: null, recommended: null, note: 'Accepted; no minimum published on the pages consulted.' },
+    duolingo: { min: null, recommended: null, note: 'Accepted; no minimum published on the pages consulted.' },
+    waiver: 'Not required if English is your native language, if you have studied for at least three years at a school teaching all courses in English, or with qualifying IB English results.',
+    note: 'F&M accepts the TOEFL, IELTS, Duolingo English Test and PTE Academic.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'optional', note: 'F&M has been test-optional for more than 30 years and applies a "no harm" approach to submitted scores.' },
+    act: { policy: 'optional', note: 'Same as the SAT.' },
+    otherTests: 'A-Level passes at grade C or higher may earn credit.',
+    internationalQualifications: 'Foreign course credits are evaluated case by case.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: '$97,041 total cost',
+    items: [
+      { label: 'Tuition', amount: 74770 },
+      { label: 'Health services and student activity fees', amount: 346 },
+      { label: 'Housing (weighted average)', amount: 12080 },
+      { label: 'Meal plan (All-Access)', amount: 7240 },
+      { label: 'Books and supplies', amount: 800 },
+      { label: 'Personal expenses', amount: 1350 },
+      { label: 'Transportation', amount: 400 }
+    ],
+    billedSubtotal: 94436,
+    totalText: '$97,041 total cost of attendance, of which $94,436 is billed',
+    note: 'The transportation allowance assumes travel within the US; international travel costs more.'
+  },
+  scholarships: {
+    fullRide: {
+      available: true, internationalEligible: true, basis: 'need-based',
+      covers: { tuition: true, housing: true, meals: true, insurance: null, books: null },
+      renewable: true,
+      competitiveness: 'F&M says that if you require a high level of aid, the admission process becomes more competitive.',
+      howToApply: 'Submit the CSS Profile or F&M’s International Aid Form with your application.',
+      note: 'F&M states that if you are admitted it will meet 100% of your institutionally determined financial need for all four years, adjusting aid if its charges change.'
+    },
+    merit: [],
+    needBased: {
+      availableToInternational: true, meetsFullNeed: true, needBlindInternational: false,
+      forms: ['CSS Profile', 'F&M International Aid Form'],
+      deadlines: 'With the admission application',
+      note: 'F&M’s wording makes clear that a high aid request affects admission.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'Applying to F&M as an international student', url: 'https://www.fandm.edu/apply/international-student-admission/' },
+    { label: 'Cost of attendance 2026-27', url: 'https://www.fandm.edu/financial-aid/cost-of-attendance.html' },
+    { label: 'Apply for financial aid', url: 'https://www.fandm.edu/financial-aid/apply.html' }
+  ],
+  lastVerified: '2026-09-22'
+},
+
+{
+  id: 'lafayette-college',
+  name: 'Lafayette College',
+  country: 'us',
+  city: 'Easton',
+  region: 'Pennsylvania',
+  founded: 1826,
+  type: 'Private liberal arts college',
+  brand: { c1: '#98002E', c2: '#610020', initials: 'LC' },
+  description: 'A liberal arts college in Easton, Pennsylvania, with an engineering school unusual for its size. Lafayette is need-aware but guarantees to meet 100% of admitted students’ demonstrated need, up to full tuition, room and board, books and supplies.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['engineering','computer-science','economics','humanities','social-sciences','mathematics','biology','psychology','arts'],
+  englishTaughtPrograms: ['engineering','computer-science','economics','humanities','social-sciences','mathematics','biology','psychology','arts'],
+  programNote: 'Lafayette combines liberal arts majors with engineering degrees, which is rare for a college of its size.',
+  links: {
+    website: 'https://www.lafayette.edu/',
+    admissions: 'https://admissions.lafayette.edu/apply/international-students/',
+    internationalAdmissions: 'https://admissions.lafayette.edu/apply/international-students/',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://admissions.lafayette.edu/financial-aid/',
+    financialAid: 'https://admissions.lafayette.edu/apply-for-aid/first-year-international-students/',
+    programs: 'https://www.lafayette.edu/academics',
+    cost: 'https://admissions.lafayette.edu/financial-aid/'
+  },
+  admissions: {
+    platforms: ['Common Application'],
+    deadlines: [
+      { name: 'Early Decision I', date: '15 November', note: 'Binding' },
+      { name: 'Early Decision II', date: '15 January', note: 'Binding' },
+      { name: 'Regular Decision', date: '15 January', note: null }
+    ],
+    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile for aid applicants'],
+    recommendations: 'Teacher and counsellor recommendations',
+    essay: 'Personal essay',
+    interview: null,
+    notes: ['Families contributing less than $20,000 a year for whom the CSS Profile fee is a hardship can request an alternative International Financial Aid Form after submitting the Common Application.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    waiver: null,
+    note: 'Check Lafayette’s international students page for the current English requirement.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    otherTests: null,
+    internationalQualifications: 'International qualifications are accepted and read in context.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: 'Not confirmed — see Lafayette’s financial aid page',
+    items: [
+      { label: 'Tuition, room, board, books and supplies', text: 'The 2026–27 figures were not confirmed on the pages consulted' }
+    ],
+    billedSubtotal: null,
+    totalText: 'Not confirmed — check the official cost page',
+    note: 'Lafayette notes that meeting demonstrated need does not mean every expense, or summer and interim costs, will be covered.'
+  },
+  scholarships: {
+    fullRide: {
+      available: true, internationalEligible: true, basis: 'need-based',
+      covers: { tuition: true, housing: true, meals: true, insurance: null, books: true },
+      renewable: true,
+      competitiveness: 'Lafayette is need-aware and considers a student’s financial situation when deciding on admission.',
+      howToApply: 'Submit the CSS Profile with your application.',
+      note: 'Lafayette states it will meet the demonstrated need of all admitted students, up to and including full tuition, room and board, books and supplies, and calls itself one of about 70 US schools that guarantee to meet 100% of admitted students’ need.'
+    },
+    merit: [],
+    needBased: {
+      availableToInternational: true, meetsFullNeed: true, needBlindInternational: false,
+      forms: ['CSS Profile', 'Alternative International Financial Aid Form on request'],
+      deadlines: 'With the admission application',
+      note: 'Demonstrated need is a calculated amount; Lafayette warns it does not cover every expense.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'First-year international students — apply for aid', url: 'https://admissions.lafayette.edu/apply-for-aid/first-year-international-students/' },
+    { label: 'International student FAQ', url: 'https://admissions.lafayette.edu/apply/international-students/international-student-faq/' },
+    { label: 'Applying as an international student', url: 'https://admissions.lafayette.edu/apply/international-students/' }
+  ],
+  lastVerified: '2026-09-22'
+},
+
+{
+  id: 'lehigh-university',
+  name: 'Lehigh University',
+  country: 'us',
+  city: 'Bethlehem',
+  region: 'Pennsylvania',
+  founded: 1865,
+  type: 'Private research university',
+  brand: { c1: '#653600', c2: '#3f2200', initials: 'LU' },
+  description: 'A private research university in Bethlehem, Pennsylvania, strong in engineering and business. International aid is limited: Lehigh reads non-US applicants need-aware and aims to meet full need for as many admitted international students as its funds allow — not for all of them.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['engineering','business','computer-science','economics','humanities','social-sciences','mathematics','biology','psychology','arts','education'],
+  englishTaughtPrograms: ['engineering','business','computer-science','economics','humanities','social-sciences','mathematics','biology','psychology','arts','education'],
+  programNote: 'Lehigh has colleges of engineering, business, arts and sciences and health, and offers integrated programmes across them.',
+  links: {
+    website: 'https://www.lehigh.edu/',
+    admissions: 'https://www2.lehigh.edu/admissions',
+    internationalAdmissions: 'https://www2.lehigh.edu/admissions/international-students',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://www2.lehigh.edu/financial-aid',
+    financialAid: 'https://www2.lehigh.edu/admissions/international-students',
+    programs: 'https://catalog.lehigh.edu/',
+    cost: 'https://www2.lehigh.edu/financial-aid/undergraduate'
+  },
+  admissions: {
+    platforms: ['Common Application'],
+    deadlines: [
+      { name: 'Early Decision I — financial aid', date: '1 November', note: 'CSS Profile due by the Early Decision I application deadline' },
+      { name: 'Early Decision II and Regular Decision — financial aid', date: '15 January', note: 'CSS Profile due by the application deadline' }
+    ],
+    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'International Undergraduate Financial Certification Form', 'CSS Profile for aid applicants'],
+    recommendations: 'Teacher and counsellor recommendations',
+    essay: 'Personal essay',
+    interview: null,
+    notes: ['International students who do not receive aid in their first year are not eligible for it later.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    waiver: null,
+    note: 'Check Lehigh’s international students page for the current English requirement.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    otherTests: null,
+    internationalQualifications: 'International qualifications are accepted and read in context.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: '$93,400 projected cost',
+    items: [
+      { label: 'Projected cost of attendance', amount: 93400 }
+    ],
+    billedSubtotal: null,
+    totalText: '$93,400 projected cost of attendance for 2026–27',
+    note: 'Lehigh’s aid goal for international students excludes travel and personal expenses.'
+  },
+  scholarships: {
+    fullRide: {
+      available: null, internationalEligible: true, basis: 'need-based',
+      covers: { tuition: null, housing: null, meals: null, insurance: null, books: null },
+      renewable: true,
+      competitiveness: 'Lehigh has limited international aid, gives it to a limited number of admitted non-US citizens, and reviews their applications need-aware.',
+      howToApply: 'Submit the CSS Profile by your application deadline.',
+      note: 'Lehigh says its goal is to meet 100% of demonstrated need (excluding travel and personal expenses) "for as many admitted students as possible with the limited funds available" — a goal rather than a guarantee for every international student.'
+    },
+    merit: [],
+    needBased: {
+      availableToInternational: true, meetsFullNeed: false, needBlindInternational: false,
+      forms: ['CSS Profile', 'International Undergraduate Financial Certification Form'],
+      deadlines: '1 November (ED I) or 15 January (ED II and Regular Decision)',
+      note: 'Full need is not guaranteed for every admitted international student.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International students — admissions', url: 'https://www2.lehigh.edu/admissions/international-students' },
+    { label: 'Financial aid frequently asked questions', url: 'https://www2.lehigh.edu/financial-aid/frequently-asked-questions' },
+    { label: 'How to apply for financial aid', url: 'https://www2.lehigh.edu/admissions/tuition-affording-college/how-apply-financial-aid' }
+  ],
+  lastVerified: '2026-09-22'
+},
+
+{
+  id: 'university-of-miami',
+  name: 'University of Miami',
+  country: 'us',
+  city: 'Coral Gables',
+  region: 'Florida',
+  founded: 1925,
+  type: 'Private research university',
+  brand: { c1: '#F47321', c2: '#005030', initials: 'UM' },
+  description: 'A large private research university in Coral Gables near Miami, strong in marine science, music, business and health. It offers international students both need-based aid and merit scholarships; two of its premier awards — the Stamps (full cost of attendance) and the Singer (full tuition) — are open to them.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['business','engineering','computer-science','biology','medicine','economics','social-sciences','humanities','psychology','arts','education','mathematics'],
+  englishTaughtPrograms: ['business','engineering','computer-science','biology','medicine','economics','social-sciences','humanities','psychology','arts','education','mathematics'],
+  programNote: 'UM has schools including the Miami Herbert Business School, the Rosenstiel School of Marine, Atmospheric and Earth Science, the Frost School of Music and a School of Nursing.',
+  links: {
+    website: 'https://welcome.miami.edu/',
+    admissions: 'https://admissions.miami.edu/undergraduate/application-process/options-and-deadlines/index.html',
+    internationalAdmissions: 'https://admissions.miami.edu/undergraduate/about/FAQs/international-applicants/index.html',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://admissions.miami.edu/undergraduate/financial-aid/scholarships/freshman/index.html',
+    financialAid: 'https://admissions.miami.edu/undergraduate/about/FAQs/international-applicants/index.html',
+    programs: 'https://bulletin.miami.edu/',
+    cost: 'https://finaid.miami.edu/cost/index.html'
+  },
+  admissions: {
+    platforms: ['Common Application'],
+    deadlines: [
+      { name: 'Early Decision I', date: '1 November', note: 'Binding; deadline for Premier Scholarship consideration' },
+      { name: 'Early Action', date: '1 November', note: 'Non-binding; deadline for Premier Scholarship consideration' },
+      { name: 'Early Decision II', date: '5 January', note: 'Binding' },
+      { name: 'Regular Decision', date: '5 January', note: null }
+    ],
+    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'English proficiency evidence', 'CSS Profile for need-based aid'],
+    recommendations: 'Teacher and counsellor recommendations',
+    essay: 'Personal essay',
+    interview: null,
+    notes: ['Only applicants who apply by 1 November are considered for Premier Scholarships.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Published on UM’s separate English Language Proficiency Requirements page; not confirmed here.' },
+    toefl: { min: null, recommended: null, note: 'Not confirmed here.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed here.' },
+    waiver: null,
+    note: 'UM publishes detailed English requirements on a separate page.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    otherTests: null,
+    internationalQualifications: 'Tuition and fees are the same for domestic and international students.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: 'Not confirmed — see UM’s cost of attendance page',
+    items: [
+      { label: 'Tuition, housing, meals, books and travel', text: 'Published on UM’s cost of attendance page; 2026–27 figures were not confirmed here' }
+    ],
+    billedSubtotal: null,
+    totalText: 'Not confirmed — check the official cost page',
+    note: 'UM charges international and domestic students the same tuition.'
+  },
+  scholarships: {
+    fullRide: {
+      available: true, internationalEligible: true, basis: 'merit',
+      covers: { tuition: true, housing: true, meals: true, insurance: null, books: null },
+      renewable: true,
+      competitiveness: 'Premier Scholarships are highly selective and only considered for applicants who apply by 1 November.',
+      howToApply: 'Apply Early Decision I or Early Action by 1 November; merit consideration is automatic.',
+      note: 'The Stamps Scholarship covers the full cost of attendance plus an enrichment stipend and is open to international students. The Isaac Bashevis Singer Scholarship covers full tuition and is also open to them. Other premier awards (Hammond, Weeks, Jenkins) are for US citizens and permanent residents only.'
+    },
+    merit: [
+      {
+        name: 'The Stamps Scholarship',
+        amount: 'Full cost of attendance plus an enrichment fund stipend',
+        internationalEligible: true,
+        criteria: 'All incoming first-year students; apply by 1 November.',
+        note: 'Premier Scholarship.'
+      },
+      {
+        name: 'The Isaac Bashevis Singer Scholarship',
+        amount: 'Full tuition',
+        internationalEligible: true,
+        criteria: 'All incoming first-year students; apply by 1 November.',
+        note: 'Premier Scholarship.'
+      },
+      {
+        name: 'President’s Scholarship and Canes Achievement Award',
+        amount: 'Up to $30,000 and up to $20,000 a year',
+        internationalEligible: true,
+        criteria: 'Automatic consideration for all applicants, regardless of citizenship.',
+        note: 'Awarded on academic achievement.'
+      }
+    ],
+    needBased: {
+      availableToInternational: true, meetsFullNeed: null, needBlindInternational: null,
+      forms: ['CSS Profile'],
+      deadlines: 'By the stated deadlines for your round',
+      note: 'UM says it offers international students both merit and need-based aid; the pages consulted do not say whether full need is met or how admission treats aid requests.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International applicants FAQs', url: 'https://admissions.miami.edu/undergraduate/about/FAQs/international-applicants/index.html' },
+    { label: 'First-year merit scholarships', url: 'https://admissions.miami.edu/undergraduate/financial-aid/scholarships/freshman/index.html' },
+    { label: 'Admission plans and deadlines', url: 'https://admissions.miami.edu/undergraduate/application-process/options-and-deadlines/index.html' }
+  ],
+  lastVerified: '2026-09-22'
+}
+);

@@ -75,6 +75,11 @@ window.UNIPATH.match = {
     'wesleyan-university':     { currency: 'USD', basis: 'total', min: 98330, max: 100780 },
     'washington-and-lee-university': { currency: 'USD', basis: 'total', min: 99880, max: 99880 },
     'carleton-college':        { currency: 'USD', basis: 'total', min: 99580, max: 99580, note: '2025-26 figure, the latest published' },
+    'oberlin-college':         { currency: 'USD', basis: 'total', min: 90000, max: 90000, note: '2025-26 expected support, the latest published' },
+    'kenyon-college':          { currency: 'USD', basis: 'total', min: 93090, max: 96940 },
+    'denison-university':      { currency: 'USD', basis: 'total', min: 92900, max: 92900, note: '2025-26 figure, the latest published' },
+    'franklin-and-marshall-college': { currency: 'USD', basis: 'total', min: 97041, max: 97041 },
+    'lehigh-university':       { currency: 'USD', basis: 'total', min: 93400, max: 93400 },
     /* Japan — tuition (and compulsory fees) per year */
     'university-of-tokyo':     { currency: 'JPY', basis: 'tuition', min: 642960, max: 642960 },
     'waseda-university':       { currency: 'JPY', basis: 'tuition', min: 1200000, max: 1800000 },
