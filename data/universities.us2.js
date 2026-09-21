@@ -3927,3 +3927,876 @@ window.UNIPATH.universities.push(
   lastVerified: '2026-09-21'
 }
 );
+
+/* ---- Batch added 21 September 2026: nine more colleges from the
+   requested list (four women's colleges, Bates, Wesleyan, Washington
+   and Lee, Colgate and Carleton). ---- */
+window.UNIPATH.universities.push(
+{
+  id: 'smith-college',
+  name: 'Smith College',
+  country: 'us',
+  city: 'Northampton',
+  region: 'Massachusetts',
+  founded: 1871,
+  type: 'Private liberal arts college for women',
+  brand: { c1: '#004F9F', c2: '#F2A900', initials: 'SC' },
+  description: 'One of the largest women’s colleges in the United States, in western Massachusetts, with an open curriculum and its own engineering programme. Smith meets the full documented need of every admitted student who applies on time, without loans — and from autumn 2026 tuition is free for eligible families earning up to $150,000, international students included.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['humanities','social-sciences','economics','engineering','computer-science','mathematics','biology','psychology','arts','education'],
+  englishTaughtPrograms: ['humanities','social-sciences','economics','engineering','computer-science','mathematics','biology','psychology','arts','education'],
+  programNote: 'Smith has no required courses outside the major and offers an engineering degree, which is rare for a liberal arts college. Students can also take courses at the other Five College campuses.',
+  links: {
+    website: 'https://www.smith.edu/',
+    admissions: 'https://www.smith.edu/admission-aid/apply-smith/first-year-applicants',
+    internationalAdmissions: 'https://www.smith.edu/admission-aid/tuition-aid-applicants/international-applicants',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://www.smith.edu/thenext150',
+    financialAid: 'https://www.smith.edu/admission-aid/tuition-aid-applicants/international-applicants',
+    programs: 'https://www.smith.edu/academics',
+    cost: 'https://www.smith.edu/admission-aid/tuition-aid-applicants'
+  },
+  admissions: {
+    platforms: ['Common Application', 'Coalition on Scoir'],
+    deadlines: [
+      { name: 'Early Decision I — financial aid', date: '15 November', note: 'CSS Profile due for Early Decision I applicants' }
+    ],
+    applicationFee: { amount: 0, currency: 'USD', waiver: 'There is no application fee' },
+    documents: ['Common or Coalition Application', 'School transcript and reports', 'Teacher recommendations', 'Midyear report', 'CSS Profile and translated income documents for aid applicants'],
+    recommendations: 'Teacher and counsellor recommendations',
+    essay: 'Personal essay',
+    interview: null,
+    notes: [
+      'Smith offers Early Decision I, Early Decision II and Regular Decision; only the Early Decision I financial aid date was confirmed here.',
+      'International students who do not apply for aid before admission can never receive Smith aid.'
+    ]
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Accepted; no minimum score published on the pages consulted.' },
+    toefl: { min: null, recommended: null, note: 'Accepted; no minimum score published on the pages consulted.' },
+    duolingo: { min: null, recommended: null, note: 'Accepted; no minimum score published on the pages consulted.' },
+    waiver: 'Not required if English is your first language, or if you studied at an English-medium school throughout secondary school.',
+    note: 'International citizens whose first language is not English submit the TOEFL, IELTS, PTE or Duolingo English Test.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'optional', note: 'Smith has been test-optional since 2009.' },
+    act: { policy: 'optional', note: 'Same as the SAT.' },
+    otherTests: null,
+    internationalQualifications: 'International applicants may be asked for national or international exam results.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: 'Not confirmed — see Smith’s cost pages',
+    items: [
+      { label: 'Tuition, housing and food', text: 'Set each January by the Board of Trustees; the 2026–27 figures were not confirmed here' },
+      { label: 'Non-billed costs: books, personal expenses and SEVIS fee (estimate)', amount: 4060 }
+    ],
+    billedSubtotal: null,
+    totalText: 'Not confirmed — check the official cost page',
+    note: 'Smith meets full need with a loan-free package, so the sticker price matters less for aid recipients.'
+  },
+  scholarships: {
+    fullRide: {
+      available: true, internationalEligible: true, basis: 'need-based',
+      covers: { tuition: true, housing: true, meals: true, insurance: null, books: null },
+      renewable: true,
+      competitiveness: 'Smith says the pool of international aid applicants is highly competitive and that support varies widely with family circumstances.',
+      howToApply: 'Submit the CSS Profile and income documents by the deadline for your round, before any admission decision.',
+      note: 'Smith states it will meet the full documented need of all admitted students who apply by the deadlines, with loans replaced by grants. Under the Next 150 Pledge, tuition is free from autumn 2026 for domestic and international undergraduates from families earning up to $150,000 with typical assets.'
+    },
+    merit: [
+      {
+        name: 'Smith merit awards',
+        amount: 'Not published on the pages consulted',
+        internationalEligible: null,
+        criteria: 'All applicants for admission are considered automatically; there is no separate form.',
+        note: 'Smith describes these as a limited number of awards based on merit rather than need.'
+      }
+    ],
+    needBased: {
+      availableToInternational: true, meetsFullNeed: true, needBlindInternational: null,
+      forms: ['CSS Profile (code 3762)', 'Translated income documents'],
+      deadlines: '15 November for Early Decision I; later rounds on Smith’s aid page',
+      note: 'An international student’s family contribution stays the same each year; Smith adjusts its grant to keep it stable. The pages consulted do not state whether admission is need-aware for international applicants.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'Financial aid for international students', url: 'https://www.smith.edu/admission-aid/tuition-aid-applicants/international-applicants' },
+    { label: 'The Next 150 Pledge', url: 'https://www.smith.edu/thenext150' },
+    { label: 'First-year applicants', url: 'https://www.smith.edu/admission-aid/apply-smith/first-year-applicants' }
+  ],
+  lastVerified: '2026-09-21'
+},
+
+{
+  id: 'mount-holyoke-college',
+  name: 'Mount Holyoke College',
+  country: 'us',
+  city: 'South Hadley',
+  region: 'Massachusetts',
+  founded: 1837,
+  type: 'Private liberal arts college for women',
+  brand: { c1: '#003B71', c2: '#00264a', initials: 'MHC' },
+  description: 'The oldest of the women’s colleges known as the Seven Sisters, in western Massachusetts, with a large international community. Mount Holyoke promises to meet the demonstrated need of every admitted student; for international students the package usually combines a grant, a fixed-interest loan and a campus job.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts','education'],
+  englishTaughtPrograms: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts','education'],
+  programNote: 'Mount Holyoke is part of the Five College Consortium, so students can take courses at Amherst, Smith, Hampshire and UMass Amherst.',
+  links: {
+    website: 'https://www.mtholyoke.edu/',
+    admissions: 'https://www.mtholyoke.edu/admission/apply-undergraduate-first-year',
+    internationalAdmissions: 'https://www.mtholyoke.edu/admission/apply-undergraduate-first-year/application-process/international-admission',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://www.mtholyoke.edu/admission/apply-undergraduate-first-year/affording-mount-holyoke/financial-aid',
+    financialAid: 'https://www.mtholyoke.edu/admission/apply-undergraduate-first-year/affording-mount-holyoke/financial-aid',
+    programs: 'https://www.mtholyoke.edu/academics',
+    cost: 'https://www.mtholyoke.edu/admission/apply-undergraduate-first-year/affording-mount-holyoke/tuition-and-fees'
+  },
+  admissions: {
+    platforms: ['Common Application'],
+    deadlines: [
+      { name: 'Early Decision I', date: '15 November', note: 'Binding; notification in late December. Financial aid due the same day' },
+      { name: 'Early Decision II', date: '5 January', note: 'Binding; notification in late January. Financial aid due the same day' },
+      { name: 'Regular Decision', date: '15 January', note: 'Notification in mid-March. Financial aid due the same day' }
+    ],
+    applicationFee: { amount: 0, currency: 'USD', waiver: 'There is no application fee for any option' },
+    documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile for aid applicants'],
+    recommendations: 'Teacher and counsellor recommendations',
+    essay: 'Personal essay',
+    interview: null,
+    notes: ['International students who do not apply for aid when they apply for admission are never eligible for need-based aid at Mount Holyoke.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    waiver: null,
+    note: 'Check Mount Holyoke’s international admission page for the current English requirement.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'optional', note: 'Submitting SAT and ACT results is optional.' },
+    act: { policy: 'optional', note: 'Same as the SAT.' },
+    otherTests: null,
+    internationalQualifications: 'International qualifications are accepted and read in context.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: '$92,774 comprehensive fee',
+    items: [
+      { label: 'Tuition', amount: 71178 },
+      { label: 'Housing', amount: 10836 },
+      { label: 'Food', amount: 10760 }
+    ],
+    billedSubtotal: 92774,
+    totalText: '$92,774 comprehensive fee; Mount Holyoke’s estimated cost of attendance is $93,046',
+    note: 'Books, travel and personal expenses are additional.'
+  },
+  scholarships: {
+    fullRide: {
+      available: true, internationalEligible: true, basis: 'need-based',
+      covers: { tuition: true, housing: true, meals: true, insurance: null, books: null },
+      renewable: true,
+      competitiveness: 'Aid for international students is awarded on need as shown on the CSS Profile; the pages consulted do not state how admission treats the request.',
+      howToApply: 'Apply for aid with the admission application and submit the CSS Profile by the same deadline.',
+      note: 'Mount Holyoke promises to meet the demonstrated need of each admitted student. International packages typically combine a need-based grant, a fixed-interest student loan and campus employment, and the family contribution set in the first year stays the same until graduation.'
+    },
+    merit: [],
+    needBased: {
+      availableToInternational: true, meetsFullNeed: true, needBlindInternational: null,
+      forms: ['CSS Profile'],
+      deadlines: 'Same as the admission deadline for your round',
+      note: 'International packages usually include a loan, so they are not loan-free.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International admission FAQ', url: 'https://www.mtholyoke.edu/admission/apply-undergraduate-first-year/application-process/international-admission/international-admission-faq' },
+    { label: 'Financial aid', url: 'https://www.mtholyoke.edu/admission/apply-undergraduate-first-year/affording-mount-holyoke/financial-aid' },
+    { label: 'Tuition and fees', url: 'https://www.mtholyoke.edu/admission/apply-undergraduate-first-year/affording-mount-holyoke/tuition-and-fees' },
+    { label: 'Application deadlines for undergraduates', url: 'https://www.mtholyoke.edu/admission/apply-undergraduate-first-year/application-deadlines-undergraduates' }
+  ],
+  lastVerified: '2026-09-21'
+},
+
+{
+  id: 'bryn-mawr-college',
+  name: 'Bryn Mawr College',
+  country: 'us',
+  city: 'Bryn Mawr',
+  region: 'Pennsylvania',
+  founded: 1885,
+  type: 'Private liberal arts college for women',
+  brand: { c1: '#4B2682', c2: '#2e1650', initials: 'BMC' },
+  description: 'A women’s liberal arts college outside Philadelphia, linked with Haverford, Swarthmore and the University of Pennsylvania. Bryn Mawr says openly that it is need-aware, because its aid budget is limited, but it meets the full calculated need of every student it admits. International students are not eligible for its merit aid.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts'],
+  englishTaughtPrograms: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts'],
+  programNote: 'Students can take courses at Haverford, Swarthmore and the University of Pennsylvania.',
+  links: {
+    website: 'https://www.brynmawr.edu/',
+    admissions: 'https://www.brynmawr.edu/admissions-aid/apply/first-year-students',
+    internationalAdmissions: 'https://www.brynmawr.edu/admissions-aid/apply/international-students',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://www.brynmawr.edu/admissions-aid/financial-aid',
+    financialAid: 'https://www.brynmawr.edu/admissions-aid/financial-aid/international-first-year-applicants',
+    programs: 'https://www.brynmawr.edu/academics',
+    cost: 'https://www.brynmawr.edu/admissions-aid/financial-aid/tuition-fees-costs'
+  },
+  admissions: {
+    platforms: ['Common Application'],
+    deadlines: [
+      { name: 'Early Decision I', date: '15 November', note: 'Binding; financial aid application due at the same time' },
+      { name: 'Early Decision II', date: '1 January', note: 'Binding; financial aid application due at the same time' },
+      { name: 'Regular Decision', date: '15 January', note: 'Financial aid application due at the same time' }
+    ],
+    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    documents: ['Common Application with the Bryn Mawr Writing Supplement', 'Official transcripts and national exam results (IB, A-Level, etc.)', 'Counsellor recommendation and two teacher recommendations', 'Evidence of English proficiency', 'Mid-year grade report', 'Declaration of Finances form', 'CSS Profile for aid applicants'],
+    recommendations: 'A school counsellor and two teachers',
+    essay: 'Common Application essay plus the Bryn Mawr Writing Supplement',
+    interview: null,
+    notes: [
+      'Every non-US citizen or permanent resident submits the Declaration of Finances.',
+      'Aid must be requested with the admission application; it cannot be requested in later years.'
+    ]
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Evidence of English proficiency is required; no minimum score is published on the pages consulted.' },
+    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    waiver: null,
+    note: 'Check Bryn Mawr’s international students page for accepted tests.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    otherTests: null,
+    internationalQualifications: 'National exams such as the IB and A-Levels are submitted with the transcript.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: '$97,547 total cost (estimated)',
+    items: [
+      { label: 'Tuition', amount: 71290 },
+      { label: 'Food and housing', amount: 21440 },
+      { label: 'College fee', amount: 1120 },
+      { label: 'Student Government Association dues', amount: 441 },
+      { label: 'Books and supplies', amount: 1000 },
+      { label: 'Miscellaneous expenses', amount: 1000 }
+    ],
+    billedSubtotal: 94291,
+    totalText: '$97,547 estimated cost of attendance, before travel',
+    note: 'Bryn Mawr’s Beacon Initiative — free tuition below $175,000 of income — is for US families.'
+  },
+  scholarships: {
+    fullRide: {
+      available: true, internationalEligible: true, basis: 'need-based',
+      covers: { tuition: true, housing: true, meals: true, insurance: null, books: null },
+      renewable: true,
+      competitiveness: 'Bryn Mawr is need-aware: the amount of aid requested can affect the admission decision, because its resources are limited.',
+      howToApply: 'Submit the CSS Profile and verification documents with the admission application.',
+      note: 'Bryn Mawr states that it meets the full calculated need of all admitted students. Aid for international students may combine grants, loans and campus employment, and international students are not eligible for merit aid.'
+    },
+    merit: [],
+    needBased: {
+      availableToInternational: true, meetsFullNeed: true, needBlindInternational: false,
+      forms: ['CSS Profile', 'Additional verification documents', 'Declaration of Finances'],
+      deadlines: 'Same as the admission deadline for your round',
+      note: 'The average aid package for a need-eligible student is over $70,000.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International students — admissions', url: 'https://www.brynmawr.edu/admissions-aid/apply/international-students' },
+    { label: 'Tuition, fees and costs 2026-2027', url: 'https://www.brynmawr.edu/admissions-aid/financial-aid/tuition-fees-costs' },
+    { label: 'Apply for aid: international first-year applicants', url: 'https://www.brynmawr.edu/admissions-aid/financial-aid/international-first-year-applicants' }
+  ],
+  lastVerified: '2026-09-21'
+},
+
+{
+  id: 'barnard-college',
+  name: 'Barnard College',
+  country: 'us',
+  city: 'New York',
+  region: 'New York',
+  founded: 1889,
+  type: 'Private liberal arts college for women, affiliated with Columbia University',
+  brand: { c1: '#0A2240', c2: '#062043', initials: 'BC' },
+  description: 'A women’s liberal arts college in Manhattan that shares classes, libraries and a degree-granting relationship with Columbia University. Barnard is need-blind for US citizens but need-aware for everyone else, and funds only a small number of international first-years each year — though it meets 100% of the need of those it admits.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts','education'],
+  englishTaughtPrograms: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts','education'],
+  programNote: 'Barnard students take many classes at Columbia and receive a Columbia University degree, while living in Barnard’s own college community.',
+  links: {
+    website: 'https://barnard.edu/',
+    admissions: 'https://barnard.edu/admissions/the-application-process',
+    internationalAdmissions: 'https://barnard.edu/admissions/internationalstudents',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://barnard.edu/finaid',
+    financialAid: 'https://barnard.edu/finaid/apply-for-aid',
+    programs: 'https://catalog.barnard.edu/',
+    cost: 'https://barnard.edu/finaid/cost-of-attendance'
+  },
+  admissions: {
+    platforms: ['Common Application', 'QuestBridge Application'],
+    deadlines: [
+      { name: 'Early Decision', date: '1 November', note: 'Date used in the previous cycle; confirm for your entry year' },
+      { name: 'Regular Decision', date: '1 January', note: 'Date used in the previous cycle; confirm for your entry year' }
+    ],
+    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    documents: ['Common Application', 'School transcript and national exam results', 'Teacher recommendations', 'English proficiency evidence', 'Financial aid documents through the Barnard applicant portal'],
+    recommendations: 'Teacher and counsellor recommendations',
+    essay: 'Personal essay plus Barnard’s supplement',
+    interview: 'InitialView and Vericant interviews are accepted from international students',
+    notes: [
+      'International students must apply for aid at the time of admission to be eligible in later years.',
+      'Barnard does not use the College Board’s IDOC service: documents go through its own applicant portal.'
+    ]
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    toefl: { min: null, recommended: null, note: 'Barnard lists a TOEFL requirement and addresses MyBest scores; no minimum was confirmed here.' },
+    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    waiver: null,
+    note: 'Barnard publishes an English language proficiency requirement for international applicants; check the official page for the accepted tests and scores.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: null, note: 'Not confirmed on the pages consulted — check Barnard’s standardized testing requirement.' },
+    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    otherTests: null,
+    internationalQualifications: 'Transcripts and national exam results are required.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: '$98,850 in direct costs',
+    items: [
+      { label: 'Tuition', amount: 73120 },
+      { label: 'Fees', amount: 2472 },
+      { label: 'Housing', amount: 14054 },
+      { label: 'Meals', amount: 9204 },
+      { label: 'Books and supplies', amount: 1200 }
+    ],
+    billedSubtotal: 98850,
+    totalText: 'About $98,850 billed by Barnard for a resident student, plus books, travel and personal expenses',
+    note: 'The average Barnard aid award is $68,562.'
+  },
+  scholarships: {
+    fullRide: {
+      available: true, internationalEligible: true, basis: 'need-based',
+      covers: { tuition: true, housing: true, meals: true, insurance: null, books: null },
+      renewable: true,
+      competitiveness: 'Barnard awards a small number of need-based scholarships to international students in each first-year class, and is need-aware for them.',
+      howToApply: 'Apply for aid with the admission application and submit the documents through the Barnard applicant portal.',
+      note: 'Barnard states it will meet 100% of the financial need of admitted students, with a combination of grant, loan and job opportunities.'
+    },
+    merit: [],
+    needBased: {
+      availableToInternational: true, meetsFullNeed: true, needBlindInternational: false,
+      forms: ['CSS Profile', 'Documents requested through the Barnard applicant portal'],
+      deadlines: 'With the admission application',
+      note: 'Barnard is need-blind for US citizens and permanent residents and need-aware for everyone else.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International applicants', url: 'https://barnard.edu/admissions/internationalstudents' },
+    { label: 'Cost of attendance 2026-2027', url: 'https://barnard.edu/finaid/cost-of-attendance' },
+    { label: 'Apply for aid', url: 'https://barnard.edu/finaid/apply-for-aid' }
+  ],
+  lastVerified: '2026-09-21'
+},
+
+{
+  id: 'bates-college',
+  name: 'Bates College',
+  country: 'us',
+  city: 'Lewiston',
+  region: 'Maine',
+  founded: 1855,
+  type: 'Private liberal arts college',
+  brand: { c1: '#881124', c2: '#5a0b18', initials: 'BC' },
+  description: 'A liberal arts college in Maine that has made testing optional since 1984 and charges no application fee. Bates is need-aware for international students but meets 100% of demonstrated need for those admitted — with grants and campus work, and no loans for non-US citizens.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts','engineering'],
+  englishTaughtPrograms: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts','engineering'],
+  programNote: 'Bates teaches the liberal arts and sciences and has added an engineering major; almost every student writes a senior thesis.',
+  links: {
+    website: 'https://www.bates.edu/',
+    admissions: 'https://www.bates.edu/admission/apply/application-options/',
+    internationalAdmissions: 'https://www.bates.edu/admission/apply/international-students/',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://www.bates.edu/financial-services/financial-aid/international-undergraduates/',
+    financialAid: 'https://www.bates.edu/financial-services/financial-aid/international-undergraduates/',
+    programs: 'https://www.bates.edu/academics/',
+    cost: 'https://www.bates.edu/financial-services/'
+  },
+  admissions: {
+    platforms: ['Common Application'],
+    deadlines: [
+      { name: 'Early Decision I', date: '15 November', note: 'Binding; notification by 20 December' },
+      { name: 'Early Decision II', date: '10 January', note: 'Binding; notification by 15 February' },
+      { name: 'Regular Decision', date: '10 January', note: 'Notification by 1 April; reply by 1 May' }
+    ],
+    applicationFee: { amount: 0, currency: 'USD', waiver: 'It is free for any student to apply to Bates' },
+    documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'Official English proficiency score where required', 'Bates International Student Application for Financial Aid (BISAFA) for aid applicants'],
+    recommendations: 'Teacher and counsellor recommendations',
+    essay: 'Personal essay',
+    interview: 'InitialView or Vericant interviews are encouraged but not required',
+    notes: ['Bates does not accept appeals from international students who try to apply for aid after being admitted, without exception.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Accepted; no minimum score is published on the pages consulted.' },
+    toefl: { min: null, recommended: null, note: 'Accepted; no minimum score is published on the pages consulted.' },
+    duolingo: { min: null, recommended: null, note: 'Accepted; no minimum score is published on the pages consulted.' },
+    waiver: 'Not required if English is your native language or your secondary schooling was mainly in English.',
+    note: 'Bates requires official English scores — it does not accept self-reported ones.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'optional', note: 'Submitting the SAT or ACT has been optional at Bates since 1984; official and self-reported scores are accepted.' },
+    act: { policy: 'optional', note: 'Same as the SAT.' },
+    otherTests: null,
+    internationalQualifications: 'International qualifications are accepted and read in context.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: '$94,560 comprehensive fee',
+    items: [
+      { label: 'Comprehensive fee: tuition, room, board and fees', amount: 94560 }
+    ],
+    billedSubtotal: 94560,
+    totalText: '$94,560 single comprehensive fee, before books, travel and personal expenses',
+    note: 'Bates charges one fee covering tuition, room, board and fees.'
+  },
+  scholarships: {
+    fullRide: {
+      available: true, internationalEligible: true, basis: 'need-based',
+      covers: { tuition: true, housing: true, meals: true, insurance: null, books: null },
+      renewable: true,
+      competitiveness: 'Bates is need-aware for international students, so financial need can occasionally affect the admission decision.',
+      howToApply: 'Submit the BISAFA through the Bates application portal as part of the admission application.',
+      note: 'Bates states it meets 100% of demonstrated need for admitted students who qualify, regardless of citizenship. For non-US citizens aid comes as a grant plus on-campus work of up to 20 hours a week, and never includes loans; it runs for up to eight semesters.'
+    },
+    merit: [],
+    needBased: {
+      availableToInternational: true, meetsFullNeed: true, needBlindInternational: false,
+      forms: ['Bates International Student Application for Financial Aid (BISAFA)'],
+      deadlines: 'With the admission application, before the decision is released',
+      note: 'The BISAFA sets financial need for all four years at Bates.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International students — financial aid', url: 'https://www.bates.edu/financial-services/financial-aid/international-undergraduates/' },
+    { label: 'International applicants', url: 'https://www.bates.edu/admission/apply/international-students/' },
+    { label: 'Application rounds and timeline', url: 'https://www.bates.edu/admission/apply/application-options/' }
+  ],
+  lastVerified: '2026-09-21'
+},
+
+{
+  id: 'wesleyan-university',
+  name: 'Wesleyan University',
+  country: 'us',
+  city: 'Middletown',
+  region: 'Connecticut',
+  founded: 1831,
+  type: 'Private liberal arts university',
+  brand: { c1: '#C8102E', c2: '#8a0b20', initials: 'WU' },
+  description: 'A liberal arts university in Connecticut known for film, music and an open curriculum. Wesleyan meets 100% of every admitted student’s demonstrated need, but says admission for international students seeking aid is extremely competitive; its Freeman Asian Scholarship covers the full cost for about eleven students a year.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts'],
+  englishTaughtPrograms: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts'],
+  programNote: 'Wesleyan has no core curriculum and is especially known for film studies, music and interdisciplinary programmes.',
+  links: {
+    website: 'https://www.wesleyan.edu/',
+    admissions: 'https://www.wesleyan.edu/admission/',
+    internationalAdmissions: 'https://www.wesleyan.edu/admission/undergraduate-admission/international/index.html',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://www.wesleyan.edu/admission/undergraduate-admission/international/index.html',
+    financialAid: 'https://www.wesleyan.edu/admission/affordability-and-aid/applying-for-aid.html',
+    programs: 'https://www.wesleyan.edu/academics/',
+    cost: 'https://www.wesleyan.edu/admission/affordability-and-aid/cost-of-attendance.html'
+  },
+  admissions: {
+    platforms: ['Common Application', 'Coalition Application'],
+    deadlines: [
+      { name: 'Early Decision I', date: '15 November', note: 'Binding; financial aid application due the same day' },
+      { name: 'Early Decision II', date: '1 January', note: 'Binding; financial aid application due the same day' },
+      { name: 'Regular Decision', date: '1 January', note: 'Financial aid application due 15 January' }
+    ],
+    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    documents: ['Common or Coalition Application', 'School Report with actual or predicted exam results (A-Level, IB, French Baccalaureate and others)', 'Certified English translations of any documents not in English', 'International Student Certification of Finances', 'CSS Profile or ISFAA for aid applicants'],
+    recommendations: 'Teacher and counsellor recommendations',
+    essay: 'Personal essay',
+    interview: 'Wesleyan does not interview, but accepts InitialView or Vericant interviews',
+    notes: ['International students must apply for aid, and be eligible, at the time they apply for admission to receive aid in any later year.']
+  },
+  english: {
+    ielts: { min: null, recommended: 7.5, note: 'IELTS Academic 7.5 is the minimum expected score if you choose to submit it.' },
+    toefl: { min: null, recommended: 100, scales: [{ period: 'pre2026', min: null, recommended: 100 }, { period: 'post2026', min: null, recommended: 5 }], note: 'TOEFL iBT 100/120 or 5/6 is the minimum expected score.' },
+    duolingo: { min: null, recommended: 130, note: 'Duolingo English Test 130 is the minimum expected score.' },
+    waiver: 'English testing is optional, though strongly recommended for applicants whose first language is not English; Wesleyan may ask for scores if needed.',
+    note: 'Also accepted: SAT Evidence-Based Reading and Writing 700, ACT Reading and English 29, Cambridge C1 Advanced or C2 Proficiency 190. Self-reported scores are accepted; official scores are due by 1 July after enrolment.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'optional', note: 'Wesleyan is test-optional, but encourages SAT or ACT results from students at international schools that are not exam-based.' },
+    act: { policy: 'optional', note: 'Same as the SAT.' },
+    otherTests: 'Students in exam-based curricula (A-Level, IB, French Baccalaureate, ISC, WASSCE and others) must provide actual or predicted results.',
+    internationalQualifications: 'Exam results are sent by the school with the School Report and updated as soon as final results are available.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: '$98,030 in tuition and required fees',
+    items: [
+      { label: 'Tuition', amount: 75916 },
+      { label: 'Residential comprehensive fee (housing and meals)', amount: 21660 },
+      { label: 'Student activity fee', amount: 404 },
+      { label: 'Green Fund fee', amount: 50 },
+      { label: 'New student matriculation fee', amount: 300 }
+    ],
+    billedSubtotal: 98330,
+    totalText: 'About $98,330 billed for a first-year student; Wesleyan’s full cost of attendance, with books and personal expenses, is $100,780 for continuing students',
+    note: 'All Wesleyan undergraduates must live in university housing and take a meal plan.'
+  },
+  scholarships: {
+    fullRide: {
+      available: true, internationalEligible: true, basis: 'need-based',
+      covers: { tuition: true, housing: true, meals: true, insurance: null, books: null },
+      renewable: true,
+      competitiveness: 'Wesleyan says admission for international students seeking aid is "extremely competitive".',
+      howToApply: 'Submit the CSS Profile (or ISFAA if the Profile is unavailable to you) by the deadline for your round.',
+      note: 'Wesleyan states it meets 100% of every admitted student’s demonstrated need, and that candidates from all countries are considered for need-based aid.'
+    },
+    merit: [
+      {
+        name: 'Freeman Asian Scholars',
+        amount: 'Full cost of attendance for four years',
+        internationalEligible: true,
+        criteria: 'Awarded to about eleven students a year from eligible Asian countries.',
+        note: 'Wesleyan also runs an African Scholars programme; see its international applicant page.'
+      }
+    ],
+    needBased: {
+      availableToInternational: true, meetsFullNeed: true, needBlindInternational: null,
+      forms: ['CSS Profile', 'CSS Noncustodial Parent Profile where applicable', 'ISFAA if the CSS Profile is unavailable'],
+      deadlines: '15 November (ED I), 1 January (ED II), 15 January (Regular Decision)',
+      note: 'The pages consulted do not say in so many words whether admission is need-aware for international applicants.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International applicants', url: 'https://www.wesleyan.edu/admission/undergraduate-admission/international/index.html' },
+    { label: 'Applying for aid', url: 'https://www.wesleyan.edu/admission/affordability-and-aid/applying-for-aid.html' },
+    { label: 'Cost of attendance', url: 'https://www.wesleyan.edu/admission/affordability-and-aid/cost-of-attendance.html' }
+  ],
+  lastVerified: '2026-09-21'
+},
+
+{
+  id: 'washington-and-lee-university',
+  name: 'Washington and Lee University',
+  country: 'us',
+  city: 'Lexington',
+  region: 'Virginia',
+  founded: 1749,
+  type: 'Private liberal arts university',
+  brand: { c1: '#0C2340', c2: '#1a3a66', initials: 'W&L' },
+  description: 'A small liberal arts university in the Virginia mountains, with a strong school of commerce and a student-run honour system. W&L says it is need-blind and meets 100% of demonstrated need without loans for every admitted student, and its Johnson Scholarship — open to international applicants — covers at least tuition, housing and food.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['humanities','social-sciences','economics','business','computer-science','mathematics','biology','psychology','arts'],
+  englishTaughtPrograms: ['humanities','social-sciences','economics','business','computer-science','mathematics','biology','psychology','arts'],
+  programNote: 'Undergraduates study in the College or the Williams School of Commerce, Economics, and Politics; the academic year includes a four-week spring term.',
+  links: {
+    website: 'https://www.wlu.edu/',
+    admissions: 'https://www.wlu.edu/admissions/apply',
+    internationalAdmissions: 'https://www.wlu.edu/admissions/financial-aid/types-of-aid/international-student-aid',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://www.wlu.edu/admissions/the-johnson-scholarship',
+    financialAid: 'https://www.wlu.edu/admissions/financial-aid/types-of-aid/international-student-aid',
+    programs: 'https://catalog.wlu.edu/',
+    cost: 'https://my.wlu.edu/business-office/parents-and-students/tuition-information/tuition-and-fees'
+  },
+  admissions: {
+    platforms: ['Common Application', 'Coalition Application'],
+    deadlines: [
+      { name: 'Early Decision I', date: '1 November', note: 'Binding; financial aid due 1 December 2026' },
+      { name: 'Early Decision II', date: '5 January', note: 'Binding; financial aid due 15 January 2027' },
+      { name: 'Regular Decision', date: '5 January', note: 'Financial aid due 1 February 2027' },
+      { name: 'Johnson Scholarship application', entryTerm: 'Autumn 2027', dateISO: '2026-12-01', date: '1 December 2026', note: 'Required to be considered for any W&L scholarship; supporting materials by 15 December 2026' }
+    ],
+    applicationFee: { amount: null, currency: 'USD', waiver: 'Some applicants qualify to have the Common or Coalition Application fee waived' },
+    documents: ['Common or Coalition Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile for need-based aid', 'Johnson Scholarship application for merit consideration'],
+    recommendations: 'Teacher and counsellor recommendations',
+    essay: 'Personal essay; the Johnson Scholarship has its own essays',
+    interview: null,
+    notes: [
+      'From the 2026–27 cycle Early Decision II and Regular Decision are due on 5 January instead of 1 January.',
+      'International students who accept admission without a grant are not eligible for one in later years.'
+    ]
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    waiver: null,
+    note: 'Check W&L’s application page for the current English requirement.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    otherTests: null,
+    internationalQualifications: 'International qualifications are accepted and read in context.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: '$99,880 standard cost of attendance',
+    items: [
+      { label: 'Tuition', amount: 73575 },
+      { label: 'Activity, technology and health services fees', amount: 1285 },
+      { label: 'Housing', amount: 10580 },
+      { label: 'Food', amount: 9995 },
+      { label: 'Books and supplies', amount: 1900 },
+      { label: 'Personal and miscellaneous', amount: 2545 }
+    ],
+    billedSubtotal: 95435,
+    totalText: '$99,880 standard cost of attendance, not including health insurance or travel',
+    note: 'Fraternity and sorority charges are extra for students who join.'
+  },
+  scholarships: {
+    fullRide: {
+      available: true, internationalEligible: true, basis: 'merit',
+      covers: { tuition: true, housing: true, meals: true, insurance: null, books: null },
+      renewable: true,
+      competitiveness: 'The Johnson Scholarship goes to up to 44 first-year students; finalists are invited to a selection event in March.',
+      howToApply: 'Submit the Johnson Scholarship application by 1 December; all of W&L’s merit aid is awarded through it.',
+      note: 'The Johnson Scholarship covers at least tuition, housing and food, plus $10,000 of summer funding, worth about $95,000 a year. Separately, W&L says it is need-blind and meets 100% of demonstrated need without loans for every admitted student, with international grants ranging from several thousand dollars to the full cost of attendance.'
+    },
+    merit: [
+      {
+        name: 'The Johnson Scholarship',
+        amount: 'At least tuition, housing and food, plus $10,000 for summer research, travel or internships',
+        internationalEligible: true,
+        criteria: 'Up to 44 first-year students a year; application by 1 December.',
+        note: 'W&L awards all of its merit-based aid through this programme.'
+      }
+    ],
+    needBased: {
+      availableToInternational: true, meetsFullNeed: true, needBlindInternational: true,
+      forms: ['CSS Profile'],
+      deadlines: '1 December 2026 (ED I), 15 January 2027 (ED II), 1 February 2027 (Regular Decision)',
+      note: 'W&L’s international aid page states that admission is need-blind and that 100% of need is met without loans, but also that admission does not guarantee financial assistance. International grants are set for four years from the first-year application.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International student aid', url: 'https://www.wlu.edu/admissions/financial-aid/types-of-aid/international-student-aid' },
+    { label: 'The Johnson Scholarship', url: 'https://www.wlu.edu/admissions/the-johnson-scholarship' },
+    { label: 'Tuition and fees 2026-2027', url: 'https://my.wlu.edu/business-office/parents-and-students/tuition-information/tuition-and-fees' },
+    { label: 'Apply to W&L', url: 'https://www.wlu.edu/admissions/apply' }
+  ],
+  lastVerified: '2026-09-21'
+},
+
+{
+  id: 'colgate-university',
+  name: 'Colgate University',
+  country: 'us',
+  city: 'Hamilton',
+  region: 'New York',
+  founded: 1819,
+  type: 'Private liberal arts university',
+  brand: { c1: '#821019', c2: '#5a0b11', initials: 'CU' },
+  description: 'A liberal arts university in rural upstate New York with students from over 80 countries. International students apply for free, and Colgate meets 100% of every admitted student’s demonstrated need — but admission considers financial need for all applicants, though the most competitive are admitted regardless.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts'],
+  englishTaughtPrograms: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts'],
+  programNote: 'Colgate teaches the liberal arts through a shared core curriculum and a broad range of majors; there is no undergraduate business or engineering degree.',
+  links: {
+    website: 'https://www.colgate.edu/',
+    admissions: 'https://www.colgate.edu/admission-aid/apply',
+    internationalAdmissions: 'https://www.colgate.edu/admission-aid/apply/international-applicants',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://www.colgate.edu/admission-aid/financial-aid',
+    financialAid: 'https://www.colgate.edu/admission-aid/apply/international-applicants',
+    programs: 'https://www.colgate.edu/academics',
+    cost: 'https://www.colgate.edu/admission-aid/tuition-fees'
+  },
+  admissions: {
+    platforms: ['Common Application', 'QuestBridge Application'],
+    deadlines: [
+      { name: 'Early Decision I', date: '1 November', note: 'Binding; financial aid due the same day; notification in mid-December' },
+      { name: 'Early Decision II', date: '15 January', note: 'Binding; financial aid due the same day; notification in mid-February' },
+      { name: 'Regular Decision', date: '15 January', note: 'Financial aid due the same day; notification in late March' }
+    ],
+    applicationFee: { amount: 0, currency: 'USD', waiver: 'Applications are fee-free for international students' },
+    documents: ['Common Application', 'School transcript and grades', 'National or international exam results', 'Language proficiency evidence', 'CSS Profile for aid applicants (digital only)'],
+    recommendations: 'Teacher and counsellor recommendations',
+    essay: 'Personal essay plus Colgate’s supplement',
+    interview: null,
+    notes: [
+      'Colgate cannot accept paper or PDF copies of the CSS Profile.',
+      'International students who do not apply or qualify for aid on admission are not eligible in later years.'
+    ]
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    waiver: null,
+    note: 'Colgate lists language proficiency as part of the international application; check its first-year checklist for accepted tests.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    otherTests: 'National and international exam results are part of the application.',
+    internationalQualifications: 'Colgate defines international applicants as non-US citizens, whatever their residence.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: 'Not confirmed — see Colgate’s cost page',
+    items: [
+      { label: 'Tuition, housing, food and fees', text: 'Published on Colgate’s 2026–27 cost of attendance page, which could not be read here' }
+    ],
+    billedSubtotal: null,
+    totalText: 'Not confirmed — check the official cost page',
+    note: 'Colgate says it has generally not included loans in international students’ aid packages.'
+  },
+  scholarships: {
+    fullRide: {
+      available: true, internationalEligible: true, basis: 'need-based',
+      covers: { tuition: true, housing: true, meals: true, insurance: null, books: null },
+      renewable: true,
+      competitiveness: 'Colgate considers financial need for all applicants, but says its most competitive applicants are admitted regardless of whether they applied for aid.',
+      howToApply: 'Submit the CSS Profile digitally by 1 November (ED I) or 22 January (ED II and Regular Decision).',
+      note: 'Colgate states it meets 100% of demonstrated financial need for every admitted student, including those who need a full financial package.'
+    },
+    merit: [],
+    needBased: {
+      availableToInternational: true, meetsFullNeed: true, needBlindInternational: false,
+      forms: ['CSS Profile (digital only)'],
+      deadlines: '1 November (ED I) or 22 January (ED II and Regular Decision)',
+      note: 'CSS Profile fee waivers can be requested through the applicant portal.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International applicants — deadlines and financial aid', url: 'https://www.colgate.edu/admission-aid/apply/international-applicants' },
+    { label: 'Apply for aid', url: 'https://www.colgate.edu/admission-aid/financial-aid/apply-aid' }
+  ],
+  lastVerified: '2026-09-21'
+},
+
+{
+  id: 'carleton-college',
+  name: 'Carleton College',
+  country: 'us',
+  city: 'Northfield',
+  region: 'Minnesota',
+  founded: 1866,
+  type: 'Private liberal arts college',
+  brand: { c1: '#0C2340', c2: '#FFD100', initials: 'CC' },
+  description: 'A liberal arts college in Minnesota whose faculty teach only undergraduates. Carleton meets 100% of demonstrated need for every student, but it has limited funding for international students and offers them only a few need-based scholarships.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts'],
+  englishTaughtPrograms: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts'],
+  programNote: 'Carleton runs on three ten-week terms a year and is especially strong in the sciences and mathematics for a liberal arts college.',
+  links: {
+    website: 'https://www.carleton.edu/',
+    admissions: 'https://www.carleton.edu/admissions/apply/',
+    internationalAdmissions: 'https://www.carleton.edu/admissions/apply/steps/international/',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://www.carleton.edu/financial-aid/apply-for-aid/international-students/',
+    financialAid: 'https://www.carleton.edu/financial-aid/apply-for-aid/international-students/',
+    programs: 'https://www.carleton.edu/academics/',
+    cost: 'https://www.carleton.edu/admissions/apply/afford/'
+  },
+  admissions: {
+    platforms: ['Common Application'],
+    deadlines: [],
+    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    documents: ['Common Application', 'School transcript and reports, with English translations', 'Teacher recommendations', 'Certification of Finances (all international applicants)', 'ISAFA or CSS Profile for aid applicants'],
+    recommendations: 'Teacher and counsellor recommendations',
+    essay: 'Personal essay plus Carleton’s supplement',
+    interview: 'Optional; InitialView or Vericant interviews are welcome',
+    notes: [
+      'Applicants may not translate their own documents.',
+      'Carleton will not consider a new or revised aid application once admission has been offered.',
+      'Application deadlines were not confirmed on the pages consulted.'
+    ]
+  },
+  english: {
+    ielts: { min: null, recommended: 7, note: 'Students with IELTS 7.0 and above are best prepared, Carleton says.' },
+    toefl: { min: null, recommended: 5.5, scales: [{ period: 'pre2026', min: null, recommended: 100 }, { period: 'post2026', min: null, recommended: 5.5 }], note: 'TOEFL iBT 5.5 and above, or 100 and above on tests before 2026.' },
+    duolingo: { min: null, recommended: 130, note: 'Duolingo English Test 130 and above.' },
+    waiver: 'Not needed if you speak English at home or have been taught in English for the last four years.',
+    note: 'Carleton presents these as the ranges of its best-prepared students, not formal minimums.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    otherTests: null,
+    internationalQualifications: 'Documents not originally in English need an official translation.'
+  },
+  costs: {
+    academicYear: '2025–2026',
+    currency: 'USD',
+    headline: '$99,580 total (2025–26)',
+    items: [
+      { label: 'Tuition, housing, food, fees, books, personal expenses, travel, health insurance and expenses over breaks', amount: 99580 }
+    ],
+    billedSubtotal: null,
+    totalText: '$99,580 estimated for 2025–26; Carleton advises expecting a 4–5% increase each year',
+    note: 'The 2026–27 figure was not published on the page consulted.'
+  },
+  scholarships: {
+    fullRide: {
+      available: true, internationalEligible: true, basis: 'need-based',
+      covers: { tuition: true, housing: true, meals: true, insurance: null, books: null },
+      renewable: true,
+      competitiveness: 'Carleton says funding for international students is limited and it offers only a few need-based scholarships to them.',
+      howToApply: 'Tick the financial aid box on the application and submit the free ISAFA or the CSS Profile.',
+      note: 'Carleton states it meets 100% of demonstrated need for every student, with no income caps. Aid applicants are considered automatically for Starr Foundation grants (students from Asia), Kellogg Scholarships and the Underbrink Fund for Global Initiatives.'
+    },
+    merit: [],
+    needBased: {
+      availableToInternational: true, meetsFullNeed: true, needBlindInternational: null,
+      forms: ['International Student Application for Financial Assistance (free)', 'CSS Profile', 'Certification of Finances'],
+      deadlines: 'With the admission application',
+      note: 'The pages consulted do not state whether admission is need-aware for international applicants.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International students — applying to Carleton', url: 'https://www.carleton.edu/admissions/apply/steps/international/' },
+    { label: 'International students — financial aid', url: 'https://www.carleton.edu/financial-aid/apply-for-aid/international-students/' }
+  ],
+  lastVerified: '2026-09-21'
+}
+);

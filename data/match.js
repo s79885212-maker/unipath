@@ -68,6 +68,13 @@ window.UNIPATH.match = {
     'case-western-reserve-university': { currency: 'USD', basis: 'total', min: 93435, max: 93435, note: 'Billed charges; books, travel and personal expenses extra' },
     'university-of-rochester': { currency: 'USD', basis: 'total', min: 93076, max: 93076, note: 'Tuition, housing and food' },
     'tulane-university':       { currency: 'USD', basis: 'total', min: 95674, max: 99055, note: 'Upper figure includes student health insurance' },
+    'mount-holyoke-college':   { currency: 'USD', basis: 'total', min: 92774, max: 93046 },
+    'bryn-mawr-college':       { currency: 'USD', basis: 'total', min: 97547, max: 97547 },
+    'barnard-college':         { currency: 'USD', basis: 'total', min: 98850, max: 100050, note: 'Billed costs; upper figure adds books' },
+    'bates-college':           { currency: 'USD', basis: 'total', min: 94560, max: 94560 },
+    'wesleyan-university':     { currency: 'USD', basis: 'total', min: 98330, max: 100780 },
+    'washington-and-lee-university': { currency: 'USD', basis: 'total', min: 99880, max: 99880 },
+    'carleton-college':        { currency: 'USD', basis: 'total', min: 99580, max: 99580, note: '2025-26 figure, the latest published' },
     /* Japan — tuition (and compulsory fees) per year */
     'university-of-tokyo':     { currency: 'JPY', basis: 'tuition', min: 642960, max: 642960 },
     'waseda-university':       { currency: 'JPY', basis: 'tuition', min: 1200000, max: 1800000 },
