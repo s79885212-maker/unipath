@@ -18,13 +18,20 @@ No university data is copied by hand: everything comes from data/*.js.
 """
 import html
 import json
+import os
 import pathlib
 import re
 import shutil
 import subprocess
 import tempfile
 
-SITE = "https://unipath-edu.netlify.app"
+# Where the site is published. Set by the build environment:
+#   SITE_URL  — full public address, no trailing slash
+#   BASE_PATH — path the site lives under ("/" on its own domain,
+#               "/unipath/" on a GitHub Pages project site)
+SITE_URL = os.environ.get("SITE_URL", "https://unipath-edu.netlify.app").rstrip("/")
+BASE = "/" + os.environ.get("BASE_PATH", "/").strip("/") + "/" if os.environ.get("BASE_PATH", "/").strip("/") else "/"
+SITE = SITE_URL
 
 DATA_FILES = [
     "data/registry.js",
@@ -175,8 +182,8 @@ def shell(template: str, head: str, main_html: str) -> str:
     # Pages live at /university/<id>/, so every local file must be requested
     # from the site root. The meta tag tells the app it is on such a page
     # (photo paths from data/photos.js and #/ links are then made root-based).
-    page = re.sub(r'(src|href)="(assets|data)/', r'\1="/\2/', page)
-    page = page.replace('<meta charset="utf-8">', '<meta charset="utf-8">\n<meta name="unipath-root" content="/">\n' + head, 1)
+    page = re.sub(r'(src|href)="(assets|data)/', r'\1="' + BASE + r'\2/', page)
+    page = page.replace('<meta charset="utf-8">', '<meta charset="utf-8">\n<meta name="unipath-root" content="' + BASE + '">\n' + head, 1)
     page = page.replace('<main id="main"></main>', f'<main id="main">{main_html}</main>', 1)
     return page
 
@@ -265,14 +272,14 @@ def university_page(u, country, fields):
     facts = " · ".join(x for x in (where, f"Founded {u['founded']}" if u.get("founded") else "", u.get("type")) if x)
     main_html = (
         '<section class="section"><div class="wrap">'
-        f'<p class="small"><a href="/">Home</a> › <a href="/country/{e(u["country"])}/">{e(c_name)}</a> › {e(u["name"])}</p>'
+        f'<p class="small"><a href="{BASE}">Home</a> › <a href="{BASE}country/{e(u["country"])}/">{e(c_name)}</a> › {e(u["name"])}</p>'
         f"<h1>{e(u['name'])}</h1>"
         f'<p class="muted">{e(facts)}</p>'
         f"<p>{e(u.get('description'))}</p>"
         f"<h2>Key facts for international applicants</h2><dl class=\"deflist\">{''.join(rows)}</dl>"
         f"{scholarships}{programs}{apply_html}{sources_html}"
         f'<p class="small muted">Last verified: {e(u.get("lastVerified"))}. {e(DISCLAIMER)}</p>'
-        f'<p><a href="/#/university/{e(u["id"])}">Open the full interactive profile</a></p>'
+        f'<p><a href="{BASE}#/university/{e(u["id"])}">Open the full interactive profile</a></p>'
         "</div></section>"
     )
     return url, head_tags(title, description, url, image, "article"), main_html
@@ -283,14 +290,14 @@ def country_page(c, unis):
     title = f"Study in {c['name']} as an international student — universities & scholarships | UniPath"
     description = f"{c['name']}: {c.get('tagline', '')} Compare {len(unis)} universities, costs, deadlines and scholarships from official sources."
     items = "".join(
-        f'<li><a href="/university/{e(u["id"])}/">{e(u["name"])}</a> — {e(u.get("city"))}'
+        f'<li><a href="{BASE}university/{e(u["id"])}/">{e(u["name"])}</a> — {e(u.get("city"))}'
         + (f" · {e(u['costs']['headline'])}" if has((u.get('costs') or {}).get('headline')) else "") + "</li>"
         for u in unis)
     notes = "".join(f"<li>{e(n)}</li>" for n in c.get("notes") or [])
     sources = "".join(f'<li><a href="{e(s.get("url"))}" rel="noopener">{e(s.get("label"))}</a></li>' for s in c.get("sources") or [])
     main_html = (
         '<section class="section"><div class="wrap">'
-        f'<p class="small"><a href="/">Home</a> › {e(c["name"])}</p>'
+        f'<p class="small"><a href="{BASE}">Home</a> › {e(c["name"])}</p>'
         f"<h1>{e(c.get('flag'))} {e(c['name'])}</h1>"
         f"<p>{e(c.get('tagline'))}</p><p>{e(c.get('overview'))}</p>"
         f"<h2>How applications work</h2><p>{e(c.get('applicationInfo'))}</p>"
@@ -337,5 +344,5 @@ def build(root: pathlib.Path, dist: pathlib.Path) -> int:
     (dist / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"  <url><loc>{e(x)}</loc></url>\n" for x in urls) + "</urlset>\n", encoding="utf-8")
-    (dist / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n", encoding="utf-8")
+    (dist / "robots.txt").write_text(f"User-agent: *\nAllow: {BASE}\n\nSitemap: {SITE}/sitemap.xml\n", encoding="utf-8")
     return written

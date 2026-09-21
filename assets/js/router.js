@@ -16,9 +16,10 @@
   var main, current = null;
 
   /* Static pages written at build time live at /university/<id>/ and
-     /country/<code>/. Without a hash, the path decides the route there. */
+     /country/<code>/ (under the site's base path, e.g. /unipath/ on
+     GitHub Pages). Without a hash, the path decides the route there. */
   function pathRoute() {
-    var m = /^\/(university|country)\/([a-z0-9-]+)\/?$/.exec(global.location.pathname || '');
+    var m = /\/(university|country)\/([a-z0-9-]+)\/?$/.exec(global.location.pathname || '');
     return m ? '#/' + m[1] + '/' + m[2] : null;
   }
 
