@@ -2930,3 +2930,1000 @@ window.UNIPATH.universities.push(
   lastVerified: '2026-09-20'
 }
 );
+
+/* ---- Batch added 21 September 2026: ten research universities with
+   very different answers for international students — from full need
+   met (Caltech) to no need-based aid at all (Carnegie Mellon, USC,
+   Boston University, Boston College). ---- */
+window.UNIPATH.universities.push(
+{
+  id: 'caltech',
+  name: 'California Institute of Technology',
+  shortName: 'Caltech',
+  country: 'us',
+  city: 'Pasadena',
+  region: 'California',
+  founded: 1891,
+  type: 'Private research university',
+  brand: { c1: '#FF6C0C', c2: '#b34a06', initials: 'CT' },
+  description: 'A very small science and engineering university in Pasadena, with about a thousand undergraduates and a demanding shared core in maths and physics. International applicants are read need-aware because aid money for them is limited, but every admitted student’s full demonstrated need is met.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['engineering','computer-science','mathematics','biology','economics','humanities','social-sciences'],
+  englishTaughtPrograms: ['engineering','computer-science','mathematics','biology','economics','humanities','social-sciences'],
+  programNote: 'Every Caltech student takes a core of calculus, physics, chemistry and biology. Degrees are overwhelmingly in science and engineering; humanities and social sciences exist but are small.',
+  links: {
+    website: 'https://www.caltech.edu/',
+    admissions: 'https://www.admissions.caltech.edu/apply/first-year-applicants',
+    internationalAdmissions: 'https://www.admissions.caltech.edu/apply/first-year-applicants/international-applicants',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://www.finaid.caltech.edu/',
+    financialAid: 'https://www.finaid.caltech.edu/Applying/international-students',
+    programs: 'https://www.catalog.caltech.edu/',
+    cost: 'https://www.finaid.caltech.edu/costs'
+  },
+  admissions: {
+    platforms: ['Common Application', 'QuestBridge Application'],
+    deadlines: [
+      { name: 'Restrictive Early Action', entryTerm: 'Autumn 2027', dateISO: '2026-11-01', date: '1 November 2026', note: 'Decisions in mid-December' },
+      { name: 'Regular Decision', entryTerm: 'Autumn 2027', dateISO: '2027-01-04', date: '4 January 2027', note: 'Decisions in mid-March; reply by 1 May 2027' }
+    ],
+    applicationFee: { amount: 85, currency: 'USD', waiver: 'Aid applicants for whom the $85 fee is a hardship can have it waived; QuestBridge applicants are never charged' },
+    documents: ['Common Application with Caltech’s supplemental essays', 'School transcript and reports', 'Two teacher recommendations (maths or science and humanities or social science)', 'SAT or ACT scores', 'English proficiency score where required'],
+    recommendations: 'A maths or science teacher and a humanities or social science teacher, plus a counsellor',
+    essay: 'Personal essay plus Caltech’s supplemental essays',
+    interview: null,
+    notes: [
+      'Applicants must have taken calculus, physics and chemistry; IB applicants need Higher Level Maths and A-Level applicants need A-Level Maths.',
+      'International applicants who might ever need aid must apply for it with the admission application; aid cannot be requested later.'
+    ]
+  },
+  english: {
+    ielts: { min: 7, recommended: null, note: 'IELTS 7 overall, with at least 7 in each area.' },
+    toefl: { min: 100, recommended: null, scales: [{ period: 'pre2026', min: 100, recommended: null }, { period: 'post2026', min: 5, recommended: null }], note: 'TOEFL 100 (at least 25 in each area) before 21 January 2026; 5 overall and 5 in each area from that date.' },
+    duolingo: { min: 130, recommended: null, note: 'Duolingo English Test 130 overall and in each area.' },
+    waiver: 'Not required if your native language is English or English is the main language of instruction at your school; strongly recommended for non-native speakers even then.',
+    note: 'The English exam must be taken before the application deadline. Caltech also accepts InitialView interviews as supporting evidence.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'required', note: 'For autumn 2027 entry Caltech requires the SAT or ACT. Scores of 780–800 and 750–770 are reported to readers only as score bands, and there is no minimum.' },
+    act: { policy: 'required', note: 'SAT or ACT required; ACT 35–36 and 33–34 are banded the same way.' },
+    otherTests: null,
+    internationalQualifications: 'IB students need Higher Level Maths and A-Level students need A-Level Maths; students in India must complete both Class X and XII board exams.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: '$98,622 total cost',
+    items: [
+      { label: 'Tuition', amount: 68574 },
+      { label: 'Fees', amount: 2655 },
+      { label: 'Housing', amount: 12711 },
+      { label: 'Food and meals', amount: 9285 },
+      { label: 'Books, course materials, supplies and equipment', amount: 1428 },
+      { label: 'Personal expenses', amount: 3969 },
+      { label: 'Student health insurance (if not waived)', amount: 5388 }
+    ],
+    billedSubtotal: 93225,
+    totalText: '$98,622 for the nine-month year, of which $93,225 is billed by Caltech; health insurance is extra',
+    note: 'Aid recipients who join the Caltech health plan can have its cost added to their budget and covered by grant.'
+  },
+  scholarships: {
+    fullRide: {
+      available: true, internationalEligible: true, basis: 'need-based',
+      covers: { tuition: true, housing: true, meals: true, insurance: true, books: true },
+      renewable: true,
+      competitiveness: 'Need-aware for international applicants because the total aid budget for them is limited.',
+      howToApply: 'Apply for aid with the admission application; international students submit the CSS Profile by 1 February.',
+      note: 'Caltech states that it meets 100% of demonstrated financial need, and that its aid covers the full cost of attendance — tuition, housing, dining, books, fees and personal expenses. International students who do not apply for or receive aid in their first year cannot apply later.'
+    },
+    merit: [],
+    needBased: {
+      availableToInternational: true, meetsFullNeed: true, needBlindInternational: false,
+      forms: ['CSS Profile', 'International Financial Aid Statement of Intent'],
+      deadlines: 'CSS Profile by 1 February before the year of entry',
+      note: 'Caltech says the limited international aid budget "may result in financial need being a factor" in admission.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International applicants', url: 'https://www.admissions.caltech.edu/apply/first-year-applicants/international-applicants' },
+    { label: 'On-campus cost of attendance 2026-27', url: 'https://www.finaid.caltech.edu/costs' },
+    { label: 'Standardized tests', url: 'https://www.admissions.caltech.edu/apply/first-year-applicants/standardized-tests' },
+    { label: 'Applying as an international student — financial aid', url: 'https://www.finaid.caltech.edu/Applying/international-students' }
+  ],
+  lastVerified: '2026-09-21'
+},
+
+{
+  id: 'carnegie-mellon-university',
+  name: 'Carnegie Mellon University',
+  country: 'us',
+  city: 'Pittsburgh',
+  region: 'Pennsylvania',
+  founded: 1900,
+  type: 'Private research university',
+  brand: { c1: '#C41230', c2: '#7a0b1e', initials: 'CMU' },
+  description: 'A private research university in Pittsburgh, world-famous for computer science, robotics and engineering, as well as drama and design. For most international undergraduates there is no financial aid at all: Carnegie Mellon asks them to plan to pay the full cost of attendance.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['computer-science','engineering','business','economics','mathematics','arts','humanities','social-sciences','biology','psychology'],
+  englishTaughtPrograms: ['computer-science','engineering','business','economics','mathematics','arts','humanities','social-sciences','biology','psychology'],
+  programNote: 'Applicants apply to one college, such as the School of Computer Science, the College of Engineering, the Tepper School of Business or the College of Fine Arts. Drama, music and design have their own portfolio or audition requirements and earlier deadlines.',
+  links: {
+    website: 'https://www.cmu.edu/',
+    admissions: 'https://www.cmu.edu/admission/admission/application-plans-deadlines',
+    internationalAdmissions: 'https://www.cmu.edu/admission/admission/international-applicants',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://www.cmu.edu/sfs/financial-aid/international/index.html',
+    financialAid: 'https://www.cmu.edu/sfs/financial-aid/international/index.html',
+    programs: 'https://coursecatalog.web.cmu.edu/',
+    cost: 'https://www.cmu.edu/sfs/tuition/undergraduate/index.html'
+  },
+  admissions: {
+    platforms: ['Common Application'],
+    deadlines: [
+      { name: 'Early Decision', date: '2 November', note: 'Binding; decisions by 15 December. Not available for Drama, Music or BXA Design' },
+      { name: 'Regular Decision', date: '4 January', note: 'Decisions by 1 April; Drama and Music applicants apply by 1 December' }
+    ],
+    applicationFee: { amount: 75, currency: 'USD', waiver: null },
+    documents: ['Common Application', 'School transcript and reports', 'Teacher recommendation', 'English proficiency score for non-native speakers', 'Portfolio or audition for arts programmes'],
+    recommendations: 'Teacher and counsellor recommendations',
+    essay: 'Personal essay plus Carnegie Mellon’s short-answer questions',
+    interview: 'An InitialView or Vericant interview is recommended, not required, for non-native English speakers',
+    notes: ['Applicants may apply to only one college within the university.']
+  },
+  english: {
+    ielts: { min: 7.5, recommended: null, note: 'IELTS Academic 7.5 overall with at least 7.5 in each band.' },
+    toefl: { min: 5, recommended: null, scales: [{ period: 'post2026', min: 5, recommended: null }], note: 'TOEFL iBT 5 overall and in each section for tests from 21 January 2026; TOEFL Essentials 11.' },
+    duolingo: { min: 135, recommended: null, note: 'Duolingo English Test 135 overall and in all four subscores.' },
+    waiver: null,
+    note: 'Cambridge English 191 overall and in each skill is also accepted. Scores must be no more than two years old at the time of application.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: null, note: 'Not confirmed on the pages consulted — check Carnegie Mellon’s standardized testing page for your entry year.' },
+    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    otherTests: null,
+    internationalQualifications: 'International qualifications are accepted and read in context.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: '$69,702 tuition',
+    items: [
+      { label: 'Tuition', amount: 69702 },
+      { label: 'Standard double room', amount: 11700 },
+      { label: 'First-year meal plan', amount: 7950 },
+      { label: 'Student health insurance', amount: 3093 }
+    ],
+    billedSubtotal: 89352,
+    totalText: 'About $89,352 for tuition, housing and meals, plus health insurance, fees, books and travel',
+    note: 'International students must show they can pay the full cost of attendance.'
+  },
+  scholarships: {
+    fullRide: {
+      available: false, internationalEligible: false, basis: null,
+      covers: { tuition: null, housing: null, meals: null, insurance: null, books: null },
+      renewable: null,
+      competitiveness: null,
+      howToApply: null,
+      note: 'Carnegie Mellon states: "Carnegie Mellon doesn’t offer financial aid to international students" and that they "must plan to pay the total cost of attendance". The exceptions it lists are DACA students, two Behring Foundation scholarships a year for students from Brazil in computer science or electrical and computer engineering, and the separate Qatar campus.'
+    },
+    merit: [],
+    needBased: {
+      availableToInternational: false, meetsFullNeed: null, needBlindInternational: null,
+      forms: [],
+      deadlines: null,
+      note: 'No institutional need-based aid for international undergraduates at the Pittsburgh campus.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International applicants', url: 'https://www.cmu.edu/admission/admission/international-applicants' },
+    { label: 'International student funding opportunities', url: 'https://www.cmu.edu/sfs/financial-aid/international/index.html' },
+    { label: 'Application plans and deadlines', url: 'https://www.cmu.edu/admission/admission/application-plans-deadlines' },
+    { label: '2026-2027 undergraduate tuition', url: 'https://www.cmu.edu/sfs/tuition/undergraduate/index.html' }
+  ],
+  lastVerified: '2026-09-21'
+},
+
+{
+  id: 'georgetown-university',
+  name: 'Georgetown University',
+  country: 'us',
+  city: 'Washington',
+  region: 'District of Columbia',
+  founded: 1789,
+  type: 'Private Jesuit research university',
+  brand: { c1: '#041E42', c2: '#63666A', initials: 'GU' },
+  description: 'The oldest Catholic and Jesuit university in the United States, in Washington, D.C., best known for its School of Foreign Service, politics and business. Aid for international students is described by the university itself as extremely limited, and those who do not receive it in the first year never will.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['social-sciences','business','economics','humanities','law','biology','medicine','mathematics','computer-science','psychology'],
+  englishTaughtPrograms: ['social-sciences','business','economics','humanities','law','biology','medicine','mathematics','computer-science','psychology'],
+  programNote: 'Applicants choose one undergraduate school: the College of Arts & Sciences, the Walsh School of Foreign Service, the McDonough School of Business, the School of Nursing or the School of Health. The Law & Policy tag reflects foreign service and government study, not a law degree.',
+  links: {
+    website: 'https://www.georgetown.edu/',
+    admissions: 'https://uadmissions.georgetown.edu/apply/first-year-applicants/',
+    internationalAdmissions: 'https://uadmissions.georgetown.edu/apply/international-applicants/',
+    applicationPortal: 'https://uadmissions.georgetown.edu/applicant-portal/',
+    scholarships: 'https://finaid.georgetown.edu/undergrad/international-students/',
+    financialAid: 'https://finaid.georgetown.edu/undergrad/international-students/',
+    programs: 'https://bulletin.georgetown.edu/',
+    cost: 'https://studentaccounts.georgetown.edu/tuition/undergraduate/'
+  },
+  admissions: {
+    platforms: ['Georgetown Application'],
+    deadlines: [
+      { name: 'Early Action', date: '1 November', note: 'Non-binding, but you may not apply Early Decision elsewhere; decisions by 15 December' },
+      { name: 'Regular Decision', date: '1 January', note: 'Decisions by 1 April' }
+    ],
+    applicationFee: { amount: null, currency: 'USD', waiver: 'Georgetown accepts fee waiver requests from any applicant, international applicants included, for whom the fee is a significant burden' },
+    documents: ['Georgetown Application (not the Common Application)', 'Georgetown Writing Supplement: two short and two long essays', 'Academic credentials for all four years of secondary school', 'SAT or ACT scores', 'CSS Profile for aid applicants'],
+    recommendations: 'Teacher and counsellor recommendations',
+    essay: 'Two short and two long essays in the Georgetown Writing Supplement',
+    interview: 'Alumni interviews are part of the process where available',
+    notes: ['Georgetown uses its own application rather than the Common Application.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    waiver: null,
+    note: 'Check Georgetown’s standardized test requirements for international applicants.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'required', note: 'Georgetown requires SAT or ACT scores and highly recommends AP scores.' },
+    act: { policy: 'required', note: 'SAT or ACT required; the ACT Science section is highly recommended, especially for science majors.' },
+    otherTests: 'AP exam scores are highly recommended.',
+    internationalQualifications: 'Credentials in other languages need English translations accompanied by the originals.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: '$74,520 tuition',
+    items: [
+      { label: 'Tuition and mandatory fees (two semesters at $37,260)', amount: 74520 },
+      { label: 'Student activity fee (two semesters at $105.50)', amount: 211 },
+      { label: 'Student health insurance', amount: 4450 },
+      { label: 'Housing and food', text: 'Published separately in the full cost of attendance' }
+    ],
+    billedSubtotal: null,
+    totalText: '$74,520 tuition plus housing, food, fees and insurance',
+    note: 'Georgetown raised tuition by 4.75% for 2026–27.'
+  },
+  scholarships: {
+    fullRide: {
+      available: null, internationalEligible: true, basis: 'need-based',
+      covers: { tuition: null, housing: null, meals: null, insurance: null, books: null },
+      renewable: true,
+      competitiveness: 'Georgetown describes financial aid for international students as "extremely limited".',
+      howToApply: 'Indicate the intent to apply for aid on the admission application and submit the CSS Profile.',
+      note: 'Admitted international students who asked for aid are considered for "a very limited number of need-based scholarships". Anyone who does not receive a scholarship in the first year will not be offered one later. Georgetown does not publish a full-need commitment for international students.'
+    },
+    merit: [],
+    needBased: {
+      availableToInternational: true, meetsFullNeed: null, needBlindInternational: null,
+      forms: ['CSS Profile'],
+      deadlines: 'With the admission application; aid decisions arrive by the first week of April',
+      note: 'The pages consulted do not state whether admission is need-blind or need-aware for international applicants.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International students — financial aid', url: 'https://finaid.georgetown.edu/undergrad/international-students/' },
+    { label: 'First-year applicants', url: 'https://uadmissions.georgetown.edu/apply/first-year-applicants/' },
+    { label: 'Undergraduate tuition and fees 2026-2027', url: 'https://studentaccounts.georgetown.edu/tuition/undergraduate/' },
+    { label: 'Announcing 2026-2027 tuition rates', url: 'https://www.georgetown.edu/news/announcing-fall-2026-spring-2027-tuition-rates-2/' }
+  ],
+  lastVerified: '2026-09-21'
+},
+
+{
+  id: 'university-of-southern-california',
+  name: 'University of Southern California',
+  shortName: 'USC',
+  country: 'us',
+  city: 'Los Angeles',
+  region: 'California',
+  founded: 1880,
+  type: 'Private research university',
+  brand: { c1: '#990000', c2: '#FFCC00', initials: 'USC' },
+  description: 'A large private research university in Los Angeles, known for film, business, engineering and communication. USC does not give need-based aid to international students; they can compete for merit scholarships, but none covers the full cost of attendance.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['business','engineering','computer-science','arts','economics','social-sciences','humanities','biology','psychology','medicine','education','law','mathematics'],
+  englishTaughtPrograms: ['business','engineering','computer-science','arts','economics','social-sciences','humanities','biology','psychology','medicine','education','law','mathematics'],
+  programNote: 'USC has more than twenty schools, including the School of Cinematic Arts, Marshall (business), Viterbi (engineering) and Annenberg (communication). The Law & Policy tag reflects undergraduate programmes in law, history and culture and public policy.',
+  links: {
+    website: 'https://www.usc.edu/',
+    admissions: 'https://admission.usc.edu/',
+    internationalAdmissions: 'https://admission.usc.edu/prospective-students/how-to-apply/international-students/',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://admission.usc.edu/cost-and-financial-aid/scholarships/',
+    financialAid: 'https://admission.usc.edu/prospective-students/how-to-apply/international-students/',
+    programs: 'https://catalogue.usc.edu/',
+    cost: 'https://financialaid.usc.edu/undergraduate-financial-aid/cost-of-attendance/'
+  },
+  admissions: {
+    platforms: ['Common Application'],
+    deadlines: [
+      { name: 'Merit scholarship consideration', date: '1 December', note: 'Apply by this date to be considered for USC merit scholarships' },
+      { name: 'Regular Decision', date: '15 January', note: 'Final first-year deadline' }
+    ],
+    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    documents: ['Common Application with USC questions', 'Official records from all secondary schools, with certified English translations', 'External exam results or predictions (IB, A-Levels, national exams)', 'Financial Statement of Personal or Family Support', 'Copy of passport', 'English proficiency score'],
+    recommendations: 'Counsellor and teacher recommendations',
+    essay: 'Common Application essay plus USC’s supplement',
+    interview: null,
+    notes: [
+      'International applicants upload the Financial Statement of Personal or Family Support within two weeks of their deadline, proving funds for at least the first year; bank documents must be dated August 2026 or later.',
+      'USC does not work with, and is not represented by, recruitment agents.'
+    ]
+  },
+  english: {
+    ielts: { min: 7, recommended: null, note: 'IELTS (or IELTS Indicator) 7 is the recommended minimum.' },
+    toefl: { min: 100, recommended: null, scales: [{ period: 'pre2026', min: 100, recommended: null }, { period: 'post2026', min: 5, recommended: null }], note: 'TOEFL 100 with at least 20 in each section before 21 January 2026; 5 overall with at least 4 in each section from that date. TOEFL ITP Plus for China is not accepted.' },
+    duolingo: { min: null, recommended: null, note: 'The Duolingo English Test is not on USC’s published list of approved exams.' },
+    waiver: 'USC grants no waivers: every international applicant whose native language is not English must submit an approved exam.',
+    note: 'Also accepted: Cambridge C1 Advanced 185 (169 in each skill), PTE 68, SAT Evidence-Based Reading and Writing 650 or ACT English 27.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'optional', note: 'USC is test-optional for first-year applicants entering in 2027–28; scores that are sent are considered.' },
+    act: { policy: 'optional', note: 'Same as the SAT.' },
+    otherTests: null,
+    internationalQualifications: 'USC publishes expectations for many national systems in its International Qualifications tool.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: '$75,384 tuition',
+    items: [
+      { label: 'Tuition (12–18 units, two semesters)', amount: 75384 },
+      { label: 'Student health service fee', amount: 1440 },
+      { label: 'Mandatory health insurance', amount: 3777 },
+      { label: 'Student programming, aid and transportation fees', amount: 452 },
+      { label: 'New student fee (first semester only)', amount: 450 },
+      { label: 'Housing, meals, books and living costs', text: 'Published in USC’s cost of attendance' }
+    ],
+    billedSubtotal: null,
+    totalText: '$75,384 tuition plus about $6,100 in fees and insurance, before housing and living costs',
+    note: 'International applicants must document funds for the full cost of attendance.'
+  },
+  scholarships: {
+    fullRide: {
+      available: false, internationalEligible: false, basis: null,
+      covers: { tuition: null, housing: null, meals: null, insurance: null, books: null },
+      renewable: null,
+      competitiveness: null,
+      howToApply: null,
+      note: 'USC states that it does not offer need-based aid to international applicants and that no USC merit scholarship covers the full cost of attendance.'
+    },
+    merit: [
+      {
+        name: 'USC Merit Scholarships',
+        amount: 'Partial; none covers the full cost of attendance',
+        internationalEligible: true,
+        criteria: 'Holistic review of the whole application; there are no minimum requirements, but selection is highly competitive.',
+        note: 'Apply by 1 December to be considered. International applicants cannot rely on a merit award to show they can pay.'
+      }
+    ],
+    needBased: {
+      availableToInternational: false, meetsFullNeed: null, needBlindInternational: null,
+      forms: [],
+      deadlines: null,
+      note: 'No need-based aid for international students.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International students — undergraduate admission', url: 'https://admission.usc.edu/prospective-students/how-to-apply/international-students/' },
+    { label: 'Scholarships', url: 'https://admission.usc.edu/cost-and-financial-aid/scholarships/' },
+    { label: 'Cost of attendance', url: 'https://financialaid.usc.edu/undergraduate-financial-aid/cost-of-attendance/' }
+  ],
+  lastVerified: '2026-09-21'
+},
+
+{
+  id: 'boston-university',
+  name: 'Boston University',
+  country: 'us',
+  city: 'Boston',
+  region: 'Massachusetts',
+  founded: 1839,
+  type: 'Private research university',
+  brand: { c1: '#CC0000', c2: '#8a0000', initials: 'BU' },
+  description: 'A large private research university stretched along the Charles River in Boston, with strong communication, business, engineering and health programmes. International students cannot receive BU need-based aid, but they compete for merit awards, including the Trustee Scholarship, BU’s top award.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['business','engineering','computer-science','economics','social-sciences','humanities','arts','biology','psychology','medicine','education','mathematics'],
+  englishTaughtPrograms: ['business','engineering','computer-science','economics','social-sciences','humanities','arts','biology','psychology','medicine','education','mathematics'],
+  programNote: 'BU has ten undergraduate schools and colleges, including Questrom (business), the College of Communication and Sargent College of health sciences.',
+  links: {
+    website: 'https://www.bu.edu/',
+    admissions: 'https://www.bu.edu/admissions/apply/',
+    internationalAdmissions: 'https://www.bu.edu/finaid/undergraduate-students/international/',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://www.bu.edu/admissions/tuition-aid/scholarships-financial-aid/first-year-merit/',
+    financialAid: 'https://www.bu.edu/finaid/undergraduate-students/international/',
+    programs: 'https://www.bu.edu/academics/',
+    cost: 'https://www.bu.edu/admissions/tuition-aid/tuition/'
+  },
+  admissions: {
+    platforms: ['Common Application'],
+    deadlines: [
+      { name: 'Merit scholarship consideration', date: '1 December', note: 'International applicants must apply for admission by this date to be considered for merit scholarships' }
+    ],
+    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations'],
+    recommendations: 'Teacher and counsellor recommendations',
+    essay: 'Common Application essay plus BU’s supplement',
+    interview: null,
+    notes: ['BU’s full Early Decision and Regular Decision dates are on its deadlines page; only the 1 December merit deadline was confirmed here.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    waiver: null,
+    note: 'Check BU’s international applicant pages for the current English requirement.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    otherTests: null,
+    internationalQualifications: 'International qualifications are accepted and read in context.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: '$98,419 total cost',
+    items: [
+      { label: 'Tuition', amount: 73024 },
+      { label: 'Housing (depending on accommodation)', amount: 13170 },
+      { label: 'Food (most dining plans)', amount: 7570 },
+      { label: 'Fees', amount: 1570 },
+      { label: 'Books and supplies', amount: 1000 },
+      { label: 'Personal expenses', amount: 1455 },
+      { label: 'Local transportation', amount: 630 }
+    ],
+    billedSubtotal: 95334,
+    totalText: '$98,419 in total, of which $95,334 is billed by BU',
+    note: 'Massachusetts requires health insurance for students enrolled at least three-quarters time.'
+  },
+  scholarships: {
+    fullRide: {
+      available: false, internationalEligible: false, basis: null,
+      covers: { tuition: null, housing: null, meals: null, insurance: null, books: null },
+      renewable: null,
+      competitiveness: null,
+      howToApply: null,
+      note: 'BU states that international students are not eligible for need-based aid from the university, the state or the federal government. Its promise to meet 100% of need applies to US citizens and permanent residents.'
+    },
+    merit: [
+      {
+        name: 'Trustee Scholarship and Presidential Scholarship',
+        amount: 'Merit awards; the Trustee Scholarship is BU’s top award',
+        internationalEligible: true,
+        criteria: 'Outstanding academic records; competitive. Apply for admission by 1 December.',
+        note: 'Trustee Scholars must keep a 3.00 GPA each year and live in BU housing on the Charles River or Fenway campus.'
+      }
+    ],
+    needBased: {
+      availableToInternational: false, meetsFullNeed: null, needBlindInternational: null,
+      forms: [],
+      deadlines: null,
+      note: 'No need-based aid for international students.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International students — financial assistance', url: 'https://www.bu.edu/finaid/undergraduate-students/international/' },
+    { label: 'Cost of attendance 2026/2027', url: 'https://www.bu.edu/admissions/tuition-aid/tuition/' },
+    { label: 'Merit scholarships for first-year students', url: 'https://www.bu.edu/admissions/tuition-aid/scholarships-financial-aid/first-year-merit/' }
+  ],
+  lastVerified: '2026-09-21'
+},
+
+{
+  id: 'boston-college',
+  name: 'Boston College',
+  country: 'us',
+  city: 'Chestnut Hill',
+  region: 'Massachusetts',
+  founded: 1863,
+  type: 'Private Jesuit research university',
+  brand: { c1: '#8A100B', c2: '#BC9B6A', initials: 'BC' },
+  description: 'A Jesuit university just outside Boston, strong in business, economics and the humanities. It is need-blind for Americans, but it is unable to provide need-based aid to international citizens, who should be ready to pay the full cost.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['business','economics','humanities','social-sciences','biology','psychology','education','medicine','mathematics','computer-science','engineering'],
+  englishTaughtPrograms: ['business','economics','humanities','social-sciences','biology','psychology','education','medicine','mathematics','computer-science','engineering'],
+  programNote: 'Undergraduates study in the Morrissey College of Arts and Sciences, the Carroll School of Management, the Lynch School of Education and Human Development, the Connell School of Nursing or the newer Schiller Institute programmes, including engineering.',
+  links: {
+    website: 'https://www.bc.edu/',
+    admissions: 'https://www.bc.edu/bc-web/admission/apply.html',
+    internationalAdmissions: 'https://www.bc.edu/bc-web/admission/apply/international.html',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://www.bc.edu/bc-web/admission/affordability.html',
+    financialAid: 'https://www.bc.edu/bc-web/admission/apply/international.html',
+    programs: 'https://www.bc.edu/bc-web/academics.html',
+    cost: 'https://www.bc.edu/bc-web/offices/student-services/billing-student-accounts/tuition-fees.html'
+  },
+  admissions: {
+    platforms: ['Common Application'],
+    deadlines: [
+      { name: 'Early Decision I', date: '1 November', note: 'Binding; decisions by 15 December' },
+      { name: 'Early Decision II', date: '4 January', note: 'Binding; decisions by 15 February' },
+      { name: 'Regular Decision', date: '4 January', note: 'Decisions by 1 April; reply by 1 May' }
+    ],
+    applicationFee: { amount: 85, currency: 'USD', waiver: 'Fee waivers through the Common Application are for US citizens and permanent residents' },
+    documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'English proficiency score for international applicants'],
+    recommendations: 'Teacher and counsellor recommendations',
+    essay: 'Common Application essay plus Boston College’s supplement',
+    interview: null,
+    notes: ['Students at national schools in China may submit an InitialView interview instead, due 15 November (ED I) or 15 January (ED II and Regular Decision).']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Required of international applicants; no minimum is published on the pages consulted.' },
+    toefl: { min: null, recommended: null, note: 'Required of international applicants; no minimum is published on the pages consulted.' },
+    duolingo: { min: null, recommended: null, note: 'Accepted; no minimum is published on the pages consulted.' },
+    waiver: null,
+    note: 'All applicants who are not US citizens or permanent residents submit TOEFL, IELTS or Duolingo results.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'optional', note: 'Boston College is test-optional; scores that are sent are reviewed.' },
+    act: { policy: 'optional', note: 'Same as the SAT.' },
+    otherTests: null,
+    internationalQualifications: 'International qualifications are accepted and read in context.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: '$95,258 total cost',
+    items: [
+      { label: 'Tuition', amount: 75070 },
+      { label: 'Housing, food, fees and other costs', text: 'Included in the $95,258 total' }
+    ],
+    billedSubtotal: null,
+    totalText: '$95,258 cost of attendance for the year',
+    note: 'The Board of Trustees set tuition at $75,070 for 2026–27.'
+  },
+  scholarships: {
+    fullRide: {
+      available: false, internationalEligible: false, basis: null,
+      covers: { tuition: null, housing: null, meals: null, insurance: null, books: null },
+      renewable: null,
+      competitiveness: null,
+      howToApply: null,
+      note: 'Boston College states that it is unable to provide need-based aid to international citizens, who should be prepared to finance the full cost of a BC education.'
+    },
+    merit: [],
+    needBased: {
+      availableToInternational: false, meetsFullNeed: null, needBlindInternational: null,
+      forms: [],
+      deadlines: null,
+      note: 'BC’s need-blind admission and full-need promise apply to US citizens and permanent residents.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International applicants', url: 'https://www.bc.edu/bc-web/admission/apply/international.html' },
+    { label: 'Apply — deadlines and fee', url: 'https://www.bc.edu/bc-web/admission/apply.html' },
+    { label: 'Trustees set tuition for 2026-2027', url: 'https://www.bc.edu/bc-web/sites/bc-news/articles/2026/spring/trustees-set-tuition-for-2026-2027.html' }
+  ],
+  lastVerified: '2026-09-21'
+},
+
+{
+  id: 'brandeis-university',
+  name: 'Brandeis University',
+  country: 'us',
+  city: 'Waltham',
+  region: 'Massachusetts',
+  founded: 1948,
+  type: 'Private research university',
+  brand: { c1: '#003478', c2: '#00224f', initials: 'BU' },
+  description: 'A small research university near Boston, founded by the American Jewish community and open to all. Its Wien International Scholarship Program has funded hundreds of students from around the world and meets the full demonstrated need of each recipient.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['humanities','social-sciences','economics','business','computer-science','mathematics','biology','psychology','arts'],
+  englishTaughtPrograms: ['humanities','social-sciences','economics','business','computer-science','mathematics','biology','psychology','arts'],
+  programNote: 'Brandeis combines a liberal arts college with a research university; business is taught as an undergraduate major through the International Business School.',
+  links: {
+    website: 'https://www.brandeis.edu/',
+    admissions: 'https://www.brandeis.edu/admissions/apply/application-process/first-year.html',
+    internationalAdmissions: 'https://www.brandeis.edu/student-financial-services/financial-aid/apply/international-students.html',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://www.brandeis.edu/student-financial-services/financial-aid/scholarships/international.html',
+    financialAid: 'https://www.brandeis.edu/student-financial-services/financial-aid/apply/international-students.html',
+    programs: 'https://www.brandeis.edu/academics/',
+    cost: 'https://www.brandeis.edu/admissions/affordability/tuition.html'
+  },
+  admissions: {
+    platforms: ['Common Application', 'Coalition Application'],
+    deadlines: [
+      { name: 'Early Decision I', date: '1 November', note: 'Binding' },
+      { name: 'Early Decision II', date: '1 January', note: 'Binding' },
+      { name: 'Regular Decision', date: '1 January', note: null }
+    ],
+    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    documents: ['Common or Coalition Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile (code 3092) for aid applicants', 'Income and asset documents on request'],
+    recommendations: 'Teacher and counsellor recommendations',
+    essay: 'Personal essay plus Brandeis’ supplement',
+    interview: null,
+    notes: [
+      'There is no separate application for the Wien International Scholarship: every international applicant who applies for aid is considered.',
+      'Financial aid is not available to international students who do not receive it on admission.'
+    ]
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    waiver: null,
+    note: 'Check Brandeis’ international applicant pages for the current English requirement.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    otherTests: null,
+    internationalQualifications: 'Documents in other languages need certified translations from a consulate, embassy or school official.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: 'Not confirmed — see Brandeis’ tuition page',
+    items: [
+      { label: 'Tuition, housing and meals', text: 'Published on Brandeis’ tuition page and net cost calculator; the figures could not be read here' }
+    ],
+    billedSubtotal: null,
+    totalText: 'Not confirmed — check the official tuition page',
+    note: 'Brandeis publishes average first-year costs on its admissions site.'
+  },
+  scholarships: {
+    fullRide: {
+      available: true, internationalEligible: true, basis: 'need-based',
+      covers: { tuition: true, housing: true, meals: true, insurance: null, books: null },
+      renewable: true,
+      competitiveness: 'Brandeis says competition for international aid is strong; the Wien Scholarship goes to exceptional applicants with strong academics and community involvement.',
+      howToApply: 'Indicate the intent to apply for aid and submit the CSS Profile before admission.',
+      note: 'Brandeis states that the Wien International Scholarship meets the full demonstrated financial need of each recipient, is renewable for up to eight semesters on continued need, and requires scholars to live on campus. International students must reapply for aid each year.'
+    },
+    merit: [
+      {
+        name: 'Davis United World College Scholars Program',
+        amount: 'Need-based award for graduates of United World Colleges',
+        internationalEligible: true,
+        criteria: 'Graduates of a United World College.',
+        note: 'Listed by Brandeis among its international student scholarships.'
+      }
+    ],
+    needBased: {
+      availableToInternational: true, meetsFullNeed: null, needBlindInternational: null,
+      forms: ['CSS Profile (code 3092)', 'Non-custodial CSS Profile where applicable'],
+      deadlines: 'By the published priority filing dates, before admission',
+      note: 'Full need is promised to Wien Scholars; the pages consulted do not promise it for every international aid recipient, and do not state whether admission is need-aware.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International students — how to apply for aid', url: 'https://www.brandeis.edu/student-financial-services/financial-aid/apply/international-students.html' },
+    { label: 'International student scholarships', url: 'https://www.brandeis.edu/student-financial-services/financial-aid/scholarships/international.html' },
+    { label: 'Wien International Scholarship Program', url: 'https://www.brandeis.edu/isso/programs/wien/index.html' }
+  ],
+  lastVerified: '2026-09-21'
+},
+
+{
+  id: 'case-western-reserve-university',
+  name: 'Case Western Reserve University',
+  shortName: 'CWRU',
+  country: 'us',
+  city: 'Cleveland',
+  region: 'Ohio',
+  founded: 1826,
+  type: 'Private research university',
+  brand: { c1: '#0A304E', c2: '#626262', initials: 'CWRU' },
+  description: 'A private research university in Cleveland, strongest in engineering, nursing, biomedical science and pre-medical study. About one undergraduate in five is an international citizen; limited need-based aid is available to them, alongside merit scholarships that go up to full tuition.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['engineering','computer-science','biology','medicine','business','economics','mathematics','humanities','social-sciences','psychology','arts'],
+  englishTaughtPrograms: ['engineering','computer-science','biology','medicine','business','economics','mathematics','humanities','social-sciences','psychology','arts'],
+  programNote: 'CWRU has undergraduate programmes in engineering, sciences, nursing, management and the arts, and a 3/2 engineering route; the Health & Medicine tag reflects nursing and pre-health study.',
+  links: {
+    website: 'https://case.edu/',
+    admissions: 'https://case.edu/admission/apply',
+    internationalAdmissions: 'https://case.edu/admission/apply/international-students',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://case.edu/admission/tuition-aid/scholarships',
+    financialAid: 'https://case.edu/financialaid/undergraduates/international-students',
+    programs: 'https://bulletin.case.edu/',
+    cost: 'https://case.edu/financialaid/undergraduates/estimated-costs-attendance-2026-27'
+  },
+  admissions: {
+    platforms: ['Common Application', 'Coalition on Scoir'],
+    deadlines: [],
+    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    documents: ['Common Application or Coalition on Scoir', 'School transcript and reports, with English translations', 'Recommendations with English translations', 'English language exam score for non-native speakers', 'CSS Profile (code 1105) for aid applicants'],
+    recommendations: 'Teacher and counsellor recommendations',
+    essay: 'Personal essay; scholarship competitions have their own essay prompt',
+    interview: null,
+    notes: ['International applicants follow the same deadlines as domestic students; the dates were not confirmed on the pages consulted.']
+  },
+  english: {
+    ielts: { min: 7, recommended: null, note: 'IELTS 7 is the published minimum.' },
+    toefl: { min: 90, recommended: null, scales: [{ period: 'pre2026', min: 90, recommended: null }, { period: 'post2026', min: 4.5, recommended: null }], note: 'TOEFL iBT 90 (paper 577) for tests up to 20 January 2026; 4.5 on the scale used from 21 January 2026.' },
+    duolingo: { min: 115, recommended: null, note: 'Duolingo English Test 115 is the published minimum.' },
+    waiver: 'Waived automatically after two years at an English-medium school, SAT Evidence-Based Reading and Writing 630+, or ACT English 26+.',
+    note: 'PTE Academic 61 is also accepted. Self-reported scores are fine at application; enrolling students confirm them with official reports.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    otherTests: null,
+    internationalQualifications: 'International qualifications are accepted; records and recommendations need English translations.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: '$91,979 in tuition, housing and meals',
+    items: [
+      { label: 'Tuition', amount: 71410 },
+      { label: 'Housing', amount: 11969 },
+      { label: 'Unlimited meal plan', amount: 8600 },
+      { label: 'Required fees', amount: 696 },
+      { label: 'Matriculation fee (new students)', amount: 760 }
+    ],
+    billedSubtotal: 93435,
+    totalText: 'About $93,435 in billed charges for a first-year student, before books, travel and personal expenses',
+    note: 'Nursing students pay an additional $1,450 in fees.'
+  },
+  scholarships: {
+    fullRide: {
+      available: null, internationalEligible: true, basis: 'merit',
+      covers: { tuition: true, housing: null, meals: null, insurance: null, books: null },
+      renewable: null,
+      competitiveness: 'A select number of full-tuition awards are decided through essay-based scholarship competitions.',
+      howToApply: 'Apply to the scholarship competitions listed by the Office of Undergraduate Admission, in addition to the application.',
+      note: 'CWRU says it offers a limited amount of need-based aid to international first-year applicants, and scholarships including full-tuition awards. A full-cost award for international students is not described on the pages consulted.'
+    },
+    merit: [
+      {
+        name: 'CWRU scholarship competitions',
+        amount: 'Up to full tuition',
+        internationalEligible: true,
+        criteria: 'Additional information and an essay; open to first-time, first-year international applicants.',
+        note: 'All undergraduates are also considered automatically for several merit scholarships.'
+      }
+    ],
+    needBased: {
+      availableToInternational: true, meetsFullNeed: null, needBlindInternational: null,
+      forms: ['CSS Profile (code 1105)'],
+      deadlines: 'With the admission application',
+      note: 'CWRU’s general statement that it meets 100% of demonstrated need is not repeated on its international aid page, which describes a "limited amount" of need-based aid.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International students — financial aid', url: 'https://case.edu/financialaid/undergraduates/international-students' },
+    { label: 'International applicants — English proficiency and scholarships', url: 'https://case.edu/admission/apply/international-students' },
+    { label: 'Estimated costs of attendance 2026-27', url: 'https://case.edu/financialaid/undergraduates/estimated-costs-attendance-2026-27' }
+  ],
+  lastVerified: '2026-09-21'
+},
+
+{
+  id: 'university-of-rochester',
+  name: 'University of Rochester',
+  country: 'us',
+  city: 'Rochester',
+  region: 'New York',
+  founded: 1850,
+  type: 'Private research university',
+  brand: { c1: '#021BC3', c2: '#FFD82B', initials: 'UR' },
+  description: 'A private research university in upstate New York with an open curriculum and the Eastman School of Music. It is need-aware for international applicants and funds only a small number with need-based aid, but promises to meet the full need of those it admits and gives merit scholarships to most admitted students.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['engineering','computer-science','biology','medicine','economics','business','social-sciences','humanities','mathematics','psychology','arts'],
+  englishTaughtPrograms: ['engineering','computer-science','biology','medicine','economics','business','social-sciences','humanities','mathematics','psychology','arts'],
+  programNote: 'Rochester has no required core courses: students pick a major and two "clusters" of related courses in the other broad areas. Music is taught at the Eastman School.',
+  links: {
+    website: 'https://www.rochester.edu/',
+    admissions: 'https://admissions.rochester.edu/applying/first-year-students/',
+    internationalAdmissions: 'https://admissions.rochester.edu/applying/international-students/',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://www.rochester.edu/financial-aid/scholarships/',
+    financialAid: 'https://www.rochester.edu/financial-aid/international-undergraduates/',
+    programs: 'https://www.rochester.edu/college/',
+    cost: 'https://www.rochester.edu/financial-aid/undergraduate-tuition-expenses/'
+  },
+  admissions: {
+    platforms: ['Common Application'],
+    deadlines: [
+      { name: 'Early Decision I', date: '1 November', note: 'Binding' },
+      { name: 'Early Decision II', date: '5 January', note: 'Binding' }
+    ],
+    applicationFee: { amount: 50, currency: 'USD', waiver: 'Application Fee Waiver Request Form for applicants facing hardship' },
+    documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile for international aid applicants'],
+    recommendations: 'Teacher and counsellor recommendations',
+    essay: 'Personal essay plus Rochester’s supplement',
+    interview: null,
+    notes: [
+      'International aid applicants submit the CSS Profile by 1 November, 12:00 am Eastern Time.',
+      'The Regular Decision date was not confirmed on the pages consulted.'
+    ]
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    waiver: null,
+    note: 'Check Rochester’s international students page for the current English requirement.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'optional', note: 'Rochester is test-optional; self-reported scores are accepted, and admitted students who enrol send official reports.' },
+    act: { policy: 'optional', note: 'Same as the SAT.' },
+    otherTests: null,
+    internationalQualifications: 'International qualifications are accepted and read in context.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: '$93,076 in tuition, housing and food',
+    items: [
+      { label: 'Tuition', amount: 71750 },
+      { label: 'Housing and food', amount: 21326 }
+    ],
+    billedSubtotal: 93076,
+    totalText: '$93,076 for tuition, housing and food, before fees, books and travel',
+    note: 'Tuition rose 3.9% and housing and food 4.2% for 2026–27.'
+  },
+  scholarships: {
+    fullRide: {
+      available: true, internationalEligible: true, basis: 'need-based',
+      covers: { tuition: true, housing: true, meals: true, insurance: null, books: null },
+      renewable: true,
+      competitiveness: 'Rochester is need-aware for non-US citizens and says only a small number of international applicants will qualify for need-based aid.',
+      howToApply: 'Submit the CSS Profile by 1 November with your application.',
+      note: 'Rochester states it is committed to meeting the full demonstrated need of all admitted students regardless of citizenship, using a combination of merit and need-based aid.'
+    },
+    merit: [
+      {
+        name: 'University of Rochester merit scholarships',
+        amount: 'Average about $20,000 a year',
+        internationalEligible: true,
+        criteria: 'All applicants are considered automatically, regardless of citizenship; no extra documents are needed.',
+        note: 'About 75% of students admitted for 2026–27 received a merit scholarship.'
+      }
+    ],
+    needBased: {
+      availableToInternational: true, meetsFullNeed: true, needBlindInternational: false,
+      forms: ['CSS Profile'],
+      deadlines: '1 November',
+      note: 'Rochester has bought a limited number of CSS Profile fee waivers; first-year applicants request one by 15 January.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International undergraduates — financial aid', url: 'https://www.rochester.edu/financial-aid/international-undergraduates/' },
+    { label: 'First-year students — deadlines, fee and testing', url: 'https://admissions.rochester.edu/applying/first-year-students/' },
+    { label: 'Tuition and financial aid rates set for 2026–27', url: 'https://www.rochester.edu/newscenter/tuition-financial-aid-rates-set-for-2026-27-academic-year/' }
+  ],
+  lastVerified: '2026-09-21'
+},
+
+{
+  id: 'tulane-university',
+  name: 'Tulane University',
+  country: 'us',
+  city: 'New Orleans',
+  region: 'Louisiana',
+  founded: 1834,
+  type: 'Private research university',
+  brand: { c1: '#006747', c2: '#418FDE', initials: 'TU' },
+  description: 'A private research university in New Orleans, known for public health, business and a service-learning requirement. Need-based aid for international students is capped at $30,000 a year, but its Global Scholarships can cover full tuition or even the full cost of attendance.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['business','economics','social-sciences','humanities','biology','medicine','engineering','computer-science','mathematics','psychology','arts','law'],
+  englishTaughtPrograms: ['business','economics','social-sciences','humanities','biology','medicine','engineering','computer-science','mathematics','psychology','arts','law'],
+  programNote: 'Undergraduates enter Newcomb-Tulane College and can major across the Freeman School of Business, the School of Science and Engineering, public health and architecture. The Law & Policy tag reflects undergraduate legal studies, not a law degree.',
+  links: {
+    website: 'https://tulane.edu/',
+    admissions: 'https://admission.tulane.edu/',
+    internationalAdmissions: 'https://tulane.edu/admission-aid/international-admission',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://admission.tulane.edu/tuition-aid/merit-scholarships',
+    financialAid: 'https://admission.tulane.edu/international/aid',
+    programs: 'https://catalog.tulane.edu/',
+    cost: 'https://admission.tulane.edu/tuition-aid/cost'
+  },
+  admissions: {
+    platforms: ['Common Application'],
+    deadlines: [
+      { name: 'Early Decision', date: '1 November', note: 'Binding' },
+      { name: 'Early Action', date: '10 November', note: 'Non-binding; apply early to be competitive for merit scholarships' }
+    ],
+    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    documents: ['Common Application', 'School transcript and reports', 'CSS Profile for need-based aid', 'Tulane Declaration & Certification of Finances'],
+    recommendations: 'Teacher and counsellor recommendations',
+    essay: 'Common Application essay plus Tulane’s supplement',
+    interview: 'Video interview invitations are sent by 31 March',
+    notes: [
+      'Tulane recommends completing the CSS Profile by 15 February; need-based aid must be reapplied for every year.',
+      'Applicants in the top 20% academically are the most competitive for Global Scholarships.'
+    ]
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    waiver: null,
+    note: 'Check Tulane’s international admission page for the current English requirement.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    otherTests: null,
+    internationalQualifications: 'International qualifications are accepted and read in context.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: '$75,136 in tuition and mandatory fees',
+    items: [
+      { label: 'Tuition', amount: 70622 },
+      { label: 'Academic support, health centre, activity and recreation fees', amount: 4514 },
+      { label: 'Housing (weighted first-year average)', amount: 11758 },
+      { label: 'Dining plan (first-year minimum)', amount: 8780 },
+      { label: 'Tulane Student Health Insurance Plan', amount: 3381 },
+      { label: 'New student orientation fee (one-time)', amount: 300 }
+    ],
+    billedSubtotal: 95674,
+    totalText: 'About $95,674 for tuition, fees, housing and dining, plus health insurance',
+    note: 'Non-US citizens are enrolled in Tulane’s student health insurance plan.'
+  },
+  scholarships: {
+    fullRide: {
+      available: true, internationalEligible: true, basis: 'merit',
+      covers: { tuition: true, housing: null, meals: null, insurance: null, books: null },
+      renewable: null,
+      competitiveness: 'Global Scholarships are competitive; applicants in the top 20% academically are the strongest candidates.',
+      howToApply: 'Apply Early Decision or Early Action to be competitive; all applicants are considered for partial merit awards through the Common Application.',
+      note: 'Tulane says its Global Scholarships "may cover your full tuition and fees or may even cover your full cost of attendance".'
+    },
+    merit: [
+      {
+        name: 'Tulane Global Scholarships and merit awards',
+        amount: 'From $1,000 up to full tuition or the full cost of attendance',
+        internationalEligible: true,
+        criteria: 'Academic record; early applicants are the most competitive.',
+        note: 'Every Common Application is considered for partial merit scholarships.'
+      }
+    ],
+    needBased: {
+      availableToInternational: true, meetsFullNeed: false, needBlindInternational: null,
+      forms: ['CSS Profile', 'Tulane Declaration & Certification of Finances'],
+      deadlines: 'CSS Profile recommended by 15 February',
+      note: 'Need-based aid for international students is capped at $30,000 a year and is not given to those who already hold at least that much in merit scholarship.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International student financial aid', url: 'https://admission.tulane.edu/international/aid' },
+    { label: 'Newcomb-Tulane College tuition and fees 2026-2027', url: 'https://studentaccounts.tulane.edu/sites/default/files/2026-03/2026-2027_NTC_COSTS_20260319.pdf' },
+    { label: 'Merit scholarships', url: 'https://admission.tulane.edu/tuition-aid/merit-scholarships' }
+  ],
+  lastVerified: '2026-09-21'
+}
+);
