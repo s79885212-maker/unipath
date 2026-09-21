@@ -1950,3 +1950,983 @@ window.UNIPATH.universities.push(
   lastVerified: '2026-09-20'
 }
 );
+
+/* ---- Batch added 20 September 2026: ten liberal arts colleges.
+   None of them is need-blind for international applicants; what
+   differs is how much of the need they meet and how the aid is
+   requested. ---- */
+window.UNIPATH.universities.push(
+{
+  id: 'swarthmore-college',
+  name: 'Swarthmore College',
+  country: 'us',
+  city: 'Swarthmore',
+  region: 'Pennsylvania',
+  founded: 1864,
+  type: 'Private liberal arts college',
+  brand: { c1: '#8B0000', c2: '#5c0000', initials: 'SC' },
+  description: 'A liberal arts college outside Philadelphia with an unusual engineering degree and an Oxford-style honours programme. Admission is need-aware for international citizens, but Swarthmore meets their full institutionally-determined need without loans — the average award for international students in the class of 2030 was over $93,000.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['humanities','social-sciences','economics','engineering','computer-science','mathematics','biology','psychology','arts'],
+  englishTaughtPrograms: ['humanities','social-sciences','economics','engineering','computer-science','mathematics','biology','psychology','arts'],
+  programNote: 'Swarthmore is one of the few liberal arts colleges with its own engineering degree, and students may also take courses at Haverford, Bryn Mawr and the University of Pennsylvania.',
+  links: {
+    website: 'https://www.swarthmore.edu/',
+    admissions: 'https://www.swarthmore.edu/admissions-aid/application-materials-deadlines',
+    internationalAdmissions: 'https://www.swarthmore.edu/financial-aid/international-students',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://www.swarthmore.edu/financial-aid',
+    financialAid: 'https://www.swarthmore.edu/financial-aid/international-students',
+    programs: 'https://www.swarthmore.edu/academics',
+    cost: 'https://www.swarthmore.edu/student-accounts-office/tuition-housing-food-fees'
+  },
+  admissions: {
+    platforms: ['Common Application', 'Coalition on Scoir', 'QuestBridge Application'],
+    deadlines: [
+      { name: 'Fall Early Decision', date: '15 November', note: 'Binding; decisions in mid-December' },
+      { name: 'Winter Early Decision', date: '4 January', note: 'Binding; decisions in mid-February' },
+      { name: 'Regular Decision', date: '4 January', note: null }
+    ],
+    applicationFee: { amount: null, currency: 'USD', waiver: 'Fee waivers are decided by Swarthmore, the Common Application, NACAC, the College Board or the ACT; anyone with financial need can check eligibility through SwatPass.' },
+    documents: ['Common Application, Coalition on Scoir or QuestBridge application', 'Swarthmore short answer', 'School transcript and reports', 'Two academic teacher recommendations'],
+    recommendations: 'Two academic-subject teacher recommendations and a counsellor report',
+    essay: 'Personal essay plus Swarthmore’s short answer',
+    interview: 'Optional',
+    notes: [
+      'Applicants at schools outside the US, whatever their citizenship, must submit a Swarthmore Video Response, an English proficiency exam result or an InitialView interview.',
+      'International applicants send their financial aid documents only after they are admitted, within seven days of the offer.'
+    ]
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Accepted as proof of English; no minimum score is published.' },
+    toefl: { min: null, recommended: null, note: 'Accepted as proof of English; no minimum score is published.' },
+    duolingo: { min: null, recommended: null, note: 'Accepted as proof of English; no minimum score is published.' },
+    waiver: 'A Swarthmore Video Response or an InitialView interview can be submitted instead of an English exam.',
+    note: 'The requirement applies to everyone applying from a school outside the United States, regardless of citizenship.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'optional', note: 'Test scores are optional and applicants who do not submit them are not penalised; self-reported scores are accepted.' },
+    act: { policy: 'optional', note: 'Same as the SAT.' },
+    otherTests: null,
+    internationalQualifications: 'International qualifications are accepted and read in context.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: '$95,770 total charges',
+    items: [
+      { label: 'Tuition', amount: 72722 },
+      { label: 'Housing', amount: 11676 },
+      { label: 'Food', amount: 10890 },
+      { label: 'Student activities fee', amount: 482 }
+    ],
+    billedSubtotal: 95770,
+    totalText: '$95,770 billed by the College, before travel and personal expenses',
+    note: 'The average financial aid award in 2025–26 was $75,268, and aid decisions are loan-free.'
+  },
+  scholarships: {
+    fullRide: {
+      available: true, internationalEligible: true, basis: 'need-based',
+      covers: { tuition: true, housing: true, meals: true, insurance: null, books: true },
+      renewable: true,
+      competitiveness: 'Admission is need-aware for international citizens, so a large aid request makes an already selective process harder.',
+      howToApply: 'Tick the financial aid box on the admission application, then send all aid documents within seven days of an admission offer.',
+      note: 'Swarthmore states that it meets 100% of institutionally-determined need for admitted international students who applied for aid — up to and including full tuition, an $800 book allowance, fees, housing, food and some personal expenses — and includes no loans. The average aid decision for international students admitted to the class of 2030 was more than $93,000.'
+    },
+    merit: [],
+    needBased: {
+      availableToInternational: true, meetsFullNeed: true, needBlindInternational: false,
+      forms: ['Submitted after admission, on Swarthmore’s instructions'],
+      deadlines: 'Within seven days of the admission offer',
+      note: 'Permanent residents, dual US citizens, DACA and undocumented students and those in the asylee or refugee process graduating from a US high school are read need-blind instead.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International students — financial aid', url: 'https://www.swarthmore.edu/financial-aid/international-students' },
+    { label: 'Tuition, housing, food and fees', url: 'https://www.swarthmore.edu/student-accounts-office/tuition-housing-food-fees' },
+    { label: 'Application materials and deadlines', url: 'https://www.swarthmore.edu/admissions-aid/application-materials-deadlines' }
+  ],
+  lastVerified: '2026-09-20'
+},
+
+{
+  id: 'pomona-college',
+  name: 'Pomona College',
+  country: 'us',
+  city: 'Claremont',
+  region: 'California',
+  founded: 1887,
+  type: 'Private liberal arts college',
+  brand: { c1: '#0057B8', c2: '#F5A800', initials: 'PC' },
+  description: 'The founding member of the Claremont Colleges in southern California, where students share classes across five neighbouring campuses. Pomona gives no merit or athletic scholarships at all: aid is purely need-based, admission for international applicants is need-aware, and the full need of every admitted international student is met.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts','engineering'],
+  englishTaughtPrograms: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts','engineering'],
+  programNote: 'Students can take courses across the five undergraduate Claremont Colleges, including engineering at Harvey Mudd, so the range is wider than the size of Pomona alone suggests.',
+  links: {
+    website: 'https://www.pomona.edu/',
+    admissions: 'https://www.pomona.edu/admissions/apply',
+    internationalAdmissions: 'https://www.pomona.edu/admissions/apply/international-applicants',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://www.pomona.edu/financial-aid',
+    financialAid: 'https://www.pomona.edu/financial-aid/applying-for-aid/international-aid',
+    programs: 'https://www.pomona.edu/academics',
+    cost: 'https://www.pomona.edu/administration/finance-office/student-accounts/tuition-and-costs'
+  },
+  admissions: {
+    platforms: ['Common Application', 'Coalition on Scoir', 'QuestBridge Application'],
+    deadlines: [
+      { name: 'Early Decision I — financial aid', date: '15 November', note: 'Published on Pomona’s financial aid deadline table' },
+      { name: 'Early Decision II — financial aid', date: '15 January', note: 'Published on Pomona’s financial aid deadline table' },
+      { name: 'Regular Decision — financial aid', date: '15 January', note: 'Published on Pomona’s financial aid deadline table' }
+    ],
+    applicationFee: { amount: 80, currency: 'USD', waiver: 'The $80 fee is waived for aid applicants who complete the Pomona Access Pass form' },
+    documents: ['Common, Coalition or QuestBridge application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile and IDOC documents for aid applicants'],
+    recommendations: 'Teacher and counsellor recommendations',
+    essay: 'Personal essay plus Pomona’s supplemental questions',
+    interview: null,
+    notes: [
+      'International applicants may apply in any round and follow the same deadlines as everyone else.',
+      'Because the admissions committee takes financial need into account, international applicants who will need help must apply for aid at the same time as admission.'
+    ]
+  },
+  english: {
+    ielts: { min: 7, recommended: null, note: 'Pomona’s published international testing profile gives a minimum IELTS of 7.' },
+    toefl: { min: 5, recommended: null, scales: [{ period: 'post2026', min: 5, recommended: null }], note: 'The published minimum TOEFL is 5, the score on the scale used from 2026.' },
+    duolingo: { min: 130, recommended: null, note: 'The published minimum Duolingo English Test score is 130.' },
+    waiver: 'Required only for applicants from schools where English is not the primary language of instruction.',
+    note: 'Pomona publishes these as its international testing profile minimums.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'optional', note: 'All applicants may self-report SAT or ACT scores, and scores are one factor among grades, curriculum, recommendations and essays.' },
+    act: { policy: 'optional', note: 'Same as the SAT.' },
+    otherTests: null,
+    internationalQualifications: 'International qualifications are accepted and read in context.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: '$95,670 comprehensive charge',
+    items: [
+      { label: 'Tuition', amount: 71660 },
+      { label: 'Fees', amount: 420 },
+      { label: 'Housing and food', amount: 23590 }
+    ],
+    billedSubtotal: 95670,
+    totalText: '$95,670 for tuition, fees, housing and food',
+    note: 'Books, travel and personal expenses are additional.'
+  },
+  scholarships: {
+    fullRide: {
+      available: true, internationalEligible: true, basis: 'need-based',
+      covers: { tuition: true, housing: true, meals: true, insurance: null, books: null },
+      renewable: true,
+      competitiveness: 'Need-aware admission for international applicants; 41% of Pomona’s international students receive need-based aid.',
+      howToApply: 'Apply for aid with the admission application and submit the CSS Profile and IDOC documents.',
+      note: 'Pomona states that every admitted student with demonstrated need is offered a package meeting 100% of that need, that it does not use loans to meet need, and that it meets the full need of every admitted international student. The average award for international students is nearly $74,000 a year.'
+    },
+    merit: [],
+    needBased: {
+      availableToInternational: true, meetsFullNeed: true, needBlindInternational: false,
+      forms: ['CSS Profile', 'IDOC tax documents'],
+      deadlines: '15 November (ED I) or 15 January (ED II and Regular Decision)',
+      note: 'Pomona gives no merit or athletic scholarships; all of its aid is need-based.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International applicants', url: 'https://www.pomona.edu/admissions/apply/international-applicants' },
+    { label: 'International student aid', url: 'https://www.pomona.edu/financial-aid/applying-for-aid/international-aid' },
+    { label: 'Tuition and costs for 2026-27', url: 'https://www.pomona.edu/administration/finance-office/student-accounts/tuition-and-costs' },
+    { label: 'Financial aid application materials and deadlines', url: 'https://www.pomona.edu/financial-aid/applying-aid/application-materials-and-deadlines' }
+  ],
+  lastVerified: '2026-09-20'
+},
+
+{
+  id: 'wellesley-college',
+  name: 'Wellesley College',
+  country: 'us',
+  city: 'Wellesley',
+  region: 'Massachusetts',
+  founded: 1870,
+  type: 'Private liberal arts college for women',
+  brand: { c1: '#0142A5', c2: '#002a6b', initials: 'WC' },
+  description: 'A women’s liberal arts college outside Boston with a long record of educating international students. Admission is need-sensitive for international citizens — so the competition among them is sharp — but Wellesley meets the full calculated need of every student it enrols, American or not.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts','education'],
+  englishTaughtPrograms: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts','education'],
+  programNote: 'Wellesley admits women and students assigned female at birth who identify as women or as non-binary; it also runs cross-registration with MIT, Babson and Olin, including engineering courses.',
+  links: {
+    website: 'https://www.wellesley.edu/',
+    admissions: 'https://www.wellesley.edu/admission-aid/apply',
+    internationalAdmissions: 'https://www.wellesley.edu/admission-aid/apply/first-year-applicants/international-applicants',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://www.wellesley.edu/admission-aid/student-financial-services',
+    financialAid: 'https://www.wellesley.edu/admission-aid/student-financial-services/understanding-financial-aid/apply-for-aid/international-students',
+    programs: 'https://www.wellesley.edu/academics',
+    cost: 'https://www.wellesley.edu/admission/cost'
+  },
+  admissions: {
+    platforms: ['Common Application'],
+    deadlines: [
+      { name: 'Early Decision I', date: '1 November', note: 'Binding' },
+      { name: 'Early Decision II', date: '1 January', note: 'Binding' },
+      { name: 'Regular Decision', date: '8 January', note: null }
+    ],
+    applicationFee: { amount: 0, currency: 'USD', waiver: 'There is no fee to apply to Wellesley' },
+    documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'Financial aid documents for aid applicants'],
+    recommendations: 'Teacher and counsellor recommendations',
+    essay: 'Personal essay plus Wellesley’s supplemental questions',
+    interview: null,
+    notes: [
+      'International citizens who might need aid at any point in four years must apply for it with their admission application; applications for aid are not accepted from international students after admission decisions.'
+    ]
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'No minimum score is published on the pages consulted.' },
+    toefl: { min: null, recommended: null, note: 'Recommended for students from schools where the curriculum is not taught in English; no minimum published.' },
+    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    waiver: null,
+    note: 'Wellesley recommends, rather than requires, an English test for applicants from non-English-language curricula.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: null, note: 'Not confirmed on the pages consulted — check Wellesley’s testing policy for your entry year.' },
+    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    otherTests: null,
+    internationalQualifications: 'International qualifications are accepted and read in context.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: '$96,136 comprehensive fee',
+    items: [
+      { label: 'Tuition', amount: 72570 },
+      { label: 'Housing', amount: 12020 },
+      { label: 'Meals', amount: 11186 },
+      { label: 'Student activity fee', amount: 360 },
+      { label: 'Books', amount: 800 },
+      { label: 'Personal expenses', amount: 1250 }
+    ],
+    billedSubtotal: 96136,
+    totalText: '$96,136 billed directly, plus about $2,050 in books and personal expenses and travel from home',
+    note: 'Massachusetts requires health insurance; students without comparable cover buy the college plan.'
+  },
+  scholarships: {
+    fullRide: {
+      available: true, internationalEligible: true, basis: 'need-based',
+      covers: { tuition: true, housing: true, meals: true, insurance: null, books: true },
+      renewable: true,
+      competitiveness: 'Wellesley says admission is need-sensitive for international citizens and therefore highly competitive for those applying for aid.',
+      howToApply: 'Apply for aid with the admission application in whichever round you choose.',
+      note: 'Wellesley states that it meets the full calculated need of every US and international student who attends the College, that its aid focuses on grants and minimises loans, and that the average grant in 2025–26 was $70,519.'
+    },
+    merit: [],
+    needBased: {
+      availableToInternational: true, meetsFullNeed: true, needBlindInternational: false,
+      forms: ['Financial aid application submitted with the admission application'],
+      deadlines: 'With the admission round',
+      note: 'The Wellesley Tuition Promise — free tuition below $200,000 of family income from autumn 2027 — applies to US students.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International students — financial aid', url: 'https://www.wellesley.edu/admission-aid/student-financial-services/understanding-financial-aid/apply-for-aid/international-students' },
+    { label: 'Cost of attendance and payment', url: 'https://www.wellesley.edu/admission/cost' },
+    { label: 'Wellesley announces free tuition for families with incomes of $200,000 or less', url: 'https://www.wellesley.edu/news/wellesley-free-tuition-income-200k-or-less-fall-2027' }
+  ],
+  lastVerified: '2026-09-20'
+},
+
+{
+  id: 'middlebury-college',
+  name: 'Middlebury College',
+  country: 'us',
+  city: 'Middlebury',
+  region: 'Vermont',
+  founded: 1800,
+  type: 'Private liberal arts college',
+  brand: { c1: '#0D395F', c2: '#0b2b47', initials: 'MC' },
+  description: 'A liberal arts college in rural Vermont, best known for languages, environmental studies and international studies. Middlebury describes its international admission as need-blind only as far as its resources allow, and covers 100% of demonstrated need for all four years of those it admits with aid.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts','education'],
+  englishTaughtPrograms: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts','education'],
+  programNote: 'Middlebury’s language schools and Schools Abroad are central to the college; many undergraduates study a language intensively or spend a year abroad.',
+  links: {
+    website: 'https://www.middlebury.edu/college/',
+    admissions: 'https://www.middlebury.edu/college/admissions/application-instructions-and-deadlines',
+    internationalAdmissions: 'https://www.middlebury.edu/college/admissions/affordability',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://www.middlebury.edu/student-financial-services',
+    financialAid: 'https://www.middlebury.edu/student-financial-services/apply-aid/first-year-and-transfer-students',
+    programs: 'https://www.middlebury.edu/college/academics',
+    cost: 'https://www.middlebury.edu/student-financial-services/tuition-fees-and-payment/tuition-and-fees'
+  },
+  admissions: {
+    platforms: ['Common Application'],
+    deadlines: [
+      { name: 'Early Decision I', date: '2 November', note: 'Binding' },
+      { name: 'Early Decision II', date: '4 January', note: 'Binding' },
+      { name: 'Regular Decision', date: '5 January', note: null }
+    ],
+    applicationFee: { amount: 0, currency: 'USD', waiver: 'From the 2026–27 application cycle Middlebury’s application is free' },
+    documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile for aid applicants'],
+    recommendations: 'Teacher and counsellor recommendations',
+    essay: 'Personal essay plus Middlebury’s supplemental questions',
+    interview: null,
+    notes: ['Middlebury does not accept the ISFAA or a paper CSS Profile from international applicants: the CSS Profile must be filed electronically.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    waiver: null,
+    note: 'Check Middlebury’s application instructions for the current English requirement.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    otherTests: null,
+    internationalQualifications: 'International qualifications are accepted and read in context.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: '$94,386 in tuition, housing, food and fees',
+    items: [
+      { label: 'Tuition', amount: 72924 },
+      { label: 'On-campus housing and meal plan', amount: 20920 },
+      { label: 'Student activity fee', amount: 542 }
+    ],
+    billedSubtotal: 94386,
+    totalText: '$94,386 before books, travel and personal expenses',
+    note: 'Middlebury requires full-time students to hold health insurance and offers its own plan to those without cover.'
+  },
+  scholarships: {
+    fullRide: {
+      available: true, internationalEligible: true, basis: 'need-based',
+      covers: { tuition: true, housing: true, meals: true, insurance: null, books: null },
+      renewable: true,
+      competitiveness: 'Middlebury says it follows a need-blind policy for international students only "to the extent that financial resources allow", so the number funded is limited.',
+      howToApply: 'File the CSS Profile electronically with the admission application.',
+      note: 'Middlebury states that a financial aid offer covers 100% of demonstrated need for all four years of undergraduate study.'
+    },
+    merit: [],
+    needBased: {
+      availableToInternational: true, meetsFullNeed: true, needBlindInternational: null,
+      forms: ['CSS Profile (electronic only)'],
+      deadlines: 'With the admission round',
+      note: 'Middlebury’s wording — need-blind as far as resources allow — is not a full need-blind promise for international applicants.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'Financial aid — Middlebury College admissions', url: 'https://www.middlebury.edu/college/admissions/affordability' },
+    { label: 'First-year and transfer students — applying for aid', url: 'https://www.middlebury.edu/student-financial-services/apply-aid/first-year-and-transfer-students' },
+    { label: 'Tuition and fees 2026–2027', url: 'https://www.middlebury.edu/student-financial-services/tuition-fees-and-payment/tuition-and-fees' },
+    { label: 'Application instructions and deadlines', url: 'https://www.middlebury.edu/college/admissions/application-instructions-and-deadlines' }
+  ],
+  lastVerified: '2026-09-20'
+},
+
+{
+  id: 'colby-college',
+  name: 'Colby College',
+  country: 'us',
+  city: 'Waterville',
+  region: 'Maine',
+  founded: 1813,
+  type: 'Private liberal arts college',
+  brand: { c1: '#002878', c2: '#001a4d', initials: 'CC' },
+  description: 'A liberal arts college in Maine where more than one student in ten is not a US citizen. Admission takes financial need into account, but Colby meets 100% of demonstrated need for every admitted student, international students included, with grants and campus work rather than loans.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts'],
+  englishTaughtPrograms: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts'],
+  programNote: 'Colby teaches the liberal arts and sciences, with environmental studies and global studies among its best-known programmes; there is no undergraduate business or engineering degree.',
+  links: {
+    website: 'https://www.colby.edu/',
+    admissions: 'https://afa.colby.edu/apply/',
+    internationalAdmissions: 'https://afa.colby.edu/apply/requirements/international-applicants/',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://afa.colby.edu/cost-and-aid/',
+    financialAid: 'https://afa.colby.edu/apply/requirements/international-applicants/',
+    programs: 'https://www.colby.edu/academics/',
+    cost: 'https://afa.colby.edu/cost-and-aid/tuition-and-fees/'
+  },
+  admissions: {
+    platforms: ['Common Application'],
+    deadlines: [
+      { name: 'Early Decision I', date: '15 November', note: 'Binding; international CSS Profile due the same day' },
+      { name: 'Early Decision II', date: '2 January', note: 'Binding; international CSS Profile due 4 January' },
+      { name: 'Regular Decision', date: '4 January', note: 'International CSS Profile due 15 January' }
+    ],
+    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile for aid applicants'],
+    recommendations: 'Teacher and counsellor recommendations',
+    essay: 'Personal essay plus Colby’s supplement',
+    interview: 'Video interviews are optional; Colby accepts Duolingo, Vericant and InitialView',
+    notes: ['All application materials must be submitted in English, whatever your language of instruction.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'IELTS Academic accepted; no minimum score is published.' },
+    toefl: { min: null, recommended: null, note: 'TOEFL iBT or Home Edition accepted and superscored; MyBest scores are accepted. No minimum is published.' },
+    duolingo: { min: null, recommended: null, note: 'Duolingo English Test accepted; no minimum published.' },
+    waiver: 'Not required if English is your first language or your current language of instruction.',
+    note: 'Scores may be self-reported on the application or sent as a PDF to the admissions office.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: null, note: 'Not confirmed on the pages consulted — check Colby’s testing policy for your entry year.' },
+    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    otherTests: null,
+    internationalQualifications: 'International qualifications are accepted and read in context.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: '$95,270 comprehensive fee',
+    items: [
+      { label: 'Tuition and fees', amount: 75790 },
+      { label: 'Housing and meals', amount: 19480 },
+      { label: 'Books and personal expenses', amount: 1700 },
+      { label: 'Travel', text: '$50–$1,300 depending on where you travel from' }
+    ],
+    billedSubtotal: 95270,
+    totalText: '$95,270 comprehensive fee plus about $1,700 in books and personal expenses and travel',
+    note: 'International travel typically costs more than the published allowance.'
+  },
+  scholarships: {
+    fullRide: {
+      available: true, internationalEligible: true, basis: 'need-based',
+      covers: { tuition: true, housing: true, meals: true, insurance: null, books: null },
+      renewable: true,
+      competitiveness: 'Colby is need-aware in admissions, so the size of the aid request is part of the decision.',
+      howToApply: 'File the international CSS Profile by the deadline for your round.',
+      note: 'Colby states that it meets 100% of demonstrated need for all admitted students, including international students, and that packages are built from grants and campus employment rather than loans.'
+    },
+    merit: [],
+    needBased: {
+      availableToInternational: true, meetsFullNeed: true, needBlindInternational: false,
+      forms: ['CSS Profile (code 3280)', 'Non-Custodial Parent CSS Profile where applicable'],
+      deadlines: '15 November (ED I), 4 January (ED II), 15 January (Regular Decision)',
+      note: 'Colby offers a CSS Profile fee waiver to families for whom the filing fee is a burden.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International applicants', url: 'https://afa.colby.edu/apply/requirements/international-applicants/' },
+    { label: 'Tuition and fees', url: 'https://afa.colby.edu/cost-and-aid/tuition-and-fees/' },
+    { label: 'Dates and deadlines', url: 'https://afa.colby.edu/apply/dates-and-deadlines/' }
+  ],
+  lastVerified: '2026-09-20'
+},
+
+{
+  id: 'davidson-college',
+  name: 'Davidson College',
+  country: 'us',
+  city: 'Davidson',
+  region: 'North Carolina',
+  founded: 1837,
+  type: 'Private liberal arts college',
+  brand: { c1: '#000000', c2: '#A6192E', initials: 'DC' },
+  description: 'A liberal arts college near Charlotte with an honour code strong enough that students take unproctored exams. Through the Davidson Trust it meets 100% of calculated need without loans — for international students too, though their applications are read with financial circumstances in view.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts','education'],
+  englishTaughtPrograms: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts','education'],
+  programNote: 'Davidson teaches only undergraduates, with well-known programmes in political science, economics and pre-medical study.',
+  links: {
+    website: 'https://www.davidson.edu/',
+    admissions: 'https://www.davidson.edu/admission-and-financial-aid/apply',
+    internationalAdmissions: 'https://www.davidson.edu/admission-and-financial-aid/apply/international-applicants',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://www.davidson.edu/about/mission-and-values/davidson-trust',
+    financialAid: 'https://www.davidson.edu/admission-and-financial-aid/financial-aid/applying-aid/international-students',
+    programs: 'https://www.davidson.edu/academics',
+    cost: 'https://www.davidson.edu/admission-and-financial-aid/cost-attendance'
+  },
+  admissions: {
+    platforms: ['Common Application'],
+    deadlines: [
+      { name: 'Early Decision I', date: '15 November', note: 'Binding; notification 12 December' },
+      { name: 'Early Decision II', date: '4 January', note: 'Binding; notification by 30 January' },
+      { name: 'Regular Decision', date: '11 January', note: 'Notification by 1 April' }
+    ],
+    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'Financial aid forms for aid applicants'],
+    recommendations: 'Teacher and counsellor recommendations',
+    essay: 'Personal essay plus Davidson’s supplement',
+    interview: null,
+    notes: [
+      'Aid for international students is limited and competitive, and must be requested at the time of the admission application.',
+      'Applications for aid from international students are not accepted after admission, for the whole of their time at Davidson.'
+    ]
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    waiver: null,
+    note: 'Check Davidson’s international applicant page for the current English requirement.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    otherTests: null,
+    internationalQualifications: 'International qualifications are accepted and read in context.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: '$95,995 for international first-years',
+    items: [
+      { label: 'Tuition', amount: 73090 },
+      { label: 'Required fees', amount: 650 },
+      { label: 'Orientation fee (first year only)', amount: 250 },
+      { label: 'Housing', amount: 9220 },
+      { label: 'Food', amount: 9560 },
+      { label: 'Books, course materials and supplies', amount: 825 },
+      { label: 'Transportation (international students)', amount: 1000 },
+      { label: 'Personal expenses', amount: 1400 },
+      { label: 'Health insurance', amount: 2800 }
+    ],
+    billedSubtotal: 92770,
+    totalText: '$95,995 for an international first-year, of which $92,770 is billed; health insurance adds $2,800',
+    note: 'Davidson publishes separate budgets for domestic and international students; the difference is the travel allowance.'
+  },
+  scholarships: {
+    fullRide: {
+      available: true, internationalEligible: true, basis: 'need-based',
+      covers: { tuition: true, housing: true, meals: true, insurance: null, books: true },
+      renewable: true,
+      competitiveness: 'Davidson says aid for international students is limited and competitive and that it is aware of financial circumstances when reading their applications.',
+      howToApply: 'Apply for aid at the same time as admission and meet every published deadline.',
+      note: 'Through the Davidson Trust the college meets 100% of calculated need, with grants and student employment and no loans in the package. The new simplified pricing — free tuition up to $175,000 of income from autumn 2027 — is for US citizens and full US residents only.'
+    },
+    merit: [],
+    needBased: {
+      availableToInternational: true, meetsFullNeed: true, needBlindInternational: false,
+      forms: ['Financial aid application submitted with the admission application'],
+      deadlines: 'With the admission round',
+      note: 'Recruited athletes are the stated exception to the full-need policy, as they may receive athletic funding instead.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International students — financial aid', url: 'https://www.davidson.edu/admission-and-financial-aid/financial-aid/applying-aid/international-students' },
+    { label: 'Cost of attendance 2026-2027', url: 'https://www.davidson.edu/admission-and-financial-aid/cost-attendance' },
+    { label: 'Davidson College goes tuition-free for families earning up to $175K', url: 'https://www.davidson.edu/news/2026/07/06/davidson-college-goes-tuition-free-for-low-middle-income-families' },
+    { label: 'Admission and aid timeline', url: 'https://www.davidson.edu/admission-and-financial-aid/admission-aid-timeline' }
+  ],
+  lastVerified: '2026-09-20'
+},
+
+{
+  id: 'grinnell-college',
+  name: 'Grinnell College',
+  country: 'us',
+  city: 'Grinnell',
+  region: 'Iowa',
+  founded: 1846,
+  type: 'Private liberal arts college',
+  brand: { c1: '#B02F2C', c2: '#7a1f1d', initials: 'GC' },
+  description: 'A liberal arts college in Iowa with an open curriculum and an unusually international student body — one student in five comes from outside the United States. Admission for them is need-aware, but Grinnell meets 100% of institutionally determined need without loans and considers international applicants for merit scholarships of up to $28,000.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts'],
+  englishTaughtPrograms: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts'],
+  programNote: 'Grinnell’s only required course is a first-year tutorial: everything else is chosen with an adviser, and there are no distribution requirements.',
+  links: {
+    website: 'https://www.grinnell.edu/',
+    admissions: 'https://www.grinnell.edu/admission/apply/first-year/requirements',
+    internationalAdmissions: 'https://www.grinnell.edu/admission/apply/international',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://www.grinnell.edu/admission/financial-aid',
+    financialAid: 'https://www.grinnell.edu/admission/apply/tips/intl-aid',
+    programs: 'https://www.grinnell.edu/academics',
+    cost: 'https://www.grinnell.edu/admission/financial-aid/cost-attendance'
+  },
+  admissions: {
+    platforms: ['Common Application', 'QuestBridge Application'],
+    deadlines: [
+      { name: 'Early Decision I', date: '15 November', note: 'Binding; financial aid forms due the same day; decisions mid-to-late December' },
+      { name: 'Early Decision II', date: '5 January', note: 'Binding; financial aid forms due the same day; decisions early February' },
+      { name: 'Regular Decision', date: '15 January', note: 'Financial aid forms due the same day; decisions late March or early April' }
+    ],
+    applicationFee: { amount: 0, currency: 'USD', waiver: 'Grinnell charges no application fee' },
+    documents: ['Common Application (no supplement required)', 'Two teacher evaluations', 'Counsellor recommendation and secondary school report', 'Official school transcript', 'CSS Profile or ISFAA for aid applicants'],
+    recommendations: 'Two teacher evaluations plus a counsellor recommendation',
+    essay: 'The Common Application essay; Grinnell requires no supplement',
+    interview: null,
+    notes: ['An application from a student seeking aid is not considered complete — or read for admission — until the CSS Profile or ISFAA is submitted.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Accepted; no minimum score published on the pages consulted.' },
+    toefl: { min: null, recommended: null, note: 'Accepted; no minimum score published on the pages consulted.' },
+    duolingo: { min: null, recommended: null, note: 'Accepted; no minimum score published on the pages consulted.' },
+    waiver: 'Required only if your native language is not English or your school did not teach primarily in English.',
+    note: 'Grinnell lists the TOEFL, IELTS and Duolingo English Test as accepted for autumn 2027 entry.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'optional', note: 'Scores are not required, but applicants must say by the deadline whether they will submit them and cannot change that choice later. Grinnell superscores.' },
+    act: { policy: 'optional', note: 'Same as the SAT; the science section is not required.' },
+    otherTests: null,
+    internationalQualifications: 'International qualifications are accepted and read in context.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: '$93,338 and up',
+    items: [
+      { label: 'Tuition (required books and course materials included)', amount: 73582 },
+      { label: 'Activity fee', amount: 572 },
+      { label: 'Housing (basic room)', amount: 8316 },
+      { label: 'Food (full meal plan)', amount: 9468 },
+      { label: 'Personal expenses', amount: 1100 },
+      { label: 'Transportation (students from outside the US)', amount: 1300 }
+    ],
+    billedSubtotal: 91938,
+    totalText: 'From $93,338 a year; Grinnell budgets $1,300 of travel for students from outside the US',
+    note: 'Required books and course materials are included in tuition. Student health insurance costs $2,769 for 2026–27.'
+  },
+  scholarships: {
+    fullRide: {
+      available: true, internationalEligible: true, basis: 'need-based',
+      covers: { tuition: true, housing: true, meals: true, insurance: null, books: true },
+      renewable: true,
+      competitiveness: 'Grinnell states that competition for aid grows tougher as the applicant’s demonstrated need increases.',
+      howToApply: 'Submit the CSS Profile or Grinnell’s ISFAA by the same deadline as the Common Application.',
+      note: 'Grinnell is need-blind for domestic applicants only. For international students it is need-aware, but commits to meeting 100% of institutionally determined need for all admitted international students who apply for aid on time, with grants rather than loans.'
+    },
+    merit: [
+      {
+        name: 'Merit scholarships for international students',
+        amount: 'Up to $28,000 a year',
+        internationalEligible: true,
+        criteria: 'Academic and co-curricular achievement; awarded regardless of financial need profile.',
+        note: 'Grinnell describes this process as extremely competitive.'
+      }
+    ],
+    needBased: {
+      availableToInternational: true, meetsFullNeed: true, needBlindInternational: false,
+      forms: ['CSS Profile', 'ISFAA (in the Grinnell applicant portal)'],
+      deadlines: 'Same as the admission deadline for your round',
+      note: '68% of Grinnell students receive need-based aid, with an average grant of $69,834.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International applicants — financial aid policy', url: 'https://www.grinnell.edu/admission/apply/international' },
+    { label: 'Financial aid and cost of attendance', url: 'https://www.grinnell.edu/admission/financial-aid' },
+    { label: 'Cost of attendance 2026–27', url: 'https://www.grinnell.edu/admission/financial-aid/cost-attendance' },
+    { label: 'Requirements and deadlines', url: 'https://www.grinnell.edu/admission/apply/first-year/requirements' }
+  ],
+  lastVerified: '2026-09-20'
+},
+
+{
+  id: 'vassar-college',
+  name: 'Vassar College',
+  country: 'us',
+  city: 'Poughkeepsie',
+  region: 'New York',
+  founded: 1861,
+  type: 'Private liberal arts college',
+  brand: { c1: '#8D1B3D', c2: '#5e1228', initials: 'VC' },
+  description: 'A liberal arts college in the Hudson Valley with an open curriculum and strong arts and drama. Vassar is open about not being need-blind for international applicants, but it offers them significant need-based aid and meets 100% of the demonstrated need of those it admits, for all four years.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts','education'],
+  englishTaughtPrograms: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts','education'],
+  programNote: 'Vassar has no core curriculum beyond a first-year writing seminar and a quantitative and foreign-language requirement, and is known for drama, film and art history.',
+  links: {
+    website: 'https://www.vassar.edu/',
+    admissions: 'https://www.vassar.edu/admission/apply',
+    internationalAdmissions: 'https://www.vassar.edu/admission/apply/international/',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://www.vassar.edu/admission/financial-aid/',
+    financialAid: 'https://offices.vassar.edu/student-financial-services/financial-aid/',
+    programs: 'https://www.vassar.edu/academics',
+    cost: 'https://www.vassar.edu/admission/financial-aid/tuition/'
+  },
+  admissions: {
+    platforms: ['Common Application', 'Coalition Application'],
+    deadlines: [
+      { name: 'Early Decision I — financial aid', date: '15 November', note: 'Published on Vassar’s international financial aid schedule' },
+      { name: 'Early Decision II — financial aid', date: '1 January', note: 'Published on Vassar’s international financial aid schedule' },
+      { name: 'Regular Decision — financial aid', date: '1 February', note: 'Published on Vassar’s international financial aid schedule' }
+    ],
+    applicationFee: { amount: null, currency: 'USD', waiver: 'A fee waiver can be requested on the Common Application or the Coalition Application' },
+    documents: ['Common or Coalition Application', 'School transcript and reports', 'Teacher recommendations', 'Financial aid forms for aid applicants'],
+    recommendations: 'Teacher and counsellor recommendations',
+    essay: 'Personal essay plus Vassar’s supplement',
+    interview: null,
+    notes: ['International students who want aid must apply for it at the same time as admission.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    waiver: null,
+    note: 'Check Vassar’s international applicant page for the current English requirement.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    otherTests: null,
+    internationalQualifications: 'International qualifications are accepted and read in context.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: '$96,960 in direct costs',
+    items: [
+      { label: 'Tuition', amount: 76140 },
+      { label: 'On-campus housing and food', amount: 19800 },
+      { label: 'Mandatory fees', amount: 1020 },
+      { label: 'Health insurance', amount: 3591 },
+      { label: 'Books, supplies, personal expenses and transportation', amount: 2250 }
+    ],
+    billedSubtotal: 96960,
+    totalText: 'About $96,960 billed, plus health insurance and roughly $2,250 of personal costs',
+    note: 'Vassar publishes the health insurance premium separately; students with comparable cover may waive it.'
+  },
+  scholarships: {
+    fullRide: {
+      available: true, internationalEligible: true, basis: 'need-based',
+      covers: { tuition: true, housing: true, meals: true, insurance: null, books: null },
+      renewable: true,
+      competitiveness: 'Vassar states plainly that it is not need-blind in the evaluation of international students.',
+      howToApply: 'Apply for aid at the same time as admission and meet the financial aid deadline for your round.',
+      note: 'Vassar says it offers significant need-based aid to international first-year applicants and, if it admits them, meets 100% of demonstrated need for all four years.'
+    },
+    merit: [],
+    needBased: {
+      availableToInternational: true, meetsFullNeed: true, needBlindInternational: false,
+      forms: ['Financial aid forms listed on Vassar’s international aid schedule'],
+      deadlines: '15 November (ED I), 1 January (ED II), 1 February (Regular Decision)',
+      note: 'Aid cannot be requested after admission.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International applicants', url: 'https://www.vassar.edu/admission/apply/international/' },
+    { label: 'Prospective international students 2026-2027 (financial aid)', url: 'https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2025/09/Prospective_Intl_2627.pdf' },
+    { label: 'Tuition and fees', url: 'https://www.vassar.edu/admission/financial-aid/tuition/' }
+  ],
+  lastVerified: '2026-09-20'
+},
+
+{
+  id: 'hamilton-college',
+  name: 'Hamilton College',
+  country: 'us',
+  city: 'Clinton',
+  region: 'New York',
+  founded: 1812,
+  type: 'Private liberal arts college',
+  brand: { c1: '#002D62', c2: '#001d40', initials: 'HC' },
+  description: 'A liberal arts college in upstate New York with an open curriculum and a strong emphasis on writing and speaking. It is need-blind for Americans but not for international applicants — and it warns that an unrealistic statement of what a family can pay can cost an applicant their place.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts'],
+  englishTaughtPrograms: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts'],
+  programNote: 'Hamilton has no distribution requirements: students design their own course of study with an adviser, and every student writes extensively across subjects.',
+  links: {
+    website: 'https://www.hamilton.edu/',
+    admissions: 'https://www.hamilton.edu/admission/apply',
+    internationalAdmissions: 'https://www.hamilton.edu/admission/finaid/international',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://www.hamilton.edu/admission/finaid/types-of-aid',
+    financialAid: 'https://www.hamilton.edu/admission/finaid/international',
+    programs: 'https://www.hamilton.edu/academics',
+    cost: 'https://www.hamilton.edu/admission/tuition'
+  },
+  admissions: {
+    platforms: ['Common Application'],
+    deadlines: [
+      { name: 'Early Decision I', date: '15 November', note: 'Binding' },
+      { name: 'Early Decision II', date: '4 January', note: 'Binding' },
+      { name: 'Regular Decision', date: '4 January', note: null }
+    ],
+    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'Certification of Finances (all international applicants)', 'CSS Profile for aid applicants'],
+    recommendations: 'Teacher and counsellor recommendations',
+    essay: 'Personal essay plus Hamilton’s supplement',
+    interview: null,
+    notes: [
+      'Every international applicant must submit the Certification of Finances, whether or not they are applying for aid.',
+      'Aid applications are not accepted after admission decisions: students who do not apply or qualify then are ineligible for all four years.'
+    ]
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    waiver: null,
+    note: 'Check Hamilton’s application details page for the current English requirement.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    otherTests: null,
+    internationalQualifications: 'International qualifications are accepted and read in context.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: '$95,250 comprehensive fee',
+    items: [
+      { label: 'Tuition', amount: 75210 },
+      { label: 'Housing', amount: 10540 },
+      { label: 'Food', amount: 8750 },
+      { label: 'Student activity fee', amount: 750 },
+      { label: 'Books and supplies', amount: 800 },
+      { label: 'Personal expenses (up to)', amount: 1000 },
+      { label: 'Travel allocation (up to)', amount: 1800 }
+    ],
+    billedSubtotal: 95250,
+    totalText: '$95,250 comprehensive fee, plus up to about $3,600 in books, personal expenses and travel',
+    note: 'Hamilton builds aid packages on the full budget, including the indirect costs.'
+  },
+  scholarships: {
+    fullRide: {
+      available: true, internationalEligible: true, basis: 'need-based',
+      covers: { tuition: true, housing: true, meals: true, insurance: null, books: true },
+      renewable: true,
+      competitiveness: 'Hamilton is not need-blind for non-US citizens, so a family’s ability to pay can decide an international application.',
+      howToApply: 'Apply for aid with the admission application, submit the Certification of Finances and, where required, the CSS Profile.',
+      note: 'Hamilton promises to meet the full demonstrated need of its students for all four years, including international students who applied for aid at the time of admission. Awards usually combine a Hamilton College Scholarship with campus employment.'
+    },
+    merit: [],
+    needBased: {
+      availableToInternational: true, meetsFullNeed: true, needBlindInternational: false,
+      forms: ['Certification of Finances', 'CSS Profile'],
+      deadlines: 'With the admission round',
+      note: 'Hamilton advises international applicants to be honest about what their family can contribute: understating it may jeopardise admission.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'Financial aid — international students', url: 'https://www.hamilton.edu/admission/finaid/international' },
+    { label: 'Cost', url: 'https://www.hamilton.edu/admission/tuition' },
+    { label: 'Apply — application details', url: 'https://www.hamilton.edu/admission/apply/details' }
+  ],
+  lastVerified: '2026-09-20'
+},
+
+{
+  id: 'haverford-college',
+  name: 'Haverford College',
+  country: 'us',
+  city: 'Haverford',
+  region: 'Pennsylvania',
+  founded: 1833,
+  type: 'Private liberal arts college',
+  brand: { c1: '#8C1D40', c2: '#5c1229', initials: 'HC' },
+  description: 'A small Quaker-founded liberal arts college near Philadelphia, run day to day by a student honour code. Haverford funds only a limited number of international students each year, but it says it meets the full demonstrated need of every admitted student, international students included.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts'],
+  englishTaughtPrograms: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts'],
+  programNote: 'Haverford shares courses and libraries with Bryn Mawr and Swarthmore, so students can take subjects the college does not teach itself.',
+  links: {
+    website: 'https://www.haverford.edu/',
+    admissions: 'https://www.haverford.edu/admission/applying',
+    internationalAdmissions: 'https://www.haverford.edu/admission/applying/international-students',
+    applicationPortal: 'https://www.commonapp.org/',
+    scholarships: 'https://www.haverford.edu/financial-aid',
+    financialAid: 'https://www.haverford.edu/financial-aid/international-applicants',
+    programs: 'https://catalog.haverford.edu/',
+    cost: 'https://www.haverford.edu/financial-aid/cost-of-attendance'
+  },
+  admissions: {
+    platforms: ['Common Application'],
+    deadlines: [
+      { name: 'Early Decision I', date: '15 November', note: 'Binding; financial aid application due the same day' },
+      { name: 'Early Decision II', date: '5 January', note: 'Binding; financial aid application due the same day' },
+      { name: 'Regular Decision', date: '10 January', note: 'Financial aid application due the same day' }
+    ],
+    applicationFee: { amount: null, currency: 'USD', waiver: 'A school counsellor can request a fee waiver in a letter with the application' },
+    documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile or Haverford’s International Student Financial Aid Application'],
+    recommendations: 'Teacher and counsellor recommendations',
+    essay: 'Personal essay plus Haverford’s supplement',
+    interview: null,
+    notes: [
+      'International students who do not receive aid in their first year cannot receive it later, and cannot enter as transfer students with aid.',
+      'Aid does not cover international travel or living costs outside term.'
+    ]
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    waiver: null,
+    note: 'Check Haverford’s international students page for the current English requirement.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    otherTests: null,
+    internationalQualifications: 'International qualifications are accepted and read in context.'
+  },
+  costs: {
+    academicYear: '2026–2027',
+    currency: 'USD',
+    headline: '$100,026 total for first-years',
+    items: [
+      { label: 'Tuition', amount: 74930 },
+      { label: 'Student government fee', amount: 552 },
+      { label: 'Housing', amount: 12458 },
+      { label: 'Food', amount: 8096 },
+      { label: 'Orientation fee (first-year students only)', amount: 311 },
+      { label: 'Books and supplies', amount: 1340 },
+      { label: 'Personal expenses', amount: 1864 },
+      { label: 'Additional meals', amount: 405 }
+    ],
+    billedSubtotal: 96347,
+    totalText: '$100,026 in total for a first-year student, of which $96,347 is billed by the College',
+    note: 'The student health insurance plan costs $2,330 for 2026–27 if you need it.'
+  },
+  scholarships: {
+    fullRide: {
+      available: true, internationalEligible: true, basis: 'need-based',
+      covers: { tuition: true, housing: true, meals: true, insurance: null, books: true },
+      renewable: true,
+      competitiveness: 'Haverford funds a limited number of international students in each entering class, so the route is narrow even though need is met in full.',
+      howToApply: 'File the CSS Profile — or Haverford’s own International Student Financial Aid Application — by the deadline for your round.',
+      note: 'Haverford states that it meets the full demonstrated financial need of all admitted students, including international students, transfers and students admitted from the waiting list. Families earning under $60,000 have no loans in the package; above that, loans run from $1,500 to $3,000 a year.'
+    },
+    merit: [],
+    needBased: {
+      availableToInternational: true, meetsFullNeed: true, needBlindInternational: null,
+      forms: ['CSS Profile', 'Haverford International Student Financial Aid Application'],
+      deadlines: '15 November (ED I), 5 January (ED II), 10 January (Regular Decision)',
+      note: 'The pages consulted do not say whether admission is need-blind or need-aware for international applicants; all Haverford aid is need-based.'
+    }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International applicants — financial aid', url: 'https://www.haverford.edu/financial-aid/international-applicants' },
+    { label: 'Tuition and aid', url: 'https://www.haverford.edu/admission/tuition-and-aid' },
+    { label: 'Cost of attendance', url: 'https://www.haverford.edu/financial-aid/cost-of-attendance' }
+  ],
+  lastVerified: '2026-09-20'
+}
+);
