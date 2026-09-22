@@ -149,11 +149,11 @@ window.UNIPATH.universities.push(
     notes: []
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'No minimum published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    ielts: { min: null, recommended: 7, note: 'Most successful applicants score above IELTS 7 — Dartmouth stresses this is not a minimum.' },
+    toefl: { min: null, recommended: 100, scales: [{ period: 'pre2026', min: null, recommended: 100 }], note: 'For TOEFL tests taken before 21 January 2026, most successful applicants score above 100. The TOEFL iBT Special Home Edition is accepted; MyBest scores and TOEFL Essentials are not.' },
+    duolingo: { min: null, recommended: 135, note: 'Most successful applicants score above 135.' },
     waiver: 'Required only if your first language is not English and your curriculum has not been delivered in English for at least two years.',
-    note: 'Dartmouth requires an English proficiency score from applicants whose first language is not English and whose curriculum has not been in English for at least two years; details are in its admissions FAQ.'
+    note: 'Dartmouth has no minimum English scores. Most successful applicants score above IELTS 7, Duolingo 135, Cambridge English 185 or (before 21 January 2026) TOEFL 100. IELTS Indicator and the TOEFL iBT Special Home Edition are accepted.'
   },
   academics: {
     gpa: null,
@@ -206,7 +206,8 @@ window.UNIPATH.universities.push(
     { label: 'Universal need-blind admissions policy', url: 'https://admissions.dartmouth.edu/apply-dartmouth/universal-need-blind-policy' },
     { label: 'International students — financial aid', url: 'https://financialaid.dartmouth.edu/apply-aid/international-students' },
     { label: 'Cost of attendance 2026–2027', url: 'https://financialaid.dartmouth.edu/cost-attendance/cost-attendance-2026-2027' },
-    { label: 'Dartmouth’s testing guidelines', url: 'https://admissions.dartmouth.edu/apply/testing-policy' }
+    { label: 'Dartmouth’s testing guidelines', url: 'https://admissions.dartmouth.edu/apply/testing-policy' },
+    { label: 'If English is not my first language, am I required to submit a language proficiency test?', url: 'https://admissions.dartmouth.edu/glossary-question/if-english-not-my-first-language-am-i-required-submit-language-proficiency-test' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -252,11 +253,11 @@ window.UNIPATH.universities.push(
     ]
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'No minimum published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    waiver: null,
-    note: 'Check Columbia’s international applicant pages for the current English requirement.'
+    ielts: { min: 7.5, recommended: null, note: 'IELTS Academic (or Academic for UKVI) 7.5 is necessary for admission.' },
+    toefl: { min: 105, recommended: null, scales: [{ period: 'pre2026', min: 105, recommended: null }, { period: 'post2026', min: 5.5, recommended: null }], note: 'TOEFL iBT 105 for tests on or before 20 January 2026, and 5.5 for tests on or after 21 January 2026. The Special Home Edition is accepted; MyBest scores are not.' },
+    duolingo: { min: 135, recommended: null, note: 'Duolingo English Test 135 is necessary for admission.' },
+    waiver: 'No exam is needed if English is your home language, if English was your main language of instruction throughout secondary school, or with SAT Reading and Writing 700+ or ACT English or Reading 29+.',
+    note: 'Columbia states minimum scores "necessary for admission": TOEFL 105 or 5.5, IELTS 7.5, Duolingo 135, Cambridge C1 Advanced or C2 Proficiency 191. Scores must be sent directly by the testing service.'
   },
   academics: {
     gpa: null,
@@ -302,9 +303,10 @@ window.UNIPATH.universities.push(
     { label: 'International financial aid', url: 'https://undergrad.admissions.columbia.edu/apply/international/aid' },
     { label: 'Cost and aid', url: 'https://undergrad.admissions.columbia.edu/affordability/cost' },
     { label: 'Fees, expenses and financial aid (Columbia College bulletin)', url: 'https://bulletin.columbia.edu/columbia-college/fees-expenses-financial-aid/' },
-    { label: 'Application fees and fee waivers', url: 'https://undergrad.admissions.columbia.edu/apply/process/application-fees' }
+    { label: 'Application fees and fee waivers', url: 'https://undergrad.admissions.columbia.edu/apply/process/application-fees' },
+    { label: 'English proficiency requirements', url: 'https://undergrad.admissions.columbia.edu/apply/international/english-proficiency' }
   ],
-  lastVerified: '2026-09-20'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -349,11 +351,11 @@ window.UNIPATH.universities.push(
     ]
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'No minimum published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    waiver: null,
-    note: 'Check Penn’s testing page for the current English requirement.'
+    ielts: { min: null, recommended: 7, note: 'Competitive applicants tend to score IELTS 7 or above, consistently across the four sections.' },
+    toefl: { min: null, recommended: 5, scales: [{ period: 'pre2026', min: null, recommended: 100 }, { period: 'post2026', min: null, recommended: 5 }], note: 'Competitive applicants tend to score 5 or above on the 1–6 scale, or 100 or above on the older 0–120 scale, consistently across sections. MyBest scores are not accepted.' },
+    duolingo: { min: null, recommended: 130, note: 'Competitive applicants tend to score 130 or above.' },
+    waiver: 'Not required if English was your primary language of instruction for at least three years (high school, college or both) by the time you enrol.',
+    note: 'Penn gives these as typical competitive scores, not minimums. Scores are valid for two years and must still be valid when you apply. Penn does not accept IELTS Indicator, IELTS One Retake or TOEFL MyBest scores.'
   },
   academics: {
     gpa: null,
@@ -400,7 +402,7 @@ window.UNIPATH.universities.push(
     { label: 'Penn Trustees approve 2026–2027 undergraduate charges', url: 'https://penntoday.upenn.edu/news/penn-trustees-approve-2026-2027-undergraduate-charges-and-financial-aid-budget' },
     { label: 'Testing', url: 'https://admissions.upenn.edu/how-to-apply/preparing-your-application/testing' }
   ],
-  lastVerified: '2026-09-20'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -535,11 +537,11 @@ window.UNIPATH.universities.push(
     notes: ['International applicants who may need aid must say so on the admission application — the request is part of the decision.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not confirmed: Stanford’s admission pages could not be read from here (the site blocked automated access).' },
-    toefl: { min: null, recommended: null, note: 'Not confirmed — check Stanford’s international applicant page.' },
-    duolingo: { min: null, recommended: null, note: 'Not confirmed.' },
-    waiver: null,
-    note: 'Stanford’s admission website blocks automated readers, so its English requirements could not be verified here. Check the official page before applying.'
+    ielts: { min: null, recommended: null, note: 'Not required; Stanford publishes no minimum or recommended score.' },
+    toefl: { min: null, recommended: null, note: 'Not required; no score published.' },
+    duolingo: { min: null, recommended: null, note: 'Not required; no score published.' },
+    waiver: 'Stanford does not require an English proficiency exam for undergraduate admission.',
+    note: 'Fluency in English is a prerequisite for admission, but Stanford does not require an English exam; applicants may self-report results from any exam, and Stanford has no preferred test.'
   },
   academics: {
     gpa: null,
@@ -585,7 +587,7 @@ window.UNIPATH.universities.push(
     { label: '2026–2027 undergraduate tuition rates', url: 'https://studentservices.stanford.edu/tuition-rates/2026-2027-undergraduate-tuition-rates' },
     { label: 'Stanford holds undergraduate tuition steady for 2026-27', url: 'https://news.stanford.edu/stories/2026/02/undergraduate-tuition-rates-2026-2027' }
   ],
-  lastVerified: '2026-09-20'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -627,11 +629,11 @@ window.UNIPATH.universities.push(
     notes: []
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'No minimum published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    waiver: null,
-    note: 'Check Amherst’s international applicant page for the current English requirement.'
+    ielts: { min: null, recommended: 7.5, note: 'IELTS Academic 7.5 overall is strongly recommended.' },
+    toefl: { min: null, recommended: 100, scales: [{ period: 'pre2026', min: null, recommended: 100 }, { period: 'post2026', min: null, recommended: 5.5 }], note: 'TOEFL iBT or Home Edition: 100 for tests before 21 January 2026, or 5.5, strongly recommended.' },
+    duolingo: { min: null, recommended: 130, note: 'Duolingo English Test 130 or above is strongly recommended.' },
+    waiver: 'Waived only for first-year applicants who completed their two most recent years of secondary school with English as the primary language of instruction.',
+    note: 'Applicants whose first language is not English must submit the TOEFL, IELTS Academic or Duolingo English Test unless they qualify for the waiver; Amherst "strongly recommends" these minimum scores. Amherst offers no ESL instruction or provisional admission.'
   },
   academics: {
     gpa: null,
@@ -678,7 +680,7 @@ window.UNIPATH.universities.push(
     { label: 'Fees for the 2026-27 academic year', url: 'https://www.amherst.edu/offices/financialaid/forms_links/fees_2026-2027_academic_year' },
     { label: 'Standardized testing policy', url: 'https://www.amherst.edu/admission/apply/firstyear/testing' }
   ],
-  lastVerified: '2026-09-20'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -724,11 +726,11 @@ window.UNIPATH.universities.push(
     ]
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'No minimum published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    waiver: null,
-    note: 'Check Bowdoin’s international student page for the current English requirement.'
+    ielts: { min: null, recommended: null, note: 'Optional; Bowdoin has no minimum score.' },
+    toefl: { min: null, recommended: null, note: 'Optional; no minimum score.' },
+    duolingo: { min: null, recommended: null, note: 'Optional; no minimum score.' },
+    waiver: 'English proficiency test scores are optional for international applicants.',
+    note: 'Bowdoin accepts the TOEFL, IELTS, Duolingo English Test or Cambridge English Assessment, has no minimum qualifying score, and offers no ESL courses.'
   },
   academics: {
     gpa: null,
@@ -775,7 +777,7 @@ window.UNIPATH.universities.push(
     { label: 'Cost of attendance', url: 'https://www.bowdoin.edu/student-aid/cost-of-attendance/index.html' },
     { label: 'Application dates and deadlines', url: 'https://www.bowdoin.edu/admissions/apply/dates-deadlines/index.html' }
   ],
-  lastVerified: '2026-09-20'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -817,11 +819,11 @@ window.UNIPATH.universities.push(
     notes: ['International applicants who want need-based aid must complete the CSS Profile, available from 1 October.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'No minimum published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    waiver: null,
-    note: 'Check Notre Dame’s international applicant pages for the current English requirement.'
+    ielts: { min: null, recommended: 7.5, note: 'IELTS 7.5 composite is strongly recommended.' },
+    toefl: { min: null, recommended: 100, scales: [{ period: 'pre2026', min: null, recommended: 100 }, { period: 'post2026', min: null, recommended: 5.5 }], note: 'Strongly recommended: 100 overall with at least 25 in Speaking (older scale), or 5.5 average with no section below 5.0 (current scale). The TOEFL iBT Special Home Edition is not accepted.' },
+    duolingo: { min: null, recommended: 125, note: 'Duolingo English Test 125 is strongly recommended; applicants without access to a TOEFL or IELTS test site are asked to take it.' },
+    waiver: 'Not required with SAT Evidence-Based Reading and Writing 650+ or ACT English or Reading 26+; testing is needed only if your first language is not English or your secondary schooling was not mainly in English.',
+    note: 'Notre Dame accepts the TOEFL, IELTS, PTE Academic and Duolingo English Test and gives these as strongly recommended scores.'
   },
   academics: {
     gpa: null,
@@ -866,7 +868,7 @@ window.UNIPATH.universities.push(
     { label: 'Undergraduate rates 2026–27', url: 'https://studentaccounts.nd.edu/rates/undergraduate-programs/' },
     { label: 'Restrictive Early Action and Regular Decision', url: 'https://admissions.nd.edu/apply/early-action-regular-decision/' }
   ],
-  lastVerified: '2026-09-20'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -911,11 +913,11 @@ window.UNIPATH.universities.push(
     ]
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'No minimum published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    waiver: null,
-    note: 'Check the Williams international applicant page for the current English requirement.'
+    ielts: { min: null, recommended: 7.5, note: 'Competitive applicants typically score IELTS 7.5–9.' },
+    toefl: { min: null, recommended: 5, scales: [{ period: 'pre2026', min: null, recommended: 100 }, { period: 'post2026', min: null, recommended: 5 }], note: 'Competitive applicants typically score 5–6, or 100–120 before January 2026.' },
+    duolingo: { min: null, recommended: 135, note: 'Competitive applicants typically score 135–160.' },
+    waiver: 'English tests are encouraged, not required, for applicants whose first language or language of instruction is not English.',
+    note: 'Williams publishes typical ranges of competitive applicants rather than minimums; scores can be entered in the application, emailed as a screenshot or sent by the testing agency.'
   },
   academics: {
     gpa: null,
@@ -958,7 +960,8 @@ window.UNIPATH.universities.push(
     { label: 'Financial aid instructions for international applicants', url: 'https://www.williams.edu/admission-aid/financial-aid/international/' },
     { label: 'Requirements and deadlines', url: 'https://www.williams.edu/admission-aid/tuition-aid/requirements-and-deadlines/' },
     { label: 'Additional information for international applicants', url: 'https://www.williams.edu/admission-aid/apply/international/' },
-    { label: 'First-year applicants — testing', url: 'https://www.williams.edu/admission-aid/how-to-apply/first-year/' }
+    { label: 'First-year applicants — testing', url: 'https://www.williams.edu/admission-aid/how-to-apply/first-year/' },
+    { label: 'International applicants', url: 'https://www.williams.edu/admission-aid/how-to-apply/additional-applicant-information/international/' }
   ],
   lastVerified: '2026-09-22'
 }
@@ -1297,11 +1300,11 @@ window.UNIPATH.universities.push(
     notes: ['International applicants who may need aid must ask for it in the admission application; those admitted without aid cannot apply in later years.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Required where English is not your first language and your schooling was not in English; no minimum score is published.' },
-    toefl: { min: null, recommended: null, note: 'Accepted; no minimum published. The TOEFL ITP Plus for China is not accepted.' },
+    ielts: { min: null, recommended: null, note: 'Required where applicable; Northwestern publishes no minimum score.' },
+    toefl: { min: null, recommended: null, note: 'Accepted; no minimum published. The TOEFL ITP Plus for China and MyBest scores are not accepted.' },
     duolingo: { min: null, recommended: null, note: 'Accepted; no minimum published.' },
     waiver: 'Not required if English is your first language or your secondary schooling was in English.',
-    note: 'Northwestern names the TOEFL iBT, IELTS (including IELTS Indicator) and the Duolingo English Test as accepted evidence.'
+    note: 'Northwestern has no minimum score; competitive applicants score in the high range on every section. Scores must be official — self-reported results are not accepted — and English exams are not superscored.'
   },
   academics: {
     gpa: null,
@@ -1345,9 +1348,10 @@ window.UNIPATH.universities.push(
     { label: 'International applicants — applying for financial aid', url: 'https://admissions.northwestern.edu/apply/identities/international.html' },
     { label: 'International student aid', url: 'https://admissions.northwestern.edu/tuition-aid/international-student-aid/' },
     { label: 'Northwestern sets tuition and fees for 2026-2027', url: 'https://news.northwestern.edu/stories/2026/05/northwestern-sets-tuition-and-fees-for-2026-2027-academic-year' },
-    { label: 'Undergraduate financial aid — aid commitment', url: 'https://undergradaid.northwestern.edu/' }
+    { label: 'Undergraduate financial aid — aid commitment', url: 'https://undergradaid.northwestern.edu/' },
+    { label: 'International applicants FAQ', url: 'https://admissions.northwestern.edu/faqs/international-applicants/' }
   ],
-  lastVerified: '2026-09-20'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -1497,11 +1501,11 @@ window.UNIPATH.universities.push(
     notes: ['International applicants who may need aid must say so on the application and submit the CSS Profile and the Certification of Finances.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Recommended for applicants whose primary language is not English; no minimum score is published.' },
-    toefl: { min: null, recommended: null, note: 'Recommended; no minimum published.' },
-    duolingo: { min: null, recommended: null, note: 'Recommended; no minimum published.' },
-    waiver: null,
-    note: 'Hopkins recommends the TOEFL, IELTS, Duolingo English Test or a Cambridge English exam for applicants whose primary language is not English, without publishing minimum scores.'
+    ielts: { min: null, recommended: 7, note: 'To be competitive, applicants typically score 7.0 or higher on each IELTS band.' },
+    toefl: { min: null, recommended: 5, scales: [{ period: 'post2026', min: null, recommended: 5 }], note: 'To be competitive: at least 5 overall, with preferred section scores of 5.5 Reading, 5.5 Listening, 5 Writing and 5 Speaking.' },
+    duolingo: { min: null, recommended: 120, note: 'To be competitive: 120 or higher, with preferred subscores of 125 Literacy, 120 Conversation, 135 Comprehension and 105 Production.' },
+    waiver: 'Recommended rather than required for applicants whose primary language is not English or who have not attended an English-language school for the last three years; Hopkins especially encourages scores from those below SAT ERW 690 or below 30 on both ACT Reading and English.',
+    note: 'Hopkins gives typical competitive scores, not minimums: TOEFL 5, IELTS 7.0 per band, Duolingo 120, Cambridge C1 Advanced or C2 Proficiency 185.'
   },
   academics: {
     gpa: null,
@@ -1543,9 +1547,10 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'International applicants', url: 'https://apply.jhu.edu/international-applicants/' },
     { label: 'Application deadlines and requirements', url: 'https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/' },
-    { label: 'Estimate your college costs', url: 'https://apply.jhu.edu/tuition-aid/estimate-your-college-costs/' }
+    { label: 'Estimate your college costs', url: 'https://apply.jhu.edu/tuition-aid/estimate-your-college-costs/' },
+    { label: 'Standardized testing', url: 'https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/standardized-testing/' }
   ],
-  lastVerified: '2026-09-20'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -1689,11 +1694,11 @@ window.UNIPATH.universities.push(
     ]
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Required where English is not your first language; no minimum is published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Accepted; no minimum published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Accepted; no minimum published on the pages consulted.' },
-    waiver: null,
-    note: 'Emory says applicants whose first language is not English "must show you’re able to succeed academically in a rigorous, English-speaking classroom" and points to its TOEFL, IELTS and Duolingo requirements page.'
+    ielts: { min: null, recommended: 7.5, note: 'Emory’s expected overall IELTS band is 7.5.' },
+    toefl: { min: null, recommended: 100, scales: [{ period: 'pre2026', min: null, recommended: 100 }, { period: 'post2026', min: null, recommended: 5.5 }], note: 'Emory expects 100 on the older 0–120 scale, or 5.5 or higher on the 1–6 scale used from 21 January 2026.' },
+    duolingo: { min: null, recommended: 130, note: 'Emory’s most competitive applicants typically score above 130.' },
+    waiver: 'SAT or ACT scores can also be used to demonstrate English proficiency.',
+    note: 'Emory has no strict cut-offs; these are the scores it recommends as evidence of readiness for college-level work. International applicants should be fluent in written and spoken English when they apply.'
   },
   academics: {
     gpa: null,
@@ -1798,11 +1803,11 @@ window.UNIPATH.universities.push(
     ]
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Required where English is not your primary language; no minimum is published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Accepted; no minimum published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Accepted; no minimum published on the pages consulted.' },
-    waiver: 'Not required for students who have spent at least three years in a school where the language of instruction is English.',
-    note: 'Tufts accepts the IELTS, TOEFL, PTE Academic and the Duolingo English Test.'
+    ielts: { min: null, recommended: 7, note: 'Tufts has no minimums; successful applicants generally have IELTS 7 or above.' },
+    toefl: { min: null, recommended: 5, scales: [{ period: 'pre2026', min: null, recommended: 100 }, { period: 'post2026', min: null, recommended: 5 }], note: 'Generally successful applicants have 5.0+ for tests on or after 21 January 2026, or 100+ for earlier tests. MyBest scores and TOEFL ITP Plus are not accepted.' },
+    duolingo: { min: null, recommended: 130, note: 'Generally successful applicants have 130 or above.' },
+    waiver: 'Not required after at least three years at a secondary school where English is the primary language of instruction.',
+    note: 'Tufts accepts the TOEFL, IELTS, PTE (68+) and Duolingo English Test, has no score minimums and accepts self-reported results; matriculating students send official scores. The IELTS Indicator is not accepted and English tests are not superscored.'
   },
   academics: {
     gpa: null,
@@ -1848,9 +1853,10 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Financial aid for international students', url: 'https://admissions.tufts.edu/tuition-and-aid/applying-for-aid/international-student-aid/' },
     { label: 'Undergraduate cost of attendance 2026-27', url: 'https://students.tufts.edu/financial-services/undergrad-aid/award-letter/undergraduate-cost-attendance' },
-    { label: 'First-year applicants — deadlines', url: 'https://admissions.tufts.edu/apply/first-year-students/' }
+    { label: 'First-year applicants — deadlines', url: 'https://admissions.tufts.edu/apply/first-year-students/' },
+    { label: 'Applying as an international student', url: 'https://admissions.tufts.edu/apply/applying-as-an-international-s/' }
   ],
-  lastVerified: '2026-09-20'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -1897,11 +1903,11 @@ window.UNIPATH.universities.push(
     ]
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Required where English is not your native language; no minimum is published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Accepted; no minimum published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Accepted; no minimum published on the pages consulted.' },
-    waiver: 'Richmond lists university-approved waivers of the English requirement on its English proficiency policy page.',
-    note: 'Students whose native language is not English submit official TOEFL, IELTS or Duolingo results unless they meet a published waiver.'
+    ielts: { min: null, recommended: 7.5, note: 'Competitive score: IELTS or IELTS Indicator 7.5.' },
+    toefl: { min: null, recommended: 100, scales: [{ period: 'pre2026', min: null, recommended: 100 }, { period: 'post2026', min: null, recommended: 5.5 }], note: 'Competitive score: TOEFL iBT or Home Edition 100, or 5.5 on the updated scale.' },
+    duolingo: { min: null, recommended: 135, note: 'Competitive score: Duolingo English Test 135.' },
+    waiver: 'Waived after at least four years at a rigorous English-medium secondary school, with ACT English 28 or SAT Evidence-Based Reading and Writing 660, or with an A or B equivalent in AP, IB (5–7) or A-level English.',
+    note: 'Richmond requires official proof of English from students whose first language is not English. It stresses that its scores are competitive levels that satisfy the requirement, "not minimum admission scores".'
   },
   academics: {
     gpa: null,
@@ -1954,9 +1960,10 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'International admission', url: 'https://admission.richmond.edu/process/international/index.html' },
     { label: 'International students and non-U.S. citizens — financial aid', url: 'https://financialaid.richmond.edu/applying/international.html' },
-    { label: 'Cost of attendance 2026-27', url: 'https://financialaid.richmond.edu/applying/cost.html' }
+    { label: 'Cost of attendance 2026-27', url: 'https://financialaid.richmond.edu/applying/cost.html' },
+    { label: 'English proficiency policy', url: 'https://admission.richmond.edu/process/international/english-proficiency.html' }
   ],
-  lastVerified: '2026-09-20'
+  lastVerified: '2026-09-22'
 }
 );
 
@@ -2008,11 +2015,11 @@ window.UNIPATH.universities.push(
     ]
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Accepted as proof of English; no minimum score is published.' },
-    toefl: { min: null, recommended: null, note: 'Accepted as proof of English; no minimum score is published.' },
-    duolingo: { min: null, recommended: null, note: 'Accepted as proof of English; no minimum score is published.' },
+    ielts: { min: null, recommended: null, note: 'Accepted; Swarthmore publishes no minimum or recommended score.' },
+    toefl: { min: null, recommended: null, note: 'Accepted; no score published. Only the highest result from a single sitting counts.' },
+    duolingo: { min: null, recommended: null, note: 'Accepted; results must be sent officially through Duolingo.' },
     waiver: 'A Swarthmore Video Response or an InitialView interview can be submitted instead of an English exam.',
-    note: 'The requirement applies to everyone applying from a school outside the United States, regardless of citizenship.'
+    note: 'Applicants at schools outside the US, whatever their citizenship, must submit a Swarthmore Video Response, an English proficiency exam result or an InitialView video. Swarthmore does not combine scores from different sittings.'
   },
   academics: {
     gpa: null,
@@ -2056,9 +2063,10 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'International students — financial aid', url: 'https://www.swarthmore.edu/financial-aid/international-students' },
     { label: 'Tuition, housing, food and fees', url: 'https://www.swarthmore.edu/student-accounts-office/tuition-housing-food-fees' },
-    { label: 'Application materials and deadlines', url: 'https://www.swarthmore.edu/admissions-aid/application-materials-deadlines' }
+    { label: 'Application materials and deadlines', url: 'https://www.swarthmore.edu/admissions-aid/application-materials-deadlines' },
+    { label: 'International students', url: 'https://www.swarthmore.edu/admissions-aid/international-students' }
   ],
-  lastVerified: '2026-09-20'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -2199,11 +2207,11 @@ window.UNIPATH.universities.push(
     ]
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'No minimum score is published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Recommended for students from schools where the curriculum is not taught in English; no minimum published.' },
-    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    waiver: null,
-    note: 'Wellesley recommends, rather than requires, an English test for applicants from non-English-language curricula.'
+    ielts: { min: null, recommended: null, note: 'Not required; Wellesley publishes no minimum score.' },
+    toefl: { min: null, recommended: null, note: 'TOEFL iBT or Essentials accepted; no score published.' },
+    duolingo: { min: null, recommended: null, note: 'Accepted; no score published.' },
+    waiver: 'An English exam is not required, but is strongly recommended if English is not your native language and you have studied in an English-based curriculum for fewer than four years.',
+    note: 'Wellesley accepts the TOEFL (iBT or Essentials), Duolingo English Test, IELTS and Cambridge C1 Advanced, C2 Proficiency or C1 Business Higher. If the committee decides a test would help, it sends the applicant a waiver code.'
   },
   academics: {
     gpa: null,
@@ -2250,7 +2258,8 @@ window.UNIPATH.universities.push(
     { label: 'International students — financial aid', url: 'https://www.wellesley.edu/admission-aid/student-financial-services/understanding-financial-aid/apply-for-aid/international-students' },
     { label: 'Cost of attendance and payment', url: 'https://www.wellesley.edu/admission/cost' },
     { label: 'Wellesley announces free tuition for families with incomes of $200,000 or less', url: 'https://www.wellesley.edu/news/wellesley-free-tuition-income-200k-or-less-fall-2027' },
-    { label: 'Admission FAQs — testing', url: 'https://www.wellesley.edu/admission-aid/faqs' }
+    { label: 'Admission FAQs — testing', url: 'https://www.wellesley.edu/admission-aid/faqs' },
+    { label: 'International applicants — instructions', url: 'https://www.wellesley.edu/admission/apply/international/instructions' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -2264,7 +2273,7 @@ window.UNIPATH.universities.push(
   founded: 1800,
   type: 'Private liberal arts college',
   brand: { c1: '#0D395F', c2: '#0b2b47', initials: 'MC' },
-  description: 'A liberal arts college in rural Vermont, best known for languages, environmental studies and international studies. Middlebury describes its international admission as need-blind only as far as its resources allow, and covers 100% of demonstrated need for all four years of those it admits with aid.',
+  description: 'A liberal arts college in rural Vermont, best known for languages, environmental studies and international studies. Middlebury is need-aware in admitting international students, and covers 100% of demonstrated need for all four years of those it admits with aid.',
   englishTaught: true,
   languageOfInstruction: 'English',
   programs: ['humanities','social-sciences','economics','computer-science','mathematics','biology','psychology','arts','education'],
@@ -2295,11 +2304,11 @@ window.UNIPATH.universities.push(
     notes: ['Middlebury does not accept the ISFAA or a paper CSS Profile from international applicants: the CSS Profile must be filed electronically.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    waiver: null,
-    note: 'Check Middlebury’s application instructions for the current English requirement.'
+    ielts: { min: null, recommended: 7, note: 'IELTS 7.0 is the recommended minimum.' },
+    toefl: { min: null, recommended: 5.5, scales: [{ period: 'pre2026', min: null, recommended: 105 }, { period: 'post2026', min: null, recommended: 5.5 }], note: 'Recommended minimum: 5.5 on the TOEFL iBT, or 105 for tests taken before 21 January 2026.' },
+    duolingo: { min: null, recommended: 130, note: 'Duolingo English Test 130 is the recommended minimum.' },
+    waiver: 'Not required if your native language is English, or if your high school classes were taught entirely in English for the last three or four years (depending on how long high school lasts in your country).',
+    note: 'All other applicants must send verifiable TOEFL iBT, Duolingo, IELTS or Cambridge English results; Middlebury recommends TOEFL 5.5 (105 before 21 January 2026), Duolingo 130, IELTS 7.0 or Cambridge C1 Advanced.'
   },
   academics: {
     gpa: null,
@@ -2326,16 +2335,16 @@ window.UNIPATH.universities.push(
       available: true, internationalEligible: true, basis: 'need-based',
       covers: { tuition: true, housing: true, meals: true, insurance: null, books: null },
       renewable: true,
-      competitiveness: 'Middlebury says it follows a need-blind policy for international students only "to the extent that financial resources allow", so the number funded is limited.',
+      competitiveness: 'Middlebury states that it is need-aware in its admission of international students, so a request for aid is part of the decision.',
       howToApply: 'File the CSS Profile electronically with the admission application.',
       note: 'Middlebury states that a financial aid offer covers 100% of demonstrated need for all four years of undergraduate study.'
     },
     merit: [],
     needBased: {
-      availableToInternational: true, meetsFullNeed: true, needBlindInternational: null,
+      availableToInternational: true, meetsFullNeed: true, needBlindInternational: false,
       forms: ['CSS Profile (electronic only)'],
       deadlines: 'With the admission round',
-      note: 'Middlebury’s wording — need-blind as far as resources allow — is not a full need-blind promise for international applicants.'
+      note: 'Middlebury’s application instructions state: "We are need aware in our admission of international students." Aid must be requested with the admission application.'
     }
   },
   photos: { main: null, gallery: [], city: null },
@@ -2393,7 +2402,7 @@ window.UNIPATH.universities.push(
     toefl: { min: null, recommended: null, note: 'TOEFL iBT or Home Edition accepted and superscored; MyBest scores are accepted. No minimum is published.' },
     duolingo: { min: null, recommended: null, note: 'Duolingo English Test accepted; no minimum published.' },
     waiver: 'Not required if English is your first language or your current language of instruction.',
-    note: 'Scores may be self-reported on the application or sent as a PDF to the admissions office.'
+    note: 'Colby requires a TOEFL, IELTS Academic or Duolingo result from other applicants and accepts self-reported scores, but publishes no minimum.'
   },
   academics: {
     gpa: null,
@@ -2475,7 +2484,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', date: '4 January', note: 'Binding; notification by 30 January' },
       { name: 'Regular Decision', date: '11 January', note: 'Notification by 1 April' }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: true, waiver: 'There is no application fee for non-US citizens: it is waived automatically when you select your citizenship on the Common or Coalition Application.' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'Financial aid forms for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay plus Davidson’s supplement',
@@ -2486,11 +2495,11 @@ window.UNIPATH.universities.push(
     ]
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    waiver: null,
-    note: 'Check Davidson’s international applicant page for the current English requirement.'
+    ielts: { min: null, recommended: 7, note: 'Students with IELTS 7 or higher are best prepared, Davidson says.' },
+    toefl: { min: null, recommended: 5, scales: [{ period: 'pre2026', min: null, recommended: 100 }, { period: 'post2026', min: null, recommended: 5 }], note: 'Best prepared: TOEFL iBT 5.0 on the 1–6 scale or 100 on the 0–120 scale.' },
+    duolingo: { min: null, recommended: 130, note: 'Best prepared: Duolingo English Test 130.' },
+    waiver: 'Waived for students from a country where English is an official language, students taking English A in the IB Diploma, and those who spent four years of high school in the US; others may request a waiver by email after applying.',
+    note: 'International applicants whose first language is not English must submit the TOEFL, IELTS or Duolingo English Test — the SAT and ACT do not satisfy this. TOEFL and IELTS results must come from the testing agency or school counsellor; self-reported scores are not accepted.'
   },
   academics: {
     gpa: null,
@@ -2586,11 +2595,11 @@ window.UNIPATH.universities.push(
     notes: ['An application from a student seeking aid is not considered complete — or read for admission — until the CSS Profile or ISFAA is submitted.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Accepted; no minimum score published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Accepted; no minimum score published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Accepted; no minimum score published on the pages consulted.' },
-    waiver: 'Required only if your native language is not English or your school did not teach primarily in English.',
-    note: 'Grinnell lists the TOEFL, IELTS and Duolingo English Test as accepted for autumn 2027 entry.'
+    ielts: { min: null, recommended: 7, note: 'Grinnell prefers IELTS scores of 7.0 or higher.' },
+    toefl: { min: null, recommended: null, note: 'Grinnell has no minimum TOEFL requirement but looks for a very strong command of English.' },
+    duolingo: { min: null, recommended: null, note: 'The middle 50% of Duolingo English Test scores is 130–150 (a range, not a minimum).' },
+    waiver: 'Required only if your native language is not English and/or your high school was not taught mainly in English.',
+    note: 'Grinnell requires an official TOEFL, IELTS or Duolingo score report where applicable and does not evaluate self-reported English scores.'
   },
   academics: {
     gpa: null,
@@ -2645,9 +2654,10 @@ window.UNIPATH.universities.push(
     { label: 'International applicants — financial aid policy', url: 'https://www.grinnell.edu/admission/apply/international' },
     { label: 'Financial aid and cost of attendance', url: 'https://www.grinnell.edu/admission/financial-aid' },
     { label: 'Cost of attendance 2026–27', url: 'https://www.grinnell.edu/admission/financial-aid/cost-attendance' },
-    { label: 'Requirements and deadlines', url: 'https://www.grinnell.edu/admission/apply/first-year/requirements' }
+    { label: 'Requirements and deadlines', url: 'https://www.grinnell.edu/admission/apply/first-year/requirements' },
+    { label: 'Frequently asked questions for international students', url: 'https://www.grinnell.edu/admission/apply/international/faq' }
   ],
-  lastVerified: '2026-09-20'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -2690,11 +2700,11 @@ window.UNIPATH.universities.push(
     notes: ['International students who want aid must apply for it at the same time as admission.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    waiver: null,
-    note: 'Check Vassar’s international applicant page for the current English requirement.'
+    ielts: { min: null, recommended: null, note: 'IELTS Academic accepted (not General Training); no minimum score is published on the admissions page.' },
+    toefl: { min: null, recommended: null, note: 'TOEFL iBT, PBT and iBT Home Edition accepted; TOEFL Essentials is not. No minimum is published on the admissions page.' },
+    duolingo: { min: null, recommended: null, note: 'Accepted; results must come directly from Duolingo at the time of application.' },
+    waiver: 'Required only if English was not the primary language of instruction at your secondary school(s) for the last three years.',
+    note: 'Results from the testing agency are strongly preferred; in cases of financial hardship Vassar accepts score-report PDFs from your school counsellor, but official results are required on enrolment.'
   },
   academics: {
     gpa: null,
@@ -2788,11 +2798,11 @@ window.UNIPATH.universities.push(
     ]
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    waiver: null,
-    note: 'Check Hamilton’s application details page for the current English requirement.'
+    ielts: { min: 7.5, recommended: null, note: 'Competitive applicants typically score at or above IELTS 7.5.' },
+    toefl: { min: 100, recommended: 5.5, scales: [{ period: 'pre2026', min: 100, recommended: null }, { period: 'post2026', min: 5, recommended: null }], note: 'TOEFL before January 2026: 100; January 2026 or later: 5.0, with 5.5 recommended. The TOEFL Home Edition is accepted; MyBest scores are not.' },
+    duolingo: { min: 130, recommended: null, note: 'Competitive applicants typically score at or above 130.' },
+    waiver: 'Proficiency can instead be shown through study at a secondary school where English is the primary medium of instruction; a waiver can be requested on the applicant portal checklist.',
+    note: 'Hamilton says it has no specific score requirement but lists these levels, which competitive applicants typically reach. Official scores are required — self-reported results do not count — and Hamilton does not grant fee waivers for proficiency exams.'
   },
   academics: {
     gpa: null,
@@ -2840,7 +2850,8 @@ window.UNIPATH.universities.push(
     { label: 'Financial aid — international students', url: 'https://www.hamilton.edu/admission/finaid/international' },
     { label: 'Cost', url: 'https://www.hamilton.edu/admission/tuition' },
     { label: 'Apply — application details', url: 'https://www.hamilton.edu/admission/apply/details' },
-    { label: 'Testing policy', url: 'https://www.hamilton.edu/admission/apply/testing' }
+    { label: 'Testing policy', url: 'https://www.hamilton.edu/admission/apply/testing' },
+    { label: 'Demonstrating English language proficiency', url: 'https://www.hamilton.edu/admission/apply/international/english-language-proficiency' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -2888,11 +2899,11 @@ window.UNIPATH.universities.push(
     ]
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    waiver: null,
-    note: 'Check Haverford’s international students page for the current English requirement.'
+    ielts: { min: 7, recommended: null, note: 'IELTS Academic 7.0 minimum.' },
+    toefl: { min: 100, recommended: null, scales: [{ period: 'pre2026', min: 100, recommended: null }, { period: 'post2026', min: 5, recommended: null }], note: 'TOEFL iBT minimum 100 on the 0–120 scale or 5 on the 1–6 scale; both scales are accepted for the 2026–27 cycle.' },
+    duolingo: { min: 130, recommended: null, note: 'Duolingo English Test 130 minimum.' },
+    waiver: 'Required only if your first language is not English and you have never attended a secondary school where English is the primary language of instruction.',
+    note: 'Haverford has no preferred exam; results should come directly from the testing agency, and official scores must be sent on enrolment.'
   },
   academics: {
     gpa: null,
@@ -3185,11 +3196,11 @@ window.UNIPATH.universities.push(
     notes: ['Georgetown uses its own application rather than the Common Application.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    waiver: null,
-    note: 'Check Georgetown’s standardized test requirements for international applicants.'
+    ielts: { min: null, recommended: null, note: 'Recommended, not required; no minimum score is published for undergraduate admission.' },
+    toefl: { min: null, recommended: null, note: 'Recommended, not required; no minimum published.' },
+    duolingo: { min: null, recommended: null, note: 'Recommended, not required; no minimum published.' },
+    waiver: 'Georgetown recommends, but does not require, an English test for students at schools where English is not the language of instruction.',
+    note: 'Georgetown accepts the Duolingo English Test, IELTS and TOEFL (PBT, iBT and ITP Plus).'
   },
   academics: {
     gpa: null,
@@ -3234,9 +3245,10 @@ window.UNIPATH.universities.push(
     { label: 'International students — financial aid', url: 'https://finaid.georgetown.edu/undergrad/international-students/' },
     { label: 'First-year applicants', url: 'https://uadmissions.georgetown.edu/apply/first-year-applicants/' },
     { label: 'Undergraduate tuition and fees 2026-2027', url: 'https://studentaccounts.georgetown.edu/tuition/undergraduate/' },
-    { label: 'Announcing 2026-2027 tuition rates', url: 'https://www.georgetown.edu/news/announcing-fall-2026-spring-2027-tuition-rates-2/' }
+    { label: 'Announcing 2026-2027 tuition rates', url: 'https://www.georgetown.edu/news/announcing-fall-2026-spring-2027-tuition-rates-2/' },
+    { label: 'International applicants', url: 'https://uadmissions.georgetown.edu/applying/international/' }
   ],
-  lastVerified: '2026-09-21'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -3383,11 +3395,11 @@ window.UNIPATH.universities.push(
     notes: ['BU’s full Early Decision and Regular Decision dates are on its deadlines page; only the 1 December merit deadline was confirmed here.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
+    ielts: { min: 7, recommended: null, note: 'IELTS Academic 7 or higher satisfies BU’s English requirement for all programmes.' },
+    toefl: { min: null, recommended: 5, scales: [{ period: 'post2026', min: null, recommended: 5 }], note: 'The most competitive applicants have 5.0 or higher on TOEFL iBT reports from 21 January 2026.' },
+    duolingo: { min: null, recommended: 125, note: 'The most competitive applicants score at least 125–135.' },
     waiver: null,
-    note: 'Check BU’s international applicant pages for the current English requirement.'
+    note: 'Applicants whose first language is not English must take the TOEFL iBT, IELTS or Duolingo English Test; BU looks closely at each section score and at consistency across sub-scores.'
   },
   academics: {
     gpa: null,
@@ -3443,7 +3455,8 @@ window.UNIPATH.universities.push(
     { label: 'International students — financial assistance', url: 'https://www.bu.edu/finaid/undergraduate-students/international/' },
     { label: 'Cost of attendance 2026/2027', url: 'https://www.bu.edu/admissions/tuition-aid/tuition/' },
     { label: 'Merit scholarships for first-year students', url: 'https://www.bu.edu/admissions/tuition-aid/scholarships-financial-aid/first-year-merit/' },
-    { label: 'BU’s standardized test policy', url: 'https://www.bu.edu/admissions/apply/first-year/test-policy/' }
+    { label: 'BU’s standardized test policy', url: 'https://www.bu.edu/admissions/apply/first-year/test-policy/' },
+    { label: 'International applicants', url: 'https://www.bu.edu/admissions/apply/international/' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -3488,11 +3501,11 @@ window.UNIPATH.universities.push(
     notes: ['Students at national schools in China may submit an InitialView interview instead, due 15 November (ED I) or 15 January (ED II and Regular Decision).']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Required of international applicants; no minimum is published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Required of international applicants; no minimum is published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Accepted; no minimum is published on the pages consulted.' },
-    waiver: null,
-    note: 'All applicants who are not US citizens or permanent residents submit TOEFL, IELTS or Duolingo results.'
+    ielts: { min: null, recommended: 7.5, note: 'Boston College recommends a minimum IELTS of 7.5.' },
+    toefl: { min: null, recommended: 5, scales: [{ period: 'pre2026', min: null, recommended: 100 }, { period: 'post2026', min: null, recommended: 5 }], note: 'Recommended minimum 100, or 5.0 on the new scale; admitted students typically average 5.5 on the new scale. MyBest scores are not considered.' },
+    duolingo: { min: null, recommended: 130, note: 'Boston College recommends a minimum Duolingo score of 130.' },
+    waiver: 'Waived after at least three years at a US high school, or in another majority native-English-speaking country, in a traditional curriculum without ESOL coursework.',
+    note: 'Non-US citizens must submit the TOEFL iBT (test centre or Home Edition), IELTS or Duolingo English Test; English exams are not superscored. An InitialView interview is encouraged but does not replace the test.'
   },
   academics: {
     gpa: null,
@@ -3536,7 +3549,7 @@ window.UNIPATH.universities.push(
     { label: 'Apply — deadlines and fee', url: 'https://www.bc.edu/bc-web/admission/apply.html' },
     { label: 'Trustees set tuition for 2026-2027', url: 'https://www.bc.edu/bc-web/sites/bc-news/articles/2026/spring/trustees-set-tuition-for-2026-2027.html' }
   ],
-  lastVerified: '2026-09-21'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -3582,11 +3595,11 @@ window.UNIPATH.universities.push(
     ]
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    waiver: null,
-    note: 'Check Brandeis’ international applicant pages for the current English requirement.'
+    ielts: { min: null, recommended: 7, note: 'Brandeis recommends IELTS 7.0 or higher (not a strict minimum).' },
+    toefl: { min: null, recommended: 100, scales: [{ period: 'pre2026', min: null, recommended: 100 }], note: 'Brandeis recommends a TOEFL iBT score of at least 100.' },
+    duolingo: { min: null, recommended: 130, note: 'Brandeis recommends at least 130.' },
+    waiver: 'Exempt after four or more years at a high school with a full English curriculum, or when applying directly from a United World College campus.',
+    note: 'International students whose native language is not English should submit the TOEFL, IELTS or Duolingo English Test; English scores must be official when the application is submitted.'
   },
   academics: {
     gpa: null,
@@ -3636,7 +3649,8 @@ window.UNIPATH.universities.push(
     { label: 'International students — how to apply for aid', url: 'https://www.brandeis.edu/student-financial-services/financial-aid/apply/international-students.html' },
     { label: 'International student scholarships', url: 'https://www.brandeis.edu/student-financial-services/financial-aid/scholarships/international.html' },
     { label: 'Wien International Scholarship Program', url: 'https://www.brandeis.edu/isso/programs/wien/index.html' },
-    { label: 'Test-optional policy', url: 'https://www.brandeis.edu/admissions/apply/test-optional-policy.html' }
+    { label: 'Test-optional policy', url: 'https://www.brandeis.edu/admissions/apply/test-optional-policy.html' },
+    { label: 'International applicants', url: 'https://www.brandeis.edu/admissions/apply/international.html' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -3783,11 +3797,11 @@ window.UNIPATH.universities.push(
     ]
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    waiver: null,
-    note: 'Check Rochester’s international students page for the current English requirement.'
+    ielts: { min: null, recommended: 7.5, note: 'Recommended IELTS score: 7.5.' },
+    toefl: { min: null, recommended: 100, scales: [{ period: 'pre2026', min: null, recommended: 100 }, { period: 'post2026', min: null, recommended: 5 }], note: 'Recommended: 100 on the former scale or 5 on the scale used from 21 January 2026. MyBest scores are not accepted.' },
+    duolingo: { min: null, recommended: 130, note: 'Recommended Duolingo English Test score: 130.' },
+    waiver: 'A waiver can be requested by native English speakers or those with at least three years at a high school taught mainly in English.',
+    note: 'Scores must be official. Rochester does not superscore or combine sub-scores from different sittings. Applicants below these ranges are still encouraged to apply and may be admitted through the two-semester English for Academic Purposes Program.'
   },
   academics: {
     gpa: null,
@@ -3839,7 +3853,7 @@ window.UNIPATH.universities.push(
     { label: 'First-year students — deadlines, fee and testing', url: 'https://admissions.rochester.edu/applying/first-year-students/' },
     { label: 'Tuition and financial aid rates set for 2026–27', url: 'https://www.rochester.edu/newscenter/tuition-financial-aid-rates-set-for-2026-27-academic-year/' }
   ],
-  lastVerified: '2026-09-21'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -3884,11 +3898,11 @@ window.UNIPATH.universities.push(
     ]
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    waiver: null,
-    note: 'Check Tulane’s international admission page for the current English requirement.'
+    ielts: { min: null, recommended: 6.5, note: 'Successful applicants typically score IELTS 6.5 or higher.' },
+    toefl: { min: null, recommended: 95, scales: [{ period: 'pre2026', min: null, recommended: 95 }], note: 'Successful applicants typically score 95 or higher.' },
+    duolingo: { min: null, recommended: 130, note: 'Successful applicants typically score 130 or higher.' },
+    waiver: 'Required only for applicants who are not native English speakers.',
+    note: 'Tulane requires TOEFL, IELTS, Duolingo English Test or Cambridge C1/C2 results from non-native speakers; these are typical scores of successful applicants, not minimums.'
   },
   academics: {
     gpa: null,
@@ -3994,11 +4008,11 @@ window.UNIPATH.universities.push(
     ]
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Accepted; no minimum score published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Accepted; no minimum score published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Accepted; no minimum score published on the pages consulted.' },
-    waiver: 'Not required if English is your first language, or if you studied at an English-medium school throughout secondary school.',
-    note: 'International citizens whose first language is not English submit the TOEFL, IELTS, PTE or Duolingo English Test.'
+    ielts: { min: null, recommended: null, note: 'Accepted; no minimum score published.' },
+    toefl: { min: null, recommended: null, note: 'Accepted; no minimum score published.' },
+    duolingo: { min: null, recommended: null, note: 'Accepted; no minimum score published.' },
+    waiver: 'Exempt after all of secondary school in English, at least two years of English instruction at a US school, or an IB Diploma or A-level curriculum taught in English.',
+    note: 'International citizens whose primary language is not English, or who have not attended an English-medium school, submit the TOEFL, IELTS, PTE or Duolingo English Test. Smith bases the requirement on citizenship rather than school location.'
   },
   academics: {
     gpa: null,
@@ -4050,7 +4064,7 @@ window.UNIPATH.universities.push(
     { label: 'The Next 150 Pledge', url: 'https://www.smith.edu/thenext150' },
     { label: 'First-year applicants', url: 'https://www.smith.edu/admission-aid/apply-smith/first-year-applicants' }
   ],
-  lastVerified: '2026-09-21'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -4093,11 +4107,11 @@ window.UNIPATH.universities.push(
     notes: ['International students who do not apply for aid when they apply for admission are never eligible for need-based aid at Mount Holyoke.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    waiver: null,
-    note: 'Check Mount Holyoke’s international admission page for the current English requirement.'
+    ielts: { min: null, recommended: 7, note: 'Average for admitted students: over 7.0 (not a minimum).' },
+    toefl: { min: null, recommended: 100, scales: [{ period: 'pre2026', min: null, recommended: 100 }, { period: 'post2026', min: null, recommended: 5.5 }], note: 'Average: 100, or 5.5 for tests taken on or after 21 January 2026 (not a minimum).' },
+    duolingo: { min: null, recommended: 130, note: 'Average: over 130 (not a minimum).' },
+    waiver: 'Required from non-native English speakers.',
+    note: 'Mount Holyoke has no minimum score except for Cambridge English (185 for C1 Advanced or C2 Proficiency); the figures shown are average scores. Scores reported inside the Common or Coalition App do not count — upload a PDF to the applicant portal; enrolling students send official results.'
   },
   academics: {
     gpa: null,
@@ -4141,9 +4155,10 @@ window.UNIPATH.universities.push(
     { label: 'International admission FAQ', url: 'https://www.mtholyoke.edu/admission/apply-undergraduate-first-year/application-process/international-admission/international-admission-faq' },
     { label: 'Financial aid', url: 'https://www.mtholyoke.edu/admission/apply-undergraduate-first-year/affording-mount-holyoke/financial-aid' },
     { label: 'Tuition and fees', url: 'https://www.mtholyoke.edu/admission/apply-undergraduate-first-year/affording-mount-holyoke/tuition-and-fees' },
-    { label: 'Application deadlines for undergraduates', url: 'https://www.mtholyoke.edu/admission/apply-undergraduate-first-year/application-deadlines-undergraduates' }
+    { label: 'Application deadlines for undergraduates', url: 'https://www.mtholyoke.edu/admission/apply-undergraduate-first-year/application-deadlines-undergraduates' },
+    { label: 'English proficiency requirements', url: 'https://www.mtholyoke.edu/admission/apply-undergraduate-first-year/application-process/international-admission/english-proficiency-requirements' }
   ],
-  lastVerified: '2026-09-21'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -4189,11 +4204,11 @@ window.UNIPATH.universities.push(
     ]
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Evidence of English proficiency is required; no minimum score is published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    waiver: null,
-    note: 'Check Bryn Mawr’s international students page for accepted tests.'
+    ielts: { min: 7, recommended: null, note: 'IELTS 7 is the minimum score required for consideration.' },
+    toefl: { min: 100, recommended: null, scales: [{ period: 'pre2026', min: 100, recommended: null }], note: 'TOEFL 100 is the minimum score required for consideration.' },
+    duolingo: { min: 130, recommended: null, note: 'Duolingo 130 is the minimum score required for consideration.' },
+    waiver: 'A waiver can be requested by native English speakers or those whose full academic instruction (all classes except second languages, grades 9–12) was in English; bilingual programmes and dual curricula do not qualify.',
+    note: 'International students must show English proficiency through an approved waiver or official TOEFL, IELTS or Duolingo results. Bryn Mawr strongly recommends a demonstration of English even for those eligible for a waiver, and prefers candidates who send recorded Duolingo or InitialView interviews.'
   },
   academics: {
     gpa: null,
@@ -4287,11 +4302,11 @@ window.UNIPATH.universities.push(
     ]
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Barnard lists a TOEFL requirement and addresses MyBest scores; no minimum was confirmed here.' },
-    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    waiver: null,
-    note: 'Barnard publishes an English language proficiency requirement for international applicants; check the official page for the accepted tests and scores.'
+    ielts: { min: null, recommended: 7.5, note: 'The most competitive candidates generally score IELTS 7.5 or higher.' },
+    toefl: { min: null, recommended: 105, scales: [{ period: 'pre2026', min: null, recommended: 105 }, { period: 'post2026', min: null, recommended: 5.5 }], note: 'The most competitive candidates generally score 105 or higher, or 5.5 or higher for tests taken on or after 20 January 2026. TOEFL Essentials and MyBest scores are not accepted.' },
+    duolingo: { min: null, recommended: 135, note: 'The most competitive candidates generally score 135 or higher.' },
+    waiver: 'Waived for students taught in English throughout secondary school, those in an IB Diploma or A-level curriculum taught in English, or with SAT Evidence-Based Reading and Writing 700+ or ACT English or Reading 29+.',
+    note: 'Barnard may require the TOEFL, IELTS or Duolingo English Test; scores are valid for two years and expired scores are not considered.'
   },
   academics: {
     gpa: null,
@@ -4382,11 +4397,11 @@ window.UNIPATH.universities.push(
     notes: ['Bates does not accept appeals from international students who try to apply for aid after being admitted, without exception.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Accepted; no minimum score is published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Accepted; no minimum score is published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Accepted; no minimum score is published on the pages consulted.' },
-    waiver: 'Not required if English is your native language or your secondary schooling was mainly in English.',
-    note: 'Bates requires official English scores — it does not accept self-reported ones.'
+    ielts: { min: null, recommended: null, note: 'All versions accepted; no minimum score published.' },
+    toefl: { min: null, recommended: null, note: 'All versions accepted; no minimum score published.' },
+    duolingo: { min: null, recommended: null, note: 'Accepted; no minimum score published.' },
+    waiver: 'Required only if English is neither your native language nor the primary language of your secondary school instruction.',
+    note: 'Bates requires official scores — self-reported English results are not accepted — and considers your best score. It accepts InitialView or Vericant interviews, but not the interview inside the Duolingo English Test.'
   },
   academics: {
     gpa: null,
@@ -4429,7 +4444,7 @@ window.UNIPATH.universities.push(
     { label: 'International applicants', url: 'https://www.bates.edu/admission/apply/international-students/' },
     { label: 'Application rounds and timeline', url: 'https://www.bates.edu/admission/apply/application-options/' }
   ],
-  lastVerified: '2026-09-21'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -4578,11 +4593,11 @@ window.UNIPATH.universities.push(
     ]
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    waiver: null,
-    note: 'Check W&L’s application page for the current English requirement.'
+    ielts: { min: null, recommended: 7, note: 'Successful applicants typically report IELTS 7 or above.' },
+    toefl: { min: null, recommended: 100, scales: [{ period: 'pre2026', min: null, recommended: 100 }, { period: 'post2026', min: null, recommended: 5 }], note: 'Successful applicants typically report 100 (before January 2026) or 5 (after January 2026).' },
+    duolingo: { min: null, recommended: 130, note: 'Successful applicants typically report 130 or above; only official Duolingo results are accepted.' },
+    waiver: 'English can also be shown by completing all of secondary school in English or an IB English A course with a score of 6 or 7; an InitialView interview is another option.',
+    note: 'All applicants must demonstrate English proficiency through one or more of the listed methods; W&L considers scores in context as part of a holistic review.'
   },
   academics: {
     gpa: null,
@@ -4638,7 +4653,8 @@ window.UNIPATH.universities.push(
     { label: 'The Johnson Scholarship', url: 'https://www.wlu.edu/admissions/the-johnson-scholarship' },
     { label: 'Tuition and fees 2026-2027', url: 'https://my.wlu.edu/business-office/parents-and-students/tuition-information/tuition-and-fees' },
     { label: 'Apply to W&L', url: 'https://www.wlu.edu/admissions/apply' },
-    { label: 'Test-optional admissions policy', url: 'https://www.wlu.edu/admissions/apply/test-optional-policy' }
+    { label: 'Test-optional admissions policy', url: 'https://www.wlu.edu/admissions/apply/test-optional-policy' },
+    { label: 'English proficiency policy', url: 'https://www.wlu.edu/admissions/apply/for-international-applicants/english-proficiency-policy' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -4686,11 +4702,11 @@ window.UNIPATH.universities.push(
     ]
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    waiver: null,
-    note: 'Colgate lists language proficiency as part of the international application; check its first-year checklist for accepted tests.'
+    ielts: { min: null, recommended: null, note: 'Required where applicable; no minimum score published.' },
+    toefl: { min: null, recommended: null, note: 'Required where applicable; no minimum score published (TOEFL code 2086).' },
+    duolingo: { min: null, recommended: null, note: 'Accepted; no minimum score published.' },
+    waiver: 'Required from non-native English speakers who do not study at a secondary school where English is the primary language of instruction.',
+    note: 'Colgate requires official TOEFL, IELTS or Duolingo scores in those cases and encourages InitialView or Vericant interviews.'
   },
   academics: {
     gpa: null,
@@ -4871,11 +4887,11 @@ window.UNIPATH.universities.push(
     notes: ['SAT/ACT, English proficiency results, interviews and an art portfolio are listed as optional items for international applicants.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Listed as optional; no minimum published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Listed as optional; no minimum published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Listed as optional; no minimum published on the pages consulted.' },
-    waiver: null,
-    note: 'Macalester lists proof of English proficiency among the optional items for international first-year applicants.'
+    ielts: { min: null, recommended: 7, note: 'Students with IELTS 7.0 or higher are the most successful in the classroom (not a minimum).' },
+    toefl: { min: null, recommended: 100, scales: [{ period: 'pre2026', min: null, recommended: 100 }, { period: 'post2026', min: null, recommended: 5 }], note: 'Most successful: 5.0 or higher for tests after January 2026, or 100 or higher before. MyBest scores are not considered.' },
+    duolingo: { min: null, recommended: 130, note: 'Most successful: 130 or higher.' },
+    waiver: 'English testing is optional; proof of English is recommended for applicants whose first language is not English and who have spent fewer than two years in an English-taught curriculum.',
+    note: 'Macalester has no minimum score; these are the levels at which admitted students do best. TOEFL Essentials, InitialView and Vericant are also accepted.'
   },
   academics: {
     gpa: null,
@@ -5166,11 +5182,11 @@ window.UNIPATH.universities.push(
     notes: ['International students can apply for need-based aid only during the admission process; those who enrol without it cannot apply later.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    waiver: null,
-    note: 'Check Denison’s international applicants page for the current English requirement.'
+    ielts: { min: 6.5, recommended: null, note: 'IELTS 6.5+ is one of the ways Denison lists to show adequate English proficiency.' },
+    toefl: { min: 80, recommended: null, scales: [{ period: 'pre2026', min: 80, recommended: null }], note: 'TOEFL iBT 80+ (TOEFL Essentials 8.5+) is listed as evidence of adequate proficiency.' },
+    duolingo: { min: 115, recommended: null, note: 'Duolingo English Test 115+ is listed as evidence of adequate proficiency.' },
+    waiver: 'Waivers are considered case by case after application; English as first language or main language of instruction, SAT Reading 600+ or ACT English 26+ also count as evidence.',
+    note: 'All international applicants must demonstrate adequate English proficiency; Denison lists these scores, along with an admission interview, among the considerations.'
   },
   academics: {
     gpa: null,
@@ -5266,11 +5282,11 @@ window.UNIPATH.universities.push(
     notes: ['Students admitted without aid in their first year are not eligible for it in later years.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Accepted; no minimum published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Accepted; no minimum published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Accepted; no minimum published on the pages consulted.' },
-    waiver: 'Not required if English is your native language, if you have studied for at least three years at a school teaching all courses in English, or with qualifying IB English results.',
-    note: 'F&M accepts the TOEFL, IELTS, Duolingo English Test and PTE Academic.'
+    ielts: { min: null, recommended: null, note: 'Accepted; no minimum score published on the pages consulted.' },
+    toefl: { min: null, recommended: null, note: 'Accepted; no minimum score published on the pages consulted.' },
+    duolingo: { min: null, recommended: null, note: 'Accepted; no minimum score published on the pages consulted.' },
+    waiver: 'Not required after at least three years at a school where all courses are taught in English, or for IB Diploma students with (predicted) IB English SL 5+ or HL 4+.',
+    note: 'F&M requires the TOEFL, IELTS, Duolingo English Test or PTE Academic from students whose native language is not English.'
   },
   academics: {
     gpa: null,
@@ -5362,11 +5378,11 @@ window.UNIPATH.universities.push(
     notes: ['Families contributing less than $20,000 a year for whom the CSS Profile fee is a hardship can request an alternative International Financial Aid Form after submitting the Common Application.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    waiver: null,
-    note: 'Check Lafayette’s international students page for the current English requirement.'
+    ielts: { min: null, recommended: 7, note: 'Lafayette typically looks for IELTS 7.' },
+    toefl: { min: null, recommended: 100, scales: [{ period: 'pre2026', min: null, recommended: 100 }, { period: 'post2026', min: null, recommended: 5 }], note: 'Lafayette typically looks for TOEFL 100, or 5 on the new scale.' },
+    duolingo: { min: null, recommended: 130, note: 'Lafayette typically looks for Duolingo 130.' },
+    waiver: 'Waived, by signing an attestation form, if English is your first language or you have had academic instruction in English for the past three years.',
+    note: 'An English proficiency test such as the TOEFL, IELTS or Duolingo English Test is required of international students unless waived.'
   },
   academics: {
     gpa: null,
@@ -5452,11 +5468,11 @@ window.UNIPATH.universities.push(
     notes: ['International students who do not receive aid in their first year are not eligible for it later.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    waiver: null,
-    note: 'Check Lehigh’s international students page for the current English requirement.'
+    ielts: { min: null, recommended: 7, note: 'The most competitive candidates score above IELTS 7.0.' },
+    toefl: { min: null, recommended: 90, scales: [{ period: 'pre2026', min: null, recommended: 90 }], note: 'The most competitive candidates score above TOEFL 90. TOEFL iBT Home Edition is considered if test centres are unavailable.' },
+    duolingo: { min: null, recommended: 120, note: 'The most competitive candidates score above 120; Duolingo is considered when the TOEFL or IELTS is unavailable.' },
+    waiver: 'Not required if your first language is English or your last two full years of formal instruction were in English.',
+    note: 'Lehigh prefers the TOEFL or IELTS, requires official scores from the testing agency and looks at sub-scores too. SAT and ACT results cannot meet the English requirement.'
   },
   academics: {
     gpa: null,
@@ -5544,11 +5560,11 @@ window.UNIPATH.universities.push(
     notes: ['Only applicants who apply by 1 November are considered for Premier Scholarships.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Published on UM’s separate English Language Proficiency Requirements page; not confirmed here.' },
-    toefl: { min: null, recommended: null, note: 'Not confirmed here.' },
-    duolingo: { min: null, recommended: null, note: 'Not confirmed here.' },
-    waiver: null,
-    note: 'UM publishes detailed English requirements on a separate page.'
+    ielts: { min: null, recommended: 6.5, note: 'Competitive applicants generally score above IELTS 6.5.' },
+    toefl: { min: null, recommended: 80, scales: [{ period: 'pre2026', min: null, recommended: 80 }, { period: 'post2026', min: null, recommended: 4.5 }], note: 'Competitive applicants generally score above 80 on the internet-based TOEFL (550 paper-based), or 4.5 on the 1–6 scale for tests after 21 January 2026.' },
+    duolingo: { min: null, recommended: 125, note: 'Competitive applicants generally score above 125.' },
+    waiver: 'Waived with an A or B in AP English or IB Higher Level English, specified IB English exam scores, at least three years (including the graduation year) at a US high school, or completion of Level 5 of UM’s Intensive English Program.',
+    note: 'Students whose native language is not English must submit official TOEFL, IELTS or Duolingo results; scores are valid for two years.'
   },
   academics: {
     gpa: null,
@@ -5612,7 +5628,8 @@ window.UNIPATH.universities.push(
     { label: 'International applicants FAQs', url: 'https://admissions.miami.edu/undergraduate/about/FAQs/international-applicants/index.html' },
     { label: 'First-year merit scholarships', url: 'https://admissions.miami.edu/undergraduate/financial-aid/scholarships/freshman/index.html' },
     { label: 'Admission plans and deadlines', url: 'https://admissions.miami.edu/undergraduate/application-process/options-and-deadlines/index.html' },
-    { label: 'Testing policy', url: 'https://admissions.miami.edu/undergraduate/application-process/admission-requirements/testing-policy/index.html' }
+    { label: 'Testing policy', url: 'https://admissions.miami.edu/undergraduate/application-process/admission-requirements/testing-policy/index.html' },
+    { label: 'English proficiency requirements', url: 'https://admissions.miami.edu/undergraduate/application-process/admission-requirements/english-proficiency-requirements/index.html' }
   ],
   lastVerified: '2026-09-22'
 }
