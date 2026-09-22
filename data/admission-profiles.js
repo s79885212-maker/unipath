@@ -110,7 +110,7 @@
       duolingo: { min: null, recommended: null, estimate: '125+', note: 'Accepted; NYU publishes no minimum.' }
     },
     admissions: {
-      applicationFee: { amount: 100, currency: 'USD', waiver: 'Can be waived for applicants with financial need (NYU Common Data Set, Fall 2026 cycle).' }
+      applicationFee: { amount: 100, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Can be waived for applicants with financial need (NYU Common Data Set, Fall 2026 cycle).' }
     },
     stats: {
       term: 'Fall 2025 entering class',
@@ -135,7 +135,7 @@
       duolingo: { min: null, recommended: null, note: 'Not listed among U-M\'s accepted English tests — check before relying on it.' }
     },
     admissions: {
-      applicationFee: { amount: 75, currency: 'USD', waiver: 'Can be waived for applicants with financial need (U-M Common Data Set, Fall 2027 cycle).' }
+      applicationFee: { amount: 75, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Can be waived for applicants with financial need (U-M Common Data Set, Fall 2027 cycle).' }
     },
     stats: {
       term: 'Fall 2025 entering class',
@@ -181,7 +181,7 @@
       ielts: { min: null, recommended: 6.0, estimate: '6.0+ overall', note: 'A writing sub-score of 6.0 or higher avoids mandatory English support courses.' }
     },
     admissions: {
-      applicationFee: { amount: 50, currency: 'USD', waiver: 'UA states the fee for out-of-state and international students is $50 for 2027 entry terms, non-refundable and payable by card.' }
+      applicationFee: { amount: 50, currency: 'USD', waiverAvailableToInternational: null, waiver: null, note: 'UA states the fee for out-of-state and international students is $50 for 2027 entry terms, non-refundable and payable by card.' }
     },
     stats: {
       term: 'Fall 2025 entering class',
@@ -211,7 +211,7 @@
       note: 'Berea will almost never consider scores from a test taken more than two years ago.'
     },
     academics: {
-      sat: { policy: 'accepted', note: 'Not required, but a combined SAT of 980+ is accepted in place of an English test.' },
+      sat: { policy: 'optional', note: 'Not required, but a combined SAT of 980+ is accepted in place of an English test.' },
       act: { policy: 'accepted', note: 'Not required, but an ACT composite of 19+ is accepted in place of an English test.' },
       internationalQualifications: 'Applicants should meet university entrance requirements in their own country and present outstanding secondary or leaving-exam results.'
     },
@@ -352,7 +352,7 @@
       waiver: 'Waived if you studied at least five of the last six years at an English-medium institution, or if you hold Cambridge C2 Proficiency (official result required).'
     },
     academics: {
-      sat: { policy: 'required', note: 'SAT or ACT required unless you hold (or expect) the IB Diploma or three GCE A-Levels, or have at least two years of career experience. No minimum score. The SAT must be sent directly by the College Board and taken within two years.' },
+      sat: { policy: 'required-alternatives', note: 'SAT or ACT required unless you hold (or expect) the IB Diploma or three GCE A-Levels, or have at least two years of career experience. No minimum score. The SAT must be sent directly by the College Board and taken within two years.' },
       act: { policy: 'required', note: 'SAT or ACT required unless you hold the IB Diploma or three A-Levels.' },
       gpa: 'Sophia states there is no required minimum score or GPA to apply.'
     },
@@ -381,7 +381,7 @@
       otherTests: 'Only the full IB Diploma is accepted — IB Course Certificates and the IBCP are not.'
     },
     admissions: {
-      applicationFee: { amount: 30000, currency: 'JPY', waiver: 'Non-refundable; an additional ¥880 system fee applies.' }
+      applicationFee: { amount: 30000, currency: 'JPY', waiverAvailableToInternational: null, waiver: null, note: 'Non-refundable; an additional ¥880 system fee applies.' }
     },
     stats: {
       term: 'English Language Based Admissions (ELBA)',
@@ -494,7 +494,7 @@
       note: 'UIC has no cut-off scores: admission goes to applicants who score highly in both stages (document review, then interview).'
     },
     admissions: {
-      applicationFee: { amount: 150000, currency: 'KRW', waiver: 'Non-refundable once the application is completed.' }
+      applicationFee: { amount: 150000, currency: 'KRW', waiverAvailableToInternational: false, waiver: 'UIC does not offer or accept fee waivers.', note: 'KRW 150,000 via the UIC application, or US$150 via the Common Application.' }
     },
     sources: [{ label: 'Yonsei Fall 2026 Application Guide for International Students (PDF)', url: 'https://www2.yonsei.ac.kr/entrance/2026/intl/2026_9_docu/Fall%202026%20Application%20Guide%20for%20International%20Students(Eng).pdf' }],
     stats: {
@@ -518,7 +518,7 @@
       waiver: 'Applicants who completed all of secondary school with English (or Korean) as the primary language of instruction can submit a school confirmation letter instead. The International Studies major requires an English qualification.'
     },
     admissions: {
-      applicationFee: { amount: 150000, currency: 'KRW', waiver: 'Humanities or Science: ₩150,000. Art & Design: ₩200,000. Leftover fee amounts are refunded under Korean law.' }
+      applicationFee: { amount: 150000, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Humanities or Science: ₩150,000. Art & Design: ₩200,000. Leftover fee amounts are refunded under Korean law.' }
     },
     sources: [{ label: 'Korea University Application Guide, Fall 2026 (PDF)', url: 'https://oia.korea.ac.kr/_res/oia/etc/Application_Guide_for_Fall_2026_Freshman(ENG).pdf' }],
     stats: {
@@ -567,7 +567,7 @@
       toefl: { min: 80, recommended: null, scales: [{ period: 'pre2026', min: 80, recommended: null }, { period: 'post2026', min: 4, recommended: null }], note: 'TOEFL iBT 80, or 4.0+ for tests taken on or after 21 January 2026.' }
     },
     admissions: {
-      applicationFee: { amount: 150000, currency: 'KRW', waiver: 'Special Admission for Foreigners: ₩150,000 (about US$150).' }
+      applicationFee: { amount: 150000, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Special Admission for Foreigners: ₩150,000 (about US$150).' }
     },
     costs: {
       academicYear: 'Fall 2026',
@@ -684,10 +684,10 @@
       deadlines: [
         { name: 'Kyoto iUP — October 2027 enrolment', date: '2 November – 3 December 2026 (5 p.m. JST)', note: 'Online application; the application fee must also be paid by 3 December 2026' }
       ],
-      applicationFee: { amount: 9800, currency: 'JPY', waiver: 'No application fee waivers. A ¥429 processing fee is added; the fee is non-refundable.' }
+      applicationFee: { amount: 9800, currency: 'JPY', waiverAvailableToInternational: false, waiver: 'Kyoto University offers no application fee waivers.', note: 'A ¥429 processing fee is added; the fee is non-refundable.' }
     },
     academics: {
-      sat: { policy: 'accepted', note: 'Official scores from at least one listed standardized test are mandatory (SAT, IB, A-Level, EJU and others in Appendix 1 of the guidelines).' },
+      sat: { policy: 'required-alternatives', note: 'Official scores from at least one listed standardized test are mandatory (SAT, IB, A-Level, EJU and others in Appendix 1 of the guidelines).' },
       act: { policy: 'accepted', note: 'One of the tests listed in Appendix 1 is required.' },
       otherTests: 'Faculty subject requirements: Science, Pharmaceutical Sciences, Engineering and Agriculture need mathematics plus at least two sciences (Engineering: physics and chemistry). Integrated Human Studies and Economics need mathematics. Letters, Education and Law have no specific subject requirement.'
     },
@@ -719,7 +719,7 @@
       ]
     },
     academics: {
-      sat: { policy: 'accepted', note: 'Applicants submit IB, SAT or ACT scores (or national exam results such as A-Levels or the Abitur). Keio states there are no cut-off IB, SAT or ACT scores; paper and digital SAT count equally.' },
+      sat: { policy: 'required-alternatives', note: 'Applicants submit IB, SAT or ACT scores (or national exam results such as A-Levels or the Abitur). Keio states there are no cut-off IB, SAT or ACT scores; paper and digital SAT count equally.' },
       act: { policy: 'accepted', note: 'Accepted; no cut-off score.' }
     },
     sources: [{ label: 'Keio PEARL application guidebook (PDF)', url: 'https://www.keio.ac.jp/en/admissions/undergraduate/pearl/application_guidebook.pdf' }]
@@ -733,7 +733,7 @@
         { name: 'Autumn (September) 2027 — first period', date: '11 November – 4 December 2026 (documents by 11 December)', note: 'First-year entry; results 5 February 2027' },
         { name: 'Autumn (September) 2027 — second period', date: '10 – 31 March 2027 (documents by 7 April)', note: 'Results 4 June 2027' }
       ],
-      applicationFee: { amount: 35000, currency: 'JPY', waiver: 'An online payment handling fee of ¥1,100 is added. Overseas applicants without a Japanese bank account must pay by credit card.' }
+      applicationFee: { amount: 35000, currency: 'JPY', waiverAvailableToInternational: null, waiver: null, note: 'An online payment handling fee of ¥1,100 is added. Overseas applicants without a Japanese bank account must pay by credit card.' }
     },
     costs: {
       academicYear: '2026 (students entering in AY2026)',
@@ -758,14 +758,14 @@
 
   patch('ritsumeikan-apu', {
     admissions: {
-      applicationFee: { amount: 5500, currency: 'JPY', waiver: '¥5,500 by credit card (¥5,000 evaluation + ¥500 administration), or ¥7,000 by bank transfer if card payment is impossible. Non-refundable.' }
+      applicationFee: { amount: 5500, currency: 'JPY', waiverAvailableToInternational: null, waiver: null, note: '¥5,500 by credit card (¥5,000 evaluation + ¥500 administration), or ¥7,000 by bank transfer if card payment is impossible. Non-refundable.' }
     },
     sources: [{ label: 'APU Undergraduate Application Handbook, April/September 2026 (PDF)', url: 'https://admissions.apu.ac.jp/resource/ln/14e5384bf2991cf60640ed8496f7ffd17d6f8901/ApplicationHandbook_UG_OutsideJapan_ENG_26_2.pdf' }]
   });
 
   patch('tohoku-university', {
     admissions: {
-      applicationFee: { amount: 17000, currency: 'JPY', waiver: 'Tohoku\'s standard undergraduate application fee. Gateway College may set its own amount in the Application Guide 2027 — confirm there.' }
+      applicationFee: { amount: 17000, currency: 'JPY', waiverAvailableToInternational: null, waiver: null, note: 'Tohoku\'s standard undergraduate application fee. Gateway College may set its own amount in the Application Guide 2027 — confirm there.' }
     },
     costs: {
       academicYear: 'Current (Tohoku University fees page)',
@@ -792,7 +792,7 @@
         { name: 'Spring 2027 — interviewee list', date: '11 September 2026', note: null },
         { name: 'Spring 2027 — preliminary decisions', date: '16 October 2026 (after 17:00 KST)', note: null }
       ],
-      applicationFee: { amount: 70000, currency: 'KRW', waiver: 'Application fees are non-exemptible and non-refundable.' }
+      applicationFee: { amount: 70000, currency: 'KRW', waiverAvailableToInternational: false, waiver: 'Application fees are non-exemptible.', note: 'Non-refundable.' }
     },
     academics: {
       sat: { policy: 'accepted', note: 'Standardized test results (SAT, ACT, AP, A-Level, IGCSE, IB, NCEA, etc.) can be submitted as supporting documents. SNU institution code for SAT/AP/ACT: 7972.' },
@@ -822,7 +822,7 @@
 
   patch('kaist', {
     admissions: {
-      applicationFee: { amount: 80000, currency: 'KRW', waiver: 'KRW 80,000 or US$80, non-refundable and not waivable (2023 admission guideline — the latest published online).' }
+      applicationFee: { amount: 80000, currency: 'KRW', waiverAvailableToInternational: false, waiver: 'The fee is not waivable (2023 admission guideline — the latest published online).', note: 'KRW 80,000 or US$80, non-refundable.' }
     }
   });
 
@@ -832,7 +832,7 @@
         { name: 'UIC Round 1 (Spring 2027) — online application', date: '26 August – 22 September 2026 (17:00 KST)', note: 'Documents by 2 October 2026; interviews 11–12 December; results 18 December 2026' },
         { name: 'UIC Round 2 (Fall 2027)', date: 'Expected around March 2027', note: 'Yonsei has not yet published exact dates' }
       ],
-      applicationFee: { amount: 150000, currency: 'KRW', waiver: 'KRW 150,000 via the UIC application, or US$150 via the Common Application. UIC does not offer or accept fee waivers.' }
+      applicationFee: { amount: 150000, currency: 'KRW', waiverAvailableToInternational: false, waiver: 'UIC does not offer or accept fee waivers.', note: 'KRW 150,000 via the UIC application, or US$150 via the Common Application.' }
     },
     english: {
       waiver: 'From the AY2027 intake, proof of English is REQUIRED (it was optional before). Accepted: TOEFL, IELTS, CEFR certification, IB or AP English (no minimum scores); a diploma from a country where English is the sole official language; or a Medium of Instruction certificate.'
@@ -873,7 +873,7 @@
         { name: 'Spring 2027 — Round 1', date: '12 – 21 August 2026 (online)', note: 'Documents by 4 September; results 23 October 2026' },
         { name: 'Spring 2027 — Round 2', date: '4 – 13 November 2026 (online)', note: 'Documents by 27 November; results 8 January 2027. Semester starts 1 March 2027.' }
       ],
-      applicationFee: { amount: 150000, currency: 'KRW', waiver: 'KRW 30,000 if a candidate with a preliminary offer reapplies to the same admission unit. Otherwise non-refundable except as Korean law requires.' }
+      applicationFee: { amount: 150000, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'KRW 30,000 if a candidate with a preliminary offer reapplies to the same admission unit. Otherwise non-refundable except as Korean law requires.' }
     },
     english: {
       ielts: { min: 6.5, recommended: 8.0, note: 'English-track majors require IELTS 6.5 before you select your major (end of first year). For scholarships: IELTS 7.0 earns 50% and IELTS 8.0 earns 100% of first-semester tuition.' },

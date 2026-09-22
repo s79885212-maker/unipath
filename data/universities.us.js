@@ -36,7 +36,7 @@ window.UNIPATH.universities.push(
       { name: 'Restrictive Early Action', date: '1 November', note: 'Decisions released mid-December' },
       { name: 'Regular Decision', date: '1 January', note: 'Decisions released by the end of March' }
     ],
-    applicationFee: { amount: 95, currency: 'USD', waiver: 'Fee waiver available on request' },
+    applicationFee: { amount: 95, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waiver available on request' },
     documents: [
       'Common Application with personal essay and activities list',
       'Harvard College Questions for the Common Application, including five required short-answer questions',
@@ -140,7 +140,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Action', date: '1 November', note: 'Decisions mid-December. Tests must be completed by 30 November.' },
       { name: 'Regular Action', date: '4 January', note: 'Decisions mid-March. Tests must be completed by 31 December; English tests by 31 January.' }
     ],
-    applicationFee: { amount: 75, currency: 'USD', waiver: 'Fee waiver available' },
+    applicationFee: { amount: 75, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waiver available' },
     documents: ['MIT application', 'Secondary school report and transcript', 'Two teacher evaluations'],
     recommendations: 'Two teacher letters — MIT recommends one from a maths or science teacher and one from a humanities, social science or language teacher',
     essay: 'MIT uses its own set of short essay responses rather than one long personal statement',
@@ -237,7 +237,7 @@ window.UNIPATH.universities.push(
       { name: 'Single-Choice Early Action', date: '1 November', note: 'Non-binding — you may hold other applications if admitted' },
       { name: 'Regular Decision', date: '2 January', note: null }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiver: 'Yale does not issue its own fee waivers, but applying for free is straightforward through the eligibility criteria of your chosen application platform. U.S. military veterans and active-duty service members receive automatic waivers.' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Yale does not issue its own fee waivers, but applying for free is straightforward through the eligibility criteria of your chosen application platform. U.S. military veterans and active-duty service members receive automatic waivers.' },
     documents: ['Application with essays', 'School Report with official transcript covering all completed secondary school courses', 'Mid-Year Report with first-marking-period senior grades'],
     recommendations: 'Three letters: two teachers in core academic subjects (languages, maths, sciences, social studies) plus one school counsellor or administrator',
     essay: 'Application essays plus Yale-specific short answers',
@@ -338,7 +338,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', date: '1 January', note: 'Binding' },
       { name: 'Regular Decision', date: '5 January', note: null }
     ],
-    applicationFee: { amount: 85, currency: 'USD', waiver: 'Fee waivers available through the Common Application' },
+    applicationFee: { amount: 85, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waivers available through the Common Application' },
     documents: ['Common Application', 'Secondary school transcript', 'School report'],
     recommendations: null,
     essay: 'Common Application essay plus NYU supplement',
@@ -431,7 +431,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Action', date: '1 November', note: 'Non-binding. Decisions released by 29 January.' },
       { name: 'Regular Decision', date: '1 February', note: null }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiver: null },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'Secondary school transcript', 'School report'],
     recommendations: null,
     essay: 'Common Application essay plus U-M supplemental essays',
@@ -521,7 +521,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['ASU application', 'Common Application'],
     deadlines: [],
-    applicationFee: { amount: 90, currency: 'USD', waiver: null },
+    applicationFee: { amount: 90, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Secondary school transcripts', 'Proof of English proficiency', 'Financial documentation for the I-20'],
     recommendations: null,
     essay: null,
@@ -645,7 +645,7 @@ window.UNIPATH.universities.push(
       { name: 'Spring semester entry', date: '2 November', note: 'Application and official score reports due' },
       { name: 'Summer / Fall semester entry', date: '4 December', note: 'Application and official score reports due' }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiver: null },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: [
       'Official high school transcripts evaluated by a NACES member agency',
       'Visa/immigration documents (PR card, current visa, or F-1/J-1 visa support materials)',
@@ -746,7 +746,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Berea College application'],
     deadlines: [],
-    applicationFee: { amount: 0, currency: 'USD', waiver: 'Berea does not charge an application fee' },
+    applicationFee: { amount: 0, currency: 'USD', waiverAvailableToInternational: null, waiver: null, note: 'Berea does not charge an application fee' },
     documents: ['Secondary school transcript', 'Evidence of financial need', 'English proficiency evidence'],
     recommendations: null,
     essay: null,
@@ -848,7 +848,7 @@ window.UNIPATH.universities.push(
       { name: 'English proficiency evidence', date: '31 January', note: 'Proficiency must be satisfied by this date' },
       { name: 'Optional InitialView interview', date: '30 November', note: 'Optional, and it cannot replace a required English test score' }
     ],
-    applicationFee: { amount: 95, currency: 'USD', waiver: 'International applicants pay $95 per campus; those already enrolled at a US institution may qualify for the $80 fee. UC does not describe fee waivers for international applicants.' },
+    applicationFee: { amount: 95, currency: 'USD', waiverAvailableToInternational: null, waiver: 'International applicants pay $95 per campus; those already enrolled at a US institution may qualify for the $80 fee. UC does not describe fee waivers for international applicants.' },
     documents: [
       'UC Application, completed once for all campuses',
       'Official academic records from every institution attended, showing dates, courses, grades and any diploma',
@@ -963,7 +963,7 @@ window.UNIPATH.universities.push(
       { name: 'Regular Decision', date: '1 January', note: 'Financial aid application due 1 February; decisions in late March' },
       { name: 'Reply deadline', date: '1 May', note: 'Same for both rounds' }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiver: 'Princeton offers its own fee waiver to low-income applicants and to anyone serving or who has served in the US military, with no counsellor approval needed. Waivers through the Common Application, ACT, College Board and NACAC are also accepted.' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Princeton offers its own fee waiver to low-income applicants and to anyone serving or who has served in the US military, with no counsellor approval needed. Waivers through the Common Application, ACT, College Board and NACAC are also accepted.' },
     documents: [
       'Common Application with the Princeton-specific questions',
       'A graded written paper, preferably in English or history, written in English and not translated',

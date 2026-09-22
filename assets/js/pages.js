@@ -111,8 +111,9 @@
       '<h3 style="margin-top:6px">Application deadlines</h3>' + deadlines +
       '<dl class="deflist" style="margin-top:18px">' +
         row('Application platform', has(a.platforms) ? a.platforms.map(esc).join('<br>') : UNKNOWN) +
-        row('Application fee', U.feeLabel(u)) +
-        row('Fee waiver', has(fee.waiver) ? esc(fee.waiver) : UNKNOWN) +
+        row('Application fee', U.feeLabel(u) + (has(fee.note) ? '<br><span class="small muted">' + esc(fee.note) + '</span>' : '')) +
+        row('Fee waiver', (U.feeWaiver(u) === null ? UNKNOWN : '<strong>' + esc(U.feeWaiverLabel(u)) + '</strong>') +
+          (has(fee.waiver) ? '<br><span class="small muted">' + esc(fee.waiver) + '</span>' : '')) +
         row('Required documents', list(a.documents)) +
         row('Recommendation letters', or(a.recommendations)) +
         row('Personal essay', or(a.essay)) +
@@ -159,8 +160,10 @@
       : esc(gpa));
     function testPolicyRow(label, t) {
       if (!t) return row(label, UNKNOWN);
-      var POLICY = { required: 'Required', optional: 'Optional', accepted: 'Accepted', 'not-used': 'Not used' };
-      var p = has(t.policy) ? '<strong>' + esc(POLICY[t.policy] || String(t.policy)) + '</strong>' : UNKNOWN;
+      var POLICY = { required: 'Required', 'required-alternatives': 'Testing required — alternatives accepted', optional: 'Optional',
+        accepted: 'Accepted — requirement not confirmed', 'not-used': 'Not used' };
+      var p = has(t.label) ? '<strong>' + esc(t.label) + '</strong>'
+        : (POLICY[t.policy] ? '<strong>' + esc(POLICY[t.policy]) + '</strong>' : UNKNOWN);
       return row(label, p + (has(t.note) ? '<br><span class="small muted">' + esc(t.note) + '</span>' : ''));
     }
     function range3(a) { return a ? esc(a[0]) + ' / <strong>' + esc(a[1]) + '</strong> / ' + esc(a[2]) : null; }
@@ -643,6 +646,7 @@
         return t ? esc(t) + (has(u.costs.academicYear) ? '<br><span class="small muted">' + esc(u.costs.academicYear) + '</span>' : '') : UNKNOWN;
       }],
       ['Application fee', function (u) { return U.feeLabel(u); }],
+      ['Fee waiver for international applicants', function (u) { return esc(U.feeWaiverLabel(u)); }],
       ['group', 'Requirements'],
       ['IELTS requirement', function (u) { var l = U.ieltsLabel(u); return l ? esc(l) : UNKNOWN; }],
       ['TOEFL requirement', function (u) {

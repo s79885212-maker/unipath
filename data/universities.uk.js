@@ -46,7 +46,7 @@ window.UNIPATH.universities.push(
       { name: 'Decisions', entryTerm: '2027 entry', dateISO: '2027-01-12', date: '12 January 2027', note: 'Released through UCAS' },
       { name: 'Reach Oxford Scholarship application', entryTerm: '2027 entry', dateISO: '2027-01-26', date: '26 January 2027', note: 'Separate scholarship deadline for offer holders from eligible countries' }
     ],
-    applicationFee: { amount: 34.50, currency: 'GBP', waiver: 'The £34.50 is the UCAS fee for the whole application (up to five universities), not an Oxford fee' },
+    applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: null, waiver: null, note: 'The £34.50 is the UCAS fee for the whole application (up to five universities), not an Oxford fee' },
     documents: [
       'UCAS application with personal statement',
       'Academic reference from your school',
@@ -153,7 +153,7 @@ window.UNIPATH.universities.push(
       { name: 'My Cambridge Application', date: 'Shortly after the UCAS deadline', note: 'Cambridge emails the form once your UCAS application arrives — the exact date is published each cycle' },
       { name: 'Interviews', entryTerm: '2027 entry', date: 'December 2026', note: 'Most overseas applicants are interviewed online' }
     ],
-    applicationFee: { amount: 34.50, currency: 'GBP', waiver: 'The £34.50 is the UCAS fee for the whole application, not a Cambridge fee' },
+    applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: null, waiver: null, note: 'The £34.50 is the UCAS fee for the whole application, not a Cambridge fee' },
     documents: [
       'UCAS application with personal statement',
       'My Cambridge Application form, including a school transcript',
@@ -267,7 +267,7 @@ window.UNIPATH.universities.push(
       { name: 'UCAS equal consideration deadline (2027 entry)', entryTerm: '2027 entry', dateISO: '2027-01-13', date: '13 January 2027', note: 'Closes at 18:00 UK time' },
       { name: 'Medicine and related courses', entryTerm: '2027 entry', dateISO: '2026-10-15', date: '15 October 2026', note: 'The early UCAS deadline applies to medicine' }
     ],
-    applicationFee: { amount: 34.50, currency: 'GBP', waiver: 'The £34.50 UCAS fee covers the whole application, not one university' },
+    applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: null, waiver: null, note: 'The £34.50 UCAS fee covers the whole application, not one university' },
     documents: [
       'UCAS application with personal statement',
       'Academic reference',
@@ -371,7 +371,7 @@ window.UNIPATH.universities.push(
       { name: 'UCL Global Undergraduate Scholarship', date: '27 April (2026 date; 2027 to be confirmed)', note: 'Separate scholarship application, closes 17:00 BST' },
       { name: 'Meeting offer conditions, including English', date: '3 September (2026 date)', note: 'Offer holders must meet all conditions by 17:00 UK time' }
     ],
-    applicationFee: { amount: 34.50, currency: 'GBP', waiver: 'The £34.50 UCAS fee covers the whole application' },
+    applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: null, waiver: null, note: 'The £34.50 UCAS fee covers the whole application' },
     documents: [
       'UCAS application with personal statement',
       'Academic reference',
@@ -473,7 +473,7 @@ window.UNIPATH.universities.push(
       { name: 'UCAS equal consideration deadline (2027 entry)', entryTerm: '2027 entry', dateISO: '2027-01-13', date: '13 January 2027', note: 'Closes at 18:00 UK time' },
       { name: 'Medicine and dentistry', entryTerm: '2027 entry', dateISO: '2026-10-15', date: '15 October 2026', note: 'The early UCAS deadline applies' }
     ],
-    applicationFee: { amount: 34.50, currency: 'GBP', waiver: 'The £34.50 UCAS fee covers the whole application' },
+    applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: null, waiver: null, note: 'The £34.50 UCAS fee covers the whole application' },
     documents: [
       'UCAS application with personal statement',
       'Academic reference',
@@ -576,7 +576,7 @@ window.UNIPATH.universities.push(
       { name: 'UCAS equal consideration deadline (2027 entry)', entryTerm: '2027 entry', dateISO: '2027-01-13', date: '13 January 2027', note: 'Closes at 18:00 UK time' },
       { name: 'Medicine and veterinary medicine', entryTerm: '2027 entry', dateISO: '2026-10-15', date: '15 October 2026', note: 'The early UCAS deadline applies' }
     ],
-    applicationFee: { amount: 34.50, currency: 'GBP', waiver: 'The £34.50 UCAS fee covers the whole application' },
+    applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: null, waiver: null, note: 'The £34.50 UCAS fee covers the whole application' },
     documents: [
       'UCAS application with personal statement',
       'Academic reference',
@@ -682,7 +682,7 @@ window.UNIPATH.universities.push(
       { name: 'UCAS equal consideration deadline (2027 entry)', entryTerm: '2027 entry', dateISO: '2027-01-13', date: '13 January 2027', note: 'Closes at 18:00 UK time' },
       { name: 'Medicine and dentistry', entryTerm: '2027 entry', dateISO: '2026-10-15', date: '15 October 2026', note: 'The early UCAS deadline applies' }
     ],
-    applicationFee: { amount: 34.50, currency: 'GBP', waiver: 'The £34.50 UCAS fee covers the whole application' },
+    applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: null, waiver: null, note: 'The £34.50 UCAS fee covers the whole application' },
     documents: [
       'UCAS application with personal statement',
       'Academic reference',
@@ -785,7 +785,7 @@ window.UNIPATH.universities.push(
       { name: 'UCAS equal consideration deadline (2027 entry)', entryTerm: '2027 entry', dateISO: '2027-01-13', date: '13 January 2027', note: 'Closes at 18:00 UK time' },
       { name: 'Medicine (MBChB)', entryTerm: '2027 entry', dateISO: '2026-10-15', date: '15 October 2026', note: 'The early UCAS deadline applies' }
     ],
-    applicationFee: { amount: 34.50, currency: 'GBP', waiver: 'The £34.50 UCAS fee covers the whole application' },
+    applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: null, waiver: null, note: 'The £34.50 UCAS fee covers the whole application' },
     documents: [
       'UCAS application with personal statement',
       'Academic reference',

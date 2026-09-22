@@ -73,11 +73,13 @@
         var satEst = firstNumber(tg.sat);
         if (input.sat < satEst) checks.push({ level: 'soft', text: 'SAT ' + input.sat + ' is below the UniPath estimate of ' + satEst + '+ (not an official requirement).' });
         else checks.push({ level: 'ok', text: 'SAT ' + input.sat + ' reaches the UniPath estimate of ' + satEst + '+ (not an official requirement).' });
-      } else if (policy === 'required' || policy === 'optional' || policy === 'accepted') {
+      } else if (policy !== 'unknown') {
         checks.push({ level: 'info', text: 'No SAT range for admitted students is published.' });
       }
     } else if (policy === 'required') {
       checks.push({ level: 'soft', text: 'SAT or ACT is required, and no score was entered.' });
+    } else if (policy === 'required-alternatives') {
+      checks.push({ level: 'info', text: 'Testing is required, but other exams can replace the SAT/ACT in the cases the university lists.' });
     }
 
     /* GPA — only where a published average exists */

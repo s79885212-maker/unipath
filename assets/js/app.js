@@ -105,21 +105,41 @@
 
   /* ---------------- derived facets ---------------- */
 
+  /* SAT/ACT policy, one shared reading for cards, profile, compare,
+     filters and the match page:
+       required              — SAT or ACT must be sent
+       required-alternatives — testing is required, but other exams
+                               (AP, IB, A-Level, national exams) can
+                               replace the SAT/ACT in stated cases
+       optional              — test-optional
+       not-used              — not part of admission (test-blind)
+       accepted              — scores are accepted, but whether they are
+                               required is not confirmed
+       unknown               — no confirmed policy
+     Unknown is never treated as optional. A record may carry its own
+     short `label` when the university's wording needs it. */
+  var SAT_POLICIES = ['required', 'required-alternatives', 'optional', 'not-used', 'accepted'];
   function satPolicy(u) {
     var p = u.academics && u.academics.sat ? u.academics.sat.policy : null;
-    if (p === 'required') return 'required';
-    if (p === 'optional') return 'optional';
-    if (p === 'accepted') return 'accepted';
-    if (p === 'not-used') return 'not-used';
-    return 'unstated';
+    return SAT_POLICIES.indexOf(p) > -1 ? p : 'unknown';
   }
+  var SAT_LABELS = {
+    'required': 'SAT/ACT required',
+    'required-alternatives': 'Testing required — alternatives to SAT/ACT accepted',
+    'optional': 'Test-optional',
+    'not-used': 'SAT/ACT not used',
+    'accepted': 'SAT/ACT accepted — requirement not confirmed',
+    'unknown': 'Policy not confirmed'
+  };
   function satLabel(u) {
+    var t = u.academics && u.academics.sat;
+    if (t && has(t.label)) return t.label;
+    return SAT_LABELS[satPolicy(u)];
+  }
+  /* Only a confirmed optional or not-used policy means no SAT/ACT is needed. */
+  function satNotRequired(u) {
     var p = satPolicy(u);
-    return p === 'required' ? 'SAT/ACT required'
-      : p === 'optional' ? 'Test-optional'
-      : p === 'accepted' ? 'SAT/ACT accepted'
-      : p === 'not-used' ? 'SAT/ACT not used'
-      : 'Policy not confirmed';
+    return p === 'optional' || p === 'not-used';
   }
   function hasIelts(u) { return !!(u.english && u.english.ielts); }
   /* True only when the university itself publishes an IELTS minimum or
@@ -192,9 +212,20 @@
     var f = u.admissions && u.admissions.applicationFee;
     return f && has(f.amount) ? f.amount : null;
   }
+  /* Whether international first-year applicants can get the fee waived:
+     true / false only when the official source says so, otherwise null.
+     The explanatory text lives separately in `waiver` — its mere presence
+     never implies a waiver. No fee at all (amount 0) is not a waiver. */
   function feeWaiver(u) {
     var f = u.admissions && u.admissions.applicationFee;
-    return f && has(f.waiver) ? f.waiver : null;
+    if (!f || f.waiverAvailableToInternational === undefined) return null;
+    return f.waiverAvailableToInternational;
+  }
+  function feeWaiverLabel(u) {
+    var w = feeWaiver(u);
+    return w === true ? 'Available to international applicants'
+      : w === false ? 'Not available to international applicants'
+      : 'Not confirmed';
   }
   function feeLabel(u) {
     var f = u.admissions && u.admissions.applicationFee;
@@ -328,8 +359,9 @@
       id: 'testing', title: 'Testing',
       options: [
         { id: 'sat-required', label: 'SAT/ACT required', test: function (u) { return satPolicy(u) === 'required'; } },
+        { id: 'sat-alternatives', label: 'Testing required, alternatives accepted', test: function (u) { return satPolicy(u) === 'required-alternatives'; } },
         { id: 'sat-optional', label: 'SAT/ACT optional', test: function (u) { return satPolicy(u) === 'optional'; } },
-        { id: 'sat-none', label: 'SAT/ACT not required', test: function (u) { var p = satPolicy(u); return p === 'optional' || p === 'unstated' || p === 'accepted' || p === 'not-used'; } },
+        { id: 'sat-none', label: 'SAT/ACT not required', test: function (u) { return satNotRequired(u); } },
         { id: 'ielts', label: 'IELTS score published', test: function (u) { return ieltsPublished(u); } }
       ]
     },
@@ -345,7 +377,7 @@
       options: [
         { id: 'no-fee', label: 'No application fee', test: function (u) { return feeAmount(u) === 0; } },
         { id: 'has-fee', label: 'Application fee charged', test: function (u) { return feeAmount(u) > 0; } },
-        { id: 'waiver', label: 'Fee waiver available', test: function (u) { return !!feeWaiver(u); } }
+        { id: 'waiver', label: 'Fee waiver available', test: function (u) { return feeWaiver(u) === true; } }
       ]
     },
     {
@@ -733,9 +765,9 @@
     DISCLAIMER: DISCLAIMER,
     country: country, field: field, uniById: uniById, unisByCountry: unisByCountry,
     displayName: displayName, uniUrl: uniUrl,
-    satPolicy: satPolicy, satLabel: satLabel, hasIelts: hasIelts, ieltsPublished: ieltsPublished, englishPrograms: englishPrograms, englishLabel: englishLabel, ieltsMin: ieltsMin, toeflLines: toeflLines, ieltsLabel: ieltsLabel, statsOf: statsOf, toeflMin: toeflMin,
+    satPolicy: satPolicy, satLabel: satLabel, satNotRequired: satNotRequired, hasIelts: hasIelts, ieltsPublished: ieltsPublished, englishPrograms: englishPrograms, englishLabel: englishLabel, ieltsMin: ieltsMin, toeflLines: toeflLines, ieltsLabel: ieltsLabel, statsOf: statsOf, toeflMin: toeflMin,
     fullRide: fullRide, meritList: meritList, needBased: needBased,
-    feeAmount: feeAmount, feeWaiver: feeWaiver, feeLabel: feeLabel,
+    feeAmount: feeAmount, feeWaiver: feeWaiver, feeWaiverLabel: feeWaiverLabel, feeLabel: feeLabel,
     firstDeadline: firstDeadline, deadlineInfo: deadlineInfo, deadlineHtml: deadlineHtml, costHeadline: costHeadline, totalCostText: totalCostText,
     search: search, FILTER_GROUPS: FILTER_GROUPS, applyFilters: applyFilters, optionById: optionById,
     compareGet: compareGet, compareSet: compareSet, compareHas: compareHas, compareToggle: compareToggle, compareClear: compareClear,

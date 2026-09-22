@@ -36,7 +36,7 @@ window.UNIPATH.universities.push(
     deadlines: [
       { name: 'Global Korea Scholarship (embassy track)', date: 'September', note: 'Applications go to Korean embassies, which run initial screening' }
     ],
-    applicationFee: { amount: null, currency: 'KRW', waiver: null },
+    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: false, waiver: 'Application fees are non-exemptible.', note: 'Non-refundable.' },
     documents: ['Academic transcripts', 'Proof of Korean OR English proficiency', 'Study plan'],
     recommendations: null,
     essay: null,
@@ -130,7 +130,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['KAIST international application portal (univapply.kaist.ac.kr)'],
     deadlines: [],
-    applicationFee: { amount: null, currency: 'KRW', waiver: null },
+    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: false, waiver: 'The fee is not waivable (2023 admission guideline — the latest published online).', note: 'KRW 80,000 or US$80, non-refundable.' },
     documents: ['Academic transcripts', 'English proficiency test taken within two years of the online application deadline'],
     recommendations: null,
     essay: null,
@@ -221,7 +221,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application (search for "Underwood International College")', 'UIC application'],
     deadlines: [],
-    applicationFee: { amount: null, currency: 'KRW', waiver: null },
+    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: false, waiver: 'UIC does not offer or accept fee waivers.', note: 'KRW 150,000 via the UIC application, or US$150 via the Common Application.' },
     documents: ['High school diploma or certificate of high school equivalency', 'Academic transcripts', 'English proficiency evidence'],
     recommendations: null,
     essay: null,
@@ -320,7 +320,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Korea University international application'],
     deadlines: [],
-    applicationFee: { amount: null, currency: 'KRW', waiver: null },
+    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null },
     documents: ['Academic transcripts', 'Official language proficiency test results'],
     recommendations: null,
     essay: null,
@@ -410,7 +410,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['SKKU global admissions portal'],
     deadlines: [],
-    applicationFee: { amount: null, currency: 'KRW', waiver: null },
+    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null },
     documents: ['Academic transcripts', 'TOEFL or IELTS score report'],
     recommendations: null,
     essay: null,
@@ -502,7 +502,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Hanyang Office of International Affairs application'],
     deadlines: [],
-    applicationFee: { amount: null, currency: 'KRW', waiver: null },
+    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null },
     documents: ['Academic transcripts', 'English Proficiency Certificate (English Track applicants)', 'TOPIK certificate where applicable'],
     recommendations: null,
     essay: null,
@@ -596,7 +596,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Ewha international application'],
     deadlines: [],
-    applicationFee: { amount: null, currency: 'KRW', waiver: null },
+    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null },
     documents: ['Academic transcripts', 'English proficiency test scores, or evidence of high school education conducted entirely in English'],
     recommendations: null,
     essay: null,
@@ -691,7 +691,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Kyung Hee global admissions portal'],
     deadlines: [],
-    applicationFee: { amount: null, currency: 'KRW', waiver: null },
+    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null },
     documents: ['Academic transcripts', 'TOPIK certificate or proof of Korean language study', 'English proficiency evidence for English Track applicants'],
     recommendations: null,
     essay: null,

@@ -44,7 +44,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision', date: '1 November', note: 'Binding; 11:59 p.m. applicant’s local time' },
       { name: 'Regular Decision', date: '5 January', note: '11:59 p.m. applicant’s local time' }
     ],
-    applicationFee: { amount: 80, currency: 'USD', waiver: 'Fee waiver available in place of the $80 non-refundable fee' },
+    applicationFee: { amount: 80, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waiver available in place of the $80 non-refundable fee' },
     documents: ['Common Application with Brown’s writing supplement', 'School transcript and school report', 'Teacher recommendations'],
     recommendations: 'Two teacher recommendations and a counsellor report',
     essay: 'Common Application essay plus Brown’s supplemental questions',
@@ -52,15 +52,15 @@ window.UNIPATH.universities.push(
     notes: ['International applicants must submit the CSS Profile to be considered for any Brown aid.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Brown does not publish a minimum score on the pages consulted.' },
-    toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    waiver: null,
-    note: 'Check Brown’s international applicant pages for the current English requirement before applying.'
+    ielts: { min: 8, recommended: null, note: 'IELTS 8.0 — Brown says its minimum scores "are expected in most cases".' },
+    toefl: { min: 105, recommended: null, scales: [{ period: 'pre2026', min: 105, recommended: null }, { period: 'post2026', min: 5.5, recommended: null }], note: 'TOEFL iBT 105 for tests taken before January 2026, and 5.5 for tests taken in January 2026 or later. The TOEFL iBT Home Edition is accepted; MyBest scores are not.' },
+    duolingo: { min: 130, recommended: null, note: 'Duolingo English Test 130.' },
+    waiver: 'Brown highly recommends — rather than requires — a test for international applicants whose first language, primary home language, or language of instruction throughout secondary school is not English.',
+    note: 'Minimum scores "are expected in most cases": TOEFL 105 (before January 2026) or 5.5 (January 2026 and later), IELTS 8.0, Duolingo 130, PTE 75, Cambridge C1 Advanced or C2 Proficiency 191. English proficiency must be achieved before admission; Brown offers no ESL courses. Self-reported results are accepted, but matriculating students must send official reports — for autumn 2027 entry, by May 2027 and before the result expires.'
   },
   academics: {
     gpa: null,
-    sat: { policy: 'required', note: 'Brown reinstated the SAT/ACT requirement for first-year applicants.' },
+    sat: { policy: 'required', note: 'Brown reinstated the SAT/ACT requirement for first-year applicants, and says English proficiency results are expected in addition to its other test requirements.' },
     act: { policy: 'required', note: 'SAT or ACT is required.' },
     otherTests: null,
     internationalQualifications: 'International qualifications such as A-Levels and the IB are accepted alongside school transcripts.'
@@ -104,9 +104,10 @@ window.UNIPATH.universities.push(
     { label: 'Need-blind admission for international undergraduates', url: 'https://president.brown.edu/president/need-blind-admission-international-undergraduates' },
     { label: 'Financial aid for international applicants', url: 'https://admission.brown.edu/international/financial-aid' },
     { label: 'Undergraduate tuition and fees', url: 'https://sfs.brown.edu/tuition-and-fees/undergraduate' },
-    { label: 'First-year application checklist', url: 'https://admission.brown.edu/first-year/application-checklist' }
+    { label: 'First-year application checklist', url: 'https://admission.brown.edu/first-year/application-checklist' },
+    { label: 'English proficiency', url: 'https://admission.brown.edu/international/english-proficiency' }
   ],
-  lastVerified: '2026-09-20'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -140,7 +141,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision', date: '1 November', note: 'Binding; decisions in mid-December' },
       { name: 'Regular Decision', date: '1 January', note: 'Decisions in late March or early April' }
     ],
-    applicationFee: { amount: 85, currency: 'USD', waiver: 'Fee waivers available' },
+    applicationFee: { amount: 85, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waivers available' },
     documents: ['Common Application', 'School transcript and counsellor report', 'Teacher recommendations', 'Standardized test results'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Common Application essay plus Dartmouth’s supplemental questions',
@@ -151,15 +152,19 @@ window.UNIPATH.universities.push(
     ielts: { min: null, recommended: null, note: 'No minimum published on the pages consulted.' },
     toefl: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
     duolingo: { min: null, recommended: null, note: 'Not published on the pages consulted.' },
-    waiver: null,
-    note: 'Applicants at schools outside the US must submit SAT or ACT results, three AP results, or predicted/final IB, A-Level or equivalent national exam results.'
+    waiver: 'Required only if your first language is not English and your curriculum has not been delivered in English for at least two years.',
+    note: 'Dartmouth requires an English proficiency score from applicants whose first language is not English and whose curriculum has not been in English for at least two years; details are in its admissions FAQ.'
   },
   academics: {
     gpa: null,
-    sat: { policy: 'required', note: 'Dartmouth reactivated the SAT/ACT requirement from the class of 2029; scores across sittings are superscored.' },
-    act: { policy: 'required', note: 'SAT or ACT required.' },
-    otherTests: 'Applicants at schools outside the US may instead submit three AP results, or predicted or final IB, A-Level or equivalent national examination results.',
-    internationalQualifications: 'IB, A-Levels and national leaving examinations are accepted in place of the SAT/ACT for applicants outside the US.'
+    sat: {
+      policy: 'required-alternatives',
+      label: 'Standardized testing required; alternatives available for applicants attending school outside the US.',
+      note: 'Testing is a required part of the application (reactivated from the class of 2029). Students at US high schools must send the SAT or ACT, which are superscored. Students at high schools outside the US may instead send three AP exam results, predicted or final IB Diploma results, predicted or final British A-Level results, or final results of an equivalent standardized national exam. What counts is where you attend school, not your citizenship, and only an equivalent standardized national exam qualifies — not any school-leaving grade.'
+    },
+    act: { policy: 'required-alternatives', label: 'Accepted as the SAT alternative; alternatives available outside the US.', note: 'SAT or ACT for US high schools; outside the US the ACT is one of five options.' },
+    otherTests: 'Outside the US: three AP exams, IB Diploma results (predicted or final), British A-Level results (predicted or final), or final results of an equivalent standardized national exam.',
+    internationalQualifications: 'Applicants who attended high schools both in and outside the US should check Dartmouth’s testing FAQ for which rule applies.'
   },
   costs: {
     academicYear: '2026–2027',
@@ -201,9 +206,9 @@ window.UNIPATH.universities.push(
     { label: 'Universal need-blind admissions policy', url: 'https://admissions.dartmouth.edu/apply-dartmouth/universal-need-blind-policy' },
     { label: 'International students — financial aid', url: 'https://financialaid.dartmouth.edu/apply-aid/international-students' },
     { label: 'Cost of attendance 2026–2027', url: 'https://financialaid.dartmouth.edu/cost-attendance/cost-attendance-2026-2027' },
-    { label: 'Standardized testing requirement for applicants outside the US', url: 'https://admissions.dartmouth.edu/apply-dartmouth/standardized-testing-requirement-applicants-attending-schools-outside-us' }
+    { label: 'Dartmouth’s testing guidelines', url: 'https://admissions.dartmouth.edu/apply/testing-policy' }
   ],
-  lastVerified: '2026-09-20'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -237,7 +242,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision', date: '1 November', note: 'Binding' },
       { name: 'Regular Decision', date: '1 January', note: 'Decisions by early April' }
     ],
-    applicationFee: { amount: 85, currency: 'USD', waiver: 'Fee waivers available through the application' },
+    applicationFee: { amount: 85, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waivers available through the application' },
     documents: ['Common Application with Columbia-specific questions', 'School transcript and reports', 'Teacher recommendations'],
     recommendations: 'Two teacher recommendations and a counsellor recommendation',
     essay: 'Common Application essay plus Columbia’s short-answer questions',
@@ -334,7 +339,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision', date: '1 November', note: 'Binding; decisions in December' },
       { name: 'Regular Decision', date: '5 January', note: 'Decisions by 1 April' }
     ],
-    applicationFee: { amount: 75, currency: 'USD', waiver: 'Fee waiver can be requested through the Common or Coalition Application' },
+    applicationFee: { amount: 75, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waiver can be requested through the Common or Coalition Application' },
     documents: ['Common or Coalition Application with Penn’s supplement', 'School transcript and reports', 'Teacher recommendations', 'SAT or ACT scores'],
     recommendations: 'Two teacher recommendations and a counsellor recommendation',
     essay: 'Personal essay plus Penn-specific questions',
@@ -429,7 +434,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision', date: '1 November', note: 'Binding; decisions in mid-December' },
       { name: 'Regular Decision', date: '2 January', note: 'Decisions in early April' }
     ],
-    applicationFee: { amount: 85, currency: 'USD', waiver: 'Fee waiver available for applicants for whom the fee is a burden and who apply for financial aid' },
+    applicationFee: { amount: 85, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waiver available for applicants for whom the fee is a burden and who apply for financial aid' },
     documents: ['Common Application with Cornell’s college-specific questions', 'School transcript and reports', 'Teacher recommendations', 'English proficiency evidence'],
     recommendations: 'Teacher and counsellor recommendations; some colleges ask for a specific subject teacher',
     essay: 'Common Application essay plus Cornell’s college-specific writing supplement',
@@ -445,8 +450,8 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: 'optional', note: 'Cornell’s testing policy differs by college and entry year — check the policy for your college.' },
-    act: { policy: 'optional', note: 'Same as the SAT; confirm with your college.' },
+    sat: { policy: 'required', note: 'Cornell reinstated testing for students entering from autumn 2026: first-year applicants to every college must submit the SAT or ACT. Scores may be self-reported; enrolling students send official scores.' },
+    act: { policy: 'required', note: 'SAT or ACT required.' },
     otherTests: null,
     internationalQualifications: 'International curricula are assessed in context; some colleges ask for specific subject preparation.'
   },
@@ -485,9 +490,10 @@ window.UNIPATH.universities.push(
     { label: 'First-year and transfer students — international', url: 'https://finaid.cornell.edu/first-year-and-transfer-students-international' },
     { label: 'First-year international applicants', url: 'https://admissions.cornell.edu/how-to-apply/first-year-international-applicants' },
     { label: 'Cost to attend', url: 'https://finaid.cornell.edu/cost-to-attend' },
-    { label: 'Board of Trustees approves 2026-27 budget parameters', url: 'https://news.cornell.edu/stories/2026/03/board-trustees-approves-2026-27-budget-parameters' }
+    { label: 'Board of Trustees approves 2026-27 budget parameters', url: 'https://news.cornell.edu/stories/2026/03/board-trustees-approves-2026-27-budget-parameters' },
+    { label: 'Standardized testing policy', url: 'https://admissions.cornell.edu/policies/standardized-testing-policy' }
   ],
-  lastVerified: '2026-09-20'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -521,7 +527,7 @@ window.UNIPATH.universities.push(
       { name: 'Restrictive Early Action', date: '1 November', note: 'Non-binding but restricts other early applications' },
       { name: 'Regular Decision', date: '5 January', note: null }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiver: 'Fee waivers are available through the Common Application; the fee amount was not confirmed on the pages consulted.' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waivers are available through the Common Application; the fee amount was not confirmed on the pages consulted.' },
     documents: ['Common Application with Stanford questions', 'School transcript and school report', 'Teacher recommendations', 'SAT or ACT scores'],
     recommendations: 'Two teacher recommendations and a counsellor report',
     essay: 'Common Application essay plus the Stanford questions',
@@ -613,7 +619,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision', entryTerm: 'Autumn 2027', dateISO: '2026-11-09', date: '9 November 2026', note: 'Financial aid application due 13 November 2026' },
       { name: 'Regular Decision', entryTerm: 'Autumn 2027', dateISO: '2027-01-05', date: '5 January 2027', note: 'Financial aid application due 15 January 2027' }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiver: 'Fee waivers are granted automatically to applicants who meet the College Board criteria in the Common Application profile.' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waivers are granted automatically to applicants who meet the College Board criteria in the Common Application profile.' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Common Application essay plus Amherst’s supplement',
@@ -707,7 +713,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', date: '5 January', note: 'Binding; financial aid application due 1 January' },
       { name: 'Regular Decision', date: '5 January', note: null }
     ],
-    applicationFee: { amount: 70, currency: 'USD', waiver: 'The $70 fee is waived automatically for applicants for financial aid and first-generation applicants' },
+    applicationFee: { amount: 70, currency: 'USD', waiverAvailableToInternational: null, waiver: 'The $70 fee is waived automatically for applicants for financial aid and first-generation applicants' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Common Application essay plus Bowdoin’s supplement',
@@ -803,7 +809,7 @@ window.UNIPATH.universities.push(
       { name: 'Restrictive Early Action', date: '1 November', note: 'Non-binding, but you may not apply Early Decision elsewhere; decisions mid-December' },
       { name: 'Regular Decision', date: '4 January', note: null }
     ],
-    applicationFee: { amount: 85, currency: 'USD', waiver: 'Fee waiver option available' },
+    applicationFee: { amount: 85, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waiver option available' },
     documents: ['Common or Coalition Application', 'School transcript and reports', 'Teacher recommendation', 'CSS Profile for aid applicants'],
     recommendations: 'A counsellor and a teacher recommendation',
     essay: 'Notre Dame writing supplement in addition to the personal essay',
@@ -894,7 +900,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision — financial aid application', date: '15 November 2025', note: 'Deadline published for the 2025–26 cycle' },
       { name: 'Regular Decision — financial aid application', date: '5 January 2026', note: 'Deadline published for the 2025–26 cycle' }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Common Application essay plus the Williams supplement',
@@ -913,8 +919,8 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: null, note: 'Not confirmed on the pages consulted — check the Williams testing policy for your entry year.' },
-    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    sat: { policy: 'optional', note: 'Williams describes itself as "truly test optional": sending SAT or ACT results is your choice, and you can change your mind before the deadline. Scores are superscored.' },
+    act: { policy: 'optional', note: 'Same as the SAT; the ACT science section is optional.' },
     otherTests: null,
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
@@ -951,9 +957,10 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Financial aid instructions for international applicants', url: 'https://www.williams.edu/admission-aid/financial-aid/international/' },
     { label: 'Requirements and deadlines', url: 'https://www.williams.edu/admission-aid/tuition-aid/requirements-and-deadlines/' },
-    { label: 'Additional information for international applicants', url: 'https://www.williams.edu/admission-aid/apply/international/' }
+    { label: 'Additional information for international applicants', url: 'https://www.williams.edu/admission-aid/apply/international/' },
+    { label: 'First-year applicants — testing', url: 'https://www.williams.edu/admission-aid/how-to-apply/first-year/' }
   ],
-  lastVerified: '2026-09-20'
+  lastVerified: '2026-09-22'
 }
 );
 
@@ -992,7 +999,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision', entryTerm: 'Autumn 2027', dateISO: '2026-11-02', date: '2 November 2026', note: 'Binding' },
       { name: 'Regular Decision', entryTerm: 'Autumn 2027', dateISO: '2027-01-04', date: '4 January 2027', note: null }
     ],
-    applicationFee: { amount: 85, currency: 'USD', waiver: 'A fee waiver request can be sent with the Common Application in place of the $85 fee' },
+    applicationFee: { amount: 85, currency: 'USD', waiverAvailableToInternational: null, waiver: 'A fee waiver request can be sent with the Common Application in place of the $85 fee' },
     documents: ['Common Application with the Duke supplement', 'School transcript and School Report', 'Teacher recommendations'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay plus Duke’s supplemental questions',
@@ -1092,7 +1099,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', date: '1 January', note: 'Binding; decisions by 15 February. Aid application due the same day' },
       { name: 'Regular Decision', date: '1 January', note: 'Decisions by 1 April; aid application due 1 February' }
     ],
-    applicationFee: { amount: 50, currency: 'USD', waiver: 'Vanderbilt accepts every fee waiver request submitted through the Common or Coalition Application' },
+    applicationFee: { amount: 50, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Vanderbilt accepts every fee waiver request submitted through the Common or Coalition Application' },
     documents: ['Common or Coalition Application', 'Official secondary school transcript', 'Counsellor letter', 'Two academic teacher letters', 'CSS Profile or ISFAA for aid applicants'],
     recommendations: 'A counsellor letter and two academic teacher letters',
     essay: 'Personal essay and short answer responses',
@@ -1191,7 +1198,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', date: '4 January', note: 'Binding' },
       { name: 'Regular Decision', date: '4 January', note: null }
     ],
-    applicationFee: { amount: 75, currency: 'USD', waiver: 'International applicants cannot request a fee waiver for the $75 fee' },
+    applicationFee: { amount: 75, currency: 'USD', waiverAvailableToInternational: false, waiver: 'International applicants cannot request a fee waiver for the $75 fee' },
     documents: ['Common Application and the Rice writing supplement', 'Official school transcript in English', 'Counsellor and two teacher recommendations', 'Evidence of English proficiency', 'International Student Financial Statement'],
     recommendations: 'A school counsellor letter and two teacher letters',
     essay: 'Common Application essay plus the Rice writing supplement',
@@ -1282,7 +1289,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision', date: '1 November', note: 'Binding; decisions in mid-December' },
       { name: 'Regular Decision', date: '4 January', note: null }
     ],
-    applicationFee: { amount: 75, currency: 'USD', waiver: 'A fee waiver can be requested instead of the $75 fee' },
+    applicationFee: { amount: 75, currency: 'USD', waiverAvailableToInternational: null, waiver: 'A fee waiver can be requested instead of the $75 fee' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendation', 'English proficiency score where required'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay plus Northwestern’s supplemental questions',
@@ -1376,7 +1383,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', entryTerm: 'Autumn 2027', dateISO: '2027-01-04', date: '4 January 2027', note: 'Binding' },
       { name: 'Regular Decision', entryTerm: 'Autumn 2027', dateISO: '2027-01-04', date: '4 January 2027', note: null }
     ],
-    applicationFee: { amount: 90, currency: 'USD', waiver: 'Fee waivers are available; the fee was $90 for autumn 2026 entry' },
+    applicationFee: { amount: 90, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waivers are available; the fee was $90 for autumn 2026 entry' },
     documents: ['Application with the UChicago supplement', 'School transcript and reports', 'Teacher recommendations', 'Student Financial Aid Worksheet for international aid applicants'],
     recommendations: 'Two teacher recommendations and a counsellor report',
     essay: 'Personal essay plus UChicago’s well-known extended essay prompts',
@@ -1482,7 +1489,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', entryTerm: 'Autumn 2027', dateISO: '2027-01-02', date: '2 January 2027', note: 'Binding; aid application due 15 January; decisions 12 February' },
       { name: 'Regular Decision', entryTerm: 'Autumn 2027', dateISO: '2027-01-02', date: '2 January 2027', note: 'Aid application due 15 January; decisions 24 March' }
     ],
-    applicationFee: { amount: 70, currency: 'USD', waiver: 'Fee waivers through the Common Application or Coalition on Scoir, or by Hopkins’ own request form' },
+    applicationFee: { amount: 70, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waivers through the Common Application or Coalition on Scoir, or by Hopkins’ own request form' },
     documents: ['Common or Coalition application', 'Hopkins supplemental essay (350 words)', 'School transcript and secondary school report', 'Two teacher evaluations', 'SAT or ACT scores', 'Mid-year school report'],
     recommendations: 'Two teacher evaluations from different academic subjects plus a counsellor report',
     essay: 'Personal essay plus a 350-word Hopkins supplement',
@@ -1574,7 +1581,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', entryTerm: 'Autumn 2027', dateISO: '2027-01-04', date: '4 January 2027', note: 'Binding; aid documents due 11 January; decisions 12 February' },
       { name: 'Regular Decision', entryTerm: 'Autumn 2027', dateISO: '2027-01-04', date: '4 January 2027', note: 'Aid documents due 1 February; decisions 1 April' }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiver: 'WashU publishes a fee waiver request; the fee amount was not confirmed on the pages consulted.' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: 'WashU publishes a fee waiver request; the fee amount was not confirmed on the pages consulted.' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay plus WashU’s supplemental questions',
@@ -1593,8 +1600,8 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: 'optional', note: 'WashU’s SAT/ACT policy for first-year applicants was not confirmed on the pages consulted; what is confirmed is that from autumn 2027 those scores cannot replace an English proficiency test.' },
-    act: { policy: 'optional', note: 'See the SAT note.' },
+    sat: { policy: 'optional', note: 'WashU is test-optional for autumn 2027. Applicants who do not send scores are not penalised; AP, IB or other results can be sent in addition to or instead of the SAT or ACT. From autumn 2027 SAT/ACT scores cannot replace an English proficiency test.' },
+    act: { policy: 'optional', note: 'Same as the SAT; the ACT science section is not required.' },
     otherTests: null,
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
@@ -1632,9 +1639,10 @@ window.UNIPATH.universities.push(
     { label: 'Financial aid common questions', url: 'https://financialaid.wustl.edu/common-questions/' },
     { label: 'Financial aid for international students', url: 'https://students.wustl.edu/financial-aid-international-students/' },
     { label: 'Application dates and deadlines', url: 'https://admissions.washu.edu/how-to-apply/application-deadlines/' },
-    { label: 'English testing requirements', url: 'https://admissions.washu.edu/how-to-apply/english-testing-requirements/' }
+    { label: 'English testing requirements', url: 'https://admissions.washu.edu/how-to-apply/english-testing-requirements/' },
+    { label: 'Common questions — testing', url: 'https://admissions.washu.edu/how-to-apply/common-questions/' }
   ],
-  lastVerified: '2026-09-20'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -1669,7 +1677,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', date: '1 January', note: 'Binding; financial aid deadline 6 January; decisions by 15 February' },
       { name: 'Regular Decision', date: '1 January', note: 'Financial aid deadline 10 February; decisions by 1 April' }
     ],
-    applicationFee: { amount: 75, currency: 'USD', waiver: 'A fee waiver can be requested instead of the $75 fee' },
+    applicationFee: { amount: 75, currency: 'USD', waiverAvailableToInternational: null, waiver: 'A fee waiver can be requested instead of the $75 fee' },
     documents: ['Common or Coalition Application', 'School transcript and reports', 'Teacher recommendation', 'CSS Profile and IDOC documents for aid applicants'],
     recommendations: 'Counsellor and teacher recommendations',
     essay: 'Personal essay plus Emory’s supplemental questions',
@@ -1689,8 +1697,8 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: null, note: 'Not confirmed on the pages consulted — check Emory’s testing policy for your entry year.' },
-    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    sat: { policy: 'optional', note: 'Emory is test-optional for students starting in autumn 2027. Self-reported scores are accepted; admitted students who enrol send official scores, which are verified. AP scores of 3 or higher are encouraged.' },
+    act: { policy: 'optional', note: 'Same as the SAT; the writing section is not required.' },
     otherTests: null,
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
@@ -1741,9 +1749,10 @@ window.UNIPATH.universities.push(
     { label: 'Undergraduate aid for international students', url: 'https://studentaid.emory.edu/undergraduate/apply/new-students/international.html' },
     { label: 'International applicants', url: 'https://apply.emory.edu/apply/international-applicants.html' },
     { label: 'Plans and deadlines', url: 'https://apply.emory.edu/apply/first-year/plans-deadlines/index.html' },
-    { label: 'Cost of attendance worksheet 2026-2027', url: 'https://studentaid.emory.edu/_includes/documents/sections/undergraduate/apply/cost-of-attendance-worksheet.pdf' }
+    { label: 'Cost of attendance worksheet 2026-2027', url: 'https://studentaid.emory.edu/_includes/documents/sections/undergraduate/apply/cost-of-attendance-worksheet.pdf' },
+    { label: 'Standardized exam policies', url: 'https://apply.emory.edu/apply/requirements/exams' }
   ],
-  lastVerified: '2026-09-20'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -1778,7 +1787,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', entryTerm: 'Autumn 2027', dateISO: '2027-01-04', date: '4 January 2027', note: 'Binding; decisions in early February' },
       { name: 'Regular Decision', entryTerm: 'Autumn 2027', dateISO: '2027-01-04', date: '4 January 2027', note: 'Decisions by 1 April' }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiver: 'Tufts waives the admission application fee for international citizens seeking need-based aid' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: true, waiver: 'Tufts waives the admission application fee for international citizens seeking need-based aid.' },
     documents: ['Common Application, Coalition on Scoir or QuestBridge application', 'School transcript', 'Letters of recommendation', 'ISFAA or CSS Profile for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay plus Tufts’ supplemental questions',
@@ -1877,7 +1886,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', date: '1 January', note: 'Binding' },
       { name: 'Regular Decision', date: '1 January', note: 'Decisions in mid-March; reply by 1 May' }
     ],
-    applicationFee: { amount: 0, currency: 'USD', waiver: 'Richmond waives the application fee for international students and other applicants living abroad' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: true, waiver: 'Richmond waives the application fee for international students and other applicants living abroad.' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'Certification of Financial Responsibility', 'CSS Profile for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay plus the Richmond supplement',
@@ -1988,7 +1997,7 @@ window.UNIPATH.universities.push(
       { name: 'Winter Early Decision', date: '4 January', note: 'Binding; decisions in mid-February' },
       { name: 'Regular Decision', date: '4 January', note: null }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiver: 'Fee waivers are decided by Swarthmore, the Common Application, NACAC, the College Board or the ACT; anyone with financial need can check eligibility through SwatPass.' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waivers are decided by Swarthmore, the Common Application, NACAC, the College Board or the ACT; anyone with financial need can check eligibility through SwatPass.' },
     documents: ['Common Application, Coalition on Scoir or QuestBridge application', 'Swarthmore short answer', 'School transcript and reports', 'Two academic teacher recommendations'],
     recommendations: 'Two academic-subject teacher recommendations and a counsellor report',
     essay: 'Personal essay plus Swarthmore’s short answer',
@@ -2084,7 +2093,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II — financial aid', date: '15 January', note: 'Published on Pomona’s financial aid deadline table' },
       { name: 'Regular Decision — financial aid', date: '15 January', note: 'Published on Pomona’s financial aid deadline table' }
     ],
-    applicationFee: { amount: 80, currency: 'USD', waiver: 'The $80 fee is waived for aid applicants who complete the Pomona Access Pass form' },
+    applicationFee: { amount: 80, currency: 'USD', waiverAvailableToInternational: null, waiver: 'The $80 fee is waived for aid applicants who complete the Pomona Access Pass form' },
     documents: ['Common, Coalition or QuestBridge application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile and IDOC documents for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay plus Pomona’s supplemental questions',
@@ -2180,7 +2189,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', date: '1 January', note: 'Binding' },
       { name: 'Regular Decision', date: '8 January', note: null }
     ],
-    applicationFee: { amount: 0, currency: 'USD', waiver: 'There is no fee to apply to Wellesley' },
+    applicationFee: { amount: 0, currency: 'USD', waiverAvailableToInternational: null, waiver: null, note: 'There is no fee to apply to Wellesley' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'Financial aid documents for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay plus Wellesley’s supplemental questions',
@@ -2198,8 +2207,8 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: null, note: 'Not confirmed on the pages consulted — check Wellesley’s testing policy for your entry year.' },
-    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    sat: { policy: 'optional', note: 'Wellesley remains test-optional for entry in autumn 2027. It accepts the SAT or the ACT (with or without the science section).' },
+    act: { policy: 'optional', note: 'Same as the SAT.' },
     otherTests: null,
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
@@ -2240,9 +2249,10 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'International students — financial aid', url: 'https://www.wellesley.edu/admission-aid/student-financial-services/understanding-financial-aid/apply-for-aid/international-students' },
     { label: 'Cost of attendance and payment', url: 'https://www.wellesley.edu/admission/cost' },
-    { label: 'Wellesley announces free tuition for families with incomes of $200,000 or less', url: 'https://www.wellesley.edu/news/wellesley-free-tuition-income-200k-or-less-fall-2027' }
+    { label: 'Wellesley announces free tuition for families with incomes of $200,000 or less', url: 'https://www.wellesley.edu/news/wellesley-free-tuition-income-200k-or-less-fall-2027' },
+    { label: 'Admission FAQs — testing', url: 'https://www.wellesley.edu/admission-aid/faqs' }
   ],
-  lastVerified: '2026-09-20'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -2277,7 +2287,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', date: '4 January', note: 'Binding' },
       { name: 'Regular Decision', date: '5 January', note: null }
     ],
-    applicationFee: { amount: 0, currency: 'USD', waiver: 'From the 2026–27 application cycle Middlebury’s application is free' },
+    applicationFee: { amount: 0, currency: 'USD', waiverAvailableToInternational: null, waiver: null, note: 'From the 2026–27 application cycle Middlebury’s application is free' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay plus Middlebury’s supplemental questions',
@@ -2293,8 +2303,8 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
-    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    sat: { policy: 'optional', note: 'Middlebury’s standardized testing page states that it is test-optional; roughly half of applicants apply without scores. Self-reported scores are accepted.' },
+    act: { policy: 'optional', note: 'Same as the SAT; the ACT science section is not required.' },
     otherTests: null,
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
@@ -2333,9 +2343,10 @@ window.UNIPATH.universities.push(
     { label: 'Financial aid — Middlebury College admissions', url: 'https://www.middlebury.edu/college/admissions/affordability' },
     { label: 'First-year and transfer students — applying for aid', url: 'https://www.middlebury.edu/student-financial-services/apply-aid/first-year-and-transfer-students' },
     { label: 'Tuition and fees 2026–2027', url: 'https://www.middlebury.edu/student-financial-services/tuition-fees-and-payment/tuition-and-fees' },
-    { label: 'Application instructions and deadlines', url: 'https://www.middlebury.edu/college/admissions/application-instructions-and-deadlines' }
+    { label: 'Application instructions and deadlines', url: 'https://www.middlebury.edu/college/admissions/application-instructions-and-deadlines' },
+    { label: 'Standardized tests', url: 'https://www.middlebury.edu/college/admissions/apply/standardized-tests' }
   ],
-  lastVerified: '2026-09-20'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -2370,7 +2381,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', date: '2 January', note: 'Binding; international CSS Profile due 4 January' },
       { name: 'Regular Decision', date: '4 January', note: 'International CSS Profile due 15 January' }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay plus Colby’s supplement',
@@ -2386,8 +2397,8 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: null, note: 'Not confirmed on the pages consulted — check Colby’s testing policy for your entry year.' },
-    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    sat: { policy: 'optional', note: 'Colby is test-optional; self-reported SAT and ACT scores are accepted and superscored.' },
+    act: { policy: 'optional', note: 'Same as the SAT.' },
     otherTests: null,
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
@@ -2426,9 +2437,10 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'International applicants', url: 'https://afa.colby.edu/apply/requirements/international-applicants/' },
     { label: 'Tuition and fees', url: 'https://afa.colby.edu/cost-and-aid/tuition-and-fees/' },
-    { label: 'Dates and deadlines', url: 'https://afa.colby.edu/apply/dates-and-deadlines/' }
+    { label: 'Dates and deadlines', url: 'https://afa.colby.edu/apply/dates-and-deadlines/' },
+    { label: 'Admissions requirements', url: 'https://afa.colby.edu/apply/requirements/' }
   ],
-  lastVerified: '2026-09-20'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -2463,7 +2475,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', date: '4 January', note: 'Binding; notification by 30 January' },
       { name: 'Regular Decision', date: '11 January', note: 'Notification by 1 April' }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'Financial aid forms for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay plus Davidson’s supplement',
@@ -2482,8 +2494,8 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
-    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    sat: { policy: 'optional', note: 'Davidson made its test-optional policy permanent. Scores may be self-reported; enrolling students send official scores.' },
+    act: { policy: 'optional', note: 'Same as the SAT; the writing section is not considered.' },
     otherTests: null,
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
@@ -2528,9 +2540,10 @@ window.UNIPATH.universities.push(
     { label: 'International students — financial aid', url: 'https://www.davidson.edu/admission-and-financial-aid/financial-aid/applying-aid/international-students' },
     { label: 'Cost of attendance 2026-2027', url: 'https://www.davidson.edu/admission-and-financial-aid/cost-attendance' },
     { label: 'Davidson College goes tuition-free for families earning up to $175K', url: 'https://www.davidson.edu/news/2026/07/06/davidson-college-goes-tuition-free-for-low-middle-income-families' },
-    { label: 'Admission and aid timeline', url: 'https://www.davidson.edu/admission-and-financial-aid/admission-aid-timeline' }
+    { label: 'Admission and aid timeline', url: 'https://www.davidson.edu/admission-and-financial-aid/admission-aid-timeline' },
+    { label: 'Testing policy', url: 'https://www.davidson.edu/admission-and-financial-aid/admission-process-help/testing-policy' }
   ],
-  lastVerified: '2026-09-20'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -2565,7 +2578,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', date: '5 January', note: 'Binding; financial aid forms due the same day; decisions early February' },
       { name: 'Regular Decision', date: '15 January', note: 'Financial aid forms due the same day; decisions late March or early April' }
     ],
-    applicationFee: { amount: 0, currency: 'USD', waiver: 'Grinnell charges no application fee' },
+    applicationFee: { amount: 0, currency: 'USD', waiverAvailableToInternational: null, waiver: null, note: 'Grinnell charges no application fee' },
     documents: ['Common Application (no supplement required)', 'Two teacher evaluations', 'Counsellor recommendation and secondary school report', 'Official school transcript', 'CSS Profile or ISFAA for aid applicants'],
     recommendations: 'Two teacher evaluations plus a counsellor recommendation',
     essay: 'The Common Application essay; Grinnell requires no supplement',
@@ -2669,7 +2682,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II — financial aid', date: '1 January', note: 'Published on Vassar’s international financial aid schedule' },
       { name: 'Regular Decision — financial aid', date: '1 February', note: 'Published on Vassar’s international financial aid schedule' }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiver: 'A fee waiver can be requested on the Common Application or the Coalition Application' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: 'A fee waiver can be requested on the Common Application or the Coalition Application' },
     documents: ['Common or Coalition Application', 'School transcript and reports', 'Teacher recommendations', 'Financial aid forms for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay plus Vassar’s supplement',
@@ -2685,8 +2698,8 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
-    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    sat: { policy: 'optional', note: 'Vassar has made its test-optional policy permanent: applicants choose whether to send SAT or ACT scores.' },
+    act: { policy: 'optional', note: 'Same as the SAT.' },
     otherTests: null,
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
@@ -2726,9 +2739,10 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'International applicants', url: 'https://www.vassar.edu/admission/apply/international/' },
     { label: 'Prospective international students 2026-2027 (financial aid)', url: 'https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2025/09/Prospective_Intl_2627.pdf' },
-    { label: 'Tuition and fees', url: 'https://www.vassar.edu/admission/financial-aid/tuition/' }
+    { label: 'Tuition and fees', url: 'https://www.vassar.edu/admission/financial-aid/tuition/' },
+    { label: 'Vassar makes test-optional policy permanent', url: 'https://www.vassar.edu/news/vassar-makes-test-optional-policy-permanent-applicants' }
   ],
-  lastVerified: '2026-09-20'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -2763,7 +2777,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', date: '4 January', note: 'Binding' },
       { name: 'Regular Decision', date: '4 January', note: null }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'Certification of Finances (all international applicants)', 'CSS Profile for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay plus Hamilton’s supplement',
@@ -2782,8 +2796,8 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
-    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    sat: { policy: 'optional', note: 'Hamilton does not require the SAT or ACT. It encourages applicants with at least 1400 on the SAT or 32 on the ACT to submit scores, superscores both tests and accepts self-reported results.' },
+    act: { policy: 'optional', note: 'Same as the SAT.' },
     otherTests: null,
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
@@ -2825,9 +2839,10 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Financial aid — international students', url: 'https://www.hamilton.edu/admission/finaid/international' },
     { label: 'Cost', url: 'https://www.hamilton.edu/admission/tuition' },
-    { label: 'Apply — application details', url: 'https://www.hamilton.edu/admission/apply/details' }
+    { label: 'Apply — application details', url: 'https://www.hamilton.edu/admission/apply/details' },
+    { label: 'Testing policy', url: 'https://www.hamilton.edu/admission/apply/testing' }
   ],
-  lastVerified: '2026-09-20'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -2862,7 +2877,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', date: '5 January', note: 'Binding; financial aid application due the same day' },
       { name: 'Regular Decision', date: '10 January', note: 'Financial aid application due the same day' }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiver: 'A school counsellor can request a fee waiver in a letter with the application' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: 'A school counsellor can request a fee waiver in a letter with the application' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile or Haverford’s International Student Financial Aid Application'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay plus Haverford’s supplement',
@@ -2881,8 +2896,8 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
-    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    sat: { policy: 'optional', note: 'Haverford made test-optional admission permanent in 2022; self-reported or official scores are accepted, and enrolling students must send official scores.' },
+    act: { policy: 'optional', note: 'Same as the SAT.' },
     otherTests: null,
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
@@ -2925,9 +2940,10 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'International applicants — financial aid', url: 'https://www.haverford.edu/financial-aid/international-applicants' },
     { label: 'Tuition and aid', url: 'https://www.haverford.edu/admission/tuition-and-aid' },
-    { label: 'Cost of attendance', url: 'https://www.haverford.edu/financial-aid/cost-of-attendance' }
+    { label: 'Cost of attendance', url: 'https://www.haverford.edu/financial-aid/cost-of-attendance' },
+    { label: 'Application instructions', url: 'https://www.haverford.edu/admission/applying/application-instructions' }
   ],
-  lastVerified: '2026-09-20'
+  lastVerified: '2026-09-22'
 }
 );
 
@@ -2968,7 +2984,7 @@ window.UNIPATH.universities.push(
       { name: 'Restrictive Early Action', entryTerm: 'Autumn 2027', dateISO: '2026-11-01', date: '1 November 2026', note: 'Decisions in mid-December' },
       { name: 'Regular Decision', entryTerm: 'Autumn 2027', dateISO: '2027-01-04', date: '4 January 2027', note: 'Decisions in mid-March; reply by 1 May 2027' }
     ],
-    applicationFee: { amount: 85, currency: 'USD', waiver: 'Aid applicants for whom the $85 fee is a hardship can have it waived; QuestBridge applicants are never charged' },
+    applicationFee: { amount: 85, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Aid applicants for whom the $85 fee is a hardship can have it waived; QuestBridge applicants are never charged' },
     documents: ['Common Application with Caltech’s supplemental essays', 'School transcript and reports', 'Two teacher recommendations (maths or science and humanities or social science)', 'SAT or ACT scores', 'English proficiency score where required'],
     recommendations: 'A maths or science teacher and a humanities or social science teacher, plus a counsellor',
     essay: 'Personal essay plus Caltech’s supplemental essays',
@@ -3067,7 +3083,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision', date: '2 November', note: 'Binding; decisions by 15 December. Not available for Drama, Music or BXA Design' },
       { name: 'Regular Decision', date: '4 January', note: 'Decisions by 1 April; Drama and Music applicants apply by 1 December' }
     ],
-    applicationFee: { amount: 75, currency: 'USD', waiver: null },
+    applicationFee: { amount: 75, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendation', 'English proficiency score for non-native speakers', 'Portfolio or audition for arts programmes'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay plus Carnegie Mellon’s short-answer questions',
@@ -3083,8 +3099,8 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: null, note: 'Not confirmed on the pages consulted — check Carnegie Mellon’s standardized testing page for your entry year.' },
-    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    sat: { policy: 'required-alternatives', label: 'Depends on the college: SAT/ACT required for Computer Science, test-flexible elsewhere, optional for Fine Arts', note: 'For autumn 2027 the policy depends on the college: the School of Computer Science requires the SAT or ACT; the College of Fine Arts is test-optional; every other college is "test flexible", accepting the SAT, ACT, IB (predicted or final), AP, Cambridge A-Levels (predicted or final) or French Baccalaureate (predicted or final). SAT results are superscored; ACT results are not.' },
+    act: { policy: 'required-alternatives', note: 'Accepted as one option; the School of Computer Science requires the SAT or ACT.' },
     otherTests: null,
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
@@ -3124,9 +3140,10 @@ window.UNIPATH.universities.push(
     { label: 'International applicants', url: 'https://www.cmu.edu/admission/admission/international-applicants' },
     { label: 'International student funding opportunities', url: 'https://www.cmu.edu/sfs/financial-aid/international/index.html' },
     { label: 'Application plans and deadlines', url: 'https://www.cmu.edu/admission/admission/application-plans-deadlines' },
-    { label: '2026-2027 undergraduate tuition', url: 'https://www.cmu.edu/sfs/tuition/undergraduate/index.html' }
+    { label: '2026-2027 undergraduate tuition', url: 'https://www.cmu.edu/sfs/tuition/undergraduate/index.html' },
+    { label: 'Standardized testing', url: 'https://www.cmu.edu/admission/admission/standardized-testing' }
   ],
-  lastVerified: '2026-09-21'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -3160,7 +3177,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Action', date: '1 November', note: 'Non-binding, but you may not apply Early Decision elsewhere; decisions by 15 December' },
       { name: 'Regular Decision', date: '1 January', note: 'Decisions by 1 April' }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiver: 'Georgetown accepts fee waiver requests from any applicant, international applicants included, for whom the fee is a significant burden' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: true, waiver: 'Georgetown accepts fee waiver requests from any applicant, international applicants included, for whom the fee is a significant burden' },
     documents: ['Georgetown Application (not the Common Application)', 'Georgetown Writing Supplement: two short and two long essays', 'Academic credentials for all four years of secondary school', 'SAT or ACT scores', 'CSS Profile for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Two short and two long essays in the Georgetown Writing Supplement',
@@ -3254,7 +3271,7 @@ window.UNIPATH.universities.push(
       { name: 'Merit scholarship consideration', date: '1 December', note: 'Apply by this date to be considered for USC merit scholarships' },
       { name: 'Regular Decision', date: '15 January', note: 'Final first-year deadline' }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application with USC questions', 'Official records from all secondary schools, with certified English translations', 'External exam results or predictions (IB, A-Levels, national exams)', 'Financial Statement of Personal or Family Support', 'Copy of passport', 'English proficiency score'],
     recommendations: 'Counsellor and teacher recommendations',
     essay: 'Common Application essay plus USC’s supplement',
@@ -3358,7 +3375,7 @@ window.UNIPATH.universities.push(
     deadlines: [
       { name: 'Merit scholarship consideration', date: '1 December', note: 'International applicants must apply for admission by this date to be considered for merit scholarships' }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Common Application essay plus BU’s supplement',
@@ -3374,8 +3391,8 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
-    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    sat: { policy: 'optional', note: 'BU is test-optional for first-year applicants through autumn 2028 and spring 2029, for all schools, colleges and scholarship programmes. Both tests are superscored.' },
+    act: { policy: 'optional', note: 'Same as the SAT.' },
     otherTests: null,
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
@@ -3425,9 +3442,10 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'International students — financial assistance', url: 'https://www.bu.edu/finaid/undergraduate-students/international/' },
     { label: 'Cost of attendance 2026/2027', url: 'https://www.bu.edu/admissions/tuition-aid/tuition/' },
-    { label: 'Merit scholarships for first-year students', url: 'https://www.bu.edu/admissions/tuition-aid/scholarships-financial-aid/first-year-merit/' }
+    { label: 'Merit scholarships for first-year students', url: 'https://www.bu.edu/admissions/tuition-aid/scholarships-financial-aid/first-year-merit/' },
+    { label: 'BU’s standardized test policy', url: 'https://www.bu.edu/admissions/apply/first-year/test-policy/' }
   ],
-  lastVerified: '2026-09-21'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -3462,7 +3480,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', date: '4 January', note: 'Binding; decisions by 15 February' },
       { name: 'Regular Decision', date: '4 January', note: 'Decisions by 1 April; reply by 1 May' }
     ],
-    applicationFee: { amount: 85, currency: 'USD', waiver: 'Fee waivers through the Common Application are for US citizens and permanent residents' },
+    applicationFee: { amount: 85, currency: 'USD', waiverAvailableToInternational: false, waiver: 'Fee waivers through the Common Application are for US citizens and permanent residents' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'English proficiency score for international applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Common Application essay plus Boston College’s supplement',
@@ -3553,7 +3571,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', date: '1 January', note: 'Binding' },
       { name: 'Regular Decision', date: '1 January', note: null }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common or Coalition Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile (code 3092) for aid applicants', 'Income and asset documents on request'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay plus Brandeis’ supplement',
@@ -3572,8 +3590,8 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
-    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    sat: { policy: 'optional', note: 'Brandeis has been test-optional since 2013: applicants say on the Common Application whether they want SAT or ACT scores considered, and are considered for merit scholarships either way.' },
+    act: { policy: 'optional', note: 'Same as the SAT; the new ACT science section is not required.' },
     otherTests: null,
     internationalQualifications: 'Documents in other languages need certified translations from a consulate, embassy or school official.'
   },
@@ -3617,9 +3635,10 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'International students — how to apply for aid', url: 'https://www.brandeis.edu/student-financial-services/financial-aid/apply/international-students.html' },
     { label: 'International student scholarships', url: 'https://www.brandeis.edu/student-financial-services/financial-aid/scholarships/international.html' },
-    { label: 'Wien International Scholarship Program', url: 'https://www.brandeis.edu/isso/programs/wien/index.html' }
+    { label: 'Wien International Scholarship Program', url: 'https://www.brandeis.edu/isso/programs/wien/index.html' },
+    { label: 'Test-optional policy', url: 'https://www.brandeis.edu/admissions/apply/test-optional-policy.html' }
   ],
-  lastVerified: '2026-09-21'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -3651,7 +3670,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application', 'Coalition on Scoir'],
     deadlines: [],
-    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application or Coalition on Scoir', 'School transcript and reports, with English translations', 'Recommendations with English translations', 'English language exam score for non-native speakers', 'CSS Profile (code 1105) for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay; scholarship competitions have their own essay prompt',
@@ -3667,8 +3686,8 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
-    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    sat: { policy: 'optional', note: 'No testing is required for any CWRU undergraduate programme, the Pre-Professional Scholars Program or any scholarship or aid programme. Applicants can switch their choice until two weeks before decisions are released.' },
+    act: { policy: 'optional', note: 'Same as the SAT.' },
     otherTests: null,
     internationalQualifications: 'International qualifications are accepted; records and recommendations need English translations.'
   },
@@ -3716,9 +3735,10 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'International students — financial aid', url: 'https://case.edu/financialaid/undergraduates/international-students' },
     { label: 'International applicants — English proficiency and scholarships', url: 'https://case.edu/admission/apply/international-students' },
-    { label: 'Estimated costs of attendance 2026-27', url: 'https://case.edu/financialaid/undergraduates/estimated-costs-attendance-2026-27' }
+    { label: 'Estimated costs of attendance 2026-27', url: 'https://case.edu/financialaid/undergraduates/estimated-costs-attendance-2026-27' },
+    { label: 'Test policy', url: 'https://case.edu/admission/apply/application-requirements-enhancements/test-optional' }
   ],
-  lastVerified: '2026-09-21'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -3752,7 +3772,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision I', date: '1 November', note: 'Binding' },
       { name: 'Early Decision II', date: '5 January', note: 'Binding' }
     ],
-    applicationFee: { amount: 50, currency: 'USD', waiver: 'Application Fee Waiver Request Form for applicants facing hardship' },
+    applicationFee: { amount: 50, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Application Fee Waiver Request Form for applicants facing hardship' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile for international aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay plus Rochester’s supplement',
@@ -3853,7 +3873,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision', date: '1 November', note: 'Binding' },
       { name: 'Early Action', date: '10 November', note: 'Non-binding; apply early to be competitive for merit scholarships' }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and reports', 'CSS Profile for need-based aid', 'Tulane Declaration & Certification of Finances'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Common Application essay plus Tulane’s supplement',
@@ -3872,8 +3892,8 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
-    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    sat: { policy: 'optional', note: 'SAT or ACT scores remain optional for autumn 2027 first-year admission, except for the Pathways to Medicine programme, which requires them. Tulane encourages scores of 1300+ SAT or 28+ ACT and treats tests or international exam results as a preferred credential for merit scholarships.' },
+    act: { policy: 'optional', note: 'Same as the SAT.' },
     otherTests: null,
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
@@ -3922,9 +3942,10 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'International student financial aid', url: 'https://admission.tulane.edu/international/aid' },
     { label: 'Newcomb-Tulane College tuition and fees 2026-2027', url: 'https://studentaccounts.tulane.edu/sites/default/files/2026-03/2026-2027_NTC_COSTS_20260319.pdf' },
-    { label: 'Merit scholarships', url: 'https://admission.tulane.edu/tuition-aid/merit-scholarships' }
+    { label: 'Merit scholarships', url: 'https://admission.tulane.edu/tuition-aid/merit-scholarships' },
+    { label: 'Standardized tests', url: 'https://admission.tulane.edu/apply/instructions/standardized-tests' }
   ],
-  lastVerified: '2026-09-21'
+  lastVerified: '2026-09-22'
 }
 );
 
@@ -3962,7 +3983,7 @@ window.UNIPATH.universities.push(
     deadlines: [
       { name: 'Early Decision I — financial aid', date: '15 November', note: 'CSS Profile due for Early Decision I applicants' }
     ],
-    applicationFee: { amount: 0, currency: 'USD', waiver: 'There is no application fee' },
+    applicationFee: { amount: 0, currency: 'USD', waiverAvailableToInternational: null, waiver: null, note: 'There is no application fee' },
     documents: ['Common or Coalition Application', 'School transcript and reports', 'Teacher recommendations', 'Midyear report', 'CSS Profile and translated income documents for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay',
@@ -4064,7 +4085,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', date: '5 January', note: 'Binding; notification in late January. Financial aid due the same day' },
       { name: 'Regular Decision', date: '15 January', note: 'Notification in mid-March. Financial aid due the same day' }
     ],
-    applicationFee: { amount: 0, currency: 'USD', waiver: 'There is no application fee for any option' },
+    applicationFee: { amount: 0, currency: 'USD', waiverAvailableToInternational: null, waiver: null, note: 'There is no application fee for any option' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay',
@@ -4157,7 +4178,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', date: '1 January', note: 'Binding; financial aid application due at the same time' },
       { name: 'Regular Decision', date: '15 January', note: 'Financial aid application due at the same time' }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application with the Bryn Mawr Writing Supplement', 'Official transcripts and national exam results (IB, A-Level, etc.)', 'Counsellor recommendation and two teacher recommendations', 'Evidence of English proficiency', 'Mid-year grade report', 'Declaration of Finances form', 'CSS Profile for aid applicants'],
     recommendations: 'A school counsellor and two teachers',
     essay: 'Common Application essay plus the Bryn Mawr Writing Supplement',
@@ -4176,8 +4197,8 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
-    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    sat: { policy: 'optional', note: 'Bryn Mawr’s admissions policies state it is test-optional; scores that are sent are used only for advising and placement. The policy does not cover English proficiency tests.' },
+    act: { policy: 'optional', note: 'Same as the SAT.' },
     otherTests: null,
     internationalQualifications: 'National exams such as the IB and A-Levels are submitted with the transcript.'
   },
@@ -4218,9 +4239,10 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'International students — admissions', url: 'https://www.brynmawr.edu/admissions-aid/apply/international-students' },
     { label: 'Tuition, fees and costs 2026-2027', url: 'https://www.brynmawr.edu/admissions-aid/financial-aid/tuition-fees-costs' },
-    { label: 'Apply for aid: international first-year applicants', url: 'https://www.brynmawr.edu/admissions-aid/financial-aid/international-first-year-applicants' }
+    { label: 'Apply for aid: international first-year applicants', url: 'https://www.brynmawr.edu/admissions-aid/financial-aid/international-first-year-applicants' },
+    { label: 'Admissions policies', url: 'https://www.brynmawr.edu/admissions-aid/policies-resources/admissions-policies' }
   ],
-  lastVerified: '2026-09-21'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -4254,7 +4276,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision', date: '1 November', note: 'Date used in the previous cycle; confirm for your entry year' },
       { name: 'Regular Decision', date: '1 January', note: 'Date used in the previous cycle; confirm for your entry year' }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and national exam results', 'Teacher recommendations', 'English proficiency evidence', 'Financial aid documents through the Barnard applicant portal'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay plus Barnard’s supplement',
@@ -4273,8 +4295,8 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: null, note: 'Not confirmed on the pages consulted — check Barnard’s standardized testing requirement.' },
-    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    sat: { policy: 'optional', note: 'Barnard is SAT and ACT test-optional for students applying in the 2027 first-year cycle; applying without scores is not a disadvantage. The policy will be revisited.' },
+    act: { policy: 'optional', note: 'Same as the SAT.' },
     otherTests: null,
     internationalQualifications: 'Transcripts and national exam results are required.'
   },
@@ -4314,9 +4336,10 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'International applicants', url: 'https://barnard.edu/admissions/internationalstudents' },
     { label: 'Cost of attendance 2026-2027', url: 'https://barnard.edu/finaid/cost-of-attendance' },
-    { label: 'Apply for aid', url: 'https://barnard.edu/finaid/apply-for-aid' }
+    { label: 'Apply for aid', url: 'https://barnard.edu/finaid/apply-for-aid' },
+    { label: 'Standardized testing', url: 'https://barnard.edu/admissions/testing' }
   ],
-  lastVerified: '2026-09-21'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -4351,7 +4374,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', date: '10 January', note: 'Binding; notification by 15 February' },
       { name: 'Regular Decision', date: '10 January', note: 'Notification by 1 April; reply by 1 May' }
     ],
-    applicationFee: { amount: 0, currency: 'USD', waiver: 'It is free for any student to apply to Bates' },
+    applicationFee: { amount: 0, currency: 'USD', waiverAvailableToInternational: null, waiver: null, note: 'It is free for any student to apply to Bates' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'Official English proficiency score where required', 'Bates International Student Application for Financial Aid (BISAFA) for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay',
@@ -4441,7 +4464,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', date: '1 January', note: 'Binding; financial aid application due the same day' },
       { name: 'Regular Decision', date: '1 January', note: 'Financial aid application due 15 January' }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common or Coalition Application', 'School Report with actual or predicted exam results (A-Level, IB, French Baccalaureate and others)', 'Certified English translations of any documents not in English', 'International Student Certification of Finances', 'CSS Profile or ISFAA for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay',
@@ -4544,7 +4567,7 @@ window.UNIPATH.universities.push(
       { name: 'Regular Decision', date: '5 January', note: 'Financial aid due 1 February 2027' },
       { name: 'Johnson Scholarship application', entryTerm: 'Autumn 2027', dateISO: '2026-12-01', date: '1 December 2026', note: 'Required to be considered for any W&L scholarship; supporting materials by 15 December 2026' }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiver: 'Some applicants qualify to have the Common or Coalition Application fee waived' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Some applicants qualify to have the Common or Coalition Application fee waived' },
     documents: ['Common or Coalition Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile for need-based aid', 'Johnson Scholarship application for merit consideration'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay; the Johnson Scholarship has its own essays',
@@ -4563,8 +4586,8 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
-    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    sat: { policy: 'optional', note: 'SAT or ACT scores are not required in the 2026–27 cycle. W&L suggests that students completing national curricula outside the US strongly consider sending scores if testing is reasonably available to them.' },
+    act: { policy: 'optional', note: 'Same as the SAT; the ACT writing and science sections are not required.' },
     otherTests: null,
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
@@ -4614,9 +4637,10 @@ window.UNIPATH.universities.push(
     { label: 'International student aid', url: 'https://www.wlu.edu/admissions/financial-aid/types-of-aid/international-student-aid' },
     { label: 'The Johnson Scholarship', url: 'https://www.wlu.edu/admissions/the-johnson-scholarship' },
     { label: 'Tuition and fees 2026-2027', url: 'https://my.wlu.edu/business-office/parents-and-students/tuition-information/tuition-and-fees' },
-    { label: 'Apply to W&L', url: 'https://www.wlu.edu/admissions/apply' }
+    { label: 'Apply to W&L', url: 'https://www.wlu.edu/admissions/apply' },
+    { label: 'Test-optional admissions policy', url: 'https://www.wlu.edu/admissions/apply/test-optional-policy' }
   ],
-  lastVerified: '2026-09-21'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -4651,7 +4675,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', date: '15 January', note: 'Binding; financial aid due the same day; notification in mid-February' },
       { name: 'Regular Decision', date: '15 January', note: 'Financial aid due the same day; notification in late March' }
     ],
-    applicationFee: { amount: 0, currency: 'USD', waiver: 'Applications are fee-free for international students' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: true, waiver: 'Colgate offers fee-free applications to international students.' },
     documents: ['Common Application', 'School transcript and grades', 'National or international exam results', 'Language proficiency evidence', 'CSS Profile for aid applicants (digital only)'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay plus Colgate’s supplement',
@@ -4670,8 +4694,8 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
-    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    sat: { policy: 'optional', note: 'Colgate extended its test-optional policy through the 2026–27 application season; applicants are at no disadvantage without scores.' },
+    act: { policy: 'optional', note: 'Same as the SAT.' },
     otherTests: 'National and international exam results are part of the application.',
     internationalQualifications: 'Colgate defines international applicants as non-US citizens, whatever their residence.'
   },
@@ -4706,9 +4730,10 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'International applicants — deadlines and financial aid', url: 'https://www.colgate.edu/admission-aid/apply/international-applicants' },
-    { label: 'Apply for aid', url: 'https://www.colgate.edu/admission-aid/financial-aid/apply-aid' }
+    { label: 'Apply for aid', url: 'https://www.colgate.edu/admission-aid/financial-aid/apply-aid' },
+    { label: 'Colgate to remain test optional through 2026', url: 'https://www.colgate.edu/news/stories/colgate-remain-test-optional-through-2026' }
   ],
-  lastVerified: '2026-09-21'
+  lastVerified: '2026-09-22'
 },
 
 {
@@ -4739,7 +4764,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [],
-    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and reports, with English translations', 'Teacher recommendations', 'Certification of Finances (all international applicants)', 'ISAFA or CSS Profile for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay plus Carleton’s supplement',
@@ -4759,8 +4784,8 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
-    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    sat: { policy: 'optional', note: 'Carleton adopted a permanent test-optional policy in 2025 after a five-year pilot. Scores may be self-reported; enrolling students send official reports.' },
+    act: { policy: 'optional', note: 'Same as the SAT.' },
     otherTests: null,
     internationalQualifications: 'Documents not originally in English need an official translation.'
   },
@@ -4795,9 +4820,10 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'International students — applying to Carleton', url: 'https://www.carleton.edu/admissions/apply/steps/international/' },
-    { label: 'International students — financial aid', url: 'https://www.carleton.edu/financial-aid/apply-for-aid/international-students/' }
+    { label: 'International students — financial aid', url: 'https://www.carleton.edu/financial-aid/apply-for-aid/international-students/' },
+    { label: 'Carleton implements test-optional policy', url: 'https://www.carleton.edu/news/stories/test-optional-policy-college-admissions-pilot-analysis/' }
   ],
-  lastVerified: '2026-09-21'
+  lastVerified: '2026-09-22'
 }
 );
 
@@ -4837,7 +4863,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', entryTerm: 'Autumn 2027', dateISO: '2027-01-01', date: '1 January 2027', note: 'Binding; priority financial aid 8 January; decision 31 January' },
       { name: 'Regular Decision', entryTerm: 'Autumn 2027', dateISO: '2027-01-15', date: '15 January 2027', note: 'Priority financial aid 22 January; decision 14 March' }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'Proof of funding', 'High school transcript', 'Two recommendation letters', 'Senior year grades'],
     recommendations: 'Two recommendation letters',
     essay: 'Personal essay',
@@ -4937,7 +4963,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', date: '5 January', note: 'Binding; financial aid due the same day' },
       { name: 'Regular Decision', date: '15 January', note: 'Financial aid due the same day' }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile (code 1587) or ISAFA with parental income documents for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay',
@@ -4953,8 +4979,8 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
-    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    sat: { policy: 'optional', note: 'Oberlin has been test-optional since 2020; applicants without scores receive equal consideration for admission and merit scholarships. Both tests are superscored.' },
+    act: { policy: 'optional', note: 'Same as the SAT.' },
     otherTests: null,
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
@@ -4998,7 +5024,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Applying for aid: international students', url: 'https://www.oberlin.edu/admissions-and-aid/financial-aid/applying-aid-international-students' },
     { label: 'International applicants', url: 'https://www.oberlin.edu/admissions-and-aid/arts-and-sciences/international-applicants' },
-    { label: 'Tuition and fees', url: 'https://www.oberlin.edu/admissions-and-aid/tuition-and-fees' }
+    { label: 'Tuition and fees', url: 'https://www.oberlin.edu/admissions-and-aid/tuition-and-fees' },
+    { label: 'Admissions testing policy', url: 'https://www.oberlin.edu/admissions-and-aid/arts-and-sciences/testing-policy' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -5035,7 +5062,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', date: '15 January', note: 'Binding; decisions mid-February' },
       { name: 'Regular Decision', date: '15 January', note: 'Decisions late March' }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'English proficiency score', 'CSS Profile (code 1370) or Kenyon’s international financial aid application'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay',
@@ -5131,7 +5158,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', date: '15 January', note: 'Binding; financial aid due the same day' },
       { name: 'Regular Decision', date: '15 January', note: 'Financial aid due the same day' }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'Denison Certification of Finances (free; Denison does not use the CSS Profile for international applicants)'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay',
@@ -5147,8 +5174,8 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
-    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    sat: { policy: 'optional', note: 'Denison has not required the SAT or ACT since 2008 and applies a "no harm" rule to submitted scores.' },
+    act: { policy: 'optional', note: 'Same as the SAT.' },
     otherTests: null,
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
@@ -5193,7 +5220,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'International applicant financial aid', url: 'https://denison.edu/campus/admission/international-applicant-financial-aid' },
     { label: 'Types of scholarships and aid', url: 'https://denison.edu/campus/finances/types-of-scholarships-aid' },
-    { label: 'Affordability and cost', url: 'https://denison.edu/campus/admission/tuition-aid' }
+    { label: 'Affordability and cost', url: 'https://denison.edu/campus/admission/tuition-aid' },
+    { label: 'Test optional policy', url: 'https://denison.edu/forms/test-optional-policy' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -5230,7 +5258,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', date: '15 January', note: 'Binding; notified within 30 days' },
       { name: 'Regular Decision', date: '15 January', note: 'Notified by 1 April' }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'English proficiency score where required', 'CSS Profile or F&M’s International Aid Form for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay',
@@ -5326,7 +5354,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', date: '15 January', note: 'Binding' },
       { name: 'Regular Decision', date: '15 January', note: null }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay',
@@ -5342,8 +5370,8 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
-    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    sat: { policy: 'optional', note: 'For autumn 2027 entry, sending SAT or ACT scores is optional for all applicants, including international students. Official scores are required on enrolment if you self-report.' },
+    act: { policy: 'optional', note: 'Same as the SAT.' },
     otherTests: null,
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
@@ -5379,7 +5407,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'First-year international students — apply for aid', url: 'https://admissions.lafayette.edu/apply-for-aid/first-year-international-students/' },
     { label: 'International student FAQ', url: 'https://admissions.lafayette.edu/apply/international-students/international-student-faq/' },
-    { label: 'Applying as an international student', url: 'https://admissions.lafayette.edu/apply/international-students/' }
+    { label: 'Applying as an international student', url: 'https://admissions.lafayette.edu/apply/international-students/' },
+    { label: 'First-year applicants', url: 'https://admissions.lafayette.edu/first-year-applicants/' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -5415,7 +5444,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision I — financial aid', date: '1 November', note: 'CSS Profile due by the Early Decision I application deadline' },
       { name: 'Early Decision II and Regular Decision — financial aid', date: '15 January', note: 'CSS Profile due by the application deadline' }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'International Undergraduate Financial Certification Form', 'CSS Profile for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay',
@@ -5431,8 +5460,8 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
-    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    sat: { policy: 'optional', note: 'Lehigh has extended its test-optional policy indefinitely for first-year and transfer applicants. Scores that are sent must be official.' },
+    act: { policy: 'optional', note: 'Same as the SAT.' },
     otherTests: null,
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
@@ -5468,7 +5497,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'International students — admissions', url: 'https://www2.lehigh.edu/admissions/international-students' },
     { label: 'Financial aid frequently asked questions', url: 'https://www2.lehigh.edu/financial-aid/frequently-asked-questions' },
-    { label: 'How to apply for financial aid', url: 'https://www2.lehigh.edu/admissions/tuition-affording-college/how-apply-financial-aid' }
+    { label: 'How to apply for financial aid', url: 'https://www2.lehigh.edu/admissions/tuition-affording-college/how-apply-financial-aid' },
+    { label: 'Admissions requirements', url: 'https://www2.lehigh.edu/admissions/admissions-requirements' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -5506,7 +5536,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', date: '5 January', note: 'Binding' },
       { name: 'Regular Decision', date: '5 January', note: null }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiver: 'Not confirmed on the pages consulted.' },
+    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'English proficiency evidence', 'CSS Profile for need-based aid'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay',
@@ -5522,8 +5552,8 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
-    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
+    sat: { policy: 'required', note: 'UM reinstated its standardized test requirement from autumn 2026. Only the SAT or ACT satisfies it; scores are superscored and may be self-reported. Applicants to programmes such as Architecture and Fine Arts (BFA) who do not send scores submit a portfolio instead.' },
+    act: { policy: 'required', note: 'SAT or ACT required; the ACT science section is not required.' },
     otherTests: null,
     internationalQualifications: 'Tuition and fees are the same for domestic and international students.'
   },
@@ -5581,7 +5611,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'International applicants FAQs', url: 'https://admissions.miami.edu/undergraduate/about/FAQs/international-applicants/index.html' },
     { label: 'First-year merit scholarships', url: 'https://admissions.miami.edu/undergraduate/financial-aid/scholarships/freshman/index.html' },
-    { label: 'Admission plans and deadlines', url: 'https://admissions.miami.edu/undergraduate/application-process/options-and-deadlines/index.html' }
+    { label: 'Admission plans and deadlines', url: 'https://admissions.miami.edu/undergraduate/application-process/options-and-deadlines/index.html' },
+    { label: 'Testing policy', url: 'https://admissions.miami.edu/undergraduate/application-process/admission-requirements/testing-policy/index.html' }
   ],
   lastVerified: '2026-09-22'
 }

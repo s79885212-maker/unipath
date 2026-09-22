@@ -50,7 +50,7 @@ window.UNIPATH.universities.push(
       { name: 'Winter semester application', date: '15 May – 15 July', note: 'Application period for bachelor\'s degrees starting in the winter semester' },
       { name: 'uni-assist preliminary review (VPD)', date: 'Before 15 July', note: 'Applicants with an international school certificate apply for the VPD through uni-assist before the winter-semester deadline' }
     ],
-    applicationFee: { amount: null, currency: 'EUR', waiver: 'uni-assist charges its own fee for the preliminary review; the amount is set by uni-assist.' },
+    applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null, note: 'uni-assist charges its own fee for the preliminary review; the amount is set by uni-assist.' },
     documents: [
       'School-leaving certificate and transcripts, reviewed by uni-assist (VPD) if issued outside Germany',
       'Half-year grades from the last two years of secondary school (used in the aptitude assessment)',
@@ -154,7 +154,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['FAU application portal'],
     deadlines: [],
-    applicationFee: { amount: null, currency: 'EUR', waiver: null },
+    applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null },
     documents: [
       'School-leaving certificate recognised as a German university entrance qualification',
       'Proof of English for English-taught degrees'
@@ -242,7 +242,7 @@ window.UNIPATH.universities.push(
     deadlines: [
       { name: 'Liberal Arts and Sciences application', date: '1 June – 15 July', note: 'Decisions in late July; studies start with Welcome Week in October' }
     ],
-    applicationFee: { amount: null, currency: 'EUR', waiver: null },
+    applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null },
     documents: [
       'University entrance qualification (diploma and transcript)',
       'Proof of English at B2 level or higher (CEFR)',
@@ -337,7 +337,7 @@ window.UNIPATH.universities.push(
     deadlines: [
       { name: 'Winter semester application', date: '15 July', note: 'Deadline for starting in the winter semester' }
     ],
-    applicationFee: { amount: null, currency: 'EUR', waiver: null },
+    applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null },
     documents: [
       'School-leaving certificate recognised as a German university entrance qualification',
       'Proof of English at B2 (CEFR)'
@@ -428,7 +428,7 @@ window.UNIPATH.universities.push(
     deadlines: [
       { name: 'Bachelor\'s application', entryTerm: 'Winter semester 2027/28', dateISO: '2027-07-15', date: '15 July 2027', note: 'Applications open in mid-May for studies starting in October 2027' }
     ],
-    applicationFee: { amount: null, currency: 'EUR', waiver: null },
+    applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null },
     documents: [
       'University entrance qualification',
       'Proof of English for an English-taught major'
@@ -521,7 +521,7 @@ window.UNIPATH.universities.push(
     deadlines: [
       { name: 'Bachelor\'s application (last published cycle)', entryTerm: 'Winter semester 2026/27', dateISO: '2026-07-15', date: '15 July 2026', note: 'Bachelor\'s degrees start only in the winter semester. The 2027/28 dates had not been published when checked.' }
     ],
-    applicationFee: { amount: null, currency: 'EUR', waiver: 'uni-assist charges its own handling fee.' },
+    applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null, note: 'uni-assist charges its own handling fee.' },
     documents: [
       'School-leaving certificate, reviewed by uni-assist if issued outside Germany',
       'Proof of English at B2 (CEFR)'
@@ -614,7 +614,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Action', entryTerm: 'Fall 2027', displayDate: '1 October 2026 – 1 February 2027', dateISO: '2027-02-01', date: '1 October 2026 – 1 February 2027', note: 'Earlier applications get earlier decisions' },
       { name: 'Rolling admissions (visa and no visa)', entryTerm: 'Fall 2027', displayDate: '2 February – 15 July 2027', dateISO: '2027-07-15', date: '2 February – 15 July 2027', note: 'Decisions usually within 2–4 weeks of applying' }
     ],
-    applicationFee: { amount: null, currency: 'EUR', waiver: null },
+    applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null },
     documents: [
       'Proof of identity',
       'Transcripts / report cards',
@@ -718,7 +718,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Frankfurt School online application, followed by an Assessment Centre'],
     deadlines: [],
-    applicationFee: { amount: null, currency: 'EUR', waiver: null },
+    applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null },
     documents: [
       'Online application',
       'IELTS or TOEFL score report — may be uploaded after the application deadline, by mid-August at the latest'

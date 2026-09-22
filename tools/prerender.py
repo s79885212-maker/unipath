@@ -142,9 +142,13 @@ def english_lines(t, name):
 
 
 def sat_label(u):
-    p = ((u.get("academics") or {}).get("sat") or {}).get("policy")
-    return {"required": "SAT/ACT required", "optional": "Test-optional", "accepted": "SAT/ACT accepted",
-            "not-used": "SAT/ACT not used"}.get(p, "Policy not confirmed")
+    t = (u.get("academics") or {}).get("sat") or {}
+    if t.get("label"):
+        return t["label"]
+    return {"required": "SAT/ACT required",
+            "required-alternatives": "Testing required — alternatives to SAT/ACT accepted",
+            "optional": "Test-optional", "accepted": "SAT/ACT accepted — requirement not confirmed",
+            "not-used": "SAT/ACT not used"}.get(t.get("policy"), "Policy not confirmed")
 
 
 def fee_text(u):

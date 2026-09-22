@@ -34,7 +34,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: [],
     deadlines: [],
-    applicationFee: { amount: null, currency: 'JPY', waiver: null },
+    applicationFee: { amount: null, currency: 'JPY', waiverAvailableToInternational: null, waiver: null },
     documents: [],
     recommendations: null,
     essay: null,
@@ -131,7 +131,7 @@ window.UNIPATH.universities.push(
     deadlines: [
       { name: 'October enrolment', date: 'See the current Application Guidelines PDF', note: 'Kyoto publishes a dated application guide for each October intake' }
     ],
-    applicationFee: { amount: null, currency: 'JPY', waiver: null },
+    applicationFee: { amount: null, currency: 'JPY', waiverAvailableToInternational: false, waiver: 'Kyoto University offers no application fee waivers.', note: 'A ¥429 processing fee is added; the fee is non-refundable.' },
     documents: ['Academic transcripts', 'English proficiency test result or Form C', 'Application documents in original form for shortlisted applicants'],
     recommendations: null,
     essay: null,
@@ -222,7 +222,7 @@ window.UNIPATH.universities.push(
     deadlines: [
       { name: 'September 2026 entry (English-based programmes)', date: '8 January 2026 10:00 – 10 February 2026 17:00 JST', note: 'Application periods vary by school; SILS has an April intake with a mid-August to early-September window' }
     ],
-    applicationFee: { amount: null, currency: 'JPY', waiver: null },
+    applicationFee: { amount: null, currency: 'JPY', waiverAvailableToInternational: null, waiver: null },
     documents: ['Academic transcripts', 'Standardized test scores', 'English proficiency evidence'],
     recommendations: null,
     essay: null,
@@ -312,7 +312,7 @@ window.UNIPATH.universities.push(
     deadlines: [
       { name: 'PEARL / GIGA', date: 'Three application periods per admissions year', note: 'Check the current application guidebook for dates' }
     ],
-    applicationFee: { amount: 35000, currency: 'JPY', waiver: null },
+    applicationFee: { amount: 35000, currency: 'JPY', waiverAvailableToInternational: null, waiver: null },
     documents: ['Academic transcripts', 'Standardized test scores', 'English proficiency evidence'],
     recommendations: null,
     essay: null,
@@ -392,7 +392,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Sophia online application'],
     deadlines: [],
-    applicationFee: { amount: null, currency: 'JPY', waiver: null },
+    applicationFee: { amount: null, currency: 'JPY', waiverAvailableToInternational: null, waiver: null },
     documents: ['Evidence of 12 or more years of formal education, or an International Baccalaureate Diploma, A-Levels or equivalent'],
     recommendations: null,
     essay: null,
@@ -488,7 +488,7 @@ window.UNIPATH.universities.push(
       { name: 'April entry', date: 'Online application opens October of the preceding year', note: 'For 2027 April entry, applications open October 2026' },
       { name: 'September entry (two rounds)', date: 'Online application opens January', note: 'For 2027 September entry, applications open January 2027' }
     ],
-    applicationFee: { amount: 30000, currency: 'JPY', waiver: 'Non-refundable; an additional ¥880 system operation fee applies' },
+    applicationFee: { amount: 30000, currency: 'JPY', waiverAvailableToInternational: null, waiver: null, note: 'Non-refundable; an additional ¥880 system operation fee applies' },
     documents: ['Academic transcripts', 'English proficiency test result', 'SAT or ACT scores (Type A applicants)', 'IB Full Diploma where applicable'],
     recommendations: null,
     essay: null,
@@ -593,7 +593,7 @@ window.UNIPATH.universities.push(
     deadlines: [
       { name: 'Multiple enrolment periods per year', date: 'See the official admissions calendar', note: 'APU states you may have a greater chance of a tuition reduction scholarship if you apply earlier in each enrolment period' }
     ],
-    applicationFee: { amount: null, currency: 'JPY', waiver: null },
+    applicationFee: { amount: null, currency: 'JPY', waiverAvailableToInternational: null, waiver: null },
     documents: ['Academic transcripts', 'English proficiency evidence', 'Scholarship application documents', 'Video-recorded interview'],
     recommendations: null,
     essay: null,
@@ -689,7 +689,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Tohoku University FGL application'],
     deadlines: [],
-    applicationFee: { amount: null, currency: 'JPY', waiver: null },
+    applicationFee: { amount: null, currency: 'JPY', waiverAvailableToInternational: null, waiver: null },
     documents: ['Academic transcripts', 'English proficiency evidence'],
     recommendations: null,
     essay: null,
