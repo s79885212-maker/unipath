@@ -262,6 +262,46 @@
       (x.term ? '<br><span class="small muted">Entry term: <span>' + esc(x.term) + '</span></span>' : '') +
       (x.yearConfirmed ? '' : '<br><span class="small muted">Current cycle date not confirmed</span>');
   }
+  /* ---- application rounds -----------------------------------------------
+     A round carries its own intake, conditions, source and confirmation
+     status, so a date from an earlier cycle can never look like a confirmed
+     date for the next one. */
+  var ROUND_STATUS = {
+    'confirmed': 'Confirmed for this cycle',
+    'previous-cycle': 'Previous cycle — not yet republished',
+    'not-confirmed': 'Deadline for the current intake not confirmed'
+  };
+  function roundStatus(d) {
+    if (d.status && ROUND_STATUS[d.status]) return d.status;
+    return deadlineInfo(d).yearConfirmed ? 'confirmed' : 'not-confirmed';
+  }
+  function roundStatusLabel(d) { return ROUND_STATUS[roundStatus(d)]; }
+  function roundWhen(d) {
+    var x = deadlineInfo(d);
+    var out = x.text || '—';
+    if (has(d.time)) out += ', ' + d.time;
+    if (has(d.timezone)) out += ' ' + d.timezone;
+    return out;
+  }
+  function roundIntake(d) {
+    var parts = [];
+    if (has(d.entryTerm)) parts.push(String(d.entryTerm));
+    if (has(d.entryYear)) parts.push(String(d.entryYear));
+    return parts.length ? parts.join(' ') : null;
+  }
+  function roundConditions(d) {
+    var parts = [];
+    if (d.binding === true) parts.push('Binding — if admitted you must enrol and withdraw other applications');
+    if (d.binding === false) parts.push('Not binding');
+    if (has(d.appliesTo)) parts.push(d.appliesTo);
+    if (has(d.conditions)) parts.push(d.conditions);
+    if (has(d.note)) parts.push(d.note);
+    return parts;
+  }
+  function roundsOf(u) {
+    return (u.admissions && u.admissions.deadlines) || [];
+  }
+
   function firstDeadline(u) {
     var d = u.admissions && u.admissions.deadlines;
     if (!d || !d.length) return null;
@@ -839,7 +879,9 @@
     satPolicy: satPolicy, satLabel: satLabel, satNotRequired: satNotRequired, hasIelts: hasIelts, ieltsPublished: ieltsPublished, englishPrograms: englishPrograms, englishLabel: englishLabel, ieltsMin: ieltsMin, toeflLines: toeflLines, ieltsLabel: ieltsLabel, statsOf: statsOf, toeflMin: toeflMin,
     fullRide: fullRide, meritList: meritList, needBased: needBased,
     feeAmount: feeAmount, feeWaiver: feeWaiver, feeWaiverLabel: feeWaiverLabel, feeLabel: feeLabel,
-    firstDeadline: firstDeadline, deadlineInfo: deadlineInfo, deadlineHtml: deadlineHtml, costHeadline: costHeadline, totalCostText: totalCostText,
+    firstDeadline: firstDeadline, deadlineInfo: deadlineInfo, deadlineHtml: deadlineHtml,
+    roundStatus: roundStatus, roundStatusLabel: roundStatusLabel, roundWhen: roundWhen, roundIntake: roundIntake,
+    roundConditions: roundConditions, roundsOf: roundsOf, costHeadline: costHeadline, totalCostText: totalCostText,
     costBreak: costBreak, costCurrency: costCurrency, costYear: costYear, costPeriod: costPeriod, perPeriod: perPeriod,
     tuitionAmount: tuitionAmount, tuitionText: tuitionText, billedAmount: billedAmount, billedLabel: billedLabel,
     budgetAmount: budgetAmount, budgetText: budgetText, costIncludes: costIncludes, costFigures: costFigures, costSource: costSource,

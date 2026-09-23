@@ -876,3 +876,27 @@ button.badge { cursor: pointer; font: inherit; }
    photo loads it covers them, and if it fails to load it removes itself and
    they show through again. */
 .media img { z-index: 3; }
+
+/* ---------- application rounds ---------- */
+.rounds { margin-top: 8px; }
+.rounds-table { width: 100%; border-collapse: collapse; font-size: .94rem; }
+.rounds-table th, .rounds-table td {
+  text-align: left; vertical-align: top; padding: 10px 12px;
+  border-bottom: 1px solid var(--line);
+}
+.rounds-table th { font-size: .78rem; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+.rounds-table tr.round-previous-cycle td, .rounds-table tr.round-not-confirmed td { background: var(--surface-2); }
+.warn-text { color: var(--warn, #b45309); }
+@media (max-width: 760px) {
+  .rounds-table, .rounds-table tbody, .rounds-table tr, .rounds-table td { display: block; width: 100%; }
+  .rounds-table thead { display: none; }
+  .rounds-table tr {
+    border: 1px solid var(--line); border-radius: 12px;
+    padding: 6px 2px; margin-bottom: 12px; background: var(--surface);
+  }
+  .rounds-table td { border: 0; padding: 7px 14px; }
+  .rounds-table td::before {
+    content: attr(data-label); display: block;
+    font-size: .72rem; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin-bottom: 2px;
+  }
+}

@@ -861,5 +861,1528 @@ window.UNIPATH.universities.push(
     { label: 'Fees and funding for international students', url: 'https://warwick.ac.uk/study/international/admissions/finance/' }
   ],
   lastVerified: '2026-09-18'
-}
+},
+
+{
+  id: 'lse',
+  name: 'London School of Economics and Political Science',
+  shortName: 'LSE',
+  country: 'uk',
+  city: 'London',
+  region: 'England',
+  type: 'Public research university (University of London)',
+  brand: { c1: '#0d1b3e', c2: '#e30613', initials: 'LSE' },
+  description: 'A specialist social-science university in central London, teaching economics, politics, law, management and related subjects. Admission is by UCAS, competition for places is high and LSE publishes one English requirement for every undergraduate programme.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['economics','social-sciences','law','business','mathematics','humanities'],
+  englishTaughtPrograms: ['economics','social-sciences','law','business','mathematics','humanities'],
+  programNote: 'LSE has no engineering, medicine or laboratory-science degrees; its undergraduate range is concentrated in the social sciences, economics, law, management, mathematics and statistics.',
+  links: {
+    website: 'https://www.lse.ac.uk/',
+    admissions: 'https://www.lse.ac.uk/study-at-lse/Undergraduate',
+    applicationPortal: 'https://www.ucas.com/',
+    scholarships: 'https://www.lse.ac.uk/study-at-lse/Undergraduate/fees-and-funding',
+    cost: 'https://info.lse.ac.uk/staff/divisions/Planning-Division/Table-of-Fees',
+    english: 'https://www.lse.ac.uk/study-at-lse/Undergraduate/Prospective-Students/How-to-Apply/English-language-requirements'
+  },
+  admissions: {
+    platforms: ['UCAS (required for all undergraduate courses)'],
+    deadlines: [
+      { name: 'UCAS equal consideration deadline (2027 entry)', kind: 'ucas-main', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-13', date: '13 January 2027', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'All undergraduate courses except those with a 15 October deadline', conditions: 'Applications received by this time must be considered equally', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546', verified: '2026-09-23', note: null },
+      { name: 'UCAS applications open (2027 entry)', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-05-12', date: '12 May 2026', binding: false, appliesTo: 'All applicants', status: 'confirmed', source: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications', verified: '2026-09-23', note: 'One UCAS application holds up to five course choices' }
+    ],
+    applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: false, waiver: null, note: 'The £34.50 is the UCAS fee for the whole 2027-cycle application (up to five choices), not a university fee. UCAS waives it only for UK free-school-meal recipients and care leavers.' },
+    documents: ['UCAS application with personal statement', 'Academic reference', 'Predicted or achieved school-leaving grades', 'Proof of English where required'],
+    recommendations: 'One academic reference through UCAS',
+    essay: 'UCAS personal statement',
+    interview: 'LSE does not normally interview undergraduate applicants.',
+    notes: ['LSE states that its tuition fee is fixed at the level of the year of entry and does not rise during the programme.']
+  },
+  english: {
+    ielts: { min: 7.0, recommended: null, note: 'IELTS Academic 7.0 overall with 7.0 in every component, achieved in one sitting. This is a required minimum, not a recommendation, and it applies to all undergraduate programmes.' },
+    toefl: { min: 100, recommended: null, scales: [{ period: 'pre2026', min: 100, recommended: null }, { period: 'post2026', min: 5.5, recommended: null }], note: 'TOEFL iBT 100 overall with Writing 27, Reading 25, Listening 24, Speaking 24 on the earlier scale; on the scale used from January 2026, 5.5 overall with at least 5 in each component.' },
+    duolingo: { min: null, recommended: null, note: 'The Duolingo English Test is not listed among the qualifications LSE accepts.' },
+    waiver: 'Nationals of Canada or of UKVI majority English-speaking countries whose first language is English, and holders of a degree taught in those countries, do not need a test.',
+    note: 'Pearson PTE Academic 70 overall with 70 in all components, and Cambridge C1 Advanced or C2 Proficiency at 185 overall with 185 per component, are also accepted. Test results must be no more than two years old on 1 September of the year of entry; Cambridge certificates do not expire.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'not-applicable', note: 'LSE selects on school-leaving qualifications such as A-levels, the IB and recognised national diplomas. US applicants may be asked for SAT/ACT and AP results, but there is no test-optional policy in the American sense.' },
+    act: { policy: 'not-applicable', note: 'The US test-optional classification does not apply to this route.' },
+    otherTests: 'No university-wide admissions test. Some programmes ask for additional written work.',
+    internationalQualifications: 'A wide range of national school-leaving qualifications is accepted; the required grades are published for each programme.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'LSE publishes overseas undergraduate fees in its Table of Fees, by programme tier; the figure for the 2027–28 year was not read here' },
+    academicYear: '2027–2028',
+    currency: 'GBP',
+    headline: 'Tuition published per programme tier',
+    items: [
+      { label: 'Tuition (Overseas rate)', text: 'Set per programme tier in the LSE Table of Fees and fixed at the year-of-entry level for the whole degree' },
+      { label: 'Living costs in London', text: 'Not read from the official page during this check' }
+    ],
+    billedSubtotal: null,
+    totalText: 'Not confirmed — see the LSE Table of Fees',
+    note: 'LSE fixes the overseas fee at the level of the year of entry, so it does not rise during the programme.'
+  },
+  scholarships: {
+    fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check. LSE states that it awards privately funded scholarships and bursaries to Overseas-fee students, but says the number, value and criteria change each year.' },
+    merit: [],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'LSE says financial support for Overseas-fee students exists but does not publish a fixed scheme; details were not confirmed here.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'Undergraduate English language requirements', url: 'https://www.lse.ac.uk/study-at-lse/Undergraduate/Prospective-Students/How-to-Apply/English-language-requirements' },
+    { label: 'Undergraduate fees and funding', url: 'https://www.lse.ac.uk/study-at-lse/Undergraduate/fees-and-funding' },
+    { label: 'UCAS key dates for 2027 entry', url: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications' }
+  ],
+  verification: { level: 'partial', checked: ['english','rounds','application fee'], unconfirmed: ['tuition amount','scholarships','application documents beyond UCAS'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'university-of-bristol',
+  name: 'University of Bristol',
+  shortName: 'Bristol',
+  country: 'uk',
+  city: 'Bristol',
+  region: 'England',
+  type: 'Public research university',
+  brand: { c1: '#a9134d', c2: '#5f0b2c', initials: 'BRI' },
+  description: 'A large research university in south-west England with a broad course range from engineering and medicine to law and the humanities. English requirements are set by course profile, and tuition is charged in published subject bands.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['engineering','computer-science','medicine','law','business','humanities','social-sciences','biology','mathematics','psychology','arts'],
+  englishTaughtPrograms: ['engineering','computer-science','medicine','law','business','humanities','social-sciences','biology','mathematics','psychology','arts'],
+  programNote: 'Each course states an English language profile (A to F) and a fee band, so requirements and cost depend on the subject chosen.',
+  links: {
+    website: 'https://www.bristol.ac.uk/',
+    admissions: 'https://www.bristol.ac.uk/study/undergraduate/',
+    applicationPortal: 'https://www.ucas.com/',
+    scholarships: 'https://www.bristol.ac.uk/international/fees-finance/scholarships/',
+    cost: 'https://www.bristol.ac.uk/students/support/finances/tuition-fees/ug/overseas/26-27/2026-starters/',
+    english: 'https://www.bristol.ac.uk/study/language-requirements/'
+  },
+  admissions: {
+    platforms: ['UCAS (required for all undergraduate courses)'],
+    deadlines: [
+      { name: 'UCAS deadline — medicine, dentistry and veterinary courses (2027 entry)', kind: 'ucas-october', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-10-15', date: '15 October 2026', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'Medicine, dentistry and veterinary medicine/science', conditions: 'Earlier UCAS deadline set for these subjects', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-the-universities-of-oxford-and-cambridge-and-most-courses-in-medicine-475536', verified: '2026-09-23', note: null },
+      { name: 'UCAS equal consideration deadline (2027 entry)', kind: 'ucas-main', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-13', date: '13 January 2027', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'All undergraduate courses except those with a 15 October deadline', conditions: 'Applications received by this time must be considered equally', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546', verified: '2026-09-23', note: null },
+      { name: 'UCAS applications open (2027 entry)', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-05-12', date: '12 May 2026', binding: false, appliesTo: 'All applicants', status: 'confirmed', source: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications', verified: '2026-09-23', note: 'One UCAS application holds up to five course choices' }
+    ],
+    applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: false, waiver: null, note: 'The £34.50 is the UCAS fee for the whole 2027-cycle application (up to five choices), not a university fee. UCAS waives it only for UK free-school-meal recipients and care leavers.' },
+    documents: ['UCAS application with personal statement', 'Academic reference', 'Predicted or achieved school-leaving grades', 'Proof of English where required'],
+    recommendations: 'One academic reference through UCAS',
+    essay: 'UCAS personal statement',
+    interview: 'Interviews are used for medicine, dentistry, veterinary science and a few other courses.',
+    notes: ['The English requirement is given as a profile letter on each course page, so check the course before booking a test.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Depends on the course. Each course is assigned an English profile; Profile B, one of the common undergraduate levels, requires IELTS Academic 7.0 overall with 7.0 in writing and 6.5 in the other skills. Bristol states an absolute floor of CEFR B2 (IELTS 5.5 in all bands) for any course.' },
+    toefl: { min: null, recommended: null, scales: [{ period: 'pre2026', min: 95, recommended: null }, { period: 'post2026', min: 5, recommended: null }], note: 'Profile B: TOEFL iBT 95 overall (Reading 22, Listening 21, Speaking 23, Writing 24) for tests up to 20 January 2026, or 5 overall with 5 in writing and 4.5 in other skills from 21 January 2026. Other profiles differ.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed for undergraduate entry during this check.' },
+    waiver: 'Bristol lists qualifications taught in English that meet the requirement without a test; the list is on the language requirements pages.',
+    note: 'Test results must normally be obtained within two years of the course start date. Pearson PTE and Cambridge C1 Advanced / C2 Proficiency are accepted at profile-specific levels.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'not-applicable', note: 'Bristol admits on school-leaving qualifications (A-levels, IB and recognised international qualifications) rather than the SAT or ACT.' },
+    act: { policy: 'not-applicable', note: 'The US test-optional classification does not apply to this route.' },
+    otherTests: 'Medicine and dentistry require the UCAT; some other courses set additional tests.',
+    internationalQualifications: 'A published list of accepted international qualifications and grades applies; the required grades are on each course page.'
+  },
+  costs: {
+    breakdown: { tuition: 25500, tuitionText: '£25,500–£33,400 (most courses)', includes: 'the overseas tuition band for the course; medicine, dentistry and veterinary science are charged separately and living costs are extra' },
+    academicYear: '2026–2027',
+    currency: 'GBP',
+    headline: '£25,500–£33,400 tuition (most courses)',
+    items: [
+      { label: 'Tuition — humanities and social sciences band', amount: 25500 },
+      { label: 'Tuition — arts, economics and business band', amount: 28200 },
+      { label: 'Tuition — science and engineering band', amount: 31300 },
+      { label: 'Tuition — computer science, aerospace, biochemistry and similar', amount: 33400 },
+      { label: 'Tuition — Medicine (MBChB)', amount: 45800 },
+      { label: 'Tuition — Veterinary Science (BVSc)', amount: 41900 },
+      { label: 'Tuition — Dentistry (BDS)', amount: 49700 }
+    ],
+    billedSubtotal: null,
+    totalText: '£25,500–£49,700 tuition depending on the course, for students starting in 2026/27',
+    note: 'These are the rates for students starting in 2026/27; the 2027/28 rates had not been published when this was checked. Living costs are additional.'
+  },
+  scholarships: {
+    fullRide: { available: false, internationalEligible: false, basis: null, covers: { tuition: false, housing: false, meals: false, insurance: false, books: false }, renewable: null, competitiveness: null, howToApply: null, note: 'Bristol\'s international undergraduate awards are partial: the Think Big scholarships reduce tuition but do not cover the whole cost of study.' },
+    merit: [
+      { name: 'Think Big undergraduate scholarship', amount: '£6,500 or £13,000 a year for up to four years (tuition reduction)', eligibility: 'International (overseas-fee) applicants holding an application for an eligible undergraduate course. Courses in the Bristol Dental School and Bristol Medical School are not eligible.', deadline: 'The round for September 2026 entry opened on 21 October 2025 and closed on 10 April 2026 at 10:00 UK time; the 2027-entry round had not opened when this was checked', application: 'Separate scholarship form after applying for admission', renewable: true, note: 'One form covers the scholarships. Outcomes for the 2026 round were shared in late May 2026.' }
+    ],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Bristol\'s means-tested bursaries are for home-fee students; a need-based scheme for international undergraduates was not confirmed here.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'English language requirements and profiles', url: 'https://www.bristol.ac.uk/study/language-requirements/' },
+    { label: 'English language Profile B', url: 'https://www.bristol.ac.uk/study/language-requirements/profile-b/' },
+    { label: 'Overseas undergraduate tuition fees, 2026/27 starters', url: 'https://www.bristol.ac.uk/students/support/finances/tuition-fees/ug/overseas/26-27/2026-starters/' },
+    { label: 'Scholarships for international students', url: 'https://www.bristol.ac.uk/international/fees-finance/scholarships/' }
+  ],
+  verification: { level: 'partial', checked: ['english','tuition','scholarships','rounds','application fee'], unconfirmed: ['2027/28 tuition rates','need-based aid for international students'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'university-of-glasgow',
+  name: 'University of Glasgow',
+  shortName: 'Glasgow',
+  country: 'uk',
+  city: 'Glasgow',
+  region: 'Scotland',
+  type: 'Public research university',
+  brand: { c1: '#003865', c2: '#001c33', initials: 'GLA' },
+  description: "One of Scotland's ancient universities, teaching a full range of subjects from medicine and engineering to arts and social sciences. Scottish degrees usually run four years, and international fees are published in two main bands.",
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['medicine','engineering','computer-science','business','law','humanities','social-sciences','biology','mathematics','psychology','arts'],
+  englishTaughtPrograms: ['medicine','engineering','computer-science','business','law','humanities','social-sciences','biology','mathematics','psychology','arts'],
+  programNote: 'Scottish honours degrees normally take four years, with a broader first two years than in England.',
+  links: {
+    website: 'https://www.gla.ac.uk/',
+    admissions: 'https://www.gla.ac.uk/undergraduate/',
+    applicationPortal: 'https://www.ucas.com/',
+    scholarships: 'https://www.gla.ac.uk/undergraduate/fees/scholarships/',
+    cost: 'https://www.gla.ac.uk/undergraduate/fees/intlfees/',
+    english: 'https://www.gla.ac.uk/international/englishlanguage/requirements/'
+  },
+  admissions: {
+    platforms: ['UCAS (required for all undergraduate courses)'],
+    deadlines: [
+      { name: 'UCAS deadline — medicine, dentistry and veterinary courses (2027 entry)', kind: 'ucas-october', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-10-15', date: '15 October 2026', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'Medicine, dentistry and veterinary medicine/science', conditions: 'Earlier UCAS deadline set for these subjects', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-the-universities-of-oxford-and-cambridge-and-most-courses-in-medicine-475536', verified: '2026-09-23', note: null },
+      { name: 'UCAS equal consideration deadline (2027 entry)', kind: 'ucas-main', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-13', date: '13 January 2027', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'All undergraduate courses except those with a 15 October deadline', conditions: 'Applications received by this time must be considered equally', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546', verified: '2026-09-23', note: null },
+      { name: 'UCAS applications open (2027 entry)', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-05-12', date: '12 May 2026', binding: false, appliesTo: 'All applicants', status: 'confirmed', source: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications', verified: '2026-09-23', note: 'One UCAS application holds up to five course choices' }
+    ],
+    applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: false, waiver: null, note: 'The £34.50 is the UCAS fee for the whole 2027-cycle application (up to five choices), not a university fee. UCAS waives it only for UK free-school-meal recipients and care leavers.' },
+    documents: ['UCAS application with personal statement', 'Academic reference', 'Predicted or achieved school-leaving grades', 'Proof of English where required'],
+    recommendations: 'One academic reference through UCAS',
+    essay: 'UCAS personal statement',
+    interview: 'Interviews are used for medicine, dentistry, veterinary medicine, nursing and education.',
+    notes: ['Glasgow states that the English requirement is set in each programme\'s entry requirements, so the figure below is one confirmed example rather than a university-wide rule.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Depends on the programme. Confirmed example: the BSc Computing Science page for 2027 entry requires IELTS 6.5 overall with no sub-test below 6.0. Other programmes set their own level.' },
+    toefl: { min: null, recommended: null, scales: [{ period: 'pre2026', min: 90, recommended: null }, { period: 'post2026', min: 92, recommended: null }], note: 'Computing Science example: TOEFL iBT 90 overall for tests taken before 21 January 2026, or 92 from that date. Reports must be under two years old.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed for undergraduate entry during this check.' },
+    waiver: 'Glasgow accepts a range of school qualifications taught in English in place of a test; the accepted list is published with the English language requirements.',
+    note: 'Pearson PTE 59 with 59 in all sub-tests and Cambridge CAE/CPE 176 overall (no sub-test below 169) are accepted for the Computing Science example. Applicants must meet the overall and sub-test scores in a single test.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'not-applicable', note: 'Glasgow admits on school-leaving qualifications such as A-levels, Scottish Highers and the IB; the SAT and ACT are not the basis of selection.' },
+    act: { policy: 'not-applicable', note: 'The US test-optional classification does not apply to this route.' },
+    otherTests: 'Medicine and dentistry require the UCAS-registered UCAT; law asks for the LNAT for some routes.',
+    internationalQualifications: 'Confirmed example for Computing Science (2027 entry): A-levels AAA–AAB including Mathematics, or IB 38 points with HL6 in Mathematics (Analysis and Approaches).'
+  },
+  costs: {
+    breakdown: { tuition: 28275, tuitionText: '£28,275–£33,708', includes: 'the international tuition band for the subject in 2027–28; living costs are extra' },
+    academicYear: '2027–2028',
+    currency: 'GBP',
+    headline: '£28,275–£33,708 tuition',
+    items: [
+      { label: 'Tuition — arts and social sciences (2027/28)', amount: 28275 },
+      { label: 'Tuition — science, engineering, nursing, medical and life sciences (2027/28)', amount: 33708 },
+      { label: 'Tuition — Veterinary Medicine and Surgery BVMS (2027/28)', amount: 38670 },
+      { label: 'Tuition — Medicine (MBChB) and Dentistry (BDS), 2027/28', text: 'Published as "to be confirmed" when this was checked; the 2026/27 rates were £62,730 and £58,500' }
+    ],
+    billedSubtotal: null,
+    totalText: '£28,275–£38,670 tuition for 2027/28, with medicine and dentistry still to be confirmed',
+    note: 'Glasgow publishes international fees by band for each academic year. Living costs are not included.'
+  },
+  scholarships: {
+    fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
+    merit: [],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International undergraduate tuition fees', url: 'https://www.gla.ac.uk/undergraduate/fees/intlfees/' },
+    { label: 'Computing Science BSc — entry requirements for 2027 entry', url: 'https://www.gla.ac.uk/undergraduate/degrees/computingscience/' },
+    { label: 'English language requirements', url: 'https://www.gla.ac.uk/international/englishlanguage/requirements/' }
+  ],
+  verification: { level: 'partial', checked: ['tuition','english (one programme)','academic requirements (one programme)','rounds','application fee'], unconfirmed: ['university-wide English minimum','scholarships for international undergraduates','2027/28 medicine and dentistry fees'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'university-of-st-andrews',
+  name: 'University of St Andrews',
+  shortName: 'St Andrews',
+  country: 'uk',
+  city: 'St Andrews',
+  region: 'Scotland',
+  type: 'Public ancient university',
+  brand: { c1: '#00539b', c2: '#002a54', initials: 'STA' },
+  description: "Scotland's oldest university, in a small coastal town in Fife, known for arts, international relations and sciences. Degrees usually run four years and English requirements are set by faculty profile.",
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['humanities','social-sciences','business','computer-science','mathematics','biology','medicine','arts','economics'],
+  englishTaughtPrograms: ['humanities','social-sciences','business','computer-science','mathematics','biology','medicine','arts','economics'],
+  programNote: 'St Andrews teaches a broad four-year Scottish degree; medicine is taught partly with partner universities.',
+  links: {
+    website: 'https://www.st-andrews.ac.uk/',
+    admissions: 'https://www.st-andrews.ac.uk/study/undergraduate/',
+    applicationPortal: 'https://www.ucas.com/',
+    scholarships: 'https://www.st-andrews.ac.uk/study/fees-and-funding/undergraduate/scholarships/',
+    cost: 'https://www.st-andrews.ac.uk/study/undergraduate/fees/world/',
+    english: 'https://www.st-andrews.ac.uk/subjects/entry/language-requirements/undergraduate/'
+  },
+  admissions: {
+    platforms: ['UCAS (required for all undergraduate courses)'],
+    deadlines: [
+      { name: 'UCAS deadline — medicine, dentistry and veterinary courses (2027 entry)', kind: 'ucas-october', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-10-15', date: '15 October 2026', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'Medicine, dentistry and veterinary medicine/science', conditions: 'Earlier UCAS deadline set for these subjects', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-the-universities-of-oxford-and-cambridge-and-most-courses-in-medicine-475536', verified: '2026-09-23', note: null },
+      { name: 'UCAS equal consideration deadline (2027 entry)', kind: 'ucas-main', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-13', date: '13 January 2027', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'All undergraduate courses except those with a 15 October deadline', conditions: 'Applications received by this time must be considered equally', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546', verified: '2026-09-23', note: null },
+      { name: 'UCAS applications open (2027 entry)', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-05-12', date: '12 May 2026', binding: false, appliesTo: 'All applicants', status: 'confirmed', source: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications', verified: '2026-09-23', note: 'One UCAS application holds up to five course choices' }
+    ],
+    applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: false, waiver: null, note: 'The £34.50 is the UCAS fee for the whole 2027-cycle application (up to five choices), not a university fee. UCAS waives it only for UK free-school-meal recipients and care leavers.' },
+    documents: ['UCAS application with personal statement', 'Academic reference', 'Predicted or achieved school-leaving grades', 'Proof of English where required'],
+    recommendations: 'One academic reference through UCAS',
+    essay: 'UCAS personal statement',
+    interview: 'Interviews are required for medicine; most other subjects do not interview.',
+    notes: ['English requirements are set by faculty profile (Arts and Divinity, Science, Medicine and the School of English each use a different profile).']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Depends on the faculty. St Andrews assigns each subject group a language profile — Arts and Divinity use Profile 3-D, the School of English Profile 1-D, Medicine Profile 2-M and Science Profile 7-D — and publishes the scores on the profile pages. The individual profile figures were not read during this check.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Accepted; the score depends on the faculty profile. Figures not confirmed here.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: 'UK nationals, nationals of UKVI majority English-speaking countries, applicants with English-medium secondary qualifications from approved schools, and students who finish the St Andrews International Foundation programme do not need a test.',
+    note: 'Test scores are normally accepted only if obtained within two years of the programme start date.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'not-applicable', note: 'Selection is on school-leaving qualifications; the SAT and ACT are not the basis of admission.' },
+    act: { policy: 'not-applicable', note: 'The US test-optional classification does not apply to this route.' },
+    otherTests: 'Medicine requires the UCAT.',
+    internationalQualifications: 'A-levels, Scottish Highers, the IB and a published list of international qualifications are accepted; grades are set per subject.'
+  },
+  costs: {
+    breakdown: { tuition: 33250, includes: 'tuition for students from the rest of the world in 2026–27; living costs are extra' },
+    academicYear: '2026–2027',
+    currency: 'GBP',
+    headline: '£33,250 tuition (arts, divinity, science)',
+    items: [
+      { label: 'Tuition — Arts, Divinity or Science (2026/27)', amount: 33250 },
+      { label: 'Tuition — Medicine (2026/27 entrants)', amount: 39620 }
+    ],
+    billedSubtotal: null,
+    totalText: '£33,250 for arts, divinity and science, £39,620 for medicine, for 2026/27 entrants',
+    note: 'St Andrews states that fees are adjusted annually, typically by 3–5%. The 2027/28 rates were not published when this was checked.'
+  },
+  scholarships: {
+    fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
+    merit: [],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'Undergraduate tuition fees — rest of the world', url: 'https://www.st-andrews.ac.uk/study/undergraduate/fees/world/' },
+    { label: 'Undergraduate English language requirements', url: 'https://www.st-andrews.ac.uk/subjects/entry/language-requirements/undergraduate/' }
+  ],
+  verification: { level: 'partial', checked: ['tuition','english policy structure','rounds','application fee'], unconfirmed: ['exact IELTS scores per profile','scholarships','2027/28 fees'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'university-of-sheffield',
+  name: 'University of Sheffield',
+  shortName: 'Sheffield',
+  country: 'uk',
+  city: 'Sheffield',
+  region: 'England',
+  type: 'Public research university',
+  brand: { c1: '#131e29', c2: '#0a1118', initials: 'SHE' },
+  description: 'A large civic research university in northern England with strong engineering, science and social-science faculties. It publishes a university-wide minimum English level and a fee range for overseas undergraduates.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['engineering','computer-science','medicine','business','law','humanities','social-sciences','biology','mathematics','psychology','arts','economics'],
+  englishTaughtPrograms: ['engineering','computer-science','medicine','business','law','humanities','social-sciences','biology','mathematics','psychology','arts','economics'],
+  programNote: 'Departments may set English or grade requirements above the university minimum; the course page states which applies.',
+  links: {
+    website: 'https://www.sheffield.ac.uk/',
+    admissions: 'https://www.sheffield.ac.uk/undergraduate',
+    applicationPortal: 'https://www.ucas.com/',
+    scholarships: 'https://sheffield.ac.uk/international/fees-and-funding',
+    cost: 'https://sheffield.ac.uk/international/fees-and-funding/tuition-fees',
+    english: 'https://sheffield.ac.uk/undergraduate/apply/english-language'
+  },
+  admissions: {
+    platforms: ['UCAS (required for all undergraduate courses)'],
+    deadlines: [
+      { name: 'UCAS deadline — medicine, dentistry and veterinary courses (2027 entry)', kind: 'ucas-october', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-10-15', date: '15 October 2026', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'Medicine, dentistry and veterinary medicine/science', conditions: 'Earlier UCAS deadline set for these subjects', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-the-universities-of-oxford-and-cambridge-and-most-courses-in-medicine-475536', verified: '2026-09-23', note: null },
+      { name: 'UCAS equal consideration deadline (2027 entry)', kind: 'ucas-main', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-13', date: '13 January 2027', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'All undergraduate courses except those with a 15 October deadline', conditions: 'Applications received by this time must be considered equally', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546', verified: '2026-09-23', note: null },
+      { name: 'UCAS applications open (2027 entry)', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-05-12', date: '12 May 2026', binding: false, appliesTo: 'All applicants', status: 'confirmed', source: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications', verified: '2026-09-23', note: 'One UCAS application holds up to five course choices' }
+    ],
+    applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: false, waiver: null, note: 'The £34.50 is the UCAS fee for the whole 2027-cycle application (up to five choices), not a university fee. UCAS waives it only for UK free-school-meal recipients and care leavers.' },
+    documents: ['UCAS application with personal statement', 'Academic reference', 'Predicted or achieved school-leaving grades', 'Proof of English where required'],
+    recommendations: 'One academic reference through UCAS',
+    essay: 'UCAS personal statement',
+    interview: 'Interviews are used for medicine, dentistry and a few other courses.',
+    notes: ['The university minimum is IELTS 6.0; many departments ask for more, so check the course page before booking a test.']
+  },
+  english: {
+    ielts: { min: 6.0, recommended: null, note: 'University-wide minimum for undergraduate entry: IELTS Academic 6.0 overall with 5.5 in each component. Some departments require a higher score, published in the online prospectus. IELTS Online and IELTS One Skill Retake are accepted.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Accepted; the required score depends on the course and was not read during this check.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: 'Sheffield lists school qualifications taught in English that meet the requirement without a separate test.',
+    note: 'IELTS tests must have been completed no more than two years before the course start date. Sheffield accepts IELTS Academic on paper or computer, IELTS for UKVI Academic, IELTS Online and IELTS One Skill Retake.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'not-applicable', note: 'Admission is on school-leaving qualifications rather than the SAT or ACT.' },
+    act: { policy: 'not-applicable', note: 'The US test-optional classification does not apply to this route.' },
+    otherTests: 'Medicine and dentistry require the UCAT.',
+    internationalQualifications: 'A published list of international qualifications is accepted, with grades set per course.'
+  },
+  costs: {
+    breakdown: { tuition: 27650, tuitionText: '£27,650–£34,670', includes: 'the overseas tuition rate for the course in 2027/28, excluding medicine and dentistry; living costs are extra' },
+    academicYear: '2027–2028',
+    currency: 'GBP',
+    headline: '£27,650–£34,670 tuition',
+    items: [
+      { label: 'Tuition — new overseas undergraduates, 2027/28 (except medicine and dentistry)', text: '£27,650 – £34,670 depending on the course' }
+    ],
+    billedSubtotal: null,
+    totalText: '£27,650–£34,670 a year, fixed at the first-year rate for the length of the course',
+    note: 'Sheffield states that the fee paid in the first year applies to every year of the course. Medicine and dentistry are charged separately.'
+  },
+  scholarships: {
+    fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
+    merit: [],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'Tuition fees for international students', url: 'https://sheffield.ac.uk/international/fees-and-funding/tuition-fees' },
+    { label: 'English language requirements for undergraduates', url: 'https://sheffield.ac.uk/undergraduate/apply/english-language' }
+  ],
+  verification: { level: 'partial', checked: ['english','tuition range','rounds','application fee'], unconfirmed: ['scholarships','medicine and dentistry fees'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'durham-university',
+  name: 'Durham University',
+  shortName: 'Durham',
+  country: 'uk',
+  city: 'Durham',
+  region: 'England',
+  type: 'Public collegiate research university',
+  brand: { c1: '#68246d', c2: '#3a1440', initials: 'DUR' },
+  description: 'A collegiate research university in north-east England where every student belongs to a college alongside their academic department. Courses span arts, sciences, engineering and business.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['humanities','social-sciences','business','computer-science','engineering','law','mathematics','biology','psychology','economics','arts'],
+  englishTaughtPrograms: ['humanities','social-sciences','business','computer-science','engineering','law','mathematics','biology','psychology','economics','arts'],
+  programNote: 'Students apply to a course and are also allocated to a college, which provides accommodation and student life rather than teaching.',
+  links: {
+    website: 'https://www.durham.ac.uk/',
+    admissions: 'https://www.durham.ac.uk/study/undergraduate/',
+    applicationPortal: 'https://www.ucas.com/',
+    scholarships: 'https://www.durham.ac.uk/study/international/fees-and-funding-/',
+    cost: 'https://www.durham.ac.uk/study/undergraduate/fees-and-funding/tuition-fees/',
+    english: 'https://www.durham.ac.uk/study/international/entry-requirements/english-language-requirements/'
+  },
+  admissions: {
+    platforms: ['UCAS (required for all undergraduate courses)'],
+    deadlines: [
+      { name: 'UCAS equal consideration deadline (2027 entry)', kind: 'ucas-main', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-13', date: '13 January 2027', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'All undergraduate courses except those with a 15 October deadline', conditions: 'Applications received by this time must be considered equally', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546', verified: '2026-09-23', note: null },
+      { name: 'UCAS applications open (2027 entry)', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-05-12', date: '12 May 2026', binding: false, appliesTo: 'All applicants', status: 'confirmed', source: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications', verified: '2026-09-23', note: 'One UCAS application holds up to five course choices' }
+    ],
+    applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: false, waiver: null, note: 'The £34.50 is the UCAS fee for the whole 2027-cycle application (up to five choices), not a university fee. UCAS waives it only for UK free-school-meal recipients and care leavers.' },
+    documents: ['UCAS application with personal statement', 'Academic reference', 'Predicted or achieved school-leaving grades', 'Proof of English where required'],
+    recommendations: 'One academic reference through UCAS',
+    essay: 'UCAS personal statement',
+    interview: 'Interviews are used for a small number of courses; most admit on the UCAS application.',
+    notes: ['Durham states that the level required depends on the course, so the range below is not a single guaranteed minimum.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Depends on the course. Durham states that many undergraduate courses require IELTS 6.5-7.0 overall with no element below 6.0; the exact level is set in each course entry requirement.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Accepted; the level depends on the course and was not read during this check.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: 'Durham publishes a list of qualifications taught in English that meet the requirement without a test.',
+    note: 'Applicants below the level can take a pre-sessional English course whose length depends on the score.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'not-applicable', note: 'Admission is on school-leaving qualifications such as A-levels and the IB rather than the SAT or ACT.' },
+    act: { policy: 'not-applicable', note: 'The US test-optional classification does not apply to this route.' },
+    otherTests: 'No university-wide admissions test; a few courses set subject tests.',
+    internationalQualifications: 'A-levels, the IB and a published list of international qualifications are accepted, with grades set per course.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'the overseas tuition rate is published on each course page; no single university-wide figure was confirmed here' },
+    academicYear: '2026–2027',
+    currency: 'GBP',
+    headline: 'Tuition published per course',
+    items: [ { label: 'Tuition (Overseas rate)', text: 'Set per course and published on the course page' } ],
+    billedSubtotal: null,
+    totalText: 'Not confirmed — see the official fees page',
+    note: 'Living costs, the visa fee and the immigration health surcharge are extra.'
+  },
+  scholarships: {
+    fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
+    merit: [],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'English language requirements', url: 'https://www.durham.ac.uk/study/international/entry-requirements/english-language-requirements/' },
+    { label: 'Undergraduate tuition fees', url: 'https://www.durham.ac.uk/study/undergraduate/fees-and-funding/tuition-fees/' }
+  ],
+  verification: { level: 'partial', checked: ['english (range)','rounds','application fee'], unconfirmed: ['exact IELTS per course','tuition amount','scholarships'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'university-of-leeds',
+  name: 'University of Leeds',
+  shortName: 'Leeds',
+  country: 'uk',
+  city: 'Leeds',
+  region: 'England',
+  type: 'Public research university',
+  brand: { c1: '#7f7f7f', c2: '#3f3f3f', initials: 'LEE' },
+  description: 'A large civic university in northern England with one of the widest course ranges in the UK, from engineering and medicine to media and languages.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['engineering','computer-science','business','medicine','law','humanities','social-sciences','biology','mathematics','psychology','arts','economics'],
+  englishTaughtPrograms: ['engineering','computer-science','business','medicine','law','humanities','social-sciences','biology','mathematics','psychology','arts','economics'],
+  programNote: 'Course pages state both the academic grades and the English level required, which can be above the university minimum.',
+  links: {
+    website: 'https://www.leeds.ac.uk/',
+    admissions: 'https://www.leeds.ac.uk/undergraduate',
+    applicationPortal: 'https://www.ucas.com/',
+    scholarships: 'https://www.leeds.ac.uk/international-fees-costs',
+    cost: 'https://www.leeds.ac.uk/undergraduate-fees',
+    english: 'https://www.leeds.ac.uk/international-applying/doc/entry-requirements'
+  },
+  admissions: {
+    platforms: ['UCAS (required for all undergraduate courses)'],
+    deadlines: [
+      { name: 'UCAS equal consideration deadline (2027 entry)', kind: 'ucas-main', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-13', date: '13 January 2027', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'All undergraduate courses except those with a 15 October deadline', conditions: 'Applications received by this time must be considered equally', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546', verified: '2026-09-23', note: null },
+      { name: 'UCAS applications open (2027 entry)', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-05-12', date: '12 May 2026', binding: false, appliesTo: 'All applicants', status: 'confirmed', source: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications', verified: '2026-09-23', note: 'One UCAS application holds up to five course choices' }
+    ],
+    applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: false, waiver: null, note: 'The £34.50 is the UCAS fee for the whole 2027-cycle application (up to five choices), not a university fee. UCAS waives it only for UK free-school-meal recipients and care leavers.' },
+    documents: ['UCAS application with personal statement', 'Academic reference', 'Predicted or achieved school-leaving grades', 'Proof of English where required'],
+    recommendations: 'One academic reference through UCAS',
+    essay: 'UCAS personal statement',
+    interview: 'Interviews are used for medicine, dentistry and some healthcare courses.',
+    notes: ['Some courses require more than the university minimum; the course page states which.']
+  },
+  english: {
+    ielts: { min: 6.0, recommended: null, note: 'University minimum for undergraduate entry: IELTS Academic or IELTS for UKVI (Academic) 6.0 overall with no component below 5.5. Many courses require a higher score.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Accepted; the required score depends on the course.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: 'Qualifications taught in English are accepted in place of a test in the cases Leeds lists.',
+    note: 'IELTS results must not be more than two years old at the course start date.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'not-applicable', note: 'Admission is on school-leaving qualifications rather than the SAT or ACT.' },
+    act: { policy: 'not-applicable', note: 'The US test-optional classification does not apply to this route.' },
+    otherTests: 'Medicine and dentistry require the UCAT.',
+    internationalQualifications: 'A-levels, the IB and a published list of international qualifications are accepted.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'the overseas tuition rate is published on each course page; no single university-wide figure was confirmed here' },
+    academicYear: '2026–2027',
+    currency: 'GBP',
+    headline: 'Tuition published per course',
+    items: [ { label: 'Tuition (Overseas rate)', text: 'Set per course and published on the course page' } ],
+    billedSubtotal: null,
+    totalText: 'Not confirmed — see the official fees page',
+    note: 'Living costs, the visa fee and the immigration health surcharge are extra.'
+  },
+  scholarships: {
+    fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
+    merit: [],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'Entry requirements for international applicants', url: 'https://www.leeds.ac.uk/international-applying/doc/entry-requirements' },
+    { label: 'International fees and costs', url: 'https://www.leeds.ac.uk/international-fees-costs' }
+  ],
+  verification: { level: 'partial', checked: ['english minimum','rounds','application fee'], unconfirmed: ['tuition amount','scholarships'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'university-of-nottingham',
+  name: 'University of Nottingham',
+  shortName: 'Nottingham',
+  country: 'uk',
+  city: 'Nottingham',
+  region: 'England',
+  type: 'Public research university',
+  brand: { c1: '#005e8e', c2: '#00344f', initials: 'NOT' },
+  description: 'A large research university with a parkland campus in the English Midlands and partner campuses in China and Malaysia. Subjects range from engineering and medicine to business and the arts.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['engineering','computer-science','business','medicine','law','humanities','social-sciences','biology','mathematics','psychology','economics','arts'],
+  englishTaughtPrograms: ['engineering','computer-science','business','medicine','law','humanities','social-sciences','biology','mathematics','psychology','economics','arts'],
+  programNote: 'Degrees are also offered at the campuses in China and Malaysia, which have their own fees and admission routes.',
+  links: {
+    website: 'https://www.nottingham.ac.uk/',
+    admissions: 'https://www.nottingham.ac.uk/studywithus/ugstudy/',
+    applicationPortal: 'https://www.ucas.com/',
+    scholarships: 'https://www.nottingham.ac.uk/studywithus/international-applicants/',
+    cost: 'https://www.nottingham.ac.uk/fees/tuitionfees/202627/undergraduate.aspx',
+    english: 'https://www.nottingham.ac.uk/studywithus/international-applicants/english-language/english-language-requirements.aspx'
+  },
+  admissions: {
+    platforms: ['UCAS (required for all undergraduate courses)'],
+    deadlines: [
+      { name: 'UCAS equal consideration deadline (2027 entry)', kind: 'ucas-main', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-13', date: '13 January 2027', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'All undergraduate courses except those with a 15 October deadline', conditions: 'Applications received by this time must be considered equally', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546', verified: '2026-09-23', note: null },
+      { name: 'UCAS applications open (2027 entry)', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-05-12', date: '12 May 2026', binding: false, appliesTo: 'All applicants', status: 'confirmed', source: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications', verified: '2026-09-23', note: 'One UCAS application holds up to five course choices' }
+    ],
+    applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: false, waiver: null, note: 'The £34.50 is the UCAS fee for the whole 2027-cycle application (up to five choices), not a university fee. UCAS waives it only for UK free-school-meal recipients and care leavers.' },
+    documents: ['UCAS application with personal statement', 'Academic reference', 'Predicted or achieved school-leaving grades', 'Proof of English where required'],
+    recommendations: 'One academic reference through UCAS',
+    essay: 'UCAS personal statement',
+    interview: 'Interviews are used for medicine, veterinary medicine and some healthcare courses.',
+    notes: ['Nottingham states that a proposed UK government levy on international fees, if introduced, would be added to tuition.']
+  },
+  english: {
+    ielts: { min: 6.0, recommended: null, note: 'University minimum for undergraduate entry: IELTS 6.0 with no element below 5.5. Requirements vary by course and the level that applies is stated in the offer.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'TOEFL iBT is accepted; the required score depends on the course.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: 'Nottingham recognises a range of qualifications as evidence of English; the list is published with the requirements.',
+    note: 'Pearson PTE Academic is also accepted.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'not-applicable', note: 'Admission is on school-leaving qualifications rather than the SAT or ACT.' },
+    act: { policy: 'not-applicable', note: 'The US test-optional classification does not apply to this route.' },
+    otherTests: 'Medicine requires the UCAT; veterinary medicine has its own selection process.',
+    internationalQualifications: 'A-levels, the IB and a published list of international qualifications are accepted.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'the overseas tuition rate is published on each course page; no single university-wide figure was confirmed here' },
+    academicYear: '2026–2027',
+    currency: 'GBP',
+    headline: 'Tuition published per course',
+    items: [ { label: 'Tuition (Overseas rate)', text: 'Set per course and published on the course page' } ],
+    billedSubtotal: null,
+    totalText: 'Not confirmed — see the official fees page',
+    note: 'Living costs, the visa fee and the immigration health surcharge are extra.'
+  },
+  scholarships: {
+    fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
+    merit: [],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'English language requirements for international students', url: 'https://www.nottingham.ac.uk/studywithus/international-applicants/english-language/english-language-requirements.aspx' },
+    { label: 'Undergraduate tuition fees 2026/27', url: 'https://www.nottingham.ac.uk/fees/tuitionfees/202627/undergraduate.aspx' }
+  ],
+  verification: { level: 'partial', checked: ['english minimum','rounds','application fee'], unconfirmed: ['tuition amount','scholarships'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'lancaster-university',
+  name: 'Lancaster University',
+  shortName: 'Lancaster',
+  country: 'uk',
+  city: 'Lancaster',
+  region: 'England',
+  type: 'Public collegiate research university',
+  brand: { c1: '#b5121b', c2: '#6b0a10', initials: 'LAN' },
+  description: 'A collegiate campus university in north-west England, strong in management, computing, environmental science and physics, with a compact campus outside the city.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['business','computer-science','engineering','social-sciences','humanities','mathematics','biology','psychology','economics','arts'],
+  englishTaughtPrograms: ['business','computer-science','engineering','social-sciences','humanities','mathematics','biology','psychology','economics','arts'],
+  programNote: 'Every student joins a college, which organises accommodation and student life; teaching is by department.',
+  links: {
+    website: 'https://www.lancaster.ac.uk/',
+    admissions: 'https://www.lancaster.ac.uk/study/undergraduate/',
+    applicationPortal: 'https://www.ucas.com/',
+    scholarships: 'https://www.lancaster.ac.uk/study/fees-and-funding/',
+    cost: 'https://www.lancaster.ac.uk/study/undergraduate/fees-and-funding/',
+    english: 'https://www.lancaster.ac.uk/study/entry-requirements/undergraduate-english-requirements/'
+  },
+  admissions: {
+    platforms: ['UCAS (required for all undergraduate courses)'],
+    deadlines: [
+      { name: 'UCAS equal consideration deadline (2027 entry)', kind: 'ucas-main', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-13', date: '13 January 2027', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'All undergraduate courses except those with a 15 October deadline', conditions: 'Applications received by this time must be considered equally', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546', verified: '2026-09-23', note: null },
+      { name: 'UCAS applications open (2027 entry)', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-05-12', date: '12 May 2026', binding: false, appliesTo: 'All applicants', status: 'confirmed', source: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications', verified: '2026-09-23', note: 'One UCAS application holds up to five course choices' }
+    ],
+    applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: false, waiver: null, note: 'The £34.50 is the UCAS fee for the whole 2027-cycle application (up to five choices), not a university fee. UCAS waives it only for UK free-school-meal recipients and care leavers.' },
+    documents: ['UCAS application with personal statement', 'Academic reference', 'Predicted or achieved school-leaving grades', 'Proof of English where required'],
+    recommendations: 'One academic reference through UCAS',
+    essay: 'UCAS personal statement',
+    interview: 'Most courses admit without an interview.',
+    notes: ['Lancaster states that international tuition will not rise by more than 4% a year during a programme.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Depends on the course. Lancaster states that many undergraduate programmes require IELTS 6.5 overall with at least 5.5 in each component; the course page gives the exact level.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'TOEFL is accepted; the score depends on the course.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: 'Lancaster lists qualifications taught in English that are accepted instead of a test.',
+    note: 'IELTS, TOEFL, Pearson and LanguageCert certificates are valid for two years from the test date and must still be valid on the start date. A ten-week pre-sessional English course is available for applicants slightly below the level.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'not-applicable', note: 'Admission is on school-leaving qualifications rather than the SAT or ACT.' },
+    act: { policy: 'not-applicable', note: 'The US test-optional classification does not apply to this route.' },
+    otherTests: 'No university-wide admissions test.',
+    internationalQualifications: 'A-levels, the IB and a published list of international qualifications are accepted.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'the overseas tuition rate is published on each course page; no single university-wide figure was confirmed here' },
+    academicYear: '2026–2027',
+    currency: 'GBP',
+    headline: 'Tuition published per course',
+    items: [ { label: 'Tuition (Overseas rate)', text: 'Set per course and published on the course page' } ],
+    billedSubtotal: null,
+    totalText: 'Not confirmed — see the official fees page',
+    note: 'Living costs, the visa fee and the immigration health surcharge are extra.'
+  },
+  scholarships: {
+    fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
+    merit: [],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'English language requirements for undergraduate applicants', url: 'https://www.lancaster.ac.uk/study/entry-requirements/undergraduate-english-requirements/' },
+    { label: 'Fees and funding', url: 'https://www.lancaster.ac.uk/study/fees-and-funding/' }
+  ],
+  verification: { level: 'partial', checked: ['english (typical level)','rounds','application fee'], unconfirmed: ['exact IELTS per course','tuition amount','scholarships'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'newcastle-university',
+  name: 'Newcastle University',
+  shortName: 'Newcastle',
+  country: 'uk',
+  city: 'Newcastle upon Tyne',
+  region: 'England',
+  type: 'Public research university',
+  brand: { c1: '#00707f', c2: '#00434c', initials: 'NCL' },
+  description: 'A civic research university in north-east England with a city-centre campus, known for medicine, engineering, computing and marine sciences.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['medicine','engineering','computer-science','business','law','humanities','social-sciences','biology','mathematics','psychology','arts'],
+  englishTaughtPrograms: ['medicine','engineering','computer-science','business','law','humanities','social-sciences','biology','mathematics','psychology','arts'],
+  programNote: 'Newcastle also runs a medical campus in Malaysia with separate admission.',
+  links: {
+    website: 'https://www.ncl.ac.uk/',
+    admissions: 'https://www.ncl.ac.uk/undergraduate/',
+    applicationPortal: 'https://www.ucas.com/',
+    scholarships: 'https://www.ncl.ac.uk/international/fees-funding/',
+    cost: 'https://www.ncl.ac.uk/undergraduate/fees-funding/tuition-fees/',
+    english: 'https://www.ncl.ac.uk/international/language/'
+  },
+  admissions: {
+    platforms: ['UCAS (required for all undergraduate courses)'],
+    deadlines: [
+      { name: 'UCAS equal consideration deadline (2027 entry)', kind: 'ucas-main', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-13', date: '13 January 2027', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'All undergraduate courses except those with a 15 October deadline', conditions: 'Applications received by this time must be considered equally', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546', verified: '2026-09-23', note: null },
+      { name: 'UCAS applications open (2027 entry)', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-05-12', date: '12 May 2026', binding: false, appliesTo: 'All applicants', status: 'confirmed', source: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications', verified: '2026-09-23', note: 'One UCAS application holds up to five course choices' }
+    ],
+    applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: false, waiver: null, note: 'The £34.50 is the UCAS fee for the whole 2027-cycle application (up to five choices), not a university fee. UCAS waives it only for UK free-school-meal recipients and care leavers.' },
+    documents: ['UCAS application with personal statement', 'Academic reference', 'Predicted or achieved school-leaving grades', 'Proof of English where required'],
+    recommendations: 'One academic reference through UCAS',
+    essay: 'UCAS personal statement',
+    interview: 'Interviews are used for medicine, dentistry and some healthcare courses.',
+    notes: ['Course pages state where a higher overall or sub-score is needed.']
+  },
+  english: {
+    ielts: { min: 6.5, recommended: null, note: 'Typical undergraduate requirement: IELTS Academic or IELTS for UKVI (Academic) 6.5 overall with at least 5.5 in each sub-skill. Individual course pages list higher requirements where they apply.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Accepted; the score depends on the course.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: 'Newcastle accepts a range of English-medium qualifications in place of a test.',
+    note: 'For visa purposes Newcastle states that tests are valid if taken within three years of the course start and must be verifiable on the official test website.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'not-applicable', note: 'Admission is on school-leaving qualifications rather than the SAT or ACT.' },
+    act: { policy: 'not-applicable', note: 'The US test-optional classification does not apply to this route.' },
+    otherTests: 'Medicine and dentistry require the UCAT.',
+    internationalQualifications: 'A-levels, the IB and a published list of international qualifications are accepted.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'the overseas tuition rate is published on each course page; no single university-wide figure was confirmed here' },
+    academicYear: '2026–2027',
+    currency: 'GBP',
+    headline: 'Tuition published per course',
+    items: [ { label: 'Tuition (Overseas rate)', text: 'Set per course and published on the course page' } ],
+    billedSubtotal: null,
+    totalText: 'Not confirmed — see the official fees page',
+    note: 'Living costs, the visa fee and the immigration health surcharge are extra.'
+  },
+  scholarships: {
+    fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
+    merit: [],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'English language requirements for international students', url: 'https://www.ncl.ac.uk/international/language/' },
+    { label: 'Undergraduate tuition fees', url: 'https://www.ncl.ac.uk/undergraduate/fees-funding/tuition-fees/' }
+  ],
+  verification: { level: 'partial', checked: ['english (typical level)','rounds','application fee'], unconfirmed: ['tuition amount','scholarships'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'queen-mary-university-of-london',
+  name: 'Queen Mary University of London',
+  shortName: 'Queen Mary',
+  country: 'uk',
+  city: 'London',
+  region: 'England',
+  type: 'Public research university (University of London)',
+  brand: { c1: '#003366', c2: '#001a33', initials: 'QMU' },
+  description: 'A research university in east London with a main campus in Mile End, teaching medicine, law, engineering, science and humanities.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['medicine','law','engineering','computer-science','business','humanities','social-sciences','biology','mathematics','psychology','economics'],
+  englishTaughtPrograms: ['medicine','law','engineering','computer-science','business','humanities','social-sciences','biology','mathematics','psychology','economics'],
+  programNote: 'English requirements are organised in bands, and each programme states the band it uses.',
+  links: {
+    website: 'https://www.qmul.ac.uk/',
+    admissions: 'https://www.qmul.ac.uk/undergraduate/',
+    applicationPortal: 'https://www.ucas.com/',
+    scholarships: 'https://www.qmul.ac.uk/international-students/tuitionfees/',
+    cost: 'https://www.qmul.ac.uk/undergraduate/feesandfunding/tuitionfees/',
+    english: 'https://www.qmul.ac.uk/international-students/englishlanguagerequirements/undergraduate-and-postgraduate-programmes/'
+  },
+  admissions: {
+    platforms: ['UCAS (required for all undergraduate courses)'],
+    deadlines: [
+      { name: 'UCAS equal consideration deadline (2027 entry)', kind: 'ucas-main', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-13', date: '13 January 2027', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'All undergraduate courses except those with a 15 October deadline', conditions: 'Applications received by this time must be considered equally', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546', verified: '2026-09-23', note: null },
+      { name: 'UCAS applications open (2027 entry)', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-05-12', date: '12 May 2026', binding: false, appliesTo: 'All applicants', status: 'confirmed', source: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications', verified: '2026-09-23', note: 'One UCAS application holds up to five course choices' }
+    ],
+    applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: false, waiver: null, note: 'The £34.50 is the UCAS fee for the whole 2027-cycle application (up to five choices), not a university fee. UCAS waives it only for UK free-school-meal recipients and care leavers.' },
+    documents: ['UCAS application with personal statement', 'Academic reference', 'Predicted or achieved school-leaving grades', 'Proof of English where required'],
+    recommendations: 'One academic reference through UCAS',
+    essay: 'UCAS personal statement',
+    interview: 'Interviews are used for medicine, dentistry and a few other programmes.',
+    notes: ['Queen Mary charges an international tuition deposit before enrolment.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Depends on the programme band. Confirmed examples: Band 4 requires IELTS Academic 6.5 overall with 6.0 in each skill; Band 5 requires 7.0 overall with 6.0 in each skill. Only the Academic test (standard or UKVI) is accepted - the General test is not.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Accepted; the score depends on the programme band.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: 'Queen Mary lists qualifications taught in English that meet the requirement without a test.',
+    note: 'Queen Mary considers the IELTS Academic, IELTS Online and IELTS Indicator tests. Results must be no more than two years old at the course start date.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'not-applicable', note: 'Admission is on school-leaving qualifications rather than the SAT or ACT.' },
+    act: { policy: 'not-applicable', note: 'The US test-optional classification does not apply to this route.' },
+    otherTests: 'Medicine and dentistry require the UCAT.',
+    internationalQualifications: 'A-levels, the IB and a published list of international qualifications are accepted.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'the overseas tuition rate is published on each course page; no single university-wide figure was confirmed here' },
+    academicYear: '2026–2027',
+    currency: 'GBP',
+    headline: 'Tuition published per course',
+    items: [ { label: 'Tuition (Overseas rate)', text: 'Set per course and published on the course page' } ],
+    billedSubtotal: null,
+    totalText: 'Not confirmed — see the official fees page',
+    note: 'Living costs, the visa fee and the immigration health surcharge are extra.'
+  },
+  scholarships: {
+    fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
+    merit: [],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'English language requirements for undergraduate and postgraduate programmes', url: 'https://www.qmul.ac.uk/international-students/englishlanguagerequirements/undergraduate-and-postgraduate-programmes/' },
+    { label: 'Undergraduate tuition fees', url: 'https://www.qmul.ac.uk/undergraduate/feesandfunding/tuitionfees/' }
+  ],
+  verification: { level: 'partial', checked: ['english bands','rounds','application fee'], unconfirmed: ['tuition amount','scholarships'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'university-of-southampton',
+  name: 'University of Southampton',
+  shortName: 'Southampton',
+  country: 'uk',
+  city: 'Southampton',
+  region: 'England',
+  type: 'Public research university',
+  brand: { c1: '#8e2244', c2: '#4d1224', initials: 'SOU' },
+  description: 'A research university on the south coast of England, known for engineering, computer science, medicine and ocean and earth science.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['engineering','computer-science','medicine','business','humanities','social-sciences','biology','mathematics','psychology','law','arts'],
+  englishTaughtPrograms: ['engineering','computer-science','medicine','business','humanities','social-sciences','biology','mathematics','psychology','law','arts'],
+  programNote: 'Each course is assigned an English language band (A to I) with an IELTS equivalent, stated in the offer letter.',
+  links: {
+    website: 'https://www.southampton.ac.uk/',
+    admissions: 'https://www.southampton.ac.uk/study/undergraduate',
+    applicationPortal: 'https://www.ucas.com/',
+    scholarships: 'https://www.southampton.ac.uk/study/fees-funding',
+    cost: 'https://www.southampton.ac.uk/courses/fees/undergraduate.page',
+    english: 'https://www.southampton.ac.uk/international/english-language-requirements'
+  },
+  admissions: {
+    platforms: ['UCAS (required for all undergraduate courses)'],
+    deadlines: [
+      { name: 'UCAS deadline — medicine, dentistry and veterinary courses (2027 entry)', kind: 'ucas-october', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-10-15', date: '15 October 2026', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'Medicine, dentistry and veterinary medicine/science', conditions: 'Earlier UCAS deadline set for these subjects', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-the-universities-of-oxford-and-cambridge-and-most-courses-in-medicine-475536', verified: '2026-09-23', note: null },
+      { name: 'UCAS equal consideration deadline (2027 entry)', kind: 'ucas-main', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-13', date: '13 January 2027', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'All undergraduate courses except those with a 15 October deadline', conditions: 'Applications received by this time must be considered equally', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546', verified: '2026-09-23', note: null },
+      { name: 'UCAS applications open (2027 entry)', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-05-12', date: '12 May 2026', binding: false, appliesTo: 'All applicants', status: 'confirmed', source: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications', verified: '2026-09-23', note: 'One UCAS application holds up to five course choices' }
+    ],
+    applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: false, waiver: null, note: 'The £34.50 is the UCAS fee for the whole 2027-cycle application (up to five choices), not a university fee. UCAS waives it only for UK free-school-meal recipients and care leavers.' },
+    documents: ['UCAS application with personal statement', 'Academic reference', 'Predicted or achieved school-leaving grades', 'Proof of English where required'],
+    recommendations: 'One academic reference through UCAS',
+    essay: 'UCAS personal statement',
+    interview: 'Interviews are used for medicine and some healthcare courses.',
+    notes: ['The English band that applies is confirmed in the offer letter, so check it before booking a test.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Depends on the course. Southampton assigns each course an English band (A to I) with an IELTS Academic equivalent; the published example for some education programmes is IELTS 6.5 with at least 5.5 in each element. The band that applies is stated in the offer letter.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Accepted; the required score depends on the course.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: 'Southampton accepts qualifications taught in English in place of a test in cases it lists.',
+    note: 'Applicants who do not meet the level can take a pre-sessional English course.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'not-applicable', note: 'Admission is on school-leaving qualifications such as A-levels and the IB rather than the SAT or ACT.' },
+    act: { policy: 'not-applicable', note: 'The US test-optional classification does not apply to this route.' },
+    otherTests: 'Medicine requires the UCAT.',
+    internationalQualifications: 'A-levels, the IB and a published list of international qualifications are accepted, with grades set per course.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'the overseas tuition rate is published on each course page; no single university-wide figure was confirmed here' },
+    academicYear: '2026–2027',
+    currency: 'GBP',
+    headline: 'Tuition published per course',
+    items: [ { label: 'Tuition (Overseas rate)', text: 'Set per course and published on the course page' } ],
+    billedSubtotal: null,
+    totalText: 'Not confirmed — see the official fees page',
+    note: 'Living costs, the visa fee and the immigration health surcharge are extra.'
+  },
+  scholarships: {
+    fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
+    merit: [],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'English language requirements', url: 'https://www.southampton.ac.uk/international/english-language-requirements' },
+    { label: 'Undergraduate tuition fees', url: 'https://www.southampton.ac.uk/courses/fees/undergraduate.page' }
+  ],
+  verification: { level: 'partial', checked: ['english band system','rounds','application fee'], unconfirmed: ['exact IELTS per band','tuition amount','scholarships'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'university-of-birmingham',
+  name: 'University of Birmingham',
+  shortName: 'Birmingham',
+  country: 'uk',
+  city: 'Birmingham',
+  region: 'England',
+  type: 'Public research university',
+  brand: { c1: '#1b3b6f', c2: '#0d1f3c', initials: 'BIR' },
+  description: 'A large civic research university with a single campus in the second city of England, teaching medicine, engineering, business, law and the humanities.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['medicine','engineering','computer-science','business','law','humanities','social-sciences','biology','mathematics','psychology','economics','arts'],
+  englishTaughtPrograms: ['medicine','engineering','computer-science','business','law','humanities','social-sciences','biology','mathematics','psychology','economics','arts'],
+  programNote: 'Birmingham also runs a campus in Dubai with separate fees and admission.',
+  links: {
+    website: 'https://www.birmingham.ac.uk/',
+    admissions: 'https://www.birmingham.ac.uk/study/undergraduate',
+    applicationPortal: 'https://www.ucas.com/',
+    scholarships: 'https://www.birmingham.ac.uk/study/international/fees',
+    cost: 'https://www.birmingham.ac.uk/study/undergraduate/fees-funding/tuition',
+    english: 'https://www.birmingham.ac.uk/study/international'
+  },
+  admissions: {
+    platforms: ['UCAS (required for all undergraduate courses)'],
+    deadlines: [
+      { name: 'UCAS deadline — medicine, dentistry and veterinary courses (2027 entry)', kind: 'ucas-october', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-10-15', date: '15 October 2026', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'Medicine, dentistry and veterinary medicine/science', conditions: 'Earlier UCAS deadline set for these subjects', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-the-universities-of-oxford-and-cambridge-and-most-courses-in-medicine-475536', verified: '2026-09-23', note: null },
+      { name: 'UCAS equal consideration deadline (2027 entry)', kind: 'ucas-main', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-13', date: '13 January 2027', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'All undergraduate courses except those with a 15 October deadline', conditions: 'Applications received by this time must be considered equally', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546', verified: '2026-09-23', note: null },
+      { name: 'UCAS applications open (2027 entry)', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-05-12', date: '12 May 2026', binding: false, appliesTo: 'All applicants', status: 'confirmed', source: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications', verified: '2026-09-23', note: 'One UCAS application holds up to five course choices' }
+    ],
+    applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: false, waiver: null, note: 'The £34.50 is the UCAS fee for the whole 2027-cycle application (up to five choices), not a university fee. UCAS waives it only for UK free-school-meal recipients and care leavers.' },
+    documents: ['UCAS application with personal statement', 'Academic reference', 'Predicted or achieved school-leaving grades', 'Proof of English where required'],
+    recommendations: 'One academic reference through UCAS',
+    essay: 'UCAS personal statement',
+    interview: 'Interviews are used for medicine, dentistry and some healthcare courses.',
+    notes: ['Birmingham states that applicants for 2027 entry will be told the annual tuition fee closer to the time; the 2027 rates were not published when this was checked.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not confirmed during this check. Birmingham states that applicants can demonstrate English with IELTS, TOEFL, PTE or an alternative qualification, and publishes the required score on each course page.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Accepted; the required score depends on the course.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: 'Birmingham lists qualifications taught in English that are accepted in place of a test.',
+    note: 'The level required is published with each course.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'not-applicable', note: 'Admission is on school-leaving qualifications such as A-levels and the IB rather than the SAT or ACT.' },
+    act: { policy: 'not-applicable', note: 'The US test-optional classification does not apply to this route.' },
+    otherTests: 'Medicine and dentistry require the UCAT.',
+    internationalQualifications: 'A-levels, the IB and a published list of international qualifications are accepted, with grades set per course.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'Birmingham had not published 2027-entry international fees when this was checked' },
+    academicYear: '2027–2028',
+    currency: 'GBP',
+    headline: 'Tuition for 2027 entry not yet published',
+    items: [ { label: 'Tuition (Overseas rate, 2027 entry)', text: 'Birmingham states that applicants for 2027 entry will be advised of the annual fee closer to the time' } ],
+    billedSubtotal: null,
+    totalText: 'Not confirmed — 2027 rates not published',
+    note: 'Fees differ by course and are confirmed in the offer letter.'
+  },
+  scholarships: {
+    fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
+    merit: [],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International fees', url: 'https://www.birmingham.ac.uk/study/international/fees' },
+    { label: 'Undergraduate tuition fees', url: 'https://www.birmingham.ac.uk/study/undergraduate/fees-funding/tuition' }
+  ],
+  verification: { level: 'partial', checked: ['rounds','application fee','fee publication status'], unconfirmed: ['IELTS requirement','tuition amount','scholarships'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'university-of-york',
+  name: 'University of York',
+  shortName: 'York',
+  country: 'uk',
+  city: 'York',
+  region: 'England',
+  type: 'Public research university',
+  brand: { c1: '#00352f', c2: '#001a17', initials: 'YOR' },
+  description: 'A campus university in northern England with a college system, teaching sciences, social sciences, humanities and management.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['computer-science','engineering','business','social-sciences','humanities','biology','mathematics','psychology','economics','law','arts'],
+  englishTaughtPrograms: ['computer-science','engineering','business','social-sciences','humanities','biology','mathematics','psychology','economics','law','arts'],
+  programNote: 'York states that English requirements are set by academic department, so they vary across courses.',
+  links: {
+    website: 'https://www.york.ac.uk/',
+    admissions: 'https://www.york.ac.uk/study/undergraduate/',
+    applicationPortal: 'https://www.ucas.com/',
+    scholarships: 'https://www.york.ac.uk/study/undergraduate/fees-funding/international/scholarships/',
+    cost: 'https://www.york.ac.uk/study/undergraduate/fees-funding/international/',
+    english: 'https://www.york.ac.uk/study/international/'
+  },
+  admissions: {
+    platforms: ['UCAS (required for all undergraduate courses)'],
+    deadlines: [
+      { name: 'UCAS equal consideration deadline (2027 entry)', kind: 'ucas-main', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-13', date: '13 January 2027', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'All undergraduate courses except those with a 15 October deadline', conditions: 'Applications received by this time must be considered equally', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546', verified: '2026-09-23', note: null },
+      { name: 'UCAS applications open (2027 entry)', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-05-12', date: '12 May 2026', binding: false, appliesTo: 'All applicants', status: 'confirmed', source: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications', verified: '2026-09-23', note: 'One UCAS application holds up to five course choices' }
+    ],
+    applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: false, waiver: null, note: 'The £34.50 is the UCAS fee for the whole 2027-cycle application (up to five choices), not a university fee. UCAS waives it only for UK free-school-meal recipients and care leavers.' },
+    documents: ['UCAS application with personal statement', 'Academic reference', 'Predicted or achieved school-leaving grades', 'Proof of English where required'],
+    recommendations: 'One academic reference through UCAS',
+    essay: 'UCAS personal statement',
+    interview: 'Most courses admit without an interview.',
+    notes: ['York states that tuition in later years rises in line with CPI inflation, capped at 10%.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Depends on the department. York accepts IELTS and TOEFL iBT among other tests, and publishes the required score with each course; no single university-wide minimum was confirmed here.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Accepted; the required score depends on the course.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: 'York lists qualifications taught in English that are accepted instead of a test.',
+    note: 'Requirements vary by academic department.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'not-applicable', note: 'Admission is on school-leaving qualifications such as A-levels and the IB rather than the SAT or ACT.' },
+    act: { policy: 'not-applicable', note: 'The US test-optional classification does not apply to this route.' },
+    otherTests: 'No university-wide admissions test.',
+    internationalQualifications: 'A-levels, the IB and a published list of international qualifications are accepted, with grades set per course.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'the overseas tuition rate is published on each course page; no single university-wide figure was confirmed here' },
+    academicYear: '2027–2028',
+    currency: 'GBP',
+    headline: 'Tuition published per course',
+    items: [ { label: 'Tuition (Overseas rate)', text: 'Set per course and published on the course page' } ],
+    billedSubtotal: null,
+    totalText: 'Not confirmed — see the official fees page',
+    note: 'Living costs, the visa fee and the immigration health surcharge are extra.'
+  },
+  scholarships: {
+    fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
+    merit: [],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International tuition fees', url: 'https://www.york.ac.uk/study/undergraduate/fees-funding/international/' },
+    { label: 'International students', url: 'https://www.york.ac.uk/study/international/' }
+  ],
+  verification: { level: 'partial', checked: ['rounds','application fee','fee structure'], unconfirmed: ['IELTS requirement','tuition amount','scholarships'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'university-of-exeter',
+  name: 'University of Exeter',
+  shortName: 'Exeter',
+  country: 'uk',
+  city: 'Exeter',
+  region: 'England',
+  type: 'Public research university',
+  brand: { c1: '#00543a', c2: '#00301f', initials: 'EXE' },
+  description: 'A research university in south-west England with campuses in Exeter and Cornwall, strong in business, environmental science and the humanities.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['business','economics','humanities','social-sciences','biology','computer-science','engineering','mathematics','psychology','law','arts','medicine'],
+  englishTaughtPrograms: ['business','economics','humanities','social-sciences','biology','computer-science','engineering','mathematics','psychology','law','arts','medicine'],
+  programNote: 'Courses are assigned an English language profile; the profile pages give the exact scores.',
+  links: {
+    website: 'https://www.exeter.ac.uk/',
+    admissions: 'https://www.exeter.ac.uk/study/undergraduate/',
+    applicationPortal: 'https://www.ucas.com/',
+    scholarships: 'https://www.exeter.ac.uk/study/funding/undergraduate/',
+    cost: 'https://www.exeter.ac.uk/international-students/tuition-fees/',
+    english: 'https://www.exeter.ac.uk/study/englishlanguagerequirements/'
+  },
+  admissions: {
+    platforms: ['UCAS (required for all undergraduate courses)'],
+    deadlines: [
+      { name: 'UCAS deadline — medicine, dentistry and veterinary courses (2027 entry)', kind: 'ucas-october', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-10-15', date: '15 October 2026', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'Medicine, dentistry and veterinary medicine/science', conditions: 'Earlier UCAS deadline set for these subjects', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-the-universities-of-oxford-and-cambridge-and-most-courses-in-medicine-475536', verified: '2026-09-23', note: null },
+      { name: 'UCAS equal consideration deadline (2027 entry)', kind: 'ucas-main', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-13', date: '13 January 2027', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'All undergraduate courses except those with a 15 October deadline', conditions: 'Applications received by this time must be considered equally', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546', verified: '2026-09-23', note: null },
+      { name: 'UCAS applications open (2027 entry)', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-05-12', date: '12 May 2026', binding: false, appliesTo: 'All applicants', status: 'confirmed', source: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications', verified: '2026-09-23', note: 'One UCAS application holds up to five course choices' }
+    ],
+    applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: false, waiver: null, note: 'The £34.50 is the UCAS fee for the whole 2027-cycle application (up to five choices), not a university fee. UCAS waives it only for UK free-school-meal recipients and care leavers.' },
+    documents: ['UCAS application with personal statement', 'Academic reference', 'Predicted or achieved school-leaving grades', 'Proof of English where required'],
+    recommendations: 'One academic reference through UCAS',
+    essay: 'UCAS personal statement',
+    interview: 'Interviews are used for medicine and a few other courses.',
+    notes: ['For a student visa Exeter states that applicants must show living costs of at least £1,171 a month for nine months (£10,539).']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Depends on the course profile. Exeter groups courses into English language profiles (for example B1, B2, E and F) and publishes the required scores on each profile page; the individual figures were not read during this check.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Accepted; the required score depends on the course.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: 'Exeter accepts qualifications taught in English in place of a test in listed cases.',
+    note: 'IELTS results are valid for two years before the start of the programme.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'not-applicable', note: 'Admission is on school-leaving qualifications such as A-levels and the IB rather than the SAT or ACT.' },
+    act: { policy: 'not-applicable', note: 'The US test-optional classification does not apply to this route.' },
+    otherTests: 'No university-wide admissions test; medicine requires the UCAT.',
+    internationalQualifications: 'A-levels, the IB and a published list of international qualifications are accepted, with grades set per course.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'the overseas tuition rate is published on each course page; no single university-wide figure was confirmed here' },
+    academicYear: '2027–2028',
+    currency: 'GBP',
+    headline: 'Tuition published per course',
+    items: [ { label: 'Tuition (Overseas rate)', text: 'Set per course and published on the course page' } ],
+    billedSubtotal: null,
+    totalText: 'Not confirmed — see the official fees page',
+    note: 'Living costs, the visa fee and the immigration health surcharge are extra.'
+  },
+  scholarships: {
+    fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
+    merit: [],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'English language requirements and profiles', url: 'https://www.exeter.ac.uk/study/englishlanguagerequirements/' },
+    { label: 'Tuition fees for international students', url: 'https://www.exeter.ac.uk/international-students/tuition-fees/' }
+  ],
+  verification: { level: 'partial', checked: ['english profile system','living-cost requirement','rounds','application fee'], unconfirmed: ['exact IELTS per profile','tuition amount','scholarships'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'university-of-bath',
+  name: 'University of Bath',
+  shortName: 'Bath',
+  country: 'uk',
+  city: 'Bath',
+  region: 'England',
+  type: 'Public research university',
+  brand: { c1: '#9b1b30', c2: '#5a0f1c', initials: 'BAT' },
+  description: 'A campus university in south-west England known for engineering, management and placement-based degrees with a year in industry.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['engineering','business','computer-science','mathematics','social-sciences','biology','psychology','economics','humanities'],
+  englishTaughtPrograms: ['engineering','business','computer-science','mathematics','social-sciences','biology','psychology','economics','humanities'],
+  programNote: 'Many Bath degrees include a placement year in industry or a year abroad, which changes the length and the fee for that year.',
+  links: {
+    website: 'https://www.bath.ac.uk/',
+    admissions: 'https://www.bath.ac.uk/topics/undergraduate-study-2026/',
+    applicationPortal: 'https://www.ucas.com/',
+    scholarships: 'https://www.bath.ac.uk/guides/bath-international-excellence-scholarship/',
+    cost: 'https://www.bath.ac.uk/corporate-information/tuition-fees-for-undergraduate-students-starting-in-2027/',
+    english: 'https://www.bath.ac.uk/corporate-information/entry-requirements-for-international-students/'
+  },
+  admissions: {
+    platforms: ['UCAS (required for all undergraduate courses)'],
+    deadlines: [
+      { name: 'UCAS equal consideration deadline (2027 entry)', kind: 'ucas-main', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-13', date: '13 January 2027', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'All undergraduate courses except those with a 15 October deadline', conditions: 'Applications received by this time must be considered equally', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546', verified: '2026-09-23', note: null },
+      { name: 'UCAS applications open (2027 entry)', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-05-12', date: '12 May 2026', binding: false, appliesTo: 'All applicants', status: 'confirmed', source: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications', verified: '2026-09-23', note: 'One UCAS application holds up to five course choices' }
+    ],
+    applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: false, waiver: null, note: 'The £34.50 is the UCAS fee for the whole 2027-cycle application (up to five choices), not a university fee. UCAS waives it only for UK free-school-meal recipients and care leavers.' },
+    documents: ['UCAS application with personal statement', 'Academic reference', 'Predicted or achieved school-leaving grades', 'Proof of English where required'],
+    recommendations: 'One academic reference through UCAS',
+    essay: 'UCAS personal statement',
+    interview: 'Interviews are used for a small number of courses.',
+    notes: ['Bath advises international applicants to budget for an increase of up to 8% in each year of the course.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Depends on the course category (A, B or C). A published course example requires IELTS 6.5 overall with no less than 6.0 in all components. Test results must be no more than 24 months old at the start of the course.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Accepted; the required score depends on the course.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: 'Bath accepts listed school qualifications taught in English in place of a test.',
+    note: 'Qualifications used to meet the English requirement must have been achieved no more than 24 months before the course starts.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'not-applicable', note: 'Admission is on school-leaving qualifications such as A-levels and the IB rather than the SAT or ACT.' },
+    act: { policy: 'not-applicable', note: 'The US test-optional classification does not apply to this route.' },
+    otherTests: 'No university-wide admissions test.',
+    internationalQualifications: 'A-levels, the IB and a published list of international qualifications are accepted, with grades set per course.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'the overseas tuition rate is published on each course page; no single university-wide figure was confirmed here' },
+    academicYear: '2027–2028',
+    currency: 'GBP',
+    headline: 'Tuition published per course',
+    items: [ { label: 'Tuition (Overseas rate)', text: 'Set per course and published on the course page' } ],
+    billedSubtotal: null,
+    totalText: 'Not confirmed — see the official fees page',
+    note: 'Living costs, the visa fee and the immigration health surcharge are extra.'
+  },
+  scholarships: {
+    fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
+    merit: [],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'Entry requirements for international students', url: 'https://www.bath.ac.uk/corporate-information/entry-requirements-for-international-students/' },
+    { label: 'Tuition fees for undergraduate students starting in 2027', url: 'https://www.bath.ac.uk/corporate-information/tuition-fees-for-undergraduate-students-starting-in-2027/' }
+  ],
+  verification: { level: 'partial', checked: ['english (course example and validity)','rounds','application fee'], unconfirmed: ['exact IELTS per category','tuition amount','scholarships'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'cardiff-university',
+  name: 'Cardiff University',
+  shortName: 'Cardiff',
+  country: 'uk',
+  city: 'Cardiff',
+  region: 'Wales',
+  type: 'Public research university',
+  brand: { c1: '#d50032', c2: '#7a001d', initials: 'CAR' },
+  description: 'The largest university in Wales, with medicine, engineering, journalism, business and a wide range of arts and sciences.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['medicine','engineering','computer-science','business','law','humanities','social-sciences','biology','mathematics','psychology','arts'],
+  englishTaughtPrograms: ['medicine','engineering','computer-science','business','law','humanities','social-sciences','biology','mathematics','psychology','arts'],
+  programNote: 'Cardiff is part of the Welsh university system but applications still go through UCAS on the same dates as the rest of the UK.',
+  links: {
+    website: 'https://www.cardiff.ac.uk/',
+    admissions: 'https://www.cardiff.ac.uk/study/undergraduate',
+    applicationPortal: 'https://www.ucas.com/',
+    scholarships: 'https://www.cardiff.ac.uk/study/international/funding-and-fees',
+    cost: 'https://www.cardiff.ac.uk/study/undergraduate/tuition-fees/overseas-undergraduate-fees',
+    english: 'https://www.cardiff.ac.uk/study/international/english-language-requirements'
+  },
+  admissions: {
+    platforms: ['UCAS (required for all undergraduate courses)'],
+    deadlines: [
+      { name: 'UCAS deadline — medicine, dentistry and veterinary courses (2027 entry)', kind: 'ucas-october', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-10-15', date: '15 October 2026', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'Medicine, dentistry and veterinary medicine/science', conditions: 'Earlier UCAS deadline set for these subjects', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-the-universities-of-oxford-and-cambridge-and-most-courses-in-medicine-475536', verified: '2026-09-23', note: null },
+      { name: 'UCAS equal consideration deadline (2027 entry)', kind: 'ucas-main', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-13', date: '13 January 2027', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'All undergraduate courses except those with a 15 October deadline', conditions: 'Applications received by this time must be considered equally', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546', verified: '2026-09-23', note: null },
+      { name: 'UCAS applications open (2027 entry)', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-05-12', date: '12 May 2026', binding: false, appliesTo: 'All applicants', status: 'confirmed', source: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications', verified: '2026-09-23', note: 'One UCAS application holds up to five course choices' }
+    ],
+    applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: false, waiver: null, note: 'The £34.50 is the UCAS fee for the whole 2027-cycle application (up to five choices), not a university fee. UCAS waives it only for UK free-school-meal recipients and care leavers.' },
+    documents: ['UCAS application with personal statement', 'Academic reference', 'Predicted or achieved school-leaving grades', 'Proof of English where required'],
+    recommendations: 'One academic reference through UCAS',
+    essay: 'UCAS personal statement',
+    interview: 'Interviews are used for medicine, dentistry and healthcare courses.',
+    notes: ['Cardiff accepts all IELTS Academic tests from any test centre, including the One Skill Retake; the UKVI version is not required for undergraduate courses.']
+  },
+  english: {
+    ielts: { min: 6.5, recommended: null, note: 'University minimum: IELTS Academic 6.5 overall with at least 5.5 in each sub-skill (or GCSE English at grade C/4). Admissions tutors may ask for higher scores on some courses. All IELTS Academic tests, including the One Skill Retake, are accepted; IELTS for UKVI is not required for undergraduate courses.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Accepted; the required score depends on the course.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: 'GCSE English at grade C/4 and other listed qualifications meet the requirement without a separate test.',
+    note: 'Higher scores apply to some courses, especially in medicine and healthcare.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'not-applicable', note: 'Admission is on school-leaving qualifications such as A-levels and the IB rather than the SAT or ACT.' },
+    act: { policy: 'not-applicable', note: 'The US test-optional classification does not apply to this route.' },
+    otherTests: 'Medicine and dentistry require the UCAT.',
+    internationalQualifications: 'A-levels, the IB and a published list of international qualifications are accepted, with grades set per course.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'the overseas tuition rate is published on each course page; no single university-wide figure was confirmed here' },
+    academicYear: '2026–2027',
+    currency: 'GBP',
+    headline: 'Tuition published per course',
+    items: [ { label: 'Tuition (Overseas rate)', text: 'Set per course and published on the course page' } ],
+    billedSubtotal: null,
+    totalText: 'Not confirmed — see the official fees page',
+    note: 'Living costs, the visa fee and the immigration health surcharge are extra.'
+  },
+  scholarships: {
+    fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
+    merit: [],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'English language requirements', url: 'https://www.cardiff.ac.uk/study/international/english-language-requirements' },
+    { label: 'Overseas undergraduate fees', url: 'https://www.cardiff.ac.uk/study/undergraduate/tuition-fees/overseas-undergraduate-fees' }
+  ],
+  verification: { level: 'partial', checked: ['english minimum and accepted IELTS versions','rounds','application fee'], unconfirmed: ['tuition amount','scholarships'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'university-of-aberdeen',
+  name: 'University of Aberdeen',
+  shortName: 'Aberdeen',
+  country: 'uk',
+  city: 'Aberdeen',
+  region: 'Scotland',
+  type: 'Public ancient university',
+  brand: { c1: '#0d5257', c2: '#06292b', initials: 'ABD' },
+  description: "One of Scotland's ancient universities, in the north-east of the country, with medicine, law, engineering, energy-related sciences and a broad four-year degree structure.",
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['medicine','law','engineering','business','humanities','social-sciences','biology','computer-science','mathematics','psychology','economics'],
+  englishTaughtPrograms: ['medicine','law','engineering','business','humanities','social-sciences','biology','computer-science','mathematics','psychology','economics'],
+  programNote: 'Aberdeen offers a self-funded international rate that already includes its Global Scholarship discount.',
+  links: {
+    website: 'https://www.abdn.ac.uk/',
+    admissions: 'https://www.abdn.ac.uk/study/undergraduate/',
+    applicationPortal: 'https://www.ucas.com/',
+    scholarships: 'https://www.abdn.ac.uk/study/international/',
+    cost: 'https://www.abdn.ac.uk/students/finance/tuition-fees/tuition-fee-rates/',
+    english: 'https://www.abdn.ac.uk/study/international/undergraduate-degrees-english-requirements-268.php'
+  },
+  admissions: {
+    platforms: ['UCAS (required for all undergraduate courses)'],
+    deadlines: [
+      { name: 'UCAS deadline — medicine, dentistry and veterinary courses (2027 entry)', kind: 'ucas-october', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-10-15', date: '15 October 2026', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'Medicine, dentistry and veterinary medicine/science', conditions: 'Earlier UCAS deadline set for these subjects', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-the-universities-of-oxford-and-cambridge-and-most-courses-in-medicine-475536', verified: '2026-09-23', note: null },
+      { name: 'UCAS equal consideration deadline (2027 entry)', kind: 'ucas-main', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-13', date: '13 January 2027', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'All undergraduate courses except those with a 15 October deadline', conditions: 'Applications received by this time must be considered equally', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546', verified: '2026-09-23', note: null },
+      { name: 'UCAS applications open (2027 entry)', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-05-12', date: '12 May 2026', binding: false, appliesTo: 'All applicants', status: 'confirmed', source: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications', verified: '2026-09-23', note: 'One UCAS application holds up to five course choices' }
+    ],
+    applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: false, waiver: null, note: 'The £34.50 is the UCAS fee for the whole 2027-cycle application (up to five choices), not a university fee. UCAS waives it only for UK free-school-meal recipients and care leavers.' },
+    documents: ['UCAS application with personal statement', 'Academic reference', 'Predicted or achieved school-leaving grades', 'Proof of English where required'],
+    recommendations: 'One academic reference through UCAS',
+    essay: 'UCAS personal statement',
+    interview: 'Interviews are used for medicine and dentistry.',
+    notes: ['The published self-funded rate already includes the £6,000 Aberdeen Global Scholarship, so it is a discounted price rather than a separate award to apply for.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not confirmed during this check. Aberdeen publishes standard undergraduate English requirements on its international pages and sets a higher level for Medicine (MBChB).' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Accepted; the required score depends on the course.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: 'Aberdeen lists qualifications taught in English that meet the requirement without a test.',
+    note: 'Medicine requires a higher level of English than other undergraduate degrees.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'not-applicable', note: 'Admission is on school-leaving qualifications such as A-levels and the IB rather than the SAT or ACT.' },
+    act: { policy: 'not-applicable', note: 'The US test-optional classification does not apply to this route.' },
+    otherTests: 'Medicine requires the UCAT.',
+    internationalQualifications: 'A-levels, Scottish Highers, the IB and a published list of international qualifications are accepted.'
+  },
+  costs: {
+    breakdown: { tuition: 24800, includes: 'the published international undergraduate rate for 2026/27; the self-funded rate of £18,800 already includes the £6,000 Aberdeen Global Scholarship' },
+    academicYear: '2026–2027',
+    currency: 'GBP',
+    headline: '£24,800 tuition (£18,800 self-funded rate)',
+    items: [
+      { label: 'Tuition — EU/international rate (2026/27)', amount: 24800 },
+      { label: 'Tuition — self-funded rate after the Aberdeen Global Scholarship (2026/27)', amount: 18800 }
+    ],
+    billedSubtotal: null,
+    totalText: '£24,800 a year, or £18,800 for self-funded students after the £6,000 Aberdeen Global Scholarship',
+    note: 'Living costs are extra. Medicine and some other programmes are charged at different rates.'
+  },
+  scholarships: {
+    fullRide: { available: false, internationalEligible: false, basis: null, covers: { tuition: false, housing: false, meals: false, insurance: false, books: false }, renewable: null, competitiveness: null, howToApply: null, note: 'The Aberdeen Global Scholarship is a tuition discount, not a full scholarship.' },
+    merit: [
+      { name: 'Aberdeen Global Scholarship', amount: '£6,000 a year off tuition (already reflected in the published self-funded rate)', eligibility: 'Self-funded international undergraduates, as published in the 2026/27 fee rates', deadline: null, application: 'Applied automatically to the self-funded rate', renewable: null, note: 'Confirmed only from the published fee table; the full scholarship conditions were not read during this check.' }
+    ],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'Tuition fee rates', url: 'https://www.abdn.ac.uk/students/finance/tuition-fees/tuition-fee-rates/' },
+    { label: 'Undergraduate degrees — English requirements', url: 'https://www.abdn.ac.uk/study/international/undergraduate-degrees-english-requirements-268.php' }
+  ],
+  verification: { level: 'partial', checked: ['tuition','scholarship discount','rounds','application fee'], unconfirmed: ['IELTS requirement','full scholarship conditions'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'university-of-liverpool',
+  name: 'University of Liverpool',
+  shortName: 'Liverpool',
+  country: 'uk',
+  city: 'Liverpool',
+  region: 'England',
+  type: 'Public research university',
+  brand: { c1: '#0f52ba', c2: '#08307a', initials: 'LIV' },
+  description: 'A civic research university in north-west England with medicine, veterinary science, engineering and a large international student body.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['medicine','engineering','computer-science','business','law','humanities','social-sciences','biology','mathematics','psychology','arts'],
+  englishTaughtPrograms: ['medicine','engineering','computer-science','business','law','humanities','social-sciences','biology','mathematics','psychology','arts'],
+  programNote: 'Liverpool also has a joint venture university in China (XJTLU) with its own admission route.',
+  links: {
+    website: 'https://www.liverpool.ac.uk/',
+    admissions: 'https://www.liverpool.ac.uk/study/undergraduate/',
+    applicationPortal: 'https://www.ucas.com/',
+    scholarships: 'https://www.liverpool.ac.uk/international/scholarships-and-fees/',
+    cost: 'https://www.liverpool.ac.uk/international/scholarships-and-fees/tuition-fees/',
+    english: 'https://www.liverpool.ac.uk/international/applying/entry-requirements/english-language-requirements/international-english-language-tests/'
+  },
+  admissions: {
+    platforms: ['UCAS (required for all undergraduate courses)'],
+    deadlines: [
+      { name: 'UCAS deadline — medicine, dentistry and veterinary courses (2027 entry)', kind: 'ucas-october', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-10-15', date: '15 October 2026', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'Medicine, dentistry and veterinary medicine/science', conditions: 'Earlier UCAS deadline set for these subjects', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-the-universities-of-oxford-and-cambridge-and-most-courses-in-medicine-475536', verified: '2026-09-23', note: null },
+      { name: 'UCAS equal consideration deadline (2027 entry)', kind: 'ucas-main', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-13', date: '13 January 2027', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'All undergraduate courses except those with a 15 October deadline', conditions: 'Applications received by this time must be considered equally', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546', verified: '2026-09-23', note: null },
+      { name: 'UCAS applications open (2027 entry)', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-05-12', date: '12 May 2026', binding: false, appliesTo: 'All applicants', status: 'confirmed', source: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications', verified: '2026-09-23', note: 'One UCAS application holds up to five course choices' }
+    ],
+    applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: false, waiver: null, note: 'The £34.50 is the UCAS fee for the whole 2027-cycle application (up to five choices), not a university fee. UCAS waives it only for UK free-school-meal recipients and care leavers.' },
+    documents: ['UCAS application with personal statement', 'Academic reference', 'Predicted or achieved school-leaving grades', 'Proof of English where required'],
+    recommendations: 'One academic reference through UCAS',
+    essay: 'UCAS personal statement',
+    interview: 'Interviews are used for medicine, dentistry and veterinary science.',
+    notes: ['Dentistry, medicine and veterinary science require higher English scores than other degrees.']
+  },
+  english: {
+    ielts: { min: 7.0, recommended: null, note: 'Liverpool states that most undergraduate programmes require IELTS 7.0 overall with no component below 6.5. Dentistry, medicine and veterinary science require more, and individual course pages confirm what applies.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Accepted; the required score depends on the course.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: 'Liverpool lists qualifications taught in English that meet the requirement without a test.',
+    note: 'Requirements state both an overall score and a minimum in each of the four components.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'not-applicable', note: 'Admission is on school-leaving qualifications such as A-levels and the IB rather than the SAT or ACT.' },
+    act: { policy: 'not-applicable', note: 'The US test-optional classification does not apply to this route.' },
+    otherTests: 'Medicine, dentistry and veterinary science require the UCAT.',
+    internationalQualifications: 'A-levels, the IB and a published list of international qualifications are accepted, with grades set per course.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'the overseas tuition rate is published on each course page; no single university-wide figure was confirmed here' },
+    academicYear: '2026–2027',
+    currency: 'GBP',
+    headline: 'Tuition published per course',
+    items: [ { label: 'Tuition (Overseas rate)', text: 'Set per course and published on the course page' } ],
+    billedSubtotal: null,
+    totalText: 'Not confirmed — see the official fees page',
+    note: 'Living costs, the visa fee and the immigration health surcharge are extra.'
+  },
+  scholarships: {
+    fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
+    merit: [],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International English language tests', url: 'https://www.liverpool.ac.uk/international/applying/entry-requirements/english-language-requirements/international-english-language-tests/' },
+    { label: 'Tuition fees for international students', url: 'https://www.liverpool.ac.uk/international/scholarships-and-fees/tuition-fees/' }
+  ],
+  verification: { level: 'partial', checked: ['english (typical requirement)','rounds','application fee'], unconfirmed: ['tuition amount','scholarships'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'queens-university-belfast',
+  name: "Queen's University Belfast",
+  shortName: "Queen's Belfast",
+  country: 'uk',
+  city: 'Belfast',
+  region: 'Northern Ireland',
+  type: 'Public research university',
+  brand: { c1: '#005a2b', c2: '#003318', initials: 'QUB' },
+  description: 'A research university in Northern Ireland with medicine, engineering, law and a broad range of arts and sciences, and lower living costs than most large UK cities.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['medicine','engineering','computer-science','business','law','humanities','social-sciences','biology','mathematics','psychology','arts'],
+  englishTaughtPrograms: ['medicine','engineering','computer-science','business','law','humanities','social-sciences','biology','mathematics','psychology','arts'],
+  programNote: 'Northern Ireland has its own school qualification system, but international applicants apply through UCAS on the standard dates.',
+  links: {
+    website: 'https://www.qub.ac.uk/',
+    admissions: 'https://www.qub.ac.uk/Study/Undergraduate/',
+    applicationPortal: 'https://www.ucas.com/',
+    scholarships: 'https://www.qub.ac.uk/Study/international-students/tuition-fees/',
+    cost: 'https://www.qub.ac.uk/Study/Feesandfinance/',
+    english: 'https://www.qub.ac.uk/Study/international-students/applying/english-language-requirements/'
+  },
+  admissions: {
+    platforms: ['UCAS (required for all undergraduate courses)'],
+    deadlines: [
+      { name: 'UCAS deadline — medicine, dentistry and veterinary courses (2027 entry)', kind: 'ucas-october', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-10-15', date: '15 October 2026', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'Medicine, dentistry and veterinary medicine/science', conditions: 'Earlier UCAS deadline set for these subjects', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-the-universities-of-oxford-and-cambridge-and-most-courses-in-medicine-475536', verified: '2026-09-23', note: null },
+      { name: 'UCAS equal consideration deadline (2027 entry)', kind: 'ucas-main', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-13', date: '13 January 2027', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'All undergraduate courses except those with a 15 October deadline', conditions: 'Applications received by this time must be considered equally', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546', verified: '2026-09-23', note: null },
+      { name: 'UCAS applications open (2027 entry)', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-05-12', date: '12 May 2026', binding: false, appliesTo: 'All applicants', status: 'confirmed', source: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications', verified: '2026-09-23', note: 'One UCAS application holds up to five course choices' }
+    ],
+    applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: false, waiver: null, note: 'The £34.50 is the UCAS fee for the whole 2027-cycle application (up to five choices), not a university fee. UCAS waives it only for UK free-school-meal recipients and care leavers.' },
+    documents: ['UCAS application with personal statement', 'Academic reference', 'Predicted or achieved school-leaving grades', 'Proof of English where required'],
+    recommendations: 'One academic reference through UCAS',
+    essay: 'UCAS personal statement',
+    interview: 'Interviews are used for medicine, dentistry and some healthcare courses.',
+    notes: ['Medicine and dentistry set much higher English requirements than other degrees.']
+  },
+  english: {
+    ielts: { min: 6.5, recommended: null, note: 'Queen\'s normally requires English equivalent to IELTS 6.5 overall (or TOEFL iBT 90). Some programmes set higher or lower levels: Medicine requires IELTS 7.5 overall with 7.0 in speaking and listening and 6.5 in reading and writing, and Dentistry the same with 6.0 in reading and writing.' },
+    toefl: { min: 90, recommended: null, scales: [{ period: 'pre2026', min: 90, recommended: null }], note: 'TOEFL iBT 90 is given as the normal equivalent of the IELTS 6.5 requirement.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: "Queen's lists qualifications taught in English that meet the requirement without a test.",
+    note: 'Course pages state where a higher level applies.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'not-applicable', note: 'Admission is on school-leaving qualifications such as A-levels and the IB rather than the SAT or ACT.' },
+    act: { policy: 'not-applicable', note: 'The US test-optional classification does not apply to this route.' },
+    otherTests: 'Medicine and dentistry require the UCAT.',
+    internationalQualifications: 'A-levels, the IB and a published list of international qualifications are accepted, with grades set per course.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'the overseas tuition rate is published on each course page; no single university-wide figure was confirmed here' },
+    academicYear: '2026–2027',
+    currency: 'GBP',
+    headline: 'Tuition published per course',
+    items: [ { label: 'Tuition (Overseas rate)', text: 'Set per course and published on the course page' } ],
+    billedSubtotal: null,
+    totalText: 'Not confirmed — see the official fees page',
+    note: 'Living costs, the visa fee and the immigration health surcharge are extra.'
+  },
+  scholarships: {
+    fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
+    merit: [],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'English language requirements', url: 'https://www.qub.ac.uk/Study/international-students/applying/english-language-requirements/' },
+    { label: 'International tuition fees', url: 'https://www.qub.ac.uk/Study/international-students/tuition-fees/' }
+  ],
+  verification: { level: 'partial', checked: ['english (normal level and medicine/dentistry)','rounds','application fee'], unconfirmed: ['tuition amount','scholarships'] },
+  lastVerified: '2026-09-23'
+},
 );

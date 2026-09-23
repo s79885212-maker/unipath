@@ -100,9 +100,25 @@
 
     /* Admissions */
     var deadlines = has(a.deadlines)
-      ? '<div class="table-scroll"><table class="data-table"><thead><tr><th>Round</th><th>Deadline</th><th>Notes</th></tr></thead><tbody>' +
+      ? '<div class="rounds"><table class="rounds-table"><thead><tr>' +
+          '<th>Round</th><th>Deadline</th><th>Intake</th><th>Conditions</th><th>Source</th></tr></thead><tbody>' +
         a.deadlines.map(function (d) {
-          return '<tr><td><strong>' + esc(d.name) + '</strong></td><td>' + U.deadlineHtml(d) + '</td><td>' + (has(d.note) ? esc(d.note) : '—') + '</td></tr>';
+          var status = U.roundStatus(d);
+          var conds = U.roundConditions(d);
+          var src = has(d.source) ? d.source : null;
+          return '<tr class="round-' + status + '">' +
+            '<td data-label="Round"><strong>' + esc(d.name) + '</strong></td>' +
+            '<td data-label="Deadline">' + esc(U.roundWhen(d)) +
+              (status !== 'confirmed' ? '<br><span class="small warn-text">' + esc(U.roundStatusLabel(d)) + '</span>' : '') + '</td>' +
+            '<td data-label="Intake">' + (U.roundIntake(d) ? esc(U.roundIntake(d)) : '<span class="unknown">Not stated</span>') + '</td>' +
+            '<td data-label="Conditions">' + (conds.length
+              ? conds.map(function (c) { return esc(c); }).join('<br>')
+              : '<span class="unknown">Not stated</span>') + '</td>' +
+            '<td data-label="Source">' + (src
+              ? '<a href="' + esc(src) + '" target="_blank" rel="noopener">Official page ↗</a>' +
+                (has(d.verified) ? '<br><span class="small muted">Checked ' + esc(d.verified) + '</span>' : '')
+              : '<span class="unknown">Not linked</span>') + '</td>' +
+            '</tr>';
         }).join('') + '</tbody></table></div>'
       : '<p>' + UNKNOWN + '</p>';
 
