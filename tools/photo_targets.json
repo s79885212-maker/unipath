@@ -1,0 +1,407 @@
+{
+ "brown-university": {
+  "article": "Brown University",
+  "category": "Brown University",
+  "keywords": [
+   "brown university",
+   "providence"
+  ]
+ },
+ "dartmouth-college": {
+  "article": "Dartmouth College",
+  "category": "Dartmouth College",
+  "keywords": [
+   "dartmouth"
+  ]
+ },
+ "columbia-university": {
+  "article": "Columbia University",
+  "category": "Columbia University",
+  "keywords": [
+   "columbia university"
+  ]
+ },
+ "university-of-pennsylvania": {
+  "article": "University of Pennsylvania",
+  "category": "University of Pennsylvania",
+  "keywords": [
+   "university of pennsylvania",
+   "penn campus"
+  ]
+ },
+ "cornell-university": {
+  "article": "Cornell University",
+  "category": "Cornell University",
+  "keywords": [
+   "cornell"
+  ]
+ },
+ "stanford-university": {
+  "article": "Stanford University",
+  "category": "Stanford University",
+  "keywords": [
+   "stanford"
+  ]
+ },
+ "amherst-college": {
+  "article": "Amherst College",
+  "category": "Amherst College",
+  "keywords": [
+   "amherst college"
+  ]
+ },
+ "bowdoin-college": {
+  "article": "Bowdoin College",
+  "category": "Bowdoin College",
+  "keywords": [
+   "bowdoin"
+  ]
+ },
+ "university-of-notre-dame": {
+  "article": "University of Notre Dame",
+  "category": "University of Notre Dame",
+  "keywords": [
+   "notre dame"
+  ]
+ },
+ "williams-college": {
+  "article": "Williams College",
+  "category": "Williams College",
+  "keywords": [
+   "williams college"
+  ]
+ },
+ "duke-university": {
+  "article": "Duke University",
+  "category": "Duke University",
+  "keywords": [
+   "duke university"
+  ]
+ },
+ "vanderbilt-university": {
+  "article": "Vanderbilt University",
+  "category": "Vanderbilt University",
+  "keywords": [
+   "vanderbilt"
+  ]
+ },
+ "rice-university": {
+  "article": "Rice University",
+  "category": "Rice University",
+  "keywords": [
+   "rice university"
+  ]
+ },
+ "northwestern-university": {
+  "article": "Northwestern University",
+  "category": "Northwestern University",
+  "keywords": [
+   "northwestern university"
+  ]
+ },
+ "university-of-chicago": {
+  "article": "University of Chicago",
+  "category": "University of Chicago",
+  "keywords": [
+   "university of chicago"
+  ]
+ },
+ "johns-hopkins-university": {
+  "article": "Johns Hopkins University",
+  "category": "Johns Hopkins University",
+  "keywords": [
+   "johns hopkins"
+  ]
+ },
+ "washington-university-in-st-louis": {
+  "article": "Washington University in St. Louis",
+  "category": "Washington University in St. Louis",
+  "keywords": [
+   "washington university"
+  ]
+ },
+ "emory-university": {
+  "article": "Emory University",
+  "category": "Emory University",
+  "keywords": [
+   "emory"
+  ]
+ },
+ "tufts-university": {
+  "article": "Tufts University",
+  "category": "Tufts University",
+  "keywords": [
+   "tufts"
+  ]
+ },
+ "university-of-richmond": {
+  "article": "University of Richmond",
+  "category": "University of Richmond",
+  "keywords": [
+   "university of richmond"
+  ]
+ },
+ "swarthmore-college": {
+  "article": "Swarthmore College",
+  "category": "Swarthmore College",
+  "keywords": [
+   "swarthmore"
+  ]
+ },
+ "pomona-college": {
+  "article": "Pomona College",
+  "category": "Pomona College",
+  "keywords": [
+   "pomona college"
+  ]
+ },
+ "wellesley-college": {
+  "article": "Wellesley College",
+  "category": "Wellesley College",
+  "keywords": [
+   "wellesley college"
+  ]
+ },
+ "middlebury-college": {
+  "article": "Middlebury College",
+  "category": "Middlebury College",
+  "keywords": [
+   "middlebury"
+  ]
+ },
+ "colby-college": {
+  "article": "Colby College",
+  "category": "Colby College",
+  "keywords": [
+   "colby college"
+  ]
+ },
+ "davidson-college": {
+  "article": "Davidson College",
+  "category": "Davidson College",
+  "keywords": [
+   "davidson college"
+  ]
+ },
+ "grinnell-college": {
+  "article": "Grinnell College",
+  "category": "Grinnell College",
+  "keywords": [
+   "grinnell"
+  ]
+ },
+ "vassar-college": {
+  "article": "Vassar College",
+  "category": "Vassar College",
+  "keywords": [
+   "vassar"
+  ]
+ },
+ "hamilton-college": {
+  "article": "Hamilton College",
+  "category": "Hamilton College",
+  "keywords": [
+   "hamilton college"
+  ]
+ },
+ "haverford-college": {
+  "article": "Haverford College",
+  "category": "Haverford College",
+  "keywords": [
+   "haverford"
+  ]
+ },
+ "caltech": {
+  "article": "California Institute of Technology",
+  "category": "California Institute of Technology",
+  "keywords": [
+   "california institute of technology",
+   "caltech"
+  ]
+ },
+ "carnegie-mellon-university": {
+  "article": "Carnegie Mellon University",
+  "category": "Carnegie Mellon University",
+  "keywords": [
+   "carnegie mellon"
+  ]
+ },
+ "georgetown-university": {
+  "article": "Georgetown University",
+  "category": "Georgetown University",
+  "keywords": [
+   "georgetown university"
+  ]
+ },
+ "university-of-southern-california": {
+  "article": "University of Southern California",
+  "category": "University of Southern California",
+  "keywords": [
+   "university of southern california",
+   "usc campus"
+  ]
+ },
+ "boston-university": {
+  "article": "Boston University",
+  "category": "Boston University",
+  "keywords": [
+   "boston university"
+  ]
+ },
+ "boston-college": {
+  "article": "Boston College",
+  "category": "Boston College",
+  "keywords": [
+   "boston college"
+  ]
+ },
+ "brandeis-university": {
+  "article": "Brandeis University",
+  "category": "Brandeis University",
+  "keywords": [
+   "brandeis"
+  ]
+ },
+ "case-western-reserve-university": {
+  "article": "Case Western Reserve University",
+  "category": "Case Western Reserve University",
+  "keywords": [
+   "case western"
+  ]
+ },
+ "university-of-rochester": {
+  "article": "University of Rochester",
+  "category": "University of Rochester",
+  "keywords": [
+   "university of rochester"
+  ]
+ },
+ "tulane-university": {
+  "article": "Tulane University",
+  "category": "Tulane University",
+  "keywords": [
+   "tulane"
+  ]
+ },
+ "smith-college": {
+  "article": "Smith College",
+  "category": "Smith College",
+  "keywords": [
+   "smith college"
+  ]
+ },
+ "mount-holyoke-college": {
+  "article": "Mount Holyoke College",
+  "category": "Mount Holyoke College",
+  "keywords": [
+   "mount holyoke"
+  ]
+ },
+ "bryn-mawr-college": {
+  "article": "Bryn Mawr College",
+  "category": "Bryn Mawr College",
+  "keywords": [
+   "bryn mawr"
+  ]
+ },
+ "barnard-college": {
+  "article": "Barnard College",
+  "category": "Barnard College",
+  "keywords": [
+   "barnard"
+  ]
+ },
+ "bates-college": {
+  "article": "Bates College",
+  "category": "Bates College",
+  "keywords": [
+   "bates college"
+  ]
+ },
+ "wesleyan-university": {
+  "article": "Wesleyan University",
+  "category": "Wesleyan University",
+  "keywords": [
+   "wesleyan university"
+  ]
+ },
+ "washington-and-lee-university": {
+  "article": "Washington and Lee University",
+  "category": "Washington and Lee University",
+  "keywords": [
+   "washington and lee"
+  ]
+ },
+ "colgate-university": {
+  "article": "Colgate University",
+  "category": "Colgate University",
+  "keywords": [
+   "colgate"
+  ]
+ },
+ "carleton-college": {
+  "article": "Carleton College",
+  "category": "Carleton College",
+  "keywords": [
+   "carleton college"
+  ]
+ },
+ "macalester-college": {
+  "article": "Macalester College",
+  "category": "Macalester College",
+  "keywords": [
+   "macalester"
+  ]
+ },
+ "oberlin-college": {
+  "article": "Oberlin College",
+  "category": "Oberlin College",
+  "keywords": [
+   "oberlin"
+  ]
+ },
+ "kenyon-college": {
+  "article": "Kenyon College",
+  "category": "Kenyon College",
+  "keywords": [
+   "kenyon college"
+  ]
+ },
+ "denison-university": {
+  "article": "Denison University",
+  "category": "Denison University",
+  "keywords": [
+   "denison"
+  ]
+ },
+ "franklin-and-marshall-college": {
+  "article": "Franklin & Marshall College",
+  "category": "Franklin & Marshall College",
+  "keywords": [
+   "franklin",
+   "marshall college"
+  ]
+ },
+ "lafayette-college": {
+  "article": "Lafayette College",
+  "category": "Lafayette College",
+  "keywords": [
+   "lafayette college"
+  ]
+ },
+ "lehigh-university": {
+  "article": "Lehigh University",
+  "category": "Lehigh University",
+  "keywords": [
+   "lehigh"
+  ]
+ },
+ "university-of-miami": {
+  "article": "University of Miami",
+  "category": "University of Miami",
+  "keywords": [
+   "university of miami",
+   "coral gables"
+  ]
+ }
+}

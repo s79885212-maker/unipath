@@ -793,3 +793,81 @@ html.is-gated body { overflow: hidden; }
 .match-checks .lvl-soft .ico { color: var(--warn-700); }
 .match-checks .lvl-hard .ico { color: var(--danger-600); }
 .match-checks .lvl-info .ico { color: var(--ink-500); }
+
+/* ---------- v47: country accordions, cost summary, paging ---------- */
+.acc-list { display: grid; gap: 10px; }
+.acc {
+  border: 1px solid var(--line);
+  border-radius: var(--r-md, 14px);
+  background: var(--surface);
+  overflow: hidden;
+}
+.acc > summary {
+  cursor: pointer;
+  padding: 14px 18px;
+  font-weight: 650;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.acc > summary::-webkit-details-marker { display: none; }
+.acc > summary::after { content: '+'; font-size: 1.25rem; line-height: 1; color: var(--muted); }
+.acc[open] > summary::after { content: '–'; }
+.acc > summary:hover { background: var(--surface-2, rgba(127,127,127,.06)); }
+.acc-body { padding: 0 18px 16px; }
+.acc-body > p:first-child { margin-top: 0; }
+.results-more { margin-top: 22px; display: flex; justify-content: center; }
+.results-more .btn { min-height: 44px; }
+.cost-summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 12px;
+  margin: 4px 0 0;
+}
+.cost-figure {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 12px 14px;
+  background: var(--surface);
+}
+.cost-figure dt { font-size: .82rem; color: var(--muted); margin-bottom: 4px; }
+.cost-figure dd { margin: 0; font-size: 1.05rem; }
+.cost-figure dd .small { margin-left: 4px; }
+.media img, .hero-photo img, .photo img { background: var(--surface-2, rgba(127,127,127,.08)); }
+.media { aspect-ratio: 16 / 10; }
+.photo img { aspect-ratio: 4 / 3; object-fit: cover; width: 100%; }
+.hero-photo img { aspect-ratio: 16 / 9; object-fit: cover; width: 100%; }
+@media (max-width: 640px) {
+  .cost-summary { grid-template-columns: 1fr; }
+  .acc > summary { padding: 13px 14px; }
+  .acc-body { padding: 0 14px 14px; }
+}
+.news-card.is-past { opacity: .72; }
+.badge.is-on { background: var(--brand, #1b3d78); color: #fff; border-color: transparent; }
+button.badge { cursor: pointer; font: inherit; }
+
+/* On a phone the country page must reach the universities quickly, so the
+   stats sit two to a row instead of one under another. */
+@media (max-width: 640px) {
+  .hero-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 16px; margin-top: 22px; }
+  .hero-stat b { font-size: 1.3rem; }
+  .hero-stat span { font-size: .78rem; line-height: 1.25; display: block; }
+  .page-head { padding: 24px 0 26px; }
+}
+.filters-box > summary { display: none; }
+.filters-summary::-webkit-details-marker { display: none; }
+@media (max-width: 900px) {
+  .filters-box > summary {
+    display: flex; align-items: center; justify-content: space-between; gap: 10px;
+    cursor: pointer; list-style: none;
+    padding: 12px 16px; min-height: 44px;
+    border: 1px solid var(--line); border-radius: 12px;
+    background: var(--surface); font-weight: 650;
+  }
+  .filters-box > summary::after { content: '▾'; color: var(--muted); }
+  .filters-box[open] > summary::after { content: '▴'; }
+  .filters-box[open] > summary { margin-bottom: 10px; }
+  .filters-box .filter-head h2 { font-size: 1rem; }
+}

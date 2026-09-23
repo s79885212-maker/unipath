@@ -270,6 +270,70 @@
   function costHeadline(u) {
     return (u.costs && has(u.costs.headline)) ? u.costs.headline : null;
   }
+
+  /* ---- structured costs -------------------------------------------------
+     tuition, charges billed by the university and the full cost of
+     attendance are different figures, so each is kept separate and is only
+     shown when the university actually publishes it. */
+  function costBreak(u) { return (u.costs && u.costs.breakdown) || null; }
+  function costCurrency(u) { return (u.costs && u.costs.currency) || null; }
+  function costYear(u) { return (u.costs && has(u.costs.academicYear)) ? u.costs.academicYear : null; }
+  function costPeriod(u) { var b = costBreak(u); return (b && b.period === 'semester') ? 'semester' : 'year'; }
+  function perPeriod(u) { return costPeriod(u) === 'semester' ? ' per semester' : ' per year'; }
+
+  function tuitionAmount(u) {
+    var b = costBreak(u);
+    return b && typeof b.tuition === 'number' ? b.tuition : null;
+  }
+  function tuitionText(u) {
+    var b = costBreak(u);
+    if (!b) return null;
+    if (has(b.tuitionText)) return b.tuitionText;
+    if (typeof b.tuition === 'number') return b.tuition === 0 ? 'No tuition fee' : money(b.tuition, costCurrency(u));
+    return null;
+  }
+  function billedAmount(u) {
+    var b = costBreak(u);
+    return b && typeof b.billed === 'number' ? b.billed : null;
+  }
+  function billedLabel(u) {
+    var b = costBreak(u);
+    return b && b.comprehensive === true ? 'Comprehensive fee' : 'Billed by the university';
+  }
+  function budgetAmount(u) {
+    var b = costBreak(u);
+    return b && typeof b.budget === 'number' ? b.budget : null;
+  }
+  function budgetText(u) {
+    var b = costBreak(u);
+    if (!b) return null;
+    if (has(b.budgetText)) return b.budgetText;
+    return typeof b.budget === 'number' ? money(b.budget, costCurrency(u)) : null;
+  }
+  function costIncludes(u) {
+    var b = costBreak(u);
+    return b && has(b.includes) ? b.includes : null;
+  }
+  /* The figures a university publishes, in order, each with its own meaning. */
+  function costFigures(u) {
+    var rows = [];
+    var t = tuitionText(u);
+    if (t) rows.push({ id: 'tuition', label: 'Tuition', text: t, amount: tuitionAmount(u) });
+    if (billedAmount(u) !== null) {
+      rows.push({ id: 'billed', label: billedLabel(u), text: money(billedAmount(u), costCurrency(u)), amount: billedAmount(u) });
+    }
+    var bt = budgetText(u);
+    if (bt) rows.push({ id: 'budget', label: 'Full budget (cost of attendance)', text: bt, amount: budgetAmount(u) });
+    return rows;
+  }
+  var COST_SOURCE_RE = [/tuition|cost of attendance|comprehensive fee|billing|bursar/i, /cost|fees|expens/i, /financial|aid|scholarship/i];
+  function costSource(u) {
+    var list = u.sources || [];
+    for (var r = 0; r < COST_SOURCE_RE.length; r++) {
+      for (var i = 0; i < list.length; i++) if (COST_SOURCE_RE[r].test(list[i].label)) return list[i];
+    }
+    return null;
+  }
   function totalCostText(u) {
     if (!u.costs) return null;
     if (has(u.costs.totalText)) return u.costs.totalText;
@@ -465,6 +529,7 @@
     { href: '#/countries', label: 'Countries', key: 'countries' },
     { href: '#/universities', label: 'Universities', key: 'universities' },
     { href: '#/scholarships', label: 'Scholarships', key: 'scholarships' },
+    { href: '#/news', label: 'Admissions updates', key: 'news' },
     { href: '#/match', label: 'Find my match', key: 'match' },
     { href: '#/compare', label: 'Compare', key: 'compare' },
     { href: '#/about', label: 'About', key: 'about' }
@@ -558,9 +623,13 @@
   function mediaBlock(u, extraClass) {
     var b = u.brand || {};
     var style = 'style="--c1:' + esc(b.c1 || '#1b3d78') + ';--c2:' + esc(b.c2 || '#0b1b3a') + '"';
+    /* The initials sit underneath; if the photo fails to load it is removed
+       and the placeholder shows through, so a card never ends up empty. */
+    var fallback = '<span class="media-mono">' + esc(b.initials || displayName(u).slice(0, 3)) + '</span>' +
+      '<span class="media-note">Photo not available</span>';
     var inner = u.photos && u.photos.main
-      ? '<img src="' + esc(u.photos.thumb || u.photos.main) + '" alt="' + esc(u.name) + ' campus" loading="lazy">'
-      : '<span class="media-mono">' + esc(b.initials || displayName(u).slice(0, 3)) + '</span><span class="media-note">Photo placeholder</span>';
+      ? fallback + '<img src="' + esc(u.photos.thumb || u.photos.main) + '" alt="' + esc(u.name) + ' campus" loading="lazy" decoding="async" width="560" height="350" onerror="this.remove()">'
+      : fallback;
     return '<div class="media ' + (extraClass || '') + '" ' + style + ' aria-hidden="true">' + inner + '</div>';
   }
 
@@ -592,7 +661,9 @@
             (englishLabel(u) ? '<span class="badge badge-info">' + esc(englishLabel(u)) + '</span>' : '') +
           '</div>' +
           '<dl class="uni-facts">' +
-            '<div><dt>Cost</dt><dd>' + (costHeadline(u) ? esc(costHeadline(u)) : '<span class="unknown">Not listed</span>') + '</dd></div>' +
+            '<div><dt>Tuition</dt><dd>' + (tuitionText(u)
+              ? esc(tuitionText(u)) + '<span class="small muted">' + esc(perPeriod(u)) + '</span>'
+              : '<span class="unknown">Not published</span>') + '</dd></div>' +
             '<div><dt>Testing</dt><dd>' + esc(satLabel(u)) + '</dd></div>' +
             '<div><dt>IELTS</dt><dd>' + (ieltsLabel(u) ? esc(ieltsLabel(u)) : '<span class="unknown">Not listed</span>') + '</dd></div>' +
             '<div><dt>Deadline</dt><dd>' + (deadline ? esc(deadline.date) : '<span class="unknown">Check site</span>') + '</dd></div>' +
@@ -769,6 +840,9 @@
     fullRide: fullRide, meritList: meritList, needBased: needBased,
     feeAmount: feeAmount, feeWaiver: feeWaiver, feeWaiverLabel: feeWaiverLabel, feeLabel: feeLabel,
     firstDeadline: firstDeadline, deadlineInfo: deadlineInfo, deadlineHtml: deadlineHtml, costHeadline: costHeadline, totalCostText: totalCostText,
+    costBreak: costBreak, costCurrency: costCurrency, costYear: costYear, costPeriod: costPeriod, perPeriod: perPeriod,
+    tuitionAmount: tuitionAmount, tuitionText: tuitionText, billedAmount: billedAmount, billedLabel: billedLabel,
+    budgetAmount: budgetAmount, budgetText: budgetText, costIncludes: costIncludes, costFigures: costFigures, costSource: costSource,
     search: search, FILTER_GROUPS: FILTER_GROUPS, applyFilters: applyFilters, optionById: optionById,
     compareGet: compareGet, compareSet: compareSet, compareHas: compareHas, compareToggle: compareToggle, compareClear: compareClear,
     COMPARE_MAX: COMPARE_MAX,

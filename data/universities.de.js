@@ -78,6 +78,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A school certificate from outside Germany must be recognised as a German university entrance qualification (HZB). Check the DAAD admission database for your country; if your certificate does not qualify, a foundation course (Studienkolleg) or some university study at home is needed first.'
   },
   costs: {
+    breakdown: { tuition: 2000, tuitionText: "€2,000–€3,000 per semester", period: "semester", includes: "tuition per semester for new students from outside the EU; the semester fee is extra" },
     academicYear: 'From winter semester 2024/25 (for new non-EU students)',
     currency: 'EUR',
     headline: '€2,000–€3,000 tuition per semester',
@@ -179,6 +180,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A school certificate from outside Germany must be recognised as a German university entrance qualification (HZB); check the DAAD admission database for your country.'
   },
   costs: {
+    breakdown: { tuitionText: "€1,000–€3,000 per semester from 2027", period: "semester", includes: "tuition per semester for new non-EU students from summer semester 2027" },
     academicYear: 'From summer semester 2027 (for new non-EU students)',
     currency: 'EUR',
     headline: '€1,000–€3,000 tuition per semester from 2027',
@@ -272,6 +274,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A school certificate from outside Germany must be recognised as a German university entrance qualification (HZB); check the DAAD admission database for your country.'
   },
   costs: {
+    breakdown: { tuition: 1500, period: "semester", includes: "tuition per semester for students from outside the EU, plus the semester contribution" },
     academicYear: 'Current',
     currency: 'EUR',
     headline: '€1,500 tuition per semester',
@@ -362,6 +365,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A school certificate from outside Germany must be recognised as a German university entrance qualification (HZB); check the DAAD admission database for your country.'
   },
   costs: {
+    breakdown: { tuition: 0, includes: "no tuition at state universities in North Rhine-Westphalia; the semester contribution remains" },
     academicYear: 'Current',
     currency: 'EUR',
     headline: 'No tuition fee',
@@ -455,6 +459,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A school certificate from outside Germany must be recognised as a German university entrance qualification (HZB); check the DAAD admission database for your country.'
   },
   costs: {
+    breakdown: { tuition: 0, includes: "no tuition; the semester fee is about €453 per semester" },
     academicYear: 'Current',
     currency: 'EUR',
     headline: 'No tuition; semester fee about €453',
@@ -548,6 +553,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A school certificate from outside Germany must be recognised as a university entrance qualification (checked by uni-assist); check the DAAD admission database for your country.'
   },
   costs: {
+    breakdown: { tuition: 0, includes: "no tuition; the semester fee remains" },
     academicYear: 'Current',
     currency: 'EUR',
     headline: 'No tuition fee',
@@ -646,6 +652,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'If your school diploma does not give direct access to German universities, standardized test results may be needed for enrolment.'
   },
   costs: {
+    breakdown: { tuition: 20000, budget: 29654, includes: "tuition, room, board, fees, the semester ticket, health insurance and the residence permit" },
     academicYear: '2025–2026',
     currency: 'EUR',
     headline: '€29,654 total a year',
@@ -745,6 +752,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: null
   },
   costs: {
+    breakdown: { tuition: 16400, budget: 39120, includes: "tuition, fees, books, transport, room and board, personal expenses, health insurance, travel and a computer in year one" },
     academicYear: '2026–2027',
     currency: 'EUR',
     headline: '€39,120 total a year',

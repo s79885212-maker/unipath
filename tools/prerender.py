@@ -177,6 +177,25 @@ def head_tags(title, description, url, image=None, og_type="website"):
     return "\n".join(tags)
 
 
+
+CURRENCY_SYMBOL = {"USD": "$", "JPY": "¥", "KRW": "₩", "GBP": "£", "EUR": "€"}
+
+
+def money(amount, currency):
+    """Format a number the way assets/js/app.js formats it."""
+    sym = CURRENCY_SYMBOL.get(currency or "", "")
+    return f"{sym}{amount:,.0f}" if sym else f"{amount:,.0f} {currency or ''}".strip()
+
+
+def tuition_text(u):
+    """The tuition figure only — never a total or a comprehensive fee."""
+    bd = ((u.get("costs") or {}).get("breakdown")) or {}
+    if has(bd.get("tuitionText")):
+        return bd["tuitionText"]
+    if isinstance(bd.get("tuition"), (int, float)):
+        return "No tuition fee" if bd["tuition"] == 0 else money(bd["tuition"], (u.get("costs") or {}).get("currency"))
+    return None
+
 def shell(template: str, head: str, main_html: str) -> str:
     """Put page-specific head tags and prerendered content into the site shell."""
     page = template
@@ -188,7 +207,9 @@ def shell(template: str, head: str, main_html: str) -> str:
     # (photo paths from data/photos.js and #/ links are then made root-based).
     page = re.sub(r'(src|href)="(assets|data)/', r'\1="' + BASE + r'\2/', page)
     page = page.replace('<meta charset="utf-8">', '<meta charset="utf-8">\n<meta name="unipath-root" content="' + BASE + '">\n' + head, 1)
-    page = page.replace('<main id="main"></main>', f'<main id="main">{main_html}</main>', 1)
+    # The shell's <main> holds a short loading line until the app renders;
+    # a prerendered page replaces it with the real content.
+    page = re.sub(r'<main id="main">.*?</main>', lambda _: f'<main id="main">{main_html}</main>', page, count=1, flags=re.S)
     return page
 
 
@@ -215,8 +236,27 @@ def university_page(u, country, fields):
     def row(label, value_html):
         rows.append(f"<div><dt>{e(label)}</dt><dd>{value_html}</dd></div>")
 
-    if has(costs.get("headline")):
-        row("Cost", e(costs["headline"]) + (f" <span class=\"small muted\">({e(costs.get('academicYear'))})</span>" if has(costs.get("academicYear")) else ""))
+    # Tuition, charges billed by the university and a full cost of attendance
+    # are different figures, so each is written out separately, exactly as the
+    # app shows them.
+    bd = costs.get("breakdown") or {}
+    year_note = (f" <span class=\"small muted\">({e(costs.get('academicYear'))})</span>"
+                 if has(costs.get("academicYear")) else "")
+    per = " per semester" if bd.get("period") == "semester" else " per year"
+    if has(bd.get("tuitionText")):
+        row("Tuition", e(bd["tuitionText"]) + year_note)
+    elif isinstance(bd.get("tuition"), (int, float)):
+        row("Tuition", ("No tuition fee" if bd["tuition"] == 0
+                        else e(money(bd["tuition"], costs.get("currency"))) + per) + year_note)
+    if isinstance(bd.get("billed"), (int, float)):
+        row("Comprehensive fee" if bd.get("comprehensive") else "Billed by the university",
+            e(money(bd["billed"], costs.get("currency"))))
+    if has(bd.get("budgetText")):
+        row("Full budget (cost of attendance)", e(bd["budgetText"]))
+    elif isinstance(bd.get("budget"), (int, float)):
+        row("Full budget (cost of attendance)", e(money(bd["budget"], costs.get("currency"))))
+    if has(bd.get("includes")):
+        row("What the figures cover", e(bd["includes"]))
     deadlines = adm.get("deadlines") or []
     if deadlines:
         def one(d):
@@ -295,7 +335,7 @@ def country_page(c, unis):
     description = f"{c['name']}: {c.get('tagline', '')} Compare {len(unis)} universities, costs, deadlines and scholarships from official sources."
     items = "".join(
         f'<li><a href="{BASE}university/{e(u["id"])}/">{e(u["name"])}</a> — {e(u.get("city"))}'
-        + (f" · {e(u['costs']['headline'])}" if has((u.get('costs') or {}).get('headline')) else "") + "</li>"
+        + (f" · {e(tuition_text(u))}" if tuition_text(u) else "") + "</li>"
         for u in unis)
     notes = "".join(f"<li>{e(n)}</li>" for n in c.get("notes") or [])
     sources = "".join(f'<li><a href="{e(s.get("url"))}" rel="noopener">{e(s.get("label"))}</a></li>' for s in c.get("sources") or [])

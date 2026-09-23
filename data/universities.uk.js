@@ -76,6 +76,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A wide range of international school-leaving qualifications is accepted alongside A-levels and the IB; the required grades are published on each course page.'
   },
   costs: {
+    breakdown: { tuitionText: "£39,620–£66,580", includes: "the Overseas tuition rate, which depends on the course; living costs are extra" },
     academicYear: '2027–2028',
     currency: 'GBP',
     headline: '£39,620–£66,580 tuition',
@@ -183,6 +184,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Cambridge publishes required grades for a long list of international qualifications; typical offers are set course by course.'
   },
   costs: {
+    breakdown: { tuition: 30798, tuitionText: "£30,798–£70,554", includes: "the Overseas tuition rate by subject group; a College fee and living costs are charged on top" },
     academicYear: '2027–2028',
     currency: 'GBP',
     headline: '£30,798–£70,554 tuition',
@@ -294,6 +296,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A-levels, IB and a long list of international school-leaving qualifications are accepted; the required grades are on each course page.'
   },
   costs: {
+    breakdown: { published: false },
     academicYear: '2027–2028',
     currency: 'GBP',
     headline: 'Overseas fee not yet published',
@@ -398,6 +401,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A-levels, IB and international qualifications are accepted; required grades are published on each course page. UCL also runs its own Undergraduate Preparatory Certificate foundation year.'
   },
   costs: {
+    breakdown: { tuition: 48600, tuitionText: "£48,600 (Computer Science BSc)", includes: "the Overseas tuition rate for one example programme; other programmes differ" },
     academicYear: '2027–2028',
     currency: 'GBP',
     headline: '£48,600 tuition (Computer Science BSc)',
@@ -502,6 +506,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A-levels, IB and international qualifications are accepted, with required grades on each course page. Computer Science BSc, for example, asks for A*A*A at A-level.'
   },
   costs: {
+    breakdown: { tuition: 42900, tuitionText: "£42,900 (Computer Science BSc)", includes: "the International tuition rate for one example programme, plus a £2,000 deposit at acceptance" },
     academicYear: '2027–2028',
     currency: 'GBP',
     headline: '£42,900 tuition (Computer Science BSc)',
@@ -603,6 +608,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A-levels, Scottish Highers, IB and a wide list of international qualifications are accepted; required grades are on each degree page.'
   },
   costs: {
+    breakdown: { published: false },
     academicYear: '2026–2027',
     currency: 'GBP',
     headline: 'Tuition published per degree',
@@ -709,6 +715,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A-levels, IB and a long list of international qualifications are accepted, with required grades on each course page.'
   },
   costs: {
+    breakdown: { tuition: 37800, tuitionText: "£37,800 (BSc Computer Science, 2026/27)", includes: "the international tuition rate for one example programme" },
     academicYear: '2026–2027',
     currency: 'GBP',
     headline: '£37,800 tuition (BSc Computer Science)',
@@ -812,6 +819,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A-levels, IB and international qualifications are accepted; Warwick publishes a dedicated list of international qualification requirements for 2027 entry.'
   },
   costs: {
+    breakdown: { tuition: 21950, tuitionText: "£21,950–£37,310", includes: "the international tuition rate by subject band" },
     academicYear: '2027–2028',
     currency: 'GBP',
     headline: '£21,950–£37,310 tuition',

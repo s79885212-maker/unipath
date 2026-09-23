@@ -79,10 +79,11 @@
             '<aside class="filters" id="filters" aria-label="Filters"></aside>' +
             '<div><div class="results-bar" id="results-bar"></div>' +
             '<div class="active-filters" id="active-filters"></div>' +
-            '<div class="grid grid-3" id="results"></div></div>' +
+            '<div class="grid grid-3" id="results"></div>' +
+            '<div class="results-more" id="results-more"></div></div>' +
           '</div></div></section>';
         document.title = 'Universities — UniPath';
-        P.renderBrowse();
+        P.renderBrowse({ stateKey: 'all' });
         U.setActiveNav('universities');
         current = { type: 'universities' };
         break;
@@ -95,6 +96,12 @@
         current = { type: 'university', id: u.id };
         setCanonical(r);
         return;
+
+      case 'news':
+        global.UPNews.render(main);
+        U.setActiveNav('news');
+        current = { type: 'news' };
+        break;
 
       case 'scholarships':
         main.innerHTML = V.scholarships();

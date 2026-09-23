@@ -61,6 +61,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'National leaving examinations, A-Levels and IB are explicitly accepted as evidence in place of the SAT/ACT when those tests are not accessible.'
   },
   costs: {
+    breakdown: { tuition: 62226, billed: 91634, budget: 95134, budgetText: "$95,134–$100,134", includes: "tuition, fees, housing and food; the full budget adds books, personal expenses, health insurance and travel" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$95,134–$100,134 total',
@@ -160,6 +161,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: null
   },
   costs: {
+    breakdown: { tuition: 66720, budget: 92760, includes: "tuition, the student life fee, housing, food, books and personal expenses" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$92,760 total',
@@ -257,6 +259,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: null
   },
   costs: {
+    breakdown: { tuition: 72500, budget: 97985, includes: "tuition, the activity fee, housing, food, books and personal expenses; travel is estimated individually" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$97,985 total',
@@ -360,6 +363,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: null
   },
   costs: {
+    breakdown: { published: false },
     academicYear: null,
     currency: 'USD',
     headline: null,
@@ -453,6 +457,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: null
   },
   costs: {
+    breakdown: { published: false },
     academicYear: null,
     currency: 'USD',
     headline: null,
@@ -543,6 +548,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: null
   },
   costs: {
+    breakdown: { tuition: 39062, budget: 69906, includes: "base tuition, surcharges and college fees, housing and meals, books, travel, personal expenses, health insurance and the international student fee" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$69,906 total',
@@ -672,6 +678,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Transcripts must be evaluated by a NACES member credential evaluation agency.'
   },
   costs: {
+    breakdown: { published: false },
     academicYear: null,
     currency: 'USD',
     headline: null,
@@ -766,6 +773,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: null
   },
   costs: {
+    breakdown: { tuition: 0, includes: "no student pays tuition; aid also covers housing, food and fees" },
     academicYear: null,
     currency: 'USD',
     headline: 'No tuition — aid covers tuition, housing, food and fees',
@@ -877,6 +885,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'You must finish secondary school and earn the certificate of completion that would admit you to a university in your own country.'
   },
   costs: {
+    breakdown: { tuition: 57484, budget: 101598, includes: "tuition and fees including nonresident supplemental tuition, housing, meals, health insurance, books, personal expenses and transport" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$101,598 total for a nonresident',
@@ -992,6 +1001,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Transcripts are assessed within the context of your own education system. School reports and recommendations may be in another language if officially translated — the graded written paper may not.'
   },
   costs: {
+    breakdown: { tuition: 68140, billed: 90574, includes: "tuition, fees, housing and food (average)" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$90,574 average total',

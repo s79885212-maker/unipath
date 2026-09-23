@@ -83,7 +83,7 @@
     var overview = '<section class="profile-section" id="overview"><h2>Overview</h2>' +
       verifyBar(u) +
       (u.photos && u.photos.main && u.photos.gallery && u.photos.gallery.length
-        ? '<figure class="hero-photo"><img src="' + esc(u.photos.main) + '" alt="' + esc(u.photos.gallery[0].title || u.name) + '">' +
+        ? '<figure class="hero-photo"><img src="' + esc(u.photos.main) + '" alt="' + esc(u.photos.gallery[0].title || u.name) + '" width="1200" height="675" decoding="async" onerror="this.closest(\'figure\').remove()">' +
           '<figcaption>' + esc(u.photos.gallery[0].title) + ' · <a href="' + U.uniUrl(u) + '/photos">More photos &amp; credits</a></figcaption></figure>'
         : '') +
       '<p style="margin-top:18px;font-size:1.05rem">' + or(u.description) + '</p>' +
@@ -281,19 +281,38 @@
     }).join('') : '';
     var costTable = has(costs.items)
       ? '<div class="table-scroll"><table class="cost-table"><thead><tr><th>Item</th><th>Amount</th></tr></thead><tbody>' + costRows + '</tbody>' +
-        (has(costs.totalText) ? '<tfoot><tr><td>Estimated total</td><td>' + esc(costs.totalText) + '</td></tr></tfoot>' : '') +
+        (has(costs.totalText) ? '<tfoot><tr><td>As published by the university</td><td>' + esc(costs.totalText) + '</td></tr></tfoot>' : '') +
         '</table></div>'
       : '<p>' + UNKNOWN + '</p>';
+    var figures = U.costFigures(u);
+    var costSrc = U.costSource(u);
+    var costSummary = '<div class="cost-summary">' +
+      (figures.length
+        ? figures.map(function (f) {
+            return '<div class="cost-figure"><dt>' + esc(f.label) + '</dt>' +
+              '<dd><strong>' + esc(f.text) + '</strong>' +
+              (f.id === 'tuition' ? '<span class="small muted">' + esc(U.perPeriod(u)) + '</span>' : '') + '</dd></div>';
+          }).join('')
+        : '<div class="cost-figure"><dt>Tuition</dt><dd>' + UNKNOWN + '</dd></div>') +
+      '</div>' +
+      (U.costIncludes(u) ? '<p class="small" style="margin-top:10px"><strong>What the figures cover:</strong> ' + esc(U.costIncludes(u)) + '</p>' : '') +
+      '<p class="small muted" style="margin-top:6px">' +
+        'Currency: <span>' + esc(U.costCurrency(u) || 'not stated') + '</span> · ' +
+        'Academic year: <span>' + esc(U.costYear(u) || 'not stated') + '</span>' +
+        (costSrc ? ' · Source: <a href="' + esc(costSrc.url) + '" target="_blank" rel="noopener">' + esc(costSrc.label) + '</a>' : '') +
+        (has(u.lastVerified) ? ' · Checked: <span>' + esc(u.lastVerified) + '</span>' : '') +
+      '</p>';
+
     var costs_ = '<section class="profile-section" id="costs"><h2>Costs</h2>' +
-      '<p class="muted" style="margin-bottom:14px"><strong>Estimated cost of attendance — ' +
-        (has(costs.academicYear) ? esc(costs.academicYear) : 'academic year not stated') + '</strong></p>' +
+      costSummary +
+      '<h3 style="margin-top:22px">Published breakdown</h3>' +
       costTable +
       (has(costs.note) ? '<div class="notice" style="margin-top:14px"><span class="ico">💰</span><div>' + esc(costs.note) + '</div></div>' : '') +
       '<div class="notice notice-info" style="margin-top:12px"><span class="ico">↓</span><div><strong>Possible scholarship reduction.</strong> ' +
         (U.fullRide(u).available === true
-          ? 'A full scholarship at this university can reduce the tuition line to zero — see the scholarships section for exactly what is and is not covered.'
+          ? 'A full scholarship at this university can reduce the tuition line to zero — see the scholarships section for exactly what is and is not covered. An award is not a guarantee: read the conditions before you count on it.'
           : U.meritList(u).length
-            ? 'Merit scholarships listed above reduce the tuition line. Housing, food and insurance usually remain payable.'
+            ? 'Merit scholarships listed above reduce the tuition line if you win one. Housing, food and insurance usually remain payable.'
             : 'No confirmed award is listed that would reduce these figures. Budget for the full amount until the university confirms otherwise.') +
       '</div></div></section>';
 
@@ -332,12 +351,12 @@
       (photoList.length
         ? '<div class="photo-grid">' + photoList.map(function (g) {
             return '<figure class="photo"><a href="' + esc(g.src) + '" target="_blank" rel="noopener">' +
-              '<img src="' + esc(g.src) + '" alt="' + esc(g.title || u.name) + '" loading="lazy"></a>' +
+              '<img src="' + esc(g.src) + '" alt="' + esc(g.title || u.name) + '" loading="lazy" decoding="async" width="1200" height="900" onerror="this.closest(\'figure\').remove()"></a>' +
               '<figcaption><strong>' + esc(g.title) + '</strong>' + credit(g) + '</figcaption></figure>';
           }).join('') + '</div>' +
           '<p class="small muted" style="margin-top:12px">Photographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.</p>'
-        : '<div class="notice notice-info"><span class="ico">🖼️</span><div>No freely licensed photographs are available for this university yet, so a placeholder is shown instead.</div></div>' +
-          '<div class="grid grid-3" style="margin-top:16px">' + [1, 2, 3].map(function () { return U.mediaBlock(u, 'media-sm'); }).join('') + '</div>') +
+        : '<div class="notice notice-info"><span class="ico">🖼️</span><div>No freely licensed photograph of this campus has been found yet, so a placeholder is shown instead.</div></div>' +
+          '<div style="margin-top:16px;max-width:420px">' + U.mediaBlock(u, 'media-sm') + '</div>') +
       '</section>';
 
     /* Apply */
@@ -421,10 +440,27 @@
   var browseWired = false;   /* document-level handlers are attached only once */
   var browseRefresh = null;
 
+  var PAGE_SIZE = 12;
+  var STATE_KEY = 'unipath.browse.';
+
+  function readState(key) {
+    try {
+      var raw = global.sessionStorage.getItem(STATE_KEY + key);
+      return raw ? JSON.parse(raw) : null;
+    } catch (e) { return null; }
+  }
+  function writeState(key, state) {
+    try { global.sessionStorage.setItem(STATE_KEY + key, JSON.stringify(state)); } catch (e) {}
+  }
+
   function renderBrowse(opts) {
     opts = opts || {};
     var selected = {};
     var query = U.qs('q') || '';
+    var shown = PAGE_SIZE;
+    var stateKey = opts.stateKey || 'all';
+    var lockCountry = opts.lockCountry === true;
+    var hidden = opts.hideGroups || [];
 
     var preCountry = opts.country || U.qs('c');
     if (preCountry) selected.country = [preCountry];
@@ -432,6 +468,20 @@
     if (preField) selected.field = [preField];
     var preSchol = U.qs('scholarship');
     if (preSchol) selected.scholarship = [preSchol];
+
+    /* Coming back from a profile should land where the user left off. */
+    var saved = readState(stateKey);
+    var restoreScroll = 0;
+    if (saved && !U.qs('q') && !U.qs('field') && !U.qs('scholarship')) {
+      if (saved.selected) selected = saved.selected;
+      if (lockCountry && preCountry) selected.country = [preCountry];
+      query = saved.query || '';
+      shown = Math.max(PAGE_SIZE, saved.shown || PAGE_SIZE);
+      restoreScroll = saved.scrollY || 0;
+    }
+    function save() {
+      writeState(stateKey, { selected: selected, query: query, shown: shown, scrollY: global.scrollY || 0 });
+    }
 
     var side = document.getElementById('filters');
     var out = document.getElementById('results');
@@ -457,11 +507,33 @@
       return U.applyFilters(current, probe).filter(function (u) { return o.test(u, probe); }).length;
     }
 
+    /* On a phone the filter list is longer than the screen, so it is folded
+       away behind one control and the cards stay within reach. */
+    var narrowQuery = global.matchMedia ? global.matchMedia('(max-width: 900px)') : null;
+    function isNarrow() { return narrowQuery ? narrowQuery.matches : false; }
+    var filtersOpen = !isNarrow();
+    var filtersTouched = false;
+
     function drawFilters() {
       var base = baseList();
+      var open = side.querySelector('details.filters-box');
+      if (open) {
+        if (open.open !== filtersOpen) filtersTouched = true;
+        filtersOpen = open.open;
+      }
+      /* Until the user opens or closes it themselves, the panel simply
+         follows the width of the window. */
+      if (!filtersTouched) filtersOpen = !isNarrow();
+      var active = 0;
+      for (var k in selected) {
+        if (!selected.hasOwnProperty(k)) continue;
+        if (lockCountry && k === 'country') continue;
+        active += selected[k].length;
+      }
       var html = '<div class="filter-head"><h2>Filters</h2>' +
         '<button class="btn btn-quiet btn-sm" type="button" data-clear-filters>Reset</button></div>';
       U.FILTER_GROUPS.forEach(function (g) {
+        if (hidden.indexOf(g.id) > -1) return;
         html += '<div class="filter-group"><h3>' + esc(g.title) + '</h3>';
         g.options.forEach(function (o) {
           var on = (selected[g.id] || []).indexOf(o.id) > -1;
@@ -472,7 +544,9 @@
         });
         html += '</div>';
       });
-      side.innerHTML = html;
+      side.innerHTML = '<details class="filters-box"' + (filtersOpen ? ' open' : '') + '>' +
+        '<summary class="filters-summary">Filters' + (active ? ' <span class="filter-count">' + active + '</span>' : '') + '</summary>' +
+        '<div class="filters-inner">' + html + '</div></details>';
     }
 
     function drawResults() {
@@ -482,6 +556,7 @@
       var chips = [];
       for (var gid in selected) {
         if (!selected.hasOwnProperty(gid)) continue;
+        if (lockCountry && gid === 'country') continue;
         selected[gid].forEach(function (oid) {
           var o = U.optionById(gid, oid);
           if (o) chips.push('<button type="button" data-remove-g="' + esc(gid) + '" data-remove-o="' + esc(oid) + '">' + esc(o.label) + '</button>');
@@ -490,17 +565,30 @@
       if (query) chips.unshift('<button type="button" data-clear-q>“' + esc(query) + '”</button>');
       activeBox.innerHTML = chips.join('');
 
+      var visible = list.slice(0, shown);
       bar.innerHTML = '<span class="count">' + list.length + ' universit' + (list.length === 1 ? 'y' : 'ies') + '</span>' +
-        '<span class="small muted">Showing bachelor’s-level information for international applicants</span>';
+        '<span class="small muted">' + (list.length > visible.length
+          ? 'Showing ' + visible.length + ' of ' + list.length + ' — search and filters cover the whole list'
+          : 'Showing bachelor’s-level information for international applicants') + '</span>';
 
       out.innerHTML = list.length
-        ? list.map(U.uniCard).join('')
+        ? visible.map(U.uniCard).join('')
         : '<div class="empty-state"><h3>No universities match those filters</h3>' +
           '<p data-i18n-html>Try removing a filter, or search for a field such as <em>Business</em>, <em>Computer Science</em> or <em>full scholarship</em>.</p>' +
           '<button class="btn btn-ghost" type="button" data-clear-filters>Reset all filters</button></div>';
+
+      var more = document.getElementById('results-more');
+      if (more) {
+        more.innerHTML = list.length > visible.length
+          ? '<button class="btn btn-ghost" type="button" data-show-more>Show more universities (' + (list.length - visible.length) + ' left)</button>'
+          : '';
+      }
+      save();
     }
 
     function refresh() { drawFilters(); drawResults(); }
+
+    function reset() { shown = PAGE_SIZE; }
 
     var api = {
       toggle: function (g, o, on) {
@@ -509,16 +597,22 @@
         if (on && i === -1) selected[g].push(o);
         if (!on && i > -1) selected[g].splice(i, 1);
         if (!selected[g].length) delete selected[g];
-        refresh();
+        reset(); refresh();
       },
-      clearFilters: function () { selected = {}; refresh(); },
-      clearQuery: function () { query = ''; var el = document.getElementById('browse-q'); if (el) el.value = ''; refresh(); },
+      clearFilters: function () {
+        selected = {};
+        if (lockCountry && preCountry) selected.country = [preCountry];
+        reset(); refresh();
+      },
+      clearQuery: function () { query = ''; var el = document.getElementById('browse-q'); if (el) el.value = ''; reset(); refresh(); },
       remove: function (g, o) {
+        if (lockCountry && g === 'country') return;
         selected[g] = (selected[g] || []).filter(function (x) { return x !== o; });
         if (!selected[g].length) delete selected[g];
-        refresh();
+        reset(); refresh();
       },
-      setQuery: function (v) { query = v; refresh(); },
+      setQuery: function (v) { query = v; reset(); refresh(); },
+      showMore: function () { shown += PAGE_SIZE; drawResults(); },
       redraw: drawResults
     };
     browseRefresh = api;
@@ -537,6 +631,7 @@
         var t = e.target;
         if (t.closest && t.closest('[data-clear-filters]')) { browseRefresh.clearFilters(); return; }
         if (t.closest && t.closest('[data-clear-q]')) { browseRefresh.clearQuery(); return; }
+        if (t.closest && t.closest('[data-show-more]')) { browseRefresh.showMore(); return; }
         var rm = t.closest ? t.closest('[data-remove-g]') : null;
         if (rm) browseRefresh.remove(rm.getAttribute('data-remove-g'), rm.getAttribute('data-remove-o'));
       });
@@ -551,9 +646,49 @@
     }
 
     refresh();
+
+    if (narrowQuery && narrowQuery.addEventListener) {
+      narrowQuery.addEventListener('change', function () {
+        if (!filtersTouched && document.getElementById('filters')) drawFilters();
+      });
+    }
+
+    if (restoreScroll) {
+      global.requestAnimationFrame(function () {
+        global.requestAnimationFrame(function () { global.scrollTo(0, restoreScroll); });
+      });
+    }
+    var ticking = false;
+    global.addEventListener('scroll', function () {
+      if (ticking || !document.getElementById('results')) return;
+      ticking = true;
+      global.requestAnimationFrame(function () { ticking = false; if (document.getElementById('results')) save(); });
+    }, { passive: true });
   }
 
   /* ---------------- country page ---------------- */
+
+  function acc(title, body, open) {
+    return '<details class="acc"' + (open ? ' open' : '') + '><summary>' + esc(title) + '</summary>' +
+      '<div class="acc-body">' + body + '</div></details>';
+  }
+
+  /* Tuition figures can be compared only when they use the same currency and
+     the same period, so the summary groups them instead of mixing them. */
+  function tuitionSummary(list) {
+    var groups = {};
+    list.forEach(function (u) {
+      var a = U.tuitionAmount(u);
+      if (a === null || a === 0) return;
+      var key = (U.costCurrency(u) || '?') + '|' + U.costPeriod(u);
+      (groups[key] = groups[key] || []).push({ u: u, a: a });
+    });
+    return Object.keys(groups).map(function (k) {
+      var rows = groups[k].sort(function (x, y) { return x.a - y.a; });
+      var parts = k.split('|');
+      return { currency: parts[0], period: parts[1], rows: rows, low: rows[0], high: rows[rows.length - 1] };
+    });
+  }
 
   function renderCountry(code) {
     var c = U.country(code);
@@ -565,54 +700,82 @@
     }
     document.title = c.name + ' — UniPath';
 
-    var costs = list.map(U.costHeadline).filter(Boolean);
     var withFullRide = list.filter(function (u) { return U.fullRide(u).available === true; }).length;
     var englishTaught = list.filter(function (u) { return u.englishTaught === true; }).length;
+    var freeTuition = list.filter(function (u) { return U.tuitionAmount(u) === 0; }).length;
 
     var head = '<section class="page-head"><div class="wrap">' +
-      '<div class="crumbs small" style="color:#a9c2ea;margin-bottom:14px"><a href="#/" style="color:#cfe0ff">Home</a> › <a href="#/countries" style="color:#cfe0ff">Countries</a> › ' + esc(c.name) + '</div>' +
+      '<div class="crumbs small"><a href="#/">Home</a> › <a href="#/countries">Countries</a> › ' + esc(c.name) + '</div>' +
       '<h1>' + c.flag + ' <span>' + esc(c.name) + '</span></h1>' +
       '<p>' + esc(c.tagline) + '</p>' +
       '<div class="hero-stats">' +
         '<div class="hero-stat"><b>' + list.length + '</b><span>Universities listed</span></div>' +
         '<div class="hero-stat"><b>' + withFullRide + '</b><span>With a full scholarship route</span></div>' +
         '<div class="hero-stat"><b>' + englishTaught + '</b><span>With English-taught degrees</span></div>' +
+        (freeTuition ? '<div class="hero-stat"><b>' + freeTuition + '</b><span>With no tuition fee</span></div>' : '') +
       '</div>' +
       '</div></section>';
 
-    var body = '<div class="wrap section">' +
-      '<div class="grid grid-2">' +
-        '<div class="card"><div class="card-body"><h2>Studying in ' + esc(c.name) + '</h2><p>' + esc(c.overview) + '</p></div></div>' +
-        '<div class="card"><div class="card-body"><h2>How applications work</h2><p>' + esc(c.applicationInfo) + '</p></div></div>' +
+    /* Catalogue first: on a phone the universities must be reachable at once. */
+    var browse = '<section class="section"><div class="wrap">' +
+      '<div class="section-head" style="margin-bottom:16px"><h2>Universities in ' + esc(c.name) + '</h2>' +
+        '<p>Search and filters work across all ' + list.length + ' universities in ' + esc(c.name) + ', not only the cards shown.</p></div>' +
+      '<div class="searchbox searchbox-flat" style="max-width:600px">' +
+        '<span class="search-icon">🔍</span>' +
+        '<input type="search" id="browse-q" placeholder="Search universities, cities, programs, scholarships…" aria-label="Search universities" autocomplete="off">' +
       '</div>' +
-      '<div class="grid grid-2" style="margin-top:20px">' +
-        '<div class="card"><div class="card-body"><h2>Tuition range in this database</h2>' +
-          (costs.length ? '<ul class="stack" style="padding-left:1.1em;margin:0">' + list.filter(U.costHeadline).map(function (u) {
-            return '<li><a href="' + U.uniUrl(u) + '">' + esc(U.displayName(u)) + '</a> — <span>' + esc(U.costHeadline(u)) + '</span></li>';
-          }).join('') + '</ul>' : '<p>' + UNKNOWN + '</p>') +
-          '<p class="small muted" style="margin-top:12px">Only universities with a confirmed published figure are listed. Others show their cost on their own profile page.</p>' +
-        '</div></div>' +
-        '<div class="card"><div class="card-body"><h2>Important notes for international students</h2>' +
-          '<ul class="stack" style="padding-left:1.1em;margin:0">' + c.notes.map(function (n) { return '<li>' + esc(n) + '</li>'; }).join('') + '</ul>' +
-        '</div></div>' +
-      '</div>' +
-      '<div class="section-head" style="margin-top:44px"><span class="eyebrow">Popular study fields</span>' +
-        '<div class="pill-row">' + c.fieldsPopular.map(function (f) {
-          var fl = U.field(f);
-          return '<a class="badge badge-flat" href="#/universities?c=' + c.code + '&field=' + fl.id + '">' + fl.icon + ' ' + esc(fl.label) + '</a>';
-        }).join('') + '</div>' +
-      '</div>' +
-      '<div class="section-head-row" style="margin-top:40px"><div class="section-head" style="margin:0">' +
-        '<h2>Universities in ' + esc(c.name) + '</h2><p>' + list.length + ' listed. Open a profile for admission requirements, scholarships and costs.</p></div>' +
-        '<a class="btn btn-ghost" href="#/universities?c=' + c.code + '">Filter these universities</a></div>' +
-      '<div class="grid grid-3" style="margin-top:22px">' + list.map(U.uniCard).join('') + '</div>' +
-      '<div class="card" style="margin-top:32px"><div class="card-body"><h3>Official sources for ' + esc(c.name) + '</h3>' +
-        '<ul class="source-list">' + c.sources.map(function (s) {
-          return '<li>→ <a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.label) + '</a></li>';
-        }).join('') + '</ul></div></div>' +
-      '</div>';
+      '<div class="pill-row" style="margin-top:14px">' + c.fieldsPopular.map(function (f) {
+        var fl = U.field(f);
+        return '<a class="badge badge-flat" href="#/universities?c=' + c.code + '&field=' + fl.id + '">' + fl.icon + ' ' + esc(fl.label) + '</a>';
+      }).join('') + '</div>' +
+      '<div class="browse-layout" style="margin-top:20px">' +
+        '<aside class="filters" id="filters" aria-label="Filters"></aside>' +
+        '<div><div class="results-bar" id="results-bar"></div>' +
+        '<div class="active-filters" id="active-filters"></div>' +
+        '<div class="grid grid-3" id="results"></div>' +
+        '<div class="results-more" id="results-more"></div></div>' +
+      '</div></div></section>';
 
-    document.getElementById('main').innerHTML = head + body;
+    /* Everything explanatory sits below, folded away. */
+    var groups = tuitionSummary(list);
+    var noTuition = list.filter(function (u) { return U.tuitionText(u) === null; });
+    var costBody = (groups.length
+      ? groups.map(function (g) {
+          var per = g.period === 'semester' ? 'Lowest tuition per semester' : 'Lowest tuition per year';
+          var perHigh = g.period === 'semester' ? 'Highest tuition per semester' : 'Highest tuition per year';
+          return '<dl class="uni-facts">' +
+            '<div><dt>Universities with published tuition</dt><dd>' + g.rows.length + ' / ' + list.length + '</dd></div>' +
+            '<div><dt>' + per + '</dt><dd><a href="' + U.uniUrl(g.low.u) + '">' + esc(U.displayName(g.low.u)) + '</a> — ' + esc(U.money(g.low.a, g.currency)) + '</dd></div>' +
+            '<div><dt>' + perHigh + '</dt><dd><a href="' + U.uniUrl(g.high.u) + '">' + esc(U.displayName(g.high.u)) + '</a> — ' + esc(U.money(g.high.a, g.currency)) + '</dd></div>' +
+            '</dl>';
+        }).join('')
+      : '<p>No tuition figure is confirmed for this country yet.</p>') +
+      '<p class="small muted" style="margin-top:10px">Only tuition is compared here, because universities publish very different totals: some quote a single comprehensive fee, some the charges they bill, some a full cost of attendance with books and travel. Each profile shows which figure it is.</p>' +
+      (noTuition.length ? '<p class="small muted">Tuition is not published for ' + noTuition.length + ' of these universities; their cards show “Not published” and their profiles link to the official cost page.</p>' : '');
+
+    var aidBody = '<p>' + withFullRide + ' of ' + list.length + ' universities list a full-scholarship route, and ' +
+      list.filter(function (u) { return U.needBased(u).availableToInternational === true; }).length +
+      ' confirm need-based aid for international students. A scholarship is only called a full ride where the university states what it covers.</p>' +
+      '<p class="small muted">An award you might win is not the same as a guaranteed cost of zero. Each profile lists the conditions.</p>' +
+      '<p><a class="btn btn-ghost btn-sm" href="#/universities?c=' + c.code + '&scholarship=full-ride-intl">Show universities with a full scholarship</a></p>';
+
+    var info = '<section class="section"><div class="wrap">' +
+      '<div class="section-head"><span class="eyebrow">Before you apply</span><h2>Studying in ' + esc(c.name) + '</h2></div>' +
+      '<div class="acc-list">' +
+        acc('Studying in ' + c.name, '<p>' + esc(c.overview) + '</p>', true) +
+        acc('How applications work', '<p>' + esc(c.applicationInfo) + '</p>') +
+        acc('Costs in this database', costBody) +
+        acc('Scholarships and aid', aidBody) +
+        acc('Important notes for international students',
+          '<ul class="stack" style="padding-left:1.1em;margin:0">' + c.notes.map(function (n) { return '<li>' + esc(n) + '</li>'; }).join('') + '</ul>') +
+        acc('Official sources for ' + c.name,
+          '<ul class="source-list">' + c.sources.map(function (s) {
+            return '<li>→ <a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.label) + '</a></li>';
+          }).join('') + '</ul>') +
+      '</div></div></section>';
+
+    document.getElementById('main').innerHTML = head + browse + info;
+    renderBrowse({ country: code, lockCountry: true, hideGroups: ['country'], stateKey: 'country:' + code });
   }
 
   /* ---------------- compare ---------------- */
@@ -640,11 +803,17 @@
           : (u.englishTaught === true ? '<span class="unknown">Not confirmed</span>' : '<span class="unknown">None confirmed</span>');
       }],
       ['group', 'Money'],
-      ['Tuition / headline cost', function (u) { return U.costHeadline(u) ? esc(U.costHeadline(u)) : UNKNOWN; }],
-      ['Estimated total cost', function (u) {
-        var t = U.totalCostText(u);
-        return t ? esc(t) + (has(u.costs.academicYear) ? '<br><span class="small muted">' + esc(u.costs.academicYear) + '</span>' : '') : UNKNOWN;
+      ['Tuition per year', function (u) {
+        var t = U.tuitionText(u);
+        return t ? esc(t) + (U.costPeriod(u) === 'semester' ? ' <span class="small muted">per semester</span>' : '') : UNKNOWN;
       }],
+      ['Billed by the university', function (u) {
+        var b = U.billedAmount(u);
+        return b === null ? UNKNOWN : '<span>' + esc(U.money(b, U.costCurrency(u))) + '</span><br><span class="small muted">' + esc(U.billedLabel(u)) + '</span>';
+      }],
+      ['Full budget (cost of attendance)', function (u) { return U.budgetText(u) ? esc(U.budgetText(u)) : UNKNOWN; }],
+      ['Academic year of the figures', function (u) { return U.costYear(u) ? esc(U.costYear(u)) : UNKNOWN; }],
+      ['What the figures cover', function (u) { var i = U.costIncludes(u); return i ? '<span class="small">' + esc(i) + '</span>' : UNKNOWN; }],
       ['Application fee', function (u) { return U.feeLabel(u); }],
       ['Fee waiver for international applicants', function (u) { return esc(U.feeWaiverLabel(u)); }],
       ['group', 'Requirements'],

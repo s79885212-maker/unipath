@@ -58,6 +58,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: null
   },
   costs: {
+    breakdown: { published: false },
     academicYear: null,
     currency: 'KRW',
     headline: null,
@@ -152,6 +153,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: null
   },
   costs: {
+    breakdown: { published: false },
     academicYear: null,
     currency: 'KRW',
     headline: 'Tuition covered for admitted international students',
@@ -245,6 +247,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A high school diploma or recognised equivalency certificate is required before matriculation.'
   },
   costs: {
+    breakdown: { tuition: 8202000, period: "semester", billed: 8258000, includes: "tuition and miscellaneous fees per semester on the International Students Track" },
     academicYear: '2026',
     currency: 'KRW',
     headline: '₩8,258,000 per semester',
@@ -342,6 +345,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Admission decisions about major course enrolment take account of TOPIK scores or Korean levels completed at Korea University\'s Korean Language Center or other domestic IEQAS-certified universities.'
   },
   costs: {
+    breakdown: { published: false },
     academicYear: null,
     currency: 'KRW',
     headline: null,
@@ -432,6 +436,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: null
   },
   costs: {
+    breakdown: { published: false },
     academicYear: null,
     currency: 'KRW',
     headline: null,
@@ -524,6 +529,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: null
   },
   costs: {
+    breakdown: { published: false },
     academicYear: null,
     currency: 'KRW',
     headline: null,
@@ -623,6 +629,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: null
   },
   costs: {
+    breakdown: { published: false },
     academicYear: null,
     currency: 'KRW',
     headline: null,
@@ -715,6 +722,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: null
   },
   costs: {
+    breakdown: { published: false },
     academicYear: null,
     currency: 'KRW',
     headline: null,

@@ -57,6 +57,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Applicants generally need 12 years of formal schooling or an equivalent qualification recognised in Japan.'
   },
   costs: {
+    breakdown: { tuition: 642960, includes: "tuition per year; a one-time ¥282,000 enrolment fee is charged on entry" },
     academicYear: null,
     currency: 'JPY',
     headline: '¥642,960 tuition per year',
@@ -151,6 +152,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: null
   },
   costs: {
+    breakdown: { published: false },
     academicYear: null,
     currency: 'JPY',
     headline: 'Tuition waived in full or part for all iUP students',
@@ -242,6 +244,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A broad list of national qualifications is accepted — see the list above.'
   },
   costs: {
+    breakdown: { published: false },
     academicYear: null,
     currency: 'JPY',
     headline: null,
@@ -332,6 +335,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: null
   },
   costs: {
+    breakdown: { published: false },
     academicYear: '2026',
     currency: 'JPY',
     headline: null,
@@ -412,6 +416,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'IB Diploma and A-Levels are explicitly listed as qualifying routes.'
   },
   costs: {
+    breakdown: { published: false },
     academicYear: '2026',
     currency: 'JPY',
     headline: null,
@@ -513,6 +518,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Only the IB Full Diploma is accepted — IB Course Certificates and the IBCP Certificate are not.'
   },
   costs: {
+    breakdown: { tuition: 1167000, billed: 1521000, includes: "tuition and the facilities fee for AY2026; a one-time ¥300,000 matriculation fee is charged on entry" },
     academicYear: '2026',
     currency: 'JPY',
     headline: '¥1,521,000 per year',
@@ -613,6 +619,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: null
   },
   costs: {
+    breakdown: { tuition: 1455000, includes: "tuition for year one at a 0% scholarship; years 2–4 cost ¥1,655,000 a year" },
     academicYear: '2027 enrolment',
     currency: 'JPY',
     headline: '¥1,455,000 tuition in year 1',
@@ -712,6 +719,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: null
   },
   costs: {
+    breakdown: { published: false },
     academicYear: null,
     currency: 'JPY',
     headline: '≈ ¥36,000/month dormitory',

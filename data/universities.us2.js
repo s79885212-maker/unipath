@@ -66,6 +66,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications such as A-Levels and the IB are accepted alongside school transcripts.'
   },
   costs: {
+    breakdown: { tuition: 74568, billed: 97016, includes: "tuition, room, board and university fees" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$74,568 tuition',
@@ -167,6 +168,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Applicants who attended high schools both in and outside the US should check Dartmouth’s testing FAQ for which rule applies.'
   },
   costs: {
+    breakdown: { tuition: 71697, billed: 95382, budget: 98427, includes: "tuition, fees, housing and food; the full budget adds books and personal expenses (health insurance and a computer allowance are extra)" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$98,427 total budget',
@@ -267,6 +269,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International curricula are assessed in their own context.'
   },
   costs: {
+    breakdown: { tuition: 72800, includes: "tuition for two terms; fees, housing, food and personal expenses are charged on top" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$72,800 tuition',
@@ -365,6 +368,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted; check Penn’s testing page for country-specific guidance.'
   },
   costs: {
+    breakdown: { tuition: 65670, billed: 94582, includes: "tuition, fees, housing and the meal plan" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$94,582 total charges',
@@ -458,6 +462,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International curricula are assessed in context; some colleges ask for specific subject preparation.'
   },
   costs: {
+    breakdown: { tuition: 73946, billed: 95294, includes: "tuition (endowed colleges), housing and dining" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$73,946 tuition (endowed colleges)',
@@ -551,6 +556,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: null
   },
   costs: {
+    breakdown: { tuition: 67731, billed: 90675, includes: "tuition, room and board" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$67,731 tuition',
@@ -643,6 +649,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
+    breakdown: { tuition: 75330, billed: 96360, comprehensive: true, includes: "a comprehensive fee covering tuition, housing, meals and the student activities fee" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$96,360 comprehensive fee',
@@ -740,6 +747,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
+    breakdown: { tuition: 74968, billed: 95400, comprehensive: true, includes: "a comprehensive fee covering tuition, fees, housing and food" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$95,400 comprehensive fee',
@@ -833,6 +841,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
+    breakdown: { tuition: 69794, billed: 88786, comprehensive: true, includes: "a basic fee covering tuition, fees, housing and food on campus" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$88,786 basic fee for on-campus students',
@@ -927,6 +936,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
+    breakdown: { published: false },
     academicYear: null,
     currency: 'USD',
     headline: 'Not confirmed — see the Williams tuition page',
@@ -1027,6 +1037,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Transcripts from any national system are accepted with an official translation; school reports must come directly from the school.'
   },
   costs: {
+    breakdown: { tuition: 70265, billed: 94157, budget: 98549, includes: "tuition, fees, housing and food; the full budget adds books, personal expenses and transport" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$98,549 total cost',
@@ -1127,6 +1138,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International curricula are accepted; transcripts must be officially translated.'
   },
   costs: {
+    breakdown: { tuition: 69822, billed: 96896, budget: 99994, budgetText: "About $99,994", includes: "tuition, housing, food, the student support fee, books and personal expenses" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$96,896 in direct costs',
@@ -1223,6 +1235,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Transcripts in other languages must be accompanied by a certified English translation.'
   },
   costs: {
+    breakdown: { tuition: 71140, billed: 92654, includes: "tuition, mandatory fees, room and board" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$71,140 tuition',
@@ -1314,6 +1327,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Applications are read in the context of the applicant’s own school system.'
   },
   costs: {
+    breakdown: { tuition: 71802, billed: 96003, includes: "tuition, fees, room and board" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$71,802 tuition',
@@ -1412,6 +1426,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Applications are read in the context of the school and country where the applicant studied.'
   },
   costs: {
+    breakdown: { tuition: 71325, billed: 94101, budget: 98301, budgetText: "$98,301–$98,676", includes: "tuition, the student services fee, housing and food; health insurance is added unless waived" },
     academicYear: '2025–2026',
     currency: 'USD',
     headline: '$98,301 total (2025–26)',
@@ -1515,6 +1530,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
+    breakdown: { budget: 95000, budgetText: "About $95,000", includes: "charges billed by Hopkins plus estimated books, supplies, travel and personal expenses" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: 'About $95,000 in total',
@@ -1611,6 +1627,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
+    breakdown: { billed: 75645, budget: 105183, includes: "tuition, fees and health insurance; the larger figure is the total WashU certifies for visa documents, including living expenses" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$105,183 for visa purposes',
@@ -1708,6 +1725,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
+    breakdown: { tuition: 70300, billed: 93854, budget: 97948, includes: "tuition, fees, housing and food; the full budget adds travel, personal expenses and books" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$97,948 total (estimated)',
@@ -1817,6 +1835,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
+    breakdown: { tuition: 74862, billed: 97152, includes: "tuition, housing, food and fees; books, personal expenses and travel are extra" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$97,152 for first-years',
@@ -1917,6 +1936,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Richmond evaluates translated transcripts from national curricula as well as AP, IB and A-Levels.'
   },
   costs: {
+    breakdown: { tuition: 70725, billed: 89540, budget: 92320, includes: "tuition, housing and food; the full budget adds books and personal expenses" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$92,320 total cost',
@@ -2029,6 +2049,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
+    breakdown: { tuition: 72722, billed: 95770, includes: "tuition, housing, food and the student activities fee" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$95,770 total charges',
@@ -2126,6 +2147,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
+    breakdown: { tuition: 71660, billed: 95670, comprehensive: true, includes: "a comprehensive charge covering tuition, fees, housing and food" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$95,670 comprehensive charge',
@@ -2221,6 +2243,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
+    breakdown: { tuition: 72570, billed: 96136, comprehensive: true, includes: "a comprehensive fee covering tuition, housing, meals, the activity fee, books and personal expenses" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$96,136 comprehensive fee',
@@ -2318,6 +2341,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
+    breakdown: { tuition: 72924, billed: 94386, includes: "tuition, housing, the meal plan and the student activity fee" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$94,386 in tuition, housing, food and fees',
@@ -2412,6 +2436,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
+    breakdown: { tuition: 75790, billed: 95270, comprehensive: true, includes: "a comprehensive fee covering tuition, fees, housing and meals" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$95,270 comprehensive fee',
@@ -2509,6 +2534,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
+    breakdown: { tuition: 73090, billed: 92770, budget: 95995, includes: "tuition, fees, housing and food; the full budget adds books, transport and personal expenses for international first-years" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$95,995 for international first-years',
@@ -2609,6 +2635,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
+    breakdown: { tuition: 73582, billed: 91938, budget: 93338, budgetText: "From $93,338", includes: "tuition (books included), the activity fee, housing and food; the full budget adds personal expenses and travel" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$93,338 and up',
@@ -2714,6 +2741,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
+    breakdown: { tuition: 76140, billed: 96960, includes: "tuition, housing, food and mandatory fees; health insurance and personal costs are extra" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$96,960 in direct costs',
@@ -2812,6 +2840,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
+    breakdown: { tuition: 75210, billed: 95250, comprehensive: true, includes: "a comprehensive fee covering tuition, housing, food and the activity fee" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$95,250 comprehensive fee',
@@ -2913,6 +2942,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
+    breakdown: { tuition: 74930, billed: 96347, budget: 100026, includes: "tuition, fees, housing and food; the full budget adds books, personal expenses and extra meals" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$100,026 total for first-years',
@@ -3020,6 +3050,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'IB students need Higher Level Maths and A-Level students need A-Level Maths; students in India must complete both Class X and XII board exams.'
   },
   costs: {
+    breakdown: { tuition: 68574, billed: 93225, budget: 98622, includes: "tuition, fees, housing and food; the full budget adds books and personal expenses (health insurance is extra)" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$98,622 total cost',
@@ -3116,6 +3147,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
+    breakdown: { tuition: 69702, billed: 89352, includes: "tuition, a standard double room and the first-year meal plan" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$69,702 tuition',
@@ -3210,6 +3242,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Credentials in other languages need English translations accompanied by the originals.'
   },
   costs: {
+    breakdown: { tuition: 74520, includes: "tuition and mandatory fees; housing and food are published separately" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$74,520 tuition',
@@ -3308,6 +3341,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'USC publishes expectations for many national systems in its International Qualifications tool.'
   },
   costs: {
+    breakdown: { tuition: 75384, includes: "tuition for two semesters; fees, insurance, housing and living costs are extra" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$75,384 tuition',
@@ -3409,6 +3443,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
+    breakdown: { tuition: 73024, billed: 95334, budget: 98419, includes: "tuition, housing, food and fees; the full budget adds books, personal expenses and local transport" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$98,419 total cost',
@@ -3515,6 +3550,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
+    breakdown: { tuition: 75070, budget: 95258, includes: "tuition plus housing, food, fees and other costs in the published cost of attendance" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$95,258 total cost',
@@ -3609,6 +3645,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Documents in other languages need certified translations from a consulate, embassy or school official.'
   },
   costs: {
+    breakdown: { published: false },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: 'Not confirmed — see Brandeis’ tuition page',
@@ -3706,6 +3743,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted; records and recommendations need English translations.'
   },
   costs: {
+    breakdown: { tuition: 71410, billed: 93435, includes: "tuition, housing, the unlimited meal plan and required fees" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$91,979 in tuition, housing and meals',
@@ -3811,6 +3849,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
+    breakdown: { tuition: 71750, billed: 93076, includes: "tuition, housing and food" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$93,076 in tuition, housing and food',
@@ -3912,6 +3951,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
+    breakdown: { tuition: 70622, billed: 95674, includes: "tuition, fees, housing and dining; health insurance is charged on top" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$75,136 in tuition and mandatory fees',
@@ -4022,6 +4062,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International applicants may be asked for national or international exam results.'
   },
   costs: {
+    breakdown: { published: false },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: 'Not confirmed — see Smith’s cost pages',
@@ -4121,6 +4162,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
+    breakdown: { tuition: 71178, billed: 92774, comprehensive: true, budget: 93046, includes: "a comprehensive fee covering tuition, housing and food" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$92,774 comprehensive fee',
@@ -4218,6 +4260,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'National exams such as the IB and A-Levels are submitted with the transcript.'
   },
   costs: {
+    breakdown: { tuition: 71290, billed: 94291, budget: 97547, includes: "tuition, housing, food and college fees; the full budget adds books and miscellaneous expenses" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$97,547 total cost (estimated)',
@@ -4316,6 +4359,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Transcripts and national exam results are required.'
   },
   costs: {
+    breakdown: { tuition: 73120, billed: 98850, includes: "tuition, fees, housing and meals; books, travel and personal expenses are extra" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$98,850 in direct costs',
@@ -4411,6 +4455,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
+    breakdown: { billed: 94560, comprehensive: true, includes: "a single comprehensive fee covering tuition, room, board and fees" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$94,560 comprehensive fee',
@@ -4501,6 +4546,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Exam results are sent by the school with the School Report and updated as soon as final results are available.'
   },
   costs: {
+    breakdown: { tuition: 75916, billed: 98330, includes: "tuition, the residential comprehensive fee, the activity and Green Fund fees and the matriculation fee" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$98,030 in tuition and required fees',
@@ -4607,6 +4653,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
+    breakdown: { tuition: 73575, billed: 95435, budget: 99880, includes: "tuition, fees, housing and food; the full budget adds books and personal expenses (health insurance and travel are extra)" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$99,880 standard cost of attendance',
@@ -4716,6 +4763,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Colgate defines international applicants as non-US citizens, whatever their residence.'
   },
   costs: {
+    breakdown: { published: false },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: 'Not confirmed — see Colgate’s cost page',
@@ -4806,6 +4854,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Documents not originally in English need an official translation.'
   },
   costs: {
+    breakdown: { budget: 99580, includes: "tuition, housing, food, fees, books, personal expenses, travel, health insurance and expenses over breaks" },
     academicYear: '2025–2026',
     currency: 'USD',
     headline: '$99,580 total (2025–26)',
@@ -4901,6 +4950,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
+    breakdown: { published: false },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: 'Not confirmed — see Macalester’s tuition page',
@@ -5001,6 +5051,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
+    breakdown: { budget: 90000, budgetText: "About $90,000", includes: "the yearly support Oberlin expects a student not applying for aid to have" },
     academicYear: '2025–2026',
     currency: 'USD',
     headline: '$90,000 expected support (2025–26)',
@@ -5100,6 +5151,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
+    breakdown: { tuition: 71870, billed: 93090, includes: "tuition, housing, meals and the activities fee; books, personal costs and travel are extra" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$93,090 in tuition, room, board and fees',
@@ -5196,6 +5248,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
+    breakdown: { budget: 92900, includes: "the published cost of attendance, including a $4,500 allowance for personal expenses and books" },
     academicYear: '2025–2026',
     currency: 'USD',
     headline: '$92,900 total (2025–26)',
@@ -5296,6 +5349,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Foreign course credits are evaluated case by case.'
   },
   costs: {
+    breakdown: { tuition: 74770, billed: 94436, budget: 97041, includes: "tuition, fees, housing and the meal plan; the full budget adds books, personal expenses and transport" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$97,041 total cost',
@@ -5392,6 +5446,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
+    breakdown: { published: false },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: 'Not confirmed — see Lafayette’s financial aid page',
@@ -5482,6 +5537,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
+    breakdown: { budget: 93400, includes: "the projected cost of attendance for the year" },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: '$93,400 projected cost',
@@ -5574,6 +5630,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Tuition and fees are the same for domestic and international students.'
   },
   costs: {
+    breakdown: { published: false },
     academicYear: '2026–2027',
     currency: 'USD',
     headline: 'Not confirmed — see UM’s cost of attendance page',
