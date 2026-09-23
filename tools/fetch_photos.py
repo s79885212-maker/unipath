@@ -12,7 +12,7 @@ ROOT = '/Users/salmonashurmamadov/Desktop/IL9/WORK'
 OUT = os.path.join(ROOT, 'assets/img/universities')
 UA = 'UniPathPhotoFetcher/1.0 (educational site; contact via GitHub s79885212-maker/unipath)'
 
-TARGETS = json.load(open(os.path.join(os.path.dirname(__file__), 'photo_targets.json')))
+TARGETS = json.load(open(os.path.join(os.path.dirname(__file__), 'photo_targets_new.json')))
 
 BAD = re.compile(r'(logo|seal|coat[_ ]of[_ ]arms|wordmark|shield|icon|map|locator|flag|signature|diagram|chart|graph|banner|portrait|\.svg$|\.gif$|commons-|wiki)', re.I)
 ICONIC = re.compile(r'(campus|library|quad|green|yard|aerial|tower|chapel|gate|arch|hall|square|panorama|skyline)', re.I)
@@ -105,7 +105,7 @@ def download(url, path):
 
 def main():
     done = {}
-    outfile = os.path.join(ROOT, 'scratchpad_photos_new.json')
+    outfile = os.path.join(ROOT, 'scratchpad_photos_batch2.json')
     if os.path.exists(outfile):
         done = json.load(open(outfile))
     only = sys.argv[1:]

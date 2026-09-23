@@ -1,0 +1,369 @@
+{
+ "lse": {
+  "article": "London School of Economics and Political Science",
+  "category": "London School of Economics and Political Science",
+  "keywords": [
+   "london school of economics",
+   "lse"
+  ]
+ },
+ "university-of-bristol": {
+  "article": "University of Bristol",
+  "category": "University of Bristol",
+  "keywords": [
+   "university of bristol"
+  ]
+ },
+ "university-of-glasgow": {
+  "article": "University of Glasgow",
+  "category": "University of Glasgow",
+  "keywords": [
+   "university of glasgow"
+  ]
+ },
+ "university-of-st-andrews": {
+  "article": "University of St Andrews",
+  "category": "University of St Andrews",
+  "keywords": [
+   "st andrews"
+  ]
+ },
+ "university-of-sheffield": {
+  "article": "University of Sheffield",
+  "category": "University of Sheffield",
+  "keywords": [
+   "university of sheffield"
+  ]
+ },
+ "durham-university": {
+  "article": "Durham University",
+  "category": "Durham University",
+  "keywords": [
+   "durham university"
+  ]
+ },
+ "university-of-leeds": {
+  "article": "University of Leeds",
+  "category": "University of Leeds",
+  "keywords": [
+   "university of leeds"
+  ]
+ },
+ "university-of-nottingham": {
+  "article": "University of Nottingham",
+  "category": "University of Nottingham",
+  "keywords": [
+   "university of nottingham"
+  ]
+ },
+ "lancaster-university": {
+  "article": "Lancaster University",
+  "category": "Lancaster University",
+  "keywords": [
+   "lancaster university"
+  ]
+ },
+ "newcastle-university": {
+  "article": "Newcastle University",
+  "category": "Newcastle University",
+  "keywords": [
+   "newcastle university"
+  ]
+ },
+ "queen-mary-university-of-london": {
+  "article": "Queen Mary University of London",
+  "category": "Queen Mary University of London",
+  "keywords": [
+   "queen mary"
+  ]
+ },
+ "university-of-southampton": {
+  "article": "University of Southampton",
+  "category": "University of Southampton",
+  "keywords": [
+   "university of southampton"
+  ]
+ },
+ "university-of-birmingham": {
+  "article": "University of Birmingham",
+  "category": "University of Birmingham",
+  "keywords": [
+   "university of birmingham"
+  ]
+ },
+ "university-of-york": {
+  "article": "University of York",
+  "category": "University of York",
+  "keywords": [
+   "university of york"
+  ]
+ },
+ "university-of-exeter": {
+  "article": "University of Exeter",
+  "category": "University of Exeter",
+  "keywords": [
+   "university of exeter"
+  ]
+ },
+ "university-of-bath": {
+  "article": "University of Bath",
+  "category": "University of Bath",
+  "keywords": [
+   "university of bath"
+  ]
+ },
+ "cardiff-university": {
+  "article": "Cardiff University",
+  "category": "Cardiff University",
+  "keywords": [
+   "cardiff university"
+  ]
+ },
+ "university-of-aberdeen": {
+  "article": "University of Aberdeen",
+  "category": "University of Aberdeen",
+  "keywords": [
+   "university of aberdeen"
+  ]
+ },
+ "university-of-liverpool": {
+  "article": "University of Liverpool",
+  "category": "University of Liverpool",
+  "keywords": [
+   "university of liverpool"
+  ]
+ },
+ "queens-university-belfast": {
+  "article": "Queen's University Belfast",
+  "category": "Queen's University Belfast",
+  "keywords": [
+   "queen's university belfast",
+   "queens university belfast"
+  ]
+ },
+ "bard-college-berlin": {
+  "article": "Bard College Berlin",
+  "category": "Bard College Berlin",
+  "keywords": [
+   "bard college berlin"
+  ]
+ },
+ "iu-international-university": {
+  "article": "IU International University of Applied Sciences",
+  "category": "IU Internationale Hochschule",
+  "keywords": [
+   "iu internationale hochschule",
+   "iu international university"
+  ]
+ },
+ "srh-berlin-university": {
+  "article": "SRH Berlin University of Applied Sciences",
+  "category": "SRH Hochschule Berlin",
+  "keywords": [
+   "srh"
+  ]
+ },
+ "anhalt-university": {
+  "article": "Anhalt University of Applied Sciences",
+  "category": "Hochschule Anhalt",
+  "keywords": [
+   "hochschule anhalt",
+   "anhalt university"
+  ]
+ },
+ "berlin-international-university": {
+  "article": "Berlin International University of Applied Sciences",
+  "category": "Berlin International University of Applied Sciences",
+  "keywords": [
+   "berlin international"
+  ]
+ },
+ "munich-business-school": {
+  "article": "Munich Business School",
+  "category": "Munich Business School",
+  "keywords": [
+   "munich business school"
+  ]
+ },
+ "whu-otto-beisheim": {
+  "article": "WHU – Otto Beisheim School of Management",
+  "category": "WHU – Otto Beisheim School of Management",
+  "keywords": [
+   "whu",
+   "otto beisheim"
+  ]
+ },
+ "ebs-universitaet": {
+  "article": "EBS Universität für Wirtschaft und Recht",
+  "category": "EBS Universität für Wirtschaft und Recht",
+  "keywords": [
+   "ebs universität",
+   "ebs business school"
+  ]
+ },
+ "university-of-europe-applied-sciences": {
+  "article": "University of Europe for Applied Sciences",
+  "category": "University of Europe for Applied Sciences",
+  "keywords": [
+   "university of europe"
+  ]
+ },
+ "deggendorf-institute-of-technology": {
+  "article": "Deggendorf Institute of Technology",
+  "category": "Technische Hochschule Deggendorf",
+  "keywords": [
+   "deggendorf"
+  ]
+ },
+ "neu-ulm-university": {
+  "article": "Neu-Ulm University of Applied Sciences",
+  "category": "Hochschule Neu-Ulm",
+  "keywords": [
+   "neu-ulm"
+  ]
+ },
+ "reutlingen-university": {
+  "article": "Reutlingen University",
+  "category": "Hochschule Reutlingen",
+  "keywords": [
+   "reutlingen"
+  ]
+ },
+ "cbs-international-business-school": {
+  "article": "CBS International Business School",
+  "category": "Cologne Business School",
+  "keywords": [
+   "cologne business school",
+   "cbs international"
+  ]
+ },
+ "karlshochschule": {
+  "article": "Karlshochschule International University",
+  "category": "Karlshochschule International University",
+  "keywords": [
+   "karlshochschule"
+  ]
+ },
+ "hof-university": {
+  "article": "Hof University of Applied Sciences",
+  "category": "Hochschule Hof",
+  "keywords": [
+   "hochschule hof",
+   "hof university"
+  ]
+ },
+ "macromedia-university": {
+  "article": "Macromedia University of Applied Sciences",
+  "category": "Hochschule Macromedia",
+  "keywords": [
+   "macromedia"
+  ]
+ },
+ "gisma-university": {
+  "article": "Gisma University of Applied Sciences",
+  "category": "GISMA Business School",
+  "keywords": [
+   "gisma"
+  ]
+ },
+ "escp-berlin": {
+  "article": "ESCP Business School",
+  "category": "ESCP Europe",
+  "keywords": [
+   "escp"
+  ]
+ },
+ "berlin-school-business-innovation": {
+  "article": "Berlin School of Business and Innovation",
+  "category": "Berlin School of Business and Innovation",
+  "keywords": [
+   "berlin school of business"
+  ]
+ },
+ "stralsund-university": {
+  "article": "Stralsund University of Applied Sciences",
+  "category": "Hochschule Stralsund",
+  "keywords": [
+   "stralsund"
+  ]
+ },
+ "institute-of-science-tokyo": {
+  "article": "Institute of Science Tokyo",
+  "category": "Institute of Science Tokyo",
+  "keywords": [
+   "institute of science tokyo",
+   "tokyo institute of technology"
+  ]
+ },
+ "nagoya-university": {
+  "article": "Nagoya University",
+  "category": "Nagoya University",
+  "keywords": [
+   "nagoya university"
+  ]
+ },
+ "kyushu-university": {
+  "article": "Kyushu University",
+  "category": "Kyushu University",
+  "keywords": [
+   "kyushu university"
+  ]
+ },
+ "osaka-university": {
+  "article": "University of Osaka",
+  "category": "Osaka University",
+  "keywords": [
+   "osaka university",
+   "university of osaka"
+  ]
+ },
+ "hokkaido-university": {
+  "article": "Hokkaido University",
+  "category": "Hokkaido University",
+  "keywords": [
+   "hokkaido university"
+  ]
+ },
+ "university-of-tsukuba": {
+  "article": "University of Tsukuba",
+  "category": "University of Tsukuba",
+  "keywords": [
+   "tsukuba"
+  ]
+ },
+ "tokyo-international-university": {
+  "article": "Tokyo International University",
+  "category": "Tokyo International University",
+  "keywords": [
+   "tokyo international university"
+  ]
+ },
+ "akita-international-university": {
+  "article": "Akita International University",
+  "category": "Akita International University",
+  "keywords": [
+   "akita international university"
+  ]
+ },
+ "rikkyo-university": {
+  "article": "Rikkyo University",
+  "category": "Rikkyo University",
+  "keywords": [
+   "rikkyo"
+  ]
+ },
+ "ritsumeikan-university": {
+  "article": "Ritsumeikan University",
+  "category": "Ritsumeikan University",
+  "keywords": [
+   "ritsumeikan"
+  ]
+ },
+ "doshisha-university": {
+  "article": "Doshisha University",
+  "category": "Doshisha University",
+  "keywords": [
+   "doshisha"
+  ]
+ }
+}

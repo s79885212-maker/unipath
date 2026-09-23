@@ -760,5 +760,1445 @@ window.UNIPATH.universities.push(
     { label: 'Admissions', url: 'https://www.khu.ac.kr/eng/user/contents/view.do?menuNo=300150' }
   ],
   lastVerified: '2026-09-16'
-}
+},
+
+{
+  id: 'postech',
+  name: 'POSTECH (Pohang University of Science and Technology)',
+  shortName: 'POSTECH',
+  country: 'kr',
+  city: 'Pohang',
+  region: 'North Gyeongsang',
+  type: 'Private research university (science and engineering)',
+  brand: { c1: '#d6001c', c2: '#73000f', initials: 'PST' },
+  description: 'A small, research-intensive science and engineering university on the east coast of Korea. It opened undergraduate admission to international students from the autumn 2026 semester and describes itself as a bilingual campus.',
+  englishTaught: false,
+  languageOfInstruction: 'Korean and English — POSTECH states that about 70% of the courses designated for English instruction are delivered in English',
+  programs: ['engineering','computer-science','mathematics','biology','economics'],
+  englishTaughtPrograms: [],
+  programNote: 'POSTECH is a bilingual campus rather than a fully English-taught university: it states that about 70% of courses designated for English instruction are actually taught in English, so a fully English bachelor was not confirmed here.',
+  links: {
+    website: 'https://www.postech.ac.kr/eng/',
+    admissions: 'https://adm-iu.postech.ac.kr/user/admission/guide/international.do',
+    applicationPortal: 'https://adm-iu.postech.ac.kr/',
+    scholarships: 'https://www.postech.ac.kr/eng/admission-aid/scholarship_types.do',
+    cost: 'https://www.postech.ac.kr/eng/admission-aid/scholarship_information.do'
+  },
+  admissions: {
+    platforms: ['POSTECH international undergraduate admissions portal'],
+    deadlines: [
+      { name: 'International undergraduate admission - Fall 2027 intake', kind: 'intake', entryTerm: 'Fall', entryYear: '2027', date: 'Expected to open March–April 2027', status: 'not-confirmed', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'POSTECH states that the Fall 2027 intake is expected to open for applications in March-April 2027 and that key dates are subject to change; no interview is required on the international track', source: 'https://adm-iu.postech.ac.kr/user/admission/guide/international.do', verified: '2026-09-23', note: null }
+    ],
+    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    documents: ['School transcripts and graduation certificate', 'English proficiency evidence', 'Documents listed in the international admission guide'],
+    recommendations: null,
+    essay: null,
+    interview: 'POSTECH states that an interview is not required for the international admissions track.',
+    notes: ['POSTECH participates in the Global Korea Scholarship through the embassy track only.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: null,
+    note: 'Accepted English evidence is set in the international admission guide, which was not read during this check.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'unknown', note: 'Korean universities admit international students by document screening under their own rules; the US test-optional classification does not apply. Whether SAT results are accepted or required was not confirmed here.' },
+    act: { policy: 'unknown', note: 'The US test-optional classification does not apply to this admission route.' },
+    otherTests: 'Not confirmed during this check.',
+    internationalQualifications: 'Applicants normally need 12 years of school education completed outside Korea (or an equivalent qualification); Korean universities also set separate rules for applicants of overseas Korean descent.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'POSTECH publishes tuition and scholarship information on its admission and aid pages; the figures were not read during this check' },
+    academicYear: '2026–2027',
+    currency: 'KRW',
+    headline: 'Tuition published on the POSTECH admission and aid pages',
+    items: [ { label: 'Tuition', text: 'Published on the POSTECH scholarship and admission pages; not read during this check' } ],
+    billedSubtotal: null,
+    totalText: 'Not confirmed — see the official pages',
+    note: 'Living costs in Pohang are extra.'
+  },
+  scholarships: {
+    fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
+    merit: [],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International undergraduate admissions guide', url: 'https://adm-iu.postech.ac.kr/user/admission/guide/international.do' },
+    { label: 'POSTECH to admit international undergraduate students from Fall 2026', url: 'https://postech.ac.kr/eng/news-center/university_news.do?mode=view&articleNo=23959&title=POSTECH+to+Admit+International+Undergraduate+Students+Beginning+Fall+2026' },
+    { label: 'Types of scholarships and eligibility', url: 'https://www.postech.ac.kr/eng/admission-aid/scholarship_types.do' }
+  ],
+  verification: { level: 'partial', checked: ['new international undergraduate route','expected 2027 application window','interview rule','GKS embassy track participation','language of instruction share'], unconfirmed: ['tuition','scholarship values','English test scores','exact deadlines'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'unist',
+  name: 'UNIST (Ulsan National Institute of Science and Technology)',
+  shortName: 'UNIST',
+  country: 'kr',
+  city: 'Ulsan',
+  region: 'Ulsan',
+  type: 'National research university (science and engineering)',
+  brand: { c1: '#003f7d', c2: '#00203f', initials: 'UNI' },
+  description: 'A national science and engineering university in Ulsan that teaches in English and gives newly admitted international undergraduates a full tuition waiver in their first semester, with merit-based waivers afterwards.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['engineering','computer-science','biology','mathematics','business'],
+  englishTaughtPrograms: ['engineering','computer-science','biology','mathematics','business'],
+  programNote: 'UNIST teaches its undergraduate courses in English; students choose a major track after a common first year.',
+  links: {
+    website: 'https://www.unist.ac.kr/',
+    admissions: 'https://admu-intl.unist.ac.kr/admission/guidelines/',
+    applicationPortal: 'https://admu-intl.unist.ac.kr/',
+    scholarships: 'https://admu-intl.unist.ac.kr/admission-eng/life/scholarships.do',
+    cost: 'https://admu-intl.unist.ac.kr/admission-eng/life/scholarships.do'
+  },
+  admissions: {
+    platforms: ['UNIST international undergraduate online application'],
+    deadlines: [
+      { name: 'Undergraduate admission for international applicants (Fall intake)', kind: 'intake', entryTerm: 'Fall', entryYear: '2027', date: 'Published in the annual admission guideline', status: 'not-confirmed', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'UNIST publishes a guideline for each intake; the 2027 dates were not read during this check', source: 'https://admu-intl.unist.ac.kr/admission/guidelines/', verified: '2026-09-23', note: null }
+    ],
+    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    documents: ['School transcripts and graduation certificate', 'English test report taken within two years of the online application deadline (unless exempt)', 'Documents listed in the admission guideline'],
+    recommendations: null,
+    essay: null,
+    interview: null,
+    notes: ['From the second year a tuition waiver depends on results: 12 credits or more with a GPA of 2.7 or above gives a full waiver, and a GPA of 2.0 or above gives a half waiver.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'An English test report is required, taken within two years before the online application deadline. Applicants from the USA, Canada, the UK, Australia, New Zealand and Ireland are exempt. The minimum scores were not read during this check.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Accepted; the minimum was not read during this check.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: 'Applicants from the USA, Canada, the UK, Australia, New Zealand and Ireland do not submit an English test report.',
+    note: 'Test reports must be recent — within two years of the application deadline.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'unknown', note: 'Admission is by document screening under the international route; the US test-optional classification does not apply.' },
+    act: { policy: 'unknown', note: 'The US test-optional classification does not apply to this admission route.' },
+    otherTests: 'Not confirmed during this check.',
+    internationalQualifications: 'Applicants normally need 12 years of school education completed outside Korea (or an equivalent qualification); Korean universities also set separate rules for applicants of overseas Korean descent.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'UNIST states that newly admitted international students receive a full tuition waiver for the first semester; the underlying tuition figure was not read during this check' },
+    academicYear: '2026–2027',
+    currency: 'KRW',
+    headline: 'Full tuition waiver in the first semester for new international students',
+    items: [
+      { label: 'Tuition', text: 'Published in the admission guideline; fully waived in the first semester for new international undergraduates' },
+      { label: 'Tuition from the second year', text: 'Full waiver with 12+ credits and GPA 2.7+, half waiver with GPA 2.0+' }
+    ],
+    billedSubtotal: null,
+    totalText: 'Tuition is waived in full or in part by merit; living costs in Ulsan are extra',
+    note: 'A tuition waiver is not a living-cost scholarship: accommodation, food and insurance are still paid by the student unless another award covers them.'
+  },
+  scholarships: {
+    fullRide: { available: false, internationalEligible: false, basis: 'merit', covers: { tuition: true, housing: false, meals: false, insurance: false, books: false }, renewable: true, competitiveness: 'Waivers continue while the published GPA and credit conditions are met.', howToApply: 'Applied automatically to admitted international students.', note: 'UNIST covers tuition and the admission fee for high-achieving international students, but housing, food and other living costs are not included, so this is not a full ride.' },
+    merit: [
+      { name: 'International undergraduate tuition waiver', amount: 'Full tuition and admission fee for new students; full or half tuition later by GPA', eligibility: 'Newly admitted international undergraduates; from the second year, 12+ credits with GPA 2.7+ for a full waiver or GPA 2.0+ for a half waiver', deadline: null, application: 'Automatic', renewable: true, note: null }
+    ],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'Undergraduate admission guidelines for international applicants', url: 'https://admu-intl.unist.ac.kr/admission/guidelines/' },
+    { label: 'Scholarships', url: 'https://admu-intl.unist.ac.kr/admission-eng/life/scholarships.do' },
+    { label: '2026 Fall undergraduate admission guideline (PDF)', url: 'https://admu-intl.unist.ac.kr/wp-content/uploads/2014/12/2026-Fall-undergraduate-admission-guideline-for-International-applicant-updated.pdf' }
+  ],
+  verification: { level: 'partial', checked: ['English-taught teaching','tuition waiver structure','English test rules and exemptions'], unconfirmed: ['tuition amount','English minimum scores','2027 dates','application fee'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'handong-global-university',
+  name: 'Handong Global University',
+  shortName: 'Handong',
+  country: 'kr',
+  city: 'Pohang',
+  region: 'North Gyeongsang',
+  type: 'Private Christian university',
+  brand: { c1: '#00437a', c2: '#00223d', initials: 'HGU' },
+  description: 'A private Christian university in Pohang with ten undergraduate programmes taught fully in English, including Global Management, Information Technology and US & International Law, and a scholarship that covers tuition and dormitory fees.',
+  englishTaught: true,
+  languageOfInstruction: 'Korean and English; ten programmes are taught 100% in English',
+  programs: ['business','computer-science','law','social-sciences','engineering','humanities'],
+  englishTaughtPrograms: ['business','computer-science','law','humanities'],
+  programNote: 'Handong states that about 40% of major courses are taught in English and that ten selected programmes — including Global Management, Information Technology, US & International Law and Global Korean Studies — are taught entirely in English.',
+  links: {
+    website: 'https://www.handong.edu/eng/',
+    admissions: 'https://www.handong.edu/eng/admission/undergraduate/application/overview/',
+    applicationPortal: 'https://www.handong.edu/eng/admission/undergraduate/',
+    scholarships: 'https://www.handong.edu/eng/admission/undergraduate/scholarship/new/',
+    cost: 'https://www.handong.edu/eng/admission/undergraduate/tuition/',
+    programs: 'https://www.handong.edu/eng/academics/undergraduate/english-programs/english/'
+  },
+  admissions: {
+    platforms: ['Handong Global University online application'],
+    deadlines: [
+      { name: 'International undergraduate admission', kind: 'intake', entryTerm: 'Spring or Fall', entryYear: '2027', date: 'Published in the admission guideline for prospective international students', status: 'not-confirmed', binding: false, appliesTo: 'International applicants', conditions: 'Dates are published in the annual guideline; the 2027 dates were not read during this check', source: 'https://www.handong.edu/eng/admission/undergraduate/application/overview/', verified: '2026-09-23', note: null }
+    ],
+    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    documents: ['School transcripts and graduation certificate', 'English proficiency evidence', 'Documents listed in the admission guideline'],
+    recommendations: null,
+    essay: null,
+    interview: null,
+    notes: ['Scholarship eligibility is limited to applicants who hold a nationality other than Korean and graduated from a high school outside Korea.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: null,
+    note: 'The admission guideline lists the accepted English evidence; the scores were not read during this check.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'unknown', note: 'Admission is by document screening under the international route; the US test-optional classification does not apply.' },
+    act: { policy: 'unknown', note: 'The US test-optional classification does not apply to this admission route.' },
+    otherTests: 'Not confirmed during this check.',
+    internationalQualifications: 'Applicants normally need 12 years of school education completed outside Korea (or an equivalent qualification); Korean universities also set separate rules for applicants of overseas Korean descent.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'Handong publishes tuition by area of study; the figures were not read during this check' },
+    academicYear: '2026–2027',
+    currency: 'KRW',
+    headline: 'Tuition published by area of study',
+    items: [ { label: 'Tuition', text: 'Varies by area of study; published on the Handong tuition page' } ],
+    billedSubtotal: null,
+    totalText: 'Not confirmed — see the official tuition page',
+    note: 'The Cornerstone Scholarship can cover tuition and the dormitory fee for four years.'
+  },
+  scholarships: {
+    fullRide: { available: true, internationalEligible: true, basis: 'merit', covers: { tuition: true, housing: true, meals: false, insurance: false, books: false }, renewable: true, competitiveness: 'Awarded to selected international applicants; the number of awards was not published on the pages read.', howToApply: 'Applied for with the admission application.', note: 'The Cornerstone Scholarship covers 100% of tuition and the dormitory fee for four years, and requires a GPA of at least 3.0 each semester. Food, insurance and personal costs are not included, so it is close to but not literally a full ride.' },
+    merit: [
+      { name: 'Cornerstone Scholarship', amount: '100% of tuition and the dormitory fee for four years', eligibility: 'International applicants holding a non-Korean nationality who graduated from a high school outside Korea', deadline: null, application: 'With the admission application', renewable: true, note: 'A GPA of at least 3.0 each semester is needed to keep it.' },
+      { name: 'Scholarship for Academic Performance', amount: 'Continued tuition support based on GPA and English score', eligibility: 'From the second semester onwards', deadline: null, application: null, renewable: true, note: null }
+    ],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'Scholarships for new international students', url: 'https://www.handong.edu/eng/admission/undergraduate/scholarship/new/' },
+    { label: 'English-taught programmes', url: 'https://www.handong.edu/eng/academics/undergraduate/english-programs/english/' },
+    { label: 'Undergraduate admission overview', url: 'https://www.handong.edu/eng/admission/undergraduate/application/overview/' }
+  ],
+  verification: { level: 'partial', checked: ['English-taught programmes','Cornerstone Scholarship coverage and conditions'], unconfirmed: ['tuition amounts','English scores','2027 dates','application fee'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'gist',
+  name: 'GIST (Gwangju Institute of Science and Technology)',
+  shortName: 'GIST',
+  country: 'kr',
+  city: 'Gwangju',
+  region: 'Gwangju',
+  type: 'National research university (science and engineering)',
+  brand: { c1: '#00539b', c2: '#002b52', initials: 'GIS' },
+  description: 'A national science and engineering institute in Gwangju with a small English-taught undergraduate school, where admitted international students are selected as government-funded scholars.',
+  englishTaught: true,
+  languageOfInstruction: 'English',
+  programs: ['engineering','computer-science','biology','mathematics'],
+  englishTaughtPrograms: ['engineering','computer-science','biology','mathematics'],
+  programNote: 'The undergraduate school takes a small intake and teaches in English, with a broad first year before students choose a major.',
+  links: {
+    website: 'https://www.gist.ac.kr/en/',
+    admissions: 'https://ewww.gist.ac.kr/iadm/main.html',
+    applicationPortal: 'https://ipa.gist.ac.kr/iuadm/',
+    scholarships: 'https://www.gist.ac.kr/iadm/html/sub04/0401.html',
+    cost: 'https://www.gist.ac.kr/iadm/html/sub04/0401.html'
+  },
+  admissions: {
+    platforms: ['GIST international undergraduate application'],
+    deadlines: [
+      { name: 'International undergraduate admission (Fall intake)', kind: 'intake', entryTerm: 'Fall', entryYear: '2027', date: 'Published in the annual admission guideline', status: 'not-confirmed', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'GIST publishes a guideline for each intake; the 2027 dates were not read during this check', source: 'https://ipa.gist.ac.kr/iuadm/img/main/2026_Fall_Undergraduate_Admission_Guideline.pdf', verified: '2026-09-23', note: null }
+    ],
+    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    documents: ['School transcripts and graduation certificate', 'Official English test score unless exempt', 'Documents listed in the admission guideline'],
+    recommendations: null,
+    essay: null,
+    interview: null,
+    notes: ['Applicants from countries without an official English test, or in unavoidable circumstances, can be admitted conditionally and have six months to submit the score.']
+  },
+  english: {
+    ielts: { min: 6.5, recommended: null, note: 'IELTS 6.5 is listed as the minimum accepted English score for international applicants.' },
+    toefl: { min: 80, recommended: null, scales: [{ period: 'pre2026', min: 80, recommended: null }], note: 'TOEFL iBT 80 (or PBT 550) is the published minimum; TOEIC 750 and TEPS 285 are also accepted.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: 'Applicants holding a bachelor degree or higher from a university in Australia, Canada, Ireland, New Zealand, the UK or the USA can be exempted with prior GIST approval.',
+    note: 'Conditional admission is possible where an official test is unavailable, with six months to provide the score.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'unknown', note: 'Admission is by document screening under the international route; the US test-optional classification does not apply, and whether SAT results are accepted was not confirmed here.' },
+    act: { policy: 'unknown', note: 'The US test-optional classification does not apply to this admission route.' },
+    otherTests: 'Not confirmed during this check.',
+    internationalQualifications: 'Applicants normally need 12 years of school education completed outside Korea, or an equivalent qualification.'
+  },
+  costs: {
+    breakdown: { tuition: 7214000, includes: 'tuition of ₩3,607,000 per semester, which GIST states is fully supported for admitted international students; a one-time matriculation fee of ₩680,000 applies to new students unless exempt' },
+    academicYear: '2026–2027',
+    currency: 'KRW',
+    headline: '₩3,607,000 tuition per semester — fully supported',
+    items: [
+      { label: 'Tuition (per semester)', amount: 3607000 },
+      { label: 'Matriculation fee (one-time, new students)', amount: 680000 }
+    ],
+    billedSubtotal: null,
+    totalText: '₩7,214,000 a year in tuition, which GIST states is fully supported for admitted international students',
+    note: 'Full tuition support does not cover housing, food or personal costs.'
+  },
+  scholarships: {
+    fullRide: { available: false, internationalEligible: true, basis: 'merit', covers: { tuition: true, housing: false, meals: false, insurance: false, books: false }, renewable: true, competitiveness: 'GIST states that all admitted international undergraduates are selected as government-funded scholars.', howToApply: 'Applied through the admission process.', note: 'Tuition is fully supported and supplementary scholarships exist, but housing, food and personal costs are not confirmed as covered, so this is not stated as a full ride.' },
+    merit: [ { name: 'Government-funded scholar status for admitted international undergraduates', amount: 'Full tuition support (₩3,607,000 per semester)', eligibility: 'All admitted international undergraduate students', deadline: null, application: 'Automatic on admission', renewable: true, note: 'GIST also lists supplementary scholarships.' } ],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'GIST scholarships and financial support', url: 'https://www.gist.ac.kr/iadm/html/sub04/0401.html' },
+    { label: '2026 Fall undergraduate admission guideline (PDF)', url: 'https://ipa.gist.ac.kr/iuadm/img/main/2026_Fall_Undergraduate_Admission_Guideline.pdf' },
+    { label: 'International admissions', url: 'https://ewww.gist.ac.kr/iadm/main.html' }
+  ],
+  verification: { level: 'partial', checked: ['English requirements and exemptions','tuition and its support','matriculation fee'], unconfirmed: ['2027 application dates','application fee','what scholarships cover beyond tuition'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'inha-university',
+  name: 'Inha University',
+  shortName: 'Inha',
+  country: 'kr',
+  city: 'Incheon',
+  region: 'Incheon',
+  type: 'Private research university',
+  brand: { c1: '#00437b', c2: '#00223f', initials: 'INH' },
+  description: 'A private university in Incheon with engineering, logistics and business strengths and admission scholarships for international students based on English or Korean test scores.',
+  englishTaught: false,
+  languageOfInstruction: 'Korean and English depending on the programme',
+  programs: ['engineering','business','computer-science','economics','social-sciences','biology'],
+  englishTaughtPrograms: [],
+  programNote: 'Inha teaches in both Korean and English; whether a full bachelor can be completed in English was not confirmed during this check, so applicants should check the programme they want.',
+  links: {
+    website: 'https://eng.inha.ac.kr/eng/',
+    admissions: 'https://internationalcenter.inha.ac.kr/',
+    applicationPortal: 'https://internationalcenter.inha.ac.kr/',
+    scholarships: 'https://internationalcenter.inha.ac.kr/internationalcenter/9987/subview.do',
+    cost: 'https://internationalcenter.inha.ac.kr/internationalcenter/9988/subview.do'
+  },
+  admissions: {
+    platforms: ['Inha University international student application'],
+    deadlines: [
+      { name: 'Undergraduate international student admission (Fall intake)', kind: 'intake', entryTerm: 'Fall', entryYear: '2027', date: 'Published in the admission guideline', status: 'not-confirmed', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'Inha publishes a guideline for each intake; the 2027 dates were not read during this check', source: 'https://internationalcenter.inha.ac.kr/', verified: '2026-09-23', note: null }
+    ],
+    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    documents: ['School transcripts and graduation certificate', 'Language test certificates (English or Korean) submitted before admission if used for a scholarship', 'Documents listed in the admission guideline'],
+    recommendations: null,
+    essay: null,
+    interview: null,
+    notes: ['Admission scholarships are decided only after the language certificates are submitted before admission and the documents are screened.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: null,
+    note: 'TOEFL and IELTS scores are used both for admission and to decide admission scholarships; the thresholds were not read during this check.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'unknown', note: 'Admission is by document screening under the international route; the US test-optional classification does not apply, and whether SAT results are accepted was not confirmed here.' },
+    act: { policy: 'unknown', note: 'The US test-optional classification does not apply to this admission route.' },
+    otherTests: 'Korean language test scores can be used instead of English for some scholarships.',
+    internationalQualifications: 'Applicants normally need 12 years of school education completed outside Korea, or an equivalent qualification.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'Inha publishes tuition and fees for international students on its international centre pages; the figures were not read during this check' },
+    academicYear: '2026–2027',
+    currency: 'KRW',
+    headline: 'Tuition published on the international centre pages',
+    items: [ { label: 'Tuition and fees', text: 'Published by the international centre; not read during this check' } ],
+    billedSubtotal: null,
+    totalText: 'Not confirmed — see the official tuition page',
+    note: 'Living costs in Incheon are extra.'
+  },
+  scholarships: {
+    fullRide: { available: null, internationalEligible: null, basis: 'merit', covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Inha offers admission scholarships of one, two or four years based on TOEFL or IELTS scores; the percentages were not read during this check.' },
+    merit: [
+      { name: 'Admission scholarship based on English test scores', amount: 'One, two or four years of support, depending on the score', eligibility: 'International applicants who submit qualifying TOEFL or IELTS results before admission', deadline: 'Certificates must be submitted before admission', application: 'Through the admission process', renewable: null, note: null },
+      { name: 'Jungseok International Scholarship', amount: 'Not confirmed during this check', eligibility: 'Awarded on Korean or English language proficiency test scores', deadline: null, application: null, renewable: null, note: null }
+    ],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'Scholarships for international students', url: 'https://internationalcenter.inha.ac.kr/internationalcenter/9987/subview.do' },
+    { label: 'Tuition and fees', url: 'https://internationalcenter.inha.ac.kr/internationalcenter/9988/subview.do' },
+    { label: 'Jungseok International Scholarship', url: 'https://internationalcenter.inha.ac.kr/internationalcenter/9993/subview.do' }
+  ],
+  verification: { level: 'partial', checked: ['scholarship structure (score-based)','international admission route'], unconfirmed: ['whether a full bachelor is available in English','tuition amounts','English score thresholds','deadlines'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'sogang-university',
+  name: 'Sogang University',
+  shortName: 'Sogang',
+  country: 'kr',
+  city: 'Seoul',
+  region: 'Seoul',
+  type: 'Private Jesuit research university',
+  brand: { c1: '#8b1e3f', c2: '#4a0f21', initials: 'SOG' },
+  description: 'A private Jesuit university in Seoul, strong in economics, business and humanities, that teaches undergraduate courses in both Korean and English and admits international students in a late-autumn round.',
+  englishTaught: false,
+  languageOfInstruction: 'Korean and English',
+  programs: ['economics','business','humanities','social-sciences','computer-science','engineering'],
+  englishTaughtPrograms: [],
+  programNote: 'Sogang states that undergraduate programmes are delivered in Korean and English; whether a specific degree can be completed entirely in English was not confirmed during this check.',
+  links: {
+    website: 'https://wwwe.sogang.ac.kr/wwwe/index.html',
+    admissions: 'https://wwwe.sogang.ac.kr/wwwe/admissionprograms.html',
+    applicationPortal: 'https://admission.sogang.ac.kr/',
+    scholarships: 'https://wwwe.sogang.ac.kr/wwwe/scholarships_01.html',
+    cost: 'https://wwwe.sogang.ac.kr/wwwe/admissionprograms.html'
+  },
+  admissions: {
+    platforms: ['Sogang international student application'],
+    deadlines: [
+      { name: 'International undergraduate admission round', kind: 'intake', entryTerm: 'Spring', entryYear: '2027', date: 'Applications generally fall between November and December', status: 'not-confirmed', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'Sogang states that application deadlines fall between November and December; the exact 2027 dates were not read during this check', source: 'https://wwwe.sogang.ac.kr/wwwe/admissionprograms.html', verified: '2026-09-23', note: null }
+    ],
+    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    documents: ['School transcripts and graduation certificate', 'Language proficiency certificates submitted during the application period', 'Documents listed in the admissions guide'],
+    recommendations: null,
+    essay: null,
+    interview: null,
+    notes: ['Language certificates must be submitted during the application period if they are to count for the scholarship.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: null,
+    note: 'Sogang uses both English and Korean proficiency evidence in its international admission and scholarship decisions.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'unknown', note: 'Admission is by document screening under the international route; the US test-optional classification does not apply, and whether SAT results are accepted was not confirmed here.' },
+    act: { policy: 'unknown', note: 'The US test-optional classification does not apply to this admission route.' },
+    otherTests: 'Korean proficiency (TOPIK) is used alongside English evidence.',
+    internationalQualifications: 'Applicants normally need 12 years of school education completed outside Korea, or an equivalent qualification.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'Sogang publishes tuition per school and programme; the figures were not read during this check' },
+    academicYear: '2026–2027',
+    currency: 'KRW',
+    headline: 'Tuition published per school and programme',
+    items: [ { label: 'Tuition', text: 'Varies by school and programme; published in the admissions materials' } ],
+    billedSubtotal: null,
+    totalText: 'Not confirmed — see the official admissions pages',
+    note: 'Living costs in Seoul are extra.'
+  },
+  scholarships: {
+    fullRide: { available: false, internationalEligible: false, basis: null, covers: { tuition: false, housing: false, meals: false, insurance: false, books: false }, renewable: null, competitiveness: null, howToApply: null, note: 'The confirmed award is a partial first-semester tuition reduction.' },
+    merit: [ { name: 'Language proficiency scholarship', amount: '20% of the first-semester tuition fee', eligibility: 'International students who meet the conditions for both English and Korean proficiency', deadline: 'Certificates must be submitted during the application period', application: 'With the admission application', renewable: false, note: null } ],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'Undergraduate programmes for international students', url: 'https://wwwe.sogang.ac.kr/wwwe/admissionprograms.html' },
+    { label: 'Scholarships', url: 'https://wwwe.sogang.ac.kr/wwwe/scholarships_01.html' }
+  ],
+  verification: { level: 'partial', checked: ['application window (approximate)','language scholarship value'], unconfirmed: ['fully English-taught degrees','tuition amounts','English score thresholds','exact deadlines'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'chung-ang-university',
+  name: 'Chung-Ang University',
+  shortName: 'Chung-Ang',
+  country: 'kr',
+  city: 'Seoul',
+  region: 'Seoul',
+  type: 'Private research university',
+  brand: { c1: '#00205b', c2: '#001133', initials: 'CAU' },
+  description: 'A large private university in Seoul with strong media, business and engineering faculties and a dedicated international admissions office.',
+  englishTaught: false,
+  languageOfInstruction: 'Korean and English depending on the programme',
+  programs: ['business','engineering','computer-science','arts','social-sciences','economics','psychology'],
+  englishTaughtPrograms: [],
+  programNote: 'Chung-Ang teaches mostly in Korean with English-taught courses in some departments; a fully English-taught bachelor was not confirmed during this check.',
+  links: {
+    website: 'https://neweng.cau.ac.kr/',
+    admissions: 'https://neweng.cau.ac.kr/cms/FR_CON/index.do?MENU_ID=410',
+    applicationPortal: 'https://neweng.cau.ac.kr/cms/FR_CON/index.do?MENU_ID=540',
+    scholarships: 'https://neweng.cau.ac.kr/cms/FR_CON/index.do?MENU_ID=550&CONTENTS_NO=2',
+    cost: 'https://neweng.cau.ac.kr/cms/FR_CON/index.do?MENU_ID=410'
+  },
+  admissions: {
+    platforms: ['Chung-Ang University online application for international students'],
+    deadlines: [
+      { name: 'International undergraduate admission', kind: 'intake', entryTerm: 'Spring or Fall', entryYear: '2027', date: 'Published in the admission guideline', status: 'not-confirmed', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'The university publishes an admission guide for each intake; the 2027 dates were not read during this check', source: 'https://neweng.cau.ac.kr/cms/FR_CON/index.do?MENU_ID=410', verified: '2026-09-23', note: null }
+    ],
+    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    documents: ['School transcripts and graduation certificate', 'Language proficiency evidence', 'Documents listed in the admission guide'],
+    recommendations: null,
+    essay: null,
+    interview: null,
+    notes: ['Scholarship decisions are made within the university budget, with the strongest applicants chosen on grade average and admission results.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: null,
+    note: 'Language requirements are set in the admission guide, which was not read during this check.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'unknown', note: 'Admission is by document screening under the international route; the US test-optional classification does not apply, and whether SAT results are accepted was not confirmed here.' },
+    act: { policy: 'unknown', note: 'The US test-optional classification does not apply to this admission route.' },
+    otherTests: 'Korean proficiency (TOPIK) is commonly used for Korean-taught programmes.',
+    internationalQualifications: 'Applicants normally need 12 years of school education completed outside Korea, or an equivalent qualification.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'Chung-Ang publishes tuition in its admission materials; the figures were not read during this check' },
+    academicYear: '2026–2027', currency: 'KRW', headline: 'Tuition published in the admission materials',
+    items: [ { label: 'Tuition', text: 'Published per college in the admission materials' } ],
+    billedSubtotal: null, totalText: 'Not confirmed — see the official admission pages',
+    note: 'Living costs in Seoul are extra.'
+  },
+  scholarships: {
+    fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
+    merit: [],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'Undergraduate admission', url: 'https://neweng.cau.ac.kr/cms/FR_CON/index.do?MENU_ID=410' },
+    { label: 'Scholarship and benefits', url: 'https://neweng.cau.ac.kr/cms/FR_CON/index.do?MENU_ID=550&CONTENTS_NO=2' },
+    { label: 'Office of International Affairs', url: 'https://oia.cau.ac.kr/sub06/sub03_2.php' }
+  ],
+  verification: { level: 'partial', checked: ['international admission route exists','scholarship selection basis'], unconfirmed: ['English-taught degrees','tuition','language score requirements','deadlines'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'hufs',
+  name: 'Hankuk University of Foreign Studies',
+  shortName: 'HUFS',
+  country: 'kr',
+  city: 'Seoul',
+  region: 'Seoul',
+  type: 'Private university (languages and international studies)',
+  brand: { c1: '#003f87', c2: '#002145', initials: 'HUF' },
+  description: 'A private Seoul university specialising in languages, area studies and international affairs, with English-taught departments such as English for International Communication and Conferences.',
+  englishTaught: false,
+  languageOfInstruction: 'Korean and English; some departments teach in English',
+  programs: ['humanities','social-sciences','business','economics','law'],
+  englishTaughtPrograms: [],
+  programNote: 'HUFS states that a range of courses is taught in English and names departments such as EICC and ELLT, but also that not all departments offer English-taught courses, so a fully English bachelor should be confirmed per department.',
+  links: {
+    website: 'https://www.hufs.ac.kr/',
+    admissions: 'https://international.hufs.ac.kr/',
+    applicationPortal: 'https://international.hufs.ac.kr/',
+    scholarships: 'https://international.hufs.ac.kr/',
+    cost: 'https://international.hufs.ac.kr/'
+  },
+  admissions: {
+    platforms: ['HUFS international admissions application'],
+    deadlines: [
+      { name: 'International undergraduate admission', kind: 'intake', entryTerm: 'Fall', entryYear: '2027', date: 'Published in the admission guideline', status: 'not-confirmed', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'The university publishes an admission guide for each intake; the 2027 dates were not read during this check', source: 'https://international.hufs.ac.kr/', verified: '2026-09-23', note: null }
+    ],
+    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    documents: ['School transcripts and graduation certificate', 'Proof that neither biological parent nor legal guardian holds Korean citizenship', 'Language proficiency evidence'],
+    recommendations: null,
+    essay: null,
+    interview: null,
+    notes: ['Eligibility requires that both biological parents, or the current legal guardians, are not Korean citizens.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: null,
+    note: 'Requirements are set in the annual admission guide, which was not read during this check.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'unknown', note: 'Admission is by document screening under the international route; the US test-optional classification does not apply, and whether SAT results are accepted was not confirmed here.' },
+    act: { policy: 'unknown', note: 'The US test-optional classification does not apply to this admission route.' },
+    otherTests: 'TOPIK is used for Korean-taught programmes.',
+    internationalQualifications: 'Applicants normally need 12 years of school education completed outside Korea, or an equivalent qualification.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'HUFS publishes tuition and waiver rules in its admission guide; the amounts were not read during this check' },
+    academicYear: '2026–2027', currency: 'KRW', headline: 'Tuition published in the admission guide',
+    items: [
+      { label: 'Tuition', text: 'Published in the annual admission guide' },
+      { label: 'Tuition waiver', text: 'Fully waived during regular semesters for students majoring or minoring in Korean-related or East Asian studies; partially waived for other fields' }
+    ],
+    billedSubtotal: null, totalText: 'Not confirmed — see the official admission guide',
+    note: 'The waiver rule means the real cost depends heavily on the chosen major.'
+  },
+  scholarships: {
+    fullRide: { available: false, internationalEligible: false, basis: null, covers: { tuition: true, housing: false, meals: false, insurance: false, books: false }, renewable: null, competitiveness: null, howToApply: null, note: 'A full tuition waiver applies to students majoring or minoring in Korean-related or East Asian studies; it does not cover housing or living costs.' },
+    merit: [ { name: 'Tuition waiver by field of study', amount: 'Full waiver for Korean-related or East Asian studies majors and minors; partial waiver for other fields', eligibility: 'International undergraduate students during regular semesters', deadline: null, application: 'Applied by the university', renewable: null, note: 'Confirmed from the HUFS admission guide summary; the detailed conditions were not read during this check.' } ],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International student services', url: 'https://international.hufs.ac.kr/' },
+    { label: '2026 Fall admission guide (PDF)', url: 'https://international.hufs.ac.kr/sites/international/contents/files/2026fall/HUFS_2026_Fall_Admission_guide(ENG)_update_ver.pdf' },
+    { label: 'English-taught courses', url: 'https://exchange.hufs.ac.kr/Course-Information/How-to-Register/English-taught-Courses' }
+  ],
+  verification: { level: 'partial', checked: ['eligibility rule on citizenship','tuition waiver by field','English-taught departments (partial)'], unconfirmed: ['fully English-taught degrees','tuition amounts','language score requirements','deadlines'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'ajou-university',
+  name: 'Ajou University',
+  shortName: 'Ajou',
+  country: 'kr',
+  city: 'Suwon',
+  region: 'Gyeonggi',
+  type: 'Private research university',
+  brand: { c1: '#0055a5', c2: '#002c56', initials: 'AJU' },
+  description: 'A private research university in Suwon, south of Seoul, with English-track undergraduate admission, published English requirements and a set of entry scholarships for international students.',
+  englishTaught: false,
+  languageOfInstruction: 'Korean and English; an English track exists for international students',
+  programs: ['engineering','business','computer-science','social-sciences','economics','biology'],
+  englishTaughtPrograms: [],
+  programNote: 'Ajou runs English-track admission with its own English requirements; which degrees can be completed fully in English should be checked on the departments page.',
+  links: {
+    website: 'https://www.ajou.ac.kr/iadmissions_en/index.do',
+    admissions: 'https://www.ajou.ac.kr/iadmissions_en/undergraduate/guideline.do',
+    applicationPortal: 'https://www.ajou.ac.kr/iadmissions_en/undergraduate/guideline.do',
+    scholarships: 'https://www.ajou.ac.kr/iadmissions_en/undergraduate/scholarship.do',
+    cost: 'https://www.ajou.ac.kr/iadmissions_en/undergraduate/tuition.do',
+    programs: 'https://www.ajou.ac.kr/iadmissions_en/undergraduate/major.do'
+  },
+  admissions: {
+    platforms: ['Ajou international admissions online application'],
+    deadlines: [
+      { name: 'International undergraduate admission', kind: 'intake', entryTerm: 'Spring or Fall', entryYear: '2027', date: 'Published in the eligibility and admission schedule page', status: 'not-confirmed', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'Ajou publishes an admission schedule for each intake; the 2027 dates were not read during this check', source: 'https://www.ajou.ac.kr/iadmissions_en/undergraduate/qualification.do', verified: '2026-09-23', note: null }
+    ],
+    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    documents: ['School transcripts and graduation certificate', 'Official English test score for the English track', 'Documents listed in the admission guideline'],
+    recommendations: null,
+    essay: null,
+    interview: null,
+    notes: ['Continuing students need at least 12 credits in the previous semester and a GPA of 2.0 or above to keep a scholarship.']
+  },
+  english: {
+    ielts: { min: 6.5, recommended: null, note: 'IELTS 6.5 is the published requirement for the English track (TOEFL iBT 80 or an equivalent official test is also accepted).' },
+    toefl: { min: 80, recommended: null, scales: [{ period: 'pre2026', min: 80, recommended: null }], note: 'TOEFL iBT 80 is the published English-track requirement.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: null,
+    note: 'English-track entry scholarships are decided on TOEFL, IELTS or an equivalent official score.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'unknown', note: 'Admission is by document screening under the international route; the US test-optional classification does not apply, and whether SAT results are accepted was not confirmed here.' },
+    act: { policy: 'unknown', note: 'The US test-optional classification does not apply to this admission route.' },
+    otherTests: 'TOPIK is used for Korean-taught routes.',
+    internationalQualifications: 'Applicants normally need 12 years of school education completed outside Korea, or an equivalent qualification.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'Ajou publishes tuition for international undergraduates on its admissions site; the figures were not read during this check' },
+    academicYear: '2026–2027', currency: 'KRW', headline: 'Tuition published on the international admissions site',
+    items: [ { label: 'Tuition', text: 'Published per college on the Ajou international admissions tuition page' } ],
+    billedSubtotal: null, totalText: 'Not confirmed — see the official tuition page',
+    note: 'Living costs in Suwon are lower than in central Seoul but are extra.'
+  },
+  scholarships: {
+    fullRide: { available: null, internationalEligible: null, basis: 'merit', covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: true, competitiveness: null, howToApply: 'Entry scholarships are decided with admission; continuing awards depend on credits and GPA.', note: 'Ajou Global Scholarships 1–4 apply to entering students; the percentage each covers was not read during this check.' },
+    merit: [ { name: 'Ajou Global Scholarships 1–4', amount: 'Not confirmed during this check', eligibility: 'Students entering in their first semester; English-track awards are based on TOEFL, IELTS or an equivalent score', deadline: null, application: 'With the admission application', renewable: true, note: 'Continuing students need 12+ credits and a GPA of 2.0 or above.' } ],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'Scholarships for international undergraduates', url: 'https://www.ajou.ac.kr/iadmissions_en/undergraduate/scholarship.do' },
+    { label: 'Tuition and fees', url: 'https://www.ajou.ac.kr/iadmissions_en/undergraduate/tuition.do' },
+    { label: 'Eligibility and admission schedule', url: 'https://www.ajou.ac.kr/iadmissions_en/undergraduate/qualification.do' }
+  ],
+  verification: { level: 'partial', checked: ['English-track English requirements','scholarship structure and renewal rules'], unconfirmed: ['tuition amounts','which degrees are fully English-taught','deadlines','scholarship values'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'konkuk-university',
+  name: 'Konkuk University',
+  shortName: 'Konkuk',
+  country: 'kr',
+  city: 'Seoul',
+  region: 'Seoul',
+  type: 'Private research university',
+  brand: { c1: '#00693c', c2: '#00381f', initials: 'KON' },
+  description: 'A large private university in Seoul with a second campus in Chungju. It teaches more than 500 courses in English each semester and offers tuition waivers of 40–100% to students who keep good academic standing.',
+  englishTaught: false,
+  languageOfInstruction: 'Korean and English; more than 500 courses a semester are taught in English',
+  programs: ['business','engineering','computer-science','arts','social-sciences','biology','economics'],
+  englishTaughtPrograms: [],
+  programNote: 'Konkuk states that over 500 courses are taught in English each semester, but a complete English-taught bachelor was not confirmed during this check.',
+  links: {
+    website: 'https://en.konkuk.ac.kr/',
+    admissions: 'https://ciss.konkuk.ac.kr/ciss/18391/subview.do',
+    applicationPortal: 'https://ciss.konkuk.ac.kr/ciss/18391/subview.do',
+    scholarships: 'https://ciss.konkuk.ac.kr/ciss/18391/subview.do',
+    cost: 'https://ciss.konkuk.ac.kr/ciss/18391/subview.do'
+  },
+  admissions: {
+    platforms: ['Konkuk international student application'],
+    deadlines: [
+      { name: 'Undergraduate admission for international students (Fall 2026 guideline published)', kind: 'intake', entryTerm: 'Fall', entryYear: '2026', date: 'Published in the Fall 2026 admission guidelines', status: 'previous-cycle', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'Konkuk publishes separate spring and fall guidelines; the 2027 dates were not published when this was checked', source: 'https://ciss.konkuk.ac.kr/sites/ciss/files/260205_Fall_Semester_Admission_Guidelines_pc_en.pdf', verified: '2026-09-23', note: null }
+    ],
+    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    documents: ['School transcripts and graduation certificate', 'Language proficiency evidence', 'Documents listed in the admission guidelines'],
+    recommendations: null,
+    essay: null,
+    interview: null,
+    notes: ['Scholarships of 40% to 100% of tuition go to students who pass more than 15 credits and keep good academic standing.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: null,
+    note: 'Language requirements are in the admission guidelines, which were not read during this check.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'unknown', note: 'Admission is by document screening under the international route; the US test-optional classification does not apply, and whether SAT results are accepted was not confirmed here.' },
+    act: { policy: 'unknown', note: 'The US test-optional classification does not apply to this admission route.' },
+    otherTests: 'TOPIK is used for Korean-taught routes.',
+    internationalQualifications: 'Applicants normally need 12 years of school education completed outside Korea, or an equivalent qualification.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'Konkuk publishes tuition in its admission guidelines; the figures were not read during this check' },
+    academicYear: '2026–2027', currency: 'KRW', headline: 'Tuition published in the admission guidelines',
+    items: [ { label: 'Tuition', text: 'Published per college in the admission guidelines' } ],
+    billedSubtotal: null, totalText: 'Not confirmed — see the official guidelines',
+    note: 'Living costs in Seoul are extra.'
+  },
+  scholarships: {
+    fullRide: { available: false, internationalEligible: false, basis: 'merit', covers: { tuition: true, housing: false, meals: false, insurance: false, books: false }, renewable: true, competitiveness: 'A 100% waiver is the top band of a 40–100% scale.', howToApply: 'Awarded on academic results after enrolment.', note: 'Even a 100% tuition waiver leaves housing, food and living costs to the student.' },
+    merit: [ { name: 'Academic tuition waiver', amount: '40% to 100% of tuition', eligibility: 'Students who pass more than 15 credits and keep good academic standing', deadline: null, application: 'Awarded on results', renewable: true, note: null } ],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Konkuk also points to the Korean government scholarship programme.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'International student services and admissions', url: 'https://ciss.konkuk.ac.kr/ciss/18391/subview.do' },
+    { label: 'Fall 2026 undergraduate admission guidelines (PDF)', url: 'https://ciss.konkuk.ac.kr/sites/ciss/files/260205_Fall_Semester_Admission_Guidelines_pc_en.pdf' },
+    { label: 'Undergraduate international students', url: 'https://old.konkuk.ac.kr/eng/jsp/Admissions/undergraduate_international_students.jsp' }
+  ],
+  verification: { level: 'partial', checked: ['English-taught course volume','tuition waiver scale and conditions','previous-cycle guideline'], unconfirmed: ['fully English-taught degrees','tuition amounts','language requirements','2027 dates'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'pusan-national-university',
+  name: 'Pusan National University',
+  shortName: 'PNU',
+  country: 'kr',
+  city: 'Busan',
+  region: 'Busan',
+  type: 'National research university',
+  brand: { c1: '#004c97', c2: '#00294f', initials: 'PNU' },
+  description: "A national university in Busan, one of Korea's largest public universities, with international admission that accepts either Korean or English proficiency evidence and score-based scholarships.",
+  englishTaught: false,
+  languageOfInstruction: 'Korean, with some courses in English',
+  programs: ['engineering','business','humanities','social-sciences','biology','medicine','economics'],
+  englishTaughtPrograms: [],
+  programNote: 'Teaching is mainly in Korean; applicants can submit either Korean (TOPIK) or English proficiency evidence, and should check with the department whether their degree can be taken in English.',
+  links: {
+    website: 'https://www.pusan.ac.kr/eng/Main.do',
+    admissions: 'https://www.pusan.ac.kr/eng/CMS/Contents/Contents.do?mCode=MN013',
+    applicationPortal: 'https://www.pusan.ac.kr/eng/CMS/Contents/Contents.do?mCode=MN013',
+    scholarships: 'https://www.pusan.ac.kr/eng/CMS/Contents/Contents.do?mCode=MN016',
+    cost: 'https://www.pusan.ac.kr/eng/CMS/Contents/Contents.do?mCode=MN016'
+  },
+  admissions: {
+    platforms: ['PNU international student application'],
+    deadlines: [
+      { name: 'Undergraduate admission for international students', kind: 'intake', entryTerm: 'Spring or Fall', entryYear: '2027', date: 'Published in the international admission brochure', status: 'not-confirmed', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'TOPIK applicants submit the test ID slip during the application period and email the result by the stated deadline; the 2027 dates were not read during this check', source: 'https://www.pusan.ac.kr/eng/CMS/Contents/Contents.do?mCode=MN013', verified: '2026-09-23', note: null }
+    ],
+    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    documents: ['School transcripts and graduation certificate', 'Certificate of English or Korean proficiency', 'Documents listed in the admission brochure'],
+    recommendations: null,
+    essay: null,
+    interview: null,
+    notes: ['PNU states that there is no separate application for its honor scholarship: the language certificate submitted with the admission application is reviewed and the award depends on grades.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: null,
+    note: 'Either an English or a Korean proficiency certificate can be submitted with the application.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'unknown', note: 'Admission is by document screening under the international route; the US test-optional classification does not apply, and whether SAT results are accepted was not confirmed here.' },
+    act: { policy: 'unknown', note: 'The US test-optional classification does not apply to this admission route.' },
+    otherTests: 'TOPIK is accepted as the Korean proficiency evidence.',
+    internationalQualifications: 'Applicants normally need 12 years of school education completed outside Korea, or an equivalent qualification.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'PNU publishes tuition in its admission materials; as a national university its fees are lower than most private universities, but the figures were not read during this check' },
+    academicYear: '2026–2027', currency: 'KRW', headline: 'Tuition published in the admission materials',
+    items: [ { label: 'Tuition', text: 'Published per college in the admission materials' } ],
+    billedSubtotal: null, totalText: 'Not confirmed — see the official admission materials',
+    note: 'Living costs in Busan are generally lower than in Seoul.'
+  },
+  scholarships: {
+    fullRide: { available: null, internationalEligible: null, basis: 'merit', covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: 'No separate application: the language certificate submitted with the admission application is reviewed.', note: 'One PNU scholarship pays ₩500,000 a month and can be held alongside grade-based awards; the tuition share was not read during this check.' },
+    merit: [ { name: 'PNU honor scholarship', amount: 'Depends on grades; a separate award pays ₩500,000 a month', eligibility: 'International students who submit a language proficiency certificate with the application', deadline: 'With the admission application', application: 'No separate application', renewable: null, note: null } ],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'Undergraduate admissions', url: 'https://www.pusan.ac.kr/eng/CMS/Contents/Contents.do?mCode=MN013' },
+    { label: 'PNU scholarship programs', url: 'https://www.pusan.ac.kr/eng/CMS/Contents/Contents.do?mCode=MN016' },
+    { label: 'Admissions for international students (PDF brochure)', url: 'https://international.pusan.ac.kr/sites/international/download/brochure/005-Admissons%20For%20International%20Student(English).pdf' }
+  ],
+  verification: { level: 'partial', checked: ['language evidence rule','scholarship process and one award value'], unconfirmed: ['English-taught degrees','tuition amounts','score thresholds','deadlines'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'dgist',
+  name: 'DGIST (Daegu Gyeongbuk Institute of Science and Technology)',
+  shortName: 'DGIST',
+  country: 'kr',
+  city: 'Daegu',
+  region: 'Daegu',
+  type: 'National research institute with an undergraduate school',
+  brand: { c1: '#00426a', c2: '#002236', initials: 'DGI' },
+  description: 'A national science and technology institute in Daegu with a small undergraduate school built around a convergence curriculum, and scholarships that can waive tuition in full.',
+  englishTaught: false,
+  languageOfInstruction: 'Korean and English; DGIST runs global programmes in English',
+  programs: ['engineering','computer-science','biology','mathematics'],
+  englishTaughtPrograms: [],
+  programNote: 'DGIST describes itself as a convergence university with a single undergraduate school; how much of the degree is taught in English was not confirmed during this check.',
+  links: {
+    website: 'https://www.dgist.ac.kr/eng/',
+    admissions: 'https://www.dgist.ac.kr/iuadm/index.do',
+    applicationPortal: 'https://www.dgist.ac.kr/iuadm/index.do',
+    scholarships: 'https://ibom.dgist.ac.kr/iuadm/sub04_01.do',
+    cost: 'https://www.dgist.ac.kr/eng/sub05_03_02_02.do',
+    programs: 'https://www.dgist.ac.kr/en_college/sub06_05.do'
+  },
+  admissions: {
+    platforms: ['DGIST international undergraduate application'],
+    deadlines: [
+      { name: 'International undergraduate admission', kind: 'intake', entryTerm: 'Spring or Fall', entryYear: '2027', date: 'Published in the admission guide', status: 'not-confirmed', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'The university publishes an admission guide for each intake; the 2027 dates were not read during this check', source: 'https://www.dgist.ac.kr/iuadm/sub03_01.do', verified: '2026-09-23', note: null }
+    ],
+    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    documents: ['School transcripts and graduation certificate', 'Language proficiency evidence', 'Documents listed in the admissions guidebook'],
+    recommendations: null,
+    essay: null,
+    interview: null,
+    notes: ['DGIST states that tuition is fully waived under certain scholarship programmes for undergraduates.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: null,
+    note: 'Requirements are in the admissions guidebook, which was not read during this check.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'unknown', note: 'Admission is by document screening under the international route; the US test-optional classification does not apply, and whether SAT results are accepted was not confirmed here.' },
+    act: { policy: 'unknown', note: 'The US test-optional classification does not apply to this admission route.' },
+    otherTests: 'Not confirmed during this check.',
+    internationalQualifications: 'Applicants normally need 12 years of school education completed outside Korea, or an equivalent qualification.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'tuition is published in the admission guide; the figures were not read during this check' },
+    academicYear: '2026–2027', currency: 'KRW', headline: 'Tuition published in the admission guide',
+    items: [ { label: 'Tuition', text: 'Published per college in the admission guide' } ],
+    billedSubtotal: null, totalText: 'Not confirmed — see the official admission guide',
+    note: 'DGIST states that tuition is fully waived under certain scholarship programmes; housing and living costs remain.'
+  },
+  scholarships: {
+    fullRide: { available: null, internationalEligible: null, basis: 'merit', covers: { tuition: true, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: 'Through the admission and student support pages.', note: 'DGIST states that tuition is fully waived under certain scholarship programmes; whether housing and living costs are covered was not confirmed here.' },
+    merit: [], needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'DGIST international undergraduate admissions', url: 'https://www.dgist.ac.kr/iuadm/index.do' },
+    { label: 'Scholarships and student support', url: 'https://ibom.dgist.ac.kr/iuadm/sub04_01.do' },
+    { label: 'Undergraduate financial aid and scholarships', url: 'https://www.dgist.ac.kr/eng/sub05_03_02_02.do' }
+  ],
+  verification: { level: 'partial', checked: ['international undergraduate route','existence of full tuition waivers'], unconfirmed: ['language of instruction share','tuition amounts','English requirements','deadlines'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'sejong-university',
+  name: 'Sejong University',
+  shortName: 'Sejong',
+  country: 'kr',
+  city: 'Seoul',
+  region: 'Seoul',
+  type: 'Private research university',
+  brand: { c1: '#00539f', c2: '#002b52', initials: 'SEJ' },
+  description: 'A private university in eastern Seoul with an English-track route for international students, free Korean classes and a dormitory reserved for international students.',
+  englishTaught: false,
+  languageOfInstruction: 'Korean and English; an English track exists for international students',
+  programs: ['business','engineering','computer-science','arts','social-sciences','economics'],
+  englishTaughtPrograms: [],
+  programNote: 'Sejong runs an English track whose students take preparatory courses in mathematics, statistics and Python; whether a full degree can be completed in English was not confirmed during this check.',
+  links: {
+    website: 'https://en.sejong.ac.kr/eng/index.do',
+    admissions: 'https://en.sejong.ac.kr/eng/academics/Undergraduate_School.do',
+    applicationPortal: 'https://en.sejong.ac.kr/eng/academics/Undergraduate_School.do',
+    scholarships: 'https://eng.sejong.ac.kr/contents/eng/cor/scholarships.html',
+    cost: 'https://eng.sejong.ac.kr/contents/eng/cor/scholarships.html'
+  },
+  admissions: {
+    platforms: ['Sejong University international admissions'],
+    deadlines: [
+      { name: 'Undergraduate admission for international students (2026 Fall guide published)', kind: 'intake', entryTerm: 'Fall', entryYear: '2026', date: 'Published in the 2026 Fall admission guide', status: 'previous-cycle', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'Sejong publishes separate spring and autumn guides; the 2027 dates were not published when this was checked', source: 'https://sos.sejong.ac.kr/pdf/409094/2026%%ED%%95%%99%%EB%%85%%84%%20%%ED%%9B%%84%%EA%%B8%%B0%%20%%ED%%95%%99%%EB%%B6%%80%%20%%EC%%A0%%95%%EC%%9B%%90%%EC%%99%%B8%%20%%EC%%99%%B8%%EA%%B5%%AD%%EC%%9D%%B8%%20%%EB%%AA%%A8%%EC%%A7%%91%%EC%%9A%%94%%EA%%B0%%95%%20(%%EC%%98%%81%%EB%%AC%%B8)_2026.03.12.pdf', verified: '2026-09-23', note: null }
+    ],
+    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    documents: ['School transcripts and graduation certificate', 'Language proficiency evidence', 'Documents listed in the admission guide'],
+    recommendations: null,
+    essay: null,
+    interview: null,
+    notes: ['The international dormitory holds about 150 students and costs roughly US$1,200 for six months.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: null,
+    note: 'Language scholarships are awarded on admission and continue at the same percentage while the previous semester GPA is 3.5 or higher.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'unknown', note: 'Admission is by document screening under the international route; the US test-optional classification does not apply, and whether SAT results are accepted was not confirmed here.' },
+    act: { policy: 'unknown', note: 'The US test-optional classification does not apply to this admission route.' },
+    otherTests: 'Free after-school Korean classes are offered to international students.',
+    internationalQualifications: 'Applicants normally need 12 years of school education completed outside Korea, or an equivalent qualification.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'tuition is published in the admission guide; the figures were not read during this check' },
+    academicYear: '2026–2027', currency: 'KRW', headline: 'Tuition published in the admission guide',
+    items: [ { label: 'Tuition', text: 'Published per college in the admission guide' } ],
+    billedSubtotal: null, totalText: 'Not confirmed — see the official admission guide',
+    note: 'The international dormitory costs about US$1,200 for six months.'
+  },
+  scholarships: {
+    fullRide: { available: false, internationalEligible: false, basis: 'merit', covers: { tuition: false, housing: false, meals: false, insurance: false, books: false }, renewable: true, competitiveness: null, howToApply: 'Language scholarships are decided on admission.', note: 'The confirmed awards are partial tuition scholarships rather than full funding.' },
+    merit: [ { name: 'Language scholarship continuation', amount: 'The same percentage of tuition as the entry award', eligibility: 'Students who keep a previous-semester GPA of 3.5 or higher', deadline: null, application: 'Continues automatically while the GPA condition is met', renewable: true, note: null } ],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'Scholarships', url: 'https://eng.sejong.ac.kr/contents/eng/cor/scholarships.html' },
+    { label: 'Undergraduate school', url: 'https://en.sejong.ac.kr/eng/academics/Undergraduate_School.do' },
+    { label: 'Undergraduate admission guide for international students (PDF)', url: 'https://sos.sejong.ac.kr/pdf/409094/' }
+  ],
+  verification: { level: 'partial', checked: ['English track exists','scholarship continuation rule','dormitory cost'], unconfirmed: ['fully English-taught degrees','tuition amounts','English score requirements','2027 dates'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'kyungpook-national-university',
+  name: 'Kyungpook National University',
+  shortName: 'KNU',
+  country: 'kr',
+  city: 'Daegu',
+  region: 'Daegu',
+  type: 'National research university',
+  brand: { c1: '#00447c', c2: '#00233f', initials: 'KNU' },
+  description: 'A large national university in Daegu whose international undergraduate scholarships are tied to Korean language level, with a full first-semester tuition scholarship for TOPIK level 6.',
+  englishTaught: false,
+  languageOfInstruction: 'Korean, with some courses in English',
+  programs: ['engineering','business','humanities','social-sciences','biology','medicine','economics'],
+  englishTaughtPrograms: [],
+  programNote: 'KNU teaches mainly in Korean and rewards Korean proficiency with scholarships; English-medium degree options were not confirmed during this check.',
+  links: {
+    website: 'https://en.knu.ac.kr/',
+    admissions: 'https://en.knu.ac.kr/admission/foreign01.htm',
+    applicationPortal: 'https://en.knu.ac.kr/admission/foreign01.htm',
+    scholarships: 'https://en.knu.ac.kr/admission/foreign03.htm',
+    cost: 'https://en.knu.ac.kr/admission/foreign03.htm'
+  },
+  admissions: {
+    platforms: ['KNU international student application'],
+    deadlines: [
+      { name: 'International undergraduate admission', kind: 'intake', entryTerm: 'Spring or Fall', entryYear: '2027', date: 'Published in the admission guide', status: 'not-confirmed', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'The university publishes an admission guide for each intake; the 2027 dates were not read during this check', source: 'https://en.knu.ac.kr/admission/foreign01.htm', verified: '2026-09-23', note: null }
+    ],
+    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    documents: ['School transcripts and graduation certificate', 'TOPIK certificate where used for a scholarship', 'Documents listed in the admission guide'],
+    recommendations: null,
+    essay: null,
+    interview: null,
+    notes: ['Only one language scholarship can be held: either the TOPIK scholarship or the Korean Language Program scholarship.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: null,
+    note: 'KNU publishes scholarship levels for Korean proficiency (TOPIK) rather than English; English requirements were not confirmed here.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'unknown', note: 'Admission is by document screening under the international route; the US test-optional classification does not apply, and whether SAT results are accepted was not confirmed here.' },
+    act: { policy: 'unknown', note: 'The US test-optional classification does not apply to this admission route.' },
+    otherTests: 'TOPIK level decides the size of the entry scholarship.',
+    internationalQualifications: 'Applicants normally need 12 years of school education completed outside Korea, or an equivalent qualification.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'tuition is published in the admission guide; the figures were not read during this check' },
+    academicYear: '2026–2027', currency: 'KRW', headline: 'Tuition published in the admission guide',
+    items: [ { label: 'Tuition', text: 'Published per college in the admission guide' } ],
+    billedSubtotal: null, totalText: 'Not confirmed — see the official admission guide',
+    note: 'The size of the first-semester scholarship depends on the TOPIK level, so the real first-year cost varies widely.'
+  },
+  scholarships: {
+    fullRide: { available: false, internationalEligible: false, basis: 'merit', covers: { tuition: true, housing: false, meals: false, insurance: false, books: false }, renewable: false, competitiveness: 'A 100% award requires TOPIK level 6.', howToApply: 'Submit the TOPIK certificate with the application.', note: 'Even the top award covers the first semester of tuition only, not housing or living costs.' },
+    merit: [
+      { name: 'TOPIK scholarship', amount: '16–20% of tuition for level 3, 40–42% for level 4, 80–84% for level 5 and 100% for level 6', eligibility: 'International undergraduate applicants with a TOPIK certificate', deadline: 'With the admission application', application: 'With the admission application', renewable: false, note: 'Covers the first semester.' },
+      { name: 'KNU Korean Language Program scholarship', amount: '16–20% of first-semester tuition', eligibility: 'Students who complete two semesters of the KNU Korean Language Program', deadline: null, application: null, renewable: false, note: 'Cannot be combined with the TOPIK scholarship.' }
+    ],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'Admission for international students', url: 'https://en.knu.ac.kr/admission/foreign01.htm' },
+    { label: 'Admission guide for undergraduate international students', url: 'https://en.knu.ac.kr/~eng/admission/foreign03.htm' },
+    { label: 'KNU fact sheet 2026–2027 (PDF)', url: 'https://en.knu.ac.kr/download/KNU%20Fact%20Sheet%202026-2027.pdf' }
+  ],
+  verification: { level: 'partial', checked: ['scholarship scale by TOPIK level','exclusivity of the two language scholarships'], unconfirmed: ['English-taught degrees','tuition amounts','English requirements','2027 dates'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'seoultech',
+  name: 'Seoul National University of Science and Technology',
+  shortName: 'SeoulTech',
+  country: 'kr',
+  city: 'Seoul',
+  region: 'Seoul',
+  type: 'National university of science and technology',
+  brand: { c1: '#0d4a8f', c2: '#072748', initials: 'SET' },
+  description: 'A national technology university in northern Seoul with an International College that combines intensive Korean language teaching with degree programmes such as Global IT Convergence and AI & Media.',
+  englishTaught: false,
+  languageOfInstruction: 'Korean and English; the International College combines Korean language teaching with degree study',
+  programs: ['engineering','computer-science','business','arts','humanities'],
+  englishTaughtPrograms: [],
+  programNote: 'The International College includes the School of Global Basic Education and the School of Global Liberal Studies, with departments such as Global Korean Language & Culture, AI & Media and Global IT Convergence. Intensive Korean is part of the model, so this is not a fully English-taught route.',
+  links: {
+    website: 'https://en.seoultech.ac.kr/',
+    admissions: 'https://global.seoultech.ac.kr/apply/undergraduate',
+    applicationPortal: 'https://global.seoultech.ac.kr/apply/undergraduate',
+    scholarships: 'https://en.seoultech.ac.kr/adm/guide/',
+    cost: 'https://en.seoultech.ac.kr/adm/guide/'
+  },
+  admissions: {
+    platforms: ['SeoulTech international undergraduate application'],
+    deadlines: [
+      { name: 'International undergraduate admission', kind: 'intake', entryTerm: 'Spring or Fall', entryYear: '2027', date: 'Published in the admission guide', status: 'not-confirmed', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'The university publishes an admission guide for each intake; the 2027 dates were not read during this check', source: 'https://global.seoultech.ac.kr/apply/undergraduate', verified: '2026-09-23', note: null }
+    ],
+    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    documents: ['School transcripts and graduation certificate', 'Language proficiency evidence', 'Documents listed in the admission guidelines'],
+    recommendations: null,
+    essay: null,
+    interview: null,
+    notes: ['Coordinator professors support international students from admission to graduation.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: null,
+    note: 'Requirements are set in the admission guidelines, which were not read during this check.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'unknown', note: 'Admission is by document screening under the international route; the US test-optional classification does not apply, and whether SAT results are accepted was not confirmed here.' },
+    act: { policy: 'unknown', note: 'The US test-optional classification does not apply to this admission route.' },
+    otherTests: 'Intensive Korean language education is part of the International College programme.',
+    internationalQualifications: 'Applicants normally need 12 years of school education completed outside Korea, or an equivalent qualification.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'tuition is published in the admission guide; the figures were not read during this check' },
+    academicYear: '2026–2027', currency: 'KRW', headline: 'Tuition published in the admission guide',
+    items: [ { label: 'Tuition', text: 'Published per college in the admission guide' } ],
+    billedSubtotal: null, totalText: 'Not confirmed — see the official admission guide',
+    note: 'As a national university, SeoulTech charges lower tuition than most private universities in Seoul.'
+  },
+  scholarships: {
+    fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'SeoulTech lists scholarships for international students in its admission guide; the values were not read during this check.' },
+    merit: [], needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'Undergraduate admission for international students', url: 'https://global.seoultech.ac.kr/apply/undergraduate' },
+    { label: 'Admission guide', url: 'https://en.seoultech.ac.kr/adm/guide/' },
+    { label: 'Undergraduate programmes', url: 'https://en.seoultech.ac.kr/adm/under/intro' }
+  ],
+  verification: { level: 'partial', checked: ['International College structure and departments'], unconfirmed: ['language of instruction per degree','tuition','scholarship values','deadlines','English requirements'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'dongguk-university',
+  name: 'Dongguk University',
+  shortName: 'Dongguk',
+  country: 'kr',
+  city: 'Seoul',
+  region: 'Seoul',
+  type: 'Private Buddhist-founded university',
+  brand: { c1: '#e35205', c2: '#7a2c02', initials: 'DON' },
+  description: 'A private university in central Seoul founded on Buddhist principles, with an international admission route, a Global Leaders Track for international students and participation in the Global Korea Scholarship.',
+  englishTaught: false,
+  languageOfInstruction: 'Korean and English depending on the programme',
+  programs: ['business','engineering','humanities','social-sciences','arts','economics','law'],
+  englishTaughtPrograms: [],
+  programNote: 'Dongguk runs a Dongguk Global Leaders Track for international students; whether a full bachelor can be taken in English was not confirmed during this check.',
+  links: {
+    website: 'https://www.dongguk.edu/eng/',
+    admissions: 'https://www.dongguk.edu/eng/page/446',
+    applicationPortal: 'https://www.dongguk.edu/eng/page/446',
+    scholarships: 'https://www.dongguk.edu/eng/page/1507',
+    cost: 'https://www.dongguk.edu/eng/page/422'
+  },
+  admissions: {
+    platforms: ['Dongguk international admission application'],
+    deadlines: [
+      { name: 'International undergraduate admission', kind: 'intake', entryTerm: 'Spring or Fall', entryYear: '2027', date: 'Published in the admission guide', status: 'not-confirmed', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'The university publishes an admission guide for each intake; the 2027 dates were not read during this check', source: 'https://www.dongguk.edu/eng/page/446', verified: '2026-09-23', note: null }
+    ],
+    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    documents: ['School transcripts and graduation certificate', 'Language proficiency evidence', 'Documents listed in the admission guide'],
+    recommendations: null,
+    essay: null,
+    interview: null,
+    notes: ['Students who already hold a full government or organisational scholarship are excluded from Dongguk university scholarships.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: null,
+    note: 'Requirements are set in the admission guide, which was not read during this check.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'unknown', note: 'Admission is by document screening under the international route; the US test-optional classification does not apply, and whether SAT results are accepted was not confirmed here.' },
+    act: { policy: 'unknown', note: 'The US test-optional classification does not apply to this admission route.' },
+    otherTests: 'TOPIK is used for Korean-taught routes.',
+    internationalQualifications: 'Applicants normally need 12 years of school education completed outside Korea, or an equivalent qualification.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'tuition is published in the admission materials; the figures were not read during this check' },
+    academicYear: '2026–2027', currency: 'KRW', headline: 'Tuition published in the admission materials',
+    items: [ { label: 'Tuition', text: 'Published per college in the admission materials' } ],
+    billedSubtotal: null, totalText: 'Not confirmed — see the official pages',
+    note: 'Dongguk notes that tuition can change with school policy, so the current figure should be confirmed.'
+  },
+  scholarships: {
+    fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: 'Dongguk takes part in the Global Korea Scholarship for undergraduate degrees.', note: 'A GKS award is a Korean government scholarship, not a Dongguk one; students holding a full external scholarship are excluded from the university\'s own awards.' },
+    merit: [], needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'Admission for international students', url: 'https://www.dongguk.edu/eng/page/446' },
+    { label: 'Tuition fee', url: 'https://www.dongguk.edu/eng/page/422' },
+    { label: 'Global Korea Scholarship (undergraduate)', url: 'https://www.dongguk.edu/eng/page/1507' }
+  ],
+  verification: { level: 'partial', checked: ['GKS participation','exclusion rule for externally funded students'], unconfirmed: ['English-taught degrees','tuition amounts','English requirements','deadlines'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'sookmyung-womens-university',
+  name: "Sookmyung Women's University",
+  shortName: 'Sookmyung',
+  country: 'kr',
+  city: 'Seoul',
+  region: 'Seoul',
+  type: "Private women's university",
+  brand: { c1: '#003da5', c2: '#001f52', initials: 'SMU' },
+  description: "A private women's university in Seoul offering more than 150 English-taught courses across Korean studies, international studies, business and economics, with several scholarships for international students.",
+  englishTaught: false,
+  languageOfInstruction: 'Korean and English; over 150 courses a semester are taught in English',
+  programs: ['business','economics','social-sciences','humanities','arts','computer-science'],
+  englishTaughtPrograms: [],
+  programNote: 'Sookmyung offers more than 150 English-taught courses at undergraduate and graduate level, and states that applicants to its English programmes need citizenship of an English-speaking country. It admits women only.',
+  links: {
+    website: 'https://www.sookmyung.ac.kr/en/',
+    admissions: 'https://www.sookmyung.ac.kr/en/admission/undergraduate.do',
+    applicationPortal: 'https://www.sookmyung.ac.kr/en/admission/admission-guide.do',
+    scholarships: 'https://www.sookmyung.ac.kr/en/university-life/foreign-students.do',
+    cost: 'https://www.sookmyung.ac.kr/en/admission/admission-guide.do'
+  },
+  admissions: {
+    platforms: ['Sookmyung international undergraduate application'],
+    deadlines: [
+      { name: 'International undergraduate admission', kind: 'intake', entryTerm: 'Spring or Fall', entryYear: '2027', date: 'Published in the admission guide', status: 'not-confirmed', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'The university publishes an admission guide for each intake; the 2027 dates were not read during this check', source: 'https://www.sookmyung.ac.kr/en/admission/undergraduate.do', verified: '2026-09-23', note: null }
+    ],
+    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    documents: ['School transcripts and graduation certificate', 'Language proficiency evidence', 'Documents listed in the admission guidelines'],
+    recommendations: null,
+    essay: null,
+    interview: null,
+    notes: ['This is a women-only university, so applications are limited to female applicants.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: 'Sookmyung states that applicants to its English programmes need citizenship of an English-speaking country.',
+    note: 'Requirements for other applicants are set in the admission guidelines, which were not read during this check.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'unknown', note: 'Admission is by document screening under the international route; the US test-optional classification does not apply, and whether SAT results are accepted was not confirmed here.' },
+    act: { policy: 'unknown', note: 'The US test-optional classification does not apply to this admission route.' },
+    otherTests: 'TOPIK is used for Korean-taught routes.',
+    internationalQualifications: 'Applicants normally need 12 years of school education completed outside Korea, or an equivalent qualification.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'tuition is published in the admission materials; the figures were not read during this check' },
+    academicYear: '2026–2027', currency: 'KRW', headline: 'Tuition published in the admission materials',
+    items: [ { label: 'Tuition', text: 'Published per college in the admission materials' } ],
+    billedSubtotal: null, totalText: 'Not confirmed — see the official pages',
+    note: 'Living costs in Seoul are extra; a student can earn ₩10,000 an hour through the language tutoring scholarship schemes.'
+  },
+  scholarships: {
+    fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
+    merit: [
+      { name: 'Entrance scholarship for international students', amount: 'Not confirmed during this check', eligibility: 'International undergraduate students', deadline: null, application: null, renewable: null, note: 'Sookmyung also lists an alumni scholarship and exchange scholarships.' },
+      { name: 'Language teaching scholarship', amount: '₩10,000 per hour for work in the English Speaking Spot or Second Language Tutoring programme', eligibility: 'International students who volunteer in these programmes', deadline: null, application: null, renewable: null, note: 'This is paid work-style support rather than a tuition award.' }
+    ],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'Undergraduate admission', url: 'https://www.sookmyung.ac.kr/en/admission/undergraduate.do' },
+    { label: 'Admission information', url: 'https://www.sookmyung.ac.kr/en/admission/admission-guide.do' },
+    { label: 'Support for foreign students', url: 'https://www.sookmyung.ac.kr/en/university-life/foreign-students.do' }
+  ],
+  verification: { level: 'partial', checked: ['English-taught course volume','citizenship rule for English programmes','language tutoring scholarship'], unconfirmed: ['tuition amounts','English score requirements','deadlines','entrance scholarship values'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'chonnam-national-university',
+  name: 'Chonnam National University',
+  shortName: 'Chonnam',
+  country: 'kr',
+  city: 'Gwangju',
+  region: 'Gwangju',
+  type: 'National research university',
+  brand: { c1: '#00447c', c2: '#00233f', initials: 'CNU' },
+  description: 'A national university in Gwangju that offers new international students tuition exemptions for four semesters and takes part in the Global Korea Scholarship.',
+  englishTaught: false,
+  languageOfInstruction: 'Korean, with some courses in English',
+  programs: ['engineering','business','humanities','social-sciences','biology','medicine','economics'],
+  englishTaughtPrograms: [],
+  programNote: 'Teaching is mainly in Korean; English-taught degree options were not confirmed during this check.',
+  links: {
+    website: 'https://global.jnu.ac.kr/',
+    admissions: 'https://international.jnu.ac.kr/',
+    applicationPortal: 'https://international.jnu.ac.kr/',
+    scholarships: 'https://global.jnu.ac.kr/Academics/Resources/Scholarships',
+    cost: 'https://global.jnu.ac.kr/Academics/Resources/Tuition'
+  },
+  admissions: {
+    platforms: ['Chonnam National University international admission application'],
+    deadlines: [
+      { name: 'International undergraduate admission', kind: 'intake', entryTerm: 'Spring or Fall', entryYear: '2027', date: 'Published in the admission guide', status: 'not-confirmed', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'The university publishes an admission guide for each intake; the 2027 dates were not read during this check', source: 'https://international.jnu.ac.kr/', verified: '2026-09-23', note: null }
+    ],
+    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    documents: ['School transcripts and graduation certificate', 'English or Korean proficiency evidence', 'Documents listed in the admission guide'],
+    recommendations: null,
+    essay: null,
+    interview: null,
+    notes: ['Scholarship results are announced together with the admission result, and the amounts depend on the available budget.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: 'Citizens or nationals of Australia, Canada, England, Ireland, New Zealand, the United States or South Africa are exempt from the English proficiency requirement.',
+    note: 'Other applicants follow the requirements in the admission guide, which were not read during this check.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'unknown', note: 'Admission is by document screening under the international route; the US test-optional classification does not apply, and whether SAT results are accepted was not confirmed here.' },
+    act: { policy: 'unknown', note: 'The US test-optional classification does not apply to this admission route.' },
+    otherTests: 'TOPIK is used for Korean-taught routes.',
+    internationalQualifications: 'Applicants normally need 12 years of school education completed outside Korea, or an equivalent qualification.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'tuition is published on the university pages; the figures were not read during this check' },
+    academicYear: '2026–2027', currency: 'KRW', headline: 'Tuition published on the official pages',
+    items: [ { label: 'Tuition', text: 'Published per college on the official pages' } ],
+    billedSubtotal: null, totalText: 'Not confirmed — see the official pages',
+    note: 'New international students can be exempted from tuition for four semesters under the university scholarship scheme.'
+  },
+  scholarships: {
+    fullRide: { available: false, internationalEligible: false, basis: 'merit', covers: { tuition: true, housing: false, meals: false, insurance: false, books: false }, renewable: false, competitiveness: 'The scheme is for new students, and the amounts depend on budget.', howToApply: 'Considered with the admission application.', note: 'The exemption covers tuition, the entrance fee and association dues for four semesters, but not housing or living costs, so it is not a full ride.' },
+    merit: [ { name: 'New international student tuition exemption', amount: 'Exemption from tuition, entrance fee and association dues for four semesters', eligibility: 'New international students', deadline: null, application: 'Announced with the admission result', renewable: false, note: 'Amounts are subject to budget availability.' } ],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'The university also takes part in the Global Korea Scholarship for undergraduate degrees.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'Scholarships', url: 'https://global.jnu.ac.kr/Academics/Resources/Scholarships' },
+    { label: 'Tuition', url: 'https://global.jnu.ac.kr/Academics/Resources/Tuition' },
+    { label: 'Office of International Affairs', url: 'https://international.jnu.ac.kr/' }
+  ],
+  verification: { level: 'partial', checked: ['tuition exemption scheme','English requirement exemption by nationality','GKS participation'], unconfirmed: ['English-taught degrees','tuition amounts','English score requirements','deadlines'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'incheon-national-university',
+  name: 'Incheon National University',
+  shortName: 'INU',
+  country: 'kr',
+  city: 'Incheon',
+  region: 'Incheon',
+  type: 'National university',
+  brand: { c1: '#004c9b', c2: '#002750', initials: 'INU' },
+  description: 'A national university in Incheon with two undergraduate programmes taught fully in English — Korean Trade and Commerce in the School of Northeast Asian Studies, and Public Administration — and scholarships that cover most or all of tuition for many international students.',
+  englishTaught: true,
+  languageOfInstruction: 'Korean and English; two undergraduate programmes are taught fully in English',
+  programs: ['business','economics','social-sciences','engineering','computer-science'],
+  englishTaughtPrograms: ['business','social-sciences'],
+  programNote: 'INU states that Korean Trade & Commerce (School of Northeast Asian Studies) and Public Administration are offered fully in English; other programmes are taught in Korean.',
+  links: {
+    website: 'https://www.inu.ac.kr/inuengl/',
+    admissions: 'https://www.inu.ac.kr/inuengl/8528/subview.do',
+    applicationPortal: 'https://www.inu.ac.kr/inuengl/8528/subview.do',
+    scholarships: 'https://www.inu.ac.kr/ibe/3882/subview.do',
+    cost: 'https://www.inu.ac.kr/inuengl/8498/subview.do'
+  },
+  admissions: {
+    platforms: ['INU international undergraduate application'],
+    deadlines: [
+      { name: 'International undergraduate admission (Spring 2025 guide published)', kind: 'intake', entryTerm: 'Spring', entryYear: '2025', date: 'Published in the Spring 2025 admissions guide book', status: 'previous-cycle', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'INU publishes a guide book for each intake; the 2027 dates were not read during this check', source: 'https://www.inu.ac.kr/pdfView/ibe/122/fileDownload.do', verified: '2026-09-23', note: null }
+    ],
+    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    documents: ['Proof that the applicant and both parents are foreign nationals from birth', 'High school completion or an equivalent qualification', 'Language proficiency evidence'],
+    recommendations: null,
+    essay: null,
+    interview: null,
+    notes: ['Eligibility is strict: the applicant and both parents must have held foreign nationality from birth.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: null,
+    note: 'Scholarships are awarded on language proficiency and GPA; the thresholds were not read during this check.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'unknown', note: 'Admission is by document screening under the international route; the US test-optional classification does not apply, and whether SAT results are accepted was not confirmed here.' },
+    act: { policy: 'unknown', note: 'The US test-optional classification does not apply to this admission route.' },
+    otherTests: 'TOPIK is used for Korean-taught routes.',
+    internationalQualifications: 'Applicants normally need 12 years of school education completed outside Korea, or an equivalent qualification.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'tuition is published on the university pages; the figures were not read during this check' },
+    academicYear: '2026–2027', currency: 'KRW', headline: 'Tuition published on the official pages',
+    items: [ { label: 'Tuition', text: 'Published per college on the official pages' } ],
+    billedSubtotal: null, totalText: 'Not confirmed — see the official pages',
+    note: 'INU states that almost all international students receive a needs-based scholarship covering most or all of tuition.'
+  },
+  scholarships: {
+    fullRide: { available: false, internationalEligible: true, basis: 'need-based', covers: { tuition: true, housing: false, meals: false, insurance: false, books: false }, renewable: null, competitiveness: 'INU states that almost all international students receive a needs-based scholarship.', howToApply: 'Through the admission and scholarship process.', note: 'Even a full tuition scholarship leaves housing, food and living costs to the student.' },
+    merit: [ { name: 'Language proficiency and GPA scholarships', amount: 'Varies with language level and grades', eligibility: 'International undergraduate students', deadline: null, application: 'Through the university', renewable: null, note: null } ],
+    needBased: { availableToInternational: true, meetsFullNeed: null, needBlindInternational: null, forms: [], deadlines: null, note: 'INU describes a needs-based scholarship that covers most or all of tuition for almost all international students.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'Undergraduate application', url: 'https://www.inu.ac.kr/inuengl/8528/subview.do' },
+    { label: 'Tuition and scholarship', url: 'https://www.inu.ac.kr/ibe/3882/subview.do' },
+    { label: 'Undergraduate tuition fee', url: 'https://www.inu.ac.kr/inuengl/8498/subview.do' }
+  ],
+  verification: { level: 'partial', checked: ['fully English-taught programmes','eligibility rule','scholarship coverage description'], unconfirmed: ['tuition amounts','language score thresholds','2027 dates'] },
+  lastVerified: '2026-09-23'
+},
+
+{
+  id: 'soongsil-university',
+  name: 'Soongsil University',
+  shortName: 'Soongsil',
+  country: 'kr',
+  city: 'Seoul',
+  region: 'Seoul',
+  type: 'Private university',
+  brand: { c1: '#00539b', c2: '#002b52', initials: 'SSU' },
+  description: 'A private university in central Seoul with about 1,600 international undergraduates, teaching in Korean and English and requiring TOPIK level 4 for graduation.',
+  englishTaught: false,
+  languageOfInstruction: 'Korean and English (some courses are also taught in Chinese)',
+  programs: ['business','engineering','computer-science','social-sciences','humanities','economics','law'],
+  englishTaughtPrograms: [],
+  programNote: 'Soongsil states that all admitted students must reach TOPIK grade 4 to graduate, so Korean is needed even where courses are taught in English.',
+  links: {
+    website: 'https://eng.ssu.ac.kr/',
+    admissions: 'https://eng.ssu.ac.kr/admission/undergraduate/',
+    applicationPortal: 'https://eng.ssu.ac.kr/admission/undergraduate/',
+    scholarships: 'https://eng.ssu.ac.kr/academics/academic-affairs/scholarship/',
+    cost: 'https://eng.ssu.ac.kr/academics/academic-affairs/scholarship/'
+  },
+  admissions: {
+    platforms: ['Soongsil University international admission application'],
+    deadlines: [
+      { name: 'International undergraduate admission', kind: 'intake', entryTerm: 'Spring or Fall', entryYear: '2027', date: 'Published in the admission guidelines', status: 'not-confirmed', binding: false, appliesTo: 'New and transfer international applicants', conditions: 'Soongsil publishes special procedures for new and transfer international students for each intake; the 2027 dates were not read during this check', source: 'https://eng.ssu.ac.kr/admission/undergraduate/', verified: '2026-09-23', note: null }
+    ],
+    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    documents: ['School transcripts and graduation certificate', 'Language proficiency evidence', 'Documents listed in the admission procedures'],
+    recommendations: null,
+    essay: null,
+    interview: null,
+    notes: ['Soongsil Global Scholarships cannot be combined with other university scholarships.']
+  },
+  english: {
+    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
+    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    waiver: null,
+    note: 'Scholarships are linked to Korean language ability; English requirements were not confirmed during this check.'
+  },
+  academics: {
+    gpa: null,
+    sat: { policy: 'unknown', note: 'Admission is by document screening under the international route; the US test-optional classification does not apply.' },
+    act: { policy: 'unknown', note: 'The US test-optional classification does not apply to this admission route.' },
+    otherTests: 'TOPIK grade 4 is required for graduation, whatever the language of teaching.',
+    internationalQualifications: 'Applicants normally need 12 years of school education completed outside Korea, or an equivalent qualification.'
+  },
+  costs: {
+    breakdown: { published: false, includes: 'tuition is published in the admission materials; the figures were not read during this check' },
+    academicYear: '2026–2027', currency: 'KRW', headline: 'Tuition published in the admission materials',
+    items: [ { label: 'Tuition', text: 'Published per college in the admission materials' } ],
+    billedSubtotal: null, totalText: 'Not confirmed — see the official pages',
+    note: 'Living costs in Seoul are extra.'
+  },
+  scholarships: {
+    fullRide: { available: null, internationalEligible: null, basis: 'merit', covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Soongsil Global Scholarships are for excellent students and cannot be combined with other scholarships on campus; the values were not read during this check.' },
+    merit: [ { name: 'Soongsil Global Scholarship', amount: 'Not confirmed during this check', eligibility: 'Excellent international students', deadline: null, application: null, renewable: null, note: 'Cannot be combined with other university scholarships.' } ],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+  },
+  photos: { main: null, gallery: [], city: null },
+  sources: [
+    { label: 'Undergraduate admission', url: 'https://eng.ssu.ac.kr/admission/undergraduate/' },
+    { label: 'Scholarships', url: 'https://eng.ssu.ac.kr/academics/academic-affairs/scholarship/' },
+    { label: 'Special procedures for new and transfer international students (PDF)', url: 'https://iphak.ssu.ac.kr/upload/SSU(1)_26030384642.pdf' }
+  ],
+  verification: { level: 'partial', checked: ['TOPIK graduation requirement','scholarship exclusivity rule'], unconfirmed: ['English-taught degrees','tuition amounts','English requirements','deadlines'] },
+  lastVerified: '2026-09-23'
+},
 );

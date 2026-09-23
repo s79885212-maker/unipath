@@ -1,0 +1,211 @@
+{
+ "toyo-university": {
+  "article": "Toyo University",
+  "category": "Toyo University",
+  "keywords": [
+   "toyo university"
+  ]
+ },
+ "okayama-university": {
+  "article": "Okayama University",
+  "category": "Okayama University",
+  "keywords": [
+   "okayama university"
+  ]
+ },
+ "kwansei-gakuin-university": {
+  "article": "Kwansei Gakuin University",
+  "category": "Kwansei Gakuin University",
+  "keywords": [
+   "kwansei gakuin"
+  ]
+ },
+ "hitotsubashi-university": {
+  "article": "Hitotsubashi University",
+  "category": "Hitotsubashi University",
+  "keywords": [
+   "hitotsubashi"
+  ]
+ },
+ "temple-university-japan": {
+  "article": "Temple University, Japan Campus",
+  "category": "Temple University Japan Campus",
+  "keywords": [
+   "temple university japan"
+  ]
+ },
+ "meiji-university": {
+  "article": "Meiji University",
+  "category": "Meiji University",
+  "keywords": [
+   "meiji university"
+  ]
+ },
+ "kyoto-university-advanced-science": {
+  "article": "Kyoto University of Advanced Science",
+  "category": "Kyoto University of Advanced Science",
+  "keywords": [
+   "kyoto university of advanced science",
+   "kyoto gakuen"
+  ]
+ },
+ "miyazaki-international-college": {
+  "article": "Miyazaki International College",
+  "category": "Miyazaki International College",
+  "keywords": [
+   "miyazaki international"
+  ]
+ },
+ "hosei-university": {
+  "article": "Hosei University",
+  "category": "Hosei University",
+  "keywords": [
+   "hosei"
+  ]
+ },
+ "postech": {
+  "article": "Pohang University of Science and Technology",
+  "category": "Pohang University of Science and Technology",
+  "keywords": [
+   "postech",
+   "pohang university"
+  ]
+ },
+ "unist": {
+  "article": "Ulsan National Institute of Science and Technology",
+  "category": "Ulsan National Institute of Science and Technology",
+  "keywords": [
+   "unist",
+   "ulsan national institute"
+  ]
+ },
+ "gist": {
+  "article": "Gwangju Institute of Science and Technology",
+  "category": "Gwangju Institute of Science and Technology",
+  "keywords": [
+   "gwangju institute of science"
+  ]
+ },
+ "dgist": {
+  "article": "Daegu Gyeongbuk Institute of Science and Technology",
+  "category": "Daegu Gyeongbuk Institute of Science and Technology",
+  "keywords": [
+   "dgist",
+   "daegu gyeongbuk"
+  ]
+ },
+ "sogang-university": {
+  "article": "Sogang University",
+  "category": "Sogang University",
+  "keywords": [
+   "sogang"
+  ]
+ },
+ "chung-ang-university": {
+  "article": "Chung-Ang University",
+  "category": "Chung-Ang University",
+  "keywords": [
+   "chung-ang",
+   "chungang"
+  ]
+ },
+ "konkuk-university": {
+  "article": "Konkuk University",
+  "category": "Konkuk University",
+  "keywords": [
+   "konkuk"
+  ]
+ },
+ "sejong-university": {
+  "article": "Sejong University",
+  "category": "Sejong University",
+  "keywords": [
+   "sejong university"
+  ]
+ },
+ "inha-university": {
+  "article": "Inha University",
+  "category": "Inha University",
+  "keywords": [
+   "inha"
+  ]
+ },
+ "ajou-university": {
+  "article": "Ajou University",
+  "category": "Ajou University",
+  "keywords": [
+   "ajou"
+  ]
+ },
+ "handong-global-university": {
+  "article": "Handong Global University",
+  "category": "Handong Global University",
+  "keywords": [
+   "handong"
+  ]
+ },
+ "hufs": {
+  "article": "Hankuk University of Foreign Studies",
+  "category": "Hankuk University of Foreign Studies",
+  "keywords": [
+   "hankuk university of foreign studies",
+   "hufs"
+  ]
+ },
+ "dongguk-university": {
+  "article": "Dongguk University",
+  "category": "Dongguk University",
+  "keywords": [
+   "dongguk"
+  ]
+ },
+ "sookmyung-womens-university": {
+  "article": "Sookmyung Women's University",
+  "category": "Sookmyung Women's University",
+  "keywords": [
+   "sookmyung"
+  ]
+ },
+ "soongsil-university": {
+  "article": "Soongsil University",
+  "category": "Soongsil University",
+  "keywords": [
+   "soongsil"
+  ]
+ },
+ "pusan-national-university": {
+  "article": "Pusan National University",
+  "category": "Pusan National University",
+  "keywords": [
+   "pusan national"
+  ]
+ },
+ "kyungpook-national-university": {
+  "article": "Kyungpook National University",
+  "category": "Kyungpook National University",
+  "keywords": [
+   "kyungpook national"
+  ]
+ },
+ "chonnam-national-university": {
+  "article": "Chonnam National University",
+  "category": "Chonnam National University",
+  "keywords": [
+   "chonnam national"
+  ]
+ },
+ "seoultech": {
+  "article": "Seoul National University of Science and Technology",
+  "category": "Seoul National University of Science and Technology",
+  "keywords": [
+   "seoul national university of science"
+  ]
+ },
+ "incheon-national-university": {
+  "article": "Incheon National University",
+  "category": "Incheon National University",
+  "keywords": [
+   "incheon national university"
+  ]
+ }
+}
