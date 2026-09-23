@@ -21,12 +21,14 @@ window.UNIPATH.news = [
     country: 'us',
     org: 'Common App',
     title: 'Common App opened the 2026–27 application',
-    summary: 'The Common Application for first-year entry in autumn 2027 is open. Accounts roll over, so essays and answers written before 1 August are kept. More than 1,000 member colleges accept it, including every US university listed here.',
+    summary: 'The Common Application for first-year entry in autumn 2027 is open. Accounts roll over, so essays and answers written before 1 August are kept. Most, but not all, US universities on this site accept it: MIT uses its own application portal and the University of California campuses use the UC application, while Georgetown accepts either its own form or the Common App.',
     url: 'https://www.commonapp.org/blog/common-app-opens-application-launch-2026-27-season/',
     published: '2026-07-31',
     verified: '2026-09-23',
     eventDate: '2026-08-01',
-    deadline: false
+    deadline: false,
+    state: 'open',
+    stateNote: 'The 2026–27 application is open; the closing date is set by each university, not by Common App.'
   },
   {
     id: 'ucas-2027-open',
@@ -39,7 +41,9 @@ window.UNIPATH.news = [
     published: null,
     verified: '2026-09-23',
     eventDate: '2026-05-12',
-    deadline: false
+    deadline: false,
+    state: 'open',
+    stateNote: 'Applications for 2027 entry are open; the deadlines below decide when they must arrive.'
   },
   {
     id: 'ucas-2027-oct-deadline',
@@ -52,7 +56,9 @@ window.UNIPATH.news = [
     published: null,
     verified: '2026-09-23',
     eventDate: '2026-10-15',
-    deadline: true
+    deadline: true,
+    state: 'upcoming',
+    stateNote: 'Deadline still ahead: 18:00 UK time on 15 October 2026.'
   },
   {
     id: 'ucas-2027-jan-deadline',
@@ -65,7 +71,9 @@ window.UNIPATH.news = [
     published: null,
     verified: '2026-09-23',
     eventDate: '2027-01-13',
-    deadline: true
+    deadline: true,
+    state: 'upcoming',
+    stateNote: 'Deadline still ahead: 18:00 UK time on 13 January 2027.'
   },
   {
     id: 'gks-2027-undergraduate',
@@ -78,7 +86,9 @@ window.UNIPATH.news = [
     published: '2026-09-09',
     verified: '2026-09-23',
     eventDate: null,
-    deadline: false
+    deadline: false,
+    state: 'varies',
+    stateNote: 'There is no single closing date: it depends on the country, the Korean embassy and whether you apply through an embassy or a designated university.'
   },
   {
     id: 'mext-2027-undergraduate',
@@ -91,7 +101,9 @@ window.UNIPATH.news = [
     published: '2026-04-20',
     verified: '2026-09-23',
     eventDate: null,
-    deadline: false
+    deadline: false,
+    state: 'varies',
+    stateNote: 'Dates are set by each Japanese embassy or consulate, so the deadline depends on your country.'
   },
   {
     id: 'toefl-score-scale-2026',
@@ -104,7 +116,9 @@ window.UNIPATH.news = [
     published: null,
     verified: '2026-09-23',
     eventDate: '2026-01-21',
-    deadline: false
+    deadline: false,
+    state: 'informational',
+    stateNote: 'A permanent change already in force, not a competition or a deadline.'
   },
   {
     id: 'fau-tuition-2027',
@@ -119,6 +133,8 @@ window.UNIPATH.news = [
     verified: '2026-09-23',
     eventDate: null,
     eventText: 'Summer semester 2027',
-    deadline: false
+    deadline: false,
+    state: 'informational',
+    stateNote: 'A rule that takes effect from summer semester 2027; no application deadline attached.'
   }
 ];

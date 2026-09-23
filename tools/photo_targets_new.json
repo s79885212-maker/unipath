@@ -1,7 +1,7 @@
 {
  "lse": {
-  "article": "London School of Economics and Political Science",
-  "category": "London School of Economics and Political Science",
+  "article": "London School of Economics",
+  "category": "London School of Economics",
   "keywords": [
    "london school of economics",
    "lse"
@@ -158,7 +158,7 @@
  },
  "srh-berlin-university": {
   "article": "SRH Berlin University of Applied Sciences",
-  "category": "SRH Hochschule Berlin",
+  "category": "Berlin",
   "keywords": [
    "srh"
   ]
@@ -173,7 +173,7 @@
  },
  "berlin-international-university": {
   "article": "Berlin International University of Applied Sciences",
-  "category": "Berlin International University of Applied Sciences",
+  "category": "Charlottenburg",
   "keywords": [
    "berlin international"
   ]
@@ -210,7 +210,7 @@
  },
  "deggendorf-institute-of-technology": {
   "article": "Deggendorf Institute of Technology",
-  "category": "Technische Hochschule Deggendorf",
+  "category": "Deggendorf",
   "keywords": [
    "deggendorf"
   ]
@@ -239,7 +239,7 @@
  },
  "karlshochschule": {
   "article": "Karlshochschule International University",
-  "category": "Karlshochschule International University",
+  "category": "Karlsruhe",
   "keywords": [
    "karlshochschule"
   ]
@@ -254,7 +254,7 @@
  },
  "macromedia-university": {
   "article": "Macromedia University of Applied Sciences",
-  "category": "Hochschule Macromedia",
+  "category": "Macromedia University of Applied Sciences",
   "keywords": [
    "macromedia"
   ]
