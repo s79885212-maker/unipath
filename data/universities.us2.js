@@ -41,8 +41,8 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision', date: '1 November', note: 'Binding; 11:59 p.m. applicant’s local time' },
-      { name: 'Regular Decision', date: '5 January', note: '11:59 p.m. applicant’s local time' }
+      { name: 'Early Decision', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', time: '23:59', timezone: 'applicant’s local time', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Decision letters are available online in mid-December.', status: 'confirmed', source: 'https://admission.brown.edu/first-year/early-decision', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', time: '23:59', timezone: 'applicant’s local time', binding: false, appliesTo: 'First-year applicants', conditions: 'Decision letters are available online in late March.', status: 'confirmed', source: 'https://admission.brown.edu/first-year/regular-decision', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: 80, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waiver available in place of the $80 non-refundable fee' },
     documents: ['Common Application with Brown’s writing supplement', 'School transcript and school report', 'Teacher recommendations'],
@@ -139,8 +139,8 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision', date: '1 November', note: 'Binding; decisions in mid-December' },
-      { name: 'Regular Decision', date: '1 January', note: 'Decisions in late March or early April' }
+      { name: 'Early Decision', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Last SAT sitting is November and last ACT sitting October. Decision emails go out in mid-December.', status: 'confirmed', source: 'https://admissions.dartmouth.edu/apply-dartmouth', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', time: '23:59', timezone: 'applicant’s local time', binding: false, appliesTo: 'First-year applicants', conditions: 'Last SAT and ACT sittings are in December. Decision emails go out in late March.', status: 'confirmed', source: 'https://admissions.dartmouth.edu/apply-dartmouth', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: 85, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waivers available' },
     documents: ['Common Application', 'School transcript and counsellor report', 'Teacher recommendations', 'Standardized test results'],
@@ -242,8 +242,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision', date: '1 November', note: 'Binding' },
-      { name: 'Regular Decision', date: '1 January', note: 'Decisions by early April' }
+      { name: 'Early Decision', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding: an admitted applicant must enrol and withdraw other applications. Decisions are released on or before 15 December.', status: 'confirmed', source: 'https://undergrad.admissions.columbia.edu/apply/firstyear/early-decision', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Decisions are released on or before 15 April.', status: 'confirmed', source: 'https://undergrad.admissions.columbia.edu/apply/firstyear', verified: '2026-09-23', note: null },
+      { name: 'Financial aid application', kind: 'aid', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: false, appliesTo: 'Applicants asking for financial aid', conditions: 'Separate from the admission deadline; Columbia collects family income, assets and circumstances.', status: 'confirmed', source: 'https://undergrad.admissions.columbia.edu/afford', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: 85, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waivers available through the application' },
     documents: ['Common Application with Columbia-specific questions', 'School transcript and reports', 'Teacher recommendations'],
@@ -341,8 +342,8 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application', 'Coalition Application'],
     deadlines: [
-      { name: 'Early Decision', date: '1 November', note: 'Binding; decisions in December' },
-      { name: 'Regular Decision', date: '5 January', note: 'Decisions by 1 April' }
+      { name: 'Early Decision', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding: if admitted you must accept the offer and enrol. Decisions come in December.', status: 'confirmed', source: 'https://admissions.upenn.edu/how-to-apply/first-year-applicants', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Decisions come in April; admitted students reply by 1 May.', status: 'confirmed', source: 'https://admissions.upenn.edu/how-to-apply/first-year-applicants', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: 75, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waiver can be requested through the Common or Coalition Application' },
     documents: ['Common or Coalition Application with Penn’s supplement', 'School transcript and reports', 'Teacher recommendations', 'SAT or ACT scores'],
@@ -437,8 +438,10 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision', date: '1 November', note: 'Binding; decisions in mid-December' },
-      { name: 'Regular Decision', date: '2 January', note: 'Decisions in early April' }
+      { name: 'Early Decision — application', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. The application, fee or waiver and any portfolio are due on this date.', status: 'confirmed', source: 'https://admissions.cornell.edu/apply/application-timelines', verified: '2026-09-23', note: null },
+      { name: 'Early Decision — supporting materials', kind: 'documents', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-13', date: '13 November 2026', binding: false, appliesTo: 'Early Decision applicants', conditions: 'All other required materials. Decisions are available mid-December.', status: 'confirmed', source: 'https://admissions.cornell.edu/apply/application-timelines', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision — application', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-02', date: '2 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'The application, fee or waiver and any portfolio are due on this date.', status: 'confirmed', source: 'https://admissions.cornell.edu/apply/application-timelines', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision — supporting materials', kind: 'documents', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-19', date: '19 January 2027', binding: false, appliesTo: 'Regular Decision applicants', conditions: 'All other required materials. Decisions are available in late March.', status: 'confirmed', source: 'https://admissions.cornell.edu/apply/application-timelines', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: 85, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waiver available for applicants for whom the fee is a burden and who apply for financial aid' },
     documents: ['Common Application with Cornell’s college-specific questions', 'School transcript and reports', 'Teacher recommendations', 'English proficiency evidence'],
@@ -531,8 +534,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Restrictive Early Action', date: '1 November', note: 'Non-binding but restricts other early applications' },
-      { name: 'Regular Decision', date: '5 January', note: null }
+      { name: 'Restrictive Early Action', kind: 'REA', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: false, appliesTo: 'First-year applicants', conditions: 'Not binding, but you may not apply early to any other private US university. Last SAT sitting is the end of October.', status: 'confirmed', source: 'https://admission.stanford.edu/apply/first-year/decision_process.html', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Last SAT sitting is the end of December.', status: 'confirmed', source: 'https://admission.stanford.edu/apply/deadlines/index.html', verified: '2026-09-23', note: null },
+      { name: 'Financial aid — priority deadline', kind: 'aid', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: false, appliesTo: 'Applicants asking for financial aid', conditions: 'Applying by this date brings a financial aid notification by mid-December.', status: 'confirmed', source: 'https://admission.stanford.edu/apply/deadlines/index.html', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waivers are available through the Common Application; the fee amount was not confirmed on the pages consulted.' },
     documents: ['Common Application with Stanford questions', 'School transcript and school report', 'Teacher recommendations', 'SAT or ACT scores'],
@@ -624,8 +628,8 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision', entryTerm: 'Autumn 2027', dateISO: '2026-11-09', date: '9 November 2026', note: 'Financial aid application due 13 November 2026' },
-      { name: 'Regular Decision', entryTerm: 'Autumn 2027', dateISO: '2027-01-05', date: '5 January 2027', note: 'Financial aid application due 15 January 2027' }
+      { name: 'Early Decision', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-09', date: '9 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decision by early to mid-December.', status: 'confirmed', source: 'https://www.amherst.edu/admission/apply/firstyear/calendar_deadlines', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional: self-reported or official SAT/ACT scores are accepted but not required. Decision by late March.', status: 'confirmed', source: 'https://www.amherst.edu/admission/apply/firstyear/calendar_deadlines', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waivers are granted automatically to applicants who meet the College Board criteria in the Common Application profile.' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations'],
@@ -718,9 +722,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision I', date: '15 November', note: 'Binding; financial aid application due the same day' },
-      { name: 'Early Decision II', date: '5 January', note: 'Binding; financial aid application due 1 January' },
-      { name: 'Regular Decision', date: '5 January', note: null }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decisions in mid-December.', status: 'confirmed', source: 'https://www.bowdoin.edu/admissions/apply/dates-deadlines/index.html', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decisions by early February.', status: 'confirmed', source: 'https://www.bowdoin.edu/admissions/apply/dates-deadlines/index.html', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Bowdoin has been test-optional since 1969. Decisions in mid-March.', status: 'confirmed', source: 'https://www.bowdoin.edu/admissions/apply/dates-deadlines/index.html', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: 70, currency: 'USD', waiverAvailableToInternational: null, waiver: 'The $70 fee is waived automatically for applicants for financial aid and first-generation applicants' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations'],
@@ -816,8 +820,8 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application', 'Coalition Application'],
     deadlines: [
-      { name: 'Restrictive Early Action', date: '1 November', note: 'Non-binding, but you may not apply Early Decision elsewhere; decisions mid-December' },
-      { name: 'Regular Decision', date: '4 January', note: null }
+      { name: 'Restrictive Early Action', kind: 'REA', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: false, appliesTo: 'First-year applicants', conditions: 'Not binding but restricted; decisions in mid-December.', status: 'confirmed', source: 'https://admissions.nd.edu/apply/early-action-regular-decision/', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Decisions by late March; admitted students confirm and pay a deposit by 1 May.', status: 'confirmed', source: 'https://admissions.nd.edu/apply/early-action-regular-decision/', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: 85, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waiver option available' },
     documents: ['Common or Coalition Application', 'School transcript and reports', 'Teacher recommendation', 'CSS Profile for aid applicants'],
@@ -835,7 +839,7 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: 'optional', note: 'Test-optional through the 2026–27 cycle; Notre Dame has said testing will be required again from the 2027–28 admissions cycle.' },
+    sat: { policy: 'optional', label: 'Test-optional for this cycle; required from the 2027–28 cycle', note: 'Notre Dame is test-optional through the 2026–27 admissions cycle — the one leading to autumn 2027 entry — and states it will reinstate a standardized testing requirement from the 2027–28 cycle.' },
     act: { policy: 'optional', note: 'Same as the SAT.' },
     otherTests: null,
     internationalQualifications: 'International qualifications are accepted and read in context.'
@@ -908,8 +912,8 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision — financial aid application', date: '15 November 2025', note: 'Deadline published for the 2025–26 cycle' },
-      { name: 'Regular Decision — financial aid application', date: '5 January 2026', note: 'Deadline published for the 2025–26 cycle' }
+      { name: 'Early Decision', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decision by 15 December.', status: 'confirmed', source: 'https://www.williams.edu/admission-aid/apply/deadlines/', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Decision by 1 April; admitted students reply by 1 May. Applicants state on the application whether they are applying test-optional and can change that choice until their round’s deadline.', status: 'confirmed', source: 'https://www.williams.edu/admission-aid/apply/deadlines/', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations'],
@@ -1009,8 +1013,8 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application', 'QuestBridge Application'],
     deadlines: [
-      { name: 'Early Decision', entryTerm: 'Autumn 2027', dateISO: '2026-11-02', date: '2 November 2026', note: 'Binding' },
-      { name: 'Regular Decision', entryTerm: 'Autumn 2027', dateISO: '2027-01-04', date: '4 January 2027', note: null }
+      { name: 'Early Decision', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-02', date: '2 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Duke is test-optional for this cycle; the last test dates for ED applicants are 7 November (SAT) and 17 October (ACT). Decisions are released around mid-December.', status: 'not-confirmed', source: 'https://admissions.duke.edu/checklist/', verified: '2026-09-23', note: 'Duke’s checklist page could not be read during this check, so the application date is carried over from the previous verification.' },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional for this cycle; last test dates 5 December (SAT) and 12 December (ACT). Decisions before 1 April.', status: 'not-confirmed', source: 'https://admissions.duke.edu/checklist/', verified: '2026-09-23', note: 'Application date carried over from the previous verification.' },
     ],
     applicationFee: { amount: 85, currency: 'USD', waiverAvailableToInternational: null, waiver: 'A fee waiver request can be sent with the Common Application in place of the $85 fee' },
     documents: ['Common Application with the Duke supplement', 'School transcript and School Report', 'Teacher recommendations'],
@@ -1109,9 +1113,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application', 'Coalition Application'],
     deadlines: [
-      { name: 'Early Decision I', date: '1 November', note: 'Binding; decisions by 15 December. Aid application due the same day' },
-      { name: 'Early Decision II', date: '1 January', note: 'Binding; decisions by 15 February. Aid application due the same day' },
-      { name: 'Regular Decision', date: '1 January', note: 'Decisions by 1 April; aid application due 1 February' }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. All required materials are due with the application; decisions by mid-December.', status: 'confirmed', source: 'https://admissions.vanderbilt.edu/apply/decision-plans.php', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Decisions by mid-February.', status: 'confirmed', source: 'https://admissions.vanderbilt.edu/apply/decision-plans.php', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision (priority deadline)', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-02-15', date: '15 February 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Vanderbilt publishes 15 February 2027 as the priority deadline for a completed Regular Decision application.', status: 'confirmed', source: 'https://admissions.vanderbilt.edu/apply/decision-plans.php', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: 50, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Vanderbilt accepts every fee waiver request submitted through the Common or Coalition Application' },
     documents: ['Common or Coalition Application', 'Official secondary school transcript', 'Counsellor letter', 'Two academic teacher letters', 'CSS Profile or ISFAA for aid applicants'],
@@ -1132,7 +1136,7 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: 'optional', note: 'Testing is optional for autumn 2027 and autumn 2028 entry; Vanderbilt has said scores will be required again for autumn 2029.' },
+    sat: { policy: 'optional', label: 'Test-optional for 2027 and 2028 entry', note: 'Vanderbilt states that SAT or ACT scores are optional for students applying for fall 2027 or fall 2028 entry, and that scores will be required for fall 2029 entry.' },
     act: { policy: 'optional', note: 'Same as the SAT.' },
     otherTests: 'Credit is given for scores of 4 or 5 on Advanced Placement exams and 6 or 7 on International Baccalaureate exams, depending on the subject.',
     internationalQualifications: 'International curricula are accepted; transcripts must be officially translated.'
@@ -1209,9 +1213,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision I', date: '1 November', note: 'Binding' },
-      { name: 'Early Decision II', date: '4 January', note: 'Binding' },
-      { name: 'Regular Decision', date: '4 January', note: null }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding.', status: 'confirmed', source: 'https://admission.rice.edu/apply/first-year-international-applicants', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding.', status: 'confirmed', source: 'https://admission.rice.edu/apply/first-year-international-applicants', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Not binding. Decisions are released by 1 April.', status: 'confirmed', source: 'https://admission.rice.edu/apply/first-year-international-applicants', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: 75, currency: 'USD', waiverAvailableToInternational: false, waiver: 'International applicants cannot request a fee waiver for the $75 fee' },
     documents: ['Common Application and the Rice writing supplement', 'Official school transcript in English', 'Counsellor and two teacher recommendations', 'Evidence of English proficiency', 'International Student Financial Statement'],
@@ -1229,7 +1233,7 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: 'optional', note: 'Rice recommends sending SAT or ACT scores if you have them, but applicants without scores receive full consideration. Scores are superscored across sittings.' },
+    sat: { policy: 'optional', label: 'Test-optional — Rice recommends sending scores', note: 'Rice recommends that applicants submit test scores but states that students who cannot or prefer not to submit them still receive full consideration.' },
     act: { policy: 'optional', note: 'Same as the SAT; no preference between the two tests.' },
     otherTests: null,
     internationalQualifications: 'Transcripts in other languages must be accompanied by a certified English translation.'
@@ -1302,8 +1306,8 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision', date: '1 November', note: 'Binding; decisions in mid-December' },
-      { name: 'Regular Decision', date: '4 January', note: null }
+      { name: 'Early Decision', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Test-optional: October or November scores may be self-reported until 30 November 2026. Decisions by mid-December.', status: 'confirmed', source: 'https://admissions.northwestern.edu/apply/application-deadlines.html', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional: December scores may be self-reported until 15 February 2027. Decisions by the end of March.', status: 'confirmed', source: 'https://admissions.northwestern.edu/apply/application-deadlines.html', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: 75, currency: 'USD', waiverAvailableToInternational: null, waiver: 'A fee waiver can be requested instead of the $75 fee' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendation', 'English proficiency score where required'],
@@ -1396,10 +1400,10 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application', 'Coalition Application', 'UChicago Application'],
     deadlines: [
-      { name: 'Early Action', entryTerm: 'Autumn 2027', dateISO: '2026-11-02', date: '2 November 2026', note: 'Non-binding' },
-      { name: 'Early Decision I', entryTerm: 'Autumn 2027', dateISO: '2026-11-02', date: '2 November 2026', note: 'Binding' },
-      { name: 'Early Decision II', entryTerm: 'Autumn 2027', dateISO: '2027-01-04', date: '4 January 2027', note: 'Binding' },
-      { name: 'Regular Decision', entryTerm: 'Autumn 2027', dateISO: '2027-01-04', date: '4 January 2027', note: null }
+      { name: 'Early Action', kind: 'EA', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-02', date: '2 November 2026', binding: false, appliesTo: 'First-year applicants', conditions: 'Not binding; decision in mid-December. October ACT and November SAT scores are accepted for this round.', status: 'confirmed', source: 'https://collegeadmissions.uchicago.edu/apply/application/', verified: '2026-09-23', note: null },
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-02', date: '2 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decision in mid-December.', status: 'confirmed', source: 'https://collegeadmissions.uchicago.edu/apply/application/', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decision in mid-February. December SAT and ACT scores are accepted.', status: 'confirmed', source: 'https://collegeadmissions.uchicago.edu/apply/application/', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Decision in late March. January SAT and February ACT scores are accepted. UChicago is test-optional and applies a "no harm" rule to any scores sent.', status: 'confirmed', source: 'https://collegeadmissions.uchicago.edu/apply/application/', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: 90, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waivers are available; the fee was $90 for autumn 2026 entry' },
     documents: ['Application with the UChicago supplement', 'School transcript and reports', 'Teacher recommendations', 'Student Financial Aid Worksheet for international aid applicants'],
@@ -1504,9 +1508,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application', 'Coalition on Scoir'],
     deadlines: [
-      { name: 'Early Decision I', entryTerm: 'Autumn 2027', dateISO: '2026-11-01', date: '1 November 2026', note: 'Binding; aid application due 15 November; decisions 11 December' },
-      { name: 'Early Decision II', entryTerm: 'Autumn 2027', dateISO: '2027-01-02', date: '2 January 2027', note: 'Binding; aid application due 15 January; decisions 12 February' },
-      { name: 'Regular Decision', entryTerm: 'Autumn 2027', dateISO: '2027-01-02', date: '2 January 2027', note: 'Aid application due 15 January; decisions 24 March' }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Hopkins requires standardized testing and advises finishing tests by October for ED.', status: 'confirmed', source: 'https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/early-decision/', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-02', date: '2 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding second early round.', status: 'confirmed', source: 'https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/early-decision/', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-02', date: '2 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Testing is required; Hopkins advises finishing tests by December.', status: 'confirmed', source: 'https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: 70, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waivers through the Common Application or Coalition on Scoir, or by Hopkins’ own request form' },
     documents: ['Common or Coalition application', 'Hopkins supplemental essay (350 words)', 'School transcript and secondary school report', 'Two teacher evaluations', 'SAT or ACT scores', 'Mid-year school report'],
@@ -1598,9 +1602,10 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision I', entryTerm: 'Autumn 2027', dateISO: '2026-11-02', date: '2 November 2026', note: 'Binding; aid documents due 17 November; decisions 11 December' },
-      { name: 'Early Decision II', entryTerm: 'Autumn 2027', dateISO: '2027-01-04', date: '4 January 2027', note: 'Binding; aid documents due 11 January; decisions 12 February' },
-      { name: 'Regular Decision', entryTerm: 'Autumn 2027', dateISO: '2027-01-04', date: '4 January 2027', note: 'Aid documents due 1 February; decisions 1 April' }
+      { name: 'Early Action', kind: 'EA', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-02', date: '2 November 2026', binding: false, appliesTo: 'First-year applicants', conditions: 'Not binding. Materials must be received by this date; if scores are sent, the last accepted test date is October for Early Decision I applicants.', status: 'confirmed', source: 'https://admissions.wustl.edu/how-to-apply/application-deadlines/', verified: '2026-09-23', note: null },
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-02', date: '2 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Materials must be received by this date.', status: 'confirmed', source: 'https://admissions.wustl.edu/how-to-apply/application-deadlines/', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding.', status: 'confirmed', source: 'https://admissions.wustl.edu/how-to-apply/application-deadlines/', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional; if scores are submitted, the last accepted test date is December. WashU superscores the SAT and ACT.', status: 'confirmed', source: 'https://admissions.wustl.edu/how-to-apply/application-deadlines/', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: 'WashU publishes a fee waiver request; the fee amount was not confirmed on the pages consulted.' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile for aid applicants'],
@@ -1695,9 +1700,10 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application', 'Coalition Application'],
     deadlines: [
-      { name: 'Early Decision I', date: '1 November', note: 'Binding; financial aid deadline 2 December; decisions by 15 December' },
-      { name: 'Early Decision II', date: '1 January', note: 'Binding; financial aid deadline 6 January; decisions by 15 February' },
-      { name: 'Regular Decision', date: '1 January', note: 'Financial aid deadline 10 February; decisions by 1 April' }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants to Emory College or Oxford College', conditions: 'Binding.', status: 'confirmed', source: 'https://apply.emory.edu/apply/first-year/plans-deadlines/index.html#early-decision', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decisions by 15 February.', status: 'confirmed', source: 'https://apply.emory.edu/apply/first-year/plans-deadlines/index.html', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Decisions released by 1 May.', status: 'confirmed', source: 'https://apply.emory.edu/apply/first-year/plans-deadlines/index.html', verified: '2026-09-23', note: null },
+      { name: 'Scholar programs consideration', kind: 'scholarship', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: false, appliesTo: 'Applicants who want to be considered for Emory Scholar programs', conditions: 'Emory states that Early Decision II and Regular Decision applicants must apply by 15 November to be considered for the scholar programmes.', status: 'confirmed', source: 'https://apply.emory.edu/financial-aid/types-of-aid/scholar-program.html', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: 75, currency: 'USD', waiverAvailableToInternational: null, waiver: 'A fee waiver can be requested instead of the $75 fee' },
     documents: ['Common or Coalition Application', 'School transcript and reports', 'Teacher recommendation', 'CSS Profile and IDOC documents for aid applicants'],
@@ -1806,9 +1812,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application', 'Coalition on Scoir', 'QuestBridge Application'],
     deadlines: [
-      { name: 'Early Decision I', entryTerm: 'Autumn 2027', dateISO: '2026-11-02', date: '2 November 2026', note: 'Binding; decisions in mid-December' },
-      { name: 'Early Decision II', entryTerm: 'Autumn 2027', dateISO: '2027-01-04', date: '4 January 2027', note: 'Binding; decisions in early February' },
-      { name: 'Regular Decision', entryTerm: 'Autumn 2027', dateISO: '2027-01-04', date: '4 January 2027', note: 'Decisions by 1 April' }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-02', date: '2 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decisions in mid-December.', status: 'confirmed', source: 'https://admissions.tufts.edu/apply/applying-to-tufts/checklist-and-deadlines/', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decisions in mid-February.', status: 'confirmed', source: 'https://admissions.tufts.edu/apply/applying-to-tufts/checklist-and-deadlines/', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional; decisions by 1 April.', status: 'confirmed', source: 'https://admissions.tufts.edu/apply/applying-to-tufts/checklist-and-deadlines/', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: true, waiver: 'Tufts waives the admission application fee for international citizens seeking need-based aid.' },
     documents: ['Common Application, Coalition on Scoir or QuestBridge application', 'School transcript', 'Letters of recommendation', 'ISFAA or CSS Profile for aid applicants'],
@@ -1906,10 +1912,10 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision I', date: '1 November', note: 'Binding' },
-      { name: 'Early Action', date: '1 November', note: 'Non-binding; decisions in mid-January' },
-      { name: 'Early Decision II', date: '1 January', note: 'Binding' },
-      { name: 'Regular Decision', date: '1 January', note: 'Decisions in mid-March; reply by 1 May' }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding: a signal that Richmond is your first choice.', status: 'confirmed', source: 'https://admissions.richmond.edu/process/early-decision/deadlines.html', verified: '2026-09-23', note: null },
+      { name: 'Early Action', kind: 'EA', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: false, appliesTo: 'First-year applicants', conditions: 'Not binding: apply early, hear early and decide by May.', status: 'confirmed', source: 'https://admissions.richmond.edu/process/', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding.', status: 'not-confirmed', source: 'https://admissions.richmond.edu/process/early-decision/deadlines.html', verified: '2026-09-23', note: 'The exact ED II date for this cycle was not restated on the pages read.' },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'The latest deadline; Richmond is test-optional for students entering in 2027.', status: 'not-confirmed', source: 'https://www.admissions.richmond.edu/process/regular-decision/deadlines.html', verified: '2026-09-23', note: 'The exact Regular Decision date for this cycle was not restated on the pages read.' },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: true, waiver: 'Richmond waives the application fee for international students and other applicants living abroad.' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'Certification of Financial Responsibility', 'CSS Profile for aid applicants'],
@@ -2020,9 +2026,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application', 'Coalition on Scoir', 'QuestBridge Application'],
     deadlines: [
-      { name: 'Fall Early Decision', date: '15 November', note: 'Binding; decisions in mid-December' },
-      { name: 'Winter Early Decision', date: '4 January', note: 'Binding; decisions in mid-February' },
-      { name: 'Regular Decision', date: '4 January', note: null }
+      { name: 'Fall Early Decision', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding.', status: 'confirmed', source: 'https://www.swarthmore.edu/admissions-aid/application-materials-deadlines', verified: '2026-09-23', note: null },
+      { name: 'Winter Early Decision', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Swarthmore recommends completing any testing by mid-December.', status: 'confirmed', source: 'https://www.swarthmore.edu/admissions-aid/application-materials-deadlines', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional; decisions are released online by 1 April. Swarthmore does not consider the SAT or ACT writing sections.', status: 'confirmed', source: 'https://www.swarthmore.edu/admissions-aid/application-materials-deadlines', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waivers are decided by Swarthmore, the Common Application, NACAC, the College Board or the ACT; anyone with financial need can check eligibility through SwatPass.' },
     documents: ['Common Application, Coalition on Scoir or QuestBridge application', 'Swarthmore short answer', 'School transcript and reports', 'Two academic teacher recommendations'],
@@ -2118,9 +2124,11 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application', 'Coalition on Scoir', 'QuestBridge Application'],
     deadlines: [
-      { name: 'Early Decision I — financial aid', date: '15 November', note: 'Published on Pomona’s financial aid deadline table' },
-      { name: 'Early Decision II — financial aid', date: '15 January', note: 'Published on Pomona’s financial aid deadline table' },
-      { name: 'Regular Decision — financial aid', date: '15 January', note: 'Published on Pomona’s financial aid deadline table' }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-08', date: '8 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. ED I and ED II are evaluated the same way; only the date differs.', status: 'confirmed', source: 'https://www.pomona.edu/admissions/paths-apply', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-08', date: '8 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding.', status: 'confirmed', source: 'https://www.pomona.edu/admissions/paths-apply', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-08', date: '8 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Pomona is permanently test-optional for first-year admission.', status: 'confirmed', source: 'https://www.pomona.edu/admissions/paths-apply', verified: '2026-09-23', note: null },
+      { name: 'Financial aid — Early Decision I', kind: 'aid', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: false, appliesTo: 'ED I applicants asking for aid', conditions: 'CSS Profile, FAFSA (where applicable) and tax documents.', status: 'confirmed', source: 'https://www.pomona.edu/financial-aid/applying-aid/application-materials-and-deadlines', verified: '2026-09-23', note: null },
+      { name: 'Financial aid — Early Decision II and Regular Decision', kind: 'aid', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'ED II and RD applicants asking for aid', conditions: 'CSS Profile, FAFSA (where applicable) and tax documents.', status: 'confirmed', source: 'https://www.pomona.edu/financial-aid/applying-aid/application-materials-and-deadlines', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: 80, currency: 'USD', waiverAvailableToInternational: null, waiver: 'The $80 fee is waived for aid applicants who complete the Pomona Access Pass form' },
     documents: ['Common, Coalition or QuestBridge application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile and IDOC documents for aid applicants'],
@@ -2215,9 +2223,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision I', date: '1 November', note: 'Binding' },
-      { name: 'Early Decision II', date: '1 January', note: 'Binding' },
-      { name: 'Regular Decision', date: '8 January', note: null }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding: for applicants whose first choice is Wellesley.', status: 'confirmed', source: 'https://www.wellesley.edu/admission-aid/apply/first-year-applicants', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; the same plan as ED I with later dates.', status: 'confirmed', source: 'https://www.wellesley.edu/admission-aid/apply/first-year-applicants', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-08', date: '8 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Wellesley remains test-optional for entry in fall 2027; about 45% of enrolling first-years applied without testing.', status: 'not-confirmed', source: 'https://www1.wellesley.edu/admission/apply/firstyear/datesdeadlines', verified: '2026-09-23', note: 'The Regular Decision date was not restated on the pages read for this cycle.' },
     ],
     applicationFee: { amount: 0, currency: 'USD', waiverAvailableToInternational: null, waiver: null, note: 'There is no fee to apply to Wellesley' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'Financial aid documents for aid applicants'],
@@ -2315,9 +2323,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision I', date: '2 November', note: 'Binding' },
-      { name: 'Early Decision II', date: '4 January', note: 'Binding' },
-      { name: 'Regular Decision', date: '5 January', note: null }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-02', date: '2 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding: you may not apply Early Decision elsewhere and must sign the Early Decision Commitment Statement.', status: 'confirmed', source: 'https://www.middlebury.edu/college/admissions/application-instructions-and-deadlines', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding.', status: 'confirmed', source: 'https://www.middlebury.edu/college/admissions/application-instructions-and-deadlines', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional; self-reported scores are accepted. Decisions in late March.', status: 'confirmed', source: 'https://www.middlebury.edu/college/admissions/application-instructions-and-deadlines', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: 0, currency: 'USD', waiverAvailableToInternational: null, waiver: null, note: 'From the 2026–27 application cycle Middlebury’s application is free' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile for aid applicants'],
@@ -2410,9 +2418,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision I', date: '15 November', note: 'Binding; international CSS Profile due the same day' },
-      { name: 'Early Decision II', date: '2 January', note: 'Binding; international CSS Profile due 4 January' },
-      { name: 'Regular Decision', date: '4 January', note: 'International CSS Profile due 15 January' }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; a decision follows about a month after the deadline.', status: 'confirmed', source: 'https://afa.colby.edu/apply/dates-and-deadlines/', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; a decision follows about a month after the deadline.', status: 'confirmed', source: 'https://afa.colby.edu/apply/dates-and-deadlines/', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional, but applicants whose first language and language of instruction are not English must send TOEFL, IELTS Academic or Duolingo results. Decisions by 1 April.', status: 'confirmed', source: 'https://afa.colby.edu/apply/dates-and-deadlines/', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile for aid applicants'],
@@ -2505,9 +2513,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision I', date: '15 November', note: 'Binding; notification 12 December' },
-      { name: 'Early Decision II', date: '4 January', note: 'Binding; notification by 30 January' },
-      { name: 'Regular Decision', date: '11 January', note: 'Notification by 1 April' }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; notification on 12 December.', status: 'confirmed', source: 'https://www.davidson.edu/admission-and-financial-aid/admission-aid-timeline', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; notification by 30 January.', status: 'confirmed', source: 'https://www.davidson.edu/admission-and-financial-aid/admission-aid-timeline', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-11', date: '11 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Notification by 1 April.', status: 'confirmed', source: 'https://www.davidson.edu/admission-and-financial-aid/admission-aid-timeline', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: true, waiver: 'There is no application fee for non-US citizens: it is waived automatically when you select your citizenship on the Common or Coalition Application.' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'Financial aid forms for aid applicants'],
@@ -2609,9 +2617,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application', 'QuestBridge Application'],
     deadlines: [
-      { name: 'Early Decision I', date: '15 November', note: 'Binding; financial aid forms due the same day; decisions mid-to-late December' },
-      { name: 'Early Decision II', date: '5 January', note: 'Binding; financial aid forms due the same day; decisions early February' },
-      { name: 'Regular Decision', date: '15 January', note: 'Financial aid forms due the same day; decisions late March or early April' }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Grinnell states its Early Decision admit rate has been about 33% against about 13% in Regular Decision.', status: 'confirmed', source: 'https://www.grinnell.edu/admission/apply/first-year/requirements', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding.', status: 'confirmed', source: 'https://www.grinnell.edu/admission/apply/first-year/requirements', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional, but applicants must state by the deadline whether they are submitting a score, and cannot change that afterwards.', status: 'confirmed', source: 'https://www.grinnell.edu/admission/apply/first-year/requirements', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: 0, currency: 'USD', waiverAvailableToInternational: null, waiver: null, note: 'Grinnell charges no application fee' },
     documents: ['Common Application (no supplement required)', 'Two teacher evaluations', 'Counsellor recommendation and secondary school report', 'Official school transcript', 'CSS Profile or ISFAA for aid applicants'],
@@ -2715,9 +2723,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application', 'Coalition Application'],
     deadlines: [
-      { name: 'Early Decision I — financial aid', date: '15 November', note: 'Published on Vassar’s international financial aid schedule' },
-      { name: 'Early Decision II — financial aid', date: '1 January', note: 'Published on Vassar’s international financial aid schedule' },
-      { name: 'Regular Decision — financial aid', date: '1 February', note: 'Published on Vassar’s international financial aid schedule' }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. If scores are submitted, the latest test date is November.', status: 'confirmed', source: 'https://www.vassar.edu/admission/apply/requirements/', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Latest test date December.', status: 'confirmed', source: 'https://www.vassar.edu/admission/apply/requirements/', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional; latest test date December.', status: 'confirmed', source: 'https://www.vassar.edu/admission/apply/requirements/', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: 'A fee waiver can be requested on the Common Application or the Coalition Application' },
     documents: ['Common or Coalition Application', 'School transcript and reports', 'Teacher recommendations', 'Financial aid forms for aid applicants'],
@@ -2811,9 +2819,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision I', date: '15 November', note: 'Binding' },
-      { name: 'Early Decision II', date: '4 January', note: 'Binding' },
-      { name: 'Regular Decision', date: '4 January', note: null }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; notification by 19 December.', status: 'confirmed', source: 'https://www.hamilton.edu/admission/apply/early-decision', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; notification by 15 February.', status: 'confirmed', source: 'https://www.hamilton.edu/admission/apply/early-decision', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional; self-reported scores are accepted. Notification in late March.', status: 'confirmed', source: 'https://www.hamilton.edu/admission/apply', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'Certification of Finances (all international applicants)', 'CSS Profile for aid applicants'],
@@ -2913,9 +2921,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision I', date: '15 November', note: 'Binding; financial aid application due the same day' },
-      { name: 'Early Decision II', date: '5 January', note: 'Binding; financial aid application due the same day' },
-      { name: 'Regular Decision', date: '10 January', note: 'Financial aid application due the same day' }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; notification by 15 December.', status: 'confirmed', source: 'https://www.haverford.edu/admission/applying/application-timeline', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; notification by 15 February.', status: 'confirmed', source: 'https://www.haverford.edu/admission/applying/application-timeline', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-10', date: '10 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional; any SAT or ACT scores should be sent before the deadline. Decisions in early April.', status: 'confirmed', source: 'https://www.haverford.edu/admission/applying/application-timeline', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: 'A school counsellor can request a fee waiver in a letter with the application' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile or Haverford’s International Student Financial Aid Application'],
@@ -3022,8 +3030,8 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application', 'QuestBridge Application'],
     deadlines: [
-      { name: 'Restrictive Early Action', entryTerm: 'Autumn 2027', dateISO: '2026-11-01', date: '1 November 2026', note: 'Decisions in mid-December' },
-      { name: 'Regular Decision', entryTerm: 'Autumn 2027', dateISO: '2027-01-04', date: '4 January 2027', note: 'Decisions in mid-March; reply by 1 May 2027' }
+      { name: 'Restrictive Early Action', kind: 'REA', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: false, appliesTo: 'First-year applicants', conditions: 'Not binding but restricted to first-choice applicants; all required materials and testing must be completed before 30 November. Decisions by mid-December; admitted students reply by 1 May 2027.', status: 'confirmed', source: 'https://www.admissions.caltech.edu/apply/first-year-applicants/deadlines', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'SAT or ACT is required. Notification in mid-March.', status: 'confirmed', source: 'https://www.admissions.caltech.edu/apply/first-year-applicants/deadlines', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: 85, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Aid applicants for whom the $85 fee is a hardship can have it waived; QuestBridge applicants are never charged' },
     documents: ['Common Application with Caltech’s supplemental essays', 'School transcript and reports', 'Two teacher recommendations (maths or science and humanities or social science)', 'SAT or ACT scores', 'English proficiency score where required'],
@@ -3122,8 +3130,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision', date: '2 November', note: 'Binding; decisions by 15 December. Not available for Drama, Music or BXA Design' },
-      { name: 'Regular Decision', date: '4 January', note: 'Decisions by 1 April; Drama and Music applicants apply by 1 December' }
+      { name: 'Early Decision', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-03', date: '3 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; notification by 15 December.', status: 'confirmed', source: 'https://www.cmu.edu/admission/admission/application-plans-deadlines', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'The main round for most applicants.', status: 'confirmed', source: 'https://www.cmu.edu/admission/admission/application-plans-deadlines', verified: '2026-09-23', note: null },
+      { name: 'Music and Drama applicants', kind: 'portfolio', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-12-01', date: '1 December 2026', binding: false, appliesTo: 'Applicants to Music and Drama programmes', conditions: 'Earlier deadline so auditions can be scheduled.', status: 'confirmed', source: 'https://www.cmu.edu/admission/admission/application-plans-deadlines', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: 75, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendation', 'English proficiency score for non-native speakers', 'Portfolio or audition for arts programmes'],
@@ -3141,7 +3150,7 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: 'required-alternatives', label: 'Depends on the college: SAT/ACT required for Computer Science, test-flexible elsewhere, optional for Fine Arts', note: 'For autumn 2027 the policy depends on the college: the School of Computer Science requires the SAT or ACT; the College of Fine Arts is test-optional; every other college is "test flexible", accepting the SAT, ACT, IB (predicted or final), AP, Cambridge A-Levels (predicted or final) or French Baccalaureate (predicted or final). SAT results are superscored; ACT results are not.' },
+    sat: { policy: 'required-alternatives', label: 'Depends on the college — required, test-flexible or test-optional', note: 'Carnegie Mellon sets the policy by college: the School of Computer Science requires the SAT or ACT, the College of Fine Arts is test-optional, and the other schools are test-flexible, meaning scores must be submitted but the applicant chooses which tests.' },
     act: { policy: 'required-alternatives', note: 'Accepted as one option; the School of Computer Science requires the SAT or ACT.' },
     otherTests: null,
     internationalQualifications: 'International qualifications are accepted and read in context.'
@@ -3217,8 +3226,8 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Georgetown Application'],
     deadlines: [
-      { name: 'Early Action', date: '1 November', note: 'Non-binding, but you may not apply Early Decision elsewhere; decisions by 15 December' },
-      { name: 'Regular Decision', date: '1 January', note: 'Decisions by 1 April' }
+      { name: 'Early Action', kind: 'EA', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: false, appliesTo: 'First-year applicants', conditions: 'Georgetown accepts either its own Georgetown Application or the Common Application, and requires SAT or ACT scores.', status: 'not-confirmed', source: 'https://uadmissions.georgetown.edu/first-year/application-requirements/', verified: '2026-09-23', note: 'The 2027-cycle dates were not restated on the pages read; treat the date as unconfirmed for this cycle.' },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'SAT or ACT scores are required.', status: 'not-confirmed', source: 'https://uadmissions.georgetown.edu/first-year/application-requirements/', verified: '2026-09-23', note: 'The 2027-cycle date was not restated on the pages read.' },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: true, waiver: 'Georgetown accepts fee waiver requests from any applicant, international applicants included, for whom the fee is a significant burden' },
     documents: ['Georgetown Application (not the Common Application)', 'Georgetown Writing Supplement: two short and two long essays', 'Academic credentials for all four years of secondary school', 'SAT or ACT scores', 'CSS Profile for aid applicants'],
@@ -3313,8 +3322,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Merit scholarship consideration', date: '1 December', note: 'Apply by this date to be considered for USC merit scholarships' },
-      { name: 'Regular Decision', date: '15 January', note: 'Final first-year deadline' }
+      { name: 'Early Action', kind: 'EA', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: false, appliesTo: 'First-year applicants', conditions: 'Applying by this date also puts you in the pool for USC merit scholarships.', status: 'confirmed', source: 'https://admission.usc.edu/prospective-students/how-to-apply/', verified: '2026-09-23', note: null },
+      { name: 'Performing arts majors (Dance, Dramatic Arts, Music)', kind: 'portfolio', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-12-01', date: '1 December 2026', binding: false, appliesTo: 'Applicants to performing arts majors', conditions: 'Applicants who apply by 1 December are still considered for merit scholarships.', status: 'confirmed', source: 'https://admission.usc.edu/prospective-students/how-to-apply/', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-10', date: '10 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Final deadline for all majors and programmes.', status: 'confirmed', source: 'https://admission.usc.edu/prospective-students/how-to-apply/', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application with USC questions', 'Official records from all secondary schools, with certified English translations', 'External exam results or predictions (IB, A-Levels, national exams)', 'Financial Statement of Personal or Family Support', 'Copy of passport', 'English proficiency score'],
@@ -3419,7 +3429,10 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Merit scholarship consideration', date: '1 December', note: 'International applicants must apply for admission by this date to be considered for merit scholarships' }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-02', date: '2 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. The application and the aid forms (CSS Profile and FAFSA) share this date; decision 15 December.', status: 'confirmed', source: 'https://www.bu.edu/admissions/apply/deadlines/', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decision 9 February.', status: 'confirmed', source: 'https://www.bu.edu/admissions/apply/deadlines/', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Decision 28 March; enrolment deposit 1 May.', status: 'confirmed', source: 'https://www.bu.edu/admissions/apply/deadlines/', verified: '2026-09-23', note: null },
+      { name: 'Merit scholarship consideration', kind: 'scholarship', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-12-01', date: '1 December 2026', binding: false, appliesTo: 'Applicants for certain BU merit scholarships', conditions: 'Some merit scholarships require submission by this date.', status: 'confirmed', source: 'https://www.bu.edu/admissions/apply/deadlines/', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations'],
@@ -3437,7 +3450,7 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: 'optional', note: 'BU is test-optional for first-year applicants through autumn 2028 and spring 2029, for all schools, colleges and scholarship programmes. Both tests are superscored.' },
+    sat: { policy: 'optional', note: 'Boston University states that it is test-optional for first-year applicants through the fall 2028 and spring 2029 intakes, across all of its undergraduate schools and colleges and all scholarship programmes.' },
     act: { policy: 'optional', note: 'Same as the SAT.' },
     otherTests: null,
     internationalQualifications: 'International qualifications are accepted and read in context.'
@@ -3524,9 +3537,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision I', date: '1 November', note: 'Binding; decisions by 15 December' },
-      { name: 'Early Decision II', date: '4 January', note: 'Binding; decisions by 15 February' },
-      { name: 'Regular Decision', date: '4 January', note: 'Decisions by 1 April; reply by 1 May' }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; notification by 15 December. Any tests should be taken by the October sitting.', status: 'confirmed', source: 'https://www.bc.edu/bc-web/admission/apply.html', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; notification by 15 February.', status: 'confirmed', source: 'https://www.bc.edu/bc-web/admission/apply.html', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Notification by 1 April; any tests should be taken by December.', status: 'confirmed', source: 'https://www.bc.edu/bc-web/admission/apply.html', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: 85, currency: 'USD', waiverAvailableToInternational: false, waiver: 'Fee waivers through the Common Application are for US citizens and permanent residents' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'English proficiency score for international applicants'],
@@ -3544,7 +3557,7 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: 'optional', note: 'Boston College is test-optional; scores that are sent are reviewed.' },
+    sat: { policy: 'optional', note: 'Boston College is test-optional: applicants who do not send scores receive full consideration, though the college encourages students who have taken the SAT or ACT to submit them and accepts self-reported scores.' },
     act: { policy: 'optional', note: 'Same as the SAT.' },
     otherTests: null,
     internationalQualifications: 'International qualifications are accepted and read in context.'
@@ -3616,9 +3629,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application', 'Coalition Application'],
     deadlines: [
-      { name: 'Early Decision I', date: '1 November', note: 'Binding' },
-      { name: 'Early Decision II', date: '1 January', note: 'Binding' },
-      { name: 'Regular Decision', date: '1 January', note: null }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. The application and supporting credentials must arrive by this date; decisions are released by 15 December.', status: 'confirmed', source: 'https://www.brandeis.edu/admissions/apply/dates.html', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Supporting materials may arrive until 15 January; decisions by 1 February.', status: 'confirmed', source: 'https://www.brandeis.edu/admissions/apply/dates.html', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional. Supporting materials may arrive until 15 January; decisions by 1 April.', status: 'confirmed', source: 'https://www.brandeis.edu/admissions/apply/dates.html', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common or Coalition Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile (code 3092) for aid applicants', 'Income and asset documents on request'],
@@ -3720,7 +3733,13 @@ window.UNIPATH.universities.push(
   },
   admissions: {
     platforms: ['Common Application', 'Coalition on Scoir'],
-    deadlines: [],
+    deadlines: [
+      { name: 'Early Action', kind: 'EA', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: false, appliesTo: 'First-year applicants', conditions: 'Not binding. Financial aid documents by 15 November; notification 19 December; enrolment decision by 1 May.', status: 'confirmed', source: 'https://case.edu/admission/apply/dates-deadlines', verified: '2026-09-23', note: null },
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Financial aid documents by 15 November; notification 5 December; enrolment by 12 December.', status: 'confirmed', source: 'https://case.edu/admission/apply/dates-deadlines', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Financial aid documents by 22 January; notification 6 February; enrolment one week after admission.', status: 'confirmed', source: 'https://case.edu/admission/apply/dates-deadlines', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Financial aid documents by 1 February; notification 20 March; enrolment by 1 May.', status: 'confirmed', source: 'https://case.edu/admission/apply/dates-deadlines', verified: '2026-09-23', note: null },
+      { name: 'Pre-Professional Scholars Program', kind: 'scholarship', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-12-01', date: '1 December 2026', binding: false, appliesTo: 'Applicants to the Pre-Professional Scholars Program', conditions: 'Separate programme deadline; notification 30 January.', status: 'confirmed', source: 'https://case.edu/admission/apply/dates-deadlines', verified: '2026-09-23', note: null },
+    ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application or Coalition on Scoir', 'School transcript and reports, with English translations', 'Recommendations with English translations', 'English language exam score for non-native speakers', 'CSS Profile (code 1105) for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
@@ -3821,8 +3840,11 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision I', date: '1 November', note: 'Binding' },
-      { name: 'Early Decision II', date: '5 January', note: 'Binding' }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; notification in mid-December.', status: 'confirmed', source: 'https://admissions.rochester.edu/applying/dates-and-deadlines/', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; notification in early February.', status: 'confirmed', source: 'https://admissions.rochester.edu/applying/dates-and-deadlines/', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional; Rochester states that omitting scores does not affect review or scholarship consideration.', status: 'confirmed', source: 'https://admissions.rochester.edu/applying/dates-and-deadlines/', verified: '2026-09-23', note: null },
+      { name: 'Financial aid documents — Early Decision I', kind: 'aid', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-12-01', date: '1 December 2026', binding: false, appliesTo: 'ED I applicants asking for aid', status: 'confirmed', source: 'https://admissions.rochester.edu/applying/dates-and-deadlines/', verified: '2026-09-23', note: null },
+      { name: 'Financial aid documents — Early Decision II', kind: 'aid', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: false, appliesTo: 'ED II applicants asking for aid', status: 'confirmed', source: 'https://admissions.rochester.edu/applying/dates-and-deadlines/', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: 50, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Application Fee Waiver Request Form for applicants facing hardship' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile for international aid applicants'],
@@ -3923,8 +3945,10 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision', date: '1 November', note: 'Binding' },
-      { name: 'Early Action', date: '10 November', note: 'Non-binding; apply early to be competitive for merit scholarships' }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Decision by 15 December; deposit by 15 January.', status: 'confirmed', source: 'https://admission.tulane.edu/apply/deadlines-forms', verified: '2026-09-23', note: null },
+      { name: 'Early Action', kind: 'EA', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-10', date: '10 November 2026', binding: false, appliesTo: 'First-year applicants', conditions: 'Not binding. Decision by 10 January; deposit by 1 May.', status: 'confirmed', source: 'https://admission.tulane.edu/apply/deadlines-forms', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Decision by 1 April; deposit by 1 May.', status: 'confirmed', source: 'https://admission.tulane.edu/apply/deadlines-forms', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Decision by 15 February; deposit by 1 March.', status: 'confirmed', source: 'https://admission.tulane.edu/apply/deadlines-forms', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and reports', 'CSS Profile for need-based aid', 'Tulane Declaration & Certification of Finances'],
@@ -3945,7 +3969,7 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: 'optional', note: 'SAT or ACT scores remain optional for autumn 2027 first-year admission, except for the Pathways to Medicine programme, which requires them. Tulane encourages scores of 1300+ SAT or 28+ ACT and treats tests or international exam results as a preferred credential for merit scholarships.' },
+    sat: { policy: 'optional', label: 'Test-optional, but scores are preferred for merit scholarships', note: 'Tulane states that SAT and ACT scores remain optional for fall 2027 first-year admission, but that test results — or AP, IB or Cambridge A-level results — are a preferred credential for applicants seeking academic merit scholarships.' },
     act: { policy: 'optional', note: 'Same as the SAT.' },
     otherTests: null,
     internationalQualifications: 'International qualifications are accepted and read in context.'
@@ -4035,7 +4059,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application', 'Coalition on Scoir'],
     deadlines: [
-      { name: 'Early Decision I — financial aid', date: '15 November', note: 'CSS Profile due for Early Decision I applicants' }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decisions in mid-December.', status: 'confirmed', source: 'https://www.smith.edu/admission-aid/apply-smith/first-year-applicants', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decisions in late January.', status: 'confirmed', source: 'https://www.smith.edu/admission-aid/apply-smith/first-year-applicants', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional; the midyear school report is due 15 February and decisions come in late March.', status: 'confirmed', source: 'https://www.smith.edu/admission-aid/apply-smith/first-year-applicants', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: 0, currency: 'USD', waiverAvailableToInternational: null, waiver: null, note: 'There is no application fee' },
     documents: ['Common or Coalition Application', 'School transcript and reports', 'Teacher recommendations', 'Midyear report', 'CSS Profile and translated income documents for aid applicants'],
@@ -4136,9 +4162,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision I', date: '15 November', note: 'Binding; notification in late December. Financial aid due the same day' },
-      { name: 'Early Decision II', date: '5 January', note: 'Binding; notification in late January. Financial aid due the same day' },
-      { name: 'Regular Decision', date: '15 January', note: 'Notification in mid-March. Financial aid due the same day' }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; notification in late December.', status: 'confirmed', source: 'https://www.mtholyoke.edu/admission/apply-undergraduate-first-year/application-deadlines-undergraduates', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; notification in late January.', status: 'confirmed', source: 'https://www.mtholyoke.edu/admission/apply-undergraduate-first-year/application-deadlines-undergraduates', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Notification in mid-March.', status: 'confirmed', source: 'https://www.mtholyoke.edu/admission/apply-undergraduate-first-year/application-deadlines-undergraduates', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: 0, currency: 'USD', waiverAvailableToInternational: null, waiver: null, note: 'There is no application fee for any option' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile for aid applicants'],
@@ -4156,7 +4182,7 @@ window.UNIPATH.universities.push(
   },
   academics: {
     gpa: null,
-    sat: { policy: 'optional', note: 'Submitting SAT and ACT results is optional.' },
+    sat: { policy: 'optional', label: 'Test-optional, except for some home-schooled applicants', note: 'Mount Holyoke is test-optional, but requires the SAT or ACT from home-schooled applicants who followed a self-study or online curriculum exclusively; that requirement can be waived individually for applicants with AP exams or college-level coursework.' },
     act: { policy: 'optional', note: 'Same as the SAT.' },
     otherTests: null,
     internationalQualifications: 'International qualifications are accepted and read in context.'
@@ -4231,9 +4257,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision I', date: '15 November', note: 'Binding; financial aid application due at the same time' },
-      { name: 'Early Decision II', date: '1 January', note: 'Binding; financial aid application due at the same time' },
-      { name: 'Regular Decision', date: '15 January', note: 'Financial aid application due at the same time' }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decision in late December.', status: 'confirmed', source: 'https://www.brynmawr.edu/admissions/first-year-admission-plans', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decision in mid-February.', status: 'not-confirmed', source: 'https://www.brynmawr.edu/admissions/first-year-admission-plans', verified: '2026-09-23', note: 'The exact ED II date was not restated on the pages read for this cycle.' },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Decision in mid-March.', status: 'not-confirmed', source: 'https://www.brynmawr.edu/admissions/first-year-admission-plans', verified: '2026-09-23', note: 'The exact Regular Decision date was not restated on the pages read for this cycle.' },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application with the Bryn Mawr Writing Supplement', 'Official transcripts and national exam results (IB, A-Level, etc.)', 'Counsellor recommendation and two teacher recommendations', 'Evidence of English proficiency', 'Mid-year grade report', 'Declaration of Finances form', 'CSS Profile for aid applicants'],
@@ -4331,8 +4357,8 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application', 'QuestBridge Application'],
     deadlines: [
-      { name: 'Early Decision', date: '1 November', note: 'Date used in the previous cycle; confirm for your entry year' },
-      { name: 'Regular Decision', date: '1 January', note: 'Date used in the previous cycle; confirm for your entry year' }
+      { name: 'Early Decision', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding: admitted students must enrol and withdraw other applications. Notification in mid-December. Barnard is test-optional for 2027 entry; if scores are sent, the test must be taken before the deadline and scores must arrive by 15 November.', status: 'not-confirmed', source: 'https://barnard.edu/admissions/application-rounds', verified: '2026-09-23', note: 'The pages read still showed the previous cycle’s dates; the 2027-entry test-optional policy is confirmed, the date is not.' },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Notification in late March. January test sittings are accepted if scores reach Barnard by 26 February; nothing is considered after 28 February.', status: 'not-confirmed', source: 'https://barnard.edu/admissions/application-rounds', verified: '2026-09-23', note: 'The pages read still showed the previous cycle’s dates.' },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and national exam results', 'Teacher recommendations', 'English proficiency evidence', 'Financial aid documents through the Barnard applicant portal'],
@@ -4429,9 +4455,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision I', date: '15 November', note: 'Binding; notification by 20 December' },
-      { name: 'Early Decision II', date: '10 January', note: 'Binding; notification by 15 February' },
-      { name: 'Regular Decision', date: '10 January', note: 'Notification by 1 April; reply by 1 May' }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; notification by 20 December.', status: 'confirmed', source: 'https://www.bates.edu/admission/apply/application-options/', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-10', date: '10 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; mid-year transcript due by 1 February.', status: 'confirmed', source: 'https://www.bates.edu/admission/apply/application-options/', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-10', date: '10 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Not binding; mid-year transcript due by 15 February. Bates has been test-optional since 1984.', status: 'confirmed', source: 'https://www.bates.edu/admission/apply/application-options/', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: 0, currency: 'USD', waiverAvailableToInternational: null, waiver: null, note: 'It is free for any student to apply to Bates' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'Official English proficiency score where required', 'Bates International Student Application for Financial Aid (BISAFA) for aid applicants'],
@@ -4520,9 +4546,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application', 'Coalition Application'],
     deadlines: [
-      { name: 'Early Decision I', date: '15 November', note: 'Binding; financial aid application due the same day' },
-      { name: 'Early Decision II', date: '1 January', note: 'Binding; financial aid application due the same day' },
-      { name: 'Regular Decision', date: '1 January', note: 'Financial aid application due 15 January' }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; notification by 15 December.', status: 'confirmed', source: 'https://www.wesleyan.edu/admission/application-process.html', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; notification by 15 February.', status: 'confirmed', source: 'https://www.wesleyan.edu/admission/application-process.html', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional: scores are considered if sent and ignored if not.', status: 'confirmed', source: 'https://www.wesleyan.edu/admission/application-process.html', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common or Coalition Application', 'School Report with actual or predicted exam results (A-Level, IB, French Baccalaureate and others)', 'Certified English translations of any documents not in English', 'International Student Certification of Finances', 'CSS Profile or ISFAA for aid applicants'],
@@ -4623,10 +4649,10 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application', 'Coalition Application'],
     deadlines: [
-      { name: 'Early Decision I', date: '1 November', note: 'Binding; financial aid due 1 December 2026' },
-      { name: 'Early Decision II', date: '5 January', note: 'Binding; financial aid due 15 January 2027' },
-      { name: 'Regular Decision', date: '5 January', note: 'Financial aid due 1 February 2027' },
-      { name: 'Johnson Scholarship application', entryTerm: 'Autumn 2027', dateISO: '2026-12-01', date: '1 December 2026', note: 'Required to be considered for any W&L scholarship; supporting materials by 15 December 2026' }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', time: '23:59', timezone: 'applicant’s local time', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Supplemental materials due 15 November; notification 20 December.', status: 'confirmed', source: 'https://www.wlu.edu/admissions/apply', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', time: '23:59', timezone: 'applicant’s local time', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Supplemental materials due 15 January; notification 1 February.', status: 'confirmed', source: 'https://www.wlu.edu/admissions/apply', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', time: '23:59', timezone: 'applicant’s local time', binding: false, appliesTo: 'First-year applicants', conditions: 'Supplemental materials due 1 February; notification 1 April.', status: 'confirmed', source: 'https://www.wlu.edu/admissions/apply', verified: '2026-09-23', note: null },
+      { name: 'Johnson Scholarship essay', kind: 'scholarship', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-12-01', date: '1 December 2026', time: '23:59', timezone: 'applicant’s local time', binding: false, appliesTo: 'Applicants for the Johnson Scholarship', conditions: 'W&L’s main merit award: full tuition, housing and meals for up to 10% of the entering class, plus $10,000 for a summer experience or study abroad. Supporting materials should arrive by 15 December.', status: 'confirmed', source: 'https://www.wlu.edu/admissions/apply', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Some applicants qualify to have the Common or Coalition Application fee waived' },
     documents: ['Common or Coalition Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile for need-based aid', 'Johnson Scholarship application for merit consideration'],
@@ -4734,9 +4760,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application', 'QuestBridge Application'],
     deadlines: [
-      { name: 'Early Decision I', date: '1 November', note: 'Binding; financial aid due the same day; notification in mid-December' },
-      { name: 'Early Decision II', date: '15 January', note: 'Binding; financial aid due the same day; notification in mid-February' },
-      { name: 'Regular Decision', date: '15 January', note: 'Financial aid due the same day; notification in late March' }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding.', status: 'confirmed', source: 'https://www.colgate.edu/admission-aid/apply', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding.', status: 'confirmed', source: 'https://www.colgate.edu/admission-aid/apply', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional; Colgate states applicants are at no disadvantage without scores.', status: 'confirmed', source: 'https://www.colgate.edu/admission-aid/apply', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: true, waiver: 'Colgate offers fee-free applications to international students.' },
     documents: ['Common Application', 'School transcript and grades', 'National or international exam results', 'Language proficiency evidence', 'CSS Profile for aid applicants (digital only)'],
@@ -4827,7 +4853,11 @@ window.UNIPATH.universities.push(
   },
   admissions: {
     platforms: ['Common Application'],
-    deadlines: [],
+    deadlines: [
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decisions by 15 December and enrolment deposit by 15 January. If scores are sent, they must arrive by 20 November.', status: 'confirmed', source: 'https://www.carleton.edu/admissions/apply/steps/materials/', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decisions by 15 February and deposit by 1 March. Scores, if sent, by 20 January.', status: 'confirmed', source: 'https://www.carleton.edu/admissions/apply/steps/materials/', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Carleton adopted a permanent test-optional policy in 2025; notification by 1 April.', status: 'confirmed', source: 'https://www.carleton.edu/admissions/apply/steps/materials/', verified: '2026-09-23', note: null },
+    ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and reports, with English translations', 'Teacher recommendations', 'Certification of Finances (all international applicants)', 'ISAFA or CSS Profile for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
@@ -4923,10 +4953,10 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application', 'QuestBridge Application'],
     deadlines: [
-      { name: 'Early Decision I', entryTerm: 'Autumn 2027', dateISO: '2026-11-01', date: '1 November 2026', note: 'Binding; priority financial aid 9 November; decision 6 December' },
-      { name: 'Early Action', entryTerm: 'Autumn 2027', dateISO: '2026-11-01', date: '1 November 2026', note: 'Non-binding; priority financial aid 9 November; decision 19 December' },
-      { name: 'Early Decision II', entryTerm: 'Autumn 2027', dateISO: '2027-01-01', date: '1 January 2027', note: 'Binding; priority financial aid 8 January; decision 31 January' },
-      { name: 'Regular Decision', entryTerm: 'Autumn 2027', dateISO: '2027-01-15', date: '15 January 2027', note: 'Priority financial aid 22 January; decision 14 March' }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding.', status: 'confirmed', source: 'https://www.macalester.edu/admissions/deadlines/', verified: '2026-09-23', note: null },
+      { name: 'Early Action', kind: 'EA', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: false, appliesTo: 'First-year applicants', conditions: 'Not binding.', status: 'not-confirmed', source: 'https://www.macalester.edu/admissions/early-action-decision/', verified: '2026-09-23', note: 'Macalester lists an Early Action round but its date was not restated on the pages read.' },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding.', status: 'confirmed', source: 'https://www.macalester.edu/admissions/deadlines/', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Decisions released in March.', status: 'confirmed', source: 'https://www.macalester.edu/admissions/deadlines/', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'Proof of funding', 'High school transcript', 'Two recommendation letters', 'Senior year grades'],
@@ -5025,9 +5055,10 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision I and Early Action', date: '1 November', note: 'Financial aid due the same day' },
-      { name: 'Early Decision II', date: '5 January', note: 'Binding; financial aid due the same day' },
-      { name: 'Regular Decision', date: '15 January', note: 'Financial aid due the same day' }
+      { name: 'Early Decision I and Early Action', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants to the College of Arts and Sciences (Early Action is College-only)', conditions: 'Early Decision is binding; Early Action is not. Oberlin runs Early Decision twice a year and Early Action for the College only.', status: 'not-confirmed', source: 'https://www.oberlin.edu/admissions-and-aid/arts-and-sciences/first-year-applicants', verified: '2026-09-23', note: 'The 2027-cycle dates were not restated on the pages read.' },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding second early round.', status: 'not-confirmed', source: 'https://www.oberlin.edu/admissions-and-aid/arts-and-sciences/first-year-applicants', verified: '2026-09-23', note: 'The 2027-cycle date was not restated on the pages read.' },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'One Regular Decision round a year.', status: 'not-confirmed', source: 'https://www.oberlin.edu/admissions-and-aid/arts-and-sciences/first-year-applicants', verified: '2026-09-23', note: 'The 2027-cycle date was not restated on the pages read.' },
+      { name: 'Conservatory of Music application', kind: 'portfolio', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-12-01', date: '1 December 2026', binding: false, appliesTo: 'Applicants to the Conservatory of Music', conditions: 'Separate, earlier deadline for Conservatory applicants because of auditions.', status: 'confirmed', source: 'https://www.oberlin.edu/admissions-and-aid/conservatory/undergraduate-applicants', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile (code 1587) or ISAFA with parental income documents for aid applicants'],
@@ -5125,9 +5156,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision I', date: '15 November', note: 'Binding; decisions mid-December' },
-      { name: 'Early Decision II', date: '15 January', note: 'Binding; decisions mid-February' },
-      { name: 'Regular Decision', date: '15 January', note: 'Decisions late March' }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decisions in mid-December.', status: 'confirmed', source: 'https://www.kenyon.edu/admissions-aid/apply-to-kenyon/deadlines-requirements/', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decisions in early to mid-February.', status: 'confirmed', source: 'https://www.kenyon.edu/admissions-aid/apply-to-kenyon/deadlines-requirements/', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional; decisions in late March. Kenyon charges no application fee and accepts the Common App or Coalition App.', status: 'confirmed', source: 'https://www.kenyon.edu/admissions-aid/apply-to-kenyon/deadlines-requirements/', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'English proficiency score', 'CSS Profile (code 1370) or Kenyon’s international financial aid application'],
@@ -5222,9 +5253,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision I', date: '15 November', note: 'Binding; financial aid due the same day' },
-      { name: 'Early Decision II', date: '15 January', note: 'Binding; financial aid due the same day' },
-      { name: 'Regular Decision', date: '15 January', note: 'Financial aid due the same day' }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding: admitted students must enrol and withdraw other applications. Decisions about a month after the deadline. Denison does not offer Early Action.', status: 'confirmed', source: 'https://denison.edu/campus/admission/apply-for-admission', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decisions about a month after the deadline.', status: 'confirmed', source: 'https://denison.edu/campus/admission/apply-for-admission', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Decisions in mid-March.', status: 'confirmed', source: 'https://denison.edu/campus/admission/apply-for-admission', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'Denison Certification of Finances (free; Denison does not use the CSS Profile for international applicants)'],
@@ -5323,9 +5354,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision I', date: '15 November', note: 'Binding; notified within 30 days' },
-      { name: 'Early Decision II', date: '15 January', note: 'Binding; notified within 30 days' },
-      { name: 'Regular Decision', date: '15 January', note: 'Notified by 1 April' }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; a decision follows within 30 days. Applicants can switch into ED I until 9 December.', status: 'confirmed', source: 'https://www.fandm.edu/apply/early-decision-application-checklist.html', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; a decision follows within 30 days. Applicants can switch into ED II until 3 February.', status: 'confirmed', source: 'https://www.fandm.edu/apply/early-decision-application-checklist.html', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Notification by 1 April.', status: 'confirmed', source: 'https://www.fandm.edu/apply/regular-decision-application-checklist.html', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'English proficiency score where required', 'CSS Profile or F&M’s International Aid Form for aid applicants'],
@@ -5420,9 +5451,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision I', date: '15 November', note: 'Binding' },
-      { name: 'Early Decision II', date: '15 January', note: 'Binding' },
-      { name: 'Regular Decision', date: '15 January', note: null }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', time: '23:59', timezone: 'applicant’s local time', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; notification in mid-December.', status: 'confirmed', source: 'https://admissions.lafayette.edu/deadlines-and-forms/', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', time: '23:59', timezone: 'applicant’s local time', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; notification in mid-February. A Regular Decision application sent by 15 January can be converted to ED II until 1 February.', status: 'confirmed', source: 'https://admissions.lafayette.edu/deadlines-and-forms/', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', time: '23:59', timezone: 'applicant’s local time', binding: false, appliesTo: 'First-year applicants', conditions: 'Decisions released in late March through the Lafayette portal.', status: 'confirmed', source: 'https://admissions.lafayette.edu/deadlines-and-forms/', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile for aid applicants'],
@@ -5512,8 +5543,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision I — financial aid', date: '1 November', note: 'CSS Profile due by the Early Decision I application deadline' },
-      { name: 'Early Decision II and Regular Decision — financial aid', date: '15 January', note: 'CSS Profile due by the application deadline' }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Lehigh is test-optional indefinitely for first-year and transfer applicants.', status: 'confirmed', source: 'https://www2.lehigh.edu/admissions/apply', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding.', status: 'confirmed', source: 'https://www2.lehigh.edu/admissions/apply', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional.', status: 'not-confirmed', source: 'https://www2.lehigh.edu/admissions/apply', verified: '2026-09-23', note: 'The Regular Decision date was not restated on the pages read for this cycle.' },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'International Undergraduate Financial Certification Form', 'CSS Profile for aid applicants'],
@@ -5603,10 +5635,10 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision I', date: '1 November', note: 'Binding; deadline for Premier Scholarship consideration' },
-      { name: 'Early Action', date: '1 November', note: 'Non-binding; deadline for Premier Scholarship consideration' },
-      { name: 'Early Decision II', date: '5 January', note: 'Binding' },
-      { name: 'Regular Decision', date: '5 January', note: null }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Financial aid deadline 1 December; notification in late December.', status: 'confirmed', source: 'https://admissions.miami.edu/undergraduate/application-process/options-and-deadlines/freshman/', verified: '2026-09-23', note: null },
+      { name: 'Early Action', kind: 'EA', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: false, appliesTo: 'First-year applicants', conditions: 'Not binding. Financial aid deadline 1 December; notification late January to early February.', status: 'confirmed', source: 'https://admissions.miami.edu/undergraduate/application-process/options-and-deadlines/freshman/', verified: '2026-09-23', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; notification in late February.', status: 'confirmed', source: 'https://admissions.miami.edu/undergraduate/application-process/options-and-deadlines/freshman/', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Notification by 1 April. SAT or ACT scores are required from the fall 2026 intake onwards.', status: 'confirmed', source: 'https://admissions.miami.edu/undergraduate/application-process/options-and-deadlines/freshman/', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'English proficiency evidence', 'CSS Profile for need-based aid'],

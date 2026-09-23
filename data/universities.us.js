@@ -33,8 +33,10 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application (required)', 'Printable paper forms also accepted'],
     deadlines: [
-      { name: 'Restrictive Early Action', date: '1 November', note: 'Decisions released mid-December' },
-      { name: 'Regular Decision', date: '1 January', note: 'Decisions released by the end of March' }
+      { name: 'Restrictive Early Action', kind: 'REA', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', time: '23:59', timezone: 'applicant’s local time', binding: false, appliesTo: 'First-year applicants', conditions: 'Not binding, but restricted: you may not apply early to other private US universities. SAT/ACT results are needed by the end of November. Decisions are released in mid-December.', status: 'confirmed', source: 'https://college.harvard.edu/admissions/apply/application-timeline', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', time: '23:59', timezone: 'applicant’s local time', binding: false, appliesTo: 'First-year applicants', conditions: 'Decisions are released at the end of March.', status: 'confirmed', source: 'https://college.harvard.edu/admissions/apply/application-timeline', verified: '2026-09-23', note: null },
+      { name: 'Financial aid application — Early Action', kind: 'aid', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: false, appliesTo: 'Early Action applicants asking for aid', conditions: 'Submitting by this date gives aid information when decisions are released in mid-December.', status: 'confirmed', source: 'https://college.harvard.edu/admissions/apply/application-timeline', verified: '2026-09-23', note: null },
+      { name: 'Financial aid application — Regular Decision', kind: 'aid', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-02-01', date: '1 February 2027', binding: false, appliesTo: 'Regular Decision applicants asking for aid', conditions: 'Aid information arrives in late March with the decision.', status: 'confirmed', source: 'https://college.harvard.edu/admissions/apply/application-timeline', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: 95, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waiver available on request' },
     documents: [
@@ -138,8 +140,8 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['MIT\'s own application portal (apply.mitadmissions.org)'],
     deadlines: [
-      { name: 'Early Action', date: '1 November', note: 'Decisions mid-December. Tests must be completed by 30 November.' },
-      { name: 'Regular Action', date: '4 January', note: 'Decisions mid-March. Tests must be completed by 31 December; English tests by 31 January.' }
+      { name: 'Early Action', kind: 'EA', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: false, appliesTo: 'First-year applicants', conditions: 'Not binding. MIT uses its own application portal, not the Common App. Required tests must be taken before 30 November.', status: 'confirmed', source: 'https://mitadmissions.org/apply/firstyear/deadlines-requirements/', verified: '2026-09-23', note: null },
+      { name: 'Regular Action', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Required tests must be taken before 31 December.', status: 'confirmed', source: 'https://mitadmissions.org/apply/firstyear/deadlines-requirements/', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: 75, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waiver available' },
     documents: ['MIT application', 'Secondary school report and transcript', 'Two teacher evaluations'],
@@ -236,8 +238,8 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application', 'Coalition Application on SCOIR', 'QuestBridge Application'],
     deadlines: [
-      { name: 'Single-Choice Early Action', date: '1 November', note: 'Non-binding — you may hold other applications if admitted' },
-      { name: 'Regular Decision', date: '2 January', note: null }
+      { name: 'Single-Choice Early Action', kind: 'REA', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: false, appliesTo: 'First-year applicants', conditions: 'Not binding, but you may not apply Early Action or Early Decision elsewhere, with the exceptions Yale lists. Decisions come in mid-December, including possible deferral to Regular Decision.', status: 'confirmed', source: 'https://admissions.yale.edu/timelines', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-02', date: '2 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Decisions come in late March; admitted students reply by 1 May.', status: 'confirmed', source: 'https://admissions.yale.edu/timelines', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Yale does not issue its own fee waivers, but applying for free is straightforward through the eligibility criteria of your chosen application platform. U.S. military veterans and active-duty service members receive automatic waivers.' },
     documents: ['Application with essays', 'School Report with official transcript covering all completed secondary school courses', 'Mid-Year Report with first-marking-period senior grades'],
@@ -337,9 +339,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision I', date: '1 November', note: 'Binding' },
-      { name: 'Early Decision II', date: '1 January', note: 'Binding' },
-      { name: 'Regular Decision', date: '5 January', note: null }
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. CSS Profile for aid by 10 November.', status: 'not-confirmed', source: 'https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply/all-freshmen-applicants.html', verified: '2026-09-23', note: 'The ED I date was not restated on the pages read for this cycle.' },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. CSS Profile for aid by 10 January.', status: 'confirmed', source: 'https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply/all-freshmen-applicants.html', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Testing is optional for this cycle. CSS Profile for aid by 1 February.', status: 'confirmed', source: 'https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply/all-freshmen-applicants.html', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: 85, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waivers available through the Common Application' },
     documents: ['Common Application', 'Secondary school transcript', 'School report'],
@@ -432,8 +434,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Action', date: '1 November', note: 'Non-binding. Decisions released by 29 January.' },
-      { name: 'Regular Decision', date: '1 February', note: null }
+      { name: 'Early Decision', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decisions by 24 December.', status: 'confirmed', source: 'https://admissions.umich.edu/apply/first-year-applicants/requirements-deadlines', verified: '2026-09-23', note: null },
+      { name: 'Early Action', kind: 'EA', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: false, appliesTo: 'First-year applicants', conditions: 'Not binding; decisions by 29 January.', status: 'confirmed', source: 'https://admissions.umich.edu/apply/first-year-applicants/requirements-deadlines', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-02-01', date: '1 February 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Not binding; decisions can run into early April. Michigan is test-optional for this cycle.', status: 'not-confirmed', source: 'https://admissions.umich.edu/apply/first-year-applicants/requirements-deadlines', verified: '2026-09-23', note: 'The Regular Decision date was not restated on the pages read for this cycle.' },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'Secondary school transcript', 'School report'],
@@ -525,7 +528,10 @@ window.UNIPATH.universities.push(
   },
   admissions: {
     platforms: ['ASU application', 'Common Application'],
-    deadlines: [],
+    deadlines: [
+      { name: 'Priority application deadline', kind: 'priority', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: false, appliesTo: 'International first-year applicants', conditions: 'ASU publishes this as the priority date for the following intake; the enrolment deposit follows on 1 December.', status: 'confirmed', source: 'https://admission.asu.edu/apply/international/first-year', verified: '2026-09-23', note: null },
+      { name: 'Enrolment deposit', kind: 'reply', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-12-01', date: '1 December 2026', binding: false, appliesTo: 'Admitted students', conditions: 'Deposit date tied to the priority round.', status: 'confirmed', source: 'https://admission.asu.edu/apply/international/first-year', verified: '2026-09-23', note: null },
+    ],
     applicationFee: { amount: 90, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Secondary school transcripts', 'Proof of English proficiency', 'Financial documentation for the I-20'],
     recommendations: null,
@@ -648,8 +654,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['UA application', 'Common Application'],
     deadlines: [
-      { name: 'Spring semester entry', date: '2 November', note: 'Application and official score reports due' },
-      { name: 'Summer / Fall semester entry', date: '4 December', note: 'Application and official score reports due' }
+      { name: 'Priority deadline — summer and autumn 2027 entry', kind: 'priority', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-12-04', date: '4 December 2026', binding: false, appliesTo: 'First-year applicants, including international students', conditions: 'Alabama states that the application and official score reports must arrive by this date for priority scholarship consideration; GPA is counted through the end of junior year. Later applicants are considered for scholarships only if funds remain.', status: 'confirmed', source: 'https://admissions.ua.edu/apply/', verified: '2026-09-23', note: null },
+      { name: 'Priority deadline — spring 2027 entry', kind: 'priority', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-02', date: '2 November 2026', binding: false, appliesTo: 'Applicants for the spring semester', conditions: 'Separate, earlier intake.', status: 'confirmed', source: 'https://admissions.ua.edu/apply/', verified: '2026-09-23', note: null },
+      { name: 'Automatic merit scholarship notification', kind: 'scholarship', entryTerm: 'Autumn', entryYear: '2027', date: 'February 2027', binding: false, appliesTo: 'Admitted first-year students entering in summer or autumn', conditions: 'Alabama states that automatic merit scholarship information is released in early February.', status: 'not-confirmed', source: 'https://afford.ua.edu/scholarships/oos-international-freshman/', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: [
@@ -752,7 +759,9 @@ window.UNIPATH.universities.push(
   },
   admissions: {
     platforms: ['Berea College application'],
-    deadlines: [],
+    deadlines: [
+      { name: 'International application deadline', kind: 'intake', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-30', date: '30 November 2026', binding: false, appliesTo: 'International applicants', conditions: 'All parts of the application must arrive by this date; decisions are released no later than 31 March. Berea states that admitted international students receive aid covering 100% of tuition, housing, food and fees.', status: 'confirmed', source: 'https://www.berea.edu/admissions/admission-information/apply/checklist-items/international-faqs', verified: '2026-09-23', note: null },
+    ],
     applicationFee: { amount: 0, currency: 'USD', waiverAvailableToInternational: null, waiver: null, note: 'Berea does not charge an application fee' },
     documents: ['Secondary school transcript', 'Evidence of financial need', 'English proficiency evidence'],
     recommendations: null,
@@ -849,12 +858,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['UC Application (shared by all nine UC campuses)'],
     deadlines: [
-      { name: 'Application opens', entryTerm: 'Fall 2027', dateISO: '2026-08-01', date: '1 August 2026', note: 'You can start the UC Application from this date' },
-      { name: 'Application filing period', entryTerm: 'Fall 2027', displayDate: '1 October – 30 November 2026', date: '1 October – 30 November', note: 'One application covers every UC campus you choose' },
-      { name: 'Admission decisions', entryTerm: 'Fall 2027', date: 'March 2027', note: 'UC says some campuses may release decisions earlier' },
-      { name: 'Statement of Intent to Register', entryTerm: 'Fall 2027', dateISO: '2027-05-01', date: '1 May 2027', note: 'Deadline for admitted first-year students to accept' },
-      { name: 'English proficiency evidence', date: '31 January', note: 'Proficiency must be satisfied by this date' },
-      { name: 'Optional InitialView interview', date: '30 November', note: 'Optional, and it cannot replace a required English test score' }
+      { name: 'UC application filing period', kind: 'intake', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-30', date: '1–30 November 2026', binding: false, appliesTo: 'All freshman applicants to any UC campus', conditions: 'One UC application covers all nine campuses. You can start work on it from 1 August; the filing period is 1–30 November.', status: 'confirmed', source: 'https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-freshman/', verified: '2026-09-23', note: null },
+      { name: 'Admission decisions', kind: 'decision', entryTerm: 'Autumn', entryYear: '2027', date: 'March 2027', binding: false, appliesTo: 'Freshman applicants', conditions: 'UC campuses release freshman decisions in March.', status: 'not-confirmed', source: 'https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-freshman/', verified: '2026-09-23', note: null },
+      { name: 'Statement of Intent to Register', kind: 'reply', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-05-01', date: '1 May 2027', binding: false, appliesTo: 'Admitted students', conditions: 'Deadline to accept an offer.', status: 'not-confirmed', source: 'https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-freshman/', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: 95, currency: 'USD', waiverAvailableToInternational: null, waiver: 'International applicants pay $95 per campus; those already enrolled at a US institution may qualify for the $80 fee. UC does not describe fee waivers for international applicants.' },
     documents: [
@@ -968,9 +974,11 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Single-Choice Early Action', date: '1 November', note: 'Financial aid application due 9 November; decisions in mid-December' },
-      { name: 'Regular Decision', date: '1 January', note: 'Financial aid application due 1 February; decisions in late March' },
-      { name: 'Reply deadline', date: '1 May', note: 'Same for both rounds' }
+      { name: 'Single-Choice Early Action', kind: 'REA', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: false, appliesTo: 'First-year applicants', conditions: 'A non-binding process: you may not apply to early programmes at other private US institutions. The graded written paper is due the same day; the optional arts supplement by 6 November. Decisions in mid-December.', status: 'confirmed', source: 'https://admission.princeton.edu/apply/first-year-application-dates-deadlines', verified: '2026-09-23', note: null },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'The graded written paper is due the same day; the optional arts supplement by 8 January. Decisions in late March.', status: 'confirmed', source: 'https://admission.princeton.edu/apply/first-year-application-dates-deadlines', verified: '2026-09-23', note: null },
+      { name: 'Financial aid application — Early Action', kind: 'aid', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-09', date: '9 November 2026', binding: false, appliesTo: 'Early Action applicants asking for aid', status: 'confirmed', source: 'https://admission.princeton.edu/apply/first-year-application-dates-deadlines', verified: '2026-09-23', note: null },
+      { name: 'Financial aid application — Regular Decision', kind: 'aid', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-02-01', date: '1 February 2027', binding: false, appliesTo: 'Regular Decision applicants asking for aid', status: 'confirmed', source: 'https://admission.princeton.edu/apply/first-year-application-dates-deadlines', verified: '2026-09-23', note: null },
+      { name: 'Reply deadline', kind: 'reply', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-05-01', date: '1 May 2027', binding: false, appliesTo: 'Admitted students', conditions: 'Candidate response to accept the offer.', status: 'confirmed', source: 'https://admission.princeton.edu/apply/first-year-application-dates-deadlines', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Princeton offers its own fee waiver to low-income applicants and to anyone serving or who has served in the US military, with no counsellor approval needed. Waivers through the Common Application, ACT, College Board and NACAC are also accepted.' },
     documents: [

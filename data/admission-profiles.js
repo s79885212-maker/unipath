@@ -216,7 +216,7 @@
       internationalQualifications: 'Applicants should meet university entrance requirements in their own country and present outstanding secondary or leaving-exam results.'
     },
     admissions: {
-      deadlines: [{ name: 'International applicants', date: '30 November', note: null }]
+      deadlines: [{ name: 'International application deadline', kind: 'intake', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-30', date: '30 November 2026', binding: false, appliesTo: 'International applicants', conditions: 'All parts of the application must arrive by this date; decisions are released no later than 31 March.', status: 'confirmed', source: 'https://www.berea.edu/admissions/admission-information/apply/checklist-items/international-faqs', verified: '2026-09-23', note: null }]
     },
     sources: [{ label: 'International applicant information (English minimums, deadline)', url: 'https://www.berea.edu/admissions/admission-information/apply/checklist-items/international-faqs' }],
     stats: {
