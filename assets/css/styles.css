@@ -871,3 +871,8 @@ button.badge { cursor: pointer; font: inherit; }
   .filters-box[open] > summary { margin-bottom: 10px; }
   .filters-box .filter-head h2 { font-size: 1rem; }
 }
+
+/* The initials and the "no photo" label sit under the photograph; when a
+   photo loads it covers them, and if it fails to load it removes itself and
+   they show through again. */
+.media img { z-index: 3; }
