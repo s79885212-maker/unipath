@@ -1279,8 +1279,12 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['TIU E-Track online application'],
     deadlines: [
-      { name: 'E-Track April (spring) intake', kind: 'intake', entryTerm: 'April', entryYear: '2027', date: 'Not confirmed', status: 'not-confirmed', binding: false, appliesTo: 'E-Track undergraduate applicants', conditions: 'TIU publishes an admission schedule with several rounds for each intake; the 2027 dates were not read during this check', source: 'https://www.tiu.ac.jp/etrack/admissions/admissionschedule/', verified: '2026-09-23', note: null },
-      { name: 'E-Track September (fall) intake', kind: 'intake', entryTerm: 'September', entryYear: '2027', date: 'Not confirmed', status: 'not-confirmed', binding: false, appliesTo: 'E-Track undergraduate applicants', conditions: 'Second annual intake', source: 'https://www.tiu.ac.jp/etrack/admissions/admissionschedule/', verified: '2026-09-23', note: null }
+      { name: 'April 2027 intake \u2014 round 1', kind: 'application-window', entryTerm: 'April', entryYear: '2027', dateISO: '2026-07-01', date: '17 June \u2013 1 July 2026', binding: false, appliesTo: 'First-year E-Track applicants', conditions: 'Results 3 August 2026; enrollment fee by 21 August 2026 and tuition by 11 September 2026', status: 'confirmed', source: 'https://www.tiu.ac.jp/etrack/wp-content/uploads/application_guideline_for_first_year.pdf', verified: '2026-09-24', note: null },
+      { name: 'April 2027 intake \u2014 round 2', kind: 'application-window', entryTerm: 'April', entryYear: '2027', dateISO: '2026-09-02', date: '19 August \u2013 2 September 2026', binding: false, appliesTo: 'First-year E-Track applicants', conditions: 'Results 5 October 2026; enrollment fee by 23 October 2026 and tuition by 6 November 2026', status: 'confirmed', source: 'https://www.tiu.ac.jp/etrack/wp-content/uploads/application_guideline_for_first_year.pdf', verified: '2026-09-24', note: null },
+      { name: 'April 2027 intake \u2014 round 3', kind: 'application-window', entryTerm: 'April', entryYear: '2027', dateISO: '2026-11-04', date: '14 October \u2013 4 November 2026', binding: false, appliesTo: 'First-year E-Track applicants', conditions: 'Results 14 December 2026; enrollment fee by 7 January 2027', status: 'confirmed', source: 'https://www.tiu.ac.jp/etrack/wp-content/uploads/application_guideline_for_first_year.pdf', verified: '2026-09-24', note: null },
+      { name: 'September 2027 intake \u2014 round 1', kind: 'application-window', entryTerm: 'September', entryYear: '2027', dateISO: '2026-12-09', date: '18 November \u2013 9 December 2026', binding: false, appliesTo: 'First-year E-Track applicants', conditions: 'Enrollment fee by 19 February 2027 and tuition by 26 February 2027', status: 'confirmed', source: 'https://www.tiu.ac.jp/etrack/wp-content/uploads/application_guideline_for_first_year.pdf', verified: '2026-09-24', note: null },
+      { name: 'September 2027 intake \u2014 round 2', kind: 'application-window', entryTerm: 'September', entryYear: '2027', dateISO: '2027-02-17', date: '27 January \u2013 17 February 2027', binding: false, appliesTo: 'First-year E-Track applicants', conditions: 'Enrollment fee by 16 April 2027 and tuition by 23 April 2027', status: 'confirmed', source: 'https://www.tiu.ac.jp/etrack/wp-content/uploads/application_guideline_for_first_year.pdf', verified: '2026-09-24', note: null },
+      { name: 'September 2027 intake \u2014 round 3', kind: 'application-window', entryTerm: 'September', entryYear: '2027', dateISO: '2027-04-07', date: '17 March \u2013 7 April 2027', binding: false, appliesTo: 'First-year E-Track applicants', conditions: 'Enrollment fee by 1 June 2027', status: 'confirmed', source: 'https://www.tiu.ac.jp/etrack/wp-content/uploads/application_guideline_for_first_year.pdf', verified: '2026-09-24', note: null }
     ],
     applicationFee: { amount: null, currency: 'JPY', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check. A one-time 40,000 yen alumni association fee is added to the first tuition invoice.' },
     documents: ['School transcripts and graduation certificate', 'English proficiency evidence', 'E-Track application form'],
@@ -1290,11 +1294,14 @@ window.UNIPATH.universities.push(
     notes: ['Applying for admission and for the tuition reduction scholarship is a single process - there is no separate scholarship application.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
-    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    waiver: 'Japanese language ability is not required; English evidence requirements are set in the application guidelines.',
-    note: 'The E-Track application guidelines list the accepted English evidence; the scores were not read during this check.'
+    ielts: { min: 6, recommended: null, note: 'E-Track asks for IELTS Academic 6.0 overall. IELTS Indicator is accepted; the One Skill Retake is not.' },
+    toefl: { min: 72, recommended: null, scales: [{ period: 'pre2026', min: 72, note: 'TOEFL 72 on the 0\u2013120 scale.' }, { period: 'from2026', min: 4, note: 'TOEFL 4.0 on the 1\u20136 scale. The Special Home Edition is accepted; MyBest scores are not.' }], note: 'TOEFL 72 on the old scale or 4.0 on the new one; institutional code 44353.' },
+    duolingo: { min: 115, recommended: null, note: 'Duolingo English Test 115.' },
+    otherTests: 'Pearson PTE Academic 50, EIKEN Pre-1st, TOEIC L&R 780 (institutional and daily tests not accepted), SAT Evidence-Based Reading and Writing 540, ACT English 22, and IB English A (HL or SL) or English B (HL) at 4.',
+    waiver: null,
+    note: 'The IELTS, TOEFL, PTE, EIKEN, TOEIC and Duolingo results must have been taken within two years of the application date.',
+    source: 'https://www.tiu.ac.jp/etrack/wp-content/uploads/application_guideline_for_first_year.pdf',
+    verified: '2026-09-24'
   },
   academics: {
     gpa: null,
@@ -1336,7 +1343,7 @@ window.UNIPATH.universities.push(
     { label: 'E-Track scholarships', url: 'https://www.tiu.ac.jp/etrack/admissions/reductions/' },
     { label: 'E-Track tuition and fees', url: 'https://www.tiu.ac.jp/etrack/admissions/tuition/' }
   ],
-  verification: { level: 'partial', checked: ['English-taught degrees','scholarship structure','intakes','alumni fee','E-Track tuition for 2027 entry'], unconfirmed: ['English test scores','2027 deadline dates','application fee'] },
+  verification: { level: 'partial', checked: ['English-taught degrees','scholarship structure','intakes','alumni fee','E-Track tuition for 2027 entry','english (IELTS, TOEFL, Duolingo, PTE, TOEIC, SAT, ACT and IB minimums)','2027 application rounds for both intakes'], unconfirmed: ['application fee'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1688,7 +1695,7 @@ window.UNIPATH.universities.push(
   languageOfInstruction: 'Japanese, with an English-taught curriculum (HGP) and English-heavy tracks',
   programs: ['economics','business','law','social-sciences'],
   englishTaughtPrograms: [],
-  programNote: 'The Hitotsubashi University Global Education Program (HGP) is an English-taught curriculum, and the Global Leaders Program in the Faculty of Economics states that 60% or more of required credits can be taken in English — but a full English-only bachelor was not confirmed during this check.',
+  programNote: 'Hitotsubashi states that it does not currently offer English-only undergraduate programmes, and that the entrance examination is conducted in Japanese with application documents in Japanese only. The Global Education Program (HGP) is an English-taught curriculum, and the Global Leaders Program in the Faculty of Economics states that 60% or more of required credits can be taken in English, but the degree itself is not English-only.',
   links: {
     website: 'https://www.hit-u.ac.jp/eng/',
     admissions: 'https://www.hit-u.ac.jp/eng/admissions/',
@@ -1747,7 +1754,7 @@ window.UNIPATH.universities.push(
     { label: 'Tuition and fees', url: 'https://www.hit-u.ac.jp/eng/ryugaku/tuition.html' },
     { label: 'English-taught courses (HGP)', url: 'https://international.hit-u.ac.jp/en/courses/' }
   ],
-  verification: { level: 'partial', checked: ['admission route and its calendar pattern','English-taught curriculum status'], unconfirmed: ['whether a full bachelor can be completed in English','exact tuition on the university page','English test scores','2027 dates','scholarships'] },
+  verification: { level: 'partial', checked: ['admission route and its calendar pattern','English-taught curriculum status','language of instruction (no English-only undergraduate programme; the entrance exam is in Japanese)'], unconfirmed: ['exact tuition on the university page','English test scores','2027 dates','scholarships'] },
   lastVerified: '2026-09-23'
 },
 
@@ -2170,11 +2177,14 @@ window.UNIPATH.universities.push(
     notes: ['KUAS states that tuition and admission fees are the same regardless of nationality; only a scholarship changes what a student pays.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
-    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    waiver: null,
-    note: 'Accepted English evidence is listed in the admission pages; the scores were not read during this check.'
+    ielts: { min: 5.5, recommended: null, note: 'The Faculty of Engineering asks for IELTS Academic 5.5 overall.' },
+    toefl: { min: 75, recommended: null, scales: [{ period: 'pre2026', min: 75, note: 'TOEFL iBT 75, including the Home Edition and MyBest scores.' }], note: 'TOEFL iBT 75; the Home Edition and MyBest scores are accepted.' },
+    duolingo: { min: 105, recommended: null, note: 'Duolingo English Test total of 105.' },
+    otherTests: 'Pearson PTE Academic 50.',
+    waiver: 'A waiver can be granted when the most recent three years of formal education were conducted entirely in English and the Medium of Instruction letter meets the requirements in the application guidelines.',
+    note: 'Standardised testing is mandatory for the Faculty of Engineering: every applicant must submit a score from an accepted test unless they hold a waiver.',
+    source: 'https://www.kuas.ac.jp/en/admission/under-faq/',
+    verified: '2026-09-24'
   },
   academics: {
     gpa: null,
@@ -2211,7 +2221,7 @@ window.UNIPATH.universities.push(
     { label: 'How to apply (undergraduate)', url: 'https://www.kuas.ac.jp/en/admission/under-eligibility/' },
     { label: 'Faculty of Engineering', url: 'https://www.kuas.ac.jp/en/academics/eng/' }
   ],
-  verification: { level: 'partial', checked: ['English-medium degree','entry qualifications','fee parity by nationality','scholarship eligibility','school fees from the 2027 academic year'], unconfirmed: ['English scores','2027 dates','application fee'] },
+  verification: { level: 'partial', checked: ['English-medium degree','entry qualifications','fee parity by nationality','scholarship eligibility','school fees from the 2027 academic year','english (IELTS, TOEFL, PTE and Duolingo minimums for engineering)'], unconfirmed: ['2027 dates','application fee'] },
   lastVerified: '2026-09-23'
 },
 
