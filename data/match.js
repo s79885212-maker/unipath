@@ -55,6 +55,16 @@ window.UNIPATH.match = {
     'temple-university-japan': { currency: 'JPY', basis: 'total', min: 3500000, max: 3500000, note: 'University estimate including living costs for two semesters' },
     'miyazaki-international-college': { currency: 'JPY', basis: 'tuition', min: 680000, max: 680000, note: 'Published 2022–23 figures, before international waivers' },
     'gist':                    { currency: 'KRW', basis: 'tuition', min: 7214000, max: 7214000, note: 'Fully supported for admitted international students' },
+
+    /* Added 2026-09-24 after confirming the figure on the university's own pages. */
+    'lse':                     { currency: 'GBP', basis: 'tuition', min: 30400, max: 41900, note: '2027/28 Overseas rate, fixed at the year-of-entry level' },
+    'university-of-nottingham':{ currency: 'GBP', basis: 'tuition', min: 26200, max: 34800, note: '2027/28; medicine and veterinary medicine cost more' },
+    'akita-international-university': { currency: 'JPY', basis: 'tuition', min: 896000, max: 896000, note: 'From April 2027 enrolment' },
+    'rikkyo-university':       { currency: 'JPY', basis: 'tuition', min: 1903500, max: 1903500, note: 'GLAP tuition and other fees' },
+    'doshisha-university':     { currency: 'JPY', basis: 'tuition', min: 1194000, max: 1194000, note: 'ILA tuition and facilities fee for 2027 entry' },
+    'kyoto-university-advanced-science': { currency: 'JPY', basis: 'tuition', min: 2045000, max: 2045000, note: 'School fees from the 2027 academic year' },
+    'tokyo-international-university': { currency: 'JPY', basis: 'tuition', min: 1420000, max: 1720000, note: 'E-Track tuition plus the operations fee, by major' },
+    'handong-global-university': { currency: 'KRW', basis: 'tuition', min: 6342000, max: 8136000, note: 'Two semesters at the Fall 2025 rates, by area of study' },
     /* United States — cost of attendance for 2026–27 */
     'harvard-university':      { currency: 'USD', basis: 'total', min: 95134, max: 100134 },
     'mit':                     { currency: 'USD', basis: 'total', min: 92760, max: 92760 },
