@@ -972,11 +972,13 @@ window.UNIPATH.universities.push(
     notes: ['Kyushu states that students on the international programmes can receive an exemption of half the tuition for the first year if they meet the conditions.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
-    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    ielts: { min: 6, recommended: null, note: 'Kyushu accepts IELTS 6.0 for its English-taught undergraduate programmes.' },
+    toefl: { min: 79, recommended: null, scales: [{ period: 'pre2026', min: 79, note: 'TOEFL iBT 79. Kyushu accepts scores from a single test date only, not MyBest scores.' }], note: 'TOEFL iBT 79, from a single test date; MyBest scores are not accepted.' },
+    duolingo: { min: null, recommended: null, note: 'Not listed among the accepted tests.' },
     waiver: null,
-    note: 'The application instructions list the accepted English evidence; the scores were not read during this check.'
+    note: 'Kyushu runs five English-taught undergraduate programmes. Selection has a preliminary document screening and a secondary stage.',
+    source: 'https://www.kyushu-u.ac.jp/en/admission/faculty/foreign/foreign10/',
+    verified: '2026-09-24'
   },
   academics: {
     gpa: null,
@@ -1012,7 +1014,7 @@ window.UNIPATH.universities.push(
     { label: 'Scholarships', url: 'https://www.kyushu-u.ac.jp/en/admission/fees/scholarships/' },
     { label: 'Tuition and fees', url: 'https://www.kyushu-u.ac.jp/en/admission/fees/expenses' }
   ],
-  verification: { level: 'partial', checked: ['English-taught programmes','scholarships','previous-cycle application window'], unconfirmed: ['2027 application dates','English test scores','application fee'] },
+  verification: { level: 'partial', checked: ['English-taught programmes','scholarships','previous-cycle application window','english (IELTS and TOEFL minimums)'], unconfirmed: ['2027 application dates','application fee'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1051,11 +1053,14 @@ window.UNIPATH.universities.push(
     notes: ['Applicants who pass the university screening can receive a full or partial exemption from tuition and the matriculation fee.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
-    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    ielts: { min: 5, recommended: 6, note: 'Requirements are set per programme. The Special Integrated Science Course asks for IELTS 5.0 overall with 5.0 or more in every component; the OUSSEP route publishes IELTS 6.0.' },
+    toefl: { min: 60, recommended: 80, scales: [{ period: 'pre2026', min: 60, note: 'TOEFL iBT 60 for the Special Integrated Science Course; the OUSSEP route publishes 80.' }], note: 'TOEFL iBT 60 for the Special Integrated Science Course.' },
+    duolingo: { min: null, recommended: null, note: 'Not listed among the accepted tests.' },
+    otherTests: 'TOEIC 700 or higher is accepted for the Special Integrated Science Course, and Cambridge English B2 on the OUSSEP route.',
     waiver: null,
-    note: 'The application guidelines list the accepted English evidence; the scores were not read during this check.'
+    note: 'Osaka publishes the requirement separately for each English-taught degree programme, so the figure that applies depends on the course.',
+    source: 'https://www.sci.osaka-u.ac.jp/en/wp-content/uploads/2020/09/11-SISC-Guidelines_2025-1.pdf',
+    verified: '2026-09-24'
   },
   academics: {
     gpa: null,
@@ -1088,7 +1093,7 @@ window.UNIPATH.universities.push(
     { label: 'Tuition fees and matriculation fee', url: 'https://www.osaka-u.ac.jp/en/campus/tuition/tuition.html' },
     { label: 'Financial support for English-taught undergraduate students', url: 'https://www.osaka-u.ac.jp/en/campus/tuition/scholar/support' }
   ],
-  verification: { level: 'partial', checked: ['English-taught degrees','registration period for April 2027','fee exemption route'], unconfirmed: ['English test scores','exact tuition for this university','application fee'] },
+  verification: { level: 'partial', checked: ['English-taught degrees','registration period for April 2027','fee exemption route','english (confirmed programme examples)'], unconfirmed: ['exact tuition for this university','application fee'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1127,11 +1132,13 @@ window.UNIPATH.universities.push(
     notes: ['For the October 2026 intake Hokkaido waived the whole enrolment fee and the first-semester tuition for ISP students who do not hold a MEXT scholarship.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
-    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    waiver: null,
-    note: 'The ISP application guidelines list the accepted English evidence.'
+    ielts: { min: 6, recommended: null, note: 'The Integrated Science Program asks for IELTS Academic 6.0 or higher.' },
+    toefl: { min: 79, recommended: null, scales: [{ period: 'pre2026', min: 79, note: 'TOEFL iBT 79 or higher, including the Home Edition. Only test-date scores count, not MyBest Scores.' }], note: 'TOEFL iBT 79 or higher; only test-date scores are accepted.' },
+    duolingo: { min: 110, recommended: null, note: 'Duolingo English Test 110 or higher is accepted.' },
+    waiver: 'Applicants can be exempt with a Certificate of Primary Language of Instruction stating English, or with four or more years of secondary or higher education taught primarily in English.',
+    note: 'Test results must be from within two years of the online registration deadline.',
+    source: 'https://www.oia.hokudai.ac.jp/isp/prospective-students/how-to-apply/',
+    verified: '2026-09-24'
   },
   academics: {
     gpa: null,
@@ -1166,7 +1173,7 @@ window.UNIPATH.universities.push(
     { label: 'ISP — how to apply', url: 'https://www.oia.hokudai.ac.jp/isp/prospective-students/how-to-apply/' },
     { label: 'Student fees', url: 'https://www.global.hokudai.ac.jp/admissions/student-fees/' }
   ],
-  verification: { level: 'partial', checked: ['English-taught programme','fee waivers','previous-cycle deadline'], unconfirmed: ['2027 application dates','English test scores','application fee'] },
+  verification: { level: 'partial', checked: ['English-taught programme','fee waivers','previous-cycle deadline','english (IELTS, TOEFL and Duolingo minimums)'], unconfirmed: ['2027 application dates','application fee'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1368,11 +1375,14 @@ window.UNIPATH.universities.push(
     notes: ['The matriculation fee differs by residence: 282,000 yen for applicants from Akita Prefecture and 423,000 yen for everyone else.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'A TOEFL score can be sent to AIU directly by ETS; the minimum was not read during this check.' },
-    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    waiver: null,
-    note: 'Applicants must submit one of the accepted English proficiency scores listed in the guidelines.'
+    ielts: { min: 6, recommended: null, note: 'AIU accepts IELTS 6.0 for degree-seeking international admission; an original score report is required, and photocopies or downloaded data are not accepted.' },
+    toefl: { min: 61, recommended: null, scales: [{ period: 'pre2026', min: 61, note: 'TOEFL iBT 61, submitted as an original score report. Scores can be sent to AIU directly by ETS.' }], note: 'TOEFL iBT 61 is the published minimum for the international admission route.' },
+    duolingo: { min: null, recommended: null, note: 'Not listed among the accepted tests.' },
+    otherTests: 'TOEIC L&R plus S&W 1100, EIKEN Grade Pre-1, GTEC CBT 1000, GTEC Advanced 1000, TEAP 300, TEAP CBT 700 and Cambridge B2 First 170 are also accepted.',
+    waiver: 'Native speakers of English, and applicants from education systems where the first language is English and teaching is entirely in English, are exempt on providing an official document proving the medium of instruction.',
+    note: 'The score must still be valid within two years of the last day of the application period.',
+    source: 'https://admission.aiu.ac.jp/wp/wp-content/uploads/2025/09/E_2026_International_youkou.pdf',
+    verified: '2026-09-24'
   },
   academics: {
     gpa: null,
@@ -1408,7 +1418,7 @@ window.UNIPATH.universities.push(
     { label: 'Undergraduate admissions', url: 'https://admission.aiu.ac.jp/en/ug/' },
     { label: 'Academic year 2026 admission information for international students (PDF)', url: 'https://admission.aiu.ac.jp/wp/wp-content/uploads/2025/09/E_2026_International_youkou.pdf' }
   ],
-  verification: { level: 'partial', checked: ['English-taught degree','matriculation fees','selection method','annual tuition from April 2027'], unconfirmed: ['English minimum scores','2027 application dates','scholarships'] },
+  verification: { level: 'partial', checked: ['English-taught degree','matriculation fees','selection method','annual tuition from April 2027','english (IELTS, TOEFL and the accepted test list)'], unconfirmed: ['2027 application dates','scholarships'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1448,11 +1458,14 @@ window.UNIPATH.universities.push(
     notes: ['GLAP students pay no tuition at the host university during the compulsory study-abroad period, but travel and accommodation there are their own cost.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
+    ielts: { min: 5.5, recommended: null, note: 'GLAP asks for an IELTS Academic overall band score of 5.5 or above. Rikkyo\u2019s other international routes publish a higher figure of 6.5.' },
+    toefl: { min: null, recommended: 94, scales: [{ period: 'pre2026', min: null, recommended: 94, note: 'TOEFL is accepted; Rikkyo publishes iBT 94 (or 4.5 in each section on the new 1\u20136 scale) for its other international admission routes, and the GLAP figure was not confirmed during this check.' }], note: 'Accepted; the GLAP minimum was not confirmed during this check.' },
     duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    otherTests: 'Cambridge English Qualifications 160 or above, EIKEN 2,600 or above and GTEC 1,180 or above are accepted for GLAP.',
     waiver: null,
-    note: 'The GLAP application guide lists the accepted English evidence; the scores were not read during this check.'
+    note: 'GLAP publishes its accepted tests and scores on the programme admission page for each entry year.',
+    source: 'https://glap.rikkyo.ac.jp/en/admission/index.html',
+    verified: '2026-09-24'
   },
   academics: {
     gpa: null,
@@ -1487,7 +1500,7 @@ window.UNIPATH.universities.push(
     { label: 'Rikkyo international admission', url: 'https://en.admission.rikkyo.ac.jp/' },
     { label: 'Admissions schedule', url: 'https://en.admission.rikkyo.ac.jp/schedule/' }
   ],
-  verification: { level: 'partial', checked: ['English-taught programme','study-abroad tuition rule','intakes','GLAP tuition and admission fee'], unconfirmed: ['English scores','2027 dates','scholarships','application fee'] },
+  verification: { level: 'partial', checked: ['English-taught programme','study-abroad tuition rule','intakes','GLAP tuition and admission fee','english (GLAP IELTS, Cambridge, EIKEN and GTEC minimums)'], unconfirmed: ['2027 dates','scholarships','application fee'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1527,11 +1540,13 @@ window.UNIPATH.universities.push(
     notes: ['Ritsumeikan states that tuition and fees are expected to rise by about 5–7% a year.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
+    ielts: { min: 6.5, recommended: null, note: 'The confirmed figure is for the American University\u2013Ritsumeikan Joint Degree Program: IELTS 6.5 with 6.0 in each component. IELTS Online is not accepted, and other English-medium programmes publish their own levels.' },
+    toefl: { min: 80, recommended: null, scales: [{ period: 'pre2026', min: 80, note: 'TOEFL iBT 80 with 20 in each section, or TOEFL PBT 550, for the Joint Degree Program. Only single-test-date scores count, not MyBest scores.' }], note: 'TOEFL iBT 80 with 20 in each section for the Joint Degree Program; MyBest scores are not accepted.' },
     duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    waiver: null,
-    note: 'The admission handbook lists the accepted English evidence; the scores were not read during this check.'
+    waiver: 'No English test is required from applicants whose most recent six years of formal education before enrolment were conducted and instructed only in English.',
+    note: 'Tests must have been taken within two years before the last day of the application period. Ritsumeikan has published temporary changes to its English proficiency requirements, so check the programme handbook.',
+    source: 'https://en.ritsumei.ac.jp/e-ug/apply/howto.html/',
+    verified: '2026-09-24'
   },
   academics: {
     gpa: null,
@@ -1566,7 +1581,7 @@ window.UNIPATH.universities.push(
     { label: 'Scholarships', url: 'https://en.ritsumei.ac.jp/e-ug/financial_info/scholarships.html/' },
     { label: 'Application round announcement', url: 'https://en.ritsumei.ac.jp/e-ug/news/article.html/?id=297' }
   ],
-  verification: { level: 'partial', checked: ['tuition','English-medium programmes','one confirmed application round','tuition reduction scheme'], unconfirmed: ['remaining 2027 rounds','English test scores','application fee'] },
+  verification: { level: 'partial', checked: ['tuition','English-medium programmes','one confirmed application round','tuition reduction scheme','english (confirmed Joint Degree Program scores and waiver)'], unconfirmed: ['remaining 2027 rounds','application fee'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1606,11 +1621,13 @@ window.UNIPATH.universities.push(
     notes: ['Doshisha states that all incoming international students on a college visa are considered for a tuition reduction.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
+    ielts: { min: 6.5, recommended: null, note: 'The ILA asks for IELTS Academic 6.5 or above. IELTS on Computer and IELTS for UKVI (Academic) are accepted; IELTS Online is not.' },
+    toefl: { min: 85, recommended: null, scales: [{ period: 'pre2026', min: 85, note: 'TOEFL iBT 85 or above, institution code 7078. The Home Edition and Special Home Edition are no longer accepted.' }], note: 'TOEFL iBT 85 or above; Home Edition scores are no longer accepted.' },
     duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    waiver: null,
-    note: 'The ILA application guide lists the accepted English evidence; the scores were not read during this check.'
+    waiver: 'Native speakers of English and applicants with 12 or more years of education in English are exempt from submitting a score.',
+    note: 'Official score reports must be sent to the ILA by the testing institution \u2014 electronic reports and photocopies are not accepted \u2014 and scores must be no more than two years old at the deadline.',
+    source: 'https://ila.doshisha.ac.jp/ila/en/admissions/requirements.html',
+    verified: '2026-09-24'
   },
   academics: {
     gpa: null,
@@ -1653,7 +1670,7 @@ window.UNIPATH.universities.push(
     { label: 'ILA application requirements', url: 'https://ila.doshisha.ac.jp/en/admissions/requirements.html' },
     { label: 'English-based degree programmes', url: 'https://intad.doshisha.ac.jp/intad/en/english_program/offered_english.html' }
   ],
-  verification: { level: 'partial', checked: ['English-taught degree','intake size','tuition reduction for visa holders','ILA tuition for 2027 entry','Doshisha Merit Scholarship bands'], unconfirmed: ['English scores','2027 dates','application fee'] },
+  verification: { level: 'partial', checked: ['English-taught degree','intake size','tuition reduction for visa holders','ILA tuition for 2027 entry','Doshisha Merit Scholarship bands','english (IELTS and TOEFL minimums, accepted versions and waiver)'], unconfirmed: ['2027 dates','application fee'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1840,7 +1857,8 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Meiji English Track online application'],
     deadlines: [
-      { name: 'English Track admission (September intake)', kind: 'intake', entryTerm: 'September', entryYear: '2027', date: 'Not confirmed', status: 'not-confirmed', binding: false, appliesTo: 'English Track applicants', conditions: 'The April intake of English Track students in the School of Global Japanese Studies was discontinued from academic year 2026, so applicants should check which intakes remain', source: 'https://www.meiji.ac.jp/cip/english/undergraduate/nippon/englishtrack/admissions.html', verified: '2026-09-23', note: null }
+      { name: 'English Track online application (September 2026 intake)', kind: 'application-window', entryTerm: 'September', entryYear: '2026', dateISO: '2026-03-04', date: '19 February \u2013 4 March 2026', time: '14:59', timezone: 'JST', binding: false, appliesTo: 'English Track applicants to the School of Global Japanese Studies', conditions: 'Supporting documents were due by 11 March 2026 at 16:59 JST', status: 'previous-cycle', source: 'https://www.meiji.ac.jp/cip/english/undergraduate/nippon/englishtrack/admissions.html', verified: '2026-09-24', note: 'Published for the cycle before the one this profile covers; shown as the pattern to expect.' },
+      { name: 'English Track admission (September 2027 intake)', kind: 'intake', entryTerm: 'September', entryYear: '2027', date: 'Not confirmed', status: 'not-confirmed', binding: false, appliesTo: 'English Track applicants', conditions: 'Meiji states that the application guidelines for September 2027 admission are expected around December 2026', source: 'https://www.meiji.ac.jp/cip/english/undergraduate/nippon/englishtrack/admissions.html', verified: '2026-09-24', note: 'The April intake of English Track students in the School of Global Japanese Studies was discontinued from academic year 2026, so applicants should check which intakes remain.' }
     ],
     applicationFee: { amount: null, currency: 'JPY', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
     documents: ['School transcripts and graduation certificate', 'English proficiency evidence', 'Documents listed in the English Track admission guidelines'],
@@ -1923,11 +1941,14 @@ window.UNIPATH.universities.push(
     notes: ['Tuition is paid in two instalments and the first payment falls due after arrival on campus.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
-    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    waiver: 'No Japanese language proficiency is needed for the Discovery Program.',
-    note: 'Accepted English evidence is listed in the application guide; the scores were not read during this check.'
+    ielts: { min: null, recommended: null, note: 'IELTS is accepted, but Okayama states that the Discovery Program has no minimum required scores: English is assessed from test scores, writing samples and interviews together.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'TOEFL iBT is accepted, with no published minimum. Tests taken at home are not accepted.' },
+    duolingo: { min: null, recommended: null, note: 'Not listed among the accepted tests.' },
+    otherTests: 'Cambridge English, EIKEN, GTEC (Advanced, Basic, Core or CBT), TEAP, TEAP CBT, TOEIC L&R with S&W, and an IB English score including a predicted score, are all accepted.',
+    waiver: 'Applicants who received their education primarily in English in the most recent five years do not have to submit an English qualification.',
+    note: 'The absence of a minimum does not mean the test is optional: a score must be submitted unless the applicant is exempt, and home-taken certifications are not accepted. No Japanese language proficiency is needed for the Discovery Program.',
+    source: 'https://discovery.okayama-u.ac.jp/en/prospective_students/admission/international-application/',
+    verified: '2026-09-24'
   },
   academics: {
     gpa: null,
@@ -1961,7 +1982,7 @@ window.UNIPATH.universities.push(
     { label: 'Discovery Program - international application', url: 'https://discovery.okayama-u.ac.jp/en/prospective_students/admission/international-application/' },
     { label: 'Discovery Program - scholarships', url: 'https://discovery.okayama-u.ac.jp/en/prospective_students/s/' }
   ],
-  verification: { level: 'partial', checked: ['English-taught degree','tuition and admission fee','entry qualification routes','MEXT coverage'], unconfirmed: ['English minimum scores','2027 application dates','application fee'] },
+  verification: { level: 'partial', checked: ['English-taught degree','tuition and admission fee','entry qualification routes','MEXT coverage','english (accepted tests and the no-minimum policy)'], unconfirmed: ['2027 application dates','application fee'] },
   lastVerified: '2026-09-23'
 },
 
@@ -2000,11 +2021,14 @@ window.UNIPATH.universities.push(
     notes: ['Kwansei Gakuin states that tuition for 2027 entrants had not been finalised when this was checked.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
-    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    waiver: 'The route is designed for applicants whose first language is English or who can show a high level of English as a second language.',
-    note: 'Exact accepted tests and scores are in the application handbook, which was not read during this check.'
+    ielts: { min: 6, recommended: null, note: 'The School of International Studies asks for IELTS 6.0 or higher from applicants whose first language is not English.' },
+    toefl: { min: 71, recommended: null, scales: [{ period: 'pre2026', min: 71, note: 'TOEFL iBT 71 or higher. The TOEFL iBT Home Edition is not accepted.' }], note: 'TOEFL iBT 71 or higher; the Home Edition is not accepted.' },
+    duolingo: { min: null, recommended: null, note: 'Not listed among the accepted tests.' },
+    otherTests: 'TOEIC L&R 730 or higher, and EIKEN pre-first grade or higher.',
+    waiver: 'Applicants who graduated, or expect to graduate, from an institution teaching in English are exempt, provided they had at least three years of education there.',
+    note: 'Scores must be from a test taken within two years before the application, except for EIKEN.',
+    source: 'https://www.kwansei.ac.jp/en/assets/International_Admission_2026_Application_Handbook.pdf',
+    verified: '2026-09-24'
   },
   academics: {
     gpa: null,
@@ -2033,7 +2057,7 @@ window.UNIPATH.universities.push(
     { label: 'Admission and tuition fees - School of International Studies', url: 'https://www.kwansei.ac.jp/en/academics/undergraduate/international-studies/admission.html' },
     { label: 'International Admission application handbook 2026 (PDF)', url: 'https://www.kwansei.ac.jp/en/assets/International_Admission_2026_Application_Handbook.pdf' }
   ],
-  verification: { level: 'partial', checked: ['English-based degree route','compulsory Japanese course','fee publication status'], unconfirmed: ['tuition amounts','English scores','2027 dates','scholarships','application fee'] },
+  verification: { level: 'partial', checked: ['English-based degree route','compulsory Japanese course','fee publication status','english (IELTS, TOEFL, TOEIC and EIKEN minimums and waiver)'], unconfirmed: ['tuition amounts','2027 dates','scholarships','application fee'] },
   lastVerified: '2026-09-23'
 },
 
