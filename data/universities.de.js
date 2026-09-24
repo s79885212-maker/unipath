@@ -915,11 +915,14 @@ window.UNIPATH.universities.push(
     notes: ['IU states that a student visa requires proof of about €992 a month in living costs, which is €11,904 for a year.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not confirmed during this check. IU requires proof of English competency for its English-taught programmes but the accepted scores were not read.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
-    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    waiver: 'Not confirmed during this check.',
-    note: 'Documents must be submitted in English or German, with an official translation otherwise.'
+    ielts: { min: 6, recommended: null, note: 'IU accepts IELTS Academic with at least 6.0 points as proof of English for its English-taught programmes.' },
+    toefl: { min: 80, recommended: null, scales: [{ period: 'pre2026', min: 80, note: 'TOEFL iBT taken at a test centre, at least 80 points.' }], note: 'TOEFL iBT (test centre) with at least 80 points is accepted.' },
+    duolingo: { min: null, recommended: null, note: 'Not listed among the accepted certificates.' },
+    otherTests: 'Cambridge B2 First with a minimum score of 169 is accepted.',
+    waiver: 'Applicants from a country where English is the official and educational language can prove their English through citizenship instead of a test.',
+    note: 'Proof must not be older than two years. An internal online English exam is offered to applicants without an accepted certificate.',
+    source: 'https://www.iu.org/bachelor/international-management/',
+    verified: '2026-09-24'
   },
   academics: {
     gpa: null,
@@ -959,7 +962,7 @@ window.UNIPATH.universities.push(
     { label: 'Entry requirements', url: 'https://www.iu.org/start-studying/entry-requirements/' },
     { label: 'On-campus degrees in Germany', url: 'https://www.iu.org/on-campus/on-campus-degrees/' }
   ],
-  verification: { level: 'partial', checked: ['application fee','registration fee','intakes','visa living-cost requirement','tuition (published programme price and discounts)'], unconfirmed: ['English score requirements','deadline dates','scholarship conditions'] },
+  verification: { level: 'partial', checked: ['english (IELTS, TOEFL and Cambridge scores)','application fee','registration fee','intakes','visa living-cost requirement','tuition (published programme price and discounts)'], unconfirmed: ['deadline dates','scholarship conditions'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1079,11 +1082,14 @@ window.UNIPATH.universities.push(
     notes: ['Saxony-Anhalt abolished long-term tuition fees from winter semester 2020/21; a €250 per semester second-degree fee can apply to students who already hold a degree at the same level.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not confirmed during this check for the BA International Business.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
+    ielts: { min: null, recommended: null, note: 'IELTS is accepted for the BA International Business, but Anhalt publishes a numeric minimum only for TOEFL on that programme; the IELTS figure was not confirmed during this check.' },
+    toefl: { min: 88, recommended: null, scales: [{ period: 'pre2026', min: 88, note: 'TOEFL iBT 88, or 605 on the paper-based test, for the BA International Business.' }], note: 'TOEFL iBT 88 or paper-based 605 for the BA International Business.' },
     duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    otherTests: 'Cambridge CPE or CAE at grades A, B or C are accepted, as are TELC and PTE certificates.',
     waiver: null,
-    note: 'The university runs the largest state Studienkolleg in Germany for applicants who need preparatory study or language courses.'
+    note: 'Most Anhalt bachelor programmes are taught in German; the BA International Business is the English-taught exception, so these figures apply to that degree.',
+    source: 'https://www.hs-anhalt.de/en/degree-programs/ibs.html',
+    verified: '2026-09-24'
   },
   academics: {
     gpa: null,
@@ -1116,7 +1122,7 @@ window.UNIPATH.universities.push(
     { label: 'FAQ — application and studies', url: 'https://www.hs-anhalt.de/en/university/institutions/student-service-center/faq-application-studies.html' },
     { label: 'Degree programmes and application', url: 'https://www.hs-anhalt.de/en/study/orientation/degree-programs.html' }
   ],
-  verification: { level: 'partial', checked: ['language of instruction','tuition status'], unconfirmed: ['English test scores','deadlines','semester contribution amount','scholarships'] },
+  verification: { level: 'partial', checked: ['language of instruction','tuition status','english (TOEFL minimum and accepted certificates for the BA International Business)'], unconfirmed: ['deadlines','semester contribution amount','scholarships'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1155,11 +1161,13 @@ window.UNIPATH.universities.push(
     notes: ['Applicants without an accepted English certificate can sit the university\'s own online English exam after applying.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not confirmed during this check. The university requires an approved language certificate at CEFR B2 or above unless the applicant finished school in a majority-English-speaking country or holds an English-taught degree.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'Accepted as an approved certificate; score not confirmed here.' },
+    ielts: { min: 6, recommended: null, note: 'Berlin International accepts IELTS Academic 6.0 overall as proof of English at CEFR B2.' },
+    toefl: { min: 74, recommended: null, scales: [{ period: 'pre2026', min: 74, note: 'TOEFL iBT 74; the institutional TOEFL ITP is accepted at 543.' }], note: 'TOEFL iBT 74 or TOEFL ITP 543.' },
     duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    waiver: 'Applicants who completed high school in the USA, UK, Canada, Australia, Ireland or New Zealand, or hold a bachelor degree taught fully in English, do not need a test.',
-    note: 'An internal online English exam is offered to applicants without a certificate.'
+    waiver: 'No test is needed from applicants who completed high school in the USA, the UK, Canada, Australia, Ireland or New Zealand, or a bachelor degree taught fully in English.',
+    note: 'Scores must have been earned within the last two years. Applicants below B2 who meet the other criteria can take the one-year English Preparatory School first.',
+    source: 'https://www.berlin-international.de/en/admission/international-admission/',
+    verified: '2026-09-24'
   },
   academics: {
     gpa: null,
@@ -1192,7 +1200,7 @@ window.UNIPATH.universities.push(
     { label: 'International admission', url: 'https://www.berlin-international.de/en/admission/international-admission/' },
     { label: 'Apply for your studies', url: 'https://www.berlin-international.de/en/university/apply-your-studies-berlin/' }
   ],
-  verification: { level: 'partial', checked: ['tuition','language of instruction','entry qualification','English exemption rules'], unconfirmed: ['English test scores','deadlines','scholarships','application fee'] },
+  verification: { level: 'partial', checked: ['tuition','language of instruction','entry qualification','English exemption rules','english (IELTS, TOEFL and waiver rules)'], unconfirmed: ['deadlines','scholarships','application fee'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1231,11 +1239,14 @@ window.UNIPATH.universities.push(
     notes: ['MBS allows payment in seven semester instalments or 42 monthly instalments.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'English at CEFR B2 must be proved by the start of studies; IELTS is one of the accepted certificates but the required score was not read during this check.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'Accepted as proof of B2 English.' },
-    duolingo: { min: null, recommended: null, note: 'Accepted as proof of B2 English according to the published list; score not confirmed here.' },
-    waiver: 'A final diploma from an English-speaking institution can be submitted instead of a test.',
-    note: 'Certificates must be submitted as originals or certified copies.'
+    ielts: { min: 6.5, recommended: null, note: 'MBS accepts IELTS and IELTS Online (Academic Module) from 6.5 as proof of English at B2 level.' },
+    toefl: { min: 85, recommended: null, scales: [{ period: 'pre2026', min: 85, note: 'TOEFL iBT and Home Edition from 85, with at least 22 in writing and 20 in every other band.' }], note: 'TOEFL iBT and the Home Edition are accepted from 85, with at least 22 in writing and 20 in the other bands.' },
+    duolingo: { min: 115, recommended: null, note: 'Duolingo English Test with an overall score of 115 or higher.' },
+    otherTests: 'Cambridge from 173 or grade B, and ELS English for Academic Purposes Advanced Level 112.',
+    waiver: 'Applicants who completed their schooling in English, for example with a US high school diploma or the IB Diploma, do not need a test.',
+    note: 'Proof must be provided by the start of studies at the latest, and results are only accepted if achieved within the last two years.',
+    source: 'https://www.munich-business-school.de/en/programs/bachelor-international-business-administration/admission-fees.html',
+    verified: '2026-09-24'
   },
   academics: {
     gpa: null,
@@ -1270,7 +1281,7 @@ window.UNIPATH.universities.push(
     { label: 'Bachelor International Business — admission and fees', url: 'https://www.munich-business-school.de/en/programs/bachelor-international-business-administration/admission-fees.html' },
     { label: 'MBS FAQ', url: 'https://www.munich-business-school.de/en/mbs/university/faqs' }
   ],
-  verification: { level: 'partial', checked: ['tuition','enrolment fee','admission process','language requirement level'], unconfirmed: ['exact IELTS/TOEFL scores','application fee amount','scholarships'] },
+  verification: { level: 'partial', checked: ['tuition','enrolment fee','admission process','language requirement level','english (IELTS, TOEFL, Duolingo and Cambridge scores)'], unconfirmed: ['application fee amount','scholarships'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1309,11 +1320,14 @@ window.UNIPATH.universities.push(
     notes: ['WHU states that nearly 20% of its students are funded by a grant or endowment, and lists scholarships covering about 20% of tuition.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
-    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    waiver: null,
-    note: 'Proficiency can be shown with TOEFL, IELTS or Cambridge ESOL certificates; the required scores were not read during this check.'
+    ielts: { min: 7, recommended: null, note: 'WHU requires IELTS Academic 7.0 for the Bachelor in International Business Administration.' },
+    toefl: { min: 95, recommended: null, scales: [{ period: 'pre2026', min: 95, note: 'TOEFL iBT 95 on the classic scale; the Special Home Edition is also accepted at 95.' }, { period: 'from2026', min: 5, note: 'TOEFL iBT 5 on the scale used from January 2026.' }], note: 'The institutional TOEFL (ITP) is accepted at 597.' },
+    duolingo: { min: null, recommended: null, note: 'Not listed among the accepted certificates.' },
+    otherTests: 'Cambridge C1 Advanced at grade C or above.',
+    waiver: 'Applicants graduating from an English-taught school can be exempt on uploading a confirmation from the school; English as a subject is not enough.',
+    note: 'Proof of English must reach WHU by 15 May 2027, so the test should be taken by the end of April; Cambridge C1 Advanced needs about three months for results. WHU makes no exceptions for late or missing results.',
+    source: 'https://www.whu.edu/en/programs/bachelor-program/bachelor-in-international-business-administration/application-admissions/',
+    verified: '2026-09-24'
   },
   academics: {
     gpa: null,
@@ -1342,7 +1356,7 @@ window.UNIPATH.universities.push(
     { label: 'Bachelor programme — fees and financing', url: 'https://www.whu.edu/en/programs/bachelor-program/fees-financing/' },
     { label: 'Bachelor in International Business Administration — application and admissions', url: 'https://www.whu.edu/en/programs/bachelor-program/bachelor-in-international-business-administration/application-admissions/' }
   ],
-  verification: { level: 'partial', checked: ['tuition','language of instruction','entry qualification'], unconfirmed: ['English scores','deadlines','scholarship conditions','application fee'] },
+  verification: { level: 'partial', checked: ['tuition','language of instruction','entry qualification','english (TOEFL, IELTS and Cambridge scores and the proof deadline)'], unconfirmed: ['deadlines','scholarship conditions','application fee'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1382,11 +1396,14 @@ window.UNIPATH.universities.push(
     notes: ['An early-enrolment bonus reduces tuition by €500 for enrolment by 28 February (Fall term) or 31 July (Spring term).']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
-    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    waiver: null,
-    note: 'The programme and its examinations are in English; the accepted English certificates and scores were not read during this check.'
+    ielts: { min: 6, recommended: 7, note: 'EBS asks for IELTS 6.0 for standard admission to the Bachelor in Business Studies, and 7.0 for the dual degree option.' },
+    toefl: { min: 80, recommended: 90, scales: [{ period: 'pre2026', min: 80, note: 'TOEFL iBT 80 for standard admission and 90 for the dual degree option.' }], note: 'TOEFL iBT 80 for standard admission, 90 for the dual degree option.' },
+    duolingo: { min: null, recommended: null, note: 'Duolingo is listed among the accepted certificates; the score was not read during this check.' },
+    otherTests: 'Cambridge and Pearson certificates are also accepted.',
+    waiver: 'Applicants with a German Abitur can prove their English through good grades in the subject English.',
+    note: 'Figures come from the EBS Business School fact sheet for the 2026/27 academic year.',
+    source: 'https://www.ebs.edu/fileadmin/EBS/Ueber_uns/Medien/Fact_Sheet_EBS_Business_School_2026-2027.pdf',
+    verified: '2026-09-24'
   },
   academics: {
     gpa: null,
@@ -1419,7 +1436,7 @@ window.UNIPATH.universities.push(
     { label: 'Online application', url: 'https://www.ebs.edu/en/apply' },
     { label: 'Scholarships and student financing', url: 'https://www.ebs.edu/en/student-financing' }
   ],
-  verification: { level: 'partial', checked: ['tuition','language of instruction','selection process','recommended application dates'], unconfirmed: ['English scores','application fee','scholarship values'] },
+  verification: { level: 'partial', checked: ['tuition','language of instruction','selection process','recommended application dates','english (IELTS and TOEFL scores for standard and dual-degree entry)'], unconfirmed: ['application fee','scholarship values'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1538,11 +1555,13 @@ window.UNIPATH.universities.push(
     notes: ['Non-EU/EEA students pay a €500 DIT service fee per semester in addition to the semester contribution; EU/EEA students pay no tuition.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
-    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    waiver: null,
-    note: 'DIT states that none of its programmes require a specific GPA, though some set an online admission test.'
+    ielts: { min: 6.5, recommended: null, note: 'DIT publishes the requirement per programme; the International Management bachelor asks for IELTS 6.5. Both IELTS General and IELTS Academic are accepted, on paper or as a verified computer-based test.' },
+    toefl: { min: 100, recommended: null, scales: [{ period: 'pre2026', min: 100, note: 'TOEFL iBT 100 for the International Management bachelor. Only the internet-based test counts: CBT, ITP, PBT and the iBT Home Edition are not accepted.' }], note: 'Only the internet-based TOEFL is accepted; the Home Edition is not.' },
+    duolingo: { min: null, recommended: null, note: 'Not listed among the accepted certificates.' },
+    waiver: 'Proof of the relevant language skills can also come from a school or university diploma.',
+    note: 'On English-taught bachelor programmes DIT also asks for German at B1 or above by the end of the studies. Requirements are published per programme, so check the language requirements document for the specific degree.',
+    source: 'https://www.th-deg.de/Studieninteressierte/Bewerbung/language_requirements_German-English_DEG.pdf',
+    verified: '2026-09-24'
   },
   academics: {
     gpa: null,
@@ -1576,7 +1595,7 @@ window.UNIPATH.universities.push(
     { label: 'Degrees taught in English', url: 'https://www.th-deg.de/studying-in-english' },
     { label: 'Applications', url: 'https://www.th-deg.de/en/apply' }
   ],
-  verification: { level: 'partial', checked: ['tuition and fees','English-taught degrees','application fee'], unconfirmed: ['English test scores','deadlines','scholarships'] },
+  verification: { level: 'partial', checked: ['tuition and fees','English-taught degrees','application fee','english (IELTS and TOEFL for the International Management bachelor)'], unconfirmed: ['deadlines','scholarships'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1615,11 +1634,14 @@ window.UNIPATH.universities.push(
     notes: ['HNU requires non-native German speakers to show German at A1 level by the end of the first semester, even on English-taught programmes.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not confirmed as a number. HNU requires English at CEFR B2 for English-instructed degree programmes.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
-    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    waiver: null,
-    note: 'Proof of English at B2 must be submitted with the application for English-instructed programmes.'
+    ielts: { min: 6.5, recommended: null, note: 'HNU accepts Cambridge IELTS from 6.5 as proof of English at CEFR B2 for its English-instructed programmes.' },
+    toefl: { min: 90, recommended: null, scales: [{ period: 'pre2026', min: 90, note: 'TOEFL iBT from 90, with minimums in all four sections: reading 18, listening 17, speaking 20 and writing 17.' }], note: 'TOEFL iBT from 90, with section minimums in reading, listening, speaking and writing.' },
+    duolingo: { min: null, recommended: null, note: 'Not listed among the accepted certificates.' },
+    otherTests: 'Cambridge BEC Vantage from grade 3 is also accepted.',
+    waiver: 'The level can also be proved by a school or university diploma, or by a completed course of study taught entirely in English.',
+    note: 'English certificates must be submitted by the application deadline. Non-native German speakers must also show German at A1 by the end of the first semester.',
+    source: 'https://www.hnu.de/en/studies/before-the-study/application/application-for-international-students',
+    verified: '2026-09-24'
   },
   academics: {
     gpa: null,
@@ -1651,7 +1673,7 @@ window.UNIPATH.universities.push(
     { label: 'International degree-seeking students', url: 'https://www.hnu.de/en/international/international-degree-seeking-students' },
     { label: 'Fees and re-registration', url: 'https://www.hnu.de/en/studies/counselling-services/units-studies-examination/a-to-z/fees-re-registration' }
   ],
-  verification: { level: 'partial', checked: ['tuition status','language requirements (B2 English, A1 German)'], unconfirmed: ['which bachelor degrees are fully English-taught','English test scores','deadlines','semester fee amount','scholarships'] },
+  verification: { level: 'partial', checked: ['tuition status','language requirements (B2 English, A1 German)','english (IELTS, TOEFL and section minimums)'], unconfirmed: ['which bachelor degrees are fully English-taught','deadlines','semester fee amount','scholarships'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1690,11 +1712,14 @@ window.UNIPATH.universities.push(
     notes: ['Baden-Württemberg charges non-EU/EEA students tuition of €1,500 per semester; students on some collaborative double-degree programmes can be exempt.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
-    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    waiver: null,
-    note: 'Requirements are published per programme; they were not read during this check.'
+    ielts: { min: 7, recommended: null, note: 'Reutlingen publishes IELTS Band 7.0 in its language requirements statute for English-taught programmes; it lists the same figure for both B2 and C1 level.' },
+    toefl: { min: 95, recommended: null, scales: [{ period: 'pre2026', min: 95, note: 'TOEFL iBT 95 points.' }], note: 'TOEFL iBT 95 points is the published minimum.' },
+    duolingo: { min: null, recommended: null, note: 'Not listed among the accepted certificates.' },
+    otherTests: 'The Cambridge Certificate and equivalent proof at the same level are also accepted.',
+    waiver: 'No proof of German is required where the degree programme is taught exclusively in English.',
+    note: 'The figures come from the university statute on required language skills; the requirement for a particular programme should be confirmed on its page.',
+    source: 'https://www.reutlingen-university.de/fileadmin/University/Studium/Bewerbung_und_Einschreibung/Satzung_erforderliche_Sprachkenntnisse.pdf',
+    verified: '2026-09-24'
   },
   academics: {
     gpa: null,
@@ -1726,7 +1751,7 @@ window.UNIPATH.universities.push(
     { label: 'Tuition fees', url: 'https://www.reutlingen-university.de/en/before-studying/your-application/your-enrolment/tuition-fees/' },
     { label: 'Student finance', url: 'https://www.reutlingen-university.de/en/studies/student-finances' }
   ],
-  verification: { level: 'partial', checked: ['tuition for non-EU students','semester fee','exemption rule'], unconfirmed: ['English requirements','deadlines','which bachelor programmes are fully English-taught','scholarships'] },
+  verification: { level: 'partial', checked: ['tuition for non-EU students','semester fee','exemption rule','english (IELTS and TOEFL minimums from the language statute)'], unconfirmed: ['deadlines','which bachelor programmes are fully English-taught','scholarships'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1843,11 +1868,14 @@ window.UNIPATH.universities.push(
     notes: ['The university suggests budgeting about €700–€800 a month for living costs and housing in Karlsruhe.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'English at CEFR B2 must be proved by an IELTS certificate for the English-language bachelor programmes; the exact band was not published on the pages read.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
-    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    waiver: null,
-    note: 'The university names IELTS specifically as the evidence for B2 English.'
+    ielts: { min: 5.5, recommended: null, note: 'Karlshochschule asks for English at CEFR B2, proved by an IELTS certificate of at least 5.5 overall for its English-taught bachelor programmes.' },
+    toefl: { min: 72, recommended: null, scales: [{ period: 'pre2026', min: 72, note: 'TOEFL certificate with at least 72 points.' }], note: 'A TOEFL certificate with at least 72 points is accepted.' },
+    duolingo: { min: null, recommended: null, note: 'Not listed among the accepted certificates.' },
+    otherTests: 'Trinity College London ISE III and certain LanguageCert certificates are also accepted.',
+    waiver: 'The admissions committee reviews how each applicant meets the language requirement individually.',
+    note: 'Free additional English courses are available in the first year.',
+    source: 'https://www.karlshochschule.de/en/bachelor-programs/application-admission-bachelors-degree-programs.html',
+    verified: '2026-09-24'
   },
   academics: {
     gpa: null,
@@ -1881,7 +1909,7 @@ window.UNIPATH.universities.push(
     { label: 'Application and admission — bachelor programmes', url: 'https://www.karlshochschule.de/en/bachelor-programs/application-admission-bachelors-degree-programs.html' },
     { label: 'Student financing', url: 'https://www.karlshochschule.de/en/university-life/student-financing.html' }
   ],
-  verification: { level: 'partial', checked: ['tuition','enrolment fee','application fee','language requirement level','English-taught programmes'], unconfirmed: ['exact IELTS band','deadlines','scholarships'] },
+  verification: { level: 'partial', checked: ['tuition','enrolment fee','application fee','language requirement level','English-taught programmes','english (IELTS and TOEFL minimums)'], unconfirmed: ['deadlines','scholarships'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1921,11 +1949,13 @@ window.UNIPATH.universities.push(
     notes: ['Tuition is charged for Graduate School programmes but not for the regular bachelor degrees.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
-    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    waiver: null,
-    note: 'The International Management programme includes language training up to C2 in English.'
+    ielts: { min: 6.5, recommended: null, note: 'Hof asks for IELTS Academic 6.5 for its international bachelor programmes.' },
+    toefl: { min: 90, recommended: null, scales: [{ period: 'pre2026', min: 90, note: 'TOEFL iBT 90 points.' }], note: 'TOEFL iBT 90 is the published minimum.' },
+    duolingo: { min: null, recommended: null, note: 'Not listed among the accepted certificates.' },
+    waiver: 'Other English certificates at CEFR B2 or above can be accepted case by case, at the examination board\u2019s discretion.',
+    note: 'Certificates must come from a certified institute, be submitted within the application period and be no more than two years old. English-taught programmes also require German at A1, and the Computer Science bachelor asks for A2.',
+    source: 'https://www.hof-university.com/studying-at-hof-university/application-and-admission.html',
+    verified: '2026-09-24'
   },
   academics: {
     gpa: null,
@@ -1959,7 +1989,7 @@ window.UNIPATH.universities.push(
     { label: 'Bachelor in International Management', url: 'https://www.hof-university.com/studying-at-hof-university/our-degree-programs/international-management-ba.html' },
     { label: 'English-taught programmes', url: 'https://www.hof-university.com/studying-in-hof/full-time-programs/english-taught-programs.html' }
   ],
-  verification: { level: 'partial', checked: ['tuition status','semester contribution','English-taught bachelor'], unconfirmed: ['English test scores','deadlines','scholarships','application fee'] },
+  verification: { level: 'partial', checked: ['tuition status','semester contribution','English-taught bachelor','english (IELTS and TOEFL minimums and validity)'], unconfirmed: ['deadlines','scholarships','application fee'] },
   lastVerified: '2026-09-23'
 },
 
@@ -2074,11 +2104,14 @@ window.UNIPATH.universities.push(
     notes: ['Gisma allows applications before the English certificate or final transcript is available, with the condition met later.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
-    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    waiver: null,
-    note: 'Proof of English is required but the accepted scores were not read during this check.'
+    ielts: { min: 6, recommended: null, note: 'Gisma asks for English at CEFR B2 for its bachelor programmes, which it states as IELTS 6.0 overall with no less than 5.5 in any component.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Accepted as an equivalent to the IELTS requirement; the score was not confirmed during this check.' },
+    duolingo: { min: null, recommended: null, note: 'Accepted as an equivalent; the score was not confirmed during this check.' },
+    otherTests: 'Pearson PTE is accepted as an equivalent, and Gisma offers its own English test free of charge.',
+    waiver: 'Gisma allows applications before the English certificate is available, with the condition met later.',
+    note: 'International applicants also take an entrance test as part of admission. A foundation programme is available for applicants who do not yet meet the entry requirements.',
+    source: 'https://www.gisma.com/programmes/undergraduate/bsc-international-business-management',
+    verified: '2026-09-24'
   },
   academics: {
     gpa: null,
@@ -2113,7 +2146,7 @@ window.UNIPATH.universities.push(
     { label: 'Tuition fees and funding', url: 'https://www.gisma.com/life-at-gisma/tuition-fees-and-funding' },
     { label: 'How to apply', url: 'https://www.gisma.com/how-to-apply' }
   ],
-  verification: { level: 'partial', checked: ['tuition (total)','deposit','language of instruction','tuition (2026 intakes, per year)'], unconfirmed: ['English test scores','deadlines','scholarships','application fee'] },
+  verification: { level: 'partial', checked: ['tuition (total)','deposit','language of instruction','tuition (2026 intakes, per year)','english (IELTS minimum and component requirement)'], unconfirmed: ['deadlines','scholarships','application fee'] },
   lastVerified: '2026-09-23'
 },
 
@@ -2314,11 +2347,13 @@ window.UNIPATH.universities.push(
     notes: ['Because about a fifth of teaching is in German, applicants need German as well as English for this programme.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
-    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    waiver: null,
-    note: 'Language requirements were not read during this check; the programme mixes English and German teaching.'
+    ielts: { min: 6, recommended: 6.5, note: 'Stralsund asks for IELTS 6.5 from non-EU applicants to International Management Studies in the Baltic Sea Region, and 6.0 from EU applicants. The underlying requirement is CEFR B2 or higher.' },
+    toefl: { min: 79, recommended: 83, scales: [{ period: 'pre2026', min: 79, note: 'TOEFL iBT 83 for non-EU applicants and 79 for EU applicants; CBT 220/213 and PBT 557/550 are also listed.' }], note: 'TOEFL iBT 83 for non-EU applicants and 79 for EU applicants.' },
+    duolingo: { min: null, recommended: null, note: 'Not listed among the accepted certificates.' },
+    waiver: 'Applicants from countries whose official language is English are exempt if they also obtained their university entrance qualification there in English. A completed course of study taught in English or a certificate from an international high school is also accepted.',
+    note: 'The programme mixes English and German teaching, so German is needed as well.',
+    source: 'https://www.hochschule-stralsund.de/en/studying-and-teaching/international/incoming-students-staff/programs-at-host/admission-requirements/',
+    verified: '2026-09-24'
   },
   academics: {
     gpa: null,
@@ -2350,7 +2385,7 @@ window.UNIPATH.universities.push(
     { label: 'Leisure and Tourism Management', url: 'https://www.hochschule-stralsund.de/en/host/schools/business-studies/study-programmes/leisure-and-tourism-management/' },
     { label: 'Application and enrolment', url: 'https://www.hochschule-stralsund.de/en/studying-and-teaching/applications/application-and-enrolment/' }
   ],
-  verification: { level: 'partial', checked: ['language of instruction share','2026 application deadline','tuition status'], unconfirmed: ['English and German test requirements','2027 deadline','semester contribution','scholarships'] },
+  verification: { level: 'partial', checked: ['language of instruction share','2026 application deadline','tuition status','english (IELTS and TOEFL by EU/non-EU status)'], unconfirmed: ['2027 deadline','semester contribution','scholarships'] },
   lastVerified: '2026-09-23'
 },
 );

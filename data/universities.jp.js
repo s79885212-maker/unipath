@@ -894,11 +894,14 @@ window.UNIPATH.universities.push(
     notes: ['Nagoya states that international students pay the same tuition as domestic students.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
-    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    ielts: { min: 6, recommended: null, note: 'Nagoya asks for IELTS Academic 6.0 overall for the G30 undergraduate programmes.' },
+    toefl: { min: 80, recommended: null, scales: [{ period: 'pre2026', min: 80, note: 'TOEFL iBT 80, or 60 on the paper-delivered test. The iBT Home Edition and MyBest scores are accepted; TOEIC and TOEFL ITP are not.' }], note: 'TOEFL iBT 80 or paper-delivered 60. TOEIC and TOEFL ITP are not accepted.' },
+    duolingo: { min: 110, recommended: null, note: 'Duolingo English Test 110 and above is accepted.' },
+    otherTests: 'An ACT English score of 21 and above, and CEFR C1 and above, are also accepted.',
     waiver: null,
-    note: 'The G30 admission requirements list the accepted evidence of English; the exact scores were not read during this check.'
+    note: 'Official scores should be sent directly by the testing institution by the deadline; if they arrive late, a soft copy can be uploaded to the online admission system.',
+    source: 'https://admissions.g30.nagoya-u.ac.jp/admissions/undergraduate/',
+    verified: '2026-09-24'
   },
   academics: {
     gpa: null,
@@ -930,7 +933,7 @@ window.UNIPATH.universities.push(
     { label: 'Admissions requirements released for G30 undergraduate programs 2027', url: 'https://en.nagoya-u.ac.jp/news/articles/admissions-requirements-released-for-g30-undergraduate-programs-2027/' },
     { label: 'G30 International Programs admissions', url: 'https://admissions.g30.nagoya-u.ac.jp/' }
   ],
-  verification: { level: 'partial', checked: ['English-taught degrees','2027 application rounds','tuition parity with domestic students'], unconfirmed: ['English test scores','application fee','scholarships'] },
+  verification: { level: 'partial', checked: ['English-taught degrees','2027 application rounds','tuition parity with domestic students','english (IELTS, TOEFL, Duolingo and ACT minimums)'], unconfirmed: ['application fee','scholarships'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1766,11 +1769,14 @@ window.UNIPATH.universities.push(
     notes: ['TUJ estimates about ¥3.5 million to cover tuition, fees and living costs for the first two semesters.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'IELTS is accepted; the minimum score was not read during this check. Scores must be from a test taken no more than two years before the application, and some applicants can apply for a waiver.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'TOEFL is accepted, but from the Summer 2024 intake TUJ no longer accepts TOEFL iBT Home Edition scores.' },
-    duolingo: { min: null, recommended: null, note: 'The Duolingo English Test is accepted; the score was not read during this check.' },
-    waiver: 'Applicants who studied at a qualifying prior institution can apply for a waiver of the English test requirement, within two years of attending it.',
-    note: 'PTE, iTEP Academic Plus and Cambridge C1 Advanced or C2 Proficiency are also accepted.'
+    ielts: { min: 6, recommended: null, note: 'TUJ asks for IELTS Academic 6.0 for undergraduate admission. IELTS Indicator and the One Skill Retake are not accepted.' },
+    toefl: { min: 79, recommended: null, scales: [{ period: 'pre2026', min: 79, note: 'TOEFL iBT 79 on the previous scale.' }, { period: 'from2026', min: 4, note: 'TOEFL iBT 4 on the scale used from 2026. TOEFL Essentials 8.5 and TOEFL ITP 550 are also accepted.' }], note: 'From the Summer 2024 intake TUJ no longer accepts TOEFL iBT Home Edition scores.' },
+    duolingo: { min: 110, recommended: null, note: 'Duolingo 110 is accepted.' },
+    otherTests: 'Pearson PTE Academic 53, iTEP Academic-Plus 3.9, and Cambridge C1 Advanced or C2 Proficiency 180.',
+    waiver: 'The test can be waived for applicants with 15 or more college-level semester credits in the USA, three or more years of English-medium instruction, or submitted SAT or ACT scores.',
+    note: 'Scores must be from a test taken no earlier than two years before the application date. Applicants below the thresholds can be admitted conditionally through the undergraduate Bridge Program.',
+    source: 'https://www.tuj.ac.jp/ug/admissions/how-to-apply/eligibility-requirements',
+    verified: '2026-09-24'
   },
   academics: {
     gpa: null,
@@ -1805,7 +1811,7 @@ window.UNIPATH.universities.push(
     { label: 'Admissions information', url: 'https://www.tuj.ac.jp/ug/admissions' },
     { label: 'Eligibility requirements', url: 'https://www.tuj.ac.jp/ug/admissions/how-to-apply/eligibility-requirements' }
   ],
-  verification: { level: 'partial', checked: ['language of instruction','matriculation fee','cost estimate','English test rules','rolling admission'], unconfirmed: ['English minimum scores','tuition alone','SAT/ACT requirement','application fee'] },
+  verification: { level: 'partial', checked: ['language of instruction','matriculation fee','cost estimate','English test rules','rolling admission','english (IELTS, TOEFL, Duolingo, PTE, iTEP and Cambridge minimums and waivers)'], unconfirmed: ['tuition alone','SAT/ACT requirement','application fee'] },
   lastVerified: '2026-09-23'
 },
 
