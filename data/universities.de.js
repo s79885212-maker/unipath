@@ -47,8 +47,8 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['TUMonline (TUM\'s own application portal)', 'uni-assist preliminary review (VPD) for a school certificate from outside Germany'],
     deadlines: [
-      { name: 'Winter semester application', date: '15 May – 15 July', note: 'Application period for bachelor\'s degrees starting in the winter semester' },
-      { name: 'uni-assist preliminary review (VPD)', date: 'Before 15 July', note: 'Applicants with an international school certificate apply for the VPD through uni-assist before the winter-semester deadline' }
+      { name: 'uni-assist preliminary documentation (VPD)', kind: 'documents', entryTerm: 'Winter', entryYear: '2027', dateISO: '2027-07-15', date: 'Before 15 July', binding: false, appliesTo: 'Applicants from outside the EU without a German school qualification', conditions: 'TUM requires a VPD from uni-assist before 15 July for the winter semester. A uni-assist application alone is not an application to TUM: you must also apply through TUMonline.', status: 'confirmed', source: 'https://www.tum.de/en/studies/application/application-info-portal/dates-periods-and-deadlines/', verified: '2026-09-24', note: null },
+      { name: 'Application deadline — set per degree programme', kind: 'intake', entryTerm: 'Winter', entryYear: '2027', date: 'Published in each programme overview', binding: false, appliesTo: 'Bachelor applicants', conditions: 'TUM states that the deadline is given in each programme’s overview, and that the online application and all documents must be uploaded within it.', status: 'not-confirmed', source: 'https://www.tum.de/en/studies/application/application-info-portal/dates-periods-and-deadlines/', verified: '2026-09-24', note: 'The programme-specific dates for winter semester 2027/28 were not read during this check.' },
     ],
     applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null, note: 'uni-assist charges its own fee for the preliminary review; the amount is set by uni-assist.' },
     documents: [
@@ -154,7 +154,9 @@ window.UNIPATH.universities.push(
   },
   admissions: {
     platforms: ['FAU application portal'],
-    deadlines: [],
+    deadlines: [
+      { name: 'Application for the winter semester', kind: 'intake', entryTerm: 'Winter', entryYear: '2027', date: 'Published by the university for each intake', binding: false, appliesTo: 'Bachelor applicants', conditions: 'FAU publishes application windows per programme and intake; the dates were not read during this check. Tuition for new non-EU students starts from summer semester 2027.', status: 'not-confirmed', source: 'https://www.fau.eu/studying/international-students/application-and-enrollment-for-international-applicants/', verified: null, note: null },
+    ],
     applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null },
     documents: [
       'School-leaving certificate recognised as a German university entrance qualification',
@@ -242,7 +244,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['University of Freiburg online application'],
     deadlines: [
-      { name: 'Liberal Arts and Sciences application', date: '1 June – 15 July', note: 'Decisions in late July; studies start with Welcome Week in October' }
+      { name: 'Liberal Arts and Sciences application', kind: 'intake', entryTerm: 'Winter', entryYear: '2027', dateISO: '2027-07-15', date: '1 June – 15 July', binding: false, appliesTo: 'Applicants to the English-taught Liberal Arts and Sciences programme', conditions: 'Carried over from the earlier verification and not re-confirmed on the official pages during this check.', status: 'not-confirmed', source: 'https://uni-freiburg.de/ucf/las/apply/', verified: null, note: null },
     ],
     applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null },
     documents: [
@@ -338,7 +340,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['University of Cologne application — international applicants follow the International Office procedure'],
     deadlines: [
-      { name: 'Winter semester application', date: '15 July', note: 'Deadline for starting in the winter semester' }
+      { name: 'Winter semester application', kind: 'intake', entryTerm: 'Winter', entryYear: '2027', dateISO: '2027-07-15', date: '15 July', binding: false, appliesTo: 'Bachelor applicants', conditions: 'Carried over from the earlier verification and not re-confirmed on the official pages during this check.', status: 'not-confirmed', source: 'https://portal.uni-koeln.de/en/international/study-in-cologne/international-applications', verified: null, note: null },
     ],
     applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null },
     documents: [
@@ -430,7 +432,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Leuphana online application (uni-assist route for certificates from outside the EU)'],
     deadlines: [
-      { name: 'Bachelor\'s application', entryTerm: 'Winter semester 2027/28', dateISO: '2027-07-15', date: '15 July 2027', note: 'Applications open in mid-May for studies starting in October 2027' }
+      { name: "Bachelor's application", kind: 'intake', entryTerm: 'Winter', entryYear: '2027', dateISO: '2027-07-15', date: '15 July 2027', binding: false, appliesTo: 'Bachelor applicants', conditions: 'Carried over from the earlier verification and not re-confirmed on the official pages during this check.', status: 'not-confirmed', source: 'https://www.leuphana.de/en/study/studying-in-germany.html', verified: null, note: null },
     ],
     applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null },
     documents: [
@@ -524,7 +526,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['uni-assist, for a school certificate obtained outside Germany'],
     deadlines: [
-      { name: 'Bachelor\'s application (last published cycle)', entryTerm: 'Winter semester 2026/27', dateISO: '2026-07-15', date: '15 July 2026', note: 'Bachelor\'s degrees start only in the winter semester. The 2027/28 dates had not been published when checked.' }
+      { name: "Bachelor's application (last published cycle)", kind: 'intake', entryTerm: 'Winter', entryYear: '2026', dateISO: '2026-07-15', date: '15 July 2026', binding: false, appliesTo: 'Bachelor applicants', conditions: 'This is the last cycle published on the pages read; the 2027 date had not been confirmed.', status: 'previous-cycle', source: 'https://www.hochschule-rhein-waal.de/en', verified: null, note: null },
     ],
     applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null, note: 'uni-assist charges its own handling fee.' },
     documents: [
@@ -617,8 +619,10 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Constructor University online application'],
     deadlines: [
-      { name: 'Early Action', entryTerm: 'Fall 2027', displayDate: '1 October 2026 – 1 February 2027', dateISO: '2027-02-01', date: '1 October 2026 – 1 February 2027', note: 'Earlier applications get earlier decisions' },
-      { name: 'Rolling admissions (visa and no visa)', entryTerm: 'Fall 2027', displayDate: '2 February – 15 July 2027', dateISO: '2027-07-15', date: '2 February – 15 July 2027', note: 'Decisions usually within 2–4 weeks of applying' }
+      { name: 'Application period opens (autumn 2027 entry)', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-10-01', date: '1 October 2026', binding: false, appliesTo: 'All undergraduate applicants', conditions: 'The application window for the autumn 2027 intake runs from 1 October 2026 to 1 June 2027.', status: 'confirmed', source: 'https://constructor.university/admission-aid/application-information-undergraduate', verified: '2026-09-24', note: null },
+      { name: 'Early Action', kind: 'EA', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-02-01', date: '1 February 2027', binding: false, appliesTo: 'Undergraduate applicants', conditions: 'Not binding. Applying by this date brings an earlier decision and puts the applicant in the pool for external scholarships.', status: 'confirmed', source: 'https://constructor.university/admission-aid/application-information-undergraduate', verified: '2026-09-24', note: null },
+      { name: 'Rolling admission — final deadline', kind: 'rolling', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-07-15', date: '15 July 2027', binding: false, appliesTo: 'Applicants with and without visa requirements', conditions: 'Constructor admits on a rolling basis: decisions normally follow within two to four weeks of a complete application.', status: 'confirmed', source: 'https://constructor.university/admission-aid/application-information-undergraduate', verified: '2026-09-24', note: null },
+      { name: 'Transfer applicants', kind: 'intake', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-06-01', date: '1 June 2027', binding: false, appliesTo: 'Transfer students', conditions: 'Separate deadline for transfer applicants.', status: 'confirmed', source: 'https://constructor.university/admission-aid/application-information-undergraduate', verified: '2026-09-24', note: null },
     ],
     applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null },
     documents: [
@@ -724,7 +728,9 @@ window.UNIPATH.universities.push(
   },
   admissions: {
     platforms: ['Frankfurt School online application, followed by an Assessment Centre'],
-    deadlines: [],
+    deadlines: [
+      { name: 'Application for the autumn intake', kind: 'intake', entryTerm: 'Autumn', entryYear: '2027', date: 'Published by the school for each intake', binding: false, appliesTo: 'Bachelor applicants', conditions: 'Frankfurt School publishes its application windows on the programme pages; they were not read during this check.', status: 'not-confirmed', source: 'https://www.frankfurt-school.de/en/home/programmes/bachelor', verified: null, note: null },
+    ],
     applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null },
     documents: [
       'Online application',

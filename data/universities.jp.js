@@ -16,11 +16,11 @@ window.UNIPATH.universities.push(
   type: 'National research university',
   brand: { c1: '#004098', c2: '#001f4a', initials: '東' },
   description: 'Japan\'s leading national university. Fees are set at the national rate and are identical for international and domestic students — far below comparable universities in the United States or the UK. English-taught undergraduate entry is in flux: UTokyo has announced that PEAK, its English-medium programme at Komaba, has held its final student recruitment.',
-  englishTaught: true,
+  englishTaught: false,
   languageOfInstruction: 'Japanese, with some English-taught routes',
   programs: ['engineering','computer-science','economics','mathematics','biology','social-sciences','humanities','law','medicine','arts'],
   englishTaughtPrograms: [],
-  programNote: 'Undergraduates enter a Junior Division for two years of broad study at Komaba before moving to a Senior Division faculty. PEAK offered two English-medium senior-division tracks — Japan in East Asia, and Environmental Sciences. From September 2027 the new UTokyo College of Design teaches a bachelor\'s programme in which "All courses are taught in English"; students do not choose a named major but build an interdisciplinary pathway across five domains, so no single field is listed as English-taught.',
+  programNote: 'The University of Tokyo states that September 2026 was the last PEAK intake, so its English-taught first-year route is closing. The Global Science Course (GSC) remains, but it admits transfer students into the third year of the Faculty of Science rather than first-years, and most other undergraduate teaching is in Japanese.',
   links: {
     website: 'https://www.u-tokyo.ac.jp/en/',
     admissions: 'https://www.u-tokyo.ac.jp/en/prospective-students/undergraduate_admissions.html',
@@ -33,7 +33,11 @@ window.UNIPATH.universities.push(
   },
   admissions: {
     platforms: [],
-    deadlines: [],
+    deadlines: [
+      { name: 'PEAK — programme closing to new applicants', kind: 'intake', entryTerm: 'September', entryYear: '2026', date: 'Last intake was September 2026 enrolment', binding: false, appliesTo: 'International first-year applicants', conditions: 'The University of Tokyo states that the September 2026 enrolment was the last recruitment for PEAK, its English-taught first-year programme, and that PEAK applications are now closed. No PEAK intake is offered for 2027.', status: 'confirmed', source: 'https://peak.c.u-tokyo.ac.jp/apply/index.html', verified: '2026-09-24', note: 'This removes the main English-taught first-year route at Tokyo; check the university site for any replacement before planning an application.' },
+      { name: 'Global Science Course (GSC) — transfer route', kind: 'intake', entryTerm: 'Autumn', entryYear: '2027', date: 'Published on the GSC schedule page', binding: false, appliesTo: 'Students who have already completed at least two years of undergraduate study outside Japan', conditions: 'GSC is an all-English transfer programme into the third year of the Faculty of Science, not a first-year route. The 2027 dates were not read during this check.', status: 'not-confirmed', source: 'https://www.s.u-tokyo.ac.jp/GSC/admissions/schedule.html', verified: null, note: null },
+      { name: 'College of Design — application period', kind: 'intake', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-05', date: '15 October – 5 November 2026', binding: false, appliesTo: 'Applicants to the College of Design', conditions: 'Carried over from the earlier verification; not re-checked for this cycle.', status: 'not-confirmed', source: 'https://www.u-tokyo.ac.jp/en/prospective-students/undergraduate_admissions.html', verified: null, note: null },
+    ],
     applicationFee: { amount: null, currency: 'JPY', waiverAvailableToInternational: null, waiver: null },
     documents: [],
     recommendations: null,
@@ -130,7 +134,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Kyoto iUP online application'],
     deadlines: [
-      { name: 'October enrolment', date: 'See the current Application Guidelines PDF', note: 'Kyoto publishes a dated application guide for each October intake' }
+      { name: 'Kyoto iUP — application period (October 2027 enrolment)', kind: 'intake', entryTerm: 'October', entryYear: '2027', dateISO: '2026-12-03', date: '2 November – 3 December 2026', time: '17:00', timezone: 'JST', binding: false, appliesTo: 'International applicants to Kyoto iUP', conditions: 'Applications close at 17:00 JST through the online system. First-screening results on 5 February 2027; online interviews 1–16 March 2027; posted documents must arrive by 16 March 2027. iUP runs 4.5 years, starting with a six-month preparatory course.', status: 'confirmed', source: 'https://www.iup.kyoto-u.ac.jp/apply/', verified: '2026-09-24', note: null },
+      { name: 'Kyoto iUP — first screening results', kind: 'decision', entryTerm: 'October', entryYear: '2027', dateISO: '2027-02-05', date: '5 February 2027', binding: false, appliesTo: 'Applicants who submitted in the November–December window', conditions: 'Announced through the online application system.', status: 'confirmed', source: 'https://www.iup.kyoto-u.ac.jp/apply/', verified: '2026-09-24', note: null },
+      { name: 'Kyoto iUP — online interviews', kind: 'other', entryTerm: 'October', entryYear: '2027', dateISO: '2027-03-16', date: '1–16 March 2027', binding: false, appliesTo: 'Shortlisted applicants', conditions: 'Interviews are held online.', status: 'confirmed', source: 'https://www.iup.kyoto-u.ac.jp/apply/', verified: '2026-09-24', note: null },
     ],
     applicationFee: { amount: null, currency: 'JPY', waiverAvailableToInternational: false, waiver: 'Kyoto University offers no application fee waivers.', note: 'A ¥429 processing fee is added; the fee is non-refundable.' },
     documents: ['Academic transcripts', 'English proficiency test result or Form C', 'Application documents in original form for shortlisted applicants'],
@@ -222,7 +228,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Waseda online application'],
     deadlines: [
-      { name: 'September 2026 entry (English-based programmes)', date: '8 January 2026 10:00 – 10 February 2026 17:00 JST', note: 'Application periods vary by school; SILS has an April intake with a mid-August to early-September window' }
+      { name: 'English-based undergraduate admission (September 2027 entry)', kind: 'intake', entryTerm: 'Autumn', entryYear: '2027', date: 'Application guide published in late September 2026', binding: false, appliesTo: 'International applicants to the English-based programmes', conditions: 'Waseda states that the application guide for September 2027 enrolment is uploaded in late September 2026 and that applications are accepted only during the period it sets.', status: 'not-confirmed', source: 'https://www.waseda.jp/inst/admission/en/undergraduate/english/', verified: '2026-09-24', note: 'The 2027 application window had not been published when this was checked.' },
     ],
     applicationFee: { amount: null, currency: 'JPY', waiverAvailableToInternational: null, waiver: null },
     documents: ['Academic transcripts', 'Standardized test scores', 'English proficiency evidence'],
@@ -313,7 +319,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Keio online application (web-entry2.admissions.keio.ac.jp)'],
     deadlines: [
-      { name: 'PEARL / GIGA', date: 'Three application periods per admissions year', note: 'Check the current application guidebook for dates' }
+      { name: 'PEARL Round I (September 2027 entry)', kind: 'round-1', entryTerm: 'September', entryYear: '2027', dateISO: '2026-12-02', date: '21 October – 2 December 2026', time: '15:00', timezone: 'JST', binding: false, appliesTo: 'Applicants to the PEARL programme in the Faculty of Economics', conditions: 'Applications open at 10:00 JST on 21 October and close at 15:00 JST on 2 December; results on 25 January 2027. Unsuccessful applicants may reapply in a later round.', status: 'confirmed', source: 'https://www.keio.ac.jp/en/admissions/undergraduate/pearl/', verified: '2026-09-24', note: null },
+      { name: 'PEARL Round II (September 2027 entry)', kind: 'round-2', entryTerm: 'September', entryYear: '2027', dateISO: '2027-01-27', date: '4 December 2026 – 27 January 2027', time: '15:00', timezone: 'JST', binding: false, appliesTo: 'PEARL applicants', conditions: 'Closes at 15:00 JST; results on 4 March 2027.', status: 'confirmed', source: 'https://www.keio.ac.jp/en/admissions/undergraduate/pearl/', verified: '2026-09-24', note: null },
+      { name: 'PEARL Round III (September 2027 entry)', kind: 'round-3', entryTerm: 'September', entryYear: '2027', dateISO: '2027-04-07', date: '24 February – 7 April 2027', time: '15:00', timezone: 'JST', binding: false, appliesTo: 'PEARL applicants', conditions: 'Closes at 15:00 JST; results on 24 May 2027.', status: 'confirmed', source: 'https://www.keio.ac.jp/en/admissions/undergraduate/pearl/', verified: '2026-09-24', note: null },
     ],
     applicationFee: { amount: 35000, currency: 'JPY', waiverAvailableToInternational: null, waiver: null },
     documents: ['Academic transcripts', 'Standardized test scores', 'English proficiency evidence'],
@@ -395,7 +403,12 @@ window.UNIPATH.universities.push(
   },
   admissions: {
     platforms: ['Sophia online application'],
-    deadlines: [],
+    deadlines: [
+      { name: 'Spring (April) 2027 — first period', kind: 'round-1', entryTerm: 'April', entryYear: '2027', dateISO: '2026-09-09', date: '1–9 September 2026', binding: false, appliesTo: 'Applicants to the English-taught programmes (FLA, SPSF, FST)', conditions: 'Documents due by 16 September 2026. Sophia publishes the full 2027-intake procedure booklets on the programme pages.', status: 'confirmed', source: 'https://adm.sophia.ac.jp/eng/admissions/ug_p/en_ug/', verified: '2026-09-24', note: null },
+      { name: 'Spring (April) 2027 — second period', kind: 'round-2', entryTerm: 'April', entryYear: '2027', dateISO: '2026-12-04', date: '11 November – 4 December 2026', binding: false, appliesTo: 'English-taught programme applicants', conditions: 'Documents due by 11 December 2026.', status: 'confirmed', source: 'https://adm.sophia.ac.jp/eng/admissions/ug_p/en_ug/', verified: '2026-09-24', note: null },
+      { name: 'Autumn (September) 2027 — first period', kind: 'round-1', entryTerm: 'September', entryYear: '2027', dateISO: '2026-12-04', date: '11 November – 4 December 2026', binding: false, appliesTo: 'English-taught programme applicants', conditions: 'Documents due by 11 December 2026.', status: 'confirmed', source: 'https://adm.sophia.ac.jp/eng/admissions/ug_p/en_ug/', verified: '2026-09-24', note: null },
+      { name: 'Autumn (September) 2027 — second period', kind: 'round-2', entryTerm: 'September', entryYear: '2027', dateISO: '2027-03-31', date: '10–31 March 2027', binding: false, appliesTo: 'English-taught programme applicants', conditions: 'Documents due by 7 April 2027.', status: 'confirmed', source: 'https://adm.sophia.ac.jp/eng/admissions/ug_p/en_ug/', verified: '2026-09-24', note: null },
+    ],
     applicationFee: { amount: null, currency: 'JPY', waiverAvailableToInternational: null, waiver: null },
     documents: ['Evidence of 12 or more years of formal education, or an International Baccalaureate Diploma, A-Levels or equivalent'],
     recommendations: null,
@@ -490,8 +503,8 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['ICU online application (English Language Based Admissions — ELBA)'],
     deadlines: [
-      { name: 'April entry', date: 'Online application opens October of the preceding year', note: 'For 2027 April entry, applications open October 2026' },
-      { name: 'September entry (two rounds)', date: 'Online application opens January', note: 'For 2027 September entry, applications open January 2027' }
+      { name: 'April 2027 entry — online application opens', kind: 'intake', entryTerm: 'April', entryYear: '2027', date: 'October 2026', binding: false, appliesTo: 'Applicants through English Language Based Admissions (ELBA)', conditions: 'ICU states that the online application for April 2027 entry opens in October 2026; the whole ELBA process is in English and neither entry point is advantaged.', status: 'not-confirmed', source: 'https://www.icu.ac.jp/en/admissions/undergraduate/engdoc/schedules/', verified: '2026-09-24', note: 'The closing date was not read during this check.' },
+      { name: 'September 2027 entry — online application opens', kind: 'intake', entryTerm: 'September', entryYear: '2027', date: 'January 2027', binding: false, appliesTo: 'ELBA applicants', conditions: 'The online application for September 2027 entry opens in January 2027.', status: 'not-confirmed', source: 'https://www.icu.ac.jp/en/admissions/undergraduate/engdoc/schedules/', verified: '2026-09-24', note: 'The closing date was not read during this check.' },
     ],
     applicationFee: { amount: 30000, currency: 'JPY', waiverAvailableToInternational: null, waiver: null, note: 'Non-refundable; an additional ¥880 system operation fee applies' },
     documents: ['Academic transcripts', 'English proficiency test result', 'SAT or ACT scores (Type A applicants)', 'IB Full Diploma where applicable'],
@@ -597,7 +610,8 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['APU Online Application System'],
     deadlines: [
-      { name: 'Multiple enrolment periods per year', date: 'See the official admissions calendar', note: 'APU states you may have a greater chance of a tuition reduction scholarship if you apply earlier in each enrolment period' }
+      { name: 'April 2027 enrolment — several application periods', kind: 'intake', entryTerm: 'April', entryYear: '2027', date: 'Published per country on the APU application schedule', binding: false, appliesTo: 'First-year and transfer applicants', conditions: 'APU runs several application periods for each intake, and the deadlines differ by country or region of residence and by applicant type. Enrolment is on 1 April 2027. English test results must be from an exam taken on or after 1 June 2024 and before the deadline.', status: 'not-confirmed', source: 'https://admissions.apu.ac.jp/admissions/application_schedule/', verified: '2026-09-24', note: 'The country-specific dates were not read during this check.' },
+      { name: 'September 2027 enrolment — several application periods', kind: 'intake', entryTerm: 'September', entryYear: '2027', date: 'Published per country on the APU application schedule', binding: false, appliesTo: 'First-year and transfer applicants', conditions: 'Enrolment is on 21 September 2027. English test results must be from an exam taken on or after 1 September 2024 and before the deadline.', status: 'not-confirmed', source: 'https://admissions.apu.ac.jp/admissions/application_schedule/', verified: '2026-09-24', note: 'The country-specific dates were not read during this check.' },
     ],
     applicationFee: { amount: null, currency: 'JPY', waiverAvailableToInternational: null, waiver: null },
     documents: ['Academic transcripts', 'English proficiency evidence', 'Scholarship application documents', 'Video-recorded interview'],
@@ -695,7 +709,10 @@ window.UNIPATH.universities.push(
   },
   admissions: {
     platforms: ['Tohoku University FGL application'],
-    deadlines: [],
+    deadlines: [
+      { name: 'Future Global Leadership (FGL) — closed to new applicants', kind: 'intake', entryTerm: 'October', entryYear: '2026', date: 'The last FGL undergraduate intake has ended', binding: false, appliesTo: 'International first-year applicants', conditions: 'Tohoku University states that admissions to the last intake of the FGL undergraduate programme have ended and that a new English-taught undergraduate programme, Gateway College, launches in 2027.', status: 'confirmed', source: 'https://www.insc.tohoku.ac.jp/english/degree/undergraduate-english/', verified: '2026-09-24', note: null },
+      { name: 'Gateway College — new English-taught programme from 2027', kind: 'intake', entryTerm: 'October', entryYear: '2027', date: 'Application dates published by the university', binding: false, appliesTo: 'International applicants to the new Gateway College', conditions: 'Gateway College is an interdisciplinary undergraduate programme taught mainly in English, with the specialisation chosen after enrolment. Its 2027 application dates were not read during this check.', status: 'not-confirmed', source: 'https://www.insc.tohoku.ac.jp/english/degree/undergraduate-english/', verified: null, note: null },
+    ],
     applicationFee: { amount: null, currency: 'JPY', waiverAvailableToInternational: null, waiver: null },
     documents: ['Academic transcripts', 'English proficiency evidence'],
     recommendations: null,

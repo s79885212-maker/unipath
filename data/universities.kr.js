@@ -34,7 +34,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['SNU online application'],
     deadlines: [
-      { name: 'Global Korea Scholarship (embassy track)', date: 'September', note: 'Applications go to Korean embassies, which run initial screening' }
+      { name: 'Spring 2027 — online application', kind: 'intake', entryTerm: 'Spring', entryYear: '2027', dateISO: '2026-07-09', date: '6–9 July 2026', time: '17:00', timezone: 'KST', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'Closes at 17:00 KST. After the deadline the form, personal statement and study plan cannot be edited and the fee cannot be paid; email, fax and post are not accepted.', status: 'confirmed', source: 'https://en.snu.ac.kr/admission/undergraduate/application', verified: '2026-09-24', note: null },
+      { name: 'Spring 2027 — recommendation letters', kind: 'documents', entryTerm: 'Spring', entryYear: '2027', dateISO: '2026-07-10', date: '10 July 2026', time: '17:00', timezone: 'KST', binding: false, appliesTo: 'Applicants whose referees submit online', conditions: 'Referees must submit online by 17:00 KST.', status: 'confirmed', source: 'https://en.snu.ac.kr/admission/undergraduate/application', verified: '2026-09-24', note: null },
+      { name: 'Spring 2027 — preliminary decisions', kind: 'decision', entryTerm: 'Spring', entryYear: '2027', dateISO: '2026-10-16', date: '16 October 2026', time: '17:00', timezone: 'KST', binding: false, appliesTo: 'Applicants', conditions: 'Announced after 17:00 KST.', status: 'confirmed', source: 'https://en.snu.ac.kr/admission/undergraduate/application', verified: '2026-09-24', note: null },
     ],
     applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: false, waiver: 'Application fees are non-exemptible.', note: 'Non-refundable.' },
     documents: ['Academic transcripts', 'Proof of Korean OR English proficiency', 'Study plan'],
@@ -130,7 +132,11 @@ window.UNIPATH.universities.push(
   },
   admissions: {
     platforms: ['KAIST international application portal (univapply.kaist.ac.kr)'],
-    deadlines: [],
+    deadlines: [
+      { name: 'Early admission — application period', kind: 'round-1', entryTerm: 'Spring', entryYear: '2027', dateISO: '2026-10-22', date: '22 September – 22 October 2026', time: '18:00', timezone: 'KST', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'Closes at 18:00 KST. Recommendation letters by 29 October; interviews, if needed, on 22 December 2026; decision on 7 January 2027 at 10:00 KST; reply before February.', status: 'confirmed', source: 'https://admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline', verified: '2026-09-24', note: null },
+      { name: 'Regular admission — application period', kind: 'round-2', entryTerm: 'Spring', entryYear: '2027', dateISO: '2027-01-14', date: '10 November 2026 – 14 January 2027', time: '18:00', timezone: 'KST', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'Closes at 18:00 KST. Recommendation letters by 21 January; interviews, if needed, on 3 March 2027; decision on 25 March 2027 at 10:00 KST; reply before May.', status: 'confirmed', source: 'https://admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline', verified: '2026-09-24', note: null },
+      { name: 'Academic year start', kind: 'other', entryTerm: 'Spring', entryYear: '2027', date: 'End of February 2027 (spring track) or end of August 2027 (fall track)', binding: false, appliesTo: 'Admitted students', conditions: 'KAIST admits to a spring or a fall track.', status: 'confirmed', source: 'https://admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline', verified: '2026-09-24', note: null },
+    ],
     applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: false, waiver: 'The fee is not waivable (2023 admission guideline — the latest published online).', note: 'KRW 80,000 or US$80, non-refundable.' },
     documents: ['Academic transcripts', 'English proficiency test taken within two years of the online application deadline'],
     recommendations: null,
@@ -222,7 +228,11 @@ window.UNIPATH.universities.push(
   },
   admissions: {
     platforms: ['Common Application (search for "Underwood International College")', 'UIC application'],
-    deadlines: [],
+    deadlines: [
+      { name: 'UIC international admission — rolling', kind: 'rolling', entryTerm: 'Spring', entryYear: '2027', date: 'Rolling, with a document deadline for each round', binding: false, appliesTo: 'International applicants to Underwood International College', conditions: 'Yonsei states that international students are admitted on a rolling basis while Korean applicants follow the annual schedule. Hard copies of all documents must reach the UIC office by the round’s document deadline, otherwise the applicant is not interviewed and is disqualified.', status: 'confirmed', source: 'https://uic.yonsei.ac.kr/main/admission.php?mid=m04_02_02', verified: '2026-09-24', note: null },
+      { name: 'UIC Round 1 (Spring 2027) — online application', kind: 'round-1', entryTerm: 'Spring', entryYear: '2027', dateISO: '2026-09-22', date: '26 August – 22 September 2026', time: '17:00', timezone: 'KST', binding: false, appliesTo: 'UIC applicants for spring entry', conditions: 'Carried over from the earlier verification and not re-confirmed today.', status: 'not-confirmed', source: 'https://uic.yonsei.ac.kr/main/admission.php?mid=m04_02_02', verified: null, note: null },
+      { name: 'UIC Round 2 (Fall 2027)', kind: 'round-2', entryTerm: 'Fall', entryYear: '2027', date: 'Expected around March 2027', binding: false, appliesTo: 'UIC applicants for autumn entry', conditions: 'Approximate timing from the earlier verification; not confirmed for this cycle.', status: 'not-confirmed', source: 'https://uic.yonsei.ac.kr/main/admission.php?mid=m04_02_02', verified: null, note: null },
+    ],
     applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: false, waiver: 'UIC does not offer or accept fee waivers.', note: 'KRW 150,000 via the UIC application, or US$150 via the Common Application.' },
     documents: ['High school diploma or certificate of high school equivalency', 'Academic transcripts', 'English proficiency evidence'],
     recommendations: null,
@@ -322,7 +332,10 @@ window.UNIPATH.universities.push(
   },
   admissions: {
     platforms: ['Korea University international application'],
-    deadlines: [],
+    deadlines: [
+      { name: 'International undergraduate admission — application schedule', kind: 'intake', entryTerm: 'Spring', entryYear: '2027', date: 'Published by the Office of International Affairs for each intake', timezone: 'KST', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'Korea University publishes the schedule, documents, eligibility and evaluation procedure for international applicants on its Office of International Affairs pages; the 2027 dates were not read during this check.', status: 'not-confirmed', source: 'https://int.korea.edu/kuis/under/admission.do', verified: '2026-09-24', note: null },
+      { name: 'Fall 2026 intake — online application', kind: 'round-1', entryTerm: 'Fall', entryYear: '2026', dateISO: '2026-03-27', date: '2–27 March 2026', time: '17:00', timezone: 'KST', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'Carried over from the earlier verification; closes at 17:00 KST. This is a previous cycle, kept for reference.', status: 'previous-cycle', source: 'https://int.korea.edu/kuis/under/admission.do', verified: null, note: null },
+    ],
     applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null },
     documents: ['Academic transcripts', 'Official language proficiency test results'],
     recommendations: null,
@@ -413,7 +426,10 @@ window.UNIPATH.universities.push(
   },
   admissions: {
     platforms: ['SKKU global admissions portal'],
-    deadlines: [],
+    deadlines: [
+      { name: 'Spring 2027 — Round 1', kind: 'round-1', entryTerm: 'Spring', entryYear: '2027', dateISO: '2026-08-21', date: '12–21 August 2026', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'Carried over from the earlier verification and not re-confirmed on the official pages during this check.', status: 'not-confirmed', source: 'https://admission-global.skku.edu/', verified: null, note: null },
+      { name: 'Spring 2027 — Round 2', kind: 'round-2', entryTerm: 'Spring', entryYear: '2027', dateISO: '2026-11-13', date: '4–13 November 2026', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'Carried over from the earlier verification and not re-confirmed on the official pages during this check.', status: 'not-confirmed', source: 'https://admission-global.skku.edu/', verified: null, note: null },
+    ],
     applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null },
     documents: ['Academic transcripts', 'TOEFL or IELTS score report'],
     recommendations: null,
@@ -506,7 +522,10 @@ window.UNIPATH.universities.push(
   },
   admissions: {
     platforms: ['Hanyang Office of International Affairs application'],
-    deadlines: [],
+    deadlines: [
+      { name: 'Spring 2027 — online application', kind: 'intake', entryTerm: 'Spring', entryYear: '2027', dateISO: '2026-09-18', date: '18 September 2026', time: '17:00', timezone: 'KST', binding: false, appliesTo: 'International undergraduate applicants (Seoul campus)', conditions: 'Closes at 17:00 KST.', status: 'confirmed', source: 'https://oia.hanyang.ac.kr/admission', verified: '2026-09-24', note: null },
+      { name: 'Spring 2027 — document submission', kind: 'documents', entryTerm: 'Spring', entryYear: '2027', dateISO: '2026-09-30', date: '30 September 2026', time: '17:00', timezone: 'KST', binding: false, appliesTo: 'Applicants who submitted online', conditions: 'Supporting documents must arrive by 17:00 KST.', status: 'confirmed', source: 'https://oia.hanyang.ac.kr/admission', verified: '2026-09-24', note: null },
+    ],
     applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null },
     documents: ['Academic transcripts', 'English Proficiency Certificate (English Track applicants)', 'TOPIK certificate where applicable'],
     recommendations: null,
@@ -601,7 +620,9 @@ window.UNIPATH.universities.push(
   },
   admissions: {
     platforms: ['Ewha international application'],
-    deadlines: [],
+    deadlines: [
+      { name: 'Spring 2027 — online application', kind: 'intake', entryTerm: 'Spring', entryYear: '2027', dateISO: '2026-10-08', date: '2 September – 8 October 2026', time: '17:00', timezone: 'KST', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'Carried over from the earlier verification and not re-confirmed on the official pages during this check. Ewha publishes a Spring 2027 admissions guide for international applicants on its International Student Affairs pages.', status: 'not-confirmed', source: 'https://isa.ewha.ac.kr/oisa/1442/subview.do', verified: null, note: null },
+    ],
     applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null },
     documents: ['Academic transcripts', 'English proficiency test scores, or evidence of high school education conducted entirely in English'],
     recommendations: null,
@@ -697,7 +718,10 @@ window.UNIPATH.universities.push(
   },
   admissions: {
     platforms: ['Kyung Hee global admissions portal'],
-    deadlines: [],
+    deadlines: [
+      { name: 'Spring 2027 — first intake', kind: 'round-1', entryTerm: 'Spring', entryYear: '2027', dateISO: '2026-08-28', date: '17–28 August 2026', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'Carried over from the earlier verification and not re-confirmed on the official pages during this check.', status: 'not-confirmed', source: 'https://iao.khu.ac.kr/', verified: null, note: null },
+      { name: 'Spring 2027 — second intake', kind: 'round-2', entryTerm: 'Spring', entryYear: '2027', dateISO: '2026-11-06', date: '26 October – 6 November 2026', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'Carried over from the earlier verification and not re-confirmed on the official pages during this check.', status: 'not-confirmed', source: 'https://iao.khu.ac.kr/', verified: null, note: null },
+    ],
     applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null },
     documents: ['Academic transcripts', 'TOPIK certificate or proof of Korean language study', 'English proficiency evidence for English Track applicants'],
     recommendations: null,

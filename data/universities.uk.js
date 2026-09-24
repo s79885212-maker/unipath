@@ -40,11 +40,12 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['UCAS (required)', 'Admissions test for most courses, registered separately'],
     deadlines: [
-      { name: 'UCAS application (2027 entry)', entryTerm: '2027 entry', dateISO: '2026-10-15', date: '15 October 2026', note: 'Closes at 18:00 UK time — three months earlier than most UK universities' },
-      { name: 'Admissions tests', entryTerm: '2027 entry', date: 'October 2026', note: 'All applicants for courses that require a test sit it in October' },
-      { name: 'Interviews', entryTerm: '2027 entry', date: 'December 2026', note: 'Shortlisted applicants are interviewed online' },
-      { name: 'Decisions', entryTerm: '2027 entry', dateISO: '2027-01-12', date: '12 January 2027', note: 'Released through UCAS' },
-      { name: 'Reach Oxford Scholarship application', entryTerm: '2027 entry', dateISO: '2027-01-26', date: '26 January 2027', note: 'Separate scholarship deadline for offer holders from eligible countries' }
+      { name: 'UCAS deadline — 15 October (2027 entry)', kind: 'ucas-october', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-10-15', date: '15 October 2026', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'All Oxford applicants — Oxford uses the 15 October UCAS deadline for every course', conditions: 'Earlier UCAS deadline: applications must arrive by 18:00 UK time to be given equal consideration.', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-the-universities-of-oxford-and-cambridge-and-most-courses-in-medicine-475536', verified: '2026-09-24', note: null },
+      { name: 'UCAS applications open (2027 entry)', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-05-12', date: '12 May 2026', binding: false, appliesTo: 'All applicants', conditions: 'One UCAS application holds up to five course choices.', status: 'confirmed', source: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications', verified: '2026-09-24', note: null },
+      { name: 'Admissions tests', kind: 'other', entryTerm: 'Autumn', entryYear: '2027', date: 'October 2026', binding: false, appliesTo: 'Applicants for courses that require a test', conditions: 'Most Oxford courses require a subject test taken in October.', status: 'not-confirmed', source: 'https://www.ox.ac.uk/admissions/undergraduate/applying-to-oxford', verified: null, note: 'Carried over from the earlier verification; the exact 2026 test dates were not re-checked.' },
+      { name: 'Interviews', kind: 'other', entryTerm: 'Autumn', entryYear: '2027', date: 'December 2026', binding: false, appliesTo: 'Shortlisted applicants', conditions: 'Interviews are held online in December.', status: 'not-confirmed', source: 'https://www.ox.ac.uk/admissions/undergraduate/applying-to-oxford', verified: null, note: null },
+      { name: 'Decisions', kind: 'decision', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-12', date: '12 January 2027', binding: false, appliesTo: 'All applicants', conditions: 'Decisions are released through UCAS.', status: 'not-confirmed', source: 'https://www.ox.ac.uk/admissions/undergraduate/applying-to-oxford', verified: null, note: 'Carried over from the earlier verification; not re-checked for this cycle.' },
+      { name: 'Reach Oxford Scholarship application', kind: 'scholarship', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-26', date: '26 January 2027', binding: false, appliesTo: 'Offer holders from eligible countries', conditions: 'Separate scholarship application after an offer.', status: 'not-confirmed', source: 'https://www.ox.ac.uk/admissions/undergraduate/fees-and-funding/oxford-bursaries-and-scholarships/reach-oxford', verified: null, note: null },
     ],
     applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: null, waiver: null, note: 'The £34.50 is the UCAS fee for the whole application (up to five universities), not an Oxford fee' },
     documents: [
@@ -150,9 +151,10 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['UCAS (required)', 'My Cambridge Application — an extra form completed after the UCAS application', 'Admissions assessment for most courses'],
     deadlines: [
-      { name: 'UCAS application (2027 entry)', entryTerm: '2027 entry', dateISO: '2026-10-15', date: '15 October 2026', note: 'Closes at 18:00 UK time' },
-      { name: 'My Cambridge Application', date: 'Shortly after the UCAS deadline', note: 'Cambridge emails the form once your UCAS application arrives — the exact date is published each cycle' },
-      { name: 'Interviews', entryTerm: '2027 entry', date: 'December 2026', note: 'Most overseas applicants are interviewed online' }
+      { name: 'UCAS deadline — 15 October (2027 entry)', kind: 'ucas-october', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-10-15', date: '15 October 2026', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'All Cambridge applicants — Cambridge uses the 15 October UCAS deadline for every course', conditions: 'Earlier UCAS deadline: applications must arrive by 18:00 UK time to be given equal consideration.', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-the-universities-of-oxford-and-cambridge-and-most-courses-in-medicine-475536', verified: '2026-09-24', note: null },
+      { name: 'UCAS applications open (2027 entry)', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-05-12', date: '12 May 2026', binding: false, appliesTo: 'All applicants', conditions: 'One UCAS application holds up to five course choices.', status: 'confirmed', source: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications', verified: '2026-09-24', note: null },
+      { name: 'My Cambridge Application', kind: 'documents', entryTerm: 'Autumn', entryYear: '2027', date: 'Shortly after the UCAS deadline', binding: false, appliesTo: 'All applicants', conditions: 'A second Cambridge-specific form follows the UCAS application.', status: 'not-confirmed', source: 'https://www.undergraduate.study.cam.ac.uk/apply', verified: null, note: null },
+      { name: 'Interviews', kind: 'other', entryTerm: 'Autumn', entryYear: '2027', date: 'December 2026', binding: false, appliesTo: 'Shortlisted applicants', conditions: 'Most interviews are held in December.', status: 'not-confirmed', source: 'https://www.undergraduate.study.cam.ac.uk/apply', verified: null, note: null },
     ],
     applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: null, waiver: null, note: 'The £34.50 is the UCAS fee for the whole application, not a Cambridge fee' },
     documents: [
@@ -266,8 +268,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['UCAS (required)', 'Admissions test for some courses, such as medicine'],
     deadlines: [
-      { name: 'UCAS equal consideration deadline (2027 entry)', entryTerm: '2027 entry', dateISO: '2027-01-13', date: '13 January 2027', note: 'Closes at 18:00 UK time' },
-      { name: 'Medicine and related courses', entryTerm: '2027 entry', dateISO: '2026-10-15', date: '15 October 2026', note: 'The early UCAS deadline applies to medicine' }
+      { name: 'UCAS equal consideration deadline (2027 entry)', kind: 'ucas-main', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-13', date: '13 January 2027', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'All undergraduate courses except those with a 15 October deadline', conditions: 'Applications arriving by 18:00 UK time must be considered equally; later ones only if places remain.', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546', verified: '2026-09-24', note: null },
+      { name: 'UCAS deadline — 15 October (2027 entry)', kind: 'ucas-october', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-10-15', date: '15 October 2026', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'Medicine and related courses', conditions: 'Earlier UCAS deadline: applications must arrive by 18:00 UK time to be given equal consideration.', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-the-universities-of-oxford-and-cambridge-and-most-courses-in-medicine-475536', verified: '2026-09-24', note: null },
+      { name: 'UCAS applications open (2027 entry)', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-05-12', date: '12 May 2026', binding: false, appliesTo: 'All applicants', conditions: 'One UCAS application holds up to five course choices.', status: 'confirmed', source: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications', verified: '2026-09-24', note: null },
     ],
     applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: null, waiver: null, note: 'The £34.50 UCAS fee covers the whole application, not one university' },
     documents: [
@@ -370,9 +373,10 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['UCAS (required)'],
     deadlines: [
-      { name: 'UCAS equal consideration deadline (2027 entry)', entryTerm: '2027 entry', dateISO: '2027-01-13', date: '13 January 2027', note: 'Closes at 18:00 UK time; applications may stay open afterwards for some courses' },
-      { name: 'UCL Global Undergraduate Scholarship', date: '27 April (2026 date; 2027 to be confirmed)', note: 'Separate scholarship application, closes 17:00 BST' },
-      { name: 'Meeting offer conditions, including English', date: '3 September (2026 date)', note: 'Offer holders must meet all conditions by 17:00 UK time' }
+      { name: 'UCAS equal consideration deadline (2027 entry)', kind: 'ucas-main', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-13', date: '13 January 2027', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'All undergraduate courses except those with a 15 October deadline', conditions: 'Applications arriving by 18:00 UK time must be considered equally; later ones only if places remain.', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546', verified: '2026-09-24', note: null },
+      { name: 'UCAS applications open (2027 entry)', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-05-12', date: '12 May 2026', binding: false, appliesTo: 'All applicants', conditions: 'One UCAS application holds up to five course choices.', status: 'confirmed', source: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications', verified: '2026-09-24', note: null },
+      { name: 'UCL Global Undergraduate Scholarship', kind: 'scholarship', entryTerm: 'Autumn', entryYear: '2027', date: '27 April 2026 (2027 date to be confirmed)', binding: false, appliesTo: 'Applicants eligible for the scholarship', conditions: 'UCL had not published the 2027 date when this was checked.', status: 'previous-cycle', source: 'https://www.ucl.ac.uk/prospective-students/undergraduate/scholarships', verified: null, note: null },
+      { name: 'Meeting offer conditions, including English', kind: 'documents', entryTerm: 'Autumn', entryYear: '2027', date: '3 September 2026 (2027 date to be confirmed)', binding: false, appliesTo: 'Offer holders', conditions: 'Conditions, including English, must be met by this date.', status: 'previous-cycle', source: 'https://www.ucl.ac.uk/prospective-students/undergraduate', verified: null, note: null },
     ],
     applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: null, waiver: null, note: 'The £34.50 UCAS fee covers the whole application' },
     documents: [
@@ -474,8 +478,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['UCAS (required)'],
     deadlines: [
-      { name: 'UCAS equal consideration deadline (2027 entry)', entryTerm: '2027 entry', dateISO: '2027-01-13', date: '13 January 2027', note: 'Closes at 18:00 UK time' },
-      { name: 'Medicine and dentistry', entryTerm: '2027 entry', dateISO: '2026-10-15', date: '15 October 2026', note: 'The early UCAS deadline applies' }
+      { name: 'UCAS equal consideration deadline (2027 entry)', kind: 'ucas-main', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-13', date: '13 January 2027', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'All undergraduate courses except those with a 15 October deadline', conditions: 'Applications arriving by 18:00 UK time must be considered equally; later ones only if places remain.', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546', verified: '2026-09-24', note: null },
+      { name: 'UCAS deadline — 15 October (2027 entry)', kind: 'ucas-october', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-10-15', date: '15 October 2026', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'Medicine and dentistry', conditions: 'Earlier UCAS deadline: applications must arrive by 18:00 UK time to be given equal consideration.', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-the-universities-of-oxford-and-cambridge-and-most-courses-in-medicine-475536', verified: '2026-09-24', note: null },
+      { name: 'UCAS applications open (2027 entry)', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-05-12', date: '12 May 2026', binding: false, appliesTo: 'All applicants', conditions: 'One UCAS application holds up to five course choices.', status: 'confirmed', source: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications', verified: '2026-09-24', note: null },
     ],
     applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: null, waiver: null, note: 'The £34.50 UCAS fee covers the whole application' },
     documents: [
@@ -578,8 +583,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['UCAS (required)'],
     deadlines: [
-      { name: 'UCAS equal consideration deadline (2027 entry)', entryTerm: '2027 entry', dateISO: '2027-01-13', date: '13 January 2027', note: 'Closes at 18:00 UK time' },
-      { name: 'Medicine and veterinary medicine', entryTerm: '2027 entry', dateISO: '2026-10-15', date: '15 October 2026', note: 'The early UCAS deadline applies' }
+      { name: 'UCAS equal consideration deadline (2027 entry)', kind: 'ucas-main', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-13', date: '13 January 2027', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'All undergraduate courses except those with a 15 October deadline', conditions: 'Applications arriving by 18:00 UK time must be considered equally; later ones only if places remain.', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546', verified: '2026-09-24', note: null },
+      { name: 'UCAS deadline — 15 October (2027 entry)', kind: 'ucas-october', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-10-15', date: '15 October 2026', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'Medicine and veterinary medicine', conditions: 'Earlier UCAS deadline: applications must arrive by 18:00 UK time to be given equal consideration.', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-the-universities-of-oxford-and-cambridge-and-most-courses-in-medicine-475536', verified: '2026-09-24', note: null },
+      { name: 'UCAS applications open (2027 entry)', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-05-12', date: '12 May 2026', binding: false, appliesTo: 'All applicants', conditions: 'One UCAS application holds up to five course choices.', status: 'confirmed', source: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications', verified: '2026-09-24', note: null },
     ],
     applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: null, waiver: null, note: 'The £34.50 UCAS fee covers the whole application' },
     documents: [
@@ -685,8 +691,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['UCAS (required)'],
     deadlines: [
-      { name: 'UCAS equal consideration deadline (2027 entry)', entryTerm: '2027 entry', dateISO: '2027-01-13', date: '13 January 2027', note: 'Closes at 18:00 UK time' },
-      { name: 'Medicine and dentistry', entryTerm: '2027 entry', dateISO: '2026-10-15', date: '15 October 2026', note: 'The early UCAS deadline applies' }
+      { name: 'UCAS equal consideration deadline (2027 entry)', kind: 'ucas-main', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-13', date: '13 January 2027', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'All undergraduate courses except those with a 15 October deadline', conditions: 'Applications arriving by 18:00 UK time must be considered equally; later ones only if places remain.', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546', verified: '2026-09-24', note: null },
+      { name: 'UCAS deadline — 15 October (2027 entry)', kind: 'ucas-october', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-10-15', date: '15 October 2026', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'Medicine and dentistry', conditions: 'Earlier UCAS deadline: applications must arrive by 18:00 UK time to be given equal consideration.', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-the-universities-of-oxford-and-cambridge-and-most-courses-in-medicine-475536', verified: '2026-09-24', note: null },
+      { name: 'UCAS applications open (2027 entry)', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-05-12', date: '12 May 2026', binding: false, appliesTo: 'All applicants', conditions: 'One UCAS application holds up to five course choices.', status: 'confirmed', source: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications', verified: '2026-09-24', note: null },
     ],
     applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: null, waiver: null, note: 'The £34.50 UCAS fee covers the whole application' },
     documents: [
@@ -789,8 +796,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['UCAS (required)'],
     deadlines: [
-      { name: 'UCAS equal consideration deadline (2027 entry)', entryTerm: '2027 entry', dateISO: '2027-01-13', date: '13 January 2027', note: 'Closes at 18:00 UK time' },
-      { name: 'Medicine (MBChB)', entryTerm: '2027 entry', dateISO: '2026-10-15', date: '15 October 2026', note: 'The early UCAS deadline applies' }
+      { name: 'UCAS equal consideration deadline (2027 entry)', kind: 'ucas-main', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-13', date: '13 January 2027', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'All undergraduate courses except those with a 15 October deadline', conditions: 'Applications arriving by 18:00 UK time must be considered equally; later ones only if places remain.', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546', verified: '2026-09-24', note: null },
+      { name: 'UCAS deadline — 15 October (2027 entry)', kind: 'ucas-october', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-10-15', date: '15 October 2026', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'Medicine (MBChB)', conditions: 'Earlier UCAS deadline: applications must arrive by 18:00 UK time to be given equal consideration.', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-the-universities-of-oxford-and-cambridge-and-most-courses-in-medicine-475536', verified: '2026-09-24', note: null },
+      { name: 'UCAS applications open (2027 entry)', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-05-12', date: '12 May 2026', binding: false, appliesTo: 'All applicants', conditions: 'One UCAS application holds up to five course choices.', status: 'confirmed', source: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications', verified: '2026-09-24', note: null },
     ],
     applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: null, waiver: null, note: 'The £34.50 UCAS fee covers the whole application' },
     documents: [

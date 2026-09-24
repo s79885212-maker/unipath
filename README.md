@@ -48,7 +48,7 @@ path keeps the existing link.
   an official `min` or `recommended`.
 - `english.toefl.scales`: TOEFL changed to a 1–6 scale for tests taken from
   21 January 2026. `[{ period: 'pre2026', min, recommended },
-  { period: 'post2026', min, recommended, accepted }]` holds both published sets.
+{ period: 'post2026', min, recommended, accepted }]` holds both published sets.
   `lowestLevel: true` marks a `min` that is the lowest of several course levels.
 - `english`, `academics`, `admissions` and `costs` overrides, for fields confirmed
   after the base records were written.
@@ -127,7 +127,7 @@ This produces `dist/` (the website itself, upload this folder) and `build/unipat
 Recommended free host: **Netlify** — open <https://app.netlify.com/drop>, sign in,
 and drag the `dist` folder onto the page. You get `https://<name>.netlify.app`
 immediately. To use your own domain, buy it from any registrar, then in Netlify go
-to *Domain management → Add a domain* and follow the DNS instructions it shows.
+to _Domain management → Add a domain_ and follow the DNS instructions it shows.
 
 ## Structure
 
@@ -225,7 +225,7 @@ Append one object to the relevant `data/universities.<code>.js` file. Nothing el
 changes — routing, search, filters, the scholarship page and comparison all pick it
 up automatically. Only `id`, `name`, `country`, `city` and `links.website` are
 strictly required; every other field may be `null` and will render as
-*"Not confirmed — check the official source"*.
+_"Not confirmed — check the official source"_.
 
 ## Adding a country
 

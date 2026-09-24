@@ -215,9 +215,7 @@
       act: { policy: 'accepted', note: 'Not required, but an ACT composite of 19+ is accepted in place of an English test.' },
       internationalQualifications: 'Applicants should meet university entrance requirements in their own country and present outstanding secondary or leaving-exam results.'
     },
-    admissions: {
-      deadlines: [{ name: 'International application deadline', kind: 'intake', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-30', date: '30 November 2026', binding: false, appliesTo: 'International applicants', conditions: 'All parts of the application must arrive by this date; decisions are released no later than 31 March.', status: 'confirmed', source: 'https://www.berea.edu/admissions/admission-information/apply/checklist-items/international-faqs', verified: '2026-09-23', note: null }]
-    },
+    admissions: {},
     sources: [{ label: 'International applicant information (English minimums, deadline)', url: 'https://www.berea.edu/admissions/admission-information/apply/checklist-items/international-faqs' }],
     stats: {
       term: 'Current admissions information',
@@ -248,10 +246,6 @@
       note: 'PEAK has closed. UTokyo\'s new English-taught route is the College of Design: a five-year combined bachelor\'s/master\'s programme starting September 2027, taught entirely in English, with no nationality restriction.'
     },
     admissions: {
-      deadlines: [
-        { name: 'College of Design — pre-application check', date: '25 September 2026, 17:00 JST', note: 'Required before applying' },
-        { name: 'College of Design — application period', date: '15 October – 5 November 2026', note: 'For September 2027 entry' }
-      ],
       notes: [
         'College of Design: 100 places in total — 50 on Route A (Japanese Common Test, with about 80% expected) and 50 on Route B (designated international tests and qualifications such as IB or A-Levels).',
         'Route B documents must all be in English. Applicants submit a school transcript and evaluation, two essays, a video assignment and supporting materials.'
@@ -429,9 +423,7 @@
       sat: { policy: 'accepted', note: 'Gateway College accepts the SAT, Digital SAT, ACT, AP or EJU — or the IB, International A-Level or GCE A-Level.' },
       act: { policy: 'accepted', note: 'Accepted as one of the standardized tests for the October intake.' }
     },
-    admissions: {
-      deadlines: [{ name: 'Gateway College — October intake (overseas applicants)', date: '15 December – 14 January', note: 'For fall 2027 enrolment; 90 places' }]
-    },
+    admissions: {},
     sources: [{ label: 'Gateway College admissions', url: 'https://admissions.tohoku.ac.jp/en/admissions/undergraduate/gateway_college/' }],
     stats: {
       term: 'Gateway College, fall 2027 entry',
@@ -681,9 +673,6 @@
 
   patch('kyoto-university', {
     admissions: {
-      deadlines: [
-        { name: 'Kyoto iUP — October 2027 enrolment', date: '2 November – 3 December 2026 (5 p.m. JST)', note: 'Online application; the application fee must also be paid by 3 December 2026' }
-      ],
       applicationFee: { amount: 9800, currency: 'JPY', waiverAvailableToInternational: false, waiver: 'Kyoto University offers no application fee waivers.', note: 'A ¥429 processing fee is added; the fee is non-refundable.' }
     },
     academics: {
@@ -711,13 +700,7 @@
   });
 
   patch('keio-university', {
-    admissions: {
-      deadlines: [
-        { name: 'PEARL period I (September 2026 entry)', date: '22 October – 3 December 2025, 3 p.m. JST', note: 'Results 26 January 2026' },
-        { name: 'PEARL period II', date: '5 December 2025 – 28 January 2026, 3 p.m. JST', note: 'Results 26 February 2026' },
-        { name: 'PEARL period III', date: '27 February – 10 April 2026, 3 p.m. JST', note: 'Results 25 May 2026. Dates for September 2027 entry follow the same pattern — check the new guidebook.' }
-      ]
-    },
+    admissions: {},
     academics: {
       sat: { policy: 'required-alternatives', note: 'Applicants submit IB, SAT or ACT scores (or national exam results such as A-Levels or the Abitur). Keio states there are no cut-off IB, SAT or ACT scores; paper and digital SAT count equally.' },
       act: { policy: 'accepted', note: 'Accepted; no cut-off score.' }
@@ -727,12 +710,6 @@
 
   patch('sophia-university', {
     admissions: {
-      deadlines: [
-        { name: 'Spring (April) 2027 — first period', date: '1 – 9 September 2026 (documents by 16 September)', note: 'First-year and third-year transfer entry; matriculation deadline 27 November 2026' },
-        { name: 'Spring (April) 2027 — second period', date: '11 November – 4 December 2026 (documents by 11 December)', note: 'Limited to certain applicants; results 29 January 2027' },
-        { name: 'Autumn (September) 2027 — first period', date: '11 November – 4 December 2026 (documents by 11 December)', note: 'First-year entry; results 5 February 2027' },
-        { name: 'Autumn (September) 2027 — second period', date: '10 – 31 March 2027 (documents by 7 April)', note: 'Results 4 June 2027' }
-      ],
       applicationFee: { amount: 35000, currency: 'JPY', waiverAvailableToInternational: null, waiver: null, note: 'An online payment handling fee of ¥1,100 is added. Overseas applicants without a Japanese bank account must pay by credit card.' }
     },
     costs: {
@@ -787,11 +764,6 @@
 
   patch('seoul-national-university', {
     admissions: {
-      deadlines: [
-        { name: 'Spring 2027 — online application', date: '6 – 9 July 2026 (17:00 KST)', note: 'Recommendation letters by 10 July 2026' },
-        { name: 'Spring 2027 — interviewee list', date: '11 September 2026', note: null },
-        { name: 'Spring 2027 — preliminary decisions', date: '16 October 2026 (after 17:00 KST)', note: null }
-      ],
       applicationFee: { amount: 70000, currency: 'KRW', waiverAvailableToInternational: false, waiver: 'Application fees are non-exemptible.', note: 'Non-refundable.' }
     },
     academics: {
@@ -828,10 +800,6 @@
 
   patch('yonsei-university', {
     admissions: {
-      deadlines: [
-        { name: 'UIC Round 1 (Spring 2027) — online application', date: '26 August – 22 September 2026 (17:00 KST)', note: 'Documents by 2 October 2026; interviews 11–12 December; results 18 December 2026' },
-        { name: 'UIC Round 2 (Fall 2027)', date: 'Expected around March 2027', note: 'Yonsei has not yet published exact dates' }
-      ],
       applicationFee: { amount: 150000, currency: 'KRW', waiverAvailableToInternational: false, waiver: 'UIC does not offer or accept fee waivers.', note: 'KRW 150,000 via the UIC application, or US$150 via the Common Application.' }
     },
     english: {
@@ -844,11 +812,7 @@
   });
 
   patch('korea-university', {
-    admissions: {
-      deadlines: [
-        { name: 'Fall 2026 intake — online application', date: '2 – 27 March 2026 (17:00 KST)', note: 'Documents by post by 31 March; results 12 June 2026. The Fall 2027 cycle is expected in a similar window — check the new guide.' }
-      ]
-    },
+    admissions: {},
     costs: {
       academicYear: '2026 academic year',
       currency: 'KRW',
@@ -869,10 +833,6 @@
 
   patch('sungkyunkwan-university', {
     admissions: {
-      deadlines: [
-        { name: 'Spring 2027 — Round 1', date: '12 – 21 August 2026 (online)', note: 'Documents by 4 September; results 23 October 2026' },
-        { name: 'Spring 2027 — Round 2', date: '4 – 13 November 2026 (online)', note: 'Documents by 27 November; results 8 January 2027. Semester starts 1 March 2027.' }
-      ],
       applicationFee: { amount: 150000, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'KRW 30,000 if a candidate with a preliminary offer reapplies to the same admission unit. Otherwise non-refundable except as Korean law requires.' }
     },
     english: {
@@ -905,9 +865,6 @@
 
   patch('hanyang-university', {
     admissions: {
-      deadlines: [
-        { name: 'Spring 2027 — online application', date: '1 – 18 September 2026 (17:00 KST)', note: 'Documents by post by 30 September; results 18 December 2026; semester starts 2 March 2027' }
-      ],
       notes: [
         'Applicants who do not yet meet Hanyang\'s Korean-language standards can still be admitted on academic merit, but must meet those standards before starting the degree programme.',
         'International Studies (English Track) requires TOEFL iBT 89+ or IELTS 6.5+ and includes an English interview.'
@@ -937,21 +894,12 @@
   });
 
   patch('ewha-womans-university', {
-    admissions: {
-      deadlines: [
-        { name: 'Spring 2027 — online application', date: '2 September (13:00) – 8 October 2026 (17:00 KST)', note: 'Application form and fee must both be completed by the deadline' }
-      ]
-    },
+    admissions: {},
     sources: [{ label: 'Ewha Spring 2027 Admissions for International Applicants (PDF)', url: 'https://isa.ewha.ac.kr/sites/oisa/file/ag_english.pdf' }]
   });
 
   patch('kyung-hee-university', {
-    admissions: {
-      deadlines: [
-        { name: 'Spring 2027 — first intake', date: '17 – 28 August 2026', note: 'Documents postmarked by 27 August; results 23 October 2026; classes start 2 March 2027' },
-        { name: 'Spring 2027 — second intake', date: '26 October – 6 November 2026', note: null }
-      ]
-    },
+    admissions: {},
     sources: [{ label: 'Kyung Hee — undergraduate admission for international students', url: 'https://iadmission.khu.ac.kr/gglobalcenter/user/contents/view.do?menuNo=8000031' }]
   });
 
