@@ -201,12 +201,17 @@ def shell(template: str, head: str, main_html: str) -> str:
     page = template
     # Drop the generic tags the page overrides.
     page = re.sub(r"<title>.*?</title>\n?", "", page, flags=re.S)
-    page = re.sub(r'<meta (name="description"|property="og:[a-z_]+")[^>]*>\n?', "", page)
+    # The shell writes these tags over several lines, so the match must span newlines.
+    page = re.sub(r'\s*<meta\s+(name="description"|property="og:[a-z_]+")[^>]*?/?>', "", page, flags=re.S)
     # Pages live at /university/<id>/, so every local file must be requested
     # from the site root. The meta tag tells the app it is on such a page
     # (photo paths from data/photos.js and #/ links are then made root-based).
     page = re.sub(r'(src|href)="(assets|data)/', r'\1="' + BASE + r'\2/', page)
-    page = page.replace('<meta charset="utf-8">', '<meta charset="utf-8">\n<meta name="unipath-root" content="' + BASE + '">\n' + head, 1)
+    charset = re.search(r'<meta\s+charset="utf-8"\s*/?>', page)
+    if not charset:
+        raise SystemExit('prerender: charset meta not found in index.html — the head anchor changed')
+    page = (page[:charset.end()] + '\n<meta name="unipath-root" content="' + BASE + '">\n' + head
+            + page[charset.end():])
     # The shell's <main> holds a short loading line until the app renders;
     # a prerendered page replaces it with the real content.
     page = re.sub(r'<main id="main">.*?</main>', lambda _: f'<main id="main">{main_html}</main>', page, count=1, flags=re.S)

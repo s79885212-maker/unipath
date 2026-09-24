@@ -922,17 +922,24 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A wide range of national school-leaving qualifications is accepted; the required grades are published for each programme.'
   },
   costs: {
-    breakdown: { published: false, includes: 'LSE publishes overseas undergraduate fees in its Table of Fees, by programme tier; the figure for the 2027–28 year was not read here' },
-    academicYear: '2027–2028',
+    breakdown: { tuition: 30400, tuitionText: '\u00a330,400\u2013\u00a341,900 depending on the programme', includes: 'the Overseas undergraduate rate for the programme in 2027/28, fixed at the year-of-entry level; living costs in London are extra', published: true },
+    academicYear: '2027\u20132028',
     currency: 'GBP',
-    headline: 'Tuition published per programme tier',
+    headline: '\u00a330,400\u2013\u00a341,900 tuition (Overseas rate)',
     items: [
-      { label: 'Tuition (Overseas rate)', text: 'Set per programme tier in the LSE Table of Fees and fixed at the year-of-entry level for the whole degree' },
+      { label: 'Tuition \u2014 history, social anthropology and economic history', amount: 30400 },
+      { label: 'Tuition \u2014 politics, philosophy, geography and sociology', amount: 32300 },
+      { label: 'Tuition \u2014 international relations, PPE and psychology', amount: 33800 },
+      { label: 'Tuition \u2014 law, management and data science', amount: 37500 },
+      { label: 'Tuition \u2014 mathematics, finance and accounting', amount: 39300 },
+      { label: 'Tuition \u2014 Economics and Econometrics', amount: 41900 },
       { label: 'Living costs in London', text: 'Not read from the official page during this check' }
     ],
     billedSubtotal: null,
-    totalText: 'Not confirmed — see the LSE Table of Fees',
-    note: 'LSE fixes the overseas fee at the level of the year of entry, so it does not rise during the programme.'
+    totalText: '\u00a330,400\u2013\u00a341,900 a year for students starting in 2027/28, depending on the programme',
+    note: 'LSE fixes the overseas fee at the level of the year of entry, so it does not rise during the programme. Figures come from the LSE Table of Fees 2027/28 published on 29 July 2026.',
+    source: 'https://info.lse.ac.uk/staff/divisions/Planning-Division/Assets/Documents/Tables-of-Fees-27-28-and-PGR-Structure-combined-29July2026.pdf',
+    verified: '2026-09-24'
   },
   scholarships: {
     fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check. LSE states that it awards privately funded scholarships and bursaries to Overseas-fee students, but says the number, value and criteria change each year.' },
@@ -945,7 +952,7 @@ window.UNIPATH.universities.push(
     { label: 'Undergraduate fees and funding', url: 'https://www.lse.ac.uk/study-at-lse/Undergraduate/fees-and-funding' },
     { label: 'UCAS key dates for 2027 entry', url: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications' }
   ],
-  verification: { level: 'partial', checked: ['english','rounds','application fee'], unconfirmed: ['tuition amount','scholarships','application documents beyond UCAS'] },
+  verification: { level: 'partial', checked: ['english','rounds','application fee','tuition (2027/28 Table of Fees)'], unconfirmed: ['scholarships','application documents beyond UCAS'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1471,14 +1478,24 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A-levels, the IB and a published list of international qualifications are accepted.'
   },
   costs: {
-    breakdown: { published: false, includes: 'the overseas tuition rate is published on each course page; no single university-wide figure was confirmed here' },
-    academicYear: '2026–2027',
+    breakdown: { tuition: 26200, tuitionText: '\u00a326,200\u2013\u00a334,800 depending on the course', includes: 'the overseas tuition band for the course in 2027/28; medicine and veterinary medicine are charged separately and living costs are extra', published: true },
+    academicYear: '2027\u20132028',
     currency: 'GBP',
-    headline: 'Tuition published per course',
-    items: [ { label: 'Tuition (Overseas rate)', text: 'Set per course and published on the course page' } ],
+    headline: '\u00a326,200\u2013\u00a334,800 tuition (most courses)',
+    items: [
+      { label: 'Tuition \u2014 arts, humanities and most social sciences', amount: 26200 },
+      { label: 'Tuition \u2014 accountancy, business and law', amount: 27600 },
+      { label: 'Tuition \u2014 geography and mathematical physics', amount: 30800 },
+      { label: 'Tuition \u2014 most science and engineering courses', amount: 33500 },
+      { label: 'Tuition \u2014 Physiotherapy', amount: 34800 },
+      { label: 'Tuition \u2014 Veterinary Medicine and Surgery (BVMBVS)', amount: 43100 },
+      { label: 'Tuition \u2014 Medicine (BMBS)', amount: 48900 }
+    ],
     billedSubtotal: null,
-    totalText: 'Not confirmed — see the official fees page',
-    note: 'Living costs, the visa fee and the immigration health surcharge are extra.'
+    totalText: '\u00a326,200\u2013\u00a348,900 a year depending on the course, for students starting in 2027/28',
+    note: 'Living costs, the visa fee and the immigration health surcharge are extra. Nottingham states that a proposed UK government levy on international fees, if introduced, would be added to tuition.',
+    source: 'https://www.nottingham.ac.uk/fees/tuitionfees/202728/undergraduate.aspx',
+    verified: '2026-09-24'
   },
   scholarships: {
     fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
@@ -1490,7 +1507,7 @@ window.UNIPATH.universities.push(
     { label: 'English language requirements for international students', url: 'https://www.nottingham.ac.uk/studywithus/international-applicants/english-language/english-language-requirements.aspx' },
     { label: 'Undergraduate tuition fees 2026/27', url: 'https://www.nottingham.ac.uk/fees/tuitionfees/202627/undergraduate.aspx' }
   ],
-  verification: { level: 'partial', checked: ['english minimum','rounds','application fee'], unconfirmed: ['tuition amount','scholarships'] },
+  verification: { level: 'partial', checked: ['english minimum','rounds','application fee','tuition (2027/28 fee table)'], unconfirmed: ['scholarships'] },
   lastVerified: '2026-09-23'
 },
 

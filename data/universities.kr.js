@@ -987,14 +987,22 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Applicants normally need 12 years of school education completed outside Korea (or an equivalent qualification); Korean universities also set separate rules for applicants of overseas Korean descent.'
   },
   costs: {
-    breakdown: { published: false, includes: 'Handong publishes tuition by area of study; the figures were not read during this check' },
-    academicYear: '2026–2027',
+    breakdown: { tuition: 4023000, tuitionText: '\u20a94,023,000 for the first semester, then \u20a93,171,000\u2013\u20a94,068,000 depending on the area of study', period: 'semester', includes: 'tuition for one semester; housing, food and living costs in Pohang are extra', published: true },
+    academicYear: '2025\u20132026',
     currency: 'KRW',
-    headline: 'Tuition published by area of study',
-    items: [ { label: 'Tuition', text: 'Varies by area of study; published on the Handong tuition page' } ],
+    headline: '\u20a94,023,000 tuition in the first semester',
+    items: [
+      { label: 'Tuition \u2014 freshman, first semester', amount: 4023000 },
+      { label: 'Tuition \u2014 freshman, second semester', amount: 3843000 },
+      { label: 'Tuition \u2014 humanities and social science', amount: 3171000 },
+      { label: 'Tuition \u2014 engineering and arts', amount: 4068000 },
+      { label: 'Tuition \u2014 combined humanities and engineering track', amount: 3618000 }
+    ],
     billedSubtotal: null,
-    totalText: 'Not confirmed — see the official tuition page',
-    note: 'The Cornerstone Scholarship can cover tuition and the dormitory fee for four years.'
+    totalText: 'About \u20a97,866,000 in the first year for a freshman, before any scholarship',
+    note: 'These are the Fall 2025 rates published by Handong, which states that tuition is decided every January and is subject to change. The Cornerstone Scholarship can cover tuition and the dormitory fee for four years.',
+    source: 'https://www.handong.edu/eng/admission/undergraduate/tuition/',
+    verified: '2026-09-24'
   },
   scholarships: {
     fullRide: { available: true, internationalEligible: true, basis: 'merit', covers: { tuition: true, housing: true, meals: false, insurance: false, books: false }, renewable: true, competitiveness: 'Awarded to selected international applicants; the number of awards was not published on the pages read.', howToApply: 'Applied for with the admission application.', note: 'The Cornerstone Scholarship covers 100% of tuition and the dormitory fee for four years, and requires a GPA of at least 3.0 each semester. Food, insurance and personal costs are not included, so it is close to but not literally a full ride.' },
@@ -1010,7 +1018,7 @@ window.UNIPATH.universities.push(
     { label: 'English-taught programmes', url: 'https://www.handong.edu/eng/academics/undergraduate/english-programs/english/' },
     { label: 'Undergraduate admission overview', url: 'https://www.handong.edu/eng/admission/undergraduate/application/overview/' }
   ],
-  verification: { level: 'partial', checked: ['English-taught programmes','Cornerstone Scholarship coverage and conditions'], unconfirmed: ['tuition amounts','English scores','2027 dates','application fee'] },
+  verification: { level: 'partial', checked: ['English-taught programmes','Cornerstone Scholarship coverage and conditions','tuition per semester by area of study'], unconfirmed: ['English scores','2027 dates','application fee'] },
   lastVerified: '2026-09-23'
 },
 

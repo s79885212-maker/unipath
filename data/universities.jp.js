@@ -1294,17 +1294,23 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Applicants normally need 12 years of school education completed outside Japan, or an equivalent qualification such as the IB, A-levels or a recognised national school-leaving certificate.'
   },
   costs: {
-    breakdown: { published: false, includes: 'TIU publishes E-Track tuition per intake year; a 40,000 yen alumni fee is added to the first invoice and accommodation is not included' },
-    academicYear: '2026–2027',
+    breakdown: { tuition: 1100000, tuitionText: '\u00a51,100,000\u2013\u00a51,400,000 depending on the major', billed: 1670000, includes: 'tuition, the operations fee and, in the first year, the \u00a5250,000 enrollment fee; a one-time \u00a540,000 alumni association fee is added to the first invoice and accommodation is extra', published: true },
+    academicYear: '2027\u20132028',
     currency: 'JPY',
-    headline: 'Tuition published per intake on the E-Track fees page',
+    headline: '\u00a51,670,000\u2013\u00a51,970,000 in the first year',
     items: [
-      { label: 'Tuition and fees', text: 'Published on the E-Track tuition page for each entry year; not read during this check' },
+      { label: 'Tuition \u2014 Business Economics and International Relations', amount: 1100000 },
+      { label: 'Tuition \u2014 Digital Business and Innovation', amount: 1300000 },
+      { label: 'Tuition \u2014 Data Science and AI', amount: 1400000 },
+      { label: 'Operations fee (per year)', amount: 320000 },
+      { label: 'Enrollment fee (one-time)', amount: 250000 },
       { label: 'Alumni association fee (one-time)', amount: 40000 }
     ],
-    billedSubtotal: null,
-    totalText: 'Not confirmed — see the official E-Track tuition page',
-    note: 'Accommodation is charged separately.'
+    billedSubtotal: 1670000,
+    totalText: '\u00a51,670,000 in the first year for Business Economics and International Relations, \u00a51,870,000 for Digital Business and Innovation and \u00a51,970,000 for Data Science and AI',
+    note: 'From the second year the totals fall to \u00a51,620,000, \u00a51,820,000 and \u00a51,920,000 because the enrollment fee is only charged once. Accommodation is charged separately.',
+    source: 'https://www.tiu.ac.jp/etrack/admissions/tuition.html',
+    verified: '2026-09-24'
   },
   scholarships: {
     fullRide: { available: true, internationalEligible: true, basis: 'merit', covers: { tuition: true, housing: false, meals: false, insurance: false, books: false }, renewable: true, competitiveness: 'Awards of 30%, 50%, 80% or 100% are decided on the strength of the application; a 100% award is the top band rather than the norm.', howToApply: 'All E-Track applicants are considered automatically - admission and scholarship screening happen together.', note: 'A 100% TIU Tuition Reduction Scholarship covers tuition only. Housing, food, insurance and travel are not covered. It runs up to four years for first-year students if academic requirements are met.' },
@@ -1320,7 +1326,7 @@ window.UNIPATH.universities.push(
     { label: 'E-Track scholarships', url: 'https://www.tiu.ac.jp/etrack/admissions/reductions/' },
     { label: 'E-Track tuition and fees', url: 'https://www.tiu.ac.jp/etrack/admissions/tuition/' }
   ],
-  verification: { level: 'partial', checked: ['English-taught degrees','scholarship structure','intakes','alumni fee'], unconfirmed: ['tuition amount','English test scores','2027 deadline dates','application fee'] },
+  verification: { level: 'partial', checked: ['English-taught degrees','scholarship structure','intakes','alumni fee','E-Track tuition for 2027 entry'], unconfirmed: ['English test scores','2027 deadline dates','application fee'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1373,18 +1379,20 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Applicants normally need 12 years of school education completed outside Japan, or an equivalent qualification such as the IB, A-levels or a recognised national school-leaving certificate.'
   },
   costs: {
-    breakdown: { tuition: null, includes: 'AIU charges an annual tuition fee plus a one-time matriculation fee of 282,000 yen (Akita residents) or 423,000 yen (others); the annual tuition figure was not read during this check' },
-    academicYear: '2026–2027',
+    breakdown: { tuition: 896000, tuitionText: '\u00a5896,000 for students enrolling from April 2027', billed: 1319000, includes: 'annual tuition of \u00a5896,000 plus the one-time matriculation fee of \u00a5423,000 (\u00a5282,000 for Akita Prefecture residents) in the first year; living costs are extra', published: true },
+    academicYear: '2027\u20132028',
     currency: 'JPY',
-    headline: 'Matriculation fee ¥423,000 for applicants from outside Akita',
+    headline: '\u00a5896,000 tuition a year from April 2027',
     items: [
-      { label: 'Matriculation fee — applicants from outside Akita Prefecture (one-time)', amount: 423000 },
-      { label: 'Matriculation fee — Akita Prefecture residents (one-time)', amount: 282000 },
-      { label: 'Annual tuition', text: 'Charged yearly; the amount was not read during this check' }
+      { label: 'Tuition (per year, from April 2027 enrolment)', amount: 896000 },
+      { label: 'Matriculation fee \u2014 applicants from outside Akita Prefecture (one-time)', amount: 423000 },
+      { label: 'Matriculation fee \u2014 Akita Prefecture residents (one-time)', amount: 282000 }
     ],
-    billedSubtotal: null,
-    totalText: 'Not confirmed — see the official tuition page',
-    note: 'A year abroad is compulsory, so travel and overseas living costs are part of the real budget.'
+    billedSubtotal: 1319000,
+    totalText: '\u00a5896,000 a year in tuition plus the one-time matriculation fee of \u00a5423,000 in the first year',
+    note: 'AIU raised annual tuition from \u00a5696,000 to \u00a5896,000 for students enrolling from April 2027; students who entered in 2026 or earlier keep the old rate. A year abroad is compulsory, so travel and overseas living costs are part of the real budget.',
+    source: 'https://web.aiu.ac.jp/en/news/92854/',
+    verified: '2026-09-24'
   },
   scholarships: {
     fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
@@ -1397,7 +1405,7 @@ window.UNIPATH.universities.push(
     { label: 'Undergraduate admissions', url: 'https://admission.aiu.ac.jp/en/ug/' },
     { label: 'Academic year 2026 admission information for international students (PDF)', url: 'https://admission.aiu.ac.jp/wp/wp-content/uploads/2025/09/E_2026_International_youkou.pdf' }
   ],
-  verification: { level: 'partial', checked: ['English-taught degree','matriculation fees','selection method'], unconfirmed: ['annual tuition amount','English minimum scores','2027 application dates','scholarships'] },
+  verification: { level: 'partial', checked: ['English-taught degree','matriculation fees','selection method','annual tuition from April 2027'], unconfirmed: ['English minimum scores','2027 application dates','scholarships'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1451,14 +1459,19 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Applicants normally need 12 years of school education completed outside Japan, or an equivalent qualification such as the IB, A-levels or a recognised national school-leaving certificate.'
   },
   costs: {
-    breakdown: { published: false, includes: 'Rikkyo publishes GLAP admission and tuition fees for each academic year; the figures for the current year were not read during this check' },
-    academicYear: '2026–2027',
+    breakdown: { tuition: 1903500, tuitionText: '\u00a51,903,500 in tuition and other fees', billed: 2103500, includes: 'tuition and other fees of \u00a51,903,500 a year plus the one-time \u00a5200,000 admission fee in the first year; study-abroad travel and accommodation are extra', published: true },
+    academicYear: '2026\u20132027',
     currency: 'JPY',
-    headline: 'Tuition published per academic year',
-    items: [ { label: 'Admission fee, tuition and other fees', text: 'Published each year on the GLAP admission page; subject to annual change' } ],
-    billedSubtotal: null,
-    totalText: 'Not confirmed — see the official GLAP admission page',
-    note: 'Tuition at the study-abroad host university is waived, but travel and accommodation abroad are extra.'
+    headline: '\u00a51,903,500 a year in tuition and fees',
+    items: [
+      { label: 'Tuition and other fees (per year)', amount: 1903500 },
+      { label: 'Admission fee (one-time, first year)', amount: 200000 }
+    ],
+    billedSubtotal: 2103500,
+    totalText: '\u00a52,103,500 in the first year (\u00a51,903,500 tuition and fees plus the \u00a5200,000 admission fee)',
+    note: 'Rikkyo publishes these as estimates based on the 2026 academic-year fee schedule and states that the 2027 schedule was to be finalised in October 2026. Tuition at the study-abroad host university is waived, but travel and accommodation abroad are extra.',
+    source: 'https://en.admission.rikkyo.ac.jp/apply/fees/',
+    verified: '2026-09-24'
   },
   scholarships: {
     fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
@@ -1471,7 +1484,7 @@ window.UNIPATH.universities.push(
     { label: 'Rikkyo international admission', url: 'https://en.admission.rikkyo.ac.jp/' },
     { label: 'Admissions schedule', url: 'https://en.admission.rikkyo.ac.jp/schedule/' }
   ],
-  verification: { level: 'partial', checked: ['English-taught programme','study-abroad tuition rule','intakes'], unconfirmed: ['tuition amounts','English scores','2027 dates','scholarships','application fee'] },
+  verification: { level: 'partial', checked: ['English-taught programme','study-abroad tuition rule','intakes','GLAP tuition and admission fee'], unconfirmed: ['English scores','2027 dates','scholarships','application fee'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1604,21 +1617,32 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Applicants normally need 12 years of school education completed outside Japan, or an equivalent qualification such as the IB, A-levels or a recognised national school-leaving certificate.'
   },
   costs: {
-    breakdown: { published: false, includes: 'Doshisha publishes ILA tuition for each entry year; the figures were not read during this check' },
-    academicYear: '2026–2027',
+    breakdown: { tuition: 824000, tuitionText: '\u00a5824,000 tuition in the first year (\u00a51,024,000 from the second year)', billed: 1194000, includes: 'tuition, the facilities fee and, in the first year, the \u00a5200,000 admission fee; living costs in Kyoto are extra', published: true },
+    academicYear: '2027\u20132028',
     currency: 'JPY',
-    headline: 'Tuition published per entry year',
-    items: [ { label: 'Tuition and fees', text: 'Published on the ILA admissions page for each entry year' } ],
-    billedSubtotal: null,
-    totalText: 'Not confirmed — see the official ILA admissions page',
-    note: 'International students on a college visa are considered for a tuition reduction.'
+    headline: '\u00a51,194,000 a year in tuition and fees',
+    items: [
+      { label: 'Tuition \u2014 first year', amount: 824000 },
+      { label: 'Tuition \u2014 second to fourth year', amount: 1024000 },
+      { label: 'Facilities fee (per year)', amount: 170000 },
+      { label: 'Admission fee (one-time, first year)', amount: 200000 }
+    ],
+    billedSubtotal: 1194000,
+    totalText: '\u00a51,194,000 a year, both in the first year and in years two to four',
+    note: 'Published for students entering the Institute for the Liberal Arts in 2027. All incoming international students on a college visa are considered for a tuition reduction, so the amount actually paid can be lower.',
+    source: 'https://ila.doshisha.ac.jp/ila/en/admissions/fees_scholarships.html',
+    verified: '2026-09-24'
   },
   scholarships: {
-    fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
+    fullRide: { available: false, internationalEligible: true, basis: 'merit', covers: { tuition: true, housing: false, meals: false, insurance: false, books: false }, renewable: true, competitiveness: null, howToApply: 'No separate application: every applicant is considered and the result is stated in the acceptance letter.', note: 'The top band of the Doshisha Merit Scholarship (Category S) covers the full tuition for each year, but not housing, food or living costs in Kyoto.' },
     merit: [
-      { name: 'Doshisha merit scholarships', amount: 'Not confirmed during this check', eligibility: 'International students who excel academically', deadline: null, application: null, renewable: null, note: 'Doshisha also states that incoming international students on a college visa are considered for a tuition reduction.' }
+      { name: 'Doshisha Merit Scholarship \u2014 Category S', amount: 'Equivalent to the full tuition for each year', eligibility: 'Academically qualifying international students holding a student visa', deadline: null, application: 'Automatic with the admission application', renewable: true, note: 'The award is stated in the acceptance letter.' },
+      { name: 'Doshisha Merit Scholarship \u2014 Category A', amount: '\u00a5460,000 a year', eligibility: 'Academically qualifying international students holding a student visa', deadline: null, application: 'Automatic with the admission application', renewable: true, note: null },
+      { name: 'Doshisha Merit Scholarship \u2014 Category C', amount: '\u00a5190,000 a year', eligibility: 'Academically qualifying international students holding a student visa', deadline: null, application: 'Automatic with the admission application', renewable: true, note: null }
     ],
-    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+    needBased: { availableToInternational: true, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Doshisha also states that incoming international students on a college visa are considered for a tuition reduction.' },
+    source: 'https://ila.doshisha.ac.jp/ila/en/admissions/fees_scholarships.html',
+    verified: '2026-09-24'
   },
   photos: { main: null, gallery: [], city: null },
   sources: [
@@ -1626,7 +1650,7 @@ window.UNIPATH.universities.push(
     { label: 'ILA application requirements', url: 'https://ila.doshisha.ac.jp/en/admissions/requirements.html' },
     { label: 'English-based degree programmes', url: 'https://intad.doshisha.ac.jp/intad/en/english_program/offered_english.html' }
   ],
-  verification: { level: 'partial', checked: ['English-taught degree','intake size','tuition reduction for visa holders'], unconfirmed: ['tuition amounts','English scores','2027 dates','application fee'] },
+  verification: { level: 'partial', checked: ['English-taught degree','intake size','tuition reduction for visa holders','ILA tuition for 2027 entry','Doshisha Merit Scholarship bands'], unconfirmed: ['English scores','2027 dates','application fee'] },
   lastVerified: '2026-09-23'
 },
 
@@ -2130,14 +2154,21 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Twelve years of school education, or an equivalent such as the IB Diploma or GCE A-levels.'
   },
   costs: {
-    breakdown: { published: false, includes: 'school fees for the engineering programme cover tuition, facility and laboratory fees; the amounts were not read during this check' },
-    academicYear: '2026–2027',
+    breakdown: { tuition: 2045000, tuitionText: '\u00a52,045,000 in school fees (two semesters of \u00a51,022,500)', billed: 2294500, includes: 'school fees for both semesters plus the one-time \u00a5200,000 admission fee and \u00a549,500 association fees in the first year; living costs in Kyoto are extra', published: true },
+    academicYear: '2027\u20132028',
     currency: 'JPY',
-    headline: 'Tuition published on the KUAS fees page',
-    items: [ { label: 'Tuition, facility and laboratory fees', text: 'Published on the KUAS tuition and fees page; the same for all nationalities' } ],
-    billedSubtotal: null,
-    totalText: 'Not confirmed — see the official tuition page',
-    note: 'KUAS states that fees do not differ by nationality or country of residence.'
+    headline: '\u00a52,294,500 in the first year',
+    items: [
+      { label: 'School fees \u2014 first semester', amount: 1022500 },
+      { label: 'School fees \u2014 second semester', amount: 1022500 },
+      { label: 'Admission fee (one-time)', amount: 200000 },
+      { label: 'Association fees (first year)', amount: 49500 }
+    ],
+    billedSubtotal: 2294500,
+    totalText: '\u00a52,294,500 in the first year for students enrolling in or after the 2027 academic year',
+    note: 'School fees include tuition and education enhancement fees. KUAS states that fees do not differ by nationality or country of residence, so only a scholarship changes what a student pays.',
+    source: 'https://www.kuas.ac.jp/en/admission/tuition/',
+    verified: '2026-09-24'
   },
   scholarships: {
     fullRide: { available: null, internationalEligible: true, basis: 'merit', covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: 'All applicants to the English-medium international programmes are considered for scholarships.', note: 'KUAS states that all applicants to its English-medium programmes are eligible to be considered for scholarships; the award levels were not read during this check.' },
@@ -2150,7 +2181,7 @@ window.UNIPATH.universities.push(
     { label: 'How to apply (undergraduate)', url: 'https://www.kuas.ac.jp/en/admission/under-eligibility/' },
     { label: 'Faculty of Engineering', url: 'https://www.kuas.ac.jp/en/academics/eng/' }
   ],
-  verification: { level: 'partial', checked: ['English-medium degree','entry qualifications','fee parity by nationality','scholarship eligibility'], unconfirmed: ['tuition amounts','English scores','2027 dates','application fee'] },
+  verification: { level: 'partial', checked: ['English-medium degree','entry qualifications','fee parity by nationality','scholarship eligibility','school fees from the 2027 academic year'], unconfirmed: ['English scores','2027 dates','application fee'] },
   lastVerified: '2026-09-23'
 },
 
