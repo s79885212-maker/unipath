@@ -6739,5 +6739,24 @@ window.UNIPATH_I18N.ru = {
   "Winter 2026": "зима 2026",
   "Winter 2027": "зима 2027",
   "autumn 2027": "осень 2027",
-  "winter 2027": "зима 2027"
+  "winter 2027": "зима 2027",
+
+  /* ======== v56: Ajou and INU data ======== */
+  "Tuition — natural sciences": "Обучение — естественные науки",
+  "28 September – 20 November 2026": "28 сентября – 20 ноября 2026",
+  "₩3,748,000–₩5,143,000 per semester": "₩3,748,000–₩5,143,000 за семестр",
+  "TOEFL iBT 75 for the English track.": "TOEFL iBT 75 для англоязычного направления.",
+  "Tuition — International Business, Korean track": "Обучение — International Business, корейское направление",
+  "Tuition — International Business, English track": "Обучение — International Business, англоязычное направление",
+  "Spring 2027 international undergraduate admission": "Международный приём на бакалавриат, весна 2027",
+  "₩3,748,000–₩5,143,000 per semester depending on the college": "₩3,748,000–₩5,143,000 за семестр в зависимости от колледжа",
+  "Tuition — engineering, information technology and computing": "Обучение — инженерия, информационные технологии и вычислительная техника",
+  "Tuition — humanities, social sciences and business administration": "Обучение — гуманитарные, социальные науки и управление бизнесом",
+  "tuition for one semester by college; housing and living costs in Suwon are extra": "плата за один семестр по колледжам; жильё и жизнь в Сувоне оплачиваются отдельно",
+  "About ₩7,500,000–₩9,800,000 a year depending on the college, before any scholarship": "Около ₩7,500,000–₩9,800,000 в год в зависимости от колледжа, до стипендий",
+  "The English track, which applies to the International Business and Economics major, asks for IELTS 5.5.": "Англоязычное направление, действующее для специальности International Business and Economics, требует IELTS 5.5.",
+  "The English-track requirement applies to the International Business and Economics major; other majors are taught in Korean and set TOPIK levels instead.": "Требование англоязычного направления действует для специальности International Business and Economics; остальные преподаются на корейском и задают уровни TOPIK.",
+  "Students from countries where English is the mother tongue — Australia, Canada, Ireland, New Zealand, the United Kingdom, the United States and South Africa — are exempt.": "Студенты из стран, где английский родной — Австралия, Канада, Ирландия, Новая Зеландия, Великобритания, США и ЮАР — освобождаются.",
+  "Online application and document submission open 28 September 2026 at 09:00; results announced 31 December 2026 at 18:00, with tuition payment and certificate issuance in January–February 2027 and orientation in February 2027": "Онлайн-подача и приём документов открываются 28 сентября 2026 в 09:00; результаты 31 декабря 2026 в 18:00, оплата обучения и выдача документов в январе–феврале 2027, ориентация в феврале 2027",
+  "Ajou publishes these figures in US dollars at a reference rate of 1 USD = 1,000 KRW, and states that tuition is subject to change and may differ each semester. Living costs in Suwon are lower than in central Seoul but are extra.": "Ajou публикует эти суммы в долларах США по справочному курсу 1 USD = 1,000 KRW и указывает, что плата может меняться и различаться по семестрам. Жизнь в Сувоне дешевле, чем в центре Сеула, но оплачивается отдельно."
 };

@@ -1446,7 +1446,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Ajou international admissions online application'],
     deadlines: [
-      { name: 'International undergraduate admission', kind: 'intake', entryTerm: 'Spring or Fall', entryYear: '2027', date: 'Published in the eligibility and admission schedule page', status: 'not-confirmed', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'Ajou publishes an admission schedule for each intake; the 2027 dates were not read during this check', source: 'https://www.ajou.ac.kr/iadmissions_en/undergraduate/qualification.do', verified: '2026-09-23', note: null }
+      { name: 'Spring 2027 international undergraduate admission', kind: 'application-window', entryTerm: 'Spring', entryYear: '2027', dateISO: '2026-11-20', date: '28 September \u2013 20 November 2026', time: '17:00', timezone: 'KST', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'Online application and document submission open 28 September 2026 at 09:00; results announced 31 December 2026 at 18:00, with tuition payment and certificate issuance in January\u2013February 2027 and orientation in February 2027', status: 'confirmed', source: 'https://www.ajou.ac.kr/iadmissions_en/undergraduate/qualification.do', verified: '2026-09-24', note: null }
     ],
     applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
     documents: ['School transcripts and graduation certificate', 'Official English test score for the English track', 'Documents listed in the admission guideline'],
@@ -1470,11 +1470,22 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Applicants normally need 12 years of school education completed outside Korea, or an equivalent qualification.'
   },
   costs: {
-    breakdown: { published: false, includes: 'Ajou publishes tuition for international undergraduates on its admissions site; the figures were not read during this check' },
-    academicYear: '2026–2027', currency: 'KRW', headline: 'Tuition published on the international admissions site',
-    items: [ { label: 'Tuition', text: 'Published per college on the Ajou international admissions tuition page' } ],
-    billedSubtotal: null, totalText: 'Not confirmed — see the official tuition page',
-    note: 'Living costs in Suwon are lower than in central Seoul but are extra.'
+    breakdown: { tuition: 3748000, tuitionText: '\u20a93,748,000\u2013\u20a95,143,000 per semester depending on the college', period: 'semester', includes: 'tuition for one semester by college; housing and living costs in Suwon are extra', published: true },
+    academicYear: '2026\u20132027',
+    currency: 'KRW',
+    headline: '\u20a93,748,000\u2013\u20a95,143,000 per semester',
+    items: [
+      { label: 'Tuition \u2014 humanities, social sciences and business administration', amount: 3748000 },
+      { label: 'Tuition \u2014 International Business, Korean track', amount: 4050000 },
+      { label: 'Tuition \u2014 International Business, English track', amount: 4270000 },
+      { label: 'Tuition \u2014 natural sciences', amount: 4349000 },
+      { label: 'Tuition \u2014 engineering, information technology and computing', amount: 4916000 }
+    ],
+    billedSubtotal: null,
+    totalText: 'About \u20a97,500,000\u2013\u20a99,800,000 a year depending on the college, before any scholarship',
+    note: 'Ajou publishes these figures in US dollars at a reference rate of 1 USD = 1,000 KRW, and states that tuition is subject to change and may differ each semester. Living costs in Suwon are lower than in central Seoul but are extra.',
+    source: 'https://www.ajou.ac.kr/iadmissions_en/undergraduate/tuition.do',
+    verified: '2026-09-24'
   },
   scholarships: {
     fullRide: { available: null, internationalEligible: null, basis: 'merit', covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: true, competitiveness: null, howToApply: 'Entry scholarships are decided with admission; continuing awards depend on credits and GPA.', note: 'Ajou Global Scholarships 1–4 apply to entering students; the percentage each covers was not read during this check.' },
@@ -1487,7 +1498,7 @@ window.UNIPATH.universities.push(
     { label: 'Tuition and fees', url: 'https://www.ajou.ac.kr/iadmissions_en/undergraduate/tuition.do' },
     { label: 'Eligibility and admission schedule', url: 'https://www.ajou.ac.kr/iadmissions_en/undergraduate/qualification.do' }
   ],
-  verification: { level: 'partial', checked: ['English-track English requirements','scholarship structure and renewal rules'], unconfirmed: ['tuition amounts','which degrees are fully English-taught','deadlines','scholarship values'] },
+  verification: { level: 'partial', checked: ['English-track English requirements','scholarship structure and renewal rules','tuition (per semester by college)','Spring 2027 application window and result date','Korean proficiency requirement'], unconfirmed: ['which degrees are fully English-taught','scholarship values'] },
   lastVerified: '2026-09-23'
 },
 
@@ -2182,11 +2193,14 @@ window.UNIPATH.universities.push(
     notes: ['Eligibility is strict: the applicant and both parents must have held foreign nationality from birth.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
-    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    waiver: null,
-    note: 'Scholarships are awarded on language proficiency and GPA; the thresholds were not read during this check.'
+    ielts: { min: 5.5, recommended: null, note: 'The English track, which applies to the International Business and Economics major, asks for IELTS 5.5.' },
+    toefl: { min: 75, recommended: null, scales: [{ period: 'pre2026', min: 75, note: 'TOEFL iBT 75 for the English track.' }], note: 'TOEFL iBT 75 for the English track.' },
+    duolingo: { min: null, recommended: null, note: 'Not listed among the accepted tests.' },
+    otherTests: 'TOEIC 700 or PETS level 4 are also accepted. The Korean track needs TOPIK level 3 or above, INU Language Center level 4, or a pass in the INU Korean proficiency test; Korean Language and Literature and IBE need TOPIK level 4.',
+    waiver: 'Students from countries where English is the mother tongue \u2014 Australia, Canada, Ireland, New Zealand, the United Kingdom, the United States and South Africa \u2014 are exempt.',
+    note: 'The English-track requirement applies to the International Business and Economics major; other majors are taught in Korean and set TOPIK levels instead.',
+    source: 'https://www.inu.ac.kr/inuengl/8530/subview.do',
+    verified: '2026-09-24'
   },
   academics: {
     gpa: null,
@@ -2213,7 +2227,7 @@ window.UNIPATH.universities.push(
     { label: 'Tuition and scholarship', url: 'https://www.inu.ac.kr/ibe/3882/subview.do' },
     { label: 'Undergraduate tuition fee', url: 'https://www.inu.ac.kr/inuengl/8498/subview.do' }
   ],
-  verification: { level: 'partial', checked: ['fully English-taught programmes','eligibility rule','scholarship coverage description'], unconfirmed: ['tuition amounts','language score thresholds','2027 dates'] },
+  verification: { level: 'partial', checked: ['fully English-taught programmes','eligibility rule','scholarship coverage description','english (IELTS, TOEFL, TOEIC minimums and TOPIK levels)'], unconfirmed: ['tuition amounts','2027 dates'] },
   lastVerified: '2026-09-23'
 },
 
