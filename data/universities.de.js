@@ -2152,11 +2152,14 @@ window.UNIPATH.universities.push(
     notes: ['Students on this degree change campus during the programme, so living costs differ by city and year.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'English proficiency at CEFR C1 is required; the accepted certificates and scores were not read during this check.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
+    ielts: { min: 6.5, recommended: null, note: 'ESCP lists IELTS 6.5 as the English test score required for the Bachelor in Management, where a test is needed at all.' },
+    toefl: { min: 4.5, recommended: null, scales: [{ period: 'from2026', min: 4.5, note: 'ESCP quotes TOEFL iBT 4.5 on the scale used from January 2026.' }], note: 'TOEFL iBT 4.5 is listed alongside IELTS 6.5. The Special Home Edition is accepted, though not available in every country.' },
     duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    waiver: null,
-    note: 'The requirement is stated as C1 English.'
+    otherTests: 'Cambridge C1 Advanced (CAE) 180 is also accepted.',
+    waiver: 'Language certificates are not required from exempted applicants, and can be submitted at a later stage.',
+    note: 'The requirement is stated as C1 English. ESCP warns that some certificates it accepts for admission are not valid for a UK visa application, which matters because the degree includes a London campus.',
+    source: 'https://escp.eu/programmes/bachelor-in-management-BSc',
+    verified: '2026-09-24'
   },
   academics: {
     gpa: null,
@@ -2192,7 +2195,7 @@ window.UNIPATH.universities.push(
     { label: 'Bachelor in Management (BSc)', url: 'https://escp.eu/programmes/bachelor-in-management-BSc' },
     { label: 'Bachelor in Management — application', url: 'https://escp.eu/programmes/bachelor-in-management-BSc/apply' }
   ],
-  verification: { level: 'partial', checked: ['language of instruction','English level','programme structure','tuition (2027 intake, European and non-European rates)','application fee and deposit'], unconfirmed: ['deadlines','scholarships'] },
+  verification: { level: 'partial', checked: ['language of instruction','English level','english (IELTS, TOEFL and CAE scores)','programme structure','tuition (2027 intake, European and non-European rates)','application fee and deposit'], unconfirmed: ['deadlines','scholarships'] },
   lastVerified: '2026-09-23'
 },
 

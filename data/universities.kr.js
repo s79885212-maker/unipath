@@ -1672,15 +1672,34 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Applicants normally need 12 years of school education completed outside Korea, or an equivalent qualification.'
   },
   costs: {
-    breakdown: { published: false, includes: 'tuition is published in the admission guide; the figures were not read during this check' },
-    academicYear: '2026–2027', currency: 'KRW', headline: 'Tuition published in the admission guide',
-    items: [ { label: 'Tuition', text: 'Published per college in the admission guide' } ],
-    billedSubtotal: null, totalText: 'Not confirmed — see the official admission guide',
-    note: 'DGIST states that tuition is fully waived under certain scholarship programmes; housing and living costs remain.'
+    breakdown: { tuition: 3967000, tuitionText: '\u20a93,967,000 per semester (\u20a97,934,000 a year), fully waived for international students', period: 'semester', includes: 'the published tuition before the waiver; DGIST waives it for all international students for eight semesters, and living costs in Daegu are covered by separate monthly scholarships', published: true },
+    academicYear: '2026\u20132027',
+    currency: 'KRW',
+    headline: 'Tuition fully waived for international students',
+    items: [
+      { label: 'Tuition (per semester, before the waiver)', amount: 3967000 },
+      { label: 'Tuition (per year, before the waiver)', amount: 7934000 },
+      { label: 'Tuition actually paid by an international student', amount: 0 },
+      { label: 'Monthly financial aid during the semester', amount: 328500 },
+      { label: 'International student scholarship, including vacations (per month)', amount: 330000 }
+    ],
+    billedSubtotal: null,
+    totalText: 'No tuition: DGIST waives the full \u20a97,934,000 a year for all international students for eight semesters',
+    note: 'DGIST states the waiver applies to all international students without special conditions and is granted for eight semesters only. The monthly aid needs more than 10 credits and no academic probation in the previous semester.',
+    source: 'https://www.dgist.ac.kr/iuadm/sub04_01.do',
+    verified: '2026-09-24'
   },
   scholarships: {
-    fullRide: { available: null, internationalEligible: null, basis: 'merit', covers: { tuition: true, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: 'Through the admission and student support pages.', note: 'DGIST states that tuition is fully waived under certain scholarship programmes; whether housing and living costs are covered was not confirmed here.' },
-    merit: [], needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+    fullRide: { available: false, internationalEligible: true, basis: 'admission', covers: { tuition: true, housing: false, meals: false, insurance: false, books: false }, renewable: true, competitiveness: 'The tuition waiver goes to all international students without special conditions.', howToApply: 'No separate application \u2014 the waiver is applied on admission.', note: 'Tuition is waived in full and monthly scholarships are paid, but housing, food and insurance are not listed as covered, so DGIST does not present this as a full ride. The published total benefit is up to \u20a917,473,840 in the first year and up to \u20a918,473,840 a year afterwards.' },
+    merit: [
+      { name: 'Tuition fee waiver', amount: 'Full tuition, \u20a93,967,000 a semester', eligibility: 'All international students, without special conditions', deadline: null, application: 'Automatic', renewable: true, note: 'Granted for eight semesters only and not refunded individually.' },
+      { name: 'Student financial aid', amount: '\u20a9328,500 a month', eligibility: 'International undergraduates with more than 10 credits and no academic probation', deadline: null, application: 'Automatic', renewable: true, note: 'Paid for eight semesters, excluding vacation periods.' },
+      { name: 'International student scholarship (DGISTep)', amount: '\u20a9330,000 a month', eligibility: 'International undergraduates with at least 10 credits and no academic probation', deadline: null, application: 'Automatic', renewable: true, note: 'Paid for eight semesters, including vacation periods.' },
+      { name: 'Academic Excellence Scholarship (DGISTep-S)', amount: '\u20a91,500,000 a semester', eligibility: 'Previous-semester GPA above 3.7 out of 4.3 for freshmen, or above 4.0 afterwards', deadline: null, application: 'Automatic', renewable: true, note: 'Not granted in the first semester of the freshman year.' }
+    ],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'DGIST awards the international package on admission and academic results rather than on financial need.' },
+    source: 'https://www.dgist.ac.kr/iuadm/sub04_01.do',
+    verified: '2026-09-24'
   },
   photos: { main: null, gallery: [], city: null },
   sources: [
@@ -1688,7 +1707,7 @@ window.UNIPATH.universities.push(
     { label: 'Scholarships and student support', url: 'https://ibom.dgist.ac.kr/iuadm/sub04_01.do' },
     { label: 'Undergraduate financial aid and scholarships', url: 'https://www.dgist.ac.kr/eng/sub05_03_02_02.do' }
   ],
-  verification: { level: 'partial', checked: ['international undergraduate route','existence of full tuition waivers'], unconfirmed: ['language of instruction share','tuition amounts','English requirements','deadlines'] },
+  verification: { level: 'partial', checked: ['tuition per semester and per year','full tuition waiver for international students','monthly scholarships and conditions'], unconfirmed: ['language of instruction share','English requirements','deadlines'] },
   lastVerified: '2026-09-23'
 },
 
