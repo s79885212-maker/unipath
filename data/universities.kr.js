@@ -835,19 +835,32 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Applicants normally need 12 years of school education completed outside Korea (or an equivalent qualification); Korean universities also set separate rules for applicants of overseas Korean descent.'
   },
   costs: {
-    breakdown: { published: false, includes: 'POSTECH publishes tuition and scholarship information on its admission and aid pages; the figures were not read during this check' },
-    academicYear: '2026–2027',
+    breakdown: { tuition: 0, tuitionText: 'Fully waived for admitted international students', includes: 'the full tuition waiver granted with admission, plus a \u20a9500,000 monthly stipend; housing and meals in Pohang are not covered', published: true },
+    academicYear: '2026\u20132027',
     currency: 'KRW',
-    headline: 'Tuition published on the POSTECH admission and aid pages',
-    items: [ { label: 'Tuition', text: 'Published on the POSTECH scholarship and admission pages; not read during this check' } ],
+    headline: 'No tuition for admitted international students',
+    items: [
+      { label: 'Tuition after the international admission waiver', amount: 0 },
+      { label: 'Living stipend paid to the student (per month)', amount: 500000 }
+    ],
     billedSubtotal: null,
-    totalText: 'Not confirmed — see the official pages',
-    note: 'Living costs in Pohang are extra.'
+    totalText: 'No tuition: every student admitted through International Admissions receives a full waiver for up to eight semesters',
+    note: 'The waiver is unconditional in the first semester and then needs a GPA of at least 3.0 out of 4.3 in the previous semester. The underlying tuition figure before the waiver was not published on the pages read. Housing and food in Pohang are paid from the stipend.',
+    source: 'https://adm-iu.postech.ac.kr/user/comm/menu/e2afb97fa1b8f43c574be0dabef78f87/content/index.do',
+    verified: '2026-09-24'
   },
   scholarships: {
-    fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
-    merit: [],
-    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+    fullRide: { available: true, internationalEligible: true, basis: 'admission', covers: { tuition: true, housing: false, meals: false, insurance: false, books: false }, renewable: true, competitiveness: 'Granted to every student admitted through International Admissions I', howToApply: 'No separate application \u2014 the award is made with admission.', note: 'POSTECH gives every admitted international student a full tuition waiver for up to eight semesters plus a monthly stipend of \u20a9500,000, so the package goes beyond tuition. Housing and meals are not listed as covered.' },
+    merit: [
+      { name: 'Full tuition waiver', amount: 'Full tuition for up to 8 semesters', eligibility: 'All students admitted through International Admissions', deadline: null, application: 'Automatic with admission', renewable: true, note: 'The first semester is unconditional; continuing needs a GPA of at least 3.0 out of 4.3 in the previous semester.' },
+      { name: 'Living stipend', amount: '\u20a9500,000 a month, including vacation periods', eligibility: 'International admissions students', deadline: null, application: 'Automatic with admission', renewable: true, note: 'POSTECH states there is no GPA requirement for the stipend.' },
+      { name: 'Travel reimbursement', amount: 'One-way economy airfare to Korea plus domestic travel, up to \u20a92,500,000', eligibility: 'New international students', deadline: null, application: 'Automatic with admission', renewable: false, note: null },
+      { name: 'TOPIK bonus', amount: '\u20a9300,000, one-time', eligibility: 'Students who reach TOPIK level 4 or higher during a semester', deadline: null, application: null, renewable: false, note: null },
+      { name: 'Learning voucher', amount: '\u20a910,000,000 in total, \u20a92,500,000 a year', eligibility: 'Students enrolled from 2024 onwards, after three semesters', deadline: null, application: null, renewable: true, note: null }
+    ],
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'POSTECH awards the international package on admission rather than on financial need.' },
+    source: 'https://adm-iu.postech.ac.kr/user/comm/menu/e2afb97fa1b8f43c574be0dabef78f87/content/index.do',
+    verified: '2026-09-24'
   },
   photos: { main: null, gallery: [], city: null },
   sources: [
@@ -855,7 +868,7 @@ window.UNIPATH.universities.push(
     { label: 'POSTECH to admit international undergraduate students from Fall 2026', url: 'https://postech.ac.kr/eng/news-center/university_news.do?mode=view&articleNo=23959&title=POSTECH+to+Admit+International+Undergraduate+Students+Beginning+Fall+2026' },
     { label: 'Types of scholarships and eligibility', url: 'https://www.postech.ac.kr/eng/admission-aid/scholarship_types.do' }
   ],
-  verification: { level: 'partial', checked: ['new international undergraduate route','expected 2027 application window','interview rule','GKS embassy track participation','language of instruction share'], unconfirmed: ['tuition','scholarship values','English test scores','exact deadlines'] },
+  verification: { level: 'partial', checked: ['new international undergraduate route','expected 2027 application window','interview rule','GKS embassy track participation','language of instruction share','scholarship package (waiver, stipend, travel, TOPIK bonus, voucher)'], unconfirmed: ['tuition figure before the waiver','English test scores','exact deadlines'] },
   lastVerified: '2026-09-23'
 },
 
@@ -908,24 +921,33 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Applicants normally need 12 years of school education completed outside Korea (or an equivalent qualification); Korean universities also set separate rules for applicants of overseas Korean descent.'
   },
   costs: {
-    breakdown: { published: false, includes: 'UNIST states that newly admitted international students receive a full tuition waiver for the first semester; the underlying tuition figure was not read during this check' },
-    academicYear: '2026–2027',
+    breakdown: { tuition: 3316500, tuitionText: '\u20a93,316,500 per semester for engineering (\u20a92,795,500 for business), fully waived for new international students', period: 'semester', includes: 'the published semester tuition before the waiver; accommodation, food and insurance are handled by the separate living scholarships', published: true },
+    academicYear: '2026\u20132027',
     currency: 'KRW',
-    headline: 'Full tuition waiver in the first semester for new international students',
+    headline: '\u20a93,316,500 per semester, waived for new international students',
     items: [
-      { label: 'Tuition', text: 'Published in the admission guideline; fully waived in the first semester for new international undergraduates' },
-      { label: 'Tuition from the second year', text: 'Full waiver with 12+ credits and GPA 2.7+, half waiver with GPA 2.0+' }
+      { label: 'Tuition \u2014 engineering (per semester)', amount: 3316500 },
+      { label: 'Tuition \u2014 business (per semester)', amount: 2795500 },
+      { label: 'Tuition actually paid by a new international student', amount: 0 }
     ],
     billedSubtotal: null,
-    totalText: 'Tuition is waived in full or in part by merit; living costs in Ulsan are extra',
-    note: 'A tuition waiver is not a living-cost scholarship: accommodation, food and insurance are still paid by the student unless another award covers them.'
+    totalText: 'Published tuition is \u20a93,316,500 a semester for engineering and \u20a92,795,500 for business, and every freshman international student receives a full tuition scholarship',
+    note: 'From the second year the waiver is full with 12 or more credits and a GPA of 2.7 or above, and half with a GPA of 2.0 or above. UNIST separately pays a living scholarship of \u20a9130,000 to \u20a9630,000 a month with meals, and reimburses health insurance of \u20a975,000 a month. Other living costs in Ulsan are extra.',
+    source: 'http://admu-intl.unist.ac.kr/admission-eng/life/scholarships.do',
+    verified: '2026-09-24'
   },
   scholarships: {
-    fullRide: { available: false, internationalEligible: false, basis: 'merit', covers: { tuition: true, housing: false, meals: false, insurance: false, books: false }, renewable: true, competitiveness: 'Waivers continue while the published GPA and credit conditions are met.', howToApply: 'Applied automatically to admitted international students.', note: 'UNIST covers tuition and the admission fee for high-achieving international students, but housing, food and other living costs are not included, so this is not a full ride.' },
+    fullRide: { available: false, internationalEligible: true, basis: 'merit', covers: { tuition: true, housing: false, meals: true, insurance: true, books: false }, renewable: true, competitiveness: 'Every freshman receives the full tuition scholarship; the living scholarship tier is set by UNIST on acceptance.', howToApply: 'Applied automatically to admitted international students.', note: 'Tuition, two meals a day and health insurance are covered, and a monthly stipend is paid, but accommodation and other personal costs are not listed as covered, so UNIST does not describe this as a full ride.' },
     merit: [
-      { name: 'International undergraduate tuition waiver', amount: 'Full tuition and admission fee for new students; full or half tuition later by GPA', eligibility: 'Newly admitted international undergraduates; from the second year, 12+ credits with GPA 2.7+ for a full waiver or GPA 2.0+ for a half waiver', deadline: null, application: 'Automatic', renewable: true, note: null }
+      { name: 'International undergraduate tuition waiver', amount: 'Full tuition in the first year; later full or half by results', eligibility: 'Newly admitted international undergraduates; from the second year, 12+ credits with GPA 2.7+ for a full waiver or GPA 2.0+ for a half waiver', deadline: null, application: 'Automatic', renewable: true, note: null },
+      { name: 'Global Uni-Star Scholarship (Gold)', amount: '\u20a9630,000 a month with meals', eligibility: 'Tier set by UNIST when the offer is made', deadline: null, application: 'Automatic', renewable: true, note: 'Renewal needs at least 12 credits and a GPA between 2.0 and 2.7 depending on the tier.' },
+      { name: 'Global Uni-Star Scholarship (Silver)', amount: '\u20a9330,000 a month with meals', eligibility: 'Tier set by UNIST when the offer is made', deadline: null, application: 'Automatic', renewable: true, note: null },
+      { name: 'Global Dream Scholarship', amount: '\u20a9130,000 a month with meals', eligibility: 'Tier set by UNIST when the offer is made', deadline: null, application: 'Automatic', renewable: true, note: null },
+      { name: 'Health insurance reimbursement', amount: '\u20a975,000 a month, reimbursed on proof of payment', eligibility: 'International undergraduate students', deadline: null, application: null, renewable: true, note: null }
     ],
-    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'UNIST awards these on admission and academic results rather than on financial need.' },
+    source: 'http://admu-intl.unist.ac.kr/admission-eng/life/scholarships.do',
+    verified: '2026-09-24'
   },
   photos: { main: null, gallery: [], city: null },
   sources: [
@@ -933,7 +955,7 @@ window.UNIPATH.universities.push(
     { label: 'Scholarships', url: 'https://admu-intl.unist.ac.kr/admission-eng/life/scholarships.do' },
     { label: '2026 Fall undergraduate admission guideline (PDF)', url: 'https://admu-intl.unist.ac.kr/wp-content/uploads/2014/12/2026-Fall-undergraduate-admission-guideline-for-International-applicant-updated.pdf' }
   ],
-  verification: { level: 'partial', checked: ['English-taught teaching','tuition waiver structure','English test rules and exemptions'], unconfirmed: ['tuition amount','English minimum scores','2027 dates','application fee'] },
+  verification: { level: 'partial', checked: ['English-taught degrees','first-semester tuition waiver','tuition per semester by field','living scholarship tiers and conditions','health insurance reimbursement'], unconfirmed: ['English minimum scores','2027 dates','application fee'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1978,7 +2000,7 @@ window.UNIPATH.universities.push(
     deadlines: [
       { name: 'International undergraduate admission', kind: 'intake', entryTerm: 'Spring or Fall', entryYear: '2027', date: 'Published in the admission guide', status: 'not-confirmed', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'The university publishes an admission guide for each intake; the 2027 dates were not read during this check', source: 'https://www.sookmyung.ac.kr/en/admission/undergraduate.do', verified: '2026-09-23', note: null }
     ],
-    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    applicationFee: { amount: 150000, currency: 'KRW', waiverAvailableToInternational: false, waiver: null, note: 'Sookmyung states that applicants submit a payment of \u20a9150,000 with the application.' },
     documents: ['School transcripts and graduation certificate', 'Language proficiency evidence', 'Documents listed in the admission guidelines'],
     recommendations: null,
     essay: null,
@@ -2020,7 +2042,7 @@ window.UNIPATH.universities.push(
     { label: 'Admission information', url: 'https://www.sookmyung.ac.kr/en/admission/admission-guide.do' },
     { label: 'Support for foreign students', url: 'https://www.sookmyung.ac.kr/en/university-life/foreign-students.do' }
   ],
-  verification: { level: 'partial', checked: ['English-taught course volume','citizenship rule for English programmes','language tutoring scholarship'], unconfirmed: ['tuition amounts','English score requirements','deadlines','entrance scholarship values'] },
+  verification: { level: 'partial', checked: ['English-taught course volume','citizenship rule for English programmes','language tutoring scholarship','application fee'], unconfirmed: ['tuition amounts','English score requirements','deadlines','entrance scholarship values'] },
   lastVerified: '2026-09-23'
 },
 

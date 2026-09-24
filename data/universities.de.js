@@ -929,18 +929,22 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A university entrance qualification is required — an upper secondary certificate or a previous bachelor degree.'
   },
   costs: {
-    breakdown: { published: false, includes: 'IU publishes tuition through a fee calculator rather than a single figure; a one-time registration fee of €1,500 and a semester ticket of €226.80 are charged separately' },
-    academicYear: '2026–2027',
+    breakdown: { tuition: 25500, tuitionText: '\u20ac25,500 list price for the whole on-campus bachelor (\u20ac20,910 with the advertised discount)', period: 'programme', includes: 'tuition for the six-semester on-campus bachelor; the one-time \u20ac1,500 campus registration fee, the \u20ac226.80 semester ticket and living costs are extra', published: true },
+    academicYear: '2026\u20132027',
     currency: 'EUR',
-    headline: 'Tuition published through the IU fee calculator',
+    headline: '\u20ac20,910\u2013\u20ac25,500 for the whole bachelor',
     items: [
+      { label: 'Tuition \u2014 on-campus bachelor, list price for the programme', amount: 25500 },
+      { label: 'Tuition \u2014 same programme with the advertised discount, paid per semester', amount: 20910 },
+      { label: 'Tuition \u2014 same programme paid in full up front', amount: 18819 },
       { label: 'Campus registration fee (one-time)', amount: 1500 },
-      { label: 'Semester ticket for public transport', amount: 226.8 },
-      { label: 'Tuition', text: 'Published per programme through IU\'s fee calculator; not read during this check' }
+      { label: 'Semester ticket (per semester)', amount: 227 }
     ],
     billedSubtotal: null,
-    totalText: 'Not confirmed — tuition is quoted per programme',
-    note: 'IU advertises discounts of 2% for yearly payment and up to 10% for paying in full, and states a discount of up to 20% for international students; the conditions were not read during this check.'
+    totalText: '\u20ac25,500 list price for the six-semester bachelor, or \u20ac20,910 paid per semester and \u20ac18,819 paid in full, under the discount advertised when this was checked',
+    note: 'Figures come from the Business Administration with International Management on-campus page. IU advertises an 18% programme discount plus 2% for paying yearly or 10% for paying in full, so the price an applicant is quoted depends on the current offer. IU states there are no additional graduation or administration fees, and that a student visa needs proof of about \u20ac992 a month in living costs.',
+    source: 'https://www.iu.org/bachelor/international-management/',
+    verified: '2026-09-24'
   },
   scholarships: {
     fullRide: { available: false, internationalEligible: false, basis: null, covers: { tuition: false, housing: false, meals: false, insurance: false, books: false }, renewable: null, competitiveness: null, howToApply: null, note: 'IU advertises percentage discounts on tuition rather than full scholarships.' },
@@ -955,7 +959,7 @@ window.UNIPATH.universities.push(
     { label: 'Entry requirements', url: 'https://www.iu.org/start-studying/entry-requirements/' },
     { label: 'On-campus degrees in Germany', url: 'https://www.iu.org/on-campus/on-campus-degrees/' }
   ],
-  verification: { level: 'partial', checked: ['application fee','registration fee','intakes','visa living-cost requirement'], unconfirmed: ['tuition amount','English score requirements','deadline dates','scholarship conditions'] },
+  verification: { level: 'partial', checked: ['application fee','registration fee','intakes','visa living-cost requirement','tuition (published programme price and discounts)'], unconfirmed: ['English score requirements','deadline dates','scholarship conditions'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1008,18 +1012,23 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Applicants with foreign qualifications that give access to a state-accredited university at home, and who meet SRH subject and GPA requirements, can normally start a bachelor directly.'
   },
   costs: {
-    breakdown: { tuitionText: 'About €690–€750 per month', period: 'month', includes: 'tuition for English-taught programmes, charged monthly and fixed for the whole programme; a one-time registration fee of €750 (EU/EEA) or €1,000 (non-EU/EEA) is extra' },
-    academicYear: '2026–2027',
+    breakdown: { tuition: 5100, tuitionText: '\u20ac5,100 per semester in Berlin for non-EU/EEA students', period: 'semester', includes: 'tuition for a non-EU/EEA student on the seven-semester International Experience Track in Berlin; the one-time registration fee of \u20ac1,000 and living costs are extra', published: true },
+    academicYear: '2026\u20132027',
     currency: 'EUR',
-    headline: 'About €690–€750 a month in tuition',
+    headline: '\u20ac5,100 per semester for non-EU students',
     items: [
-      { label: 'Tuition — English-taught programmes', text: 'About €690–€750 per month, unchanged for the length of the programme' },
-      { label: 'Registration fee (one-time) — EU/EEA', amount: 750 },
-      { label: 'Registration fee (one-time) — non-EU/EEA', amount: 1000 }
+      { label: 'Tuition \u2014 non-EU/EEA, International Experience Track (7 semesters), Berlin', amount: 5100 },
+      { label: 'Tuition \u2014 non-EU/EEA, Fast Track (6 semesters), Berlin or Heidelberg', amount: 5500 },
+      { label: 'Tuition \u2014 EU/EEA, International Experience Track, Berlin or Heidelberg (per month)', amount: 750 },
+      { label: 'Tuition \u2014 EU/EEA, Fast Track, Berlin or Heidelberg (per month)', amount: 840 },
+      { label: 'Registration fee (one-time) \u2014 non-EU/EEA', amount: 1000 },
+      { label: 'Registration fee (one-time) \u2014 EU/EEA', amount: 750 }
     ],
     billedSubtotal: null,
-    totalText: 'About €8,300–€9,000 a year in tuition, plus the one-time registration fee',
-    note: 'Figures come from the university\'s published information; living costs in Berlin are extra.'
+    totalText: 'About \u20ac10,200 a year for a non-EU/EEA student in Berlin, plus the one-time \u20ac1,000 registration fee',
+    note: 'Figures are from the International Business Administration B.A. page; Leipzig is cheaper (\u20ac4,500 or \u20ac4,900 per semester). SRH states that the fee stays the same for the whole period of study. Living costs in Berlin are extra.',
+    source: 'https://www.srh-berlin.de/en/bachelor/degree-business-administration-berlin/',
+    verified: '2026-09-24'
   },
   scholarships: {
     fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
@@ -1031,7 +1040,7 @@ window.UNIPATH.universities.push(
     { label: 'Applications and admissions', url: 'https://www.srh-berlin.de/en/study-at-srh/applications-and-admissions/' },
     { label: 'International Business Administration B.A.', url: 'https://www.srh-berlin.de/en/bachelor/degree-business-administration-berlin/' }
   ],
-  verification: { level: 'partial', checked: ['english','tuition (monthly range)','registration fee','English-taught programmes'], unconfirmed: ['deadlines','scholarships','application fee'] },
+  verification: { level: 'partial', checked: ['english','tuition (monthly range)','registration fee','English-taught programmes','tuition (per-semester and per-month rates by citizenship)'], unconfirmed: ['deadlines','scholarships','application fee'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1463,17 +1472,20 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A higher education entrance qualification is required.'
   },
   costs: {
-    breakdown: { published: false, includes: 'tuition is published per programme and campus; the reservation fee of €3,000 counts towards the total' },
-    academicYear: '2026–2027',
+    breakdown: { tuition: 6662, tuitionText: 'from \u20ac6,662 a year for a bachelor programme', includes: 'the standard published bachelor rate; the \u20ac3,000 reservation fee counts towards it and living costs are extra', published: true },
+    academicYear: '2026\u20132027',
     currency: 'EUR',
-    headline: 'Tuition published per programme',
+    headline: 'From \u20ac6,662 a year in tuition',
     items: [
-      { label: 'Reservation fee (one-time, deducted from tuition)', amount: 3000 },
-      { label: 'Tuition', text: 'Published per programme on the fees page; not read during this check' }
+      { label: 'Tuition \u2014 bachelor programmes (standard rate, per year)', amount: 6662 },
+      { label: 'Football Management or E-Sports specialisation (additional, per month)', amount: 80 },
+      { label: 'Reservation fee (one-time, deducted from tuition)', amount: 3000 }
     ],
     billedSubtotal: null,
-    totalText: 'Not confirmed — see the official fees page',
-    note: 'Living costs in Berlin, Hamburg, Potsdam or Iserlohn are extra.'
+    totalText: 'From \u20ac6,662 a year in tuition, with specialisations in football management or e-sports adding \u20ac80 a month',
+    note: 'UE publishes this as a starting rate under a current saving offer, so the price an individual applicant is quoted can differ. Living costs in Berlin, Hamburg, Potsdam or Iserlohn are extra.',
+    source: 'https://www.ue-germany.com/study-with-us/fees-and-finance',
+    verified: '2026-09-24'
   },
   scholarships: {
     fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
@@ -1486,7 +1498,7 @@ window.UNIPATH.universities.push(
     { label: 'Tuition fees and funding', url: 'https://www.ue-germany.com/study-with-us/fees-and-finance' },
     { label: 'How to apply — bachelor', url: 'https://www.ue-germany.com/study-with-us/how-to-apply/bachelor' }
   ],
-  verification: { level: 'partial', checked: ['english (IELTS 5.5 undergraduate)','language of instruction','reservation fee','application documents'], unconfirmed: ['tuition amount','deadlines','scholarships'] },
+  verification: { level: 'partial', checked: ['english (IELTS 5.5 undergraduate)','language of instruction','reservation fee','application documents','tuition (published bachelor starting rate)'], unconfirmed: ['deadlines','scholarships'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1767,14 +1779,20 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A-levels, an advanced vocational diploma or an equivalent university entrance qualification.'
   },
   costs: {
-    breakdown: { published: false, includes: 'CBS publishes separate tuition rates for EU and non-EU students on its fees page; the figures were not read during this check' },
-    academicYear: '2026–2027',
+    breakdown: { published: false, includes: 'CBS publishes separate tuition rates for EU and non-EU students per programme; the enrollment and semester fees below are confirmed' },
+    academicYear: '2026\u20132027',
     currency: 'EUR',
     headline: 'Tuition published separately for EU and non-EU students',
-    items: [ { label: 'Tuition', text: 'Published per programme and fee status on the CBS tuition page' } ],
+    items: [
+      { label: 'Enrollment fee (one-time, before the start of study)', amount: 600 },
+      { label: 'Semester fee (student services, semester ticket, sports)', amount: 300 },
+      { label: 'Tuition', text: 'The BSc International Business page lists \u20ac5,970 with the status April 2025 and states that fees differ for EU and non-EU students; the page does not say which period the figure covers' }
+    ],
     billedSubtotal: null,
-    totalText: 'Not confirmed — see the official tuition page',
-    note: 'Living costs in Cologne are extra.'
+    totalText: 'Not confirmed \u2014 tuition is quoted per programme and fee status',
+    note: 'CBS states that fees can be paid monthly, per semester, per year or as a single amount. Living costs in Cologne or Mainz are extra.',
+    source: 'https://www.cbs.de/en/financing/tuition-fees',
+    verified: '2026-09-24'
   },
   scholarships: {
     fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
@@ -1786,7 +1804,7 @@ window.UNIPATH.universities.push(
     { label: 'Bachelor admission requirements', url: 'https://www.cbs.de/en/admissions/requirements/bachelors' },
     { label: 'Tuition and semester fees', url: 'https://www.cbs.de/en/financing/tuition-fees' }
   ],
-  verification: { level: 'partial', checked: ['english (usual requirement)','admission process','language of instruction'], unconfirmed: ['tuition amounts','deadlines','application fee','scholarships'] },
+  verification: { level: 'partial', checked: ['english (usual requirement)','admission process','language of instruction','enrollment and semester fees'], unconfirmed: ['deadlines','application fee','scholarships'] },
   lastVerified: '2026-09-23'
 },
 
@@ -2070,17 +2088,20 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A school-leaving qualification giving access to higher education; a foundation programme is offered for applicants who do not yet qualify.'
   },
   costs: {
-    breakdown: { tuitionText: 'Up to €15,000 for the whole bachelor programme', period: 'programme', includes: 'total programme fees as published by Gisma; the €1,500 deposit counts towards them' },
-    academicYear: '2026–2027',
+    breakdown: { tuition: 13825, tuitionText: '\u20ac13,825 a year for a bachelor programme', includes: 'the published per-year bachelor fee for the 2026 intakes; the \u20ac1,500 deposit counts towards it and living costs are extra', published: true },
+    academicYear: '2026\u20132027',
     currency: 'EUR',
-    headline: 'Up to €15,000 for the whole bachelor',
+    headline: '\u20ac13,825 a year for a bachelor',
     items: [
-      { label: 'Programme fees — bachelor', text: 'Published as up to €15,000 in total' },
+      { label: 'Tuition \u2014 bachelor degree (180 ECTS), per year', amount: 13825 },
+      { label: 'Tuition \u2014 foundation plus bachelor, per year', amount: 13825 },
       { label: 'Deposit (deducted from the programme fee)', amount: 1500 }
     ],
     billedSubtotal: null,
-    totalText: 'Up to €15,000 for the degree, payable in up to ten instalments',
-    note: 'Living costs in Potsdam or Berlin are extra.'
+    totalText: '\u20ac13,825 a year, so about \u20ac41,475 across a three-year bachelor',
+    note: 'Gisma publishes this rate for the 2026 intakes. The deposit is \u20ac1,500 for most international students, \u20ac3,000 for some, and bachelor applicants from certain countries must pay a full year of tuition upfront instead. Fees can be spread over a payment plan. Living costs in Potsdam or Berlin are extra.',
+    source: 'https://www.gisma.com/en/tuition-fees',
+    verified: '2026-09-24'
   },
   scholarships: {
     fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
@@ -2092,7 +2113,7 @@ window.UNIPATH.universities.push(
     { label: 'Tuition fees and funding', url: 'https://www.gisma.com/life-at-gisma/tuition-fees-and-funding' },
     { label: 'How to apply', url: 'https://www.gisma.com/how-to-apply' }
   ],
-  verification: { level: 'partial', checked: ['tuition (total)','deposit','language of instruction'], unconfirmed: ['English test scores','deadlines','scholarships','application fee'] },
+  verification: { level: 'partial', checked: ['tuition (total)','deposit','language of instruction','tuition (2026 intakes, per year)'], unconfirmed: ['English test scores','deadlines','scholarships','application fee'] },
   lastVerified: '2026-09-23'
 },
 
@@ -2123,7 +2144,7 @@ window.UNIPATH.universities.push(
     deadlines: [
       { name: 'Application for the autumn 2027 intake', kind: 'intake', entryTerm: 'autumn', entryYear: '2027', date: 'Not confirmed', status: 'not-confirmed', binding: false, appliesTo: 'Bachelor applicants', conditions: 'Application dates are published by the university; the dates for this intake were not read during this check.', source: 'https://escp.eu/programmes/bachelor-in-management-BSc/apply', verified: '2026-09-23', note: null }
     ],
-    applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    applicationFee: { amount: 80, currency: 'EUR', waiverAvailableToInternational: false, waiver: null, note: 'The \u20ac80 application fee is non-refundable. Admitted candidates then pay a \u20ac3,500 deposit, which is deducted from the enrolment fee.' },
     documents: ['High school diploma expected by the start of the programme', 'Proof of English at C1', 'Application through the ESCP portal'],
     recommendations: null,
     essay: null,
@@ -2145,14 +2166,21 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Applicants must be on track to receive a high school diploma by the start of the programme year.'
   },
   costs: {
-    breakdown: { published: false, includes: 'ESCP publishes Bachelor in Management fees per year and campus; the figures were not read during this check' },
-    academicYear: '2026–2027',
+    breakdown: { tuition: 23900, tuitionText: '\u20ac23,900 a year for non-European students (\u20ac17,900 for European students)', billed: 26800, includes: 'tuition plus the annual student service and registration fee; living costs on the European campuses are extra', published: true },
+    academicYear: '2027\u20132028',
     currency: 'EUR',
-    headline: 'Tuition published per year on the programme page',
-    items: [ { label: 'Tuition — Bachelor in Management', text: 'Published on the ESCP programme page; not read during this check' } ],
-    billedSubtotal: null,
-    totalText: 'Not confirmed — see the official programme page',
-    note: 'Living costs vary because the degree moves between European campuses.'
+    headline: '\u20ac26,800 a year for non-European students',
+    items: [
+      { label: 'Tuition \u2014 non-European students (per year)', amount: 23900 },
+      { label: 'Tuition \u2014 European students (per year)', amount: 17900 },
+      { label: 'Student service and registration fee (per year)', amount: 2900 },
+      { label: 'Deposit to secure a place (deducted from the enrolment fee)', amount: 3500 }
+    ],
+    billedSubtotal: 26800,
+    totalText: '\u20ac26,800 a year for non-European students and \u20ac20,800 for European students, for the three-year programme starting in September 2027',
+    note: 'ESCP estimates monthly living costs of \u20ac1,000\u2013\u20ac1,700 in Berlin, \u20ac900\u2013\u20ac1,450 in Madrid and Turin and \u20ac1,100\u2013\u20ac1,750 in Paris, and \u00a31,450\u2013\u00a32,300 in London. Living costs vary because the degree moves between European campuses.',
+    source: 'https://escp.eu/programmes/bachelor-in-management-BSc',
+    verified: '2026-09-24'
   },
   scholarships: {
     fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
@@ -2164,7 +2192,7 @@ window.UNIPATH.universities.push(
     { label: 'Bachelor in Management (BSc)', url: 'https://escp.eu/programmes/bachelor-in-management-BSc' },
     { label: 'Bachelor in Management — application', url: 'https://escp.eu/programmes/bachelor-in-management-BSc/apply' }
   ],
-  verification: { level: 'partial', checked: ['language of instruction','English level','programme structure'], unconfirmed: ['tuition','deadlines','scholarships','application fee'] },
+  verification: { level: 'partial', checked: ['language of instruction','English level','programme structure','tuition (2027 intake, European and non-European rates)','application fee and deposit'], unconfirmed: ['deadlines','scholarships'] },
   lastVerified: '2026-09-23'
 },
 
@@ -2217,17 +2245,20 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Abitur, Fachhochschulreife, Matura, IB Diploma or an equivalent school-leaving certificate.'
   },
   costs: {
-    breakdown: { published: false, includes: 'BSBI publishes programme fees per course; a €2,000 deposit counts towards the first-year fees' },
-    academicYear: '2026–2027',
+    breakdown: { tuition: 10425, tuitionText: '\u20ac10,425 a year for BSc International Business Management', includes: 'the published per-year price for the Berlin bachelor programme; the \u20ac2,000 deposit counts towards the first-year fees and living costs are extra', published: true },
+    academicYear: '2026\u20132027',
     currency: 'EUR',
-    headline: 'Tuition published per programme',
+    headline: '\u20ac10,425 a year in tuition',
     items: [
-      { label: 'Programme fees', text: 'Published per programme on the BSBI programme offers page' },
-      { label: 'Deposit on signing the study contract', amount: 2000 }
+      { label: 'Tuition \u2014 BSc International Business Management (per year)', amount: 10425 },
+      { label: 'Deposit on signing the study contract', amount: 2000 },
+      { label: 'Partner accommodation near Berlin, shared room (per month, from)', amount: 599 }
     ],
     billedSubtotal: null,
-    totalText: 'Not confirmed — see the official programme fees page',
-    note: 'BSBI offers payment plans spreading fees across the programme.'
+    totalText: '\u20ac10,425 a year, so about \u20ac31,275 across a three-year bachelor before any discount',
+    note: 'BSBI advertises discounts of up to 50% on the published price, so the amount an individual applicant is quoted can be lower. BSBI offers payment plans spreading fees across the programme. Living costs in Berlin are extra.',
+    source: 'https://www.berlinsbi.com/programmes/undergraduate/bsc-hons-international-business-and-management',
+    verified: '2026-09-24'
   },
   scholarships: {
     fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
@@ -2240,7 +2271,7 @@ window.UNIPATH.universities.push(
     { label: 'Undergraduate application', url: 'https://www.berlinsbi.com/admissions/undergraduate-application' },
     { label: 'Frequently asked questions', url: 'https://www.berlinsbi.com/studying-at-bsbi/frequently-asked-questions' }
   ],
-  verification: { level: 'partial', checked: ['english (IELTS, TOEFL, Duolingo, PTE)','entry qualifications','deposit'], unconfirmed: ['tuition amount','deadlines','scholarships','application fee'] },
+  verification: { level: 'partial', checked: ['english (IELTS, TOEFL, Duolingo, PTE)','entry qualifications','deposit','tuition (published per-year programme price)'], unconfirmed: ['deadlines','scholarships','application fee'] },
   lastVerified: '2026-09-23'
 },
 

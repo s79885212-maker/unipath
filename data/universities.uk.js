@@ -1330,14 +1330,16 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A-levels, the IB and a published list of international qualifications are accepted, with grades set per course.'
   },
   costs: {
-    breakdown: { published: false, includes: 'the overseas tuition rate is published on each course page; no single university-wide figure was confirmed here' },
-    academicYear: '2026–2027',
+    breakdown: { published: false, includes: 'Durham had not confirmed 2027-entry overseas fees when this was checked; the rate is then published on each course page' },
+    academicYear: '2027\u20132028',
     currency: 'GBP',
-    headline: 'Tuition published per course',
-    items: [ { label: 'Tuition (Overseas rate)', text: 'Set per course and published on the course page' } ],
+    headline: 'Tuition for 2027 entry not yet published',
+    items: [ { label: 'Tuition (Overseas rate, 2027 entry)', text: 'The BSc Economics course page states that fees for the selected academic year have not yet been confirmed' } ],
     billedSubtotal: null,
-    totalText: 'Not confirmed — see the official fees page',
-    note: 'Living costs, the visa fee and the immigration health surcharge are extra.'
+    totalText: 'Not confirmed \u2014 2027 rates not published',
+    note: 'Durham sets the overseas fee by the academic year of entry and applies an annual inflationary increase during the course. Living costs, the visa fee and the immigration health surcharge are extra.',
+    source: 'https://www.durham.ac.uk/business/courses/economics-l100/',
+    verified: '2026-09-24'
   },
   scholarships: {
     fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
@@ -1349,7 +1351,7 @@ window.UNIPATH.universities.push(
     { label: 'English language requirements', url: 'https://www.durham.ac.uk/study/international/entry-requirements/english-language-requirements/' },
     { label: 'Undergraduate tuition fees', url: 'https://www.durham.ac.uk/study/undergraduate/fees-and-funding/tuition-fees/' }
   ],
-  verification: { level: 'partial', checked: ['english (range)','rounds','application fee'], unconfirmed: ['exact IELTS per course','tuition amount','scholarships'] },
+  verification: { level: 'partial', checked: ['english (range)','rounds','application fee','2027 fee publication status'], unconfirmed: ['exact IELTS per course','tuition amount','scholarships'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1404,14 +1406,19 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A-levels, the IB and a published list of international qualifications are accepted.'
   },
   costs: {
-    breakdown: { published: false, includes: 'the overseas tuition rate is published on each course page; no single university-wide figure was confirmed here' },
-    academicYear: '2026–2027',
+    breakdown: { tuition: 29000, tuitionText: '\u00a329,000 for BSc Economics \u2014 one confirmed course example', includes: 'the international rate published for BSc Economics starting in 2027; other courses are priced differently and living costs are extra', published: true },
+    academicYear: '2027\u20132028',
     currency: 'GBP',
-    headline: 'Tuition published per course',
-    items: [ { label: 'Tuition (Overseas rate)', text: 'Set per course and published on the course page' } ],
+    headline: '\u00a329,000 tuition (BSc Economics example)',
+    items: [
+      { label: 'Tuition \u2014 BSc Economics, international rate', amount: 29000 },
+      { label: 'Reduced fee for a work or study abroad placement year', amount: 4575 }
+    ],
     billedSubtotal: null,
-    totalText: 'Not confirmed — see the official fees page',
-    note: 'Living costs, the visa fee and the immigration health surcharge are extra.'
+    totalText: '\u00a329,000 a year for BSc Economics starting in 2027; every other course publishes its own rate',
+    note: 'The university prices tuition course by course, so this is one confirmed example rather than a university-wide rate. Leeds states that the international fee stays the same for the whole course. Living costs, the visa fee and the immigration health surcharge are extra.',
+    source: 'https://courses.leeds.ac.uk/f836/economics-bsc',
+    verified: '2026-09-24'
   },
   scholarships: {
     fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
@@ -1423,7 +1430,7 @@ window.UNIPATH.universities.push(
     { label: 'Entry requirements for international applicants', url: 'https://www.leeds.ac.uk/international-applying/doc/entry-requirements' },
     { label: 'International fees and costs', url: 'https://www.leeds.ac.uk/international-fees-costs' }
   ],
-  verification: { level: 'partial', checked: ['english minimum','rounds','application fee'], unconfirmed: ['tuition amount','scholarships'] },
+  verification: { level: 'partial', checked: ['english minimum','rounds','application fee','tuition (confirmed course example)'], unconfirmed: ['scholarships'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1562,14 +1569,18 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A-levels, the IB and a published list of international qualifications are accepted.'
   },
   costs: {
-    breakdown: { published: false, includes: 'the overseas tuition rate is published on each course page; no single university-wide figure was confirmed here' },
-    academicYear: '2026–2027',
+    breakdown: { tuition: 27100, tuitionText: '\u00a327,100 for BSc Economics \u2014 one confirmed course example', includes: 'the international rate published for BSc Economics starting in 2027; other courses are priced differently and living costs are extra', published: true },
+    academicYear: '2027\u20132028',
     currency: 'GBP',
-    headline: 'Tuition published per course',
-    items: [ { label: 'Tuition (Overseas rate)', text: 'Set per course and published on the course page' } ],
+    headline: '\u00a327,100 tuition (BSc Economics example)',
+    items: [
+      { label: 'Tuition \u2014 BSc Economics, international rate', amount: 27100 }
+    ],
     billedSubtotal: null,
-    totalText: 'Not confirmed — see the official fees page',
-    note: 'Living costs, the visa fee and the immigration health surcharge are extra.'
+    totalText: '\u00a327,100 a year for BSc Economics starting in 2027; every other course publishes its own rate',
+    note: 'The university prices tuition course by course, so this is one confirmed example rather than a university-wide rate. Lancaster states that international tuition will not rise by more than 4% a year during a programme. Living costs, the visa fee and the immigration health surcharge are extra.',
+    source: 'https://www.lancaster.ac.uk/study/undergraduate/courses/economics-bsc-hons-l101/',
+    verified: '2026-09-24'
   },
   scholarships: {
     fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
@@ -1581,7 +1592,7 @@ window.UNIPATH.universities.push(
     { label: 'English language requirements for undergraduate applicants', url: 'https://www.lancaster.ac.uk/study/entry-requirements/undergraduate-english-requirements/' },
     { label: 'Fees and funding', url: 'https://www.lancaster.ac.uk/study/fees-and-funding/' }
   ],
-  verification: { level: 'partial', checked: ['english (typical level)','rounds','application fee'], unconfirmed: ['exact IELTS per course','tuition amount','scholarships'] },
+  verification: { level: 'partial', checked: ['english (typical level)','rounds','application fee','tuition (confirmed course example)'], unconfirmed: ['exact IELTS per course','scholarships'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1636,14 +1647,18 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A-levels, the IB and a published list of international qualifications are accepted.'
   },
   costs: {
-    breakdown: { published: false, includes: 'the overseas tuition rate is published on each course page; no single university-wide figure was confirmed here' },
-    academicYear: '2026–2027',
+    breakdown: { tuition: 25750, tuitionText: '\u00a325,750 for BSc Economics \u2014 one confirmed course example', includes: 'the international rate published for BSc Economics starting in 2027; other courses are priced differently and living costs are extra', published: true },
+    academicYear: '2027\u20132028',
     currency: 'GBP',
-    headline: 'Tuition published per course',
-    items: [ { label: 'Tuition (Overseas rate)', text: 'Set per course and published on the course page' } ],
+    headline: '\u00a325,750 tuition (BSc Economics example)',
+    items: [
+      { label: 'Tuition \u2014 BSc Economics, international rate', amount: 25750 }
+    ],
     billedSubtotal: null,
-    totalText: 'Not confirmed — see the official fees page',
-    note: 'Living costs, the visa fee and the immigration health surcharge are extra.'
+    totalText: '\u00a325,750 a year for BSc Economics starting in 2027; every other course publishes its own rate',
+    note: 'The university prices tuition course by course, so this is one confirmed example rather than a university-wide rate. Living costs, the visa fee and the immigration health surcharge are extra.',
+    source: 'https://www.ncl.ac.uk/undergraduate/degrees/l100/',
+    verified: '2026-09-24'
   },
   scholarships: {
     fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
@@ -1655,7 +1670,7 @@ window.UNIPATH.universities.push(
     { label: 'English language requirements for international students', url: 'https://www.ncl.ac.uk/international/language/' },
     { label: 'Undergraduate tuition fees', url: 'https://www.ncl.ac.uk/undergraduate/fees-funding/tuition-fees/' }
   ],
-  verification: { level: 'partial', checked: ['english (typical level)','rounds','application fee'], unconfirmed: ['tuition amount','scholarships'] },
+  verification: { level: 'partial', checked: ['english (typical level)','rounds','application fee','tuition (confirmed course example)'], unconfirmed: ['scholarships'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1710,14 +1725,19 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A-levels, the IB and a published list of international qualifications are accepted.'
   },
   costs: {
-    breakdown: { published: false, includes: 'the overseas tuition rate is published on each course page; no single university-wide figure was confirmed here' },
-    academicYear: '2026–2027',
+    breakdown: { tuition: 30950, tuitionText: '\u00a330,950 for BSc Economics \u2014 one confirmed course example', includes: 'the Overseas rate published for BSc Economics starting in September 2027; other courses are priced differently and living costs in London are extra', published: true },
+    academicYear: '2027\u20132028',
     currency: 'GBP',
-    headline: 'Tuition published per course',
-    items: [ { label: 'Tuition (Overseas rate)', text: 'Set per course and published on the course page' } ],
+    headline: '\u00a330,950 tuition (BSc Economics example)',
+    items: [
+      { label: 'Tuition \u2014 BSc Economics, Overseas rate', amount: 30950 },
+      { label: 'Tuition \u2014 BSc Economics with a foundation year, Overseas rate', amount: 26750 }
+    ],
     billedSubtotal: null,
-    totalText: 'Not confirmed — see the official fees page',
-    note: 'Living costs, the visa fee and the immigration health surcharge are extra.'
+    totalText: '\u00a330,950 a year for BSc Economics starting in September 2027; every other course publishes its own rate',
+    note: 'Queen Mary prices tuition course by course, so this is one confirmed example rather than a university-wide rate. Queen Mary also charges an international tuition deposit before enrolment, and states that the annual inflationary increase for international fees will be no more than 10%. Living costs in London, the visa fee and the immigration health surcharge are extra.',
+    source: 'https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/economics/',
+    verified: '2026-09-24'
   },
   scholarships: {
     fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
@@ -1729,7 +1749,7 @@ window.UNIPATH.universities.push(
     { label: 'English language requirements for undergraduate and postgraduate programmes', url: 'https://www.qmul.ac.uk/international-students/englishlanguagerequirements/undergraduate-and-postgraduate-programmes/' },
     { label: 'Undergraduate tuition fees', url: 'https://www.qmul.ac.uk/undergraduate/feesandfunding/tuitionfees/' }
   ],
-  verification: { level: 'partial', checked: ['english bands','rounds','application fee'], unconfirmed: ['tuition amount','scholarships'] },
+  verification: { level: 'partial', checked: ['english bands','rounds','application fee','tuition (confirmed course example)'], unconfirmed: ['scholarships'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1785,14 +1805,22 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A-levels, the IB and a published list of international qualifications are accepted, with grades set per course.'
   },
   costs: {
-    breakdown: { published: false, includes: 'the overseas tuition rate is published on each course page; no single university-wide figure was confirmed here' },
-    academicYear: '2026–2027',
+    breakdown: { tuition: 26800, tuitionText: '\u00a326,800\u2013\u00a335,900 depending on the course', includes: 'the Overseas rate published for the course in the university fee table; the clinical years of medicine and living costs are extra', published: true },
+    academicYear: null,
     currency: 'GBP',
-    headline: 'Tuition published per course',
-    items: [ { label: 'Tuition (Overseas rate)', text: 'Set per course and published on the course page' } ],
+    headline: '\u00a326,800\u2013\u00a335,900 tuition depending on the course',
+    items: [
+      { label: 'Tuition \u2014 humanities, social sciences and most BA courses', amount: 28300 },
+      { label: 'Tuition \u2014 law and international legal studies', amount: 28400 },
+      { label: 'Tuition \u2014 engineering and computer science', amount: 33000 },
+      { label: 'Tuition \u2014 highest published band', amount: 35900 },
+      { label: 'Tuition \u2014 Medicine BMBS, clinical years', amount: 64900 }
+    ],
     billedSubtotal: null,
-    totalText: 'Not confirmed — see the official fees page',
-    note: 'Living costs, the visa fee and the immigration health surcharge are extra.'
+    totalText: '\u00a326,800\u2013\u00a335,900 a year depending on the course, with the clinical years of medicine at \u00a364,900',
+    note: 'Southampton publishes one rate per course rather than broad bands. The fee table does not state which academic year it covers, so the year is left blank here; the table was read on 24 September 2026. Southampton states that overseas tuition rises every year for students starting from 1 August 2026.',
+    source: 'https://www.southampton.ac.uk/courses/fees/undergraduate/tuition-fees.page',
+    verified: '2026-09-24'
   },
   scholarships: {
     fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
@@ -1804,7 +1832,7 @@ window.UNIPATH.universities.push(
     { label: 'English language requirements', url: 'https://www.southampton.ac.uk/international/english-language-requirements' },
     { label: 'Undergraduate tuition fees', url: 'https://www.southampton.ac.uk/courses/fees/undergraduate.page' }
   ],
-  verification: { level: 'partial', checked: ['english band system','rounds','application fee'], unconfirmed: ['exact IELTS per band','tuition amount','scholarships'] },
+  verification: { level: 'partial', checked: ['english band system','rounds','application fee','tuition (published course fee table)'], unconfirmed: ['exact IELTS per band','scholarships'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1861,13 +1889,15 @@ window.UNIPATH.universities.push(
   },
   costs: {
     breakdown: { published: false, includes: 'Birmingham had not published 2027-entry international fees when this was checked' },
-    academicYear: '2027–2028',
+    academicYear: '2027\u20132028',
     currency: 'GBP',
     headline: 'Tuition for 2027 entry not yet published',
-    items: [ { label: 'Tuition (Overseas rate, 2027 entry)', text: 'Birmingham states that applicants for 2027 entry will be advised of the annual fee closer to the time' } ],
+    items: [ { label: 'Tuition (Overseas rate, 2027 entry)', text: 'The BSc Economics course page shows the fee for 2027 entry as to be confirmed' } ],
     billedSubtotal: null,
-    totalText: 'Not confirmed — 2027 rates not published',
-    note: 'Fees differ by course and are confirmed in the offer letter.'
+    totalText: 'Not confirmed \u2014 2027 rates not published',
+    note: 'Birmingham states that applicants for 2027 entry will be advised of the annual fee closer to the time, and that fees differ by course and are confirmed in the offer letter. Living costs, the visa fee and the immigration health surcharge are extra.',
+    source: 'https://www.birmingham.ac.uk/study/undergraduate/subjects/economics-courses/economics-bsc',
+    verified: '2026-09-24'
   },
   scholarships: {
     fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
@@ -1879,7 +1909,7 @@ window.UNIPATH.universities.push(
     { label: 'International fees', url: 'https://www.birmingham.ac.uk/study/international/fees' },
     { label: 'Undergraduate tuition fees', url: 'https://www.birmingham.ac.uk/study/undergraduate/fees-funding/tuition' }
   ],
-  verification: { level: 'partial', checked: ['rounds','application fee','fee publication status'], unconfirmed: ['IELTS requirement','tuition amount','scholarships'] },
+  verification: { level: 'partial', checked: ['rounds','application fee','fee publication status','2027 fee publication status'], unconfirmed: ['IELTS requirement','tuition amount','scholarships'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1934,14 +1964,16 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A-levels, the IB and a published list of international qualifications are accepted, with grades set per course.'
   },
   costs: {
-    breakdown: { published: false, includes: 'the overseas tuition rate is published on each course page; no single university-wide figure was confirmed here' },
-    academicYear: '2027–2028',
+    breakdown: { published: false, includes: 'York published the 2027/28 international undergraduate fee as to be confirmed when this was checked' },
+    academicYear: '2027\u20132028',
     currency: 'GBP',
-    headline: 'Tuition published per course',
-    items: [ { label: 'Tuition (Overseas rate)', text: 'Set per course and published on the course page' } ],
+    headline: 'Tuition for 2027 entry not yet published',
+    items: [ { label: 'Tuition (International and EU rate, 2027/28)', text: 'The BSc Economics course page shows the annual international fee as TBC' } ],
     billedSubtotal: null,
-    totalText: 'Not confirmed — see the official fees page',
-    note: 'Living costs, the visa fee and the immigration health surcharge are extra.'
+    totalText: 'Not confirmed \u2014 2027/28 rates published as TBC',
+    note: 'York states that international tuition rises in later years in line with CPI inflation, capped at 10%. Living costs, the visa fee and the immigration health surcharge are extra.',
+    source: 'https://www.york.ac.uk/study/undergraduate/courses/bsc-economics/',
+    verified: '2026-09-24'
   },
   scholarships: {
     fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
@@ -1953,7 +1985,7 @@ window.UNIPATH.universities.push(
     { label: 'International tuition fees', url: 'https://www.york.ac.uk/study/undergraduate/fees-funding/international/' },
     { label: 'International students', url: 'https://www.york.ac.uk/study/international/' }
   ],
-  verification: { level: 'partial', checked: ['rounds','application fee','fee structure'], unconfirmed: ['IELTS requirement','tuition amount','scholarships'] },
+  verification: { level: 'partial', checked: ['rounds','application fee','fee structure','2027 fee publication status'], unconfirmed: ['IELTS requirement','tuition amount','scholarships'] },
   lastVerified: '2026-09-23'
 },
 
@@ -2009,14 +2041,22 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A-levels, the IB and a published list of international qualifications are accepted, with grades set per course.'
   },
   costs: {
-    breakdown: { published: false, includes: 'the overseas tuition rate is published on each course page; no single university-wide figure was confirmed here' },
-    academicYear: '2027–2028',
+    breakdown: { tuition: 25700, tuitionText: '\u00a325,700\u2013\u00a331,500 depending on the subject area', includes: 'the international tuition rate for the subject area in autumn 2027; medicine is charged separately and living costs are extra', published: true },
+    academicYear: '2027\u20132028',
     currency: 'GBP',
-    headline: 'Tuition published per course',
-    items: [ { label: 'Tuition (Overseas rate)', text: 'Set per course and published on the course page' } ],
+    headline: '\u00a325,700\u2013\u00a331,500 tuition by subject area',
+    items: [
+      { label: 'Tuition \u2014 arts, humanities, social sciences and law', amount: 25700 },
+      { label: 'Tuition \u2014 accounting, finance, business, economics and marketing', amount: 25700 },
+      { label: 'Tuition \u2014 computer science, engineering, geography, mathematics and physical sciences', amount: 31500 },
+      { label: 'Tuition \u2014 biosciences, biomedical sciences and psychology', amount: 32150 },
+      { label: 'Tuition \u2014 BMBS Medicine', amount: 49300 }
+    ],
     billedSubtotal: null,
-    totalText: 'Not confirmed — see the official fees page',
-    note: 'Living costs, the visa fee and the immigration health surcharge are extra.'
+    totalText: '\u00a325,700\u2013\u00a349,300 a year depending on the subject area, for students starting in autumn 2027',
+    note: 'Exeter states that its policy is to raise tuition in each year of study, in line with March Consumer Price Inflation. Living costs, the visa fee and the immigration health surcharge are extra.',
+    source: 'https://www.exeter.ac.uk/study/undergraduate/fees/',
+    verified: '2026-09-24'
   },
   scholarships: {
     fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
@@ -2028,7 +2068,7 @@ window.UNIPATH.universities.push(
     { label: 'English language requirements and profiles', url: 'https://www.exeter.ac.uk/study/englishlanguagerequirements/' },
     { label: 'Tuition fees for international students', url: 'https://www.exeter.ac.uk/international-students/tuition-fees/' }
   ],
-  verification: { level: 'partial', checked: ['english profile system','living-cost requirement','rounds','application fee'], unconfirmed: ['exact IELTS per profile','tuition amount','scholarships'] },
+  verification: { level: 'partial', checked: ['english profile system','living-cost requirement','rounds','application fee','tuition (2027 subject-area rates)'], unconfirmed: ['exact IELTS per profile','scholarships'] },
   lastVerified: '2026-09-23'
 },
 
@@ -2083,14 +2123,21 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A-levels, the IB and a published list of international qualifications are accepted, with grades set per course.'
   },
   costs: {
-    breakdown: { published: false, includes: 'the overseas tuition rate is published on each course page; no single university-wide figure was confirmed here' },
-    academicYear: '2027–2028',
+    breakdown: { tuition: 26150, tuitionText: '\u00a326,150\u2013\u00a332,950 depending on the fee band', includes: 'the Overseas tuition band for the course in 2027/28; living costs in Bath are extra', published: true },
+    academicYear: '2027\u20132028',
     currency: 'GBP',
-    headline: 'Tuition published per course',
-    items: [ { label: 'Tuition (Overseas rate)', text: 'Set per course and published on the course page' } ],
+    headline: '\u00a326,150\u2013\u00a332,950 tuition by band',
+    items: [
+      { label: 'Band 1 \u2014 library-based humanities and social sciences', amount: 26150 },
+      { label: 'Band 2 \u2014 economics and School of Management courses', amount: 29500 },
+      { label: 'Band 3 \u2014 science, engineering, health and psychology', amount: 32950 },
+      { label: 'Overseas foundation degree (full time)', amount: 26150 }
+    ],
     billedSubtotal: null,
-    totalText: 'Not confirmed — see the official fees page',
-    note: 'Living costs, the visa fee and the immigration health surcharge are extra.'
+    totalText: '\u00a326,150\u2013\u00a332,950 a year depending on the band, for students starting in 2027',
+    note: 'Bath advises international applicants to budget for an increase of up to 8% in each further year of the course and states it will not raise fees by more than that. A reduced fee applies during a placement or study-abroad year. Living costs, the visa fee and the immigration health surcharge are extra.',
+    source: 'https://www.bath.ac.uk/corporate-information/tuition-fees-for-undergraduate-students-starting-in-2027/',
+    verified: '2026-09-24'
   },
   scholarships: {
     fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
@@ -2102,7 +2149,7 @@ window.UNIPATH.universities.push(
     { label: 'Entry requirements for international students', url: 'https://www.bath.ac.uk/corporate-information/entry-requirements-for-international-students/' },
     { label: 'Tuition fees for undergraduate students starting in 2027', url: 'https://www.bath.ac.uk/corporate-information/tuition-fees-for-undergraduate-students-starting-in-2027/' }
   ],
-  verification: { level: 'partial', checked: ['english (course example and validity)','rounds','application fee'], unconfirmed: ['exact IELTS per category','tuition amount','scholarships'] },
+  verification: { level: 'partial', checked: ['english (course example and validity)','rounds','application fee','tuition (2027 fee bands)'], unconfirmed: ['exact IELTS per category','scholarships'] },
   lastVerified: '2026-09-23'
 },
 
@@ -2158,14 +2205,19 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A-levels, the IB and a published list of international qualifications are accepted, with grades set per course.'
   },
   costs: {
-    breakdown: { published: false, includes: 'the overseas tuition rate is published on each course page; no single university-wide figure was confirmed here' },
-    academicYear: '2026–2027',
+    breakdown: { tuition: 25450, tuitionText: '\u00a325,450 for BSc Economics \u2014 one confirmed course example', includes: 'the overseas rate published for BSc Economics with 2027 entry, charged unchanged in each of the three years; living costs in Cardiff are extra', published: true },
+    academicYear: '2027\u20132028',
     currency: 'GBP',
-    headline: 'Tuition published per course',
-    items: [ { label: 'Tuition (Overseas rate)', text: 'Set per course and published on the course page' } ],
+    headline: '\u00a325,450 tuition (BSc Economics example)',
+    items: [
+      { label: 'Tuition \u2014 BSc Economics, overseas rate, year one', amount: 25450 },
+      { label: 'Tuition \u2014 BSc Economics, overseas rate, years two and three', amount: 25450 }
+    ],
     billedSubtotal: null,
-    totalText: 'Not confirmed — see the official fees page',
-    note: 'Living costs, the visa fee and the immigration health surcharge are extra.'
+    totalText: '\u00a325,450 a year for BSc Economics with 2027 entry, the same in each year of the course',
+    note: 'Cardiff prices tuition course by course, so this is one confirmed example rather than a university-wide rate. The course page shows no deposit for overseas students on this degree. Living costs, the visa fee and the immigration health surcharge are extra.',
+    source: 'https://www.cardiff.ac.uk/study/undergraduate/courses/course/economics-bsc',
+    verified: '2026-09-24'
   },
   scholarships: {
     fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
@@ -2177,7 +2229,7 @@ window.UNIPATH.universities.push(
     { label: 'English language requirements', url: 'https://www.cardiff.ac.uk/study/international/english-language-requirements' },
     { label: 'Overseas undergraduate fees', url: 'https://www.cardiff.ac.uk/study/undergraduate/tuition-fees/overseas-undergraduate-fees' }
   ],
-  verification: { level: 'partial', checked: ['english minimum and accepted IELTS versions','rounds','application fee'], unconfirmed: ['tuition amount','scholarships'] },
+  verification: { level: 'partial', checked: ['english minimum and accepted IELTS versions','rounds','application fee','tuition (confirmed course example)'], unconfirmed: ['scholarships'] },
   lastVerified: '2026-09-23'
 },
 
@@ -2313,14 +2365,20 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A-levels, the IB and a published list of international qualifications are accepted, with grades set per course.'
   },
   costs: {
-    breakdown: { published: false, includes: 'the overseas tuition rate is published on each course page; no single university-wide figure was confirmed here' },
-    academicYear: '2026–2027',
+    breakdown: { tuition: 27000, tuitionText: '\u00a327,000 for BSc Economics \u2014 one confirmed course example', includes: 'the international rate published on the BSc Economics course page; other courses are priced differently and living costs are extra', published: true },
+    academicYear: '2026\u20132027',
     currency: 'GBP',
-    headline: 'Tuition published per course',
-    items: [ { label: 'Tuition (Overseas rate)', text: 'Set per course and published on the course page' } ],
+    headline: '\u00a327,000 tuition (BSc Economics example)',
+    items: [
+      { label: 'Tuition \u2014 BSc Economics, international rate', amount: 27000 },
+      { label: 'Year in industry fee \u2014 international rate', amount: 1955 },
+      { label: 'Year abroad fee \u2014 international rate', amount: 13500 }
+    ],
     billedSubtotal: null,
-    totalText: 'Not confirmed — see the official fees page',
-    note: 'Living costs, the visa fee and the immigration health surcharge are extra.'
+    totalText: '\u00a327,000 a year for BSc Economics; every other course publishes its own rate',
+    note: 'Liverpool prices tuition course by course, so this is one confirmed example rather than a university-wide rate. The page states that the international figure is the 2026/27 rate and is subject to change for 2027/28. Living costs, the visa fee and the immigration health surcharge are extra.',
+    source: 'https://www.liverpool.ac.uk/courses/2027/economics-bsc-hons',
+    verified: '2026-09-24'
   },
   scholarships: {
     fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
@@ -2332,7 +2390,7 @@ window.UNIPATH.universities.push(
     { label: 'International English language tests', url: 'https://www.liverpool.ac.uk/international/applying/entry-requirements/english-language-requirements/international-english-language-tests/' },
     { label: 'Tuition fees for international students', url: 'https://www.liverpool.ac.uk/international/scholarships-and-fees/tuition-fees/' }
   ],
-  verification: { level: 'partial', checked: ['english (typical requirement)','rounds','application fee'], unconfirmed: ['tuition amount','scholarships'] },
+  verification: { level: 'partial', checked: ['english (typical requirement)','rounds','application fee','tuition (confirmed course example)'], unconfirmed: ['scholarships'] },
   lastVerified: '2026-09-23'
 },
 
@@ -2388,14 +2446,21 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A-levels, the IB and a published list of international qualifications are accepted, with grades set per course.'
   },
   costs: {
-    breakdown: { published: false, includes: 'the overseas tuition rate is published on each course page; no single university-wide figure was confirmed here' },
-    academicYear: '2026–2027',
+    breakdown: { tuition: 24600, tuitionText: '\u00a324,600\u2013\u00a339,990 depending on the fee rate for the course', includes: 'the international fee rate for the course in 2027/28; the clinical placement levy for medicine and living costs are extra', published: true },
+    academicYear: '2027\u20132028',
     currency: 'GBP',
-    headline: 'Tuition published per course',
-    items: [ { label: 'Tuition (Overseas rate)', text: 'Set per course and published on the course page' } ],
+    headline: '\u00a324,600\u2013\u00a339,990 tuition by fee rate',
+    items: [
+      { label: 'Fee Rate 1 \u2014 classroom-based courses', amount: 24600 },
+      { label: 'Fee Rate 2 \u2014 laboratory courses', amount: 28500 },
+      { label: 'Fee Rate 3 \u2014 pre-clinical elements of medical courses', amount: 39990 },
+      { label: 'Fee Rate 4 \u2014 clinical elements of medical courses', text: 'Published as to be confirmed for 2027/28' }
+    ],
     billedSubtotal: null,
-    totalText: 'Not confirmed — see the official fees page',
-    note: 'Living costs, the visa fee and the immigration health surcharge are extra.'
+    totalText: '\u00a324,600 for classroom-based courses and \u00a328,500 for laboratory courses, for students first enrolling in 2027/28',
+    note: 'International medical students also pay a mandatory Northern Ireland clinical placement levy in each of the five years, which is not included in the tuition fee and was published as to be confirmed for 2027/28. Living costs, the visa fee and the immigration health surcharge are extra.',
+    source: 'https://www.qub.ac.uk/Study/international-students/tuition-fees/',
+    verified: '2026-09-24'
   },
   scholarships: {
     fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
@@ -2407,7 +2472,7 @@ window.UNIPATH.universities.push(
     { label: 'English language requirements', url: 'https://www.qub.ac.uk/Study/international-students/applying/english-language-requirements/' },
     { label: 'International tuition fees', url: 'https://www.qub.ac.uk/Study/international-students/tuition-fees/' }
   ],
-  verification: { level: 'partial', checked: ['english (normal level and medicine/dentistry)','rounds','application fee'], unconfirmed: ['tuition amount','scholarships'] },
+  verification: { level: 'partial', checked: ['english (normal level and medicine/dentistry)','rounds','application fee','tuition (2027/28 international fee rates)'], unconfirmed: ['scholarships'] },
   lastVerified: '2026-09-23'
 },
 );

@@ -319,7 +319,14 @@
   function costCurrency(u) { return (u.costs && u.costs.currency) || null; }
   function costYear(u) { return (u.costs && has(u.costs.academicYear)) ? u.costs.academicYear : null; }
   function costPeriod(u) { var b = costBreak(u); return (b && b.period === 'semester') ? 'semester' : 'year'; }
-  function perPeriod(u) { return costPeriod(u) === 'semester' ? ' per semester' : ' per year'; }
+  /* The suffix is dropped when the tuition text already names its own period,
+     so a figure like '\u20ac5,100 per semester' is not printed twice. */
+  var STATES_PERIOD = /\b(?:per|a|each)\s+(?:year|semester|month)\b|whole programme|for the programme|across the programme|across six semesters/i;
+  function perPeriod(u, text) {
+    if (text == null) text = tuitionText(u);
+    if (text && STATES_PERIOD.test(text)) return '';
+    return costPeriod(u) === 'semester' ? ' per semester' : ' per year';
+  }
 
   function tuitionAmount(u) {
     var b = costBreak(u);

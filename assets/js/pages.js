@@ -307,7 +307,7 @@
         ? figures.map(function (f) {
             return '<div class="cost-figure"><dt>' + esc(f.label) + '</dt>' +
               '<dd><strong>' + esc(f.text) + '</strong>' +
-              (f.id === 'tuition' ? '<span class="small muted">' + esc(U.perPeriod(u)) + '</span>' : '') + '</dd></div>';
+              (f.id === 'tuition' ? '<span class="small muted">' + esc(U.perPeriod(u, f.text)) + '</span>' : '') + '</dd></div>';
           }).join('')
         : '<div class="cost-figure"><dt>Tuition</dt><dd>' + UNKNOWN + '</dd></div>') +
       '</div>' +
