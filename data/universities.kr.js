@@ -1231,11 +1231,14 @@ window.UNIPATH.universities.push(
     notes: ['Language certificates must be submitted during the application period if they are to count for the scholarship.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
-    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    waiver: null,
-    note: 'Sogang uses both English and Korean proficiency evidence in its international admission and scholarship decisions.'
+    ielts: { min: null, recommended: null, note: 'IELTS is accepted, but Sogang publishes no single numeric minimum: applicants without TOPIK level 3 can be admitted on academic qualifications or on English ability shown through TOEFL, IELTS or a similar test.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Accepted; no numeric minimum was published on the pages read.' },
+    duolingo: { min: null, recommended: null, note: 'Not listed among the accepted tests.' },
+    otherTests: 'TOEIC and TEPS certificates are also accepted, and TOPIK level 3 or above is the Korean-side requirement.',
+    waiver: 'Native English speakers from the USA, the UK, Canada, Australia, New Zealand and Ireland, and graduates of universities where teaching was entirely in English, can be exempt.',
+    note: 'The English score report must be valid at submission and from a test taken within the past two years as of the application date. Sogang uses both English and Korean proficiency evidence in its international admission and scholarship decisions.',
+    source: 'https://wwwe.sogang.ac.kr/wwwe/admissionprograms.html',
+    verified: '2026-09-24'
   },
   academics: {
     gpa: null,
@@ -1264,7 +1267,7 @@ window.UNIPATH.universities.push(
     { label: 'Undergraduate programmes for international students', url: 'https://wwwe.sogang.ac.kr/wwwe/admissionprograms.html' },
     { label: 'Scholarships', url: 'https://wwwe.sogang.ac.kr/wwwe/scholarships_01.html' }
   ],
-  verification: { level: 'partial', checked: ['application window (approximate)','language scholarship value'], unconfirmed: ['fully English-taught degrees','tuition amounts','English score thresholds','exact deadlines'] },
+  verification: { level: 'partial', checked: ['application window (approximate)','language scholarship value','english (accepted tests, TOPIK alternative and waiver rules)'], unconfirmed: ['fully English-taught degrees','tuition amounts','English score thresholds','exact deadlines'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1303,11 +1306,14 @@ window.UNIPATH.universities.push(
     notes: ['Scholarship decisions are made within the university budget, with the strongest applicants chosen on grade average and admission results.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
-    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    ielts: { min: 6.5, recommended: null, note: 'Chung-Ang lists IELTS 6.5 overall alongside TOPIK level 5, TOEFL iBT 91 and TOEIC 780 as the language thresholds used for newly admitted international students. These figures are tied to the scholarship assessment rather than to a bare admission minimum.' },
+    toefl: { min: 91, recommended: null, scales: [{ period: 'pre2026', min: 91, note: 'TOEFL iBT above 91.' }], note: 'TOEFL iBT above 91 is the published threshold.' },
+    duolingo: { min: null, recommended: null, note: 'Not listed among the accepted tests.' },
+    otherTests: 'TOEIC above 780, and TOPIK level 5 or above on the Korean side.',
     waiver: null,
-    note: 'Language requirements are set in the admission guide, which was not read during this check.'
+    note: 'Students who reach these levels submit their original transcript before the deadline for the scholarship assessment. The bare admission minimum is set in the admission guide and was not confirmed during this check.',
+    source: 'https://neweng.cau.ac.kr/cms/FR_CON/index.do?MENU_ID=410',
+    verified: '2026-09-24'
   },
   academics: {
     gpa: null,
@@ -1334,7 +1340,7 @@ window.UNIPATH.universities.push(
     { label: 'Scholarship and benefits', url: 'https://neweng.cau.ac.kr/cms/FR_CON/index.do?MENU_ID=550&CONTENTS_NO=2' },
     { label: 'Office of International Affairs', url: 'https://oia.cau.ac.kr/sub06/sub03_2.php' }
   ],
-  verification: { level: 'partial', checked: ['international admission route exists','scholarship selection basis'], unconfirmed: ['English-taught degrees','tuition','language score requirements','deadlines'] },
+  verification: { level: 'partial', checked: ['international admission route exists','scholarship selection basis','english (IELTS, TOEFL, TOEIC and TOPIK thresholds)'], unconfirmed: ['English-taught degrees','tuition','deadlines'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1373,11 +1379,14 @@ window.UNIPATH.universities.push(
     notes: ['Eligibility requires that both biological parents, or the current legal guardians, are not Korean citizens.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
+    ielts: { min: null, recommended: null, note: 'HUFS accepts the IELTS Academic band score and IELTS Online, but not IELTS Indicator. The numeric minimum for undergraduate admission was not confirmed during this check.' },
+    toefl: { min: null, recommended: null, scales: [], note: 'Accepted; the minimum was not confirmed during this check.' },
     duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    waiver: null,
-    note: 'Requirements are set in the annual admission guide, which was not read during this check.'
+    otherTests: 'Students majoring in International Studies must submit TOPIK level 3 or above to graduate, and a TOPIK level 4 or above excludes a student from the bridge programmes.',
+    waiver: 'No official English score is required from applicants whose native or official language is English, or who completed at least three years of high school or university education in an English-speaking country \u2014 unless they then lived more than two years in a non-English-speaking country.',
+    note: 'Requirements are published in the annual admission guide for each intake.',
+    source: 'https://international.hufs.ac.kr/sites/international/contents/files/2026fall/HUFS_2026_Fall_Admission_guide(ENG)_update_ver.pdf',
+    verified: '2026-09-24'
   },
   academics: {
     gpa: null,
@@ -1407,7 +1416,7 @@ window.UNIPATH.universities.push(
     { label: '2026 Fall admission guide (PDF)', url: 'https://international.hufs.ac.kr/sites/international/contents/files/2026fall/HUFS_2026_Fall_Admission_guide(ENG)_update_ver.pdf' },
     { label: 'English-taught courses', url: 'https://exchange.hufs.ac.kr/Course-Information/How-to-Register/English-taught-Courses' }
   ],
-  verification: { level: 'partial', checked: ['eligibility rule on citizenship','tuition waiver by field','English-taught departments (partial)'], unconfirmed: ['fully English-taught degrees','tuition amounts','language score requirements','deadlines'] },
+  verification: { level: 'partial', checked: ['eligibility rule on citizenship','tuition waiver by field','English-taught departments (partial)','english (accepted IELTS versions and waiver rules)'], unconfirmed: ['fully English-taught degrees','tuition amounts','language score requirements','deadlines'] },
   lastVerified: '2026-09-23'
 },
 
@@ -1517,11 +1526,14 @@ window.UNIPATH.universities.push(
     notes: ['Scholarships of 40% to 100% of tuition go to students who pass more than 15 credits and keep good academic standing.']
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'Not confirmed during this check.' },
-    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
+    ielts: { min: null, recommended: 5.5, note: 'Konkuk publishes IELTS 5.5 as one of the language levels international students must reach to graduate, alongside TOPIK level 4, TOEFL iBT 80, TOEIC 800 and TEPS 550. The level required for admission itself was not confirmed during this check.' },
+    toefl: { min: null, recommended: 80, scales: [{ period: 'pre2026', min: null, recommended: 80, note: 'TOEFL iBT 80 is listed among the graduation language options.' }], note: 'TOEFL iBT 80 appears as a graduation requirement option rather than an admission minimum.' },
+    duolingo: { min: null, recommended: null, note: 'Not listed among the accepted tests.' },
+    otherTests: 'TOEIC 800 and TEPS 550 are listed as alternatives, and TOPIK level 4 or above on the Korean side.',
     waiver: null,
-    note: 'Language requirements are in the admission guidelines, which were not read during this check.'
+    note: 'All international students must reach TOPIK level 4 or one of the listed English levels to graduate, and admitted students may be placed in Korean language courses by proficiency.',
+    source: 'https://ciss.konkuk.ac.kr/sites/ciss/files/260205_Fall_Semester_Admission_Guidelines_pc_en.pdf',
+    verified: '2026-09-24'
   },
   academics: {
     gpa: null,
@@ -1548,7 +1560,7 @@ window.UNIPATH.universities.push(
     { label: 'Fall 2026 undergraduate admission guidelines (PDF)', url: 'https://ciss.konkuk.ac.kr/sites/ciss/files/260205_Fall_Semester_Admission_Guidelines_pc_en.pdf' },
     { label: 'Undergraduate international students', url: 'https://old.konkuk.ac.kr/eng/jsp/Admissions/undergraduate_international_students.jsp' }
   ],
-  verification: { level: 'partial', checked: ['English-taught course volume','tuition waiver scale and conditions','previous-cycle guideline'], unconfirmed: ['fully English-taught degrees','tuition amounts','language requirements','2027 dates'] },
+  verification: { level: 'partial', checked: ['English-taught course volume','tuition waiver scale and conditions','previous-cycle guideline','english (graduation language levels and TOPIK requirement)'], unconfirmed: ['fully English-taught degrees','tuition amounts','2027 dates'] },
   lastVerified: '2026-09-23'
 },
 

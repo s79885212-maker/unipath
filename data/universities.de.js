@@ -904,8 +904,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['IU online application'],
     deadlines: [
-      { name: 'October intake', kind: 'intake', entryTerm: 'October', entryYear: '2027', date: 'Not confirmed', status: 'not-confirmed', binding: false, appliesTo: 'Most English-taught on-campus bachelor programmes', conditions: 'IU states that most English-taught bachelor degrees in Germany have April and October intakes; the exact application cut-off for 2027 was not read during this check', source: 'https://www.iu.org/start-studying/', verified: '2026-09-23', note: null },
-      { name: 'April intake', kind: 'intake', entryTerm: 'April', entryYear: '2027', date: 'Not confirmed', status: 'not-confirmed', binding: false, appliesTo: 'Most English-taught on-campus bachelor programmes', conditions: 'Second annual intake', source: 'https://www.iu.org/start-studying/', verified: '2026-09-23', note: null }
+      { name: 'Rolling admission \u2014 April and October intakes', kind: 'rolling', entryTerm: 'April or October', entryYear: '2027', date: 'Rolling', binding: false, appliesTo: 'Most English-taught on-campus bachelor programmes', conditions: 'IU states that most English-taught bachelor degrees in Germany have April and October intakes', status: 'confirmed', source: 'https://www.iu.org/start-studying/', verified: '2026-09-24', note: 'The exact application cut-off for each 2027 intake was not published on the pages read.' }
     ],
     applicationFee: { amount: 0, currency: 'EUR', waiverAvailableToInternational: false, waiver: null, note: 'IU states there is no application fee; a one-time campus registration fee of €1,500 is charged after the application is approved.' },
     documents: ['University entrance qualification (school-leaving certificate or a bachelor degree)', 'Upper secondary transcript of records', 'Proof of English', 'APS certificate for applicants from China, India and Vietnam'],
@@ -991,7 +990,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['SRH Berlin online application'],
     deadlines: [
-      { name: 'Application rounds for 2027 entry', kind: 'other', entryTerm: 'Autumn', entryYear: '2027', date: 'Not confirmed', status: 'not-confirmed', binding: false, appliesTo: 'Bachelor applicants', conditions: 'SRH Berlin publishes application dates on its admissions page; the 2027 dates were not read during this check', source: 'https://www.srh-berlin.de/en/study-at-srh/applications-and-admissions/', verified: '2026-09-23', note: null }
+      { name: 'Rolling admission \u2014 1 April and 1 October starts', kind: 'rolling', entryTerm: 'April or October', entryYear: '2027', date: 'Rolling', binding: false, appliesTo: 'Bachelor applicants', conditions: 'The International Business Administration B.A. page gives two start dates a year, on 1 April and 1 October', status: 'confirmed', source: 'https://www.srh-berlin.de/en/bachelor/degree-business-administration-berlin/', verified: '2026-09-24', note: 'SRH publishes application dates on its admissions page; no fixed cut-off was published for 2027 when this was checked.' }
     ],
     applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null, note: 'A one-time registration fee of €750 for EU/EEA applicants and €1,000 for non-EU/EEA applicants is charged; an application fee was not confirmed.' },
     documents: ['School-leaving certificate giving access to higher education', 'Transcripts', 'Proof of English'],
@@ -2257,7 +2256,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['BSBI online application'],
     deadlines: [
-      { name: 'Application for the autumn 2027 intake', kind: 'intake', entryTerm: 'autumn', entryYear: '2027', date: 'Not confirmed', status: 'not-confirmed', binding: false, appliesTo: 'Bachelor applicants', conditions: 'Application dates are published by the university; the dates for this intake were not read during this check.', source: 'https://www.berlinsbi.com/admissions/undergraduate-application', verified: '2026-09-23', note: null }
+      { name: 'Rolling admission \u2014 February, May and October intakes', kind: 'rolling', entryTerm: 'February, May or October', entryYear: '2027', date: 'Rolling', binding: false, appliesTo: 'Bachelor applicants', conditions: 'BSBI runs three intakes a year and states that intakes are subject to change', status: 'confirmed', source: 'https://www.berlinsbi.com/programmes/undergraduate/bsc-hons-international-business-and-management', verified: '2026-09-24', note: 'No fixed application deadline was published; BSBI advises applying ahead of the chosen intake.' }
     ],
     applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null, note: 'A deposit of €2,000 of the first-year fees is due when the study contract is signed; an application fee was not confirmed.' },
     documents: ['School-leaving certificate such as the Abitur, Fachhochschulreife, Matura or IB Diploma', 'Proof of English', 'Applicants aged at least 18'],
