@@ -151,6 +151,7 @@ p {
 .mono {
   font-family: var(--font-mono);
   font-size: 0.85em;
+  overflow-wrap: anywhere;
 }
 
 :focus-visible {
@@ -408,6 +409,7 @@ p {
   color: var(--ink-700);
   border: 1px solid var(--line);
   white-space: nowrap;
+  max-width: 100%;
 }
 .badge-ok {
   background: var(--ok-100);
@@ -2346,4 +2348,51 @@ button.badge {
     color: var(--muted);
     margin-bottom: 2px;
   }
+}
+
+/* English requirements that differ by programme, language profile or band */
+.req-varies {
+  display: block;
+  font-size: 1.12rem;
+  line-height: 1.3;
+  margin-bottom: 6px;
+}
+.req-profiles {
+  list-style: none;
+  margin: 8px 0 6px;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+.req-profiles li {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 9px 12px;
+  border: 1px solid var(--line);
+  border-radius: var(--r-sm);
+  background: var(--surface-2);
+  min-width: 0;
+}
+.req-name {
+  font-weight: 600;
+  color: var(--ink-900);
+}
+.req-kv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 6px;
+  overflow-wrap: anywhere;
+}
+.req-kv > .muted {
+  min-width: 6.5em;
+}
+.req-meta {
+  margin-top: 2px;
+  color: var(--ink-500);
+}
+
+/* A long badge (often a translated one) wraps instead of widening the page. */
+@media (max-width: 620px) {
+  .badge { white-space: normal; }
 }

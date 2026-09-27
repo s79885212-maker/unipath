@@ -43,10 +43,34 @@
     /* English */
     var t = u.english && u.english.ielts;
     if (input.ielts !== null) {
-      if (t && has(t.min)) {
+      var prof = (U.testVaries(t) && t.profiles) || [];
+      var levels = prof.filter(function (p) { return p.kind !== 'competitive' && typeof p.overall === 'number'; })
+        .map(function (p) { return p.overall; });
+      var comp = prof.filter(function (p) { return p.kind === 'competitive' && typeof p.overall === 'number'; })
+        .map(function (p) { return p.overall; });
+      if (U.testVaries(t) && has(t.min) && input.ielts < t.min) {
+        checks.push({ level: 'hard', text: 'IELTS ' + Number(input.ielts).toFixed(1) + ' is below the university-wide minimum of ' + Number(t.min).toFixed(1) + '.' });
+      } else if (U.testVaries(t) && levels.length) {
+        var lo = Math.min.apply(null, levels), hi = Math.max.apply(null, levels);
+        var band = function (x) { return Number(x).toFixed(1); };
+        var range = lo === hi ? band(lo) : band(lo) + '–' + band(hi);
+        var you = 'IELTS ' + band(input.ielts);
+        /* Only a complete list of levels can rule every programme out or in. */
+        if (input.ielts < lo) checks.push({ level: t.profilesComplete ? 'hard' : 'soft',
+          text: you + ' is below every programme level listed (' + range + '). Check the level for your course.' });
+        else if (input.ielts < hi) checks.push({ level: 'soft',
+          text: you + ' meets some programme levels but not all (' + range + '). Check the level for your course.' });
+        else if (t.profilesComplete) checks.push({ level: 'ok', text: you + ' meets every programme level (' + range + ').' });
+        else checks.push({ level: 'ok', text: you + ' meets the programme levels listed here (' + range + '). Other programmes may ask for more.' });
+      } else if (U.testVaries(t) && comp.length) {
+        var c = Math.min.apply(null, comp);
+        if (input.ielts < c) checks.push({ level: 'soft', text: 'IELTS ' + Number(input.ielts).toFixed(1) + ' is below the competitive level of ' + c.toFixed(1) + ' published for some programmes.' });
+        else checks.push({ level: 'ok', text: 'IELTS ' + Number(input.ielts).toFixed(1) + ' reaches the competitive level of ' + c.toFixed(1) + ' published for some programmes.' });
+      } else if (U.testVaries(t)) {
+        checks.push({ level: 'info', text: 'The IELTS requirement varies by programme. Check the level for your course.' });
+      } else if (t && has(t.min)) {
         if (input.ielts < t.min) checks.push({ level: 'hard', text: 'IELTS ' + input.ielts + ' is below the published minimum of ' + t.min + '.' });
-        else checks.push({ level: 'ok', text: 'IELTS ' + input.ielts + ' meets the published minimum of ' + t.min + '.' +
-          (t.lowestLevel ? ' Some courses ask for more.' : '') });
+        else checks.push({ level: 'ok', text: 'IELTS ' + input.ielts + ' meets the published minimum of ' + t.min + '.' });
       } else if (t && typeof t.recommended === 'number') {
         if (input.ielts < t.recommended) checks.push({ level: 'soft', text: 'IELTS ' + input.ielts + ' is below the competitive score of ' + t.recommended + '.' });
         else checks.push({ level: 'ok', text: 'IELTS ' + input.ielts + ' is at or above the competitive score of ' + t.recommended + '.' });

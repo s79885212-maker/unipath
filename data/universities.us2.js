@@ -2834,9 +2834,21 @@ window.UNIPATH.universities.push(
     ]
   },
   english: {
-    ielts: { min: 7.5, recommended: null, note: 'Competitive applicants typically score at or above IELTS 7.5.' },
-    toefl: { min: 100, recommended: 5.5, scales: [{ period: 'pre2026', min: 100, recommended: null }, { period: 'post2026', min: 5, recommended: null }], note: 'TOEFL before January 2026: 100; January 2026 or later: 5.0, with 5.5 recommended. The TOEFL Home Edition is accepted; MyBest scores are not.' },
-    duolingo: { min: 130, recommended: null, note: 'Competitive applicants typically score at or above 130.' },
+    ielts: {
+      min: null,
+      recommended: 7.5,
+      note: 'Competitive applicants typically score at or above IELTS 7.5. Hamilton says this is not a specific score requirement.'
+    },
+    toefl: {
+      min: null,
+      recommended: null,
+      scales: [
+        { period: 'pre2026', min: null, recommended: 100 },
+        { period: 'post2026', min: null, recommended: 5.0 }
+      ],
+      note: 'Levels competitive applicants typically reach: 100 for tests before January 2026, and 5.0 for tests from January 2026, where Hamilton recommends 5.5. The TOEFL Home Edition is accepted; MyBest scores are not.'
+    },
+    duolingo: { min: null, recommended: 130, note: 'Competitive applicants typically score at or above 130.' },
     waiver: 'Proficiency can instead be shown through study at a secondary school where English is the primary medium of instruction; a waiver can be requested on the applicant portal checklist.',
     note: 'Hamilton says it has no specific score requirement but lists these levels, which competitive applicants typically reach. Official scores are required — self-reported results do not count — and Hamilton does not grant fee waivers for proficiency exams.'
   },

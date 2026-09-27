@@ -124,6 +124,25 @@ def english_lines(t, name):
     """Plain-text lines for one English test — mirrors the site's display."""
     if not t:
         return []
+    if t.get("varies"):
+        out = ["Depends on applicant group" if t.get("variesBy") == "applicant" else "Varies by programme"]
+        if has(t.get("min")):
+            out.append(f"University-wide minimum: {float(t['min']):.1f}")
+        if not t.get("profiles"):
+            out.append("The level is published on each programme page.")
+        for p in t.get("profiles") or []:
+            bits = [p.get("name", "")]
+            if has(p.get("overall")):
+                ov = p["overall"]
+                ov = f"{ov:.1f}" if isinstance(ov, (int, float)) and ov < 10 else str(ov)
+                bits.append(("competitive level " if p.get("kind") == "competitive" else "overall ") + ov)
+            bits.append(p["sections"] if has(p.get("sections")) else "sections not stated by the university")
+            if has(p.get("scope")):
+                bits.append(f"applies to: {p['scope']}")
+            if has(p.get("verified")):
+                bits.append(f"checked {p['verified']}")
+            out.append(" — ".join(b for b in bits if b))
+        return out
     if t.get("scales"):
         out = []
         for sc in t["scales"]:

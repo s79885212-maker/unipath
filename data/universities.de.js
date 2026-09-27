@@ -1395,8 +1395,52 @@ window.UNIPATH.universities.push(
     notes: ['An early-enrolment bonus reduces tuition by €500 for enrolment by 28 February (Fall term) or 31 July (Spring term).']
   },
   english: {
-    ielts: { min: 6, recommended: 7, note: 'EBS asks for IELTS 6.0 for standard admission to the Bachelor in Business Studies, and 7.0 for the dual degree option.' },
-    toefl: { min: 80, recommended: 90, scales: [{ period: 'pre2026', min: 80, note: 'TOEFL iBT 80 for standard admission and 90 for the dual degree option.' }], note: 'TOEFL iBT 80 for standard admission, 90 for the dual degree option.' },
+    ielts: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: true,
+      profiles: [
+        {
+          name: 'Standard admission',
+          overall: 6.0,
+          scope: 'Bachelor in Business Studies',
+          source: 'https://www.ebs.edu/fileadmin/EBS/Ueber_uns/Medien/Fact_Sheet_EBS_Business_School_2026-2027.pdf',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Dual degree option',
+          overall: 7.0,
+          scope: 'Bachelor in Business Studies with the dual degree option',
+          source: 'https://www.ebs.edu/fileadmin/EBS/Ueber_uns/Medien/Fact_Sheet_EBS_Business_School_2026-2027.pdf',
+          verified: '2026-09-24'
+        }
+      ],
+      note: 'The dual degree option needs a higher level than standard admission. Figures come from the EBS Business School fact sheet for the 2026/27 academic year.'
+    },
+    toefl: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: true,
+      profiles: [
+        {
+          name: 'Standard admission',
+          overall: '80',
+          scope: 'Bachelor in Business Studies',
+          source: 'https://www.ebs.edu/fileadmin/EBS/Ueber_uns/Medien/Fact_Sheet_EBS_Business_School_2026-2027.pdf',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Dual degree option',
+          overall: '90',
+          scope: 'Bachelor in Business Studies with the dual degree option',
+          source: 'https://www.ebs.edu/fileadmin/EBS/Ueber_uns/Medien/Fact_Sheet_EBS_Business_School_2026-2027.pdf',
+          verified: '2026-09-24'
+        }
+      ],
+      note: 'TOEFL iBT figures from the same fact sheet.'
+    },
     duolingo: { min: null, recommended: null, note: 'Duolingo is listed among the accepted certificates; the score was not read during this check.' },
     otherTests: 'Cambridge and Pearson certificates are also accepted.',
     waiver: 'Applicants with a German Abitur can prove their English through good grades in the subject English.',
@@ -1554,8 +1598,38 @@ window.UNIPATH.universities.push(
     notes: ['Non-EU/EEA students pay a €500 DIT service fee per semester in addition to the semester contribution; EU/EEA students pay no tuition.']
   },
   english: {
-    ielts: { min: 6.5, recommended: null, note: 'DIT publishes the requirement per programme; the International Management bachelor asks for IELTS 6.5. Both IELTS General and IELTS Academic are accepted, on paper or as a verified computer-based test.' },
-    toefl: { min: 100, recommended: null, scales: [{ period: 'pre2026', min: 100, note: 'TOEFL iBT 100 for the International Management bachelor. Only the internet-based test counts: CBT, ITP, PBT and the iBT Home Edition are not accepted.' }], note: 'Only the internet-based TOEFL is accepted; the Home Edition is not.' },
+    ielts: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'Bachelor International Management',
+          overall: 6.5,
+          scope: 'Applicants to International Management',
+          source: 'https://www.th-deg.de/Studieninteressierte/Bewerbung/language_requirements_German-English_DEG.pdf',
+          verified: '2026-09-24'
+        }
+      ],
+      note: 'DIT publishes the requirement per programme. Both IELTS General and IELTS Academic are accepted, on paper or as a verified computer-based test.'
+    },
+    toefl: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'Bachelor International Management',
+          overall: '100 (internet-based only)',
+          scope: 'Applicants to International Management',
+          source: 'https://www.th-deg.de/Studieninteressierte/Bewerbung/language_requirements_German-English_DEG.pdf',
+          verified: '2026-09-24'
+        }
+      ],
+      note: 'Only the internet-based TOEFL is accepted; CBT, ITP, PBT and the iBT Home Edition are not.'
+    },
     duolingo: { min: null, recommended: null, note: 'Not listed among the accepted certificates.' },
     waiver: 'Proof of the relevant language skills can also come from a school or university diploma.',
     note: 'On English-taught bachelor programmes DIT also asks for German at B1 or above by the end of the studies. Requirements are published per programme, so check the language requirements document for the specific degree.',
@@ -2346,8 +2420,54 @@ window.UNIPATH.universities.push(
     notes: ['Because about a fifth of teaching is in German, applicants need German as well as English for this programme.']
   },
   english: {
-    ielts: { min: 6, recommended: 6.5, note: 'Stralsund asks for IELTS 6.5 from non-EU applicants to International Management Studies in the Baltic Sea Region, and 6.0 from EU applicants. The underlying requirement is CEFR B2 or higher.' },
-    toefl: { min: 79, recommended: 83, scales: [{ period: 'pre2026', min: 79, note: 'TOEFL iBT 83 for non-EU applicants and 79 for EU applicants; CBT 220/213 and PBT 557/550 are also listed.' }], note: 'TOEFL iBT 83 for non-EU applicants and 79 for EU applicants.' },
+    ielts: {
+      min: null,
+      recommended: null,
+      varies: true,
+      variesBy: 'applicant',
+      profilesComplete: true,
+      profiles: [
+        {
+          name: 'Non-EU applicants',
+          overall: 6.5,
+          scope: 'International Management Studies in the Baltic Sea Region',
+          source: 'https://www.hochschule-stralsund.de/en/studying-and-teaching/international/incoming-students-staff/programs-at-host/admission-requirements/',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'EU applicants',
+          overall: 6.0,
+          scope: 'International Management Studies in the Baltic Sea Region',
+          source: 'https://www.hochschule-stralsund.de/en/studying-and-teaching/international/incoming-students-staff/programs-at-host/admission-requirements/',
+          verified: '2026-09-24'
+        }
+      ],
+      note: 'Stralsund sets a different level for EU and non-EU applicants to the same programme. The underlying requirement is CEFR B2 or higher.'
+    },
+    toefl: {
+      min: null,
+      recommended: null,
+      varies: true,
+      variesBy: 'applicant',
+      profilesComplete: true,
+      profiles: [
+        {
+          name: 'Non-EU applicants',
+          overall: '83 (iBT) · CBT 220 · PBT 557',
+          scope: 'International Management Studies in the Baltic Sea Region',
+          source: 'https://www.hochschule-stralsund.de/en/studying-and-teaching/international/incoming-students-staff/programs-at-host/admission-requirements/',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'EU applicants',
+          overall: '79 (iBT) · CBT 213 · PBT 550',
+          scope: 'International Management Studies in the Baltic Sea Region',
+          source: 'https://www.hochschule-stralsund.de/en/studying-and-teaching/international/incoming-students-staff/programs-at-host/admission-requirements/',
+          verified: '2026-09-24'
+        }
+      ],
+      note: 'The level depends on whether the applicant is from an EU country.'
+    },
     duolingo: { min: null, recommended: null, note: 'Not listed among the accepted certificates.' },
     waiver: 'Applicants from countries whose official language is English are exempt if they also obtained their university entrance qualification there in English. A completed course of study taught in English or a certificate from an international high school is also accepted.',
     note: 'The programme mixes English and German teaching, so German is needed as well.',

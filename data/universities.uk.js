@@ -285,9 +285,81 @@ window.UNIPATH.universities.push(
     notes: []
   },
   english: {
-    ielts: { min: 6.5, recommended: null, lowestLevel: true, note: 'Standard level: IELTS Academic 6.5 overall with a minimum of 6.0 in all elements. Higher level: 7.0 overall with a minimum of 6.5 in all elements. Which level applies is set by the course.' },
-    toefl: { min: 92, recommended: null, lowestLevel: true, note: 'Standard level: TOEFL iBT 92 overall with a minimum of 20 in all elements. Higher level: 100 overall with a minimum of 22.' },
-    duolingo: { min: null, recommended: null, note: 'Not listed among the accepted tests on the undergraduate page.' },
+    ielts: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: true,
+      profiles: [
+        {
+          name: 'Standard level',
+          overall: 6.5,
+          sections: 'At least 6.0 in every element',
+          scope: 'Courses set at the standard level',
+          source: 'https://www.imperial.ac.uk/study/apply/english-language/',
+          verified: '2026-09-27'
+        },
+        {
+          name: 'Higher level',
+          overall: 7.0,
+          sections: 'At least 6.5 in every element',
+          scope: 'Courses set at the higher level',
+          source: 'https://www.imperial.ac.uk/study/apply/english-language/',
+          verified: '2026-09-27'
+        }
+      ],
+      note: 'Imperial sets a standard or a higher level for each course, and the course page says which applies. IELTS Academic at a test centre, for UKVI or online is accepted; scores must come from a single sitting (the One Skill Retake is not accepted) and be taken within two years of the course start date.'
+    },
+    toefl: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: true,
+      profiles: [
+        {
+          name: 'Standard level',
+          overall: '92',
+          sections: 'At least 20 in every element',
+          scope: 'Courses set at the standard level',
+          source: 'https://www.imperial.ac.uk/study/apply/english-language/',
+          verified: '2026-09-18'
+        },
+        {
+          name: 'Higher level',
+          overall: '100',
+          sections: 'At least 22 in every element',
+          scope: 'Courses set at the higher level',
+          source: 'https://www.imperial.ac.uk/study/apply/english-language/',
+          verified: '2026-09-18'
+        }
+      ],
+      note: 'Figures are for tests taken before 21 January 2026. Imperial accepts TOEFL iBT taken from that date on the new 1–6 scale, with separate requirements published on the same page.'
+    },
+    duolingo: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: true,
+      profiles: [
+        {
+          name: 'Standard level',
+          overall: 115,
+          sections: 'No integrated subscore below 105',
+          scope: 'Courses set at the standard level',
+          source: 'https://www.imperial.ac.uk/study/apply/english-language/',
+          verified: '2026-09-27'
+        },
+        {
+          name: 'Higher level',
+          overall: 125,
+          sections: 'No integrated subscore below 115',
+          scope: 'Courses set at the higher level',
+          source: 'https://www.imperial.ac.uk/study/apply/english-language/',
+          verified: '2026-09-27'
+        }
+      ],
+      note: 'Scores are valid if taken within two years of the course start date.'
+    },
     waiver: 'Qualifications taught and examined in English can satisfy the requirement — the accepted list is on Imperial\'s English language page.',
     note: 'Imperial also lists Pearson PTE Academic at 62 (minimum 56 per element) for the standard level and 69 (minimum 62) for the higher level, plus C1 Advanced at 176 and 185 respectively. Test scores must still be valid when your course starts.'
   },
@@ -391,8 +463,79 @@ window.UNIPATH.universities.push(
     notes: []
   },
   english: {
-    ielts: { min: 6.5, recommended: null, lowestLevel: true, note: 'UCL sets five levels and each programme states which applies. Level 1: 6.5 overall with 6.0 in each component. Level 2: 7.0 with 6.5. Level 3: 7.0 with 7.0. Level 4: 7.5 with 7.0. Level 5: 8.0 with 8.0.' },
-    toefl: { min: 92, recommended: null, lowestLevel: true, scales: [{ period: 'pre2026', min: 92, recommended: null }, { period: 'post2026', min: 4.5, recommended: null }], note: 'For tests taken before 21 January 2026: Level 1 is 92 overall (24 reading and writing, 20 speaking and listening), rising to 110 at Level 5. For tests from 21 January 2026 UCL uses the new scale: Level 1 is 4.5 overall with 4.0 in each skill, up to 5.5 at Level 5.' },
+    ielts: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: true,
+      profiles: [
+        {
+          name: 'Level 1',
+          overall: 6.5,
+          sections: 'At least 6.0 in each component',
+          scope: 'Programmes set at Level 1',
+          source: 'https://www.ucl.ac.uk/study/prospective-students/undergraduate/how-apply/english-language-requirements',
+          verified: '2026-09-18'
+        },
+        {
+          name: 'Level 2',
+          overall: 7.0,
+          sections: 'At least 6.5 in each component',
+          scope: 'Programmes set at Level 2',
+          source: 'https://www.ucl.ac.uk/study/prospective-students/undergraduate/how-apply/english-language-requirements',
+          verified: '2026-09-18'
+        },
+        {
+          name: 'Level 3',
+          overall: 7.0,
+          sections: 'At least 7.0 in each component',
+          scope: 'Programmes set at Level 3',
+          source: 'https://www.ucl.ac.uk/study/prospective-students/undergraduate/how-apply/english-language-requirements',
+          verified: '2026-09-18'
+        },
+        {
+          name: 'Level 4',
+          overall: 7.5,
+          sections: 'At least 7.0 in each component',
+          scope: 'Programmes set at Level 4',
+          source: 'https://www.ucl.ac.uk/study/prospective-students/undergraduate/how-apply/english-language-requirements',
+          verified: '2026-09-18'
+        },
+        {
+          name: 'Level 5',
+          overall: 8.0,
+          sections: 'At least 8.0 in each component',
+          scope: 'Programmes set at Level 5',
+          source: 'https://www.ucl.ac.uk/study/prospective-students/undergraduate/how-apply/english-language-requirements',
+          verified: '2026-09-18'
+        }
+      ],
+      note: 'Each UCL programme states which of the five levels applies. All components must be met in a single sitting; the IELTS One Skill Retake is not accepted.'
+    },
+    toefl: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'Level 1',
+          overall: '92 (before 21 Jan 2026) · 4.5 (from 21 Jan 2026)',
+          sections: 'Reading and writing 24, speaking and listening 20 on the old scale; 4.0 in each skill on the new scale',
+          scope: 'Programmes set at Level 1',
+          source: 'https://www.ucl.ac.uk/study/prospective-students/undergraduate/how-apply/english-language-requirements',
+          verified: '2026-09-18'
+        },
+        {
+          name: 'Level 5',
+          overall: '110 (before 21 Jan 2026) · 5.5 (from 21 Jan 2026)',
+          scope: 'Programmes set at Level 5',
+          source: 'https://www.ucl.ac.uk/study/prospective-students/undergraduate/how-apply/english-language-requirements',
+          verified: '2026-09-18'
+        }
+      ],
+      note: 'UCL publishes a TOEFL level for each of its five levels; Levels 2 to 4 sit between the two shown here. TOEFL MyBest scores are not accepted.'
+    },
     duolingo: { min: null, recommended: null, note: 'Not listed among the accepted tests.' },
     waiver: 'Applicants from UK Home Office majority English-speaking countries, and holders of accepted school-leaving qualifications containing English, do not need a test.',
     note: 'UCL also accepts C1 Advanced, C2 Proficiency, PTE Academic, Trinity ISE, LanguageCert Academic and the Oxford Test of English Advanced. All components must be met in a single sitting — TOEFL MyBest and IELTS One Skill Retake are not accepted.'
@@ -497,8 +640,72 @@ window.UNIPATH.universities.push(
     ]
   },
   english: {
-    ielts: { min: 6.5, recommended: null, lowestLevel: true, note: 'King\'s sets bands per course. Band D: IELTS 6.5 overall with 6.0 in each skill (science, mathematics and engineering courses). Band B: 7.0 with 6.5 (arts, humanities, business, law, medicine, nursing, psychology). Band A: 7.5 with 7.0.' },
-    toefl: { min: 92, recommended: null, lowestLevel: true, scales: [{ period: 'pre2026', min: 92, recommended: null }, { period: 'post2026', min: 4.5, recommended: null }], note: 'For tests before 21 January 2026 — Band D: 92 overall (23 writing, 20 other skills). Band B: 100 (25 writing, 23 other skills). Band A: 109 (27 writing, 25 other skills). For tests from 21 January 2026 King\'s uses the new scale: Band D 4.5, Band B 5.0, Band A 5.5.' },
+    ielts: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'Band D',
+          overall: 6.5,
+          sections: 'At least 6.0 in each skill',
+          scope: 'Science, mathematics and engineering courses',
+          source: 'https://www.kcl.ac.uk/study/undergraduate/how-to-apply/english-language-requirements',
+          verified: '2026-09-18'
+        },
+        {
+          name: 'Band B',
+          overall: 7.0,
+          sections: 'At least 6.5 in each skill',
+          scope: 'Arts, humanities, business, law, medicine, nursing and psychology courses',
+          source: 'https://www.kcl.ac.uk/study/undergraduate/how-to-apply/english-language-requirements',
+          verified: '2026-09-18'
+        },
+        {
+          name: 'Band A',
+          overall: 7.5,
+          sections: 'At least 7.0 in each skill',
+          scope: 'Courses assigned Band A',
+          source: 'https://www.kcl.ac.uk/study/undergraduate/how-to-apply/english-language-requirements',
+          verified: '2026-09-18'
+        }
+      ],
+      note: 'King’s assigns a band to each course. The whole test must be taken in one sitting; King’s does not combine scores and does not accept the IELTS One Skill Retake.'
+    },
+    toefl: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'Band D',
+          overall: '92 (before 21 Jan 2026) · 4.5 (from 21 Jan 2026)',
+          sections: 'Writing 23, other skills 20 on the old scale',
+          scope: 'Science, mathematics and engineering courses',
+          source: 'https://www.kcl.ac.uk/study/undergraduate/how-to-apply/english-language-requirements',
+          verified: '2026-09-18'
+        },
+        {
+          name: 'Band B',
+          overall: '100 (before 21 Jan 2026) · 5.0 (from 21 Jan 2026)',
+          sections: 'Writing 25, other skills 23 on the old scale',
+          scope: 'Arts, humanities, business, law, medicine, nursing and psychology courses',
+          source: 'https://www.kcl.ac.uk/study/undergraduate/how-to-apply/english-language-requirements',
+          verified: '2026-09-18'
+        },
+        {
+          name: 'Band A',
+          overall: '109 (before 21 Jan 2026) · 5.5 (from 21 Jan 2026)',
+          sections: 'Writing 27, other skills 25 on the old scale',
+          scope: 'Courses assigned Band A',
+          source: 'https://www.kcl.ac.uk/study/undergraduate/how-to-apply/english-language-requirements',
+          verified: '2026-09-18'
+        }
+      ],
+      note: 'TOEFL MyBest scores are not accepted.'
+    },
     duolingo: { min: null, recommended: null, note: 'Not listed among the accepted tests on the undergraduate bands page.' },
     waiver: 'Applicants from majority English-speaking countries and holders of accepted qualifications taught in English are exempt.',
     note: 'The whole test must be taken in one sitting — King\'s does not combine scores across two tests, and does not accept TOEFL MyBest or IELTS One Skill Retake. For a September 2027 start the test must be dated within two years of 1 September 2027.'
@@ -600,8 +807,20 @@ window.UNIPATH.universities.push(
     notes: []
   },
   english: {
-    ielts: { min: null, recommended: null, note: 'Edinburgh sets the requirement per degree rather than university-wide — the exact score is on each degree page in the Degree Finder. IELTS Academic results must be no more than two years old on the first of the month the degree begins.' },
-    toefl: { min: null, recommended: null, note: 'Accepted, with the score set by the degree. The same two-year validity rule applies.' },
+    ielts: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profiles: [],
+      note: 'Edinburgh sets the requirement per degree rather than university-wide — the exact score is on each degree page in the Degree Finder. IELTS Academic results must be no more than two years old on the first of the month the degree begins.'
+    },
+    toefl: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profiles: [],
+      note: 'Accepted, with the score set by the degree. The same two-year validity rule applies.'
+    },
     duolingo: { min: null, recommended: null, note: 'Not listed among the tests named on the undergraduate English language page.' },
     waiver: 'School qualifications in English — National 5 at grade C, GCSE/IGCSE at C or 4, or IB Standard Level English at 5 — can satisfy the requirement, with a longer validity window than the tests.',
     note: 'Edinburgh also accepts the Oxford ELLT and Trinity ISE. Because requirements differ by degree, check the Degree Finder page for your exact course before booking a test.'
@@ -708,8 +927,38 @@ window.UNIPATH.universities.push(
     notes: []
   },
   english: {
-    ielts: { min: 6.0, recommended: null, lowestLevel: true, note: 'The typical minimum is IELTS 6.0 overall, but each course sets its own requirement — many ask for 6.5 or 7.0. IELTS Academic and IELTS UKVI taken at official test centres are accepted.' },
-    toefl: { min: 80, recommended: null, note: 'TOEFL iBT 80 is listed as the equivalent of IELTS 6.0. The Special Home Edition is not accepted.' },
+    ielts: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'Typical minimum',
+          overall: 6.0,
+          scope: 'The level most commonly set; many courses ask for 6.5 or 7.0',
+          source: 'https://www.manchester.ac.uk/study/international/admissions/language-requirements/',
+          verified: '2026-09-18'
+        }
+      ],
+      note: 'Each Manchester course sets its own requirement, published on the course page. IELTS Academic and IELTS UKVI taken at official test centres are accepted.'
+    },
+    toefl: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'Equivalent of the IELTS 6.0 level',
+          overall: '80',
+          scope: 'Courses at the typical minimum level',
+          source: 'https://www.manchester.ac.uk/study/international/admissions/language-requirements/',
+          verified: '2026-09-18'
+        }
+      ],
+      note: 'The TOEFL Special Home Edition is not accepted.'
+    },
     duolingo: { min: null, recommended: null, note: 'Not listed among the accepted tests on the language requirements page.' },
     waiver: 'Applicants from majority English-speaking countries, and holders of a bachelor\'s degree or higher from those countries, may be exempt.',
     note: 'Manchester also accepts Pearson PTE Academic (64–69 for the IELTS 6.0 band), C1 Advanced (169–175), Trinity ISE III and LanguageCert Academic 67. Test results are valid for two years and must still be valid when the course starts.'
@@ -813,8 +1062,72 @@ window.UNIPATH.universities.push(
     notes: []
   },
   english: {
-    ielts: { min: 6.0, recommended: null, lowestLevel: true, note: 'Warwick sets three bands and the course page says which applies. Band A: IELTS 6.0 with a minimum of 5.5 in each component. Band B: 6.5 with 6.0. Band C: 7.0 with 6.5.' },
-    toefl: { min: 87, recommended: null, lowestLevel: true, scales: [{ period: 'pre2026', min: 87, recommended: null }, { period: 'post2026', min: 4.5, recommended: null }], note: 'For tests taken before 21 January 2026 — Band A: 87, Band B: 92, Band C: 100, each with minimum component scores of 21 listening and writing, 22 reading and 23 speaking. For tests from 21 January 2026 Warwick uses the new scale: Band A and B 4.5 overall, Band C 5.0.' },
+    ielts: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: true,
+      profiles: [
+        {
+          name: 'Band A',
+          overall: 6.0,
+          sections: 'At least 5.5 in each component',
+          scope: 'Courses assigned Band A',
+          source: 'https://warwick.ac.uk/study/undergraduate/applying/english-language-requirements/',
+          verified: '2026-09-18'
+        },
+        {
+          name: 'Band B',
+          overall: 6.5,
+          sections: 'At least 6.0 in each component',
+          scope: 'Courses assigned Band B',
+          source: 'https://warwick.ac.uk/study/undergraduate/applying/english-language-requirements/',
+          verified: '2026-09-18'
+        },
+        {
+          name: 'Band C',
+          overall: 7.0,
+          sections: 'At least 6.5 in each component',
+          scope: 'Courses assigned Band C',
+          source: 'https://warwick.ac.uk/study/undergraduate/applying/english-language-requirements/',
+          verified: '2026-09-18'
+        }
+      ],
+      note: 'Warwick sets three bands and the course page says which applies. The test must be taken in one sitting within two years and one month before the course starts; the IELTS One Skill Retake is not accepted.'
+    },
+    toefl: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: true,
+      profiles: [
+        {
+          name: 'Band A',
+          overall: '87 (before 21 Jan 2026) · 4.5 (from 21 Jan 2026)',
+          sections: 'Listening and writing 21, reading 22, speaking 23 on the old scale',
+          scope: 'Courses assigned Band A',
+          source: 'https://warwick.ac.uk/study/undergraduate/applying/english-language-requirements/',
+          verified: '2026-09-18'
+        },
+        {
+          name: 'Band B',
+          overall: '92 (before 21 Jan 2026) · 4.5 (from 21 Jan 2026)',
+          sections: 'Listening and writing 21, reading 22, speaking 23 on the old scale',
+          scope: 'Courses assigned Band B',
+          source: 'https://warwick.ac.uk/study/undergraduate/applying/english-language-requirements/',
+          verified: '2026-09-18'
+        },
+        {
+          name: 'Band C',
+          overall: '100 (before 21 Jan 2026) · 5.0 (from 21 Jan 2026)',
+          sections: 'Listening and writing 21, reading 22, speaking 23 on the old scale',
+          scope: 'Courses assigned Band C',
+          source: 'https://warwick.ac.uk/study/undergraduate/applying/english-language-requirements/',
+          verified: '2026-09-18'
+        }
+      ],
+      note: 'The course page says which band applies.'
+    },
     duolingo: { min: null, recommended: null, note: 'Not listed among the accepted tests on the undergraduate page.' },
     waiver: 'Applicants with accepted qualifications taught in English may be exempt — the list is on Warwick\'s English language requirements page.',
     note: 'The test must be taken in one sitting within two years and one month before the course starts; IELTS One Skill Retake is not accepted.'
@@ -994,8 +1307,72 @@ window.UNIPATH.universities.push(
     notes: ['The English requirement is given as a profile letter on each course page, so check the course before booking a test.']
   },
   english: {
-    ielts: { min: 6, recommended: 7, note: 'Each course is assigned an English profile. Confirmed levels: Profile F needs IELTS Academic 6.0 overall with either listening or speaking at 6.5 and nothing below 6.0; Profile C needs 6.5 overall with 6.5 in all skills; Profile B needs 7.0 overall with 7.0 in writing and 6.5 in the other skills; Profile A needs 7.5 overall with 7.0 in all skills. All scores must come from a single test report.' },
-    toefl: { min: 88, recommended: 95, scales: [{ period: 'pre2026', min: 88, recommended: 95 }, { period: 'post2026', min: 4.5, recommended: 5 }], note: 'Profile C: TOEFL iBT 88 overall (Reading 22, Listening 21, Speaking 23, Writing 22) up to 20 January 2026, or 4.5 overall with 4.5 in all skills from 21 January 2026. Profile B needs 95, or 5 overall on the new scale.' },
+    ielts: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'Profile A',
+          overall: 7.5,
+          sections: 'At least 7.0 in all skills',
+          scope: 'Courses assigned Profile A',
+          source: 'https://www.bristol.ac.uk/study/language-requirements/profile-a/',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Profile B',
+          overall: 7.0,
+          sections: '7.0 in writing, 6.5 in the other skills',
+          scope: 'Courses assigned Profile B',
+          source: 'https://www.bristol.ac.uk/study/language-requirements/profile-b/',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Profile C',
+          overall: 6.5,
+          sections: '6.5 in all skills',
+          scope: 'Courses assigned Profile C',
+          source: 'https://www.bristol.ac.uk/study/language-requirements/profile-c/',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Profile F',
+          overall: 6.0,
+          sections: 'Listening or speaking at 6.5, nothing below 6.0',
+          scope: 'Courses assigned Profile F',
+          source: 'https://www.bristol.ac.uk/study/language-requirements/profile-f/',
+          verified: '2026-09-24'
+        }
+      ],
+      note: 'Each Bristol course specifies one English profile; the other profiles (D, E and beyond) were not read during this check. All scores must come from a single test report, and tests should be taken within two years of the course start date. Bristol also states an absolute floor of CEFR B2 for any course; the level a course actually requires is set by its profile.'
+    },
+    toefl: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'Profile B',
+          overall: '95 (up to 20 Jan 2026) · 5 (from 21 Jan 2026)',
+          sections: 'Reading 22, listening 21, speaking 23, writing 24 on the old scale; 5 in writing and 4.5 in the other skills on the new scale',
+          scope: 'Courses assigned Profile B',
+          source: 'https://www.bristol.ac.uk/study/language-requirements/profile-b/',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Profile C',
+          overall: '88 (up to 20 Jan 2026) · 4.5 (from 21 Jan 2026)',
+          sections: 'Reading 22, listening 21, speaking 23, writing 22 on the old scale; 4.5 in all skills on the new scale',
+          scope: 'Courses assigned Profile C',
+          source: 'https://www.bristol.ac.uk/study/language-requirements/profile-c/',
+          verified: '2026-09-24'
+        }
+      ],
+      note: 'Other profiles set their own TOEFL levels.'
+    },
     duolingo: { min: null, recommended: null, note: 'Not confirmed for undergraduate entry during this check.' },
     waiver: 'Bristol lists qualifications taught in English that meet the requirement without a test; the list is on the language requirements pages.',
     note: 'Test results must normally be obtained within two years of the course start date. Pearson PTE and Cambridge C1 Advanced / C2 Proficiency are accepted at profile-specific levels. Nationals of UKVI majority English-speaking countries can be exempt.',
@@ -1083,8 +1460,55 @@ window.UNIPATH.universities.push(
     notes: ['Glasgow states that the English requirement is set in each programme\'s entry requirements, so the figure below is one confirmed example rather than a university-wide rule.']
   },
   english: {
-    ielts: { min: 6.5, recommended: null, note: 'Glasgow publishes the requirement with each programme. Two confirmed 2027-entry examples \u2014 MA Economics and BSc Computing Science \u2014 both require IELTS Academic (or Academic Online, not General Training) 6.5 overall with no sub-test below 6.0. IELTS One Skill Retake is accepted; IELTS Indicator is not.' },
-    toefl: { min: 90, recommended: null, scales: [{ period: 'pre2026', min: 90, recommended: null }, { period: 'post2026', min: 92, recommended: null }], note: 'For Economics, TOEFL taken up to 20 January 2026 needs 90 overall with Reading 20, Listening 19, Speaking 19 and Writing 21. The Computing Science page gives 90 before 21 January 2026 and 92 from that date.' },
+    ielts: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'MA Economics (2027 entry)',
+          overall: 6.5,
+          sections: 'No sub-test below 6.0',
+          scope: 'Applicants to MA Economics',
+          source: 'https://www.gla.ac.uk/undergraduate/degrees/economics/',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'BSc Computing Science (2027 entry)',
+          overall: 6.5,
+          sections: 'No sub-test below 6.0',
+          scope: 'Applicants to BSc Computing Science',
+          source: 'https://www.gla.ac.uk/undergraduate/degrees/computingscience/',
+          verified: '2026-09-23'
+        }
+      ],
+      note: 'Glasgow publishes the requirement with each programme; these are two confirmed examples, not a university-wide rule. IELTS Academic or Academic Online (not General Training) is accepted, including the One Skill Retake; IELTS Indicator is not. Tests must be taken within 2 years 5 months of the start date, and all scores must come from a single test.'
+    },
+    toefl: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'MA Economics (2027 entry)',
+          overall: '90 (tests up to 20 Jan 2026)',
+          sections: 'Reading 20, listening 19, speaking 19, writing 21',
+          scope: 'Applicants to MA Economics',
+          source: 'https://www.gla.ac.uk/undergraduate/degrees/economics/',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'BSc Computing Science (2027 entry)',
+          overall: '90 (before 21 Jan 2026) · 92 (from that date)',
+          scope: 'Applicants to BSc Computing Science',
+          source: 'https://www.gla.ac.uk/undergraduate/degrees/computingscience/',
+          verified: '2026-09-23'
+        }
+      ],
+      note: 'Each programme sets its own TOEFL level.'
+    },
     duolingo: { min: null, recommended: null, note: 'Not confirmed for undergraduate entry during this check.' },
     waiver: 'Glasgow accepts a range of school qualifications taught in English in place of a test; the accepted list is published with the English language requirements.',
     note: 'Tests must have been taken within 2 years 5 months of the start date, and the overall and sub-test scores must come from a single test, including TOEFL MyBest. Pearson PTE 59 with 59 in all sub-tests and Cambridge CAE/CPE 176 overall (no sub-test below 169) are also accepted.',
@@ -1166,8 +1590,54 @@ window.UNIPATH.universities.push(
     notes: ['English requirements are set by faculty profile (Arts and Divinity, Science, Medicine and the School of English each use a different profile).']
   },
   english: {
-    ielts: { min: 6.5, recommended: 7, note: 'St Andrews assigns each subject group a language profile. Science uses Profile 7-D: IELTS Academic 6.5 overall with 6.0 in every component. Arts and Divinity use Profile 3-D: 7.0 overall with 6.5 in every component. Medicine uses Profile 2-M: 7.0 overall with 7.0 in every component. The School of English uses Profile 1-D: 7.5 overall with 7.0 in every component.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'Accepted; the required score is published on the profile page that applies to the course. The Home Edition is listed among the accepted versions.' },
+    ielts: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: true,
+      profiles: [
+        {
+          name: 'Profile 7-D',
+          overall: 6.5,
+          sections: 'At least 6.0 in every component',
+          scope: 'Science',
+          source: 'https://www.st-andrews.ac.uk/subjects/entry/language-requirements/profiles/7-d/',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Profile 3-D',
+          overall: 7.0,
+          sections: 'At least 6.5 in every component',
+          scope: 'Arts and Divinity',
+          source: 'https://www.st-andrews.ac.uk/subjects/entry/language-requirements/profiles/3-d/',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Profile 2-M',
+          overall: 7.0,
+          sections: 'At least 7.0 in every component',
+          scope: 'Medicine',
+          source: 'https://www.st-andrews.ac.uk/subjects/entry/language-requirements/profiles/2-m/',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Profile 1-D',
+          overall: 7.5,
+          sections: 'At least 7.0 in every component',
+          scope: 'School of English',
+          source: 'https://www.st-andrews.ac.uk/subjects/entry/language-requirements/profiles/1-d/',
+          verified: '2026-09-24'
+        }
+      ],
+      note: 'St Andrews assigns each subject group a language profile. The same scores apply to undergraduate and postgraduate entry. IELTS Academic Online and the One Skill Retake are accepted.'
+    },
+    toefl: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profiles: [],
+      note: 'Accepted; the required score is published on the profile page that applies to the course. The Home Edition is listed among the accepted versions.'
+    },
     duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
     waiver: 'UK nationals, nationals of UKVI majority English-speaking countries, applicants with English-medium secondary qualifications from approved schools, and students who finish the St Andrews International Foundation programme do not need a test.',
     note: 'The same scores apply to undergraduate and postgraduate entry. IELTS Academic Online and the One Skill Retake are accepted.',
@@ -1246,7 +1716,23 @@ window.UNIPATH.universities.push(
     notes: ['The university minimum is IELTS 6.0; many departments ask for more, so check the course page before booking a test.']
   },
   english: {
-    ielts: { min: 6.0, recommended: null, note: 'University-wide minimum for undergraduate entry: IELTS Academic 6.0 overall with 5.5 in each component. Some departments require a higher score, published in the online prospectus. IELTS Online and IELTS One Skill Retake are accepted.' },
+    ielts: {
+      min: 6,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'University-wide minimum',
+          overall: 6.0,
+          sections: '5.5 in each component',
+          scope: 'All undergraduate courses; some departments require more, published in the online prospectus',
+          source: 'https://sheffield.ac.uk/undergraduate/apply/english-language',
+          verified: '2026-09-18'
+        }
+      ],
+      note: 'IELTS Academic on paper or computer, IELTS for UKVI Academic, IELTS Online and the One Skill Retake are accepted.'
+    },
     toefl: { min: null, recommended: null, scales: [], note: 'Accepted; the required score depends on the course and was not read during this check.' },
     duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
     waiver: 'Sheffield lists school qualifications taught in English that meet the requirement without a separate test.',
@@ -1322,8 +1808,70 @@ window.UNIPATH.universities.push(
     notes: ['Durham states that the level required depends on the course, so the range below is not a single guaranteed minimum.']
   },
   english: {
-    ielts: { min: 6, recommended: 6.5, note: 'Durham publishes direct-entry bands: Band C needs IELTS 6.0 with no component under 5.5, Band B 6.5 with no component under 6.0, Band A 7.0 with no component under 6.5, and Band A+ 7.0 with 7.0 in writing and no other component under 6.5. The band that applies is set by the course.' },
-    toefl: { min: 80, recommended: 90, scales: [{ period: 'pre2026', min: 80, note: 'For tests taken before 21 January 2026, Band B needs TOEFL iBT 80 and Band A needs 90. The Home Edition is accepted.' }], note: 'Accepted; the required score depends on the band, and Durham publishes separate figures for tests taken from 21 January 2026.' },
+    ielts: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: true,
+      profiles: [
+        {
+          name: 'Band C',
+          overall: 6.0,
+          sections: 'No component under 5.5',
+          scope: 'Courses assigned Band C',
+          source: 'https://www.durham.ac.uk/study/international/entry-requirements/english-language-requirements/direct-entry-band-c/',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Band B',
+          overall: 6.5,
+          sections: 'No component under 6.0',
+          scope: 'Courses assigned Band B',
+          source: 'https://www.durham.ac.uk/study/international/entry-requirements/english-language-requirements/direct-entry-band-b/',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Band A',
+          overall: 7.0,
+          sections: 'No component under 6.5',
+          scope: 'Courses assigned Band A',
+          source: 'https://www.durham.ac.uk/study/international/entry-requirements/english-language-requirements/direct-entry-band-a/',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Band A+',
+          overall: 7.0,
+          sections: '7.0 in writing, no other component under 6.5',
+          scope: 'Courses assigned Band A+',
+          source: 'https://www.durham.ac.uk/study/international/entry-requirements/english-language-requirements/direct-entry-band-a-plus/',
+          verified: '2026-09-24'
+        }
+      ],
+      note: 'Durham sets a direct-entry band for each course. Applicants below the direct-entry level can take a pre-sessional English course, which Durham bands separately.'
+    },
+    toefl: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'Band B',
+          overall: '80 (tests before 21 Jan 2026)',
+          scope: 'Courses assigned Band B',
+          source: 'https://www.durham.ac.uk/study/international/entry-requirements/english-language-requirements/direct-entry-band-b/',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Band A',
+          overall: '90 (tests before 21 Jan 2026)',
+          scope: 'Courses assigned Band A',
+          source: 'https://www.durham.ac.uk/study/international/entry-requirements/english-language-requirements/direct-entry-band-a/',
+          verified: '2026-09-24'
+        }
+      ],
+      note: 'Durham publishes separate figures for tests taken from 21 January 2026. The Home Edition is accepted.'
+    },
     duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
     waiver: 'Durham publishes a list of qualifications taught in English that meet the requirement without a test.',
     note: 'Applicants below the direct-entry level can take a pre-sessional English course, which Durham bands separately.',
@@ -1400,7 +1948,23 @@ window.UNIPATH.universities.push(
     notes: ['Some courses require more than the university minimum; the course page states which.']
   },
   english: {
-    ielts: { min: 6.0, recommended: null, note: 'University minimum for undergraduate entry: IELTS Academic or IELTS for UKVI (Academic) 6.0 overall with no component below 5.5. Many courses require a higher score.' },
+    ielts: {
+      min: 6,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'University minimum',
+          overall: 6.0,
+          sections: 'No component below 5.5',
+          scope: 'All undergraduate courses; many courses require more',
+          source: 'https://www.leeds.ac.uk/international-applying/doc/entry-requirements',
+          verified: '2026-09-18'
+        }
+      ],
+      note: 'IELTS Academic or IELTS for UKVI (Academic) is accepted.'
+    },
     toefl: { min: null, recommended: null, scales: [], note: 'Accepted; the required score depends on the course.' },
     duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
     waiver: 'Qualifications taught in English are accepted in place of a test in the cases Leeds lists.',
@@ -1479,7 +2043,23 @@ window.UNIPATH.universities.push(
     notes: ['Nottingham states that a proposed UK government levy on international fees, if introduced, would be added to tuition.']
   },
   english: {
-    ielts: { min: 6.0, recommended: null, note: 'University minimum for undergraduate entry: IELTS 6.0 with no element below 5.5. Requirements vary by course and the level that applies is stated in the offer.' },
+    ielts: {
+      min: 6,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'University minimum',
+          overall: 6.0,
+          sections: 'No element below 5.5',
+          scope: 'All undergraduate courses; many set a higher level, stated in the offer',
+          source: 'https://www.nottingham.ac.uk/studywithus/international-applicants/english-language/english-language-requirements.aspx',
+          verified: '2026-09-18'
+        }
+      ],
+      note: 'Nottingham states a university minimum; the level for a specific course is stated in the offer.'
+    },
     toefl: { min: null, recommended: null, scales: [], note: 'TOEFL iBT is accepted; the required score depends on the course.' },
     duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
     waiver: 'Nottingham recognises a range of qualifications as evidence of English; the list is published with the requirements.',
@@ -1563,8 +2143,40 @@ window.UNIPATH.universities.push(
     notes: ['Lancaster states that international tuition will not rise by more than 4% a year during a programme.']
   },
   english: {
-    ielts: { min: 6.5, recommended: null, note: 'Lancaster publishes a standard entry level of IELTS Academic 6.5 overall with a minimum of 5.5 in each element for the majority of undergraduate courses. IELTS Academic (UKVI or other centres), the One Skill Retake and IELTS Online are all accepted at that level, and individual courses can require more.' },
-    toefl: { min: 87, recommended: null, scales: [{ period: 'pre2026', min: 87, note: 'TOEFL iBT taken before 21 January 2026: 87 overall with 17 in listening, 18 in reading, 17 in speaking and 20 in writing.' }, { period: 'from2026', min: 4.5, note: 'TOEFL iBT taken from 21 January 2026: 4.5 overall with a minimum of 4 in each element.' }], note: 'Accepted, including the Home Edition.' },
+    ielts: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'Standard entry level',
+          overall: 6.5,
+          sections: 'At least 5.5 in each element',
+          scope: 'The majority of undergraduate courses; some ask for more',
+          source: 'https://www.lancaster.ac.uk/study/entry-requirements/undergraduate-english-requirements/',
+          verified: '2026-09-24'
+        }
+      ],
+      note: 'The requirement for a specific degree is on its entry requirements tab. IELTS Academic (UKVI or other centres), the One Skill Retake and IELTS Online are accepted at the standard level. Applicants slightly below it can take a ten-week pre-sessional English programme, which needs IELTS 5.5 overall with at least 5.0 in each element.'
+    },
+    toefl: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'Standard entry level',
+          overall: '87 (before 21 Jan 2026) · 4.5 (from 21 Jan 2026)',
+          sections: 'Listening 17, reading 18, speaking 17, writing 20 on the old scale; 4 in each element on the new scale',
+          scope: 'The majority of undergraduate courses',
+          source: 'https://www.lancaster.ac.uk/study/entry-requirements/undergraduate-english-requirements/',
+          verified: '2026-09-24'
+        }
+      ],
+      note: 'The Home Edition is accepted.'
+    },
     duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
     otherTests: 'Cambridge C1 Advanced and C2 Proficiency at 176 overall with at least 162 in each element.',
     waiver: 'Lancaster lists qualifications taught in English that are accepted instead of a test.',
@@ -1644,7 +2256,23 @@ window.UNIPATH.universities.push(
     notes: ['Course pages state where a higher overall or sub-score is needed.']
   },
   english: {
-    ielts: { min: 6.5, recommended: null, note: 'Typical undergraduate requirement: IELTS Academic or IELTS for UKVI (Academic) 6.5 overall with at least 5.5 in each sub-skill. Individual course pages list higher requirements where they apply.' },
+    ielts: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'Typical requirement',
+          overall: 6.5,
+          sections: 'At least 5.5 in each sub-skill',
+          scope: 'Most undergraduate courses; course pages list higher requirements where they apply',
+          source: 'https://www.ncl.ac.uk/international/language/',
+          verified: '2026-09-18'
+        }
+      ],
+      note: 'IELTS Academic or IELTS for UKVI (Academic) is accepted.'
+    },
     toefl: { min: null, recommended: null, scales: [], note: 'Accepted; the score depends on the course.' },
     duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
     waiver: 'Newcastle accepts a range of English-medium qualifications in place of a test.',
@@ -1722,7 +2350,31 @@ window.UNIPATH.universities.push(
     notes: ['Queen Mary charges an international tuition deposit before enrolment.']
   },
   english: {
-    ielts: { min: 6.5, recommended: 7, note: 'The requirement is set by the English band of the department running the course. Band 4 requires IELTS Academic 6.5 overall with 6.0 in writing, listening, reading and speaking; Band 5 requires 7.0 overall with 6.0 in each. Only the Academic test (standard or UKVI) is accepted - the General test is not.' },
+    ielts: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'Band 4',
+          overall: 6.5,
+          sections: '6.0 in writing, listening, reading and speaking',
+          scope: 'Departments assigned Band 4',
+          source: 'https://www.qmul.ac.uk/international-students/englishlanguagerequirements/undergraduate-and-postgraduate-programmes/',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Band 5',
+          overall: 7.0,
+          sections: '6.0 in each skill',
+          scope: 'Departments assigned Band 5',
+          source: 'https://www.qmul.ac.uk/international-students/englishlanguagerequirements/undergraduate-and-postgraduate-programmes/',
+          verified: '2026-09-24'
+        }
+      ],
+      note: 'The requirement is set by the English band of the department running the course; other bands were not read during this check. Only the Academic test (standard or UKVI) is accepted — the General test is not. Results must be no more than two years old at the course start date.'
+    },
     toefl: { min: null, recommended: null, scales: [], note: 'Accepted; the score depends on the programme band.' },
     duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
     waiver: 'Queen Mary lists qualifications taught in English that meet the requirement without a test.',
@@ -1804,7 +2456,87 @@ window.UNIPATH.universities.push(
     notes: ['The English band that applies is confirmed in the offer letter, so check it before booking a test.']
   },
   english: {
-    ielts: { min: 6, recommended: 6.5, note: 'Southampton assigns each course an English band from A to I. Band A needs IELTS Academic 6.0 with 5.5 in every component; bands B to E need 6.5 with component minimums of 5.5, 6.0, 6.0/6.5 or 6.5; bands F to I need 7.0 with component minimums from 6.0 up to 7.0. The band that applies is stated in the offer letter.' },
+    ielts: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: true,
+      profiles: [
+        {
+          name: 'Band A',
+          overall: 6.0,
+          sections: '5.5 in every component',
+          scope: 'Courses assigned Band A',
+          source: 'https://www.southampton.ac.uk/international/english-language-requirements/test-band-scores',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Band B',
+          overall: 6.5,
+          sections: '5.5 in every component',
+          scope: 'Courses assigned Band B',
+          source: 'https://www.southampton.ac.uk/international/english-language-requirements/test-band-scores',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Band C',
+          overall: 6.5,
+          sections: '6.0 in every component',
+          scope: 'Courses assigned Band C',
+          source: 'https://www.southampton.ac.uk/international/english-language-requirements/test-band-scores',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Band D',
+          overall: 6.5,
+          sections: 'Listening 6.0, reading 6.5, writing 6.5, speaking 6.0',
+          scope: 'Courses assigned Band D',
+          source: 'https://www.southampton.ac.uk/international/english-language-requirements/test-band-scores',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Band E',
+          overall: 6.5,
+          sections: '6.5 in every component',
+          scope: 'Courses assigned Band E',
+          source: 'https://www.southampton.ac.uk/international/english-language-requirements/test-band-scores',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Band F',
+          overall: 7.0,
+          sections: '6.0 in every component',
+          scope: 'Courses assigned Band F',
+          source: 'https://www.southampton.ac.uk/international/english-language-requirements/test-band-scores',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Band G',
+          overall: 7.0,
+          sections: '6.5 in every component',
+          scope: 'Courses assigned Band G',
+          source: 'https://www.southampton.ac.uk/international/english-language-requirements/test-band-scores',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Band H',
+          overall: 7.0,
+          sections: '7.0 in every component',
+          scope: 'Courses assigned Band H',
+          source: 'https://www.southampton.ac.uk/international/english-language-requirements/test-band-scores',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Band I',
+          overall: 7.0,
+          sections: 'Listening 7.0, reading 7.0, writing 6.5, speaking 7.0',
+          scope: 'Courses assigned Band I',
+          source: 'https://www.southampton.ac.uk/international/english-language-requirements/test-band-scores',
+          verified: '2026-09-24'
+        }
+      ],
+      note: 'Southampton assigns each course a band from A to I, and the offer letter states which applies. Some bands have no courses attached in a given year.'
+    },
     toefl: { min: null, recommended: null, scales: [], note: 'Accepted; the required score depends on the course band.' },
     duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
     waiver: 'Southampton accepts qualifications taught in English in place of a test in cases it lists.',
@@ -1889,7 +2621,55 @@ window.UNIPATH.universities.push(
     notes: ['Birmingham states that applicants for 2027 entry will be told the annual tuition fee closer to the time; the 2027 rates were not published when this was checked.']
   },
   english: {
-    ielts: { min: 6, recommended: 6.5, note: 'Birmingham groups subjects into bands: 6.0 with no less than 5.5 in any band for sciences and engineering, 6.5 with no less than 6.0 for humanities and social sciences, and 7.0 with no less than 6.5 for healthcare. Medicine, nursing and dentistry need 7.0 with no less than 7.0 in any band, and Business School courses need 6.5 with 6.5 in writing and speaking.' },
+    ielts: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: true,
+      profiles: [
+        {
+          name: 'Group A',
+          overall: 6.0,
+          sections: 'No less than 5.5 in any band',
+          scope: 'Sciences and engineering',
+          source: 'https://www.birmingham.ac.uk/study/undergraduate/apply/entry-requirements/international-entry-requirements',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Group B',
+          overall: 6.5,
+          sections: 'No less than 6.0 in any band',
+          scope: 'Humanities and social sciences',
+          source: 'https://www.birmingham.ac.uk/study/undergraduate/apply/entry-requirements/international-entry-requirements',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Business School',
+          overall: 6.5,
+          sections: '6.5 in writing and speaking',
+          scope: 'Birmingham Business School courses',
+          source: 'https://www.birmingham.ac.uk/study/undergraduate/apply/entry-requirements/international-entry-requirements',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Group C',
+          overall: 7.0,
+          sections: 'No less than 6.5 in any band',
+          scope: 'Healthcare professions',
+          source: 'https://www.birmingham.ac.uk/study/undergraduate/apply/entry-requirements/international-entry-requirements',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Group D',
+          overall: 7.0,
+          sections: 'No less than 7.0 in any band',
+          scope: 'Medicine, nursing and dentistry',
+          source: 'https://www.birmingham.ac.uk/study/undergraduate/apply/entry-requirements/international-entry-requirements',
+          verified: '2026-09-24'
+        }
+      ],
+      note: 'Birmingham states the grades for each group as the university minimum for those courses; some programmes ask for more, as set out in the offer letter. English qualifications normally need to have been taken within two years of the programme start date.'
+    },
     toefl: { min: null, recommended: null, scales: [], note: 'Accepted; the required score depends on the subject group.' },
     duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
     waiver: 'Birmingham lists qualifications taught in English that are accepted in place of a test.',
@@ -1967,8 +2747,88 @@ window.UNIPATH.universities.push(
     notes: ['York states that tuition in later years rises in line with CPI inflation, capped at 10%.']
   },
   english: {
-    ielts: { min: 6, recommended: 6.5, note: 'York publishes five typical bands: 6.0 with 5.5 in each component, 6.5 with 6.0 in each, 6.5 with 6.5 in writing, 7.0 with 6.5 in the other components, and 7.0 with 7.0 in each. The band that applies is set by the course, so 6.0 is the lowest published entry point rather than a guaranteed minimum.' },
-    toefl: { min: 79, recommended: 87, scales: [{ period: 'pre2026', min: 79, note: 'TOEFL iBT 79 with at least 17 in each component matches the lowest IELTS band; the highest band needs 96 with 24 in each component.' }, { period: 'from2026', min: 5, note: 'On the scale used from January 2026, the highest band is 5 overall with 5 in each component.' }], note: 'Accepted; the required score depends on the course band.' },
+    ielts: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'Typical level',
+          overall: 6.0,
+          sections: '5.5 in each component',
+          scope: 'Courses set at this level',
+          source: 'https://www.york.ac.uk/study/international/applying/ielts-equivalencies-undergraduate/',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Typical level',
+          overall: 6.5,
+          sections: '6.0 in each component',
+          scope: 'Courses set at this level',
+          source: 'https://www.york.ac.uk/study/international/applying/ielts-equivalencies-undergraduate/',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Typical level',
+          overall: 6.5,
+          sections: '6.5 in writing, 6.0 in the other components',
+          scope: 'Courses set at this level',
+          source: 'https://www.york.ac.uk/study/international/applying/ielts-equivalencies-undergraduate/',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Typical level',
+          overall: 7.0,
+          sections: '7.0 in writing, 6.5 in the other components',
+          scope: 'Courses set at this level',
+          source: 'https://www.york.ac.uk/study/international/applying/ielts-equivalencies-undergraduate/',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Typical level',
+          overall: 7.0,
+          sections: '7.0 in each component',
+          scope: 'Courses set at this level',
+          source: 'https://www.york.ac.uk/study/international/applying/ielts-equivalencies-undergraduate/',
+          verified: '2026-09-24'
+        }
+      ],
+      note: 'York publishes these typical levels and each course states its own. Results must be dated no more than two years before the course starts and cannot combine scores from more than one test, except for the IELTS One Skill Retake and the Oxford ELLT Skill Retake.'
+    },
+    toefl: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'Matches IELTS 6.0',
+          overall: '79 (before Jan 2026)',
+          sections: 'At least 17 in each component',
+          scope: 'Courses set at the IELTS 6.0 level',
+          source: 'https://www.york.ac.uk/study/international/applying/ielts-equivalencies-undergraduate/',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Matches IELTS 6.5 (6.0 in each)',
+          overall: '87 (before Jan 2026)',
+          sections: 'At least 21 in each component',
+          scope: 'Courses set at that level',
+          source: 'https://www.york.ac.uk/study/international/applying/ielts-equivalencies-undergraduate/',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Matches IELTS 7.0 (7.0 in each)',
+          overall: '96 (before Jan 2026) · 5 (after Jan 2026)',
+          sections: '24 in each component on the old scale; 5 in each on the new scale',
+          scope: 'Courses set at the IELTS 7.0 level',
+          source: 'https://www.york.ac.uk/study/international/applying/ielts-equivalencies-undergraduate/',
+          verified: '2026-09-24'
+        }
+      ],
+      note: 'The TOEFL level follows the course’s IELTS level.'
+    },
     duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
     waiver: 'York lists qualifications taught in English that are accepted instead of a test, and exempts nationals of UKVI majority English-speaking countries.',
     note: 'Requirements vary by academic department. Test results must be dated no more than two years before the course starts and cannot combine scores from more than one test, except for the IELTS One Skill Retake and the Oxford ELLT Skill Retake.',
@@ -2046,8 +2906,71 @@ window.UNIPATH.universities.push(
     notes: ['For a student visa Exeter states that applicants must show living costs of at least £1,171 a month for nine months (£10,539).']
   },
   english: {
-    ielts: { min: 6.5, recommended: 7, note: 'Exeter assigns each course an English language profile. Profiles B1, B2 and B3 all need IELTS Academic 6.5 overall, differing in the section minimum (5.5, 6.0, or 6.0 in writing and 5.5 elsewhere). Profiles E and F need 7.0 overall. The profile that applies is published with the course.' },
-    toefl: { min: 90, recommended: null, scales: [{ period: 'pre2026', min: 90, note: 'TOEFL iBT 90 for the B profiles, with section minimums of 20 or 21 depending on the profile. The Home Edition, Paper Edition and MyBest scores are accepted.' }], note: 'Accepted; the required score depends on the course profile.' },
+    ielts: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'Profile B1',
+          overall: 6.5,
+          sections: 'No less than 5.5 in any section',
+          scope: 'Courses assigned Profile B1',
+          source: 'https://www.exeter.ac.uk/study/englishlanguagerequirements/profile-b1/',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Profile B2',
+          overall: 6.5,
+          sections: 'No less than 6.0 in any section',
+          scope: 'Courses assigned Profile B2',
+          source: 'https://www.exeter.ac.uk/study/englishlanguagerequirements/profile-b2/',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Profile B3',
+          overall: 6.5,
+          sections: '6.0 in writing, no less than 5.5 in any other section',
+          scope: 'Courses assigned Profile B3',
+          source: 'https://www.exeter.ac.uk/study/englishlanguagerequirements/profile-b3/',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Profile E',
+          overall: 7.0,
+          scope: 'Courses assigned Profile E',
+          source: 'https://www.exeter.ac.uk/study/englishlanguagerequirements/profile-e/',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Profile F',
+          overall: 7.0,
+          sections: 'No less than 6.0 in any section',
+          scope: 'Courses assigned Profile F',
+          source: 'https://www.exeter.ac.uk/study/englishlanguagerequirements/profile-f/',
+          verified: '2026-09-24'
+        }
+      ],
+      note: 'Exeter assigns each course an English language profile, published with the course. IELTS Academic, IELTS Academic Online and the IELTS One Skill Retake are accepted. For a student visa Exeter states that applicants must show living costs of at least £1,171 a month for nine months (£10,539).'
+    },
+    toefl: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'Profiles B1, B2 and B3',
+          overall: '90',
+          sections: 'Section minimums of 20 or 21 depending on the profile',
+          scope: 'Courses assigned a B profile',
+          source: 'https://www.exeter.ac.uk/study/englishlanguagerequirements/profile-b2/',
+          verified: '2026-09-24'
+        }
+      ],
+      note: 'The Home Edition, Paper Edition and MyBest scores are accepted. Profiles E and F set their own TOEFL level.'
+    },
     duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
     waiver: 'Exeter accepts qualifications taught in English in place of a test in listed cases.',
     note: 'IELTS Academic, IELTS Academic Online and the IELTS One Skill Retake are all accepted. For a student visa Exeter states that applicants must show living costs of at least \u00a31,171 a month for nine months (\u00a310,539).',
@@ -2130,9 +3053,73 @@ window.UNIPATH.universities.push(
     notes: ['Bath advises international applicants to budget for an increase of up to 8% in each year of the course.']
   },
   english: {
-    ielts: { min: 6.5, recommended: 7, note: 'Bath sorts courses into English language categories. Category C requires IELTS Academic 6.5 with 6.0 in each component; categories A and B require 7.0 with 6.5 in each component. Results must be no more than 24 months old at the start of the course.' },
-    toefl: { min: 100, recommended: null, scales: [{ period: 'pre2026', min: 100, note: 'TOEFL iBT and iBT Home Edition 100 overall with 24 in each component for categories A and B.' }], note: 'Accepted, including the Home Edition; the required score depends on the course category.' },
-    duolingo: { min: 130, recommended: null, note: 'Duolingo taken up to 1 July 2024 needs 130 overall with Literacy 130, Comprehension 140 and Conversation 125 for categories A and B.' },
+    ielts: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'Category A',
+          overall: 7.0,
+          sections: '6.5 in each component',
+          scope: 'Courses in Category A',
+          source: 'https://www.bath.ac.uk/corporate-information/english-language-requirements-for-qualifications-category-a/',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Category B',
+          overall: 7.0,
+          sections: '6.5 in each component',
+          scope: 'Courses in Category B',
+          source: 'https://www.bath.ac.uk/corporate-information/english-language-requirements-for-qualifications-category-b/',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Category C',
+          overall: 6.5,
+          sections: '6.0 in each component',
+          scope: 'Courses in Category C',
+          source: 'https://www.bath.ac.uk/corporate-information/english-language-requirements-for-qualifications-category-c/',
+          verified: '2026-09-24'
+        }
+      ],
+      note: 'Bath sorts courses into English language categories, and the course page says which applies. Results must be no more than 24 months old at the start of the course.'
+    },
+    toefl: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'Categories A and B',
+          overall: '100',
+          sections: '24 in each component',
+          scope: 'Courses in Categories A and B',
+          source: 'https://www.bath.ac.uk/corporate-information/english-language-requirements-for-qualifications-category-a/',
+          verified: '2026-09-24'
+        }
+      ],
+      note: 'The TOEFL iBT Home Edition is accepted. Category C sets its own level.'
+    },
+    duolingo: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'Categories A and B',
+          overall: 130,
+          sections: 'Literacy 130, Comprehension 140, Conversation 125',
+          scope: 'Courses in Categories A and B; tests taken up to 1 July 2024',
+          source: 'https://www.bath.ac.uk/corporate-information/english-language-requirements-for-qualifications-category-a/',
+          verified: '2026-09-24'
+        }
+      ],
+      note: 'Category C sets its own Duolingo level.'
+    },
     otherTests: 'Pearson PTE Academic 69 with no less than 62 in each component for categories A and B. Bath does not accept the PTE Academic online test.',
     waiver: 'Bath accepts listed school qualifications taught in English in place of a test.',
     note: 'Qualifications used to meet the English requirement must have been achieved no more than 24 months before the course starts.',
@@ -2215,7 +3202,23 @@ window.UNIPATH.universities.push(
     notes: ['Cardiff accepts all IELTS Academic tests from any test centre, including the One Skill Retake; the UKVI version is not required for undergraduate courses.']
   },
   english: {
-    ielts: { min: 6.5, recommended: null, note: 'University minimum: IELTS Academic 6.5 overall with at least 5.5 in each sub-skill (or GCSE English at grade C/4). Admissions tutors may ask for higher scores on some courses. All IELTS Academic tests, including the One Skill Retake, are accepted; IELTS for UKVI is not required for undergraduate courses.' },
+    ielts: {
+      min: 6.5,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'University minimum',
+          overall: 6.5,
+          sections: 'At least 5.5 in each sub-skill',
+          scope: 'All undergraduate courses; admissions tutors may ask for higher scores on some courses',
+          source: 'https://www.cardiff.ac.uk/study/international/english-language-requirements',
+          verified: '2026-09-24'
+        }
+      ],
+      note: 'GCSE English at grade C/4 also meets the university minimum. All IELTS Academic tests, including the One Skill Retake, are accepted; IELTS for UKVI is not required for undergraduate courses.'
+    },
     toefl: { min: null, recommended: null, scales: [], note: 'Accepted; the required score depends on the course.' },
     duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
     waiver: 'GCSE English at grade C/4 and other listed qualifications meet the requirement without a separate test.',
@@ -2295,8 +3298,47 @@ window.UNIPATH.universities.push(
     notes: ['The published self-funded rate already includes the £6,000 Aberdeen Global Scholarship, so it is a discounted price rather than a separate award to apply for.']
   },
   english: {
-    ielts: { min: 6, recommended: null, note: 'Aberdeen publishes a single undergraduate standard: IELTS Academic or IELTS UKVI Academic 6.0 overall with 6.0 in writing and 5.5 or above in listening, reading and speaking. Medicine (MBChB) needs 7.0 overall with 7.0 in speaking. IELTS Indicator, General Training and IELTS Online are not accepted; the One Skill Retake is.' },
-    toefl: { min: null, recommended: null, scales: [{ period: 'from2026', min: 4, note: 'For tests taken after 21 January 2026, Aberdeen asks for 4 to 4.5 overall with 4.5 in writing and 4 or above in the other skills.' }], note: 'TOEFL iBT and the Home Edition are accepted.' },
+    ielts: {
+      min: 6,
+      recommended: null,
+      varies: true,
+      profilesComplete: true,
+      profiles: [
+        {
+          name: 'Undergraduate standard',
+          overall: 6.0,
+          sections: '6.0 in writing; 5.5 or above in listening, reading and speaking',
+          scope: 'All undergraduate degrees except Medicine',
+          source: 'https://www.abdn.ac.uk/study/international/english/undergraduate-degrees---english-requirements/',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Medicine (MBChB)',
+          overall: 7.0,
+          sections: '7.0 in speaking, 6.0 in writing, 5.5 in listening and reading',
+          scope: 'Applicants to Medicine',
+          source: 'https://www.abdn.ac.uk/study/international/english/undergraduate-degrees---english-requirements/',
+          verified: '2026-09-24'
+        }
+      ],
+      note: 'IELTS Academic or IELTS UKVI Academic is accepted, including the One Skill Retake; IELTS Indicator, General Training and IELTS Online are not.'
+    },
+    toefl: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profiles: [
+        {
+          name: 'Undergraduate standard',
+          overall: '4–4.5 (tests after 21 Jan 2026)',
+          sections: '4.5 in writing, 4 or above in listening, reading and speaking',
+          scope: 'All undergraduate degrees except Medicine',
+          source: 'https://www.abdn.ac.uk/study/international/english/undergraduate-degrees---english-requirements/',
+          verified: '2026-09-24'
+        }
+      ],
+      note: 'TOEFL iBT and the Home Edition are accepted. Medicine (MBChB) sets a higher TOEFL level on the same page.'
+    },
     duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
     waiver: 'Aberdeen lists qualifications taught in English that meet the requirement without a test, and can assess proficiency through nationality or a previous degree.',
     note: 'Certification must be dated within one year before the course starts.',
@@ -2377,8 +3419,64 @@ window.UNIPATH.universities.push(
     notes: ['Dentistry, medicine and veterinary science require higher English scores than other degrees.']
   },
   english: {
-    ielts: { min: 7.0, recommended: null, note: 'Liverpool states that most undergraduate programmes require IELTS 7.0 overall with no component below 6.5. Dentistry, medicine and veterinary science require more, and individual course pages confirm what applies.' },
-    toefl: { min: null, recommended: null, scales: [], note: 'Accepted; the required score depends on the course.' },
+    ielts: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'Level 1',
+          overall: 6.0,
+          sections: 'No component below 5.5',
+          scope: 'Courses set at this level',
+          source: 'https://www.liverpool.ac.uk/international/applying/entry-requirements/english-language-requirements/international-english-language-tests/',
+          verified: '2026-09-27'
+        },
+        {
+          name: 'Level 2',
+          overall: 6.5,
+          sections: 'No component below 5.5',
+          scope: 'Courses set at this level, for example BSc Economics (2027 entry)',
+          source: 'https://www.liverpool.ac.uk/courses/2027/economics-bsc-hons',
+          verified: '2026-09-24'
+        },
+        {
+          name: 'Level 3',
+          overall: 6.5,
+          sections: 'No component below 6.0',
+          scope: 'Courses set at this level',
+          source: 'https://www.liverpool.ac.uk/international/applying/entry-requirements/english-language-requirements/international-english-language-tests/',
+          verified: '2026-09-27'
+        },
+        {
+          name: 'Level 4',
+          overall: 7.0,
+          sections: 'No component below 6.5',
+          scope: 'Courses set at this level, including dentistry, medicine and veterinary science',
+          source: 'https://www.liverpool.ac.uk/international/applying/entry-requirements/english-language-requirements/international-english-language-tests/',
+          verified: '2026-09-27'
+        }
+      ],
+      note: 'Most Liverpool courses use one of these four levels, and the course page says which. Some clinical programmes ask for as much as 7.5 overall.'
+    },
+    toefl: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'BSc Economics (2027 entry)',
+          overall: '88 (on or before 20 Jan 2026) · 4.5 (from 21 Jan 2026)',
+          sections: 'Listening 17, writing 17, reading 17, speaking 19 on the old scale; 4 or above in every component on the new scale',
+          scope: 'Applicants to BSc Economics',
+          source: 'https://www.liverpool.ac.uk/courses/2027/economics-bsc-hons',
+          verified: '2026-09-24'
+        }
+      ],
+      note: 'Each course sets its own TOEFL level. The TOEFL Home Edition is not accepted for this course.'
+    },
     duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
     waiver: 'Liverpool lists qualifications taught in English that meet the requirement without a test.',
     note: 'Requirements state both an overall score and a minimum in each of the four components.'
@@ -2458,8 +3556,54 @@ window.UNIPATH.universities.push(
     notes: ['Medicine and dentistry set much higher English requirements than other degrees.']
   },
   english: {
-    ielts: { min: 6.5, recommended: null, note: 'Queen\'s normally requires English equivalent to IELTS 6.5 overall (or TOEFL iBT 90). Some programmes set higher or lower levels: Medicine requires IELTS 7.5 overall with 7.0 in speaking and listening and 6.5 in reading and writing, and Dentistry the same with 6.0 in reading and writing.' },
-    toefl: { min: 90, recommended: null, scales: [{ period: 'pre2026', min: 90, recommended: null }], note: 'TOEFL iBT 90 is given as the normal equivalent of the IELTS 6.5 requirement.' },
+    ielts: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'Normal requirement',
+          overall: 6.5,
+          scope: 'Most courses; some programmes set a higher or lower level',
+          source: 'https://www.qub.ac.uk/Study/international-students/applying/english-language-requirements/',
+          verified: '2026-09-18'
+        },
+        {
+          name: 'Medicine',
+          overall: 7.5,
+          sections: '7.0 in speaking and listening, 6.5 in reading and writing',
+          scope: 'Applicants to Medicine',
+          source: 'https://www.qub.ac.uk/Study/international-students/applying/english-language-requirements/',
+          verified: '2026-09-18'
+        },
+        {
+          name: 'Dentistry',
+          overall: 7.5,
+          sections: '7.0 in speaking and listening, 6.0 in reading and writing',
+          scope: 'Applicants to Dentistry',
+          source: 'https://www.qub.ac.uk/Study/international-students/applying/english-language-requirements/',
+          verified: '2026-09-18'
+        }
+      ],
+      note: 'Course pages state where a level other than the normal requirement applies.'
+    },
+    toefl: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'Normal requirement',
+          overall: '90',
+          scope: 'Most courses',
+          source: 'https://www.qub.ac.uk/Study/international-students/applying/english-language-requirements/',
+          verified: '2026-09-18'
+        }
+      ],
+      note: 'TOEFL iBT 90 is given as the normal equivalent of IELTS 6.5.'
+    },
     duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
     waiver: "Queen's lists qualifications taught in English that meet the requirement without a test.",
     note: 'Course pages state where a higher level applies.'

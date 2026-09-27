@@ -1306,8 +1306,12 @@ window.UNIPATH.universities.push(
     notes: ['Scholarship decisions are made within the university budget, with the strongest applicants chosen on grade average and admission results.']
   },
   english: {
-    ielts: { min: 6.5, recommended: null, note: 'Chung-Ang lists IELTS 6.5 overall alongside TOPIK level 5, TOEFL iBT 91 and TOEIC 780 as the language thresholds used for newly admitted international students. These figures are tied to the scholarship assessment rather than to a bare admission minimum.' },
-    toefl: { min: 91, recommended: null, scales: [{ period: 'pre2026', min: 91, note: 'TOEFL iBT above 91.' }], note: 'TOEFL iBT above 91 is the published threshold.' },
+    ielts: {
+      min: null,
+      recommended: null,
+      note: 'Chung-Ang lists IELTS 6.5 overall alongside TOPIK level 5, TOEFL iBT 91 and TOEIC 780 as the language thresholds used for newly admitted international students. These figures are tied to the scholarship assessment rather than to a bare admission minimum, which is set in the admission guide and was not confirmed during this check.'
+    },
+    toefl: { min: null, recommended: null, scales: [], note: 'TOEFL iBT above 91 is the threshold for the scholarship assessment, not an admission minimum.' },
     duolingo: { min: null, recommended: null, note: 'Not listed among the accepted tests.' },
     otherTests: 'TOEIC above 780, and TOPIK level 5 or above on the Korean side.',
     waiver: null,
@@ -1537,8 +1541,12 @@ window.UNIPATH.universities.push(
     notes: ['Scholarships of 40% to 100% of tuition go to students who pass more than 15 credits and keep good academic standing.']
   },
   english: {
-    ielts: { min: null, recommended: 5.5, note: 'Konkuk publishes IELTS 5.5 as one of the language levels international students must reach to graduate, alongside TOPIK level 4, TOEFL iBT 80, TOEIC 800 and TEPS 550. The level required for admission itself was not confirmed during this check.' },
-    toefl: { min: null, recommended: 80, scales: [{ period: 'pre2026', min: null, recommended: 80, note: 'TOEFL iBT 80 is listed among the graduation language options.' }], note: 'TOEFL iBT 80 appears as a graduation requirement option rather than an admission minimum.' },
+    ielts: {
+      min: null,
+      recommended: null,
+      note: 'Konkuk publishes IELTS 5.5 as one of the language levels international students must reach to graduate, alongside TOPIK level 4, TOEFL iBT 80, TOEIC 800 and TEPS 550. The level required for admission itself was not confirmed during this check.'
+    },
+    toefl: { min: null, recommended: null, scales: [], note: 'TOEFL iBT 80 appears as a graduation requirement option rather than an admission minimum.' },
     duolingo: { min: null, recommended: null, note: 'Not listed among the accepted tests.' },
     otherTests: 'TOEIC 800 and TEPS 550 are listed as alternatives, and TOPIK level 4 or above on the Korean side.',
     waiver: null,

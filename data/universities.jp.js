@@ -1053,10 +1053,41 @@ window.UNIPATH.universities.push(
     notes: ['Applicants who pass the university screening can receive a full or partial exemption from tuition and the matriculation fee.']
   },
   english: {
-    ielts: { min: 5, recommended: 6, note: 'Requirements are set per programme. The Special Integrated Science Course asks for IELTS 5.0 overall with 5.0 or more in every component; the OUSSEP route publishes IELTS 6.0.' },
-    toefl: { min: 60, recommended: 80, scales: [{ period: 'pre2026', min: 60, note: 'TOEFL iBT 60 for the Special Integrated Science Course; the OUSSEP route publishes 80.' }], note: 'TOEFL iBT 60 for the Special Integrated Science Course.' },
+    ielts: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'Special Integrated Science Course (SISC)',
+          overall: 5.0,
+          sections: '5.0 or more in every component',
+          scope: 'Applicants to SISC',
+          source: 'https://www.sci.osaka-u.ac.jp/en/wp-content/uploads/2020/09/11-SISC-Guidelines_2025-1.pdf',
+          verified: '2026-09-24'
+        }
+      ],
+      note: 'Osaka publishes the requirement separately for each English-taught degree programme; SISC is the confirmed example. TOEIC 700 is also accepted for SISC.'
+    },
+    toefl: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'Special Integrated Science Course (SISC)',
+          overall: '60',
+          scope: 'Applicants to SISC',
+          source: 'https://www.sci.osaka-u.ac.jp/en/wp-content/uploads/2020/09/11-SISC-Guidelines_2025-1.pdf',
+          verified: '2026-09-24'
+        }
+      ],
+      note: 'Each English-taught programme publishes its own level.'
+    },
     duolingo: { min: null, recommended: null, note: 'Not listed among the accepted tests.' },
-    otherTests: 'TOEIC 700 or higher is accepted for the Special Integrated Science Course, and Cambridge English B2 on the OUSSEP route.',
+    otherTests: 'TOEIC 700 or higher is accepted for the Special Integrated Science Course.',
     waiver: null,
     note: 'Osaka publishes the requirement separately for each English-taught degree programme, so the figure that applies depends on the course.',
     source: 'https://www.sci.osaka-u.ac.jp/en/wp-content/uploads/2020/09/11-SISC-Guidelines_2025-1.pdf',
@@ -1466,7 +1497,12 @@ window.UNIPATH.universities.push(
   },
   english: {
     ielts: { min: 5.5, recommended: null, note: 'GLAP asks for an IELTS Academic overall band score of 5.5 or above. Rikkyo\u2019s other international routes publish a higher figure of 6.5.' },
-    toefl: { min: null, recommended: 94, scales: [{ period: 'pre2026', min: null, recommended: 94, note: 'TOEFL is accepted; Rikkyo publishes iBT 94 (or 4.5 in each section on the new 1\u20136 scale) for its other international admission routes, and the GLAP figure was not confirmed during this check.' }], note: 'Accepted; the GLAP minimum was not confirmed during this check.' },
+    toefl: {
+      min: null,
+      recommended: null,
+      scales: [],
+      note: 'Accepted; the GLAP minimum was not confirmed during this check. Rikkyo’s other international routes publish TOEFL iBT 94 (or 4.5 in each section on the new scale), which does not apply to GLAP.'
+    },
     duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
     otherTests: 'Cambridge English Qualifications 160 or above, EIKEN 2,600 or above and GTEC 1,180 or above are accepted for GLAP.',
     waiver: null,
@@ -1547,8 +1583,40 @@ window.UNIPATH.universities.push(
     notes: ['Ritsumeikan states that tuition and fees are expected to rise by about 5–7% a year.']
   },
   english: {
-    ielts: { min: 6.5, recommended: null, note: 'The confirmed figure is for the American University\u2013Ritsumeikan Joint Degree Program: IELTS 6.5 with 6.0 in each component. IELTS Online is not accepted, and other English-medium programmes publish their own levels.' },
-    toefl: { min: 80, recommended: null, scales: [{ period: 'pre2026', min: 80, note: 'TOEFL iBT 80 with 20 in each section, or TOEFL PBT 550, for the Joint Degree Program. Only single-test-date scores count, not MyBest scores.' }], note: 'TOEFL iBT 80 with 20 in each section for the Joint Degree Program; MyBest scores are not accepted.' },
+    ielts: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'Joint Degree Program with American University',
+          overall: 6.5,
+          sections: '6.0 in each component',
+          scope: 'Applicants to the Joint Degree Program',
+          source: 'https://en.ritsumei.ac.jp/e-ug/apply/howto.html/',
+          verified: '2026-09-24'
+        }
+      ],
+      note: 'Other English-medium programmes publish their own levels. IELTS Online is not accepted, and tests must have been taken within two years before the last day of the application period.'
+    },
+    toefl: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'Joint Degree Program with American University',
+          overall: '80',
+          sections: '20 in each section; TOEFL PBT 550 is also accepted',
+          scope: 'Applicants to the Joint Degree Program',
+          source: 'https://en.ritsumei.ac.jp/e-ug/apply/howto.html/',
+          verified: '2026-09-24'
+        }
+      ],
+      note: 'Only single-test-date scores count, not MyBest scores.'
+    },
     duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
     waiver: 'No English test is required from applicants whose most recent six years of formal education before enrolment were conducted and instructed only in English.',
     note: 'Tests must have been taken within two years before the last day of the application period. Ritsumeikan has published temporary changes to its English proficiency requirements, so check the programme handbook.',

@@ -1461,9 +1461,9 @@ window.UNIPATH.universities.push(
         note: "A TOEFL Essentials writing sub-score of 8.5 or higher avoids English language support courses. Low sub-scores on the TOEFL iBT also trigger support coursework.",
       },
       duolingo: {
-        min: 110,
+        min: null,
         recommended: null,
-        note: "An overall Duolingo score of 110 or higher (post-July 2019 scale) avoids English language support courses.",
+        note: "An overall Duolingo score of 110 or higher (post-July 2019 scale) avoids English language support courses. That is a placement threshold, not an admission minimum.",
       },
       waiver:
         "Students who meet academic and financial requirements but not the English requirement may apply for conditional admission and start in the English Language Institute.",

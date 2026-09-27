@@ -146,8 +146,15 @@
      recommended score — a UniPath estimate alone does not count. */
   function ieltsPublished(u) {
     var t = u.english && u.english.ielts;
-    return !!t && (has(t.min) || has(t.recommended));
+    return !!t && (has(t.min) || has(t.recommended) || (ieltsVaries(u) && !!(t.profiles && t.profiles.length)));
   }
+  /* Requirement set per programme, language profile or band. `profiles` lists
+     each published level with its scope, source and check date; `min` is kept
+     only when the university itself states a university-wide minimum. */
+  function testVaries(t) { return !!(t && t.varies); }
+  function ieltsVaries(u) { return testVaries(u.english && u.english.ielts); }
+  /* Big label for a varying requirement: by programme (default) or by applicant group. */
+  function variesLabel(t) { return t && t.variesBy === 'applicant' ? 'Depends on applicant group' : 'Varies by programme'; }
   function ieltsMin(u) {
     return (u.english && u.english.ielts && has(u.english.ielts.min)) ? u.english.ielts.min : null;
   }
@@ -155,7 +162,8 @@
   function ieltsLabel(u) {
     var t = u.english && u.english.ielts;
     if (!t) return null;
-    if (has(t.min)) return 'Min ' + t.min + (t.lowestLevel ? ' (varies by course)' : '');
+    if (testVaries(t)) return has(t.min) ? 'University minimum ' + (typeof t.min === 'number' ? t.min.toFixed(1) : t.min) + ', varies by programme' : variesLabel(t);
+    if (has(t.min)) return 'Min ' + (typeof t.min === 'number' && t.min < 10 ? t.min.toFixed(1) : t.min);
     if (has(t.recommended)) return typeof t.recommended === 'number' ? t.recommended + '+ competitive' : String(t.recommended);
     if (has(t.estimate)) return t.estimate + ' · UniPath estimate';
     return 'Accepted, no minimum published';
@@ -180,6 +188,7 @@
   function toeflLines(u) {
     var t = u.english && u.english.toefl;
     if (!t) return [];
+    if (testVaries(t)) return [variesLabel(t)];
     if (t.scales && t.scales.length) {
       return t.scales.map(function (sc) {
         var label = TOEFL_PERIOD[sc.period] || sc.period;
@@ -395,7 +404,7 @@
       u.name, u.shortName || '', u.city, u.region || '',
       country(u.country).name, u.type, u.description || '',
       satLabel(u),
-      hasIelts(u) ? 'IELTS ' + (ieltsMin(u) || (ieltsPublished(u) ? u.english.ielts.recommended : 'accepted')) : '',
+      hasIelts(u) ? 'IELTS ' + (ieltsVaries(u) ? variesLabel(u.english.ielts).toLowerCase() : (ieltsMin(u) || (ieltsPublished(u) ? u.english.ielts.recommended : 'accepted'))) : '',
       toeflMin(u) ? 'TOEFL ' + toeflMin(u) : '',
       u.englishTaught === true ? 'English-taught english taught' : '',
       fullRide(u).available === true ? 'full scholarship full ride full funding' : '',
@@ -883,7 +892,7 @@
     DISCLAIMER: DISCLAIMER,
     country: country, field: field, uniById: uniById, unisByCountry: unisByCountry,
     displayName: displayName, uniUrl: uniUrl,
-    satPolicy: satPolicy, satLabel: satLabel, satNotRequired: satNotRequired, hasIelts: hasIelts, ieltsPublished: ieltsPublished, englishPrograms: englishPrograms, englishLabel: englishLabel, ieltsMin: ieltsMin, toeflLines: toeflLines, ieltsLabel: ieltsLabel, statsOf: statsOf, toeflMin: toeflMin,
+    satPolicy: satPolicy, satLabel: satLabel, satNotRequired: satNotRequired, hasIelts: hasIelts, ieltsPublished: ieltsPublished, englishPrograms: englishPrograms, englishLabel: englishLabel, ieltsMin: ieltsMin, ieltsVaries: ieltsVaries, testVaries: testVaries, variesLabel: variesLabel, toeflLines: toeflLines, ieltsLabel: ieltsLabel, statsOf: statsOf, toeflMin: toeflMin,
     fullRide: fullRide, meritList: meritList, needBased: needBased,
     feeAmount: feeAmount, feeWaiver: feeWaiver, feeWaiverLabel: feeWaiverLabel, feeLabel: feeLabel,
     firstDeadline: firstDeadline, deadlineInfo: deadlineInfo, deadlineHtml: deadlineHtml,

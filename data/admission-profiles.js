@@ -178,7 +178,12 @@
   P['university-of-alabama'] = {
     english: {
       estimateBasis: 'Based on UA\'s published IELTS 6.0 writing threshold for avoiding English support courses.',
-      ielts: { min: null, recommended: 6.0, estimate: '6.0+ overall', note: 'A writing sub-score of 6.0 or higher avoids mandatory English support courses.' }
+      ielts: {
+      min: null,
+      recommended: null,
+      estimate: '6.0+ overall',
+      note: 'A writing sub-score of 6.0 or higher avoids mandatory English support courses. That is a placement threshold, not an admission minimum or a recommended overall score.'
+    }
     },
     admissions: {
       applicationFee: { amount: 50, currency: 'USD', waiverAvailableToInternational: null, waiver: null, note: 'UA states the fee for out-of-state and international students is $50 for 2027 entry terms, non-refundable and payable by card.' }
@@ -290,8 +295,38 @@
 
   P['waseda-university'] = {
     english: {
-      ielts: { min: null, recommended: 7, note: 'SILS: competitive applicants score 7 or above. Scores are needed only from non-native speakers.' },
-      toefl: { min: null, recommended: 95, scales: [{ period: 'pre2026', min: null, recommended: 95 }, { period: 'post2026', min: null, recommended: 5 }], note: 'SILS: competitive applicants score 95+ (out of 120), or 5.0+ on the new 6-point scale.' },
+      ielts: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profiles: [
+        {
+          name: 'School of International Liberal Studies (SILS)',
+          overall: 7.0,
+          kind: 'competitive',
+          scope: 'Competitive applicants to SILS; not a minimum',
+          source: 'https://www.waseda.jp/fire/sils/en/applicants/data/',
+          verified: '2026-09-16'
+        }
+      ],
+      note: 'Each Waseda school sets its own requirement in its application guidelines. Scores are needed only from non-native speakers.'
+    },
+      toefl: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profiles: [
+        {
+          name: 'School of International Liberal Studies (SILS)',
+          overall: '95 (out of 120) · 5.0 (new 1–6 scale)',
+          kind: 'competitive',
+          scope: 'Competitive applicants to SILS; not a minimum',
+          source: 'https://www.waseda.jp/fire/sils/en/applicants/data/',
+          verified: '2026-09-16'
+        }
+      ],
+      note: 'Each school publishes its own level.'
+    },
       duolingo: { min: null, recommended: null, note: 'Check the requirements of your specific school.' },
       waiver: 'Not required from non-native speakers studying where English is the language of instruction. English proof is optional if you submit an English-system exam certificate such as the SAT, ACT, A-Levels or an IBDP taught entirely in English.'
     },
@@ -504,8 +539,38 @@
 
   P['korea-university'] = {
     english: {
-      ielts: { min: null, recommended: 7.0, note: 'To be assigned to an English-based major at the end of the Global Open Major year, you need IELTS 7.0+ (or TOPIK 5 for a Korean-based major). IELTS Indicator is not accepted.' },
-      toefl: { min: null, recommended: 100, scales: [{ period: 'pre2026', min: null, recommended: 100 }, { period: 'post2026', min: null, recommended: 5 }], note: 'TOEFL iBT 100+ (5 on the new scale) is needed for English-based major assignment. Home Edition is accepted; MyBest and Essentials are not.' },
+      ielts: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'English-based major assignment',
+          overall: 7.0,
+          scope: 'Needed at the end of the Global Open Major year to be assigned to an English-based major; TOPIK 5 is needed for a Korean-based major',
+          source: 'https://oia.korea.ac.kr/oia/under/admission.do',
+          verified: '2026-09-18'
+        }
+      ],
+      note: 'Korea University uses this level to assign students to an English-based major after the first year, not as an admission minimum. IELTS Indicator is not accepted.'
+    },
+      toefl: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'English-based major assignment',
+          overall: '100 (before 21 Jan 2026) · 5 (new scale)',
+          scope: 'Needed at the end of the Global Open Major year to be assigned to an English-based major; TOPIK 5 is needed for a Korean-based major',
+          source: 'https://oia.korea.ac.kr/oia/under/admission.do',
+          verified: '2026-09-18'
+        }
+      ],
+      note: 'The Home Edition is accepted; MyBest and Essentials scores are not.'
+    },
       duolingo: { min: null, recommended: null, note: 'Not accepted — only TOEFL iBT or IELTS Academic count as English proof.' },
       waiver: 'Applicants who completed all of secondary school with English (or Korean) as the primary language of instruction can submit a school confirmation letter instead. The International Studies major requires an English qualification.'
     },
@@ -591,8 +656,18 @@
   P['kyung-hee-university'] = {
     english: {
       estimateBasis: 'An estimated level for applying. Kyung Hee\'s published IELTS 7.5 / TOEFL 105 are scholarship thresholds, not admission requirements.',
-      ielts: { min: null, recommended: 7.5, estimate: '6.0+ to apply', note: 'IELTS 7.5+ earns English Track applicants Admission Scholarship B (full tuition for the first semester). The admission minimum is in the current guidelines PDF.' },
-      toefl: { min: null, recommended: 105, estimate: '80+ to apply', note: 'TOEFL iBT 105+ earns Admission Scholarship B (full first-semester tuition).' }
+      ielts: {
+      min: null,
+      recommended: null,
+      estimate: '6.0+ to apply',
+      note: 'IELTS 7.5 or above earns English Track applicants Admission Scholarship B (full tuition for the first semester) — a scholarship threshold, not an admission requirement. The admission minimum is set in the current guidelines PDF.'
+    },
+      toefl: {
+      min: null,
+      recommended: null,
+      estimate: '80+ to apply',
+      note: 'TOEFL iBT 105 or above earns Admission Scholarship B (full first-semester tuition) — a scholarship threshold, not an admission requirement.'
+    }
     },
     sources: [{ label: 'Kyung Hee Spring 2026 international undergraduate guidelines (PDF)', url: 'https://iadmission.khu.ac.kr/gglobalcenter/cmmn/file/fileDown.do?menuNo=8000045&atchFileId=6bff99bbac834f25949f5f535dbbaf42&fileSn=1' }],
     stats: {
@@ -836,8 +911,38 @@
       applicationFee: { amount: 150000, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'KRW 30,000 if a candidate with a preliminary offer reapplies to the same admission unit. Otherwise non-refundable except as Korean law requires.' }
     },
     english: {
-      ielts: { min: 6.5, recommended: 8.0, note: 'English-track majors require IELTS 6.5 before you select your major (end of first year). For scholarships: IELTS 7.0 earns 50% and IELTS 8.0 earns 100% of first-semester tuition.' },
-      toefl: { min: 80, recommended: null, scales: [{ period: 'pre2026', min: 80, recommended: null }, { period: 'post2026', min: 4.5, recommended: null }], note: 'English-track majors require TOEFL iBT 80 (4.5 on the 2026 scale) before major selection. Scholarships: 95 → 50%; 110 (5.5) → 100% of first-semester tuition.' }
+      ielts: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'English-track major selection',
+          overall: 6.5,
+          scope: 'Required before choosing an English-track major at the end of the first year',
+          source: 'https://admission-global.skku.edu/eng/etc/bbs_list.html?bbsid=global_notice_re_eng&ctg_cd=&page=1&skey=&keyword=&mode=view&bltn_seq=53774',
+          verified: '2026-09-18'
+        }
+      ],
+      note: 'Scholarship thresholds are separate from this requirement: IELTS 7.0 earns 50% and IELTS 8.0 earns 100% of first-semester tuition.'
+    },
+      toefl: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'English-track major selection',
+          overall: '80 (before 21 Jan 2026) · 4.5 (new scale)',
+          scope: 'Required before choosing an English-track major at the end of the first year',
+          source: 'https://admission-global.skku.edu/eng/etc/bbs_list.html?bbsid=global_notice_re_eng&ctg_cd=&page=1&skey=&keyword=&mode=view&bltn_seq=53774',
+          verified: '2026-09-18'
+        }
+      ],
+      note: 'Scholarship thresholds are separate: TOEFL iBT 95 earns 50% and 110 (5.5) earns 100% of first-semester tuition.'
+    }
     },
     academics: {
       sat: { policy: 'accepted', note: 'IB, A-Level, AP, SAT and national exams can be submitted as academic references.' },
@@ -871,8 +976,38 @@
       ]
     },
     english: {
-      ielts: { min: 6.5, recommended: null, note: 'Mandatory for the International Studies English Track. IELTS 6.5+ also earns a 30% first-semester scholarship.' },
-      toefl: { min: 89, recommended: 90, note: 'TOEFL iBT 89+ is mandatory for the International Studies English Track; 90+ earns a 30% first-semester scholarship.' }
+      ielts: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'International Studies English Track',
+          overall: 6.5,
+          scope: 'Applicants to the International Studies English Track',
+          source: 'https://oia.hanyang.ac.kr/files/attach/filebox/2026/08/24/4bad55cf33436519f06a243547ec2a6e.pdf',
+          verified: '2026-09-18'
+        }
+      ],
+      note: 'IELTS 6.5 also earns a 30% first-semester scholarship. Korean-taught programmes use TOPIK instead.'
+    },
+      toefl: {
+      min: null,
+      recommended: null,
+      varies: true,
+      profilesComplete: false,
+      profiles: [
+        {
+          name: 'International Studies English Track',
+          overall: '89',
+          scope: 'Applicants to the International Studies English Track',
+          source: 'https://oia.hanyang.ac.kr/files/attach/filebox/2026/08/24/4bad55cf33436519f06a243547ec2a6e.pdf',
+          verified: '2026-09-18'
+        }
+      ],
+      note: 'A TOEFL iBT score of 90 or more earns a 30% first-semester scholarship; that is a scholarship threshold, not a separate requirement.'
+    }
     },
     costs: {
       academicYear: 'Fall 2026 semester',

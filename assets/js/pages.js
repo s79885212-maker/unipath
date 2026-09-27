@@ -140,13 +140,39 @@
       '</section>';
 
     /* English */
+    /* IELTS-style band scores read as 6.0 / 7.5, larger scores (Duolingo) as they are. */
+    function band(x) { return typeof x === 'number' && x < 10 ? x.toFixed(1) : x; }
+    /* One entry per programme, language profile or band the university publishes. */
+    function profileList(t) {
+      return '<ul class="req-profiles">' + t.profiles.map(function (p) {
+        var lines = ['<span class="req-name">' + esc(p.name) + '</span>'];
+        if (has(p.overall)) lines.push('<span class="req-kv"><span class="muted">' + (p.kind === 'competitive' ? 'Competitive level' : 'Overall') +
+          '</span> <strong>' + esc(band(p.overall)) + '</strong></span>');
+        lines.push('<span class="req-kv"><span class="muted">Sections</span> ' + (has(p.sections) ? '<span>' + esc(p.sections) + '</span>'
+          : '<span class="muted">Not stated by the university</span>') + '</span>');
+        if (has(p.scope)) lines.push('<span class="req-kv"><span class="muted">Applies to</span> <span>' + esc(p.scope) + '</span></span>');
+        var meta = [];
+        if (has(p.source)) meta.push('<a href="' + esc(p.source) + '" target="_blank" rel="noopener">Official page ↗</a>');
+        if (has(p.verified)) meta.push('<span>Checked ' + esc(p.verified) + '</span>');
+        if (meta.length) lines.push('<span class="req-meta small">' + meta.join(' · ') + '</span>');
+        return '<li>' + lines.join('') + '</li>';
+      }).join('') + '</ul>';
+    }
     function testRow(label, t) {
       if (!t) return row(label, UNKNOWN);
       var v = [];
+      if (U.testVaries(t)) {
+        v.push('<strong class="req-varies">' + esc(U.variesLabel(t)) + '</strong>');
+        if (has(t.min)) v.push('<span>University-wide minimum: <strong>' + esc(band(t.min)) + '</strong></span>');
+        if (t.profiles && t.profiles.length) v.push(profileList(t));
+        else v.push('<span class="muted">The level is published on each programme page.</span>');
+        if (has(t.note)) v.push('<span class="small muted">' + esc(t.note) + '</span>');
+        return row(label, v.join(''));
+      }
       if (t.scales && t.scales.length) {
         v = U.toeflLines(u).map(function (l) { return '<strong>' + esc(l) + '</strong>'; });
       } else {
-        if (has(t.min)) v.push('<strong>' + (t.lowestLevel ? 'Lowest minimum (varies by course): ' : 'Minimum: ') + esc(t.min) + '</strong>');
+        if (has(t.min)) v.push('<strong>Minimum: ' + esc(t.min) + '</strong>');
         if (has(t.recommended)) v.push('<strong>Recommended / competitive: ' + esc(t.recommended) + '</strong>');
       }
       if (!has(t.min) && !has(t.recommended)) v.push('<span class="muted">Not published by the university.</span>');
