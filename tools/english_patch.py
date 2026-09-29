@@ -83,3 +83,30 @@ def set_tests(path, anchor, tests):
 def base(uid): return r"\n  id: '" + re.escape(uid) + r"',\n"
 
 def base_dq(uid): return r'\n    id: "' + re.escape(uid) + r'",\n'
+
+FILES = ['data/universities.us.js', 'data/universities.us2.js', 'data/universities.uk.js',
+         'data/universities.de.js', 'data/universities.jp.js', 'data/universities.kr.js',
+         'data/admission-profiles.js']
+
+def set_deadline_field(uid, name, field, value):
+    """Set `field` on the deadline object named `name` of university `uid`, wherever it is defined.
+    Checks the layer file first, because an override there is what the site shows."""
+    lit = js(value)
+    for path in reversed(FILES):
+        s = io.open(path, encoding='utf-8').read()
+        anchors = [m.start() for m in re.finditer(r"(id: ['\"]%s['\"]|P\['%s'\]|patch\('%s')" % ((re.escape(uid),) * 3), s)]
+        for a in anchors:
+            for q in ("'", '"'):
+                needle = 'name: ' + q + name.replace(q, '\\' + q) + q
+                i = s.find(needle, a, a + 60000)
+                if i < 0: continue
+                ob = s.rindex('{', 0, i); oe = block_end(s, ob)
+                obj = s[ob:oe]
+                if re.search(r'\b' + field + r':\s*', obj):
+                    obj2 = re.sub(r'(\b' + field + r':\s*)(\'[^\']*\'|"[^"]*"|null|true|false|[\d.]+)', lambda m: m.group(1) + lit, obj, count=1)
+                else:
+                    obj2 = obj[:-1].rstrip() + ', ' + field + ': ' + lit + ' }'
+                s = s[:ob] + obj2 + s[oe:]
+                io.open(path, 'w', encoding='utf-8').write(s)
+                return path
+    raise ValueError('deadline not found: %s / %s' % (uid, name))

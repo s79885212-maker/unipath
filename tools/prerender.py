@@ -155,8 +155,7 @@ def english_lines(t, name):
     one = score_parts(t, t.get("lowestLevel"))
     if one:
         return [one[0].upper() + one[1:]]
-    if has(t.get("estimate")):
-        return [f"{t['estimate']} (UniPath estimate — not an official requirement)"]
+
     return [f"{name}: not published by the university"]
 
 
@@ -168,6 +167,40 @@ def sat_label(u):
             "required-alternatives": "Testing required — alternatives to SAT/ACT accepted",
             "optional": "Test-optional", "accepted": "SAT/ACT accepted — requirement not confirmed",
             "not-used": "SAT/ACT not used"}.get(t.get("policy"), "Policy not confirmed")
+
+
+def sat_stats_line(u) -> str:
+    """Official SAT figures, labelled by the sample the source reports on.
+    A range is never presented as an average."""
+    st = u.get("stats") or {}
+    o = st.get("official") or {}
+    sat = o.get("sat") or {}
+    if o.get("satNotPublished"):
+        return "Not published by the university"
+    if not sat:
+        return ""
+    bits = []
+    if has(sat.get("mean")):
+        bits.append(f"average {e(sat['mean'])}")
+    comp = sat.get("composite")
+    if comp:
+        bits.append(f"median {e(comp[1])}")
+        bits.append(f"middle 50% {e(comp[0])}–{e(comp[2])}")
+    elif sat.get("rw") and sat.get("math"):
+        bits.append(f"sections only: Reading and Writing {e(sat['rw'][0])}–{e(sat['rw'][2])}, "
+                    f"Math {e(sat['math'][0])}–{e(sat['math'][2])} (middle 50%)")
+    if not bits:
+        return ""
+    who = {"enrolled": "enrolled first-year students", "admitted": "admitted students"}.get(
+        sat.get("cohort"), "students (sample not stated)")
+    meta = [e(sat.get("term") or st.get("term") or "Year not stated"), who]
+    if sat.get("submittersOnly"):
+        meta.append("only students who submitted scores" + (f" ({e(sat['submitted'])} of the class)" if has(sat.get("submitted")) else ""))
+    src = sat.get("source") or st.get("source")
+    out = " · ".join(bits) + "<br><small>" + " · ".join(meta)
+    if src:
+        out += f' · <a href="{e(src.get("url"))}" rel="noopener">{e(src.get("label"))}</a>'
+    return out + "</small>"
 
 
 def fee_text(u):
@@ -283,19 +316,29 @@ def university_page(u, country, fields):
         row("What the figures cover", e(bd["includes"]))
     deadlines = adm.get("deadlines") or []
     if deadlines:
+        STATUS = {"confirmed": "confirmed for this cycle", "previous-cycle": "previous cycle \u2014 not yet republished"}
+        APP = {"ED", "ED2", "EA", "REA", "RD", "rolling", "priority", "ucas-main", "ucas-october",
+               "round-1", "round-2", "round-3", "round", "application-window", "intake"}
         def one(d):
             text = d.get("displayDate") or d.get("date") or ""
-            year = bool(d.get("dateISO")) or bool(re.search(r"\b(19|20)\d{2}\b", text))
-            term = f" ({e(d['entryTerm'])})" if d.get("entryTerm") else ""
-            flag = "" if year else " \u2014 current cycle date not confirmed"
-            return f"{e(d.get('name'))}{term}: <strong>{e(text)}</strong>{flag}"
-        row("Deadlines", "<br>".join(one(d) for d in deadlines))
+            term = f" ({e(d['entryTerm'])} {e(d.get('entryYear') or '')})".replace(" )", ")") if d.get("entryTerm") else ""
+            status = STATUS.get(d.get("status"), "not confirmed for this cycle")
+            return f"{e(d.get('name'))}{term}: <strong>{e(text)}</strong> \u2014 {status}"
+        apps = [d for d in deadlines if not d.get("kind") or d.get("kind") in APP]
+        others = [d for d in deadlines if d.get("kind") and d.get("kind") not in APP]
+        if apps:
+            row("Application deadlines", "<br>".join(one(d) for d in apps))
+        if others:
+            row("Other dates in the cycle", "<br>".join(one(d) for d in others))
     row("Application fee", e(fee_text(u)))
     for key, name in (("ielts", "IELTS"), ("toefl", "TOEFL"), ("duolingo", "Duolingo English Test")):
         lines = english_lines(eng.get(key), name)
         if lines:
             row(name, "<br>".join(e(x) for x in lines))
     row("SAT / ACT", e(sat_label(u)))
+    sat_stats = sat_stats_line(u)
+    if sat_stats:
+        row("SAT statistics", sat_stats)
     if fr.get("available") is True:
         who = " — open to international students" if fr.get("internationalEligible") is True else ""
         row("Full scholarship route", "Yes" + e(who))

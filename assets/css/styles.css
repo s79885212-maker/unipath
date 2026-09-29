@@ -2396,3 +2396,23 @@ button.badge {
 @media (max-width: 620px) {
   .badge { white-space: normal; }
 }
+
+/* Confirmation status of a round (kept apart from whether the date has passed) */
+.round-status { font-weight: 600; font-size: 0.85rem; }
+.round-status-confirmed { color: var(--ok-600); }
+.round-status-previous-cycle,
+.round-status-not-confirmed { color: var(--warn-700); }
+
+/* Official test statistics — kept apart from requirements */
+.stat-group { margin: 6px 0 14px; }
+.stat-group h4 { margin: 0 0 6px; font-size: 1rem; }
+.stat-line {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2px 12px;
+  padding: 5px 0;
+  border-bottom: 1px solid var(--line-soft);
+}
+.stat-line > .muted { min-width: 12em; }
+.stat-meta { margin: 6px 0 0; overflow-wrap: anywhere; }

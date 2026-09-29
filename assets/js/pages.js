@@ -98,29 +98,46 @@
           encodeURIComponent(u.name + ', ' + u.city) + '" target="_blank" rel="noopener">View ' + esc(u.city) + ' on OpenStreetMap ↗</a>' : UNKNOWN) +
       '</dl></section>';
 
-    /* Admissions */
-    var deadlines = has(a.deadlines)
-      ? '<div class="rounds"><table class="rounds-table"><thead><tr>' +
-          '<th>Round</th><th>Deadline</th><th>Intake</th><th>Conditions</th><th>Source</th></tr></thead><tbody>' +
-        a.deadlines.map(function (d) {
-          var status = U.roundStatus(d);
-          var conds = U.roundConditions(d);
-          var src = has(d.source) ? d.source : null;
-          return '<tr class="round-' + status + '">' +
-            '<td data-label="Round"><strong>' + esc(d.name) + '</strong></td>' +
-            '<td data-label="Deadline">' + esc(U.roundWhen(d)) +
-              (status !== 'confirmed' ? '<br><span class="small warn-text">' + esc(U.roundStatusLabel(d)) + '</span>' : '') + '</td>' +
-            '<td data-label="Intake">' + (U.roundIntake(d) ? esc(U.roundIntake(d)) : '<span class="unknown">Not stated</span>') + '</td>' +
-            '<td data-label="Conditions">' + (conds.length
-              ? conds.map(function (c) { return esc(c); }).join('<br>')
-              : '<span class="unknown">Not stated</span>') + '</td>' +
-            '<td data-label="Source">' + (src
-              ? '<a href="' + esc(src) + '" target="_blank" rel="noopener">Official page ↗</a>' +
-                (has(d.verified) ? '<br><span class="small muted">Checked ' + esc(d.verified) + '</span>' : '')
-              : '<span class="unknown">Not linked</span>') + '</td>' +
-            '</tr>';
-        }).join('') + '</tbody></table></div>'
-      : '<p>' + UNKNOWN + '</p>';
+    /* Admissions — application deadlines and the other dates of a cycle are
+       listed separately; each row keeps its own confirmation and state. */
+    function statusCell(d) {
+      var st = U.roundStatus(d), state = U.roundStateLabel(d);
+      return '<span class="round-status round-status-' + esc(st) + '">' + esc(U.roundStatusLabel(d)) + '</span>' +
+        (state ? '<br><span class="small muted">' + esc(state) + '</span>' : '');
+    }
+    function sourceCell(d) {
+      return has(d.source)
+        ? '<a href="' + esc(d.source) + '" target="_blank" rel="noopener">Official page ↗</a>' +
+          (has(d.verified) ? '<br><span class="small muted">Checked ' + esc(d.verified) + '</span>' : '')
+        : '<span class="unknown">Not linked</span>';
+    }
+    function roundRows(list, first) {
+      return list.map(function (d) {
+        var conds = U.roundConditions(d);
+        return '<tr class="round-' + esc(U.roundStatus(d)) + '">' +
+          '<td data-label="' + first + '"><strong>' + esc(first === 'Type' ? U.otherDateLabel(d) : d.name) + '</strong>' +
+            (first === 'Type' ? '<br><span class="small">' + esc(d.name) + '</span>' : '') + '</td>' +
+          '<td data-label="Date">' + esc(U.roundWhen(d)) + '</td>' +
+          '<td data-label="Intake">' + (U.roundIntake(d) ? esc(U.roundIntake(d)) : '<span class="unknown">Not stated</span>') + '</td>' +
+          '<td data-label="Conditions">' + (conds.length
+            ? conds.map(function (c) { return esc(c); }).join('<br>')
+            : '<span class="unknown">Not stated</span>') + '</td>' +
+          '<td data-label="Status">' + statusCell(d) + '</td>' +
+          '<td data-label="Source">' + sourceCell(d) + '</td>' +
+          '</tr>';
+      }).join('');
+    }
+    function roundTable(list, first) {
+      return '<div class="rounds"><table class="rounds-table"><thead><tr>' +
+        '<th>' + first + '</th><th>Date</th><th>Intake</th><th>Conditions</th><th>Status</th><th>Source</th></tr></thead><tbody>' +
+        roundRows(list, first) + '</tbody></table></div>';
+    }
+    var appRounds = (a.deadlines || []).filter(U.isApplicationDeadline);
+    var otherDates = (a.deadlines || []).filter(function (d) { return !U.isApplicationDeadline(d); });
+    var deadlines = (appRounds.length ? roundTable(appRounds, 'Round') : '<p>' + UNKNOWN + '</p>') +
+      (otherDates.length ? '<h3 style="margin-top:18px">Other dates in the cycle</h3>' +
+        '<p class="small muted">Opening dates, interviews, tests, financial aid, scholarship, decision and reply dates. These are not deadlines to apply.</p>' +
+        roundTable(otherDates, 'Type') : '');
 
     var fee = a.applicationFee || {};
     var admissions = '<section class="profile-section" id="admissions"><h2>Admissions</h2>' +
@@ -176,13 +193,30 @@
         if (has(t.recommended)) v.push('<strong>Recommended / competitive: ' + esc(t.recommended) + '</strong>');
       }
       if (!has(t.min) && !has(t.recommended)) v.push('<span class="muted">Not published by the university.</span>');
-      if (has(t.estimate)) {
-        v.push('<span class="estimate-line"><span class="badge badge-warn">UniPath estimate</span> Aim for <strong>' + esc(t.estimate) + '</strong></span>');
-        if (has(eng.estimateBasis)) v.push('<span class="small muted">' + esc(eng.estimateBasis) + '</span>');
-        v.push('<span class="small muted">This is guidance, not an official requirement or a guarantee of admission.</span>');
-      }
       if (has(t.note)) v.push('<span class="small muted">' + esc(t.note) + '</span>');
       return row(label, v.length ? v.join('<br>') : UNKNOWN);
+    }
+    /* Scores of students who were admitted or enrolled — shown only when the
+       university publishes them with a stated sample and year, and always
+       apart from the requirement itself. */
+    function englishStats() {
+      var o = (u.stats || {}).official || {}, x = o.english;
+      var body;
+      if (x && (has(x.ielts) || has(x.toefl) || has(x.duolingo))) {
+        var lines = [];
+        if (has(x.ielts)) lines.push('<div class="stat-line"><span class="muted">' + esc(x.measure === 'median' ? 'Median IELTS' : 'Average IELTS') + '</span> <strong>' + esc(x.ielts) + '</strong></div>');
+        if (has(x.toefl)) lines.push('<div class="stat-line"><span class="muted">' + esc(x.measure === 'median' ? 'Median TOEFL' : 'Average TOEFL') + '</span> <strong>' + esc(x.toefl) + '</strong></div>');
+        if (has(x.duolingo)) lines.push('<div class="stat-line"><span class="muted">' + esc(x.measure === 'median' ? 'Median Duolingo' : 'Average Duolingo') + '</span> <strong>' + esc(x.duolingo) + '</strong></div>');
+        var meta = ['<span>' + esc(x.term || 'Year not stated') + '</span>', '<span>' + esc(COHORT[x.cohort] || 'sample not stated') + '</span>'];
+        if (x.source) meta.push('<a href="' + esc(x.source.url) + '" target="_blank" rel="noopener">' + esc(x.source.label) + ' ↗</a>');
+        body = lines.join('') + '<p class="small muted stat-meta">' + meta.join(' · ') + '</p>';
+      } else if (o.englishNotPublished) {
+        body = '<p class="muted">The university does not publish the English scores of admitted students.</p>';
+      } else {
+        body = '<p class="unknown">Statistics not yet confirmed.</p>';
+      }
+      return '<div class="stat-group" style="margin-top:14px"><h4>English scores of admitted students</h4>' + body +
+        '<p class="small muted">These figures, where published, describe past students. They are not a minimum and do not guarantee admission.</p></div>';
     }
     var english = '<section class="profile-section" id="english"><h2>English requirements</h2>' +
       '<div class="notice notice-info"><span class="ico">ℹ️</span><div data-i18n-html>A <strong>minimum</strong> score is what makes an application valid. A <strong>recommended or competitive</strong> score is what successful applicants actually score. Where a university publishes only one of the two, that is shown.</div></div>' +
@@ -192,7 +226,9 @@
         testRow('Duolingo English Test', eng.duolingo) +
         row('Waiver / exemption', or(eng.waiver)) +
         row('Notes', or(eng.note)) +
-      '</dl></section>';
+      '</dl>' + englishStats() +
+      (U.satPolicy(u) === 'optional' ? '<p class="small muted" style="margin-top:10px">Test-optional for the SAT/ACT does not remove the English language requirement above.</p>' : '') +
+      '</section>';
 
     /* Academics */
     var gpa = ac.gpa;
@@ -209,6 +245,56 @@
       return row(label, p + (has(t.note) ? '<br><span class="small muted">' + esc(t.note) + '</span>' : ''));
     }
     function range3(a) { return a ? esc(a[0]) + ' / <strong>' + esc(a[1]) + '</strong> / ' + esc(a[2]) : null; }
+    /* Official admission statistics. SAT/ACT figures are labelled by the
+       sample the source reports on (admitted or enrolled students, all or
+       only those who submitted scores). A range is never shown as an
+       average, and no average or median is derived from a range. */
+    var COHORT = { enrolled: 'enrolled first-year students', admitted: 'admitted students' };
+    function testStats(x, kind, st) {
+      if (!x) return '';
+      var lines = [];
+      var p = x.composite || (kind === 'ACT' ? x.range : null);
+      if (has(x.mean)) lines.push('<div class="stat-line"><span class="muted">Average ' + kind + ' score</span> <strong>' + esc(x.mean) + '</strong></div>');
+      var med = has(x.median) ? x.median : (p && has(p[1]) ? p[1] : null);
+      if (has(med)) lines.push('<div class="stat-line"><span class="muted">Median ' + kind + ' score</span> <strong>' + esc(med) + '</strong></div>');
+      if (p && has(p[0]) && has(p[2])) lines.push('<div class="stat-line"><span class="muted">Middle 50% ' + kind + ' range</span> <strong>' + esc(p[0]) + '–' + esc(p[2]) + '</strong></div>');
+      function section(label, r) {
+        if (!r) return;
+        var bits = [];
+        if (has(r[0]) && has(r[2])) bits.push('middle 50%: ' + esc(r[0]) + '–' + esc(r[2]));
+        if (has(r[1])) bits.push('median: ' + esc(r[1]));
+        if (bits.length) lines.push('<div class="stat-line small"><span class="muted">' + label + '</span> <span>' + bits.join(' · ') + '</span></div>');
+      }
+      section('Evidence-Based Reading and Writing', x.rw);
+      section('Math', x.math);
+      if (!lines.length) return '';
+      var cohort = COHORT[x.cohort] || 'students (sample not stated by the source)';
+      var meta = [];
+      meta.push('<span>' + esc(x.term || st.term || 'Year not stated') + '</span>');
+      meta.push('<span>' + esc(cohort) + '</span>');
+      if (x.submittersOnly) meta.push('<span>' + (has(x.submitted) ? 'Only students who submitted scores (' + esc(x.submitted) + ' of the class)' : 'Only students who submitted scores') + '</span>');
+      var src = x.source || st.source;
+      if (src) meta.push('<a href="' + esc(src.url) + '" target="_blank" rel="noopener">' + esc(src.label) + ' ↗</a>');
+      if (has(x.note)) meta.push('<span>' + esc(x.note) + '</span>');
+      return '<div class="stat-group"><h4>' + esc(kind === 'SAT' ? 'SAT scores of ' + cohort : 'ACT scores of ' + cohort) + '</h4>' +
+        lines.join('') + '<p class="small muted stat-meta">' + meta.join(' · ') + '</p></div>';
+    }
+    function testingStatsCard(u) {
+      var st = u.stats || {}, o = st.official || {}, pol = U.satPolicy(u);
+      var satHtml = testStats(o.sat, 'SAT', st), actHtml = testStats(o.act ? { range: o.act, mean: o.actMean, cohort: (o.sat || {}).cohort,
+        term: (o.sat || {}).term, submittersOnly: (o.sat || {}).submittersOnly, source: (o.sat || {}).source } : null, 'ACT', st);
+      var body;
+      if (satHtml || actHtml) body = satHtml + actHtml;
+      else if (pol === 'not-used') body = '<p class="muted">SAT/ACT scores are not used in admission, so no test statistics apply.</p>';
+      else if (o.satNotPublished) body = '<p class="muted">The university does not publish SAT/ACT statistics.</p>' +
+        (typeof o.satNotPublished === 'string' ? '<p class="small muted">' + esc(o.satNotPublished) + (st.source ? ' <a href="' + esc(st.source.url) + '" target="_blank" rel="noopener">' + esc(st.source.label) + ' ↗</a>' : '') + '</p>' : '');
+      else body = '<p class="unknown">Statistics not yet confirmed.</p>';
+      return '<div class="card" style="margin-top:22px"><div class="card-body">' +
+        '<h3 style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">📊 SAT/ACT statistics' +
+          ((satHtml || actHtml) ? ' <span class="badge badge-ok">Official data</span>' : '') + '</h3>' + body +
+        ((satHtml || actHtml) ? '<div class="notice notice-info" style="margin-top:12px"><span class="ico">ℹ️</span><div>These statistics describe students from a past intake. They are not a required minimum and do not guarantee admission. Requirements of individual programmes and scholarships are shown separately.</div></div>' : '') +
+        '</div></div>';
+    }
     function statsBlock(st) {
       if (!st) return '';
       var o = st.official || {}, t = st.targets || {}, rows = '';
@@ -220,52 +306,53 @@
       if (has(o.history)) rows += row('Previous years', esc(o.history));
       if (o.gpa && (has(o.gpa.average) || has(o.gpa.note))) rows += row('Average high school GPA',
         (has(o.gpa.average) ? '<strong>' + esc(o.gpa.average) + '</strong><br>' : '') + (has(o.gpa.note) ? '<span class="small muted">' + esc(o.gpa.note) + '</span>' : ''));
-      if (o.sat) {
-        var sat = [];
-        if (o.sat.composite) sat.push('Total: ' + range3(o.sat.composite));
-        if (has(o.sat.mean)) sat.push('Average: <strong>' + esc(o.sat.mean) + '</strong>');
-        if (o.sat.math) sat.push('Math: ' + range3(o.sat.math));
-        if (o.sat.rw) sat.push('Reading & Writing: ' + range3(o.sat.rw));
-        if (o.sat.composite || o.sat.math) sat.push('<span class="small muted">25th / <strong>median</strong> / 75th percentile' +
-          (o.sat.submitted ? ' · ' + esc(o.sat.submitted) + ' of the class submitted an SAT' : '') + '</span>');
-        rows += row('SAT of admitted students', sat.join('<br>'));
-      }
-      if (o.act) rows += row('ACT composite', range3(o.act) + ' <span class="small muted">(25th / median / 75th)</span>');
-      if (has(o.actMean)) rows += row('ACT average', '<strong>' + esc(o.actMean) + '</strong>');
       if (has(o.other)) rows += row('Other', list(o.other));
       if (has(o.classRank)) rows += row('Class rank', esc(o.classRank));
       if (has(o.note)) rows += row('Note', esc(o.note));
-
-      var html = '<div class="card" style="margin-top:22px"><div class="card-body">' +
-        '<h3 style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">📊 Who gets in' +
-          (rows ? ' <span class="badge badge-ok">Official data</span>' : '') + '</h3>' +
+      var html = '';
+      if (rows) html += '<div class="card" style="margin-top:22px"><div class="card-body">' +
+        '<h3 style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">📊 Who gets in <span class="badge badge-ok">Official data</span></h3>' +
         '<p class="small muted" style="margin:0 0 6px">' + esc(st.term) +
           (st.source ? ' · Source: <a href="' + esc(st.source.url) + '" target="_blank" rel="noopener">' + esc(st.source.label) + ' ↗</a>' : '') + '</p>' +
-        (rows ? '<dl class="deflist">' + rows + '</dl>' : '');
-      if (t.ielts || t.sat || t.gpa) {
+        '<dl class="deflist">' + rows + '</dl></div></div>';
+      if (t.sat || t.gpa) {
         html += '<div class="target-box">' +
           '<h4>🎯 Target band <span class="badge badge-warn">UniPath estimate</span></h4>' +
           '<div class="target-grid">' +
-            '<div><span>IELTS</span><b>' + or(t.ielts) + '</b></div>' +
             '<div><span>SAT</span><b>' + or(t.sat) + '</b></div>' +
             '<div><span>GPA</span><b>' + or(t.gpa) + '</b></div>' +
           '</div>' +
           (has(t.basis) ? '<p class="small muted" style="margin:10px 0 0">' + esc(t.basis) + '</p>' : '') +
-          '<p class="tiny muted" style="margin:6px 0 0">UniPath estimates are guidance for planning, not official requirements or cut-offs. Meeting them does not guarantee admission.</p>' +
+          '<p class="tiny muted" style="margin:6px 0 0">UniPath estimates are guidance for planning, not official requirements, statistics or cut-offs. Meeting them does not guarantee admission.</p>' +
         '</div>';
       }
-      return html + '</div></div>';
+      return html;
     }
 
+    function satPolicySummary() {
+      var pol = U.satPolicy(u);
+      var SUMMARY = {
+        optional: ['Test-optional', 'You can apply without SAT or ACT scores.'],
+        required: ['Required', 'SAT or ACT scores are required.'],
+        'required-alternatives': ['Testing required, alternatives accepted', 'A test is required, but the university accepts alternatives to the SAT and ACT.'],
+        'not-used': ['Not used', 'SAT and ACT scores are not considered in admission.'],
+        accepted: ['Accepted', 'Scores are accepted; whether they are required was not confirmed.'],
+        unknown: ['Not confirmed', 'The testing policy was not confirmed.']
+      };
+      var x = SUMMARY[pol] || SUMMARY.unknown;
+      return '<strong class="req-varies">' + esc(x[0]) + '</strong><span>' + esc(x[1]) + '</span>';
+    }
     var academics = '<section class="profile-section" id="academics"><h2>Academic requirements</h2>' +
       '<div class="notice notice-warn"><span class="ico">⚠️</span><div data-i18n-html>Requirements are <strong>not the same for every applicant</strong>. Individual faculties, schools and programmes often set higher bars than the university minimum, and international applicants are frequently assessed on a separate track. Check the requirement for your exact programme and entry year.</div></div>' +
       '<dl class="deflist" style="margin-top:18px">' +
+        row('SAT/ACT policy', satPolicySummary()) +
         row('GPA', gpaText) +
         testPolicyRow('SAT', ac.sat) +
         testPolicyRow('ACT', ac.act) +
         row('Other standardized tests', or(ac.otherTests)) +
         row('International qualifications', or(ac.internationalQualifications)) +
-      '</dl>' + statsBlock(u.stats) + '</section>';
+      '</dl>' + ((u.country === 'us' || (u.stats && u.stats.official && (u.stats.official.sat || u.stats.official.act))) ? testingStatsCard(u) : '') +
+      statsBlock(u.stats) + '</section>';
 
     /* Scholarships */
     var frCard = '<article class="card fullride-card" style="margin-bottom:16px"><div class="card-body">' +
@@ -865,28 +952,35 @@
         return lines.length ? lines.map(function (l) { return '<span>' + esc(l) + '</span>'; }).join('<br>') : UNKNOWN;
       }],
       ['SAT / ACT policy', function (u) { return esc(U.satLabel(u)); }],
-      ['Application deadline', function (u) {
-        var d = u.admissions && u.admissions.deadlines;
+      ['Next application deadline', function (u) {
+        var n = U.nextDeadline(u);
+        return n.state === 'upcoming' ? '<strong>' + esc(U.deadlineCardText(u)) + '</strong>' : '<span class="unknown">' + esc(U.deadlineCardText(u)) + '</span>';
+      }],
+      ['Application deadlines', function (u) {
+        var d = ((u.admissions && u.admissions.deadlines) || []).filter(U.isApplicationDeadline);
         if (!has(d)) return UNKNOWN;
         return d.map(function (x) { return '<span>' + esc(x.name) + '</span><br>' + U.deadlineHtml(x); }).join('<br><br>');
       }],
       ['group', 'Who gets in'],
       ['Acceptance rate', function (u) { var o = (u.stats || {}).official || {}; return o.admitRate ? '<strong>' + esc(o.admitRate.value) + '%</strong>' : '<span class="unknown">Not published</span>'; }],
       ['Average GPA', function (u) { var o = (u.stats || {}).official || {}; return o.gpa && has(o.gpa.average) ? '<strong>' + esc(o.gpa.average) + '</strong>' : '<span class="unknown">Not published</span>'; }],
-      ['SAT of admitted students', function (u) {
-        /* Only published figures: a total median is never derived by adding section medians. */
-        var o = (u.stats || {}).official || {}, sat = o.sat || {}, out = [];
-        if (sat.composite) out.push('<span>Median SAT: <strong>' + esc(sat.composite[1]) + '</strong></span>');
-        if (has(sat.mean)) out.push('<span>Average SAT: <strong>' + esc(sat.mean) + '</strong></span>');
-        if (!sat.composite) {
-          if (sat.rw) out.push('<span>Reading and Writing median: <strong>' + esc(sat.rw[1]) + '</strong></span>');
-          if (sat.math) out.push('<span>Math median: <strong>' + esc(sat.math[1]) + '</strong></span>');
-        }
-        return out.length ? out.join('<br>') : '<span class="unknown">Not published</span>';
+      ['SAT statistics', function (u) {
+        var o = (u.stats || {}).official || {}, x = o.sat;
+        if (!x) return U.satPolicy(u) === 'not-used' ? '<span class="muted">Not used in admission</span>'
+          : '<span class="unknown">' + (o.satNotPublished ? 'Not published by the university' : 'Statistics not yet confirmed') + '</span>';
+        var bits = [];
+        if (has(x.mean)) bits.push('Average: <strong>' + esc(x.mean) + '</strong>');
+        var p = x.composite, med = has(x.median) ? x.median : (p && has(p[1]) ? p[1] : null);
+        if (has(med)) bits.push('Median: <strong>' + esc(med) + '</strong>');
+        if (p && has(p[0]) && has(p[2])) bits.push('Middle 50%: <strong>' + esc(p[0]) + '–' + esc(p[2]) + '</strong>');
+        if (!p && (x.rw || x.math)) bits.push('<span class="small">Section scores only</span>');
+        bits.push('<span class="small muted">' + esc(x.cohort === 'admitted' ? 'Admitted students' : x.cohort === 'enrolled' ? 'Enrolled first-year students' : 'Sample not stated') +
+          (x.submittersOnly ? ', score submitters only' : '') + '</span>');
+        return bits.join('<br>');
       }],
       ['UniPath estimate (target band)', function (u) {
         var t = (u.stats || {}).targets; if (!t) return UNKNOWN;
-        return '<span class="badge badge-warn">UniPath estimate</span><br><span class="small">IELTS: ' + or(t.ielts) + '<br>SAT: ' + or(t.sat) + '<br>GPA: ' + or(t.gpa) + '</span>' +
+        return '<span class="badge badge-warn">UniPath estimate</span><br><span class="small">SAT: ' + or(t.sat) + '<br>GPA: ' + or(t.gpa) + '</span>' +
           '<br><span class="tiny muted">Guidance only — not an official requirement.</span>';
       }],
       ['group', 'Scholarships'],

@@ -244,7 +244,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['University of Freiburg online application'],
     deadlines: [
-      { name: 'Liberal Arts and Sciences application', kind: 'intake', entryTerm: 'Winter', entryYear: '2027', dateISO: '2027-07-15', date: '1 June – 15 July', binding: false, appliesTo: 'Applicants to the English-taught Liberal Arts and Sciences programme', conditions: 'Carried over from the earlier verification and not re-confirmed on the official pages during this check.', status: 'not-confirmed', source: 'https://uni-freiburg.de/ucf/las/apply/', verified: null, note: null },
+      { name: 'Liberal Arts and Sciences application (2026 cycle)', kind: 'application-window', entryTerm: 'Winter', entryYear: '2026', dateISO: '2026-07-15', date: '15 July 2026 (previous cycle)', binding: false, appliesTo: 'Applicants to the English-taught Liberal Arts and Sciences programme', conditions: 'Freiburg states that the 2026 application period is over and that the guidelines will be amended for 2027 as necessary. In 2026, notifications followed in late July.', status: 'previous-cycle', source: 'https://uni-freiburg.de/ucf/las/apply/', verified: '2026-09-30', note: 'The 2027 dates had not been published when this was checked.' }
     ],
     applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null },
     documents: [
@@ -827,7 +827,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Bard College Berlin online application'],
     deadlines: [
-      { name: 'Application rounds for 2027 entry', kind: 'other', entryTerm: 'Autumn', entryYear: '2027', date: 'Not confirmed', status: 'not-confirmed', binding: false, appliesTo: 'BA applicants', conditions: 'Bard College Berlin publishes its rounds on the admissions pages; the 2027 dates were not read during this check', source: 'https://berlin.bard.edu/admissions/', verified: '2026-09-23', note: null }
+      { name: 'Application rounds for 2027 entry', kind: 'application-window', entryTerm: 'Autumn', entryYear: '2027', date: 'Not confirmed', status: 'not-confirmed', binding: false, appliesTo: 'BA applicants', conditions: 'Bard College Berlin publishes its rounds on the admissions pages; the 2027 dates were not read during this check', source: 'https://berlin.bard.edu/admissions/', verified: '2026-09-23', note: null }
     ],
     applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
     documents: ['Secondary school diploma and transcripts', 'Proof of English at C1 level unless a native speaker', 'Application essay as set by the college'],
@@ -1309,7 +1309,10 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['WHU online application'],
     deadlines: [
-      { name: 'Application for the autumn 2027 intake', kind: 'intake', entryTerm: 'autumn', entryYear: '2027', date: 'Not confirmed', status: 'not-confirmed', binding: false, appliesTo: 'Bachelor applicants', conditions: 'Application dates are published by the university; the dates for this intake were not read during this check.', source: 'https://www.whu.edu/en/programs/bachelor-program/bachelor-in-international-business-administration/application-admissions/', verified: '2026-09-23', note: null }
+      { name: 'Admission Round 1', kind: 'round-1', entryTerm: 'September', entryYear: '2027', dateISO: '2027-01-31', date: '31 January 2027', binding: false, appliesTo: 'Applicants to the BSc in International Business Administration (September 2027 start)', conditions: 'WHU calls this the early-bird deadline. Written test and online assessment 20–21 February 2027; final interviews 12–14 March 2027. Applicants can take part in only one admission round.', status: 'confirmed', source: 'https://www.whu.edu/en/programs/bachelor-program/bachelor-in-international-business-administration/application-admissions/', verified: '2026-09-30', note: null },
+      { name: 'Admission Round 2', kind: 'round-2', entryTerm: 'September', entryYear: '2027', dateISO: '2027-03-31', date: '31 March 2027', binding: false, appliesTo: 'Applicants to the BSc in International Business Administration (September 2027 start)', conditions: 'Written test and online assessment 17–18 April 2027; final interviews 7–9 May 2027. Application fee from 1 February to 31 March 2027: €75 with WHU’s voucher code.', status: 'confirmed', source: 'https://www.whu.edu/en/programs/bachelor-program/bachelor-in-international-business-administration/application-admissions/', verified: '2026-09-30', note: null },
+      { name: 'Admission Round 3', kind: 'round-3', entryTerm: 'September', entryYear: '2027', dateISO: '2027-05-15', date: '15 May 2027', binding: false, appliesTo: 'Applicants to the BSc in International Business Administration (September 2027 start)', conditions: 'Written test and online assessment 29–30 May 2027; final interviews 19–20 June 2027. Application fee from 1 April to 15 May 2027: €150. English test results and proof of internships are due by 15 May 2027 for every round.', status: 'confirmed', source: 'https://www.whu.edu/en/programs/bachelor-program/bachelor-in-international-business-administration/application-admissions/', verified: '2026-09-30', note: null },
+      { name: 'Application period opens', kind: 'opens', entryTerm: 'September', entryYear: '2027', dateISO: '2026-10-15', date: '15 October 2026', binding: false, appliesTo: 'Applicants to the BSc in International Business Administration (September 2027 start)', conditions: 'Applications are accepted from 15 October 2026 to 15 May 2027. Studies begin on 1 September 2027.', status: 'confirmed', source: 'https://www.whu.edu/en/programs/bachelor-program/bachelor-in-international-business-administration/application-admissions/', verified: '2026-09-30', note: null }
     ],
     applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
     documents: ['University entrance qualification such as the IB or A-levels', 'Proof of advanced English', 'Six-week internship completed before or during the programme'],
@@ -1320,7 +1323,7 @@ window.UNIPATH.universities.push(
   },
   english: {
     ielts: { min: 7, recommended: null, note: 'WHU requires IELTS Academic 7.0 for the Bachelor in International Business Administration.' },
-    toefl: { min: 95, recommended: null, scales: [{ period: 'pre2026', min: 95, note: 'TOEFL iBT 95 on the classic scale; the Special Home Edition is also accepted at 95.' }, { period: 'from2026', min: 5, note: 'TOEFL iBT 5 on the scale used from January 2026.' }], note: 'The institutional TOEFL (ITP) is accepted at 597.' },
+    toefl: { min: 95, recommended: null, scales: [{ period: 'pre2026', min: 95, note: 'TOEFL iBT 95 on the classic scale; the Special Home Edition is also accepted at 95.' }, { period: 'post2026', min: 5, note: 'TOEFL iBT 5 on the scale used from January 2026.' }], note: 'The institutional TOEFL (ITP) is accepted at 597.' },
     duolingo: { min: null, recommended: null, note: 'Not listed among the accepted certificates.' },
     otherTests: 'Cambridge C1 Advanced at grade C or above.',
     waiver: 'Applicants graduating from an English-taught school can be exempt on uploading a confirmation from the school; English as a subject is not enough.',
@@ -2248,7 +2251,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['ESCP online application'],
     deadlines: [
-      { name: 'Application for the autumn 2027 intake', kind: 'intake', entryTerm: 'autumn', entryYear: '2027', date: 'Not confirmed', status: 'not-confirmed', binding: false, appliesTo: 'Bachelor applicants', conditions: 'Application dates are published by the university; the dates for this intake were not read during this check.', source: 'https://escp.eu/programmes/bachelor-in-management-BSc/apply', verified: '2026-09-23', note: null }
+      { name: 'Applications open for the September 2027 intake', kind: 'opens', entryTerm: 'September', entryYear: '2027', date: 'October 2026', binding: false, appliesTo: 'Applicants to the Bachelor in Management (BSc)', conditions: 'ESCP states that applications for the September 2027 intake open in October 2026; the round deadlines had not been published when this was checked.', status: 'confirmed', source: 'https://escp.eu/programmes/bachelor-in-management-BSc/apply', verified: '2026-09-30', note: null }
     ],
     applicationFee: { amount: 80, currency: 'EUR', waiverAvailableToInternational: false, waiver: null, note: 'The \u20ac80 application fee is non-refundable. Admitted candidates then pay a \u20ac3,500 deposit, which is deducted from the enrolment fee.' },
     documents: ['High school diploma expected by the start of the programme', 'Proof of English at C1', 'Application through the ESCP portal'],
@@ -2259,7 +2262,7 @@ window.UNIPATH.universities.push(
   },
   english: {
     ielts: { min: 6.5, recommended: null, note: 'ESCP lists IELTS 6.5 as the English test score required for the Bachelor in Management, where a test is needed at all.' },
-    toefl: { min: 4.5, recommended: null, scales: [{ period: 'from2026', min: 4.5, note: 'ESCP quotes TOEFL iBT 4.5 on the scale used from January 2026.' }], note: 'TOEFL iBT 4.5 is listed alongside IELTS 6.5. The Special Home Edition is accepted, though not available in every country.' },
+    toefl: { min: 4.5, recommended: null, scales: [{ period: 'post2026', min: 4.5, note: 'ESCP quotes TOEFL iBT 4.5 on the scale used from January 2026.' }], note: 'TOEFL iBT 4.5 is listed alongside IELTS 6.5. The Special Home Edition is accepted, though not available in every country.' },
     duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
     otherTests: 'Cambridge C1 Advanced (CAE) 180 is also accepted.',
     waiver: 'Language certificates are not required from exempted applicants, and can be submitted at a later stage.',

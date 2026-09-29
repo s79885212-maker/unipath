@@ -165,7 +165,6 @@
     if (testVaries(t)) return has(t.min) ? 'University minimum ' + (typeof t.min === 'number' ? t.min.toFixed(1) : t.min) + ', varies by programme' : variesLabel(t);
     if (has(t.min)) return 'Min ' + (typeof t.min === 'number' && t.min < 10 ? t.min.toFixed(1) : t.min);
     if (has(t.recommended)) return typeof t.recommended === 'number' ? t.recommended + '+ competitive' : String(t.recommended);
-    if (has(t.estimate)) return t.estimate + ' · UniPath estimate';
     return 'Accepted, no minimum published';
   }
   function statsOf(u) { return u.stats || null; }
@@ -199,7 +198,6 @@
     }
     var one = scoreParts(t, t.lowestLevel);
     if (one) return [one.charAt(0).toUpperCase() + one.slice(1)];
-    if (has(t.estimate)) return [t.estimate + ' · UniPath estimate'];
     return [];
   }
   /* englishTaught = at least one English-taught bachelor's route exists.
@@ -260,16 +258,19 @@
     }
     return {
       name: d.name, note: d.note, text: text, iso: iso,
-      term: has(d.entryTerm) ? String(d.entryTerm) : null,
-      yearConfirmed: !!iso || /\b(19|20)\d{2}\b/.test(text)
+      term: has(d.entryTerm) ? String(d.entryTerm) : null
     };
   }
-  /* Plain-HTML block for one deadline's date, term and year status (escaped). */
+  /* Plain-HTML block for one deadline's date, term and status (escaped). The
+     status comes only from the record's own verified `status`; a year in the
+     date text proves nothing about the current cycle. */
   function deadlineHtml(d) {
     var x = deadlineInfo(d);
+    var st = roundStatus(d), state = roundState(d);
     return '<strong>' + esc(x.text || '—') + '</strong>' +
       (x.term ? '<br><span class="small muted">Entry term: <span>' + esc(x.term) + '</span></span>' : '') +
-      (x.yearConfirmed ? '' : '<br><span class="small muted">Current cycle date not confirmed</span>');
+      '<br><span class="small ' + (st === 'confirmed' ? 'muted' : 'warn-text') + '">' + esc(ROUND_STATUS[st]) + '</span>' +
+      (state ? ' <span class="small muted">· ' + esc(ROUND_STATE[state]) + '</span>' : '');
   }
   /* ---- application rounds -----------------------------------------------
      A round carries its own intake, conditions, source and confirmation
@@ -280,16 +281,55 @@
     'previous-cycle': 'Previous cycle — not yet republished',
     'not-confirmed': 'Deadline for the current intake not confirmed'
   };
+  /* Confirmation comes only from an explicit, verified status on the record. */
   function roundStatus(d) {
-    if (d.status && ROUND_STATUS[d.status]) return d.status;
-    return deadlineInfo(d).yearConfirmed ? 'confirmed' : 'not-confirmed';
+    return d.status && ROUND_STATUS[d.status] ? d.status : 'not-confirmed';
+  }
+  /* Where the date stands today — kept apart from confirmation, because an
+     officially confirmed date can already have passed. Only a confirmed date
+     can be upcoming or closed; anything else is unknown for this cycle. */
+  var ROUND_STATE = { upcoming: 'Upcoming', closed: 'Closed', varies: 'Rolling / varies', unknown: 'Not known for this cycle' };
+  function isoToday() {
+    var t = new Date();
+    return t.getFullYear() + '-' + (t.getMonth() < 9 ? '0' : '') + (t.getMonth() + 1) + '-' + (t.getDate() < 10 ? '0' : '') + t.getDate();
+  }
+  function roundState(d) {
+    if (d.kind === 'notice') return null;
+    if (roundStatus(d) !== 'confirmed') return 'unknown';
+    if (d.kind === 'rolling') return 'varies';
+    if (!has(d.dateISO)) return isApplicationDeadline(d) ? 'varies' : null;
+    return String(d.dateISO) >= isoToday() ? 'upcoming' : 'closed';
+  }
+  /* Application deadlines are kept apart from the other dates of a cycle, so
+     an opening date, an interview or a decision date can never be taken for
+     the next deadline to apply. */
+  var APPLICATION_KINDS = { ED: 'ED', ED2: 'ED II', EA: 'EA', REA: 'REA', RD: 'RD', rolling: 'Rolling', priority: 'Priority',
+    'ucas-main': 'UCAS', 'ucas-october': 'UCAS', 'round-1': 'Round 1', 'round-2': 'Round 2', 'round-3': 'Round 3',
+    round: '', 'application-window': '', intake: '' };
+  var OTHER_DATE_KINDS = { opens: 'Applications open', documents: 'Documents and tests', portfolio: 'Portfolio',
+    test: 'Admissions test', interview: 'Interview', aid: 'Financial aid', scholarship: 'Scholarship',
+    decision: 'Decision', reply: 'Reply to offer', notice: 'Notice' };
+  function isApplicationDeadline(d) { return !d.kind || APPLICATION_KINDS.hasOwnProperty(d.kind); }
+  function otherDateLabel(d) { return OTHER_DATE_KINDS[d.kind] || 'Other date'; }
+  function roundStateLabel(d) { var s = roundState(d); return s ? ROUND_STATE[s] : null; }
+  /* Nearest confirmed, still-open application deadline, or a summary state. */
+  function nextDeadline(u) {
+    var apps = roundsOf(u).filter(isApplicationDeadline);
+    var open = apps.filter(function (d) { return roundState(d) === 'upcoming'; })
+      .sort(function (a, b) { return String(a.dateISO).localeCompare(String(b.dateISO)); });
+    if (open.length) return { state: 'upcoming', round: open[0], label: APPLICATION_KINDS[open[0].kind] || '' };
+    if (apps.some(function (d) { return roundState(d) === 'varies'; })) return { state: 'varies' };
+    if (apps.some(function (d) { return roundState(d) === 'closed'; })) return { state: 'closed' };
+    return { state: 'unknown' };
   }
   function roundStatusLabel(d) { return ROUND_STATUS[roundStatus(d)]; }
   function roundWhen(d) {
     var x = deadlineInfo(d);
     var out = x.text || '—';
-    if (has(d.time)) out += ', ' + d.time;
-    if (has(d.timezone)) out += ' ' + d.timezone;
+    /* Time and zone are added only to a real date, and only once. */
+    var dated = /\d/.test(out);
+    if (dated && has(d.time) && out.indexOf(d.time) < 0) out += ', ' + d.time;
+    if (dated && has(d.timezone) && out.indexOf(d.timezone) < 0) out += ' ' + d.timezone;
     return out;
   }
   function roundIntake(d) {
@@ -312,9 +352,16 @@
   }
 
   function firstDeadline(u) {
-    var d = u.admissions && u.admissions.deadlines;
-    if (!d || !d.length) return null;
-    return d[0];
+    var n = nextDeadline(u);
+    return n.state === 'upcoming' ? n.round : null;
+  }
+  /* Short text for cards: the next confirmed deadline, or what is known. */
+  function deadlineCardText(u) {
+    var n = nextDeadline(u);
+    if (n.state === 'upcoming') return (n.round.date || n.round.dateISO) + (n.label ? ' · ' + n.label : '');
+    if (n.state === 'varies') return 'Rolling / varies';
+    if (n.state === 'closed') return 'Confirmed dates have passed';
+    return 'Not confirmed for this cycle';
   }
   function costHeadline(u) {
     return (u.costs && has(u.costs.headline)) ? u.costs.headline : null;
@@ -704,7 +751,7 @@
 
   function uniCard(u) {
     var c = country(u.country);
-    var deadline = firstDeadline(u);
+    var dl = nextDeadline(u);
     return '' +
       '<article class="card card-link uni-card">' +
         '<button class="compare-toggle" type="button" data-compare="' + esc(u.id) + '" aria-pressed="' + (compareHas(u.id) ? 'true' : 'false') + '">' +
@@ -722,7 +769,8 @@
               : '<span class="unknown">Not published</span>') + '</dd></div>' +
             '<div><dt>Testing</dt><dd>' + esc(satLabel(u)) + '</dd></div>' +
             '<div><dt>IELTS</dt><dd>' + (ieltsLabel(u) ? esc(ieltsLabel(u)) : '<span class="unknown">Not listed</span>') + '</dd></div>' +
-            '<div><dt>Deadline</dt><dd>' + (deadline ? esc(deadline.date) : '<span class="unknown">Check site</span>') + '</dd></div>' +
+            '<div><dt>Next deadline</dt><dd>' + (dl.state === 'upcoming' ? esc(deadlineCardText(u))
+              : '<span class="unknown">' + esc(deadlineCardText(u)) + '</span>') + '</dd></div>' +
           '</dl>' +
         '</div>' +
         '<div class="uni-card-actions">' +
@@ -895,7 +943,8 @@
     satPolicy: satPolicy, satLabel: satLabel, satNotRequired: satNotRequired, hasIelts: hasIelts, ieltsPublished: ieltsPublished, englishPrograms: englishPrograms, englishLabel: englishLabel, ieltsMin: ieltsMin, ieltsVaries: ieltsVaries, testVaries: testVaries, variesLabel: variesLabel, toeflLines: toeflLines, ieltsLabel: ieltsLabel, statsOf: statsOf, toeflMin: toeflMin,
     fullRide: fullRide, meritList: meritList, needBased: needBased,
     feeAmount: feeAmount, feeWaiver: feeWaiver, feeWaiverLabel: feeWaiverLabel, feeLabel: feeLabel,
-    firstDeadline: firstDeadline, deadlineInfo: deadlineInfo, deadlineHtml: deadlineHtml,
+    firstDeadline: firstDeadline, deadlineInfo: deadlineInfo, deadlineHtml: deadlineHtml, nextDeadline: nextDeadline, deadlineCardText: deadlineCardText,
+    roundState: roundState, roundStateLabel: roundStateLabel, isApplicationDeadline: isApplicationDeadline, otherDateLabel: otherDateLabel,
     roundStatus: roundStatus, roundStatusLabel: roundStatusLabel, roundWhen: roundWhen, roundIntake: roundIntake,
     roundConditions: roundConditions, roundsOf: roundsOf, costHeadline: costHeadline, totalCostText: totalCostText,
     costBreak: costBreak, costCurrency: costCurrency, costYear: costYear, costPeriod: costPeriod, perPeriod: perPeriod,

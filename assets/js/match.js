@@ -74,10 +74,6 @@
       } else if (t && typeof t.recommended === 'number') {
         if (input.ielts < t.recommended) checks.push({ level: 'soft', text: 'IELTS ' + input.ielts + ' is below the competitive score of ' + t.recommended + '.' });
         else checks.push({ level: 'ok', text: 'IELTS ' + input.ielts + ' is at or above the competitive score of ' + t.recommended + '.' });
-      } else if (t && has(t.estimate) && firstNumber(t.estimate) !== null) {
-        var est = firstNumber(t.estimate);
-        if (input.ielts < est) checks.push({ level: 'soft', text: 'IELTS ' + input.ielts + ' is below the UniPath estimate of ' + t.estimate + ' (not an official requirement).' });
-        else checks.push({ level: 'ok', text: 'IELTS ' + input.ielts + ' reaches the UniPath estimate of ' + t.estimate + ' (not an official requirement).' });
       } else {
         checks.push({ level: 'info', text: 'No IELTS figure is published.' });
       }
@@ -89,16 +85,20 @@
       var comp = off.sat && off.sat.composite;
       if (policy === 'not-used') {
         checks.push({ level: 'info', text: 'The SAT is not used for admission here.' });
-      } else if (comp) {
-        if (input.sat >= comp[2]) checks.push({ level: 'ok', text: 'SAT ' + input.sat + ' is at or above the 75th percentile of admitted students (' + comp[2] + ').' });
-        else if (input.sat >= comp[0]) checks.push({ level: 'ok', text: 'SAT ' + input.sat + ' is within the middle 50% of admitted students (' + comp[0] + '–' + comp[2] + ').' });
-        else checks.push({ level: 'soft', text: 'SAT ' + input.sat + ' is below the 25th percentile of admitted students (' + comp[0] + ').' });
+      } else if (comp && has(comp[0]) && has(comp[2])) {
+        /* Name the sample the source reports on; CDS figures are enrolled students. */
+        var who = off.sat.cohort === 'admitted' ? 'admitted students' : off.sat.cohort === 'enrolled' ? 'enrolled first-year students' : 'the published sample';
+        if (input.sat >= comp[2]) checks.push({ level: 'ok', text: 'SAT ' + input.sat + ' is at or above the 75th percentile of ' + who + ' (' + comp[2] + ').' });
+        else if (input.sat >= comp[0]) checks.push({ level: 'ok', text: 'SAT ' + input.sat + ' is within the middle 50% of ' + who + ' (' + comp[0] + '–' + comp[2] + ').' });
+        else checks.push({ level: 'soft', text: 'SAT ' + input.sat + ' is below the 25th percentile of ' + who + ' (' + comp[0] + ').' });
+      } else if (off.sat && (off.sat.rw || off.sat.math)) {
+        checks.push({ level: 'info', text: 'The university publishes SAT section scores only, with no total SAT range, so a total score cannot be compared.' });
       } else if (has(tg.sat) && firstNumber(tg.sat) !== null && firstNumber(tg.sat) > 400) {
         var satEst = firstNumber(tg.sat);
         if (input.sat < satEst) checks.push({ level: 'soft', text: 'SAT ' + input.sat + ' is below the UniPath estimate of ' + satEst + '+ (not an official requirement).' });
         else checks.push({ level: 'ok', text: 'SAT ' + input.sat + ' reaches the UniPath estimate of ' + satEst + '+ (not an official requirement).' });
       } else if (policy !== 'unknown') {
-        checks.push({ level: 'info', text: 'No SAT range for admitted students is published.' });
+        checks.push({ level: 'info', text: 'No official SAT statistics are confirmed for this university.' });
       }
     } else if (policy === 'required') {
       checks.push({ level: 'soft', text: 'SAT or ACT is required, and no score was entered.' });

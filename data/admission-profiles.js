@@ -22,12 +22,11 @@
 
   P['harvard-university'] = {
     english: {
-      estimateBasis: 'Harvard publishes no English score for first-year applicants. The estimates follow what MIT and Yale publish as competitive.',
-      ielts: { min: null, recommended: null, estimate: '7.5+', note: 'Not required for first-year applicants.' },
-      toefl: { min: null, recommended: null, estimate: '100+ (5.5+ on the 2026 scale)', note: 'Not required for first-year applicants.' },
-      duolingo: { min: null, recommended: null, estimate: '125+', note: 'Not required for first-year applicants.' },
+      ielts: { min: null, recommended: null, note: 'Not required for first-year applicants.' },
+      toefl: { min: null, recommended: null, note: 'Not required for first-year applicants.' },
+      duolingo: { min: null, recommended: null, note: 'Not required for first-year applicants.' },
       waiver: 'First-year and transfer applicants are not required to take an English proficiency exam, but may submit scores if they wish. TOEFL, IELTS and Duolingo cannot be used to meet the SAT/ACT requirement.',
-      note: 'Harvard sets no English score requirement for first-year applicants. The estimates above reflect what peer universities that do publish figures (MIT, Yale) describe as competitive.'
+      note: 'Harvard sets no English score requirement for first-year applicants.'
     },
     stats: {
       term: 'Fall 2025 entering class',
@@ -35,15 +34,14 @@
       official: {
         admitRate: { value: 4.2, applied: 47893, admitted: 2003 },
         gpa: { average: 4.22, note: '74.7% of students who reported a GPA had a 4.0; only 25% of the class reported a GPA.' },
-        sat: { rw: [720, 750, 770], math: [730, 770, 790], submitted: '79%' },
+        sat: { rw: [720, 750, 770], math: [730, 770, 790], submitted: '79%', cohort: 'enrolled', submittersOnly: true },
         act: [33, 35, 35],
         classRank: '95% were in the top tenth of their high school class (among those with a rank).'
       },
       targets: {
-        ielts: '7.5+ (optional to submit)',
         sat: 'Around 1500+ (each section in the mid-700s)',
         gpa: 'Top of class — near-perfect grades',
-        basis: 'SAT and GPA targets follow Harvard\'s published middle-50% ranges above. The IELTS target is an estimate, since Harvard publishes none.'
+        basis: 'SAT and GPA targets follow Harvard\'s published middle-50% ranges above.'
       }
     }
   };
@@ -62,24 +60,22 @@
       official: {
         admitRate: { value: 4.6, applied: 29281, admitted: 1334 },
         gpa: { average: null, note: 'MIT does not report high school GPA in its Common Data Set.' },
-        sat: { composite: [1520, 1550, 1570], rw: [740, 760, 780], math: [780, 790, 800], submitted: '83%' },
+        sat: { composite: [1520, 1550, 1570], rw: [740, 760, 780], math: [780, 790, 800], submitted: '83%', cohort: 'enrolled', submittersOnly: true },
         act: [34, 35, 35]
       },
       targets: {
-        ielts: '7.5 (MIT\'s own recommended score)',
         sat: '1520+ with Math 780+',
         gpa: 'Near-perfect grades, especially in maths and science',
-        basis: 'The IELTS target is MIT\'s published recommendation. MIT publishes no GPA, so the GPA target is an estimate.'
+        basis: 'MIT publishes no GPA, so the GPA target is an estimate.'
       }
     }
   };
 
   P['yale-university'] = {
     english: {
-      estimateBasis: 'Yale publishes no Duolingo figure. The estimate follows MIT\'s published Duolingo recommendation of 125.',
       ielts: { min: null, recommended: 7, note: 'Yale\'s most competitive applicants score 7 or higher.' },
       toefl: { min: null, recommended: 100, scales: [{ period: 'pre2026', min: null, recommended: 100 }, { period: 'post2026', min: null, recommended: 5 }], note: 'Most competitive applicants: at least 100 (tests before 21 January 2026) or 5+ (tests on or after 21 January 2026).' },
-      duolingo: { min: null, recommended: null, estimate: '125+', note: 'Accepted. Yale publishes no competitive DET score.' },
+      duolingo: { min: null, recommended: null, note: 'Accepted. Yale publishes no competitive DET score.' },
       waiver: 'Required from non-native English speakers who have not completed at least two years of secondary education where English is the medium of instruction.',
       note: 'Yale accepts TOEFL, IELTS, Cambridge English, the Duolingo English Test or InitialView.'
     },
@@ -89,12 +85,11 @@
       official: {
         admitRate: { value: 4.7, applied: 50264, admitted: 2387 },
         gpa: { average: null, note: 'Yale does not report high school GPA in its Common Data Set.' },
-        sat: { composite: [1480, 1540, 1560], rw: [730, 760, 780], math: [740, 780, 790], submitted: '67%' },
+        sat: { composite: [1480, 1540, 1560], rw: [730, 760, 780], math: [740, 780, 790], submitted: '67%', cohort: 'enrolled', submittersOnly: true },
         act: [33, 34, 35],
         classRank: '97% were in the top tenth of their high school class (among those with a rank).'
       },
       targets: {
-        ielts: '7.0+',
         sat: '1540+ (the class median)',
         gpa: 'Top 10% of class',
         basis: 'Drawn from Yale\'s published competitive English scores and its Common Data Set.'
@@ -104,10 +99,9 @@
 
   P['new-york-university'] = {
     english: {
-      estimateBasis: 'NYU publishes a competitive TOEFL score of 100 but no IELTS or Duolingo figure. The estimates are set at a comparable level, using MIT\'s published Duolingo recommendation of 125.',
-      ielts: { min: null, recommended: null, estimate: '7.0–7.5+', note: 'IELTS Academic accepted; NYU publishes no minimum.' },
+      ielts: { min: null, recommended: null, note: 'IELTS Academic accepted; NYU publishes no minimum.' },
       toefl: { min: null, recommended: 100, scales: [{ period: 'pre2026', min: null, recommended: 100 }, { period: 'post2026', min: null, recommended: 5 }], note: 'NYU sets no minimum. Competitive applicants score 100+ (tests up to 20 January 2026) or 5+ overall and in each subscore (tests from 21 January 2026).' },
-      duolingo: { min: null, recommended: null, estimate: '125+', note: 'Accepted; NYU publishes no minimum.' }
+      duolingo: { min: null, recommended: null, note: 'Accepted; NYU publishes no minimum.' }
     },
     admissions: {
       applicationFee: { amount: 100, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Can be waived for applicants with financial need (NYU Common Data Set, Fall 2026 cycle).' }
@@ -118,14 +112,13 @@
       official: {
         admitRate: { value: 9.1, applied: 114125, admitted: 10340 },
         gpa: { average: 3.81, note: '17.2% had a 4.0 and 54.7% had between 3.75 and 3.99. 100% of the class reported a GPA.' },
-        sat: { composite: [1480, 1520, 1550], rw: [730, 750, 770], math: [750, 780, 790], submitted: '27%' },
+        sat: { composite: [1480, 1520, 1550], rw: [730, 750, 770], math: [750, 780, 790], submitted: '27%', cohort: 'enrolled', submittersOnly: true },
         act: [34, 35, 35]
       },
       targets: {
-        ielts: '7.0–7.5+',
         sat: 'Optional. If you submit one, around 1500+',
         gpa: '3.8+',
-        basis: 'NYU publishes no IELTS figure, so that target is an estimate matched to its competitive TOEFL score of 100.'
+        basis: 'Estimate based on NYU\'s published data.'
       }
     }
   };
@@ -143,11 +136,10 @@
       official: {
         admitRate: { value: 16.4, applied: 109112, admitted: 17915 },
         gpa: { average: 3.9, note: '38.8% had a 4.0 and 55.1% had between 3.75 and 3.99. 97.8% of the class reported a GPA.' },
-        sat: { composite: [1370, 1470, 1530], rw: [690, 730, 750], math: [680, 740, 780], submitted: '55%' },
+        sat: { composite: [1370, 1470, 1530], rw: [690, 730, 750], math: [680, 740, 780], submitted: '55%', cohort: 'enrolled', submittersOnly: true },
         act: [32, 33, 34]
       },
       targets: {
-        ielts: '7.0 overall with 6.5+ in each section (U-M\'s published range)',
         sat: 'Optional. If you submit one, around 1470+',
         gpa: '3.9 (the class average)',
         basis: 'All three targets come from U-M\'s published requirements and its Common Data Set.'
@@ -164,10 +156,10 @@
         intlAdmitRate: { value: 89.9, applied: 8906, admitted: 8009 },
         gpa: { average: 3.52, note: '9.0% had a 4.0, 27.5% had 3.75–3.99, 22.3% had 3.50–3.74 and 17.6% had 3.25–3.49.' },
         sat: null,
-        act: null
+        act: null,
+        satNotPublished: 'ASU leaves the SAT/ACT score section (C9) of its 2025–26 Common Data Set blank.'
       },
       targets: {
-        ielts: '6.0 (ASU\'s published minimum)',
         sat: 'Not required for most programmes',
         gpa: '3.0 meets the requirement; 3.5 is typical',
         basis: 'Drawn from ASU\'s published minimums and its Common Data Set. ASU does not publish SAT percentiles for this campus group.'
@@ -177,11 +169,9 @@
 
   P['university-of-alabama'] = {
     english: {
-      estimateBasis: 'Based on UA\'s published IELTS 6.0 writing threshold for avoiding English support courses.',
       ielts: {
       min: null,
       recommended: null,
-      estimate: '6.0+ overall',
       note: 'A writing sub-score of 6.0 or higher avoids mandatory English support courses. That is a placement threshold, not an admission minimum or a recommended overall score.'
     }
     },
@@ -194,12 +184,11 @@
       official: {
         admitRate: { value: 71.2, applied: 61994, admitted: 44124 },
         gpa: { average: 3.85, note: '40% had a 4.0, 19% had 3.75–3.99, 17% had 3.50–3.74 and 12% had 3.25–3.49. 98.9% of the class reported a GPA.' },
-        sat: { composite: [1100, 1210, 1360], mean: 1222, rw: [560, 620, 680], math: [530, 600, 680], submitted: '19%' },
+        sat: { composite: [1100, 1210, 1360], mean: 1222, rw: [560, 620, 680], math: [530, 600, 680], submitted: '19%', cohort: 'enrolled', submittersOnly: true },
         act: [22, 26, 31],
         classRank: '23% were in the top tenth of their high school class.'
       },
       targets: {
-        ielts: '6.0+, with a writing sub-score of 6.0+',
         sat: '1360+ (ACT 30+) — scores in this band also earn large automatic scholarships',
         gpa: '3.5+ (required for every automatic scholarship tier)',
         basis: 'Admission itself is broad (3.0 GPA considered). These targets are aimed at UA\'s published scholarship tiers, which is where the money is.'
@@ -230,10 +219,540 @@
         note: 'Berea admits about 40 or fewer new international students each year. It does not publish SAT or GPA averages.'
       },
       targets: {
-        ielts: '6.5+ (the minimum is 6.0)',
         sat: 'Optional — 980+ counts as the required test',
         gpa: 'Outstanding results in your national system (roughly top 10%)',
         basis: 'Estimate. Berea publishes minimums but no averages. With about 40 international places a year, being well above the minimum matters.'
+      }
+    }
+  };
+
+  /* ---- SAT/ACT statistics from official Common Data Sets (section C9: enrolled first-years who submitted scores) ---- */
+
+  P['princeton-university'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Princeton University Common Data Set 2025–26 (section C9)', url: 'https://ir.princeton.edu/sites/g/files/toruqf2041/files/documents/CDS_2526_Princeton_v2.pdf' },
+      official: {
+        sat: { composite: [1490, 1530, 1560], rw: [740, 760, 780], math: [760, 790, 800], submitted: '60%', cohort: 'enrolled', submittersOnly: true },
+        act: [34, 35, 35]
+      }
+    }
+  };
+
+  P['dartmouth-college'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Dartmouth College Common Data Set 2025–26 (section C9)', url: 'https://www.dartmouth.edu/oir/pdfs/cds_2025-26.pdf' },
+      official: {
+        sat: { composite: [1440, 1520, 1550], rw: [720, 750, 770], math: [720, 770, 790], submitted: '69%', cohort: 'enrolled', submittersOnly: true },
+        act: [32, 34, 35]
+      }
+    }
+  };
+
+  P['columbia-university'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Columbia College and Columbia Engineering Common Data Set 2025–26 (section C9)', url: 'https://opir.columbia.edu/sites/opir.columbia.edu/files/content/Common%20Data%20Set/2025-26_Columbia_College_and_Columbia_Enginnering_CDS.pdf' },
+      official: {
+        sat: { composite: [1510, 1540, 1560], rw: [740, 760, 777], math: [760, 780, 800], submitted: '50%', cohort: 'enrolled', submittersOnly: true },
+        act: [34, 35, 35]
+      }
+    }
+  };
+
+  P['cornell-university'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Cornell University Common Data Set 2025–26 (section C9)', url: 'https://irp.cornell.edu/wp-content/uploads/2026/09/CDS-Cornell-2025-2026-v2.xlsx' },
+      official: {
+        sat: { composite: [1490, 1530, 1550], rw: [730, 750, 770], math: [770, 790, 800], submitted: '43%', cohort: 'enrolled', submittersOnly: true },
+        act: [33, 34, 35]
+      }
+    }
+  };
+
+  P['northwestern-university'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Northwestern University Common Data Set 2025–26 (section C9)', url: 'https://www.enrollment.northwestern.edu/data/2025-2026.pdf' },
+      official: {
+        sat: { composite: [1520, 1540, 1560], rw: [740, 760, 770], math: [770, 790, 790], submitted: '48%', cohort: 'enrolled', submittersOnly: true },
+        act: [34, 35, 35]
+      }
+    }
+  };
+
+  P['university-of-chicago'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'University of Chicago Common Data Set 2025–26 (section C9)', url: 'https://data.uchicago.edu/files/2026/08/CDS_2025-2026_to_publish-1.pdf' },
+      official: {
+        sat: { composite: [1500, 1540, 1560], rw: [740, 760, 770], math: [760, 780, 790], submitted: '57%', cohort: 'enrolled', submittersOnly: true },
+        act: [34, 35, 35]
+      }
+    }
+  };
+
+  P['tufts-university'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Tufts University Common Data Set 2025–26 (section C9)', url: 'https://provost.tufts.edu/institutionalresearch/wp-content/uploads/sites/5/CDS_2025-2026.pdf' },
+      official: {
+        sat: { composite: [1460, 1500, 1520], rw: [720, 740, 760], math: [730, 760, 780], submitted: '42%', cohort: 'enrolled', submittersOnly: true },
+        act: [33, 34, 35]
+      }
+    }
+  };
+
+  P['swarthmore-college'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Swarthmore College Common Data Set 2025–26 (section C9)', url: 'https://www.swarthmore.edu/sites/default/files/assets/documents/institutional-effectiveness-research-assessment/Swarthmore-CDS-2025-26.pdf' },
+      official: {
+        sat: { composite: [1480, 1520, 1550], rw: [740, 760, 770], math: [740, 770, 790], submitted: '40%', cohort: 'enrolled', submittersOnly: true },
+        act: [33, 34, 35]
+      }
+    }
+  };
+
+  P['university-of-pennsylvania'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'University of Pennsylvania Common Data Set 2025–26 (section C9)', url: 'https://upenn.box.com/s/woo7d85yxpol6j9e2o121aucjc6dc1k5' },
+      official: {
+        sat: { rw: [740, 760, 770], math: [770, 790, 800], submitted: '52%', cohort: 'enrolled', submittersOnly: true, note: 'Penn reports section scores only; no composite SAT range is published.' },
+        act: [34, 35, 35]
+      }
+    }
+  };
+
+  P['stanford-university'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Stanford University Common Data Set 2025–26 (section C9)', url: 'https://drive.google.com/file/d/1GIPKgVj1d86dkmLkHI_mZVCk_iY6kiCp/view' },
+      official: {
+        sat: { composite: [1520, 1550, 1570], rw: [750, 760, 780], math: [770, 790, 800], submitted: '56%', cohort: 'enrolled', submittersOnly: true },
+        act: [34, 35, 36]
+      }
+    }
+  };
+
+  P['bowdoin-college'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Bowdoin College Common Data Set 2025–26 (section C9)', url: 'https://www.bowdoin.edu/ir/pdf/bowdoin-cds_2025-2026.pdf' },
+      official: {
+        sat: { composite: [1470, 1510, 1540], rw: [730, 750, 770], math: [730, 760, 780], submitted: '35%', cohort: 'enrolled', submittersOnly: true },
+        act: [33, 34, 35]
+      }
+    }
+  };
+
+  P['carnegie-mellon-university'] = {
+    stats: {
+      term: 'Entering class reported in the 2025–26 CDS',
+      source: { label: 'Carnegie Mellon University (Pittsburgh campus) Common Data Set 2025–26 (section C9)', url: 'https://www.cmu.edu/ira/CDS/pdf/cds_2025_26/cds-2025-c-first-time-first-year-admission.pdf' },
+      official: {
+        sat: { composite: [1500, 1540, 1560], rw: [730, 750, 770], math: [770, 790, 800], submitted: '66%', cohort: 'enrolled', submittersOnly: true, note: 'CMU\'s C9 wording says Fall 2024, while other parts of the same file describe the Fall 2025 class.' },
+        act: [34, 35, 36]
+      }
+    }
+  };
+
+  P['university-of-southern-california'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'University of Southern California Common Data Set 2025–26 (section C9)', url: 'https://oir.usc.edu/wp-content/uploads/sites/3/2026/10/CDS_2025-26_FINAL.pdf' },
+      official: {
+        sat: { composite: [1470, 1510, 1540], rw: [720, 740, 760], math: [740, 780, 790], submitted: '33%', cohort: 'enrolled', submittersOnly: true },
+        act: [32, 33, 35]
+      }
+    }
+  };
+
+  P['boston-university'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Boston University Common Data Set 2025–26 (section C9)', url: 'https://www.bu.edu/asir/files/2026/07/CDS-2025-2026-C-updated.pdf' },
+      official: {
+        sat: { composite: [1420, 1470, 1510], rw: [700, 730, 750], math: [720, 750, 780], submitted: '36%', cohort: 'enrolled', submittersOnly: true },
+        act: [33, 34, 34]
+      }
+    }
+  };
+
+  P['georgetown-university'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Georgetown University Common Data Set 2025–26 (section C9)', url: 'https://georgetown.box.com/s/0r8akn4cbm52zjkll6i7uttlb9k36px2' },
+      official: {
+        sat: { composite: [1405, 1480, 1530], rw: [710, 750, 760], math: [700, 750, 780], submitted: '78%', cohort: 'enrolled', submittersOnly: true },
+        act: [32, 34, 35]
+      }
+    }
+  };
+
+  P['rice-university'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Rice University Common Data Set 2025–26 (section C9)', url: 'https://ideas.rice.edu/wp-content/uploads/2026/07/CDS_2025-26_WEBSITE.pdf' },
+      official: {
+        sat: { composite: [1510, 1540, 1560], rw: [740, 760, 770], math: [760, 790, 800], submitted: '59%', cohort: 'enrolled', submittersOnly: true },
+        act: [34, 35, 36]
+      }
+    }
+  };
+
+  P['emory-university'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Emory University Common Data Set 2025–26 (section C9)', url: 'https://provost.emory.edu/planning-administration/_includes/documents/sections/institutional-data/emory-common-date-set-2025-2026.pdf' },
+      official: {
+        sat: { composite: [1480, 1510, 1540], rw: [720, 740, 760], math: [740, 780, 790], submitted: '47%', cohort: 'enrolled', submittersOnly: true },
+        act: [33, 34, 35]
+      }
+    }
+  };
+
+  P['vanderbilt-university'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Vanderbilt University Common Data Set 2025–26 (section C9)', url: 'https://cdn.vanderbilt.edu/vu-wpfsx/wp-content/uploads/sites/70/2026/07/CDS_2025-2026.xlsx' },
+      official: {
+        sat: { composite: [1510, 1530, 1560], rw: [740, 750, 770], math: [770, 780, 790], submitted: '24%', cohort: 'enrolled', submittersOnly: true },
+        act: [34, 35, 35]
+      }
+    }
+  };
+
+  P['johns-hopkins-university'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Johns Hopkins University Common Data Set 2025–26 (section C9)', url: 'https://oira.jhu.edu/wp-content/uploads/2025-2026-CDS-Johns-Hopkins-University-v2.pdf' },
+      official: {
+        sat: { composite: [1530, 1550, 1565], rw: [750, 760, 780], math: [780, 790, 800], submitted: '57%', cohort: 'enrolled', submittersOnly: true },
+        act: [35, 35, 35]
+      }
+    }
+  };
+
+  P['williams-college'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Williams College Common Data Set 2025–26 (section C9)', url: 'https://hub.williams.edu/institutional-research/files/2026/04/Williams-CDS-2025-2026-V2.pdf' },
+      official: {
+        sat: { composite: [1490, 1520, 1550], mean: 1510, rw: [740, 750, 770], math: [740, 770, 790], submitted: '43%', cohort: 'enrolled', submittersOnly: true },
+        act: [33, 34, 35],
+        actMean: 34
+      }
+    }
+  };
+
+  P['lehigh-university'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Lehigh University Common Data Set 2025–26 (section C9)', url: 'https://data.lehigh.edu/sites/data.lehigh.edu/files/1302026-CDS-2025-2026-FINAL.pdf' },
+      official: {
+        sat: { composite: [1380, 1430, 1480], rw: [680, 710, 740], math: [690, 720, 760], submitted: '33%', cohort: 'enrolled', submittersOnly: true },
+        act: [31, 33, 34]
+      }
+    }
+  };
+
+  P['wellesley-college'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Wellesley College Common Data Set 2025–26 (section C9)', url: 'https://wellesley-college.files.svdcdn.com/production/administrative-departments/OIR/CDS_2025-2026-FINAL.pdf' },
+      official: {
+        sat: { composite: [1460, 1500, 1540], rw: [730, 750, 760], math: [720, 770, 790], submitted: '44%', cohort: 'enrolled', submittersOnly: true },
+        act: [33, 34, 35]
+      }
+    }
+  };
+
+  P['davidson-college'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Davidson College Common Data Set 2025–26 (section C9)', url: 'https://www.davidson.edu/media/9718/download' },
+      official: {
+        sat: { composite: [1410, 1460, 1500], rw: [710, 740, 755], math: [695, 720, 760], submitted: '25%', cohort: 'enrolled', submittersOnly: true },
+        act: [32, 33, 34]
+      }
+    }
+  };
+
+  P['university-of-richmond'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'University of Richmond Common Data Set 2025–26 (section C9)', url: 'https://ifx.richmond.edu/pdfs/CDS2025-2026SectionC.pdf' },
+      official: {
+        sat: { composite: [1420, 1440, 1490], rw: [700, 720, 750], math: [700, 720, 770], submitted: '19%', cohort: 'enrolled', submittersOnly: true },
+        act: [33, 33, 34]
+      }
+    }
+  };
+
+  P['middlebury-college'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Middlebury College Fall 2025 Common Data Set, preliminary (section C9)', url: 'https://www.middlebury.edu/sites/default/files/2026-02/Fall%202025%20CDS%20Preliminary.pdf' },
+      official: {
+        sat: { composite: [1460, 1500, 1530], rw: [730, 750, 770], math: [720, 750, 780], submitted: '33%', cohort: 'enrolled', submittersOnly: true, note: 'Middlebury labels this file as preliminary.' },
+        act: [33, 34, 35]
+      }
+    }
+  };
+
+  P['hamilton-college'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Hamilton College Common Data Set 2025–26 (section C9)', url: 'https://www.hamilton.edu/documents/CDS%202025-26%20Excel%20Final.pdf' },
+      official: {
+        sat: { composite: [1440, 1480, 1510], rw: [710, 740, 760], math: [710, 740, 770], submitted: '35%', cohort: 'enrolled', submittersOnly: true },
+        act: [33, 34, 35]
+      }
+    }
+  };
+
+  P['haverford-college'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Haverford College Common Data Set 2025–26 (section C9)', url: 'https://www.haverford.edu/sites/default/files/Office/President/CDS-2025-26.pdf' },
+      official: {
+        sat: { composite: [1460, 1490, 1530], rw: [720, 750, 760], math: [720, 750, 780], submitted: '40%', cohort: 'enrolled', submittersOnly: true },
+        act: [33, 34, 35]
+      }
+    }
+  };
+
+  P['brandeis-university'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Brandeis University Common Data Set 2025–26 (section C9)', url: 'https://www.brandeis.edu/institutional-research/docs/cds-2025-26.pdf' },
+      official: {
+        sat: { composite: [1370, 1430, 1470], rw: [670, 710, 740], math: [660, 710, 750], submitted: '28%', cohort: 'enrolled', submittersOnly: true },
+        act: [31, 32, 34]
+      }
+    }
+  };
+
+  P['case-western-reserve-university'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Case Western Reserve University Common Data Set 2025–26 (section C9)', url: 'https://case.edu/ir/sites/default/files/2026-02/CDS%202025-26%20Adjusted%20Final.pdf' },
+      official: {
+        sat: { composite: [1440, 1490, 1530], rw: [710, 730, 760], math: [730, 760, 780], submitted: '52%', cohort: 'enrolled', submittersOnly: true },
+        act: [32, 33, 34]
+      }
+    }
+  };
+
+  P['university-of-rochester'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'University of Rochester Common Data Set 2025–26 (section C9)', url: 'https://www.rochester.edu/provost/wp-content/uploads/2026/06/CDS-2025-26-completed-for-web.pdf' },
+      official: {
+        sat: { composite: [1400, 1450, 1510], rw: [680, 720, 750], math: [700, 740, 780], submitted: '16%', cohort: 'enrolled', submittersOnly: true },
+        act: [31, 33, 34]
+      }
+    }
+  };
+
+  P['caltech'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Caltech Common Data Set 2025–26 (section C9)', url: 'https://iro.caltech.edu/documents/35129/Caltech_CDS_2025-26_August_2026.pdf' },
+      official: {
+        sat: { rw: [760, 760, 780], math: [790, 790, 800], submitted: '78%', cohort: 'enrolled', submittersOnly: true, note: 'Caltech reports section scores only; no composite SAT range is published.' },
+        act: [35, 35, 36]
+      }
+    }
+  };
+
+  P['tulane-university'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Tulane University Common Data Set 2025–26 (section C9)', url: 'https://tulane.box.com/s/1dgaxpa2x2ie24zgglrg0puwm1h7xrt5' },
+      official: {
+        sat: { composite: [1430, 1460, 1500], rw: [710, 730, 750], math: [710, 730, 760], submitted: '11%', cohort: 'enrolled', submittersOnly: true },
+        act: [32, 33, 34]
+      }
+    }
+  };
+
+  P['smith-college'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Smith College Common Data Set 2025–26 (section C9)', url: 'https://drive.google.com/file/d/1qDhlH43IbOCQzP6xtUHMzTmgEss1I-68/view' },
+      official: {
+        sat: { composite: [1420, 1470, 1520], rw: [720, 750, 760], math: [690, 730, 760], submitted: '30%', cohort: 'enrolled', submittersOnly: true, note: 'Smith publishes this file as its 2025–26 CDS; the page headers still read 2024–2025, but C1–C9 describe the Fall 2025 class.' },
+        act: [32, 33, 34]
+      }
+    }
+  };
+
+  P['colgate-university'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Colgate University Common Data Set 2025–26 (section C9)', url: 'https://www.colgate.edu/sites/default/files/2026-07/CDS-PDF-2025-2026.pdf' },
+      official: {
+        sat: { composite: [1450, 1480, 1510], rw: [720, 740, 760], math: [710, 740, 770], submitted: '23%', cohort: 'enrolled', submittersOnly: true },
+        act: [33, 34, 35]
+      }
+    }
+  };
+
+  P['macalester-college'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Macalester College Common Data Set 2025–26 (section C9)', url: 'https://www.macalester.edu/institutional-research/wp-content/uploads/sites/515/CDS_2025-2026_Macalester-College_completed-1.pdf' },
+      official: {
+        sat: { composite: [1350, 1420, 1480], rw: [680, 720, 750], math: [650, 700, 750], submitted: '35%', cohort: 'enrolled', submittersOnly: true },
+        act: [29.75, 31, 33]
+      }
+    }
+  };
+
+  P['barnard-college'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Barnard College Common Data Set 2025–26 (section C9)', url: 'https://barnard.edu/sites/default/files/2026-09/Barnard_CDS_2025-2026.pdf' },
+      official: {
+        sat: { composite: [1480, 1510, 1540], rw: [730, 750, 760], math: [730, 770, 790], submitted: '38%', cohort: 'enrolled', submittersOnly: true },
+        act: [32, 34, 35]
+      }
+    }
+  };
+
+  P['carleton-college'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Carleton College Common Data Set 2025–26 (section C9)', url: 'https://carleton-wp-production.s3.amazonaws.com/uploads/sites/292/2026/06/CDS-PDF-2025-2026_PDF_Carleton_06242026.pdf' },
+      official: {
+        sat: { composite: [1460, 1500, 1530], rw: [730, 750, 770], math: [720, 760, 780], submitted: '39%', cohort: 'enrolled', submittersOnly: true },
+        act: [32, 34, 35]
+      }
+    }
+  };
+
+  P['bates-college'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Bates College Common Data Set 2025–26 (section C9)', url: 'https://www.bates.edu/research/files/2026/06/CDS_2025-2026.pdf' },
+      official: {
+        sat: { composite: [1325, 1440, 1510], rw: [672.5, 710, 750], math: [622.5, 715, 767.5], submitted: '13%', cohort: 'enrolled', submittersOnly: true },
+        act: [31, 32, 34]
+      }
+    }
+  };
+
+  P['bryn-mawr-college'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Bryn Mawr College Common Data Set 2025–26 (section C9)', url: 'https://www.brynmawr.edu/sites/default/files/media/documents/2026-04/CDS%202025-26%20Bryn%20Mawr%20Read%20Only.pdf' },
+      official: {
+        sat: { composite: [1300, 1380, 1470], rw: [670, 720, 750], math: [620, 670, 730], submitted: '65%', cohort: 'enrolled', submittersOnly: true },
+        act: [29, 31, 33]
+      }
+    }
+  };
+
+  P['mount-holyoke-college'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Mount Holyoke College Common Data Set 2025–26 (section C9)', url: 'https://drive.google.com/file/d/1i8niYJW0yIc7gxPc6iVwfJIbUkChhE1G/view' },
+      official: {
+        sat: { composite: [1365, 1420, 1485], rw: [700, 730, 755], math: [640, 690, 755], submitted: '15%', cohort: 'enrolled', submittersOnly: true },
+        act: [30, 32, 32]
+      }
+    }
+  };
+
+  P['washington-and-lee-university'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Washington and Lee University Common Data Set 2025–26 (section C9)', url: 'https://my.wlu.edu/document/2025-common-data-set' },
+      official: {
+        sat: { composite: [1430, 1480, 1530], rw: [710, 740, 750], math: [720, 740, 780], submitted: '30%', cohort: 'enrolled', submittersOnly: true },
+        act: [33, 33, 34]
+      }
+    }
+  };
+
+  P['lafayette-college'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Lafayette College Common Data Set 2025–26 (section C9)', url: 'https://oir.lafayette.edu/wp-content/uploads/sites/196/2026/01/CDS2025-2026.pdf' },
+      official: {
+        sat: { composite: [1360, 1420, 1490], rw: [680, 720, 740], math: [660, 710, 760], submitted: '27%', cohort: 'enrolled', submittersOnly: true },
+        act: [30.5, 31, 33]
+      }
+    }
+  };
+
+  P['denison-university'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Denison University Common Data Set 2025–26 (section C9)', url: 'https://denison.edu/sites/default/files/forms/2026-08/cds_du_20252026_published_updated2026.08.14.pdf' },
+      official: {
+        sat: { composite: [1270, 1360, 1420], rw: [640, 680, 720], math: [630, 660, 710], submitted: '27%', cohort: 'enrolled', submittersOnly: true },
+        act: [28, 31, 33]
+      }
+    }
+  };
+
+  P['franklin-and-marshall-college'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Franklin & Marshall College Common Data Set 2025–26 (section C9)', url: 'https://drive.google.com/file/d/1CpyIXEDF-2bMSlt8qXimtThANg0xsUlw/view' },
+      official: {
+        sat: { composite: [1310, 1390, 1470], rw: [650, 690, 730], math: [650, 700, 760], submitted: '31%', cohort: 'enrolled', submittersOnly: true },
+        act: [29, 31, 32]
+      }
+    }
+  };
+
+  P['oberlin-college'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Oberlin College Common Data Set 2025–26 (section C9)', url: 'https://www.oberlin.edu/media/37695/download?inline' },
+      official: {
+        sat: { composite: [1370, 1420, 1480], rw: [690, 730, 760], math: [660, 700, 740], submitted: '34%', cohort: 'enrolled', submittersOnly: true },
+        act: [30, 32, 33]
+      }
+    }
+  };
+
+  P['kenyon-college'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Kenyon College Common Data Set 2025–26 (section C9)', url: 'https://www.kenyon.edu/files/resources/cds-2025-26-kenyon.xlsx' },
+      official: {
+        sat: { composite: [1400, 1430, 1495], rw: [700, 720, 740], math: [680, 720, 765], submitted: '8%', cohort: 'enrolled', submittersOnly: true },
+        act: [31, 32, 34]
+      }
+    }
+  };
+
+  P['university-of-miami'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'University of Miami Common Data Set 2025–26 (section C9)', url: 'https://irsa.miami.edu/facts-and-information/common-data-set/cds2526.pdf' },
+      official: {
+        sat: { composite: [1350, 1400, 1450], rw: [670, 700, 730], math: [660, 700, 740], submitted: '34%', cohort: 'enrolled', submittersOnly: true },
+        act: [30, 32, 33]
+      }
+    }
+  };
+
+  P['amherst-college'] = {
+    stats: {
+      term: 'Entering class reported in the 2025–26 CDS',
+      source: { label: 'Amherst College Common Data Set 2025–26 (section C9)', url: 'https://www.amherst.edu/system/files/C.%20First-Time%20First-Year%20Admission%202025-26_0.pdf' },
+      official: {
+        sat: { composite: [1470, 1510, 1540], rw: [730, 760, 770], math: [730, 770, 790], submitted: '40%', cohort: 'enrolled', submittersOnly: true, note: 'Amherst\'s C9 wording says Fall 2024, while other parts of the same 2025–26 file describe the Fall 2025 class.' },
+        act: [33, 34, 35]
       }
     }
   };
@@ -243,9 +762,8 @@
   P['university-of-tokyo'] = {
     englishTaught: true,
     english: {
-      estimateBasis: 'The College of Design names the accepted tests but publishes no competitive score here. The estimate sits above its stated expected level of IELTS 6.0+ to reflect a competitive application.',
-      ielts: { min: null, recommended: null, estimate: '7.0+', note: 'The College of Design requires a designated English test; the accepted tests and scores are listed in the Application Guidelines appendix.' },
-      toefl: { min: null, recommended: null, estimate: '100+ (5.5+ on the 2026 scale)', note: 'See the College of Design Application Guidelines.' },
+      ielts: { min: null, recommended: null, note: 'The College of Design requires a designated English test; the accepted tests and scores are listed in the Application Guidelines appendix.' },
+      toefl: { min: null, recommended: null, note: 'See the College of Design Application Guidelines.' },
       duolingo: { min: null, recommended: null, note: 'Check the Application Guidelines appendix for the designated tests.' },
       waiver: null,
       note: 'PEAK has closed. UTokyo\'s new English-taught route is the College of Design: a five-year combined bachelor\'s/master\'s programme starting September 2027, taught entirely in English, with no nationality restriction.'
@@ -265,7 +783,6 @@
       source: { label: 'UTokyo College of Design admissions', url: 'https://design.adm.u-tokyo.ac.jp/admissions/' },
       official: { admitRate: null, note: 'A new faculty, so no admission statistics exist yet. 50 places are reserved for Route B (international qualifications).' },
       targets: {
-        ielts: '7.0+',
         sat: '1450+ or IB 38+ (Route B)',
         gpa: 'Top 5–10% of class',
         basis: 'Estimate. UTokyo is Japan\'s most selective university and the College of Design has only 50 international-route places. On the domestic route, UTokyo expects about 80% on the Common Test.'
@@ -285,10 +802,9 @@
       source: { label: 'Kyoto iUP FAQ — English language proficiency', url: 'https://www.iup.kyoto-u.ac.jp/faq/english-language-proficiency/' },
       official: { admitRate: null, note: 'Kyoto publishes the typical English scores of successful candidates (below), but no SAT or GPA averages.' },
       targets: {
-        ielts: '6.5+ (typical of successful candidates)',
         sat: '1400+ or equivalent national-exam results',
         gpa: '3.7+ (top 10–15% of class)',
-        basis: 'The IELTS/TOEFL figures are Kyoto\'s own typical scores. The SAT and GPA targets are estimates for a top-tier national university with a small iUP intake.'
+        basis: 'The SAT and GPA targets are estimates for a top-tier national university with a small iUP intake.'
       }
     }
   };
@@ -336,25 +852,23 @@
       official: {
         admitRate: { value: 23.8, applied: 1322, admitted: 315, year: 2026 },
         history: '2025: 1,017 applied, 364 admitted (35.8%) · 2024: 788 applied, 348 admitted (44.2%)',
-        sat: { mean: 1452 },
+        sat: { mean: 1452, cohort: 'admitted', term: 'SILS successful applicants \u2014 year not stated by Waseda', source: { label: 'Waseda SILS \u2014 admissions data', url: 'https://www.waseda.jp/fire/sils/en/applicants/data/' } },
         actMean: 33.2,
         other: ['IB Diploma average of successful applicants: 37.5 / 42'],
         gpa: { average: null, note: 'Waseda does not publish a GPA average.' }
       },
       targets: {
-        ielts: '7.0+',
         sat: '1450+ (the SILS average)',
         gpa: '3.7+',
-        basis: 'The SAT and IELTS targets follow Waseda\'s published data. The GPA target is an estimate. Other English-based schools at Waseda publish their own figures, and competition is rising quickly — the acceptance rate fell from 44% to 24% in two years.'
+        basis: 'The SAT target follows Waseda\'s published data. The GPA target is an estimate. Other English-based schools at Waseda publish their own figures, and competition is rising quickly — the acceptance rate fell from 44% to 24% in two years.'
       }
     }
   };
 
   P['keio-university'] = {
     english: {
-      estimateBasis: 'Keio reviews scores holistically with no cut-off. The estimate follows levels a comparable Tokyo university publishes as competitive (Waseda SILS: TOEFL 95+).',
-      ielts: { min: null, recommended: null, estimate: '7.0+', note: 'IELTS Academic accepted. There are no cut-off scores; scores are reviewed holistically. One Skill Retake is not accepted.' },
-      toefl: { min: null, recommended: null, estimate: '95+ (5.0+ on the 2026 scale)', note: 'TOEFL iBT accepted. No cut-off; superscores (MyBest) are not accepted.' },
+      ielts: { min: null, recommended: null, note: 'IELTS Academic accepted. There are no cut-off scores; scores are reviewed holistically. One Skill Retake is not accepted.' },
+      toefl: { min: null, recommended: null, note: 'TOEFL iBT accepted. No cut-off; superscores (MyBest) are not accepted.' },
       duolingo: { min: null, recommended: null, note: 'Not accepted for PEARL — only TOEFL iBT and/or IELTS Academic.' },
       waiver: 'None. All PEARL applicants, including native English speakers, must submit TOEFL iBT and/or IELTS scores.'
     },
@@ -364,7 +878,6 @@
       source: { label: 'Keio PEARL FAQ', url: 'https://www.keio.ac.jp/en/admissions/undergraduate/pearl/faq.html' },
       official: { admitRate: null, note: 'Keio publishes no cut-offs or averages. The PEARL/GIGA quota is about 100 students across all three application periods.' },
       targets: {
-        ielts: '7.0+',
         sat: '1400+ (or strong IB / A-Level results)',
         gpa: '3.7+',
         basis: 'Estimate. Keio publishes no averages; these targets are set at the level of Waseda SILS, its closest published comparison.'
@@ -374,9 +887,8 @@
 
   P['sophia-university'] = {
     english: {
-      estimateBasis: 'Sophia publishes no minimum. The estimate follows levels that comparable English-taught programmes in Japan publish (ICU: TOEFL 79, or 4.5 on the new scale).',
-      ielts: { min: null, recommended: null, estimate: '6.5+', note: 'IELTS (Academic) required; IELTS Online and IELTS Indicator are not accepted. Must be taken within two years of applying.' },
-      toefl: { min: null, recommended: null, estimate: '85+ (4.5+ on the 2026 scale)', note: 'TOEFL required; Home Edition, ITP and Essentials are not accepted.' },
+      ielts: { min: null, recommended: null, note: 'IELTS (Academic) required; IELTS Online and IELTS Indicator are not accepted. Must be taken within two years of applying.' },
+      toefl: { min: null, recommended: null, note: 'TOEFL required; Home Edition, ITP and Essentials are not accepted.' },
       duolingo: { min: null, recommended: null, note: 'Not accepted — Sophia FLA requires TOEFL or IELTS.' },
       waiver: 'Waived if you studied at least five of the last six years at an English-medium institution, or if you hold Cambridge C2 Proficiency (official result required).'
     },
@@ -391,7 +903,6 @@
       source: { label: 'Sophia University admissions FAQ', url: 'https://adm.sophia.ac.jp/eng/admissions/ug_p/en_ug/faq/' },
       official: { admitRate: null, note: 'Sophia states there is no required minimum score or GPA and publishes no averages.' },
       targets: {
-        ielts: '6.5+',
         sat: '1300+',
         gpa: '3.5+',
         basis: 'Estimate for a selective private English-taught faculty in Tokyo that publishes no averages.'
@@ -417,7 +928,6 @@
       source: { label: 'ICU — ELBA application requirements', url: 'https://www.icu.ac.jp/en/admissions/undergraduate/engdoc/' },
       official: { admitRate: null, note: 'ICU publishes English minimums (IELTS 6.5 / TOEFL 79) but no SAT or GPA averages.' },
       targets: {
-        ielts: '7.0+ (the minimum is 6.5)',
         sat: '1300+ (Type A route)',
         gpa: '3.5+',
         basis: 'The English minimum is official; the targets above it are estimates for a selective liberal arts college.'
@@ -438,7 +948,6 @@
       source: { label: 'APU — application eligibility', url: 'https://admissions.apu.ac.jp/admissions/application_eligibility/' },
       official: { admitRate: null, note: 'APU publishes minimum English scores but no SAT or GPA averages.' },
       targets: {
-        ielts: '6.0+ (the minimum is 5.5 in every section)',
         sat: 'Not usually required',
         gpa: '3.0+; higher grades raise your chances of a larger tuition reduction',
         basis: 'Estimate. APU is one of the more accessible options in this database. Its tuition reduction scholarship (30–100%) depends on your documents, an online assessment and a recorded interview.'
@@ -465,7 +974,6 @@
       source: { label: 'Tohoku University — Gateway College admissions', url: 'https://admissions.tohoku.ac.jp/en/admissions/undergraduate/gateway_college/' },
       official: { admitRate: null, note: 'A new college, so no admission statistics exist yet. 90 places for the October (overseas) intake, out of an initial cohort of about 180.' },
       targets: {
-        ielts: '6.5+ (the minimum is 6.0)',
         sat: '1350+ or equivalent IB / A-Level results',
         gpa: '3.6+',
         basis: 'The minimums are official. The targets are estimates for a leading national university\'s first English-taught intake.'
@@ -481,7 +989,6 @@
       source: { label: 'SNU admissions FAQ', url: 'https://en.snu.ac.kr/admission/overview/faq/admission' },
       official: { admitRate: null, note: 'SNU publishes language minimums (TOPIK 3 or TOEFL 80 / IELTS 6.0) but no score or GPA averages.' },
       targets: {
-        ielts: '6.5–7.0+ (the minimum is 6.0); TOPIK 4+ is a real advantage',
         sat: 'Not a standard requirement — strong national-exam results matter more',
         gpa: '3.8+ (top 5–10% of class)',
         basis: 'Estimate. SNU is Korea\'s most selective university, and it warns that weak Korean can hurt your application in some departments.'
@@ -503,19 +1010,17 @@
       source: { label: 'KAIST international undergraduate admission', url: 'https://admission.kaist.ac.kr/intl-undergraduate' },
       official: { admitRate: null, note: 'KAIST publishes recommended English scores but no admitted-student averages.' },
       targets: {
-        ielts: '6.5+ (KAIST\'s recommendation)',
         sat: 'If you submit one: Math 750+. Olympiad and research experience count heavily',
         gpa: '3.8+, with top grades in maths and science',
-        basis: 'The IELTS target is KAIST\'s recommendation. The SAT and GPA targets are estimates — every admitted international student receives a full scholarship, so competition is strong.'
+        basis: 'The SAT and GPA targets are estimates — every admitted international student receives a full scholarship, so competition is strong.'
       }
     }
   };
 
   P['yonsei-university'] = {
     english: {
-      estimateBasis: 'UIC sets no minimum. The estimate follows what a comparable Seoul university publishes for English-taught majors (Korea University: TOEFL 100).',
-      ielts: { min: null, recommended: null, estimate: '7.0+', note: 'Accepted; UIC sets no minimum score.' },
-      toefl: { min: null, recommended: null, estimate: '100+ (5.5+ on the 2026 scale)', note: 'TOEFL PBT/CBT/iBT accepted; no minimum score.' },
+      ielts: { min: null, recommended: null, note: 'Accepted; UIC sets no minimum score.' },
+      toefl: { min: null, recommended: null, note: 'TOEFL PBT/CBT/iBT accepted; no minimum score.' },
       duolingo: { min: null, recommended: null, note: 'Not listed among UIC\'s accepted English proofs.' },
       waiver: 'A test is not needed if you hold a diploma from a high school in a country where English is the sole official language (US, Canada excluding Quebec, UK, Australia, New Zealand), or a Medium of Instruction certificate for an English-taught high school curriculum. IB English A and AP English also count.',
       note: 'UIC has no cut-off scores: admission goes to applicants who score highly in both stages (document review, then interview).'
@@ -529,7 +1034,6 @@
       source: { label: 'UIC first-year admissions', url: 'https://uic.yonsei.ac.kr/main/admission.php?mid=m04_02_02' },
       official: { admitRate: null, note: 'UIC publishes no cut-offs or averages.' },
       targets: {
-        ielts: '7.0+',
         sat: '1450+',
         gpa: '3.7+',
         basis: 'Estimate. UIC is Korea\'s most competitive fully English-taught college and accepts the Common Application, so its applicants overlap heavily with U.S. applicants.'
@@ -583,10 +1087,9 @@
       source: { label: 'Korea University Application Guide, Fall 2026', url: 'https://oia.korea.ac.kr/_res/oia/etc/Application_Guide_for_Fall_2026_Freshman(ENG).pdf' },
       official: { admitRate: null, note: 'No averages are published. The IELTS 7.0 / TOEFL 100 threshold for English-based majors is official.' },
       targets: {
-        ielts: '7.0+ (to study your major in English)',
         sat: 'Not a standard requirement',
         gpa: '3.6+',
-        basis: 'The English target is official. The GPA target is an estimate for a "SKY" university.'
+        basis: 'The GPA target is an estimate for a "SKY" university.'
       }
     }
   };
@@ -597,7 +1100,6 @@
       source: { label: 'SKKU undergraduate scholarships', url: 'https://admission-global.skku.edu/eng/grad/scholarship_undergrad.html' },
       official: { admitRate: null, note: 'SKKU publishes English scholarship thresholds (IELTS 7.0 → 50% of tuition, IELTS 8.0 → 100%, first semester) but no admission averages.' },
       targets: {
-        ielts: '6.5+ to be competitive; 7.0+ unlocks a 50% first-semester tuition waiver',
         sat: 'Not a standard requirement',
         gpa: '3.4+ (3.5+ is needed to keep the Global Leader Scholarship)',
         basis: 'The scholarship thresholds are official. The admission targets are estimates.'
@@ -611,7 +1113,6 @@
       source: { label: 'Hanyang University scholarships', url: 'https://www.hanyang.ac.kr/web/eng/scholarships' },
       official: { admitRate: null, note: 'Hanyang publishes a language scholarship threshold (TOEFL iBT 90 / IELTS 6.5) but no admission averages.' },
       targets: {
-        ielts: '6.0+ to apply competitively; 6.5+ earns a 30% first-semester discount',
         sat: 'Not a standard requirement',
         gpa: '3.3+ (3.0+ is needed for enrolled-student tuition reductions)',
         basis: 'The scholarship thresholds are official. The admission targets are estimates.'
@@ -645,7 +1146,6 @@
       source: { label: 'Ewha admissions guide for international applicants', url: 'https://isa.ewha.ac.kr/sites/oisa/file/ag_english.pdf' },
       official: { admitRate: null, note: 'Ewha publishes English minimums (TOEFL 80 / IELTS 6.0) but no admission averages.' },
       targets: {
-        ielts: '6.5+ (the minimum is 6.0)',
         sat: 'Not a standard requirement',
         gpa: '3.4+',
         basis: 'The minimums are official. The targets above them are estimates.'
@@ -655,17 +1155,14 @@
 
   P['kyung-hee-university'] = {
     english: {
-      estimateBasis: 'An estimated level for applying. Kyung Hee\'s published IELTS 7.5 / TOEFL 105 are scholarship thresholds, not admission requirements.',
       ielts: {
       min: null,
       recommended: null,
-      estimate: '6.0+ to apply',
       note: 'IELTS 7.5 or above earns English Track applicants Admission Scholarship B (full tuition for the first semester) — a scholarship threshold, not an admission requirement. The admission minimum is set in the current guidelines PDF.'
     },
       toefl: {
       min: null,
       recommended: null,
-      estimate: '80+ to apply',
       note: 'TOEFL iBT 105 or above earns Admission Scholarship B (full first-semester tuition) — a scholarship threshold, not an admission requirement.'
     }
     },
@@ -675,7 +1172,6 @@
       source: { label: 'Kyung Hee international undergraduate guidelines', url: 'https://iadmission.khu.ac.kr/gglobalcenter/user/contents/view.do?menuNo=8000031' },
       official: { admitRate: null, note: 'Kyung Hee publishes scholarship thresholds but no admission averages.' },
       targets: {
-        ielts: '6.0+ to apply; 7.5+ for a full first-semester tuition scholarship',
         sat: 'Not a standard requirement',
         gpa: '3.2+',
         basis: 'The scholarship thresholds are official. The admission targets are estimates for one of the more accessible Seoul universities.'
@@ -739,9 +1235,8 @@
       note: 'UTokyo charges the same fees to international and domestic students. The College of Design FAQ quotes these figures as of April 2025 and says the fees for September 2027 entrants will be stated in the application guidelines.'
     },
     targets: {
-      ielts: '6.0+ is the expected level; 7.0+ to stand out (estimate)',
       sat: '1480+ (official expectation) · or ACT 33+ · or IB 38+',
-      basis: 'The English and SAT/IB levels are UTokyo\'s published expectations for the College of Design. The "stand out" IELTS level and the GPA target are estimates.'
+      basis: 'The English and SAT/IB levels are UTokyo\'s published expectations for the College of Design. The GPA target is an estimate.'
     },
     sources: [{ label: 'UTokyo College of Design — admission overview (PDF, March 2026)', url: 'https://design.adm.u-tokyo.ac.jp/wp-content/uploads/2026/03/20260326UTokyoDesign_Admission_E.pdf' }]
   });

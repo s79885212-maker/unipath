@@ -80,9 +80,10 @@
   }
 
   /* Translate a whole string; returns null when there is no entry. */
-  function lookup(text) {
+  function lookup(text, depth) {
     if (lang === 'en') return null;
     build();
+    depth = depth || 0;
     var key = norm(text);
     if (!key) return null;
     if (exact.has(key)) return exact.get(key);
@@ -92,7 +93,10 @@
       var out = t.out;
       t.order.forEach(function (n, idx) {
         var part = m[idx + 1];
+        /* A captured part may itself match a template (e.g. a date inside
+           "{0}, 23:59 applicant’s local time"); one level of nesting is enough. */
         var tr = exact.get(norm(part));
+        if (tr == null && depth < 1 && /[A-Za-z]{2}/.test(part)) tr = lookup(part, depth + 1);
         out = out.split('{' + n + '}').join(tr != null ? tr : part);
       });
       return out;

@@ -3236,17 +3236,20 @@ window.UNIPATH.universities.push(
     cost: 'https://studentaccounts.georgetown.edu/tuition/undergraduate/'
   },
   admissions: {
-    platforms: ['Georgetown Application'],
+    platforms: ['Georgetown Application', 'Common Application'],
     deadlines: [
-      { name: 'Early Action', kind: 'EA', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: false, appliesTo: 'First-year applicants', conditions: 'Georgetown accepts either its own Georgetown Application or the Common Application, and requires SAT or ACT scores.', status: 'not-confirmed', source: 'https://uadmissions.georgetown.edu/first-year/application-requirements/', verified: '2026-09-23', note: 'The 2027-cycle dates were not restated on the pages read; treat the date as unconfirmed for this cycle.' },
-      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'SAT or ACT scores are required.', status: 'not-confirmed', source: 'https://uadmissions.georgetown.edu/first-year/application-requirements/', verified: '2026-09-23', note: 'The 2027-cycle date was not restated on the pages read.' },
+      { name: 'Early Action', kind: 'EA', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: false, appliesTo: 'First-year applicants', conditions: 'Not binding, but Early Action applicants may not apply to another school\u2019s Early Decision I or II programme. The application, writing supplement and supporting credentials are due on this date. Decisions by 15 December; SAT or ACT scores are required.', status: 'confirmed', source: 'https://uadmissions.georgetown.edu/apply/first-year-applicants/', verified: '2026-09-30', note: "Georgetown's current first-year page (the application has been open since 1 August 2026) lists these dates without a year." },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'The application, writing supplement and supporting credentials are due on this date. Decisions by 1 April; SAT or ACT scores are required.', status: 'confirmed', source: 'https://uadmissions.georgetown.edu/apply/first-year-applicants/', verified: '2026-09-30', note: "Georgetown's current first-year page (the application has been open since 1 August 2026) lists these dates without a year." },
+      { name: 'Application opens', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-08-01', date: '1 August 2026', binding: false, appliesTo: 'First-year applicants', conditions: 'The Georgetown Application and the Common Application both open on this date.', status: 'confirmed', source: 'https://uadmissions.georgetown.edu/apply/first-year-applicants/', verified: '2026-09-30', note: null },
+      { name: 'Financial aid application', kind: 'aid', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-02-01', date: '1 February 2027', binding: false, appliesTo: 'Applicants asking for financial aid', conditions: 'The same aid deadline applies to Early Action and Regular Decision applicants. CSS Profile (and the FAFSA for US citizens and permanent residents).', status: 'confirmed', source: 'https://uadmissions.georgetown.edu/apply/first-year-applicants/', verified: '2026-09-30', note: null },
+      { name: 'Reply date for admitted students', kind: 'reply', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-05-01', date: '1 May 2027', binding: false, appliesTo: 'Admitted students', conditions: 'Early Action and Regular Decision admits both reply by this date.', status: 'confirmed', source: 'https://uadmissions.georgetown.edu/apply/first-year-applicants/', verified: '2026-09-30', note: null }
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: true, waiver: 'Georgetown accepts fee waiver requests from any applicant, international applicants included, for whom the fee is a significant burden' },
-    documents: ['Georgetown Application (not the Common Application)', 'Georgetown Writing Supplement: two short and two long essays', 'Academic credentials for all four years of secondary school', 'SAT or ACT scores', 'CSS Profile for aid applicants'],
+    documents: ['Georgetown Application or the Common Application', 'Georgetown Writing Supplement: two short and two long essays', 'Academic credentials for all four years of secondary school', 'SAT or ACT scores', 'CSS Profile for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Two short and two long essays in the Georgetown Writing Supplement',
     interview: 'Alumni interviews are part of the process where available',
-    notes: ['Georgetown uses its own application rather than the Common Application.']
+    notes: ['Georgetown accepts either its own Georgetown Application or the Common Application.']
   },
   english: {
     ielts: { min: null, recommended: null, note: 'Recommended, not required; no minimum score is published for undergraduate admission.' },
@@ -4186,9 +4189,22 @@ window.UNIPATH.universities.push(
     notes: ['International students who do not apply for aid when they apply for admission are never eligible for need-based aid at Mount Holyoke.']
   },
   english: {
-    ielts: { min: null, recommended: 7, note: 'Average for admitted students: over 7.0 (not a minimum).' },
-    toefl: { min: null, recommended: 100, scales: [{ period: 'pre2026', min: null, recommended: 100 }, { period: 'post2026', min: null, recommended: 5.5 }], note: 'Average: 100, or 5.5 for tests taken on or after 21 January 2026 (not a minimum).' },
-    duolingo: { min: null, recommended: 130, note: 'Average: over 130 (not a minimum).' },
+    ielts: {
+      min: null,
+      recommended: null,
+      note: 'No minimum score. The college lists an average of over 7.0. Mount Holyoke lists this as an average score without saying which students or which year it describes, so UniPath does not show it as a statistic.'
+    },
+    toefl: {
+      min: null,
+      recommended: null,
+      scales: [],
+      note: 'No minimum score. The college lists an average of 100, or 5.5 for tests taken on or after 21 January 2026. Mount Holyoke lists this as an average score without saying which students or which year it describes, so UniPath does not show it as a statistic.'
+    },
+    duolingo: {
+      min: null,
+      recommended: null,
+      note: 'No minimum score. The college lists an average of over 130. Mount Holyoke lists this as an average score without saying which students or which year it describes, so UniPath does not show it as a statistic.'
+    },
     waiver: 'Required from non-native English speakers.',
     note: 'Mount Holyoke has no minimum score except for Cambridge English (185 for C1 Advanced or C2 Proficiency); the figures shown are average scores. Scores reported inside the Common or Coalition App do not count — upload a PDF to the applicant portal; enrolling students send official results.'
   },
@@ -4369,8 +4385,8 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application', 'QuestBridge Application'],
     deadlines: [
-      { name: 'Early Decision', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding: admitted students must enrol and withdraw other applications. Notification in mid-December. Barnard is test-optional for 2027 entry; if scores are sent, the test must be taken before the deadline and scores must arrive by 15 November.', status: 'not-confirmed', source: 'https://barnard.edu/admissions/application-rounds', verified: '2026-09-23', note: 'The pages read still showed the previous cycle’s dates; the 2027-entry test-optional policy is confirmed, the date is not.' },
-      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Notification in late March. January test sittings are accepted if scores reach Barnard by 26 February; nothing is considered after 28 February.', status: 'not-confirmed', source: 'https://barnard.edu/admissions/application-rounds', verified: '2026-09-23', note: 'The pages read still showed the previous cycle’s dates.' },
+      { name: 'Early Decision', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2025-11-01', date: '1 November 2025 (previous cycle)', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding: admitted students must enrol and withdraw other applications. Notification in mid-December. Barnard is test-optional for 2027 entry; if scores are sent, the test must be taken before the deadline and scores must arrive by 15 November.', status: 'previous-cycle', source: 'https://barnard.edu/admissions/application-rounds', verified: '2026-09-30', note: 'The pages read still showed the previous cycle’s dates; the 2027-entry test-optional policy is confirmed, the date is not.' },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-01-01', date: '1 January 2026, extended to 11 January 2026 (previous cycle)', binding: false, appliesTo: 'First-year applicants', conditions: 'Notification in late March. January test sittings are accepted if scores reach Barnard by 26 February; nothing is considered after 28 February.', status: 'previous-cycle', source: 'https://barnard.edu/admissions/application-rounds', verified: '2026-09-30', note: 'The pages read still showed the previous cycle’s dates.' },
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and national exam results', 'Teacher recommendations', 'English proficiency evidence', 'Financial aid documents through the Barnard applicant portal'],
@@ -5067,10 +5083,11 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision I and Early Action', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants to the College of Arts and Sciences (Early Action is College-only)', conditions: 'Early Decision is binding; Early Action is not. Oberlin runs Early Decision twice a year and Early Action for the College only.', status: 'not-confirmed', source: 'https://www.oberlin.edu/admissions-and-aid/arts-and-sciences/first-year-applicants', verified: '2026-09-23', note: 'The 2027-cycle dates were not restated on the pages read.' },
-      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding second early round.', status: 'not-confirmed', source: 'https://www.oberlin.edu/admissions-and-aid/arts-and-sciences/first-year-applicants', verified: '2026-09-23', note: 'The 2027-cycle date was not restated on the pages read.' },
-      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'One Regular Decision round a year.', status: 'not-confirmed', source: 'https://www.oberlin.edu/admissions-and-aid/arts-and-sciences/first-year-applicants', verified: '2026-09-23', note: 'The 2027-cycle date was not restated on the pages read.' },
-      { name: 'Conservatory of Music application', kind: 'portfolio', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-12-01', date: '1 December 2026', binding: false, appliesTo: 'Applicants to the Conservatory of Music', conditions: 'Separate, earlier deadline for Conservatory applicants because of auditions.', status: 'confirmed', source: 'https://www.oberlin.edu/admissions-and-aid/conservatory/undergraduate-applicants', verified: '2026-09-23', note: null },
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants to the College of Arts and Sciences', conditions: 'Binding. The financial aid deadline is the same day. Notification by mid-December; reply due 2 January.', status: 'confirmed', source: 'https://www.oberlin.edu/admissions-and-aid/arts-and-sciences/first-year-applicants', verified: '2026-09-30', note: "Oberlin's current first-year page (which already reports the Fall 2026 international admit rate) lists these dates without a year." },
+      { name: 'Early Action', kind: 'EA', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: false, appliesTo: 'First-year applicants to the College of Arts and Sciences only', conditions: 'Not binding. The financial aid deadline is the same day. Notification by mid-January; reply due 1 May.', status: 'confirmed', source: 'https://www.oberlin.edu/admissions-and-aid/arts-and-sciences/first-year-applicants', verified: '2026-09-30', note: "Oberlin's current first-year page (which already reports the Fall 2026 international admit rate) lists these dates without a year." },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: true, appliesTo: 'First-year applicants to the College of Arts and Sciences', conditions: 'Binding. The financial aid deadline is the same day. Notification by 1 February; reply due 15 February.', status: 'confirmed', source: 'https://www.oberlin.edu/admissions-and-aid/arts-and-sciences/first-year-applicants', verified: '2026-09-30', note: "Oberlin's current first-year page (which already reports the Fall 2026 international admit rate) lists these dates without a year." },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'First-year applicants to the College of Arts and Sciences', conditions: 'The financial aid deadline is the same day. Notification by 1 April; reply due 1 May.', status: 'confirmed', source: 'https://www.oberlin.edu/admissions-and-aid/arts-and-sciences/first-year-applicants', verified: '2026-09-30', note: "Oberlin's current first-year page (which already reports the Fall 2026 international admit rate) lists these dates without a year." },
+      { name: 'Conservatory of Music application', kind: 'portfolio', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-12-01', date: '1 December 2026', binding: false, appliesTo: 'Applicants to the Conservatory of Music', conditions: 'Separate, earlier deadline for Conservatory applicants because of auditions.', status: 'confirmed', source: 'https://www.oberlin.edu/admissions-and-aid/conservatory/undergraduate-applicants', verified: '2026-09-23', note: null }
     ],
     applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile (code 1587) or ISAFA with parental income documents for aid applicants'],
