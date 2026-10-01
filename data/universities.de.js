@@ -155,7 +155,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['FAU application portal'],
     deadlines: [
-      { name: 'Application for the winter semester', kind: 'intake', entryTerm: 'Winter', entryYear: '2027', date: 'Published by the university for each intake', binding: false, appliesTo: 'Bachelor applicants', conditions: 'FAU publishes application windows per programme and intake; the dates were not read during this check. Tuition for new non-EU students starts from summer semester 2027.', status: 'not-confirmed', source: 'https://www.fau.eu/studying/international-students/application-and-enrollment-for-international-applicants/', verified: null, note: null },
+      { name: 'Winter semester 2026/27 application (last published cycle)', kind: 'application-window', entryTerm: 'Winter', entryYear: '2026', dateISO: '2026-07-15', date: '15 April – 15 July 2026 (previous cycle)', binding: false, appliesTo: 'International bachelor applicants, programmes without admission restrictions', conditions: 'Published window for winter semester 2026/27; admission-restricted programmes opened on 4 May 2026, and Artificial Intelligence (B.Sc.) closed on 31 May 2026. FAU names 15 July as the winter-semester deadline at Bavarian universities, but the 2027/28 dates were not yet listed. Tuition for new non-EU students starts from summer semester 2027.', status: 'previous-cycle', source: 'https://www.fau.eu/studying/international-students/application-and-enrollment-for-international-applicants/prospective-international-students-applying-for-undergraduate-programs/', verified: '2026-10-01', note: null }
     ],
     applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null },
     documents: [
@@ -432,7 +432,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Leuphana online application (uni-assist route for certificates from outside the EU)'],
     deadlines: [
-      { name: "Bachelor's application", kind: 'intake', entryTerm: 'Winter', entryYear: '2027', dateISO: '2027-07-15', date: '15 July 2027', binding: false, appliesTo: 'Bachelor applicants', conditions: 'Carried over from the earlier verification and not re-confirmed on the official pages during this check.', status: 'not-confirmed', source: 'https://www.leuphana.de/en/study/studying-in-germany.html', verified: null, note: null },
+      { name: 'Bachelor’s application — winter semester 2027/28', kind: 'application-window', entryTerm: 'Winter', entryYear: '2027', dateISO: '2027-07-15', date: 'Mid-May – 15 July 2027', binding: false, appliesTo: 'First-year international applicants', conditions: 'Leuphana states that first-year students can apply from mid-May to 15 July 2027 for a start in October 2027. For the summer semester 2027 only applications for higher semesters are possible.', status: 'confirmed', source: 'https://www.leuphana.de/en/college/application/international-applications.html', verified: '2026-10-01', note: null }
     ],
     applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null },
     documents: [
@@ -1860,7 +1860,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['CBS online application'],
     deadlines: [
-      { name: 'Application for the autumn 2027 intake', kind: 'intake', entryTerm: 'autumn', entryYear: '2027', date: 'Not confirmed', status: 'not-confirmed', binding: false, appliesTo: 'Bachelor applicants', conditions: 'Application dates are published by the university; the dates for this intake were not read during this check.', source: 'https://www.cbs.de/en/admissions/admission-requirements', verified: '2026-09-23', note: null }
+      { name: 'Rolling admission — no fixed deadline', kind: 'rolling', entryTerm: 'Autumn', entryYear: '2027', date: 'No fixed deadline', binding: false, appliesTo: 'Bachelor applicants', conditions: 'CBS states that there are no fixed application deadlines: you can apply at any time while places are available. Non-EU applicants should allow time for the visa.', status: 'confirmed', source: 'https://www.cbs.de/en/admissions/admission-requirements', verified: '2026-10-01', note: null }
     ],
     applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
     documents: ['Certified copy of the university entrance qualification', 'Tabular CV', 'Motivation letter', 'Proof of health insurance for international applicants', 'Admissions interview'],
@@ -2098,7 +2098,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Macromedia online application'],
     deadlines: [
-      { name: 'Application for the winter 2027 intake', kind: 'intake', entryTerm: 'winter', entryYear: '2027', date: 'Not confirmed', status: 'not-confirmed', binding: false, appliesTo: 'Bachelor applicants', conditions: 'Application dates are published by the university; the dates for this intake were not read during this check.', source: 'https://www.macromedia-fachhochschule.de/en/advisory/admission-application/', verified: '2026-09-23', note: null }
+      { name: 'Winter semester application', kind: 'rolling', entryTerm: 'Winter', entryYear: '2027', dateISO: '2027-10-01', date: 'Until 1 October 2027', binding: false, appliesTo: 'Bachelor applicants', conditions: 'Macromedia lists 1 October as both the application deadline and the start date of the winter semester, and 1 April for the summer semester; in exceptional cases deadlines may be extended. Non-EU applicants should allow time for the visa.', status: 'confirmed', source: 'https://www.macromedia-fachhochschule.de/en/advisory/admission-application/', verified: '2026-10-01', note: 'Standing annual deadlines stated on the current page without a year.' }
     ],
     applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null, note: 'A registration fee of €500 (EU or two years\' residence in Germany) or €750 (non-EU) applies; a separate application fee was not confirmed.' },
     documents: ['School-leaving certificate giving access to higher education', 'Transcripts', 'Proof of English at the required level'],

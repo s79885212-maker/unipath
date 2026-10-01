@@ -8057,5 +8057,95 @@ window.UNIPATH_I18N.ru = {
   "Summer {#0}": "лето {0}",
   "Global Science Course (GSC) — transfer route": "Global Science Course (GSC) — перевод на старший курс",
   "PEAK — programme closing to new applicants": "PEAK — программа закрывается для новых абитуриентов",
-  "Future Global Leadership (FGL) — closed to new applicants": "Future Global Leadership (FGL) — приём новых студентов закрыт"
+  "Future Global Leadership (FGL) — closed to new applicants": "Future Global Leadership (FGL) — приём новых студентов закрыт",
+
+  /* ======== Emory and Barnard fixes (v61) ======== */
+  "Binding. Financial aid deadline 2 December; decisions by 15 December.": "Обязывающий. Срок подачи на финансовую помощь — 2 декабря; решения до 15 декабря.",
+  "Binding. Financial aid deadline 6 January; decisions by 15 February.": "Обязывающий. Срок подачи на финансовую помощь — 6 января; решения до 15 февраля.",
+  "Not binding. Financial aid deadline 10 February; decisions by 1 April.": "Необязывающий. Срок подачи на финансовую помощь — 10 февраля; решения до 1 апреля.",
+  "Emory’s current deadlines table lists these dates without a year.": "Действующая таблица сроков Emory приводит эти даты без года.",
+  "Emory’s Scholar Programs deadline is 15 November, with decisions by 1 March.": "Срок программ Emory Scholar — 15 ноября, решения до 1 марта.",
+  "Binding: admitted students must enrol and withdraw other applications. Notification in mid-December. Barnard is test-optional through 2027.": "Обязывающий: принятые должны зачислиться и отозвать другие заявления. Уведомление в середине декабря. Barnard остаётся test-optional до 2027 года включительно.",
+  "Notification in late March; admitted applicants reply by the national reply date of 1 May.": "Уведомление в конце марта; принятые отвечают до общенациональной даты ответа — 1 мая.",
+  "Barnard’s application-rounds page gives the dates with the year; its application-process page still showed the previous cycle.": "Страница Barnard с раундами подачи указывает даты с годом; на странице о процессе подачи ещё был прошлый цикл.",
+
+  /* ======== Middlebury and CMU fixes (v61) ======== */
+  "Test-optional; self-reported scores are accepted. Financial aid application due 1 February; decisions in late March.": "Test-optional; принимаются самостоятельно указанные баллы. Заявление на финансовую помощь — до 1 февраля; решения в конце марта.",
+  "Binding: you may not apply Early Decision elsewhere and must sign the Early Decision Commitment Statement. Financial aid application due 15 November; decisions in mid-December.": "Обязывающий: нельзя подавать Early Decision в другие вузы, и нужно подписать Early Decision Commitment Statement. Заявление на финансовую помощь — до 15 ноября; решения в середине декабря.",
+  "Binding. Financial aid application due the same day; decisions in mid-February.": "Обязывающий. Заявление на финансовую помощь — в тот же день; решения в середине февраля.",
+  "Binding; notification by 15 December and enrolment by 1 February. Not available for the School of Drama, BXA Design programmes or the School of Music.": "Обязывающий; уведомление до 15 декабря, зачисление до 1 февраля. Недоступен для School of Drama, программ BXA Design и School of Music.",
+  "The main round for most applicants; notification no later than 1 April, enrolment by 1 May.": "Основной раунд для большинства абитуриентов; уведомление не позднее 1 апреля, зачисление до 1 мая.",
+
+  /* ======== USC, Brandeis, Wesleyan fixes (v61) ======== */
+  "Early Decision (most majors)": "Early Decision (большинство специальностей)",
+  "Early Action (most majors)": "Early Action (большинство специальностей)",
+  "Regular Decision (performing arts majors)": "Regular Decision (исполнительские искусства)",
+  "Regular Decision (most majors)": "Regular Decision (большинство специальностей)",
+  "First-year applicants, except performing arts programmes": "Поступающие на первый курс, кроме программ исполнительских искусств",
+  "Binding: an ED agreement is required, and admitted students must enrol and withdraw other applications. Notification by mid-December. ED applicants are considered for USC merit scholarships. Financial aid deadline 1 November 2026.": "Обязывающий: нужно соглашение ED, принятые должны зачислиться и отозвать другие заявления. Уведомление к середине декабря. Подающие ED рассматриваются на стипендии USC за успехи. Срок подачи на финансовую помощь — 1 ноября 2026.",
+  "Non-binding and non-restrictive; notification in late January. EA applicants are considered for USC merit scholarships. Financial aid deadline 15 November 2026. World Bachelor in Business applicants must use the 1 November deadline.": "Необязывающий и без ограничений; уведомление в конце января. Подающие EA рассматриваются на стипендии USC за успехи. Срок подачи на финансовую помощь — 15 ноября 2026. Поступающие на World Bachelor in Business должны подать к 1 ноября.",
+  "Applicants to the Kaufman School of Dance, School of Dramatic Arts and Thornton School of Music": "Поступающие в Kaufman School of Dance, School of Dramatic Arts и Thornton School of Music",
+  "The only deadline for these schools; applicants are considered for USC merit scholarships. Notification by 1 April.": "Единственный срок для этих школ; поступающие рассматриваются на стипендии USC за успехи. Уведомление до 1 апреля.",
+  "First-year applicants to majors without a 1 December deadline": "Поступающие на специальности без срока 1 декабря",
+  "Final first-year deadline; notification by 1 April. Financial aid deadline 3 February 2027.": "Последний срок для первокурсников; уведомление до 1 апреля. Срок подачи на финансовую помощь — 3 февраля 2027.",
+  "Binding. CSS Profile and FAFSA due the same day; decision by 15 December.": "Обязывающий. CSS Profile и FAFSA — в тот же день; решение до 15 декабря.",
+  "Not binding. CSS Profile and FAFSA due the same day; decision by 1 February.": "Необязывающий. CSS Profile и FAFSA — в тот же день; решение до 1 февраля.",
+  "Binding. CSS Profile and FAFSA due the same day; decision by 15 February.": "Обязывающий. CSS Profile и FAFSA — в тот же день; решение до 15 февраля.",
+  "Test-optional. CSS Profile and FAFSA due the same day; decision by 1 April.": "Test-optional. CSS Profile и FAFSA — в тот же день; решение до 1 апреля.",
+  "Brandeis’s current dates table lists these deadlines without a year.": "Действующая таблица сроков Brandeis приводит эти даты без года.",
+  "Test-optional: scores are considered if sent and ignored if not. Financial aid deadline the same day; notification in late March.": "Test-optional: баллы учитываются, если их прислали, и не учитываются, если нет. Срок подачи на финансовую помощь — в тот же день; уведомление в конце марта.",
+  "Binding. Financial aid deadline the same day; notification in mid-December.": "Обязывающий. Срок подачи на финансовую помощь — в тот же день; уведомление в середине декабря.",
+  "Binding. Financial aid deadline the same day; notification in mid-February.": "Обязывающий. Срок подачи на финансовую помощь — в тот же день; уведомление в середине февраля.",
+
+  /* ======== Richmond (v61) ======== */
+  "Binding: a signal that Richmond is your first choice. Decisions around 12 December. ED I applicants are considered automatically for Richmond Scholars.": "Обязывающий: сигнал, что Richmond — ваш первый выбор. Решения примерно 12 декабря. Подающие ED I автоматически рассматриваются на Richmond Scholars.",
+  "Not binding. Decisions around 23 January; financial aid notification around 15 February. All Early Action applications are considered for Richmond Scholars.": "Необязывающий. Решения примерно 23 января; уведомление о финансовой помощи примерно 15 февраля. Все заявления Early Action рассматриваются на Richmond Scholars.",
+  "Binding. Applicants can switch between Regular Decision and Early Decision II until 1 January.": "Обязывающий. Перейти между Regular Decision и Early Decision II можно до 1 января.",
+  "Not binding; decisions in mid-March and reply by 1 May. Richmond is test-optional for students entering in 2027.": "Необязывающий; решения в середине марта, ответ до 1 мая. Для поступающих в 2027 году Richmond — test-optional.",
+  "Richmond’s current round pages list these dates without a year.": "Действующие страницы раундов Richmond приводят эти даты без года.",
+  "Richmond Scholars consideration": "Рассмотрение на Richmond Scholars",
+  "Early Decision II and Regular Decision applicants who want to be considered for Richmond Scholars": "Подающие Early Decision II и Regular Decision, желающие участвовать в Richmond Scholars",
+  "All applications on file by 1 December are considered automatically for Richmond Scholars, the university’s largest merit scholarship.": "Все заявления, поданные до 1 декабря, автоматически рассматриваются на Richmond Scholars — крупнейшую стипендию университета за успехи.",
+
+  /* ======== NYU ED I (v61) ======== */
+  "Binding; decision by 15 December. CSS Profile for aid by 10 November.": "Обязывающий; решение до 15 декабря. CSS Profile для помощи — до 10 ноября.",
+  "NYU’s current first-year page lists the dates without a year.": "Действующая страница NYU для первокурсников приводит даты без года.",
+
+  /* ======== Lehigh, Wellesley, Macalester (v61) ======== */
+  "Test-optional; decisions in late March.": "Test-optional; решения в конце марта.",
+  "Lehigh’s current page lists the dates without a year.": "Действующая страница Lehigh приводит даты без года.",
+  "Wellesley’s current first-year table lists the dates without a year; the financial aid application is due the same day.": "Действующая таблица Wellesley для первокурсников приводит даты без года; заявление на финансовую помощь подаётся в тот же день.",
+  "Not binding. Priority date for financial aid 9 November; decisions on 19 December; reply by 1 May.": "Необязывающий. Приоритетная дата для финансовой помощи — 9 ноября; решения 19 декабря; ответ до 1 мая.",
+
+  /* ======== Germany second pass (v61) ======== */
+  "Bachelor’s application — winter semester 2027/28": "Подача в бакалавриат — зимний семестр 2027/28",
+  "Mid-May – 15 July 2027": "Середина мая – 15 июля 2027",
+  "Leuphana states that first-year students can apply from mid-May to 15 July 2027 for a start in October 2027. For the summer semester 2027 only applications for higher semesters are possible.": "Leuphana сообщает, что на первый курс можно подать с середины мая до 15 июля 2027 для начала учёбы в октябре 2027. На летний семестр 2027 принимаются заявления только на старшие семестры.",
+  "Winter semester 2026/27 application (last published cycle)": "Подача на зимний семестр 2026/27 (последний опубликованный цикл)",
+  "15 April – 15 July 2026 (previous cycle)": "15 апреля – 15 июля 2026 (прошлый цикл)",
+  "International bachelor applicants, programmes without admission restrictions": "Иностранные абитуриенты бакалавриата, программы без ограничения приёма",
+  "Published window for winter semester 2026/27; admission-restricted programmes opened on 4 May 2026, and Artificial Intelligence (B.Sc.) closed on 31 May 2026. FAU names 15 July as the winter-semester deadline at Bavarian universities, but the 2027/28 dates were not yet listed. Tuition for new non-EU students starts from summer semester 2027.": "Опубликованный период для зимнего семестра 2026/27; на программы с ограничением приёма подача открылась 4 мая 2026, а на Artificial Intelligence (B.Sc.) закрылась 31 мая 2026. FAU называет 15 июля сроком для зимнего семестра в баварских университетах, но даты 2027/28 ещё не опубликованы. Плата для новых студентов из стран вне ЕС вводится с летнего семестра 2027.",
+  "Until 1 October 2027": "До 1 октября 2027",
+  "Macromedia lists 1 October as both the application deadline and the start date of the winter semester, and 1 April for the summer semester; in exceptional cases deadlines may be extended. Non-EU applicants should allow time for the visa.": "Macromedia указывает 1 октября и как срок подачи, и как начало зимнего семестра, а 1 апреля — для летнего; в исключительных случаях сроки могут продлеваться. Абитуриентам из стран вне ЕС нужно заложить время на визу.",
+  "Rolling admission — no fixed deadline": "Приём по мере подачи — без фиксированного срока",
+  "No fixed deadline": "Без фиксированного срока",
+  "CBS states that there are no fixed application deadlines: you can apply at any time while places are available. Non-EU applicants should allow time for the visa.": "CBS сообщает, что фиксированных сроков подачи нет: подать можно в любое время, пока есть места. Абитуриентам из стран вне ЕС нужно заложить время на визу.",
+
+  /* ======== Waseda 2027 (v61) ======== */
+  "SILS — AO September 2027 entry, Early Admission": "SILS — AO, поступление в сентябре 2027, ранний приём",
+  "SILS — AO September 2027 entry, Regular Admission": "SILS — AO, поступление в сентябре 2027, основной приём",
+  "7–12 January 2027": "7–12 января 2027",
+  "13–28 January 2027": "13–28 января 2027",
+  "7–28 January 2027": "7–28 января 2027",
+  "Applicants to the School of International Liberal Studies (SILS)": "Поступающие в School of International Liberal Studies (SILS)",
+  "Opens at 10:00 JST on 7 January and closes at 23:59 JST on 12 January 2027. Early results on 9 March 2027.": "Открывается 7 января в 10:00 и закрывается 12 января 2027 в 23:59 по японскому времени. Результаты раннего приёма — 9 марта 2027.",
+  "Closes at 17:00 JST on 28 January 2027. Interview, if required, on 26 or 27 March 2027; results on 13 April 2027; waitlist announcements on 18 May and 1 June 2027.": "Закрывается 28 января 2027 в 17:00 по японскому времени. Собеседование при необходимости — 26 или 27 марта 2027; результаты — 13 апреля 2027; объявления по листу ожидания — 18 мая и 1 июня 2027.",
+  "Political Science and Economics — AO September 2027 enrolment": "Political Science and Economics — AO, зачисление в сентябре 2027",
+  "Applicants to the English-based Degree Program, School of Political Science and Economics": "Поступающие на English-based Degree Program, School of Political Science and Economics",
+  "Online application period. Examinee numbers and interview invitations on 13 April 2027; interviews, if required, on 16 or 17 April; results on 22 April 2027; first enrolment payment by 10 May 2027.": "Период онлайн-подачи. Номера экзаменуемых и приглашения на собеседование — 13 апреля 2027; собеседования при необходимости — 16 или 17 апреля; результаты — 22 апреля 2027; первый платёж за зачисление — до 10 мая 2027.",
+  "The school’s timeline prints the closing date as 28 January 2026, an evident misprint for 2027.": "В расписании школы дата закрытия напечатана как 28 января 2026 — очевидная опечатка вместо 2027.",
+  "Science and Engineering — AO September 2027 entry": "Science and Engineering — AO, поступление в сентябре 2027",
+  "Applicants to the English-based undergraduate programmes of the Faculty of Science and Engineering": "Поступающие на англоязычные программы бакалавриата Faculty of Science and Engineering",
+  "Opens at 10:00 JST on 7 January and closes automatically at 17:00 JST on 28 January 2027. Document screening results on 9 April 2027; interviews on 17 or 18 April; final results on 23 April 2027.": "Открывается 7 января в 10:00 и автоматически закрывается 28 января 2027 в 17:00 по японскому времени. Результаты проверки документов — 9 апреля 2027; собеседования — 17 или 18 апреля; итоговые результаты — 23 апреля 2027.",
+  "Each Waseda school publishes its own application guide; other English-based schools may differ.": "Каждая школа Waseda публикует своё руководство; у других англоязычных школ сроки могут отличаться."
 };

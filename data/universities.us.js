@@ -711,12 +711,14 @@ window.UNIPATH.universities.push(
           date: "1 November 2026",
           binding: true,
           appliesTo: "First-year applicants",
-          conditions: "Binding. CSS Profile for aid by 10 November.",
-          status: "not-confirmed",
+          time: "23:59",
+          timezone: "applicant’s local time",
+          conditions: "Binding; decision by 15 December. CSS Profile for aid by 10 November.",
+          status: "confirmed",
           source:
             "https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply/all-freshmen-applicants.html",
-          verified: "2026-09-23",
-          note: "The ED I date was not restated on the pages read for this cycle.",
+          verified: "2026-10-01",
+          note: "NYU’s current first-year page lists the dates without a year.",
         },
         {
           name: "Early Decision II",
