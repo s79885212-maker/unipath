@@ -8152,5 +8152,54 @@ window.UNIPATH_I18N.ru = {
   /* ======== Boston College SAT (v61) ======== */
   "Fall 2024 entering class": "Набор осени 2024",
   "{0} Common Data Set 2024–25 (section C9) ↗": "{0} Common Data Set 2024–25 (раздел C9) ↗",
-  "The 2025–26 Common Data Set had not been published when this was checked; these figures are for the class that entered in Fall 2024.": "На момент проверки Common Data Set 2025–26 не был опубликован; эти данные относятся к набору осени 2024."
+  "The 2025–26 Common Data Set had not been published when this was checked; these figures are for the class that entered in Fall 2024.": "На момент проверки Common Data Set 2025–26 не был опубликован; эти данные относятся к набору осени 2024.",
+
+  /* ======== Kyung Hee 2027 (v62) ======== */
+  "Online application closes at 17:00 on 28 August 2026; posted documents must be postmarked by 27 August. Results at 14:00 on 23 October 2026; tuition payment 28 December 2026 – 8 January 2027. Classes begin 2 March 2027.": "Онлайн-подача закрывается 28 августа 2026 в 17:00; документы почтой должны быть отправлены до 27 августа. Результаты — 23 октября 2026 в 14:00; оплата обучения — 28 декабря 2026 – 8 января 2027. Занятия начинаются 2 марта 2027.",
+  "Online application closes at 17:00 on 6 November 2026; posted documents must be postmarked by 5 November. Practical test, where required, on 12 December 2026; results at 14:00 on 24 December 2026; tuition payment 28 December 2026 – 8 January 2027.": "Онлайн-подача закрывается 6 ноября 2026 в 17:00; документы почтой должны быть отправлены до 5 ноября. Практический экзамен (где требуется) — 12 декабря 2026; результаты — 24 декабря 2026 в 14:00; оплата обучения — 28 декабря 2026 – 8 января 2027.",
+  "17–28 August 2026": "17–28 августа 2026",
+
+  /* ======== UNIST 2027 (v62) ======== */
+  "Fall 2027 undergraduate admission — online application": "Приём в бакалавриат на осень 2027 — онлайн-подача",
+  "2 December 2026 – 22 January 2027": "2 декабря 2026 – 22 января 2027",
+  "Online application and documents from 09:00 on 2 December 2026 to 16:00 KST on 22 January 2027, through studyinkorea.go.kr. Evaluation 8 March – 9 April 2027, with interviews possible between 29 March and 9 April; results expected 7 May 2027; registration deposit 7–18 May 2027.": "Онлайн-подача и документы — с 09:00 2 декабря 2026 до 16:00 22 января 2027 по корейскому времени через studyinkorea.go.kr. Оценка — 8 марта – 9 апреля 2027, собеседования возможны с 29 марта по 9 апреля; результаты ожидаются 7 мая 2027; регистрационный депозит — 7–18 мая 2027.",
+  "From UNIST’s Fall 2027 Undergraduate Admission Guidelines; UNIST notes the schedule may change.": "Из правил приёма UNIST на осень 2027; UNIST отмечает, что расписание может измениться.",
+
+  /* ======== GIST 2027 (v62) ======== */
+  "International undergraduate admission (Fall 2027)": "Приём иностранных студентов в бакалавриат (осень 2027)",
+  "1 December 2026 – 29 January 2027": "1 декабря 2026 – 29 января 2027",
+  "1 December 2026 – 29 January 2027 KST": "1 декабря 2026 – 29 января 2027 по корейскому времени",
+  "GIST announced this application period with its 2027 Fall Undergraduate Admission Guideline; applications go through the GIST application system. No changes are allowed after the deadline.": "GIST объявил этот период подачи вместе с правилами приёма на осень 2027; заявления подаются через систему GIST. После дедлайна изменения не допускаются.",
+  "The closing time is given in the guideline PDF, which was not read during this check.": "Время закрытия указано в PDF с правилами, который при этой проверке не был прочитан.",
+
+  /* ======== Costs for NYU, Alabama, Michigan (v62) ======== */
+  "$100,998 total (College of Arts & Science)": "$100,998 всего (College of Arts & Science)",
+  "$100,998 estimated cost of attendance for the year": "$100,998 — оценка полной стоимости за год",
+  "NYU's 2026–2027 estimate for the College of Arts & Science, New York campus, two semesters, not living with family. Tuition and fees vary by school (Stern, Tisch, Tandon and others differ). NYU labels these figures as estimates until officially approved.": "Оценка NYU на 2026–2027 для College of Arts & Science, кампус в Нью-Йорке, два семестра, без проживания с семьёй. Обучение и сборы зависят от школы (Stern, Tisch, Tandon и другие отличаются). NYU называет эти цифры оценочными до официального утверждения.",
+  "$60,400 total (out-of-state, on campus)": "$60,400 всего (out-of-state, проживание в кампусе)",
+  "Tuition and fees (out-of-state)": "Обучение и сборы (out-of-state)",
+  "Housing (on campus)": "Проживание (в кампусе)",
+  "Miscellaneous": "Прочее",
+  "Loan fee estimate": "Оценка комиссии по займу",
+  "$60,400 estimated cost of attendance for the year": "$60,400 — оценка полной стоимости за год",
+  "UA's on-campus budget for an out-of-state, full-time undergraduate; the page was last updated in July 2026 and does not print the academic year. International students pay the out-of-state rate. Direct (UA-billed) costs are $52,202.": "Бюджет UA для очного студента out-of-state с проживанием в кампусе; страница обновлена в июле 2026 и не указывает учебный год. Иностранные студенты платят по ставке out-of-state. Прямые расходы (счёт от UA) — $52,202.",
+  "2026–2027 (as reported in U-M's Common Data Set)": "2026–2027 (по данным Common Data Set U-M)",
+  "$89,394 total (international first-year)": "$89,394 всего (иностранный первокурсник)",
+  "Tuition (non-resident, first-year)": "Обучение (нерезидент, первый курс)",
+  "Required fees for international students": "Обязательные сборы для иностранных студентов",
+  "Food and housing (on campus)": "Питание и проживание (в кампусе)",
+  "Other expenses": "Прочие расходы",
+  "$89,394 estimated for the year": "$89,394 — оценка за год",
+  "From sections G1 and G5 of U-M's Common Data Set 2025–26, which asks for 2026–2027 costs. Upper-division non-resident tuition is $68,953, and 37% of undergraduates pay more than the listed tuition because rates vary by programme. U-M's own cost pages block automated reading, so check them for the final figures.": "Из разделов G1 и G5 Common Data Set U-M 2025–26, где запрашиваются расходы на 2026–2027. Обучение для нерезидентов на старших курсах — $68,953, а 37% студентов платят больше указанного, потому что ставки зависят от программы. Собственные страницы U-M о стоимости закрыты от автоматического чтения, поэтому итоговые цифры сверяйте там.",
+  "College of Arts & Science estimate; tuition varies by school": "Оценка для College of Arts & Science; обучение зависит от школы",
+  "Out-of-state, on campus": "Out-of-state, проживание в кампусе",
+  "International first-year; tuition varies by programme and year": "Иностранный первокурсник; обучение зависит от программы и курса",
+
+  /* ======== Misc (v62) ======== */
+  "tuition and fees, food and housing, books and supplies, transportation and personal expenses": "обучение и сборы, питание и проживание, книги и материалы, транспорт и личные расходы",
+  "non-resident tuition, required fees, the international student fee, on-campus food and housing, books, transportation and other expenses": "обучение для нерезидентов, обязательные сборы, сбор для иностранных студентов, питание и проживание в кампусе, книги, транспорт и прочие расходы",
+  "out-of-state tuition and fees, on-campus housing and food, books, transportation, miscellaneous expenses and a loan fee estimate": "обучение и сборы out-of-state, проживание и питание в кампусе, книги, транспорт, прочие расходы и оценка комиссии по займу",
+  "Priority deadline — summer and autumn 2027 entry": "Приоритетный срок — поступление летом и осенью 2027",
+  "Priority deadline — spring 2027 entry": "Приоритетный срок — поступление весной 2027",
+  "Automatic merit scholarship notification": "Уведомление об автоматических стипендиях за успехи"
 };

@@ -87,6 +87,9 @@ window.UNIPATH.match = {
     'ajou-university':         { currency: 'KRW', basis: 'tuition', min: 7496000, max: 9832000, note: 'Two semesters at the published per-college rates, before any scholarship' },
     /* United States — cost of attendance for 2026–27 */
     'harvard-university':      { currency: 'USD', basis: 'total', min: 95134, max: 100134 },
+    'new-york-university':     { currency: 'USD', basis: 'total', min: 100998, max: 100998, note: 'College of Arts & Science estimate; tuition varies by school' },
+    'university-of-alabama':   { currency: 'USD', basis: 'total', min: 60400, max: 60400, note: 'Out-of-state, on campus' },
+    'university-of-michigan':  { currency: 'USD', basis: 'total', min: 89394, max: 89394, note: 'International first-year; tuition varies by programme and year' },
     'mit':                     { currency: 'USD', basis: 'total', min: 92760, max: 92760 },
     'yale-university':         { currency: 'USD', basis: 'total', min: 97985, max: 97985 },
     'arizona-state-university':{ currency: 'USD', basis: 'total', min: 69906, max: 69906 },

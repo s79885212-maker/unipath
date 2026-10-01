@@ -697,7 +697,7 @@ window.UNIPATH.universities.push(
       financialAid:
         "https://www.nyu.edu/admissions/financial-aid-and-scholarships/applying-as-a-prospective-undergraduate-student/first-year-applicants.html",
       programs: "https://www.nyu.edu/academics/degree-programs.html",
-      cost: "https://www.nyu.edu/admissions/financial-aid-and-scholarships.html",
+      cost: "https://www.nyu.edu/admissions/financial-aid-and-scholarships/cost-of-attendance.html",
     },
     admissions: {
       platforms: ["Common Application"],
@@ -806,13 +806,25 @@ window.UNIPATH.universities.push(
       internationalQualifications: null,
     },
     costs: {
-      breakdown: { published: false },
-      academicYear: null,
+      breakdown: {
+        tuition: 68576,
+        billed: 95014,
+        budget: 100998,
+        includes:
+          "tuition and fees, food and housing, books and supplies, transportation and personal expenses",
+      },
+      academicYear: "2026–2027",
       currency: "USD",
-      headline: null,
-      items: [],
-      totalText: null,
-      note: "NYU's itemised cost of attendance was not captured from an official page during verification. Use the official financial aid site for current figures.",
+      headline: "$100,998 total (College of Arts & Science)",
+      items: [
+        { label: "Tuition and fees", amount: 68576 },
+        { label: "Food and housing", amount: 26438 },
+        { label: "Books and supplies", amount: 1492 },
+        { label: "Transportation", amount: 2438 },
+        { label: "Personal expenses", amount: 2054 },
+      ],
+      totalText: "$100,998 estimated cost of attendance for the year",
+      note: "NYU's 2026–2027 estimate for the College of Arts & Science, New York campus, two semesters, not living with family. Tuition and fees vary by school (Stern, Tisch, Tandon and others differ). NYU labels these figures as estimates until officially approved.",
     },
     scholarships: {
       fullRide: {
@@ -920,7 +932,7 @@ window.UNIPATH.universities.push(
       scholarships: "https://finaid.umich.edu/types-of-aid/scholarships",
       financialAid: "https://finaid.umich.edu/",
       programs: "https://admissions.umich.edu/academics-majors",
-      cost: "https://admissions.umich.edu/costs-aid/costs",
+      cost: "https://obp.umich.edu/wp-content/uploads/pubdata/cds/cds_2025-26_umaa.pdf",
     },
     admissions: {
       platforms: ["Common Application"],
@@ -1024,13 +1036,28 @@ window.UNIPATH.universities.push(
       internationalQualifications: null,
     },
     costs: {
-      breakdown: { published: false },
-      academicYear: null,
+      breakdown: {
+        tuition: 66602,
+        billed: 85316,
+        budget: 89394,
+        includes:
+          "non-resident tuition, required fees, the international student fee, on-campus food and housing, books, transportation and other expenses",
+      },
+      academicYear: "2026–2027 (as reported in U-M's Common Data Set)",
       currency: "USD",
-      headline: null,
-      items: [],
-      totalText: null,
-      note: "U-M publishes non-resident cost of attendance annually; 2026–27 rates are released in July 2026. The official costs page blocked automated verification, so no figure is reproduced here — check the official link.",
+      headline: "$89,394 total (international first-year)",
+      items: [
+        { label: "Tuition (non-resident, first-year)", amount: 66602 },
+        { label: "Required fees", amount: 494 },
+        { label: "Required fees for international students", amount: 1000 },
+        { label: "Food and housing (on campus)", amount: 17220 },
+        { label: "Books and supplies", amount: 1220 },
+        { label: "Transportation", amount: 400 },
+        { label: "Other expenses", amount: 2458 },
+      ],
+      billedSubtotal: 85316,
+      totalText: "$89,394 estimated for the year",
+      note: "From sections G1 and G5 of U-M's Common Data Set 2025–26, which asks for 2026–2027 costs. Upper-division non-resident tuition is $68,953, and 37% of undergraduates pay more than the listed tuition because rates vary by programme. U-M's own cost pages block automated reading, so check them for the final figures.",
     },
     scholarships: {
       fullRide: {
@@ -1378,7 +1405,7 @@ window.UNIPATH.universities.push(
       scholarships: "https://afford.ua.edu/scholarships/international/",
       financialAid: "https://afford.ua.edu/",
       programs: "https://catalog.ua.edu/undergraduate/",
-      cost: "https://afford.ua.edu/",
+      cost: "https://afford.ua.edu/cost/",
     },
     admissions: {
       platforms: ["UA application", "Common Application"],
@@ -1490,13 +1517,28 @@ window.UNIPATH.universities.push(
         "Transcripts must be evaluated by a NACES member credential evaluation agency.",
     },
     costs: {
-      breakdown: { published: false },
-      academicYear: null,
+      breakdown: {
+        tuition: 36724,
+        billed: 52202,
+        budget: 60400,
+        includes:
+          "out-of-state tuition and fees, on-campus housing and food, books, transportation, miscellaneous expenses and a loan fee estimate",
+      },
+      academicYear: "2026–2027",
       currency: "USD",
-      headline: null,
-      items: [],
-      totalText: null,
-      note: "UA's itemised cost of attendance was not captured from an official page during verification. Check the official affordability site for current tuition and fees.",
+      headline: "$60,400 total (out-of-state, on campus)",
+      items: [
+        { label: "Tuition and fees (out-of-state)", amount: 36724 },
+        { label: "Housing (on campus)", amount: 10000 },
+        { label: "Food", amount: 5478 },
+        { label: "Books", amount: 700 },
+        { label: "Transportation", amount: 3354 },
+        { label: "Miscellaneous", amount: 4064 },
+        { label: "Loan fee estimate", amount: 80 },
+      ],
+      billedSubtotal: 52202,
+      totalText: "$60,400 estimated cost of attendance for the year",
+      note: "UA's on-campus budget for an out-of-state, full-time undergraduate; the page was last updated in July 2026 and does not print the academic year. International students pay the out-of-state rate. Direct (UA-billed) costs are $52,202.",
     },
     scholarships: {
       fullRide: {
