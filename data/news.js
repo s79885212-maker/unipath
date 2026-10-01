@@ -13,6 +13,12 @@
                 when the source gives an exact date
    deadline   — true when eventDate is a cut-off, so the entry can be
                 archived automatically once it has passed
+   eventTime, eventZone — the published time and zone of that cut-off;
+                without them the entry closes only when the day has ended
+   closes     — closing date of an open call, when the source gives one
+   state      — open | upcoming | closed | varies | informational; an entry
+                with no deadline is never assumed to be an open call
+   stateNote  — one sentence explaining the state, shown on the card
    ============================================================ */
 window.UNIPATH.news = [
   {
@@ -56,6 +62,8 @@ window.UNIPATH.news = [
     published: null,
     verified: '2026-09-23',
     eventDate: '2026-10-15',
+    eventTime: '18:00',
+    eventZone: 'UK time',
     deadline: true,
     state: 'upcoming',
     stateNote: 'Deadline still ahead: 18:00 UK time on 15 October 2026.'
@@ -71,6 +79,8 @@ window.UNIPATH.news = [
     published: null,
     verified: '2026-09-23',
     eventDate: '2027-01-13',
+    eventTime: '18:00',
+    eventZone: 'UK time',
     deadline: true,
     state: 'upcoming',
     stateNote: 'Deadline still ahead: 18:00 UK time on 13 January 2027.'

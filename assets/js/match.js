@@ -85,6 +85,8 @@
       var comp = off.sat && off.sat.composite;
       if (policy === 'not-used') {
         checks.push({ level: 'info', text: 'The SAT is not used for admission here.' });
+      } else if (policy === 'not-applicable' && !(off.sat && off.sat.composite)) {
+        checks.push({ level: 'info', text: 'The SAT is not part of this admission route, so your score is not compared.' });
       } else if (comp && has(comp[0]) && has(comp[2])) {
         /* Name the sample the source reports on; CDS figures are enrolled students. */
         var who = off.sat.cohort === 'admitted' ? 'admitted students' : off.sat.cohort === 'enrolled' ? 'enrolled first-year students' : 'the published sample';

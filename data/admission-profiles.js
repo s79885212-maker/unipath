@@ -1545,3 +1545,36 @@
   });
 
 })(window.UNIPATH.profiles);
+
+/* Explicit status for English tests that have no published figure.
+   Only what the university itself states is recorded here:
+     no-minimum   — the test is accepted and the university sets or states no minimum
+     not-required — the university does not require the test from applicants
+     not-accepted — the test is not accepted
+   A test with no figure and no entry here is shown as "Requirement not confirmed". */
+window.UNIPATH.testStatus = {
+    'harvard-university': { ielts: 'not-required', toefl: 'not-required', duolingo: 'not-required' },
+    'new-york-university': { ielts: 'no-minimum', duolingo: 'no-minimum' },
+    'princeton-university': { ielts: 'no-minimum', toefl: 'no-minimum', duolingo: 'no-minimum' },
+    'stanford-university': { ielts: 'not-required', toefl: 'not-required', duolingo: 'not-required' },
+    'bowdoin-college': { ielts: 'no-minimum', toefl: 'no-minimum', duolingo: 'no-minimum' },
+    'duke-university': { ielts: 'not-required', toefl: 'not-required', duolingo: 'not-required' },
+    'northwestern-university': { ielts: 'no-minimum', toefl: 'no-minimum', duolingo: 'no-minimum' },
+    'university-of-chicago': { ielts: 'not-required', toefl: 'not-required', duolingo: 'not-required' },
+    'swarthmore-college': { ielts: 'no-minimum' },
+    'wellesley-college': { ielts: 'not-required', toefl: 'not-required', duolingo: 'not-required' },
+    'colby-college': { ielts: 'no-minimum', toefl: 'no-minimum', duolingo: 'no-minimum' },
+    'georgetown-university': { ielts: 'not-required', toefl: 'not-required', duolingo: 'not-required' },
+    'smith-college': { ielts: 'no-minimum', toefl: 'no-minimum', duolingo: 'no-minimum' },
+    'mount-holyoke-college': { ielts: 'no-minimum', toefl: 'no-minimum', duolingo: 'no-minimum' },
+    'bates-college': { ielts: 'no-minimum', toefl: 'no-minimum', duolingo: 'no-minimum' },
+    'colgate-university': { ielts: 'no-minimum', toefl: 'no-minimum', duolingo: 'no-minimum' },
+    'kyoto-university': { duolingo: 'not-accepted' },
+    'keio-university': { ielts: 'no-minimum', toefl: 'no-minimum', duolingo: 'not-accepted' },
+    'sophia-university': { duolingo: 'not-accepted' },
+    'institute-of-science-tokyo': { ielts: 'no-minimum', toefl: 'no-minimum' },
+    'okayama-university': { ielts: 'no-minimum' },
+    'yonsei-university': { ielts: 'no-minimum', toefl: 'no-minimum' },
+    'korea-university': { duolingo: 'not-accepted' },
+    'sogang-university': { ielts: 'no-minimum' }
+};

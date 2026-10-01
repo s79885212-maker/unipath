@@ -156,7 +156,11 @@ def english_lines(t, name):
     if one:
         return [one[0].upper() + one[1:]]
 
-    return [f"{name}: not published by the university"]
+    status = t.get("status")
+    if t.get("accepted") is False or status == "not-accepted":
+        return ["Not accepted"]
+    return [{"no-minimum": "Accepted — no minimum stated by the university",
+             "not-required": "Not required"}.get(status, "Requirement not confirmed")]
 
 
 def sat_label(u):
@@ -166,7 +170,8 @@ def sat_label(u):
     return {"required": "SAT/ACT required",
             "required-alternatives": "Testing required — alternatives to SAT/ACT accepted",
             "optional": "Test-optional", "accepted": "SAT/ACT accepted — requirement not confirmed",
-            "not-used": "SAT/ACT not used"}.get(t.get("policy"), "Policy not confirmed")
+            "not-used": "SAT/ACT not used",
+            "not-applicable": "SAT/ACT not part of this admission route"}.get(t.get("policy"), "Policy not confirmed")
 
 
 def sat_stats_line(u) -> str:
@@ -292,6 +297,12 @@ def university_page(u, country, fields):
     rows = []
     def row(label, value_html):
         rows.append(f"<div><dt>{e(label)}</dt><dd>{value_html}</dd></div>")
+
+    degree_names = {"associate": "Associate degree (2 years)", "certificate": "Certificate", "bachelor": "Bachelor’s degree"}
+    row("Degrees offered", e(", ".join(degree_names.get(d, d) for d in (u.get("degrees") or ["bachelor"]))))
+    if u.get("institutionKind") == "community-college":
+        row("Route", "A community college: it awards associate degrees and certificates, not a bachelor’s degree. "
+                     "A bachelor’s degree needs a later transfer to a four-year institution, which is not guaranteed.")
 
     # Tuition, charges billed by the university and a full cost of attendance
     # are different figures, so each is written out separately, exactly as the

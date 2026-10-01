@@ -87,11 +87,13 @@
           '<figcaption>' + esc(u.photos.gallery[0].title) + ' · <a href="' + U.uniUrl(u) + '/photos">More photos &amp; credits</a></figcaption></figure>'
         : '') +
       '<p style="margin-top:18px;font-size:1.05rem">' + or(u.description) + '</p>' +
+      (U.isCommunityCollege(u) ? '<div class="notice notice-info"><span class="ico">ℹ️</span><div>This is a community college. It awards associate degrees and certificates, not a bachelor’s degree. A bachelor’s degree requires transferring to a four-year institution afterwards, and neither the transfer nor any aid after it is guaranteed unless a specific agreement says so.</div></div>' : '') +
       '<dl class="deflist">' +
         row('Country', c.flag + ' <span>' + esc(c.name) + '</span>') +
         row('City', '<span>' + esc(u.city) + '</span>' + (has(u.region) ? ', <span>' + esc(u.region) + '</span>' : '')) +
         row('Founded', or(u.founded)) +
-        row('University type', or(u.type)) +
+        row('Institution type', or(u.type)) +
+        row('Degrees offered', esc(U.degreesLabel(u)) + (has(u.degreesNote) ? '<br><span class="small muted">' + esc(u.degreesNote) + '</span>' : '')) +
         row('Language of instruction', or(u.languageOfInstruction)) +
         row('Official website', link(u.links.website)) +
         row('Location / map', has(u.city) ? '<a href="https://www.openstreetmap.org/search?query=' +
@@ -192,7 +194,7 @@
         if (has(t.min)) v.push('<strong>Minimum: ' + esc(t.min) + '</strong>');
         if (has(t.recommended)) v.push('<strong>Recommended / competitive: ' + esc(t.recommended) + '</strong>');
       }
-      if (!has(t.min) && !has(t.recommended)) v.push('<span class="muted">Not published by the university.</span>');
+      if (!v.length) v.push('<strong>' + esc(U.testStatusLabel(t)) + '</strong>');
       if (has(t.note)) v.push('<span class="small muted">' + esc(t.note) + '</span>');
       return row(label, v.length ? v.join('<br>') : UNKNOWN);
     }
@@ -239,7 +241,7 @@
     function testPolicyRow(label, t) {
       if (!t) return row(label, UNKNOWN);
       var POLICY = { required: 'Required', 'required-alternatives': 'Testing required — alternatives accepted', optional: 'Optional',
-        accepted: 'Accepted — requirement not confirmed', 'not-used': 'Not used' };
+        accepted: 'Accepted — requirement not confirmed', 'not-used': 'Not used', 'not-applicable': 'Not part of this admission route' };
       var p = has(t.label) ? '<strong>' + esc(t.label) + '</strong>'
         : (POLICY[t.policy] ? '<strong>' + esc(POLICY[t.policy]) + '</strong>' : UNKNOWN);
       return row(label, p + (has(t.note) ? '<br><span class="small muted">' + esc(t.note) + '</span>' : ''));
@@ -286,6 +288,7 @@
       var body;
       if (satHtml || actHtml) body = satHtml + actHtml;
       else if (pol === 'not-used') body = '<p class="muted">SAT/ACT scores are not used in admission, so no test statistics apply.</p>';
+      else if (pol === 'not-applicable') body = '<p class="muted">The SAT and ACT are not part of this admission route, so no test statistics apply.</p>';
       else if (o.satNotPublished) body = '<p class="muted">The university does not publish SAT/ACT statistics.</p>' +
         (typeof o.satNotPublished === 'string' ? '<p class="small muted">' + esc(o.satNotPublished) + (st.source ? ' <a href="' + esc(st.source.url) + '" target="_blank" rel="noopener">' + esc(st.source.label) + ' ↗</a>' : '') + '</p>' : '');
       else body = '<p class="unknown">Statistics not yet confirmed.</p>';
@@ -337,6 +340,7 @@
         'required-alternatives': ['Testing required, alternatives accepted', 'A test is required, but the university accepts alternatives to the SAT and ACT.'],
         'not-used': ['Not used', 'SAT and ACT scores are not considered in admission.'],
         accepted: ['Accepted', 'Scores are accepted; whether they are required was not confirmed.'],
+        'not-applicable': ['Not part of this admission route', 'This route does not use the SAT or ACT: selection rests on the qualifications and assessments listed here.'],
         unknown: ['Not confirmed', 'The testing policy was not confirmed.']
       };
       var x = SUMMARY[pol] || SUMMARY.unknown;
@@ -802,21 +806,33 @@
       '<div class="acc-body">' + body + '</div></details>';
   }
 
-  /* Tuition figures can be compared only when they use the same currency and
-     the same period, so the summary groups them instead of mixing them. */
+  /* Tuition figures are comparable only within the same currency, period,
+     academic year and student category, so the summary keeps those apart.
+     A confirmed tuition of zero is a real figure and is counted; only tuition
+     is compared here, never billed costs or a full budget. */
+  function costYearKey(u) {
+    var y = U.costYear(u);
+    var m = y && /(20\d\d)\s*[–\-\/]\s*(?:20)?(\d\d)/.exec(y);
+    if (m) return m[1] + '–' + m[2];
+    m = y && /(20\d\d)/.exec(y);
+    return m ? m[1] : '';
+  }
   function tuitionSummary(list) {
     var groups = {};
     list.forEach(function (u) {
       var a = U.tuitionAmount(u);
-      if (a === null || a === 0) return;
-      var key = (U.costCurrency(u) || '?') + '|' + U.costPeriod(u);
+      if (a === null) return;
+      var cat = (u.costs && u.costs.studentCategory) || '';
+      var key = [U.costCurrency(u) || '?', U.costPeriod(u), costYearKey(u), cat].join('|');
       (groups[key] = groups[key] || []).push({ u: u, a: a });
     });
     return Object.keys(groups).map(function (k) {
       var rows = groups[k].sort(function (x, y) { return x.a - y.a; });
+      var paid = rows.filter(function (r) { return r.a > 0; });
       var parts = k.split('|');
-      return { currency: parts[0], period: parts[1], rows: rows, low: rows[0], high: rows[rows.length - 1] };
-    });
+      return { currency: parts[0], period: parts[1], year: parts[2], category: parts[3], rows: rows,
+        free: rows.length - paid.length, low: paid[0] || null, high: paid[paid.length - 1] || null };
+    }).sort(function (x, y) { return y.rows.length - x.rows.length || (y.year > x.year ? 1 : -1); });
   }
 
   function renderCountry(code) {
@@ -870,14 +886,21 @@
     var noTuition = list.filter(function (u) { return U.tuitionText(u) === null; });
     var costBody = (groups.length
       ? groups.map(function (g) {
-          var per = g.period === 'semester' ? 'Lowest tuition per semester' : 'Lowest tuition per year';
-          var perHigh = g.period === 'semester' ? 'Highest tuition per semester' : 'Highest tuition per year';
-          return '<dl class="uni-facts">' +
-            '<div><dt>Universities with published tuition</dt><dd>' + g.rows.length + ' / ' + list.length + '</dd></div>' +
-            '<div><dt>' + per + '</dt><dd><a href="' + U.uniUrl(g.low.u) + '">' + esc(U.displayName(g.low.u)) + '</a> — ' + esc(U.money(g.low.a, g.currency)) + '</dd></div>' +
-            '<div><dt>' + perHigh + '</dt><dd><a href="' + U.uniUrl(g.high.u) + '">' + esc(U.displayName(g.high.u)) + '</a> — ' + esc(U.money(g.high.a, g.currency)) + '</dd></div>' +
-            '</dl>';
-        }).join('')
+          var sem = g.period === 'semester';
+          var title = (g.year ? 'Academic year ' + g.year : 'Academic year not stated') + ' · ' + g.currency + ' · ' + (sem ? 'per semester' : 'per year') +
+            (g.category ? ' · ' + g.category : '');
+          var out = '<h4 class="cost-group-title">' + esc(title) + '</h4><dl class="uni-facts">' +
+            '<div><dt>Universities in this group</dt><dd>' + g.rows.length + ' / ' + list.length + '</dd></div>';
+          if (g.free) out += '<div><dt>Confirmed no tuition fee</dt><dd>' + g.free + '</dd></div>';
+          if (g.low && g.high && g.low !== g.high) {
+            out += '<div><dt>' + (g.free ? 'Lowest tuition among fee-charging universities' : 'Lowest tuition') + '</dt><dd><a href="' + U.uniUrl(g.low.u) + '">' + esc(U.displayName(g.low.u)) + '</a> — ' + esc(U.money(g.low.a, g.currency)) + '</dd></div>' +
+              '<div><dt>Highest tuition</dt><dd><a href="' + U.uniUrl(g.high.u) + '">' + esc(U.displayName(g.high.u)) + '</a> — ' + esc(U.money(g.high.a, g.currency)) + '</dd></div>';
+          } else if (g.low) {
+            out += '<div><dt>Tuition</dt><dd><a href="' + U.uniUrl(g.low.u) + '">' + esc(U.displayName(g.low.u)) + '</a> — ' + esc(U.money(g.low.a, g.currency)) + '</dd></div>';
+          }
+          return out + '</dl>';
+        }).join('') +
+        '<p class="small muted">Figures are grouped by academic year, currency and period, and are compared only inside a group. A lowest or highest figure in one group cannot be set against another group.</p>'
       : '<p>No tuition figure is confirmed for this country yet.</p>') +
       '<p class="small muted" style="margin-top:10px">Only tuition is compared here, because universities publish very different totals: some quote a single comprehensive fee, some the charges they bill, some a full cost of attendance with books and travel. Each profile shows which figure it is.</p>' +
       (noTuition.length ? '<p class="small muted">Tuition is not published for ' + noTuition.length + ' of these universities; their cards show “Not published” and their profiles link to the official cost page.</p>' : '');
@@ -924,7 +947,8 @@
       ['group', 'Basics'],
       ['Country', function (u) { var c = U.country(u.country); return c.flag + ' <span>' + esc(c.name) + '</span>'; }],
       ['Location', function (u) { return '<span>' + esc(u.city) + '</span>' + (has(u.region) ? ', <span>' + esc(u.region) + '</span>' : ''); }],
-      ['University type', function (u) { return or(u.type); }],
+      ['Institution type', function (u) { return '<strong>' + esc(U.institutionKindLabel(u)) + '</strong><br><span class="small">' + or(u.type) + '</span>'; }],
+      ['Degrees offered', function (u) { return esc(U.degreesLabel(u)) + (U.isCommunityCollege(u) ? '<br><span class="small muted">A two-year route: a bachelor’s degree needs a transfer to a four-year institution.</span>' : ''); }],
       ['English-taught degree', function (u) { return yesNo(u.englishTaught); }],
       ['Fields fully in English', function (u) {
         var en = U.englishPrograms(u);
@@ -966,6 +990,7 @@
       ['Average GPA', function (u) { var o = (u.stats || {}).official || {}; return o.gpa && has(o.gpa.average) ? '<strong>' + esc(o.gpa.average) + '</strong>' : '<span class="unknown">Not published</span>'; }],
       ['SAT statistics', function (u) {
         var o = (u.stats || {}).official || {}, x = o.sat;
+        if (!x && U.satPolicy(u) === 'not-applicable') return '<span class="muted">Not part of this admission route</span>';
         if (!x) return U.satPolicy(u) === 'not-used' ? '<span class="muted">Not used in admission</span>'
           : '<span class="unknown">' + (o.satNotPublished ? 'Not published by the university' : 'Statistics not yet confirmed') + '</span>';
         var bits = [];

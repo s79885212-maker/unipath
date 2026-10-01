@@ -2416,3 +2416,5 @@ button.badge {
 }
 .stat-line > .muted { min-width: 12em; }
 .stat-meta { margin: 6px 0 0; overflow-wrap: anywhere; }
+
+.cost-group-title { margin: 16px 0 6px; font-size: 1rem; }

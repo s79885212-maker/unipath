@@ -115,10 +115,15 @@
        not-used              — not part of admission (test-blind)
        accepted              — scores are accepted, but whether they are
                                required is not confirmed
+       not-applicable        — the admission route does not use the US
+                               SAT/ACT categories at all (it selects on
+                               national exams, school results or its own
+                               assessment); this is a confirmed fact, not
+                               an unknown, and it is not test-optional
        unknown               — no confirmed policy
      Unknown is never treated as optional. A record may carry its own
      short `label` when the university's wording needs it. */
-  var SAT_POLICIES = ['required', 'required-alternatives', 'optional', 'not-used', 'accepted'];
+  var SAT_POLICIES = ['required', 'required-alternatives', 'optional', 'not-used', 'accepted', 'not-applicable'];
   function satPolicy(u) {
     var p = u.academics && u.academics.sat ? u.academics.sat.policy : null;
     return SAT_POLICIES.indexOf(p) > -1 ? p : 'unknown';
@@ -129,6 +134,7 @@
     'optional': 'Test-optional',
     'not-used': 'SAT/ACT not used',
     'accepted': 'SAT/ACT accepted — requirement not confirmed',
+    'not-applicable': 'SAT/ACT not part of this admission route',
     'unknown': 'Policy not confirmed'
   };
   function satLabel(u) {
@@ -141,6 +147,32 @@
     var p = satPolicy(u);
     return p === 'optional' || p === 'not-used';
   }
+  /* Kind of institution, for the filter and the labels. A record may state
+     it in `institutionKind`; otherwise it is read from the descriptive `type`.
+       community-college — two-year public college (associate degrees, transfer)
+       liberal-arts      — undergraduate-focused liberal arts college
+       public            — public or national university
+       private           — private university */
+  var INSTITUTION_KINDS = {
+    'community-college': 'Community college',
+    'liberal-arts': 'Liberal arts college',
+    'public': 'Public university',
+    'private': 'Private university'
+  };
+  function institutionKind(u) {
+    if (u.institutionKind && INSTITUTION_KINDS[u.institutionKind]) return u.institutionKind;
+    var t = String(u.type || '');
+    if (/community college/i.test(t)) return 'community-college';
+    if (/liberal arts/i.test(t)) return 'liberal-arts';
+    if (/public|national|state|prefectural|municipal/i.test(t)) return 'public';
+    return 'private';
+  }
+  function isCommunityCollege(u) { return institutionKind(u) === 'community-college'; }
+  /* Degrees a first-year applicant can enter. Unless a record says otherwise
+     the catalogue lists four-year bachelor's routes. */
+  var DEGREE_LABELS = { associate: 'Associate degree (2 years)', certificate: 'Certificate', bachelor: 'Bachelor’s degree' };
+  function degreesOf(u) { return (u.degrees && u.degrees.length) ? u.degrees : ['bachelor']; }
+  function degreesLabel(u) { return degreesOf(u).map(function (d) { return DEGREE_LABELS[d] || d; }).join(', '); }
   function hasIelts(u) { return !!(u.english && u.english.ielts); }
   /* True only when the university itself publishes an IELTS minimum or
      recommended score — a UniPath estimate alone does not count. */
@@ -165,8 +197,36 @@
     if (testVaries(t)) return has(t.min) ? 'University minimum ' + (typeof t.min === 'number' ? t.min.toFixed(1) : t.min) + ', varies by programme' : variesLabel(t);
     if (has(t.min)) return 'Min ' + (typeof t.min === 'number' && t.min < 10 ? t.min.toFixed(1) : t.min);
     if (has(t.recommended)) return typeof t.recommended === 'number' ? t.recommended + '+ competitive' : String(t.recommended);
-    return 'Accepted, no minimum published';
+    return TEST_STATUS[testStatus(t)];
   }
+  /* What is actually known about one English test. A number is never implied
+     by an empty field: without a published figure the record must say which
+     case it is, and anything unstated counts as not confirmed.
+       minimum        — a confirmed minimum
+       recommended    — an official recommendation or competitive level
+       varies         — set per programme or applicant group
+       no-minimum     — accepted, and the university states it sets no minimum
+       not-required   — the test is not required of applicants
+       not-accepted   — the test is not accepted
+       not-confirmed  — acceptance or the requirement was not confirmed */
+  var TEST_STATUS = {
+    'minimum': 'Confirmed minimum',
+    'recommended': 'Official recommendation',
+    'varies': 'Varies by programme',
+    'no-minimum': 'Accepted — no minimum stated by the university',
+    'not-required': 'Not required',
+    'not-accepted': 'Not accepted',
+    'not-confirmed': 'Requirement not confirmed'
+  };
+  function testStatus(t) {
+    if (!t) return 'not-confirmed';
+    if (t.accepted === false || t.status === 'not-accepted') return 'not-accepted';
+    if (testVaries(t)) return 'varies';
+    if (has(t.min)) return 'minimum';
+    if (has(t.recommended)) return 'recommended';
+    return (t.status && TEST_STATUS[t.status]) ? t.status : 'not-confirmed';
+  }
+  function testStatusLabel(t) { return TEST_STATUS[testStatus(t)]; }
   function statsOf(u) { return u.stats || null; }
   function toeflMin(u) {
     return (u.english && u.english.toefl && has(u.english.toefl.min)) ? u.english.toefl.min : null;
@@ -289,16 +349,50 @@
      officially confirmed date can already have passed. Only a confirmed date
      can be upcoming or closed; anything else is unknown for this cycle. */
   var ROUND_STATE = { upcoming: 'Upcoming', closed: 'Closed', varies: 'Rolling / varies', unknown: 'Not known for this cycle' };
-  function isoToday() {
-    var t = new Date();
-    return t.getFullYear() + '-' + (t.getMonth() < 9 ? '0' : '') + (t.getMonth() + 1) + '-' + (t.getDate() < 10 ? '0' : '') + t.getDate();
+  /* When a deadline actually ends. With a published time and zone the exact
+     instant is used; with only a date, the deadline counts as passed only once
+     that day has ended everywhere on Earth (UTC−12), so a date is never closed
+     early on the strength of the device's own calendar. */
+  var FIXED_ZONES = { 'JST': 540, 'KST': 540, 'Japan time': 540, 'UTC': 0, 'GMT': 0 };
+  var IANA_ZONES = { 'UK time': 'Europe/London', 'CET': 'Europe/Berlin', 'CEST': 'Europe/Berlin', 'German time': 'Europe/Berlin',
+    'ET': 'America/New_York', 'Eastern Time': 'America/New_York', 'CT': 'America/Chicago', 'Central Time': 'America/Chicago',
+    'MT': 'America/Denver', 'PT': 'America/Los_Angeles', 'Pacific Time': 'America/Los_Angeles' };
+  /* Offset of an IANA zone from UTC, in minutes, at a given instant. */
+  function zoneOffset(iana, utcMs) {
+    try {
+      var f = new Intl.DateTimeFormat('en-US', { timeZone: iana, hour12: false, year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit' });
+      var p = {}; f.formatToParts(new Date(utcMs)).forEach(function (x) { p[x.type] = x.value; });
+      var asUtc = Date.UTC(+p.year, +p.month - 1, +p.day, (+p.hour) % 24, +p.minute, +p.second);
+      return Math.round((asUtc - utcMs) / 60000);
+    } catch (e) { return null; }
+  }
+  function deadlineEnd(d) {
+    var m = /^(\d{4})-(\d\d)-(\d\d)/.exec(String(d.dateISO || ''));
+    if (!m) return null;
+    var y = +m[1], mo = +m[2] - 1, day = +m[3];
+    var t = /^(\d{1,2}):(\d\d)$/.exec(String(d.time || ''));
+    var hh = t ? +t[1] : 23, mm = t ? +t[2] : 59, ss = t ? 0 : 59;
+    var zone = d.timezone;
+    var naive = Date.UTC(y, mo, day, hh, mm, ss);
+    if (has(zone) && FIXED_ZONES.hasOwnProperty(zone)) return { at: naive - FIXED_ZONES[zone] * 60000, precise: !!t };
+    if (has(zone) && IANA_ZONES[zone]) {
+      var off = zoneOffset(IANA_ZONES[zone], naive);
+      if (off !== null) return { at: naive - off * 60000, precise: !!t };
+    }
+    if (has(zone) && /local time/i.test(zone)) return { at: new Date(y, mo, day, hh, mm, ss).getTime(), precise: !!t };
+    /* No usable zone: end of that calendar day at UTC−12. */
+    return { at: Date.UTC(y, mo, day, 23, 59, 59) + 12 * 3600000, precise: false };
+  }
+  function deadlinePassed(d, now) {
+    var e = deadlineEnd(d);
+    return e ? (now || Date.now()) > e.at : false;
   }
   function roundState(d) {
     if (d.kind === 'notice') return null;
     if (roundStatus(d) !== 'confirmed') return 'unknown';
     if (d.kind === 'rolling') return 'varies';
     if (!has(d.dateISO)) return isApplicationDeadline(d) ? 'varies' : null;
-    return String(d.dateISO) >= isoToday() ? 'upcoming' : 'closed';
+    return deadlinePassed(d) ? 'closed' : 'upcoming';
   }
   /* Application deadlines are kept apart from the other dates of a cycle, so
      an opening date, an interview or a decision date can never be taken for
@@ -529,6 +623,7 @@
         { id: 'sat-alternatives', label: 'Testing required, alternatives accepted', test: function (u) { return satPolicy(u) === 'required-alternatives'; } },
         { id: 'sat-optional', label: 'SAT/ACT optional', test: function (u) { return satPolicy(u) === 'optional'; } },
         { id: 'sat-none', label: 'SAT/ACT not required', test: function (u) { return satNotRequired(u); } },
+        { id: 'sat-na', label: 'SAT/ACT not part of the admission route', test: function (u) { return satPolicy(u) === 'not-applicable'; } },
         { id: 'ielts', label: 'IELTS score published', test: function (u) { return ieltsPublished(u); } }
       ]
     },
@@ -548,9 +643,17 @@
       ]
     },
     {
+      id: 'institution', title: 'Institution type',
+      options: Object.keys(INSTITUTION_KINDS).map(function (k) {
+        return { id: k, label: INSTITUTION_KINDS[k], test: function (u) { return institutionKind(u) === k; } };
+      })
+    },
+    {
       id: 'degree', title: 'Degree level',
       options: [
-        { id: 'bachelor', label: 'Bachelor’s', test: function () { return true; } }
+        { id: 'bachelor', label: 'Bachelor’s degree (4-year route)', test: function (u) { return degreesOf(u).indexOf('bachelor') > -1; } },
+        { id: 'associate', label: 'Associate degree (2-year route)', test: function (u) { return degreesOf(u).indexOf('associate') > -1; } },
+        { id: 'certificate', label: 'Certificate', test: function (u) { return degreesOf(u).indexOf('certificate') > -1; } }
       ]
     },
     {
@@ -760,7 +863,7 @@
         '<div class="card-body">' +
           '<div class="loc">' + c.flag + ' <span>' + esc(u.city) + '</span>, <span>' + esc(c.name) + '</span></div>' +
           '<h3><a href="' + uniUrl(u) + '">' + esc(u.name) + '</a></h3>' +
-          '<div class="pill-row">' + scholarBadge(u) +
+          '<div class="pill-row">' + (isCommunityCollege(u) ? '<span class="badge badge-flat">Community college · 2-year route</span>' : '') + scholarBadge(u) +
             (englishLabel(u) ? '<span class="badge badge-info">' + esc(englishLabel(u)) + '</span>' : '') +
           '</div>' +
           '<dl class="uni-facts">' +
@@ -768,7 +871,7 @@
               ? esc(tuitionText(u)) + '<span class="small muted">' + esc(perPeriod(u)) + '</span>'
               : '<span class="unknown">Not published</span>') + '</dd></div>' +
             '<div><dt>Testing</dt><dd>' + esc(satLabel(u)) + '</dd></div>' +
-            '<div><dt>IELTS</dt><dd>' + (ieltsLabel(u) ? esc(ieltsLabel(u)) : '<span class="unknown">Not listed</span>') + '</dd></div>' +
+            '<div><dt>IELTS</dt><dd>' + (ieltsLabel(u) ? esc(ieltsLabel(u)) : '<span class="unknown">Requirement not confirmed</span>') + '</dd></div>' +
             '<div><dt>Next deadline</dt><dd>' + (dl.state === 'upcoming' ? esc(deadlineCardText(u))
               : '<span class="unknown">' + esc(deadlineCardText(u)) + '</span>') + '</dd></div>' +
           '</dl>' +
@@ -940,11 +1043,13 @@
     DISCLAIMER: DISCLAIMER,
     country: country, field: field, uniById: uniById, unisByCountry: unisByCountry,
     displayName: displayName, uniUrl: uniUrl,
+    testStatus: testStatus, testStatusLabel: testStatusLabel,
+    institutionKind: institutionKind, institutionKindLabel: function (u) { return INSTITUTION_KINDS[institutionKind(u)]; }, isCommunityCollege: isCommunityCollege, degreesOf: degreesOf, degreesLabel: degreesLabel,
     satPolicy: satPolicy, satLabel: satLabel, satNotRequired: satNotRequired, hasIelts: hasIelts, ieltsPublished: ieltsPublished, englishPrograms: englishPrograms, englishLabel: englishLabel, ieltsMin: ieltsMin, ieltsVaries: ieltsVaries, testVaries: testVaries, variesLabel: variesLabel, toeflLines: toeflLines, ieltsLabel: ieltsLabel, statsOf: statsOf, toeflMin: toeflMin,
     fullRide: fullRide, meritList: meritList, needBased: needBased,
     feeAmount: feeAmount, feeWaiver: feeWaiver, feeWaiverLabel: feeWaiverLabel, feeLabel: feeLabel,
     firstDeadline: firstDeadline, deadlineInfo: deadlineInfo, deadlineHtml: deadlineHtml, nextDeadline: nextDeadline, deadlineCardText: deadlineCardText,
-    roundState: roundState, roundStateLabel: roundStateLabel, isApplicationDeadline: isApplicationDeadline, otherDateLabel: otherDateLabel,
+    deadlinePassed: deadlinePassed, deadlineEnd: deadlineEnd, roundState: roundState, roundStateLabel: roundStateLabel, isApplicationDeadline: isApplicationDeadline, otherDateLabel: otherDateLabel,
     roundStatus: roundStatus, roundStatusLabel: roundStatusLabel, roundWhen: roundWhen, roundIntake: roundIntake,
     roundConditions: roundConditions, roundsOf: roundsOf, costHeadline: costHeadline, totalCostText: totalCostText,
     costBreak: costBreak, costCurrency: costCurrency, costYear: costYear, costPeriod: costPeriod, perPeriod: perPeriod,

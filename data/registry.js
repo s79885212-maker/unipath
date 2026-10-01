@@ -65,6 +65,9 @@ window.UNIPATH.applyLayers = function () {
       if (p.sources) u.sources = (u.sources || []).concat(p.sources);
       u.stats = p.stats || null;
     }
+    /* Explicit status for an English test that has no published figure. */
+    var ts = (window.UNIPATH.testStatus || {})[u.id];
+    if (ts && u.english) for (var tk in ts) if (ts.hasOwnProperty(tk) && u.english[tk]) u.english[tk].status = ts[tk];
     var list = photos[u.id];
     if (list && list.length) {
       var gallery = list.map(function (g) {

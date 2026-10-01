@@ -24,14 +24,33 @@
     return (global.UNIPATH && global.UNIPATH.news) || [];
   }
 
-  function today() {
-    var d = new Date();
-    return d.toISOString().slice(0, 10);
+  /* What an entry is today. The state comes from the entry itself (data/news.js)
+     and is never guessed: an entry without a deadline is not treated as an
+     open call, and a missing state is shown as information only.
+       open          — applications are being accepted now
+       upcoming      — a deadline that is still ahead
+       closed        — the deadline has passed or the call has ended
+       varies        — the date depends on the country or route
+       informational — a rule or change, not a competition */
+  var STATE_LABEL = {
+    open: 'Open now', upcoming: 'Deadline ahead', closed: 'Closed',
+    varies: 'Dates depend on country or route', informational: 'Information'
+  };
+  var STATE_BADGE = { open: 'badge-ok', upcoming: 'badge-warn', closed: '', varies: 'badge-flat', informational: 'badge-flat' };
+  function cutoff(n) {
+    return { dateISO: n.closes || n.eventDate, time: n.closesTime || n.eventTime, timezone: n.closesZone || n.eventZone };
   }
-
-  function isPast(n) {
-    return n.deadline === true && has(n.eventDate) && n.eventDate < today();
+  function newsState(n) {
+    if (n.state === 'closed') return 'closed';
+    /* A dated cut-off decides, whatever the stored state says. */
+    if ((n.deadline === true && has(n.eventDate)) || has(n.closes)) {
+      if (U.deadlinePassed(cutoff(n))) return 'closed';
+      return n.state === 'open' ? 'open' : 'upcoming';
+    }
+    if (n.state === 'open' || n.state === 'varies' || n.state === 'informational') return n.state;
+    return 'informational';
   }
+  function isPast(n) { return newsState(n) === 'closed'; }
 
   /* Dates are formatted in the language in use, so they never need a
      dictionary entry of their own. */
@@ -56,11 +75,12 @@
         '<span class="badge badge-info">' + esc(TYPE_LABEL[n.type] || 'Update') + '</span>' +
         (c ? '<span class="badge badge-flat">' + c.flag + ' ' + esc(c.name) + '</span>'
            : '<span class="badge badge-flat">All countries</span>') +
-        (isPast(n) ? '<span class="badge">Closed</span>' : '') +
+        '<span class="badge ' + STATE_BADGE[newsState(n)] + '">' + esc(STATE_LABEL[newsState(n)]) + '</span>' +
       '</div>' +
       '<h3 style="margin:10px 0 6px">' + esc(n.title) + '</h3>' +
       '<p class="small muted" style="margin:0 0 8px">' + esc(n.org) + '</p>' +
       '<p style="margin:0 0 12px">' + esc(n.summary) + '</p>' +
+      (has(n.stateNote) && !isPast(n) ? '<p class="small" style="margin:0 0 12px"><strong>' + esc(STATE_LABEL[newsState(n)]) + ':</strong> ' + esc(n.stateNote) + '</p>' : '') +
       '<dl class="uni-facts">' +
         '<div><dt>' + esc(whenLabel) + '</dt><dd>' + (when ? esc(when) : '<span class="unknown">Not published</span>') + '</dd></div>' +
         '<div><dt>Published</dt><dd>' + (has(n.published) ? esc(fmt(n.published)) : '<span class="unknown">Not stated by the source</span>') + '</dd></div>' +
@@ -93,7 +113,7 @@
         '<p>Only announcements confirmed on an official source are listed here, so this section stays empty rather than showing anything unverified.</p></div>') +
       (past.length
         ? '<h2 style="margin-top:36px">Archive</h2>' +
-          '<p class="small muted">Deadlines that have passed. They stay here so you can see what the cycle looked like.</p>' +
+          '<p class="small muted">Deadlines that have passed and calls that have ended. They stay here so you can see what the cycle looked like.</p>' +
           '<div class="grid grid-2" style="margin-top:16px">' + past.map(card).join('') + '</div>'
         : '');
 
