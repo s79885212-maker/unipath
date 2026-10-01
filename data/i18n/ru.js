@@ -8147,5 +8147,10 @@ window.UNIPATH_I18N.ru = {
   "Science and Engineering — AO September 2027 entry": "Science and Engineering — AO, поступление в сентябре 2027",
   "Applicants to the English-based undergraduate programmes of the Faculty of Science and Engineering": "Поступающие на англоязычные программы бакалавриата Faculty of Science and Engineering",
   "Opens at 10:00 JST on 7 January and closes automatically at 17:00 JST on 28 January 2027. Document screening results on 9 April 2027; interviews on 17 or 18 April; final results on 23 April 2027.": "Открывается 7 января в 10:00 и автоматически закрывается 28 января 2027 в 17:00 по японскому времени. Результаты проверки документов — 9 апреля 2027; собеседования — 17 или 18 апреля; итоговые результаты — 23 апреля 2027.",
-  "Each Waseda school publishes its own application guide; other English-based schools may differ.": "Каждая школа Waseda публикует своё руководство; у других англоязычных школ сроки могут отличаться."
+  "Each Waseda school publishes its own application guide; other English-based schools may differ.": "Каждая школа Waseda публикует своё руководство; у других англоязычных школ сроки могут отличаться.",
+
+  /* ======== Boston College SAT (v61) ======== */
+  "Fall 2024 entering class": "Набор осени 2024",
+  "{0} Common Data Set 2024–25 (section C9) ↗": "{0} Common Data Set 2024–25 (раздел C9) ↗",
+  "The 2025–26 Common Data Set had not been published when this was checked; these figures are for the class that entered in Fall 2024.": "На момент проверки Common Data Set 2025–26 не был опубликован; эти данные относятся к набору осени 2024."
 };

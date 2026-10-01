@@ -757,6 +757,17 @@
     }
   };
 
+  P['boston-college'] = {
+    stats: {
+      term: 'Fall 2024 entering class',
+      source: { label: 'Boston College Common Data Set 2024–25 (section C9)', url: 'https://www.bc.edu/content/dam/bc1/offices/irp/ir/cds/Boston_College_CDS_2024-2025_Final.pdf' },
+      official: {
+        sat: { composite: [1460, 1500, 1520], rw: [710, 740, 760], math: [730, 760, 780], submitted: '30%', cohort: 'enrolled', submittersOnly: true, note: 'The 2025–26 Common Data Set had not been published when this was checked; these figures are for the class that entered in Fall 2024.' },
+        act: [33, 34, 35]
+      }
+    }
+  };
+
   /* ========================== JAPAN ========================== */
 
   P['university-of-tokyo'] = {
