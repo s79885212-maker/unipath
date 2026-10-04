@@ -1191,6 +1191,7 @@ window.UNIPATH.universities.push(
   country: 'uk',
   city: 'London',
   region: 'England',
+  founded: 1895,
   type: 'Public research university (University of London)',
   brand: { c1: '#0d1b3e', c2: '#e30613', initials: 'LSE' },
   description: 'A specialist social-science university in central London, teaching economics, politics, law, management and related subjects. Admission is by UCAS, competition for places is high and LSE publishes one English requirement for every undergraduate programme.',
@@ -1263,7 +1264,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Undergraduate English language requirements', url: 'https://www.lse.ac.uk/study-at-lse/Undergraduate/Prospective-Students/How-to-Apply/English-language-requirements' },
     { label: 'Undergraduate fees and funding', url: 'https://www.lse.ac.uk/study-at-lse/Undergraduate/fees-and-funding' },
-    { label: 'UCAS key dates for 2027 entry', url: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications' }
+    { label: 'UCAS key dates for 2027 entry', url: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications' },
+    { label: 'About — history and facts', url: 'https://www.lse.ac.uk/about-lse' }
   ],
   verification: { level: 'partial', checked: ['english','rounds','application fee','tuition (2027/28 Table of Fees)'], unconfirmed: ['scholarships','application documents beyond UCAS'] },
   lastVerified: '2026-09-23'
@@ -1276,6 +1278,7 @@ window.UNIPATH.universities.push(
   country: 'uk',
   city: 'Bristol',
   region: 'England',
+  founded: 1876,
   type: 'Public research university',
   brand: { c1: '#a9134d', c2: '#5f0b2c', initials: 'BRI' },
   description: 'A large research university in south-west England with a broad course range from engineering and medicine to law and the humanities. English requirements are set by course profile, and tuition is charged in published subject bands.',
@@ -1416,7 +1419,8 @@ window.UNIPATH.universities.push(
     { label: 'English language requirements and profiles', url: 'https://www.bristol.ac.uk/study/language-requirements/' },
     { label: 'English language Profile B', url: 'https://www.bristol.ac.uk/study/language-requirements/profile-b/' },
     { label: 'Overseas undergraduate tuition fees, 2026/27 starters', url: 'https://www.bristol.ac.uk/students/support/finances/tuition-fees/ug/overseas/26-27/2026-starters/' },
-    { label: 'Scholarships for international students', url: 'https://www.bristol.ac.uk/international/fees-finance/scholarships/' }
+    { label: 'Scholarships for international students', url: 'https://www.bristol.ac.uk/international/fees-finance/scholarships/' },
+    { label: 'About — history and facts', url: 'https://www.bristol.ac.uk/university/history/' }
   ],
   verification: { level: 'partial', checked: ['english','english (profiles A, B, C and F scores)','tuition','scholarships','rounds','application fee'], unconfirmed: ['2027/28 tuition rates','need-based aid for international students'] },
   lastVerified: '2026-09-23'
@@ -1429,6 +1433,7 @@ window.UNIPATH.universities.push(
   country: 'uk',
   city: 'Glasgow',
   region: 'Scotland',
+  founded: 1451,
   type: 'Public research university',
   brand: { c1: '#003865', c2: '#001c33', initials: 'GLA' },
   description: "One of Scotland's ancient universities, teaching a full range of subjects from medicine and engineering to arts and social sciences. Scottish degrees usually run four years, and international fees are published in two main bands.",
@@ -1546,7 +1551,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'International undergraduate tuition fees', url: 'https://www.gla.ac.uk/undergraduate/fees/intlfees/' },
     { label: 'Computing Science BSc — entry requirements for 2027 entry', url: 'https://www.gla.ac.uk/undergraduate/degrees/computingscience/' },
-    { label: 'English language requirements', url: 'https://www.gla.ac.uk/international/englishlanguage/requirements/' }
+    { label: 'English language requirements', url: 'https://www.gla.ac.uk/international/englishlanguage/requirements/' },
+    { label: 'About — history and facts', url: 'https://www.gla.ac.uk/explore/abouttheuniversity/' }
   ],
   verification: { level: 'partial', checked: ['tuition','rounds','application fee','english (confirmed programme examples and validity)'], unconfirmed: ['scholarships for international undergraduates','2027/28 medicine and dentistry fees'] },
   lastVerified: '2026-09-23'
@@ -1559,6 +1565,7 @@ window.UNIPATH.universities.push(
   country: 'uk',
   city: 'St Andrews',
   region: 'Scotland',
+  founded: 1413,
   type: 'Public ancient university',
   brand: { c1: '#00539b', c2: '#002a54', initials: 'STA' },
   description: "Scotland's oldest university, in a small coastal town in Fife, known for arts, international relations and sciences. Degrees usually run four years and English requirements are set by faculty profile.",
@@ -1672,7 +1679,8 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'Undergraduate tuition fees — rest of the world', url: 'https://www.st-andrews.ac.uk/study/undergraduate/fees/world/' },
-    { label: 'Undergraduate English language requirements', url: 'https://www.st-andrews.ac.uk/subjects/entry/language-requirements/undergraduate/' }
+    { label: 'Undergraduate English language requirements', url: 'https://www.st-andrews.ac.uk/subjects/entry/language-requirements/undergraduate/' },
+    { label: 'About — history and facts', url: 'https://www.st-andrews.ac.uk/about/' }
   ],
   verification: { level: 'partial', checked: ['tuition','english policy structure','english (profiles 1-D, 2-M, 3-D and 7-D scores)','rounds','application fee'], unconfirmed: ['scholarships','2027/28 fees'] },
   lastVerified: '2026-09-23'
@@ -1685,6 +1693,7 @@ window.UNIPATH.universities.push(
   country: 'uk',
   city: 'Sheffield',
   region: 'England',
+  founded: 1905,
   type: 'Public research university',
   brand: { c1: '#131e29', c2: '#0a1118', initials: 'SHE' },
   description: 'A large civic research university in northern England with strong engineering, science and social-science faculties. It publishes a university-wide minimum English level and a fee range for overseas undergraduates.',
@@ -1765,7 +1774,8 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'Tuition fees for international students', url: 'https://sheffield.ac.uk/international/fees-and-funding/tuition-fees' },
-    { label: 'English language requirements for undergraduates', url: 'https://sheffield.ac.uk/undergraduate/apply/english-language' }
+    { label: 'English language requirements for undergraduates', url: 'https://sheffield.ac.uk/undergraduate/apply/english-language' },
+    { label: 'About — history and facts', url: 'https://sheffield.ac.uk/about/our-heritage/history' }
   ],
   verification: { level: 'partial', checked: ['english','tuition range','rounds','application fee'], unconfirmed: ['scholarships','medicine and dentistry fees'] },
   lastVerified: '2026-09-23'
@@ -1778,6 +1788,7 @@ window.UNIPATH.universities.push(
   country: 'uk',
   city: 'Durham',
   region: 'England',
+  founded: 1832,
   type: 'Public collegiate research university',
   brand: { c1: '#68246d', c2: '#3a1440', initials: 'DUR' },
   description: 'A collegiate research university in north-east England where every student belongs to a college alongside their academic department. Courses span arts, sciences, engineering and business.',
@@ -1905,7 +1916,8 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'English language requirements', url: 'https://www.durham.ac.uk/study/international/entry-requirements/english-language-requirements/' },
-    { label: 'Undergraduate tuition fees', url: 'https://www.durham.ac.uk/study/undergraduate/fees-and-funding/tuition-fees/' }
+    { label: 'Undergraduate tuition fees', url: 'https://www.durham.ac.uk/study/undergraduate/fees-and-funding/tuition-fees/' },
+    { label: 'About — history and facts', url: 'https://www.durham.ac.uk/about-us/governance/' }
   ],
   verification: { level: 'partial', checked: ['english (direct-entry bands A+, A, B and C)','rounds','application fee','2027 fee publication status'], unconfirmed: ['tuition amount','scholarships'] },
   lastVerified: '2026-09-23'
@@ -1918,6 +1930,7 @@ window.UNIPATH.universities.push(
   country: 'uk',
   city: 'Leeds',
   region: 'England',
+  founded: 1904,
   type: 'Public research university',
   brand: { c1: '#7f7f7f', c2: '#3f3f3f', initials: 'LEE' },
   description: 'A large civic university in northern England with one of the widest course ranges in the UK, from engineering and medicine to media and languages.',
@@ -2000,7 +2013,8 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'Entry requirements for international applicants', url: 'https://www.leeds.ac.uk/international-applying/doc/entry-requirements' },
-    { label: 'International fees and costs', url: 'https://www.leeds.ac.uk/international-fees-costs' }
+    { label: 'International fees and costs', url: 'https://www.leeds.ac.uk/international-fees-costs' },
+    { label: 'About — history and facts', url: 'https://www.leeds.ac.uk/about/doc/about-history' }
   ],
   verification: { level: 'partial', checked: ['english minimum','rounds','application fee','tuition (confirmed course example)'], unconfirmed: ['scholarships'] },
   lastVerified: '2026-09-23'
@@ -2013,6 +2027,7 @@ window.UNIPATH.universities.push(
   country: 'uk',
   city: 'Nottingham',
   region: 'England',
+  founded: 1881,
   type: 'Public research university',
   brand: { c1: '#005e8e', c2: '#00344f', initials: 'NOT' },
   description: 'A large research university with a parkland campus in the English Midlands and partner campuses in China and Malaysia. Subjects range from engineering and medicine to business and the arts.',
@@ -2100,7 +2115,8 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'English language requirements for international students', url: 'https://www.nottingham.ac.uk/studywithus/international-applicants/english-language/english-language-requirements.aspx' },
-    { label: 'Undergraduate tuition fees 2026/27', url: 'https://www.nottingham.ac.uk/fees/tuitionfees/202627/undergraduate.aspx' }
+    { label: 'Undergraduate tuition fees 2026/27', url: 'https://www.nottingham.ac.uk/fees/tuitionfees/202627/undergraduate.aspx' },
+    { label: 'About — history and facts', url: 'https://www.nottingham.ac.uk/about/history/abriefhistoryoftheuniversity.aspx' }
   ],
   verification: { level: 'partial', checked: ['english minimum','rounds','application fee','tuition (2027/28 fee table)'], unconfirmed: ['scholarships'] },
   lastVerified: '2026-09-23'
@@ -2113,6 +2129,7 @@ window.UNIPATH.universities.push(
   country: 'uk',
   city: 'Lancaster',
   region: 'England',
+  founded: 1964,
   type: 'Public collegiate research university',
   brand: { c1: '#b5121b', c2: '#6b0a10', initials: 'LAN' },
   description: 'A collegiate campus university in north-west England, strong in management, computing, environmental science and physics, with a compact campus outside the city.',
@@ -2213,7 +2230,8 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'English language requirements for undergraduate applicants', url: 'https://www.lancaster.ac.uk/study/entry-requirements/undergraduate-english-requirements/' },
-    { label: 'Fees and funding', url: 'https://www.lancaster.ac.uk/study/fees-and-funding/' }
+    { label: 'Fees and funding', url: 'https://www.lancaster.ac.uk/study/fees-and-funding/' },
+    { label: 'About — history and facts', url: 'https://www.lancaster.ac.uk/about-us/our-history/origins-and-growth/' }
   ],
   verification: { level: 'partial', checked: ['english (standard entry level and accepted tests)','rounds','application fee','tuition (confirmed course example)'], unconfirmed: ['scholarships'] },
   lastVerified: '2026-09-23'
@@ -2226,6 +2244,7 @@ window.UNIPATH.universities.push(
   country: 'uk',
   city: 'Newcastle upon Tyne',
   region: 'England',
+  founded: 1963,
   type: 'Public research university',
   brand: { c1: '#00707f', c2: '#00434c', initials: 'NCL' },
   description: 'A civic research university in north-east England with a city-centre campus, known for medicine, engineering, computing and marine sciences.',
@@ -2307,7 +2326,8 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'English language requirements for international students', url: 'https://www.ncl.ac.uk/international/language/' },
-    { label: 'Undergraduate tuition fees', url: 'https://www.ncl.ac.uk/undergraduate/fees-funding/tuition-fees/' }
+    { label: 'Undergraduate tuition fees', url: 'https://www.ncl.ac.uk/undergraduate/fees-funding/tuition-fees/' },
+    { label: 'About — history and facts', url: 'https://speccollstories.ncl.ac.uk/let-the-lion-roar-newcastle-university-at-60/index.html' }
   ],
   verification: { level: 'partial', checked: ['english (typical level)','rounds','application fee','tuition (confirmed course example)'], unconfirmed: ['scholarships'] },
   lastVerified: '2026-09-23'
@@ -2320,6 +2340,7 @@ window.UNIPATH.universities.push(
   country: 'uk',
   city: 'London',
   region: 'England',
+  founded: 1785,
   type: 'Public research university (University of London)',
   brand: { c1: '#003366', c2: '#001a33', initials: 'QMU' },
   description: 'A research university in east London with a main campus in Mile End, teaching medicine, law, engineering, science and humanities.',
@@ -2412,7 +2433,8 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'English language requirements for undergraduate and postgraduate programmes', url: 'https://www.qmul.ac.uk/international-students/englishlanguagerequirements/undergraduate-and-postgraduate-programmes/' },
-    { label: 'Undergraduate tuition fees', url: 'https://www.qmul.ac.uk/undergraduate/feesandfunding/tuitionfees/' }
+    { label: 'Undergraduate tuition fees', url: 'https://www.qmul.ac.uk/undergraduate/feesandfunding/tuitionfees/' },
+    { label: 'About — history and facts', url: 'https://www.qmul.ac.uk/about/facts-and-figures/' }
   ],
   verification: { level: 'partial', checked: ['english bands','rounds','application fee','tuition (confirmed course example)'], unconfirmed: ['scholarships'] },
   lastVerified: '2026-09-23'
@@ -2425,6 +2447,7 @@ window.UNIPATH.universities.push(
   country: 'uk',
   city: 'Southampton',
   region: 'England',
+  founded: 1952,
   type: 'Public research university',
   brand: { c1: '#8e2244', c2: '#4d1224', initials: 'SOU' },
   description: 'A research university on the south coast of England, known for engineering, computer science, medicine and ocean and earth science.',
@@ -2577,7 +2600,8 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'English language requirements', url: 'https://www.southampton.ac.uk/international/english-language-requirements' },
-    { label: 'Undergraduate tuition fees', url: 'https://www.southampton.ac.uk/courses/fees/undergraduate.page' }
+    { label: 'Undergraduate tuition fees', url: 'https://www.southampton.ac.uk/courses/fees/undergraduate.page' },
+    { label: 'About — history and facts', url: 'https://www.southampton.ac.uk/about/reputation/history-timeline.page' }
   ],
   verification: { level: 'partial', checked: ['english band system','english (bands A to I with IELTS scores)','rounds','application fee','tuition (published course fee table)'], unconfirmed: ['scholarships'] },
   lastVerified: '2026-09-23'
@@ -2590,6 +2614,7 @@ window.UNIPATH.universities.push(
   country: 'uk',
   city: 'Birmingham',
   region: 'England',
+  founded: 1900,
   type: 'Public research university',
   brand: { c1: '#1b3b6f', c2: '#0d1f3c', initials: 'BIR' },
   description: 'A large civic research university with a single campus in the second city of England, teaching medicine, engineering, business, law and the humanities.',
@@ -2704,7 +2729,8 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'International fees', url: 'https://www.birmingham.ac.uk/study/international/fees' },
-    { label: 'Undergraduate tuition fees', url: 'https://www.birmingham.ac.uk/study/undergraduate/fees-funding/tuition' }
+    { label: 'Undergraduate tuition fees', url: 'https://www.birmingham.ac.uk/study/undergraduate/fees-funding/tuition' },
+    { label: 'About — history and facts', url: 'https://www.birmingham.ac.uk/university/leadership/governance/publication-scheme/charitable' }
   ],
   verification: { level: 'partial', checked: ['rounds','application fee','fee publication status','2027 fee publication status','english (subject bands and validity)'], unconfirmed: ['tuition amount','scholarships'] },
   lastVerified: '2026-09-23'
@@ -2717,6 +2743,7 @@ window.UNIPATH.universities.push(
   country: 'uk',
   city: 'York',
   region: 'England',
+  founded: 1963,
   type: 'Public research university',
   brand: { c1: '#00352f', c2: '#001a17', initials: 'YOR' },
   description: 'A campus university in northern England with a college system, teaching sciences, social sciences, humanities and management.',
@@ -2862,7 +2889,8 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'International tuition fees', url: 'https://www.york.ac.uk/study/undergraduate/fees-funding/international/' },
-    { label: 'International students', url: 'https://www.york.ac.uk/study/international/' }
+    { label: 'International students', url: 'https://www.york.ac.uk/study/international/' },
+    { label: 'About — history and facts', url: 'https://www.york.ac.uk/about/' }
   ],
   verification: { level: 'partial', checked: ['rounds','application fee','fee structure','2027 fee publication status','english (published typical bands and validity)'], unconfirmed: ['tuition amount','scholarships'] },
   lastVerified: '2026-09-23'
@@ -2875,6 +2903,7 @@ window.UNIPATH.universities.push(
   country: 'uk',
   city: 'Exeter',
   region: 'England',
+  founded: 1955,
   type: 'Public research university',
   brand: { c1: '#00543a', c2: '#00301f', initials: 'EXE' },
   description: 'A research university in south-west England with campuses in Exeter and Cornwall, strong in business, environmental science and the humanities.',
@@ -3010,7 +3039,8 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'English language requirements and profiles', url: 'https://www.exeter.ac.uk/study/englishlanguagerequirements/' },
-    { label: 'Tuition fees for international students', url: 'https://www.exeter.ac.uk/international-students/tuition-fees/' }
+    { label: 'Tuition fees for international students', url: 'https://www.exeter.ac.uk/international-students/tuition-fees/' },
+    { label: 'About — history and facts', url: 'https://www.exeter.ac.uk/about/' }
   ],
   verification: { level: 'partial', checked: ['english profile system','english (profile B1, B2, B3, E and F scores)','living-cost requirement','rounds','application fee','tuition (2027 subject-area rates)'], unconfirmed: ['scholarships'] },
   lastVerified: '2026-09-23'
@@ -3023,6 +3053,7 @@ window.UNIPATH.universities.push(
   country: 'uk',
   city: 'Bath',
   region: 'England',
+  founded: 1966,
   type: 'Public research university',
   brand: { c1: '#9b1b30', c2: '#5a0f1c', initials: 'BAT' },
   description: 'A campus university in south-west England known for engineering, management and placement-based degrees with a year in industry.',
@@ -3158,7 +3189,8 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'Entry requirements for international students', url: 'https://www.bath.ac.uk/corporate-information/entry-requirements-for-international-students/' },
-    { label: 'Tuition fees for undergraduate students starting in 2027', url: 'https://www.bath.ac.uk/corporate-information/tuition-fees-for-undergraduate-students-starting-in-2027/' }
+    { label: 'Tuition fees for undergraduate students starting in 2027', url: 'https://www.bath.ac.uk/corporate-information/tuition-fees-for-undergraduate-students-starting-in-2027/' },
+    { label: 'About — history and facts', url: 'https://www.bath.ac.uk/topics/about-the-university/' }
   ],
   verification: { level: 'partial', checked: ['english (category A, B and C requirements and validity)','rounds','application fee','tuition (2027 fee bands)'], unconfirmed: ['scholarships'] },
   lastVerified: '2026-09-23'
@@ -3171,6 +3203,7 @@ window.UNIPATH.universities.push(
   country: 'uk',
   city: 'Cardiff',
   region: 'Wales',
+  founded: 1883,
   type: 'Public research university',
   brand: { c1: '#d50032', c2: '#7a001d', initials: 'CAR' },
   description: 'The largest university in Wales, with medicine, engineering, journalism, business and a wide range of arts and sciences.',
@@ -3254,7 +3287,8 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'English language requirements', url: 'https://www.cardiff.ac.uk/study/international/english-language-requirements' },
-    { label: 'Overseas undergraduate fees', url: 'https://www.cardiff.ac.uk/study/undergraduate/tuition-fees/overseas-undergraduate-fees' }
+    { label: 'Overseas undergraduate fees', url: 'https://www.cardiff.ac.uk/study/undergraduate/tuition-fees/overseas-undergraduate-fees' },
+    { label: 'About — history and facts', url: 'https://www.cardiff.ac.uk/about/our-profile/history' }
   ],
   verification: { level: 'partial', checked: ['english minimum and accepted IELTS versions','rounds','application fee','tuition (confirmed course example)'], unconfirmed: ['scholarships'] },
   lastVerified: '2026-09-23'
@@ -3267,6 +3301,7 @@ window.UNIPATH.universities.push(
   country: 'uk',
   city: 'Aberdeen',
   region: 'Scotland',
+  founded: 1495,
   type: 'Public ancient university',
   brand: { c1: '#0d5257', c2: '#06292b', initials: 'ABD' },
   description: "One of Scotland's ancient universities, in the north-east of the country, with medicine, law, engineering, energy-related sciences and a broad four-year degree structure.",
@@ -3375,7 +3410,8 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'Tuition fee rates', url: 'https://www.abdn.ac.uk/students/finance/tuition-fees/tuition-fee-rates/' },
-    { label: 'Undergraduate degrees — English requirements', url: 'https://www.abdn.ac.uk/study/international/undergraduate-degrees-english-requirements-268.php' }
+    { label: 'Undergraduate degrees — English requirements', url: 'https://www.abdn.ac.uk/study/international/undergraduate-degrees-english-requirements-268.php' },
+    { label: 'About — history and facts', url: 'https://www.abdn.ac.uk/about/history/' }
   ],
   verification: { level: 'partial', checked: ['tuition','scholarship discount','rounds','application fee','english (undergraduate standard and medicine)'], unconfirmed: ['full scholarship conditions'] },
   lastVerified: '2026-09-23'
@@ -3388,6 +3424,7 @@ window.UNIPATH.universities.push(
   country: 'uk',
   city: 'Liverpool',
   region: 'England',
+  founded: 1881,
   type: 'Public research university',
   brand: { c1: '#0f52ba', c2: '#08307a', initials: 'LIV' },
   description: 'A civic research university in north-west England with medicine, veterinary science, engineering and a large international student body.',
@@ -3512,7 +3549,8 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'International English language tests', url: 'https://www.liverpool.ac.uk/international/applying/entry-requirements/english-language-requirements/international-english-language-tests/' },
-    { label: 'Tuition fees for international students', url: 'https://www.liverpool.ac.uk/international/scholarships-and-fees/tuition-fees/' }
+    { label: 'Tuition fees for international students', url: 'https://www.liverpool.ac.uk/international/scholarships-and-fees/tuition-fees/' },
+    { label: 'About — history and facts', url: 'https://www.liverpool.ac.uk/about/the-university/our-history/' }
   ],
   verification: { level: 'partial', checked: ['english (typical requirement)','rounds','application fee','tuition (confirmed course example)'], unconfirmed: ['scholarships'] },
   lastVerified: '2026-09-23'
@@ -3525,6 +3563,7 @@ window.UNIPATH.universities.push(
   country: 'uk',
   city: 'Belfast',
   region: 'Northern Ireland',
+  founded: 1845,
   type: 'Public research university',
   brand: { c1: '#005a2b', c2: '#003318', initials: 'QUB' },
   description: 'A research university in Northern Ireland with medicine, engineering, law and a broad range of arts and sciences, and lower living costs than most large UK cities.',
@@ -3640,7 +3679,8 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'English language requirements', url: 'https://www.qub.ac.uk/Study/international-students/applying/english-language-requirements/' },
-    { label: 'International tuition fees', url: 'https://www.qub.ac.uk/Study/international-students/tuition-fees/' }
+    { label: 'International tuition fees', url: 'https://www.qub.ac.uk/Study/international-students/tuition-fees/' },
+    { label: 'About — history and facts', url: 'https://www.qub.ac.uk/about/' }
   ],
   verification: { level: 'partial', checked: ['english (normal level and medicine/dentistry)','rounds','application fee','tuition (2027/28 international fee rates)'], unconfirmed: ['scholarships'] },
   lastVerified: '2026-09-23'

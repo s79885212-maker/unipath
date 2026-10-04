@@ -410,7 +410,7 @@ window.UNIPATH.universities.push(
   country: 'de',
   city: 'Lüneburg',
   region: 'Lower Saxony',
-  founded: null,
+  founded: 1946,
   type: 'Public university',
   brand: { c1: '#B7002B', c2: '#63001a', initials: 'LEU' },
   description: 'A smaller public university near Hamburg built around a liberal-education model: students combine a major and a minor with shared "complementary" studies. Seven of its bachelor\'s majors are taught in English, and there is no tuition fee — only a semester fee of about €450.',
@@ -492,7 +492,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'English-taught bachelor\'s programmes', url: 'https://www.leuphana.de/en/study/studying-in-germany/how-to-study-in-germany/bachelors-in-english.html' },
     { label: 'International applications', url: 'https://www.leuphana.de/en/college/application/international-applications.html' },
-    { label: 'Tuition fee and semester contribution', url: 'https://www.leuphana.de/en/study/studying-in-germany/how-to-study-in-germany/tuition-fee.html' }
+    { label: 'Tuition fee and semester contribution', url: 'https://www.leuphana.de/en/study/studying-in-germany/how-to-study-in-germany/tuition-fee.html' },
+    { label: 'About — history and facts', url: 'https://www.leuphana.de/en/university/history/history.html' }
   ],
   lastVerified: '2026-09-19'
 },
@@ -715,12 +716,12 @@ window.UNIPATH.universities.push(
   languageOfInstruction: 'English (bachelor\'s degrees listed as English-taught by DAAD)',
   programs: ['business','economics'],
   englishTaughtPrograms: ['business','economics'],
-  programNote: 'English-taught bachelor\'s degrees: Business Administration (BSc), Computational Business Analytics (BSc) and Management, Philosophy & Economics (BSc). In Business Administration (7 semesters) the core modules can be taken in English or German, and all classes are in English from the fourth semester.',
+  programNote: 'English-taught bachelor\'s degrees listed for the 2027 intake: Business Administration (BSc), Artificial Intelligence & Data Engineering (BSc) and Management, Philosophy & Economics (BSc). In Business Administration (7 semesters) the core modules can be taken in English or German, and all classes are in English from the fourth semester.',
   links: {
     website: 'https://www.frankfurt-school.de/en',
-    admissions: 'https://www.frankfurt-school.de/en/study/bachelor/bachelor-science',
+    admissions: 'https://www.frankfurt-school.de/en/study/bachelor',
     internationalAdmissions: 'https://www.frankfurt-school.de/en/study/bachelor/bachelor-science',
-    applicationPortal: 'https://www.frankfurt-school.de/en/study/bachelor/bachelor-science',
+    applicationPortal: 'https://www.frankfurt-school.de/en/study/bachelor',
     scholarships: 'https://www.frankfurt-school.de/en/home/programmes/financing',
     financialAid: 'https://www.frankfurt-school.de/en/home/programmes/financing',
     programs: 'https://www.frankfurt-school.de/en/study/bachelor/bachelor-science',
@@ -729,9 +730,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Frankfurt School online application, followed by an Assessment Centre'],
     deadlines: [
-      { name: 'Application for the autumn intake', kind: 'intake', entryTerm: 'Autumn', entryYear: '2027', date: 'Published by the school for each intake', binding: false, appliesTo: 'Bachelor applicants', conditions: 'Frankfurt School publishes its application windows on the programme pages; they were not read during this check.', status: 'not-confirmed', source: 'https://www.frankfurt-school.de/en/home/programmes/bachelor', verified: null, note: null },
+      { name: 'Application deadline for the September 2027 start', kind: 'regular', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-06-30', date: '30 June 2027', binding: false, appliesTo: 'Applicants to the BSc programmes in Business Administration, Management, Philosophy & Economics, and Artificial Intelligence & Data Engineering', conditions: 'The programmes start on 1 September 2027. Applicants are invited to an online Assessment Centre; Frankfurt School offers rolling admissions, so a decision can come before the deadline.', status: 'confirmed', source: 'https://www.frankfurt-school.de/en/study/bachelor/bachelor-in-business-administration', verified: '2026-10-05', note: 'The same deadline is shown on each of the three programme pages.' }
     ],
-    applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null },
+    applicationFee: { amount: 100, currency: 'EUR', waiverAvailableToInternational: null, waiver: null, note: 'Listed with the tuition fee on the programme pages, together with a €600 enrolment fee.' },
     documents: [
       'Online application',
       'IELTS or TOEFL score report — may be uploaded after the application deadline, by mid-August at the latest'
@@ -775,7 +776,7 @@ window.UNIPATH.universities.push(
     ],
     billedSubtotal: null,
     totalText: '€39,120',
-    note: 'Frankfurt School\'s published cost of attendance for its BSc programmes in 2026/27 (Business Administration, Computational Business Analytics, Management, Philosophy & Economics).'
+    note: 'Frankfurt School\'s published cost of attendance for its BSc programmes in 2026/27 (Business Administration, Computational Business Analytics, Management, Philosophy & Economics). For the September 2027 start the programme pages list tuition of €8,600 per semester.'
   },
   scholarships: {
     fullRide: {
@@ -796,10 +797,13 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'Cost of attendance 2026/2027 — BSc programmes (PDF)', url: 'https://www.frankfurt-school.de/cms/dam/jcr:5a373f8b-d6cf-4175-9681-7b36eb573471/COA.Website%202026_27.pdf' },
-    { label: 'Bachelor of Science programmes', url: 'https://www.frankfurt-school.de/en/study/bachelor/bachelor-science' },
-    { label: 'Financing your studies', url: 'https://www.frankfurt-school.de/en/home/programmes/financing' }
+    { label: 'Bachelor programmes', url: 'https://www.frankfurt-school.de/en/study/bachelor' },
+    { label: 'Financing your studies', url: 'https://www.frankfurt-school.de/en/home/programmes/financing' },
+    { label: 'BSc Business Administration — deadline and fees', url: 'https://www.frankfurt-school.de/en/study/bachelor/bachelor-in-business-administration' },
+    { label: 'BSc Management, Philosophy & Economics', url: 'https://www.frankfurt-school.de/en/study/bachelor/bachelor-in-management-philosophy-economics' },
+    { label: 'BSc Artificial Intelligence & Data Engineering', url: 'https://www.frankfurt-school.de/en/study/bachelor/bachelor-in-artificial-intelligence-and-data-engineering' }
   ],
-  lastVerified: '2026-09-19'
+  lastVerified: '2026-10-05'
 },
 
 {
@@ -809,6 +813,7 @@ window.UNIPATH.universities.push(
   country: 'de',
   city: 'Berlin',
   region: 'Berlin',
+  founded: 1999,
   type: 'Private liberal arts college (US and German accreditation)',
   brand: { c1: '#8c1d40', c2: '#4d0f22', initials: 'BCB' },
   description: 'A small residential liberal arts college in Berlin teaching entirely in English, with BA degrees in the humanities, arts and social sciences and a dual US–German degree.',
@@ -876,7 +881,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Tuition and fees', url: 'https://berlin.bard.edu/admissions/finances/tuition-and-fees/' },
     { label: 'Admission requirements', url: 'https://berlin.bard.edu/admissions/how-to-apply/application-requirements/' },
-    { label: 'Finances and financial aid', url: 'https://berlin.bard.edu/admissions/finances/' }
+    { label: 'Finances and financial aid', url: 'https://berlin.bard.edu/admissions/finances/' },
+    { label: 'About — history and facts', url: 'https://berlin.bard.edu/about-us/history/' }
   ],
   verification: { level: 'partial', checked: ['english','costs','financial aid structure'], unconfirmed: ['application rounds and deadlines for 2027','application fee'] },
   lastVerified: '2026-09-23'
@@ -889,6 +895,7 @@ window.UNIPATH.universities.push(
   country: 'de',
   city: 'Berlin',
   region: 'Multiple campuses',
+  founded: 1998,
   type: 'Private university of applied sciences',
   brand: { c1: '#e5044e', c2: '#7a0229', initials: 'IU' },
   description: 'A large private university of applied sciences with English-taught on-campus bachelor degrees in business and technology, campuses in several German cities and two intakes a year.',
@@ -962,7 +969,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Tuition fees and payments', url: 'https://www.iu.org/start-studying/tuition-fees/' },
     { label: 'Entry requirements', url: 'https://www.iu.org/start-studying/entry-requirements/' },
-    { label: 'On-campus degrees in Germany', url: 'https://www.iu.org/on-campus/on-campus-degrees/' }
+    { label: 'On-campus degrees in Germany', url: 'https://www.iu.org/on-campus/on-campus-degrees/' },
+    { label: 'About — history and facts', url: 'https://www.iu.org/about/' }
   ],
   verification: { level: 'partial', checked: ['english (IELTS, TOEFL and Cambridge scores)','application fee','registration fee','intakes','visa living-cost requirement','tuition (published programme price and discounts)'], unconfirmed: ['deadline dates','scholarship conditions'] },
   lastVerified: '2026-09-23'
@@ -1056,6 +1064,7 @@ window.UNIPATH.universities.push(
   country: 'de',
   city: 'Bernburg',
   region: 'Saxony-Anhalt',
+  founded: 1991,
   type: 'Public university of applied sciences',
   brand: { c1: '#e2001a', c2: '#7a000e', initials: 'ANH' },
   description: 'A public university of applied sciences in Saxony-Anhalt. Most bachelor degrees are taught in German; the BA International Business is the confirmed English-taught bachelor route for international students.',
@@ -1122,7 +1131,8 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'FAQ — application and studies', url: 'https://www.hs-anhalt.de/en/university/institutions/student-service-center/faq-application-studies.html' },
-    { label: 'Degree programmes and application', url: 'https://www.hs-anhalt.de/en/study/orientation/degree-programs.html' }
+    { label: 'Degree programmes and application', url: 'https://www.hs-anhalt.de/en/study/orientation/degree-programs.html' },
+    { label: 'About — history and facts', url: 'https://www.hs-anhalt.de/en/landing-sites/we-are-celebrating-our-anniversary/chronicle.html' }
   ],
   verification: { level: 'partial', checked: ['language of instruction','tuition status','english (TOEFL minimum and accepted certificates for the BA International Business)'], unconfirmed: ['deadlines','semester contribution amount','scholarships'] },
   lastVerified: '2026-09-23'
@@ -1130,14 +1140,15 @@ window.UNIPATH.universities.push(
 
 {
   id: 'berlin-international-university',
-  name: 'Berlin International University of Applied Sciences',
-  shortName: 'Berlin International',
+  name: 'Whitecliffe University of Applied Sciences (formerly Berlin International)',
+  shortName: 'Whitecliffe Berlin',
   country: 'de',
   city: 'Berlin',
   region: 'Berlin',
+  founded: 2014,
   type: 'Private university of applied sciences',
-  brand: { c1: '#1d3557', c2: '#0d1b2a', initials: 'BIU' },
-  description: 'A small private university in Berlin teaching bachelor degrees entirely in English in business administration, architecture, design and related fields.',
+  brand: { c1: '#1d3557', c2: '#0d1b2a', initials: 'WUAS' },
+  description: 'A small private university in Berlin teaching bachelor degrees entirely in English in business administration, architecture, design and related fields. Until 2025 it was called Berlin International University of Applied Sciences.',
   englishTaught: true,
   languageOfInstruction: 'English',
   programs: ['business','arts','engineering','economics'],
@@ -1200,7 +1211,8 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'International admission', url: 'https://www.berlin-international.de/en/admission/international-admission/' },
-    { label: 'Apply for your studies', url: 'https://www.berlin-international.de/en/university/apply-your-studies-berlin/' }
+    { label: 'Apply for your studies', url: 'https://www.berlin-international.de/en/university/apply-your-studies-berlin/' },
+    { label: 'About — history and facts', url: 'https://www.berlin-international.de/en/university/our-story/' }
   ],
   verification: { level: 'partial', checked: ['tuition','language of instruction','entry qualification','English exemption rules','english (IELTS, TOEFL and waiver rules)'], unconfirmed: ['deadlines','scholarships','application fee'] },
   lastVerified: '2026-09-23'
@@ -1213,6 +1225,7 @@ window.UNIPATH.universities.push(
   country: 'de',
   city: 'Munich',
   region: 'Bavaria',
+  founded: 1991,
   type: 'Private business school (state-recognised)',
   brand: { c1: '#003a70', c2: '#001f3c', initials: 'MBS' },
   description: 'A private business school in Munich whose Bachelor International Business is taught in English, with a six-semester structure, an internship and a semester abroad.',
@@ -1281,7 +1294,8 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'Bachelor International Business — admission and fees', url: 'https://www.munich-business-school.de/en/programs/bachelor-international-business-administration/admission-fees.html' },
-    { label: 'MBS FAQ', url: 'https://www.munich-business-school.de/en/mbs/university/faqs' }
+    { label: 'MBS FAQ', url: 'https://www.munich-business-school.de/en/mbs/university/faqs' },
+    { label: 'About — history and facts', url: 'https://www.munich-business-school.de/en/mbs/university/about-us' }
   ],
   verification: { level: 'partial', checked: ['tuition','enrolment fee','admission process','language requirement level','english (IELTS, TOEFL, Duolingo and Cambridge scores)'], unconfirmed: ['application fee amount','scholarships'] },
   lastVerified: '2026-09-23'
@@ -1294,6 +1308,7 @@ window.UNIPATH.universities.push(
   country: 'de',
   city: 'Vallendar',
   region: 'Rhineland-Palatinate',
+  founded: 1984,
   type: 'Private business school (state-recognised)',
   brand: { c1: '#00205b', c2: '#001233', initials: 'WHU' },
   description: 'A private business school with campuses in Vallendar and Düsseldorf. Its three-year Bachelor in International Business Administration is taught in English and includes international exchange.',
@@ -1359,7 +1374,8 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'Bachelor programme — fees and financing', url: 'https://www.whu.edu/en/programs/bachelor-program/fees-financing/' },
-    { label: 'Bachelor in International Business Administration — application and admissions', url: 'https://www.whu.edu/en/programs/bachelor-program/bachelor-in-international-business-administration/application-admissions/' }
+    { label: 'Bachelor in International Business Administration — application and admissions', url: 'https://www.whu.edu/en/programs/bachelor-program/bachelor-in-international-business-administration/application-admissions/' },
+    { label: 'About — history and facts', url: 'https://www.whu.edu/en/about-whu/history-of-whu/' }
   ],
   verification: { level: 'partial', checked: ['tuition','language of instruction','entry qualification','english (TOEFL, IELTS and Cambridge scores and the proof deadline)'], unconfirmed: ['deadlines','scholarship conditions','application fee'] },
   lastVerified: '2026-09-23'
@@ -1372,6 +1388,7 @@ window.UNIPATH.universities.push(
   country: 'de',
   city: 'Oestrich-Winkel',
   region: 'Hesse',
+  founded: 1971,
   type: 'Private university (state-recognised)',
   brand: { c1: '#12284c', c2: '#08142a', initials: 'EBS' },
   description: 'A private university near Frankfurt with a Bachelor in Business Studies taught entirely in English, plus law and economics programmes.',
@@ -1483,7 +1500,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Bachelor in Business Studies', url: 'https://www.ebs.edu/en/ebs-business-school/study-programmes/bachelor-in-business-studies' },
     { label: 'Online application', url: 'https://www.ebs.edu/en/apply' },
-    { label: 'Scholarships and student financing', url: 'https://www.ebs.edu/en/student-financing' }
+    { label: 'Scholarships and student financing', url: 'https://www.ebs.edu/en/student-financing' },
+    { label: 'About — history and facts', url: 'https://www.ebs.edu/en/about-us' }
   ],
   verification: { level: 'partial', checked: ['tuition','language of instruction','selection process','recommended application dates','english (IELTS and TOEFL scores for standard and dual-degree entry)'], unconfirmed: ['application fee','scholarship values'] },
   lastVerified: '2026-09-23'
@@ -1496,6 +1514,7 @@ window.UNIPATH.universities.push(
   country: 'de',
   city: 'Berlin',
   region: 'Berlin, Potsdam, Iserlohn and Hamburg',
+  founded: 2017,
   type: 'Private university of applied sciences',
   brand: { c1: '#ff3c00', c2: '#8a2000', initials: 'UE' },
   description: 'A private university of applied sciences with campuses in Berlin, Potsdam, Iserlohn and Hamburg, teaching bachelor and master programmes in English in business, tech, design and sport.',
@@ -1563,7 +1582,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Admission requirements', url: 'https://www.ue-germany.com/admission-requirements' },
     { label: 'Tuition fees and funding', url: 'https://www.ue-germany.com/study-with-us/fees-and-finance' },
-    { label: 'How to apply — bachelor', url: 'https://www.ue-germany.com/study-with-us/how-to-apply/bachelor' }
+    { label: 'How to apply — bachelor', url: 'https://www.ue-germany.com/study-with-us/how-to-apply/bachelor' },
+    { label: 'About — history and facts', url: 'https://www.ue-germany.com/news-centre/press/university-of-applied-sciences-europe' }
   ],
   verification: { level: 'partial', checked: ['english (IELTS 5.5 undergraduate)','language of instruction','reservation fee','application documents','tuition (published bachelor starting rate)'], unconfirmed: ['deadlines','scholarships'] },
   lastVerified: '2026-09-23'
@@ -1576,6 +1596,7 @@ window.UNIPATH.universities.push(
   country: 'de',
   city: 'Deggendorf',
   region: 'Bavaria',
+  founded: 1994,
   type: 'Public university of applied sciences',
   brand: { c1: '#004f9f', c2: '#00294f', initials: 'DIT' },
   description: 'A public university of applied sciences in Bavaria with a large set of English-taught bachelor degrees in business, tourism, computer science, engineering and health sciences, and no tuition fee for regular programmes.',
@@ -1673,7 +1694,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Application and service fees for non-EU/EEA applicants', url: 'https://www.th-deg.de/en/study-with-us/apply/fees' },
     { label: 'Degrees taught in English', url: 'https://www.th-deg.de/studying-in-english' },
-    { label: 'Applications', url: 'https://www.th-deg.de/en/apply' }
+    { label: 'Applications', url: 'https://www.th-deg.de/en/apply' },
+    { label: 'About — history and facts', url: 'https://www.th-deg.de/en/dit/profile' }
   ],
   verification: { level: 'partial', checked: ['tuition and fees','English-taught degrees','application fee','english (IELTS and TOEFL for the International Management bachelor)'], unconfirmed: ['deadlines','scholarships'] },
   lastVerified: '2026-09-23'
@@ -1764,6 +1786,7 @@ window.UNIPATH.universities.push(
   country: 'de',
   city: 'Reutlingen',
   region: 'Baden-Württemberg',
+  founded: 1855,
   type: 'Public university of applied sciences',
   brand: { c1: '#004b87', c2: '#002747', initials: 'RTU' },
   description: 'A public university of applied sciences near Stuttgart whose ESB Business School runs international double-degree programmes with around 1,500 students from some 80 countries.',
@@ -1829,7 +1852,8 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'Tuition fees', url: 'https://www.reutlingen-university.de/en/before-studying/your-application/your-enrolment/tuition-fees/' },
-    { label: 'Student finance', url: 'https://www.reutlingen-university.de/en/studies/student-finances' }
+    { label: 'Student finance', url: 'https://www.reutlingen-university.de/en/studies/student-finances' },
+    { label: 'About — history and facts', url: 'https://www.reutlingen-university.de/en/university/profile' }
   ],
   verification: { level: 'partial', checked: ['tuition for non-EU students','semester fee','exemption rule','english (IELTS and TOEFL minimums from the language statute)'], unconfirmed: ['deadlines','which bachelor programmes are fully English-taught','scholarships'] },
   lastVerified: '2026-09-23'
@@ -1842,6 +1866,7 @@ window.UNIPATH.universities.push(
   country: 'de',
   city: 'Cologne',
   region: 'North Rhine-Westphalia',
+  founded: 1993,
   type: 'Private university of applied sciences',
   brand: { c1: '#004c97', c2: '#002a53', initials: 'CBS' },
   description: 'A private business school in Cologne with English-taught bachelor programmes in international business and management and a large share of international students.',
@@ -1907,7 +1932,8 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'Bachelor admission requirements', url: 'https://www.cbs.de/en/admissions/requirements/bachelors' },
-    { label: 'Tuition and semester fees', url: 'https://www.cbs.de/en/financing/tuition-fees' }
+    { label: 'Tuition and semester fees', url: 'https://www.cbs.de/en/financing/tuition-fees' },
+    { label: 'About — history and facts', url: 'https://www.cbs.de/en/about-us' }
   ],
   verification: { level: 'partial', checked: ['english (usual requirement)','admission process','language of instruction','enrollment and semester fees'], unconfirmed: ['deadlines','application fee','scholarships'] },
   lastVerified: '2026-09-23'
@@ -2000,6 +2026,7 @@ window.UNIPATH.universities.push(
   country: 'de',
   city: 'Hof',
   region: 'Bavaria',
+  founded: 1994,
   type: 'Public university of applied sciences',
   brand: { c1: '#009ee0', c2: '#005478', initials: 'HOF' },
   description: 'A small public university of applied sciences in northern Bavaria with an English-taught Bachelor in International Management and no tuition fee for regular bachelor programmes.',
@@ -2067,7 +2094,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'How to finance your studies', url: 'https://www.hof-university.com/studying-at-hof-university/preparing-your-stay/how-to-finance-your-studies.html' },
     { label: 'Bachelor in International Management', url: 'https://www.hof-university.com/studying-at-hof-university/our-degree-programs/international-management-ba.html' },
-    { label: 'English-taught programmes', url: 'https://www.hof-university.com/studying-in-hof/full-time-programs/english-taught-programs.html' }
+    { label: 'English-taught programmes', url: 'https://www.hof-university.com/studying-in-hof/full-time-programs/english-taught-programs.html' },
+    { label: 'About — history and facts', url: 'https://www.hof-university.com/about-hof-university.html' }
   ],
   verification: { level: 'partial', checked: ['tuition status','semester contribution','English-taught bachelor','english (IELTS and TOEFL minimums and validity)'], unconfirmed: ['deadlines','scholarships','application fee'] },
   lastVerified: '2026-09-23'
@@ -2080,6 +2108,7 @@ window.UNIPATH.universities.push(
   country: 'de',
   city: 'Berlin',
   region: 'Berlin and Munich campuses',
+  founded: 2006,
   type: 'Private university of applied sciences',
   brand: { c1: '#ff5100', c2: '#8c2c00', initials: 'MAC' },
   description: 'A private university of applied sciences with English-taught bachelor programmes in management, business and artificial intelligence on its Berlin and Munich campuses.',
@@ -2143,7 +2172,8 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'Fees and financing', url: 'https://www.macromedia-fachhochschule.de/en/advisory/fees-financing/' },
-    { label: 'Admission and application', url: 'https://www.macromedia-fachhochschule.de/en/advisory/admission-application/' }
+    { label: 'Admission and application', url: 'https://www.macromedia-fachhochschule.de/en/advisory/admission-application/' },
+    { label: 'About — history and facts', url: 'https://www.macromedia-fachhochschule.de/en/university/about-us/company/' }
   ],
   verification: { level: 'partial', checked: ['tuition','registration fee','English requirements','English-taught campuses'], unconfirmed: ['deadlines','scholarships','application fee'] },
   lastVerified: '2026-09-23'
@@ -2156,6 +2186,7 @@ window.UNIPATH.universities.push(
   country: 'de',
   city: 'Potsdam',
   region: 'Brandenburg and Berlin',
+  founded: 1999,
   type: 'Private university of applied sciences',
   brand: { c1: '#00b2a9', c2: '#005f5a', initials: 'GIS' },
   description: 'A private university of applied sciences with campuses in Potsdam and Berlin, running bachelor degrees taught entirely in English in business and artificial intelligence.',
@@ -2237,6 +2268,7 @@ window.UNIPATH.universities.push(
   country: 'de',
   city: 'Berlin',
   region: 'Berlin',
+  founded: 1819,
   type: 'Private business school (multi-campus European school)',
   brand: { c1: '#003865', c2: '#001c33', initials: 'ESC' },
   description: 'The Berlin campus of ESCP Business School, whose Bachelor in Management (BSc) is taught in English and moves students between European campuses in Berlin, London, Paris, Madrid and Turin.',
@@ -2306,7 +2338,8 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'Bachelor in Management (BSc)', url: 'https://escp.eu/programmes/bachelor-in-management-BSc' },
-    { label: 'Bachelor in Management — application', url: 'https://escp.eu/programmes/bachelor-in-management-BSc/apply' }
+    { label: 'Bachelor in Management — application', url: 'https://escp.eu/programmes/bachelor-in-management-BSc/apply' },
+    { label: 'About — history and facts', url: 'https://escp.eu/about' }
   ],
   verification: { level: 'partial', checked: ['language of instruction','English level','english (IELTS, TOEFL and CAE scores)','programme structure','tuition (2027 intake, European and non-European rates)','application fee and deposit'], unconfirmed: ['deadlines','scholarships'] },
   lastVerified: '2026-09-23'
@@ -2319,6 +2352,7 @@ window.UNIPATH.universities.push(
   country: 'de',
   city: 'Berlin',
   region: 'Berlin and Hamburg',
+  founded: 2018,
   type: 'Private business school',
   brand: { c1: '#1a1a1a', c2: '#000000', initials: 'BSB' },
   description: 'A private business school teaching bachelor, master and MBA programmes in English in Berlin and Hamburg, with additional campuses elsewhere in Europe.',
@@ -2385,7 +2419,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Programme offers and tuition fees', url: 'https://www.berlinsbi.com/studying-at-bsbi/programme-offers' },
     { label: 'Undergraduate application', url: 'https://www.berlinsbi.com/admissions/undergraduate-application' },
-    { label: 'Frequently asked questions', url: 'https://www.berlinsbi.com/studying-at-bsbi/frequently-asked-questions' }
+    { label: 'Frequently asked questions', url: 'https://www.berlinsbi.com/studying-at-bsbi/frequently-asked-questions' },
+    { label: 'About — history and facts', url: 'https://www.berlinsbi.com/newsroom/news/bsbi-officially-launches' }
   ],
   verification: { level: 'partial', checked: ['english (IELTS, TOEFL, Duolingo, PTE)','entry qualifications','deposit','tuition (published per-year programme price)'], unconfirmed: ['deadlines','scholarships','application fee'] },
   lastVerified: '2026-09-23'
@@ -2398,6 +2433,7 @@ window.UNIPATH.universities.push(
   country: 'de',
   city: 'Stralsund',
   region: 'Mecklenburg-Western Pomerania',
+  founded: 1991,
   type: 'Public university of applied sciences',
   brand: { c1: '#0069b4', c2: '#00385f', initials: 'STR' },
   description: 'A small public university of applied sciences on the Baltic coast. Its Leisure and Tourism Management bachelor is taught mainly, but not entirely, in English and includes a semester abroad and an internship semester.',
@@ -2417,6 +2453,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Stralsund online application'],
     deadlines: [
+      { name: 'Winter semester 2027/28 — applications with foreign certificates (via uni-assist)', kind: 'opens', entryTerm: 'Winter', entryYear: '2027', date: 'Expected to open at the beginning of April 2027', binding: false, appliesTo: 'First-year applicants with a foreign school-leaving certificate', conditions: 'Stralsund says applications for the winter semester 2027/28 can probably be made through uni-assist from the beginning of April 2027; the closing date had not been published when this was checked. First-year entry is in the winter semester only.', status: 'not-confirmed', source: 'https://www.hochschule-stralsund.de/en/studying-and-teaching/applications/application-and-enrolment/', verified: '2026-10-05', note: null },
       { name: 'Leisure and Tourism Management — application deadline (2026 intake)', kind: 'intake', entryTerm: 'Winter', entryYear: '2026', dateISO: '2026-07-15', date: '15 July 2026', binding: false, appliesTo: 'Applicants for the Leisure and Tourism Management bachelor', conditions: 'Published deadline for the 2026 intake; the equivalent 2027 date had not been published when this was checked', status: 'previous-cycle', source: 'https://www.hochschule-stralsund.de/en/host/schools/business-studies/study-programmes/leisure-and-tourism-management/', verified: '2026-09-23', note: null }
     ],
     applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
@@ -2509,10 +2546,11 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'Leisure and Tourism Management', url: 'https://www.hochschule-stralsund.de/en/host/schools/business-studies/study-programmes/leisure-and-tourism-management/' },
-    { label: 'Application and enrolment', url: 'https://www.hochschule-stralsund.de/en/studying-and-teaching/applications/application-and-enrolment/' }
+    { label: 'Application and enrolment', url: 'https://www.hochschule-stralsund.de/en/studying-and-teaching/applications/application-and-enrolment/' },
+    { label: 'About — history and facts', url: 'https://www.hochschule-stralsund.de/en/host/im-portrait/medien-und-presse/' }
   ],
   verification: { level: 'partial', checked: ['language of instruction share','2026 application deadline','tuition status','english (IELTS and TOEFL by EU/non-EU status)'], unconfirmed: ['2027 deadline','semester contribution','scholarships'] },
-  lastVerified: '2026-09-23'
+  lastVerified: '2026-10-05'
 },
 
 {

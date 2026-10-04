@@ -617,10 +617,13 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['APU Online Application System'],
     deadlines: [
-      { name: 'April 2027 enrolment — several application periods', kind: 'intake', entryTerm: 'April', entryYear: '2027', date: 'Published per country on the APU application schedule', binding: false, appliesTo: 'First-year and transfer applicants', conditions: 'APU runs several application periods for each intake, and the deadlines differ by country or region of residence and by applicant type. Enrolment is on 1 April 2027. English test results must be from an exam taken on or after 1 June 2024 and before the deadline.', status: 'not-confirmed', source: 'https://admissions.apu.ac.jp/admissions/application_schedule/', verified: '2026-09-24', note: 'The country-specific dates were not read during this check.' },
-      { name: 'September 2027 enrolment — several application periods', kind: 'intake', entryTerm: 'September', entryYear: '2027', date: 'Published per country on the APU application schedule', binding: false, appliesTo: 'First-year and transfer applicants', conditions: 'Enrolment is on 21 September 2027. English test results must be from an exam taken on or after 1 September 2024 and before the deadline.', status: 'not-confirmed', source: 'https://admissions.apu.ac.jp/admissions/application_schedule/', verified: '2026-09-24', note: 'The country-specific dates were not read during this check.' },
+      { name: 'April 2027 enrolment — application period 4 (GSP4)', kind: 'round-4', entryTerm: 'April', entryYear: '2027', dateISO: '2026-10-14', date: '17 September – 14 October 2026', time: '23:59', timezone: 'JST', binding: false, appliesTo: 'First-year applicants living outside Japan in any country or region other than China, India, Indonesia, Korea, Thailand and Viet Nam', conditions: 'Applications must be completed by 23:59 Japan Standard Time on the deadline, including the application fee and the recorded interview. Results on 1 December 2026.', status: 'confirmed', source: 'https://admissions.apu.ac.jp/resource/ln/64fc2fcc7f68f38b171b43ef011facef91512453/ApplicationHandbook_UG_ENG_27_5_revised_linked.pdf', verified: '2026-10-05', note: 'Earlier periods for April 2027 (deadlines 15 July, 19 August and 16 September 2026) have closed. Applicants living in China, India, Indonesia, Korea, Thailand, Viet Nam or Japan have separate schedules in the handbook.' },
+      { name: 'September 2027 enrolment — application period 2 (GFA2)', kind: 'round-2', entryTerm: 'September', entryYear: '2027', dateISO: '2026-10-28', date: '3 September – 28 October 2026', time: '23:59', timezone: 'JST', binding: false, appliesTo: 'First-year applicants living outside Japan in any country or region other than China, India, Indonesia, Korea, Thailand and Viet Nam', conditions: 'Applications must be completed by 23:59 Japan Standard Time on the deadline, including the application fee and the recorded interview. Results on 15 December 2026.', status: 'confirmed', source: 'https://admissions.apu.ac.jp/resource/ln/64fc2fcc7f68f38b171b43ef011facef91512453/ApplicationHandbook_UG_ENG_27_5_revised_linked.pdf', verified: '2026-10-05', note: null },
+      { name: 'September 2027 enrolment — application period 3 (GFA3)', kind: 'round-3', entryTerm: 'September', entryYear: '2027', dateISO: '2026-12-09', date: '29 October – 9 December 2026', time: '23:59', timezone: 'JST', binding: false, appliesTo: 'First-year applicants living outside Japan in any country or region other than China, India, Indonesia, Korea, Thailand and Viet Nam', conditions: 'Applications must be completed by 23:59 Japan Standard Time on the deadline, including the application fee and the recorded interview. Results on 2 February 2027.', status: 'confirmed', source: 'https://admissions.apu.ac.jp/resource/ln/64fc2fcc7f68f38b171b43ef011facef91512453/ApplicationHandbook_UG_ENG_27_5_revised_linked.pdf', verified: '2026-10-05', note: null },
+      { name: 'September 2027 enrolment — application period 4 (GFA4)', kind: 'round-4', entryTerm: 'September', entryYear: '2027', dateISO: '2027-01-20', date: '10 December 2026 – 20 January 2027', time: '23:59', timezone: 'JST', binding: false, appliesTo: 'First-year applicants living outside Japan in any country or region other than China, India, Indonesia, Korea, Thailand and Viet Nam', conditions: 'Applications must be completed by 23:59 Japan Standard Time on the deadline, including the application fee and the recorded interview. Results on 9 March 2027.', status: 'confirmed', source: 'https://admissions.apu.ac.jp/resource/ln/64fc2fcc7f68f38b171b43ef011facef91512453/ApplicationHandbook_UG_ENG_27_5_revised_linked.pdf', verified: '2026-10-05', note: null },
+      { name: 'September 2027 enrolment — application period 5 (GFA5)', kind: 'round-5', entryTerm: 'September', entryYear: '2027', dateISO: '2027-03-03', date: '21 January – 3 March 2027', time: '23:59', timezone: 'JST', binding: false, appliesTo: 'First-year applicants living outside Japan in any country or region other than China, India, Indonesia, Korea, Thailand and Viet Nam', conditions: 'Applications must be completed by 23:59 Japan Standard Time on the deadline, including the application fee and the recorded interview. Results on 20 April 2027.', status: 'confirmed', source: 'https://admissions.apu.ac.jp/resource/ln/64fc2fcc7f68f38b171b43ef011facef91512453/ApplicationHandbook_UG_ENG_27_5_revised_linked.pdf', verified: '2026-10-05', note: 'APU warns that some periods leave less time to complete the enrolment procedures after admission, and that deadlines are not extended.' }
     ],
-    applicationFee: { amount: null, currency: 'JPY', waiverAvailableToInternational: null, waiver: null },
+    applicationFee: { amount: 5500, currency: 'JPY', waiverAvailableToInternational: null, waiver: null, note: 'For international applicants living outside Japan, paid by credit card (JPY 36,500 for international applicants living in Japan). APU states that all amounts are subject to change.' },
     documents: ['Academic transcripts', 'English proficiency evidence', 'Scholarship application documents', 'Video-recorded interview'],
     recommendations: null,
     essay: null,
@@ -684,9 +687,10 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Tuition and fees', url: 'https://admissions.apu.ac.jp/costs_scholarships/tuition_fees/' },
     { label: 'APU Tuition Reduction Scholarship for international students', url: 'https://en.apu.ac.jp/studentsupport/scholarship_tuition/international/exemption_Undergraduate/' },
-    { label: 'Scholarships before enrolment', url: 'https://admissions.apu.ac.jp/costs_scholarships/before_enrollment/' }
+    { label: 'Scholarships before enrolment', url: 'https://admissions.apu.ac.jp/costs_scholarships/before_enrollment/' },
+    { label: 'Application Handbook for 2027 enrolment (PDF)', url: 'https://admissions.apu.ac.jp/resource/ln/64fc2fcc7f68f38b171b43ef011facef91512453/ApplicationHandbook_UG_ENG_27_5_revised_linked.pdf' }
   ],
-  lastVerified: '2026-09-16'
+  lastVerified: '2026-10-05'
 },
 
 {
@@ -796,6 +800,7 @@ window.UNIPATH.universities.push(
   country: 'jp',
   city: 'Tokyo',
   region: 'Tokyo',
+  founded: 2024,
   type: 'National university (science and engineering)',
   brand: { c1: '#00559f', c2: '#002d55', initials: 'IST' },
   description: 'A national science and engineering university in Tokyo, formed from Tokyo Institute of Technology and Tokyo Medical and Dental University. Its GSEP programme is a Bachelor of Engineering taught entirely in English.',
@@ -859,7 +864,8 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'Global Scientists and Engineers Program (GSEP)', url: 'https://admissions.isct.ac.jp/en/013/undergraduate/programs/gsep' },
-    { label: 'GSEP programme site', url: 'https://www.tse.ens.titech.ac.jp/~gsep/' }
+    { label: 'GSEP programme site', url: 'https://www.tse.ens.titech.ac.jp/~gsep/' },
+    { label: 'About — history and facts', url: 'https://www.isct.ac.jp/en/001/about/overview' }
   ],
   verification: { level: 'partial', checked: ['English-taught programme','application period','English test rule','MEXT recommendation'], unconfirmed: ['exact tuition for this university','application fee','2027 cycle dates'] },
   lastVerified: '2026-09-23'
@@ -872,6 +878,7 @@ window.UNIPATH.universities.push(
   country: 'jp',
   city: 'Nagoya',
   region: 'Aichi',
+  founded: 1939,
   type: 'National research university',
   brand: { c1: '#004098', c2: '#00214f', initials: 'NAG' },
   description: 'A national research university in central Japan whose G30 International Programs have offered full degrees taught in English since 2011, across science, engineering, agriculture, medicine and the humanities.',
@@ -938,7 +945,8 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'Admissions requirements released for G30 undergraduate programs 2027', url: 'https://en.nagoya-u.ac.jp/news/articles/admissions-requirements-released-for-g30-undergraduate-programs-2027/' },
-    { label: 'G30 International Programs admissions', url: 'https://admissions.g30.nagoya-u.ac.jp/' }
+    { label: 'G30 International Programs admissions', url: 'https://admissions.g30.nagoya-u.ac.jp/' },
+    { label: 'About — history and facts', url: 'https://en.nagoya-u.ac.jp/about/history/' }
   ],
   verification: { level: 'partial', checked: ['English-taught degrees','2027 application rounds','tuition parity with domestic students','english (IELTS, TOEFL, Duolingo and ACT minimums)'], unconfirmed: ['application fee','scholarships'] },
   lastVerified: '2026-09-23'
@@ -951,6 +959,7 @@ window.UNIPATH.universities.push(
   country: 'jp',
   city: 'Fukuoka',
   region: 'Fukuoka',
+  founded: 1911,
   type: 'National research university',
   brand: { c1: '#7b1e3a', c2: '#40101f', initials: 'KYU' },
   description: 'A national university in Fukuoka with four-year English-taught bachelor programmes in engineering and agriculture, where every class except Japanese language is in English.',
@@ -1019,7 +1028,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Enrolling in undergraduate school (language of instruction: English)', url: 'https://www.kyushu-u.ac.jp/en/admission/faculty/foreign/foreign10/' },
     { label: 'Scholarships', url: 'https://www.kyushu-u.ac.jp/en/admission/fees/scholarships/' },
-    { label: 'Tuition and fees', url: 'https://www.kyushu-u.ac.jp/en/admission/fees/expenses' }
+    { label: 'Tuition and fees', url: 'https://www.kyushu-u.ac.jp/en/admission/fees/expenses' },
+    { label: 'About — history and facts', url: 'https://www.kyushu-u.ac.jp/en/university' }
   ],
   verification: { level: 'partial', checked: ['English-taught programmes','scholarships','previous-cycle application window','english (IELTS and TOEFL minimums)'], unconfirmed: ['2027 application dates','application fee'] },
   lastVerified: '2026-09-23'
@@ -1032,6 +1042,7 @@ window.UNIPATH.universities.push(
   country: 'jp',
   city: 'Osaka',
   region: 'Osaka',
+  founded: 1931,
   type: 'National research university',
   brand: { c1: '#003f8e', c2: '#00204a', initials: 'OSA' },
   description: 'A large national research university in western Japan. Its International College runs two undergraduate degrees taught in English — Human Sciences and a Chemistry–Biology combined major.',
@@ -1129,7 +1140,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Undergraduate students — degree programs in English', url: 'https://www.osaka-u.ac.jp/en/admissions/intl-students/Undergraduate-Students-Degree-Programs-in-English' },
     { label: 'Tuition fees and matriculation fee', url: 'https://www.osaka-u.ac.jp/en/campus/tuition/tuition.html' },
-    { label: 'Financial support for English-taught undergraduate students', url: 'https://www.osaka-u.ac.jp/en/campus/tuition/scholar/support' }
+    { label: 'Financial support for English-taught undergraduate students', url: 'https://www.osaka-u.ac.jp/en/campus/tuition/scholar/support' },
+    { label: 'About — history and facts', url: 'https://www.osaka-u.ac.jp/en/news/topics/2025/05/01001' }
   ],
   verification: { level: 'partial', checked: ['English-taught degrees','registration period for April 2027','fee exemption route','english (confirmed programme examples)'], unconfirmed: ['exact tuition for this university','application fee'] },
   lastVerified: '2026-09-23'
@@ -1142,6 +1154,7 @@ window.UNIPATH.universities.push(
   country: 'jp',
   city: 'Sapporo',
   region: 'Hokkaido',
+  founded: 1876,
   type: 'National research university',
   brand: { c1: '#00693e', c2: '#00381f', initials: 'HOK' },
   description: 'A national research university in Sapporo whose Integrated Science Program is a four-year English-taught bachelor covering physics, chemistry and biology.',
@@ -1210,7 +1223,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'ISP — fees and scholarships', url: 'https://www.oia.hokudai.ac.jp/isp/prospective-students/fees-scholarships/' },
     { label: 'ISP — how to apply', url: 'https://www.oia.hokudai.ac.jp/isp/prospective-students/how-to-apply/' },
-    { label: 'Student fees', url: 'https://www.global.hokudai.ac.jp/admissions/student-fees/' }
+    { label: 'Student fees', url: 'https://www.global.hokudai.ac.jp/admissions/student-fees/' },
+    { label: 'About — history and facts', url: 'https://www.global.hokudai.ac.jp/about/history/' }
   ],
   verification: { level: 'partial', checked: ['English-taught programme','fee waivers','previous-cycle deadline','english (IELTS, TOEFL and Duolingo minimums)'], unconfirmed: ['2027 application dates','application fee'] },
   lastVerified: '2026-09-23'
@@ -1223,6 +1237,7 @@ window.UNIPATH.universities.push(
   country: 'jp',
   city: 'Tsukuba',
   region: 'Ibaraki',
+  founded: 1973,
   type: 'National research university',
   brand: { c1: '#5c2d91', c2: '#301848', initials: 'TSU' },
   description: 'A national research university north-east of Tokyo running several undergraduate courses taught entirely in English, including International Social Studies.',
@@ -1241,9 +1256,12 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['University of Tsukuba online application'],
     deadlines: [
-      { name: 'English-taught programmes — application period', kind: 'intake', entryTerm: 'September or October', entryYear: '2027', date: 'Not confirmed', status: 'not-confirmed', binding: false, appliesTo: 'Applicants to programmes conducted in English', conditions: 'Each programme publishes its own application guidelines; the 2027 dates were not read during this check', source: 'https://www.global.tsukuba.ac.jp/apply/', verified: '2026-09-23', note: null }
+      { name: 'English-taught undergraduate programmes — online application (September 2027 enrolment)', kind: 'application-window', entryTerm: 'September', entryYear: '2027', dateISO: '2026-11-19', date: '21 October – 19 November 2026', time: '17:00', timezone: 'JST', binding: false, appliesTo: 'First-year applicants to the Undergraduate Program of International Social Studies and the Interdisciplinary Program of Life and Environmental Sciences', conditions: 'Online registration, documents and the first-stage examination fee must be completed by 5:00 pm JST on 19 November 2026. An applicant can apply to only one of the English-taught programmes. Applicants who need an individual eligibility screening had to request it by 30 September 2026.', status: 'confirmed', source: 'https://ac.tsukuba.ac.jp/wp/wp-content/uploads/2026/07/01_TISS_Application-guidelines-2027.pdf', verified: '2026-10-05', note: 'The same schedule is printed in the 2027 guidelines of both programmes.' },
+      { name: 'First-stage screening results', kind: 'decision', entryTerm: 'September', entryYear: '2027', dateISO: '2027-02-10', date: '10 February 2027', time: '10:00', timezone: 'JST', binding: false, appliesTo: 'All applicants', conditions: 'Successful applicants pay the second-stage fee between 11 and 15 February 2027 (5:00 pm JST).', status: 'confirmed', source: 'https://ac.tsukuba.ac.jp/wp/wp-content/uploads/2026/07/01_TISS_Application-guidelines-2027.pdf', verified: '2026-10-05', note: null },
+      { name: 'Second-stage screening — online individual interviews', kind: 'interview', entryTerm: 'September', entryYear: '2027', dateISO: '2027-03-08', date: '26 February – 8 March 2027', binding: false, appliesTo: 'Applicants who pass the first stage', conditions: 'Interviews are held online.', status: 'confirmed', source: 'https://ac.tsukuba.ac.jp/wp/wp-content/uploads/2026/07/01_TISS_Application-guidelines-2027.pdf', verified: '2026-10-05', note: null },
+      { name: 'Final results', kind: 'decision', entryTerm: 'September', entryYear: '2027', dateISO: '2027-03-25', date: '25 March 2027', time: '10:00', timezone: 'JST', binding: false, appliesTo: 'All applicants', conditions: 'Admission procedures run from 5 to 19 April 2027; enrolment is on 1 September 2027.', status: 'confirmed', source: 'https://ac.tsukuba.ac.jp/wp/wp-content/uploads/2026/07/01_TISS_Application-guidelines-2027.pdf', verified: '2026-10-05', note: null }
     ],
-    applicationFee: { amount: null, currency: 'JPY', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    applicationFee: { amount: 17000, currency: 'JPY', waiverAvailableToInternational: null, waiver: null, note: 'JPY 4,000 is paid with the online application and JPY 13,000 by applicants who pass the first-stage screening.' },
     documents: ['Proof of 12 years of school education completed outside Japan', 'TOEFL or IELTS score for non-native English speakers', 'Programme application documents'],
     recommendations: null,
     essay: null,
@@ -1287,10 +1305,13 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Tuition fees for undergraduate and graduate students', url: 'https://www.tsukuba.ac.jp/en/admissions/fees-tuition/fees-tuition-students/' },
     { label: 'English programmes — undergraduate', url: 'https://www.global.tsukuba.ac.jp/undergraduate/' },
-    { label: 'International Social Studies admission', url: 'https://www.global.tsukuba.ac.jp/undergraduate/bachelor-arts-international-social-sciences/admission/' }
+    { label: 'International Social Studies admission', url: 'https://www.global.tsukuba.ac.jp/undergraduate/bachelor-arts-international-social-sciences/admission/' },
+    { label: 'About — history and facts', url: 'https://www.tsukuba.ac.jp/en/about/history/outline-history/' },
+    { label: '2027 application guidelines — International Social Studies (PDF)', url: 'https://ac.tsukuba.ac.jp/wp/wp-content/uploads/2026/07/01_TISS_Application-guidelines-2027.pdf' },
+    { label: '2027 application guidelines — Life and Environmental Sciences (PDF)', url: 'https://ac.tsukuba.ac.jp/wp/wp-content/uploads/2026/07/02_TILES_Application-guidelines-2027.pdf' }
   ],
   verification: { level: 'partial', checked: ['English-taught programmes','tuition and fees','English test requirement (existence)'], unconfirmed: ['application dates for 2027','English minimum scores','application fee','scholarship conditions'] },
-  lastVerified: '2026-09-23'
+  lastVerified: '2026-10-05'
 },
 
 {
@@ -1300,6 +1321,7 @@ window.UNIPATH.universities.push(
   country: 'jp',
   city: 'Kawagoe',
   region: 'Saitama',
+  founded: 1965,
   type: 'Private university',
   brand: { c1: '#004b8d', c2: '#00284b', initials: 'TIU' },
   description: 'A private university near Tokyo whose English Track (E-Track) lets international students take a full bachelor degree in English in business economics, international relations, digital business and data science.',
@@ -1380,7 +1402,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'E-Track admissions', url: 'https://www.tiu.ac.jp/etrack/admissions/' },
     { label: 'E-Track scholarships', url: 'https://www.tiu.ac.jp/etrack/admissions/reductions/' },
-    { label: 'E-Track tuition and fees', url: 'https://www.tiu.ac.jp/etrack/admissions/tuition/' }
+    { label: 'E-Track tuition and fees', url: 'https://www.tiu.ac.jp/etrack/admissions/tuition/' },
+    { label: 'About — history and facts', url: 'https://www.tiu.ac.jp/etrack/whytiu/' }
   ],
   verification: { level: 'partial', checked: ['English-taught degrees','scholarship structure','intakes','alumni fee','E-Track tuition for 2027 entry','english (IELTS, TOEFL, Duolingo, PTE, TOEIC, SAT, ACT and IB minimums)','2027 application rounds for both intakes'], unconfirmed: ['application fee'] },
   lastVerified: '2026-09-23'
@@ -1393,6 +1416,7 @@ window.UNIPATH.universities.push(
   country: 'jp',
   city: 'Akita',
   region: 'Akita',
+  founded: 2004,
   type: 'Public university (prefectural)',
   brand: { c1: '#0b7a4b', c2: '#054027', initials: 'AIU' },
   description: 'A small public university in northern Japan teaching a four-year Bachelor of International Liberal Arts entirely in English, with a compulsory year abroad and two intakes a year.',
@@ -1463,7 +1487,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Tuition and fees', url: 'https://web.aiu.ac.jp/en/undergraduate/tuition/' },
     { label: 'Undergraduate admissions', url: 'https://admission.aiu.ac.jp/en/ug/' },
-    { label: 'Academic year 2026 admission information for international students (PDF)', url: 'https://admission.aiu.ac.jp/wp/wp-content/uploads/2025/09/E_2026_International_youkou.pdf' }
+    { label: 'Academic year 2026 admission information for international students (PDF)', url: 'https://admission.aiu.ac.jp/wp/wp-content/uploads/2025/09/E_2026_International_youkou.pdf' },
+    { label: 'About — history and facts', url: 'https://web.aiu.ac.jp/en/about/overview/' }
   ],
   verification: { level: 'partial', checked: ['English-taught degree','matriculation fees','selection method','annual tuition from April 2027','english (IELTS, TOEFL and the accepted test list)'], unconfirmed: ['2027 application dates','scholarships'] },
   lastVerified: '2026-09-23'
@@ -1476,6 +1501,7 @@ window.UNIPATH.universities.push(
   country: 'jp',
   city: 'Tokyo',
   region: 'Tokyo',
+  founded: 1874,
   type: 'Private university',
   brand: { c1: '#5b2b82', c2: '#301545', initials: 'RIK' },
   description: 'A private university in Tokyo whose Global Liberal Arts Program (GLAP) is taught in English and includes a compulsory long-term study-abroad period with tuition waived at the host university.',
@@ -1551,7 +1577,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'GLAP admission and aid', url: 'https://glap.rikkyo.ac.jp/en/admission/index.html' },
     { label: 'Rikkyo international admission', url: 'https://en.admission.rikkyo.ac.jp/' },
-    { label: 'Admissions schedule', url: 'https://en.admission.rikkyo.ac.jp/schedule/' }
+    { label: 'Admissions schedule', url: 'https://en.admission.rikkyo.ac.jp/schedule/' },
+    { label: 'About — history and facts', url: 'https://english.rikkyo.ac.jp/about/index.html' }
   ],
   verification: { level: 'partial', checked: ['English-taught programme','study-abroad tuition rule','intakes','GLAP tuition and admission fee','english (GLAP IELTS, Cambridge, EIKEN and GTEC minimums)'], unconfirmed: ['2027 dates','scholarships','application fee'] },
   lastVerified: '2026-09-23'
@@ -1564,6 +1591,7 @@ window.UNIPATH.universities.push(
   country: 'jp',
   city: 'Kyoto',
   region: 'Kyoto',
+  founded: 1900,
   type: 'Private university',
   brand: { c1: '#9e1b32', c2: '#560e1b', initials: 'RIT' },
   description: 'A large private university in Kyoto and Osaka with English-medium undergraduate programmes, including the Global Studies major in International Relations, which takes both April and September entrants.',
@@ -1664,7 +1692,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Tuition and fees - English-medium undergraduate programmes', url: 'https://en.ritsumei.ac.jp/e-ug/financial_info/fees.html/' },
     { label: 'Scholarships', url: 'https://en.ritsumei.ac.jp/e-ug/financial_info/scholarships.html/' },
-    { label: 'Application round announcement', url: 'https://en.ritsumei.ac.jp/e-ug/news/article.html/?id=297' }
+    { label: 'Application round announcement', url: 'https://en.ritsumei.ac.jp/e-ug/news/article.html/?id=297' },
+    { label: 'About — history and facts', url: 'https://en.ritsumei.ac.jp/profile-e/charter/' }
   ],
   verification: { level: 'partial', checked: ['tuition','English-medium programmes','one confirmed application round','tuition reduction scheme','english (confirmed Joint Degree Program scores and waiver)'], unconfirmed: ['remaining 2027 rounds','application fee'] },
   lastVerified: '2026-09-23'
@@ -1677,6 +1706,7 @@ window.UNIPATH.universities.push(
   country: 'jp',
   city: 'Kyoto',
   region: 'Kyoto',
+  founded: 1875,
   type: 'Private university',
   brand: { c1: '#5b0e2d', c2: '#2f0717', initials: 'DOS' },
   description: 'A private university in Kyoto whose Institute for the Liberal Arts offers a Bachelor of Arts taught entirely in English, with an intake of about 50 students a year.',
@@ -1754,7 +1784,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'ILA admissions', url: 'https://ila.doshisha.ac.jp/en/admissions/index.html' },
     { label: 'ILA application requirements', url: 'https://ila.doshisha.ac.jp/en/admissions/requirements.html' },
-    { label: 'English-based degree programmes', url: 'https://intad.doshisha.ac.jp/intad/en/english_program/offered_english.html' }
+    { label: 'English-based degree programmes', url: 'https://intad.doshisha.ac.jp/intad/en/english_program/offered_english.html' },
+    { label: 'About — history and facts', url: 'https://www.doshisha.ac.jp/en/information/index.html' }
   ],
   verification: { level: 'partial', checked: ['English-taught degree','intake size','tuition reduction for visa holders','ILA tuition for 2027 entry','Doshisha Merit Scholarship bands','english (IELTS and TOEFL minimums, accepted versions and waiver)'], unconfirmed: ['2027 dates','application fee'] },
   lastVerified: '2026-09-23'
@@ -1767,6 +1798,7 @@ window.UNIPATH.universities.push(
   country: 'jp',
   city: 'Kunitachi',
   region: 'Tokyo',
+  founded: 1875,
   type: 'National university (social sciences)',
   brand: { c1: '#003f6b', c2: '#002139', initials: 'HIT' },
   description: 'A national university near Tokyo specialising in the social sciences — commerce, economics, law and sociology — with an English-taught curriculum (HGP) and a Global Leaders Program in economics.',
@@ -1786,9 +1818,11 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Entrance Examination for Privately Financed International Students'],
     deadlines: [
-      { name: 'Entrance examination for privately financed international students', kind: 'intake', entryTerm: 'April', entryYear: '2027', date: 'Guidelines in September, applications from December, examination in February', status: 'not-confirmed', binding: false, appliesTo: 'Privately financed international applicants', conditions: 'Hitotsubashi publishes guidelines in September, opens applications in December and holds the entrance examination in February; exact 2027 dates were not read during this check', source: 'https://www.hit-u.ac.jp/eng/admissions/', verified: '2026-09-23', note: null }
+      { name: 'Entrance examination for privately financed international students — application period (April 2027 entry)', kind: 'application-window', entryTerm: 'April', entryYear: '2027', dateISO: '2026-11-18', date: '9–18 November 2026', time: '17:00', timezone: 'JST', binding: false, appliesTo: 'Privately financed international applicants', conditions: 'Online registration is open from 9:00 on 9 November to 17:00 JST on 18 November 2026, and the posted documents must reach the university within the same period. Applicants need the required EJU and TOEFL scores set out in the guideline.', status: 'confirmed', source: 'https://juken.hit-u.ac.jp/admission/info/guidelines/files/R9ryuugaku_youkou.pdf', verified: '2026-10-05', note: 'From the guideline for the 2027 academic year, which is published in Japanese.' },
+      { name: 'Written examination (Japanese)', kind: 'test', entryTerm: 'April', entryYear: '2027', dateISO: '2027-02-01', date: '1 February 2027', time: '10:30', timezone: 'JST', binding: false, appliesTo: 'Applicants who applied in November', conditions: 'Held at the Kunitachi West Campus from 10:30 to 12:30.', status: 'confirmed', source: 'https://juken.hit-u.ac.jp/admission/info/guidelines/files/R9ryuugaku_youkou.pdf', verified: '2026-10-05', note: null },
+      { name: 'Results', kind: 'decision', entryTerm: 'April', entryYear: '2027', dateISO: '2027-03-01', date: '1 March 2027', time: '10:00', timezone: 'JST', binding: false, appliesTo: 'All applicants', conditions: 'Published online from 10:00 JST on 1 March 2027.', status: 'confirmed', source: 'https://juken.hit-u.ac.jp/admission/info/guidelines/files/R9ryuugaku_youkou.pdf', verified: '2026-10-05', note: null }
     ],
-    applicationFee: { amount: null, currency: 'JPY', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    applicationFee: { amount: 17000, currency: 'JPY', waiverAvailableToInternational: null, waiver: null, note: 'Examination fee in the 2027 guideline; a service charge of JPY 700 is added when paying online.' },
     documents: ['Application through the international student entrance examination', 'School transcripts and graduation certificate', 'Examination results as required by the guidelines'],
     recommendations: null,
     essay: null,
@@ -1831,10 +1865,12 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Admissions', url: 'https://www.hit-u.ac.jp/eng/admissions/' },
     { label: 'Tuition and fees', url: 'https://www.hit-u.ac.jp/eng/ryugaku/tuition.html' },
-    { label: 'English-taught courses (HGP)', url: 'https://international.hit-u.ac.jp/en/courses/' }
+    { label: 'English-taught courses (HGP)', url: 'https://international.hit-u.ac.jp/en/courses/' },
+    { label: 'About — history and facts', url: 'https://www.hit-u.ac.jp/eng/about/outline.html' },
+    { label: 'Guideline for privately financed international students, 2027 academic year (PDF, in Japanese)', url: 'https://juken.hit-u.ac.jp/admission/info/guidelines/files/R9ryuugaku_youkou.pdf' }
   ],
   verification: { level: 'partial', checked: ['admission route and its calendar pattern','English-taught curriculum status','language of instruction (no English-only undergraduate programme; the entrance exam is in Japanese)'], unconfirmed: ['exact tuition on the university page','English test scores','2027 dates','scholarships'] },
-  lastVerified: '2026-09-23'
+  lastVerified: '2026-10-05'
 },
 
 {
@@ -1844,6 +1880,7 @@ window.UNIPATH.universities.push(
   country: 'jp',
   city: 'Tokyo',
   region: 'Tokyo',
+  founded: 1982,
   type: 'Branch campus of a US university',
   brand: { c1: '#9d2235', c2: '#54121d', initials: 'TUJ' },
   description: 'The Tokyo campus of Temple University, teaching American bachelor degrees entirely in English, with rolling admissions and merit scholarships open to any nationality.',
@@ -1912,7 +1949,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Tuition and fees', url: 'https://www.tuj.ac.jp/ug/cost-financial-aid/tuition' },
     { label: 'Admissions information', url: 'https://www.tuj.ac.jp/ug/admissions' },
-    { label: 'Eligibility requirements', url: 'https://www.tuj.ac.jp/ug/admissions/how-to-apply/eligibility-requirements' }
+    { label: 'Eligibility requirements', url: 'https://www.tuj.ac.jp/ug/admissions/how-to-apply/eligibility-requirements' },
+    { label: 'About — history and facts', url: 'https://www.tuj.ac.jp/about/japan-campus/facts' }
   ],
   verification: { level: 'partial', checked: ['language of instruction','matriculation fee','cost estimate','English test rules','rolling admission','english (IELTS, TOEFL, Duolingo, PTE, iTEP and Cambridge minimums and waivers)'], unconfirmed: ['tuition alone','SAT/ACT requirement','application fee'] },
   lastVerified: '2026-09-23'
@@ -1925,6 +1963,7 @@ window.UNIPATH.universities.push(
   country: 'jp',
   city: 'Tokyo',
   region: 'Tokyo',
+  founded: 1881,
   type: 'Private university',
   brand: { c1: '#4b2e83', c2: '#281844', initials: 'MEI' },
   description: 'A large private university in Tokyo with English Track degree programmes in which all subjects are taught in English, notably in the School of Global Japanese Studies.',
@@ -1986,7 +2025,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Degree programs in English', url: 'https://www.meiji.ac.jp/cip/english/admissions/degree-programs-in-english/index.html' },
     { label: 'English Track admissions', url: 'https://www.meiji.ac.jp/cip/english/undergraduate/nippon/englishtrack/admissions.html' },
-    { label: 'Undergraduate tuition and fees', url: 'https://www.meiji.ac.jp/cip/english/admissions/tuition/undergraduate.html' }
+    { label: 'Undergraduate tuition and fees', url: 'https://www.meiji.ac.jp/cip/english/admissions/tuition/undergraduate.html' },
+    { label: 'About — history and facts', url: 'https://www.meiji.ac.jp/cip/english/about/generalinformation.html' }
   ],
   verification: { level: 'partial', checked: ['English-taught degrees','discontinued April intake'], unconfirmed: ['tuition amounts','English scores','2027 dates','scholarships','application fee'] },
   lastVerified: '2026-09-23'
@@ -1999,6 +2039,7 @@ window.UNIPATH.universities.push(
   country: 'jp',
   city: 'Okayama',
   region: 'Okayama',
+  founded: 1949,
   type: 'National research university',
   brand: { c1: '#00559b', c2: '#002c52', initials: 'OKA' },
   description: 'A national university in western Japan whose Discovery Program for Global Learners is a four-year bachelor that can be completed entirely in English, combining social sciences, humanities and natural sciences.',
@@ -2067,7 +2108,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Discovery Program - tuition and fees', url: 'https://discovery.okayama-u.ac.jp/en/prospective_students/tuition_and_fees/' },
     { label: 'Discovery Program - international application', url: 'https://discovery.okayama-u.ac.jp/en/prospective_students/admission/international-application/' },
-    { label: 'Discovery Program - scholarships', url: 'https://discovery.okayama-u.ac.jp/en/prospective_students/s/' }
+    { label: 'Discovery Program - scholarships', url: 'https://discovery.okayama-u.ac.jp/en/prospective_students/s/' },
+    { label: 'About — history and facts', url: 'https://www.okayama-u.ac.jp/eng/about_okayama_university/History.html' }
   ],
   verification: { level: 'partial', checked: ['English-taught degree','tuition and admission fee','entry qualification routes','MEXT coverage','english (accepted tests and the no-minimum policy)'], unconfirmed: ['2027 application dates','application fee'] },
   lastVerified: '2026-09-23'
@@ -2080,6 +2122,7 @@ window.UNIPATH.universities.push(
   country: 'jp',
   city: 'Nishinomiya',
   region: 'Hyogo',
+  founded: 1889,
   type: 'Private university',
   brand: { c1: '#003f8a', c2: '#002047', initials: 'KGU' },
   description: 'A private university near Kobe whose International Admission route leads to an English-based degree programme: students can graduate taking courses in English, with one compulsory Japanese language course.',
@@ -2143,7 +2186,8 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'Admission and tuition fees - School of International Studies', url: 'https://www.kwansei.ac.jp/en/academics/undergraduate/international-studies/admission.html' },
-    { label: 'International Admission application handbook 2026 (PDF)', url: 'https://www.kwansei.ac.jp/en/assets/International_Admission_2026_Application_Handbook.pdf' }
+    { label: 'International Admission application handbook 2026 (PDF)', url: 'https://www.kwansei.ac.jp/en/assets/International_Admission_2026_Application_Handbook.pdf' },
+    { label: 'About — history and facts', url: 'https://www.kwansei.ac.jp/en/about/facts.html' }
   ],
   verification: { level: 'partial', checked: ['English-based degree route','compulsory Japanese course','fee publication status','english (IELTS, TOEFL, TOEIC and EIKEN minimums and waiver)'], unconfirmed: ['tuition amounts','2027 dates','scholarships','application fee'] },
   lastVerified: '2026-09-23'
@@ -2156,6 +2200,7 @@ window.UNIPATH.universities.push(
   country: 'jp',
   city: 'Tokyo',
   region: 'Tokyo',
+  founded: 1887,
   type: 'Private university',
   brand: { c1: '#003580', c2: '#001c44', initials: 'TOY' },
   description: 'A large private university in Tokyo whose Department of Global Innovation Studies teaches an English-based bachelor degree and admits international students through an online application and interview.',
@@ -2217,7 +2262,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Admissions for international students', url: 'https://www.toyo.ac.jp/nyushi/en/admission/' },
     { label: 'Online entrance examination guide - Global Innovation Studies (PDF)', url: 'https://www.toyo.ac.jp/nyushi/content/dam/toyowebstyle/admission/admission-data/international-student/requirements-online/online-entry-exam_dgis_2026_sep_en.pdf' },
-    { label: 'Payment of tuition and fees (PDF)', url: 'https://www.toyo.ac.jp/nyushi/content/dam/toyowebstyle/international-student/payment-of-tuition-and-fees_en.pdf' }
+    { label: 'Payment of tuition and fees (PDF)', url: 'https://www.toyo.ac.jp/nyushi/content/dam/toyowebstyle/international-student/payment-of-tuition-and-fees_en.pdf' },
+    { label: 'About — history and facts', url: 'https://www.toyo.ac.jp/about/gakuhou/backnumber/en/268_07/' }
   ],
   verification: { level: 'partial', checked: ['English-based route','TOEFL requirement','selection method','tuition reduction'], unconfirmed: ['tuition amounts','2027 dates','IELTS acceptance','application fee'] },
   lastVerified: '2026-09-23'
@@ -2230,6 +2276,7 @@ window.UNIPATH.universities.push(
   country: 'jp',
   city: 'Kyoto',
   region: 'Kyoto',
+  founded: 1969,
   type: 'Private university',
   brand: { c1: '#0b3c7d', c2: '#051f42', initials: 'KUA' },
   description: 'A private university in Kyoto whose Faculty of Engineering runs a four-year bachelor taught entirely in English in mechanical and electrical systems engineering, with project-based learning.',
@@ -2302,7 +2349,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Tuition and fees', url: 'https://www.kuas.ac.jp/en/admission/tuition/' },
     { label: 'How to apply (undergraduate)', url: 'https://www.kuas.ac.jp/en/admission/under-eligibility/' },
-    { label: 'Faculty of Engineering', url: 'https://www.kuas.ac.jp/en/academics/eng/' }
+    { label: 'Faculty of Engineering', url: 'https://www.kuas.ac.jp/en/academics/eng/' },
+    { label: 'About — history and facts', url: 'https://www.kuas.ac.jp/en/about/glance/' }
   ],
   verification: { level: 'partial', checked: ['English-medium degree','entry qualifications','fee parity by nationality','scholarship eligibility','school fees from the 2027 academic year','english (IELTS, TOEFL, PTE and Duolingo minimums for engineering)'], unconfirmed: ['2027 dates','application fee'] },
   lastVerified: '2026-09-23'
@@ -2395,6 +2443,7 @@ window.UNIPATH.universities.push(
   country: 'jp',
   city: 'Tokyo',
   region: 'Tokyo',
+  founded: 1880,
   type: 'Private university',
   brand: { c1: '#003893', c2: '#001c4a', initials: 'HOS' },
   description: 'A private university in central Tokyo with several English-based degree programmes, including Global and Interdisciplinary Studies, which is taught entirely in English and admits students in April and September.',
@@ -2460,7 +2509,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'English-based degree programmes', url: 'https://www.hosei.ac.jp/english/admissions/undergraduate/ebdp/' },
     { label: 'GIS programme site', url: 'http://gis.hosei.ac.jp/' },
-    { label: 'Admission overview (PDF)', url: 'https://www.hosei.ac.jp/documents/english/for_admission/ebdp/Admission%20Overview_en.pdf' }
+    { label: 'Admission overview (PDF)', url: 'https://www.hosei.ac.jp/documents/english/for_admission/ebdp/Admission%20Overview_en.pdf' },
+    { label: 'About — history and facts', url: 'https://www.en.hosei.ac.jp/LUC2HOSEI/cdata/luc2hosei_8962_jaen.html' }
   ],
   verification: { level: 'partial', checked: ['English-taught programmes','TOEFL level for GIS','first-year tuition deduction','intakes'], unconfirmed: ['tuition amounts','IELTS acceptance','2027 dates','application fee'] },
   lastVerified: '2026-09-23'

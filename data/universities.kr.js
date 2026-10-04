@@ -794,6 +794,7 @@ window.UNIPATH.universities.push(
   country: 'kr',
   city: 'Pohang',
   region: 'North Gyeongsang',
+  founded: 1986,
   type: 'Private research university (science and engineering)',
   brand: { c1: '#d6001c', c2: '#73000f', initials: 'PST' },
   description: 'A small, research-intensive science and engineering university on the east coast of Korea. It opened undergraduate admission to international students from the autumn 2026 semester and describes itself as a bilingual campus.',
@@ -867,7 +868,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'International undergraduate admissions guide', url: 'https://adm-iu.postech.ac.kr/user/admission/guide/international.do' },
     { label: 'POSTECH to admit international undergraduate students from Fall 2026', url: 'https://postech.ac.kr/eng/news-center/university_news.do?mode=view&articleNo=23959&title=POSTECH+to+Admit+International+Undergraduate+Students+Beginning+Fall+2026' },
-    { label: 'Types of scholarships and eligibility', url: 'https://www.postech.ac.kr/eng/admission-aid/scholarship_types.do' }
+    { label: 'Types of scholarships and eligibility', url: 'https://www.postech.ac.kr/eng/admission-aid/scholarship_types.do' },
+    { label: 'About — history and facts', url: 'https://math.postech.ac.kr/en/bbs/page.php?hid=m01_03' }
   ],
   verification: { level: 'partial', checked: ['new international undergraduate route','expected 2027 application window','interview rule','GKS embassy track participation','language of instruction share','scholarship package (waiver, stipend, travel, TOPIK bonus, voucher)'], unconfirmed: ['tuition figure before the waiver','English test scores','exact deadlines'] },
   lastVerified: '2026-09-23'
@@ -967,6 +969,7 @@ window.UNIPATH.universities.push(
   country: 'kr',
   city: 'Pohang',
   region: 'North Gyeongsang',
+  founded: 1995,
   type: 'Private Christian university',
   brand: { c1: '#00437a', c2: '#00223d', initials: 'HGU' },
   description: 'A private Christian university in Pohang with ten undergraduate programmes taught fully in English, including Global Management, Information Technology and US & International Law, and a scholarship that covers tuition and dormitory fees.',
@@ -986,7 +989,8 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Handong Global University online application'],
     deadlines: [
-      { name: 'International undergraduate admission', kind: 'intake', entryTerm: 'Spring or Fall', entryYear: '2027', date: 'Published in the admission guideline for prospective international students', status: 'not-confirmed', binding: false, appliesTo: 'International applicants', conditions: 'Dates are published in the annual guideline; the 2027 dates were not read during this check', source: 'https://www.handong.edu/eng/admission/undergraduate/application/overview/', verified: '2026-09-23', note: null }
+      { name: 'Fall 2027 — application submission', kind: 'application-window', entryTerm: 'Fall', entryYear: '2027', dateISO: '2027-03-15', date: '1 February – 15 March 2027', time: '17:00', binding: false, appliesTo: 'International applicants', conditions: 'Applications close at 5 PM on 15 March 2027. First-step results on 10 April 2027 (3 PM); interview on 14 April 2027; final admission announcement on 30 April 2027 (3 PM); registration by 15 June 2027 (5 PM).', status: 'confirmed', source: 'https://www.handong.edu/eng/admission/undergraduate/application/overview/', verified: '2026-10-05', note: 'Handong publishes these dates as a chart on its application overview page; the time zone is not stated.' },
+      { name: 'Spring 2027 — application submission', kind: 'application-window', entryTerm: 'Spring', entryYear: '2027', dateISO: '2026-09-15', date: '1 August – 15 September 2026', time: '17:00', binding: false, appliesTo: 'International applicants', conditions: 'This round has closed. Final admission announcement on 30 October 2026; registration by 15 December 2026.', status: 'confirmed', source: 'https://www.handong.edu/eng/admission/undergraduate/application/overview/', verified: '2026-10-05', note: null }
     ],
     applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
     documents: ['School transcripts and graduation certificate', 'English proficiency evidence', 'Documents listed in the admission guideline'],
@@ -1039,10 +1043,11 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Scholarships for new international students', url: 'https://www.handong.edu/eng/admission/undergraduate/scholarship/new/' },
     { label: 'English-taught programmes', url: 'https://www.handong.edu/eng/academics/undergraduate/english-programs/english/' },
-    { label: 'Undergraduate admission overview', url: 'https://www.handong.edu/eng/admission/undergraduate/application/overview/' }
+    { label: 'Undergraduate admission overview', url: 'https://www.handong.edu/eng/admission/undergraduate/application/overview/' },
+    { label: 'About — history and facts', url: 'https://handong.edu/site/handong-en/v1/about.jsp' }
   ],
   verification: { level: 'partial', checked: ['English-taught programmes','Cornerstone Scholarship coverage and conditions','tuition per semester by area of study'], unconfirmed: ['English scores','2027 dates','application fee'] },
-  lastVerified: '2026-09-23'
+  lastVerified: '2026-10-05'
 },
 
 {
@@ -1128,6 +1133,7 @@ window.UNIPATH.universities.push(
   country: 'kr',
   city: 'Incheon',
   region: 'Incheon',
+  founded: 1954,
   type: 'Private research university',
   brand: { c1: '#00437b', c2: '#00223f', initials: 'INH' },
   description: 'A private university in Incheon with engineering, logistics and business strengths and admission scholarships for international students based on English or Korean test scores.',
@@ -1191,7 +1197,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Scholarships for international students', url: 'https://internationalcenter.inha.ac.kr/internationalcenter/9987/subview.do' },
     { label: 'Tuition and fees', url: 'https://internationalcenter.inha.ac.kr/internationalcenter/9988/subview.do' },
-    { label: 'Jungseok International Scholarship', url: 'https://internationalcenter.inha.ac.kr/internationalcenter/9993/subview.do' }
+    { label: 'Jungseok International Scholarship', url: 'https://internationalcenter.inha.ac.kr/internationalcenter/9993/subview.do' },
+    { label: 'About — history and facts', url: 'https://www.inha.ac.kr/eng/3775/subview.do' }
   ],
   verification: { level: 'partial', checked: ['scholarship structure (score-based)','international admission route'], unconfirmed: ['whether a full bachelor is available in English','tuition amounts','English score thresholds','deadlines'] },
   lastVerified: '2026-09-23'
@@ -1279,6 +1286,7 @@ window.UNIPATH.universities.push(
   country: 'kr',
   city: 'Seoul',
   region: 'Seoul',
+  founded: 1916,
   type: 'Private research university',
   brand: { c1: '#00205b', c2: '#001133', initials: 'CAU' },
   description: 'A large private university in Seoul with strong media, business and engineering faculties and a dedicated international admissions office.',
@@ -1343,7 +1351,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Undergraduate admission', url: 'https://neweng.cau.ac.kr/cms/FR_CON/index.do?MENU_ID=410' },
     { label: 'Scholarship and benefits', url: 'https://neweng.cau.ac.kr/cms/FR_CON/index.do?MENU_ID=550&CONTENTS_NO=2' },
-    { label: 'Office of International Affairs', url: 'https://oia.cau.ac.kr/sub06/sub03_2.php' }
+    { label: 'Office of International Affairs', url: 'https://oia.cau.ac.kr/sub06/sub03_2.php' },
+    { label: 'About — history and facts', url: 'https://neweng.cau.ac.kr/cms/FR_CON/index.do?MENU_ID=170' }
   ],
   verification: { level: 'partial', checked: ['international admission route exists','scholarship selection basis','english (IELTS, TOEFL, TOEIC and TOPIK thresholds)'], unconfirmed: ['English-taught degrees','tuition','deadlines'] },
   lastVerified: '2026-09-23'
@@ -1356,6 +1365,7 @@ window.UNIPATH.universities.push(
   country: 'kr',
   city: 'Seoul',
   region: 'Seoul',
+  founded: 1954,
   type: 'Private university (languages and international studies)',
   brand: { c1: '#003f87', c2: '#002145', initials: 'HUF' },
   description: 'A private Seoul university specialising in languages, area studies and international affairs, with English-taught departments such as English for International Communication and Conferences.',
@@ -1374,9 +1384,11 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['HUFS international admissions application'],
     deadlines: [
-      { name: 'International undergraduate admission', kind: 'intake', entryTerm: 'Fall', entryYear: '2027', date: 'Published in the admission guideline', status: 'not-confirmed', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'The university publishes an admission guide for each intake; the 2027 dates were not read during this check', source: 'https://international.hufs.ac.kr/', verified: '2026-09-23', note: null }
+      { name: 'Spring 2027 — Regular Decision: online application and documents', kind: 'round-2', entryTerm: 'Spring', entryYear: '2027', dateISO: '2026-11-20', date: '19 October – 20 November 2026', binding: false, appliesTo: 'International undergraduate applicants (both parents non-Korean)', conditions: 'Apply online, pay the fee and send the original documents so that they arrive by the deadline. Result and interview notice on 14 December 2026; online interview on 19 December 2026; final results on 4 January 2027; tuition payment 4–15 January 2027.', status: 'confirmed', source: 'https://international.hufs.ac.kr/sites/international/contents/files/2027spring/HUFS_2027-1_Admission_guide(ENG).pdf', verified: '2026-10-05', note: 'HUFS notes that the schedule may change.' },
+      { name: 'Spring 2027 — Early Decision: online application and documents', kind: 'round-1', entryTerm: 'Spring', entryYear: '2027', dateISO: '2026-09-11', date: '1–11 September 2026', binding: false, appliesTo: 'International undergraduate applicants (both parents non-Korean)', conditions: 'This round has closed. Final results are announced on 30 October 2026.', status: 'confirmed', source: 'https://international.hufs.ac.kr/sites/international/contents/files/2027spring/HUFS_2027-1_Admission_guide(ENG).pdf', verified: '2026-10-05', note: null },
+      { name: 'Fall 2027 admission', kind: 'intake', entryTerm: 'Fall', entryYear: '2027', date: 'Published in the admission guide for that intake', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'The Fall 2027 guide had not been published when this was checked.', status: 'not-confirmed', source: 'https://international.hufs.ac.kr/', verified: '2026-10-05', note: null }
     ],
-    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    applicationFee: { amount: 158000, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Online application fee in the Spring 2027 admission guide; it is non-refundable except in exceptional circumstances.' },
     documents: ['School transcripts and graduation certificate', 'Proof that neither biological parent nor legal guardian holds Korean citizenship', 'Language proficiency evidence'],
     recommendations: null,
     essay: null,
@@ -1419,10 +1431,12 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'International student services', url: 'https://international.hufs.ac.kr/' },
     { label: '2026 Fall admission guide (PDF)', url: 'https://international.hufs.ac.kr/sites/international/contents/files/2026fall/HUFS_2026_Fall_Admission_guide(ENG)_update_ver.pdf' },
-    { label: 'English-taught courses', url: 'https://exchange.hufs.ac.kr/Course-Information/How-to-Register/English-taught-Courses' }
+    { label: 'English-taught courses', url: 'https://exchange.hufs.ac.kr/Course-Information/How-to-Register/English-taught-Courses' },
+    { label: 'About — history and facts', url: 'https://international.hufs.ac.kr/international/14827/subview.do' },
+    { label: 'Spring 2027 undergraduate admission guide (PDF)', url: 'https://international.hufs.ac.kr/sites/international/contents/files/2027spring/HUFS_2027-1_Admission_guide(ENG).pdf' }
   ],
   verification: { level: 'partial', checked: ['eligibility rule on citizenship','tuition waiver by field','English-taught departments (partial)','english (accepted IELTS versions and waiver rules)'], unconfirmed: ['fully English-taught degrees','tuition amounts','language score requirements','deadlines'] },
-  lastVerified: '2026-09-23'
+  lastVerified: '2026-10-05'
 },
 
 {
@@ -1432,6 +1446,7 @@ window.UNIPATH.universities.push(
   country: 'kr',
   city: 'Suwon',
   region: 'Gyeonggi',
+  founded: 1973,
   type: 'Private research university',
   brand: { c1: '#0055a5', c2: '#002c56', initials: 'AJU' },
   description: 'A private research university in Suwon, south of Seoul, with English-track undergraduate admission, published English requirements and a set of entry scholarships for international students.',
@@ -1501,7 +1516,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Scholarships for international undergraduates', url: 'https://www.ajou.ac.kr/iadmissions_en/undergraduate/scholarship.do' },
     { label: 'Tuition and fees', url: 'https://www.ajou.ac.kr/iadmissions_en/undergraduate/tuition.do' },
-    { label: 'Eligibility and admission schedule', url: 'https://www.ajou.ac.kr/iadmissions_en/undergraduate/qualification.do' }
+    { label: 'Eligibility and admission schedule', url: 'https://www.ajou.ac.kr/iadmissions_en/undergraduate/qualification.do' },
+    { label: 'About — history and facts', url: 'https://www.ajou.ac.kr/en/intro/history01.do' }
   ],
   verification: { level: 'partial', checked: ['English-track English requirements','scholarship structure and renewal rules','tuition (per semester by college)','Spring 2027 application window and result date','Korean proficiency requirement'], unconfirmed: ['which degrees are fully English-taught','scholarship values'] },
   lastVerified: '2026-09-23'
@@ -1514,6 +1530,7 @@ window.UNIPATH.universities.push(
   country: 'kr',
   city: 'Seoul',
   region: 'Seoul',
+  founded: 1946,
   type: 'Private research university',
   brand: { c1: '#00693c', c2: '#00381f', initials: 'KON' },
   description: 'A large private university in Seoul with a second campus in Chungju. It teaches more than 500 courses in English each semester and offers tuition waivers of 40–100% to students who keep good academic standing.',
@@ -1578,7 +1595,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'International student services and admissions', url: 'https://ciss.konkuk.ac.kr/ciss/18391/subview.do' },
     { label: 'Fall 2026 undergraduate admission guidelines (PDF)', url: 'https://ciss.konkuk.ac.kr/sites/ciss/files/260205_Fall_Semester_Admission_Guidelines_pc_en.pdf' },
-    { label: 'Undergraduate international students', url: 'https://old.konkuk.ac.kr/eng/jsp/Admissions/undergraduate_international_students.jsp' }
+    { label: 'Undergraduate international students', url: 'https://old.konkuk.ac.kr/eng/jsp/Admissions/undergraduate_international_students.jsp' },
+    { label: 'About — history and facts', url: 'http://bulletin.konkuk.ac.kr/news/articleView.html?idxno=700' }
   ],
   verification: { level: 'partial', checked: ['English-taught course volume','tuition waiver scale and conditions','previous-cycle guideline','english (graduation language levels and TOPIK requirement)'], unconfirmed: ['fully English-taught degrees','tuition amounts','2027 dates'] },
   lastVerified: '2026-09-23'
@@ -1591,6 +1609,7 @@ window.UNIPATH.universities.push(
   country: 'kr',
   city: 'Busan',
   region: 'Busan',
+  founded: 1946,
   type: 'National research university',
   brand: { c1: '#004c97', c2: '#00294f', initials: 'PNU' },
   description: "A national university in Busan, one of Korea's largest public universities, with international admission that accepts either Korean or English proficiency evidence and score-based scholarships.",
@@ -1648,7 +1667,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Undergraduate admissions', url: 'https://www.pusan.ac.kr/eng/CMS/Contents/Contents.do?mCode=MN013' },
     { label: 'PNU scholarship programs', url: 'https://www.pusan.ac.kr/eng/CMS/Contents/Contents.do?mCode=MN016' },
-    { label: 'Admissions for international students (PDF brochure)', url: 'https://international.pusan.ac.kr/sites/international/download/brochure/005-Admissons%20For%20International%20Student(English).pdf' }
+    { label: 'Admissions for international students (PDF brochure)', url: 'https://international.pusan.ac.kr/sites/international/download/brochure/005-Admissons%20For%20International%20Student(English).pdf' },
+    { label: 'About — history and facts', url: 'https://channelpnu.pusan.ac.kr/news/articleView.html?idxno=38735' }
   ],
   verification: { level: 'partial', checked: ['language evidence rule','scholarship process and one award value'], unconfirmed: ['English-taught degrees','tuition amounts','score thresholds','deadlines'] },
   lastVerified: '2026-09-23'
@@ -1661,6 +1681,7 @@ window.UNIPATH.universities.push(
   country: 'kr',
   city: 'Daegu',
   region: 'Daegu',
+  founded: 2004,
   type: 'National research institute with an undergraduate school',
   brand: { c1: '#00426a', c2: '#002236', initials: 'DGI' },
   description: 'A national science and technology institute in Daegu with a small undergraduate school built around a convergence curriculum, and scholarships that can waive tuition in full.',
@@ -1737,7 +1758,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'DGIST international undergraduate admissions', url: 'https://www.dgist.ac.kr/iuadm/index.do' },
     { label: 'Scholarships and student support', url: 'https://ibom.dgist.ac.kr/iuadm/sub04_01.do' },
-    { label: 'Undergraduate financial aid and scholarships', url: 'https://www.dgist.ac.kr/eng/sub05_03_02_02.do' }
+    { label: 'Undergraduate financial aid and scholarships', url: 'https://www.dgist.ac.kr/eng/sub05_03_02_02.do' },
+    { label: 'About — history and facts', url: 'https://www.dgist.ac.kr/eng/sub01_02_02.do' }
   ],
   verification: { level: 'partial', checked: ['tuition per semester and per year','full tuition waiver for international students','monthly scholarships and conditions'], unconfirmed: ['language of instruction share','English requirements','deadlines'] },
   lastVerified: '2026-09-23'
@@ -1962,6 +1984,7 @@ window.UNIPATH.universities.push(
   country: 'kr',
   city: 'Seoul',
   region: 'Seoul',
+  founded: 1906,
   type: 'Private Buddhist-founded university',
   brand: { c1: '#e35205', c2: '#7a2c02', initials: 'DON' },
   description: 'A private university in central Seoul founded on Buddhist principles, with an international admission route, a Global Leaders Track for international students and participation in the Global Korea Scholarship.',
@@ -2174,6 +2197,7 @@ window.UNIPATH.universities.push(
   country: 'kr',
   city: 'Incheon',
   region: 'Incheon',
+  founded: 1979,
   type: 'National university',
   brand: { c1: '#004c9b', c2: '#002750', initials: 'INU' },
   description: 'A national university in Incheon with two undergraduate programmes taught fully in English — Korean Trade and Commerce in the School of Northeast Asian Studies, and Public Administration — and scholarships that cover most or all of tuition for many international students.',
@@ -2234,7 +2258,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Undergraduate application', url: 'https://www.inu.ac.kr/inuengl/8528/subview.do' },
     { label: 'Tuition and scholarship', url: 'https://www.inu.ac.kr/ibe/3882/subview.do' },
-    { label: 'Undergraduate tuition fee', url: 'https://www.inu.ac.kr/inuengl/8498/subview.do' }
+    { label: 'Undergraduate tuition fee', url: 'https://www.inu.ac.kr/inuengl/8498/subview.do' },
+    { label: 'About — history and facts', url: 'https://www.inu.ac.kr/inuengl/8557/subview.do' }
   ],
   verification: { level: 'partial', checked: ['fully English-taught programmes','eligibility rule','scholarship coverage description','english (IELTS, TOEFL, TOEIC minimums and TOPIK levels)'], unconfirmed: ['tuition amounts','2027 dates'] },
   lastVerified: '2026-09-23'
@@ -2247,6 +2272,7 @@ window.UNIPATH.universities.push(
   country: 'kr',
   city: 'Seoul',
   region: 'Seoul',
+  founded: 1897,
   type: 'Private university',
   brand: { c1: '#00539b', c2: '#002b52', initials: 'SSU' },
   description: 'A private university in central Seoul with about 1,600 international undergraduates, teaching in Korean and English and requiring TOPIK level 4 for graduation.',
@@ -2304,7 +2330,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Undergraduate admission', url: 'https://eng.ssu.ac.kr/admission/undergraduate/' },
     { label: 'Scholarships', url: 'https://eng.ssu.ac.kr/academics/academic-affairs/scholarship/' },
-    { label: 'Special procedures for new and transfer international students (PDF)', url: 'https://iphak.ssu.ac.kr/upload/SSU(1)_26030384642.pdf' }
+    { label: 'Special procedures for new and transfer international students (PDF)', url: 'https://iphak.ssu.ac.kr/upload/SSU(1)_26030384642.pdf' },
+    { label: 'About — history and facts', url: 'https://study.ssu.ac.kr/en/introduction/overview.do' }
   ],
   verification: { level: 'partial', checked: ['TOPIK graduation requirement','scholarship exclusivity rule'], unconfirmed: ['English-taught degrees','tuition amounts','English requirements','deadlines'] },
   lastVerified: '2026-09-23'
