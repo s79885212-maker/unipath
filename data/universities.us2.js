@@ -5762,7 +5762,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Schenectady",
   "region": "New York",
-  "founded": null,
+  "founded": 1795,
   "type": "Private liberal arts college",
   "institutionKind": "liberal-arts",
   "degrees": [
@@ -6015,6 +6015,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Financial aid and family financing",
       "url": "https://www.union.edu/financial-aid-family-financing"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.union.edu/about"
     }
   ],
   "verification": {
@@ -6025,10 +6029,10 @@ window.UNIPATH.universities.push(
       "testing policy",
       "English tests",
       "comprehensive fee",
-      "aid for international students"
+      "aid for international students",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
       "tuition as a separate figure",
       "scholarship amounts",
       "whether full need is met"
@@ -6306,7 +6310,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Hartford",
   "region": "Connecticut",
-  "founded": null,
+  "founded": 1823,
   "type": "Private liberal arts college",
   "institutionKind": "liberal-arts",
   "degrees": [
@@ -6426,21 +6430,28 @@ window.UNIPATH.universities.push(
   "english": {
     "ielts": {
       "min": null,
-      "recommended": null,
-      "note": "Accepted. Trinity requires IELTS, TOEFL or the Duolingo English Test from students whose native language is not English or who have not studied for three years in an English-medium high school; no score was found on the pages read."
+      "recommended": 7.0,
+      "note": "Recommended 7.0 with band scores of 6.5 or higher. Trinity has no minimum cut-off and reviews English holistically."
     },
     "toefl": {
       "min": null,
       "recommended": null,
-      "note": "Accepted; no score was found on the pages read."
+      "scales": [
+        {
+          "period": "post2026",
+          "min": null,
+          "recommended": 5.5
+        }
+      ],
+      "note": "Recommended 5.5 with subsection scores of 5.5 on the current scale; no cut-off."
     },
     "duolingo": {
       "min": null,
-      "recommended": null,
-      "note": "Accepted; no score was found on the pages read."
+      "recommended": 130,
+      "note": "Recommended 130 overall or higher; results are accepted only directly from Duolingo."
     },
-    "waiver": "Trinity offers an English proficiency waiver in stated cases.",
-    "note": null
+    "waiver": "A waiver can be requested after applying, for example with a final IB English grade of 5 or higher.",
+    "note": "Applicants whose scores fall below the recommended levels are still encouraged to apply; an interview is strongly encouraged."
   },
   "academics": {
     "gpa": null,
@@ -6553,6 +6564,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Admissions FAQ",
       "url": "https://www.trincoll.edu/admissions/undergraduate-admissions/faq/"
+    },
+    {
+      "label": "English proficiency exams",
+      "url": "https://www.trincoll.edu/admissions/international-admissions/english-proficiency-exams/"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.trincoll.edu/about"
     }
   ],
   "verification": {
@@ -6563,16 +6582,16 @@ window.UNIPATH.universities.push(
       "testing policy",
       "accepted English tests",
       "costs",
-      "aid for international students"
+      "aid for international students",
+      "English tests",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
-      "English test scores",
       "need-aware or need-blind for international applicants",
       "merit scholarship amounts"
     ]
   },
-  "lastVerified": "2026-10-01",
+  "lastVerified": "2026-10-04",
   "photos": {
     "main": null,
     "gallery": [],
@@ -6587,7 +6606,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "New London",
   "region": "Connecticut",
-  "founded": null,
+  "founded": 1911,
   "type": "Private liberal arts college",
   "institutionKind": "liberal-arts",
   "degrees": [
@@ -6829,6 +6848,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Applying for financial aid",
       "url": "https://www.conncoll.edu/financial-aid/applying-for-financial-aid/"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.conncoll.edu/at-a-glance/"
     }
   ],
   "verification": {
@@ -6839,10 +6862,10 @@ window.UNIPATH.universities.push(
       "testing policy",
       "English tests",
       "costs",
-      "aid for international students"
+      "aid for international students",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
       "tuition as a separate figure",
       "need-aware or need-blind for international applicants"
     ]
@@ -6862,7 +6885,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Carlisle",
   "region": "Pennsylvania",
-  "founded": null,
+  "founded": 1783,
   "type": "Private liberal arts college",
   "institutionKind": "liberal-arts",
   "degrees": [
@@ -6978,11 +7001,11 @@ window.UNIPATH.universities.push(
       }
     ],
     "applicationFee": {
-      "amount": null,
+      "amount": 65,
       "currency": "USD",
       "waiverAvailableToInternational": null,
-      "waiver": null,
-      "note": "The application fee was not found on the pages read."
+      "waiver": "The Common Data Set says the fee can be waived for applicants with financial need; eligibility of international applicants was not confirmed",
+      "note": "Stated in section C13 of Dickinson’s 2025–26 Common Data Set."
     },
     "documents": [
       "Common Application",
@@ -7128,6 +7151,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Cost of attendance 2026–2027",
       "url": "https://www.dickinson.edu/info/20081/financial_aid/1125/cost_of_attendance"
+    },
+    {
+      "label": "Dickinson College Common Data Set 2025–26 (section C13)",
+      "url": "https://www.dickinson.edu/download/downloads/id/17199/cds_2025-2026.pdf"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.dickinson.edu/about"
     }
   ],
   "verification": {
@@ -7137,15 +7168,15 @@ window.UNIPATH.universities.push(
       "testing policy",
       "English tests",
       "costs",
-      "aid for international students"
+      "aid for international students",
+      "application fee",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
-      "application fee",
       "merit scholarship amounts"
     ]
   },
-  "lastVerified": "2026-10-01",
+  "lastVerified": "2026-10-04",
   "photos": {
     "main": null,
     "gallery": [],
@@ -7160,7 +7191,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Gettysburg",
   "region": "Pennsylvania",
-  "founded": null,
+  "founded": 1832,
   "type": "Private liberal arts college",
   "institutionKind": "liberal-arts",
   "degrees": [
@@ -7276,11 +7307,11 @@ window.UNIPATH.universities.push(
       }
     ],
     "applicationFee": {
-      "amount": null,
+      "amount": 60,
       "currency": "USD",
       "waiverAvailableToInternational": null,
       "waiver": null,
-      "note": "The application fee was not found on the pages read."
+      "note": "Stated in section C13 of Gettysburg’s 2025–26 Common Data Set."
     },
     "documents": [
       "Common Application",
@@ -7413,6 +7444,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Tuition and fees 2026–27",
       "url": "https://www.gettysburg.edu/admissions-aid/tuition-fees/"
+    },
+    {
+      "label": "Gettysburg College Common Data Set 2025–26 (section C13)",
+      "url": "https://www.gettysburg.edu/offices/institutional-research/pdfs/2026/CDS_2025-2026.pdf"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.gettysburg.edu/about"
     }
   ],
   "verification": {
@@ -7422,15 +7461,15 @@ window.UNIPATH.universities.push(
       "testing policy",
       "English tests",
       "costs",
-      "aid for international students"
+      "aid for international students",
+      "application fee",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
-      "application fee",
       "whether the English scores are minimums"
     ]
   },
-  "lastVerified": "2026-10-01",
+  "lastVerified": "2026-10-04",
   "photos": {
     "main": null,
     "gallery": [],
@@ -7445,7 +7484,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Lewisburg",
   "region": "Pennsylvania",
-  "founded": null,
+  "founded": 1846,
   "type": "Private liberal arts university",
   "institutionKind": "liberal-arts",
   "degrees": [
@@ -7574,22 +7613,34 @@ window.UNIPATH.universities.push(
   },
   "english": {
     "ielts": {
-      "min": null,
+      "min": 7,
       "recommended": null,
-      "note": "Accepted (TOEFL, IELTS, DET or PTE); no score was found on the pages read."
+      "note": "Minimum score of 7."
     },
     "toefl": {
-      "min": null,
+      "min": 100,
       "recommended": null,
-      "note": "Accepted; no score was found on the pages read."
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 100,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 5,
+          "recommended": null
+        }
+      ],
+      "note": "Minimum 5, or 100 if taken before 21 January 2026."
     },
     "duolingo": {
-      "min": null,
+      "min": 130,
       "recommended": null,
-      "note": "Accepted; no score was found on the pages read."
+      "note": "Minimum Duolingo English Test score of 130."
     },
     "waiver": "Required when English is not the first language or was not the language of instruction for at least three years; can be waived by permission.",
-    "note": null
+    "note": "PTE 68 is also accepted. Results should arrive by the application deadline."
   },
   "academics": {
     "gpa": null,
@@ -7707,6 +7758,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Tuition, fees and financial aid",
       "url": "https://www.bucknell.edu/admissions-aid/tuition-fees-financial-aid"
+    },
+    {
+      "label": "Admission requirements for international students",
+      "url": "https://www.bucknell.edu/admissions-aid/apply-bucknell/undergraduate-admission-requirements/admission-requirements-international-students"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.bucknell.edu/meet-bucknell/history-traditions"
     }
   ],
   "verification": {
@@ -7717,14 +7776,13 @@ window.UNIPATH.universities.push(
       "testing policy",
       "accepted English tests",
       "costs",
-      "aid for international students"
+      "aid for international students",
+      "English tests",
+      "founding year"
     ],
-    "unconfirmed": [
-      "founding year",
-      "English test scores"
-    ]
+    "unconfirmed": []
   },
-  "lastVerified": "2026-10-01",
+  "lastVerified": "2026-10-04",
   "photos": {
     "main": null,
     "gallery": [],
@@ -7739,7 +7797,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Worcester",
   "region": "Massachusetts",
-  "founded": null,
+  "founded": 1843,
   "type": "Private Jesuit liberal arts college",
   "institutionKind": "liberal-arts",
   "degrees": [
@@ -7971,6 +8029,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Tuition and fees 2026–2027",
       "url": "https://www.holycross.edu/admissions-aid/tuition-financial-aid/tuition-fees"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.holycross.edu/about/at-a-glance"
     }
   ],
   "verification": {
@@ -7981,10 +8043,10 @@ window.UNIPATH.universities.push(
       "testing policy",
       "English tests",
       "costs",
-      "aid for international students"
+      "aid for international students",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
       "whether admission is need-aware for international applicants"
     ]
   },
@@ -8360,11 +8422,11 @@ window.UNIPATH.universities.push(
       }
     ],
     "applicationFee": {
-      "amount": null,
+      "amount": 0,
       "currency": "USD",
       "waiverAvailableToInternational": null,
       "waiver": null,
-      "note": "The application fee was not found on the pages read."
+      "note": "Rhodes’s 2025–26 Common Data Set (section C13) says the college has no application fee."
     },
     "documents": [
       "Common Application",
@@ -8507,6 +8569,10 @@ window.UNIPATH.universities.push(
     {
       "label": "First-year financial aid deadlines",
       "url": "https://www.rhodes.edu/admission-aid/cost-affordability/first-year-financial-aid"
+    },
+    {
+      "label": "Rhodes College Common Data Set 2025–26 (section C13)",
+      "url": "https://www.rhodes.edu/sites/default/files/2026-05/CDS_2025-26_(New_Update).xlsx"
     }
   ],
   "verification": {
@@ -8516,15 +8582,15 @@ window.UNIPATH.universities.push(
       "testing policy",
       "English tests",
       "costs for international students",
-      "aid for international students"
+      "aid for international students",
+      "application fee"
     ],
     "unconfirmed": [
       "founding year",
-      "application fee",
       "academic year of the published costs"
     ]
   },
-  "lastVerified": "2026-10-01",
+  "lastVerified": "2026-10-04",
   "photos": {
     "main": null,
     "gallery": [],
@@ -8539,7 +8605,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Danville",
   "region": "Kentucky",
-  "founded": null,
+  "founded": 1819,
   "type": "Private liberal arts college",
   "institutionKind": "liberal-arts",
   "degrees": [
@@ -8794,6 +8860,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Cost and affordability 2026–2027",
       "url": "https://www.centre.edu/admission-aid/cost-affordability"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.centre.edu/about/history"
     }
   ],
   "verification": {
@@ -8804,10 +8874,10 @@ window.UNIPATH.universities.push(
       "testing policy",
       "English tests",
       "costs",
-      "aid for international students"
+      "aid for international students",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
       "Lincoln Scholars deadline"
     ]
   },
@@ -8955,11 +9025,11 @@ window.UNIPATH.universities.push(
       }
     ],
     "applicationFee": {
-      "amount": null,
+      "amount": 0,
       "currency": "USD",
       "waiverAvailableToInternational": null,
       "waiver": null,
-      "note": "The application fee was not found on the pages read."
+      "note": "Wooster’s 2025–26 Common Data Set (section C13) says the college has no application fee."
     },
     "documents": [
       "Essay, included in the application",
@@ -9083,6 +9153,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Scholarships and aid — 2026–27 fees",
       "url": "https://wooster.edu/admissions/scholarship-aid"
+    },
+    {
+      "label": "The College of Wooster Common Data Set 2025–26 (section C13)",
+      "url": "https://inside.wooster.edu/consumer-and-accreditation-information/common-data-sets/"
     }
   ],
   "verification": {
@@ -9091,17 +9165,17 @@ window.UNIPATH.universities.push(
       "deadlines",
       "testing policy",
       "accepted English tests",
-      "costs"
+      "costs",
+      "application fee"
     ],
     "unconfirmed": [
       "founding year",
-      "application fee",
       "IELTS and Duolingo scores",
       "share of need met for international students",
       "merit scholarship amounts"
     ]
   },
-  "lastVerified": "2026-10-01",
+  "lastVerified": "2026-10-04",
   "photos": {
     "main": null,
     "gallery": [],
@@ -9116,7 +9190,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Northfield",
   "region": "Minnesota",
-  "founded": null,
+  "founded": 1874,
   "type": "Private liberal arts college",
   "institutionKind": "liberal-arts",
   "degrees": [
@@ -9359,6 +9433,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Afford",
       "url": "https://wp.stolaf.edu/admissions/afford/"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://wp.stolaf.edu/about"
     }
   ],
   "verification": {
@@ -9369,10 +9447,10 @@ window.UNIPATH.universities.push(
       "testing policy",
       "English tests",
       "costs",
-      "aid for international students"
+      "aid for international students",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
       "academic year of the published costs"
     ]
   },
@@ -9391,7 +9469,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Galesburg",
   "region": "Illinois",
-  "founded": null,
+  "founded": 1837,
   "type": "Private liberal arts college",
   "institutionKind": "liberal-arts",
   "degrees": [
@@ -9634,6 +9712,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Cost and financial aid 2026–2027",
       "url": "https://www.knox.edu/admission/cost-and-financial-aid"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.knox.edu/about-knox"
     }
   ],
   "verification": {
@@ -9643,10 +9725,10 @@ window.UNIPATH.universities.push(
       "application fee",
       "testing policy",
       "English tests",
-      "costs"
+      "costs",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
       "aid for international students",
       "scholarship eligibility of international students"
     ]
@@ -9666,7 +9748,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Beloit",
   "region": "Wisconsin",
-  "founded": null,
+  "founded": 1846,
   "type": "Private liberal arts college",
   "institutionKind": "liberal-arts",
   "degrees": [
@@ -9937,6 +10019,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Cost of attendance 2026–27",
       "url": "https://www.beloit.edu/offices/financial-aid/cost-of-attendance/"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.beloit.edu/our-story/"
     }
   ],
   "verification": {
@@ -9947,11 +10033,10 @@ window.UNIPATH.universities.push(
       "testing policy",
       "English tests",
       "costs",
-      "aid for international students"
-    ],
-    "unconfirmed": [
+      "aid for international students",
       "founding year"
-    ]
+    ],
+    "unconfirmed": []
   },
   "lastVerified": "2026-10-01",
   "photos": {
@@ -9968,7 +10053,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Appleton",
   "region": "Wisconsin",
-  "founded": null,
+  "founded": 1847,
   "type": "Private liberal arts college and music conservatory",
   "institutionKind": "liberal-arts",
   "degrees": [
@@ -10233,6 +10318,10 @@ window.UNIPATH.universities.push(
     {
       "label": "International admission requirements",
       "url": "https://inside.lawrence.edu/admissions-aid/international-admissions/admission-requirements"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.lawrence.edu/about"
     }
   ],
   "verification": {
@@ -10243,10 +10332,10 @@ window.UNIPATH.universities.push(
       "testing policy",
       "English tests",
       "costs",
-      "aid for international students"
+      "aid for international students",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
       "academic year of the published costs",
       "scholarship amounts"
     ]
@@ -10266,7 +10355,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Richmond",
   "region": "Indiana",
-  "founded": null,
+  "founded": 1847,
   "type": "Private liberal arts college",
   "institutionKind": "liberal-arts",
   "degrees": [
@@ -10380,11 +10469,11 @@ window.UNIPATH.universities.push(
       }
     ],
     "applicationFee": {
-      "amount": null,
+      "amount": 0,
       "currency": "USD",
       "waiverAvailableToInternational": null,
       "waiver": null,
-      "note": "The application fee was not found on the pages read."
+      "note": "Earlham’s 2025–26 Common Data Set (section C13) says the college has no application fee."
     },
     "documents": [
       "Common Application",
@@ -10528,6 +10617,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Financial aid FAQ",
       "url": "https://earlham.edu/cost-affordability/financial-aid-faq/"
+    },
+    {
+      "label": "Earlham College Common Data Set 2025–26 (section C13)",
+      "url": "https://earlham.edu/wp-content/uploads/2026/04/Earlham-College_CDS-2025-2026_PDF.pdf"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://earlham.edu/about"
     }
   ],
   "verification": {
@@ -10537,15 +10634,15 @@ window.UNIPATH.universities.push(
       "testing policy",
       "English tests",
       "costs",
-      "aid for international students"
+      "aid for international students",
+      "application fee",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
-      "application fee",
       "academic year of the published costs"
     ]
   },
-  "lastVerified": "2026-10-01",
+  "lastVerified": "2026-10-04",
   "photos": {
     "main": null,
     "gallery": [],
@@ -10560,7 +10657,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Walla Walla",
   "region": "Washington",
-  "founded": null,
+  "founded": 1859,
   "type": "Private liberal arts college",
   "institutionKind": "liberal-arts",
   "degrees": [
@@ -10815,6 +10912,10 @@ window.UNIPATH.universities.push(
     {
       "label": "How much does Whitman cost",
       "url": "https://www.whitman.edu/admission-and-aid/financial-aid-and-costs/how-much-does-whitman-cost"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.whitman.edu/about"
     }
   ],
   "verification": {
@@ -10825,10 +10926,10 @@ window.UNIPATH.universities.push(
       "testing policy",
       "English tests",
       "costs",
-      "aid for international students"
+      "aid for international students",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
       "academic year of the published costs",
       "need-aware or need-blind for international applicants"
     ]
@@ -11124,7 +11225,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Worcester",
   "region": "Massachusetts",
-  "founded": null,
+  "founded": 1887,
   "type": "Private research university",
   "institutionKind": "private",
   "degrees": [
@@ -11135,7 +11236,7 @@ window.UNIPATH.universities.push(
     "c2": "#7a0a1c",
     "initials": "CU"
   },
-  "description": "A private research university in Worcester, Massachusetts. Each year a select number of international students receive merit scholarships and need-based grants, but Clark’s admission is need-aware: it says it will deny an application if the need shown is greater than it can meet.",
+  "description": "A private research university in Worcester, Massachusetts, with no application fee and optional SAT/ACT. Its Presidential Scholarship covers tuition, room and board for 3–5 students a year; other international students typically pay around $40,000 a year after aid, and admission is need-aware — Clark says it may deny an application if the need shown is greater than it can meet.",
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
@@ -11239,11 +11340,11 @@ window.UNIPATH.universities.push(
       }
     ],
     "applicationFee": {
-      "amount": null,
+      "amount": 0,
       "currency": "USD",
       "waiverAvailableToInternational": null,
       "waiver": null,
-      "note": "The application fee was not found on the pages read."
+      "note": "Clark states that there is no application fee."
     },
     "documents": [
       "Common Application or Coalition Application",
@@ -11260,30 +11361,42 @@ window.UNIPATH.universities.push(
   "english": {
     "ielts": {
       "min": null,
-      "recommended": null,
-      "note": "Accepted; Clark states no score and says it considers English proficiency holistically."
+      "recommended": 6.5,
+      "note": "Clark sets no fixed minimum; it gives 6.5 overall with no sub-score below 6 as a general indicator of the minimum proficiency, and says meeting it does not guarantee admission."
     },
     "toefl": {
       "min": null,
-      "recommended": null,
-      "note": "Accepted; no score is stated."
+      "recommended": 85,
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": null,
+          "recommended": 85
+        },
+        {
+          "period": "post2026",
+          "min": null,
+          "recommended": 4.5
+        }
+      ],
+      "note": "General indicator: 4.5 overall with no sub-score below 4 on the scale used from January 2026, or 85 overall with no sub-score below 20."
     },
     "duolingo": {
       "min": null,
-      "recommended": null,
-      "note": "Accepted; no score is stated."
+      "recommended": 120,
+      "note": "General indicator: 120 overall with no sub-score below 100."
     },
     "waiver": null,
-    "note": "An interview is strongly encouraged, especially for non-native speakers."
+    "note": "English proficiency is assessed holistically; PTE 61 is also listed. An interview is strongly encouraged, especially for non-native speakers."
   },
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": "unknown",
-      "note": "Clark’s SAT/ACT policy was not found on the pages read."
+      "policy": "optional",
+      "note": "SAT or ACT scores are optional for all students."
     },
     "act": {
-      "policy": "unknown",
+      "policy": "optional",
       "note": "Same as the SAT."
     },
     "otherTests": null,
@@ -11326,22 +11439,29 @@ window.UNIPATH.universities.push(
   },
   "scholarships": {
     "fullRide": {
-      "available": null,
-      "internationalEligible": null,
-      "basis": null,
+      "available": true,
+      "internationalEligible": true,
+      "basis": "merit (Presidential Scholarship)",
       "covers": {
-        "tuition": null,
-        "housing": null,
-        "meals": null,
+        "tuition": true,
+        "housing": true,
+        "meals": true,
         "insurance": null,
         "books": null
       },
       "renewable": null,
-      "competitiveness": "Need-aware: an application can be denied on financial grounds.",
-      "howToApply": "Complete the International Student Certification of Finances and Financial Assistance Application Form; Clark does not accept the ISFAA.",
-      "note": "Clark says its aid for international students does not necessarily cover the full cost of attendance, so no full-scholarship route is claimed."
+      "competitiveness": "Awarded to 3–5 students a year; finalists are invited to interview.",
+      "howToApply": "No separate application: all admitted students are considered on the strength of the admission application.",
+      "note": "Clark’s Presidential Scholarship covers tuition, room and board; recipients still pay about $12,000–$15,000 a year in other costs. For most international students Clark says aid may not cover everything — they typically pay around $40,000 a year — and admission is need-aware."
     },
     "merit": [
+      {
+        "name": "Presidential Scholarship",
+        "amount": "Tuition, room and board",
+        "internationalEligible": true,
+        "deadline": null,
+        "note": "Highly competitive; 3–5 students a year. Recipients are responsible for about $12,000–$15,000 a year in additional costs."
+      },
       {
         "name": "Merit scholarships",
         "amount": null,
@@ -11373,6 +11493,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Tuition and fees",
       "url": "https://www.clarku.edu/admission/tuition-and-fees/"
+    },
+    {
+      "label": "International students — apply",
+      "url": "https://www.clarku.edu/undergraduate-admissions/apply/international-students/"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.clarku.edu/about"
     }
   ],
   "verification": {
@@ -11381,17 +11509,19 @@ window.UNIPATH.universities.push(
       "deadlines",
       "accepted English tests",
       "costs",
-      "aid for international students"
+      "aid for international students",
+      "application fee",
+      "English indicators",
+      "testing policy",
+      "Presidential Scholarship",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
-      "application fee",
-      "SAT/ACT policy",
       "academic year of the published costs",
       "scholarship amounts"
     ]
   },
-  "lastVerified": "2026-10-01",
+  "lastVerified": "2026-10-04",
   "photos": {
     "main": null,
     "gallery": [],
@@ -11406,7 +11536,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Boston",
   "region": "Massachusetts",
-  "founded": null,
+  "founded": 1898,
   "type": "Private research university",
   "institutionKind": "private",
   "degrees": [
@@ -11680,6 +11810,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Student finance — international students",
       "url": "https://studentfinance.northeastern.edu/applying-for-aid/international/"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.northeastern.edu/about"
     }
   ],
   "verification": {
@@ -11690,10 +11824,10 @@ window.UNIPATH.universities.push(
       "testing policy",
       "English tests",
       "costs",
-      "aid for international students"
+      "aid for international students",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
       "academic year of the published costs"
     ]
   },
@@ -11712,7 +11846,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Philadelphia",
   "region": "Pennsylvania",
-  "founded": null,
+  "founded": 1891,
   "type": "Private research university",
   "institutionKind": "private",
   "degrees": [
@@ -11943,6 +12077,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Financial aid and affordability",
       "url": "https://drexel.edu/admissions/financial-aid-affordability/undergrad"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://drexel.edu/about"
     }
   ],
   "verification": {
@@ -11953,10 +12091,10 @@ window.UNIPATH.universities.push(
       "testing policy",
       "approved English tests",
       "costs",
-      "aid for international students"
+      "aid for international students",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
       "English test scores",
       "scholarship eligibility of international students"
     ]
@@ -11976,7 +12114,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Syracuse",
   "region": "New York",
-  "founded": null,
+  "founded": 1870,
   "type": "Private research university",
   "institutionKind": "private",
   "degrees": [
@@ -12114,21 +12252,33 @@ window.UNIPATH.universities.push(
   "english": {
     "ielts": {
       "min": null,
-      "recommended": null,
-      "note": "English proficiency must be shown; the accepted tests and scores were not found on the pages read."
+      "recommended": 6.5,
+      "note": "Preferred 6.5+ for most colleges; 7.0+ for the Whitman School of Management, the School of Architecture and the Newhouse School."
     },
     "toefl": {
       "min": null,
-      "recommended": null,
-      "note": "Not confirmed during this check."
+      "recommended": 85,
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": null,
+          "recommended": 85
+        },
+        {
+          "period": "post2026",
+          "min": null,
+          "recommended": 4.5
+        }
+      ],
+      "note": "Preferred 85+ (4.5 from 21 January 2026) for most colleges; 90+ (5) for Whitman and Architecture; 102+ (5) for Newhouse."
     },
     "duolingo": {
       "min": null,
-      "recommended": null,
-      "note": "Not confirmed during this check."
+      "recommended": 125,
+      "note": "Preferred 125+; 130+ for the Newhouse School."
     },
     "waiver": null,
-    "note": null
+    "note": "These are preferred scores, published by college. Only official scores are accepted; SAT Reading and Writing 600 or ACT English 27 are listed as alternatives."
   },
   "academics": {
     "gpa": null,
@@ -12237,6 +12387,14 @@ window.UNIPATH.universities.push(
     {
       "label": "International costs",
       "url": "https://www.syracuse.edu/admissions-aid/cost/international-costs/"
+    },
+    {
+      "label": "International undergraduate admission requirements",
+      "url": "https://www.syracuse.edu/admissions-aid/application-process/international/undergraduate/requirements/"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.syracuse.edu/about/facts-figures"
     }
   ],
   "verification": {
@@ -12246,16 +12404,16 @@ window.UNIPATH.universities.push(
       "application fee",
       "testing policy",
       "costs for international students",
-      "aid for international students"
+      "aid for international students",
+      "English tests",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
-      "English tests and scores",
       "academic year of the published costs",
       "merit scholarship amounts"
     ]
   },
-  "lastVerified": "2026-10-01",
+  "lastVerified": "2026-10-04",
   "photos": {
     "main": null,
     "gallery": [],
@@ -12270,7 +12428,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Los Angeles",
   "region": "California",
-  "founded": null,
+  "founded": 1911,
   "type": "Private Jesuit university",
   "institutionKind": "private",
   "degrees": [
@@ -12281,7 +12439,7 @@ window.UNIPATH.universities.push(
     "c2": "#0076A5",
     "initials": "LMU"
   },
-  "description": "A private Jesuit university in Los Angeles. LMU is test-optional and publishes four first-year rounds, but its pages for prospective students say nothing clear about institutional aid for international students, so nothing is claimed here.",
+  "description": "A private Jesuit university in Los Angeles. LMU is test-optional and publishes four first-year rounds. International students are considered automatically for academic scholarships of $2,000 to $30,000 a year, but LMU states that it offers them no need-based aid.",
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
@@ -12404,22 +12562,34 @@ window.UNIPATH.universities.push(
   },
   "english": {
     "ielts": {
-      "min": null,
+      "min": 6.5,
       "recommended": null,
-      "note": "Not confirmed during this check."
+      "note": "Minimum overall band for undergraduate admission."
     },
     "toefl": {
-      "min": null,
+      "min": 90,
       "recommended": null,
-      "note": "Not confirmed during this check."
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 90,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ],
+      "note": "90 for tests taken before 21 January 2026; 4.5 for tests taken after that date. Scores are due by the application deadline."
     },
     "duolingo": {
-      "min": null,
+      "min": 120,
       "recommended": null,
-      "note": "Not confirmed during this check."
+      "note": "Minimum for undergraduate admission."
     },
-    "waiver": null,
-    "note": null
+    "waiver": "A US college English Composition course with a grade of C or better is accepted instead; online courses are not.",
+    "note": "PTE Academic 56 is also accepted."
   },
   "academics": {
     "gpa": null,
@@ -12436,48 +12606,75 @@ window.UNIPATH.universities.push(
   },
   "costs": {
     "breakdown": {
-      "published": false
+      "tuition": 68939,
+      "budget": 99289,
+      "includes": "tuition and mandatory fees, average housing and food, books, personal expenses, parking and transportation, and federal loan fees"
     },
     "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
-    "totalText": null,
-    "note": "LMU publishes a 2026–2027 cost-of-attendance estimate on its financial aid site; the figures were not readable during this check."
+    "headline": "$68,939 tuition and fees · $99,289 estimated total on campus",
+    "items": [
+      {
+        "label": "Tuition and fees",
+        "amount": 68939
+      },
+      {
+        "label": "Average housing and food (on campus)",
+        "amount": 23602
+      },
+      {
+        "label": "Books and supplies",
+        "amount": 1305
+      },
+      {
+        "label": "Personal and miscellaneous",
+        "amount": 3969
+      },
+      {
+        "label": "Parking and transportation",
+        "amount": 1386
+      },
+      {
+        "label": "Federal loan fees",
+        "amount": 88
+      }
+    ],
+    "totalText": "$99,289 estimated total cost, living on campus",
+    "note": "LMU’s 2026–2027 cost-of-attendance estimate for full-time undergraduates; apart from tuition and fees the figures are allowances, not bills."
   },
   "scholarships": {
     "fullRide": {
-      "available": null,
-      "internationalEligible": null,
+      "available": false,
+      "internationalEligible": false,
       "basis": null,
       "covers": {
-        "tuition": null,
-        "housing": null,
-        "meals": null,
-        "insurance": null,
-        "books": null
+        "tuition": false,
+        "housing": false,
+        "meals": false,
+        "insurance": false,
+        "books": false
       },
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": "Aid for international students was not confirmed on the pages read, so nothing is claimed."
+      "note": "LMU states that it does not offer need-based financial aid to international students; its academic scholarships range from $2,000 to $30,000 a year."
     },
     "merit": [
       {
-        "name": "Merit scholarships",
-        "amount": null,
-        "internationalEligible": null,
+        "name": "Academic scholarships",
+        "amount": "$2,000–$30,000 a year",
+        "internationalEligible": true,
         "deadline": null,
-        "note": "Selection is based on academic accomplishment; eligibility of international students was not confirmed."
+        "note": "All first-year applicants are considered automatically."
       }
     ],
     "needBased": {
-      "availableToInternational": null,
-      "meetsFullNeed": null,
+      "availableToInternational": false,
+      "meetsFullNeed": false,
       "needBlindInternational": null,
       "forms": [],
       "deadlines": null,
-      "note": "Not confirmed for international students. The published aid deadlines refer to the FAFSA or California Dream Act Application."
+      "note": "LMU does not offer need-based financial aid to international students."
     }
   },
   "sources": [
@@ -12492,6 +12689,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Cost of attendance",
       "url": "https://financialaid.lmu.edu/prospectivestudents/costofattendance/"
+    },
+    {
+      "label": "International first-year applicants — FAQ",
+      "url": "https://international.lmu.edu/faq/first-year/"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.lmu.edu/about/facts-figures"
     }
   ],
   "verification": {
@@ -12499,16 +12704,15 @@ window.UNIPATH.universities.push(
     "checked": [
       "deadlines",
       "application fee",
-      "testing policy"
+      "testing policy",
+      "English tests",
+      "costs",
+      "aid for international students",
+      "founding year"
     ],
-    "unconfirmed": [
-      "founding year",
-      "English tests and scores",
-      "tuition and costs",
-      "aid for international students"
-    ]
+    "unconfirmed": []
   },
-  "lastVerified": "2026-10-01",
+  "lastVerified": "2026-10-04",
   "photos": {
     "main": null,
     "gallery": [],
@@ -12523,7 +12727,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Fort Worth",
   "region": "Texas",
-  "founded": null,
+  "founded": 1873,
   "type": "Private research university",
   "institutionKind": "private",
   "degrees": [
@@ -12678,12 +12882,12 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": null,
       "recommended": null,
-      "note": "English proficiency is required of international applicants; the accepted scores were not found on the pages read."
+      "note": "TCU states TOEFL 80 or IELTS 6.5 for international transfer applicants; a figure for first-year applicants was not found on the pages read."
     },
     "toefl": {
       "min": null,
       "recommended": null,
-      "note": "Not confirmed during this check."
+      "note": "TCU states TOEFL 80 or IELTS 6.5 for international transfer applicants; a figure for first-year applicants was not found on the pages read."
     },
     "duolingo": {
       "min": null,
@@ -12795,6 +12999,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Cost estimate",
       "url": "https://admissions.tcu.edu/afford/cost-estimate.php"
+    },
+    {
+      "label": "Transfer requirements (international)",
+      "url": "https://admissions.tcu.edu/apply/transfer/requirements.php"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.tcu.edu/about/"
     }
   ],
   "verification": {
@@ -12804,16 +13016,16 @@ window.UNIPATH.universities.push(
       "application fee",
       "testing policy",
       "costs",
-      "aid for international students"
+      "aid for international students",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
       "English tests and scores",
       "academic year of the published costs",
       "scholarship amounts"
     ]
   },
-  "lastVerified": "2026-10-01",
+  "lastVerified": "2026-10-04",
   "photos": {
     "main": null,
     "gallery": [],
@@ -12828,7 +13040,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Malibu",
   "region": "California",
-  "founded": null,
+  "founded": 1937,
   "type": "Private Christian university",
   "institutionKind": "private",
   "degrees": [
@@ -12839,7 +13051,7 @@ window.UNIPATH.universities.push(
     "c2": "#C25700",
     "initials": "PU"
   },
-  "description": "A private Christian university in Malibu, California; undergraduates study at Seaver College. Pepperdine offers scholarships to international students, including the very competitive Regents Scholars awards, plus a loan option that needs an American co-signer; it does not describe need-based grants for them.",
+  "description": "A private Christian university in Malibu, California; undergraduates study at Seaver College. Pepperdine offers scholarships to international students, including the very competitive Regents Scholars awards, plus a loan option that needs an American co-signer; it does not describe need-based grants for them. It publishes four first-year rounds, two of them binding.",
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
@@ -12887,36 +13099,68 @@ window.UNIPATH.universities.push(
         "kind": "EA",
         "entryTerm": "Autumn",
         "entryYear": "2027",
-        "date": "1 November (stated for the Fall 2025 term)",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
         "binding": false,
         "appliesTo": "First-year applicants",
-        "conditions": "Not binding; decision by 10 January. Pepperdine says Early Action and Regular Decision applicants get the same consideration for admission and financial assistance.",
-        "status": "previous-cycle",
-        "source": "https://www.pepperdine.edu/international-students/faq/faq-apply.htm",
-        "verified": "2026-10-01",
-        "note": "Pepperdine’s FAQ still describes the Fall 2025 term; the dates for 2027 entry were not confirmed."
+        "conditions": "Not binding. Decisions sent 21 December; enrolment deadline 1 May.",
+        "status": "confirmed",
+        "source": "https://admission.pepperdine.edu/apply/deadlines/",
+        "verified": "2026-10-04",
+        "note": "Pepperdine lists the dates without a year on its current deadlines page. Only first-year applicants may use the early plans."
+      },
+      {
+        "name": "Early Decision I",
+        "kind": "ED",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Decisions sent 21 December; enrolment deadline 1 February. Students admitted through Early Decision are guaranteed at least $25,000 in merit aid.",
+        "status": "confirmed",
+        "source": "https://admission.pepperdine.edu/apply/deadlines/",
+        "verified": "2026-10-04",
+        "note": null
+      },
+      {
+        "name": "Early Decision II",
+        "kind": "ED2",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Decisions sent 1 February; enrolment deadline 1 March.",
+        "status": "confirmed",
+        "source": "https://admission.pepperdine.edu/apply/deadlines/",
+        "verified": "2026-10-04",
+        "note": null
       },
       {
         "name": "Regular Decision",
         "kind": "RD",
         "entryTerm": "Autumn",
         "entryYear": "2027",
-        "date": "15 January (stated for the Fall 2025 term)",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
         "binding": false,
         "appliesTo": "First-year applicants",
-        "conditions": "Decision by 1 April; enrolment deadline 1 May.",
-        "status": "previous-cycle",
-        "source": "https://www.pepperdine.edu/international-students/faq/faq-apply.htm",
-        "verified": "2026-10-01",
-        "note": "Not confirmed for 2027 entry."
+        "conditions": "Decisions sent 19 March; enrolment deadline 1 May.",
+        "status": "confirmed",
+        "source": "https://admission.pepperdine.edu/apply/deadlines/",
+        "verified": "2026-10-04",
+        "note": null
       }
     ],
     "applicationFee": {
-      "amount": null,
+      "amount": 70,
       "currency": "USD",
       "waiverAvailableToInternational": null,
       "waiver": null,
-      "note": "The application fee was not found on the pages read."
+      "note": "Non-refundable; paid with the Common Application."
     },
     "documents": [
       "Common Application",
@@ -12930,22 +13174,22 @@ window.UNIPATH.universities.push(
   },
   "english": {
     "ielts": {
-      "min": null,
+      "min": 6.5,
       "recommended": null,
-      "note": "Proof of English proficiency is required; accepted tests are listed on Pepperdine’s application steps page, which was not read."
+      "note": "Overall 6.5 and above; IELTS Indicator is accepted."
     },
     "toefl": {
-      "min": null,
+      "min": 85,
       "recommended": null,
-      "note": "TOEFL is one accepted way to show proficiency. Pepperdine reports a middle 50% of 101–110 for admitted students, which is a statistic, not a requirement."
+      "note": "TOEFL iBT or Home Edition 85 and above; MyBest scores are not accepted. The page does not give a score on the scale used from January 2026. Pepperdine also reports a middle 50% of 101–110 for admitted students, which is a statistic, not a requirement."
     },
     "duolingo": {
-      "min": null,
+      "min": 120,
       "recommended": null,
-      "note": "Not confirmed during this check."
+      "note": "120 and above."
     },
     "waiver": null,
-    "note": null
+    "note": "SAT Reading and Writing 600, ACT Reading 24, Cambridge C1 Advanced or C2 Proficiency 186 and LanguageCert Academic 70 are also accepted. InitialView or Vericant interviews are optional supplements."
   },
   "academics": {
     "gpa": null,
@@ -13027,6 +13271,13 @@ window.UNIPATH.universities.push(
     },
     "merit": [
       {
+        "name": "Early Decision merit guarantee",
+        "amount": "At least $25,000",
+        "internationalEligible": null,
+        "deadline": "1 November (Early Decision I) or 15 January (Early Decision II)",
+        "note": "Pepperdine states that students admitted for Early Decision are guaranteed at least $25,000 in merit aid; whether this applies to international students is not stated."
+      },
+      {
         "name": "Regents Scholars awards",
         "amount": null,
         "internationalEligible": true,
@@ -13051,6 +13302,18 @@ window.UNIPATH.universities.push(
     {
       "label": "Cost of attendance for international students — Seaver College",
       "url": "https://www.pepperdine.edu/international-students/cost-of-attendance/seaver-college.htm"
+    },
+    {
+      "label": "Application deadlines",
+      "url": "https://admission.pepperdine.edu/apply/deadlines/"
+    },
+    {
+      "label": "International first-year applicants",
+      "url": "https://www.pepperdine.edu/international-students/future-students/undergraduate/firstyear.htm"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.pepperdine.edu/about/our-story/history/"
     }
   ],
   "verification": {
@@ -13058,17 +13321,17 @@ window.UNIPATH.universities.push(
     "checked": [
       "testing policy",
       "costs",
-      "scholarships named for international students"
+      "scholarships named for international students",
+      "deadlines",
+      "application fee",
+      "English tests",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
-      "deadlines for 2027 entry",
-      "application fee",
-      "English tests and scores",
       "need-based aid for international students"
     ]
   },
-  "lastVerified": "2026-10-01",
+  "lastVerified": "2026-10-04",
   "photos": {
     "main": null,
     "gallery": [],
@@ -13083,7 +13346,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Colorado Springs",
   "region": "Colorado",
-  "founded": null,
+  "founded": 1874,
   "type": "Private liberal arts college",
   "institutionKind": "liberal-arts",
   "degrees": [
@@ -13332,6 +13595,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Cost of attendance",
       "url": "https://www.coloradocollege.edu/offices/sfs/handbook/cost-of-attendance.html"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.coloradocollege.edu/basics/welcome/history/"
     }
   ],
   "verification": {
@@ -13342,10 +13609,10 @@ window.UNIPATH.universities.push(
       "testing policy",
       "English tests",
       "costs",
-      "aid for international students"
+      "aid for international students",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
       "academic year of the published costs",
       "share of need met for the students it funds"
     ]
@@ -13365,7 +13632,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "San Antonio",
   "region": "Texas",
-  "founded": null,
+  "founded": 1869,
   "type": "Private liberal arts university",
   "institutionKind": "liberal-arts",
   "degrees": [
@@ -13624,6 +13891,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Guide for international applicants",
       "url": "https://www.trinity.edu/admissions-and-aid/guides-and-resources/guide-international-applicants"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.trinity.edu/about/history"
     }
   ],
   "verification": {
@@ -13633,10 +13904,10 @@ window.UNIPATH.universities.push(
       "testing policy",
       "English tests",
       "costs",
-      "aid for international students"
+      "aid for international students",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
       "application fee"
     ]
   },
@@ -13970,7 +14241,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Greenville",
   "region": "South Carolina",
-  "founded": null,
+  "founded": 1826,
   "type": "Private liberal arts university",
   "institutionKind": "liberal-arts",
   "degrees": [
@@ -14262,6 +14533,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Tuition and fees 2026–2027",
       "url": "https://www.furman.edu/admissions-aid/tuition-fees/"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.furman.edu/about/history"
     }
   ],
   "verification": {
@@ -14272,10 +14547,10 @@ window.UNIPATH.universities.push(
       "testing policy",
       "English tests",
       "costs",
-      "named international scholarship"
+      "named international scholarship",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
       "need-based aid for international students",
       "merit scholarship amounts"
     ]
@@ -14716,14 +14991,31 @@ window.UNIPATH.universities.push(
   },
   "costs": {
     "breakdown": {
-      "published": false
+      "tuition": 53472,
+      "billed": 77704,
+      "includes": "nonresident tuition, required fees and on-campus food and housing; books, transportation, personal expenses and health insurance are extra"
     },
-    "academicYear": null,
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
-    "totalText": null,
-    "note": "UC San Diego publishes 2026–27 tuition and fees; the nonresident figures were not readable during this check."
+    "headline": "$53,472 nonresident tuition · $77,704 with fees, food and housing",
+    "items": [
+      {
+        "label": "Tuition — nonresident, first-year undergraduates",
+        "amount": 53472
+      },
+      {
+        "label": "Required fees",
+        "amount": 3789
+      },
+      {
+        "label": "Food and housing (on campus)",
+        "amount": 20443
+      }
+    ],
+    "billedSubtotal": 77704,
+    "totalText": "$77,704 for tuition, required fees and on-campus food and housing",
+    "studentCategory": "Nonresident (international) students",
+    "note": "From section G1 of UC San Diego’s 2025–26 Common Data Set, which lists typical charges for the full 2026–2027 academic year. A tuition stability plan freezes tuition for each entering cohort."
   },
   "scholarships": {
     "fullRide": {
@@ -14768,6 +15060,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Cost and aid",
       "url": "https://admissions.ucsd.edu/why/cost-aid/index.html"
+    },
+    {
+      "label": "UC San Diego Common Data Set 2025–26 (section G1)",
+      "url": "https://ir.ucsd.edu/stats/undergrad/CDS-2025-2026-Final2.pdf"
     }
   ],
   "verification": {
@@ -14775,17 +15071,17 @@ window.UNIPATH.universities.push(
     "checked": [
       "deadlines",
       "testing policy",
-      "English tests"
+      "English tests",
+      "nonresident tuition and billed costs"
     ],
     "unconfirmed": [
       "founding year",
       "application fee",
-      "nonresident tuition and costs",
       "institutional aid for international students",
       "decision dates"
     ]
   },
-  "lastVerified": "2026-10-01",
+  "lastVerified": "2026-10-04",
   "photos": {
     "main": null,
     "gallery": [],
@@ -14800,7 +15096,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Charlottesville",
   "region": "Virginia",
-  "founded": null,
+  "founded": 1819,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -15044,6 +15340,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Estimated undergraduate cost of attendance 2026–2027",
       "url": "https://sfs.virginia.edu/financial-aid-new-applicants/financial-aid-basics/estimated-undergraduate-cost-attendance-2026-2027"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.virginia.edu/aboutuva"
     }
   ],
   "verification": {
@@ -15053,10 +15353,10 @@ window.UNIPATH.universities.push(
       "testing policy",
       "English tests accepted",
       "costs",
-      "aid for international students"
+      "aid for international students",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
       "application fee",
       "English score expectations"
     ]
@@ -15076,7 +15376,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Gainesville",
   "region": "Florida",
-  "founded": null,
+  "founded": 1853,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -15309,6 +15609,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Aid information for international students",
       "url": "https://www.sfa.ufl.edu/international/"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.ufl.edu/about"
     }
   ],
   "verification": {
@@ -15317,10 +15621,10 @@ window.UNIPATH.universities.push(
       "deadlines",
       "application fee",
       "testing policy",
-      "costs"
+      "costs",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
       "English tests and scores",
       "scholarships open to international students"
     ]
@@ -15340,7 +15644,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Tallahassee",
   "region": "Florida",
-  "founded": null,
+  "founded": 1851,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -15494,7 +15798,7 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": "accepted",
-      "note": "FSU’s application materials include self-reported ACT, CLT or SAT scores, and scores from the Common App are not accepted; the wording of the requirement for international applicants was not confirmed on the pages read."
+      "note": "FSU lists self-reported ACT, CLT or SAT scores among the materials of a complete application and says only students admitted with an associate degree are not required to submit them; a plain statement of the requirement for international applicants was not found on the pages read."
     },
     "act": {
       "policy": "accepted",
@@ -15604,6 +15908,10 @@ window.UNIPATH.universities.push(
     {
       "label": "First-year scholarships",
       "url": "https://admissions.fsu.edu/first-year/scholarships"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.fsu.edu/about"
     }
   ],
   "verification": {
@@ -15613,10 +15921,10 @@ window.UNIPATH.universities.push(
       "application fee",
       "English tests",
       "costs",
-      "scholarship named for international students"
+      "scholarship named for international students",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
       "wording of the SAT/ACT requirement for international applicants",
       "scholarship amounts"
     ]
@@ -15946,7 +16254,7 @@ window.UNIPATH.universities.push(
     "c2": "#000000",
     "initials": "PU"
   },
-  "description": "A public research university in West Lafayette, Indiana, known for engineering and computer science; applicants are admitted to a specific major. Purdue states that international undergraduate students are not eligible for financial aid, including its scholarships.",
+  "description": "A public research university in West Lafayette, Indiana, known for engineering and computer science; applicants are admitted to a specific major and must submit an SAT, ACT or CLT score. Purdue states that international undergraduate students are not eligible for financial aid, including its scholarships.",
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
@@ -16072,11 +16380,12 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": "accepted",
-      "note": "Purdue accepts SAT, ACT and CLT scores with no preference and lists them among its review factors “if provided”; whether a score is required was not confirmed on the pages read."
+      "policy": "required-alternatives",
+      "label": "SAT, ACT or CLT required",
+      "note": "Purdue’s 2025–26 Common Data Set (section C8) marks the SAT or ACT as required to be considered for admission; its admissions pages say it also accepts the CLT, with no preference between the tests."
     },
     "act": {
-      "policy": "accepted",
+      "policy": "required-alternatives",
       "note": "Same as the SAT."
     },
     "otherTests": null,
@@ -16161,6 +16470,10 @@ window.UNIPATH.universities.push(
     {
       "label": "First-year scholarships",
       "url": "https://admissions.purdue.edu/cost-financial-aid/scholarships/"
+    },
+    {
+      "label": "Purdue Common Data Set 2025–26 (section C8)",
+      "url": "https://www.purdue.edu/idata/products-services/common-data-set/"
     }
   ],
   "verification": {
@@ -16170,15 +16483,15 @@ window.UNIPATH.universities.push(
       "application fee",
       "English tests",
       "tuition",
-      "aid for international students"
+      "aid for international students",
+      "testing policy"
     ],
     "unconfirmed": [
       "founding year",
-      "whether SAT/ACT scores are required",
       "total annual budget for international students"
     ]
   },
-  "lastVerified": "2026-10-01",
+  "lastVerified": "2026-10-04",
   "photos": {
     "main": null,
     "gallery": [],
@@ -17103,7 +17416,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Santa Monica",
   "region": "California",
-  "founded": null,
+  "founded": 1929,
   "type": "Public community college",
   "institutionKind": "community-college",
   "degrees": [
@@ -17157,6 +17470,51 @@ window.UNIPATH.universities.push(
     ],
     "deadlines": [
       {
+        "name": "Winter 2027 session — out-of-country application deadline",
+        "kind": "application-window",
+        "entryTerm": "Winter",
+        "entryYear": "2027",
+        "dateISO": "2026-11-15",
+        "date": "15 November 2026",
+        "binding": false,
+        "appliesTo": "International (F-1) applicants from outside the United States",
+        "conditions": "For applicants outside the United States; students already holding an F-1 visa have until 1 December 2026.",
+        "status": "confirmed",
+        "source": "https://www.smc.edu/student-support/international-education/",
+        "verified": "2026-10-04",
+        "note": null
+      },
+      {
+        "name": "Spring 2027 semester — out-of-country application deadline",
+        "kind": "application-window",
+        "entryTerm": "Spring",
+        "entryYear": "2027",
+        "dateISO": "2027-01-05",
+        "date": "5 January 2027",
+        "binding": false,
+        "appliesTo": "International (F-1) applicants from outside the United States",
+        "conditions": "For applicants outside the United States; students already holding an F-1 visa have until 15 January 2027. Processing takes 4–6 weeks before the visa stage.",
+        "status": "confirmed",
+        "source": "https://www.smc.edu/student-support/international-education/",
+        "verified": "2026-10-04",
+        "note": null
+      },
+      {
+        "name": "Summer 2027 session — out-of-country application deadline",
+        "kind": "application-window",
+        "entryTerm": "Summer",
+        "entryYear": "2027",
+        "dateISO": "2027-05-15",
+        "date": "15 May 2027",
+        "binding": false,
+        "appliesTo": "International (F-1) applicants from outside the United States",
+        "conditions": "For applicants outside the United States; students already holding an F-1 visa have until 1 June 2027.",
+        "status": "confirmed",
+        "source": "https://www.smc.edu/student-support/international-education/",
+        "verified": "2026-10-04",
+        "note": null
+      },
+      {
         "name": "Fall semester — out-of-country application deadline",
         "kind": "application-window",
         "entryTerm": "Autumn",
@@ -17168,7 +17526,7 @@ window.UNIPATH.universities.push(
         "status": "previous-cycle",
         "source": "https://www.smc.edu/admission-aid/apply/international-students/index.php",
         "verified": "2026-10-01",
-        "note": "Deadlines for the Fall 2027 semester (30 August – 21 December 2027) were not yet published."
+        "note": "The deadline for the Fall 2027 semester (30 August – 21 December 2027) was not yet published."
       }
     ],
     "applicationFee": {
@@ -17325,6 +17683,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Degree and certificate options",
       "url": "https://www.smc.edu/student-support/international-education/counseling/degree-and-certificate-options-at-smc.php"
+    },
+    {
+      "label": "International Education Center — application deadlines",
+      "url": "https://www.smc.edu/student-support/international-education/"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.smc.edu/about/"
     }
   ],
   "verification": {
@@ -17333,15 +17699,16 @@ window.UNIPATH.universities.push(
       "application fee",
       "English tests",
       "costs",
-      "degrees"
+      "degrees",
+      "deadlines for winter, spring and summer 2027",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
-      "deadlines for 2027 terms",
+      "Fall 2027 deadline",
       "housing options"
     ]
   },
-  "lastVerified": "2026-10-01",
+  "lastVerified": "2026-10-04",
   "communityCollege": {
     "route": "Apply online with a bank statement, passport copy, transcripts, English proof and a 500-word essay. Students must be 18 at first attendance; 16–17-year-olds need a completed secondary education and a local guardian.",
     "housing": "Campus housing is not described on the pages read; SMC’s cost estimate assumes a homestay with two meals a day.",
@@ -17362,7 +17729,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Dayton",
   "region": "Ohio",
-  "founded": null,
+  "founded": 1887,
   "type": "Public community college",
   "institutionKind": "community-college",
   "degrees": [
@@ -17572,6 +17939,10 @@ window.UNIPATH.universities.push(
     {
       "label": "International student services",
       "url": "https://www.sinclair.edu/services/enrollment/international-student-services/"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.sinclair.edu/about/fast-facts"
     }
   ],
   "verification": {
@@ -17579,10 +17950,10 @@ window.UNIPATH.universities.push(
     "checked": [
       "deadlines for spring and summer 2027",
       "English tests",
-      "tuition rate"
+      "tuition rate",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
       "Fall 2027 deadline",
       "application fee",
       "scholarships for international students",

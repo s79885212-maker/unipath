@@ -2738,7 +2738,7 @@ window.UNIPATH.universities.push(
   "country": "de",
   "city": "Hamburg",
   "region": "Hamburg",
-  "founded": null,
+  "founded": 2010,
   "type": "Private university",
   "institutionKind": "private",
   "degrees": [
@@ -2855,22 +2855,34 @@ window.UNIPATH.universities.push(
   },
   "english": {
     "ielts": {
-      "min": null,
+      "min": 6.5,
       "recommended": null,
-      "note": "KLU asks for English at B2 level; accepted tests and scores are on a separate requirements page that was not read."
+      "note": "IELTS Academic or IELTS Online Academic, band 6.5; reports must be no more than two years old."
     },
     "toefl": {
-      "min": null,
+      "min": 90,
       "recommended": null,
-      "note": "KLU asks for English at B2 level; scores were not read."
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 90,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ],
+      "note": "Minimum 90 for exams before 21 January 2026; 4.5 from that date. MyBest scores are accepted (institution code 7373)."
     },
     "duolingo": {
       "min": null,
       "recommended": null,
-      "note": "Not confirmed during this check."
+      "note": "Not listed among the tests KLU accepts."
     },
-    "waiver": null,
-    "note": "English proficiency at B2 level is required."
+    "waiver": "Not needed with a school-leaving qualification taught in English, or for native speakers from the listed English-speaking countries.",
+    "note": "Pearson PTE Academic 61, Cambridge C1 Advanced (grade C) and Oxford ELLT 7 are also accepted. Scores can be submitted after applying."
   },
   "academics": {
     "gpa": null,
@@ -2963,6 +2975,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Scholarships and financial aid",
       "url": "https://www.klu.org/student-life/student-services/scholarships-financial-aid"
+    },
+    {
+      "label": "Undergraduate FAQ — English language requirements",
+      "url": "https://www.klu.org/programs/faq/faq-undergraduate"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.klu.org/about-klu"
     }
   ],
   "verification": {
@@ -2972,16 +2992,16 @@ window.UNIPATH.universities.push(
       "application deadlines",
       "application fee",
       "tuition",
-      "scholarship types"
+      "scholarship types",
+      "English tests",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
-      "English test scores",
       "scholarship deadline for 2027",
       "scholarship eligibility for non-EU applicants"
     ]
   },
-  "lastVerified": "2026-10-02",
+  "lastVerified": "2026-10-04",
   "photos": {
     "main": null,
     "gallery": [],

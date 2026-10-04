@@ -131,7 +131,7 @@ window.UNIPATH.match = {
     'university-of-strathclyde': { currency: 'GBP', basis: 'tuition', min: 23200, max: 23200, note: 'BA Economics example for 2027/28; each course is priced separately' },
     'technische-hochschule-ingolstadt': { currency: 'EUR', basis: 'tuition', min: 1600, max: 1600, note: 'Two semesters at €800 for students from outside the EU/EEA; the student union fee is extra' },
     'kuehne-logistics-university': { currency: 'EUR', basis: 'tuition', min: 15800, max: 17700, note: 'Two semesters; the higher figure is the intensive track' },
-    'dongseo-university': { currency: 'USD', basis: 'tuition', min: 5040, max: 6900, note: 'Two semesters at the published per-semester rates, by field; the $420 admission fee is extra' },
+    'dongseo-university': { currency: 'KRW', basis: 'tuition', min: 8333000, max: 8333000, note: 'First year for the English-track majors open to first-year applicants (engineering and arts fields): first semester plus one later semester' },
     /* United States — cost of attendance for 2026–27 */
     'harvard-university':      { currency: 'USD', basis: 'total', min: 95134, max: 100134 },
     'new-york-university':     { currency: 'USD', basis: 'total', min: 100998, max: 100998, note: 'College of Arts & Science estimate; tuition varies by school' },

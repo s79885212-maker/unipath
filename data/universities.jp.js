@@ -2473,7 +2473,7 @@ window.UNIPATH.universities.push(
   "country": "jp",
   "city": "Nisshin (Aichi)",
   "region": "Aichi",
-  "founded": null,
+  "founded": 1953,
   "type": "Private university",
   "institutionKind": "private",
   "degrees": [
@@ -2790,6 +2790,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Scholarships",
       "url": "https://www.nucba.ac.jp/en/scholarship/scholar.html"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.nucba.ac.jp/en/about"
     }
   ],
   "verification": {
@@ -2799,10 +2803,10 @@ window.UNIPATH.universities.push(
       "application stages for 2027",
       "English tests",
       "tuition for the 2027 intake",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
       "application fee",
       "living costs"
     ]

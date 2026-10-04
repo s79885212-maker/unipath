@@ -2317,7 +2317,7 @@ window.UNIPATH.universities.push(
   "country": "kr",
   "city": "Incheon (Songdo)",
   "region": "Incheon",
-  "founded": null,
+  "founded": 2012,
   "type": "Korean campus of a US public university",
   "institutionKind": "public",
   "degrees": [
@@ -2455,32 +2455,44 @@ window.UNIPATH.universities.push(
   },
   "english": {
     "ielts": {
-      "min": null,
+      "min": 6.5,
       "recommended": null,
-      "note": "An official English proficiency score is required; the minimum is in the application guidelines, which were not read."
+      "note": "Minimum score for Stony Brook University programmes."
     },
     "toefl": {
-      "min": null,
+      "min": 80,
       "recommended": null,
-      "note": "An official English proficiency score is required; the minimum was not read."
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 80,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4,
+          "recommended": null
+        }
+      ],
+      "note": "80 for exams taken before 21 January 2026; 4 for exams taken after that date (institution code 7499)."
     },
     "duolingo": {
-      "min": null,
+      "min": 105,
       "recommended": null,
-      "note": "Not confirmed during this check."
+      "note": "Minimum Duolingo English Test score."
     },
     "waiver": null,
-    "note": "Stony Brook University applicants without a qualifying score can be admitted provisionally and study at the Intensive English Center for at least one semester first."
+    "note": "PTE Academic 53, SAT Reading and Writing 480, ACT English 19, IB English HL 5 and A-level English C are also accepted. Scores must be reported officially by the application deadline; applicants without a qualifying score can be admitted provisionally through the Intensive English Center."
   },
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": "unknown",
-      "note": "The pages read list school transcripts, an English test, a personal statement and a recommendation; whether SAT or ACT scores are used was not confirmed."
+      "policy": "optional",
+      "note": "SUNY Korea says applicants are highly advised to submit SAT, ACT or other academic credentials; they are not listed as required."
     },
     "act": {
-      "policy": "not-applicable",
-      "note": "The US test-optional classification does not apply to this admission route."
+      "policy": "optional",
+      "note": "Same as the SAT."
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -2548,6 +2560,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Tuition",
       "url": "https://www.sunykorea.ac.kr/costaid/html/sub01/0101.html"
+    },
+    {
+      "label": "Application documents — Stony Brook University programmes",
+      "url": "https://www.sunykorea.ac.kr/adm/html/sub02/02010103.html"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.sunykorea.ac.kr/en/html/sub01/010201.html"
     }
   ],
   "verification": {
@@ -2556,11 +2576,12 @@ window.UNIPATH.universities.push(
       "language and majors",
       "application timeline for 2027",
       "application fee",
-      "listed tuition"
+      "listed tuition",
+      "English tests",
+      "SAT/ACT policy",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
-      "English test scores",
       "tuition period",
       "scholarships",
       "dormitory costs"
@@ -2581,7 +2602,7 @@ window.UNIPATH.universities.push(
   "country": "kr",
   "city": "Busan",
   "region": "Busan",
-  "founded": null,
+  "founded": 1992,
   "type": "Private university",
   "institutionKind": "private",
   "degrees": [
@@ -2592,20 +2613,19 @@ window.UNIPATH.universities.push(
     "c2": "#002a4d",
     "initials": "DSU"
   },
-  "description": "A private university in Busan. Its International College lists English-taught majors — global business administration, computer science, game development, animation, film and visual effects, and digital design. Dongseo says international students may receive merit- and need-based scholarships ranging from partial tuition up to full tuition with housing, assessed case by case.",
+  "description": "A private university in Busan. Its International College has English-track majors; for first-year applicants these are Computer Science and Film and Visual Effects, while the other English-track majors take transfer students only. Admission scholarships waive 20%–100% of the first semester’s tuition by English score, and later scholarships depend on grades.",
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "business",
     "computer-science",
-    "arts"
+    "arts",
+    "business"
   ],
   "englishTaughtPrograms": [
-    "business",
     "computer-science",
     "arts"
   ],
-  "programNote": "The majors marked “(ENG)” in the International College are English-based; most other programmes are taught in Korean and require TOPIK level 3.",
+  "programNote": "English tracks exist only where the guideline says so. For first-year applicants the English-track majors in the International College are Computer Science and Film and Visual Effects; Global Business Administration, Game Development and Digital Design are marked “transfer only”. Other programmes are taught in Korean.",
   "links": {
     "website": "https://uni.dongseo.ac.kr/eng/",
     "admissions": "https://uni.dongseo.ac.kr/eng/index.php?pCode=Admission",
@@ -2618,23 +2638,59 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [
-      "Dongseo University online application"
+      "JinhakApply (online application only)"
     ],
     "deadlines": [
       {
-        "name": "Spring semester — application deadline",
-        "kind": "application-window",
+        "name": "Spring 2027 — round 1",
+        "kind": "round-1",
         "entryTerm": "Spring",
         "entryYear": "2027",
-        "dateISO": "2026-11-30",
-        "date": "30 November 2026",
+        "dateISO": "2026-10-31",
+        "date": "1–31 October 2026",
+        "time": "18:00",
+        "timezone": "KST",
         "binding": false,
         "appliesTo": "International undergraduate applicants",
-        "conditions": "Dongseo published the guidelines for the 2027 spring semester on 28 September 2026; the exact dates are in that guideline.",
-        "status": "not-confirmed",
-        "source": "https://uni.dongseo.ac.kr/eng/index.php?pCode=HowtoApply",
+        "conditions": "Online application through JinhakApply and submission of documents 1–31 October 2026. Results announced 9 December 2026.",
+        "status": "confirmed",
+        "source": "https://uni.dongseo.ac.kr/eng/index.php?pCode=MN5000141&mode=view&idx=534",
         "verified": "2026-10-04",
-        "note": "The how-to-apply page gives the deadline as 30 November without a year."
+        "note": null
+      },
+      {
+        "name": "Spring 2027 — round 2",
+        "kind": "round-2",
+        "entryTerm": "Spring",
+        "entryYear": "2027",
+        "dateISO": "2027-01-03",
+        "date": "21 December 2026 – 3 January 2027",
+        "time": "18:00",
+        "timezone": "KST",
+        "binding": false,
+        "appliesTo": "International undergraduate applicants",
+        "conditions": "Online application through JinhakApply and submission of documents 21 December 2026 – 3 January 2027. Results announced 18 January 2027.",
+        "status": "confirmed",
+        "source": "https://uni.dongseo.ac.kr/eng/index.php?pCode=MN5000141&mode=view&idx=534",
+        "verified": "2026-10-04",
+        "note": null
+      },
+      {
+        "name": "Spring 2027 — round 3",
+        "kind": "round-3",
+        "entryTerm": "Spring",
+        "entryYear": "2027",
+        "dateISO": "2027-01-29",
+        "date": "25–29 January 2027",
+        "time": "18:00",
+        "timezone": "KST",
+        "binding": false,
+        "appliesTo": "International undergraduate applicants",
+        "conditions": "Online application through JinhakApply and submission of documents 25–29 January 2027. Results announced 12 February 2027.",
+        "status": "confirmed",
+        "source": "https://uni.dongseo.ac.kr/eng/index.php?pCode=MN5000141&mode=view&idx=534",
+        "verified": "2026-10-04",
+        "note": null
       },
       {
         "name": "Fall semester — application deadline",
@@ -2645,24 +2701,24 @@ window.UNIPATH.universities.push(
         "date": "31 May 2027",
         "binding": false,
         "appliesTo": "International undergraduate applicants",
-        "conditions": "The how-to-apply page gives 31 May for the fall semester; additional rounds were held for fall 2026.",
+        "conditions": "The how-to-apply page gives 31 May for the fall semester; the guideline for fall 2027 had not been issued.",
         "status": "not-confirmed",
         "source": "https://uni.dongseo.ac.kr/eng/index.php?pCode=HowtoApply",
         "verified": "2026-10-04",
-        "note": "Published as a recurring date without a year; the guideline for fall 2027 had not been issued."
+        "note": "Published as a recurring date without a year."
       }
     ],
     "applicationFee": {
-      "amount": 60,
-      "currency": "USD",
+      "amount": 60000,
+      "currency": "KRW",
       "waiverAvailableToInternational": null,
-      "waiver": null,
-      "note": "Application fee for undergraduate programmes."
+      "waiver": "Waived only for admissions under agreements with overseas universities and institutions",
+      "note": "Online payment only; ₩60,000 for bachelor’s applicants."
     },
     "documents": [
       "Application forms: personal and academic information, personal statement, teacher evaluation, financial affidavit, study plan, medical report",
       "Certificate and transcript of the highest level of education (apostilled or verified by a Korean embassy)",
-      "Bank balance certificate showing more than US$18,000",
+      "Bank balance certificate showing ₩16,000,000 or more, issued within 30 days",
       "Copy of passport",
       "English certificate for English-based programmes"
     ],
@@ -2675,12 +2731,11 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": 5.5,
       "recommended": null,
-      "note": "For English-based programmes."
+      "note": "For English-track programmes; also required for graduation."
     },
     "toefl": {
       "min": 59,
       "recommended": null,
-      "note": "The eligibility page states TOEFL iBT 59; the document list states 3.5 on the current scale (50 on the previous scale). The stricter figure is shown here.",
       "scales": [
         {
           "period": "pre2026",
@@ -2692,15 +2747,16 @@ window.UNIPATH.universities.push(
           "min": 3.5,
           "recommended": null
         }
-      ]
+      ],
+      "note": "TOEFL iBT 3.5, or 59 on the previous scale."
     },
     "duolingo": {
       "min": null,
       "recommended": null,
       "note": "Not confirmed during this check."
     },
-    "waiver": null,
-    "note": "CEFR B2 or NEW TEPS 202 are also accepted. Korean-based programmes require TOPIK level 3 instead."
+    "waiver": "Citizens of countries where English is the native or official language may be exempt with proof of secondary or higher education in English.",
+    "note": "CEFR B2 or NEW TEPS 202 are also accepted. Korean-track programmes require TOPIK instead."
   },
   "academics": {
     "gpa": null,
@@ -2717,69 +2773,97 @@ window.UNIPATH.universities.push(
   },
   "costs": {
     "breakdown": {
-      "tuition": 2520,
+      "tuition": 4223000,
       "period": "semester",
-      "tuitionText": "$2,520 (humanities and social sciences) or $3,450 (engineering and design)",
-      "includes": "tuition only; the $420 admission fee, dormitory and living costs are extra",
+      "tuitionText": "₩4,223,000 in the first semester for engineering, arts and media (₩4,110,000 afterwards); ₩3,120,000 for humanities and social sciences (₩3,007,000 afterwards)",
+      "includes": "tuition only; the dormitory (₩600,000–₩850,000 a semester), insurance and living costs are extra",
       "published": true
     },
-    "academicYear": "Current",
-    "currency": "USD",
-    "headline": "$2,520–$3,450 tuition per semester, plus a $420 admission fee",
+    "academicYear": "2027",
+    "currency": "KRW",
+    "headline": "₩3,120,000–₩4,223,000 tuition in the first semester",
     "items": [
       {
-        "label": "Tuition per semester — humanities, social sciences, health administration",
-        "amount": 2520
+        "label": "Tuition, first semester — engineering, arts, media",
+        "amount": 4223000
       },
       {
-        "label": "Tuition per semester — engineering, design, visual communication, health sciences",
-        "amount": 3450
+        "label": "Tuition, later semesters — engineering, arts, media",
+        "amount": 4110000
       },
       {
-        "label": "Admission fee (one-time)",
-        "amount": 420
+        "label": "Tuition, first semester — humanities and social sciences",
+        "amount": 3120000
+      },
+      {
+        "label": "Tuition, later semesters — humanities and social sciences",
+        "amount": 3007000
+      },
+      {
+        "label": "Dormitory per semester (16 weeks), by room type",
+        "text": "₩600,000–₩850,000"
       }
     ],
     "billedSubtotal": null,
-    "totalText": "$2,940–$3,870 for the first semester including the admission fee; housing and living costs are extra",
-    "note": "Dongseo publishes these figures in US dollars without stating the academic year."
+    "totalText": "About ₩8,333,000 in tuition in the first year for engineering and arts majors, before any scholarship",
+    "note": "From the guideline for the 2027 spring semester. The English-track majors open to first-year applicants are in the engineering and arts fields.",
+    "source": "https://uni.dongseo.ac.kr/eng/index.php?pCode=MN5000141&mode=view&idx=534",
+    "verified": "2026-10-04"
   },
   "scholarships": {
     "fullRide": {
       "available": false,
       "internationalEligible": true,
-      "basis": "merit and need",
+      "basis": "merit",
       "covers": {
-        "tuition": true,
-        "housing": true,
-        "meals": null,
-        "insurance": null,
-        "books": null
+        "tuition": false,
+        "housing": false,
+        "meals": false,
+        "insurance": false,
+        "books": false
       },
       "renewable": null,
-      "competitiveness": "Assessed case by case; the number of full awards is not stated.",
+      "competitiveness": null,
       "howToApply": null,
-      "note": "Dongseo says scholarships for international students range from full tuition with housing to partial tuition awards of 100%, 50%, 40% or 30%. Meals and other living costs are not mentioned."
+      "note": "The admission scholarship waives 20%–100% of tuition for the first semester only and provides a dormitory place for one to four semesters; from the second semester a GPA-based scholarship covers 20%–70% of tuition. It is not full funding."
     },
     "merit": [
       {
-        "name": "Scholarships for international students",
-        "amount": "Full tuition with housing, or 100%, 50%, 40% or 30% of tuition",
+        "name": "International Student Admission Scholarship (English track)",
+        "amount": "100%, 60%, 30% or 20% of first-semester tuition",
+        "internationalEligible": true,
+        "deadline": "With the application",
+        "note": "By English score: IELTS 7.5 (100%), 7.0 (60%), 6.5 (30%), 5.5 (20%), with TOEFL equivalents. First semester only."
+      },
+      {
+        "name": "Living Allowance Scholarship",
+        "amount": "Dormitory place for 4, 2 or 1 semesters",
         "internationalEligible": true,
         "deadline": null,
-        "note": "Based on merit and need; assessed case by case."
+        "note": "Tied to the admission scholarship grade (S, A, or B and C); vacation periods are excluded."
+      },
+      {
+        "name": "International Merit Scholarship",
+        "amount": "70%, 50% or 20% of tuition",
+        "internationalEligible": true,
+        "deadline": null,
+        "note": "From the second semester, awarded automatically: top 10% of GPA, top 25%, or a GPA of 2.5 or above, with at least 15 credits a semester."
       }
     ],
     "needBased": {
-      "availableToInternational": true,
-      "meetsFullNeed": null,
+      "availableToInternational": null,
+      "meetsFullNeed": false,
       "needBlindInternational": null,
       "forms": [],
       "deadlines": null,
-      "note": "Need is considered together with merit; no separate need-based application is described."
+      "note": "The 2027 guideline describes score- and GPA-based scholarships only."
     }
   },
   "sources": [
+    {
+      "label": "Guidelines for international admission, 2027 spring semester (PDF)",
+      "url": "https://uni.dongseo.ac.kr/eng/index.php?pCode=MN5000141&mode=view&idx=534"
+    },
     {
       "label": "Undergraduate eligibility",
       "url": "https://uni.dongseo.ac.kr/eng/index.php?pCode=Eligibility"
@@ -2795,22 +2879,27 @@ window.UNIPATH.universities.push(
     {
       "label": "Admission guidelines",
       "url": "https://uni.dongseo.ac.kr/eng/index.php?pCode=MN5000141"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://uni.dongseo.ac.kr/eng/index.php?pCode=History"
     }
   ],
   "verification": {
     "level": "partial",
     "checked": [
-      "English-based majors",
-      "eligibility",
+      "English-track majors for first-year applicants",
+      "rounds for spring 2027",
       "application fee",
+      "English requirement",
       "tuition",
-      "scholarship range"
+      "scholarships",
+      "dormitory rates",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
-      "exact dates in the 2027 guideline",
-      "academic year of the tuition figures",
-      "dormitory costs"
+      "fall 2027 rounds",
+      "Duolingo acceptance"
     ]
   },
   "lastVerified": "2026-10-04",

@@ -768,6 +768,424 @@
     }
   };
 
+  /* ---- October 2026 expansion: SAT/ACT statistics from official Common Data Sets (section C9: enrolled first-years who submitted scores) ---- */
+
+  P['union-college'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Union College Common Data Set 2025–26 (section C9)', url: 'https://www.union.edu/sites/default/files/institutional-research/202603/25-26common-data-set-pdf-website-wo-tuition_0.pdf' },
+      official: {
+        sat: { composite: [1320, 1390, 1470], rw: [660, 700, 730], math: [660, 690, 740], submitted: '33%', cohort: 'enrolled', submittersOnly: true },
+        act: [30, 31, 34]
+      }
+    }
+  };
+
+  P['skidmore-college'] = {
+    stats: {
+      term: 'Entering class reported in the 2025–26 CDS',
+      source: { label: 'Skidmore College Common Data Set 2025–26 (section C9)', url: 'https://www.skidmore.edu/ir/facts/common/cds-2025-26.pdf' },
+      official: {
+        sat: { composite: [1360, 1400, 1460], rw: [690, 720, 740], math: [650, 690, 730], mean: 1402, submitted: '25%', cohort: 'enrolled', submittersOnly: true },
+        act: [31, 33, 34]
+      }
+    }
+  };
+
+  P['trinity-college-hartford'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Trinity College Common Data Set 2025–26 (section C9)', url: 'https://www.trincoll.edu/asic/wp-content/uploads/sites/125/2026/06/CDS-2025-2026-Trinity-College.pdf' },
+      official: {
+        sat: { composite: [1350, 1390, 1460], rw: [670, 710, 740], math: [660, 690, 730], submitted: '9%', cohort: 'enrolled', submittersOnly: true },
+        act: [30.5, 32, 32.5]
+      }
+    }
+  };
+
+  P['connecticut-college'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Connecticut College Common Data Set 2025–26 (section C9)', url: 'https://www.conncoll.edu/media/Common-Data-Set-2025-26.pdf' },
+      official: {
+        sat: { composite: [1160, 1280, 1370], rw: [610, 660, 710], math: [550, 610, 670], submitted: '52%', cohort: 'enrolled', submittersOnly: true },
+        act: [26, 29, 32]
+      }
+    }
+  };
+
+  P['dickinson-college'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Dickinson College Common Data Set 2025–26 (section C9)', url: 'https://www.dickinson.edu/download/downloads/id/17199/cds_2025-2026.pdf' },
+      official: {
+        sat: { composite: [1340, 1380, 1440], rw: [680, 710, 730], math: [660, 680, 710], submitted: '13%', cohort: 'enrolled', submittersOnly: true },
+        act: [29, 31, 32]
+      }
+    }
+  };
+
+  P['gettysburg-college'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Gettysburg College Common Data Set 2025–26 (section C9)', url: 'https://www.gettysburg.edu/offices/institutional-research/pdfs/2026/CDS_2025-2026.pdf' },
+      official: {
+        sat: { rw: [640, 670, 710], math: [590, null, 730], submitted: '23%', cohort: 'enrolled', submittersOnly: true, note: 'Gettysburg leaves the SAT composite blank, and the median Math score is misprinted in the document (“65”), so it is not shown.' },
+        act: [27, 30, 32]
+      }
+    }
+  };
+
+  P['bucknell-university'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Bucknell University Common Data Set 2025–26 (section C9)', url: 'https://www.bucknell.edu/sites/default/files/institutional-research/common_data_set_2025-26.pdf' },
+      official: {
+        sat: { composite: [1170, 1270, 1360], rw: [590, 640, 690], math: [570, 630, 680], submitted: '68%', cohort: 'enrolled', submittersOnly: true, note: 'The page header of Bucknell’s file still reads “2024-2025”, but the file is published as the 2025–26 Common Data Set and section C9 refers to Fall 2025.' },
+        act: [25, 29, 32]
+      }
+    }
+  };
+
+  P['college-of-the-holy-cross'] = {
+    stats: {
+      term: 'Fall 2023 entering class',
+      source: { label: 'College of the Holy Cross Common Data Set 2023–24 (section C9)', url: 'https://holycross.edu/media/2068' },
+      official: {
+        sat: { composite: [1270, 1340, 1420], rw: [630, 680, 720], math: [620, 660, 700], submitted: '35%', cohort: 'enrolled', submittersOnly: true, note: 'The most recent Common Data Set Holy Cross has published is 2023–24.' },
+        act: [28, 30, 32]
+      }
+    }
+  };
+
+  P['furman-university'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Furman University Common Data Set 2025–26 (section C9)', url: 'https://www.furman.edu/offices-services/institutional-research/wp-content/uploads/sites/166/2026/06/CDS-PDF-2025-2026.pdf' },
+      official: {
+        sat: { composite: [1280, 1350, 1410], rw: [650, 690, 730], math: [620, 660, 700], submitted: '25%', cohort: 'enrolled', submittersOnly: true },
+        act: [29, 31, 33]
+      }
+    }
+  };
+
+  P['sewanee-university-of-the-south'] = {
+    stats: {
+      term: 'Fall 2023 entering class',
+      source: { label: 'The University of the South Common Data Set 2023–24 (section C9)', url: 'https://new.sewanee.edu/files/resources/sewanee-cds-2023-2024.pdf' },
+      official: {
+        sat: { composite: [1230, 1290, 1357.5], rw: [620, 650, 700], math: [590, 640, 680], submitted: '21%', cohort: 'enrolled', submittersOnly: true, note: 'The most recent Common Data Set Sewanee has published is 2023–24.' },
+        act: [27, 29, 31]
+      }
+    }
+  };
+
+  P['rhodes-college'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Rhodes College Common Data Set 2025–26 (section C9)', url: 'https://www.rhodes.edu/sites/default/files/2026-05/CDS_2025-26_(New_Update).xlsx' },
+      official: {
+        sat: { composite: [1360, 1420, 1470], rw: [670, 710, 737.5], math: [660, 715, 767.5], submitted: '20%', cohort: 'enrolled', submittersOnly: true },
+        act: [28, 30, 32]
+      }
+    }
+  };
+
+  P['centre-college'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Centre College Common Data Set 2025–26 (section C9)', url: 'https://www.centre.edu/documents/2025-2026-common-data' },
+      official: {
+        sat: { composite: [1203, 1285, 1410], rw: [608, 660, 698], math: [580, 625, 735], submitted: '7%', cohort: 'enrolled', submittersOnly: true },
+        act: [26, 28, 31]
+      }
+    }
+  };
+
+  P['college-of-wooster'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'The College of Wooster Common Data Set 2025–26 (section C9)', url: 'https://inside.wooster.edu/consumer-and-accreditation-information/common-data-sets/' },
+      official: {
+        sat: { composite: [1245, 1340, 1440], rw: [630, 690, 730], math: [590, 670, 720], submitted: '20%', cohort: 'enrolled', submittersOnly: true },
+        act: [27, 30, 32]
+      }
+    }
+  };
+
+  P['st-olaf-college'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'St. Olaf College Common Data Set 2025–26 (section C9)', url: 'https://wp.stolaf.edu/iea/files/2025/12/CDS-2025-26.xlsx-CDS-C.pdf' },
+      official: {
+        sat: { composite: [1320, 1380, 1440], rw: [670, 710, 740], math: [640, 670, 720], submitted: '13%', cohort: 'enrolled', submittersOnly: true },
+        act: [28, 30, 32]
+      }
+    }
+  };
+
+  P['knox-college'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Knox College Common Data Set 2025–26 (section C9)', url: 'https://www.knox.edu/documents/OIRA/FINAL%20CDS_2025-2026_PDF.pdf' },
+      official: {
+        sat: { composite: [1150, 1310, 1410], rw: [580, 640, 700], math: [540, 660, 740], submitted: '29%', cohort: 'enrolled', submittersOnly: true },
+        act: [26, 29, 31]
+      }
+    }
+  };
+
+  P['beloit-college'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Beloit College Common Data Set 2025–26 (section C9)', url: 'https://www.beloit.edu/live/files/1104-common-data-set-cds-2025-26' },
+      official: {
+        sat: { composite: [1110, 1320, 1400], rw: [570, 660, 740], math: [540, 660, 660], submitted: '2%', cohort: 'enrolled', submittersOnly: true, note: 'Only 5 enrolled students submitted SAT scores and 8 submitted ACT scores, so these ranges describe a very small group.' },
+        act: [26, 29, 31]
+      }
+    }
+  };
+
+  P['lawrence-university'] = {
+    stats: {
+      term: 'Fall 2024 entering class',
+      source: { label: 'Lawrence University Common Data Set 2024–25 (section C9)', url: 'https://inside.lawrence.edu/sites/default/files/2025-09/CDS%202024-2025.pdf' },
+      official: {
+        sat: { composite: [1240, 1340, 1420], rw: [610, 680, 710], math: [590, 670, 710], submitted: '21%', cohort: 'enrolled', submittersOnly: true, note: 'The most recent Common Data Set on Lawrence’s page is 2024–25.' },
+        act: [24, 29, 31]
+      }
+    }
+  };
+
+  P['earlham-college'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Earlham College Common Data Set 2025–26 (section C9)', url: 'https://earlham.edu/wp-content/uploads/2026/04/Earlham-College_CDS-2025-2026_PDF.pdf' },
+      official: {
+        sat: { composite: [1075, 1180, 1268], rw: [550, 645, 695], math: [532, 580, 638], submitted: '30%', cohort: 'enrolled', submittersOnly: true },
+        act: [24, 27, 30]
+      }
+    }
+  };
+
+  P['whitman-college'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Whitman College Common Data Set 2025–26 (section C9)', url: 'https://www.whitman.edu/documents/offices/institutional-research/2026/CDS-2025-26-Whitman-College-Final-V2.pdf' },
+      official: {
+        sat: { rw: [650, 700, 740], math: [660, 720, 770], submitted: '25%', cohort: 'enrolled', submittersOnly: true, note: 'The composite row in Whitman’s document is internally inconsistent (1190 / 1420 / 1415), so only the section scores are shown.' },
+        act: [29, 32, 33]
+      }
+    }
+  };
+
+  P['colorado-college'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Colorado College Common Data Set 2025–26 (section C9)', url: 'https://www.coloradocollege.edu/offices/ipe/documents/CDS-2025-2026_PDF_Final.pdf' },
+      official: {
+        sat: { composite: [1240, 1340, 1430], rw: [640, 680, 740], math: [610, 645, 700], submitted: '28%', cohort: 'enrolled', submittersOnly: true },
+        act: [28, 32, 34]
+      }
+    }
+  };
+
+  P['soka-university-of-america'] = {
+    stats: {
+      term: 'Entering class reported in the 2025–26 CDS',
+      source: { label: 'Soka University of America Common Data Set 2025–26 (section C9)', url: 'https://soka.box.com/s/mftw5w4m97uccmsolzra4wd4frs8acpf' },
+      official: {
+        sat: { composite: [1255, 1370, 1413], rw: [610, 650, 685], math: [615, 720, 763], submitted: '15%', cohort: 'enrolled', submittersOnly: true, note: 'Only 16 enrolled students submitted SAT scores and 5 submitted ACT scores, so these ranges describe a very small group.' },
+        act: [22, 23, 25]
+      }
+    }
+  };
+
+  P['drexel-university'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Drexel University Common Data Set 2025–26 (section C9)', url: 'https://drexel.edu/institutionalresearch/~/media/Drexel/Provost-Group/InstitutionalResearch/Documents/Factbook/CDS_2025-2026.pdf' },
+      official: {
+        sat: { composite: [1260, 1350, 1430], rw: [630, 670, 710], math: [630, 680, 730], submitted: '35%', cohort: 'enrolled', submittersOnly: true },
+        act: [28, 30, 33]
+      }
+    }
+  };
+
+  P['northeastern-university'] = {
+    stats: {
+      term: 'Fall 2024 entering class',
+      source: { label: 'Northeastern University Common Data Set 2024–25 (section C9)', url: 'https://uds.northeastern.edu/wp-content/uploads/2026/03/CDS-2024-25.pdf' },
+      official: {
+        sat: { composite: [1450, 1490, 1520], rw: [710, 730, 760], math: [730, 760, 780], submitted: '24%', cohort: 'enrolled', submittersOnly: true, note: 'The most recent Common Data Set on Northeastern’s page is 2024–25.' },
+        act: [33, 34, 35]
+      }
+    }
+  };
+
+  P['syracuse-university'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Syracuse University Common Data Set 2025–26 (section C9)', url: 'https://effectiveness.syr.edu/wp-content/uploads/2026/09/CDS_2025-26_Complete.pdf' },
+      official: {
+        sat: { composite: [1300, 1350, 1410], rw: [650, 690, 720], math: [640, 670, 710], submitted: '23%', cohort: 'enrolled', submittersOnly: true },
+        act: [29, 31, 33]
+      }
+    }
+  };
+
+  P['loyola-marymount-university'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Loyola Marymount University Common Data Set 2025–26 (section C9)', url: 'https://academics.lmu.edu/media/lmuacademics/strategicplanningacademiceffectiveness/officeofinstitutionalresearch/documents/CDS%202025-26_20260518.pdf' },
+      official: {
+        sat: { composite: [1265, 1350, 1410], rw: [640, 690, 720], math: [610, 660, 700], submitted: '20%', cohort: 'enrolled', submittersOnly: true },
+        act: [28, 30, 33]
+      }
+    }
+  };
+
+  P['texas-christian-university'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Texas Christian University Common Data Set 2025–26 (section C9)', url: 'https://ir.tcu.edu/wp-content/uploads/2026/03/CDS-2025-26-TCU.pdf' },
+      official: {
+        sat: { composite: [1110, 1240, 1330], rw: [560, 630, 680], math: [540, 620, 660], submitted: '27%', cohort: 'enrolled', submittersOnly: true },
+        act: [26, 30, 31]
+      }
+    }
+  };
+
+  P['clark-university'] = {
+    stats: {
+      term: 'Fall 2024 entering class',
+      source: { label: 'Clark University Common Data Set 2024–25 (section C9)', url: 'https://cdn.clarku.edu/stair/wp-content/uploads/sites/95/Clark-CDS-2024-25.pdf' },
+      official: {
+        sat: { composite: [1300, 1370, 1450], rw: [658, 700, 740], math: [630, 658, 720], submitted: '16%', cohort: 'enrolled', submittersOnly: true, note: 'The most recent Common Data Set found for Clark is 2024–25.' },
+        act: [30, 31, 33]
+      }
+    }
+  };
+
+  P['pepperdine-university'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Pepperdine University Common Data Set 2025–26 (section C9)', url: 'https://drive.google.com/file/d/1I8RahoDnYryjUHb0vGnjSUqx9dG5hM_W/view' },
+      official: {
+        sat: { composite: [1240, 1340, 1410], rw: [640, 680, 720], math: [600, 660, 710], submitted: '17%', cohort: 'enrolled', submittersOnly: true },
+        act: [28, 30, 32]
+      }
+    }
+  };
+
+  P['trinity-university'] = {
+    stats: {
+      term: 'Entering class reported in the 2025–26 CDS',
+      source: { label: 'Trinity University Common Data Set 2025–26 (section C9)', url: 'https://drive.google.com/file/d/1fr0Dv4n7kHxTzafo9dkIkRtnUv2lvciP/view' },
+      official: {
+        sat: { composite: [1330, 1400, 1460], rw: [670, 710, 740], math: [650, 690, 735], submitted: '39%', cohort: 'enrolled', submittersOnly: true, note: 'Trinity publishes the file as “CDS 2025” in its Common Data Sets folder; the year is not printed in the text of section C9.' },
+        act: [30, 31, 34]
+      }
+    }
+  };
+
+  P['university-of-virginia'] = {
+    stats: {
+      term: 'Fall 2023 entering class',
+      source: { label: 'University of Virginia Common Data Set 2023–24 (section C9)', url: 'https://ira.virginia.edu/sites/ira/files/2023-2024%20CDS_FINAL_508.pdf' },
+      official: {
+        sat: { composite: [1410, 1450, 1510], rw: [700, 730, 750], math: [710, 760, 780], submitted: '50%', cohort: 'enrolled', submittersOnly: true, note: 'UVA publishes its 2025–26 Common Data Set only as an interactive dashboard, which could not be opened during this check; these figures are from the 2023–24 document.' },
+        act: [32, 33, 34]
+      }
+    }
+  };
+
+  P['university-of-florida'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'University of Florida Common Data Set 2025–26 (section C9)', url: 'https://data-apps.ir.aa.ufl.edu/public/cds/CDS%202025-26_v8_08.14.2026.pdf' },
+      official: {
+        sat: { composite: [1330, 1410, 1490], rw: [670, 700, 740], math: [660, 710, 750], submitted: '78%', cohort: 'enrolled', submittersOnly: true },
+        act: [29, 32, 33]
+      }
+    }
+  };
+
+  P['michigan-state-university'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Michigan State University Common Data Set 2025–26 (section C9)', url: 'https://edge.sitecorecloud.io/michiganstab57e-msustrategi129d-prod9868-7e5e/media/project/msu/ir/docs/cds/cds-2025-2026.pdf' },
+      official: {
+        sat: { composite: [1100, 1210, 1310], rw: [550, 610, 660], math: [530, 600, 660], submitted: '51.5%', cohort: 'enrolled', submittersOnly: true },
+        act: [25, 28, 31]
+      }
+    }
+  };
+
+  P['purdue-university'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Purdue University (West Lafayette) Common Data Set 2025–26 (section C9)', url: 'https://www.purdue.edu/idata/wp-content/uploads/2026/04/CDS-2025-2026.xlsx' },
+      official: {
+        sat: { composite: [1220, 1360, 1470], rw: [610, 670, 730], math: [600, 680, 760], submitted: '84%', cohort: 'enrolled', submittersOnly: true },
+        act: [28, 32, 34]
+      }
+    }
+  };
+
+  P['ohio-state-university'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'The Ohio State University (Columbus campus) Common Data Set 2025–26 (section C9)', url: 'https://irp.osu.edu/sites/default/files/documents/2026/03/CDS-2025-2026-OSU-Columbus-Campus.pdf' },
+      official: {
+        sat: { composite: [1300, 1380, 1440], rw: [640, 680, 720], math: [650, 700, 740], submitted: '25%', cohort: 'enrolled', submittersOnly: true },
+        act: [27, 30, 32]
+      }
+    }
+  };
+
+  P['ucla'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'UCLA Common Data Set 2025–26 (section C9)', url: 'https://apb.ucla.edu/file/f8f5c864-93be-4b44-b646-7807a685749f' },
+      official: {
+        satNotPublished: 'UCLA does not use SAT or ACT scores in admission, and section C9 of its 2025–26 Common Data Set is left blank.'
+      }
+    }
+  };
+
+  P['uc-san-diego'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'UC San Diego Common Data Set 2025–26 (section C9)', url: 'https://ir.ucsd.edu/stats/undergrad/CDS-2025-2026-Final2.pdf' },
+      official: {
+        satNotPublished: 'UC San Diego does not consider SAT or ACT scores, and section C9 of its 2025–26 Common Data Set is left blank.'
+      }
+    }
+  };
+
+  P['washington-university-in-st-louis'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Washington University in St. Louis Common Data Set 2025–26 (section C9)', url: 'https://washu.edu/app/uploads/2026/06/2025-2026-WashU-CDS.pdf' },
+      official: {
+        sat: { composite: [1500, 1530, 1550], rw: [730, 750, 760], math: [760, 780, 790], submitted: '32%', cohort: 'enrolled', submittersOnly: true },
+        act: [33, 34, 35]
+      }
+    }
+  };
+
+  P['university-of-notre-dame'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'University of Notre Dame Common Data Set 2025–26 (section C9)', url: 'https://drive.google.com/file/d/1jFtuEmv7OPCTq9e8kD90I7CByERcMBty/view' },
+      official: {
+        sat: { composite: [1460, 1500, 1540], rw: [720, 740, 760], math: [730, 760, 780], cohort: 'enrolled', submittersOnly: true, note: 'Notre Dame reports that 726 enrolled students submitted SAT scores and 693 submitted ACT scores; the percentages are left blank in the document.' },
+        act: [33, 34, 35]
+      }
+    }
+  };
+
   /* ========================== JAPAN ========================== */
 
   P['university-of-tokyo'] = {
