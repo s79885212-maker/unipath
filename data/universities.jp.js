@@ -2465,4 +2465,600 @@ window.UNIPATH.universities.push(
   verification: { level: 'partial', checked: ['English-taught programmes','TOEFL level for GIS','first-year tuition deduction','intakes'], unconfirmed: ['tuition amounts','IELTS acceptance','2027 dates','application fee'] },
   lastVerified: '2026-09-23'
 },
+
+{
+  "id": "nagoya-university-of-commerce-and-business",
+  "name": "Nagoya University of Commerce & Business",
+  "shortName": "NUCB",
+  "country": "jp",
+  "city": "Nisshin (Aichi)",
+  "region": "Aichi",
+  "founded": null,
+  "type": "Private university",
+  "institutionKind": "private",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#00205B",
+    "c2": "#001238",
+    "initials": "NUCB"
+  },
+  "description": "A private business university near Nagoya. Its Global BBA is a four-year Bachelor of Business Administration taught 100% in English using the case method, with entry in April and September. Admission scholarships reduce tuition by ¥300,000 to ¥900,000 a year for the strongest applicants.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "economics"
+  ],
+  "englishTaughtPrograms": [
+    "business"
+  ],
+  "programNote": "The Global BBA is taught entirely in English. The university’s other undergraduate degrees (BBA, BSc, BA) are on the Japanese track.",
+  "links": {
+    "website": "https://www.nucba.ac.jp/en/",
+    "admissions": "https://www.nucba.ac.jp/en/admission/",
+    "internationalAdmissions": "https://www.nucba.ac.jp/en/admission/schedule/",
+    "applicationPortal": "https://www.nucba.ac.jp/en/admission/",
+    "scholarships": "https://www.nucba.ac.jp/en/scholarship/scholar.html",
+    "financialAid": "https://www.nucba.ac.jp/en/scholarship/scholar.html",
+    "programs": "https://www.nucba.ac.jp/en/gbba/",
+    "cost": "https://www.nucba.ac.jp/en/scholarship/tuition_list.html"
+  },
+  "admissions": {
+    "platforms": [
+      "NUCB online application"
+    ],
+    "deadlines": [
+      {
+        "name": "Global BBA — stage 4 (spring 2027 entry)",
+        "kind": "round",
+        "entryTerm": "Spring",
+        "entryYear": "2027",
+        "dateISO": "2026-10-15",
+        "date": "5–15 October 2026",
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": "Application period 5–15 October 2026.",
+        "status": "confirmed",
+        "source": "https://www.nucba.ac.jp/en/admission/schedule/",
+        "verified": "2026-10-02",
+        "note": null
+      },
+      {
+        "name": "Global BBA — stage 5 (spring 2027 entry)",
+        "kind": "round",
+        "entryTerm": "Spring",
+        "entryYear": "2027",
+        "dateISO": "2026-11-12",
+        "date": "2–12 November 2026",
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": "Application period 2–12 November 2026. The last stage open to international applicants for spring; later stages are for domestic applicants only.",
+        "status": "confirmed",
+        "source": "https://www.nucba.ac.jp/en/admission/schedule/",
+        "verified": "2026-10-02",
+        "note": null
+      },
+      {
+        "name": "Global BBA — stage 1 (autumn 2027 entry)",
+        "kind": "round-1",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-10-15",
+        "date": "5–15 October 2026",
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": "Application period 5–15 October 2026. Documents are screened and shortlisted applicants are interviewed online.",
+        "status": "confirmed",
+        "source": "https://www.nucba.ac.jp/en/admission/schedule/",
+        "verified": "2026-10-02",
+        "note": null
+      },
+      {
+        "name": "Global BBA — stage 2 (autumn 2027 entry)",
+        "kind": "round-2",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-12",
+        "date": "2–12 November 2026",
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": "Application period 2–12 November 2026. Documents are screened and shortlisted applicants are interviewed online.",
+        "status": "confirmed",
+        "source": "https://www.nucba.ac.jp/en/admission/schedule/",
+        "verified": "2026-10-02",
+        "note": null
+      },
+      {
+        "name": "Global BBA — stage 3 (autumn 2027 entry)",
+        "kind": "round-3",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-12-03",
+        "date": "23 November – 3 December 2026",
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": "Application period 23 November – 3 December 2026. Documents are screened and shortlisted applicants are interviewed online.",
+        "status": "confirmed",
+        "source": "https://www.nucba.ac.jp/en/admission/schedule/",
+        "verified": "2026-10-02",
+        "note": null
+      },
+      {
+        "name": "Global BBA — stage 4 (autumn 2027 entry)",
+        "kind": "round",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-21",
+        "date": "11–21 January 2027",
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": "Application period 11–21 January 2027. Documents are screened and shortlisted applicants are interviewed online.",
+        "status": "confirmed",
+        "source": "https://www.nucba.ac.jp/en/admission/schedule/",
+        "verified": "2026-10-02",
+        "note": null
+      },
+      {
+        "name": "Global BBA — stage 5 (autumn 2027 entry)",
+        "kind": "round",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-11",
+        "date": "1–11 February 2027",
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": "Application period 1–11 February 2027. Documents are screened and shortlisted applicants are interviewed online.",
+        "status": "confirmed",
+        "source": "https://www.nucba.ac.jp/en/admission/schedule/",
+        "verified": "2026-10-02",
+        "note": null
+      },
+      {
+        "name": "Global BBA — stage 6 (autumn 2027 entry)",
+        "kind": "round",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-03-11",
+        "date": "1–11 March 2027",
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": "Application period 1–11 March 2027. Documents are screened and shortlisted applicants are interviewed online.",
+        "status": "confirmed",
+        "source": "https://www.nucba.ac.jp/en/admission/schedule/",
+        "verified": "2026-10-02",
+        "note": null
+      },
+      {
+        "name": "Global BBA — stage 7 (autumn 2027 entry)",
+        "kind": "round",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-04-08",
+        "date": "29 March – 8 April 2027",
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": "Application period 29 March – 8 April 2027. Documents are screened and shortlisted applicants are interviewed online.",
+        "status": "confirmed",
+        "source": "https://www.nucba.ac.jp/en/admission/schedule/",
+        "verified": "2026-10-02",
+        "note": null
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "JPY",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "An application fee is paid by credit card; the amount was not found on the pages read."
+    },
+    "documents": [
+      "Online application",
+      "Application fee",
+      "Documents uploaded to the submission portal",
+      "Proof of English unless exempt",
+      "Online interview for shortlisted applicants"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": "An online interview of about 10–15 minutes with faculty teaching in the Global BBA.",
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.0,
+      "recommended": null,
+      "note": "Overall band with no score less than 5.5. Tests must be taken within two years of applying."
+    },
+    "toefl": {
+      "min": 75,
+      "recommended": null,
+      "note": "TOEFL iBT or Home Edition 75, sent via ETS (institution code B407). The page does not give a score on the scale used from January 2026."
+    },
+    "duolingo": {
+      "min": 110,
+      "recommended": null,
+      "note": "110 or higher."
+    },
+    "waiver": "Not required if year 12 was completed in a listed English-speaking country, if the last three years of schooling were entirely in English (with a school letter), or with an IB Diploma taught in English.",
+    "note": "SAT Reading and Writing 540, ACT English 21, PTE 50 and Eiken Grade pre-1 are also accepted."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "not-applicable",
+      "note": "Admission is based on school records, documents and an interview; SAT or ACT scores are accepted only as one way of showing English proficiency."
+    },
+    "act": {
+      "policy": "not-applicable",
+      "note": "The US test-optional classification does not apply to this admission route."
+    },
+    "otherTests": null,
+    "internationalQualifications": "Completion of a 12-year curriculum, or an IB Diploma, Abitur, Baccalauréat or GCE A-levels; 11-year curricula from some countries, including Uzbekistan and Kazakhstan, are accepted."
+  },
+  "costs": {
+    "breakdown": {
+      "tuition": null,
+      "tuitionText": "¥4,874,000 for the whole four-year programme (paid by semester), plus a ¥270,000 entrance fee",
+      "includes": "four years of tuition including textbooks and club fees; the entrance fee, housing and living costs are extra",
+      "published": true
+    },
+    "academicYear": "2027",
+    "currency": "JPY",
+    "headline": "¥4,874,000 tuition for four years, plus a ¥270,000 entrance fee",
+    "items": [
+      {
+        "label": "Four-year total tuition (spring 2027 entrants)",
+        "amount": 4874000
+      },
+      {
+        "label": "One-time entrance fee",
+        "amount": 270000
+      },
+      {
+        "label": "First payment — spring entrants (entrance fee plus first semester)",
+        "amount": 903500
+      },
+      {
+        "label": "First payment — fall entrants",
+        "amount": 895000
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "¥4,874,000 in tuition over four years, excluding the ¥270,000 entrance fee and living costs",
+    "note": "Figures for the 2027 intake, correct as of July 2026 according to NUCB. Tuition includes textbooks and club fees and is paid in two instalments a year."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": false,
+      "internationalEligible": false,
+      "basis": "merit",
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "The published admission scholarships are annual tuition reductions of ¥300,000–¥900,000, not full funding."
+    },
+    "merit": [
+      {
+        "name": "NUCB Tuition Reduction Scholarship",
+        "amount": "¥900,000, ¥600,000 or ¥300,000 a year",
+        "internationalEligible": true,
+        "deadline": null,
+        "note": "Awarded on entrance results. The full amount must still be paid at entry; the scholarship is paid after enrolment and has continuation requirements."
+      },
+      {
+        "name": "International Baccalaureate scholarship",
+        "amount": "At least ¥300,000 a year",
+        "internationalEligible": true,
+        "deadline": null,
+        "note": "For IB Diploma holders with 32 points or more; guaranteed for the first two years."
+      },
+      {
+        "name": "International dormitory scholarship",
+        "amount": "¥10,000–¥40,000 a month",
+        "internationalEligible": true,
+        "deadline": null,
+        "note": "Housing support for academically outstanding students."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": false,
+      "meetsFullNeed": false,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Scholarships are merit-based; no need-based aid is described."
+    }
+  },
+  "sources": [
+    {
+      "label": "Global BBA admission information and deadlines",
+      "url": "https://www.nucba.ac.jp/en/admission/schedule/"
+    },
+    {
+      "label": "Tuition",
+      "url": "https://www.nucba.ac.jp/en/scholarship/tuition_list.html"
+    },
+    {
+      "label": "Scholarships",
+      "url": "https://www.nucba.ac.jp/en/scholarship/scholar.html"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "language of instruction",
+      "application stages for 2027",
+      "English tests",
+      "tuition for the 2027 intake",
+      "scholarships"
+    ],
+    "unconfirmed": [
+      "founding year",
+      "application fee",
+      "living costs"
+    ]
+  },
+  "lastVerified": "2026-10-02",
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  }
+},
+
+{
+  "id": "yamanashi-gakuin-university",
+  "name": "Yamanashi Gakuin University",
+  "shortName": "YGU (iCLA)",
+  "country": "jp",
+  "city": "Kofu",
+  "region": "Yamanashi",
+  "founded": null,
+  "type": "Private university",
+  "institutionKind": "private",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#7A003C",
+    "c2": "#450022",
+    "initials": "YGU"
+  },
+  "description": "A private university in Kofu, Yamanashi. Its International College of Liberal Arts (iCLA) teaches a liberal arts degree in English, with intakes in April and September. iCLA offers merit-based tuition-waiver scholarships from 10% up to 100% of tuition and facility fees to a select number of students each year.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "humanities",
+    "social-sciences",
+    "arts",
+    "business"
+  ],
+  "englishTaughtPrograms": [
+    "humanities",
+    "social-sciences",
+    "arts"
+  ],
+  "programNote": "The English-taught route is the International College of Liberal Arts (iCLA), one college of the university; the university’s other faculties teach in Japanese. All first-year iCLA students live in the residence halls.",
+  "links": {
+    "website": "https://www.icla.ygu.ac.jp/en/",
+    "admissions": "https://www.icla.ygu.ac.jp/en/admissions/",
+    "internationalAdmissions": "https://www.icla.ygu.ac.jp/en/how-to-apply/",
+    "applicationPortal": "https://apply.icla.ygu.ac.jp/",
+    "scholarships": "https://www.icla.ygu.ac.jp/en/fees-funding/",
+    "financialAid": "https://www.icla.ygu.ac.jp/en/fees-funding/",
+    "programs": "https://www.icla.ygu.ac.jp/en/",
+    "cost": "https://www.icla.ygu.ac.jp/en/fees-funding/"
+  },
+  "admissions": {
+    "platforms": [
+      "iCLA online application system"
+    ],
+    "deadlines": [
+      {
+        "name": "iCLA — spring 2027 intake, applicants who need a student visa",
+        "kind": "application-window",
+        "entryTerm": "Spring",
+        "entryYear": "2027",
+        "dateISO": "2026-11-11",
+        "date": "11 November 2026",
+        "binding": false,
+        "appliesTo": "International degree-seeking applicants who need a student visa",
+        "conditions": "Final closing date; applications opened on 1 April 2026. The whole process usually takes at most 40 days.",
+        "status": "confirmed",
+        "source": "https://www.icla.ygu.ac.jp/en/admissions/",
+        "verified": "2026-10-02",
+        "note": null
+      },
+      {
+        "name": "iCLA — fall 2027 intake, applicants who need a student visa",
+        "kind": "application-window",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-04-12",
+        "date": "12 April 2027",
+        "binding": false,
+        "appliesTo": "International degree-seeking applicants who need a student visa",
+        "conditions": "Final closing date; applications opened on 1 September 2026. Enrolment and payment must be completed within a month of the offer.",
+        "status": "confirmed",
+        "source": "https://www.icla.ygu.ac.jp/en/admissions/",
+        "verified": "2026-10-02",
+        "note": null
+      },
+      {
+        "name": "iCLA — fall 2027 intake, applicants with residential status in Japan",
+        "kind": "application-window",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-05-28",
+        "date": "28 May 2027",
+        "binding": false,
+        "appliesTo": "Applicants who already have residential status in Japan",
+        "conditions": "For applicants holding a Japanese passport, permanent residency or similar status.",
+        "status": "confirmed",
+        "source": "https://www.icla.ygu.ac.jp/en/admissions/",
+        "verified": "2026-10-02",
+        "note": null
+      }
+    ],
+    "applicationFee": {
+      "amount": 7000,
+      "currency": "JPY",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Application fee stated on the how-to-apply page."
+    },
+    "documents": [
+      "Online application form with uploaded documents",
+      "Application fee",
+      "Document screening and interview"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": "Document screening is followed by an interview.",
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": null,
+      "recommended": null,
+      "note": "iCLA states its requirement as TOEFL iBT 76 “or equivalent accepted proficiency test”; the IELTS equivalent was not found."
+    },
+    "toefl": {
+      "min": 76,
+      "recommended": null,
+      "note": "TOEFL iBT 76 or an equivalent accepted test. The page does not give a score on the scale used from January 2026."
+    },
+    "duolingo": {
+      "min": null,
+      "recommended": null,
+      "note": "Not confirmed during this check."
+    },
+    "waiver": null,
+    "note": null
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "not-applicable",
+      "note": "Admission is on school-leaving qualifications rather than the SAT or ACT."
+    },
+    "act": {
+      "policy": "not-applicable",
+      "note": "The US test-optional classification does not apply to this admission route."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "tuition": null,
+      "includes": "only housing and meals were confirmed; tuition was not read",
+      "published": false
+    },
+    "academicYear": "2027",
+    "currency": "JPY",
+    "headline": "¥1,000,000 a year for residence hall and meals; tuition not confirmed",
+    "items": [
+      {
+        "label": "Residence hall — room and utilities (per year)",
+        "amount": 650000
+      },
+      {
+        "label": "Meal plan, three meals on class days (per year, approximate)",
+        "amount": 350000
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "About ¥1,000,000 a year for the residence hall and meal plan; tuition is published separately",
+    "note": "Tuition figures were not readable during this check. All first-year students must live in the iCLA residence halls and take the meal plan. Fees for academic year 2027 are subject to change."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": false,
+      "internationalEligible": true,
+      "basis": "merit",
+      "covers": {
+        "tuition": true,
+        "housing": false,
+        "meals": false,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": "A select number of students each year; selection weighs academic and extracurricular achievement and financial need.",
+      "howToApply": "Apply for the scholarship through the online application system; the result comes with the admission decision.",
+      "note": "The top award covers 100% of tuition, facility and equipment fees and is renewable each year for up to four years based on performance. It does not cover the residence hall or meals."
+    },
+    "merit": [
+      {
+        "name": "iCLA tuition-waiver scholarships (Types I–V)",
+        "amount": "100%, 75%, 50%, 25% or 10% of tuition, facility and equipment fees",
+        "internationalEligible": true,
+        "deadline": "With the application",
+        "note": "Renewable every year based on overall performance, for a maximum of four years."
+      },
+      {
+        "name": "JASSO scholarship (pre-arrival admission)",
+        "amount": null,
+        "internationalEligible": true,
+        "deadline": null,
+        "note": "New international degree-seeking students can apply through iCLA; this is an external scholarship."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [
+        "Scholarship section of the online application"
+      ],
+      "deadlines": "With the application",
+      "note": "Financial need is one of the selection criteria for the tuition-waiver scholarships."
+    }
+  },
+  "sources": [
+    {
+      "label": "Admissions and application schedule",
+      "url": "https://www.icla.ygu.ac.jp/en/admissions/"
+    },
+    {
+      "label": "How to apply",
+      "url": "https://www.icla.ygu.ac.jp/en/how-to-apply/"
+    },
+    {
+      "label": "Fees and funding",
+      "url": "https://www.icla.ygu.ac.jp/en/fees-funding/"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application schedule for 2027",
+      "application fee",
+      "TOEFL requirement",
+      "housing and meal costs",
+      "scholarship types"
+    ],
+    "unconfirmed": [
+      "founding year",
+      "tuition",
+      "IELTS and Duolingo equivalents"
+    ]
+  },
+  "lastVerified": "2026-10-02",
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  }
+}
 );

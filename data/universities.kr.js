@@ -2309,4 +2309,515 @@ window.UNIPATH.universities.push(
   verification: { level: 'partial', checked: ['TOPIK graduation requirement','scholarship exclusivity rule'], unconfirmed: ['English-taught degrees','tuition amounts','English requirements','deadlines'] },
   lastVerified: '2026-09-23'
 },
+
+{
+  "id": "suny-korea",
+  "name": "SUNY Korea (The State University of New York, Korea)",
+  "shortName": "SUNY Korea",
+  "country": "kr",
+  "city": "Incheon (Songdo)",
+  "region": "Incheon",
+  "founded": null,
+  "type": "Korean campus of a US public university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#990000",
+    "c2": "#5c0000",
+    "initials": "SK"
+  },
+  "description": "The Korean campus of the State University of New York, on the Incheon Global Campus in Songdo. It teaches Stony Brook University bachelor’s degrees in English — applied mathematics and statistics, business management, computer science, electrical and mechanical engineering, and technological systems management — plus two-year Fashion Institute of Technology programmes.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "engineering",
+    "computer-science",
+    "business",
+    "mathematics"
+  ],
+  "englishTaughtPrograms": [
+    "engineering",
+    "computer-science",
+    "business",
+    "mathematics"
+  ],
+  "programNote": "Stony Brook University majors at SUNY Korea are taught in English. The Fashion Institute of Technology programmes on the same campus lead to a two-year Associate in Applied Science degree, not a bachelor’s degree.",
+  "links": {
+    "website": "https://www.sunykorea.ac.kr/en/",
+    "admissions": "https://www.sunykorea.ac.kr/adm/html/sub02/0201.html",
+    "internationalAdmissions": "https://www.sunykorea.ac.kr/adm/html/sub02/02020101.html",
+    "applicationPortal": "https://apply.sunykorea.ac.kr/",
+    "scholarships": "https://www.sunykorea.ac.kr/costaid/",
+    "financialAid": "https://www.sunykorea.ac.kr/costaid/",
+    "programs": "https://www.sunykorea.ac.kr/adm/html/sub02/0201.html",
+    "cost": "https://www.sunykorea.ac.kr/costaid/html/sub01/0101.html"
+  },
+  "admissions": {
+    "platforms": [
+      "SUNY Korea online application"
+    ],
+    "deadlines": [
+      {
+        "name": "Spring 2027 — second priority deadline",
+        "kind": "priority",
+        "entryTerm": "Spring",
+        "entryYear": "2027",
+        "dateISO": "2026-12-16",
+        "date": "29 September – 16 December 2026",
+        "binding": false,
+        "appliesTo": "Applicants to Stony Brook University programmes at SUNY Korea",
+        "conditions": "Non-Korean applicants are advised to apply by this date to leave time for the visa.",
+        "status": "confirmed",
+        "source": "https://www.sunykorea.ac.kr/adm/html/sub02/02030101.html",
+        "verified": "2026-10-04",
+        "note": null
+      },
+      {
+        "name": "Spring 2027 — final deadline",
+        "kind": "application-window",
+        "entryTerm": "Spring",
+        "entryYear": "2027",
+        "dateISO": "2027-01-20",
+        "date": "17 December 2026 – 20 January 2027",
+        "binding": false,
+        "appliesTo": "Applicants to Stony Brook University programmes at SUNY Korea",
+        "conditions": "Final period for spring entry.",
+        "status": "confirmed",
+        "source": "https://www.sunykorea.ac.kr/adm/html/sub02/02030101.html",
+        "verified": "2026-10-04",
+        "note": null
+      },
+      {
+        "name": "Fall 2027 — first priority deadline",
+        "kind": "priority",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-12-16",
+        "date": "19 October – 16 December 2026",
+        "binding": false,
+        "appliesTo": "Applicants to Stony Brook University programmes at SUNY Korea",
+        "conditions": "Applicants in this period have priority in scholarship consideration.",
+        "status": "confirmed",
+        "source": "https://www.sunykorea.ac.kr/adm/html/sub02/02030101.html",
+        "verified": "2026-10-04",
+        "note": null
+      },
+      {
+        "name": "Fall 2027 — second priority deadline",
+        "kind": "priority",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-03-18",
+        "date": "17 December 2026 – 18 March 2027",
+        "binding": false,
+        "appliesTo": "Applicants to Stony Brook University programmes at SUNY Korea",
+        "conditions": "Non-Korean applicants are advised to apply by this date to leave time for the visa.",
+        "status": "confirmed",
+        "source": "https://www.sunykorea.ac.kr/adm/html/sub02/02030101.html",
+        "verified": "2026-10-04",
+        "note": null
+      },
+      {
+        "name": "Fall 2027 — final deadline",
+        "kind": "application-window",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-06-24",
+        "date": "19 March – 24 June 2027",
+        "binding": false,
+        "appliesTo": "Applicants to Stony Brook University programmes at SUNY Korea",
+        "conditions": "Final period for fall entry. Applications usually take 4–6 weeks to review.",
+        "status": "confirmed",
+        "source": "https://www.sunykorea.ac.kr/adm/html/sub02/02030101.html",
+        "verified": "2026-10-04",
+        "note": null
+      }
+    ],
+    "applicationFee": {
+      "amount": 50,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Paid after submitting the online application."
+    },
+    "documents": [
+      "Online application with personal statement",
+      "High school transcript (official documents in English)",
+      "Official English proficiency test score report",
+      "At least one recommendation letter (Stony Brook University applicants)"
+    ],
+    "recommendations": "At least one recommendation letter for Stony Brook University applicants",
+    "essay": null,
+    "interview": "There is no interview in the standard process.",
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": null,
+      "recommended": null,
+      "note": "An official English proficiency score is required; the minimum is in the application guidelines, which were not read."
+    },
+    "toefl": {
+      "min": null,
+      "recommended": null,
+      "note": "An official English proficiency score is required; the minimum was not read."
+    },
+    "duolingo": {
+      "min": null,
+      "recommended": null,
+      "note": "Not confirmed during this check."
+    },
+    "waiver": null,
+    "note": "Stony Brook University applicants without a qualifying score can be admitted provisionally and study at the Intensive English Center for at least one semester first."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "unknown",
+      "note": "The pages read list school transcripts, an English test, a personal statement and a recommendation; whether SAT or ACT scores are used was not confirmed."
+    },
+    "act": {
+      "policy": "not-applicable",
+      "note": "The US test-optional classification does not apply to this admission route."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "tuition": null,
+      "tuitionText": "$11,775 listed as full-time undergraduate tuition for Fall 2026 (non-New York State resident)",
+      "includes": "tuition only; course-specific fees, the dormitory and living costs are extra",
+      "published": true
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "headline": "$11,775 full-time undergraduate tuition (Fall 2026, non-New York State resident)",
+    "items": [
+      {
+        "label": "Full-time undergraduate tuition, non-New York State resident (as listed for Fall 2026)",
+        "amount": 11775
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "$11,775 as listed for Fall 2026; course fees, dormitory and living costs are extra",
+    "note": "SUNY Korea lists this as the full-time tuition cost for Fall 2026 without saying on the page whether it is per semester. Dormitory rates are published by the Incheon Global Campus."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "Scholarship details were not read; applying by the first priority deadline gives priority in scholarship consideration."
+    },
+    "merit": [],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": "First priority deadline",
+      "note": "Scholarship amounts and eligibility were not confirmed during this check."
+    }
+  },
+  "sources": [
+    {
+      "label": "Application timeline",
+      "url": "https://www.sunykorea.ac.kr/adm/html/sub02/02030101.html"
+    },
+    {
+      "label": "Undergraduate academics",
+      "url": "https://www.sunykorea.ac.kr/adm/html/sub02/0201.html"
+    },
+    {
+      "label": "Undergraduate FAQ",
+      "url": "https://www.sunykorea.ac.kr/adm/html/sub02/0207.html"
+    },
+    {
+      "label": "Tuition",
+      "url": "https://www.sunykorea.ac.kr/costaid/html/sub01/0101.html"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "language and majors",
+      "application timeline for 2027",
+      "application fee",
+      "listed tuition"
+    ],
+    "unconfirmed": [
+      "founding year",
+      "English test scores",
+      "tuition period",
+      "scholarships",
+      "dormitory costs"
+    ]
+  },
+  "lastVerified": "2026-10-04",
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  }
+},
+
+{
+  "id": "dongseo-university",
+  "name": "Dongseo University",
+  "shortName": "DSU",
+  "country": "kr",
+  "city": "Busan",
+  "region": "Busan",
+  "founded": null,
+  "type": "Private university",
+  "institutionKind": "private",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#00467F",
+    "c2": "#002a4d",
+    "initials": "DSU"
+  },
+  "description": "A private university in Busan. Its International College lists English-taught majors — global business administration, computer science, game development, animation, film and visual effects, and digital design. Dongseo says international students may receive merit- and need-based scholarships ranging from partial tuition up to full tuition with housing, assessed case by case.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "computer-science",
+    "arts"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "computer-science",
+    "arts"
+  ],
+  "programNote": "The majors marked “(ENG)” in the International College are English-based; most other programmes are taught in Korean and require TOPIK level 3.",
+  "links": {
+    "website": "https://uni.dongseo.ac.kr/eng/",
+    "admissions": "https://uni.dongseo.ac.kr/eng/index.php?pCode=Admission",
+    "internationalAdmissions": "https://uni.dongseo.ac.kr/eng/index.php?pCode=Eligibility",
+    "applicationPortal": "https://uni.dongseo.ac.kr/eng/index.php?pCode=HowtoApply",
+    "scholarships": "https://uni.dongseo.ac.kr/eng/index.php?pCode=CostsNAid",
+    "financialAid": "https://uni.dongseo.ac.kr/eng/index.php?pCode=CostsNAid",
+    "programs": "https://uni.dongseo.ac.kr/ic/",
+    "cost": "https://uni.dongseo.ac.kr/eng/index.php?pCode=CostsNAid"
+  },
+  "admissions": {
+    "platforms": [
+      "Dongseo University online application"
+    ],
+    "deadlines": [
+      {
+        "name": "Spring semester — application deadline",
+        "kind": "application-window",
+        "entryTerm": "Spring",
+        "entryYear": "2027",
+        "dateISO": "2026-11-30",
+        "date": "30 November 2026",
+        "binding": false,
+        "appliesTo": "International undergraduate applicants",
+        "conditions": "Dongseo published the guidelines for the 2027 spring semester on 28 September 2026; the exact dates are in that guideline.",
+        "status": "not-confirmed",
+        "source": "https://uni.dongseo.ac.kr/eng/index.php?pCode=HowtoApply",
+        "verified": "2026-10-04",
+        "note": "The how-to-apply page gives the deadline as 30 November without a year."
+      },
+      {
+        "name": "Fall semester — application deadline",
+        "kind": "application-window",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-05-31",
+        "date": "31 May 2027",
+        "binding": false,
+        "appliesTo": "International undergraduate applicants",
+        "conditions": "The how-to-apply page gives 31 May for the fall semester; additional rounds were held for fall 2026.",
+        "status": "not-confirmed",
+        "source": "https://uni.dongseo.ac.kr/eng/index.php?pCode=HowtoApply",
+        "verified": "2026-10-04",
+        "note": "Published as a recurring date without a year; the guideline for fall 2027 had not been issued."
+      }
+    ],
+    "applicationFee": {
+      "amount": 60,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Application fee for undergraduate programmes."
+    },
+    "documents": [
+      "Application forms: personal and academic information, personal statement, teacher evaluation, financial affidavit, study plan, medical report",
+      "Certificate and transcript of the highest level of education (apostilled or verified by a Korean embassy)",
+      "Bank balance certificate showing more than US$18,000",
+      "Copy of passport",
+      "English certificate for English-based programmes"
+    ],
+    "recommendations": "Teacher or professor evaluation form",
+    "essay": "Personal statement and study plan forms",
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 5.5,
+      "recommended": null,
+      "note": "For English-based programmes."
+    },
+    "toefl": {
+      "min": 59,
+      "recommended": null,
+      "note": "The eligibility page states TOEFL iBT 59; the document list states 3.5 on the current scale (50 on the previous scale). The stricter figure is shown here.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 59,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 3.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": null,
+      "recommended": null,
+      "note": "Not confirmed during this check."
+    },
+    "waiver": null,
+    "note": "CEFR B2 or NEW TEPS 202 are also accepted. Korean-based programmes require TOPIK level 3 instead."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "not-applicable",
+      "note": "Admission is on school-leaving qualifications rather than the SAT or ACT."
+    },
+    "act": {
+      "policy": "not-applicable",
+      "note": "The US test-optional classification does not apply to this admission route."
+    },
+    "otherTests": null,
+    "internationalQualifications": "High school graduation in Korea or abroad; the applicant and both parents must hold non-Korean citizenship."
+  },
+  "costs": {
+    "breakdown": {
+      "tuition": 2520,
+      "period": "semester",
+      "tuitionText": "$2,520 (humanities and social sciences) or $3,450 (engineering and design)",
+      "includes": "tuition only; the $420 admission fee, dormitory and living costs are extra",
+      "published": true
+    },
+    "academicYear": "Current",
+    "currency": "USD",
+    "headline": "$2,520–$3,450 tuition per semester, plus a $420 admission fee",
+    "items": [
+      {
+        "label": "Tuition per semester — humanities, social sciences, health administration",
+        "amount": 2520
+      },
+      {
+        "label": "Tuition per semester — engineering, design, visual communication, health sciences",
+        "amount": 3450
+      },
+      {
+        "label": "Admission fee (one-time)",
+        "amount": 420
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "$2,940–$3,870 for the first semester including the admission fee; housing and living costs are extra",
+    "note": "Dongseo publishes these figures in US dollars without stating the academic year."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": false,
+      "internationalEligible": true,
+      "basis": "merit and need",
+      "covers": {
+        "tuition": true,
+        "housing": true,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": "Assessed case by case; the number of full awards is not stated.",
+      "howToApply": null,
+      "note": "Dongseo says scholarships for international students range from full tuition with housing to partial tuition awards of 100%, 50%, 40% or 30%. Meals and other living costs are not mentioned."
+    },
+    "merit": [
+      {
+        "name": "Scholarships for international students",
+        "amount": "Full tuition with housing, or 100%, 50%, 40% or 30% of tuition",
+        "internationalEligible": true,
+        "deadline": null,
+        "note": "Based on merit and need; assessed case by case."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": true,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Need is considered together with merit; no separate need-based application is described."
+    }
+  },
+  "sources": [
+    {
+      "label": "Undergraduate eligibility",
+      "url": "https://uni.dongseo.ac.kr/eng/index.php?pCode=Eligibility"
+    },
+    {
+      "label": "How to apply",
+      "url": "https://uni.dongseo.ac.kr/eng/index.php?pCode=HowtoApply"
+    },
+    {
+      "label": "Costs and aid",
+      "url": "https://uni.dongseo.ac.kr/eng/index.php?pCode=CostsNAid"
+    },
+    {
+      "label": "Admission guidelines",
+      "url": "https://uni.dongseo.ac.kr/eng/index.php?pCode=MN5000141"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "English-based majors",
+      "eligibility",
+      "application fee",
+      "tuition",
+      "scholarship range"
+    ],
+    "unconfirmed": [
+      "founding year",
+      "exact dates in the 2027 guideline",
+      "academic year of the tuition figures",
+      "dormitory costs"
+    ]
+  },
+  "lastVerified": "2026-10-04",
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  }
+}
 );

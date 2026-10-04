@@ -69,11 +69,11 @@
 
       case 'universities':
         main.innerHTML =
-          '<section class="page-head"><div class="wrap"><h1>Universities</h1>' +
+          '<section class="page-head"><div class="wrap"><h1>Universities &amp; colleges</h1>' +
           '<p>Filter by what actually decides where you can go: funding, test policy, language of instruction, application cost and field of study.</p>' +
           '<div class="searchbox searchbox-flat" style="margin-top:22px;max-width:600px">' +
             '<span class="search-icon">🔍</span>' +
-            '<input type="search" id="browse-q" placeholder="Search universities, cities, programs, scholarships…" aria-label="Search universities" autocomplete="off">' +
+            '<input type="search" id="browse-q" placeholder="Search universities, colleges, cities, programs, scholarships…" aria-label="Search universities" autocomplete="off">' +
           '</div></div></section>' +
           '<section class="section"><div class="wrap"><div class="browse-layout">' +
             '<aside class="filters" id="filters" aria-label="Filters"></aside>' +
@@ -82,7 +82,7 @@
             '<div class="grid grid-3" id="results"></div>' +
             '<div class="results-more" id="results-more"></div></div>' +
           '</div></div></section>';
-        document.title = 'Universities — UniPath';
+        document.title = 'Universities & colleges — UniPath';
         P.renderBrowse({ stateKey: 'all' });
         U.setActiveNav('universities');
         current = { type: 'universities' };

@@ -108,6 +108,11 @@
       checks.push({ level: 'info', text: 'Testing is required, but other exams can replace the SAT/ACT in the cases the university lists.' });
     }
 
+    /* A community college is a different degree route, not an easier bachelor’s. */
+    if (U.isCommunityCollege(u)) {
+      checks.push({ level: 'info', text: 'This is a community college: it awards an associate degree, not a bachelor’s degree. A bachelor’s degree needs a later transfer, which is not guaranteed.' });
+    }
+
     /* GPA — only where a published average exists */
     if (input.gpa !== null && off.gpa && typeof off.gpa.average === 'number') {
       if (input.gpa < off.gpa.average) checks.push({ level: 'soft', text: 'GPA ' + input.gpa + ' is below the average of admitted students (' + off.gpa.average + ').' });
@@ -257,13 +262,13 @@
       return;
     }
     if (!list.length) {
-      out.innerHTML = '<div class="empty-state"><h3>No universities match these filters</h3><p>Try another country or field, or include fields that are not fully English-taught.</p></div>';
+      out.innerHTML = '<div class="empty-state"><h3>No institutions match these filters</h3><p>Try another country or field, or include fields that are not fully English-taught.</p></div>';
       return;
     }
 
     var rows = list.map(function (u) { return { u: u, r: evaluate(u, input) }; });
     var budgetRank = { fits: 0, maybe: 1, none: 2, unknown: 3, over: 4 };
-    var html = '<p class="muted small" style="margin-bottom:18px">' + rows.length + ' universities compared</p>';
+    var html = '<p class="muted small" style="margin-bottom:18px">' + rows.length + ' institutions compared</p>';
     GROUPS.forEach(function (g) {
       var items = rows.filter(function (x) { return x.r.category === g.key; });
       if (!items.length) return;

@@ -263,3 +263,46 @@ IELTS: блок «Баллы по английскому у принятых с�
 - Новости: `state` и `stateNote` выведены в карточки; различаются «открыто сейчас», «дедлайн впереди», «закрыто», «сроки зависят от страны или маршрута», «информация». Запись без дедлайна не считается открытым приёмом. Архив — по фактическому окончанию срока.
 - Дедлайны: окончание срока считается по опубликованному времени и часовому поясу (JST, KST, время Великобритании, местное время заявителя). Если есть только дата, срок считается прошедшим лишь после окончания этого дня во всех часовых поясах, без ложной точности.
 - Добавлены тип учреждения (community college, liberal arts college, государственный, частный), поле степеней и фильтры по ним; для community college — пояснение о двухлетнем маршруте в профиле, карточке, сравнении и на статических страницах.
+
+### Добавленные учреждения (2026-10-01 … 2026-10-04, v64)
+Итог по объединённым данным: 230 уникальных учреждений — США 110, Великобритания 30, Германия 30, Япония 30, Южная Корея 30. Дубликатов id и названий нет.
+
+США, колледжи свободных искусств (20): Union, Skidmore, Trinity (Hartford), Connecticut College, Dickinson, Gettysburg, Bucknell, Holy Cross, Furman, Sewanee, Rhodes, Centre, Wooster, St. Olaf, Knox, Beloit, Lawrence, Earlham, Whitman, Colorado College.
+США, другие частные (10): Soka University of America, Drexel, Northeastern, Fordham, Syracuse, Loyola Marymount, TCU, Clark, Pepperdine, Trinity University (Сан-Антонио).
+США, государственные (8): UCLA, UC San Diego, University of Virginia, University of Florida, Florida State, Michigan State, Purdue, Ohio State.
+США, community colleges (5): Foothill, De Anza, Santa Monica, Sinclair, Green River.
+Великобритания (2): University of Sussex, University of Strathclyde.
+Германия (2): Technische Hochschule Ingolstadt (англоязычная B.Eng. Engineering and Management подтверждена на странице программы), Kühne Logistics University (BSc in Business Administration на английском).
+Япония (2): Nagoya University of Commerce & Business (Global BBA, 100% на английском), Yamanashi Gakuin University (англоязычный маршрут — колледж iCLA; записан университет, а не колледж).
+Южная Корея (2): SUNY Korea (корейский кампус State University of New York, программы Stony Brook University на английском), Dongseo University (специальности «(ENG)» в International College).
+
+### Замены кандидатов
+- Reed College → Colorado College; Southern Methodist University → Trinity University (Сан-Антонио): сайты Reed и SMU не открываются из этой сети, первичные источники прочитать нельзя.
+- UNC Chapel Hill → Purdue University: сайт приёмной комиссии UNC отклоняет запросы защитой («Forbidden»), обходить её нельзя.
+- Miami University (Ohio) → The Ohio State University: сайт Miami недоступен.
+- Valencia College → Green River College: сайт Valencia для иностранных студентов недоступен.
+- Корея: большинство корейских сайтов не открываются (Woosong/SolBridge, Kookmin, George Mason Korea, Ghent Global Campus); выбраны учреждения, чьи официальные страницы удалось прочитать.
+
+### Что проверено по каждому новому профилю
+Название, город, тип, степени, официальный сайт и страница приёма, раунды и сроки, сбор за заявку, политика SAT/ACT, требования по английскому, стоимость, помощь иностранным студентам. Всё, что прочитать не удалось, записано в `verification.unconfirmed` конкретного профиля и видно в профиле. Год основания не заполнен ни у одной новой записи (не проверялся).
+Не подтверждено и помечено:
+- стоимость: LMU, UC San Diego (цифры не читаются), Yamanashi Gakuin (плата за обучение), SUNY Korea (не указано, за семестр ли сумма);
+- сроки на 2027: Pepperdine, Santa Monica College, осенний набор Sinclair — показаны как прошлый цикл; Dongseo — даты без года, помечены «не подтверждено»;
+- SAT/ACT: формулировка требования у Purdue и FSU;
+- сбор за заявку: UCLA, UC San Diego, UVA, Ohio State, Trinity University, Pepperdine, NUCB, THI;
+- баллы по английскому: LMU, TCU, Pepperdine, Syracuse, Drexel, Bucknell, University of Florida, KLU, SUNY Korea.
+
+Полная стипендия не заявляется там, где учреждение её не описывает. Отметку «полная стипендия для иностранцев» получили только учреждения, которые сами заявляют покрытие полной нуждаемости или награду на обучение, жильё и питание: Skidmore, Trinity (Hartford), Connecticut College, Holy Cross, Rhodes, Centre (Lincoln Scholars), Whitman, Colorado College. Награды только на обучение (Soka, Yamanashi Gakuin, Dongseo) полной стипендией не названы. Для UCLA, UVA, Purdue, Ohio State, Northeastern, Syracuse прямо указано, что помощи иностранцам нет или она не покрывает расходы.
+
+Community colleges: тип «community college», степени associate/certificate (у Foothill и Green River дополнительно отмечены отдельные программы бакалавриата), SAT «не используется», стоимость для иностранцев (F-1) с основанием расчёта, жильё, английский, сроки, условия перевода. Перевод и помощь не обещаются; низкая стоимость не названа стипендией; заработок в кампусе не подан как гарантированное финансирование.
+
+### Попутные исправления
+- UC Berkeley: период подачи заявки UC исправлен с «1–30 ноября» на «1 октября – 30 ноября» (сайт UC).
+- Подписи списков: «Universities & colleges» / «Учебные заведения» в меню, заголовках, счётчиках, поиске и на статических страницах.
+- Профиль и статические страницы community college: строки «Маршрут для иностранных абитуриентов», «Жильё», «Перевод в университет», «Правила учёбы и работы».
+- `annualCost` для подбора добавлен 45 новым учреждениям с подтверждённой годовой суммой.
+- Перевод: 1467 новых строк в `data/i18n/ru.js`.
+
+### Фотографии
+Фото с Wikimedia Commons (автор, лицензия, ссылка на источник) есть у 223 из 230. Автоматически подобранные кадры просмотрены по названиям; 28 не относящихся к кампусу (портреты, логотипы, мероприятия, чужие здания) удалены.
+Без фото остаются 7 — показывается аккуратная заглушка с цветами учреждения: SRH Berlin, Berlin International University, University of Europe for Applied Sciences, Karlshochschule, Macromedia, Temple University Japan, Frankfurt School. На Commons для них нет подходящих свободных снимков кампуса.

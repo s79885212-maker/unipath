@@ -2514,4 +2514,478 @@ window.UNIPATH.universities.push(
   verification: { level: 'partial', checked: ['language of instruction share','2026 application deadline','tuition status','english (IELTS and TOEFL by EU/non-EU status)'], unconfirmed: ['2027 deadline','semester contribution','scholarships'] },
   lastVerified: '2026-09-23'
 },
+
+{
+  "id": "technische-hochschule-ingolstadt",
+  "name": "Technische Hochschule Ingolstadt",
+  "shortName": "THI",
+  "country": "de",
+  "city": "Ingolstadt",
+  "region": "Bavaria",
+  "founded": null,
+  "type": "Public university of applied sciences",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#005A9B",
+    "c2": "#003a66",
+    "initials": "THI"
+  },
+  "description": "A public university of applied sciences in Ingolstadt, Bavaria, close to Audi and other industrial employers. It offers around fifteen degree programmes in English, including the fully English-taught B.Eng. in Engineering and Management. Students from outside the EU and EEA pay €800 a semester for a bachelor’s degree.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "engineering",
+    "computer-science",
+    "business"
+  ],
+  "englishTaughtPrograms": [
+    "engineering",
+    "business"
+  ],
+  "programNote": "Engineering and Management (B.Eng., seven semesters, winter start) is taught entirely in English; THI lists further English-taught bachelor’s programmes such as Autonomous Vehicle Engineering. Many other bachelor’s programmes are taught in German.",
+  "links": {
+    "website": "https://www.thi.de/en/",
+    "admissions": "https://www.thi.de/en/studies/application/",
+    "internationalAdmissions": "https://www.thi.de/en/studies/international-degree-students/",
+    "applicationPortal": "https://www.thi.de/en/studies/application/applications-for-bachelors-degree-programmes-from-abroad/",
+    "scholarships": "https://www.thi.de/en/studies/international-degree-students/",
+    "financialAid": "https://www.thi.de/en/studies/international-degree-students/tuition-fees/",
+    "programs": "https://www.thi.de/en/studies/international-degree-students/",
+    "cost": "https://www.thi.de/en/studies/international-degree-students/tuition-fees/"
+  },
+  "admissions": {
+    "platforms": [
+      "PRIMUSS application portal (THI)",
+      "uni-assist preliminary review (VPD) for foreign school certificates"
+    ],
+    "deadlines": [
+      {
+        "name": "Engineering and Management — application period (winter semester 2027/28)",
+        "kind": "application-window",
+        "entryTerm": "Winter",
+        "entryYear": "2027",
+        "dateISO": "2027-07-15",
+        "date": "1 April – 15 July 2027",
+        "binding": false,
+        "appliesTo": "Applicants to the English-taught B.Eng. Engineering and Management",
+        "conditions": "The online application is only possible during this period. The uni-assist preliminary review document (VPD) must be in hand by the end of the period; uni-assist needs 4–6 weeks.",
+        "status": "confirmed",
+        "source": "https://www.thi.de/en/engineering-and-management/degree-programmes/engineering-and-management-beng/",
+        "verified": "2026-10-02",
+        "note": "The same programme page also mentions 2 May as the opening date; THI’s general page says periods usually run from 1 April or 2 May to 15 July."
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "EUR",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "THI’s own application fee was not found; uni-assist charges €75 for assessing the school certificate."
+    },
+    "documents": [
+      "Online application in PRIMUSS",
+      "uni-assist preliminary review document (VPD) for a school certificate from abroad",
+      "APS certificate for applicants educated in China, India or Vietnam"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": null,
+      "recommended": null,
+      "note": "THI says it does not require English tests such as TOEFL or IELTS for this programme.",
+      "status": "not-required"
+    },
+    "toefl": {
+      "min": null,
+      "recommended": null,
+      "note": "THI says it does not require English tests such as TOEFL or IELTS for this programme.",
+      "status": "not-required"
+    },
+    "duolingo": {
+      "min": null,
+      "recommended": null,
+      "note": "Not required for this programme.",
+      "status": "not-required"
+    },
+    "waiver": null,
+    "note": "Stated for Engineering and Management. German is not required for admission, though THI says it helps with daily life, student jobs and internships."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "not-applicable",
+      "note": "Admission is on school-leaving qualifications rather than the SAT or ACT."
+    },
+    "act": {
+      "policy": "not-applicable",
+      "note": "The US test-optional classification does not apply to this admission route."
+    },
+    "otherTests": "No entrance test is described for this programme; admission is restricted (places are limited).",
+    "internationalQualifications": "A school certificate obtained abroad needs a preliminary review by uni-assist to confirm university entrance eligibility."
+  },
+  "costs": {
+    "breakdown": {
+      "tuition": 800,
+      "period": "semester",
+      "tuitionText": "€800 for bachelor students from outside the EU/EEA",
+      "includes": "tuition only; the student union fee and living costs are extra",
+      "published": true
+    },
+    "academicYear": "2026–2027",
+    "currency": "EUR",
+    "headline": "€800 tuition per semester for non-EU students",
+    "items": [
+      {
+        "label": "Tuition per semester (bachelor, non-EU/EEA citizens)",
+        "amount": 800
+      },
+      {
+        "label": "Student union fee per semester",
+        "text": "Charged in addition; amount not read"
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "€1,600 a year in tuition for non-EU students, plus the student union fee and living costs",
+    "note": "Charged from the summer term 2026 for the whole programme to citizens of countries outside the EU and EEA. EU and EEA citizens, and students with a German school-leaving qualification, do not pay it. Waivers based on qualification or need exist under THI’s tuition fee waiver guideline."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": false,
+      "internationalEligible": false,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "THI describes tuition fee waivers, not a scholarship that covers living costs."
+    },
+    "merit": [
+      {
+        "name": "Tuition fee waiver (qualification-based or need-related)",
+        "amount": "Waiver of the €800 semester fee",
+        "internationalEligible": true,
+        "deadline": null,
+        "note": "Granted under THI’s Tuition Fee Waiver Guideline; the criteria were not read in detail."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "A need-related tuition fee waiver is mentioned; no grants for living costs are described."
+    }
+  },
+  "sources": [
+    {
+      "label": "Engineering and Management (B.Eng.)",
+      "url": "https://www.thi.de/en/engineering-and-management/degree-programmes/engineering-and-management-beng/"
+    },
+    {
+      "label": "Bachelor’s applications from abroad",
+      "url": "https://www.thi.de/en/studies/application/applications-for-bachelors-degree-programmes-from-abroad/"
+    },
+    {
+      "label": "Tuition fees for students from third countries",
+      "url": "https://www.thi.de/en/studies/international-degree-students/tuition-fees/"
+    },
+    {
+      "label": "International degree students",
+      "url": "https://www.thi.de/en/studies/international-degree-students/"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "English-taught bachelor’s programme",
+      "application period for winter 2027/28",
+      "tuition for non-EU students",
+      "English test policy"
+    ],
+    "unconfirmed": [
+      "founding year",
+      "student union fee",
+      "application fee",
+      "waiver criteria"
+    ]
+  },
+  "lastVerified": "2026-10-02",
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  }
+},
+
+{
+  "id": "kuehne-logistics-university",
+  "name": "Kühne Logistics University",
+  "shortName": "KLU",
+  "country": "de",
+  "city": "Hamburg",
+  "region": "Hamburg",
+  "founded": null,
+  "type": "Private university",
+  "institutionKind": "private",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#002D72",
+    "c2": "#001b45",
+    "initials": "KLU"
+  },
+  "description": "A private university in Hamburg specialising in business, logistics and supply chain management. Its BSc in Business Administration is taught in English. KLU offers a limited number of merit and need-based scholarships, which may be partial or full tuition awards.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business"
+  ],
+  "englishTaughtPrograms": [
+    "business"
+  ],
+  "programNote": "The BSc in Business Administration is taught in English over six semesters, with a standard track (180 ECTS) and an intensive track (210 ECTS) and specialisations such as international management and supply chain management.",
+  "links": {
+    "website": "https://www.klu.org/",
+    "admissions": "https://www.klu.org/programs/study-for-a-bachelor-in-business-administration-in-germany",
+    "internationalAdmissions": "https://www.klu.org/programs/study-for-a-bachelor-in-business-administration-in-germany",
+    "applicationPortal": "https://www.klu.org/programs/study-for-a-bachelor-in-business-administration-in-germany",
+    "scholarships": "https://www.klu.org/student-life/student-services/scholarships-financial-aid",
+    "financialAid": "https://www.klu.org/student-life/student-services/scholarships-financial-aid",
+    "programs": "https://www.klu.org/programs/study-for-a-bachelor-in-business-administration-in-germany",
+    "cost": "https://www.klu.org/programs/financing-information/tuition-cost-of-living"
+  },
+  "admissions": {
+    "platforms": [
+      "KLU online application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early-bird discount period",
+        "kind": "priority",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-15",
+        "date": "1 November 2026 – 15 February 2027",
+        "binding": false,
+        "appliesTo": "All applicants",
+        "conditions": "Applications in this period receive a 10% tuition discount.",
+        "status": "confirmed",
+        "source": "https://www.klu.org/programs/study-for-a-bachelor-in-business-administration-in-germany",
+        "verified": "2026-10-02",
+        "note": null
+      },
+      {
+        "name": "Non-EU applicants — recommended deadline",
+        "kind": "priority",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-03-31",
+        "date": "31 March 2027",
+        "binding": false,
+        "appliesTo": "International (non-EU) applicants",
+        "conditions": "Recommended so that there is time for the visa, which can take up to two months after acceptance.",
+        "status": "confirmed",
+        "source": "https://www.klu.org/programs/study-for-a-bachelor-in-business-administration-in-germany",
+        "verified": "2026-10-02",
+        "note": "KLU gives these dates without a year, next to the early-bird period for 2026–2027; the programme starts on 1 September each year."
+      },
+      {
+        "name": "Non-EU applicants — final deadline",
+        "kind": "application-window",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-05-31",
+        "date": "31 May 2027",
+        "binding": false,
+        "appliesTo": "International (non-EU) applicants",
+        "conditions": "Final deadline for applicants who need a visa.",
+        "status": "confirmed",
+        "source": "https://www.klu.org/programs/study-for-a-bachelor-in-business-administration-in-germany",
+        "verified": "2026-10-02",
+        "note": null
+      },
+      {
+        "name": "EU and visa-free applicants — deadline",
+        "kind": "application-window",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-08-15",
+        "date": "15 August 2027",
+        "binding": false,
+        "appliesTo": "EU applicants and applicants who do not need a visa",
+        "conditions": "For EU and German applicants, visa-free nationalities and residence permit holders.",
+        "status": "confirmed",
+        "source": "https://www.klu.org/programs/study-for-a-bachelor-in-business-administration-in-germany",
+        "verified": "2026-10-02",
+        "note": null
+      }
+    ],
+    "applicationFee": {
+      "amount": 50,
+      "currency": "EUR",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Charged to all applicants."
+    },
+    "documents": [
+      "Online application",
+      "School leaving certificate qualifying for admission to German universities (latest transcript accepted first)",
+      "Proof of English at B2 level",
+      "Interview with the admissions team and faculty"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": "An interview with the admissions team and faculty is part of the process.",
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": null,
+      "recommended": null,
+      "note": "KLU asks for English at B2 level; accepted tests and scores are on a separate requirements page that was not read."
+    },
+    "toefl": {
+      "min": null,
+      "recommended": null,
+      "note": "KLU asks for English at B2 level; scores were not read."
+    },
+    "duolingo": {
+      "min": null,
+      "recommended": null,
+      "note": "Not confirmed during this check."
+    },
+    "waiver": null,
+    "note": "English proficiency at B2 level is required."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "not-applicable",
+      "note": "Admission is on school-leaving qualifications rather than the SAT or ACT."
+    },
+    "act": {
+      "policy": "not-applicable",
+      "note": "The US test-optional classification does not apply to this admission route."
+    },
+    "otherTests": null,
+    "internationalQualifications": "A school leaving certificate that qualifies for admission to German universities; otherwise the Business Foundations Program."
+  },
+  "costs": {
+    "breakdown": {
+      "tuition": 7900,
+      "period": "semester",
+      "tuitionText": "€7,900 on the standard track; €8,850 on the intensive track",
+      "includes": "tuition only; KLU’s living-cost estimate of €16,870 a year is separate",
+      "published": true
+    },
+    "academicYear": "2026–2027",
+    "currency": "EUR",
+    "headline": "€7,900 tuition per semester (standard track)",
+    "items": [
+      {
+        "label": "Tuition per semester — BSc standard track",
+        "amount": 7900
+      },
+      {
+        "label": "Tuition per semester — BSc intensive track",
+        "amount": 8850
+      },
+      {
+        "label": "Living costs per year (KLU estimate)",
+        "amount": 16870
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "€15,800 a year in tuition on the standard track; KLU estimates living costs at about €16,870 a year",
+    "note": "Applicants whose school curriculum does not qualify directly may need the one-year Business Foundations Program (€4,900 per semester). At least €11,904 a year has to be shown for a student visa."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": "merit",
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": "A limited number of scholarships; awards may be partial or full.",
+      "howToApply": "The scholarship portal opens after the programme application is submitted.",
+      "note": "KLU says successful applicants may receive a partial or full tuition scholarship. The scholarships concern tuition, not living costs, and the number is limited, so no full-cost route is claimed."
+    },
+    "merit": [
+      {
+        "name": "KLU merit-based scholarship",
+        "amount": "Partial or full tuition",
+        "internationalEligible": null,
+        "deadline": "31 July 2026 for programmes starting in 2026",
+        "note": "For exceptional applicants to the BSc and other programmes. The deadline for 2027 was not yet published."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": false,
+      "needBlindInternational": null,
+      "forms": [
+        "KLU scholarship application"
+      ],
+      "deadlines": "31 July 2026 for 2026 entry",
+      "note": "A limited number of need-based scholarships for applicants facing significant financial challenges; eligibility of non-EU applicants was not confirmed."
+    }
+  },
+  "sources": [
+    {
+      "label": "BSc in Business Administration",
+      "url": "https://www.klu.org/programs/study-for-a-bachelor-in-business-administration-in-germany"
+    },
+    {
+      "label": "Tuition and cost of living",
+      "url": "https://www.klu.org/programs/financing-information/tuition-cost-of-living"
+    },
+    {
+      "label": "Scholarships and financial aid",
+      "url": "https://www.klu.org/student-life/student-services/scholarships-financial-aid"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "language of instruction",
+      "application deadlines",
+      "application fee",
+      "tuition",
+      "scholarship types"
+    ],
+    "unconfirmed": [
+      "founding year",
+      "English test scores",
+      "scholarship deadline for 2027",
+      "scholarship eligibility for non-EU applicants"
+    ]
+  },
+  "lastVerified": "2026-10-02",
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  }
+}
 );

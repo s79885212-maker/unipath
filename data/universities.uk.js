@@ -3645,4 +3645,527 @@ window.UNIPATH.universities.push(
   verification: { level: 'partial', checked: ['english (normal level and medicine/dentistry)','rounds','application fee','tuition (2027/28 international fee rates)'], unconfirmed: ['scholarships'] },
   lastVerified: '2026-09-23'
 },
+
+{
+  "id": "university-of-sussex",
+  "name": "University of Sussex",
+  "shortName": "Sussex",
+  "country": "uk",
+  "city": "Brighton",
+  "region": "England",
+  "founded": null,
+  "type": "Public university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#003B49",
+    "c2": "#1B3A4B",
+    "initials": "US"
+  },
+  "description": "A public university in Brighton, England, with courses taught on campus. Applications go through UCAS. Its scholarships for international undergraduates are partial — the Chancellor’s International Scholarship listed for 2026 entry was worth £5,000 — so the international tuition fee has to be planned for.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts"
+  ],
+  "programNote": "All degrees are taught in English. Requirements and fees are set course by course; the figures here come from the BSc Economics page for September 2027 entry.",
+  "links": {
+    "website": "https://www.sussex.ac.uk/",
+    "admissions": "https://www.sussex.ac.uk/study/undergraduate",
+    "internationalAdmissions": "https://www.sussex.ac.uk/study/international-students",
+    "applicationPortal": "https://www.ucas.com/",
+    "scholarships": "https://www.sussex.ac.uk/study/fees-funding/undergraduate-scholarships",
+    "financialAid": "https://www.sussex.ac.uk/study/fees-funding",
+    "programs": "https://www.sussex.ac.uk/study/undergraduate",
+    "cost": "https://www.sussex.ac.uk/study/undergraduate/courses/economics-bsc"
+  },
+  "admissions": {
+    "platforms": [
+      "UCAS (required for all undergraduate courses)"
+    ],
+    "deadlines": [
+      {
+        "name": "UCAS equal consideration deadline (2027 entry)",
+        "kind": "ucas-main",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-13",
+        "date": "13 January 2027",
+        "time": "18:00",
+        "timezone": "UK time",
+        "binding": false,
+        "appliesTo": "All undergraduate courses except those with a 15 October deadline",
+        "conditions": "Applications received by this time must be considered equally",
+        "status": "confirmed",
+        "source": "https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546",
+        "verified": "2026-09-23",
+        "note": null
+      },
+      {
+        "name": "UCAS applications open (2027 entry)",
+        "kind": "opens",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-05-12",
+        "date": "12 May 2026",
+        "binding": false,
+        "appliesTo": "All applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications",
+        "verified": "2026-09-23",
+        "note": "One UCAS application holds up to five course choices"
+      }
+    ],
+    "applicationFee": {
+      "amount": 34.5,
+      "currency": "GBP",
+      "waiverAvailableToInternational": false,
+      "waiver": null,
+      "note": "The £34.50 is the UCAS fee for the whole 2027-cycle application (up to five choices), not a university fee. UCAS waives it only for UK free-school-meal recipients and care leavers."
+    },
+    "documents": [
+      "UCAS application with personal statement",
+      "Academic reference",
+      "Predicted or achieved school-leaving grades",
+      "Proof of English where required"
+    ],
+    "recommendations": "One academic reference through UCAS",
+    "essay": "UCAS personal statement",
+    "interview": null,
+    "notes": [
+      "Medicine is taught at Brighton and Sussex Medical School and follows the earlier UCAS deadline of 15 October."
+    ]
+  },
+  "english": {
+    "ielts": {
+      "min": null,
+      "recommended": null,
+      "note": "Each course sets its own level.",
+      "varies": true,
+      "profilesComplete": false,
+      "profiles": [
+        {
+          "name": "BSc Economics (2027 entry)",
+          "overall": 6.0,
+          "sections": "At least 5.5 in each component",
+          "scope": "Applicants to BSc Economics",
+          "source": "https://www.sussex.ac.uk/study/undergraduate/courses/economics-bsc",
+          "verified": "2026-10-02"
+        }
+      ]
+    },
+    "toefl": {
+      "min": null,
+      "recommended": null,
+      "note": "Each course sets its own level. Scores are valid for two years and cannot be combined across sittings.",
+      "varies": true,
+      "profilesComplete": false,
+      "profiles": [
+        {
+          "name": "BSc Economics (2027 entry)",
+          "overall": "80",
+          "sections": "Listening 17, reading 18, speaking 20, writing 17",
+          "scope": "Applicants to BSc Economics",
+          "source": "https://www.sussex.ac.uk/study/undergraduate/courses/economics-bsc",
+          "verified": "2026-10-02"
+        }
+      ]
+    },
+    "duolingo": {
+      "min": null,
+      "recommended": null,
+      "note": "Not confirmed during this check."
+    },
+    "waiver": null,
+    "note": "IELTS One Skill Retake is accepted. Cambridge C1 Advanced at 169 overall is among the other accepted tests for this course."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "not-applicable",
+      "note": "Admission is on school-leaving qualifications rather than the SAT or ACT."
+    },
+    "act": {
+      "policy": "not-applicable",
+      "note": "The US test-optional classification does not apply to this admission route."
+    },
+    "otherTests": null,
+    "internationalQualifications": "A-levels, the IB and listed international qualifications are accepted, with grades set per course (BSc Economics: typical A-level offer ABB–BBB, IB 32 points)."
+  },
+  "costs": {
+    "breakdown": {
+      "tuition": 24200,
+      "tuitionText": "£24,200 for BSc Economics — one confirmed course example",
+      "includes": "the international rate published on the BSc Economics course page; living costs are extra",
+      "published": true
+    },
+    "academicYear": "2027–2028",
+    "currency": "GBP",
+    "headline": "£24,200 tuition a year (BSc Economics example)",
+    "items": [
+      {
+        "label": "International tuition — BSc Economics",
+        "amount": 24200
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "£24,200 a year in tuition for this course; living costs are extra",
+    "note": "The fee is shown on the page for the course starting in September 2027; other courses are priced differently, and field trips or materials can add costs."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": false,
+      "internationalEligible": false,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "The scholarships Sussex lists for international undergraduates are partial awards."
+    },
+    "merit": [
+      {
+        "name": "Chancellor’s International Scholarship (2026)",
+        "amount": "£5,000",
+        "internationalEligible": true,
+        "deadline": "30 April 2026 (2026 entry; now closed)",
+        "note": "For “excellent” international applicants. The scheme for 2027 entry had not been published when this was checked."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": false,
+      "meetsFullNeed": false,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "No need-based aid for international undergraduates is described; the fully funded Sanctuary Scholarship is for forced migrants."
+    }
+  },
+  "sources": [
+    {
+      "label": "BSc Economics — entry requirements and fees (2027 entry)",
+      "url": "https://www.sussex.ac.uk/study/undergraduate/courses/economics-bsc"
+    },
+    {
+      "label": "Undergraduate scholarships",
+      "url": "https://www.sussex.ac.uk/study/fees-funding/undergraduate-scholarships/browse"
+    },
+    {
+      "label": "UCAS 2027 deadline",
+      "url": "https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "UCAS rounds",
+      "application fee",
+      "English (BSc Economics)",
+      "tuition (BSc Economics, 2027 entry)",
+      "scholarship list for 2026"
+    ],
+    "unconfirmed": [
+      "founding year",
+      "scholarships for 2027 entry",
+      "Duolingo acceptance",
+      "living costs"
+    ]
+  },
+  "lastVerified": "2026-10-02",
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  }
+},
+
+{
+  "id": "university-of-strathclyde",
+  "name": "University of Strathclyde",
+  "shortName": "Strathclyde",
+  "country": "uk",
+  "city": "Glasgow",
+  "region": "Scotland",
+  "founded": null,
+  "type": "Public university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#002B5C",
+    "c2": "#001a38",
+    "initials": "UoS"
+  },
+  "description": "A public university in the centre of Glasgow with faculties of science and engineering among others. Applications go through UCAS. International scholarships were not confirmed for this profile.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts"
+  ],
+  "programNote": "All degrees are taught in English. Fees are set course by course; the figure here comes from the BA Economics page.",
+  "links": {
+    "website": "https://www.strath.ac.uk/",
+    "admissions": "https://www.strath.ac.uk/studywithus/",
+    "internationalAdmissions": "https://www.strath.ac.uk/studywithus/internationalstudents/",
+    "applicationPortal": "https://www.ucas.com/",
+    "scholarships": "https://www.strath.ac.uk/studywithus/scholarships/",
+    "financialAid": "https://www.strath.ac.uk/studywithus/scholarships/",
+    "programs": "https://www.strath.ac.uk/courses/undergraduate/",
+    "cost": "https://www.strath.ac.uk/courses/undergraduate/economics/"
+  },
+  "admissions": {
+    "platforms": [
+      "UCAS (required for all undergraduate courses)"
+    ],
+    "deadlines": [
+      {
+        "name": "UCAS equal consideration deadline (2027 entry)",
+        "kind": "ucas-main",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-13",
+        "date": "13 January 2027",
+        "time": "18:00",
+        "timezone": "UK time",
+        "binding": false,
+        "appliesTo": "All undergraduate courses except those with a 15 October deadline",
+        "conditions": "Applications received by this time must be considered equally",
+        "status": "confirmed",
+        "source": "https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546",
+        "verified": "2026-09-23",
+        "note": null
+      },
+      {
+        "name": "UCAS applications open (2027 entry)",
+        "kind": "opens",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-05-12",
+        "date": "12 May 2026",
+        "binding": false,
+        "appliesTo": "All applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications",
+        "verified": "2026-09-23",
+        "note": "One UCAS application holds up to five course choices"
+      }
+    ],
+    "applicationFee": {
+      "amount": 34.5,
+      "currency": "GBP",
+      "waiverAvailableToInternational": false,
+      "waiver": null,
+      "note": "The £34.50 is the UCAS fee for the whole 2027-cycle application (up to five choices), not a university fee. UCAS waives it only for UK free-school-meal recipients and care leavers."
+    },
+    "documents": [
+      "UCAS application with personal statement",
+      "Academic reference",
+      "Predicted or achieved school-leaving grades",
+      "Proof of English where required"
+    ],
+    "recommendations": "One academic reference through UCAS",
+    "essay": "UCAS personal statement",
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": null,
+      "recommended": null,
+      "note": "Standard requirement 6.5 overall; science and undergraduate engineering ask for 6.0. Some programmes differ, so check the course page.",
+      "varies": true,
+      "profilesComplete": false,
+      "profiles": [
+        {
+          "name": "Standard requirement",
+          "overall": 6.5,
+          "sections": "No individual band less than 5.5",
+          "scope": "Most courses",
+          "source": "https://www.strath.ac.uk/studywithus/englishlanguagerequirements/",
+          "verified": "2026-10-02"
+        },
+        {
+          "name": "Faculty of Science",
+          "overall": 6.0,
+          "sections": "No individual band less than 5.5",
+          "scope": "Science courses",
+          "source": "https://www.strath.ac.uk/studywithus/englishlanguagerequirements/",
+          "verified": "2026-10-02"
+        },
+        {
+          "name": "Faculty of Engineering (undergraduate)",
+          "overall": 6.0,
+          "sections": "No individual band less than 5.5",
+          "scope": "Undergraduate engineering courses",
+          "source": "https://www.strath.ac.uk/studywithus/englishlanguagerequirements/",
+          "verified": "2026-10-02"
+        }
+      ]
+    },
+    "toefl": {
+      "min": null,
+      "recommended": null,
+      "note": "Not confirmed during this check; Strathclyde publishes a separate list of recognised English qualifications."
+    },
+    "duolingo": {
+      "min": null,
+      "recommended": null,
+      "note": "Not confirmed during this check."
+    },
+    "waiver": null,
+    "note": "Pre-sessional English courses are offered for applicants who need to raise their level."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "not-applicable",
+      "note": "Admission is on school-leaving qualifications rather than the SAT or ACT."
+    },
+    "act": {
+      "policy": "not-applicable",
+      "note": "The US test-optional classification does not apply to this admission route."
+    },
+    "otherTests": null,
+    "internationalQualifications": "Entry requirements are published per course and by country."
+  },
+  "costs": {
+    "breakdown": {
+      "tuition": 23200,
+      "tuitionText": "£23,200 for BA Economics in 2027/28 — one confirmed course example",
+      "includes": "the international rate published on the BA Economics course page; living costs are extra",
+      "published": true
+    },
+    "academicYear": "2027–2028",
+    "currency": "GBP",
+    "headline": "£23,200 tuition a year (BA Economics example)",
+    "items": [
+      {
+        "label": "International tuition — BA Economics, 2027/28",
+        "amount": 23200
+      },
+      {
+        "label": "International tuition — BA Economics, 2026/27",
+        "amount": 21550
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "£23,200 a year in tuition for this course in 2027/28; living costs are extra",
+    "note": "Fees are annual and may rise each year of the course. Other courses are priced differently."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "Scholarships for international undergraduates were not confirmed on the pages read, so nothing is claimed."
+    },
+    "merit": [],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Not confirmed during this check."
+    }
+  },
+  "sources": [
+    {
+      "label": "BA Economics — fees and funding",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/economics/"
+    },
+    {
+      "label": "English language requirements",
+      "url": "https://www.strath.ac.uk/studywithus/englishlanguagerequirements/"
+    },
+    {
+      "label": "UCAS 2027 deadline",
+      "url": "https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "UCAS rounds",
+      "application fee",
+      "IELTS levels",
+      "tuition (BA Economics, 2027/28)"
+    ],
+    "unconfirmed": [
+      "founding year",
+      "scholarships",
+      "TOEFL and Duolingo levels",
+      "living costs"
+    ]
+  },
+  "lastVerified": "2026-10-02",
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  }
+}
 );

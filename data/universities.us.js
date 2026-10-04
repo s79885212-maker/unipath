@@ -1919,15 +1919,15 @@ window.UNIPATH.universities.push(
           entryTerm: "Autumn",
           entryYear: "2027",
           dateISO: "2026-11-30",
-          date: "1–30 November 2026",
+          date: "1 October – 30 November 2026",
           binding: false,
           appliesTo: "All freshman applicants to any UC campus",
           conditions:
-            "One UC application covers all nine campuses. You can start work on it from 1 August; the filing period is 1–30 November.",
+            "One UC application covers all nine campuses. You can start work on it from 1 August; the filing period is 1 October – 30 November.",
           status: "confirmed",
           source:
             "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-freshman/",
-          verified: "2026-09-23",
+          verified: "2026-10-01",
           note: null,
         },
         {

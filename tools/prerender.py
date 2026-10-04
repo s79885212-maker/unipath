@@ -303,6 +303,11 @@ def university_page(u, country, fields):
     if u.get("institutionKind") == "community-college":
         row("Route", "A community college: it awards associate degrees and certificates, not a bachelor’s degree. "
                      "A bachelor’s degree needs a later transfer to a four-year institution, which is not guaranteed.")
+        ccx = u.get("communityCollege") or {}
+        for key, label in (("route", "Route for international applicants"), ("housing", "Housing"),
+                           ("transfer", "Transfer to a university"), ("work", "Study and work rules")):
+            if ccx.get(key):
+                row(label, e(ccx[key]))
 
     # Tuition, charges billed by the university and a full cost of attendance
     # are different figures, so each is written out separately, exactly as the
@@ -410,7 +415,7 @@ def university_page(u, country, fields):
 def country_page(c, unis):
     url = f"{SITE}/country/{c['code']}/"
     title = f"Study in {c['name']} as an international student — universities & scholarships | UniPath"
-    description = f"{c['name']}: {c.get('tagline', '')} Compare {len(unis)} universities, costs, deadlines and scholarships from official sources."
+    description = f"{c['name']}: {c.get('tagline', '')} Compare {len(unis)} universities and colleges, costs, deadlines and scholarships from official sources."
     items = "".join(
         f'<li><a href="{BASE}university/{e(u["id"])}/">{e(u["name"])}</a> — {e(u.get("city"))}'
         + (f" · {e(tuition_text(u))}" if tuition_text(u) else "") + "</li>"
@@ -423,7 +428,7 @@ def country_page(c, unis):
         f"<h1>{e(c.get('flag'))} {e(c['name'])}</h1>"
         f"<p>{e(c.get('tagline'))}</p><p>{e(c.get('overview'))}</p>"
         f"<h2>How applications work</h2><p>{e(c.get('applicationInfo'))}</p>"
-        f"<h2>Universities</h2><ul>{items}</ul>"
+        f"<h2>Universities &amp; colleges</h2><ul>{items}</ul>"
         + (f"<h2>Good to know</h2><ul>{notes}</ul>" if notes else "")
         + (f"<h2>Sources</h2><ul>{sources}</ul>" if sources else "")
         + f'<p class="small muted">{e(DISCLAIMER)}</p>'

@@ -94,6 +94,10 @@
         row('Founded', or(u.founded)) +
         row('Institution type', or(u.type)) +
         row('Degrees offered', esc(U.degreesLabel(u)) + (has(u.degreesNote) ? '<br><span class="small muted">' + esc(u.degreesNote) + '</span>' : '')) +
+        (u.communityCollege && has(u.communityCollege.route) ? row('Route for international applicants', esc(u.communityCollege.route)) : '') +
+        (u.communityCollege && has(u.communityCollege.housing) ? row('Housing', esc(u.communityCollege.housing)) : '') +
+        (u.communityCollege && has(u.communityCollege.transfer) ? row('Transfer to a university', esc(u.communityCollege.transfer)) : '') +
+        (u.communityCollege && has(u.communityCollege.work) ? row('Study and work rules', esc(u.communityCollege.work)) : '') +
         row('Language of instruction', or(u.languageOfInstruction)) +
         row('Official website', link(u.links.website)) +
         row('Location / map', has(u.city) ? '<a href="https://www.openstreetmap.org/search?query=' +
@@ -706,14 +710,14 @@
 
       out.innerHTML = list.length
         ? visible.map(U.uniCard).join('')
-        : '<div class="empty-state"><h3>No universities match those filters</h3>' +
+        : '<div class="empty-state"><h3>No institutions match those filters</h3>' +
           '<p data-i18n-html>Try removing a filter, or search for a field such as <em>Business</em>, <em>Computer Science</em> or <em>full scholarship</em>.</p>' +
           '<button class="btn btn-ghost" type="button" data-clear-filters>Reset all filters</button></div>';
 
       var more = document.getElementById('results-more');
       if (more) {
         more.innerHTML = list.length > visible.length
-          ? '<button class="btn btn-ghost" type="button" data-show-more>Show more universities (' + (list.length - visible.length) + ' left)</button>'
+          ? '<button class="btn btn-ghost" type="button" data-show-more>Show more (' + (list.length - visible.length) + ' left)</button>'
           : '';
       }
       save();
@@ -854,7 +858,7 @@
       '<h1>' + c.flag + ' <span>' + esc(c.name) + '</span></h1>' +
       '<p>' + esc(c.tagline) + '</p>' +
       '<div class="hero-stats">' +
-        '<div class="hero-stat"><b>' + list.length + '</b><span>Universities listed</span></div>' +
+        '<div class="hero-stat"><b>' + list.length + '</b><span>Universities &amp; colleges listed</span></div>' +
         '<div class="hero-stat"><b>' + withFullRide + '</b><span>With a full scholarship route</span></div>' +
         '<div class="hero-stat"><b>' + englishTaught + '</b><span>With English-taught degrees</span></div>' +
         (freeTuition ? '<div class="hero-stat"><b>' + freeTuition + '</b><span>With no tuition fee</span></div>' : '') +
@@ -863,11 +867,11 @@
 
     /* Catalogue first: on a phone the universities must be reachable at once. */
     var browse = '<section class="section"><div class="wrap">' +
-      '<div class="section-head" style="margin-bottom:16px"><h2>Universities in ' + esc(c.name) + '</h2>' +
-        '<p>Search and filters work across all ' + list.length + ' universities in ' + esc(c.name) + ', not only the cards shown.</p></div>' +
+      '<div class="section-head" style="margin-bottom:16px"><h2>Universities &amp; colleges in ' + esc(c.name) + '</h2>' +
+        '<p>Search and filters work across all ' + list.length + ' institutions in ' + esc(c.name) + ', not only the cards shown.</p></div>' +
       '<div class="searchbox searchbox-flat" style="max-width:600px">' +
         '<span class="search-icon">🔍</span>' +
-        '<input type="search" id="browse-q" placeholder="Search universities, cities, programs, scholarships…" aria-label="Search universities" autocomplete="off">' +
+        '<input type="search" id="browse-q" placeholder="Search universities, colleges, cities, programs, scholarships…" aria-label="Search universities" autocomplete="off">' +
       '</div>' +
       '<div class="pill-row" style="margin-top:14px">' + c.fieldsPopular.map(function (f) {
         var fl = U.field(f);
@@ -890,7 +894,7 @@
           var title = (g.year ? 'Academic year ' + g.year : 'Academic year not stated') + ' · ' + g.currency + ' · ' + (sem ? 'per semester' : 'per year') +
             (g.category ? ' · ' + g.category : '');
           var out = '<h4 class="cost-group-title">' + esc(title) + '</h4><dl class="uni-facts">' +
-            '<div><dt>Universities in this group</dt><dd>' + g.rows.length + ' / ' + list.length + '</dd></div>';
+            '<div><dt>Institutions in this group</dt><dd>' + g.rows.length + ' / ' + list.length + '</dd></div>';
           if (g.free) out += '<div><dt>Confirmed no tuition fee</dt><dd>' + g.free + '</dd></div>';
           if (g.low && g.high && g.low !== g.high) {
             out += '<div><dt>' + (g.free ? 'Lowest tuition among fee-charging universities' : 'Lowest tuition') + '</dt><dd><a href="' + U.uniUrl(g.low.u) + '">' + esc(U.displayName(g.low.u)) + '</a> — ' + esc(U.money(g.low.a, g.currency)) + '</dd></div>' +

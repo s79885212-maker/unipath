@@ -733,7 +733,7 @@
   var NAV = [
     { href: '#/', label: 'Home', key: 'home' },
     { href: '#/countries', label: 'Countries', key: 'countries' },
-    { href: '#/universities', label: 'Universities', key: 'universities' },
+    { href: '#/universities', label: 'Universities &amp; colleges', key: 'universities' },
     { href: '#/scholarships', label: 'Scholarships', key: 'scholarships' },
     { href: '#/news', label: 'Admissions updates', key: 'news' },
     { href: '#/match', label: 'Find my match', key: 'match' },
@@ -780,7 +780,7 @@
             '</div>' +
             '<div><h4>Countries</h4><ul>' + countryLinks + '</ul></div>' +
             '<div><h4>Explore</h4><ul>' +
-              '<li><a href="#/universities">All universities</a></li>' +
+              '<li><a href="#/universities">All universities &amp; colleges</a></li>' +
               '<li><a href="#/scholarships">Scholarships</a></li>' +
               '<li><a href="#/match">Find my match</a></li>' +
               '<li><a href="#/compare">Compare universities</a></li>' +
@@ -794,7 +794,7 @@
           '<div class="footer-disclaimer"><strong>Disclaimer.</strong> ' + esc(DISCLAIMER) + '</div>' +
           '<div class="footer-bottom">' +
             '<span>UniPath — independent research project. Not affiliated with any university.</span>' +
-            '<span>' + DB.universities.length + ' universities · ' + DB.countries.length + ' countries</span>' +
+            '<span>' + DB.universities.length + ' universities &amp; colleges · ' + DB.countries.length + ' countries</span>' +
           '</div>' +
         '</div>' +
       '</footer>';
@@ -892,10 +892,10 @@
           '<h3>' + esc(c.name) + '</h3>' +
           '<p class="desc">' + esc(c.tagline) + '</p>' +
           '<div class="country-meta">' +
-            '<div><b>' + n + '</b><span>Universities listed</span></div>' +
+            '<div><b>' + n + '</b><span>Universities &amp; colleges listed</span></div>' +
             '<div><b>' + c.currency + '</b><span>Currency</span></div>' +
           '</div>' +
-          '<a class="btn btn-primary btn-block card-cover-link" href="#/country/' + c.code + '">Explore universities</a>' +
+          '<a class="btn btn-primary btn-block card-cover-link" href="#/country/' + c.code + '">Explore universities &amp; colleges</a>' +
         '</div>' +
       '</article>';
   }

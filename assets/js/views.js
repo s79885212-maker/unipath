@@ -221,7 +221,7 @@
     document.title = 'About — UniPath';
     var s = stats();
     var rows = [
-      ['Countries', s.countries], ['Universities', s.unis], ['Official sources cited', s.sources],
+      ['Countries', s.countries], ['Universities &amp; colleges', s.unis], ['Official sources cited', s.sources],
       ['With a full scholarship route', s.fullRide], ['With English-taught degrees', s.english],
       ['Merit scholarships listed', s.merit], ['Study fields', U.DB.fields.length]
     ].map(function (r) { return '<div><dt>' + r[0] + '</dt><dd>' + r[1] + '</dd></div>'; }).join('');

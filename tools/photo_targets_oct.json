@@ -1,0 +1,415 @@
+{
+ "union-college": {
+  "article": "Union College",
+  "category": "Union College",
+  "keywords": [
+   "union college"
+  ]
+ },
+ "skidmore-college": {
+  "article": "Skidmore College",
+  "category": "Skidmore College",
+  "keywords": [
+   "skidmore college"
+  ]
+ },
+ "trinity-college-hartford": {
+  "article": "Trinity College (Connecticut)",
+  "category": "Trinity College (Connecticut)",
+  "keywords": [
+   "trinity college"
+  ]
+ },
+ "connecticut-college": {
+  "article": "Connecticut College",
+  "category": "Connecticut College",
+  "keywords": [
+   "connecticut college"
+  ]
+ },
+ "dickinson-college": {
+  "article": "Dickinson College",
+  "category": "Dickinson College",
+  "keywords": [
+   "dickinson college"
+  ]
+ },
+ "gettysburg-college": {
+  "article": "Gettysburg College",
+  "category": "Gettysburg College",
+  "keywords": [
+   "gettysburg college"
+  ]
+ },
+ "bucknell-university": {
+  "article": "Bucknell University",
+  "category": "Bucknell University",
+  "keywords": [
+   "bucknell university"
+  ]
+ },
+ "college-of-the-holy-cross": {
+  "article": "College of the Holy Cross",
+  "category": "College of the Holy Cross",
+  "keywords": [
+   "college of the holy cross"
+  ]
+ },
+ "sewanee-university-of-the-south": {
+  "article": "Sewanee: The University of the South",
+  "category": "Sewanee: The University of the South",
+  "keywords": [
+   "sewanee",
+   "university of the south"
+  ]
+ },
+ "rhodes-college": {
+  "article": "Rhodes College",
+  "category": "Rhodes College",
+  "keywords": [
+   "rhodes college"
+  ]
+ },
+ "centre-college": {
+  "article": "Centre College",
+  "category": "Centre College",
+  "keywords": [
+   "centre college"
+  ]
+ },
+ "college-of-wooster": {
+  "article": "College of Wooster",
+  "category": "College of Wooster",
+  "keywords": [
+   "wooster"
+  ]
+ },
+ "st-olaf-college": {
+  "article": "St. Olaf College",
+  "category": "St. Olaf College",
+  "keywords": [
+   "st. olaf college"
+  ]
+ },
+ "knox-college": {
+  "article": "Knox College (Illinois)",
+  "category": "Knox College (Illinois)",
+  "keywords": [
+   "knox college"
+  ]
+ },
+ "beloit-college": {
+  "article": "Beloit College",
+  "category": "Beloit College",
+  "keywords": [
+   "beloit college"
+  ]
+ },
+ "lawrence-university": {
+  "article": "Lawrence University",
+  "category": "Lawrence University",
+  "keywords": [
+   "lawrence university"
+  ]
+ },
+ "earlham-college": {
+  "article": "Earlham College",
+  "category": "Earlham College",
+  "keywords": [
+   "earlham college"
+  ]
+ },
+ "whitman-college": {
+  "article": "Whitman College",
+  "category": "Whitman College",
+  "keywords": [
+   "whitman college"
+  ]
+ },
+ "berlin-international-university": {
+  "article": "Berlin International University of Applied Sciences",
+  "category": "Berlin International University of Applied Sciences",
+  "keywords": [
+   "berlin international university of applied sciences"
+  ]
+ },
+ "university-of-europe-applied-sciences": {
+  "article": "University of Europe for Applied Sciences",
+  "category": "University of Europe for Applied Sciences",
+  "keywords": [
+   "university of europe for applied sciences"
+  ]
+ },
+ "karlshochschule": {
+  "article": "Karlshochschule International University",
+  "category": "Karlshochschule International University",
+  "keywords": [
+   "karlshochschule international university"
+  ]
+ },
+ "macromedia-university": {
+  "article": "Macromedia University of Applied Sciences",
+  "category": "Hochschule Macromedia",
+  "keywords": [
+   "macromedia"
+  ]
+ },
+ "temple-university-japan": {
+  "article": "Temple University, Japan Campus",
+  "category": "Temple University Japan",
+  "keywords": [
+   "temple university"
+  ]
+ },
+ "srh-berlin-university": {
+  "article": "SRH Berlin University of Applied Sciences",
+  "category": "SRH Hochschule Berlin",
+  "keywords": [
+   "srh"
+  ]
+ },
+ "soka-university-of-america": {
+  "article": "Soka University of America",
+  "category": "Soka University of America",
+  "keywords": [
+   "soka university"
+  ]
+ },
+ "clark-university": {
+  "article": "Clark University",
+  "category": "Clark University",
+  "keywords": [
+   "clark university"
+  ]
+ },
+ "northeastern-university": {
+  "article": "Northeastern University",
+  "category": "Northeastern University",
+  "keywords": [
+   "northeastern university"
+  ]
+ },
+ "drexel-university": {
+  "article": "Drexel University",
+  "category": "Drexel University",
+  "keywords": [
+   "drexel university"
+  ]
+ },
+ "syracuse-university": {
+  "article": "Syracuse University",
+  "category": "Syracuse University",
+  "keywords": [
+   "syracuse university"
+  ]
+ },
+ "loyola-marymount-university": {
+  "article": "Loyola Marymount University",
+  "category": "Loyola Marymount University",
+  "keywords": [
+   "loyola marymount university"
+  ]
+ },
+ "texas-christian-university": {
+  "article": "Texas Christian University",
+  "category": "Texas Christian University",
+  "keywords": [
+   "texas christian university"
+  ]
+ },
+ "pepperdine-university": {
+  "article": "Pepperdine University",
+  "category": "Pepperdine University",
+  "keywords": [
+   "pepperdine university"
+  ]
+ },
+ "colorado-college": {
+  "article": "Colorado College",
+  "category": "Colorado College",
+  "keywords": [
+   "colorado college"
+  ]
+ },
+ "fordham-university": {
+  "article": "Fordham University",
+  "category": "Fordham University",
+  "keywords": [
+   "fordham university"
+  ]
+ },
+ "furman-university": {
+  "article": "Furman University",
+  "category": "Furman University",
+  "keywords": [
+   "furman university"
+  ]
+ },
+ "university-of-virginia": {
+  "article": "University of Virginia",
+  "category": "University of Virginia",
+  "keywords": [
+   "university of virginia"
+  ]
+ },
+ "university-of-florida": {
+  "article": "University of Florida",
+  "category": "University of Florida",
+  "keywords": [
+   "university of florida"
+  ]
+ },
+ "florida-state-university": {
+  "article": "Florida State University",
+  "category": "Florida State University",
+  "keywords": [
+   "florida state university"
+  ]
+ },
+ "michigan-state-university": {
+  "article": "Michigan State University",
+  "category": "Michigan State University",
+  "keywords": [
+   "michigan state university"
+  ]
+ },
+ "purdue-university": {
+  "article": "Purdue University",
+  "category": "Purdue University",
+  "keywords": [
+   "purdue university"
+  ]
+ },
+ "ohio-state-university": {
+  "article": "Ohio State University",
+  "category": "Ohio State University",
+  "keywords": [
+   "ohio state university"
+  ]
+ },
+ "foothill-college": {
+  "article": "Foothill College",
+  "category": "Foothill College",
+  "keywords": [
+   "foothill college"
+  ]
+ },
+ "de-anza-college": {
+  "article": "De Anza College",
+  "category": "De Anza College",
+  "keywords": [
+   "de anza college"
+  ]
+ },
+ "santa-monica-college": {
+  "article": "Santa Monica College",
+  "category": "Santa Monica College",
+  "keywords": [
+   "santa monica college"
+  ]
+ },
+ "sinclair-community-college": {
+  "article": "Sinclair Community College",
+  "category": "Sinclair Community College",
+  "keywords": [
+   "sinclair community college"
+  ]
+ },
+ "green-river-college": {
+  "article": "Green River College",
+  "category": "Green River College",
+  "keywords": [
+   "green river college"
+  ]
+ },
+ "yamanashi-gakuin-university": {
+  "article": "Yamanashi Gakuin University",
+  "category": "Yamanashi Gakuin University",
+  "keywords": [
+   "yamanashi gakuin university"
+  ]
+ },
+ "dongseo-university": {
+  "article": "Dongseo University",
+  "category": "Dongseo University",
+  "keywords": [
+   "dongseo university"
+  ]
+ },
+ "university-of-sussex": {
+  "article": "University of Sussex",
+  "category": "University of Sussex",
+  "keywords": [
+   "university of sussex"
+  ]
+ },
+ "university-of-strathclyde": {
+  "article": "University of Strathclyde",
+  "category": "University of Strathclyde",
+  "keywords": [
+   "university of strathclyde"
+  ]
+ },
+ "technische-hochschule-ingolstadt": {
+  "article": "Technische Hochschule Ingolstadt",
+  "category": "Technische Hochschule Ingolstadt",
+  "keywords": [
+   "hochschule ingolstadt",
+   "thi"
+  ]
+ },
+ "kuehne-logistics-university": {
+  "article": "Kühne Logistics University",
+  "category": "Kühne Logistics University",
+  "keywords": [
+   "kühne logistics university",
+   "kuhne logistics university",
+   "klu"
+  ]
+ },
+ "trinity-university": {
+  "article": "Trinity University (Texas)",
+  "category": "Trinity University",
+  "keywords": [
+   "trinity university",
+   "san antonio"
+  ]
+ },
+ "ucla": {
+  "article": "University of California, Los Angeles",
+  "category": "University of California, Los Angeles",
+  "keywords": [
+   "ucla",
+   "university of california, los angeles",
+   "royce hall",
+   "powell library"
+  ]
+ },
+ "uc-san-diego": {
+  "article": "University of California, San Diego",
+  "category": "University of California, San Diego",
+  "keywords": [
+   "uc san diego",
+   "ucsd",
+   "university of california, san diego",
+   "geisel library"
+  ]
+ },
+ "nagoya-university-of-commerce-and-business": {
+  "article": "Nagoya University of Commerce & Business",
+  "category": "Nagoya University of Commerce & Business",
+  "keywords": [
+   "nagoya university of commerce",
+   "nucb"
+  ]
+ },
+ "suny-korea": {
+  "article": "State University of New York, Korea",
+  "category": "SUNY Korea",
+  "keywords": [
+   "suny korea",
+   "state university of new york, korea",
+   "incheon global campus"
+  ]
+ }
+}
