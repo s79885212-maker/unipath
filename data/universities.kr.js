@@ -2499,23 +2499,24 @@ window.UNIPATH.universities.push(
   },
   "costs": {
     "breakdown": {
-      "tuition": null,
-      "tuitionText": "$11,775 listed as full-time undergraduate tuition for Fall 2026 (non-New York State resident)",
+      "tuition": 11775,
+      "tuitionText": "$11,775 per semester of full-time undergraduate tuition (Fall 2026, non-New York State resident)",
       "includes": "tuition only; course-specific fees, the dormitory and living costs are extra",
-      "published": true
+      "published": true,
+      "period": "semester"
     },
     "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": "$11,775 full-time undergraduate tuition (Fall 2026, non-New York State resident)",
+    "headline": "$11,775 per semester in full-time undergraduate tuition (Fall 2026, non-New York State resident)",
     "items": [
       {
-        "label": "Full-time undergraduate tuition, non-New York State resident (as listed for Fall 2026)",
+        "label": "Full-time undergraduate tuition per semester, non-New York State resident (Fall 2026)",
         "amount": 11775
       }
     ],
     "billedSubtotal": null,
-    "totalText": "$11,775 as listed for Fall 2026; course fees, dormitory and living costs are extra",
-    "note": "SUNY Korea lists this as the full-time tuition cost for Fall 2026 without saying on the page whether it is per semester. Dormitory rates are published by the Incheon Global Campus."
+    "totalText": "$11,775 per semester as listed for Fall 2026; course fees, dormitory and living costs are extra",
+    "note": "SUNY Korea’s tuition installment plan gives the Fall 2026 semester balance as $11,775, so the listed figure is for one semester. Dormitory rates are published by the Incheon Global Campus."
   },
   "scholarships": {
     "fullRide": {
@@ -2568,6 +2569,10 @@ window.UNIPATH.universities.push(
     {
       "label": "About — history and facts",
       "url": "https://www.sunykorea.ac.kr/en/html/sub01/010201.html"
+    },
+    {
+      "label": "Tuition installment plan",
+      "url": "https://sunykorea.ac.kr/costaid/html/sub03/0301.html"
     }
   ],
   "verification": {
@@ -2579,10 +2584,10 @@ window.UNIPATH.universities.push(
       "listed tuition",
       "English tests",
       "SAT/ACT policy",
-      "founding year"
+      "founding year",
+      "tuition period"
     ],
     "unconfirmed": [
-      "tuition period",
       "scholarships",
       "dormitory costs"
     ]

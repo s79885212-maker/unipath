@@ -1091,11 +1091,11 @@
 
   P['university-of-virginia'] = {
     stats: {
-      term: 'Fall 2023 entering class',
-      source: { label: 'University of Virginia Common Data Set 2023–24 (section C9)', url: 'https://ira.virginia.edu/sites/ira/files/2023-2024%20CDS_FINAL_508.pdf' },
+      term: 'Fall 2024 entering class',
+      source: { label: 'University of Virginia Common Data Set 2024–25 (section C9)', url: 'https://ira.virginia.edu/sites/ira/files/2025-03/CDS_2024-2025_508.pdf' },
       official: {
-        sat: { composite: [1410, 1450, 1510], rw: [700, 730, 750], math: [710, 760, 780], submitted: '50%', cohort: 'enrolled', submittersOnly: true, note: 'UVA publishes its 2025–26 Common Data Set only as an interactive dashboard, which could not be opened during this check; these figures are from the 2023–24 document.' },
-        act: [32, 33, 34]
+        sat: { composite: [1410, 1470, 1520], rw: [700, 730, 760], math: [710, 750, 780], submitted: '46%', cohort: 'enrolled', submittersOnly: true, note: 'UVA publishes its 2025–26 Common Data Set only as an interactive dashboard, which could not be opened during this check; these figures are from the 2024–25 document.' },
+        act: [32, 33, 35]
       }
     }
   };

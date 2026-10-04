@@ -2826,7 +2826,7 @@ window.UNIPATH.universities.push(
   "country": "jp",
   "city": "Kofu",
   "region": "Yamanashi",
-  "founded": null,
+  "founded": 1946,
   "type": "Private university",
   "institutionKind": "private",
   "degrees": [
@@ -2964,14 +2964,27 @@ window.UNIPATH.universities.push(
   },
   "costs": {
     "breakdown": {
-      "tuition": null,
-      "includes": "only housing and meals were confirmed; tuition was not read",
-      "published": false
+      "tuition": 1316000,
+      "tuitionText": "¥1,316,000 tuition plus a ¥380,000 facility and equipment fee each year; the first year adds a ¥200,000 enrolment fee",
+      "includes": "tuition and the facility and equipment fee; the residence hall and meal plan are extra",
+      "published": true
     },
     "academicYear": "2027",
     "currency": "JPY",
-    "headline": "¥1,000,000 a year for residence hall and meals; tuition not confirmed",
+    "headline": "¥1,896,000 in the first year · ¥1,696,000 in each later year, plus about ¥1,000,000 a year for residence hall and meals",
     "items": [
+      {
+        "label": "Tuition (per year)",
+        "amount": 1316000
+      },
+      {
+        "label": "Facility and equipment fee (per year)",
+        "amount": 380000
+      },
+      {
+        "label": "Enrolment fee (first year only)",
+        "amount": 200000
+      },
       {
         "label": "Residence hall — room and utilities (per year)",
         "amount": 650000
@@ -2982,8 +2995,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "billedSubtotal": null,
-    "totalText": "About ¥1,000,000 a year for the residence hall and meal plan; tuition is published separately",
-    "note": "Tuition figures were not readable during this check. All first-year students must live in the iCLA residence halls and take the meal plan. Fees for academic year 2027 are subject to change."
+    "totalText": "¥1,896,000 in the first year and ¥1,696,000 in each later year for tuition and fees; the residence hall and meal plan add about ¥1,000,000 a year",
+    "note": "Tuition figures come from the fee chart on iCLA’s Fees & Funding page. All first-year students must live in the iCLA residence halls and take the meal plan. Fees for academic year 2027 are subject to change."
   },
   "scholarships": {
     "fullRide": {
@@ -3041,6 +3054,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Fees and funding",
       "url": "https://www.icla.ygu.ac.jp/en/fees-funding/"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.ygu.ac.jp/en/about/history/"
     }
   ],
   "verification": {
@@ -3050,15 +3067,15 @@ window.UNIPATH.universities.push(
       "application fee",
       "TOEFL requirement",
       "housing and meal costs",
-      "scholarship types"
+      "scholarship types",
+      "founding year",
+      "tuition"
     ],
     "unconfirmed": [
-      "founding year",
-      "tuition",
       "IELTS and Duolingo equivalents"
     ]
   },
-  "lastVerified": "2026-10-02",
+  "lastVerified": "2026-10-04",
   "photos": {
     "main": null,
     "gallery": [],

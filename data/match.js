@@ -95,6 +95,7 @@ window.UNIPATH.match = {
     'bucknell-university': { currency: 'USD', basis: 'total', min: 97716, max: 97716 },
     'college-of-the-holy-cross': { currency: 'USD', basis: 'total', min: 91740, max: 91740, note: 'Billed charges; books, travel and personal expenses extra' },
     'rhodes-college': { currency: 'USD', basis: 'total', min: 77856, max: 77856, note: 'Billed charges; books, travel and personal expenses extra' },
+    'sewanee-university-of-the-south': { currency: 'USD', basis: 'total', min: 78210, max: 78210, note: 'Comprehensive fee; international students should budget roughly $6,000 more' },
     'centre-college': { currency: 'USD', basis: 'total', min: 73990, max: 73990, note: 'Billed charges; books, travel and personal expenses extra' },
     'college-of-wooster': { currency: 'USD', basis: 'total', min: 82340, max: 82340, note: 'Billed charges; books, travel and personal expenses extra' },
     'st-olaf-college': { currency: 'USD', basis: 'total', min: 81200, max: 81200, note: 'Billed charges; books, travel and personal expenses extra' },
@@ -132,6 +133,8 @@ window.UNIPATH.match = {
     'technische-hochschule-ingolstadt': { currency: 'EUR', basis: 'tuition', min: 1600, max: 1600, note: 'Two semesters at €800 for students from outside the EU/EEA; the student union fee is extra' },
     'kuehne-logistics-university': { currency: 'EUR', basis: 'tuition', min: 15800, max: 17700, note: 'Two semesters; the higher figure is the intensive track' },
     'dongseo-university': { currency: 'KRW', basis: 'tuition', min: 8333000, max: 8333000, note: 'First year for the English-track majors open to first-year applicants (engineering and arts fields): first semester plus one later semester' },
+    'suny-korea': { currency: 'USD', basis: 'tuition', min: 23550, max: 23550, note: 'Two semesters at the Fall 2026 rate of $11,775 for students from outside New York State; course fees and the dormitory are extra' },
+    'yamanashi-gakuin-university': { currency: 'JPY', basis: 'tuition', min: 1696000, max: 1896000, note: 'Tuition and facility fee; the higher figure is the first year with the enrolment fee. Residence hall and meals add about ¥1,000,000 a year' },
     /* United States — cost of attendance for 2026–27 */
     'harvard-university':      { currency: 'USD', basis: 'total', min: 95134, max: 100134 },
     'new-york-university':     { currency: 'USD', basis: 'total', min: 100998, max: 100998, note: 'College of Arts & Science estimate; tuition varies by school' },

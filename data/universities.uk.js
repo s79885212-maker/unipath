@@ -3653,7 +3653,7 @@ window.UNIPATH.universities.push(
   "country": "uk",
   "city": "Brighton",
   "region": "England",
-  "founded": null,
+  "founded": 1961,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -3883,6 +3883,10 @@ window.UNIPATH.universities.push(
     {
       "label": "UCAS 2027 deadline",
       "url": "https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.sussex.ac.uk/about/facts/facts-figures"
     }
   ],
   "verification": {
@@ -3892,10 +3896,10 @@ window.UNIPATH.universities.push(
       "application fee",
       "English (BSc Economics)",
       "tuition (BSc Economics, 2027 entry)",
-      "scholarship list for 2026"
+      "scholarship list for 2026",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
       "scholarships for 2027 entry",
       "Duolingo acceptance",
       "living costs"
@@ -3916,7 +3920,7 @@ window.UNIPATH.universities.push(
   "country": "uk",
   "city": "Glasgow",
   "region": "Scotland",
-  "founded": null,
+  "founded": 1796,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -4144,6 +4148,10 @@ window.UNIPATH.universities.push(
     {
       "label": "UCAS 2027 deadline",
       "url": "https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.strath.ac.uk/whystrathclyde/universitygovernance/"
     }
   ],
   "verification": {
@@ -4152,10 +4160,10 @@ window.UNIPATH.universities.push(
       "UCAS rounds",
       "application fee",
       "IELTS levels",
-      "tuition (BA Economics, 2027/28)"
+      "tuition (BA Economics, 2027/28)",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
       "scholarships",
       "TOEFL and Duolingo levels",
       "living costs"

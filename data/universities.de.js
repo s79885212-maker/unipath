@@ -2522,7 +2522,7 @@ window.UNIPATH.universities.push(
   "country": "de",
   "city": "Ingolstadt",
   "region": "Bavaria",
-  "founded": null,
+  "founded": 1994,
   "type": "Public university of applied sciences",
   "institutionKind": "public",
   "degrees": [
@@ -2706,6 +2706,10 @@ window.UNIPATH.universities.push(
     {
       "label": "International degree students",
       "url": "https://www.thi.de/en/studies/international-degree-students/"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.thi.de/en/university/university-profile/translate-to-english-milestones"
     }
   ],
   "verification": {
@@ -2714,10 +2718,10 @@ window.UNIPATH.universities.push(
       "English-taught bachelor’s programme",
       "application period for winter 2027/28",
       "tuition for non-EU students",
-      "English test policy"
+      "English test policy",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
       "student union fee",
       "application fee",
       "waiver criteria"

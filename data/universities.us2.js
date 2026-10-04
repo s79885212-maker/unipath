@@ -6053,7 +6053,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Saratoga Springs",
   "region": "New York",
-  "founded": null,
+  "founded": 1903,
   "type": "Private liberal arts college",
   "institutionKind": "liberal-arts",
   "degrees": [
@@ -6277,6 +6277,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Bursar — cost of attendance",
       "url": "https://www.skidmore.edu/bursar/cost.php"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://catalog.skidmore.edu/about-skidmore-college/"
     }
   ],
   "verification": {
@@ -6287,10 +6291,10 @@ window.UNIPATH.universities.push(
       "testing policy",
       "English tests",
       "tuition, housing and food",
-      "aid for international students"
+      "aid for international students",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
       "whether admission is need-aware for international applicants",
       "full cost of attendance with books and travel"
     ]
@@ -8065,7 +8069,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Sewanee",
   "region": "Tennessee",
-  "founded": null,
+  "founded": 1857,
   "type": "Private liberal arts university",
   "institutionKind": "liberal-arts",
   "degrees": [
@@ -8198,21 +8202,21 @@ window.UNIPATH.universities.push(
   "english": {
     "ielts": {
       "min": null,
-      "recommended": null,
-      "note": "Sewanee says it considers several standardized tests of English proficiency; the accepted tests and scores were not readable on its page during this check."
+      "recommended": 7,
+      "note": "Recommended minimum 7.0. Sewanee does not accept the IELTS Indicator."
     },
     "toefl": {
       "min": null,
-      "recommended": null,
-      "note": "Not confirmed during this check."
+      "recommended": 95,
+      "note": "Recommended minimum TOEFL iBT 95; the page does not give a score on the scale used from January 2026. MyBest scores are not accepted; the Home Edition is."
     },
     "duolingo": {
       "min": null,
-      "recommended": null,
-      "note": "Not confirmed during this check."
+      "recommended": 115,
+      "note": "Recommended minimum 115, sent from the applicant’s Duolingo account."
     },
-    "waiver": null,
-    "note": null
+    "waiver": "A waiver can be requested with A-Level English at grade B or higher, AP English 4 or 5, IB Higher Level Language or Literature 6 or 7, SAT Evidence-Based Reading and Writing 670+, or four years at an English-speaking high school with B+ or higher in English each year.",
+    "note": "Required of all international applicants and applicants educated outside the United States. Sewanee does not superscore these exams and does not accept scores more than two years old."
   },
   "academics": {
     "gpa": null,
@@ -8229,14 +8233,43 @@ window.UNIPATH.universities.push(
   },
   "costs": {
     "breakdown": {
-      "published": false
+      "tuition": 60088,
+      "billed": 78210,
+      "includes": "tuition, fees, books, room and the meal plan"
     },
-    "academicYear": null,
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
-    "totalText": null,
-    "note": "Tuition and fees were not readable on Sewanee’s cost page during this check. Sewanee reports an average institutional award of just over $34,500 for new students who receive aid."
+    "headline": "$60,088 tuition · $78,210 comprehensive fee",
+    "items": [
+      {
+        "label": "Tuition",
+        "amount": 60088
+      },
+      {
+        "label": "Activities fee",
+        "amount": 320
+      },
+      {
+        "label": "Bookstore (First Day Complete programme; students may opt out)",
+        "amount": 530
+      },
+      {
+        "label": "Tuition insurance (students may opt out)",
+        "amount": 466
+      },
+      {
+        "label": "Room and board",
+        "amount": 17272
+      },
+      {
+        "label": "Supplies, health insurance, personal expenses, SEVIS, visa and travel — rough budget for international students",
+        "amount": 6000
+      }
+    ],
+    "billedSubtotal": 78210,
+    "totalText": "$78,210 comprehensive fee; international students should budget roughly $6,000 more",
+    "note": "Sewanee’s admission page gives the 2026–27 comprehensive fee as $78,210, while its 2026–2027 catalog itemises a total of $77,680; the item amounts above are from the catalog. Sewanee reports an average institutional award of just over $34,500 for new students who receive aid.",
+    "studentCategory": "International students"
   },
   "scholarships": {
     "fullRide": {
@@ -8277,6 +8310,22 @@ window.UNIPATH.universities.push(
     {
       "label": "Cost and financial aid",
       "url": "https://new.sewanee.edu/admission-aid/cost-financial-aid/"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://new.sewanee.edu/about-sewanee/history-of-the-university/"
+    },
+    {
+      "label": "English proficiency",
+      "url": "https://new.sewanee.edu/admission-aid/application-process/application-review/international-applicant/english-proficiency/"
+    },
+    {
+      "label": "Tuition and fees 2026–2027",
+      "url": "https://new.sewanee.edu/admission-aid/cost-financial-aid/tuition-fees/"
+    },
+    {
+      "label": "Catalog 2026–2027 — tuition and fees",
+      "url": "https://e-catalog.sewanee.edu/arts-sciences/admission-expenses-financial-aid/tuition-fees/"
     }
   ],
   "verification": {
@@ -8284,16 +8333,16 @@ window.UNIPATH.universities.push(
     "checked": [
       "deadlines",
       "application fee",
-      "testing policy"
-    ],
-    "unconfirmed": [
+      "testing policy",
       "founding year",
       "English tests and scores",
-      "tuition and costs",
+      "tuition and costs"
+    ],
+    "unconfirmed": [
       "aid for international students"
     ]
   },
-  "lastVerified": "2026-10-01",
+  "lastVerified": "2026-10-04",
   "photos": {
     "main": null,
     "gallery": [],
@@ -8308,7 +8357,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Memphis",
   "region": "Tennessee",
-  "founded": null,
+  "founded": 1848,
   "type": "Private liberal arts college",
   "institutionKind": "liberal-arts",
   "degrees": [
@@ -8573,6 +8622,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Rhodes College Common Data Set 2025–26 (section C13)",
       "url": "https://www.rhodes.edu/sites/default/files/2026-05/CDS_2025-26_(New_Update).xlsx"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.rhodes.edu/about-rhodes/college-history"
     }
   ],
   "verification": {
@@ -8583,10 +8636,10 @@ window.UNIPATH.universities.push(
       "English tests",
       "costs for international students",
       "aid for international students",
-      "application fee"
+      "application fee",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
       "academic year of the published costs"
     ]
   },
@@ -8896,7 +8949,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Wooster",
   "region": "Ohio",
-  "founded": null,
+  "founded": 1866,
   "type": "Private liberal arts college",
   "institutionKind": "liberal-arts",
   "degrees": [
@@ -9157,6 +9210,10 @@ window.UNIPATH.universities.push(
     {
       "label": "The College of Wooster Common Data Set 2025–26 (section C13)",
       "url": "https://inside.wooster.edu/consumer-and-accreditation-information/common-data-sets/"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://catalog.wooster.edu/content.php?catoid=9&navoid=220"
     }
   ],
   "verification": {
@@ -9166,10 +9223,10 @@ window.UNIPATH.universities.push(
       "testing policy",
       "accepted English tests",
       "costs",
-      "application fee"
+      "application fee",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
       "IELTS and Duolingo scores",
       "share of need met for international students",
       "merit scholarship amounts"
@@ -10949,7 +11006,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Aliso Viejo",
   "region": "California",
-  "founded": null,
+  "founded": 1987,
   "type": "Private liberal arts college",
   "institutionKind": "liberal-arts",
   "degrees": [
@@ -11192,6 +11249,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Cost of attendance 2026–2027",
       "url": "https://www.soka.edu/admissions-aid/cost-attendance"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.soka.edu/about/proud-heritage"
     }
   ],
   "verification": {
@@ -11202,10 +11263,10 @@ window.UNIPATH.universities.push(
       "testing policy",
       "English tests",
       "costs",
-      "aid for international students"
+      "aid for international students",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
       "whether housing and food can be covered by aid",
       "merit scholarship amounts"
     ]
@@ -12880,22 +12941,29 @@ window.UNIPATH.universities.push(
   },
   "english": {
     "ielts": {
-      "min": null,
+      "min": 6.5,
       "recommended": null,
-      "note": "TCU states TOEFL 80 or IELTS 6.5 for international transfer applicants; a figure for first-year applicants was not found on the pages read."
+      "note": null
     },
     "toefl": {
       "min": null,
       "recommended": null,
-      "note": "TCU states TOEFL 80 or IELTS 6.5 for international transfer applicants; a figure for first-year applicants was not found on the pages read."
+      "scales": [
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ],
+      "note": "4.5 or higher on the current scale. TCU’s transfer requirements page still states 80 on the previous scale."
     },
     "duolingo": {
-      "min": null,
+      "min": 110,
       "recommended": null,
-      "note": "Duolingo is named among the accepted submissions; no score was found."
+      "note": null
     },
-    "waiver": null,
-    "note": null
+    "waiver": "At least three years at a high school or college where English is the primary language of instruction, or 24 or more transferable credit hours (including English composition) at a US college, also satisfies the requirement.",
+    "note": "From TCU’s questions and answers for international students, last updated on 28 July 2026."
   },
   "academics": {
     "gpa": null,
@@ -13007,6 +13075,10 @@ window.UNIPATH.universities.push(
     {
       "label": "About — history and facts",
       "url": "https://www.tcu.edu/about/"
+    },
+    {
+      "label": "Questions and answers for international students",
+      "url": "https://admissions.tcu.edu/apply/faqs/for-international-students.php"
     }
   ],
   "verification": {
@@ -13017,10 +13089,10 @@ window.UNIPATH.universities.push(
       "testing policy",
       "costs",
       "aid for international students",
-      "founding year"
+      "founding year",
+      "English tests and scores"
     ],
     "unconfirmed": [
-      "English tests and scores",
       "academic year of the published costs",
       "scholarship amounts"
     ]
@@ -13748,11 +13820,11 @@ window.UNIPATH.universities.push(
       }
     ],
     "applicationFee": {
-      "amount": null,
+      "amount": 0,
       "currency": "USD",
       "waiverAvailableToInternational": null,
       "waiver": null,
-      "note": "The application fee was not found on the pages read."
+      "note": "Trinity states there is no fee for applications submitted online."
     },
     "documents": [
       "Application",
@@ -13895,6 +13967,10 @@ window.UNIPATH.universities.push(
     {
       "label": "About — history and facts",
       "url": "https://www.trinity.edu/about/history"
+    },
+    {
+      "label": "Trinity University — guide for international applicants",
+      "url": "https://trinity.edu/admissions-and-aid/guides-and-resources/guide-international-applicants"
     }
   ],
   "verification": {
@@ -13905,13 +13981,12 @@ window.UNIPATH.universities.push(
       "English tests",
       "costs",
       "aid for international students",
-      "founding year"
-    ],
-    "unconfirmed": [
+      "founding year",
       "application fee"
-    ]
+    ],
+    "unconfirmed": []
   },
-  "lastVerified": "2026-10-01",
+  "lastVerified": "2026-10-04",
   "photos": {
     "main": null,
     "gallery": [],
@@ -13926,7 +14001,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "New York",
   "region": "New York",
-  "founded": null,
+  "founded": 1841,
   "type": "Private Jesuit university",
   "institutionKind": "private",
   "degrees": [
@@ -14209,6 +14284,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Tuition and cost of attendance — Rose Hill, 2026–2027",
       "url": "https://www.fordham.edu/student-financial-services/tuition-and-payments/undergraduate-tuition/fordham-college-at-rose-hill/"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.fordham.edu/about/fordhams-history/"
     }
   ],
   "verification": {
@@ -14219,10 +14298,10 @@ window.UNIPATH.universities.push(
       "testing policy",
       "English tests",
       "costs",
-      "aid for international students"
+      "aid for international students",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
       "decision dates"
     ]
   },
@@ -14570,7 +14649,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Los Angeles",
   "region": "California",
-  "founded": null,
+  "founded": 1919,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -14670,11 +14749,11 @@ window.UNIPATH.universities.push(
       }
     ],
     "applicationFee": {
-      "amount": null,
+      "amount": 95,
       "currency": "USD",
-      "waiverAvailableToInternational": null,
-      "waiver": null,
-      "note": "The UC application charges a fee for each campus; the amount was not re-read during this check."
+      "waiverAvailableToInternational": false,
+      "waiver": "UC fee waivers are for US citizens, permanent residents and applicants eligible for AB540 benefits",
+      "note": "The UC application fee is $95 per campus for international and non-immigrant applicants ($80 per campus for others); it is non-refundable."
     },
     "documents": [
       "UC Application with personal insight questions",
@@ -14812,6 +14891,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Tuition and fees",
       "url": "https://admission.ucla.edu/tuition-aid/tuition-fees"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://newsroom.ucla.edu/ucla-fast-facts"
+    },
+    {
+      "label": "University of California — how to apply",
+      "url": "https://admission.universityofcalifornia.edu/apply-now.html"
     }
   ],
   "verification": {
@@ -14821,14 +14908,13 @@ window.UNIPATH.universities.push(
       "testing policy",
       "English tests",
       "costs",
-      "aid for international students"
-    ],
-    "unconfirmed": [
+      "aid for international students",
       "founding year",
       "application fee"
-    ]
+    ],
+    "unconfirmed": []
   },
-  "lastVerified": "2026-10-01",
+  "lastVerified": "2026-10-04",
   "photos": {
     "main": null,
     "gallery": [],
@@ -14843,7 +14929,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "San Diego (La Jolla)",
   "region": "California",
-  "founded": null,
+  "founded": 1960,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -14929,11 +15015,11 @@ window.UNIPATH.universities.push(
       }
     ],
     "applicationFee": {
-      "amount": null,
+      "amount": 95,
       "currency": "USD",
-      "waiverAvailableToInternational": null,
-      "waiver": null,
-      "note": "The UC application charges a fee for each campus; the amount was not re-read during this check."
+      "waiverAvailableToInternational": false,
+      "waiver": "UC fee waivers are for US citizens, permanent residents and applicants eligible for AB540 benefits",
+      "note": "The UC application fee is $95 per campus for international and non-immigrant applicants ($80 per campus for others); it is non-refundable."
     },
     "documents": [
       "UC Application",
@@ -15064,6 +15150,14 @@ window.UNIPATH.universities.push(
     {
       "label": "UC San Diego Common Data Set 2025–26 (section G1)",
       "url": "https://ir.ucsd.edu/stats/undergrad/CDS-2025-2026-Final2.pdf"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://catalog.ucsd.edu/about/about-uc-san-diego/index.html"
+    },
+    {
+      "label": "University of California — how to apply",
+      "url": "https://admission.universityofcalifornia.edu/apply-now.html"
     }
   ],
   "verification": {
@@ -15072,11 +15166,11 @@ window.UNIPATH.universities.push(
       "deadlines",
       "testing policy",
       "English tests",
-      "nonresident tuition and billed costs"
+      "nonresident tuition and billed costs",
+      "founding year",
+      "application fee"
     ],
     "unconfirmed": [
-      "founding year",
-      "application fee",
       "institutional aid for international students",
       "decision dates"
     ]
@@ -15197,11 +15291,11 @@ window.UNIPATH.universities.push(
       }
     ],
     "applicationFee": {
-      "amount": null,
+      "amount": 75,
       "currency": "USD",
       "waiverAvailableToInternational": null,
       "waiver": null,
-      "note": "The application fee was not found on the pages read."
+      "note": "Stated in section C13 of UVA’s 2024–25 Common Data Set; the 2025–26 edition could not be opened during this check."
     },
     "documents": [
       "Common Application",
@@ -15344,6 +15438,10 @@ window.UNIPATH.universities.push(
     {
       "label": "About — history and facts",
       "url": "https://www.virginia.edu/aboutuva"
+    },
+    {
+      "label": "University of Virginia Common Data Set 2024–25 (section C13)",
+      "url": "https://ira.virginia.edu/sites/ira/files/2025-03/CDS_2024-2025_508.pdf"
     }
   ],
   "verification": {
@@ -15354,14 +15452,14 @@ window.UNIPATH.universities.push(
       "English tests accepted",
       "costs",
       "aid for international students",
-      "founding year"
+      "founding year",
+      "application fee"
     ],
     "unconfirmed": [
-      "application fee",
       "English score expectations"
     ]
   },
-  "lastVerified": "2026-10-01",
+  "lastVerified": "2026-10-04",
   "photos": {
     "main": null,
     "gallery": [],
@@ -15944,7 +16042,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "East Lansing",
   "region": "Michigan",
-  "founded": null,
+  "founded": 1855,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -16211,6 +16309,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Cost and aid",
       "url": "https://admissions.msu.edu/cost-aid"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://brand.msu.edu/storytelling/msu-history"
     }
   ],
   "verification": {
@@ -16221,10 +16323,10 @@ window.UNIPATH.universities.push(
       "testing policy",
       "English tests",
       "costs",
-      "scholarships for international students"
+      "scholarships for international students",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
       "costs for 2026–27"
     ]
   },
@@ -16243,7 +16345,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "West Lafayette",
   "region": "Indiana",
-  "founded": null,
+  "founded": 1869,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -16474,6 +16576,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Purdue Common Data Set 2025–26 (section C8)",
       "url": "https://www.purdue.edu/idata/products-services/common-data-set/"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.purdue.edu/home/about/purdue-primer/"
     }
   ],
   "verification": {
@@ -16484,10 +16590,10 @@ window.UNIPATH.universities.push(
       "English tests",
       "tuition",
       "aid for international students",
-      "testing policy"
+      "testing policy",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
       "total annual budget for international students"
     ]
   },
@@ -16506,7 +16612,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Columbus",
   "region": "Ohio",
-  "founded": null,
+  "founded": 1870,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -16607,11 +16713,11 @@ window.UNIPATH.universities.push(
       }
     ],
     "applicationFee": {
-      "amount": null,
+      "amount": 70,
       "currency": "USD",
-      "waiverAvailableToInternational": null,
-      "waiver": null,
-      "note": "The Common Application fee is required; the amount for international applicants was not found on the pages read."
+      "waiverAvailableToInternational": false,
+      "waiver": "Ohio State says international applicants are not eligible for application fee waivers",
+      "note": "Non-refundable fee paid through the Common Application."
     },
     "documents": [
       "Common Application",
@@ -16754,6 +16860,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Merit scholarships",
       "url": "https://undergrad.osu.edu/cost-and-aid/merit-based-scholarships"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://undergrad.osu.edu/majors-and-academics/quick-facts"
+    },
+    {
+      "label": "Ohio State — Common Application for international freshmen",
+      "url": "https://undergrad.osu.edu/apply/international-freshmen/common-app"
     }
   ],
   "verification": {
@@ -16763,14 +16877,13 @@ window.UNIPATH.universities.push(
       "testing policy",
       "English tests",
       "costs",
-      "aid for international students"
-    ],
-    "unconfirmed": [
+      "aid for international students",
       "founding year",
       "application fee"
-    ]
+    ],
+    "unconfirmed": []
   },
-  "lastVerified": "2026-10-01",
+  "lastVerified": "2026-10-04",
   "photos": {
     "main": null,
     "gallery": [],
@@ -16785,7 +16898,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Los Altos Hills",
   "region": "California",
-  "founded": null,
+  "founded": 1957,
   "type": "Public community college",
   "institutionKind": "community-college",
   "degrees": [
@@ -17068,6 +17181,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Degrees and certificates",
       "url": "https://foothill.edu/programs/"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://foothill.edu/about/facts.html"
     }
   ],
   "verification": {
@@ -17078,11 +17195,10 @@ window.UNIPATH.universities.push(
       "English tests",
       "costs",
       "aid for international students",
-      "housing"
-    ],
-    "unconfirmed": [
+      "housing",
       "founding year"
-    ]
+    ],
+    "unconfirmed": []
   },
   "lastVerified": "2026-10-01",
   "degreesNote": "Mainly associate degrees, associate degrees for transfer and certificates; the catalog also lists a small number of Bachelor of Science degrees.",
@@ -17106,7 +17222,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Cupertino",
   "region": "California",
-  "founded": null,
+  "founded": 1967,
   "type": "Public community college",
   "institutionKind": "community-college",
   "degrees": [
@@ -17379,6 +17495,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Transfer information",
       "url": "https://www.deanza.edu/international/about/transfer.html"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.fhda.edu/_about-us/_history-the-legacy-of-foothill-de-anza.html"
     }
   ],
   "verification": {
@@ -17388,10 +17508,10 @@ window.UNIPATH.universities.push(
       "application fee",
       "English tests",
       "costs",
-      "housing"
+      "housing",
+      "founding year"
     ],
     "unconfirmed": [
-      "founding year",
       "scholarships for international students"
     ]
   },
@@ -17981,7 +18101,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Auburn",
   "region": "Washington",
-  "founded": null,
+  "founded": 1965,
   "type": "Public community college",
   "institutionKind": "community-college",
   "degrees": [
@@ -18279,6 +18399,10 @@ window.UNIPATH.universities.push(
     {
       "label": "International student housing",
       "url": "https://www.greenriver.edu/international/housing/index.html"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.greenriver.edu/campus/history/"
     }
   ],
   "verification": {
@@ -18289,11 +18413,10 @@ window.UNIPATH.universities.push(
       "English tests",
       "costs",
       "scholarships",
-      "housing"
-    ],
-    "unconfirmed": [
+      "housing",
       "founding year"
-    ]
+    ],
+    "unconfirmed": []
   },
   "lastVerified": "2026-10-02",
   "degreesNote": "Mainly associate degrees and certificates; the college also offers Bachelor of Applied Science programmes, usually entered after an associate degree.",
