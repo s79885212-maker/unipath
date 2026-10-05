@@ -29,7 +29,7 @@ window.UNIPATH.match = {
     'university-of-glasgow':   { currency: 'GBP', basis: 'tuition', min: 28275, max: 33708 },
     'university-of-st-andrews':{ currency: 'GBP', basis: 'tuition', min: 33250, max: 33250 },
     'university-of-sheffield': { currency: 'GBP', basis: 'tuition', min: 27650, max: 34670 },
-    'university-of-aberdeen':  { currency: 'GBP', basis: 'tuition', min: 18800, max: 24800, note: 'The lower figure is the self-funded rate after the Aberdeen Global Scholarship' },
+    'university-of-aberdeen':  { currency: 'GBP', basis: 'tuition', min: 24800, max: 24800, note: 'Published tuition before the Aberdeen Global Scholarship; no award is subtracted here' },
     'bard-college-berlin':     { currency: 'EUR', basis: 'total', min: 27500, max: 38250, note: 'Comprehensive fee; the higher figure includes housing and weekday meals' },
     'berlin-international-university': { currency: 'EUR', basis: 'tuition', min: 8100, max: 8940 },
     'munich-business-school':  { currency: 'EUR', basis: 'tuition', min: 12840, max: 12840, note: '€44,940 across the whole programme' },

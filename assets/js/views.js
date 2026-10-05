@@ -39,14 +39,14 @@
   '</div>' +
   '<div class="quick-links reveal reveal-3"><span>Try:</span>' +
     '<a class="chip" href="#/universities?q=Business">Business</a>' +
-    '<a class="chip" href="#/universities?scholarship=full-ride-intl">Full scholarship</a>' +
+    '<a class="chip" href="#/universities?scholarship=full-ride-intl">Full-level awards</a>' +
     '<a class="chip" href="#/universities?q=Computer%20Science">Computer Science</a>' +
     '<a class="chip" href="#/universities?scholarship=need">Need-based aid</a>' +
     '<a class="chip" href="#/universities?field=engineering">Engineering</a>' +
   '</div>' +
   '<div class="hero-stats">' +
     '<div class="hero-stat"><b>' + s.unis + '</b><span>Universities profiled</span></div>' +
-    '<div class="hero-stat"><b>' + s.fullRide + '</b><span>With a full scholarship route</span></div>' +
+    '<div class="hero-stat"><b>' + s.fullRide + '</b><span>List a full-tuition or larger award (competitive, not guaranteed)</span></div>' +
     '<div class="hero-stat"><b>' + s.english + '</b><span>Offering English-taught degrees</span></div>' +
     '<div class="hero-stat"><b>' + s.sources + '</b><span>Official sources cited</span></div>' +
   '</div>' +
@@ -81,9 +81,9 @@
     '<p>Admission and scholarship information decides where people spend four years and a great deal of money, so this site treats accuracy as the product.</p>' +
     '<ul class="stack" style="padding-left:1.1em">' +
       '<li>Requirements, costs, deadlines and scholarships come from the universities’ own websites, and every profile lists the exact pages they came from.</li>' +
-      '<li data-i18n-html>Where a university does not publish something, the field says <em>“Not confirmed — check the official source”</em> instead of guessing a plausible number.</li>' +
+      '<li data-i18n-html>A missing field says which case it is — <em>not checked</em>, <em>not published in the official source checked</em> or <em>not applicable</em> — instead of showing a plausible number.</li>' +
       '<li data-i18n-html>A scholarship is only labelled a <strong>full ride</strong> when the official source states what it covers. Tuition-only awards are labelled as tuition-only.</li>' +
-      '<li data-i18n-html>Where a profile offers a target to aim for, it is marked <strong>UniPath estimate</strong> and explains what it is based on — it is never presented as an official requirement.</li>' +
+      '<li data-i18n-html>A number is shown as what it is: an <strong>official minimum</strong>, a university <strong>recommendation</strong> or a <strong>statistic</strong> about past students. UniPath adds no estimates of its own.</li>' +
       '<li data-i18n-html>Every profile carries a <strong>Last verified</strong> date.</li>' +
     '</ul>' +
     '<a class="btn btn-primary" href="#/about">How the data is sourced →</a>' +
@@ -150,7 +150,9 @@
         var fr = U.fullRide(u), merit = U.meritList(u), need = U.needBased(u);
         var covers = fr.covers || {};
         var coverHtml = [['tuition', 'Tuition'], ['housing', 'Housing'], ['meals', 'Meals'],
-          ['insurance', 'Health insurance'], ['books', 'Books & other']].map(function (m) {
+          ['insurance', 'Health insurance'], ['books', 'Books & other'], ['stipend', 'Living stipend']].filter(function (m) {
+          return m[0] !== 'stipend' || (covers.stipend !== undefined && covers.stipend !== null);
+        }).map(function (m) {
           var v = covers[m[0]];
           var cls = v === true ? 'cover-yes' : v === false ? 'cover-no' : 'cover-unk';
           var mark = v === true ? '✓ ' : v === false ? '✕ ' : '? ';
@@ -168,12 +170,12 @@
           '<div style="display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:flex-start">' +
             '<h3 style="margin:0"><a href="' + U.uniUrl(u) + '">' + esc(u.name) + '</a></h3>' +
             '<div class="pill-row">' +
-              (fr.available === true ? '<span class="badge badge-ok">Full scholarship route</span>' : '') +
+              (fr.available === true ? '<span class="badge ' + (U.awardKind(u) === 'full-ride' ? 'badge-ok' : 'badge-warn') + '">' + U.esc(U.awardLabel(u)) + '</span>' : '') +
               (need.meetsFullNeed === true ? '<span class="badge badge-ok">Meets full need</span>' : '') +
               (need.availableToInternational === true ? '<span class="badge badge-info">Need-based aid</span>' : '') +
             '</div></div>' +
           (fr.available === true || fr.available === false
-            ? '<p class="small" style="margin:12px 0 8px"><strong>Full-ride coverage:</strong></p><div class="covers">' + coverHtml + '</div>' +
+            ? '<p class="small" style="margin:12px 0 8px"><strong>What the largest award covers:</strong></p><div class="covers">' + coverHtml + '</div>' +
               (U.has(fr.note) ? '<p class="small muted" style="margin-top:10px">' + esc(fr.note) + '</p>' : '')
             : '') +
           meritHtml +
@@ -194,7 +196,7 @@
           'Housing, food, insurance, flights and living costs are usually still yours to pay. Each card below spells out which of those are covered.' +
         '</div></div>' +
         '<div class="pill-row" style="margin-bottom:26px">' +
-          '<a class="badge badge-flat" href="#/universities?scholarship=full-ride-intl">Full scholarship for internationals</a>' +
+          '<a class="badge badge-flat" href="#/universities?scholarship=full-ride-intl">Full-level awards for internationals</a>' +
           '<a class="badge badge-flat" href="#/universities?scholarship=full-tuition">Full tuition covered</a>' +
           '<a class="badge badge-flat" href="#/universities?scholarship=merit">Merit scholarships</a>' +
           '<a class="badge badge-flat" href="#/universities?scholarship=need">Need-based aid</a>' +
@@ -222,7 +224,7 @@
     var s = stats();
     var rows = [
       ['Countries', s.countries], ['Universities &amp; colleges', s.unis], ['Official sources cited', s.sources],
-      ['With a full scholarship route', s.fullRide], ['With English-taught degrees', s.english],
+      ['List a full-tuition or larger award (competitive)', s.fullRide], ['With English-taught degrees', s.english],
       ['Merit scholarships listed', s.merit], ['Study fields', U.DB.fields.length]
     ].map(function (r) { return '<div><dt>' + r[0] + '</dt><dd>' + r[1] + '</dd></div>'; }).join('');
     var countryList = U.DB.countries.map(function (c) {
@@ -244,17 +246,17 @@
         '<p>Students applying to a bachelor’s degree outside their own country, and the parents and teachers helping them. It is most useful early on, when you are deciding where to apply and what you can afford.</p>' +
 
         '<h2 style="margin-top:36px">How the data is collected and checked</h2>' +
-        '<p>Admission requirements, costs, deadlines, scholarship details and published student statistics are collected from official university sources. When a university does not publish a figure, UniPath shows it as ‘Not confirmed’ or ‘Not published’. In some profiles, UniPath also provides a clearly labelled estimate to help students set a target. These estimates are guidance only, are based on the stated evidence, and are not official requirements or guarantees of admission.</p>' +
+        '<p>Admission requirements, costs, deadlines, scholarship details and published student statistics are collected from official university sources. A field without a figure carries a status: ‘Not checked’ when the official page has not been read or could not be opened, ‘Not published in the official source checked’ when it was read and the figure is not there, and ‘Not applicable’ when the field does not apply. A page that could not be read is never reported as information the university does not publish.</p>' +
         '<p>Every profile lists the exact pages its information came from, with direct links, so you can check any figure yourself.</p>' +
 
         '<h3>What “Last verified” means</h3>' +
         '<p data-i18n-html>Each profile shows a <strong>Last verified</strong> date: the day its information was last checked against the official sources listed on it. Universities update fees, deadlines and requirements every year, so the older the date, the more important it is to re-check the official page.</p>' +
 
-        '<h3>How UniPath estimates work</h3>' +
-        '<p data-i18n-html>Some universities publish no English score or no typical grades. Where that happens, a profile may show a target marked <strong>UniPath estimate</strong>, always next to a short note on what it is based on — the university’s own published statistics, the ranges of admitted students, or figures that comparable universities publish. An estimate is never shown as an official requirement, and meeting it does not guarantee admission.</p>' +
+        '<h3>No estimates of our own</h3>' +
+        '<p data-i18n-html>UniPath does not show score targets or “chances” of its own. A number on a profile is either an <strong>official minimum</strong>, a level the university <strong>recommends</strong>, or a <strong>statistic</strong> about students of a past intake, and it is labelled as such. Where a university publishes no figure, the profile says so and the <em>Find my match</em> page simply does not compare that score.</p>' +
 
         '<h3>The full-ride rule</h3>' +
-        '<p data-i18n-html>A scholarship is described as a <strong>full ride</strong> only when the official source states what it covers. Most awards advertised as “100% scholarships” cover 100% of <em>tuition</em> — not housing, food, insurance or flights. Every scholarship on this site shows a coverage breakdown with three states: covered (✓), not covered (✕), and not confirmed (?).</p>' +
+        '<p data-i18n-html>A scholarship is described as a <strong>full ride</strong> only when the official source states that tuition, housing and meals are covered. An award that pays tuition and a monthly stipend is labelled <strong>full tuition + living stipend</strong>, a tuition-only award <strong>full tuition only</strong>, and a promise to <strong>meet full demonstrated need</strong> is shown separately, because it depends on a family’s finances. Most awards advertised as “100% scholarships” cover 100% of <em>tuition</em> — not housing, food, insurance or flights. Every scholarship on this site shows a coverage breakdown with three states: covered (✓), not covered (✕), and not confirmed (?).</p>' +
 
         '<h3>Photographs</h3>' +
         '<p>Campus photographs come from Wikimedia Commons under free licences, and every photo is credited to its author on the university profile.</p>' +

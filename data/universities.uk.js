@@ -95,7 +95,7 @@ window.UNIPATH.universities.push(
       available: true,
       internationalEligible: true,
       basis: 'need-based',
-      covers: { tuition: true, housing: null, meals: null, insurance: null, books: null },
+      covers: { tuition: true, housing: null, meals: null, insurance: null, books: null, stipend: true },
       renewable: true,
       competitiveness: 'Around 2–3 awards are made each year across the whole university, and only applicants who already hold an offer are considered. Competition is described by Oxford as very high.',
       howToApply: 'Apply for admission first. Offer holders from eligible countries then apply for the Reach Oxford Scholarship by 26 January 2027; selection runs in April and results are given by the end of May.',
@@ -371,6 +371,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A-levels, IB and a long list of international school-leaving qualifications are accepted; the required grades are on each course page.'
   },
   costs: {
+    status: 'not-published',
     breakdown: { published: false },
     academicYear: '2027–2028',
     currency: 'GBP',
@@ -566,7 +567,7 @@ window.UNIPATH.universities.push(
       available: true,
       internationalEligible: true,
       basis: 'need-based',
-      covers: { tuition: true, housing: null, meals: null, insurance: null, books: null },
+      covers: { tuition: true, housing: null, meals: null, insurance: null, books: null, stipend: true },
       renewable: true,
       competitiveness: 'For 2026/27 UCL offered up to 33 awards across the whole university, of which only 10 included a maintenance allowance. Selection is on financial need, and shortlisted applicants must provide financial evidence.',
       howToApply: 'Submit your UCL admission application first, then apply separately for the scholarship by the published deadline — you do not need to hold an offer, but your fee status must be confirmed as Overseas.',
@@ -1897,6 +1898,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A-levels, the IB and a published list of international qualifications are accepted, with grades set per course.'
   },
   costs: {
+    status: 'not-published',
     breakdown: { published: false, includes: 'Durham had not confirmed 2027-entry overseas fees when this was checked; the rate is then published on each course page' },
     academicYear: '2027\u20132028',
     currency: 'GBP',
@@ -2710,6 +2712,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A-levels, the IB and a published list of international qualifications are accepted, with grades set per course.'
   },
   costs: {
+    status: 'not-published',
     breakdown: { published: false, includes: 'Birmingham had not published 2027-entry international fees when this was checked' },
     academicYear: '2027\u20132028',
     currency: 'GBP',
@@ -2870,6 +2873,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A-levels, the IB and a published list of international qualifications are accepted, with grades set per course.'
   },
   costs: {
+    status: 'not-published',
     breakdown: { published: false, includes: 'York published the 2027/28 international undergraduate fee as to be confirmed when this was checked' },
     academicYear: '2027\u20132028',
     currency: 'GBP',

@@ -125,6 +125,12 @@
         current = { type: 'compare' };
         break;
 
+      case 'saved':
+        P.renderSaved();
+        U.setActiveNav('saved');
+        current = { type: 'saved' };
+        break;
+
       case 'about':
         main.innerHTML = V.about();
         U.setActiveNav('about');
@@ -180,6 +186,11 @@
     document.addEventListener('unipath:compare', function () {
       if (current && current.type === 'compare') P.renderCompare();
     });
+    function redrawSaved() {
+      if (current && current.type === 'saved') { P.renderSaved(); if (global.I18N && global.I18N.apply) global.I18N.apply(main); }
+    }
+    document.addEventListener('unipath:saved', redrawSaved);
+    document.addEventListener('unipath:intake', redrawSaved);
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start);

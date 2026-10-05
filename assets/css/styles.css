@@ -2418,3 +2418,111 @@ button.badge {
 .stat-meta { margin: 6px 0 0; overflow-wrap: anywhere; }
 
 .cost-group-title { margin: 16px 0 6px; font-size: 1rem; }
+
+/* ---------- v70: intake choice, reference blocks, saved list, match basis, report form ---------- */
+.intake-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 4px 0 14px;
+}
+.intake-pick {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.intake-pick select {
+  font: inherit;
+  font-weight: 500;
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  color: inherit;
+  max-width: 100%;
+}
+.results-level {
+  flex: 1 1 100%;
+}
+.ref-block {
+  margin-top: 14px;
+  border: 1px dashed var(--line);
+  border-radius: 10px;
+  padding: 10px 14px;
+  background: var(--surface-2);
+}
+.ref-block > summary {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.93rem;
+}
+.ref-block .rounds {
+  margin-top: 10px;
+}
+.save-toggle[aria-pressed="true"] {
+  border-color: var(--warn-line);
+  background: var(--warn-100);
+  color: var(--warn-700);
+}
+.saved-table tr.is-past td {
+  opacity: 0.6;
+}
+.basis-tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 650;
+  letter-spacing: 0.01em;
+  padding: 1px 7px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--surface-2);
+  white-space: nowrap;
+  vertical-align: 1px;
+}
+.basis-minimum {
+  border-color: var(--ok-600);
+  color: var(--ok-600);
+}
+.basis-statistic {
+  border-color: var(--warn-line);
+  color: var(--warn-700);
+}
+.match-unchecked {
+  margin-top: 10px;
+  font-size: 0.88rem;
+}
+.match-unchecked > summary {
+  cursor: pointer;
+  color: var(--warn-700);
+  font-weight: 600;
+}
+.match-unchecked ul {
+  margin: 6px 0 0;
+  padding-left: 1.2em;
+  color: var(--ink-500);
+}
+.report-text {
+  display: block;
+  width: 100%;
+  max-width: 720px;
+  margin-top: 6px;
+  padding: 10px 12px;
+  font: inherit;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface-2);
+  color: inherit;
+  resize: vertical;
+}
+.intake-pick select:focus-visible,
+.report-text:focus-visible,
+.ref-block > summary:focus-visible,
+.match-unchecked > summary:focus-visible {
+  outline: 2px solid var(--brand-500, #2563eb);
+  outline-offset: 2px;
+}

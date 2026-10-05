@@ -18,7 +18,7 @@
     'requirement-change': 'Requirement change'
   };
 
-  var state = { country: 'all' };
+  var state = { country: 'all', cycle: 'all' };
 
   function items() {
     return (global.UNIPATH && global.UNIPATH.news) || [];
@@ -75,6 +75,7 @@
         '<span class="badge badge-info">' + esc(TYPE_LABEL[n.type] || 'Update') + '</span>' +
         (c ? '<span class="badge badge-flat">' + c.flag + ' ' + esc(c.name) + '</span>'
            : '<span class="badge badge-flat">All countries</span>') +
+        (has(n.cycle) ? '<span class="badge badge-flat"><span>Entry</span> <span>' + esc(n.cycle) + '</span></span>' : '') +
         '<span class="badge ' + STATE_BADGE[newsState(n)] + '">' + esc(STATE_LABEL[newsState(n)]) + '</span>' +
       '</div>' +
       '<h3 style="margin:10px 0 6px">' + esc(n.title) + '</h3>' +
@@ -82,7 +83,7 @@
       '<p style="margin:0 0 12px">' + esc(n.summary) + '</p>' +
       (has(n.stateNote) && !isPast(n) ? '<p class="small" style="margin:0 0 12px"><strong>' + esc(STATE_LABEL[newsState(n)]) + ':</strong> ' + esc(n.stateNote) + '</p>' : '') +
       '<dl class="uni-facts">' +
-        '<div><dt>' + esc(whenLabel) + '</dt><dd>' + (when ? esc(when) : '<span class="unknown">Not published</span>') + '</dd></div>' +
+        '<div><dt>' + esc(whenLabel) + '</dt><dd>' + (when ? esc(when) : '<span class="unknown">Not stated by the source</span>') + '</dd></div>' +
         '<div><dt>Published</dt><dd>' + (has(n.published) ? esc(fmt(n.published)) : '<span class="unknown">Not stated by the source</span>') + '</dd></div>' +
         '<div><dt>Checked</dt><dd>' + esc(fmt(n.verified)) + '</dd></div>' +
       '</dl>' +
@@ -99,8 +100,10 @@
   }
 
   function draw() {
+    /* An item with no cycle is a standing rule: it stays visible under every entry year. */
     var all = items().filter(function (n) {
-      return state.country === 'all' || n.country === state.country || n.country === 'all';
+      return (state.country === 'all' || n.country === state.country || n.country === 'all') &&
+        (state.cycle === 'all' || !has(n.cycle) || n.cycle === state.cycle);
     });
     var live = all.filter(function (n) { return !isPast(n); });
     var past = all.filter(isPast);
@@ -113,7 +116,7 @@
         '<p>Only announcements confirmed on an official source are listed here, so this section stays empty rather than showing anything unverified.</p></div>') +
       (past.length
         ? '<h2 style="margin-top:36px">Archive</h2>' +
-          '<p class="small muted">Deadlines that have passed and calls that have ended. They stay here so you can see what the cycle looked like.</p>' +
+          '<p class="small muted">Deadlines that have passed and calls that have ended. They stay here so you can see what the cycle looked like. A rule change stays in the main list for as long as it is in force, even after the day it was announced.</p>' +
           '<div class="grid grid-2" style="margin-top:16px">' + past.map(card).join('') + '</div>'
         : '');
 
@@ -127,6 +130,16 @@
           (c ? c.flag + ' ' + esc(c.name) : 'All countries') + '</button>';
       }).join('');
     }
+    var cyc = document.getElementById('news-cycle');
+    if (cyc) {
+      var years = {};
+      items().forEach(function (n) { if (has(n.cycle)) years[n.cycle] = true; });
+      cyc.innerHTML = '<span class="small muted" style="align-self:center">Entry year:</span> ' + ['all'].concat(Object.keys(years).sort()).map(function (y) {
+        var on = state.cycle === y;
+        return '<button type="button" class="badge badge-flat' + (on ? ' is-on' : '') + '" aria-pressed="' + (on ? 'true' : 'false') + '" data-news-cycle="' + esc(y) + '">' +
+          (y === 'all' ? 'Any entry year' : '<span>Entry</span> <span>' + esc(y) + '</span>') + '</button>';
+      }).join('');
+    }
   }
 
   function render(main) {
@@ -135,7 +148,8 @@
       '<p>Application openings, confirmed deadlines, requirement changes and scholarship calls — each one taken from the official source, with the date it was published and the date it was last checked.</p>' +
       '</div></section>' +
       '<section class="section"><div class="wrap">' +
-        '<div class="pill-row" id="news-filter" style="margin-bottom:20px"></div>' +
+        '<div class="pill-row" id="news-filter" style="margin-bottom:10px"></div>' +
+        '<div class="pill-row" id="news-cycle" style="margin-bottom:20px"></div>' +
         '<div id="news-list"></div>' +
         '<p class="small muted" style="margin-top:26px">Nothing here is written from memory: if a source does not state a publication date, this page says so instead of inventing one. Always confirm a deadline on the university’s own page before you rely on it.</p>' +
       '</div></section>';
@@ -147,6 +161,12 @@
     var b = e.target.closest ? e.target.closest('[data-news-country]') : null;
     if (!b) return;
     state.country = b.getAttribute('data-news-country');
+    draw();
+  });
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest ? e.target.closest('[data-news-cycle]') : null;
+    if (!b) return;
+    state.cycle = b.getAttribute('data-news-cycle');
     draw();
   });
 

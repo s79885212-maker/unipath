@@ -19,10 +19,13 @@
    state      — open | upcoming | closed | varies | informational; an entry
                 with no deadline is never assumed to be an open call
    stateNote  — one sentence explaining the state, shown on the card
+   cycle      — the entry year the item is about, as the source names it;
+                left out for a rule that is not tied to one entry year
    ============================================================ */
 window.UNIPATH.news = [
   {
     id: 'commonapp-2026-27-open',
+    cycle: '2027',
     type: 'applications-open',
     country: 'us',
     org: 'Common App',
@@ -38,6 +41,7 @@ window.UNIPATH.news = [
   },
   {
     id: 'ucas-2027-open',
+    cycle: '2027',
     type: 'applications-open',
     country: 'uk',
     org: 'UCAS',
@@ -53,6 +57,7 @@ window.UNIPATH.news = [
   },
   {
     id: 'ucas-2027-oct-deadline',
+    cycle: '2027',
     type: 'deadline',
     country: 'uk',
     org: 'UCAS',
@@ -70,6 +75,7 @@ window.UNIPATH.news = [
   },
   {
     id: 'ucas-2027-jan-deadline',
+    cycle: '2027',
     type: 'deadline',
     country: 'uk',
     org: 'UCAS',
@@ -87,6 +93,7 @@ window.UNIPATH.news = [
   },
   {
     id: 'gks-2027-undergraduate',
+    cycle: '2027',
     type: 'scholarship',
     country: 'kr',
     org: 'NIIED — Study in Korea',
@@ -102,6 +109,7 @@ window.UNIPATH.news = [
   },
   {
     id: 'mext-2027-undergraduate',
+    cycle: '2027',
     type: 'scholarship',
     country: 'jp',
     org: 'MEXT — Study in Japan',
@@ -132,6 +140,7 @@ window.UNIPATH.news = [
   },
   {
     id: 'fau-tuition-2027',
+    cycle: '2027',
     type: 'requirement-change',
     country: 'de',
     org: 'FAU Erlangen-Nürnberg',

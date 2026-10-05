@@ -14,7 +14,7 @@ window.UNIPATH = window.UNIPATH || {
      null the About page shows neutral text and no button — never a form
      that goes nowhere. */
   config: {
-    reportErrorUrl: null
+    reportErrorUrl: 'https://github.com/s79885212-maker/unipath/issues/new'
   },
   /* Program taxonomy. Add a key here and every filter/menu picks it up. */
   fields: [

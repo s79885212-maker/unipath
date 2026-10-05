@@ -80,7 +80,7 @@ window.UNIPATH.universities.push(
       available: true,
       internationalEligible: true,
       basis: 'merit',
-      covers: { tuition: true, housing: false, meals: false, insurance: false, books: false },
+      covers: { tuition: true, housing: false, meals: false, insurance: false, books: false, stipend: true },
       renewable: true,
       competitiveness: 'Extremely competitive — for PEAK, UTokyo stated that up to five successful international applicants may be offered the MEXT scholarship.',
       howToApply: 'The MEXT (Japanese Government) Scholarship is applied for through the university recommendation route alongside admission, or separately through a Japanese embassy.',
@@ -161,6 +161,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: null
   },
   costs: {
+    status: 'confirmed',
     breakdown: { published: false },
     academicYear: null,
     currency: 'JPY',
@@ -763,7 +764,7 @@ window.UNIPATH.universities.push(
       available: true,
       internationalEligible: true,
       basis: 'merit',
-      covers: { tuition: true, housing: false, meals: false, insurance: false, books: false },
+      covers: { tuition: true, housing: false, meals: false, insurance: false, books: false, stipend: true },
       renewable: true,
       competitiveness: 'Highly competitive — awarded to selected applicants at admission.',
       howToApply: 'Indicate that you wish to be considered for a scholarship at the time of application.',
@@ -857,7 +858,7 @@ window.UNIPATH.universities.push(
     note: 'These are the standard national-university rates in Japan; individual universities can differ, and fee waivers or exemptions are awarded separately.'
   },
   scholarships: {
-    fullRide: { available: true, internationalEligible: true, basis: 'merit', covers: { tuition: true, housing: false, meals: false, insurance: false, books: false }, renewable: true, competitiveness: 'Recommendations are limited in number and go to the strongest applicants.', howToApply: 'Selected applicants are recommended by the university for the Japanese government (MEXT) scholarship after admission selection.', note: 'A MEXT scholarship covers the enrolment fee and tuition and pays a monthly stipend, but housing, food and insurance are paid from that stipend rather than provided.' },
+    fullRide: { available: true, internationalEligible: true, basis: 'merit', covers: { tuition: true, housing: false, meals: false, insurance: false, books: false, stipend: true }, renewable: true, competitiveness: 'Recommendations are limited in number and go to the strongest applicants.', howToApply: 'Selected applicants are recommended by the university for the Japanese government (MEXT) scholarship after admission selection.', note: 'A MEXT scholarship covers the enrolment fee and tuition and pays a monthly stipend, but housing, food and insurance are paid from that stipend rather than provided.' },
     merit: [],
     needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
   },
@@ -1017,7 +1018,7 @@ window.UNIPATH.universities.push(
     note: 'These are the standard national-university rates in Japan; individual universities can differ, and fee waivers or exemptions are awarded separately.'
   },
   scholarships: {
-    fullRide: { available: true, internationalEligible: true, basis: 'merit', covers: { tuition: true, housing: false, meals: false, insurance: false, books: false }, renewable: true, competitiveness: 'MEXT places are limited and awarded to the strongest applicants.', howToApply: 'Applicants to the international undergraduate programmes can be recommended for the MEXT scholarship through the admission process.', note: 'The MEXT scholarship runs four years, pays ¥117,000 a month, exempts the enrolment and tuition fees and includes flights. Housing and food come out of the stipend.' },
+    fullRide: { available: true, internationalEligible: true, basis: 'merit', covers: { tuition: true, housing: false, meals: false, insurance: false, books: false, stipend: true }, renewable: true, competitiveness: 'MEXT places are limited and awarded to the strongest applicants.', howToApply: 'Applicants to the international undergraduate programmes can be recommended for the MEXT scholarship through the admission process.', note: 'The MEXT scholarship runs four years, pays ¥117,000 a month, exempts the enrolment and tuition fees and includes flights. Housing and food come out of the stipend.' },
     merit: [
       { name: 'Kyushu University International Undergraduate Scholarship', amount: '¥48,000 a month for six months', eligibility: 'Up to ten successful applicants for October admission who live outside Japan and do not hold a MEXT scholarship', deadline: null, application: 'Considered through the admission process', renewable: false, note: 'This is a short-term stipend, not a tuition waiver.' },
       { name: 'First-year tuition exemption', amount: 'Half of the tuition for the first two semesters', eligibility: 'Students in the international undergraduate programmes who meet the published conditions', deadline: null, application: 'Applied through the university', renewable: false, note: 'Confirmed on the admissions pages; the detailed conditions were not read during this check.' }
@@ -2100,7 +2101,7 @@ window.UNIPATH.universities.push(
     note: 'Okayama labels these figures as 2025 estimates on its Discovery Program pages.'
   },
   scholarships: {
-    fullRide: { available: true, internationalEligible: true, basis: 'merit', covers: { tuition: true, housing: false, meals: false, insurance: false, books: false }, renewable: true, competitiveness: 'MEXT places are limited and highly competitive.', howToApply: 'Through the MEXT scholarship route linked from the programme pages.', note: 'The MEXT scholarship covers the admission fee and tuition, pays ¥117,000 a month and includes flights at the start and end of the four-year programme. Housing and food come out of the stipend.' },
+    fullRide: { available: true, internationalEligible: true, basis: 'merit', covers: { tuition: true, housing: false, meals: false, insurance: false, books: false, stipend: true }, renewable: true, competitiveness: 'MEXT places are limited and highly competitive.', howToApply: 'Through the MEXT scholarship route linked from the programme pages.', note: 'The MEXT scholarship covers the admission fee and tuition, pays ¥117,000 a month and includes flights at the start and end of the four-year programme. Housing and food come out of the stipend.' },
     merit: [],
     needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
   },
@@ -2169,6 +2170,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Twelve years of school education or an equivalent qualification.'
   },
   costs: {
+    status: 'not-published',
     breakdown: { published: false, includes: 'Kwansei Gakuin publishes tuition for each entry year; the 2027 figures were not finalised when this was checked' },
     academicYear: '2027–2028',
     currency: 'JPY',

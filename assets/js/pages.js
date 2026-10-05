@@ -23,9 +23,12 @@
   function coverRow(covers) {
     var map = [
       ['tuition', 'Tuition'], ['housing', 'Housing'], ['meals', 'Meals'],
-      ['insurance', 'Health insurance'], ['books', 'Books & other expenses']
+      ['insurance', 'Health insurance'], ['books', 'Books & other expenses'], ['stipend', 'Living stipend']
     ];
-    return '<div class="covers">' + map.map(function (m) {
+    return '<div class="covers">' + map.filter(function (m) {
+      /* A stipend is listed only where the record states one way or the other. */
+      return m[0] !== 'stipend' || (covers && covers.stipend !== undefined && covers.stipend !== null);
+    }).map(function (m) {
       var v = covers ? covers[m[0]] : null;
       var cls = v === true ? 'cover-yes' : v === false ? 'cover-no' : 'cover-unk';
       var mark = v === true ? '✓ ' : v === false ? '✕ ' : '? ';
@@ -55,7 +58,7 @@
           '<p class="sub">' + c.flag + ' <span>' + esc(u.city) + '</span>' + (has(u.region) ? ', <span>' + esc(u.region) + '</span>' : '') + ' · <span>' + esc(u.type) + '</span>' +
             (has(u.founded) ? ' · <span>Founded</span> ' + esc(u.founded) : '') + '</p>' +
           '<div class="pill-row">' +
-            (fr.available === true && fr.internationalEligible === true ? '<span class="badge">★ Full scholarship for internationals</span>' : '') +
+            (fr.available === true && fr.internationalEligible === true ? '<span class="badge">★ <span>' + esc(U.awardLabel(u)) + '</span></span>' : '') +
             (need.meetsFullNeed === true ? '<span class="badge">Meets full demonstrated need</span>' : '') +
             (U.englishLabel(u) ? '<span class="badge">' + esc(U.englishLabel(u)) + '</span>' : '') +
             '<span class="badge">' + esc(U.satLabel(u)) + '</span>' +
@@ -66,6 +69,8 @@
           '<a class="btn btn-accent" href="' + esc(u.links.website) + '" target="_blank" rel="noopener">Official website ↗</a>' +
           '<button class="btn btn-ghost" type="button" data-compare="' + esc(u.id) + '" aria-pressed="' + (U.compareHas(u.id) ? 'true' : 'false') + '">' +
             (U.compareHas(u.id) ? '✓ Added to comparison' : '⊕ Add to comparison') + '</button>' +
+          U.savedButton(u, 'btn btn-ghost') +
+          '<a class="btn btn-ghost" href="' + U.uniUrl(u) + '/report">⚑ Report an error</a>' +
         '</div>' +
       '</div></div></section>';
 
@@ -87,13 +92,21 @@
           '<figcaption>' + esc(u.photos.gallery[0].title) + ' · <a href="' + U.uniUrl(u) + '/photos">More photos &amp; credits</a></figcaption></figure>'
         : '') +
       '<p style="margin-top:18px;font-size:1.05rem">' + or(u.description) + '</p>' +
-      (U.isCommunityCollege(u) ? '<div class="notice notice-info"><span class="ico">ℹ️</span><div>This is a community college. It awards associate degrees and certificates, not a bachelor’s degree. A bachelor’s degree requires transferring to a four-year institution afterwards, and neither the transfer nor any aid after it is guaranteed unless a specific agreement says so.</div></div>' : '') +
+      (U.isCommunityCollege(u) ? '<div class="notice notice-info"><span class="ico">ℹ️</span><div>' + esc(U.ccSummary(u)) + '</div></div>' : '') +
       '<dl class="deflist">' +
         row('Country', c.flag + ' <span>' + esc(c.name) + '</span>') +
         row('City', '<span>' + esc(u.city) + '</span>' + (has(u.region) ? ', <span>' + esc(u.region) + '</span>' : '')) +
         row('Founded', or(u.founded)) +
         row('Institution type', or(u.type)) +
         row('Degrees offered', esc(U.degreesLabel(u)) + (has(u.degreesNote) ? '<br><span class="small muted">' + esc(u.degreesNote) + '</span>' : '')) +
+        (U.bachelorPrograms(u).length ? row('Bachelor’s programmes in the catalogue',
+          '<ul class="stack" style="margin:0;padding-left:1.1em">' + U.bachelorPrograms(u).map(function (b) {
+            return '<li><span>' + esc(b.name) + '</span>' + (has(b.note) ? ' <span class="small muted">— ' + esc(b.note) + '</span>' : '') + '</li>';
+          }).join('') + '</ul>' +
+          '<span class="small warn-text">' + esc(U.bachelorIntlText(u)) + '</span>' +
+          (has(u.bachelorIntlNote) ? '<br><span class="small muted">' + esc(u.bachelorIntlNote) + '</span>' : '') +
+          (has(u.bachelorSource) ? '<br><span class="small muted"><a href="' + esc(u.bachelorSource) + '" target="_blank" rel="noopener">Official page ↗</a>' +
+            (has(u.bachelorChecked) ? ' · Checked ' + esc(u.bachelorChecked) : '') + '</span>' : '')) : '') +
         (u.communityCollege && has(u.communityCollege.route) ? row('Route for international applicants', esc(u.communityCollege.route)) : '') +
         (u.communityCollege && has(u.communityCollege.housing) ? row('Housing', esc(u.communityCollege.housing)) : '') +
         (u.communityCollege && has(u.communityCollege.transfer) ? row('Transfer to a university', esc(u.communityCollege.transfer)) : '') +
@@ -138,9 +151,28 @@
         '<th>' + first + '</th><th>Date</th><th>Intake</th><th>Conditions</th><th>Status</th><th>Source</th></tr></thead><tbody>' +
         roundRows(list, first) + '</tbody></table></div>';
     }
-    var appRounds = (a.deadlines || []).filter(U.isApplicationDeadline);
+    /* Rounds of the chosen intake come first. Rounds of other intakes and
+       dates republished from an earlier cycle are kept, but in clearly
+       labelled reference blocks, so neither can pass for the deadline of the
+       intake the visitor is looking at. */
+    var intake = U.intakeGet();
+    var allApp = (a.deadlines || []).filter(U.isApplicationDeadline);
+    var earlier = allApp.filter(function (d) { return U.roundStatus(d) === 'previous-cycle'; });
+    var live = allApp.filter(function (d) { return U.roundStatus(d) !== 'previous-cycle'; });
+    var appRounds = live.filter(function (d) { return U.roundInIntake(d, u, intake); });
+    var otherIntakes = live.filter(function (d) { return !U.roundInIntake(d, u, intake); });
     var otherDates = (a.deadlines || []).filter(function (d) { return !U.isApplicationDeadline(d); });
-    var deadlines = (appRounds.length ? roundTable(appRounds, 'Round') : '<p>' + UNKNOWN + '</p>') +
+    var deadlines = '<div class="intake-bar">' + U.intakeSelectHtml() +
+        '<span class="small muted">Deadlines below and “next deadline” on cards follow this choice.</span></div>' +
+      (appRounds.length ? roundTable(appRounds, 'Round')
+        : '<p class="unknown">' + (allApp.length
+            ? (intake !== 'all' ? 'No application round is listed for this intake.' : 'No application round is confirmed for the current cycle.')
+            : 'Not checked — see the official source') + '</p>') +
+      (otherIntakes.length ? '<details class="ref-block"><summary>Rounds for other intakes (' + otherIntakes.length + ')</summary>' +
+        roundTable(otherIntakes, 'Round') + '</details>' : '') +
+      (earlier.length ? '<details class="ref-block" open><summary>For reference only: dates from an earlier cycle (' + earlier.length + ')</summary>' +
+        '<p class="small warn-text">These dates were published for a past cycle. They are not deadlines for the current one and are never used for “next deadline”.</p>' +
+        roundTable(earlier, 'Round') + '</details>' : '') +
       (otherDates.length ? '<h3 style="margin-top:18px">Other dates in the cycle</h3>' +
         '<p class="small muted">Opening dates, interviews, tests, financial aid, scholarship, decision and reply dates. These are not deadlines to apply.</p>' +
         roundTable(otherDates, 'Type') : '');
@@ -192,13 +224,25 @@
         if (has(t.note)) v.push('<span class="small muted">' + esc(t.note) + '</span>');
         return row(label, v.join(''));
       }
-      if (t.scales && t.scales.length) {
+      /* TOEFL has two scales (0–120 before 21 January 2026, 1–6 after). A
+         single published number is labelled with the scale it is on; nothing
+         is converted from one scale to the other. */
+      function scaleOf(x) {
+        if (label !== 'TOEFL' || typeof x !== 'number') return '';
+        return x <= 6 ? ' <span class="small muted">(1–6 scale, tests from 21 Jan 2026)</span>' : ' <span class="small muted">(0–120 scale, tests before 21 Jan 2026)</span>';
+      }
+      if (t.accepted === false || t.status === 'not-accepted') {
+        v.push('<strong class="warn-text">Not accepted</strong>');
+      } else if (t.scales && t.scales.length) {
         v = U.toeflLines(u).map(function (l) { return '<strong>' + esc(l) + '</strong>'; });
       } else {
-        if (has(t.min)) v.push('<strong>Minimum: ' + esc(t.min) + '</strong>');
-        if (has(t.recommended)) v.push('<strong>Recommended / competitive: ' + esc(t.recommended) + '</strong>');
+        if (has(t.min)) v.push('<strong>Official minimum: ' + esc(t.min) + '</strong>' + scaleOf(t.min));
+        if (has(t.recommended)) v.push('<strong>Official recommendation: ' + esc(t.recommended) + '</strong>' + scaleOf(t.recommended) +
+          '<br><span class="small muted">A level the university advises. It is not a minimum and not a statistic about admitted students.</span>');
       }
       if (!v.length) v.push('<strong>' + esc(U.testStatusLabel(t)) + '</strong>');
+      if (has(t.sections)) v.push('<span class="small">Section minimums: <span>' + esc(t.sections) + '</span></span>');
+      if (has(t.variants)) v.push('<span class="small">Accepted versions: <span>' + esc(t.variants) + '</span></span>');
       if (has(t.note)) v.push('<span class="small muted">' + esc(t.note) + '</span>');
       return row(label, v.length ? v.join('<br>') : UNKNOWN);
     }
@@ -217,20 +261,21 @@
         if (x.source) meta.push('<a href="' + esc(x.source.url) + '" target="_blank" rel="noopener">' + esc(x.source.label) + ' ↗</a>');
         body = lines.join('') + '<p class="small muted stat-meta">' + meta.join(' · ') + '</p>';
       } else if (o.englishNotPublished) {
-        body = '<p class="muted">The university does not publish the English scores of admitted students.</p>';
+        body = '<p class="muted">The average IELTS of students is not published by the university.</p>';
       } else {
-        body = '<p class="unknown">Statistics not yet confirmed.</p>';
+        body = '<p class="unknown">Not checked: whether the university publishes the English scores of its students has not been verified.</p>';
       }
       return '<div class="stat-group" style="margin-top:14px"><h4>English scores of admitted students</h4>' + body +
-        '<p class="small muted">These figures, where published, describe past students. They are not a minimum and do not guarantee admission.</p></div>';
+        '<p class="small muted">A statistic of this kind describes past students. It is not a minimum, it is never derived from the minimum, and it does not guarantee admission.</p></div>';
     }
     var english = '<section class="profile-section" id="english"><h2>English requirements</h2>' +
-      '<div class="notice notice-info"><span class="ico">ℹ️</span><div data-i18n-html>A <strong>minimum</strong> score is what makes an application valid. A <strong>recommended or competitive</strong> score is what successful applicants actually score. Where a university publishes only one of the two, that is shown.</div></div>' +
+      '<div class="notice notice-info"><span class="ico">ℹ️</span><div data-i18n-html>Three different things are kept apart here. A <strong>minimum</strong> is the score an application needs. A <strong>recommended or competitive</strong> score is a level the university itself advises — it is not a statistic. The <strong>scores of admitted students</strong> are shown only when the university publishes them, and are never worked out from the minimum.</div></div>' +
       '<dl class="deflist" style="margin-top:18px">' +
         testRow('IELTS', eng.ielts) +
         testRow('TOEFL', eng.toefl) +
         testRow('Duolingo English Test', eng.duolingo) +
         row('Waiver / exemption', or(eng.waiver)) +
+        (has(eng.conditional) ? row('Conditional admission', esc(eng.conditional)) : '') +
         row('Notes', or(eng.note)) +
       '</dl>' + englishStats() +
       (U.satPolicy(u) === 'optional' ? '<p class="small muted" style="margin-top:10px">Test-optional for the SAT/ACT does not remove the English language requirement above.</p>' : '') +
@@ -238,7 +283,7 @@
 
     /* Academics */
     var gpa = ac.gpa;
-    var gpaText = !gpa ? (u.stats ? '<span class="muted">No minimum GPA published — see “Who gets in” below for real averages and a target band.</span>' : UNKNOWN) : (typeof gpa === 'object'
+    var gpaText = !gpa ? (u.stats ? '<span class="muted">No minimum GPA published — see “Who gets in” below for the averages the university reports.</span>' : UNKNOWN) : (typeof gpa === 'object'
       ? (has(gpa.min) ? '<strong>' + esc(gpa.min) + (has(gpa.scale) ? ' / ' + esc(gpa.scale) : '') + '</strong>' : '') +
         (has(gpa.note) ? '<br><span class="small muted">' + esc(gpa.note) + '</span>' : '')
       : esc(gpa));
@@ -293,9 +338,9 @@
       if (satHtml || actHtml) body = satHtml + actHtml;
       else if (pol === 'not-used') body = '<p class="muted">SAT/ACT scores are not used in admission, so no test statistics apply.</p>';
       else if (pol === 'not-applicable') body = '<p class="muted">The SAT and ACT are not part of this admission route, so no test statistics apply.</p>';
-      else if (o.satNotPublished) body = '<p class="muted">The university does not publish SAT/ACT statistics.</p>' +
+      else if (o.satNotPublished) body = '<p class="muted">Not published in the official source checked.</p>' +
         (typeof o.satNotPublished === 'string' ? '<p class="small muted">' + esc(o.satNotPublished) + (st.source ? ' <a href="' + esc(st.source.url) + '" target="_blank" rel="noopener">' + esc(st.source.label) + ' ↗</a>' : '') + '</p>' : '');
-      else body = '<p class="unknown">Statistics not yet confirmed.</p>';
+      else body = '<p class="unknown">Not checked: no official SAT/ACT statistics have been read for this institution.</p>';
       return '<div class="card" style="margin-top:22px"><div class="card-body">' +
         '<h3 style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">📊 SAT/ACT statistics' +
           ((satHtml || actHtml) ? ' <span class="badge badge-ok">Official data</span>' : '') + '</h3>' + body +
@@ -304,7 +349,7 @@
     }
     function statsBlock(st) {
       if (!st) return '';
-      var o = st.official || {}, t = st.targets || {}, rows = '';
+      var o = st.official || {}, rows = '';
       if (o.admitRate) rows += row('Acceptance rate', '<strong>' + esc(o.admitRate.value) + '%</strong>' +
         (has(o.admitRate.applied) ? ' <span class="small muted">(' + Number(o.admitRate.admitted).toLocaleString('en-US') + ' admitted of ' +
           Number(o.admitRate.applied).toLocaleString('en-US') + ' applicants' + (o.admitRate.year ? ', ' + esc(o.admitRate.year) : '') + ')</span>' : ''));
@@ -322,17 +367,6 @@
         '<p class="small muted" style="margin:0 0 6px">' + esc(st.term) +
           (st.source ? ' · Source: <a href="' + esc(st.source.url) + '" target="_blank" rel="noopener">' + esc(st.source.label) + ' ↗</a>' : '') + '</p>' +
         '<dl class="deflist">' + rows + '</dl></div></div>';
-      if (t.sat || t.gpa) {
-        html += '<div class="target-box">' +
-          '<h4>🎯 Target band <span class="badge badge-warn">UniPath estimate</span></h4>' +
-          '<div class="target-grid">' +
-            '<div><span>SAT</span><b>' + or(t.sat) + '</b></div>' +
-            '<div><span>GPA</span><b>' + or(t.gpa) + '</b></div>' +
-          '</div>' +
-          (has(t.basis) ? '<p class="small muted" style="margin:10px 0 0">' + esc(t.basis) + '</p>' : '') +
-          '<p class="tiny muted" style="margin:6px 0 0">UniPath estimates are guidance for planning, not official requirements, statistics or cut-offs. Meeting them does not guarantee admission.</p>' +
-        '</div>';
-      }
       return html;
     }
 
@@ -345,10 +379,17 @@
         'not-used': ['Not used', 'SAT and ACT scores are not considered in admission.'],
         accepted: ['Accepted', 'Scores are accepted; whether they are required was not confirmed.'],
         'not-applicable': ['Not part of this admission route', 'This route does not use the SAT or ACT: selection rests on the qualifications and assessments listed here.'],
-        unknown: ['Not confirmed', 'The testing policy was not confirmed.']
+        unknown: ['Not checked', 'The testing policy has not been verified on an official page.']
       };
       var x = SUMMARY[pol] || SUMMARY.unknown;
-      return '<strong class="req-varies">' + esc(x[0]) + '</strong><span>' + esc(x[1]) + '</span>';
+      var sat = ac.sat || {};
+      var extra = '';
+      /* The cycle a policy was confirmed for, when the record states one. */
+      extra += '<br><span class="small muted">' + (has(sat.cycle) ? 'Applies to: <span>' + esc(sat.cycle) + '</span>' : 'The admission cycle this policy applies to is not recorded here — confirm it for your entry year.') + '</span>';
+      if (pol === 'optional' || pol === 'not-used') {
+        extra += '<br><span class="small muted">This is the policy for admission. A merit scholarship, an honours programme or a particular major may still ask for a score — check each one.</span>';
+      }
+      return '<strong class="req-varies">' + esc(x[0]) + '</strong><span>' + esc(x[1]) + '</span>' + extra;
     }
     var academics = '<section class="profile-section" id="academics"><h2>Academic requirements</h2>' +
       '<div class="notice notice-warn"><span class="ico">⚠️</span><div data-i18n-html>Requirements are <strong>not the same for every applicant</strong>. Individual faculties, schools and programmes often set higher bars than the university minimum, and international applicants are frequently assessed on a separate track. Check the requirement for your exact programme and entry year.</div></div>' +
@@ -364,20 +405,37 @@
 
     /* Scholarships */
     var frCard = '<article class="card fullride-card" style="margin-bottom:16px"><div class="card-body">' +
-      '<h3 style="display:flex;align-items:center;gap:10px">★ Full-ride / full scholarship ' +
-        (fr.available === true ? '<span class="badge badge-ok">Available</span>'
+      '<h3 style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">★ Largest award ' +
+        (fr.available === true ? '<span class="badge ' + (U.awardKind(u) === 'full-ride' ? 'badge-ok' : 'badge-warn') + '">' + esc(U.awardLabel(u)) + '</span>'
          : fr.available === false ? '<span class="badge badge-warn">Not available</span>'
-         : '<span class="badge">Not confirmed</span>') + '</h3>' +
+         : '<span class="badge">Not checked</span>') + '</h3>' +
       '<dl class="deflist">' +
         row('Open to international students', yesNo(fr.internationalEligible)) +
+        row('Need-based or merit-based', or(fr.basis)) +
         row('What it covers', coverRow(fr.covers)) +
-        row('Basis', or(fr.basis)) +
-        row('Renewable', yesNo(fr.renewable)) +
+        (fr.available === true ? row('Costs that may remain', remainingCosts(fr.covers)) : '') +
+        row('Renewal', yesNo(fr.renewable) + (has(fr.renewalConditions) ? '<br><span class="small muted">' + esc(fr.renewalConditions) + '</span>' : '')) +
         row('How competitive', or(fr.competitiveness)) +
-        row('How to apply', or(fr.howToApply)) +
+        row('Application and deadline', or(fr.howToApply)) +
+        row('Test requirement for this award', has(fr.testRequirement) ? esc(fr.testRequirement)
+          : '<span class="unknown">Not checked — an award can ask for a test even where admission does not</span>') +
       '</dl>' +
+      (fr.available === true ? '<p class="small muted" style="margin-top:10px">This is the largest award the university lists. It is competitive unless stated otherwise, and it is never subtracted from the costs shown on this site.</p>' : '') +
       (has(fr.note) ? '<div class="notice notice-warn" style="margin-top:14px"><span class="ico">⚠️</span><div>' + esc(fr.note) + '</div></div>' : '') +
       '</div></article>';
+
+    /* What a recipient may still have to pay, read from the coverage list. */
+    function remainingCosts(covers) {
+      var names = { tuition: 'tuition', housing: 'housing', meals: 'meals', insurance: 'health insurance', books: 'books and other expenses' };
+      var c = covers || {}, no = [], unk = [];
+      Object.keys(names).forEach(function (k) { if (c[k] === false) no.push(names[k]); else if (c[k] !== true) unk.push(names[k]); });
+      var out = [];
+      function items(a) { return a.map(function (x) { return '<span>' + esc(x) + '</span>'; }).join(', '); }
+      if (no.length) out.push('<span><span>Not covered:</span> ' + items(no) + '</span>');
+      if (unk.length) out.push('<span class="unknown"><span>Not checked:</span> ' + items(unk) + '</span>');
+      if (!out.length) out.push('<span>Travel, visa and personal costs are not part of the listed coverage.</span>');
+      return out.join('<br>');
+    }
 
     var meritCards = merit.length ? merit.map(function (m) {
       return '<article class="card scholarship-card card-pad-sm" style="margin-bottom:12px"><div class="card-body">' +
@@ -388,6 +446,7 @@
           row('Deadline', or(m.deadline)) +
           row('Automatic or separate application', or(m.application)) +
           row('Renewable', yesNo(m.renewable)) +
+          (has(m.testRequirement) ? row('Test requirement', esc(m.testRequirement)) : '') +
           (has(m.note) ? row('Note', esc(m.note)) : '') +
         '</dl></div></article>';
     }).join('') : '<p class="muted">No merit scholarships are listed for this university on the pages consulted.</p>';
@@ -396,7 +455,8 @@
       '<h3>Need-based financial aid</h3>' +
       '<dl class="deflist">' +
         row('Available to international students', yesNo(need.availableToInternational)) +
-        row('Meets full demonstrated need for internationals', yesNo(need.meetsFullNeed)) +
+        row('Meets full demonstrated need for internationals', yesNo(need.meetsFullNeed) +
+          (need.meetsFullNeed === true ? '<br><span class="small muted">“Need” is the amount the university itself calculates a family cannot pay. Meeting it in full does not mean a zero family contribution, and the package can include work or loans unless the university says otherwise.</span>' : '')) +
         row('Need-blind for international applicants', yesNo(need.needBlindInternational)) +
         row('Required forms', has(need.forms) ? need.forms.map(esc).join(', ') : UNKNOWN) +
         row('Financial aid deadlines', or(need.deadlines)) +
@@ -430,14 +490,19 @@
               '<dd><strong>' + esc(f.text) + '</strong>' +
               (f.id === 'tuition' ? '<span class="small muted">' + esc(U.perPeriod(u, f.text)) + '</span>' : '') + '</dd></div>';
           }).join('')
-        : '<div class="cost-figure"><dt>Tuition</dt><dd>' + UNKNOWN + '</dd></div>') +
+        : '<div class="cost-figure"><dt>Tuition</dt><dd>' + (U.costStatus(u) === 'confirmed' && has(costs.headline)
+            ? '<strong>' + esc(costs.headline) + '</strong>' : U.statusHtml(U.costStatus(u)) +
+              (has(costs.headline) ? '<br><span class="small muted">' + esc(costs.headline) + '</span>' : '')) + '</dd></div>') +
       '</div>' +
       (U.costIncludes(u) ? '<p class="small" style="margin-top:10px"><strong>What the figures cover:</strong> ' + esc(U.costIncludes(u)) + '</p>' : '') +
       '<p class="small muted" style="margin-top:6px">' +
         'Currency: <span>' + esc(U.costCurrency(u) || 'not stated') + '</span> · ' +
         'Academic year: <span>' + esc(U.costYear(u) || 'not stated') + '</span>' +
+        ' · Status: <span>' + esc(U.statusLabel(U.costStatus(u))) + '</span>' +
         (costSrc ? ' · Source: <a href="' + esc(costSrc.url) + '" target="_blank" rel="noopener">' + esc(costSrc.label) + '</a>' : '') +
-        (has(u.lastVerified) ? ' · Checked: <span>' + esc(u.lastVerified) + '</span>' : '') +
+        (has(costs.verified) ? ' · Checked: <span>' + esc(costs.verified) + '</span>'
+          : has(u.lastVerified) ? ' · Profile last checked: <span>' + esc(u.lastVerified) + '</span>' : '') +
+        (has(costs.studentCategory) ? ' · Student category: <span>' + esc(costs.studentCategory) + '</span>' : '') +
       '</p>';
 
     var costs_ = '<section class="profile-section" id="costs"><h2>Costs</h2>' +
@@ -447,7 +512,7 @@
       (has(costs.note) ? '<div class="notice" style="margin-top:14px"><span class="ico">💰</span><div>' + esc(costs.note) + '</div></div>' : '') +
       '<div class="notice notice-info" style="margin-top:12px"><span class="ico">↓</span><div><strong>Possible scholarship reduction.</strong> ' +
         (U.fullRide(u).available === true
-          ? 'A full scholarship at this university can reduce the tuition line to zero — see the scholarships section for exactly what is and is not covered. An award is not a guarantee: read the conditions before you count on it.'
+          ? 'This university lists an award that can cover tuition in full — see the scholarships section for exactly what is and is not covered. The figures above are before any award: winning one is not guaranteed, so plan with the full amount.'
           : U.meritList(u).length
             ? 'Merit scholarships listed above reduce the tuition line if you win one. Housing, food and insurance usually remain payable.'
             : 'No confirmed award is listed that would reduce these figures. Budget for the full amount until the university confirms otherwise.') +
@@ -458,7 +523,7 @@
       var f = U.field(p);
       return '<a class="prog-group" href="#/universities?field=' + encodeURIComponent(f.id) + '">' +
         '<h4>' + f.icon + ' ' + esc(f.label) + '</h4>' +
-        '<p>See other universities offering ' + esc(f.label) + ' →</p></a>';
+        '<p>See other institutions listed under ' + esc(f.label) + ' →</p></a>';
     }).join('');
     var enProgs = U.englishPrograms(u);
     var englishBlock = '<h3 style="margin-top:22px">Available fully in English</h3>' +
@@ -471,10 +536,23 @@
             : 'No fully English-taught bachelor’s field is confirmed.') + '</p>');
     var programs = '<section class="profile-section" id="programs"><h2>Undergraduate programs</h2>' +
       (has(u.programNote) ? '<p>' + esc(u.programNote) + '</p>' : '') +
-      '<h3 style="margin-top:6px">All undergraduate fields</h3>' +
+      '<h3 style="margin-top:6px">Fields of study</h3>' +
+      '<p class="small muted">' + esc(programsBasisText(u)) + '</p>' +
       (progs ? '<div class="prog-groups">' + progs + '</div>' : '<p>' + UNKNOWN + '</p>') +
       englishBlock +
       '</section>';
+
+    /* How the field tags on this record should be read. A tag is a broad
+       area, not a named degree; only a record that says so lists majors. */
+    function programsBasisText(u) {
+      var B = {
+        'majors': 'These areas each contain at least one named major or degree programme in the official catalogue.',
+        'concentrations': 'The institution awards one degree and these areas are concentrations within it, not separate degrees.',
+        'transfer': 'These are areas of associate-degree and transfer study, not bachelor’s majors.',
+        'areas': 'These are broad subject areas, used here for search and filters. They are not a list of named majors — check the exact degree programme in the official catalogue.'
+      };
+      return B[u.programsBasis] || B.areas;
+    }
 
     /* Photos — every image carries its Wikimedia Commons attribution */
     function credit(g) {
@@ -516,6 +594,28 @@
       '<p class="muted">Every link below goes to an official university page or application portal.</p>' +
       '<div class="link-grid">' + tiles + '</div></section>';
 
+    /* Report an error: a prepared message the visitor copies or files as a
+       public GitHub issue. Nothing is sent from this page by itself. */
+    var pageUrl = (global.location.origin || '') + (global.location.pathname || '') + U.uniUrl(u);
+    var reportText = 'UniPath — error report\nInstitution: ' + u.name + '\nPage: ' + pageUrl +
+      '\nProfile last checked: ' + (u.lastVerified || 'not stated') + '\n\nWhat is wrong:\n\nOfficial source that shows the correct information (link):\n';
+    var reportBase = (U.DB.config && U.DB.config.reportErrorUrl) || null;
+    var issueUrl = reportBase && /github\.com\/.+\/issues\/new/.test(reportBase)
+      ? reportBase + '?title=' + encodeURIComponent('Data error: ' + u.name) + '&body=' + encodeURIComponent(reportText) : null;
+    var report = '<section class="profile-section" id="report"><h2>Report an error</h2>' +
+      '<p>If something on this page is wrong or out of date, send the correction with a link to the official page that shows it.</p>' +
+      '<label class="small muted" for="report-text">Prepared message</label>' +
+      '<textarea id="report-text" class="report-text" rows="7" readonly data-no-i18n>' + esc(reportText) + '</textarea>' +
+      '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px">' +
+        '<button class="btn btn-primary" type="button" data-copy-report>Copy the message</button>' +
+        (issueUrl ? '<a class="btn btn-ghost" href="' + esc(issueUrl) + '" target="_blank" rel="noopener">Open a public GitHub issue ↗</a>' : '') +
+      '</div>' +
+      '<p class="small muted" id="report-status" role="status" aria-live="polite" style="margin-top:8px"></p>' +
+      '<p class="small muted">' + (issueUrl
+        ? 'Copying only puts the text on your clipboard — nothing is sent from this page. To reach the maintainer, paste it into a GitHub issue (the button opens one with the text filled in; a free GitHub account is needed and the issue is public).'
+        : 'Copying only puts the text on your clipboard — nothing is sent from this page, and this site has no address for reports yet.') + '</p>' +
+      '</section>';
+
     /* Sources */
     var sources = '<section class="profile-section" id="sources"><h2>Sources & verification</h2>' +
       verifyBar(u) +
@@ -528,7 +628,24 @@
       '</section>';
 
     document.getElementById('main').innerHTML = hero + nav +
-      '<div class="wrap">' + overview + admissions + english + academics + scholarships + costs_ + programs + photos + apply + sources + '</div>';
+      '<div class="wrap">' + overview + admissions + english + academics + scholarships + costs_ + programs + photos + apply + sources + report + '</div>';
+
+    var copyBtn = document.querySelector('[data-copy-report]');
+    if (copyBtn) copyBtn.addEventListener('click', function () {
+      var ta = document.getElementById('report-text'), status = document.getElementById('report-status');
+      function done(ok) {
+        status.textContent = ok ? 'Copied to the clipboard. It has not been sent anywhere yet.' : 'Could not copy automatically — select the text above and copy it by hand.';
+        if (global.I18N && global.I18N.apply) global.I18N.apply(status);
+      }
+      if (global.navigator && global.navigator.clipboard && global.navigator.clipboard.writeText) {
+        global.navigator.clipboard.writeText(ta.value).then(function () { done(true); }, function () { ta.select(); try { done(document.execCommand('copy')); } catch (e) { done(false); } });
+      } else { ta.select(); try { done(document.execCommand('copy')); } catch (e) { done(false); } }
+    });
+    var intakeSel = document.querySelector('#admissions [data-intake-select]');
+    if (intakeSel) intakeSel.addEventListener('change', function () {
+      /* The choice is saved by the global handler; redraw this profile in place. */
+      global.setTimeout(function () { var y = global.scrollY; renderProfile(u, null); global.scrollTo(0, y); }, 0);
+    });
 
     wireProfileNav();
     scrollToSection(section);
@@ -553,7 +670,7 @@
   function yesNo(v) {
     if (v === true) return '<span class="badge badge-ok">Yes</span>';
     if (v === false) return '<span class="badge badge-warn">No</span>';
-    return '<span class="badge">Not confirmed</span>';
+    return '<span class="badge">Not checked</span>';
   }
 
   function wireProfileNav() {
@@ -703,10 +820,11 @@
       activeBox.innerHTML = chips.join('');
 
       var visible = list.slice(0, shown);
-      bar.innerHTML = '<span class="count">' + list.length + ' universit' + (list.length === 1 ? 'y' : 'ies') + '</span>' +
+      bar.innerHTML = '<span class="count">' + list.length + ' institution' + (list.length === 1 ? '' : 's') + '</span>' +
         '<span class="small muted">' + (list.length > visible.length
           ? 'Showing ' + visible.length + ' of ' + list.length + ' — search and filters cover the whole list'
-          : 'Showing bachelor’s-level information for international applicants') + '</span>';
+          : '') + '</span>' + U.intakeSelectHtml() +
+        (list.length ? '<span class="small muted results-level">' + esc(levelCaption(list, selected)) + '</span>' : '');
 
       out.innerHTML = list.length
         ? visible.map(U.uniCard).join('')
@@ -721,6 +839,18 @@
           : '';
       }
       save();
+    }
+
+    /* What the listed institutions actually award — taken from the results
+       themselves and from the chosen degree filter, never assumed. */
+    function levelCaption(list, selected) {
+      var cc = list.filter(U.isCommunityCollege).length;
+      var want = (selected.degree || []);
+      if (cc === list.length) return 'These are community colleges: associate degrees and certificates, plus any bachelor’s programmes a college lists itself.';
+      if (want.length === 1 && want[0] === 'associate') return 'Institutions that award associate degrees.';
+      if (want.length === 1 && want[0] === 'certificate') return 'Institutions that award certificates.';
+      if (cc > 0) return 'Results mix four-year bachelor’s institutions with community colleges — check “Degrees offered” on each card’s profile.';
+      return 'Bachelor’s-level information for international applicants.';
     }
 
     function refresh() { drawFilters(); drawResults(); }
@@ -778,6 +908,9 @@
       });
 
       document.addEventListener('unipath:compare', function () {
+        if (browseRefresh && document.getElementById('results')) browseRefresh.redraw();
+      });
+      document.addEventListener('unipath:intake', function () {
         if (browseRefresh && document.getElementById('results')) browseRefresh.redraw();
       });
     }
@@ -907,13 +1040,13 @@
         '<p class="small muted">Figures are grouped by academic year, currency and period, and are compared only inside a group. A lowest or highest figure in one group cannot be set against another group.</p>'
       : '<p>No tuition figure is confirmed for this country yet.</p>') +
       '<p class="small muted" style="margin-top:10px">Only tuition is compared here, because universities publish very different totals: some quote a single comprehensive fee, some the charges they bill, some a full cost of attendance with books and travel. Each profile shows which figure it is.</p>' +
-      (noTuition.length ? '<p class="small muted">Tuition is not published for ' + noTuition.length + ' of these universities; their cards show “Not published” and their profiles link to the official cost page.</p>' : '');
+      (noTuition.length ? '<p class="small muted">No tuition figure is recorded for ' + noTuition.length + ' of these institutions; their cards show the status of the figure and their profiles link to the official cost page.</p>' : '');
 
     var aidBody = '<p>' + withFullRide + ' of ' + list.length + ' universities list a full-scholarship route, and ' +
       list.filter(function (u) { return U.needBased(u).availableToInternational === true; }).length +
       ' confirm need-based aid for international students. A scholarship is only called a full ride where the university states what it covers.</p>' +
       '<p class="small muted">An award you might win is not the same as a guaranteed cost of zero. Each profile lists the conditions.</p>' +
-      '<p><a class="btn btn-ghost btn-sm" href="#/universities?c=' + c.code + '&scholarship=full-ride-intl">Show universities with a full scholarship</a></p>';
+      '<p><a class="btn btn-ghost btn-sm" href="#/universities?c=' + c.code + '&scholarship=full-ride-intl">Show institutions with a full-level award</a></p>';
 
     var info = '<section class="section"><div class="wrap">' +
       '<div class="section-head"><span class="eyebrow">Before you apply</span><h2>Studying in ' + esc(c.name) + '</h2></div>' +
@@ -952,17 +1085,18 @@
       ['Country', function (u) { var c = U.country(u.country); return c.flag + ' <span>' + esc(c.name) + '</span>'; }],
       ['Location', function (u) { return '<span>' + esc(u.city) + '</span>' + (has(u.region) ? ', <span>' + esc(u.region) + '</span>' : ''); }],
       ['Institution type', function (u) { return '<strong>' + esc(U.institutionKindLabel(u)) + '</strong><br><span class="small">' + or(u.type) + '</span>'; }],
-      ['Degrees offered', function (u) { return esc(U.degreesLabel(u)) + (U.isCommunityCollege(u) ? '<br><span class="small muted">A two-year route: a bachelor’s degree needs a transfer to a four-year institution.</span>' : ''); }],
+      ['Degrees offered', function (u) { return esc(U.degreesLabel(u)) + (U.isCommunityCollege(u) ? '<br><span class="small muted">' + esc(U.ccBadge(u)) + '</span>' : ''); }],
       ['English-taught degree', function (u) { return yesNo(u.englishTaught); }],
       ['Fields fully in English', function (u) {
         var en = U.englishPrograms(u);
         return en.length ? en.map(function (p) { return '<span>' + esc(U.field(p).label) + '</span>'; }).join('<br>')
-          : (u.englishTaught === true ? '<span class="unknown">Not confirmed</span>' : '<span class="unknown">None confirmed</span>');
+          : (u.englishTaught === true ? '<span class="unknown">Not checked</span>' : '<span class="unknown">None confirmed</span>');
       }],
       ['group', 'Money'],
-      ['Tuition per year', function (u) {
+      ['Tuition', function (u) {
         var t = U.tuitionText(u);
-        return t ? esc(t) + (U.costPeriod(u) === 'semester' ? ' <span class="small muted">per semester</span>' : '') : UNKNOWN;
+        return t ? esc(t) + '<span class="small muted">' + esc(U.perPeriod(u, t)) + '</span>' +
+          '<br><span class="small muted">Tuition only — not comparable with a full budget</span>' : UNKNOWN;
       }],
       ['Billed by the university', function (u) {
         var b = U.billedAmount(u);
@@ -990,13 +1124,13 @@
         return d.map(function (x) { return '<span>' + esc(x.name) + '</span><br>' + U.deadlineHtml(x); }).join('<br><br>');
       }],
       ['group', 'Who gets in'],
-      ['Acceptance rate', function (u) { var o = (u.stats || {}).official || {}; return o.admitRate ? '<strong>' + esc(o.admitRate.value) + '%</strong>' : '<span class="unknown">Not published</span>'; }],
-      ['Average GPA', function (u) { var o = (u.stats || {}).official || {}; return o.gpa && has(o.gpa.average) ? '<strong>' + esc(o.gpa.average) + '</strong>' : '<span class="unknown">Not published</span>'; }],
+      ['Acceptance rate', function (u) { var o = (u.stats || {}).official || {}; return o.admitRate ? '<strong>' + esc(o.admitRate.value) + '%</strong>' : '<span class="unknown">Not checked</span>'; }],
+      ['Average GPA', function (u) { var o = (u.stats || {}).official || {}; return o.gpa && has(o.gpa.average) ? '<strong>' + esc(o.gpa.average) + '</strong>' : '<span class="unknown">Not checked</span>'; }],
       ['SAT statistics', function (u) {
         var o = (u.stats || {}).official || {}, x = o.sat;
         if (!x && U.satPolicy(u) === 'not-applicable') return '<span class="muted">Not part of this admission route</span>';
         if (!x) return U.satPolicy(u) === 'not-used' ? '<span class="muted">Not used in admission</span>'
-          : '<span class="unknown">' + (o.satNotPublished ? 'Not published by the university' : 'Statistics not yet confirmed') + '</span>';
+          : '<span class="unknown">' + (o.satNotPublished ? 'Not published in the official source checked' : 'Not checked') + '</span>';
         var bits = [];
         if (has(x.mean)) bits.push('Average: <strong>' + esc(x.mean) + '</strong>');
         var p = x.composite, med = has(x.median) ? x.median : (p && has(p[1]) ? p[1] : null);
@@ -1007,14 +1141,11 @@
           (x.submittersOnly ? ', score submitters only' : '') + '</span>');
         return bits.join('<br>');
       }],
-      ['UniPath estimate (target band)', function (u) {
-        var t = (u.stats || {}).targets; if (!t) return UNKNOWN;
-        return '<span class="badge badge-warn">UniPath estimate</span><br><span class="small">SAT: ' + or(t.sat) + '<br>GPA: ' + or(t.gpa) + '</span>' +
-          '<br><span class="tiny muted">Guidance only — not an official requirement.</span>';
-      }],
       ['group', 'Scholarships'],
-      ['Full-ride availability', function (u) {
+      ['Largest award', function (u) {
         var fr = U.fullRide(u);
+        if (fr.available === true) return '<strong>' + esc(U.awardLabel(u)) + '</strong><br><span class="small muted">Open to internationals: ' +
+          (fr.internationalEligible === true ? 'yes' : fr.internationalEligible === false ? 'no' : 'not confirmed') + '</span>';
         return yesNo(fr.available) + (fr.available === true ? '<br><span class="small muted">Open to internationals: ' +
           (fr.internationalEligible === true ? 'yes' : fr.internationalEligible === false ? 'no' : 'not confirmed') + '</span>' : '');
       }],
@@ -1025,9 +1156,9 @@
       ['Need-based aid for internationals', function (u) { return yesNo(U.needBased(u).availableToInternational); }],
       ['Meets full demonstrated need', function (u) { return yesNo(U.needBased(u).meetsFullNeed); }],
       ['group', 'Programs & applying'],
-      ['Business programme', function (u) { return (u.programs || []).indexOf('business') > -1 ? '<span class="badge badge-ok">Yes</span>' : '<span class="badge">Not listed</span>'; }],
-      ['Economics programme', function (u) { return (u.programs || []).indexOf('economics') > -1 ? '<span class="badge badge-ok">Yes</span>' : '<span class="badge">Not listed</span>'; }],
-      ['Computer Science programme', function (u) { return (u.programs || []).indexOf('computer-science') > -1 ? '<span class="badge badge-ok">Yes</span>' : '<span class="badge">Not listed</span>'; }],
+      ['Business (field area)', function (u) { return (u.programs || []).indexOf('business') > -1 ? '<span class="badge badge-ok">Yes</span>' : '<span class="badge">Not listed</span>'; }],
+      ['Economics (field area)', function (u) { return (u.programs || []).indexOf('economics') > -1 ? '<span class="badge badge-ok">Yes</span>' : '<span class="badge">Not listed</span>'; }],
+      ['Computer Science (field area)', function (u) { return (u.programs || []).indexOf('computer-science') > -1 ? '<span class="badge badge-ok">Yes</span>' : '<span class="badge">Not listed</span>'; }],
       ['Application portal', function (u) {
         return has(u.links.applicationPortal)
           ? '<a href="' + esc(u.links.applicationPortal) + '" target="_blank" rel="noopener">Open portal ↗</a>' : UNKNOWN;
@@ -1052,6 +1183,56 @@
       '<p style="margin-top:16px"><button class="btn btn-ghost" type="button" data-tray-clear>Clear comparison</button></p>';
   }
 
+  /* ---------------- saved institutions and their deadlines ---------------- */
+
+  function renderSaved() {
+    var main = document.getElementById('main');
+    document.title = 'Saved — UniPath';
+    var ids = U.savedGet(), intake = U.intakeGet();
+    var head = '<section class="page-head"><div class="wrap"><h1>Saved institutions</h1>' +
+      '<p>Your list and the confirmed application deadlines for the intake you choose.</p></div></section>';
+    var note = '<div class="notice notice-info"><span class="ico">ℹ️</span><div>This list is stored only in this browser on this device. It is not an account, it does not sync to other devices, and clearing the browser data removes it. UniPath sends no reminders — check the dates yourself.</div></div>';
+    if (!ids.length) {
+      main.innerHTML = head + '<section class="section"><div class="wrap">' + note +
+        '<div class="empty-state" style="margin-top:18px"><h3>Nothing saved yet</h3>' +
+        '<p data-i18n-html>Use the <strong>☆ Save</strong> button on a card or a profile.</p>' +
+        '<a class="btn btn-primary" href="#/universities">Browse universities</a></div></div></section>';
+      return;
+    }
+    var rows = [];
+    ids.map(U.uniById).filter(Boolean).forEach(function (u) {
+      var apps = U.roundsOf(u).filter(U.isApplicationDeadline).filter(function (d) {
+        return U.roundStatus(d) === 'confirmed' && U.roundInIntake(d, u, intake);
+      });
+      rows.push({ u: u, rounds: apps });
+    });
+    var dated = [];
+    rows.forEach(function (r) { r.rounds.forEach(function (d) { if (has(d.dateISO)) dated.push({ u: r.u, d: d }); }); });
+    dated.sort(function (a, b) { return String(a.d.dateISO).localeCompare(String(b.d.dateISO)); });
+    var table = dated.length
+      ? '<div class="table-scroll"><table class="cost-table saved-table"><thead><tr><th>Deadline</th><th>Institution</th><th>Round</th><th>Intake</th><th>State</th><th>Source</th></tr></thead><tbody>' +
+        dated.map(function (x) {
+          var st = U.roundStateLabel(x.d);
+          return '<tr class="' + (U.roundState(x.d) === 'closed' ? 'is-past' : '') + '"><td><strong>' + esc(U.roundWhen(x.d)) + '</strong></td>' +
+            '<td><a href="' + U.uniUrl(x.u) + '/admissions">' + esc(x.u.name) + '</a></td>' +
+            '<td>' + esc(x.d.name) + '</td><td>' + esc(U.roundIntake(x.d) || '') + '</td>' +
+            '<td>' + esc(st || '') + '</td>' +
+            '<td>' + (has(x.d.source) ? '<a href="' + esc(x.d.source) + '" target="_blank" rel="noopener">Official page ↗</a>' +
+              (has(x.d.verified) ? '<br><span class="small muted">Checked ' + esc(x.d.verified) + '</span>' : '') : '') + '</td></tr>';
+        }).join('') + '</tbody></table></div>'
+      : '<p class="unknown">No confirmed, dated application deadline is recorded for the saved institutions in this intake.</p>';
+    var without = rows.filter(function (r) { return !r.rounds.some(function (d) { return has(d.dateISO); }); });
+    main.innerHTML = head + '<section class="section"><div class="wrap">' + note +
+      '<div class="intake-bar" style="margin-top:18px">' + U.intakeSelectHtml() +
+        '<span class="small muted">Only deadlines confirmed for the current cycle are listed. Dates from earlier cycles are never shown here.</span></div>' +
+      '<h2 style="margin-top:18px">Confirmed deadlines</h2>' + table +
+      (without.length ? '<h3 style="margin-top:22px">Saved, but no confirmed dated deadline for this intake</h3><ul class="stack">' +
+        without.map(function (r) { return '<li><a href="' + U.uniUrl(r.u) + '/admissions">' + esc(r.u.name) + '</a> — <span class="unknown">' + esc(U.deadlineCardText(r.u)) + '</span></li>'; }).join('') + '</ul>' : '') +
+      '<h2 style="margin-top:28px">Your list (' + rows.length + ')</h2>' +
+      '<div class="grid grid-3">' + rows.map(function (r) { return U.uniCard(r.u); }).join('') + '</div>' +
+      '</div></section>';
+  }
+
   function leaveBrowse() { browseRefresh = null; }
 
   global.UPPages = {
@@ -1060,6 +1241,7 @@
     scrollToSection: scrollToSection,
     renderBrowse: renderBrowse,
     renderCountry: renderCountry,
-    renderCompare: renderCompare
+    renderCompare: renderCompare,
+    renderSaved: renderSaved
   };
 })(window);

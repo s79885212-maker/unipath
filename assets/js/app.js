@@ -7,7 +7,28 @@
   'use strict';
 
   var DB = global.UNIPATH || { countries: [], universities: [], fields: [] };
-  var UNKNOWN = '<span class="unknown">Not confirmed — check the official source</span>';
+  /* ---- data statuses ----------------------------------------------------
+     One vocabulary for every field that can be missing, so "we have not
+     read it" is never shown as "the university does not publish it":
+       confirmed      — read on an official source
+       not-checked    — not read yet, or the page could not be opened
+       not-published  — looked for on the official source and not found there
+       not-applicable — the field does not apply to this institution or route
+       previous-cycle — the only figure available belongs to an earlier cycle
+       conflict       — two official sources give different figures
+     A missing or unreadable field is always "not-checked" unless the record
+     itself states one of the others. */
+  var STATUS = {
+    'confirmed': 'Confirmed',
+    'not-checked': 'Not checked',
+    'not-published': 'Not published in the official source checked',
+    'not-applicable': 'Not applicable',
+    'previous-cycle': 'Data from a previous cycle',
+    'conflict': 'Official sources disagree'
+  };
+  function statusLabel(code) { return STATUS[code] || STATUS['not-checked']; }
+  function statusHtml(code) { return '<span class="unknown status-' + (STATUS[code] ? code : 'not-checked') + '">' + statusLabel(code) + '</span>'; }
+  var UNKNOWN = '<span class="unknown status-not-checked">Not checked — see the official source</span>';
   var DISCLAIMER = 'Information on this website is provided for research purposes. University requirements, deadlines, tuition fees and scholarship policies can change. Always verify important information on the university’s official website before applying.';
 
   /* ---------------- theme ---------------- */
@@ -135,7 +156,7 @@
     'not-used': 'SAT/ACT not used',
     'accepted': 'SAT/ACT accepted — requirement not confirmed',
     'not-applicable': 'SAT/ACT not part of this admission route',
-    'unknown': 'Policy not confirmed'
+    'unknown': 'SAT/ACT policy not checked'
   };
   function satLabel(u) {
     var t = u.academics && u.academics.sat;
@@ -168,6 +189,28 @@
     return 'private';
   }
   function isCommunityCollege(u) { return institutionKind(u) === 'community-college'; }
+  /* Bachelor's programmes a community college lists in its own catalogue.
+     Their existence says nothing about whether an F-1 applicant can enter
+     them, so that is a separate, explicitly sourced field:
+       bachelorIntl: 'open' | 'restricted' | 'not-stated' */
+  function bachelorPrograms(u) { return Array.isArray(u.bachelorPrograms) ? u.bachelorPrograms : []; }
+  var BACHELOR_INTL = {
+    'open': 'The college states that international (F-1) students can enter these programmes.',
+    'restricted': 'The college restricts some or all of these programmes for international (F-1) students.',
+    'not-stated': 'The college does not say whether international (F-1) students can enter these programmes. Ask the international office before planning on one.'
+  };
+  function bachelorIntlText(u) { return BACHELOR_INTL[u.bachelorIntl] || BACHELOR_INTL['not-stated']; }
+  /* What kind of route a community college is, from its own record. */
+  function ccSummary(u) {
+    if (!isCommunityCollege(u)) return null;
+    var hasBachelor = degreesOf(u).indexOf('bachelor') > -1;
+    return hasBachelor
+      ? 'This community college mainly awards associate degrees and certificates, and its catalogue also lists a small number of bachelor’s programmes. Most international students here still study for two years and then apply to transfer to a university; transfer and any aid after it are not guaranteed unless a specific agreement says so.'
+      : 'This community college awards associate degrees and certificates; no bachelor’s programme was found in its catalogue when this profile was checked. A bachelor’s degree then means transferring to a four-year institution, and neither the transfer nor any aid after it is guaranteed unless a specific agreement says so.';
+  }
+  function ccBadge(u) {
+    return degreesOf(u).indexOf('bachelor') > -1 ? 'Community college · some bachelor’s programmes' : 'Community college · associate degrees';
+  }
   /* Degrees a first-year applicant can enter. Unless a record says otherwise
      the catalogue lists four-year bachelor's routes. */
   var DEGREE_LABELS = { associate: 'Associate degree (2 years)', certificate: 'Certificate', bachelor: 'Bachelor’s degree' };
@@ -216,7 +259,7 @@
     'no-minimum': 'Accepted — no minimum stated by the university',
     'not-required': 'Not required',
     'not-accepted': 'Not accepted',
-    'not-confirmed': 'Requirement not confirmed'
+    'not-confirmed': 'Not checked'
   };
   function testStatus(t) {
     if (!t) return 'not-confirmed';
@@ -253,7 +296,7 @@
         var label = TOEFL_PERIOD[sc.period] || sc.period;
         if (sc.accepted === false) return label + ': not accepted';
         var parts = scoreParts(sc, t.lowestLevel);
-        return parts ? label + ': ' + parts : label + ': not published';
+        return parts ? label + ': ' + parts : label + ': not stated by the source';
       });
     }
     var one = scoreParts(t, t.lowestLevel);
@@ -272,6 +315,32 @@
     return 'English route — fields not confirmed';
   }
   function fullRide(u) { return u.scholarships && u.scholarships.fullRide ? u.scholarships.fullRide : {}; }
+  /* What the largest award actually pays for, read from the itemised coverage
+     the record carries — the word "full" alone decides nothing:
+       full-ride       — tuition, housing and meals are all stated as covered
+       tuition-stipend — tuition is covered and a living stipend is paid, but
+                         housing and meals are not provided as such
+       full-tuition    — tuition only (other costs not covered or not stated)
+       full-funding    — the university describes full funding or meeting full
+                         need, without an itemised list of what is covered
+     "Meets full demonstrated need" is a separate, need-based promise and is
+     never folded into these. */
+  function awardKind(u) {
+    var fr = fullRide(u);
+    if (fr.available !== true) return null;
+    var c = fr.covers || {};
+    if (c.tuition === true && c.housing === true && c.meals === true) return 'full-ride';
+    if (c.tuition === true && c.stipend === true) return 'tuition-stipend';
+    if (c.tuition === true) return 'full-tuition';
+    return 'full-funding';
+  }
+  var AWARD_LABEL = {
+    'full-ride': 'Full ride: tuition, housing and meals',
+    'tuition-stipend': 'Full tuition + living stipend',
+    'full-tuition': 'Full tuition only',
+    'full-funding': 'Full funding possible — coverage not itemised'
+  };
+  function awardLabel(u) { var k = awardKind(u); return k ? AWARD_LABEL[k] : null; }
   function meritList(u) { return (u.scholarships && u.scholarships.merit) || []; }
   function needBased(u) { return (u.scholarships && u.scholarships.needBased) || {}; }
 
@@ -292,13 +361,20 @@
     var w = feeWaiver(u);
     return w === true ? 'Available to international applicants'
       : w === false ? 'Not available to international applicants'
-      : 'Not confirmed';
+      : 'Not checked';
+  }
+  /* Status of the application fee. A number (including a confirmed 0) is
+     confirmed; anything else is not checked unless the record says otherwise. */
+  function feeStatus(u) {
+    var f = u.admissions && u.admissions.applicationFee;
+    if (!f) return 'not-checked';
+    if (typeof f.amount === 'number') return STATUS[f.status] ? f.status : 'confirmed';
+    return STATUS[f.status] && f.status !== 'confirmed' ? f.status : 'not-checked';
   }
   function feeLabel(u) {
     var f = u.admissions && u.admissions.applicationFee;
-    if (!f) return UNKNOWN;
-    if (f.amount === 0) return 'No application fee';
-    if (!has(f.amount)) return UNKNOWN;
+    if (f && f.amount === 0) return 'No application fee';
+    if (!f || !has(f.amount)) return statusHtml(feeStatus(u));
     return money(f.amount, f.currency || 'USD');
   }
   /* Deadlines may carry { entryTerm, dateISO, displayDate } in addition to the
@@ -399,6 +475,7 @@
      the next deadline to apply. */
   var APPLICATION_KINDS = { ED: 'ED', ED2: 'ED II', EA: 'EA', REA: 'REA', RD: 'RD', rolling: 'Rolling', priority: 'Priority',
     'ucas-main': 'UCAS', 'ucas-october': 'UCAS', 'round-1': 'Round 1', 'round-2': 'Round 2', 'round-3': 'Round 3',
+    'round-4': 'Round 4', 'round-5': 'Round 5', 'round-6': 'Round 6', regular: '',
     round: '', 'application-window': '', intake: '' };
   var OTHER_DATE_KINDS = { opens: 'Applications open', documents: 'Documents and tests', portfolio: 'Portfolio',
     test: 'Admissions test', interview: 'Interview', aid: 'Financial aid', scholarship: 'Scholarship',
@@ -406,9 +483,84 @@
   function isApplicationDeadline(d) { return !d.kind || APPLICATION_KINDS.hasOwnProperty(d.kind); }
   function otherDateLabel(d) { return OTHER_DATE_KINDS[d.kind] || 'Other date'; }
   function roundStateLabel(d) { var s = roundState(d); return s ? ROUND_STATE[s] : null; }
-  /* Nearest confirmed, still-open application deadline, or a summary state. */
-  function nextDeadline(u) {
-    var apps = roundsOf(u).filter(isApplicationDeadline);
+  /* ---- intakes ----------------------------------------------------------
+     A deadline belongs to the intake its source names. Intakes are reduced to
+     a season and a year so that "Autumn", "Fall", "September" and a German
+     winter semester land in the same choice, and a spring date is never shown
+     to someone looking at autumn entry. A round may serve several intakes
+     ("Spring or Fall 2027"). Nothing is guessed: a round without a stated
+     term or year belongs to no intake. */
+  var INTAKE_KEY = 'unipath.intake.v1';
+  var SEASON_ORDER = { winter: 0, spring: 1, summer: 2, fall: 3 };
+  var SEASON_LABEL = { winter: 'Winter', spring: 'Spring', summer: 'Summer', fall: 'Fall' };
+  function seasonsOf(term, countryCode) {
+    var t = String(term || '').toLowerCase(), out = [];
+    function add(s) { if (out.indexOf(s) < 0) out.push(s); }
+    if (/autumn|fall|september|october|august/.test(t)) add('fall');
+    if (/spring|march|april|may|february/.test(t)) add('spring');
+    /* In Germany the winter semester starts in October and the summer
+       semester in April; elsewhere winter and summer are short sessions. */
+    if (/winter|january/.test(t)) add(countryCode === 'de' ? 'fall' : 'winter');
+    if (/summer|june|july/.test(t)) add(countryCode === 'de' ? 'spring' : 'summer');
+    return out;
+  }
+  function intakesOf(d, u) {
+    var y = /(20\d\d)/.exec(String(d.entryYear || ''));
+    if (!y) return [];
+    return seasonsOf(d.entryTerm, u && u.country).map(function (s) { return s + '-' + y[1]; });
+  }
+  function intakeLabel(key) {
+    if (!key || key === 'all') return 'Any intake';
+    var p = String(key).split('-');
+    return (SEASON_LABEL[p[0]] || p[0]) + ' ' + p[1];
+  }
+  /* Intakes that have at least one confirmed application deadline somewhere
+     in the database, in calendar order. */
+  var intakeListCache = null;
+  function intakeList() {
+    if (intakeListCache) return intakeListCache;
+    var seen = {};
+    DB.universities.forEach(function (u) {
+      roundsOf(u).forEach(function (d) {
+        if (!isApplicationDeadline(d) || roundStatus(d) !== 'confirmed') return;
+        intakesOf(d, u).forEach(function (k) { seen[k] = (seen[k] || 0) + 1; });
+      });
+    });
+    intakeListCache = Object.keys(seen).sort(function (a, b) {
+      var pa = a.split('-'), pb = b.split('-');
+      return (pa[1] - pb[1]) || (SEASON_ORDER[pa[0]] - SEASON_ORDER[pb[0]]);
+    });
+    return intakeListCache;
+  }
+  function intakeGet() {
+    try {
+      var v = global.localStorage.getItem(INTAKE_KEY);
+      return v && intakeList().indexOf(v) > -1 ? v : 'all';
+    } catch (e) { return 'all'; }
+  }
+  function intakeSet(v) {
+    try { global.localStorage.setItem(INTAKE_KEY, v); } catch (e) {}
+    document.dispatchEvent(new CustomEvent('unipath:intake'));
+  }
+  function intakeSelectHtml(id) {
+    var cur = intakeGet();
+    return '<label class="intake-pick"><span>Intake</span> <select data-intake-select' + (id ? ' id="' + id + '"' : '') + '>' +
+      '<option value="all"' + (cur === 'all' ? ' selected' : '') + '>Any intake</option>' +
+      intakeList().map(function (k) {
+        return '<option value="' + k + '"' + (cur === k ? ' selected' : '') + '>' + esc(intakeLabel(k)) + '</option>';
+      }).join('') + '</select></label>';
+  }
+  function roundInIntake(d, u, intake) {
+    return !intake || intake === 'all' || intakesOf(d, u).indexOf(intake) > -1;
+  }
+  /* Nearest confirmed, still-open application deadline for the chosen intake
+     (the saved choice unless one is passed), or a summary state. 'none' means
+     the profile lists no application round for that intake at all. */
+  function nextDeadline(u, intake) {
+    if (intake === undefined) intake = intakeGet();
+    var all = roundsOf(u).filter(isApplicationDeadline);
+    var apps = all.filter(function (d) { return roundInIntake(d, u, intake); });
+    if (!apps.length && all.length && intake !== 'all') return { state: 'none', intake: intake };
     var open = apps.filter(function (d) { return roundState(d) === 'upcoming'; })
       .sort(function (a, b) { return String(a.dateISO).localeCompare(String(b.dateISO)); });
     if (open.length) return { state: 'upcoming', round: open[0], label: APPLICATION_KINDS[open[0].kind] || '' };
@@ -455,7 +607,26 @@
     if (n.state === 'upcoming') return (n.round.date || n.round.dateISO) + (n.label ? ' · ' + n.label : '');
     if (n.state === 'varies') return 'Rolling / varies';
     if (n.state === 'closed') return 'Confirmed dates have passed';
+    if (n.state === 'none') return 'No round listed for this intake';
     return 'Not confirmed for this cycle';
+  }
+  /* Status of the cost figures. Figures on the record are confirmed. With
+     none, the record's own status decides; `published: false` in older
+     records only ever meant "not captured", so it reads as not checked. */
+  function costStatus(u) {
+    var c = u.costs || {};
+    if (STATUS[c.status]) return c.status;
+    if (costFigures(u).length || has(c.headline) && costBreak(u) && costBreak(u).published !== false) return 'confirmed';
+    if (has(c.headline) && !costBreak(u)) return 'confirmed';
+    return 'not-checked';
+  }
+  /* Short tuition text for cards: the tuition figure, else the university's
+     own published summary line, else the status. Returns { text, known }. */
+  function cardTuition(u) {
+    var t = tuitionText(u);
+    if (t) return { text: t, suffix: perPeriod(u), known: true };
+    if (costStatus(u) === 'confirmed' && has(u.costs && u.costs.headline)) return { text: u.costs.headline, suffix: '', known: true };
+    return { text: statusLabel(costStatus(u)), suffix: '', known: false };
   }
   function costHeadline(u) {
     return (u.costs && has(u.costs.headline)) ? u.costs.headline : null;
@@ -548,7 +719,7 @@
       hasIelts(u) ? 'IELTS ' + (ieltsVaries(u) ? variesLabel(u.english.ielts).toLowerCase() : (ieltsMin(u) || (ieltsPublished(u) ? u.english.ielts.recommended : 'accepted'))) : '',
       toeflMin(u) ? 'TOEFL ' + toeflMin(u) : '',
       u.englishTaught === true ? 'English-taught english taught' : '',
-      fullRide(u).available === true ? 'full scholarship full ride full funding' : '',
+      awardKind(u) === 'full-ride' ? 'full ride full scholarship full funding' : awardKind(u) ? 'full tuition scholarship full funding' : '',
       needBased(u).availableToInternational === true ? 'need-based financial aid need based' : '',
       meritList(u).length ? 'merit scholarship' : '',
       (u.programs || []).map(function (p) { return field(p).label; }).join(' '),
@@ -563,7 +734,7 @@
       var facets = [country(u.country).name, u.city, satLabel(u)];
       (u.programs || []).forEach(function (p) { facets.push(field(p).label); });
       if (u.englishTaught === true) facets.push('English-taught');
-      if (fullRide(u).available === true) facets.push('Full scholarship', 'Full-ride / full scholarship');
+      if (awardKind(u)) facets.push(AWARD_LABEL[awardKind(u)], 'Full scholarship');
       if (needBased(u).availableToInternational === true) facets.push('Need-based aid');
       if (meritList(u).length) facets.push('Merit scholarships');
       text += ' · ' + parts.concat(facets).map(tr).join(' · ');
@@ -605,8 +776,9 @@
     {
       id: 'scholarship', title: 'Scholarships & aid',
       options: [
-        { id: 'full-ride', label: 'Full scholarship available', test: function (u) { return fullRide(u).available === true; } },
-        { id: 'full-ride-intl', label: 'Full scholarship open to internationals', test: function (u) { return fullRide(u).available === true && fullRide(u).internationalEligible === true; } },
+        { id: 'full-ride', label: 'Full ride: tuition, housing and meals covered', test: function (u) { return awardKind(u) === 'full-ride'; } },
+        { id: 'tuition-stipend', label: 'Full tuition plus a living stipend', test: function (u) { return awardKind(u) === 'tuition-stipend'; } },
+        { id: 'full-ride-intl', label: 'Any full-level award open to internationals', test: function (u) { return fullRide(u).available === true && fullRide(u).internationalEligible === true; } },
         { id: 'full-tuition', label: 'Full tuition covered', test: function (u) {
             if (fullRide(u).covers && fullRide(u).covers.tuition === true) return true;
             return meritList(u).some(function (m) { return /full tuition|value of tuition|100%|full dues|tuition exemption|full scholarship/i.test(String(m.amount || '')); });
@@ -651,8 +823,8 @@
     {
       id: 'degree', title: 'Degree level',
       options: [
-        { id: 'bachelor', label: 'Bachelor’s degree (4-year route)', test: function (u) { return degreesOf(u).indexOf('bachelor') > -1; } },
-        { id: 'associate', label: 'Associate degree (2-year route)', test: function (u) { return degreesOf(u).indexOf('associate') > -1; } },
+        { id: 'bachelor', label: 'Bachelor’s degree offered', test: function (u) { return degreesOf(u).indexOf('bachelor') > -1; } },
+        { id: 'associate', label: 'Associate degree offered', test: function (u) { return degreesOf(u).indexOf('associate') > -1; } },
         { id: 'certificate', label: 'Certificate', test: function (u) { return degreesOf(u).indexOf('certificate') > -1; } }
       ]
     },
@@ -728,6 +900,30 @@
   }
   function compareClear() { compareSet([]); }
 
+  /* ---------------- saved institutions ----------------
+     Kept in this browser only (localStorage); nothing is sent anywhere and
+     nothing syncs between devices. */
+  var SAVED_KEY = 'unipath.saved.v1';
+  function savedGet() {
+    try {
+      var arr = JSON.parse(global.localStorage.getItem(SAVED_KEY) || '[]');
+      return Array.isArray(arr) ? arr.filter(uniById) : [];
+    } catch (e) { return []; }
+  }
+  function savedHas(id) { return savedGet().indexOf(id) > -1; }
+  function savedToggle(id) {
+    var arr = savedGet(), i = arr.indexOf(id);
+    if (i > -1) arr.splice(i, 1); else arr.push(id);
+    try { global.localStorage.setItem(SAVED_KEY, JSON.stringify(arr)); } catch (e) { return savedHas(id); }
+    document.dispatchEvent(new CustomEvent('unipath:saved'));
+    return arr.indexOf(id) > -1;
+  }
+  function savedButton(u, cls) {
+    var on = savedHas(u.id);
+    return '<button class="' + (cls || 'btn btn-ghost btn-sm') + ' save-toggle" type="button" data-save="' + esc(u.id) + '" aria-pressed="' + (on ? 'true' : 'false') + '">' +
+      (on ? '★ Saved' : '☆ Save') + '</button>';
+  }
+
   /* ---------------- shared chrome ---------------- */
 
   var NAV = [
@@ -738,6 +934,7 @@
     { href: '#/news', label: 'Admissions updates', key: 'news' },
     { href: '#/match', label: 'Find my match', key: 'match' },
     { href: '#/compare', label: 'Compare', key: 'compare' },
+    { href: '#/saved', label: 'Saved', key: 'saved' },
     { href: '#/about', label: 'About', key: 'about' }
   ];
 
@@ -841,7 +1038,7 @@
 
   function scholarBadge(u) {
     if (fullRide(u).available === true && fullRide(u).internationalEligible === true) {
-      return '<span class="badge badge-ok">★ Full scholarship for internationals</span>';
+      return '<span class="badge badge-ok">★ <span>' + esc(awardLabel(u)) + '</span></span>';
     }
     if (needBased(u).meetsFullNeed === true) {
       return '<span class="badge badge-ok">Meets full need</span>';
@@ -849,7 +1046,7 @@
     if (meritList(u).length) {
       return '<span class="badge badge-accent">' + meritList(u).length + ' merit scholarship' + (meritList(u).length > 1 ? 's' : '') + '</span>';
     }
-    return '<span class="badge">Aid not confirmed</span>';
+    return '<span class="badge">Aid not checked</span>';
   }
 
   function uniCard(u) {
@@ -863,21 +1060,22 @@
         '<div class="card-body">' +
           '<div class="loc">' + c.flag + ' <span>' + esc(u.city) + '</span>, <span>' + esc(c.name) + '</span></div>' +
           '<h3><a href="' + uniUrl(u) + '">' + esc(u.name) + '</a></h3>' +
-          '<div class="pill-row">' + (isCommunityCollege(u) ? '<span class="badge badge-flat">Community college · 2-year route</span>' : '') + scholarBadge(u) +
+          '<div class="pill-row">' + (isCommunityCollege(u) ? '<span class="badge badge-flat">' + esc(ccBadge(u)) + '</span>' : '') + scholarBadge(u) +
             (englishLabel(u) ? '<span class="badge badge-info">' + esc(englishLabel(u)) + '</span>' : '') +
           '</div>' +
           '<dl class="uni-facts">' +
-            '<div><dt>Tuition</dt><dd>' + (tuitionText(u)
-              ? esc(tuitionText(u)) + '<span class="small muted">' + esc(perPeriod(u)) + '</span>'
-              : '<span class="unknown">Not published</span>') + '</dd></div>' +
+            '<div><dt>Tuition</dt><dd>' + (cardTuition(u).known
+              ? esc(cardTuition(u).text) + '<span class="small muted">' + esc(cardTuition(u).suffix) + '</span>'
+              : '<span class="unknown">' + esc(cardTuition(u).text) + '</span>') + '</dd></div>' +
             '<div><dt>Testing</dt><dd>' + esc(satLabel(u)) + '</dd></div>' +
-            '<div><dt>IELTS</dt><dd>' + (ieltsLabel(u) ? esc(ieltsLabel(u)) : '<span class="unknown">Requirement not confirmed</span>') + '</dd></div>' +
+            '<div><dt>IELTS</dt><dd>' + (ieltsLabel(u) ? esc(ieltsLabel(u)) : '<span class="unknown">Not checked</span>') + '</dd></div>' +
             '<div><dt>Next deadline</dt><dd>' + (dl.state === 'upcoming' ? esc(deadlineCardText(u))
               : '<span class="unknown">' + esc(deadlineCardText(u)) + '</span>') + '</dd></div>' +
           '</dl>' +
         '</div>' +
         '<div class="uni-card-actions">' +
           '<a class="btn btn-primary btn-sm" href="' + uniUrl(u) + '">View profile</a>' +
+          savedButton(u) +
           '<a class="btn btn-ghost btn-sm" href="' + esc(u.links.website) + '" target="_blank" rel="noopener">Official site ↗</a>' +
         '</div>' +
       '</article>';
@@ -1013,9 +1211,26 @@
         return;
       }
 
+      var sv = t.closest ? t.closest('[data-save]') : null;
+      if (sv) {
+        e.preventDefault();
+        var sid = sv.getAttribute('data-save');
+        var saved = savedToggle(sid);
+        document.querySelectorAll('[data-save="' + sid + '"]').forEach(function (b) {
+          b.setAttribute('aria-pressed', saved ? 'true' : 'false');
+          b.textContent = saved ? '★ Saved' : '☆ Save';
+        });
+        return;
+      }
+
       var rm = t.closest ? t.closest('[data-tray-remove]') : null;
       if (rm) { compareToggle(rm.getAttribute('data-tray-remove')); location.reload(); return; }
       if (t.closest && t.closest('[data-tray-clear]')) { compareClear(); location.reload(); return; }
+    });
+
+    document.addEventListener('change', function (e) {
+      var t = e.target;
+      if (t && t.matches && t.matches('[data-intake-select]')) intakeSet(t.value);
     });
 
     function syncNav() {
@@ -1040,13 +1255,14 @@
 
   global.UP = {
     DB: DB, esc: esc, has: has, or: or, orRaw: orRaw, qs: qs, money: money, el: el, UNKNOWN: UNKNOWN,
+    STATUS: STATUS, statusLabel: statusLabel, statusHtml: statusHtml, feeStatus: feeStatus, costStatus: costStatus, cardTuition: cardTuition,
     DISCLAIMER: DISCLAIMER,
     country: country, field: field, uniById: uniById, unisByCountry: unisByCountry,
     displayName: displayName, uniUrl: uniUrl,
     testStatus: testStatus, testStatusLabel: testStatusLabel,
     institutionKind: institutionKind, institutionKindLabel: function (u) { return INSTITUTION_KINDS[institutionKind(u)]; }, isCommunityCollege: isCommunityCollege, degreesOf: degreesOf, degreesLabel: degreesLabel,
     satPolicy: satPolicy, satLabel: satLabel, satNotRequired: satNotRequired, hasIelts: hasIelts, ieltsPublished: ieltsPublished, englishPrograms: englishPrograms, englishLabel: englishLabel, ieltsMin: ieltsMin, ieltsVaries: ieltsVaries, testVaries: testVaries, variesLabel: variesLabel, toeflLines: toeflLines, ieltsLabel: ieltsLabel, statsOf: statsOf, toeflMin: toeflMin,
-    fullRide: fullRide, meritList: meritList, needBased: needBased,
+    fullRide: fullRide, awardKind: awardKind, awardLabel: awardLabel, meritList: meritList, needBased: needBased,
     feeAmount: feeAmount, feeWaiver: feeWaiver, feeWaiverLabel: feeWaiverLabel, feeLabel: feeLabel,
     firstDeadline: firstDeadline, deadlineInfo: deadlineInfo, deadlineHtml: deadlineHtml, nextDeadline: nextDeadline, deadlineCardText: deadlineCardText,
     deadlinePassed: deadlinePassed, deadlineEnd: deadlineEnd, roundState: roundState, roundStateLabel: roundStateLabel, isApplicationDeadline: isApplicationDeadline, otherDateLabel: otherDateLabel,
@@ -1058,6 +1274,11 @@
     search: search, FILTER_GROUPS: FILTER_GROUPS, applyFilters: applyFilters, optionById: optionById,
     compareGet: compareGet, compareSet: compareSet, compareHas: compareHas, compareToggle: compareToggle, compareClear: compareClear,
     COMPARE_MAX: COMPARE_MAX,
+    intakesOf: intakesOf, intakeLabel: intakeLabel, intakeList: intakeList, intakeGet: intakeGet, intakeSet: intakeSet,
+    intakeSelectHtml: intakeSelectHtml, roundInIntake: roundInIntake, seasonsOf: seasonsOf,
+    bachelorPrograms: bachelorPrograms, bachelorIntlText: bachelorIntlText, ccSummary: ccSummary, ccBadge: ccBadge,
+    savedGet: savedGet, savedHas: savedHas, savedToggle: savedToggle, savedButton: savedButton,
+    APPLICATION_KINDS: APPLICATION_KINDS,
     setActiveNav: setActiveNav, renderTray: renderTray, wireSearchBox: wireSearchBox,
     uniCard: uniCard, countryCard: countryCard, mediaBlock: mediaBlock, scholarBadge: scholarBadge,
     mount: mount

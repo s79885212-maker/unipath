@@ -1,0 +1,212 @@
+/* UniPath — checks for the data and for the logic of statuses, deadlines and
+   the match page. Run with:  node tests/run.js
+   The site's own scripts are loaded unchanged into a small sandbox. */
+'use strict';
+var fs = require('fs'), path = require('path'), vm = require('vm');
+var ROOT = path.join(__dirname, '..');
+
+var store = {};
+var sandbox = {
+  console: console,
+  setTimeout: setTimeout,
+  Intl: Intl, Date: Date, JSON: JSON, Math: Math,
+  CustomEvent: function (name) { this.type = name; },
+  localStorage: {
+    getItem: function (k) { return Object.prototype.hasOwnProperty.call(store, k) ? store[k] : null; },
+    setItem: function (k, v) { store[k] = String(v); },
+    removeItem: function (k) { delete store[k]; }
+  },
+  location: { search: '', hash: '', pathname: '/', origin: 'https://example.test', protocol: 'https:' },
+  document: {
+    documentElement: { setAttribute: function () {}, getAttribute: function () { return null; }, classList: { add: function () {}, remove: function () {} } },
+    querySelector: function () { return null; }, querySelectorAll: function () { return []; },
+    getElementById: function () { return null; }, addEventListener: function () {}, dispatchEvent: function () {},
+    createElement: function () { return { setAttribute: function () {}, style: {} }; }, title: ''
+  },
+  matchMedia: function () { return { matches: false, addEventListener: function () {} }; },
+  addEventListener: function () {}
+};
+sandbox.window = sandbox; sandbox.global = sandbox;
+vm.createContext(sandbox);
+function load(rel) { vm.runInContext(fs.readFileSync(path.join(ROOT, rel), 'utf8'), sandbox, { filename: rel }); }
+
+var index = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
+var scripts = (index.match(/<script[^>]+src="([^"]+)"/g) || []).map(function (s) { return /src="([^"?]+)/.exec(s)[1]; });
+scripts.filter(function (s) { return /^data\//.test(s) && !/i18n/.test(s); }).forEach(load);
+load('assets/js/app.js');
+load('assets/js/match.js');
+
+var U = sandbox.UP, DB = sandbox.UNIPATH, M = sandbox.UPMatch;
+module.exports = { U: U, DB: DB, M: M };
+var failed = 0, passed = 0;
+function ok(cond, name, detail) {
+  if (cond) { passed++; return; }
+  failed++; console.log('FAIL  ' + name + (detail ? '\n      ' + detail : ''));
+}
+function group(name) { console.log('— ' + name); }
+
+/* ---------------- database shape ---------------- */
+group('database');
+var byCountry = {};
+DB.universities.forEach(function (u) { byCountry[u.country] = (byCountry[u.country] || 0) + 1; });
+ok(DB.universities.length === 230, '230 institutions', 'found ' + DB.universities.length);
+ok(byCountry.us === 110 && byCountry.uk === 30 && byCountry.de === 30 && byCountry.jp === 30 && byCountry.kr === 30,
+  '110 / 30 / 30 / 30 / 30 by country', JSON.stringify(byCountry));
+var ids = {}; var dup = [];
+DB.universities.forEach(function (u) { if (ids[u.id]) dup.push(u.id); ids[u.id] = true; });
+ok(!dup.length, 'ids are unique', dup.join(', '));
+var names = {}, dupNames = [];
+DB.universities.forEach(function (u) { var k = u.name.toLowerCase(); if (names[k]) dupNames.push(u.name); names[k] = true; });
+ok(!dupNames.length, 'names are unique', dupNames.join(', '));
+ok(DB.universities.every(function (u) { return u.links && /^https:\/\//.test(u.links.website || ''); }), 'every record links to an official https site');
+
+/* ---------------- deadlines ---------------- */
+group('deadlines and statuses');
+var OTHER = ['opens', 'documents', 'portfolio', 'test', 'interview', 'aid', 'scholarship', 'decision', 'reply', 'notice'];
+var badKinds = [], noSource = [], badStatus = [], oldConfirmed = [];
+DB.universities.forEach(function (u) {
+  U.roundsOf(u).forEach(function (d) {
+    if (d.kind && !U.APPLICATION_KINDS.hasOwnProperty(d.kind) && OTHER.indexOf(d.kind) < 0) badKinds.push(u.id + ':' + d.kind);
+    if (['confirmed', 'not-confirmed', 'previous-cycle'].indexOf(d.status) < 0) badStatus.push(u.id + ':' + d.name);
+    if (d.status === 'confirmed' && (!d.source || !d.verified)) noSource.push(u.id + ':' + d.name);
+    /* A confirmed application round must belong to the 2027 entry cycle or later. */
+    var y = /(20\d\d)/.exec(String(d.entryYear || ''));
+    if (d.status === 'confirmed' && U.isApplicationDeadline(d) && y && +y[1] < 2027) oldConfirmed.push(u.id + ':' + d.name + ' (' + d.entryYear + ')');
+  });
+});
+ok(!badKinds.length, 'every deadline kind is a known application or other-date kind', badKinds.join(', '));
+ok(!badStatus.length, 'every round has an explicit status', badStatus.slice(0, 5).join(', '));
+ok(!noSource.length, 'every confirmed round has a source and a check date', noSource.slice(0, 5).join(', '));
+ok(!oldConfirmed.length, 'no round of an earlier cycle is marked confirmed', oldConfirmed.slice(0, 5).join(', '));
+
+var prevUsed = [];
+DB.universities.forEach(function (u) {
+  var n = U.nextDeadline(u, 'all');
+  if (n.state === 'upcoming' && n.round.status !== 'confirmed') prevUsed.push(u.id);
+});
+ok(!prevUsed.length, '"next deadline" only ever uses a confirmed round', prevUsed.join(', '));
+
+ok(U.roundState({ status: 'previous-cycle', dateISO: '2099-01-01', kind: 'RD' }) === 'unknown', 'a previous-cycle date is never "upcoming"');
+ok(U.roundState({ status: 'not-confirmed', dateISO: '2099-01-01', kind: 'RD' }) === 'unknown', 'an unconfirmed date is never "upcoming"');
+ok(U.roundState({ status: 'confirmed', dateISO: '2001-01-01', kind: 'RD' }) === 'closed', 'a confirmed past date is closed');
+ok(U.roundState({ status: 'confirmed', dateISO: '2099-01-01', kind: 'RD' }) === 'upcoming', 'a confirmed future date is upcoming');
+ok(U.isApplicationDeadline({ kind: 'round-4' }) && U.isApplicationDeadline({ kind: 'regular' }) && !U.isApplicationDeadline({ kind: 'opens' }),
+  'numbered rounds and regular deadlines are application deadlines; openings are not');
+
+/* intakes */
+ok(U.seasonsOf('Autumn', 'us').join() === 'fall' && U.seasonsOf('September', 'jp').join() === 'fall', 'Autumn and September are the fall intake');
+ok(U.seasonsOf('Winter', 'de').join() === 'fall' && U.seasonsOf('Winter', 'us').join() === 'winter', 'a German winter semester is the fall intake; a US winter session is not');
+ok(U.seasonsOf('Spring or Fall', 'kr').sort().join() === 'fall,spring', 'a round for two intakes belongs to both');
+ok(U.intakesOf({ entryTerm: 'Spring', entryYear: '2027' }, { country: 'kr' }).join() === 'spring-2027', 'intake key');
+ok(U.intakesOf({ entryTerm: 'Spring' }, { country: 'kr' }).length === 0, 'a round with no stated year belongs to no intake');
+var fake = { id: 'x', country: 'kr', admissions: { deadlines: [
+  { name: 'Spring round', kind: 'round-1', entryTerm: 'Spring', entryYear: '2027', dateISO: '2099-01-10', date: '10 January 2099', status: 'confirmed', source: 's', verified: 'v' },
+  { name: 'Fall round', kind: 'round-1', entryTerm: 'Fall', entryYear: '2027', dateISO: '2099-05-10', date: '10 May 2099', status: 'confirmed', source: 's', verified: 'v' },
+  { name: 'Old', kind: 'round-1', entryTerm: 'Fall', entryYear: '2026', dateISO: '2099-03-01', status: 'previous-cycle' }
+] } };
+ok(U.nextDeadline(fake, 'all').round.name === 'Spring round', 'any intake: the nearest confirmed round');
+ok(U.nextDeadline(fake, 'fall-2027').round.name === 'Fall round', 'fall intake: the spring date is not offered');
+ok(U.nextDeadline(fake, 'spring-2027').round.name === 'Spring round', 'spring intake: the spring date');
+ok(U.nextDeadline(fake, 'winter-2027').state === 'none', 'an intake with no round is reported as none, not guessed');
+ok(U.intakeList().length > 0 && U.intakeList().every(function (k) { return /^(winter|spring|summer|fall)-20\d\d$/.test(k); }), 'intake list is built from the data', U.intakeList().join(', '));
+
+/* ---------------- fees and costs ---------------- */
+group('fees and costs');
+ok(U.feeLabel({ admissions: { applicationFee: { amount: null, currency: 'USD' } } }).indexOf('No application fee') < 0, 'an unknown fee is never shown as free');
+ok(U.feeLabel({ admissions: { applicationFee: { amount: 0, currency: 'USD' } } }) === 'No application fee', 'a confirmed zero fee is shown as free');
+ok(U.feeLabel({ admissions: {} }).indexOf('Not checked') > -1, 'a missing fee says not checked');
+ok(U.feeStatus({ admissions: { applicationFee: { amount: null, status: 'not-published' } } }) === 'not-published', 'a fee the source does not state can be marked not published');
+ok(U.costStatus({ costs: { breakdown: { published: false }, headline: 'Tuition published in the admission guide' } }) === 'not-checked',
+  'figures that were not captured are "not checked", never "not published"');
+ok(U.costStatus({ costs: { status: 'not-published', breakdown: { published: false } } }) === 'not-published', 'only an explicit status says the source does not publish a figure');
+ok(U.costStatus({ costs: { currency: 'USD', breakdown: { tuition: 100 } } }) === 'confirmed', 'a recorded figure is confirmed');
+ok(U.cardTuition(U.uniById('brandeis-university')).text !== 'Not published', 'Brandeis: an unread cost page is not shown as "Not published"', U.cardTuition(U.uniById('brandeis-university')).text);
+var allStatuses = ['confirmed', 'not-checked', 'not-published', 'not-applicable', 'previous-cycle', 'conflict'];
+ok(allStatuses.every(function (k) { return !!U.STATUS[k]; }), 'the six data statuses exist');
+var badCostStatus = DB.universities.filter(function (u) { return u.costs && u.costs.status && !U.STATUS[u.costs.status]; }).map(function (u) { return u.id; });
+ok(!badCostStatus.length, 'every explicit cost status is one of the six', badCostStatus.join(', '));
+var zeroNoNote = DB.universities.filter(function (u) { var f = u.admissions && u.admissions.applicationFee; return f && f.amount === 0 && !f.note; }).map(function (u) { return u.id; });
+ok(!zeroNoNote.length, 'every $0 application fee carries the statement it rests on', zeroNoNote.join(', '));
+var badFee = DB.universities.filter(function (u) { var f = u.admissions && u.admissions.applicationFee; return f && f.amount !== null && f.amount !== undefined && (typeof f.amount !== 'number' || f.amount < 0 || !f.currency); }).map(function (u) { return u.id; });
+ok(!badFee.length, 'fee amounts are numbers with a currency', badFee.join(', '));
+var costNoCur = DB.universities.filter(function (u) { return u.costs && (U.tuitionAmount(u) !== null || U.billedAmount(u) !== null || U.budgetAmount(u) !== null) && !U.costCurrency(u); }).map(function (u) { return u.id; });
+ok(!costNoCur.length, 'every numeric cost has a currency', costNoCur.join(', '));
+var ac = (DB.match && DB.match.annualCost) || {};
+var badBasis = Object.keys(ac).filter(function (k) { return ['total', 'tuition'].indexOf(ac[k].basis) < 0 || !ids[k]; });
+ok(!badBasis.length, 'every yearly cost says whether it is tuition only or a full cost', badBasis.join(', '));
+
+/* ---------------- scholarships ---------------- */
+group('scholarships');
+var wrongRide = DB.universities.filter(function (u) {
+  if (U.awardKind(u) !== 'full-ride') return false;
+  var c = U.fullRide(u).covers || {};
+  return !(c.tuition === true && c.housing === true && c.meals === true);
+}).map(function (u) { return u.id; });
+ok(!wrongRide.length, 'an award is called a full ride only where tuition, housing and meals are all stated as covered', wrongRide.join(', '));
+ok(U.awardKind({ scholarships: { fullRide: { available: true, covers: { tuition: true, housing: false, meals: false } } } }) === 'full-tuition', 'tuition-only is labelled full tuition, not a full ride');
+ok(U.awardKind({ scholarships: { fullRide: { available: true, covers: { tuition: true, housing: false, stipend: true } } } }) === 'tuition-stipend', 'tuition plus a stipend is its own category');
+ok(U.awardKind({ scholarships: { fullRide: { available: true, covers: {} } } }) === 'full-funding', 'full funding without an itemised list is not called a full ride');
+ok(U.awardKind({ scholarships: { needBased: { meetsFullNeed: true } } }) === null, 'meeting full need alone is not an award kind');
+ok(U.awardKind(U.uniById('ritsumeikan-apu')) === 'full-tuition' && U.awardKind(U.uniById('tokyo-international-university')) === 'full-tuition', 'APU and TIU tuition reductions are full tuition only');
+var kinds = {}; DB.universities.forEach(function (u) { var k = U.awardKind(u) || 'none'; kinds[k] = (kinds[k] || 0) + 1; });
+console.log('   award kinds: ' + JSON.stringify(kinds));
+
+/* ---------------- SAT policy and statistics ---------------- */
+group('SAT policy and statistics');
+var badStats = [];
+DB.universities.forEach(function (u) {
+  var s = u.stats && u.stats.official && u.stats.official.sat; if (!s) return;
+  ['composite', 'rw', 'math'].forEach(function (k) {
+    var a = s[k]; if (!a) return;
+    if (!Array.isArray(a) || a.length !== 3 || (a[0] !== null && a[2] !== null && a[0] > a[2])) badStats.push(u.id + ':' + k);
+  });
+  if (['admitted', 'enrolled'].indexOf(s.cohort) < 0) badStats.push(u.id + ':cohort');
+  if (!u.stats.source || !u.stats.source.url) badStats.push(u.id + ':source');
+  if (!u.stats.term) badStats.push(u.id + ':term');
+});
+ok(!badStats.length, 'SAT statistics are 25/50/75 triples with a cohort, a year and a source', badStats.slice(0, 8).join(', '));
+ok(U.satPolicy({}) === 'unknown' && !U.satNotRequired({}), 'an unknown policy is never read as test-optional');
+ok(U.satPolicy({ academics: { sat: { policy: 'not-applicable' } } }) === 'not-applicable' && !U.satNotRequired({ academics: { sat: { policy: 'not-applicable' } } }), '"not part of this route" is not test-optional');
+
+/* ---------------- community colleges ---------------- */
+group('community colleges');
+var cc = DB.universities.filter(U.isCommunityCollege);
+ok(cc.length === 5, 'five community colleges', String(cc.length));
+var sinclair = U.uniById('sinclair-community-college');
+ok(U.degreesOf(sinclair).indexOf('bachelor') > -1 && U.bachelorPrograms(sinclair).length >= 2, 'Sinclair lists its bachelor’s programmes');
+ok(cc.every(function (u) { return U.bachelorPrograms(u).length === 0 || (u.bachelorSource && u.bachelorChecked); }), 'bachelor’s programmes at a college carry a source and a check date');
+ok(cc.every(function (u) { return !/not a bachelor/i.test(U.ccSummary(u)) || U.degreesOf(u).indexOf('bachelor') < 0; }), 'no college with bachelor’s programmes is described as awarding none');
+ok(U.bachelorIntlText({ bachelorIntl: undefined }).indexOf('does not say') > -1, 'a programme’s existence is not read as open to F-1 students');
+
+/* ---------------- match ---------------- */
+group('match');
+var input = { ielts: 8, sat: 1500, gpa: null, budget: null, currency: 'USD', country: '', field: '', englishOnly: false };
+var cats = { match: 0, reach: 0, below: 0, unknown: 0 }, estimate = [], okNoBasis = [], gpaNotFlagged = [];
+DB.universities.forEach(function (u) {
+  var r = M.evaluate(u, input);
+  cats[r.category]++;
+  r.checks.forEach(function (c) {
+    if (/UniPath estimate/i.test(c.text)) estimate.push(u.id);
+    if (c.level === 'ok' && !c.basis) okNoBasis.push(u.id + ': ' + c.text);
+  });
+  if (!r.unchecked.some(function (x) { return /GPA/.test(x); })) gpaNotFlagged.push(u.id);
+});
+ok(!estimate.length, 'no comparison uses a UniPath estimate', estimate.slice(0, 5).join(', '));
+ok(!okNoBasis.length, 'every positive comparison names its basis (minimum, recommendation or statistic)', okNoBasis.slice(0, 3).join(' | '));
+ok(!gpaNotFlagged.length, 'a missing GPA is always listed as not checked', gpaNotFlagged.slice(0, 5).join(', '));
+var src = fs.readFileSync(path.join(ROOT, 'assets/js/match.js'), 'utf8');
+ok(!/You meet the published requirements/.test(src), 'the match page does not claim that requirements are met');
+ok(!/\d+\s?% (chance|probability)/i.test(src), 'no admission probability is shown');
+var onlyStat = M.evaluate({ id: 't', country: 'us', academics: { sat: { policy: 'optional' } }, stats: { official: { sat: { composite: [1400, 1450, 1500], cohort: 'enrolled' } } } }, input);
+ok(onlyStat.checks.some(function (c) { return c.basis === 'statistic' && c.level === 'ok'; }) && !onlyStat.bases.minimum,
+  'falling inside the SAT range is recorded as a statistic, not as a requirement met');
+var below = M.evaluate({ id: 't', country: 'uk', english: { ielts: { min: 8.5 } } }, input);
+ok(below.category === 'below', 'a score under an official minimum is reported as below it');
+var nothing = M.evaluate({ id: 't', country: 'jp' }, input);
+ok(nothing.category === 'unknown', 'with no official figure the result is "not enough data", not a match');
+var needsSat = M.evaluate({ id: 't', country: 'us', academics: { sat: { policy: 'required' } } }, { ielts: 8, sat: null, gpa: null, budget: null, currency: 'USD' });
+ok(needsSat.category !== 'match', 'a required test that was not entered is not treated as met');
+console.log('   IELTS 8 + SAT 1500, no GPA → ' + JSON.stringify(cats));
+
+console.log('\n' + passed + ' passed, ' + failed + ' failed');
+process.exit(failed ? 1 : 0);

@@ -11023,18 +11023,14 @@ window.UNIPATH.universities.push(
   "programs": [
     "humanities",
     "social-sciences",
-    "biology",
-    "mathematics",
-    "arts"
+    "biology"
   ],
   "englishTaughtPrograms": [
     "humanities",
     "social-sciences",
-    "biology",
-    "mathematics",
-    "arts"
+    "biology"
   ],
-  "programNote": null,
+  "programNote": "Soka awards a single undergraduate degree, a B.A. in Liberal Arts, with five concentrations: Environmental Studies, Humanities, International Studies, Life Sciences, and Social and Behavioral Sciences. There are no separate bachelor’s degrees by subject.",
   "links": {
     "website": "https://www.soka.edu/",
     "admissions": "https://www.soka.edu/admissions-aid/how-apply",
@@ -11253,6 +11249,14 @@ window.UNIPATH.universities.push(
     {
       "label": "About — history and facts",
       "url": "https://www.soka.edu/about/proud-heritage"
+    },
+    {
+      "label": "Academics — one degree, five concentrations",
+      "url": "https://www.soka.edu/academics"
+    },
+    {
+      "label": "Undergraduate studies — concentrations",
+      "url": "https://www.soka.edu/academics/undergraduate-studies"
     }
   ],
   "verification": {
@@ -11264,7 +11268,8 @@ window.UNIPATH.universities.push(
       "English tests",
       "costs",
       "aid for international students",
-      "founding year"
+      "founding year",
+      "degree structure and concentrations"
     ],
     "unconfirmed": [
       "whether housing and food can be covered by aid",
@@ -11276,7 +11281,8 @@ window.UNIPATH.universities.push(
     "main": null,
     "gallery": [],
     "city": null
-  }
+  },
+  "programsBasis": "concentrations"
 },
 
 {
@@ -17192,6 +17198,10 @@ window.UNIPATH.universities.push(
     {
       "label": "About — history and facts",
       "url": "https://foothill.edu/about/facts.html"
+    },
+    {
+      "label": "Catalog — Bachelor of Science degrees",
+      "url": "https://catalog.foothill.edu/degrees-certificates/bs/"
     }
   ],
   "verification": {
@@ -17219,7 +17229,19 @@ window.UNIPATH.universities.push(
     "main": null,
     "gallery": [],
     "city": null
-  }
+  },
+  "bachelorPrograms": [
+    {
+      "name": "Dental Hygiene — Bachelor of Science"
+    },
+    {
+      "name": "Respiratory Care — Bachelor of Science"
+    }
+  ],
+  "bachelorIntl": "not-stated",
+  "bachelorSource": "https://catalog.foothill.edu/degrees-certificates/bs/",
+  "bachelorChecked": "2026-10-05",
+  "programsBasis": "transfer"
 },
 
 {
@@ -17234,7 +17256,8 @@ window.UNIPATH.universities.push(
   "institutionKind": "community-college",
   "degrees": [
     "associate",
-    "certificate"
+    "certificate",
+    "bachelor"
   ],
   "brand": {
     "c1": "#8B0000",
@@ -17506,6 +17529,10 @@ window.UNIPATH.universities.push(
     {
       "label": "About — history and facts",
       "url": "https://www.fhda.edu/_about-us/_history-the-legacy-of-foothill-de-anza.html"
+    },
+    {
+      "label": "Bachelor’s degree in Automotive Technology Management",
+      "url": "https://www.deanza.edu/autotech/management/about.html"
     }
   ],
   "verification": {
@@ -17533,7 +17560,17 @@ window.UNIPATH.universities.push(
     "main": null,
     "gallery": [],
     "city": null
-  }
+  },
+  "degreesNote": "Mainly associate degrees, associate degrees for transfer and certificates; De Anza also offers one bachelor’s degree.",
+  "bachelorPrograms": [
+    {
+      "name": "Automotive Technology Management — Bachelor of Science"
+    }
+  ],
+  "bachelorIntl": "not-stated",
+  "bachelorSource": "https://www.deanza.edu/autotech/management/about.html",
+  "bachelorChecked": "2026-10-05",
+  "programsBasis": "transfer"
 },
 
 {
@@ -17548,7 +17585,8 @@ window.UNIPATH.universities.push(
   "institutionKind": "community-college",
   "degrees": [
     "associate",
-    "certificate"
+    "certificate",
+    "bachelor"
   ],
   "brand": {
     "c1": "#00539B",
@@ -17818,6 +17856,10 @@ window.UNIPATH.universities.push(
     {
       "label": "About — history and facts",
       "url": "https://www.smc.edu/about/"
+    },
+    {
+      "label": "Bachelor’s programs at SMC",
+      "url": "https://www.smc.edu/academics/bachelors-programs/"
     }
   ],
   "verification": {
@@ -17846,7 +17888,21 @@ window.UNIPATH.universities.push(
     "main": null,
     "gallery": [],
     "city": null
-  }
+  },
+  "degreesNote": "Mainly associate degrees and certificates; SMC also offers a Bachelor of Science in Interaction Design and has announced a second bachelor’s programme.",
+  "bachelorPrograms": [
+    {
+      "name": "Interaction Design — Bachelor of Science"
+    },
+    {
+      "name": "Cloud Computing — Bachelor of Science",
+      "note": "SMC says this programme will launch in 2027"
+    }
+  ],
+  "bachelorIntl": "not-stated",
+  "bachelorSource": "https://www.smc.edu/academics/bachelors-programs/",
+  "bachelorChecked": "2026-10-05",
+  "programsBasis": "transfer"
 },
 
 {
@@ -17861,14 +17917,15 @@ window.UNIPATH.universities.push(
   "institutionKind": "community-college",
   "degrees": [
     "associate",
-    "certificate"
+    "certificate",
+    "bachelor"
   ],
   "brand": {
     "c1": "#C8102E",
     "c2": "#7a0a1c",
     "initials": "SCC"
   },
-  "description": "A public community college in Dayton, Ohio, with university-parallel programmes designed for transfer to four-year universities. Applicants without an English score are first considered for its intensive English programme.",
+  "description": "A public community college in Dayton, Ohio, with university-parallel programmes designed for transfer to four-year universities and a small number of its own bachelor’s degrees in applied fields. Applicants without an English score are first considered for its intensive English programme.",
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
@@ -18070,6 +18127,10 @@ window.UNIPATH.universities.push(
     {
       "label": "About — history and facts",
       "url": "https://www.sinclair.edu/about/fast-facts"
+    },
+    {
+      "label": "Bachelor degrees at Sinclair",
+      "url": "https://www.sinclair.edu/academics/bachelors/"
     }
   ],
   "verification": {
@@ -18078,13 +18139,15 @@ window.UNIPATH.universities.push(
       "deadlines for spring and summer 2027",
       "English tests",
       "tuition rate",
-      "founding year"
+      "founding year",
+      "bachelor’s programmes in the catalogue"
     ],
     "unconfirmed": [
       "Fall 2027 deadline",
       "application fee",
       "scholarships for international students",
-      "housing options"
+      "housing options",
+      "whether F-1 students can enter the bachelor’s programmes"
     ]
   },
   "lastVerified": "2026-10-01",
@@ -18098,7 +18161,32 @@ window.UNIPATH.universities.push(
     "main": null,
     "gallery": [],
     "city": null
-  }
+  },
+  "degreesNote": "Mainly associate degrees and certificates; Sinclair’s own “Bachelor Degrees” page also lists five bachelor’s programmes.",
+  "bachelorPrograms": [
+    {
+      "name": "Aviation Technology/Professional Pilot — Bachelor of Applied Science"
+    },
+    {
+      "name": "Unmanned Aerial Systems — Bachelor of Applied Science",
+      "note": "120–124 credit hours"
+    },
+    {
+      "name": "Integrated Systems Technician — Bachelor of Applied Science"
+    },
+    {
+      "name": "Nursing — Bachelor of Science",
+      "note": "builds on RN experience and has specific prerequisites"
+    },
+    {
+      "name": "Health Sciences — Bachelor of Applied Science",
+      "note": "described by Sinclair as primarily online"
+    }
+  ],
+  "bachelorIntl": "not-stated",
+  "bachelorSource": "https://www.sinclair.edu/academics/bachelors/",
+  "bachelorChecked": "2026-10-05",
+  "programsBasis": "transfer"
 },
 
 {
@@ -18410,6 +18498,10 @@ window.UNIPATH.universities.push(
     {
       "label": "About — history and facts",
       "url": "https://www.greenriver.edu/campus/history/"
+    },
+    {
+      "label": "Bachelor of Applied Science for international students",
+      "url": "https://www.greenriver.edu/international/programs/bachelors/"
     }
   ],
   "verification": {
@@ -18437,6 +18529,31 @@ window.UNIPATH.universities.push(
     "main": null,
     "gallery": [],
     "city": null
-  }
+  },
+  "bachelorPrograms": [
+    {
+      "name": "Accounting — Bachelor of Applied Science"
+    },
+    {
+      "name": "Aeronautical Science — Bachelor of Applied Science"
+    },
+    {
+      "name": "Applied Management — Bachelor of Applied Science"
+    },
+    {
+      "name": "Information Technology: Cybersecurity and Networking — Bachelor of Applied Science"
+    },
+    {
+      "name": "Information Technology: Software Development — Bachelor of Applied Science"
+    },
+    {
+      "name": "Marketing and Entrepreneurship — Bachelor of Applied Science"
+    }
+  ],
+  "bachelorIntl": "open",
+  "bachelorSource": "https://www.greenriver.edu/international/programs/bachelors/",
+  "bachelorChecked": "2026-10-05",
+  "bachelorIntlNote": "Green River lists these as its most popular BAS programmes for international students and says applicants with an equivalent degree from abroad are welcome.",
+  "programsBasis": "transfer"
 }
 );

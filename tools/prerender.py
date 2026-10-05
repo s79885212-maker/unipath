@@ -160,7 +160,7 @@ def english_lines(t, name):
     if t.get("accepted") is False or status == "not-accepted":
         return ["Not accepted"]
     return [{"no-minimum": "Accepted — no minimum stated by the university",
-             "not-required": "Not required"}.get(status, "Requirement not confirmed")]
+             "not-required": "Not required"}.get(status, "Not checked")]
 
 
 def sat_label(u):
@@ -171,7 +171,7 @@ def sat_label(u):
             "required-alternatives": "Testing required — alternatives to SAT/ACT accepted",
             "optional": "Test-optional", "accepted": "SAT/ACT accepted — requirement not confirmed",
             "not-used": "SAT/ACT not used",
-            "not-applicable": "SAT/ACT not part of this admission route"}.get(t.get("policy"), "Policy not confirmed")
+            "not-applicable": "SAT/ACT not part of this admission route"}.get(t.get("policy"), "SAT/ACT policy not checked")
 
 
 def sat_stats_line(u) -> str:
@@ -214,7 +214,7 @@ def fee_text(u):
         return "No application fee"
     if has(fee.get("amount")):
         return money(fee["amount"], fee.get("currency") or "USD")
-    return "Not confirmed — check the official source"
+    return "Not checked — see the official source"
 
 
 def head_tags(title, description, url, image=None, og_type="website"):
@@ -301,8 +301,21 @@ def university_page(u, country, fields):
     degree_names = {"associate": "Associate degree (2 years)", "certificate": "Certificate", "bachelor": "Bachelor’s degree"}
     row("Degrees offered", e(", ".join(degree_names.get(d, d) for d in (u.get("degrees") or ["bachelor"]))))
     if u.get("institutionKind") == "community-college":
-        row("Route", "A community college: it awards associate degrees and certificates, not a bachelor’s degree. "
-                     "A bachelor’s degree needs a later transfer to a four-year institution, which is not guaranteed.")
+        has_bachelor = "bachelor" in (u.get("degrees") or [])
+        if has_bachelor:
+            row("Route", "A community college: mainly associate degrees and certificates, and its catalogue also lists a small number "
+                         "of bachelor’s programmes. Most international students still study for two years and then apply to transfer; "
+                         "transfer is not guaranteed.")
+        else:
+            row("Route", "A community college: associate degrees and certificates; no bachelor’s programme was found in its catalogue "
+                         "when this profile was checked. A bachelor’s degree then needs a later transfer to a four-year institution, "
+                         "which is not guaranteed.")
+        bps = u.get("bachelorPrograms") or []
+        if bps:
+            intl = {"open": "The college states that international (F-1) students can enter these programmes.",
+                    "restricted": "The college restricts some or all of these programmes for international (F-1) students."}.get(
+                        u.get("bachelorIntl"), "The college does not say whether international (F-1) students can enter these programmes.")
+            row("Bachelor’s programmes in the catalogue", e("; ".join(b.get("name", "") for b in bps)) + "<br>" + e(intl))
         ccx = u.get("communityCollege") or {}
         for key, label in (("route", "Route for international applicants"), ("housing", "Housing"),
                            ("transfer", "Transfer to a university"), ("work", "Study and work rules")):
@@ -357,7 +370,16 @@ def university_page(u, country, fields):
         row("SAT statistics", sat_stats)
     if fr.get("available") is True:
         who = " — open to international students" if fr.get("internationalEligible") is True else ""
-        row("Full scholarship route", "Yes" + e(who))
+        cov = fr.get("covers") or {}
+        if cov.get("tuition") is True and cov.get("housing") is True and cov.get("meals") is True:
+            kind = "Full ride: tuition, housing and meals"
+        elif cov.get("tuition") is True and cov.get("stipend") is True:
+            kind = "Full tuition + living stipend"
+        elif cov.get("tuition") is True:
+            kind = "Full tuition only"
+        else:
+            kind = "Full funding possible — coverage not itemised"
+        row("Largest award", e(kind) + e(who))
     row("Need-based aid for internationals",
         "Yes" if need.get("availableToInternational") is True else "No" if need.get("availableToInternational") is False else "Not confirmed")
 
@@ -379,7 +401,7 @@ def university_page(u, country, fields):
         if en:
             programs += "<p><strong>Available fully in English:</strong> " + e(", ".join(labels.get(p, p) for p in en)) + "</p>"
         elif u.get("englishTaught") is True:
-            programs += "<p><strong>Available fully in English:</strong> not confirmed \u2014 check the official programme list.</p>"
+            programs += "<p><strong>Available fully in English:</strong> not checked \u2014 see the official programme list.</p>"
         if has(u.get("programNote")):
             programs += f"<p>{e(u['programNote'])}</p>"
 
