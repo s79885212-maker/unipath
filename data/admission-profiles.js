@@ -1240,6 +1240,17 @@
     }
   };
 
+  P['wesleyan-university'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Wesleyan University Common Data Set 2025–26 (section C9)', url: 'https://www.wesleyan.edu/ir/common-data-sets.html' },
+      official: {
+        sat: { composite: [1350, 1460, 1510], rw: [690, 730, 750], math: [660, 720, 770], submitted: '44%', cohort: 'enrolled', submittersOnly: true, note: 'Wesleyan publishes its Common Data Set as spreadsheet files in a shared folder linked from this page; the figures are from the 2025–26 file.' },
+        act: [32, 33, 35]
+      }
+    }
+  };
+
   /* ========================== JAPAN ========================== */
 
   P['university-of-tokyo'] = {

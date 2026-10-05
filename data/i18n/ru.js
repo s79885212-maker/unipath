@@ -10002,4 +10002,5 @@ window.UNIPATH_I18N.ru = {
   "UC Berkeley does not use SAT or ACT scores in admission, and section C9 of its 2024–25 Common Data Set, the latest one published, is left blank.": "UC Berkeley не использует баллы SAT и ACT при приёме, и раздел C9 его Common Data Set 2024–25 — последнего опубликованного — оставлен пустым.",
   "{0} Common Data Set 2024–25 (section C9)": "{0} Common Data Set 2024–25 (раздел C9)",
   "One UC application covers all nine campuses. You can start work on it from 1 August; the filing period is 1 October – 30 November.": "Одна заявка UC действует для всех девяти кампусов. Заполнять её можно с 1 августа; период подачи — с 1 октября по 30 ноября.",
+  "Wesleyan publishes its Common Data Set as spreadsheet files in a shared folder linked from this page; the figures are from the 2025–26 file.": "Wesleyan публикует Common Data Set в виде файлов-таблиц в общей папке, на которую ведёт ссылка с этой страницы; цифры взяты из файла 2025–26.",
 };
