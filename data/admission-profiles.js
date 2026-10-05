@@ -1186,6 +1186,60 @@
     }
   };
 
+  P['vassar-college'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Vassar College Common Data Set 2025–26 (section C9)', url: 'https://offices.vassar.edu/institutional-research/wp-content/uploads/sites/23/2026/03/Vassar_College_CDS_2025-2026.pdf' },
+      official: {
+        sat: { composite: [1460, 1490, 1520], rw: [730, 750, 770], math: [710, 740, 770], submitted: '32%', cohort: 'enrolled', submittersOnly: true },
+        act: [33, 34, 34]
+      }
+    }
+  };
+
+  P['grinnell-college'] = {
+    stats: {
+      term: 'Fall 2024 entering class',
+      source: { label: 'Grinnell College Common Data Set 2024–25 (section C9)', url: 'https://www.grinnell.edu/sites/default/files/docs/2025-03/Grinnell-2024-2025-Common-Data-Set.pdf' },
+      official: {
+        sat: { composite: [1430, 1490, 1520], rw: [700, 730, 750], math: [710, 760, 790], submitted: '29%', cohort: 'enrolled', submittersOnly: true, note: 'Grinnell had not published its 2025–26 Common Data Set when this was checked; these figures are for the class that entered in Fall 2024.' },
+        act: [31, 33, 34]
+      }
+    }
+  };
+
+  P['pomona-college'] = {
+    stats: {
+      term: 'Entering class reported in the 2025–26 CDS',
+      source: { label: 'Pomona College Common Data Set 2025–26 (section C9)', url: 'https://tableau.campus.pomona.edu/views/CDS2025-26/C_First-timeFirst-yearadmission' },
+      official: {
+        sat: { composite: [1490, 1520, 1550], rw: [740, 755, 770], math: [730, 770, 790], submitted: '37%', cohort: 'enrolled', submittersOnly: true, note: 'Pomona publishes its 2025–26 Common Data Set as an online dashboard. The C9 heading there says Fall 2024, while other parts of the same edition refer to applicants for Fall 2026.' },
+        act: [32, 34, 34]
+      }
+    }
+  };
+
+  P['duke-university'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Duke University Common Data Set 2025–26 (section C9)', url: 'https://ir.provost.duke.edu/sites/default/files/CDS-2025-26-Duke-University-Final-to-be-published.pdf' },
+      official: {
+        sat: { composite: [1510, 1550, 1570], rw: [740, 760, 780], math: [770, 790, 790], submitted: '48%', cohort: 'enrolled', submittersOnly: true },
+        act: [34, 35, 35]
+      }
+    }
+  };
+
+  P['uc-berkeley'] = {
+    stats: {
+      term: 'Fall 2024 entering class',
+      source: { label: 'UC Berkeley Common Data Set 2024–25 (section C9)', url: 'https://opa.berkeley.edu/campus-data/common-data-set' },
+      official: {
+        satNotPublished: 'UC Berkeley does not use SAT or ACT scores in admission, and section C9 of its 2024–25 Common Data Set, the latest one published, is left blank.'
+      }
+    }
+  };
+
   /* ========================== JAPAN ========================== */
 
   P['university-of-tokyo'] = {

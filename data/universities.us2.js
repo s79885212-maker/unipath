@@ -15596,17 +15596,19 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": null,
       "recommended": null,
-      "note": "Not confirmed during this check."
+      "status": "no-minimum",
+      "note": "UF’s undergraduate catalog says freshman applicants whose native language is not English must submit official TOEFL or IELTS scores; it gives no minimum score for freshmen."
     },
     "toefl": {
       "min": null,
       "recommended": null,
-      "note": "UF lists a TOEFL code (5812); score expectations were not found on the pages read."
+      "status": "no-minimum",
+      "note": "UF’s undergraduate catalog says freshman applicants whose native language is not English must submit official TOEFL or IELTS scores; it gives no minimum score for freshmen. UF’s TOEFL code is 5812."
     },
     "duolingo": {
       "min": null,
       "recommended": null,
-      "note": "Not confirmed during this check."
+      "note": "The catalog names only TOEFL and IELTS; the Duolingo English Test is not mentioned."
     },
     "waiver": null,
     "note": null
@@ -15711,6 +15713,10 @@ window.UNIPATH.universities.push(
     {
       "label": "About — history and facts",
       "url": "https://www.ufl.edu/about"
+    },
+    {
+      "label": "Undergraduate catalog — admission",
+      "url": "https://catalog.ufl.edu/UGRD/admission/"
     }
   ],
   "verification": {
@@ -15720,14 +15726,15 @@ window.UNIPATH.universities.push(
       "application fee",
       "testing policy",
       "costs",
-      "founding year"
+      "founding year",
+      "accepted English tests"
     ],
     "unconfirmed": [
-      "English tests and scores",
+      "English score minimums (not published for freshmen)",
       "scholarships open to international students"
     ]
   },
-  "lastVerified": "2026-10-01",
+  "lastVerified": "2026-10-05",
   "photos": {
     "main": null,
     "gallery": [],
