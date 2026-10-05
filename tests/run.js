@@ -208,5 +208,21 @@ var needsSat = M.evaluate({ id: 't', country: 'us', academics: { sat: { policy: 
 ok(needsSat.category !== 'match', 'a required test that was not entered is not treated as met');
 console.log('   IELTS 8 + SAT 1500, no GPA → ' + JSON.stringify(cats));
 
+
+/* ---------------- photos ---------------- */
+group('photos');
+var missingFiles = [], noCredit = [];
+DB.universities.forEach(function (u) {
+  var g = (u.photos && u.photos.gallery) || [];
+  g.forEach(function (x) {
+    if (!fs.existsSync(path.join(ROOT, x.src))) missingFiles.push(x.src);
+    if (!x.title || !x.artist || !x.license || !x.page) noCredit.push(u.id);
+  });
+  if (g.length && !fs.existsSync(path.join(ROOT, u.photos.thumb))) missingFiles.push(u.photos.thumb);
+});
+ok(!missingFiles.length, 'every listed photo and thumbnail exists on disk', missingFiles.slice(0, 5).join(', '));
+ok(!noCredit.length, 'every photo has a title, author, licence and source page', noCredit.slice(0, 5).join(', '));
+console.log('   without a photo (placeholder shown): ' + DB.universities.filter(function (u) { return !((u.photos && u.photos.gallery) || []).length; }).map(function (u) { return u.id; }).join(', '));
+
 console.log('\n' + passed + ' passed, ' + failed + ' failed');
 process.exit(failed ? 1 : 0);
