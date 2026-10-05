@@ -106,7 +106,7 @@
           '<span class="small warn-text">' + esc(U.bachelorIntlText(u)) + '</span>' +
           (has(u.bachelorIntlNote) ? '<br><span class="small muted">' + esc(u.bachelorIntlNote) + '</span>' : '') +
           (has(u.bachelorSource) ? '<br><span class="small muted"><a href="' + esc(u.bachelorSource) + '" target="_blank" rel="noopener">Official page ↗</a>' +
-            (has(u.bachelorChecked) ? ' · Checked ' + esc(u.bachelorChecked) : '') + '</span>' : '')) : '') +
+            (has(u.bachelorChecked) ? ' · <span>Checked ' + esc(u.bachelorChecked) + '</span>' : '') + '</span>' : '')) : '') +
         (u.communityCollege && has(u.communityCollege.route) ? row('Route for international applicants', esc(u.communityCollege.route)) : '') +
         (u.communityCollege && has(u.communityCollege.housing) ? row('Housing', esc(u.communityCollege.housing)) : '') +
         (u.communityCollege && has(u.communityCollege.transfer) ? row('Transfer to a university', esc(u.communityCollege.transfer)) : '') +
@@ -182,7 +182,10 @@
       '<h3 style="margin-top:6px">Application deadlines</h3>' + deadlines +
       '<dl class="deflist" style="margin-top:18px">' +
         row('Application platform', has(a.platforms) ? a.platforms.map(esc).join('<br>') : UNKNOWN) +
-        row('Application fee', U.feeLabel(u) + (has(fee.note) ? '<br><span class="small muted">' + esc(fee.note) + '</span>' : '')) +
+        row('Application fee', U.feeLabel(u) + (has(fee.note) ? '<br><span class="small muted">' + esc(fee.note) + '</span>' : '') +
+          (has(fee.source) ? '<br><span class="small muted"><a href="' + esc(fee.source) + '" target="_blank" rel="noopener">Official page ↗</a>' +
+            (has(fee.verified) ? ' · <span>Checked ' + esc(fee.verified) + '</span>' : '') + '</span>' : '') +
+          '<br><span class="small muted">An application fee is separate from an enrolment deposit or registration fee, which are charged only after admission.</span>') +
         row('Fee waiver', (U.feeWaiver(u) === null ? UNKNOWN : '<strong>' + esc(U.feeWaiverLabel(u)) + '</strong>') +
           (has(fee.waiver) ? '<br><span class="small muted">' + esc(fee.waiver) + '</span>' : '')) +
         row('Required documents', list(a.documents)) +

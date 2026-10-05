@@ -538,7 +538,7 @@ window.UNIPATH.universities.push(
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Last SAT sitting is the end of December.', status: 'confirmed', source: 'https://admission.stanford.edu/apply/deadlines/index.html', verified: '2026-09-23', note: null },
       { name: 'Financial aid — priority deadline', kind: 'aid', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: false, appliesTo: 'Applicants asking for financial aid', conditions: 'Applying by this date brings a financial aid notification by mid-December.', status: 'confirmed', source: 'https://admission.stanford.edu/apply/deadlines/index.html', verified: '2026-09-23', note: null },
     ],
-    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waivers are available through the Common Application; the fee amount was not confirmed on the pages consulted.' },
+    applicationFee: { amount: 100, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waivers are available through the Common Application; the fee amount was not confirmed on the pages consulted.', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://drive.google.com/file/d/1GIPKgVj1d86dkmLkHI_mZVCk_iY6kiCp/view', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application with Stanford questions', 'School transcript and school report', 'Teacher recommendations', 'SAT or ACT scores'],
     recommendations: 'Two teacher recommendations and a counsellor report',
     essay: 'Common Application essay plus the Stanford questions',
@@ -595,7 +595,8 @@ window.UNIPATH.universities.push(
     { label: 'International students — financial aid', url: 'https://financialaid.stanford.edu/undergrad/how/international.html' },
     { label: 'International applicants', url: 'https://admission.stanford.edu/apply/international/index.html' },
     { label: '2026–2027 undergraduate tuition rates', url: 'https://studentservices.stanford.edu/tuition-rates/2026-2027-undergraduate-tuition-rates' },
-    { label: 'Stanford holds undergraduate tuition steady for 2026-27', url: 'https://news.stanford.edu/stories/2026/02/undergraduate-tuition-rates-2026-2027' }
+    { label: 'Stanford holds undergraduate tuition steady for 2026-27', url: 'https://news.stanford.edu/stories/2026/02/undergraduate-tuition-rates-2026-2027' },
+    { label: 'Stanford University Common Data Set 2025–26 (section C13)', url: 'https://drive.google.com/file/d/1GIPKgVj1d86dkmLkHI_mZVCk_iY6kiCp/view' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -631,7 +632,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-09', date: '9 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decision by early to mid-December.', status: 'confirmed', source: 'https://www.amherst.edu/admission/apply/firstyear/calendar_deadlines', verified: '2026-09-23', note: null },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional: self-reported or official SAT/ACT scores are accepted but not required. Decision by late March.', status: 'confirmed', source: 'https://www.amherst.edu/admission/apply/firstyear/calendar_deadlines', verified: '2026-09-23', note: null },
     ],
-    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waivers are granted automatically to applicants who meet the College Board criteria in the Common Application profile.' },
+    applicationFee: { amount: 75, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waivers are granted automatically to applicants who meet the College Board criteria in the Common Application profile.', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://www.amherst.edu/system/files/C.%20First-Time%20First-Year%20Admission%202025-26_0.pdf', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Common Application essay plus Amherst’s supplement',
@@ -689,7 +690,8 @@ window.UNIPATH.universities.push(
     { label: 'International students — financial aid', url: 'https://www.amherst.edu/offices/financialaid/international_students' },
     { label: 'Calendar and deadlines', url: 'https://www.amherst.edu/admission/apply/firstyear/calendar_deadlines' },
     { label: 'Fees for the 2026-27 academic year', url: 'https://www.amherst.edu/offices/financialaid/forms_links/fees_2026-2027_academic_year' },
-    { label: 'Standardized testing policy', url: 'https://www.amherst.edu/admission/apply/firstyear/testing' }
+    { label: 'Standardized testing policy', url: 'https://www.amherst.edu/admission/apply/firstyear/testing' },
+    { label: 'Amherst College Common Data Set 2025–26 (section C13)', url: 'https://www.amherst.edu/system/files/C.%20First-Time%20First-Year%20Admission%202025-26_0.pdf' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -915,7 +917,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decision by 15 December.', status: 'confirmed', source: 'https://www.williams.edu/admission-aid/apply/deadlines/', verified: '2026-09-23', note: null },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Decision by 1 April; admitted students reply by 1 May. Applicants state on the application whether they are applying test-optional and can change that choice until their round’s deadline.', status: 'confirmed', source: 'https://www.williams.edu/admission-aid/apply/deadlines/', verified: '2026-09-23', note: null },
     ],
-    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
+    applicationFee: { amount: 65, currency: 'USD', waiverAvailableToInternational: null, waiver: 'The Common Data Set says the fee can be waived for applicants with financial need; whether that covers international applicants was not checked.', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://hub.williams.edu/institutional-research/files/2026/04/Williams-CDS-2025-2026-V2.pdf', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Common Application essay plus the Williams supplement',
@@ -940,17 +942,24 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
-    breakdown: { published: false },
-    academicYear: null,
+    breakdown: { tuition: 76300, billed: 95960, includes: 'tuition, required fees and on-campus food and housing; books, travel, personal expenses and health insurance are extra', published: true },
+    academicYear: '2026–2027',
     currency: 'USD',
-    headline: 'Not confirmed — see the Williams tuition page',
+    headline: '$76,300 tuition · $95,960 with required fees, food and housing',
     items: [
-      { label: 'Comprehensive fee', text: 'Published on the Williams tuition and aid page; the current figure was not confirmed here' },
-      { label: 'Average aid award for international students', amount: 90000 }
+      { label: 'Tuition', amount: 76300 },
+      { label: 'Required fees', amount: 340 },
+      { label: 'Food and housing (on campus)', amount: 19320 },
+      { label: 'Books and supplies', amount: 1000 },
+      { label: 'Transportation', amount: 850 },
+      { label: 'Other expenses', amount: 1850 }
     ],
-    billedSubtotal: null,
-    totalText: 'Not confirmed — check the official tuition page',
-    note: 'Williams states that aid awards for international students average more than $90,000 a year and that about 70% of its international students receive aid.'
+    billedSubtotal: 95960,
+    totalText: '$95,960 for tuition, required fees and on-campus food and housing',
+    note: 'From section G1 of the 2025–26 Common Data Set, which lists typical charges for the full 2026–2027 academic year. Williams notes that books are provided free to all students on need-based financial aid.',
+    source: 'https://hub.williams.edu/institutional-research/files/2026/04/Williams-CDS-2025-2026-V2.pdf',
+    verified: '2026-10-05',
+    studentCategory: 'Full-time first-year undergraduates living on campus'
   },
   scholarships: {
     fullRide: {
@@ -975,7 +984,8 @@ window.UNIPATH.universities.push(
     { label: 'Requirements and deadlines', url: 'https://www.williams.edu/admission-aid/tuition-aid/requirements-and-deadlines/' },
     { label: 'Additional information for international applicants', url: 'https://www.williams.edu/admission-aid/apply/international/' },
     { label: 'First-year applicants — testing', url: 'https://www.williams.edu/admission-aid/how-to-apply/first-year/' },
-    { label: 'International applicants', url: 'https://www.williams.edu/admission-aid/how-to-apply/additional-applicant-information/international/' }
+    { label: 'International applicants', url: 'https://www.williams.edu/admission-aid/how-to-apply/additional-applicant-information/international/' },
+    { label: 'Williams College Common Data Set 2025–26 (section C13)', url: 'https://hub.williams.edu/institutional-research/files/2026/04/Williams-CDS-2025-2026-V2.pdf' }
   ],
   lastVerified: '2026-09-22'
 }
@@ -1607,7 +1617,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding.', status: 'confirmed', source: 'https://admissions.wustl.edu/how-to-apply/application-deadlines/', verified: '2026-09-23', note: null },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional; if scores are submitted, the last accepted test date is December. WashU superscores the SAT and ACT.', status: 'confirmed', source: 'https://admissions.wustl.edu/how-to-apply/application-deadlines/', verified: '2026-09-23', note: null },
     ],
-    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: 'WashU publishes a fee waiver request; the fee amount was not confirmed on the pages consulted.' },
+    applicationFee: { amount: 75, currency: 'USD', waiverAvailableToInternational: null, waiver: 'WashU publishes a fee waiver request; the fee amount was not confirmed on the pages consulted.', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://washu.edu/app/uploads/2026/06/2025-2026-WashU-CDS.pdf', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay plus WashU’s supplemental questions',
@@ -1667,7 +1677,8 @@ window.UNIPATH.universities.push(
     { label: 'Financial aid for international students', url: 'https://students.wustl.edu/financial-aid-international-students/' },
     { label: 'Application dates and deadlines', url: 'https://admissions.washu.edu/how-to-apply/application-deadlines/' },
     { label: 'English testing requirements', url: 'https://admissions.washu.edu/how-to-apply/english-testing-requirements/' },
-    { label: 'Common questions — testing', url: 'https://admissions.washu.edu/how-to-apply/common-questions/' }
+    { label: 'Common questions — testing', url: 'https://admissions.washu.edu/how-to-apply/common-questions/' },
+    { label: 'Washington University in St. Louis Common Data Set 2025–26 (section C13)', url: 'https://washu.edu/app/uploads/2026/06/2025-2026-WashU-CDS.pdf' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -1816,7 +1827,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decisions in mid-February.', status: 'confirmed', source: 'https://admissions.tufts.edu/apply/applying-to-tufts/checklist-and-deadlines/', verified: '2026-09-23', note: null },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional; decisions by 1 April.', status: 'confirmed', source: 'https://admissions.tufts.edu/apply/applying-to-tufts/checklist-and-deadlines/', verified: '2026-09-23', note: null },
     ],
-    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: true, waiver: 'Tufts waives the admission application fee for international citizens seeking need-based aid.' },
+    applicationFee: { amount: 75, currency: 'USD', waiverAvailableToInternational: true, waiver: 'Tufts waives the admission application fee for international citizens seeking need-based aid.', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://provost.tufts.edu/institutionalresearch/wp-content/uploads/sites/5/CDS_2025-2026.pdf', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application, Coalition on Scoir or QuestBridge application', 'School transcript', 'Letters of recommendation', 'ISFAA or CSS Profile for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay plus Tufts’ supplemental questions',
@@ -1879,7 +1890,8 @@ window.UNIPATH.universities.push(
     { label: 'Financial aid for international students', url: 'https://admissions.tufts.edu/tuition-and-aid/applying-for-aid/international-student-aid/' },
     { label: 'Undergraduate cost of attendance 2026-27', url: 'https://students.tufts.edu/financial-services/undergrad-aid/award-letter/undergraduate-cost-attendance' },
     { label: 'First-year applicants — deadlines', url: 'https://admissions.tufts.edu/apply/first-year-students/' },
-    { label: 'Applying as an international student', url: 'https://admissions.tufts.edu/apply/applying-as-an-international-s/' }
+    { label: 'Applying as an international student', url: 'https://admissions.tufts.edu/apply/applying-as-an-international-s/' },
+    { label: 'Tufts University Common Data Set 2025–26 (section C13)', url: 'https://provost.tufts.edu/institutionalresearch/wp-content/uploads/sites/5/CDS_2025-2026.pdf' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -2423,7 +2435,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; a decision follows about a month after the deadline.', status: 'confirmed', source: 'https://afa.colby.edu/apply/dates-and-deadlines/', verified: '2026-09-23', note: null },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional, but applicants whose first language and language of instruction are not English must send TOEFL, IELTS Academic or Duolingo results. Decisions by 1 April.', status: 'confirmed', source: 'https://afa.colby.edu/apply/dates-and-deadlines/', verified: '2026-09-23', note: null },
     ],
-    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
+    applicationFee: { amount: 0, currency: 'USD', waiverAvailableToInternational: null, waiver: null, note: 'Colby states that there is no fee to apply.', source: 'https://afa.colby.edu/apply/', verified: '2026-10-05' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay plus Colby’s supplement',
@@ -2518,7 +2530,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; notification by 30 January.', status: 'confirmed', source: 'https://www.davidson.edu/admission-and-financial-aid/admission-aid-timeline', verified: '2026-09-23', note: null },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-11', date: '11 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Notification by 1 April.', status: 'confirmed', source: 'https://www.davidson.edu/admission-and-financial-aid/admission-aid-timeline', verified: '2026-09-23', note: null },
     ],
-    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: true, waiver: 'There is no application fee for non-US citizens: it is waived automatically when you select your citizenship on the Common or Coalition Application.' },
+    applicationFee: { amount: 50, currency: 'USD', waiverAvailableToInternational: true, waiver: 'There is no application fee for non-US citizens: it is waived automatically when you select your citizenship on the Common or Coalition Application.', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://www.davidson.edu/media/9718/download', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'Financial aid forms for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay plus Davidson’s supplement',
@@ -2585,7 +2597,8 @@ window.UNIPATH.universities.push(
     { label: 'Cost of attendance 2026-2027', url: 'https://www.davidson.edu/admission-and-financial-aid/cost-attendance' },
     { label: 'Davidson College goes tuition-free for families earning up to $175K', url: 'https://www.davidson.edu/news/2026/07/06/davidson-college-goes-tuition-free-for-low-middle-income-families' },
     { label: 'Admission and aid timeline', url: 'https://www.davidson.edu/admission-and-financial-aid/admission-aid-timeline' },
-    { label: 'Testing policy', url: 'https://www.davidson.edu/admission-and-financial-aid/admission-process-help/testing-policy' }
+    { label: 'Testing policy', url: 'https://www.davidson.edu/admission-and-financial-aid/admission-process-help/testing-policy' },
+    { label: 'Davidson College Common Data Set 2025–26 (section C13)', url: 'https://www.davidson.edu/media/9718/download' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -2728,7 +2741,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Latest test date December.', status: 'confirmed', source: 'https://www.vassar.edu/admission/apply/requirements/', verified: '2026-09-23', note: null },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional; latest test date December.', status: 'confirmed', source: 'https://www.vassar.edu/admission/apply/requirements/', verified: '2026-09-23', note: null },
     ],
-    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: 'A fee waiver can be requested on the Common Application or the Coalition Application' },
+    applicationFee: { amount: 65, currency: 'USD', waiverAvailableToInternational: null, waiver: 'A fee waiver can be requested on the Common Application or the Coalition Application', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://offices.vassar.edu/institutional-research/wp-content/uploads/sites/23/2026/03/Vassar_College_CDS_2025-2026.pdf', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common or Coalition Application', 'School transcript and reports', 'Teacher recommendations', 'Financial aid forms for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay plus Vassar’s supplement',
@@ -2787,7 +2800,8 @@ window.UNIPATH.universities.push(
     { label: 'International applicants', url: 'https://www.vassar.edu/admission/apply/international/' },
     { label: 'Prospective international students 2026-2027 (financial aid)', url: 'https://offices.vassar.edu/student-financial-services/wp-content/uploads/sites/57/2025/09/Prospective_Intl_2627.pdf' },
     { label: 'Tuition and fees', url: 'https://www.vassar.edu/admission/financial-aid/tuition/' },
-    { label: 'Vassar makes test-optional policy permanent', url: 'https://www.vassar.edu/news/vassar-makes-test-optional-policy-permanent-applicants' }
+    { label: 'Vassar makes test-optional policy permanent', url: 'https://www.vassar.edu/news/vassar-makes-test-optional-policy-permanent-applicants' },
+    { label: 'Vassar College Common Data Set 2025–26 (section C13)', url: 'https://offices.vassar.edu/institutional-research/wp-content/uploads/sites/23/2026/03/Vassar_College_CDS_2025-2026.pdf' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -2824,7 +2838,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; notification by 15 February.', status: 'confirmed', source: 'https://www.hamilton.edu/admission/apply/early-decision', verified: '2026-09-23', note: null },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional; self-reported scores are accepted. Notification in late March.', status: 'confirmed', source: 'https://www.hamilton.edu/admission/apply', verified: '2026-09-23', note: null },
     ],
-    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
+    applicationFee: { amount: 65, currency: 'USD', waiverAvailableToInternational: null, waiver: 'The Common Data Set says the fee can be waived for applicants with financial need; whether that covers international applicants was not checked.', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://www.hamilton.edu/documents/CDS%202025-26%20Excel%20Final.pdf', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'Certification of Finances (all international applicants)', 'CSS Profile for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay plus Hamilton’s supplement',
@@ -2901,7 +2915,8 @@ window.UNIPATH.universities.push(
     { label: 'Cost', url: 'https://www.hamilton.edu/admission/tuition' },
     { label: 'Apply — application details', url: 'https://www.hamilton.edu/admission/apply/details' },
     { label: 'Testing policy', url: 'https://www.hamilton.edu/admission/apply/testing' },
-    { label: 'Demonstrating English language proficiency', url: 'https://www.hamilton.edu/admission/apply/international/english-language-proficiency' }
+    { label: 'Demonstrating English language proficiency', url: 'https://www.hamilton.edu/admission/apply/international/english-language-proficiency' },
+    { label: 'Hamilton College Common Data Set 2025–26 (section C13)', url: 'https://www.hamilton.edu/documents/CDS%202025-26%20Excel%20Final.pdf' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -2938,7 +2953,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; notification by 15 February.', status: 'confirmed', source: 'https://www.haverford.edu/admission/applying/application-timeline', verified: '2026-09-23', note: null },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-10', date: '10 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional; any SAT or ACT scores should be sent before the deadline. Decisions in early April.', status: 'confirmed', source: 'https://www.haverford.edu/admission/applying/application-timeline', verified: '2026-09-23', note: null },
     ],
-    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: 'A school counsellor can request a fee waiver in a letter with the application' },
+    applicationFee: { amount: 65, currency: 'USD', waiverAvailableToInternational: null, waiver: 'A school counsellor can request a fee waiver in a letter with the application', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://www.haverford.edu/sites/default/files/Office/President/CDS-2025-26.pdf', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile or Haverford’s International Student Financial Aid Application'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay plus Haverford’s supplement',
@@ -3003,7 +3018,8 @@ window.UNIPATH.universities.push(
     { label: 'International applicants — financial aid', url: 'https://www.haverford.edu/financial-aid/international-applicants' },
     { label: 'Tuition and aid', url: 'https://www.haverford.edu/admission/tuition-and-aid' },
     { label: 'Cost of attendance', url: 'https://www.haverford.edu/financial-aid/cost-of-attendance' },
-    { label: 'Application instructions', url: 'https://www.haverford.edu/admission/applying/application-instructions' }
+    { label: 'Application instructions', url: 'https://www.haverford.edu/admission/applying/application-instructions' },
+    { label: 'Haverford College Common Data Set 2025–26 (section C13)', url: 'https://www.haverford.edu/sites/default/files/Office/President/CDS-2025-26.pdf' }
   ],
   lastVerified: '2026-09-22'
 }
@@ -3245,7 +3261,7 @@ window.UNIPATH.universities.push(
       { name: 'Financial aid application', kind: 'aid', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-02-01', date: '1 February 2027', binding: false, appliesTo: 'Applicants asking for financial aid', conditions: 'The same aid deadline applies to Early Action and Regular Decision applicants. CSS Profile (and the FAFSA for US citizens and permanent residents).', status: 'confirmed', source: 'https://uadmissions.georgetown.edu/apply/first-year-applicants/', verified: '2026-09-30', note: null },
       { name: 'Reply date for admitted students', kind: 'reply', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-05-01', date: '1 May 2027', binding: false, appliesTo: 'Admitted students', conditions: 'Early Action and Regular Decision admits both reply by this date.', status: 'confirmed', source: 'https://uadmissions.georgetown.edu/apply/first-year-applicants/', verified: '2026-09-30', note: null }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: true, waiver: 'Georgetown accepts fee waiver requests from any applicant, international applicants included, for whom the fee is a significant burden' },
+    applicationFee: { amount: 75, currency: 'USD', waiverAvailableToInternational: true, waiver: 'Georgetown accepts fee waiver requests from any applicant, international applicants included, for whom the fee is a significant burden', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://georgetown.box.com/s/0r8akn4cbm52zjkll6i7uttlb9k36px2', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Georgetown Application or the Common Application', 'Georgetown Writing Supplement: two short and two long essays', 'Academic credentials for all four years of secondary school', 'SAT or ACT scores', 'CSS Profile for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Two short and two long essays in the Georgetown Writing Supplement',
@@ -3304,7 +3320,8 @@ window.UNIPATH.universities.push(
     { label: 'First-year applicants', url: 'https://uadmissions.georgetown.edu/apply/first-year-applicants/' },
     { label: 'Undergraduate tuition and fees 2026-2027', url: 'https://studentaccounts.georgetown.edu/tuition/undergraduate/' },
     { label: 'Announcing 2026-2027 tuition rates', url: 'https://www.georgetown.edu/news/announcing-fall-2026-spring-2027-tuition-rates-2/' },
-    { label: 'International applicants', url: 'https://uadmissions.georgetown.edu/applying/international/' }
+    { label: 'International applicants', url: 'https://uadmissions.georgetown.edu/applying/international/' },
+    { label: 'Georgetown University Common Data Set 2025–26 (section C13)', url: 'https://georgetown.box.com/s/0r8akn4cbm52zjkll6i7uttlb9k36px2' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -3343,7 +3360,7 @@ window.UNIPATH.universities.push(
       { name: 'Regular Decision (performing arts majors)', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-12-01', date: '1 December 2026', binding: false, appliesTo: 'Applicants to the Kaufman School of Dance, School of Dramatic Arts and Thornton School of Music', conditions: 'The only deadline for these schools; applicants are considered for USC merit scholarships. Notification by 1 April.', status: 'confirmed', source: 'https://admission.usc.edu/prospective-students/first-year-students/', verified: '2026-10-01', note: null },
       { name: 'Regular Decision (most majors)', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-10', date: '10 January 2027', binding: false, appliesTo: 'First-year applicants to majors without a 1 December deadline', conditions: 'Final first-year deadline; notification by 1 April. Financial aid deadline 3 February 2027.', status: 'confirmed', source: 'https://admission.usc.edu/prospective-students/first-year-students/', verified: '2026-10-01', note: null }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
+    applicationFee: { amount: 85, currency: 'USD', waiverAvailableToInternational: null, waiver: 'The Common Data Set says the fee can be waived for applicants with financial need; whether that covers international applicants was not checked.', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://oir.usc.edu/wp-content/uploads/sites/3/2026/10/CDS_2025-26_FINAL.pdf', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application with USC questions', 'Official records from all secondary schools, with certified English translations', 'External exam results or predictions (IB, A-Levels, national exams)', 'Financial Statement of Personal or Family Support', 'Copy of passport', 'English proficiency score'],
     recommendations: 'Counsellor and teacher recommendations',
     essay: 'Common Application essay plus USC’s supplement',
@@ -3413,7 +3430,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'International students — undergraduate admission', url: 'https://admission.usc.edu/prospective-students/how-to-apply/international-students/' },
     { label: 'Scholarships', url: 'https://admission.usc.edu/cost-and-financial-aid/scholarships/' },
-    { label: 'Cost of attendance', url: 'https://financialaid.usc.edu/undergraduate-financial-aid/cost-of-attendance/' }
+    { label: 'Cost of attendance', url: 'https://financialaid.usc.edu/undergraduate-financial-aid/cost-of-attendance/' },
+    { label: 'University of Southern California Common Data Set 2025–26 (section C13)', url: 'https://oir.usc.edu/wp-content/uploads/sites/3/2026/10/CDS_2025-26_FINAL.pdf' }
   ],
   lastVerified: '2026-09-21'
 },
@@ -3451,7 +3469,7 @@ window.UNIPATH.universities.push(
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Decision 28 March; enrolment deposit 1 May.', status: 'confirmed', source: 'https://www.bu.edu/admissions/apply/deadlines/', verified: '2026-09-23', note: null },
       { name: 'Merit scholarship consideration', kind: 'scholarship', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-12-01', date: '1 December 2026', binding: false, appliesTo: 'Applicants for certain BU merit scholarships', conditions: 'Some merit scholarships require submission by this date.', status: 'confirmed', source: 'https://www.bu.edu/admissions/apply/deadlines/', verified: '2026-09-23', note: null },
     ],
-    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
+    applicationFee: { amount: 80, currency: 'USD', waiverAvailableToInternational: null, waiver: 'The Common Data Set says the fee can be waived for applicants with financial need; whether that covers international applicants was not checked.', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://www.bu.edu/asir/files/2026/07/CDS-2025-2026-C-updated.pdf', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Common Application essay plus BU’s supplement',
@@ -3521,7 +3539,8 @@ window.UNIPATH.universities.push(
     { label: 'Cost of attendance 2026/2027', url: 'https://www.bu.edu/admissions/tuition-aid/tuition/' },
     { label: 'Merit scholarships for first-year students', url: 'https://www.bu.edu/admissions/tuition-aid/scholarships-financial-aid/first-year-merit/' },
     { label: 'BU’s standardized test policy', url: 'https://www.bu.edu/admissions/apply/first-year/test-policy/' },
-    { label: 'International applicants', url: 'https://www.bu.edu/admissions/apply/international/' }
+    { label: 'International applicants', url: 'https://www.bu.edu/admissions/apply/international/' },
+    { label: 'Boston University Common Data Set 2025–26 (section C13)', url: 'https://www.bu.edu/asir/files/2026/07/CDS-2025-2026-C-updated.pdf' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -3651,7 +3670,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. CSS Profile and FAFSA due the same day; decision by 15 February.', status: 'confirmed', source: 'https://www.brandeis.edu/admissions/apply/dates.html', verified: '2026-10-01', note: null },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional. CSS Profile and FAFSA due the same day; decision by 1 April.', status: 'confirmed', source: 'https://www.brandeis.edu/admissions/apply/dates.html', verified: '2026-10-01', note: 'Brandeis’s current dates table lists these deadlines without a year.' }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
+    applicationFee: { amount: 80, currency: 'USD', waiverAvailableToInternational: null, waiver: 'The Common Data Set says the fee can be waived for applicants with financial need; whether that covers international applicants was not checked.', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://www.brandeis.edu/institutional-research/docs/cds-2025-26.pdf', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common or Coalition Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile (code 3092) for aid applicants', 'Income and asset documents on request'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay plus Brandeis’ supplement',
@@ -3676,16 +3695,21 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Documents in other languages need certified translations from a consulate, embassy or school official.'
   },
   costs: {
-    breakdown: { published: false },
+    breakdown: { tuition: 73080, billed: 94388, includes: 'tuition, required fees and on-campus food and housing; books, travel, personal expenses and health insurance are extra', published: true },
     academicYear: '2026–2027',
     currency: 'USD',
-    headline: 'Not confirmed — see Brandeis’ tuition page',
+    headline: '$73,080 tuition · $94,388 with required fees, food and housing',
     items: [
-      { label: 'Tuition, housing and meals', text: 'Published on Brandeis’ tuition page and net cost calculator; the figures could not be read here' }
+      { label: 'Tuition', amount: 73080 },
+      { label: 'Required fees', amount: 1048 },
+      { label: 'Food and housing (on campus)', amount: 20260 }
     ],
-    billedSubtotal: null,
-    totalText: 'Not confirmed — check the official tuition page',
-    note: 'Brandeis publishes average first-year costs on its admissions site.'
+    billedSubtotal: 94388,
+    totalText: '$94,388 for tuition, required fees and on-campus food and housing',
+    note: 'From section G1 of the 2025–26 Common Data Set, which lists typical charges for the full 2026–2027 academic year. First-year figures; the required fees for continuing undergraduates are $598 and food and housing $21,880.',
+    source: 'https://www.brandeis.edu/institutional-research/docs/cds-2025-26.pdf',
+    verified: '2026-10-05',
+    studentCategory: 'Full-time first-year undergraduates living on campus'
   },
   scholarships: {
     fullRide: {
@@ -3718,7 +3742,8 @@ window.UNIPATH.universities.push(
     { label: 'International student scholarships', url: 'https://www.brandeis.edu/student-financial-services/financial-aid/scholarships/international.html' },
     { label: 'Wien International Scholarship Program', url: 'https://www.brandeis.edu/isso/programs/wien/index.html' },
     { label: 'Test-optional policy', url: 'https://www.brandeis.edu/admissions/apply/test-optional-policy.html' },
-    { label: 'International applicants', url: 'https://www.brandeis.edu/admissions/apply/international.html' }
+    { label: 'International applicants', url: 'https://www.brandeis.edu/admissions/apply/international.html' },
+    { label: 'Brandeis University Common Data Set 2025–26 (section C13)', url: 'https://www.brandeis.edu/institutional-research/docs/cds-2025-26.pdf' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -3758,7 +3783,7 @@ window.UNIPATH.universities.push(
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Financial aid documents by 1 February; notification 20 March; enrolment by 1 May.', status: 'confirmed', source: 'https://case.edu/admission/apply/dates-deadlines', verified: '2026-09-23', note: null },
       { name: 'Pre-Professional Scholars Program', kind: 'scholarship', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-12-01', date: '1 December 2026', binding: false, appliesTo: 'Applicants to the Pre-Professional Scholars Program', conditions: 'Separate programme deadline; notification 30 January.', status: 'confirmed', source: 'https://case.edu/admission/apply/dates-deadlines', verified: '2026-09-23', note: null },
     ],
-    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
+    applicationFee: { amount: 75, currency: 'USD', waiverAvailableToInternational: null, waiver: 'The Common Data Set says the fee can be waived for applicants with financial need; whether that covers international applicants was not checked.', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://case.edu/ir/sites/default/files/2026-02/CDS%202025-26%20Adjusted%20Final.pdf', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application or Coalition on Scoir', 'School transcript and reports, with English translations', 'Recommendations with English translations', 'English language exam score for non-native speakers', 'CSS Profile (code 1105) for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay; scholarship competitions have their own essay prompt',
@@ -3825,7 +3850,8 @@ window.UNIPATH.universities.push(
     { label: 'International students — financial aid', url: 'https://case.edu/financialaid/undergraduates/international-students' },
     { label: 'International applicants — English proficiency and scholarships', url: 'https://case.edu/admission/apply/international-students' },
     { label: 'Estimated costs of attendance 2026-27', url: 'https://case.edu/financialaid/undergraduates/estimated-costs-attendance-2026-27' },
-    { label: 'Test policy', url: 'https://case.edu/admission/apply/application-requirements-enhancements/test-optional' }
+    { label: 'Test policy', url: 'https://case.edu/admission/apply/application-requirements-enhancements/test-optional' },
+    { label: 'Case Western Reserve University Common Data Set 2025–26 (section C13)', url: 'https://case.edu/ir/sites/default/files/2026-02/CDS%202025-26%20Adjusted%20Final.pdf' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -3968,7 +3994,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Decision by 1 April; deposit by 1 May.', status: 'confirmed', source: 'https://admission.tulane.edu/apply/deadlines-forms', verified: '2026-09-23', note: null },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Decision by 15 February; deposit by 1 March.', status: 'confirmed', source: 'https://admission.tulane.edu/apply/deadlines-forms', verified: '2026-09-23', note: null },
     ],
-    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
+    applicationFee: { amount: 0, currency: 'USD', waiverAvailableToInternational: null, waiver: null, note: 'The 2025–26 Common Data Set (section C13) says there is no application fee.', source: 'https://tulane.box.com/s/1dgaxpa2x2ie24zgglrg0puwm1h7xrt5', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application', 'School transcript and reports', 'CSS Profile for need-based aid', 'Tulane Declaration & Certification of Finances'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Common Application essay plus Tulane’s supplement',
@@ -4039,7 +4065,8 @@ window.UNIPATH.universities.push(
     { label: 'International student financial aid', url: 'https://admission.tulane.edu/international/aid' },
     { label: 'Newcomb-Tulane College tuition and fees 2026-2027', url: 'https://studentaccounts.tulane.edu/sites/default/files/2026-03/2026-2027_NTC_COSTS_20260319.pdf' },
     { label: 'Merit scholarships', url: 'https://admission.tulane.edu/tuition-aid/merit-scholarships' },
-    { label: 'Standardized tests', url: 'https://admission.tulane.edu/apply/instructions/standardized-tests' }
+    { label: 'Standardized tests', url: 'https://admission.tulane.edu/apply/instructions/standardized-tests' },
+    { label: 'Tulane University Common Data Set 2025–26 (section C13)', url: 'https://tulane.box.com/s/1dgaxpa2x2ie24zgglrg0puwm1h7xrt5' }
   ],
   lastVerified: '2026-09-22'
 }
@@ -4106,17 +4133,21 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International applicants may be asked for national or international exam results.'
   },
   costs: {
-    breakdown: { published: false },
+    breakdown: { tuition: 70460, billed: 95288, includes: 'tuition, required fees and on-campus food and housing; books, travel, personal expenses and health insurance are extra', published: true },
     academicYear: '2026–2027',
     currency: 'USD',
-    headline: 'Not confirmed — see Smith’s cost pages',
+    headline: '$70,460 tuition · $95,288 with required fees, food and housing',
     items: [
-      { label: 'Tuition, housing and food', text: 'Set each January by the Board of Trustees; the 2026–27 figures were not confirmed here' },
-      { label: 'Non-billed costs: books, personal expenses and SEVIS fee (estimate)', amount: 4060 }
+      { label: 'Tuition', amount: 70460 },
+      { label: 'Required fees', amount: 308 },
+      { label: 'Food and housing (on campus)', amount: 24520 }
     ],
-    billedSubtotal: null,
-    totalText: 'Not confirmed — check the official cost page',
-    note: 'Smith meets full need with a loan-free package, so the sticker price matters less for aid recipients.'
+    billedSubtotal: 95288,
+    totalText: '$95,288 for tuition, required fees and on-campus food and housing',
+    note: 'From section G1 of the 2025–26 Common Data Set, which lists typical charges for the full 2026–2027 academic year. Smith meets full need with a loan-free package, so the sticker price matters less for aid recipients.',
+    source: 'https://drive.google.com/file/d/1qDhlH43IbOCQzP6xtUHMzTmgEss1I-68/view',
+    verified: '2026-10-05',
+    studentCategory: 'Full-time first-year undergraduates living on campus'
   },
   scholarships: {
     fullRide: {
@@ -4147,7 +4178,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Financial aid for international students', url: 'https://www.smith.edu/admission-aid/tuition-aid-applicants/international-applicants' },
     { label: 'The Next 150 Pledge', url: 'https://www.smith.edu/thenext150' },
-    { label: 'First-year applicants', url: 'https://www.smith.edu/admission-aid/apply-smith/first-year-applicants' }
+    { label: 'First-year applicants', url: 'https://www.smith.edu/admission-aid/apply-smith/first-year-applicants' },
+    { label: 'Smith College Common Data Set 2025–26 (section G1)', url: 'https://drive.google.com/file/d/1qDhlH43IbOCQzP6xtUHMzTmgEss1I-68/view' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -4292,7 +4324,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decision in mid-February.', status: 'not-confirmed', source: 'https://www.brynmawr.edu/admissions/first-year-admission-plans', verified: '2026-09-23', note: 'The exact ED II date was not restated on the pages read for this cycle.' },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Decision in mid-March.', status: 'not-confirmed', source: 'https://www.brynmawr.edu/admissions/first-year-admission-plans', verified: '2026-09-23', note: 'The exact Regular Decision date was not restated on the pages read for this cycle.' },
     ],
-    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
+    applicationFee: { amount: 0, currency: 'USD', waiverAvailableToInternational: null, waiver: null, note: 'The 2025–26 Common Data Set (section C13) says there is no application fee.', source: 'https://www.brynmawr.edu/sites/default/files/media/documents/2026-04/CDS%202025-26%20Bryn%20Mawr%20Read%20Only.pdf', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application with the Bryn Mawr Writing Supplement', 'Official transcripts and national exam results (IB, A-Level, etc.)', 'Counsellor recommendation and two teacher recommendations', 'Evidence of English proficiency', 'Mid-year grade report', 'Declaration of Finances form', 'CSS Profile for aid applicants'],
     recommendations: 'A school counsellor and two teachers',
     essay: 'Common Application essay plus the Bryn Mawr Writing Supplement',
@@ -4355,7 +4387,8 @@ window.UNIPATH.universities.push(
     { label: 'International students — admissions', url: 'https://www.brynmawr.edu/admissions-aid/apply/international-students' },
     { label: 'Tuition, fees and costs 2026-2027', url: 'https://www.brynmawr.edu/admissions-aid/financial-aid/tuition-fees-costs' },
     { label: 'Apply for aid: international first-year applicants', url: 'https://www.brynmawr.edu/admissions-aid/financial-aid/international-first-year-applicants' },
-    { label: 'Admissions policies', url: 'https://www.brynmawr.edu/admissions-aid/policies-resources/admissions-policies' }
+    { label: 'Admissions policies', url: 'https://www.brynmawr.edu/admissions-aid/policies-resources/admissions-policies' },
+    { label: 'Bryn Mawr College Common Data Set 2025–26 (section C13)', url: 'https://www.brynmawr.edu/sites/default/files/media/documents/2026-04/CDS%202025-26%20Bryn%20Mawr%20Read%20Only.pdf' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -4391,7 +4424,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding: admitted students must enrol and withdraw other applications. Notification in mid-December. Barnard is test-optional through 2027.', status: 'confirmed', source: 'https://barnard.edu/admissions/application-rounds', verified: '2026-10-01', note: null },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Notification in late March; admitted applicants reply by the national reply date of 1 May.', status: 'confirmed', source: 'https://barnard.edu/admissions/application-rounds', verified: '2026-10-01', note: 'Barnard’s application-rounds page gives the dates with the year; its application-process page still showed the previous cycle.' }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
+    applicationFee: { amount: 75, currency: 'USD', waiverAvailableToInternational: null, waiver: 'The Common Data Set says the fee can be waived for applicants with financial need; whether that covers international applicants was not checked.', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://barnard.edu/sites/default/files/2026-09/Barnard_CDS_2025-2026.pdf', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application', 'School transcript and national exam results', 'Teacher recommendations', 'English proficiency evidence', 'Financial aid documents through the Barnard applicant portal'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay plus Barnard’s supplement',
@@ -4453,7 +4486,8 @@ window.UNIPATH.universities.push(
     { label: 'International applicants', url: 'https://barnard.edu/admissions/internationalstudents' },
     { label: 'Cost of attendance 2026-2027', url: 'https://barnard.edu/finaid/cost-of-attendance' },
     { label: 'Apply for aid', url: 'https://barnard.edu/finaid/apply-for-aid' },
-    { label: 'Standardized testing', url: 'https://barnard.edu/admissions/testing' }
+    { label: 'Standardized testing', url: 'https://barnard.edu/admissions/testing' },
+    { label: 'Barnard College Common Data Set 2025–26 (section C13)', url: 'https://barnard.edu/sites/default/files/2026-09/Barnard_CDS_2025-2026.pdf' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -4581,7 +4615,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Financial aid deadline the same day; notification in mid-February.', status: 'confirmed', source: 'https://www.wesleyan.edu/admission/application-process.html', verified: '2026-10-01', note: null },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional: scores are considered if sent and ignored if not. Financial aid deadline the same day; notification in late March.', status: 'confirmed', source: 'https://www.wesleyan.edu/admission/application-process.html', verified: '2026-10-01', note: null },
     ],
-    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
+    applicationFee: { amount: 65, currency: 'USD', waiverAvailableToInternational: null, waiver: 'The Common Data Set says the fee can be waived for applicants with financial need; whether that covers international applicants was not checked.', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://www.wesleyan.edu/ir/common-data-sets.html', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common or Coalition Application', 'School Report with actual or predicted exam results (A-Level, IB, French Baccalaureate and others)', 'Certified English translations of any documents not in English', 'International Student Certification of Finances', 'CSS Profile or ISFAA for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay',
@@ -4647,7 +4681,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'International applicants', url: 'https://www.wesleyan.edu/admission/undergraduate-admission/international/index.html' },
     { label: 'Applying for aid', url: 'https://www.wesleyan.edu/admission/affordability-and-aid/applying-for-aid.html' },
-    { label: 'Cost of attendance', url: 'https://www.wesleyan.edu/admission/affordability-and-aid/cost-of-attendance.html' }
+    { label: 'Cost of attendance', url: 'https://www.wesleyan.edu/admission/affordability-and-aid/cost-of-attendance.html' },
+    { label: 'Wesleyan University Common Data Set 2025–26 (section C13)', url: 'https://www.wesleyan.edu/ir/common-data-sets.html' }
   ],
   lastVerified: '2026-09-21'
 },
@@ -4685,7 +4720,7 @@ window.UNIPATH.universities.push(
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', time: '23:59', timezone: 'applicant’s local time', binding: false, appliesTo: 'First-year applicants', conditions: 'Supplemental materials due 1 February; notification 1 April.', status: 'confirmed', source: 'https://www.wlu.edu/admissions/apply', verified: '2026-09-23', note: null },
       { name: 'Johnson Scholarship essay', kind: 'scholarship', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-12-01', date: '1 December 2026', time: '23:59', timezone: 'applicant’s local time', binding: false, appliesTo: 'Applicants for the Johnson Scholarship', conditions: 'W&L’s main merit award: full tuition, housing and meals for up to 10% of the entering class, plus $10,000 for a summer experience or study abroad. Supporting materials should arrive by 15 December.', status: 'confirmed', source: 'https://www.wlu.edu/admissions/apply', verified: '2026-09-23', note: null },
     ],
-    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Some applicants qualify to have the Common or Coalition Application fee waived' },
+    applicationFee: { amount: 60, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Some applicants qualify to have the Common or Coalition Application fee waived', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://my.wlu.edu/document/2025-common-data-set', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common or Coalition Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile for need-based aid', 'Johnson Scholarship application for merit consideration'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay; the Johnson Scholarship has its own essays',
@@ -4758,7 +4793,8 @@ window.UNIPATH.universities.push(
     { label: 'Tuition and fees 2026-2027', url: 'https://my.wlu.edu/business-office/parents-and-students/tuition-information/tuition-and-fees' },
     { label: 'Apply to W&L', url: 'https://www.wlu.edu/admissions/apply' },
     { label: 'Test-optional admissions policy', url: 'https://www.wlu.edu/admissions/apply/test-optional-policy' },
-    { label: 'English proficiency policy', url: 'https://www.wlu.edu/admissions/apply/for-international-applicants/english-proficiency-policy' }
+    { label: 'English proficiency policy', url: 'https://www.wlu.edu/admissions/apply/for-international-applicants/english-proficiency-policy' },
+    { label: 'Washington and Lee University Common Data Set 2025–26 (section C13)', url: 'https://my.wlu.edu/document/2025-common-data-set' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -4795,7 +4831,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding.', status: 'confirmed', source: 'https://www.colgate.edu/admission-aid/apply', verified: '2026-09-23', note: null },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional; Colgate states applicants are at no disadvantage without scores.', status: 'confirmed', source: 'https://www.colgate.edu/admission-aid/apply', verified: '2026-09-23', note: null },
     ],
-    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: true, waiver: 'Colgate offers fee-free applications to international students.' },
+    applicationFee: { amount: 60, currency: 'USD', waiverAvailableToInternational: true, waiver: 'Colgate offers fee-free applications to international students.', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://www.colgate.edu/sites/default/files/2026-07/CDS-PDF-2025-2026.pdf', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application', 'School transcript and grades', 'National or international exam results', 'Language proficiency evidence', 'CSS Profile for aid applicants (digital only)'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay plus Colgate’s supplement',
@@ -4820,16 +4856,24 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Colgate defines international applicants as non-US citizens, whatever their residence.'
   },
   costs: {
-    breakdown: { published: false },
+    breakdown: { tuition: 73206, billed: 92838, includes: 'tuition, required fees and on-campus food and housing; books, travel, personal expenses and health insurance are extra', published: true },
     academicYear: '2026–2027',
     currency: 'USD',
-    headline: 'Not confirmed — see Colgate’s cost page',
+    headline: '$73,206 tuition · $92,838 with required fees, food and housing',
     items: [
-      { label: 'Tuition, housing, food and fees', text: 'Published on Colgate’s 2026–27 cost of attendance page, which could not be read here' }
+      { label: 'Tuition', amount: 73206 },
+      { label: 'Required fees', amount: 440 },
+      { label: 'Food and housing (on campus)', amount: 19192 },
+      { label: 'Books and supplies', amount: 1570 },
+      { label: 'Transportation', amount: 800 },
+      { label: 'Other expenses', amount: 1148 }
     ],
-    billedSubtotal: null,
-    totalText: 'Not confirmed — check the official cost page',
-    note: 'Colgate says it has generally not included loans in international students’ aid packages.'
+    billedSubtotal: 92838,
+    totalText: '$92,838 for tuition, required fees and on-campus food and housing',
+    note: 'From section G1 of the 2025–26 Common Data Set, which lists typical charges for the full 2026–2027 academic year. Colgate says it has generally not included loans in international students’ aid packages.',
+    source: 'https://www.colgate.edu/sites/default/files/2026-07/CDS-PDF-2025-2026.pdf',
+    verified: '2026-10-05',
+    studentCategory: 'Full-time first-year undergraduates living on campus'
   },
   scholarships: {
     fullRide: {
@@ -4852,7 +4896,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'International applicants — deadlines and financial aid', url: 'https://www.colgate.edu/admission-aid/apply/international-applicants' },
     { label: 'Apply for aid', url: 'https://www.colgate.edu/admission-aid/financial-aid/apply-aid' },
-    { label: 'Colgate to remain test optional through 2026', url: 'https://www.colgate.edu/news/stories/colgate-remain-test-optional-through-2026' }
+    { label: 'Colgate to remain test optional through 2026', url: 'https://www.colgate.edu/news/stories/colgate-remain-test-optional-through-2026' },
+    { label: 'Colgate University Common Data Set 2025–26 (section C13)', url: 'https://www.colgate.edu/sites/default/files/2026-07/CDS-PDF-2025-2026.pdf' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -4889,7 +4934,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decisions by 15 February and deposit by 1 March. Scores, if sent, by 20 January.', status: 'confirmed', source: 'https://www.carleton.edu/admissions/apply/steps/materials/', verified: '2026-09-23', note: null },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Carleton adopted a permanent test-optional policy in 2025; notification by 1 April.', status: 'confirmed', source: 'https://www.carleton.edu/admissions/apply/steps/materials/', verified: '2026-09-23', note: null },
     ],
-    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
+    applicationFee: { amount: 0, currency: 'USD', waiverAvailableToInternational: null, waiver: null, note: 'The 2025–26 Common Data Set (section C13) says there is no application fee.', source: 'https://carleton-wp-production.s3.amazonaws.com/uploads/sites/292/2026/06/CDS-PDF-2025-2026_PDF_Carleton_06242026.pdf', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application', 'School transcript and reports, with English translations', 'Teacher recommendations', 'Certification of Finances (all international applicants)', 'ISAFA or CSS Profile for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay plus Carleton’s supplement',
@@ -4947,7 +4992,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'International students — applying to Carleton', url: 'https://www.carleton.edu/admissions/apply/steps/international/' },
     { label: 'International students — financial aid', url: 'https://www.carleton.edu/financial-aid/apply-for-aid/international-students/' },
-    { label: 'Carleton implements test-optional policy', url: 'https://www.carleton.edu/news/stories/test-optional-policy-college-admissions-pilot-analysis/' }
+    { label: 'Carleton implements test-optional policy', url: 'https://www.carleton.edu/news/stories/test-optional-policy-college-admissions-pilot-analysis/' },
+    { label: 'Carleton College Common Data Set 2025–26 (section C13)', url: 'https://carleton-wp-production.s3.amazonaws.com/uploads/sites/292/2026/06/CDS-PDF-2025-2026_PDF_Carleton_06242026.pdf' }
   ],
   lastVerified: '2026-09-22'
 }
@@ -4989,7 +5035,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding.', status: 'confirmed', source: 'https://www.macalester.edu/admissions/deadlines/', verified: '2026-09-23', note: null },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Decisions released in March.', status: 'confirmed', source: 'https://www.macalester.edu/admissions/deadlines/', verified: '2026-09-23', note: null },
     ],
-    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
+    applicationFee: { amount: 0, currency: 'USD', waiverAvailableToInternational: null, waiver: null, note: 'The 2025–26 Common Data Set (section C13) says there is no application fee.', source: 'https://www.macalester.edu/institutional-research/wp-content/uploads/sites/515/CDS_2025-2026_Macalester-College_completed-1.pdf', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application', 'Proof of funding', 'High school transcript', 'Two recommendation letters', 'Senior year grades'],
     recommendations: 'Two recommendation letters',
     essay: 'Personal essay',
@@ -5011,16 +5057,21 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
-    breakdown: { published: false },
+    breakdown: { tuition: 70632, billed: 87338, includes: 'tuition, required fees and on-campus food and housing; books, travel, personal expenses and health insurance are extra', published: true },
     academicYear: '2026–2027',
     currency: 'USD',
-    headline: 'Not confirmed — see Macalester’s tuition page',
+    headline: '$70,632 tuition · $87,338 with required fees, food and housing',
     items: [
-      { label: 'Tuition, housing, food and fees', text: 'Published on Macalester’s tuition page; the 2026–27 figures were not confirmed here' }
+      { label: 'Tuition', amount: 70632 },
+      { label: 'Required fees', amount: 230 },
+      { label: 'Food and housing (on campus)', amount: 16476 }
     ],
-    billedSubtotal: null,
-    totalText: 'Not confirmed — check the official tuition page',
-    note: 'International students must show family resources that meet the I-20 cost of attendance, which combines billed charges and estimated personal costs.'
+    billedSubtotal: 87338,
+    totalText: '$87,338 for tuition, required fees and on-campus food and housing',
+    note: 'From section G1 of the 2025–26 Common Data Set, which lists typical charges for the full 2026–2027 academic year. Macalester states that tuition includes required course materials. International students must show family resources that meet the I-20 cost of attendance, which adds estimated personal costs.',
+    source: 'https://www.macalester.edu/institutional-research/wp-content/uploads/sites/515/CDS_2025-2026_Macalester-College_completed-1.pdf',
+    verified: '2026-10-05',
+    studentCategory: 'Full-time first-year undergraduates living on campus'
   },
   scholarships: {
     fullRide: {
@@ -5052,7 +5103,8 @@ window.UNIPATH.universities.push(
     { label: 'Dates and deadlines', url: 'https://www.macalester.edu/admissions/deadlines/' },
     { label: 'International students — financial aid', url: 'https://www.macalester.edu/financial-aid/apply/international/' },
     { label: 'International first-year FAQs', url: 'https://www.macalester.edu/admissions/international/faq/' },
-    { label: 'Financial aid and tuition', url: 'https://www.macalester.edu/admissions/financial-aid/' }
+    { label: 'Financial aid and tuition', url: 'https://www.macalester.edu/admissions/financial-aid/' },
+    { label: 'Macalester College Common Data Set 2025–26 (section C13)', url: 'https://www.macalester.edu/institutional-research/wp-content/uploads/sites/515/CDS_2025-2026_Macalester-College_completed-1.pdf' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -5092,7 +5144,7 @@ window.UNIPATH.universities.push(
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'First-year applicants to the College of Arts and Sciences', conditions: 'The financial aid deadline is the same day. Notification by 1 April; reply due 1 May.', status: 'confirmed', source: 'https://www.oberlin.edu/admissions-and-aid/arts-and-sciences/first-year-applicants', verified: '2026-09-30', note: "Oberlin's current first-year page (which already reports the Fall 2026 international admit rate) lists these dates without a year." },
       { name: 'Conservatory of Music application', kind: 'portfolio', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-12-01', date: '1 December 2026', binding: false, appliesTo: 'Applicants to the Conservatory of Music', conditions: 'Separate, earlier deadline for Conservatory applicants because of auditions.', status: 'confirmed', source: 'https://www.oberlin.edu/admissions-and-aid/conservatory/undergraduate-applicants', verified: '2026-09-23', note: null }
     ],
-    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
+    applicationFee: { amount: 0, currency: 'USD', waiverAvailableToInternational: null, waiver: null, note: 'The 2025–26 Common Data Set (section C13) says there is no application fee.', source: 'https://www.oberlin.edu/media/37695/download?inline', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile (code 1587) or ISAFA with parental income documents for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay',
@@ -5155,7 +5207,8 @@ window.UNIPATH.universities.push(
     { label: 'Applying for aid: international students', url: 'https://www.oberlin.edu/admissions-and-aid/financial-aid/applying-aid-international-students' },
     { label: 'International applicants', url: 'https://www.oberlin.edu/admissions-and-aid/arts-and-sciences/international-applicants' },
     { label: 'Tuition and fees', url: 'https://www.oberlin.edu/admissions-and-aid/tuition-and-fees' },
-    { label: 'Admissions testing policy', url: 'https://www.oberlin.edu/admissions-and-aid/arts-and-sciences/testing-policy' }
+    { label: 'Admissions testing policy', url: 'https://www.oberlin.edu/admissions-and-aid/arts-and-sciences/testing-policy' },
+    { label: 'Oberlin College and Conservatory Common Data Set 2025–26 (section C13)', url: 'https://www.oberlin.edu/media/37695/download?inline' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -5192,7 +5245,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decisions in early to mid-February.', status: 'confirmed', source: 'https://www.kenyon.edu/admissions-aid/apply-to-kenyon/deadlines-requirements/', verified: '2026-09-23', note: null },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional; decisions in late March. Kenyon charges no application fee and accepts the Common App or Coalition App.', status: 'confirmed', source: 'https://www.kenyon.edu/admissions-aid/apply-to-kenyon/deadlines-requirements/', verified: '2026-09-23', note: null },
     ],
-    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
+    applicationFee: { amount: 0, currency: 'USD', waiverAvailableToInternational: null, waiver: null, note: 'The 2025–26 Common Data Set (section C13) says there is no application fee.', source: 'https://www.kenyon.edu/files/resources/cds-2025-26-kenyon.xlsx', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'English proficiency score', 'CSS Profile (code 1370) or Kenyon’s international financial aid application'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay',
@@ -5252,7 +5305,8 @@ window.UNIPATH.universities.push(
     { label: 'Deadlines and requirements — international students', url: 'https://www.kenyon.edu/admissions-aid/how-to-apply/international-students/' },
     { label: 'Apply for financial aid', url: 'https://www.kenyon.edu/admissions-aid/financial-aid-scholarships/apply-for-financial-aid/' },
     { label: 'Tuition and costs', url: 'https://www.kenyon.edu/admissions-aid/financial-aid-scholarships/tuition-costs/' },
-    { label: 'Spring 2026 report from the Board of Trustees', url: 'https://www.kenyon.edu/news/archive/spring-2026-report-from-the-board-of-trustees/' }
+    { label: 'Spring 2026 report from the Board of Trustees', url: 'https://www.kenyon.edu/news/archive/spring-2026-report-from-the-board-of-trustees/' },
+    { label: 'Kenyon College Common Data Set 2025–26 (section C13)', url: 'https://www.kenyon.edu/files/resources/cds-2025-26-kenyon.xlsx' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -5289,7 +5343,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decisions about a month after the deadline.', status: 'confirmed', source: 'https://denison.edu/campus/admission/apply-for-admission', verified: '2026-09-23', note: null },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Decisions in mid-March.', status: 'confirmed', source: 'https://denison.edu/campus/admission/apply-for-admission', verified: '2026-09-23', note: null },
     ],
-    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
+    applicationFee: { amount: 0, currency: 'USD', waiverAvailableToInternational: null, waiver: null, note: 'The 2025–26 Common Data Set (section C13) says there is no application fee.', source: 'https://denison.edu/sites/default/files/forms/2026-08/cds_du_20252026_published_updated2026.08.14.pdf', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'Denison Certification of Finances (free; Denison does not use the CSS Profile for international applicants)'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay',
@@ -5353,7 +5407,8 @@ window.UNIPATH.universities.push(
     { label: 'International applicant financial aid', url: 'https://denison.edu/campus/admission/international-applicant-financial-aid' },
     { label: 'Types of scholarships and aid', url: 'https://denison.edu/campus/finances/types-of-scholarships-aid' },
     { label: 'Affordability and cost', url: 'https://denison.edu/campus/admission/tuition-aid' },
-    { label: 'Test optional policy', url: 'https://denison.edu/forms/test-optional-policy' }
+    { label: 'Test optional policy', url: 'https://denison.edu/forms/test-optional-policy' },
+    { label: 'Denison University Common Data Set 2025–26 (section C13)', url: 'https://denison.edu/sites/default/files/forms/2026-08/cds_du_20252026_published_updated2026.08.14.pdf' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -5390,7 +5445,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; a decision follows within 30 days. Applicants can switch into ED II until 3 February.', status: 'confirmed', source: 'https://www.fandm.edu/apply/early-decision-application-checklist.html', verified: '2026-09-23', note: null },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Notification by 1 April.', status: 'confirmed', source: 'https://www.fandm.edu/apply/regular-decision-application-checklist.html', verified: '2026-09-23', note: null },
     ],
-    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
+    applicationFee: { amount: 62, currency: 'USD', waiverAvailableToInternational: null, waiver: 'The Common Data Set says the fee can be waived for applicants with financial need; whether that covers international applicants was not checked.', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://drive.google.com/file/d/1CpyIXEDF-2bMSlt8qXimtThANg0xsUlw/view', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'English proficiency score where required', 'CSS Profile or F&M’s International Aid Form for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay',
@@ -5450,7 +5505,8 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'Applying to F&M as an international student', url: 'https://www.fandm.edu/apply/international-student-admission/' },
     { label: 'Cost of attendance 2026-27', url: 'https://www.fandm.edu/financial-aid/cost-of-attendance.html' },
-    { label: 'Apply for financial aid', url: 'https://www.fandm.edu/financial-aid/apply.html' }
+    { label: 'Apply for financial aid', url: 'https://www.fandm.edu/financial-aid/apply.html' },
+    { label: 'Franklin & Marshall College Common Data Set 2025–26 (section C13)', url: 'https://drive.google.com/file/d/1CpyIXEDF-2bMSlt8qXimtThANg0xsUlw/view' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -5487,7 +5543,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', time: '23:59', timezone: 'applicant’s local time', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; notification in mid-February. A Regular Decision application sent by 15 January can be converted to ED II until 1 February.', status: 'confirmed', source: 'https://admissions.lafayette.edu/deadlines-and-forms/', verified: '2026-09-23', note: null },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', time: '23:59', timezone: 'applicant’s local time', binding: false, appliesTo: 'First-year applicants', conditions: 'Decisions released in late March through the Lafayette portal.', status: 'confirmed', source: 'https://admissions.lafayette.edu/deadlines-and-forms/', verified: '2026-09-23', note: null },
     ],
-    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
+    applicationFee: { amount: 65, currency: 'USD', waiverAvailableToInternational: null, waiver: 'The Common Data Set says the fee can be waived for applicants with financial need; whether that covers international applicants was not checked.', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://oir.lafayette.edu/wp-content/uploads/sites/196/2026/01/CDS2025-2026.pdf', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay',
@@ -5509,16 +5565,21 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
-    breakdown: { published: false },
+    breakdown: { tuition: 70486, billed: 92492, includes: 'tuition, required fees and on-campus food and housing; books, travel, personal expenses and health insurance are extra', published: true },
     academicYear: '2026–2027',
     currency: 'USD',
-    headline: 'Not confirmed — see Lafayette’s financial aid page',
+    headline: '$70,486 tuition · $92,492 with required fees, food and housing',
     items: [
-      { label: 'Tuition, room, board, books and supplies', text: 'The 2026–27 figures were not confirmed on the pages consulted' }
+      { label: 'Tuition', amount: 70486 },
+      { label: 'Required fees', amount: 1110 },
+      { label: 'Food and housing (on campus)', amount: 20896 }
     ],
-    billedSubtotal: null,
-    totalText: 'Not confirmed — check the official cost page',
-    note: 'Lafayette notes that meeting demonstrated need does not mean every expense, or summer and interim costs, will be covered.'
+    billedSubtotal: 92492,
+    totalText: '$92,492 for tuition, required fees and on-campus food and housing',
+    note: 'From section G1 of the 2025–26 Common Data Set, which lists typical charges for the full 2026–2027 academic year. First-year figures; required fees for continuing undergraduates are $360. Lafayette notes that meeting demonstrated need does not mean every expense, or summer and interim costs, will be covered.',
+    source: 'https://oir.lafayette.edu/wp-content/uploads/sites/196/2026/01/CDS2025-2026.pdf',
+    verified: '2026-10-05',
+    studentCategory: 'Full-time first-year undergraduates living on campus'
   },
   scholarships: {
     fullRide: {
@@ -5542,7 +5603,8 @@ window.UNIPATH.universities.push(
     { label: 'First-year international students — apply for aid', url: 'https://admissions.lafayette.edu/apply-for-aid/first-year-international-students/' },
     { label: 'International student FAQ', url: 'https://admissions.lafayette.edu/apply/international-students/international-student-faq/' },
     { label: 'Applying as an international student', url: 'https://admissions.lafayette.edu/apply/international-students/' },
-    { label: 'First-year applicants', url: 'https://admissions.lafayette.edu/first-year-applicants/' }
+    { label: 'First-year applicants', url: 'https://admissions.lafayette.edu/first-year-applicants/' },
+    { label: 'Lafayette College Common Data Set 2025–26 (section C13)', url: 'https://oir.lafayette.edu/wp-content/uploads/sites/196/2026/01/CDS2025-2026.pdf' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -5579,7 +5641,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding.', status: 'confirmed', source: 'https://www2.lehigh.edu/admissions/apply', verified: '2026-09-23', note: null },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional; decisions in late March.', status: 'confirmed', source: 'https://www2.lehigh.edu/admissions/apply', verified: '2026-10-01', note: 'Lehigh’s current page lists the dates without a year.' },
     ],
-    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
+    applicationFee: { amount: 75, currency: 'USD', waiverAvailableToInternational: null, waiver: 'The Common Data Set says the fee can be waived for applicants with financial need; whether that covers international applicants was not checked.', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://data.lehigh.edu/sites/data.lehigh.edu/files/1302026-CDS-2025-2026-FINAL.pdf', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'International Undergraduate Financial Certification Form', 'CSS Profile for aid applicants'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay',
@@ -5634,7 +5696,8 @@ window.UNIPATH.universities.push(
     { label: 'International students — admissions', url: 'https://www2.lehigh.edu/admissions/international-students' },
     { label: 'Financial aid frequently asked questions', url: 'https://www2.lehigh.edu/financial-aid/frequently-asked-questions' },
     { label: 'How to apply for financial aid', url: 'https://www2.lehigh.edu/admissions/tuition-affording-college/how-apply-financial-aid' },
-    { label: 'Admissions requirements', url: 'https://www2.lehigh.edu/admissions/admissions-requirements' }
+    { label: 'Admissions requirements', url: 'https://www2.lehigh.edu/admissions/admissions-requirements' },
+    { label: 'Lehigh University Common Data Set 2025–26 (section C13)', url: 'https://data.lehigh.edu/sites/data.lehigh.edu/files/1302026-CDS-2025-2026-FINAL.pdf' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -5672,7 +5735,7 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; notification in late February.', status: 'confirmed', source: 'https://admissions.miami.edu/undergraduate/application-process/options-and-deadlines/freshman/', verified: '2026-09-23', note: null },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Notification by 1 April. SAT or ACT scores are required from the fall 2026 intake onwards.', status: 'confirmed', source: 'https://admissions.miami.edu/undergraduate/application-process/options-and-deadlines/freshman/', verified: '2026-09-23', note: null },
     ],
-    applicationFee: { amount: null, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
+    applicationFee: { amount: 75, currency: 'USD', waiverAvailableToInternational: null, waiver: 'The Common Data Set says the fee can be waived for applicants with financial need; whether that covers international applicants was not checked.', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://irsa.miami.edu/facts-and-information/common-data-set/cds2526.pdf', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'English proficiency evidence', 'CSS Profile for need-based aid'],
     recommendations: 'Teacher and counsellor recommendations',
     essay: 'Personal essay',
@@ -5694,16 +5757,22 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Tuition and fees are the same for domestic and international students.'
   },
   costs: {
-    breakdown: { published: false },
-    academicYear: '2026–2027',
+    status: 'previous-cycle',
+    breakdown: { tuition: 66312, billed: 94700, includes: 'tuition, required fees and on-campus food and housing; books, travel, personal expenses and health insurance are extra', published: true },
+    academicYear: 'not final for 2026–2027 — see note',
     currency: 'USD',
-    headline: 'Not confirmed — see UM’s cost of attendance page',
+    headline: '$66,312 tuition · $94,700 with required fees, food and housing',
     items: [
-      { label: 'Tuition, housing, meals, books and travel', text: 'Published on UM’s cost of attendance page; 2026–27 figures were not confirmed here' }
+      { label: 'Tuition', amount: 66312 },
+      { label: 'Required fees', amount: 2030 },
+      { label: 'Food and housing (on campus)', amount: 26358 }
     ],
-    billedSubtotal: null,
-    totalText: 'Not confirmed — check the official cost page',
-    note: 'UM charges international and domestic students the same tuition.'
+    billedSubtotal: 94700,
+    totalText: '$94,700 for tuition, required fees and on-campus food and housing',
+    note: 'From section G1 of the 2025–26 Common Data Set, which lists typical charges for the full 2026–2027 academic year. On this form UM ticked the box saying its 2026–2027 costs were not yet available (expected 31 May 2026), so these figures may be those of the previous year. UM charges international and domestic students the same tuition.',
+    source: 'https://irsa.miami.edu/facts-and-information/common-data-set/cds2526.pdf',
+    verified: '2026-10-05',
+    studentCategory: 'Full-time first-year undergraduates living on campus'
   },
   scholarships: {
     fullRide: {
@@ -5750,7 +5819,8 @@ window.UNIPATH.universities.push(
     { label: 'First-year merit scholarships', url: 'https://admissions.miami.edu/undergraduate/financial-aid/scholarships/freshman/index.html' },
     { label: 'Admission plans and deadlines', url: 'https://admissions.miami.edu/undergraduate/application-process/options-and-deadlines/index.html' },
     { label: 'Testing policy', url: 'https://admissions.miami.edu/undergraduate/application-process/admission-requirements/testing-policy/index.html' },
-    { label: 'English proficiency requirements', url: 'https://admissions.miami.edu/undergraduate/application-process/admission-requirements/english-proficiency-requirements/index.html' }
+    { label: 'English proficiency requirements', url: 'https://admissions.miami.edu/undergraduate/application-process/admission-requirements/english-proficiency-requirements/index.html' },
+    { label: 'University of Miami Common Data Set 2025–26 (section C13)', url: 'https://irsa.miami.edu/facts-and-information/common-data-set/cds2526.pdf' }
   ],
   lastVerified: '2026-09-22'
 },
@@ -18016,7 +18086,9 @@ window.UNIPATH.universities.push(
       "currency": "USD",
       "waiverAvailableToInternational": null,
       "waiver": null,
-      "note": "No application fee is stated on the pages read; a $20 registration fee for first-time registrants is added to the first term’s charges."
+      "note": "No application fee is stated on the pages read; a $20 registration fee for first-time registrants is added to the first term’s charges.",
+      "status": "not-published",
+      "verified": "2026-10-05"
     },
     "documents": [
       "Online application",

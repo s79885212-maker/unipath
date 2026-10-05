@@ -524,7 +524,11 @@ window.UNIPATH.universities.push(
         },
       ],
       applicationFee: {
-        amount: null,
+        amount: 80,
+        note: "Stated in section C13 of the 2025–26 Common Data Set.",
+        source: "https://oir.yale.edu/sites/default/files/yale_cds_2025-26_md_20260616.pdf",
+        verified: "2026-10-05",
+        cycle: "2025–26 Common Data Set",
         currency: "USD",
         waiverAvailableToInternational: null,
         waiver:
@@ -2282,7 +2286,11 @@ window.UNIPATH.universities.push(
         },
       ],
       applicationFee: {
-        amount: null,
+        amount: 75,
+        note: "Stated in section C13 of the 2025–26 Common Data Set.",
+        source: "https://ir.princeton.edu/sites/g/files/toruqf2041/files/documents/CDS_2526_Princeton_v2.pdf",
+        verified: "2026-10-05",
+        cycle: "2025–26 Common Data Set",
         currency: "USD",
         waiverAvailableToInternational: null,
         waiver:
