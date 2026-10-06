@@ -10532,4 +10532,18 @@ window.UNIPATH_I18N.ru = {
   "TOEFL iBT, including Home Edition and Paper Edition; the requirement must be met in a single test.": "TOEFL iBT, включая Home Edition и Paper Edition; требование нужно выполнить за одну сдачу.",
   "TOEFL iBT, including Home and Paper Editions, and TOEFL Essentials accepted.": "Принимаются TOEFL iBT, включая Home и Paper Editions, и TOEFL Essentials.",
   "TOEFL iBT, including Home and Paper Editions.": "TOEFL iBT, включая Home и Paper Editions.",
+  "Permanent policy, announced on 15 November 2023": "Постоянная политика, объявлена 15 ноября 2023 года",
+  /* v82 */
+  "Listed among the qualifying scores an international applicant must submit: IELTS 6.0 or above. A writing or speaking score below 6.0 adds an English support course.": "Указан среди баллов, один из которых обязан подать иностранный абитуриент: IELTS 6.0 и выше. При балле за письмо или говорение ниже 6.0 добавляется курс поддержки по английскому.",
+  "TOEFL iBT 79 or above for tests before 21 January 2026, and 4.5 or above from that date. TOEFL Essentials 8.5 and the paper-based TOEFL 550 are listed as well.": "TOEFL iBT 79 и выше для тестов до 21 января 2026 года и 4.5 и выше — с этой даты. Также указаны TOEFL Essentials 8.5 и бумажный TOEFL 550.",
+  "Duolingo English Test 110 or above for tests taken after 15 July 2019.": "Duolingo English Test 110 и выше для тестов, сданных после 15 июля 2019 года.",
+  "iCLA requires IELTS 6.0 with no band below 5.5 from non-native English speakers.": "iCLA требует от тех, для кого английский не родной, IELTS 6.0 без секций ниже 5.5.",
+  "No band below 5.5.": "Ни одна секция не ниже 5.5.",
+  "iCLA lists a Duolingo score of 100.": "iCLA указывает балл Duolingo 100.",
+  "Middle 50% IELTS": "Средние 50% по IELTS",
+  "Middle 50% TOEFL": "Средние 50% по TOEFL",
+  "Middle 50% Duolingo": "Средние 50% по Duolingo",
+  "Year not stated on the page": "Год на странице не указан",
+  "Oberlin gives these as the ranges that the middle 50 percent of admitted international applicants typically have.": "Oberlin приводит это как диапазоны, в которые обычно попадают средние 50 процентов принятых иностранных абитуриентов.",
+  "Stated for students applying for fall 2025 admission; the page has not been updated for a later cycle": "Указано для поступающих на осень 2025; для более позднего цикла страница не обновлена",
 };

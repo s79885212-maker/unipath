@@ -143,5 +143,9 @@ window.UNIPATH.testPolicyCycle = {
   "bowdoin-college": { cycleNote: "The official testing page states this policy without naming an admission cycle.",
     source: "https://www.bowdoin.edu/admissions/apply/test-optional-policy/index.html", verified: '2026-10-06' },
   "university-of-michigan": { cycle: "2027 application cycle",
-    source: "https://admissions.umich.edu/apply/first-year-applicants/requirements-deadlines/application-changes", verified: '2026-10-06' }
+    source: "https://admissions.umich.edu/apply/first-year-applicants/requirements-deadlines/application-changes", verified: '2026-10-06' },
+  'pomona-college': { cycle: 'Permanent policy, announced on 15 November 2023',
+    source: 'https://www.pomona.edu/news/2023/11/15-pomona-college-makes-test-optional-admissions-policy-permanent', verified: '2026-10-06' },
+  'oberlin-college': { cycle: 'Stated for students applying for fall 2025 admission; the page has not been updated for a later cycle',
+    source: 'https://www.oberlin.edu/admissions-and-aid/arts-and-sciences/first-year-applicants', verified: '2026-10-06' }
 };

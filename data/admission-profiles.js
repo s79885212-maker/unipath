@@ -169,11 +169,10 @@
 
   P['university-of-alabama'] = {
     english: {
-      ielts: {
-      min: null,
-      recommended: null,
-      note: 'A writing sub-score of 6.0 or higher avoids mandatory English support courses. That is a placement threshold, not an admission minimum or a recommended overall score.'
-    }
+      ielts: { min: 6, recommended: null, note: 'Listed among the qualifying scores an international applicant must submit: IELTS 6.0 or above. A writing or speaking score below 6.0 adds an English support course.' },
+      toefl: { min: 79, recommended: null, scales: [{ period: 'pre2026', min: 79, recommended: null }, { period: 'post2026', min: 4.5, recommended: null }], note: 'TOEFL iBT 79 or above for tests before 21 January 2026, and 4.5 or above from that date. TOEFL Essentials 8.5 and the paper-based TOEFL 550 are listed as well.' },
+      duolingo: { min: 110, recommended: null, note: 'Duolingo English Test 110 or above for tests taken after 15 July 2019.' },
+      source: 'https://admissions.ua.edu/international/english-language-proficiency/', verified: '2026-10-06'
     },
     admissions: {
       applicationFee: { amount: 50, currency: 'USD', waiverAvailableToInternational: null, waiver: null, note: 'UA states the fee for out-of-state and international students is $50 for 2027 entry terms, non-refundable and payable by card.' }
@@ -719,7 +718,10 @@
       source: { label: 'Oberlin College Common Data Set 2025–26 (section C9)', url: 'https://www.oberlin.edu/media/37695/download?inline' },
       official: {
         sat: { composite: [1370, 1420, 1480], rw: [690, 730, 760], math: [660, 700, 740], submitted: '34%', cohort: 'enrolled', submittersOnly: true },
-        act: [30, 32, 33]
+        act: [30, 32, 33],
+        english: { measure: 'middle50', ielts: '7.5–8.5', toefl: '106–112', duolingo: '120–140', term: 'Year not stated on the page', cohort: 'admitted',
+          note: 'Oberlin gives these as the ranges that the middle 50 percent of admitted international applicants typically have.',
+          source: { label: 'Oberlin College — first-year applicants', url: 'https://www.oberlin.edu/admissions-and-aid/arts-and-sciences/first-year-applicants' } }
       }
     }
   };

@@ -2984,9 +2984,10 @@ window.UNIPATH.universities.push(
   },
   "english": {
     "ielts": {
-      "min": null,
+      "min": 6,
       "recommended": null,
-      "note": "iCLA states its requirement as TOEFL iBT 76 “or equivalent accepted proficiency test”; the IELTS equivalent was not found."
+      "note": "iCLA requires IELTS 6.0 with no band below 5.5 from non-native English speakers.",
+      "sections": "No band below 5.5."
     },
     "toefl": {
       "min": 76,
@@ -2994,9 +2995,9 @@ window.UNIPATH.universities.push(
       "note": "TOEFL iBT 76 or an equivalent accepted test. The page does not give a score on the scale used from January 2026."
     },
     "duolingo": {
-      "min": null,
+      "min": 100,
       "recommended": null,
-      "note": "Not confirmed during this check."
+      "note": "iCLA lists a Duolingo score of 100."
     },
     "waiver": null,
     "note": null

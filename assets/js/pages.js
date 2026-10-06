@@ -257,9 +257,12 @@
       var body;
       if (x && (has(x.ielts) || has(x.toefl) || has(x.duolingo))) {
         var lines = [];
-        if (has(x.ielts)) lines.push('<div class="stat-line"><span class="muted">' + esc(x.measure === 'median' ? 'Median IELTS' : 'Average IELTS') + '</span> <strong>' + esc(x.ielts) + '</strong></div>');
-        if (has(x.toefl)) lines.push('<div class="stat-line"><span class="muted">' + esc(x.measure === 'median' ? 'Median TOEFL' : 'Average TOEFL') + '</span> <strong>' + esc(x.toefl) + '</strong></div>');
-        if (has(x.duolingo)) lines.push('<div class="stat-line"><span class="muted">' + esc(x.measure === 'median' ? 'Median Duolingo' : 'Average Duolingo') + '</span> <strong>' + esc(x.duolingo) + '</strong></div>');
+        /* The kind of statistic is named as published: a middle 50% range is never called an average. */
+        var KIND = { median: 'Median', middle50: 'Middle 50%' }[x.measure] || 'Average';
+        if (has(x.ielts)) lines.push('<div class="stat-line"><span class="muted">' + esc(KIND + ' IELTS') + '</span> <strong>' + esc(x.ielts) + '</strong></div>');
+        if (has(x.toefl)) lines.push('<div class="stat-line"><span class="muted">' + esc(KIND + ' TOEFL') + '</span> <strong>' + esc(x.toefl) + '</strong></div>');
+        if (has(x.duolingo)) lines.push('<div class="stat-line"><span class="muted">' + esc(KIND + ' Duolingo') + '</span> <strong>' + esc(x.duolingo) + '</strong></div>');
+        if (has(x.note)) lines.push('<p class="small muted">' + esc(x.note) + '</p>');
         var meta = ['<span>' + esc(x.term || 'Year not stated') + '</span>', '<span>' + esc(COHORT[x.cohort] || 'sample not stated') + '</span>'];
         if (x.source) meta.push('<a href="' + esc(x.source.url) + '" target="_blank" rel="noopener">' + esc(x.source.label) + ' ↗</a>');
         body = lines.join('') + '<p class="small muted stat-meta">' + meta.join(' · ') + '</p>';
