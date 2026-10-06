@@ -196,6 +196,30 @@ console.log('   English-test versions or conditions recorded for ' + Object.keys
 var adt = DB.awardDetails || {};
 ok(Object.keys(adt).every(function (id) { var u = U.uniById(id); return u && U.fullRide(u).available === true && /^https?:/.test(adt[id].detailsSource) && adt[id].detailsVerified; }), 'award conditions belong to a listed award and carry their source and check date');
 
+/* ---------------- every profile renders ---------------- */
+group('profile rendering');
+(function () {
+  var main = { innerHTML: '' };
+  var doc = sandbox.document;
+  var oldGet = doc.getElementById, oldQ = doc.querySelector, oldQA = doc.querySelectorAll;
+  doc.getElementById = function (id) { return id === 'main' ? main : null; };
+  doc.querySelector = function () { return null; };
+  doc.querySelectorAll = function () { return []; };
+  sandbox.scrollTo = function () {};
+  sandbox.navigator = {};
+  try { load('assets/js/pages.js'); } catch (e) { ok(false, 'the page module loads', String(e)); return; }
+  var P = sandbox.UPPages || sandbox.Pages || (sandbox.UP && sandbox.UP.pages);
+  if (!P || !P.renderProfile) { ok(false, 'the profile renderer is reachable from the tests', Object.keys(sandbox).filter(function (k) { return /page/i.test(k); }).join(',')); return; }
+  var broken = [];
+  DB.universities.forEach(function (u) {
+    main.innerHTML = '';
+    try { P.renderProfile(u); if (main.innerHTML.length < 2000) broken.push(u.id + ' (empty)'); }
+    catch (e) { broken.push(u.id + ': ' + e.message); }
+  });
+  ok(broken.length === 0, 'all ' + DB.universities.length + ' profiles render without an error', broken.slice(0, 4).join('; '));
+  doc.getElementById = oldGet; doc.querySelector = oldQ; doc.querySelectorAll = oldQA;
+})();
+
 /* ---------------- fields of study ---------------- */
 group('fields of study');
 var withDegrees = DB.universities.filter(function (u) { return u.degreesByArea; });

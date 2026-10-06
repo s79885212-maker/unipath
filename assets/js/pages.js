@@ -263,7 +263,9 @@
         if (has(x.toefl)) lines.push('<div class="stat-line"><span class="muted">' + esc(KIND + ' TOEFL') + '</span> <strong>' + esc(x.toefl) + '</strong></div>');
         if (has(x.duolingo)) lines.push('<div class="stat-line"><span class="muted">' + esc(KIND + ' Duolingo') + '</span> <strong>' + esc(x.duolingo) + '</strong></div>');
         if (has(x.note)) lines.push('<p class="small muted">' + esc(x.note) + '</p>');
-        var meta = ['<span>' + esc(x.term || 'Year not stated') + '</span>', '<span>' + esc(COHORT[x.cohort] || 'sample not stated') + '</span>'];
+        /* Own map: the shared COHORT table is declared further down and is not set yet when this runs. */
+        var WHO = { enrolled: 'enrolled first-year students', admitted: 'admitted students' };
+        var meta = ['<span>' + esc(x.term || 'Year not stated') + '</span>', '<span>' + esc(WHO[x.cohort] || 'sample not stated') + '</span>'];
         if (x.source) meta.push('<a href="' + esc(x.source.url) + '" target="_blank" rel="noopener">' + esc(x.source.label) + ' ↗</a>');
         body = lines.join('') + '<p class="small muted stat-meta">' + meta.join(' · ') + '</p>';
       } else if (o.englishNotPublished) {
