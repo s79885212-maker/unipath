@@ -1,0 +1,54 @@
+/* UniPath — which admission cycle a SAT/ACT policy was stated for.
+   Each entry was read on the institution's own testing page (`source`) on the
+   day in `verified`. `cycle` is the cycle or entry term the page names;
+   `exception` is a group the page treats differently; `next` is a change the
+   page announces for a later cycle. An institution without an entry here has
+   a policy on its profile but no recorded cycle: the page was not re-read or
+   does not name one. Merged into academics.sat by UNIPATH.applyLayers. */
+window.UNIPATH.testPolicyCycle = {
+  'princeton-university': { cycle: 'Fall 2027 entry (2026–27 admission cycle)',
+    next: 'Princeton states that SAT or ACT scores are required again from the 2027–28 admission cycle, for applicants seeking to enrol in fall 2028.',
+    source: 'https://admission.princeton.edu/apply/standardized-testing', verified: '2026-10-06' },
+  'columbia-university': { cycle: '2026–2027 admissions cycle',
+    next: 'Columbia College and Columbia Engineering reinstate a testing requirement from August 2027, for the 2027–2028 admission cycle.',
+    source: 'https://undergrad.admissions.columbia.edu/apply/process/testing', verified: '2026-10-06' },
+  'university-of-notre-dame': { cycle: 'Applicants for fall 2027',
+    next: 'Applicants seeking to enrol in fall 2028 will need to submit ACT or SAT scores.',
+    source: 'https://admissions.nd.edu/apply/standardized-testing-policy/', verified: '2026-10-06' },
+  'duke-university': { cycle: '2026–2027 admissions cycle, first-year and transfer applicants',
+    source: 'https://admissions.duke.edu/apply/', verified: '2026-10-06' },
+  'vanderbilt-university': { cycle: 'Applicants for fall 2027 and fall 2028',
+    next: 'ACT or SAT scores are required from students applying for fall 2029.',
+    source: 'https://admissions.vanderbilt.edu/apply/testing-policies/', verified: '2026-10-06' },
+  'wellesley-college': { cycle: 'Applicants for entry in fall 2027',
+    source: 'https://www.wellesley.edu/admission-aid/faqs', verified: '2026-10-06' },
+  'caltech': { cycle: 'Fall 2027 first-year applicants',
+    exception: 'The ACT writing and science subscores are not required.',
+    source: 'https://www.admissions.caltech.edu/apply/first-year-applicants/standardized-tests', verified: '2026-10-06' },
+  'barnard-college': { cycle: 'Students applying for 2027 entry',
+    source: 'https://barnard.edu/temporary-test-optional-policy-faq', verified: '2026-10-06' },
+  'washington-and-lee-university': { cycle: '2026–27 application cycle',
+    source: 'https://www.wlu.edu/admissions/apply/test-optional-policy', verified: '2026-10-06' },
+  'colgate-university': { cycle: 'Through the 2026–27 application season',
+    source: 'https://www.colgate.edu/news/stories/colgate-remain-test-optional-through-2026', verified: '2026-10-06' },
+  'lafayette-college': { cycle: 'Applicants for fall 2027 and fall 2028',
+    source: 'https://admissions.lafayette.edu/apply/international-students/', verified: '2026-10-06' },
+  'syracuse-university': { cycle: 'Applicants for Fall 2026, Spring 2027, Fall 2027 and Spring 2028',
+    source: 'https://www.syracuse.edu/admissions-aid/application-process/apply/', verified: '2026-10-06' },
+  'university-of-pennsylvania': { cycle: '2026–2027 admissions cycle (the testing page lists its test deadlines for this cycle)',
+    source: 'https://admissions.upenn.edu/how-to-apply/preparing-your-application/testing', verified: '2026-10-06' },
+  'university-of-miami': { cycle: 'In effect from fall 2026 admission; the page does not restate it for 2027',
+    source: 'https://admissions.miami.edu/undergraduate/application-process/admission-requirements/testing-policy/index.html', verified: '2026-10-06' },
+  'university-of-alabama': { cycle: 'First-year students starting in 2027',
+    exception: 'An ACT or SAT score is required from applicants whose cumulative high-school GPA is below 3.0.',
+    next: 'For students starting in 2028 a test score is required from all applicants.',
+    source: 'https://admissions.ua.edu/testing-requirements/', verified: '2026-10-06' },
+  'university-of-richmond': { cycle: 'First-year students entering in fall 2027',
+    source: 'https://admissions.richmond.edu/process/index.html', verified: '2026-10-06' },
+  'boston-university': { cycle: 'First-year applicants through fall 2028 and spring 2029',
+    source: 'https://www.bu.edu/admissions/apply/international/', verified: '2026-10-06' },
+  'bucknell-university': { cycle: 'Test-optional pilot, extended through the 2027–28 application cycle',
+    source: 'https://www.bucknell.edu/admissions-aid/apply-bucknell/undergraduate-admission-requirements', verified: '2026-10-06' },
+  'dartmouth-college': { cycle: 'In effect since applicants to the Class of 2029',
+    source: 'https://admissions.dartmouth.edu/apply/testing-policy', verified: '2026-10-06' }
+};

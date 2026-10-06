@@ -184,6 +184,11 @@ var counts = { confirmed: 0, 'not-confirmed': 0, 'previous-cycle': 0 };
 DB.universities.forEach(function (u) { U.roundsOf(u).forEach(function (d) { counts[d.status]++; }); });
 console.log('   deadline entries: ' + JSON.stringify(counts));
 
+var tpc = DB.testPolicyCycle || {};
+ok(Object.keys(tpc).every(function (id) { var u = U.uniById(id); return u && u.academics.sat.cycle === tpc[id].cycle && /^https?:/.test(tpc[id].source) && tpc[id].verified; }), 'a recorded policy cycle belongs to a record and carries its source and check date');
+ok(U.uniById('princeton-university').academics.sat.next && U.uniById('university-of-alabama').academics.sat.exception, 'announced changes and exceptions to a test policy are kept apart from the policy itself');
+console.log('   SAT/ACT policy with a recorded cycle: ' + Object.keys(tpc).length + ' of ' + DB.universities.filter(function (u) { return u.country === 'us'; }).length + ' US records');
+
 /* ---------------- fields of study ---------------- */
 group('fields of study');
 var withDegrees = DB.universities.filter(function (u) { return u.degreesByArea; });

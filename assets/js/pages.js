@@ -389,6 +389,9 @@
       var extra = '';
       /* The cycle a policy was confirmed for, when the record states one. */
       extra += '<br><span class="small muted">' + (has(sat.cycle) ? 'Applies to: <span>' + esc(sat.cycle) + '</span>' : 'The admission cycle this policy applies to is not recorded here — confirm it for your entry year.') + '</span>';
+      if (has(sat.exception)) extra += '<br><span class="small"><strong>Exception:</strong> <span>' + esc(sat.exception) + '</span></span>';
+      if (has(sat.next)) extra += '<br><span class="small"><strong>Later cycles:</strong> <span>' + esc(sat.next) + '</span></span>';
+      if (has(sat.source)) extra += '<br><span class="small muted"><a href="' + esc(sat.source) + '" target="_blank" rel="noopener">Official testing page ↗</a>' + (has(sat.verified) ? ' · <span>Checked ' + esc(sat.verified) + '</span>' : '') + '</span>';
       if (pol === 'optional' || pol === 'not-used') {
         extra += '<br><span class="small muted">This is the policy for admission. A merit scholarship, an honours programme or a particular major may still ask for a score — check each one.</span>';
       }

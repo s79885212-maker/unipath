@@ -39,7 +39,8 @@ window.UNIPATH = window.UNIPATH || {
    - data/admission-profiles.js: listed sub-fields replace the base ones,
      sources are appended, `stats` is attached;
    - data/photos.js: the first photo is the main one, thumb.jpg sits beside it;
-   - data/degrees.js: field tags are checked against degrees conferred.
+   - data/degrees.js: field tags are checked against degrees conferred;
+   - data/test-policy.js: the cycle a SAT/ACT policy was stated for.
    Called once by the site (assets/js/app.js) and by the build step that
    writes static university pages (build-artifact.py). Safe to call twice. */
 window.UNIPATH.applyLayers = function () {
@@ -69,6 +70,12 @@ window.UNIPATH.applyLayers = function () {
     /* Explicit status for an English test that has no published figure. */
     var ts = (window.UNIPATH.testStatus || {})[u.id];
     if (ts && u.english) for (var tk in ts) if (ts.hasOwnProperty(tk) && u.english[tk]) u.english[tk].status = ts[tk];
+    /* The cycle a SAT/ACT policy was stated for (data/test-policy.js). */
+    var tp = (DB.testPolicyCycle || {})[u.id];
+    if (tp) {
+      u.academics = u.academics || {}; u.academics.sat = u.academics.sat || {};
+      for (var tk2 in tp) if (tp.hasOwnProperty(tk2)) u.academics.sat[tk2] = tp[tk2];
+    }
     /* Field tags checked against bachelor's degrees conferred (data/degrees.js):
        a tag stays when one of its categories has degrees or an official page
        lists a major; a tag with neither is taken off and kept in fieldsDropped
