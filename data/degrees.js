@@ -317,7 +317,9 @@ window.UNIPATH.degreesByArea = {
 };
 /* Field tags the degrees table does not back, checked against the institution's
    own programme list. kind: major (a major exists — the tag stays), minor,
-   concentration, pathway (a dual-degree or transfer route finished elsewhere). */
+   concentration, pathway (a dual-degree or transfer route finished elsewhere),
+   supplementary (a minor or supplementary major taken with a primary major),
+   not-listed (absent from the institution's own list of majors and minors). */
 window.UNIPATH.fieldNotes = {
   "boston-college": {
     "engineering": { kind: "major", checked: '2026-10-06',
@@ -366,5 +368,63 @@ window.UNIPATH.fieldNotes = {
     "education": { kind: "minor", checked: '2026-10-06',
       note: "The undergraduate catalogue lists Secondary Education and Urban Education as minors.",
       url: "https://catalog.upenn.edu/undergraduate/programs/" }
+  },
+  "caltech": {
+    "humanities": { kind: "major", checked: '2026-10-06',
+      note: "Caltech’s Division of the Humanities and Social Sciences lists options — its version of a major — in English, history, history and philosophy of science, and philosophy. No degrees in these areas are reported for 2024–2025.",
+      url: "https://www.hss.caltech.edu/undergraduate-studies/faqs" },
+    "social-sciences": { kind: "major", checked: '2026-10-06',
+      note: "The division lists options in economics, in business, economics, and management (BEM), and in political science. No degrees are reported under Social sciences for 2024–2025.",
+      url: "https://www.hss.caltech.edu/undergraduate-studies/faqs" }
+  },
+  "dickinson-college": {
+    "engineering": { kind: "pathway", checked: '2026-10-06',
+      note: "A 3+2 programme: three years at Dickinson, then an engineering degree from the partner institution, Rensselaer Polytechnic Institute.",
+      url: "https://www.dickinson.edu/homepage/1723/engineering" }
+  },
+  "gettysburg-college": {
+    "engineering": { kind: "pathway", checked: '2026-10-06',
+      note: "A dual-degree engineering programme: the engineering major is taken at one of four affiliated universities.",
+      url: "https://www.gettysburg.edu/academic-programs/physics/programs/engineering-dual-degree" }
+  },
+  "college-of-the-holy-cross": {
+    "engineering": { kind: "pathway", checked: '2026-10-06',
+      note: "The 3-2 Engineering Program: three or four years at Holy Cross, then two years at Columbia University’s engineering school.",
+      url: "https://www.holycross.edu/academics/programs/3-2-program-engineering" }
+  },
+  "stanford-university": {
+    "education": { kind: "minor", checked: '2026-10-06',
+      note: "The Graduate School of Education states that it offers no undergraduate major; undergraduates can take a minor or honours in education.",
+      url: "https://ed.stanford.edu/undergraduate/faq" }
+  },
+  "cornell-university": {
+    "education": { kind: "minor", checked: '2026-10-06',
+      note: "Cornell offers education as a minor, open to undergraduates in all colleges.",
+      url: "https://cals.cornell.edu/education/degrees-programs/education-minor" }
+  },
+  "uc-berkeley": {
+    "education": { kind: "major", checked: '2026-10-06',
+      note: "The Berkeley School of Education offers a Bachelor of Science in Educational Sciences and a minor in Education. The Common Data Set read here covers degrees conferred in 2023–2024 and reports none in education.",
+      url: "https://bse.berkeley.edu/academics/undergraduate-programs" }
+  },
+  "university-of-notre-dame": {
+    "education": { kind: "supplementary", checked: '2026-10-06',
+      note: "Education, Schooling, and Society is offered as a minor and as a supplementary major.",
+      url: "https://catalog.nd.edu/undergraduate/arts-letters/inst-educational-initiatives/" }
+  },
+  "university-of-southern-california": {
+    "education": { kind: "minor", checked: '2026-10-06',
+      note: "The Rossier School of Education lists undergraduate minors, such as Education and Society, and progressive degrees, but no bachelor’s major in education.",
+      url: "https://rossier.usc.edu/programs/undergraduate-minors-programs" }
+  },
+  "lehigh-university": {
+    "education": { kind: "minor", checked: '2026-10-06',
+      note: "Lehigh describes education as a minor that any undergraduate can declare.",
+      url: "https://www2.lehigh.edu/academics/undergraduate-studies/degree-programs/education" }
+  },
+  "emory-university": {
+    "education": { kind: "not-listed", checked: '2026-10-06',
+      note: "Emory’s page of undergraduate majors and minors lists no programme in education.",
+      url: "https://apply.emory.edu/academics/majors-minors.html" }
   }
 };

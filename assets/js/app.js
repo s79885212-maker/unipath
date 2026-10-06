@@ -324,7 +324,9 @@
     'minor': 'Minor only',
     'concentration': 'Concentration, not a major',
     'pathway': 'Dual-degree route finished at another institution',
-    'major': 'Major listed by the institution'
+    'major': 'Major listed by the institution',
+    'supplementary': 'Minor or supplementary major, taken with a primary major',
+    'not-listed': 'Not in the institution’s list of majors and minors'
   };
   /* englishTaught = at least one English-taught bachelor's route exists.
      englishTaughtPrograms = the fields available fully in English (or on an
