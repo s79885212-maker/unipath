@@ -514,4 +514,4 @@ Community colleges:
 Все 12 тегов, снятых ранее без выяснения причины, проверены по официальным страницам вузов; у каждого в профиле теперь конкретное пояснение со ссылкой.
 - Тег возвращён (major есть): Caltech — гуманитарные options (English, history, history and philosophy of science, philosophy) и социальные (economics, BEM, political science), «option» в Caltech — это major; UC Berkeley — Bachelor of Science in Educational Sciences (в документе за 2023–2024 степеней ещё нет).
 - Тег остаётся снятым: инженерия у Dickinson (3+2 с Rensselaer), Gettysburg (двойной диплом с четырьмя университетами) и Holy Cross (3-2 с Columbia) — степень даёт другой вуз; педагогика у Stanford, Cornell, USC и Lehigh — только minor; у Notre Dame — minor и supplementary major; у Emory в списке majors и minors программы по педагогике нет.
-- Итог по вузам США с прочитанной таблицей степеней (82 из 110, с FSU и Richmond): тегов без пояснения не осталось.
+- Итог по вузам США с прочитанной таблицей степеней (81 из 110, с FSU и Richmond): тегов без пояснения не осталось.
