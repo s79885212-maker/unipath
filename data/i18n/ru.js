@@ -10556,4 +10556,6 @@ window.UNIPATH_I18N.ru = {
   "5–30 November for non-EU applicants; 5 November – 15 January for EU applicants (regular period; the page gives no year)": "5–30 ноября для абитуриентов не из ЕС; 5 ноября — 15 января для абитуриентов из ЕС (регулярный период; год на странице не указан)",
   "Applicants to Computer Science international (B.Sc.)": "Абитуриенты программы Computer Science international (B.Sc.)",
   "This programme starts in the summer semester only; no application is possible for the winter semester.": "Эта программа начинается только в летнем семестре; на зимний семестр подать нельзя.",
+  "Estimated direct costs for 2026–2027 from the University of Miami cost of attendance page: tuition $66,312, fees $2,030, on-campus housing $16,958 and meals $9,400. The page lists a further $4,172 of indirect costs (books, personal expenses, transportation, loan fees). The same figures appear in section G1 of the 2025–26 Common Data Set.": "Оценка прямых расходов на 2026–2027 год со страницы University of Miami о стоимости обучения: обучение $66 312, сборы $2 030, жильё в кампусе $16 958 и питание $9 400. Там же указаны ещё $4 172 косвенных расходов (книги, личные расходы, транспорт, сборы по займам). Те же цифры стоят в разделе G1 Common Data Set 2025–26.",
+  "Meals (on campus)": "Питание (в кампусе)",
 };

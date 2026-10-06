@@ -5759,21 +5759,22 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Tuition and fees are the same for domestic and international students.'
   },
   costs: {
-    status: 'previous-cycle',
+    status: 'confirmed',
     breakdown: { tuition: 66312, billed: 94700, includes: 'tuition, required fees and on-campus food and housing; books, travel, personal expenses and health insurance are extra', published: true },
-    academicYear: 'not final for 2026–2027 — see note',
+    academicYear: '2026–2027',
     currency: 'USD',
     headline: '$66,312 tuition · $94,700 with required fees, food and housing',
     items: [
       { label: 'Tuition', amount: 66312 },
       { label: 'Required fees', amount: 2030 },
-      { label: 'Food and housing (on campus)', amount: 26358 }
+      { label: 'Housing (on campus)', amount: 16958 },
+      { label: 'Meals (on campus)', amount: 9400 }
     ],
     billedSubtotal: 94700,
     totalText: '$94,700 for tuition, required fees and on-campus food and housing',
-    note: 'From section G1 of the 2025–26 Common Data Set, which lists typical charges for the full 2026–2027 academic year. On this form UM ticked the box saying its 2026–2027 costs were not yet available (expected 31 May 2026), so these figures may be those of the previous year. UM charges international and domestic students the same tuition.',
-    source: 'https://irsa.miami.edu/facts-and-information/common-data-set/cds2526.pdf',
-    verified: '2026-10-05',
+    note: 'Estimated direct costs for 2026–2027 from the University of Miami cost of attendance page: tuition $66,312, fees $2,030, on-campus housing $16,958 and meals $9,400. The page lists a further $4,172 of indirect costs (books, personal expenses, transportation, loan fees). The same figures appear in section G1 of the 2025–26 Common Data Set.',
+    source: 'https://finaid.miami.edu/cost/index.html',
+    verified: '2026-10-06',
     studentCategory: 'Full-time first-year undergraduates living on campus'
   },
   scholarships: {
