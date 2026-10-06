@@ -10456,4 +10456,10 @@ window.UNIPATH_I18N.ru = {
   "Bard College Berlin states that it does not charge an application fee.": "Bard College Berlin сообщает, что не взимает сбор за заявку.",
   "Stated for applicants from non-EU countries.": "Указано для абитуриентов из стран вне ЕС.",
   "As of 1 April 2020": "По состоянию на 1 апреля 2020 года",
+  /* v77: Florida State University from its Common Data Set */
+  "FSU’s 2025–26 Common Data Set marks the SAT or ACT as required to be considered for admission for students applying for Fall 2027, and explains that Florida Board of Governors regulation 6.002 requires first-year applicants to submit an ACT, CLT or SAT score. At least one score must arrive before the application deadline.": "В Common Data Set FSU за 2025–26 год SAT или ACT отмечены как обязательные для рассмотрения заявки у поступающих на осень 2027; там же объяснено, что правило 6.002 Совета управляющих Флориды требует от первокурсников результат ACT, CLT или SAT. Хотя бы один результат должен поступить до срока подачи заявки.",
+  "Students applying for Fall 2027": "Поступающие на осень 2027",
+  "The ACT, CLT or SAT is accepted; test scores must be received by 1 March 2027.": "Принимаются ACT, CLT или SAT; результаты тестов должны поступить до 1 марта 2027 года.",
+  "2025–26 Common Data Set, section C13 (Fall 2027 admission cycle)": "Common Data Set 2025–26, раздел C13 (приёмный цикл на осень 2027)",
+  "FSU publishes its Common Data Set section by section on this page: choose 2025-26 and section C, then View.": "FSU публикует Common Data Set по разделам на этой странице: выберите 2025-26 и раздел C, затем View.",
 };

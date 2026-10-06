@@ -307,7 +307,10 @@ window.UNIPATH.degreesByArea = {
     areas: { agri: 4.59, natres: 0.96, arch: 0.11, area: 0.3, comm: 1.31, cis: 11.93, educ: 1.74, engr: 28.76, engtech: 6.92, lang: 0.56, famcs: 0.82, english: 0.86, libarts: 0.07, bio: 6.37, math: 3.36, interd: 0.53, philo: 0.38, physci: 2.06, psych: 3.36, socsci: 4.19, trans: 1.89, visarts: 1.72, health: 4.44, business: 12.36, history: 0.41 } },
   "ohio-state-university": { period: "2024–2025", unit: "percent", checked: '2026-10-05',
     source: { label: "The Ohio State University (Columbus campus) Common Data Set 2025–26, section J", url: "https://irp.osu.edu/sites/default/files/documents/2026/03/CDS-2025-2026-OSU-Columbus-Campus.pdf" },
-    areas: { agri: 2.5, natres: 2, arch: 1, area: 0.1, comm: 4.4, cis: 1.4, educ: 4.4, engr: 14.8, engtech: 0.1, lang: 0.9, famcs: 2.3, english: 1.1, libarts: 0.1, bio: 8.6, math: 2, interd: 0.8, parks: 1.7, philo: 0.2, physci: 1.6, psych: 5.5, pubadmin: 2.4, socsci: 7.4, trans: 0.7, visarts: 2.2, health: 10.9, business: 19.9, history: 1 } }
+    areas: { agri: 2.5, natres: 2, arch: 1, area: 0.1, comm: 4.4, cis: 1.4, educ: 4.4, engr: 14.8, engtech: 0.1, lang: 0.9, famcs: 2.3, english: 1.1, libarts: 0.1, bio: 8.6, math: 2, interd: 0.8, parks: 1.7, philo: 0.2, physci: 1.6, psych: 5.5, pubadmin: 2.4, socsci: 7.4, trans: 0.7, visarts: 2.2, health: 10.9, business: 19.9, history: 1 } },
+  "florida-state-university": { period: "2024–2025", unit: "percent", checked: '2026-10-06',
+    source: { label: "Florida State University Common Data Set 2025–26, section J", url: "https://ir.fsu.edu/commondataset.aspx" },
+    areas: { natres: 1.5, area: 0.1, comm: 3.4, cis: 4.6, educ: 1.7, engr: 4.1, lang: 0.4, famcs: 2.6, english: 2.6, libarts: 0.7, bio: 9.2, math: 1, interd: 0.1, parks: 2, philo: 0.3, physci: 0.9, psych: 7.5, homeland: 5.8, pubadmin: 0.9, socsci: 12.9, visarts: 3.7, health: 8.4, business: 25, history: 0.6 } }
 };
 /* Field tags the degrees table does not back, checked against the institution's
    own programme list. kind: major (a major exists — the tag stays), minor,

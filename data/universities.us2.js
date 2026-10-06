@@ -15932,7 +15932,11 @@ window.UNIPATH.universities.push(
       "currency": "USD",
       "waiverAvailableToInternational": null,
       "waiver": "Waived for students who qualify for an ACT, College Board or NACAC fee waiver or meet other indicators of economic need; international eligibility was not confirmed",
-      "note": "First-year application fee."
+      "note": "First-year application fee.",
+      "source": "https://ir.fsu.edu/commondataset.aspx",
+      "verified": "2026-10-06",
+      "cycle": "2025–26 Common Data Set, section C13 (Fall 2027 admission cycle)",
+      "status": "confirmed"
     },
     "documents": [
       "Common Application",
@@ -15980,8 +15984,8 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": "accepted",
-      "note": "FSU lists self-reported ACT, CLT or SAT scores among the materials of a complete application and says only students admitted with an associate degree are not required to submit them; a plain statement of the requirement for international applicants was not found on the pages read."
+      "policy": "required",
+      "note": "FSU’s 2025–26 Common Data Set marks the SAT or ACT as required to be considered for admission for students applying for Fall 2027, and explains that Florida Board of Governors regulation 6.002 requires first-year applicants to submit an ACT, CLT or SAT score. At least one score must arrive before the application deadline."
     },
     "act": {
       "policy": "accepted",

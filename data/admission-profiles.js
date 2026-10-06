@@ -1251,6 +1251,17 @@
     }
   };
 
+  P['florida-state-university'] = {
+    stats: {
+      term: 'Fall 2025 entering class',
+      source: { label: 'Florida State University Common Data Set 2025–26 (section C9)', url: 'https://ir.fsu.edu/commondataset.aspx' },
+      official: {
+        sat: { composite: [1300, 1360, 1410], rw: [650, 680, 720], math: [630, 670, 710], submitted: '63.7%', cohort: 'enrolled', submittersOnly: true, note: 'FSU publishes its Common Data Set section by section on this page: choose 2025-26 and section C, then View.' },
+        act: [29, 30, 32]
+      }
+    }
+  };
+
   /* ========================== JAPAN ========================== */
 
   P['university-of-tokyo'] = {

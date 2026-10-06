@@ -63,5 +63,8 @@ window.UNIPATH.testPolicyCycle = {
   'georgetown-university': { cycleNote: 'The official testing page states this policy without naming an admission cycle.',
     source: 'https://uadmissions.georgetown.edu/apply/first-year-applicants/', verified: '2026-10-06' },
   'carnegie-mellon-university': { cycleNote: 'The official testing page states this policy without naming an admission cycle.',
-    source: 'https://www.cmu.edu/admission/admission/standardized-testing', verified: '2026-10-06' }
+    source: 'https://www.cmu.edu/admission/admission/standardized-testing', verified: '2026-10-06' },
+  'florida-state-university': { cycle: 'Students applying for Fall 2027',
+    exception: 'The ACT, CLT or SAT is accepted; test scores must be received by 1 March 2027.',
+    source: 'https://ir.fsu.edu/commondataset.aspx', verified: '2026-10-06' }
 };
