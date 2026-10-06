@@ -434,7 +434,7 @@ window.UNIPATH.universities.push(
     deadlines: [
       { name: 'Bachelor’s application — winter semester 2027/28', kind: 'application-window', entryTerm: 'Winter', entryYear: '2027', dateISO: '2027-07-15', date: 'Mid-May – 15 July 2027', binding: false, appliesTo: 'First-year international applicants', conditions: 'Leuphana states that first-year students can apply from mid-May to 15 July 2027 for a start in October 2027. For the summer semester 2027 only applications for higher semesters are possible.', status: 'confirmed', source: 'https://www.leuphana.de/en/college/application/international-applications.html', verified: '2026-10-01', note: null }
     ],
-    applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null },
+    applicationFee: { amount: 75, currency: 'EUR', waiverAvailableToInternational: null, waiver: null, note: 'Paid to uni-assist, not to the university: applicants with a certificate from outside the EU/EEA apply through uni-assist, which charges 75 euros for the first application and 30 euros for each further one.', source: 'https://www.leuphana.de/en/college/application/international-applications/online-application/applying-with-non-eu-eea-certificates.html', verified: '2026-10-06', status: 'confirmed' },
     documents: [
       'University entrance qualification',
       'Proof of English for an English-taught major'
@@ -1246,7 +1246,7 @@ window.UNIPATH.universities.push(
     deadlines: [
       { name: 'Rolling admission for the Bachelor International Business', kind: 'rolling', entryTerm: 'Autumn', entryYear: '2027', date: 'Rolling — applications accepted up to a year in advance', status: 'confirmed', binding: false, appliesTo: 'Bachelor applicants', conditions: 'Places are limited and MBS recommends applying early; after the documents are checked the applicant is invited to an interview, with feedback within three days', source: 'https://www.munich-business-school.de/en/programs/bachelor-international-business-administration/admission-fees.html', verified: '2026-09-23', note: null }
     ],
-    applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null, note: 'MBS charges an application fee; the amount was not read during this check. An enrolment fee of €690 (EU/EFTA) or €1,490 (international) applies on admission.' },
+    applicationFee: { amount: 60, currency: 'EUR', waiverAvailableToInternational: null, waiver: null, note: 'Application fee for the Bachelor International Business Administration. The enrolment fee is a separate charge.', source: 'https://www.munich-business-school.de/en/programs/bachelor-international-business-administration/admission-fees.html', verified: '2026-10-06', status: 'confirmed' },
     documents: ['High school diploma (Abitur, IB Diploma, A-levels or equivalent) with transcripts', 'Proof of English at B2 level', 'Interview'],
     recommendations: null,
     essay: null,
@@ -1332,7 +1332,7 @@ window.UNIPATH.universities.push(
       { name: 'Admission Round 3', kind: 'round-3', entryTerm: 'September', entryYear: '2027', dateISO: '2027-05-15', date: '15 May 2027', binding: false, appliesTo: 'Applicants to the BSc in International Business Administration (September 2027 start)', conditions: 'Written test and online assessment 29–30 May 2027; final interviews 19–20 June 2027. Application fee from 1 April to 15 May 2027: €150. English test results and proof of internships are due by 15 May 2027 for every round.', status: 'confirmed', source: 'https://www.whu.edu/en/programs/bachelor-program/bachelor-in-international-business-administration/application-admissions/', verified: '2026-09-30', note: null },
       { name: 'Application period opens', kind: 'opens', entryTerm: 'September', entryYear: '2027', dateISO: '2026-10-15', date: '15 October 2026', binding: false, appliesTo: 'Applicants to the BSc in International Business Administration (September 2027 start)', conditions: 'Applications are accepted from 15 October 2026 to 15 May 2027. Studies begin on 1 September 2027.', status: 'confirmed', source: 'https://www.whu.edu/en/programs/bachelor-program/bachelor-in-international-business-administration/application-admissions/', verified: '2026-09-30', note: null }
     ],
-    applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    applicationFee: { amount: 150, currency: 'EUR', waiverAvailableToInternational: null, waiver: null, note: 'The fee depends on the date of application for September 2027 entry: 75 euros with the voucher code from 1 February to 31 March 2027, 150 euros from 1 April to 15 May 2027; no fee is listed for applications before 1 February.', source: 'https://www.whu.edu/en/programs/bachelor-program/bachelor-in-international-business-administration/application-admissions/', verified: '2026-10-06', status: 'confirmed' },
     documents: ['University entrance qualification such as the IB or A-levels', 'Proof of advanced English', 'Six-week internship completed before or during the programme'],
     recommendations: null,
     essay: null,

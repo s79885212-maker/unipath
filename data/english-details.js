@@ -180,5 +180,77 @@ window.UNIPATH.englishDetails = {
   "university-of-bath": {
     ielts: { variants: "IELTS Academic and IELTS Online, including One Skill Retake (Category A and Category C undergraduate courses)." },
     toefl: { variants: "TOEFL iBT and iBT Home Edition (Category A and Category C undergraduate courses)." },
-    detailsSource: "https://www.bath.ac.uk/corporate-information/english-language-requirements-for-qualifications-category-a/", detailsVerified: '2026-10-06' }
+    detailsSource: "https://www.bath.ac.uk/corporate-information/english-language-requirements-for-qualifications-category-a/", detailsVerified: '2026-10-06' },
+  "university-of-pennsylvania": {
+    ielts: { variants: "IELTS Indicator and IELTS One Skill Retake not accepted." },
+    toefl: { variants: "MyBest scores not accepted; the most recent TOEFL result is used." },
+    detailsSource: "https://admissions.upenn.edu/how-to-apply/international-applicants", detailsVerified: '2026-10-06' },
+  "vanderbilt-university": {
+    toefl: { variants: "TOEFL iBT, including Home and Paper Editions, and TOEFL Essentials accepted." },
+    detailsSource: "https://admissions.vanderbilt.edu/apply/first-year-process/", detailsVerified: '2026-10-06' },
+  "oberlin-college": {
+    toefl: { variants: "TOEFL iBT, including Home Edition." },
+    detailsSource: "https://www.oberlin.edu/admissions-and-aid/arts-and-sciences/first-year-applicants", detailsVerified: '2026-10-06' },
+  "institute-of-science-tokyo": {
+    ielts: { variants: "IELTS Academic, paper or computer-delivered." },
+    toefl: { variants: "TOEFL iBT, including Home Edition." },
+    detailsSource: "https://admissions.isct.ac.jp/en/013/undergraduate/programs/gsep", detailsVerified: '2026-10-06' },
+  "ritsumeikan-university": {
+    toefl: { variants: "TOEFL iBT Home Edition and TOEFL Essentials not accepted; scores from a single test date only, not MyBest." },
+    detailsSource: "https://en.ritsumei.ac.jp/e-ug/apply/howto.html/", detailsVerified: '2026-10-06' },
+  "nagoya-university-of-commerce-and-business": {
+    toefl: { variants: "TOEFL iBT and TOEFL iBT Home Edition." },
+    detailsSource: "https://www.nucba.ac.jp/en/admission/schedule/", detailsVerified: '2026-10-06' },
+  "imperial-college-london": {
+    toefl: { variants: "TOEFL iBT and iBT Paper are listed among the accepted tests." },
+    detailsSource: "https://www.imperial.ac.uk/study/apply/english-language/", detailsVerified: '2026-10-06' },
+  "kings-college-london": {
+    ielts: { variants: "IELTS One Skill scores not accepted." },
+    toefl: { variants: "TOEFL iBT or TOEFL iBT Home Edition; MyBest scores not accepted." },
+    detailsSource: "https://www.kcl.ac.uk/study/undergraduate/how-to-apply/english-language-requirements", detailsVerified: '2026-10-06' },
+  "university-of-edinburgh": {
+    ielts: { variants: "IELTS One Skill Retake, IELTS General and IELTS for UKVI General not accepted." },
+    toefl: { variants: "TOEFL iBT, including Home Edition and Paper Edition; the requirement must be met in a single test." },
+    detailsSource: "https://study.ed.ac.uk/undergraduate/entry-requirements/english-language", detailsVerified: '2026-10-06' },
+  "university-of-manchester": {
+    ielts: { variants: "IELTS Academic and IELTS UKVI accepted." },
+    toefl: { variants: "TOEFL iBT Home not accepted." },
+    detailsSource: "https://www.manchester.ac.uk/study/international/admissions/language-requirements/", detailsVerified: '2026-10-06' },
+  "lse": {
+    toefl: { variants: "TOEFL iBT, including Home and Paper Editions.", sections: "At least 27 in Writing, 25 in Reading, 24 in Listening and 24 in Speaking, in one exam sitting (0–120 scale)." },
+    detailsSource: "https://www.lse.ac.uk/study-at-lse/Undergraduate/Prospective-Students/How-to-Apply/English-language-requirements", detailsVerified: '2026-10-06' },
+  "university-of-bristol": {
+    ielts: { variants: "IELTS Academic at a test centre or online; results including One Skill Retake are acceptable (requirement profile B)." },
+    detailsSource: "https://www.bristol.ac.uk/study/language-requirements/profile-b/", detailsVerified: '2026-10-06' },
+  "university-of-st-andrews": {
+    conditional: "If the English requirement is not met when you apply, it becomes part of any conditional offer.",
+    detailsSource: "https://www.st-andrews.ac.uk/subjects/entry/language-requirements/undergraduate/", detailsVerified: '2026-10-06' },
+  "university-of-sheffield": {
+    ielts: { variants: "IELTS Academic, IELTS for UKVI Academic, IELTS Online and One Skill Retake accepted." },
+    toefl: { variants: "TOEFL iBT, Home Edition or Paper Edition." },
+    detailsSource: "https://sheffield.ac.uk/undergraduate/apply/english-language", detailsVerified: '2026-10-06' },
+  "university-of-leeds": {
+    ielts: { variants: "IELTS Academic and IELTS for UKVI (Academic) accepted; the requirement must be met in a single test, or a single test and One Skill Retake." },
+    detailsSource: "https://www.leeds.ac.uk/international-applying/doc/entry-requirements", detailsVerified: '2026-10-06' },
+  "lancaster-university": {
+    ielts: { variants: "IELTS Academic, including One Skill Retake, and IELTS Online are listed." },
+    toefl: { variants: "TOEFL iBT, including Home Edition." },
+    detailsSource: "https://www.lancaster.ac.uk/study/entry-requirements/undergraduate-english-requirements/", detailsVerified: '2026-10-06' },
+  "university-of-southampton": {
+    ielts: { variants: "IELTS Academic, including One Skill Retake." },
+    detailsSource: "https://www.southampton.ac.uk/international/english-language-requirements", detailsVerified: '2026-10-06' },
+  "university-of-aberdeen": {
+    ielts: { variants: "IELTS Indicator, IELTS General Training and IELTS Online not accepted; One Skill Retake accepted." },
+    toefl: { variants: "TOEFL iBT and TOEFL Home Edition." },
+    detailsSource: "https://www.abdn.ac.uk/study/international/undergraduate-degrees-english-requirements-268.php", detailsVerified: '2026-10-06' },
+  "university-of-liverpool": {
+    toefl: { variants: "TOEFL Home Edition not accepted." },
+    detailsSource: "https://www.liverpool.ac.uk/international/applying/entry-requirements/english-language-requirements/international-english-language-tests/", detailsVerified: '2026-10-06' },
+  "queens-university-belfast": {
+    ielts: { variants: "IELTS Academic at a test centre or online, One Skill Retake and IELTS Indicator are listed." },
+    toefl: { variants: "TOEFL iBT or iBT Special Home Edition." },
+    detailsSource: "https://www.qub.ac.uk/Study/international-students/applying/english-language-requirements/", detailsVerified: '2026-10-06' },
+  "whu-otto-beisheim": {
+    toefl: { variants: "TOEFL iBT Special Home Edition accepted; the official score is used, not MyBest scores." },
+    detailsSource: "https://www.whu.edu/en/programs/bachelor-program/bachelor-in-international-business-administration/application-admissions/", detailsVerified: '2026-10-06' }
 };
