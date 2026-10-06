@@ -428,7 +428,11 @@
         row('How competitive', or(fr.competitiveness)) +
         row('Application and deadline', or(fr.howToApply)) +
         row('Test requirement for this award', has(fr.testRequirement) ? esc(fr.testRequirement)
-          : '<span class="unknown">Not checked — an award can ask for a test even where admission does not</span>') +
+          : (/^need-based$/i.test(String(fr.basis || '')) && fr.available === true
+            ? '<span>Need-based: the award is assessed on family finances once you are admitted, so the test rules are the admission ones above.</span>'
+            : '<span class="unknown">Not checked — an award can ask for a test even where admission does not</span>')) +
+        (has(fr.detailsSource) ? row('Award conditions', '<a href="' + esc(fr.detailsSource) + '" target="_blank" rel="noopener">Official page ↗</a>' +
+          (has(fr.detailsVerified) ? ' · <span class="small muted">Checked ' + esc(fr.detailsVerified) + '</span>' : '')) : '') +
       '</dl>' +
       (fr.available === true ? '<p class="small muted" style="margin-top:10px">This is the largest award the university lists. It is competitive unless stated otherwise, and it is never subtracted from the costs shown on this site.</p>' : '') +
       (has(fr.note) ? '<div class="notice notice-warn" style="margin-top:14px"><span class="ico">⚠️</span><div>' + esc(fr.note) + '</div></div>' : '') +
@@ -456,7 +460,8 @@
           row('Deadline', or(m.deadline)) +
           row('Automatic or separate application', or(m.application)) +
           row('Renewable', yesNo(m.renewable)) +
-          (has(m.testRequirement) ? row('Test requirement', esc(m.testRequirement)) : '') +
+          (has(m.testRequirement) ? row('Test requirement', esc(m.testRequirement))
+            : (/\b(SAT|ACT)\b/.test(String(m.eligibility || '')) ? row('Test requirement', '<span>A test score is part of the eligibility stated above.</span>') : '')) +
           (has(m.note) ? row('Note', esc(m.note)) : '') +
         '</dl></div></article>';
     }).join('') : '<p class="muted">No merit scholarships are listed for this university on the pages consulted.</p>';
@@ -680,7 +685,7 @@
       '</section>';
 
     document.getElementById('main').innerHTML = hero + nav +
-      '<div class="wrap">' + overview + admissions + english + academics + scholarships + costs_ + programs + photos + apply + sources + report + '</div>';
+      '<div class="wrap">' + [overview, admissions, english, academics, scholarships, costs_, programs, photos, apply, sources, report].map(collapseUnknown).join('') + '</div>';
 
     var copyBtn = document.querySelector('[data-copy-report]');
     if (copyBtn) copyBtn.addEventListener('click', function () {
@@ -716,6 +721,23 @@
   }
 
   function row(dt, dd) { return '<div><dt>' + dt + '</dt><dd>' + dd + '</dd></div>'; }
+  /* Three or more rows of one list that only say "Not checked" are folded
+     into a single line that names them; the rows with information stay. */
+  function collapseUnknown(html) {
+    var empty = '<dd>' + UNKNOWN + '</dd></div>';
+    return String(html).replace(/(<dl class="deflist"[^>]*>)([\s\S]*?)(<\/dl>)/g, function (all, open, body, close) {
+      var labels = [];
+      var kept = body.replace(/<div><dt>((?:(?!<\/dt>)[\s\S])*)<\/dt>((?:(?!<\/div>)[\s\S])*<\/div>)/g, function (rowHtml, dt, rest) {
+        if (rest !== empty) return rowHtml;
+        labels.push(dt); return '\u0000';
+      });
+      if (labels.length < 3) return all;
+      return open + kept.replace(/\u0000/g, '') + close +
+        '<details class="ref-block unknown-group"><summary><span>Not checked</span> — <span>fields in this list</span>: ' + labels.length + '</summary>' +
+        '<p class="small">' + labels.map(function (l) { return '<span>' + l + '</span>'; }).join(' · ') + '</p>' +
+        '<p class="small muted">These fields have not been checked against an official page yet. That is not the same as the university not publishing them.</p></details>';
+    });
+  }
   function link(href) {
     return has(href) ? '<a href="' + esc(href) + '" target="_blank" rel="noopener">' + esc(href) + ' ↗</a>' : UNKNOWN;
   }

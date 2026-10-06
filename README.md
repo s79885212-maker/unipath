@@ -168,6 +168,7 @@ data/admission-profiles.js  Admission statistics + target bands (updated yearly)
 data/degrees.js             Bachelor's degrees by area (CDS section J) + notes on field tags
 data/test-policy.js         Which admission cycle each SAT/ACT policy was stated for
 data/english-details.js     Accepted test versions, section minimums, conditional admission
+data/award-details.js       Test and renewal conditions of the largest award
 
 build-artifact.py       Builds dist/ (the website to upload) and build/unipath.html
 tools/prerender.py      Static university/country pages + sitemap (run by the build)

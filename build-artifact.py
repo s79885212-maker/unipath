@@ -33,6 +33,7 @@ JS_FILES = [
     "data/degrees.js",
     "data/test-policy.js",
     "data/english-details.js",
+    "data/award-details.js",
     "data/match.js",
     "data/i18n/ru.js",
     "assets/js/i18n.js",

@@ -47,6 +47,7 @@ DATA_FILES = [
     "data/degrees.js",
     "data/test-policy.js",
     "data/english-details.js",
+    "data/award-details.js",
 ]
 
 DISCLAIMER = ("Information on this website is provided for research purposes. University requirements, "

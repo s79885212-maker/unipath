@@ -41,7 +41,8 @@ window.UNIPATH = window.UNIPATH || {
    - data/photos.js: the first photo is the main one, thumb.jpg sits beside it;
    - data/degrees.js: field tags are checked against degrees conferred;
    - data/test-policy.js: the cycle a SAT/ACT policy was stated for;
-   - data/english-details.js: test versions, section minimums, conditional admission.
+   - data/english-details.js: test versions, section minimums, conditional admission;
+   - data/award-details.js: test and renewal conditions of the largest award.
    Called once by the site (assets/js/app.js) and by the build step that
    writes static university pages (build-artifact.py). Safe to call twice. */
 window.UNIPATH.applyLayers = function () {
@@ -71,6 +72,9 @@ window.UNIPATH.applyLayers = function () {
     /* Explicit status for an English test that has no published figure. */
     var ts = (window.UNIPATH.testStatus || {})[u.id];
     if (ts && u.english) for (var tk in ts) if (ts.hasOwnProperty(tk) && u.english[tk]) u.english[tk].status = ts[tk];
+    /* Conditions of the largest award (data/award-details.js). */
+    var ad = (DB.awardDetails || {})[u.id];
+    if (ad && u.scholarships && u.scholarships.fullRide) for (var ak in ad) if (ad.hasOwnProperty(ak)) u.scholarships.fullRide[ak] = ad[ak];
     /* Test versions, section minimums and conditional admission
        (data/english-details.js). */
     var ed = (DB.englishDetails || {})[u.id];

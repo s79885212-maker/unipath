@@ -193,6 +193,9 @@ var edt = DB.englishDetails || {};
 ok(Object.keys(edt).every(function (id) { var u = U.uniById(id); return u && /^https?:/.test(edt[id].detailsSource) && edt[id].detailsVerified && u.english.detailsSource === edt[id].detailsSource; }), 'English-test details belong to a record and carry their source and check date');
 console.log('   English-test versions or conditions recorded for ' + Object.keys(edt).length + ' records');
 
+var adt = DB.awardDetails || {};
+ok(Object.keys(adt).every(function (id) { var u = U.uniById(id); return u && U.fullRide(u).available === true && /^https?:/.test(adt[id].detailsSource) && adt[id].detailsVerified; }), 'award conditions belong to a listed award and carry their source and check date');
+
 /* ---------------- fields of study ---------------- */
 group('fields of study');
 var withDegrees = DB.universities.filter(function (u) { return u.degreesByArea; });

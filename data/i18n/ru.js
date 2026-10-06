@@ -10419,4 +10419,18 @@ window.UNIPATH_I18N.ru = {
   "TOEFL iBT Home Edition and TOEFL ITP not accepted.": "TOEFL iBT Home Edition и TOEFL ITP не принимаются.",
   "TOEFL iBT, including Home Edition.": "TOEFL iBT, включая Home Edition.",
   "Financial aid application — Early Action": "Заявка на финансовую помощь — Early Action",
+  /* v75: award conditions */
+  "Need-based: the award is assessed on family finances once you are admitted, so the test rules are the admission ones above.": "Помощь по нуждаемости: она рассчитывается по финансам семьи после зачисления, поэтому правила о тестах — те же, что для поступления (см. выше).",
+  "Award conditions": "Условия стипендии",
+  "A test score is part of the eligibility stated above.": "Результат теста входит в условия, указанные выше.",
+  "Official ACT or SAT scores are needed: Alabama awards its automatic merit scholarships on standardized test scores and GPA.": "Нужны официальные результаты ACT или SAT: Alabama присуждает автоматические стипендии за заслуги по результатам стандартизированных тестов и GPA.",
+  "Value of tuition for up to four years or eight semesters.": "Стоимость обучения на срок до четырёх лет, или восьми семестров.",
+  "Not required, but Tulane says submitting scores is preferred and may strengthen scholarship consideration.": "Не обязательны, но Tulane пишет, что подать результаты предпочтительно и это может усилить заявку на стипендию.",
+  "Tulane says most of its scholarships are renewable for four years; each award sets its own criteria.": "Tulane сообщает, что большинство его стипендий продлеваются на четыре года; критерии у каждой стипендии свои.",
+  "Not required: W&L reviews test scores if supplied, together with the supplemental Johnson Scholarship application and an additional personal statement.": "Не обязательны: W&L рассматривает результаты тестов, если они поданы, вместе с дополнительной заявкой на Johnson Scholarship и ещё одним личным эссе.",
+  "Centre states that all merit, premier and special-interest scholarships renew annually.": "Centre указывает, что все стипендии за заслуги, премьер-стипендии и стипендии по интересам продлеваются ежегодно.",
+  "Renewal requires passing a review of academic performance and earning the required number of credits each semester.": "Для продления нужно проходить проверку успеваемости и набирать требуемое число кредитов каждый семестр.",
+  "Valid for up to four years for first-year entrants while the student keeps to the academic requirements and conduct the university sets.": "Действует до четырёх лет для поступивших на первый курс, пока студент соблюдает академические требования и правила поведения, установленные университетом.",
+  "fields in this list": "полей в этом списке",
+  "These fields have not been checked against an official page yet. That is not the same as the university not publishing them.": "Эти поля пока не сверены с официальной страницей. Это не то же самое, что «университет их не публикует».",
 };
