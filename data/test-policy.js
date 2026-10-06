@@ -2,7 +2,8 @@
    Each entry was read on the institution's own testing page (`source`) on the
    day in `verified`. `cycle` is the cycle or entry term the page names;
    `exception` is a group the page treats differently; `next` is a change the
-   page announces for a later cycle. An institution without an entry here has
+   page announces for a later cycle; `scholarships` is what the page says about
+   test scores and merit awards. An institution without an entry here has
    a policy on its profile but no recorded cycle: the page was not re-read or
    does not name one. Merged into academics.sat by UNIPATH.applyLayers. */
 window.UNIPATH.testPolicyCycle = {
@@ -66,5 +67,57 @@ window.UNIPATH.testPolicyCycle = {
     source: 'https://www.cmu.edu/admission/admission/standardized-testing', verified: '2026-10-06' },
   'florida-state-university': { cycle: 'Students applying for Fall 2027',
     exception: 'The ACT, CLT or SAT is accepted; test scores must be received by 1 March 2027.',
-    source: 'https://ir.fsu.edu/commondataset.aspx', verified: '2026-10-06' }
+    source: 'https://ir.fsu.edu/commondataset.aspx', verified: '2026-10-06' },
+  "northwestern-university": { cycleNote: "The official testing page states this policy without naming an admission cycle.",
+    source: "https://admissions.northwestern.edu/faqs/standardized-testing-policy/index.html", verified: '2026-10-06' },
+  "washington-university-in-st-louis": { cycleNote: "The official testing page states this policy without naming an admission cycle.",
+    source: "https://admissions.washu.edu/contact-us/high-school-counselors/", verified: '2026-10-06' },
+  "swarthmore-college": { cycleNote: "The official testing page states this policy without naming an admission cycle.",
+    source: "https://www.swarthmore.edu/admissions-aid/standardized-testing-policy", verified: '2026-10-06' },
+  "middlebury-college": { cycleNote: "The official testing page states this policy without naming an admission cycle.",
+    source: "https://www.middlebury.edu/college/admissions/apply/standardized-tests", verified: '2026-10-06' },
+  "university-of-southern-california": { cycleNote: "The official testing page states this policy without naming an admission cycle.",
+    source: "https://admission.usc.edu/test-optional-faq/", verified: '2026-10-06' },
+  "boston-college": { cycleNote: "The official testing page states this policy without naming an admission cycle.",
+    source: "https://www.bc.edu/content/bc-web/admission/apply/test-optional.html", verified: '2026-10-06' },
+  "smith-college": { cycleNote: "The official testing page states this policy without naming an admission cycle.",
+    source: "https://www.smith.edu/admission-aid/apply-smith/standardized-testing-policy", verified: '2026-10-06' },
+  "mount-holyoke-college": { cycleNote: "The official testing page states this policy without naming an admission cycle.",
+    source: "https://www.mtholyoke.edu/admission/apply-undergraduate-first-year/standardized-testing-policies", verified: '2026-10-06' },
+  "bates-college": { cycleNote: "The official testing page states this policy without naming an admission cycle.",
+    source: "https://www.bates.edu/admission/apply/optional-testing/", verified: '2026-10-06' },
+  "macalester-college": { cycleNote: "The official testing page states this policy without naming an admission cycle.",
+    source: "https://www.macalester.edu/admissions/us-admissions/faq/testing-policy/", verified: '2026-10-06' },
+  "kenyon-college": { cycleNote: "The official testing page states this policy without naming an admission cycle.",
+    source: "https://www.kenyon.edu/admissions-aid/apply-to-kenyon/standardized-testing-policy/", verified: '2026-10-06' },
+  "denison-university": { cycleNote: "The official testing page states this policy without naming an admission cycle.",
+    source: "https://denison.edu/forms/test-optional-policy", verified: '2026-10-06' },
+  "dickinson-college": { cycleNote: "The official testing page states this policy without naming an admission cycle.",
+    source: "https://www.dickinson.edu/homepage/1716/standardized_testing", verified: '2026-10-06' },
+  "rhodes-college": { cycleNote: "The official testing page states this policy without naming an admission cycle.",
+    source: "https://www.rhodes.edu/admission-aid/apply-rhodes/test-optional-faqs", verified: '2026-10-06' },
+  "drexel-university": { cycleNote: "The official testing page states this policy without naming an admission cycle.",
+    source: "https://drexel.edu/admissions/apply/undergrad-instructions/first-year-instructions/standardized-tests", verified: '2026-10-06' },
+  "colorado-college": { cycleNote: "The official testing page states this policy without naming an admission cycle.",
+    source: "https://www.coloradocollege.edu/admission/apply/admission-test-optional.html", verified: '2026-10-06' },
+  "michigan-state-university": { cycleNote: "The official testing page states this policy without naming an admission cycle.",
+    source: "https://admissions.msu.edu/apply/first-year/act-sat-test-optional", verified: '2026-10-06' },
+  "berea-college": { cycleNote: "The official testing page states this policy without naming an admission cycle.",
+    source: "https://www.berea.edu/admissions/admission-information/test-optional-admissions", verified: '2026-10-06' },
+  "davidson-college": { cycleNote: "The official testing page states this policy without naming an admission cycle.",
+    source: "https://www.davidson.edu/admission-and-financial-aid/admission-process-help/testing-policy", verified: '2026-10-06' },
+  "yale-university": { cycle: "From the admissions cycle that follows Yale’s announcement of 27 May 2026, first-year and transfer applicants", exception: "AP and IB results no longer fulfil the testing requirement, as they did under the earlier test-flexible policy.",
+    source: "https://news.yale.edu/2026/05/27/undergraduate-admissions-updates-testing-policy", verified: '2026-10-06' },
+  "texas-christian-university": { cycle: "Students graduating from high school through 2028",
+    source: "https://admissions.tcu.edu/apply/first-year/testing-policy-sat-act.php", verified: '2026-10-06' },
+  "union-college": { cycleNote: "The official testing page states this policy without naming an admission cycle.", exception: "SAT or ACT scores are required from applicants to two combined-degree programmes: Leadership in Medicine and 3+3 Accelerated Law.",
+    source: "https://www.union.edu/admissions/apply/test-policy", verified: '2026-10-06' },
+  "knox-college": { cycleNote: "The official testing page states this policy without naming an admission cycle.", exception: "The page says scores are optional for most applicants and names home-schooled students among the exceptions.",
+    source: "https://www.knox.edu/admission/apply-to-knox/test-scores", verified: '2026-10-06' },
+  "whitman-college": { cycleNote: "The official testing page states this policy without naming an admission cycle.", exception: "Home-schooled applicants and applicants from schools that give written evaluations instead of grades are strongly encouraged to submit ACT or SAT results.",
+    source: "https://www.whitman.edu/admission-and-aid/applying-to-whitman/testing-policy", verified: '2026-10-06' },
+  "college-of-wooster": { cycleNote: "The official testing page states this policy without naming an admission cycle.", scholarships: "Wooster states that SAT/ACT scores are not used in consideration for merit-based scholarships.",
+    source: "https://wooster.edu/admissions/apply/test-optional-policy/", verified: '2026-10-06' },
+  "tulane-university": { cycleNote: "The official testing page states this policy without naming an admission cycle.", scholarships: "Tulane calls ACT/SAT scores and other exam results a preferred credential for students seeking academic merit scholarships.",
+    source: "https://admission.tulane.edu/apply/instructions/standardized-tests", verified: '2026-10-06' }
 };

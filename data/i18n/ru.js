@@ -10462,4 +10462,18 @@ window.UNIPATH_I18N.ru = {
   "The ACT, CLT or SAT is accepted; test scores must be received by 1 March 2027.": "Принимаются ACT, CLT или SAT; результаты тестов должны поступить до 1 марта 2027 года.",
   "2025–26 Common Data Set, section C13 (Fall 2027 admission cycle)": "Common Data Set 2025–26, раздел C13 (приёмный цикл на осень 2027)",
   "FSU publishes its Common Data Set section by section on this page: choose 2025-26 and section C, then View.": "FSU публикует Common Data Set по разделам на этой странице: выберите 2025-26 и раздел C, затем View.",
+  /* v78 */
+  "Scholarships:": "Стипендии:",
+  "From the admissions cycle that follows Yale’s announcement of 27 May 2026, first-year and transfer applicants": "С приёмного цикла, следующего за объявлением Yale от 27 мая 2026 года; первокурсники и переводящиеся",
+  "AP and IB results no longer fulfil the testing requirement, as they did under the earlier test-flexible policy.": "Результаты AP и IB больше не закрывают требование о тестах, как это было при прежней политике test-flexible.",
+  "Students graduating from high school through 2028": "Выпускники школ по 2028 год включительно",
+  "SAT or ACT scores are required from applicants to two combined-degree programmes: Leadership in Medicine and 3+3 Accelerated Law.": "Результаты SAT или ACT обязательны для поступающих на две совмещённые программы: Leadership in Medicine и 3+3 Accelerated Law.",
+  "The page says scores are optional for most applicants and names home-schooled students among the exceptions.": "На странице сказано, что результаты не обязательны для большинства абитуриентов, а среди исключений названы обучавшиеся на дому.",
+  "Home-schooled applicants and applicants from schools that give written evaluations instead of grades are strongly encouraged to submit ACT or SAT results.": "Обучавшимся на дому и выпускникам школ, где вместо оценок дают письменные характеристики, настоятельно рекомендуют подать результаты ACT или SAT.",
+  "Wooster states that SAT/ACT scores are not used in consideration for merit-based scholarships.": "Wooster сообщает, что результаты SAT/ACT не учитываются при назначении стипендий за заслуги.",
+  "Tulane calls ACT/SAT scores and other exam results a preferred credential for students seeking academic merit scholarships.": "Tulane называет результаты ACT/SAT и других экзаменов предпочтительным документом для претендующих на академические стипендии за заслуги.",
+  "Stated in section C13 of the 2025–26 Common Data Set for the Fall 2027 admission cycle.": "Указано в разделе C13 Common Data Set 2025–26 для приёмного цикла на осень 2027.",
+  "One-time application fee listed for the Institute for the Liberal Arts programme. The registration fee is a separate charge.": "Разовый сбор за заявку, указанный для программы Institute for the Liberal Arts. Регистрационный взнос — отдельный платёж.",
+  "Processing fee per application for applicants from non-EU states, charged from winter semester 2026/27. Applicants with German citizenship or a German university entrance qualification do not pay it.": "Сбор за обработку каждой заявки для абитуриентов из стран вне ЕС, взимается с зимнего семестра 2026/27. Абитуриенты с гражданством Германии или немецким аттестатом для поступления в вуз его не платят.",
+  "Constructor University states that it does not charge an application fee. A deposit is paid on enrolment, which is a separate charge.": "Constructor University сообщает, что не взимает сбор за заявку. При зачислении вносится депозит — это отдельный платёж.",
 };

@@ -157,7 +157,7 @@ window.UNIPATH.universities.push(
     deadlines: [
       { name: 'Winter semester 2026/27 application (last published cycle)', kind: 'application-window', entryTerm: 'Winter', entryYear: '2026', dateISO: '2026-07-15', date: '15 April – 15 July 2026 (previous cycle)', binding: false, appliesTo: 'International bachelor applicants, programmes without admission restrictions', conditions: 'Published window for winter semester 2026/27; admission-restricted programmes opened on 4 May 2026, and Artificial Intelligence (B.Sc.) closed on 31 May 2026. FAU names 15 July as the winter-semester deadline at Bavarian universities, but the 2027/28 dates were not yet listed. Tuition for new non-EU students starts from summer semester 2027.', status: 'previous-cycle', source: 'https://www.fau.eu/studying/international-students/application-and-enrollment-for-international-applicants/prospective-international-students-applying-for-undergraduate-programs/', verified: '2026-10-01', note: null }
     ],
-    applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null },
+    applicationFee: { amount: 100, currency: 'EUR', waiverAvailableToInternational: null, waiver: null, note: 'Processing fee per application for applicants from non-EU states, charged from winter semester 2026/27. Applicants with German citizenship or a German university entrance qualification do not pay it.', source: 'https://www.fau.eu/studying/international-students/application-and-enrollment-for-international-applicants/fees-for-applications-from-non-eu-states/', verified: '2026-10-06', status: 'confirmed' },
     documents: [
       'School-leaving certificate recognised as a German university entrance qualification',
       'Proof of English for English-taught degrees'
@@ -625,7 +625,7 @@ window.UNIPATH.universities.push(
       { name: 'Rolling admission — final deadline', kind: 'rolling', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-07-15', date: '15 July 2027', binding: false, appliesTo: 'Applicants with and without visa requirements', conditions: 'Constructor admits on a rolling basis: decisions normally follow within two to four weeks of a complete application.', status: 'confirmed', source: 'https://constructor.university/admission-aid/application-information-undergraduate', verified: '2026-09-24', note: null },
       { name: 'Transfer applicants', kind: 'intake', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-06-01', date: '1 June 2027', binding: false, appliesTo: 'Transfer students', conditions: 'Separate deadline for transfer applicants.', status: 'confirmed', source: 'https://constructor.university/admission-aid/application-information-undergraduate', verified: '2026-09-24', note: null },
     ],
-    applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null },
+    applicationFee: { amount: 0, currency: 'EUR', waiverAvailableToInternational: null, waiver: null, note: 'Constructor University states that it does not charge an application fee. A deposit is paid on enrolment, which is a separate charge.', source: 'https://constructor.university/programs/undergraduate-education/faq-undergraduate-study', verified: '2026-10-06', status: 'confirmed' },
     documents: [
       'Proof of identity',
       'Transcripts / report cards',

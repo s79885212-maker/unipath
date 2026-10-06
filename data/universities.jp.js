@@ -1730,7 +1730,7 @@ window.UNIPATH.universities.push(
       { name: 'Institute for the Liberal Arts — April 2027 entry', kind: 'application-window', entryTerm: 'April', entryYear: '2027', dateISO: '2026-09-01', date: '3 August – 1 September 2026', binding: false, appliesTo: 'Applicants to the Institute for the Liberal Arts (ILA)', conditions: 'Results announced on 4 November 2026.', status: 'confirmed', source: 'https://ila.doshisha.ac.jp/en/admissions/application.html', verified: '2026-09-30', note: null },
       { name: 'Institute for the Liberal Arts — September 2027 entry', kind: 'application-window', entryTerm: 'September', entryYear: '2027', dateISO: '2027-02-09', date: '12 January – 9 February 2027', binding: false, appliesTo: 'Applicants to the Institute for the Liberal Arts (ILA)', conditions: 'Results announced on 21 April 2027.', status: 'confirmed', source: 'https://ila.doshisha.ac.jp/en/admissions/application.html', verified: '2026-09-30', note: null }
     ],
-    applicationFee: { amount: null, currency: 'JPY', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    applicationFee: { amount: 15000, currency: 'JPY', waiverAvailableToInternational: null, waiver: null, note: 'One-time application fee listed for the Institute for the Liberal Arts programme. The registration fee is a separate charge.', source: 'https://apply.ila.doshisha.ac.jp/courses/course/11', verified: '2026-10-06', status: 'confirmed' },
     documents: ['School transcripts and graduation certificate', 'English proficiency evidence', 'Documents listed in the ILA application guide'],
     recommendations: null,
     essay: null,

@@ -310,7 +310,10 @@ window.UNIPATH.degreesByArea = {
     areas: { agri: 2.5, natres: 2, arch: 1, area: 0.1, comm: 4.4, cis: 1.4, educ: 4.4, engr: 14.8, engtech: 0.1, lang: 0.9, famcs: 2.3, english: 1.1, libarts: 0.1, bio: 8.6, math: 2, interd: 0.8, parks: 1.7, philo: 0.2, physci: 1.6, psych: 5.5, pubadmin: 2.4, socsci: 7.4, trans: 0.7, visarts: 2.2, health: 10.9, business: 19.9, history: 1 } },
   "florida-state-university": { period: "2024–2025", unit: "percent", checked: '2026-10-06',
     source: { label: "Florida State University Common Data Set 2025–26, section J", url: "https://ir.fsu.edu/commondataset.aspx" },
-    areas: { natres: 1.5, area: 0.1, comm: 3.4, cis: 4.6, educ: 1.7, engr: 4.1, lang: 0.4, famcs: 2.6, english: 2.6, libarts: 0.7, bio: 9.2, math: 1, interd: 0.1, parks: 2, philo: 0.3, physci: 0.9, psych: 7.5, homeland: 5.8, pubadmin: 0.9, socsci: 12.9, visarts: 3.7, health: 8.4, business: 25, history: 0.6 } }
+    areas: { natres: 1.5, area: 0.1, comm: 3.4, cis: 4.6, educ: 1.7, engr: 4.1, lang: 0.4, famcs: 2.6, english: 2.6, libarts: 0.7, bio: 9.2, math: 1, interd: 0.1, parks: 2, philo: 0.3, physci: 0.9, psych: 7.5, homeland: 5.8, pubadmin: 0.9, socsci: 12.9, visarts: 3.7, health: 8.4, business: 25, history: 0.6 } },
+  "university-of-richmond": { period: "2024–2025", unit: "percent", checked: '2026-10-06',
+    source: { label: "University of Richmond Common Data Set 2025–26, section J", url: "https://ifx.richmond.edu/pdfs/CDS2025-2026SectionJ.pdf" },
+    areas: { natres: 1.01, area: 2.68, comm: 1.38, cis: 3.97, educ: 0.55, lang: 2.58, law: 0.18, english: 4.43, libarts: 0.74, bio: 8.3, math: 2.4, interd: 9.13, philo: 0.46, physci: 1.75, psych: 4.98, socsci: 10.33, visarts: 3.41, health: 4.98, business: 34.59, history: 2.12 } }
 };
 /* Field tags the degrees table does not back, checked against the institution's
    own programme list. kind: major (a major exists — the tag stays), minor,
