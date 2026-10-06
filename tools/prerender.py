@@ -44,6 +44,7 @@ DATA_FILES = [
     "data/universities.de.js",
     "data/photos.js",
     "data/admission-profiles.js",
+    "data/degrees.js",
 ]
 
 DISCLAIMER = ("Information on this website is provided for research purposes. University requirements, "
@@ -404,6 +405,15 @@ def university_page(u, country, fields):
             programs += "<p><strong>Available fully in English:</strong> not checked \u2014 see the official programme list.</p>"
         if has(u.get("programNote")):
             programs += f"<p>{e(u['programNote'])}</p>"
+        deg = u.get("degreesByArea")
+        if deg:
+            programs += ("<p>Field areas are checked against bachelor\u2019s degrees conferred in "
+                         + e(deg["period"]) + " \u2014 <a href=\"" + e(deg["source"]["url"]) + "\" rel=\"noopener\">"
+                         + e(deg["source"]["label"]) + "</a>, checked " + e(deg["checked"]) + ".</p>")
+        dropped = [labels.get(p, p) for p in (u.get("fieldsDropped") or [])]
+        if dropped:
+            programs += ("<p>Not used as a field area here, because no bachelor\u2019s degrees are reported in it: "
+                         + e(", ".join(dropped)) + ".</p>")
 
     links = u.get("links") or {}
     apply_links = [(k, v) for k, v in (("Official website", links.get("website")), ("Admissions", links.get("admissions")),

@@ -165,6 +165,7 @@ data/match.js           Yearly cost per university + ECB rates for Find my match
 data/photos.js          Campus photos + attribution
 data/i18n/ru.js         Russian dictionary
 data/admission-profiles.js  Admission statistics + target bands (updated yearly)
+data/degrees.js             Bachelor's degrees by area (CDS section J) + notes on field tags
 
 build-artifact.py       Builds dist/ (the website to upload) and build/unipath.html
 tools/prerender.py      Static university/country pages + sitemap (run by the build)

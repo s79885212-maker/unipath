@@ -522,12 +522,52 @@
       '</div></div></section>';
 
     /* Programs */
+    var deg = u.degreesByArea || null;
+    function fieldCheckHtml(tag) {
+      var c = U.fieldCheck(u, tag);
+      if (c.status === 'degrees') {
+        return '<p class="field-check field-ok"><span>✓ Degrees conferred</span>: ' + c.areas.map(function (a) {
+          return '<span>' + esc(a.label) + '</span> <strong>' + esc(U.degreeValue(deg, a.value)) + '</strong>';
+        }).join('; ') + '</p>';
+      }
+      if (c.status === 'major') return '<p class="field-check"><span>Major listed by the institution; no degrees in the table for this period</span></p>';
+      if (c.status === 'not-reported') return '<p class="field-check"><span>Not reported as a separate area in the Common Data Set</span></p>';
+      return '<p class="field-check"><span>Not checked against degrees conferred</span></p>';
+    }
     var progs = (u.programs || []).map(function (p) {
       var f = U.field(p);
       return '<a class="prog-group" href="#/universities?field=' + encodeURIComponent(f.id) + '">' +
         '<h4>' + f.icon + ' ' + esc(f.label) + '</h4>' +
+        fieldCheckHtml(p) +
         '<p>See other institutions listed under ' + esc(f.label) + ' →</p></a>';
     }).join('');
+    /* Notes from the institution's own programme list, and tags taken off
+       because nothing backs them. */
+    var noteRows = [];
+    Object.keys(u.fieldNotes || {}).forEach(function (tag) {
+      var n = u.fieldNotes[tag];
+      noteRows.push('<li><strong>' + esc(U.field(tag).label) + '</strong> — <span>' + esc(U.FIELD_NOTE_KIND[n.kind] || n.kind) + '</span>. <span>' + esc(n.note) + '</span>' +
+        (has(n.url) ? ' <a href="' + esc(n.url) + '" target="_blank" rel="noopener">Official page ↗</a>' : '') +
+        (has(n.checked) ? ' · <span class="small muted">Checked ' + esc(n.checked) + '</span>' : '') + '</li>');
+    });
+    (u.fieldsDropped || []).forEach(function (tag) {
+      if ((u.fieldNotes || {})[tag]) return;
+      noteRows.push('<li><strong>' + esc(U.field(tag).label) + '</strong> — <span>No bachelor’s degrees are reported in this area for the period read, and no major has been confirmed on the official site. It may be a minor, a track, a dual-degree route or a new programme, so it is not used as a field tag here.</span></li>');
+    });
+    var fieldNotesBlock = noteRows.length
+      ? '<div class="notice notice-info" style="margin-top:14px"><div><strong>Fields that need a closer look</strong><ul class="plain-list">' + noteRows.join('') + '</ul></div></div>' : '';
+    var degreesBlock = '';
+    if (deg) {
+      var keys = Object.keys(deg.areas).sort(function (a, b) { return deg.areas[b] - deg.areas[a]; });
+      degreesBlock = '<details class="ref-block"><summary><span>Bachelor’s degrees by area</span>, ' + esc(deg.period) + ' (' + keys.length + ')</summary>' +
+        '<table class="cost-table degrees-table"><thead><tr><th>Area in the Common Data Set</th><th>' +
+        (deg.unit === 'count' ? 'Degrees' : 'Share of bachelor’s degrees') + '</th></tr></thead><tbody>' +
+        keys.map(function (k) { return '<tr><td>' + esc((U.DB.degreeAreas || {})[k] || k) + '</td><td>' + esc(U.degreeValue(deg, deg.areas[k])) + '</td></tr>'; }).join('') +
+        '</tbody></table>' +
+        '<p class="small muted"><span>Counted by majors, as the institution reported them: a student with two majors is counted twice. An area is a group of majors, not one named major.</span> ' +
+        '<span>Degrees conferred from 1 July to 30 June of the years shown.</span><br>' +
+        '<a href="' + esc(deg.source.url) + '" target="_blank" rel="noopener">' + esc(deg.source.label) + ' ↗</a> · <span>Checked ' + esc(deg.checked) + '</span></p></details>';
+    }
     var enProgs = U.englishPrograms(u);
     var englishBlock = '<h3 style="margin-top:22px">Available fully in English</h3>' +
       (enProgs.length
@@ -542,6 +582,7 @@
       '<h3 style="margin-top:6px">Fields of study</h3>' +
       '<p class="small muted">' + esc(programsBasisText(u)) + '</p>' +
       (progs ? '<div class="prog-groups">' + progs + '</div>' : '<p>' + UNKNOWN + '</p>') +
+      fieldNotesBlock + degreesBlock +
       englishBlock +
       '</section>';
 
@@ -552,6 +593,7 @@
         'majors': 'These areas each contain at least one named major or degree programme in the official catalogue.',
         'concentrations': 'The institution awards one degree and these areas are concentrations within it, not separate degrees.',
         'transfer': 'These are areas of associate-degree and transfer study, not bachelor’s majors.',
+        'degrees': 'Each area is checked against the bachelor’s degrees the institution reported as conferred. An area is a group of majors, not one named major — check the exact degree programme in the official catalogue.',
         'areas': 'These are broad subject areas, used here for search and filters. They are not a list of named majors — check the exact degree programme in the official catalogue.'
       };
       return B[u.programsBasis] || B.areas;

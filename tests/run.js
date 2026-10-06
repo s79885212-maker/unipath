@@ -168,6 +168,48 @@ ok(!badStats.length, 'SAT statistics are 25/50/75 triples with a cohort, a year 
 ok(U.satPolicy({}) === 'unknown' && !U.satNotRequired({}), 'an unknown policy is never read as test-optional');
 ok(U.satPolicy({ academics: { sat: { policy: 'not-applicable' } } }) === 'not-applicable' && !U.satNotRequired({ academics: { sat: { policy: 'not-applicable' } } }), '"not part of this route" is not test-optional');
 
+/* A round whose name says "spring 2027" must be filed under the spring 2027
+   intake, so that someone looking at autumn entry is not shown it. */
+var wrongIntake = [], confirmedUndated = [];
+DB.universities.forEach(function (u) {
+  U.roundsOf(u).forEach(function (d) {
+    var m = /\b(spring|summer|winter)\b[ -]+(20\d\d)\b/i.exec(d.name || '');
+    if (m && !/\band\b|\bor\b|\//i.test(d.name) && (String(d.entryTerm).toLowerCase() !== m[1].toLowerCase() || String(d.entryYear) !== m[2])) wrongIntake.push(u.id + ': ' + d.name + ' → ' + d.entryTerm + ' ' + d.entryYear);
+    if (d.status === 'confirmed' && (!d.source || !d.verified)) confirmedUndated.push(u.id + ': ' + d.name);
+  });
+});
+ok(wrongIntake.length === 0, 'a round named for a season is filed under that intake', wrongIntake.slice(0, 5).join('; '));
+ok(confirmedUndated.length === 0, 'a confirmed round carries its source and check date', confirmedUndated.slice(0, 5).join('; '));
+var counts = { confirmed: 0, 'not-confirmed': 0, 'previous-cycle': 0 };
+DB.universities.forEach(function (u) { U.roundsOf(u).forEach(function (d) { counts[d.status]++; }); });
+console.log('   deadline entries: ' + JSON.stringify(counts));
+
+/* ---------------- fields of study ---------------- */
+group('fields of study');
+var withDegrees = DB.universities.filter(function (u) { return u.degreesByArea; });
+console.log('   degrees table read for ' + withDegrees.length + ' institutions');
+ok(withDegrees.length === Object.keys(DB.degreesByArea).length, 'every degrees table belongs to a record', withDegrees.length + ' / ' + Object.keys(DB.degreesByArea).length);
+ok(withDegrees.every(function (u) { return u.degreesByArea.source && /^https?:/.test(u.degreesByArea.source.url) && /^\d{4}-\d{2}-\d{2}$/.test(u.degreesByArea.checked) && /^\d{4}–\d{4}$/.test(u.degreesByArea.period); }), 'a degrees table carries its source, period and check date');
+ok(withDegrees.every(function (u) {
+  if (u.degreesByArea.unit !== 'percent') return true;
+  var t = 0; Object.keys(u.degreesByArea.areas).forEach(function (k) { t += u.degreesByArea.areas[k]; });
+  return t >= 97.9 && t <= 102.1;
+}), 'percentages in a degrees table add up to 100 within rounding');
+ok(withDegrees.every(function (u) { return Object.keys(u.degreesByArea.areas).every(function (k) { return DB.degreeAreas[k]; }); }), 'every area in a table is a named Common Data Set category');
+ok(withDegrees.every(function (u) {
+  return u.programs.every(function (t) { var c = U.fieldCheck(u, t); return c.status === 'degrees' || c.status === 'major' || c.status === 'not-reported'; });
+}), 'with a table read, every remaining tag is backed by degrees or by a listed major');
+ok(Object.keys(DB.fieldNotes).every(function (id) { return Object.keys(DB.fieldNotes[id]).every(function (t) { var n = DB.fieldNotes[id][t]; return U.FIELD_NOTE_KIND[n.kind] && /^https?:/.test(n.url) && n.checked; }); }), 'a note on a field names its kind, official page and check date');
+var kenyon = U.uniById('kenyon-college'), dickinson = U.uniById('dickinson-college'), bc = U.uniById('boston-college');
+ok(kenyon.programs.indexOf('computer-science') < 0 && kenyon.fieldsDropped.indexOf('computer-science') > -1, 'a concentration is not a field tag (Kenyon computing)');
+ok(dickinson.programs.indexOf('engineering') < 0, 'a tag with no degrees and no confirmed major is taken off (Dickinson engineering)');
+ok(bc.programs.indexOf('engineering') > -1 && U.fieldCheck(bc, 'engineering').status === 'major', 'a new major with no degrees yet keeps its tag and says so (Boston College engineering)');
+ok(U.fieldCheck(U.uniById('harvard-university'), 'economics').status === 'not-reported', 'economics is shown as not reported separately');
+ok(U.fieldCheck(U.uniById('mit'), 'engineering').status === 'not-checked', 'no table read means not checked, not confirmed');
+var usAll = DB.universities.filter(function (u) { return u.country === 'us'; });
+var sig = {}; usAll.forEach(function (u) { var k = u.programs.slice().sort().join(','); sig[k] = (sig[k] || 0) + 1; });
+console.log('   distinct tag sets among US records: ' + Object.keys(sig).length);
+
 /* ---------------- community colleges ---------------- */
 group('community colleges');
 var cc = DB.universities.filter(U.isCommunityCollege);

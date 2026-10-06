@@ -1023,8 +1023,10 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application', 'QuestBridge Application'],
     deadlines: [
-      { name: 'Early Decision', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-02', date: '2 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Duke is test-optional for this cycle; the last test dates for ED applicants are 7 November (SAT) and 17 October (ACT). Decisions are released around mid-December.', status: 'not-confirmed', source: 'https://admissions.duke.edu/checklist/', verified: '2026-09-23', note: 'Duke’s checklist page could not be read during this check, so the application date is carried over from the previous verification.' },
-      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional for this cycle; last test dates 5 December (SAT) and 12 December (ACT). Decisions before 1 April.', status: 'not-confirmed', source: 'https://admissions.duke.edu/checklist/', verified: '2026-09-23', note: 'Application date carried over from the previous verification.' },
+      { name: 'Early Decision', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-02', date: '2 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Duke is test-optional for this cycle; the last test dates for ED applicants are 7 November (SAT) and 17 October (ACT). Decisions are released around mid-December.', status: 'confirmed', source: 'https://admissions.duke.edu/checklist/', verified: '2026-10-06', note: 'Duke’s checklist states that its dates are the 2026–2027 admission cycle deadlines.' },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional for this cycle; last test dates 5 December (SAT) and 12 December (ACT). Decisions before 1 April.', status: 'confirmed', source: 'https://admissions.duke.edu/checklist/', verified: '2026-10-06', note: 'Duke’s checklist states that its dates are the 2026–2027 admission cycle deadlines.' },
+      { name: 'Financial aid application — Early Decision', kind: 'aid', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-02', date: '2 November 2026', binding: false, appliesTo: 'Early Decision applicants asking for aid', conditions: 'The checklist lists the CSS Profile and FAFSA with the Early Decision application; additional financial aid documents are due by 15 November.', status: 'confirmed', source: 'https://admissions.duke.edu/checklist/', verified: '2026-10-06', note: null },
+      { name: 'Financial aid application — Regular Decision', kind: 'aid', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-02-01', date: '1 February 2027', binding: false, appliesTo: 'Regular Decision applicants asking for aid', conditions: 'The checklist lists the CSS Profile and FAFSA for this date.', status: 'confirmed', source: 'https://admissions.duke.edu/checklist/', verified: '2026-10-06', note: null },
     ],
     applicationFee: { amount: 85, currency: 'USD', waiverAvailableToInternational: null, waiver: 'A fee waiver request can be sent with the Common Application in place of the $85 fee' },
     documents: ['Common Application with the Duke supplement', 'School transcript and School Report', 'Teacher recommendations'],
@@ -4320,9 +4322,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decision in late December.', status: 'confirmed', source: 'https://www.brynmawr.edu/admissions/first-year-admission-plans', verified: '2026-09-23', note: null },
-      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decision in mid-February.', status: 'not-confirmed', source: 'https://www.brynmawr.edu/admissions/first-year-admission-plans', verified: '2026-09-23', note: 'The exact ED II date was not restated on the pages read for this cycle.' },
-      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Decision in mid-March.', status: 'not-confirmed', source: 'https://www.brynmawr.edu/admissions/first-year-admission-plans', verified: '2026-09-23', note: 'The exact Regular Decision date was not restated on the pages read for this cycle.' },
+      { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decision in late December.', status: 'confirmed', source: 'https://www.brynmawr.edu/admissions-aid/apply', verified: '2026-10-06', note: null },
+      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decision in mid-February.', status: 'confirmed', source: 'https://www.brynmawr.edu/admissions-aid/apply', verified: '2026-10-06', note: 'Bryn Mawr’s Apply page lists the date for the current cycle without the year. The older admission-plans page returned “access denied” on 6 October 2026.' },
+      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Decision in mid-March.', status: 'confirmed', source: 'https://www.brynmawr.edu/admissions-aid/apply', verified: '2026-10-06', note: 'Bryn Mawr’s Apply page lists the date for the current cycle without the year. The older admission-plans page returned “access denied” on 6 October 2026.' },
     ],
     applicationFee: { amount: 0, currency: 'USD', waiverAvailableToInternational: null, waiver: null, note: 'The 2025–26 Common Data Set (section C13) says there is no application fee.', source: 'https://www.brynmawr.edu/sites/default/files/media/documents/2026-04/CDS%202025-26%20Bryn%20Mawr%20Read%20Only.pdf', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application with the Bryn Mawr Writing Supplement', 'Official transcripts and national exam results (IB, A-Level, etc.)', 'Counsellor recommendation and two teacher recommendations', 'Evidence of English proficiency', 'Mid-year grade report', 'Declaration of Finances form', 'CSS Profile for aid applicants'],
@@ -17760,7 +17762,7 @@ window.UNIPATH.universities.push(
         "conditions": "SMC lists 15 July for applicants outside the United States and 1 August for students already holding an F-1 visa. Processing takes 4–6 weeks before the visa stage.",
         "status": "previous-cycle",
         "source": "https://www.smc.edu/admission-aid/apply/international-students/index.php",
-        "verified": "2026-10-01",
+        "verified": "2026-10-06",
         "note": "The deadline for the Fall 2027 semester (30 August – 21 December 2027) was not yet published."
       }
     ],
@@ -18077,7 +18079,7 @@ window.UNIPATH.universities.push(
         "conditions": "Sinclair lists 21 June 2026 for the Fall 2026 semester.",
         "status": "previous-cycle",
         "source": "https://www.sinclair.edu/services/enrollment/international-student-services/potential-students/applying-from-abroad/",
-        "verified": "2026-10-01",
+        "verified": "2026-10-06",
         "note": "The deadline for Fall 2027 was not yet published."
       }
     ],

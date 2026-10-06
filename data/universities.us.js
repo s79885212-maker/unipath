@@ -982,13 +982,11 @@ window.UNIPATH.universities.push(
           date: "1 February 2027",
           binding: false,
           appliesTo: "First-year applicants",
-          conditions:
-            "Not binding; decisions can run into early April. Michigan is test-optional for this cycle.",
-          status: "not-confirmed",
-          source:
-            "https://admissions.umich.edu/apply/first-year-applicants/requirements-deadlines",
-          verified: "2026-09-23",
-          note: "The Regular Decision date was not restated on the pages read for this cycle.",
+          conditions: "Not binding; decisions can run into early April. Michigan is test-optional for this cycle.",
+          status: "confirmed",
+          source: "https://admissions.umich.edu/apply/first-year-applicants/requirements-deadlines",
+          verified: "2026-10-06",
+          note: "Michigan’s requirements page lists “Feb 1 — Fall Term Application Deadline” and names 1 February for Regular Decision applicants. The page gives the day without the year; it is the page for the current application cycle.",
         },
       ],
       applicationFee: {
@@ -1433,7 +1431,7 @@ window.UNIPATH.universities.push(
         {
           name: "Priority deadline — spring 2027 entry",
           kind: "priority",
-          entryTerm: "Autumn",
+          entryTerm: "Spring",
           entryYear: "2027",
           dateISO: "2026-11-02",
           date: "2 November 2026",
@@ -1442,7 +1440,7 @@ window.UNIPATH.universities.push(
           conditions: "Separate, earlier intake.",
           status: "confirmed",
           source: "https://admissions.ua.edu/apply/",
-          verified: "2026-09-23",
+          verified: "2026-10-06",
           note: null,
         },
         {
@@ -1452,15 +1450,12 @@ window.UNIPATH.universities.push(
           entryYear: "2027",
           date: "February 2027",
           binding: false,
-          appliesTo:
-            "Admitted first-year students entering in summer or autumn",
-          conditions:
-            "Alabama states that automatic merit scholarship information is released in early February.",
+          appliesTo: "Admitted first-year students entering in summer or autumn",
+          conditions: "Alabama states that automatic merit scholarship information is released in early February.",
           status: "not-confirmed",
-          source:
-            "https://afford.ua.edu/scholarships/oos-international-freshman/",
-          verified: "2026-09-23",
-          note: null,
+          source: "https://afford.ua.edu/scholarships/oos-international-freshman/",
+          verified: "2026-10-06",
+          note: "The scholarship page read on 6 October 2026 does not state when automatic awards are announced.",
         },
       ],
       applicationFee: {
@@ -1939,14 +1934,13 @@ window.UNIPATH.universities.push(
           kind: "decision",
           entryTerm: "Autumn",
           entryYear: "2027",
-          date: "March 2027",
+          date: "1–31 March 2027",
           binding: false,
           appliesTo: "Freshman applicants",
-          conditions: "UC campuses release freshman decisions in March.",
-          status: "not-confirmed",
-          source:
-            "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-freshman/",
-          verified: "2026-09-23",
+          conditions: "UC’s 2026–27 dates page gives 1–31 March for notification of fall 2027 decisions and adds that some campuses may release decisions before March.",
+          status: "confirmed",
+          source: "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/dates-and-deadlines.html",
+          verified: "2026-10-06",
           note: null,
         },
         {
@@ -1959,10 +1953,9 @@ window.UNIPATH.universities.push(
           binding: false,
           appliesTo: "Admitted students",
           conditions: "Deadline to accept an offer.",
-          status: "not-confirmed",
-          source:
-            "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-freshman/",
-          verified: "2026-09-23",
+          status: "confirmed",
+          source: "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/dates-and-deadlines.html",
+          verified: "2026-10-06",
           note: null,
         },
       ],

@@ -258,6 +258,9 @@
         '<h3>The full-ride rule</h3>' +
         '<p data-i18n-html>A scholarship is described as a <strong>full ride</strong> only when the official source states that tuition, housing and meals are covered. An award that pays tuition and a monthly stipend is labelled <strong>full tuition + living stipend</strong>, a tuition-only award <strong>full tuition only</strong>, and a promise to <strong>meet full demonstrated need</strong> is shown separately, because it depends on a family’s finances. Most awards advertised as “100% scholarships” cover 100% of <em>tuition</em> — not housing, food, insurance or flights. Every scholarship on this site shows a coverage breakdown with three states: covered (✓), not covered (✕), and not confirmed (?).</p>' +
 
+        '<h3>How fields of study are checked</h3>' +
+        '<p>A field tag is a broad subject area, not a named major. For US institutions the tags are checked against the bachelor’s degrees each institution reports as conferred, by area, in section J of its Common Data Set. A tag stays when degrees were conferred in that area or when the institution’s own programme list shows a major; a tag that nothing backs is taken off and the profile says why; an area with at least 1% of bachelor’s degrees is added. Economics is not reported as a separate area there, so it cannot be checked this way. Where the table could not be read, the profile says the tags are not checked.</p>' +
+
         '<h3>Photographs</h3>' +
         '<p>Campus photographs come from Wikimedia Commons under free licences, and every photo is credited to its author on the university profile.</p>' +
 

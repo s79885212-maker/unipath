@@ -303,6 +303,29 @@
     if (one) return [one.charAt(0).toUpperCase() + one.slice(1)];
     return [];
   }
+  /* How a field tag on a record is backed. The Common Data Set reports
+     bachelor's degrees by discipline area (data/degrees.js); a tag is
+       degrees      — at least one of its areas has degrees conferred
+       major        — no degrees in the table, but an official page lists a major
+       not-reported — the table has no area for this field (economics is
+                      counted inside "Social sciences")
+       not-checked  — no degrees table has been read for this institution */
+  function fieldCheck(u, tag) {
+    var deg = u.degreesByArea, FA = DB.fieldAreas || {}, names = DB.degreeAreas || {};
+    var note = (u.fieldNotes || {})[tag] || null;
+    if (!deg) return { status: 'not-checked', areas: [], note: note };
+    if (!FA[tag]) return { status: 'not-reported', areas: [], note: note };
+    var areas = FA[tag].filter(function (k) { return deg.areas[k] > 0; })
+      .map(function (k) { return { key: k, label: names[k] || k, value: deg.areas[k] }; });
+    return { status: areas.length ? 'degrees' : (note && note.kind === 'major' ? 'major' : 'none'), areas: areas, note: note };
+  }
+  function degreeValue(deg, v) { return deg.unit === 'count' ? String(v) : (Math.round(v * 100) / 100) + '%'; }
+  var FIELD_NOTE_KIND = {
+    'minor': 'Minor only',
+    'concentration': 'Concentration, not a major',
+    'pathway': 'Dual-degree route finished at another institution',
+    'major': 'Major listed by the institution'
+  };
   /* englishTaught = at least one English-taught bachelor's route exists.
      englishTaughtPrograms = the fields available fully in English (or on an
      official English track). The label spells out which of the two applies. */
@@ -1253,7 +1276,7 @@
 
   /* ---------------- public API ---------------- */
 
-  global.UP = {
+  global.UP = { fieldCheck: fieldCheck, degreeValue: degreeValue, FIELD_NOTE_KIND: FIELD_NOTE_KIND,
     DB: DB, esc: esc, has: has, or: or, orRaw: orRaw, qs: qs, money: money, el: el, UNKNOWN: UNKNOWN,
     STATUS: STATUS, statusLabel: statusLabel, statusHtml: statusHtml, feeStatus: feeStatus, costStatus: costStatus, cardTuition: cardTuition,
     DISCLAIMER: DISCLAIMER,

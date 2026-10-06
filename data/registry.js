@@ -38,7 +38,8 @@ window.UNIPATH = window.UNIPATH || {
 /* Merge the layers loaded after the base records:
    - data/admission-profiles.js: listed sub-fields replace the base ones,
      sources are appended, `stats` is attached;
-   - data/photos.js: the first photo is the main one, thumb.jpg sits beside it.
+   - data/photos.js: the first photo is the main one, thumb.jpg sits beside it;
+   - data/degrees.js: field tags are checked against degrees conferred.
    Called once by the site (assets/js/app.js) and by the build step that
    writes static university pages (build-artifact.py). Safe to call twice. */
 window.UNIPATH.applyLayers = function () {
@@ -68,6 +69,39 @@ window.UNIPATH.applyLayers = function () {
     /* Explicit status for an English test that has no published figure. */
     var ts = (window.UNIPATH.testStatus || {})[u.id];
     if (ts && u.english) for (var tk in ts) if (ts.hasOwnProperty(tk) && u.english[tk]) u.english[tk].status = ts[tk];
+    /* Field tags checked against bachelor's degrees conferred (data/degrees.js):
+       a tag stays when one of its categories has degrees or an official page
+       lists a major; a tag with neither is taken off and kept in fieldsDropped
+       with the reason shown on the profile; a field with at least 1% of
+       bachelor's degrees is added. Tags without a category of their own
+       (economics) are left as they are. */
+    var deg = (DB.degreesByArea || {})[u.id];
+    if (deg) {
+      var FA = DB.fieldAreas || {}, notes = (DB.fieldNotes || {})[u.id] || {};
+      var total = 0, a;
+      for (a in deg.areas) if (deg.areas.hasOwnProperty(a)) total += deg.areas[a];
+      var share = function (tag) {
+        var best = 0;
+        (FA[tag] || []).forEach(function (k) {
+          var v = deg.areas[k] || 0;
+          if (deg.unit === 'count') v = total ? v / total * 100 : 0;
+          if (v > best) best = v;
+        });
+        return best;
+      };
+      var before = (u.programs || []).slice(), kept = [], dropped = [], added = [];
+      before.forEach(function (tag) {
+        if (!FA[tag] || share(tag) > 0 || (notes[tag] && notes[tag].kind === 'major')) kept.push(tag);
+        else dropped.push(tag);
+      });
+      for (var tag in FA) if (FA.hasOwnProperty(tag) && before.indexOf(tag) < 0 && share(tag) >= 1) { kept.push(tag); added.push(tag); }
+      var sameAsAll = Array.isArray(u.englishTaughtPrograms) && u.englishTaughtPrograms.length === before.length;
+      u.programs = kept;
+      if (sameAsAll) u.englishTaughtPrograms = kept.slice();
+      else if (Array.isArray(u.englishTaughtPrograms)) u.englishTaughtPrograms = u.englishTaughtPrograms.filter(function (t) { return dropped.indexOf(t) < 0; });
+      u.degreesByArea = deg; u.fieldNotes = notes; u.fieldsDropped = dropped; u.fieldsAdded = added;
+      if (!u.programsBasis) u.programsBasis = 'degrees';
+    }
     var list = photos[u.id];
     if (list && list.length) {
       var gallery = list.map(function (g) {
