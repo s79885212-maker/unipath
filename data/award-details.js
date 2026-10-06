@@ -23,5 +23,8 @@ window.UNIPATH.awardDetails = {
     detailsSource: 'https://admissions.apu.ac.jp/costs_scholarships/before_enrollment/', detailsVerified: '2026-10-06' },
   'tokyo-international-university': {
     renewalConditions: 'Valid for up to four years for first-year entrants while the student keeps to the academic requirements and conduct the university sets.',
-    detailsSource: 'https://www.tiu.ac.jp/etrack/admissions/reductions/', detailsVerified: '2026-10-06' }
+    detailsSource: 'https://www.tiu.ac.jp/etrack/admissions/reductions/', detailsVerified: '2026-10-06' },
+  'st-olaf-college': {
+    renewalConditions: 'Not stated on the page read.',
+    detailsSource: 'https://wp.stolaf.edu/financialaid/international-student-information/', detailsVerified: '2026-10-06' }
 };

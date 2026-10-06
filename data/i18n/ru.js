@@ -10546,4 +10546,14 @@ window.UNIPATH_I18N.ru = {
   "Year not stated on the page": "Год на странице не указан",
   "Oberlin gives these as the ranges that the middle 50 percent of admitted international applicants typically have.": "Oberlin приводит это как диапазоны, в которые обычно попадают средние 50 процентов принятых иностранных абитуриентов.",
   "Stated for students applying for fall 2025 admission; the page has not been updated for a later cycle": "Указано для поступающих на осень 2025; для более позднего цикла страница не обновлена",
+  "Not stated on the page read.": "На прочитанной странице не указано.",
+  /* v83 */
+  "Winter semester — regular application period (bachelor’s programmes)": "Зимний семестр — регулярный период подачи (программы бакалавриата)",
+  "1 May – 15 July (regular period; the page gives no year)": "1 мая — 15 июля (регулярный период; год на странице не указан)",
+  "Hof lists this as the regular period for programmes starting in the winter semester, the same for applicants with EU and non-EU entrance qualifications. Communication Design and Textile Design close on 15 June. Current deadlines, including extensions, are shown in the PRIMUSS application portal.": "Hof указывает это как регулярный период для программ, начинающихся в зимнем семестре, одинаковый для абитуриентов с аттестатом из ЕС и не из ЕС. Communication Design и Textile Design закрываются 15 июня. Актуальные сроки, включая продления, показаны на портале подачи PRIMUSS.",
+  "The page states regular periods that repeat each year and does not print a year.": "На странице указаны регулярные периоды, повторяющиеся каждый год; год не напечатан.",
+  "Summer semester — Computer Science international (B.Sc.)": "Летний семестр — Computer Science international (B.Sc.)",
+  "5–30 November for non-EU applicants; 5 November – 15 January for EU applicants (regular period; the page gives no year)": "5–30 ноября для абитуриентов не из ЕС; 5 ноября — 15 января для абитуриентов из ЕС (регулярный период; год на странице не указан)",
+  "Applicants to Computer Science international (B.Sc.)": "Абитуриенты программы Computer Science international (B.Sc.)",
+  "This programme starts in the summer semester only; no application is possible for the winter semester.": "Эта программа начинается только в летнем семестре; на зимний семестр подать нельзя.",
 };

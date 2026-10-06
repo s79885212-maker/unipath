@@ -9510,9 +9510,9 @@ window.UNIPATH.universities.push(
   },
   "scholarships": {
     "fullRide": {
-      "available": null,
-      "internationalEligible": null,
-      "basis": null,
+      "available": true,
+      "internationalEligible": true,
+      "basis": "need-based and merit",
       "covers": {
         "tuition": true,
         "housing": false,
