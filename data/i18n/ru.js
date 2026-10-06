@@ -10491,4 +10491,10 @@ window.UNIPATH_I18N.ru = {
   "The Rossier School of Education lists undergraduate minors, such as Education and Society, and progressive degrees, but no bachelor’s major in education.": "Rossier School of Education указывает для бакалавров minors (например, Education and Society) и ускоренные магистерские программы, но не бакалаврский major по педагогике.",
   "Lehigh describes education as a minor that any undergraduate can declare.": "Lehigh описывает педагогику как minor, который может выбрать любой бакалавр.",
   "Emory’s page of undergraduate majors and minors lists no programme in education.": "На странице бакалаврских majors и minors Emory программы по педагогике нет.",
+  /* v80 */
+  "UC states that it does not consider SAT or ACT scores when awarding scholarships either.": "UC сообщает, что не учитывает результаты SAT и ACT и при назначении стипендий.",
+  "First-year students who would start in fall 2027": "Первокурсники, начинающие учёбу осенью 2027",
+  "Rice recommends that applicants submit SAT or ACT scores if available; applicants who do not submit them still receive full consideration.": "Rice рекомендует подавать результаты SAT или ACT, если они есть; заявки без них рассматриваются полноценно.",
+  "Beloit states that it is test-optional for consideration for merit scholarships as well.": "Beloit сообщает, что результаты тестов не обязательны и при рассмотрении на стипендии за заслуги.",
+  "2027 application cycle": "Цикл подачи 2027 года",
 };

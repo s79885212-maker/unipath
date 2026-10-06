@@ -217,7 +217,7 @@ ok(kenyon.programs.indexOf('computer-science') < 0 && kenyon.fieldsDropped.index
 ok(dickinson.programs.indexOf('engineering') < 0, 'a tag with no degrees and no confirmed major is taken off (Dickinson engineering)');
 ok(bc.programs.indexOf('engineering') > -1 && U.fieldCheck(bc, 'engineering').status === 'major', 'a new major with no degrees yet keeps its tag and says so (Boston College engineering)');
 ok(U.fieldCheck(U.uniById('harvard-university'), 'economics').status === 'not-reported', 'economics is shown as not reported separately');
-ok(U.fieldCheck(U.uniById('mit'), 'engineering').status === 'not-checked', 'no table read means not checked, not confirmed');
+ok(U.fieldCheck(U.uniById('brown-university'), 'engineering').status === 'not-checked', 'no table read means not checked, not confirmed');
 var usAll = DB.universities.filter(function (u) { return u.country === 'us'; });
 var sig = {}; usAll.forEach(function (u) { var k = u.programs.slice().sort().join(','); sig[k] = (sig[k] || 0) + 1; });
 console.log('   distinct tag sets among US records: ' + Object.keys(sig).length);
