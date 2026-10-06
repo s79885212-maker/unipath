@@ -244,8 +244,8 @@
           '<br><span class="small muted">A level the university advises. It is not a minimum and not a statistic about admitted students.</span>');
       }
       if (!v.length) v.push('<strong>' + esc(U.testStatusLabel(t)) + '</strong>');
-      if (has(t.sections)) v.push('<span class="small">Section minimums: <span>' + esc(t.sections) + '</span></span>');
-      if (has(t.variants)) v.push('<span class="small">Accepted versions: <span>' + esc(t.variants) + '</span></span>');
+      if (has(t.sections)) v.push('<span class="small"><strong>Sections:</strong> <span>' + esc(t.sections) + '</span></span>');
+      if (has(t.variants)) v.push('<span class="small"><strong>Test versions:</strong> <span>' + esc(t.variants) + '</span></span>');
       if (has(t.note)) v.push('<span class="small muted">' + esc(t.note) + '</span>');
       return row(label, v.length ? v.join('<br>') : UNKNOWN);
     }
@@ -279,6 +279,10 @@
         testRow('Duolingo English Test', eng.duolingo) +
         row('Waiver / exemption', or(eng.waiver)) +
         (has(eng.conditional) ? row('Conditional admission', esc(eng.conditional)) : '') +
+        (has(eng.detailsNote) ? row('Also stated', esc(eng.detailsNote)) : '') +
+        (has(eng.detailsSource) ? row('Test versions and conditions', '<a href="' + esc(eng.detailsSource) + '" target="_blank" rel="noopener">Official page ↗</a>' +
+          (has(eng.detailsVerified) ? ' · <span class="small muted">Checked ' + esc(eng.detailsVerified) + '</span>' : '') +
+          '<br><span class="small muted">Only what this page states is recorded. A version that is not mentioned here has not been checked.</span>') : '') +
         row('Notes', or(eng.note)) +
       '</dl>' + englishStats() +
       (U.satPolicy(u) === 'optional' ? '<p class="small muted" style="margin-top:10px">Test-optional for the SAT/ACT does not remove the English language requirement above.</p>' : '') +

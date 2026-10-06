@@ -32,6 +32,7 @@ JS_FILES = [
     "data/admission-profiles.js",
     "data/degrees.js",
     "data/test-policy.js",
+    "data/english-details.js",
     "data/match.js",
     "data/i18n/ru.js",
     "assets/js/i18n.js",

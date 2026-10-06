@@ -40,7 +40,8 @@ window.UNIPATH = window.UNIPATH || {
      sources are appended, `stats` is attached;
    - data/photos.js: the first photo is the main one, thumb.jpg sits beside it;
    - data/degrees.js: field tags are checked against degrees conferred;
-   - data/test-policy.js: the cycle a SAT/ACT policy was stated for.
+   - data/test-policy.js: the cycle a SAT/ACT policy was stated for;
+   - data/english-details.js: test versions, section minimums, conditional admission.
    Called once by the site (assets/js/app.js) and by the build step that
    writes static university pages (build-artifact.py). Safe to call twice. */
 window.UNIPATH.applyLayers = function () {
@@ -70,6 +71,18 @@ window.UNIPATH.applyLayers = function () {
     /* Explicit status for an English test that has no published figure. */
     var ts = (window.UNIPATH.testStatus || {})[u.id];
     if (ts && u.english) for (var tk in ts) if (ts.hasOwnProperty(tk) && u.english[tk]) u.english[tk].status = ts[tk];
+    /* Test versions, section minimums and conditional admission
+       (data/english-details.js). */
+    var ed = (DB.englishDetails || {})[u.id];
+    if (ed) {
+      u.english = u.english || {};
+      for (var ek in ed) if (ed.hasOwnProperty(ek)) {
+        if (ek === 'ielts' || ek === 'toefl' || ek === 'duolingo') {
+          u.english[ek] = u.english[ek] || {};
+          for (var ef in ed[ek]) if (ed[ek].hasOwnProperty(ef)) u.english[ek][ef] = ed[ek][ef];
+        } else u.english[ek] = ed[ek];
+      }
+    }
     /* The cycle a SAT/ACT policy was stated for (data/test-policy.js). */
     var tp = (DB.testPolicyCycle || {})[u.id];
     if (tp) {

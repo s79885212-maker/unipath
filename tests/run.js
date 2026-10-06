@@ -189,6 +189,10 @@ ok(Object.keys(tpc).every(function (id) { var u = U.uniById(id); return u && u.a
 ok(U.uniById('princeton-university').academics.sat.next && U.uniById('university-of-alabama').academics.sat.exception, 'announced changes and exceptions to a test policy are kept apart from the policy itself');
 console.log('   SAT/ACT policy with a recorded cycle: ' + Object.keys(tpc).length + ' of ' + DB.universities.filter(function (u) { return u.country === 'us'; }).length + ' US records');
 
+var edt = DB.englishDetails || {};
+ok(Object.keys(edt).every(function (id) { var u = U.uniById(id); return u && /^https?:/.test(edt[id].detailsSource) && edt[id].detailsVerified && u.english.detailsSource === edt[id].detailsSource; }), 'English-test details belong to a record and carry their source and check date');
+console.log('   English-test versions or conditions recorded for ' + Object.keys(edt).length + ' records');
+
 /* ---------------- fields of study ---------------- */
 group('fields of study');
 var withDegrees = DB.universities.filter(function (u) { return u.degreesByArea; });
