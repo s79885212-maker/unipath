@@ -147,5 +147,13 @@ window.UNIPATH.testPolicyCycle = {
   'pomona-college': { cycle: 'Permanent policy, announced on 15 November 2023',
     source: 'https://www.pomona.edu/news/2023/11/15-pomona-college-makes-test-optional-admissions-policy-permanent', verified: '2026-10-06' },
   'oberlin-college': { cycle: 'Stated for students applying for fall 2025 admission; the page has not been updated for a later cycle',
-    source: 'https://www.oberlin.edu/admissions-and-aid/arts-and-sciences/first-year-applicants', verified: '2026-10-06' }
+    source: 'https://www.oberlin.edu/admissions-and-aid/arts-and-sciences/first-year-applicants', verified: '2026-10-06' },
+  "williams-college": { cycleNote: "The official testing page states this policy without naming an admission cycle.",
+    source: "https://www.williams.edu/admission-aid/how-to-apply/first-year/", verified: '2026-10-06' },
+  "university-of-chicago": { cycleNote: "The official testing page states this policy without naming an admission cycle.", exception: "UChicago applies a “No Harm” policy: a submitted SAT or ACT score is used only if it helps the application.",
+    source: "https://collegeadmissions.uchicago.edu/apply/uchicago-admissions-faq/", verified: '2026-10-06' },
+  "haverford-college": { cycleNote: "The official testing page states this policy without naming an admission cycle.",
+    source: "https://www.haverford.edu/admission/applying/application-instructions", verified: '2026-10-06' },
+  "colby-college": { cycleNote: "The official testing page states this policy without naming an admission cycle.",
+    source: "https://afa.colby.edu/apply/requirements/", verified: '2026-10-06' }
 };

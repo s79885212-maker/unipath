@@ -196,6 +196,12 @@ console.log('   English-test versions or conditions recorded for ' + Object.keys
 var adt = DB.awardDetails || {};
 ok(Object.keys(adt).every(function (id) { var u = U.uniById(id); return u && U.fullRide(u).available === true && /^https?:/.test(adt[id].detailsSource) && adt[id].detailsVerified; }), 'award conditions belong to a listed award and carry their source and check date');
 
+var nd = DB.awardNotDescribed || [];
+ok(nd.every(function (id) { var u = U.uniById(id); return u && U.fullRide(u).status === 'not-published' && U.fullRide(u).note; }), 'an award marked “not described on the pages read” belongs to a record and keeps the note that explains it');
+var awardCounts = { listed: 0, none: 0, 'not-described': 0, 'not-checked': 0 };
+DB.universities.forEach(function (u) { var fr = U.fullRide(u); awardCounts[fr.available === true ? 'listed' : fr.available === false ? 'none' : fr.status === 'not-published' ? 'not-described' : 'not-checked']++; });
+console.log('   largest award: ' + JSON.stringify(awardCounts));
+
 /* ---------------- every profile renders ---------------- */
 group('profile rendering');
 (function () {

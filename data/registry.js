@@ -72,6 +72,8 @@ window.UNIPATH.applyLayers = function () {
     /* Explicit status for an English test that has no published figure. */
     var ts = (window.UNIPATH.testStatus || {})[u.id];
     if (ts && u.english) for (var tk in ts) if (ts.hasOwnProperty(tk) && u.english[tk]) u.english[tk].status = ts[tk];
+    /* Aid pages read with no full-level award described (data/award-details.js). */
+    if ((DB.awardNotDescribed || []).indexOf(u.id) > -1 && u.scholarships && u.scholarships.fullRide && u.scholarships.fullRide.available !== true && u.scholarships.fullRide.available !== false) u.scholarships.fullRide.status = 'not-published';
     /* Conditions of the largest award (data/award-details.js). */
     var ad = (DB.awardDetails || {})[u.id];
     if (ad && u.scholarships && u.scholarships.fullRide) for (var ak in ad) if (ad.hasOwnProperty(ak)) u.scholarships.fullRide[ak] = ad[ak];

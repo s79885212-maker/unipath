@@ -28,3 +28,18 @@ window.UNIPATH.awardDetails = {
     renewalConditions: 'Not stated on the page read.',
     detailsSource: 'https://wp.stolaf.edu/financialaid/international-student-information/', detailsVerified: '2026-10-06' }
 };
+/* Records where the official aid pages were read and no award covering full
+   tuition or more is described for international students. This is a result,
+   not a gap: it is shown as "not described on the pages read", while a record
+   whose pages were never read stays "not checked". The reason is in each
+   record's own scholarship note. */
+window.UNIPATH.awardNotDescribed = [
+  "new-york-university", "arizona-state-university", "emory-university", "georgetown-university",
+  "case-western-reserve-university", "lehigh-university", "union-college", "dickinson-college",
+  "gettysburg-college", "bucknell-university", "sewanee-university-of-the-south", "college-of-wooster",
+  "knox-college", "earlham-college", "drexel-university", "texas-christian-university",
+  "pepperdine-university", "trinity-university", "furman-university", "uc-san-diego",
+  "university-of-florida", "florida-state-university", "de-anza-college", "sinclair-community-college",
+  "sophia-university", "international-christian-university", "osaka-university", "korea-university",
+  "university-of-cambridge", "university-of-edinburgh", "university-of-strathclyde"
+];
