@@ -50,5 +50,18 @@ window.UNIPATH.testPolicyCycle = {
   'bucknell-university': { cycle: 'Test-optional pilot, extended through the 2027–28 application cycle',
     source: 'https://www.bucknell.edu/admissions-aid/apply-bucknell/undergraduate-admission-requirements', verified: '2026-10-06' },
   'dartmouth-college': { cycle: 'In effect since applicants to the Class of 2029',
-    source: 'https://admissions.dartmouth.edu/apply/testing-policy', verified: '2026-10-06' }
+    source: 'https://admissions.dartmouth.edu/apply/testing-policy', verified: '2026-10-06' },
+  'johns-hopkins-university': { cycle: 'Students applying for Fall 2026 and beyond',
+    source: 'https://apply.jhu.edu/hopkins-insider/how-we-approach-standardized-testing-at-hopkins/', verified: '2026-10-06' },
+  /* Pages that state the policy but do not say which cycle it is for. */
+  'harvard-university': { cycleNote: 'The official testing page states this policy without naming an admission cycle.',
+    source: 'https://college.harvard.edu/admissions/apply/application-requirements', verified: '2026-10-06' },
+  'cornell-university': { cycleNote: 'The official testing page states this policy without naming an admission cycle.',
+    source: 'https://admissions.cornell.edu/policies/standardized-testing-policy', verified: '2026-10-06' },
+  'stanford-university': { cycleNote: 'The official testing page states this policy without naming an admission cycle.',
+    source: 'https://admission.stanford.edu/apply/first-year/testing.html', verified: '2026-10-06' },
+  'georgetown-university': { cycleNote: 'The official testing page states this policy without naming an admission cycle.',
+    source: 'https://uadmissions.georgetown.edu/apply/first-year-applicants/', verified: '2026-10-06' },
+  'carnegie-mellon-university': { cycleNote: 'The official testing page states this policy without naming an admission cycle.',
+    source: 'https://www.cmu.edu/admission/admission/standardized-testing', verified: '2026-10-06' }
 };

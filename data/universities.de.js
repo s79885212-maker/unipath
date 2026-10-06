@@ -837,7 +837,7 @@ window.UNIPATH.universities.push(
       { name: 'Final application deadline', kind: 'round', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-05-01', date: '1 May 2027', binding: false, appliesTo: 'Citizens and residents of the EU/EEA, Australia, Brazil, Canada, El Salvador, Honduras, Israel, Japan, Monaco, New Zealand, San Marino, South Korea, the UK and the US', conditions: 'Application and financial aid application due; notification 1 June, deposit 10 June.', status: 'confirmed', source: 'https://berlin.bard.edu/admissions/how-to-apply/application-requirements/', verified: '2026-09-30', note: null },
       { name: 'Immediate Decision Plan — Berlin', kind: 'interview', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-02-06', date: '6 February 2027', binding: false, appliesTo: 'Applicants to the one-day Immediate Decision Plan in Berlin', conditions: 'Registration and application due 10 January 2027. US events (Los Angeles 7 November, New York 14 November 2026) require registration by 1 November.', status: 'confirmed', source: 'https://berlin.bard.edu/admissions/how-to-apply/application-requirements/', verified: '2026-09-30', note: null }
     ],
-    applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    applicationFee: { amount: 0, currency: 'EUR', waiverAvailableToInternational: null, waiver: null, note: 'Bard College Berlin states that it does not charge an application fee.', source: 'https://berlin.bard.edu/admissions/how-to-apply/application-requirements/', verified: '2026-10-06', status: 'confirmed' },
     documents: ['Secondary school diploma and transcripts', 'Proof of English at C1 level unless a native speaker', 'Application essay as set by the college'],
     recommendations: null,
     essay: 'Required as part of the BA application',
@@ -1728,7 +1728,7 @@ window.UNIPATH.universities.push(
     deadlines: [
       { name: 'Application for the winter 2027 intake', kind: 'intake', entryTerm: 'winter', entryYear: '2027', date: 'Not confirmed', status: 'not-confirmed', binding: false, appliesTo: 'Bachelor applicants', conditions: 'Application dates are published by the university; the dates for this intake were not read during this check.', source: 'https://www.hnu.de/en/studies/before-the-study/application/application-for-international-students', verified: '2026-09-23', note: null }
     ],
-    applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    applicationFee: { amount: 50, currency: 'EUR', waiverAvailableToInternational: null, waiver: null, note: 'Stated for applicants from non-EU countries.', source: 'https://www.hnu.de/en/studies/before-the-study/application/application-for-international-students', verified: '2026-10-06', status: 'confirmed' },
     documents: ['Recognised school-leaving certificate', 'Proof of English at B2 for English-instructed programmes', 'Proof of German at A1 by the end of the first semester for non-native German speakers'],
     recommendations: null,
     essay: null,

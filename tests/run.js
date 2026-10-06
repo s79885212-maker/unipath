@@ -187,7 +187,7 @@ console.log('   deadline entries: ' + JSON.stringify(counts));
 var tpc = DB.testPolicyCycle || {};
 ok(Object.keys(tpc).every(function (id) { var u = U.uniById(id); return u && u.academics.sat.cycle === tpc[id].cycle && /^https?:/.test(tpc[id].source) && tpc[id].verified; }), 'a recorded policy cycle belongs to a record and carries its source and check date');
 ok(U.uniById('princeton-university').academics.sat.next && U.uniById('university-of-alabama').academics.sat.exception, 'announced changes and exceptions to a test policy are kept apart from the policy itself');
-console.log('   SAT/ACT policy with a recorded cycle: ' + Object.keys(tpc).length + ' of ' + DB.universities.filter(function (u) { return u.country === 'us'; }).length + ' US records');
+console.log('   SAT/ACT policy page re-read: ' + Object.keys(tpc).length + ' (cycle named on ' + Object.keys(tpc).filter(function (k) { return tpc[k].cycle; }).length + ') of ' + DB.universities.filter(function (u) { return u.country === 'us'; }).length + ' US records');
 
 var edt = DB.englishDetails || {};
 ok(Object.keys(edt).every(function (id) { var u = U.uniById(id); return u && /^https?:/.test(edt[id].detailsSource) && edt[id].detailsVerified && u.english.detailsSource === edt[id].detailsSource; }), 'English-test details belong to a record and carry their source and check date');

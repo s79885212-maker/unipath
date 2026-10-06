@@ -164,5 +164,21 @@ window.UNIPATH.englishDetails = {
     detailsSource: "https://admissions.apu.ac.jp/admissions/application_eligibility/", detailsVerified: '2026-10-06' },
   "tohoku-university": {
     toefl: { variants: "TOEFL iBT, including Home Edition." },
-    detailsSource: "https://www.insc.tohoku.ac.jp/english/degree/undergraduate-english-future-global-leadership-program/", detailsVerified: '2026-10-06' }
+    detailsSource: "https://www.insc.tohoku.ac.jp/english/degree/undergraduate-english-future-global-leadership-program/", detailsVerified: '2026-10-06' },
+  "green-river-college": {
+    ielts: { variants: "IELTS One Skill Retake accepted." },
+    toefl: { variants: "MyBest scores and TOEFL ITP accepted; TOEFL Essentials not accepted." },
+    detailsSource: "https://www.greenriver.edu/international/admissions/english-requirements.html", detailsVerified: '2026-10-06' },
+  "queen-mary-university-of-london": {
+    ielts: { variants: "IELTS Academic, IELTS Online and IELTS Indicator are considered; One Skill Retake is accepted if the scores meet the requirement." },
+    toefl: { variants: "TOEFL iBT and TOEFL iBT Home Edition are considered; MyBest scores are not accepted." },
+    detailsSource: "https://www.qmul.ac.uk/international-students/englishlanguagerequirements/accepted-english-language-tests-and-qualifications/", detailsVerified: '2026-10-06' },
+  "university-of-exeter": {
+    ielts: { variants: "IELTS Academic, IELTS Academic Online and IELTS One Skill Retake are listed (requirement profiles A and B3)." },
+    toefl: { variants: "TOEFL iBT, Home Edition, Paper Edition and MyBest scores are listed (requirement profiles A and B3)." },
+    detailsSource: "https://www.exeter.ac.uk/study/englishlanguagerequirements/profile-a/", detailsVerified: '2026-10-06' },
+  "university-of-bath": {
+    ielts: { variants: "IELTS Academic and IELTS Online, including One Skill Retake (Category A and Category C undergraduate courses)." },
+    toefl: { variants: "TOEFL iBT and iBT Home Edition (Category A and Category C undergraduate courses)." },
+    detailsSource: "https://www.bath.ac.uk/corporate-information/english-language-requirements-for-qualifications-category-a/", detailsVerified: '2026-10-06' }
 };

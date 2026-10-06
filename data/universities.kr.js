@@ -2006,7 +2006,7 @@ window.UNIPATH.universities.push(
     deadlines: [
       { name: 'International undergraduate admission', kind: 'intake', entryTerm: 'Spring or Fall', entryYear: '2027', date: 'Published in the admission guide', status: 'not-confirmed', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'The university publishes an admission guide for each intake; the 2027 dates were not read during this check', source: 'https://www.dongguk.edu/eng/page/446', verified: '2026-09-23', note: null }
     ],
-    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    applicationFee: { amount: 100000, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Stated for all departments except the Division of Theater and Fine Art.', source: 'https://www.dongguk.edu/eng/page/422', verified: '2026-10-06', status: 'confirmed' },
     documents: ['School transcripts and graduation certificate', 'Language proficiency evidence', 'Documents listed in the admission guide'],
     recommendations: null,
     essay: null,

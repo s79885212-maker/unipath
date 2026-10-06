@@ -823,7 +823,7 @@ window.UNIPATH.universities.push(
     deadlines: [
       { name: 'GSEP admission eligibility application (2026 cycle)', kind: 'intake', entryTerm: 'September', entryYear: '2027', dateISO: '2026-08-06', date: '7 July – 6 August 2026', binding: false, appliesTo: 'GSEP applicants', conditions: 'Science Tokyo states that applications received after the deadline are not accepted', status: 'confirmed', source: 'https://admissions.isct.ac.jp/en/013/undergraduate/programs/gsep', verified: '2026-09-23', note: 'The assessment period published for this cycle; check the site for the next cycle before applying' }
     ],
-    applicationFee: { amount: null, currency: 'JPY', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    applicationFee: { amount: 17000, currency: 'JPY', waiverAvailableToInternational: null, waiver: null, note: 'Application fee listed for the Global Scientists and Engineers Program (GSEP). The enrolment fee is a separate charge.', source: 'https://admissions.isct.ac.jp/en/013/undergraduate/programs/gsep', verified: '2026-10-06', status: 'confirmed' },
     documents: ['School transcripts and graduation certificate', 'English proficiency test score report taken within two years of the application period', 'Application form through the admissions portal'],
     recommendations: null,
     essay: null,
@@ -981,7 +981,7 @@ window.UNIPATH.universities.push(
     deadlines: [
       { name: 'International Undergraduate Programs — online application (October 2027 enrolment)', kind: 'application-window', entryTerm: 'October', entryYear: '2027', dateISO: '2026-12-11', date: '7–11 December 2026', binding: false, appliesTo: 'International undergraduate applicants (School of Interdisciplinary Science and Innovation, Engineering, and Bioresource and Bioenvironment programmes)', conditions: 'The online system is open only during this period; all required documents must also be sent by post. Minimum standardized test scores are set in each programme’s application instructions.', status: 'confirmed', source: 'https://www.kyushu-u.ac.jp/en/admission/faculty/foreign/foreign10/', verified: '2026-09-30', note: 'The closing time is given in the application instructions PDF, which was not read during this check.' }
     ],
-    applicationFee: { amount: null, currency: 'JPY', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    applicationFee: { amount: 17000, currency: 'JPY', waiverAvailableToInternational: null, waiver: null, note: 'Application fee for undergraduate schools. The official fees page gives its amounts as of 1 April 2020.', source: 'https://www.kyushu-u.ac.jp/en/admission/fees/expenses', verified: '2026-10-06', status: 'previous-cycle', cycle: 'As of 1 April 2020' },
     documents: ['School transcripts and graduation certificate', 'English proficiency evidence', 'Application form and supporting documents listed in the application instructions'],
     recommendations: null,
     essay: null,
@@ -1064,7 +1064,7 @@ window.UNIPATH.universities.push(
     deadlines: [
       { name: 'English-taught undergraduate programmes — registration period (April 2027 enrolment)', kind: 'intake', entryTerm: 'April', entryYear: '2027', dateISO: '2026-01-07', date: '1 December 2025 – 7 January 2026', binding: false, appliesTo: 'Applicants to the English-taught undergraduate degrees', conditions: 'Registration window published for April 2027 enrolment', status: 'confirmed', source: 'https://www.osaka-u.ac.jp/en/admissions/intl-students/Undergraduate-Students-Degree-Programs-in-English', verified: '2026-09-23', note: null }
     ],
-    applicationFee: { amount: null, currency: 'JPY', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    applicationFee: { amount: 17000, currency: 'JPY', waiverAvailableToInternational: null, waiver: null, note: 'Listed as the entrance examination fee for undergraduate students. The matriculation fee is a separate charge.', source: 'https://www.osaka-u.ac.jp/en/campus/tuition/tuition.html', verified: '2026-10-06', status: 'confirmed' },
     documents: ['School transcripts and graduation certificate', 'English proficiency evidence', 'Programme-specific documents listed in the guidelines'],
     recommendations: null,
     essay: null,
@@ -1177,7 +1177,7 @@ window.UNIPATH.universities.push(
       { name: 'Integrated Science Program — online registration (October 2027 enrolment)', kind: 'application-window', entryTerm: 'October', entryYear: '2027', dateISO: '2026-11-20', date: '12–20 November 2026', time: '17:00', timezone: 'JST', binding: false, appliesTo: 'International applicants to the Integrated Science Program (ISP)', conditions: 'Online registration opens at 10:00 JST on 12 November and closes at 17:00 JST on 20 November 2026. The letter of recommendation must arrive by 17:00 JST on 4 December 2026. First-stage results expected 10 February 2027; online interviews 16 February – 2 March 2027; final results expected 23 March 2027.', status: 'confirmed', source: 'https://www.oia.hokudai.ac.jp/isp/prospective-students/how-to-apply/', verified: '2026-09-30', note: 'Hokkaido marks the later result dates as expected.' },
       { name: 'Letter of recommendation', kind: 'documents', entryTerm: 'October', entryYear: '2027', dateISO: '2026-12-04', date: '4 December 2026', time: '17:00', timezone: 'JST', binding: false, appliesTo: 'ISP applicants', conditions: 'Deadline for the letter of recommendation to arrive.', status: 'confirmed', source: 'https://www.oia.hokudai.ac.jp/isp/prospective-students/how-to-apply/', verified: '2026-09-30', note: null }
     ],
-    applicationFee: { amount: null, currency: 'JPY', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    applicationFee: { amount: 17000, currency: 'JPY', waiverAvailableToInternational: null, waiver: null, note: 'Listed as the entrance examination fee for undergraduate students, paid at the time of application. The entrance fee is a separate charge.', source: 'https://www.global.hokudai.ac.jp/admissions/student-fees/', verified: '2026-10-06', status: 'confirmed' },
     documents: ['School transcripts and graduation certificate', 'English proficiency evidence', 'ISP application documents'],
     recommendations: null,
     essay: null,
@@ -1614,7 +1614,7 @@ window.UNIPATH.universities.push(
     deadlines: [
       { name: 'English-medium undergraduate programmes - application round', kind: 'round', entryTerm: 'April or September', entryYear: '2027', dateISO: '2026-09-08', date: '19 August – 8 September 2026', binding: false, appliesTo: 'Applicants to the English-medium undergraduate programmes', conditions: 'One published round for 2027 enrolment; Ritsumeikan states that the remaining 2027 application periods were to be announced', status: 'confirmed', source: 'https://en.ritsumei.ac.jp/e-ug/news/article.html/?id=297', verified: '2026-09-23', note: 'Other rounds for April and September 2027 entry had not been published when this was checked' }
     ],
-    applicationFee: { amount: null, currency: 'JPY', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    applicationFee: { amount: 5000, currency: 'JPY', waiverAvailableToInternational: null, waiver: null, note: 'Stated for the English-medium undergraduate programmes: 5,000 JPY per programme.', source: 'https://en.ritsumei.ac.jp/e-ug/apply/howto.html/', verified: '2026-10-06', status: 'confirmed' },
     documents: ['School transcripts and graduation certificate', 'English proficiency evidence', 'Application documents listed in the admission handbook'],
     recommendations: null,
     essay: null,
@@ -1902,7 +1902,7 @@ window.UNIPATH.universities.push(
     deadlines: [
       { name: 'Rolling admission', kind: 'rolling', entryTerm: 'Multiple semesters', entryYear: '2027', date: 'Rolling — decisions usually within four weeks of a complete application', status: 'confirmed', binding: false, appliesTo: 'Undergraduate applicants', conditions: 'TUJ states that a decision normally follows within four weeks of a complete application', source: 'https://www.tuj.ac.jp/ug/admissions', verified: '2026-09-23', note: null }
     ],
-    applicationFee: { amount: null, currency: 'JPY', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check. Admitted degree-seeking students pay a non-refundable matriculation fee of ¥434,100.' },
+    applicationFee: { amount: 10500, currency: 'JPY', waiverAvailableToInternational: null, waiver: null, note: 'Non-refundable application fee. Admitted degree-seeking students also pay a non-refundable matriculation fee of ¥434,100, which is a separate charge.', source: 'https://www.tuj.ac.jp/ug/admissions/how-to-apply', verified: '2026-10-06', status: 'confirmed' },
     documents: ['Secondary school transcripts and graduation certificate', 'English proficiency test score taken within two years, unless waived', 'Application form'],
     recommendations: null,
     essay: null,
