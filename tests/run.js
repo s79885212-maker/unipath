@@ -194,7 +194,7 @@ ok(Object.keys(edt).every(function (id) { var u = U.uniById(id); return u && /^h
 console.log('   English-test versions or conditions recorded for ' + Object.keys(edt).length + ' records');
 
 var adt = DB.awardDetails || {};
-ok(Object.keys(adt).every(function (id) { var u = U.uniById(id); return u && U.fullRide(u).available === true && /^https?:/.test(adt[id].detailsSource) && adt[id].detailsVerified; }), 'award conditions belong to a listed award and carry their source and check date');
+ok(Object.keys(adt).every(function (id) { var u = U.uniById(id); return u && u.scholarships && u.scholarships.fullRide && /^https?:/.test(adt[id].detailsSource) && adt[id].detailsVerified; }), 'award conditions belong to a record and carry their source and check date');
 
 var nd = DB.awardNotDescribed || [];
 ok(nd.every(function (id) { var u = U.uniById(id); return u && U.fullRide(u).status === 'not-published' && U.fullRide(u).note; }), 'an award marked “not described on the pages read” belongs to a record and keeps the note that explains it');

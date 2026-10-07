@@ -231,8 +231,8 @@ window.UNIPATH.universities.push(
     platforms: ['Common Application (search for "Underwood International College")', 'UIC application'],
     deadlines: [
       { name: 'UIC international admission — rolling', kind: 'rolling', entryTerm: 'Spring', entryYear: '2027', date: 'Rolling, with a document deadline for each round', binding: false, appliesTo: 'International applicants to Underwood International College', conditions: 'Yonsei states that international students are admitted on a rolling basis while Korean applicants follow the annual schedule. Hard copies of all documents must reach the UIC office by the round’s document deadline, otherwise the applicant is not interviewed and is disqualified.', status: 'confirmed', source: 'https://uic.yonsei.ac.kr/main/admission.php?mid=m04_02_02', verified: '2026-09-24', note: null },
-      { name: 'UIC Round 1 (Spring 2027) — online application', kind: 'round-1', entryTerm: 'Spring', entryYear: '2027', dateISO: '2026-09-22', date: '26 August – 22 September 2026', time: '17:00', timezone: 'KST', binding: false, appliesTo: 'UIC applicants for spring entry', conditions: 'Carried over from the earlier verification and not re-confirmed today.', status: 'not-confirmed', source: 'https://uic.yonsei.ac.kr/main/admission.php?mid=m04_02_02', verified: null, note: null },
-      { name: 'UIC Round 2 (Fall 2027)', kind: 'round-2', entryTerm: 'Fall', entryYear: '2027', date: 'Expected around March 2027', binding: false, appliesTo: 'UIC applicants for autumn entry', conditions: 'Approximate timing from the earlier verification; not confirmed for this cycle.', status: 'not-confirmed', source: 'https://uic.yonsei.ac.kr/main/admission.php?mid=m04_02_02', verified: null, note: null },
+      { name: 'UIC Round 1 (Spring 2027) — online application', kind: 'round-1', entryTerm: 'Spring', entryYear: '2027', dateISO: '2026-09-22', date: '26 August – 22 September 2026', time: '17:00', timezone: 'KST', binding: false, appliesTo: 'UIC applicants for spring entry', conditions: 'Online application from 10 a.m. on 26 August to 5 p.m. on 22 September 2026; documents must arrive by 5 p.m. on 2 October 2026; online interview on 11–12 December; admission notification on 18 December 2026.', status: 'confirmed', source: 'https://uic.yonsei.ac.kr/main/admission.php?mid=m04_02_02', verified: '2026-10-07', note: null },
+      { name: 'UIC Round 2 (Fall 2027)', kind: 'round-2', entryTerm: 'Fall', entryYear: '2027', date: 'Expected around March 2027', binding: false, appliesTo: 'UIC applicants for autumn entry', conditions: 'Approximate timing from the earlier verification; not confirmed for this cycle.', status: 'not-confirmed', source: 'https://uic.yonsei.ac.kr/main/admission.php?mid=m04_02_02', verified: '2026-10-07', note: 'Yonsei lists the second round, for Fall 2027 entry, as “TBD”, with the online application in March 2027 and notification in June 2027.' },
     ],
     applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: false, waiver: 'UIC does not offer or accept fee waivers.', note: 'KRW 150,000 via the UIC application, or US$150 via the Common Application.' },
     documents: ['High school diploma or certificate of high school equivalency', 'Academic transcripts', 'English proficiency evidence'],
@@ -428,8 +428,8 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['SKKU global admissions portal'],
     deadlines: [
-      { name: 'Spring 2027 — Round 1', kind: 'round-1', entryTerm: 'Spring', entryYear: '2027', dateISO: '2026-08-21', date: '12–21 August 2026', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'Carried over from the earlier verification and not re-confirmed on the official pages during this check.', status: 'not-confirmed', source: 'https://admission-global.skku.edu/', verified: null, note: null },
-      { name: 'Spring 2027 — Round 2', kind: 'round-2', entryTerm: 'Spring', entryYear: '2027', dateISO: '2026-11-13', date: '4–13 November 2026', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'Carried over from the earlier verification and not re-confirmed on the official pages during this check.', status: 'not-confirmed', source: 'https://admission-global.skku.edu/', verified: null, note: null },
+      { name: 'Spring 2027 — Round 1', kind: 'round-1', entryTerm: 'Spring', entryYear: '2027', dateISO: '2026-08-21', date: '12–21 August 2026', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'Online application from 10:00 on 12 August to 17:00 on 21 August 2026; documents by 17:00 on 4 September 2026.', status: 'confirmed', source: 'https://admission-global.skku.edu/eng/', verified: '2026-10-07', note: null },
+      { name: 'Spring 2027 — Round 2', kind: 'round-2', entryTerm: 'Spring', entryYear: '2027', dateISO: '2026-11-13', date: '4–13 November 2026', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'Carried over from the earlier verification and not re-confirmed on the official pages during this check.', status: 'not-confirmed', source: 'https://admission-global.skku.edu/', verified: '2026-10-07', note: 'The second-round notice was not on the admissions page read on 7 October 2026.' },
     ],
     applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null },
     documents: ['Academic transcripts', 'TOEFL or IELTS score report'],
@@ -814,7 +814,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['POSTECH international undergraduate admissions portal'],
     deadlines: [
-      { name: 'International undergraduate admission - Fall 2027 intake', kind: 'intake', entryTerm: 'Fall', entryYear: '2027', date: 'Expected to open March–April 2027', status: 'not-confirmed', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'POSTECH states that the Fall 2027 intake is expected to open for applications in March-April 2027 and that key dates are subject to change; no interview is required on the international track', source: 'https://adm-iu.postech.ac.kr/user/admission/guide/international.do', verified: '2026-09-23', note: null }
+      { name: '2027 Spring — International Admissions (non-Korean applicants)', kind: 'application-window', entryTerm: 'Spring', entryYear: '2027', dateISO: '2026-09-02', date: '25 August – 2 September 2026', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'Preliminary admission announcement in mid-November 2026, university announcement in mid-December 2026, enrolment in December 2026; the academic year begins on 22 February 2027. POSTECH states that no interview is required on this track and that key dates may change.', status: 'confirmed', source: 'https://adm-iu.postech.ac.kr/user/comm/menu/3317587a17a23d4dacdb9ffc4762bf4a/content/index.do', verified: '2026-10-07', note: 'POSTECH’s overview lists this track for 2027 Spring entry; no application period for a later intake is published.' }
     ],
     applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
     documents: ['School transcripts and graduation certificate', 'English proficiency evidence', 'Documents listed in the international admission guide'],
@@ -1704,7 +1704,7 @@ window.UNIPATH.universities.push(
     deadlines: [
       { name: 'International undergraduate admission', kind: 'intake', entryTerm: 'Spring or Fall', entryYear: '2027', date: 'Published in the admission guide', status: 'not-confirmed', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'The university publishes an admission guide for each intake; the 2027 dates were not read during this check', source: 'https://www.dgist.ac.kr/iuadm/sub03_01.do', verified: '2026-09-23', note: null }
     ],
-    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    applicationFee: { amount: 50000, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Paid in the online application for document screening; DGIST states it is non-refundable and cannot be waived. No fee is charged for the interview stage.', source: 'https://www.dgist.ac.kr/iuadm/sub02_03.do', verified: '2026-10-07', status: 'confirmed' },
     documents: ['School transcripts and graduation certificate', 'Language proficiency evidence', 'Documents listed in the admissions guidebook'],
     recommendations: null,
     essay: null,
@@ -1772,6 +1772,7 @@ window.UNIPATH.universities.push(
   shortName: 'Sejong',
   country: 'kr',
   city: 'Seoul',
+  founded: 1940,
   region: 'Seoul',
   type: 'Private research university',
   brand: { c1: '#00539f', c2: '#002b52', initials: 'SEJ' },
@@ -1791,7 +1792,8 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Sejong University international admissions'],
     deadlines: [
-      { name: 'Undergraduate admission for international students (2026 Fall guide published)', kind: 'intake', entryTerm: 'Fall', entryYear: '2026', date: 'Published in the 2026 Fall admission guide', status: 'previous-cycle', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'Sejong publishes separate spring and autumn guides; the 2027 dates were not published when this was checked', source: 'https://sos.sejong.ac.kr/pdf/409094/2026%ED%95%99%EB%85%84%20%ED%9B%84%EA%B8%B0%20%ED%95%99%EB%B6%80%20%EC%A0%95%EC%9B%90%EC%99%B8%20%EC%99%B8%EA%B5%AD%EC%9D%B8%20%EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95%20(%EC%98%81%EB%AC%B8)_2026.03.12.pdf', verified: '2026-09-23', note: null }
+      { name: 'Online application and documents — first round', kind: 'round-1', entryTerm: 'Spring', entryYear: '2027', dateISO: '2026-09-21', date: '7–21 September 2026', time: '17:00', binding: false, appliesTo: 'International undergraduate applicants', conditions: null, status: 'confirmed', source: 'https://en.sejong.ac.kr/eng/academics/Undergraduate_School.do', verified: '2026-10-07', note: 'The timeline gives these dates with the year but does not print the semester; rounds held in the autumn lead to the semester that starts in March 2027.' },
+      { name: 'Online application and documents — second round', kind: 'round-2', entryTerm: 'Spring', entryYear: '2027', dateISO: '2026-11-13', date: '22 October – 13 November 2026', time: '17:00', binding: false, appliesTo: 'International undergraduate applicants', conditions: null, status: 'confirmed', source: 'https://en.sejong.ac.kr/eng/academics/Undergraduate_School.do', verified: '2026-10-07', note: 'The timeline gives these dates with the year but does not print the semester; rounds held in the autumn lead to the semester that starts in March 2027.' }
     ],
     applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
     documents: ['School transcripts and graduation certificate', 'Language proficiency evidence', 'Documents listed in the admission guide'],
@@ -1842,6 +1844,7 @@ window.UNIPATH.universities.push(
   shortName: 'KNU',
   country: 'kr',
   city: 'Daegu',
+  founded: 1946,
   region: 'Daegu',
   type: 'National research university',
   brand: { c1: '#00447c', c2: '#00233f', initials: 'KNU' },
@@ -1915,6 +1918,7 @@ window.UNIPATH.universities.push(
   shortName: 'SeoulTech',
   country: 'kr',
   city: 'Seoul',
+  founded: 1910,
   region: 'Seoul',
   type: 'National university of science and technology',
   brand: { c1: '#0d4a8f', c2: '#072748', initials: 'SET' },
@@ -2054,6 +2058,7 @@ window.UNIPATH.universities.push(
   shortName: 'Sookmyung',
   country: 'kr',
   city: 'Seoul',
+  founded: 1906,
   region: 'Seoul',
   type: "Private women's university",
   brand: { c1: '#003da5', c2: '#001f52', initials: 'SMU' },
@@ -2073,7 +2078,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Sookmyung international undergraduate application'],
     deadlines: [
-      { name: 'International undergraduate admission', kind: 'intake', entryTerm: 'Spring or Fall', entryYear: '2027', date: 'Published in the admission guide', status: 'not-confirmed', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'The university publishes an admission guide for each intake; the 2027 dates were not read during this check', source: 'https://www.sookmyung.ac.kr/en/admission/undergraduate.do', verified: '2026-09-23', note: null }
+      { name: 'Spring 2027 — first round', kind: 'round-1', entryTerm: 'Spring', entryYear: '2027', dateISO: '2026-10-16', date: '7–16 October 2026', time: '17:00', timezone: 'KST', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'Opens at 10 a.m. KST on 7 October.', status: 'confirmed', source: 'https://www.sookmyung.ac.kr/en/admission/undergraduate.do', verified: '2026-10-07', note: null },
+      { name: 'Spring 2027 — second round', kind: 'round-2', entryTerm: 'Spring', entryYear: '2027', dateISO: '2026-11-20', date: '6–20 November 2026', time: '17:00', timezone: 'KST', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'Opens at 10 a.m. KST on 6 November.', status: 'confirmed', source: 'https://www.sookmyung.ac.kr/en/admission/undergraduate.do', verified: '2026-10-07', note: null },
+      { name: 'Spring 2027 — third round', kind: 'round-3', entryTerm: 'Spring', entryYear: '2027', dateISO: '2026-12-18', date: '3–18 December 2026', time: '17:00', timezone: 'KST', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'Opens at 10 a.m. KST on 3 December.', status: 'confirmed', source: 'https://www.sookmyung.ac.kr/en/admission/undergraduate.do', verified: '2026-10-07', note: null }
     ],
     applicationFee: { amount: 150000, currency: 'KRW', waiverAvailableToInternational: false, waiver: null, note: 'Sookmyung states that applicants submit a payment of \u20a9150,000 with the application.' },
     documents: ['School transcripts and graduation certificate', 'Language proficiency evidence', 'Documents listed in the admission guidelines'],
@@ -2127,6 +2134,7 @@ window.UNIPATH.universities.push(
   shortName: 'Chonnam',
   country: 'kr',
   city: 'Gwangju',
+  founded: 1952,
   region: 'Gwangju',
   type: 'National research university',
   brand: { c1: '#00447c', c2: '#00233f', initials: 'CNU' },
@@ -2170,11 +2178,13 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Applicants normally need 12 years of school education completed outside Korea, or an equivalent qualification.'
   },
   costs: {
-    breakdown: { published: false, includes: 'tuition is published on the university pages; the figures were not read during this check' },
-    academicYear: '2026–2027', currency: 'KRW', headline: 'Tuition published on the official pages',
-    items: [ { label: 'Tuition', text: 'Published per college on the official pages' } ],
-    billedSubtotal: null, totalText: 'Not confirmed — see the official pages',
-    note: 'New international students can be exempted from tuition for four semesters under the university scholarship scheme.'
+    status: 'confirmed',
+    breakdown: { tuition: 1837000, tuitionText: '\u20a91,837,000\u2013\u20a92,436,000 per semester depending on the college', period: 'semester', includes: 'undergraduate tuition for one semester by college; housing, meals and insurance are extra', published: true },
+    academicYear: 'Year not stated on the page', currency: 'KRW', headline: '\u20a91,837,000\u2013\u20a92,436,000 tuition per semester, by college',
+    items: [ { label: 'Tuition per semester — Business Administration (lowest)', amount: 1837000 }, { label: 'Tuition per semester — Humanities, Social Sciences', amount: 1869000 }, { label: 'Tuition per semester — Natural Sciences, Nursing, Human Ecology', amount: 2200000 }, { label: 'Tuition per semester — Engineering (Gwangju)', amount: 2370000 }, { label: 'Tuition per semester — Arts (highest)', amount: 2436000 } ],
+    billedSubtotal: null, totalText: 'Tuition only; housing, meals and insurance are not included',
+    note: 'From the undergraduate tuition table on the university’s international site. The table does not state its academic year. New international students can be exempted from tuition for four semesters under the university scholarship scheme.',
+    source: 'https://global.jnu.ac.kr/Academics/Resources/Tuition', verified: '2026-10-07', studentCategory: 'Undergraduates, by college'
   },
   scholarships: {
     fullRide: { available: false, internationalEligible: false, basis: 'merit', covers: { tuition: true, housing: false, meals: false, insurance: false, books: false }, renewable: false, competitiveness: 'The scheme is for new students, and the amounts depend on budget.', howToApply: 'Considered with the admission application.', note: 'The exemption covers tuition, the entrance fee and association dues for four semesters, but not housing or living costs, so it is not a full ride.' },
@@ -2217,7 +2227,7 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['INU international undergraduate application'],
     deadlines: [
-      { name: 'International undergraduate admission (Spring 2025 guide published)', kind: 'intake', entryTerm: 'Spring', entryYear: '2025', date: 'Published in the Spring 2025 admissions guide book', status: 'previous-cycle', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'INU publishes a guide book for each intake; the 2027 dates were not read during this check', source: 'https://www.inu.ac.kr/pdfView/ibe/122/fileDownload.do', verified: '2026-09-23', note: null }
+      { name: 'International undergraduate admission — latest published schedule', kind: 'intake', entryTerm: 'Spring', entryYear: '2026', date: '8 September – 17 October 2025 (stated for the 2026 Spring semester)', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'The admissions guide page also lists 10 March – 18 April 2025 for the 2025 Fall semester.', status: 'previous-cycle', source: 'https://www.inu.ac.kr/inuengl/8529/subview.do', verified: '2026-10-07', note: 'The page read on 7 October 2026 still shows the schedule for 2025 Fall and 2026 Spring; no dates for 2027 are published there.' }
     ],
     applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
     documents: ['Proof that the applicant and both parents are foreign nationals from birth', 'High school completion or an equivalent qualification', 'Language proficiency evidence'],

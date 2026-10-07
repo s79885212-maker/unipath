@@ -438,6 +438,7 @@
           : (/^need-based$/i.test(String(fr.basis || '')) && fr.available === true
             ? '<span>Need-based: the award is assessed on family finances once you are admitted, so the test rules are the admission ones above.</span>'
             : '<span class="unknown">Not checked — an award can ask for a test even where admission does not</span>')) +
+        (has(fr.tiers) ? row('Scholarship levels stated', esc(fr.tiers)) : '') +
         (has(fr.detailsSource) ? row('Award conditions', '<a href="' + esc(fr.detailsSource) + '" target="_blank" rel="noopener">Official page ↗</a>' +
           (has(fr.detailsVerified) ? ' · <span class="small muted">Checked ' + esc(fr.detailsVerified) + '</span>' : '')) : '') +
       '</dl>' +

@@ -1264,6 +1264,16 @@
     }
   };
 
+  P['seoultech'] = {
+    english: {
+      ielts: { min: 5.5, recommended: null, note: 'For the English Track departments (MSDE, IT Management, Business Administration, Global IT Convergence). SeoulTech adds that the score can be applied differently by department.' },
+      toefl: { min: 71, recommended: null, scales: [{ period: 'pre2026', min: 71, recommended: null }], note: 'TOEFL iBT 71 or above for the English Track departments; the page gives no score on the scale used from January 2026.' },
+      waiver: 'Applicants from countries where English is an official language are exempt from the English requirement.',
+      note: 'The other departments are taught in Korean and ask for TOPIK instead.',
+      source: 'https://global.seoultech.ac.kr/apply/undergraduate', verified: '2026-10-07'
+    }
+  };
+
   /* ========================== JAPAN ========================== */
 
   P['university-of-tokyo'] = {

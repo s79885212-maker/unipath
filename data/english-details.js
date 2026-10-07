@@ -252,5 +252,8 @@ window.UNIPATH.englishDetails = {
     detailsSource: "https://www.qub.ac.uk/Study/international-students/applying/english-language-requirements/", detailsVerified: '2026-10-06' },
   "whu-otto-beisheim": {
     toefl: { variants: "TOEFL iBT Special Home Edition accepted; the official score is used, not MyBest scores." },
-    detailsSource: "https://www.whu.edu/en/programs/bachelor-program/bachelor-in-international-business-administration/application-admissions/", detailsVerified: '2026-10-06' }
+    detailsSource: "https://www.whu.edu/en/programs/bachelor-program/bachelor-in-international-business-administration/application-admissions/", detailsVerified: '2026-10-06' },
+  "newcastle-university": {
+    ielts: { variants: "IELTS One Skill Retake accepted from 2025 entry onwards.", sections: "In most cases at least 5.5 in each of the four sub-skills, with 6.5 overall; individual course pages may ask for more." },
+    detailsSource: "https://www.ncl.ac.uk/international/language/", detailsVerified: '2026-10-07' }
 };

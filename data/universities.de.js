@@ -1707,6 +1707,7 @@ window.UNIPATH.universities.push(
   shortName: 'HNU',
   country: 'de',
   city: 'Neu-Ulm',
+  founded: 1994,
   region: 'Bavaria',
   type: 'Public university of applied sciences',
   brand: { c1: '#e30613', c2: '#7a0309', initials: 'HNU' },

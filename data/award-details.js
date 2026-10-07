@@ -26,7 +26,13 @@ window.UNIPATH.awardDetails = {
     detailsSource: 'https://www.tiu.ac.jp/etrack/admissions/reductions/', detailsVerified: '2026-10-06' },
   'st-olaf-college': {
     renewalConditions: 'Not stated on the page read.',
-    detailsSource: 'https://wp.stolaf.edu/financialaid/international-student-information/', detailsVerified: '2026-10-06' }
+    detailsSource: 'https://wp.stolaf.edu/financialaid/international-student-information/', detailsVerified: '2026-10-06' },
+  'ajou-university': {
+    tiers: 'Ajou Global Scholarship 1 to 4 for entering students: a tuition waiver of 100%, 70%, 50% or 30% for one semester, tied to TOPIK level 6, 5, 4 or 3, or to IELTS 8.0, 7.0, 6.5 or 5.5 (TOEFL iBT 100, 90, 80 or 75).',
+    detailsSource: 'https://www.ajou.ac.kr/iadmissions_en/undergraduate/scholarship.do', detailsVerified: '2026-10-07' },
+  'incheon-national-university': {
+    tiers: 'Merit scholarship for new international students: 70%, 50% or 30% of tuition with TOPIK level 6, 5 or 4, IELTS 7.0, 6.5 or 6.0, or TOEFL iBT 94, 87 or 82. For enrolled students the share follows the previous semester’s GPA, up to 100% of tuition at 4.2 or above.',
+    detailsSource: 'https://www.inu.ac.kr/inuengl/8528/subview.do', detailsVerified: '2026-10-07' }
 };
 /* Records where the official aid pages were read and no award covering full
    tuition or more is described for international students. This is a result,
@@ -41,5 +47,6 @@ window.UNIPATH.awardNotDescribed = [
   "pepperdine-university", "trinity-university", "furman-university", "uc-san-diego",
   "university-of-florida", "florida-state-university", "de-anza-college", "sinclair-community-college",
   "sophia-university", "international-christian-university", "osaka-university", "korea-university",
-  "university-of-cambridge", "university-of-edinburgh", "university-of-strathclyde"
+  "university-of-cambridge", "university-of-edinburgh", "university-of-strathclyde",
+  "ajou-university"
 ];
