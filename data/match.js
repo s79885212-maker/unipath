@@ -83,6 +83,7 @@ window.UNIPATH.match = {
     'berlin-school-business-innovation': { currency: 'EUR', basis: 'tuition', min: 10425, max: 10425, note: 'Published list price before the advertised discounts' },
     'postech':                 { currency: 'KRW', basis: 'tuition', min: 0, max: 0, note: 'Full tuition waiver for every student admitted through International Admissions' },
     'unist':                   { currency: 'KRW', basis: 'tuition', min: 0, max: 0, note: 'Fully waived for new international students; published tuition is ₩3,316,500 a semester for engineering' },
+    'kyung-hee-university':    { currency: 'KRW', basis: 'tuition', min: 9954800, max: 13436800, note: 'Two semesters at the 2026 Fall rates printed in the Spring 2027 guide (\u20a94,977,400\u2013\u20a96,718,400 each); 2027 rates are not confirmed' },
     'chonnam-national-university': { currency: 'KRW', basis: 'tuition', min: 3674000, max: 4872000, note: 'Two semesters of tuition by college (\u20a91,837,000\u2013\u20a92,436,000 each); the table does not state its year' },
     'dgist':                   { currency: 'KRW', basis: 'tuition', min: 0, max: 0, note: 'Fully waived for all international students; published tuition is ₩7,934,000 a year' },
     'ajou-university':         { currency: 'KRW', basis: 'tuition', min: 7496000, max: 9832000, note: 'Two semesters at the published per-college rates, before any scholarship' },

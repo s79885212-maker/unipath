@@ -340,7 +340,10 @@ window.UNIPATH.degreesByArea = {
     areas: { natres: 1.6, arch: 2.7, area: 0.3, comm: 2.7, cis: 7.7, educ: 0.8, engr: 10.1, lang: 1.4, famcs: 1, english: 2.3, libarts: 16.2, bio: 6, math: 3.3, interd: 1.5, parks: 2, philo: 0.7, physci: 3.9, psych: 4.1, pubadmin: 2.3, socsci: 12.7, visarts: 1.1, health: 4, business: 8.9, history: 2.7 } },
   "mit": { period: "2024–2025", unit: "percent", checked: '2026-10-06',
     source: { label: "MIT Common Data Set 2025–26, section J", url: "https://ir.mit.edu/projects/2025-26-common-data-set/" },
-    areas: { arch: 2, cis: 33, engr: 24, libarts: 1, bio: 4, math: 14, interd: 10, physci: 7, socsci: 1, visarts: 1, business: 3 } }
+    areas: { arch: 2, cis: 33, engr: 24, libarts: 1, bio: 4, math: 14, interd: 10, physci: 7, socsci: 1, visarts: 1, business: 3 } },
+  "skidmore-college": { period: "2024–2025", unit: "percent", checked: '2026-10-07',
+    source: { label: "Skidmore College Common Data Set 2025–26, section J (first and second majors)", url: "https://www.skidmore.edu/ir/facts/common/cds-2025-26.pdf" },
+    areas: { natres: 4.6, area: 2, cis: 4.4, educ: 2, lang: 3.2, english: 5.8, libarts: 0.3, bio: 8.2, math: 2.8, philo: 2.7, physci: 4.3, psych: 9.4, pubadmin: 2.8, socsci: 17.6, visarts: 12.5, business: 13.4, history: 3.9 } }
 };
 /* Field tags the degrees table does not back, checked against the institution's
    own programme list. kind: major (a major exists — the tag stays), minor,

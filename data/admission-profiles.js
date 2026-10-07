@@ -1274,6 +1274,25 @@
     }
   };
 
+  P['chonnam-national-university'] = {
+    english: {
+      ielts: { min: 5.5, recommended: null, note: 'One of the language conditions in the 2027 guidelines: IELTS 5.5, New TEPS 290, CEFR B2 or TOEIC 700 or higher. TOPIK level 3 is the Korean-language alternative.' },
+      toefl: { min: 80, recommended: null, scales: [{ period: 'pre2026', min: 80, recommended: null }, { period: 'post2026', min: 4, recommended: null }], note: 'TOEFL iBT 4.0 for tests taken on or after 21 January 2026; 80 on the earlier scale for tests up to 20 January 2026, accepted for two years.' },
+      note: 'Applicants must meet at least one of the listed Korean or English conditions.',
+      source: 'https://sea.jnu.ac.kr/bbs/oceaneng/173/853805/download.do', verified: '2026-10-07'
+    }
+  };
+
+  P['chung-ang-university'] = {
+    english: {
+      ielts: { min: null, recommended: null, note: 'IELTS 5.5 or higher is required only for the English-track Department of Game Convergence. Other departments ask for Korean proficiency.' },
+      toefl: { min: null, recommended: null, scales: [], note: 'For the Department of Game Convergence: TOEFL iBT 60, or 3.5 on the new scale.' },
+      waiver: 'Game Convergence applicants who completed the whole high-school curriculum in English in a country where English is a native or official language are exempt.',
+      note: 'Read in the 2027 admissions guide, in the copy published by the Korean Education Center in Los Angeles. The English requirement is programme-specific, so no university-wide minimum is recorded.',
+      source: 'https://www.kecla.org/uploads/board/attach1/20260821085932.pdf', verified: '2026-10-07'
+    }
+  };
+
   /* ========================== JAPAN ========================== */
 
   P['university-of-tokyo'] = {
@@ -1672,18 +1691,22 @@
 
   P['kyung-hee-university'] = {
     english: {
-      ielts: {
-      min: null,
-      recommended: null,
-      note: 'IELTS 7.5 or above earns English Track applicants Admission Scholarship B (full tuition for the first semester) — a scholarship threshold, not an admission requirement. The admission minimum is set in the current guidelines PDF.'
+      ielts: { min: 6, recommended: null, note: 'English Track applicants need IELTS 6.0 or higher, or one of the other listed conditions. The guide says IELTS scores are valid for two years from the test date.' },
+      toefl: { min: 80, recommended: null, scales: [{ period: 'pre2026', min: 80, recommended: null }, { period: 'post2026', min: 4, recommended: null }], note: 'TOEFL iBT 80, or 4.0 for tests taken on or after 21 January 2026. NEW TEPS 327 is also listed.' },
+      waiver: 'No test score is needed from citizens of an English-speaking country or a country where English is an official language, or from applicants who completed secondary education in such a country.',
+      note: 'These conditions apply to the English Track. Korean-taught departments ask for Korean proficiency instead.',
+      source: 'https://iadmission.khu.ac.kr/gglobalcenter/cmmn/file/fileDown.do?atchFileId=0ff44dc44b9f40feaa74a5751019a647&bbsId=&fileSn=1&menuNo=8000033', verified: '2026-10-07'
     },
-      toefl: {
-      min: null,
-      recommended: null,
-      note: 'TOEFL iBT 105 or above earns Admission Scholarship B (full first-semester tuition) — a scholarship threshold, not an admission requirement.'
-    }
+    costs: {
+      status: 'previous-cycle',
+      breakdown: { tuition: 4977400, tuitionText: '\u20a94,977,400\u2013\u20a96,718,400 per semester depending on the college (2026 Fall rates)', period: 'semester', includes: 'tuition for one semester by college, as printed in the Spring 2027 guide with the note that it is based on the 2026 Fall semester; dormitory and living costs are extra', published: true },
+      academicYear: '2026 Fall semester rates', currency: 'KRW', headline: '\u20a94,977,400\u2013\u20a96,718,400 tuition per semester (2026 Fall rates)',
+      items: [ { label: 'Tuition per semester — Humanities, Politics and Economics, Management, International Studies', amount: 4977400 }, { label: 'Tuition per semester — Science, Human Ecology, Big Data Analytics', amount: 5785400 }, { label: 'Tuition per semester — Engineering, Software, Art and Design, Global Eminence', amount: 6718400 } ],
+      billedSubtotal: null, totalText: 'Tuition only; dormitory and living costs are not included',
+      note: 'The Spring 2027 admission guide prints this table and states that it is based on the 2026 Fall semester, so the rates for 2027 are not confirmed.',
+      source: 'https://iadmission.khu.ac.kr/gglobalcenter/cmmn/file/fileDown.do?atchFileId=0ff44dc44b9f40feaa74a5751019a647&bbsId=&fileSn=1&menuNo=8000033', verified: '2026-10-07', studentCategory: 'New and transfer international undergraduates, by college'
     },
-    sources: [{ label: 'Kyung Hee Spring 2026 international undergraduate guidelines (PDF)', url: 'https://iadmission.khu.ac.kr/gglobalcenter/cmmn/file/fileDown.do?menuNo=8000045&atchFileId=6bff99bbac834f25949f5f535dbbaf42&fileSn=1' }],
+    sources: [{ label: 'Kyung Hee Spring 2027 international undergraduate admission guide (PDF)', url: 'https://iadmission.khu.ac.kr/gglobalcenter/cmmn/file/fileDown.do?atchFileId=0ff44dc44b9f40feaa74a5751019a647&bbsId=&fileSn=1&menuNo=8000033' }],
     stats: {
       term: 'International undergraduate admission',
       source: { label: 'Kyung Hee international undergraduate guidelines', url: 'https://iadmission.khu.ac.kr/gglobalcenter/user/contents/view.do?menuNo=8000031' },
@@ -2082,5 +2105,6 @@ window.UNIPATH.testStatus = {
     'okayama-university': { ielts: 'no-minimum' },
     'yonsei-university': { ielts: 'no-minimum', toefl: 'no-minimum' },
     'korea-university': { duolingo: 'not-accepted' },
-    'sogang-university': { ielts: 'no-minimum' }
+    'sogang-university': { ielts: 'no-minimum' },
+    'miyazaki-international-college': { ielts: 'not-required', toefl: 'not-required' }
 };

@@ -155,5 +155,10 @@ window.UNIPATH.testPolicyCycle = {
   "haverford-college": { cycleNote: "The official testing page states this policy without naming an admission cycle.",
     source: "https://www.haverford.edu/admission/applying/application-instructions", verified: '2026-10-06' },
   "colby-college": { cycleNote: "The official testing page states this policy without naming an admission cycle.",
-    source: "https://afa.colby.edu/apply/requirements/", verified: '2026-10-06' }
+    source: "https://afa.colby.edu/apply/requirements/", verified: '2026-10-06' },
+  'new-york-university': { cycle: 'Through the 2027–2028 application cycle',
+    exception: 'Read on the NYU Abu Dhabi entry-requirements page, which states the NYU policy; NYU’s central testing page could not be read.',
+    source: 'https://nyuad.nyu.edu/en/apply/undergraduate/apply/entry-requirements.html', verified: '2026-10-07' },
+  'grinnell-college': { cycle: 'First-year admission for fall 2027',
+    source: 'https://www.grinnell.edu/admission/apply/first-year/questbridge', verified: '2026-10-07' }
 };

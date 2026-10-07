@@ -2360,10 +2360,11 @@ window.UNIPATH.universities.push(
 
 {
   id: 'miyazaki-international-college',
-  name: 'Miyazaki International College',
+  name: 'Miyazaki International University',
   shortName: 'MIC',
   country: 'jp',
   city: 'Miyazaki',
+  founded: 1994,
   region: 'Miyazaki',
   type: 'Private college',
   brand: { c1: '#0a7d6b', c2: '#054239', initials: 'MIC' },
@@ -2373,19 +2374,15 @@ window.UNIPATH.universities.push(
   programs: ['humanities','social-sciences','business'],
   englishTaughtPrograms: ['humanities','social-sciences'],
   programNote: 'In the Global Liberal Arts course all classes are in English except career education and Japanese-related classes. The International Business Management and English Teacher courses mix Japanese and English.',
-  links: {
-    website: 'https://www.mic.ac.jp/english/',
-    admissions: 'https://www.mic.ac.jp/english/Schools/International_Liberal_Arts/Admissions_Information/Online_Application',
-    applicationPortal: 'https://www.mic.ac.jp/english/Schools/International_Liberal_Arts/Admissions_Information/Online_Application',
-    scholarships: 'https://www.mic.ac.jp/english/Schools/International_Liberal_Arts/Admissions_Information/Fees_and_Scholarships',
-    cost: 'https://www.mic.ac.jp/english/Schools/International_Liberal_Arts/Admissions_Information/Fees_and_Scholarships'
-  },
+  links: { website: 'https://www.miu.ac.jp/english/', admissions: 'https://www.miu.ac.jp/english/admissionsinformation/international_liberal_arts/', applicationPortal: 'https://www.miu.ac.jp/english/admissionsinformation/international_liberal_arts/', scholarships: 'https://www.mic.ac.jp/english/Schools/International_Liberal_Arts/Admissions_Information/Fees_and_Scholarships', cost: 'https://www.mic.ac.jp/english/Schools/International_Liberal_Arts/Admissions_Information/Fees_and_Scholarships' },
   admissions: {
     platforms: ['MIC online application'],
     deadlines: [
-      { name: 'International admissions test dates', kind: 'intake', entryTerm: 'April or October', entryYear: '2027', date: 'Not confirmed', status: 'not-confirmed', binding: false, appliesTo: 'International applicants', conditions: 'MIC publishes test dates and sites for each cycle; the 2027 dates were not read during this check', source: 'https://www.mic.ac.jp/english/Schools/International_Liberal_Arts/Admissions_Information/Test_Date_and_Sites', verified: '2026-09-23', note: null }
+      { name: 'April 2027 admission — first round', kind: 'round-1', entryTerm: 'Spring', entryYear: '2027', dateISO: '2026-09-11', date: '28 August – 11 September 2026', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'Applications must arrive within this period. Examination on 25 September, results on 2 October 2026.', status: 'confirmed', source: 'https://www.miu.ac.jp/examination/international/ryugaku/', verified: '2026-10-07', note: null },
+      { name: 'April 2027 admission — second round', kind: 'round-2', entryTerm: 'Spring', entryYear: '2027', dateISO: '2026-11-13', date: '30 October – 13 November 2026', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'Applications must arrive within this period. Examination on 27 November, results on 4 December 2026.', status: 'confirmed', source: 'https://www.miu.ac.jp/examination/international/ryugaku/', verified: '2026-10-07', note: null },
+      { name: 'April 2027 admission — third round', kind: 'round-3', entryTerm: 'Spring', entryYear: '2027', dateISO: '2027-03-08', date: '18 February – 8 March 2027', binding: false, appliesTo: 'Only applicants who will hold a valid student visa at the time of enrolment', conditions: 'Examination on 13 March, results on 23 March 2027. Not open to applicants who still need a student visa.', status: 'confirmed', source: 'https://www.miu.ac.jp/examination/international/ryugaku/', verified: '2026-10-07', note: null }
     ],
-    applicationFee: { amount: null, currency: 'JPY', waiverAvailableToInternational: null, waiver: null, note: 'An application fee is paid by credit card through the online application; the amount was not read during this check.' },
+    applicationFee: { amount: 20000, currency: 'JPY', waiverAvailableToInternational: null, waiver: null, note: 'Stated for Spring 2027 admission candidates; the same page gives 10,000 yen for Fall 2026 candidates.', source: 'https://www.miu.ac.jp/english/admissionsinformation/international_liberal_arts/', verified: '2026-10-07', status: 'confirmed', cycle: 'Spring 2027 admission' },
     documents: ['School transcripts and graduation certificate', 'English test score where used for a scholarship', 'Online application'],
     recommendations: null,
     essay: null,
