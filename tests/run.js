@@ -309,4 +309,5 @@ ok(!noCredit.length, 'every photo has a title, author, licence and source page',
 console.log('   without a photo (placeholder shown): ' + DB.universities.filter(function (u) { return !((u.photos && u.photos.gallery) || []).length; }).map(function (u) { return u.id; }).join(', '));
 
 console.log('\n' + passed + ' passed, ' + failed + ' failed');
-process.exit(failed ? 1 : 0);
+/* Exit with a status only when run directly; tests/links.js loads this file for the data. */
+if (require.main === module) process.exit(failed ? 1 : 0);
