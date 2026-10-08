@@ -2740,6 +2740,63 @@ html.theme-switching *::after {
     fill 0.35s var(--ease-soft) !important;
 }
 
+/* The highlight of the current menu item slides to the next one. The
+   marker is added by the script; without it each item keeps its own. */
+.profile-nav ul {
+  position: relative;
+}
+@media (min-width: 1181px) {
+  .nav-links {
+    position: relative;
+  }
+}
+.slide-marker {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: var(--mw, 0);
+  height: var(--mh, 0);
+  transform: translate(var(--mx, 0), var(--my, 0));
+  border-radius: var(--r-sm);
+  background: var(--brand-100);
+  opacity: 0;
+  pointer-events: none;
+  list-style: none;
+  transition:
+    transform 0.34s var(--ease),
+    width 0.34s var(--ease),
+    height 0.34s var(--ease),
+    opacity var(--t-fast) var(--ease-soft),
+    background-color var(--t-fast) var(--ease-soft);
+}
+.has-marker > .slide-marker {
+  opacity: 1;
+}
+.nav-links > a {
+  position: relative;
+  z-index: 1;
+}
+.nav-links.has-marker > a[aria-current="page"],
+.nav-links.has-marker > a[aria-current="page"]:hover {
+  background: transparent;
+}
+.profile-nav .slide-marker {
+  top: auto;
+  bottom: 0;
+  height: 2px;
+  border-radius: 2px 2px 0 0;
+  background: var(--brand-600);
+  transform: translateX(var(--mx, 0));
+}
+.profile-nav ul.has-marker a.is-active {
+  border-bottom-color: transparent;
+}
+@media (max-width: 1180px) {
+  .nav-links[hidden] > .slide-marker {
+    transition: none;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .rv,
   .rv.is-in {
@@ -2749,6 +2806,9 @@ html.theme-switching *::after {
   }
   img.img-fade {
     opacity: 1;
+  }
+  .slide-marker {
+    transition: none;
   }
   #main.route-enter > *,
   .save-toggle[aria-pressed="true"],

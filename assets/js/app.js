@@ -1184,6 +1184,51 @@
 
   /* ---------------- global wiring ---------------- */
 
+  /* The highlight behind the current item of a menu travels to the next
+     item instead of jumping. `box` must be the offset parent of its items.
+     Without it (no script, static pages) the item keeps its own highlight. */
+  function placeMarker(box, target, animate, again) {
+    if (!box || !box.insertBefore) return;
+    var m = box.__marker;
+    if (!m) {
+      m = document.createElement(box.tagName === 'UL' ? 'li' : 'span');
+      m.className = 'slide-marker';
+      m.setAttribute('aria-hidden', 'true');
+      if (box.tagName === 'UL') m.setAttribute('role', 'presentation');
+      box.insertBefore(m, box.firstChild);
+      box.__marker = m;
+    }
+    box.__target = target || null;
+    if (!target || !target.offsetWidth) {
+      box.classList.remove('has-marker');
+      m.__set = false;
+      return;
+    }
+    var jump = !animate || !m.__set;
+    if (jump) m.style.transition = 'none';
+    m.style.setProperty('--mx', target.offsetLeft + 'px');
+    m.style.setProperty('--my', target.offsetTop + 'px');
+    m.style.setProperty('--mw', target.offsetWidth + 'px');
+    m.style.setProperty('--mh', target.offsetHeight + 'px');
+    box.classList.add('has-marker');
+    if (jump) { void m.offsetWidth; m.style.transition = ''; }
+    m.__set = true;
+    /* Labels are translated right after they are drawn, which changes their
+       width: measure once more when that has happened. */
+    if (!again) global.setTimeout(function () {
+      if (box.__target === target && target.isConnected) placeMarker(box, target, !jump, true);
+    }, 0);
+    if (!box.__ro && global.ResizeObserver) {
+      /* Width changes, the mobile menu opening, translated labels. */
+      box.__ro = new global.ResizeObserver(function () { placeMarker(box, box.__target, false); });
+      box.__ro.observe(box);
+    }
+  }
+  function placeNavMarker(animate) {
+    var box = document.querySelector('[data-nav-links]');
+    if (box) placeMarker(box, box.querySelector(':scope > a[aria-current="page"]'), animate);
+  }
+
   function setActiveNav(active) {
     var links = document.querySelectorAll('[data-nav-links] > a[href]');
     for (var i = 0; i < links.length; i++) {
@@ -1192,6 +1237,7 @@
       if (n.key === active) links[i].setAttribute('aria-current', 'page');
       else links[i].removeAttribute('aria-current');
     }
+    placeNavMarker(true);
   }
 
   function mount(active) {
@@ -1225,6 +1271,7 @@
         var open = toggle.getAttribute('aria-expanded') === 'true';
         toggle.setAttribute('aria-expanded', open ? 'false' : 'true');
         if (links && global.matchMedia('(max-width: 1180px)').matches) links.hidden = open;
+        placeNavMarker(false);
         return;
       }
 
@@ -1273,6 +1320,10 @@
     }
     syncNav();
     global.addEventListener('resize', syncNav);
+    placeNavMarker(false);
+    global.addEventListener('resize', function () { placeNavMarker(false); });
+    global.addEventListener('load', function () { placeNavMarker(false); });
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { placeNavMarker(false); });
 
     syncThemeMeta();
     if (global.matchMedia) {
@@ -1404,7 +1455,7 @@
     bachelorPrograms: bachelorPrograms, bachelorIntlText: bachelorIntlText, ccSummary: ccSummary, ccBadge: ccBadge,
     savedGet: savedGet, savedHas: savedHas, savedToggle: savedToggle, savedButton: savedButton,
     APPLICATION_KINDS: APPLICATION_KINDS,
-    setActiveNav: setActiveNav, renderTray: renderTray, wireSearchBox: wireSearchBox,
+    setActiveNav: setActiveNav, placeMarker: placeMarker, renderTray: renderTray, wireSearchBox: wireSearchBox,
     uniCard: uniCard, countryCard: countryCard, mediaBlock: mediaBlock, scholarBadge: scholarBadge,
     mount: mount
   };

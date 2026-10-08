@@ -762,10 +762,15 @@
       var href = a.getAttribute('href') || '';
       return document.getElementById(href.split('/').pop());
     });
+    var list = document.querySelector('.profile-nav ul'), shown = -1;
     function onScroll() {
       var y = global.scrollY + 160, active = 0;
       sections.forEach(function (s, i) { if (s && s.offsetTop <= y) active = i; });
       links.forEach(function (a, i) { a.classList.toggle('is-active', i === active); });
+      if (active !== shown && U.placeMarker && list && links[active] && links[active].isConnected) {
+        U.placeMarker(list, links[active], shown !== -1);
+        shown = active;
+      }
     }
     global.addEventListener('scroll', onScroll, { passive: true });
     onScroll();
