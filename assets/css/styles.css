@@ -2630,13 +2630,13 @@ img.img-fade {
 img.img-fade.is-loaded {
   opacity: 1;
 }
-.uni-card .card-cover-link img,
+.uni-card .media img,
 .hero-photo img {
   transition:
     opacity 0.45s var(--ease-soft),
     transform 0.6s var(--ease);
 }
-.uni-card:hover .card-cover-link img {
+.uni-card:hover .media img {
   transform: scale(1.035);
 }
 
@@ -2725,6 +2725,107 @@ summary {
 .news-list > *,
 .saved-table {
   animation: fade-in 0.3s var(--ease-soft) both;
+}
+
+/* ---------- University card: one tap target, compact controls ---------- */
+/* The title link covers the whole card, so a tap anywhere opens the
+   profile; the other controls sit above it. */
+.uni-card {
+  cursor: pointer;
+}
+.uni-card .card-stretch::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border-radius: var(--r-lg);
+}
+/* The photo keeps its own layers to itself, so the corner buttons and the
+   card-wide link stay above it. */
+.uni-card .media {
+  isolation: isolate;
+}
+.uni-card-actions {
+  position: relative;
+  z-index: 2;
+  align-items: stretch;
+  flex-wrap: nowrap;
+}
+.uni-card-actions .btn {
+  min-height: 44px;
+  min-width: 0;
+  white-space: nowrap;
+}
+.uni-card-actions .card-go {
+  flex: none;
+  width: 52px;
+  padding: 0;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+.card-go > span {
+  display: inline-block;
+  transition: transform var(--t) var(--ease);
+}
+.uni-card:hover .card-go > span {
+  transform: translateX(3px);
+}
+.save-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 3;
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  display: inline-grid;
+  place-items: center;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--glass);
+  color: var(--ink-700);
+  font-size: 1.15rem;
+  line-height: 1;
+  cursor: pointer;
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+.save-icon:hover {
+  border-color: var(--brand-500);
+  color: var(--brand-700);
+}
+.save-icon[aria-pressed="true"] {
+  border-color: var(--warn-line);
+  background: var(--warn-100);
+  color: var(--warn-700);
+}
+
+/* ---------- Profile header buttons ---------- */
+.hero-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+@media (max-width: 640px) {
+  .hero-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+  .hero-actions .btn {
+    min-height: 46px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: center;
+  }
+  .hero-actions .hero-main {
+    grid-column: 1 / -1;
+    min-height: 50px;
+    font-size: 1rem;
+  }
+  .hero-actions > :last-child:nth-child(even) {
+    grid-column: 1 / -1;
+  }
 }
 
 /* Light/dark switch. Where the browser can, the new theme spreads over the

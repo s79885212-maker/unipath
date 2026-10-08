@@ -460,7 +460,7 @@
     return '<strong>' + esc(x.text || '—') + '</strong>' +
       (x.term ? '<br><span class="small muted">Entry term: <span>' + esc(x.term) + '</span></span>' : '') +
       '<br><span class="small ' + (st === 'confirmed' ? 'muted' : 'warn-text') + '">' + esc(ROUND_STATUS[st]) + '</span>' +
-      (state ? ' <span class="small muted">· ' + esc(ROUND_STATE[state]) + '</span>' : '');
+      (state ? ' <span class="small muted">· <span>' + esc(ROUND_STATE[state]) + '</span></span>' : '');
   }
   /* ---- application rounds -----------------------------------------------
      A round carries its own intake, conditions, source and confirmation
@@ -972,8 +972,15 @@
     document.dispatchEvent(new CustomEvent('unipath:saved'));
     return arr.indexOf(id) > -1;
   }
-  function savedButton(u, cls) {
+  /* `icon` gives the round star used in the corner of a card: no text, the
+     meaning is carried by the label. */
+  function savedButton(u, cls, icon) {
     var on = savedHas(u.id);
+    if (icon) {
+      return '<button class="save-icon save-toggle" type="button" data-save="' + esc(u.id) + '" aria-pressed="' + (on ? 'true' : 'false') +
+        '" aria-label="' + (on ? 'Remove from saved' : 'Save to my list') + '" title="' + (on ? 'Remove from saved' : 'Save to my list') + '">' +
+        '<span aria-hidden="true" data-no-i18n>' + (on ? '★' : '☆') + '</span></button>';
+    }
     return '<button class="' + (cls || 'btn btn-ghost btn-sm') + ' save-toggle" type="button" data-save="' + esc(u.id) + '" aria-pressed="' + (on ? 'true' : 'false') + '">' +
       (on ? '★ Saved' : '☆ Save') + '</button>';
   }
@@ -1108,12 +1115,13 @@
     var dl = nextDeadline(u);
     return '' +
       '<article class="card card-link uni-card">' +
+        savedButton(u, null, true) +
         '<button class="compare-toggle" type="button" data-compare="' + esc(u.id) + '" aria-pressed="' + (compareHas(u.id) ? 'true' : 'false') + '">' +
           (compareHas(u.id) ? '✓ Comparing' : '+ Compare') + '</button>' +
         mediaBlock(u) +
         '<div class="card-body">' +
           '<div class="loc">' + c.flag + ' <span>' + esc(u.city) + '</span>, <span>' + esc(c.name) + '</span></div>' +
-          '<h3><a href="' + uniUrl(u) + '">' + esc(u.name) + '</a></h3>' +
+          '<h3><a class="card-stretch" href="' + uniUrl(u) + '">' + esc(u.name) + '</a></h3>' +
           '<div class="pill-row">' + (isCommunityCollege(u) ? '<span class="badge badge-flat">' + esc(ccBadge(u)) + '</span>' : '') + scholarBadge(u) +
             (englishLabel(u) ? '<span class="badge badge-info">' + esc(englishLabel(u)) + '</span>' : '') +
           '</div>' +
@@ -1128,9 +1136,8 @@
           '</dl>' +
         '</div>' +
         '<div class="uni-card-actions">' +
-          '<a class="btn btn-primary btn-sm" href="' + uniUrl(u) + '">View profile</a>' +
-          savedButton(u) +
-          '<a class="btn btn-ghost btn-sm" href="' + esc(u.links.website) + '" target="_blank" rel="noopener">Official site ↗</a>' +
+          '<a class="btn btn-ghost" href="' + esc(u.links.website) + '" target="_blank" rel="noopener">Official site ↗</a>' +
+          '<a class="btn btn-primary card-go" href="' + uniUrl(u) + '" aria-label="View profile" title="View profile"><span aria-hidden="true" data-no-i18n>→</span></a>' +
         '</div>' +
       '</article>';
   }
@@ -1320,7 +1327,11 @@
         var saved = savedToggle(sid);
         document.querySelectorAll('[data-save="' + sid + '"]').forEach(function (b) {
           b.setAttribute('aria-pressed', saved ? 'true' : 'false');
-          b.textContent = saved ? '★ Saved' : '☆ Save';
+          if (b.classList.contains('save-icon')) {
+            b.firstChild.textContent = saved ? '★' : '☆';
+            b.setAttribute('aria-label', saved ? 'Remove from saved' : 'Save to my list');
+            b.setAttribute('title', saved ? 'Remove from saved' : 'Save to my list');
+          } else b.textContent = saved ? '★ Saved' : '☆ Save';
         });
         return;
       }

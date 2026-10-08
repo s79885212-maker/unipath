@@ -65,8 +65,8 @@
             (merit.length ? '<span class="badge">' + merit.length + ' merit scholarship' + (merit.length > 1 ? 's' : '') + '</span>' : '') +
           '</div>' +
         '</div>' +
-        '<div style="display:flex;gap:8px;flex-wrap:wrap">' +
-          '<a class="btn btn-accent" href="' + esc(u.links.website) + '" target="_blank" rel="noopener">Official website ↗</a>' +
+        '<div class="hero-actions">' +
+          '<a class="btn btn-accent hero-main" href="' + esc(u.links.website) + '" target="_blank" rel="noopener">Official website ↗</a>' +
           '<button class="btn btn-ghost" type="button" data-compare="' + esc(u.id) + '" aria-pressed="' + (U.compareHas(u.id) ? 'true' : 'false') + '">' +
             (U.compareHas(u.id) ? '✓ Added to comparison' : '⊕ Add to comparison') + '</button>' +
           U.savedButton(u, 'btn btn-ghost') +
@@ -621,7 +621,7 @@
 
     /* Photos — every image carries its Wikimedia Commons attribution */
     function credit(g) {
-      return '<span class="credit">Photo: ' + esc(g.artist || 'Unknown author') +
+      return '<span class="credit"><span>Photo:</span> ' + (g.artist ? '<span data-no-i18n>' + esc(g.artist) + '</span>' : '<span>Unknown author</span>') +
         (g.page ? ' · <a href="' + esc(g.page) + '" target="_blank" rel="noopener">Wikimedia Commons</a>' : '') +
         ' · ' + (g.licenseUrl ? '<a href="' + esc(g.licenseUrl) + '" target="_blank" rel="noopener">' + esc(g.license) + '</a>' : esc(g.license)) +
         '</span>';
