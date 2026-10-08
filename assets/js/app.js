@@ -1320,6 +1320,27 @@
     }
     syncNav();
     global.addEventListener('resize', syncNav);
+    /* The mobile menu closes once a destination is chosen, on Escape and on
+       a tap outside it. */
+    function closeNav() {
+      var btn = document.querySelector('[data-nav-toggle]');
+      if (!btn || btn.getAttribute('aria-expanded') !== 'true') return false;
+      btn.setAttribute('aria-expanded', 'false');
+      syncNav();
+      return true;
+    }
+    global.addEventListener('hashchange', closeNav);
+    document.addEventListener('click', function (e) {
+      var t = e.target;
+      if (!t.closest || t.closest('.nav-bar-tools')) return;
+      var inMenu = t.closest('[data-nav-links]');
+      if (!inMenu || t.closest('a[href]')) closeNav();
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key !== 'Escape') return;
+      var btn = document.querySelector('[data-nav-toggle]');
+      if (closeNav() && btn && btn.focus) btn.focus();
+    });
     placeNavMarker(false);
     global.addEventListener('resize', function () { placeNavMarker(false); });
     global.addEventListener('load', function () { placeNavMarker(false); });
