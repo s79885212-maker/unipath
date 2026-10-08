@@ -47,6 +47,13 @@
     if (btn) btn.setAttribute('aria-pressed', currentTheme() === 'dark' ? 'true' : 'false');
   }
   function setTheme(t) {
+    /* Cross-fade the colours for a moment; the class is removed again so the
+       normal, shorter transitions apply afterwards. */
+    var root = document.documentElement;
+    if (root.classList && global.setTimeout) {
+      root.classList.add('theme-switching');
+      global.setTimeout(function () { root.classList.remove('theme-switching'); }, 420);
+    }
     document.documentElement.setAttribute('data-theme', t);
     try { global.localStorage.setItem(THEME_KEY, t); } catch (e) {}
     syncThemeMeta();
@@ -1278,7 +1285,100 @@
 
   /* ---------------- public API ---------------- */
 
-  global.UP = { fieldCheck: fieldCheck, degreeValue: degreeValue, FIELD_NOTE_KIND: FIELD_NOTE_KIND,
+  /* ---- motion ----------------------------------------------------------
+     Decoration only. Blocks rise into view as they are scrolled to, and
+     photos fade in once loaded. A block is hidden only together with the
+     code that shows it again, and that code does not depend on the page
+     being painted: positions are measured directly on scroll, on resize,
+     when the tab becomes visible and on a timer. With reduced motion
+     requested nothing is hidden at all. */
+  var REVEAL = '.profile-section, .card, .country-card, .prog-group, .link-tile, .stat-group, .section-head, .section > .wrap > h2, .section > .wrap > .grid, .match-group';
+  var motion = { on: false, pending: [], timer: null, mo: null };
+  function motionAllowed() {
+    return !!(global.MutationObserver && document.documentElement.getBoundingClientRect &&
+      !(global.matchMedia && global.matchMedia('(prefers-reduced-motion: reduce)').matches));
+  }
+  function revealDone(el) {
+    el.classList.remove('rv', 'is-in');
+    el.style.removeProperty('--rv-delay');
+  }
+  function sweepMotion() {
+    motion.timer = null;
+    if (!motion.pending.length) return;
+    var h = global.innerHeight || document.documentElement.clientHeight || 0, left = [], n = 0;
+    motion.pending.forEach(function (el) {
+      if (!el.isConnected) return;
+      var r = el.getBoundingClientRect();
+      if (r.width === 0 && r.height === 0) { left.push(el); return; }   /* not laid out yet, e.g. inside a closed block */
+      if (r.top < h * 0.96 && r.bottom > -40) {
+        el.style.setProperty('--rv-delay', Math.min(n++, 6) * 45 + 'ms');
+        el.classList.add('is-in');
+        /* Hand the element back to its own hover transitions afterwards. */
+        global.setTimeout(function () { revealDone(el); }, 900);
+      } else left.push(el);
+    });
+    motion.pending = left;
+  }
+  function queueSweep(delay) {
+    if (motion.timer) return;
+    motion.timer = global.setTimeout(sweepMotion, delay || 60);
+  }
+  function watchMotion(root) {
+    if (!motion.on || !root || !root.querySelectorAll) return;
+    var list = root.querySelectorAll(REVEAL), i;
+    for (i = 0; i < list.length; i++) {
+      var el = list[i];
+      if (el.__rv) continue;
+      el.__rv = true;
+      /* A block inside one that is still waiting comes in with its parent. */
+      if (el.parentNode && el.parentNode.closest && el.parentNode.closest('.rv')) continue;
+      el.classList.add('rv');
+      motion.pending.push(el);
+    }
+    var imgs = root.querySelectorAll('img');
+    for (i = 0; i < imgs.length; i++) {
+      var im = imgs[i];
+      if (im.__fade || im.complete) continue;
+      im.__fade = true;
+      im.classList.add('img-fade');
+    }
+    queueSweep(30);
+  }
+  function initMotion(root) {
+    if (!root || motion.on || !motionAllowed()) return;
+    motion.on = true;
+    global.addEventListener('scroll', function () { queueSweep(60); }, { passive: true });
+    global.addEventListener('resize', function () { queueSweep(120); });
+    document.addEventListener('visibilitychange', function () { queueSweep(30); });
+    document.addEventListener('toggle', function () { queueSweep(30); }, true);
+    document.addEventListener('load', function (e) {
+      var t = e.target;
+      if (t && t.tagName === 'IMG' && t.classList.contains('img-fade')) t.classList.add('is-loaded');
+    }, true);
+    document.addEventListener('error', function (e) {
+      var t = e.target;
+      if (t && t.tagName === 'IMG' && t.classList) t.classList.add('is-loaded');
+    }, true);
+    motion.mo = new global.MutationObserver(function (records) {
+      for (var i = 0; i < records.length; i++) {
+        var added = records[i].addedNodes;
+        for (var j = 0; j < added.length; j++) if (added[j].nodeType === 1) watchMotion(added[j].parentNode || root);
+      }
+    });
+    motion.mo.observe(root, { childList: true, subtree: true });
+    watchMotion(root);
+    /* Safety net: whatever is still pending is looked at again every second. */
+    global.setInterval(function () { if (motion.pending.length) queueSweep(1); }, 1000);
+  }
+  /* A new route fades in. Restarting the animation needs a reflow in between. */
+  function routeEnter(root) {
+    if (!root || !root.classList || !motionAllowed()) return;
+    root.classList.remove('route-enter');
+    void root.offsetWidth;
+    root.classList.add('route-enter');
+  }
+
+  global.UP = { initMotion: initMotion, routeEnter: routeEnter, fieldCheck: fieldCheck, degreeValue: degreeValue, FIELD_NOTE_KIND: FIELD_NOTE_KIND,
     DB: DB, esc: esc, has: has, or: or, orRaw: orRaw, qs: qs, money: money, el: el, UNKNOWN: UNKNOWN,
     STATUS: STATUS, statusLabel: statusLabel, statusHtml: statusHtml, feeStatus: feeStatus, costStatus: costStatus, cardTuition: cardTuition,
     DISCLAIMER: DISCLAIMER,

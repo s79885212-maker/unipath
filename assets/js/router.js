@@ -144,6 +144,7 @@
 
     setCanonical(r);
     global.scrollTo(0, 0);
+    if (U.routeEnter) U.routeEnter(main);
     document.querySelectorAll('[data-searchbox]').forEach(U.wireSearchBox);
   }
 
@@ -180,6 +181,7 @@
     /* No hash is simply the home route — avoid a redirect, which some
        sandboxed embeds block. */
     U.mount('home');
+    if (U.initMotion) U.initMotion(main);
     render();
     global.addEventListener('hashchange', render);
     if (global.I18N) global.I18N.start();

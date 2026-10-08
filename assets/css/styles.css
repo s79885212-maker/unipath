@@ -2535,3 +2535,234 @@ button.badge {
 .degrees-table td:last-child, .degrees-table th:last-child { text-align: right; white-space: nowrap; }
 .plain-list { margin: 8px 0 0; padding-left: 18px; }
 .plain-list li { margin-bottom: 6px; }
+
+/* v89 — motion: one timing scale for the whole site. Everything here is
+   decoration: with reduced motion requested, or with scripts off, the page
+   looks and works the same without it. */
+:root {
+  --ease: cubic-bezier(0.22, 0.8, 0.3, 1);
+  --ease-soft: cubic-bezier(0.4, 0, 0.2, 1);
+  --t-fast: 0.16s;
+  --t: 0.26s;
+  --t-slow: 0.5s;
+  interpolate-size: allow-keywords;
+}
+
+/* Hover, focus and pressed states ease instead of snapping. */
+a,
+button,
+summary,
+.btn,
+.chip,
+.badge,
+.card,
+.link-tile,
+.prog-group,
+.compare-toggle,
+.save-toggle,
+.nav-links > a,
+.lang-toggle,
+.theme-toggle,
+input,
+select,
+textarea {
+  transition:
+    color var(--t-fast) var(--ease-soft),
+    background-color var(--t-fast) var(--ease-soft),
+    border-color var(--t-fast) var(--ease-soft),
+    box-shadow var(--t) var(--ease),
+    transform var(--t) var(--ease),
+    opacity var(--t-fast) var(--ease-soft),
+    outline-offset var(--t-fast) var(--ease-soft);
+}
+.btn:active,
+.chip:active,
+.compare-toggle:active,
+.save-toggle:active {
+  transform: translateY(0) scale(0.97);
+  transition-duration: 0.08s;
+}
+.prog-group:hover,
+.link-tile:hover {
+  transform: translateY(-2px);
+}
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--solid-primary) 18%, transparent);
+}
+
+/* A new page fades in; moving inside one profile only scrolls. */
+@keyframes route-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+#main.route-enter > * {
+  animation: route-in 0.34s var(--ease) both;
+}
+
+/* Blocks rise into place as they enter the viewport. The script adds .rv only
+   when it can also add .is-in, so nothing is ever left hidden. */
+.rv {
+  opacity: 0;
+  transform: translateY(16px);
+}
+.rv.is-in {
+  opacity: 1;
+  transform: none;
+  transition:
+    opacity var(--t-slow) var(--ease),
+    transform var(--t-slow) var(--ease);
+  transition-delay: var(--rv-delay, 0ms);
+}
+
+/* Photos fade in when they finish loading (the placeholder shows until then). */
+img.img-fade {
+  opacity: 0;
+  transition: opacity 0.45s var(--ease-soft);
+}
+img.img-fade.is-loaded {
+  opacity: 1;
+}
+.uni-card .card-cover-link img,
+.hero-photo img {
+  transition:
+    opacity 0.45s var(--ease-soft),
+    transform 0.6s var(--ease);
+}
+.uni-card:hover .card-cover-link img {
+  transform: scale(1.035);
+}
+
+/* Disclosure blocks open and close smoothly where the browser can animate
+   them; elsewhere the content simply fades in. */
+details::details-content {
+  block-size: 0;
+  overflow: clip;
+  opacity: 0;
+  transition:
+    block-size 0.32s var(--ease),
+    opacity 0.24s var(--ease-soft),
+    content-visibility 0.32s allow-discrete;
+}
+details[open]::details-content {
+  block-size: auto;
+  opacity: 1;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@supports not selector(::details-content) {
+  details[open] > *:not(summary) {
+    animation: fade-in 0.28s var(--ease-soft) both;
+  }
+}
+summary {
+  cursor: pointer;
+}
+
+/* The mobile menu slides down instead of appearing at once. */
+@media (max-width: 1180px) {
+  .nav-links {
+    transition:
+      opacity 0.22s var(--ease-soft),
+      transform 0.26s var(--ease),
+      display 0.26s allow-discrete;
+    transform-origin: top;
+  }
+  .nav-links[hidden] {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  @starting-style {
+    .nav-links:not([hidden]) {
+      opacity: 0;
+      transform: translateY(-8px);
+    }
+  }
+}
+.nav-toggle span,
+.nav-toggle span::before,
+.nav-toggle span::after {
+  transition:
+    transform 0.26s var(--ease),
+    background-color var(--t-fast) var(--ease-soft),
+    top 0.26s var(--ease);
+}
+
+/* Saving or adding to compare gives a small confirmation. */
+@keyframes pop {
+  0% {
+    transform: scale(1);
+  }
+  45% {
+    transform: scale(1.12);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.save-toggle[aria-pressed="true"],
+.compare-toggle[aria-pressed="true"] {
+  animation: pop 0.32s var(--ease) 1;
+}
+
+/* Results that are redrawn after a filter change fade in rather than blink. */
+.match-group,
+.results-level,
+.empty-state,
+.news-list > *,
+.saved-table {
+  animation: fade-in 0.3s var(--ease-soft) both;
+}
+
+/* Light/dark switch: colours cross-fade for a moment, then normal timings return. */
+html.theme-switching,
+html.theme-switching *,
+html.theme-switching *::before,
+html.theme-switching *::after {
+  transition:
+    background-color 0.35s var(--ease-soft),
+    color 0.35s var(--ease-soft),
+    border-color 0.35s var(--ease-soft),
+    box-shadow 0.35s var(--ease-soft),
+    fill 0.35s var(--ease-soft) !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rv,
+  .rv.is-in {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  img.img-fade {
+    opacity: 1;
+  }
+  #main.route-enter > *,
+  .save-toggle[aria-pressed="true"],
+  .compare-toggle[aria-pressed="true"] {
+    animation: none;
+  }
+  details::details-content {
+    transition: none;
+  }
+}
+@media print {
+  .rv,
+  img.img-fade {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
