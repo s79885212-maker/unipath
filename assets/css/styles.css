@@ -2727,17 +2727,50 @@ summary {
   animation: fade-in 0.3s var(--ease-soft) both;
 }
 
-/* Light/dark switch: colours cross-fade for a moment, then normal timings return. */
+/* Light/dark switch. Where the browser can, the new theme spreads over the
+   page as a growing circle (the script animates the clip); the old page
+   stays still underneath. */
+html.theme-reveal::view-transition-old(root),
+html.theme-reveal::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+html.theme-reveal::view-transition-old(root) {
+  z-index: 1;
+}
+html.theme-reveal::view-transition-new(root) {
+  z-index: 2;
+}
+html.theme-reveal *,
+html.theme-reveal *::before,
+html.theme-reveal *::after {
+  transition: none !important;
+}
+.theme-toggle > span {
+  animation: theme-icon 0.5s var(--ease) both;
+}
+@keyframes theme-icon {
+  from {
+    opacity: 0;
+    transform: rotate(-90deg) scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Elsewhere the colours cross-fade for a moment, then normal timings return. */
 html.theme-switching,
 html.theme-switching *,
 html.theme-switching *::before,
 html.theme-switching *::after {
   transition:
-    background-color 0.35s var(--ease-soft),
-    color 0.35s var(--ease-soft),
-    border-color 0.35s var(--ease-soft),
-    box-shadow 0.35s var(--ease-soft),
-    fill 0.35s var(--ease-soft) !important;
+    background-color 0.45s var(--ease-soft),
+    color 0.45s var(--ease-soft),
+    border-color 0.45s var(--ease-soft),
+    box-shadow 0.45s var(--ease-soft),
+    fill 0.45s var(--ease-soft) !important;
 }
 
 /* The highlight of the current menu item slides to the next one. The
@@ -2809,6 +2842,9 @@ html.theme-switching *::after {
   }
   .slide-marker {
     transition: none;
+  }
+  .theme-toggle > span {
+    animation: none;
   }
   #main.route-enter > *,
   .save-toggle[aria-pressed="true"],

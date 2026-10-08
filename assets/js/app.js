@@ -46,17 +46,39 @@
     var btn = document.querySelector('[data-theme-toggle]');
     if (btn) btn.setAttribute('aria-pressed', currentTheme() === 'dark' ? 'true' : 'false');
   }
-  function setTheme(t) {
-    /* Cross-fade the colours for a moment; the class is removed again so the
-       normal, shorter transitions apply afterwards. */
+  function setTheme(t, from) {
     var root = document.documentElement;
-    if (root.classList && global.setTimeout) {
-      root.classList.add('theme-switching');
-      global.setTimeout(function () { root.classList.remove('theme-switching'); }, 420);
+    function apply() {
+      root.setAttribute('data-theme', t);
+      try { global.localStorage.setItem(THEME_KEY, t); } catch (e) {}
+      syncThemeMeta();
     }
-    document.documentElement.setAttribute('data-theme', t);
-    try { global.localStorage.setItem(THEME_KEY, t); } catch (e) {}
-    syncThemeMeta();
+    var calm = global.matchMedia && global.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    /* The new theme spreads over the page as a circle growing from the
+       switch. Browsers without view transitions cross-fade the colours. */
+    if (!calm && document.startViewTransition && root.animate && !document.hidden) {
+      var w = global.innerWidth, h = global.innerHeight;
+      var x = from ? from.x : w - 60, y = from ? from.y : 32;
+      var r = Math.sqrt(Math.pow(Math.max(x, w - x), 2) + Math.pow(Math.max(y, h - y), 2));
+      var done = function () { root.classList.remove('theme-reveal'); };
+      root.classList.add('theme-reveal');
+      try {
+        var vt = document.startViewTransition(apply);
+        vt.ready.then(function () {
+          root.animate(
+            { clipPath: ['circle(0px at ' + x + 'px ' + y + 'px)', 'circle(' + Math.ceil(r) + 'px at ' + x + 'px ' + y + 'px)'] },
+            { duration: 620, easing: 'cubic-bezier(0.4, 0, 0.2, 1)', pseudoElement: '::view-transition-new(root)' }
+          );
+        }).catch(function () {});
+        vt.finished.then(done, done);
+        return;
+      } catch (e) { done(); }
+    }
+    if (!calm && root.classList && global.setTimeout) {
+      root.classList.add('theme-switching');
+      global.setTimeout(function () { root.classList.remove('theme-switching'); }, 520);
+    }
+    apply();
   }
   (function applySavedTheme() {
     try {
@@ -1261,7 +1283,8 @@
       }
 
       if (t.closest && t.closest('[data-theme-toggle]')) {
-        setTheme(currentTheme() === 'dark' ? 'light' : 'dark');
+        var tb = t.closest('[data-theme-toggle]').getBoundingClientRect();
+        setTheme(currentTheme() === 'dark' ? 'light' : 'dark', { x: tb.left + tb.width / 2, y: tb.top + tb.height / 2 });
         return;
       }
 
