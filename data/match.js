@@ -42,7 +42,7 @@ window.UNIPATH.match = {
     'university-of-sheffield': { currency: 'GBP', basis: 'tuition', min: 27650, max: 34670 },
     'university-of-aberdeen':  { currency: 'GBP', basis: 'tuition', min: 24800, max: 24800, note: 'Published tuition before the Aberdeen Global Scholarship; no award is subtracted here' },
     'bard-college-berlin':     { currency: 'EUR', basis: 'billed', min: 27500, max: 38250, note: 'Comprehensive fee; the higher figure includes housing and weekday meals' },
-    'berlin-international-university': { currency: 'EUR', basis: 'tuition', min: 8100, max: 8940 },
+    'berlin-international-university': { currency: 'EUR', basis: 'tuition', min: 8380, max: 9280, note: 'Non-EU rate, two semesters; a one-time €750 registration fee and the transportation ticket are extra' },
     'munich-business-school':  { currency: 'EUR', basis: 'tuition', min: 12840, max: 12840, note: '€44,940 across the whole programme' },
     'ebs-universitaet':        { currency: 'EUR', basis: 'tuition', min: 18160, max: 18160, note: '€54,480 across six semesters' },
     'whu-otto-beisheim':       { currency: 'EUR', basis: 'tuition', min: 18200, max: 18200 },

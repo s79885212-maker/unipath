@@ -50,7 +50,7 @@ window.UNIPATH.universities.push(
       { name: 'uni-assist preliminary documentation (VPD)', kind: 'documents', entryTerm: 'Winter', entryYear: '2027', dateISO: '2027-07-15', date: 'Before 15 July', binding: false, appliesTo: 'Applicants from outside the EU without a German school qualification', conditions: 'TUM requires a VPD from uni-assist before 15 July for the winter semester. A uni-assist application alone is not an application to TUM: you must also apply through TUMonline.', status: 'confirmed', source: 'https://www.tum.de/en/studies/application/application-info-portal/dates-periods-and-deadlines/', verified: '2026-09-24', note: null },
       { name: 'Application deadline — set per degree programme', kind: 'intake', entryTerm: 'Winter', entryYear: '2027', date: 'Published in each programme overview', binding: false, appliesTo: 'Bachelor applicants', conditions: 'TUM states that the deadline is given in each programme’s overview, and that the online application and all documents must be uploaded within it.', status: 'not-confirmed', source: 'https://www.tum.de/en/studies/application/application-info-portal/dates-periods-and-deadlines/', verified: '2026-09-24', note: 'The programme-specific dates for winter semester 2027/28 were not read during this check.' },
     ],
-    applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null, note: 'uni-assist charges its own fee for the preliminary review; the amount is set by uni-assist.' },
+    applicationFee: {"amount": 75, "currency": "EUR", "waiverAvailableToInternational": null, "waiver": null, "note": "Paid to uni-assist, not to the university: TUM requires applicants who did not obtain their entrance qualification in the German education system to apply for a preliminary documentation (VPD) from uni-assist. uni-assist charges EUR 75 for the first chosen course of study in a semester and EUR 30 for each additional one, whatever the result; it notes that some universities pay this fee for their applicants.", "source": "https://www.uni-assist.de/en/how-to-apply/pay-all-fees/handling-fees/", "verified": "2026-10-11"},
     documents: [
       'School-leaving certificate and transcripts, reviewed by uni-assist (VPD) if issued outside Germany',
       'Half-year grades from the last two years of secondary school (used in the aptitude assessment)',
@@ -1083,7 +1083,7 @@ window.UNIPATH.universities.push(
     deadlines: [
       { name: 'Application for winter 2027 intake', kind: 'intake', entryTerm: 'winter', entryYear: '2027', date: 'Not confirmed', status: 'not-confirmed', binding: false, appliesTo: 'Bachelor applicants', conditions: 'Application dates are published by the university; the dates for this intake were not read during this check.', source: 'https://www.hs-anhalt.de/en/study/paths-to-university/your-application.html', verified: '2026-09-23', note: null }
     ],
-    applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check; applications through uni-assist carry a separate uni-assist handling fee.' },
+    applicationFee: {"amount": 75, "currency": "EUR", "waiverAvailableToInternational": null, "waiver": null, "note": "Paid to uni-assist, not to the university: applicants with an international university entrance qualification apply through uni-assist, unless they hold a Studienkolleg FSP result or a ZAB certificate evaluation. uni-assist charges EUR 75 for the first chosen course of study in a semester and EUR 30 for each additional one, whatever the result; it notes that some universities pay this fee for their applicants.", "source": "https://www.uni-assist.de/en/how-to-apply/pay-all-fees/handling-fees/", "verified": "2026-10-11"},
     documents: ['School-leaving certificate giving access to higher education', 'Transcripts', 'Proof of English for the English-taught programme'],
     recommendations: null,
     essay: null,
@@ -1188,19 +1188,23 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'The German Abitur or an equivalent international qualification such as the IB Diploma, A-levels or a US high school diploma.'
   },
   costs: {
-    breakdown: { tuitionText: '€4,050–€4,470 per semester', period: 'semester', includes: 'tuition per semester by faculty; the Berlin ABC semester ticket of about €200 a semester is extra' },
-    academicYear: '2026–2027',
-    currency: 'EUR',
-    headline: '€4,050–€4,470 tuition per semester',
-    items: [
-      { label: 'Tuition — Faculty of Business Administration (per semester)', amount: 4050 },
-      { label: 'Tuition — Faculty of Architecture and Design (per semester)', amount: 4470 },
-      { label: 'Semester ticket (Berlin ABC)', text: 'About €200 per semester, compulsory' }
-    ],
-    billedSubtotal: null,
-    totalText: 'About €8,100–€8,940 a year in tuition plus the semester ticket',
-    note: 'Tuition is payable in six monthly instalments of €675 or €745 depending on the faculty.'
-  },
+      breakdown: {"tuitionText": "€4,190–€4,640 per semester for non-EU students", "period": "semester", "includes": "tuition per semester for non-EU students, by programme. The one-time registration fee of €750 and the transportation ticket of €226.80 a semester are charged on top"},
+      academicYear: null,
+      currency: 'EUR',
+      headline: "€4,190–€4,640 tuition per semester (non-EU)",
+      source: "https://www.berlin-international.de/en/admission/international-admission/",
+      verified: "2026-10-11",
+      studentCategory: "Non-EU students, bachelor programmes",
+      items: [
+        {"label": "Tuition — BA Business Administration, non-EU students (per semester)", "amount": 4190},
+        {"label": "Tuition — BA Architecture & Design, non-EU students (per semester)", "amount": 4640},
+        {"label": "Registration fee (one-time, non-refundable)", "amount": 750},
+        {"label": "Transportation ticket (per semester)", "amount": 226.8}
+      ],
+      billedSubtotal: null,
+      totalText: "€8,380–€9,280 a year in tuition for non-EU students, plus a one-time €750 registration fee and the transportation ticket",
+      note: "These are the fees the university lists for non-EU students; the page read does not print the academic year. The lower figures shown here earlier (€4,050 and €4,470 per semester) are not on that page. The yearly total is two semesters of the listed fee."
+    },
   scholarships: {
     fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
     merit: [],
@@ -2048,7 +2052,7 @@ window.UNIPATH.universities.push(
       { name: 'Winter semester — regular application period (bachelor’s programmes)', kind: 'application-window', entryTerm: 'winter', entryYear: '2027', date: '1 May – 15 July (regular period; the page gives no year)', binding: false, appliesTo: 'Bachelor applicants', conditions: 'Hof lists this as the regular period for programmes starting in the winter semester, the same for applicants with EU and non-EU entrance qualifications. Communication Design and Textile Design close on 15 June. Current deadlines, including extensions, are shown in the PRIMUSS application portal.', status: 'confirmed', source: 'https://www.hof-university.com/studying-at-hof-university/application-and-admission.html', verified: '2026-10-06', note: 'The page states regular periods that repeat each year and does not print a year.' },
       { name: 'Summer semester — Computer Science international (B.Sc.)', kind: 'application-window', entryTerm: 'summer', entryYear: '2027', date: '5–30 November for non-EU applicants; 5 November – 15 January for EU applicants (regular period; the page gives no year)', binding: false, appliesTo: 'Applicants to Computer Science international (B.Sc.)', conditions: 'This programme starts in the summer semester only; no application is possible for the winter semester.', status: 'confirmed', source: 'https://www.hof-university.com/studying-at-hof-university/application-and-admission.html', verified: '2026-10-06', note: 'The page states regular periods that repeat each year and does not print a year.' }
     ],
-    applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    applicationFee: {"amount": 75, "currency": "EUR", "waiverAvailableToInternational": null, "waiver": null, "note": "Paid to uni-assist, not to the university: bachelor applicants with a university entrance certificate from outside Germany, who have not completed a degree programme in the EU, must have their documents assessed by uni-assist before applying to Hof. uni-assist charges EUR 75 for the first chosen course of study in a semester and EUR 30 for each additional one, whatever the result; it notes that some universities pay this fee for their applicants.", "source": "https://www.uni-assist.de/en/how-to-apply/pay-all-fees/handling-fees/", "verified": "2026-10-11"},
     documents: ['Recognised school-leaving certificate', 'Transcripts', 'Proof of English'],
     recommendations: null,
     essay: null,
@@ -2456,7 +2460,7 @@ window.UNIPATH.universities.push(
       { name: 'Winter semester 2027/28 — applications with foreign certificates (via uni-assist)', kind: 'opens', entryTerm: 'Winter', entryYear: '2027', date: 'Expected to open at the beginning of April 2027', binding: false, appliesTo: 'First-year applicants with a foreign school-leaving certificate', conditions: 'Stralsund says applications for the winter semester 2027/28 can probably be made through uni-assist from the beginning of April 2027; the closing date had not been published when this was checked. First-year entry is in the winter semester only.', status: 'not-confirmed', source: 'https://www.hochschule-stralsund.de/en/studying-and-teaching/applications/application-and-enrolment/', verified: '2026-10-05', note: null },
       { name: 'Leisure and Tourism Management — application deadline (2026 intake)', kind: 'intake', entryTerm: 'Winter', entryYear: '2026', dateISO: '2026-07-15', date: '15 July 2026', binding: false, appliesTo: 'Applicants for the Leisure and Tourism Management bachelor', conditions: 'Published deadline for the 2026 intake; the equivalent 2027 date had not been published when this was checked', status: 'previous-cycle', source: 'https://www.hochschule-stralsund.de/en/host/schools/business-studies/study-programmes/leisure-and-tourism-management/', verified: '2026-09-23', note: null }
     ],
-    applicationFee: { amount: null, currency: 'EUR', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
+    applicationFee: {"amount": 75, "currency": "EUR", "waiverAvailableToInternational": null, "waiver": null, "note": "Paid to uni-assist, not to the university: applicants whose university entrance certificate is from a country other than Germany apply through the uni-assist online portal. uni-assist charges EUR 75 for the first chosen course of study in a semester and EUR 30 for each additional one, whatever the result; it notes that some universities pay this fee for their applicants.", "source": "https://www.uni-assist.de/en/how-to-apply/pay-all-fees/handling-fees/", "verified": "2026-10-11"},
     documents: ['Recognised school-leaving certificate', 'Transcripts', 'Proof of English and, for the German-taught parts, German'],
     recommendations: null,
     essay: null,
@@ -2616,13 +2620,7 @@ window.UNIPATH.universities.push(
         "note": "The same programme page also mentions 2 May as the opening date; THI’s general page says periods usually run from 1 April or 2 May to 15 July."
       }
     ],
-    "applicationFee": {
-      "amount": null,
-      "currency": "EUR",
-      "waiverAvailableToInternational": null,
-      "waiver": null,
-      "note": "THI’s own application fee was not found; uni-assist charges €75 for assessing the school certificate."
-    },
+    applicationFee: {"amount": 75, "currency": "EUR", "waiverAvailableToInternational": null, "waiver": null, "note": "Paid to uni-assist, not to the university: THI asks international applicants to apply through the uni-assist portal and says a VPD from uni-assist carries a processing fee. THI itself states that it never asks for money before the letter of admission. uni-assist charges EUR 75 for the first chosen course of study in a semester and EUR 30 for each additional one, whatever the result; it notes that some universities pay this fee for their applicants.", "source": "https://www.uni-assist.de/en/how-to-apply/pay-all-fees/handling-fees/", "verified": "2026-10-11"},
     "documents": [
       "Online application in PRIMUSS",
       "uni-assist preliminary review document (VPD) for a school certificate from abroad",
