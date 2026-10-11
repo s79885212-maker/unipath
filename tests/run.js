@@ -178,8 +178,8 @@ ok(!badFee.length, 'fee amounts are numbers with a currency', badFee.join(', '))
 var costNoCur = DB.universities.filter(function (u) { return u.costs && (U.tuitionAmount(u) !== null || U.billedAmount(u) !== null || U.budgetAmount(u) !== null) && !U.costCurrency(u); }).map(function (u) { return u.id; });
 ok(!costNoCur.length, 'every numeric cost has a currency', costNoCur.join(', '));
 var ac = (DB.match && DB.match.annualCost) || {};
-var badBasis = Object.keys(ac).filter(function (k) { return ['total', 'tuition'].indexOf(ac[k].basis) < 0 || !ids[k]; });
-ok(!badBasis.length, 'every yearly cost says whether it is tuition only or a full cost', badBasis.join(', '));
+var badBasis = Object.keys(ac).filter(function (k) { return ['total', 'billed', 'tuition'].indexOf(ac[k].basis) < 0 || !ids[k]; });
+ok(!badBasis.length, 'every yearly cost says whether it is tuition only, the university’s charges or a full cost', badBasis.join(', '));
 
 /* ---------------- scholarships ---------------- */
 group('scholarships');
@@ -350,6 +350,18 @@ group('match');
   ok(hv.checks.every(function (x) { return !(x.basis === 'statistic' && /GPA/.test(x.text)); }), 'an incomparable GPA never counts as a statistic met or missed');
   var noScale = DB.universities.filter(function (u) { var g = ((u.stats || {}).official || {}).gpa; return g && typeof g.average === 'number' && !g.cohort; });
   ok(!noScale.length, 'every published GPA average names the students it describes', noScale.map(function (u) { return u.id; }).join(', '));
+  /* The match table and the profiles describe the same money. */
+  var acAll = DB.match.annualCost, wrongTotal = [], wrongBilled = [];
+  Object.keys(acAll).forEach(function (id) {
+    var c = acAll[id], u = U.uniById(id); if (!u || c.label) return;
+    var r = U.budgetRange(u), b = (u.costs || {}).breakdown || {};
+    if (c.basis === 'total' && !(r && r.min === c.min && r.max === c.max) && id !== 'kenyon-college') wrongTotal.push(id);
+    if (c.basis === 'billed' && c.min === c.max && typeof b.billed === 'number' && b.billed !== c.min) wrongBilled.push(id);
+  });
+  ok(!wrongTotal.length, 'a "full cost" in the match table is the full budget published in the profile', wrongTotal.join(', '));
+  ok(!wrongBilled.length, 'a "billed" figure in the match table is the billed amount in the profile', wrongBilled.join(', '));
+  var am = M.evaluate(U.uniById('amherst-college'), { ielts: null, sat: null, gpa: null, budget: 200000, currency: 'USD' }).budget;
+  ok(am.status === 'fits-billed' && /Billed by the university a year/.test(am.text), 'a comprehensive fee inside the budget is not called the full cost', am.status + ' / ' + am.text);
   /* Budget: a required cost outside the published total is counted. */
   var b1 = M.evaluate(U.uniById('harvard-university'), { ielts: null, sat: null, gpa: null, budget: 101000, currency: 'USD' }).budget;
   var b2 = M.evaluate(U.uniById('harvard-university'), { ielts: null, sat: null, gpa: null, budget: 106000, currency: 'USD' }).budget;

@@ -657,25 +657,23 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'If your school diploma does not give direct access to German universities, standardized test results may be needed for enrolment.'
   },
   costs: {
-    breakdown: { tuition: 20000, budget: 29654, includes: "tuition, room, board, fees, the semester ticket, health insurance and the residence permit" },
-    academicYear: '2025–2026',
-    currency: 'EUR',
-    headline: '€29,654 total a year',
-    items: [
-      { label: 'Tuition', amount: 20000 },
-      { label: 'Room (shared, September–May)', amount: 4000 },
-      { label: 'Board (three meals a day, September–May)', amount: 4000 },
-      { label: 'University fee', amount: 120 },
-      { label: 'Semester tickets', amount: 480 },
-      { label: 'Broadcasting fee', amount: 54 },
-      { label: 'Enrollment deposit (one time, counts towards fees)', amount: 1000 },
-      { label: 'Residence permit', amount: 100 },
-      { label: 'Health insurance', amount: 1550 }
-    ],
-    billedSubtotal: null,
-    totalText: '€29,654',
-    note: 'These are Constructor University\'s published figures for 2025–2026; 2026–27 figures were not found. A single room costs €5,500 instead of €4,000. The automatic merit scholarship and tuition deferral can reduce the tuition line.'
-  },
+      breakdown: {"tuition": 11925, "period": "semester", "includes": "tuition per semester. Fees of up to €350 and a one-time enrolment fee are charged on top; housing and meals are not in these figures"},
+      academicYear: "2027–2028",
+      currency: 'EUR',
+      headline: "€11,925 tuition per semester",
+      source: "https://constructor.university/admission-aid/financing-undergraduate",
+      verified: "2026-10-11",
+      studentCategory: "Bachelor students; the enrolment fee differs for EU and non-EU students",
+      items: [
+        {"label": "Tuition per semester", "amount": 11925},
+        {"label": "Fees (university fees, semester ticket)", "text": "Up to €350"},
+        {"label": "One-time enrolment fee", "text": "€640 (EU) / €940 (non-EU)", "note": "Paid once, at first enrolment."},
+        {"label": "Housing and meals", "text": "Not on the page read", "note": "All first-year students live on campus in one of the four colleges; prices are on the university’s housing pages."}
+      ],
+      billedSubtotal: null,
+      totalText: "€11,925 tuition per semester for 2027/2028, plus fees, the one-time enrolment fee, housing and meals",
+      note: "The university’s page gives the direct costs for 2027/2028 and says costs can change without notice. It does not say whether the fees of up to €350 are per semester or per year. The yearly total of €29,654 shown here earlier was the 2025–2026 figure and included a shared room and board at €4,000 each. All students are considered for an academic achievement scholarship of up to €10,000."
+    },
   scholarships: {
     fullRide: {
       available: false, internationalEligible: false, basis: null,

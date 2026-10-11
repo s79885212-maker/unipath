@@ -1993,18 +1993,18 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Secondary school graduation with transcripts; TUJ also runs an entry-year programme for applicants who need it.'
   },
   costs: {
-    breakdown: { tuition: null, budget: 3500000, budgetText: 'About ¥3,500,000 for the first two semesters', includes: 'TUJ estimate covering tuition, school fees and living expenses for the first two semesters; the one-time matriculation fee of ¥434,100 is separate' },
-    academicYear: '2026–2027',
-    currency: 'JPY',
-    headline: 'About ¥3,500,000 for the first two semesters',
-    items: [
-      { label: 'Estimated tuition, fees and living costs (first two semesters)', amount: 3500000 },
-      { label: 'Matriculation fee (one-time)', amount: 434100 }
-    ],
-    billedSubtotal: null,
-    totalText: 'About ¥3,500,000 for the first year including living costs, plus the matriculation fee',
-    note: 'This is an estimate published by TUJ, not a tuition-only figure.'
-  },
+      breakdown: { tuition: null, budget: 3500000, budgetText: 'About ¥3,500,000 for the first two semesters', includes: 'TUJ estimate covering tuition, school fees and living expenses for the first two semesters; the one-time matriculation fee of ¥434,100 is separate' },
+      academicYear: '2026–2027',
+      currency: 'JPY',
+      headline: 'About ¥3,500,000 for the first two semesters',
+      items: [
+        {"label": "Estimated tuition, fees and living costs (first two semesters)", "amount": 3500000, "group": "estimate"},
+        {"label": "Matriculation fee (one-time, charged separately)", "amount": 434100, "group": "extra"}
+      ],
+      billedSubtotal: null,
+      totalText: 'About ¥3,500,000 for the first year including living costs, plus the matriculation fee',
+      note: 'This is an estimate published by TUJ, not a tuition-only figure.'
+    },
   scholarships: {
     fullRide: { available: false, internationalEligible: false, basis: 'merit', covers: { tuition: true, housing: false, meals: false, insurance: false, books: false }, renewable: null, competitiveness: 'Awards go up to 100% of tuition and are decided on merit.', howToApply: 'Considered through the admission process.', note: 'A 100% merit award covers tuition only — living costs in Tokyo and the matriculation fee remain payable, so this is not a full ride.' },
     merit: [

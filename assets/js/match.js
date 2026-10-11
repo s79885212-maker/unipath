@@ -165,8 +165,23 @@
     return { checks: checks, category: category, unchecked: unchecked, bases: bases, budget: budget(u, input) };
   }
 
-  function budget(u, input) {
+  /* The yearly figure of a university, with the required costs its profile
+     lists outside the published total. */
+  function costOf(u) {
     var c = data().annualCost[u.id];
+    if (!c) return null;
+    var ex = c.basis === 'total' && !c.label ? U.costExtras(u) : [];
+    if (!ex.length) return c;
+    var out = {};
+    Object.keys(c).forEach(function (k) { out[k] = c[k]; });
+    out.extras = ex.reduce(function (a, x) { return a + x.amount; }, 0);
+    out.extrasLabel = ex[0].label;
+    out.extrasMore = ex.length > 1;
+    return out;
+  }
+
+  function budget(u, input) {
+    var c = costOf(u);
     if (!c) return { status: 'unknown', text: 'No comparable yearly cost is recorded' };
     if (input.budget === null) return { status: 'none', text: costText(c, c.currency) };
     var lo = convert(c.min, c.currency, input.currency), hi = convert(c.max, c.currency, input.currency);
@@ -177,8 +192,9 @@
     var status = hi + extra <= input.budget ? 'fits'
       : hi <= input.budget ? 'fits-no-extras'
       : lo <= input.budget ? 'maybe' : 'over';
-    /* A tuition-only figure inside the budget is not a full year inside the budget. */
-    if (status === 'fits' && c.basis !== 'total') status = 'fits-tuition';
+    /* Only a published full budget inside the budget is a full year inside it. */
+    if (status === 'fits' && c.basis === 'billed') status = 'fits-billed';
+    else if (status === 'fits' && c.basis !== 'total') status = 'fits-tuition';
     return { status: status, text: costText(c, input.currency) };
   }
 
@@ -190,12 +206,14 @@
     var show = cur === c.currency ? function (x) { return U.money(Math.round(x), cur); } : function (x) { return money(x, cur); };
     var range = function (a, b) { return Math.round(a) === Math.round(b) ? show(a) : show(a) + ' – ' + show(b); };
     var amount = c.max === 0 ? 'no tuition' : range(lo, hi);
-    var label = c.basis === 'total' ? 'Full cost a year: ' + amount : 'Tuition a year: ' + amount + ' — living costs extra';
+    var label = c.basis === 'total' ? 'Full cost a year: ' + amount
+      : c.basis === 'billed' ? 'Billed by the university a year: ' + amount + ' — books, travel, personal costs and insurance extra'
+      : 'Tuition a year: ' + amount + ' — living costs extra';
     if (c.example) label += ' (one programme’s fee)';
     if (typeof c.extras === 'number') {
       var ex = convert(c.extras, c.currency, cur);
-      label += '. Not included: ' + show(ex) + ' — ' + (c.extrasLabel || 'a required cost outside the published total') +
-        '. With it: ' + range(lo + ex, hi + ex) + ' (calculated by UniPath)';
+      label += '. Not included: ' + show(ex) + ' — ' + (c.extrasLabel || 'a required cost') + (c.extrasMore ? ' and other required costs' : '') +
+        ', required and outside the published total. With it: ' + range(lo + ex, hi + ex) + ' (calculated by UniPath)';
     }
     return label;
   }
@@ -212,6 +230,7 @@
     fits: '<span class="badge badge-ok">Full cost within budget</span>',
     'fits-tuition': '<span class="badge badge-warn">Tuition within budget — living costs not included</span>',
     'fits-no-extras': '<span class="badge badge-warn">Published total within budget — required extra costs are not</span>',
+    'fits-billed': '<span class="badge badge-warn">University charges within budget — other costs not included</span>',
     maybe: '<span class="badge badge-warn">Depends on programme</span>',
     over: '<span class="badge">Above budget</span>',
     unknown: '<span class="badge">Cost not recorded</span>',
@@ -346,7 +365,7 @@
     }
 
     var rows = list.map(function (u) { return { u: u, r: evaluate(u, input) }; });
-    var budgetRank = { fits: 0, 'fits-no-extras': 1, 'fits-tuition': 1, maybe: 2, none: 3, unknown: 4, over: 5 };
+    var budgetRank = { fits: 0, 'fits-no-extras': 1, 'fits-billed': 1, 'fits-tuition': 1, maybe: 2, none: 3, unknown: 4, over: 5 };
     var entered = [], missing = [];
     (input.ielts !== null ? entered : missing).push('IELTS');
     (input.sat !== null ? entered : missing).push('SAT');
@@ -389,5 +408,5 @@
       '</div></article>';
   }
 
-  global.UPMatch = { render: render, evaluate: evaluate, checkField: checkField };
+  global.UPMatch = { render: render, evaluate: evaluate, checkField: checkField, costOf: costOf };
 })(window);

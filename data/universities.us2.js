@@ -168,24 +168,30 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Applicants who attended high schools both in and outside the US should check Dartmouth’s testing FAQ for which rule applies.'
   },
   costs: {
-    breakdown: { tuition: 71697, billed: 95382, budget: 98427, includes: "tuition, fees, housing and food; the full budget adds books and personal expenses (health insurance and a computer allowance are extra)" },
-    academicYear: '2026–2027',
-    currency: 'USD',
-    headline: '$98,427 total budget',
-    items: [
-      { label: 'Tuition', amount: 71697 },
-      { label: 'Fees', amount: 2157 },
-      { label: 'Housing', amount: 13032 },
-      { label: 'Food', amount: 8496 },
-      { label: 'Books, course materials and supplies', amount: 1005 },
-      { label: 'Personal expenses', amount: 2040 },
-      { label: 'Health insurance', amount: 5216 },
-      { label: 'Computer (entering students)', amount: 1700 }
-    ],
-    billedSubtotal: 95382,
-    totalText: '$98,427 total budget, plus health insurance and a computer allowance for new students',
-    note: 'Dartmouth’s published 2026–27 budget for the three-term year. Travel is added at a minimum of $250.'
-  },
+      breakdown: {"tuition": 71697, "billed": 95382, "budget": 98427, "includes": "tuition, fees, housing and food for three terms (billed by Dartmouth), plus books and personal expenses. Health insurance, the computer and the one-time first-year charges are outside this total"},
+      academicYear: '2026–2027',
+      currency: 'USD',
+      headline: '$98,427 total budget',
+      source: "https://financialaid.dartmouth.edu/cost-attendance/cost-attendance-2026-2027",
+      verified: "2026-10-11",
+      studentCategory: "All undergraduates, three terms of enrolment",
+      items: [
+        {"label": "Tuition", "amount": 71697, "group": "billed"},
+        {"label": "Fees", "amount": 2157, "group": "billed"},
+        {"label": "Housing", "amount": 13032, "group": "billed"},
+        {"label": "Food", "amount": 8496, "group": "billed"},
+        {"label": "Books, course materials, supplies and equipment", "amount": 1005, "group": "estimate"},
+        {"label": "Personal expenses", "amount": 2040, "group": "estimate"},
+        {"label": "Computer (entering students)", "amount": 1700, "group": "extra", "note": "Entering students must have a computer that meets Dartmouth’s requirements; they may bring their own or buy the basic package at this price. Not part of the $98,427 budget."},
+        {"label": "One-time charges for first-time students", "amount": 519, "group": "extra", "note": "$269 for records and class dues and $250 for meals during orientation, charged in addition to the fees above. Not part of the $98,427 budget."}
+      ],
+      billedSubtotal: 95382,
+      totalText: "$98,427 total budget, of which $95,382 is billed by Dartmouth",
+      extras: [
+        {"label": "Student Group Health Insurance Plan", "amount": 5216, "required": true, "condition": "All students must buy it unless they certify to Health Services that a comparable medical plan covers them.", "year": "2026–2027"}
+      ],
+      note: "Dartmouth’s published 2026–27 budget for three terms. A travel allowance of at least $250, set by distance to Hanover, is added to each student’s own cost of attendance and is not in this table."
+    },
   scholarships: {
     fullRide: {
       available: true, internationalEligible: true, basis: 'need-based',
@@ -1442,20 +1448,28 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Applications are read in the context of the school and country where the applicant studied.'
   },
   costs: {
-    breakdown: { tuition: 71325, billed: 94101, budget: 98301, budgetText: "$98,301–$98,676", includes: "tuition, the student services fee, housing and food; health insurance is added unless waived" },
-    academicYear: '2025–2026',
-    currency: 'USD',
-    headline: '$98,301 total (2025–26)',
-    items: [
-      { label: 'Tuition', amount: 71325 },
-      { label: 'Student services fee and UPASS', amount: 1941 },
-      { label: 'Housing and food', amount: 20835 },
-      { label: 'Student health insurance (if not waived)', amount: 4998 }
-    ],
-    billedSubtotal: 94101,
-    totalText: '$98,301–$98,676 for 2025–26, the most recent year published on the pages consulted',
-    note: 'The 2026–27 figures are published by the Bursar, whose site could not be read from here. From autumn 2027 UChicago has announced free tuition for families earning under $250,000 and free housing and food under $125,000; the announcement does not say whether international students are included.'
-  },
+      breakdown: {"tuition": 75960, "billed": 99369, "budget": 103821, "includes": "tuition, the Student Services Fee, the UPASS fee and food and housing on campus, plus books, personal expenses and a travel allowance. The Class Fee and health insurance are not included"},
+      academicYear: "2026–2027",
+      currency: 'USD',
+      headline: "$103,821 total (2026–27)",
+      source: "https://financialaid.uchicago.edu/undergraduate/how-aid-works/undergraduate-costs/",
+      verified: "2026-10-11",
+      studentCategory: "Undergraduates living on campus",
+      items: [
+        {"label": "Tuition", "amount": 75960, "group": "billed"},
+        {"label": "Student Services Fee", "amount": 1677, "group": "billed"},
+        {"label": "UPASS fee", "amount": 318, "group": "billed"},
+        {"label": "Food and housing (average room, Unlimited meal plan)", "amount": 21414, "group": "billed"},
+        {"label": "Books and course materials", "amount": 1800, "group": "estimate"},
+        {"label": "Miscellaneous personal expenses", "amount": 1950, "group": "estimate"},
+        {"label": "Travel allowance", "amount": 702, "group": "estimate", "note": "An estimate that varies with the student’s home region."},
+        {"label": "Class Fee", "amount": 720, "group": "extra", "note": "Students enrolling at UChicago for the first time in 2026 are charged it in each of their first two years. Not in the published total."},
+        {"label": "Health insurance", "text": "Not included; amount not on the page read", "group": "extra", "note": "UChicago states that health insurance is not included in the cost figures and refers to its student insurance pages."}
+      ],
+      billedSubtotal: 99369,
+      totalText: "$103,821 for a student living on campus in 2026–27",
+      note: "UChicago prints no subtotal; $99,369 is tuition, the two fees and on-campus food and housing added together. From autumn 2027 UChicago has announced free tuition for families earning under $250,000 and free housing and food under $125,000; the announcement does not say whether international students are included."
+    },
   scholarships: {
     fullRide: {
       available: true, internationalEligible: true, basis: 'need-based',
@@ -1744,23 +1758,27 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
-    breakdown: { tuition: 70300, billed: 93854, budget: 97948, includes: "tuition, fees, housing and food; the full budget adds travel, personal expenses and books" },
-    academicYear: '2026–2027',
-    currency: 'USD',
-    headline: '$97,948 total (estimated)',
-    items: [
-      { label: 'Tuition', amount: 70300 },
-      { label: 'Fees', amount: 1148 },
-      { label: 'Housing', amount: 13222 },
-      { label: 'Food', amount: 9184 },
-      { label: 'Travel', amount: 1100 },
-      { label: 'Personal expenses', amount: 1620 },
-      { label: 'Books', amount: 1286 }
-    ],
-    billedSubtotal: 93854,
-    totalText: '$97,948 estimated for the year, of which $93,854 is billed by Emory',
-    note: 'The published total does not include Emory’s health insurance requirement; students without comparable cover are enrolled in the university plan.'
-  },
+      breakdown: { tuition: 70300, billed: 93854, budget: 97948, includes: "tuition, fees, housing and food; the full budget adds travel, personal expenses and books" },
+      academicYear: '2026–2027',
+      currency: 'USD',
+      headline: '$97,948 total (estimated)',
+      source: "https://studentaid.emory.edu/_includes/documents/sections/undergraduate/apply/cost-of-attendance-worksheet.pdf",
+      verified: "2026-10-11",
+      studentCategory: "Undergraduates in a residence hall",
+      items: [
+        {"label": "Tuition", "amount": 70300, "group": "billed"},
+        {"label": "Fees (athletic, activity, health and wellness)", "amount": 1148, "group": "billed"},
+        {"label": "Housing (average room)", "amount": 13222, "group": "billed"},
+        {"label": "Food (mandatory food charge)", "amount": 9184, "group": "billed"},
+        {"label": "Travel (a modest allowance)", "amount": 1100, "group": "estimate"},
+        {"label": "Personal", "amount": 1620, "group": "estimate"},
+        {"label": "Books", "amount": 1286, "group": "estimate"},
+        {"label": "Direct Loan fees", "amount": 88, "group": "estimate", "note": "Counted in the published total; it applies only to students who take a US federal Direct Loan."}
+      ],
+      billedSubtotal: 93854,
+      totalText: '$97,948 estimated for the year, of which $93,854 is billed by Emory',
+      note: "From Emory’s Cost of Attendance Worksheet 2026–2027, last updated 1 July 2026. The worksheet states that the total does not include an allowance for Emory’s health insurance requirement: students not covered by a comparable plan are enrolled automatically in the university plan. Orientation fees and parking can also be billed."
+    },
   scholarships: {
     fullRide: {
       available: null, internationalEligible: true, basis: 'need-based',
@@ -1957,21 +1975,25 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Richmond evaluates translated transcripts from national curricula as well as AP, IB and A-Levels.'
   },
   costs: {
-    breakdown: { tuition: 70725, billed: 89540, budget: 92320, includes: "tuition, housing and food; the full budget adds books and personal expenses" },
-    academicYear: '2026–2027',
-    currency: 'USD',
-    headline: '$92,320 total cost',
-    items: [
-      { label: 'Tuition', amount: 70725 },
-      { label: 'Housing', amount: 8705 },
-      { label: 'Food', amount: 10110 },
-      { label: 'Books and supplies', amount: 1000 },
-      { label: 'Personal expenses', amount: 1710 }
-    ],
-    billedSubtotal: 89540,
-    totalText: '$92,320 in total, of which $89,540 is billed by the university',
-    note: 'Richmond also publishes a lower figure, $79,985, for students living with their parents.'
-  },
+      breakdown: {"tuition": 70725, "billed": 89540, "budget": 92320, "includes": "tuition, housing and food (direct costs), plus books, personal expenses and $70 of Direct Loan fees (indirect costs)"},
+      academicYear: '2026–2027',
+      currency: 'USD',
+      headline: '$92,320 total cost',
+      source: "https://financialaid.richmond.edu/applying/cost.html",
+      verified: "2026-10-11",
+      studentCategory: "Undergraduates living on campus",
+      items: [
+        {"label": "Tuition", "amount": 70725, "group": "billed"},
+        {"label": "Housing", "amount": 8705, "group": "billed"},
+        {"label": "Food", "amount": 10110, "group": "billed"},
+        {"label": "Books and supplies", "amount": 1000, "group": "estimate"},
+        {"label": "Personal expenses", "amount": 1710, "group": "estimate"},
+        {"label": "Direct Loan fees, if applicable", "amount": 70, "group": "estimate", "note": "Counted in the published total; it applies only to students who take a US federal Direct Loan."}
+      ],
+      billedSubtotal: 89540,
+      totalText: '$92,320 in total, of which $89,540 is billed by the university',
+      note: 'Richmond also publishes a lower figure, $79,985, for students living with their parents.'
+    },
   scholarships: {
     fullRide: {
       available: true, internationalEligible: true, basis: 'need-based',
@@ -2557,25 +2579,28 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
-    breakdown: { tuition: 73090, billed: 92770, budget: 95995, includes: "tuition, fees, housing and food; the full budget adds books, transport and personal expenses for international first-years" },
-    academicYear: '2026–2027',
-    currency: 'USD',
-    headline: '$95,995 for international first-years',
-    items: [
-      { label: 'Tuition', amount: 73090 },
-      { label: 'Required fees', amount: 650 },
-      { label: 'Orientation fee (first year only)', amount: 250 },
-      { label: 'Housing', amount: 9220 },
-      { label: 'Food', amount: 9560 },
-      { label: 'Books, course materials and supplies', amount: 825 },
-      { label: 'Transportation (international students)', amount: 1000 },
-      { label: 'Personal expenses', amount: 1400 },
-      { label: 'Health insurance', amount: 2800 }
-    ],
-    billedSubtotal: 92770,
-    totalText: '$95,995 for an international first-year, of which $92,770 is billed; health insurance adds $2,800',
-    note: 'Davidson publishes separate budgets for domestic and international students; the difference is the travel allowance.'
-  },
+      breakdown: {"tuition": 73090, "billed": 92770, "budget": 95995, "includes": "tuition, required fees, the orientation fee, housing and food (billed), plus books, transportation and personal expenses for an international first-year student. The college’s health insurance is not in this total"},
+      academicYear: '2026–2027',
+      currency: 'USD',
+      headline: '$95,995 for international first-years',
+      source: "https://www.davidson.edu/admission-and-financial-aid/cost-attendance",
+      verified: "2026-10-11",
+      studentCategory: "First-year international students living on campus",
+      items: [
+        {"label": "Tuition", "amount": 73090, "group": "billed"},
+        {"label": "Required fees", "amount": 650, "group": "billed"},
+        {"label": "Orientation fee (first semester only)", "amount": 250, "group": "billed"},
+        {"label": "Housing (double room)", "amount": 9220, "group": "billed"},
+        {"label": "Food", "amount": 9560, "group": "billed"},
+        {"label": "Books, course materials, supplies and equipment", "amount": 825, "group": "estimate"},
+        {"label": "Transportation (international first-year students)", "amount": 1000, "group": "estimate"},
+        {"label": "Miscellaneous personal expenses", "amount": 1400, "group": "estimate"},
+        {"label": "Health insurance (the college’s plan)", "amount": 2800, "group": "extra", "note": "Listed apart from the total, which Davidson prints as “without college’s health insurance”. The page read does not say who must buy it."}
+      ],
+      billedSubtotal: 92770,
+      totalText: "$95,995 for an international first-year, of which $92,770 is billed; the total is printed “without college’s health insurance”",
+      note: 'Davidson publishes separate budgets for domestic and international students; the difference is the travel allowance.'
+    },
   scholarships: {
     fullRide: {
       available: true, internationalEligible: true, basis: 'need-based',
@@ -2659,22 +2684,28 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
-    breakdown: { tuition: 73582, billed: 91938, budget: 93338, budgetText: "From $93,338", includes: "tuition (books included), the activity fee, housing and food; the full budget adds personal expenses and travel" },
-    academicYear: '2026–2027',
-    currency: 'USD',
-    headline: '$93,338 and up',
-    items: [
-      { label: 'Tuition (required books and course materials included)', amount: 73582 },
-      { label: 'Activity fee', amount: 572 },
-      { label: 'Housing (basic room)', amount: 8316 },
-      { label: 'Food (full meal plan)', amount: 9468 },
-      { label: 'Personal expenses', amount: 1100 },
-      { label: 'Transportation (students from outside the US)', amount: 1300 }
-    ],
-    billedSubtotal: 91938,
-    totalText: 'From $93,338 a year; Grinnell budgets $1,300 of travel for students from outside the US',
-    note: 'Required books and course materials are included in tuition. Student health insurance costs $2,769 for 2026–27.'
-  },
+      breakdown: {"tuition": 73582, "billed": 91938, "budget": 94338, "budgetText": "$94,338 with travel from outside the US", "includes": "tuition with books, the activity fee, housing and food (billed), plus personal expenses and transportation. Grinnell’s table prints $93,338+ with the $300 minimum for transportation; with the $1,300 it gives for students from outside the US the same lines come to $94,338. Health insurance is not in the table"},
+      academicYear: '2026–2027',
+      currency: 'USD',
+      headline: "$94,338 with travel from outside the US",
+      source: "https://www.grinnell.edu/admission/financial-aid/cost-attendance",
+      verified: "2026-10-11",
+      studentCategory: "Students living on campus in a basic room, travelling from outside the US",
+      items: [
+        {"label": "Tuition (required books and course materials included)", "amount": 73582, "group": "billed"},
+        {"label": "Activity fee", "amount": 572, "group": "billed"},
+        {"label": "Housing (basic room)", "amount": 8316, "group": "billed"},
+        {"label": "Food (Meal Plan 1, the full plan)", "amount": 9468, "group": "billed"},
+        {"label": "Miscellaneous personal expenses", "amount": 1100, "group": "estimate"},
+        {"label": "Transportation (students from outside the US)", "amount": 1300, "group": "estimate", "note": "The table prints “$300+”; the footnote gives $1,300 for students from Alaska, Hawaii, US territories or outside the US."}
+      ],
+      billedSubtotal: 91938,
+      totalText: "$93,338+ as printed (with $300 of transportation); $94,338 with the $1,300 Grinnell gives for students from outside the US",
+      extras: [
+        {"label": "Student health insurance", "amount": 2769, "required": true, "condition": "Charged on the fall semester bill. A waiver can be requested by students covered under another plan with in-network benefits in Iowa.", "year": "2026–2027"}
+      ],
+      note: "Required books and course materials are included in tuition. The $94,338 is the published lines added with the transportation figure for students from outside the US; the table itself prints $93,338+."
+    },
   scholarships: {
     fullRide: {
       available: true, internationalEligible: true, basis: 'need-based',
@@ -2980,24 +3011,28 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
-    breakdown: { tuition: 74930, billed: 96347, budget: 100026, includes: "tuition, fees, housing and food; the full budget adds books, personal expenses and extra meals" },
-    academicYear: '2026–2027',
-    currency: 'USD',
-    headline: '$100,026 total for first-years',
-    items: [
-      { label: 'Tuition', amount: 74930 },
-      { label: 'Student government fee', amount: 552 },
-      { label: 'Housing', amount: 12458 },
-      { label: 'Food', amount: 8096 },
-      { label: 'Orientation fee (first-year students only)', amount: 311 },
-      { label: 'Books and supplies', amount: 1340 },
-      { label: 'Personal expenses', amount: 1864 },
-      { label: 'Additional meals', amount: 405 }
-    ],
-    billedSubtotal: 96347,
-    totalText: '$100,026 in total for a first-year student, of which $96,347 is billed by the College',
-    note: 'The student health insurance plan costs $2,330 for 2026–27 if you need it.'
-  },
+      breakdown: { tuition: 74930, billed: 96347, budget: 100026, includes: "tuition, fees, housing and food; the full budget adds books, personal expenses and extra meals" },
+      academicYear: '2026–2027',
+      currency: 'USD',
+      headline: '$100,026 total for first-years',
+      source: "https://www.haverford.edu/financial-aid/cost-of-attendance",
+      verified: "2026-10-11",
+      studentCategory: "First-year students living on campus",
+      items: [
+        {"label": "Tuition", "amount": 74930, "group": "billed"},
+        {"label": "Student government fee", "amount": 552, "group": "billed"},
+        {"label": "Housing", "amount": 12458, "group": "billed"},
+        {"label": "Food", "amount": 8096, "group": "billed"},
+        {"label": "Orientation fee (first-year students only)", "amount": 311, "group": "billed"},
+        {"label": "Books and supplies", "amount": 1340, "group": "estimate"},
+        {"label": "Personal expenses", "amount": 1864, "group": "estimate"},
+        {"label": "Additional meals", "amount": 405, "group": "estimate"},
+        {"label": "Student loan fees", "amount": 70, "group": "estimate", "note": "Counted in the published total; it applies to students who borrow."}
+      ],
+      billedSubtotal: 96347,
+      totalText: '$100,026 in total for a first-year student, of which $96,347 is billed by the College',
+      note: 'The student health insurance plan costs $2,330 for 2026–27 if you need it.'
+    },
   scholarships: {
     fullRide: {
       available: true, internationalEligible: true, basis: 'need-based',
@@ -3089,23 +3124,28 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'IB students need Higher Level Maths and A-Level students need A-Level Maths; students in India must complete both Class X and XII board exams.'
   },
   costs: {
-    breakdown: { tuition: 68574, billed: 93225, budget: 98622, includes: "tuition, fees, housing and food; the full budget adds books and personal expenses (health insurance is extra)" },
-    academicYear: '2026–2027',
-    currency: 'USD',
-    headline: '$98,622 total cost',
-    items: [
-      { label: 'Tuition', amount: 68574 },
-      { label: 'Fees', amount: 2655 },
-      { label: 'Housing', amount: 12711 },
-      { label: 'Food and meals', amount: 9285 },
-      { label: 'Books, course materials, supplies and equipment', amount: 1428 },
-      { label: 'Personal expenses', amount: 3969 },
-      { label: 'Student health insurance (if not waived)', amount: 5388 }
-    ],
-    billedSubtotal: 93225,
-    totalText: '$98,622 for the nine-month year, of which $93,225 is billed by Caltech; health insurance is extra',
-    note: 'Aid recipients who join the Caltech health plan can have its cost added to their budget and covered by grant.'
-  },
+      breakdown: {"tuition": 68574, "billed": 93225, "budget": 98622, "includes": "tuition, fees, housing and food (direct costs), plus books and personal expenses (indirect costs). The fees do not include the Caltech Student Health Insurance Plan"},
+      academicYear: '2026–2027',
+      currency: 'USD',
+      headline: '$98,622 total cost',
+      source: "https://www.finaid.caltech.edu/costs",
+      verified: "2026-10-11",
+      studentCategory: "Undergraduates living on campus",
+      items: [
+        {"label": "Tuition", "amount": 68574, "group": "billed"},
+        {"label": "Fees", "amount": 2655, "group": "billed"},
+        {"label": "Housing", "amount": 12711, "group": "billed"},
+        {"label": "Food and meals", "amount": 9285, "group": "billed"},
+        {"label": "Books, course materials, supplies and equipment", "amount": 1428, "group": "estimate"},
+        {"label": "Personal expenses", "amount": 3969, "group": "estimate"}
+      ],
+      billedSubtotal: 93225,
+      totalText: "$98,622 cost of attendance, of which $93,225 is billed by Caltech",
+      extras: [
+        {"label": "Caltech Student Health Insurance Plan", "amount": 5388, "required": true, "condition": "Not required from students who have coverage through a comparable plan.", "year": "2026–2027"}
+      ],
+      note: 'Aid recipients who join the Caltech health plan can have its cost added to their budget and covered by grant.'
+    },
   scholarships: {
     fullRide: {
       available: true, internationalEligible: true, basis: 'need-based',
@@ -4253,19 +4293,27 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
-    breakdown: { tuition: 71178, billed: 92774, comprehensive: true, budget: 93046, includes: "a comprehensive fee covering tuition, housing and food" },
-    academicYear: '2026–2027',
-    currency: 'USD',
-    headline: '$92,774 comprehensive fee',
-    items: [
-      { label: 'Tuition', amount: 71178 },
-      { label: 'Housing', amount: 10836 },
-      { label: 'Food', amount: 10760 }
-    ],
-    billedSubtotal: 92774,
-    totalText: '$92,774 comprehensive fee; Mount Holyoke’s estimated cost of attendance is $93,046',
-    note: 'Books, travel and personal expenses are additional.'
-  },
+      breakdown: {"tuition": 71178, "billed": 93046, "includes": "tuition, housing, food and the student activity fee — the charges Mount Holyoke bills. Books, travel, personal expenses and health insurance are extra; the college gives estimates for them but no total"},
+      academicYear: '2026–2027',
+      currency: 'USD',
+      headline: "$93,046 in tuition, housing, food and fee",
+      source: "https://www.mtholyoke.edu/admission/apply-undergraduate-first-year/affording-mount-holyoke/tuition-and-fees",
+      verified: "2026-10-11",
+      studentCategory: "Undergraduates living on campus",
+      items: [
+        {"label": "Tuition", "amount": 71178, "group": "billed"},
+        {"label": "Housing", "amount": 10836, "group": "billed"},
+        {"label": "Food", "amount": 10760, "group": "billed"},
+        {"label": "Student activity fee", "amount": 272, "group": "billed"},
+        {"label": "Books and supplies (estimate)", "amount": 1000, "group": "extra"},
+        {"label": "Travel and transportation (estimate)", "text": "$0–$1,500", "group": "extra"},
+        {"label": "Personal expenses (estimate)", "amount": 1000, "group": "extra"},
+        {"label": "Health insurance", "text": "Amount not on the page read", "group": "extra", "note": "The college says all students must have health insurance under state law and that it enrols every student in its own plan; only US citizens and permanent residents can waive it, so international students pay it."}
+      ],
+      billedSubtotal: 93046,
+      totalText: "$93,046 in undergraduate charges for 2026–27",
+      note: "Mount Holyoke publishes the charges and separate estimates for books, travel and personal expenses, but no single cost of attendance. Health insurance may be an additional billed cost."
+    },
   scholarships: {
     fullRide: {
       available: true, internationalEligible: true, basis: 'need-based',
@@ -4351,22 +4399,28 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'National exams such as the IB and A-Levels are submitted with the transcript.'
   },
   costs: {
-    breakdown: { tuition: 71290, billed: 94291, budget: 97547, includes: "tuition, housing, food and college fees; the full budget adds books and miscellaneous expenses" },
-    academicYear: '2026–2027',
-    currency: 'USD',
-    headline: '$97,547 total cost (estimated)',
-    items: [
-      { label: 'Tuition', amount: 71290 },
-      { label: 'Food and housing', amount: 21440 },
-      { label: 'College fee', amount: 1120 },
-      { label: 'Student Government Association dues', amount: 441 },
-      { label: 'Books and supplies', amount: 1000 },
-      { label: 'Miscellaneous expenses', amount: 1000 }
-    ],
-    billedSubtotal: 94291,
-    totalText: '$97,547 estimated cost of attendance, before travel',
-    note: 'Bryn Mawr’s Beacon Initiative — free tuition below $175,000 of income — is for US families.'
-  },
+      breakdown: {"tuition": 71290, "billed": 95471, "budget": 97547, "includes": "the lines Bryn Mawr lists as billed directly — tuition, food and housing, the college fee, the continuing enrollment fee and student government dues — plus books, miscellaneous expenses and loan fees. Travel is not in the total"},
+      academicYear: '2026–2027',
+      currency: 'USD',
+      headline: '$97,547 total cost (estimated)',
+      source: "https://www.brynmawr.edu/admissions-aid/financial-aid/tuition-fees-costs",
+      verified: "2026-10-11",
+      studentCategory: "Undergraduates living on campus",
+      items: [
+        {"label": "Tuition", "amount": 71290, "group": "billed"},
+        {"label": "Food and housing", "amount": 21440, "group": "billed"},
+        {"label": "College fee", "amount": 1120, "group": "billed"},
+        {"label": "Student Government Association dues", "amount": 441, "group": "billed"},
+        {"label": "Continuing Enrollment Fee ($590 per semester)", "amount": 1180, "group": "billed", "note": "Listed among the direct costs at $590 per semester. The published total is reached only with both semesters of it counted."},
+        {"label": "Books and supplies", "amount": 1000, "group": "estimate"},
+        {"label": "Miscellaneous expenses", "amount": 1000, "group": "estimate"},
+        {"label": "Loan fees", "amount": 76, "group": "estimate", "note": "Counted in the published total; it applies to students who borrow."},
+        {"label": "Travel", "text": "Varies with distance from home", "group": "extra"}
+      ],
+      billedSubtotal: 95471,
+      totalText: "$97,547 estimated cost of attendance, before travel",
+      note: "Bryn Mawr prints no subtotal for direct costs; $95,471 is the five lines it lists as billed directly, added together. Bryn Mawr’s Beacon Initiative — free tuition below $175,000 of income — is for US families."
+    },
   scholarships: {
     fullRide: {
       available: true, internationalEligible: true, basis: 'need-based',
@@ -5380,18 +5434,18 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
-    breakdown: { budget: 92900, includes: "the published cost of attendance, including a $4,500 allowance for personal expenses and books" },
-    academicYear: '2025–2026',
-    currency: 'USD',
-    headline: '$92,900 total (2025–26)',
-    items: [
-      { label: 'Cost of attendance', amount: 92900 },
-      { label: 'Allowance for personal expenses and books (included)', amount: 4500 }
-    ],
-    billedSubtotal: null,
-    totalText: '$92,900 for 2025–26, the latest figure found',
-    note: 'Denison’s tuition, housing and food charges exclude books, transport and health insurance.'
-  },
+      breakdown: { budget: 92900, includes: "the published cost of attendance, including a $4,500 allowance for personal expenses and books" },
+      academicYear: '2025–2026',
+      currency: 'USD',
+      headline: '$92,900 total (2025–26)',
+      items: [
+        {"label": "Cost of attendance", "amount": 92900, "group": "estimate"},
+        {"label": "Allowance for personal expenses and books (already included above)", "amount": 4500, "group": "extra"}
+      ],
+      billedSubtotal: null,
+      totalText: '$92,900 for 2025–26, the latest figure found',
+      note: 'Denison’s tuition, housing and food charges exclude books, transport and health insurance.'
+    },
   scholarships: {
     fullRide: {
       available: true, internationalEligible: true, basis: 'need-based',
@@ -5482,23 +5536,28 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Foreign course credits are evaluated case by case.'
   },
   costs: {
-    breakdown: { tuition: 74770, billed: 94436, budget: 97041, includes: "tuition, fees, housing and the meal plan; the full budget adds books, personal expenses and transport" },
-    academicYear: '2026–2027',
-    currency: 'USD',
-    headline: '$97,041 total cost',
-    items: [
-      { label: 'Tuition', amount: 74770 },
-      { label: 'Health services and student activity fees', amount: 346 },
-      { label: 'Housing (weighted average)', amount: 12080 },
-      { label: 'Meal plan (All-Access)', amount: 7240 },
-      { label: 'Books and supplies', amount: 800 },
-      { label: 'Personal expenses', amount: 1350 },
-      { label: 'Transportation', amount: 400 }
-    ],
-    billedSubtotal: 94436,
-    totalText: '$97,041 total cost of attendance, of which $94,436 is billed',
-    note: 'The transportation allowance assumes travel within the US; international travel costs more.'
-  },
+      breakdown: {"tuition": 74770, "billed": 94436, "budget": 97041, "includes": "tuition, the health services and student activity fees, housing and the meal plan, plus books, loan fees, personal expenses and transportation"},
+      academicYear: '2026–2027',
+      currency: 'USD',
+      headline: '$97,041 total cost',
+      source: "https://www.fandm.edu/financial-aid/cost-of-attendance.html",
+      verified: "2026-10-11",
+      studentCategory: "Undergraduates living on campus",
+      items: [
+        {"label": "Tuition", "amount": 74770, "group": "billed"},
+        {"label": "Health services fee", "amount": 146, "group": "billed"},
+        {"label": "Student activity fee", "amount": 200, "group": "billed"},
+        {"label": "Housing (weighted average of the options)", "amount": 12080, "group": "billed"},
+        {"label": "Meal plan (All-Access, the most used)", "amount": 7240, "group": "billed"},
+        {"label": "Books and supplies", "amount": 800, "group": "estimate"},
+        {"label": "Loan fees", "amount": 55, "group": "estimate", "note": "Counted in the published total; it applies to students who borrow."},
+        {"label": "Personal expenses", "amount": 1350, "group": "estimate"},
+        {"label": "Transportation (average; varies by home state)", "amount": 400, "group": "estimate"}
+      ],
+      billedSubtotal: 94436,
+      totalText: '$97,041 total cost of attendance, of which $94,436 is billed',
+      note: 'The transportation allowance assumes travel within the US; international travel costs more.'
+    },
   scholarships: {
     fullRide: {
       available: true, internationalEligible: true, basis: 'need-based',
@@ -7156,37 +7215,30 @@ window.UNIPATH.universities.push(
     "internationalQualifications": null
   },
   "costs": {
-    "breakdown": {
-      "tuition": 71100,
-      "billed": 90300,
-      "budget": 93706,
-      "includes": "tuition, required fees, housing and food are billed; the total adds books and other non-billed costs"
+      breakdown: {"tuition": 71100, "billed": 90300, "budget": 93706, "includes": "tuition, required fees, housing and food (billed), plus books, personal expenses, transportation and Direct Loan fees. Student health insurance is not in this total"},
+      "academicYear": "2026–2027",
+      "currency": "USD",
+      "headline": "$90,300 billed · $93,706 cost of attendance",
+      source: "https://www.dickinson.edu/info/20081/financial_aid/1125/cost_of_attendance",
+      verified: "2026-10-11",
+      studentCategory: "Undergraduates living on campus",
+      items: [
+        {"label": "Tuition", "amount": 71100, "group": "billed"},
+        {"label": "Required fees", "amount": 550, "group": "billed"},
+        {"label": "Housing (median on-campus)", "amount": 9600, "group": "billed"},
+        {"label": "Food (Any 21 Meal Plan)", "amount": 9050, "group": "billed"},
+        {"label": "Books and supplies", "amount": 1324, "group": "estimate"},
+        {"label": "Personal expenses", "amount": 1718, "group": "estimate"},
+        {"label": "Transportation", "amount": 300, "group": "estimate"},
+        {"label": "Direct Loan fees", "amount": 64, "group": "estimate", "note": "Counted in the published total; it applies to students who take a US federal Direct Loan."}
+      ],
+      "totalText": "$93,706 total cost of attendance for a student living on campus",
+      extras: [
+        {"label": "Student health insurance", "amount": 2000, "required": true, "condition": "Billed to students who are not covered under a US health-insurance policy, in two equal instalments. Dickinson calls $2,000 the estimated cost.", "year": "2026–2027"}
+      ],
+      note: "All students must live on campus unless they have permission to live with family. The cost of attendance page read on this date estimates the health insurance at $2,000; an earlier reading of Dickinson’s pages for international students gave $2,500 plus $125 of one-time fees — confirm the current amount with the college.",
+      "billedSubtotal": 90300
     },
-    "academicYear": "2026–2027",
-    "currency": "USD",
-    "headline": "$90,300 billed · $93,706 cost of attendance",
-    "items": [
-      {
-        "label": "Tuition",
-        "amount": 71100
-      },
-      {
-        "label": "Required fees",
-        "amount": 550
-      },
-      {
-        "label": "Housing",
-        "amount": 9600
-      },
-      {
-        "label": "Food",
-        "amount": 9050
-      }
-    ],
-    "totalText": "$93,706 total cost of attendance for a student living on campus",
-    "note": "The total also includes books, personal and other non-billed costs. For international students, mandatory health insurance ($2,500) and one-time fees ($125) are not included when aid is calculated.",
-    "billedSubtotal": 90300
-  },
   "scholarships": {
     "fullRide": {
       "available": null,
@@ -9773,41 +9825,33 @@ window.UNIPATH.universities.push(
     "internationalQualifications": null
   },
   "costs": {
-    "breakdown": {
-      "tuition": 61998,
-      "billed": 74757,
-      "budget": 78217,
-      "includes": "tuition, room and board and fees are charged by Knox; the estimate adds books, transportation and personal expenses"
+      "breakdown": {
+        "tuition": 61998,
+        "billed": 74757,
+        "budget": 78217,
+        "includes": "tuition, room and board and fees are charged by Knox; the estimate adds books, transportation and personal expenses"
+      },
+      "academicYear": "2026–2027",
+      "currency": "USD",
+      "headline": "$74,757 in tuition, room, board and fees",
+      source: "https://www.knox.edu/admission/cost-and-financial-aid",
+      verified: "2026-10-11",
+      studentCategory: "Full-time undergraduates living on campus",
+      items: [
+        {"label": "Tuition", "amount": 61998, "group": "billed"},
+        {"label": "Room and board", "amount": 11862, "group": "billed"},
+        {"label": "Fees", "amount": 897, "group": "billed"},
+        {"label": "Books, materials and equipment", "amount": 1200, "group": "estimate"},
+        {"label": "Average transportation", "amount": 750, "group": "estimate"},
+        {"label": "Miscellaneous personal expenses", "amount": 1000, "group": "estimate"},
+        {"label": "Average loan fees", "amount": 78, "group": "estimate", "note": "Counted in the published total; it applies to students who borrow."},
+        {"label": "Additional food allowance", "amount": 152, "group": "estimate"},
+        {"label": "Additional average housing", "amount": 280, "group": "estimate"}
+      ],
+      "totalText": "$74,757 charged by Knox; $78,217 estimated cost of attendance on campus",
+      "note": "Knox advises families to expect annual increases of 4% to 6%.",
+      "billedSubtotal": 74757
     },
-    "academicYear": "2026–2027",
-    "currency": "USD",
-    "headline": "$74,757 in tuition, room, board and fees",
-    "items": [
-      {
-        "label": "Tuition",
-        "amount": 61998
-      },
-      {
-        "label": "Room and board",
-        "amount": 11862
-      },
-      {
-        "label": "Fees",
-        "amount": 897
-      },
-      {
-        "label": "Books, materials and equipment",
-        "amount": 1200
-      },
-      {
-        "label": "Average transportation",
-        "amount": 750
-      }
-    ],
-    "totalText": "$74,757 charged by Knox; $78,217 estimated cost of attendance on campus",
-    "note": "Knox advises families to expect annual increases of 4% to 6%.",
-    "billedSubtotal": 74757
-  },
   "scholarships": {
     "fullRide": {
       "available": null,
@@ -10975,33 +11019,30 @@ window.UNIPATH.universities.push(
     "internationalQualifications": null
   },
   "costs": {
-    "breakdown": {
-      "tuition": 68692,
-      "billed": 85220,
-      "budget": 86620,
-      "includes": "tuition, the student association fee and on-campus food and housing; the estimate adds books and supplies"
+      "breakdown": {
+        "tuition": 68692,
+        "billed": 85220,
+        "budget": 86620,
+        "includes": "tuition, the student association fee and on-campus food and housing; the estimate adds books and supplies"
+      },
+      academicYear: "2026–2027",
+      "currency": "USD",
+      "headline": "$85,220 billed · $86,620 estimated cost of attendance",
+      source: "https://www.whitman.edu/admission-and-aid/financial-aid-and-costs/how-much-does-whitman-cost",
+      verified: "2026-10-11",
+      studentCategory: "Full-time undergraduates living on campus",
+      items: [
+        {"label": "Full-time tuition", "amount": 68692, "group": "billed"},
+        {"label": "ASWC (student association) fee", "amount": 576, "group": "billed"},
+        {"label": "On-campus food and housing (double room, meal plan 2)", "amount": 15952, "group": "billed"},
+        {"label": "Books, supplies and incidentals", "amount": 1332, "group": "estimate"},
+        {"label": "Loan fees", "amount": 68, "group": "estimate", "note": "Counted in the published total; it applies to students who borrow."},
+        {"label": "Travel and transportation", "text": "Varies by where you live; not in the total", "group": "extra"}
+      ],
+      "totalText": "$86,620 estimated cost of attendance, not counting travel",
+      note: "Whitman prints the total “less travel”: travel is estimated from two round trips a year and depends on where you live.",
+      "billedSubtotal": 85220
     },
-    "academicYear": null,
-    "currency": "USD",
-    "headline": "$85,220 billed · $86,620 estimated cost of attendance",
-    "items": [
-      {
-        "label": "Tuition",
-        "amount": 68692
-      },
-      {
-        "label": "ASWC (student association) fee",
-        "amount": 576
-      },
-      {
-        "label": "On-campus food and housing (double room, meal plan 2)",
-        "amount": 15952
-      }
-    ],
-    "totalText": "$86,620 estimated cost of attendance, not counting travel",
-    "note": "The page read does not print the academic year. Travel varies by where you live.",
-    "billedSubtotal": 85220
-  },
   "scholarships": {
     "fullRide": {
       "available": true,
@@ -13686,37 +13727,36 @@ window.UNIPATH.universities.push(
     "internationalQualifications": null
   },
   "costs": {
-    "breakdown": {
-      "tuition": 75702,
-      "billed": 93590,
-      "budget": 97990,
-      "includes": "tuition, the activity fee, a double room and the full meal plan are billed; the estimate adds books, personal costs and transportation"
+      "breakdown": {
+        "tuition": 75702,
+        "billed": 93590,
+        "budget": 97990,
+        "includes": "tuition, the activity fee, a double room and the full meal plan are billed; the estimate adds books, personal costs and transportation"
+      },
+      academicYear: "2026–2027",
+      "currency": "USD",
+      "headline": "$93,590 billed · $97,990 estimated total",
+      source: "https://www.coloradocollege.edu/offices/sfs/handbook/cost-of-attendance.html",
+      verified: "2026-10-11",
+      studentCategory: "Full-time undergraduates in a residence hall",
+      items: [
+        {"label": "Tuition", "amount": 75702, "group": "billed"},
+        {"label": "Student activity fee", "amount": 528, "group": "billed"},
+        {"label": "Housing (double room in a residence hall)", "amount": 9616, "group": "billed"},
+        {"label": "Meal plan", "amount": 7744, "group": "billed"},
+        {"label": "Books, course materials, supplies and equipment allowance", "amount": 1240, "group": "estimate"},
+        {"label": "Miscellaneous allowance (personal expenses)", "amount": 1800, "group": "estimate"},
+        {"label": "Transportation (domestic student expectation)", "amount": 1230, "group": "estimate", "note": "The published total uses this figure. The page gives $1,500 as the expectation for international students."},
+        {"label": "Subsidized student loan fee", "amount": 63, "group": "estimate", "note": "Counted in the published total; it applies to students who borrow."},
+        {"label": "Unsubsidized student loan fee", "amount": 67, "group": "estimate", "note": "Counted in the published total; it applies to students who borrow."}
+      ],
+      totalText: "$97,990 total estimated costs for 2026–27, before health insurance",
+      extras: [
+        {"label": "Student Health Insurance Plan", "amount": 5316, "required": true, "condition": "All students must have health insurance and give proof of coverage every year. A student who chooses a different plan must show that it meets the college’s minimum criteria.", "year": "2026–2027"}
+      ],
+      note: "The published total uses the domestic transportation figure of $1,230; with the $1,500 the page gives for international students the same lines come to $98,260. Health insurance costs are adjusted and published every summer by the Student Health Center.",
+      "billedSubtotal": 93590
     },
-    "academicYear": null,
-    "currency": "USD",
-    "headline": "$93,590 billed · $97,990 estimated total",
-    "items": [
-      {
-        "label": "Tuition",
-        "amount": 75702
-      },
-      {
-        "label": "Student activity fee",
-        "amount": 528
-      },
-      {
-        "label": "Housing (double room)",
-        "amount": 9616
-      },
-      {
-        "label": "Full meal plan",
-        "amount": 7744
-      }
-    ],
-    "totalText": "$97,990 total estimated costs, before health insurance ($5,316)",
-    "note": "From the financial aid handbook, last updated 31 July 2026; the academic year is not printed in the part read. All students must have health insurance.",
-    "billedSubtotal": 93590
-  },
   "scholarships": {
     "fullRide": {
       "available": true,
@@ -15436,49 +15476,26 @@ window.UNIPATH.universities.push(
     "internationalQualifications": null
   },
   "costs": {
-    "breakdown": {
-      "tuition": 57432,
-      "budget": 83286,
-      "budgetText": "$83,286–$84,976",
-      "includes": "tuition, fees, housing, food, books, personal expenses, loan fees and a travel allowance of $550 to $2,240"
-    },
-    "academicYear": "2026–2027",
-    "currency": "USD",
-    "headline": "$62,054 tuition and fees · $83,286–$84,976 estimated total",
-    "items": [
-      {
-        "label": "Tuition (non-Virginian, College of Arts and Sciences, first year)",
-        "amount": 57432
+        breakdown: {"tuition": 57432, "budget": 83286, "budgetMax": 84976, "budgetText": "$83,286–$84,976", "includes": "tuition and fees ($62,054), plus the university’s estimates for housing, food, books, personal expenses, loan fees and a travel allowance of $550 to $2,240"},
+        "academicYear": "2026–2027",
+        "currency": "USD",
+        "headline": "$62,054 tuition and fees · $83,286–$84,976 estimated total",
+        source: "https://sfs.virginia.edu/financial-aid-new-applicants/financial-aid-basics/estimated-undergraduate-cost-attendance-2026-2027",
+        verified: "2026-10-11",
+        items: [
+        {"label": "Tuition (non-Virginian, College of Arts and Sciences, first year)", "amount": 57432, "group": "estimate"},
+        {"label": "Fees", "amount": 4622, "group": "estimate"},
+        {"label": "Housing", "amount": 8730, "group": "estimate"},
+        {"label": "Food", "amount": 7340, "group": "estimate"},
+        {"label": "Books, course materials, supplies and equipment", "amount": 1540, "group": "estimate"},
+        {"label": "Personal expenses", "amount": 3000, "group": "estimate"},
+        {"label": "Direct loan fees", "amount": 72, "group": "estimate", "note": "Counted in the published total; it applies to students who take a US federal Direct Loan."},
+        {"label": "Travel (by region)", "text": "$550–$2,240", "min": 550, "max": 2240, "group": "estimate"}
+      ],
+        "totalText": "$83,286 to $84,976 total, depending on the travel allowance",
+        "note": "First-year non-Virginian student in the College of Arts and Sciences; other schools and later years cost more. Student health insurance is $4,220 if needed.",
+        "studentCategory": "Non-Virginian (international) students"
       },
-      {
-        "label": "Fees",
-        "amount": 4622
-      },
-      {
-        "label": "Housing",
-        "amount": 8730
-      },
-      {
-        "label": "Food",
-        "amount": 7340
-      },
-      {
-        "label": "Books, course materials, supplies and equipment",
-        "amount": 1540
-      },
-      {
-        "label": "Personal expenses",
-        "amount": 3000
-      },
-      {
-        "label": "Direct loan fees",
-        "amount": 72
-      }
-    ],
-    "totalText": "$83,286 to $84,976 total, depending on the travel allowance",
-    "note": "First-year non-Virginian student in the College of Arts and Sciences; other schools and later years cost more. Student health insurance is $4,220 if needed.",
-    "studentCategory": "Non-Virginian (international) students"
-  },
   "scholarships": {
     "fullRide": {
       "available": false,
@@ -18155,27 +18172,21 @@ window.UNIPATH.universities.push(
     "internationalQualifications": null
   },
   "costs": {
-    "breakdown": {
-      "budget": 17500,
-      "includes": "tuition, living expenses and books, by the college’s own estimate"
-    },
-    "academicYear": "2026–2027",
-    "currency": "USD",
-    "headline": "$359.40 per credit hour · about $17,500 a year by Sinclair’s estimate",
-    "items": [
-      {
-        "label": "Tuition and fees per credit hour",
-        "amount": 156.03
+      "breakdown": {
+        "budget": 17500,
+        "includes": "tuition, living expenses and books, by the college’s own estimate"
       },
-      {
-        "label": "Out-of-state surcharge per credit hour",
-        "amount": 203.37
-      }
-    ],
-    "totalText": "About $17,500 for one year including tuition, living expenses and books",
-    "note": "Per-credit rate effective fall 2026 for out-of-state and international students; an $85 auxiliary services fee is charged each term. Sinclair’s $17,500 figure is its own estimate, while the bank document for the I-20 must show at least $20,000.",
-    "studentCategory": "International (F-1) students"
-  },
+      "academicYear": "2026–2027",
+      "currency": "USD",
+      "headline": "$359.40 per credit hour · about $17,500 a year by Sinclair’s estimate",
+      items: [
+        {"label": "Tuition and fees per credit hour", "amount": 156.03, "group": "rate"},
+        {"label": "Out-of-state surcharge per credit hour", "amount": 203.37, "group": "rate"}
+      ],
+      "totalText": "About $17,500 for one year including tuition, living expenses and books",
+      "note": "Per-credit rate effective fall 2026 for out-of-state and international students; an $85 auxiliary services fee is charged each term. Sinclair’s $17,500 figure is its own estimate, while the bank document for the I-20 must show at least $20,000.",
+      "studentCategory": "International (F-1) students"
+    },
   "scholarships": {
     "fullRide": {
       "available": null,
