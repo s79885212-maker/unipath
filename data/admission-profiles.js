@@ -33,10 +33,10 @@
       source: { label: 'Harvard University ' + CDS, url: 'https://oira.harvard.edu/files/2026/07/CDS_2025-2026.pdf' },
       official: {
         admitRate: { value: 4.2, applied: 47893, admitted: 2003 },
-        gpa: { average: 4.22, kind: 'average', cohort: 'enrolled', scale: null, weighting: null, submittersOnly: true, note: '74.7% of students who reported a GPA had a 4.0; only 25% of the class reported a GPA.' },
+        gpa: { average: 4.22, kind: 'average', cohort: 'enrolled', scale: null, weighting: null, submittersOnly: true, submitted: '99.1%', note: '74.7% of the students whose GPA was collected had a 4.0. 99.1% of first-year students submitted a high school GPA.' },
         sat: { rw: [720, 750, 770], math: [730, 770, 790], submitted: '79%', cohort: 'enrolled', submittersOnly: true },
         act: [33, 35, 35],
-        classRank: '95% were in the top tenth of their high school class (among those with a rank).'
+        classRank: '95% were in the top tenth of their high school class, among the 25% of first-year students who submitted a class rank.'
       },
       targets: {
         sat: 'Around 1500+ (each section in the mid-700s)',
