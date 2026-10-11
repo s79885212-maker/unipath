@@ -69,7 +69,9 @@
   function card(n) {
     var c = n.country === 'all' ? null : U.country(n.country);
     var when = has(n.eventDate) ? fmt(n.eventDate) : (has(n.eventText) ? n.eventText : null);
-    var whenLabel = n.deadline === true ? 'Deadline' : 'Date';
+    var whenLabel = has(n.eventLabel) ? n.eventLabel : n.deadline === true ? 'Deadline' : 'Date';
+    var steps = has(n.steps) ? '<ul class="plain-list small" style="margin:0 0 10px">' + n.steps.map(function (x) {
+      return '<li><strong>' + esc(fmt(x.date)) + '</strong> — <span>' + esc(x.label) + '</span></li>'; }).join('') + '</ul>' : '';
     return '<article class="card news-card' + (isPast(n) ? ' is-past' : '') + '"><div class="card-body">' +
       '<div class="pill-row">' +
         '<span class="badge badge-info">' + esc(TYPE_LABEL[n.type] || 'Update') + '</span>' +
@@ -80,7 +82,7 @@
       '</div>' +
       '<h3 style="margin:10px 0 6px">' + esc(n.title) + '</h3>' +
       '<p class="small muted" style="margin:0 0 8px">' + esc(n.org) + '</p>' +
-      '<p style="margin:0 0 12px">' + esc(n.summary) + '</p>' +
+      '<p style="margin:0 0 12px">' + esc(n.summary) + '</p>' + steps +
       (has(n.stateNote) && !isPast(n) ? '<p class="small" style="margin:0 0 12px"><strong>' + esc(STATE_LABEL[newsState(n)]) + ':</strong> ' + esc(n.stateNote) + '</p>' : '') +
       '<dl class="uni-facts">' +
         '<div><dt>' + esc(whenLabel) + '</dt><dd>' + (when ? esc(when) : '<span class="unknown">Not stated by the source</span>') + '</dd></div>' +

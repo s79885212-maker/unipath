@@ -5269,21 +5269,33 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
-    breakdown: { tuition: 71870, billed: 93090, includes: "tuition, housing, meals and the activities fee; books, personal costs and travel are extra" },
+    breakdown: { tuition: 72880, billed: 93090, comprehensive: true,
+      budgetText: '$95,890 or $96,940 — two official figures',
+      includes: "the comprehensive fee: tuition, housing in a double room, meals and the student activities fee. All students live on campus and take the meal plan, so these are all charged by the college. Books, personal costs and travel are estimates on top" },
     academicYear: '2026–2027',
     currency: 'USD',
-    headline: '$93,090 in tuition, room, board and fees',
+    studentCategory: 'All undergraduates (all live on campus)',
+    source: 'https://www.kenyon.edu/admissions-aid/financial-aid-scholarships/tuition-costs/',
+    verified: '2026-10-11',
+    headline: '$93,090 comprehensive fee',
     items: [
-      { label: 'Tuition', amount: 71870 },
-      { label: 'Housing (double room)', amount: 7600 },
-      { label: 'Meals', amount: 9780 },
-      { label: 'Student activities fee', amount: 350 },
-      { label: 'Books and personal costs', amount: 1900 },
-      { label: 'Transportation and miscellaneous', amount: 1950 }
+      { label: 'Tuition', amount: 72880, group: 'billed' },
+      { label: 'Housing (double room rate)', amount: 9080, group: 'billed' },
+      { label: 'Meals', amount: 10780, group: 'billed' },
+      { label: 'Student activities fee', amount: 350, group: 'billed' },
+      { label: 'Books and personal costs (estimate)', amount: 1900, group: 'estimate' },
+      { label: 'Transportation and miscellaneous (estimate)', text: '$900 in the Factbook; $1,950 on the Tuition & Costs page', min: 900, max: 1950, group: 'estimate' }
     ],
     billedSubtotal: 93090,
-    totalText: '$93,090 in total charges, plus about $3,850 in books, personal and travel costs',
-    note: 'Kenyon’s financial aid budget for 2026–27 is about $68.6 million.'
+    totalText: '$93,090 comprehensive fee for 2026–27',
+    conflict: {
+      text: 'Kenyon’s two official pages give different full-cost totals. The Factbook row for 2026–27 lists books and supplies $1,900 and transportation/other $900, total $95,890. The Tuition & Costs page lists books/personal $1,900 and transportation/miscellaneous $1,950 with a total of $96,940 under a heading that still says 2025–26 and shows the 2025–26 direct cost of $89,600; that total equals the 2026–27 comprehensive fee plus the two estimates. Both are shown; neither is chosen.',
+      sources: [
+        { label: 'Kenyon Tuition & Costs', url: 'https://www.kenyon.edu/admissions-aid/financial-aid-scholarships/tuition-costs/' },
+        { label: 'Kenyon Factbook — Student Fees', url: 'https://www.kenyon.edu/offices-and-services/office-of-institutional-research/factbook/' }
+      ]
+    },
+    note: 'The four components of the comprehensive fee add up to $93,090. Optional items such as tuition refund insurance and student health insurance are listed separately by the college and are not included here.'
   },
   scholarships: {
     fullRide: {
@@ -5307,6 +5319,7 @@ window.UNIPATH.universities.push(
     { label: 'Deadlines and requirements — international students', url: 'https://www.kenyon.edu/admissions-aid/how-to-apply/international-students/' },
     { label: 'Apply for financial aid', url: 'https://www.kenyon.edu/admissions-aid/financial-aid-scholarships/apply-for-financial-aid/' },
     { label: 'Tuition and costs', url: 'https://www.kenyon.edu/admissions-aid/financial-aid-scholarships/tuition-costs/' },
+    { label: 'Kenyon Factbook — Student Fees (cost history)', url: 'https://www.kenyon.edu/offices-and-services/office-of-institutional-research/factbook/' },
     { label: 'Spring 2026 report from the Board of Trustees', url: 'https://www.kenyon.edu/news/archive/spring-2026-report-from-the-board-of-trustees/' },
     { label: 'Kenyon College Common Data Set 2025–26 (section C13)', url: 'https://www.kenyon.edu/files/resources/cds-2025-26-kenyon.xlsx' }
   ],
@@ -14890,7 +14903,7 @@ window.UNIPATH.universities.push(
   },
   "costs": {
     "breakdown": {
-      "tuition": 55700,
+      "tuition": 55700, tuitionLabel: 'Tuition and fees',
       "budget": 84770,
       "includes": "university fees, nonresident supplemental tuition, housing and food, books, transportation, personal expenses and health insurance"
     },
@@ -16866,7 +16879,7 @@ window.UNIPATH.universities.push(
   },
   "costs": {
     "breakdown": {
-      "tuition": 47358,
+      "tuition": 47358, tuitionLabel: 'Tuition and fees',
       "budget": 68054,
       "includes": "tuition and fees, non-resident and international fees, housing and food, books, personal expenses and transportation"
     },

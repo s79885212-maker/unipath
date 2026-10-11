@@ -94,7 +94,7 @@
         checks.push({ level: 'info', text: 'The SAT is not part of this admission route, so your score is not compared.' });
       } else if (comp && has(comp[0]) && has(comp[2])) {
         /* Name the sample the source reports on; CDS figures are enrolled students. */
-        var who = off.sat.cohort === 'admitted' ? 'admitted students' : off.sat.cohort === 'enrolled' ? 'enrolled first-year students' : 'the published sample';
+        var who = U.cohortLabel(off.sat.cohort);
         if (input.sat >= comp[2]) checks.push({ level: 'ok', basis: 'statistic', text: 'SAT ' + input.sat + ' is at or above the 75th percentile of ' + who + ' (' + comp[2] + ').' });
         else if (input.sat >= comp[0]) checks.push({ level: 'ok', basis: 'statistic', text: 'SAT ' + input.sat + ' is within the middle 50% of ' + who + ' (' + comp[0] + '–' + comp[2] + ').' });
         else checks.push({ level: 'soft', basis: 'statistic', text: 'SAT ' + input.sat + ' is below the 25th percentile of ' + who + ' (' + comp[0] + ').' });
@@ -123,15 +123,24 @@
         : 'A community college: associate degrees and certificates. No bachelor’s programme is recorded here, so a bachelor’s degree would need a later transfer, which is not guaranteed.' });
     }
 
-    /* GPA — only where a published average exists */
+    /* GPA — compared only with a published figure on the same scale and of the
+       same kind. A weighted average, or one whose scale the source does not
+       state, is shown for information and never compared; nothing is
+       converted from one scale to another. */
+    var g = off.gpa;
     if (input.gpa === null) {
       unchecked.push('GPA and school grades — not entered');
-    } else if (!(off.gpa && typeof off.gpa.average === 'number')) {
+    } else if (!(g && typeof g.average === 'number')) {
       unchecked.push('GPA — no official figure to compare with');
-    }
-    if (input.gpa !== null && off.gpa && typeof off.gpa.average === 'number') {
-      if (input.gpa < off.gpa.average) checks.push({ level: 'soft', basis: 'statistic', text: 'GPA ' + input.gpa + ' is below the average of admitted students (' + off.gpa.average + ').' });
-      else checks.push({ level: 'ok', basis: 'statistic', text: 'GPA ' + input.gpa + ' is at or above the average of admitted students (' + off.gpa.average + ').' });
+    } else {
+      var gWho = U.cohortLabel(g.cohort);
+      if (U.gpaComparable(g)) {
+        if (input.gpa < g.average) checks.push({ level: 'soft', basis: 'statistic', text: 'GPA ' + input.gpa + ' is below the average unweighted GPA of ' + gWho + ' (' + g.average + ' on the 4.0 scale).' });
+        else checks.push({ level: 'ok', basis: 'statistic', text: 'GPA ' + input.gpa + ' is at or above the average unweighted GPA of ' + gWho + ' (' + g.average + ' on the 4.0 scale).' });
+      } else {
+        checks.push({ level: 'info', text: 'A direct GPA comparison is not possible. The published average for ' + gWho + ' is ' + g.average + ', and ' + U.gpaBasisNote(g) + '.' });
+        unchecked.push('GPA — the published figure cannot be compared with a 4.0-scale GPA');
+      }
     }
 
     /* Selectivity */
@@ -162,17 +171,32 @@
     if (input.budget === null) return { status: 'none', text: costText(c, c.currency) };
     var lo = convert(c.min, c.currency, input.currency), hi = convert(c.max, c.currency, input.currency);
     if (lo === null) return { status: 'unknown', text: 'No comparable yearly cost is recorded' };
-    var status = hi <= input.budget ? 'fits' : lo <= input.budget ? 'maybe' : 'over';
+    /* A required cost the university leaves out of its published total is
+       added before a budget is called sufficient. */
+    var extra = typeof c.extras === 'number' ? convert(c.extras, c.currency, input.currency) : 0;
+    var status = hi + extra <= input.budget ? 'fits'
+      : hi <= input.budget ? 'fits-no-extras'
+      : lo <= input.budget ? 'maybe' : 'over';
     /* A tuition-only figure inside the budget is not a full year inside the budget. */
     if (status === 'fits' && c.basis !== 'total') status = 'fits-tuition';
     return { status: status, text: costText(c, input.currency) };
   }
 
   function costText(c, cur) {
+    if (c.label) return c.label;
     var lo = convert(c.min, c.currency, cur), hi = convert(c.max, c.currency, cur);
-    var amount = c.max === 0 ? 'no tuition' : (Math.round(lo) === Math.round(hi) ? money(lo, cur) : money(lo, cur) + ' – ' + money(hi, cur));
+    /* A figure in its own currency is shown exactly; only a converted one is
+       rounded, because the conversion is approximate. */
+    var show = cur === c.currency ? function (x) { return U.money(Math.round(x), cur); } : function (x) { return money(x, cur); };
+    var range = function (a, b) { return Math.round(a) === Math.round(b) ? show(a) : show(a) + ' – ' + show(b); };
+    var amount = c.max === 0 ? 'no tuition' : range(lo, hi);
     var label = c.basis === 'total' ? 'Full cost a year: ' + amount : 'Tuition a year: ' + amount + ' — living costs extra';
     if (c.example) label += ' (one programme’s fee)';
+    if (typeof c.extras === 'number') {
+      var ex = convert(c.extras, c.currency, cur);
+      label += '. Not included: ' + show(ex) + ' — ' + (c.extrasLabel || 'a required cost outside the published total') +
+        '. With it: ' + range(lo + ex, hi + ex) + ' (calculated by UniPath)';
+    }
     return label;
   }
 
@@ -187,6 +211,7 @@
   var BUDGET_BADGE = {
     fits: '<span class="badge badge-ok">Full cost within budget</span>',
     'fits-tuition': '<span class="badge badge-warn">Tuition within budget — living costs not included</span>',
+    'fits-no-extras': '<span class="badge badge-warn">Published total within budget — required extra costs are not</span>',
     maybe: '<span class="badge badge-warn">Depends on programme</span>',
     over: '<span class="badge">Above budget</span>',
     unknown: '<span class="badge">Cost not recorded</span>',
@@ -204,8 +229,26 @@
 
   function field(id, label, attrs, value, hint) {
     return '<label class="match-field"><span>' + label + '</span>' +
-      '<input id="' + id + '" ' + attrs + ' value="' + esc(has(value) ? value : '') + '">' +
+      '<input id="' + id + '" ' + attrs + ' aria-describedby="' + id + '-err" value="' + esc(has(value) ? value : '') + '">' +
+      '<small class="field-error" id="' + id + '-err" role="alert" hidden></small>' +
       (hint ? '<small class="muted">' + hint + '</small>' : '') + '</label>';
+  }
+
+  /* The limits of each score field. A value outside them is reported next to
+     the field and is not used for any comparison. */
+  var LIMITS = {
+    'm-ielts': { key: 'ielts', min: 0, max: 9, error: 'Enter an IELTS band from 0 to 9. This value is not used.' },
+    'm-gpa': { key: 'gpa', min: 0, max: 4, error: 'Enter a GPA from 0 to 4.0. This field uses the 4.0 scale, so this value is not used.' },
+    'm-sat': { key: 'sat', min: 400, max: 1600, error: 'Enter a total SAT score from 400 to 1600. This value is not used.' },
+    'm-budget': { key: 'budget', min: 0, max: Infinity, error: 'Enter a budget of 0 or more. This value is not used.' }
+  };
+  /* raw → { value: number | null, invalid: boolean } */
+  function checkField(id, raw) {
+    var lim = LIMITS[id], text = String(raw === null || raw === undefined ? '' : raw).trim();
+    if (text === '') return { value: null, invalid: false };
+    var n = num(text);
+    if (n === null || n < lim.min || n > lim.max) return { value: null, invalid: true };
+    return { value: n, invalid: false };
   }
 
   function render(main) {
@@ -231,11 +274,12 @@
         '<form class="card match-form" id="match-form" autocomplete="off" onsubmit="return false"><div class="card-body">' +
           '<div class="match-grid">' +
             field('m-ielts', 'IELTS (overall)', 'type="number" inputmode="decimal" min="0" max="9" step="0.5" placeholder="e.g. 7.0"', s.ielts, null) +
-            field('m-gpa', 'GPA (4.0 scale)', 'type="number" inputmode="decimal" min="0" max="5" step="0.01" placeholder="e.g. 3.8"', s.gpa, 'Compared only where a university publishes an average.') +
+            field('m-gpa', 'GPA (4.0 scale)', 'type="number" inputmode="decimal" min="0" max="4" step="0.01" placeholder="e.g. 3.8"', s.gpa, 'Unweighted, from 0 to 4.0. Compared only with a published average on the same scale; school grades are never converted.') +
             field('m-sat', 'SAT (total)', 'type="number" inputmode="numeric" min="400" max="1600" step="10" placeholder="optional"', s.sat, null) +
             '<label class="match-field"><span>Budget per year</span><div class="match-budget">' +
-              '<input id="m-budget" type="number" inputmode="numeric" min="0" step="100" placeholder="e.g. 30000" value="' + esc(has(s.budget) ? s.budget : '') + '">' +
+              '<input id="m-budget" type="number" inputmode="numeric" min="0" step="100" placeholder="e.g. 30000" aria-describedby="m-budget-err" value="' + esc(has(s.budget) ? s.budget : '') + '">' +
               '<select id="m-currency" aria-label="Currency">' + curOpts + '</select></div>' +
+              '<small class="field-error" id="m-budget-err" role="alert" hidden></small>' +
               '<small class="muted">Converted with ECB reference rates of <span>' + esc(r.date || '') + '</span> — approximate.</small></label>' +
             '<label class="match-field"><span>Country</span><select id="m-country">' + countryOpts + '</select></label>' +
             '<label class="match-field"><span>Field of study</span><select id="m-field">' + fieldOpts + '</select></label>' +
@@ -254,15 +298,22 @@
   function readInput() {
     var val = function (id) { var el = document.getElementById(id); return el ? el.value : ''; };
     var input = {
-      ielts: num(val('m-ielts')), gpa: num(val('m-gpa')), sat: num(val('m-sat')),
-      budget: num(val('m-budget')), currency: val('m-currency') || 'USD',
+      currency: val('m-currency') || 'USD',
       country: val('m-country'), field: val('m-field'),
-      englishOnly: !!(document.getElementById('m-english') || {}).checked
+      englishOnly: !!(document.getElementById('m-english') || {}).checked,
+      invalid: []
     };
-    if (input.ielts !== null && (input.ielts < 0 || input.ielts > 9)) input.ielts = null;
-    if (input.sat !== null && (input.sat < 400 || input.sat > 1600)) input.sat = null;
-    if (input.gpa !== null && (input.gpa < 0 || input.gpa > 5)) input.gpa = null;
-    if (input.budget !== null && input.budget < 0) input.budget = null;
+    Object.keys(LIMITS).forEach(function (id) {
+      var el = document.getElementById(id);
+      /* A number field reports text it cannot parse as an empty value. */
+      var bad = !!(el && el.validity && el.validity.badInput);
+      var r = bad ? { value: null, invalid: true } : checkField(id, val(id));
+      input[LIMITS[id].key] = r.value;
+      if (r.invalid) input.invalid.push(LIMITS[id].key);
+      var err = document.getElementById(id + '-err');
+      if (err) { err.hidden = !r.invalid; err.textContent = r.invalid ? LIMITS[id].error : ''; }
+      if (el && el.setAttribute) el.setAttribute('aria-invalid', r.invalid ? 'true' : 'false');
+    });
     return input;
   }
 
@@ -284,7 +335,9 @@
     var out = document.getElementById('match-out');
     if (!out) return;
     if (input.ielts === null && input.gpa === null && input.sat === null && input.budget === null) {
-      out.innerHTML = '<div class="empty-state"><h3>Enter at least one score or a budget</h3><p>Results appear as you type.</p></div>';
+      out.innerHTML = input.invalid.length
+        ? '<div class="empty-state"><h3>No valid score or budget to compare</h3><p>Correct the fields marked above. A value outside the allowed range is not used.</p></div>'
+        : '<div class="empty-state"><h3>Enter at least one score or a budget</h3><p>Results appear as you type.</p></div>';
       return;
     }
     if (!list.length) {
@@ -293,7 +346,7 @@
     }
 
     var rows = list.map(function (u) { return { u: u, r: evaluate(u, input) }; });
-    var budgetRank = { fits: 0, 'fits-tuition': 1, maybe: 2, none: 3, unknown: 4, over: 5 };
+    var budgetRank = { fits: 0, 'fits-no-extras': 1, 'fits-tuition': 1, maybe: 2, none: 3, unknown: 4, over: 5 };
     var entered = [], missing = [];
     (input.ielts !== null ? entered : missing).push('IELTS');
     (input.sat !== null ? entered : missing).push('SAT');
@@ -301,6 +354,7 @@
     var html = '<p class="muted small" style="margin-bottom:6px">' + rows.length + ' institutions compared</p>' +
       '<p class="small" style="margin:0 0 18px"><strong>Compared:</strong> <span>' + (entered.length ? entered.join(', ') : 'budget only') + '</span>' +
       (missing.length ? ' · <strong>Not entered, so not compared:</strong> <span>' + missing.join(', ') + '</span>' : '') + '</p>' +
+      (input.invalid.length ? '<p class="small warn-text" style="margin:-10px 0 18px">A value outside the allowed range was entered and is not used.</p>' : '') +
       (input.field ? '<p class="small muted" style="margin:0 0 18px">Field of study is a broad subject area, not a named degree. Check that the exact programme exists and is open to your intake.</p>' : '');
     GROUPS.forEach(function (g) {
       var items = rows.filter(function (x) { return x.r.category === g.key; });
@@ -335,5 +389,5 @@
       '</div></article>';
   }
 
-  global.UPMatch = { render: render, evaluate: evaluate };
+  global.UPMatch = { render: render, evaluate: evaluate, checkField: checkField };
 })(window);

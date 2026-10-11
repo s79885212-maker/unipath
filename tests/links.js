@@ -54,8 +54,31 @@ function report(list, label) {
   if (!list.length) { console.log('ok    ' + label); return 0; }
   console.log('FAIL  ' + label + ' (' + list.length + ')'); list.slice(0, 12).forEach(function (x) { console.log('      ' + x); }); return 1;
 }
+/* Canonical links: every page has one, it lies under the address the sitemap
+   uses (so a site published in a sub-folder keeps that folder), and it leads
+   to a page that was actually built. unipath.html is the single-file copy and
+   has no address of its own. */
+var badCanonical = [], sitemap = fs.existsSync(path.join(DIST, 'sitemap.xml')) ? fs.readFileSync(path.join(DIST, 'sitemap.xml'), 'utf8') : '';
+var locs = (sitemap.match(/<loc>([^<]+)<\/loc>/g) || []).map(function (x) { return x.replace(/<\/?loc>/g, ''); });
+var site = locs.length ? locs[0].replace(/\/$/, '') : null;
+pages.forEach(function (file) {
+  var rel = path.relative(DIST, file);
+  if (rel === 'unipath.html' || rel === '404.html') return;
+  var html = fs.readFileSync(file, 'utf8'), m = /<link rel="canonical" href="([^"]+)"/.exec(html);
+  if (!m) { badCanonical.push(rel + ': no canonical link'); return; }
+  if (!site || m[1].indexOf(site + '/') !== 0) { badCanonical.push(rel + ': ' + m[1] + ' is outside ' + site); return; }
+  var local = m[1].slice(site.length + 1);
+  if (!fs.existsSync(path.join(DIST, local, 'index.html')) && !fs.existsSync(path.join(DIST, local))) badCanonical.push(rel + ': ' + m[1] + ' does not exist in the build');
+  if (locs.indexOf(m[1]) < 0) badCanonical.push(rel + ': ' + m[1] + ' is not in the sitemap');
+  var expect = rel === 'index.html' ? '' : rel.replace(/index\.html$/, '');
+  if (local !== expect) badCanonical.push(rel + ': canonical points to ' + local + ', not to this page');
+});
+/* The script must build the same address: it may not drop the site folder. */
+var routerSrc = fs.readFileSync(path.join(ROOT, 'assets/js/router.js'), 'utf8');
+if (!/link\.href = global\.location\.origin \+ siteRoot\(\)/.test(routerSrc)) badCanonical.push('router.js: the canonical link is not built from the site root');
 console.log(pages.length + ' pages, ' + checked + ' internal links checked');
 var failed = report(broken, 'every relative link points to an existing file') +
   report(badId, 'every university link names an existing record') +
-  report(badRoute, 'every hash route is one the router handles');
+  report(badRoute, 'every hash route is one the router handles') +
+  report(badCanonical, 'every canonical link keeps the site folder, exists in the build and is in the sitemap');
 process.exit(failed ? 1 : 0);

@@ -257,6 +257,20 @@ def tuition_text(u):
         return "No tuition fee" if bd["tuition"] == 0 else money(bd["tuition"], (u.get("costs") or {}).get("currency"))
     return None
 
+def tuition_label(costs):
+    """Same rule as tuitionLabel() in assets/js/app.js."""
+    bd = costs.get("breakdown") or {}
+    if bd.get("tuitionLabel"):
+        return bd["tuitionLabel"]
+    for item in costs.get("items") or []:
+        if isinstance(bd.get("tuition"), (int, float)) and item.get("amount") == bd.get("tuition"):
+            label = item.get("label") or ""
+            if re.search(r"\bfees\b", label, re.I) and not re.search(r"fees included|no fees", label, re.I):
+                return "Tuition and fees"
+            return "Tuition"
+    return "Tuition"
+
+
 def shell(template: str, head: str, main_html: str) -> str:
     """Put page-specific head tags and prerendered content into the site shell."""
     page = template
@@ -334,9 +348,9 @@ def university_page(u, country, fields):
                  if has(costs.get("academicYear")) else "")
     per = " per semester" if bd.get("period") == "semester" else " per year"
     if has(bd.get("tuitionText")):
-        row("Tuition", e(bd["tuitionText"]) + year_note)
+        row(tuition_label(costs), e(bd["tuitionText"]) + year_note)
     elif isinstance(bd.get("tuition"), (int, float)):
-        row("Tuition", ("No tuition fee" if bd["tuition"] == 0
+        row(tuition_label(costs), ("No tuition fee" if bd["tuition"] == 0
                         else e(money(bd["tuition"], costs.get("currency"))) + per) + year_note)
     if isinstance(bd.get("billed"), (int, float)):
         row("Comprehensive fee" if bd.get("comprehensive") else "Billed by the university",
@@ -347,6 +361,12 @@ def university_page(u, country, fields):
         row("Full budget (cost of attendance)", e(money(bd["budget"], costs.get("currency"))))
     if has(bd.get("includes")):
         row("What the figures cover", e(bd["includes"]))
+    # Required costs the university leaves out of its published total.
+    for x in (costs.get("extras") or []):
+        if x.get("required") and isinstance(x.get("amount"), (int, float)):
+            row("Required and not included in the published total",
+                e(x.get("label")) + ": " + e(money(x["amount"], costs.get("currency")))
+                + ((" — " + e(x["condition"])) if x.get("condition") else ""))
     deadlines = adm.get("deadlines") or []
     if deadlines:
         STATUS = {"confirmed": "confirmed for this cycle", "previous-cycle": "previous cycle \u2014 not yet republished"}
@@ -500,8 +520,13 @@ def build(root: pathlib.Path, dist: pathlib.Path) -> int:
             written += 1
         # The home page gets its canonical URL too.
         home = dist / "index.html"
-        home.write_text(home.read_text(encoding="utf-8").replace(
-            '<meta charset="utf-8">', f'<meta charset="utf-8">\n<link rel="canonical" href="{SITE}/">', 1), encoding="utf-8")
+        text = home.read_text(encoding="utf-8")
+        charset = re.search(r'<meta charset="utf-8"\s*/?>', text)
+        if not charset:
+            raise SystemExit("prerender: index.html has no <meta charset> to anchor the canonical link")
+        if 'rel="canonical"' not in text:
+            text = text[:charset.end()] + f'\n    <link rel="canonical" href="{SITE}/">' + text[charset.end():]
+        home.write_text(text, encoding="utf-8")
 
     (dist / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'

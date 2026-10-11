@@ -60,6 +60,52 @@ DB.universities.forEach(function (u) { var k = u.name.toLowerCase(); if (names[k
 ok(!dupNames.length, 'names are unique', dupNames.join(', '));
 ok(DB.universities.every(function (u) { return u.links && /^https:\/\//.test(u.links.website || ''); }), 'every record links to an official https site');
 
+/* ---------------- cost arithmetic ---------------- */
+group('cost arithmetic');
+var arith = [], subtotal = [];
+DB.universities.forEach(function (u) {
+  U.costArithmetic(u).forEach(function (m) { arith.push(u.id + ': ' + m); });
+  /* Without marked groups, a numeric billed subtotal must still be the sum of
+     some of the numeric lines listed with it. */
+  var c = u.costs || {}, items = c.items || [];
+  if (typeof c.billedSubtotal !== 'number' || items.some(function (i) { return i.group; })) return;
+  var nums = items.filter(function (i) { return typeof i.amount === 'number'; }).map(function (i) { return i.amount; });
+  if (!nums.length || nums.length > 16) return;
+  var hit = false;
+  for (var m = 1; m < (1 << nums.length) && !hit; m++) {
+    var sum = 0;
+    for (var k = 0; k < nums.length; k++) if (m >> k & 1) sum += nums[k];
+    if (sum === c.billedSubtotal) hit = true;
+  }
+  if (!hit) subtotal.push(u.id + ' (' + c.billedSubtotal + ')');
+});
+ok(!arith.length, 'breakdowns with marked lines add up to their subtotal and published budget', arith.join('; '));
+ok(!subtotal.length, 'every billed subtotal is the sum of lines listed with it', subtotal.join(', '));
+(function () {
+  var h = U.uniById('harvard-university'), w = U.budgetWithExtras(h);
+  ok(U.costExtras(h).length === 1 && U.costExtras(h)[0].amount === 4954, 'Harvard: health insurance is a required cost outside the published total');
+  ok(w && w.min === 100088 && w.max === 105088, 'Harvard: published total plus insurance is 100,088–105,088', JSON.stringify(w));
+  ok(!/health insurance/i.test(U.costIncludes(h).split('.')[0]), 'Harvard: the published total is not described as including health insurance', U.costIncludes(h));
+  var k = U.uniById('kenyon-college');
+  ok(k.costs.items.filter(function (i) { return i.group === 'billed'; }).reduce(function (a, i) { return a + i.amount; }, 0) === 93090, 'Kenyon: the four 2026–27 charges add up to 93,090');
+  ok(k.costs.conflict && k.costs.conflict.sources.length === 2, 'Kenyon: the two official full-cost totals are both shown');
+  var bk = U.uniById('uc-berkeley');
+  ok(bk.costs.billedSubtotal === 86190 && bk.costs.breakdown.budget === 93944, 'UC Berkeley: nonresident direct costs 86,190 and total 93,944');
+  /* Cards name the figure they show. */
+  ok(U.cardCost(U.uniById('bard-college-berlin')).label === 'Comprehensive fee', 'Bard College Berlin: the card says "Comprehensive fee", not "Tuition"', U.cardCost(U.uniById('bard-college-berlin')).label);
+  ok(U.cardCost(U.uniById('johns-hopkins-university')).label === 'Full yearly budget', 'Johns Hopkins: the card says "Full yearly budget"');
+  ok(U.cardCost(bk).label === 'Tuition and fees', 'UC Berkeley: tuition with fees is labelled as such');
+  var mislabelled = DB.universities.filter(function (u) { var c = U.cardCost(u); return c.label === 'Tuition' && c.kind !== 'tuition'; });
+  ok(!mislabelled.length, 'no card shows a non-tuition figure under "Tuition"', mislabelled.map(function (u) { return u.id; }).join(', '));
+})();
+
+/* ---------------- one model for dates ---------------- */
+group('dates shown in several sections');
+(function () {
+  var aid = U.roundsOf(U.uniById('harvard-university')).filter(function (d) { return d.kind === 'aid'; });
+  ok(aid.length === 2 && aid.every(function (d) { return d.status === 'confirmed' && d.source; }), 'Harvard: two confirmed financial aid dates in the rounds');
+})();
+
 /* ---------------- deadlines ---------------- */
 group('deadlines and statuses');
 var OTHER = ['opens', 'documents', 'portfolio', 'test', 'interview', 'aid', 'scholarship', 'decision', 'reply', 'notice'];
@@ -223,6 +269,30 @@ group('profile rendering');
     catch (e) { broken.push(u.id + ': ' + e.message); }
   });
   ok(broken.length === 0, 'all ' + DB.universities.length + ' profiles render without an error', broken.slice(0, 4).join('; '));
+  function page(id) { main.innerHTML = ''; P.renderProfile(U.uniById(id)); return main.innerHTML; }
+  var hv = page('harvard-university');
+  var aidCard = hv.slice(hv.indexOf('Need-based financial aid'));
+  ok(/Financial aid deadlines[\s\S]{0,400}1 November 2026/.test(aidCard), 'Harvard: the aid section shows the confirmed dates from the rounds, not "Not checked"');
+  ok(hv.indexOf('Required costs not included in the published total') > -1 && hv.indexOf('$100,088') > -1, 'Harvard: insurance is listed apart and the sum with it is labelled as calculated');
+  var be = page('berea-college');
+  ok(be.indexOf('What an admitted international student pays') > -1, 'Berea: the cost section says what an admitted student pays');
+  ok(be.indexOf('winning one is not guaranteed') < 0, 'Berea: the competitive-scholarship text is not used for guaranteed aid');
+  ok(be.indexOf('for the averages the university reports') < 0 && be.indexOf('the average GPA the university reports is shown') < 0, 'Berea: no pointer to an average GPA that is not published');
+  /* The pointer to statistics appears only where the figure exists. */
+  var wrongPointer = DB.universities.filter(function (u) {
+    var o = (u.stats && u.stats.official) || {};
+    if (o.gpa && typeof o.gpa.average === 'number') return false;
+    return page(u.id).indexOf('the average GPA the university reports is shown') > -1;
+  });
+  ok(!wrongPointer.length, 'no profile points to an average GPA it does not have', wrongPointer.map(function (u) { return u.id; }).slice(0, 5).join(', '));
+  var tk = page('university-of-tokyo'), tku = U.uniById('university-of-tokyo');
+  ok(tku.routes && tku.routes.length === 3 && tku.routes.map(function (r) { return r.status; }).join() === 'open,closed,transfer', 'Tokyo: College of Design, PEAK and GSC are three routes with their own status');
+  ok(tk.indexOf('Closed to new applicants') > -1 && tk.indexOf('Transfer route — not entry from school') > -1, 'Tokyo: PEAK is marked closed and GSC as a transfer route');
+  ok(!/PEAK/.test(JSON.stringify(tku.scholarships)) || /not offered to College of Design/.test(JSON.stringify(tku.scholarships)), 'Tokyo: PEAK scholarships are not listed as awards for College of Design applicants');
+  ok(!/MEXT/.test(JSON.stringify([tku.scholarships.fullRide, tku.scholarships.merit])), 'Tokyo: the largest award is the College of Design scholarship, not the PEAK MEXT offer');
+  ok(!/PEAK/.test(tku.admissions.interview), 'Tokyo: the interview text describes the current route');
+  var ky = page('kenyon-college');
+  ok(ky.indexOf('Official sources differ') > -1 && ky.indexOf('$93,090') > -1, 'Kenyon: the comprehensive fee and the conflict between sources are shown');
   doc.getElementById = oldGet; doc.querySelector = oldQ; doc.querySelectorAll = oldQA;
 })();
 
@@ -264,6 +334,27 @@ ok(U.bachelorIntlText({ bachelorIntl: undefined }).indexOf('does not say') > -1,
 
 /* ---------------- match ---------------- */
 group('match');
+(function () {
+  var c = function (v) { return M.checkField('m-gpa', v); };
+  ok(c('0').value === 0 && !c('0').invalid, 'GPA 0 is accepted');
+  ok(c('3.5').value === 3.5 && !c('3.5').invalid, 'GPA 3.5 is accepted');
+  ok(c('4.0').value === 4 && !c('4.0').invalid, 'GPA 4.0 is accepted');
+  ok(c('4.1').value === null && c('4.1').invalid, 'GPA 4.1 is rejected and not used');
+  ok(c('4.9').value === null && c('4.9').invalid, 'GPA 4.9 is rejected and not used');
+  ok(c('-1').value === null && c('-1').invalid, 'a negative GPA is rejected and not used');
+  ok(c('').value === null && !c('').invalid, 'an empty GPA field is simply not entered');
+  ok(M.checkField('m-sat', '1700').invalid && M.checkField('m-ielts', '9.5').invalid, 'SAT and IELTS outside their scales are rejected the same way');
+  var hv = M.evaluate(U.uniById('harvard-university'), { ielts: null, sat: null, gpa: 3.9, budget: null, currency: 'USD' });
+  var txt = hv.checks.map(function (x) { return x.text; }).join(' | ');
+  ok(/direct GPA comparison is not possible/i.test(txt) && !/average of admitted students/.test(txt), 'Harvard: a GPA above 4.0 with no stated scale is not compared', txt);
+  ok(hv.checks.every(function (x) { return !(x.basis === 'statistic' && /GPA/.test(x.text)); }), 'an incomparable GPA never counts as a statistic met or missed');
+  var noScale = DB.universities.filter(function (u) { var g = ((u.stats || {}).official || {}).gpa; return g && typeof g.average === 'number' && !g.cohort; });
+  ok(!noScale.length, 'every published GPA average names the students it describes', noScale.map(function (u) { return u.id; }).join(', '));
+  /* Budget: a required cost outside the published total is counted. */
+  var b1 = M.evaluate(U.uniById('harvard-university'), { ielts: null, sat: null, gpa: null, budget: 101000, currency: 'USD' }).budget;
+  var b2 = M.evaluate(U.uniById('harvard-university'), { ielts: null, sat: null, gpa: null, budget: 106000, currency: 'USD' }).budget;
+  ok(b1.status === 'fits-no-extras' && b2.status === 'fits', 'Harvard: $101,000 covers the published total but not the insurance; $106,000 covers both', b1.status + ' / ' + b2.status);
+})();
 var input = { ielts: 8, sat: 1500, gpa: null, budget: null, currency: 'USD', country: '', field: '', englishOnly: false };
 var cats = { match: 0, reach: 0, below: 0, unknown: 0 }, estimate = [], okNoBasis = [], gpaNotFlagged = [];
 DB.universities.forEach(function (u) {

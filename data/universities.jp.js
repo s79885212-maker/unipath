@@ -15,12 +15,12 @@ window.UNIPATH.universities.push(
   founded: 1877,
   type: 'National research university',
   brand: { c1: '#004098', c2: '#001f4a', initials: '東' },
-  description: 'Japan\'s leading national university. Fees are set at the national rate and are identical for international and domestic students — far below comparable universities in the United States or the UK. English-taught undergraduate entry is in flux: UTokyo has announced that PEAK, its English-medium programme at Komaba, has held its final student recruitment.',
+  description: 'Japan\'s leading national university. Fees are set at the national rate and are identical for international and domestic students. For a school leaver, the English-taught way in is the new College of Design, a five-year combined bachelor\'s and master\'s programme whose first cohort starts in September 2027. PEAK, the earlier English-medium programme, has stopped recruiting, and the Global Science Course takes only transfer students.',
   englishTaught: false,
   languageOfInstruction: 'Japanese, with some English-taught routes',
   programs: ['engineering','computer-science','economics','mathematics','biology','social-sciences','humanities','law','medicine','arts'],
   englishTaughtPrograms: [],
-  programNote: 'The University of Tokyo states that September 2026 was the last PEAK intake, so its English-taught first-year route is closing. The Global Science Course (GSC) remains, but it admits transfer students into the third year of the Faculty of Science rather than first-years, and most other undergraduate teaching is in Japanese.',
+  programNote: 'The field tags above describe the university as a whole, where most undergraduate teaching is in Japanese. The College of Design is taught in English but is a single interdisciplinary programme without conventional majors, so no field is marked as English-taught. PEAK is closed to new applicants; the Global Science Course admits transfer students into the third year of the Faculty of Science.',
   links: {
     website: 'https://www.u-tokyo.ac.jp/en/',
     admissions: 'https://www.u-tokyo.ac.jp/en/prospective-students/undergraduate_admissions.html',
@@ -38,75 +38,141 @@ window.UNIPATH.universities.push(
       { name: 'College of Design — video assignment', kind: 'portfolio', entryTerm: 'September', entryYear: '2027', dateISO: '2026-11-16', date: '13–16 November 2026', time: '23:59', timezone: 'JST', binding: false, appliesTo: 'Route B applicants', conditions: 'Submitted through the online application system from 12:00 JST on 13 November to 23:59 JST on 16 November 2026.', status: 'confirmed', source: 'https://design.adm.u-tokyo.ac.jp/admissions/application-guidelines-2027/route-b/', verified: '2026-09-30', note: null },
       { name: 'College of Design — online interviews', kind: 'interview', entryTerm: 'September', entryYear: '2027', dateISO: '2027-01-22', date: '13–22 January 2027', binding: false, appliesTo: 'Route B applicants who pass the first screening', conditions: 'First-screening results on 22 December 2026; interviews are online and in English.', status: 'confirmed', source: 'https://design.adm.u-tokyo.ac.jp/admissions/application-guidelines-2027/route-b/', verified: '2026-09-30', note: null },
       { name: 'College of Design — admission decisions', kind: 'decision', entryTerm: 'September', entryYear: '2027', dateISO: '2027-02-20', date: '20 February 2027', binding: false, appliesTo: 'Route B applicants', conditions: 'Admitted applicants confirm enrolment and pay the admission fee by late March 2027; conditional offers require final scores by 16 August 2027.', status: 'confirmed', source: 'https://design.adm.u-tokyo.ac.jp/admissions/application-guidelines-2027/route-b/', verified: '2026-09-30', note: null },
+      { name: 'College of Design — Needs-Based Scholarship application', kind: 'aid', entryTerm: 'September', entryYear: '2027', dateISO: '2026-11-05', date: '15 October – 5 November 2026', time: '17:00', timezone: 'JST', binding: false, appliesTo: 'College of Design applicants on either route, regardless of nationality', conditions: 'Submitted in the online application system together with the admission application; results on 20 February 2027.', status: 'confirmed', source: 'https://design.adm.u-tokyo.ac.jp/admissions/application-guidelines-2027/route-b/', verified: '2026-10-11', note: null },
       { name: 'PEAK — programme closing to new applicants', kind: 'notice', entryTerm: 'September', entryYear: '2026', date: 'Last intake was September 2026 enrolment', binding: false, appliesTo: 'International first-year applicants', conditions: 'The University of Tokyo states that the September 2026 enrolment was the last recruitment for PEAK, its English-taught first-year programme, and that PEAK applications are now closed. No PEAK intake is offered for 2027.', status: 'confirmed', source: 'https://peak.c.u-tokyo.ac.jp/apply/index.html', verified: '2026-09-24', note: 'This removes the main English-taught first-year route at Tokyo; check the university site for any replacement before planning an application.' },
       { name: 'Global Science Course (GSC) — transfer route', kind: 'intake', entryTerm: 'Autumn', entryYear: '2027', date: 'Late January – late March (exact dates in the guidelines)', binding: false, appliesTo: 'Students who have already completed at least two years of undergraduate study outside Japan', conditions: 'The GSC schedule page says the application guidelines are updated by late December and that applications run from late January to late March, with evaluation in April–May.', status: 'not-confirmed', source: 'https://www.s.u-tokyo.ac.jp/GSC/admissions/schedule.html', verified: '2026-10-06', note: 'No dated schedule for the next application period was published when the page was read.' }
     ],
-    applicationFee: { amount: null, currency: 'JPY', waiverAvailableToInternational: null, waiver: null },
-    documents: [],
+    applicationFee: { amount: 17000, currency: 'JPY', waiverAvailableToInternational: null, waiver: null,
+      note: 'College of Design, 2027 entry (Route B), paid in the online application system. ¥17,000 is refunded, minus transaction fees, to applicants found ineligible, and ¥13,000 to those who do not pass the first screening.',
+      source: 'https://design.adm.u-tokyo.ac.jp/admissions/application-guidelines-2027/route-b/', verified: '2026-10-11' },
+    documents: [
+      'College of Design, Route B: two essays and one video assignment',
+      'School transcripts for the final three consecutive years of secondary school',
+      'Result of one designated standardized test or qualification, chosen as the primary result',
+      'Result of one designated English proficiency test, sent directly by the testing body, unless the applicant qualifies for the English-medium education exemption',
+      'Evaluations from evaluators, on the questions in Appendix B3 of the guidelines'
+    ],
     recommendations: null,
     essay: null,
-    interview: 'PEAK selection was by documentary and interview-based screening through the Admissions Office (AO) entrance examination.',
+    interview: 'College of Design: applicants who pass the first screening have an individual online interview of about 30 minutes on one date between 13 and 22 January 2027. Two web cameras are needed; smartphones and tablets cannot be used as cameras.',
     notes: [
-      'The University of Tokyo has stated that the most recent PEAK intake was its final student recruitment and that no further PEAK applications will be accepted. Check the official English-taught programmes page for what replaces it before planning an application.',
-      'Most undergraduate entry is through the Japanese-language general entrance examination, which requires high Japanese proficiency.'
+      'This page describes three separate routes; see “Admission routes” for which one applies to you. Requirements, dates and funding of one route do not carry over to another.',
+      'Most other undergraduate entry is through the Japanese-language general entrance examination, which requires high Japanese proficiency.'
     ]
   },
   english: {
     ielts: null, toefl: null, duolingo: null,
     waiver: null,
-    note: 'PEAK required no Japanese-language ability and taught all courses in English, but UTokyo does not publish a single university-wide English minimum for undergraduate entry. Requirements depend on the specific admission route.'
+    note: 'College of Design: all courses are taught in English. Applicants submit one designated English test unless they qualify for the English-medium education exemption in the guidelines. The figures the guidelines give are called expectations.'
   },
   academics: {
     gpa: null,
-    sat: { policy: null, note: 'Not confirmed on the pages consulted.' },
-    act: { policy: null, note: 'Not confirmed on the pages consulted.' },
-    otherTests: null,
+    sat: { policy: 'required-alternatives', note: 'College of Design, Route B: one designated standardized test or qualification is required as the primary result. The SAT is one option, with an expected score of 1480 or above and no superscoring; IB, A-levels and other designated qualifications are alternatives. The guidelines say expected scores are not cut-off scores. Route A uses the Japanese Common Test instead.' },
+    act: { policy: 'required-alternatives', note: 'College of Design, Route B: the ACT is one option, with an expected composite score of 33 or above and no superscoring. Expected scores are not cut-off scores.' },
+    otherTests: 'College of Design, Route B: applicants are advised to submit AP scores with the SAT or ACT if they have them. Other tests such as EJU are not accepted.',
     internationalQualifications: 'Applicants generally need 12 years of formal schooling or an equivalent qualification recognised in Japan.'
   },
   costs: {
-    breakdown: { tuition: 642960, includes: "tuition per year; a one-time ¥282,000 enrolment fee is charged on entry" },
-    academicYear: null,
+    breakdown: { tuition: 642960, includes: "tuition per year, paid in two instalments in November and May; the one-time admission fee and the first-year accommodation at the College of Design are charged separately" },
+    academicYear: 'Fees as of 2026, printed in the guidelines for September 2027 entry',
     currency: 'JPY',
+    studentCategory: 'College of Design, September 2027 entry; the same national rate applies to domestic and international students',
+    source: 'https://design.adm.u-tokyo.ac.jp/admissions/application-guidelines-2027/route-b/',
+    verified: '2026-10-11',
     headline: '¥642,960 tuition per year',
     items: [
-      { label: 'Enrolment (admission) fee — one-time', amount: 282000 },
-      { label: 'Tuition per year (undergraduate)', amount: 642960 }
+      { label: 'Admission fee — one-time', amount: 282000 },
+      { label: 'Tuition per year (two instalments)', amount: 642960 },
+      { label: 'Accommodation, first year — initial cost', amount: 70930, note: 'Required: all first-year College of Design students live at Mejirodai International Village.' },
+      { label: 'Accommodation, first year — per month', amount: 82300, note: 'Monthly total as of July 2026.' }
     ],
-    totalText: '¥642,960 per year plus a one-time ¥282,000 enrolment fee',
-    note: 'UTokyo states there is no separate rate for international students — the fee is the same for everyone. Living costs in Tokyo are additional and substantial. Admission-fee and tuition-fee exemptions exist; see the exemptions page.'
+    totalText: '¥642,960 per year, plus a one-time ¥282,000 admission fee and the required first-year accommodation',
+    conflict: {
+      text: 'The Application Guidelines of 14 September 2026 give the first-year accommodation as ¥70,930 initially and ¥82,300 a month (as of July 2026). The College of Design FAQ says about ¥88,000 a month including internet and utilities. Both are shown; the guidelines are the dated document.',
+      sources: [
+        { label: 'College of Design — Application Guidelines 2027, Route B', url: 'https://design.adm.u-tokyo.ac.jp/admissions/application-guidelines-2027/route-b/' },
+        { label: 'College of Design — FAQ', url: 'https://design.adm.u-tokyo.ac.jp/faq/' }
+      ]
+    },
+    note: 'The guidelines say these fees are correct as of July 2026 and may change with university regulations. Recipients of the Needs-Based Scholarship are not eligible for the admission and tuition fee exemption.'
   },
   scholarships: {
     fullRide: {
       available: true,
       internationalEligible: true,
-      basis: 'merit',
-      covers: { tuition: true, housing: false, meals: false, insurance: false, books: false, stipend: true },
+      basis: 'need-based',
+      appliesTo: 'College of Design, September 2027 entry',
+      covers: { tuition: true, housing: null, meals: null, insurance: null, books: null, stipend: true },
       renewable: true,
-      competitiveness: 'Extremely competitive — for PEAK, UTokyo stated that up to five successful international applicants may be offered the MEXT scholarship.',
-      howToApply: 'The MEXT (Japanese Government) Scholarship is applied for through the university recommendation route alongside admission, or separately through a Japanese embassy.',
-      note: 'The MEXT Scholarship is a four-year award covering the admission fee, tuition, a round-trip economy airline ticket, and living expenses of ¥120,000 per month. It does not name housing or meals as separate covered items — the monthly stipend is intended to cover living costs.'
+      competitiveness: 'Applicants are reviewed on their financial situation; the guidelines do not say how many awards are made.',
+      howToApply: 'Complete the scholarship application form in the online application system between 15 October and 5 November 2026, with a statement explaining the need and documents proving it. Results come with the admission decision on 20 February 2027.',
+      note: 'UTokyo Design Needs-Based Scholarship: a grant of ¥2,400,000 a year, an amount equivalent to the admission fee in the first year, and one-way travel to Japan for residents overseas, for a maximum of five years. The guidelines describe it as support equivalent to the admission fee, tuition fees and living expenses in Japan; it is paid as money, and housing and meals are not named as separately covered items. From the second year it depends on continuing financial need and satisfactory academic performance. It is open to all applicants regardless of route or nationality.'
     },
     merit: [
-      { name: 'MEXT (Japanese Government) Scholarship', amount: 'Admission fee and tuition covered, plus ¥120,000/month and round-trip airfare', eligibility: 'Selected international applicants', deadline: null, application: 'University recommendation alongside admission, or via a Japanese embassy', renewable: true, note: 'For PEAK, up to five successful international applicants could be offered it.' },
-      { name: 'Country-specific scholarships (Vietnam, Indonesia)', amount: 'Tuition and other fees, ¥200,000 preparation support, and ¥128,000–¥160,000 monthly stipend', eligibility: 'Vietnamese and Indonesian students', deadline: null, application: null, renewable: null, note: 'Published on the PEAK fees and scholarships pages.' }
+      { name: 'UTokyo Design Merit-Based Scholarship', amount: '¥600,000 per year for up to five years', eligibility: 'College of Design students showing exceptional academic excellence, selected by the university on admission results', deadline: null, application: 'No application for the first year; recipients are notified on 20 February 2027', renewable: true, note: 'From the second year students submit an annual application and are selected on academic performance.' }
     ],
     needBased: {
-      availableToInternational: null,
-      meetsFullNeed: false,
+      availableToInternational: true,
+      meetsFullNeed: null,
       needBlindInternational: null,
-      forms: [],
-      deadlines: null,
-      note: 'UTokyo operates admission-fee and tuition-fee exemption schemes rather than U.S.-style need-based aid packages. See the exemptions page for eligibility.'
+      forms: ['Scholarship application form in the online application system', 'Statement explaining the need for the scholarship', 'Documents proving financial need'],
+      deadlines: 'College of Design: with the admission application.',
+      note: 'These awards belong to the College of Design. Scholarships that were published for PEAK applicants are listed under that closed route and are not offered to College of Design applicants on the pages read. UTokyo also runs admission-fee and tuition-fee exemption schemes; recipients of the Needs-Based Scholarship cannot use them.'
     }
   },
+  /* Three separate ways into an English-taught degree. Each has its own
+     status, applicants, dates and funding; nothing is shared between them. */
+  routes: [
+    {
+      id: 'college-of-design', name: 'College of Design', status: 'open',
+      intake: 'September 2027 (first cohort)',
+      forWhom: 'School leavers and others with 12 years of schooling or a designated qualification; no nationality restriction. Route A uses the Japanese Common Test, Route B designated international tests and qualifications.',
+      summary: 'A five-year combined bachelor\'s and master\'s degree taught entirely in English, for about 100 students a year.',
+      facts: [
+        { label: 'Application', text: '15 October, 09:00 – 5 November 2026, 17:00 JST, online. Application fee ¥17,000.' },
+        { label: 'What is assessed', text: 'Two essays, a video assignment, school transcripts, one standardized test or qualification, an English test and an online interview for those who pass the first screening.' },
+        { label: 'Tests', text: 'Expected, not cut-off: SAT 1480 or above, or ACT 33 or above, without superscoring; IB, A-levels and other designated qualifications are alternatives.' },
+        { label: 'English', text: 'Expectations: IELTS Academic greater than 6.0, TOEFL iBT greater than 80 (or greater than 4 on the scale used from 21 January 2026), Duolingo greater than 110, Cambridge greater than 169.' },
+        { label: 'Decisions', text: '20 February 2027; enrolment on 1 September 2027.' }
+      ],
+      funding: { status: 'confirmed', text: 'UTokyo Design Needs-Based Scholarship (¥2,400,000 a year plus the admission fee equivalent, up to five years) and Merit-Based Scholarship (¥600,000 a year), both open regardless of nationality.' },
+      source: 'https://design.adm.u-tokyo.ac.jp/admissions/application-guidelines-2027/route-b/', verified: '2026-10-11'
+    },
+    {
+      id: 'peak', name: 'PEAK (Programs in English at Komaba)', status: 'closed',
+      intake: 'Last intake: September 2026',
+      forWhom: 'No longer open to new applicants.',
+      summary: 'Historical information. The University of Tokyo stated that the September 2026 enrolment was the last recruitment for PEAK and that applications are closed; no PEAK intake is offered for 2027.',
+      facts: [
+        { label: 'Selection, when it ran', text: 'Documentary and interview-based screening through the Admissions Office entrance examination.' },
+        { label: 'Scholarships published for PEAK', text: 'The MEXT scholarship could be offered to up to five successful international applicants (admission fee, tuition, ¥120,000 a month and round-trip airfare), and country-specific scholarships existed for students from Vietnam and Indonesia. These were for PEAK applicants and are not offered to College of Design applicants on the pages read.' }
+      ],
+      funding: { status: 'not-applicable', text: 'The route is closed, so its scholarships cannot be applied for.' },
+      source: 'https://peak.c.u-tokyo.ac.jp/apply/index.html', verified: '2026-09-24',
+      note: 'The PEAK site did not answer on 11 October 2026; the university\'s page on English-taught undergraduate programmes read that day lists only the Global Science Course.'
+    },
+    {
+      id: 'gsc', name: 'Global Science Course (GSC)', status: 'transfer',
+      intake: 'October each year',
+      forWhom: 'Transfer students who have already completed at least two years of undergraduate study at a university outside Japan. It is not a route straight from school.',
+      summary: 'An all-English transfer programme: students enter the third year of the Faculty of Science and graduate with a Bachelor of Science.',
+      facts: [
+        { label: 'Schedule', text: 'Guidelines by late December; applications from late January to late March; document screening and an online interview in April–May; decisions by early June; enrolment in October. No dated schedule for the next period was published on the page read.' }
+      ],
+      funding: { status: 'confirmed', text: 'The university states that all GSC transfer students receive a monthly scholarship of ¥150,000 and accommodation with the monthly rent fully supported.' },
+      source: 'https://www.u-tokyo.ac.jp/en/prospective-students/undergraduate_english.html', verified: '2026-10-11'
+    }
+  ],
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'Undergraduate programs in English (PEAK and GSC)', url: 'https://www.u-tokyo.ac.jp/en/prospective-students/undergraduate_english.html' },
     { label: 'Admission fee and tuition', url: 'https://www.u-tokyo.ac.jp/en/prospective-students/tuition_fees.html' },
     { label: 'PEAK fees & scholarships', url: 'https://peak.c.u-tokyo.ac.jp/fees_scholarships/index.html' },
-    { label: 'UTokyo College of Design — FAQ (language of instruction)', url: 'https://design.adm.u-tokyo.ac.jp/faq/' }
+    { label: 'UTokyo College of Design — FAQ (language of instruction)', url: 'https://design.adm.u-tokyo.ac.jp/faq/' },
+    { label: 'UTokyo College of Design — Application Guidelines 2027, Route B (fees and scholarships)', url: 'https://design.adm.u-tokyo.ac.jp/admissions/application-guidelines-2027/route-b/' },
+    { label: 'Global Science Course — application schedule', url: 'https://www.s.u-tokyo.ac.jp/GSC/admissions/schedule.html' }
   ],
-  lastVerified: '2026-09-18'
+  lastVerified: '2026-10-11'
 },
 
 {
@@ -2326,7 +2392,7 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Twelve years of school education, or an equivalent such as the IB Diploma or GCE A-levels.'
   },
   costs: {
-    breakdown: { tuition: 2045000, tuitionText: '\u00a52,045,000 in school fees (two semesters of \u00a51,022,500)', billed: 2294500, includes: 'school fees for both semesters plus the one-time \u00a5200,000 admission fee and \u00a549,500 association fees in the first year; living costs in Kyoto are extra', published: true },
+    breakdown: { tuition: 2045000, tuitionLabel: 'Tuition and fees', tuitionText: '\u00a52,045,000 in school fees (two semesters of \u00a51,022,500)', billed: 2294500, includes: 'school fees for both semesters plus the one-time \u00a5200,000 admission fee and \u00a549,500 association fees in the first year; living costs in Kyoto are extra', published: true },
     academicYear: '2027\u20132028',
     currency: 'JPY',
     headline: '\u00a52,294,500 in the first year',
@@ -3015,6 +3081,7 @@ window.UNIPATH.universities.push(
   "costs": {
     "breakdown": {
       "tuition": 1316000,
+      "tuitionLabel": "Tuition and fees",
       "tuitionText": "¥1,316,000 tuition plus a ¥380,000 facility and equipment fee each year; the first year adds a ¥200,000 enrolment fee",
       "includes": "tuition and the facility and equipment fee; the residence hall and meal plan are extra",
       "published": true

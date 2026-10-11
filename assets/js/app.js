@@ -462,6 +462,25 @@
       '<br><span class="small ' + (st === 'confirmed' ? 'muted' : 'warn-text') + '">' + esc(ROUND_STATUS[st]) + '</span>' +
       (state ? ' <span class="small muted">· <span>' + esc(ROUND_STATE[state]) + '</span></span>' : '');
   }
+  /* ---- published statistics ----------------------------------------------
+     Every statistic names the students it describes. The Common Data Set
+     reports on enrolled first-year students, an admissions profile usually on
+     admitted applicants; the two are never merged or renamed. */
+  var COHORT_LABEL = { enrolled: 'enrolled first-year students', admitted: 'admitted students' };
+  function cohortLabel(c) { return COHORT_LABEL[c] || 'the published sample'; }
+  /* A published GPA can be set against a 4.0-scale GPA only when the source
+     states both the scale and that the figure is unweighted. */
+  function gpaComparable(g) {
+    return !!(g && typeof g.average === 'number' && g.scale === 4 && g.weighting === 'unweighted' && g.average <= 4);
+  }
+  function gpaBasisNote(g) {
+    if (g.weighting === 'weighted') return 'the source reports it as a weighted GPA, which cannot be set against an unweighted 4.0-scale GPA';
+    if (typeof g.average === 'number' && g.average > 4 && !g.scale) return 'it is above 4.0, so it is not on the plain 4.0 scale; the source does not state the scale or whether the figure is weighted';
+    if (g.scale && g.scale !== 4) return 'the source reports it on a ' + g.scale + ' scale';
+    if (g.scale === 4 && !g.weighting) return 'the source does not state whether it is weighted';
+    return 'the source does not state the scale or whether the figure is weighted';
+  }
+
   /* ---- application rounds -----------------------------------------------
      A round carries its own intake, conditions, source and confirmation
      status, so a date from an earlier cycle can never look like a confirmed
@@ -674,14 +693,21 @@
     if (has(c.headline) && !costBreak(u)) return 'confirmed';
     return 'not-checked';
   }
-  /* Short tuition text for cards: the tuition figure, else the university's
-     own published summary line, else the status. Returns { text, known }. */
-  function cardTuition(u) {
+  /* The one cost figure a card shows, named for what it is. Tuition, tuition
+     with compulsory fees, the sum a university bills and a full yearly budget
+     are different things and are never shown under the same word.
+     Returns { kind, label, text, suffix, known }. */
+  function cardCost(u) {
     var t = tuitionText(u);
-    if (t) return { text: t, suffix: perPeriod(u), known: true };
-    if (costStatus(u) === 'confirmed' && has(u.costs && u.costs.headline)) return { text: u.costs.headline, suffix: '', known: true };
-    return { text: statusLabel(costStatus(u)), suffix: '', known: false };
+    if (t) return { kind: 'tuition', label: tuitionLabel(u), text: t, suffix: perPeriod(u), known: true };
+    if (costStatus(u) === 'confirmed') {
+      if (billedAmount(u) !== null) return { kind: 'billed', label: billedLabel(u), text: money(billedAmount(u), costCurrency(u)), suffix: ' per year', known: true };
+      if (budgetText(u)) return { kind: 'budget', label: 'Full yearly budget', text: budgetText(u), suffix: '', known: true };
+      if (has(u.costs && u.costs.headline)) return { kind: 'summary', label: 'Cost', text: u.costs.headline, suffix: '', known: true };
+    }
+    return { kind: 'none', label: 'Cost', text: statusLabel(costStatus(u)), suffix: '', known: false };
   }
+  function cardTuition(u) { return cardCost(u); }
   function costHeadline(u) {
     return (u.costs && has(u.costs.headline)) ? u.costs.headline : null;
   }
@@ -701,6 +727,72 @@
     if (text == null) text = tuitionText(u);
     if (text && STATES_PERIOD.test(text)) return '';
     return costPeriod(u) === 'semester' ? ' per semester' : ' per year';
+  }
+
+  /* What the figure stored as tuition covers. A record can say so itself;
+     otherwise the name of the matching line in its own breakdown decides. */
+  function tuitionLabel(u) {
+    var b = costBreak(u) || {};
+    if (has(b.tuitionLabel)) return b.tuitionLabel;
+    var items = (u.costs && u.costs.items) || [];
+    for (var i = 0; i < items.length; i++) {
+      if (typeof b.tuition === 'number' && items[i].amount === b.tuition) {
+        return /\bfees\b/i.test(items[i].label) && !/fees included|no fees/i.test(items[i].label) ? 'Tuition and fees' : 'Tuition';
+      }
+    }
+    return 'Tuition';
+  }
+  /* Required costs a university leaves out of the total it publishes, such as
+     compulsory health insurance. Kept apart from the published figures. */
+  function costExtras(u) {
+    return ((u.costs && u.costs.extras) || []).filter(function (x) { return x && x.required && typeof x.amount === 'number'; });
+  }
+  /* The published full budget as numbers, where it is one: { min, max }. */
+  function budgetRange(u) {
+    var b = costBreak(u);
+    if (!b || typeof b.budget !== 'number') return null;
+    return { min: b.budget, max: typeof b.budgetMax === 'number' ? b.budgetMax : b.budget };
+  }
+  /* Published budget plus the required extras: a sum made by UniPath and
+     labelled as such wherever it is shown. Null when there is nothing to add. */
+  function budgetWithExtras(u) {
+    var r = budgetRange(u), ex = costExtras(u);
+    if (!r || !ex.length) return null;
+    var add = ex.reduce(function (a, x) { return a + x.amount; }, 0);
+    return { min: r.min + add, max: r.max + add, added: add };
+  }
+  /* Arithmetic of a breakdown: every line marked as billed must add up to the
+     billed subtotal, and the lines of the published budget to that budget.
+     Returns a list of problems (empty when the sums agree or cannot be made). */
+  function costArithmetic(u) {
+    var c = u.costs || {}, b = c.breakdown || {}, items = c.items || [], out = [];
+    var grouped = items.length && items.every(function (i) { return has(i.group); });
+    if (!grouped) return out;
+    var billed = items.filter(function (i) { return i.group === 'billed'; });
+    if (typeof c.billedSubtotal === 'number' && billed.length && billed.every(function (i) { return typeof i.amount === 'number'; })) {
+      var sum = billed.reduce(function (a, i) { return a + i.amount; }, 0);
+      if (sum !== c.billedSubtotal) out.push('billed lines add up to ' + sum + ', not to the stated ' + c.billedSubtotal);
+      if (typeof b.billed === 'number' && b.billed !== c.billedSubtotal) out.push('billed figure ' + b.billed + ' differs from the subtotal ' + c.billedSubtotal);
+    }
+    var r = budgetRange(u);
+    var all = items.filter(function (i) { return i.group === 'billed' || i.group === 'estimate'; });
+    var numeric = all.every(function (i) { return typeof i.amount === 'number' || (typeof i.min === 'number' && typeof i.max === 'number'); });
+    if (r && all.length && numeric) {
+      var lo = all.reduce(function (a, i) { return a + (typeof i.amount === 'number' ? i.amount : i.min); }, 0);
+      var hi = all.reduce(function (a, i) { return a + (typeof i.amount === 'number' ? i.amount : i.max); }, 0);
+      if (lo !== r.min || hi !== r.max) out.push('lines add up to ' + lo + '–' + hi + ', not to the published ' + r.min + '–' + r.max);
+    }
+    return out;
+  }
+
+  /* A breakdown without marked groups whose lines are all numbers but do not
+     add up to the published budget: the profile says so instead of leaving
+     the difference unexplained. */
+  function costItemsMismatch(u) {
+    var c = u.costs || {}, items = c.items || [], r = budgetRange(u);
+    if (!r || r.min !== r.max || !items.length || items.some(function (i) { return has(i.group); })) return false;
+    if (!items.every(function (i) { return typeof i.amount === 'number'; })) return false;
+    return items.reduce(function (a, i) { return a + i.amount; }, 0) !== r.min;
   }
 
   function tuitionAmount(u) {
@@ -740,7 +832,7 @@
   function costFigures(u) {
     var rows = [];
     var t = tuitionText(u);
-    if (t) rows.push({ id: 'tuition', label: 'Tuition', text: t, amount: tuitionAmount(u) });
+    if (t) rows.push({ id: 'tuition', label: tuitionLabel(u), text: t, amount: tuitionAmount(u) });
     if (billedAmount(u) !== null) {
       rows.push({ id: 'billed', label: billedLabel(u), text: money(billedAmount(u), costCurrency(u)), amount: billedAmount(u) });
     }
@@ -1126,9 +1218,9 @@
             (englishLabel(u) ? '<span class="badge badge-info">' + esc(englishLabel(u)) + '</span>' : '') +
           '</div>' +
           '<dl class="uni-facts">' +
-            '<div><dt>Tuition</dt><dd>' + (cardTuition(u).known
-              ? esc(cardTuition(u).text) + '<span class="small muted">' + esc(cardTuition(u).suffix) + '</span>'
-              : '<span class="unknown">' + esc(cardTuition(u).text) + '</span>') + '</dd></div>' +
+            '<div><dt>' + esc(cardCost(u).label) + '</dt><dd>' + (cardCost(u).known
+              ? esc(cardCost(u).text) + '<span class="small muted">' + esc(cardCost(u).suffix) + '</span>'
+              : '<span class="unknown">' + esc(cardCost(u).text) + '</span>') + '</dd></div>' +
             '<div><dt>Testing</dt><dd>' + esc(satLabel(u)) + '</dd></div>' +
             '<div><dt>IELTS</dt><dd>' + (ieltsLabel(u) ? esc(ieltsLabel(u)) : '<span class="unknown">Not checked</span>') + '</dd></div>' +
             '<div><dt>Next deadline</dt><dd>' + (dl.state === 'upcoming' ? esc(deadlineCardText(u))
@@ -1283,6 +1375,19 @@
 
     document.addEventListener('click', function (e) {
       var t = e.target;
+
+      /* "Skip to content" moves focus to the page content. It must not change
+         the address: "#main" is not a route. */
+      if (t.closest && t.closest('.skip-link')) {
+        e.preventDefault();
+        var target = document.getElementById('main');
+        if (target) {
+          if (!target.hasAttribute('tabindex')) target.setAttribute('tabindex', '-1');
+          target.focus({ preventScroll: true });
+          if (target.scrollIntoView) target.scrollIntoView();
+        }
+        return;
+      }
 
       if (t.closest && t.closest('[data-lang-toggle]') && global.I18N) {
         global.I18N.setLang(global.I18N.lang === 'ru' ? 'en' : 'ru');
@@ -1486,7 +1591,8 @@
 
   global.UP = { initMotion: initMotion, routeEnter: routeEnter, fieldCheck: fieldCheck, degreeValue: degreeValue, FIELD_NOTE_KIND: FIELD_NOTE_KIND,
     DB: DB, esc: esc, has: has, or: or, orRaw: orRaw, qs: qs, money: money, el: el, UNKNOWN: UNKNOWN,
-    STATUS: STATUS, statusLabel: statusLabel, statusHtml: statusHtml, feeStatus: feeStatus, costStatus: costStatus, cardTuition: cardTuition,
+    STATUS: STATUS, statusLabel: statusLabel, statusHtml: statusHtml, feeStatus: feeStatus, costStatus: costStatus, cardTuition: cardTuition, cardCost: cardCost, tuitionLabel: tuitionLabel,
+    costExtras: costExtras, budgetRange: budgetRange, budgetWithExtras: budgetWithExtras, costArithmetic: costArithmetic, costItemsMismatch: costItemsMismatch,
     DISCLAIMER: DISCLAIMER,
     country: country, field: field, uniById: uniById, unisByCountry: unisByCountry,
     displayName: displayName, uniUrl: uniUrl,
@@ -1510,6 +1616,7 @@
     bachelorPrograms: bachelorPrograms, bachelorIntlText: bachelorIntlText, ccSummary: ccSummary, ccBadge: ccBadge,
     savedGet: savedGet, savedHas: savedHas, savedToggle: savedToggle, savedButton: savedButton,
     APPLICATION_KINDS: APPLICATION_KINDS,
+    cohortLabel: cohortLabel, gpaComparable: gpaComparable, gpaBasisNote: gpaBasisNote,
     setActiveNav: setActiveNav, placeMarker: placeMarker, renderTray: renderTray, wireSearchBox: wireSearchBox,
     uniCard: uniCard, countryCard: countryCard, mediaBlock: mediaBlock, scholarBadge: scholarBadge,
     mount: mount

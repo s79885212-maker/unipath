@@ -8,6 +8,11 @@
             'tuition' → tuition (and compulsory fees) only; living costs extra
      min/max: range when the price depends on the programme
      example: true → the only published figure is one programme's fee
+     label: a sentence shown instead of a figure, where the cost is covered
+            rather than charged.
+     extras: a required yearly cost the university leaves OUT of its published
+            total (for example compulsory health insurance); extrasLabel says
+            what it is. It is added before a budget is called sufficient.
    A university missing here has no published yearly figure; the page
    says so rather than guessing.
 
@@ -146,15 +151,15 @@ window.UNIPATH.match = {
     'suny-korea': { currency: 'USD', basis: 'tuition', min: 23550, max: 23550, note: 'Two semesters at the Fall 2026 rate of $11,775 for students from outside New York State; course fees and the dormitory are extra' },
     'yamanashi-gakuin-university': { currency: 'JPY', basis: 'tuition', min: 1696000, max: 1896000, note: 'Tuition and facility fee; the higher figure is the first year with the enrolment fee. Residence hall and meals add about ¥1,000,000 a year' },
     /* United States — cost of attendance for 2026–27 */
-    'harvard-university':      { currency: 'USD', basis: 'total', min: 95134, max: 100134 },
+    'harvard-university':      { currency: 'USD', basis: 'total', min: 95134, max: 100134, extras: 4954, extrasLabel: 'health insurance, required unless covered by a family plan' },
     'new-york-university':     { currency: 'USD', basis: 'total', min: 100998, max: 100998, note: 'College of Arts & Science estimate; tuition varies by school' },
     'university-of-alabama':   { currency: 'USD', basis: 'total', min: 60400, max: 60400, note: 'Out-of-state, on campus' },
     'university-of-michigan':  { currency: 'USD', basis: 'total', min: 89394, max: 89394, note: 'International first-year; tuition varies by programme and year' },
     'mit':                     { currency: 'USD', basis: 'total', min: 92760, max: 92760 },
     'yale-university':         { currency: 'USD', basis: 'total', min: 97985, max: 97985 },
     'arizona-state-university':{ currency: 'USD', basis: 'total', min: 69906, max: 69906 },
-    'berea-college':           { currency: 'USD', basis: 'total', min: 1000, max: 1000, note: 'Tuition, housing, food and fees are covered; this is the personal-expenses figure' },
-    'uc-berkeley':             { currency: 'USD', basis: 'total', min: 101598, max: 101598 },
+    'berea-college':           { currency: 'USD', basis: 'total', min: 0, max: 0, label: 'Tuition, housing, food and fees are covered for every admitted international student. Personal expenses and a one-off $2,200 deposit remain; no yearly amount is published for them' },
+    'uc-berkeley':             { currency: 'USD', basis: 'total', min: 93944, max: 93944, note: 'New nonresident student in a residence hall: the published resident total plus the nonresident supplemental tuition' },
     'princeton-university':    { currency: 'USD', basis: 'total', min: 90574, max: 90574, note: 'Average before aid' },
     'brown-university':        { currency: 'USD', basis: 'total', min: 97016, max: 97016, note: 'Billed charges; books, travel and personal expenses extra' },
     'dartmouth-college':       { currency: 'USD', basis: 'total', min: 98427, max: 98427 },
@@ -202,7 +207,7 @@ window.UNIPATH.match = {
     'washington-and-lee-university': { currency: 'USD', basis: 'total', min: 99880, max: 99880 },
     'carleton-college':        { currency: 'USD', basis: 'total', min: 99580, max: 99580, note: '2025-26 figure, the latest published' },
     'oberlin-college':         { currency: 'USD', basis: 'total', min: 90000, max: 90000, note: '2025-26 expected support, the latest published' },
-    'kenyon-college':          { currency: 'USD', basis: 'total', min: 93090, max: 96940 },
+    'kenyon-college':          { currency: 'USD', basis: 'total', min: 95890, max: 96940, note: 'Two official full-cost figures for 2026–27 ($95,890 in the Factbook, $96,940 on the Tuition & Costs page); the comprehensive fee itself is $93,090' },
     'denison-university':      { currency: 'USD', basis: 'total', min: 92900, max: 92900, note: '2025-26 figure, the latest published' },
     'franklin-and-marshall-college': { currency: 'USD', basis: 'total', min: 97041, max: 97041 },
     'lehigh-university':       { currency: 'USD', basis: 'total', min: 93400, max: 93400 },

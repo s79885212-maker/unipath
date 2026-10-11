@@ -175,6 +175,7 @@ window.UNIPATH.universities.push(
       basis: 'merit',
       covers: { tuition: true, housing: false, meals: false, insurance: true, books: false, stipend: true },
       renewable: true,
+      guaranteed: true,
       competitiveness: 'Not a separate competition — KAIST states the scholarship goes to every admitted international student. Admission itself is highly selective.',
       howToApply: 'Automatic on admission — no separate scholarship application.',
       note: 'KAIST states it offers a full scholarship covering the tuition fee, approximately US$300 per month in allowances, and national health insurance, to every admitted international student. Students must maintain good grades to keep it. Housing and meals are not separately named as covered — the monthly allowance contributes toward living costs.'
@@ -853,7 +854,7 @@ window.UNIPATH.universities.push(
     verified: '2026-09-24'
   },
   scholarships: {
-    fullRide: { available: true, internationalEligible: true, basis: 'admission', covers: { tuition: true, housing: false, meals: false, insurance: false, books: false, stipend: true }, renewable: true, competitiveness: 'Granted to every student admitted through International Admissions I', howToApply: 'No separate application \u2014 the award is made with admission.', note: 'POSTECH gives every admitted international student a full tuition waiver for up to eight semesters plus a monthly stipend of \u20a9500,000, so the package goes beyond tuition. Housing and meals are not listed as covered.' },
+    fullRide: { guaranteed: true, available: true, internationalEligible: true, basis: 'admission', covers: { tuition: true, housing: false, meals: false, insurance: false, books: false, stipend: true }, renewable: true, competitiveness: 'Granted to every student admitted through International Admissions I', howToApply: 'No separate application \u2014 the award is made with admission.', note: 'POSTECH gives every admitted international student a full tuition waiver for up to eight semesters plus a monthly stipend of \u20a9500,000, so the package goes beyond tuition. Housing and meals are not listed as covered.' },
     merit: [
       { name: 'Full tuition waiver', amount: 'Full tuition for up to 8 semesters', eligibility: 'All students admitted through International Admissions', deadline: null, application: 'Automatic with admission', renewable: true, note: 'The first semester is unconditional; continuing needs a GPA of at least 3.0 out of 4.3 in the previous semester.' },
       { name: 'Living stipend', amount: '\u20a9500,000 a month, including vacation periods', eligibility: 'International admissions students', deadline: null, application: 'Automatic with admission', renewable: true, note: 'POSTECH states there is no GPA requirement for the stipend.' },

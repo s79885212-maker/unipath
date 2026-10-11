@@ -33,7 +33,7 @@
       source: { label: 'Harvard University ' + CDS, url: 'https://oira.harvard.edu/files/2026/07/CDS_2025-2026.pdf' },
       official: {
         admitRate: { value: 4.2, applied: 47893, admitted: 2003 },
-        gpa: { average: 4.22, note: '74.7% of students who reported a GPA had a 4.0; only 25% of the class reported a GPA.' },
+        gpa: { average: 4.22, kind: 'average', cohort: 'enrolled', scale: null, weighting: null, submittersOnly: true, note: '74.7% of students who reported a GPA had a 4.0; only 25% of the class reported a GPA.' },
         sat: { rw: [720, 750, 770], math: [730, 770, 790], submitted: '79%', cohort: 'enrolled', submittersOnly: true },
         act: [33, 35, 35],
         classRank: '95% were in the top tenth of their high school class (among those with a rank).'
@@ -111,7 +111,7 @@
       source: { label: 'NYU ' + CDS, url: 'https://www.nyu.edu/content/dam/nyu/institutionalResearch/documents/cds-2025-2026/CDS%202025-2026%20FINAL%20(no%20G).pdf' },
       official: {
         admitRate: { value: 9.1, applied: 114125, admitted: 10340 },
-        gpa: { average: 3.81, note: '17.2% had a 4.0 and 54.7% had between 3.75 and 3.99. 100% of the class reported a GPA.' },
+        gpa: { average: 3.81, kind: 'average', cohort: 'enrolled', scale: null, weighting: null, submittersOnly: true, note: '17.2% had a 4.0 and 54.7% had between 3.75 and 3.99. 100% of the class reported a GPA.' },
         sat: { composite: [1480, 1520, 1550], rw: [730, 750, 770], math: [750, 780, 790], submitted: '27%', cohort: 'enrolled', submittersOnly: true },
         act: [34, 35, 35]
       },
@@ -135,7 +135,7 @@
       source: { label: 'University of Michigan–Ann Arbor ' + CDS, url: 'https://obp.umich.edu/wp-content/uploads/pubdata/cds/cds_2025-26_umaa.pdf' },
       official: {
         admitRate: { value: 16.4, applied: 109112, admitted: 17915 },
-        gpa: { average: 3.9, note: '38.8% had a 4.0 and 55.1% had between 3.75 and 3.99. 97.8% of the class reported a GPA.' },
+        gpa: { average: 3.9, kind: 'average', cohort: 'enrolled', scale: null, weighting: null, submittersOnly: true, note: '38.8% had a 4.0 and 55.1% had between 3.75 and 3.99. 97.8% of the class reported a GPA.' },
         sat: { composite: [1370, 1470, 1530], rw: [690, 730, 750], math: [680, 740, 780], submitted: '55%', cohort: 'enrolled', submittersOnly: true },
         act: [32, 33, 34]
       },
@@ -154,7 +154,7 @@
       official: {
         admitRate: { value: 88.4, applied: 69617, admitted: 61533 },
         intlAdmitRate: { value: 89.9, applied: 8906, admitted: 8009 },
-        gpa: { average: 3.52, note: '9.0% had a 4.0, 27.5% had 3.75–3.99, 22.3% had 3.50–3.74 and 17.6% had 3.25–3.49.' },
+        gpa: { average: 3.52, kind: 'average', cohort: 'enrolled', scale: null, weighting: null, submittersOnly: true, note: '9.0% had a 4.0, 27.5% had 3.75–3.99, 22.3% had 3.50–3.74 and 17.6% had 3.25–3.49.' },
         sat: null,
         act: null,
         satNotPublished: 'ASU leaves the SAT/ACT score section (C9) of its 2025–26 Common Data Set blank.'
@@ -182,7 +182,7 @@
       source: { label: 'The University of Alabama ' + CDS, url: 'https://oira.ua.edu/d/sites/all/files/reports26/CDS%202025-26%20FINAL%209Dec2025.pdf' },
       official: {
         admitRate: { value: 71.2, applied: 61994, admitted: 44124 },
-        gpa: { average: 3.85, note: '40% had a 4.0, 19% had 3.75–3.99, 17% had 3.50–3.74 and 12% had 3.25–3.49. 98.9% of the class reported a GPA.' },
+        gpa: { average: 3.85, kind: 'average', cohort: 'enrolled', scale: null, weighting: null, submittersOnly: true, note: '40% had a 4.0, 19% had 3.75–3.99, 17% had 3.50–3.74 and 12% had 3.25–3.49. 98.9% of the class reported a GPA.' },
         sat: { composite: [1100, 1210, 1360], mean: 1222, rw: [560, 620, 680], math: [530, 600, 680], submitted: '19%', cohort: 'enrolled', submittersOnly: true },
         act: [22, 26, 31],
         classRank: '23% were in the top tenth of their high school class.'
@@ -1298,11 +1298,11 @@
   P['university-of-tokyo'] = {
     englishTaught: true,
     english: {
-      ielts: { min: null, recommended: null, note: 'The College of Design requires a designated English test; the accepted tests and scores are listed in the Application Guidelines appendix.' },
-      toefl: { min: null, recommended: null, note: 'See the College of Design Application Guidelines.' },
-      duolingo: { min: null, recommended: null, note: 'Check the Application Guidelines appendix for the designated tests.' },
-      waiver: null,
-      note: 'PEAK has closed. UTokyo\'s new English-taught route is the College of Design: a five-year combined bachelor\'s/master\'s programme starting September 2027, taught entirely in English, with no nationality restriction.'
+      ielts: { min: null, recommended: 6.5, note: 'College of Design expectation, as the guidelines put it: “Greater than 6.0”. IELTS reports overall scores in half-band steps, so that is 6.5 or higher. Academic module, IELTS Online included, all four parts; One Skill Retake scores are not accepted.' },
+      toefl: { min: null, recommended: null, note: 'College of Design expectation: greater than 80 for tests taken before 21 January 2026, or greater than 4 for tests taken on or after that date. Home Edition accepted. One test date only — MyBest scores are not accepted.' },
+      duolingo: { min: null, recommended: null, note: 'College of Design expectation: greater than 110.' },
+      waiver: 'Not needed from applicants who qualify for the English-medium education exemption set out in the guidelines.',
+      note: 'These are the expectations of the College of Design, the English-taught programme starting in September 2027. Cambridge English (greater than 169) and EIKEN (greater than 2,400) are also designated. PEAK has closed and the Global Science Course sets its own requirements for transfer students.'
     },
     admissions: {
       notes: [
@@ -1317,12 +1317,7 @@
     stats: {
       term: 'College of Design, September 2027 entry',
       source: { label: 'UTokyo College of Design admissions', url: 'https://design.adm.u-tokyo.ac.jp/admissions/' },
-      official: { admitRate: null, note: 'A new faculty, so no admission statistics exist yet. 50 places are reserved for Route B (international qualifications).' },
-      targets: {
-        sat: '1450+ or IB 38+ (Route B)',
-        gpa: 'Top 5–10% of class',
-        basis: 'Estimate. UTokyo is Japan\'s most selective university and the College of Design has only 50 international-route places. On the domestic route, UTokyo expects about 80% on the Common Test.'
-      }
+      official: { admitRate: null, note: 'A new faculty, so no admission statistics exist yet. 50 places are reserved for Route B (international qualifications).' }
     }
   };
 
@@ -1758,21 +1753,10 @@
       waiver: 'Route B applicants may skip the English test if they have had English-medium education for at least three of the final four school years (bilingual programmes do not count).'
     },
     academics: {
-      sat: { policy: 'accepted', note: 'Route B option 1: SAT (ERW-M or digital RW-M) 1480 or above. Superscores are not accepted; AP scores are recommended if available.' },
-      act: { policy: 'accepted', note: 'Route B option 1: ACT composite 33 or above. Superscores are not accepted. EJU is not accepted.' },
+      sat: { policy: 'required-alternatives', note: 'College of Design, Route B: one designated standardized test or qualification is required as the primary result. Option 1 is the SAT (ERW-M or digital RW-M) at 1480 or above; superscores are not accepted and AP scores are recommended if available. The qualifications under “Other standardized tests” are alternatives. Expected scores are not cut-offs. Route A uses the Japanese Common Test instead.' },
+      act: { policy: 'required-alternatives', note: 'College of Design, Route B option 1: ACT composite 33 or above. Superscores are not accepted. EJU is not accepted.' },
       otherTests: 'Route B option 2 (qualifications completed by 31 August 2027): IB 38/42 across six subjects plus at least 2 points for TOK/EE; International A-Level with at least three A grades (Cambridge, OxfordAQA, Pearson Edexcel or LRN); European Baccalaureate average of 87%+. Other country-specific qualifications may be accepted — contact the office.',
       internationalQualifications: 'UTokyo describes all of these as expectations, not cut-offs; decisions are holistic.'
-    },
-    costs: {
-      academicYear: 'As of April 2025 (2027 fees are set in the application guidelines)',
-      currency: 'JPY',
-      headline: '¥642,960 tuition per year',
-      items: [
-        { label: 'Admission fee — one-time', amount: 282000 },
-        { label: 'Tuition per year', amount: 642960 }
-      ],
-      totalText: '¥642,960 per year plus a one-time ¥282,000 admission fee',
-      note: 'UTokyo charges the same fees to international and domestic students. The College of Design FAQ quotes these figures as of April 2025 and says the fees for September 2027 entrants will be stated in the application guidelines.'
     },
     targets: {
       sat: '1480+ (official expectation) · or ACT 33+ · or IB 38+',

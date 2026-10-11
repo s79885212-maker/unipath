@@ -15,6 +15,11 @@
                 archived automatically once it has passed
    eventTime, eventZone — the published time and zone of that cut-off;
                 without them the entry closes only when the day has ended
+   eventLabel — what eventDate is, when it is neither a plain date nor a
+                deadline (for example the first day an application can be sent)
+   steps      — separate dated steps of one process, each with its own label,
+                so that opening a portal, sending an application and a
+                deadline are never merged into one date
    closes     — closing date of an open call, when the source gives one
    state      — open | upcoming | closed | varies | informational; an entry
                 with no deadline is never assumed to be an open call
@@ -45,15 +50,20 @@ window.UNIPATH.news = [
     type: 'applications-open',
     country: 'uk',
     org: 'UCAS',
-    title: 'UCAS applications for 2027 entry are open',
-    summary: 'UCAS opened applications for 2027 entry on 12 May 2026. All UK universities on this site take applications through UCAS, and an application can hold up to five choices.',
+    title: 'UCAS 2027 entry: start your application from 12 May, send it from 1 September 2026',
+    summary: 'UCAS lists two separate dates. On 12 May 2026 applications opened for 2027 entry: you can register and start your application in the UCAS Hub. A completed application can be submitted to UCAS only from 1 September 2026, and it needs a reference before it can be sent. All UK universities on this site take applications through UCAS, and an application can hold up to five choices.',
     url: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications',
     published: null,
-    verified: '2026-09-23',
-    eventDate: '2026-05-12',
+    verified: '2026-10-11',
+    eventDate: '2026-09-01',
+    eventLabel: 'Submission possible from',
+    steps: [
+      { date: '2026-05-12', label: 'Registration and start of the application in the UCAS Hub' },
+      { date: '2026-09-01', label: 'Completed applications can be submitted to UCAS' }
+    ],
     deadline: false,
     state: 'open',
-    stateNote: 'Applications for 2027 entry are open; the deadlines below decide when they must arrive.'
+    stateNote: 'Completed applications for 2027 entry can be submitted; the deadlines below decide when they must arrive.'
   },
   {
     id: 'ucas-2027-oct-deadline',

@@ -23,8 +23,14 @@
     return m ? '#/' + m[1] + '/' + m[2] : null;
   }
 
+  /* Only "#/..." is a route. Any other fragment ("#main", an in-page anchor)
+     leaves the current page as it is. */
+  function isRoute(hash) { return !hash || hash === '#' || hash.charAt(1) === '/'; }
+
   function parse() {
     var hash = global.location.hash;
+    if (!isRoute(hash)) hash = lastRoute;
+    else lastRoute = hash;
     var raw = (hash && hash !== '#' ? hash : (pathRoute() || '#/')).replace(/^#/, '');
     var q = raw.indexOf('?');
     if (q > -1) raw = raw.slice(0, q);
@@ -32,12 +38,17 @@
     return { parts: parts, key: parts.join('/') };
   }
 
+  var lastRoute = '', rendered = false;
+
   function notFound(title, body) {
     main.innerHTML = '<div class="wrap section"><div class="empty-state"><h3>' + U.esc(title) + '</h3>' +
       '<p>' + U.esc(body) + '</p><a class="btn btn-primary" href="#/universities">Browse all universities</a></div></div>';
   }
 
   function render() {
+    /* A fragment that is not a route never re-renders or scrolls the page. */
+    if (rendered && !isRoute(global.location.hash)) return;
+    rendered = true;
     var r = parse();
     var head = r.parts[0] || '';
     P.leaveBrowse();   /* drop the previous browse handle before swapping views */
@@ -156,7 +167,15 @@
     if ((head === 'university' || head === 'country') && id && /^[a-z0-9-]+$/.test(id)) path = '/' + head + '/' + id + '/';
     var link = document.querySelector('link[rel="canonical"]');
     if (!link) { link = document.createElement('link'); link.rel = 'canonical'; document.head.appendChild(link); }
-    link.href = global.location.origin + path;
+    link.href = global.location.origin + siteRoot() + path.slice(1);
+  }
+  /* The folder the site lives in: "/" on its own domain, "/unipath/" on a
+     GitHub Pages project site. A static page states it; the home document
+     is that folder itself. */
+  function siteRoot() {
+    var meta = document.querySelector('meta[name="unipath-root"]');
+    var root = meta ? (meta.getAttribute('content') || '/') : (global.location.pathname || '/').replace(/[^/]*$/, '');
+    return root.charAt(root.length - 1) === '/' ? root : root + '/';
   }
 
   /* On a static page (/university/<id>/, /country/<code>/) the app's

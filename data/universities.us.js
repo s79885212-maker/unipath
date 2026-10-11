@@ -171,29 +171,39 @@ window.UNIPATH.universities.push(
         tuition: 62226,
         billed: 91634,
         budget: 95134,
+        budgetMax: 100134,
         budgetText: "$95,134–$100,134",
         includes:
-          "tuition, fees, housing and food; the full budget adds books, personal expenses, health insurance and travel",
+          "tuition, fees, housing and food (billed), plus Harvard’s estimates for books, personal expenses and travel. Health insurance is not part of this total",
       },
       academicYear: "2026–2027",
       currency: "USD",
-      headline: "$95,134–$100,134 total",
+      studentCategory: "All undergraduates, before financial aid",
+      source: "https://college.harvard.edu/financial-aid/how-aid-works",
+      verified: "2026-10-11",
+      headline: "$95,134–$100,134 total, health insurance extra",
       items: [
-        { label: "Tuition", amount: 62226 },
-        { label: "Fees", amount: 6216 },
-        { label: "Housing", amount: 14250 },
-        { label: "Food", amount: 8942 },
-        { label: "Books", amount: 1000 },
-        { label: "Personal expenses", amount: 2500 },
-        { label: "Travel (varies)", text: "$0 – $5,000" },
-        {
-          label: "Student health insurance (waivable if covered elsewhere)",
-          amount: 4954,
-        },
+        { label: "Tuition", amount: 62226, group: "billed" },
+        { label: "Fees", amount: 6216, group: "billed" },
+        { label: "Housing", amount: 14250, group: "billed" },
+        { label: "Food", amount: 8942, group: "billed" },
+        { label: "Estimated personal expenses", amount: 2500, group: "estimate" },
+        { label: "Estimated books", amount: 1000, group: "estimate" },
+        { label: "Estimated transportation costs", text: "$0–$5,000", min: 0, max: 5000, group: "estimate" },
       ],
       billedSubtotal: 91634,
-      totalText: "$95,134 – $100,134",
-      note: "Billed costs (tuition, fees, housing, food) come to $91,634. Health insurance is charged separately unless you are covered by a comparable plan. Families receiving aid pay far less than these figures.",
+      totalText: "$95,134–$100,134 (total billed and unbilled costs)",
+      /* Required, but outside the total Harvard publishes. */
+      extras: [
+        {
+          label: "Student health insurance",
+          amount: 4954,
+          required: true,
+          condition: "Required unless you are covered under your family’s health plan.",
+          year: "2026–2027",
+        },
+      ],
+      note: "Harvard’s published total stops at $95,134–$100,134 and then adds: “In addition, health insurance is required at a cost of $4,954 (for 2026-27) unless you are covered under your family’s health plan.” Families receiving aid pay far less than these figures.",
     },
     scholarships: {
       fullRide: {
@@ -1767,30 +1777,46 @@ window.UNIPATH.universities.push(
       breakdown: {
         tuition: 0,
         includes:
-          "no student pays tuition; aid also covers housing, food and fees",
+          "no student pays tuition; for every admitted international student aid also covers housing, food and fees",
       },
       academicYear: null,
       currency: "USD",
+      studentCategory: "Admitted international students",
+      source: "https://www.berea.edu/admissions/admission-information/apply/checklist-items/international-faqs",
+      verified: "2026-10-11",
       headline: "No tuition — aid covers tuition, housing, food and fees",
       items: [
         { label: "Tuition", text: "Covered — no student pays tuition" },
         {
           label: "Housing, food and fees (international students)",
-          text: "Covered by aid and scholarships",
+          text: "Covered in full by aid and scholarships",
         },
         {
-          label: "Enrolment deposit",
+          label: "Enrolment deposit (one-off)",
           amount: 2200,
-          note: "One-off, payable on acceptance; can be used toward expenses across four years. Additional aid is available for students who cannot pay it.",
+          note: "Paid once to confirm enrolment; the I-20 is issued after it is received. It can be used for certain expenses during the four years, and additional aid is available for students who cannot pay all or part of it.",
         },
         {
-          label: "Personal expenses (student's own savings)",
-          amount: 1000,
-          note: "Berea asks international students to save about $1,000 per year toward personal costs",
+          label: "Personal expenses",
+          text: "Paid by the student — no amount published for international students",
+          note: "The international FAQ encourages students to save from their Work Program earnings toward personal expenses and names no amount.",
         },
       ],
-      totalText: "Tuition, housing, food and fees covered",
-      note: "Berea states that all admitted international students receive financial aid and scholarships covering 100% of tuition, housing, food and fees.",
+      totalText: "Tuition, housing, food and fees covered for every admitted international student",
+      /* What is left to pay once the guaranteed aid is applied. */
+      afterAid: {
+        covered: "Tuition, housing, food and fees — 100%, for every admitted international student.",
+        personal: "Personal expenses. Berea encourages international students to save from their Work Program earnings toward them; the international FAQ names no amount. The financial aid page encourages students in general to save $1,000 over the summer for the educational expenses of the coming year.",
+        notStated: "Health insurance, books and travel are not listed among the covered costs on the pages read.",
+        deposit: "$2,200, paid once to confirm enrolment. The I-20 is not issued until it is received. It can be used for certain expenses during the four years, and additional aid is available for students who cannot pay all or part of it.",
+        conditions: [
+          "Work Program: every student must work at least ten hours a week on campus. Berea says most international students work 15–20 hours a week and earn over $2,000 during the school year.",
+          "Berea says Work Program earnings are not enough to support a family at home, and it provides no accommodation or financial support for families.",
+        ],
+        source: "https://www.berea.edu/admissions/admission-information/apply/checklist-items/international-faqs",
+        verified: "2026-10-11",
+      },
+      note: "Berea states: “All admitted international students receive financial aid and scholarships that cover 100% of tuition, housing, food, and fees.” The funding follows admission; it is not a separate competition.",
     },
     scholarships: {
       fullRide: {
@@ -1805,11 +1831,12 @@ window.UNIPATH.universities.push(
           books: null,
         },
         renewable: true,
+        guaranteed: true,
         competitiveness:
           "Guaranteed once admitted — but admission is the bottleneck, with about 40 or fewer new international students per year against applications from around the world.",
         howToApply:
           "Apply for admission; the funding follows admission automatically.",
-        note: 'Berea states it is "the only school in the United States that provides 100% funding to 100% of enrolled international students," and that admitted international students receive aid covering 100% of tuition, housing, food and fees. Students still contribute a $2,200 deposit and are asked to save about $1,000 a year for personal expenses. Health insurance and books are not explicitly listed as covered.',
+        note: 'Berea states it is "the only school in the United States that provides 100% funding to 100% of enrolled international students," and that admitted international students receive aid covering 100% of tuition, housing, food and fees. Students still pay a one-off $2,200 deposit and their own personal expenses. Health insurance and books are not explicitly listed as covered.',
       },
       merit: [
         {
@@ -2019,24 +2046,29 @@ window.UNIPATH.universities.push(
     costs: {
       breakdown: {
         tuition: 57484,
-        budget: 101598,
+        tuitionLabel: "Tuition and fees",
+        billed: 86190,
+        budget: 93944,
         includes:
-          "tuition and fees including nonresident supplemental tuition, housing, meals, health insurance, books, personal expenses and transport",
+          "for a new nonresident student in a residence hall: tuition and fees with the nonresident supplemental tuition, housing, a meal plan and the student health insurance plan (direct costs), plus Berkeley’s estimate of personal expenses",
       },
       academicYear: "2026–2027",
       currency: "USD",
-      headline: "$101,598 total for a nonresident",
+      studentCategory: "New nonresident undergraduates living in a campus residence hall (international students pay the nonresident rate)",
+      source: "https://financialaid.berkeley.edu/how-aid-works/student-budgets-cost-of-attendance/",
+      verified: "2026-10-11",
+      headline: "$93,944 total for a new nonresident student",
       items: [
-        { label: "Tuition and fees", amount: 18214 },
-        { label: "Nonresident supplemental tuition", amount: 39270 },
-        { label: "Housing (residence hall)", amount: 16640 },
-        { label: "Meal plan", amount: 7000 },
-        { label: "Student health insurance plan", amount: 5066 },
-        { label: "Personal expenses, books, food and transport", amount: 7754 },
+        { label: "Tuition and fees", amount: 18214, group: "billed" },
+        { label: "Nonresident supplemental tuition (new out-of-state students)", amount: 39270, group: "billed" },
+        { label: "Housing (residence hall)", amount: 16640, group: "billed" },
+        { label: "Meal plan", amount: 7000, group: "billed" },
+        { label: "Student health insurance plan (can be waived for equivalent cover)", amount: 5066, group: "billed" },
+        { label: "Estimated personal expenses: food, books, supplies, personal and transport", amount: 7754, group: "estimate" },
       ],
-      billedSubtotal: 93844,
-      totalText: "$101,598",
-      note: "These are Berkeley's published figures for a nonresident student living in a residence hall. Direct costs billed by the university come to $93,844; the rest covers books, extra food, transport and personal spending. International students pay the nonresident supplemental tuition for all four years.",
+      billedSubtotal: 86190,
+      totalText: "$93,944 for a new nonresident student ($54,674 published for residents plus $39,270 nonresident supplemental tuition)",
+      note: "Berkeley publishes its budget table for California residents: direct costs of $46,920 and a total cost of attendance of $54,674 for a new student in a residence hall in 2026–27, and states that new out-of-state students pay an additional Nonresident Supplemental Tuition of $39,270. The nonresident figures here are those two published amounts added together. The health insurance plan can be waived for personal insurance that is equivalent or better. Berkeley notes that systemwide tuition and fees are approved amounts that may still change.",
     },
     scholarships: {
       fullRide: {

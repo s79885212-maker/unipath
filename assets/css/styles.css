@@ -172,6 +172,17 @@ p {
 }
 .skip-link:focus {
   left: 0;
+  outline: 3px solid var(--accent-500, #f59e0b);
+  outline-offset: 2px;
+  text-decoration: underline;
+}
+/* Focus lands on the content after "Skip to content"; no ring around the
+   whole page, the scroll position shows where the reader is. */
+main:focus {
+  outline: none;
+}
+main {
+  scroll-margin-top: var(--nav-h);
 }
 
 /* ---------- Header / nav ---------- */
@@ -2024,6 +2035,30 @@ html.is-gated body {
 }
 .match-field small {
   font-weight: 400;
+}
+.route-list {
+  display: grid;
+  gap: 14px;
+  margin-bottom: 22px;
+}
+.route-card.route-closed {
+  opacity: 0.86;
+  border-style: dashed;
+}
+.kind-date + .kind-date {
+  margin-top: 10px;
+}
+.cost-subtotal td {
+  font-weight: 650;
+  border-top: 1px solid var(--line);
+}
+.match-field .field-error {
+  color: var(--danger-600);
+  font-weight: 600;
+}
+.match-field input[aria-invalid="true"] {
+  border-color: var(--danger-600);
+  box-shadow: 0 0 0 3px rgba(180, 35, 24, 0.14);
 }
 .match-budget {
   display: flex;

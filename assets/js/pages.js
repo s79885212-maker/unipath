@@ -178,7 +178,38 @@
         roundTable(otherDates, 'Type') : '');
 
     var fee = a.applicationFee || {};
-    var admissions = '<section class="profile-section" id="admissions"><h2>Admissions</h2>' +
+    /* Separate admission routes of one university. Each card carries its own
+       status, applicants and funding, so a closed programme or a transfer
+       route is never read as part of the current first-year entry. */
+    var ROUTE_STATUS = {
+      open: ['badge-ok', 'Open to new applicants'],
+      closed: ['badge-warn', 'Closed to new applicants'],
+      transfer: ['badge-info', 'Transfer route — not entry from school']
+    };
+    var FUNDING_STATUS = { confirmed: 'Confirmed for this route', 'not-confirmed': 'Not confirmed for this route', 'not-applicable': 'Not applicable' };
+    var routesHtml = has(u.routes)
+      ? '<h3>Admission routes</h3>' +
+        '<p class="small muted" style="margin:0 0 10px">These are separate routes. Requirements, dates and scholarships of one do not apply to another.</p>' +
+        '<div class="route-list">' + u.routes.map(function (r) {
+          var st = ROUTE_STATUS[r.status] || ['', 'Status not checked'];
+          return '<article class="card route-card route-' + esc(r.status) + '"><div class="card-body">' +
+            '<h4 style="margin:0 0 8px;display:flex;gap:10px;align-items:center;flex-wrap:wrap">' + esc(r.name) +
+              ' <span class="badge ' + st[0] + '">' + esc(st[1]) + '</span></h4>' +
+            (has(r.summary) ? '<p style="margin:0 0 10px">' + esc(r.summary) + '</p>' : '') +
+            '<dl class="deflist">' +
+              (has(r.intake) ? row('Intake', esc(r.intake)) : '') +
+              (has(r.forWhom) ? row('For whom', esc(r.forWhom)) : '') +
+              (r.facts || []).map(function (f) { return row(esc(f.label), esc(f.text)); }).join('') +
+              (r.funding ? row('Funding', '<strong>' + esc(FUNDING_STATUS[r.funding.status] || 'Not checked') + '</strong>' +
+                (has(r.funding.text) ? '<br><span class="small">' + esc(r.funding.text) + '</span>' : '')) : '') +
+            '</dl>' +
+            (has(r.note) ? '<p class="small muted" style="margin:8px 0 0">' + esc(r.note) + '</p>' : '') +
+            (has(r.source) ? '<p class="small muted" style="margin:8px 0 0"><a href="' + esc(r.source) + '" target="_blank" rel="noopener">Official page ↗</a>' +
+              (has(r.verified) ? ' · <span>Checked ' + esc(r.verified) + '</span>' : '') + '</p>' : '') +
+          '</div></article>';
+        }).join('') + '</div>'
+      : '';
+    var admissions = '<section class="profile-section" id="admissions"><h2>Admissions</h2>' + routesHtml +
       '<h3 style="margin-top:6px">Application deadlines</h3>' + deadlines +
       '<dl class="deflist" style="margin-top:18px">' +
         row('Application platform', has(a.platforms) ? a.platforms.map(esc).join('<br>') : UNKNOWN) +
@@ -295,7 +326,15 @@
 
     /* Academics */
     var gpa = ac.gpa;
-    var gpaText = !gpa ? (u.stats ? '<span class="muted">No minimum GPA published — see “Who gets in” below for the averages the university reports.</span>' : UNKNOWN) : (typeof gpa === 'object'
+    /* Point to the statistics below only when a figure is really there. */
+    var so = (u.stats && u.stats.official) || {};
+    var hasGpaStat = !!(so.gpa && has(so.gpa.average));
+    var hasTestStat = !!((so.sat && (so.sat.composite || so.sat.rw || so.sat.math || has(so.sat.mean))) || so.act);
+    var gpaText = !gpa ? (u.stats
+      ? '<span class="muted">' + (hasGpaStat ? 'No minimum GPA published — the average GPA the university reports is shown in the statistics below.'
+        : hasTestStat ? 'No minimum GPA published. The university reports no average GPA; the test statistics it does publish are shown below.'
+        : 'No minimum GPA published, and no average GPA is reported in the source read.') + '</span>'
+      : UNKNOWN) : (typeof gpa === 'object'
       ? (has(gpa.min) ? '<strong>' + esc(gpa.min) + (has(gpa.scale) ? ' / ' + esc(gpa.scale) : '') + '</strong>' : '') +
         (has(gpa.note) ? '<br><span class="small muted">' + esc(gpa.note) + '</span>' : '')
       : esc(gpa));
@@ -368,14 +407,17 @@
       if (o.intlAdmitRate) rows += row('International acceptance rate', '<strong>' + esc(o.intlAdmitRate.value) + '%</strong> <span class="small muted">(' +
         Number(o.intlAdmitRate.admitted).toLocaleString('en-US') + ' of ' + Number(o.intlAdmitRate.applied).toLocaleString('en-US') + ')</span>');
       if (has(o.history)) rows += row('Previous years', esc(o.history));
-      if (o.gpa && (has(o.gpa.average) || has(o.gpa.note))) rows += row('Average high school GPA',
-        (has(o.gpa.average) ? '<strong>' + esc(o.gpa.average) + '</strong><br>' : '') + (has(o.gpa.note) ? '<span class="small muted">' + esc(o.gpa.note) + '</span>' : ''));
+      if (o.gpa && (has(o.gpa.average) || has(o.gpa.note))) rows += row(has(o.gpa.average) ? 'Average high school GPA of ' + U.cohortLabel(o.gpa.cohort) : 'High school GPA',
+        (has(o.gpa.average) ? '<strong>' + esc(o.gpa.average) + '</strong><br>' +
+          '<span class="small muted">' + (U.gpaComparable(o.gpa) ? 'Unweighted, on the 4.0 scale.' : 'Scale and weighting: <span>' + esc(U.gpaBasisNote(o.gpa)) + '</span>.') +
+          (o.gpa.submittersOnly ? ' <span>Only students who reported a GPA.</span>' : '') + '</span><br>' : '') +
+        (has(o.gpa.note) ? '<span class="small muted">' + esc(o.gpa.note) + '</span>' : ''));
       if (has(o.other)) rows += row('Other', list(o.other));
       if (has(o.classRank)) rows += row('Class rank', esc(o.classRank));
       if (has(o.note)) rows += row('Note', esc(o.note));
       var html = '';
       if (rows) html += '<div class="card" style="margin-top:22px"><div class="card-body">' +
-        '<h3 style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">📊 Who gets in <span class="badge badge-ok">Official data</span></h3>' +
+        '<h3 style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">📊 Admission statistics <span class="badge badge-ok">Official data</span></h3>' +
         '<p class="small muted" style="margin:0 0 6px">' + esc(st.term) +
           (st.source ? ' · Source: <a href="' + esc(st.source.url) + '" target="_blank" rel="noopener">' + esc(st.source.label) + ' ↗</a>' : '') + '</p>' +
         '<dl class="deflist">' + rows + '</dl></div></div>';
@@ -474,6 +516,25 @@
         '</dl></div></article>';
     }).join('') : '<p class="muted">No merit scholarships are listed for this university on the pages consulted.</p>';
 
+    /* One model for every date: the rounds of the record. A section that
+       shows a deadline reads it from there, so a confirmed financial aid or
+       scholarship date is the same wherever it appears. */
+    function datesOfKind(kind) {
+      var rows = U.roundsOf(u).filter(function (d) { return d.kind === kind; });
+      if (!rows.length) return '';
+      return rows.map(function (d) {
+        var intake = U.roundIntake(d);
+        return '<div class="kind-date"><strong>' + esc(U.roundWhen(d)) + '</strong> — <span>' + esc(d.name) + '</span>' +
+          '<br><span class="small muted">' +
+            (intake ? 'Intake: <span>' + esc(intake) + '</span> · ' : '') +
+            (has(d.appliesTo) ? '<span>' + esc(d.appliesTo) + '</span> · ' : '') +
+            '<span>' + esc(U.roundStatusLabel(d)) + '</span>' +
+            (has(d.source) ? ' · <a href="' + esc(d.source) + '" target="_blank" rel="noopener">Official page ↗</a>' : '') +
+          '</span>' +
+          (has(d.conditions) ? '<br><span class="small">' + esc(d.conditions) + '</span>' : '') + '</div>';
+      }).join('');
+    }
+    var aidDates = datesOfKind('aid'), scholarshipDates = datesOfKind('scholarship');
     var needCard = '<article class="card need-card"><div class="card-body">' +
       '<h3>Need-based financial aid</h3>' +
       '<dl class="deflist">' +
@@ -482,7 +543,9 @@
           (need.meetsFullNeed === true ? '<br><span class="small muted">“Need” is the amount the university itself calculates a family cannot pay. Meeting it in full does not mean a zero family contribution, and the package can include work or loans unless the university says otherwise.</span>' : '')) +
         row('Need-blind for international applicants', yesNo(need.needBlindInternational)) +
         row('Required forms', has(need.forms) ? need.forms.map(esc).join(', ') : UNKNOWN) +
-        row('Financial aid deadlines', or(need.deadlines)) +
+        row('Financial aid deadlines', aidDates
+          ? aidDates + (has(need.deadlines) ? '<span class="small muted">' + esc(need.deadlines) + '</span>' : '')
+          : or(need.deadlines)) +
       '</dl>' +
       (has(need.note) ? '<p class="small" style="margin-top:12px">' + esc(need.note) + '</p>' : '') +
       '</div></article>';
@@ -491,19 +554,73 @@
       '<div class="notice notice-warn"><span class="ico">⚠️</span><div data-i18n-html>A scholarship is only called a <strong>full ride</strong> here when the official source states what it covers. Where coverage is unconfirmed it is marked with <strong>?</strong> rather than assumed.</div></div>' +
       '<div style="margin-top:18px">' + frCard + '</div>' +
       '<h3>Merit scholarships</h3>' + meritCards +
+      (scholarshipDates ? '<div class="card" style="margin-top:12px"><div class="card-body"><h4 style="margin-top:0">Scholarship dates</h4>' + scholarshipDates + '</div></div>' : '') +
       '<h3 style="margin-top:24px">Need-based aid</h3>' + needCard +
       '</section>';
 
     /* Costs */
-    var costRows = has(costs.items) ? costs.items.map(function (i) {
+    /* Lines the university bills come first; where a record marks them, the
+       billed subtotal is printed right after the last of them. */
+    var lastBilled = -1;
+    (costs.items || []).forEach(function (i, n) { if (i.group === 'billed') lastBilled = n; });
+    var costRows = has(costs.items) ? costs.items.map(function (i, n) {
       var amt = has(i.amount) ? U.money(i.amount, costs.currency) : (has(i.text) ? esc(i.text) : UNKNOWN);
-      return '<tr><td>' + esc(i.label) + (has(i.note) ? '<br><span class="small muted">' + esc(i.note) + '</span>' : '') + '</td><td>' + amt + '</td></tr>';
+      return '<tr><td>' + esc(i.label) + (has(i.note) ? '<br><span class="small muted">' + esc(i.note) + '</span>' : '') + '</td><td>' + amt + '</td></tr>' +
+        (n === lastBilled && typeof costs.billedSubtotal === 'number'
+          ? '<tr class="cost-subtotal"><td>' + esc(U.billedLabel(u) === 'Comprehensive fee' ? 'Comprehensive fee — charged by the university' : 'Subtotal — billed by the university') + '</td><td>' + U.money(costs.billedSubtotal, costs.currency) + '</td></tr>'
+          : '');
     }).join('') : '';
+    /* Required costs outside the published total, and UniPath's own sum. */
+    var extras = U.costExtras(u), withExtras = U.budgetWithExtras(u), pubRange = U.budgetRange(u);
+    function rangeMoney(r) { return r.min === r.max ? U.money(r.min, costs.currency) : U.money(r.min, costs.currency) + '–' + U.money(r.max, costs.currency); }
+    var extrasHtml = extras.length
+      ? '<div class="card cost-extras" style="margin-top:14px"><div class="card-body">' +
+          '<h3 style="margin-top:0">Required costs not included in the published total</h3>' +
+          '<dl class="deflist">' + extras.map(function (x) {
+            return row(esc(x.label), '<strong>' + U.money(x.amount, costs.currency) + '</strong>' + (has(x.year) ? ' <span class="small muted">(' + esc(x.year) + ')</span>' : '') +
+              (has(x.condition) ? '<br><span class="small">' + esc(x.condition) + '</span>' : ''));
+          }).join('') + '</dl>' +
+          (withExtras && pubRange
+            ? '<dl class="deflist cost-sums" style="margin-top:10px">' +
+                row('Published by the university', '<strong>' + rangeMoney(pubRange) + '</strong><br><span class="small muted">Without the costs listed above.</span>') +
+                row('With these required costs', '<strong>' + rangeMoney(withExtras) + '</strong><br><span class="small muted">Calculated by UniPath: the published total plus the required costs above. The university does not publish this sum.</span>') +
+              '</dl>'
+            : '') +
+        '</div></div>'
+      : '';
+    var conflictHtml = costs.conflict && has(costs.conflict.text)
+      ? '<div class="notice notice-warn" style="margin-top:14px"><span class="ico">⚠️</span><div><strong>Official sources differ.</strong> <span>' + esc(costs.conflict.text) + '</span>' +
+          (has(costs.conflict.sources) ? '<br><span class="small">' + costs.conflict.sources.map(function (x) {
+            return '<a href="' + esc(x.url) + '" target="_blank" rel="noopener">' + esc(x.label) + ' ↗</a>'; }).join(' · ') + '</span>' : '') +
+        '</div></div>'
+      : '';
+    /* All lines are numbers yet do not add up to the published total: say so
+       rather than leave an unexplained difference. */
+    var partialHtml = U.costItemsMismatch(u)
+      ? '<p class="small muted" style="margin-top:8px">The lines listed here do not add up to the published total: the list leaves out a component or includes one that the total does not. Use the total as published and the official page for the full breakdown.</p>'
+      : '';
     var costTable = has(costs.items)
       ? '<div class="table-scroll"><table class="cost-table"><thead><tr><th>Item</th><th>Amount</th></tr></thead><tbody>' + costRows + '</tbody>' +
         (has(costs.totalText) ? '<tfoot><tr><td>As published by the university</td><td>' + esc(costs.totalText) + '</td></tr></tfoot>' : '') +
         '</table></div>'
       : '<p>' + UNKNOWN + '</p>';
+    /* Where aid is guaranteed on admission: what it covers, what stays with the
+       student, the one-off deposit and the conditions that remain. */
+    var aa = costs.afterAid;
+    var afterAidHtml = aa
+      ? '<div class="card cost-after-aid" style="margin-top:14px"><div class="card-body">' +
+          '<h3 style="margin-top:0">What an admitted international student pays</h3>' +
+          '<dl class="deflist">' +
+            (has(aa.covered) ? row('Covered', esc(aa.covered)) : '') +
+            (has(aa.personal) ? row('Paid by the student', esc(aa.personal)) : '') +
+            (has(aa.notStated) ? row('Not stated', esc(aa.notStated)) : '') +
+            (has(aa.deposit) ? row('One-off deposit', esc(aa.deposit)) : '') +
+            (has(aa.conditions) ? row('Conditions that remain', list(aa.conditions)) : '') +
+          '</dl>' +
+          (has(aa.source) ? '<p class="small muted" style="margin:10px 0 0"><a href="' + esc(aa.source) + '" target="_blank" rel="noopener">Official page ↗</a>' +
+            (has(aa.verified) ? ' · <span>Checked ' + esc(aa.verified) + '</span>' : '') + '</p>' : '') +
+        '</div></div>'
+      : '';
     var figures = U.costFigures(u);
     var costSrc = U.costSource(u);
     var costSummary = '<div class="cost-summary">' +
@@ -522,7 +639,8 @@
         'Currency: <span>' + esc(U.costCurrency(u) || 'not stated') + '</span> · ' +
         'Academic year: <span>' + esc(U.costYear(u) || 'not stated') + '</span>' +
         ' · Status: <span>' + esc(U.statusLabel(U.costStatus(u))) + '</span>' +
-        (costSrc ? ' · Source: <a href="' + esc(costSrc.url) + '" target="_blank" rel="noopener">' + esc(costSrc.label) + '</a>' : '') +
+        (has(costs.source) ? ' · Source: <a href="' + esc(costs.source) + '" target="_blank" rel="noopener">Official cost page ↗</a>'
+          : costSrc ? ' · Source: <a href="' + esc(costSrc.url) + '" target="_blank" rel="noopener">' + esc(costSrc.label) + '</a>' : '') +
         (has(costs.verified) ? ' · Checked: <span>' + esc(costs.verified) + '</span>'
           : has(u.lastVerified) ? ' · Profile last checked: <span>' + esc(u.lastVerified) + '</span>' : '') +
         (has(costs.studentCategory) ? ' · Student category: <span>' + esc(costs.studentCategory) + '</span>' : '') +
@@ -531,14 +649,19 @@
     var costs_ = '<section class="profile-section" id="costs"><h2>Costs</h2>' +
       costSummary +
       '<h3 style="margin-top:22px">Published breakdown</h3>' +
-      costTable +
+      costTable + partialHtml + extrasHtml + conflictHtml +
       (has(costs.note) ? '<div class="notice" style="margin-top:14px"><span class="ico">💰</span><div>' + esc(costs.note) + '</div></div>' : '') +
-      '<div class="notice notice-info" style="margin-top:12px"><span class="ico">↓</span><div><strong>Possible scholarship reduction.</strong> ' +
-        (U.fullRide(u).available === true
-          ? 'This university lists an award that can cover tuition in full — see the scholarships section for exactly what is and is not covered. The figures above are before any award: winning one is not guaranteed, so plan with the full amount.'
-          : U.meritList(u).length
-            ? 'Merit scholarships listed above reduce the tuition line if you win one. Housing, food and insurance usually remain payable.'
-            : 'No confirmed award is listed that would reduce these figures. Budget for the full amount until the university confirms otherwise.') +
+      afterAidHtml +
+      '<div class="notice notice-info" style="margin-top:12px"><span class="ico">↓</span><div>' +
+        (U.fullRide(u).available === true && U.fullRide(u).guaranteed === true
+          ? '<strong>Aid that follows admission.</strong> The university states that every admitted international student receives this award, so it is not a separate competition. The scholarships section says what it covers and on what conditions; costs it does not cover stay with the student.'
+          : U.fullRide(u).available === true && U.fullRide(u).basis === 'need-based'
+            ? '<strong>Need-based aid.</strong> The figures above are before financial aid. Need-based aid is calculated from a family’s finances rather than won in a competition, so the amount depends on the need the university assesses — and asking for aid can make admission itself harder where the scholarships section says so. Plan with the full amount until an aid offer is in hand.'
+            : U.fullRide(u).available === true
+              ? '<strong>Possible scholarship reduction.</strong> This university lists an award that can cover tuition in full — see the scholarships section for exactly what is and is not covered. The figures above are before any award: winning one is not guaranteed, so plan with the full amount.'
+              : U.meritList(u).length
+                ? '<strong>Possible scholarship reduction.</strong> Merit scholarships listed above reduce the tuition line if you win one. Housing, food and insurance usually remain payable.'
+                : '<strong>Possible scholarship reduction.</strong> No confirmed award is listed that would reduce these figures. Budget for the full amount until the university confirms otherwise.') +
       '</div></div></section>';
 
     /* Programs */
@@ -1183,13 +1306,20 @@
       ['Tuition', function (u) {
         var t = U.tuitionText(u);
         return t ? esc(t) + '<span class="small muted">' + esc(U.perPeriod(u, t)) + '</span>' +
-          '<br><span class="small muted">Tuition only — not comparable with a full budget</span>' : UNKNOWN;
+          '<br><span class="small muted">' + (U.tuitionLabel(u) === 'Tuition and fees' ? 'Tuition and compulsory fees — not comparable with a full budget' : 'Tuition only — not comparable with a full budget') + '</span>' : UNKNOWN;
       }],
       ['Billed by the university', function (u) {
         var b = U.billedAmount(u);
         return b === null ? UNKNOWN : '<span>' + esc(U.money(b, U.costCurrency(u))) + '</span><br><span class="small muted">' + esc(U.billedLabel(u)) + '</span>';
       }],
       ['Full budget (cost of attendance)', function (u) { return U.budgetText(u) ? esc(U.budgetText(u)) : UNKNOWN; }],
+      ['Required costs outside the published total', function (u) {
+        var ex = U.costExtras(u), w = U.budgetWithExtras(u), cur = U.costCurrency(u);
+        if (!ex.length) return '<span class="muted">None recorded</span>';
+        return ex.map(function (x) { return '<span>' + esc(x.label) + '</span>: <strong>' + esc(U.money(x.amount, cur)) + '</strong>' +
+            (has(x.condition) ? '<br><span class="small muted">' + esc(x.condition) + '</span>' : ''); }).join('<br>') +
+          (w ? '<br><span class="small">With them: <strong>' + esc(w.min === w.max ? U.money(w.min, cur) : U.money(w.min, cur) + '–' + U.money(w.max, cur)) + '</strong> <span class="muted">(calculated by UniPath)</span></span>' : '');
+      }],
       ['Academic year of the figures', function (u) { return U.costYear(u) ? esc(U.costYear(u)) : UNKNOWN; }],
       ['What the figures cover', function (u) { var i = U.costIncludes(u); return i ? '<span class="small">' + esc(i) + '</span>' : UNKNOWN; }],
       ['Application fee', function (u) { return U.feeLabel(u); }],
@@ -1210,9 +1340,12 @@
         if (!has(d)) return UNKNOWN;
         return d.map(function (x) { return '<span>' + esc(x.name) + '</span><br>' + U.deadlineHtml(x); }).join('<br><br>');
       }],
-      ['group', 'Who gets in'],
+      ['group', 'Admission statistics'],
       ['Acceptance rate', function (u) { var o = (u.stats || {}).official || {}; return o.admitRate ? '<strong>' + esc(o.admitRate.value) + '%</strong>' : '<span class="unknown">Not checked</span>'; }],
-      ['Average GPA', function (u) { var o = (u.stats || {}).official || {}; return o.gpa && has(o.gpa.average) ? '<strong>' + esc(o.gpa.average) + '</strong>' : '<span class="unknown">Not checked</span>'; }],
+      ['Average GPA', function (u) { var o = (u.stats || {}).official || {};
+        return o.gpa && has(o.gpa.average) ? '<strong>' + esc(o.gpa.average) + '</strong><br><span class="small muted"><span>' + esc(U.cohortLabel(o.gpa.cohort)) + '</span>' +
+          (U.gpaComparable(o.gpa) ? '' : ' · <span>not directly comparable: scale or weighting not stated</span>') + '</span>'
+          : o.gpa && has(o.gpa.note) ? '<span class="muted">Not published in the source read</span>' : '<span class="unknown">Not checked</span>'; }],
       ['SAT statistics', function (u) {
         var o = (u.stats || {}).official || {}, x = o.sat;
         if (!x && U.satPolicy(u) === 'not-applicable') return '<span class="muted">Not part of this admission route</span>';
