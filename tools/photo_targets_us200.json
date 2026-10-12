@@ -48,5 +48,606 @@
   "keywords": [
    "sarah lawrence"
   ]
+ },
+ "babson-college": {
+  "article": "Babson College",
+  "category": "Babson College",
+  "keywords": [
+   "babson college"
+  ]
+ },
+ "berklee-college-of-music": {
+  "article": "Berklee College of Music",
+  "category": "Berklee College of Music",
+  "keywords": [
+   "berklee college of music"
+  ]
+ },
+ "chapman-university": {
+  "article": "Chapman University",
+  "category": "Chapman University",
+  "keywords": [
+   "chapman university"
+  ]
+ },
+ "william-and-mary": {
+  "article": "College of William & Mary",
+  "category": "College of William & Mary",
+  "keywords": [
+   "william & mary",
+   "william and mary",
+   "wren building"
+  ]
+ },
+ "cornell-college": {
+  "article": "Cornell College",
+  "category": "Cornell College",
+  "keywords": [
+   "cornell college"
+  ]
+ },
+ "depaul-university": {
+  "article": "DePaul University",
+  "category": "DePaul University",
+  "keywords": [
+   "depaul university"
+  ]
+ },
+ "depauw-university": {
+  "article": "DePauw University",
+  "category": "DePauw University",
+  "keywords": [
+   "depauw university"
+  ]
+ },
+ "dillard-university": {
+  "article": "Dillard University",
+  "category": "Dillard University",
+  "keywords": [
+   "dillard university"
+  ]
+ },
+ "drew-university": {
+  "article": "Drew University",
+  "category": "Drew University",
+  "keywords": [
+   "drew university"
+  ]
+ },
+ "eckerd-college": {
+  "article": "Eckerd College",
+  "category": "Eckerd College",
+  "keywords": [
+   "eckerd college"
+  ]
+ },
+ "elmira-college": {
+  "article": "Elmira College",
+  "category": "Elmira College",
+  "keywords": [
+   "elmira college"
+  ]
+ },
+ "endicott-college": {
+  "article": "Endicott College",
+  "category": "Endicott College",
+  "keywords": [
+   "endicott college"
+  ]
+ },
+ "the-new-school": {
+  "article": "The New School",
+  "category": "The New School",
+  "keywords": [
+   "new school"
+  ]
+ },
+ "fairfield-university": {
+  "article": "Fairfield University",
+  "category": "Fairfield University",
+  "keywords": [
+   "fairfield university"
+  ]
+ },
+ "olin-college-of-engineering": {
+  "article": "Olin College",
+  "category": "Franklin W. Olin College of Engineering",
+  "keywords": [
+   "olin college"
+  ]
+ },
+ "georgia-institute-of-technology": {
+  "article": "Georgia Tech",
+  "category": "Georgia Institute of Technology",
+  "keywords": [
+   "georgia tech",
+   "georgia institute of technology"
+  ]
+ },
+ "gonzaga-university": {
+  "article": "Gonzaga University",
+  "category": "Gonzaga University",
+  "keywords": [
+   "gonzaga university"
+  ]
+ },
+ "goucher-college": {
+  "article": "Goucher College",
+  "category": "Goucher College",
+  "keywords": [
+   "goucher college"
+  ]
+ },
+ "hampshire-college": {
+  "article": "Hampshire College",
+  "category": "Hampshire College",
+  "keywords": [
+   "hampshire college"
+  ]
+ },
+ "harvey-mudd-college": {
+  "article": "Harvey Mudd College",
+  "category": "Harvey Mudd College",
+  "keywords": [
+   "harvey mudd college"
+  ]
+ },
+ "hendrix-college": {
+  "article": "Hendrix College",
+  "category": "Hendrix College",
+  "keywords": [
+   "hendrix college"
+  ]
+ },
+ "hobart-and-william-smith-colleges": {
+  "article": "Hobart and William Smith Colleges",
+  "category": "Hobart and William Smith Colleges",
+  "keywords": [
+   "hobart",
+   "william smith"
+  ]
+ },
+ "howard-university": {
+  "article": "Howard University",
+  "category": "Howard University",
+  "keywords": [
+   "howard university"
+  ]
+ },
+ "illinois-institute-of-technology": {
+  "article": "Illinois Institute of Technology",
+  "category": "Illinois Institute of Technology",
+  "keywords": [
+   "illinois institute of technology",
+   "iit",
+   "crown hall"
+  ]
+ },
+ "indiana-university-indianapolis": {
+  "article": "Indiana University Indianapolis",
+  "category": "Indiana University Indianapolis",
+  "keywords": [
+   "indiana university indianapolis",
+   "iupui",
+   "iu indianapolis"
+  ]
+ },
+ "ithaca-college": {
+  "article": "Ithaca College",
+  "category": "Ithaca College",
+  "keywords": [
+   "ithaca college"
+  ]
+ },
+ "lesley-university": {
+  "article": "Lesley University",
+  "category": "Lesley University",
+  "keywords": [
+   "lesley university"
+  ]
+ },
+ "loyola-university-chicago": {
+  "article": "Loyola University Chicago",
+  "category": "Loyola University Chicago",
+  "keywords": [
+   "loyola university chicago"
+  ]
+ },
+ "loyola-university-maryland": {
+  "article": "Loyola University Maryland",
+  "category": "Loyola University Maryland",
+  "keywords": [
+   "loyola university maryland"
+  ]
+ },
+ "marist-university": {
+  "article": "Marist University",
+  "category": "Marist University",
+  "keywords": [
+   "marist"
+  ]
+ },
+ "mcdaniel-college": {
+  "article": "McDaniel College",
+  "category": "McDaniel College",
+  "keywords": [
+   "mcdaniel college"
+  ]
+ },
+ "morehouse-college": {
+  "article": "Morehouse College",
+  "category": "Morehouse College",
+  "keywords": [
+   "morehouse college"
+  ]
+ },
+ "occidental-college": {
+  "article": "Occidental College",
+  "category": "Occidental College",
+  "keywords": [
+   "occidental college"
+  ]
+ },
+ "ohio-wesleyan-university": {
+  "article": "Ohio Wesleyan University",
+  "category": "Ohio Wesleyan University",
+  "keywords": [
+   "ohio wesleyan university"
+  ]
+ },
+ "providence-college": {
+  "article": "Providence College",
+  "category": "Providence College",
+  "keywords": [
+   "providence college"
+  ]
+ },
+ "rensselaer-polytechnic-institute": {
+  "article": "Rensselaer Polytechnic Institute",
+  "category": "Rensselaer Polytechnic Institute",
+  "keywords": [
+   "rensselaer",
+   "rpi"
+  ]
+ },
+ "savannah-college-of-art-and-design": {
+  "article": "Savannah College of Art and Design",
+  "category": "Savannah College of Art and Design",
+  "keywords": [
+   "savannah college of art",
+   "scad"
+  ]
+ },
+ "scripps-college": {
+  "article": "Scripps College",
+  "category": "Scripps College",
+  "keywords": [
+   "scripps college"
+  ]
+ },
+ "st-johns-college": {
+  "article": "St. John's College (Annapolis/Santa Fe)",
+  "category": "St. John's College, Annapolis",
+  "keywords": [
+   "st. john's college",
+   "st john's college",
+   "mcdowell hall"
+  ]
+ },
+ "sweet-briar-college": {
+  "article": "Sweet Briar College",
+  "category": "Sweet Briar College",
+  "keywords": [
+   "sweet briar college"
+  ]
+ },
+ "university-of-cincinnati": {
+  "article": "University of Cincinnati",
+  "category": "University of Cincinnati",
+  "keywords": [
+   "university of cincinnati"
+  ]
+ },
+ "villanova-university": {
+  "article": "Villanova University",
+  "category": "Villanova University",
+  "keywords": [
+   "villanova university"
+  ]
+ },
+ "washington-and-jefferson-college": {
+  "article": "Washington & Jefferson College",
+  "category": "Washington & Jefferson College",
+  "keywords": [
+   "washington & jefferson",
+   "washington and jefferson"
+  ]
+ },
+ "west-virginia-university": {
+  "article": "West Virginia University",
+  "category": "West Virginia University",
+  "keywords": [
+   "west virginia university"
+  ]
+ },
+ "westminster-college-pennsylvania": {
+  "article": "Westminster College (Pennsylvania)",
+  "category": "Westminster College (Pennsylvania)",
+  "keywords": [
+   "westminster college"
+  ]
+ },
+ "wheaton-college-massachusetts": {
+  "article": "Wheaton College (Massachusetts)",
+  "category": "Wheaton College (Massachusetts)",
+  "keywords": [
+   "wheaton college"
+  ]
+ },
+ "worcester-polytechnic-institute": {
+  "article": "Worcester Polytechnic Institute",
+  "category": "Worcester Polytechnic Institute",
+  "keywords": [
+   "worcester polytechnic",
+   "wpi"
+  ]
+ },
+ "agnes-scott-college": {
+  "article": "Agnes Scott College",
+  "category": "Agnes Scott College",
+  "keywords": [
+   "agnes scott college"
+  ]
+ },
+ "allegheny-college": {
+  "article": "Allegheny College",
+  "category": "Allegheny College",
+  "keywords": [
+   "allegheny college"
+  ]
+ },
+ "american-university": {
+  "article": "American University",
+  "category": "American University",
+  "keywords": [
+   "american university"
+  ]
+ },
+ "bentley-university": {
+  "article": "Bentley University",
+  "category": "Bentley University",
+  "keywords": [
+   "bentley university"
+  ]
+ },
+ "illinois-wesleyan-university": {
+  "article": "Illinois Wesleyan University",
+  "category": "Illinois Wesleyan University",
+  "keywords": [
+   "illinois wesleyan university"
+  ]
+ },
+ "iowa-state-university": {
+  "article": "Iowa State University",
+  "category": "Iowa State University",
+  "keywords": [
+   "iowa state university"
+  ]
+ },
+ "lake-forest-college": {
+  "article": "Lake Forest College",
+  "category": "Lake Forest College",
+  "keywords": [
+   "lake forest college"
+  ]
+ },
+ "muhlenberg-college": {
+  "article": "Muhlenberg College",
+  "category": "Muhlenberg College",
+  "keywords": [
+   "muhlenberg college"
+  ]
+ },
+ "pitzer-college": {
+  "article": "Pitzer College",
+  "category": "Pitzer College",
+  "keywords": [
+   "pitzer college"
+  ]
+ },
+ "rollins-college": {
+  "article": "Rollins College",
+  "category": "Rollins College",
+  "keywords": [
+   "rollins college"
+  ]
+ },
+ "santa-clara-university": {
+  "article": "Santa Clara University",
+  "category": "Santa Clara University",
+  "keywords": [
+   "santa clara university"
+  ]
+ },
+ "seattle-university": {
+  "article": "Seattle University",
+  "category": "Seattle University",
+  "keywords": [
+   "seattle university"
+  ]
+ },
+ "southern-methodist-university": {
+  "article": "Southern Methodist University",
+  "category": "Southern Methodist University",
+  "keywords": [
+   "southern methodist",
+   "smu",
+   "dallas hall"
+  ]
+ },
+ "spelman-college": {
+  "article": "Spelman College",
+  "category": "Spelman College",
+  "keywords": [
+   "spelman college"
+  ]
+ },
+ "st-lawrence-university": {
+  "article": "St. Lawrence University",
+  "category": "St. Lawrence University",
+  "keywords": [
+   "st. lawrence university"
+  ]
+ },
+ "stony-brook-university": {
+  "article": "Stony Brook University",
+  "category": "Stony Brook University",
+  "keywords": [
+   "stony brook university"
+  ]
+ },
+ "temple-university": {
+  "article": "Temple University",
+  "category": "Temple University",
+  "keywords": [
+   "temple university"
+  ]
+ },
+ "texas-a-and-m-university": {
+  "article": "Texas A&M University",
+  "category": "Texas A&M University",
+  "keywords": [
+   "texas a&m"
+  ]
+ },
+ "university-of-arizona": {
+  "article": "University of Arizona",
+  "category": "University of Arizona",
+  "keywords": [
+   "university of arizona"
+  ]
+ },
+ "university-of-iowa": {
+  "article": "University of Iowa",
+  "category": "University of Iowa",
+  "keywords": [
+   "university of iowa"
+  ]
+ },
+ "unc-chapel-hill": {
+  "article": "University of North Carolina at Chapel Hill",
+  "category": "University of North Carolina at Chapel Hill",
+  "keywords": [
+   "university of north carolina",
+   "unc",
+   "chapel hill"
+  ]
+ },
+ "university-of-denver": {
+  "article": "University of Denver",
+  "category": "University of Denver",
+  "keywords": [
+   "university of denver"
+  ]
+ },
+ "university-of-maryland": {
+  "article": "University of Maryland, College Park",
+  "category": "University of Maryland, College Park",
+  "keywords": [
+   "university of maryland"
+  ]
+ },
+ "umass-amherst": {
+  "article": "University of Massachusetts Amherst",
+  "category": "University of Massachusetts Amherst",
+  "keywords": [
+   "umass",
+   "university of massachusetts amherst"
+  ]
+ },
+ "university-of-minnesota-twin-cities": {
+  "article": "University of Minnesota",
+  "category": "University of Minnesota",
+  "keywords": [
+   "university of minnesota"
+  ]
+ },
+ "university-of-oklahoma": {
+  "article": "University of Oklahoma",
+  "category": "University of Oklahoma",
+  "keywords": [
+   "university of oklahoma"
+  ]
+ },
+ "university-of-oregon": {
+  "article": "University of Oregon",
+  "category": "University of Oregon",
+  "keywords": [
+   "university of oregon"
+  ]
+ },
+ "university-of-san-diego": {
+  "article": "University of San Diego",
+  "category": "University of San Diego",
+  "keywords": [
+   "university of san diego"
+  ]
+ },
+ "university-of-washington": {
+  "article": "University of Washington",
+  "category": "University of Washington",
+  "keywords": [
+   "university of washington"
+  ]
+ },
+ "ursinus-college": {
+  "article": "Ursinus College",
+  "category": "Ursinus College",
+  "keywords": [
+   "ursinus college"
+  ]
+ },
+ "willamette-university": {
+  "article": "Willamette University",
+  "category": "Willamette University",
+  "keywords": [
+   "willamette university"
+  ]
+ },
+ "wofford-college": {
+  "article": "Wofford College",
+  "category": "Wofford College",
+  "keywords": [
+   "wofford college"
+  ]
+ },
+ "xavier-university": {
+  "article": "Xavier University",
+  "category": "Xavier University",
+  "keywords": [
+   "xavier university"
+  ]
+ },
+ "xavier-university-of-louisiana": {
+  "article": "Xavier University of Louisiana",
+  "category": "Xavier University of Louisiana",
+  "keywords": [
+   "xavier university of louisiana"
+  ]
+ },
+ "hofstra-university": {
+  "article": "Hofstra University",
+  "category": "Hofstra University",
+  "keywords": [
+   "hofstra university"
+  ]
+ },
+ "rochester-institute-of-technology": {
+  "article": "Rochester Institute of Technology",
+  "category": "Rochester Institute of Technology",
+  "keywords": [
+   "rochester institute of technology",
+   "rit"
+  ]
  }
 }

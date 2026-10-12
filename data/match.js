@@ -35,6 +35,17 @@ window.UNIPATH.match = {
   annualCost: {
 
     /* United States expansion, October 2026 */
+    'babson-college': { currency: 'USD', basis: 'total', min: 86966, max: 86966 },
+    'berklee-college-of-music': { currency: 'USD', basis: 'total', min: 85817, max: 85817 },
+    'chapman-university': { currency: 'USD', basis: 'total', min: 94376, max: 94376 },
+    'william-and-mary': { currency: 'USD', basis: 'total', min: 75652, max: 75652, note: 'Out-of-state rate' },
+    'depaul-university': { currency: 'USD', basis: 'tuition', min: 48180, max: 48180 },
+    'depauw-university': { currency: 'USD', basis: 'billed', min: 80120, max: 80120 },
+    'eckerd-college': { currency: 'USD', basis: 'billed', min: 70668, max: 70668 },
+    'elmira-college': { currency: 'USD', basis: 'billed', min: 55530, max: 55530 },
+    'endicott-college': { currency: 'USD', basis: 'total', min: 66582, max: 66582 },
+
+    /* United States expansion, October 2026 */
     'bard-college': { currency: 'USD', basis: 'billed', min: 93472, max: 93472 },
     'bennington-college': { currency: 'USD', basis: 'billed', min: 95500, max: 95500, note: 'International students, with the health insurance estimate' },
     'claremont-mckenna-college': { currency: 'USD', basis: 'total', min: 101990, max: 101990 },

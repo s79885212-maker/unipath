@@ -2294,5 +2294,3262 @@ window.UNIPATH.universities.push(
     ]
   },
   "lastVerified": "2026-10-12"
+},
+
+{
+  "id": "babson-college",
+  "name": "Babson College",
+  "shortName": "Babson",
+  "country": "us",
+  "city": "Babson Park",
+  "region": "Massachusetts",
+  "founded": 1919,
+  "type": "Private business college",
+  "institutionKind": "private",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#6b1d4f",
+    "c2": "#360f28",
+    "initials": "B"
+  },
+  "description": "A private business college in Babson Park (Wellesley), Massachusetts, known for entrepreneurship. Babson is test-optional. International students are considered for merit scholarships with the application; its need-based Global Scholars programme gives four-year full-tuition scholarships, and admission for aid applicants is need-aware.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "economics"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics"
+  ],
+  "programNote": "Babson awards one undergraduate degree, the Bachelor of Science in Business Administration.",
+  "links": {
+    "website": "https://www.babson.edu/",
+    "admissions": "https://www.babson.edu/undergraduate/admission/",
+    "internationalAdmissions": "https://www.babson.edu/undergraduate/how-to-apply/international-applicants/",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://www.babson.edu/undergraduate/tuition-and-financial-aid/international-students/",
+    "financialAid": "https://www.babson.edu/undergraduate/tuition-and-financial-aid/international-students/",
+    "programs": "https://www.babson.edu/undergraduate/academics/",
+    "cost": "https://www.babson.edu/undergraduate/tuition-and-financial-aid/tuition-and-expenses/"
+  },
+  "admissions": {
+    "platforms": [
+      "Common Application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Decision I",
+        "kind": "ED",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Decisions in mid-December. Deposit due 15 January.",
+        "status": "confirmed",
+        "source": "https://www.babson.edu/undergraduate/how-to-apply/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Not binding. Decisions by mid-January. Reply by 1 May.",
+        "status": "confirmed",
+        "source": "https://www.babson.edu/undergraduate/how-to-apply/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Decision II",
+        "kind": "ED2",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-04",
+        "date": "4 January 2027",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Decisions by mid-February; deposit due 1 March.",
+        "status": "confirmed",
+        "source": "https://www.babson.edu/undergraduate/how-to-apply/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-04",
+        "date": "4 January 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Decisions by mid-March. Reply by 1 May.",
+        "status": "confirmed",
+        "source": "https://www.babson.edu/undergraduate/how-to-apply/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "CSS Profile for the Global Scholars programme — Early Decision",
+        "kind": "aid",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-15",
+        "date": "15 November 2026",
+        "binding": false,
+        "appliesTo": "International applicants asking for aid",
+        "conditions": "Needed to be considered for the need-based Global Scholars programme.",
+        "status": "confirmed",
+        "source": "https://www.babson.edu/undergraduate/tuition-and-financial-aid/international-students/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "CSS Profile for the Global Scholars programme — Regular Decision",
+        "kind": "aid",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-01",
+        "date": "1 February 2027",
+        "binding": false,
+        "appliesTo": "International applicants asking for aid",
+        "conditions": "Needed to be considered for the need-based Global Scholars programme.",
+        "status": "confirmed",
+        "source": "https://www.babson.edu/undergraduate/tuition-and-financial-aid/international-students/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 75,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": "On request to the Office of Undergraduate Admission",
+      "note": "Paid with the Common Application. A fee waiver can be requested from the Office of Undergraduate Admission.",
+      "source": "https://www.babson.edu/undergraduate/how-to-apply/",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Common Application",
+      "Official high school transcripts",
+      "School report and counselor recommendation",
+      "One teacher recommendation",
+      "Common Application personal statement and two Babson supplemental essays",
+      "English proficiency test unless exempt"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": null,
+      "recommended": null,
+      "note": "Accepted; the page gives no minimum score."
+    },
+    "toefl": {
+      "min": null,
+      "recommended": null,
+      "note": "Accepted; the page gives no minimum score."
+    },
+    "duolingo": {
+      "min": null,
+      "recommended": null,
+      "note": "Accepted; the page gives no minimum score."
+    },
+    "waiver": "Required from applicants whose native language is not English. Babson offers waivers to students who have shown high proficiency in English.",
+    "note": "Cambridge C1 Advanced, C2 Proficiency and C1 Business Higher are also accepted.",
+    "detailsSource": "https://www.babson.edu/undergraduate/how-to-apply/standardized-testing/",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "Babson has adopted a test-optional policy and says students who send no scores are not penalised; all first-year applicants are reviewed for merit scholarships either way.",
+      "source": "https://www.babson.edu/undergraduate/how-to-apply/standardized-testing/",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "Babson has adopted a test-optional policy and says students who send no scores are not penalised; all first-year applicants are reviewed for merit scholarships either way.",
+      "source": "https://www.babson.edu/undergraduate/how-to-apply/standardized-testing/",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, fees, housing and food (billed), plus the university’s estimates for books, transportation and personal expenses",
+      "tuition": 60288,
+      "billed": 83516,
+      "budget": 86966
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "Undergraduates living on campus",
+    "source": "https://www.babson.edu/undergraduate/tuition-and-financial-aid/tuition-and-expenses/",
+    "verified": "2026-10-12",
+    "headline": "$86,966 total cost of attendance",
+    "items": [
+      {
+        "label": "Tuition (includes the use of a Babson-issued laptop)",
+        "group": "billed",
+        "amount": 60288
+      },
+      {
+        "label": "Housing (median)",
+        "group": "billed",
+        "amount": 14984
+      },
+      {
+        "label": "Food and meal plan (average)",
+        "group": "billed",
+        "amount": 8244
+      },
+      {
+        "label": "Books and supplies (average)",
+        "group": "estimate",
+        "amount": 1300
+      },
+      {
+        "label": "Personal (average)",
+        "group": "estimate",
+        "amount": 2100
+      },
+      {
+        "label": "Federal Direct Loan fees (average)",
+        "group": "estimate",
+        "amount": 50
+      }
+    ],
+    "billedSubtotal": 83516,
+    "totalText": "$86,966 total cost of attendance, of which $83,516 is billed by the university",
+    "note": "Health insurance and travel are not in Babson’s table."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": true,
+      "internationalEligible": true,
+      "basis": "need-based",
+      "covers": {
+        "tuition": true,
+        "housing": false,
+        "meals": false,
+        "insurance": false,
+        "books": false
+      },
+      "renewable": true,
+      "name": "Global Scholars Program",
+      "competitiveness": "Admission for international applicants who ask for aid is need-aware; Babson says the most highly qualified candidates from different regions are offered admission and the scholarship.",
+      "howToApply": "Apply through Early Decision or Regular Decision and submit the CSS Profile by 15 November (Early Decision) or 1 February (Regular Decision).",
+      "note": "Global Scholars receive four-year, full-tuition scholarships. Those with greater need are also awarded grants, in amounts that vary with need, towards room and board, books, health insurance and travel — these are not guaranteed to every scholar. Canadian applicants are considered for a separate Canadian Scholarship.",
+      "quote": "will receive four-year, full-tuition scholarships",
+      "quoteSource": "https://www.babson.edu/undergraduate/tuition-and-financial-aid/international-students/"
+    },
+    "merit": [
+      {
+        "name": "Weissman Scholarship",
+        "amount": "Full tuition plus financial support for scholars",
+        "eligibility": "All first-year applicants, international students included",
+        "deadline": null,
+        "application": "Separate application",
+        "renewable": null,
+        "note": "Four years. It has a separate application."
+      },
+      {
+        "name": "Presidential Scholarship",
+        "amount": "Half tuition",
+        "eligibility": "All first-year applicants, international students included",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": "Four years, renewable each year with a cumulative GPA of at least 3.0."
+      },
+      {
+        "name": "Women’s Leadership Scholarship",
+        "amount": "Quarter tuition",
+        "eligibility": "All first-year applicants, international students included",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": "Four years; finalists are invited to campus for an interview."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": true,
+      "meetsFullNeed": null,
+      "needBlindInternational": false,
+      "forms": [
+        "CSS Profile"
+      ],
+      "deadlines": "15 November for Early Decision, 1 February for Regular Decision.",
+      "note": "Need-based aid for international students is given through the Global Scholars programme and, for Canadians, the Canadian Scholarship. International students do not file the FAFSA and are not eligible for Federal Work-Study."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Babson — how to apply",
+      "url": "https://www.babson.edu/undergraduate/how-to-apply/"
+    },
+    {
+      "label": "Babson — financial aid for international students",
+      "url": "https://www.babson.edu/undergraduate/tuition-and-financial-aid/international-students/"
+    },
+    {
+      "label": "Babson — tuition and fees 2026–2027",
+      "url": "https://www.babson.edu/undergraduate/tuition-and-financial-aid/tuition-and-expenses/"
+    },
+    {
+      "label": "Babson — standardized testing policy",
+      "url": "https://www.babson.edu/undergraduate/how-to-apply/standardized-testing/"
+    },
+    {
+      "label": "Babson — about",
+      "url": "https://www.babson.edu/about/babson-at-a-glance/"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "application fee",
+      "test policy",
+      "published costs",
+      "aid for international students",
+      "merit scholarships",
+      "founding year"
+    ],
+    "unconfirmed": [
+      "minimum English test scores",
+      "health insurance terms",
+      "admission statistics"
+    ]
+  },
+  "lastVerified": "2026-10-12"
+},
+
+{
+  "id": "berklee-college-of-music",
+  "name": "Berklee College of Music",
+  "shortName": "Berklee",
+  "country": "us",
+  "city": "Boston",
+  "region": "Massachusetts",
+  "founded": 1945,
+  "type": "Private college of music",
+  "institutionKind": "private",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#5a1f2e",
+    "c2": "#2e0f17",
+    "initials": "BM"
+  },
+  "description": "A private college of contemporary music in Boston, Massachusetts. Admission rests on an audition and interview; Berklee is test-blind and asks for no essays. International students are considered for merit scholarships through the audition, but entering international students are not considered for need-based institutional aid.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "arts"
+  ],
+  "englishTaughtPrograms": [
+    "arts"
+  ],
+  "programNote": null,
+  "links": {
+    "website": "https://www.berklee.edu/",
+    "admissions": "https://college.berklee.edu/admissions/undergraduate",
+    "internationalAdmissions": "https://college.berklee.edu/admissions/undergraduate/international",
+    "applicationPortal": "https://college.berklee.edu/admissions/undergraduate/how-to-apply",
+    "scholarships": "https://www.berklee.edu/scholarships",
+    "financialAid": "https://www.berklee.edu/financial-aid-international-student-financial-assistance",
+    "programs": "https://college.berklee.edu/majors",
+    "cost": "https://www.berklee.edu/financial-aid/cost-attendance"
+  },
+  "admissions": {
+    "platforms": [
+      "Berklee application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Not binding. Audition and interview from August to January. Decisions by 31 January. Deposit due 1 May. Applying by 1 November halves the application fee.",
+        "status": "confirmed",
+        "source": "https://college.berklee.edu/admissions/undergraduate/deadlines",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Regular Action",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Audition and interview from August to March. Decisions by 31 March. Deposit due 1 May.",
+        "status": "confirmed",
+        "source": "https://college.berklee.edu/admissions/undergraduate/deadlines",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 150,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Half price for summer or autumn applications submitted by 1 November.",
+      "source": "https://college.berklee.edu/admissions/undergraduate/how-to-apply",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Berklee application",
+      "Audition and interview",
+      "Official high school transcripts",
+      "Course-by-course credential evaluation, for applicants schooled outside the US and Canada (not needed with an IB diploma)",
+      "English proficiency test unless exempt"
+    ],
+    "recommendations": null,
+    "essay": "Berklee does not require essays or personal statements.",
+    "interview": "An audition and interview are part of every undergraduate application.",
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": null,
+      "recommended": 6.0,
+      "note": "Recommended minimum for the Bachelor of Music; 7.0 for the BA in Music Industry Leadership and Innovation. IELTS Indicator is not accepted."
+    },
+    "toefl": {
+      "min": null,
+      "recommended": 72,
+      "note": "Recommended minimum for the Bachelor of Music: 72 before 21 January 2026, 4 after it; 100 and 5 for the BA in Music Industry Leadership and Innovation. TOEFL Essentials, Home Edition and ITP are not accepted.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "recommended": 72,
+          "min": null
+        },
+        {
+          "period": "post2026",
+          "recommended": 4,
+          "min": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": null,
+      "recommended": 110,
+      "note": "Recommended minimum for the Bachelor of Music; 120 for the BA in Music Industry Leadership and Innovation."
+    },
+    "waiver": "Required when the first language is not English. Waived with an IB Diploma (not the Bilingual Diploma) or after two years of high school or two semesters of college taught entirely in English.",
+    "note": "PTE Academic is also accepted (48 for the Bachelor of Music, 60 for the BA).",
+    "detailsSource": "https://college.berklee.edu/admissions/undergraduate/international",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "not-used",
+      "note": "Berklee says it is test-blind and does not require the SAT or ACT for admission.",
+      "source": "https://college.berklee.edu/admissions/undergraduate/how-to-apply",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "not-used",
+      "note": "Berklee says it is test-blind and does not require the SAT or ACT for admission.",
+      "source": "https://college.berklee.edu/admissions/undergraduate/how-to-apply",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, fees, housing and food (billed), plus the university’s estimates for books, transportation, personal expenses and health insurance",
+      "tuition": 54020,
+      "billed": 76920,
+      "budget": 85817
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "Degree students living on campus",
+    "source": "https://www.berklee.edu/financial-aid/cost-attendance",
+    "verified": "2026-10-12",
+    "headline": "$85,817 total cost of attendance",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 54020
+      },
+      {
+        "label": "Fees",
+        "group": "billed",
+        "amount": 1600
+      },
+      {
+        "label": "On-campus room and board",
+        "group": "billed",
+        "amount": 21300
+      },
+      {
+        "label": "Berklee Student Health Insurance Plan (estimate)",
+        "group": "estimate",
+        "amount": 2577
+      },
+      {
+        "label": "Laptop",
+        "group": "estimate",
+        "amount": 2350
+      },
+      {
+        "label": "Living expenses",
+        "group": "estimate",
+        "amount": 1460
+      },
+      {
+        "label": "Transportation",
+        "group": "estimate",
+        "amount": 1180
+      },
+      {
+        "label": "Books and supplies",
+        "group": "estimate",
+        "amount": 1260
+      },
+      {
+        "label": "Federal Direct Loan fees",
+        "group": "estimate",
+        "amount": 70
+      }
+    ],
+    "billedSubtotal": 76920,
+    "totalText": "$85,817 total cost of attendance, of which $76,920 is billed by the university",
+    "note": "Tuition and fees are mandatory charges; Berklee lists on-campus room and board and the insurance plan as optional billed charges. The insurance figure is an estimate based on the prior year and can be waived with comparable cover."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": true,
+      "internationalEligible": true,
+      "basis": "merit",
+      "covers": {
+        "tuition": true,
+        "housing": false,
+        "meals": false,
+        "insurance": false,
+        "books": false
+      },
+      "renewable": true,
+      "name": "Full-tuition scholarships",
+      "competitiveness": "Berklee says the vast majority of its scholarships are partial-tuition and that a limited number of full-tuition awards go to exceptionally qualified applicants.",
+      "howToApply": "No separate application: awards follow from the audition and interview.",
+      "note": "Awarded on the strength of the audition and interview and renewed each year for a total of eight semesters. International students are eligible for merit-based scholarships through the admissions and audition process. Housing, food and other costs remain payable.",
+      "quote": "a limited number of full-tuition awards are available to exceptionally qualified applicants",
+      "quoteSource": "https://www.berklee.edu/scholarships"
+    },
+    "merit": [
+      {
+        "name": "Presidential Scholarship",
+        "amount": "Tuition, on-campus housing, the meal plan, laptop, software and the comprehensive fee",
+        "eligibility": "A very limited number of the top entering musicians, chosen on the audition and financial need",
+        "deadline": null,
+        "application": "Automatic nomination; no application",
+        "renewable": null,
+        "note": "Eight semesters. Health insurance, travel and books are not included. A FAFSA or CSS Profile must be on file; the page does not say whether international students are considered, and entering international students are not considered for need-based institutional aid."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": false,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Entering international students are not considered for need-based institutional aid. After their second semester they can be considered for the Thrive Scholarship, for which Berklee encourages a CSS Profile."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Berklee — international applicants",
+      "url": "https://college.berklee.edu/admissions/undergraduate/international"
+    },
+    {
+      "label": "Berklee — application deadlines",
+      "url": "https://college.berklee.edu/admissions/undergraduate/deadlines"
+    },
+    {
+      "label": "Berklee — how to apply",
+      "url": "https://college.berklee.edu/admissions/undergraduate/how-to-apply"
+    },
+    {
+      "label": "Berklee — cost of attendance 2026–2027",
+      "url": "https://www.berklee.edu/financial-aid/cost-attendance"
+    },
+    {
+      "label": "Berklee — financial aid for international students",
+      "url": "https://www.berklee.edu/financial-aid-international-student-financial-assistance"
+    },
+    {
+      "label": "Berklee — scholarships",
+      "url": "https://www.berklee.edu/scholarships"
+    },
+    {
+      "label": "Berklee — about",
+      "url": "https://www.berklee.edu/about"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "application fee",
+      "English proficiency",
+      "test policy",
+      "published costs",
+      "aid for international students",
+      "merit scholarships",
+      "founding year"
+    ],
+    "unconfirmed": [
+      "application fee waiver for international applicants",
+      "admission statistics",
+      "eligibility of international students for the Presidential Scholarship"
+    ]
+  },
+  "lastVerified": "2026-10-12"
+},
+
+{
+  "id": "chapman-university",
+  "name": "Chapman University",
+  "shortName": "Chapman",
+  "country": "us",
+  "city": "Orange",
+  "region": "California",
+  "founded": 1861,
+  "type": "Private university",
+  "institutionKind": "private",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#0b4f6c",
+    "c2": "#062b3b",
+    "initials": "C"
+  },
+  "description": "A private university in Orange, California, founded in 1861. Chapman is test-optional and need-aware. International first-year applicants are considered automatically for merit scholarships of up to $42,000 a year, and limited need-based aid of up to $15,000 a year is offered to international applicants.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "economics",
+    "arts"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "arts"
+  ],
+  "programNote": "Only the fields named on the pages read are listed here; Chapman’s full list of majors could not be read.",
+  "links": {
+    "website": "https://www.chapman.edu/",
+    "admissions": "https://www.chapman.edu/admission/undergraduate/index.aspx",
+    "internationalAdmissions": "https://www.chapman.edu/admission/undergraduate/how-to-apply/international-students/index.aspx",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://www.chapman.edu/admission/undergraduate/how-to-apply/international-students/tuition-and-costs.aspx",
+    "financialAid": "https://www.chapman.edu/admission/undergraduate/how-to-apply/international-students/tuition-and-costs.aspx",
+    "programs": "https://www.chapman.edu/academics/degrees-and-programs.aspx",
+    "cost": "https://www.chapman.edu/students/tuition-and-aid/financial-aid/undergraduate/cost-of-attendance.aspx"
+  },
+  "admissions": {
+    "platforms": [
+      "Common Application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Not binding. Decisions are sent from late December for most programmes, then on a rolling basis to the beginning of February.",
+        "status": "confirmed",
+        "source": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/index.aspx",
+        "verified": "2026-10-12",
+        "note": null
+      },
+      {
+        "name": "Early Decision I",
+        "kind": "ED",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Decisions in mid-December.",
+        "status": "confirmed",
+        "source": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/index.aspx",
+        "verified": "2026-10-12",
+        "note": null
+      },
+      {
+        "name": "Early Decision II",
+        "kind": "ED2",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding.",
+        "status": "confirmed",
+        "source": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/index.aspx",
+        "verified": "2026-10-12",
+        "note": null
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "The deadline for all programmes.",
+        "status": "confirmed",
+        "source": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/index.aspx",
+        "verified": "2026-10-12",
+        "note": null
+      }
+    ],
+    "applicationFee": {
+      "amount": 70,
+      "currency": "USD",
+      "waiverAvailableToInternational": true,
+      "waiver": "Common App fee waiver, for those who meet its guidelines",
+      "note": "Non-refundable, paid through the Common Application. International students are eligible for a fee waiver if they meet the Common App fee waiver guidelines.",
+      "source": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/index.aspx",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Common Application",
+      "Official high school transcripts",
+      "Common App School Report",
+      "English proficiency test unless exempt",
+      "Creative Supplement, for creative talent majors"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "With balanced sub-scores."
+    },
+    "toefl": {
+      "min": 80,
+      "recommended": null,
+      "note": "80 with balanced sub-scores for tests taken on or before 20 January 2026; 4.5 for tests taken after 21 January 2026.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 80,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 120,
+      "recommended": null,
+      "note": "At least 120."
+    },
+    "waiver": "Applicants in the Cambridge, IB or American-patterned curricula are eligible for a waiver.",
+    "note": "SAT English 600 or ACT English 24 also meet the requirement. Chapman does not offer conditional admission for English.",
+    "detailsSource": "https://www.chapman.edu/admission/undergraduate/how-to-apply/international-students/faqs.aspx",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "Chapman’s undergraduate programmes are test-optional: first-year applicants choose whether their SAT or ACT scores are reviewed.",
+      "source": "https://www.chapman.edu/admission/undergraduate/how-to-apply/test-optional.aspx",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "Chapman’s undergraduate programmes are test-optional: first-year applicants choose whether their SAT or ACT scores are reviewed.",
+      "source": "https://www.chapman.edu/admission/undergraduate/how-to-apply/test-optional.aspx",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, fees, housing and food (billed), plus the university’s estimates for books, transportation and personal expenses",
+      "tuition": 69990,
+      "billed": 89294,
+      "budget": 94376
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "First-time first-year students living on campus",
+    "source": "https://www.chapman.edu/students/tuition-and-aid/financial-aid/undergraduate/cost-of-attendance.aspx",
+    "verified": "2026-10-12",
+    "headline": "$94,376 total cost of attendance",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 69990
+      },
+      {
+        "label": "Fees",
+        "group": "billed",
+        "amount": 404
+      },
+      {
+        "label": "Housing",
+        "group": "billed",
+        "amount": 12818
+      },
+      {
+        "label": "Food",
+        "group": "billed",
+        "amount": 6082
+      },
+      {
+        "label": "Books and supplies",
+        "group": "estimate",
+        "amount": 1600
+      },
+      {
+        "label": "Personal",
+        "group": "estimate",
+        "amount": 2100
+      },
+      {
+        "label": "Transportation",
+        "group": "estimate",
+        "amount": 1300
+      },
+      {
+        "label": "Estimated loan fees",
+        "group": "estimate",
+        "amount": 82
+      }
+    ],
+    "billedSubtotal": 89294,
+    "totalText": "$94,376 total cost of attendance, of which $89,294 is billed by the university",
+    "note": "Chapman says the cost of attendance is used to work out aid eligibility and may not match the bill exactly.",
+    "extras": [
+      {
+        "label": "Health insurance (mandatory for international students)",
+        "amount": 2321,
+        "required": true,
+        "condition": "Chapman’s cost of attendance does not include health insurance. The page for international students lists it as mandatory at $2,321; the other figures on that page are from an earlier year.",
+        "year": null
+      }
+    ]
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "The pages read describe merit scholarships of up to $42,000 a year for international first-year students and need-based aid of up to $15,000 a year; neither reaches full tuition ($69,990 in 2026–27)."
+    },
+    "merit": [
+      {
+        "name": "Chapman merit scholarships",
+        "amount": "Up to $42,000 a year",
+        "eligibility": "International first-year students",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": "All admitted students are reviewed automatically. The FAQ for international students gives up to $42,000 a year; the costs page for international students says up to $40,000."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": true,
+      "meetsFullNeed": false,
+      "needBlindInternational": false,
+      "forms": [
+        "CSS Profile"
+      ],
+      "deadlines": null,
+      "note": "Chapman offers limited need-based aid of up to $15,000 a year to international applicants and describes itself as a need-aware institution."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Chapman — first-year applicants",
+      "url": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/index.aspx"
+    },
+    {
+      "label": "Chapman — FAQ for international students",
+      "url": "https://www.chapman.edu/admission/undergraduate/how-to-apply/international-students/faqs.aspx"
+    },
+    {
+      "label": "Chapman — costs and aid for international students",
+      "url": "https://www.chapman.edu/admission/undergraduate/how-to-apply/international-students/tuition-and-costs.aspx"
+    },
+    {
+      "label": "Chapman — cost of attendance 2026–2027",
+      "url": "https://www.chapman.edu/students/tuition-and-aid/financial-aid/undergraduate/cost-of-attendance.aspx"
+    },
+    {
+      "label": "Chapman — standardized testing policy",
+      "url": "https://www.chapman.edu/admission/undergraduate/how-to-apply/test-optional.aspx"
+    },
+    {
+      "label": "Chapman — about",
+      "url": "https://www.chapman.edu/about/index.aspx"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "application fee",
+      "English proficiency",
+      "test policy",
+      "published costs",
+      "aid for international students",
+      "merit scholarships",
+      "founding year"
+    ],
+    "unconfirmed": [
+      "financial aid deadline",
+      "admission statistics",
+      "year of the health insurance figure",
+      "full list of majors — the majors page could not be read"
+    ]
+  },
+  "lastVerified": "2026-10-12"
+},
+
+{
+  "id": "william-and-mary",
+  "name": "William & Mary",
+  "shortName": "W&M",
+  "country": "us",
+  "city": "Williamsburg",
+  "region": "Virginia",
+  "founded": 1693,
+  "type": "Public research university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#3d3d5c",
+    "c2": "#1f1f2e",
+    "initials": "W&M"
+  },
+  "description": "A public research university in Williamsburg, Virginia, chartered in 1693. The SAT and ACT are optional. William & Mary states that it generally has no scholarships or loan funds for undergraduate international students, who must be prepared to finance their education in full.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "education"
+  ],
+  "programNote": null,
+  "links": {
+    "website": "https://www.wm.edu/",
+    "admissions": "https://www.wm.edu/admission/undergraduateadmission/index.php",
+    "internationalAdmissions": "https://www.wm.edu/admission/undergraduateadmission/how-to-apply/international-applicants/index.php",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": null,
+    "financialAid": "https://www.wm.edu/admission/undergraduateadmission/how-to-apply/international-applicants/expensesaid/index.php",
+    "programs": "https://www.wm.edu/academics/programs/index.php",
+    "cost": "https://www.wm.edu/admission/tuition/index.php"
+  },
+  "admissions": {
+    "platforms": [
+      "Common Application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Decision I",
+        "kind": "ED",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Decisions in early December. Due by 11:59 p.m. in the applicant’s time zone.",
+        "status": "confirmed",
+        "source": "https://www.wm.edu/admission/undergraduateadmission/how-to-apply/datesdeadlines/index.php",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Decision II",
+        "kind": "ED2",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-05",
+        "date": "5 January 2027",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Decisions in early February. Due by 11:59 p.m. in the applicant’s time zone.",
+        "status": "confirmed",
+        "source": "https://www.wm.edu/admission/undergraduateadmission/how-to-apply/datesdeadlines/index.php",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-05",
+        "date": "5 January 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Decisions by 1 April. Enrollment deposit by 1 May. Due by 11:59 p.m. in the applicant’s time zone.",
+        "status": "confirmed",
+        "source": "https://www.wm.edu/admission/undergraduateadmission/how-to-apply/datesdeadlines/index.php",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null
+    },
+    "documents": [
+      "Common Application",
+      "Secondary School Report with official records from the ninth grade onwards, sent by the school",
+      "Official translations of records that are not in English"
+    ],
+    "recommendations": "Optional: one letter of recommendation may be submitted, and no more than two.",
+    "essay": null,
+    "interview": null,
+    "notes": [
+      "International first-year students are accepted for the autumn semester only."
+    ]
+  },
+  "english": {
+    "ielts": {
+      "min": null,
+      "recommended": 7,
+      "note": "William & Mary says it looks for an overall band of 7 or above on IELTS Academic; no score guarantees admission."
+    },
+    "toefl": {
+      "min": null,
+      "recommended": 100,
+      "note": "Generally a minimum of 100 for tests taken on or before 20 January 2026, or 5 for tests taken from 21 January 2026; My Best scores are accepted.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "recommended": 100,
+          "min": null
+        },
+        {
+          "period": "post2026",
+          "recommended": 5,
+          "min": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": null,
+      "recommended": null,
+      "note": "Accepted; the page gives no score."
+    },
+    "waiver": "TOEFL, IELTS or Duolingo scores are strongly recommended, not required, for international applicants and non-native speakers of English.",
+    "note": null,
+    "detailsSource": "https://www.wm.edu/admission/undergraduateadmission/how-to-apply/international-applicants/standardized-testing/index.php",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "William & Mary calls the SAT and ACT a completely optional part of the application; 40% of the Class of 2029 applied without scores.",
+      "source": "https://www.wm.edu/admission/undergraduateadmission/how-to-apply/international-applicants/standardized-testing/index.php",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "William & Mary calls the SAT and ACT a completely optional part of the application; 40% of the Class of 2029 applied without scores.",
+      "source": "https://www.wm.edu/admission/undergraduateadmission/how-to-apply/international-applicants/standardized-testing/index.php",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, fees, housing and food (billed), plus the university’s estimates for books, transportation and personal expenses",
+      "tuition": 46177,
+      "billed": 71895,
+      "budget": 75652
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "Out-of-state undergraduates living on campus",
+    "source": "https://www.wm.edu/admission/tuition/index.php",
+    "verified": "2026-10-12",
+    "headline": "$75,652 total cost of attendance",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 46177
+      },
+      {
+        "label": "Fees",
+        "group": "billed",
+        "amount": 8072
+      },
+      {
+        "label": "Housing",
+        "group": "billed",
+        "amount": 10512
+      },
+      {
+        "label": "Food",
+        "group": "billed",
+        "amount": 7134
+      },
+      {
+        "label": "Books & supplies",
+        "group": "estimate",
+        "amount": 900
+      },
+      {
+        "label": "Transportation ($1,035 for off-campus students)",
+        "group": "estimate",
+        "amount": 785
+      },
+      {
+        "label": "Personal expenses",
+        "group": "estimate",
+        "amount": 2000
+      },
+      {
+        "label": "Loan fees, if applicable",
+        "group": "estimate",
+        "amount": 72
+      }
+    ],
+    "billedSubtotal": 71895,
+    "totalText": "$75,652 total cost of attendance, of which $71,895 is billed by the university",
+    "note": "William & Mary calls these estimated annual costs for 2026–2027. International students pay the out-of-state rate; health insurance is not in the table."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": false,
+      "internationalEligible": false,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "William & Mary states that, generally speaking, it does not have scholarships or loan funds available to aid undergraduate international students who are citizens of other countries.",
+      "quote": "you must be prepared to fully finance your education",
+      "quoteSource": "https://www.wm.edu/admission/undergraduateadmission/how-to-apply/international-applicants/expensesaid/index.php"
+    },
+    "merit": [],
+    "needBased": {
+      "availableToInternational": false,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "The page for international applicants says they must be prepared to finance their education in full. The dates on the deadlines page for the FAFSA and CSS Profile concern applicants who are eligible for aid."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "William & Mary — application deadlines",
+      "url": "https://www.wm.edu/admission/undergraduateadmission/how-to-apply/datesdeadlines/index.php"
+    },
+    {
+      "label": "William & Mary — application checklist for international applicants",
+      "url": "https://www.wm.edu/admission/undergraduateadmission/how-to-apply/international-applicants/applicationprocess/index.php"
+    },
+    {
+      "label": "William & Mary — financial aid for international students",
+      "url": "https://www.wm.edu/admission/undergraduateadmission/how-to-apply/international-applicants/expensesaid/index.php"
+    },
+    {
+      "label": "William & Mary — standardized testing policy",
+      "url": "https://www.wm.edu/admission/undergraduateadmission/how-to-apply/international-applicants/standardized-testing/index.php"
+    },
+    {
+      "label": "William & Mary — tuition and fees 2026–2027",
+      "url": "https://www.wm.edu/admission/tuition/index.php"
+    },
+    {
+      "label": "William & Mary — history",
+      "url": "https://www.wm.edu/about/history/index.php"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "English proficiency",
+      "test policy",
+      "published costs",
+      "aid for international students",
+      "founding year",
+      "required documents"
+    ],
+    "unconfirmed": [
+      "application fee",
+      "health insurance terms",
+      "admission statistics"
+    ]
+  },
+  "lastVerified": "2026-10-12",
+  "aliases": [
+    "College of William and Mary",
+    "College of William & Mary",
+    "William and Mary"
+  ]
+},
+
+{
+  "id": "depaul-university",
+  "name": "DePaul University",
+  "shortName": "DePaul",
+  "country": "us",
+  "city": "Chicago",
+  "region": "Illinois",
+  "founded": null,
+  "type": "Private university",
+  "institutionKind": "private",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#1f3a5f",
+    "c2": "#0f1f33",
+    "initials": "D"
+  },
+  "description": "A private Catholic university in Chicago, Illinois. DePaul is test-optional for first-year admission. Every international applicant is considered automatically for the merit-based Global DePaul Scholarship of $12,000 to $32,000; the pages read describe no need-based aid for international students.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "computer-science",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "computer-science",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "education"
+  ],
+  "programNote": null,
+  "links": {
+    "website": "https://www.depaul.edu/",
+    "admissions": "https://www.depaul.edu/admission/undergraduate-admission",
+    "internationalAdmissions": "https://www.depaul.edu/admission/international-admission/freshman",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://www.depaul.edu/tuition-and-aid/scholarships",
+    "financialAid": "https://www.depaul.edu/tuition-and-aid",
+    "programs": "https://www.depaul.edu/academics/programs",
+    "cost": "https://www.depaul.edu/tuition-and-aid/undergraduate-tuition-and-fees"
+  },
+  "admissions": {
+    "platforms": [
+      "Common Application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-15",
+        "date": "15 November 2026",
+        "binding": false,
+        "appliesTo": "First-year international applicants",
+        "conditions": "Not binding. Decisions by 15 December.",
+        "status": "confirmed",
+        "source": "https://www.depaul.edu/admission/international-admission/freshman",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Regular Notification",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-01",
+        "date": "1 February 2027",
+        "binding": false,
+        "appliesTo": "First-year international applicants",
+        "conditions": "Decisions by 15 March. After 1 February applications are considered if space remains.",
+        "status": "confirmed",
+        "source": "https://www.depaul.edu/admission/international-admission/freshman",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null
+    },
+    "documents": [
+      "Common Application",
+      "Secondary school transcripts and examination results, with English translations",
+      "English proficiency test unless exempt"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": [
+      "The School of Music (1 December) and The Theatre School have their own deadlines; the two DePaul pages read give different dates for The Theatre School (15 January and 1 February)."
+    ]
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "6.5 on IELTS Academic."
+    },
+    "toefl": {
+      "min": 80,
+      "recommended": null,
+      "note": "80 with no subsection below 17, or 4 with no subsection below 3.5 on the scale used from 21 January 2026.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 80,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 115,
+      "recommended": null,
+      "note": "At least 115."
+    },
+    "waiver": "Applicants below the minimum may be considered for Conditional Admission.",
+    "note": "An SAT Evidence-Based Reading and Writing score of at least 540 is also accepted as proof.",
+    "detailsSource": "https://www.depaul.edu/admission/international-admission/freshman",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "DePaul lets applicants for first-year admission choose whether to submit ACT or SAT scores.",
+      "source": "https://www.depaul.edu/admission/undergraduate-admission/test-optional-faqs",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "DePaul lets applicants for first-year admission choose whether to submit ACT or SAT scores.",
+      "source": "https://www.depaul.edu/admission/undergraduate-admission/test-optional-faqs",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition only. Fees, housing, food, books and health insurance are extra and were not read on this check",
+      "tuition": 48180
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "Undergraduates admitted in 2026, 12–18 credit hours a term (most colleges)",
+    "source": "https://www.depaul.edu/tuition-and-aid/undergraduate-tuition-and-fees",
+    "verified": "2026-10-12",
+    "headline": "$48,180 in tuition",
+    "items": [
+      {
+        "label": "Tuition, three terms at $16,060",
+        "group": "billed",
+        "amount": 48180
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "$48,180 in tuition for the year; $50,403 for undergraduate Music and Theatre",
+    "note": "The rate shown is for students admitted in 2026; the rate for the 2027 intake is not published yet."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "The largest award the pages describe for international first-year students is the Global DePaul Scholarship of $12,000 to $32,000, below the yearly tuition of $48,180."
+    },
+    "merit": [
+      {
+        "name": "Global DePaul Scholarship",
+        "amount": "$12,000 to $32,000 a year",
+        "eligibility": "All international first-year applicants",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": "Awarded with the admission decision and based on the high school GPA."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "The pages read describe only merit scholarships for international first-year students."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "DePaul — international freshman admission",
+      "url": "https://www.depaul.edu/admission/international-admission/freshman"
+    },
+    {
+      "label": "DePaul — application deadlines",
+      "url": "https://www.depaul.edu/admission/undergraduate-admission/deadlines"
+    },
+    {
+      "label": "DePaul — tuition and fees 2026–27",
+      "url": "https://www.depaul.edu/tuition-and-aid/undergraduate-tuition-and-fees"
+    },
+    {
+      "label": "DePaul — standardized testing policy",
+      "url": "https://www.depaul.edu/admission/undergraduate-admission/test-optional-faqs"
+    },
+    {
+      "label": "DePaul — scholarships",
+      "url": "https://www.depaul.edu/tuition-and-aid/scholarships"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "English proficiency",
+      "test policy",
+      "tuition rate for the 2026 intake",
+      "merit scholarships"
+    ],
+    "unconfirmed": [
+      "application fee",
+      "fees, housing and food",
+      "health insurance terms",
+      "founding year",
+      "admission statistics",
+      "need-based aid for international students"
+    ]
+  },
+  "lastVerified": "2026-10-12"
+},
+
+{
+  "id": "depauw-university",
+  "name": "DePauw University",
+  "shortName": "DePauw",
+  "country": "us",
+  "city": "Greencastle",
+  "region": "Indiana",
+  "founded": null,
+  "type": "Private liberal arts college",
+  "institutionKind": "liberal-arts",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#3d3d5c",
+    "c2": "#1f1f2e",
+    "initials": "D"
+  },
+  "description": "A private liberal arts university in Greencastle, Indiana. DePauw charges no application fee and is test-optional. International students are considered automatically for merit scholarships from $20,000 to full tuition, including the full-tuition Rector Scholarship.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts"
+  ],
+  "programNote": null,
+  "links": {
+    "website": "https://www.depauw.edu/",
+    "admissions": "https://www.depauw.edu/admission-aid/",
+    "internationalAdmissions": "https://www.depauw.edu/admission-aid/apply/international-applicants/",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://www.depauw.edu/admission-aid/apply/international-applicants/international-students/scholarships-and-financial-aid-for-international-students/",
+    "financialAid": "https://www.depauw.edu/admission-aid/scholarships-aid/",
+    "programs": "https://www.depauw.edu/academics/majors-and-minors/",
+    "cost": "https://www.depauw.edu/admission-aid/scholarships-aid/tuition-and-fees/"
+  },
+  "admissions": {
+    "platforms": [
+      "Common Application",
+      "DePauw application",
+      "Coalition Application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Decision I",
+        "kind": "ED",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": true,
+        "appliesTo": "International applicants",
+        "conditions": "Binding. Materials due 8 November; notified by 15 December; deposit due 15 January.",
+        "status": "confirmed",
+        "source": "https://www.depauw.edu/admission-aid/apply/international-applicants/application-checklist/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Action I",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": "Not binding. Materials due 8 November; notified by 15 December; deposit due 1 May.",
+        "status": "confirmed",
+        "source": "https://www.depauw.edu/admission-aid/apply/international-applicants/application-checklist/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Decision II",
+        "kind": "ED2",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-12-15",
+        "date": "15 December 2026",
+        "binding": true,
+        "appliesTo": "International applicants",
+        "conditions": "Binding. Materials due 22 December; notified by 15 January; deposit due 15 February.",
+        "status": "confirmed",
+        "source": "https://www.depauw.edu/admission-aid/apply/international-applicants/application-checklist/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Action II",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-12-15",
+        "date": "15 December 2026",
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": "Not binding. Materials due 22 December; notified by 15 January; deposit due 1 May.",
+        "status": "confirmed",
+        "source": "https://www.depauw.edu/admission-aid/apply/international-applicants/application-checklist/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-01",
+        "date": "1 February 2027",
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": "Materials due 8 February; notified by 1 March; deposit due 1 May.",
+        "status": "confirmed",
+        "source": "https://www.depauw.edu/admission-aid/apply/international-applicants/application-checklist/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 0,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "DePauw does not charge an application fee.",
+      "source": "https://www.depauw.edu/admission-aid/apply/international-applicants/application-checklist/",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Common Application, DePauw Application or Coalition Application",
+      "School transcript, sent directly by the school",
+      "English proficiency test unless exempt",
+      "DePauw University Student Certification of Finances with supporting financial documents (all international applicants)"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": "Optional. DePauw accepts Vericant and InitialView interviews.",
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "IELTS Indicator is also accepted."
+    },
+    "toefl": {
+      "min": 85,
+      "recommended": null,
+      "note": "At least 85 on the internet-based test, with 20 in each section; TOEFL Home Edition and MyBest scores are accepted. The page gives the score on the 0–120 scale only; no figure for the 1–6 scale used since 21 January 2026 was found.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 85,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 110,
+      "recommended": null,
+      "note": "At least 110."
+    },
+    "waiver": "Required when English is not the first language; applicants from a published list of countries and regions receive an automatic waiver.",
+    "note": "PTE is also accepted (minimum 57).",
+    "detailsSource": "https://www.depauw.edu/admission-aid/apply/international-applicants/application-checklist/",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "DePauw states that it is test-optional.",
+      "source": "https://www.depauw.edu/admission-aid/apply/international-applicants/application-checklist/",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "DePauw states that it is test-optional.",
+      "source": "https://www.depauw.edu/admission-aid/apply/international-applicants/application-checklist/",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, fees, housing and food. Books, transportation and personal expenses are extra",
+      "tuition": 62710,
+      "billed": 80120
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "Undergraduates living on campus",
+    "source": "https://www.depauw.edu/admission-aid/scholarships-aid/tuition-and-fees/",
+    "verified": "2026-10-12",
+    "headline": "$80,120 in tuition, housing, meals and fees",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 62710
+      },
+      {
+        "label": "Housing and meals",
+        "group": "billed",
+        "amount": 16240
+      },
+      {
+        "label": "Mandatory fees",
+        "group": "billed",
+        "amount": 1170
+      },
+      {
+        "label": "Books, course materials, supplies and equipment",
+        "group": "estimate",
+        "amount": 800
+      },
+      {
+        "label": "Transportation",
+        "group": "estimate",
+        "amount": 1000
+      },
+      {
+        "label": "Personal expenses",
+        "group": "estimate",
+        "amount": 1700
+      },
+      {
+        "label": "Average loan fees",
+        "group": "estimate",
+        "amount": 70
+      }
+    ],
+    "billedSubtotal": 80120,
+    "totalText": "$80,120 in total direct expenses; the indirect costs are listed without a combined total",
+    "note": "The introduction of the page calls $80,120 the estimated total cost of attendance, including indirect costs, while its table shows $80,120 as direct costs alone and lists $3,570 of indirect costs separately."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": true,
+      "internationalEligible": true,
+      "basis": "merit",
+      "covers": {
+        "tuition": true,
+        "housing": false,
+        "meals": false,
+        "insurance": false,
+        "books": false
+      },
+      "renewable": true,
+      "name": "Rector Scholarship",
+      "competitiveness": "Awarded only to the most highly qualified students in the applicant pool, typically the top five percent.",
+      "howToApply": "No application beyond the application for admission.",
+      "note": "The Rector Scholarship provides a full-tuition scholarship and appears in DePauw’s list of awards available to international students. Merit scholarships are renewable for each year the student is in good standing. Housing, meals and fees ($17,410 in 2026–27) remain payable.",
+      "quote": "the Rector scholarship provides full tuition scholarship",
+      "quoteSource": "https://www.depauw.edu/admission-aid/apply/international-applicants/international-students/scholarships-and-financial-aid-for-international-students/"
+    },
+    "merit": [
+      {
+        "name": "DePauw merit scholarships",
+        "amount": "$20,000 a year to full tuition",
+        "eligibility": "All applicants, international students included",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": "Renewable annually while the student is in good standing."
+      },
+      {
+        "name": "Bonner Scholarship",
+        "amount": "A need-based award, with limited loans, that meets demonstrated need",
+        "eligibility": "Twenty scholars a year with high financial need and a record of service; international students show need through the Certification of Finances",
+        "deadline": null,
+        "application": null,
+        "renewable": null,
+        "note": "A four-year service programme."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": true,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [
+        "DePauw University Student Certification of Finances"
+      ],
+      "deadlines": null,
+      "note": "DePauw’s pages disagree on the form: the checklist for international applicants says no other form, such as the ISFAA or CSS Profile, is accepted, while the scholarships page says international students seeking need-based aid must complete the CSS Profile. DePauw’s promise to meet full calculated need is stated for the incoming class in general; the pages read do not say that it covers international students."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "DePauw — application checklist for international applicants",
+      "url": "https://www.depauw.edu/admission-aid/apply/international-applicants/application-checklist/"
+    },
+    {
+      "label": "DePauw — tuition and fees 2026–27",
+      "url": "https://www.depauw.edu/admission-aid/scholarships-aid/tuition-and-fees/"
+    },
+    {
+      "label": "DePauw — scholarships for international students",
+      "url": "https://www.depauw.edu/admission-aid/apply/international-applicants/international-students/scholarships-and-financial-aid-for-international-students/"
+    },
+    {
+      "label": "DePauw — financial aid",
+      "url": "https://www.depauw.edu/admission-aid/scholarships-aid/"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "application fee",
+      "English proficiency",
+      "test policy",
+      "published costs",
+      "merit scholarships"
+    ],
+    "unconfirmed": [
+      "which financial aid form international students file",
+      "share of need met",
+      "founding year",
+      "health insurance terms",
+      "admission statistics"
+    ]
+  },
+  "lastVerified": "2026-10-12"
+},
+
+{
+  "id": "dillard-university",
+  "name": "Dillard University",
+  "shortName": "Dillard",
+  "country": "us",
+  "city": "New Orleans",
+  "region": "Louisiana",
+  "founded": null,
+  "type": "Private historically Black university",
+  "institutionKind": "private",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#0b4f6c",
+    "c2": "#062b3b",
+    "initials": "D"
+  },
+  "description": "A private historically Black university in New Orleans, Louisiana. The pages read state the application fee, the TOEFL minimum and a cost of attendance for 2024–25; they give no application deadlines and say nothing about financial aid for international students.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "computer-science",
+    "psychology",
+    "biology",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "medicine"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "computer-science",
+    "psychology",
+    "biology",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "medicine"
+  ],
+  "programNote": null,
+  "links": {
+    "website": "https://www.dillard.edu/",
+    "admissions": "https://www.dillard.edu/admissions-aid/admission-requirements/",
+    "internationalAdmissions": "https://www.dillard.edu/admissions-aid/admission-requirements/international-students/",
+    "applicationPortal": "https://www.dillard.edu/admissions-aid/apply-now/",
+    "scholarships": null,
+    "financialAid": "https://www.dillard.edu/financial-aid/apply-for-financial-aid/",
+    "programs": "https://www.dillard.edu/academic-programs/",
+    "cost": "https://www.dillard.edu/admissions-aid/tuition-costs/"
+  },
+  "admissions": {
+    "platforms": [
+      "Common Application",
+      "Common Black College Application",
+      "Dillard online application"
+    ],
+    "deadlines": [],
+    "applicationFee": {
+      "amount": 60,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": "NACAC or College Board waiver, or a financial hardship letter",
+      "note": "Paid by check or money order. Fee waivers are accepted from NACAC and the College Board, or with a financial hardship letter.",
+      "source": "https://www.dillard.edu/admissions-aid/admission-requirements/international-students/",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Completed application",
+      "Course-by-course evaluation of academic credentials earned outside the United States",
+      "TOEFL score, where English is not the native language"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": null,
+    "toefl": {
+      "min": 79,
+      "recommended": null,
+      "note": "At least 79 on the internet-based test or 550 on the paper-based test, for applicants from countries where English is not the native language. The page gives the score on the 0–120 scale only; no figure for the 1–6 scale used since 21 January 2026 was found.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 79,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": null,
+    "waiver": null,
+    "note": "The page names only the TOEFL.",
+    "detailsSource": "https://www.dillard.edu/admissions-aid/admission-requirements/international-students/",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "unknown",
+      "note": "Dillard’s pages disagree: the requirements for international students ask for ACT or SAT results, while the test-optional page says all first-year applicants may decide whether to submit scores.",
+      "source": "https://www.dillard.edu/admissions-aid/admission-requirements/international-students/",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "unknown",
+      "note": "Dillard’s pages disagree: the requirements for international students ask for ACT or SAT results, while the test-optional page says all first-year applicants may decide whether to submit scores.",
+      "source": "https://www.dillard.edu/admissions-aid/admission-requirements/international-students/",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, fees, housing and food (billed), plus the university’s estimates for books, transportation and personal expenses",
+      "tuition": 20118,
+      "billed": 37110,
+      "budget": 44420
+    },
+    "academicYear": "2024–2025",
+    "currency": "USD",
+    "studentCategory": "Undergraduates living on campus",
+    "source": "https://www.dillard.edu/admissions-aid/tuition-costs/",
+    "verified": "2026-10-12",
+    "headline": "$44,420 total cost of attendance",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 20118
+      },
+      {
+        "label": "Room & board",
+        "group": "billed",
+        "amount": 13192
+      },
+      {
+        "label": "Mandatory fees",
+        "group": "billed",
+        "amount": 3800
+      },
+      {
+        "label": "Books and supplies",
+        "group": "estimate",
+        "amount": 1386
+      },
+      {
+        "label": "Transportation",
+        "group": "estimate",
+        "amount": 3424
+      },
+      {
+        "label": "Personal and miscellaneous",
+        "group": "estimate",
+        "amount": 2500
+      }
+    ],
+    "billedSubtotal": 37110,
+    "totalText": "$44,420 total cost of attendance, of which $37,110 is billed by the university",
+    "note": "The cost of attendance page still shows 2024–25. Another Dillard page gives 2025–26 tuition of $10,059 and a mandatory fee of $1,900 per semester; no figures for 2026–27 or 2027–28 were found.",
+    "status": "previous-cycle"
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "The pages read say nothing about scholarships or financial aid for international students."
+    },
+    "merit": [],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Not stated for international students on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Dillard — requirements for international students",
+      "url": "https://www.dillard.edu/admissions-aid/admission-requirements/international-students/"
+    },
+    {
+      "label": "Dillard — standardized testing policy",
+      "url": "https://www.dillard.edu/admissions-aid/admission-requirements/test-optional/"
+    },
+    {
+      "label": "Dillard — cost of attendance 2024–25",
+      "url": "https://www.dillard.edu/admissions-aid/tuition-costs/"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application fee",
+      "TOEFL minimum",
+      "cost of attendance 2024–25"
+    ],
+    "unconfirmed": [
+      "application rounds",
+      "test policy",
+      "aid for international students",
+      "costs for 2026–27",
+      "founding year",
+      "admission statistics"
+    ]
+  },
+  "lastVerified": "2026-10-12"
+},
+
+{
+  "id": "drew-university",
+  "name": "Drew University",
+  "shortName": "Drew",
+  "country": "us",
+  "city": "Madison",
+  "region": "New Jersey",
+  "founded": 1867,
+  "type": "Private liberal arts college",
+  "institutionKind": "liberal-arts",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#0b4f6c",
+    "c2": "#062b3b",
+    "initials": "D"
+  },
+  "description": "A private liberal arts university in Madison, New Jersey, established in 1867. Drew is test-optional. International students are considered automatically for merit scholarships of $10,000 to $25,000 a year, and limited need-based funds are available to those who submit the International Student Financial Aid Application.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts"
+  ],
+  "programNote": null,
+  "links": {
+    "website": "https://drew.edu/",
+    "admissions": "https://drew.edu/admissions-and-aid/undergraduate-admissions/",
+    "internationalAdmissions": "https://drew.edu/admissions-and-aid/undergraduate-admissions/international-admissions/",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://drew.edu/admissions-and-aid/undergraduate-admissions/international-admissions/",
+    "financialAid": "https://drew.edu/admissions-and-aid/undergraduate-admissions/international-admissions/",
+    "programs": "https://drew.edu/programs-of-study/",
+    "cost": "https://drew.edu/admissions-and-aid/undergraduate-admissions/tuition-fees/"
+  },
+  "admissions": {
+    "platforms": [
+      "Common Application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Decision",
+        "kind": "ED",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding.",
+        "status": "confirmed",
+        "source": "https://drew.edu/admissions-and-aid/undergraduate-admissions/international-admissions/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-12-01",
+        "date": "1 December 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Not binding.",
+        "status": "confirmed",
+        "source": "https://drew.edu/admissions-and-aid/undergraduate-admissions/international-admissions/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Decision II",
+        "kind": "ED2",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding.",
+        "status": "confirmed",
+        "source": "https://drew.edu/admissions-and-aid/undergraduate-admissions/international-admissions/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-01",
+        "date": "1 February 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "After 1 February applications are accepted while space is available.",
+        "status": "confirmed",
+        "source": "https://drew.edu/admissions-and-aid/undergraduate-admissions/international-admissions/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null
+    },
+    "documents": [
+      "Common Application",
+      "Non-refundable application fee",
+      "Letter of recommendation",
+      "Secondary school transcript",
+      "English proficiency exam results (TOEFL, IELTS or Duolingo)",
+      "Certification of Finances"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": null,
+      "recommended": null,
+      "note": "Accepted; the page gives no minimum score."
+    },
+    "toefl": {
+      "min": null,
+      "recommended": null,
+      "note": "TOEFL iBT or Essentials accepted; the page gives no minimum score."
+    },
+    "duolingo": {
+      "min": null,
+      "recommended": null,
+      "note": "Accepted; the page gives no minimum score."
+    },
+    "waiver": "Expected from applicants whose first language is not English. It may be waived case by case on SAT or ACT scores or previous study in an English-speaking country.",
+    "note": "PTE Academic and the English GaoKao are also accepted. Applicants who need more English preparation are pointed to the Tilghman International Center at Drew.",
+    "detailsSource": "https://drew.edu/admissions-and-aid/undergraduate-admissions/international-admissions/",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "Drew is test-optional: SAT and ACT scores are not required.",
+      "source": "https://drew.edu/admissions-and-aid/undergraduate-admissions/test-optional-policy/",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "Drew is test-optional: SAT and ACT scores are not required.",
+      "source": "https://drew.edu/admissions-and-aid/undergraduate-admissions/test-optional-policy/",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": null,
+    "academicYear": null,
+    "currency": "USD",
+    "headline": null,
+    "items": [],
+    "billedSubtotal": null,
+    "totalText": null,
+    "note": null
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "The largest awards the pages describe for international students are merit scholarships of $10,000 to $25,000 a year and limited need-based funds."
+    },
+    "merit": [
+      {
+        "name": "Drew merit scholarships",
+        "amount": "$10,000 to $25,000 a year",
+        "eligibility": "Domestic and international students, on previous academic achievement",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": null
+      },
+      {
+        "name": "Drew Action Scholars",
+        "amount": "$2,500 a year",
+        "eligibility": "First-year students committed to community, innovation and global impact",
+        "deadline": null,
+        "application": "Separate application",
+        "renewable": null,
+        "note": null
+      }
+    ],
+    "needBased": {
+      "availableToInternational": true,
+      "meetsFullNeed": false,
+      "needBlindInternational": null,
+      "forms": [
+        "International Student Financial Aid Application"
+      ],
+      "deadlines": null,
+      "note": "Drew says limited need-based funds are available to international students and encourages applying early, while the most funds are available."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Drew — international admissions",
+      "url": "https://drew.edu/admissions-and-aid/undergraduate-admissions/international-admissions/"
+    },
+    {
+      "label": "Drew — standardized testing policy",
+      "url": "https://drew.edu/admissions-and-aid/undergraduate-admissions/test-optional-policy/"
+    },
+    {
+      "label": "Drew — International Baccalaureate students",
+      "url": "https://drew.edu/admissions-and-aid/undergraduate-admissions/international-baccalaureate-students/"
+    },
+    {
+      "label": "Drew — about",
+      "url": "https://drew.edu/about/"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "test policy",
+      "merit scholarships",
+      "aid for international students",
+      "founding year"
+    ],
+    "unconfirmed": [
+      "application fee",
+      "minimum English test scores",
+      "tuition and fees — the page read still shows 2024–25 and gives no amounts",
+      "admission statistics"
+    ]
+  },
+  "lastVerified": "2026-10-12"
+},
+
+{
+  "id": "eckerd-college",
+  "name": "Eckerd College",
+  "shortName": "Eckerd",
+  "country": "us",
+  "city": "St. Petersburg",
+  "region": "Florida",
+  "founded": null,
+  "type": "Private liberal arts college",
+  "institutionKind": "liberal-arts",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#7a3b12",
+    "c2": "#3d1d09",
+    "initials": "E"
+  },
+  "description": "A private liberal arts college in St. Petersburg, Florida. SAT and ACT scores are optional. International first-year applicants are considered automatically for an International Student Grant of up to $27,000 a year; Eckerd states that it offers no need-based aid to international students.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts"
+  ],
+  "programNote": null,
+  "links": {
+    "website": "https://www.eckerd.edu/",
+    "admissions": "https://www.eckerd.edu/admissions/",
+    "internationalAdmissions": "https://www.eckerd.edu/admissions/international/",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://www.eckerd.edu/admission/financial-aid/types/",
+    "financialAid": "https://www.eckerd.edu/admissions/financial-aid/",
+    "programs": "https://www.eckerd.edu/academics/majors/",
+    "cost": "https://www.eckerd.edu/bursar/tuition/"
+  },
+  "admissions": {
+    "platforms": [
+      "Common Application",
+      "Eckerd College application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-15",
+        "date": "15 November 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Not binding. Decisions by 15 December. No enrollment deposit is needed until 1 May.",
+        "status": "confirmed",
+        "source": "https://www.eckerd.edu/admissions/international/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Rolling admission",
+        "kind": "rolling",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "date": "After 15 November",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "For applications completed after 15 November; decisions are sent within four weeks of all materials arriving.",
+        "status": "confirmed",
+        "source": "https://www.eckerd.edu/admissions/international/",
+        "verified": "2026-10-12",
+        "note": null
+      }
+    ],
+    "applicationFee": {
+      "amount": 50,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": "Waived for applications submitted before 1 December",
+      "note": "The first-year page says the fee is waived for applications submitted before 1 December.",
+      "source": "https://www.eckerd.edu/admissions/first-year/",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Common Application or Eckerd College application",
+      "Personal statement or essay",
+      "Certified copies of secondary school records and national examination certificates, with translations",
+      "English proficiency test unless exempt"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "Overall band of 6.5 or higher."
+    },
+    "toefl": {
+      "min": 79,
+      "recommended": null,
+      "note": "At least 79 out of 120, or 4.0 out of 6.0.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 79,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.0,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 110,
+      "recommended": null,
+      "note": "At least 110."
+    },
+    "waiver": "Needed when the native language is not English. Also met by an SAT Evidence-Based Reading and Writing score of 550, an ACT combined English and Reading score of 43, or ELS level 112; waived after two semesters of university coursework in English.",
+    "note": null,
+    "detailsSource": "https://www.eckerd.edu/admissions/international/",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "The first-year checklist lists official ACT or SAT scores as optional.",
+      "source": "https://www.eckerd.edu/admissions/first-year/",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "The first-year checklist lists official ACT or SAT scores as optional.",
+      "source": "https://www.eckerd.edu/admissions/first-year/",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, fees, housing and food. Books, transportation and personal expenses are extra",
+      "tuition": 54270,
+      "billed": 70668
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "Undergraduates in a traditional double room with the Tier A meal plan",
+    "source": "https://www.eckerd.edu/bursar/tuition/",
+    "verified": "2026-10-12",
+    "headline": "$70,668 in tuition, fees, housing and food",
+    "items": [
+      {
+        "label": "Full-time tuition",
+        "group": "billed",
+        "amount": 54270
+      },
+      {
+        "label": "Traditional double room",
+        "group": "billed",
+        "amount": 8194
+      },
+      {
+        "label": "Meal plan Tier A-250 (Anytime Plan)",
+        "group": "billed",
+        "amount": 7438
+      },
+      {
+        "label": "Student activity fee",
+        "group": "billed",
+        "amount": 436
+      },
+      {
+        "label": "Technology fee",
+        "group": "billed",
+        "amount": 330
+      }
+    ],
+    "billedSubtotal": 70668,
+    "totalText": "$70,668 charged for the year; the page prints no figure for the full cost of attendance",
+    "note": "The page for international students still shows 2025–26 and estimates other expenses, including $1,567 for health insurance, on top of the charges."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "The largest award described for international first-year students is the International Student Grant of up to $27,000 a year, below the yearly tuition of $54,270. Eckerd says it does not offer need-based aid to international students."
+    },
+    "merit": [
+      {
+        "name": "International Student Grant",
+        "amount": "Up to $27,000 a year",
+        "eligibility": "International first-year applicants who need a visa and have no college coursework",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": null
+      },
+      {
+        "name": "Artistic Achievement Award",
+        "amount": "$1,000 a year",
+        "eligibility": "Students with talent in creative writing, music, theatre, film or visual arts",
+        "deadline": null,
+        "application": "Separate application",
+        "renewable": null,
+        "note": "Awarded annually for four years; renewal criteria are set by the faculty of the discipline."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": false,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Eckerd states that international students are not eligible for need-based aid; they may apply for talent-based scholarships."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Eckerd — international applicants",
+      "url": "https://www.eckerd.edu/admissions/international/"
+    },
+    {
+      "label": "Eckerd — first-year applicants",
+      "url": "https://www.eckerd.edu/admissions/first-year/"
+    },
+    {
+      "label": "Eckerd — tuition and fees 2026–27",
+      "url": "https://www.eckerd.edu/bursar/tuition/"
+    },
+    {
+      "label": "Eckerd — types of aid",
+      "url": "https://www.eckerd.edu/admission/financial-aid/types/"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "application fee",
+      "English proficiency",
+      "test policy",
+      "published costs",
+      "aid for international students",
+      "merit scholarships"
+    ],
+    "unconfirmed": [
+      "health insurance terms",
+      "founding year",
+      "admission statistics",
+      "books, travel and personal costs for 2026–27"
+    ]
+  },
+  "lastVerified": "2026-10-12"
+},
+
+{
+  "id": "elmira-college",
+  "name": "Elmira College",
+  "shortName": "Elmira",
+  "country": "us",
+  "city": "Elmira",
+  "region": "New York",
+  "founded": null,
+  "type": "Private liberal arts college",
+  "institutionKind": "liberal-arts",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#0b4f6c",
+    "c2": "#062b3b",
+    "initials": "E"
+  },
+  "description": "A private liberal arts college in Elmira, in the Finger Lakes region of New York State. Admission is rolling and test-optional. The college’s page for international applicants states no English test scores, deadlines or aid terms, so those fields are marked as not confirmed.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "psychology",
+    "biology",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "education",
+    "medicine"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "psychology",
+    "biology",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "education",
+    "medicine"
+  ],
+  "programNote": null,
+  "links": {
+    "website": "https://www.elmira.edu/",
+    "admissions": "https://www.elmira.edu/admissions/undergraduate-admissions/overview",
+    "internationalAdmissions": "https://www.elmira.edu/admissions/undergraduate-admissions/international-admissions/overview",
+    "applicationPortal": null,
+    "scholarships": null,
+    "financialAid": "https://www.elmira.edu/affordability/undergraduate-tuition-aid/undergraduate-tuition-and-costs",
+    "programs": "https://www.elmira.edu/academics/programs",
+    "cost": "https://www.elmira.edu/affordability/undergraduate-tuition-aid/undergraduate-tuition-and-costs"
+  },
+  "admissions": {
+    "platforms": [],
+    "deadlines": [
+      {
+        "name": "Rolling admission",
+        "kind": "rolling",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "date": "No fixed deadline",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Elmira describes its decisions as rolling; the page gives no closing date.",
+        "status": "confirmed",
+        "source": "https://www.elmira.edu/admissions/undergraduate-admissions/overview",
+        "verified": "2026-10-12",
+        "note": null
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null
+    },
+    "documents": [
+      "Completed application",
+      "One academic letter of recommendation from a teacher or school counselor",
+      "Official high school transcripts"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": null,
+    "toefl": null,
+    "duolingo": null,
+    "waiver": null,
+    "note": null
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "Elmira says that, as a test-optional institution, it does not require the SAT or ACT for admission.",
+      "source": "https://www.elmira.edu/admissions/undergraduate-admissions/overview",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "Elmira says that, as a test-optional institution, it does not require the SAT or ACT for admission.",
+      "source": "https://www.elmira.edu/admissions/undergraduate-admissions/overview",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, fees, housing and food. Books, transportation and personal expenses are extra",
+      "tuition": 38560,
+      "billed": 55530
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "Full-time undergraduates living on campus (base room rate)",
+    "source": "https://www.elmira.edu/affordability/undergraduate-tuition-aid/undergraduate-tuition-and-costs",
+    "verified": "2026-10-12",
+    "headline": "$55,530 in tuition, fees, housing and food",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 38560
+      },
+      {
+        "label": "Comprehensive fee",
+        "group": "billed",
+        "amount": 2000
+      },
+      {
+        "label": "Board",
+        "group": "billed",
+        "amount": 7030
+      },
+      {
+        "label": "Room (base rate)",
+        "group": "billed",
+        "amount": 7940
+      }
+    ],
+    "billedSubtotal": 55530,
+    "totalText": "$40,560 in tuition and fee plus $14,970 for room and board, as printed; $55,530 is the two added together",
+    "note": "Elmira prints the tuition-and-fee total and the room-and-board total separately. Books, travel, personal costs and health insurance are not listed."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "The pages read give no scholarship amounts and no terms of aid for international students."
+    },
+    "merit": [],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Not stated for international students on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Elmira — undergraduate admissions",
+      "url": "https://www.elmira.edu/admissions/undergraduate-admissions/overview"
+    },
+    {
+      "label": "Elmira — tuition and fees 2026–2027",
+      "url": "https://www.elmira.edu/affordability/undergraduate-tuition-aid/undergraduate-tuition-and-costs"
+    },
+    {
+      "label": "Elmira — international admissions",
+      "url": "https://www.elmira.edu/admissions/undergraduate-admissions/international-admissions/overview"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "test policy",
+      "published costs"
+    ],
+    "unconfirmed": [
+      "application fee",
+      "English proficiency",
+      "aid for international students",
+      "merit scholarships",
+      "founding year",
+      "admission statistics"
+    ]
+  },
+  "lastVerified": "2026-10-12"
+},
+
+{
+  "id": "endicott-college",
+  "name": "Endicott College",
+  "shortName": "Endicott",
+  "country": "us",
+  "city": "Beverly",
+  "region": "Massachusetts",
+  "founded": null,
+  "type": "Private college",
+  "institutionKind": "private",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#3d3d5c",
+    "c2": "#1f1f2e",
+    "initials": "E"
+  },
+  "description": "A private college in Beverly, Massachusetts, with its own online application (it does not take part in the Common Application). SAT and ACT scores are optional for all programmes. The pages read state no scholarship amounts or aid terms for international students.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "computer-science",
+    "psychology",
+    "arts",
+    "education",
+    "medicine"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "computer-science",
+    "psychology",
+    "arts",
+    "education",
+    "medicine"
+  ],
+  "programNote": null,
+  "links": {
+    "website": "https://www.endicott.edu/",
+    "admissions": "https://www.endicott.edu/admission/undergraduate-admission",
+    "internationalAdmissions": "https://www.endicott.edu/admission/undergraduate-admission/how-to-apply/international-student-admission",
+    "applicationPortal": "https://apply.endicott.edu/apply/",
+    "scholarships": "https://www.endicott.edu/admission/undergraduate-admission/tuition-financial-aid/endicott-grants-scholarships",
+    "financialAid": "https://www.endicott.edu/admission/undergraduate-admission/tuition-financial-aid",
+    "programs": "https://www.endicott.edu/academics/programs-of-study",
+    "cost": "https://www.endicott.edu/admission/undergraduate-admission/tuition-financial-aid"
+  },
+  "admissions": {
+    "platforms": [
+      "Endicott application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Decision",
+        "kind": "ED",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Documents due 15 November. Decisions on 15 December.",
+        "status": "confirmed",
+        "source": "https://www.endicott.edu/admission/undergraduate-admission/how-to-apply",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Not binding. Documents due 15 November. Decisions on 23 December. Reply by 1 May.",
+        "status": "confirmed",
+        "source": "https://www.endicott.edu/admission/undergraduate-admission/how-to-apply",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Decision II",
+        "kind": "ED2",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Documents due 1 February. Decisions on 15 February.",
+        "status": "confirmed",
+        "source": "https://www.endicott.edu/admission/undergraduate-admission/how-to-apply",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "International student admission — deadline",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-01",
+        "date": "1 February 2027",
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": "Documents due 15 February; decisions no later than 15 March. Reply by 1 May.",
+        "status": "confirmed",
+        "source": "https://www.endicott.edu/admission/undergraduate-admission/how-to-apply/international-student-admission",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Financial aid priority deadline",
+        "kind": "aid",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-03-15",
+        "date": "15 March 2027",
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.endicott.edu/admission/undergraduate-admission/how-to-apply/international-student-admission",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 50,
+      "currency": "USD",
+      "waiverAvailableToInternational": true,
+      "waiver": "On request from a school counselor, in cases of significant financial hardship",
+      "note": "Students in significant financial hardship may ask for a waiver; the request must be emailed by a counselor or adviser at their school. The fee is also waived for applicants who visit campus and meet the admission team.",
+      "source": "https://www.endicott.edu/admission/undergraduate-admission/how-to-apply/international-student-admission",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Endicott application",
+      "Financial Declaration for International Students",
+      "Personal essay",
+      "Official secondary school transcript, with an English translation where needed",
+      "Letter of recommendation from a teacher, counselor or adviser",
+      "English proficiency test unless exempt"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": "A virtual interview is optional.",
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.0,
+      "recommended": null,
+      "note": "At least 6.0."
+    },
+    "toefl": {
+      "min": 79,
+      "recommended": null,
+      "note": "At least 79. The page gives the score on the 0–120 scale only; no figure for the 1–6 scale used since 21 January 2026 was found.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 79,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 105,
+      "recommended": null,
+      "note": "At least 105."
+    },
+    "waiver": "English test scores can be waived in some cases, on request to the admission office.",
+    "note": "Pearson PTE is also accepted (minimum 53).",
+    "detailsSource": "https://www.endicott.edu/admission/undergraduate-admission/how-to-apply/international-student-admission",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "Endicott lists SAT and ACT scores as optional for all programmes.",
+      "source": "https://www.endicott.edu/admission/undergraduate-admission/how-to-apply",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "Endicott lists SAT and ACT scores as optional for all programmes.",
+      "source": "https://www.endicott.edu/admission/undergraduate-admission/how-to-apply",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, fees, housing and food (billed), plus the university’s estimates for books, transportation and personal expenses",
+      "tuition": 43264,
+      "billed": 63174,
+      "budget": 66582
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "Undergraduates living on campus (traditional housing, maximum meal plan)",
+    "source": "https://www.endicott.edu/admission/undergraduate-admission/tuition-financial-aid",
+    "verified": "2026-10-12",
+    "headline": "$66,582 total cost of attendance",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 43264
+      },
+      {
+        "label": "Fees",
+        "group": "billed",
+        "amount": 1200
+      },
+      {
+        "label": "Housing",
+        "group": "billed",
+        "amount": 12896
+      },
+      {
+        "label": "Food",
+        "group": "billed",
+        "amount": 5814
+      },
+      {
+        "label": "Books",
+        "group": "estimate",
+        "amount": 1364
+      },
+      {
+        "label": "Estimated loan fees",
+        "group": "estimate",
+        "amount": 44
+      },
+      {
+        "label": "Transportation",
+        "group": "estimate",
+        "amount": 1000
+      },
+      {
+        "label": "Miscellaneous",
+        "group": "estimate",
+        "amount": 1000
+      }
+    ],
+    "billedSubtotal": 63174,
+    "totalText": "$66,582 total cost of attendance, of which $63,174 is billed by the university",
+    "note": "Health insurance is not in the table."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "The grants and scholarships page read gives no amounts and does not mention international students."
+    },
+    "merit": [],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "The page for international applicants gives a financial aid priority deadline of 15 March but does not say what aid they can receive."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Endicott — international applicants",
+      "url": "https://www.endicott.edu/admission/undergraduate-admission/how-to-apply/international-student-admission"
+    },
+    {
+      "label": "Endicott — how to apply",
+      "url": "https://www.endicott.edu/admission/undergraduate-admission/how-to-apply"
+    },
+    {
+      "label": "Endicott — tuition and fees 2026–27",
+      "url": "https://www.endicott.edu/admission/undergraduate-admission/tuition-financial-aid"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "application fee",
+      "English proficiency",
+      "test policy",
+      "published costs"
+    ],
+    "unconfirmed": [
+      "aid for international students",
+      "merit scholarships",
+      "health insurance terms",
+      "founding year",
+      "admission statistics"
+    ]
+  },
+  "lastVerified": "2026-10-12"
 }
 );

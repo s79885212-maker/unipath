@@ -867,6 +867,8 @@
   var index = DB.universities.map(function (u) {
     var parts = [
       u.name, u.shortName || '', u.city, u.region || '',
+      /* earlier and alternative names, so a search for the old name finds the record */
+      (u.aliases || []).join(' '),
       country(u.country).name, u.type, u.description || '',
       satLabel(u),
       hasIelts(u) ? 'IELTS ' + (ieltsVaries(u) ? variesLabel(u.english.ielts).toLowerCase() : (ieltsMin(u) || (ieltsPublished(u) ? u.english.ielts.recommended : 'accepted'))) : '',
