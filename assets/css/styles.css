@@ -1970,6 +1970,17 @@ html.is-gated body {
     margin-left: 0;
   }
 }
+/* Russian labels are longer: with the default spacing the row was wider than
+   the header and, between the menu breakpoint and about 1290 px, pushed the
+   page sideways. Tighter spacing keeps it inside the header at desktop widths. */
+@media (min-width: 1181px) {
+  html[lang="ru"] .nav-links {
+    gap: 2px;
+  }
+  html[lang="ru"] .nav-links > a {
+    padding: 8px;
+  }
+}
 
 /* Language toggle */
 .lang-toggle {

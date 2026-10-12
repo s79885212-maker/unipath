@@ -1043,7 +1043,7 @@
         ? visible.map(U.uniCard).join('')
         : '<div class="empty-state"><h3>No institutions match those filters</h3>' +
           '<p data-i18n-html>Try removing a filter, or search for a field such as <em>Business</em>, <em>Computer Science</em> or <em>full scholarship</em>.</p>' +
-          '<button class="btn btn-ghost" type="button" data-clear-filters>Reset all filters</button></div>';
+          '<button class="btn btn-ghost" type="button" data-clear-all>Reset all filters</button></div>';
 
       var more = document.getElementById('results-more');
       if (more) {
@@ -1085,6 +1085,13 @@
         reset(); refresh();
       },
       clearQuery: function () { query = ''; var el = document.getElementById('browse-q'); if (el) el.value = ''; reset(); refresh(); },
+      /* The button of the empty state: a search with no hits is undone too. */
+      clearAll: function () {
+        query = ''; var el = document.getElementById('browse-q'); if (el) el.value = '';
+        selected = {};
+        if (lockCountry && preCountry) selected.country = [preCountry];
+        reset(); refresh();
+      },
       remove: function (g, o) {
         if (lockCountry && g === 'country') return;
         selected[g] = (selected[g] || []).filter(function (x) { return x !== o; });
@@ -1109,6 +1116,7 @@
       document.addEventListener('click', function (e) {
         if (!browseRefresh) return;
         var t = e.target;
+        if (t.closest && t.closest('[data-clear-all]')) { browseRefresh.clearAll(); return; }
         if (t.closest && t.closest('[data-clear-filters]')) { browseRefresh.clearFilters(); return; }
         if (t.closest && t.closest('[data-clear-q]')) { browseRefresh.clearQuery(); return; }
         if (t.closest && t.closest('[data-show-more]')) { browseRefresh.showMore(); return; }

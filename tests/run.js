@@ -64,6 +64,17 @@ DB.universities.forEach(function (u) { var k = u.name.toLowerCase(); if (names[k
 ok(!dupNames.length, 'names are unique', dupNames.join(', '));
 ok(DB.universities.every(function (u) { return u.links && /^https:\/\//.test(u.links.website || ''); }), 'every record links to an official https site');
 
+/* A former or everyday name finds its own record first, and never a second one. */
+(function () {
+  var first = function (q) { var r = U.search(q, 5); return r.length ? r[0].id : null; };
+  var want = { 'UMN': 'university-of-minnesota-twin-cities', 'IUPUI': 'indiana-university-indianapolis', 'Eugene Lang': 'the-new-school',
+               'Marist College': 'marist-university', 'SCAD': 'savannah-college-of-art-and-design', 'WVU': 'west-virginia-university', 'UMass': 'umass-amherst' };
+  var wrong = Object.keys(want).filter(function (q) { return first(q) !== want[q]; }).map(function (q) { return q + ' → ' + first(q); });
+  ok(!wrong.length, 'old and everyday names rank their own record first', wrong.join('; '));
+  ok(!U.uniById('wheaton-college-massachusetts') && !U.uniById('hampshire-college') && U.uniById('anderson-university-indiana') && U.uniById('adelphi-university'),
+    'the two replaced candidates have no record; their reserve replacements do');
+})();
+
 /* ---------------- United States expansion ---------------- */
 group('United States expansion');
 (function () {

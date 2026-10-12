@@ -911,6 +911,10 @@
         if (row.u.name.toLowerCase().indexOf(t) === 0) score += 6;
         else if (row.u.name.toLowerCase().indexOf(t) > -1) score += 3;
         if ((row.u.shortName || '').toLowerCase() === t) score += 8;
+        /* A former or everyday name (UMN, IUPUI) ranks its own record first. */
+        var al = (row.u.aliases || []).map(function (a) { return a.toLowerCase(); });
+        if (al.indexOf(t) > -1) score += 8;
+        else if (al.join(' ').indexOf(t) > -1) score += 3;
         if (row.u.city.toLowerCase().indexOf(t) > -1) score += 2;
       }
       if (ok) hits.push({ u: row.u, score: score });
