@@ -486,6 +486,9 @@
       '</dl>' +
       (fr.available === true ? '<p class="small muted" style="margin-top:10px">This is the largest award the university lists. It is competitive unless stated otherwise, and it is never subtracted from the costs shown on this site.</p>' : '') +
       (has(fr.note) ? '<div class="notice notice-warn" style="margin-top:14px"><span class="ico">⚠️</span><div>' + esc(fr.note) + '</div></div>' : '') +
+      /* The university's own words, kept in the original language, with the page they stand on. */
+      (has(fr.quote) ? '<p class="small muted award-quote" style="margin:10px 0 0"><span>In the university’s words:</span> <q data-no-i18n>' + esc(fr.quote) + '</q>' +
+        (has(fr.quoteSource) ? ' — <a href="' + esc(fr.quoteSource) + '" target="_blank" rel="noopener">Official page ↗</a>' : '') + '</p>' : '') +
       '</div></article>';
 
     /* What a recipient may still have to pay, read from the coverage list. */

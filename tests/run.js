@@ -49,9 +49,13 @@ function group(name) { console.log('— ' + name); }
 group('database');
 var byCountry = {};
 DB.universities.forEach(function (u) { byCountry[u.country] = (byCountry[u.country] || 0) + 1; });
-ok(DB.universities.length === 230, '230 institutions', 'found ' + DB.universities.length);
-ok(byCountry.us === 110 && byCountry.uk === 30 && byCountry.de === 30 && byCountry.jp === 30 && byCountry.kr === 30,
-  '110 / 30 / 30 / 30 / 30 by country', JSON.stringify(byCountry));
+/* United States expansion (October 2026): 110 records grow to 200 in batches.
+   US_NOW is raised with each batch; the other countries must not change. */
+var US_NOW = 117, US_TARGET = 200;
+ok(byCountry.us === US_NOW && US_NOW <= US_TARGET, US_NOW + ' United States records (target ' + US_TARGET + ')', 'found ' + byCountry.us);
+ok(DB.universities.length === US_NOW + 120, (US_NOW + 120) + ' institutions in all', 'found ' + DB.universities.length);
+ok(byCountry.uk === 30 && byCountry.de === 30 && byCountry.jp === 30 && byCountry.kr === 30,
+  '30 / 30 / 30 / 30 in the other countries', JSON.stringify(byCountry));
 var ids = {}; var dup = [];
 DB.universities.forEach(function (u) { if (ids[u.id]) dup.push(u.id); ids[u.id] = true; });
 ok(!dup.length, 'ids are unique', dup.join(', '));
@@ -59,6 +63,32 @@ var names = {}, dupNames = [];
 DB.universities.forEach(function (u) { var k = u.name.toLowerCase(); if (names[k]) dupNames.push(u.name); names[k] = true; });
 ok(!dupNames.length, 'names are unique', dupNames.join(', '));
 ok(DB.universities.every(function (u) { return u.links && /^https:\/\//.test(u.links.website || ''); }), 'every record links to an official https site');
+
+/* ---------------- United States expansion ---------------- */
+group('United States expansion');
+(function () {
+  /* The first 110 United States records are the original ones; the expansion follows them. */
+  var added = DB.universities.filter(function (u) { return u.country === 'us'; }).slice(110);
+  ok(added.length === US_NOW - 110 && added.every(function (u) { return u.country === 'us'; }), 'every record added in the expansion is a United States record', added.length + ' added');
+  var noSrc = added.filter(function (u) { return !(u.sources && u.sources.length) || !/^\d{4}-\d{2}-\d{2}$/.test(u.lastVerified || '') || !(u.verification && u.verification.checked && u.verification.checked.length); });
+  ok(!noSrc.length, 'every added record lists its official sources, what was checked and when', noSrc.map(function (u) { return u.id; }).join(', '));
+  var offDomain = added.filter(function (u) { return !/^https:\/\/[^/]+\.edu\//.test(u.links.website); });
+  ok(!offDomain.length, 'every added record links to an official .edu site', offDomain.map(function (u) { return u.id; }).join(', '));
+  var undatedRound = [];
+  added.forEach(function (u) { U.roundsOf(u).forEach(function (d) { if (d.status === 'confirmed' && (!d.source || !d.verified)) undatedRound.push(u.id + ':' + d.name); }); });
+  ok(!undatedRound.length, 'every confirmed date of an added record carries its source and check date', undatedRound.join('; '));
+  var costNoSrc = added.filter(function (u) { return U.costStatus(u) !== 'not-checked' && !(u.costs.source && u.costs.verified); });
+  ok(!costNoSrc.length, 'every cost of an added record carries its source and check date', costNoSrc.map(function (u) { return u.id; }).join(', '));
+  /* A need-based promise is not a full ride: the label says so unless the
+     record itemises tuition, housing and meals as covered. */
+  var needAsRide = added.filter(function (u) { var f = U.fullRide(u); return f.available === true && f.basis === 'need-based' && U.awardKind(u) === 'full-ride'; });
+  ok(!needAsRide.length, 'no added record presents need-based aid as a full ride', needAsRide.map(function (u) { return u.id; }).join(', '));
+  var ds = U.uniById('deep-springs-college');
+  ok(ds && ds.degrees.indexOf('bachelor') < 0 && ds.degrees.indexOf('associate') > -1, 'Deep Springs is recorded as a two-year route, not as a bachelor’s degree');
+  ok(U.uniById('bard-college') && U.uniById('bard-college-berlin') && U.uniById('bard-college').country === 'us' && U.uniById('bard-college-berlin').country === 'de', 'Bard College and Bard College Berlin are separate records');
+  var noPhoto = added.filter(function (u) { return !(u.photos && u.photos.main); }).map(function (u) { return u.id; });
+  console.log('   added records without a photo: ' + (noPhoto.length ? noPhoto.join(', ') : 'none'));
+})();
 
 /* ---------------- cost arithmetic ---------------- */
 group('cost arithmetic');

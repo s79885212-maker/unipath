@@ -34,6 +34,15 @@ window.UNIPATH.match = {
   },
   annualCost: {
 
+    /* United States expansion, October 2026 */
+    'bard-college': { currency: 'USD', basis: 'billed', min: 93472, max: 93472 },
+    'bennington-college': { currency: 'USD', basis: 'billed', min: 95500, max: 95500, note: 'International students, with the health insurance estimate' },
+    'claremont-mckenna-college': { currency: 'USD', basis: 'total', min: 101990, max: 101990 },
+    'deep-springs-college': { currency: 'USD', basis: 'total', min: 0, max: 0, label: 'Tuition, room and board are covered by the scholarship every admitted student receives. Books, travel and incidental expenses remain; no yearly amount is published for them' },
+    'kalamazoo-college': { currency: 'USD', basis: 'billed', min: 80111, max: 80111 },
+    'reed-college': { currency: 'USD', basis: 'total', min: 92198, max: 93948, note: '2025–26 figures, the latest published' },
+    'sarah-lawrence-college': { currency: 'USD', basis: 'total', min: 102364, max: 102364, note: 'International students; health insurance is included in this total' },
+
     /* Added 2026-09-23 with the new universities — only where an annual figure
        is confirmed on the university's own pages. */
     'university-of-bristol':   { currency: 'GBP', basis: 'tuition', min: 25500, max: 33400, note: 'Most courses; medicine, dentistry and veterinary science cost more' },

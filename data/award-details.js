@@ -40,6 +40,7 @@ window.UNIPATH.awardDetails = {
    whose pages were never read stays "not checked". The reason is in each
    record's own scholarship note. */
 window.UNIPATH.awardNotDescribed = [
+  'bennington-college', 'sarah-lawrence-college',
   "new-york-university", "arizona-state-university", "emory-university", "georgetown-university",
   "case-western-reserve-university", "lehigh-university", "union-college", "dickinson-college",
   "gettysburg-college", "bucknell-university", "sewanee-university-of-the-south", "college-of-wooster",

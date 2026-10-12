@@ -1,0 +1,52 @@
+{
+ "bard-college": {
+  "article": "Bard College",
+  "category": "Bard College",
+  "keywords": [
+   "bard college",
+   "annandale"
+  ]
+ },
+ "bennington-college": {
+  "article": "Bennington College",
+  "category": "Bennington College",
+  "keywords": [
+   "bennington college"
+  ]
+ },
+ "claremont-mckenna-college": {
+  "article": "Claremont McKenna College",
+  "category": "Claremont McKenna College",
+  "keywords": [
+   "claremont mckenna"
+  ]
+ },
+ "deep-springs-college": {
+  "article": "Deep Springs College",
+  "category": "Deep Springs College",
+  "keywords": [
+   "deep springs"
+  ]
+ },
+ "kalamazoo-college": {
+  "article": "Kalamazoo College",
+  "category": "Kalamazoo College",
+  "keywords": [
+   "kalamazoo college"
+  ]
+ },
+ "reed-college": {
+  "article": "Reed College",
+  "category": "Reed College",
+  "keywords": [
+   "reed college"
+  ]
+ },
+ "sarah-lawrence-college": {
+  "article": "Sarah Lawrence College",
+  "category": "Sarah Lawrence College",
+  "keywords": [
+   "sarah lawrence"
+  ]
+ }
+}
