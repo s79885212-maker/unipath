@@ -35,6 +35,12 @@ window.UNIPATH.match = {
   annualCost: {
 
     /* United States expansion, October 2026 */
+    'gonzaga-university': { currency: 'USD', basis: 'billed', min: 76670, max: 76670 },
+    'cornell-college': { currency: 'USD', basis: 'total', min: 73578, max: 74778 },
+    'savannah-college-of-art-and-design': { currency: 'USD', basis: 'total', min: 68691, max: 68691 },
+    'american-university': { currency: 'USD', basis: 'total', min: 87374, max: 87374, note: 'The minimum an international applicant must declare; the page does not name the academic year' },
+
+    /* United States expansion, October 2026 */
     'university-of-san-diego': { currency: 'USD', basis: 'billed', min: 88557, max: 88557 },
     'university-of-washington': { currency: 'USD', basis: 'total', min: 67800, max: 67800, note: 'Non-resident estimate; the page does not name the academic year' },
     'ursinus-college': { currency: 'USD', basis: 'billed', min: 80178, max: 80178 },

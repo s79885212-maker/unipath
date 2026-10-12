@@ -40,6 +40,7 @@ window.UNIPATH.awardDetails = {
    whose pages were never read stays "not checked". The reason is in each
    record's own scholarship note. */
 window.UNIPATH.awardNotDescribed = [
+  'gonzaga-university', 'cornell-college', 'the-new-school', 'savannah-college-of-art-and-design', 'american-university',
   'university-of-san-diego', 'ursinus-college', 'willamette-university', 'wofford-college', 'xavier-university', 'xavier-university-of-louisiana', 'rochester-institute-of-technology',
   'stony-brook-university', 'temple-university', 'texas-a-and-m-university', 'university-of-arizona', 'university-of-iowa', 'university-of-denver', 'university-of-maryland',
   'southern-methodist-university',

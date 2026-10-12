@@ -22135,5 +22135,1207 @@ window.UNIPATH.universities.push(
   "aliases": [
     "RIT"
   ]
+},
+
+{
+  "id": "gonzaga-university",
+  "name": "Gonzaga University",
+  "shortName": "Gonzaga",
+  "country": "us",
+  "city": "Spokane",
+  "region": "Washington",
+  "founded": null,
+  "type": "Private university",
+  "institutionKind": "private",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#1f4d3a",
+    "c2": "#0f2a1f",
+    "initials": "G"
+  },
+  "description": "A private Jesuit university in Spokane, Washington. The application fee is waived for all international applicants and SAT or ACT scores are not required. Every applicant is considered automatically for first-year merit scholarships of $23,500 to $32,000 a year, guaranteed for four years.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "other"
+  ],
+  "englishTaughtPrograms": [
+    "other"
+  ],
+  "programNote": "The list of majors could not be read on this check, so no fields are listed.",
+  "links": {
+    "website": "https://www.gonzaga.edu/",
+    "admissions": "https://www.gonzaga.edu/undergraduate-admission",
+    "internationalAdmissions": "https://www.gonzaga.edu/admission/international-admission/international-student-applications/international-first-year-application-checklist",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://www.gonzaga.edu/undergraduate-admission/tuition-aid/scholarship-opportunities",
+    "financialAid": "https://www.gonzaga.edu/admission/tuition-scholarships-aid/financial-aid",
+    "programs": null,
+    "cost": "https://www.gonzaga.edu/admission/tuition-scholarships-aid/financial-aid/cost-of-attendance"
+  },
+  "admissions": {
+    "platforms": [
+      "Common Application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-15",
+        "date": "15 November 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Not binding. Decisions in late December. Nursing applicants must apply in this round. Confirmation by 1 May.",
+        "status": "confirmed",
+        "source": "https://www.gonzaga.edu/undergraduate-admission/apply/dates-deadlines",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-01",
+        "date": "1 February 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Decisions in early March. Confirmation by 1 May.",
+        "status": "confirmed",
+        "source": "https://www.gonzaga.edu/undergraduate-admission/apply/dates-deadlines",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 0,
+      "currency": "USD",
+      "waiverAvailableToInternational": true,
+      "waiver": "International Student Fee Waiver in the Common Application",
+      "note": "All international applicants are eligible to have the application fee waived: select the International Student Fee Waiver in the Common Application.",
+      "source": "https://www.gonzaga.edu/admission/international-admission/international-student-applications/international-first-year-application-checklist",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Common Application",
+      "Official high school transcripts",
+      "English proficiency score dated within two years"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "IELTS Academic, 6.5 or higher."
+    },
+    "toefl": {
+      "min": 80,
+      "recommended": null,
+      "note": "80 or higher for tests before 21 January 2026; 4 (B2) for tests after it. The page adds that requirements for the new scale “will be published soon”.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 80,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 120,
+      "recommended": null,
+      "note": "120 or higher."
+    },
+    "waiver": "Scores must be dated within two years of the application; some applicants are not required to submit them.",
+    "note": "Also accepted: PTE 56, iTEP Academic Plus 4.5, an ACT English and Reading score of 23, or SAT Evidence-Based Reading and Writing 550.",
+    "detailsSource": "https://www.gonzaga.edu/admission/international-admission/international-student-applications/international-first-year-application-checklist",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "Gonzaga does not require an SAT or ACT score and says a score is not needed to be considered for merit scholarships.",
+      "source": "https://www.gonzaga.edu/admission/international-admission/international-student-applications/international-first-year-application-checklist",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "Gonzaga does not require an SAT or ACT score and says a score is not needed to be considered for merit scholarships.",
+      "source": "https://www.gonzaga.edu/admission/international-admission/international-student-applications/international-first-year-application-checklist",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, fees, housing and food. Books, transportation and personal expenses are extra",
+      "tuition": 58390,
+      "billed": 76670
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "Undergraduates living on campus",
+    "source": "https://www.gonzaga.edu/admission/tuition-scholarships-aid/financial-aid/cost-of-attendance",
+    "verified": "2026-10-12",
+    "headline": "$76,670 in tuition, fees, housing and food",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 58390
+      },
+      {
+        "label": "Required fees",
+        "group": "billed",
+        "amount": 1120
+      },
+      {
+        "label": "Housing",
+        "group": "billed",
+        "amount": 8940
+      },
+      {
+        "label": "Food",
+        "group": "billed",
+        "amount": 8220
+      }
+    ],
+    "billedSubtotal": 76670,
+    "totalText": "$76,670 total direct costs for 2026–2027, as printed; the indirect costs were not read",
+    "note": null
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "First-year merit scholarships range from $23,500 to $32,000 a year, against tuition of $58,390. The pages read say nothing about need-based aid for international students."
+    },
+    "merit": [
+      {
+        "name": "Gonzaga first-year merit scholarships",
+        "amount": "$23,500 to $32,000 a year",
+        "eligibility": "All students who complete the application for admission",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": true,
+        "note": "Guaranteed for four years while the student is enrolled full-time in good academic standing."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Not stated for international students on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Gonzaga — international first-year application checklist",
+      "url": "https://www.gonzaga.edu/admission/international-admission/international-student-applications/international-first-year-application-checklist"
+    },
+    {
+      "label": "Gonzaga — application deadlines",
+      "url": "https://www.gonzaga.edu/undergraduate-admission/apply/dates-deadlines"
+    },
+    {
+      "label": "Gonzaga — cost of attendance 2026–2027",
+      "url": "https://www.gonzaga.edu/admission/tuition-scholarships-aid/financial-aid/cost-of-attendance"
+    },
+    {
+      "label": "Gonzaga — scholarships",
+      "url": "https://www.gonzaga.edu/undergraduate-admission/tuition-aid/scholarship-opportunities"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "application fee",
+      "English proficiency",
+      "test policy",
+      "published costs",
+      "merit scholarships"
+    ],
+    "unconfirmed": [
+      "aid for international students",
+      "books, travel and personal costs",
+      "founding year",
+      "admission statistics",
+      "list of majors"
+    ]
+  },
+  "lastVerified": "2026-10-12"
+},
+
+{
+  "id": "cornell-college",
+  "name": "Cornell College",
+  "shortName": "Cornell College",
+  "country": "us",
+  "city": "Mount Vernon",
+  "region": "Iowa",
+  "founded": null,
+  "type": "Private liberal arts college",
+  "institutionKind": "liberal-arts",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#7a3b12",
+    "c2": "#3d1d09",
+    "initials": "C"
+  },
+  "description": "A private liberal arts college in Mount Vernon, Iowa, where students take One Course At A Time in blocks of three and a half weeks. It is a different institution from Cornell University. International students automatically qualify for academic merit scholarships and must show financial ability for the rest of their costs.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "other"
+  ],
+  "englishTaughtPrograms": [
+    "other"
+  ],
+  "programNote": "The list of majors could not be read on this check, so no fields are listed.",
+  "links": {
+    "website": "https://www.cornellcollege.edu/",
+    "admissions": "https://www.cornellcollege.edu/admissions/index.shtml",
+    "internationalAdmissions": "https://www.cornellcollege.edu/admissions/international-students/index.shtml",
+    "applicationPortal": null,
+    "scholarships": "https://www.cornellcollege.edu/financial-assistance/scholarships-awards/index.shtml",
+    "financialAid": "https://www.cornellcollege.edu/financial-assistance/index.shtml",
+    "programs": null,
+    "cost": "https://www.cornellcollege.edu/financial-assistance/cost-of-attendance.shtml"
+  },
+  "admissions": {
+    "platforms": [],
+    "deadlines": [
+      {
+        "name": "Applications open",
+        "kind": "opens",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-08-01",
+        "date": "1 August 2026",
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": "The first day to apply for the following autumn term.",
+        "status": "confirmed",
+        "source": "https://www.cornellcollege.edu/admissions/international-students/index.shtml",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Priority deadline",
+        "kind": "priority",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-12-01",
+        "date": "1 December 2026",
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": "College decision day, with the deposit, is 1 May; financial documentation must be complete by 1 July to secure a visa.",
+        "status": "confirmed",
+        "source": "https://www.cornellcollege.edu/admissions/international-students/index.shtml",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null
+    },
+    "documents": [
+      "Completed application",
+      "Secondary school transcript translated into English",
+      "Proof of English proficiency: test results, a statement from the school, or an interview with the admission counselor",
+      "Proof of financial ability"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": "A digital or phone interview with the admission counselor is one of the ways to show English proficiency.",
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": null,
+      "recommended": null,
+      "note": "Accepted; the page gives no minimum score."
+    },
+    "toefl": {
+      "min": null,
+      "recommended": null,
+      "note": "Accepted; the page gives no minimum score."
+    },
+    "duolingo": {
+      "min": null,
+      "recommended": null,
+      "note": "Accepted; the page gives no minimum score."
+    },
+    "waiver": "A formal English proficiency test is not required, but proof of proficiency is needed before admission: test results, documentation from the current school, or an interview.",
+    "note": "Accepted test results: ACT, SAT, Duolingo, IELTS, TOEFL, EIKEN or iTEP.",
+    "detailsSource": "https://www.cornellcollege.edu/admissions/international-students/index.shtml",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, fees, housing and food (billed), plus the university’s estimates for books, transportation and personal expenses",
+      "tuition": 55950,
+      "billed": 69220,
+      "budget": 73578,
+      "budgetMax": 74778,
+      "budgetText": "$73,578–$74,778"
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "Students in a standard double room",
+    "source": "https://www.cornellcollege.edu/financial-assistance/cost-of-attendance.shtml",
+    "verified": "2026-10-12",
+    "headline": "$73,578–$74,778 total cost of attendance",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 55950
+      },
+      {
+        "label": "Housing (standard double room)",
+        "group": "billed",
+        "amount": 5724
+      },
+      {
+        "label": "Food",
+        "group": "billed",
+        "amount": 6762
+      },
+      {
+        "label": "Student activity and general fees",
+        "group": "billed",
+        "amount": 784
+      },
+      {
+        "label": "Books",
+        "group": "estimate",
+        "amount": 720
+      },
+      {
+        "label": "Personal",
+        "group": "estimate",
+        "amount": 2000
+      },
+      {
+        "label": "Transportation ($1,200 in-state, an estimated $2,400 out of state)",
+        "group": "estimate",
+        "min": 1200,
+        "max": 2400,
+        "text": "$1,200–$2,400"
+      },
+      {
+        "label": "Additional food costs",
+        "group": "estimate",
+        "amount": 368
+      },
+      {
+        "label": "Estimated loan origination fees",
+        "group": "estimate",
+        "amount": 70
+      }
+    ],
+    "billedSubtotal": 69220,
+    "totalText": "$73,578–$74,778 total cost of attendance, of which $69,220 is billed by the university",
+    "note": null,
+    "extras": [
+      {
+        "label": "Health insurance policy provided by Cornell College",
+        "amount": null,
+        "required": true,
+        "condition": "Required of all international students; the international page says it is included in their cost of attendance, and the cost table read does not list it.",
+        "year": null
+      }
+    ]
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "International students automatically qualify for academic merit scholarships, shared on admission; the pages read give no amounts."
+    },
+    "merit": [
+      {
+        "name": "Cornell College academic merit scholarships",
+        "amount": null,
+        "eligibility": "International students, automatically",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": "The pages read give no amount."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "For the remainder of tuition and attendance costs beyond the merit scholarship, the college requires proof of financial ability."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Cornell College — international applicants",
+      "url": "https://www.cornellcollege.edu/admissions/international-students/index.shtml"
+    },
+    {
+      "label": "Cornell College — cost of attendance 2026–2027",
+      "url": "https://www.cornellcollege.edu/financial-assistance/cost-of-attendance.shtml"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "published costs",
+      "ways of showing English proficiency"
+    ],
+    "unconfirmed": [
+      "application fee",
+      "test policy",
+      "amounts of merit awards",
+      "cost of the required health insurance",
+      "founding year",
+      "admission statistics",
+      "list of majors"
+    ]
+  },
+  "lastVerified": "2026-10-12",
+  "aliases": [
+    "Cornell College Iowa"
+  ]
+},
+
+{
+  "id": "the-new-school",
+  "name": "The New School",
+  "shortName": "The New School",
+  "country": "us",
+  "city": "New York",
+  "region": "New York",
+  "founded": null,
+  "type": "Private university",
+  "institutionKind": "private",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#7a3b12",
+    "c2": "#3d1d09",
+    "initials": "NS"
+  },
+  "description": "A private university in New York City that includes Parsons School of Design, Eugene Lang College of Liberal Arts, Mannes School of Music and the School of Drama — one record covers them all. Scholarships open to international students are merit-based; The New School says most international students are not eligible for need-based aid.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "arts",
+    "humanities",
+    "social-sciences"
+  ],
+  "englishTaughtPrograms": [
+    "arts",
+    "humanities",
+    "social-sciences"
+  ],
+  "programNote": "The fields listed follow the schools named on the deadlines page: design and the arts (Parsons, Mannes, the School of Drama) and the liberal arts (Eugene Lang College).",
+  "links": {
+    "website": "https://www.newschool.edu/",
+    "admissions": "https://www.newschool.edu/admission/prospective-undergraduate-students",
+    "internationalAdmissions": "https://www.newschool.edu/admission/prospective-undergraduate-students/international-students",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": null,
+    "financialAid": "https://www.newschool.edu/financial-aid",
+    "programs": null,
+    "cost": null
+  },
+  "admissions": {
+    "platforms": [],
+    "deadlines": [
+      {
+        "name": "Early Action or Early Decision — Parsons and Eugene Lang College",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": null,
+        "appliesTo": "First-year applicants",
+        "conditions": "Early Decision is binding, with confirmation by 15 January; Early Action is not binding.",
+        "status": "confirmed",
+        "source": "https://www.newschool.edu/admission/prospective-undergraduate-students/dates-deadlines",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Parsons School of Design and Eugene Lang College of Liberal Arts. Mannes School of Music has its own autumn deadline, 1 December.",
+        "status": "confirmed",
+        "source": "https://www.newschool.edu/admission/prospective-undergraduate-students/dates-deadlines",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": "Common Application eligibility, or on request for economic hardship",
+      "note": "The amount was not read. The fee is waived for applicants who meet a Common Application eligibility requirement and can be waived on request for economic hardship.",
+      "source": "https://www.newschool.edu/admission/prospective-undergraduate-students/apply-undergraduate",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Completed application",
+      "Official high school transcripts",
+      "Proof of English proficiency, if the native language is not English or the transcripts are not in English",
+      "Portfolio or audition, for programmes that require one"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": null,
+    "toefl": null,
+    "duolingo": null,
+    "waiver": "Required of applicants whose native language is not English or whose transcripts are not in English; the scores are on the How to Apply page, which was not read.",
+    "note": "New students whose native language is not English also take an English placement test before registering for classes.",
+    "detailsSource": "https://www.newschool.edu/admission/prospective-undergraduate-students/international-students",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": null,
+    "academicYear": null,
+    "currency": "USD",
+    "headline": null,
+    "items": [],
+    "billedSubtotal": null,
+    "totalText": null,
+    "note": null
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "The New School says the scholarships open to international students are merit-based and that most international students are not eligible for need-based financial aid; the pages read give no amounts."
+    },
+    "merit": [
+      {
+        "name": "The New School merit scholarships",
+        "amount": null,
+        "eligibility": "International applicants; financial need is not taken into consideration",
+        "deadline": null,
+        "application": null,
+        "renewable": null,
+        "note": "The pages read give no amount."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": false,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Need-based financial aid is offered to US citizens and eligible non-citizens; most international students are not eligible for it."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "The New School — international applicants",
+      "url": "https://www.newschool.edu/admission/prospective-undergraduate-students/international-students"
+    },
+    {
+      "label": "The New School — application deadlines",
+      "url": "https://www.newschool.edu/admission/prospective-undergraduate-students/dates-deadlines"
+    },
+    {
+      "label": "The New School — early application options",
+      "url": "https://www.newschool.edu/admission/prospective-undergraduate-students/early-application-options"
+    },
+    {
+      "label": "The New School — how to apply",
+      "url": "https://www.newschool.edu/admission/prospective-undergraduate-students/apply-undergraduate"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "aid for international students"
+    ],
+    "unconfirmed": [
+      "application fee",
+      "minimum English test scores",
+      "test policy",
+      "tuition and fees",
+      "amounts of merit awards",
+      "founding year",
+      "admission statistics"
+    ]
+  },
+  "lastVerified": "2026-10-12",
+  "aliases": [
+    "Eugene Lang College of Liberal Arts",
+    "Eugene Lang College",
+    "Eugene Lang",
+    "Parsons School of Design",
+    "Parsons",
+    "Mannes School of Music",
+    "New School"
+  ]
+},
+
+{
+  "id": "savannah-college-of-art-and-design",
+  "name": "Savannah College of Art and Design",
+  "shortName": "SCAD",
+  "country": "us",
+  "city": "Savannah",
+  "region": "Georgia",
+  "founded": null,
+  "type": "Private art and design university",
+  "institutionKind": "private",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#4b2e83",
+    "c2": "#2c1a4d",
+    "initials": "SAD"
+  },
+  "description": "A private art and design university based in Savannah, Georgia, with a second location in Atlanta — one record covers both. Applications are accepted at any time of year, with a decision in two to four weeks. The pages read give no scholarship terms for international students.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "arts"
+  ],
+  "englishTaughtPrograms": [
+    "arts"
+  ],
+  "programNote": null,
+  "links": {
+    "website": "https://www.scad.edu/",
+    "admissions": "https://www.scad.edu/admission/apply",
+    "internationalAdmissions": null,
+    "applicationPortal": "https://www.scad.edu/admission/apply",
+    "scholarships": "https://www.scad.edu/admission/financial-aid-and-scholarships/scholarships",
+    "financialAid": "https://www.scad.edu/admission/financial-aid-and-scholarships",
+    "programs": null,
+    "cost": "https://www.scad.edu/admission/financial-aid-and-scholarships/financial-aid/cost-attendance"
+  },
+  "admissions": {
+    "platforms": [
+      "SCAD application"
+    ],
+    "deadlines": [
+      {
+        "name": "Rolling admission",
+        "kind": "rolling",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "date": "Any time of year",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "There are no deadlines to apply. SCAD encourages applying at least six months in advance and no later than 30 days before the start of the first quarter; results normally take two to four weeks.",
+        "status": "confirmed",
+        "source": "https://www.scad.edu/admission/apply",
+        "verified": "2026-10-12",
+        "note": null
+      }
+    ],
+    "applicationFee": {
+      "amount": 100,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Non-refundable.",
+      "source": "https://www.scad.edu/admission/apply",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "SCAD application",
+      "Official high school transcripts"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": null,
+    "toefl": null,
+    "duolingo": null,
+    "waiver": null,
+    "note": null
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, fees, housing and food (billed), plus the university’s estimates for books, transportation and personal expenses",
+      "tuition": 42975,
+      "billed": 62382,
+      "budget": 68691
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "Undergraduates in SCAD housing, three quarters (45 credit hours)",
+    "source": "https://www.scad.edu/admission/financial-aid-and-scholarships/financial-aid/cost-attendance",
+    "verified": "2026-10-12",
+    "headline": "$68,691 total cost of attendance",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 42975
+      },
+      {
+        "label": "Food and housing (estimate)",
+        "group": "billed",
+        "amount": 19407
+      },
+      {
+        "label": "Transportation",
+        "group": "estimate",
+        "amount": 1614
+      },
+      {
+        "label": "Books, course materials, equipment and supplies",
+        "group": "estimate",
+        "amount": 2034
+      },
+      {
+        "label": "Miscellaneous personal expenses",
+        "group": "estimate",
+        "amount": 2595
+      },
+      {
+        "label": "Federal loan fees",
+        "group": "estimate",
+        "amount": 66
+      }
+    ],
+    "billedSubtotal": 62382,
+    "totalText": "$68,691 total cost of attendance, of which $62,382 is billed by the university",
+    "note": "Use of SCAD buses is included in tuition. The food and housing figure is an estimate for SCAD housing and a meal plan."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "The pages read describe scholarships and grants in general terms and say nothing about amounts or eligibility for international students."
+    },
+    "merit": [],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Not stated for international students on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "SCAD — how to apply",
+      "url": "https://www.scad.edu/admission/apply"
+    },
+    {
+      "label": "SCAD — cost of attendance 2026–27",
+      "url": "https://www.scad.edu/admission/financial-aid-and-scholarships/financial-aid/cost-attendance"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "application fee",
+      "published costs"
+    ],
+    "unconfirmed": [
+      "English proficiency",
+      "test policy",
+      "aid for international students",
+      "merit scholarships",
+      "founding year",
+      "admission statistics"
+    ]
+  },
+  "lastVerified": "2026-10-12",
+  "aliases": [
+    "SCAD",
+    "SCAD Savannah",
+    "SCAD Atlanta"
+  ]
+},
+
+{
+  "id": "american-university",
+  "name": "American University",
+  "shortName": "American",
+  "country": "us",
+  "city": "Washington",
+  "region": "District of Columbia",
+  "founded": null,
+  "type": "Private research university",
+  "institutionKind": "private",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#6b1d4f",
+    "c2": "#360f28",
+    "initials": "A"
+  },
+  "description": "A private research university in Washington, D.C. Every international applicant must declare funds of at least $87,374, even when hoping for a partial merit scholarship. American University says its merit scholarships for international students are partial, not full, and highly competitive; its aid page also mentions need-based aid for international students.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "other"
+  ],
+  "englishTaughtPrograms": [
+    "other"
+  ],
+  "programNote": "The list of majors could not be read on this check, so no fields are listed.",
+  "links": {
+    "website": "https://www.american.edu/",
+    "admissions": "https://www.american.edu/admissions/first-year/index.cfm",
+    "internationalAdmissions": "https://www.american.edu/admissions/international/",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://www.american.edu/financialaid/prospective-international.cfm",
+    "financialAid": "https://www.american.edu/financialaid/prospective-international.cfm",
+    "programs": null,
+    "cost": "https://www.american.edu/finance/studentaccounts/Tuition-and-Fees-Information.cfm"
+  },
+  "admissions": {
+    "platforms": [
+      "Common Application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Not binding. Notification in mid-January; deposit by 1 May.",
+        "status": "confirmed",
+        "source": "https://www.american.edu/admissions/first-year/decision-plans-and-deadlines.cfm",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 75,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": "Case by case",
+      "note": "A waiver is considered case by case; all other applicants pay the fee.",
+      "source": "https://www.american.edu/admissions/international/instructions.cfm",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Common Application",
+      "Secondary school records sent by the school",
+      "Official English proficiency scores, unless exempt",
+      "AU Declaration of Finances Form confirming at least $87,374, signed within the past three months"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": [
+      "Early Decision I, Early Decision II and Regular Decision are listed on the same page; their dates were not read on this check."
+    ]
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "At least 6.5."
+    },
+    "toefl": {
+      "min": 85,
+      "recommended": null,
+      "note": "85 on the earlier scale or 4.5 on the new one.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 85,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 120,
+      "recommended": null,
+      "note": "At least 120."
+    },
+    "waiver": "Applicants from a listed group of English-speaking countries are exempt. Only official scores are accepted, and meeting the minimum does not guarantee admission.",
+    "note": "Also accepted: Cambridge English 176, PTE 60, LanguageCERT Academic 70, or SAT Evidence-Based Reading and Writing 610.",
+    "detailsSource": "https://www.american.edu/admissions/international/instructions.cfm",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "the full amount the university asks international applicants to show; its breakdown was not read",
+      "budget": 87374
+    },
+    "academicYear": null,
+    "currency": "USD",
+    "studentCategory": "International first-year applicants — the amount to be declared",
+    "source": "https://www.american.edu/admissions/international/instructions.cfm",
+    "verified": "2026-10-12",
+    "headline": "$87,374 minimum to be declared",
+    "items": [
+      {
+        "label": "Minimum funds to confirm on the AU Declaration of Finances Form",
+        "group": "estimate",
+        "amount": 87374
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "$87,374 is the minimum a first-year international applicant must confirm; the tuition and fee table itself was not read",
+    "note": "The page does not say which academic year the figure refers to."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "American University states that merit scholarships for international students are partial, not full, awards that are highly competitive. Its Emerging Global Leader Scholarship is mentioned on the instructions page; its terms were not read."
+    },
+    "merit": [
+      {
+        "name": "American University merit scholarships for international students",
+        "amount": "Partial awards; the pages read give no amounts",
+        "eligibility": "International applicants; highly competitive",
+        "deadline": null,
+        "application": null,
+        "renewable": null,
+        "note": null
+      }
+    ],
+    "needBased": {
+      "availableToInternational": true,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [
+        "AU Declaration of Finances Form"
+      ],
+      "deadlines": null,
+      "note": "The financial aid page says the university provides need-based aid, need-based grants and merit scholarships to international students, with notification at admission. The instructions page says AU does not accept the CSS Profile, FAFSA or ISFAA from international students and asks every applicant to declare at least $87,374."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "American — instructions for first-year international applicants",
+      "url": "https://www.american.edu/admissions/international/instructions.cfm"
+    },
+    {
+      "label": "American — application deadlines",
+      "url": "https://www.american.edu/admissions/first-year/decision-plans-and-deadlines.cfm"
+    },
+    {
+      "label": "American — international applicants",
+      "url": "https://www.american.edu/admissions/international/"
+    },
+    {
+      "label": "American — financial aid for international students",
+      "url": "https://www.american.edu/financialaid/prospective-international.cfm"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application fee",
+      "English proficiency",
+      "Early Action date",
+      "amount to be declared",
+      "aid for international students"
+    ],
+    "unconfirmed": [
+      "Early Decision and Regular Decision dates",
+      "test policy",
+      "tuition and fees",
+      "amounts of merit awards",
+      "share of need met",
+      "founding year",
+      "admission statistics",
+      "list of majors"
+    ]
+  },
+  "lastVerified": "2026-10-12",
+  "aliases": [
+    "AU",
+    "American University Washington"
+  ]
 }
 );
