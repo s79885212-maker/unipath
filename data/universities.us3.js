@@ -11390,5 +11390,2905 @@ window.UNIPATH.universities.push(
   "aliases": [
     "OWU"
   ]
+},
+
+{
+  "id": "providence-college",
+  "name": "Providence College",
+  "shortName": "Providence",
+  "country": "us",
+  "city": "Providence",
+  "region": "Rhode Island",
+  "founded": null,
+  "type": "Private Catholic college",
+  "institutionKind": "private",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#3d3d5c",
+    "c2": "#1f1f2e",
+    "initials": "P"
+  },
+  "description": "A private Catholic college in Providence, Rhode Island. SAT and ACT scores are not required. Admission of international students is need-aware, and the college states that its financial support for them is capped at the cost of tuition: applicants must show they can cover at least housing and food.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "biology",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "biology",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "education"
+  ],
+  "programNote": null,
+  "links": {
+    "website": "https://www.providence.edu/",
+    "admissions": "https://admission.providence.edu/",
+    "internationalAdmissions": "https://admission.providence.edu/international-applicants/",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://admission.providence.edu/international-applicants-2/cost-financial-aid/",
+    "financialAid": "https://admission.providence.edu/international-applicants-2/cost-financial-aid/",
+    "programs": "https://academics.providence.edu/majors-and-minors/",
+    "cost": "https://bursar.providence.edu/undergraduate-students/tuition/"
+  },
+  "admissions": {
+    "platforms": [
+      "Common Application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Not binding. Notification in late December; preliminary need-based awards follow in mid-January. Reply by 1 May.",
+        "status": "confirmed",
+        "source": "https://admission.providence.edu/deadlines/early-action/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Decision I",
+        "kind": "ED",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Decisions by 15 December.",
+        "status": "confirmed",
+        "source": "https://admission.providence.edu/deadlines/early-decision/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Decision II",
+        "kind": "ED2",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Notification in late February.",
+        "status": "confirmed",
+        "source": "https://admission.providence.edu/deadlines/early-decision/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Decisions by 1 April. Reply by 1 May.",
+        "status": "confirmed",
+        "source": "https://admission.providence.edu/deadlines/regular-decision/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null
+    },
+    "documents": [
+      "Common Application",
+      "School Report with transcripts, leaving certificates or predicted scores",
+      "Application essay",
+      "English proficiency test unless exempt",
+      "International Student Certification of Finances",
+      "CSS Profile, only if applying for need-based aid"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 7.0,
+      "recommended": null,
+      "note": "7.0 on the Academic test."
+    },
+    "toefl": {
+      "min": 90,
+      "recommended": null,
+      "note": "90 for exams taken before 21 January 2026, or 5 for exams taken on or after that date. TOEFL Essentials and ITP are not accepted.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 90,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 120,
+      "recommended": null,
+      "note": "At least 120."
+    },
+    "waiver": "These are minimum scores for consideration and do not guarantee admission. Students who studied entirely in English throughout secondary school are treated differently.",
+    "note": "Scores from Pearson PTE Academic and the Cambridge English Qualifications may be considered.",
+    "detailsSource": "https://admission.providence.edu/international-applicants-2/app-requirements/",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "Providence College does not require undergraduate applicants to submit SAT or ACT scores.",
+      "source": "https://admission.providence.edu/apply/standardized-testing/",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "Providence College does not require undergraduate applicants to submit SAT or ACT scores.",
+      "source": "https://admission.providence.edu/apply/standardized-testing/",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, fees, housing and food. Books, transportation and personal expenses are extra",
+      "tuition": 67470,
+      "billed": 88170
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "Undergraduates living on campus",
+    "source": "https://bursar.providence.edu/undergraduate-students/tuition/",
+    "verified": "2026-10-12",
+    "headline": "$88,170 in tuition, required fees, housing and food",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 67470
+      },
+      {
+        "label": "General tech fee",
+        "group": "billed",
+        "amount": 500
+      },
+      {
+        "label": "Activity fee",
+        "group": "billed",
+        "amount": 510
+      },
+      {
+        "label": "Housing and food",
+        "group": "billed",
+        "amount": 19690
+      }
+    ],
+    "billedSubtotal": 88170,
+    "totalText": "$68,480 tuition and required fees on the Bursar’s page plus $19,690 housing and food on the admission page; the admission page prints a total of $87,160",
+    "note": "The two official pages differ: the Bursar lists tuition of $67,470 plus $1,010 in required fees, while the admission page calls $67,470 “tuition and fees” and gives a total of $87,160."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": true,
+      "internationalEligible": true,
+      "basis": "need-based",
+      "covers": {
+        "tuition": true,
+        "housing": false,
+        "meals": false,
+        "insurance": false,
+        "books": false
+      },
+      "renewable": null,
+      "name": "Financial assistance for international students",
+      "competitiveness": "Admission is need-aware. Providence says the most competitive candidates show they can cover about half of the total cost of attendance, approximately $35,000.",
+      "howToApply": "Submit the CSS Profile and the International Student Certification of Finances with the application for admission.",
+      "note": "Support for international students is capped at the cost of tuition. To be admissible, students must show they can cover at least housing and food, approximately $22,000 a year.",
+      "quote": "that support is capped at the cost of tuition",
+      "quoteSource": "https://admission.providence.edu/international-applicants-2/cost-financial-aid/"
+    },
+    "merit": [],
+    "needBased": {
+      "availableToInternational": true,
+      "meetsFullNeed": false,
+      "needBlindInternational": false,
+      "forms": [
+        "CSS Profile",
+        "International Student Certification of Finances"
+      ],
+      "deadlines": "At the time of applying for admission.",
+      "note": "Providence College does not accept the International Student Financial Aid Application (ISFAA)."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Providence — application requirements for international students",
+      "url": "https://admission.providence.edu/international-applicants-2/app-requirements/"
+    },
+    {
+      "label": "Providence — costs and financial aid for international students",
+      "url": "https://admission.providence.edu/international-applicants-2/cost-financial-aid/"
+    },
+    {
+      "label": "Providence — Bursar, tuition and fees 2026–2027",
+      "url": "https://bursar.providence.edu/undergraduate-students/tuition/"
+    },
+    {
+      "label": "Providence — tuition and aid",
+      "url": "https://admission.providence.edu/tuition-aid/"
+    },
+    {
+      "label": "Providence — standardized testing policy",
+      "url": "https://admission.providence.edu/apply/standardized-testing/"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "English proficiency",
+      "test policy",
+      "published costs",
+      "aid for international students"
+    ],
+    "unconfirmed": [
+      "application fee",
+      "merit scholarships",
+      "health insurance terms",
+      "founding year",
+      "admission statistics"
+    ]
+  },
+  "lastVerified": "2026-10-12"
+},
+
+{
+  "id": "rensselaer-polytechnic-institute",
+  "name": "Rensselaer Polytechnic Institute",
+  "shortName": "RPI",
+  "country": "us",
+  "city": "Troy",
+  "region": "New York",
+  "founded": null,
+  "type": "Private research university",
+  "institutionKind": "private",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#7a3b12",
+    "c2": "#3d1d09",
+    "initials": "RPI"
+  },
+  "description": "A private technological research university in Troy, New York. Rensselaer offers undergraduate international students limited merit scholarships of up to $20,000 a year and says all non-US citizens must be prepared to assume the full cost of attendance.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "engineering",
+    "computer-science",
+    "business",
+    "biology",
+    "mathematics",
+    "arts"
+  ],
+  "englishTaughtPrograms": [
+    "engineering",
+    "computer-science",
+    "business",
+    "biology",
+    "mathematics",
+    "arts"
+  ],
+  "programNote": null,
+  "links": {
+    "website": "https://www.rpi.edu/",
+    "admissions": "https://admissions.rpi.edu/",
+    "internationalAdmissions": "https://undergrad.admissions.rpi.edu/apply/international-applicants",
+    "applicationPortal": "https://apply-undergrad.rpi.edu/apply",
+    "scholarships": "https://financialaid.rpi.edu/types-aid/scholarships",
+    "financialAid": "https://financialaid.rpi.edu/how-apply-aid",
+    "programs": "https://www.rpi.edu/academics",
+    "cost": "https://financialaid.rpi.edu/cost-attendance"
+  },
+  "admissions": {
+    "platforms": [
+      "Common Application",
+      "Rensselaer application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Decision I",
+        "kind": "ED",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Decisions on 12 December.",
+        "status": "confirmed",
+        "source": "https://undergrad.admissions.rpi.edu/apply/international-applicants",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-12-01",
+        "date": "1 December 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Not binding. Decisions on 30 January.",
+        "status": "confirmed",
+        "source": "https://undergrad.admissions.rpi.edu/apply/international-applicants",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Decision II",
+        "kind": "ED2",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-06",
+        "date": "6 January 2027",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Decisions on 16 January.",
+        "status": "confirmed",
+        "source": "https://undergrad.admissions.rpi.edu/apply/international-applicants",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Decisions on 6 March.",
+        "status": "confirmed",
+        "source": "https://undergrad.admissions.rpi.edu/apply/international-applicants",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null
+    },
+    "documents": [
+      "Common Application or the Rensselaer application",
+      "Official high school transcripts",
+      "English proficiency test unless exempt",
+      "Proof of funding for tuition and living expenses, for an F-1 or J-1 visa"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "An overall band score of at least 6.5 is expected."
+    },
+    "toefl": {
+      "min": 88,
+      "recommended": null,
+      "note": "A minimum of 88 on the internet-based test, or 4.5 on the new scale, is expected; the Home Edition is accepted.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 88,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 115,
+      "recommended": null,
+      "note": "At least 115."
+    },
+    "waiver": "The requirement is met without a test by, for example, an SAT Evidence-Based Reading and Writing score of 640, an ACT English score of 22 or IB English A Higher Level 6.",
+    "note": "PTE is also accepted (at least 59). RPI asks applicants to take the exam no later than December of the final school year.",
+    "detailsSource": "https://undergrad.admissions.rpi.edu/apply/international-applicants",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, fees, housing and food (billed), plus the university’s estimates for books, transportation and personal expenses",
+      "tuition": 66300,
+      "billed": 86846,
+      "budget": 90076
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "Undergraduates",
+    "source": "https://financialaid.rpi.edu/cost-attendance",
+    "verified": "2026-10-12",
+    "headline": "$90,076 total cost of attendance",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 66300
+      },
+      {
+        "label": "Fees",
+        "group": "billed",
+        "amount": 1676
+      },
+      {
+        "label": "Food and housing",
+        "group": "billed",
+        "amount": 18870
+      },
+      {
+        "label": "Books and supplies",
+        "group": "estimate",
+        "amount": 1410
+      },
+      {
+        "label": "Personal expenses",
+        "group": "estimate",
+        "amount": 1280
+      },
+      {
+        "label": "Transportation",
+        "group": "estimate",
+        "amount": 540
+      }
+    ],
+    "billedSubtotal": 86846,
+    "totalText": "$90,076 total cost of attendance, of which $86,846 is billed by the university",
+    "note": "Health insurance is not in the table.",
+    "extras": [
+      {
+        "label": "Laptop (required for course work)",
+        "amount": 2000,
+        "required": true,
+        "condition": "All students must have a laptop; one can be bought from Rensselaer at an approximate cost of $2,000.",
+        "year": "2026–2027"
+      }
+    ]
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "Rensselaer describes limited merit scholarships of up to $20,000 a year for undergraduate international students, against tuition of $66,300."
+    },
+    "merit": [
+      {
+        "name": "Rensselaer merit scholarships for international students",
+        "amount": "Up to $20,000 a year",
+        "eligibility": "Undergraduate international students; opportunities are limited",
+        "deadline": null,
+        "application": null,
+        "renewable": null,
+        "note": null
+      }
+    ],
+    "needBased": {
+      "availableToInternational": false,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Rensselaer states that all non-US citizens and non-permanent residents must be prepared to assume the full cost of attendance for the duration of their studies."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "RPI — international applicants",
+      "url": "https://undergrad.admissions.rpi.edu/apply/international-applicants"
+    },
+    {
+      "label": "RPI — cost of attendance 2026–2027",
+      "url": "https://financialaid.rpi.edu/cost-attendance"
+    },
+    {
+      "label": "RPI — majors and programmes",
+      "url": "https://www.rpi.edu/academics"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "English proficiency",
+      "published costs",
+      "aid for international students",
+      "merit scholarships"
+    ],
+    "unconfirmed": [
+      "application fee",
+      "test policy",
+      "health insurance terms",
+      "founding year",
+      "admission statistics"
+    ]
+  },
+  "lastVerified": "2026-10-12",
+  "aliases": [
+    "RPI",
+    "Rensselaer"
+  ]
+},
+
+{
+  "id": "scripps-college",
+  "name": "Scripps College",
+  "shortName": "Scripps",
+  "country": "us",
+  "city": "Claremont",
+  "region": "California",
+  "founded": null,
+  "type": "Private liberal arts college for women",
+  "institutionKind": "liberal-arts",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#6b1d4f",
+    "c2": "#360f28",
+    "initials": "S"
+  },
+  "description": "A private liberal arts college for women in Claremont, California, one of the Claremont Colleges. Scripps is test-optional. All international first-year applicants are considered automatically for merit scholarships of $15,000 to $30,000 a year; financial assistance for international applicants is limited and awarded only at admission.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "economics",
+    "computer-science",
+    "psychology",
+    "biology",
+    "social-sciences",
+    "humanities",
+    "arts"
+  ],
+  "englishTaughtPrograms": [
+    "economics",
+    "computer-science",
+    "psychology",
+    "biology",
+    "social-sciences",
+    "humanities",
+    "arts"
+  ],
+  "programNote": null,
+  "links": {
+    "website": "https://www.scrippscollege.edu/",
+    "admissions": "https://www.scrippscollege.edu/admission/apply/first-year-applicants",
+    "internationalAdmissions": "https://www.scrippscollege.edu/admission/apply/international-applicants",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://www.scrippscollege.edu/admission/apply/international-applicants",
+    "financialAid": "https://www.scrippscollege.edu/financialaid/information-for-international-students",
+    "programs": "https://www.scrippscollege.edu/departments/",
+    "cost": "https://www.scrippscollege.edu/financialaid/cost-of-attendance"
+  },
+  "admissions": {
+    "platforms": [
+      "Common Application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Decision I",
+        "kind": "ED",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-15",
+        "date": "15 November 2026",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Decisions in mid-December.",
+        "status": "confirmed",
+        "source": "https://www.scrippscollege.edu/admission/apply/admission-deadlines",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Decision II",
+        "kind": "ED2",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-08",
+        "date": "8 January 2027",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Decisions in mid-February.",
+        "status": "confirmed",
+        "source": "https://www.scrippscollege.edu/admission/apply/admission-deadlines",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-08",
+        "date": "8 January 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Decisions by 1 April.",
+        "status": "confirmed",
+        "source": "https://www.scrippscollege.edu/admission/apply/admission-deadlines",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Financial aid documents — Early Decision I",
+        "kind": "aid",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-15",
+        "date": "15 November 2026",
+        "binding": false,
+        "appliesTo": "International applicants asking for aid",
+        "conditions": "All applications and supporting documents must be submitted to IDOC.",
+        "status": "confirmed",
+        "source": "https://www.scrippscollege.edu/financialaid/information-for-international-students",
+        "verified": "2026-10-12",
+        "note": null
+      },
+      {
+        "name": "Financial aid documents — Early Decision II and Regular Decision",
+        "kind": "aid",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-31",
+        "date": "31 January 2027",
+        "binding": false,
+        "appliesTo": "International applicants asking for aid",
+        "conditions": "All applications and supporting documents must be submitted to IDOC.",
+        "status": "confirmed",
+        "source": "https://www.scrippscollege.edu/financialaid/information-for-international-students",
+        "verified": "2026-10-12",
+        "note": null
+      }
+    ],
+    "applicationFee": {
+      "amount": 60,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": "On request, where the fee is a financial burden",
+      "note": "A fee waiver can be requested where the fee is a financial burden.",
+      "source": "https://www.scrippscollege.edu/admission/apply/first-year-applicants",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Common Application",
+      "School report and counselor recommendation",
+      "Two academic teacher recommendations, preferably from the last two years of school",
+      "Official high school transcripts",
+      "Official TOEFL, IELTS or Duolingo English Test results",
+      "Scripps College International Student Financial Form",
+      "Certified English translations of all documents"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": null,
+      "recommended": null,
+      "note": "Accepted; the page gives no minimum score."
+    },
+    "toefl": {
+      "min": null,
+      "recommended": null,
+      "note": "Accepted; the page gives no minimum score."
+    },
+    "duolingo": {
+      "min": null,
+      "recommended": null,
+      "note": "Accepted; the page gives no minimum score."
+    },
+    "waiver": "The page for international applicants says Scripps strongly recommends an English proficiency score from non-native speakers, while the first-year page says international students whose first language is not English must submit one.",
+    "note": null,
+    "detailsSource": "https://www.scrippscollege.edu/admission/apply/international-applicants",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "Scripps is test-optional: students are not required to submit the SAT or ACT. The decision can be changed until 4 December (Early Decision I) or 18 January (Early Decision II and Regular Decision).",
+      "source": "https://www.scrippscollege.edu/admission/apply/first-year-applicants",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "Scripps is test-optional: students are not required to submit the SAT or ACT. The decision can be changed until 4 December (Early Decision I) or 18 January (Early Decision II and Regular Decision).",
+      "source": "https://www.scrippscollege.edu/admission/apply/first-year-applicants",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, fees, housing and food (billed), plus the university’s estimates for books, transportation and personal expenses",
+      "tuition": 70926,
+      "tuitionLabel": "Tuition and fees",
+      "billed": 94774,
+      "budget": 97574,
+      "budgetMax": 98574,
+      "budgetText": "$97,574–$98,574"
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "Full-time students in Scripps housing",
+    "source": "https://www.scrippscollege.edu/financialaid/cost-of-attendance",
+    "verified": "2026-10-12",
+    "headline": "$97,574–$98,574 total cost of attendance",
+    "items": [
+      {
+        "label": "Tuition and fees",
+        "group": "billed",
+        "amount": 70926
+      },
+      {
+        "label": "Housing and food",
+        "group": "billed",
+        "amount": 23848
+      },
+      {
+        "label": "Books and supplies",
+        "group": "estimate",
+        "amount": 800
+      },
+      {
+        "label": "Personal expenses",
+        "group": "estimate",
+        "amount": 1500
+      },
+      {
+        "label": "Transportation",
+        "group": "estimate",
+        "min": 500,
+        "max": 1500,
+        "text": "$500–$1,500"
+      }
+    ],
+    "billedSubtotal": 94774,
+    "totalText": "$97,574–$98,574 total cost of attendance, of which $94,774 is billed by the university",
+    "note": null,
+    "extras": [
+      {
+        "label": "Student Health Insurance Plan (SHIP)",
+        "amount": 3312,
+        "required": null,
+        "condition": "Added to the cost of attendance on request; the 2026–2027 premium was $3,312. The page does not say whether international students must take the plan.",
+        "year": "2026–2027"
+      }
+    ]
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "Merit scholarships for international first-year applicants range from $15,000 to $30,000 a year, against tuition and fees of $70,926. Scripps says financial assistance for international applicants is limited."
+    },
+    "merit": [
+      {
+        "name": "Scripps merit scholarships",
+        "amount": "$15,000 to $30,000 a year",
+        "eligibility": "All international first-year applicants, in any application round",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": true,
+        "note": "Renewable for four years; applicants are told at admission. Merit scholarships are for first-year applicants only."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": true,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [
+        "Scripps College International Student Financial Form",
+        "Supporting documents through IDOC"
+      ],
+      "deadlines": "15 November 2026 for Early Decision I; 31 January 2027 for Early Decision II and Regular Decision.",
+      "note": "Financial assistance for international applicants is limited and is awarded only at the time of admission."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Scripps — international applicants",
+      "url": "https://www.scrippscollege.edu/admission/apply/international-applicants"
+    },
+    {
+      "label": "Scripps — application deadlines",
+      "url": "https://www.scrippscollege.edu/admission/apply/admission-deadlines"
+    },
+    {
+      "label": "Scripps — first-year applicants",
+      "url": "https://www.scrippscollege.edu/admission/apply/first-year-applicants"
+    },
+    {
+      "label": "Scripps — financial aid for international students",
+      "url": "https://www.scrippscollege.edu/financialaid/information-for-international-students"
+    },
+    {
+      "label": "Scripps — cost of attendance 2026–2027",
+      "url": "https://www.scrippscollege.edu/financialaid/cost-of-attendance"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "application fee",
+      "test policy",
+      "published costs",
+      "aid for international students",
+      "merit scholarships"
+    ],
+    "unconfirmed": [
+      "minimum English test scores",
+      "share of need met",
+      "health insurance terms",
+      "founding year",
+      "admission statistics"
+    ]
+  },
+  "lastVerified": "2026-10-12"
+},
+
+{
+  "id": "st-johns-college",
+  "name": "St. John’s College",
+  "shortName": "St. John’s College",
+  "country": "us",
+  "city": "Annapolis",
+  "region": "Maryland",
+  "founded": null,
+  "type": "Private liberal arts college",
+  "institutionKind": "liberal-arts",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#4b2e83",
+    "c2": "#2c1a4d",
+    "initials": "SJS"
+  },
+  "description": "A private liberal arts college with two campuses — Annapolis, Maryland, and Santa Fe, New Mexico — where all students follow one Great Books programme. It is a different institution from St. John’s University in New York. There is no application fee, tests are optional, and international applicants are eligible for both need-based aid and merit scholarships.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "humanities",
+    "mathematics"
+  ],
+  "englishTaughtPrograms": [
+    "humanities",
+    "mathematics"
+  ],
+  "programNote": "St. John’s has no majors: every student follows the same Great Books programme. Applicants choose one campus, Annapolis or Santa Fe, and may change before enrolling if space allows.",
+  "links": {
+    "website": "https://www.sjc.edu/",
+    "admissions": "https://www.sjc.edu/admissions-and-aid/undergraduate/apply",
+    "internationalAdmissions": "https://www.sjc.edu/admissions-and-aid/undergraduate/apply/international-students",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://www.sjc.edu/admissions-and-aid/financial-aid/applying-aid/international-students/",
+    "financialAid": "https://www.sjc.edu/admissions-and-aid/financial-aid/applying-aid/international-students/",
+    "programs": "https://www.sjc.edu/academic-programs",
+    "cost": "https://www.sjc.edu/admissions-and-aid/financial-aid/tuition-costs"
+  },
+  "admissions": {
+    "platforms": [
+      "Common Application",
+      "St. John’s application",
+      "Coalition Application",
+      "Discussion-Based Application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Decision I",
+        "kind": "ED",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Decision returned on the first Friday in December.",
+        "status": "confirmed",
+        "source": "https://www.sjc.edu/admissions-and-aid/undergraduate/apply",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-15",
+        "date": "15 November 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Not binding. Decision returned on the third Friday in December.",
+        "status": "confirmed",
+        "source": "https://www.sjc.edu/admissions-and-aid/undergraduate/apply",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Decision II",
+        "kind": "ED2",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Decision returned on the first Friday in February.",
+        "status": "confirmed",
+        "source": "https://www.sjc.edu/admissions-and-aid/undergraduate/apply",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Decision returned on the third Friday in February.",
+        "status": "confirmed",
+        "source": "https://www.sjc.edu/admissions-and-aid/undergraduate/apply",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Rolling admission",
+        "kind": "rolling",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "date": "After 15 February",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "For autumn entry after 15 February; decisions within one month.",
+        "status": "confirmed",
+        "source": "https://www.sjc.edu/admissions-and-aid/undergraduate/apply",
+        "verified": "2026-10-12",
+        "note": null
+      }
+    ],
+    "applicationFee": {
+      "amount": 0,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "St. John’s has no application fee.",
+      "source": "https://www.sjc.edu/admissions-and-aid/undergraduate/apply/international-students",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Completed application",
+      "Writing supplement and essays",
+      "Secondary School Report",
+      "High school transcripts with an explanation of the grading system",
+      "English test, for students who did not attend an English-speaking high school"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": "Applicants may be invited to an interview as one of the final parts of the application.",
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": null,
+      "recommended": null,
+      "note": "Accepted; the page gives no minimum score."
+    },
+    "toefl": {
+      "min": null,
+      "recommended": null,
+      "note": "Accepted; the page gives no minimum score."
+    },
+    "duolingo": {
+      "min": null,
+      "recommended": null,
+      "note": "Accepted; the page gives no minimum score."
+    },
+    "waiver": "Students who were not educated in English must submit English proficiency scores.",
+    "note": "PTE is also accepted.",
+    "detailsSource": "https://www.sjc.edu/admissions-and-aid/undergraduate/apply/international-students",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "Optional. St. John’s describes a “no harm” policy: scores are used only to support an application and never count against it.",
+      "source": "https://www.sjc.edu/admissions-and-aid/undergraduate/apply/international-students",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "Optional. St. John’s describes a “no harm” policy: scores are used only to support an application and never count against it.",
+      "source": "https://www.sjc.edu/admissions-and-aid/undergraduate/apply/international-students",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, food and housing, the activity fee and other fees. Travel and personal costs are extra",
+      "tuition": 43392,
+      "billed": 62022
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "Undergraduates on the Annapolis campus",
+    "source": "https://www.sjc.edu/admissions-and-aid/financial-aid/tuition-costs",
+    "verified": "2026-10-12",
+    "headline": "$62,022 a year in Annapolis; $62,582 in Santa Fe",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 43392
+      },
+      {
+        "label": "Housing and food",
+        "group": "billed",
+        "amount": 17164
+      },
+      {
+        "label": "Activity fee",
+        "group": "billed",
+        "amount": 640
+      },
+      {
+        "label": "Other fees (health centre and manuals)",
+        "group": "billed",
+        "amount": 826
+      }
+    ],
+    "billedSubtotal": 62022,
+    "totalText": "$62,022 total per year for the Annapolis programme and $62,582 for the Santa Fe programme, as printed",
+    "note": "Food and housing vary with the room type and food plan. In Santa Fe food and housing are $17,452 and other fees $1,098.",
+    "extras": [
+      {
+        "label": "Student health insurance (annual premium)",
+        "amount": 2950,
+        "required": null,
+        "condition": "The premium for 2026–27 is $2,950; the page does not say on what terms it is required.",
+        "year": "2026–2027"
+      }
+    ]
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "St. John’s offers international students both financial aid and merit scholarships; the pages read give no amounts. The Ahmet Ertegun scholarship, which can reach full tuition depending on need, is for students from Turkey."
+    },
+    "merit": [
+      {
+        "name": "St. John’s merit scholarships",
+        "amount": null,
+        "eligibility": "All applicants, international students included",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": "The pages read give no amount."
+      },
+      {
+        "name": "Ahmet Ertegun Turkish Scholarship",
+        "amount": "Up to the cost of full tuition, depending on financial need",
+        "eligibility": "Students from Turkey",
+        "deadline": null,
+        "application": null,
+        "renewable": null,
+        "note": null
+      }
+    ],
+    "needBased": {
+      "availableToInternational": true,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [
+        "CSS Profile"
+      ],
+      "deadlines": null,
+      "note": "Aid packages for international students may include scholarships, grants, loans and campus employment; St. John’s urges applying early."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "St. John’s College — international applicants",
+      "url": "https://www.sjc.edu/admissions-and-aid/undergraduate/apply/international-students"
+    },
+    {
+      "label": "St. John’s College — undergraduate application and deadlines",
+      "url": "https://www.sjc.edu/admissions-and-aid/undergraduate/apply"
+    },
+    {
+      "label": "St. John’s College — tuition and fees 2026–27",
+      "url": "https://www.sjc.edu/admissions-and-aid/financial-aid/tuition-costs"
+    },
+    {
+      "label": "St. John’s College — financial aid for international students",
+      "url": "https://www.sjc.edu/admissions-and-aid/financial-aid/applying-aid/international-students/"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "application fee",
+      "test policy",
+      "published costs",
+      "aid for international students"
+    ],
+    "unconfirmed": [
+      "minimum English test scores",
+      "amounts of merit awards",
+      "share of need met",
+      "founding year",
+      "admission statistics"
+    ]
+  },
+  "lastVerified": "2026-10-12",
+  "aliases": [
+    "St. John's College",
+    "St Johns College",
+    "St. John’s College Annapolis",
+    "St. John’s College Santa Fe",
+    "SJC"
+  ]
+},
+
+{
+  "id": "sweet-briar-college",
+  "name": "Sweet Briar College",
+  "shortName": "Sweet Briar",
+  "country": "us",
+  "city": "Sweet Briar",
+  "region": "Virginia",
+  "founded": null,
+  "type": "Private liberal arts college for women",
+  "institutionKind": "liberal-arts",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#5a1f2e",
+    "c2": "#2e0f17",
+    "initials": "SB"
+  },
+  "description": "A private liberal arts college for women in Sweet Briar, Virginia. There is no application fee and admission is rolling; the college encourages international applicants to apply by 1 June. International applicants are offered merit scholarships based on their grade point average, and the published cost for 2027–28 is $48,300.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "economics",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "humanities",
+    "arts",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "humanities",
+    "arts",
+    "education"
+  ],
+  "programNote": null,
+  "links": {
+    "website": "https://sbc.edu/",
+    "admissions": "https://sbc.edu/admissions/apply/first-year/",
+    "internationalAdmissions": "https://sbc.edu/admissions/apply/international/",
+    "applicationPortal": "https://sbc.edu/admissions/apply/first-year/",
+    "scholarships": "https://sbc.edu/admissions/tuition-scholarship-aid/",
+    "financialAid": "https://sbc.edu/financial-aid/international-students/",
+    "programs": "https://www.sbc.edu/academics/majors-minors/",
+    "cost": "https://sbc.edu/admissions/tuition-scholarship-aid/"
+  },
+  "admissions": {
+    "platforms": [
+      "Sweet Briar application"
+    ],
+    "deadlines": [
+      {
+        "name": "Recommended date for international applicants",
+        "kind": "rolling",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-06-01",
+        "date": "1 June 2027",
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": "Sweet Briar has rolling admission and decides once an application is complete; it encourages international applicants to apply by 1 June, to leave time for the financial and immigration steps.",
+        "status": "confirmed",
+        "source": "https://sbc.edu/admissions/apply/international/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 0,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "There is no application fee.",
+      "source": "https://sbc.edu/admissions/apply/first-year/",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Sweet Briar application",
+      "Transcripts of academic work completed to date",
+      "English proficiency test unless exempt",
+      "College Board International Student Certification of Finances, after admission"
+    ],
+    "recommendations": "A recommendation from a counselor, teacher or Sweet Briar alumna is encouraged.",
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.0,
+      "recommended": null,
+      "note": "At least 6.0."
+    },
+    "toefl": {
+      "min": 65,
+      "recommended": null,
+      "note": "At least 65. The page gives the score on the 0–120 scale only; no figure for the 1–6 scale used since 21 January 2026 was found.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 65,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 90,
+      "recommended": null,
+      "note": "At least 90."
+    },
+    "waiver": "Not needed if English is the first language or after at least four years at an exclusively English-language school.",
+    "note": "Official scores must be sent directly to the college.",
+    "detailsSource": "https://sbc.edu/admissions/apply/international/",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "Students with a high school GPA of 3.0 or higher may apply test-optional.",
+      "source": "https://sbc.edu/admissions/apply/first-year/",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "Students with a high school GPA of 3.0 or higher may apply test-optional.",
+      "source": "https://sbc.edu/admissions/apply/first-year/",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, fees, housing and food. Books, transportation and personal expenses are extra",
+      "tuition": 29740,
+      "billed": 48300
+    },
+    "academicYear": "2027–2028",
+    "currency": "USD",
+    "studentCategory": "Undergraduates living on campus",
+    "source": "https://sbc.edu/admissions/tuition-scholarship-aid/",
+    "verified": "2026-10-12",
+    "headline": "$48,300 in tuition, fees, housing and food",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 29740
+      },
+      {
+        "label": "Housing and food",
+        "group": "billed",
+        "amount": 16960
+      },
+      {
+        "label": "Student life fee",
+        "group": "billed",
+        "amount": 680
+      },
+      {
+        "label": "Technology fee",
+        "group": "billed",
+        "amount": 450
+      },
+      {
+        "label": "Health center fee",
+        "group": "billed",
+        "amount": 470
+      }
+    ],
+    "billedSubtotal": 48300,
+    "totalText": "$48,300 total published tuition, housing, food and required fees for 2027–28",
+    "note": null
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "Sweet Briar offers international applicants merit scholarships based on grade point average; the pages read give no amounts."
+    },
+    "merit": [
+      {
+        "name": "Sweet Briar merit scholarships",
+        "amount": null,
+        "eligibility": "International applicants, on academic performance",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": "The pages read give no amount."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "The pages for international students describe merit scholarships only."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Sweet Briar — international applicants",
+      "url": "https://sbc.edu/admissions/apply/international/"
+    },
+    {
+      "label": "Sweet Briar — first-year applicants",
+      "url": "https://sbc.edu/admissions/apply/first-year/"
+    },
+    {
+      "label": "Sweet Briar — tuition, scholarships and aid 2027–28",
+      "url": "https://sbc.edu/admissions/tuition-scholarship-aid/"
+    },
+    {
+      "label": "Sweet Briar — financial aid for international students",
+      "url": "https://sbc.edu/financial-aid/international-students/"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "application fee",
+      "English proficiency",
+      "test policy",
+      "published costs"
+    ],
+    "unconfirmed": [
+      "amounts of merit awards",
+      "health insurance terms",
+      "founding year",
+      "admission statistics"
+    ]
+  },
+  "lastVerified": "2026-10-12"
+},
+
+{
+  "id": "university-of-cincinnati",
+  "name": "University of Cincinnati",
+  "shortName": "Cincinnati",
+  "country": "us",
+  "city": "Cincinnati",
+  "region": "Ohio",
+  "founded": null,
+  "type": "Public research university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#7a3b12",
+    "c2": "#3d1d09",
+    "initials": "C"
+  },
+  "description": "A public research university in Cincinnati, Ohio, known for co-operative education. SAT and ACT scores are optional. Cincinnati states that it does not offer full-tuition or need-based scholarships to undergraduate international students; its main award for them is $5,000 to $15,000 a year.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "other"
+  ],
+  "englishTaughtPrograms": [
+    "other"
+  ],
+  "programNote": "The list of majors could not be read on this check, so no fields are listed. English minimums differ by college.",
+  "links": {
+    "website": "https://www.uc.edu/",
+    "admissions": "https://www.admissions.uc.edu/",
+    "internationalAdmissions": "https://www.admissions.uc.edu/information/international.html",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://www.admissions.uc.edu/information/international/finance/scholarship.html",
+    "financialAid": "https://www.admissions.uc.edu/information/international/finance/scholarship.html",
+    "programs": "https://www.uc.edu/majors-programs.html",
+    "cost": "https://www.uc.edu/about/international/admissions/cost.html"
+  },
+  "admissions": {
+    "platforms": [],
+    "deadlines": [
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Not binding. Decisions are released on the second Wednesday in December. Early applicants are considered for scholarships, competitive programmes and honors.",
+        "status": "confirmed",
+        "source": "https://www.admissions.uc.edu/apply/deadlines.html",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Rolling admission",
+        "kind": "rolling",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-03-01",
+        "date": "1 March 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Rolling admission after 1 November; 1 March is the final deadline. Confirmation by 1 May.",
+        "status": "confirmed",
+        "source": "https://www.admissions.uc.edu/apply/deadlines.html",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null
+    },
+    "documents": [
+      "Completed application",
+      "Official school transcripts",
+      "Official English test scores, unless one of the four exemptions applies"
+    ],
+    "recommendations": "Optional.",
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "College of Arts & Sciences: 6.5 overall, 6.0 in writing and speaking, 5.5 in the other sections. Minimums differ by college."
+    },
+    "toefl": {
+      "min": 79,
+      "recommended": null,
+      "note": "College of Arts & Sciences: 79 overall for tests before January 2026 (20 in writing and speaking), or 4.0 overall after it. Minimums differ by college.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 79,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.0,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 100,
+      "recommended": null,
+      "note": "College of Arts & Sciences: 100 overall, 100 in production and conversation."
+    },
+    "waiver": "English proficiency is shown with a test score or by meeting one of four exemptions. Scores are valid for up to two years before the start of the term.",
+    "note": "Cambridge (176), PTE (53), an SAT Evidence-Based Reading and Writing score of 480 or an ACT English score of 19 are also listed for Arts & Sciences.",
+    "detailsSource": "https://www.admissions.uc.edu/information/international/requirements/freshman.html",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "The requirements for international first-year applicants say the SAT or ACT is optional.",
+      "source": "https://www.admissions.uc.edu/information/international/requirements/freshman.html",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "The requirements for international first-year applicants say the SAT or ACT is optional.",
+      "source": "https://www.admissions.uc.edu/information/international/requirements/freshman.html",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition and fees, health insurance, and the university’s estimate of living expenses",
+      "tuition": 30310,
+      "tuitionLabel": "Tuition and fees",
+      "billed": 32831,
+      "budget": 50830
+    },
+    "academicYear": null,
+    "currency": "USD",
+    "studentCategory": "International undergraduates on the Main Campus",
+    "source": "https://www.uc.edu/about/international/admissions/cost.html",
+    "verified": "2026-10-12",
+    "headline": "$50,830 total cost of attendance",
+    "items": [
+      {
+        "label": "Tuition and fees",
+        "group": "billed",
+        "amount": 30310
+      },
+      {
+        "label": "Living expenses",
+        "group": "estimate",
+        "amount": 17999
+      },
+      {
+        "label": "Health insurance",
+        "group": "billed",
+        "amount": 2521
+      }
+    ],
+    "billedSubtotal": 32831,
+    "totalText": "$50,830 a year on the Main Campus, of which $30,310 is tuition and fees",
+    "note": "The page labels these figures “current academic year” without naming it. Another Cincinnati page still shows 2022–2023 figures ($50,458)."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": false,
+      "internationalEligible": false,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "Cincinnati states that it does not offer full-tuition (“full ride”) or need-based scholarships to undergraduate international students.",
+      "quote": "we do not offer full-tuition (\"full ride\") or need-based scholarships to undergraduate international students",
+      "quoteSource": "https://www.admissions.uc.edu/information/international/finance/scholarship.html"
+    },
+    "merit": [
+      {
+        "name": "International Outreach Award",
+        "amount": "$5,000 to $15,000 a year",
+        "eligibility": "International students on the Uptown (Main) Campus",
+        "deadline": null,
+        "application": null,
+        "renewable": null,
+        "note": "The primary scholarship for international students; the amount depends on several factors and is applied to the out-of-state surcharge."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": false,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Cincinnati does not offer need-based scholarships to undergraduate international students."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Cincinnati — requirements for international first-year applicants",
+      "url": "https://www.admissions.uc.edu/information/international/requirements/freshman.html"
+    },
+    {
+      "label": "Cincinnati — application deadlines",
+      "url": "https://www.admissions.uc.edu/apply/deadlines.html"
+    },
+    {
+      "label": "Cincinnati — costs for international students",
+      "url": "https://www.uc.edu/about/international/admissions/cost.html"
+    },
+    {
+      "label": "Cincinnati — scholarships for international students",
+      "url": "https://www.admissions.uc.edu/information/international/finance/scholarship.html"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "English proficiency",
+      "test policy",
+      "aid for international students",
+      "merit scholarships"
+    ],
+    "unconfirmed": [
+      "application fee",
+      "academic year of the cost figures",
+      "founding year",
+      "admission statistics",
+      "list of majors"
+    ]
+  },
+  "lastVerified": "2026-10-12",
+  "aliases": [
+    "UC",
+    "Cincinnati"
+  ]
+},
+
+{
+  "id": "villanova-university",
+  "name": "Villanova University",
+  "shortName": "Villanova",
+  "country": "us",
+  "city": "Villanova",
+  "region": "Pennsylvania",
+  "founded": null,
+  "type": "Private research university",
+  "institutionKind": "private",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#1f3a5f",
+    "c2": "#0f1f33",
+    "initials": "V"
+  },
+  "description": "A private Augustinian Catholic university in Villanova, Pennsylvania. Admission of first-year international students is need-aware. They may apply for merit scholarships and for limited need-based aid; Villanova says not every admissible applicant who asks for aid receives it, and all recipients are expected to contribute.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "engineering",
+    "medicine",
+    "humanities"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "engineering",
+    "medicine",
+    "humanities"
+  ],
+  "programNote": "The fields listed are the undergraduate colleges named on the Bursar’s page: Arts & Sciences, Engineering, Nursing and the School of Business.",
+  "links": {
+    "website": "https://www1.villanova.edu/",
+    "admissions": "https://www1.villanova.edu/university/undergraduate-admission.html",
+    "internationalAdmissions": "https://www1.villanova.edu/university/undergraduate-admission/international-prospective-students.html",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://www1.villanova.edu/university/undergraduate-admission/Financial-Assistance-and-scholarship/merit-based-scholarships.html",
+    "financialAid": "https://www1.villanova.edu/university/office-of-financial-assistance/financial-aid-process/international-students.html",
+    "programs": null,
+    "cost": "https://www1.villanova.edu/university/office-of-financial-assistance/financial-aid-process/cost-of-attendance.html"
+  },
+  "admissions": {
+    "platforms": [],
+    "deadlines": [
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Not binding. Decisions by 20 January. Reply by 1 May. Priority filing date for financial assistance: 1 November.",
+        "status": "confirmed",
+        "source": "https://www1.villanova.edu/university/undergraduate-admission/applying-to-villanova/dates-and-deadlines.html",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Decision I",
+        "kind": "ED",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Decisions by 1 December. Deposit within two weeks of admission. Financial assistance deadline: 1 November.",
+        "status": "confirmed",
+        "source": "https://www1.villanova.edu/university/undergraduate-admission/applying-to-villanova/dates-and-deadlines.html",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Decision II",
+        "kind": "ED2",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Decisions by 15 February. Deposit within two weeks of admission. Financial assistance deadline: 15 January.",
+        "status": "confirmed",
+        "source": "https://www1.villanova.edu/university/undergraduate-admission/applying-to-villanova/dates-and-deadlines.html",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Decisions by 1 April. Reply by 1 May. Priority filing date for financial assistance: 15 January.",
+        "status": "confirmed",
+        "source": "https://www1.villanova.edu/university/undergraduate-admission/applying-to-villanova/dates-and-deadlines.html",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null
+    },
+    "documents": [],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": null,
+    "toefl": null,
+    "duolingo": null,
+    "waiver": null,
+    "note": null
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, fees, housing and food (billed), plus the university’s estimates for books, transportation and personal expenses",
+      "tuition": 72990,
+      "billed": 93368,
+      "budget": 96886
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "Full-time undergraduates, traditional day programme",
+    "source": "https://www1.villanova.edu/university/office-of-financial-assistance/financial-aid-process/cost-of-attendance.html",
+    "verified": "2026-10-12",
+    "headline": "$96,886 total cost of attendance",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 72990
+      },
+      {
+        "label": "Student services fee",
+        "group": "billed",
+        "amount": 1024
+      },
+      {
+        "label": "Housing (estimate)",
+        "group": "billed",
+        "amount": 10314
+      },
+      {
+        "label": "Food and meals (estimate)",
+        "group": "billed",
+        "amount": 9040
+      },
+      {
+        "label": "Books",
+        "group": "estimate",
+        "amount": 600
+      },
+      {
+        "label": "Supplies",
+        "group": "estimate",
+        "amount": 560
+      },
+      {
+        "label": "Personal",
+        "group": "estimate",
+        "amount": 1450
+      },
+      {
+        "label": "Transportation",
+        "group": "estimate",
+        "amount": 850
+      },
+      {
+        "label": "Loan fees",
+        "group": "estimate",
+        "amount": 58
+      }
+    ],
+    "billedSubtotal": 93368,
+    "totalText": "$96,886 total cost of attendance, of which $93,368 is billed by the university",
+    "note": "Housing and food are estimates; actual charges depend on the room and meal plan. Health insurance is not in the table."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "Villanova says many kinds of assistance exist for international students — merit scholarships, need-based grants and private loans — but that funding is limited; the pages read give no amounts."
+    },
+    "merit": [
+      {
+        "name": "Villanova merit-based scholarships",
+        "amount": null,
+        "eligibility": "First-year international students",
+        "deadline": null,
+        "application": null,
+        "renewable": null,
+        "note": "The pages read give no amount. Awarded by the Office of Undergraduate Admission. Villanova offers no merit or need-based assistance to international transfer students."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": true,
+      "meetsFullNeed": false,
+      "needBlindInternational": false,
+      "forms": [
+        "CSS Profile"
+      ],
+      "deadlines": "1 November for Early Decision I and Early Action; 15 January for Early Decision II and Regular Decision.",
+      "note": "Not all academically admissible applicants who apply for aid are awarded it, and every student who receives funds is expected to contribute personally."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Villanova — application deadlines",
+      "url": "https://www1.villanova.edu/university/undergraduate-admission/applying-to-villanova/dates-and-deadlines.html"
+    },
+    {
+      "label": "Villanova — international applicants",
+      "url": "https://www1.villanova.edu/university/undergraduate-admission/international-prospective-students.html"
+    },
+    {
+      "label": "Villanova — financial aid for international students",
+      "url": "https://www1.villanova.edu/university/office-of-financial-assistance/financial-aid-process/international-students.html"
+    },
+    {
+      "label": "Villanova — cost of attendance 2026–2027",
+      "url": "https://www1.villanova.edu/university/office-of-financial-assistance/financial-aid-process/cost-of-attendance.html"
+    },
+    {
+      "label": "Villanova — Bursar, tuition and fees 2026–2027",
+      "url": "https://www1.villanova.edu/university/financial-affairs/bursar/tuition-and-fees.html"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "published costs",
+      "aid for international students"
+    ],
+    "unconfirmed": [
+      "application fee",
+      "English proficiency",
+      "test policy",
+      "amounts of merit awards",
+      "health insurance terms",
+      "founding year",
+      "admission statistics",
+      "list of majors"
+    ]
+  },
+  "lastVerified": "2026-10-12"
+},
+
+{
+  "id": "washington-and-jefferson-college",
+  "name": "Washington & Jefferson College",
+  "shortName": "W&J",
+  "country": "us",
+  "city": "Washington",
+  "region": "Pennsylvania",
+  "founded": null,
+  "type": "Private liberal arts college",
+  "institutionKind": "liberal-arts",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#4b2e83",
+    "c2": "#2c1a4d",
+    "initials": "W&J"
+  },
+  "description": "A private liberal arts college in Washington, Pennsylvania. International students are not eligible for its merit scholarships; instead every admitted international student receives an international grant — $20,000 on the scholarships page, $17,000 in the FAQ. The college offers no need-based aid to non-US citizens.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "education"
+  ],
+  "programNote": null,
+  "links": {
+    "website": "https://www.washjeff.edu/",
+    "admissions": "https://www.washjeff.edu/future-students/apply/admission-deadlines/",
+    "internationalAdmissions": "https://www.washjeff.edu/future-students/international-admission/",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://www.washjeff.edu/future-students/scholarships/",
+    "financialAid": "https://www.washjeff.edu/future-students/scholarships/",
+    "programs": "https://www.washjeff.edu/academics/majors-and-minors/",
+    "cost": "https://www.washjeff.edu/future-students/tuition-fees/cost-of-attendance/"
+  },
+  "admissions": {
+    "platforms": [
+      "W&J application",
+      "Common Application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Decision",
+        "kind": "ED",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-12-15",
+        "date": "15 December 2026",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Decisions on 21 December.",
+        "status": "confirmed",
+        "source": "https://www.washjeff.edu/future-students/apply/admission-deadlines/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-04-01",
+        "date": "1 April 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "A priority application date; National College Decision Day is 1 May.",
+        "status": "confirmed",
+        "source": "https://www.washjeff.edu/future-students/apply/admission-deadlines/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null
+    },
+    "documents": [
+      "W&J Application or Common App",
+      "Official documents and credentials, translated",
+      "English proficiency test unless exempt"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": null,
+      "recommended": 6.5,
+      "note": "No minimum; W&J generally looks for 6.5 or higher."
+    },
+    "toefl": {
+      "min": null,
+      "recommended": 85,
+      "note": "No minimum; W&J typically looks for 85 on the internet-based test. The page gives the score on the 0–120 scale only; no figure for the 1–6 scale used since 21 January 2026 was found.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "recommended": 85,
+          "min": null
+        }
+      ]
+    },
+    "duolingo": null,
+    "waiver": "The English test may be waived with an SAT critical reading score above 600.",
+    "note": null,
+    "detailsSource": "https://www.washjeff.edu/future-students/international-admission/international-student-faq/",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, fees, housing and food. Books, transportation and personal expenses are extra",
+      "tuition": 30314,
+      "billed": 47038
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "Undergraduates in a standard double room with the 19-meal plan",
+    "source": "https://www.washjeff.edu/future-students/tuition-fees/cost-of-attendance/",
+    "verified": "2026-10-12",
+    "headline": "$47,038 in tuition, fees, housing and food",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 30314
+      },
+      {
+        "label": "Fees",
+        "group": "billed",
+        "amount": 1118
+      },
+      {
+        "label": "Housing",
+        "group": "billed",
+        "amount": 9090
+      },
+      {
+        "label": "Food",
+        "group": "billed",
+        "amount": 6516
+      }
+    ],
+    "billedSubtotal": 47038,
+    "totalText": "$47,038 in direct costs that appear on the bill; indirect costs were not read on this check",
+    "note": "With the international grant ($17,000 or $20,000, depending on the page) the billed amount left to pay is $27,038 to $30,038 a year (calculated by UniPath)."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "W&J says international students are not eligible for merit scholarships and that it offers no need-based aid to non-US citizens. Its full-tuition endowed awards are listed for incoming students without a statement that international students qualify."
+    },
+    "merit": [
+      {
+        "name": "W&J international grant",
+        "amount": "$20,000 a year on the scholarships page; $17,000 in the international FAQ",
+        "eligibility": "All admitted international students",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": "The two W&J pages give different amounts; the scholarships page shows 2027–28 figures."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": false,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "W&J states that it does not offer need-based aid to non-US citizens or permanent residents."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "W&J — international student FAQ",
+      "url": "https://www.washjeff.edu/future-students/international-admission/international-student-faq/"
+    },
+    {
+      "label": "W&J — application deadlines",
+      "url": "https://www.washjeff.edu/future-students/apply/admission-deadlines/"
+    },
+    {
+      "label": "W&J — cost of attendance 2026–2027",
+      "url": "https://www.washjeff.edu/future-students/tuition-fees/cost-of-attendance/"
+    },
+    {
+      "label": "W&J — scholarships",
+      "url": "https://www.washjeff.edu/future-students/scholarships/"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "published costs",
+      "aid for international students",
+      "typical English test scores"
+    ],
+    "unconfirmed": [
+      "application fee",
+      "test policy",
+      "amount of the international grant ($17,000 or $20,000)",
+      "health insurance terms",
+      "founding year",
+      "admission statistics"
+    ]
+  },
+  "lastVerified": "2026-10-12",
+  "aliases": [
+    "W&J",
+    "Washington and Jefferson College",
+    "Wash Jeff"
+  ]
+},
+
+{
+  "id": "westminster-college-pennsylvania",
+  "name": "Westminster College (Pennsylvania)",
+  "shortName": "Westminster (PA)",
+  "country": "us",
+  "city": "New Wilmington",
+  "region": "Pennsylvania",
+  "founded": null,
+  "type": "Private liberal arts college",
+  "institutionKind": "liberal-arts",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#4b2e83",
+    "c2": "#2c1a4d",
+    "initials": "WP"
+  },
+  "description": "A private liberal arts college in New Wilmington, Pennsylvania — not the Westminster colleges in Missouri or Utah. International applicants are evaluated for merit scholarships at admission. The college lists two competitive full-tuition scholarships; its pages do not say whether international students can receive them.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "education"
+  ],
+  "programNote": null,
+  "links": {
+    "website": "https://www.westminster.edu/",
+    "admissions": "https://www.westminster.edu/apply",
+    "internationalAdmissions": "https://www.westminster.edu/admissions/international.cfm",
+    "applicationPortal": "https://admissions.westminster.edu/apply/",
+    "scholarships": "https://www.westminster.edu/admissions/financial-aid/scholarships.cfm",
+    "financialAid": "https://www.westminster.edu/admissions/financial-aid/",
+    "programs": "https://www.westminster.edu/academics",
+    "cost": "https://www.westminster.edu/admissions/financial-aid/cost.cfm"
+  },
+  "admissions": {
+    "platforms": [],
+    "deadlines": [
+      {
+        "name": "Early Decision",
+        "kind": "ED",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Eligible for the $2,000 Early Application Grant; $200 enrolment deposit due by 15 January.",
+        "status": "confirmed",
+        "source": "https://www.westminster.edu/apply",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-12-15",
+        "date": "15 December 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Not binding. Eligible for the $2,000 Early Application Grant; $200 enrolment deposit due by 1 May.",
+        "status": "confirmed",
+        "source": "https://www.westminster.edu/apply",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "International application deadline — autumn semester",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-06-01",
+        "date": "1 June 2027",
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": "International applicants for the autumn semester; supporting materials by 1 July.",
+        "status": "confirmed",
+        "source": "https://www.westminster.edu/admissions/international.cfm",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null
+    },
+    "documents": [
+      "Completed application",
+      "Transcripts in English",
+      "Proof of English language proficiency (TOEFL, IELTS or Duolingo)",
+      "Copy of passport",
+      "Two letters of recommendation",
+      "Financial Declaration Form with certified bank statements"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6,
+      "recommended": null,
+      "note": "At least 6."
+    },
+    "toefl": {
+      "min": 80,
+      "recommended": null,
+      "note": "80 on the internet-based test. The page gives the score on the 0–120 scale only; no figure for the 1–6 scale used since 21 January 2026 was found.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 80,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 95,
+      "recommended": null,
+      "note": "The page gives “95–100 or higher”."
+    },
+    "waiver": null,
+    "note": null,
+    "detailsSource": "https://www.westminster.edu/admissions/international.cfm",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, fees, housing and food. Books, transportation and personal expenses are extra",
+      "tuition": 41340,
+      "billed": 56210
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "Undergraduates in double occupancy with the resident dining plan",
+    "source": "https://www.westminster.edu/admissions/financial-aid/cost.cfm",
+    "verified": "2026-10-12",
+    "headline": "$56,210 in tuition, fees, housing and food",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 41340
+      },
+      {
+        "label": "Activity fee",
+        "group": "billed",
+        "amount": 800
+      },
+      {
+        "label": "Food and housing (double occupancy, resident dine plan)",
+        "group": "billed",
+        "amount": 14070
+      },
+      {
+        "label": "New student orientation (one-time fee)",
+        "group": "extra",
+        "amount": 340
+      }
+    ],
+    "billedSubtotal": 56210,
+    "totalText": "$56,210 total standard charges; $56,550 for new students with the one-time orientation fee",
+    "note": null,
+    "extras": [
+      {
+        "label": "Medical insurance for international students",
+        "amount": null,
+        "required": true,
+        "condition": "All full-time international students must have an approved medical insurance plan; the price depends on visa type, home country and athlete status.",
+        "year": null
+      }
+    ]
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "Westminster lists the competitive Lemmon and Presidential full-tuition scholarships and says every accepted student receives at least $22,000 in merit scholarships. Its pages do not state that international students are eligible for the full-tuition awards; they say international applicants are evaluated for merit scholarships at admission."
+    },
+    "merit": [
+      {
+        "name": "Westminster merit scholarships",
+        "amount": "At least $22,000 a year for every accepted student, as the affordability page states",
+        "eligibility": "International applicants are evaluated at the time of admission",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": null
+      },
+      {
+        "name": "Lemmon Scholarship and Presidential Scholarship",
+        "amount": "Full tuition",
+        "eligibility": "Competitive; eligibility of international students is not stated",
+        "deadline": null,
+        "application": null,
+        "renewable": null,
+        "note": "Renewable for four years."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [
+        "Financial Declaration Form"
+      ],
+      "deadlines": null,
+      "note": "International applicants must demonstrate the resources to meet their expenses while attending Westminster."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Westminster — international applicants",
+      "url": "https://www.westminster.edu/admissions/international.cfm"
+    },
+    {
+      "label": "Westminster — how to apply",
+      "url": "https://www.westminster.edu/apply"
+    },
+    {
+      "label": "Westminster — tuition and fees 2026–2027",
+      "url": "https://www.westminster.edu/admissions/financial-aid/cost.cfm"
+    },
+    {
+      "label": "Westminster — scholarships",
+      "url": "https://www.westminster.edu/admissions/financial-aid/scholarships.cfm"
+    },
+    {
+      "label": "Westminster — affordability",
+      "url": "https://www.westminster.edu/admissions/affordability.cfm"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "English proficiency",
+      "published costs",
+      "merit scholarships"
+    ],
+    "unconfirmed": [
+      "application fee",
+      "test policy",
+      "eligibility of international students for the full-tuition scholarships",
+      "cost of medical insurance",
+      "founding year",
+      "admission statistics"
+    ]
+  },
+  "lastVerified": "2026-10-12",
+  "aliases": [
+    "Westminster College",
+    "Westminster College PA",
+    "Westminster College New Wilmington"
+  ]
+},
+
+{
+  "id": "worcester-polytechnic-institute",
+  "name": "Worcester Polytechnic Institute",
+  "shortName": "WPI",
+  "country": "us",
+  "city": "Worcester",
+  "region": "Massachusetts",
+  "founded": null,
+  "type": "Private research university",
+  "institutionKind": "private",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#0b4f6c",
+    "c2": "#062b3b",
+    "initials": "WPI"
+  },
+  "description": "A private technological university in Worcester, Massachusetts. WPI is test-optional and need-aware for international applicants; it says competitive applicants can typically contribute at least $25,000 a year. Up to two WPI International Leadership Awards a year can bring a student’s aid to full tuition and fees.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "engineering",
+    "computer-science",
+    "business",
+    "biology",
+    "mathematics",
+    "humanities",
+    "arts"
+  ],
+  "englishTaughtPrograms": [
+    "engineering",
+    "computer-science",
+    "business",
+    "biology",
+    "mathematics",
+    "humanities",
+    "arts"
+  ],
+  "programNote": null,
+  "links": {
+    "website": "https://www.wpi.edu/",
+    "admissions": "https://www.wpi.edu/admissions/undergraduate/apply",
+    "internationalAdmissions": "https://www.wpi.edu/admissions/undergraduate/apply/international-students",
+    "applicationPortal": "https://www.wpi.edu/apply",
+    "scholarships": "https://www.wpi.edu/admissions/tuition-aid/types-of-aid/scholarships-grants/wpi-merit",
+    "financialAid": "https://www.wpi.edu/admissions/tuition-aid/applying-for-aid/international-students",
+    "programs": "https://www.wpi.edu/academics/study",
+    "cost": "https://www.wpi.edu/admissions/tuition-aid/undergraduate-students-new-to-wpi"
+  },
+  "admissions": {
+    "platforms": [],
+    "deadlines": [],
+    "applicationFee": {
+      "amount": 70,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Listed in the application checklist.",
+      "source": "https://www.wpi.edu/admissions/undergraduate/apply/how-to",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Completed application",
+      "Official transcripts from high school",
+      "Letter of recommendation from the school counselor",
+      "Letter of recommendation from a teacher",
+      "English proficiency test unless exempt",
+      "CSS Profile with the application, if applying for aid; otherwise WPI’s Certification of Finances after admission"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": "InitialView or Vericant interviews are considered as a supplement; they do not replace an English test.",
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": null,
+      "recommended": 7.0,
+      "note": "Recommended score of 7.0 with no band below 6.5."
+    },
+    "toefl": {
+      "min": null,
+      "recommended": 90,
+      "note": "Recommended score of 90 with no sub-score below 20 for tests before 21 January 2026, or 4.5 after it.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "recommended": 90,
+          "min": null
+        },
+        {
+          "period": "post2026",
+          "recommended": 4.5,
+          "min": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": null,
+      "recommended": 125,
+      "note": "Recommended score of 125."
+    },
+    "waiver": "International applicants must submit proof of English proficiency; citizens of an English-speaking country who attended an English-speaking high school for four years may be exempt.",
+    "note": "PTE is also accepted (recommended 61).",
+    "detailsSource": "https://www.wpi.edu/admissions/undergraduate/apply/international-students",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "WPI is a test-optional institution: it is up to the applicant whether to submit test scores.",
+      "source": "https://www.wpi.edu/admissions/undergraduate/apply/how-to",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "WPI is a test-optional institution: it is up to the applicant whether to submit test scores.",
+      "source": "https://www.wpi.edu/admissions/undergraduate/apply/how-to",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": null,
+    "academicYear": null,
+    "currency": "USD",
+    "headline": null,
+    "items": [],
+    "billedSubtotal": null,
+    "totalText": null,
+    "note": null
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": true,
+      "internationalEligible": true,
+      "basis": "merit",
+      "covers": {
+        "tuition": true,
+        "housing": false,
+        "meals": false,
+        "insurance": false,
+        "books": false
+      },
+      "renewable": null,
+      "name": "WPI International Leadership Award",
+      "competitiveness": "Up to two awards a year for incoming first-year international students. WPI is need-aware and says competitive applicants can typically contribute at least $25,000 a year.",
+      "howToApply": "There is no separate application; applicants who start in January are not eligible.",
+      "note": "A secondary scholarship combined with the student’s other merit and need-based awards to cover calculated need, up to a maximum of full tuition and fees. Housing, food and other costs remain payable.",
+      "quote": "to cover a student’s calculated need up to a maximum award of full tuition and fees",
+      "quoteSource": "https://www.wpi.edu/admissions/undergraduate/apply/international-students"
+    },
+    "merit": [
+      {
+        "name": "WPI academic merit scholarships",
+        "amount": null,
+        "eligibility": "First-year and transfer applicants, international students included",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": "The pages read give no amount."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": true,
+      "meetsFullNeed": false,
+      "needBlindInternational": false,
+      "forms": [
+        "CSS Profile"
+      ],
+      "deadlines": "By the admission deadline, with the application.",
+      "note": "WPI says its aid should be considered secondary to family, government and other sponsor support."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "WPI — international applicants",
+      "url": "https://www.wpi.edu/admissions/undergraduate/apply/international-students"
+    },
+    {
+      "label": "WPI — how to apply",
+      "url": "https://www.wpi.edu/admissions/undergraduate/apply/how-to"
+    },
+    {
+      "label": "WPI — financial aid for international students",
+      "url": "https://www.wpi.edu/admissions/tuition-aid/applying-for-aid/international-students"
+    },
+    {
+      "label": "WPI — majors and programmes",
+      "url": "https://www.wpi.edu/academics/study"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application fee",
+      "English proficiency",
+      "test policy",
+      "aid for international students"
+    ],
+    "unconfirmed": [
+      "application rounds",
+      "tuition and fees",
+      "amounts of merit awards",
+      "health insurance terms",
+      "founding year",
+      "admission statistics"
+    ]
+  },
+  "lastVerified": "2026-10-12",
+  "aliases": [
+    "WPI"
+  ]
 }
 );

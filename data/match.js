@@ -35,6 +35,17 @@ window.UNIPATH.match = {
   annualCost: {
 
     /* United States expansion, October 2026 */
+    'providence-college': { currency: 'USD', basis: 'billed', min: 88170, max: 88170 },
+    'rensselaer-polytechnic-institute': { currency: 'USD', basis: 'total', min: 90076, max: 90076 },
+    'scripps-college': { currency: 'USD', basis: 'total', min: 97574, max: 98574 },
+    'st-johns-college': { currency: 'USD', basis: 'billed', min: 62022, max: 62582, note: 'Annapolis $62,022, Santa Fe $62,582' },
+    'sweet-briar-college': { currency: 'USD', basis: 'billed', min: 48300, max: 48300 },
+    'university-of-cincinnati': { currency: 'USD', basis: 'total', min: 50830, max: 50830, note: 'The page does not name the academic year' },
+    'villanova-university': { currency: 'USD', basis: 'total', min: 96886, max: 96886 },
+    'washington-and-jefferson-college': { currency: 'USD', basis: 'billed', min: 47038, max: 47038 },
+    'westminster-college-pennsylvania': { currency: 'USD', basis: 'billed', min: 56210, max: 56210 },
+
+    /* United States expansion, October 2026 */
     'indiana-university-indianapolis': { currency: 'USD', basis: 'total', min: 56258, max: 56258, note: 'Nine months, international student estimate with health insurance' },
     'ithaca-college': { currency: 'USD', basis: 'total', min: 83020, max: 83020 },
     'loyola-university-chicago': { currency: 'USD', basis: 'billed', min: 77082, max: 77082 },
