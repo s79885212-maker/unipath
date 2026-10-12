@@ -35,6 +35,18 @@ window.UNIPATH.match = {
   annualCost: {
 
     /* United States expansion, October 2026 */
+    'agnes-scott-college': { currency: 'USD', basis: 'billed', min: 67935, max: 67935 },
+    'allegheny-college': { currency: 'USD', basis: 'billed', min: 74664, max: 74664 },
+    'bentley-university': { currency: 'USD', basis: 'total', min: 94270, max: 94270, note: 'First-year international students, with the required health insurance' },
+    'illinois-wesleyan-university': { currency: 'USD', basis: 'total', min: 78514, max: 78514, note: '2025–26 projected budget, the latest published' },
+    'iowa-state-university': { currency: 'USD', basis: 'total', min: 50960, max: 50960, note: 'The required medical insurance plan is not in this total' },
+    'lake-forest-college': { currency: 'USD', basis: 'billed', min: 74702, max: 74702 },
+    'muhlenberg-college': { currency: 'USD', basis: 'total', min: 87696, max: 87696 },
+    'pitzer-college': { currency: 'USD', basis: 'total', min: 96706, max: 96706 },
+    'seattle-university': { currency: 'USD', basis: 'total', min: 82726, max: 82726, note: 'The page does not name the academic year' },
+    'spelman-college': { currency: 'USD', basis: 'total', min: 61683, max: 61683 },
+
+    /* United States expansion, October 2026 */
     'providence-college': { currency: 'USD', basis: 'billed', min: 88170, max: 88170 },
     'rensselaer-polytechnic-institute': { currency: 'USD', basis: 'total', min: 90076, max: 90076 },
     'scripps-college': { currency: 'USD', basis: 'total', min: 97574, max: 98574 },
