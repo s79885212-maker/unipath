@@ -14,9 +14,14 @@ existing = re.findall(r'^  "([a-z0-9-]+)": (\[.*\]),\s*$', body, re.M)
 entries = [(uid, block) for uid, block in existing]
 have = set(uid for uid, _ in entries)
 
+# only institutions that already have a record: photographs are fetched ahead of the records
+recorded = set()
+for f in ('us', 'us2', 'us3'):
+    recorded |= set(re.findall(r'''(?m)^\s*"?id"?\s*:\s*['"]([a-z0-9-]+)['"]''', io.open(os.path.join(ROOT, 'data/universities.%s.js' % f), encoding='utf-8').read()))
+
 added = 0
 for uid, shots in sorted(new.items()):
-    if not shots or uid in have:
+    if not shots or uid in have or uid not in recorded:
         continue
     # keep only files that actually exist on disk
     shots = [g for g in shots if os.path.exists(os.path.join(ROOT, g['src']))]

@@ -35,6 +35,17 @@ window.UNIPATH.match = {
   annualCost: {
 
     /* United States expansion, October 2026 */
+    'fairfield-university': { currency: 'USD', basis: 'billed', min: 82945, max: 82945 },
+    'olin-college-of-engineering': { currency: 'USD', basis: 'total', min: 97088, max: 97088, note: 'Before the $10,000 Olin Tuition Scholarship every admitted student receives' },
+    'georgia-institute-of-technology': { currency: 'USD', basis: 'total', min: 56194, max: 56194, note: 'Estimate for 2027–2028, out-of-country rate' },
+    'adelphi-university': { currency: 'USD', basis: 'tuition', min: 52110, max: 52110 },
+    'harvey-mudd-college': { currency: 'USD', basis: 'total', min: 104512, max: 104512, note: 'Transportation and the required health insurance plan are not in this total' },
+    'hendrix-college': { currency: 'USD', basis: 'total', min: 61880, max: 61880 },
+    'hobart-and-william-smith-colleges': { currency: 'USD', basis: 'billed', min: 87082, max: 87082 },
+    'howard-university': { currency: 'USD', basis: 'total', min: 66182, max: 66182 },
+    'illinois-institute-of-technology': { currency: 'USD', basis: 'billed', min: 73596, max: 73596 },
+
+    /* United States expansion, October 2026 */
     'babson-college': { currency: 'USD', basis: 'total', min: 86966, max: 86966 },
     'berklee-college-of-music': { currency: 'USD', basis: 'total', min: 85817, max: 85817 },
     'chapman-university': { currency: 'USD', basis: 'total', min: 94376, max: 94376 },

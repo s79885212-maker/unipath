@@ -40,6 +40,7 @@ window.UNIPATH.awardDetails = {
    whose pages were never read stays "not checked". The reason is in each
    record's own scholarship note. */
 window.UNIPATH.awardNotDescribed = [
+  'fairfield-university', 'olin-college-of-engineering', 'adelphi-university', 'hendrix-college', 'hobart-and-william-smith-colleges', 'howard-university', 'illinois-institute-of-technology',
   'chapman-university', 'depaul-university', 'dillard-university', 'drew-university', 'eckerd-college', 'elmira-college', 'endicott-college',
   'bennington-college', 'sarah-lawrence-college',
   "new-york-university", "arizona-state-university", "emory-university", "georgetown-university",
