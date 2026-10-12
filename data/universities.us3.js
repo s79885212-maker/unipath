@@ -17745,5 +17745,2188 @@ window.UNIPATH.universities.push(
     ]
   },
   "lastVerified": "2026-10-12"
+},
+
+{
+  "id": "st-lawrence-university",
+  "name": "St. Lawrence University",
+  "shortName": "St. Lawrence",
+  "country": "us",
+  "city": "Canton",
+  "region": "New York",
+  "founded": null,
+  "type": "Private liberal arts college",
+  "institutionKind": "liberal-arts",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#4b2e83",
+    "c2": "#2c1a4d",
+    "initials": "SL"
+  },
+  "description": "A private liberal arts university in Canton, New York. It offers international students merit and need-based aid and calls both very competitive; its merit awards for them, the International Scholarships, range from $5,000 to full tuition. The CSS Profile and ISFAA are not required.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts"
+  ],
+  "programNote": null,
+  "links": {
+    "website": "https://www.stlawu.edu/",
+    "admissions": "https://www.stlawu.edu/applying-st-lawrence/international-students",
+    "internationalAdmissions": "https://www.stlawu.edu/applying-st-lawrence/international-students",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://www.stlawu.edu/admissions/financial-aid-scholarships/financial-aid/financial-aid-international-students",
+    "financialAid": "https://www.stlawu.edu/admissions/financial-aid-scholarships/financial-aid/financial-aid-international-students",
+    "programs": "https://www.stlawu.edu/majors-and-minors",
+    "cost": "https://www.stlawu.edu/admissions/tuition-and-fees"
+  },
+  "admissions": {
+    "platforms": [
+      "Common Application",
+      "St. Lawrence application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Decision I",
+        "kind": "ED",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-02",
+        "date": "2 November 2026",
+        "binding": true,
+        "appliesTo": "International applicants",
+        "conditions": "Binding.",
+        "status": "confirmed",
+        "source": "https://www.stlawu.edu/applying-st-lawrence/international-students",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-12-01",
+        "date": "1 December 2026",
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": "Not binding.",
+        "status": "confirmed",
+        "source": "https://www.stlawu.edu/applying-st-lawrence/international-students",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Decision II",
+        "kind": "ED2",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-01",
+        "date": "1 February 2027",
+        "binding": true,
+        "appliesTo": "International applicants",
+        "conditions": "Binding. Also the deadline to be considered for the Kenya Scholarship.",
+        "status": "confirmed",
+        "source": "https://www.stlawu.edu/applying-st-lawrence/international-students",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-03-01",
+        "date": "1 March 2027",
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.stlawu.edu/applying-st-lawrence/international-students",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null
+    },
+    "documents": [
+      "St. Lawrence Application or Common Application",
+      "Official copy of the high school transcript",
+      "TOEFL or IELTS, if the native language is not English and the school is not English-speaking",
+      "Counselor recommendation letter",
+      "Certificate of Finance form, with the application if applying for aid"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": null,
+      "recommended": null,
+      "note": "Accepted; the page gives no minimum score."
+    },
+    "toefl": {
+      "min": null,
+      "recommended": null,
+      "note": "Accepted; the page gives no minimum score."
+    },
+    "duolingo": null,
+    "waiver": "TOEFL or IELTS scores are required as proof of English proficiency unless the applicant attends an English-speaking school.",
+    "note": null,
+    "detailsSource": "https://www.stlawu.edu/applying-st-lawrence/international-students",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, fees, housing and food. Books, transportation and personal expenses are extra",
+      "tuition": 69460,
+      "billed": 87965
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "Undergraduates living on campus",
+    "source": "https://www.stlawu.edu/admissions/tuition-and-fees",
+    "verified": "2026-10-12",
+    "headline": "$87,965 in tuition, fees, housing and food",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 69460
+      },
+      {
+        "label": "Room & board",
+        "group": "billed",
+        "amount": 18030
+      },
+      {
+        "label": "Student activities fee",
+        "group": "billed",
+        "amount": 465
+      },
+      {
+        "label": "Class dues",
+        "group": "billed",
+        "amount": 10
+      }
+    ],
+    "billedSubtotal": 87965,
+    "totalText": "$87,965 total for the 2026–27 academic year, as printed",
+    "note": null
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": true,
+      "internationalEligible": true,
+      "basis": "merit",
+      "covers": {
+        "tuition": true,
+        "housing": false,
+        "meals": false,
+        "insurance": false,
+        "books": false
+      },
+      "renewable": null,
+      "name": "International Scholarships",
+      "competitiveness": "St. Lawrence calls its merit and need-based aid for international students very competitive; awards range from $5,000 upwards and the page does not say how many reach full tuition.",
+      "howToApply": "Every application is reviewed for merit. To be considered for need-based aid, say so on the Common Application and submit the Certificate of Finance form at the same time.",
+      "note": "The top of the range is full tuition; room, board and fees ($18,505 in 2026–27) remain payable.",
+      "quote": "The scholarships range from $5,000 to full tuition",
+      "quoteSource": "https://www.stlawu.edu/admissions/financial-aid-scholarships/financial-aid/financial-aid-international-students"
+    },
+    "merit": [
+      {
+        "name": "Canadian Scholars Program",
+        "amount": "$25,000 to $50,000 a year",
+        "eligibility": "Incoming first-year Canadian students",
+        "deadline": null,
+        "application": null,
+        "renewable": null,
+        "note": "Four-year totals of $100,000 to $200,000."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": true,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [
+        "Certificate of Finance form"
+      ],
+      "deadlines": "With the Common Application, at the same time.",
+      "note": "St. Lawrence does not require the CSS Profile or the ISFAA."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "St. Lawrence — international applicants",
+      "url": "https://www.stlawu.edu/applying-st-lawrence/international-students"
+    },
+    {
+      "label": "St. Lawrence — financial aid for international students",
+      "url": "https://www.stlawu.edu/admissions/financial-aid-scholarships/financial-aid/financial-aid-international-students"
+    },
+    {
+      "label": "St. Lawrence — tuition and fees 2026–27",
+      "url": "https://www.stlawu.edu/admissions/tuition-and-fees"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "published costs",
+      "aid for international students",
+      "merit scholarships"
+    ],
+    "unconfirmed": [
+      "application fee",
+      "test policy",
+      "minimum English test scores",
+      "share of need met",
+      "founding year",
+      "admission statistics"
+    ]
+  },
+  "lastVerified": "2026-10-12"
+},
+
+{
+  "id": "stony-brook-university",
+  "name": "Stony Brook University",
+  "shortName": "Stony Brook",
+  "country": "us",
+  "city": "Stony Brook",
+  "region": "New York",
+  "founded": null,
+  "type": "Public research university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#6b1d4f",
+    "c2": "#360f28",
+    "initials": "SB"
+  },
+  "description": "A public research university in Stony Brook, New York, part of the State University of New York. It is test-optional; international applicants still submit proof of English proficiency. The page for international first-year applicants gives deadlines and English minimums but no cost figures or aid terms.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "medicine"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "medicine"
+  ],
+  "programNote": null,
+  "links": {
+    "website": "https://www.stonybrook.edu/",
+    "admissions": "https://www.stonybrook.edu/undergraduate-admissions/first-year/international.html",
+    "internationalAdmissions": "https://www.stonybrook.edu/undergraduate-admissions/first-year/international.html",
+    "applicationPortal": null,
+    "scholarships": null,
+    "financialAid": "https://www.stonybrook.edu/undergraduate-admissions/cost-and-aid/",
+    "programs": "https://www.stonybrook.edu/academics/majors-minors-and-programs/",
+    "cost": "https://www.stonybrook.edu/undergraduate-admissions/cost-and-aid/"
+  },
+  "admissions": {
+    "platforms": [],
+    "deadlines": [
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": false,
+        "appliesTo": "First-year international applicants",
+        "conditions": "Not binding. A completion deadline: all required materials must be received by this date.",
+        "status": "confirmed",
+        "source": "https://www.stonybrook.edu/undergraduate-admissions/first-year/international.html",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "binding": false,
+        "appliesTo": "First-year international applicants",
+        "conditions": "A completion deadline: all required materials must be received by this date.",
+        "status": "confirmed",
+        "source": "https://www.stonybrook.edu/undergraduate-admissions/first-year/international.html",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null
+    },
+    "documents": [
+      "Completed application",
+      "Official score report of an accepted English exam, unless exempt"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "At least 6.5."
+    },
+    "toefl": {
+      "min": 80,
+      "recommended": null,
+      "note": "80 for internet-based exams taken before 21 January 2026; 4 for exams taken after it.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 80,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 105,
+      "recommended": null,
+      "note": "At least 105."
+    },
+    "waiver": "Applicants from native English-speaking countries, and others who meet the listed criteria, do not need an exam.",
+    "note": "Also accepted: PTE Academic 53, ACT English 19, SAT Evidence-Based Reading and Writing 480, IB English HL 5, an AP English score of 3, A-level English C, or 125 out of 150 in GaoKao English.",
+    "detailsSource": "https://www.stonybrook.edu/undergraduate-admissions/first-year/international.html",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "Stony Brook is test-optional for applicants; international students are still expected to submit proof of English proficiency.",
+      "source": "https://www.stonybrook.edu/undergraduate-admissions/first-year/international.html",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "Stony Brook is test-optional for applicants; international students are still expected to submit proof of English proficiency.",
+      "source": "https://www.stonybrook.edu/undergraduate-admissions/first-year/international.html",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": null,
+    "academicYear": null,
+    "currency": "USD",
+    "headline": null,
+    "items": [],
+    "billedSubtotal": null,
+    "totalText": null,
+    "note": null
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "The pages read give no scholarship amounts and no terms of aid for international students."
+    },
+    "merit": [],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Not stated for international students on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Stony Brook — international first-year applicants",
+      "url": "https://www.stonybrook.edu/undergraduate-admissions/first-year/international.html"
+    },
+    {
+      "label": "Stony Brook — majors and programmes",
+      "url": "https://www.stonybrook.edu/academics/majors-minors-and-programs/"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "English proficiency",
+      "test policy"
+    ],
+    "unconfirmed": [
+      "application fee",
+      "tuition and fees for international students",
+      "aid for international students",
+      "merit scholarships",
+      "founding year",
+      "admission statistics"
+    ]
+  },
+  "lastVerified": "2026-10-12",
+  "aliases": [
+    "SUNY Stony Brook",
+    "SBU"
+  ]
+},
+
+{
+  "id": "temple-university",
+  "name": "Temple University",
+  "shortName": "Temple",
+  "country": "us",
+  "city": "Philadelphia",
+  "region": "Pennsylvania",
+  "founded": null,
+  "type": "Public research university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#4b2e83",
+    "c2": "#2c1a4d",
+    "initials": "T"
+  },
+  "description": "A public research university in Philadelphia, Pennsylvania — the home campus of Temple University, Japan Campus, which has its own record. Temple says scholarship funding for international undergraduates is very competitive and that they are expected to finance the entire cost of their education.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "other"
+  ],
+  "englishTaughtPrograms": [
+    "other"
+  ],
+  "programNote": "The list of majors could not be read on this check, so no fields are listed.",
+  "links": {
+    "website": "https://www.temple.edu/",
+    "admissions": "https://admissions.temple.edu/",
+    "internationalAdmissions": "https://admissions.temple.edu/apply/international-students/first-year-international-students",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://sfs.temple.edu/apply/international-students",
+    "financialAid": "https://sfs.temple.edu/apply/international-students",
+    "programs": null,
+    "cost": "https://admissions.temple.edu/costs-aid-scholarships"
+  },
+  "admissions": {
+    "platforms": [
+      "Common Application"
+    ],
+    "deadlines": [
+      {
+        "name": "Application opens",
+        "kind": "opens",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-08-01",
+        "date": "1 August 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://admissions.temple.edu/apply/international-students/first-year-international-students",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": false,
+        "appliesTo": "First-year international applicants",
+        "conditions": "Not binding. Decisions by 10 January.",
+        "status": "confirmed",
+        "source": "https://admissions.temple.edu/apply/international-students/first-year-international-students",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-01",
+        "date": "1 February 2027",
+        "binding": false,
+        "appliesTo": "First-year international applicants",
+        "conditions": "Enrolment deposit deadline for admitted students: 1 May.",
+        "status": "confirmed",
+        "source": "https://admissions.temple.edu/apply/international-students/first-year-international-students",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 55,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": "For applicants who qualify",
+      "note": "Submitted with the Common App unless the applicant qualifies for a waiver.",
+      "source": "https://admissions.temple.edu/apply/international-students/first-year-international-students",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Common Application",
+      "Official high school transcripts",
+      "English proficiency test unless exempt"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": null,
+      "recommended": null,
+      "note": "IELTS and IELTS Indicator are accepted; the page gives no minimum score."
+    },
+    "toefl": {
+      "min": null,
+      "recommended": null,
+      "note": "TOEFL iBT and the Home Edition are accepted; the page gives no minimum score."
+    },
+    "duolingo": {
+      "min": null,
+      "recommended": null,
+      "note": "Accepted; the page gives no minimum score."
+    },
+    "waiver": "Not needed if English is the native language or after three or more years in a curriculum taught solely in English.",
+    "note": "PTE Academic, iTEP Academic Plus, Cambridge C1 Advanced and C2 Proficiency, the Michigan English Test and SAT Evidence-Based Reading and Writing are also accepted.",
+    "detailsSource": "https://admissions.temple.edu/apply/international-students/first-year-international-students",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": null,
+    "academicYear": null,
+    "currency": "USD",
+    "headline": null,
+    "items": [],
+    "billedSubtotal": null,
+    "totalText": null,
+    "note": null
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "Temple offers some international student academic scholarships that assist with the cost of tuition for applicants with outstanding records; the pages read give no amounts."
+    },
+    "merit": [
+      {
+        "name": "Temple international student academic scholarships",
+        "amount": null,
+        "eligibility": "Undergraduate applicants with outstanding academic records",
+        "deadline": null,
+        "application": null,
+        "renewable": true,
+        "note": "The pages read give no amount. Renewable for up to four years while the student keeps the required academic standing."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": false,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "International students are not eligible for US federal or state aid and are expected to finance the entire cost of their education."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Temple — first-year international students",
+      "url": "https://admissions.temple.edu/apply/international-students/first-year-international-students"
+    },
+    {
+      "label": "Temple — financial services for international students",
+      "url": "https://sfs.temple.edu/apply/international-students"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "application fee",
+      "aid for international students"
+    ],
+    "unconfirmed": [
+      "minimum English test scores",
+      "test policy",
+      "tuition and fees",
+      "amounts of merit awards",
+      "founding year",
+      "admission statistics",
+      "list of majors"
+    ]
+  },
+  "lastVerified": "2026-10-12"
+},
+
+{
+  "id": "texas-a-and-m-university",
+  "name": "Texas A&M University",
+  "shortName": "Texas A&M",
+  "country": "us",
+  "city": "College Station",
+  "region": "Texas",
+  "founded": null,
+  "type": "Public research university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#0b4f6c",
+    "c2": "#062b3b",
+    "initials": "TA"
+  },
+  "description": "A public research university in College Station, Texas. It is test-optional for first-year applicants. International students may be considered for need-based state or institutional aid by filing the Texas Application for State Financial Aid; Texas A&M says this funding is limited, not guaranteed and does not cover all costs.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "engineering",
+    "mathematics",
+    "humanities",
+    "law",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "engineering",
+    "mathematics",
+    "humanities",
+    "law",
+    "education"
+  ],
+  "programNote": "Only the fields named on the programmes page read are listed.",
+  "links": {
+    "website": "https://www.tamu.edu/",
+    "admissions": "https://admissions.tamu.edu/apply/freshman",
+    "internationalAdmissions": "https://admissions.tamu.edu/apply/international/international-freshman.html",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": null,
+    "financialAid": "https://aggie.tamu.edu/paying-for-college/apply-for-financial-aid/international-student-financial-aid.html",
+    "programs": "https://www.tamu.edu/academics/programs/index.html",
+    "cost": "https://tuition.tamu.edu/undergraduate"
+  },
+  "admissions": {
+    "platforms": [
+      "Common Application",
+      "ApplyTexas"
+    ],
+    "deadlines": [
+      {
+        "name": "Applications open",
+        "kind": "opens",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-08-01",
+        "date": "1 August 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://admissions.tamu.edu/apply/freshman",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Application deadline — College Station",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-12-01",
+        "date": "1 December 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "The autumn application deadline for College Station; additional documents by 15 December. The timeline is the same for international and domestic first-year applicants.",
+        "status": "confirmed",
+        "source": "https://admissions.tamu.edu/apply/freshman",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 90,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "A non-refundable processing fee, paid through the Common App; ApplyTexas applicants pay it separately.",
+      "source": "https://admissions.tamu.edu/apply/international/international-freshman.html",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Common App or ApplyTexas application with essay",
+      "Official high school transcripts",
+      "English proficiency test unless exempt"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.0,
+      "recommended": null,
+      "note": "IELTS Academic, minimum overall band of 6.0; the General test is not accepted."
+    },
+    "toefl": {
+      "min": 80,
+      "recommended": null,
+      "note": "Minimum overall score of 80 for tests before 21 January 2026, or 4.5 from that date, within two years; MyBest scores are not accepted.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 80,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": null,
+    "waiver": "Applicants from a published list of English-speaking countries are exempt.",
+    "note": "TOEFL Essentials is also accepted (8.5).",
+    "detailsSource": "https://admissions.tamu.edu/apply/international/international-freshman.html",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "Texas A&M is test-optional and does not require ACT or SAT scores from first-year applicants; it encourages those who have scores to send them.",
+      "source": "https://admissions.tamu.edu/apply/international/international-freshman.html",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "Texas A&M is test-optional and does not require ACT or SAT scores from first-year applicants; it encourages those who have scores to send them.",
+      "source": "https://admissions.tamu.edu/apply/international/international-freshman.html",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": null,
+    "academicYear": null,
+    "currency": "USD",
+    "headline": null,
+    "items": [],
+    "billedSubtotal": null,
+    "totalText": null,
+    "note": null
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "Texas A&M says aid for international students is need-based, supplements the student’s own funds, does not cover all educational costs and is limited and not guaranteed."
+    },
+    "merit": [],
+    "needBased": {
+      "availableToInternational": true,
+      "meetsFullNeed": false,
+      "needBlindInternational": null,
+      "forms": [
+        "Texas Application for State Financial Aid (TASFA)"
+      ],
+      "deadlines": null,
+      "note": "From the 2026–2027 academic year the TASFA replaces the ISFAA for international students at Texas A&M; it is filed once for each academic year."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Texas A&M — international freshman applicants",
+      "url": "https://admissions.tamu.edu/apply/international/international-freshman.html"
+    },
+    {
+      "label": "Texas A&M — freshman dates and deadlines",
+      "url": "https://admissions.tamu.edu/apply/freshman"
+    },
+    {
+      "label": "Texas A&M — financial aid for international students",
+      "url": "https://aggie.tamu.edu/paying-for-college/apply-for-financial-aid/international-student-financial-aid.html"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "application fee",
+      "English proficiency",
+      "test policy",
+      "aid for international students"
+    ],
+    "unconfirmed": [
+      "tuition and fees — the tuition page did not load for reading",
+      "merit scholarships",
+      "founding year",
+      "admission statistics",
+      "list of majors"
+    ]
+  },
+  "lastVerified": "2026-10-12",
+  "aliases": [
+    "TAMU",
+    "Texas A and M",
+    "Texas A&M"
+  ]
+},
+
+{
+  "id": "university-of-arizona",
+  "name": "University of Arizona",
+  "shortName": "Arizona",
+  "country": "us",
+  "city": "Tucson",
+  "region": "Arizona",
+  "founded": null,
+  "type": "Public research university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#0b4f6c",
+    "c2": "#062b3b",
+    "initials": "A"
+  },
+  "description": "A public research university in Tucson, Arizona. Applicants are considered for merit tuition scholarships with the application; Arizona says more than 82% of new international undergraduates in autumn 2024 received a Global Wildcat Scholarship. It has announced that tuition and fees stay flat for 2027–28.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "other"
+  ],
+  "englishTaughtPrograms": [
+    "other"
+  ],
+  "programNote": "The list of majors could not be read on this check, so no fields are listed.",
+  "links": {
+    "website": "https://www.arizona.edu/",
+    "admissions": "https://www.arizona.edu/admissions/deadlines",
+    "internationalAdmissions": "https://www.arizona.edu/admissions/undergraduate/international",
+    "applicationPortal": null,
+    "scholarships": "https://admissions.arizona.edu/cost-aid/international",
+    "financialAid": "https://financialaid.arizona.edu/apply-for-aid/international",
+    "programs": null,
+    "cost": "https://www.arizona.edu/admissions/undergraduate/tuition-aid"
+  },
+  "admissions": {
+    "platforms": [],
+    "deadlines": [
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Not binding. Priority consideration for admission, merit aid and the W.A. Franke Honors College. The commitment date is 1 May.",
+        "status": "confirmed",
+        "source": "https://www.arizona.edu/admissions/deadlines",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null
+    },
+    "documents": [
+      "Completed application",
+      "English proficiency test unless exempt"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "6.5; IELTS Indicator and One Skill Retake are accepted."
+    },
+    "toefl": {
+      "min": 79,
+      "recommended": null,
+      "note": "79 before January 2026 or 4 after it; the Paper Edition, Home Edition and MyBest scores are accepted.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 79,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 110,
+      "recommended": null,
+      "note": "At least 110."
+    },
+    "waiver": null,
+    "note": "Also accepted: PTE Academic 60, TOEFL Essentials 8.5, or an SAT Evidence-Based Reading and Writing score of 580.",
+    "detailsSource": "https://www.arizona.edu/admissions/undergraduate/international",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "estimated tuition and fees, housing and food, books and course materials, and travel and miscellaneous expenses",
+      "tuition": 44400,
+      "tuitionLabel": "Tuition and fees",
+      "billed": 44400,
+      "budget": 67770
+    },
+    "academicYear": null,
+    "currency": "USD",
+    "studentCategory": "Non-Arizona residents",
+    "source": "https://www.arizona.edu/admissions/undergraduate/tuition-aid",
+    "verified": "2026-10-12",
+    "headline": "$67,770 total cost of attendance",
+    "items": [
+      {
+        "label": "Estimated tuition and fees",
+        "group": "billed",
+        "amount": 44400
+      },
+      {
+        "label": "Housing and food",
+        "group": "estimate",
+        "amount": 17770
+      },
+      {
+        "label": "Books and course materials",
+        "group": "estimate",
+        "amount": 600
+      },
+      {
+        "label": "Travel and miscellaneous expenses",
+        "group": "estimate",
+        "amount": 5000
+      }
+    ],
+    "billedSubtotal": 44400,
+    "totalText": "$67,770 estimated annual cost for non-Arizona residents, of which $44,400 is tuition and fees",
+    "note": "The page shows these estimates next to the announcement that tuition and mandatory fees are frozen for 2027–28; it does not label the estimates with a year. Health insurance is not listed."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "The pages read describe the Global Wildcat Scholarship for international students without amounts."
+    },
+    "merit": [
+      {
+        "name": "Global Wildcat Scholarship",
+        "amount": null,
+        "eligibility": "New undergraduate international students",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": "The pages read give no amount. Arizona says more than 82% of new international undergraduates in autumn 2024 received it."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Not stated for international students on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Arizona — international applicants",
+      "url": "https://www.arizona.edu/admissions/undergraduate/international"
+    },
+    {
+      "label": "Arizona — application deadlines",
+      "url": "https://www.arizona.edu/admissions/deadlines"
+    },
+    {
+      "label": "Arizona — tuition and aid",
+      "url": "https://www.arizona.edu/admissions/undergraduate/tuition-aid"
+    },
+    {
+      "label": "Arizona — costs and aid for international students",
+      "url": "https://admissions.arizona.edu/cost-aid/international"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "English proficiency",
+      "Early Action date",
+      "cost estimate for non-residents"
+    ],
+    "unconfirmed": [
+      "application fee",
+      "test policy",
+      "amounts of merit awards",
+      "final application deadline",
+      "academic year of the cost estimate",
+      "founding year",
+      "admission statistics",
+      "list of majors"
+    ]
+  },
+  "lastVerified": "2026-10-12",
+  "aliases": [
+    "UA",
+    "UArizona",
+    "U of A"
+  ]
+},
+
+{
+  "id": "university-of-iowa",
+  "name": "University of Iowa",
+  "shortName": "Iowa",
+  "country": "us",
+  "city": "Iowa City",
+  "region": "Iowa",
+  "founded": null,
+  "type": "Public research university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#5a1f2e",
+    "c2": "#2e0f17",
+    "initials": "I"
+  },
+  "description": "A public research university in Iowa City, Iowa. SAT or ACT scores are not required of international applicants schooled outside the United States, but they are required to be considered for academic scholarships. First-year non-resident students who apply by 1 February are considered automatically for the National Scholars Award of $2,000 to $15,000 a year.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "engineering",
+    "humanities",
+    "education",
+    "medicine"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "engineering",
+    "humanities",
+    "education",
+    "medicine"
+  ],
+  "programNote": "The fields listed are the colleges named on the deadlines and cost pages read: Liberal Arts & Sciences, Business, Engineering, Education and Nursing.",
+  "links": {
+    "website": "https://uiowa.edu/",
+    "admissions": "https://admissions.uiowa.edu/international-first-year-admission-requirements",
+    "internationalAdmissions": "https://admissions.uiowa.edu/international-first-year-admission-requirements",
+    "applicationPortal": null,
+    "scholarships": "https://admissions.uiowa.edu/cost-aid/international-scholarships",
+    "financialAid": "https://admissions.uiowa.edu/finances",
+    "programs": null,
+    "cost": "https://admissions.uiowa.edu/finances/estimated-costs-international-students"
+  },
+  "admissions": {
+    "platforms": [],
+    "deadlines": [
+      {
+        "name": "National Scholars Award — apply for admission by",
+        "kind": "scholarship",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-01",
+        "date": "1 February 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Non-resident first-year applicants who apply by this date are considered automatically.",
+        "status": "confirmed",
+        "source": "https://admissions.uiowa.edu/cost-aid/international-scholarships",
+        "verified": "2026-10-12",
+        "note": null
+      },
+      {
+        "name": "International application deadline",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-05-03",
+        "date": "3 May 2027",
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": "For the autumn semester or summer session, in the colleges of Liberal Arts & Sciences, Education and Engineering; check the deadline of other colleges on the same page.",
+        "status": "confirmed",
+        "source": "https://admissions.uiowa.edu/international-application-deadlines",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null
+    },
+    "documents": [
+      "Completed application",
+      "Secondary school records",
+      "Proof of meeting the English proficiency requirements"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": null,
+    "toefl": null,
+    "duolingo": null,
+    "waiver": "Applicants must meet the university’s English Proficiency Requirements, which are on a separate page that was not read on this check.",
+    "note": null,
+    "detailsSource": "https://admissions.uiowa.edu/international-first-year-admission-requirements",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "SAT or ACT scores are not required of international applicants who completed secondary school outside the United States; they are required for academic scholarships, direct admission to the Tippie College of Business and the Honors Program.",
+      "source": "https://admissions.uiowa.edu/international-first-year-admission-requirements",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "SAT or ACT scores are not required of international applicants who completed secondary school outside the United States; they are required for academic scholarships, direct admission to the Tippie College of Business and the Honors Program.",
+      "source": "https://admissions.uiowa.edu/international-first-year-admission-requirements",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition and fees, health insurance, and the university’s estimates for living expenses and books",
+      "tuition": 35442,
+      "tuitionLabel": "Tuition and fees",
+      "billed": 38070,
+      "budget": 53042
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "International students, College of Liberal Arts & Sciences",
+    "source": "https://admissions.uiowa.edu/finances/estimated-costs-international-students",
+    "verified": "2026-10-12",
+    "headline": "$53,042 total cost of attendance",
+    "items": [
+      {
+        "label": "Tuition & fees",
+        "group": "billed",
+        "amount": 35442
+      },
+      {
+        "label": "Living expenses",
+        "group": "estimate",
+        "amount": 14022
+      },
+      {
+        "label": "Health insurance",
+        "group": "billed",
+        "amount": 2628
+      },
+      {
+        "label": "Books",
+        "group": "estimate",
+        "amount": 950
+      }
+    ],
+    "billedSubtotal": 38070,
+    "totalText": "$53,042 estimated total for Liberal Arts & Sciences; $56,447 for Business, $54,630 for Engineering and $56,916 for Nursing",
+    "note": "Estimates for full-time enrolment in the autumn and spring semesters. The fees include a $250 international student fee."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "The largest award described for first-year non-resident students is the National Scholars Award of $2,000 to $15,000 a year, against tuition and fees of $35,442."
+    },
+    "merit": [
+      {
+        "name": "National Scholars Award",
+        "amount": "$2,000 to $15,000 a year",
+        "eligibility": "Incoming first-year non-resident students, on test scores and GPA",
+        "deadline": "1 February 2027",
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": true,
+        "note": "For up to four years. Awarded automatically to eligible students who apply for admission by 1 February 2027; SAT or ACT scores are needed for scholarship consideration."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Not stated for international students on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Iowa — international first-year admission requirements",
+      "url": "https://admissions.uiowa.edu/international-first-year-admission-requirements"
+    },
+    {
+      "label": "Iowa — international application deadlines",
+      "url": "https://admissions.uiowa.edu/international-application-deadlines"
+    },
+    {
+      "label": "Iowa — estimated costs for international students 2026–27",
+      "url": "https://admissions.uiowa.edu/finances/estimated-costs-international-students"
+    },
+    {
+      "label": "Iowa — scholarships for international students",
+      "url": "https://admissions.uiowa.edu/cost-aid/international-scholarships"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "test policy",
+      "cost of attendance for international students",
+      "merit scholarships"
+    ],
+    "unconfirmed": [
+      "application fee",
+      "English proficiency",
+      "aid for international students",
+      "founding year",
+      "admission statistics",
+      "list of majors"
+    ]
+  },
+  "lastVerified": "2026-10-12"
+},
+
+{
+  "id": "unc-chapel-hill",
+  "name": "University of North Carolina at Chapel Hill",
+  "shortName": "UNC",
+  "country": "us",
+  "city": "Chapel Hill",
+  "region": "North Carolina",
+  "founded": 1789,
+  "type": "Public research university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#4b2e83",
+    "c2": "#2c1a4d",
+    "initials": "NCC"
+  },
+  "description": "A public research university in Chapel Hill, North Carolina, chartered in 1789. UNC states that international students are not eligible for need-based financial aid and should be prepared to pay the full cost of attendance for non-resident students. SAT or ACT scores are optional with a weighted GPA of 2.8 or above.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "other"
+  ],
+  "englishTaughtPrograms": [
+    "other"
+  ],
+  "programNote": "The list of majors could not be read on this check, so no fields are listed.",
+  "links": {
+    "website": "https://www.unc.edu/",
+    "admissions": "https://admissions.unc.edu/apply/international-students/",
+    "internationalAdmissions": "https://admissions.unc.edu/apply/types-of-applications/international-first-year-students/",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": null,
+    "financialAid": "https://studentaid.unc.edu/",
+    "programs": null,
+    "cost": "https://cashier.unc.edu/tuition-fees/undergraduate-programs/"
+  },
+  "admissions": {
+    "platforms": [
+      "Common Application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-10-15",
+        "date": "15 October 2026",
+        "binding": false,
+        "appliesTo": "First-year international applicants",
+        "conditions": "Not binding. For first-year admission in autumn 2027. Enrolment confirmation by 1 May.",
+        "status": "confirmed",
+        "source": "https://admissions.unc.edu/apply/types-of-applications/international-first-year-students/",
+        "verified": "2026-10-12",
+        "note": null
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "binding": false,
+        "appliesTo": "First-year international applicants",
+        "conditions": "Decisions on 31 March. Enrolment confirmation by 1 May.",
+        "status": "confirmed",
+        "source": "https://admissions.unc.edu/apply/types-of-applications/international-first-year-students/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 85,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": "Requested through the school counselor",
+      "note": "Non-refundable. Applicants who cannot pay are asked to talk with their school counselor about requesting a waiver.",
+      "source": "https://admissions.unc.edu/apply/types-of-applications/international-first-year-students/",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Common Application",
+      "Letter of recommendation",
+      "Official transcript and school report",
+      "English proficiency exam scores"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": null,
+      "recommended": 7.5,
+      "note": "Strong applicants typically score 7.5 or higher on IELTS Academic; UNC stresses that this is not a minimum."
+    },
+    "toefl": {
+      "min": null,
+      "recommended": 100,
+      "note": "Strong applicants typically score 100 or higher (5 or higher for exams from 21 January 2026); not a minimum. The Home Edition is accepted.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "recommended": 100,
+          "min": null
+        },
+        {
+          "period": "post2026",
+          "recommended": 5,
+          "min": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": null,
+      "recommended": 130,
+      "note": "Strong applicants typically score 130 or higher; not a minimum."
+    },
+    "waiver": "The requirement can be waived for applicants who have lived in an English-speaking country for a stated period.",
+    "note": "Cambridge C1 Advanced (185 or higher) and C2 Proficiency are also accepted.",
+    "detailsSource": "https://admissions.unc.edu/apply/types-of-applications/international-first-year-students/",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "SAT or ACT scores are optional for applicants with a weighted GPA of 2.8 or above on a 4.0 scale.",
+      "source": "https://admissions.unc.edu/apply/types-of-applications/international-first-year-students/",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "SAT or ACT scores are optional for applicants with a weighted GPA of 2.8 or above on a 4.0 scale.",
+      "source": "https://admissions.unc.edu/apply/types-of-applications/international-first-year-students/",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition and required fees only. Housing, food, books and personal expenses are extra",
+      "tuition": 47472,
+      "billed": 49593
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "Non-resident undergraduates, 12 or more credit hours",
+    "source": "https://cashier.unc.edu/tuition-fees/undergraduate-programs/",
+    "verified": "2026-10-12",
+    "headline": "$49,593 in tuition and fees",
+    "items": [
+      {
+        "label": "Non-resident tuition, two semesters at $23,736",
+        "group": "billed",
+        "amount": 47472
+      },
+      {
+        "label": "Fees, two semesters at $1,060.50",
+        "group": "billed",
+        "amount": 2121
+      }
+    ],
+    "billedSubtotal": 49593,
+    "totalText": "$23,736 tuition and $1,060.50 fees per semester for 12 or more credit hours, as printed; $49,593 is two semesters added together",
+    "note": "Housing, food and health insurance are not on this page."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": false,
+      "internationalEligible": false,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "UNC states that international students are not eligible to receive need-based financial aid and should be prepared to pay the full cost of attendance for non-resident students. The pages read describe no merit award for them.",
+      "quote": "International students aren’t eligible to receive need-based financial aid",
+      "quoteSource": "https://admissions.unc.edu/apply/types-of-applications/international-first-year-students/"
+    },
+    "merit": [],
+    "needBased": {
+      "availableToInternational": false,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "International students are not eligible for need-based financial aid."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "UNC — applying as an international first-year student",
+      "url": "https://admissions.unc.edu/apply/types-of-applications/international-first-year-students/"
+    },
+    {
+      "label": "UNC — undergraduate tuition and fees 2026–2027",
+      "url": "https://cashier.unc.edu/tuition-fees/undergraduate-programs/"
+    },
+    {
+      "label": "UNC — home page",
+      "url": "https://www.unc.edu/"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "application fee",
+      "English proficiency",
+      "test policy",
+      "aid for international students",
+      "tuition and fees 2026–2027",
+      "founding year"
+    ],
+    "unconfirmed": [
+      "housing, food and insurance costs",
+      "merit scholarships",
+      "admission statistics",
+      "list of majors"
+    ]
+  },
+  "lastVerified": "2026-10-12",
+  "aliases": [
+    "UNC",
+    "UNC Chapel Hill",
+    "University of North Carolina",
+    "Carolina"
+  ]
+},
+
+{
+  "id": "university-of-denver",
+  "name": "University of Denver",
+  "shortName": "Denver",
+  "country": "us",
+  "city": "Denver",
+  "region": "Colorado",
+  "founded": null,
+  "type": "Private research university",
+  "institutionKind": "private",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#7a3b12",
+    "c2": "#3d1d09",
+    "initials": "D"
+  },
+  "description": "A private research university in Denver, Colorado. It is test-optional. The University of Denver states that it offers no need-based aid to international students; they are considered automatically for merit scholarships of $15,000 to $40,000 a year, and the university says very few of these cover the full cost.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "other"
+  ],
+  "englishTaughtPrograms": [
+    "other"
+  ],
+  "programNote": "The list of majors could not be read on this check, so no fields are listed.",
+  "links": {
+    "website": "https://www.du.edu/",
+    "admissions": "https://www.du.edu/admission-aid/undergraduate/international-applicants/first-year",
+    "internationalAdmissions": "https://www.du.edu/admission-aid/undergraduate/international-applicants",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://www.du.edu/admission-aid/undergraduate/international-applicants/tuition",
+    "financialAid": "https://www.du.edu/admission-aid/undergraduate/international-applicants/tuition",
+    "programs": null,
+    "cost": "https://www.du.edu/admission-aid/undergraduate/international-applicants/tuition"
+  },
+  "admissions": {
+    "platforms": [
+      "Common Application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Decision I and Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": null,
+        "appliesTo": "First-year international applicants",
+        "conditions": "Early Decision is binding; Early Action is not.",
+        "status": "confirmed",
+        "source": "https://www.du.edu/admission-aid/undergraduate/international-applicants/first-year",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Decision II and Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "binding": null,
+        "appliesTo": "First-year international applicants",
+        "conditions": "Early Decision II is binding; Regular Decision is not.",
+        "status": "confirmed",
+        "source": "https://www.du.edu/admission-aid/undergraduate/international-applicants/first-year",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 65,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": "Fee waiver form completed with a school official",
+      "note": "Non-refundable. A fee waiver can be requested with a form completed by a school official.",
+      "source": "https://www.du.edu/admission-aid/undergraduate/international-applicants/first-year",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Common Application with essay",
+      "Official high school transcripts",
+      "English proficiency test unless exempt"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "6.5 or higher with no band score below 5.5."
+    },
+    "toefl": {
+      "min": 80,
+      "recommended": null,
+      "note": "Minimum total of 80 with 18 in each section for exams before 21 January 2026, or a minimum total of 4 from that date.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 80,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 115,
+      "recommended": null,
+      "note": "115 or higher, with stated minimum subscores."
+    },
+    "waiver": "The page describes these as the scores needed to be competitive for admission and lists exemptions.",
+    "note": "Cambridge English exams are also accepted.",
+    "detailsSource": "https://www.du.edu/admission-aid/undergraduate/international-applicants/english-proficiency-requirements",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "The University of Denver is test-optional: submitting SAT or ACT scores is the applicant’s choice.",
+      "source": "https://www.du.edu/admission-aid/undergraduate/international-applicants/first-year",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "The University of Denver is test-optional: submitting SAT or ACT scores is the applicant’s choice.",
+      "source": "https://www.du.edu/admission-aid/undergraduate/international-applicants/first-year",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, fees, housing and food (billed), plus the university’s estimates for books, transportation, personal expenses and health insurance",
+      "tuition": 63720,
+      "billed": 88117,
+      "budget": 91526
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "International undergraduates, three quarters",
+    "source": "https://www.du.edu/admission-aid/undergraduate/international-applicants/tuition",
+    "verified": "2026-10-12",
+    "headline": "$91,526 total cost of attendance",
+    "items": [
+      {
+        "label": "Tuition (12–18 credit hours)",
+        "group": "billed",
+        "amount": 63720
+      },
+      {
+        "label": "Student fees",
+        "group": "billed",
+        "amount": 1584
+      },
+      {
+        "label": "Housing",
+        "group": "billed",
+        "amount": 11283
+      },
+      {
+        "label": "Food and meals",
+        "group": "billed",
+        "amount": 7532
+      },
+      {
+        "label": "Health insurance (can be waived with comparable cover)",
+        "group": "billed",
+        "amount": 3998
+      },
+      {
+        "label": "Books & supplies",
+        "group": "estimate",
+        "amount": 1000
+      },
+      {
+        "label": "Personal expenses",
+        "group": "estimate",
+        "amount": 1782
+      },
+      {
+        "label": "Transportation",
+        "group": "estimate",
+        "amount": 627
+      }
+    ],
+    "billedSubtotal": 88117,
+    "totalText": "$91,526 total cost of attendance, of which $88,117 is billed by the university",
+    "note": "The page prints an indirect-cost subtotal of $3,408; its three lines add up to $3,409, which matches the printed total of $91,526."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "The University of Denver offers no need-based aid to international students. Merit scholarships range from $15,000 to $40,000 a year against tuition of $63,720, and the university says very few of them cover the full cost."
+    },
+    "merit": [
+      {
+        "name": "University of Denver merit scholarships for international students",
+        "amount": "$15,000 to $40,000 a year",
+        "eligibility": "International applicants with strong academic profiles",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": "Most of these scholarships are renewable."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": false,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "The University of Denver states that it does not offer any need-based aid to international students."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Denver — first-year international applicants",
+      "url": "https://www.du.edu/admission-aid/undergraduate/international-applicants/first-year"
+    },
+    {
+      "label": "Denver — tuition and scholarships for international students 2026–2027",
+      "url": "https://www.du.edu/admission-aid/undergraduate/international-applicants/tuition"
+    },
+    {
+      "label": "Denver — English language proficiency",
+      "url": "https://www.du.edu/admission-aid/undergraduate/international-applicants/english-proficiency-requirements"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "application fee",
+      "English proficiency",
+      "test policy",
+      "cost of attendance for international students",
+      "aid for international students",
+      "merit scholarships"
+    ],
+    "unconfirmed": [
+      "founding year",
+      "admission statistics",
+      "list of majors"
+    ]
+  },
+  "lastVerified": "2026-10-12",
+  "aliases": [
+    "DU"
+  ]
+},
+
+{
+  "id": "university-of-maryland",
+  "name": "University of Maryland, College Park",
+  "shortName": "Maryland",
+  "country": "us",
+  "city": "College Park",
+  "region": "Maryland",
+  "founded": null,
+  "type": "Public research university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#0b4f6c",
+    "c2": "#062b3b",
+    "initials": "MP"
+  },
+  "description": "A public research university in College Park, Maryland. It is test-optional through the spring and autumn 2027 application cycles. International applicants submit Duolingo, IELTS or TOEFL scores less than two years old; the pages read give no minimum scores, costs or aid terms for them.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "other"
+  ],
+  "englishTaughtPrograms": [
+    "other"
+  ],
+  "programNote": "The list of majors could not be read on this check, so no fields are listed.",
+  "links": {
+    "website": "https://umd.edu/",
+    "admissions": "https://admissions.umd.edu/apply/freshman-applicants",
+    "internationalAdmissions": "https://admissions.umd.edu/apply/international-applicants",
+    "applicationPortal": null,
+    "scholarships": "https://admissions.umd.edu/tuition/freshman-merit-scholarships",
+    "financialAid": "https://admissions.umd.edu/tuition",
+    "programs": null,
+    "cost": "https://admissions.umd.edu/tuition"
+  },
+  "admissions": {
+    "platforms": [],
+    "deadlines": [
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Not binding. Decisions by 1 February. Applicants for the autumn are also considered automatically for the spring semester.",
+        "status": "confirmed",
+        "source": "https://admissions.umd.edu/apply/international-applicants",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 80,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": "Fee waiver submitted before the application",
+      "note": "Non-refundable, paid by credit card; a fee waiver must be submitted before the application.",
+      "source": "https://admissions.umd.edu/apply/international-applicants",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Completed application",
+      "Non-US academic credential evaluation, as the university requires",
+      "Duolingo, IELTS or TOEFL score sent by the testing agency"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": null,
+      "recommended": null,
+      "note": "Accepted; the page gives no minimum score."
+    },
+    "toefl": {
+      "min": null,
+      "recommended": null,
+      "note": "Accepted; the page gives no minimum score."
+    },
+    "duolingo": {
+      "min": null,
+      "recommended": null,
+      "note": "Accepted; the page gives no minimum score."
+    },
+    "waiver": "Scores must be less than two years old and sent directly by the testing agency; the application is not complete without them.",
+    "note": null,
+    "detailsSource": "https://admissions.umd.edu/apply/international-applicants",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "UMD is test-optional through the spring and autumn 2027 application cycles.",
+      "cycle": "Through the spring and autumn 2027 application cycles",
+      "source": "https://admissions.umd.edu/apply/international-applicants",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "UMD is test-optional through the spring and autumn 2027 application cycles.",
+      "cycle": "Through the spring and autumn 2027 application cycles",
+      "source": "https://admissions.umd.edu/apply/international-applicants",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": null,
+    "academicYear": null,
+    "currency": "USD",
+    "headline": null,
+    "items": [],
+    "billedSubtotal": null,
+    "totalText": null,
+    "note": null
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "The pages read give no scholarship amounts and no terms of aid for international students."
+    },
+    "merit": [],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Not stated for international students on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Maryland — international applicants",
+      "url": "https://admissions.umd.edu/apply/international-applicants"
+    },
+    {
+      "label": "Maryland — application deadlines",
+      "url": "https://admissions.umd.edu/apply/application-deadlines"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application fee",
+      "test policy",
+      "Early Action date"
+    ],
+    "unconfirmed": [
+      "Regular Decision deadline",
+      "minimum English test scores",
+      "tuition and fees",
+      "aid for international students",
+      "merit scholarships",
+      "founding year",
+      "admission statistics",
+      "list of majors"
+    ]
+  },
+  "lastVerified": "2026-10-12",
+  "aliases": [
+    "UMD",
+    "University of Maryland",
+    "Maryland"
+  ]
 }
 );

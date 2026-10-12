@@ -40,6 +40,7 @@ window.UNIPATH.awardDetails = {
    whose pages were never read stays "not checked". The reason is in each
    record's own scholarship note. */
 window.UNIPATH.awardNotDescribed = [
+  'stony-brook-university', 'temple-university', 'texas-a-and-m-university', 'university-of-arizona', 'university-of-iowa', 'university-of-denver', 'university-of-maryland',
   'southern-methodist-university',
   'agnes-scott-college', 'allegheny-college', 'bentley-university', 'iowa-state-university', 'lake-forest-college', 'muhlenberg-college', 'pitzer-college', 'santa-clara-university', 'seattle-university', 'spelman-college',
   'rensselaer-polytechnic-institute', 'scripps-college', 'st-johns-college', 'sweet-briar-college', 'villanova-university', 'washington-and-jefferson-college', 'westminster-college-pennsylvania',

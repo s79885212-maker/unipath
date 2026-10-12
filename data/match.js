@@ -35,6 +35,13 @@ window.UNIPATH.match = {
   annualCost: {
 
     /* United States expansion, October 2026 */
+    'st-lawrence-university': { currency: 'USD', basis: 'billed', min: 87965, max: 87965 },
+    'university-of-arizona': { currency: 'USD', basis: 'total', min: 67770, max: 67770, note: 'Non-resident estimate; the page does not name the academic year' },
+    'university-of-iowa': { currency: 'USD', basis: 'total', min: 53042, max: 53042, note: 'International students, Liberal Arts & Sciences; other colleges cost up to $56,916' },
+    'unc-chapel-hill': { currency: 'USD', basis: 'tuition', min: 49593, max: 49593 },
+    'university-of-denver': { currency: 'USD', basis: 'total', min: 91526, max: 91526 },
+
+    /* United States expansion, October 2026 */
     'agnes-scott-college': { currency: 'USD', basis: 'billed', min: 67935, max: 67935 },
     'allegheny-college': { currency: 'USD', basis: 'billed', min: 74664, max: 74664 },
     'bentley-university': { currency: 'USD', basis: 'total', min: 94270, max: 94270, note: 'First-year international students, with the required health insurance' },
