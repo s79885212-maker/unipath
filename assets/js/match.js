@@ -170,6 +170,17 @@
   function costOf(u) {
     var c = data().annualCost[u.id];
     if (!c) return null;
+    /* Two official sources, two totals: both travel with the record. */
+    var figures = U.costConflict(u);
+    if (figures) {
+      var both = {};
+      Object.keys(c).forEach(function (k) { both[k] = c[k]; });
+      both.basis = 'total';
+      both.conflict = figures;
+      both.min = figures[0].amount;
+      both.max = figures[figures.length - 1].amount;
+      return both;
+    }
     var ex = c.basis === 'total' && !c.label ? U.costExtras(u) : [];
     if (!ex.length) return c;
     var out = {};
@@ -183,9 +194,16 @@
   function budget(u, input) {
     var c = costOf(u);
     if (!c) return { status: 'unknown', text: 'No comparable yearly cost is recorded' };
-    if (input.budget === null) return { status: 'none', text: costText(c, c.currency) };
+    if (input.budget === null) return { status: 'none', text: costText(c, c.currency), html: c.conflict ? conflictHtml(c, c.currency) : null };
     var lo = convert(c.min, c.currency, input.currency), hi = convert(c.max, c.currency, input.currency);
     if (lo === null) return { status: 'unknown', text: 'No comparable yearly cost is recorded' };
+    /* Sources that disagree are not a range of programme prices: a budget
+       between the two figures is neither enough nor too little until the
+       university says which figure holds. */
+    if (c.conflict) {
+      return { status: hi <= input.budget ? 'fits' : lo > input.budget ? 'over' : 'conflict',
+        text: costText(c, input.currency), html: conflictHtml(c, input.currency) };
+    }
     /* A required cost the university leaves out of its published total is
        added before a budget is called sufficient. */
     var extra = typeof c.extras === 'number' ? convert(c.extras, c.currency, input.currency) : 0;
@@ -198,8 +216,29 @@
     return { status: status, text: costText(c, input.currency) };
   }
 
+  function shown(c, cur) {
+    return cur === c.currency ? function (x) { return U.money(Math.round(x), cur); } : function (x) { return money(x, cur); };
+  }
+  /* Both figures, each with its year and a link to its source. */
+  function conflictHtml(c, cur) {
+    var show = shown(c, cur);
+    return '<strong>Official sources differ — the budget needs checking.</strong> <span>Full cost a year, as each source gives it:</span>' +
+      '<ul class="conflict-figures">' + c.conflict.map(function (f) {
+        return '<li><strong>' + esc(show(convert(f.amount, c.currency, cur))) + '</strong> — ' +
+          '<a href="' + esc(f.url) + '" target="_blank" rel="noopener">' + esc(f.label + ' ↗') + '</a>' +
+          (has(f.year) ? ' · <span>Year in the source:</span> <span>' + esc(f.year) + '</span>' : '') +
+          (has(f.yearNote) ? ' <span class="muted">(<span>' + esc(f.yearNote) + '</span>)</span>' : '') + '</li>';
+      }).join('') + '</ul>' +
+      '<span>Neither figure is chosen here. Ask the university which one applies to your year before relying on it.</span>';
+  }
   function costText(c, cur) {
     if (c.label) return c.label;
+    if (c.conflict) {
+      var sh = shown(c, cur);
+      return 'Official sources differ — the budget needs checking: ' + c.conflict.map(function (f) {
+        return sh(convert(f.amount, c.currency, cur)) + ' (' + f.label + (f.year ? ', ' + f.year : '') + ')';
+      }).join(' and ');
+    }
     var lo = convert(c.min, c.currency, cur), hi = convert(c.max, c.currency, cur);
     /* A figure in its own currency is shown exactly; only a converted one is
        rounded, because the conversion is approximate. */
@@ -231,6 +270,7 @@
     'fits-tuition': '<span class="badge badge-warn">Tuition within budget — living costs not included</span>',
     'fits-no-extras': '<span class="badge badge-warn">Published total within budget — required extra costs are not</span>',
     'fits-billed': '<span class="badge badge-warn">University charges within budget — other costs not included</span>',
+    conflict: '<span class="badge badge-warn">Official sources differ — the budget needs checking</span>',
     maybe: '<span class="badge badge-warn">Depends on programme</span>',
     over: '<span class="badge">Above budget</span>',
     unknown: '<span class="badge">Cost not recorded</span>',
@@ -365,7 +405,7 @@
     }
 
     var rows = list.map(function (u) { return { u: u, r: evaluate(u, input) }; });
-    var budgetRank = { fits: 0, 'fits-no-extras': 1, 'fits-billed': 1, 'fits-tuition': 1, maybe: 2, none: 3, unknown: 4, over: 5 };
+    var budgetRank = { fits: 0, 'fits-no-extras': 1, 'fits-billed': 1, 'fits-tuition': 1, conflict: 2, maybe: 2, none: 3, unknown: 4, over: 5 };
     var entered = [], missing = [];
     (input.ielts !== null ? entered : missing).push('IELTS');
     (input.sat !== null ? entered : missing).push('SAT');
@@ -404,7 +444,9 @@
         '<div class="pill-row">' + BUDGET_BADGE[r.budget.status] +
           (fr.available === true && fr.internationalEligible === true ? '<span class="badge">★ <span>' + esc(U.awardLabel(u)) + '</span></span>' : '') + '</div></div>' +
       (checks ? '<ul class="match-checks">' + checks + '</ul>' : '') + unchecked +
-      '<p class="small muted" style="margin:8px 0 0">' + esc(r.budget.text) + '</p>' +
+      (r.budget.html
+        ? '<div class="small match-conflict" style="margin:8px 0 0">' + r.budget.html + '</div>'
+        : '<p class="small muted" style="margin:8px 0 0">' + esc(r.budget.text) + '</p>') +
       '</div></article>';
   }
 

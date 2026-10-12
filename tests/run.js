@@ -362,6 +362,18 @@ group('match');
   ok(!wrongBilled.length, 'a "billed" figure in the match table is the billed amount in the profile', wrongBilled.join(', '));
   var am = M.evaluate(U.uniById('amherst-college'), { ielts: null, sat: null, gpa: null, budget: 200000, currency: 'USD' }).budget;
   ok(am.status === 'fits-billed' && /Billed by the university a year/.test(am.text), 'a comprehensive fee inside the budget is not called the full cost', am.status + ' / ' + am.text);
+  /* Sources that disagree are never a "depends on programme" range. */
+  var kc = U.uniById('kenyon-college'), kin = function (b) { return M.evaluate(kc, { ielts: null, sat: null, gpa: null, budget: b, currency: 'USD' }).budget; };
+  var mid = kin(96000);
+  ok(mid.status === 'conflict', 'Kenyon: a budget between the two official totals is a source conflict, not "depends on programme"', mid.status);
+  ok(/\$95,890/.test(mid.html) && /\$96,940/.test(mid.html) && /2026–27/.test(mid.html) && /2025–26/.test(mid.html) &&
+     /factbook/.test(mid.html) && /tuition-costs/.test(mid.html), 'Kenyon: both sums, their years and both links are shown', mid.html);
+  ok(kin(95889).status === 'over' && kin(95890).status === 'conflict' && kin(96939).status === 'conflict' && kin(96940).status === 'fits', 'Kenyon: below both figures is over, at or above both is within, in between is a conflict');
+  var falseRange = DB.universities.filter(function (u) {
+    var c = M.costOf(u); if (!c || !c.conflict) return false;
+    return [c.min, (c.min + c.max) / 2, c.max - 1].some(function (b) { return M.evaluate(u, { ielts: null, sat: null, gpa: null, budget: b, currency: c.currency }).budget.status === 'maybe'; });
+  });
+  ok(!falseRange.length, 'no record with conflicting sources is shown as "depends on programme"', falseRange.map(function (u) { return u.id; }).join(', '));
   /* Budget: a required cost outside the published total is counted. */
   var b1 = M.evaluate(U.uniById('harvard-university'), { ielts: null, sat: null, gpa: null, budget: 101000, currency: 'USD' }).budget;
   var b2 = M.evaluate(U.uniById('harvard-university'), { ielts: null, sat: null, gpa: null, budget: 106000, currency: 'USD' }).budget;

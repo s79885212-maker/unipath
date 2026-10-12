@@ -2045,6 +2045,21 @@ html.is-gated body {
   opacity: 0.86;
   border-style: dashed;
 }
+.match-conflict {
+  padding: 10px 12px;
+  border: 1px solid var(--warn-line);
+  border-radius: var(--r-sm);
+  background: var(--warn-100);
+  color: var(--warn-700);
+}
+.match-conflict a {
+  color: inherit;
+  text-decoration: underline;
+}
+.conflict-figures {
+  margin: 6px 0;
+  padding-left: 18px;
+}
 .kind-date + .kind-date {
   margin-top: 10px;
 }

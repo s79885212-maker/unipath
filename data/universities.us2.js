@@ -5330,7 +5330,7 @@ window.UNIPATH.universities.push(
     currency: 'USD',
     studentCategory: 'All undergraduates (all live on campus)',
     source: 'https://www.kenyon.edu/admissions-aid/financial-aid-scholarships/tuition-costs/',
-    verified: '2026-10-11',
+    verified: '2026-10-12',
     headline: '$93,090 comprehensive fee',
     items: [
       { label: 'Tuition', amount: 72880, group: 'billed' },
@@ -5344,6 +5344,13 @@ window.UNIPATH.universities.push(
     totalText: '$93,090 comprehensive fee for 2026–27',
     conflict: {
       text: 'Kenyon’s two official pages give different full-cost totals. The Factbook row for 2026–27 lists books and supplies $1,900 and transportation/other $900, total $95,890. The Tuition & Costs page lists books/personal $1,900 and transportation/miscellaneous $1,950 with a total of $96,940 under a heading that still says 2025–26 and shows the 2025–26 direct cost of $89,600; that total equals the 2026–27 comprehensive fee plus the two estimates. Both are shown; neither is chosen.',
+      /* The same quantity as each official source gives it. The match page
+         shows both and never treats them as a range of programme prices. */
+      figures: [
+        { amount: 95890, year: '2026–27', yearNote: 'row for 2026–27', label: 'Kenyon Factbook — Student Fees', url: 'https://www.kenyon.edu/offices-and-services/office-of-institutional-research/factbook/' },
+        { amount: 96940, year: '2025–26', yearNote: 'printed under a 2025–26 heading; the sum equals the 2026–27 comprehensive fee plus the two estimates', label: 'Kenyon Tuition & Costs', url: 'https://www.kenyon.edu/admissions-aid/financial-aid-scholarships/tuition-costs/' }
+      ],
+      checked: '2026-10-12',
       sources: [
         { label: 'Kenyon Tuition & Costs', url: 'https://www.kenyon.edu/admissions-aid/financial-aid-scholarships/tuition-costs/' },
         { label: 'Kenyon Factbook — Student Fees', url: 'https://www.kenyon.edu/offices-and-services/office-of-institutional-research/factbook/' }

@@ -747,6 +747,13 @@
   function costExtras(u) {
     return ((u.costs && u.costs.extras) || []).filter(function (x) { return x && x.required && typeof x.amount === 'number'; });
   }
+  /* Official sources that give different figures for the same cost. Each
+     figure keeps its own year and link; nothing is averaged or chosen. */
+  function costConflict(u) {
+    var f = u.costs && u.costs.conflict && u.costs.conflict.figures;
+    if (!f || f.length < 2 || !f.every(function (x) { return typeof x.amount === 'number' && has(x.url); })) return null;
+    return f.slice().sort(function (a, b) { return a.amount - b.amount; });
+  }
   /* The published full budget as numbers, where it is one: { min, max }. */
   function budgetRange(u) {
     var b = costBreak(u);
@@ -1592,7 +1599,7 @@
   global.UP = { initMotion: initMotion, routeEnter: routeEnter, fieldCheck: fieldCheck, degreeValue: degreeValue, FIELD_NOTE_KIND: FIELD_NOTE_KIND,
     DB: DB, esc: esc, has: has, or: or, orRaw: orRaw, qs: qs, money: money, el: el, UNKNOWN: UNKNOWN,
     STATUS: STATUS, statusLabel: statusLabel, statusHtml: statusHtml, feeStatus: feeStatus, costStatus: costStatus, cardTuition: cardTuition, cardCost: cardCost, tuitionLabel: tuitionLabel,
-    costExtras: costExtras, budgetRange: budgetRange, budgetWithExtras: budgetWithExtras, costArithmetic: costArithmetic, costItemsMismatch: costItemsMismatch,
+    costExtras: costExtras, budgetRange: budgetRange, budgetWithExtras: budgetWithExtras, costArithmetic: costArithmetic, costItemsMismatch: costItemsMismatch, costConflict: costConflict,
     DISCLAIMER: DISCLAIMER,
     country: country, field: field, uniById: uniById, unisByCountry: unisByCountry,
     displayName: displayName, uniUrl: uniUrl,

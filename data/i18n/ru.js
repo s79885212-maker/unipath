@@ -11160,4 +11160,11 @@ window.UNIPATH_I18N.ru = {
   "Nationals of EU countries applying with a foreign certificate, courses with free admission (no NC)": "Граждане стран ЕС, подающие с иностранным аттестатом, программы со свободным приёмом (без NC)",
   "Applications with a foreign university entrance certificate go through uni-assist. An earlier reading of the university’s pages recorded that first-year entry is in the winter semester only, so check with the university whether your programme admits beginners in the summer semester.": "Заявки с иностранным документом о праве на поступление подаются через uni-assist. При прежнем чтении страниц вуза было записано, что на первый курс принимают только в зимнем семестре, — уточните в вузе, набирает ли ваша программа начинающих в летнем семестре.",
   "Applications with a foreign university entrance certificate go through uni-assist.": "Заявки с иностранным документом о праве на поступление подаются через uni-assist.",
+  "Official sources differ — the budget needs checking": "Официальные источники расходятся — бюджет требует уточнения",
+  "Official sources differ — the budget needs checking.": "Официальные источники расходятся — бюджет требует уточнения.",
+  "Full cost a year, as each source gives it:": "Полная стоимость за год — как её даёт каждый источник:",
+  "Year in the source:": "Год в источнике:",
+  "row for 2026–27": "строка за 2026–27",
+  "printed under a 2025–26 heading; the sum equals the 2026–27 comprehensive fee plus the two estimates": "напечатано под заголовком 2025–26; сумма равна комплексному сбору 2026–27 плюс две оценки",
+  "Neither figure is chosen here. Ask the university which one applies to your year before relying on it.": "Ни одна из сумм здесь не выбрана. Прежде чем на неё опираться, уточните в университете, какая относится к вашему году.",
 };
