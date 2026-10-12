@@ -19928,5 +19928,2212 @@ window.UNIPATH.universities.push(
     "University of Maryland",
     "Maryland"
   ]
+},
+
+{
+  "id": "university-of-san-diego",
+  "name": "University of San Diego",
+  "shortName": "USD",
+  "country": "us",
+  "city": "San Diego",
+  "region": "California",
+  "founded": null,
+  "type": "Private university",
+  "institutionKind": "private",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#1f4d3a",
+    "c2": "#0f2a1f",
+    "initials": "SD"
+  },
+  "description": "A private Catholic university in San Diego, California — not the public University of California, San Diego. It is test-free through Fall 2027: standardized tests are not viewed in admission. The pages read give exact dates for Fall 2027 and the 2026–27 charges, but no English minimums or aid terms for international students.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "other"
+  ],
+  "englishTaughtPrograms": [
+    "other"
+  ],
+  "programNote": "The list of majors could not be read on this check, so no fields are listed.",
+  "links": {
+    "website": "https://www.sandiego.edu/",
+    "admissions": "https://www.sandiego.edu/admission-and-aid/undergraduate/apply/",
+    "internationalAdmissions": null,
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": null,
+    "financialAid": "https://www.sandiego.edu/admission-and-aid/undergraduate/tuition-and-financial-aid/",
+    "programs": null,
+    "cost": "https://www.sandiego.edu/torero-hub/tuition-and-fees/undergraduate.php"
+  },
+  "admissions": {
+    "platforms": [],
+    "deadlines": [
+      {
+        "name": "Early Action and Early Decision I",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": null,
+        "appliesTo": "First-year applicants",
+        "conditions": "Early Action is not binding and leaves the decision until 1 May; Early Decision I is binding.",
+        "status": "confirmed",
+        "source": "https://www.sandiego.edu/admission-and-aid/undergraduate/apply/",
+        "verified": "2026-10-12",
+        "note": null
+      },
+      {
+        "name": "Early Decision II",
+        "kind": "ED2",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-05",
+        "date": "5 January 2027",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding.",
+        "status": "confirmed",
+        "source": "https://www.sandiego.edu/admission-and-aid/undergraduate/apply/",
+        "verified": "2026-10-12",
+        "note": null
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.sandiego.edu/admission-and-aid/undergraduate/apply/",
+        "verified": "2026-10-12",
+        "note": null
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null
+    },
+    "documents": [],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": null,
+    "toefl": null,
+    "duolingo": null,
+    "waiver": null,
+    "note": null
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "not-used",
+      "note": "USD is a test-free campus: it pledges not to view an applicant’s standardized tests during admission, and has extended the policy through Fall 2027.",
+      "cycle": "Through Fall 2027",
+      "source": "https://www.sandiego.edu/admission-and-aid/undergraduate/apply/test-free.php",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "not-used",
+      "note": "USD is a test-free campus: it pledges not to view an applicant’s standardized tests during admission, and has extended the policy through Fall 2027.",
+      "cycle": "Through Fall 2027",
+      "source": "https://www.sandiego.edu/admission-and-aid/undergraduate/apply/test-free.php",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, fees, health insurance, housing and the meal plan. Books, travel and personal costs are extra",
+      "tuition": 64100,
+      "billed": 88557
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "Undergraduates living on campus with a meal plan",
+    "source": "https://www.sandiego.edu/torero-hub/tuition-and-fees/undergraduate.php",
+    "verified": "2026-10-12",
+    "headline": "$88,557 in tuition, fees, health insurance, housing and the meal plan",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 64100
+      },
+      {
+        "label": "Fees",
+        "group": "billed",
+        "amount": 1099
+      },
+      {
+        "label": "Health insurance",
+        "group": "billed",
+        "amount": 4158
+      },
+      {
+        "label": "Housing",
+        "group": "billed",
+        "amount": 13450
+      },
+      {
+        "label": "Meal plan",
+        "group": "billed",
+        "amount": 5750
+      }
+    ],
+    "billedSubtotal": 88557,
+    "totalText": "The five listed lines add up to $88,557 a year; the page prints a total of $88,397",
+    "note": "The printed total is $160 lower than the sum of the lines above it; the page says the information is accurate as of July 2026 and that all fees are subject to change."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "The pages read give no scholarship amounts and no terms of aid for international students."
+    },
+    "merit": [],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Not stated for international students on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "USD — undergraduate application dates",
+      "url": "https://www.sandiego.edu/admission-and-aid/undergraduate/apply/"
+    },
+    {
+      "label": "USD — tuition and fees 2026–27",
+      "url": "https://www.sandiego.edu/torero-hub/tuition-and-fees/undergraduate.php"
+    },
+    {
+      "label": "USD — test-free policy",
+      "url": "https://www.sandiego.edu/admission-and-aid/undergraduate/apply/test-free.php"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "test policy",
+      "published costs"
+    ],
+    "unconfirmed": [
+      "application fee",
+      "English proficiency",
+      "aid for international students",
+      "merit scholarships",
+      "founding year",
+      "admission statistics",
+      "list of majors"
+    ]
+  },
+  "lastVerified": "2026-10-12",
+  "aliases": [
+    "USD",
+    "San Diego"
+  ]
+},
+
+{
+  "id": "university-of-washington",
+  "name": "University of Washington",
+  "shortName": "UW",
+  "country": "us",
+  "city": "Seattle",
+  "region": "Washington",
+  "founded": 1861,
+  "type": "Public research university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#1f4d3a",
+    "c2": "#0f2a1f",
+    "initials": "W"
+  },
+  "description": "A public research university in Seattle, Washington, founded in 1861. The UW states that it does not provide financial aid or scholarships to undergraduate international students. The first-year application for the autumn quarter is due on 15 November, with notification in the first half of March.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "computer-science",
+    "engineering",
+    "arts",
+    "law",
+    "medicine",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "computer-science",
+    "engineering",
+    "arts",
+    "law",
+    "medicine",
+    "education"
+  ],
+  "programNote": "Only the fields named on the academics page read are listed.",
+  "links": {
+    "website": "https://www.washington.edu/",
+    "admissions": "https://admit.washington.edu/apply/first-year/",
+    "internationalAdmissions": null,
+    "applicationPortal": null,
+    "scholarships": "https://admit.washington.edu/costs/scholarships/",
+    "financialAid": "https://admit.washington.edu/costs/scholarships/",
+    "programs": "https://www.washington.edu/about/academics/",
+    "cost": "https://admit.washington.edu/costs/coa/"
+  },
+  "admissions": {
+    "platforms": [],
+    "deadlines": [
+      {
+        "name": "First-year application deadline — autumn quarter",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-15",
+        "date": "15 November 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "For the autumn quarter, which begins in late September; notification between 1 and 15 March.",
+        "status": "confirmed",
+        "source": "https://admit.washington.edu/apply/first-year/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null
+    },
+    "documents": [],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": null,
+    "toefl": null,
+    "duolingo": null,
+    "waiver": null,
+    "note": null
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "non-resident tuition, plus the university’s estimates for housing and food, books, personal expenses and transportation",
+      "tuition": 44460,
+      "billed": 44460,
+      "budget": 67800
+    },
+    "academicYear": null,
+    "currency": "USD",
+    "studentCategory": "Non-resident undergraduates living on or off campus",
+    "source": "https://admit.washington.edu/costs/coa/",
+    "verified": "2026-10-12",
+    "headline": "$67,800 total cost of attendance",
+    "items": [
+      {
+        "label": "Non-resident tuition",
+        "group": "billed",
+        "amount": 44460
+      },
+      {
+        "label": "Housing & food",
+        "group": "estimate",
+        "amount": 18858
+      },
+      {
+        "label": "Books & course supplies",
+        "group": "estimate",
+        "amount": 900
+      },
+      {
+        "label": "Personal and miscellaneous",
+        "group": "estimate",
+        "amount": 2508
+      },
+      {
+        "label": "Transportation",
+        "group": "estimate",
+        "amount": 1074
+      }
+    ],
+    "billedSubtotal": 44460,
+    "totalText": "$67,800 non-resident total costs, of which $44,460 is tuition",
+    "note": "The academic year of the table was not read on the page. Health insurance is not listed."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": false,
+      "internationalEligible": false,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "The UW states that it does not provide financial aid or scholarships to undergraduate international students.",
+      "quote": "The UW does not provide financial aid or scholarships to undergraduate international students",
+      "quoteSource": "https://admit.washington.edu/costs/scholarships/"
+    },
+    "merit": [],
+    "needBased": {
+      "availableToInternational": false,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "No financial aid or scholarships for undergraduate international students."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "UW — first-year application",
+      "url": "https://admit.washington.edu/apply/first-year/"
+    },
+    {
+      "label": "UW — cost of attendance",
+      "url": "https://admit.washington.edu/costs/coa/"
+    },
+    {
+      "label": "UW — scholarships",
+      "url": "https://admit.washington.edu/costs/scholarships/"
+    },
+    {
+      "label": "UW — home page",
+      "url": "https://www.washington.edu/"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "aid for international students",
+      "autumn application deadline",
+      "non-resident cost estimate",
+      "founding year"
+    ],
+    "unconfirmed": [
+      "application fee",
+      "English proficiency",
+      "test policy",
+      "academic year of the cost figures",
+      "admission statistics",
+      "list of majors"
+    ]
+  },
+  "lastVerified": "2026-10-12",
+  "aliases": [
+    "UW",
+    "UDub",
+    "University of Washington Seattle"
+  ]
+},
+
+{
+  "id": "ursinus-college",
+  "name": "Ursinus College",
+  "shortName": "Ursinus",
+  "country": "us",
+  "city": "Collegeville",
+  "region": "Pennsylvania",
+  "founded": null,
+  "type": "Private liberal arts college",
+  "institutionKind": "liberal-arts",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#5a1f2e",
+    "c2": "#2e0f17",
+    "initials": "U"
+  },
+  "description": "A private liberal arts college in Collegeville, Pennsylvania, 25 miles from Philadelphia. All qualified admitted international students are eligible for merit awards, and those who want need-based aid complete the college’s International Student Financial Statement. Ursinus says admitted first-year students receive at least $35,000 a year in merit awards.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts"
+  ],
+  "programNote": null,
+  "links": {
+    "website": "https://www.ursinus.edu/",
+    "admissions": "https://www.ursinus.edu/admission/applying/international-applicants/",
+    "internationalAdmissions": "https://www.ursinus.edu/admission/applying/international-applicants/",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://www.ursinus.edu/admission/scholarships-aid/",
+    "financialAid": "https://www.ursinus.edu/admission/applying/international-applicants/costs-and-scholarships/",
+    "programs": "https://www.ursinus.edu/academics/majors-and-minors/",
+    "cost": "https://www.ursinus.edu/offices/student-accounts/tuition-and-cost/"
+  },
+  "admissions": {
+    "platforms": [
+      "Common Application",
+      "Ursinus application"
+    ],
+    "deadlines": [],
+    "applicationFee": {
+      "amount": null,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null
+    },
+    "documents": [
+      "Common Application or Ursinus Application",
+      "Official high school transcripts",
+      "Official English test score, if the native language or language of instruction is not English",
+      "Ursinus College International Student Financial Statement"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "At least 6.5."
+    },
+    "toefl": {
+      "min": 80,
+      "recommended": null,
+      "note": "At least 80. The page gives the score on the 0–120 scale only; no figure for the 1–6 scale used since 21 January 2026 was found.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 80,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 105,
+      "recommended": null,
+      "note": "At least 105."
+    },
+    "waiver": "Required if the native language or the language of instruction is not English; score reports must be official.",
+    "note": null,
+    "detailsSource": "https://www.ursinus.edu/admission/applying/international-applicants/",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, fees, housing and food. Books, transportation and personal expenses are extra",
+      "tuition": 61500,
+      "billed": 80178
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "Full-time residential students",
+    "source": "https://www.ursinus.edu/offices/student-accounts/tuition-and-cost/",
+    "verified": "2026-10-12",
+    "headline": "$80,178 in tuition, fees, housing and food",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 61500
+      },
+      {
+        "label": "Comprehensive fee",
+        "group": "billed",
+        "amount": 750
+      },
+      {
+        "label": "Housing",
+        "group": "billed",
+        "amount": 10404
+      },
+      {
+        "label": "Food",
+        "group": "billed",
+        "amount": 7524
+      }
+    ],
+    "billedSubtotal": 80178,
+    "totalText": "$80,178 total direct costs for 2026–2027, as printed",
+    "note": "The page for international applicants still gives the 2025–2026 figure of $79,562."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "Ursinus says admitted first-year students receive at least $35,000 a year in merit awards, with top scholarships covering full tuition, and that qualified international students are eligible for merit awards and most specialty scholarships. It does not say that the full-tuition scholarships are among those open to international students."
+    },
+    "merit": [
+      {
+        "name": "Ursinus merit awards",
+        "amount": "At least $35,000 a year for admitted first-year students, as the scholarships page states",
+        "eligibility": "All qualified, admitted international students",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": "Eligibility for each specialty scholarship is set separately."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": true,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [
+        "Ursinus College International Student Financial Statement"
+      ],
+      "deadlines": null,
+      "note": "Needed to be considered for institutional need-based aid; supporting financial documents are required for the Form I-20."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Ursinus — international applicants",
+      "url": "https://www.ursinus.edu/admission/applying/international-applicants/"
+    },
+    {
+      "label": "Ursinus — costs and financial aid for international applicants",
+      "url": "https://www.ursinus.edu/admission/applying/international-applicants/costs-and-scholarships/"
+    },
+    {
+      "label": "Ursinus — tuition and fees 2026–2027",
+      "url": "https://www.ursinus.edu/offices/student-accounts/tuition-and-cost/"
+    },
+    {
+      "label": "Ursinus — scholarships",
+      "url": "https://www.ursinus.edu/admission/scholarships-aid/"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "English proficiency",
+      "published costs",
+      "aid for international students",
+      "merit scholarships"
+    ],
+    "unconfirmed": [
+      "application rounds",
+      "application fee",
+      "test policy",
+      "eligibility of international students for the full-tuition scholarships",
+      "founding year",
+      "admission statistics"
+    ]
+  },
+  "lastVerified": "2026-10-12"
+},
+
+{
+  "id": "willamette-university",
+  "name": "Willamette University",
+  "shortName": "Willamette",
+  "country": "us",
+  "city": "Salem",
+  "region": "Oregon",
+  "founded": null,
+  "type": "Private liberal arts college",
+  "institutionKind": "liberal-arts",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#0b4f6c",
+    "c2": "#062b3b",
+    "initials": "W"
+  },
+  "description": "A private liberal arts university in Salem, Oregon. There is no application fee and tests are optional. Every degree-seeking international student who applies is considered automatically for the International Student Grant of $52,000 a year, renewed at the same amount for four years; Willamette caps its own grants and scholarships at $52,000 a year.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "computer-science",
+    "arts",
+    "law"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "computer-science",
+    "arts",
+    "law"
+  ],
+  "programNote": "Only the fields named on the programmes page read are listed. The record covers the College of Arts & Sciences in Salem, not the Pacific Northwest College of Art in Portland.",
+  "links": {
+    "website": "https://www.willamette.edu/",
+    "admissions": "https://www.willamette.edu/admissions/apply/undergrad/index.html",
+    "internationalAdmissions": "https://www.willamette.edu/admissions/international/college.html",
+    "applicationPortal": "https://www.willamette.edu/admissions/apply/undergrad/index.html",
+    "scholarships": "https://www.willamette.edu/cost-aid/financial-aid/undergrad/international-scholarships.html",
+    "financialAid": "https://www.willamette.edu/cost-aid/financial-aid/undergrad/international-scholarships.html",
+    "programs": "https://www.willamette.edu/academics/all-programs.html",
+    "cost": "https://www.willamette.edu/cost-aid/tuition.html"
+  },
+  "admissions": {
+    "platforms": [],
+    "deadlines": [
+      {
+        "name": "International application deadline — autumn semester",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-03-01",
+        "date": "1 March 2027",
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": "Application and all supporting materials for an autumn start; decision by 1 April; enrolment deposit and Financial Guarantee Statement by 1 May.",
+        "status": "confirmed",
+        "source": "https://www.willamette.edu/admissions/international/college.html",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year. Willamette’s overview page for international admission gives 1 February and a decision by 1 March for the same intake."
+      }
+    ],
+    "applicationFee": {
+      "amount": 0,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "There is no application fee.",
+      "source": "https://www.willamette.edu/admissions/apply/undergrad/index.html",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Completed application",
+      "Official high school transcripts",
+      "English proficiency test unless exempt",
+      "Copy of the passport photo page",
+      "Financial Guarantee Statement, after admission"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "At least 6.5."
+    },
+    "toefl": {
+      "min": 83,
+      "recommended": null,
+      "note": "At least 83 on the internet-based test. The page gives the score on the 0–120 scale only; no figure for the 1–6 scale used since 21 January 2026 was found.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 83,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 105,
+      "recommended": null,
+      "note": "At least 105."
+    },
+    "waiver": null,
+    "note": "PTE is also accepted (60), as is completion of Level 5 at the Pacific International Academy.",
+    "detailsSource": "https://www.willamette.edu/admissions/international/college.html",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "Willamette says standardized test scores are optional.",
+      "source": "https://www.willamette.edu/admissions/apply/undergrad/index.html",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "Willamette says standardized test scores are optional.",
+      "source": "https://www.willamette.edu/admissions/apply/undergrad/index.html",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, fees, housing and food. Books, transportation and personal expenses are extra",
+      "tuition": 56640,
+      "billed": 74812
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "Undergraduates living on campus (standard double room, 14-meal plan)",
+    "source": "https://www.willamette.edu/cost-aid/tuition.html",
+    "verified": "2026-10-12",
+    "headline": "$74,812 in tuition, fees, housing and food",
+    "items": [
+      {
+        "label": "Tuition, two semesters at $28,320",
+        "group": "billed",
+        "amount": 56640
+      },
+      {
+        "label": "Meals (14-meal plan)",
+        "group": "billed",
+        "amount": 8540
+      },
+      {
+        "label": "Housing (standard double room)",
+        "group": "billed",
+        "amount": 9190
+      },
+      {
+        "label": "Residence hall fee",
+        "group": "billed",
+        "amount": 150
+      },
+      {
+        "label": "Student activity fee — the remainder of the printed total",
+        "group": "billed",
+        "amount": 292
+      },
+      {
+        "label": "Health insurance",
+        "group": "estimate",
+        "amount": 4818
+      },
+      {
+        "label": "Books and supplies",
+        "group": "estimate",
+        "amount": 644
+      }
+    ],
+    "billedSubtotal": 74812,
+    "totalText": "$74,812 annual cost for two semesters, as printed; health insurance ($4,818) and books ($644) are listed as indirect costs",
+    "note": "With the $52,000 International Student Grant the billed amount left to pay is $22,812 a year (calculated by UniPath); the grant does not rise when tuition, fees, room or board rise."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "The International Student Grant is $52,000 a year against tuition of $56,640, and international students can receive no more than $52,000 a year in Willamette grants, scholarships and awards."
+    },
+    "merit": [
+      {
+        "name": "International Student Grant",
+        "amount": "$52,000 a year",
+        "eligibility": "Degree-seeking international students, on the quality of the admission application",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": true,
+        "note": "Awarded at admission and renewed automatically for four years (eight semesters) at the same amount, with a cumulative GPA of at least 2.0 and full-time enrolment."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": false,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Willamette’s own funding for an international student is capped at $52,000 a year."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Willamette — international admission, College of Arts & Sciences",
+      "url": "https://www.willamette.edu/admissions/international/college.html"
+    },
+    {
+      "label": "Willamette — scholarships for international students",
+      "url": "https://www.willamette.edu/cost-aid/financial-aid/undergrad/international-scholarships.html"
+    },
+    {
+      "label": "Willamette — tuition and fees 2026–27",
+      "url": "https://www.willamette.edu/cost-aid/tuition.html"
+    },
+    {
+      "label": "Willamette — how to apply",
+      "url": "https://www.willamette.edu/admissions/apply/undergrad/index.html"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application fee",
+      "English proficiency",
+      "test policy",
+      "published costs",
+      "merit scholarships"
+    ],
+    "unconfirmed": [
+      "which of the two printed autumn deadlines applies (1 February or 1 March)",
+      "health insurance terms",
+      "founding year",
+      "admission statistics",
+      "list of majors"
+    ]
+  },
+  "lastVerified": "2026-10-12"
+},
+
+{
+  "id": "wofford-college",
+  "name": "Wofford College",
+  "shortName": "Wofford",
+  "country": "us",
+  "city": "Spartanburg",
+  "region": "South Carolina",
+  "founded": null,
+  "type": "Private liberal arts college",
+  "institutionKind": "liberal-arts",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#7a3b12",
+    "c2": "#3d1d09",
+    "initials": "W"
+  },
+  "description": "A private liberal arts college in Spartanburg, South Carolina. The application fee is waived automatically for international applicants, and all applicants are considered for merit scholarships of $15,000 to $30,000 through the Common Application.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts"
+  ],
+  "programNote": null,
+  "links": {
+    "website": "https://www.wofford.edu/",
+    "admissions": "https://www.wofford.edu/admission/apply/international-applicants",
+    "internationalAdmissions": "https://www.wofford.edu/admission/apply/international-applicants",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://www.wofford.edu/admission/scholarships",
+    "financialAid": "https://www.wofford.edu/admission/financial-aid",
+    "programs": "https://www.wofford.edu/academics/majors-and-programs",
+    "cost": "https://www.wofford.edu/administration/business-office/billing-tuition-and-fees"
+  },
+  "admissions": {
+    "platforms": [
+      "Common Application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Decision",
+        "kind": "ED",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": true,
+        "appliesTo": "International applicants",
+        "conditions": "Binding. Admission and merit scholarship notification on 1 December.",
+        "status": "confirmed",
+        "source": "https://www.wofford.edu/admission/apply/international-applicants",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-15",
+        "date": "15 November 2026",
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": "Not binding. Admission and merit scholarship notification on 1 February; financial aid package on 15 February.",
+        "status": "confirmed",
+        "source": "https://www.wofford.edu/admission/apply/international-applicants",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": "Admission and merit scholarship notification on 1 March. Scholarship submissions are not taken after the deadlines.",
+        "status": "confirmed",
+        "source": "https://www.wofford.edu/admission/apply/international-applicants",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 0,
+      "currency": "USD",
+      "waiverAvailableToInternational": true,
+      "waiver": null,
+      "note": "The application fee for international applicants is waived automatically; Wofford says its application is always free.",
+      "source": "https://www.wofford.edu/admission/apply/international-applicants",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Common Application with the Wofford member page",
+      "School Report form",
+      "Official test scores: SAT or ACT for applicants from English-speaking countries, an English test for others"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": "If the minimum English score is not met, a recorded or scored interview may be taken into consideration.",
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 7,
+      "recommended": null,
+      "note": "At least 7."
+    },
+    "toefl": {
+      "min": 90,
+      "recommended": null,
+      "note": "At least 90. The page gives the score on the 0–120 scale only; no figure for the 1–6 scale used since 21 January 2026 was found.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 90,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 115,
+      "recommended": null,
+      "note": "At least 115."
+    },
+    "waiver": "Required of all applicants whose native language is not English.",
+    "note": null,
+    "detailsSource": "https://www.wofford.edu/admission/apply/international-applicants",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "required-alternatives",
+      "note": "Applicants from English-speaking countries are required to submit SAT or ACT scores; applicants from non-English-speaking countries submit the TOEFL, IELTS or Duolingo English Test instead.",
+      "source": "https://www.wofford.edu/admission/apply/international-applicants",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "required-alternatives",
+      "note": "Applicants from English-speaking countries are required to submit SAT or ACT scores; applicants from non-English-speaking countries submit the TOEFL, IELTS or Duolingo English Test instead.",
+      "source": "https://www.wofford.edu/admission/apply/international-applicants",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, fees, housing and food. Books, transportation and personal expenses are extra",
+      "tuition": 60580,
+      "tuitionLabel": "Tuition and fees",
+      "billed": 78125
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "Students living on campus",
+    "source": "https://www.wofford.edu/administration/business-office/billing-tuition-and-fees",
+    "verified": "2026-10-12",
+    "headline": "$78,125 in tuition, fees, housing and food",
+    "items": [
+      {
+        "label": "Tuition and fees, two semesters at $30,290",
+        "group": "billed",
+        "amount": 60580
+      },
+      {
+        "label": "Meals and housing, two semesters at $8,772.50",
+        "group": "billed",
+        "amount": 17545
+      }
+    ],
+    "billedSubtotal": 78125,
+    "totalText": "$78,125 for the academic year 2026–2027 for students living on campus, as printed",
+    "note": null
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "Wofford’s merit-based scholarships for international applicants range from $15,000 to $30,000, against tuition and fees of $60,580."
+    },
+    "merit": [
+      {
+        "name": "Wofford merit-based scholarships",
+        "amount": "$15,000 to $30,000 a year",
+        "eligibility": "All applicants who apply through the Common Application",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": null
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "The page for international applicants gives dates when a financial aid package is available but does not describe need-based aid for them."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Wofford — international applicants",
+      "url": "https://www.wofford.edu/admission/apply/international-applicants"
+    },
+    {
+      "label": "Wofford — billing, tuition and fees 2026–2027",
+      "url": "https://www.wofford.edu/administration/business-office/billing-tuition-and-fees"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "application fee",
+      "English proficiency",
+      "test policy",
+      "published costs",
+      "merit scholarships"
+    ],
+    "unconfirmed": [
+      "aid for international students",
+      "health insurance terms",
+      "founding year",
+      "admission statistics"
+    ]
+  },
+  "lastVerified": "2026-10-12"
+},
+
+{
+  "id": "xavier-university",
+  "name": "Xavier University",
+  "shortName": "Xavier",
+  "country": "us",
+  "city": "Cincinnati",
+  "region": "Ohio",
+  "founded": null,
+  "type": "Private university",
+  "institutionKind": "private",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#3d3d5c",
+    "c2": "#1f1f2e",
+    "initials": "X"
+  },
+  "description": "A private Jesuit university in Cincinnati, Ohio — a different institution from Xavier University of Louisiana. Each admitted international student is considered for a merit-based scholarship of $23,000 to $30,000 a year, renewable for four years; the estimated cost for one academic year is $74,530.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "mathematics",
+    "social-sciences",
+    "humanities"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "mathematics",
+    "social-sciences",
+    "humanities"
+  ],
+  "programNote": "Only the fields named on the pages read are listed; Xavier’s full list of majors was not read.",
+  "links": {
+    "website": "https://www.xavier.edu/",
+    "admissions": "https://www.xavier.edu/international-admission/applications-and-requirements/index",
+    "internationalAdmissions": "https://www.xavier.edu/international-admission/index",
+    "applicationPortal": null,
+    "scholarships": "https://www.xavier.edu/international-admission/scholarships/index",
+    "financialAid": "https://www.xavier.edu/international-admission/scholarships/index",
+    "programs": null,
+    "cost": "https://www.xavier.edu/international-admission/tuition"
+  },
+  "admissions": {
+    "platforms": [],
+    "deadlines": [],
+    "applicationFee": {
+      "amount": null,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null
+    },
+    "documents": [],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": null,
+    "toefl": null,
+    "duolingo": null,
+    "waiver": null,
+    "note": null
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, accommodation, health insurance and other expenses, as estimated for international students",
+      "tuition": 54530,
+      "billed": 54530,
+      "budget": 74530
+    },
+    "academicYear": null,
+    "currency": "USD",
+    "studentCategory": "International undergraduates, one academic year",
+    "source": "https://www.xavier.edu/international-admission/tuition",
+    "verified": "2026-10-12",
+    "headline": "$74,530 total cost of attendance",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 54530
+      },
+      {
+        "label": "Accommodations",
+        "group": "estimate",
+        "amount": 15000
+      },
+      {
+        "label": "Health insurance and other expenses",
+        "group": "estimate",
+        "amount": 5000
+      }
+    ],
+    "billedSubtotal": 54530,
+    "totalText": "$74,530 total estimated cost of attendance for one academic year, of which $54,530 is the first line of the estimate",
+    "note": "The page calls this an estimate and does not name the academic year; the label of the first line was not fully read and is taken to be tuition."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "Xavier’s merit-based scholarship for admitted international students ranges from $23,000 to $30,000 a year, against an estimated $74,530 for the year."
+    },
+    "merit": [
+      {
+        "name": "Xavier merit-based scholarship",
+        "amount": "$23,000 to $30,000 a year",
+        "eligibility": "Each admitted international student",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": true,
+        "note": "Renewable for all four years of undergraduate study; based on academic performance and a holistic review."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Not stated for international students on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Xavier — tuition for international students",
+      "url": "https://www.xavier.edu/international-admission/tuition"
+    },
+    {
+      "label": "Xavier — scholarships for international students",
+      "url": "https://www.xavier.edu/international-admission/scholarships/index"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "merit scholarships",
+      "estimated cost for international students"
+    ],
+    "unconfirmed": [
+      "application rounds",
+      "application fee",
+      "English proficiency",
+      "test policy",
+      "academic year of the cost estimate",
+      "founding year",
+      "admission statistics",
+      "list of majors"
+    ]
+  },
+  "lastVerified": "2026-10-12",
+  "aliases": [
+    "Xavier University Cincinnati",
+    "Xavier Ohio"
+  ]
+},
+
+{
+  "id": "xavier-university-of-louisiana",
+  "name": "Xavier University of Louisiana",
+  "shortName": "XULA",
+  "country": "us",
+  "city": "New Orleans",
+  "region": "Louisiana",
+  "founded": null,
+  "type": "Private historically Black Catholic university",
+  "institutionKind": "private",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#1f4d3a",
+    "c2": "#0f2a1f",
+    "initials": "XL"
+  },
+  "description": "A private historically Black Catholic university in New Orleans, Louisiana — a different institution from Xavier University in Ohio. Applying is free. Applicants are encouraged to apply by 1 December, the preferred scholarship deadline, and are reviewed automatically for institutional merit awards.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "biology",
+    "medicine",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "biology",
+    "medicine",
+    "education"
+  ],
+  "programNote": "Only the fields named on the programmes page read are listed.",
+  "links": {
+    "website": "https://www.xula.edu/",
+    "admissions": "https://www.xula.edu/admissions/undergraduate-admission/firsttimefreshmen/index.html",
+    "internationalAdmissions": "https://www.xula.edu/international-ed/applying-undergrad-students.html",
+    "applicationPortal": "https://www.xula.edu/apply/index.html",
+    "scholarships": "https://www.xula.edu/financialaid/scholarships/index.html",
+    "financialAid": "https://www.xula.edu/international-ed/scholarship-and-funding-options.html",
+    "programs": "https://www.xula.edu/academics/collegeprogram.html",
+    "cost": null
+  },
+  "admissions": {
+    "platforms": [],
+    "deadlines": [
+      {
+        "name": "Preferred scholarship deadline",
+        "kind": "scholarship",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-12-01",
+        "date": "1 December 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Applicants are reviewed automatically for institutional merit-based awards.",
+        "status": "confirmed",
+        "source": "https://www.xula.edu/international-ed/applying-undergrad-students.html",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Preferred application deadline",
+        "kind": "priority",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-03-01",
+        "date": "1 March 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "The preferred application deadline for autumn enrolment.",
+        "status": "confirmed",
+        "source": "https://www.xula.edu/international-ed/applying-undergrad-students.html",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 0,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Applying is free, so no fee waiver is needed.",
+      "source": "https://www.xula.edu/international-ed/applying-undergrad-students.html",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Completed application",
+      "Transcripts, with a credential evaluation where required",
+      "Letters of recommendation",
+      "English proficiency test unless exempt",
+      "Financial documentation, such as bank statements or sponsorship letters"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 7.0,
+      "recommended": null,
+      "note": "Overall band score of 7.0."
+    },
+    "toefl": {
+      "min": 80,
+      "recommended": null,
+      "note": "80 on the internet-based test, or 550 on the paper-based test. The page gives the score on the 0–120 scale only; no figure for the 1–6 scale used since 21 January 2026 was found.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 80,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 105,
+      "recommended": null,
+      "note": "The page gives a score “ranging from 105 to 115”."
+    },
+    "waiver": null,
+    "note": null,
+    "detailsSource": "https://www.xula.edu/international-ed/applying-undergrad-students.html",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "unknown",
+      "note": "The page for international applicants says the SAT or ACT “may be required for domestic applicants” and does not finish the statement for international applicants in the passage read.",
+      "source": "https://www.xula.edu/international-ed/applying-undergrad-students.html",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "unknown",
+      "note": "The page for international applicants says the SAT or ACT “may be required for domestic applicants” and does not finish the statement for international applicants in the passage read.",
+      "source": "https://www.xula.edu/international-ed/applying-undergrad-students.html",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": null,
+    "academicYear": null,
+    "currency": "USD",
+    "headline": null,
+    "items": [],
+    "billedSubtotal": null,
+    "totalText": null,
+    "note": null
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "The pages read give no scholarship amounts and no terms of aid for international students; the funding page for them describes study-abroad scholarships."
+    },
+    "merit": [],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Not stated for international students on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "XULA — applying, international undergraduate students",
+      "url": "https://www.xula.edu/international-ed/applying-undergrad-students.html"
+    },
+    {
+      "label": "XULA — first-time freshmen",
+      "url": "https://www.xula.edu/admissions/undergraduate-admission/firsttimefreshmen/index.html"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application fee",
+      "English proficiency",
+      "preferred deadlines"
+    ],
+    "unconfirmed": [
+      "test policy",
+      "tuition and fees — the costs page did not load for reading",
+      "aid for international students",
+      "amounts of merit awards",
+      "founding year",
+      "admission statistics",
+      "list of majors"
+    ]
+  },
+  "lastVerified": "2026-10-12",
+  "aliases": [
+    "XULA",
+    "Xavier Louisiana"
+  ]
+},
+
+{
+  "id": "hofstra-university",
+  "name": "Hofstra University",
+  "shortName": "Hofstra",
+  "country": "us",
+  "city": "Hempstead",
+  "region": "New York",
+  "founded": null,
+  "type": "Private university",
+  "institutionKind": "private",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#1f3a5f",
+    "c2": "#0f1f33",
+    "initials": "H"
+  },
+  "description": "A private university in Hempstead, New York. SAT and ACT scores are not required. International students are considered automatically for academic merit scholarships only: Hofstra states that it offers neither full-ride scholarships nor need-based financial aid to international students.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "other"
+  ],
+  "englishTaughtPrograms": [
+    "other"
+  ],
+  "programNote": "The list of majors could not be read on this check, so no fields are listed.",
+  "links": {
+    "website": "https://www.hofstra.edu/",
+    "admissions": "https://www.hofstra.edu/admission/undergraduate-admission/",
+    "internationalAdmissions": "https://www.hofstra.edu/admission/international.html",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://www.hofstra.edu/admission/scholarship-opportunities.html",
+    "financialAid": "https://www.hofstra.edu/admission/scholarship-opportunities.html",
+    "programs": null,
+    "cost": "https://www.hofstra.edu/admission/cost-attendance.html"
+  },
+  "admissions": {
+    "platforms": [
+      "Common Application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Action I",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-15",
+        "date": "15 November 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Not binding. Decision by 15 December.",
+        "status": "confirmed",
+        "source": "https://www.hofstra.edu/admission/undergraduate-admission/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Action II",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-12-15",
+        "date": "15 December 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Not binding. Decision by 15 January.",
+        "status": "confirmed",
+        "source": "https://www.hofstra.edu/admission/undergraduate-admission/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Rolling admission",
+        "kind": "rolling",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "date": "Any time",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Applications are accepted at any time after the early rounds.",
+        "status": "confirmed",
+        "source": "https://www.hofstra.edu/admission/undergraduate-admission/",
+        "verified": "2026-10-12",
+        "note": null
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": "Waived for applications submitted 1–31 October 2026",
+      "note": "The amount was not read. Hofstra waives undergraduate application fees for applications submitted from 1 to 31 October 2026.",
+      "source": "https://www.hofstra.edu/admission/undergraduate-admission/",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Common Application",
+      "Official high school transcripts",
+      "TOEFL or IELTS score",
+      "Bank letter and other documents for the I-20"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": null,
+      "recommended": null,
+      "note": "Accepted; the page gives no minimum score."
+    },
+    "toefl": {
+      "min": null,
+      "recommended": null,
+      "note": "Accepted; the page gives no minimum score."
+    },
+    "duolingo": null,
+    "waiver": null,
+    "note": null,
+    "detailsSource": "https://www.hofstra.edu/admission/international-faq.html",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "Hofstra is test-optional: SAT and ACT scores are not required. Its FAQ for international students says merit scholarships are based primarily on the school record and SAT or ACT score.",
+      "source": "https://www.hofstra.edu/admission/undergraduate-admission/",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "Hofstra is test-optional: SAT and ACT scores are not required. Its FAQ for international students says merit scholarships are based primarily on the school record and SAT or ACT score.",
+      "source": "https://www.hofstra.edu/admission/undergraduate-admission/",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, fees, housing and food. Books, transportation and personal expenses are extra",
+      "tuition": 59960,
+      "tuitionLabel": "Tuition and fees",
+      "billed": 81008
+    },
+    "academicYear": "2025–2026",
+    "currency": "USD",
+    "studentCategory": "First-year students in suite-style housing",
+    "source": "https://www.hofstra.edu/admission/cost-attendance.html",
+    "verified": "2026-10-12",
+    "headline": "$81,008 in tuition, fees, housing and food",
+    "items": [
+      {
+        "label": "Estimated tuition & fees",
+        "group": "billed",
+        "amount": 59960
+      },
+      {
+        "label": "Estimated room & board (suite-style housing)",
+        "group": "billed",
+        "amount": 21048
+      }
+    ],
+    "billedSubtotal": 81008,
+    "totalText": "$81,008 estimated total costs, an example based on 2025–2026 rates",
+    "note": "Hofstra presents this as an example based on 2025–2026 rates; no figures for 2026–27 or 2027–28 were read.",
+    "status": "previous-cycle"
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": false,
+      "internationalEligible": false,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "Hofstra states that it does not offer full-ride scholarship opportunities or need-based financial aid to international students; they are considered for academic merit scholarships, whose amounts differ from domestic awards and were not read.",
+      "quote": "Hofstra does not offer full ride scholarship opportunities nor need-based financial aid to international students",
+      "quoteSource": "https://www.hofstra.edu/admission/scholarship-opportunities.html"
+    },
+    "merit": [
+      {
+        "name": "Hofstra academic merit scholarships for international students",
+        "amount": null,
+        "eligibility": "International undergraduate applicants, on an overall assessment of the application",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": "The pages read give no amount."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": false,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Hofstra does not offer need-based financial aid to international students."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Hofstra — FAQ for international students",
+      "url": "https://www.hofstra.edu/admission/international-faq.html"
+    },
+    {
+      "label": "Hofstra — undergraduate admission",
+      "url": "https://www.hofstra.edu/admission/undergraduate-admission/"
+    },
+    {
+      "label": "Hofstra — cost of attendance",
+      "url": "https://www.hofstra.edu/admission/cost-attendance.html"
+    },
+    {
+      "label": "Hofstra — scholarships",
+      "url": "https://www.hofstra.edu/admission/scholarship-opportunities.html"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "test policy",
+      "aid for international students"
+    ],
+    "unconfirmed": [
+      "application fee",
+      "minimum English test scores",
+      "amounts of merit awards",
+      "costs for 2026–27",
+      "founding year",
+      "admission statistics",
+      "list of majors"
+    ]
+  },
+  "lastVerified": "2026-10-12"
+},
+
+{
+  "id": "rochester-institute-of-technology",
+  "name": "Rochester Institute of Technology",
+  "shortName": "RIT",
+  "country": "us",
+  "city": "Rochester",
+  "region": "New York",
+  "founded": null,
+  "type": "Private research university",
+  "institutionKind": "private",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#7a3b12",
+    "c2": "#3d1d09",
+    "initials": "RIT"
+  },
+  "description": "A private technological university in Rochester, New York. International applicants are considered for merit scholarships just by applying; first-year merit scholarships range from $14,000 to $30,000 a year. RIT says it does not typically offer full-cost or full-tuition scholarships to undergraduates.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "other"
+  ],
+  "englishTaughtPrograms": [
+    "other"
+  ],
+  "programNote": "The list of majors could not be read on this check, so no fields are listed.",
+  "links": {
+    "website": "https://www.rit.edu/",
+    "admissions": "https://www.rit.edu/admissions/first-year-application",
+    "internationalAdmissions": "https://www.rit.edu/admissions/international",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://www.rit.edu/admissions/aid/merit-based-scholarships",
+    "financialAid": "https://www.rit.edu/admissions/financial-aid/international-students",
+    "programs": null,
+    "cost": "https://www.rit.edu/admissions/tuition-and-fees"
+  },
+  "admissions": {
+    "platforms": [
+      "Common Application",
+      "RIT application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Decision I",
+        "kind": "ED",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Decisions in mid-December; $500 deposit by 15 January.",
+        "status": "confirmed",
+        "source": "https://www.rit.edu/admissions/first-year-application",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Not binding. Decisions in late January; $500 deposit by 1 May.",
+        "status": "confirmed",
+        "source": "https://www.rit.edu/admissions/first-year-application",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Decision II",
+        "kind": "ED2",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-01",
+        "date": "1 January 2027",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Decisions in mid-January; $500 deposit by 15 February.",
+        "status": "confirmed",
+        "source": "https://www.rit.edu/admissions/first-year-application",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Decisions in mid-March; $500 deposit by 1 May. Later applications are reviewed if space is available.",
+        "status": "confirmed",
+        "source": "https://www.rit.edu/admissions/first-year-application",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 65,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Listed in the first-year application checklist.",
+      "source": "https://www.rit.edu/admissions/first-year-application",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Common Application or RIT Application",
+      "Official high school transcript",
+      "English proficiency test unless exempt"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "6.5 for full admission; 6.0 or lower is considered for conditional admission."
+    },
+    "toefl": {
+      "min": 79,
+      "recommended": null,
+      "note": "79 on the old scale or 4.5 on the new one for full admission; lower scores are considered for conditional admission.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 79,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 120,
+      "recommended": null,
+      "note": "120 for full admission; 119 or lower is considered for conditional admission."
+    },
+    "waiver": null,
+    "note": "Also accepted for full admission: LanguageCert Academic 70, PTE Academic 58, Michigan English Test 58.",
+    "detailsSource": "https://www.rit.edu/admissions/international",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "First-year international applicants are encouraged, not required, to submit SAT or ACT results for scholarship review.",
+      "source": "https://www.rit.edu/admissions/international/undergraduate-faqs",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "First-year international applicants are encouraged, not required, to submit SAT or ACT results for scholarship review.",
+      "source": "https://www.rit.edu/admissions/international/undergraduate-faqs",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, fees, housing and food (billed), plus the university’s estimates for books, transportation and personal expenses",
+      "tuition": 63508,
+      "billed": 81978,
+      "budget": 84868
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "New undergraduate students, domestic and international, in a double room",
+    "source": "https://www.rit.edu/admissions/tuition-and-fees",
+    "verified": "2026-10-12",
+    "headline": "$84,868 total cost of attendance",
+    "items": [
+      {
+        "label": "Tuition (12–18 credit hours)",
+        "group": "billed",
+        "amount": 63508
+      },
+      {
+        "label": "Student activities fee",
+        "group": "billed",
+        "amount": 470
+      },
+      {
+        "label": "Student health services fee",
+        "group": "billed",
+        "amount": 630
+      },
+      {
+        "label": "Housing (double room)",
+        "group": "billed",
+        "amount": 10090
+      },
+      {
+        "label": "Food (standard meal plan)",
+        "group": "billed",
+        "amount": 7280
+      },
+      {
+        "label": "Books, personal expenses, transportation and loan origination",
+        "group": "estimate",
+        "amount": 2890
+      },
+      {
+        "label": "Orientation fee (first-year students)",
+        "group": "extra",
+        "amount": 430
+      }
+    ],
+    "billedSubtotal": 81978,
+    "totalText": "$84,868 total cost of attendance, of which $81,978 is billed by the university",
+    "note": "First-year students add a $430 orientation fee. Health insurance is not in the table."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "RIT says it does not typically offer full-cost or full-tuition scholarships except to doctoral students; first-year merit scholarships range from $14,000 to $30,000 a year."
+    },
+    "merit": [
+      {
+        "name": "RIT merit-based scholarships",
+        "amount": "$14,000 to $30,000 a year",
+        "eligibility": "First-year applicants, international students included",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": true,
+        "note": "$56,000 to $120,000 over the length of the degree; applicants are reviewed automatically."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "The page for international applicants describes scholarship funding based on academic merit."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "RIT — international applicants",
+      "url": "https://www.rit.edu/admissions/international"
+    },
+    {
+      "label": "RIT — first-year application",
+      "url": "https://www.rit.edu/admissions/first-year-application"
+    },
+    {
+      "label": "RIT — cost of attendance 2026–2027",
+      "url": "https://www.rit.edu/admissions/tuition-and-fees"
+    },
+    {
+      "label": "RIT — scholarships",
+      "url": "https://www.rit.edu/admissions/aid/merit-based-scholarships"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "application fee",
+      "English proficiency",
+      "published costs",
+      "merit scholarships"
+    ],
+    "unconfirmed": [
+      "health insurance terms",
+      "founding year",
+      "admission statistics",
+      "list of majors"
+    ]
+  },
+  "lastVerified": "2026-10-12",
+  "aliases": [
+    "RIT"
+  ]
 }
 );

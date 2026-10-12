@@ -35,6 +35,16 @@ window.UNIPATH.match = {
   annualCost: {
 
     /* United States expansion, October 2026 */
+    'university-of-san-diego': { currency: 'USD', basis: 'billed', min: 88557, max: 88557 },
+    'university-of-washington': { currency: 'USD', basis: 'total', min: 67800, max: 67800, note: 'Non-resident estimate; the page does not name the academic year' },
+    'ursinus-college': { currency: 'USD', basis: 'billed', min: 80178, max: 80178 },
+    'willamette-university': { currency: 'USD', basis: 'billed', min: 74812, max: 74812 },
+    'wofford-college': { currency: 'USD', basis: 'billed', min: 78125, max: 78125 },
+    'xavier-university': { currency: 'USD', basis: 'total', min: 74530, max: 74530, note: 'The page does not name the academic year' },
+    'hofstra-university': { currency: 'USD', basis: 'billed', min: 81008, max: 81008, note: 'Example based on 2025–26 rates' },
+    'rochester-institute-of-technology': { currency: 'USD', basis: 'total', min: 84868, max: 84868 },
+
+    /* United States expansion, October 2026 */
     'st-lawrence-university': { currency: 'USD', basis: 'billed', min: 87965, max: 87965 },
     'university-of-arizona': { currency: 'USD', basis: 'total', min: 67770, max: 67770, note: 'Non-resident estimate; the page does not name the academic year' },
     'university-of-iowa': { currency: 'USD', basis: 'total', min: 53042, max: 53042, note: 'International students, Liberal Arts & Sciences; other colleges cost up to $56,916' },
