@@ -23337,5 +23337,2249 @@ window.UNIPATH.universities.push(
     "AU",
     "American University Washington"
   ]
+},
+
+{
+  "id": "rollins-college",
+  "name": "Rollins College",
+  "shortName": "Rollins",
+  "country": "us",
+  "city": "Winter Park",
+  "region": "Florida",
+  "founded": null,
+  "type": "Private liberal arts college",
+  "institutionKind": "liberal-arts",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#3d3d5c",
+    "c2": "#1f1f2e",
+    "initials": "R"
+  },
+  "description": "A private liberal arts college in Winter Park, Florida. Neither of its two applications carries a fee, tests are optional, and Rollins says it is one of the few US colleges that offer need-based aid to international applicants — while taking the family contribution into account when it admits them. Academic scholarships for international students run from $15,000 a year up to full tuition.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "education"
+  ],
+  "programNote": null,
+  "links": {
+    "website": "https://www.rollins.edu/",
+    "admissions": "https://www.rollins.edu/apply/",
+    "internationalAdmissions": "https://www.rollins.edu/apply/international/",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://www.rollins.edu/scholarships-aid/scholarships/",
+    "financialAid": "https://www.rollins.edu/apply/international/faqs/",
+    "programs": "https://www.rollins.edu/academics/majors-minors/",
+    "cost": "https://www.rollins.edu/scholarships-aid/tuition/"
+  },
+  "admissions": {
+    "platforms": [
+      "Rollins application",
+      "Common Application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Decision Round 1",
+        "kind": "ED",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-15",
+        "date": "15 November 2026",
+        "binding": true,
+        "appliesTo": "International applicants",
+        "conditions": "Binding. Decisions by 15 December. Deposit due 15 January. Early Decision needs an additional form and a video interview with the admission counselor.",
+        "status": "confirmed",
+        "source": "https://www.rollins.edu/apply/international/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-15",
+        "date": "15 November 2026",
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": "Not binding. Decisions by 15 January. Deposit due 1 May. Also the deadline to be considered for the Alfond Scholars Program.",
+        "status": "confirmed",
+        "source": "https://www.rollins.edu/apply/international/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Decision Round 2",
+        "kind": "ED2",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-05",
+        "date": "5 January 2027",
+        "binding": true,
+        "appliesTo": "International applicants",
+        "conditions": "Binding. Decisions by 1 February. Deposit due 1 March.",
+        "status": "confirmed",
+        "source": "https://www.rollins.edu/apply/international/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-01",
+        "date": "1 February 2027",
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": "Decisions by 1 April. Deposit due 1 May. All international students must apply by 1 February, which is also the priority date for the aid application.",
+        "status": "confirmed",
+        "source": "https://www.rollins.edu/apply/international/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 0,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Rollins offers two ways to apply — its own application and the Common Application — and says neither requires an application fee.",
+      "source": "https://www.rollins.edu/apply/international/",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Completed application",
+      "Personal statement",
+      "Official secondary school transcript",
+      "One academic letter of recommendation from a teacher, counselor or other academic reference",
+      "English proficiency test unless exempt",
+      "Non-U.S. Citizen Financial Aid Application, a free form sent through the applicant portal after the application; it replaces the CSS Profile"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": "A video interview with the admission counselor is required of Early Decision applicants.",
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "An overall band score of 6.5. Scores are accepted only electronically from the test centre."
+    },
+    "toefl": {
+      "min": 80,
+      "recommended": null,
+      "note": "80 for tests taken before 21 January 2026; 4.5 for tests taken after it.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 80,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 120,
+      "recommended": null,
+      "note": "120 or higher."
+    },
+    "waiver": "Waived with 550 or higher on the SAT critical reading section, or with transcripts showing at least two recent years at a school taught mainly in English.",
+    "note": null,
+    "detailsSource": "https://www.rollins.edu/apply/international/faqs/",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "Rollins has been test-optional for nearly 15 years; about half of applicants apply without scores. Test-optional applicants stay eligible for academic scholarships and the Alfond Scholars Program.",
+      "source": "https://www.rollins.edu/apply/test-optional-admission/",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "Rollins has been test-optional for nearly 15 years; about half of applicants apply without scores. Test-optional applicants stay eligible for academic scholarships and the Alfond Scholars Program.",
+      "source": "https://www.rollins.edu/apply/test-optional-admission/",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, housing and food (billed), plus the college’s estimates for books, loan fees, personal expenses and transportation",
+      "tuition": 65410,
+      "billed": 83570,
+      "budget": 87820
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "Undergraduates living on campus",
+    "source": "https://www.rollins.edu/scholarships-aid/tuition/",
+    "verified": "2026-10-12",
+    "headline": "$87,820 total cost of attendance",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 65410
+      },
+      {
+        "label": "Housing and food",
+        "group": "billed",
+        "amount": 18160
+      },
+      {
+        "label": "Books",
+        "group": "estimate",
+        "amount": 960
+      },
+      {
+        "label": "Loan fees",
+        "group": "estimate",
+        "amount": 80
+      },
+      {
+        "label": "Personal",
+        "group": "estimate",
+        "amount": 2020
+      },
+      {
+        "label": "Transportation",
+        "group": "estimate",
+        "amount": 1190
+      }
+    ],
+    "billedSubtotal": 83570,
+    "totalText": "$87,820 total cost of attendance, of which $83,570 is billed by the university",
+    "note": null
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": true,
+      "internationalEligible": true,
+      "basis": "merit",
+      "covers": {
+        "tuition": true,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "name": "Rollins academic scholarships, up to full tuition",
+      "competitiveness": "Full tuition is for “extremely competitive candidates”; most international awards are $15,000 to $32,000 a year.",
+      "howToApply": "Every applicant is considered with the application for admission; no scholarship application. For the Alfond Scholars Program apply by the Early Action deadline of 15 November.",
+      "note": "For international students the pages confirm awards up to full tuition; housing and food ($18,160 in 2026–27) are not stated as covered. The scholarships page describes the Alfond Scholars Program (up to 10 students a year) as a full ride with tuition, room and board, while the test-optional page calls it a full-tuition scholarship — and neither says in so many words that international students receive the room-and-board part.",
+      "quote": "scholarships, which for international students range from $15,000 to $32,000 and even full tuition for extremely competitive candidates",
+      "quoteSource": "https://www.rollins.edu/apply/international/"
+    },
+    "merit": [
+      {
+        "name": "Rollins academic scholarships",
+        "amount": "$15,000 a year up to full tuition",
+        "eligibility": "International students, by school performance and test scores",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": "For international students the range is $15,000 to $32,000, and full tuition for extremely competitive candidates."
+      },
+      {
+        "name": "Alfond Scholars Program",
+        "amount": "Described as tuition, room and board for four years on one page and as full tuition on another",
+        "eligibility": "Up to 10 students a year, “from around the world”",
+        "deadline": "15 November (Early Action deadline)",
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": "Open to test-optional applicants. The two Rollins pages describe the coverage differently."
+      },
+      {
+        "name": "Bonner Leaders Program",
+        "amount": "Up to $3,000 a year",
+        "eligibility": "Incoming first-year students already admitted to Rollins",
+        "deadline": null,
+        "application": "Separate application after admission",
+        "renewable": null,
+        "note": "Recipients serve six to eight hours a week at community nonprofits. The page does not say whether international students may apply."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": true,
+      "meetsFullNeed": null,
+      "needBlindInternational": false,
+      "forms": [
+        "Non-U.S. Citizen Financial Aid Application (the FAQ also calls it the International Student Financial Aid Application)"
+      ],
+      "deadlines": "With the application for admission; priority date 1 February.",
+      "note": "Rollins is need-aware for international students: the family’s contribution is taken into account in admission. Support “ranges widely” by family circumstances and is available for up to eight semesters; the college does not promise to meet full need."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Rollins — international applicants",
+      "url": "https://www.rollins.edu/apply/international/"
+    },
+    {
+      "label": "Rollins — questions from international applicants",
+      "url": "https://www.rollins.edu/apply/international/faqs/"
+    },
+    {
+      "label": "Rollins — tuition and fees 2026–2027",
+      "url": "https://www.rollins.edu/scholarships-aid/tuition/"
+    },
+    {
+      "label": "Rollins — scholarships",
+      "url": "https://www.rollins.edu/scholarships-aid/scholarships/"
+    },
+    {
+      "label": "Rollins — standardized testing policy",
+      "url": "https://www.rollins.edu/apply/test-optional-admission/"
+    },
+    {
+      "label": "Rollins — majors and programmes",
+      "url": "https://www.rollins.edu/academics/majors-minors/"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "application fee",
+      "English proficiency",
+      "test policy",
+      "published costs",
+      "merit scholarships",
+      "aid for international students",
+      "need-blind or need-aware status",
+      "list of majors"
+    ],
+    "unconfirmed": [
+      "whether the Alfond award covers room and board for international students",
+      "share of need met",
+      "health insurance terms",
+      "founding year",
+      "admission statistics"
+    ]
+  },
+  "lastVerified": "2026-10-12"
+},
+
+{
+  "id": "umass-amherst",
+  "name": "University of Massachusetts Amherst",
+  "shortName": "UMass Amherst",
+  "country": "us",
+  "city": "Amherst",
+  "region": "Massachusetts",
+  "founded": null,
+  "type": "Public research university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#6b1d4f",
+    "c2": "#360f28",
+    "initials": "MA"
+  },
+  "description": "The flagship public university of Massachusetts, in Amherst. It applies through the Common Application, is test-optional for every major and does not look at family finances when it admits — but it states that it cannot offer financial assistance to undergraduates from other countries. International first-year students are considered automatically for a limited number of academic awards of up to $16,000 a year.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "computer-science",
+    "engineering",
+    "biology",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "medicine",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "computer-science",
+    "engineering",
+    "biology",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "medicine",
+    "education"
+  ],
+  "programNote": "Fields are taken from the areas of interest in the university’s programme finder, not from a full list of majors.",
+  "links": {
+    "website": "https://www.umass.edu/",
+    "admissions": "https://www.umass.edu/admissions/undergraduate-admissions",
+    "internationalAdmissions": "https://www.umass.edu/admissions/undergraduate-admissions/apply/international-students/international-first-year",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://www.umass.edu/admissions/scholarships",
+    "financialAid": "https://www.umass.edu/admissions/undergraduate-admissions/apply/international-students/financial-and-visa-information",
+    "programs": "https://www.umass.edu/gateway/academics/explore-our-programs",
+    "cost": "https://www.umass.edu/financialaid/undergraduate-costs"
+  },
+  "admissions": {
+    "platforms": [
+      "Common Application"
+    ],
+    "deadlines": [
+      {
+        "name": "Applications open",
+        "kind": "opens",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-08-01",
+        "date": "1 August 2026",
+        "binding": false,
+        "appliesTo": "First-year international applicants",
+        "conditions": "The Common Application opens.",
+        "status": "confirmed",
+        "source": "https://www.umass.edu/admissions/undergraduate-admissions/apply/international-students/international-first-year",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-05",
+        "date": "5 November 2026",
+        "binding": false,
+        "appliesTo": "First-year international applicants",
+        "conditions": "Not binding.",
+        "status": "confirmed",
+        "source": "https://www.umass.edu/admissions/undergraduate-admissions/apply/international-students/international-first-year",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "binding": false,
+        "appliesTo": "First-year international applicants",
+        "conditions": "International students are not admitted for spring unless they attend a US high school and hold a valid visa.",
+        "status": "confirmed",
+        "source": "https://www.umass.edu/admissions/undergraduate-admissions/apply/international-students/international-first-year",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 85,
+      "currency": "USD",
+      "waiverAvailableToInternational": false,
+      "waiver": "The fee-waiver page says international students are not eligible for fee waivers.",
+      "note": "The international requirements page prints an application fee of $85 and adds “unable to waive”. The general first-year instructions print a nonrefundable $90 fee paid through the Common Application. Both figures were on the site on the day of reading.",
+      "source": "https://www.umass.edu/admissions/undergraduate-admissions/apply/international-students/international-admissions",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Common Application with the UMass questions",
+      "Official high school transcript for grades 9–11, or secondary school examination results",
+      "One letter of recommendation",
+      "English proficiency test unless exempt"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "6.5 on the Academic test with no subscore below 6.0. Paper test report forms and IELTS One Skill Retake are not accepted."
+    },
+    "toefl": {
+      "min": 80,
+      "recommended": null,
+      "note": "Before 21 January 2026: 80 with no subscore below 20. After it: 4.5 with no section below 4. In-person test or iBT Home Edition only; MyBest scores are not accepted.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 80,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 115,
+      "recommended": null,
+      "note": "A minimum of 115; use the same email address as on the Common Application."
+    },
+    "waiver": "Possible, at the Director’s discretion, after all four years of secondary education at a school taught in English with a British or American curriculum.",
+    "note": "Also accepted: Cambridge B2 First, C1 Advanced or C2 Proficiency with 176 overall and no subscore below 169. Not accepted: IELTS Indicator, TOEFL Essentials, TOEFL ITP Plus for China, PTE Academic Online. Scores must be no more than two years old.",
+    "detailsSource": "https://www.umass.edu/admissions/english-language-proficiency",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "Standardized tests are optional for first-year applicants in all majors; submitted scores are superscored.",
+      "source": "https://www.umass.edu/admissions/test-optional-policy",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "Standardized tests are optional for first-year applicants in all majors; submitted scores are superscored.",
+      "source": "https://www.umass.edu/admissions/test-optional-policy",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition and fees, housing, food and health insurance (direct costs), plus the university’s estimates for books, travel and miscellaneous expenses",
+      "tuition": 43819,
+      "tuitionLabel": "Tuition and fees",
+      "billed": 66315,
+      "budget": 69465
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "International undergraduates living on campus",
+    "source": "https://www.umass.edu/financialaid/undergraduate-costs",
+    "verified": "2026-10-12",
+    "headline": "$69,465 total cost of attendance",
+    "items": [
+      {
+        "label": "Tuition and fees",
+        "group": "billed",
+        "amount": 43819
+      },
+      {
+        "label": "Average housing",
+        "group": "billed",
+        "amount": 10188
+      },
+      {
+        "label": "Food",
+        "group": "billed",
+        "amount": 9838
+      },
+      {
+        "label": "Supplemental health insurance",
+        "group": "billed",
+        "amount": 2470
+      },
+      {
+        "label": "Books and supplies",
+        "group": "estimate",
+        "amount": 1200
+      },
+      {
+        "label": "Travel",
+        "group": "estimate",
+        "amount": 950
+      },
+      {
+        "label": "Miscellaneous",
+        "group": "estimate",
+        "amount": 1000
+      }
+    ],
+    "billedSubtotal": 66315,
+    "totalText": "$69,465 total cost of attendance, of which $66,315 is billed by the university",
+    "note": "The university marks these nine-month figures as estimates that are not final; tuition and some fees vary by college and major."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "UMass Amherst states that it cannot offer financial assistance to undergraduates from other countries. The only awards for them are academic ones of up to $16,000 a year, against tuition and fees of $43,819."
+    },
+    "merit": [
+      {
+        "name": "Academic-based financial awards for international first-year students",
+        "amount": "Up to $16,000 a year",
+        "eligibility": "International first-year students",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": "A limited number of awards. International transfer students get no scholarships."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": false,
+      "meetsFullNeed": null,
+      "needBlindInternational": true,
+      "forms": [],
+      "deadlines": null,
+      "note": "The university calls itself need-blind — finances are not considered in admission — and in the same passage says it cannot offer financial assistance to undergraduates from other countries. International students must certify resources for the first year."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "UMass Amherst — international applicants",
+      "url": "https://www.umass.edu/admissions/undergraduate-admissions/apply/international-students/international-first-year"
+    },
+    {
+      "label": "UMass Amherst — admission requirements",
+      "url": "https://www.umass.edu/admissions/undergraduate-admissions/apply/international-students/international-admissions"
+    },
+    {
+      "label": "UMass Amherst — how to apply",
+      "url": "https://www.umass.edu/admissions/first-year-application-instructions"
+    },
+    {
+      "label": "UMass Amherst — English language proficiency",
+      "url": "https://www.umass.edu/admissions/english-language-proficiency"
+    },
+    {
+      "label": "UMass Amherst — standardized testing policy",
+      "url": "https://www.umass.edu/admissions/test-optional-policy"
+    },
+    {
+      "label": "UMass Amherst — financial aid for international students",
+      "url": "https://www.umass.edu/admissions/undergraduate-admissions/apply/international-students/financial-and-visa-information"
+    },
+    {
+      "label": "UMass Amherst — application fee waivers",
+      "url": "https://www.umass.edu/admissions/undergraduate-admissions/connect/information-policies/application-fee-waivers"
+    },
+    {
+      "label": "UMass Amherst — cost of attendance 2026–2027",
+      "url": "https://www.umass.edu/financialaid/undergraduate-costs"
+    },
+    {
+      "label": "UMass Amherst — majors and programmes",
+      "url": "https://www.umass.edu/gateway/academics/explore-our-programs"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "English proficiency",
+      "test policy",
+      "published costs",
+      "merit scholarships",
+      "aid for international students",
+      "need-blind or need-aware status",
+      "application fee waiver for international applicants"
+    ],
+    "unconfirmed": [
+      "which of the two printed application fees ($85 or $90) applies",
+      "decision dates",
+      "founding year",
+      "admission statistics",
+      "full list of majors"
+    ]
+  },
+  "lastVerified": "2026-10-12",
+  "aliases": [
+    "UMass",
+    "University of Massachusetts",
+    "UMass Amherst"
+  ]
+},
+
+{
+  "id": "university-of-minnesota-twin-cities",
+  "name": "University of Minnesota Twin Cities",
+  "shortName": "Minnesota",
+  "country": "us",
+  "city": "Minneapolis",
+  "region": "Minnesota",
+  "founded": null,
+  "type": "Public research university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#4b2e83",
+    "c2": "#2c1a4d",
+    "initials": "MTC"
+  },
+  "description": "The flagship campus of the University of Minnesota, in Minneapolis and Saint Paul, with more than 300 majors and minors. First-year students apply through the Common Application for a $55 fee, SAT and ACT scores are not required, and every international applicant who meets the deadlines is considered for a Global Excellence Scholarship of $5,000 to $20,000 a year.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "medicine",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "medicine",
+    "education"
+  ],
+  "programNote": null,
+  "links": {
+    "website": "https://twin-cities.umn.edu/",
+    "admissions": "https://admissions.tc.umn.edu/",
+    "internationalAdmissions": "https://admissions.tc.umn.edu/admissions/welcome-international-students",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://admissions.tc.umn.edu/global-excellence-scholarships",
+    "financialAid": null,
+    "programs": "https://majors.umn.edu/",
+    "cost": "https://admissions.tc.umn.edu/cost-aid/cost-aid-scholarships/costs-scholarships-and-visas-international-students"
+  },
+  "admissions": {
+    "platforms": [
+      "Common Application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Action I",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Not binding. Decisions by 31 January.",
+        "status": "confirmed",
+        "source": "https://admissions.tc.umn.edu/apply/freshman-application-deadlines",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Action II",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-12-01",
+        "date": "1 December 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Not binding. Decisions by 28 February.",
+        "status": "confirmed",
+        "source": "https://admissions.tc.umn.edu/apply/freshman-application-deadlines",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Regular deadline",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-01",
+        "date": "1 January 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Decisions by 31 March.",
+        "status": "confirmed",
+        "source": "https://admissions.tc.umn.edu/apply/freshman-application-deadlines",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 55,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "A $55 nonrefundable application fee is part of the international freshman checklist.",
+      "source": "https://admissions.tc.umn.edu/apply/application-checklist/application-checklist-international-freshman",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Completed Common Application",
+      "Self-reported courses and grades for the 9th–12th years, exactly as on the original school records",
+      "English proficiency test scores",
+      "Certification of Finances form, for applicants who need a visa"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "6.5 overall and 6.5 in writing."
+    },
+    "toefl": {
+      "min": null,
+      "recommended": null,
+      "note": "4.5 overall and 4.5 in writing on the current scale; MyBest scores are not accepted. The page read gives no figure on the 0–120 scale.",
+      "scales": [
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 120,
+      "recommended": null,
+      "note": "120 overall and 120 in writing, effective from the spring 2027 application period."
+    },
+    "waiver": null,
+    "note": "Also accepted: PTE Academic 59 (59 in writing) and Cambridge C1 Advanced 180 (180 in writing). Conditional admission is possible from TOEFL 3.5, IELTS 5.5, PTE 42, Cambridge 160 or Duolingo 95. Scores are not superscored.",
+    "detailsSource": "https://admissions.tc.umn.edu/admissions/international-admission/english-proficiency-information",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "The international freshman checklist marks ACT and SAT scores “Not Required”; applicants who have them may self-report.",
+      "source": "https://admissions.tc.umn.edu/apply/application-checklist/application-checklist-international-freshman",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "The international freshman checklist marks ACT and SAT scores “Not Required”; applicants who have them may self-report.",
+      "source": "https://admissions.tc.umn.edu/apply/application-checklist/application-checklist-international-freshman",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition and fees, books, mandatory health insurance and living expenses for nine months",
+      "tuition": 44743,
+      "tuitionLabel": "Tuition and fees",
+      "budget": 67085
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "International undergraduates",
+    "source": "https://admissions.tc.umn.edu/cost-aid/cost-aid-scholarships/costs-scholarships-and-visas-international-students",
+    "verified": "2026-10-12",
+    "headline": "$67,085 total cost of attendance",
+    "items": [
+      {
+        "label": "Tuition and fees",
+        "group": "billed",
+        "amount": 44743
+      },
+      {
+        "label": "Books and supplies",
+        "group": "estimate",
+        "amount": 1000
+      },
+      {
+        "label": "Mandatory health insurance",
+        "group": "estimate",
+        "amount": 3590
+      },
+      {
+        "label": "Living expenses",
+        "group": "estimate",
+        "amount": 17752
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "$67,085 for nine months in 2026–27, as printed for international students",
+    "note": "For the I-20 the university counts twelve months: $73,002. Some colleges add tuition surcharges."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "The Global Excellence Scholarship is a non-resident tuition waiver of $5,000 to $20,000 a year, against tuition and fees of $44,743; it can be applied to tuition only."
+    },
+    "merit": [
+      {
+        "name": "Global Excellence Scholarships",
+        "amount": "$5,000 to $20,000 a year",
+        "eligibility": "International freshmen on an F-1 or another valid non-immigrant visa who apply by the deadlines and submit the Certification of Finances form",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": true,
+        "note": "Competitive and merit-based; for up to four years; a tuition waiver that cannot be used for other costs."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Not stated for international students on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Minnesota — application deadlines",
+      "url": "https://admissions.tc.umn.edu/apply/freshman-application-deadlines"
+    },
+    {
+      "label": "Minnesota — application checklist for international freshmen",
+      "url": "https://admissions.tc.umn.edu/apply/application-checklist/application-checklist-international-freshman"
+    },
+    {
+      "label": "Minnesota — English language proficiency",
+      "url": "https://admissions.tc.umn.edu/admissions/international-admission/english-proficiency-information"
+    },
+    {
+      "label": "Minnesota — costs, scholarships and visas for international students",
+      "url": "https://admissions.tc.umn.edu/cost-aid/cost-aid-scholarships/costs-scholarships-and-visas-international-students"
+    },
+    {
+      "label": "Minnesota — scholarships for international students",
+      "url": "https://admissions.tc.umn.edu/global-excellence-scholarships"
+    },
+    {
+      "label": "Minnesota — majors and programmes",
+      "url": "https://majors.umn.edu/"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "application fee",
+      "English proficiency",
+      "test policy",
+      "published costs",
+      "merit scholarships"
+    ],
+    "unconfirmed": [
+      "aid for international students",
+      "application fee waiver for international applicants",
+      "TOEFL score on the 0–120 scale",
+      "founding year",
+      "admission statistics"
+    ]
+  },
+  "lastVerified": "2026-10-12",
+  "aliases": [
+    "UMN",
+    "University of Minnesota",
+    "UMN Twin Cities",
+    "U of M"
+  ]
+},
+
+{
+  "id": "university-of-oregon",
+  "name": "University of Oregon",
+  "shortName": "Oregon",
+  "country": "us",
+  "city": "Eugene",
+  "region": "Oregon",
+  "founded": null,
+  "type": "Public research university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#1f3a5f",
+    "c2": "#0f1f33",
+    "initials": "O"
+  },
+  "description": "The public research university in Eugene, Oregon. International first-year students apply with the Oregon application or the Common Application for a $75 fee, do not need SAT or ACT scores, and may be admitted conditionally with lower English scores. Aid for them is limited to merit scholarships, a partial-tuition cultural service scholarship and work-study awards.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "other"
+  ],
+  "englishTaughtPrograms": [
+    "other"
+  ],
+  "programNote": "The university says it has nearly 200 undergraduate programmes; its programme finder is a search box, so no fields are listed here.",
+  "links": {
+    "website": "https://www.uoregon.edu/",
+    "admissions": "https://www.uoregon.edu/admissions/undergraduate/",
+    "internationalAdmissions": "https://www.uoregon.edu/admissions/undergraduate/find-your-path/international-students/",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://www.uoregon.edu/admissions/undergraduate/find-your-path/international/documents-and-scholarships/international-scholarships/",
+    "financialAid": null,
+    "programs": "https://www.uoregon.edu/academics/undergraduate/explore-programs/",
+    "cost": "https://financialaid.uoregon.edu/cost_of_attendance"
+  },
+  "admissions": {
+    "platforms": [
+      "Oregon application",
+      "Common Application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": false,
+        "appliesTo": "First-year international applicants",
+        "conditions": "Not binding. A response by 5 January.",
+        "status": "confirmed",
+        "source": "https://www.uoregon.edu/admissions/undergraduate/find-your-path/international-students/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Regular deadline",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "binding": false,
+        "appliesTo": "First-year international applicants",
+        "conditions": "Applying by this date brings automatic consideration for General University Scholarships.",
+        "status": "confirmed",
+        "source": "https://www.uoregon.edu/admissions/undergraduate/find-your-path/international-students/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 75,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "A non-refundable $75 application fee.",
+      "source": "https://www.uoregon.edu/admissions/undergraduate/find-your-path/international-students/",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Completed application",
+      "Official transcripts with literal English translations",
+      "Official TOEFL, IELTS or Duolingo English Test results",
+      "Bank statement, certificate of deposit or scholarship letter covering one academic year, prepared in the last six months — for the student visa"
+    ],
+    "recommendations": "Optional: a personal statement and two letters of recommendation if school performance was affected by special circumstances.",
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "6.5 or higher for full admission; 5.5–6.0 places the student in the AEIS band with English support."
+    },
+    "toefl": {
+      "min": 80,
+      "recommended": null,
+      "note": "Full admission: 80 or higher for tests before January 2026, 4.5 or higher after. AEIS band: 61–79, or 3.6–4.0.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 80,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 110,
+      "recommended": null,
+      "note": "110 or higher for full admission; 100–109 for the AEIS band."
+    },
+    "waiver": "Not required from citizens of a list of English-speaking countries; may also be waived for an IGCSE English result of C or higher, two US college writing courses, or three years of language arts at a US high school.",
+    "note": "Below the AEIS band students are admitted conditionally into the UO’s full-time intensive English programme. SAT Evidence-Based Reading and Writing 520 or ACT English plus Reading 40 also give full admission. Scores must be dated within two years of enrolment.",
+    "detailsSource": "https://www.uoregon.edu/admissions/undergraduate/find-your-path/international/requirements/english-proficiency/",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "International students are not required to submit SAT or ACT results; merit scholarships are awarded by holistic review without them.",
+      "source": "https://www.uoregon.edu/admissions/undergraduate/find-your-path/international-students/",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "International students are not required to submit SAT or ACT results; merit scholarships are awarded by holistic review without them.",
+      "source": "https://www.uoregon.edu/admissions/undergraduate/find-your-path/international-students/",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition and fees and on-campus housing and food (the page’s “UO costs”), plus estimates for books, personal expenses and transportation",
+      "tuition": 47466,
+      "tuitionLabel": "Tuition and fees",
+      "billed": 65649,
+      "budget": 71256
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "Non-resident undergraduates living on campus",
+    "source": "https://financialaid.uoregon.edu/cost_of_attendance",
+    "verified": "2026-10-12",
+    "headline": "$71,256 total cost of attendance",
+    "items": [
+      {
+        "label": "Tuition and fees",
+        "group": "billed",
+        "amount": 47466
+      },
+      {
+        "label": "Living expenses: on-campus housing and food",
+        "group": "billed",
+        "amount": 18183
+      },
+      {
+        "label": "Books, course materials, supplies and equipment",
+        "group": "estimate",
+        "amount": 1434
+      },
+      {
+        "label": "Miscellaneous personal expenses",
+        "group": "estimate",
+        "amount": 2673
+      },
+      {
+        "label": "Transportation",
+        "group": "estimate",
+        "amount": 1500
+      }
+    ],
+    "billedSubtotal": 65649,
+    "totalText": "$71,256 total cost of attendance, of which $65,649 is billed by the university",
+    "note": "Estimated nonresident figures for a typical load of 45 credits a year. First-year students are required to live on campus.",
+    "extras": [
+      {
+        "label": "One-time matriculation fee",
+        "amount": 570,
+        "required": true,
+        "condition": "Charged once to students beginning their first term; not included in the figures above.",
+        "year": "2026–2027"
+      }
+    ]
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "The scholarships listed for international students are partial: the ICSP award covers part of tuition, work-study awards are $1,000 to $4,500 and endowed scholarships $1,000 to $12,000, against nonresident tuition and fees of $47,466."
+    },
+    "merit": [
+      {
+        "name": "General University Scholarships",
+        "amount": null,
+        "eligibility": "First-year applicants who apply by 15 January",
+        "deadline": "15 January",
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": "The pages read give no amount."
+      },
+      {
+        "name": "International Cultural Service Program (ICSP) Tuition Scholarship",
+        "amount": "Partial tuition",
+        "eligibility": "International students, by financial need, academic merit and the ability to present to diverse groups",
+        "deadline": null,
+        "application": "Separate scholarship application",
+        "renewable": true,
+        "note": "Recipients give presentations about their home country to schools, community groups and the university. Renewable up to the completion of one degree."
+      },
+      {
+        "name": "International Student Work-Study Program",
+        "amount": "$1,000 to $4,500 a year",
+        "eligibility": "International students with financial need",
+        "deadline": null,
+        "application": null,
+        "renewable": null,
+        "note": "More than 50 awards a year. An award lets the student compete for on-campus jobs; a job is not guaranteed."
+      },
+      {
+        "name": "Division of Global Engagement endowed scholarships",
+        "amount": "$1,000 to $12,000",
+        "eligibility": "International students with financial need and academic merit",
+        "deadline": null,
+        "application": null,
+        "renewable": null,
+        "note": "Competitive; the page tells applicants to ask their admissions counselor how to apply."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "No general need-based aid programme for international students is described. Need is one of the criteria of the ICSP scholarship, the work-study awards and the endowed scholarships listed here. The university says it awards over $2.5 million to international students each year."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Oregon — international applicants",
+      "url": "https://www.uoregon.edu/admissions/undergraduate/find-your-path/international-students/"
+    },
+    {
+      "label": "Oregon — English language proficiency",
+      "url": "https://www.uoregon.edu/admissions/undergraduate/find-your-path/international/requirements/english-proficiency/"
+    },
+    {
+      "label": "Oregon — scholarships for international students",
+      "url": "https://www.uoregon.edu/admissions/undergraduate/find-your-path/international/documents-and-scholarships/international-scholarships/"
+    },
+    {
+      "label": "Oregon — cost of attendance 2026–2027",
+      "url": "https://financialaid.uoregon.edu/cost_of_attendance"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "application fee",
+      "English proficiency",
+      "test policy",
+      "published costs",
+      "merit scholarships"
+    ],
+    "unconfirmed": [
+      "whether international students pay exactly the published nonresident figures",
+      "amounts of the General University Scholarships",
+      "application fee waiver for international applicants",
+      "health insurance terms",
+      "founding year",
+      "admission statistics",
+      "list of majors"
+    ]
+  },
+  "lastVerified": "2026-10-12",
+  "aliases": [
+    "UO",
+    "UOregon"
+  ]
+},
+
+{
+  "id": "university-of-oklahoma",
+  "name": "University of Oklahoma",
+  "shortName": "Oklahoma",
+  "country": "us",
+  "city": "Norman",
+  "region": "Oklahoma",
+  "founded": null,
+  "type": "Public research university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#6b1d4f",
+    "c2": "#360f28",
+    "initials": "O"
+  },
+  "description": "The public research university in Norman, Oklahoma. International freshmen need a 3.0 grade average and an English score such as IELTS 6.5; SAT or ACT scores are optional for admission but are used for the international freshman scholarships of $10,000 to $17,000 a year, which require an application by 15 December.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "engineering",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "engineering",
+    "education"
+  ],
+  "programNote": "Fields are taken from the colleges named on the “Academics & Majors” page; the full list of majors was not read.",
+  "links": {
+    "website": "https://www.ou.edu/",
+    "admissions": "https://www.ou.edu/admissions",
+    "internationalAdmissions": "https://www.ou.edu/admissions/apply/international",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://www.ou.edu/admissions/affordability/scholarships",
+    "financialAid": null,
+    "programs": "https://www.ou.edu/admissions/academics",
+    "cost": "https://www.ou.edu/admissions/affordability/cost"
+  },
+  "admissions": {
+    "platforms": [
+      "OU application",
+      "Common Application",
+      "Coalition with Scoir"
+    ],
+    "deadlines": [
+      {
+        "name": "Applications open",
+        "kind": "opens",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-08-01",
+        "date": "1 August 2026",
+        "binding": false,
+        "appliesTo": "First-year international applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.ou.edu/admissions/apply/international",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": false,
+        "appliesTo": "First-year international applicants",
+        "conditions": "Not binding.",
+        "status": "confirmed",
+        "source": "https://www.ou.edu/admissions/apply/international",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Priority scholarship deadline",
+        "kind": "priority",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-12-15",
+        "date": "15 December 2026",
+        "binding": false,
+        "appliesTo": "First-year international applicants",
+        "conditions": "The deadline to be considered for international freshman scholarships.",
+        "status": "confirmed",
+        "source": "https://www.ou.edu/admissions/apply/international",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Application deadline",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-01",
+        "date": "1 February 2027",
+        "binding": false,
+        "appliesTo": "First-year international applicants",
+        "conditions": "Application deadline for the autumn term. Final documents by 15 April; deposit by 1 May.",
+        "status": "confirmed",
+        "source": "https://www.ou.edu/admissions/apply/international",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null
+    },
+    "documents": [
+      "Completed application",
+      "School records showing at least a 3.0 grade point average",
+      "English proficiency test unless exempt"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "At least 6.5."
+    },
+    "toefl": {
+      "min": 79,
+      "recommended": null,
+      "note": "At least 79. The page gives the score on the 0–120 scale only; no figure for the 1–6 scale used since 21 January 2026 was found.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 79,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 100,
+      "recommended": null,
+      "note": "At least 100."
+    },
+    "waiver": null,
+    "note": "Pearson (PTE) 53 is also accepted.",
+    "detailsSource": "https://www.ou.edu/admissions/apply/international",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "SAT or ACT scores are optional for international admission, but international freshman scholarships are awarded on them.",
+      "source": "https://www.ou.edu/admissions/apply/international",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "SAT or ACT scores are optional for international admission, but international freshman scholarships are awarded on them.",
+      "source": "https://www.ou.edu/admissions/apply/international",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, fees, housing and food, plus books, medical insurance and personal expenses, as listed for international undergraduates",
+      "tuition": 24210,
+      "budget": 56311
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "International undergraduates",
+    "source": "https://www.ou.edu/admissions/affordability/cost",
+    "verified": "2026-10-12",
+    "headline": "$56,311 total cost of attendance",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 24210
+      },
+      {
+        "label": "Fees: $9,971 mandatory fees and the $154 International Student Maintenance Fee",
+        "group": "billed",
+        "amount": 10125
+      },
+      {
+        "label": "Housing and food",
+        "group": "billed",
+        "amount": 16381
+      },
+      {
+        "label": "Books and supplies",
+        "group": "estimate",
+        "amount": 800
+      },
+      {
+        "label": "Medical insurance",
+        "group": "estimate",
+        "amount": 2795
+      },
+      {
+        "label": "Personal expenses",
+        "group": "estimate",
+        "amount": 2000
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "$56,311 total cost of attendance",
+    "note": "OU charges flat-rate tuition based on 15 credit hours a semester. The international table lists every line as an estimated expense and prints only the total."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "The largest international freshman scholarship is $17,000 a year, against tuition and fees of $34,335. Only the highest award a student qualifies for is given."
+    },
+    "merit": [
+      {
+        "name": "Award of Excellence",
+        "amount": "$17,000 a year for four years",
+        "eligibility": "International freshmen with an ACT of 31 or an SAT of 1390",
+        "deadline": "15 December",
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": null
+      },
+      {
+        "name": "Distinguished Scholar",
+        "amount": "$15,000 a year for four years",
+        "eligibility": "International first-year students",
+        "deadline": "15 December",
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": "Based on SAT or ACT scores; the thresholds were not noted on this reading."
+      },
+      {
+        "name": "University Scholarship",
+        "amount": "$13,000 a year for four years",
+        "eligibility": "International first-year students",
+        "deadline": "15 December",
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": null
+      },
+      {
+        "name": "Academic Achievement",
+        "amount": "$12,000 a year for four years",
+        "eligibility": "International first-year students",
+        "deadline": "15 December",
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": null
+      },
+      {
+        "name": "Non-Resident Merit",
+        "amount": "$10,000 a year for four years",
+        "eligibility": "International first-year students",
+        "deadline": "15 December",
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": null
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Not stated for international students on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Oklahoma — international applicants",
+      "url": "https://www.ou.edu/admissions/apply/international"
+    },
+    {
+      "label": "Oklahoma — cost of attendance 2026–2027",
+      "url": "https://www.ou.edu/admissions/affordability/cost"
+    },
+    {
+      "label": "Oklahoma — scholarships",
+      "url": "https://www.ou.edu/admissions/affordability/scholarships"
+    },
+    {
+      "label": "Oklahoma — academics and majors",
+      "url": "https://www.ou.edu/admissions/academics"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "English proficiency",
+      "test policy",
+      "published costs",
+      "merit scholarships"
+    ],
+    "unconfirmed": [
+      "application fee for international applicants (the freshman page names $50 for domestic applicants only)",
+      "TOEFL score on the 1–6 scale",
+      "test-score thresholds of four of the five scholarships",
+      "aid for international students",
+      "founding year",
+      "admission statistics",
+      "full list of majors"
+    ]
+  },
+  "lastVerified": "2026-10-12",
+  "aliases": [
+    "OU",
+    "Oklahoma University"
+  ]
+},
+
+{
+  "id": "west-virginia-university",
+  "name": "West Virginia University",
+  "shortName": "WVU",
+  "country": "us",
+  "city": "Morgantown",
+  "region": "West Virginia",
+  "founded": null,
+  "type": "Public research university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#4b2e83",
+    "c2": "#2c1a4d",
+    "initials": "WV"
+  },
+  "description": "The public research university in Morgantown, West Virginia. International freshmen apply with the WVU Application for a $75 fee; a converted grade average of 2.5 out of 4.0 can be admitted, and the autumn deadline is as late as 1 June. Admitted students are considered automatically for the Climb Higher Scholarship — $10,000 to $18,000 a year at Morgantown for entry in 2027–28.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "other"
+  ],
+  "englishTaughtPrograms": [
+    "other"
+  ],
+  "programNote": "The list of majors could not be read on this check, so no fields are listed.",
+  "links": {
+    "website": "https://www.wvu.edu/",
+    "admissions": "https://www.wvu.edu/admissions/undergraduate/",
+    "internationalAdmissions": "https://www.wvu.edu/admissions/undergraduate/how-to-apply/international-students/",
+    "applicationPortal": null,
+    "scholarships": "https://hub.wvu.edu/types-of-aid/scholarships/morgantown-scholarships",
+    "financialAid": null,
+    "programs": "https://www.wvu.edu/academics/programs/",
+    "cost": "https://www.wvu.edu/admissions/undergraduate/cost-and-aid"
+  },
+  "admissions": {
+    "platforms": [
+      "WVU application"
+    ],
+    "deadlines": [
+      {
+        "name": "Application deadline for the autumn semester",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-06-01",
+        "date": "1 June 2027",
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": "All documents must be received by 1 July. Late or incomplete applications are considered for the next term.",
+        "status": "confirmed",
+        "source": "https://www.wvu.edu/admissions/undergraduate/how-to-apply/international-students/",
+        "verified": "2026-10-12",
+        "note": "The page gives the deadline by semester without a year (Fall — 1 June) and its instructions still speak of applying “for 2026 admission”; it was read on 12 October 2026."
+      }
+    ],
+    "applicationFee": {
+      "amount": 75,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "A $75 non-refundable application fee.",
+      "source": "https://www.wvu.edu/admissions/undergraduate/how-to-apply/international-students/",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "WVU Application",
+      "Secondary school transcripts; unofficial copies are generally enough for review, with a literal English translation of anything not in English",
+      "Proof of English proficiency"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": [
+      "Freshman applicants with a converted grade point average of at least 2.5 on a 4.0 scale can be admitted; some majors ask for more. Several countries have their own requirements on the same page."
+    ]
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "IELTS Academic, at least 6.5."
+    },
+    "toefl": {
+      "min": 79,
+      "recommended": null,
+      "note": "At least 79 on the 0–120 scale, or 4.0 on the current scale.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 79,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.0,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 105,
+      "recommended": null,
+      "note": "At least 105."
+    },
+    "waiver": "Applicants from a list of exempt countries do not need a test.",
+    "note": "Also accepted: TOEFL Essentials 9.0, PTE 53, SAT Evidence-Based Reading and Writing 570 or ACT English 24.",
+    "detailsSource": "https://www.wvu.edu/admissions/undergraduate/how-to-apply/international-students/english-language-proficiency-requirements/",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition and fees only. Housing, food, books, insurance and personal expenses are extra",
+      "tuition": 32256,
+      "tuitionLabel": "Tuition and fees"
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "Out-of-state undergraduates",
+    "source": "https://www.wvu.edu/admissions/undergraduate/cost-and-aid",
+    "verified": "2026-10-12",
+    "headline": "$32,256 in tuition and fees",
+    "items": [
+      {
+        "label": "Tuition and fees",
+        "group": "billed",
+        "amount": 32256
+      },
+      {
+        "label": "Housing expenses, as the page calls them",
+        "group": "billed",
+        "amount": 15028
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "$32,256 out-of-state tuition and fees and $15,028 housing expenses for 2026–27, printed separately; the page gives no total",
+    "note": "A $250 athletics fee per term is billed separately, and some colleges charge additional tuition."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "The largest Climb Higher award at Morgantown is $18,000 a year, against out-of-state tuition and fees of $32,256."
+    },
+    "merit": [
+      {
+        "name": "Climb Higher Scholarship 2027–2028",
+        "amount": "$10,000 to $18,000 a year",
+        "eligibility": "First-time freshmen admitted by 1 August 2027; listed by WVU under “Non-residents of West Virginia and international students”",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": true,
+        "note": "Morgantown campus, per year for up to eight semesters: $18,000 with a grade average of 3.8 and ACT 30 or SAT 1360; $16,000 with 3.8; $13,000 with 3.5–3.79; $10,000 with 3.0–3.49. Students in online programmes are not eligible."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Not stated for international students on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "WVU — international applicants",
+      "url": "https://www.wvu.edu/admissions/undergraduate/how-to-apply/international-students/"
+    },
+    {
+      "label": "WVU — admission requirements",
+      "url": "https://www.wvu.edu/admissions/undergraduate/how-to-apply/international-students/admission-requirements-for-international-students/"
+    },
+    {
+      "label": "WVU — English language proficiency",
+      "url": "https://www.wvu.edu/admissions/undergraduate/how-to-apply/international-students/english-language-proficiency-requirements/"
+    },
+    {
+      "label": "WVU — tuition and fees 2026–27",
+      "url": "https://www.wvu.edu/admissions/undergraduate/cost-and-aid"
+    },
+    {
+      "label": "WVU — scholarships",
+      "url": "https://hub.wvu.edu/types-of-aid/scholarships/morgantown-scholarships"
+    },
+    {
+      "label": "WVU — Climb Higher Scholarship 2027–2028",
+      "url": "https://hub.wvu.edu/types-of-aid/scholarships/institutional/climb-higher/2728"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "application fee",
+      "English proficiency",
+      "published costs",
+      "merit scholarships"
+    ],
+    "unconfirmed": [
+      "test policy",
+      "whether the “housing expenses” figure includes food",
+      "full cost of attendance",
+      "health insurance terms",
+      "aid for international students",
+      "founding year",
+      "admission statistics",
+      "list of majors"
+    ]
+  },
+  "lastVerified": "2026-10-12",
+  "aliases": [
+    "WVU"
+  ]
+},
+
+{
+  "id": "anderson-university-indiana",
+  "name": "Anderson University (Indiana)",
+  "shortName": "Anderson (IN)",
+  "country": "us",
+  "city": "Anderson",
+  "region": "Indiana",
+  "founded": null,
+  "type": "Private university",
+  "institutionKind": "private",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#3d3d5c",
+    "c2": "#1f1f2e",
+    "initials": "AI"
+  },
+  "description": "A private Christian university of about 1,300 students in Anderson, Indiana, less than an hour from Indianapolis, with Church of God roots. It is a different institution from Anderson University in South Carolina. International undergraduates apply with the AU application or the Common Application by 1 June for the autumn; merit scholarships by grade average run from $10,000 to $22,000 a year, and tuition is frozen for 2027–28.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "arts",
+    "medicine",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "arts",
+    "medicine",
+    "education"
+  ],
+  "programNote": null,
+  "links": {
+    "website": "https://anderson.edu/",
+    "admissions": "https://anderson.edu/admissions/undergrad-admissions/",
+    "internationalAdmissions": "https://anderson.edu/admissions/international/",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://anderson.edu/2027-2028-anderson-university-scholarships/",
+    "financialAid": "https://anderson.edu/admissions/financial-aid/",
+    "programs": "https://anderson.edu/academics/majors/",
+    "cost": "https://anderson.edu/admissions/financial-aid/tuition/"
+  },
+  "admissions": {
+    "platforms": [
+      "AU application",
+      "Common Application"
+    ],
+    "deadlines": [
+      {
+        "name": "Rolling admission",
+        "kind": "rolling",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "date": "Any time",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "The application for admission can be sent at any time; review starts on 1 September. Applying before 1 November earns a one-time $500 account credit.",
+        "status": "confirmed",
+        "source": "https://anderson.edu/admissions/undergrad-admissions/",
+        "verified": "2026-10-12",
+        "note": null
+      },
+      {
+        "name": "International application deadline for the autumn semester",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-06-01",
+        "date": "1 June 2027",
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": "The application, transcripts, English score, passport copy and Affidavit of Support must all be in by this date for enrolment in the autumn (August) semester.",
+        "status": "confirmed",
+        "source": "https://anderson.edu/start-your-story/international-undergraduate-application-process/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Scholarship priority deadline",
+        "kind": "priority",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-03-01",
+        "date": "1 March 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Priority deadline for donor-funded scholarships.",
+        "status": "confirmed",
+        "source": "https://anderson.edu/admissions/undergrad-admissions/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 50,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "The international page says Anderson charges “an international fee of $50” to all international students, including those who apply through the Common Application. It does not call it an application fee or say when it is charged.",
+      "source": "https://anderson.edu/admissions/international/",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "AU online application or the Common Application",
+      "Academic transcripts from all institutions attended; records from outside the United States need an evaluation by a NACES member",
+      "Official TOEFL, IELTS or Duolingo score if English is not the first language",
+      "Copy of passport",
+      "Affidavit of Support with a bank statement on bank letterhead, in US dollars and no more than six months old"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.0,
+      "recommended": null,
+      "note": "At least 6.0."
+    },
+    "toefl": {
+      "min": 78,
+      "recommended": null,
+      "note": "At least 78 on the internet-based test. The page gives the score on the 0–120 scale only; no figure for the 1–6 scale used since 21 January 2026 was found.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 78,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 105,
+      "recommended": null,
+      "note": "At least 105."
+    },
+    "waiver": "May be waived case by case for students who attended a secondary school taught in English; ask the admission counselor.",
+    "note": null,
+    "detailsSource": "https://anderson.edu/start-your-story/international-undergraduate-application-process/",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, room, food and fees. The university separately estimates $6,000 a year for books, transportation and personal expenses",
+      "tuition": 37600,
+      "billed": 52620
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "Full-time undergraduates in a standard residence hall with the unlimited meal plan",
+    "source": "https://anderson.edu/admissions/financial-aid/tuition/",
+    "verified": "2026-10-12",
+    "headline": "$52,620 in tuition, fees, housing and food",
+    "items": [
+      {
+        "label": "Tuition (12–18 credit hours a semester)",
+        "group": "billed",
+        "amount": 37600
+      },
+      {
+        "label": "Room (standard residence hall)",
+        "group": "billed",
+        "amount": 7340
+      },
+      {
+        "label": "Food service (Raven Unlimited meal plan)",
+        "group": "billed",
+        "amount": 6360
+      },
+      {
+        "label": "Fees",
+        "group": "billed",
+        "amount": 1320
+      },
+      {
+        "label": "Books and supplies",
+        "group": "estimate",
+        "amount": 1500
+      },
+      {
+        "label": "Transportation",
+        "group": "estimate",
+        "amount": 1700
+      },
+      {
+        "label": "Personal expenses",
+        "group": "estimate",
+        "amount": 2800
+      }
+    ],
+    "billedSubtotal": 52620,
+    "totalText": "$52,620 total charges for 2026–27, plus $6,000 of estimated indirect costs, both as printed",
+    "note": "Anderson has announced a tuition freeze for traditional undergraduates for 2027–28.",
+    "extras": [
+      {
+        "label": "Health insurance",
+        "amount": null,
+        "required": true,
+        "condition": "Required of all international students; the pages read give no price.",
+        "year": null
+      }
+    ]
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "Winners of the university’s scholarship competitions and of the Honors Program selection receive full tuition, but the page does not say whether international students may take part. The awards it names for them are the merit scholarships and a $5,000 International Student Scholarship."
+    },
+    "merit": [
+      {
+        "name": "Merit scholarships for incoming students, 2027–2028",
+        "amount": "$10,000 to $22,000 a year",
+        "eligibility": "First-time undergraduates starting in autumn 2027 or spring 2028, by grade point average",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": true,
+        "note": "Presidential $22,000 (4.0 and above), Edwards $20,000 (3.75–3.99), Nicholson $18,000 (2.75–3.74), Reardon $14,000 (2.25–2.74), Morrison $10,000 (2.24 and below). The page does not state separately that international students receive them."
+      },
+      {
+        "name": "International Student Scholarship",
+        "amount": "$5,000",
+        "eligibility": "International students",
+        "deadline": null,
+        "application": null,
+        "renewable": null,
+        "note": "Cannot be combined with the other background awards on the same list (out-of-state, Christian high school and similar)."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "The international page reminds applicants that only US citizens and permanent residents are eligible for state or federal funds; it describes no need-based aid for international students."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Anderson (IN) — international applicants",
+      "url": "https://anderson.edu/admissions/international/"
+    },
+    {
+      "label": "Anderson (IN) — international undergraduate application process",
+      "url": "https://anderson.edu/start-your-story/international-undergraduate-application-process/"
+    },
+    {
+      "label": "Anderson (IN) — undergraduate admissions timeline",
+      "url": "https://anderson.edu/admissions/undergrad-admissions/"
+    },
+    {
+      "label": "Anderson (IN) — tuition and fees 2026–2027",
+      "url": "https://anderson.edu/admissions/financial-aid/tuition/"
+    },
+    {
+      "label": "Anderson (IN) — scholarships for 2027–2028",
+      "url": "https://anderson.edu/2027-2028-anderson-university-scholarships/"
+    },
+    {
+      "label": "Anderson (IN) — facts and figures",
+      "url": "https://anderson.edu/about/campus-facts/"
+    },
+    {
+      "label": "Anderson (IN) — majors and programmes",
+      "url": "https://anderson.edu/academics/majors/"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "English proficiency",
+      "published costs",
+      "merit scholarships",
+      "required documents",
+      "list of majors"
+    ],
+    "unconfirmed": [
+      "what the $50 international fee is charged for",
+      "test policy",
+      "TOEFL score on the 1–6 scale",
+      "whether international students receive the grade-based merit scholarships and may enter the full-tuition competitions",
+      "cost of the required health insurance",
+      "founding year"
+    ]
+  },
+  "lastVerified": "2026-10-12",
+  "aliases": [
+    "Anderson University",
+    "Anderson University Indiana",
+    "AU Indiana"
+  ]
 }
 );

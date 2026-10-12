@@ -370,13 +370,6 @@
    "westminster college"
   ]
  },
- "wheaton-college-massachusetts": {
-  "article": "Wheaton College (Massachusetts)",
-  "category": "Wheaton College (Massachusetts)",
-  "keywords": [
-   "wheaton college"
-  ]
- },
  "worcester-polytechnic-institute": {
   "article": "Worcester Polytechnic Institute",
   "category": "Worcester Polytechnic Institute",
@@ -648,6 +641,13 @@
   "category": "Adelphi University",
   "keywords": [
    "adelphi"
+  ]
+ },
+ "anderson-university-indiana": {
+  "article": "Anderson University (Indiana)",
+  "category": "Anderson University (Indiana)",
+  "keywords": [
+   "anderson university"
   ]
  }
 }

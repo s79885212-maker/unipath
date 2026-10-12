@@ -35,6 +35,15 @@ window.UNIPATH.match = {
   annualCost: {
 
     /* United States expansion, October 2026 */
+    'rollins-college': { currency: 'USD', basis: 'total', min: 87820, max: 87820 },
+    'umass-amherst': { currency: 'USD', basis: 'total', min: 69465, max: 69465 },
+    'university-of-minnesota-twin-cities': { currency: 'USD', basis: 'total', min: 67085, max: 67085 },
+    'university-of-oregon': { currency: 'USD', basis: 'total', min: 71256, max: 71256 },
+    'university-of-oklahoma': { currency: 'USD', basis: 'total', min: 56311, max: 56311 },
+    'west-virginia-university': { currency: 'USD', basis: 'tuition', min: 32256, max: 32256 },
+    'anderson-university-indiana': { currency: 'USD', basis: 'billed', min: 52620, max: 52620 },
+
+    /* United States expansion, October 2026 */
     'gonzaga-university': { currency: 'USD', basis: 'billed', min: 76670, max: 76670 },
     'cornell-college': { currency: 'USD', basis: 'total', min: 73578, max: 74778 },
     'savannah-college-of-art-and-design': { currency: 'USD', basis: 'total', min: 68691, max: 68691 },

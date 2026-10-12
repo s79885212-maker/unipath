@@ -156,11 +156,13 @@ assets/js/i18n.js       Translation layer (EN / RU)
 
 data/registry.js        Bootstrap, study-field taxonomy, layer merge (applyLayers)
 data/countries.js       Country profiles
-data/universities.us.js 10 universities
-data/universities.jp.js 8 universities
-data/universities.kr.js 8 universities
-data/universities.uk.js 8 universities
-data/universities.de.js 8 universities
+data/universities.us.js  United States, first records
+data/universities.us2.js United States, second file
+data/universities.us3.js United States, the 90 records added in October 2026 (110 -> 200)
+data/universities.jp.js  Japan (30)
+data/universities.kr.js  South Korea (30)
+data/universities.uk.js  United Kingdom (30)
+data/universities.de.js  Germany (30)
 data/match.js           Yearly cost per university + ECB rates for Find my match
 data/photos.js          Campus photos + attribution
 data/i18n/ru.js         Russian dictionary
@@ -230,6 +232,22 @@ changes — routing, search, filters, the scholarship page and comparison all pi
 up automatically. Only `id`, `name`, `country`, `city` and `links.website` are
 strictly required; every other field may be `null` and will render as
 _"Not confirmed — check the official source"_.
+
+### The October 2026 United States expansion
+
+`data/universities.us3.js` is written by scripts, not by hand. Each batch file
+(`tools/us200_a.py`, `us200_b1.py` … `us200_c5.py`) holds the records of one
+publication with the official page every fact was read on; `tools/us200.py` is the
+record builder and `tools/us200_std.py` the bilingual helper — a string is written
+once as `L(english, russian)` and the Russian text is appended to `data/i18n/ru.js`.
+Running a batch file appends its records, their yearly cost in `data/match.js` and
+the "no full award described" list in `data/award-details.js`.
+
+Campus photographs come from Wikimedia Commons under free licences:
+`tools/fetch_photos_us200.py` (automatic candidates from `photo_targets_us200.json`),
+`tools/merge_photos_us200.py` (writes `data/photos.js`), `tools/photodrop_us200.py`
+(removes a frame that is not a campus view) and `tools/pick_photos_us200.py`
+(hand-picked files). Every frame is looked at before it is published.
 
 ## Adding a country
 
