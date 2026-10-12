@@ -8322,5 +8322,3073 @@ window.UNIPATH.universities.push(
     "Illinois Tech",
     "IIT"
   ]
+},
+
+{
+  "id": "goucher-college",
+  "name": "Goucher College",
+  "shortName": "Goucher",
+  "country": "us",
+  "city": "Baltimore",
+  "region": "Maryland",
+  "founded": null,
+  "type": "Private liberal arts college",
+  "institutionKind": "liberal-arts",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#0b4f6c",
+    "c2": "#062b3b",
+    "initials": "G"
+  },
+  "description": "A private liberal arts college in Baltimore, Maryland. Goucher charges no application fee and has been test-optional since 2006, for admission and for merit scholarships alike. The pages read give no tuition figures and no scholarship amounts for international students.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "psychology",
+    "social-sciences"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "psychology",
+    "social-sciences"
+  ],
+  "programNote": "Only the fields named on the pages read are listed here; Goucher’s full list of majors was not read.",
+  "links": {
+    "website": "https://www.goucher.edu/",
+    "admissions": "https://www.goucher.edu/become/apply/",
+    "internationalAdmissions": "https://www.goucher.edu/become/international-students/",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://www.goucher.edu/financial-aid/types-of-financial-aid/scholarships",
+    "financialAid": "https://www.goucher.edu/financial-aid/",
+    "programs": "https://www.goucher.edu/learn/undergraduate-programs/",
+    "cost": "https://www.goucher.edu/financial-aid/tuition-and-fees/"
+  },
+  "admissions": {
+    "platforms": [
+      "Common Application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-15",
+        "date": "15 November 2026",
+        "binding": false,
+        "appliesTo": "First-year international applicants",
+        "conditions": "Not binding. Application and supporting materials; notification on a rolling basis. Reply by 1 May. Due by 11:59 p.m. in the applicant’s time zone.",
+        "status": "confirmed",
+        "source": "https://www.goucher.edu/become/international-students/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "binding": false,
+        "appliesTo": "First-year international applicants",
+        "conditions": "Application and supporting materials; notification on a rolling basis. Reply by 1 May. Due by 11:59 p.m. in the applicant’s time zone.",
+        "status": "confirmed",
+        "source": "https://www.goucher.edu/become/international-students/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 0,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Goucher says it has no application fee.",
+      "source": "https://www.goucher.edu/become/apply/first-year-students",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Common Application",
+      "Essay portion of the application",
+      "Secondary school transcript",
+      "Secondary school report with a letter of recommendation from the counselor or adviser",
+      "Academic teacher recommendation (math, science, language or social studies)",
+      "English proficiency test unless exempt",
+      "Financial documents and a copy of the passport information page, for an F-1 visa"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": null,
+      "recommended": 6.5,
+      "note": "Recommended score: 6.5."
+    },
+    "toefl": {
+      "min": null,
+      "recommended": 80,
+      "note": "Recommended score: 80 on the internet-based test. The page gives the score on the 0–120 scale only; no figure for the 1–6 scale used since 21 January 2026 was found.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "recommended": 80,
+          "min": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": null,
+      "recommended": 105,
+      "note": "Recommended score: 105."
+    },
+    "waiver": "Required when the first language is not English. Students with a diploma from a secondary school where English is the primary language of instruction are exempt.",
+    "note": "PTE is also accepted (recommended 53).",
+    "detailsSource": "https://www.goucher.edu/become/international-students/",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "Goucher says it has made SAT and ACT scores optional for admission and merit scholarship consideration since 2006.",
+      "source": "https://www.goucher.edu/become/apply/first-year-students",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "Goucher says it has made SAT and ACT scores optional for admission and merit scholarship consideration since 2006.",
+      "source": "https://www.goucher.edu/become/apply/first-year-students",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": null,
+    "academicYear": null,
+    "currency": "USD",
+    "headline": null,
+    "items": [],
+    "billedSubtotal": null,
+    "totalText": null,
+    "note": null
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "Goucher says many scholarships are offered to new students during the admission process; the pages read give no amounts and do not mention international students."
+    },
+    "merit": [],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Not stated for international students on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Goucher — international applicants",
+      "url": "https://www.goucher.edu/become/international-students/"
+    },
+    {
+      "label": "Goucher — first-year applicants",
+      "url": "https://www.goucher.edu/become/apply/first-year-students"
+    },
+    {
+      "label": "Goucher — scholarships",
+      "url": "https://www.goucher.edu/financial-aid/types-of-financial-aid/scholarships"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "application fee",
+      "English proficiency",
+      "test policy",
+      "required documents"
+    ],
+    "unconfirmed": [
+      "tuition and fees — the page read describes the charges without amounts",
+      "aid for international students",
+      "amounts of merit awards",
+      "founding year",
+      "admission statistics",
+      "list of majors"
+    ]
+  },
+  "lastVerified": "2026-10-12"
+},
+
+{
+  "id": "indiana-university-indianapolis",
+  "name": "Indiana University Indianapolis",
+  "shortName": "IU Indianapolis",
+  "country": "us",
+  "city": "Indianapolis",
+  "region": "Indiana",
+  "founded": null,
+  "type": "Public research university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#5a1f2e",
+    "c2": "#2e0f17",
+    "initials": "II"
+  },
+  "description": "A public research university in Indianapolis, Indiana — the Indiana University campus that was part of IUPUI until 2024. It publishes a full cost estimate for international undergraduates and asks them to apply by 15 February to be considered for admissions-based scholarships.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "other"
+  ],
+  "englishTaughtPrograms": [
+    "other"
+  ],
+  "programNote": "The list of degrees and majors could not be read on this check, so no fields are listed. Purdue University in Indianapolis is a separate institution and has no record here.",
+  "links": {
+    "website": "https://indianapolis.iu.edu/",
+    "admissions": "https://indianapolis.iu.edu/admissions/apply/",
+    "internationalAdmissions": "https://indianapolis.iu.edu/admissions/apply/international.html",
+    "applicationPortal": "https://international.indianapolis.iu.edu/admissions/how-apply/index.html",
+    "scholarships": "https://international.indianapolis.iu.edu/admissions/scholarships/index.html",
+    "financialAid": "https://indianapolis.iu.edu/cost-aid/",
+    "programs": "https://indianapolis.iu.edu/academics/degrees-majors/",
+    "cost": "https://international.indianapolis.iu.edu/admissions/tuition-fees.html"
+  },
+  "admissions": {
+    "platforms": [
+      "Apply IU",
+      "Common Application"
+    ],
+    "deadlines": [
+      {
+        "name": "Apply by — Honors College and its scholarships",
+        "kind": "priority",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-12-15",
+        "date": "15 December 2026",
+        "binding": false,
+        "appliesTo": "First-year international applicants",
+        "conditions": "To receive admission in time for the Honors College application and Honors College scholarship consideration.",
+        "status": "confirmed",
+        "source": "https://indianapolis.iu.edu/admissions/apply/dates/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Apply by — admissions-based scholarships",
+        "kind": "scholarship",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-15",
+        "date": "15 February 2027",
+        "binding": false,
+        "appliesTo": "First-year international applicants",
+        "conditions": "Also the deadline to apply for the Honors College and its scholarships.",
+        "status": "confirmed",
+        "source": "https://indianapolis.iu.edu/admissions/apply/dates/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Apply by — autumn enrolment",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-05-01",
+        "date": "1 May 2027",
+        "binding": false,
+        "appliesTo": "First-year international applicants",
+        "conditions": "Also the priority deadline for the $100 enrolment deposit. The university urges applicants abroad to apply as early as possible because of visa processing times.",
+        "status": "confirmed",
+        "source": "https://indianapolis.iu.edu/admissions/apply/dates/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null
+    },
+    "documents": [
+      "Apply IU or the Common Application (one application only)",
+      "School transcripts and records, sent as described for international undergraduates",
+      "Financial documentation covering nine months of tuition and living expenses, for a student visa"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": null,
+    "toefl": null,
+    "duolingo": null,
+    "waiver": "The page with the English proficiency requirements for undergraduates did not open on this check.",
+    "note": "After admission, students with a TOEFL of 79–99 (4.0–4.5 on the new scale) or an IELTS below 7.0 take the English for Academic Purposes placement test.",
+    "detailsSource": "https://indianapolis.iu.edu/admissions/orientation/placement-tests.html",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition and fees, health insurance, and the university’s estimates for housing, food, books, transportation and personal expenses. Summer is not included",
+      "tuition": 36110,
+      "tuitionLabel": "Tuition and fees",
+      "billed": 38154,
+      "budget": 56258
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "International undergraduates, nine months",
+    "source": "https://international.indianapolis.iu.edu/admissions/tuition-fees.html",
+    "verified": "2026-10-12",
+    "headline": "$56,258 total cost of attendance",
+    "items": [
+      {
+        "label": "Tuition and fees",
+        "group": "billed",
+        "amount": 36110
+      },
+      {
+        "label": "Housing and food",
+        "group": "estimate",
+        "amount": 14006
+      },
+      {
+        "label": "Health insurance",
+        "group": "billed",
+        "amount": 2044
+      },
+      {
+        "label": "Books and supplies",
+        "group": "estimate",
+        "amount": 1290
+      },
+      {
+        "label": "Transportation",
+        "group": "estimate",
+        "amount": 378
+      },
+      {
+        "label": "Personal expenses",
+        "group": "estimate",
+        "amount": 2430
+      }
+    ],
+    "billedSubtotal": 38154,
+    "totalText": "$56,258 estimated total for nine months, of which $36,110 is tuition and fees",
+    "note": "This is the estimate IU Indianapolis uses for the I-20. Tuition above 18 credit hours is charged per credit."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "The scholarship page for international students lists kinds of scholarships — admissions-based, school and Honors College awards — without amounts or eligibility rules."
+    },
+    "merit": [
+      {
+        "name": "IU Indianapolis admissions-based scholarships",
+        "amount": null,
+        "eligibility": "Beginning first-year applicants who apply by 15 February",
+        "deadline": null,
+        "application": null,
+        "renewable": null,
+        "note": "The pages read give no amount."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Not stated for international students on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "IU Indianapolis — application deadlines",
+      "url": "https://indianapolis.iu.edu/admissions/apply/dates/"
+    },
+    {
+      "label": "IU Indianapolis — costs for international students",
+      "url": "https://international.indianapolis.iu.edu/admissions/tuition-fees.html"
+    },
+    {
+      "label": "IU Indianapolis — how to apply",
+      "url": "https://international.indianapolis.iu.edu/admissions/how-apply/index.html"
+    },
+    {
+      "label": "IU Indianapolis — scholarships for international students",
+      "url": "https://international.indianapolis.iu.edu/admissions/scholarships/index.html"
+    },
+    {
+      "label": "IU Indianapolis — about",
+      "url": "https://indianapolis.iu.edu/about/"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "cost of attendance for international students"
+    ],
+    "unconfirmed": [
+      "application fee",
+      "English proficiency",
+      "test policy",
+      "amounts of merit awards",
+      "aid for international students",
+      "founding year",
+      "admission statistics",
+      "list of majors"
+    ]
+  },
+  "lastVerified": "2026-10-12",
+  "aliases": [
+    "IUPUI",
+    "IU Indianapolis",
+    "IUI",
+    "Indiana University–Purdue University Indianapolis",
+    "Indiana University Purdue University Indianapolis"
+  ]
+},
+
+{
+  "id": "ithaca-college",
+  "name": "Ithaca College",
+  "shortName": "Ithaca",
+  "country": "us",
+  "city": "Ithaca",
+  "region": "New York",
+  "founded": null,
+  "type": "Private college",
+  "institutionKind": "private",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#4b2e83",
+    "c2": "#2c1a4d",
+    "initials": "I"
+  },
+  "description": "A private college in Ithaca, New York, test-optional since 2012. Ithaca waives the application fee for international students, who may qualify for institutional scholarships, grants and campus employment; it uses its own aid application and does not accept the CSS Profile or the ISFAA.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "arts",
+    "medicine"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "arts",
+    "medicine"
+  ],
+  "programNote": "Only the fields named on the academics page read are listed here.",
+  "links": {
+    "website": "https://www.ithaca.edu/",
+    "admissions": "https://www.ithaca.edu/admission/undergraduate-admission",
+    "internationalAdmissions": "https://www.ithaca.edu/admission/undergraduate-admission/international-applicants",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://www.ithaca.edu/tuition-financial-aid/undergraduate-financial-aid/types-financial-aid/scholarships",
+    "financialAid": "https://www.ithaca.edu/tuition-financial-aid/international-student-aid",
+    "programs": "https://www.ithaca.edu/academics",
+    "cost": "https://www.ithaca.edu/tuition-financial-aid/undergraduate-tuition-and-fees"
+  },
+  "admissions": {
+    "platforms": [
+      "Common Application",
+      "Coalition with Scoir"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Decision",
+        "kind": "ED",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Enrolment confirmation and deposit by 1 February. Not open to several theatre majors.",
+        "status": "confirmed",
+        "source": "https://www.ithaca.edu/admission/undergraduate-admission/apply-ic/application-deadlines",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-12-01",
+        "date": "1 December 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Not binding. Not open to audition and interview programmes in the School of Music, Theatre, and Dance.",
+        "status": "confirmed",
+        "source": "https://www.ithaca.edu/admission/undergraduate-admission/apply-ic/application-deadlines",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-01",
+        "date": "1 February 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "All majors except five theatre majors, whose deadline is 1 December.",
+        "status": "confirmed",
+        "source": "https://www.ithaca.edu/admission/undergraduate-admission/apply-ic/application-deadlines",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Presidential Scholarship — application",
+        "kind": "scholarship",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.ithaca.edu/admission/undergraduate-admission/apply-ic/application-deadlines",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Scholar Programs (Innovation, Leadership, MLK, Park) — application",
+        "kind": "scholarship",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-12-01",
+        "date": "1 December 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.ithaca.edu/admission/undergraduate-admission/apply-ic/application-deadlines",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 0,
+      "currency": "USD",
+      "waiverAvailableToInternational": true,
+      "waiver": "Institutional Fee Waiver in the Common App",
+      "note": "Ithaca waives the application fee for international students: select the Institutional Fee Waiver in the Common App.",
+      "source": "https://www.ithaca.edu/admission/undergraduate-admission/international-applicants",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Common Application",
+      "Official high school transcripts",
+      "English proficiency test unless exempt"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": null,
+      "recommended": 6.0,
+      "note": "Recommended score of 6.0 or higher."
+    },
+    "toefl": {
+      "min": null,
+      "recommended": 80,
+      "note": "Recommended score of 80 or higher on the 120-point scale, or 4.0 or higher on the 1–6 scale.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "recommended": 80,
+          "min": null
+        },
+        {
+          "period": "post2026",
+          "recommended": 4.0,
+          "min": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": null,
+      "recommended": 115,
+      "note": "Recommended score of 115 or higher."
+    },
+    "waiver": "The page lists recommended minimum scores and exempts some applicants on the basis of their schooling.",
+    "note": "PTE Academic (54) and an SAT Evidence-Based Reading and Writing score of 600 are also listed.",
+    "detailsSource": "https://www.ithaca.edu/admission/undergraduate-admission/international-applicants",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "Ithaca has been test-optional since 2012 and says applicants without scores are considered equally for admission and for academic and talent scholarships. Applicants from schools that do not give alphanumeric grades must submit SAT or ACT scores.",
+      "source": "https://www.ithaca.edu/admission/undergraduate-admission/apply-ic/test-optional",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "Ithaca has been test-optional since 2012 and says applicants without scores are considered equally for admission and for academic and talent scholarships. Applicants from schools that do not give alphanumeric grades must submit SAT or ACT scores.",
+      "source": "https://www.ithaca.edu/admission/undergraduate-admission/apply-ic/test-optional",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, fees, housing and food (billed), plus the university’s estimates for books, transportation, personal expenses and health insurance",
+      "tuition": 59440,
+      "billed": 80520,
+      "budget": 83020
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "Full-time undergraduates living on campus",
+    "source": "https://www.ithaca.edu/tuition-financial-aid/undergraduate-tuition-and-fees",
+    "verified": "2026-10-12",
+    "headline": "$83,020 total cost of attendance",
+    "items": [
+      {
+        "label": "Tuition (12–18 credits a semester)",
+        "group": "billed",
+        "amount": 59440
+      },
+      {
+        "label": "Housing and meals",
+        "group": "billed",
+        "amount": 16520
+      },
+      {
+        "label": "Student support and technology fee",
+        "group": "billed",
+        "amount": 300
+      },
+      {
+        "label": "Health insurance (can be waived with comparable cover)",
+        "group": "billed",
+        "amount": 4260
+      },
+      {
+        "label": "Books (estimate)",
+        "group": "estimate",
+        "amount": 850
+      },
+      {
+        "label": "Personal expenses (estimate)",
+        "group": "estimate",
+        "amount": 1100
+      },
+      {
+        "label": "Transportation (estimate)",
+        "group": "estimate",
+        "amount": 550
+      }
+    ],
+    "billedSubtotal": 80520,
+    "totalText": "$83,020 total cost of attendance, of which $80,520 is billed by the university",
+    "note": "Housing costs vary by residence hall and number of roommates."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "Ithaca says international undergraduates may qualify for institutional scholarships, grants and campus employment; the pages read give no amounts and describe no award at the level of full tuition."
+    },
+    "merit": [
+      {
+        "name": "Ithaca academic and talent scholarships",
+        "amount": null,
+        "eligibility": "First-year applicants, with or without test scores",
+        "deadline": null,
+        "application": null,
+        "renewable": null,
+        "note": "The pages read give no amount."
+      },
+      {
+        "name": "Presidential Scholarship",
+        "amount": null,
+        "eligibility": "First-year applicants who apply by 1 November",
+        "deadline": "1 November",
+        "application": "Separate application",
+        "renewable": null,
+        "note": "The pages read give no amount."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": true,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [
+        "Ithaca College aid application for international applicants, in IC Connect"
+      ],
+      "deadlines": null,
+      "note": "International students do not qualify for US federal or state aid. Ithaca does not accept the CSS Profile or the ISFAA."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Ithaca — international applicants",
+      "url": "https://www.ithaca.edu/admission/undergraduate-admission/international-applicants"
+    },
+    {
+      "label": "Ithaca — application deadlines",
+      "url": "https://www.ithaca.edu/admission/undergraduate-admission/apply-ic/application-deadlines"
+    },
+    {
+      "label": "Ithaca — tuition and fees 2026–27",
+      "url": "https://www.ithaca.edu/tuition-financial-aid/undergraduate-tuition-and-fees"
+    },
+    {
+      "label": "Ithaca — financial aid for international students",
+      "url": "https://www.ithaca.edu/tuition-financial-aid/international-student-aid"
+    },
+    {
+      "label": "Ithaca — standardized testing policy",
+      "url": "https://www.ithaca.edu/admission/undergraduate-admission/apply-ic/test-optional"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "application fee",
+      "English proficiency",
+      "test policy",
+      "published costs",
+      "aid for international students"
+    ],
+    "unconfirmed": [
+      "amounts of merit awards",
+      "share of need met",
+      "financial aid deadline",
+      "founding year",
+      "admission statistics",
+      "list of majors"
+    ]
+  },
+  "lastVerified": "2026-10-12"
+},
+
+{
+  "id": "lesley-university",
+  "name": "Lesley University",
+  "shortName": "Lesley",
+  "country": "us",
+  "city": "Cambridge",
+  "region": "Massachusetts",
+  "founded": null,
+  "type": "Private university",
+  "institutionKind": "private",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#5a1f2e",
+    "c2": "#2e0f17",
+    "initials": "L"
+  },
+  "description": "A private university in Cambridge, Massachusetts, with programmes in education, mental health and well-being, art and design, and liberal arts and business. Admission is rolling. The pages read state the English test minimums; they give no costs, application fee or aid terms for international students.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "education",
+    "psychology",
+    "arts",
+    "business",
+    "humanities"
+  ],
+  "englishTaughtPrograms": [
+    "education",
+    "psychology",
+    "arts",
+    "business",
+    "humanities"
+  ],
+  "programNote": null,
+  "links": {
+    "website": "https://lesley.edu/",
+    "admissions": "https://lesley.edu/admissions/undergraduate-students/how-to-apply-undergraduate",
+    "internationalAdmissions": "https://lesley.edu/admissions/international-admissions",
+    "applicationPortal": null,
+    "scholarships": null,
+    "financialAid": "https://lesley.edu/costs-financial-aid",
+    "programs": null,
+    "cost": "https://lesley.edu/costs-financial-aid"
+  },
+  "admissions": {
+    "platforms": [],
+    "deadlines": [
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2026",
+        "dateISO": "2025-12-01",
+        "date": "1 December 2025",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Not binding. Decisions by 5 January. For autumn enrolment only.",
+        "status": "previous-cycle",
+        "source": "https://lesley.edu/admissions/undergraduate-students/how-to-apply-undergraduate",
+        "verified": "2026-10-12",
+        "note": "The page read still shows the previous cycle; the date for autumn 2027 entry is not published there yet."
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2026",
+        "dateISO": "2026-02-17",
+        "date": "17 February 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Lesley offers rolling admission: applications after the deadline are still considered, with a decision within two weeks of a complete application.",
+        "status": "previous-cycle",
+        "source": "https://lesley.edu/admissions/undergraduate-students/how-to-apply-undergraduate",
+        "verified": "2026-10-12",
+        "note": "The page read still shows the previous cycle; the date for autumn 2027 entry is not published there yet."
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null
+    },
+    "documents": [
+      "Completed application",
+      "Official high school transcript sent by the school, with a notarised translation",
+      "English proficiency test unless exempt",
+      "Evaluation of foreign academic credentials by one of the listed agencies"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "A score of 6.5 or higher."
+    },
+    "toefl": {
+      "min": 80,
+      "recommended": null,
+      "note": "Minimum score of 80 on the internet test. The page gives the score on the 0–120 scale only; no figure for the 1–6 scale used since 21 January 2026 was found.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 80,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 105,
+      "recommended": null,
+      "note": "At least 105."
+    },
+    "waiver": "Proof of English proficiency is required of international applicants.",
+    "note": "Cambridge C1 Advanced and C2 Proficiency are accepted, as is completion of a partner English language programme.",
+    "detailsSource": "https://lesley.edu/admissions/international-students/how-to-apply-international-students",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not confirmed on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": null,
+    "academicYear": null,
+    "currency": "USD",
+    "headline": null,
+    "items": [],
+    "billedSubtotal": null,
+    "totalText": null,
+    "note": null
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "The pages read give no scholarship amounts and no terms of aid for international students."
+    },
+    "merit": [],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Not stated for international students on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Lesley — how to apply, international students",
+      "url": "https://lesley.edu/admissions/international-students/how-to-apply-international-students"
+    },
+    {
+      "label": "Lesley — how to apply, undergraduate",
+      "url": "https://lesley.edu/admissions/undergraduate-students/how-to-apply-undergraduate"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "English proficiency",
+      "deadlines for autumn 2026"
+    ],
+    "unconfirmed": [
+      "dates for autumn 2027 entry",
+      "application fee",
+      "test policy",
+      "tuition and fees",
+      "aid for international students",
+      "merit scholarships",
+      "founding year",
+      "admission statistics"
+    ]
+  },
+  "lastVerified": "2026-10-12"
+},
+
+{
+  "id": "loyola-university-chicago",
+  "name": "Loyola University Chicago",
+  "shortName": "Loyola Chicago",
+  "country": "us",
+  "city": "Chicago",
+  "region": "Illinois",
+  "founded": null,
+  "type": "Private research university",
+  "institutionKind": "private",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#3d3d5c",
+    "c2": "#1f1f2e",
+    "initials": "LC"
+  },
+  "description": "A private Jesuit university in Chicago, Illinois. There is no application fee and SAT or ACT scores are optional. The pages read state the English test minimums and the 2026–27 charges; scholarship amounts for international students were not found on them.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "medicine",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "medicine",
+    "education"
+  ],
+  "programNote": null,
+  "links": {
+    "website": "https://www.luc.edu/",
+    "admissions": "https://www.luc.edu/undergrad/admissions/",
+    "internationalAdmissions": "https://www.luc.edu/undergrad/admissions/internationalstudents/",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": null,
+    "financialAid": "https://www.luc.edu/undergrad/tuitionscholarshipsandaid/scholarshipsandfinancialaid/",
+    "programs": "https://www.luc.edu/academics/departmentsandprograms/",
+    "cost": "https://www.luc.edu/undergrad/tuitionscholarshipsandaid/tuitionandfees/"
+  },
+  "admissions": {
+    "platforms": [
+      "Common Application",
+      "Loyola application"
+    ],
+    "deadlines": [
+      {
+        "name": "Application opens",
+        "kind": "opens",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-08-01",
+        "date": "1 August 2026",
+        "binding": false,
+        "appliesTo": "First-year international applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.luc.edu/undergrad/admissions/internationalstudents/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Priority deadline",
+        "kind": "priority",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-12-01",
+        "date": "1 December 2026",
+        "binding": false,
+        "appliesTo": "First-year international applicants",
+        "conditions": "Loyola admits students after the priority deadline as long as space is available. Enrolment deposit by 1 May.",
+        "status": "confirmed",
+        "source": "https://www.luc.edu/undergrad/admissions/internationalstudents/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 0,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "There is no application fee.",
+      "source": "https://www.luc.edu/undergrad/admissions/internationalstudents/",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Common Application or Loyola’s online application",
+      "Official transcript from every secondary school attended",
+      "English proficiency test unless exempt",
+      "Letter of recommendation, sent directly by a teacher or counselor"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "At least 6.5."
+    },
+    "toefl": {
+      "min": 79,
+      "recommended": null,
+      "note": "A minimum of 4.5, or 79 for tests taken before the change of scale in January 2026.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 79,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 110,
+      "recommended": null,
+      "note": "At least 110."
+    },
+    "waiver": "The application may require official scores; Loyola says some applicants can receive a waiver of the English requirement.",
+    "note": "PTE is also accepted (minimum 53).",
+    "detailsSource": "https://www.luc.edu/undergrad/admissions/internationalstudents/",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "Loyola is test-optional: students decide whether to include ACT or SAT scores, and results are superscored.",
+      "source": "https://www.luc.edu/undergrad/admissions/internationalstudents/",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "Loyola is test-optional: students decide whether to include ACT or SAT scores, and results are superscored.",
+      "source": "https://www.luc.edu/undergrad/admissions/internationalstudents/",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, fees, housing and food. Books, transportation and personal expenses are extra",
+      "tuition": 56930,
+      "billed": 77082
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "First-year students in a double room with a meal plan",
+    "source": "https://www.luc.edu/undergrad/tuitionscholarshipsandaid/tuitionandfees/",
+    "verified": "2026-10-12",
+    "headline": "$77,082 in tuition, fees, housing and food",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 56930
+      },
+      {
+        "label": "Room and board (average)",
+        "group": "billed",
+        "amount": 18572
+      },
+      {
+        "label": "Fees (estimate)",
+        "group": "billed",
+        "amount": 1580
+      }
+    ],
+    "billedSubtotal": 77082,
+    "totalText": "$77,082 estimated expense paid to Loyola; transportation, books, supplies and personal expenses are not included",
+    "note": "Nursing tuition is $58,180. Health insurance is not on the page."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "The pages read mention special scholarships that admitted students apply for in their portal, without amounts or eligibility rules for international students."
+    },
+    "merit": [],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Not stated for international students on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Loyola Chicago — international applicants",
+      "url": "https://www.luc.edu/undergrad/admissions/internationalstudents/"
+    },
+    {
+      "label": "Loyola Chicago — tuition and fees 2026–27",
+      "url": "https://www.luc.edu/undergrad/tuitionscholarshipsandaid/tuitionandfees/"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "application fee",
+      "English proficiency",
+      "test policy",
+      "published costs"
+    ],
+    "unconfirmed": [
+      "aid for international students",
+      "merit scholarships",
+      "health insurance terms",
+      "founding year",
+      "admission statistics"
+    ]
+  },
+  "lastVerified": "2026-10-12"
+},
+
+{
+  "id": "loyola-university-maryland",
+  "name": "Loyola University Maryland",
+  "shortName": "Loyola Maryland",
+  "country": "us",
+  "city": "Baltimore",
+  "region": "Maryland",
+  "founded": null,
+  "type": "Private university",
+  "institutionKind": "private",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#1f4d3a",
+    "c2": "#0f2a1f",
+    "initials": "LM"
+  },
+  "description": "A private Jesuit university in Baltimore, Maryland. SAT and ACT scores are optional. Every applicant, international students included, is considered automatically for merit scholarships; need-based aid for international students is limited and, Loyola says, covers full tuition only in extremely rare cases.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "education"
+  ],
+  "programNote": null,
+  "links": {
+    "website": "https://www.loyola.edu/",
+    "admissions": "https://www.loyola.edu/admission/undergraduate/",
+    "internationalAdmissions": "https://www.loyola.edu/admission/undergraduate/application-process/international",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://www.loyola.edu/department/financial-aid/undergraduate/programs/scholarships.html",
+    "financialAid": "https://www.loyola.edu/department/financial-aid/undergraduate/process/international",
+    "programs": "https://www.loyola.edu/academics/programs/",
+    "cost": "https://www.loyola.edu/department/financial-aid/undergraduate/tuition-price-affordability/"
+  },
+  "admissions": {
+    "platforms": [
+      "Common Application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Decision I",
+        "kind": "ED",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-15",
+        "date": "15 November 2026",
+        "binding": true,
+        "appliesTo": "First-year international applicants",
+        "conditions": "Binding. Notification by late December; reply by 15 January.",
+        "status": "confirmed",
+        "source": "https://www.loyola.edu/admission/undergraduate/application-process/international/first-year/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-15",
+        "date": "15 November 2026",
+        "binding": false,
+        "appliesTo": "First-year international applicants",
+        "conditions": "Not binding. Notification by mid-January; reply by 1 May.",
+        "status": "confirmed",
+        "source": "https://www.loyola.edu/admission/undergraduate/application-process/international/first-year/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Decision II",
+        "kind": "ED2",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "binding": true,
+        "appliesTo": "First-year international applicants",
+        "conditions": "Binding. Notification by early March; reply by 15 March.",
+        "status": "confirmed",
+        "source": "https://www.loyola.edu/admission/undergraduate/application-process/international/first-year/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "binding": false,
+        "appliesTo": "First-year international applicants",
+        "conditions": "Notification by late March; reply by 1 May.",
+        "status": "confirmed",
+        "source": "https://www.loyola.edu/admission/undergraduate/application-process/international/first-year/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 60,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Listed among the application requirements for international students.",
+      "source": "https://www.loyola.edu/admission/undergraduate/application-process/international/first-year/",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Common Application — first-year student application",
+      "Letter of recommendation from the school counselor, or from a teacher where the school has no counselor",
+      "English proficiency test unless exempt"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": [
+      "Applicants to the Nursing (BSN) programme should apply by 15 November, through Early Decision I or Early Action."
+    ]
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "Band score of 6.5 or higher; IELTS Indicator is accepted."
+    },
+    "toefl": {
+      "min": 80,
+      "recommended": null,
+      "note": "80 or higher for tests taken before 21 January 2026, or 4.5 or higher from that date; the Home and Paper Editions are accepted.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 80,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 115,
+      "recommended": null,
+      "note": "115 or higher."
+    },
+    "waiver": null,
+    "note": "TOEFL Essentials is also accepted (9.0 or higher).",
+    "detailsSource": "https://www.loyola.edu/admission/undergraduate/application-process/international/first-year/",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "SAT and ACT scores are listed as optional for international applicants.",
+      "source": "https://www.loyola.edu/admission/undergraduate/application-process/international/first-year/",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "SAT and ACT scores are listed as optional for international applicants.",
+      "source": "https://www.loyola.edu/admission/undergraduate/application-process/international/first-year/",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, housing and food. Loyola says it charges no separate comprehensive fee. Books, personal costs and health insurance are extra",
+      "tuition": 61810,
+      "billed": 81440
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "Full-time undergraduates in a residence hall with the minimum first-year food plan",
+    "source": "https://www.loyola.edu/department/financial-aid/undergraduate/tuition-price-affordability/",
+    "verified": "2026-10-12",
+    "headline": "$81,440 in tuition, housing and food",
+    "items": [
+      {
+        "label": "Tuition (12–18 credits a term)",
+        "group": "billed",
+        "amount": 61810
+      },
+      {
+        "label": "Housing — residence halls",
+        "group": "billed",
+        "amount": 12290
+      },
+      {
+        "label": "Food plan and the $45 housing damage deposit — the remainder of the published total, not read as a separate figure",
+        "group": "billed",
+        "amount": 7340
+      }
+    ],
+    "billedSubtotal": 81440,
+    "totalText": "$81,440 tuition, housing and food costs for 2026–27, as Loyola states",
+    "note": "The page for international students still shows 2025–26 and lists student health insurance at $2,330 for the spring term alone."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": true,
+      "internationalEligible": true,
+      "basis": "need-based",
+      "covers": {
+        "tuition": true,
+        "housing": false,
+        "meals": false,
+        "insurance": false,
+        "books": false
+      },
+      "renewable": null,
+      "name": "Need-based award for international students",
+      "competitiveness": "Loyola says it can provide only a limited amount of need-based aid to international students and that awards reaching full tuition are extremely rare.",
+      "howToApply": "Submit the CSS Profile with the application for admission.",
+      "note": "Need-based awards are meant to supplement what the student can pay and can cover at most the cost of full tuition. Housing, food and other costs remain payable.",
+      "quote": "can cover up to the cost of full tuition, though these cases are extremely rare",
+      "quoteSource": "https://www.loyola.edu/department/financial-aid/undergraduate/process/international"
+    },
+    "merit": [
+      {
+        "name": "Presidential Scholarship",
+        "amount": "$41,000 to $45,000 a year",
+        "eligibility": "All first-year applicants, international students included",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": true,
+        "note": "Award range for the 2027–28 academic year. Kept with full-time enrolment and a cumulative GPA of at least 2.0."
+      },
+      {
+        "name": "Dean’s Scholarship",
+        "amount": "$39,000 to $40,000 a year",
+        "eligibility": "All first-year applicants, international students included",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": true,
+        "note": "Award range for the 2027–28 academic year. Kept with full-time enrolment and a cumulative GPA of at least 2.0."
+      },
+      {
+        "name": "Loyola Scholarship",
+        "amount": "$37,000 to $38,000 a year",
+        "eligibility": "All first-year applicants, international students included",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": true,
+        "note": "Award range for the 2027–28 academic year. Kept with full-time enrolment and a cumulative GPA of at least 2.0."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": true,
+      "meetsFullNeed": false,
+      "needBlindInternational": false,
+      "forms": [
+        "CSS Profile"
+      ],
+      "deadlines": null,
+      "note": "International students are considered for admission and need-based aid on academic qualifications, financial need and the availability of funds."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Loyola Maryland — international first-year applicants",
+      "url": "https://www.loyola.edu/admission/undergraduate/application-process/international/first-year/"
+    },
+    {
+      "label": "Loyola Maryland — financial aid for international students",
+      "url": "https://www.loyola.edu/department/financial-aid/undergraduate/process/international"
+    },
+    {
+      "label": "Loyola Maryland — tuition, price and affordability 2026–27",
+      "url": "https://www.loyola.edu/department/financial-aid/undergraduate/tuition-price-affordability/"
+    },
+    {
+      "label": "Loyola Maryland — scholarships",
+      "url": "https://www.loyola.edu/department/financial-aid/undergraduate/programs/scholarships.html"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "application fee",
+      "English proficiency",
+      "test policy",
+      "published costs",
+      "aid for international students",
+      "merit scholarships"
+    ],
+    "unconfirmed": [
+      "cost of the food plan as a separate figure",
+      "health insurance terms",
+      "financial aid deadline",
+      "founding year",
+      "admission statistics"
+    ]
+  },
+  "lastVerified": "2026-10-12"
+},
+
+{
+  "id": "marist-university",
+  "name": "Marist University",
+  "shortName": "Marist",
+  "country": "us",
+  "city": "Poughkeepsie",
+  "region": "New York",
+  "founded": null,
+  "type": "Private university",
+  "institutionKind": "private",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#7a3b12",
+    "c2": "#3d1d09",
+    "initials": "M"
+  },
+  "description": "A private university in Poughkeepsie, New York, known until 2025 as Marist College. SAT and ACT scores are not required. Applicants are considered automatically for merit scholarships of $10,000 to $30,000 a year, and international students file the CSS Profile to be considered for need-based institutional aid.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "computer-science",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "computer-science",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "education"
+  ],
+  "programNote": null,
+  "links": {
+    "website": "https://www.marist.edu/",
+    "admissions": "https://www.marist.edu/admission/undergraduate/apply",
+    "internationalAdmissions": "https://www.marist.edu/admission/international",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://www.marist.edu/financial-aid/freshman/types-of-aid/scholarships",
+    "financialAid": "https://www.marist.edu/financial-aid/freshman",
+    "programs": "https://www.marist.edu/academics/programs/complete-list",
+    "cost": "https://www.marist.edu/financial-aid/freshman/tuition-and-fees"
+  },
+  "admissions": {
+    "platforms": [
+      "Common Application",
+      "Marist application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Decision I",
+        "kind": "ED",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Notification by mid-December; non-refundable deposit by 15 February.",
+        "status": "confirmed",
+        "source": "https://www.marist.edu/admission/undergraduate/apply",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-15",
+        "date": "15 November 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Not binding. Notification by mid-January.",
+        "status": "confirmed",
+        "source": "https://www.marist.edu/admission/undergraduate/apply",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Decision II",
+        "kind": "ED2",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-15",
+        "date": "15 February 2027",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Notification by late February.",
+        "status": "confirmed",
+        "source": "https://www.marist.edu/admission/undergraduate/apply",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-15",
+        "date": "15 February 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Notification by mid-March.",
+        "status": "confirmed",
+        "source": "https://www.marist.edu/admission/undergraduate/apply",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null
+    },
+    "documents": [
+      "Common Application or Marist Application",
+      "Official high school transcripts"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": null,
+    "toefl": null,
+    "duolingo": null,
+    "waiver": null,
+    "note": null
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "Marist is a test-optional school: SAT and ACT scores are not required, and applicants are welcome to submit them.",
+      "source": "https://www.marist.edu/admission/undergraduate/apply",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "Marist is a test-optional school: SAT and ACT scores are not required, and applicants are welcome to submit them.",
+      "source": "https://www.marist.edu/admission/undergraduate/apply",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": null,
+    "academicYear": null,
+    "currency": "USD",
+    "headline": null,
+    "items": [],
+    "billedSubtotal": null,
+    "totalText": null,
+    "note": null
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "Merit scholarships range from $10,000 to $30,000 a year; the pages read describe no award at the level of full tuition."
+    },
+    "merit": [
+      {
+        "name": "Marist merit scholarships",
+        "amount": "$10,000 to $30,000 a year",
+        "eligibility": "The most academically competitive applicants",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": true,
+        "note": "Awards are renewable."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": true,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [
+        "CSS Profile"
+      ],
+      "deadlines": null,
+      "note": "Marist’s calendar for incoming first-year students asks international students to complete the CSS Profile to be considered for need-based institutional aid. The calendar read is for 2026 entry."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Marist — apply, undergraduate",
+      "url": "https://www.marist.edu/admission/undergraduate/apply"
+    },
+    {
+      "label": "Marist — scholarships",
+      "url": "https://www.marist.edu/financial-aid/freshman/types-of-aid/scholarships"
+    },
+    {
+      "label": "Marist — dates for incoming first-year students",
+      "url": "https://www.marist.edu/schedule-for-incoming-freshman"
+    },
+    {
+      "label": "Marist — becoming Marist University",
+      "url": "https://www.marist.edu/university"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "test policy",
+      "merit scholarships"
+    ],
+    "unconfirmed": [
+      "application fee",
+      "English proficiency",
+      "tuition and fees for first-year students",
+      "share of need met",
+      "founding year",
+      "admission statistics"
+    ]
+  },
+  "lastVerified": "2026-10-12",
+  "aliases": [
+    "Marist College"
+  ]
+},
+
+{
+  "id": "mcdaniel-college",
+  "name": "McDaniel College",
+  "shortName": "McDaniel",
+  "country": "us",
+  "city": "Westminster",
+  "region": "Maryland",
+  "founded": null,
+  "type": "Private liberal arts college",
+  "institutionKind": "liberal-arts",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#3d3d5c",
+    "c2": "#1f1f2e",
+    "initials": "M"
+  },
+  "description": "A private liberal arts college in Westminster, Maryland. It charges no application fee and is test-optional. McDaniel tells international students to expect to pay at least $40,000 a year themselves; merit scholarships range from $7,500 to $33,000 a year.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "medicine",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "medicine",
+    "education"
+  ],
+  "programNote": null,
+  "links": {
+    "website": "https://www.mcdaniel.edu/",
+    "admissions": "https://www.mcdaniel.edu/admissions-cost/undergraduate-admissions/first-year-student-admissions",
+    "internationalAdmissions": "https://www.mcdaniel.edu/admissions-cost/undergraduate-admissions/undergraduate-admissions/international-student",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://www.mcdaniel.edu/admissions-cost/cost-financial-aid/types-financial-aid/mcdaniel-scholarships",
+    "financialAid": "https://www.mcdaniel.edu/admissions-cost/cost-financial-aid",
+    "programs": "https://www.mcdaniel.edu/academics/programs-degrees",
+    "cost": "https://www.mcdaniel.edu/admissions-cost/cost-financial-aid/undergraduate-tuition-fees"
+  },
+  "admissions": {
+    "platforms": [],
+    "deadlines": [
+      {
+        "name": "Application for autumn 2027 opens",
+        "kind": "opens",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-08-01",
+        "date": "1 August 2026",
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.mcdaniel.edu/admissions-cost/undergraduate-admissions/undergraduate-admissions/international-student",
+        "verified": "2026-10-12",
+        "note": null
+      },
+      {
+        "name": "Early Decision",
+        "kind": "ED",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding.",
+        "status": "confirmed",
+        "source": "https://www.mcdaniel.edu/admissions-cost/undergraduate-admissions/dates-deadlines",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Action I",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-15",
+        "date": "15 November 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Not binding.",
+        "status": "confirmed",
+        "source": "https://www.mcdaniel.edu/admissions-cost/undergraduate-admissions/dates-deadlines",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Action II",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-12-15",
+        "date": "15 December 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Not binding. Also the final deadline for the Direct-Entry Nursing Program and for Dorsey Scholarship consideration.",
+        "status": "confirmed",
+        "source": "https://www.mcdaniel.edu/admissions-cost/undergraduate-admissions/dates-deadlines",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-01",
+        "date": "1 February 2027",
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": "The application deadline for international students, who must start in the autumn semester.",
+        "status": "confirmed",
+        "source": "https://www.mcdaniel.edu/admissions-cost/undergraduate-admissions/undergraduate-admissions/international-student",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 0,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "McDaniel does not charge an application fee.",
+      "source": "https://www.mcdaniel.edu/admissions-cost/undergraduate-admissions/first-year-student-admissions",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Completed application",
+      "High school transcript",
+      "English proficiency test unless exempt",
+      "Certificate of Finances with current bank statements"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "At least 6.5."
+    },
+    "toefl": {
+      "min": 80,
+      "recommended": null,
+      "note": "At least 80 on the internet-based test, with a minimum of 20 in each section. The page gives the score on the 0–120 scale only; no figure for the 1–6 scale used since 21 January 2026 was found.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 80,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 100,
+      "recommended": null,
+      "note": "100 or higher."
+    },
+    "waiver": "English proficiency is shown with the TOEFL, IELTS, Duolingo, SAT or ACT.",
+    "note": null,
+    "detailsSource": "https://www.mcdaniel.edu/admissions-cost/undergraduate-admissions/undergraduate-admissions/international-student",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "McDaniel describes itself as a proud test-optional institution: submitting scores is the applicant’s choice.",
+      "source": "https://www.mcdaniel.edu/admissions-cost/undergraduate-admissions/first-year-student-admissions",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "McDaniel describes itself as a proud test-optional institution: submitting scores is the applicant’s choice.",
+      "source": "https://www.mcdaniel.edu/admissions-cost/undergraduate-admissions/first-year-student-admissions",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": null,
+    "academicYear": null,
+    "currency": "USD",
+    "headline": null,
+    "items": [],
+    "billedSubtotal": null,
+    "totalText": null,
+    "note": null
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "McDaniel says international students are typically responsible for an expected minimum of $40,000 a year and that the college is unlikely to be affordable for those who cannot contribute it. Its merit scholarships range from $7,500 to $33,000 a year."
+    },
+    "merit": [
+      {
+        "name": "McDaniel merit scholarships",
+        "amount": "$7,500 to $33,000 a year",
+        "eligibility": "Admitted undergraduate students",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": "The award letter comes with the admission decision. The page does not say which amounts international students receive."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": false,
+      "needBlindInternational": null,
+      "forms": [
+        "Certificate of Finances"
+      ],
+      "deadlines": null,
+      "note": "International students are typically responsible for an expected minimum of $40,000 a year."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "McDaniel — international applicants",
+      "url": "https://www.mcdaniel.edu/admissions-cost/undergraduate-admissions/undergraduate-admissions/international-student"
+    },
+    {
+      "label": "McDaniel — first-year applicants",
+      "url": "https://www.mcdaniel.edu/admissions-cost/undergraduate-admissions/first-year-student-admissions"
+    },
+    {
+      "label": "McDaniel — application deadlines",
+      "url": "https://www.mcdaniel.edu/admissions-cost/undergraduate-admissions/dates-deadlines"
+    },
+    {
+      "label": "McDaniel — scholarships",
+      "url": "https://www.mcdaniel.edu/admissions-cost/cost-financial-aid/types-financial-aid/mcdaniel-scholarships"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "application fee",
+      "English proficiency",
+      "test policy",
+      "merit scholarships"
+    ],
+    "unconfirmed": [
+      "tuition and fees",
+      "health insurance terms",
+      "founding year",
+      "admission statistics"
+    ]
+  },
+  "lastVerified": "2026-10-12"
+},
+
+{
+  "id": "morehouse-college",
+  "name": "Morehouse College",
+  "shortName": "Morehouse",
+  "country": "us",
+  "city": "Atlanta",
+  "region": "Georgia",
+  "founded": 1867,
+  "type": "Private historically Black liberal arts college for men",
+  "institutionKind": "liberal-arts",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#6b1d4f",
+    "c2": "#360f28",
+    "initials": "M"
+  },
+  "description": "A private historically Black liberal arts college for men in Atlanta, Georgia. Its admission portal publishes exact dates for autumn 2027. SAT and ACT scores are optional for international first-year applicants; the pages read give no costs and no aid terms for international students.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "education"
+  ],
+  "programNote": null,
+  "links": {
+    "website": "https://morehouse.edu/",
+    "admissions": "https://morehouse.edu/admissions/requirements-and-deadlines",
+    "internationalAdmissions": "https://morehouse.edu/admissions/apply/international-freshmen",
+    "applicationPortal": "https://slate.morehouse.edu/apply",
+    "scholarships": "https://morehouse.edu/aid/financial-aid/scholarships",
+    "financialAid": "https://morehouse.edu/aid/financial-aid/",
+    "programs": "https://morehouse.edu/academics/majors-minors",
+    "cost": "https://morehouse.edu/admissions/tuition-and-fees"
+  },
+  "admissions": {
+    "platforms": [
+      "Common Application",
+      "Morehouse College application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Decision",
+        "kind": "ED",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Decisions on 5 December 2026. Deposit by 15 January 2027.",
+        "status": "confirmed",
+        "source": "https://slate.morehouse.edu/apply",
+        "verified": "2026-10-12",
+        "note": null
+      },
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-12-15",
+        "date": "15 December 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Not binding. Decisions on 29 January 2027. Deposit by 1 May 2027.",
+        "status": "confirmed",
+        "source": "https://slate.morehouse.edu/apply",
+        "verified": "2026-10-12",
+        "note": null
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-01",
+        "date": "1 February 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Decisions on 12 March 2027. Deposit by 1 May 2027.",
+        "status": "confirmed",
+        "source": "https://slate.morehouse.edu/apply",
+        "verified": "2026-10-12",
+        "note": null
+      },
+      {
+        "name": "Financial aid deadline",
+        "kind": "aid",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-30",
+        "date": "30 January 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "The same date is listed for Early Decision, Early Action and Regular Decision. The portal says dates are subject to change.",
+        "status": "confirmed",
+        "source": "https://slate.morehouse.edu/apply",
+        "verified": "2026-10-12",
+        "note": null
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null
+    },
+    "documents": [
+      "Completed application",
+      "Non-refundable application fee",
+      "Official high school graduation certificate or national examination results",
+      "Two recommendation letters: one from a counselor or teacher, one from a community leader",
+      "English proficiency test unless exempt",
+      "Affidavit of support and a certified bank statement, for the Form I-20"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": null,
+      "recommended": null,
+      "note": "Accepted; the page gives no minimum score."
+    },
+    "toefl": {
+      "min": null,
+      "recommended": null,
+      "note": "Accepted; the page gives no minimum score."
+    },
+    "duolingo": null,
+    "waiver": "Required when the first language is not English or secondary education was completed where English is not the primary language of instruction.",
+    "note": "Cambridge English Qualifications and PTE Academic are also listed; other approved exams may be considered.",
+    "detailsSource": "https://morehouse.edu/admissions/apply/international-freshmen",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "The requirements for international freshmen say official SAT or ACT scores are optional. Morehouse’s general checklist lists official SAT/ACT scores without that note.",
+      "source": "https://morehouse.edu/admissions/apply/international-freshmen",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "The requirements for international freshmen say official SAT or ACT scores are optional. Morehouse’s general checklist lists official SAT/ACT scores without that note.",
+      "source": "https://morehouse.edu/admissions/apply/international-freshmen",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": null,
+    "academicYear": null,
+    "currency": "USD",
+    "headline": null,
+    "items": [],
+    "billedSubtotal": null,
+    "totalText": null,
+    "note": null
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "The pages read give no scholarship amounts and no terms of aid for international students."
+    },
+    "merit": [],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Not stated for international students on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Morehouse — international freshmen",
+      "url": "https://morehouse.edu/admissions/apply/international-freshmen"
+    },
+    {
+      "label": "Morehouse — admission portal, deadlines and key dates",
+      "url": "https://slate.morehouse.edu/apply"
+    },
+    {
+      "label": "Morehouse — majors and programmes",
+      "url": "https://morehouse.edu/academics/majors-minors"
+    },
+    {
+      "label": "Morehouse — home page",
+      "url": "https://morehouse.edu/"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "test policy",
+      "required documents",
+      "founding year"
+    ],
+    "unconfirmed": [
+      "application fee",
+      "minimum English test scores",
+      "tuition and fees — the page read gives no amounts",
+      "aid for international students",
+      "merit scholarships",
+      "admission statistics"
+    ]
+  },
+  "lastVerified": "2026-10-12"
+},
+
+{
+  "id": "occidental-college",
+  "name": "Occidental College",
+  "shortName": "Oxy",
+  "country": "us",
+  "city": "Los Angeles",
+  "region": "California",
+  "founded": null,
+  "type": "Private liberal arts college",
+  "institutionKind": "liberal-arts",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#6b1d4f",
+    "c2": "#360f28",
+    "initials": "O"
+  },
+  "description": "A private liberal arts college in Los Angeles, California. Applying is free and test-optional. All international applicants are considered automatically for merit scholarships; Occidental says need-based aid for international students is extremely limited and goes to a small number of them each year.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts"
+  ],
+  "programNote": null,
+  "links": {
+    "website": "https://www.oxy.edu/",
+    "admissions": "https://www.oxy.edu/admission-aid/first-year",
+    "internationalAdmissions": "https://www.oxy.edu/admission-aid/international-students",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://www.oxy.edu/admission-aid/affordability/scholarship",
+    "financialAid": "https://www.oxy.edu/financial-aid/apply/international",
+    "programs": "https://www.oxy.edu/academics/areas-study",
+    "cost": "https://www.oxy.edu/financial-aid/cost"
+  },
+  "admissions": {
+    "platforms": [
+      "Common Application",
+      "Coalition on Scoir"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Decision I",
+        "kind": "ED",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": true,
+        "appliesTo": "First-year international applicants",
+        "conditions": "Binding. Decisions by mid-December. The financial aid deadline is the same day.",
+        "status": "confirmed",
+        "source": "https://www.oxy.edu/admission-aid/international-students",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": false,
+        "appliesTo": "First-year international applicants",
+        "conditions": "Not binding. Decisions by mid-January. The financial aid deadline is the same day.",
+        "status": "confirmed",
+        "source": "https://www.oxy.edu/admission-aid/international-students",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Decision II",
+        "kind": "ED2",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-10",
+        "date": "10 January 2027",
+        "binding": true,
+        "appliesTo": "First-year international applicants",
+        "conditions": "Binding. Decisions by mid-February. The financial aid deadline is the same day.",
+        "status": "confirmed",
+        "source": "https://www.oxy.edu/admission-aid/international-students",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-10",
+        "date": "10 January 2027",
+        "binding": false,
+        "appliesTo": "First-year international applicants",
+        "conditions": "Decisions by mid-March. The financial aid deadline is the same day.",
+        "status": "confirmed",
+        "source": "https://www.oxy.edu/admission-aid/international-students",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 0,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Occidental says it has eliminated its application fee: no fee, no waiver needed.",
+      "source": "https://www.oxy.edu/admission-aid/international-students",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Common Application or Coalition Application on Scoir",
+      "Official high school transcripts",
+      "English proficiency test unless exempt",
+      "International Student Financial Form, if applying for need-based aid"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 7.0,
+      "recommended": null,
+      "note": "At least 7.0."
+    },
+    "toefl": {
+      "min": 100,
+      "recommended": null,
+      "note": "At least 100. The page gives the score on the 0–120 scale only; no figure for the 1–6 scale used since 21 January 2026 was found.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 100,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 130,
+      "recommended": null,
+      "note": "At least 130."
+    },
+    "waiver": null,
+    "note": "Occidental points to a separate page for its full English language requirements, which was not read on this check.",
+    "detailsSource": "https://www.oxy.edu/admission-aid/international-students",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "Occidental is test-optional: applicants choose whether to submit SAT or ACT scores.",
+      "source": "https://www.oxy.edu/admission-aid/first-year",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "Occidental is test-optional: applicants choose whether to submit SAT or ACT scores.",
+      "source": "https://www.oxy.edu/admission-aid/first-year",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, required fees, housing and the meal plan (billed), plus estimates for books and personal expenses. Travel varies and is not in the total",
+      "tuition": 70492,
+      "billed": 92125,
+      "budget": 95365
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "Undergraduates living on campus",
+    "source": "https://www.oxy.edu/financial-aid/cost",
+    "verified": "2026-10-12",
+    "headline": "$95,365 total cost of attendance",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 70492
+      },
+      {
+        "label": "Required fees",
+        "group": "billed",
+        "amount": 611
+      },
+      {
+        "label": "Housing and meal plan",
+        "group": "billed",
+        "amount": 21022
+      },
+      {
+        "label": "Books and supplies",
+        "group": "estimate",
+        "amount": 1290
+      },
+      {
+        "label": "Personal expenses",
+        "group": "estimate",
+        "amount": 1950
+      }
+    ],
+    "billedSubtotal": 92125,
+    "totalText": "$95,365 total cost of attendance, of which $92,125 is billed by the university",
+    "note": null,
+    "extras": [
+      {
+        "label": "Student Health Insurance (may be waived)",
+        "amount": 4062,
+        "required": true,
+        "condition": "Charged by Student Business Services for 2026–27 unless waived; the page does not say on what terms international students can waive it.",
+        "year": "2026–2027"
+      }
+    ]
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "Occidental says need-based aid for international students is extremely limited and competitive. Students admitted through Early Decision receive at least $20,000 a year; the pages read give no other merit amounts."
+    },
+    "merit": [
+      {
+        "name": "Occidental Commitment Scholarship",
+        "amount": "At least $20,000 a year",
+        "eligibility": "All students admitted through Early Decision I or II",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": true,
+        "note": "Renewable for a total of four years ($80,000 in all). Recipients are still considered for larger merit scholarships."
+      },
+      {
+        "name": "Occidental merit scholarships",
+        "amount": null,
+        "eligibility": "All international applicants",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": "The pages read give no amount."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": true,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [
+        "International Student Financial Form"
+      ],
+      "deadlines": "The same day as the admission deadline of the round.",
+      "note": "Need-based aid is extremely limited and is awarded to a small number of international students each year."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Occidental — international applicants",
+      "url": "https://www.oxy.edu/admission-aid/international-students"
+    },
+    {
+      "label": "Occidental — financial aid for international students",
+      "url": "https://www.oxy.edu/financial-aid/apply/international"
+    },
+    {
+      "label": "Occidental — cost of attendance 2026–27",
+      "url": "https://www.oxy.edu/financial-aid/cost"
+    },
+    {
+      "label": "Occidental — student account charges 2026–2027",
+      "url": "https://www.oxy.edu/offices-services/student-business-services/student-accounts/costs"
+    },
+    {
+      "label": "Occidental — scholarships",
+      "url": "https://www.oxy.edu/admission-aid/affordability/scholarship"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "application fee",
+      "English proficiency",
+      "test policy",
+      "published costs",
+      "aid for international students"
+    ],
+    "unconfirmed": [
+      "amounts of merit awards",
+      "share of need met",
+      "English test exemptions",
+      "founding year",
+      "admission statistics",
+      "TOEFL score on the 1–6 scale"
+    ]
+  },
+  "lastVerified": "2026-10-12",
+  "aliases": [
+    "Oxy"
+  ]
+},
+
+{
+  "id": "ohio-wesleyan-university",
+  "name": "Ohio Wesleyan University",
+  "shortName": "Ohio Wesleyan",
+  "country": "us",
+  "city": "Delaware",
+  "region": "Ohio",
+  "founded": null,
+  "type": "Private liberal arts college",
+  "institutionKind": "liberal-arts",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#4b2e83",
+    "c2": "#2c1a4d",
+    "initials": "OW"
+  },
+  "description": "A private liberal arts university in Delaware, Ohio. There is no application fee and admission is test-optional. Ohio Wesleyan states that total billed costs are $71,922 a year and that eligible international students can expect a scholarship of $37,000 a year, with no separate application.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "law",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "law",
+    "education"
+  ],
+  "programNote": null,
+  "links": {
+    "website": "https://www.owu.edu/",
+    "admissions": "https://www.owu.edu/admission/apply/first-year-students/",
+    "internationalAdmissions": "https://www.owu.edu/admission/apply/international-students/",
+    "applicationPortal": "https://www.commonapp.org/",
+    "scholarships": "https://www.owu.edu/admission/apply/international-students/international-scholarships-and-need-based-aid/",
+    "financialAid": "https://www.owu.edu/admission/apply/international-students/international-scholarships-and-need-based-aid/",
+    "programs": "https://www.owu.edu/academics/majors-minors/",
+    "cost": "https://www.owu.edu/admission/apply/international-students/costs-fees/"
+  },
+  "admissions": {
+    "platforms": [
+      "Common Application",
+      "OWU Online Application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Decision",
+        "kind": "ED",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-15",
+        "date": "15 November 2026",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Enrolment deposit due 31 January.",
+        "status": "confirmed",
+        "source": "https://www.owu.edu/admission/apply/first-year-students/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-12-01",
+        "date": "1 December 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Not binding. Enrolment deposit due 1 May.",
+        "status": "confirmed",
+        "source": "https://www.owu.edu/admission/apply/first-year-students/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Priority scholarship deadline",
+        "kind": "scholarship",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.owu.edu/admission/apply/first-year-students/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-03-01",
+        "date": "1 March 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "After the deadline applications for the autumn are still considered through 1 July. Decisions are sent on a rolling basis once an application is complete. Enrolment deposit due 1 May.",
+        "status": "confirmed",
+        "source": "https://www.owu.edu/admission/apply/first-year-students/",
+        "verified": "2026-10-12",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 0,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "There is no application fee.",
+      "source": "https://www.owu.edu/admission/apply/international-students/how-to-apply/",
+      "verified": "2026-10-12"
+    },
+    "documents": [
+      "Common Application or OWU Online Application",
+      "One essay on a topic of the applicant’s choice",
+      "Official high school transcripts",
+      "Verification of English proficiency, which can include an interview",
+      "External examination results such as O-levels or the IB, where applicable"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": "OWU offers InitialView, Vericant, the Duolingo English Test with interview, or a virtual interview with its own representative after the application is submitted.",
+    "notes": []
+  },
+  "english": {
+    "ielts": null,
+    "toefl": null,
+    "duolingo": {
+      "min": null,
+      "recommended": null,
+      "note": "The Duolingo English Test with interview is one of the accepted ways to verify English; the page gives no minimum score."
+    },
+    "waiver": "All international students must verify their English proficiency.",
+    "note": "The minimum test scores were not read on this check.",
+    "detailsSource": "https://www.owu.edu/admission/apply/international-students/how-to-apply/",
+    "detailsVerified": "2026-10-12"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "Ohio Wesleyan is test-optional; its international scholarship is not awarded on the basis of a minimum GPA or test scores.",
+      "source": "https://www.owu.edu/admission/apply/first-year-students/",
+      "verified": "2026-10-12"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "Ohio Wesleyan is test-optional; its international scholarship is not awarded on the basis of a minimum GPA or test scores.",
+      "source": "https://www.owu.edu/admission/apply/first-year-students/",
+      "verified": "2026-10-12"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "the charges billed by the university; the page does not break them down. Books, travel, personal costs and health insurance are extra",
+      "billed": 71922
+    },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "studentCategory": "International undergraduates",
+    "source": "https://www.owu.edu/admission/apply/international-students/international-scholarships-and-need-based-aid/",
+    "verified": "2026-10-12",
+    "headline": "$71,922 in total billed costs",
+    "items": [
+      {
+        "label": "Total billed costs",
+        "group": "billed",
+        "amount": 71922
+      }
+    ],
+    "billedSubtotal": 71922,
+    "totalText": "$71,922 total billed costs a year, as stated for the autumn 2026 session",
+    "note": "With the $37,000 international scholarship the billed amount left to pay is $34,922 a year (calculated by UniPath from the two published figures)."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "The international scholarship is $37,000 a year against billed costs of $71,922; Ohio Wesleyan says international students are required to contribute to their educational expenses."
+    },
+    "merit": [
+      {
+        "name": "Bashford Scholarship",
+        "amount": "$37,000 a year",
+        "eligibility": "Eligible international students",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": true,
+        "note": "Stated for the autumn 2026 session. Provided for up to eight semesters while the student stays in good academic standing; not based on a minimum GPA or test scores."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": true,
+      "meetsFullNeed": false,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Ohio Wesleyan’s page covers scholarships, department awards and need-based aid for international students and says they are required to contribute towards their expenses; the need-based terms were not read in detail."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Ohio Wesleyan — how to apply, international students",
+      "url": "https://www.owu.edu/admission/apply/international-students/how-to-apply/"
+    },
+    {
+      "label": "Ohio Wesleyan — scholarships for international students",
+      "url": "https://www.owu.edu/admission/apply/international-students/international-scholarships-and-need-based-aid/"
+    },
+    {
+      "label": "Ohio Wesleyan — first-year applicants",
+      "url": "https://www.owu.edu/admission/apply/first-year-students/"
+    },
+    {
+      "label": "Ohio Wesleyan — majors and programmes",
+      "url": "https://www.owu.edu/academics/majors-minors/"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application rounds",
+      "application fee",
+      "test policy",
+      "billed costs and the international scholarship"
+    ],
+    "unconfirmed": [
+      "minimum English test scores",
+      "breakdown of the billed costs",
+      "scholarship amount for autumn 2027",
+      "health insurance terms",
+      "founding year",
+      "admission statistics"
+    ]
+  },
+  "lastVerified": "2026-10-12",
+  "aliases": [
+    "OWU"
+  ]
 }
 );

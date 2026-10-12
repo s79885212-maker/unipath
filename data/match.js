@@ -35,6 +35,14 @@ window.UNIPATH.match = {
   annualCost: {
 
     /* United States expansion, October 2026 */
+    'indiana-university-indianapolis': { currency: 'USD', basis: 'total', min: 56258, max: 56258, note: 'Nine months, international student estimate with health insurance' },
+    'ithaca-college': { currency: 'USD', basis: 'total', min: 83020, max: 83020 },
+    'loyola-university-chicago': { currency: 'USD', basis: 'billed', min: 77082, max: 77082 },
+    'loyola-university-maryland': { currency: 'USD', basis: 'billed', min: 81440, max: 81440 },
+    'occidental-college': { currency: 'USD', basis: 'total', min: 95365, max: 95365, note: 'Travel and health insurance ($4,062 unless waived) are not in this total' },
+    'ohio-wesleyan-university': { currency: 'USD', basis: 'billed', min: 71922, max: 71922 },
+
+    /* United States expansion, October 2026 */
     'fairfield-university': { currency: 'USD', basis: 'billed', min: 82945, max: 82945 },
     'olin-college-of-engineering': { currency: 'USD', basis: 'total', min: 97088, max: 97088, note: 'Before the $10,000 Olin Tuition Scholarship every admitted student receives' },
     'georgia-institute-of-technology': { currency: 'USD', basis: 'total', min: 56194, max: 56194, note: 'Estimate for 2027–2028, out-of-country rate' },
