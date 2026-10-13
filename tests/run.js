@@ -577,6 +577,13 @@ group('corrections after the expansion');
   ok(!bare26.length, 'the six records whose test policy could not be read say “Not checked”, why, and where to look', bare26.join(', '));
   ok(U.uniById('lesley-university').academics.sat.policy === 'not-used' && U.uniById('rensselaer-polytechnic-institute').academics.sat.cycle === 'autumn 2027',
     'Lesley does not use test scores for admission; RPI’s test-optional policy names its cycle');
+  /* Field tags that had come from a pre-law track, a dual-degree route or a graduate school (v114). */
+  var has = function (id, tag) { return U.uniById(id).programs.indexOf(tag) > -1; };
+  ok(!has('spelman-college', 'engineering') && !has('washington-and-jefferson-college', 'engineering') && !has('southern-methodist-university', 'law') &&
+     !has('illinois-institute-of-technology', 'law') && !has('santa-clara-university', 'education') && has('morehouse-college', 'computer-science'),
+    'a dual-degree route, a pre-law track and a graduate school are not shown as fields of study');
+  ok(U.programsPartial(U.uniById('texas-a-and-m-university')) && U.programsPartial(U.uniById('umass-amherst')) && !U.programsPartial(U.uniById('rochester-institute-of-technology')),
+    'records whose full list of majors was not read are marked as partly read');
   var noStatus = DB.universities.filter(function (u) { return !(u.programs || []).length && U.programsChecked(u); }).map(function (u) { return u.id; });
   ok(!noStatus.length, 'a record without field tags says that its list of majors was not checked', noStatus.join(', '));
 })();

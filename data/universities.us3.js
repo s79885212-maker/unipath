@@ -7533,8 +7533,7 @@ window.UNIPATH.universities.push(
     "social-sciences",
     "humanities",
     "arts",
-    "education",
-    "medicine"
+    "education"
   ],
   "englishTaughtPrograms": [
     "business",
@@ -7545,10 +7544,9 @@ window.UNIPATH.universities.push(
     "social-sciences",
     "humanities",
     "arts",
-    "education",
-    "medicine"
+    "education"
   ],
-  "programNote": null,
+  "programNote": "Health and medicine is not listed as a field: no health major appears on the colleges’ list of programmes.",
   "links": {
     "website": "https://www.hws.edu/",
     "admissions": "https://www.hws.edu/admissions/apply/first-year-applicants.aspx",
@@ -8191,8 +8189,7 @@ window.UNIPATH.universities.push(
     "psychology",
     "biology",
     "mathematics",
-    "arts",
-    "law"
+    "arts"
   ],
   "englishTaughtPrograms": [
     "engineering",
@@ -8202,10 +8199,9 @@ window.UNIPATH.universities.push(
     "psychology",
     "biology",
     "mathematics",
-    "arts",
-    "law"
+    "arts"
   ],
-  "programNote": null,
+  "programNote": "Law is not listed as a field: the law programmes on the list are J.D. and LL.M. degrees of Chicago-Kent College of Law.",
   "links": {
     "website": "https://www.iit.edu/",
     "admissions": "https://www.iit.edu/admissions-aid/undergraduate-admission/first-year-students",
@@ -8742,7 +8738,8 @@ window.UNIPATH.universities.push(
       "list of majors"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsStatus": "partial"
 },
 
 {
@@ -9491,7 +9488,8 @@ window.UNIPATH.universities.push(
       "list of majors"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsStatus": "partial"
 },
 
 {
@@ -10972,7 +10970,6 @@ window.UNIPATH.universities.push(
     "business",
     "economics",
     "computer-science",
-    "engineering",
     "psychology",
     "biology",
     "mathematics",
@@ -10985,7 +10982,6 @@ window.UNIPATH.universities.push(
     "business",
     "economics",
     "computer-science",
-    "engineering",
     "psychology",
     "biology",
     "mathematics",
@@ -10994,7 +10990,7 @@ window.UNIPATH.universities.push(
     "arts",
     "education"
   ],
-  "programNote": null,
+  "programNote": "Engineering is not listed as a field: Morehouse’s list shows it as dual-degree programmes with partner institutions. Its own Software Engineering major is counted under computer science.",
   "links": {
     "website": "https://morehouse.edu/",
     "admissions": "https://morehouse.edu/admissions/requirements-and-deadlines",
@@ -14122,7 +14118,8 @@ window.UNIPATH.universities.push(
       "list of majors"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsStatus": "partial"
 },
 
 {
@@ -14150,7 +14147,6 @@ window.UNIPATH.universities.push(
     "business",
     "economics",
     "computer-science",
-    "engineering",
     "psychology",
     "biology",
     "social-sciences",
@@ -14162,7 +14158,6 @@ window.UNIPATH.universities.push(
     "business",
     "economics",
     "computer-science",
-    "engineering",
     "psychology",
     "biology",
     "social-sciences",
@@ -14170,7 +14165,7 @@ window.UNIPATH.universities.push(
     "arts",
     "education"
   ],
-  "programNote": null,
+  "programNote": "Engineering is not listed as a field: W&J’s list shows it as dual-degree programmes with other institutions.",
   "links": {
     "website": "https://www.washjeff.edu/",
     "admissions": "https://www.washjeff.edu/future-students/apply/admission-deadlines/",
@@ -15990,7 +15985,8 @@ window.UNIPATH.universities.push(
       "list of majors"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsStatus": "partial"
 },
 
 {
@@ -16633,7 +16629,6 @@ window.UNIPATH.universities.push(
     "social-sciences",
     "humanities",
     "arts",
-    "law",
     "education"
   ],
   "englishTaughtPrograms": [
@@ -16646,10 +16641,9 @@ window.UNIPATH.universities.push(
     "social-sciences",
     "humanities",
     "arts",
-    "law",
     "education"
   ],
-  "programNote": null,
+  "programNote": "Law is not listed as a field: Legal Studies appears in a combined list of majors and minors that does not say which it is, and Pre-Law is an advising programme.",
   "links": {
     "website": "https://www.lakeforest.edu/",
     "admissions": "https://www.lakeforest.edu/admissions/first-year-students",
@@ -17207,7 +17201,8 @@ window.UNIPATH.universities.push(
       "list of majors"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsStatus": "partial"
 },
 
 {
@@ -17593,18 +17588,14 @@ window.UNIPATH.universities.push(
   "programs": [
     "business",
     "engineering",
-    "psychology",
-    "law",
-    "education"
+    "psychology"
   ],
   "englishTaughtPrograms": [
     "business",
     "engineering",
-    "psychology",
-    "law",
-    "education"
+    "psychology"
   ],
-  "programNote": "Only the fields named on the academics page read are listed.",
+  "programNote": "Only the fields named on the academics page read are listed. Law and education are not listed as fields: the tags had come from the names of Santa Clara’s schools, and no undergraduate major in either was confirmed on the pages read.",
   "links": {
     "website": "https://www.scu.edu/",
     "admissions": "https://www.scu.edu/admission/undergraduate/first-year-students/",
@@ -17891,7 +17882,8 @@ window.UNIPATH.universities.push(
   "lastVerified": "2026-10-12",
   "aliases": [
     "SCU"
-  ]
+  ],
+  "programsStatus": "partial"
 },
 
 {
@@ -17921,7 +17913,6 @@ window.UNIPATH.universities.push(
     "engineering",
     "social-sciences",
     "arts",
-    "law",
     "medicine"
   ],
   "englishTaughtPrograms": [
@@ -17930,10 +17921,9 @@ window.UNIPATH.universities.push(
     "engineering",
     "social-sciences",
     "arts",
-    "law",
     "medicine"
   ],
-  "programNote": null,
+  "programNote": "Law is not listed as a field: the law programmes on the university’s list are graduate degrees of its School of Law.",
   "links": {
     "website": "https://www.seattleu.edu/",
     "admissions": "https://www.seattleu.edu/admissions-aid/undergraduate-admissions/first-year-admissions/how-to-apply/",
@@ -18057,11 +18047,11 @@ window.UNIPATH.universities.push(
       "billed": 78384,
       "budget": 82726
     },
-    "academicYear": null,
+    "academicYear": "2026–2027",
     "currency": "USD",
     "studentCategory": "Full-time undergraduates living on campus",
     "source": "https://www.seattleu.edu/admissions-aid/tuition-and-fees/undergraduate-cost-of-attendance/",
-    "verified": "2026-10-12",
+    "verified": "2026-10-13",
     "headline": "$82,726 total cost of attendance",
     "items": [
       {
@@ -18117,7 +18107,7 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": 78384,
     "totalText": "$82,726 total cost of attendance, of which $78,384 is billed by the university",
-    "note": "The academic year of the budget was not read on the page; Seattle University reserves the right to revise its charges. Health insurance is not in the budget."
+    "note": "The sample budget is headed “2026-27 Undergraduate Student”; Seattle University reserves the right to revise its charges. Health insurance is not in the budget."
   },
   "scholarships": {
     "fullRide": {
@@ -18191,7 +18181,6 @@ window.UNIPATH.universities.push(
       "merit scholarships"
     ],
     "unconfirmed": [
-      "academic year of the cost figures",
       "health insurance terms",
       "founding year",
       "admission statistics"
@@ -18236,7 +18225,6 @@ window.UNIPATH.universities.push(
     "social-sciences",
     "humanities",
     "arts",
-    "law",
     "education"
   ],
   "englishTaughtPrograms": [
@@ -18250,10 +18238,9 @@ window.UNIPATH.universities.push(
     "social-sciences",
     "humanities",
     "arts",
-    "law",
     "education"
   ],
-  "programNote": null,
+  "programNote": "Law is not listed as a field: SMU’s list shows only a pre-law advising track, and the Dedman School of Law is a graduate school.",
   "links": {
     "website": "https://www.smu.edu/",
     "admissions": "https://www.smu.edu/admission/apply/undergraduate-admission/testing",
@@ -18519,7 +18506,6 @@ window.UNIPATH.universities.push(
   "programs": [
     "business",
     "economics",
-    "engineering",
     "psychology",
     "biology",
     "mathematics",
@@ -18531,7 +18517,6 @@ window.UNIPATH.universities.push(
   "englishTaughtPrograms": [
     "business",
     "economics",
-    "engineering",
     "psychology",
     "biology",
     "mathematics",
@@ -18540,7 +18525,7 @@ window.UNIPATH.universities.push(
     "arts",
     "education"
   ],
-  "programNote": null,
+  "programNote": "Engineering is not listed as a field: Spelman’s list shows it only as a Dual Degree Engineering Program completed at a partner institution.",
   "links": {
     "website": "https://www.spelman.edu/",
     "admissions": "https://www.spelman.edu/admissions/applying-to-spelman/first-time-student-applicant.html",
@@ -19799,7 +19784,6 @@ window.UNIPATH.universities.push(
     "engineering",
     "mathematics",
     "humanities",
-    "law",
     "education"
   ],
   "englishTaughtPrograms": [
@@ -19807,10 +19791,9 @@ window.UNIPATH.universities.push(
     "engineering",
     "mathematics",
     "humanities",
-    "law",
     "education"
   ],
-  "programNote": "Only the fields named on the programmes page read are listed.",
+  "programNote": "Only the fields named on the programmes page read are listed. Law is not listed as a field: no undergraduate major in law was found on the page read; the School of Law is a graduate school.",
   "links": {
     "website": "https://www.tamu.edu/",
     "admissions": "https://admissions.tamu.edu/apply/freshman",
@@ -20005,7 +19988,8 @@ window.UNIPATH.universities.push(
     "TAMU",
     "Texas A and M",
     "Texas A&M"
-  ]
+  ],
+  "programsStatus": "partial"
 },
 
 {
@@ -20148,7 +20132,7 @@ window.UNIPATH.universities.push(
     "currency": "USD",
     "studentCategory": "Non-Arizona residents",
     "source": "https://www.arizona.edu/admissions/undergraduate/tuition-aid",
-    "verified": "2026-10-12",
+    "verified": "2026-10-13",
     "headline": "$67,770 total cost of attendance",
     "items": [
       {
@@ -20174,7 +20158,7 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": 44400,
     "totalText": "$67,770 estimated annual cost for non-Arizona residents, of which $44,400 is tuition and fees",
-    "note": "The page shows these estimates next to the announcement that tuition and mandatory fees are frozen for 2027–28; it does not label the estimates with a year. Health insurance is not listed."
+    "note": "The page says the chart is “based on 2026-2026 figures” — printed that way — next to the announcement that tuition and mandatory fees are frozen for 2027–28. Health insurance is not listed."
   },
   "scholarships": {
     "fullRide": {
@@ -20544,7 +20528,8 @@ window.UNIPATH.universities.push(
       "list of majors"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsStatus": "partial"
 },
 
 {
@@ -22089,11 +22074,11 @@ window.UNIPATH.universities.push(
       "billed": 44460,
       "budget": 67800
     },
-    "academicYear": null,
+    "academicYear": "2026–2027",
     "currency": "USD",
     "studentCategory": "Non-resident undergraduates living on or off campus",
     "source": "https://admit.washington.edu/costs/coa/",
-    "verified": "2026-10-12",
+    "verified": "2026-10-13",
     "headline": "$67,800 total cost of attendance",
     "items": [
       {
@@ -22124,7 +22109,7 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": 44460,
     "totalText": "$67,800 non-resident total costs, of which $44,460 is tuition",
-    "note": "The academic year of the table was not read on the page. Health insurance is not listed."
+    "note": "The table is headed “Nine-month expenses for 2026-27”. Health insurance is not listed."
   },
   "scholarships": {
     "fullRide": {
@@ -22194,7 +22179,6 @@ window.UNIPATH.universities.push(
     "unconfirmed": [
       "application fee",
       "English proficiency",
-      "academic year of the cost figures",
       "admission statistics",
       "list of majors"
     ]
@@ -22204,7 +22188,8 @@ window.UNIPATH.universities.push(
     "UW",
     "UDub",
     "University of Washington Seattle"
-  ]
+  ],
+  "programsStatus": "partial"
 },
 
 {
@@ -22542,16 +22527,14 @@ window.UNIPATH.universities.push(
   "programs": [
     "business",
     "computer-science",
-    "arts",
-    "law"
+    "arts"
   ],
   "englishTaughtPrograms": [
     "business",
     "computer-science",
-    "arts",
-    "law"
+    "arts"
   ],
-  "programNote": "Only the fields named on the programmes page read are listed. The record covers the College of Arts & Sciences in Salem, not the Pacific Northwest College of Art in Portland.",
+  "programNote": "Only the fields named on the programmes page read are listed. The record covers the College of Arts & Sciences in Salem, not the Pacific Northwest College of Art in Portland. Law is not listed as a field: the College of Law is a graduate school.",
   "links": {
     "website": "https://www.willamette.edu/",
     "admissions": "https://www.willamette.edu/admissions/apply/undergrad/index.html",
@@ -22778,7 +22761,8 @@ window.UNIPATH.universities.push(
       "list of majors"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsStatus": "partial"
 },
 
 {
@@ -23212,7 +23196,7 @@ window.UNIPATH.universities.push(
     "currency": "USD",
     "studentCategory": "International undergraduates, one academic year",
     "source": "https://www.xavier.edu/international-admission/tuition",
-    "verified": "2026-10-12",
+    "verified": "2026-10-13",
     "headline": "$74,530 total cost of attendance",
     "items": [
       {
@@ -23233,7 +23217,7 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": 54530,
     "totalText": "$74,530 total estimated cost of attendance for one academic year, of which $54,530 is the first line of the estimate",
-    "note": "The page calls this an estimate and does not name the academic year; the label of the first line was not fully read and is taken to be tuition."
+    "note": "The page calls this an estimate for one academic year (autumn and spring semesters) before merit scholarships and does not name the year."
   },
   "scholarships": {
     "fullRide": {
@@ -23313,7 +23297,8 @@ window.UNIPATH.universities.push(
   "aliases": [
     "Xavier University Cincinnati",
     "Xavier Ohio"
-  ]
+  ],
+  "programsStatus": "partial"
 },
 
 {
@@ -23535,7 +23520,8 @@ window.UNIPATH.universities.push(
   "aliases": [
     "XULA",
     "Xavier Louisiana"
-  ]
+  ],
+  "programsStatus": "partial"
 },
 
 {
@@ -26619,7 +26605,8 @@ window.UNIPATH.universities.push(
     "UMass",
     "University of Massachusetts",
     "UMass Amherst"
-  ]
+  ],
+  "programsStatus": "partial"
 },
 
 {
@@ -27690,7 +27677,8 @@ window.UNIPATH.universities.push(
   "aliases": [
     "OU",
     "Oklahoma University"
-  ]
+  ],
+  "programsStatus": "partial"
 },
 
 {
