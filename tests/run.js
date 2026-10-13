@@ -549,8 +549,13 @@ group('corrections after the expansion');
   ok(md.status === 'unknown' && /earlier year/.test(md.text) && /2025–2026/.test(md.text) && dl.status === 'unknown' && /earlier year/.test(dl.text),
     'a figure of a previous cycle is shown as such and never compared with a budget (Maryland, Dillard)', md.text);
   ok(!DB.match.annualCost['university-of-maryland'] && !DB.match.annualCost['dillard-university'], 'previous-cycle figures are not in the match table');
-  var noFig = ['marist-university', 'xavier-university-of-louisiana', 'texas-a-and-m-university'].filter(function (id) { var u = U.uniById(id); return U.costStatus(u) !== 'not-checked' || !U.has(u.costs.note) || !U.has(u.costs.source); });
+  var noFig = ['texas-a-and-m-university'].filter(function (id) { var u = U.uniById(id); return U.costStatus(u) !== 'not-checked' || !U.has(u.costs.note) || !U.has(u.costs.source); });
   ok(!noFig.length, 'a record whose cost page prints no figures stays “not checked” and says why', noFig.join(', '));
+  var mar = U.uniById('marist-university'), xl = U.uniById('xavier-university-of-louisiana');
+  ok(U.budgetAmount(mar) === 76875 && U.billedAmount(mar) === 72040 && bud('marist-university', 76875).status === 'fits', 'Marist: the 2026–27 cost of attendance and its billable part are as printed');
+  var xb = bud('xavier-university-of-louisiana', 50000);
+  ok(U.costPeriod(xl) === 'semester' && /per semester/.test(U.cardCost(xl).text) && xb.status === 'fits-billed' && /calculated by UniPath/.test(xb.text),
+    'Xavier of Louisiana: charges stay per semester; the two-semester sum is marked as calculated', xb.status + ' / ' + xb.text);
   var bare = added().filter(function (u) { var c = u.costs || {}; return (c.items || []).length && !(c.academicYear && c.studentCategory && c.source && c.verified); }).map(function (u) { return u.id; });
   /* Deep Springs has no year by nature (aid, not a price list); the others are
      records whose page gave figures without naming the academic year — a gap

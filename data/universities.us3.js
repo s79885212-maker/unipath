@@ -10391,7 +10391,7 @@ window.UNIPATH.universities.push(
     "scholarships": "https://www.marist.edu/financial-aid/freshman/types-of-aid/scholarships",
     "financialAid": "https://www.marist.edu/financial-aid/freshman",
     "programs": "https://www.marist.edu/academics/programs/complete-list",
-    "cost": "https://www.marist.edu/financial-aid/freshman/tuition-and-fees"
+    "cost": "https://www.marist.edu/financial-aid/freshman/tuition-and-fees/expenses-cost-of-attendance"
   },
   "admissions": {
     "platforms": [
@@ -10500,16 +10500,73 @@ window.UNIPATH.universities.push(
     "internationalQualifications": null
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": "tuition, three fees, housing and food (billable), plus Marist’s estimates for books, transportation, personal expenses and loan fees",
+      "tuition": 50760,
+      "billed": 72040,
+      "budget": 76875
+    },
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
-    "billedSubtotal": null,
-    "totalText": null,
-    "note": "The tuition page prints no figures: it links to a separate “First-Year Expenses & Cost of Attendance” document, which was not opened on this check.",
-    "source": "https://www.marist.edu/financial-aid/freshman/tuition-and-fees",
-    "verified": "2026-10-13"
+    "studentCategory": "First-year resident students",
+    "source": "https://www.marist.edu/financial-aid/freshman/tuition-and-fees/expenses-cost-of-attendance",
+    "verified": "2026-10-13",
+    "headline": "$76,875 total cost of attendance",
+    "items": [
+      {
+        "label": "Tuition (12–16 credits a semester)",
+        "group": "billed",
+        "amount": 50760
+      },
+      {
+        "label": "Activity fee",
+        "group": "billed",
+        "amount": 420
+      },
+      {
+        "label": "Health services fee",
+        "group": "billed",
+        "amount": 520
+      },
+      {
+        "label": "Orientation fee, first semester only",
+        "group": "billed",
+        "amount": 210
+      },
+      {
+        "label": "Housing: first-year residence halls",
+        "group": "billed",
+        "amount": 12430
+      },
+      {
+        "label": "Food",
+        "group": "billed",
+        "amount": 7700
+      },
+      {
+        "label": "Books and supplies",
+        "group": "estimate",
+        "amount": 2425
+      },
+      {
+        "label": "Transportation",
+        "group": "estimate",
+        "amount": 1120
+      },
+      {
+        "label": "Miscellaneous and personal",
+        "group": "estimate",
+        "amount": 1200
+      },
+      {
+        "label": "Federal loan fees",
+        "group": "estimate",
+        "amount": 90
+      }
+    ],
+    "billedSubtotal": 72040,
+    "totalText": "$76,875 total cost of attendance, of which $72,040 is billed by the university",
+    "note": "Marist says the cost of attendance may vary from student to student. Not in the total: an estimated $3,200 a year for students who need Marist’s comprehensive health insurance plan, and fees of particular courses. Credits above 16 a semester are billed at $940 each."
   },
   "scholarships": {
     "fullRide": {
@@ -10572,6 +10629,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Marist — becoming Marist University",
       "url": "https://www.marist.edu/university"
+    },
+    {
+      "label": "Marist — estimated cost of attendance 2026–27, first-year students",
+      "url": "https://www.marist.edu/financial-aid/freshman/tuition-and-fees/expenses-cost-of-attendance"
     }
   ],
   "verification": {
@@ -10579,7 +10640,8 @@ window.UNIPATH.universities.push(
     "checked": [
       "application rounds",
       "test policy",
-      "merit scholarships"
+      "merit scholarships",
+      "published costs"
     ],
     "unconfirmed": [
       "application fee",
@@ -23446,16 +23508,70 @@ window.UNIPATH.universities.push(
     "internationalQualifications": null
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": "the charges of one semester. The annual student health insurance ($2,327), the orientation fee of the first semester ($173), the yearbook ($29), course-specific fees and personal expenses are extra",
+      "tuition": 13835,
+      "tuitionText": "$13,835 per semester",
+      "period": "semester"
+    },
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
-    "billedSubtotal": null,
-    "totalText": null,
-    "note": "The 2026–2027 tuition and fees of the College of Arts and Sciences are published only as a PDF schedule linked from this page; the file was not downloaded on this check, so no figures are recorded.",
+    "studentCategory": "Full-time students (12–18 hours) of the College of Arts and Sciences and Pre-Pharmacy living on campus",
     "source": "https://www.xula.edu/fiscal-services/office-of-student-accounts/office-of-student-accounts-tuition-fees-residential-housing-and-other-costs.html",
-    "verified": "2026-10-13"
+    "verified": "2026-10-13",
+    "headline": "$13,835 tuition per semester for full-time students",
+    "items": [
+      {
+        "label": "Tuition, full time (12–18 hours), per semester",
+        "group": "billed",
+        "amount": 13835
+      },
+      {
+        "label": "Information technology fee, per semester",
+        "group": "billed",
+        "amount": 462
+      },
+      {
+        "label": "XU Gold Book Bundle, per semester",
+        "group": "billed",
+        "amount": 350
+      },
+      {
+        "label": "Health and wellness fee, per semester",
+        "group": "billed",
+        "amount": 214
+      },
+      {
+        "label": "Student activity fee, per semester",
+        "group": "billed",
+        "amount": 144
+      },
+      {
+        "label": "ID system maintenance fee, per semester",
+        "group": "billed",
+        "amount": 11
+      },
+      {
+        "label": "Room and board: a room for two students, by residence hall, per semester",
+        "group": "billed",
+        "min": 5564.5,
+        "max": 6597,
+        "text": "$5,564.50–$6,597"
+      },
+      {
+        "label": "Housing fee, per semester",
+        "group": "billed",
+        "amount": 88
+      },
+      {
+        "label": "Laundry, per semester",
+        "group": "billed",
+        "amount": 45
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "Published per semester for autumn 2026 and spring 2027: tuition $13,835 and five standing fees ($1,181 together), a room for two with board $5,564.50 to $6,597, housing fee and laundry $133. Two semesters come to $41,427–$43,492 — calculated by UniPath; the schedules print no yearly total",
+    "note": "Read from the two PDF schedules for 2026–2027 linked from this page: “College of Arts and Science & Pre-Pharmacy Tuition and Fees” and “Room and Board Cost & Fees”. A room reservation deposit of $300 ($100 of it a non-refundable application fee) is paid once. The schedules do not say whether the health insurance is compulsory for international students."
   },
   "scholarships": {
     "fullRide": {
@@ -23497,6 +23613,18 @@ window.UNIPATH.universities.push(
     {
       "label": "XULA — first-time freshmen",
       "url": "https://www.xula.edu/admissions/undergraduate-admission/firsttimefreshmen/index.html"
+    },
+    {
+      "label": "XULA — tuition and fees schedule 2026–2027, Arts and Sciences (PDF)",
+      "url": "https://www.xula.edu/fiscal-services/office-of-student-accounts/oofsa-assets/forms-2026-2027/cas_pre-pharm-2026-2027.pdf"
+    },
+    {
+      "label": "XULA — room and board schedule 2026–2027 (PDF)",
+      "url": "https://www.xula.edu/fiscal-services/office-of-student-accounts/oofsa-assets/forms-2026-2027/room-and-board-costs-2026-2027.pdf"
+    },
+    {
+      "label": "XULA — tuition, fees, housing and other costs",
+      "url": "https://www.xula.edu/fiscal-services/office-of-student-accounts/office-of-student-accounts-tuition-fees-residential-housing-and-other-costs.html"
     }
   ],
   "verification": {
@@ -23504,7 +23632,8 @@ window.UNIPATH.universities.push(
     "checked": [
       "application fee",
       "English proficiency",
-      "preferred deadlines"
+      "preferred deadlines",
+      "published costs"
     ],
     "unconfirmed": [
       "tuition and fees — the costs page did not load for reading",
