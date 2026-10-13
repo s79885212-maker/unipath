@@ -391,6 +391,9 @@
      has no field tags at all: "not checked" is a status, never the subject
      area "Other", and it is not a statement that a field is missing. */
   function programsChecked(u) { return u.programsStatus !== 'not-checked'; }
+  /* Only some fields were confirmed (the full list could not be read): a field
+     that is absent is then "not confirmed", never "not offered". */
+  function programsPartial(u) { return u.programsStatus === 'partial'; }
   function englishLabel(u) {
     if (u.englishTaught !== true) return null;
     var en = englishPrograms(u), all = u.programs || [];
@@ -1664,7 +1667,7 @@
   global.UP = { initMotion: initMotion, routeEnter: routeEnter, fieldCheck: fieldCheck, degreeValue: degreeValue, FIELD_NOTE_KIND: FIELD_NOTE_KIND,
     DB: DB, esc: esc, has: has, or: or, orRaw: orRaw, qs: qs, money: money, el: el, UNKNOWN: UNKNOWN,
     STATUS: STATUS, statusLabel: statusLabel, statusHtml: statusHtml, feeStatus: feeStatus, costStatus: costStatus, cardTuition: cardTuition, cardCost: cardCost, tuitionLabel: tuitionLabel,
-    recBasis: recBasis, recInfo: recInfo, programsChecked: programsChecked, costAfterAid: costAfterAid, costExtras: costExtras, budgetRange: budgetRange, budgetWithExtras: budgetWithExtras, costArithmetic: costArithmetic, costItemsMismatch: costItemsMismatch, costConflict: costConflict,
+    recBasis: recBasis, recInfo: recInfo, programsChecked: programsChecked, programsPartial: programsPartial, costAfterAid: costAfterAid, costExtras: costExtras, budgetRange: budgetRange, budgetWithExtras: budgetWithExtras, costArithmetic: costArithmetic, costItemsMismatch: costItemsMismatch, costConflict: costConflict,
     DISCLAIMER: DISCLAIMER,
     country: country, field: field, uniById: uniById, unisByCountry: unisByCountry,
     displayName: displayName, uniUrl: uniUrl,

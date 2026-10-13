@@ -4387,7 +4387,7 @@ window.UNIPATH.universities.push(
     "currency": "USD",
     "studentCategory": "Undergraduates living on campus",
     "source": "https://www.dillard.edu/admissions-aid/tuition-costs/",
-    "verified": "2026-10-12",
+    "verified": "2026-10-13",
     "headline": "$44,420 total cost of attendance",
     "items": [
       {
@@ -4423,7 +4423,7 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": 37110,
     "totalText": "$44,420 total cost of attendance, of which $37,110 is billed by the university",
-    "note": "The cost of attendance page still shows 2024–25. Another Dillard page gives 2025–26 tuition of $10,059 and a mandatory fee of $1,900 per semester; no figures for 2026–27 or 2027–28 were found.",
+    "note": "The cost of attendance page, read again on 13 October 2026, still shows 2024–25, so the figures stay marked as a previous cycle and are not used by the match page. Another Dillard page gives 2025–26 tuition of $10,059 and a mandatory fee of $1,900 per semester; no figures for 2026–27 or 2027–28 were found.",
     "status": "previous-cycle"
   },
   "scholarships": {
@@ -4543,7 +4543,7 @@ window.UNIPATH.universities.push(
     "scholarships": "https://drew.edu/admissions-and-aid/undergraduate-admissions/international-admissions/",
     "financialAid": "https://drew.edu/admissions-and-aid/undergraduate-admissions/international-admissions/",
     "programs": "https://drew.edu/programs-of-study/",
-    "cost": "https://drew.edu/admissions-and-aid/undergraduate-admissions/tuition-fees/"
+    "cost": "https://drew.edu/admissions-and-aid/student-financial-services/student-accounts/tuition-and-fees-schedules/"
   },
   "admissions": {
     "platforms": [
@@ -4669,14 +4669,48 @@ window.UNIPATH.universities.push(
     "internationalQualifications": null
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": "tuition only. Fees, housing, food, books and personal expenses are extra",
+      "tuition": 49550
+    },
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "Undergraduates of the College of Liberal Arts",
+    "source": "https://drew.edu/admissions-and-aid/student-financial-services/student-accounts/tuition-and-fees-schedules/",
+    "verified": "2026-10-13",
+    "headline": "$49,550 in tuition",
+    "items": [
+      {
+        "label": "Tuition (12–21 credits)",
+        "group": "billed",
+        "amount": 49550
+      },
+      {
+        "label": "General fee",
+        "group": "billed",
+        "amount": 800
+      },
+      {
+        "label": "Technology fee",
+        "group": "billed",
+        "amount": 350
+      },
+      {
+        "label": "Housing: traditional double room",
+        "group": "billed",
+        "amount": 11480
+      },
+      {
+        "label": "Meal plan (Bronze to Platinum All Access)",
+        "group": "billed",
+        "min": 7608,
+        "max": 8160,
+        "text": "$7,608–$8,160"
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "totalText": "The 2026–2027 schedule prints each charge per semester and as a yearly total — tuition $49,550, fees $1,150, a traditional double room $11,480, a meal plan $7,608 to $8,160 — but no overall total",
+    "note": "Drew’s financial aid page still shows a cost of attendance for 2024–2025 ($69,140 on campus); it is not used here. Graduate students pay an international student administrative fee of $75 a term; the undergraduate schedule lists none."
   },
   "scholarships": {
     "fullRide": {
@@ -4750,6 +4784,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Drew — about",
       "url": "https://drew.edu/about/"
+    },
+    {
+      "label": "Drew — costs read on 13 October 2026",
+      "url": "https://drew.edu/admissions-and-aid/student-financial-services/student-accounts/tuition-and-fees-schedules/"
     }
   ],
   "verification": {
@@ -4759,7 +4797,8 @@ window.UNIPATH.universities.push(
       "test policy",
       "merit scholarships",
       "aid for international students",
-      "founding year"
+      "founding year",
+      "published costs"
     ],
     "unconfirmed": [
       "application fee",
@@ -8430,7 +8469,7 @@ window.UNIPATH.universities.push(
     "scholarships": "https://www.goucher.edu/financial-aid/types-of-financial-aid/scholarships",
     "financialAid": "https://www.goucher.edu/financial-aid/",
     "programs": "https://www.goucher.edu/learn/undergraduate-programs/",
-    "cost": "https://www.goucher.edu/financial-aid/tuition-and-fees/"
+    "cost": "https://www.goucher.edu/billing/tuition-and-fees"
   },
   "admissions": {
     "platforms": [
@@ -8540,13 +8579,42 @@ window.UNIPATH.universities.push(
     "internationalQualifications": null
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": "the charges of one semester. Health insurance (the page prints “$TBD”), books, travel and personal expenses are extra",
+      "tuition": 28750,
+      "tuitionText": "$28,750 per semester",
+      "period": "semester"
+    },
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "Full-time undergraduates (12 or more credits a semester)",
+    "source": "https://www.goucher.edu/billing/tuition-and-fees",
+    "verified": "2026-10-13",
+    "headline": "$28,750 tuition per semester for full-time undergraduates",
+    "items": [
+      {
+        "label": "Tuition (12–18 credits), per semester",
+        "group": "billed",
+        "amount": 28750
+      },
+      {
+        "label": "Student activity fee, per semester",
+        "group": "billed",
+        "amount": 150
+      },
+      {
+        "label": "Housing: double room, per semester",
+        "group": "billed",
+        "amount": 4740
+      },
+      {
+        "label": "Meal plan: 19 meals a week, the minimum for first-year students, per semester",
+        "group": "billed",
+        "amount": 4190
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": null,
+    "totalText": "Published per semester for 2026–2027: tuition $28,750, student activity fee $150, a double room $4,740, the first-year meal plan $4,190. Two semesters of these four charges come to $75,660 — calculated by UniPath; the page prints no yearly total",
     "note": null
   },
   "scholarships": {
@@ -8593,6 +8661,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Goucher — scholarships",
       "url": "https://www.goucher.edu/financial-aid/types-of-financial-aid/scholarships"
+    },
+    {
+      "label": "Goucher — costs read on 13 October 2026",
+      "url": "https://www.goucher.edu/billing/tuition-and-fees"
     }
   ],
   "verification": {
@@ -8602,7 +8674,8 @@ window.UNIPATH.universities.push(
       "application fee",
       "English proficiency",
       "test policy",
-      "required documents"
+      "required documents",
+      "published costs"
     ],
     "unconfirmed": [
       "tuition and fees — the page read describes the charges without amounts",
@@ -8637,9 +8710,37 @@ window.UNIPATH.universities.push(
   "description": "A public research university in Indianapolis, Indiana — the Indiana University campus that was part of IUPUI until 2024. It publishes a full cost estimate for international undergraduates and asks them to apply by 15 February to be considered for admissions-based scholarships.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [],
-  "englishTaughtPrograms": [],
-  "programNote": "The list of degrees and majors could not be read on this check, so no fields are listed. Purdue University in Indianapolis is a separate institution and has no record here.",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "law",
+    "medicine",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "law",
+    "medicine",
+    "education"
+  ],
+  "programNote": "The official list has 136 bachelor’s degrees; online-only programmes are not counted here. Purdue University in Indianapolis is a separate institution and has no record here.",
   "links": {
     "website": "https://indianapolis.iu.edu/",
     "admissions": "https://indianapolis.iu.edu/admissions/apply/",
@@ -8647,7 +8748,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://international.indianapolis.iu.edu/admissions/how-apply/index.html",
     "scholarships": "https://international.indianapolis.iu.edu/admissions/scholarships/index.html",
     "financialAid": "https://indianapolis.iu.edu/cost-aid/",
-    "programs": "https://indianapolis.iu.edu/academics/degrees-majors/",
+    "programs": "https://indianapolis.iu.edu/academics/degrees-majors/?program_type=2",
     "cost": "https://international.indianapolis.iu.edu/admissions/tuition-fees.html"
   },
   "admissions": {
@@ -8853,13 +8954,18 @@ window.UNIPATH.universities.push(
     {
       "label": "IU Indianapolis — about",
       "url": "https://indianapolis.iu.edu/about/"
+    },
+    {
+      "label": "IU Indianapolis — official list of undergraduate programmes",
+      "url": "https://indianapolis.iu.edu/academics/degrees-majors/?program_type=2"
     }
   ],
   "verification": {
     "level": "partial",
     "checked": [
       "application rounds",
-      "cost of attendance for international students"
+      "cost of attendance for international students",
+      "list of majors"
     ],
     "unconfirmed": [
       "application fee",
@@ -8868,8 +8974,7 @@ window.UNIPATH.universities.push(
       "amounts of merit awards",
       "aid for international students",
       "founding year",
-      "admission statistics",
-      "list of majors"
+      "admission statistics"
     ]
   },
   "lastVerified": "2026-10-12",
@@ -8880,7 +8985,100 @@ window.UNIPATH.universities.push(
     "Indiana University–Purdue University Indianapolis",
     "Indiana University Purdue University Indianapolis"
   ],
-  "programsStatus": "not-checked"
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Accounting — Bachelor of Science (Kelley School of Business)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://indianapolis.iu.edu/academics/degrees-majors/?program_type=2",
+      "checked": "2026-10-13"
+    },
+    "economics": {
+      "program": "Economics — Bachelor of Arts",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://indianapolis.iu.edu/academics/degrees-majors/?program_type=2",
+      "checked": "2026-10-13"
+    },
+    "computer-science": {
+      "program": "Computer Science — Bachelor of Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://indianapolis.iu.edu/academics/degrees-majors/?program_type=2",
+      "checked": "2026-10-13"
+    },
+    "engineering": {
+      "program": "Biomedical Engineering — Bachelor of Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://indianapolis.iu.edu/academics/degrees-majors/?program_type=2",
+      "checked": "2026-10-13"
+    },
+    "psychology": {
+      "program": "Psychology — Bachelor of Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://indianapolis.iu.edu/academics/degrees-majors/?program_type=2",
+      "checked": "2026-10-13"
+    },
+    "biology": {
+      "program": "Biology — Bachelor of Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://indianapolis.iu.edu/academics/degrees-majors/?program_type=2",
+      "checked": "2026-10-13"
+    },
+    "mathematics": {
+      "program": "Mathematics — Bachelor of Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://indianapolis.iu.edu/academics/degrees-majors/?program_type=2",
+      "checked": "2026-10-13"
+    },
+    "social-sciences": {
+      "program": "Political Science — Bachelor of Arts",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://indianapolis.iu.edu/academics/degrees-majors/?program_type=2",
+      "checked": "2026-10-13"
+    },
+    "humanities": {
+      "program": "History — Bachelor of Arts",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://indianapolis.iu.edu/academics/degrees-majors/?program_type=2",
+      "checked": "2026-10-13"
+    },
+    "arts": {
+      "program": "Painting — Bachelor of Fine Arts (Herron School of Art and Design)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://indianapolis.iu.edu/academics/degrees-majors/?program_type=2",
+      "checked": "2026-10-13"
+    },
+    "law": {
+      "program": "Law in Liberal Arts — Bachelor of Arts",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://indianapolis.iu.edu/academics/degrees-majors/?program_type=2",
+      "checked": "2026-10-13"
+    },
+    "medicine": {
+      "program": "Nursing (Traditional BSN) — Bachelor of Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://indianapolis.iu.edu/academics/degrees-majors/?program_type=2",
+      "checked": "2026-10-13"
+    },
+    "education": {
+      "program": "Elementary Education — Bachelor of Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://indianapolis.iu.edu/academics/degrees-majors/?program_type=2",
+      "checked": "2026-10-13"
+    }
+  }
 },
 
 {
@@ -9276,7 +9474,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": "https://lesley.edu/costs-financial-aid",
     "programs": null,
-    "cost": "https://lesley.edu/costs-financial-aid"
+    "cost": "https://lesley.edu/costs-financial-aid/understand-the-cost-of-attending-lesley"
   },
   "admissions": {
     "platforms": [],
@@ -9371,14 +9569,48 @@ window.UNIPATH.universities.push(
     "internationalQualifications": null
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": "the charges of one semester. The annual student health insurance premium ($4,173), a $150 orientation fee in the first semester, books and personal expenses are extra",
+      "tuition": 18200,
+      "tuitionText": "$18,200 per semester",
+      "period": "semester"
+    },
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "Full-time on-campus undergraduates (12–16 credits a semester)",
+    "source": "https://lesley.edu/costs-financial-aid/understand-the-cost-of-attending-lesley",
+    "verified": "2026-10-13",
+    "headline": "$18,200 tuition per semester for full-time on-campus undergraduates",
+    "items": [
+      {
+        "label": "Tuition (12–16 credits), per semester",
+        "group": "billed",
+        "amount": 18200
+      },
+      {
+        "label": "Undergraduate comprehensive fee, per semester",
+        "group": "billed",
+        "amount": 525
+      },
+      {
+        "label": "Room: double, triple or quad, per semester",
+        "group": "billed",
+        "amount": 6520
+      },
+      {
+        "label": "Campus meal plan, per semester",
+        "group": "billed",
+        "amount": 4140
+      },
+      {
+        "label": "Health services fee (residents only), per semester",
+        "group": "billed",
+        "amount": 525
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "totalText": "Published per semester for 2026–27: tuition $18,200, comprehensive fee $525, a shared room $6,520, the meal plan $4,140, health services fee $525. Two semesters of these five charges come to $59,820 — calculated by UniPath; the page prints no yearly total",
+    "note": "The page says tuition and fees for 2026–27 “are subject to change June 1”. It lists the student health insurance premium without saying on that page who must buy it."
   },
   "scholarships": {
     "fullRide": {
@@ -9420,13 +9652,18 @@ window.UNIPATH.universities.push(
     {
       "label": "Lesley — how to apply, undergraduate",
       "url": "https://lesley.edu/admissions/undergraduate-students/how-to-apply-undergraduate"
+    },
+    {
+      "label": "Lesley — costs read on 13 October 2026",
+      "url": "https://lesley.edu/costs-financial-aid/understand-the-cost-of-attending-lesley"
     }
   ],
   "verification": {
     "level": "partial",
     "checked": [
       "English proficiency",
-      "deadlines for autumn 2026"
+      "deadlines for autumn 2026",
+      "published costs"
     ],
     "unconfirmed": [
       "dates for autumn 2027 entry",
@@ -10204,7 +10441,9 @@ window.UNIPATH.universities.push(
     "items": [],
     "billedSubtotal": null,
     "totalText": null,
-    "note": null
+    "note": "The tuition page prints no figures: it links to a separate “First-Year Expenses & Cost of Attendance” document, which was not opened on this check.",
+    "source": "https://www.marist.edu/financial-aid/freshman/tuition-and-fees",
+    "verified": "2026-10-13"
   },
   "scholarships": {
     "fullRide": {
@@ -10494,13 +10733,63 @@ window.UNIPATH.universities.push(
     "internationalQualifications": null
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": "tuition, room, meal plan and the first-year fee (direct), plus the college’s planning estimates for books, transportation, loan fees and personal expenses",
+      "tuition": 56500,
+      "billed": 72575,
+      "budget": 77079,
+      "budgetText": "$77,079 — the sum of the lines; the page prints no total"
+    },
+    "academicYear": "2027–2028",
     "currency": "USD",
-    "headline": null,
-    "items": [],
-    "billedSubtotal": null,
-    "totalText": null,
+    "studentCategory": "First-year students living on campus",
+    "source": "https://www.mcdaniel.edu/admissions-cost/cost-financial-aid/undergraduate-tuition-fees",
+    "verified": "2026-10-13",
+    "headline": "$72,575 in the four direct charges of a first-year student on campus",
+    "items": [
+      {
+        "label": "Tuition (up to 20 credits)",
+        "group": "billed",
+        "amount": 56500
+      },
+      {
+        "label": "Housing: standard double room",
+        "group": "billed",
+        "amount": 7600
+      },
+      {
+        "label": "Food: Gold meal plan",
+        "group": "billed",
+        "amount": 7500
+      },
+      {
+        "label": "New Student Comprehensive Fee, charged once in the first semester",
+        "group": "billed",
+        "amount": 975
+      },
+      {
+        "label": "Books and supplies",
+        "group": "estimate",
+        "amount": 1664
+      },
+      {
+        "label": "Transportation",
+        "group": "estimate",
+        "amount": 1618
+      },
+      {
+        "label": "Loan origination fees",
+        "group": "estimate",
+        "amount": 70
+      },
+      {
+        "label": "Personal expenses and miscellaneous fees",
+        "group": "estimate",
+        "amount": 1152
+      }
+    ],
+    "billedSubtotal": 72575,
+    "totalText": "For 2027–2028 the page lists tuition $56,500, room $7,600, meal plan $7,500 and a one-time $975 fee as direct costs, and books, transportation, loan fees and personal expenses as planning estimates. It prints no totals: $72,575 and $77,079 are the sums of those lines",
     "note": null
   },
   "scholarships": {
@@ -10528,7 +10817,7 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": "The award letter comes with the admission decision. The page does not say which amounts international students receive.",
+        "note": "The award letter comes with the admission decision. The page of 2027–2028 costs says merit scholarships range from $18,000 to $33,000 a year; another McDaniel page gave $7,500 to $33,000. Neither says which amounts international students receive.",
         "basis": "merit"
       }
     ],
@@ -10564,6 +10853,10 @@ window.UNIPATH.universities.push(
     {
       "label": "McDaniel — scholarships",
       "url": "https://www.mcdaniel.edu/admissions-cost/cost-financial-aid/types-financial-aid/mcdaniel-scholarships"
+    },
+    {
+      "label": "McDaniel — costs read on 13 October 2026",
+      "url": "https://www.mcdaniel.edu/admissions-cost/cost-financial-aid/undergraduate-tuition-fees"
     }
   ],
   "verification": {
@@ -10573,7 +10866,8 @@ window.UNIPATH.universities.push(
       "application fee",
       "English proficiency",
       "test policy",
-      "merit scholarships"
+      "merit scholarships",
+      "published costs"
     ],
     "unconfirmed": [
       "tuition and fees",
@@ -10641,7 +10935,7 @@ window.UNIPATH.universities.push(
     "scholarships": "https://morehouse.edu/aid/financial-aid/scholarships",
     "financialAid": "https://morehouse.edu/aid/financial-aid/",
     "programs": "https://morehouse.edu/academics/majors-minors",
-    "cost": "https://morehouse.edu/admissions/tuition-and-fees"
+    "cost": "https://morehouse.edu/aid/student-accounts/cost-of-attendance"
   },
   "admissions": {
     "platforms": [
@@ -10764,13 +11058,61 @@ window.UNIPATH.universities.push(
     "internationalQualifications": null
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": "tuition, student fees, food and housing, plus the college’s estimates for books, transportation, loan fees and personal expenses",
+      "tuition": 31026,
+      "budget": 59430
+    },
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "Residential students on campus, enrolled in 6–12 or more credit hours",
+    "source": "https://morehouse.edu/aid/student-accounts/cost-of-attendance",
+    "verified": "2026-10-13",
+    "headline": "$59,430 total cost of attendance",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 31026
+      },
+      {
+        "label": "Student fees",
+        "group": "billed",
+        "amount": 4258
+      },
+      {
+        "label": "Food",
+        "group": "billed",
+        "amount": 4092
+      },
+      {
+        "label": "Housing",
+        "group": "billed",
+        "amount": 11290
+      },
+      {
+        "label": "Books and supplies",
+        "group": "estimate",
+        "amount": 2000
+      },
+      {
+        "label": "Transportation",
+        "group": "estimate",
+        "amount": 2880
+      },
+      {
+        "label": "Loan fees",
+        "group": "estimate",
+        "amount": 200
+      },
+      {
+        "label": "Personal and miscellaneous fees",
+        "group": "estimate",
+        "amount": 3684
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": null,
+    "totalText": "$59,430 total estimated cost for 2026–2027, as printed",
     "note": null
   },
   "scholarships": {
@@ -10821,6 +11163,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Morehouse — home page",
       "url": "https://morehouse.edu/"
+    },
+    {
+      "label": "Morehouse — costs read on 13 October 2026",
+      "url": "https://morehouse.edu/aid/student-accounts/cost-of-attendance"
     }
   ],
   "verification": {
@@ -10829,7 +11175,8 @@ window.UNIPATH.universities.push(
       "application rounds",
       "test policy",
       "required documents",
-      "founding year"
+      "founding year",
+      "published costs"
     ],
     "unconfirmed": [
       "application fee",
@@ -13045,9 +13392,35 @@ window.UNIPATH.universities.push(
   "description": "A public research university in Cincinnati, Ohio, known for co-operative education. SAT and ACT scores are optional. Cincinnati states that it does not offer full-tuition or need-based scholarships to undergraduate international students; its main award for them is $5,000 to $15,000 a year.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [],
-  "englishTaughtPrograms": [],
-  "programNote": "The list of majors could not be read on this check, so no fields are listed. English minimums differ by college.",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "medicine",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "medicine",
+    "education"
+  ],
+  "programNote": "The university’s programme list has 223 bachelor’s entries across its campuses. English minimums differ by college.",
   "links": {
     "website": "https://www.uc.edu/",
     "admissions": "https://www.admissions.uc.edu/",
@@ -13055,7 +13428,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.commonapp.org/",
     "scholarships": "https://www.admissions.uc.edu/information/international/finance/scholarship.html",
     "financialAid": "https://www.admissions.uc.edu/information/international/finance/scholarship.html",
-    "programs": "https://www.uc.edu/majors-programs.html",
+    "programs": "https://webapps2.uc.edu/ecurriculum/degreeprograms/list",
     "cost": "https://www.uc.edu/about/international/admissions/cost.html"
   },
   "admissions": {
@@ -13255,6 +13628,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Cincinnati — scholarships for international students",
       "url": "https://www.admissions.uc.edu/information/international/finance/scholarship.html"
+    },
+    {
+      "label": "Cincinnati — official list of undergraduate programmes",
+      "url": "https://webapps2.uc.edu/ecurriculum/degreeprograms/list"
     }
   ],
   "verification": {
@@ -13264,14 +13641,14 @@ window.UNIPATH.universities.push(
       "English proficiency",
       "test policy",
       "aid for international students",
-      "merit scholarships"
+      "merit scholarships",
+      "list of majors"
     ],
     "unconfirmed": [
       "application fee",
       "academic year of the cost figures",
       "founding year",
-      "admission statistics",
-      "list of majors"
+      "admission statistics"
     ]
   },
   "lastVerified": "2026-10-12",
@@ -13279,7 +13656,93 @@ window.UNIPATH.universities.push(
     "UC",
     "Cincinnati"
   ],
-  "programsStatus": "not-checked"
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Accounting BBA",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://webapps2.uc.edu/ecurriculum/degreeprograms/program/detail/22BAC-ACCT-BBA",
+      "checked": "2026-10-13"
+    },
+    "economics": {
+      "program": "Economics BA",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://webapps2.uc.edu/ecurriculum/degreeprograms/program/detail/22BAC-ECON-BA",
+      "checked": "2026-10-13"
+    },
+    "computer-science": {
+      "program": "Computer Science BSCS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://webapps2.uc.edu/ecurriculum/degreeprograms/program/detail/20BC-CS-BSCS",
+      "checked": "2026-10-13"
+    },
+    "engineering": {
+      "program": "Mechanical Engineering BSME",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://webapps2.uc.edu/ecurriculum/degreeprograms/program/detail/20BC-ME-BSME",
+      "checked": "2026-10-13"
+    },
+    "psychology": {
+      "program": "Psychology BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://webapps2.uc.edu/ecurriculum/degreeprograms/program/detail/15BAC-PSYC-BS",
+      "checked": "2026-10-13"
+    },
+    "biology": {
+      "program": "Biological Sciences BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://webapps2.uc.edu/ecurriculum/degreeprograms/program/detail/15BAC-BIOL-BS",
+      "checked": "2026-10-13"
+    },
+    "mathematics": {
+      "program": "Statistics BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://webapps2.uc.edu/ecurriculum/degreeprograms/program/detail/15BAC-STAT-BS",
+      "checked": "2026-10-13"
+    },
+    "social-sciences": {
+      "program": "Political Science BA",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://webapps2.uc.edu/ecurriculum/degreeprograms/program/detail/15BAC-POL-BA",
+      "checked": "2026-10-13"
+    },
+    "humanities": {
+      "program": "History BA",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://webapps2.uc.edu/ecurriculum/degreeprograms/program/detail/15BAC-HIST-BA",
+      "checked": "2026-10-13"
+    },
+    "arts": {
+      "program": "Music BA",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://webapps2.uc.edu/ecurriculum/degreeprograms/program/detail/16BAC-MUSC-BA",
+      "checked": "2026-10-13"
+    },
+    "medicine": {
+      "program": "Bachelor of Science in Nursing BSN",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://webapps2.uc.edu/ecurriculum/degreeprograms/program/detail/29BAC-NURS-BSN",
+      "checked": "2026-10-13"
+    },
+    "education": {
+      "program": "Elementary Education BSED",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://webapps2.uc.edu/ecurriculum/degreeprograms/program/detail/18BAC-ELEM-BSED",
+      "checked": "2026-10-13"
+    }
+  }
 },
 
 {
@@ -14207,7 +14670,7 @@ window.UNIPATH.universities.push(
     "scholarships": "https://www.wpi.edu/admissions/tuition-aid/types-of-aid/scholarships-grants/wpi-merit",
     "financialAid": "https://www.wpi.edu/admissions/tuition-aid/applying-for-aid/international-students",
     "programs": "https://www.wpi.edu/academics/study",
-    "cost": "https://www.wpi.edu/admissions/tuition-aid/undergraduate-students-new-to-wpi"
+    "cost": "https://www.wpi.edu/admissions/tuition-aid/cost-attendance"
   },
   "admissions": {
     "platforms": [],
@@ -14288,14 +14751,63 @@ window.UNIPATH.universities.push(
     "internationalQualifications": null
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": "tuition, three fees, housing and food, plus WPI’s estimates for books and personal expenses",
+      "tuition": 65438,
+      "tuitionLabel": "Tuition and fees",
+      "budget": 87570
+    },
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "Undergraduates living on campus",
+    "source": "https://www.wpi.edu/admissions/tuition-aid/cost-attendance",
+    "verified": "2026-10-13",
+    "headline": "$87,570 total cost of attendance",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 63936
+      },
+      {
+        "label": "Undergraduate student life fee",
+        "group": "billed",
+        "amount": 492
+      },
+      {
+        "label": "Health and wellness fee",
+        "group": "billed",
+        "amount": 810
+      },
+      {
+        "label": "New student orientation fee",
+        "group": "billed",
+        "amount": 200
+      },
+      {
+        "label": "Housing",
+        "group": "billed",
+        "amount": 10660
+      },
+      {
+        "label": "Food",
+        "group": "billed",
+        "amount": 9072
+      },
+      {
+        "label": "Books, course materials, supplies and equipment",
+        "group": "estimate",
+        "amount": 1200
+      },
+      {
+        "label": "Personal expenses",
+        "group": "estimate",
+        "amount": 1200
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "totalText": "$87,570 total budgeted costs for 2026–2027, of which $65,438 is tuition and fees, as printed",
+    "note": "WPI calls the budget items estimates that may change without notice. Federal loan fees and course-specific fees are not in the total."
   },
   "scholarships": {
     "fullRide": {
@@ -14361,6 +14873,10 @@ window.UNIPATH.universities.push(
     {
       "label": "WPI — majors and programmes",
       "url": "https://www.wpi.edu/academics/study"
+    },
+    {
+      "label": "WPI — costs read on 13 October 2026",
+      "url": "https://www.wpi.edu/admissions/tuition-aid/cost-attendance"
     }
   ],
   "verification": {
@@ -14369,7 +14885,8 @@ window.UNIPATH.universities.push(
       "application fee",
       "English proficiency",
       "test policy",
-      "aid for international students"
+      "aid for international students",
+      "published costs"
     ],
     "unconfirmed": [
       "application rounds",
@@ -14407,9 +14924,27 @@ window.UNIPATH.universities.push(
   "description": "A private liberal arts college for women in Decatur, Georgia, near Atlanta. It is test-optional. Under the Agnes Scott $100K+ Promise every student admitted for Fall 2027, international students included, receives a renewable merit scholarship of at least $25,000 a year; the college offers no need-based aid to international students.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [],
-  "englishTaughtPrograms": [],
-  "programNote": "The list of majors was not read on this check, so no fields are listed.",
+  "programs": [
+    "business",
+    "economics",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "medicine"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "medicine"
+  ],
+  "programNote": "Computer science, engineering and nursing appear in the list only as dual-degree routes with partner institutions, so they are not counted as fields of Agnes Scott.",
   "links": {
     "website": "https://www.agnesscott.edu/",
     "admissions": "https://www.agnesscott.edu/admission/undergraduate-admission/application-dates-deadlines.html",
@@ -14417,7 +14952,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.commonapp.org/",
     "scholarships": "https://www.agnesscott.edu/admission/undergraduate-admission/scholarships-financial-aid/100k-promise.html",
     "financialAid": "https://www.agnesscott.edu/admission/undergraduate-admission/scholarships-financial-aid/index.html",
-    "programs": null,
+    "programs": "https://www.agnesscott.edu/academics/majors-minors/index.html",
     "cost": "https://www.agnesscott.edu/admission/undergraduate-admission/cost-of-attendance.html"
   },
   "admissions": {
@@ -14659,6 +15194,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Agnes Scott — $100K+ Promise",
       "url": "https://www.agnesscott.edu/admission/undergraduate-admission/scholarships-financial-aid/100k-promise.html"
+    },
+    {
+      "label": "Agnes Scott — official list of undergraduate programmes",
+      "url": "https://www.agnesscott.edu/academics/majors-minors/index.html"
     }
   ],
   "verification": {
@@ -14670,17 +15209,75 @@ window.UNIPATH.universities.push(
       "test policy",
       "published costs",
       "aid for international students",
-      "merit scholarships"
+      "merit scholarships",
+      "list of majors"
     ],
     "unconfirmed": [
       "health insurance terms",
       "founding year",
-      "admission statistics",
-      "list of majors"
+      "admission statistics"
     ]
   },
   "lastVerified": "2026-10-12",
-  "programsStatus": "not-checked"
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Business Management",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.agnesscott.edu/academics/majors-minors/index.html",
+      "checked": "2026-10-13"
+    },
+    "economics": {
+      "program": "Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.agnesscott.edu/academics/majors-minors/index.html",
+      "checked": "2026-10-13"
+    },
+    "psychology": {
+      "program": "Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.agnesscott.edu/academics/majors-minors/index.html",
+      "checked": "2026-10-13"
+    },
+    "biology": {
+      "program": "Biology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.agnesscott.edu/academics/majors-minors/index.html",
+      "checked": "2026-10-13"
+    },
+    "mathematics": {
+      "program": "Mathematics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.agnesscott.edu/academics/majors-minors/index.html",
+      "checked": "2026-10-13"
+    },
+    "social-sciences": {
+      "program": "Political Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.agnesscott.edu/academics/majors-minors/index.html",
+      "checked": "2026-10-13"
+    },
+    "humanities": {
+      "program": "History",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.agnesscott.edu/academics/majors-minors/index.html",
+      "checked": "2026-10-13"
+    },
+    "medicine": {
+      "program": "Public Health",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.agnesscott.edu/academics/majors-minors/index.html",
+      "checked": "2026-10-13"
+    }
+  }
 },
 
 {
@@ -16450,9 +17047,25 @@ window.UNIPATH.universities.push(
   "description": "A private liberal arts college in Claremont, California, one of the Claremont Colleges. Pitzer is test-free through the 2026–2027 admission cycle. International applicants who want need-based aid complete Pitzer’s own financial aid application; the pages read do not say how much of their need is met.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [],
-  "englishTaughtPrograms": [],
-  "programNote": "The list of majors was not read on this check, so no fields are listed.",
+  "programs": [
+    "economics",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts"
+  ],
+  "englishTaughtPrograms": [
+    "economics",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts"
+  ],
+  "programNote": "Management Engineering is a joint programme with other institutions and is not counted as a field. Pitzer students may also take courses at the other Claremont Colleges.",
   "links": {
     "website": "https://www.pitzer.edu/",
     "admissions": "https://www.pitzer.edu/offices/admission",
@@ -16460,7 +17073,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.commonapp.org/",
     "scholarships": null,
     "financialAid": "https://www.pitzer.edu/admission-aid/financial-aid-information",
-    "programs": null,
+    "programs": "https://www.pitzer.edu/academics/programs?type%5B1%5D=1",
     "cost": "https://www.pitzer.edu/admission-aid/cost-attendance"
   },
   "admissions": {
@@ -16693,6 +17306,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Pitzer — test-free and test-optional policy",
       "url": "https://www.pitzer.edu/admission-aid/how-apply/test-free-test-optional-policy"
+    },
+    {
+      "label": "Pitzer — official list of undergraduate programmes",
+      "url": "https://www.pitzer.edu/academics/programs?type%5B1%5D=1"
     }
   ],
   "verification": {
@@ -16702,19 +17319,70 @@ window.UNIPATH.universities.push(
       "application fee",
       "English proficiency",
       "test policy",
-      "published costs"
+      "published costs",
+      "list of majors"
     ],
     "unconfirmed": [
       "share of need met",
       "merit scholarships",
       "health insurance terms",
       "founding year",
-      "admission statistics",
-      "list of majors"
+      "admission statistics"
     ]
   },
   "lastVerified": "2026-10-12",
-  "programsStatus": "not-checked"
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "economics": {
+      "program": "Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.pitzer.edu/academics/programs?type%5B1%5D=1",
+      "checked": "2026-10-13"
+    },
+    "psychology": {
+      "program": "Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.pitzer.edu/academics/programs?type%5B1%5D=1",
+      "checked": "2026-10-13"
+    },
+    "biology": {
+      "program": "Biology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.pitzer.edu/academics/programs?type%5B1%5D=1",
+      "checked": "2026-10-13"
+    },
+    "mathematics": {
+      "program": "Mathematics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.pitzer.edu/academics/programs?type%5B1%5D=1",
+      "checked": "2026-10-13"
+    },
+    "social-sciences": {
+      "program": "Political Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.pitzer.edu/academics/programs?type%5B1%5D=1",
+      "checked": "2026-10-13"
+    },
+    "humanities": {
+      "program": "English and World Literature",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.pitzer.edu/academics/programs?type%5B1%5D=1",
+      "checked": "2026-10-13"
+    },
+    "arts": {
+      "program": "Art",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.pitzer.edu/academics/programs?type%5B1%5D=1",
+      "checked": "2026-10-13"
+    }
+  }
 },
 
 {
@@ -16761,7 +17429,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": "https://www.scu.edu/admission/financial-aid/",
     "programs": "https://www.scu.edu/academics/",
-    "cost": "https://www.scu.edu/finance/bursar/tuition/"
+    "cost": "https://www.scu.edu/financialaid/cost-of-attendance/"
   },
   "admissions": {
     "platforms": [
@@ -16915,13 +17583,57 @@ window.UNIPATH.universities.push(
     "internationalQualifications": null
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": "tuition, fees, housing and food (billed), plus the university’s estimates for books, transportation and personal expenses",
+      "tuition": 64956,
+      "billed": 85830,
+      "budget": 92556
+    },
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
-    "billedSubtotal": null,
-    "totalText": null,
+    "studentCategory": "Undergraduates living on campus",
+    "source": "https://www.scu.edu/financialaid/cost-of-attendance/",
+    "verified": "2026-10-13",
+    "headline": "$92,556 total cost of attendance",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 64956
+      },
+      {
+        "label": "Student Engagement & Well-Being Fee",
+        "group": "billed",
+        "amount": 780
+      },
+      {
+        "label": "Housing and food",
+        "group": "billed",
+        "amount": 20094
+      },
+      {
+        "label": "Books and supplies",
+        "group": "estimate",
+        "amount": 1305
+      },
+      {
+        "label": "Transportation",
+        "group": "estimate",
+        "amount": 1386
+      },
+      {
+        "label": "Personal and miscellaneous expenses",
+        "group": "estimate",
+        "amount": 3969
+      },
+      {
+        "label": "Loan fees",
+        "group": "estimate",
+        "amount": 66
+      }
+    ],
+    "billedSubtotal": 85830,
+    "totalText": "$92,556 total cost of attendance, of which $85,830 is billed by the university",
     "note": null
   },
   "scholarships": {
@@ -16968,6 +17680,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Santa Clara — key deadlines for first-year students",
       "url": "https://www.scu.edu/admission/undergraduate/first-year-students/fy-key-deadlines/"
+    },
+    {
+      "label": "Santa Clara — costs read on 13 October 2026",
+      "url": "https://www.scu.edu/financialaid/cost-of-attendance/"
     }
   ],
   "verification": {
@@ -16976,7 +17692,8 @@ window.UNIPATH.universities.push(
       "application rounds",
       "application fee",
       "English proficiency",
-      "test policy"
+      "test policy",
+      "published costs"
     ],
     "unconfirmed": [
       "tuition and fees — the schedule is published as a separate document that was not read",
@@ -17361,7 +18078,7 @@ window.UNIPATH.universities.push(
     "scholarships": "https://www.smu.edu/admission/financial-aid-resources/scholarships-assistance",
     "financialAid": "https://www.smu.edu/admission/financial-aid-resources/scholarships-assistance",
     "programs": "https://www.smu.edu/admission/majors-minors",
-    "cost": "https://www.smu.edu/enrollment-services/student-financial-services/cost-and-payment"
+    "cost": "https://www.smu.edu/enrollment-services/student-financial-services/cost-and-payment/cost-of-attendance"
   },
   "admissions": {
     "platforms": [],
@@ -17454,14 +18171,53 @@ window.UNIPATH.universities.push(
     "internationalQualifications": null
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": "tuition, fees, housing and food (billed), plus the university’s estimates for books, transportation and personal expenses",
+      "tuition": 63736,
+      "billed": 92766,
+      "budget": 96388
+    },
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
-    "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "studentCategory": "Full-time undergraduates (12–18 credit hours a term) living on campus",
+    "source": "https://www.smu.edu/enrollment-services/student-financial-services/cost-and-payment/cost-of-attendance",
+    "verified": "2026-10-13",
+    "headline": "$96,388 total cost of attendance",
+    "items": [
+      {
+        "label": "Estimated tuition",
+        "group": "billed",
+        "amount": 63736
+      },
+      {
+        "label": "Estimated general student fees",
+        "group": "billed",
+        "amount": 8080
+      },
+      {
+        "label": "Housing and food",
+        "group": "billed",
+        "amount": 20950
+      },
+      {
+        "label": "Books, supplies and loan fees",
+        "group": "estimate",
+        "amount": 888
+      },
+      {
+        "label": "Transportation",
+        "group": "estimate",
+        "amount": 1134
+      },
+      {
+        "label": "Personal and miscellaneous expenses",
+        "group": "estimate",
+        "amount": 1600
+      }
+    ],
+    "billedSubtotal": 92766,
+    "totalText": "$96,388 total cost of attendance, of which $92,766 is billed by the university",
+    "note": "For the autumn 2026 and spring 2027 terms; summer and intersession are not included."
   },
   "scholarships": {
     "fullRide": {
@@ -17525,6 +18281,10 @@ window.UNIPATH.universities.push(
     {
       "label": "SMU — majors and programmes",
       "url": "https://www.smu.edu/admission/majors-minors"
+    },
+    {
+      "label": "SMU — costs read on 13 October 2026",
+      "url": "https://www.smu.edu/enrollment-services/student-financial-services/cost-and-payment/cost-of-attendance"
     }
   ],
   "verification": {
@@ -17533,7 +18293,8 @@ window.UNIPATH.universities.push(
       "application rounds",
       "test policy",
       "aid for international students",
-      "merit scholarships"
+      "merit scholarships",
+      "published costs"
     ],
     "unconfirmed": [
       "application fee",
@@ -18191,7 +18952,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": "https://www.stonybrook.edu/undergraduate-admissions/cost-and-aid/",
     "programs": "https://www.stonybrook.edu/academics/majors-minors-and-programs/",
-    "cost": "https://www.stonybrook.edu/undergraduate-admissions/cost-and-aid/"
+    "cost": "https://www.stonybrook.edu/undergraduate-admissions/cost-and-aid/tuition-and-costs.html"
   },
   "admissions": {
     "platforms": [],
@@ -18293,14 +19054,67 @@ window.UNIPATH.universities.push(
     "internationalQualifications": null
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": "tuition, fees, housing and food (billed), plus the university’s estimates for books, transportation and personal expenses",
+      "tuition": 31050,
+      "billed": 54651,
+      "budget": 58799
+    },
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
-    "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "studentCategory": "Full-time out-of-state undergraduates living on campus",
+    "source": "https://www.stonybrook.edu/undergraduate-admissions/cost-and-aid/tuition-and-costs.html",
+    "verified": "2026-10-13",
+    "headline": "$58,799 total cost of attendance",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 31050
+      },
+      {
+        "label": "Fees",
+        "group": "billed",
+        "amount": 3860
+      },
+      {
+        "label": "Housing",
+        "group": "billed",
+        "amount": 12291
+      },
+      {
+        "label": "Meal plan",
+        "group": "billed",
+        "amount": 7450
+      },
+      {
+        "label": "Books",
+        "group": "estimate",
+        "amount": 900
+      },
+      {
+        "label": "Transportation",
+        "group": "estimate",
+        "amount": 840
+      },
+      {
+        "label": "Personal expenses",
+        "group": "estimate",
+        "amount": 2408
+      }
+    ],
+    "billedSubtotal": 54651,
+    "totalText": "$58,799 total cost of attendance, of which $54,651 is billed by the university",
+    "note": "The university marks these as estimates as of 20 February 2026, subject to approval by the State of New York and SUNY; tuition and fees may vary by programme. The page does not say whether international students are charged more than other out-of-state students.",
+    "extras": [
+      {
+        "label": "Health insurance billed through the university",
+        "amount": null,
+        "required": true,
+        "condition": "Full-time students are billed for it unless they show proof of their own coverage; the page gives no amount.",
+        "year": null
+      }
+    ]
   },
   "scholarships": {
     "fullRide": {
@@ -18342,6 +19156,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Stony Brook — majors and programmes",
       "url": "https://www.stonybrook.edu/academics/majors-minors-and-programs/"
+    },
+    {
+      "label": "Stony Brook — costs read on 13 October 2026",
+      "url": "https://www.stonybrook.edu/undergraduate-admissions/cost-and-aid/tuition-and-costs.html"
     }
   ],
   "verification": {
@@ -18349,7 +19167,8 @@ window.UNIPATH.universities.push(
     "checked": [
       "application rounds",
       "English proficiency",
-      "test policy"
+      "test policy",
+      "published costs"
     ],
     "unconfirmed": [
       "application fee",
@@ -18388,9 +19207,37 @@ window.UNIPATH.universities.push(
   "description": "A public research university in Philadelphia, Pennsylvania — the home campus of Temple University, Japan Campus, which has its own record. Temple says scholarship funding for international undergraduates is very competitive and that they are expected to finance the entire cost of their education.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [],
-  "englishTaughtPrograms": [],
-  "programNote": "The list of majors could not be read on this check, so no fields are listed.",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "law",
+    "medicine",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "law",
+    "medicine",
+    "education"
+  ],
+  "programNote": null,
   "links": {
     "website": "https://www.temple.edu/",
     "admissions": "https://admissions.temple.edu/",
@@ -18398,8 +19245,8 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.commonapp.org/",
     "scholarships": "https://sfs.temple.edu/apply/international-students",
     "financialAid": "https://sfs.temple.edu/apply/international-students",
-    "programs": null,
-    "cost": "https://admissions.temple.edu/costs-aid-scholarships"
+    "programs": "https://bulletin.temple.edu/academic-programs/",
+    "cost": "https://sfs.temple.edu/eligibility/your-financial-aid-offer/cost-attendance"
   },
   "admissions": {
     "platforms": [
@@ -18506,14 +19353,57 @@ window.UNIPATH.universities.push(
     "internationalQualifications": null
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": "tuition and fees, plus the university’s budgets for housing, food, books, transportation and personal expenses",
+      "tuition": 37698,
+      "tuitionLabel": "Tuition and fees",
+      "budget": 64384,
+      "budgetMax": 73552,
+      "budgetText": "$64,384–$73,552"
+    },
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "Undergraduates who are not Pennsylvania residents",
+    "source": "https://sfs.temple.edu/eligibility/your-financial-aid-offer/cost-attendance",
+    "verified": "2026-10-13",
+    "headline": "$64,384–$73,552 total cost of attendance",
+    "items": [
+      {
+        "label": "Tuition and fees: College of Liberal Arts to Fox School of Business",
+        "group": "billed",
+        "min": 37698,
+        "max": 46866,
+        "text": "$37,698–$46,866"
+      },
+      {
+        "label": "Housing",
+        "group": "estimate",
+        "amount": 14084
+      },
+      {
+        "label": "Food",
+        "group": "estimate",
+        "amount": 5552
+      },
+      {
+        "label": "Books",
+        "group": "estimate",
+        "amount": 1330
+      },
+      {
+        "label": "Transportation",
+        "group": "estimate",
+        "amount": 2296
+      },
+      {
+        "label": "Other: personal and miscellaneous",
+        "group": "estimate",
+        "amount": 3424
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "totalText": "$64,384 (College of Liberal Arts) to $73,552 (Fox School of Business): the anticipated cost of attendance of non-Pennsylvania residents for autumn 2026 and spring 2027, as printed for these two colleges",
+    "note": "The page prints two colleges as examples and says tuition is set in July each year; other colleges have their own rates. The housing and food budgets are the same for students on and off campus. Temple adds that it does not have sufficient funding to meet a student’s full demonstrated need."
   },
   "scholarships": {
     "fullRide": {
@@ -18566,6 +19456,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Temple — financial services for international students",
       "url": "https://sfs.temple.edu/apply/international-students"
+    },
+    {
+      "label": "Temple — official list of undergraduate programmes",
+      "url": "https://bulletin.temple.edu/academic-programs/"
+    },
+    {
+      "label": "Temple — costs read on 13 October 2026",
+      "url": "https://sfs.temple.edu/eligibility/your-financial-aid-offer/cost-attendance"
     }
   ],
   "verification": {
@@ -18573,7 +19471,9 @@ window.UNIPATH.universities.push(
     "checked": [
       "application rounds",
       "application fee",
-      "aid for international students"
+      "aid for international students",
+      "list of majors",
+      "published costs"
     ],
     "unconfirmed": [
       "minimum English test scores",
@@ -18581,12 +19481,104 @@ window.UNIPATH.universities.push(
       "tuition and fees",
       "amounts of merit awards",
       "founding year",
-      "admission statistics",
-      "list of majors"
+      "admission statistics"
     ]
   },
   "lastVerified": "2026-10-12",
-  "programsStatus": "not-checked"
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Accounting — BBA",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://bulletin.temple.edu/academic-programs/",
+      "checked": "2026-10-13"
+    },
+    "economics": {
+      "program": "Economics — BA",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://bulletin.temple.edu/academic-programs/",
+      "checked": "2026-10-13"
+    },
+    "computer-science": {
+      "program": "Computer Science — BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://bulletin.temple.edu/academic-programs/",
+      "checked": "2026-10-13"
+    },
+    "engineering": {
+      "program": "Mechanical Engineering — BSME",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://bulletin.temple.edu/academic-programs/",
+      "checked": "2026-10-13"
+    },
+    "psychology": {
+      "program": "Psychology — BA",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://bulletin.temple.edu/academic-programs/",
+      "checked": "2026-10-13"
+    },
+    "biology": {
+      "program": "Biology — BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://bulletin.temple.edu/academic-programs/",
+      "checked": "2026-10-13"
+    },
+    "mathematics": {
+      "program": "Mathematics — BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://bulletin.temple.edu/academic-programs/",
+      "checked": "2026-10-13"
+    },
+    "social-sciences": {
+      "program": "Political Science — BA",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://bulletin.temple.edu/academic-programs/",
+      "checked": "2026-10-13"
+    },
+    "humanities": {
+      "program": "History — BA",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://bulletin.temple.edu/academic-programs/",
+      "checked": "2026-10-13"
+    },
+    "arts": {
+      "program": "Dance — BFA",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://bulletin.temple.edu/academic-programs/",
+      "checked": "2026-10-13"
+    },
+    "law": {
+      "program": "Legal Studies — BBA",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://bulletin.temple.edu/academic-programs/",
+      "checked": "2026-10-13"
+    },
+    "medicine": {
+      "program": "Nursing — BSN",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://bulletin.temple.edu/academic-programs/",
+      "checked": "2026-10-13"
+    },
+    "education": {
+      "program": "Secondary Education/English Education — BSEd",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://bulletin.temple.edu/academic-programs/",
+      "checked": "2026-10-13"
+    }
+  }
 },
 
 {
@@ -18747,7 +19739,9 @@ window.UNIPATH.universities.push(
     "items": [],
     "billedSubtotal": null,
     "totalText": null,
-    "note": null
+    "note": "Texas A&M publishes undergraduate costs only through a calculator that asks for the semester, residency (it has an “International” option), housing, rate plan and major. No single yearly table was found, so no figure is recorded.",
+    "source": "https://tuition.tamu.edu/undergraduate",
+    "verified": "2026-10-13"
   },
   "scholarships": {
     "fullRide": {
@@ -18843,9 +19837,19 @@ window.UNIPATH.universities.push(
   "description": "A public research university in Tucson, Arizona. Applicants are considered for merit tuition scholarships with the application; Arizona says more than 82% of new international undergraduates in autumn 2024 received a Global Wildcat Scholarship. It has announced that tuition and fees stay flat for 2027–28.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [],
-  "englishTaughtPrograms": [],
-  "programNote": "The list of majors could not be read on this check, so no fields are listed.",
+  "programs": [
+    "computer-science",
+    "psychology",
+    "social-sciences",
+    "arts"
+  ],
+  "englishTaughtPrograms": [
+    "computer-science",
+    "psychology",
+    "social-sciences",
+    "arts"
+  ],
+  "programNote": "Only part of the list was read: the university’s degree search is drawn by a script and did not load on this check, so the fields below are the ones confirmed on separate official programme pages. Other fields may well exist.",
   "links": {
     "website": "https://www.arizona.edu/",
     "admissions": "https://www.arizona.edu/admissions/deadlines",
@@ -18853,7 +19857,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": null,
     "scholarships": "https://admissions.arizona.edu/cost-aid/international",
     "financialAid": "https://financialaid.arizona.edu/apply-for-aid/international",
-    "programs": null,
+    "programs": "https://www.arizona.edu/degree-search/majors",
     "cost": "https://www.arizona.edu/admissions/undergraduate/tuition-aid"
   },
   "admissions": {
@@ -19036,6 +20040,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Arizona — costs and aid for international students",
       "url": "https://admissions.arizona.edu/cost-aid/international"
+    },
+    {
+      "label": "Arizona — official list of undergraduate programmes",
+      "url": "https://www.arizona.edu/degree-search/majors"
     }
   ],
   "verification": {
@@ -19053,7 +20061,7 @@ window.UNIPATH.universities.push(
       "academic year of the cost estimate",
       "founding year",
       "admission statistics",
-      "list of majors"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-12",
@@ -19062,7 +20070,38 @@ window.UNIPATH.universities.push(
     "UArizona",
     "U of A"
   ],
-  "programsStatus": "not-checked"
+  "programsStatus": "partial",
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "computer-science": {
+      "program": "Bachelor of Science in Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://cs.arizona.edu/undergraduate/bachelor-science",
+      "checked": "2026-10-13"
+    },
+    "psychology": {
+      "program": "Psychological Science (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.arizona.edu/degree-search/majors/psychological-science",
+      "checked": "2026-10-13"
+    },
+    "social-sciences": {
+      "program": "Political Science (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.arizona.edu/degree-search/majors/political-science",
+      "checked": "2026-10-13"
+    },
+    "arts": {
+      "program": "Dance (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.arizona.edu/degree-search/majors/dance",
+      "checked": "2026-10-13"
+    }
+  }
 },
 
 {
@@ -19329,9 +20368,35 @@ window.UNIPATH.universities.push(
   "description": "A public research university in Chapel Hill, North Carolina, chartered in 1789. UNC states that international students are not eligible for need-based financial aid and should be prepared to pay the full cost of attendance for non-resident students. SAT or ACT scores are optional with a weighted GPA of 2.8 or above.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [],
-  "englishTaughtPrograms": [],
-  "programNote": "The list of majors could not be read on this check, so no fields are listed.",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "medicine",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "medicine",
+    "education"
+  ],
+  "programNote": null,
   "links": {
     "website": "https://www.unc.edu/",
     "admissions": "https://admissions.unc.edu/apply/international-students/",
@@ -19339,7 +20404,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.commonapp.org/",
     "scholarships": null,
     "financialAid": "https://studentaid.unc.edu/",
-    "programs": null,
+    "programs": "https://catalog.unc.edu/undergraduate/programs-study/",
     "cost": "https://cashier.unc.edu/tuition-fees/undergraduate-programs/"
   },
   "admissions": {
@@ -19525,6 +20590,10 @@ window.UNIPATH.universities.push(
     {
       "label": "UNC — home page",
       "url": "https://www.unc.edu/"
+    },
+    {
+      "label": "UNC — official list of undergraduate programmes",
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/"
     }
   ],
   "verification": {
@@ -19536,13 +20605,13 @@ window.UNIPATH.universities.push(
       "test policy",
       "aid for international students",
       "tuition and fees 2026–2027",
-      "founding year"
+      "founding year",
+      "list of majors"
     ],
     "unconfirmed": [
       "housing, food and insurance costs",
       "merit scholarships",
-      "admission statistics",
-      "list of majors"
+      "admission statistics"
     ]
   },
   "lastVerified": "2026-10-12",
@@ -19552,7 +20621,93 @@ window.UNIPATH.universities.push(
     "University of North Carolina",
     "Carolina"
   ],
-  "programsStatus": "not-checked"
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Business Administration Major, B.S.B.A.",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/",
+      "checked": "2026-10-13"
+    },
+    "economics": {
+      "program": "Economics Major, B.A.",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/",
+      "checked": "2026-10-13"
+    },
+    "computer-science": {
+      "program": "Computer Science Major, B.S.",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/",
+      "checked": "2026-10-13"
+    },
+    "engineering": {
+      "program": "Biomedical Engineering Major, B.S.",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/",
+      "checked": "2026-10-13"
+    },
+    "psychology": {
+      "program": "Psychology Major, B.A.",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/",
+      "checked": "2026-10-13"
+    },
+    "biology": {
+      "program": "Biology Major, B.S.",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/",
+      "checked": "2026-10-13"
+    },
+    "mathematics": {
+      "program": "Mathematics Major, B.S.",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/",
+      "checked": "2026-10-13"
+    },
+    "social-sciences": {
+      "program": "Political Science Major, B.A.",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/",
+      "checked": "2026-10-13"
+    },
+    "humanities": {
+      "program": "History Major, B.A.",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/",
+      "checked": "2026-10-13"
+    },
+    "arts": {
+      "program": "Music Major, B.A.",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/",
+      "checked": "2026-10-13"
+    },
+    "medicine": {
+      "program": "Nursing Major, B.S.N.",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/",
+      "checked": "2026-10-13"
+    },
+    "education": {
+      "program": "Elementary Education Major, B.A.Ed.",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/",
+      "checked": "2026-10-13"
+    }
+  }
 },
 
 {
@@ -19576,9 +20731,31 @@ window.UNIPATH.universities.push(
   "description": "A private research university in Denver, Colorado. It is test-optional. The University of Denver states that it offers no need-based aid to international students; they are considered automatically for merit scholarships of $15,000 to $40,000 a year, and the university says very few of these cover the full cost.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [],
-  "englishTaughtPrograms": [],
-  "programNote": "The list of majors could not be read on this check, so no fields are listed.",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts"
+  ],
+  "programNote": "The undergraduate bulletin lists majors and minors by department; where it prints no degree name, the department entry is shown.",
   "links": {
     "website": "https://www.du.edu/",
     "admissions": "https://www.du.edu/admission-aid/undergraduate/international-applicants/first-year",
@@ -19586,7 +20763,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.commonapp.org/",
     "scholarships": "https://www.du.edu/admission-aid/undergraduate/international-applicants/tuition",
     "financialAid": "https://www.du.edu/admission-aid/undergraduate/international-applicants/tuition",
-    "programs": null,
+    "programs": "https://bulletin.du.edu/undergraduate/majorsminorscoursedescriptions/",
     "cost": "https://www.du.edu/admission-aid/undergraduate/international-applicants/tuition"
   },
   "admissions": {
@@ -19808,6 +20985,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Denver — English language proficiency",
       "url": "https://www.du.edu/admission-aid/undergraduate/international-applicants/english-proficiency-requirements"
+    },
+    {
+      "label": "Denver — official list of undergraduate programmes",
+      "url": "https://bulletin.du.edu/undergraduate/majorsminorscoursedescriptions/"
     }
   ],
   "verification": {
@@ -19819,19 +21000,91 @@ window.UNIPATH.universities.push(
       "test policy",
       "cost of attendance for international students",
       "aid for international students",
-      "merit scholarships"
+      "merit scholarships",
+      "list of majors"
     ],
     "unconfirmed": [
       "founding year",
-      "admission statistics",
-      "list of majors"
+      "admission statistics"
     ]
   },
   "lastVerified": "2026-10-12",
   "aliases": [
     "DU"
   ],
-  "programsStatus": "not-checked"
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Bachelor of Science in Accounting (BSAcc)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://bulletin.du.edu/undergraduate/majorsminorscoursedescriptions/",
+      "checked": "2026-10-13"
+    },
+    "economics": {
+      "program": "Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://bulletin.du.edu/undergraduate/majorsminorscoursedescriptions/",
+      "checked": "2026-10-13"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://bulletin.du.edu/undergraduate/majorsminorscoursedescriptions/",
+      "checked": "2026-10-13"
+    },
+    "engineering": {
+      "program": "Bachelor of Science in Computer Engineering (BSCpE)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://bulletin.du.edu/undergraduate/majorsminorscoursedescriptions/",
+      "checked": "2026-10-13"
+    },
+    "psychology": {
+      "program": "Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://bulletin.du.edu/undergraduate/majorsminorscoursedescriptions/",
+      "checked": "2026-10-13"
+    },
+    "biology": {
+      "program": "Biological Sciences",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://bulletin.du.edu/undergraduate/majorsminorscoursedescriptions/",
+      "checked": "2026-10-13"
+    },
+    "mathematics": {
+      "program": "Mathematics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://bulletin.du.edu/undergraduate/majorsminorscoursedescriptions/",
+      "checked": "2026-10-13"
+    },
+    "social-sciences": {
+      "program": "Political Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://bulletin.du.edu/undergraduate/majorsminorscoursedescriptions/",
+      "checked": "2026-10-13"
+    },
+    "humanities": {
+      "program": "History",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://bulletin.du.edu/undergraduate/majorsminorscoursedescriptions/",
+      "checked": "2026-10-13"
+    },
+    "arts": {
+      "program": "Bachelor of Music (BM)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://bulletin.du.edu/undergraduate/majorsminorscoursedescriptions/",
+      "checked": "2026-10-13"
+    }
+  }
 },
 
 {
@@ -19855,9 +21108,35 @@ window.UNIPATH.universities.push(
   "description": "A public research university in College Park, Maryland. It is test-optional through the spring and autumn 2027 application cycles. International applicants submit Duolingo, IELTS or TOEFL scores less than two years old; the pages read give no minimum scores, costs or aid terms for them.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [],
-  "englishTaughtPrograms": [],
-  "programNote": "The list of majors could not be read on this check, so no fields are listed.",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "medicine",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "medicine",
+    "education"
+  ],
+  "programNote": null,
   "links": {
     "website": "https://umd.edu/",
     "admissions": "https://admissions.umd.edu/apply/freshman-applicants",
@@ -19865,8 +21144,8 @@ window.UNIPATH.universities.push(
     "applicationPortal": null,
     "scholarships": "https://admissions.umd.edu/tuition/freshman-merit-scholarships",
     "financialAid": "https://admissions.umd.edu/tuition",
-    "programs": null,
-    "cost": "https://admissions.umd.edu/tuition"
+    "programs": "https://academiccatalog.umd.edu/undergraduate/colleges-schools/",
+    "cost": "https://admissions.umd.edu/tuition/cost-of-attendance"
   },
   "admissions": {
     "platforms": [],
@@ -19947,14 +21226,59 @@ window.UNIPATH.universities.push(
     "internationalQualifications": null
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": "tuition, fees, housing and food (billed), plus the university’s estimates for books, transportation and personal expenses",
+      "tuition": 41974,
+      "tuitionLabel": "Tuition and fees",
+      "billed": 58410,
+      "budget": 62374
+    },
+    "academicYear": "2025–2026",
     "currency": "USD",
-    "headline": null,
-    "items": [],
-    "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "studentCategory": "Non-resident (out-of-state) undergraduates living on campus",
+    "source": "https://admissions.umd.edu/tuition/cost-of-attendance",
+    "verified": "2026-10-13",
+    "headline": "$62,374 total cost of attendance",
+    "items": [
+      {
+        "label": "Tuition and fees",
+        "group": "billed",
+        "amount": 41974
+      },
+      {
+        "label": "On-campus housing and food",
+        "group": "billed",
+        "amount": 16436
+      },
+      {
+        "label": "Books and supplies",
+        "group": "estimate",
+        "amount": 1250
+      },
+      {
+        "label": "Transportation",
+        "group": "estimate",
+        "amount": 1514
+      },
+      {
+        "label": "Miscellaneous personal expenses",
+        "group": "estimate",
+        "amount": 1200
+      }
+    ],
+    "billedSubtotal": 58410,
+    "totalText": "$62,374 total estimated cost of attendance for 2025–2026 — the previous year; the page read on 13 October 2026 shows no later figures",
+    "note": "Students majoring in business, engineering and computer science are charged additional tuition. The page adds that international students may have higher living expenses.",
+    "extras": [
+      {
+        "label": "Fee for students who need an I-20 or DS-2019 issued by the university",
+        "amount": 250,
+        "required": true,
+        "condition": "$125 each semester; not included in the table above.",
+        "year": "2025–2026"
+      }
+    ],
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -19996,6 +21320,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Maryland — application deadlines",
       "url": "https://admissions.umd.edu/apply/application-deadlines"
+    },
+    {
+      "label": "Maryland — official list of undergraduate programmes",
+      "url": "https://academiccatalog.umd.edu/undergraduate/colleges-schools/"
+    },
+    {
+      "label": "Maryland — costs read on 13 October 2026",
+      "url": "https://admissions.umd.edu/tuition/cost-of-attendance"
     }
   ],
   "verification": {
@@ -20003,7 +21335,9 @@ window.UNIPATH.universities.push(
     "checked": [
       "application fee",
       "test policy",
-      "Early Action date"
+      "Early Action date",
+      "list of majors",
+      "published costs"
     ],
     "unconfirmed": [
       "Regular Decision deadline",
@@ -20012,8 +21346,7 @@ window.UNIPATH.universities.push(
       "aid for international students",
       "merit scholarships",
       "founding year",
-      "admission statistics",
-      "list of majors"
+      "admission statistics"
     ]
   },
   "lastVerified": "2026-10-12",
@@ -20022,7 +21355,93 @@ window.UNIPATH.universities.push(
     "University of Maryland",
     "Maryland"
   ],
-  "programsStatus": "not-checked"
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Finance Major",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://academiccatalog.umd.edu/undergraduate/colleges-schools/",
+      "checked": "2026-10-13"
+    },
+    "economics": {
+      "program": "Economics Major",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://academiccatalog.umd.edu/undergraduate/colleges-schools/",
+      "checked": "2026-10-13"
+    },
+    "computer-science": {
+      "program": "Computer Science Major",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://academiccatalog.umd.edu/undergraduate/colleges-schools/",
+      "checked": "2026-10-13"
+    },
+    "engineering": {
+      "program": "Electrical Engineering Major",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://academiccatalog.umd.edu/undergraduate/colleges-schools/",
+      "checked": "2026-10-13"
+    },
+    "psychology": {
+      "program": "Psychology Major",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://academiccatalog.umd.edu/undergraduate/colleges-schools/",
+      "checked": "2026-10-13"
+    },
+    "biology": {
+      "program": "Biological Sciences Major",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://academiccatalog.umd.edu/undergraduate/colleges-schools/",
+      "checked": "2026-10-13"
+    },
+    "mathematics": {
+      "program": "Mathematics Major",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://academiccatalog.umd.edu/undergraduate/colleges-schools/",
+      "checked": "2026-10-13"
+    },
+    "social-sciences": {
+      "program": "Government and Politics Major",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://academiccatalog.umd.edu/undergraduate/colleges-schools/",
+      "checked": "2026-10-13"
+    },
+    "humanities": {
+      "program": "History Major",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://academiccatalog.umd.edu/undergraduate/colleges-schools/",
+      "checked": "2026-10-13"
+    },
+    "arts": {
+      "program": "Music Major",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://academiccatalog.umd.edu/undergraduate/colleges-schools/",
+      "checked": "2026-10-13"
+    },
+    "medicine": {
+      "program": "Public Health Science Major",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://academiccatalog.umd.edu/undergraduate/colleges-schools/",
+      "checked": "2026-10-13"
+    },
+    "education": {
+      "program": "Elementary Education Major",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://academiccatalog.umd.edu/undergraduate/colleges-schools/",
+      "checked": "2026-10-13"
+    }
+  }
 },
 
 {
@@ -20046,9 +21465,31 @@ window.UNIPATH.universities.push(
   "description": "A private Catholic university in San Diego, California — not the public University of California, San Diego. It is test-free through Fall 2027: standardized tests are not viewed in admission. The pages read give exact dates for Fall 2027 and the 2026–27 charges, but no English minimums or aid terms for international students.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [],
-  "englishTaughtPrograms": [],
-  "programNote": "The list of majors could not be read on this check, so no fields are listed.",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts"
+  ],
+  "programNote": "Teaching credentials appear in the list as emphases and credentials, not as a major, so education is not counted as a field.",
   "links": {
     "website": "https://www.sandiego.edu/",
     "admissions": "https://www.sandiego.edu/admission-and-aid/undergraduate/apply/",
@@ -20056,7 +21497,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.commonapp.org/",
     "scholarships": null,
     "financialAid": "https://www.sandiego.edu/admission-and-aid/undergraduate/tuition-and-financial-aid/",
-    "programs": null,
+    "programs": "https://www.sandiego.edu/academics/majors-and-minors.php",
     "cost": "https://www.sandiego.edu/torero-hub/tuition-and-fees/undergraduate.php"
   },
   "admissions": {
@@ -20233,6 +21674,10 @@ window.UNIPATH.universities.push(
     {
       "label": "USD — test-free policy",
       "url": "https://www.sandiego.edu/admission-and-aid/undergraduate/apply/test-free.php"
+    },
+    {
+      "label": "USD — official list of undergraduate programmes",
+      "url": "https://www.sandiego.edu/academics/majors-and-minors.php"
     }
   ],
   "verification": {
@@ -20240,7 +21685,8 @@ window.UNIPATH.universities.push(
     "checked": [
       "application rounds",
       "test policy",
-      "published costs"
+      "published costs",
+      "list of majors"
     ],
     "unconfirmed": [
       "application fee",
@@ -20248,8 +21694,7 @@ window.UNIPATH.universities.push(
       "aid for international students",
       "merit scholarships",
       "founding year",
-      "admission statistics",
-      "list of majors"
+      "admission statistics"
     ]
   },
   "lastVerified": "2026-10-12",
@@ -20257,7 +21702,79 @@ window.UNIPATH.universities.push(
     "USD",
     "San Diego"
   ],
-  "programsStatus": "not-checked"
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Business Administration — BBA",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sandiego.edu/academics/majors-and-minors.php",
+      "checked": "2026-10-13"
+    },
+    "economics": {
+      "program": "Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sandiego.edu/academics/majors-and-minors.php",
+      "checked": "2026-10-13"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sandiego.edu/academics/majors-and-minors.php",
+      "checked": "2026-10-13"
+    },
+    "engineering": {
+      "program": "Mechanical Engineering",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sandiego.edu/academics/majors-and-minors.php",
+      "checked": "2026-10-13"
+    },
+    "psychology": {
+      "program": "Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sandiego.edu/academics/majors-and-minors.php",
+      "checked": "2026-10-13"
+    },
+    "biology": {
+      "program": "Biology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sandiego.edu/academics/majors-and-minors.php",
+      "checked": "2026-10-13"
+    },
+    "mathematics": {
+      "program": "Mathematics — BA",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sandiego.edu/academics/majors-and-minors.php",
+      "checked": "2026-10-13"
+    },
+    "social-sciences": {
+      "program": "International Relations",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sandiego.edu/academics/majors-and-minors.php",
+      "checked": "2026-10-13"
+    },
+    "humanities": {
+      "program": "History",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sandiego.edu/academics/majors-and-minors.php",
+      "checked": "2026-10-13"
+    },
+    "arts": {
+      "program": "Music",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sandiego.edu/academics/majors-and-minors.php",
+      "checked": "2026-10-13"
+    }
+  }
 },
 
 {
@@ -21491,7 +23008,7 @@ window.UNIPATH.universities.push(
     "scholarships": "https://www.xula.edu/financialaid/scholarships/index.html",
     "financialAid": "https://www.xula.edu/international-ed/scholarship-and-funding-options.html",
     "programs": "https://www.xula.edu/academics/collegeprogram.html",
-    "cost": null
+    "cost": "https://www.xula.edu/fiscal-services/office-of-student-accounts/office-of-student-accounts-tuition-fees-residential-housing-and-other-costs.html"
   },
   "admissions": {
     "platforms": [],
@@ -21601,7 +23118,9 @@ window.UNIPATH.universities.push(
     "items": [],
     "billedSubtotal": null,
     "totalText": null,
-    "note": null
+    "note": "The 2026–2027 tuition and fees of the College of Arts and Sciences are published only as a PDF schedule linked from this page; the file was not downloaded on this check, so no figures are recorded.",
+    "source": "https://www.xula.edu/fiscal-services/office-of-student-accounts/office-of-student-accounts-tuition-fees-residential-housing-and-other-costs.html",
+    "verified": "2026-10-13"
   },
   "scholarships": {
     "fullRide": {
@@ -21690,9 +23209,35 @@ window.UNIPATH.universities.push(
   "description": "A private university in Hempstead, New York. SAT and ACT scores are not required. International students are considered automatically for academic merit scholarships only: Hofstra states that it offers neither full-ride scholarships nor need-based financial aid to international students.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [],
-  "englishTaughtPrograms": [],
-  "programNote": "The list of majors could not be read on this check, so no fields are listed.",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "medicine",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "medicine",
+    "education"
+  ],
+  "programNote": null,
   "links": {
     "website": "https://www.hofstra.edu/",
     "admissions": "https://www.hofstra.edu/admission/undergraduate-admission/",
@@ -21700,7 +23245,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.commonapp.org/",
     "scholarships": "https://www.hofstra.edu/admission/scholarship-opportunities.html",
     "financialAid": "https://www.hofstra.edu/admission/scholarship-opportunities.html",
-    "programs": null,
+    "programs": "https://www.hofstra.edu/academics/academic-offerings/?programs=undergraduate-programs",
     "cost": "https://www.hofstra.edu/admission/cost-attendance.html"
   },
   "admissions": {
@@ -21898,6 +23443,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Hofstra — scholarships",
       "url": "https://www.hofstra.edu/admission/scholarship-opportunities.html"
+    },
+    {
+      "label": "Hofstra — official list of undergraduate programmes",
+      "url": "https://www.hofstra.edu/academics/academic-offerings/?programs=undergraduate-programs"
     }
   ],
   "verification": {
@@ -21905,7 +23454,8 @@ window.UNIPATH.universities.push(
     "checked": [
       "application rounds",
       "test policy",
-      "aid for international students"
+      "aid for international students",
+      "list of majors"
     ],
     "unconfirmed": [
       "application fee",
@@ -21913,12 +23463,97 @@ window.UNIPATH.universities.push(
       "amounts of merit awards",
       "costs for 2026–27",
       "founding year",
-      "admission statistics",
-      "list of majors"
+      "admission statistics"
     ]
   },
   "lastVerified": "2026-10-12",
-  "programsStatus": "not-checked"
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "BBA in Accounting",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.hofstra.edu/academics/academic-offerings/?programs=undergraduate-programs",
+      "checked": "2026-10-13"
+    },
+    "economics": {
+      "program": "BA in Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.hofstra.edu/academics/academic-offerings/?programs=undergraduate-programs",
+      "checked": "2026-10-13"
+    },
+    "computer-science": {
+      "program": "BS in Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.hofstra.edu/academics/academic-offerings/?programs=undergraduate-programs",
+      "checked": "2026-10-13"
+    },
+    "engineering": {
+      "program": "BS in Civil Engineering",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.hofstra.edu/academics/academic-offerings/?programs=undergraduate-programs",
+      "checked": "2026-10-13"
+    },
+    "psychology": {
+      "program": "Psychology (BA)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.hofstra.edu/academics/academic-offerings/?programs=undergraduate-programs",
+      "checked": "2026-10-13"
+    },
+    "biology": {
+      "program": "BS in Biology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.hofstra.edu/academics/academic-offerings/?programs=undergraduate-programs",
+      "checked": "2026-10-13"
+    },
+    "mathematics": {
+      "program": "BS in Financial and Actuarial Mathematics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.hofstra.edu/academics/academic-offerings/?programs=undergraduate-programs",
+      "checked": "2026-10-13"
+    },
+    "social-sciences": {
+      "program": "BA in Political Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.hofstra.edu/academics/academic-offerings/?programs=undergraduate-programs",
+      "checked": "2026-10-13"
+    },
+    "humanities": {
+      "program": "BA in Art History",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.hofstra.edu/academics/academic-offerings/?programs=undergraduate-programs",
+      "checked": "2026-10-13"
+    },
+    "arts": {
+      "program": "BA in Art",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.hofstra.edu/academics/academic-offerings/?programs=undergraduate-programs",
+      "checked": "2026-10-13"
+    },
+    "medicine": {
+      "program": "BS in Nursing",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.hofstra.edu/academics/academic-offerings/?programs=undergraduate-programs",
+      "checked": "2026-10-13"
+    },
+    "education": {
+      "program": "BSEd in Dance Education",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.hofstra.edu/academics/academic-offerings/?programs=undergraduate-programs",
+      "checked": "2026-10-13"
+    }
+  }
 },
 
 {
@@ -21942,9 +23577,33 @@ window.UNIPATH.universities.push(
   "description": "A private technological university in Rochester, New York. International applicants are considered for merit scholarships just by applying; first-year merit scholarships range from $14,000 to $30,000 a year. RIT says it does not typically offer full-cost or full-tuition scholarships to undergraduates.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [],
-  "englishTaughtPrograms": [],
-  "programNote": "The list of majors could not be read on this check, so no fields are listed.",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "medicine"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "medicine"
+  ],
+  "programNote": null,
   "links": {
     "website": "https://www.rit.edu/",
     "admissions": "https://www.rit.edu/admissions/first-year-application",
@@ -21952,7 +23611,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.commonapp.org/",
     "scholarships": "https://www.rit.edu/admissions/aid/merit-based-scholarships",
     "financialAid": "https://www.rit.edu/admissions/financial-aid/international-students",
-    "programs": null,
+    "programs": "https://www.rit.edu/study/bachelors",
     "cost": "https://www.rit.edu/admissions/tuition-and-fees"
   },
   "admissions": {
@@ -22204,6 +23863,10 @@ window.UNIPATH.universities.push(
     {
       "label": "RIT — scholarships",
       "url": "https://www.rit.edu/admissions/aid/merit-based-scholarships"
+    },
+    {
+      "label": "RIT — official list of undergraduate programmes",
+      "url": "https://www.rit.edu/study/bachelors"
     }
   ],
   "verification": {
@@ -22213,20 +23876,99 @@ window.UNIPATH.universities.push(
       "application fee",
       "English proficiency",
       "published costs",
-      "merit scholarships"
+      "merit scholarships",
+      "list of majors"
     ],
     "unconfirmed": [
       "health insurance terms",
       "founding year",
-      "admission statistics",
-      "list of majors"
+      "admission statistics"
     ]
   },
   "lastVerified": "2026-10-12",
   "aliases": [
     "RIT"
   ],
-  "programsStatus": "not-checked"
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Accounting BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.rit.edu/study/bachelors",
+      "checked": "2026-10-13"
+    },
+    "economics": {
+      "program": "Economics BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.rit.edu/study/bachelors",
+      "checked": "2026-10-13"
+    },
+    "computer-science": {
+      "program": "Computer Science BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.rit.edu/study/computer-science-bs",
+      "checked": "2026-10-13"
+    },
+    "engineering": {
+      "program": "Computer Engineering BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.rit.edu/study/bachelors",
+      "checked": "2026-10-13"
+    },
+    "psychology": {
+      "program": "Psychology BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.rit.edu/study/bachelors",
+      "checked": "2026-10-13"
+    },
+    "biology": {
+      "program": "Biology BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.rit.edu/study/bachelors",
+      "checked": "2026-10-13"
+    },
+    "mathematics": {
+      "program": "Applied Mathematics BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.rit.edu/study/bachelors",
+      "checked": "2026-10-13"
+    },
+    "social-sciences": {
+      "program": "Political Science BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.rit.edu/study/bachelors",
+      "checked": "2026-10-13"
+    },
+    "humanities": {
+      "program": "History BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.rit.edu/study/bachelors",
+      "checked": "2026-10-13"
+    },
+    "arts": {
+      "program": "Film and Animation BFA",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.rit.edu/study/bachelors",
+      "checked": "2026-10-13"
+    },
+    "medicine": {
+      "program": "Global Public Health BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.rit.edu/study/bachelors",
+      "checked": "2026-10-13"
+    }
+  }
 },
 
 {
@@ -22250,9 +23992,35 @@ window.UNIPATH.universities.push(
   "description": "A private Jesuit university in Spokane, Washington. The application fee is waived for all international applicants and SAT or ACT scores are not required. Every applicant is considered automatically for first-year merit scholarships of $23,500 to $32,000 a year, guaranteed for four years.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [],
-  "englishTaughtPrograms": [],
-  "programNote": "The list of majors could not be read on this check, so no fields are listed.",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "medicine",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "medicine",
+    "education"
+  ],
+  "programNote": null,
   "links": {
     "website": "https://www.gonzaga.edu/",
     "admissions": "https://www.gonzaga.edu/undergraduate-admission",
@@ -22260,7 +24028,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.commonapp.org/",
     "scholarships": "https://www.gonzaga.edu/undergraduate-admission/tuition-aid/scholarship-opportunities",
     "financialAid": "https://www.gonzaga.edu/admission/tuition-scholarships-aid/financial-aid",
-    "programs": null,
+    "programs": "https://www.gonzaga.edu/academics/undergraduate",
     "cost": "https://www.gonzaga.edu/admission/tuition-scholarships-aid/financial-aid/cost-of-attendance"
   },
   "admissions": {
@@ -22465,6 +24233,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Gonzaga — scholarships",
       "url": "https://www.gonzaga.edu/undergraduate-admission/tuition-aid/scholarship-opportunities"
+    },
+    {
+      "label": "Gonzaga — official list of undergraduate programmes",
+      "url": "https://www.gonzaga.edu/academics/undergraduate"
     }
   ],
   "verification": {
@@ -22475,18 +24247,104 @@ window.UNIPATH.universities.push(
       "English proficiency",
       "test policy",
       "published costs",
-      "merit scholarships"
+      "merit scholarships",
+      "list of majors"
     ],
     "unconfirmed": [
       "aid for international students",
       "books, travel and personal costs",
       "founding year",
-      "admission statistics",
-      "list of majors"
+      "admission statistics"
     ]
   },
   "lastVerified": "2026-10-12",
-  "programsStatus": "not-checked"
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Accounting",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.gonzaga.edu/academics/undergraduate",
+      "checked": "2026-10-13"
+    },
+    "economics": {
+      "program": "Economics BA",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.gonzaga.edu/academics/undergraduate",
+      "checked": "2026-10-13"
+    },
+    "computer-science": {
+      "program": "Computer Science BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.gonzaga.edu/academics/undergraduate",
+      "checked": "2026-10-13"
+    },
+    "engineering": {
+      "program": "Engineering — Civil",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.gonzaga.edu/academics/undergraduate",
+      "checked": "2026-10-13"
+    },
+    "psychology": {
+      "program": "Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.gonzaga.edu/academics/undergraduate",
+      "checked": "2026-10-13"
+    },
+    "biology": {
+      "program": "Biology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.gonzaga.edu/academics/undergraduate",
+      "checked": "2026-10-13"
+    },
+    "mathematics": {
+      "program": "Mathematics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.gonzaga.edu/academics/undergraduate",
+      "checked": "2026-10-13"
+    },
+    "social-sciences": {
+      "program": "Political Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.gonzaga.edu/academics/undergraduate",
+      "checked": "2026-10-13"
+    },
+    "humanities": {
+      "program": "History",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.gonzaga.edu/academics/undergraduate",
+      "checked": "2026-10-13"
+    },
+    "arts": {
+      "program": "Dance",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.gonzaga.edu/academics/undergraduate",
+      "checked": "2026-10-13"
+    },
+    "medicine": {
+      "program": "Nursing",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.gonzaga.edu/academics/undergraduate",
+      "checked": "2026-10-13"
+    },
+    "education": {
+      "program": "Special Education",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.gonzaga.edu/academics/undergraduate",
+      "checked": "2026-10-13"
+    }
+  }
 },
 
 {
@@ -22510,9 +24368,35 @@ window.UNIPATH.universities.push(
   "description": "A private liberal arts college in Mount Vernon, Iowa, where students take One Course At A Time in blocks of three and a half weeks. It is a different institution from Cornell University. International students automatically qualify for academic merit scholarships and must show financial ability for the rest of their costs.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [],
-  "englishTaughtPrograms": [],
-  "programNote": "The list of majors could not be read on this check, so no fields are listed.",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "medicine",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "medicine",
+    "education"
+  ],
+  "programNote": "From “Programs of Instruction” in the 2026–2027 Undergraduate Catalogue.",
   "links": {
     "website": "https://www.cornellcollege.edu/",
     "admissions": "https://www.cornellcollege.edu/admissions/index.shtml",
@@ -22520,7 +24404,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": null,
     "scholarships": "https://www.cornellcollege.edu/financial-assistance/scholarships-awards/index.shtml",
     "financialAid": "https://www.cornellcollege.edu/financial-assistance/index.shtml",
-    "programs": null,
+    "programs": "https://catalog.cornellcollege.edu/content.php?catoid=17&navoid=433",
     "cost": "https://www.cornellcollege.edu/financial-assistance/cost-of-attendance.shtml"
   },
   "admissions": {
@@ -22736,6 +24620,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Cornell College — cost of attendance 2026–2027",
       "url": "https://www.cornellcollege.edu/financial-assistance/cost-of-attendance.shtml"
+    },
+    {
+      "label": "Cornell College — official list of undergraduate programmes",
+      "url": "https://catalog.cornellcollege.edu/content.php?catoid=17&navoid=433"
     }
   ],
   "verification": {
@@ -22743,7 +24631,8 @@ window.UNIPATH.universities.push(
     "checked": [
       "application rounds",
       "published costs",
-      "ways of showing English proficiency"
+      "ways of showing English proficiency",
+      "list of majors"
     ],
     "unconfirmed": [
       "application fee",
@@ -22751,15 +24640,100 @@ window.UNIPATH.universities.push(
       "amounts of merit awards",
       "cost of the required health insurance",
       "founding year",
-      "admission statistics",
-      "list of majors"
+      "admission statistics"
     ]
   },
   "lastVerified": "2026-10-12",
   "aliases": [
     "Cornell College Iowa"
   ],
-  "programsStatus": "not-checked"
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Business Management, B.A.",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.cornellcollege.edu/content.php?catoid=17&navoid=433",
+      "checked": "2026-10-13"
+    },
+    "economics": {
+      "program": "Economics, B.A.",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.cornellcollege.edu/content.php?catoid=17&navoid=433",
+      "checked": "2026-10-13"
+    },
+    "computer-science": {
+      "program": "Computer Science, B.A.",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.cornellcollege.edu/content.php?catoid=17&navoid=433",
+      "checked": "2026-10-13"
+    },
+    "engineering": {
+      "program": "Bachelor of Science in Engineering, B.S.E.",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.cornellcollege.edu/content.php?catoid=17&navoid=433",
+      "checked": "2026-10-13"
+    },
+    "psychology": {
+      "program": "Psychological Sciences, B.A.",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.cornellcollege.edu/content.php?catoid=17&navoid=433",
+      "checked": "2026-10-13"
+    },
+    "biology": {
+      "program": "Biology, B.A.",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.cornellcollege.edu/content.php?catoid=17&navoid=433",
+      "checked": "2026-10-13"
+    },
+    "mathematics": {
+      "program": "Mathematics, B.A.",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.cornellcollege.edu/content.php?catoid=17&navoid=433",
+      "checked": "2026-10-13"
+    },
+    "social-sciences": {
+      "program": "Politics, B.A.",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.cornellcollege.edu/content.php?catoid=17&navoid=433",
+      "checked": "2026-10-13"
+    },
+    "humanities": {
+      "program": "History, B.A.",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.cornellcollege.edu/content.php?catoid=17&navoid=433",
+      "checked": "2026-10-13"
+    },
+    "arts": {
+      "program": "Studio Art, B.A.",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.cornellcollege.edu/content.php?catoid=17&navoid=433",
+      "checked": "2026-10-13"
+    },
+    "medicine": {
+      "program": "Community and Public Health, B.A.",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.cornellcollege.edu/content.php?catoid=17&navoid=433",
+      "checked": "2026-10-13"
+    },
+    "education": {
+      "program": "Elementary Education, B.A.",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.cornellcollege.edu/content.php?catoid=17&navoid=433",
+      "checked": "2026-10-13"
+    }
+  }
 },
 
 {
@@ -22802,7 +24776,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": "https://www.newschool.edu/financial-aid",
     "programs": null,
-    "cost": null
+    "cost": "https://www.newschool.edu/tuition-fees-billing/new-students-tuition/"
   },
   "admissions": {
     "platforms": [],
@@ -22881,14 +24855,47 @@ window.UNIPATH.universities.push(
     "internationalQualifications": null
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": "tuition and two fees of one semester. Housing, food, health insurance, books and personal expenses are extra",
+      "tuition": 31174,
+      "tuitionText": "$31,174 per semester",
+      "period": "semester"
+    },
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "New full-time undergraduates of Parsons, Eugene Lang College and the College of Performing Arts",
+    "source": "https://www.newschool.edu/tuition-fees-billing/new-students-tuition/",
+    "verified": "2026-10-13",
+    "headline": "$31,174 tuition per semester for full-time undergraduates",
+    "items": [
+      {
+        "label": "Tuition (12–18 credits), per semester",
+        "group": "billed",
+        "amount": 31174
+      },
+      {
+        "label": "University Services fee, per semester",
+        "group": "billed",
+        "amount": 720
+      },
+      {
+        "label": "Student Senate fee, per semester",
+        "group": "billed",
+        "amount": 9
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "totalText": "Published per semester for students entering in 2026–2027: tuition $31,174, University Services fee $720, Student Senate fee $9. Two semesters come to $63,806 — calculated by UniPath; the page prints no yearly total",
+    "note": "University housing is listed at $20,985 for a double room and $18,018 for a triple; the row does not say for what period. Parsons Paris has its own rates.",
+    "extras": [
+      {
+        "label": "Student Health Insurance Plan",
+        "amount": 4859,
+        "required": true,
+        "condition": "$1,970 for the autumn and $2,889 for the spring, charged automatically unless a waiver for comparable coverage is filed; the amounts await final approval.",
+        "year": "2026–2027"
+      }
+    ]
   },
   "scholarships": {
     "fullRide": {
@@ -22949,13 +24956,18 @@ window.UNIPATH.universities.push(
     {
       "label": "The New School — how to apply",
       "url": "https://www.newschool.edu/admission/prospective-undergraduate-students/apply-undergraduate"
+    },
+    {
+      "label": "The New School — costs read on 13 October 2026",
+      "url": "https://www.newschool.edu/tuition-fees-billing/new-students-tuition/"
     }
   ],
   "verification": {
     "level": "partial",
     "checked": [
       "application rounds",
-      "aid for international students"
+      "aid for international students",
+      "published costs"
     ],
     "unconfirmed": [
       "application fee",
@@ -23211,9 +25223,35 @@ window.UNIPATH.universities.push(
   "description": "A private research university in Washington, D.C. Every international applicant must declare funds of at least $87,374, even when hoping for a partial merit scholarship. American University says its merit scholarships for international students are partial, not full, and highly competitive; its aid page also mentions need-based aid for international students.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [],
-  "englishTaughtPrograms": [],
-  "programNote": "The list of majors could not be read on this check, so no fields are listed.",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "law",
+    "medicine",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "law",
+    "medicine",
+    "education"
+  ],
+  "programNote": "From “Major Program (UG)” in the American University Catalog 2026–2027.",
   "links": {
     "website": "https://www.american.edu/",
     "admissions": "https://www.american.edu/admissions/first-year/index.cfm",
@@ -23221,7 +25259,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.commonapp.org/",
     "scholarships": "https://www.american.edu/financialaid/prospective-international.cfm",
     "financialAid": "https://www.american.edu/financialaid/prospective-international.cfm",
-    "programs": null,
+    "programs": "https://catalog.american.edu/content.php?catoid=23&navoid=4419",
     "cost": "https://www.american.edu/finance/studentaccounts/Tuition-and-Fees-Information.cfm"
   },
   "admissions": {
@@ -23396,6 +25434,10 @@ window.UNIPATH.universities.push(
     {
       "label": "American — financial aid for international students",
       "url": "https://www.american.edu/financialaid/prospective-international.cfm"
+    },
+    {
+      "label": "American — official list of undergraduate programmes",
+      "url": "https://catalog.american.edu/content.php?catoid=23&navoid=4419"
     }
   ],
   "verification": {
@@ -23405,7 +25447,8 @@ window.UNIPATH.universities.push(
       "English proficiency",
       "Early Action date",
       "amount to be declared",
-      "aid for international students"
+      "aid for international students",
+      "list of majors"
     ],
     "unconfirmed": [
       "Early Decision and Regular Decision dates",
@@ -23414,8 +25457,7 @@ window.UNIPATH.universities.push(
       "amounts of merit awards",
       "share of need met",
       "founding year",
-      "admission statistics",
-      "list of majors"
+      "admission statistics"
     ]
   },
   "lastVerified": "2026-10-12",
@@ -23423,7 +25465,93 @@ window.UNIPATH.universities.push(
     "AU",
     "American University Washington"
   ],
-  "programsStatus": "not-checked"
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Business Administration (BSBA)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.american.edu/content.php?catoid=23&navoid=4419",
+      "checked": "2026-10-13"
+    },
+    "economics": {
+      "program": "Economics (BA)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.american.edu/content.php?catoid=23&navoid=4419",
+      "checked": "2026-10-13"
+    },
+    "computer-science": {
+      "program": "Computer Science (BS)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.american.edu/content.php?catoid=23&navoid=4419",
+      "checked": "2026-10-13"
+    },
+    "psychology": {
+      "program": "Psychology (BA)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.american.edu/content.php?catoid=23&navoid=4419",
+      "checked": "2026-10-13"
+    },
+    "biology": {
+      "program": "Biology (BS)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.american.edu/content.php?catoid=23&navoid=4419",
+      "checked": "2026-10-13"
+    },
+    "mathematics": {
+      "program": "Mathematics (BS)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.american.edu/content.php?catoid=23&navoid=4419",
+      "checked": "2026-10-13"
+    },
+    "social-sciences": {
+      "program": "Political Science (BA)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.american.edu/content.php?catoid=23&navoid=4419",
+      "checked": "2026-10-13"
+    },
+    "humanities": {
+      "program": "History (BA)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.american.edu/content.php?catoid=23&navoid=4419",
+      "checked": "2026-10-13"
+    },
+    "arts": {
+      "program": "Studio Art (BA)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.american.edu/content.php?catoid=23&navoid=4419",
+      "checked": "2026-10-13"
+    },
+    "law": {
+      "program": "Legal Studies (BA)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.american.edu/content.php?catoid=23&navoid=4419",
+      "checked": "2026-10-13"
+    },
+    "medicine": {
+      "program": "Public Health (BS)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.american.edu/content.php?catoid=23&navoid=4419",
+      "checked": "2026-10-13"
+    },
+    "education": {
+      "program": "Elementary Education (BA)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.american.edu/content.php?catoid=23&navoid=4419",
+      "checked": "2026-10-13"
+    }
+  }
 },
 
 {
@@ -24460,9 +26588,31 @@ window.UNIPATH.universities.push(
   "description": "The public research university in Eugene, Oregon. International first-year students apply with the Oregon application or the Common Application for a $75 fee, do not need SAT or ACT scores, and may be admitted conditionally with lower English scores. Aid for them is limited to merit scholarships, a partial-tuition cultural service scholarship and work-study awards.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [],
-  "englishTaughtPrograms": [],
-  "programNote": "The university says it has nearly 200 undergraduate programmes; its programme finder is a search box, so no fields are listed here.",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "education"
+  ],
+  "programNote": "From the list of undergraduate programmes in the university catalogue, which prints the degrees of each major.",
   "links": {
     "website": "https://www.uoregon.edu/",
     "admissions": "https://www.uoregon.edu/admissions/undergraduate/",
@@ -24470,7 +26620,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.commonapp.org/",
     "scholarships": "https://www.uoregon.edu/admissions/undergraduate/find-your-path/international/documents-and-scholarships/international-scholarships/",
     "financialAid": null,
-    "programs": "https://www.uoregon.edu/academics/undergraduate/explore-programs/",
+    "programs": "https://catalog.uoregon.edu/ug-programs/",
     "cost": "https://financialaid.uoregon.edu/cost_of_attendance"
   },
   "admissions": {
@@ -24725,6 +26875,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Oregon — cost of attendance 2026–2027",
       "url": "https://financialaid.uoregon.edu/cost_of_attendance"
+    },
+    {
+      "label": "Oregon — official list of undergraduate programmes",
+      "url": "https://catalog.uoregon.edu/ug-programs/"
     }
   ],
   "verification": {
@@ -24735,7 +26889,8 @@ window.UNIPATH.universities.push(
       "English proficiency",
       "test policy",
       "published costs",
-      "merit scholarships"
+      "merit scholarships",
+      "list of majors"
     ],
     "unconfirmed": [
       "whether international students pay exactly the published nonresident figures",
@@ -24743,8 +26898,7 @@ window.UNIPATH.universities.push(
       "application fee waiver for international applicants",
       "health insurance terms",
       "founding year",
-      "admission statistics",
-      "list of majors"
+      "admission statistics"
     ]
   },
   "lastVerified": "2026-10-12",
@@ -24752,7 +26906,79 @@ window.UNIPATH.universities.push(
     "UO",
     "UOregon"
   ],
-  "programsStatus": "not-checked"
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Business Administration: BA, BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.uoregon.edu/ug-programs/",
+      "checked": "2026-10-13"
+    },
+    "economics": {
+      "program": "Economics: BA, BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.uoregon.edu/ug-programs/",
+      "checked": "2026-10-13"
+    },
+    "computer-science": {
+      "program": "Computer Science: BA, BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.uoregon.edu/ug-programs/",
+      "checked": "2026-10-13"
+    },
+    "psychology": {
+      "program": "Psychology: BA, BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.uoregon.edu/ug-programs/",
+      "checked": "2026-10-13"
+    },
+    "biology": {
+      "program": "Biology: BA, BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.uoregon.edu/ug-programs/",
+      "checked": "2026-10-13"
+    },
+    "mathematics": {
+      "program": "Mathematics: BA, BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.uoregon.edu/ug-programs/",
+      "checked": "2026-10-13"
+    },
+    "social-sciences": {
+      "program": "Political Science: BA, BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.uoregon.edu/ug-programs/",
+      "checked": "2026-10-13"
+    },
+    "humanities": {
+      "program": "History: BA, BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.uoregon.edu/ug-programs/",
+      "checked": "2026-10-13"
+    },
+    "arts": {
+      "program": "Music: BA, BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.uoregon.edu/ug-programs/",
+      "checked": "2026-10-13"
+    },
+    "education": {
+      "program": "Educational Foundations: BA, BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.uoregon.edu/ug-programs/",
+      "checked": "2026-10-13"
+    }
+  }
 },
 
 {
@@ -25122,9 +27348,35 @@ window.UNIPATH.universities.push(
   "description": "The public research university in Morgantown, West Virginia. International freshmen apply with the WVU Application for a $75 fee; a converted grade average of 2.5 out of 4.0 can be admitted, and the autumn deadline is as late as 1 June. Admitted students are considered automatically for the Climb Higher Scholarship — $10,000 to $18,000 a year at Morgantown for entry in 2027–28.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [],
-  "englishTaughtPrograms": [],
-  "programNote": "The list of majors could not be read on this check, so no fields are listed.",
+  "programs": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "medicine",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "economics",
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "medicine",
+    "education"
+  ],
+  "programNote": "From the college pages of the undergraduate catalogue (Morgantown campus).",
   "links": {
     "website": "https://www.wvu.edu/",
     "admissions": "https://www.wvu.edu/admissions/undergraduate/",
@@ -25132,7 +27384,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": null,
     "scholarships": "https://hub.wvu.edu/types-of-aid/scholarships/morgantown-scholarships",
     "financialAid": null,
-    "programs": "https://www.wvu.edu/academics/programs/",
+    "programs": "https://catalog.wvu.edu/undergraduate/",
     "cost": "https://www.wvu.edu/admissions/undergraduate/cost-and-aid"
   },
   "admissions": {
@@ -25318,6 +27570,10 @@ window.UNIPATH.universities.push(
     {
       "label": "WVU — Climb Higher Scholarship 2027–2028",
       "url": "https://hub.wvu.edu/types-of-aid/scholarships/institutional/climb-higher/2728"
+    },
+    {
+      "label": "WVU — official list of undergraduate programmes",
+      "url": "https://catalog.wvu.edu/undergraduate/"
     }
   ],
   "verification": {
@@ -25327,7 +27583,8 @@ window.UNIPATH.universities.push(
       "application fee",
       "English proficiency",
       "published costs",
-      "merit scholarships"
+      "merit scholarships",
+      "list of majors"
     ],
     "unconfirmed": [
       "test policy",
@@ -25336,15 +27593,100 @@ window.UNIPATH.universities.push(
       "health insurance terms",
       "aid for international students",
       "founding year",
-      "admission statistics",
-      "list of majors"
+      "admission statistics"
     ]
   },
   "lastVerified": "2026-10-12",
   "aliases": [
     "WVU"
   ],
-  "programsStatus": "not-checked"
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Bachelor of Science in Business Administration",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.wvu.edu/undergraduate/collegeofbusinessandeconomics/",
+      "checked": "2026-10-13"
+    },
+    "economics": {
+      "program": "Bachelor of Arts — Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.wvu.edu/undergraduate/collegeofbusinessandeconomics/",
+      "checked": "2026-10-13"
+    },
+    "computer-science": {
+      "program": "Bachelor of Science in Computer Science (B.S.C.S.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.wvu.edu/undergraduate/collegeofengineeringandmineralresources/",
+      "checked": "2026-10-13"
+    },
+    "engineering": {
+      "program": "Bachelor of Science in Aerospace Engineering (B.S.A.E.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.wvu.edu/undergraduate/collegeofengineeringandmineralresources/",
+      "checked": "2026-10-13"
+    },
+    "psychology": {
+      "program": "Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.wvu.edu/undergraduate/eberlycollegeofartsandsciences/",
+      "checked": "2026-10-13"
+    },
+    "biology": {
+      "program": "Biology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.wvu.edu/undergraduate/eberlycollegeofartsandsciences/",
+      "checked": "2026-10-13"
+    },
+    "mathematics": {
+      "program": "Mathematics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.wvu.edu/undergraduate/eberlycollegeofartsandsciences/",
+      "checked": "2026-10-13"
+    },
+    "social-sciences": {
+      "program": "Political Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.wvu.edu/undergraduate/eberlycollegeofartsandsciences/",
+      "checked": "2026-10-13"
+    },
+    "humanities": {
+      "program": "History",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.wvu.edu/undergraduate/eberlycollegeofartsandsciences/",
+      "checked": "2026-10-13"
+    },
+    "arts": {
+      "program": "Music — Bachelor of Arts",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.wvu.edu/undergraduate/collegeofcreativeartsandmedia/",
+      "checked": "2026-10-13"
+    },
+    "medicine": {
+      "program": "Bachelor of Science in Nursing",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.wvu.edu/undergraduate/schoolofnursing/",
+      "checked": "2026-10-13"
+    },
+    "education": {
+      "program": "Bachelor of Arts — Elementary Education",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://catalog.wvu.edu/undergraduate/collegeofappliedhumansciences/",
+      "checked": "2026-10-13"
+    }
+  }
 },
 
 {

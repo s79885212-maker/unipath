@@ -214,7 +214,12 @@
 
   function budget(u, input) {
     var c = costOf(u);
-    if (!c) return { status: 'unknown', text: 'No comparable yearly cost is recorded' };
+    if (!c) {
+      /* A figure for an earlier year is shown for what it is and is not compared. */
+      if (U.costStatus(u) === 'previous-cycle' && U.budgetText(u)) return { status: 'unknown',
+        text: 'Only a figure for an earlier year is published: ' + U.budgetText(u) + ' (' + (U.costYear(u) || 'year not stated') + '). It is not compared with your budget.' };
+      return { status: 'unknown', text: 'No comparable yearly cost is recorded' };
+    }
     /* Whatever the budget — 0 or any other number — covered main costs with
        unpriced remaining expenses are never called "within budget". */
     if (c.covered) return { status: input.budget === null ? 'none' : 'core-covered', text: coveredText(c.covered), html: coveredHtml(c.covered) };
@@ -294,6 +299,8 @@
       : c.basis === 'billed' ? 'Billed by the university a year: ' + amount + ' — books, travel, personal costs and insurance extra'
       : 'Tuition a year: ' + amount + ' — living costs extra';
     if (c.example) label += ' (one programme’s fee)';
+    if (c.calc === 'two-semesters') label += '. Two semesters at the published per-semester rates — calculated by UniPath, not a figure the university prints';
+    if (c.calc === 'lines') label += '. The sum of the lines the page lists — the page prints no total';
     if (typeof c.extras === 'number') {
       var ex = convert(c.extras, c.currency, cur);
       label += '. Not included: ' + show(ex) + ' — ' + (c.extrasLabel || 'a required cost') + (c.extrasMore ? ' and other required costs' : '') +

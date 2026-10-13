@@ -517,6 +517,50 @@ group('corrections after the expansion');
   ok(!fakeOther.length, 'a record whose majors were not read carries no field tag at all', fakeOther.join(', '));
   var onlyOther = added().filter(function (u) { return (u.programs || []).join() === 'other'; }).map(function (u) { return u.id; });
   ok(!onlyOther.length, 'no added record has “Other” as its only field', onlyOther.join(', '));
+  /* Fields read from the official lists of majors (v112). */
+  var csOpt = U.optionById('field', 'computer-science');
+  var rit = U.uniById('rochester-institute-of-technology'), az = U.uniById('university-of-arizona');
+  ok(csOpt.test(rit, {}) && /Computer Science BS/.test(rit.programEvidence['computer-science'].program) && /^https:\/\/www\.rit\.edu\//.test(rit.programEvidence['computer-science'].url),
+    'RIT is found under Computer Science, with the named programme and its official page');
+  ok(csOpt.test(az, {}) && U.programsPartial(az) && /cs\.arizona\.edu/.test(az.programEvidence['computer-science'].url),
+    'Arizona is found under Computer Science; its list is marked as only partly read');
+  ok(U.applyFilters([rit], { field: ['computer-science'], language: ['english-yes'], degree: ['bachelor'] }).length === 1 &&
+     U.applyFilters([rit], { field: ['law'] }).length === 0, 'field, language and degree filters work together for RIT; a field it does not have excludes it');
+  var badEv = [];
+  DB.universities.forEach(function (u) {
+    if (u.programsBasis !== 'evidence') return;
+    (u.programs || []).forEach(function (t) {
+      var e = (u.programEvidence || {})[t];
+      if (!e || !e.program || !/^https:\/\//.test(e.url || '') || !e.checked || e.level !== 'bachelor') badEv.push(u.id + ':' + t);
+    });
+    Object.keys(u.programEvidence || {}).forEach(function (t) { if ((u.programs || []).indexOf(t) < 0) badEv.push(u.id + ':extra ' + t); });
+    if ((u.englishTaughtPrograms || []).join() !== (u.programs || []).join()) badEv.push(u.id + ':english list differs');
+  });
+  ok(!badEv.length, 'every field tag written from an official list names its programme, level, page and check date', badEv.slice(0, 6).join('; '));
+  var ag = U.uniById('agnes-scott-college');
+  ok(ag.programs.indexOf('computer-science') < 0 && ag.programs.indexOf('engineering') < 0, 'Agnes Scott: dual-degree routes with other institutions are not counted as its own fields');
+  /* Costs read for v112: a period, a year and a category travel with every figure. */
+  var perSem = ['goucher-college', 'lesley-university', 'the-new-school'].filter(function (id) { var u = U.uniById(id); return !(U.costPeriod(u) === 'semester' && /per semester/.test(U.cardCost(u).text) && U.cardCost(u).suffix === ''); });
+  ok(!perSem.length, 'a charge published per semester is shown per semester on the card, not as a yearly figure', perSem.join(', '));
+  var gb = bud('goucher-college', 80000);
+  ok(gb.status === 'fits-billed' && /calculated by UniPath/.test(gb.text), 'Goucher: the two-semester sum used for the budget is marked as calculated, and is not called a full cost', gb.status + ' / ' + gb.text);
+  ok(/sum of the lines/.test(bud('mcdaniel-college', 80000).text), 'McDaniel: a sum of lines is not presented as the college’s own total');
+  var md = bud('university-of-maryland', 100000), dl = bud('dillard-university', 100000);
+  ok(md.status === 'unknown' && /earlier year/.test(md.text) && /2025–2026/.test(md.text) && dl.status === 'unknown' && /earlier year/.test(dl.text),
+    'a figure of a previous cycle is shown as such and never compared with a budget (Maryland, Dillard)', md.text);
+  ok(!DB.match.annualCost['university-of-maryland'] && !DB.match.annualCost['dillard-university'], 'previous-cycle figures are not in the match table');
+  var noFig = ['marist-university', 'xavier-university-of-louisiana', 'texas-a-and-m-university'].filter(function (id) { var u = U.uniById(id); return U.costStatus(u) !== 'not-checked' || !U.has(u.costs.note) || !U.has(u.costs.source); });
+  ok(!noFig.length, 'a record whose cost page prints no figures stays “not checked” and says why', noFig.join(', '));
+  var bare = added().filter(function (u) { var c = u.costs || {}; return (c.items || []).length && !(c.academicYear && c.studentCategory && c.source && c.verified); }).map(function (u) { return u.id; });
+  /* Deep Springs has no year by nature (aid, not a price list); the others are
+     records whose page gave figures without naming the academic year — a gap
+     the profiles state. The list may only shrink. */
+  var noYearKnown = ['deep-springs-college', 'university-of-cincinnati', 'seattle-university', 'university-of-arizona', 'university-of-washington', 'xavier-university', 'american-university'];
+  var bareNew = bare.filter(function (id) { return noYearKnown.indexOf(id) < 0; });
+  ok(!bareNew.length, 'every cost breakdown of an added record names its year, student category, source and check date (known gaps apart)', bareNew.join(', '));
+  console.log('   cost figures without a named academic year: ' + bare.filter(function (id) { return id !== 'deep-springs-college'; }).join(', '));
+  var kc2 = bud('kenyon-college', 96000);
+  ok(kc2.status === 'conflict' && /needs checking/.test(kc2.text), 'Kenyon: a budget between the two official totals is still a source conflict');
   var noStatus = DB.universities.filter(function (u) { return !(u.programs || []).length && U.programsChecked(u); }).map(function (u) { return u.id; });
   ok(!noStatus.length, 'a record without field tags says that its list of majors was not checked', noStatus.join(', '));
 })();

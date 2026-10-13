@@ -18,6 +18,10 @@
      is not a published figure. The match page reads what is covered and what
      remains from the profile (costs.afterAid) and never calls a budget
      sufficient for it.
+     calc: the figure is not printed by the university as it stands —
+           'two-semesters' = twice the published flat full-time charge of one
+           semester; 'lines' = the sum of the lines of a table that prints no
+           total. The match page says so next to the figure.
      Required costs a university leaves OUT of its published total (for
      example compulsory health insurance) are not repeated here: the match
      page reads them from the profile (costs.extras) and adds them before a
@@ -36,6 +40,17 @@ window.UNIPATH.match = {
     perEUR: { EUR: 1, USD: 1.1460, GBP: 0.85880, JPY: 180.94, KRW: 1590.76 }
   },
   annualCost: {
+    'drew-university': { currency: 'USD', basis: 'tuition', min: 49550, max: 49550 },
+    'goucher-college': { currency: 'USD', calc: 'two-semesters', basis: 'billed', min: 75660, max: 75660, note: 'Two semesters at the published full-time rates — calculated by UniPath, not printed by the university' },
+    'lesley-university': { currency: 'USD', calc: 'two-semesters', basis: 'billed', min: 59820, max: 59820, note: 'Two semesters at the published full-time rates — calculated by UniPath, not printed by the university' },
+    'mcdaniel-college': { currency: 'USD', calc: 'lines', basis: 'total', min: 77079, max: 77079, note: 'The sum of the lines of the first-year on-campus column; the page prints no total' },
+    'morehouse-college': { currency: 'USD', basis: 'total', min: 59430, max: 59430 },
+    'worcester-polytechnic-institute': { currency: 'USD', basis: 'total', min: 87570, max: 87570 },
+    'santa-clara-university': { currency: 'USD', basis: 'total', min: 92556, max: 92556 },
+    'southern-methodist-university': { currency: 'USD', basis: 'total', min: 96388, max: 96388 },
+    'stony-brook-university': { currency: 'USD', basis: 'total', min: 58799, max: 58799 },
+    'temple-university': { currency: 'USD', basis: 'total', min: 64384, max: 73552, note: 'Two colleges printed as examples; other colleges have their own rates' },
+    'the-new-school': { currency: 'USD', calc: 'two-semesters', basis: 'tuition', min: 63806, max: 63806, note: 'Two semesters at the published full-time rates — calculated by UniPath, not printed by the university' },
 
     /* United States expansion, October 2026 */
     'rollins-college': { currency: 'USD', basis: 'total', min: 87820, max: 87820 },

@@ -691,6 +691,9 @@
     /* Programs */
     var deg = u.degreesByArea || null;
     function fieldCheckHtml(tag) {
+      /* A tag written from the official list shows the programme it rests on. */
+      var named = (u.programEvidence || {})[tag];
+      if (named) return '<p class="field-check"><span>Named in the official list:</span> <strong data-no-i18n>' + esc(named.program) + '</strong></p>';
       var c = U.fieldCheck(u, tag);
       if (c.status === 'degrees') {
         return '<p class="field-check field-ok"><span>✓ Degrees conferred</span>: ' + c.areas.map(function (a) {
@@ -735,6 +738,20 @@
         '<span>Degrees conferred from 1 July to 30 June of the years shown.</span><br>' +
         '<a href="' + esc(deg.source.url) + '" target="_blank" rel="noopener">' + esc(deg.source.label) + ' ↗</a> · <span>Checked ' + esc(deg.checked) + '</span></p></details>';
     }
+    /* The named programme behind each area, as the official list prints it. */
+    var ev = u.programEvidence || {};
+    var evRows = (u.programs || []).filter(function (p) { return ev[p]; }).map(function (p) {
+      var e = ev[p];
+      return '<li><strong>' + esc(U.field(p).label) + '</strong> — <span data-no-i18n>' + esc(e.program) + '</span>' +
+        ' <span class="small muted">(<span>bachelor’s programme, taught in English</span>)</span>' +
+        (has(e.url) ? ' · <a href="' + esc(e.url) + '" target="_blank" rel="noopener">Official page ↗</a>' : '') +
+        (has(e.checked) ? ' · <span class="small muted">Checked ' + esc(e.checked) + '</span>' : '') + '</li>';
+    });
+    var evidenceBlock = evRows.length
+      ? '<details class="ref-block" open><summary><span>Named programmes behind these areas</span> (' + evRows.length + ')</summary><ul class="plain-list">' + evRows.join('') + '</ul></details>' : '';
+    var partialBlock = U.programsPartial(u)
+      ? '<div class="notice notice-info" style="margin-top:14px"><span class="ico">ℹ️</span><div><strong>Fields of study: only part of the list was read.</strong> <span>The areas shown are confirmed; an area that is missing here may still exist at this institution.</span>' +
+        (has(u.links && u.links.programs) ? ' <a href="' + esc(u.links.programs) + '" target="_blank" rel="noopener">Official programme list ↗</a>' : '') + '</div></div>' : '';
     var enProgs = U.englishPrograms(u);
     var englishBlock = '<h3 style="margin-top:22px">Available fully in English</h3>' +
       (enProgs.length
@@ -753,7 +770,7 @@
           ? '<div class="notice notice-info"><span class="ico">ℹ️</span><div><strong>Fields of study: not checked.</strong> <span>The official list of majors of this institution has not been read yet, so it has no field tags and does not appear under any field filter. That is not a statement that a field is missing — see the official programme list.</span>' +
             (has(u.links && u.links.programs) ? ' <a href="' + esc(u.links.programs) + '" target="_blank" rel="noopener">Official programme list ↗</a>' : '') + '</div></div>'
           : '<p>' + UNKNOWN + '</p>') +
-      fieldNotesBlock + degreesBlock +
+      partialBlock + evidenceBlock + fieldNotesBlock + degreesBlock +
       englishBlock +
       '</section>';
 
@@ -765,6 +782,7 @@
         'concentrations': 'The institution awards one degree and these areas are concentrations within it, not separate degrees.',
         'transfer': 'These are areas of associate-degree and transfer study, not bachelor’s majors.',
         'degrees': 'Each area is checked against the bachelor’s degrees the institution reported as conferred. An area is a group of majors, not one named major — check the exact degree programme in the official catalogue.',
+        'evidence': 'Each area below is backed by one named undergraduate programme read in the institution’s official list — see “Named programmes” under the areas. An area is a group of majors; a minor, a pre-professional track, an online-only programme and a dual-degree route with another institution are not counted. Admission rules of individual programmes were not checked.',
         'areas': 'These are broad subject areas, used here for search and filters. They are not a list of named majors — check the exact degree programme in the official catalogue.'
       };
       return B[u.programsBasis] || B.areas;
@@ -1436,9 +1454,9 @@
       ['Need-based aid for internationals', function (u) { return yesNo(U.needBased(u).availableToInternational); }],
       ['Meets full demonstrated need', function (u) { return yesNo(U.needBased(u).meetsFullNeed); }],
       ['group', 'Programs & applying'],
-      ['Business (field area)', function (u) { return (u.programs || []).indexOf('business') > -1 ? '<span class="badge badge-ok">Yes</span>' : !U.programsChecked(u) ? '<span class="unknown">Not checked</span>' : '<span class="badge">Not listed</span>'; }],
-      ['Economics (field area)', function (u) { return (u.programs || []).indexOf('economics') > -1 ? '<span class="badge badge-ok">Yes</span>' : !U.programsChecked(u) ? '<span class="unknown">Not checked</span>' : '<span class="badge">Not listed</span>'; }],
-      ['Computer Science (field area)', function (u) { return (u.programs || []).indexOf('computer-science') > -1 ? '<span class="badge badge-ok">Yes</span>' : !U.programsChecked(u) ? '<span class="unknown">Not checked</span>' : '<span class="badge">Not listed</span>'; }],
+      ['Business (field area)', function (u) { return (u.programs || []).indexOf('business') > -1 ? '<span class="badge badge-ok">Yes</span>' : !U.programsChecked(u) ? '<span class="unknown">Not checked</span>' : U.programsPartial(u) ? '<span class="unknown">List only partly read</span>' : '<span class="badge">Not listed</span>'; }],
+      ['Economics (field area)', function (u) { return (u.programs || []).indexOf('economics') > -1 ? '<span class="badge badge-ok">Yes</span>' : !U.programsChecked(u) ? '<span class="unknown">Not checked</span>' : U.programsPartial(u) ? '<span class="unknown">List only partly read</span>' : '<span class="badge">Not listed</span>'; }],
+      ['Computer Science (field area)', function (u) { return (u.programs || []).indexOf('computer-science') > -1 ? '<span class="badge badge-ok">Yes</span>' : !U.programsChecked(u) ? '<span class="unknown">Not checked</span>' : U.programsPartial(u) ? '<span class="unknown">List only partly read</span>' : '<span class="badge">Not listed</span>'; }],
       ['Application portal', function (u) {
         return has(u.links.applicationPortal)
           ? '<a href="' + esc(u.links.applicationPortal) + '" target="_blank" rel="noopener">Open portal ↗</a>' : UNKNOWN;
