@@ -262,13 +262,39 @@
   function ieltsMin(u) {
     return (u.english && u.english.ielts && has(u.english.ielts.min)) ? u.english.ielts.min : null;
   }
-  /* Short IELTS label for cards/compare: minimum, else competitive, else estimate. */
+  /* A published figure that is not a minimum is one of several different
+     things, and they are not interchangeable:
+       recommended — the university recommends or looks for this score
+       competitive — the level it describes for competitive or best-prepared applicants
+       threshold   — a second official level (for example admission without an added condition)
+       stated      — a level it lists without saying what it is
+       typical     — what it says successful applicants usually have (a statistic)
+       average     — an average it reports among the scores it sees (a statistic)
+     The last two describe past applicants: they are never a requirement that
+     is "met" or "missed". */
+  var REC_BASIS = {
+    recommended: { card: 'recommended', label: 'Official recommendation', kind: 'recommended',
+      hint: 'A level the university advises. It is not a minimum and not a statistic about admitted students.' },
+    competitive: { card: 'competitive', label: 'Competitive level named by the university', kind: 'recommended',
+      hint: 'The level the university describes for its competitive or best-prepared applicants. It is not a minimum.' },
+    threshold: { card: 'higher level', label: 'Higher official level', kind: 'recommended',
+      hint: 'A second level the university publishes above its minimum — see the note for what it changes.' },
+    stated: { card: 'listed', label: 'Level listed by the university', kind: 'recommended',
+      hint: 'The university lists this score without saying whether it is a minimum or a recommendation.' },
+    typical: { card: 'typical', label: 'Typical score of successful applicants', kind: 'statistic',
+      hint: 'What the university says successful applicants usually have. A description of past applicants — not a minimum and not a requirement.' },
+    average: { card: 'average', label: 'Average score the university reports', kind: 'statistic',
+      hint: 'An average the university says it sees. A statistic about applicants — not a minimum, not a recommendation and not a cut-off.' }
+  };
+  function recBasis(t) { return (t && REC_BASIS[t.recBasis]) ? t.recBasis : 'recommended'; }
+  function recInfo(t) { return REC_BASIS[recBasis(t)]; }
+  /* Short IELTS label for cards/compare: minimum, else the published level with what it is. */
   function ieltsLabel(u) {
     var t = u.english && u.english.ielts;
     if (!t) return null;
     if (testVaries(t)) return has(t.min) ? 'University minimum ' + (typeof t.min === 'number' ? t.min.toFixed(1) : t.min) + ', varies by programme' : variesLabel(t);
     if (has(t.min)) return 'Min ' + (typeof t.min === 'number' && t.min < 10 ? t.min.toFixed(1) : t.min);
-    if (has(t.recommended)) return typeof t.recommended === 'number' ? t.recommended + '+ competitive' : String(t.recommended);
+    if (has(t.recommended)) return typeof t.recommended === 'number' ? t.recommended + '+ ' + recInfo(t).card : String(t.recommended);
     return TEST_STATUS[testStatus(t)];
   }
   /* What is actually known about one English test. A number is never implied
@@ -298,7 +324,7 @@
     if (has(t.recommended)) return 'recommended';
     return (t.status && TEST_STATUS[t.status]) ? t.status : 'not-confirmed';
   }
-  function testStatusLabel(t) { return TEST_STATUS[testStatus(t)]; }
+  function testStatusLabel(t) { return testStatus(t) === 'recommended' ? recInfo(t).label : TEST_STATUS[testStatus(t)]; }
   function statsOf(u) { return u.stats || null; }
   function toeflMin(u) {
     return (u.english && u.english.toefl && has(u.english.toefl.min)) ? u.english.toefl.min : null;
@@ -310,10 +336,10 @@
     pre2026: 'Tests taken before 21 Jan 2026',
     post2026: 'Tests taken from 21 Jan 2026 (1–6 scale)'
   };
-  function scoreParts(x, lowest) {
+  function scoreParts(x, lowest, t) {
     var parts = [];
     if (has(x.min)) parts.push((lowest ? 'lowest minimum ' : 'minimum ') + x.min);
-    if (has(x.recommended)) parts.push('recommended ' + x.recommended);
+    if (has(x.recommended)) parts.push(recInfo(t).card + ' ' + x.recommended);
     return parts.join(', ');
   }
   function toeflLines(u) {
@@ -324,11 +350,11 @@
       return t.scales.map(function (sc) {
         var label = TOEFL_PERIOD[sc.period] || sc.period;
         if (sc.accepted === false) return label + ': not accepted';
-        var parts = scoreParts(sc, t.lowestLevel);
+        var parts = scoreParts(sc, t.lowestLevel, t);
         return parts ? label + ': ' + parts : label + ': not stated by the source';
       });
     }
-    var one = scoreParts(t, t.lowestLevel);
+    var one = scoreParts(t, t.lowestLevel, t);
     if (one) return [one.charAt(0).toUpperCase() + one.slice(1)];
     return [];
   }
@@ -361,6 +387,10 @@
      englishTaughtPrograms = the fields available fully in English (or on an
      official English track). The label spells out which of the two applies. */
   function englishPrograms(u) { return Array.isArray(u.englishTaughtPrograms) ? u.englishTaughtPrograms : []; }
+  /* False when the list of majors of a record has not been read. Such a record
+     has no field tags at all: "not checked" is a status, never the subject
+     area "Other", and it is not a statement that a field is missing. */
+  function programsChecked(u) { return u.programsStatus !== 'not-checked'; }
   function englishLabel(u) {
     if (u.englishTaught !== true) return null;
     var en = englishPrograms(u), all = u.programs || [];
@@ -395,7 +425,29 @@
     'full-funding': 'Full funding possible — coverage not itemised'
   };
   function awardLabel(u) { var k = awardKind(u); return k ? AWARD_LABEL[k] : null; }
-  function meritList(u) { return (u.scholarships && u.scholarships.merit) || []; }
+  /* Named awards of a record. They are stored in one list (`merit`, the name
+     the list had when every entry was a merit scholarship); each award says
+     what it rests on. Only an award given for achievement or talent counts as
+     a merit scholarship — a programme for UWC graduates, a grant every
+     admitted student receives or an award whose selection is not published
+     does not. A record written before the bases were recorded has none on
+     its awards and keeps the old reading. */
+  var AWARD_BASIS = {
+    'merit': 'Merit-based',
+    'need-merit': 'Need and merit together',
+    'need': 'Need-based',
+    'talent': 'Talent, service or activity',
+    'automatic': 'Given to every eligible admitted student',
+    'partnership': 'Partner programme — for a defined group of students',
+    'external': 'Funded outside the university',
+    'unknown': 'Basis of selection not published'
+  };
+  function awardsAll(u) { return (u.scholarships && u.scholarships.merit) || []; }
+  function awardBasis(a) { return (a && AWARD_BASIS[a.basis]) ? a.basis : 'merit'; }
+  function awardBasisLabel(a) { return AWARD_BASIS[awardBasis(a)]; }
+  function isMeritAward(a) { var b = awardBasis(a); return b === 'merit' || b === 'need-merit' || b === 'talent'; }
+  function meritList(u) { return awardsAll(u).filter(isMeritAward); }
+  function otherAwards(u) { return awardsAll(u).filter(function (a) { return !isMeritAward(a); }); }
   function needBased(u) { return (u.scholarships && u.scholarships.needBased) || {}; }
 
   function feeAmount(u) {
@@ -697,7 +749,14 @@
      with compulsory fees, the sum a university bills and a full yearly budget
      are different things and are never shown under the same word.
      Returns { kind, label, text, suffix, known }. */
+  /* Aid that every admitted student receives and that covers the main costs
+     (tuition with housing and food). What is left — personal costs, a one-off
+     deposit, anything the pages do not price — stays in words: it is never a
+     yearly cost of zero. Cards, the profile, the comparison and the match page
+     all read this one record. */
+  function costAfterAid(u) { return (u.costs && u.costs.afterAid) || null; }
   function cardCost(u) {
+    if (costAfterAid(u)) return { kind: 'covered', label: 'After guaranteed aid', text: 'Main costs covered', suffix: ' — other expenses remain', known: true };
     var t = tuitionText(u);
     if (t) return { kind: 'tuition', label: tuitionLabel(u), text: t, suffix: perPeriod(u), known: true };
     if (costStatus(u) === 'confirmed') {
@@ -878,7 +937,7 @@
       needBased(u).availableToInternational === true ? 'need-based financial aid need based' : '',
       meritList(u).length ? 'merit scholarship' : '',
       (u.programs || []).map(function (p) { return field(p).label; }).join(' '),
-      meritList(u).map(function (m) { return m.name + ' ' + (m.amount || ''); }).join(' '),
+      awardsAll(u).map(function (m) { return m.name + ' ' + (m.amount || ''); }).join(' '),
       costHeadline(u) || ''
     ];
     var text = parts.join(' · ');
@@ -940,7 +999,7 @@
         { id: 'full-ride-intl', label: 'Any full-level award open to internationals', test: function (u) { return fullRide(u).available === true && fullRide(u).internationalEligible === true; } },
         { id: 'full-tuition', label: 'Full tuition covered', test: function (u) {
             if (fullRide(u).covers && fullRide(u).covers.tuition === true) return true;
-            return meritList(u).some(function (m) { return /full tuition|value of tuition|100%|full dues|tuition exemption|full scholarship/i.test(String(m.amount || '')); });
+            return awardsAll(u).some(function (m) { return /full tuition|value of tuition|100%|full dues|tuition exemption|full scholarship/i.test(String(m.amount || '')); });
           } },
         { id: 'merit', label: 'Merit scholarships', test: function (u) { return meritList(u).length > 0; } },
         { id: 'need', label: 'Need-based aid for internationals', test: function (u) { return needBased(u).availableToInternational === true; } },
@@ -1605,14 +1664,14 @@
   global.UP = { initMotion: initMotion, routeEnter: routeEnter, fieldCheck: fieldCheck, degreeValue: degreeValue, FIELD_NOTE_KIND: FIELD_NOTE_KIND,
     DB: DB, esc: esc, has: has, or: or, orRaw: orRaw, qs: qs, money: money, el: el, UNKNOWN: UNKNOWN,
     STATUS: STATUS, statusLabel: statusLabel, statusHtml: statusHtml, feeStatus: feeStatus, costStatus: costStatus, cardTuition: cardTuition, cardCost: cardCost, tuitionLabel: tuitionLabel,
-    costExtras: costExtras, budgetRange: budgetRange, budgetWithExtras: budgetWithExtras, costArithmetic: costArithmetic, costItemsMismatch: costItemsMismatch, costConflict: costConflict,
+    recBasis: recBasis, recInfo: recInfo, programsChecked: programsChecked, costAfterAid: costAfterAid, costExtras: costExtras, budgetRange: budgetRange, budgetWithExtras: budgetWithExtras, costArithmetic: costArithmetic, costItemsMismatch: costItemsMismatch, costConflict: costConflict,
     DISCLAIMER: DISCLAIMER,
     country: country, field: field, uniById: uniById, unisByCountry: unisByCountry,
     displayName: displayName, uniUrl: uniUrl,
     testStatus: testStatus, testStatusLabel: testStatusLabel,
     institutionKind: institutionKind, institutionKindLabel: function (u) { return INSTITUTION_KINDS[institutionKind(u)]; }, isCommunityCollege: isCommunityCollege, degreesOf: degreesOf, degreesLabel: degreesLabel,
     satPolicy: satPolicy, satLabel: satLabel, satNotRequired: satNotRequired, hasIelts: hasIelts, ieltsPublished: ieltsPublished, englishPrograms: englishPrograms, englishLabel: englishLabel, ieltsMin: ieltsMin, ieltsVaries: ieltsVaries, testVaries: testVaries, variesLabel: variesLabel, toeflLines: toeflLines, ieltsLabel: ieltsLabel, statsOf: statsOf, toeflMin: toeflMin,
-    fullRide: fullRide, awardKind: awardKind, awardLabel: awardLabel, meritList: meritList, needBased: needBased,
+    fullRide: fullRide, awardKind: awardKind, awardLabel: awardLabel, meritList: meritList, awardsAll: awardsAll, otherAwards: otherAwards, awardBasis: awardBasis, awardBasisLabel: awardBasisLabel, AWARD_BASIS: AWARD_BASIS, needBased: needBased,
     feeAmount: feeAmount, feeWaiver: feeWaiver, feeWaiverLabel: feeWaiverLabel, feeLabel: feeLabel,
     firstDeadline: firstDeadline, deadlineInfo: deadlineInfo, deadlineHtml: deadlineHtml, nextDeadline: nextDeadline, deadlineCardText: deadlineCardText,
     deadlinePassed: deadlinePassed, deadlineEnd: deadlineEnd, roundState: roundState, roundStateLabel: roundStateLabel, isApplicationDeadline: isApplicationDeadline, otherDateLabel: otherDateLabel,

@@ -260,3 +260,272 @@ window.UNIPATH.englishDetails = {
     detailsNote: "A copy of an IELTS, TOEFL or TOEIC score issued within the past 12 months is listed as an optional document; it must be submitted to be eligible for the scholarship reservation programme. No minimum score is stated.",
     detailsSource: "https://www.miu.ac.jp/english/admissionsinformation/international_liberal_arts/", detailsVerified: '2026-10-07' }
 };
+
+/* What a published score that is not a minimum is, read from the wording of
+   each record's own note: recommended, competitive (the level named for
+   competitive or best-prepared applicants), typical or average (statistics
+   about past applicants), stated (listed without saying what it is).
+   Records added in October 2026 carry the same key themselves. */
+window.UNIPATH.englishRecBasis = {
+ "amherst-college": {
+  "duolingo": "recommended",
+  "ielts": "recommended",
+  "toefl": "recommended"
+ },
+ "barnard-college": {
+  "duolingo": "competitive",
+  "ielts": "competitive",
+  "toefl": "competitive"
+ },
+ "boston-college": {
+  "duolingo": "recommended",
+  "ielts": "recommended",
+  "toefl": "recommended"
+ },
+ "boston-university": {
+  "duolingo": "competitive",
+  "toefl": "competitive"
+ },
+ "brandeis-university": {
+  "duolingo": "recommended",
+  "ielts": "recommended",
+  "toefl": "recommended"
+ },
+ "carleton-college": {
+  "duolingo": "competitive",
+  "ielts": "competitive",
+  "toefl": "competitive"
+ },
+ "clark-university": {
+  "duolingo": "recommended",
+  "ielts": "recommended",
+  "toefl": "recommended"
+ },
+ "college-of-the-holy-cross": {
+  "duolingo": "competitive",
+  "ielts": "competitive",
+  "toefl": "competitive"
+ },
+ "college-of-wooster": {
+  "toefl": "recommended"
+ },
+ "colorado-college": {
+  "duolingo": "competitive",
+  "ielts": "competitive",
+  "toefl": "competitive"
+ },
+ "connecticut-college": {
+  "duolingo": "typical",
+  "ielts": "typical",
+  "toefl": "typical"
+ },
+ "cornell-university": {
+  "toefl": "recommended"
+ },
+ "dartmouth-college": {
+  "duolingo": "typical",
+  "ielts": "typical",
+  "toefl": "typical"
+ },
+ "davidson-college": {
+  "duolingo": "competitive",
+  "ielts": "competitive",
+  "toefl": "competitive"
+ },
+ "dickinson-college": {
+  "duolingo": "recommended",
+  "ielts": "recommended",
+  "toefl": "recommended"
+ },
+ "earlham-college": {
+  "duolingo": "recommended",
+  "ielts": "recommended",
+  "toefl": "recommended"
+ },
+ "emory-university": {
+  "duolingo": "competitive",
+  "ielts": "recommended",
+  "toefl": "recommended"
+ },
+ "gettysburg-college": {
+  "duolingo": "stated",
+  "ielts": "stated",
+  "toefl": "stated"
+ },
+ "grinnell-college": {
+  "ielts": "recommended"
+ },
+ "hamilton-college": {
+  "duolingo": "typical",
+  "ielts": "typical",
+  "toefl": "typical"
+ },
+ "johns-hopkins-university": {
+  "duolingo": "competitive",
+  "ielts": "competitive",
+  "toefl": "competitive"
+ },
+ "kaist": {
+  "ielts": "recommended",
+  "toefl": "recommended"
+ },
+ "kenyon-college": {
+  "duolingo": "recommended",
+  "ielts": "recommended",
+  "toefl": "recommended"
+ },
+ "kyoto-university": {
+  "ielts": "typical",
+  "toefl": "typical"
+ },
+ "lafayette-college": {
+  "duolingo": "typical",
+  "ielts": "typical",
+  "toefl": "typical"
+ },
+ "lehigh-university": {
+  "duolingo": "competitive",
+  "ielts": "competitive",
+  "toefl": "competitive"
+ },
+ "macalester-college": {
+  "duolingo": "typical",
+  "ielts": "typical",
+  "toefl": "typical"
+ },
+ "middlebury-college": {
+  "duolingo": "recommended",
+  "ielts": "recommended",
+  "toefl": "recommended"
+ },
+ "mit": {
+  "duolingo": "recommended",
+  "ielts": "recommended",
+  "toefl": "recommended"
+ },
+ "new-york-university": {
+  "toefl": "competitive"
+ },
+ "northeastern-university": {
+  "duolingo": "competitive",
+  "ielts": "competitive",
+  "toefl": "competitive"
+ },
+ "purdue-university": {
+  "duolingo": "typical",
+  "ielts": "typical"
+ },
+ "rhodes-college": {
+  "duolingo": "recommended",
+  "ielts": "recommended",
+  "toefl": "recommended"
+ },
+ "sewanee-university-of-the-south": {
+  "duolingo": "recommended",
+  "ielts": "recommended",
+  "toefl": "recommended"
+ },
+ "skidmore-college": {
+  "duolingo": "stated",
+  "ielts": "stated",
+  "toefl": "stated"
+ },
+ "soka-university-of-america": {
+  "duolingo": "recommended",
+  "toefl": "recommended"
+ },
+ "syracuse-university": {
+  "duolingo": "recommended",
+  "ielts": "recommended",
+  "toefl": "recommended"
+ },
+ "trinity-college-hartford": {
+  "duolingo": "recommended",
+  "ielts": "recommended",
+  "toefl": "recommended"
+ },
+ "trinity-university": {
+  "duolingo": "recommended",
+  "ielts": "recommended",
+  "toefl": "recommended"
+ },
+ "tufts-university": {
+  "duolingo": "typical",
+  "ielts": "typical",
+  "toefl": "typical"
+ },
+ "tulane-university": {
+  "duolingo": "typical",
+  "ielts": "typical",
+  "toefl": "typical"
+ },
+ "ucla": {
+  "duolingo": "competitive",
+  "ielts": "competitive",
+  "toefl": "competitive"
+ },
+ "union-college": {
+  "duolingo": "competitive",
+  "ielts": "competitive",
+  "toefl": "competitive"
+ },
+ "university-of-miami": {
+  "duolingo": "competitive",
+  "ielts": "competitive",
+  "toefl": "competitive"
+ },
+ "university-of-notre-dame": {
+  "duolingo": "recommended",
+  "ielts": "recommended",
+  "toefl": "recommended"
+ },
+ "university-of-pennsylvania": {
+  "duolingo": "typical",
+  "ielts": "typical",
+  "toefl": "typical"
+ },
+ "university-of-richmond": {
+  "duolingo": "competitive",
+  "ielts": "competitive",
+  "toefl": "competitive"
+ },
+ "university-of-rochester": {
+  "duolingo": "recommended",
+  "ielts": "recommended",
+  "toefl": "recommended"
+ },
+ "university-of-tokyo": {
+  "duolingo": "recommended",
+  "ielts": "recommended",
+  "toefl": "recommended"
+ },
+ "vanderbilt-university": {
+  "duolingo": "recommended",
+  "ielts": "recommended",
+  "toefl": "recommended"
+ },
+ "washington-and-lee-university": {
+  "duolingo": "typical",
+  "ielts": "typical",
+  "toefl": "typical"
+ },
+ "washington-university-in-st-louis": {
+  "duolingo": "recommended",
+  "ielts": "recommended",
+  "toefl": "recommended"
+ },
+ "wesleyan-university": {
+  "duolingo": "recommended",
+  "ielts": "recommended",
+  "toefl": "recommended"
+ },
+ "williams-college": {
+  "duolingo": "typical",
+  "ielts": "typical",
+  "toefl": "typical"
+ },
+ "yale-university": {
+  "ielts": "competitive",
+  "toefl": "competitive"
+ }
+};

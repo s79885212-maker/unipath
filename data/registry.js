@@ -89,6 +89,11 @@ window.UNIPATH.applyLayers = function () {
         } else u.english[ek] = ed[ek];
       }
     }
+    /* What a published non-minimum score is — a recommendation, a competitive
+       level, a typical or an average score (data/english-details.js). A record
+       may also carry `recBasis` itself; the record wins. */
+    var rbm = (DB.englishRecBasis || {})[u.id];
+    if (rbm && u.english) for (var rk in rbm) if (rbm.hasOwnProperty(rk) && u.english[rk] && !u.english[rk].recBasis) u.english[rk].recBasis = rbm[rk];
     /* The cycle a SAT/ACT policy was stated for (data/test-policy.js). */
     var tp = (DB.testPolicyCycle || {})[u.id];
     if (tp) {

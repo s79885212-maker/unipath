@@ -220,6 +220,8 @@ var costNoCur = DB.universities.filter(function (u) { return u.costs && (U.tuiti
 ok(!costNoCur.length, 'every numeric cost has a currency', costNoCur.join(', '));
 var ac = (DB.match && DB.match.annualCost) || {};
 var badBasis = Object.keys(ac).filter(function (k) { return ['total', 'billed', 'tuition'].indexOf(ac[k].basis) < 0 || !ids[k]; });
+var zeroTotal = Object.keys(ac).filter(function (k) { return ac[k].basis !== 'tuition' && ac[k].max === 0; });
+ok(!zeroTotal.length, 'no yearly cost of zero is recorded as a full cost or as the university’s charges', zeroTotal.join(', '));
 ok(!badBasis.length, 'every yearly cost says whether it is tuition only, the university’s charges or a full cost', badBasis.join(', '));
 
 /* ---------------- scholarships ---------------- */
@@ -463,6 +465,61 @@ DB.universities.forEach(function (u) {
 ok(!missingFiles.length, 'every listed photo and thumbnail exists on disk', missingFiles.slice(0, 5).join(', '));
 ok(!noCredit.length, 'every photo has a title, author, licence and source page', noCredit.slice(0, 5).join(', '));
 console.log('   without a photo (placeholder shown): ' + DB.universities.filter(function (u) { return !((u.photos && u.photos.gallery) || []).length; }).map(function (u) { return u.id; }).join(', '));
+
+/* ---------------- corrections after the expansion (v111) ----------------
+   These check what a visitor is told, not how the code gets there. */
+group('corrections after the expansion');
+(function () {
+  var added = function () { return DB.universities.filter(function (u) { return u.country === 'us'; }).slice(110); };
+  var bud = function (id, b) { return M.evaluate(U.uniById(id), { ielts: null, sat: null, gpa: null, budget: b, currency: 'USD' }).budget; };
+  /* Guaranteed aid that covers the main costs is never a yearly cost of zero. */
+  ['deep-springs-college', 'berea-college'].forEach(function (id) {
+    var st = [0, 1, 1000, 2000, 5000000].map(function (b) { return bud(id, b).status; });
+    ok(st.every(function (x) { return x === 'core-covered'; }), id + ': budgets of 0, 1, 1,000, 2,000 and 5,000,000 USD are all “main costs covered — sufficiency not determined”', st.join(','));
+    ok(bud(id, null).status === 'none' && /not determined/.test(bud(id, null).text), id + ': with no budget entered the text still says sufficiency is not determined');
+    ok(U.cardCost(U.uniById(id)).kind === 'covered' && !/\$0|No tuition/.test(U.cardCost(U.uniById(id)).text), id + ': the card does not show a cost of zero');
+  });
+  ok(/2,200/.test(bud('berea-college', 0).html) && /One-off deposit/.test(bud('berea-college', 0).html), 'Berea: the one-off $2,200 deposit stays in the match result, apart from yearly costs');
+  ok(/Books, travel and incidental/.test(bud('deep-springs-college', 0).html), 'Deep Springs: books, travel and incidental expenses are named as remaining, with no amount');
+  var everFits = DB.universities.filter(function (u) { return bud(u.id, 0).status === 'fits'; }).map(function (u) { return u.id; });
+  ok(!everFits.length, 'a budget of 0 is never “full cost within budget” for any institution', everFits.join(', '));
+  /* An ordinary record with a published full budget still behaves as before. */
+  var ro = U.uniById('rollins-college'), rb = U.budgetAmount(ro);
+  ok(bud('rollins-college', rb).status === 'fits' && bud('rollins-college', rb - 1).status === 'over' && bud('rollins-college', 0).status === 'over',
+    'Rollins: the published full budget fits exactly, one dollar less does not, zero does not');
+  ok(bud('west-virginia-university', 40000).status === 'fits-tuition' && bud('anderson-university-indiana', 60000).status === 'fits-billed',
+    'tuition-only and billed-only figures inside a budget are not called a full cost');
+
+  /* Reed: what each award rests on, and what the IELTS figure is. */
+  var reed = U.uniById('reed-college');
+  var names = function (l) { return l.map(function (a) { return a.name; }).join(' | '); };
+  ok(!/UWC|Continental/.test(names(U.meritList(reed))) && /UWC/.test(names(U.otherAwards(reed))) && /Continental/.test(names(U.otherAwards(reed))),
+    'Reed: the UWC Davis–Reed Match and the Continental programme are not listed as merit scholarships', names(U.meritList(reed)));
+  var uwc = U.otherAwards(reed).filter(function (a) { return /UWC/.test(a.name); })[0];
+  ok(uwc && uwc.basis === 'partnership' && /United World Colleges only/.test(uwc.eligibility) && /30,000/.test(uwc.amount), 'Reed: the UWC award is a partner programme for admitted UWC students, $30,000 a year');
+  ok(U.otherAwards(reed).filter(function (a) { return /Continental/.test(a.name); })[0].basis === 'unknown', 'Reed: the basis of the Continental programme stays unknown');
+  var meritOpt = U.optionById('scholarship', 'merit');
+  ok(meritOpt && !meritOpt.test(reed), 'Reed is not returned by the “Merit scholarships” filter');
+  ok(U.ieltsLabel(reed) === '7+ average' && U.recInfo(reed.english.ielts).kind === 'statistic', 'Reed: IELTS 7+ is shown as an average, not as a competitive level', U.ieltsLabel(reed));
+  var chk = function (score) { return M.evaluate(reed, { ielts: score, sat: null, gpa: null, budget: null, currency: 'USD' }).checks.filter(function (c) { return /IELTS/.test(c.text); })[0]; };
+  ok(chk(6).basis === 'statistic' && chk(6).level !== 'hard' && !/minimum of|requirement met|meets/.test(chk(6).text.replace('not a minimum', '')) && /average/.test(chk(6).text),
+    'Reed: an IELTS below the average is compared with a statistic, never with a minimum', chk(6).text);
+  ok(chk(8).basis === 'statistic' && /not a requirement met/.test(chk(8).text), 'Reed: an IELTS above the average is not called a requirement met', chk(8).text);
+  var noBasis = [];
+  added().forEach(function (u) {
+    U.awardsAll(u).forEach(function (a) { if (!U.AWARD_BASIS[a.basis]) noBasis.push(u.id + ':' + a.name); });
+    ['ielts', 'toefl', 'duolingo'].forEach(function (k) { var t = (u.english || {})[k]; if (t && U.has(t.recommended) && !t.recBasis) noBasis.push(u.id + ':' + k); });
+  });
+  ok(!noBasis.length, 'every award and every non-minimum English score of the 90 added records says what it rests on', noBasis.slice(0, 6).join('; '));
+
+  /* "Not checked" is not the subject area "Other". */
+  var fakeOther = DB.universities.filter(function (u) { return !U.programsChecked(u) && (u.programs || []).length; }).map(function (u) { return u.id; });
+  ok(!fakeOther.length, 'a record whose majors were not read carries no field tag at all', fakeOther.join(', '));
+  var onlyOther = added().filter(function (u) { return (u.programs || []).join() === 'other'; }).map(function (u) { return u.id; });
+  ok(!onlyOther.length, 'no added record has “Other” as its only field', onlyOther.join(', '));
+  var noStatus = DB.universities.filter(function (u) { return !(u.programs || []).length && U.programsChecked(u); }).map(function (u) { return u.id; });
+  ok(!noStatus.length, 'a record without field tags says that its list of majors was not checked', noStatus.join(', '));
+})();
 
 console.log('\n' + passed + ' passed, ' + failed + ' failed');
 /* Exit with a status only when run directly; tests/links.js loads this file for the data. */

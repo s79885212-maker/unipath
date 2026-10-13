@@ -142,12 +142,12 @@
     var out = [];
     U.DB.countries.forEach(function (c) {
       var list = U.unisByCountry(c.code).filter(function (u) {
-        return U.fullRide(u).available === true || U.meritList(u).length || U.needBased(u).availableToInternational === true;
+        return U.fullRide(u).available === true || U.awardsAll(u).length || U.needBased(u).availableToInternational === true;
       });
       if (!list.length) return;
       out.push('<div class="section-head" style="margin-top:34px"><h2>' + c.flag + ' <span>' + esc(c.name) + '</span></h2></div>');
       list.forEach(function (u) {
-        var fr = U.fullRide(u), merit = U.meritList(u), need = U.needBased(u);
+        var fr = U.fullRide(u), merit = U.awardsAll(u), need = U.needBased(u);
         var covers = fr.covers || {};
         var coverHtml = [['tuition', 'Tuition'], ['housing', 'Housing'], ['meals', 'Meals'],
           ['insurance', 'Health insurance'], ['books', 'Books & other'], ['stipend', 'Living stipend']].filter(function (m) {
@@ -160,9 +160,9 @@
         }).join('');
         var meritHtml = merit.length
           ? '<div class="table-scroll" style="margin-top:12px"><table class="data-table"><thead><tr>' +
-            '<th>Scholarship</th><th>Amount</th><th>Eligibility</th><th>How to apply</th></tr></thead><tbody>' +
+            '<th>Scholarship</th><th>Basis</th><th>Amount</th><th>Eligibility</th><th>How to apply</th></tr></thead><tbody>' +
             merit.map(function (m) {
-              return '<tr><td><strong>' + esc(m.name) + '</strong></td><td>' + U.or(m.amount) + '</td><td>' +
+              return '<tr><td><strong>' + esc(m.name) + '</strong></td><td>' + esc(U.awardBasisLabel(m)) + '</td><td>' + U.or(m.amount) + '</td><td>' +
                 U.or(m.eligibility) + '</td><td>' + U.or(m.application) + '</td></tr>';
             }).join('') + '</tbody></table></div>'
           : '';

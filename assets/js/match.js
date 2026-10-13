@@ -29,6 +29,10 @@
   function convert(amount, from, to) {
     var r = data().rates.perEUR;
     if (!r[from] || !r[to]) return null;
+    /* The same currency is not converted: a division and a multiplication
+       would move the figure by a rounding error, and a budget exactly equal to
+       the published cost would read as "above budget". */
+    if (from === to) return amount;
     return amount / r[from] * r[to];
   }
   function money(amount, cur) {
@@ -75,8 +79,12 @@
         if (input.ielts < t.min) checks.push({ level: 'hard', basis: 'minimum', text: 'IELTS ' + input.ielts + ' is below the published minimum of ' + t.min + '.' });
         else checks.push({ level: 'ok', basis: 'minimum', text: 'IELTS ' + input.ielts + ' meets the published minimum of ' + t.min + '.' });
       } else if (t && typeof t.recommended === 'number') {
-        if (input.ielts < t.recommended) checks.push({ level: 'soft', basis: 'recommended', text: 'IELTS ' + input.ielts + ' is below the competitive score of ' + t.recommended + '.' });
-        else checks.push({ level: 'ok', basis: 'recommended', text: 'IELTS ' + input.ielts + ' is at or above the competitive score of ' + t.recommended + '.' });
+        /* What the figure is decides the wording: an average or a typical
+           score describes past applicants and is never a requirement that
+           is met or missed; a recommendation is the university's advice. */
+        var rb = U.recBasis(t), what = REC_TEXT[rb], kind = U.recInfo(t).kind;
+        if (input.ielts < t.recommended) checks.push({ level: 'soft', basis: kind, text: 'IELTS ' + input.ielts + ' is below ' + what + ' (' + t.recommended + ').' + (kind === 'statistic' ? ' This is a statistic, not a minimum.' : '') });
+        else checks.push({ level: 'ok', basis: kind, text: 'IELTS ' + input.ielts + ' is at or above ' + what + ' (' + t.recommended + ').' + (kind === 'statistic' ? ' This is a statistic, not a requirement met.' : '') });
       } else {
         checks.push({ level: 'info', text: 'No official IELTS figure is recorded for this institution, so your score was not compared.' });
       }
@@ -165,9 +173,22 @@
     return { checks: checks, category: category, unchecked: unchecked, bases: bases, budget: budget(u, input) };
   }
 
+  var REC_TEXT = {
+    recommended: 'the score the university recommends',
+    competitive: 'the level the university describes as competitive',
+    threshold: 'the higher level the university publishes',
+    stated: 'the level the university lists',
+    typical: 'the typical score of successful applicants the university describes',
+    average: 'the average score the university reports'
+  };
+
   /* The yearly figure of a university, with the required costs its profile
      lists outside the published total. */
   function costOf(u) {
+    /* Guaranteed aid covers the main costs: there is no yearly figure to
+       compare, only what the profile says is covered and what remains. */
+    var aa = U.costAfterAid(u);
+    if (aa) return { covered: aa, currency: U.costCurrency(u) };
     var c = data().annualCost[u.id];
     if (!c) return null;
     /* Two official sources, two totals: both travel with the record. */
@@ -194,9 +215,14 @@
   function budget(u, input) {
     var c = costOf(u);
     if (!c) return { status: 'unknown', text: 'No comparable yearly cost is recorded' };
+    /* Whatever the budget — 0 or any other number — covered main costs with
+       unpriced remaining expenses are never called "within budget". */
+    if (c.covered) return { status: input.budget === null ? 'none' : 'core-covered', text: coveredText(c.covered), html: coveredHtml(c.covered) };
     if (input.budget === null) return { status: 'none', text: costText(c, c.currency), html: c.conflict ? conflictHtml(c, c.currency) : null };
     var lo = convert(c.min, c.currency, input.currency), hi = convert(c.max, c.currency, input.currency);
     if (lo === null) return { status: 'unknown', text: 'No comparable yearly cost is recorded' };
+    /* A full cost of zero is not a published figure: nobody studies for nothing. */
+    if (c.basis === 'total' && c.max === 0) return { status: 'unknown', text: 'No comparable yearly cost is recorded' };
     /* Sources that disagree are not a range of programme prices: a budget
        between the two figures is neither enough nor too little until the
        university says which figure holds. */
@@ -214,6 +240,25 @@
     if (status === 'fits' && c.basis === 'billed') status = 'fits-billed';
     else if (status === 'fits' && c.basis !== 'total') status = 'fits-tuition';
     return { status: status, text: costText(c, input.currency) };
+  }
+
+  /* Covered main costs: each part of the profile's record under its own name. */
+  function coveredParts(aa) {
+    return [['Covered', aa.covered], ['Paid by the student', aa.personal], ['Not stated', aa.notStated], ['One-off deposit', aa.deposit]]
+      .filter(function (p) { return has(p[1]); });
+  }
+  function coveredHtml(aa) {
+    return '<strong>Main costs are covered; whether a budget is enough is not determined.</strong> ' +
+      '<span>The remaining expenses have no published yearly amount, so no budget — not even a large one — is confirmed here.</span>' +
+      '<ul class="conflict-figures">' + coveredParts(aa).map(function (p) {
+        return '<li><strong><span>' + esc(p[0]) + '</span>:</strong> <span>' + esc(p[1]) + '</span></li>';
+      }).join('') + '</ul>' +
+      (has(aa.source) ? '<a href="' + esc(aa.source) + '" target="_blank" rel="noopener">Official page ↗</a>' +
+        (has(aa.verified) ? ' · <span>Checked ' + esc(aa.verified) + '</span>' : '') : '');
+  }
+  function coveredText(aa) {
+    return 'Main costs are covered; whether a budget is enough is not determined. ' +
+      coveredParts(aa).map(function (p) { return p[0] + ': ' + p[1]; }).join(' ');
   }
 
   function shown(c, cur) {
@@ -271,6 +316,7 @@
     'fits-no-extras': '<span class="badge badge-warn">Published total within budget — required extra costs are not</span>',
     'fits-billed': '<span class="badge badge-warn">University charges within budget — other costs not included</span>',
     conflict: '<span class="badge badge-warn">Official sources differ — the budget needs checking</span>',
+    'core-covered': '<span class="badge badge-warn">Main costs covered — budget sufficiency not determined</span>',
     maybe: '<span class="badge badge-warn">Depends on programme</span>',
     over: '<span class="badge">Above budget</span>',
     unknown: '<span class="badge">Cost not recorded</span>',
@@ -405,12 +451,16 @@
     }
 
     var rows = list.map(function (u) { return { u: u, r: evaluate(u, input) }; });
-    var budgetRank = { fits: 0, 'fits-no-extras': 1, 'fits-billed': 1, 'fits-tuition': 1, conflict: 2, maybe: 2, none: 3, unknown: 4, over: 5 };
+    var budgetRank = { fits: 0, 'fits-no-extras': 1, 'fits-billed': 1, 'fits-tuition': 1, 'core-covered': 1, conflict: 2, maybe: 2, none: 3, unknown: 4, over: 5 };
     var entered = [], missing = [];
     (input.ielts !== null ? entered : missing).push('IELTS');
     (input.sat !== null ? entered : missing).push('SAT');
     (input.gpa !== null ? entered : missing).push('GPA');
+    var gap = input.field ? U.DB.universities.filter(function (u) {
+      return (!input.country || u.country === input.country) && (!input.englishOnly || u.englishTaught === true) && !U.programsChecked(u);
+    }).length : 0;
     var html = '<p class="muted small" style="margin-bottom:6px">' + rows.length + ' institutions compared</p>' +
+      (gap ? '<p class="muted small" style="margin:0 0 6px"><span>Not included under this field:</span> ' + gap + ' <span>institutions whose list of majors has not been checked.</span></p>' : '') +
       '<p class="small" style="margin:0 0 18px"><strong>Compared:</strong> <span>' + (entered.length ? entered.join(', ') : 'budget only') + '</span>' +
       (missing.length ? ' · <strong>Not entered, so not compared:</strong> <span>' + missing.join(', ') + '</span>' : '') + '</p>' +
       (input.invalid.length ? '<p class="small warn-text" style="margin:-10px 0 18px">A value outside the allowed range was entered and is not used.</p>' : '') +

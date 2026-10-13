@@ -4,7 +4,6 @@
    each record; a field those pages do not state stays null.
    ============================================================ */
 window.UNIPATH.universities.push(
-
 {
   "id": "bard-college",
   "name": "Bard College",
@@ -307,7 +306,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": null,
         "renewable": null,
-        "note": "Bard states the typical range for full-time enrolment; it is not a guaranteed amount."
+        "note": "Bard states the typical range for full-time enrolment; it is not a guaranteed amount.",
+        "basis": "need-merit"
       }
     ],
     "needBased": {
@@ -500,7 +500,8 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": null,
       "recommended": 7,
-      "note": "No minimum; successful applicants typically have at least 7."
+      "note": "No minimum; successful applicants typically have at least 7.",
+      "recBasis": "typical"
     },
     "toefl": {
       "min": null,
@@ -517,12 +518,14 @@ window.UNIPATH.universities.push(
           "recommended": 5.0,
           "min": null
         }
-      ]
+      ],
+      "recBasis": "typical"
     },
     "duolingo": {
       "min": null,
       "recommended": 130,
-      "note": "No minimum; successful applicants typically have at least 130."
+      "note": "No minimum; successful applicants typically have at least 130.",
+      "recBasis": "typical"
     },
     "waiver": "Not needed from native speakers of English or from applicants taught fully in English for at least three years of secondary school.",
     "note": "PTE Academic is also accepted (typically 70). Bennington offers no English as a Second Language courses.",
@@ -823,7 +826,8 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": null,
       "recommended": 7.5,
-      "note": "Minimum recommended score."
+      "note": "Minimum recommended score.",
+      "recBasis": "recommended"
     },
     "toefl": {
       "min": null,
@@ -840,12 +844,14 @@ window.UNIPATH.universities.push(
           "recommended": 5.5,
           "min": null
         }
-      ]
+      ],
+      "recBasis": "recommended"
     },
     "duolingo": {
       "min": null,
       "recommended": 130,
-      "note": "Minimum recommended score."
+      "note": "Minimum recommended score.",
+      "recBasis": "recommended"
     },
     "waiver": "Required from international applicants whose first language is not English or who have not attended a school taught mainly in English for at least three years.",
     "note": "Cambridge C1 Advanced and C2 Proficiency are also accepted (190 recommended).",
@@ -958,7 +964,8 @@ window.UNIPATH.universities.push(
         "deadline": "1 December for priority consideration",
         "application": "No separate application",
         "renewable": null,
-        "note": "Award amounts were not read on this check."
+        "note": "Award amounts were not read on this check.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -1453,7 +1460,8 @@ window.UNIPATH.universities.push(
           "recommended": 84,
           "min": null
         }
-      ]
+      ],
+      "recBasis": "recommended"
     },
     "duolingo": {
       "min": 130,
@@ -1538,7 +1546,8 @@ window.UNIPATH.universities.push(
         "deadline": "1 November",
         "application": "Admission application under Early Decision or Early Action, plus an interview",
         "renewable": true,
-        "note": "Housing and food remain payable."
+        "note": "Housing and food remain payable.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -1758,12 +1767,14 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": null,
       "recommended": 7,
-      "note": "No minimum; 7+ is the average Reed says it sees."
+      "note": "Reed sets no minimum. 7+ is the average score the college says it sees — a statistic about applicants, not a cut-off and not a recommendation.",
+      "recBasis": "average",
+      "quote": "While there is no minimum score that we are looking for, these are the average scores we see"
     },
     "toefl": {
       "min": null,
       "recommended": 110,
-      "note": "No minimum; the averages Reed sees are 5.0+ on the current scale and 110+ on the previous one.",
+      "note": "Reed sets no minimum. The averages it says it sees are 5.0+ on the current scale and 110+ on the previous one — statistics, not cut-offs.",
       "scales": [
         {
           "period": "pre2026",
@@ -1775,12 +1786,16 @@ window.UNIPATH.universities.push(
           "recommended": 5.0,
           "min": null
         }
-      ]
+      ],
+      "recBasis": "average",
+      "quote": "While there is no minimum score that we are looking for, these are the average scores we see"
     },
     "duolingo": {
       "min": null,
       "recommended": 145,
-      "note": "No minimum; 145+ is the average Reed says it sees."
+      "note": "Reed sets no minimum. 145+ is the average score the college says it sees — a statistic, not a cut-off.",
+      "recBasis": "average",
+      "quote": "While there is no minimum score that we are looking for, these are the average scores we see"
     },
     "waiver": "No testing is required from applicants who attended an English-medium school or programme.",
     "note": "International applicants whose native language is not English are encouraged, but not required, to submit results. An SAT reading and writing score of 600+ or ACT reading and English scores of 28+ are also listed.",
@@ -1886,20 +1901,28 @@ window.UNIPATH.universities.push(
       {
         "name": "Continental Scholarship Program",
         "amount": "Full tuition",
-        "eligibility": "International students — Reed intends to offer it to two students from each continent",
+        "eligibility": "International students: Reed “intends to offer full-tuition scholarships to two students from each continent”",
         "deadline": null,
-        "application": null,
+        "application": "Not stated on the page",
         "renewable": null,
-        "note": "Announced as beginning with the fall 2026 entering class; the page says Reed “intends to offer” the awards."
+        "note": "Announced as beginning with the fall 2026 entering class; the page read on 13 October 2026 still words it as an intention and names no later cycle. Housing, food and other costs are not mentioned as covered.",
+        "basis": "unknown",
+        "basisNote": "Reed does not publish how the recipients are chosen. The same page says all financial aid at Reed is granted on demonstrated need and that Reed offers no academic or athletic scholarships.",
+        "source": "https://www.reed.edu/admission-aid/how-to-apply/international.html",
+        "verified": "2026-10-13"
       },
       {
         "name": "UWC Davis–Reed Match Program",
-        "amount": "$30,000 a year ($15,000 Davis Award and $15,000 Reed Match)",
-        "eligibility": "Admitted students from United World Colleges",
+        "amount": "$30,000 a year: a $15,000 Davis Award and a $15,000 Reed Match — $120,000 over four years",
+        "eligibility": "Admitted students of United World Colleges only — not other international applicants",
         "deadline": null,
-        "application": "Automatic; no separate application",
+        "application": "Automatic for admitted UWC students; no separate application",
         "renewable": true,
-        "note": "Given regardless of financial aid status; $120,000 over four years."
+        "note": "Given regardless of financial aid status. UWC students who apply for financial aid are also considered for additional funding.",
+        "basis": "partnership",
+        "basisNote": "For admitted students of United World Colleges only. Reed writes that no separate application is required “and eligibility is not based on merit”.",
+        "source": "https://www.reed.edu/admission-aid/how-to-apply/international.html",
+        "verified": "2026-10-13"
       }
     ],
     "needBased": {
@@ -1911,7 +1934,7 @@ window.UNIPATH.universities.push(
         "Reed International Student Financial Aid Application, only where the CSS Profile fee is a hardship"
       ],
       "deadlines": "The same day as the admission application of each round.",
-      "note": "International applicants admitted without financial aid are not eligible to receive aid during their time at Reed."
+      "note": "All financial aid at Reed is granted on demonstrated financial need; Reed offers no academic or athletic scholarships. International applicants admitted without financial aid are not eligible to receive aid during their time at Reed."
     }
   },
   "photos": {
@@ -2105,7 +2128,8 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": null,
       "recommended": 7,
-      "note": "Most competitive applicants have 7 or higher."
+      "note": "Most competitive applicants have 7 or higher.",
+      "recBasis": "competitive"
     },
     "toefl": {
       "min": null,
@@ -2122,12 +2146,14 @@ window.UNIPATH.universities.push(
           "recommended": 5,
           "min": null
         }
-      ]
+      ],
+      "recBasis": "competitive"
     },
     "duolingo": {
       "min": null,
       "recommended": 130,
-      "note": "Most competitive applicants have at least 130."
+      "note": "Most competitive applicants have at least 130.",
+      "recBasis": "competitive"
     },
     "waiver": "Asked of applicants whose first language is not English and who have not studied in an English-language curriculum for the past four years.",
     "note": "Sarah Lawrence describes these as the scores of its most competitive applicants, not as minimums.",
@@ -2235,7 +2261,8 @@ window.UNIPATH.universities.push(
         "deadline": "Within ten days of the application deadline",
         "application": "Sarah Lawrence International Student Financial Aid Application",
         "renewable": true,
-        "note": "Renewed each year with satisfactory academic progress. Sarah Lawrence says 30–50% of its international students are scholarship recipients in any given year and calls the funds highly competitive."
+        "note": "Renewed each year with satisfactory academic progress. Sarah Lawrence says 30–50% of its international students are scholarship recipients in any given year and calls the funds highly competitive.",
+        "basis": "need-merit"
       }
     ],
     "needBased": {
@@ -2569,7 +2596,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Separate application",
         "renewable": null,
-        "note": "Four years. It has a separate application."
+        "note": "Four years. It has a separate application.",
+        "basis": "merit"
       },
       {
         "name": "Presidential Scholarship",
@@ -2578,7 +2606,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": "Four years, renewable each year with a cumulative GPA of at least 3.0."
+        "note": "Four years, renewable each year with a cumulative GPA of at least 3.0.",
+        "basis": "merit"
       },
       {
         "name": "Women’s Leadership Scholarship",
@@ -2587,7 +2616,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": "Four years; finalists are invited to campus for an interview."
+        "note": "Four years; finalists are invited to campus for an interview.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -2747,7 +2777,8 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": null,
       "recommended": 6.0,
-      "note": "Recommended minimum for the Bachelor of Music; 7.0 for the BA in Music Industry Leadership and Innovation. IELTS Indicator is not accepted."
+      "note": "Recommended minimum for the Bachelor of Music; 7.0 for the BA in Music Industry Leadership and Innovation. IELTS Indicator is not accepted.",
+      "recBasis": "recommended"
     },
     "toefl": {
       "min": null,
@@ -2764,12 +2795,14 @@ window.UNIPATH.universities.push(
           "recommended": 4,
           "min": null
         }
-      ]
+      ],
+      "recBasis": "recommended"
     },
     "duolingo": {
       "min": null,
       "recommended": 110,
-      "note": "Recommended minimum for the Bachelor of Music; 120 for the BA in Music Industry Leadership and Innovation."
+      "note": "Recommended minimum for the Bachelor of Music; 120 for the BA in Music Industry Leadership and Innovation.",
+      "recBasis": "recommended"
     },
     "waiver": "Required when the first language is not English. Waived with an IB Diploma (not the Bilingual Diploma) or after two years of high school or two semesters of college taught entirely in English.",
     "note": "PTE Academic is also accepted (48 for the Bachelor of Music, 60 for the BA).",
@@ -2885,7 +2918,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic nomination; no application",
         "renewable": null,
-        "note": "Eight semesters. Health insurance, travel and books are not included. A FAFSA or CSS Profile must be on file; the page does not say whether international students are considered, and entering international students are not considered for need-based institutional aid."
+        "note": "Eight semesters. Health insurance, travel and books are not included. A FAFSA or CSS Profile must be on file; the page does not say whether international students are considered, and entering international students are not considered for need-based institutional aid.",
+        "basis": "need-merit"
       }
     ],
     "needBased": {
@@ -3225,7 +3259,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": "All admitted students are reviewed automatically. The FAQ for international students gives up to $42,000 a year; the costs page for international students says up to $40,000."
+        "note": "All admitted students are reviewed automatically. The FAQ for international students gives up to $42,000 a year; the costs page for international students says up to $40,000.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -3421,7 +3456,8 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": null,
       "recommended": 7,
-      "note": "William & Mary says it looks for an overall band of 7 or above on IELTS Academic; no score guarantees admission."
+      "note": "William & Mary says it looks for an overall band of 7 or above on IELTS Academic; no score guarantees admission.",
+      "recBasis": "recommended"
     },
     "toefl": {
       "min": null,
@@ -3438,7 +3474,8 @@ window.UNIPATH.universities.push(
           "recommended": 5,
           "min": null
         }
-      ]
+      ],
+      "recBasis": "recommended"
     },
     "duolingo": {
       "min": null,
@@ -3810,7 +3847,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": "Awarded with the admission decision and based on the high school GPA."
+        "note": "Awarded with the admission decision and based on the high school GPA.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -4153,7 +4191,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": "Renewable annually while the student is in good standing."
+        "note": "Renewable annually while the student is in good standing.",
+        "basis": "merit"
       },
       {
         "name": "Bonner Scholarship",
@@ -4162,7 +4201,9 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": null,
         "renewable": null,
-        "note": "A four-year service programme."
+        "note": "A four-year service programme.",
+        "basis": "need",
+        "basisNote": "Need-based, for students with a record of service."
       }
     ],
     "needBased": {
@@ -4662,7 +4703,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": null
+        "note": null,
+        "basis": "merit"
       },
       {
         "name": "Drew Action Scholars",
@@ -4671,7 +4713,9 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Separate application",
         "renewable": null,
-        "note": null
+        "note": null,
+        "basis": "talent",
+        "basisNote": "For students committed to community work; a separate application."
       }
     ],
     "needBased": {
@@ -4955,7 +4999,9 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": null
+        "note": null,
+        "basis": "unknown",
+        "basisNote": "The page names who may receive the grant but not what the amount depends on."
       },
       {
         "name": "Artistic Achievement Award",
@@ -4964,7 +5010,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Separate application",
         "renewable": null,
-        "note": "Awarded annually for four years; renewal criteria are set by the faculty of the discipline."
+        "note": "Awarded annually for four years; renewal criteria are set by the faculty of the discipline.",
+        "basis": "talent"
       }
     ],
     "needBased": {
@@ -6004,7 +6051,8 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": null,
       "recommended": 7,
-      "note": "Recommended minimum: 7 or higher."
+      "note": "Recommended minimum: 7 or higher.",
+      "recBasis": "recommended"
     },
     "toefl": {
       "min": null,
@@ -6016,12 +6064,14 @@ window.UNIPATH.universities.push(
           "recommended": 100,
           "min": null
         }
-      ]
+      ],
+      "recBasis": "recommended"
     },
     "duolingo": {
       "min": null,
       "recommended": 120,
-      "note": "Recommended minimum: 120 or higher."
+      "note": "Recommended minimum: 120 or higher.",
+      "recBasis": "recommended"
     },
     "waiver": "Highly recommended for applicants whose primary language is not English, unless they have been enrolled in an English-instruction school for at least four years.",
     "note": "PTE is also accepted (65 or higher recommended). Scores may be self-reported and are verified on enrolment.",
@@ -6135,7 +6185,9 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": true,
-        "note": "For a maximum of eight semesters of required full-time study."
+        "note": "For a maximum of eight semesters of required full-time study.",
+        "basis": "automatic",
+        "basisNote": "Every admitted student receives it; it is not a competition."
       }
     ],
     "needBased": {
@@ -6687,7 +6739,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": "The pages read give no amount."
+        "note": "The pages read give no amount.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -6995,7 +7048,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": "Awarded for superior academic performance regardless of financial need; renewed automatically for the second year, then with a cumulative GPA of at least 2.75. The page read gives no amount."
+        "note": "Awarded for superior academic performance regardless of financial need; renewed automatically for the second year, then with a cumulative GPA of at least 2.75. The page read gives no amount.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -7518,7 +7572,8 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": null,
       "recommended": 6.5,
-      "note": "The most competitive applicants generally score at or above 6.5."
+      "note": "The most competitive applicants generally score at or above 6.5.",
+      "recBasis": "competitive"
     },
     "toefl": {
       "min": null,
@@ -7530,12 +7585,14 @@ window.UNIPATH.universities.push(
           "recommended": 80,
           "min": null
         }
-      ]
+      ],
+      "recBasis": "competitive"
     },
     "duolingo": {
       "min": null,
       "recommended": 120,
-      "note": "The most competitive applicants generally score at or above 120."
+      "note": "The most competitive applicants generally score at or above 120.",
+      "recBasis": "competitive"
     },
     "waiver": "Required if English is not the first language. A waiver can be requested in writing by a school counselor or official confirming the language of instruction.",
     "note": "An SAT Reading and Writing score of 600 is listed alongside the English tests.",
@@ -7628,7 +7685,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": true,
-        "note": "Good for four years with satisfactory academic progress and a cumulative GPA of at least 2.0. Test scores are not required."
+        "note": "Good for four years with satisfactory academic progress and a cumulative GPA of at least 2.0. Test scores are not required.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -7952,7 +8010,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": "The pages read give no amount. Awarding is subject to the availability of funds."
+        "note": "The pages read give no amount. Awarding is subject to the availability of funds.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -8251,7 +8310,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": "Every application is reviewed automatically on academic success, community involvement and other achievements."
+        "note": "Every application is reviewed automatically on academic success, community involvement and other achievements.",
+        "basis": "merit"
       },
       {
         "name": "World Robot Olympiad Scholarship",
@@ -8260,7 +8320,9 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": null,
         "renewable": null,
-        "note": "For up to four years of undergraduate study (five for architecture)."
+        "note": "For up to four years of undergraduate study (five for architecture).",
+        "basis": "partnership",
+        "basisNote": "For World Robot Olympiad scholars only."
       }
     ],
     "needBased": {
@@ -8433,7 +8495,8 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": null,
       "recommended": 6.5,
-      "note": "Recommended score: 6.5."
+      "note": "Recommended score: 6.5.",
+      "recBasis": "recommended"
     },
     "toefl": {
       "min": null,
@@ -8445,12 +8508,14 @@ window.UNIPATH.universities.push(
           "recommended": 80,
           "min": null
         }
-      ]
+      ],
+      "recBasis": "recommended"
     },
     "duolingo": {
       "min": null,
       "recommended": 105,
-      "note": "Recommended score: 105."
+      "note": "Recommended score: 105.",
+      "recBasis": "recommended"
     },
     "waiver": "Required when the first language is not English. Students with a diploma from a secondary school where English is the primary language of instruction are exempt.",
     "note": "PTE is also accepted (recommended 53).",
@@ -8572,12 +8637,8 @@ window.UNIPATH.universities.push(
   "description": "A public research university in Indianapolis, Indiana — the Indiana University campus that was part of IUPUI until 2024. It publishes a full cost estimate for international undergraduates and asks them to apply by 15 February to be considered for admissions-based scholarships.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [
-    "other"
-  ],
-  "englishTaughtPrograms": [
-    "other"
-  ],
+  "programs": [],
+  "englishTaughtPrograms": [],
   "programNote": "The list of degrees and majors could not be read on this check, so no fields are listed. Purdue University in Indianapolis is a separate institution and has no record here.",
   "links": {
     "website": "https://indianapolis.iu.edu/",
@@ -8754,7 +8815,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": null,
         "renewable": null,
-        "note": "The pages read give no amount."
+        "note": "The pages read give no amount.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -8817,7 +8879,8 @@ window.UNIPATH.universities.push(
     "IUI",
     "Indiana University–Purdue University Indianapolis",
     "Indiana University Purdue University Indianapolis"
-  ]
+  ],
+  "programsStatus": "not-checked"
 },
 
 {
@@ -8967,7 +9030,8 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": null,
       "recommended": 6.0,
-      "note": "Recommended score of 6.0 or higher."
+      "note": "Recommended score of 6.0 or higher.",
+      "recBasis": "recommended"
     },
     "toefl": {
       "min": null,
@@ -8984,12 +9048,14 @@ window.UNIPATH.universities.push(
           "recommended": 4.0,
           "min": null
         }
-      ]
+      ],
+      "recBasis": "recommended"
     },
     "duolingo": {
       "min": null,
       "recommended": 115,
-      "note": "Recommended score of 115 or higher."
+      "note": "Recommended score of 115 or higher.",
+      "recBasis": "recommended"
     },
     "waiver": "The page lists recommended minimum scores and exempts some applicants on the basis of their schooling.",
     "note": "PTE Academic (54) and an SAT Evidence-Based Reading and Writing score of 600 are also listed.",
@@ -9092,7 +9158,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": null,
         "renewable": null,
-        "note": "The pages read give no amount."
+        "note": "The pages read give no amount.",
+        "basis": "merit"
       },
       {
         "name": "Presidential Scholarship",
@@ -9101,7 +9168,8 @@ window.UNIPATH.universities.push(
         "deadline": "1 November",
         "application": "Separate application",
         "renewable": null,
-        "note": "The pages read give no amount."
+        "note": "The pages read give no amount.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -9888,7 +9956,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": true,
-        "note": "Award range for the 2027–28 academic year. Kept with full-time enrolment and a cumulative GPA of at least 2.0."
+        "note": "Award range for the 2027–28 academic year. Kept with full-time enrolment and a cumulative GPA of at least 2.0.",
+        "basis": "merit"
       },
       {
         "name": "Dean’s Scholarship",
@@ -9897,7 +9966,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": true,
-        "note": "Award range for the 2027–28 academic year. Kept with full-time enrolment and a cumulative GPA of at least 2.0."
+        "note": "Award range for the 2027–28 academic year. Kept with full-time enrolment and a cumulative GPA of at least 2.0.",
+        "basis": "merit"
       },
       {
         "name": "Loyola Scholarship",
@@ -9906,7 +9976,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": true,
-        "note": "Award range for the 2027–28 academic year. Kept with full-time enrolment and a cumulative GPA of at least 2.0."
+        "note": "Award range for the 2027–28 academic year. Kept with full-time enrolment and a cumulative GPA of at least 2.0.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -10160,7 +10231,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": true,
-        "note": "Awards are renewable."
+        "note": "Awards are renewable.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -10456,7 +10528,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": "The award letter comes with the admission decision. The page does not say which amounts international students receive."
+        "note": "The award letter comes with the admission decision. The page does not say which amounts international students receive.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -11034,7 +11107,9 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": true,
-        "note": "Renewable for a total of four years ($80,000 in all). Recipients are still considered for larger merit scholarships."
+        "note": "Renewable for a total of four years ($80,000 in all). Recipients are still considered for larger merit scholarships.",
+        "basis": "automatic",
+        "basisNote": "Every student admitted through Early Decision I or II receives it."
       },
       {
         "name": "Occidental merit scholarships",
@@ -11043,7 +11118,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": "The pages read give no amount."
+        "note": "The pages read give no amount.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -11334,7 +11410,9 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": true,
-        "note": "Stated for the autumn 2026 session. Provided for up to eight semesters while the student stays in good academic standing; not based on a minimum GPA or test scores."
+        "note": "Stated for the autumn 2026 session. Provided for up to eight semesters while the student stays in good academic standing; not based on a minimum GPA or test scores.",
+        "basis": "automatic",
+        "basisNote": "The page says it is not based on a minimum GPA or test scores."
       }
     ],
     "needBased": {
@@ -11958,7 +12036,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": null,
         "renewable": null,
-        "note": null
+        "note": null,
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -12288,7 +12367,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": true,
-        "note": "Renewable for four years; applicants are told at admission. Merit scholarships are for first-year applicants only."
+        "note": "Renewable for four years; applicants are told at admission. Merit scholarships are for first-year applicants only.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -12605,7 +12685,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": "The pages read give no amount."
+        "note": "The pages read give no amount.",
+        "basis": "merit"
       },
       {
         "name": "Ahmet Ertegun Turkish Scholarship",
@@ -12614,7 +12695,9 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": null,
         "renewable": null,
-        "note": null
+        "note": null,
+        "basis": "need",
+        "basisNote": "For students from Turkey; the amount depends on financial need."
       }
     ],
     "needBased": {
@@ -12886,7 +12969,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": "The pages read give no amount."
+        "note": "The pages read give no amount.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -12961,12 +13045,8 @@ window.UNIPATH.universities.push(
   "description": "A public research university in Cincinnati, Ohio, known for co-operative education. SAT and ACT scores are optional. Cincinnati states that it does not offer full-tuition or need-based scholarships to undergraduate international students; its main award for them is $5,000 to $15,000 a year.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [
-    "other"
-  ],
-  "englishTaughtPrograms": [
-    "other"
-  ],
+  "programs": [],
+  "englishTaughtPrograms": [],
   "programNote": "The list of majors could not be read on this check, so no fields are listed. English minimums differ by college.",
   "links": {
     "website": "https://www.uc.edu/",
@@ -13140,7 +13220,9 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": null,
         "renewable": null,
-        "note": "The primary scholarship for international students; the amount depends on several factors and is applied to the out-of-state surcharge."
+        "note": "The primary scholarship for international students; the amount depends on several factors and is applied to the out-of-state surcharge.",
+        "basis": "unknown",
+        "basisNote": "The amount “depends on several factors” that the page does not list."
       }
     ],
     "needBased": {
@@ -13196,7 +13278,8 @@ window.UNIPATH.universities.push(
   "aliases": [
     "UC",
     "Cincinnati"
-  ]
+  ],
+  "programsStatus": "not-checked"
 },
 
 {
@@ -13428,7 +13511,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": null,
         "renewable": null,
-        "note": "The pages read give no amount. Awarded by the Office of Undergraduate Admission. Villanova offers no merit or need-based assistance to international transfer students."
+        "note": "The pages read give no amount. Awarded by the Office of Undergraduate Admission. Villanova offers no merit or need-based assistance to international transfer students.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -13603,7 +13687,8 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": null,
       "recommended": 6.5,
-      "note": "No minimum; W&J generally looks for 6.5 or higher."
+      "note": "No minimum; W&J generally looks for 6.5 or higher.",
+      "recBasis": "recommended"
     },
     "toefl": {
       "min": null,
@@ -13615,7 +13700,8 @@ window.UNIPATH.universities.push(
           "recommended": 85,
           "min": null
         }
-      ]
+      ],
+      "recBasis": "recommended"
     },
     "duolingo": null,
     "waiver": "The English test may be waived with an SAT critical reading score above 600.",
@@ -13699,7 +13785,9 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": "The two W&J pages give different amounts; the scholarships page shows 2027–28 figures."
+        "note": "The two W&J pages give different amounts; the scholarships page shows 2027–28 figures.",
+        "basis": "automatic",
+        "basisNote": "Every admitted international student receives it."
       }
     ],
     "needBased": {
@@ -13994,7 +14082,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": null
+        "note": null,
+        "basis": "merit"
       },
       {
         "name": "Lemmon Scholarship and Presidential Scholarship",
@@ -14003,7 +14092,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": null,
         "renewable": null,
-        "note": "Renewable for four years."
+        "note": "Renewable for four years.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -14148,7 +14238,8 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": null,
       "recommended": 7.0,
-      "note": "Recommended score of 7.0 with no band below 6.5."
+      "note": "Recommended score of 7.0 with no band below 6.5.",
+      "recBasis": "recommended"
     },
     "toefl": {
       "min": null,
@@ -14165,12 +14256,14 @@ window.UNIPATH.universities.push(
           "recommended": 4.5,
           "min": null
         }
-      ]
+      ],
+      "recBasis": "recommended"
     },
     "duolingo": {
       "min": null,
       "recommended": 125,
-      "note": "Recommended score of 125."
+      "note": "Recommended score of 125.",
+      "recBasis": "recommended"
     },
     "waiver": "International applicants must submit proof of English proficiency; citizens of an English-speaking country who attended an English-speaking high school for four years may be exempt.",
     "note": "PTE is also accepted (recommended 61).",
@@ -14232,7 +14325,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": "The pages read give no amount."
+        "note": "The pages read give no amount.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -14313,12 +14407,8 @@ window.UNIPATH.universities.push(
   "description": "A private liberal arts college for women in Decatur, Georgia, near Atlanta. It is test-optional. Under the Agnes Scott $100K+ Promise every student admitted for Fall 2027, international students included, receives a renewable merit scholarship of at least $25,000 a year; the college offers no need-based aid to international students.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [
-    "other"
-  ],
-  "englishTaughtPrograms": [
-    "other"
-  ],
+  "programs": [],
+  "englishTaughtPrograms": [],
   "programNote": "The list of majors was not read on this check, so no fields are listed.",
   "links": {
     "website": "https://www.agnesscott.edu/",
@@ -14535,7 +14625,8 @@ window.UNIPATH.universities.push(
         "deadline": "15 January for the full range",
         "application": "Automatic with the application for admission; no separate application",
         "renewable": true,
-        "note": "A renewable merit scholarship. Applications complete by 15 January are considered for the full range of merit scholarships ($25,000 to $34,000 a year)."
+        "note": "A renewable merit scholarship. Applications complete by 15 January are considered for the full range of merit scholarships ($25,000 to $34,000 a year).",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -14588,7 +14679,8 @@ window.UNIPATH.universities.push(
       "list of majors"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsStatus": "not-checked"
 },
 
 {
@@ -14817,7 +14909,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": true,
-        "note": "Guaranteed for four years of study; the award is stated in the acceptance letter."
+        "note": "Guaranteed for four years of study; the award is stated in the acceptance letter.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -15368,7 +15461,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": true,
-        "note": "Renewable for up to four years."
+        "note": "Renewable for up to four years.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -15658,7 +15752,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": "For automatic consideration, upload SAT or ACT scores to the admissions account."
+        "note": "For automatic consideration, upload SAT or ACT scores to the admissions account.",
+        "basis": "merit"
       },
       {
         "name": "International Merit Scholarship",
@@ -15667,7 +15762,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Separate application",
         "renewable": null,
-        "note": null
+        "note": null,
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -15983,7 +16079,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": null
+        "note": null,
+        "basis": "merit"
       },
       {
         "name": "Fine Arts Scholarship",
@@ -15992,7 +16089,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Separate application",
         "renewable": null,
-        "note": "Needs a scholarship application and an audition or portfolio review; deadline 1 March."
+        "note": "Needs a scholarship application and an audition or portfolio review; deadline 1 March.",
+        "basis": "talent"
       }
     ],
     "needBased": {
@@ -16352,12 +16450,8 @@ window.UNIPATH.universities.push(
   "description": "A private liberal arts college in Claremont, California, one of the Claremont Colleges. Pitzer is test-free through the 2026–2027 admission cycle. International applicants who want need-based aid complete Pitzer’s own financial aid application; the pages read do not say how much of their need is met.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [
-    "other"
-  ],
-  "englishTaughtPrograms": [
-    "other"
-  ],
+  "programs": [],
+  "englishTaughtPrograms": [],
   "programNote": "The list of majors was not read on this check, so no fields are listed.",
   "links": {
     "website": "https://www.pitzer.edu/",
@@ -16619,7 +16713,8 @@ window.UNIPATH.universities.push(
       "list of majors"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsStatus": "not-checked"
 },
 
 {
@@ -17011,7 +17106,8 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": 6.0,
       "recommended": 6.5,
-      "note": "6.0 is the minimum for admission with the English Language and Culture Bridge requirement; 6.5 is exempt from it. One Skill Retake is accepted."
+      "note": "6.0 is the minimum for admission with the English Language and Culture Bridge requirement; 6.5 is exempt from it. One Skill Retake is accepted.",
+      "recBasis": "threshold"
     },
     "toefl": {
       "min": 68,
@@ -17028,7 +17124,8 @@ window.UNIPATH.universities.push(
     "duolingo": {
       "min": 105,
       "recommended": 120,
-      "note": "105–115 is admitted with the bridge requirement; 120 is exempt from it."
+      "note": "105–115 is admitted with the bridge requirement; 120 is exempt from it.",
+      "recBasis": "threshold"
     },
     "waiver": "Students who completed all of high school in a US-accredited school or another English-speaking country meet the requirement.",
     "note": "PTE Academic is also accepted (48–57 with the bridge requirement, 58 exempt).",
@@ -17146,7 +17243,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": true,
-        "note": "For first-year students the scholarships are renewable for up to four years."
+        "note": "For first-year students the scholarships are renewable for up to four years.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -17393,7 +17491,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": null
+        "note": null,
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -17696,7 +17795,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": "The pages read give no amount."
+        "note": "The pages read give no amount.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -17982,7 +18082,9 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": null,
         "renewable": null,
-        "note": "Four-year totals of $100,000 to $200,000."
+        "note": "Four-year totals of $100,000 to $200,000.",
+        "basis": "unknown",
+        "basisNote": "For Canadian students; the page read does not say how the amount within the range is decided."
       }
     ],
     "needBased": {
@@ -18286,12 +18388,8 @@ window.UNIPATH.universities.push(
   "description": "A public research university in Philadelphia, Pennsylvania — the home campus of Temple University, Japan Campus, which has its own record. Temple says scholarship funding for international undergraduates is very competitive and that they are expected to finance the entire cost of their education.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [
-    "other"
-  ],
-  "englishTaughtPrograms": [
-    "other"
-  ],
+  "programs": [],
+  "englishTaughtPrograms": [],
   "programNote": "The list of majors could not be read on this check, so no fields are listed.",
   "links": {
     "website": "https://www.temple.edu/",
@@ -18442,7 +18540,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": null,
         "renewable": true,
-        "note": "The pages read give no amount. Renewable for up to four years while the student keeps the required academic standing."
+        "note": "The pages read give no amount. Renewable for up to four years while the student keeps the required academic standing.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -18486,7 +18585,8 @@ window.UNIPATH.universities.push(
       "list of majors"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsStatus": "not-checked"
 },
 
 {
@@ -18743,12 +18843,8 @@ window.UNIPATH.universities.push(
   "description": "A public research university in Tucson, Arizona. Applicants are considered for merit tuition scholarships with the application; Arizona says more than 82% of new international undergraduates in autumn 2024 received a Global Wildcat Scholarship. It has announced that tuition and fees stay flat for 2027–28.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [
-    "other"
-  ],
-  "englishTaughtPrograms": [
-    "other"
-  ],
+  "programs": [],
+  "englishTaughtPrograms": [],
   "programNote": "The list of majors could not be read on this check, so no fields are listed.",
   "links": {
     "website": "https://www.arizona.edu/",
@@ -18905,7 +19001,9 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": "The pages read give no amount. Arizona says more than 82% of new international undergraduates in autumn 2024 received it."
+        "note": "The pages read give no amount. Arizona says more than 82% of new international undergraduates in autumn 2024 received it.",
+        "basis": "unknown",
+        "basisNote": "The pages read do not say how the amount is decided."
       }
     ],
     "needBased": {
@@ -18963,7 +19061,8 @@ window.UNIPATH.universities.push(
     "UA",
     "UArizona",
     "U of A"
-  ]
+  ],
+  "programsStatus": "not-checked"
 },
 
 {
@@ -19153,7 +19252,8 @@ window.UNIPATH.universities.push(
         "deadline": "1 February 2027",
         "application": "Automatic with the application for admission; no separate application",
         "renewable": true,
-        "note": "For up to four years. Awarded automatically to eligible students who apply for admission by 1 February 2027; SAT or ACT scores are needed for scholarship consideration."
+        "note": "For up to four years. Awarded automatically to eligible students who apply for admission by 1 February 2027; SAT or ACT scores are needed for scholarship consideration.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -19229,12 +19329,8 @@ window.UNIPATH.universities.push(
   "description": "A public research university in Chapel Hill, North Carolina, chartered in 1789. UNC states that international students are not eligible for need-based financial aid and should be prepared to pay the full cost of attendance for non-resident students. SAT or ACT scores are optional with a weighted GPA of 2.8 or above.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [
-    "other"
-  ],
-  "englishTaughtPrograms": [
-    "other"
-  ],
+  "programs": [],
+  "englishTaughtPrograms": [],
   "programNote": "The list of majors could not be read on this check, so no fields are listed.",
   "links": {
     "website": "https://www.unc.edu/",
@@ -19306,7 +19402,8 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": null,
       "recommended": 7.5,
-      "note": "Strong applicants typically score 7.5 or higher on IELTS Academic; UNC stresses that this is not a minimum."
+      "note": "Strong applicants typically score 7.5 or higher on IELTS Academic; UNC stresses that this is not a minimum.",
+      "recBasis": "typical"
     },
     "toefl": {
       "min": null,
@@ -19323,12 +19420,14 @@ window.UNIPATH.universities.push(
           "recommended": 5,
           "min": null
         }
-      ]
+      ],
+      "recBasis": "typical"
     },
     "duolingo": {
       "min": null,
       "recommended": 130,
-      "note": "Strong applicants typically score 130 or higher; not a minimum."
+      "note": "Strong applicants typically score 130 or higher; not a minimum.",
+      "recBasis": "typical"
     },
     "waiver": "The requirement can be waived for applicants who have lived in an English-speaking country for a stated period.",
     "note": "Cambridge C1 Advanced (185 or higher) and C2 Proficiency are also accepted.",
@@ -19452,7 +19551,8 @@ window.UNIPATH.universities.push(
     "UNC Chapel Hill",
     "University of North Carolina",
     "Carolina"
-  ]
+  ],
+  "programsStatus": "not-checked"
 },
 
 {
@@ -19476,12 +19576,8 @@ window.UNIPATH.universities.push(
   "description": "A private research university in Denver, Colorado. It is test-optional. The University of Denver states that it offers no need-based aid to international students; they are considered automatically for merit scholarships of $15,000 to $40,000 a year, and the university says very few of these cover the full cost.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [
-    "other"
-  ],
-  "englishTaughtPrograms": [
-    "other"
-  ],
+  "programs": [],
+  "englishTaughtPrograms": [],
   "programNote": "The list of majors could not be read on this check, so no fields are listed.",
   "links": {
     "website": "https://www.du.edu/",
@@ -19682,7 +19778,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": "Most of these scholarships are renewable."
+        "note": "Most of these scholarships are renewable.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -19733,7 +19830,8 @@ window.UNIPATH.universities.push(
   "lastVerified": "2026-10-12",
   "aliases": [
     "DU"
-  ]
+  ],
+  "programsStatus": "not-checked"
 },
 
 {
@@ -19757,12 +19855,8 @@ window.UNIPATH.universities.push(
   "description": "A public research university in College Park, Maryland. It is test-optional through the spring and autumn 2027 application cycles. International applicants submit Duolingo, IELTS or TOEFL scores less than two years old; the pages read give no minimum scores, costs or aid terms for them.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [
-    "other"
-  ],
-  "englishTaughtPrograms": [
-    "other"
-  ],
+  "programs": [],
+  "englishTaughtPrograms": [],
   "programNote": "The list of majors could not be read on this check, so no fields are listed.",
   "links": {
     "website": "https://umd.edu/",
@@ -19927,7 +20021,8 @@ window.UNIPATH.universities.push(
     "UMD",
     "University of Maryland",
     "Maryland"
-  ]
+  ],
+  "programsStatus": "not-checked"
 },
 
 {
@@ -19951,12 +20046,8 @@ window.UNIPATH.universities.push(
   "description": "A private Catholic university in San Diego, California — not the public University of California, San Diego. It is test-free through Fall 2027: standardized tests are not viewed in admission. The pages read give exact dates for Fall 2027 and the 2026–27 charges, but no English minimums or aid terms for international students.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [
-    "other"
-  ],
-  "englishTaughtPrograms": [
-    "other"
-  ],
+  "programs": [],
+  "englishTaughtPrograms": [],
   "programNote": "The list of majors could not be read on this check, so no fields are listed.",
   "links": {
     "website": "https://www.sandiego.edu/",
@@ -20165,7 +20256,8 @@ window.UNIPATH.universities.push(
   "aliases": [
     "USD",
     "San Diego"
-  ]
+  ],
+  "programsStatus": "not-checked"
 },
 
 {
@@ -20571,7 +20663,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": "Eligibility for each specialty scholarship is set separately."
+        "note": "Eligibility for each specialty scholarship is set separately.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -20835,7 +20928,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": true,
-        "note": "Awarded at admission and renewed automatically for four years (eight semesters) at the same amount, with a cumulative GPA of at least 2.0 and full-time enrolment."
+        "note": "Awarded at admission and renewed automatically for four years (eight semesters) at the same amount, with a cumulative GPA of at least 2.0 and full-time enrolment.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -21113,7 +21207,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": null
+        "note": null,
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -21302,7 +21397,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": true,
-        "note": "Renewable for all four years of undergraduate study; based on academic performance and a holistic review."
+        "note": "Renewable for all four years of undergraduate study; based on academic performance and a holistic review.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -21594,12 +21690,8 @@ window.UNIPATH.universities.push(
   "description": "A private university in Hempstead, New York. SAT and ACT scores are not required. International students are considered automatically for academic merit scholarships only: Hofstra states that it offers neither full-ride scholarships nor need-based financial aid to international students.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [
-    "other"
-  ],
-  "englishTaughtPrograms": [
-    "other"
-  ],
+  "programs": [],
+  "englishTaughtPrograms": [],
   "programNote": "The list of majors could not be read on this check, so no fields are listed.",
   "links": {
     "website": "https://www.hofstra.edu/",
@@ -21772,7 +21864,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": "The pages read give no amount."
+        "note": "The pages read give no amount.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -21824,7 +21917,8 @@ window.UNIPATH.universities.push(
       "list of majors"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsStatus": "not-checked"
 },
 
 {
@@ -21848,12 +21942,8 @@ window.UNIPATH.universities.push(
   "description": "A private technological university in Rochester, New York. International applicants are considered for merit scholarships just by applying; first-year merit scholarships range from $14,000 to $30,000 a year. RIT says it does not typically offer full-cost or full-tuition scholarships to undergraduates.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [
-    "other"
-  ],
-  "englishTaughtPrograms": [
-    "other"
-  ],
+  "programs": [],
+  "englishTaughtPrograms": [],
   "programNote": "The list of majors could not be read on this check, so no fields are listed.",
   "links": {
     "website": "https://www.rit.edu/",
@@ -22080,7 +22170,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": true,
-        "note": "$56,000 to $120,000 over the length of the degree; applicants are reviewed automatically."
+        "note": "$56,000 to $120,000 over the length of the degree; applicants are reviewed automatically.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -22134,7 +22225,8 @@ window.UNIPATH.universities.push(
   "lastVerified": "2026-10-12",
   "aliases": [
     "RIT"
-  ]
+  ],
+  "programsStatus": "not-checked"
 },
 
 {
@@ -22158,12 +22250,8 @@ window.UNIPATH.universities.push(
   "description": "A private Jesuit university in Spokane, Washington. The application fee is waived for all international applicants and SAT or ACT scores are not required. Every applicant is considered automatically for first-year merit scholarships of $23,500 to $32,000 a year, guaranteed for four years.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [
-    "other"
-  ],
-  "englishTaughtPrograms": [
-    "other"
-  ],
+  "programs": [],
+  "englishTaughtPrograms": [],
   "programNote": "The list of majors could not be read on this check, so no fields are listed.",
   "links": {
     "website": "https://www.gonzaga.edu/",
@@ -22343,7 +22431,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": true,
-        "note": "Guaranteed for four years while the student is enrolled full-time in good academic standing."
+        "note": "Guaranteed for four years while the student is enrolled full-time in good academic standing.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -22396,7 +22485,8 @@ window.UNIPATH.universities.push(
       "list of majors"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsStatus": "not-checked"
 },
 
 {
@@ -22420,12 +22510,8 @@ window.UNIPATH.universities.push(
   "description": "A private liberal arts college in Mount Vernon, Iowa, where students take One Course At A Time in blocks of three and a half weeks. It is a different institution from Cornell University. International students automatically qualify for academic merit scholarships and must show financial ability for the rest of their costs.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [
-    "other"
-  ],
-  "englishTaughtPrograms": [
-    "other"
-  ],
+  "programs": [],
+  "englishTaughtPrograms": [],
   "programNote": "The list of majors could not be read on this check, so no fields are listed.",
   "links": {
     "website": "https://www.cornellcollege.edu/",
@@ -22624,7 +22710,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": "The pages read give no amount."
+        "note": "The pages read give no amount.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -22671,7 +22758,8 @@ window.UNIPATH.universities.push(
   "lastVerified": "2026-10-12",
   "aliases": [
     "Cornell College Iowa"
-  ]
+  ],
+  "programsStatus": "not-checked"
 },
 
 {
@@ -22827,7 +22915,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": null,
         "renewable": null,
-        "note": "The pages read give no amount."
+        "note": "The pages read give no amount.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -23122,12 +23211,8 @@ window.UNIPATH.universities.push(
   "description": "A private research university in Washington, D.C. Every international applicant must declare funds of at least $87,374, even when hoping for a partial merit scholarship. American University says its merit scholarships for international students are partial, not full, and highly competitive; its aid page also mentions need-based aid for international students.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [
-    "other"
-  ],
-  "englishTaughtPrograms": [
-    "other"
-  ],
+  "programs": [],
+  "englishTaughtPrograms": [],
   "programNote": "The list of majors could not be read on this check, so no fields are listed.",
   "links": {
     "website": "https://www.american.edu/",
@@ -23275,7 +23360,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": null,
         "renewable": null,
-        "note": null
+        "note": null,
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -23336,7 +23422,8 @@ window.UNIPATH.universities.push(
   "aliases": [
     "AU",
     "American University Washington"
-  ]
+  ],
+  "programsStatus": "not-checked"
 },
 
 {
@@ -23611,7 +23698,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": "For international students the range is $15,000 to $32,000, and full tuition for extremely competitive candidates."
+        "note": "For international students the range is $15,000 to $32,000, and full tuition for extremely competitive candidates.",
+        "basis": "merit"
       },
       {
         "name": "Alfond Scholars Program",
@@ -23620,7 +23708,8 @@ window.UNIPATH.universities.push(
         "deadline": "15 November (Early Action deadline)",
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": "Open to test-optional applicants. The two Rollins pages describe the coverage differently."
+        "note": "Open to test-optional applicants. The two Rollins pages describe the coverage differently.",
+        "basis": "merit"
       },
       {
         "name": "Bonner Leaders Program",
@@ -23629,7 +23718,9 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Separate application after admission",
         "renewable": null,
-        "note": "Recipients serve six to eight hours a week at community nonprofits. The page does not say whether international students may apply."
+        "note": "Recipients serve six to eight hours a week at community nonprofits. The page does not say whether international students may apply.",
+        "basis": "talent",
+        "basisNote": "A service programme, not an academic scholarship."
       }
     ],
     "needBased": {
@@ -23953,7 +24044,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": "A limited number of awards. International transfer students get no scholarships."
+        "note": "A limited number of awards. International transfer students get no scholarships.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -24276,7 +24368,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": true,
-        "note": "Competitive and merit-based; for up to four years; a tuition waiver that cannot be used for other costs."
+        "note": "Competitive and merit-based; for up to four years; a tuition waiver that cannot be used for other costs.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -24367,12 +24460,8 @@ window.UNIPATH.universities.push(
   "description": "The public research university in Eugene, Oregon. International first-year students apply with the Oregon application or the Common Application for a $75 fee, do not need SAT or ACT scores, and may be admitted conditionally with lower English scores. Aid for them is limited to merit scholarships, a partial-tuition cultural service scholarship and work-study awards.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [
-    "other"
-  ],
-  "englishTaughtPrograms": [
-    "other"
-  ],
+  "programs": [],
+  "englishTaughtPrograms": [],
   "programNote": "The university says it has nearly 200 undergraduate programmes; its programme finder is a search box, so no fields are listed here.",
   "links": {
     "website": "https://www.uoregon.edu/",
@@ -24570,7 +24659,9 @@ window.UNIPATH.universities.push(
         "deadline": "15 January",
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": "The pages read give no amount."
+        "note": "The pages read give no amount.",
+        "basis": "unknown",
+        "basisNote": "The amounts and the basis of selection were not read."
       },
       {
         "name": "International Cultural Service Program (ICSP) Tuition Scholarship",
@@ -24579,7 +24670,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Separate scholarship application",
         "renewable": true,
-        "note": "Recipients give presentations about their home country to schools, community groups and the university. Renewable up to the completion of one degree."
+        "note": "Recipients give presentations about their home country to schools, community groups and the university. Renewable up to the completion of one degree.",
+        "basis": "need-merit"
       },
       {
         "name": "International Student Work-Study Program",
@@ -24588,7 +24680,9 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": null,
         "renewable": null,
-        "note": "More than 50 awards a year. An award lets the student compete for on-campus jobs; a job is not guaranteed."
+        "note": "More than 50 awards a year. An award lets the student compete for on-campus jobs; a job is not guaranteed.",
+        "basis": "need",
+        "basisNote": "A work-study award for students with financial need."
       },
       {
         "name": "Division of Global Engagement endowed scholarships",
@@ -24597,7 +24691,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": null,
         "renewable": null,
-        "note": "Competitive; the page tells applicants to ask their admissions counselor how to apply."
+        "note": "Competitive; the page tells applicants to ask their admissions counselor how to apply.",
+        "basis": "need-merit"
       }
     ],
     "needBased": {
@@ -24656,7 +24751,8 @@ window.UNIPATH.universities.push(
   "aliases": [
     "UO",
     "UOregon"
-  ]
+  ],
+  "programsStatus": "not-checked"
 },
 
 {
@@ -24903,7 +24999,8 @@ window.UNIPATH.universities.push(
         "deadline": "15 December",
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": null
+        "note": null,
+        "basis": "merit"
       },
       {
         "name": "Distinguished Scholar",
@@ -24912,7 +25009,8 @@ window.UNIPATH.universities.push(
         "deadline": "15 December",
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": "Based on SAT or ACT scores; the thresholds were not noted on this reading."
+        "note": "Based on SAT or ACT scores; the thresholds were not noted on this reading.",
+        "basis": "merit"
       },
       {
         "name": "University Scholarship",
@@ -24921,7 +25019,8 @@ window.UNIPATH.universities.push(
         "deadline": "15 December",
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": null
+        "note": null,
+        "basis": "merit"
       },
       {
         "name": "Academic Achievement",
@@ -24930,7 +25029,8 @@ window.UNIPATH.universities.push(
         "deadline": "15 December",
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": null
+        "note": null,
+        "basis": "merit"
       },
       {
         "name": "Non-Resident Merit",
@@ -24939,7 +25039,8 @@ window.UNIPATH.universities.push(
         "deadline": "15 December",
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": null
+        "note": null,
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -25021,12 +25122,8 @@ window.UNIPATH.universities.push(
   "description": "The public research university in Morgantown, West Virginia. International freshmen apply with the WVU Application for a $75 fee; a converted grade average of 2.5 out of 4.0 can be admitted, and the autumn deadline is as late as 1 June. Admitted students are considered automatically for the Climb Higher Scholarship — $10,000 to $18,000 a year at Morgantown for entry in 2027–28.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [
-    "other"
-  ],
-  "englishTaughtPrograms": [
-    "other"
-  ],
+  "programs": [],
+  "englishTaughtPrograms": [],
   "programNote": "The list of majors could not be read on this check, so no fields are listed.",
   "links": {
     "website": "https://www.wvu.edu/",
@@ -25179,7 +25276,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": true,
-        "note": "Morgantown campus, per year for up to eight semesters: $18,000 with a grade average of 3.8 and ACT 30 or SAT 1360; $16,000 with 3.8; $13,000 with 3.5–3.79; $10,000 with 3.0–3.49. Students in online programmes are not eligible."
+        "note": "Morgantown campus, per year for up to eight semesters: $18,000 with a grade average of 3.8 and ACT 30 or SAT 1360; $16,000 with 3.8; $13,000 with 3.5–3.79; $10,000 with 3.0–3.49. Students in online programmes are not eligible.",
+        "basis": "merit"
       }
     ],
     "needBased": {
@@ -25245,7 +25343,8 @@ window.UNIPATH.universities.push(
   "lastVerified": "2026-10-12",
   "aliases": [
     "WVU"
-  ]
+  ],
+  "programsStatus": "not-checked"
 },
 
 {
@@ -25500,7 +25599,8 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": true,
-        "note": "Presidential $22,000 (4.0 and above), Edwards $20,000 (3.75–3.99), Nicholson $18,000 (2.75–3.74), Reardon $14,000 (2.25–2.74), Morrison $10,000 (2.24 and below). The page does not state separately that international students receive them."
+        "note": "Presidential $22,000 (4.0 and above), Edwards $20,000 (3.75–3.99), Nicholson $18,000 (2.75–3.74), Reardon $14,000 (2.25–2.74), Morrison $10,000 (2.24 and below). The page does not state separately that international students receive them.",
+        "basis": "merit"
       },
       {
         "name": "International Student Scholarship",
@@ -25509,7 +25609,9 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": null,
         "renewable": null,
-        "note": "Cannot be combined with the other background awards on the same list (out-of-state, Christian high school and similar)."
+        "note": "Cannot be combined with the other background awards on the same list (out-of-state, Christian high school and similar).",
+        "basis": "automatic",
+        "basisNote": "Given for being an international student; the page names no other condition."
       }
     ],
     "needBased": {

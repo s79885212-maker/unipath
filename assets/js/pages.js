@@ -269,10 +269,11 @@
         v.push('<strong class="warn-text">Not accepted</strong>');
       } else if (t.scales && t.scales.length) {
         v = U.toeflLines(u).map(function (l) { return '<strong>' + esc(l) + '</strong>'; });
+        if (t.scales.some(function (sc) { return has(sc.recommended); })) v.push('<span class="small muted"><span>' + esc(U.recInfo(t).label) + '</span>. <span>' + esc(U.recInfo(t).hint) + '</span></span>');
       } else {
         if (has(t.min)) v.push('<strong>Official minimum: ' + esc(t.min) + '</strong>' + scaleOf(t.min));
-        if (has(t.recommended)) v.push('<strong>Official recommendation: ' + esc(t.recommended) + '</strong>' + scaleOf(t.recommended) +
-          '<br><span class="small muted">A level the university advises. It is not a minimum and not a statistic about admitted students.</span>');
+        if (has(t.recommended)) v.push('<strong><span>' + esc(U.recInfo(t).label) + '</span>: ' + esc(t.recommended) + '</strong>' + scaleOf(t.recommended) +
+          '<br><span class="small muted">' + esc(U.recInfo(t).hint) + '</span>');
       }
       if (!v.length) v.push('<strong>' + esc(U.testStatusLabel(t)) + '</strong>');
       if (has(t.sections)) v.push('<span class="small"><strong>Sections:</strong> <span>' + esc(t.sections) + '</span></span>');
@@ -308,7 +309,7 @@
         '<p class="small muted">A statistic of this kind describes past students. It is not a minimum, it is never derived from the minimum, and it does not guarantee admission.</p></div>';
     }
     var english = '<section class="profile-section" id="english"><h2>English requirements</h2>' +
-      '<div class="notice notice-info"><span class="ico">ℹ️</span><div data-i18n-html>Three different things are kept apart here. A <strong>minimum</strong> is the score an application needs. A <strong>recommended or competitive</strong> score is a level the university itself advises — it is not a statistic. The <strong>scores of admitted students</strong> are shown only when the university publishes them, and are never worked out from the minimum.</div></div>' +
+      '<div class="notice notice-info"><span class="ico">ℹ️</span><div data-i18n-html>Different things are kept apart here. A <strong>minimum</strong> is the score an application needs. A <strong>recommended or competitive</strong> score is a level the university itself advises. A <strong>typical or average</strong> score, where a university reports one, describes past applicants: it is a statistic, not a requirement and not a cut-off. The <strong>scores of admitted students</strong> are shown only when the university publishes them, and are never worked out from the minimum.</div></div>' +
       '<dl class="deflist" style="margin-top:18px">' +
         testRow('IELTS', eng.ielts) +
         testRow('TOEFL', eng.toefl) +
@@ -518,6 +519,26 @@
           (has(m.note) ? row('Note', esc(m.note)) : '') +
         '</dl></div></article>';
     }).join('') : '<p class="muted">No merit scholarships are listed for this university on the pages consulted.</p>';
+    /* Awards that are not merit scholarships: each says what it rests on. */
+    var others = U.otherAwards(u);
+    var otherCards = others.map(function (m) {
+      return '<article class="card scholarship-card card-pad-sm" style="margin-bottom:12px"><div class="card-body">' +
+        '<h4 style="margin:0 0 8px">' + esc(m.name) + '</h4>' +
+        '<dl class="deflist">' +
+          row('Basis', '<strong>' + esc(U.awardBasisLabel(m)) + '</strong>' + (has(m.basisNote) ? '<br><span class="small muted">' + esc(m.basisNote) + '</span>' : '')) +
+          row('Amount', or(m.amount)) +
+          row('Open to', or(m.eligibility)) +
+          row('Deadline', or(m.deadline)) +
+          row('Automatic or separate application', or(m.application)) +
+          row('Renewable', yesNo(m.renewable)) +
+          (has(m.note) ? row('Note', esc(m.note)) : '') +
+          (has(m.source) ? row('Source', '<a href="' + esc(m.source) + '" target="_blank" rel="noopener">Official page ↗</a>' + (has(m.verified) ? ' · <span>Checked ' + esc(m.verified) + '</span>' : '')) : '') +
+        '</dl></div></article>';
+    }).join('');
+    var otherBlock = others.length
+      ? '<h3 style="margin-top:24px">Other award programmes</h3>' +
+        '<p class="small muted">These awards are not merit scholarships: each is given on the basis named in it — to a defined group, to every eligible student, on need, or on a basis the university does not publish.</p>' + otherCards
+      : '';
 
     /* One model for every date: the rounds of the record. A section that
        shows a deadline reads it from there, so a confirmed financial aid or
@@ -556,7 +577,7 @@
     var scholarships = '<section class="profile-section" id="scholarships"><h2>Scholarships & financial aid</h2>' +
       '<div class="notice notice-warn"><span class="ico">⚠️</span><div data-i18n-html>A scholarship is only called a <strong>full ride</strong> here when the official source states what it covers. Where coverage is unconfirmed it is marked with <strong>?</strong> rather than assumed.</div></div>' +
       '<div style="margin-top:18px">' + frCard + '</div>' +
-      '<h3>Merit scholarships</h3>' + meritCards +
+      '<h3>Merit scholarships</h3>' + meritCards + otherBlock +
       (scholarshipDates ? '<div class="card" style="margin-top:12px"><div class="card-body"><h4 style="margin-top:0">Scholarship dates</h4>' + scholarshipDates + '</div></div>' : '') +
       '<h3 style="margin-top:24px">Need-based aid</h3>' + needCard +
       '</section>';
@@ -727,7 +748,11 @@
       (has(u.programNote) ? '<p>' + esc(u.programNote) + '</p>' : '') +
       '<h3 style="margin-top:6px">Fields of study</h3>' +
       '<p class="small muted">' + esc(programsBasisText(u)) + '</p>' +
-      (progs ? '<div class="prog-groups">' + progs + '</div>' : '<p>' + UNKNOWN + '</p>') +
+      (progs ? '<div class="prog-groups">' + progs + '</div>'
+        : !U.programsChecked(u)
+          ? '<div class="notice notice-info"><span class="ico">ℹ️</span><div><strong>Fields of study: not checked.</strong> <span>The official list of majors of this institution has not been read yet, so it has no field tags and does not appear under any field filter. That is not a statement that a field is missing — see the official programme list.</span>' +
+            (has(u.links && u.links.programs) ? ' <a href="' + esc(u.links.programs) + '" target="_blank" rel="noopener">Official programme list ↗</a>' : '') + '</div></div>'
+          : '<p>' + UNKNOWN + '</p>') +
       fieldNotesBlock + degreesBlock +
       englishBlock +
       '</section>';
@@ -1016,6 +1041,16 @@
         '<div class="filters-inner">' + html + '</div></details>';
     }
 
+    /* With a field filter on, institutions whose list of majors has not been
+       read cannot be placed in or out of the field: say how many there are. */
+    function fieldGapNote(base) {
+      if (!(selected.field && selected.field.length)) return '';
+      var rest = {};
+      for (var k in selected) if (selected.hasOwnProperty(k) && k !== 'field') rest[k] = selected[k];
+      var n = U.applyFilters(base, rest).filter(function (u) { return !U.programsChecked(u); }).length;
+      return n ? '<span class="small muted results-level"><span>Not shown under a field filter:</span> ' + n + ' <span>institutions whose list of majors has not been checked.</span></span>' : '';
+    }
+
     function drawResults() {
       var base = baseList();
       var list = U.applyFilters(base, selected);
@@ -1037,7 +1072,8 @@
         '<span class="small muted">' + (list.length > visible.length
           ? 'Showing ' + visible.length + ' of ' + list.length + ' — search and filters cover the whole list'
           : '') + '</span>' + U.intakeSelectHtml() +
-        (list.length ? '<span class="small muted results-level">' + esc(levelCaption(list, selected)) + '</span>' : '');
+        (list.length ? '<span class="small muted results-level">' + esc(levelCaption(list, selected)) + '</span>' : '') +
+        fieldGapNote(base);
 
       out.innerHTML = list.length
         ? visible.map(U.uniCard).join('')
@@ -1323,7 +1359,15 @@
         var b = U.billedAmount(u);
         return b === null ? UNKNOWN : '<span>' + esc(U.money(b, U.costCurrency(u))) + '</span><br><span class="small muted">' + esc(U.billedLabel(u)) + '</span>';
       }],
-      ['Full budget (cost of attendance)', function (u) { return U.budgetText(u) ? esc(U.budgetText(u)) : UNKNOWN; }],
+      ['Full budget (cost of attendance)', function (u) {
+        var aa = U.costAfterAid(u);
+        if (aa) return '<span>No yearly figure: the main costs are covered by aid every admitted student receives.</span>' +
+          (has(aa.covered) ? '<br><span class="small"><strong><span>Covered</span>:</strong> <span>' + esc(aa.covered) + '</span></span>' : '') +
+          (has(aa.personal) ? '<br><span class="small"><strong><span>Paid by the student</span>:</strong> <span>' + esc(aa.personal) + '</span></span>' : '') +
+          (has(aa.notStated) ? '<br><span class="small"><strong><span>Not stated</span>:</strong> <span>' + esc(aa.notStated) + '</span></span>' : '') +
+          (has(aa.deposit) ? '<br><span class="small"><strong><span>One-off deposit</span>:</strong> <span>' + esc(aa.deposit) + '</span></span>' : '');
+        return U.budgetText(u) ? esc(U.budgetText(u)) : UNKNOWN;
+      }],
       ['Required costs outside the published total', function (u) {
         var ex = U.costExtras(u), w = U.budgetWithExtras(u), cur = U.costCurrency(u);
         if (!ex.length) return '<span class="muted">None recorded</span>';
@@ -1384,12 +1428,17 @@
         var m = U.meritList(u);
         return m.length ? m.map(function (x) { return '• ' + esc(x.name) + (has(x.amount) ? ' — ' + esc(x.amount) : ''); }).join('<br>') : '<span class="unknown">None listed</span>';
       }],
+      ['Other award programmes', function (u) {
+        var m = U.otherAwards(u);
+        return m.length ? m.map(function (x) { return '• ' + esc(x.name) + (has(x.amount) ? ' — ' + esc(x.amount) : '') +
+          '<br><span class="small muted">' + esc(U.awardBasisLabel(x)) + '</span>'; }).join('<br>') : '<span class="muted">None listed</span>';
+      }],
       ['Need-based aid for internationals', function (u) { return yesNo(U.needBased(u).availableToInternational); }],
       ['Meets full demonstrated need', function (u) { return yesNo(U.needBased(u).meetsFullNeed); }],
       ['group', 'Programs & applying'],
-      ['Business (field area)', function (u) { return (u.programs || []).indexOf('business') > -1 ? '<span class="badge badge-ok">Yes</span>' : '<span class="badge">Not listed</span>'; }],
-      ['Economics (field area)', function (u) { return (u.programs || []).indexOf('economics') > -1 ? '<span class="badge badge-ok">Yes</span>' : '<span class="badge">Not listed</span>'; }],
-      ['Computer Science (field area)', function (u) { return (u.programs || []).indexOf('computer-science') > -1 ? '<span class="badge badge-ok">Yes</span>' : '<span class="badge">Not listed</span>'; }],
+      ['Business (field area)', function (u) { return (u.programs || []).indexOf('business') > -1 ? '<span class="badge badge-ok">Yes</span>' : !U.programsChecked(u) ? '<span class="unknown">Not checked</span>' : '<span class="badge">Not listed</span>'; }],
+      ['Economics (field area)', function (u) { return (u.programs || []).indexOf('economics') > -1 ? '<span class="badge badge-ok">Yes</span>' : !U.programsChecked(u) ? '<span class="unknown">Not checked</span>' : '<span class="badge">Not listed</span>'; }],
+      ['Computer Science (field area)', function (u) { return (u.programs || []).indexOf('computer-science') > -1 ? '<span class="badge badge-ok">Yes</span>' : !U.programsChecked(u) ? '<span class="unknown">Not checked</span>' : '<span class="badge">Not listed</span>'; }],
       ['Application portal', function (u) {
         return has(u.links.applicationPortal)
           ? '<a href="' + esc(u.links.applicationPortal) + '" target="_blank" rel="noopener">Open portal ↗</a>' : UNKNOWN;

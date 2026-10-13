@@ -13,8 +13,11 @@
             'tuition' → tuition (and compulsory fees) only; living costs extra
      min/max: range when the price depends on the programme
      example: true → the only published figure is one programme's fee
-     label: a sentence shown instead of a figure, where the cost is covered
-            rather than charged.
+     A university whose main costs are covered by aid every admitted
+     student receives (Berea, Deep Springs) has NO row here: a cost of zero
+     is not a published figure. The match page reads what is covered and what
+     remains from the profile (costs.afterAid) and never calls a budget
+     sufficient for it.
      Required costs a university leaves OUT of its published total (for
      example compulsory health insurance) are not repeated here: the match
      page reads them from the profile (costs.extras) and adds them before a
@@ -123,7 +126,6 @@ window.UNIPATH.match = {
     'bard-college': { currency: 'USD', basis: 'billed', min: 93472, max: 93472 },
     'bennington-college': { currency: 'USD', basis: 'billed', min: 95500, max: 95500, note: 'International students, with the health insurance estimate' },
     'claremont-mckenna-college': { currency: 'USD', basis: 'total', min: 101990, max: 101990 },
-    'deep-springs-college': { currency: 'USD', basis: 'total', min: 0, max: 0, label: 'Tuition, room and board are covered by the scholarship every admitted student receives. Books, travel and incidental expenses remain; no yearly amount is published for them' },
     'kalamazoo-college': { currency: 'USD', basis: 'billed', min: 80111, max: 80111 },
     'reed-college': { currency: 'USD', basis: 'total', min: 92198, max: 93948, note: '2025–26 figures, the latest published' },
     'sarah-lawrence-college': { currency: 'USD', basis: 'total', min: 102364, max: 102364, note: 'International students; health insurance is included in this total' },
@@ -258,7 +260,6 @@ window.UNIPATH.match = {
     'mit':                     { currency: 'USD', basis: 'total', min: 92760, max: 92760 },
     'yale-university':         { currency: 'USD', basis: 'total', min: 97985, max: 97985 },
     'arizona-state-university':{ currency: 'USD', basis: 'total', min: 69906, max: 69906 },
-    'berea-college':           { currency: 'USD', basis: 'total', min: 0, max: 0, label: 'Tuition, housing, food and fees are covered for every admitted international student. Personal expenses and a one-off $2,200 deposit remain; no yearly amount is published for them' },
     'uc-berkeley':             { currency: 'USD', basis: 'total', min: 93944, max: 93944, note: 'New nonresident student in a residence hall: the published resident total plus the nonresident supplemental tuition' },
     'princeton-university':    { currency: 'USD', basis: 'billed', min: 90574, max: 90574, note: 'Average before aid' },
     'brown-university':        { currency: 'USD', basis: 'billed', min: 97016, max: 97016, note: 'Billed charges; books, travel and personal expenses extra' },
