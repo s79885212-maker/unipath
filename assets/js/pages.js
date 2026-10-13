@@ -693,7 +693,7 @@
     function fieldCheckHtml(tag) {
       /* A tag written from the official list shows the programme it rests on. */
       var named = (u.programEvidence || {})[tag];
-      if (named) return '<p class="field-check"><span>Named in the official list:</span> <strong data-no-i18n>' + esc(named.program) + '</strong></p>';
+      if (named) return '<p class="field-check"><span>Named in the official list:</span> <span class="field-named" data-no-i18n>' + esc(named.program) + '</span></p>';
       var c = U.fieldCheck(u, tag);
       if (c.status === 'degrees') {
         return '<p class="field-check field-ok"><span>✓ Degrees conferred</span>: ' + c.areas.map(function (a) {

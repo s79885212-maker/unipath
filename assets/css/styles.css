@@ -2592,6 +2592,9 @@ button.badge {
 .field-check { font-size: .82rem; color: var(--ink-500); margin: 2px 0 6px; line-height: 1.4; }
 .field-check.field-ok { color: var(--ok-600); }
 .field-check strong { font-weight: 600; white-space: nowrap; }
+/* A named programme can be long ("Painting — Bachelor of Fine Arts (Herron
+   School of Art and Design)"): it wraps inside its tile. */
+.field-check .field-named { font-weight: 600; overflow-wrap: anywhere; }
 .degrees-table { margin-top: 10px; }
 .degrees-table td:last-child, .degrees-table th:last-child { text-align: right; white-space: nowrap; }
 .plain-list { margin: 8px 0 0; padding-left: 18px; }

@@ -1186,12 +1186,16 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "optional",
+      "note": "Deep Springs writes: “Test scores are not required, but applicants may still submit them.”",
+      "source": "https://www.deepsprings.edu/admissions/",
+      "verified": "2026-10-13"
     },
     "act": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "optional",
+      "note": "Deep Springs writes: “Test scores are not required, but applicants may still submit them.”",
+      "source": "https://www.deepsprings.edu/admissions/",
+      "verified": "2026-10-13"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -1281,6 +1285,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Deep Springs — home page",
       "url": "https://www.deepsprings.edu/"
+    },
+    {
+      "label": "Deep Springs — SAT/ACT policy, read on 13 October 2026",
+      "url": "https://www.deepsprings.edu/admissions/"
     }
   ],
   "verification": {
@@ -1290,7 +1298,8 @@ window.UNIPATH.universities.push(
       "eligibility",
       "scholarship for all admitted students",
       "degree and transfer",
-      "English proficiency"
+      "English proficiency",
+      "test policy"
     ],
     "unconfirmed": [
       "application fee",
@@ -4319,7 +4328,37 @@ window.UNIPATH.universities.push(
       "Common Black College Application",
       "Dillard online application"
     ],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Rolling admission",
+        "kind": "rolling",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "date": null,
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": "Dillard has rolling admissions and strongly encourages applicants to finish the application by the priority deadline. The NACES evaluation of foreign records must arrive by the admission deadline.",
+        "status": "confirmed",
+        "source": "https://www.dillard.edu/admissions-aid/admission-requirements/international-students/",
+        "verified": "2026-10-13",
+        "note": null
+      },
+      {
+        "name": "Priority deadline",
+        "kind": "priority",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-06-01",
+        "date": "1 June 2027",
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": "Priority deadline for autumn applicants. For spring applicants it is 1 December.",
+        "status": "confirmed",
+        "source": "https://www.dillard.edu/admissions-aid/admission-requirements/international-students/",
+        "verified": "2026-10-13",
+        "note": "The page prints this date without a year; it was read on 13 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
     "applicationFee": {
       "amount": 60,
       "currency": "USD",
@@ -4363,15 +4402,15 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": "unknown",
-      "note": "Dillard’s pages disagree: the requirements for international students ask for ACT or SAT results, while the test-optional page says all first-year applicants may decide whether to submit scores.",
+      "note": "Dillard’s pages disagree. The requirements for international students have a section of grade average and standardized test score requirements with ACT and SAT minimums, while the university also lists a “Test Optional” route among its admission requirements. Ask Dillard which applies to international applicants.",
       "source": "https://www.dillard.edu/admissions-aid/admission-requirements/international-students/",
-      "verified": "2026-10-12"
+      "verified": "2026-10-13"
     },
     "act": {
       "policy": "unknown",
-      "note": "Dillard’s pages disagree: the requirements for international students ask for ACT or SAT results, while the test-optional page says all first-year applicants may decide whether to submit scores.",
+      "note": "Dillard’s pages disagree. The requirements for international students have a section of grade average and standardized test score requirements with ACT and SAT minimums, while the university also lists a “Test Optional” route among its admission requirements. Ask Dillard which applies to international applicants.",
       "source": "https://www.dillard.edu/admissions-aid/admission-requirements/international-students/",
-      "verified": "2026-10-12"
+      "verified": "2026-10-13"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -4477,15 +4516,15 @@ window.UNIPATH.universities.push(
     "checked": [
       "application fee",
       "TOEFL minimum",
-      "cost of attendance 2024–25"
+      "cost of attendance 2024–25",
+      "application rounds"
     ],
     "unconfirmed": [
-      "application rounds",
-      "test policy",
       "aid for international students",
       "costs for 2026–27",
       "founding year",
-      "admission statistics"
+      "admission statistics",
+      "test policy"
     ]
   },
   "lastVerified": "2026-10-12"
@@ -6120,12 +6159,18 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "optional",
+      "note": "Olin has extended the temporary suspension of its test requirement through the 2026–27 application cycle: SAT or ACT scores are an optional part of the application, and students who do not submit them are not at a disadvantage.",
+      "cycle": "2026–27",
+      "source": "https://www.olin.edu/admission/apply/admission-process",
+      "verified": "2026-10-13"
     },
     "act": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "optional",
+      "note": "Olin has extended the temporary suspension of its test requirement through the 2026–27 application cycle: SAT or ACT scores are an optional part of the application, and students who do not submit them are not at a disadvantage.",
+      "cycle": "2026–27",
+      "source": "https://www.olin.edu/admission/apply/admission-process",
+      "verified": "2026-10-13"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -6269,10 +6314,10 @@ window.UNIPATH.universities.push(
       "English proficiency",
       "published costs",
       "aid for international students",
-      "merit scholarships"
+      "merit scholarships",
+      "test policy"
     ],
     "unconfirmed": [
-      "test policy",
       "health insurance terms",
       "founding year",
       "admission statistics"
@@ -6982,16 +7027,18 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": "unknown",
-      "note": "The first-year page says the test-optional pilot was extended through 2026 and applies to students applying for Fall 2026; it does not state the policy for Fall 2027.",
-      "source": "https://www.hmc.edu/admission/apply/first-year-students/",
-      "verified": "2026-10-12"
+      "policy": "optional",
+      "note": "Harvey Mudd has extended its ACT/SAT-optional pilot through 2027. Students who do not submit scores are not at a disadvantage, and the college does not use standardized testing when it considers merit scholarships.",
+      "cycle": "through 2027",
+      "source": "https://www.hmc.edu/admission/apply/",
+      "verified": "2026-10-13"
     },
     "act": {
-      "policy": "unknown",
-      "note": "The first-year page says the test-optional pilot was extended through 2026 and applies to students applying for Fall 2026; it does not state the policy for Fall 2027.",
-      "source": "https://www.hmc.edu/admission/apply/first-year-students/",
-      "verified": "2026-10-12"
+      "policy": "optional",
+      "note": "Harvey Mudd has extended its ACT/SAT-optional pilot through 2027. Students who do not submit scores are not at a disadvantage, and the college does not use standardized testing when it considers merit scholarships.",
+      "cycle": "through 2027",
+      "source": "https://www.hmc.edu/admission/apply/",
+      "verified": "2026-10-13"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -7131,6 +7178,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Harvey Mudd — aid deadlines, Early Decision I international applicants",
       "url": "https://www.hmc.edu/admission/afford/international-student-financial-aid/international-deadlines/early-decision-1-international-applicant"
+    },
+    {
+      "label": "Harvey Mudd — SAT/ACT policy, read on 13 October 2026",
+      "url": "https://www.hmc.edu/admission/apply/"
     }
   ],
   "verification": {
@@ -7140,7 +7191,8 @@ window.UNIPATH.universities.push(
       "English proficiency",
       "published costs",
       "aid for international students",
-      "Early Decision deadlines"
+      "Early Decision deadlines",
+      "test policy"
     ],
     "unconfirmed": [
       "Regular Decision deadline",
@@ -7306,12 +7358,16 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "optional",
+      "note": "Hendrix lists official SAT or ACT scores among the optional items of an application. For international applicants an SAT or ACT score is one of the ways to show English proficiency.",
+      "source": "https://www.hendrix.edu/admission-aid/",
+      "verified": "2026-10-13"
     },
     "act": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "optional",
+      "note": "Hendrix lists official SAT or ACT scores among the optional items of an application. For international applicants an SAT or ACT score is one of the ways to show English proficiency.",
+      "source": "https://www.hendrix.edu/admission-aid/",
+      "verified": "2026-10-13"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -7433,11 +7489,11 @@ window.UNIPATH.universities.push(
       "application rounds",
       "English proficiency",
       "published costs",
-      "founding year"
+      "founding year",
+      "test policy"
     ],
     "unconfirmed": [
       "application fee",
-      "test policy",
       "amounts of merit awards",
       "aid for international students",
       "health insurance terms",
@@ -8831,12 +8887,16 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "optional",
+      "note": "IU Indianapolis is test-optional for admission and for scholarships: applicants are fully considered for both with or without scores.",
+      "source": "https://indianapolis.iu.edu/admissions/apply/test-scores.html",
+      "verified": "2026-10-13"
     },
     "act": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "optional",
+      "note": "IU Indianapolis is test-optional for admission and for scholarships: applicants are fully considered for both with or without scores.",
+      "source": "https://indianapolis.iu.edu/admissions/apply/test-scores.html",
+      "verified": "2026-10-13"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -8958,6 +9018,10 @@ window.UNIPATH.universities.push(
     {
       "label": "IU Indianapolis — official list of undergraduate programmes",
       "url": "https://indianapolis.iu.edu/academics/degrees-majors/?program_type=2"
+    },
+    {
+      "label": "IU Indianapolis — SAT/ACT policy, read on 13 October 2026",
+      "url": "https://indianapolis.iu.edu/admissions/apply/test-scores.html"
     }
   ],
   "verification": {
@@ -8965,12 +9029,12 @@ window.UNIPATH.universities.push(
     "checked": [
       "application rounds",
       "cost of attendance for international students",
-      "list of majors"
+      "list of majors",
+      "test policy"
     ],
     "unconfirmed": [
       "application fee",
       "English proficiency",
-      "test policy",
       "amounts of merit awards",
       "aid for international students",
       "founding year",
@@ -9558,12 +9622,16 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "not-used",
+      "note": "Lesley says the SAT and ACT “are not required and will not impact your application”. Scores can be sent only to try to waive the placement test taken by new students.",
+      "source": "https://lesley.edu/admissions/undergraduate-students/how-to-apply-undergraduate",
+      "verified": "2026-10-13"
     },
     "act": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "not-used",
+      "note": "Lesley says the SAT and ACT “are not required and will not impact your application”. Scores can be sent only to try to waive the placement test taken by new students.",
+      "source": "https://lesley.edu/admissions/undergraduate-students/how-to-apply-undergraduate",
+      "verified": "2026-10-13"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -9663,12 +9731,12 @@ window.UNIPATH.universities.push(
     "checked": [
       "English proficiency",
       "deadlines for autumn 2026",
-      "published costs"
+      "published costs",
+      "test policy"
     ],
     "unconfirmed": [
       "dates for autumn 2027 entry",
       "application fee",
-      "test policy",
       "tuition and fees",
       "aid for international students",
       "merit scholarships",
@@ -12290,12 +12358,18 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "optional",
+      "note": "Test-optional for autumn 2027 applicants: each student chooses whether to submit SAT or ACT scores. Applicants to the Physician-Scientist (B.S./M.D.) programme must submit official scores.",
+      "cycle": "autumn 2027",
+      "source": "https://undergrad.admissions.rpi.edu/apply",
+      "verified": "2026-10-13"
     },
     "act": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "optional",
+      "note": "Test-optional for autumn 2027 applicants: each student chooses whether to submit SAT or ACT scores. Applicants to the Physician-Scientist (B.S./M.D.) programme must submit official scores.",
+      "cycle": "autumn 2027",
+      "source": "https://undergrad.admissions.rpi.edu/apply",
+      "verified": "2026-10-13"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -12413,6 +12487,10 @@ window.UNIPATH.universities.push(
     {
       "label": "RPI — majors and programmes",
       "url": "https://www.rpi.edu/academics"
+    },
+    {
+      "label": "RPI — SAT/ACT policy, read on 13 October 2026",
+      "url": "https://undergrad.admissions.rpi.edu/apply"
     }
   ],
   "verification": {
@@ -12422,11 +12500,11 @@ window.UNIPATH.universities.push(
       "English proficiency",
       "published costs",
       "aid for international students",
-      "merit scholarships"
+      "merit scholarships",
+      "test policy"
     ],
     "unconfirmed": [
       "application fee",
-      "test policy",
       "health insurance terms",
       "founding year",
       "admission statistics"
@@ -13875,12 +13953,18 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "optional",
+      "note": "Villanova “will remain test-optional through the 2026-27 admission campaign (Class of 2031)”; applicants who do not submit scores are not at a disadvantage.",
+      "cycle": "2026–27",
+      "source": "https://www1.villanova.edu/university/undergraduate-admission/faqs.html",
+      "verified": "2026-10-13"
     },
     "act": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "optional",
+      "note": "Villanova “will remain test-optional through the 2026-27 admission campaign (Class of 2031)”; applicants who do not submit scores are not at a disadvantage.",
+      "cycle": "2026–27",
+      "source": "https://www1.villanova.edu/university/undergraduate-admission/faqs.html",
+      "verified": "2026-10-13"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -14014,6 +14098,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Villanova — Bursar, tuition and fees 2026–2027",
       "url": "https://www1.villanova.edu/university/financial-affairs/bursar/tuition-and-fees.html"
+    },
+    {
+      "label": "Villanova — SAT/ACT policy, read on 13 October 2026",
+      "url": "https://www1.villanova.edu/university/undergraduate-admission/faqs.html"
     }
   ],
   "verification": {
@@ -14021,12 +14109,12 @@ window.UNIPATH.universities.push(
     "checked": [
       "application rounds",
       "published costs",
-      "aid for international students"
+      "aid for international students",
+      "test policy"
     ],
     "unconfirmed": [
       "application fee",
       "English proficiency",
-      "test policy",
       "amounts of merit awards",
       "health insurance terms",
       "founding year",
@@ -14175,12 +14263,16 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "optional",
+      "note": "W&J no longer requires SAT or ACT scores; score-optional applicants are considered with no disadvantage. For merit awards, test scores are considered unless the student chooses the score-optional policy.",
+      "source": "https://www.washjeff.edu/future-students/international-admission/international-student-faq/",
+      "verified": "2026-10-13"
     },
     "act": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "optional",
+      "note": "W&J no longer requires SAT or ACT scores; score-optional applicants are considered with no disadvantage. For merit awards, test scores are considered unless the student chooses the score-optional policy.",
+      "source": "https://www.washjeff.edu/future-students/international-admission/international-student-faq/",
+      "verified": "2026-10-13"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -14291,11 +14383,11 @@ window.UNIPATH.universities.push(
       "application rounds",
       "published costs",
       "aid for international students",
-      "typical English test scores"
+      "typical English test scores",
+      "test policy"
     ],
     "unconfirmed": [
       "application fee",
-      "test policy",
       "amount of the international grant ($17,000 or $20,000)",
       "health insurance terms",
       "founding year",
@@ -14463,12 +14555,16 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "optional",
+      "note": "Westminster is test-optional and does not require SAT or ACT scores for admission. Applicants to its combined programmes with partner institutions (for example the dental programmes) must submit scores.",
+      "source": "https://www.westminster.edu/admissions/international.cfm",
+      "verified": "2026-10-13"
     },
     "act": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "optional",
+      "note": "Westminster is test-optional and does not require SAT or ACT scores for admission. Applicants to its combined programmes with partner institutions (for example the dental programmes) must submit scores.",
+      "source": "https://www.westminster.edu/admissions/international.cfm",
+      "verified": "2026-10-13"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -14603,11 +14699,11 @@ window.UNIPATH.universities.push(
       "application rounds",
       "English proficiency",
       "published costs",
-      "merit scholarships"
+      "merit scholarships",
+      "test policy"
     ],
     "unconfirmed": [
       "application fee",
-      "test policy",
       "eligibility of international students for the full-tuition scholarships",
       "cost of medical insurance",
       "founding year",
@@ -14673,8 +14769,86 @@ window.UNIPATH.universities.push(
     "cost": "https://www.wpi.edu/admissions/tuition-aid/cost-attendance"
   },
   "admissions": {
-    "platforms": [],
-    "deadlines": [],
+    "platforms": [
+      "Common Application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Decision I",
+        "kind": "ED",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Decisions in early December; enrol by 15 January.",
+        "status": "confirmed",
+        "source": "https://www.wpi.edu/admissions/undergraduate/apply",
+        "verified": "2026-10-13",
+        "note": "The page prints this date without a year; it was read on 13 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Action I",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Not binding. Decisions in mid-December; enrol by 1 May.",
+        "status": "confirmed",
+        "source": "https://www.wpi.edu/admissions/undergraduate/apply",
+        "verified": "2026-10-13",
+        "note": "The page prints this date without a year; it was read on 13 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Decision II",
+        "kind": "ED2",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-05",
+        "date": "5 January 2027",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Decisions in mid-February; enrol by 15 March.",
+        "status": "confirmed",
+        "source": "https://www.wpi.edu/admissions/undergraduate/apply",
+        "verified": "2026-10-13",
+        "note": "The page prints this date without a year; it was read on 13 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Action II",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-05",
+        "date": "5 January 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Not binding. Decisions in mid-February; enrol by 1 May.",
+        "status": "confirmed",
+        "source": "https://www.wpi.edu/admissions/undergraduate/apply",
+        "verified": "2026-10-13",
+        "note": "The page prints this date without a year; it was read on 13 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-01",
+        "date": "1 February 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Decisions in mid-March; enrol by 1 May.",
+        "status": "confirmed",
+        "source": "https://www.wpi.edu/admissions/undergraduate/apply",
+        "verified": "2026-10-13",
+        "note": "The page prints this date without a year; it was read on 13 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
     "applicationFee": {
       "amount": 70,
       "currency": "USD",
@@ -14695,7 +14869,9 @@ window.UNIPATH.universities.push(
     "recommendations": null,
     "essay": null,
     "interview": "InitialView or Vericant interviews are considered as a supplement; they do not replace an English test.",
-    "notes": []
+    "notes": [
+      "WPI says students who apply Early Decision receive a scholarship of at least $25,000 a year when admitted; the page does not say separately whether this covers international students. Applicants must be at least 16 by the start of orientation."
+    ]
   },
   "english": {
     "ielts": {
@@ -14877,6 +15053,10 @@ window.UNIPATH.universities.push(
     {
       "label": "WPI — costs read on 13 October 2026",
       "url": "https://www.wpi.edu/admissions/tuition-aid/cost-attendance"
+    },
+    {
+      "label": "WPI — application deadlines and decision dates",
+      "url": "https://www.wpi.edu/admissions/undergraduate/apply"
     }
   ],
   "verification": {
@@ -14886,10 +15066,10 @@ window.UNIPATH.universities.push(
       "English proficiency",
       "test policy",
       "aid for international students",
-      "published costs"
+      "published costs",
+      "application rounds"
     ],
     "unconfirmed": [
-      "application rounds",
       "tuition and fees",
       "amounts of merit awards",
       "health insurance terms",
@@ -15442,12 +15622,16 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "optional",
+      "note": "International students do not need to submit SAT or ACT scores; Allegheny says they receive the same consideration for merit scholarships without them.",
+      "source": "https://allegheny.edu/apply/international-students/",
+      "verified": "2026-10-13"
     },
     "act": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "optional",
+      "note": "International students do not need to submit SAT or ACT scores; Allegheny says they receive the same consideration for merit scholarships without them.",
+      "source": "https://allegheny.edu/apply/international-students/",
+      "verified": "2026-10-13"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -15545,11 +15729,11 @@ window.UNIPATH.universities.push(
       "English proficiency",
       "published costs",
       "merit scholarships",
-      "aid for international students"
+      "aid for international students",
+      "test policy"
     ],
     "unconfirmed": [
       "application fee",
-      "test policy",
       "health insurance terms",
       "founding year",
       "admission statistics"
@@ -15956,16 +16140,16 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": "unknown",
-      "note": "The page for international applicants says “you may submit” the SAT or ACT, without stating that scores are optional or required.",
-      "source": "https://www.iwu.edu/international/admission.html",
-      "verified": "2026-10-12"
+      "policy": "optional",
+      "note": "The international admission FAQ says an SAT or ACT score is not needed to apply: “IWU is now test optional.” SAT and ACT results do not count as proof of English.",
+      "source": "https://www.iwu.edu/international/admission-faq.html",
+      "verified": "2026-10-13"
     },
     "act": {
-      "policy": "unknown",
-      "note": "The page for international applicants says “you may submit” the SAT or ACT, without stating that scores are optional or required.",
-      "source": "https://www.iwu.edu/international/admission.html",
-      "verified": "2026-10-12"
+      "policy": "optional",
+      "note": "The international admission FAQ says an SAT or ACT score is not needed to apply: “IWU is now test optional.” SAT and ACT results do not count as proof of English.",
+      "source": "https://www.iwu.edu/international/admission-faq.html",
+      "verified": "2026-10-13"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -16104,10 +16288,10 @@ window.UNIPATH.universities.push(
       "application fee",
       "English proficiency",
       "merit scholarships",
-      "aid for international students"
+      "aid for international students",
+      "test policy"
     ],
     "unconfirmed": [
-      "test policy",
       "costs for 2026–27",
       "share of need met",
       "founding year",
@@ -18767,12 +18951,16 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "optional",
+      "note": "St. Lawrence is “SAT/ACT-optional for all applicants”.",
+      "source": "https://www.stlawu.edu/applying-st-lawrence/international-students",
+      "verified": "2026-10-13"
     },
     "act": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "optional",
+      "note": "St. Lawrence is “SAT/ACT-optional for all applicants”.",
+      "source": "https://www.stlawu.edu/applying-st-lawrence/international-students",
+      "verified": "2026-10-13"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -18884,11 +19072,11 @@ window.UNIPATH.universities.push(
       "application rounds",
       "published costs",
       "aid for international students",
-      "merit scholarships"
+      "merit scholarships",
+      "test policy"
     ],
     "unconfirmed": [
       "application fee",
-      "test policy",
       "minimum English test scores",
       "share of need met",
       "founding year",
@@ -19342,12 +19530,16 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "optional",
+      "note": "International first-year applicants may apply without standardized testing and are equally eligible for merit scholarships. Temple’s financial services page says academic scholarships go to international students with strong records “and standardized test scores”.",
+      "source": "https://admissions.temple.edu/apply/international-students/first-year-international-students",
+      "verified": "2026-10-13"
     },
     "act": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "optional",
+      "note": "International first-year applicants may apply without standardized testing and are equally eligible for merit scholarships. Temple’s financial services page says academic scholarships go to international students with strong records “and standardized test scores”.",
+      "source": "https://admissions.temple.edu/apply/international-students/first-year-international-students",
+      "verified": "2026-10-13"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -19473,11 +19665,11 @@ window.UNIPATH.universities.push(
       "application fee",
       "aid for international students",
       "list of majors",
-      "published costs"
+      "published costs",
+      "test policy"
     ],
     "unconfirmed": [
       "minimum English test scores",
-      "test policy",
       "tuition and fees",
       "amounts of merit awards",
       "founding year",
@@ -19930,12 +20122,16 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "optional",
+      "note": "SAT and ACT scores are not required for general admission; submitted scores may be used for class placement or to meet core competency requirements. The statement is on the general first-year page; nothing separate is said about international applicants.",
+      "source": "https://www.arizona.edu/admissions/undergraduate/first-year",
+      "verified": "2026-10-13"
     },
     "act": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "optional",
+      "note": "SAT and ACT scores are not required for general admission; submitted scores may be used for class placement or to meet core competency requirements. The statement is on the general first-year page; nothing separate is said about international applicants.",
+      "source": "https://www.arizona.edu/admissions/undergraduate/first-year",
+      "verified": "2026-10-13"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -20044,6 +20240,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Arizona — official list of undergraduate programmes",
       "url": "https://www.arizona.edu/degree-search/majors"
+    },
+    {
+      "label": "Arizona — SAT/ACT policy, read on 13 October 2026",
+      "url": "https://www.arizona.edu/admissions/undergraduate/first-year"
     }
   ],
   "verification": {
@@ -20051,11 +20251,11 @@ window.UNIPATH.universities.push(
     "checked": [
       "English proficiency",
       "Early Action date",
-      "cost estimate for non-residents"
+      "cost estimate for non-residents",
+      "test policy"
     ],
     "unconfirmed": [
       "application fee",
-      "test policy",
       "amounts of merit awards",
       "final application deadline",
       "academic year of the cost estimate",
@@ -21868,12 +22068,16 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "optional",
+      "note": "The UW no longer requires SAT or ACT scores for most applicants. Home-schooled applicants and those from schools without letter or numeric grades must still submit them.",
+      "source": "https://admit.washington.edu/apply/first-year/how-to-apply/",
+      "verified": "2026-10-13"
     },
     "act": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "optional",
+      "note": "The UW no longer requires SAT or ACT scores for most applicants. Home-schooled applicants and those from schools without letter or numeric grades must still submit them.",
+      "source": "https://admit.washington.edu/apply/first-year/how-to-apply/",
+      "verified": "2026-10-13"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -21972,6 +22176,10 @@ window.UNIPATH.universities.push(
     {
       "label": "UW — home page",
       "url": "https://www.washington.edu/"
+    },
+    {
+      "label": "UW — SAT/ACT policy, read on 13 October 2026",
+      "url": "https://admit.washington.edu/apply/first-year/how-to-apply/"
     }
   ],
   "verification": {
@@ -21980,12 +22188,12 @@ window.UNIPATH.universities.push(
       "aid for international students",
       "autumn application deadline",
       "non-resident cost estimate",
-      "founding year"
+      "founding year",
+      "test policy"
     ],
     "unconfirmed": [
       "application fee",
       "English proficiency",
-      "test policy",
       "academic year of the cost figures",
       "admission statistics",
       "list of majors"
@@ -22058,12 +22266,76 @@ window.UNIPATH.universities.push(
       "Common Application",
       "Ursinus application"
     ],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Not binding. Decisions in mid-December; no need to enrol before 1 May. Considered for all available scholarships.",
+        "status": "confirmed",
+        "source": "https://www.ursinus.edu/admission/applying/",
+        "verified": "2026-10-13",
+        "note": "The page prints the dates without a year; the weekdays it names (Friday 20 November, Friday 22 January) match the 2026–27 cycle, and one sentence on it still speaks of fall 2026. It adds that international applicants have separate application procedures; their own page lists no dates. Read on 13 October 2026."
+      },
+      {
+        "name": "Early Decision 1",
+        "kind": "ED",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-12-01",
+        "date": "1 December 2026",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Decisions on a rolling basis. A financial aid application is due within two weeks of applying; a merit pre-read can be requested by 20 November.",
+        "status": "confirmed",
+        "source": "https://www.ursinus.edu/admission/applying/",
+        "verified": "2026-10-13",
+        "note": "The page prints the dates without a year; the weekdays it names (Friday 20 November, Friday 22 January) match the 2026–27 cycle, and one sentence on it still speaks of fall 2026. It adds that international applicants have separate application procedures; their own page lists no dates. Read on 13 October 2026."
+      },
+      {
+        "name": "Early Decision 2",
+        "kind": "ED2",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-01",
+        "date": "1 February 2027",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Decisions on a rolling basis. A merit pre-read can be requested by 22 January.",
+        "status": "confirmed",
+        "source": "https://www.ursinus.edu/admission/applying/",
+        "verified": "2026-10-13",
+        "note": "The page prints the dates without a year; the weekdays it names (Friday 20 November, Friday 22 January) match the 2026–27 cycle, and one sentence on it still speaks of fall 2026. It adds that international applicants have separate application procedures; their own page lists no dates. Read on 13 October 2026."
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-01",
+        "date": "1 February 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "The heading gives 1 February, while the text under it says applicants who apply “by the February 15 deadline” hear by mid-March. Applications may be accepted later as space allows.",
+        "status": "confirmed",
+        "source": "https://www.ursinus.edu/admission/applying/",
+        "verified": "2026-10-13",
+        "note": "The page prints the dates without a year; the weekdays it names (Friday 20 November, Friday 22 January) match the 2026–27 cycle, and one sentence on it still speaks of fall 2026. It adds that international applicants have separate application procedures; their own page lists no dates. Read on 13 October 2026."
+      }
+    ],
     "applicationFee": {
-      "amount": null,
+      "amount": 0,
       "currency": "USD",
       "waiverAvailableToInternational": null,
-      "waiver": null
+      "waiver": null,
+      "note": "The applying page says: “Apply online—it’s free!”",
+      "source": "https://www.ursinus.edu/admission/applying/",
+      "verified": "2026-10-13"
     },
     "documents": [
       "Common Application or Ursinus Application",
@@ -22108,11 +22380,15 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": null,
-      "note": "Not confirmed on the pages read."
+      "note": "Not checked: the applying page read on 13 October 2026 does not mention the SAT or ACT, and the page for international applicants lists no test policy.",
+      "source": "https://www.ursinus.edu/admission/applying/",
+      "verified": "2026-10-13"
     },
     "act": {
       "policy": null,
-      "note": "Not confirmed on the pages read."
+      "note": "Not checked: the applying page read on 13 October 2026 does not mention the SAT or ACT, and the page for international applicants lists no test policy.",
+      "source": "https://www.ursinus.edu/admission/applying/",
+      "verified": "2026-10-13"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -22216,6 +22492,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Ursinus — scholarships",
       "url": "https://www.ursinus.edu/admission/scholarships-aid/"
+    },
+    {
+      "label": "Ursinus — applying: plans and deadlines",
+      "url": "https://www.ursinus.edu/admission/applying/"
     }
   ],
   "verification": {
@@ -22224,11 +22504,11 @@ window.UNIPATH.universities.push(
       "English proficiency",
       "published costs",
       "aid for international students",
-      "merit scholarships"
+      "merit scholarships",
+      "application rounds",
+      "application fee"
     ],
     "unconfirmed": [
-      "application rounds",
-      "application fee",
       "test policy",
       "eligibility of international students for the full-tuition scholarships",
       "founding year",
@@ -22821,36 +23101,102 @@ window.UNIPATH.universities.push(
     "cost": "https://www.xavier.edu/international-admission/tuition"
   },
   "admissions": {
-    "platforms": [],
-    "deadlines": [],
+    "platforms": [
+      "Xavier application",
+      "Common Application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": "Not binding. Admission and merit scholarship decisions by mid-December. For an autumn (August) start.",
+        "status": "confirmed",
+        "source": "https://www.xavier.edu/international-admission/applications-and-requirements/freshman",
+        "verified": "2026-10-13",
+        "note": "The page prints this date without a year; it was read on 13 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Rolling admission",
+        "kind": "rolling",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "date": "After 1 November",
+        "binding": false,
+        "appliesTo": "International applicants",
+        "conditions": "Applications after 1 November are decided on a rolling basis from January. Xavier encourages students who need an I-20 to apply as early as possible.",
+        "status": "confirmed",
+        "source": "https://www.xavier.edu/international-admission/applications-and-requirements/freshman",
+        "verified": "2026-10-13",
+        "note": null
+      }
+    ],
     "applicationFee": {
-      "amount": null,
+      "amount": 0,
       "currency": "USD",
       "waiverAvailableToInternational": null,
-      "waiver": null
+      "waiver": null,
+      "note": "The international first-year page says: “Submitting an application to Xavier is free.”",
+      "source": "https://www.xavier.edu/international-admission/applications-and-requirements/freshman",
+      "verified": "2026-10-13"
     },
     "documents": [],
     "recommendations": null,
-    "essay": null,
+    "essay": "An essay is required of all students; it is submitted with the application.",
     "interview": null,
     "notes": []
   },
   "english": {
-    "ielts": null,
-    "toefl": null,
-    "duolingo": null,
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "6.5 for full admission consideration; 6.0 with two additional academic English courses; 5.5 with those courses, twice-weekly advisor meetings and tutoring."
+    },
+    "toefl": {
+      "min": 79,
+      "recommended": null,
+      "note": "For full admission consideration: 79, or 4.5 on tests after 21 January 2026. With additional English courses: 70, or 4; with further support: 3.5.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 79,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 110,
+      "recommended": null,
+      "note": "110 for full admission consideration; 100 with additional English courses; 90 with further support."
+    },
     "waiver": null,
-    "note": null
+    "note": "Also accepted for full consideration: Cambridge 176 (C1 exam recommended), PTE 55, MET 58. Students admitted at the lower levels take two academic English courses of three credit hours each.",
+    "detailsSource": "https://www.xavier.edu/international-admission/applications-and-requirements/freshman",
+    "detailsVerified": "2026-10-13"
   },
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "optional",
+      "note": "Xavier offers test-optional admission: it is the applicant’s choice whether to include ACT or SAT scores.",
+      "source": "https://www.xavier.edu/international-admission/applications-and-requirements/freshman",
+      "verified": "2026-10-13"
     },
     "act": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "optional",
+      "note": "Xavier offers test-optional admission: it is the applicant’s choice whether to include ACT or SAT scores.",
+      "source": "https://www.xavier.edu/international-admission/applications-and-requirements/freshman",
+      "verified": "2026-10-13"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -22940,19 +23286,23 @@ window.UNIPATH.universities.push(
     {
       "label": "Xavier — scholarships for international students",
       "url": "https://www.xavier.edu/international-admission/scholarships/index"
+    },
+    {
+      "label": "Xavier — admission process for international first-year students",
+      "url": "https://www.xavier.edu/international-admission/applications-and-requirements/freshman"
     }
   ],
   "verification": {
     "level": "partial",
     "checked": [
       "merit scholarships",
-      "estimated cost for international students"
-    ],
-    "unconfirmed": [
+      "estimated cost for international students",
       "application rounds",
       "application fee",
       "English proficiency",
-      "test policy",
+      "test policy"
+    ],
+    "unconfirmed": [
       "academic year of the cost estimate",
       "founding year",
       "admission statistics",
@@ -23097,15 +23447,15 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": "unknown",
-      "note": "The page for international applicants says the SAT or ACT “may be required for domestic applicants” and does not finish the statement for international applicants in the passage read.",
+      "note": "The pages do not settle it for international applicants. The first-time freshman page says “Test scores are not required for admission”, while the page for international students says they “may have alternative requirements or options” and that some “may need to take standardized tests such as the SAT or ACT”.",
       "source": "https://www.xula.edu/international-ed/applying-undergrad-students.html",
-      "verified": "2026-10-12"
+      "verified": "2026-10-13"
     },
     "act": {
       "policy": "unknown",
-      "note": "The page for international applicants says the SAT or ACT “may be required for domestic applicants” and does not finish the statement for international applicants in the passage read.",
+      "note": "The pages do not settle it for international applicants. The first-time freshman page says “Test scores are not required for admission”, while the page for international students says they “may have alternative requirements or options” and that some “may need to take standardized tests such as the SAT or ACT”.",
       "source": "https://www.xula.edu/international-ed/applying-undergrad-students.html",
-      "verified": "2026-10-12"
+      "verified": "2026-10-13"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -23172,13 +23522,13 @@ window.UNIPATH.universities.push(
       "preferred deadlines"
     ],
     "unconfirmed": [
-      "test policy",
       "tuition and fees — the costs page did not load for reading",
       "aid for international students",
       "amounts of merit awards",
       "founding year",
       "admission statistics",
-      "list of majors"
+      "list of majors",
+      "test policy"
     ]
   },
   "lastVerified": "2026-10-12",
@@ -24483,11 +24833,15 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": null,
-      "note": "Not confirmed on the pages read."
+      "note": "Not checked: the admission pages of the college returned empty pages on 13 October 2026, so the policy could not be read. Only the catalogue site opened.",
+      "source": "https://www.cornellcollege.edu/admissions/index.shtml",
+      "verified": "2026-10-13"
     },
     "act": {
       "policy": null,
-      "note": "Not confirmed on the pages read."
+      "note": "Not checked: the admission pages of the college returned empty pages on 13 October 2026, so the policy could not be read. Only the catalogue site opened.",
+      "source": "https://www.cornellcollege.edu/admissions/index.shtml",
+      "verified": "2026-10-13"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -24845,11 +25199,15 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": null,
-      "note": "Not confirmed on the pages read."
+      "note": "Not checked: the “How to Apply” page keeps its requirements inside sections that did not open on 13 October 2026, and the text that could be read states no SAT or ACT policy.",
+      "source": "https://www.newschool.edu/admission/prospective-undergraduate-students/apply-undergraduate",
+      "verified": "2026-10-13"
     },
     "act": {
       "policy": null,
-      "note": "Not confirmed on the pages read."
+      "note": "Not checked: the “How to Apply” page keeps its requirements inside sections that did not open on 13 October 2026, and the text that could be read states no SAT or ACT policy.",
+      "source": "https://www.newschool.edu/admission/prospective-undergraduate-students/apply-undergraduate",
+      "verified": "2026-10-13"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -25078,11 +25436,15 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": null,
-      "note": "Not confirmed on the pages read."
+      "note": "Not checked: the application page read on 13 October 2026 states no SAT or ACT policy.",
+      "source": "https://www.scad.edu/admission/apply",
+      "verified": "2026-10-13"
     },
     "act": {
       "policy": null,
-      "note": "Not confirmed on the pages read."
+      "note": "Not checked: the application page read on 13 October 2026 states no SAT or ACT policy.",
+      "source": "https://www.scad.edu/admission/apply",
+      "verified": "2026-10-13"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -25342,11 +25704,15 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": null,
-      "note": "Not confirmed on the pages read."
+      "note": "Not checked: on 13 October 2026 the university’s main site showed an automated browser check, which was not bypassed, so its testing policy page could not be read.",
+      "source": "https://www.american.edu/admissions/first-year/index.cfm",
+      "verified": "2026-10-13"
     },
     "act": {
       "policy": null,
-      "note": "Not confirmed on the pages read."
+      "note": "Not checked: on 13 October 2026 the university’s main site showed an automated browser check, which was not bypassed, so its testing policy page could not be read.",
+      "source": "https://www.american.edu/admissions/first-year/index.cfm",
+      "verified": "2026-10-13"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -27465,12 +27831,16 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "optional",
+      "note": "Test-optional admission: WVU says scores are used only to the applicant’s advantage — for admission, the Honors College and automatically awarded merit scholarships. Some majors ask test-optional applicants for a higher grade average (engineering 3.00, forensic majors 3.75). The statement is on the general first-time freshman page.",
+      "source": "https://www.wvu.edu/admissions/undergraduate/how-to-apply/first-time-freshmen/admission-requirements/",
+      "verified": "2026-10-13"
     },
     "act": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "optional",
+      "note": "Test-optional admission: WVU says scores are used only to the applicant’s advantage — for admission, the Honors College and automatically awarded merit scholarships. Some majors ask test-optional applicants for a higher grade average (engineering 3.00, forensic majors 3.75). The statement is on the general first-time freshman page.",
+      "source": "https://www.wvu.edu/admissions/undergraduate/how-to-apply/first-time-freshmen/admission-requirements/",
+      "verified": "2026-10-13"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -27574,6 +27944,10 @@ window.UNIPATH.universities.push(
     {
       "label": "WVU — official list of undergraduate programmes",
       "url": "https://catalog.wvu.edu/undergraduate/"
+    },
+    {
+      "label": "WVU — SAT/ACT policy, read on 13 October 2026",
+      "url": "https://www.wvu.edu/admissions/undergraduate/how-to-apply/first-time-freshmen/admission-requirements/"
     }
   ],
   "verification": {
@@ -27584,10 +27958,10 @@ window.UNIPATH.universities.push(
       "English proficiency",
       "published costs",
       "merit scholarships",
-      "list of majors"
+      "list of majors",
+      "test policy"
     ],
     "unconfirmed": [
-      "test policy",
       "whether the “housing expenses” figure includes food",
       "full cost of attendance",
       "health insurance terms",
@@ -27845,11 +28219,15 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": null,
-      "note": "Not confirmed on the pages read."
+      "note": "Not checked: the pages read state no SAT or ACT policy. The international application process only lists standardized test scores among documents that may be asked for at the visa stage.",
+      "source": "https://anderson.edu/start-your-story/international-undergraduate-application-process/",
+      "verified": "2026-10-13"
     },
     "act": {
       "policy": null,
-      "note": "Not confirmed on the pages read."
+      "note": "Not checked: the pages read state no SAT or ACT policy. The international application process only lists standardized test scores among documents that may be asked for at the visa stage.",
+      "source": "https://anderson.edu/start-your-story/international-undergraduate-application-process/",
+      "verified": "2026-10-13"
     },
     "otherTests": null,
     "internationalQualifications": null

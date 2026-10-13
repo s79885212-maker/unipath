@@ -561,6 +561,22 @@ group('corrections after the expansion');
   console.log('   cost figures without a named academic year: ' + bare.filter(function (id) { return id !== 'deep-springs-college'; }).join(', '));
   var kc2 = bud('kenyon-college', 96000);
   ok(kc2.status === 'conflict' && /needs checking/.test(kc2.text), 'Kenyon: a budget between the two official totals is still a source conflict');
+  /* Dates and test policies (v113). */
+  var noRounds = added().filter(function (u) { return !U.roundsOf(u).length; }).map(function (u) { return u.id; });
+  ok(!noRounds.length, 'every added record has at least one application round or a confirmed rolling route', noRounds.join(', '));
+  var wpi = U.roundsOf(U.uniById('worcester-polytechnic-institute'));
+  ok(wpi.length === 5 && wpi.filter(function (d) { return d.binding === true; }).length === 2 && wpi.every(function (d) { return d.source && d.verified && d.note; }),
+    'WPI: five rounds, two of them binding, each with its source and the note that the page prints no year');
+  var noReason = added().filter(function (u) {
+    var t = (u.academics || {}).sat || {};
+    return !(t.policy && t.source && t.verified) && !(U.has(t.note) && /Not checked|disagree|do not settle|Not confirmed/.test(t.note));
+  }).map(function (u) { return u.id; });
+  ok(!noReason.length, 'an SAT/ACT policy is either stated with its page and date, or left unknown with the reason', noReason.join(', '));
+  var bare26 = ['ursinus-college', 'anderson-university-indiana', 'cornell-college', 'the-new-school', 'savannah-college-of-art-and-design', 'american-university'].filter(function (id) {
+    var t = U.uniById(id).academics.sat; return t.policy || !/^Not checked:/.test(t.note) || !t.source; });
+  ok(!bare26.length, 'the six records whose test policy could not be read say “Not checked”, why, and where to look', bare26.join(', '));
+  ok(U.uniById('lesley-university').academics.sat.policy === 'not-used' && U.uniById('rensselaer-polytechnic-institute').academics.sat.cycle === 'autumn 2027',
+    'Lesley does not use test scores for admission; RPI’s test-optional policy names its cycle');
   var noStatus = DB.universities.filter(function (u) { return !(u.programs || []).length && U.programsChecked(u); }).map(function (u) { return u.id; });
   ok(!noStatus.length, 'a record without field tags says that its list of majors was not checked', noStatus.join(', '));
 })();
