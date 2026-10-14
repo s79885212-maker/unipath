@@ -602,8 +602,22 @@ group('corrections after the expansion');
   ok(!has('spelman-college', 'engineering') && !has('washington-and-jefferson-college', 'engineering') && !has('southern-methodist-university', 'law') &&
      !has('illinois-institute-of-technology', 'law') && !has('santa-clara-university', 'education') && has('morehouse-college', 'computer-science'),
     'a dual-degree route, a pre-law track and a graduate school are not shown as fields of study');
-  ok(U.programsPartial(U.uniById('texas-a-and-m-university')) && U.programsPartial(U.uniById('umass-amherst')) && !U.programsPartial(U.uniById('rochester-institute-of-technology')),
+  ok(U.programsPartial(U.uniById('fairfield-university')) && !U.programsPartial(U.uniById('rochester-institute-of-technology')),
     'records whose full list of majors was not read are marked as partly read');
+  /* v118: the remaining lists, read through catalogues or in a browser window. */
+  var v118 = ['elmira-college', 'hobart-and-william-smith-colleges', 'occidental-college', 'westminster-college-pennsylvania', 'providence-college',
+    'illinois-wesleyan-university', 'lake-forest-college', 'southern-methodist-university', 'loyola-university-chicago', 'seattle-university', 'ithaca-college',
+    'xavier-university-of-louisiana', 'university-of-washington', 'santa-clara-university', 'texas-a-and-m-university', 'ursinus-college',
+    'anderson-university-indiana', 'depaul-university', 'willamette-university', 'umass-amherst', 'university-of-minnesota-twin-cities', 'endicott-college',
+    'allegheny-college', 'bentley-university', 'xavier-university', 'muhlenberg-college', 'villanova-university', 'university-of-iowa', 'lesley-university',
+    'the-new-school', 'savannah-college-of-art-and-design'];
+  var kw = v118.filter(function (id) { return U.uniById(id).programsBasis !== 'evidence'; });
+  ok(v118.length === 31 && !kw.length && U.uniById('fairfield-university').programsBasis !== 'evidence',
+    'v118: 31 more records name a programme per field; Fairfield (list behind a browser check) stays partly read', kw.join(', '));
+  var tam = U.uniById('texas-a-and-m-university'), uw = U.uniById('university-of-washington'), oxy = U.uniById('occidental-college');
+  ok(!U.programsPartial(tam) && tam.programEvidence.law.program === 'Society, Ethics, and Law - BA' && /catalog\.tamu\.edu/.test(tam.programEvidence.law.url) &&
+     /capacity-constrained/.test(uw.programNote) && oxy.programs.indexOf('business') < 0 && oxy.fieldNotes.business.kind === 'not-listed',
+    'Texas A&M fields come from its 2026–2027 catalogue; UW warns that majors are capacity-constrained; “Business at Oxy” is not a major');
   var noStatus = DB.universities.filter(function (u) { return !(u.programs || []).length && U.programsChecked(u); }).map(function (u) { return u.id; });
   ok(!noStatus.length, 'a record without field tags says that its list of majors was not checked', noStatus.join(', '));
 })();
