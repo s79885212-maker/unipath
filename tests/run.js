@@ -539,6 +539,17 @@ group('corrections after the expansion');
     if ((u.englishTaughtPrograms || []).join() !== (u.programs || []).join()) badEv.push(u.id + ':english list differs');
   });
   ok(!badEv.length, 'every field tag written from an official list names its programme, level, page and check date', badEv.slice(0, 6).join('; '));
+  var evN = DB.universities.filter(function (u) { return u.programsBasis === 'evidence'; }).length;
+  var dropped117 = [['olin-college-of-engineering', 'computer-science', 'concentration'], ['scripps-college', 'computer-science', 'minor'],
+    ['spelman-college', 'business', 'minor'], ['ohio-wesleyan-university', 'law', 'not-listed'], ['illinois-institute-of-technology', 'economics', 'minor']];
+  ok(evN >= 55 && dropped117.every(function (d) {
+       var u = U.uniById(d[0]);
+       return u.programs.indexOf(d[1]) < 0 && u.fieldNotes && u.fieldNotes[d[1]] && u.fieldNotes[d[1]].kind === d[2];
+     }), 'v117: 38 more records name a programme per field; a field shown only as a minor, a concentration or pre-law is taken off with its reason', 'evidence records: ' + evN);
+  var ch = U.uniById('chapman-university'), bab = U.uniById('babson-college');
+  ok(U.applyFilters([ch], { field: ['psychology'] }).length === 1 && ch.programEvidence.psychology.program === 'BA Psychology' &&
+     bab.programsBasis === 'concentrations' && /concentrations/.test(bab.links.programs),
+    'fields found on a read list are added only with a named programme (Chapman); Babson’s areas are concentrations of its one degree');
   var ag = U.uniById('agnes-scott-college');
   ok(ag.programs.indexOf('computer-science') < 0 && ag.programs.indexOf('engineering') < 0, 'Agnes Scott: dual-degree routes with other institutions are not counted as its own fields');
   /* Costs read for v112: a period, a year and a category travel with every figure. */

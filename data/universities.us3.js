@@ -45,7 +45,7 @@ window.UNIPATH.universities.push(
     "humanities",
     "arts"
   ],
-  "programNote": null,
+  "programNote": "At Bard a major is called a programme, and every student moderates into one. The names below are programmes from the list of Bard’s four divisions.",
   "links": {
     "website": "https://www.bard.edu/",
     "admissions": "https://www.bard.edu/admission/",
@@ -342,6 +342,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Bard — about",
       "url": "https://www.bard.edu/about/"
+    },
+    {
+      "label": "Bard — official list of undergraduate programmes",
+      "url": "https://www.bard.edu/programs/"
     }
   ],
   "verification": {
@@ -352,7 +356,8 @@ window.UNIPATH.universities.push(
       "test policy",
       "tuition and fees 2026–27",
       "aid for international students",
-      "founding year"
+      "founding year",
+      "list of majors"
     ],
     "unconfirmed": [
       "application fee",
@@ -361,7 +366,66 @@ window.UNIPATH.universities.push(
       "admission statistics"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "economics": {
+      "program": "Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://economics.bard.edu",
+      "checked": "2026-10-14"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://cs.bard.edu",
+      "checked": "2026-10-14"
+    },
+    "psychology": {
+      "program": "Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://psychology.bard.edu",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Biology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://biology.bard.edu",
+      "checked": "2026-10-14"
+    },
+    "mathematics": {
+      "program": "Mathematics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://math.bard.edu",
+      "checked": "2026-10-14"
+    },
+    "social-sciences": {
+      "program": "Politics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://politics.bard.edu/",
+      "checked": "2026-10-14"
+    },
+    "humanities": {
+      "program": "Literature",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://literature.bard.edu",
+      "checked": "2026-10-14"
+    },
+    "arts": {
+      "program": "Studio Arts",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://studioarts.bard.edu",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -403,7 +467,7 @@ window.UNIPATH.universities.push(
     "humanities",
     "arts"
   ],
-  "programNote": null,
+  "programNote": "Bennington has no conventional majors: each student designs a course of study, the Plan, around one or more areas of interest. The names below are areas of study from the college’s list.",
   "links": {
     "website": "https://www.bennington.edu/",
     "admissions": "https://www.bennington.edu/admissions-and-financial-aid",
@@ -656,7 +720,8 @@ window.UNIPATH.universities.push(
       "English proficiency",
       "test policy",
       "direct costs 2026–2027",
-      "availability of aid to international students"
+      "availability of aid to international students",
+      "list of majors"
     ],
     "unconfirmed": [
       "application fee",
@@ -666,7 +731,59 @@ window.UNIPATH.universities.push(
       "admission statistics"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "computer-science": {
+      "program": "Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.bennington.edu/academics/areas-of-study-curriculum/science-mathematics/computer-science",
+      "checked": "2026-10-14"
+    },
+    "psychology": {
+      "program": "Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.bennington.edu/academics/areas-of-study-curriculum/society-culture-thought/psychology",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Biology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.bennington.edu/academics/areas-of-study-curriculum/science-mathematics/biology",
+      "checked": "2026-10-14"
+    },
+    "mathematics": {
+      "program": "Mathematics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.bennington.edu/academics/areas-of-study-curriculum/science-mathematics/mathematics",
+      "checked": "2026-10-14"
+    },
+    "social-sciences": {
+      "program": "Anthropology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.bennington.edu/academics/areas-of-study-curriculum/society-culture-thought/anthropology",
+      "checked": "2026-10-14"
+    },
+    "humanities": {
+      "program": "History",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.bennington.edu/academics/areas-of-study-curriculum/society-culture-thought/history",
+      "checked": "2026-10-14"
+    },
+    "arts": {
+      "program": "Visual Arts",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.bennington.edu/academics/areas-of-study-curriculum/visual-arts",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -708,7 +825,7 @@ window.UNIPATH.universities.push(
     "social-sciences",
     "humanities"
   ],
-  "programNote": null,
+  "programNote": "Biology at CMC is studied in the Integrated Sciences major of the Kravis Department of Integrated Sciences; the name below is its genomics and health track.",
   "links": {
     "website": "https://www.cmc.edu/",
     "admissions": "https://www.cmc.edu/admission",
@@ -1000,6 +1117,10 @@ window.UNIPATH.universities.push(
     {
       "label": "CMC — test-optional policy FAQ",
       "url": "https://www.cmc.edu/admission/first-year-application-instructions/test-optional-policy-faq"
+    },
+    {
+      "label": "CMC — official list of undergraduate programmes",
+      "url": "https://www.cmc.edu/academic/departments-majors-programs"
     }
   ],
   "verification": {
@@ -1010,14 +1131,67 @@ window.UNIPATH.universities.push(
       "English tests",
       "test policy and its cycle",
       "cost of attendance 2026–2027",
-      "need-based aid policy for international students"
+      "need-based aid policy for international students",
+      "list of majors"
     ],
     "unconfirmed": [
       "amounts of merit scholarships",
       "admission statistics"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "economics": {
+      "program": "Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://webapps.cmc.edu/acalog/getAcalogLink.php?prog=Economics",
+      "checked": "2026-10-14"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://webapps.cmc.edu/acalog/getAcalogLink.php?prog=Computer_Science",
+      "checked": "2026-10-14"
+    },
+    "psychology": {
+      "program": "Psychological Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.cmc.edu/psychological-science",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Integrated Sciences: Genomics, Systems Biology, and Health",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.cmc.edu/academic/departments-majors-programs",
+      "checked": "2026-10-14"
+    },
+    "mathematics": {
+      "program": "Mathematical Sciences",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.cmc.edu/academic/departments-majors-programs",
+      "checked": "2026-10-14"
+    },
+    "social-sciences": {
+      "program": "Government",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.cmc.edu/government",
+      "checked": "2026-10-14"
+    },
+    "humanities": {
+      "program": "History",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.cmc.edu/academic/departments-majors-programs",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -1354,7 +1528,7 @@ window.UNIPATH.universities.push(
     "humanities",
     "arts"
   ],
-  "programNote": null,
+  "programNote": "Business, economics and quantitative economics are three separate majors of the Department of Economics and Business; a student may take only one of them.",
   "links": {
     "website": "https://www.kzoo.edu/",
     "admissions": "https://admission.kzoo.edu/",
@@ -1595,6 +1769,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Kalamazoo — about",
       "url": "https://www.kzoo.edu/about/"
+    },
+    {
+      "label": "Kalamazoo — official list of undergraduate programmes",
+      "url": "https://www.kzoo.edu/academic/"
     }
   ],
   "verification": {
@@ -1606,7 +1784,8 @@ window.UNIPATH.universities.push(
       "test policy",
       "tuition, fees, food and housing 2026–27",
       "aid for international students",
-      "founding year"
+      "founding year",
+      "list of majors"
     ],
     "unconfirmed": [
       "full cost of attendance",
@@ -1614,7 +1793,73 @@ window.UNIPATH.universities.push(
       "admission statistics"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Business",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.kzoo.edu/academic/programs/economics-and-business/",
+      "checked": "2026-10-14"
+    },
+    "economics": {
+      "program": "Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.kzoo.edu/academic/programs/economics-and-business/",
+      "checked": "2026-10-14"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.kzoo.edu/academic/programs/computer-science/",
+      "checked": "2026-10-14"
+    },
+    "psychology": {
+      "program": "Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.kzoo.edu/academic/programs/psychology/",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Biology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.kzoo.edu/academic/programs/biology/",
+      "checked": "2026-10-14"
+    },
+    "mathematics": {
+      "program": "Mathematics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.kzoo.edu/academic/programs/mathematics/",
+      "checked": "2026-10-14"
+    },
+    "social-sciences": {
+      "program": "Political Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.kzoo.edu/academic/programs/political-science/",
+      "checked": "2026-10-14"
+    },
+    "humanities": {
+      "program": "History",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.kzoo.edu/academic/programs/history/",
+      "checked": "2026-10-14"
+    },
+    "arts": {
+      "program": "Theatre Arts",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.kzoo.edu/academic/programs/theatre/",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -1975,6 +2220,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Reed — about",
       "url": "https://www.reed.edu/about/index.html"
+    },
+    {
+      "label": "Reed — official list of undergraduate programmes",
+      "url": "https://www.reed.edu/academics/majors-programs/index.html"
     }
   ],
   "verification": {
@@ -1986,7 +2235,8 @@ window.UNIPATH.universities.push(
       "test policy",
       "cost of attendance 2025–26",
       "need-based aid for international students",
-      "founding year"
+      "founding year",
+      "list of majors"
     ],
     "unconfirmed": [
       "cost of attendance for 2026–27",
@@ -1995,7 +2245,66 @@ window.UNIPATH.universities.push(
       "admission statistics"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "economics": {
+      "program": "Economics (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.reed.edu/academics/majors-programs/index.html",
+      "checked": "2026-10-14"
+    },
+    "computer-science": {
+      "program": "Computer Science (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.reed.edu/academics/majors-programs/index.html",
+      "checked": "2026-10-14"
+    },
+    "psychology": {
+      "program": "Psychology (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.reed.edu/academics/majors-programs/index.html",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Biology (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.reed.edu/academics/majors-programs/index.html",
+      "checked": "2026-10-14"
+    },
+    "mathematics": {
+      "program": "Mathematics (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.reed.edu/academics/majors-programs/index.html",
+      "checked": "2026-10-14"
+    },
+    "social-sciences": {
+      "program": "Political Science (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.reed.edu/academics/majors-programs/index.html",
+      "checked": "2026-10-14"
+    },
+    "humanities": {
+      "program": "English (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.reed.edu/academics/majors-programs/index.html",
+      "checked": "2026-10-14"
+    },
+    "arts": {
+      "program": "Art (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.reed.edu/academics/majors-programs/index.html",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -2039,7 +2348,7 @@ window.UNIPATH.universities.push(
     "humanities",
     "arts"
   ],
-  "programNote": "Sarah Lawrence organises study by disciplines rather than conventional majors; the tags reflect the disciplines it lists.",
+  "programNote": "Sarah Lawrence organises study by disciplines rather than conventional majors; the names below are disciplines from its list.",
   "links": {
     "website": "https://www.sarahlawrence.edu/",
     "admissions": "https://www.sarahlawrence.edu/admission/",
@@ -2320,7 +2629,8 @@ window.UNIPATH.universities.push(
       "test policy",
       "international cost of attendance 2026–2027",
       "scholarships for international citizens",
-      "founding year"
+      "founding year",
+      "list of majors"
     ],
     "unconfirmed": [
       "application dates for autumn 2027 entry",
@@ -2329,7 +2639,66 @@ window.UNIPATH.universities.push(
       "admission statistics"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "economics": {
+      "program": "Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sarahlawrence.edu/undergraduate/history-social-sciences/economics/index.html",
+      "checked": "2026-10-14"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sarahlawrence.edu/undergraduate/science-mathematics/computer-science/index.html",
+      "checked": "2026-10-14"
+    },
+    "psychology": {
+      "program": "Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sarahlawrence.edu/undergraduate/history-social-sciences/psychology/index.html",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Biology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sarahlawrence.edu/undergraduate/science-mathematics/biology/index.html",
+      "checked": "2026-10-14"
+    },
+    "mathematics": {
+      "program": "Mathematics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sarahlawrence.edu/undergraduate/science-mathematics/mathematics/index.html",
+      "checked": "2026-10-14"
+    },
+    "social-sciences": {
+      "program": "Politics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sarahlawrence.edu/undergraduate/history-social-sciences/politics/index.html",
+      "checked": "2026-10-14"
+    },
+    "humanities": {
+      "program": "History",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sarahlawrence.edu/undergraduate/history-social-sciences/history/index.html",
+      "checked": "2026-10-14"
+    },
+    "arts": {
+      "program": "Dance",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sarahlawrence.edu/undergraduate/arts/dance/index.html",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -2369,7 +2738,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.commonapp.org/",
     "scholarships": "https://www.babson.edu/undergraduate/tuition-and-financial-aid/international-students/",
     "financialAid": "https://www.babson.edu/undergraduate/tuition-and-financial-aid/international-students/",
-    "programs": "https://www.babson.edu/undergraduate/academics/",
+    "programs": "https://www.babson.edu/undergraduate/academics/concentrations/",
     "cost": "https://www.babson.edu/undergraduate/tuition-and-financial-aid/tuition-and-expenses/"
   },
   "admissions": {
@@ -2665,6 +3034,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Babson — about",
       "url": "https://www.babson.edu/about/babson-at-a-glance/"
+    },
+    {
+      "label": "Babson College — undergraduate concentrations",
+      "url": "https://www.babson.edu/undergraduate/academics/concentrations/"
     }
   ],
   "verification": {
@@ -2684,7 +3057,8 @@ window.UNIPATH.universities.push(
       "admission statistics"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsBasis": "concentrations"
 },
 
 {
@@ -2973,6 +3347,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Berklee — about",
       "url": "https://www.berklee.edu/about"
+    },
+    {
+      "label": "Berklee — official list of undergraduate programmes",
+      "url": "https://college.berklee.edu/majors"
     }
   ],
   "verification": {
@@ -2985,7 +3363,8 @@ window.UNIPATH.universities.push(
       "published costs",
       "aid for international students",
       "merit scholarships",
-      "founding year"
+      "founding year",
+      "list of majors"
     ],
     "unconfirmed": [
       "application fee waiver for international applicants",
@@ -2993,7 +3372,17 @@ window.UNIPATH.universities.push(
       "eligibility of international students for the Presidential Scholarship"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "arts": {
+      "program": "Performance",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://college.berklee.edu/undergraduate/bachelor-of-music-in-performance",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -3020,14 +3409,32 @@ window.UNIPATH.universities.push(
   "programs": [
     "business",
     "economics",
-    "arts"
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "medicine",
+    "education"
   ],
   "englishTaughtPrograms": [
     "business",
     "economics",
-    "arts"
+    "computer-science",
+    "engineering",
+    "psychology",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
+    "medicine",
+    "education"
   ],
-  "programNote": "Only the fields named on the pages read are listed here; Chapman’s full list of majors could not be read.",
+  "programNote": "From Chapman’s list of degree programmes, which names each bachelor’s degree.",
   "links": {
     "website": "https://www.chapman.edu/",
     "admissions": "https://www.chapman.edu/admission/undergraduate/index.aspx",
@@ -3312,6 +3719,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Chapman — about",
       "url": "https://www.chapman.edu/about/index.aspx"
+    },
+    {
+      "label": "Chapman — official list of undergraduate programmes",
+      "url": "https://www.chapman.edu/academics/degrees-and-programs.aspx"
     }
   ],
   "verification": {
@@ -3324,7 +3735,8 @@ window.UNIPATH.universities.push(
       "published costs",
       "aid for international students",
       "merit scholarships",
-      "founding year"
+      "founding year",
+      "list of majors"
     ],
     "unconfirmed": [
       "financial aid deadline",
@@ -3333,7 +3745,94 @@ window.UNIPATH.universities.push(
       "full list of majors — the majors page could not be read"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "BS Business Administration",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.chapman.edu/academics/degrees-and-programs.aspx",
+      "checked": "2026-10-14"
+    },
+    "economics": {
+      "program": "BA Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.chapman.edu/academics/degrees-and-programs.aspx",
+      "checked": "2026-10-14"
+    },
+    "computer-science": {
+      "program": "BS Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.chapman.edu/academics/degrees-and-programs.aspx",
+      "checked": "2026-10-14"
+    },
+    "engineering": {
+      "program": "BS Electrical Engineering",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.chapman.edu/academics/degrees-and-programs.aspx",
+      "checked": "2026-10-14"
+    },
+    "psychology": {
+      "program": "BA Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.chapman.edu/academics/degrees-and-programs.aspx",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "BS Biological Sciences",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.chapman.edu/academics/degrees-and-programs.aspx",
+      "checked": "2026-10-14"
+    },
+    "mathematics": {
+      "program": "BS Mathematics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.chapman.edu/academics/degrees-and-programs.aspx",
+      "checked": "2026-10-14"
+    },
+    "social-sciences": {
+      "program": "BA Political Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.chapman.edu/academics/degrees-and-programs.aspx",
+      "checked": "2026-10-14"
+    },
+    "humanities": {
+      "program": "BA History",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.chapman.edu/academics/degrees-and-programs.aspx",
+      "checked": "2026-10-14"
+    },
+    "arts": {
+      "program": "BFA Film and Television Production",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.chapman.edu/academics/degrees-and-programs.aspx",
+      "checked": "2026-10-14"
+    },
+    "medicine": {
+      "program": "BS Health Sciences",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.chapman.edu/academics/degrees-and-programs.aspx",
+      "checked": "2026-10-14"
+    },
+    "education": {
+      "program": "BA Integrated Educational Studies",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.chapman.edu/academics/degrees-and-programs.aspx",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -3630,6 +4129,10 @@ window.UNIPATH.universities.push(
     {
       "label": "William & Mary — history",
       "url": "https://www.wm.edu/about/history/index.php"
+    },
+    {
+      "label": "W&M — official list of undergraduate programmes",
+      "url": "https://www.wm.edu/academics/programs/index.php"
     }
   ],
   "verification": {
@@ -3641,7 +4144,8 @@ window.UNIPATH.universities.push(
       "published costs",
       "aid for international students",
       "founding year",
-      "required documents"
+      "required documents",
+      "list of majors"
     ],
     "unconfirmed": [
       "application fee",
@@ -3654,7 +4158,80 @@ window.UNIPATH.universities.push(
     "College of William and Mary",
     "College of William & Mary",
     "William and Mary"
-  ]
+  ],
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Business Administration",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.wm.edu/academics/programs/index.php",
+      "checked": "2026-10-14"
+    },
+    "economics": {
+      "program": "Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.wm.edu/academics/programs/index.php",
+      "checked": "2026-10-14"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.wm.edu/academics/programs/index.php",
+      "checked": "2026-10-14"
+    },
+    "psychology": {
+      "program": "Psychological Sciences",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.wm.edu/academics/programs/index.php",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Biology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.wm.edu/academics/programs/index.php",
+      "checked": "2026-10-14"
+    },
+    "mathematics": {
+      "program": "Mathematics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.wm.edu/academics/programs/index.php",
+      "checked": "2026-10-14"
+    },
+    "social-sciences": {
+      "program": "Government",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.wm.edu/academics/programs/index.php",
+      "checked": "2026-10-14"
+    },
+    "humanities": {
+      "program": "History",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.wm.edu/academics/programs/index.php",
+      "checked": "2026-10-14"
+    },
+    "arts": {
+      "program": "Art & Art History",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.wm.edu/academics/programs/index.php",
+      "checked": "2026-10-14"
+    },
+    "education": {
+      "program": "Elementary Education",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.wm.edu/academics/programs/index.php",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -4247,6 +4824,10 @@ window.UNIPATH.universities.push(
     {
       "label": "DePauw — financial aid",
       "url": "https://www.depauw.edu/admission-aid/scholarships-aid/"
+    },
+    {
+      "label": "DePauw — official list of undergraduate programmes",
+      "url": "https://www.depauw.edu/academics/majors-and-minors/"
     }
   ],
   "verification": {
@@ -4257,7 +4838,8 @@ window.UNIPATH.universities.push(
       "English proficiency",
       "test policy",
       "published costs",
-      "merit scholarships"
+      "merit scholarships",
+      "list of majors"
     ],
     "unconfirmed": [
       "which financial aid form international students file",
@@ -4267,7 +4849,73 @@ window.UNIPATH.universities.push(
       "admission statistics"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Business Administration",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.depauw.edu/academics/majors-and-minors/",
+      "checked": "2026-10-14"
+    },
+    "economics": {
+      "program": "Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.depauw.edu/academics/majors-and-minors/",
+      "checked": "2026-10-14"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.depauw.edu/academics/majors-and-minors/",
+      "checked": "2026-10-14"
+    },
+    "psychology": {
+      "program": "Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.depauw.edu/academics/majors-and-minors/",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Biology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.depauw.edu/academics/majors-and-minors/",
+      "checked": "2026-10-14"
+    },
+    "mathematics": {
+      "program": "Mathematics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.depauw.edu/academics/majors-and-minors/",
+      "checked": "2026-10-14"
+    },
+    "social-sciences": {
+      "program": "Political Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.depauw.edu/academics/majors-and-minors/",
+      "checked": "2026-10-14"
+    },
+    "humanities": {
+      "program": "History",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.depauw.edu/academics/majors-and-minors/",
+      "checked": "2026-10-14"
+    },
+    "arts": {
+      "program": "Studio Art",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.depauw.edu/academics/majors-and-minors/",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -4509,6 +5157,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Dillard — cost of attendance 2024–25",
       "url": "https://www.dillard.edu/admissions-aid/tuition-costs/"
+    },
+    {
+      "label": "Dillard — official list of undergraduate programmes",
+      "url": "https://www.dillard.edu/academic-programs/"
     }
   ],
   "verification": {
@@ -4517,7 +5169,8 @@ window.UNIPATH.universities.push(
       "application fee",
       "TOEFL minimum",
       "cost of attendance 2024–25",
-      "application rounds"
+      "application rounds",
+      "list of majors"
     ],
     "unconfirmed": [
       "aid for international students",
@@ -4527,7 +5180,66 @@ window.UNIPATH.universities.push(
       "test policy"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Business Administration",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.dillard.edu/programs/business-administration/",
+      "checked": "2026-10-12"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.dillard.edu/programs/computer-science/",
+      "checked": "2026-10-12"
+    },
+    "psychology": {
+      "program": "Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.dillard.edu/programs/psychology/",
+      "checked": "2026-10-12"
+    },
+    "biology": {
+      "program": "Biology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.dillard.edu/programs/biology/",
+      "checked": "2026-10-12"
+    },
+    "social-sciences": {
+      "program": "Political Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.dillard.edu/programs/political-science/",
+      "checked": "2026-10-12"
+    },
+    "humanities": {
+      "program": "English",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.dillard.edu/programs/english/",
+      "checked": "2026-10-12"
+    },
+    "arts": {
+      "program": "Theatre Arts",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.dillard.edu/programs/theatre-arts/",
+      "checked": "2026-10-12"
+    },
+    "medicine": {
+      "program": "Nursing",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.dillard.edu/programs/nursing/",
+      "checked": "2026-10-12"
+    }
+  }
 },
 
 {
@@ -4827,6 +5539,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Drew — costs read on 13 October 2026",
       "url": "https://drew.edu/admissions-and-aid/student-financial-services/student-accounts/tuition-and-fees-schedules/"
+    },
+    {
+      "label": "Drew — official list of undergraduate programmes",
+      "url": "https://drew.edu/programs-of-study/"
     }
   ],
   "verification": {
@@ -4837,7 +5553,8 @@ window.UNIPATH.universities.push(
       "merit scholarships",
       "aid for international students",
       "founding year",
-      "published costs"
+      "published costs",
+      "list of majors"
     ],
     "unconfirmed": [
       "application fee",
@@ -4846,7 +5563,73 @@ window.UNIPATH.universities.push(
       "admission statistics"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Business",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://drew.edu/academics/business/",
+      "checked": "2026-10-14"
+    },
+    "economics": {
+      "program": "Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://drew.edu/academics/economics/",
+      "checked": "2026-10-14"
+    },
+    "computer-science": {
+      "program": "Computer Science (BS)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://drew.edu/academics/computer-science/",
+      "checked": "2026-10-14"
+    },
+    "psychology": {
+      "program": "Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://drew.edu/academics/psychology/",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Biology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://drew.edu/academics/biology/",
+      "checked": "2026-10-14"
+    },
+    "mathematics": {
+      "program": "Mathematics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://drew.edu/academics/mathematics/",
+      "checked": "2026-10-14"
+    },
+    "social-sciences": {
+      "program": "Political Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://drew.edu/academics/political-science/",
+      "checked": "2026-10-14"
+    },
+    "humanities": {
+      "program": "History",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://drew.edu/academics/history/",
+      "checked": "2026-10-14"
+    },
+    "arts": {
+      "program": "Theatre Arts",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://drew.edu/academics/theatre-arts/",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -5122,6 +5905,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Eckerd — types of aid",
       "url": "https://www.eckerd.edu/admission/financial-aid/types/"
+    },
+    {
+      "label": "Eckerd — official list of undergraduate programmes",
+      "url": "https://www.eckerd.edu/academics/majors/"
     }
   ],
   "verification": {
@@ -5133,7 +5920,8 @@ window.UNIPATH.universities.push(
       "test policy",
       "published costs",
       "aid for international students",
-      "merit scholarships"
+      "merit scholarships",
+      "list of majors"
     ],
     "unconfirmed": [
       "health insurance terms",
@@ -5142,7 +5930,73 @@ window.UNIPATH.universities.push(
       "books, travel and personal costs for 2026–27"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Business Administration",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.eckerd.edu/management/business-administration/",
+      "checked": "2026-10-14"
+    },
+    "economics": {
+      "program": "Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.eckerd.edu/economics/",
+      "checked": "2026-10-14"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.eckerd.edu/computer-science/",
+      "checked": "2026-10-14"
+    },
+    "psychology": {
+      "program": "Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.eckerd.edu/psychology/",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Biology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.eckerd.edu/biology/",
+      "checked": "2026-10-14"
+    },
+    "mathematics": {
+      "program": "Mathematics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.eckerd.edu/mathematics/",
+      "checked": "2026-10-14"
+    },
+    "social-sciences": {
+      "program": "Political Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.eckerd.edu/political-science/",
+      "checked": "2026-10-14"
+    },
+    "humanities": {
+      "program": "History",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.eckerd.edu/history/",
+      "checked": "2026-10-14"
+    },
+    "arts": {
+      "program": "Art (Visual Arts)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.eckerd.edu/academics/majors/",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -6024,12 +6878,10 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "engineering",
-    "computer-science"
+    "engineering"
   ],
   "englishTaughtPrograms": [
-    "engineering",
-    "computer-science"
+    "engineering"
   ],
   "programNote": null,
   "links": {
@@ -6304,6 +7156,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Olin — scholarships",
       "url": "https://www.olin.edu/admission-financial-aid-afford/aid-scholarships"
+    },
+    {
+      "label": "Olin — official list of undergraduate programmes",
+      "url": "https://www.olin.edu/academics/majors-concentrations"
     }
   ],
   "verification": {
@@ -6315,7 +7171,8 @@ window.UNIPATH.universities.push(
       "published costs",
       "aid for international students",
       "merit scholarships",
-      "test policy"
+      "test policy",
+      "list of majors"
     ],
     "unconfirmed": [
       "health insurance terms",
@@ -6327,7 +7184,25 @@ window.UNIPATH.universities.push(
   "aliases": [
     "Olin College",
     "Olin College of Engineering"
-  ]
+  ],
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "engineering": {
+      "program": "Mechanical Engineering (ME)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.olin.edu/academics/majors-concentrations",
+      "checked": "2026-10-14"
+    }
+  },
+  "fieldNotes": {
+    "computer-science": {
+      "kind": "concentration",
+      "note": "Olin awards engineering degrees only. Computing is a concentration of the Engineering degree (“Engineering Computing (E:C)”), not a computer science major; Electrical and Computer Engineering is counted under engineering.",
+      "url": "https://www.olin.edu/academics/majors-concentrations",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -6352,25 +7227,25 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "engineering",
-    "computer-science",
     "business",
     "economics",
-    "mathematics",
-    "biology",
+    "computer-science",
+    "engineering",
     "psychology",
+    "biology",
+    "mathematics",
     "social-sciences",
     "humanities",
     "arts"
   ],
   "englishTaughtPrograms": [
-    "engineering",
-    "computer-science",
     "business",
     "economics",
-    "mathematics",
-    "biology",
+    "computer-science",
+    "engineering",
     "psychology",
+    "biology",
+    "mathematics",
     "social-sciences",
     "humanities",
     "arts"
@@ -6599,6 +7474,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Georgia Tech — financial aid for international students",
       "url": "https://finaid.gatech.edu/apply/international"
+    },
+    {
+      "label": "Georgia Tech — official list of undergraduate programmes",
+      "url": "https://www.gatech.edu/academics/all-degree-programs"
     }
   ],
   "verification": {
@@ -6608,7 +7487,8 @@ window.UNIPATH.universities.push(
       "application fee",
       "test policy",
       "published costs",
-      "aid for international students"
+      "aid for international students",
+      "list of majors"
     ],
     "unconfirmed": [
       "English test scores accepted by the University System of Georgia",
@@ -6622,7 +7502,80 @@ window.UNIPATH.universities.push(
   "aliases": [
     "Georgia Tech",
     "GT"
-  ]
+  ],
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Business Administration (BS)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.gatech.edu/academics/degrees/bachelors/business-administration-bs",
+      "checked": "2026-10-14"
+    },
+    "economics": {
+      "program": "Economics (BS)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.gatech.edu/academics/degrees/bachelors/economics-bs",
+      "checked": "2026-10-14"
+    },
+    "computer-science": {
+      "program": "Computer Science (BS)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.gatech.edu/academics/degrees/bachelors/computer-science-bs",
+      "checked": "2026-10-14"
+    },
+    "engineering": {
+      "program": "Aerospace Engineering (BS)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.gatech.edu/academics/degrees/bachelors/aerospace-engineering-bs",
+      "checked": "2026-10-14"
+    },
+    "psychology": {
+      "program": "Psychology (BS)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.gatech.edu/academics/degrees/bachelors/psychology-bs",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Biology (BS)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.gatech.edu/academics/degrees/bachelors/biology-bs",
+      "checked": "2026-10-14"
+    },
+    "mathematics": {
+      "program": "Mathematics (BS)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.gatech.edu/academics/degrees/bachelors/mathematics-bs",
+      "checked": "2026-10-14"
+    },
+    "social-sciences": {
+      "program": "International Affairs (BS)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.gatech.edu/academics/degrees/bachelors/international-affairs-bs",
+      "checked": "2026-10-14"
+    },
+    "humanities": {
+      "program": "Literature, Media, and Communication (BS)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.gatech.edu/academics/degrees/bachelors/literature-media-and-communication-bs",
+      "checked": "2026-10-14"
+    },
+    "arts": {
+      "program": "Music Technology (BS)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.gatech.edu/academics/degrees/bachelors/music-technology-bs",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -6655,8 +7608,8 @@ window.UNIPATH.universities.push(
     "social-sciences",
     "humanities",
     "arts",
-    "education",
-    "medicine"
+    "medicine",
+    "education"
   ],
   "englishTaughtPrograms": [
     "business",
@@ -6667,8 +7620,8 @@ window.UNIPATH.universities.push(
     "social-sciences",
     "humanities",
     "arts",
-    "education",
-    "medicine"
+    "medicine",
+    "education"
   ],
   "programNote": null,
   "links": {
@@ -6857,6 +7810,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Adelphi — tuition and fees 2026–2027",
       "url": "https://www.adelphi.edu/aid/tuition-costs/undergraduate/"
+    },
+    {
+      "label": "Adelphi — official list of undergraduate programmes",
+      "url": "https://www.adelphi.edu/programs/"
     }
   ],
   "verification": {
@@ -6866,7 +7823,8 @@ window.UNIPATH.universities.push(
       "application fee",
       "test policy",
       "tuition 2026–2027",
-      "merit scholarships"
+      "merit scholarships",
+      "list of majors"
     ],
     "unconfirmed": [
       "minimum English test scores",
@@ -6877,7 +7835,80 @@ window.UNIPATH.universities.push(
       "admission statistics"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Finance",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.adelphi.edu/program/undergraduate/finance/",
+      "checked": "2026-10-14"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.adelphi.edu/program/undergraduate/computer-science/",
+      "checked": "2026-10-14"
+    },
+    "psychology": {
+      "program": "Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.adelphi.edu/program/undergraduate/psychology-degree/",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Biology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.adelphi.edu/program/undergraduate/biology/",
+      "checked": "2026-10-14"
+    },
+    "mathematics": {
+      "program": "Mathematics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.adelphi.edu/program/undergraduate/mathematics/",
+      "checked": "2026-10-14"
+    },
+    "social-sciences": {
+      "program": "Political Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.adelphi.edu/program/undergraduate/political-science/",
+      "checked": "2026-10-14"
+    },
+    "humanities": {
+      "program": "History",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.adelphi.edu/program/undergraduate/history/",
+      "checked": "2026-10-14"
+    },
+    "arts": {
+      "program": "Dance",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.adelphi.edu/program/undergraduate/dance/",
+      "checked": "2026-10-14"
+    },
+    "medicine": {
+      "program": "Nursing",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.adelphi.edu/program/undergraduate/nursing-degree/",
+      "checked": "2026-10-14"
+    },
+    "education": {
+      "program": "Art & Design Education",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.adelphi.edu/program/undergraduate/art-design-education/",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -6902,16 +7933,16 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "engineering",
     "computer-science",
-    "mathematics",
-    "biology"
+    "engineering",
+    "biology",
+    "mathematics"
   ],
   "englishTaughtPrograms": [
-    "engineering",
     "computer-science",
-    "mathematics",
-    "biology"
+    "engineering",
+    "biology",
+    "mathematics"
   ],
   "programNote": null,
   "links": {
@@ -7182,6 +8213,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Harvey Mudd — SAT/ACT policy, read on 13 October 2026",
       "url": "https://www.hmc.edu/admission/apply/"
+    },
+    {
+      "label": "Harvey Mudd — official list of undergraduate programmes",
+      "url": "https://www.hmc.edu/academics/majors/"
     }
   ],
   "verification": {
@@ -7192,7 +8227,8 @@ window.UNIPATH.universities.push(
       "published costs",
       "aid for international students",
       "Early Decision deadlines",
-      "test policy"
+      "test policy",
+      "list of majors"
     ],
     "unconfirmed": [
       "Regular Decision deadline",
@@ -7205,7 +8241,38 @@ window.UNIPATH.universities.push(
   "lastVerified": "2026-10-12",
   "aliases": [
     "HMC"
-  ]
+  ],
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "computer-science": {
+      "program": "Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.hmc.edu/cs/",
+      "checked": "2026-10-14"
+    },
+    "engineering": {
+      "program": "Engineering",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.hmc.edu/engineering/",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Biology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.hmc.edu/biology/",
+      "checked": "2026-10-14"
+    },
+    "mathematics": {
+      "program": "Mathematics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.hmc.edu/mathematics/",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -7481,6 +8548,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Hendrix — scholarships",
       "url": "https://www.hendrix.edu/financialaid/scholarships/"
+    },
+    {
+      "label": "Hendrix — official list of undergraduate programmes",
+      "url": "https://via.hendrix.edu/academics/departments-and-majors/"
     }
   ],
   "verification": {
@@ -7490,7 +8561,8 @@ window.UNIPATH.universities.push(
       "English proficiency",
       "published costs",
       "founding year",
-      "test policy"
+      "test policy",
+      "list of majors"
     ],
     "unconfirmed": [
       "application fee",
@@ -7500,7 +8572,73 @@ window.UNIPATH.universities.push(
       "admission statistics"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Business",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://via.hendrix.edu/academics/departments-and-majors/business/",
+      "checked": "2026-10-14"
+    },
+    "economics": {
+      "program": "Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://via.hendrix.edu/academics/departments-and-majors/economics/",
+      "checked": "2026-10-14"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://via.hendrix.edu/academics/departments-and-majors/computer-science/",
+      "checked": "2026-10-14"
+    },
+    "psychology": {
+      "program": "Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://via.hendrix.edu/academics/departments-and-majors/psychology/",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Biology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://via.hendrix.edu/academics/departments-and-majors/biology/",
+      "checked": "2026-10-14"
+    },
+    "mathematics": {
+      "program": "Mathematics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://via.hendrix.edu/academics/departments-and-majors/mathematics/",
+      "checked": "2026-10-14"
+    },
+    "social-sciences": {
+      "program": "Politics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://via.hendrix.edu/academics/departments-and-majors/politics/",
+      "checked": "2026-10-14"
+    },
+    "humanities": {
+      "program": "History",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://via.hendrix.edu/academics/departments-and-majors/history/",
+      "checked": "2026-10-14"
+    },
+    "arts": {
+      "program": "Art: Studio Art",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://via.hendrix.edu/academics/departments-and-majors/studio-art/",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -8147,7 +9285,8 @@ window.UNIPATH.universities.push(
       "English proficiency",
       "test policy",
       "published costs",
-      "aid for international students"
+      "aid for international students",
+      "list of majors"
     ],
     "unconfirmed": [
       "amounts of merit awards",
@@ -8157,7 +9296,94 @@ window.UNIPATH.universities.push(
       "TOEFL score on the 1–6 scale"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Accounting (B.B.A.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://business.howard.edu/undergraduate/accounting",
+      "checked": "2026-10-14"
+    },
+    "economics": {
+      "program": "Economics (B.A.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://economics.howard.edu/",
+      "checked": "2026-10-14"
+    },
+    "computer-science": {
+      "program": "Computer Science (B.S.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://cea.howard.edu/academics/departments/electrical-engineering-and-computer-science/undergraduate/bscs",
+      "checked": "2026-10-14"
+    },
+    "engineering": {
+      "program": "Mechanical Engineering (B.S.Mech.Eng.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://cea.howard.edu/academics/departments/mechanical-engineering/bsme",
+      "checked": "2026-10-14"
+    },
+    "psychology": {
+      "program": "Psychology (B.S.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://psychology.howard.edu/",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Biology (B.S.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://biology.howard.edu/",
+      "checked": "2026-10-14"
+    },
+    "mathematics": {
+      "program": "Mathematics (B.S.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://mathematics.howard.edu/",
+      "checked": "2026-10-14"
+    },
+    "social-sciences": {
+      "program": "Political Science (B.A.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://politicalscience.howard.edu/",
+      "checked": "2026-10-14"
+    },
+    "humanities": {
+      "program": "History (B.A.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://history.howard.edu/academics/undergraduate-programs",
+      "checked": "2026-10-14"
+    },
+    "arts": {
+      "program": "Art (B.F.A.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://art.howard.edu/academics/undergraduate-programs",
+      "checked": "2026-10-14"
+    },
+    "medicine": {
+      "program": "Nursing (BSN)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://cnahs.howard.edu/programs/nursing",
+      "checked": "2026-10-14"
+    },
+    "education": {
+      "program": "Elementary Education (B.S.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://education.howard.edu/academics/department-curriculum-instruction/bs-elementary-education",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -8182,26 +9408,24 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "engineering",
-    "computer-science",
     "business",
-    "economics",
+    "computer-science",
+    "engineering",
     "psychology",
     "biology",
     "mathematics",
     "arts"
   ],
   "englishTaughtPrograms": [
-    "engineering",
-    "computer-science",
     "business",
-    "economics",
+    "computer-science",
+    "engineering",
     "psychology",
     "biology",
     "mathematics",
     "arts"
   ],
-  "programNote": "Law is not listed as a field: the law programmes on the list are J.D. and LL.M. degrees of Chicago-Kent College of Law.",
+  "programNote": "Law is not listed as a field: the law programmes on the list are J.D. and LL.M. degrees of Chicago-Kent College of Law. Architecture (B.ARCH.) is counted under arts and design.",
   "links": {
     "website": "https://www.iit.edu/",
     "admissions": "https://www.iit.edu/admissions-aid/undergraduate-admission/first-year-students",
@@ -8450,6 +9674,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Illinois Tech — scholarships for international students",
       "url": "https://www.iit.edu/admissions-aid/tuition-and-aid/scholarships/international-undergraduate-student-scholarships"
+    },
+    {
+      "label": "Illinois Tech — official list of undergraduate programmes",
+      "url": "https://www.iit.edu/academics/programs"
     }
   ],
   "verification": {
@@ -8460,7 +9688,8 @@ window.UNIPATH.universities.push(
       "English proficiency",
       "test policy",
       "published costs",
-      "merit scholarships"
+      "merit scholarships",
+      "list of majors"
     ],
     "unconfirmed": [
       "health insurance terms",
@@ -8474,7 +9703,67 @@ window.UNIPATH.universities.push(
   "aliases": [
     "Illinois Tech",
     "IIT"
-  ]
+  ],
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Business Administration (B.S.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.iit.edu/academics/programs/business-administration-bs",
+      "checked": "2026-10-14"
+    },
+    "computer-science": {
+      "program": "Computer Science (B.S.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.iit.edu/academics/programs/computer-science-bs",
+      "checked": "2026-10-14"
+    },
+    "engineering": {
+      "program": "Mechanical Engineering (B.S.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.iit.edu/academics/programs/mechanical-engineering-bs",
+      "checked": "2026-10-14"
+    },
+    "psychology": {
+      "program": "Psychology (B.S.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.iit.edu/academics/programs/psychology-bs",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Biology (B.S.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.iit.edu/academics/programs/biology-bs",
+      "checked": "2026-10-14"
+    },
+    "mathematics": {
+      "program": "Applied Mathematics (B.S.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.iit.edu/academics/programs/applied-mathematics-bs",
+      "checked": "2026-10-14"
+    },
+    "arts": {
+      "program": "Architecture (B.ARCH.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.iit.edu/academics/programs/architecture-barch",
+      "checked": "2026-10-14"
+    }
+  },
+  "fieldNotes": {
+    "economics": {
+      "kind": "minor",
+      "note": "Economics appears on Illinois Tech’s list only as a minor.",
+      "url": "https://www.iit.edu/academics/programs",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -8503,16 +9792,22 @@ window.UNIPATH.universities.push(
     "economics",
     "computer-science",
     "psychology",
-    "social-sciences"
+    "biology",
+    "social-sciences",
+    "humanities",
+    "arts"
   ],
   "englishTaughtPrograms": [
     "business",
     "economics",
     "computer-science",
     "psychology",
-    "social-sciences"
+    "biology",
+    "social-sciences",
+    "humanities",
+    "arts"
   ],
-  "programNote": "Only the fields named on the pages read are listed here; Goucher’s full list of majors was not read.",
+  "programNote": null,
   "links": {
     "website": "https://www.goucher.edu/",
     "admissions": "https://www.goucher.edu/become/apply/",
@@ -8717,6 +10012,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Goucher — costs read on 13 October 2026",
       "url": "https://www.goucher.edu/billing/tuition-and-fees"
+    },
+    {
+      "label": "Goucher — official list of undergraduate programmes",
+      "url": "https://www.goucher.edu/learn/undergraduate-programs/"
     }
   ],
   "verification": {
@@ -8727,19 +10026,77 @@ window.UNIPATH.universities.push(
       "English proficiency",
       "test policy",
       "required documents",
-      "published costs"
+      "published costs",
+      "list of majors"
     ],
     "unconfirmed": [
       "tuition and fees — the page read describes the charges without amounts",
       "aid for international students",
       "amounts of merit awards",
       "founding year",
-      "admission statistics",
-      "list of majors"
+      "admission statistics"
     ]
   },
   "lastVerified": "2026-10-12",
-  "programsStatus": "partial"
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Business Management",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.goucher.edu/learn/undergraduate-programs/business-management/index.html",
+      "checked": "2026-10-14"
+    },
+    "economics": {
+      "program": "Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.goucher.edu/learn/undergraduate-programs/economics/index.html",
+      "checked": "2026-10-14"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.goucher.edu/learn/undergraduate-programs/computer-science/index.html",
+      "checked": "2026-10-14"
+    },
+    "psychology": {
+      "program": "Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.goucher.edu/learn/undergraduate-programs/psychology/index.html",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Biological Sciences",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.goucher.edu/learn/undergraduate-programs/biological-sciences/index.html",
+      "checked": "2026-10-14"
+    },
+    "social-sciences": {
+      "program": "Political Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.goucher.edu/learn/undergraduate-programs/political-science/index.html",
+      "checked": "2026-10-14"
+    },
+    "humanities": {
+      "program": "History",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.goucher.edu/learn/undergraduate-programs/history/index.html",
+      "checked": "2026-10-14"
+    },
+    "arts": {
+      "program": "Dance",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.goucher.edu/learn/undergraduate-programs/dance/index.html",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -10315,6 +11672,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Loyola Maryland — scholarships",
       "url": "https://www.loyola.edu/department/financial-aid/undergraduate/programs/scholarships.html"
+    },
+    {
+      "label": "Loyola Maryland — official list of undergraduate programmes",
+      "url": "https://www.loyola.edu/academics/programs/"
     }
   ],
   "verification": {
@@ -10326,7 +11687,8 @@ window.UNIPATH.universities.push(
       "test policy",
       "published costs",
       "aid for international students",
-      "merit scholarships"
+      "merit scholarships",
+      "list of majors"
     ],
     "unconfirmed": [
       "cost of the food plan as a separate figure",
@@ -10336,7 +11698,87 @@ window.UNIPATH.universities.push(
       "admission statistics"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Accounting, BBA",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.loyola.edu/sellinger-business/academics/undergraduate/accounting.html",
+      "checked": "2026-10-14"
+    },
+    "economics": {
+      "program": "Economics, BA",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.loyola.edu/sellinger-business/academics/undergraduate/economics.html",
+      "checked": "2026-10-14"
+    },
+    "computer-science": {
+      "program": "Computer Science, BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.loyola.edu/academics/computer-science/degrees/major-minor-requirements/bs-degree.html",
+      "checked": "2026-10-14"
+    },
+    "engineering": {
+      "program": "Engineering, BSE",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.loyola.edu/academics/engineering/index.html",
+      "checked": "2026-10-14"
+    },
+    "psychology": {
+      "program": "Psychology, BA",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.loyola.edu/academics/psychology/degrees/undergraduate/index.html",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Biology, BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.loyola.edu/academics/biology/curriculum/major/index.html",
+      "checked": "2026-10-14"
+    },
+    "mathematics": {
+      "program": "Mathematics, BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.loyola.edu/academics/mathematics-statistics/mathematics/math-major.html",
+      "checked": "2026-10-14"
+    },
+    "social-sciences": {
+      "program": "Political Science, BA",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.loyola.edu/academics/political-science/curriculum/major-minor.html",
+      "checked": "2026-10-14"
+    },
+    "humanities": {
+      "program": "Classics, BA",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.loyola.edu/academics/classics/curriculum/major.html",
+      "checked": "2026-10-14"
+    },
+    "arts": {
+      "program": "Visual Arts, Art History Concentration, BA",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.loyola.edu/academics/visual-performing-arts/art-history/index.html",
+      "checked": "2026-10-14"
+    },
+    "education": {
+      "program": "Elementary Education, BA",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.loyola.edu/school-education/academics/undergraduate/elementary-major.html",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -10633,6 +12075,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Marist — estimated cost of attendance 2026–27, first-year students",
       "url": "https://www.marist.edu/financial-aid/freshman/tuition-and-fees/expenses-cost-of-attendance"
+    },
+    {
+      "label": "Marist — official list of undergraduate programmes",
+      "url": "https://www.marist.edu/academics/programs/complete-list"
     }
   ],
   "verification": {
@@ -10641,7 +12087,8 @@ window.UNIPATH.universities.push(
       "application rounds",
       "test policy",
       "merit scholarships",
-      "published costs"
+      "published costs",
+      "list of majors"
     ],
     "unconfirmed": [
       "application fee",
@@ -10655,7 +12102,73 @@ window.UNIPATH.universities.push(
   "lastVerified": "2026-10-12",
   "aliases": [
     "Marist College"
-  ]
+  ],
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Business Administration",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.marist.edu/business-administration",
+      "checked": "2026-10-14"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.marist.edu/computer-science",
+      "checked": "2026-10-14"
+    },
+    "psychology": {
+      "program": "Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.marist.edu/psychology",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Biology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.marist.edu/biology",
+      "checked": "2026-10-14"
+    },
+    "mathematics": {
+      "program": "Mathematics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.marist.edu/mathematics",
+      "checked": "2026-10-14"
+    },
+    "social-sciences": {
+      "program": "Political Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.marist.edu/political-science",
+      "checked": "2026-10-14"
+    },
+    "humanities": {
+      "program": "History",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.marist.edu/history",
+      "checked": "2026-10-14"
+    },
+    "arts": {
+      "program": "Studio Art",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.marist.edu/studio-art",
+      "checked": "2026-10-14"
+    },
+    "education": {
+      "program": "Education (Childhood/Special Education)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.marist.edu/education",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -10985,6 +12498,10 @@ window.UNIPATH.universities.push(
     {
       "label": "McDaniel — costs read on 13 October 2026",
       "url": "https://www.mcdaniel.edu/admissions-cost/cost-financial-aid/undergraduate-tuition-fees"
+    },
+    {
+      "label": "McDaniel — official list of undergraduate programmes",
+      "url": "https://www.mcdaniel.edu/academics/programs-degrees"
     }
   ],
   "verification": {
@@ -10995,7 +12512,8 @@ window.UNIPATH.universities.push(
       "English proficiency",
       "test policy",
       "merit scholarships",
-      "published costs"
+      "published costs",
+      "list of majors"
     ],
     "unconfirmed": [
       "tuition and fees",
@@ -11004,7 +12522,87 @@ window.UNIPATH.universities.push(
       "admission statistics"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Business Administration (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mcdaniel.edu/academics/departments/economics-business-administration/business-administration",
+      "checked": "2026-10-14"
+    },
+    "economics": {
+      "program": "Economics (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mcdaniel.edu/academics/departments/economics-business-administration/economics",
+      "checked": "2026-10-14"
+    },
+    "computer-science": {
+      "program": "Computer Science (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mcdaniel.edu/academics/departments/computer-science-department/computer-science",
+      "checked": "2026-10-14"
+    },
+    "psychology": {
+      "program": "Psychology (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mcdaniel.edu/academics/departments/psychology-department/psychology",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Biology (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mcdaniel.edu/academics/departments/biology/biology",
+      "checked": "2026-10-14"
+    },
+    "mathematics": {
+      "program": "Mathematics (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mcdaniel.edu/academics/departments/mathematics-computer-science/mathematics",
+      "checked": "2026-10-14"
+    },
+    "social-sciences": {
+      "program": "Political Science (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mcdaniel.edu/academics/departments/political-science/political-science",
+      "checked": "2026-10-14"
+    },
+    "humanities": {
+      "program": "History (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mcdaniel.edu/academics/departments/history-art-history/history",
+      "checked": "2026-10-14"
+    },
+    "arts": {
+      "program": "Art (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mcdaniel.edu/academics/departments/art-department/art",
+      "checked": "2026-10-14"
+    },
+    "medicine": {
+      "program": "Nursing — Bachelor of Science (B.S.N.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mcdaniel.edu/academics/departments/nursing-department/nursing-bachelor-science-bsn",
+      "checked": "2026-10-14"
+    },
+    "education": {
+      "program": "Early Childhood Education (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mcdaniel.edu/academics/departments/education/early-childhood-education",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -11302,7 +12900,8 @@ window.UNIPATH.universities.push(
       "test policy",
       "required documents",
       "founding year",
-      "published costs"
+      "published costs",
+      "list of majors"
     ],
     "unconfirmed": [
       "application fee",
@@ -11313,7 +12912,80 @@ window.UNIPATH.universities.push(
       "admission statistics"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Business Administration",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://morehouse.edu/academics/majors-minors",
+      "checked": "2026-10-14"
+    },
+    "economics": {
+      "program": "Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://morehouse.edu/academics/majors-minors",
+      "checked": "2026-10-14"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://morehouse.edu/academics/majors-minors",
+      "checked": "2026-10-14"
+    },
+    "psychology": {
+      "program": "Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://morehouse.edu/academics/majors-minors",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Biology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://morehouse.edu/academics/majors-minors",
+      "checked": "2026-10-14"
+    },
+    "mathematics": {
+      "program": "Mathematics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://morehouse.edu/academics/majors-minors",
+      "checked": "2026-10-14"
+    },
+    "social-sciences": {
+      "program": "Political Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://morehouse.edu/academics/majors-minors",
+      "checked": "2026-10-14"
+    },
+    "humanities": {
+      "program": "History",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://morehouse.edu/academics/majors-minors",
+      "checked": "2026-10-14"
+    },
+    "arts": {
+      "program": "Music",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://morehouse.edu/academics/majors-minors",
+      "checked": "2026-10-14"
+    },
+    "education": {
+      "program": "Education Studies",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://morehouse.edu/academics/majors-minors",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -11690,7 +13362,6 @@ window.UNIPATH.universities.push(
     "social-sciences",
     "humanities",
     "arts",
-    "law",
     "education"
   ],
   "englishTaughtPrograms": [
@@ -11704,7 +13375,6 @@ window.UNIPATH.universities.push(
     "social-sciences",
     "humanities",
     "arts",
-    "law",
     "education"
   ],
   "programNote": null,
@@ -11926,7 +13596,8 @@ window.UNIPATH.universities.push(
       "application rounds",
       "application fee",
       "test policy",
-      "billed costs and the international scholarship"
+      "billed costs and the international scholarship",
+      "list of majors"
     ],
     "unconfirmed": [
       "minimum English test scores",
@@ -11940,7 +13611,95 @@ window.UNIPATH.universities.push(
   "lastVerified": "2026-10-12",
   "aliases": [
     "OWU"
-  ]
+  ],
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Business Administration (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.owu.edu/academics/majors-minors/",
+      "checked": "2026-10-14"
+    },
+    "economics": {
+      "program": "Economics (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.owu.edu/academics/majors-minors/",
+      "checked": "2026-10-14"
+    },
+    "computer-science": {
+      "program": "Computer Science (General and 3-2 Engineering Program) (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.owu.edu/academics/majors-minors/",
+      "checked": "2026-10-14"
+    },
+    "engineering": {
+      "program": "Mechanical Engineering (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.owu.edu/academics/majors-minors/",
+      "checked": "2026-10-14"
+    },
+    "psychology": {
+      "program": "Psychology (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.owu.edu/academics/majors-minors/",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Biology (B.A. or B.S.) (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.owu.edu/academics/majors-minors/",
+      "checked": "2026-10-14"
+    },
+    "mathematics": {
+      "program": "Mathematics (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.owu.edu/academics/majors-minors/",
+      "checked": "2026-10-14"
+    },
+    "social-sciences": {
+      "program": "Politics & Government (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.owu.edu/academics/majors-minors/",
+      "checked": "2026-10-14"
+    },
+    "humanities": {
+      "program": "History (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.owu.edu/academics/majors-minors/",
+      "checked": "2026-10-14"
+    },
+    "arts": {
+      "program": "Music (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.owu.edu/academics/majors-minors/",
+      "checked": "2026-10-14"
+    },
+    "education": {
+      "program": "Education: Elementary Education (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.owu.edu/academics/majors-minors/",
+      "checked": "2026-10-14"
+    }
+  },
+  "fieldNotes": {
+    "law": {
+      "kind": "not-listed",
+      "note": "The list names a “Pre-Law” programme; pre-law is preparation for law school, not a law degree, so law is not counted as a field.",
+      "url": "https://www.owu.edu/academics/majors-minors/",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -12270,17 +14029,17 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "engineering",
-    "computer-science",
     "business",
+    "computer-science",
+    "engineering",
     "biology",
     "mathematics",
     "arts"
   ],
   "englishTaughtPrograms": [
-    "engineering",
-    "computer-science",
     "business",
+    "computer-science",
+    "engineering",
     "biology",
     "mathematics",
     "arts"
@@ -12559,7 +14318,8 @@ window.UNIPATH.universities.push(
       "published costs",
       "aid for international students",
       "merit scholarships",
-      "test policy"
+      "test policy",
+      "list of majors"
     ],
     "unconfirmed": [
       "application fee",
@@ -12572,7 +14332,52 @@ window.UNIPATH.universities.push(
   "aliases": [
     "RPI",
     "Rensselaer"
-  ]
+  ],
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Business and Management",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://lally.rpi.edu/programs/undergraduate-programs/bs-business-and-management",
+      "checked": "2026-10-14"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://science.rpi.edu/computer-science",
+      "checked": "2026-10-14"
+    },
+    "engineering": {
+      "program": "Mechanical Engineering",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://mane.rpi.edu/programs/mechanical-engineering-b-s",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Biology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://science.rpi.edu/biology",
+      "checked": "2026-10-14"
+    },
+    "mathematics": {
+      "program": "Mathematics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://science.rpi.edu/mathematical-sciences",
+      "checked": "2026-10-14"
+    },
+    "arts": {
+      "program": "Music",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://hass.rpi.edu/arts/music",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -12598,7 +14403,6 @@ window.UNIPATH.universities.push(
   "languageOfInstruction": "English",
   "programs": [
     "economics",
-    "computer-science",
     "psychology",
     "biology",
     "social-sciences",
@@ -12607,7 +14411,6 @@ window.UNIPATH.universities.push(
   ],
   "englishTaughtPrograms": [
     "economics",
-    "computer-science",
     "psychology",
     "biology",
     "social-sciences",
@@ -12891,6 +14694,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Scripps — cost of attendance 2026–2027",
       "url": "https://www.scrippscollege.edu/financialaid/cost-of-attendance"
+    },
+    {
+      "label": "Scripps — official list of undergraduate programmes",
+      "url": "https://www.scrippscollege.edu/departments/"
     }
   ],
   "verification": {
@@ -12901,7 +14708,8 @@ window.UNIPATH.universities.push(
       "test policy",
       "published costs",
       "aid for international students",
-      "merit scholarships"
+      "merit scholarships",
+      "list of majors"
     ],
     "unconfirmed": [
       "minimum English test scores",
@@ -12911,7 +14719,60 @@ window.UNIPATH.universities.push(
       "admission statistics"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "economics": {
+      "program": "Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.scrippscollege.edu/departments/economics",
+      "checked": "2026-10-14"
+    },
+    "psychology": {
+      "program": "Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.scrippscollege.edu/departments/psychology",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Biology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.scrippscollege.edu/departments/biology",
+      "checked": "2026-10-14"
+    },
+    "social-sciences": {
+      "program": "Politics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.scrippscollege.edu/departments/politics",
+      "checked": "2026-10-14"
+    },
+    "humanities": {
+      "program": "History",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.scrippscollege.edu/departments/",
+      "checked": "2026-10-14"
+    },
+    "arts": {
+      "program": "Art History",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.scrippscollege.edu/departments/art-history",
+      "checked": "2026-10-14"
+    }
+  },
+  "fieldNotes": {
+    "computer-science": {
+      "kind": "minor",
+      "note": "Scripps lists Computer Science as a minor only; a computer science major is taken at Harvey Mudd or Pomona College through the Claremont Colleges.",
+      "url": "https://www.scrippscollege.edu/departments/",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -13486,6 +15347,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Sweet Briar — financial aid for international students",
       "url": "https://sbc.edu/financial-aid/international-students/"
+    },
+    {
+      "label": "Sweet Briar — official list of undergraduate programmes",
+      "url": "https://www.sbc.edu/academics/majors-minors/"
     }
   ],
   "verification": {
@@ -13495,7 +15360,8 @@ window.UNIPATH.universities.push(
       "application fee",
       "English proficiency",
       "test policy",
-      "published costs"
+      "published costs",
+      "list of majors"
     ],
     "unconfirmed": [
       "amounts of merit awards",
@@ -13504,7 +15370,73 @@ window.UNIPATH.universities.push(
       "admission statistics"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Business (B.A.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sbc.edu/academics/majors-minors/",
+      "checked": "2026-10-14"
+    },
+    "economics": {
+      "program": "Economics (B.A.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sbc.edu/academics/majors-minors/",
+      "checked": "2026-10-14"
+    },
+    "engineering": {
+      "program": "Engineering Science (B.S.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sbc.edu/academics/majors-minors/",
+      "checked": "2026-10-14"
+    },
+    "psychology": {
+      "program": "Psychology (B.A.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sbc.edu/academics/majors-minors/",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Biology (B.S.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sbc.edu/academics/majors-minors/",
+      "checked": "2026-10-14"
+    },
+    "mathematics": {
+      "program": "Mathematics (B.A.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sbc.edu/academics/majors-minors/",
+      "checked": "2026-10-14"
+    },
+    "humanities": {
+      "program": "History (B.A.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sbc.edu/academics/majors-minors/",
+      "checked": "2026-10-14"
+    },
+    "arts": {
+      "program": "Studio Art (B.A.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sbc.edu/academics/majors-minors/",
+      "checked": "2026-10-14"
+    },
+    "education": {
+      "program": "Elementary Education and Teaching (B.A.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sbc.edu/academics/majors-minors/",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -14432,6 +16364,10 @@ window.UNIPATH.universities.push(
     {
       "label": "W&J — scholarships",
       "url": "https://www.washjeff.edu/future-students/scholarships/"
+    },
+    {
+      "label": "W&J — official list of undergraduate programmes",
+      "url": "https://www.washjeff.edu/academics/majors-and-minors/"
     }
   ],
   "verification": {
@@ -14441,7 +16377,8 @@ window.UNIPATH.universities.push(
       "published costs",
       "aid for international students",
       "typical English test scores",
-      "test policy"
+      "test policy",
+      "list of majors"
     ],
     "unconfirmed": [
       "application fee",
@@ -14456,7 +16393,73 @@ window.UNIPATH.universities.push(
     "W&J",
     "Washington and Jefferson College",
     "Wash Jeff"
-  ]
+  ],
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Business Administration",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.washjeff.edu/academics/majors-and-minors/",
+      "checked": "2026-10-14"
+    },
+    "economics": {
+      "program": "Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.washjeff.edu/academics/majors-and-minors/",
+      "checked": "2026-10-14"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.washjeff.edu/academics/majors-and-minors/",
+      "checked": "2026-10-14"
+    },
+    "psychology": {
+      "program": "Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.washjeff.edu/academics/majors-and-minors/",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Biology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.washjeff.edu/academics/majors-and-minors/",
+      "checked": "2026-10-14"
+    },
+    "social-sciences": {
+      "program": "Political Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.washjeff.edu/academics/majors-and-minors/",
+      "checked": "2026-10-14"
+    },
+    "humanities": {
+      "program": "History",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.washjeff.edu/academics/majors-and-minors/",
+      "checked": "2026-10-14"
+    },
+    "arts": {
+      "program": "Art – Studio Art",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.washjeff.edu/academics/majors-and-minors/",
+      "checked": "2026-10-14"
+    },
+    "education": {
+      "program": "Child Development and Education",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.washjeff.edu/academics/majors-and-minors/",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -14797,18 +16800,18 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "engineering",
-    "computer-science",
     "business",
+    "computer-science",
+    "engineering",
     "biology",
     "mathematics",
     "humanities",
     "arts"
   ],
   "englishTaughtPrograms": [
-    "engineering",
-    "computer-science",
     "business",
+    "computer-science",
+    "engineering",
     "biology",
     "mathematics",
     "humanities",
@@ -15124,7 +17127,8 @@ window.UNIPATH.universities.push(
       "test policy",
       "aid for international students",
       "published costs",
-      "application rounds"
+      "application rounds",
+      "list of majors"
     ],
     "unconfirmed": [
       "tuition and fees",
@@ -15137,7 +17141,59 @@ window.UNIPATH.universities.push(
   "lastVerified": "2026-10-12",
   "aliases": [
     "WPI"
-  ]
+  ],
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Business",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.wpi.edu/academics/study",
+      "checked": "2026-10-14"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.wpi.edu/academics/study",
+      "checked": "2026-10-14"
+    },
+    "engineering": {
+      "program": "Mechanical Engineering",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.wpi.edu/academics/study",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Biology & Biotechnology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.wpi.edu/academics/study",
+      "checked": "2026-10-14"
+    },
+    "mathematics": {
+      "program": "Mathematical Sciences",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.wpi.edu/academics/study",
+      "checked": "2026-10-14"
+    },
+    "humanities": {
+      "program": "English",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.wpi.edu/academics/study",
+      "checked": "2026-10-14"
+    },
+    "arts": {
+      "program": "Music",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.wpi.edu/academics/study",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -16639,6 +18695,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Iowa State — admission requirements",
       "url": "https://www.iastate.edu/admission-and-aid/admissions/international-admissions/international-first-year-requirements"
+    },
+    {
+      "label": "Iowa State — official list of undergraduate programmes",
+      "url": "https://www.iastate.edu/academics/majors-minors-certificates"
     }
   ],
   "verification": {
@@ -16649,7 +18709,8 @@ window.UNIPATH.universities.push(
       "English proficiency",
       "test policy",
       "published costs",
-      "merit scholarships"
+      "merit scholarships",
+      "list of majors"
     ],
     "unconfirmed": [
       "cost of the required medical insurance plan",
@@ -16657,7 +18718,80 @@ window.UNIPATH.universities.push(
       "admission statistics"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Business Administration (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.iastate.edu/academics/majors-minors-certificates",
+      "checked": "2026-10-14"
+    },
+    "economics": {
+      "program": "Economics (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.iastate.edu/academics/majors-minors-certificates",
+      "checked": "2026-10-14"
+    },
+    "computer-science": {
+      "program": "Computer Science (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.iastate.edu/academics/majors-minors-certificates",
+      "checked": "2026-10-14"
+    },
+    "engineering": {
+      "program": "Aerospace Engineering (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.iastate.edu/academics/majors-minors-certificates",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Biology (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.iastate.edu/academics/majors-minors-certificates",
+      "checked": "2026-10-14"
+    },
+    "mathematics": {
+      "program": "Mathematics (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.iastate.edu/academics/majors-minors-certificates",
+      "checked": "2026-10-14"
+    },
+    "social-sciences": {
+      "program": "Political Science (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.iastate.edu/academics/majors-minors-certificates",
+      "checked": "2026-10-14"
+    },
+    "humanities": {
+      "program": "History (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.iastate.edu/academics/majors-minors-certificates",
+      "checked": "2026-10-14"
+    },
+    "arts": {
+      "program": "Art (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.iastate.edu/academics/majors-minors-certificates",
+      "checked": "2026-10-14"
+    },
+    "education": {
+      "program": "Elementary Education (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.iastate.edu/academics/majors-minors-certificates",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -18566,7 +20700,6 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "business",
     "economics",
     "psychology",
     "biology",
@@ -18577,7 +20710,6 @@ window.UNIPATH.universities.push(
     "education"
   ],
   "englishTaughtPrograms": [
-    "business",
     "economics",
     "psychology",
     "biology",
@@ -18817,6 +20949,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Spelman — cost of attendance 2026–2027",
       "url": "https://www.spelman.edu/financial-aid/cost-of-attendance.html"
+    },
+    {
+      "label": "Spelman — official list of undergraduate programmes",
+      "url": "https://www.spelman.edu/academics/majors-minors-and-programs.html"
     }
   ],
   "verification": {
@@ -18826,7 +20962,8 @@ window.UNIPATH.universities.push(
       "test policy",
       "published costs",
       "aid for international students",
-      "early deadlines"
+      "early deadlines",
+      "list of majors"
     ],
     "unconfirmed": [
       "Regular Decision deadline",
@@ -18836,7 +20973,74 @@ window.UNIPATH.universities.push(
       "admission statistics"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "economics": {
+      "program": "Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.spelman.edu/academics/economics/index.html",
+      "checked": "2026-10-14"
+    },
+    "psychology": {
+      "program": "Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.spelman.edu/academics/psychology/major.html",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Biology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.spelman.edu/academics/biology/index.html",
+      "checked": "2026-10-14"
+    },
+    "mathematics": {
+      "program": "Mathematics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.spelman.edu/academics/mathematics/mathematics-major.html",
+      "checked": "2026-10-14"
+    },
+    "social-sciences": {
+      "program": "Political Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.spelman.edu/academics/political-science/index.html",
+      "checked": "2026-10-14"
+    },
+    "humanities": {
+      "program": "History",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.spelman.edu/academics/history/history-major.html",
+      "checked": "2026-10-14"
+    },
+    "arts": {
+      "program": "Theatre and Performance",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.spelman.edu/academics/theatre-and-performance/theater-and-performance-major.html",
+      "checked": "2026-10-14"
+    },
+    "education": {
+      "program": "Elementary Education",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.spelman.edu/academics/elementary-education/index.html",
+      "checked": "2026-10-14"
+    }
+  },
+  "fieldNotes": {
+    "business": {
+      "kind": "minor",
+      "note": "Management and Organization and Entrepreneurship and Innovation are listed under Spelman’s minors, not its majors.",
+      "url": "https://www.spelman.edu/academics/majors-minors-and-programs.html",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -19111,6 +21315,10 @@ window.UNIPATH.universities.push(
     {
       "label": "St. Lawrence — tuition and fees 2026–27",
       "url": "https://www.stlawu.edu/admissions/tuition-and-fees"
+    },
+    {
+      "label": "St. Lawrence — official list of undergraduate programmes",
+      "url": "https://www.stlawu.edu/majors-and-minors"
     }
   ],
   "verification": {
@@ -19120,7 +21328,8 @@ window.UNIPATH.universities.push(
       "published costs",
       "aid for international students",
       "merit scholarships",
-      "test policy"
+      "test policy",
+      "list of majors"
     ],
     "unconfirmed": [
       "application fee",
@@ -19130,7 +21339,73 @@ window.UNIPATH.universities.push(
       "admission statistics"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Business in the Liberal Arts (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.stlawu.edu/majors-and-minors",
+      "checked": "2026-10-14"
+    },
+    "economics": {
+      "program": "Economics (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.stlawu.edu/majors-and-minors",
+      "checked": "2026-10-14"
+    },
+    "computer-science": {
+      "program": "Computer Science (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.stlawu.edu/majors-and-minors",
+      "checked": "2026-10-14"
+    },
+    "psychology": {
+      "program": "Psychology (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.stlawu.edu/majors-and-minors",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Biology (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.stlawu.edu/majors-and-minors",
+      "checked": "2026-10-14"
+    },
+    "mathematics": {
+      "program": "Mathematics (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.stlawu.edu/majors-and-minors",
+      "checked": "2026-10-14"
+    },
+    "social-sciences": {
+      "program": "Anthropology (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.stlawu.edu/majors-and-minors",
+      "checked": "2026-10-14"
+    },
+    "humanities": {
+      "program": "English (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.stlawu.edu/majors-and-minors",
+      "checked": "2026-10-14"
+    },
+    "arts": {
+      "program": "Art and Art History (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.stlawu.edu/majors-and-minors",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -19403,7 +21678,8 @@ window.UNIPATH.universities.push(
       "application rounds",
       "English proficiency",
       "test policy",
-      "published costs"
+      "published costs",
+      "list of majors"
     ],
     "unconfirmed": [
       "application fee",
@@ -19418,7 +21694,80 @@ window.UNIPATH.universities.push(
   "aliases": [
     "SUNY Stony Brook",
     "SBU"
-  ]
+  ],
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Business Management, BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.stonybrook.edu/undergraduate-admissions/programs/bus.php",
+      "checked": "2026-10-14"
+    },
+    "computer-science": {
+      "program": "Computer Science, BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.stonybrook.edu/undergraduate-admissions/programs/cse.php",
+      "checked": "2026-10-14"
+    },
+    "engineering": {
+      "program": "Mechanical Engineering, BE",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.stonybrook.edu/undergraduate-admissions/programs/mec.php",
+      "checked": "2026-10-14"
+    },
+    "psychology": {
+      "program": "Psychology, BA",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.stonybrook.edu/undergraduate-admissions/programs/psy.php",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Biology, BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.stonybrook.edu/undergraduate-admissions/programs/bio.php",
+      "checked": "2026-10-14"
+    },
+    "mathematics": {
+      "program": "Mathematics, BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.stonybrook.edu/undergraduate-admissions/programs/mat.php",
+      "checked": "2026-10-14"
+    },
+    "social-sciences": {
+      "program": "Political Science, BA",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.stonybrook.edu/undergraduate-admissions/programs/pol.php",
+      "checked": "2026-10-14"
+    },
+    "humanities": {
+      "program": "History, BA",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.stonybrook.edu/undergraduate-admissions/programs/his.php",
+      "checked": "2026-10-14"
+    },
+    "arts": {
+      "program": "Art, Studio, BA",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.stonybrook.edu/undergraduate-admissions/programs/ars.php",
+      "checked": "2026-10-14"
+    },
+    "medicine": {
+      "program": "Nursing, BS",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.stonybrook.edu/undergraduate-admissions/programs/hni.php",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -23205,6 +25554,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Wofford — billing, tuition and fees 2026–2027",
       "url": "https://www.wofford.edu/administration/business-office/billing-tuition-and-fees"
+    },
+    {
+      "label": "Wofford — official list of undergraduate programmes",
+      "url": "https://www.wofford.edu/academics/majors-and-programs"
     }
   ],
   "verification": {
@@ -23215,7 +25568,8 @@ window.UNIPATH.universities.push(
       "English proficiency",
       "test policy",
       "published costs",
-      "merit scholarships"
+      "merit scholarships",
+      "list of majors"
     ],
     "unconfirmed": [
       "aid for international students",
@@ -23224,7 +25578,73 @@ window.UNIPATH.universities.push(
       "admission statistics"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Business",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.wofford.edu/academics/majors-and-programs/accounting-business-and-finance",
+      "checked": "2026-10-14"
+    },
+    "economics": {
+      "program": "Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.wofford.edu/academics/majors-and-programs/economics",
+      "checked": "2026-10-14"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.wofford.edu/academics/majors-and-programs/computer-science",
+      "checked": "2026-10-14"
+    },
+    "psychology": {
+      "program": "Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.wofford.edu/academics/majors-and-programs/psychology",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Biology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.wofford.edu/academics/majors-and-programs/biology",
+      "checked": "2026-10-14"
+    },
+    "mathematics": {
+      "program": "Mathematics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.wofford.edu/academics/majors-and-programs/mathematics",
+      "checked": "2026-10-14"
+    },
+    "social-sciences": {
+      "program": "Government",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.wofford.edu/academics/majors-and-programs/government-and-international-affairs",
+      "checked": "2026-10-14"
+    },
+    "humanities": {
+      "program": "History",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.wofford.edu/academics/majors-and-programs/history",
+      "checked": "2026-10-14"
+    },
+    "arts": {
+      "program": "Studio Art",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.wofford.edu/academics/majors-and-programs/art-and-art-history",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -26573,7 +28993,80 @@ window.UNIPATH.universities.push(
       "admission statistics"
     ]
   },
-  "lastVerified": "2026-10-12"
+  "lastVerified": "2026-10-12",
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Business Management (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.rollins.edu/academics/majors-minors/",
+      "checked": "2026-10-14"
+    },
+    "economics": {
+      "program": "Economics (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.rollins.edu/academics/majors-minors/",
+      "checked": "2026-10-14"
+    },
+    "computer-science": {
+      "program": "Computer Science (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.rollins.edu/academics/majors-minors/",
+      "checked": "2026-10-14"
+    },
+    "psychology": {
+      "program": "Psychology (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.rollins.edu/academics/majors-minors/",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Biology (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.rollins.edu/academics/majors-minors/",
+      "checked": "2026-10-14"
+    },
+    "mathematics": {
+      "program": "Mathematics (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.rollins.edu/academics/majors-minors/",
+      "checked": "2026-10-14"
+    },
+    "social-sciences": {
+      "program": "Political Science (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.rollins.edu/academics/majors-minors/",
+      "checked": "2026-10-14"
+    },
+    "humanities": {
+      "program": "History (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.rollins.edu/academics/majors-minors/",
+      "checked": "2026-10-14"
+    },
+    "arts": {
+      "program": "Studio Art (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.rollins.edu/academics/majors-minors/",
+      "checked": "2026-10-14"
+    },
+    "education": {
+      "program": "Education (major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.rollins.edu/academics/majors-minors/",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
@@ -27664,15 +30157,29 @@ window.UNIPATH.universities.push(
   "languageOfInstruction": "English",
   "programs": [
     "business",
+    "economics",
+    "computer-science",
     "engineering",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
     "education"
   ],
   "englishTaughtPrograms": [
     "business",
+    "economics",
+    "computer-science",
     "engineering",
+    "biology",
+    "mathematics",
+    "social-sciences",
+    "humanities",
+    "arts",
     "education"
   ],
-  "programNote": "Fields are taken from the colleges named on the “Academics & Majors” page; the full list of majors was not read.",
+  "programNote": "From the “Find your Major” list on the university’s admissions site.",
   "links": {
     "website": "https://www.ou.edu/",
     "admissions": "https://www.ou.edu/admissions",
@@ -27968,7 +30475,8 @@ window.UNIPATH.universities.push(
       "English proficiency",
       "test policy",
       "published costs",
-      "merit scholarships"
+      "merit scholarships",
+      "list of majors"
     ],
     "unconfirmed": [
       "application fee for international applicants (the freshman page names $50 for domestic applicants only)",
@@ -27976,8 +30484,7 @@ window.UNIPATH.universities.push(
       "test-score thresholds of four of the five scholarships",
       "aid for international students",
       "founding year",
-      "admission statistics",
-      "full list of majors"
+      "admission statistics"
     ]
   },
   "lastVerified": "2026-10-12",
@@ -27985,7 +30492,79 @@ window.UNIPATH.universities.push(
     "OU",
     "Oklahoma University"
   ],
-  "programsStatus": "partial"
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Accounting",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ou.edu/admissions/academics/business/accounting.html",
+      "checked": "2026-10-14"
+    },
+    "economics": {
+      "program": "Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ou.edu/admissions/academics",
+      "checked": "2026-10-14"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ou.edu/admissions/academics",
+      "checked": "2026-10-14"
+    },
+    "engineering": {
+      "program": "Aerospace Engineering",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ou.edu/admissions/academics/engineering/aerospace.html",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Biology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ou.edu/admissions/academics",
+      "checked": "2026-10-14"
+    },
+    "mathematics": {
+      "program": "Mathematics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ou.edu/admissions/academics",
+      "checked": "2026-10-14"
+    },
+    "social-sciences": {
+      "program": "International Studies",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ou.edu/admissions/academics",
+      "checked": "2026-10-14"
+    },
+    "humanities": {
+      "program": "History",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ou.edu/admissions/academics",
+      "checked": "2026-10-14"
+    },
+    "arts": {
+      "program": "Music",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ou.edu/admissions/academics",
+      "checked": "2026-10-14"
+    },
+    "education": {
+      "program": "Elementary Education",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ou.edu/admissions/academics/education/elementary.html",
+      "checked": "2026-10-14"
+    }
+  }
 },
 
 {
