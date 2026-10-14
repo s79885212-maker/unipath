@@ -398,7 +398,9 @@ group('match');
   Object.keys(acAll).forEach(function (id) {
     var c = acAll[id], u = U.uniById(id); if (!u || c.label) return;
     var r = U.budgetRange(u), b = (u.costs || {}).breakdown || {};
-    if (c.basis === 'total' && !(r && r.min === c.min && r.max === c.max) && id !== 'kenyon-college') wrongTotal.push(id);
+    /* A two-semester sum stands for twice the published semester budget (rounded to the dollar). */
+    var twice = c.calc === 'two-semesters' && U.costPeriod(u) === 'semester' && r && Math.round(2 * r.min) === c.min && Math.round(2 * r.max) === c.max;
+    if (c.basis === 'total' && !twice && !(r && r.min === c.min && r.max === c.max) && id !== 'kenyon-college') wrongTotal.push(id);
     if (c.basis === 'billed' && c.min === c.max && typeof b.billed === 'number' && b.billed !== c.min) wrongBilled.push(id);
   });
   ok(!wrongTotal.length, 'a "full cost" in the match table is the full budget published in the profile', wrongTotal.join(', '));
@@ -522,8 +524,8 @@ group('corrections after the expansion');
   var rit = U.uniById('rochester-institute-of-technology'), az = U.uniById('university-of-arizona');
   ok(csOpt.test(rit, {}) && /Computer Science BS/.test(rit.programEvidence['computer-science'].program) && /^https:\/\/www\.rit\.edu\//.test(rit.programEvidence['computer-science'].url),
     'RIT is found under Computer Science, with the named programme and its official page');
-  ok(csOpt.test(az, {}) && U.programsPartial(az) && /cs\.arizona\.edu/.test(az.programEvidence['computer-science'].url),
-    'Arizona is found under Computer Science; its list is marked as only partly read');
+  ok(csOpt.test(az, {}) && !U.programsPartial(az) && /cs\.arizona\.edu/.test(az.programEvidence['computer-science'].url) && az.programs.length === 13,
+    'Arizona is found under Computer Science, and every field now names a programme from its full degree search');
   ok(U.applyFilters([rit], { field: ['computer-science'], language: ['english-yes'], degree: ['bachelor'] }).length === 1 &&
      U.applyFilters([rit], { field: ['law'] }).length === 0, 'field, language and degree filters work together for RIT; a field it does not have excludes it');
   var badEv = [];
@@ -549,8 +551,9 @@ group('corrections after the expansion');
   ok(md.status === 'unknown' && /earlier year/.test(md.text) && /2025–2026/.test(md.text) && dl.status === 'unknown' && /earlier year/.test(dl.text),
     'a figure of a previous cycle is shown as such and never compared with a budget (Maryland, Dillard)', md.text);
   ok(!DB.match.annualCost['university-of-maryland'] && !DB.match.annualCost['dillard-university'], 'previous-cycle figures are not in the match table');
-  var noFig = ['texas-a-and-m-university'].filter(function (id) { var u = U.uniById(id); return U.costStatus(u) !== 'not-checked' || !U.has(u.costs.note) || !U.has(u.costs.source); });
-  ok(!noFig.length, 'a record whose cost page prints no figures stays “not checked” and says why', noFig.join(', '));
+  var tm = bud('texas-a-and-m-university', 70000);
+  ok(U.costPeriod(U.uniById('texas-a-and-m-university')) === 'semester' && tm.status === 'fits' && /calculated by UniPath/.test(tm.text),
+    'Texas A&M: the calculator’s semester figures stay per semester; the two-semester sum is marked as calculated', tm.status + ' / ' + tm.text);
   var mar = U.uniById('marist-university'), xl = U.uniById('xavier-university-of-louisiana');
   ok(U.budgetAmount(mar) === 76875 && U.billedAmount(mar) === 72040 && bud('marist-university', 76875).status === 'fits', 'Marist: the 2026–27 cost of attendance and its billable part are as printed');
   var xb = bud('xavier-university-of-louisiana', 50000);
@@ -577,9 +580,10 @@ group('corrections after the expansion');
     return !(t.policy && t.source && t.verified) && !(U.has(t.note) && /Not checked|disagree|do not settle|Not confirmed/.test(t.note));
   }).map(function (u) { return u.id; });
   ok(!noReason.length, 'an SAT/ACT policy is either stated with its page and date, or left unknown with the reason', noReason.join(', '));
-  var bare26 = ['ursinus-college', 'anderson-university-indiana', 'cornell-college', 'the-new-school', 'savannah-college-of-art-and-design', 'american-university'].filter(function (id) {
+  var bare26 = ['ursinus-college', 'anderson-university-indiana', 'cornell-college', 'the-new-school', 'savannah-college-of-art-and-design'].filter(function (id) {
     var t = U.uniById(id).academics.sat; return t.policy || !/^Not checked:/.test(t.note) || !t.source; });
-  ok(!bare26.length, 'the six records whose test policy could not be read say “Not checked”, why, and where to look', bare26.join(', '));
+  ok(!bare26.length, 'the five records whose test policy could not be read say “Not checked”, why, and where to look', bare26.join(', '));
+  ok(U.uniById('american-university').academics.sat.policy === 'optional' && U.roundsOf(U.uniById('american-university')).length === 4, 'American: test policy and all four rounds read once the site opened');
   ok(U.uniById('lesley-university').academics.sat.policy === 'not-used' && U.uniById('rensselaer-polytechnic-institute').academics.sat.cycle === 'autumn 2027',
     'Lesley does not use test scores for admission; RPI’s test-optional policy names its cycle');
   /* Field tags that had come from a pre-law track, a dual-degree route or a graduate school (v114). */

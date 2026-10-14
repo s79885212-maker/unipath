@@ -1384,7 +1384,7 @@
           (has(aa.personal) ? '<br><span class="small"><strong><span>Paid by the student</span>:</strong> <span>' + esc(aa.personal) + '</span></span>' : '') +
           (has(aa.notStated) ? '<br><span class="small"><strong><span>Not stated</span>:</strong> <span>' + esc(aa.notStated) + '</span></span>' : '') +
           (has(aa.deposit) ? '<br><span class="small"><strong><span>One-off deposit</span>:</strong> <span>' + esc(aa.deposit) + '</span></span>' : '');
-        return U.budgetText(u) ? esc(U.budgetText(u)) : UNKNOWN;
+        return U.budgetText(u) ? esc(U.budgetText(u)) + (U.costPeriod(u) === 'semester' ? '<br><span class="small muted">One semester</span>' : '') : UNKNOWN;
       }],
       ['Required costs outside the published total', function (u) {
         var ex = U.costExtras(u), w = U.budgetWithExtras(u), cur = U.costCurrency(u);

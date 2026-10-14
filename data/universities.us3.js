@@ -19846,16 +19846,18 @@ window.UNIPATH.universities.push(
     "engineering",
     "mathematics",
     "humanities",
-    "education"
+    "education",
+    "law"
   ],
   "englishTaughtPrograms": [
     "business",
     "engineering",
     "mathematics",
     "humanities",
-    "education"
+    "education",
+    "law"
   ],
-  "programNote": "Only the fields named on the programmes page read are listed. Law is not listed as a field: no undergraduate major in law was found on the page read; the School of Law is a graduate school.",
+  "programNote": "Only the fields named on the programmes page read are listed. Law: the university’s tuition calculator lists the major “Society, Ethics, and Laws (SEAL)”; the School of Law itself is a graduate school.",
   "links": {
     "website": "https://www.tamu.edu/",
     "admissions": "https://admissions.tamu.edu/apply/freshman",
@@ -19969,16 +19971,59 @@ window.UNIPATH.universities.push(
     "internationalQualifications": null
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": "tuition and required fees, plus the university’s estimates for housing, food, books, travel, loan fees and personal expenses — for one semester",
+      "tuition": 19885.28,
+      "tuitionLabel": "Tuition and fees",
+      "budget": 30107.28,
+      "budgetMax": 31135.8,
+      "budgetText": "$30,107.28–$31,135.80",
+      "period": "semester",
+      "tuitionText": "$19,885.28–$20,913.80 per semester"
+    },
+    "academicYear": "Autumn 2026 or spring 2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
-    "billedSubtotal": null,
-    "totalText": null,
-    "note": "Texas A&M publishes undergraduate costs only through a calculator that asks for the semester, residency (it has an “International” option), housing, rate plan and major. No single yearly table was found, so no figure is recorded.",
+    "studentCategory": "International incoming freshmen living on campus, 12 or more hours a semester",
     "source": "https://tuition.tamu.edu/undergraduate",
-    "verified": "2026-10-13"
+    "verified": "2026-10-14",
+    "headline": "$30,107.28–$31,135.80 estimated cost of attendance per semester",
+    "items": [
+      {
+        "label": "Tuition and required fees, per semester: English (base rate) to computer science and mechanical engineering",
+        "group": "billed",
+        "min": 19885.28,
+        "max": 20913.8,
+        "text": "$19,885.28–$20,913.80"
+      },
+      {
+        "label": "Housing and food, per semester",
+        "group": "estimate",
+        "amount": 6472
+      },
+      {
+        "label": "Books and supplies, per semester",
+        "group": "estimate",
+        "amount": 441
+      },
+      {
+        "label": "Travel, per semester",
+        "group": "estimate",
+        "amount": 1683
+      },
+      {
+        "label": "Loan fees, per semester",
+        "group": "estimate",
+        "amount": 31
+      },
+      {
+        "label": "Personal expenses, per semester",
+        "group": "estimate",
+        "amount": 1595
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "$30,107.28 per semester for English and $31,135.80 for computer science or mechanical engineering, as the calculator prints them. Two semesters come to $60,214.56–$62,271.60 — calculated by UniPath",
+    "note": "Read from the university’s tuition calculator with these choices: autumn 2026 or spring 2027, non-resident international, incoming freshman, on campus, 12 or more hours. Tuition differs by major; for English the calculator also deducts $132.72 as a “tuition reduction based on 2022–2023 rates”. Not included: an International Student Services fee of $150 a semester; international student health insurance of $262.50 on arrival, $1,051 for autumn and $2,095 for spring; a $100 deposit and orientation fees."
   },
   "scholarships": {
     "fullRide": {
@@ -20026,6 +20071,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Texas A&M — financial aid for international students",
       "url": "https://aggie.tamu.edu/paying-for-college/apply-for-financial-aid/international-student-financial-aid.html"
+    },
+    {
+      "label": "Texas A&M — tuition calculator",
+      "url": "https://tuition.tamu.edu/undergraduate"
     }
   ],
   "verification": {
@@ -20035,10 +20084,10 @@ window.UNIPATH.universities.push(
       "application fee",
       "English proficiency",
       "test policy",
-      "aid for international students"
+      "aid for international students",
+      "published costs"
     ],
     "unconfirmed": [
-      "tuition and fees — the tuition page did not load for reading",
       "merit scholarships",
       "founding year",
       "admission statistics",
@@ -20076,18 +20125,36 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
+    "business",
+    "economics",
     "computer-science",
+    "engineering",
     "psychology",
+    "biology",
+    "mathematics",
     "social-sciences",
-    "arts"
+    "humanities",
+    "arts",
+    "law",
+    "medicine",
+    "education"
   ],
   "englishTaughtPrograms": [
+    "business",
+    "economics",
     "computer-science",
+    "engineering",
     "psychology",
+    "biology",
+    "mathematics",
     "social-sciences",
-    "arts"
+    "humanities",
+    "arts",
+    "law",
+    "medicine",
+    "education"
   ],
-  "programNote": "Only part of the list was read: the university’s degree search is drawn by a script and did not load on this check, so the fields below are the ones confirmed on separate official programme pages. Other fields may well exist.",
+  "programNote": "The university’s degree search lists 355 bachelor’s programmes; one offered on the main Tucson campus is named for each area.",
   "links": {
     "website": "https://www.arizona.edu/",
     "admissions": "https://www.arizona.edu/admissions/deadlines",
@@ -20095,7 +20162,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": null,
     "scholarships": "https://admissions.arizona.edu/cost-aid/international",
     "financialAid": "https://financialaid.arizona.edu/apply-for-aid/international",
-    "programs": "https://www.arizona.edu/degree-search/majors",
+    "programs": "https://www.arizona.edu/degree-search/majors?cat-program=bachelor",
     "cost": "https://www.arizona.edu/admissions/undergraduate/tuition-aid"
   },
   "admissions": {
@@ -20298,7 +20365,8 @@ window.UNIPATH.universities.push(
       "English proficiency",
       "Early Action date",
       "cost estimate for non-residents",
-      "test policy"
+      "test policy",
+      "list of majors"
     ],
     "unconfirmed": [
       "application fee",
@@ -20306,8 +20374,7 @@ window.UNIPATH.universities.push(
       "final application deadline",
       "academic year of the cost estimate",
       "founding year",
-      "admission statistics",
-      "full list of majors"
+      "admission statistics"
     ]
   },
   "lastVerified": "2026-10-12",
@@ -20316,36 +20383,98 @@ window.UNIPATH.universities.push(
     "UArizona",
     "U of A"
   ],
-  "programsStatus": "partial",
   "programsBasis": "evidence",
   "programEvidence": {
+    "business": {
+      "program": "Accounting — Bachelor of Science in Business Administration",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.arizona.edu/degree-search/majors?cat-program=bachelor",
+      "checked": "2026-10-14"
+    },
+    "economics": {
+      "program": "Economics — Bachelor of Arts",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.arizona.edu/degree-search/majors?cat-program=bachelor",
+      "checked": "2026-10-14"
+    },
     "computer-science": {
       "program": "Bachelor of Science in Computer Science",
       "level": "bachelor",
       "language": "English",
       "url": "https://cs.arizona.edu/undergraduate/bachelor-science",
-      "checked": "2026-10-13"
+      "checked": "2026-10-14"
+    },
+    "engineering": {
+      "program": "Mechanical Engineering — Bachelor of Science in Mechanical Engineering",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.arizona.edu/degree-search/majors?cat-program=bachelor",
+      "checked": "2026-10-14"
     },
     "psychology": {
-      "program": "Psychological Science (major)",
+      "program": "Psychology — Bachelor of Arts",
       "level": "bachelor",
       "language": "English",
-      "url": "https://www.arizona.edu/degree-search/majors/psychological-science",
-      "checked": "2026-10-13"
+      "url": "https://www.arizona.edu/degree-search/majors?cat-program=bachelor",
+      "checked": "2026-10-14"
+    },
+    "biology": {
+      "program": "Molecular and Cellular Biology — Bachelor of Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.arizona.edu/degree-search/majors?cat-program=bachelor",
+      "checked": "2026-10-14"
+    },
+    "mathematics": {
+      "program": "Mathematics: Comprehensive Emphasis — Bachelor of Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.arizona.edu/degree-search/majors?cat-program=bachelor",
+      "checked": "2026-10-14"
     },
     "social-sciences": {
-      "program": "Political Science (major)",
+      "program": "Political Science — Bachelor of Arts",
       "level": "bachelor",
       "language": "English",
-      "url": "https://www.arizona.edu/degree-search/majors/political-science",
-      "checked": "2026-10-13"
+      "url": "https://www.arizona.edu/degree-search/majors?cat-program=bachelor",
+      "checked": "2026-10-14"
+    },
+    "humanities": {
+      "program": "History — Bachelor of Arts",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.arizona.edu/degree-search/majors?cat-program=bachelor",
+      "checked": "2026-10-14"
     },
     "arts": {
-      "program": "Dance (major)",
+      "program": "Studio Art — Bachelor of Arts",
       "level": "bachelor",
       "language": "English",
-      "url": "https://www.arizona.edu/degree-search/majors/dance",
-      "checked": "2026-10-13"
+      "url": "https://www.arizona.edu/degree-search/majors?cat-program=bachelor",
+      "checked": "2026-10-14"
+    },
+    "law": {
+      "program": "Law — Bachelor of Arts",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.arizona.edu/degree-search/majors?cat-program=bachelor",
+      "checked": "2026-10-14"
+    },
+    "medicine": {
+      "program": "Nursing — Bachelor of Science in Nursing",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.arizona.edu/degree-search/majors?cat-program=bachelor",
+      "checked": "2026-10-14"
+    },
+    "education": {
+      "program": "Elementary Education: Bilingual Emphasis — Bachelor of Arts in Education",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.arizona.edu/degree-search/majors?cat-program=bachelor",
+      "checked": "2026-10-14"
     }
   }
 },
@@ -22427,15 +22556,15 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": null,
-      "note": "Not checked: the applying page read on 13 October 2026 does not mention the SAT or ACT, and the page for international applicants lists no test policy.",
-      "source": "https://www.ursinus.edu/admission/applying/",
-      "verified": "2026-10-13"
+      "note": "Not checked: neither the applying page nor the admission requirements page (read on 14 October 2026) mentions the SAT or ACT, and the page for international applicants lists no test policy.",
+      "source": "https://www.ursinus.edu/admission/applying/requirements/",
+      "verified": "2026-10-14"
     },
     "act": {
       "policy": null,
-      "note": "Not checked: the applying page read on 13 October 2026 does not mention the SAT or ACT, and the page for international applicants lists no test policy.",
-      "source": "https://www.ursinus.edu/admission/applying/",
-      "verified": "2026-10-13"
+      "note": "Not checked: neither the applying page nor the admission requirements page (read on 14 October 2026) mentions the SAT or ACT, and the page for international applicants lists no test policy.",
+      "source": "https://www.ursinus.edu/admission/applying/requirements/",
+      "verified": "2026-10-14"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -24948,15 +25077,15 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": null,
-      "note": "Not checked: the admission pages of the college returned empty pages on 13 October 2026, so the policy could not be read. Only the catalogue site opened.",
+      "note": "Not checked: the college’s admission pages returned an empty page on 13 and 14 October 2026, so the policy could not be read.",
       "source": "https://www.cornellcollege.edu/admissions/index.shtml",
-      "verified": "2026-10-13"
+      "verified": "2026-10-14"
     },
     "act": {
       "policy": null,
-      "note": "Not checked: the admission pages of the college returned empty pages on 13 October 2026, so the policy could not be read. Only the catalogue site opened.",
+      "note": "Not checked: the college’s admission pages returned an empty page on 13 and 14 October 2026, so the policy could not be read.",
       "source": "https://www.cornellcollege.edu/admissions/index.shtml",
-      "verified": "2026-10-13"
+      "verified": "2026-10-14"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -25551,15 +25680,15 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": null,
-      "note": "Not checked: the application page read on 13 October 2026 states no SAT or ACT policy.",
-      "source": "https://www.scad.edu/admission/apply",
-      "verified": "2026-10-13"
+      "note": "Not checked: the first-year admission page (read on 14 October 2026) lists the documents — high school diploma, evidence of English proficiency, achievement profile, supplementary materials — without naming the SAT or ACT, and the full list is a separate download that was not opened.",
+      "source": "https://www.scad.edu/admission/admission-information/first-year",
+      "verified": "2026-10-14"
     },
     "act": {
       "policy": null,
-      "note": "Not checked: the application page read on 13 October 2026 states no SAT or ACT policy.",
-      "source": "https://www.scad.edu/admission/apply",
-      "verified": "2026-10-13"
+      "note": "Not checked: the first-year admission page (read on 14 October 2026) lists the documents — high school diploma, evidence of English proficiency, achievement profile, supplementary materials — without naming the SAT or ACT, and the full list is a separate download that was not opened.",
+      "source": "https://www.scad.edu/admission/admission-information/first-year",
+      "verified": "2026-10-14"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -25753,11 +25882,56 @@ window.UNIPATH.universities.push(
         "date": "1 November 2026",
         "binding": false,
         "appliesTo": "First-year applicants",
-        "conditions": "Not binding. Notification in mid-January; deposit by 1 May.",
+        "conditions": "Not binding. CSS Profile and FAFSA by 15 November. Notification in mid-January — the text below the table says an admit, deny or defer decision by 31 January. Deposit by 1 May.",
         "status": "confirmed",
         "source": "https://www.american.edu/admissions/first-year/decision-plans-and-deadlines.cfm",
-        "verified": "2026-10-12",
-        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-14",
+        "note": "The page prints this date without a year; it was read on 14 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Decision I",
+        "kind": "ED",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. An Early Decision Agreement signed by the applicant, a parent and the counselor is required. CSS Profile and FAFSA by 15 November; notification in mid-December; deposit by 15 January.",
+        "status": "confirmed",
+        "source": "https://www.american.edu/admissions/first-year/decision-plans-and-deadlines.cfm",
+        "verified": "2026-10-14",
+        "note": "The page prints this date without a year; it was read on 14 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Early Decision II",
+        "kind": "ED2",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. CSS Profile and FAFSA by 1 February; notification in mid-February; deposit by 1 March.",
+        "status": "confirmed",
+        "source": "https://www.american.edu/admissions/first-year/decision-plans-and-deadlines.cfm",
+        "verified": "2026-10-14",
+        "note": "The page prints this date without a year; it was read on 14 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "CSS Profile and FAFSA by 15 February; notification by 1 April; deposit by 1 May.",
+        "status": "confirmed",
+        "source": "https://www.american.edu/admissions/first-year/decision-plans-and-deadlines.cfm",
+        "verified": "2026-10-14",
+        "note": "The page prints this date without a year; it was read on 14 October 2026, during the cycle for autumn 2027 entry."
       }
     ],
     "applicationFee": {
@@ -25818,16 +25992,16 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not checked: on 13 October 2026 the university’s main site showed an automated browser check, which was not bypassed, so its testing policy page could not be read.",
-      "source": "https://www.american.edu/admissions/first-year/index.cfm",
-      "verified": "2026-10-13"
+      "policy": "optional",
+      "note": "Applicants may use any plan without test scores, which “will not affect your consideration for merit awards or admission to the AU Honors Program”. For students finishing secondary school outside the United States, “neither the SAT or ACT is required for admission.”",
+      "source": "https://www.american.edu/admissions/first-year/test-optional.cfm",
+      "verified": "2026-10-14"
     },
     "act": {
-      "policy": null,
-      "note": "Not checked: on 13 October 2026 the university’s main site showed an automated browser check, which was not bypassed, so its testing policy page could not be read.",
-      "source": "https://www.american.edu/admissions/first-year/index.cfm",
-      "verified": "2026-10-13"
+      "policy": "optional",
+      "note": "Applicants may use any plan without test scores, which “will not affect your consideration for merit awards or admission to the AU Honors Program”. For students finishing secondary school outside the United States, “neither the SAT or ACT is required for admission.”",
+      "source": "https://www.american.edu/admissions/first-year/test-optional.cfm",
+      "verified": "2026-10-14"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -25919,6 +26093,10 @@ window.UNIPATH.universities.push(
     {
       "label": "American — official list of undergraduate programmes",
       "url": "https://catalog.american.edu/content.php?catoid=23&navoid=4419"
+    },
+    {
+      "label": "American — test-optional admission",
+      "url": "https://www.american.edu/admissions/first-year/test-optional.cfm"
     }
   ],
   "verification": {
@@ -25929,11 +26107,11 @@ window.UNIPATH.universities.push(
       "Early Action date",
       "amount to be declared",
       "aid for international students",
-      "list of majors"
+      "list of majors",
+      "application rounds",
+      "test policy"
     ],
     "unconfirmed": [
-      "Early Decision and Regular Decision dates",
-      "test policy",
       "tuition and fees",
       "amounts of merit awards",
       "share of need met",
@@ -28336,15 +28514,15 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": null,
-      "note": "Not checked: the pages read state no SAT or ACT policy. The international application process only lists standardized test scores among documents that may be asked for at the visa stage.",
-      "source": "https://anderson.edu/start-your-story/international-undergraduate-application-process/",
-      "verified": "2026-10-13"
+      "note": "Not checked: no current admission page states the policy. The only statement found is a news item of 20 May 2020 announcing that the SAT and ACT became optional for admission, which does not show the policy for 2027 entry.",
+      "source": "https://anderson.edu/blog-stories/act-sat-now-test-optional/",
+      "verified": "2026-10-14"
     },
     "act": {
       "policy": null,
-      "note": "Not checked: the pages read state no SAT or ACT policy. The international application process only lists standardized test scores among documents that may be asked for at the visa stage.",
-      "source": "https://anderson.edu/start-your-story/international-undergraduate-application-process/",
-      "verified": "2026-10-13"
+      "note": "Not checked: no current admission page states the policy. The only statement found is a news item of 20 May 2020 announcing that the SAT and ACT became optional for admission, which does not show the policy for 2027 entry.",
+      "source": "https://anderson.edu/blog-stories/act-sat-now-test-optional/",
+      "verified": "2026-10-14"
     },
     "otherTests": null,
     "internationalQualifications": null

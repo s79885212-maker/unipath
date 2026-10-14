@@ -40,6 +40,7 @@ window.UNIPATH.match = {
     perEUR: { EUR: 1, USD: 1.1460, GBP: 0.85880, JPY: 180.94, KRW: 1590.76 }
   },
   annualCost: {
+    'texas-a-and-m-university': { currency: 'USD', calc: 'two-semesters', basis: 'total', min: 60215, max: 62272 },
     'marist-university': { currency: 'USD', basis: 'total', min: 76875, max: 76875 },
     'xavier-university-of-louisiana': { currency: 'USD', calc: 'two-semesters', basis: 'billed', min: 41427, max: 43492 },
     'drew-university': { currency: 'USD', basis: 'tuition', min: 49550, max: 49550 },

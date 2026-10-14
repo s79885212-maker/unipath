@@ -906,7 +906,8 @@
       rows.push({ id: 'billed', label: billedLabel(u), text: money(billedAmount(u), costCurrency(u)), amount: billedAmount(u) });
     }
     var bt = budgetText(u);
-    if (bt) rows.push({ id: 'budget', label: 'Full budget (cost of attendance)', text: bt, amount: budgetAmount(u) });
+    /* A budget published for one semester is never labelled as the year's. */
+    if (bt) rows.push({ id: 'budget', label: costPeriod(u) === 'semester' ? 'Full budget for one semester (cost of attendance)' : 'Full budget (cost of attendance)', text: bt, amount: budgetAmount(u) });
     return rows;
   }
   var COST_SOURCE_RE = [/tuition|cost of attendance|comprehensive fee|billing|bursar/i, /cost|fees|expens/i, /financial|aid|scholarship/i];
