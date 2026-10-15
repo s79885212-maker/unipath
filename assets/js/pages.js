@@ -589,7 +589,9 @@
     var lastBilled = -1;
     (costs.items || []).forEach(function (i, n) { if (i.group === 'billed') lastBilled = n; });
     var costRows = has(costs.items) ? costs.items.map(function (i, n) {
-      var amt = has(i.amount) ? U.money(i.amount, costs.currency) : (has(i.text) ? esc(i.text) : UNKNOWN);
+      var amt = has(i.amount) ? U.money(i.amount, costs.currency)
+        : typeof i.min === 'number' && typeof i.max === 'number' ? U.money(i.min, costs.currency) + '–' + U.money(i.max, costs.currency)
+        : (has(i.text) ? esc(i.text) : UNKNOWN);
       return '<tr><td>' + esc(i.label) + (has(i.note) ? '<br><span class="small muted">' + esc(i.note) + '</span>' : '') + '</td><td>' + amt + '</td></tr>' +
         (n === lastBilled && typeof costs.billedSubtotal === 'number'
           ? '<tr class="cost-subtotal"><td>' + esc(U.billedLabel(u) === 'Comprehensive fee' ? 'Comprehensive fee — charged by the university' : 'Subtotal — billed by the university') + '</td><td>' + U.money(costs.billedSubtotal, costs.currency) + '</td></tr>'

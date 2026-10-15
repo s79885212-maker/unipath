@@ -3519,5 +3519,3243 @@ window.UNIPATH.universities.push(
     }
   },
   "programsStatus": "partial"
+},
+
+{
+  "id": "queens-university",
+  "name": "Queen’s University",
+  "shortName": "Queen’s",
+  "country": "ca",
+  "city": "Kingston",
+  "region": "Ontario",
+  "founded": null,
+  "type": "Public research university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#3d3d5c",
+    "c2": "#1f1f2e",
+    "initials": "QS"
+  },
+  "description": "A residential research university in Kingston, Ontario, between Toronto and Montreal, with the Smith School of Business and Smith Engineering.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "computer-science",
+    "engineering",
+    "humanities",
+    "medicine"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "computer-science",
+    "engineering",
+    "humanities",
+    "medicine"
+  ],
+  "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
+  "links": {
+    "website": "https://www.queensu.ca/",
+    "admissions": "https://www.queensu.ca/admission/applying/dates-deadlines",
+    "internationalAdmissions": "https://www.queensu.ca/admission/applicants/english-proficiency",
+    "applicationPortal": "https://www.ouac.on.ca/",
+    "scholarships": "https://www.queensu.ca/registrar/financial-aid/specific-students/international",
+    "financialAid": "https://www.queensu.ca/registrar/financial-aid/specific-students/international",
+    "programs": "https://www.queensu.ca/registrar/tuition-fees/undergraduate/fee-calculator",
+    "cost": "https://www.queensu.ca/registrar/tuition-fees/undergraduate/fee-calculator"
+  },
+  "admissions": {
+    "platforms": [
+      "OUAC (Ontario Universities’ Application Centre)",
+      "SOLUS (Queen’s student portal)"
+    ],
+    "deadlines": [
+      {
+        "name": "Recommended OUAC application date to reach the Major Admission Award application",
+        "kind": "priority",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-20",
+        "date": "20 November 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "The university advises applying by 15 November so the SOLUS account is ready in time.",
+        "status": "confirmed",
+        "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
+        "verified": "2026-10-15",
+        "note": null
+      },
+      {
+        "name": "Major Admission Award application on SOLUS",
+        "kind": "scholarship",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-12-08",
+        "date": "8 December 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
+        "verified": "2026-10-15",
+        "note": null
+      },
+      {
+        "name": "Application deadline: Commerce, Health Sciences and Nursing",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-01",
+        "date": "1 February 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Supplementary applications for these programmes are due 15 February 2027.",
+        "status": "confirmed",
+        "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
+        "verified": "2026-10-15",
+        "note": null
+      },
+      {
+        "name": "Application deadline: all other first-year programmes",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-03-01",
+        "date": "1 March 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
+        "verified": "2026-10-15",
+        "note": null
+      },
+      {
+        "name": "All documents, including transcripts and English test scores",
+        "kind": "documents",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-03-31",
+        "date": "31 March 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
+        "verified": "2026-10-15",
+        "note": null
+      }
+    ],
+    "applicationFee": {
+      "amount": 159,
+      "currency": "CAD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Paid to OUAC, in Canadian dollars: a base fee of C$159 for up to three programme choices, C$51 for each further choice, and a document-evaluation fee of C$95 for Queen’s (including transfer-credit evaluation), charged once to applicants outside the Ontario school system (OUAC “Group B”). Some programmes add their own fee.",
+      "source": "https://www.ouac.on.ca/guide/undergrad-fees",
+      "verified": "2026-10-15"
+    },
+    "documents": [
+      "OUAC application",
+      "Transcripts and final results",
+      "English test result unless exempt",
+      "Supplementary application for Commerce, Health Sciences and Nursing"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "Academic; no band below 6.0."
+    },
+    "toefl": {
+      "min": 88,
+      "recommended": null,
+      "note": "Tests before 21 January 2026: 88 with at least 20 in each section. Tests from 21 January 2026 (1–6 scale): 4.5 with no skill below 4.0. Home Edition accepted.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 88,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 120,
+      "recommended": null,
+      "note": null
+    },
+    "waiver": null,
+    "note": "CAEL 70 (no band below 60); PTE 60; Cambridge 175 (no part below 170); LanguageCert Academic 70 (65 in each part). Results are valid for two years. The QBridge pathway exists for lower scores."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, UHIP, other mandatory fees (estimate), books (estimate), double room with meal plan",
+      "tuition": 44810.0,
+      "budget": 65996.8,
+      "budgetMax": 82026.8
+    },
+    "academicYear": "2026–2027",
+    "currency": "CAD",
+    "studentCategory": "International first-year students in residence (double room, mandatory meal plan); university fee calculator",
+    "source": "https://www.queensu.ca/registrar/tuition-fees/undergraduate/fee-calculator",
+    "verified": "2026-10-15",
+    "headline": "C$65,996.80–C$82,026.80 for a first year in residence (2026–27)",
+    "items": [
+      {
+        "label": "Tuition, Arts (Faculty of Arts and Science)",
+        "amount": 44810.0
+      },
+      {
+        "label": "Tuition, Computing",
+        "amount": 54809.0
+      },
+      {
+        "label": "Tuition, Smith Engineering (common first year)",
+        "amount": 59284.0
+      },
+      {
+        "label": "Tuition, Smith School of Business (Commerce)",
+        "amount": 60840.0
+      },
+      {
+        "label": "University Health Insurance Plan (UHIP), mandatory",
+        "amount": 792.0
+      },
+      {
+        "label": "Other mandatory and programme fees (estimate)",
+        "amount": 1500.0
+      },
+      {
+        "label": "Books",
+        "amount": 1800.0
+      },
+      {
+        "label": "Residence, double room, with mandatory meal plan",
+        "amount": 17094.8
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "The calculator totals C$65,996.80 for Arts, C$75,995.80 for Computing, C$80,470.80 for Engineering and C$82,026.80 for Commerce, with residence, meals, UHIP, fees and books",
+    "note": "“2026-2027 rates are provided as information only and are subject to review.” Personal costs and travel are not in the calculator."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [
+      {
+        "name": "Dean’s International Award (Arts and Science)",
+        "amount": "C$5,000–C$25,000 a year",
+        "eligibility": "International fee-paying students entering first year, by academic achievement",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": true,
+        "note": "Renewable for three more years with full-time study in the original faculty. Commerce (C$15,000, C$20,000 or C$25,000 a year), Engineering (C$10,000–C$25,000) and Health Sciences (C$10,000 or C$15,000) have their own versions.",
+        "basis": "merit",
+        "source": "https://www.queensu.ca/registrar/financial-aid/specific-students/international",
+        "verified": "2026-10-15"
+      },
+      {
+        "name": "Major Admission Awards",
+        "amount": null,
+        "eligibility": "Applicants with a strong record of achievement; open to domestic and international applicants",
+        "deadline": null,
+        "application": "Separate application on SOLUS by 8 December 2026",
+        "renewable": null,
+        "note": "Amounts are not given on the pages read.",
+        "basis": "merit",
+        "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
+        "verified": "2026-10-15"
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Principal’s Global Scholars supports forcibly displaced students; general need-based aid for international first-year students is not described on the pages read.",
+      "source": "https://www.queensu.ca/registrar/financial-aid/specific-students/international",
+      "verified": "2026-10-15"
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Queen’s — dates and deadlines",
+      "url": "https://www.queensu.ca/admission/applying/dates-deadlines"
+    },
+    {
+      "label": "Queen’s — English proficiency",
+      "url": "https://www.queensu.ca/admission/applicants/english-proficiency"
+    },
+    {
+      "label": "Queen’s — fee calculator 2026-27",
+      "url": "https://www.queensu.ca/registrar/tuition-fees/undergraduate/fee-calculator"
+    },
+    {
+      "label": "Queen’s — awards for international students",
+      "url": "https://www.queensu.ca/registrar/financial-aid/specific-students/international"
+    },
+    {
+      "label": "OUAC — undergraduate fees",
+      "url": "https://www.ouac.on.ca/guide/undergrad-fees"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "2027 deadlines",
+      "English requirements",
+      "costs",
+      "scholarships"
+    ],
+    "unconfirmed": [
+      "test policy",
+      "requirements for Uzbekistan",
+      "full list of majors",
+      "founding year"
+    ]
+  },
+  "lastVerified": "2026-10-15",
+  "aliases": [
+    "Queens University",
+    "Queen's",
+    "Queens",
+    "QU",
+    "Smith School of Business"
+  ],
+  "programsBasis": "evidence",
+  "province": "ON",
+  "programEvidence": {
+    "business": {
+      "program": "Commerce (Smith School of Business)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.queensu.ca/registrar/tuition-fees/undergraduate/fee-calculator",
+      "checked": "2026-10-15"
+    },
+    "computer-science": {
+      "program": "Computing",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.queensu.ca/registrar/tuition-fees/undergraduate/fee-calculator",
+      "checked": "2026-10-15"
+    },
+    "engineering": {
+      "program": "Smith Engineering — Common First Year",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.queensu.ca/registrar/tuition-fees/undergraduate/fee-calculator",
+      "checked": "2026-10-15"
+    },
+    "humanities": {
+      "program": "Arts (Faculty of Arts and Science)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.queensu.ca/registrar/tuition-fees/undergraduate/fee-calculator",
+      "checked": "2026-10-15"
+    },
+    "medicine": {
+      "program": "Nursing",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.queensu.ca/admission/applying/dates-deadlines",
+      "checked": "2026-10-15"
+    }
+  },
+  "programsStatus": "partial"
+},
+
+{
+  "id": "dalhousie-university",
+  "name": "Dalhousie University",
+  "shortName": "Dal",
+  "country": "ca",
+  "city": "Halifax",
+  "region": "Nova Scotia",
+  "founded": null,
+  "type": "Public research university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#4b2e83",
+    "c2": "#2c1a4d",
+    "initials": "D"
+  },
+  "description": "Atlantic Canada’s largest research university, in Halifax, Nova Scotia, with an agricultural campus in Truro. International tuition is guaranteed for the length of the programme.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "humanities",
+    "computer-science",
+    "engineering",
+    "business",
+    "medicine"
+  ],
+  "englishTaughtPrograms": [
+    "humanities",
+    "computer-science",
+    "engineering",
+    "business",
+    "medicine"
+  ],
+  "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
+  "links": {
+    "website": "https://www.dal.ca/",
+    "admissions": "https://www.dal.ca/admissions/dates-and-deadlines.html",
+    "internationalAdmissions": "https://www.dal.ca/admissions/how-to-apply/undergraduate-admissions/international-applicants/international-admissions-requirements-by-country.html",
+    "applicationPortal": "https://www.dal.ca/admissions/",
+    "scholarships": "https://www.dal.ca/admissions/scholarships-financial-aid/scholarships/future-undergraduate-student-awards.html",
+    "financialAid": "https://www.dal.ca/admissions/scholarships-financial-aid/scholarships/future-undergraduate-student-awards.html",
+    "programs": "https://www.dal.ca/admissions/cost-and-payment/tuition/international-tuition-guarantee.html",
+    "cost": "https://www.dal.ca/admissions/cost-and-payment/tuition/undergraduate-program-tuition.html"
+  },
+  "admissions": {
+    "platforms": [
+      "Dalhousie online application"
+    ],
+    "deadlines": [
+      {
+        "name": "Entrance award application (General Entrance Award program)",
+        "kind": "scholarship",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-15",
+        "date": "15 February 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "High school applicants are encouraged to apply for admission early enough to meet this deadline.",
+        "status": "confirmed",
+        "source": "https://www.dal.ca/admissions/scholarships-financial-aid/scholarships/future-undergraduate-student-awards.html",
+        "verified": "2026-10-15",
+        "note": null
+      },
+      {
+        "name": "Application deadline: Nursing, Health Sciences, Medical Sciences, Social Work",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-15",
+        "date": "15 February 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.dal.ca/admissions/dates-and-deadlines.html",
+        "verified": "2026-10-15",
+        "note": null
+      },
+      {
+        "name": "Application deadline: Environmental Design Studies (Architecture)",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-03-01",
+        "date": "1 March 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.dal.ca/admissions/dates-and-deadlines.html",
+        "verified": "2026-10-15",
+        "note": null
+      },
+      {
+        "name": "Accept the offer (admission deposit) and prove English proficiency",
+        "kind": "reply",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-05-01",
+        "date": "1 May 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Other programmes have no fixed deadline: applications are considered while space remains, before classes start in September.",
+        "status": "confirmed",
+        "source": "https://www.dal.ca/admissions/dates-and-deadlines.html",
+        "verified": "2026-10-15",
+        "note": null
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "CAD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "The amount was not found on the pages read.",
+      "source": "https://www.dal.ca/admissions/",
+      "verified": "2026-10-15"
+    },
+    "documents": [
+      "Online application",
+      "Transcripts",
+      "English test result unless exempt"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "No band below 6.0."
+    },
+    "toefl": {
+      "min": 90,
+      "recommended": null,
+      "note": "0–120 scale: 90 with 20 in each band. 1–6 scale: 4.5 with 4.5 in Listening and 4.0 in Reading, Speaking and Writing.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 90,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 120,
+      "recommended": null,
+      "note": null
+    },
+    "waiver": null,
+    "note": "MELAB 55 and CAEL are also accepted. Conditional admission is possible; proof is due by 1 May for autumn entry."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not stated: the requirements for U.S. high school applicants on the page read list no SAT or ACT."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not stated: the requirements for U.S. high school applicants on the page read list no SAT or ACT."
+    },
+    "otherTests": null,
+    "internationalQualifications": "Uzbekistan: Akademik Litsey Diplomi (Diploma of Academic Lyceum)."
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition only in the main figure; fees, housing and food are shown separately",
+      "tuition": 37992
+    },
+    "academicYear": "2026–2027",
+    "currency": "CAD",
+    "studentCategory": "International first-year students; tuition guaranteed for the programme",
+    "source": "https://www.dal.ca/admissions/cost-and-payment/tuition/international-tuition-guarantee.html",
+    "verified": "2026-10-15",
+    "headline": "C$30,906–C$48,594 tuition a year (2026–27, guaranteed)",
+    "items": [
+      {
+        "label": "Tuition, Agriculture",
+        "amount": 30906
+      },
+      {
+        "label": "Tuition, Arts and Social Sciences or Science",
+        "amount": 37992
+      },
+      {
+        "label": "Tuition, Computer Science",
+        "amount": 41688
+      },
+      {
+        "label": "Tuition, Management",
+        "amount": 42042
+      },
+      {
+        "label": "Tuition, Engineering",
+        "amount": 48594
+      },
+      {
+        "label": "Tuition and fees, fall and winter terms (university range)",
+        "min": 33091,
+        "max": 51503
+      },
+      {
+        "label": "Residence: lodging and meal plan",
+        "min": 12877,
+        "max": 16792
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "Guaranteed tuition for 2026–27 from C$30,906 (Agriculture) to C$48,594 (Engineering); with fees the university estimates C$33,091–C$51,503, and residence with meals C$12,877–C$16,792",
+    "note": "Estimates “are based on approved 2026–2027 rates”. The guarantee keeps tuition fixed for the length of the programme, paid half in fall and half in winter. The rate for students entering in 2027 is not yet published."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [
+      {
+        "name": "Dalhousie General Entrance Awards",
+        "amount": null,
+        "eligibility": "Domestic and international first-year applicants",
+        "deadline": null,
+        "application": "One application for the 2027–28 program, open 1 October 2026 to 15 February 2027",
+        "renewable": null,
+        "note": "More than 2,000 entrance awards; some are for merit, some for financial need and some for both. Some can be renewed for up to four years.",
+        "basis": "need-merit",
+        "source": "https://www.dal.ca/admissions/scholarships-financial-aid/scholarships/future-undergraduate-student-awards.html",
+        "verified": "2026-10-15"
+      },
+      {
+        "name": "Sankofa Scholarship",
+        "amount": "C$48,000 (C$12,000 a year)",
+        "eligibility": "One international student of Black/African descent from the Caribbean",
+        "deadline": null,
+        "application": null,
+        "renewable": null,
+        "note": null,
+        "basis": "merit",
+        "source": "https://www.dal.ca/admissions/scholarships-financial-aid/scholarships/future-undergraduate-student-awards.html",
+        "verified": "2026-10-15"
+      }
+    ],
+    "needBased": {
+      "availableToInternational": true,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Some General Entrance Awards are based on financial need, and international applicants may apply.",
+      "source": "https://www.dal.ca/admissions/scholarships-financial-aid/scholarships/future-undergraduate-student-awards.html",
+      "verified": "2026-10-15"
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Dalhousie — dates and deadlines",
+      "url": "https://www.dal.ca/admissions/dates-and-deadlines.html"
+    },
+    {
+      "label": "Dalhousie — undergraduate tuition",
+      "url": "https://www.dal.ca/admissions/cost-and-payment/tuition/undergraduate-program-tuition.html"
+    },
+    {
+      "label": "Dalhousie — international tuition guarantee",
+      "url": "https://www.dal.ca/admissions/cost-and-payment/tuition/international-tuition-guarantee.html"
+    },
+    {
+      "label": "Dalhousie — English requirements",
+      "url": "https://www.dal.ca/admissions/how-to-apply/undergraduate-admissions/international-applicants/english-language-requirements.html"
+    },
+    {
+      "label": "Dalhousie — requirements by country",
+      "url": "https://www.dal.ca/admissions/how-to-apply/undergraduate-admissions/international-applicants/international-admissions-requirements-by-country.html"
+    },
+    {
+      "label": "Dalhousie — entrance awards",
+      "url": "https://www.dal.ca/admissions/scholarships-financial-aid/scholarships/future-undergraduate-student-awards.html"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "2027 deadlines",
+      "English requirements",
+      "tuition",
+      "scholarships",
+      "requirements for Uzbekistan"
+    ],
+    "unconfirmed": [
+      "application fee",
+      "test policy",
+      "full list of majors",
+      "founding year"
+    ]
+  },
+  "lastVerified": "2026-10-15",
+  "aliases": [
+    "Dal",
+    "Dalhousie"
+  ],
+  "programsBasis": "evidence",
+  "province": "NS",
+  "campuses": [
+    "Halifax",
+    "Agricultural Campus (Truro)"
+  ],
+  "programEvidence": {
+    "humanities": {
+      "program": "Faculty of Arts and Social Sciences",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.dal.ca/admissions/cost-and-payment/tuition/international-tuition-guarantee.html",
+      "checked": "2026-10-15"
+    },
+    "computer-science": {
+      "program": "Faculty of Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.dal.ca/admissions/cost-and-payment/tuition/international-tuition-guarantee.html",
+      "checked": "2026-10-15"
+    },
+    "engineering": {
+      "program": "Faculty of Engineering",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.dal.ca/admissions/cost-and-payment/tuition/international-tuition-guarantee.html",
+      "checked": "2026-10-15"
+    },
+    "business": {
+      "program": "Faculty of Management",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.dal.ca/admissions/cost-and-payment/tuition/international-tuition-guarantee.html",
+      "checked": "2026-10-15"
+    },
+    "medicine": {
+      "program": "Bachelor of Science (Nursing)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.dal.ca/admissions/dates-and-deadlines.html",
+      "checked": "2026-10-15"
+    }
+  },
+  "programsStatus": "partial"
+},
+
+{
+  "id": "simon-fraser-university",
+  "name": "Simon Fraser University",
+  "shortName": "SFU",
+  "country": "ca",
+  "city": "Burnaby",
+  "region": "British Columbia",
+  "founded": null,
+  "type": "Public research university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#4b2e83",
+    "c2": "#2c1a4d",
+    "initials": "SF"
+  },
+  "description": "A research university in Metro Vancouver with campuses in Burnaby, Surrey and downtown Vancouver, applied to through EducationPlannerBC. Fraser International College offers a pathway for international students.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "social-sciences",
+    "arts"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "social-sciences",
+    "arts"
+  ],
+  "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
+  "links": {
+    "website": "https://www.sfu.ca/",
+    "admissions": "https://www.sfu.ca/students/admission/apply/dates-deadlines/high-school/fall-term.html",
+    "internationalAdmissions": "https://www.sfu.ca/students/admission/admission-requirements/english-language-requirement.html",
+    "applicationPortal": "https://www.educationplannerbc.ca/",
+    "scholarships": "https://www.sfu.ca/students/admission/fees-scholarships/uses.html",
+    "financialAid": "https://www.sfu.ca/students/admission/fees-scholarships.html",
+    "programs": "https://www.sfu.ca/students/admission/apply/dates-deadlines/high-school/fall-term.html",
+    "cost": "https://www.sfu.ca/students/admission/fees-scholarships.html"
+  },
+  "admissions": {
+    "platforms": [
+      "EducationPlannerBC"
+    ],
+    "deadlines": [
+      {
+        "name": "Undergraduate Scholars Entrance Scholarship (USES) application",
+        "kind": "scholarship",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-12-15",
+        "date": "15 December 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Supporting documents by 31 January 2027.",
+        "status": "confirmed",
+        "source": "https://www.sfu.ca/students/admission/fees-scholarships/uses.html",
+        "verified": "2026-10-15",
+        "note": null
+      },
+      {
+        "name": "Application deadline",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-31",
+        "date": "31 January 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Applications opened on 1 October 2026; decisions are sent from January to late April on a rolling basis.",
+        "status": "confirmed",
+        "source": "https://www.sfu.ca/students/admission/apply/dates-deadlines/high-school/fall-term.html",
+        "verified": "2026-10-15",
+        "note": null
+      },
+      {
+        "name": "Beedie School of Business To-Do List items; Contemporary Arts supplemental (audition, interview or portfolio)",
+        "kind": "documents",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-07",
+        "date": "7 February 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.sfu.ca/students/admission/apply/dates-deadlines/high-school/fall-term.html",
+        "verified": "2026-10-15",
+        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Admission documents for all high school applicants",
+        "kind": "documents",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-28",
+        "date": "28 February 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.sfu.ca/students/admission/apply/dates-deadlines/high-school/fall-term.html",
+        "verified": "2026-10-15",
+        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Accept your offer; residence application",
+        "kind": "reply",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-05-01",
+        "date": "1 May 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.sfu.ca/students/admission/apply/dates-deadlines/high-school/fall-term.html",
+        "verified": "2026-10-15",
+        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "CAD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Paid through EducationPlannerBC; the amount was not read.",
+      "source": "https://www.sfu.ca/students/admission/apply/dates-deadlines/high-school/fall-term.html",
+      "verified": "2026-10-15"
+    },
+    "documents": [
+      "EducationPlannerBC application",
+      "Transcripts by 28 February",
+      "English test result unless exempt",
+      "Supplemental items for Beedie and Contemporary Arts"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "Academic; no part below 6.0. One Skill Retake not accepted."
+    },
+    "toefl": {
+      "min": 88,
+      "recommended": null,
+      "note": "Tests before 21 January 2026: 88 with no part below 20. Tests from 21 January 2026 (1–6 scale): 4.5 with no part below 4.0. One sitting; MyBest not used; Home Edition accepted.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 88,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 125,
+      "recommended": null,
+      "note": null
+    },
+    "waiver": null,
+    "note": "Cambridge 176 (169 in each part); CAEL 70 (60 in each part); PTE 65 (60 in each part); LanguageCert 70 (65 in each part)."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "“The SAT/ACT requirement is optional for students applying for Fall 2024 admission onwards”; applicants without scores are not at a disadvantage.",
+      "source": "https://www.sfu.ca/students/admission/admission-requirements/usa-highschool.html",
+      "verified": "2026-10-15"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "“The SAT/ACT requirement is optional for students applying for Fall 2024 admission onwards”; applicants without scores are not at a disadvantage.",
+      "source": "https://www.sfu.ca/students/admission/admission-requirements/usa-highschool.html",
+      "verified": "2026-10-15"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, fees, transit pass, books, single room with meals, medical insurance",
+      "tuition": 38944,
+      "budget": 57303
+    },
+    "academicYear": "2026–2027",
+    "currency": "CAD",
+    "studentCategory": "International first-year student, 10 courses (30 units) in Arts and Social Sciences or Science, single room in residence",
+    "source": "https://www.sfu.ca/students/admission/fees-scholarships.html",
+    "verified": "2026-10-15",
+    "headline": "C$57,303 for one year (2026–27, university estimate)",
+    "items": [
+      {
+        "label": "Tuition and fees (including transit pass)",
+        "amount": 38944
+      },
+      {
+        "label": "Textbooks, technology and supplies",
+        "amount": 2400
+      },
+      {
+        "label": "Single residence room (North Towers) with meal plan",
+        "amount": 15014
+      },
+      {
+        "label": "Medical insurance",
+        "amount": 945
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "SFU estimates C$57,303 for two terms: tuition and fees C$38,944, books and supplies C$2,400, residence with meals C$15,014 and insurance C$945",
+    "note": "For a typical Arts and Social Sciences or Science programme; other faculties differ. Tuition for current students “may increase by up to 6% on an annual basis”."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [
+      {
+        "name": "Undergraduate Scholars Entrance Scholarship (USES)",
+        "amount": "Up to C$140,000 for international students",
+        "eligibility": "Canadian and international high school applicants for fall entry with at least a 90% average (or 31 IB points)",
+        "deadline": null,
+        "application": "Separate application, 1 October to 15 December 2026",
+        "renewable": true,
+        "note": "Values run from C$20,000 up to C$140,000 for international students; the top value is a competitive maximum.",
+        "basis": "merit",
+        "source": "https://www.sfu.ca/students/admission/fees-scholarships/uses.html",
+        "verified": "2026-10-15"
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Need-based aid for international first-year students is not described on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "SFU — fall 2027 dates for high school applicants",
+      "url": "https://www.sfu.ca/students/admission/apply/dates-deadlines/high-school/fall-term.html"
+    },
+    {
+      "label": "SFU — fees and scholarships",
+      "url": "https://www.sfu.ca/students/admission/fees-scholarships.html"
+    },
+    {
+      "label": "SFU — USES",
+      "url": "https://www.sfu.ca/students/admission/fees-scholarships/uses.html"
+    },
+    {
+      "label": "SFU — English language requirement",
+      "url": "https://www.sfu.ca/students/admission/admission-requirements/english-language-requirement.html"
+    },
+    {
+      "label": "SFU — U.S. high school requirements",
+      "url": "https://www.sfu.ca/students/admission/admission-requirements/usa-highschool.html"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "2027 deadlines",
+      "English requirements",
+      "test policy",
+      "costs",
+      "scholarships"
+    ],
+    "unconfirmed": [
+      "application fee",
+      "requirements for Uzbekistan",
+      "full list of majors",
+      "founding year"
+    ]
+  },
+  "lastVerified": "2026-10-15",
+  "aliases": [
+    "SFU",
+    "Simon Fraser"
+  ],
+  "programsBasis": "evidence",
+  "province": "BC",
+  "campuses": [
+    "Burnaby",
+    "Surrey",
+    "Vancouver"
+  ],
+  "programEvidence": {
+    "business": {
+      "program": "Beedie School of Business",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sfu.ca/students/admission/apply/dates-deadlines/high-school/fall-term.html",
+      "checked": "2026-10-15"
+    },
+    "social-sciences": {
+      "program": "Faculty of Arts and Social Sciences",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sfu.ca/students/admission/fees-scholarships.html",
+      "checked": "2026-10-15"
+    },
+    "arts": {
+      "program": "School for the Contemporary Arts",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sfu.ca/students/admission/apply/dates-deadlines/high-school/fall-term.html",
+      "checked": "2026-10-15"
+    }
+  },
+  "programsStatus": "partial"
+},
+
+{
+  "id": "universite-laval",
+  "name": "Université Laval",
+  "shortName": "ULaval",
+  "country": "ca",
+  "city": "Quebec City",
+  "region": "Quebec",
+  "founded": null,
+  "type": "Public research university (French-language)",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#4b2e83",
+    "c2": "#2c1a4d",
+    "initials": "UL"
+  },
+  "description": "The oldest French-language university in North America, in Quebec City. Teaching is in French; most bachelor’s programmes have an institutional French requirement. International students in Quebec also need a Quebec Acceptance Certificate (CAQ).",
+  "englishTaught": false,
+  "languageOfInstruction": "French",
+  "programs": [
+    "medicine"
+  ],
+  "englishTaughtPrograms": [],
+  "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
+  "links": {
+    "website": "https://www.ulaval.ca/",
+    "admissions": "https://www.ulaval.ca/admission/deposez-votre-demande-dadmission/dates-limites-de-depot",
+    "internationalAdmissions": "https://www.ulaval.ca/admission/deposez-votre-demande-dadmission/dates-limites-de-depot",
+    "applicationPortal": "https://www.ulaval.ca/admission",
+    "scholarships": "https://www.ulaval.ca/etudes/droits-de-scolarite/etudiant-etranger",
+    "financialAid": "https://www.ulaval.ca/etudes/droits-de-scolarite/etudiant-etranger",
+    "programs": "https://www.ulaval.ca/admission/deposez-votre-demande-dadmission/dates-limites-de-depot",
+    "cost": "https://www.ulaval.ca/etudes/droits-de-scolarite/etudiant-de-linternational/programmes-de-1er-cycle/automne-2026-hiver-2027"
+  },
+  "admissions": {
+    "platforms": [
+      "Université Laval online application"
+    ],
+    "deadlines": [
+      {
+        "name": "Application deadline: quota programmes (medicine, pharmacy, occupational therapy, physiotherapy, sexology, biomedical sciences)",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.ulaval.ca/admission/deposez-votre-demande-dadmission/dates-limites-de-depot",
+        "verified": "2026-10-15",
+        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Application deadline: limited-capacity and open bachelor’s programmes",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-01",
+        "date": "1 February 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "An application filed after the deadline is moved to a later term. Immigration steps can take four to six months.",
+        "status": "confirmed",
+        "source": "https://www.ulaval.ca/admission/deposez-votre-demande-dadmission/dates-limites-de-depot",
+        "verified": "2026-10-15",
+        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 104.53,
+      "currency": "CAD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "For a new applicant who has never studied at Université Laval.",
+      "source": "https://www.ulaval.ca/admission/deposez-votre-demande-dadmission/frais-douverture-et-danalyse-de-dossier",
+      "verified": "2026-10-15"
+    },
+    "documents": [
+      "Online application",
+      "Transcripts",
+      "Proof of French where required"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": null,
+    "toefl": null,
+    "duolingo": null,
+    "waiver": null,
+    "note": "Teaching is in French; English is not an admission requirement. French: without an exemption, the TCF tout public with the written expression test (valid two years) or the Test de français Laval-Montréal (TFLM); results can lead to admission with required French courses."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "not-applicable",
+      "note": "SAT and ACT are not part of the admission route; candidates are assessed on their school record and French."
+    },
+    "act": {
+      "policy": "not-applicable",
+      "note": "SAT and ACT are not part of the admission route; candidates are assessed on their school record and French."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, foreign-student supplement and required fees for one term; insurance, housing and food are extra",
+      "tuition": 14116.48,
+      "period": "semester"
+    },
+    "academicYear": "2026–2027",
+    "currency": "CAD",
+    "studentCategory": "International bachelor’s students, 15 credits a term (one term shown)",
+    "source": "https://www.ulaval.ca/etudes/droits-de-scolarite/etudiant-de-linternational/programmes-de-1er-cycle/automne-2026-hiver-2027",
+    "verified": "2026-10-15",
+    "headline": "C$14,116.48 a term for 15 credits (2026–27)",
+    "items": [
+      {
+        "label": "Tuition (droits de scolarité)",
+        "amount": 1558.8
+      },
+      {
+        "label": "Supplementary fees for foreign students (C$799.23 a credit)",
+        "amount": 11988.45
+      },
+      {
+        "label": "Management, related, technology and transit (LPU) fees",
+        "amount": 569.23
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "Partial total of C$14,116.48 per term for 15 credits; student association fees and health insurance (C$900 a year, on the first fall bill) are extra",
+    "note": "Page updated 9 September 2026 for the 2026–2027 year. Students from France and francophone Belgium, and quota exemptions granted by the Quebec government, pay less."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [
+      {
+        "name": "Exemption from supplementary fees (Quebec government quotas)",
+        "amount": "Removes the foreign-student supplement",
+        "eligibility": "Citizens of the countries on the Quebec government’s list",
+        "deadline": null,
+        "application": null,
+        "renewable": null,
+        "note": "Country quotas set by the Quebec government; Uzbekistan’s place on the list was not checked.",
+        "basis": "partnership",
+        "source": "https://www.ulaval.ca/etudes/droits-de-scolarite/etudiant-etranger",
+        "verified": "2026-10-15"
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Need-based aid for international first-year students is not described on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "ULaval — application deadlines",
+      "url": "https://www.ulaval.ca/admission/deposez-votre-demande-dadmission/dates-limites-de-depot"
+    },
+    {
+      "label": "ULaval — application fee",
+      "url": "https://www.ulaval.ca/admission/deposez-votre-demande-dadmission/frais-douverture-et-danalyse-de-dossier"
+    },
+    {
+      "label": "ULaval — French requirement",
+      "url": "https://www.reg.ulaval.ca/information-relative-a-la-maitrise-du-francais-a-luniversite-laval"
+    },
+    {
+      "label": "ULaval — international tuition 2026-27",
+      "url": "https://www.ulaval.ca/etudes/droits-de-scolarite/etudiant-de-linternational/programmes-de-1er-cycle/automne-2026-hiver-2027"
+    },
+    {
+      "label": "ULaval — fees for foreign students",
+      "url": "https://www.ulaval.ca/etudes/droits-de-scolarite/etudiant-etranger"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "deadlines",
+      "application fee",
+      "French requirement",
+      "tuition"
+    ],
+    "unconfirmed": [
+      "entrance scholarships for international students",
+      "requirements for Uzbekistan",
+      "full list of programmes",
+      "founding year"
+    ]
+  },
+  "lastVerified": "2026-10-15",
+  "aliases": [
+    "ULaval",
+    "Universite Laval",
+    "Laval University",
+    "Laval"
+  ],
+  "programsBasis": "evidence",
+  "province": "QC",
+  "programEvidence": {
+    "medicine": {
+      "program": "Doctorat en médecine (programme contingenté)",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://www.ulaval.ca/admission/deposez-votre-demande-dadmission/dates-limites-de-depot",
+      "checked": "2026-10-15"
+    }
+  },
+  "programsStatus": "partial",
+  "frenchRequirement": {
+    "level": null,
+    "note": "Institutional French requirement, at admission or before graduation depending on the programme; the level is set per programme.",
+    "source": "https://www.reg.ulaval.ca/information-relative-a-la-maitrise-du-francais-a-luniversite-laval",
+    "verified": "2026-10-15"
+  }
+},
+
+{
+  "id": "university-of-saskatchewan",
+  "name": "University of Saskatchewan",
+  "shortName": "USask",
+  "country": "ca",
+  "city": "Saskatoon",
+  "region": "Saskatchewan",
+  "founded": null,
+  "type": "Public research university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#1f3a5f",
+    "c2": "#0f1f33",
+    "initials": "S"
+  },
+  "description": "A research university in Saskatoon with most colleges on one campus, from Agriculture and Bioresources to Engineering and the Edwards School of Business.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "engineering",
+    "computer-science",
+    "humanities",
+    "medicine"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "engineering",
+    "computer-science",
+    "humanities",
+    "medicine"
+  ],
+  "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
+  "links": {
+    "website": "https://www.usask.ca/",
+    "admissions": "https://admissions.usask.ca/requirements/apply.php",
+    "internationalAdmissions": "https://admissions.usask.ca/requirements/english-language-proficiency.php",
+    "applicationPortal": "https://apply.usask.ca/",
+    "scholarships": "https://admissions.usask.ca/money/scholarships.php",
+    "financialAid": "https://admissions.usask.ca/money/scholarships.php",
+    "programs": "https://admissions.usask.ca/money/tuition.php",
+    "cost": "https://admissions.usask.ca/money/tuition.php"
+  },
+  "admissions": {
+    "platforms": [
+      "USask online application"
+    ],
+    "deadlines": [
+      {
+        "name": "Apply with documents to be considered for USask Entrance Scholarships",
+        "kind": "priority",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-12-01",
+        "date": "1 December 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://admissions.usask.ca/money/scholarships.php",
+        "verified": "2026-10-15",
+        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Apply for admission to be eligible for international student awards",
+        "kind": "priority",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-15",
+        "date": "15 February 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://admissions.usask.ca/money/scholarships.php",
+        "verified": "2026-10-15",
+        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "International application deadline (Arts and Science)",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-05-01",
+        "date": "1 May 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Documents due 1 June 2027. Other colleges set their own dates.",
+        "status": "confirmed",
+        "source": "https://admissions.usask.ca/computer-science.php",
+        "verified": "2026-10-15",
+        "note": null
+      }
+    ],
+    "applicationFee": {
+      "amount": 120,
+      "currency": "CAD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Minimum, non-refundable, for most programmes; covers a first and a second choice.",
+      "source": "https://admissions.usask.ca/requirements/apply.php",
+      "verified": "2026-10-15"
+    },
+    "documents": [
+      "USask online application",
+      "Transcripts",
+      "English test result unless exempt"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "Academic; 6 in each band."
+    },
+    "toefl": {
+      "min": 86,
+      "recommended": null,
+      "note": "Tests before 21 January 2026: 86 with 19 in each part (accepted for two years). Tests from 21 January 2026 (1–6 scale): 4.5 with 4 in each part. Special Home Edition accepted.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 86,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 120,
+      "recommended": null,
+      "note": "100 in Literacy, Conversation, Comprehension and Production (from 1 January 2026)."
+    },
+    "waiver": null,
+    "note": "PTE 63 (59 in each part); CAEL 70 (60 in each part); Cambridge C1 176."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition only in the main figure; student fees shown separately; housing and food extra",
+      "tuition": 39007
+    },
+    "academicYear": "2026–2027",
+    "currency": "CAD",
+    "studentCategory": "International first-year students, full course load in fall and winter (estimates)",
+    "source": "https://admissions.usask.ca/money/tuition.php",
+    "verified": "2026-10-15",
+    "headline": "C$39,007–C$59,383 tuition a year (2026–27 estimate)",
+    "items": [
+      {
+        "label": "Tuition, Arts and Science — Arts",
+        "amount": 39007
+      },
+      {
+        "label": "Tuition, Arts and Science — Science",
+        "amount": 40894
+      },
+      {
+        "label": "Tuition, Agriculture and Bioresources",
+        "amount": 41964
+      },
+      {
+        "label": "Tuition, Edwards School of Business",
+        "amount": 48932
+      },
+      {
+        "label": "Tuition, Engineering",
+        "amount": 59383
+      },
+      {
+        "label": "Tuition, Pharmacy (PharmD), year 1",
+        "amount": 73618
+      },
+      {
+        "label": "Student fees (full-time, on campus; incl. transit pass, health and dental)",
+        "amount": 1331.66
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "Tuition estimates for a first-year full course load from C$39,007 (Arts) to C$59,383 (Engineering); PharmD C$73,618; student fees C$1,331.66",
+    "note": null
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [
+      {
+        "name": "University of Saskatchewan International Excellence Award",
+        "amount": "C$10,000",
+        "eligibility": "International applicants who apply for admission by 15 February",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": "One award offered.",
+        "basis": "merit",
+        "source": "https://admissions.usask.ca/money/scholarships.php",
+        "verified": "2026-10-15"
+      },
+      {
+        "name": "International Baccalaureate Excellence Award",
+        "amount": "C$20,000",
+        "eligibility": "International applicants with the IB Diploma who apply by 15 February",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": "One award offered.",
+        "basis": "merit",
+        "source": "https://admissions.usask.ca/money/scholarships.php",
+        "verified": "2026-10-15"
+      },
+      {
+        "name": "USask Entrance Scholarships",
+        "amount": "C$5,000",
+        "eligibility": "Direct-entry high school applicants who apply with documents by 1 December; about 600 a year",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": "Awarded by admission average; the eligibility text read names no citizenship limit.",
+        "basis": "merit",
+        "source": "https://admissions.usask.ca/money/scholarships.php",
+        "verified": "2026-10-15"
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Need-based aid for international first-year students is not described on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "USask — Computer Science (deadlines)",
+      "url": "https://admissions.usask.ca/computer-science.php"
+    },
+    {
+      "label": "USask — how to apply and fee",
+      "url": "https://admissions.usask.ca/requirements/apply.php"
+    },
+    {
+      "label": "USask — tuition 2026-27",
+      "url": "https://admissions.usask.ca/money/tuition.php"
+    },
+    {
+      "label": "USask — English proficiency",
+      "url": "https://admissions.usask.ca/requirements/english-language-proficiency.php"
+    },
+    {
+      "label": "USask — scholarships",
+      "url": "https://admissions.usask.ca/money/scholarships.php"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "2027 deadlines",
+      "application fee",
+      "English requirements",
+      "tuition",
+      "scholarships"
+    ],
+    "unconfirmed": [
+      "test policy",
+      "requirements for Uzbekistan",
+      "housing costs",
+      "full list of majors",
+      "founding year"
+    ]
+  },
+  "lastVerified": "2026-10-15",
+  "aliases": [
+    "USask",
+    "U of S",
+    "U of Saskatchewan"
+  ],
+  "programsBasis": "evidence",
+  "province": "SK",
+  "programEvidence": {
+    "business": {
+      "program": "Edwards School of Business",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://admissions.usask.ca/money/tuition.php",
+      "checked": "2026-10-15"
+    },
+    "engineering": {
+      "program": "College of Engineering",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://admissions.usask.ca/money/tuition.php",
+      "checked": "2026-10-15"
+    },
+    "computer-science": {
+      "program": "Computer Science (Arts and Science)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://admissions.usask.ca/computer-science.php",
+      "checked": "2026-10-15"
+    },
+    "humanities": {
+      "program": "Arts and Science — Arts",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://admissions.usask.ca/money/tuition.php",
+      "checked": "2026-10-15"
+    },
+    "medicine": {
+      "program": "Pharmacy (PharmD)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://admissions.usask.ca/money/tuition.php",
+      "checked": "2026-10-15"
+    }
+  },
+  "programsStatus": "partial"
+},
+
+{
+  "id": "university-of-manitoba",
+  "name": "University of Manitoba",
+  "shortName": "UM",
+  "country": "ca",
+  "city": "Winnipeg",
+  "region": "Manitoba",
+  "founded": null,
+  "type": "Public research university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#3d3d5c",
+    "c2": "#1f1f2e",
+    "initials": "M"
+  },
+  "description": "Manitoba’s largest university, in Winnipeg. Many students start in University 1, a first year of broad study, before entering a faculty; others enter a faculty directly.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "humanities",
+    "engineering",
+    "business",
+    "arts",
+    "medicine",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "humanities",
+    "engineering",
+    "business",
+    "arts",
+    "medicine",
+    "education"
+  ],
+  "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
+  "links": {
+    "website": "https://umanitoba.ca/",
+    "admissions": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/international-admission-requirements",
+    "internationalAdmissions": "https://umanitoba.ca/explore/student-experience/tuition-and-financial-supports/international",
+    "applicationPortal": "https://umanitoba.ca/explore/undergraduate-admissions",
+    "scholarships": "https://umanitoba.ca/financial-aid-and-awards/entrance-awards",
+    "financialAid": "https://umanitoba.ca/financial-aid-and-awards/entrance-awards",
+    "programs": "https://umanitoba.ca/registrar/tuition-fees/undergraduate",
+    "cost": "https://umanitoba.ca/registrar/tuition-fees/undergraduate"
+  },
+  "admissions": {
+    "platforms": [
+      "University of Manitoba online application"
+    ],
+    "deadlines": [
+      {
+        "name": "International Excellence Entrance Scholarship deadline",
+        "kind": "scholarship",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-12-01",
+        "date": "1 December 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://umanitoba.ca/financial-aid-and-awards/entrance-awards",
+        "verified": "2026-10-15",
+        "note": null
+      },
+      {
+        "name": "Admission application and entrance scholarship consideration",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-03-01",
+        "date": "1 March 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "not-confirmed",
+        "source": "https://umanitoba.ca/financial-aid-and-awards/entrance-awards",
+        "verified": "2026-10-15",
+        "note": "The page prints “Mar. 1, 2027” but labels the line “(Fall 2026)”; the intake this date belongs to is not clear, so it is shown as not confirmed."
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "CAD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "The amount was not found on the pages read.",
+      "source": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/international-admission-requirements",
+      "verified": "2026-10-15"
+    },
+    "documents": [
+      "Online application",
+      "Transcripts",
+      "English test result unless exempt"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "Academic or IELTS Indicator; 6.0 in each band; One Skill Retake accepted."
+    },
+    "toefl": {
+      "min": 86,
+      "recommended": null,
+      "note": "Tests before 21 January 2026: 86 with 20 in each section. Tests from 21 January 2026 (1–6 scale): 4.5 with 4.0 in each section.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 86,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 120,
+      "recommended": null,
+      "note": "105 in Literacy, Comprehension, Production and Conversation; not accepted for Law."
+    },
+    "waiver": null,
+    "note": "CAEL 60; Cambridge C1 180; PTE 58."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": "Uzbekistan: Certificate of Secondary Education (O‘rta Ma’lumot To‘g‘risida Shahodatnoma / Attestat o Srednem Obrazovanii). For University 1: a minimum average of 3 (70%) over English or first-language literature, mathematics and two more academic courses, with no less than 2 (60%) in each."
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition rates only; fees, housing and food extra"
+    },
+    "academicYear": "2026–2027",
+    "currency": "CAD",
+    "studentCategory": "International undergraduates, tuition per credit hour",
+    "source": "https://umanitoba.ca/registrar/tuition-fees/undergraduate",
+    "verified": "2026-10-15",
+    "headline": "C$683.43–C$895.68 per credit hour (2026–27)",
+    "items": [
+      {
+        "label": "Arts, per credit hour",
+        "amount": 689.23
+      },
+      {
+        "label": "Engineering, per credit hour",
+        "amount": 683.43
+      },
+      {
+        "label": "Nursing, per credit hour",
+        "amount": 723.22
+      },
+      {
+        "label": "Science, per credit hour",
+        "amount": 804.0
+      },
+      {
+        "label": "Fine Arts, per credit hour",
+        "amount": 825.26
+      },
+      {
+        "label": "Management (Asper), per credit hour",
+        "amount": 895.68
+      },
+      {
+        "label": "Residence and meal plan packages (no year stated)",
+        "min": 10500,
+        "max": 17000
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "International tuition is charged per credit hour (2026–27): from C$683.43 (Engineering) to C$895.68 (Asper). The university also states an average first-year international tuition and fees of C$28,000, without a year",
+    "note": "Registrar page last updated 18 June 2026. University 1 students pay by the teaching unit of each course. A yearly figure is not computed here because the full-time number of credit hours was not read."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [
+      {
+        "name": "International Excellence Entrance Scholarship",
+        "amount": null,
+        "eligibility": "Exceptional international students entering a direct-entry programme; three awards",
+        "deadline": null,
+        "application": "Application by 1 December 2026",
+        "renewable": null,
+        "note": "The value is not stated on the page read.",
+        "basis": "merit",
+        "source": "https://umanitoba.ca/financial-aid-and-awards/entrance-awards",
+        "verified": "2026-10-15"
+      },
+      {
+        "name": "University of Manitoba General Entrance Scholarships",
+        "amount": null,
+        "eligibility": "All new students admitted with transcripts",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": "Amounts were not read.",
+        "basis": "merit",
+        "source": "https://umanitoba.ca/financial-aid-and-awards/entrance-awards",
+        "verified": "2026-10-15"
+      }
+    ],
+    "needBased": {
+      "availableToInternational": false,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "“International students in their first year of post-secondary study in Canada are not eligible to apply to the general bursary program.”",
+      "source": "https://umanitoba.ca/financial-aid-and-awards/entrance-awards",
+      "verified": "2026-10-15"
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "UM — entrance awards and dates",
+      "url": "https://umanitoba.ca/financial-aid-and-awards/entrance-awards"
+    },
+    {
+      "label": "UM — undergraduate tuition 2026-27",
+      "url": "https://umanitoba.ca/registrar/tuition-fees/undergraduate"
+    },
+    {
+      "label": "UM — international tuition and supports",
+      "url": "https://umanitoba.ca/explore/student-experience/tuition-and-financial-supports/international"
+    },
+    {
+      "label": "UM — English proficiency",
+      "url": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements"
+    },
+    {
+      "label": "UM — international admission requirements",
+      "url": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/international-admission-requirements"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "English requirements",
+      "tuition rates",
+      "requirements for Uzbekistan",
+      "scholarships"
+    ],
+    "unconfirmed": [
+      "application deadline for autumn 2027",
+      "application fee",
+      "test policy",
+      "full list of majors",
+      "founding year"
+    ]
+  },
+  "lastVerified": "2026-10-15",
+  "aliases": [
+    "UManitoba",
+    "U of M",
+    "U of Manitoba",
+    "Asper School of Business"
+  ],
+  "programsBasis": "evidence",
+  "province": "MB",
+  "programEvidence": {
+    "humanities": {
+      "program": "Faculty of Arts",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://umanitoba.ca/registrar/tuition-fees/undergraduate",
+      "checked": "2026-10-15"
+    },
+    "engineering": {
+      "program": "Price Faculty of Engineering",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://umanitoba.ca/registrar/tuition-fees/undergraduate",
+      "checked": "2026-10-15"
+    },
+    "business": {
+      "program": "Asper School of Business (Management)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://umanitoba.ca/registrar/tuition-fees/undergraduate",
+      "checked": "2026-10-15"
+    },
+    "arts": {
+      "program": "Fine Arts and Music",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://umanitoba.ca/registrar/tuition-fees/undergraduate",
+      "checked": "2026-10-15"
+    },
+    "medicine": {
+      "program": "Nursing",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://umanitoba.ca/registrar/tuition-fees/undergraduate",
+      "checked": "2026-10-15"
+    },
+    "education": {
+      "program": "Education",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://umanitoba.ca/registrar/tuition-fees/undergraduate",
+      "checked": "2026-10-15"
+    }
+  },
+  "programsStatus": "partial"
+},
+
+{
+  "id": "university-of-guelph",
+  "name": "University of Guelph",
+  "shortName": "U of G",
+  "country": "ca",
+  "city": "Guelph",
+  "region": "Ontario",
+  "founded": null,
+  "type": "Public research university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#1f4d3a",
+    "c2": "#0f2a1f",
+    "initials": "G"
+  },
+  "description": "A university about an hour from Toronto with 75+ majors, known for agriculture, veterinary medicine and life sciences. International tuition rises by no more than 5% a year after entry.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "computer-science",
+    "engineering",
+    "mathematics",
+    "arts"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "computer-science",
+    "engineering",
+    "mathematics",
+    "arts"
+  ],
+  "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
+  "links": {
+    "website": "https://www.uoguelph.ca/",
+    "admissions": "https://www.uoguelph.ca/admission/undergraduate/apply/deadlines",
+    "internationalAdmissions": "https://www.uoguelph.ca/admission/undergraduate/international/requirements",
+    "applicationPortal": "https://www.ouac.on.ca/",
+    "scholarships": "https://www.uoguelph.ca/admission/undergraduate/international/funding",
+    "financialAid": "https://www.uoguelph.ca/admission/undergraduate/international/funding",
+    "programs": "https://www.uoguelph.ca/admission/undergraduate/international/funding",
+    "cost": "https://www.uoguelph.ca/admission/undergraduate/international/funding"
+  },
+  "admissions": {
+    "platforms": [
+      "OUAC (Ontario Universities’ Application Centre)"
+    ],
+    "deadlines": [
+      {
+        "name": "Documents for early admission consideration (students outside Canada)",
+        "kind": "priority",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-01",
+        "date": "1 February 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Applications to Landscape Architecture close on 1 February.",
+        "status": "confirmed",
+        "source": "https://www.uoguelph.ca/admission/undergraduate/apply/deadlines",
+        "verified": "2026-10-15",
+        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Proof of English proficiency (soft deadline)",
+        "kind": "documents",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-03-01",
+        "date": "1 March 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.uoguelph.ca/admission/undergraduate/apply/deadlines",
+        "verified": "2026-10-15",
+        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Dr. Franco J. Vaccarino President’s Scholarship application",
+        "kind": "scholarship",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-03-08",
+        "date": "8 March 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.uoguelph.ca/admission/undergraduate/international/funding",
+        "verified": "2026-10-15",
+        "note": null
+      },
+      {
+        "name": "Application deadline for fall 2027 (high school students outside Canada)",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-05-15",
+        "date": "15 May 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Documents due 22 May.",
+        "status": "confirmed",
+        "source": "https://www.uoguelph.ca/admission/undergraduate/apply/deadlines",
+        "verified": "2026-10-15",
+        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Accept the offer of admission",
+        "kind": "reply",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-06-01",
+        "date": "1 June 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "The C$2,000 tuition deposit is due 15 June.",
+        "status": "confirmed",
+        "source": "https://www.uoguelph.ca/admission/undergraduate/apply/deadlines",
+        "verified": "2026-10-15",
+        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 159,
+      "currency": "CAD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Paid to OUAC, in Canadian dollars: a base fee of C$159 for up to three programme choices, C$51 for each further choice, and a document-evaluation fee of C$95 for Guelph (C$150 for Veterinary Medicine), charged once to applicants outside the Ontario school system (OUAC “Group B”). Some programmes add their own fee.",
+      "source": "https://www.ouac.on.ca/guide/undergrad-fees",
+      "verified": "2026-10-15"
+    },
+    "documents": [
+      "OUAC application",
+      "Transcripts and graduation documents",
+      "English test result unless exempt",
+      "Student Profile Form for some programmes"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "Academic; no band below 6."
+    },
+    "toefl": {
+      "min": 89,
+      "recommended": null,
+      "note": "Tests before 21 January 2026: 89 with no section below 21. Tests from 21 January 2026 (1–6 scale): 4.5 with no section below 4.0. Scores must be no more than two years old at the time of application.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 89,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 110,
+      "recommended": null,
+      "note": "Subscores may be considered."
+    },
+    "waiver": null,
+    "note": "CAEL 70; PTE 60 (60 in each part); Cambridge C1/C2 176 (no band below 169)."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "“SAT/ACT is optional for the fall 2027 admission cycle”; scores are considered only if they help, and applicants without them are not penalized.",
+      "cycle": "Fall 2027",
+      "source": "https://www.uoguelph.ca/admission/undergraduate/international/requirements",
+      "verified": "2026-10-15"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "“SAT/ACT is optional for the fall 2027 admission cycle”; scores are considered only if they help, and applicants without them are not penalized.",
+      "cycle": "Fall 2027",
+      "source": "https://www.uoguelph.ca/admission/undergraduate/international/requirements",
+      "verified": "2026-10-15"
+    },
+    "otherTests": null,
+    "internationalQualifications": "Uzbekistan: the page refers to Russia: Certificate of (Completed) Secondary Education (Attestat) with good grades."
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition in the main figure; fees, insurance, residence, meals, books and personal costs listed separately"
+    },
+    "academicYear": "2025–2026",
+    "currency": "CAD",
+    "studentCategory": "International first-year students; university estimate",
+    "source": "https://www.uoguelph.ca/admission/undergraduate/international/funding",
+    "verified": "2026-10-15",
+    "headline": "C$46,780–C$66,099 tuition a year (2025–26 estimates)",
+    "items": [
+      {
+        "label": "Tuition, most bachelor’s degrees (Arts, Science, Mathematics, Fine Arts and others)",
+        "amount": 46780
+      },
+      {
+        "label": "Tuition, Commerce",
+        "amount": 57112
+      },
+      {
+        "label": "Tuition, Computing",
+        "amount": 58807
+      },
+      {
+        "label": "Tuition, Engineering",
+        "amount": 66099
+      },
+      {
+        "label": "Compulsory fees",
+        "min": 1748,
+        "max": 2297
+      },
+      {
+        "label": "Health insurance (UHIP)",
+        "amount": 948
+      },
+      {
+        "label": "Residence room",
+        "min": 8387,
+        "max": 11742
+      },
+      {
+        "label": "Meal plan",
+        "min": 5750,
+        "max": 7850
+      },
+      {
+        "label": "Textbooks",
+        "amount": 1400
+      },
+      {
+        "label": "Personal expenses",
+        "amount": 2500
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "The page gives two different yearly totals: C$67,513–C$92,836 in its text and C$64,589–C$88,498 in its table; both are based on 2025–26",
+    "note": "“Estimated costs are based on the 2025-26 academic year.” Veterinary Medicine (DVM) is C$101,634. Co-op adds C$405 a term. The C$2,000 tuition deposit is non-refundable.",
+    "status": "previous-cycle"
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [
+      {
+        "name": "President’s International Entrance Scholarship",
+        "amount": "C$32,500–C$42,500 over four years",
+        "eligibility": "International students by admission average (70% and above)",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": true,
+        "note": "Year 1: C$20,000 (95%+), C$16,000 (90–94.9%), C$13,000 (85–89.9%) or C$10,000 (70–84.9%); then C$7,500 a year in years 2–4 with full-time study and an 80% average.",
+        "basis": "merit",
+        "source": "https://www.uoguelph.ca/admission/undergraduate/international/funding",
+        "verified": "2026-10-15"
+      },
+      {
+        "name": "Dr. Franco J. Vaccarino President’s Scholarship",
+        "amount": "C$42,500",
+        "eligibility": "Two top international fee-paying students with academic excellence and contributions to school and community",
+        "deadline": null,
+        "application": "Application by 8 March 2027",
+        "renewable": null,
+        "note": "Includes guaranteed on-campus residence and first-choice room in first year. A competitive award; it is not counted as received.",
+        "basis": "merit",
+        "source": "https://www.uoguelph.ca/admission/undergraduate/international/funding",
+        "verified": "2026-10-15"
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Need-based aid for international first-year students is not described on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Guelph — dates and deadlines",
+      "url": "https://www.uoguelph.ca/admission/undergraduate/apply/deadlines"
+    },
+    {
+      "label": "Guelph — international costs and scholarships",
+      "url": "https://www.uoguelph.ca/admission/undergraduate/international/funding"
+    },
+    {
+      "label": "Guelph — English proficiency",
+      "url": "https://www.uoguelph.ca/admission/undergraduate/international/english-proficiency"
+    },
+    {
+      "label": "Guelph — international requirements",
+      "url": "https://www.uoguelph.ca/admission/undergraduate/international/requirements"
+    },
+    {
+      "label": "OUAC — undergraduate fees",
+      "url": "https://www.ouac.on.ca/guide/undergrad-fees"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "deadlines",
+      "English requirements",
+      "test policy",
+      "requirements for Uzbekistan",
+      "scholarships"
+    ],
+    "unconfirmed": [
+      "tuition for 2026–27 and 2027–28",
+      "full list of majors",
+      "founding year"
+    ]
+  },
+  "lastVerified": "2026-10-15",
+  "aliases": [
+    "U of G",
+    "UofG",
+    "Guelph"
+  ],
+  "programsBasis": "evidence",
+  "province": "ON",
+  "programEvidence": {
+    "business": {
+      "program": "Bachelor of Commerce",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uoguelph.ca/admission/undergraduate/international/funding",
+      "checked": "2026-10-15"
+    },
+    "computer-science": {
+      "program": "Bachelor of Computing",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uoguelph.ca/admission/undergraduate/international/funding",
+      "checked": "2026-10-15"
+    },
+    "engineering": {
+      "program": "Bachelor of Engineering",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uoguelph.ca/admission/undergraduate/international/funding",
+      "checked": "2026-10-15"
+    },
+    "mathematics": {
+      "program": "Bachelor of Mathematics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uoguelph.ca/admission/undergraduate/international/funding",
+      "checked": "2026-10-15"
+    },
+    "arts": {
+      "program": "Bachelor of Fine Arts",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uoguelph.ca/admission/undergraduate/international/funding",
+      "checked": "2026-10-15"
+    }
+  },
+  "programsStatus": "partial"
+},
+
+{
+  "id": "carleton-university",
+  "name": "Carleton University",
+  "shortName": "Carleton",
+  "country": "ca",
+  "city": "Ottawa",
+  "region": "Ontario",
+  "founded": null,
+  "type": "Public research university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#3d3d5c",
+    "c2": "#1f1f2e",
+    "initials": "C"
+  },
+  "description": "A university in Ottawa, Canada’s capital, known for public affairs, journalism, engineering and computer science. International tuition is frozen for 2026/27 to 2028/29.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "humanities",
+    "business",
+    "computer-science",
+    "engineering",
+    "economics",
+    "social-sciences",
+    "arts"
+  ],
+  "englishTaughtPrograms": [
+    "humanities",
+    "business",
+    "computer-science",
+    "engineering",
+    "economics",
+    "social-sciences",
+    "arts"
+  ],
+  "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
+  "links": {
+    "website": "https://carleton.ca/",
+    "admissions": "https://admissions.carleton.ca/deadlines/",
+    "internationalAdmissions": "https://admissions.carleton.ca/international/",
+    "applicationPortal": "https://carleton360.carleton.ca/",
+    "scholarships": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/",
+    "financialAid": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/",
+    "programs": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/",
+    "cost": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/"
+  },
+  "admissions": {
+    "platforms": [
+      "Carleton360 (direct application for international students)",
+      "OUAC (Ontario Universities’ Application Centre)"
+    ],
+    "deadlines": [
+      {
+        "name": "Prestige Scholarship application",
+        "kind": "scholarship",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-03-01",
+        "date": "1 March 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://admissions.carleton.ca/deadlines/",
+        "verified": "2026-10-15",
+        "note": null
+      },
+      {
+        "name": "Programme-specific application deadlines",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-03-01",
+        "date": "1 March 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Some programmes have early deadlines and extra admission material, due 5 March 2027.",
+        "status": "confirmed",
+        "source": "https://admissions.carleton.ca/deadlines/",
+        "verified": "2026-10-15",
+        "note": null
+      },
+      {
+        "name": "Main application deadline for international students (transcripts from outside Canada or the US)",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-04-01",
+        "date": "1 April 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Applications are reviewed on a rolling basis; applying early is encouraged.",
+        "status": "confirmed",
+        "source": "https://admissions.carleton.ca/deadlines/",
+        "verified": "2026-10-15",
+        "note": null
+      }
+    ],
+    "applicationFee": {
+      "amount": 100,
+      "currency": "CAD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Direct application in Carleton360, covering two programmes at Carleton; non-refundable. Through OUAC Carleton states C$166 for three choices, while OUAC’s own page gives a base fee of C$159 plus a C$85 document-evaluation fee for Carleton.",
+      "source": "https://admissions.carleton.ca/apply-now-international-students/",
+      "verified": "2026-10-15"
+    },
+    "documents": [
+      "Carleton360 application (or OUAC)",
+      "Transcripts from the final years of school, diploma and exam results",
+      "English test result unless exempt"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "Academic; 6.0 in each band."
+    },
+    "toefl": {
+      "min": 86,
+      "recommended": null,
+      "note": "Tests before 21 January 2026: 86 with 22 in Writing and Speaking and 20 in Reading and Listening. Tests from 21 January 2026 (1–6 scale): 4.5 with 4.0 in each band.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 86,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 120,
+      "recommended": null,
+      "note": "110 in Writing, Reading and Speaking; 105 in Listening."
+    },
+    "waiver": null,
+    "note": "PTE 55 (47 in each skill); CAEL 70; Cambridge 176 (169 in each part). Lower scores can lead to an offer with required ESL courses."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not stated for national school systems such as Uzbekistan’s on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not stated for national school systems such as Uzbekistan’s on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": "Uzbekistan: not named. For other national curricula Carleton expects secondary-school graduation, normally after 12 years of study; where the system is shorter, one year of university study may be required."
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition only in the main figure; fees, residence, books and personal costs listed separately",
+      "tuition": 39000
+    },
+    "academicYear": "2026–2027 to 2028–2029 (frozen)",
+    "currency": "CAD",
+    "studentCategory": "International undergraduates, tuition per academic year (September–April)",
+    "source": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/",
+    "verified": "2026-10-15",
+    "headline": "C$39,000–C$55,000 tuition a year, frozen to 2028–29",
+    "items": [
+      {
+        "label": "Tuition, Arts, Science, Economics, Mathematics, Music, Public Affairs and other programmes",
+        "amount": 39000
+      },
+      {
+        "label": "Tuition, Accounting, Commerce, Entrepreneurship, Media Production and Design",
+        "amount": 45000
+      },
+      {
+        "label": "Tuition, Architecture, Computer Science, Cyber Security, Data Science, Engineering, Industrial Design, Information Technology",
+        "amount": 55000
+      },
+      {
+        "label": "Miscellaneous fees incl. UHIP and U-Pass (2026, approximate)",
+        "amount": 2500
+      },
+      {
+        "label": "On-campus residence and meal plan, 8 months",
+        "amount": 14010
+      },
+      {
+        "label": "Books and supplies",
+        "amount": 1400
+      },
+      {
+        "label": "Personal expenses",
+        "amount": 3000
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "Tuition is C$39,000, C$45,000 or C$55,000 a year by programme, frozen for 2026/27, 2027/28 and 2028/29; miscellaneous fees about C$2,500; residence with meals C$14,010",
+    "note": "“Tuition fees are frozen in the following academic years: 2026/2027, 2027/2028, 2028/2029.” Miscellaneous fees are not frozen. Nursing is C$39,000 with about C$4,300 in fees. A C$2,000 tuition deposit is required before the PAL."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [
+      {
+        "name": "Carleton Entrance Scholarships",
+        "amount": "C$1,000–C$3,000 a year",
+        "eligibility": "High school applicants with an admission average of 85% or better who meet the academic and English requirements",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": true,
+        "note": "Renewable with an A- standing (annual GPA 10.0); can be regained.",
+        "basis": "merit",
+        "source": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/",
+        "verified": "2026-10-15"
+      },
+      {
+        "name": "President’s Welcome Award for International Students",
+        "amount": "C$2,000–C$5,000, first year only",
+        "eligibility": "International students applying for September 2027, entering directly from high school and paying international fees",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": false,
+        "note": "By grades at admission; in addition to other entrance scholarships.",
+        "basis": "merit",
+        "source": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/",
+        "verified": "2026-10-15"
+      },
+      {
+        "name": "Prestige Scholarships",
+        "amount": "C$5,000–C$14,178 a year",
+        "eligibility": "Applicants with an admission average over 90%",
+        "deadline": null,
+        "application": "Application by 1 March 2027",
+        "renewable": true,
+        "note": "Renewable with a minimum A- (10.0 GPA) in full-time studies.",
+        "basis": "merit",
+        "source": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/",
+        "verified": "2026-10-15"
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Need-based aid for international first-year students is not described on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Carleton — dates and deadlines",
+      "url": "https://admissions.carleton.ca/deadlines/"
+    },
+    {
+      "label": "Carleton — how international students apply",
+      "url": "https://admissions.carleton.ca/apply-now-international-students/"
+    },
+    {
+      "label": "Carleton — USA and international costs",
+      "url": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/"
+    },
+    {
+      "label": "Carleton — English language requirements",
+      "url": "https://admissions.carleton.ca/esl/"
+    },
+    {
+      "label": "Carleton — international admission requirements",
+      "url": "https://admissions.carleton.ca/international/"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "2027 deadlines",
+      "application fee",
+      "English requirements",
+      "tuition",
+      "scholarships"
+    ],
+    "unconfirmed": [
+      "test policy",
+      "full list of majors",
+      "founding year"
+    ]
+  },
+  "lastVerified": "2026-10-15",
+  "aliases": [
+    "Carleton",
+    "CU"
+  ],
+  "programsBasis": "evidence",
+  "province": "ON",
+  "programEvidence": {
+    "humanities": {
+      "program": "Bachelor of Arts",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/",
+      "checked": "2026-10-15"
+    },
+    "business": {
+      "program": "Bachelor of Commerce",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/",
+      "checked": "2026-10-15"
+    },
+    "computer-science": {
+      "program": "Bachelor of Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/",
+      "checked": "2026-10-15"
+    },
+    "engineering": {
+      "program": "Bachelor of Engineering",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/",
+      "checked": "2026-10-15"
+    },
+    "economics": {
+      "program": "Bachelor of Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/",
+      "checked": "2026-10-15"
+    },
+    "social-sciences": {
+      "program": "Bachelor of Public Affairs and Policy Management",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/",
+      "checked": "2026-10-15"
+    },
+    "arts": {
+      "program": "Bachelor of Music",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/",
+      "checked": "2026-10-15"
+    }
+  },
+  "programsStatus": "partial"
+},
+
+{
+  "id": "york-university",
+  "name": "York University",
+  "shortName": "York",
+  "country": "ca",
+  "city": "Toronto",
+  "region": "Ontario",
+  "founded": null,
+  "type": "Public research university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#4b2e83",
+    "c2": "#2c1a4d",
+    "initials": "Y"
+  },
+  "description": "A large university in Toronto with the Keele campus, the bilingual Glendon campus and a campus in Markham; home of the Schulich School of Business and the Lassonde School of Engineering.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "computer-science",
+    "engineering",
+    "arts",
+    "medicine"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "computer-science",
+    "engineering",
+    "arts",
+    "medicine"
+  ],
+  "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
+  "links": {
+    "website": "https://www.yorku.ca/",
+    "admissions": "https://futurestudents.yorku.ca/requirements/deadlines",
+    "internationalAdmissions": "https://futurestudents.yorku.ca/your-application/how-apply/international-student",
+    "applicationPortal": "https://futurestudents.yorku.ca/requirements/apply",
+    "scholarships": "https://futurestudents.yorku.ca/financing-your-degree/international-scholarships",
+    "financialAid": "https://futurestudents.yorku.ca/financing-your-degree/international-scholarships",
+    "programs": "https://futurestudents.yorku.ca/requirements/deadlines",
+    "cost": "https://futurestudents.yorku.ca/financing-your-degree/tuition-fees"
+  },
+  "admissions": {
+    "platforms": [
+      "York University application (international, applying only to York)",
+      "OUAC (Ontario Universities’ Application Centre)"
+    ],
+    "deadlines": [
+      {
+        "name": "Schulich BBA: application deadline",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Schulich does not accept applications after 15 January; its supplementary application is due 1 February 2027. Social Work also closes on 15 January.",
+        "status": "confirmed",
+        "source": "https://futurestudents.yorku.ca/requirements/deadlines",
+        "verified": "2026-10-15",
+        "note": null
+      },
+      {
+        "name": "President’s International Scholarship of Excellence: student application",
+        "kind": "scholarship",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-27",
+        "date": "27 January 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Nominee’s deadline 4 February 2027.",
+        "status": "confirmed",
+        "source": "https://futurestudents.yorku.ca/financing-your-degree/international-scholarships",
+        "verified": "2026-10-15",
+        "note": null
+      },
+      {
+        "name": "Direct Entry Nursing application deadline",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-01",
+        "date": "1 February 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://futurestudents.yorku.ca/requirements/deadlines",
+        "verified": "2026-10-15",
+        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Application deadline for international students (fall 2027)",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-03-24",
+        "date": "24 March 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Applications are still accepted and assessed until each programme is full; apply early for study permit time.",
+        "status": "confirmed",
+        "source": "https://futurestudents.yorku.ca/requirements/deadlines",
+        "verified": "2026-10-15",
+        "note": null
+      }
+    ],
+    "applicationFee": {
+      "amount": 140,
+      "currency": "CAD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "York University application, non-refundable, by Visa, Visa Debit or MasterCard. Ontario high school students apply through OUAC (base fee C$159 plus a C$90 document-evaluation fee for York for applicants outside Ontario schools; Schulich BBA adds C$50).",
+      "source": "https://futurestudents.yorku.ca/requirements/apply",
+      "verified": "2026-10-15"
+    },
+    "documents": [
+      "York University application (or OUAC)",
+      "Transcripts and school documents",
+      "English test result unless exempt",
+      "Supplementary application for Schulich, AMPD, Creative Writing and some other programmes"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "Academic only; One Skill Retake accepted."
+    },
+    "toefl": {
+      "min": 88,
+      "recommended": null,
+      "note": "Tests before 21 January 2026: 88. Tests from 21 January 2026 (1–6 scale): 4.5. Home Edition accepted.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 88,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 120,
+      "recommended": null,
+      "note": null
+    },
+    "waiver": null,
+    "note": "PTE 60; CAEL 60; Cambridge C1 Advanced with no score below 180. Some programmes ask for more."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "conditional",
+      "note": "Required (SAT 1170 or ACT 24) only of students who are not in a recognized accredited U.S. curriculum or have not studied in a formal high-school setting; not required from accredited U.S. curricula. Applicants from national systems such as Uzbekistan’s are assessed on their school certificate.",
+      "source": "https://futurestudents.yorku.ca/your-application/how-apply/international-student",
+      "verified": "2026-10-15",
+      "label": "SAT/ACT required only for some school systems"
+    },
+    "act": {
+      "policy": "conditional",
+      "note": "Required (SAT 1170 or ACT 24) only of students who are not in a recognized accredited U.S. curriculum or have not studied in a formal high-school setting; not required from accredited U.S. curricula. Applicants from national systems such as Uzbekistan’s are assessed on their school certificate.",
+      "source": "https://futurestudents.yorku.ca/your-application/how-apply/international-student",
+      "verified": "2026-10-15",
+      "label": "SAT/ACT required only for some school systems"
+    },
+    "otherTests": null,
+    "internationalQualifications": "Uzbekistan: Attestat o Srednem Obrazovanii (Certificate of Secondary Education)."
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition only in the main figure; housing, meals, health plan and personal costs listed separately",
+      "tuition": 40000
+    },
+    "academicYear": "2026–2027",
+    "currency": "CAD",
+    "studentCategory": "International undergraduates, full course load; approximate university figures",
+    "source": "https://futurestudents.yorku.ca/financing-your-degree/tuition-fees",
+    "verified": "2026-10-15",
+    "headline": "About C$38,000–C$47,000 tuition a year (2026–27)",
+    "items": [
+      {
+        "label": "Tuition, most programmes (Arts and Sciences)",
+        "amount": 40000
+      },
+      {
+        "label": "Tuition, Business programmes",
+        "min": 40000,
+        "max": 44000
+      },
+      {
+        "label": "Tuition, Computer Science",
+        "amount": 38000
+      },
+      {
+        "label": "Tuition, Design",
+        "amount": 40000
+      },
+      {
+        "label": "Tuition, Engineering",
+        "amount": 47000
+      },
+      {
+        "label": "Residence",
+        "min": 9000,
+        "max": 13000
+      },
+      {
+        "label": "Meal plan",
+        "min": 4350,
+        "max": 8000
+      },
+      {
+        "label": "Health and dental, incl. UHIP (international students)",
+        "amount": 1151
+      },
+      {
+        "label": "Personal expenses",
+        "amount": 4200
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "Approximate tuition for fall/winter 2026–27: C$38,000 (Computer Science) to C$47,000 (Engineering); residence C$9,000–C$13,000 and meals C$4,350–C$8,000",
+    "note": "“Fees listed are approximate values based on a full course load.” Course and programme fees of about C$40–C$50 per credit are extra."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [
+      {
+        "name": "President’s International Scholarship of Excellence (PISE)",
+        "amount": "C$180,000 (C$45,000 a year for four years)",
+        "eligibility": "International high school applicants with academic excellence, volunteer and extracurricular commitment and leadership",
+        "deadline": null,
+        "application": "Student application by 27 January 2027; nominee’s deadline 4 February 2027",
+        "renewable": true,
+        "note": "Cannot be combined with entrance scholarships. A competitive award; it is not counted as received.",
+        "basis": "merit",
+        "source": "https://futurestudents.yorku.ca/financing-your-degree/international-scholarships",
+        "verified": "2026-10-15"
+      },
+      {
+        "name": "York International Entrance Scholarships",
+        "amount": "C$5,000 one-time to C$37,500 over four years (2026/27 table)",
+        "eligibility": "International high school applicants by final admission average (75% and above)",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": true,
+        "note": "The table on the page is for Fall/Winter 2026/27 “only”: Scholarship of Distinction C$15,000 + C$7,500 a year (C$37,500), Merit Award (80–89.9%) C$10,000 + C$5,000 a year (C$25,000), Entrance Award (75–79.9%) C$5,000 once. Renewable with a 7.5 GPA (B+). The values for fall 2027 are not yet published.",
+        "basis": "merit",
+        "source": "https://futurestudents.yorku.ca/financing-your-degree/international-scholarships",
+        "verified": "2026-10-15"
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Need-based aid for international first-year students is not described on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "York — application deadlines",
+      "url": "https://futurestudents.yorku.ca/requirements/deadlines"
+    },
+    {
+      "label": "York — how to apply and fee",
+      "url": "https://futurestudents.yorku.ca/requirements/apply"
+    },
+    {
+      "label": "York — tuition and fees 2026-27",
+      "url": "https://futurestudents.yorku.ca/financing-your-degree/tuition-fees"
+    },
+    {
+      "label": "York — international scholarships",
+      "url": "https://futurestudents.yorku.ca/financing-your-degree/international-scholarships"
+    },
+    {
+      "label": "York — English language tests",
+      "url": "https://futurestudents.yorku.ca/requirements/language-tests"
+    },
+    {
+      "label": "York — requirements by country",
+      "url": "https://futurestudents.yorku.ca/requirements/hs-international-countries"
+    },
+    {
+      "label": "York — international applicants and SAT/ACT",
+      "url": "https://futurestudents.yorku.ca/your-application/how-apply/international-student"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "2027 deadlines",
+      "application fee",
+      "English requirements",
+      "test policy",
+      "requirements for Uzbekistan",
+      "tuition"
+    ],
+    "unconfirmed": [
+      "entrance scholarship values for fall 2027",
+      "full list of majors",
+      "founding year"
+    ]
+  },
+  "lastVerified": "2026-10-15",
+  "aliases": [
+    "York",
+    "YorkU",
+    "York U",
+    "Schulich",
+    "Glendon"
+  ],
+  "programsBasis": "evidence",
+  "province": "ON",
+  "campuses": [
+    "Keele",
+    "Glendon (bilingual)",
+    "Markham"
+  ],
+  "programEvidence": {
+    "business": {
+      "program": "Schulich School of Business (BBA)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://futurestudents.yorku.ca/requirements/deadlines",
+      "checked": "2026-10-15"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://futurestudents.yorku.ca/financing-your-degree/tuition-fees",
+      "checked": "2026-10-15"
+    },
+    "engineering": {
+      "program": "Engineering",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://futurestudents.yorku.ca/financing-your-degree/tuition-fees",
+      "checked": "2026-10-15"
+    },
+    "arts": {
+      "program": "School of the Arts, Media, Performance & Design (BFA Music, Visual Arts)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://futurestudents.yorku.ca/requirements/deadlines",
+      "checked": "2026-10-15"
+    },
+    "medicine": {
+      "program": "Nursing (Direct Entry)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://futurestudents.yorku.ca/requirements/deadlines",
+      "checked": "2026-10-15"
+    }
+  },
+  "programsStatus": "partial"
 }
 );

@@ -53,7 +53,7 @@ DB.universities.forEach(function (u) { byCountry[u.country] = (byCountry[u.count
    US_NOW is raised with each batch; the other countries must not change. */
 var US_NOW = 200, US_TARGET = 200;
 /* Canada (October 2026): 50 universities added in batches of ten. */
-var CA_NOW = 10, CA_TARGET = 50;
+var CA_NOW = 19, CA_TARGET = 50;
 ok(byCountry.us === US_NOW && US_NOW <= US_TARGET, US_NOW + ' United States records (target ' + US_TARGET + ')', 'found ' + byCountry.us);
 ok(byCountry.ca === CA_NOW && CA_NOW <= CA_TARGET, CA_NOW + ' Canadian records (target ' + CA_TARGET + ')', 'found ' + byCountry.ca);
 ok(DB.universities.length === US_NOW + 120 + CA_NOW, (US_NOW + 120 + CA_NOW) + ' institutions in all', 'found ' + DB.universities.length);
@@ -320,6 +320,12 @@ group('profile rendering');
   var aidCard = hv.slice(hv.indexOf('Need-based financial aid'));
   ok(/Financial aid deadlines[\s\S]{0,400}1 November 2026/.test(aidCard), 'Harvard: the aid section shows the confirmed dates from the rounds, not "Not checked"');
   ok(hv.indexOf('Required costs not included in the published total') > -1 && hv.indexOf('$100,088') > -1, 'Harvard: insurance is listed apart and the sum with it is labelled as calculated');
+  var rangeRows = DB.universities.filter(function (u) {
+    return (u.costs && u.costs.items || []).some(function (i) { return typeof i.min === 'number' && typeof i.max === 'number' && !('amount' in i); });
+  });
+  var we = page('western-university');
+  ok(rangeRows.length > 0 && /C\$48,000–C\$64,400/.test(we),
+    'a cost line given as a range shows both ends instead of "Not checked" (Western: C$48,000–C$64,400)', rangeRows.length + ' records with range lines');
   var be = page('berea-college');
   ok(be.indexOf('What an admitted international student pays') > -1, 'Berea: the cost section says what an admitted student pays');
   ok(be.indexOf('winning one is not guaranteed') < 0, 'Berea: the competitive-scholarship text is not used for guaranteed aid');
@@ -668,6 +674,14 @@ group('Canada');
   var we = U.uniById('western-university');
   ok(we.costs.status === 'previous-cycle' && !(DB.match.annualCost || {})['western-university'],
     'Western: costs from 2025–26 are marked as an earlier cycle and are not compared with a budget');
+  var lv = U.uniById('universite-laval');
+  ok(lv.englishTaught === false && !U.ieltsMin(lv) && lv.frenchRequirement && lv.costs.breakdown.period === 'semester' &&
+     (DB.match.annualCost || {})['universite-laval'].calc === 'two-semesters',
+    'Université Laval: French-language, French requirement recorded, per-term fee kept per term and the yearly figure marked as calculated');
+  var yk = U.uniById('york-university'), gu = U.uniById('university-of-guelph');
+  ok(U.satPolicy(yk) === 'conditional' && gu.costs.status === 'previous-cycle' && !(DB.match.annualCost || {})['university-of-guelph'],
+    'York: SAT/ACT only for some school systems; Guelph: 2025–26 estimates kept out of the budget comparison');
+  ok(!U.uniById('university-of-victoria'), 'University of Victoria is not added while its site could not be read');
 })();
 
 

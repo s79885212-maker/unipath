@@ -42,6 +42,15 @@ window.UNIPATH.match = {
   annualCost: {
 
     /* Canada, October 2026 */
+    'queens-university': { currency: 'CAD', basis: 'total', min: 65996.8, max: 82026.8, note: 'University fee calculator 2026–27: tuition, UHIP, fees, books, double room and meal plan (Arts to Commerce)' },
+    'dalhousie-university': { currency: 'CAD', basis: 'tuition', min: 30906, max: 48594, note: 'Guaranteed tuition 2026–27 by faculty (Agriculture to Engineering); fees, housing and food extra' },
+    'simon-fraser-university': { currency: 'CAD', basis: 'total', min: 57303, max: 57303, note: 'University estimate for 2026–27: tuition and fees, books, single room with meals, insurance (Arts and Social Sciences or Science)' },
+    'universite-laval': { currency: 'CAD', calc: 'two-semesters', basis: 'tuition', min: 28232.96, max: 28232.96, note: 'Two terms of 15 credits at the 2026–27 per-term total — calculated by UniPath, not printed by the university; insurance, housing and food extra' },
+    'university-of-saskatchewan': { currency: 'CAD', basis: 'tuition', min: 39007, max: 59383, note: 'Tuition estimates 2026–27 for a first-year full load (Arts to Engineering; PharmD higher); fees, housing and food extra' },
+    'carleton-university': { currency: 'CAD', basis: 'tuition', min: 39000, max: 55000, note: 'Tuition frozen for 2026/27–2028/29 by programme; fees about C$2,500, housing and food extra' },
+    'york-university': { currency: 'CAD', basis: 'tuition', min: 38000, max: 47000, note: 'Approximate tuition 2026–27 for a full load (Computer Science to Engineering); fees, housing and food extra' },
+
+    /* Canada, October 2026 */
     'university-of-toronto': { currency: 'CAD', basis: 'tuition', min: 50490, max: 72860, note: 'Tuition 2026–27 by programme (Music to Engineering); fees, UHIP, housing and food extra' },
     'university-of-british-columbia': { currency: 'CAD', basis: 'tuition', min: 48779.8, max: 66678.3, note: 'Vancouver tuition 2026/27 for a first-year course load; fees, insurance, housing and food extra' },
     'mcgill-university': { currency: 'CAD', basis: 'tuition', min: 57646.94, max: 75395.74, note: 'Tuition, required fees and international health insurance 2026–27 (B.A. to B.Com.); housing and food extra' },
