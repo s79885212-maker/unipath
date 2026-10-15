@@ -43,6 +43,7 @@ DATA_FILES = [
     "data/universities.kr.js",
     "data/universities.uk.js",
     "data/universities.de.js",
+    "data/universities.ca.js",
     "data/photos.js",
     "data/admission-profiles.js",
     "data/degrees.js",
@@ -110,7 +111,7 @@ def has(value) -> bool:
 
 
 def money(amount, currency):
-    sym = {"USD": "$", "JPY": "¥", "KRW": "₩", "GBP": "£", "EUR": "€"}.get(currency, "")
+    sym = {"USD": "$", "CAD": "C$", "JPY": "¥", "KRW": "₩", "GBP": "£", "EUR": "€"}.get(currency, "")
     if isinstance(amount, float) and not amount.is_integer():
         return f"{sym}{amount:,.2f}"
     return f"{sym}{int(amount):,}"
@@ -240,7 +241,7 @@ def head_tags(title, description, url, image=None, og_type="website"):
 
 
 
-CURRENCY_SYMBOL = {"USD": "$", "JPY": "¥", "KRW": "₩", "GBP": "£", "EUR": "€"}
+CURRENCY_SYMBOL = {"USD": "$", "CAD": "C$", "JPY": "¥", "KRW": "₩", "GBP": "£", "EUR": "€"}
 
 
 def money(amount, currency):

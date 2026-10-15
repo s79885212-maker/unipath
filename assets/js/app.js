@@ -111,7 +111,7 @@
     return m ? decodeURIComponent(m[1].replace(/\+/g, ' ')) : null;
   }
 
-  var CURRENCY_SYMBOL = { USD: '$', JPY: '¥', KRW: '₩', GBP: '£', EUR: '€' };
+  var CURRENCY_SYMBOL = { USD: '$', CAD: 'C$', JPY: '¥', KRW: '₩', GBP: '£', EUR: '€' };
   function money(amount, currency) {
     if (!has(amount)) return UNKNOWN;
     var sym = CURRENCY_SYMBOL[currency] || '';
@@ -165,6 +165,9 @@
        not-used              — not part of admission (test-blind)
        accepted              — scores are accepted, but whether they are
                                required is not confirmed
+       conditional           — required only for some school systems (for
+                               example a U.S. high school diploma); the record
+                               says which. Not the same as optional.
        not-applicable        — the admission route does not use the US
                                SAT/ACT categories at all (it selects on
                                national exams, school results or its own
@@ -173,7 +176,7 @@
        unknown               — no confirmed policy
      Unknown is never treated as optional. A record may carry its own
      short `label` when the university's wording needs it. */
-  var SAT_POLICIES = ['required', 'required-alternatives', 'optional', 'not-used', 'accepted', 'not-applicable'];
+  var SAT_POLICIES = ['required', 'required-alternatives', 'conditional', 'optional', 'not-used', 'accepted', 'not-applicable'];
   function satPolicy(u) {
     var p = u.academics && u.academics.sat ? u.academics.sat.policy : null;
     return SAT_POLICIES.indexOf(p) > -1 ? p : 'unknown';
@@ -184,6 +187,7 @@
     'optional': 'Test-optional',
     'not-used': 'SAT/ACT not used',
     'accepted': 'SAT/ACT accepted — requirement not confirmed',
+    'conditional': 'SAT/ACT required only for some school systems',
     'not-applicable': 'SAT/ACT not part of this admission route',
     'unknown': 'SAT/ACT policy not checked'
   };
@@ -560,7 +564,8 @@
   var FIXED_ZONES = { 'JST': 540, 'KST': 540, 'Japan time': 540, 'UTC': 0, 'GMT': 0 };
   var IANA_ZONES = { 'UK time': 'Europe/London', 'CET': 'Europe/Berlin', 'CEST': 'Europe/Berlin', 'German time': 'Europe/Berlin',
     'ET': 'America/New_York', 'Eastern Time': 'America/New_York', 'CT': 'America/Chicago', 'Central Time': 'America/Chicago',
-    'MT': 'America/Denver', 'PT': 'America/Los_Angeles', 'Pacific Time': 'America/Los_Angeles' };
+    'MT': 'America/Denver', 'PT': 'America/Los_Angeles', 'Pacific Time': 'America/Los_Angeles',
+    'AT': 'America/Halifax', 'Atlantic Time': 'America/Halifax', 'NT': 'America/St_Johns', 'Newfoundland Time': 'America/St_Johns' };
   /* Offset of an IANA zone from UTC, in minutes, at a given instant. */
   function zoneOffset(iana, utcMs) {
     try {
@@ -927,6 +932,13 @@
 
   /* ---------------- search index ---------------- */
 
+  /* Accents are ignored on both sides, so "Montreal" finds "Montréal" and
+     "Universite de Montreal" finds Université de Montréal. */
+  function fold(x) {
+    var s = String(x || '').toLowerCase();
+    return s.normalize ? s.normalize('NFD').replace(/[\u0300-\u036f]/g, '') : s;
+  }
+
   var index = DB.universities.map(function (u) {
     var parts = [
       u.name, u.shortName || '', u.city, u.region || '',
@@ -957,11 +969,11 @@
       if (meritList(u).length) facets.push('Merit scholarships');
       text += ' · ' + parts.concat(facets).map(tr).join(' · ');
     }
-    return { u: u, text: text.toLowerCase() };
+    return { u: u, text: fold(text) };
   });
 
   function search(query, limit) {
-    var q = String(query || '').trim().toLowerCase();
+    var q = fold(String(query || '').trim());
     if (!q) return [];
     var terms = q.split(/\s+/);
     var hits = [];
@@ -971,14 +983,14 @@
         var t = terms[i];
         if (row.text.indexOf(t) === -1) { ok = false; break; }
         score += 1;
-        if (row.u.name.toLowerCase().indexOf(t) === 0) score += 6;
-        else if (row.u.name.toLowerCase().indexOf(t) > -1) score += 3;
-        if ((row.u.shortName || '').toLowerCase() === t) score += 8;
+        if (fold(row.u.name).indexOf(t) === 0) score += 6;
+        else if (fold(row.u.name).indexOf(t) > -1) score += 3;
+        if (fold(row.u.shortName) === t) score += 8;
         /* A former or everyday name (UMN, IUPUI) ranks its own record first. */
-        var al = (row.u.aliases || []).map(function (a) { return a.toLowerCase(); });
+        var al = (row.u.aliases || []).map(fold);
         if (al.indexOf(t) > -1) score += 8;
         else if (al.join(' ').indexOf(t) > -1) score += 3;
-        if (row.u.city.toLowerCase().indexOf(t) > -1) score += 2;
+        if (fold(row.u.city).indexOf(t) > -1) score += 2;
       }
       if (ok) hits.push({ u: row.u, score: score });
     });
@@ -1015,6 +1027,7 @@
       options: [
         { id: 'sat-required', label: 'SAT/ACT required', test: function (u) { return satPolicy(u) === 'required'; } },
         { id: 'sat-alternatives', label: 'Testing required, alternatives accepted', test: function (u) { return satPolicy(u) === 'required-alternatives'; } },
+        { id: 'sat-conditional', label: 'SAT/ACT only for some school systems', test: function (u) { return satPolicy(u) === 'conditional'; } },
         { id: 'sat-optional', label: 'SAT/ACT optional', test: function (u) { return satPolicy(u) === 'optional'; } },
         { id: 'sat-none', label: 'SAT/ACT not required', test: function (u) { return satNotRequired(u); } },
         { id: 'sat-na', label: 'SAT/ACT not part of the admission route', test: function (u) { return satPolicy(u) === 'not-applicable'; } },

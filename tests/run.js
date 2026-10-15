@@ -52,8 +52,11 @@ DB.universities.forEach(function (u) { byCountry[u.country] = (byCountry[u.count
 /* United States expansion (October 2026): 110 records grow to 200 in batches.
    US_NOW is raised with each batch; the other countries must not change. */
 var US_NOW = 200, US_TARGET = 200;
+/* Canada (October 2026): 50 universities added in batches of ten. */
+var CA_NOW = 10, CA_TARGET = 50;
 ok(byCountry.us === US_NOW && US_NOW <= US_TARGET, US_NOW + ' United States records (target ' + US_TARGET + ')', 'found ' + byCountry.us);
-ok(DB.universities.length === US_NOW + 120, (US_NOW + 120) + ' institutions in all', 'found ' + DB.universities.length);
+ok(byCountry.ca === CA_NOW && CA_NOW <= CA_TARGET, CA_NOW + ' Canadian records (target ' + CA_TARGET + ')', 'found ' + byCountry.ca);
+ok(DB.universities.length === US_NOW + 120 + CA_NOW, (US_NOW + 120 + CA_NOW) + ' institutions in all', 'found ' + DB.universities.length);
 ok(byCountry.uk === 30 && byCountry.de === 30 && byCountry.jp === 30 && byCountry.kr === 30,
   '30 / 30 / 30 / 30 in the other countries', JSON.stringify(byCountry));
 var ids = {}; var dup = [];
@@ -536,7 +539,8 @@ group('corrections after the expansion');
       if (!e || !e.program || !/^https:\/\//.test(e.url || '') || !e.checked || e.level !== 'bachelor') badEv.push(u.id + ':' + t);
     });
     Object.keys(u.programEvidence || {}).forEach(function (t) { if ((u.programs || []).indexOf(t) < 0) badEv.push(u.id + ':extra ' + t); });
-    if ((u.englishTaughtPrograms || []).join() !== (u.programs || []).join()) badEv.push(u.id + ':english list differs');
+    var inEnglish = (u.programs || []).filter(function (t) { var e = (u.programEvidence || {})[t]; return !e || /English/.test(e.language || 'English'); });
+    if ((u.englishTaughtPrograms || []).join() !== inEnglish.join()) badEv.push(u.id + ':english list differs');
   });
   ok(!badEv.length, 'every field tag written from an official list names its programme, level, page and check date', badEv.slice(0, 6).join('; '));
   var evN = DB.universities.filter(function (u) { return u.programsBasis === 'evidence'; }).length;
@@ -621,6 +625,51 @@ group('corrections after the expansion');
   var noStatus = DB.universities.filter(function (u) { return !(u.programs || []).length && U.programsChecked(u); }).map(function (u) { return u.id; });
   ok(!noStatus.length, 'a record without field tags says that its list of majors was not checked', noStatus.join(', '));
 })();
+
+/* ---------------- Canada (October 2026) ---------------- */
+group('Canada');
+(function () {
+  var ca = DB.universities.filter(function (u) { return u.country === 'ca'; });
+  var bad = [];
+  ca.forEach(function (u) {
+    var c = u.costs || {}, f = (u.admissions || {}).applicationFee || {};
+    if (c.currency !== 'CAD') bad.push(u.id + ': costs not in CAD');
+    if (f.amount != null && f.currency !== 'CAD') bad.push(u.id + ': fee not in CAD');
+    var a = (DB.match.annualCost || {})[u.id];
+    if (a && a.currency !== 'CAD') bad.push(u.id + ': yearly figure not in CAD');
+    (u.admissions.deadlines || []).forEach(function (d) {
+      if (/^(ED|ED2|EA|REA|RD)$/.test(d.kind || '')) bad.push(u.id + ': US round type ' + d.kind);
+      if (!d.source || !d.verified) bad.push(u.id + ': undated source for ' + d.name);
+    });
+    if ((u.programs || []).indexOf('other') > -1) bad.push(u.id + ': tag "other"');
+    if (!u.sources || u.sources.length < 3) bad.push(u.id + ': fewer than three sources');
+    if (/Ontario/.test(String(u.region)) && !/OUAC/.test(JSON.stringify(u.admissions.platforms))) bad.push(u.id + ': Ontario record without OUAC');
+  });
+  ok(!bad.length, 'every Canadian record keeps CAD, Canadian round names, sourced dates and its sources', bad.slice(0, 6).join('; '));
+  var names = {};
+  ca.forEach(function (u) { [u.name].concat(u.aliases || []).forEach(function (n) { var k = n.toLowerCase(); names[k] = (names[k] || []).concat(u.id); }); });
+  var clash = Object.keys(names).filter(function (k) { return names[k].length > 1 && names[k].some(function (a, i, s) { return s.indexOf(a) !== i ? false : s.length > 1 && s[0] !== s[1]; }); });
+  ok(!clash.length, 'no two Canadian records share a name or alias (campuses are one record)', clash.join(', '));
+  var udem = U.uniById('universite-de-montreal');
+  ok(udem.englishTaught === false && !U.ieltsMin(udem) && /French/.test(JSON.stringify(udem.english.note)) && udem.academics.sat.policy === 'not-applicable',
+    'Université de Montréal: French-language, no IELTS minimum is invented, SAT/ACT not part of the route');
+  ok(U.search('universite de montreal')[0] && U.search('universite de montreal')[0].id === 'universite-de-montreal' && U.search('Montreal').some(function (u) { return u.id === 'mcgill-university'; }),
+    'search ignores accents: “universite de montreal” finds Université de Montréal');
+  var mg = U.uniById('mcgill-university');
+  ok(U.satPolicy(mg) === 'conditional' && !U.satNotRequired(mg), 'McGill: SAT/ACT only for a U.S. diploma is its own state, not test-optional');
+  var ev = function (id, budget, cur) { return M.evaluate(U.uniById(id), { ielts: null, sat: null, gpa: null, budget: budget, currency: cur }).budget; };
+  var cad = ev('university-of-alberta', 39232.8, 'CAD'), usd = ev('university-of-alberta', 39232.8, 'USD');
+  ok(/C\$39,233/.test(cad.text) && !/C\$/.test(usd.text) && /\$27,/.test(usd.text) && cad.status !== usd.status,
+    'a CAD budget is compared with CAD tuition as is; a USD budget is set against the cost converted at the dated ECB rate, never read as CAD', cad.text + ' | ' + usd.text);
+  var ut = U.uniById('university-of-toronto');
+  ok(ut.scholarships.fullRide.available === true && /nomination deadline has passed/.test(ut.scholarships.fullRide.note) &&
+     ev('university-of-toronto', 50000, 'CAD').status !== 'core-covered',
+    'Toronto: the Pearson Scholarship is shown with its passed nomination date and is never subtracted from the cost');
+  var we = U.uniById('western-university');
+  ok(we.costs.status === 'previous-cycle' && !(DB.match.annualCost || {})['western-university'],
+    'Western: costs from 2025–26 are marked as an earlier cycle and are not compared with a budget');
+})();
+
 
 console.log('\n' + passed + ' passed, ' + failed + ' failed');
 /* Exit with a status only when run directly; tests/links.js loads this file for the data. */

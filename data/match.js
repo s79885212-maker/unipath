@@ -34,12 +34,23 @@
    ============================================================ */
 window.UNIPATH.match = {
   rates: {
-    date: '2026-09-18',
+    date: '2026-10-14',
     source: 'European Central Bank euro reference rates',
     url: 'https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html',
-    perEUR: { EUR: 1, USD: 1.1460, GBP: 0.85880, JPY: 180.94, KRW: 1590.76 }
+    perEUR: { EUR: 1, USD: 1.1195, CAD: 1.5918, GBP: 0.84385, JPY: 177.39, KRW: 1496.54 }
   },
   annualCost: {
+
+    /* Canada, October 2026 */
+    'university-of-toronto': { currency: 'CAD', basis: 'tuition', min: 50490, max: 72860, note: 'Tuition 2026–27 by programme (Music to Engineering); fees, UHIP, housing and food extra' },
+    'university-of-british-columbia': { currency: 'CAD', basis: 'tuition', min: 48779.8, max: 66678.3, note: 'Vancouver tuition 2026/27 for a first-year course load; fees, insurance, housing and food extra' },
+    'mcgill-university': { currency: 'CAD', basis: 'tuition', min: 57646.94, max: 75395.74, note: 'Tuition, required fees and international health insurance 2026–27 (B.A. to B.Com.); housing and food extra' },
+    'university-of-alberta': { currency: 'CAD', basis: 'tuition', min: 39232.8, max: 49952.4, note: 'Guaranteed Fall 2026 tuition (BA to engineering); fees, housing and food extra' },
+    'mcmaster-university': { currency: 'CAD', basis: 'tuition', min: 45158.4, max: 69353.54, note: 'University estimate of 2026/27 tuition by programme; ancillary fees, housing and food extra' },
+    'universite-de-montreal': { currency: 'CAD', basis: 'tuition', min: 30772.8, max: 30772.8, note: 'Tuition 2026–27 for 30 credits, before other fees and before any exemption' },
+    'university-of-waterloo': { currency: 'CAD', basis: 'tuition', min: 51000, max: 75000, note: 'University estimate of 2026–27 tuition and incidental fees by programme; housing and food extra' },
+    'university-of-ottawa': { currency: 'CAD', calc: 'two-semesters', basis: 'tuition', min: 43335.08, max: 63164.3, note: 'Two terms at the 2026–27 per-term rates — calculated by UniPath, not printed by the university; before the C$15,000 entrance scholarship' },
+    'university-of-calgary': { currency: 'CAD', basis: 'total', min: 43081.8, max: 52582.8, note: 'University estimator, two terms 2026–27: tuition, general fees, residence and meal plan (Arts to Engineering); books extra' },
     'texas-a-and-m-university': { currency: 'USD', calc: 'two-semesters', basis: 'total', min: 60215, max: 62272 },
     'marist-university': { currency: 'USD', basis: 'total', min: 76875, max: 76875 },
     'xavier-university-of-louisiana': { currency: 'USD', calc: 'two-semesters', basis: 'billed', min: 41427, max: 43492 },

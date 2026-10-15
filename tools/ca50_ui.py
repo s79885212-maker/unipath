@@ -1,0 +1,36 @@
+# -*- coding: utf-8 -*-
+"""Russian text for the interface strings and the country profile added with Canada."""
+from us200_std import L, flush
+for en, ru in [
+ ('Canada', 'Канада'),
+ ('SAT/ACT required only for some school systems', 'SAT/ACT нужен только для некоторых школьных программ'),
+ ('SAT/ACT only for some school systems', 'SAT/ACT — только для некоторых школьных программ'),
+ ('Required only for some school systems', 'Требуется только для некоторых школьных программ'),
+ ('Only for some school systems', 'Только для некоторых школьных программ'),
+ ('SAT or ACT is required only of applicants from the school systems named below; others are assessed without it.', 'SAT или ACT требуется только от выпускников названных ниже школьных систем; остальных оценивают без него.'),
+ ('SAT or ACT is required only for some school systems (see the profile); check whether yours is one of them.', 'SAT или ACT требуется только для некоторых школьных систем (см. профиль); проверьте, относится ли к ним ваша.'),
+ ('SAT/ACT — required only for some school systems, not entered', 'SAT/ACT — нужен только для некоторых школьных систем, не введён'),
+ ('bachelor’s programme, taught in French', 'программа бакалавриата, обучение на французском'),
+ ('bachelor’s programme, taught in English and French', 'программа бакалавриата, обучение на английском и французском'),
+ ('Public universities with published international tuition, entrance scholarships awarded on admission, and a study permit that needs a provincial attestation letter.',
+  'Государственные университеты с опубликованной платой для иностранцев, вступительными стипендиями при зачислении и разрешением на учёбу, для которого нужно письмо-подтверждение провинции.'),
+ ('Canadian universities are mostly public, and every one in this database sets its own international tuition, which differs by programme and is published in Canadian dollars. Bachelor’s degrees usually take four years; many Quebec programmes are three-year degrees of 90 credits. Most universities teach in English; several in Quebec, New Brunswick and Ontario teach in French or in both languages, and a French-language programme asks for proof of French rather than English. Many universities give entrance scholarships automatically on admission, but awards that cover full tuition are few and competitive.',
+  'Канадские университеты в основном государственные, и каждый из вузов этой базы сам устанавливает плату для иностранцев — она зависит от программы и публикуется в канадских долларах. Бакалавриат обычно длится четыре года; многие программы Квебека — трёхлетние, на 90 кредитов. Большинство университетов преподаёт на английском; несколько вузов в Квебеке, Нью-Брансуике и Онтарио — на французском или на двух языках, и франкоязычная программа требует подтверждения французского, а не английского. Многие университеты дают вступительные стипендии автоматически при зачислении, но стипендий на полную плату мало и они конкурсные.'),
+ ('There is no single national application. Ontario universities are applied to through OUAC; for applicants outside the Ontario school system OUAC sets no common deadline, and each university sets its own. Universities in other provinces use their own portal or a provincial one (EducationPlannerBC, ApplyAlberta). Deadlines for September entry mostly fall between mid-January and March, with earlier dates for the largest scholarships, and many programmes close once they are full.',
+  'Единой национальной заявки нет. В университеты Онтарио подают через OUAC; для поступающих не из школ Онтарио у OUAC нет общего срока — его назначает каждый университет. Вузы других провинций используют свой портал или провинциальный (EducationPlannerBC, ApplyAlberta). Сроки для поступления в сентябре в основном между серединой января и мартом, для крупнейших стипендий — раньше, и многие программы закрываются, как только заполнятся.'),
+ ('A study permit needs a provincial or territorial attestation letter (PAL/TAL) from the university in most cases; IRCC says that to get it you usually have to accept the offer and pay part or all of the tuition first.',
+  'Для разрешения на учёбу в большинстве случаев нужно письмо-подтверждение провинции или территории (PAL/TAL) от университета; IRCC пишет, что для его получения обычно нужно принять предложение и заплатить часть или всю плату за обучение.'),
+ ('Proof of funds for a study permit applied for on or after 1 September 2026: C$23,448 a year for one person outside Quebec, in addition to tuition and travel (IRCC table, read 15 October 2026).',
+  'Подтверждение средств для разрешения на учёбу при подаче с 1 сентября 2026: C$23,448 в год на одного человека вне Квебека, сверх платы за обучение и дороги (таблица IRCC, прочитана 15 октября 2026).'),
+ ('Studying in Quebec needs a Quebec Acceptance Certificate (CAQ) before the study permit, and Quebec sets its own financial requirement.',
+  'Для учёбы в Квебеке перед разрешением на учёбу нужен сертификат CAQ, и Квебек устанавливает свои финансовые требования.'),
+ ('Tuition is set by programme and by year of entry; several universities guarantee or cap the increase for the length of the degree. Compare the same programme and the same year.',
+  'Плата зависит от программы и года поступления; несколько университетов гарантируют её или ограничивают рост на весь срок обучения. Сравнивайте одну и ту же программу и один и тот же год.'),
+ ('Entrance scholarships described as “up to” an amount, or awarded to a fixed number of students, are not counted as received anywhere on this site.',
+  'Вступительные стипендии «до» какой-то суммы или для ограниченного числа студентов нигде на этом сайте не считаются уже полученными.'),
+ ('IRCC — study permit: get the right documents', 'IRCC — разрешение на учёбу: нужные документы'),
+ ('IRCC — study permit: proof of financial support', 'IRCC — разрешение на учёбу: подтверждение средств'),
+ ('OUAC — undergraduate key dates', 'OUAC — ключевые даты бакалавриата'),
+ ('EduCanada — scholarships for international students', 'EduCanada — стипендии для иностранных студентов'),
+]: L(en, ru)
+flush()

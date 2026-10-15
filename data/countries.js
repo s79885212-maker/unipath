@@ -105,5 +105,28 @@ window.UNIPATH.countries.push(
     { label: 'DAAD \u2014 International Programmes database', url: 'https://www2.daad.de/deutschland/studienangebote/international-programmes/en/' },
     { label: 'German Missions in the US \u2014 National Visa for Students (January 2025, PDF)', url: 'https://www.germany.info/resource/blob/2435500/d4beca8da37c3570d38b2bf5e9bdd64c/study-data.pdf' }
   ]
+},
+{
+  code: 'ca',
+  name: 'Canada',
+  flag: '🇨🇦',
+  currency: 'CAD',
+  tagline: 'Public universities with published international tuition, entrance scholarships awarded on admission, and a study permit that needs a provincial attestation letter.',
+  overview: 'Canadian universities are mostly public, and every one in this database sets its own international tuition, which differs by programme and is published in Canadian dollars. Bachelor’s degrees usually take four years; many Quebec programmes are three-year degrees of 90 credits. Most universities teach in English; several in Quebec, New Brunswick and Ontario teach in French or in both languages, and a French-language programme asks for proof of French rather than English. Many universities give entrance scholarships automatically on admission, but awards that cover full tuition are few and competitive.',
+  applicationInfo: 'There is no single national application. Ontario universities are applied to through OUAC; for applicants outside the Ontario school system OUAC sets no common deadline, and each university sets its own. Universities in other provinces use their own portal or a provincial one (EducationPlannerBC, ApplyAlberta). Deadlines for September entry mostly fall between mid-January and March, with earlier dates for the largest scholarships, and many programmes close once they are full.',
+  fieldsPopular: ['business', 'computer-science', 'engineering', 'social-sciences', 'medicine'],
+  notes: [
+    'A study permit needs a provincial or territorial attestation letter (PAL/TAL) from the university in most cases; IRCC says that to get it you usually have to accept the offer and pay part or all of the tuition first.',
+    'Proof of funds for a study permit applied for on or after 1 September 2026: C$23,448 a year for one person outside Quebec, in addition to tuition and travel (IRCC table, read 15 October 2026).',
+    'Studying in Quebec needs a Quebec Acceptance Certificate (CAQ) before the study permit, and Quebec sets its own financial requirement.',
+    'Tuition is set by programme and by year of entry; several universities guarantee or cap the increase for the length of the degree. Compare the same programme and the same year.',
+    'Entrance scholarships described as “up to” an amount, or awarded to a fixed number of students, are not counted as received anywhere on this site.'
+  ],
+  sources: [
+    { label: 'IRCC — study permit: get the right documents', url: 'https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents.html' },
+    { label: 'IRCC — study permit: proof of financial support', url: 'https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html' },
+    { label: 'OUAC — undergraduate key dates', url: 'https://www.ouac.on.ca/guide/undergrad-dates/' },
+    { label: 'EduCanada — scholarships for international students', url: 'https://www.educanada.ca/scholarships-bourses/index.aspx?lang=eng' }
+  ]
 }
 );

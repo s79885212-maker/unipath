@@ -116,6 +116,9 @@
       if (policy === 'optional') checks.push({ level: 'info', text: 'Test-optional for admission. A scholarship or a particular programme may still ask for a score.' });
     } else if (policy === 'required') {
       checks.push({ level: 'soft', basis: 'minimum', text: 'SAT or ACT is required, and no score was entered.' });
+    } else if (policy === 'conditional') {
+      checks.push({ level: 'info', text: 'SAT or ACT is required only for some school systems (see the profile); check whether yours is one of them.' });
+      unchecked.push('SAT/ACT — required only for some school systems, not entered');
     } else if (policy === 'required-alternatives') {
       checks.push({ level: 'info', text: 'Testing is required, but other exams can replace the SAT/ACT in the cases the university lists.' });
       unchecked.push('Required test (SAT/ACT or an accepted alternative) — not entered');
@@ -372,7 +375,7 @@
     var fieldOpts = '<option value="">Any field</option>' + U.DB.fields.map(function (f) {
       return '<option value="' + esc(f.id) + '"' + (s.field === f.id ? ' selected' : '') + '>' + f.icon + ' ' + esc(f.label) + '</option>';
     }).join('');
-    var curOpts = ['USD', 'EUR', 'GBP', 'JPY', 'KRW'].map(function (c) {
+    var curOpts = ['USD', 'CAD', 'EUR', 'GBP', 'JPY', 'KRW'].map(function (c) {
       return '<option value="' + c + '"' + ((s.currency || 'USD') === c ? ' selected' : '') + '>' + c + '</option>';
     }).join('');
     var r = data().rates;

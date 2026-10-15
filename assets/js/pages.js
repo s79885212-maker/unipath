@@ -341,7 +341,7 @@
       : esc(gpa));
     function testPolicyRow(label, t) {
       if (!t) return row(label, UNKNOWN);
-      var POLICY = { required: 'Required', 'required-alternatives': 'Testing required — alternatives accepted', optional: 'Optional',
+      var POLICY = { required: 'Required', 'required-alternatives': 'Testing required — alternatives accepted', conditional: 'Required only for some school systems', optional: 'Optional',
         accepted: 'Accepted — requirement not confirmed', 'not-used': 'Not used', 'not-applicable': 'Not part of this admission route' };
       var p = has(t.label) ? '<strong>' + esc(t.label) + '</strong>'
         : (POLICY[t.policy] ? '<strong>' + esc(POLICY[t.policy]) + '</strong>' : UNKNOWN);
@@ -431,6 +431,7 @@
         optional: ['Test-optional', 'You can apply without SAT or ACT scores.'],
         required: ['Required', 'SAT or ACT scores are required.'],
         'required-alternatives': ['Testing required, alternatives accepted', 'A test is required, but the university accepts alternatives to the SAT and ACT.'],
+        conditional: ['Only for some school systems', 'SAT or ACT is required only of applicants from the school systems named below; others are assessed without it.'],
         'not-used': ['Not used', 'SAT and ACT scores are not considered in admission.'],
         accepted: ['Accepted', 'Scores are accepted; whether they are required was not confirmed.'],
         'not-applicable': ['Not part of this admission route', 'This route does not use the SAT or ACT: selection rests on the qualifications and assessments listed here.'],
@@ -743,7 +744,7 @@
     var evRows = (u.programs || []).filter(function (p) { return ev[p]; }).map(function (p) {
       var e = ev[p];
       return '<li><strong>' + esc(U.field(p).label) + '</strong> — <span data-no-i18n>' + esc(e.program) + '</span>' +
-        ' <span class="small muted">(<span>bachelor’s programme, taught in English</span>)</span>' +
+        ' <span class="small muted">(<span>' + (/French/.test(e.language || '') ? (/English/.test(e.language) ? 'bachelor’s programme, taught in English and French' : 'bachelor’s programme, taught in French') : 'bachelor’s programme, taught in English') + '</span>)</span>' +
         (has(e.url) ? ' · <a href="' + esc(e.url) + '" target="_blank" rel="noopener">Official page ↗</a>' : '') +
         (has(e.checked) ? ' · <span class="small muted">Checked ' + esc(e.checked) + '</span>' : '') + '</li>';
     });

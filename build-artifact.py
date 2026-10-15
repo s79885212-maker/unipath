@@ -30,6 +30,7 @@ JS_FILES = [
     "data/universities.kr.js",
     "data/universities.uk.js",
     "data/universities.de.js",
+    "data/universities.ca.js",
     "data/admission-profiles.js",
     "data/degrees.js",
     "data/test-policy.js",
