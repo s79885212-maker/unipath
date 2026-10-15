@@ -3027,3 +3027,208 @@ html.theme-switching *::after {
     transform: none !important;
   }
 }
+
+/* Dropdowns of the match form (assets/js/match.js): a button and a list in
+   the site's style over the hidden native select. */
+.match-form {
+  overflow: visible;
+}
+.fs {
+  position: relative;
+  min-width: 0;
+}
+.match-budget .fs {
+  flex: 0 0 auto;
+}
+.match-field .fs-native,
+.fs-native {
+  position: absolute;
+  inset: auto auto 0 0;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+.fs-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  min-height: 46px;
+  padding: 7px 12px 7px 8px;
+  font: inherit;
+  font-weight: 500;
+  color: var(--ink-900);
+  text-align: left;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  cursor: pointer;
+  transition:
+    border-color var(--t-fast) var(--ease-soft),
+    box-shadow var(--t) var(--ease);
+}
+.fs-btn:hover {
+  border-color: var(--line-hover);
+}
+.fs-btn:focus-visible,
+.fs.is-open .fs-btn {
+  outline: none;
+  border-color: var(--brand-500);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--solid-primary) 18%, transparent);
+}
+.fs-cur {
+  display: contents;
+}
+.fs-text {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.fs-btn .fs-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.fs-chev {
+  flex: none;
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: var(--ink-500);
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: transform var(--t) var(--ease);
+}
+.fs.is-open .fs-chev {
+  transform: rotate(180deg);
+}
+.fs-ico {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 9px;
+  background: hsl(var(--h, 220) 85% 95%);
+  color: hsl(var(--h, 220) 62% 38%);
+  font-size: 17px;
+  line-height: 1;
+}
+.fs-ico svg {
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.fs-ico.is-flag {
+  background: var(--surface-2);
+  box-shadow: inset 0 0 0 1px var(--line-soft);
+}
+.fs-list {
+  position: absolute;
+  z-index: 40;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  max-height: min(340px, 62vh);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 6px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  box-shadow: var(--shadow-lg);
+  animation: fs-in 0.14s var(--ease);
+}
+.fs-list[hidden] {
+  display: none;
+}
+.fs.fs-up .fs-list {
+  top: auto;
+  bottom: calc(100% + 6px);
+}
+.fs-list:focus {
+  outline: none;
+}
+@keyframes fs-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px) scale(0.985);
+  }
+}
+.fs-opt {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 10px 6px 6px;
+  border-radius: 10px;
+  font-weight: 500;
+  color: var(--ink-900);
+  cursor: pointer;
+  user-select: none;
+}
+.fs-opt + .fs-opt {
+  margin-top: 2px;
+}
+.fs-opt.is-active {
+  background: var(--brand-050);
+}
+.fs-opt[aria-selected="true"] {
+  background: var(--brand-100);
+  color: var(--brand-800);
+  font-weight: 650;
+}
+.fs-check {
+  flex: none;
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: var(--brand-600);
+  stroke-width: 2.4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  opacity: 0;
+}
+.fs-opt[aria-selected="true"] .fs-check {
+  opacity: 1;
+}
+.fs-sep {
+  height: 1px;
+  margin: 5px 6px;
+  background: var(--line);
+}
+.fs-compact .fs-btn {
+  gap: 6px;
+  padding: 7px 10px 7px 12px;
+}
+.fs-compact .fs-list {
+  left: auto;
+  min-width: 112px;
+}
+.fs-compact .fs-opt {
+  padding: 8px 10px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .fs-ico:not(.is-flag) {
+    background: hsl(var(--h, 220) 32% 21%);
+    color: hsl(var(--h, 220) 78% 78%);
+  }
+}
+:root[data-theme="dark"] .fs-ico:not(.is-flag) {
+  background: hsl(var(--h, 220) 32% 21%);
+  color: hsl(var(--h, 220) 78% 78%);
+}
+@media (prefers-reduced-motion: reduce) {
+  .fs-list {
+    animation: none;
+  }
+  .fs-chev {
+    transition: none;
+  }
+}

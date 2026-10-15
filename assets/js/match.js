@@ -366,14 +366,191 @@
     return { value: n, invalid: false };
   }
 
+  /* ---------------- Dropdowns of the match form ----------------
+     The native <select> stays in the form, hidden, and keeps the value and
+     the change event; a button and a list drawn in the site's style sit on
+     top of it, with a line icon for each field of study and the flag for
+     each country. Keyboard: arrows, Home/End, Enter/Space, Escape, letters. */
+  var FIELD_ICONS = {
+    '': ['220', '<rect x="4" y="4" width="7" height="7" rx="2"/><rect x="13" y="4" width="7" height="7" rx="2"/><rect x="4" y="13" width="7" height="7" rx="2"/><rect x="13" y="13" width="7" height="7" rx="2"/>'],
+    'business': ['214', '<rect x="3" y="7" width="18" height="13" rx="2.5"/><path d="M8.5 7V5.5A2.5 2.5 0 0 1 11 3h2a2.5 2.5 0 0 1 2.5 2.5V7M3 12.5h18"/>'],
+    'economics': ['152', '<path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/>'],
+    'computer-science': ['250', '<path d="M8 8l-4 4 4 4M16 8l4 4-4 4M13.5 5l-3 14"/>'],
+    'engineering': ['198', '<circle cx="12" cy="12" r="3"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2.1 2.1M16.6 16.6l2.1 2.1M5.3 18.7l2.1-2.1M16.6 7.4l2.1-2.1"/>'],
+    'psychology': ['330', '<path d="M9.5 20.5V18H7a2 2 0 0 1-2-2v-2.5l-1.5-.8 1.6-2.9A7 7 0 0 1 19 9.5c0 2.3-1 4.2-2.5 5.5v5.5"/><path d="M10 9.5a2 2 0 1 1 3.4 1.4c-.6.6-1.4 1-1.4 2.1"/>'],
+    'biology': ['140', '<path d="M5 19c0-8.3 5.7-14 14-14 0 8.3-5.7 14-14 14z"/><path d="M5 19l7.5-7.5"/>'],
+    'mathematics': ['32', '<path d="M18 5H6.5l6 7-6 7H18"/>'],
+    'social-sciences': ['188', '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/>'],
+    'humanities': ['22', '<path d="M2.5 5.5H8a4 4 0 0 1 4 4V20a3 3 0 0 0-3-3H2.5zM21.5 5.5H16a4 4 0 0 0-4 4V20a3 3 0 0 1 3-3h6.5z"/>'],
+    'arts': ['292', '<path d="M12 3a9 9 0 1 0 0 18c1.1 0 1.6-.8 1.6-1.6 0-.9-.6-1.3-.6-2.1 0-.9.7-1.6 1.6-1.6h2.2A4.2 4.2 0 0 0 21 11.5C21 6.8 17 3 12 3z"/><circle cx="7.5" cy="11.5" r="1.1"/><circle cx="10.5" cy="7.3" r="1.1"/><circle cx="15.5" cy="8" r="1.1"/>'],
+    'law': ['44', '<path d="M12 3.5V20M7.5 20.5h9M5 7.5h14M12 4.5l-7 3M12 4.5l7 3"/><path d="M5 8l-2.6 6a2.6 2.6 0 0 0 5.2 0zM19 8l-2.6 6a2.6 2.6 0 0 0 5.2 0z"/>'],
+    'medicine': ['356', '<rect x="3.5" y="3.5" width="17" height="17" rx="4.5"/><path d="M12 8v8M8 12h8"/>'],
+    'education': ['262', '<path d="M2 9.5L12 5l10 4.5L12 14z"/><path d="M6 11.5v4.3c3.5 2.3 8.5 2.3 12 0v-4.3M22 9.5V15"/>'],
+    'other': ['48', '<path d="M12 3.5l1.9 5.1 5.1 1.9-5.1 1.9L12 17.5l-1.9-5.1L5 10.5l5.1-1.9zM18.5 15.5l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8z"/>']
+  };
+  var SVG_OPEN = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">';
+  function fieldIcon(id) {
+    var ic = FIELD_ICONS[id] || FIELD_ICONS.other;
+    return '<span class="fs-ico" style="--h:' + ic[0] + '">' + SVG_OPEN + ic[1] + '</svg></span>';
+  }
+  function countryIcon(code) {
+    var c = code && U.country(code);
+    return c ? '<span class="fs-ico is-flag" aria-hidden="true">' + c.flag + '</span>'
+             : '<span class="fs-ico" style="--h:210">' + SVG_OPEN + '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg></span>';
+  }
+
+  var openDropdown = null;
+  function closeOpenDropdown(e) {
+    if (openDropdown && !(e && e.target && openDropdown.wrap.contains(e.target))) openDropdown.close(false);
+  }
+  if (typeof document !== 'undefined' && document.addEventListener) {
+    document.addEventListener('mousedown', closeOpenDropdown, true);
+    document.addEventListener('touchstart', closeOpenDropdown, true);
+  }
+
+  /* sel: the native select; iconFor(value) → HTML or ''; labelId: the visible label's id. */
+  function dropdown(sel, iconFor, labelId, compact) {
+    if (!sel || sel.getAttribute('data-fs')) return;
+    sel.setAttribute('data-fs', '1');
+    var texts = [].map.call(sel.options, function (o) { return o.text; });  /* English, before translation */
+    var wrap = document.createElement('div');
+    wrap.className = 'fs' + (compact ? ' fs-compact' : '');
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'fs-btn';
+    btn.id = sel.id + '-btn';
+    btn.setAttribute('aria-haspopup', 'listbox');
+    btn.setAttribute('aria-expanded', 'false');
+    btn.setAttribute('aria-controls', sel.id + '-list');
+    if (labelId) btn.setAttribute('aria-labelledby', labelId + ' ' + btn.id);
+    else if (sel.getAttribute('aria-label')) btn.setAttribute('aria-label', sel.getAttribute('aria-label'));
+    btn.innerHTML = '<span class="fs-cur"></span><span class="fs-text"></span>' +
+      '<svg class="fs-chev" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg>';
+    var list = document.createElement('div');
+    list.className = 'fs-list';
+    list.id = sel.id + '-list';
+    list.setAttribute('role', 'listbox');
+    list.tabIndex = -1;
+    list.hidden = true;
+    if (labelId) list.setAttribute('aria-labelledby', labelId);
+    else if (sel.getAttribute('aria-label')) list.setAttribute('aria-label', sel.getAttribute('aria-label'));
+    var items = [].map.call(sel.options, function (o, i) {
+      var it = document.createElement('div');
+      it.className = 'fs-opt';
+      it.id = sel.id + '-o' + i;
+      it.setAttribute('role', 'option');
+      it.innerHTML = iconFor(o.value) + '<span class="fs-text"></span>' +
+        '<svg class="fs-check" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>';
+      it.querySelector('.fs-text').textContent = texts[i];
+      list.appendChild(it);
+      if (i === 0 && o.value === '' && sel.options.length > 2) {
+        var sep = document.createElement('div');
+        sep.className = 'fs-sep';
+        sep.setAttribute('role', 'presentation');
+        list.appendChild(sep);
+      }
+      return it;
+    });
+    sel.parentNode.insertBefore(wrap, sel);
+    wrap.appendChild(btn);
+    wrap.appendChild(list);
+    wrap.appendChild(sel);
+    sel.classList.add('fs-native');
+    sel.tabIndex = -1;
+    sel.setAttribute('aria-hidden', 'true');
+
+    var active = -1, typed = '', typedAt = 0;
+    function sync() {
+      var i = sel.selectedIndex < 0 ? 0 : sel.selectedIndex;
+      items.forEach(function (it, k) { it.setAttribute('aria-selected', k === i ? 'true' : 'false'); });
+      btn.querySelector('.fs-cur').innerHTML = iconFor(sel.value);
+      btn.querySelector('.fs-text').textContent = texts[i];
+    }
+    function highlight(i, scroll) {
+      if (i < 0 || i >= items.length) return;
+      if (items[active]) items[active].classList.remove('is-active');
+      active = i;
+      items[i].classList.add('is-active');
+      list.setAttribute('aria-activedescendant', items[i].id);
+      if (scroll && items[i].scrollIntoView) items[i].scrollIntoView({ block: 'nearest' });
+    }
+    function open() {
+      if (openDropdown && openDropdown !== api) openDropdown.close(false);
+      list.hidden = false;
+      wrap.classList.add('is-open');
+      btn.setAttribute('aria-expanded', 'true');
+      /* Open upwards when the window has no room below. */
+      wrap.classList.remove('fs-up');
+      var r = btn.getBoundingClientRect(), need = Math.min(list.scrollHeight, 340) + 12;
+      if (global.innerHeight - r.bottom < need && r.top > global.innerHeight - r.bottom) wrap.classList.add('fs-up');
+      highlight(sel.selectedIndex < 0 ? 0 : sel.selectedIndex, true);
+      openDropdown = api;
+      try { list.focus({ preventScroll: true }); } catch (e) { list.focus(); }
+    }
+    function close(refocus) {
+      if (list.hidden) return;
+      list.hidden = true;
+      wrap.classList.remove('is-open');
+      btn.setAttribute('aria-expanded', 'false');
+      if (openDropdown === api) openDropdown = null;
+      if (refocus) btn.focus();
+    }
+    function choose(i) {
+      if (i >= 0 && sel.selectedIndex !== i) {
+        sel.selectedIndex = i;
+        sel.dispatchEvent(new Event('change', { bubbles: true }));
+      }
+      sync();
+      close(true);
+    }
+    var api = { wrap: wrap, close: close };
+
+    btn.addEventListener('click', function () { if (list.hidden) open(); else close(true); });
+    btn.addEventListener('keydown', function (e) {
+      if (['ArrowDown', 'ArrowUp', 'Enter', ' '].indexOf(e.key) > -1) { e.preventDefault(); open(); }
+    });
+    /* The list sits inside a <label>: cancelling the click keeps the label from re-clicking the button. */
+    list.addEventListener('mousedown', function (e) { e.preventDefault(); });
+    list.addEventListener('click', function (e) {
+      e.preventDefault();
+      var it = e.target.closest && e.target.closest('.fs-opt');
+      if (it) choose(items.indexOf(it));
+    });
+    list.addEventListener('mousemove', function (e) {
+      var it = e.target.closest && e.target.closest('.fs-opt');
+      if (it && items.indexOf(it) !== active) highlight(items.indexOf(it), false);
+    });
+    list.addEventListener('keydown', function (e) {
+      var k = e.key;
+      if (k === 'ArrowDown') { e.preventDefault(); highlight(Math.min(active + 1, items.length - 1), true); }
+      else if (k === 'ArrowUp') { e.preventDefault(); highlight(Math.max(active - 1, 0), true); }
+      else if (k === 'Home' || k === 'PageUp') { e.preventDefault(); highlight(0, true); }
+      else if (k === 'End' || k === 'PageDown') { e.preventDefault(); highlight(items.length - 1, true); }
+      else if (k === 'Enter' || k === ' ') { e.preventDefault(); choose(active); }
+      else if (k === 'Escape') { e.preventDefault(); close(true); }
+      else if (k === 'Tab') { close(false); }
+      else if (k.length === 1 && /\S/.test(k)) {
+        /* Type the first letters of an item (in the language shown) to jump to it. */
+        var now = Date.now();
+        typed = (now - typedAt > 700 ? '' : typed) + k.toLowerCase();
+        typedAt = now;
+        for (var n = 1; n <= items.length; n++) {
+          var j = (active + (typed.length > 1 ? 0 : 1) + n - 1) % items.length;
+          if (items[j].textContent.trim().toLowerCase().indexOf(typed) === 0) { highlight(j, true); break; }
+        }
+      }
+    });
+    sync();
+  }
+
   function render(main) {
     document.title = 'Find my match — UniPath';
     var s = readSaved();
     var countryOpts = '<option value="">All countries</option>' + U.DB.countries.map(function (c) {
-      return '<option value="' + esc(c.code) + '"' + (s.country === c.code ? ' selected' : '') + '>' + c.flag + ' ' + esc(c.name) + '</option>';
+      return '<option value="' + esc(c.code) + '"' + (s.country === c.code ? ' selected' : '') + '>' + esc(c.name) + '</option>';
     }).join('');
     var fieldOpts = '<option value="">Any field</option>' + U.DB.fields.map(function (f) {
-      return '<option value="' + esc(f.id) + '"' + (s.field === f.id ? ' selected' : '') + '>' + f.icon + ' ' + esc(f.label) + '</option>';
+      return '<option value="' + esc(f.id) + '"' + (s.field === f.id ? ' selected' : '') + '>' + esc(f.label) + '</option>';
     }).join('');
     var curOpts = ['USD', 'CAD', 'EUR', 'GBP', 'JPY', 'KRW'].map(function (c) {
       return '<option value="' + c + '"' + ((s.currency || 'USD') === c ? ' selected' : '') + '>' + c + '</option>';
@@ -396,14 +573,17 @@
               '<select id="m-currency" aria-label="Currency">' + curOpts + '</select></div>' +
               '<small class="field-error" id="m-budget-err" role="alert" hidden></small>' +
               '<small class="muted">Converted with ECB reference rates of <span>' + esc(r.date || '') + '</span> — approximate.</small></label>' +
-            '<label class="match-field"><span>Country</span><select id="m-country">' + countryOpts + '</select></label>' +
-            '<label class="match-field"><span>Field of study</span><select id="m-field">' + fieldOpts + '</select></label>' +
+            '<label class="match-field"><span id="m-country-l">Country</span><select id="m-country">' + countryOpts + '</select></label>' +
+            '<label class="match-field"><span id="m-field-l">Field of study</span><select id="m-field">' + fieldOpts + '</select></label>' +
           '</div>' +
           '<label class="match-check"><input id="m-english" type="checkbox"' + (s.englishOnly === false ? '' : ' checked') + '> <span>Only fields taught fully in English</span></label>' +
         '</div></form>' +
         '<div id="match-out" style="margin-top:26px"></div>' +
       '</div></section>';
 
+    dropdown(document.getElementById('m-country'), countryIcon, 'm-country-l');
+    dropdown(document.getElementById('m-field'), fieldIcon, 'm-field-l');
+    dropdown(document.getElementById('m-currency'), function () { return ''; }, null, true);
     var form = document.getElementById('match-form');
     form.addEventListener('input', update);
     form.addEventListener('change', update);
