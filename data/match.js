@@ -42,6 +42,14 @@ window.UNIPATH.match = {
   annualCost: {
 
     /* Canada, October 2026 */
+    'mount-royal-university': { currency: 'CAD', basis: 'tuition', min: 24277, max: 24277, note: 'Year-1 maximum international tuition 2026–27 (all degrees listed); mandatory fees C$2,432.68, housing and food extra' },
+    'university-of-the-fraser-valley': { currency: 'CAD', calc: 'two-semesters', basis: 'tuition', min: 14346, max: 14346, note: 'Tuition for two semesters of 9 credits at the 2026–27 rate — calculated by UniPath, not printed by the university; fees, first-semester administration fee, housing and food extra' },
+    'laurentian-university': { currency: 'CAD', basis: 'tuition', min: 30052, max: 41041.6, note: 'Tuition 2026–27 by programme (Computer Science to Engineering); incidental fees, UHIP, housing and food extra' },
+    'universite-du-quebec-a-montreal': { currency: 'CAD', basis: 'tuition', min: 29415, max: 29415, note: 'University estimate of yearly tuition and fees 2026–27 for an international bachelor’s student (approximate); insurance, housing and food extra' },
+    'universite-de-sherbrooke': { currency: 'CAD', calc: 'two-semesters', basis: 'billed', min: 23950, max: 32140, note: 'Two 15-credit terms at the autumn 2026 per-term totals — calculated by UniPath, not printed by the university; insurance, housing and food extra' },
+    'universite-de-moncton': { currency: 'CAD', basis: 'billed', min: 17839, max: 17839, note: 'Tuition, related fees and health and dental plans 2026–27 (indicative), Moncton campus; housing and food extra' },
+
+    /* Canada, October 2026 */
     'lakehead-university': { currency: 'CAD', basis: 'tuition', min: 31750, max: 42000, note: 'Year-1 tuition 2026–27 for the programmes read (Computer Science, Engineering); fees, UHIP, housing and food extra' },
     'acadia-university': { currency: 'CAD', basis: 'billed', min: 28466.86, max: 28466.86, note: 'Tuition and mandatory fees 2026–27 for a full course load; housing and food extra' },
     'st-francis-xavier-university': { currency: 'CAD', basis: 'billed', min: 24958.1, max: 24958.1, note: 'Tuition, international fee and mandatory fees 2026–27 (not Nursing); housing and food extra' },

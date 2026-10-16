@@ -12957,5 +12957,2706 @@ window.UNIPATH.universities.push(
     }
   },
   "programsStatus": "partial"
+},
+
+{
+  "id": "mount-royal-university",
+  "name": "Mount Royal University",
+  "shortName": "MRU",
+  "country": "ca",
+  "city": "Calgary",
+  "region": "Alberta",
+  "founded": null,
+  "type": "Public university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#6b1d4f",
+    "c2": "#360f28",
+    "initials": "MR"
+  },
+  "description": "An undergraduate-focused university in Calgary, Alberta. In admission letters it must state each programme’s yearly maximum international tuition.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "humanities",
+    "business",
+    "computer-science",
+    "medicine",
+    "education",
+    "arts"
+  ],
+  "englishTaughtPrograms": [
+    "humanities",
+    "business",
+    "computer-science",
+    "medicine",
+    "education",
+    "arts"
+  ],
+  "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
+  "links": {
+    "website": "https://www.mtroyal.ca/",
+    "admissions": "https://www.mtroyal.ca/Admission/DatesDeadlines/index.htm",
+    "internationalAdmissions": "https://www.mtroyal.ca/InternationalStudents/Admissionrequirements/index.htm",
+    "applicationPortal": "https://www.mtroyal.ca/Admission/Apply/index.htm",
+    "scholarships": "https://www.mtroyal.ca/Admission/FinancingYourEducation/ScholarshipsBursaries/awardinfo.htm",
+    "financialAid": "https://www.mtroyal.ca/Admission/FinancingYourEducation/ScholarshipsBursaries/awardinfo.htm",
+    "programs": "https://www.mtroyal.ca/academics/fees/pages/2026-27/international-student-tuition-max.php",
+    "cost": "https://www.mtroyal.ca/academics/fees/pages/2026-27/international-student-tuition-max.php"
+  },
+  "admissions": {
+    "platforms": [
+      "Mount Royal online application"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Admission application period ends",
+        "kind": "priority",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-01",
+        "date": "1 February 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Application and supporting documents are needed for early admission; some programmes close on this date.",
+        "status": "confirmed",
+        "source": "https://www.mtroyal.ca/Admission/DatesDeadlines/index.htm",
+        "verified": "2026-10-17",
+        "note": null
+      },
+      {
+        "name": "Scholarships and bursaries application",
+        "kind": "scholarship",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-03-01",
+        "date": "1 March 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Applications open 1 November 2026.",
+        "status": "confirmed",
+        "source": "https://www.mtroyal.ca/Admission/DatesDeadlines/index.htm",
+        "verified": "2026-10-17",
+        "note": null
+      },
+      {
+        "name": "Application deadline for international students",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-05-01",
+        "date": "1 May 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Applicants eligible for a study permit under IRPR 214 may still apply later. Documents are due 15 May 2027.",
+        "status": "confirmed",
+        "source": "https://www.mtroyal.ca/Admission/DatesDeadlines/index.htm",
+        "verified": "2026-10-17",
+        "note": null
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "CAD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "The amount was not found on the pages read.",
+      "source": "https://www.mtroyal.ca/Admission/Apply/index.htm",
+      "verified": "2026-10-17"
+    },
+    "documents": [
+      "Mount Royal application",
+      "Secondary school transcripts and certificate",
+      "English test result unless exempt"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "Academic (including Online); at least 5.5 in each band."
+    },
+    "toefl": {
+      "min": 86,
+      "recommended": null,
+      "note": "Before 21 January 2026: 86 with at least 20 in each section. After: 4.5 with at least 4.0 in each band.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 86,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 120,
+      "recommended": null,
+      "note": null
+    },
+    "waiver": null,
+    "note": "PTE Academic 58 (55 in each area); CAEL 70 (60); Cambridge 176; MELAB 62; LanguageCert 70."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition and mandatory fees; housing and food extra",
+      "tuition": 24277
+    },
+    "academicYear": "2026–2027",
+    "currency": "CAD",
+    "studentCategory": "International students in year 1 of a degree, standard course load (maximum stated in the offer letter)",
+    "source": "https://www.mtroyal.ca/academics/fees/pages/2026-27/international-student-tuition-max.php",
+    "verified": "2026-10-17",
+    "headline": "Up to C$26,710 in year 1 (2026–27)",
+    "items": [
+      {
+        "label": "International tuition, year 1 (all degrees listed)",
+        "amount": 24277
+      },
+      {
+        "label": "International mandatory fees, year 1",
+        "amount": 2432.68
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "Year-1 maximum for every degree listed: tuition C$24,277 plus mandatory fees C$2,432.68, printed as C$26,710; later years are capped at C$24,760 (2027–28), C$25,250 and C$25,760 for tuition",
+    "note": "These are the legal yearly maximums for an eight-month academic year; later-year figures are “subject to change”."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [
+      {
+        "name": "Mount Royal entrance scholarships",
+        "amount": null,
+        "eligibility": "International students are eligible for entrance and in-course scholarships without a residency requirement; a GPA of 3.2 or an 80% high school average is required unless stated otherwise",
+        "deadline": null,
+        "application": "Online award application, 1 November – 1 March",
+        "renewable": null,
+        "note": "Amounts are not given on the page read; many awards are for Canadian citizens and permanent residents only.",
+        "basis": "merit",
+        "source": "https://www.mtroyal.ca/Admission/FinancingYourEducation/ScholarshipsBursaries/awardinfo.htm",
+        "verified": "2026-10-17"
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Need-based aid for international first-year students is not described on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "MRU — dates and deadlines for fall 2027",
+      "url": "https://www.mtroyal.ca/Admission/DatesDeadlines/index.htm"
+    },
+    {
+      "label": "MRU — how international students apply",
+      "url": "https://www.mtroyal.ca/InternationalStudents/Howtoapply/"
+    },
+    {
+      "label": "MRU — 2026-27 international tuition maximum",
+      "url": "https://www.mtroyal.ca/academics/fees/pages/2026-27/international-student-tuition-max.php"
+    },
+    {
+      "label": "MRU — English language proficiency",
+      "url": "https://www.mtroyal.ca/Admission/AdmissionRequirements/english-language-proficiency-requirement-institutional.htm"
+    },
+    {
+      "label": "MRU — award policies",
+      "url": "https://www.mtroyal.ca/Admission/FinancingYourEducation/ScholarshipsBursaries/awardinfo.htm"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "deadlines",
+      "English requirements",
+      "tuition",
+      "scholarships"
+    ],
+    "unconfirmed": [
+      "application fee",
+      "test policy",
+      "requirements for Uzbekistan",
+      "full list of majors",
+      "founding year"
+    ]
+  },
+  "lastVerified": "2026-10-17",
+  "aliases": [
+    "MRU",
+    "Mount Royal"
+  ],
+  "programsBasis": "evidence",
+  "province": "AB",
+  "programEvidence": {
+    "humanities": {
+      "program": "Bachelor of Arts (English, History, Psychology and others)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mtroyal.ca/academics/fees/pages/2026-27/international-student-tuition-max.php",
+      "checked": "2026-10-17"
+    },
+    "business": {
+      "program": "Bachelor of Business Administration",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mtroyal.ca/academics/fees/pages/2026-27/international-student-tuition-max.php",
+      "checked": "2026-10-17"
+    },
+    "computer-science": {
+      "program": "Bachelor of Science — Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mtroyal.ca/academics/fees/pages/2026-27/international-student-tuition-max.php",
+      "checked": "2026-10-17"
+    },
+    "medicine": {
+      "program": "Bachelor of Nursing",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mtroyal.ca/academics/fees/pages/2026-27/international-student-tuition-max.php",
+      "checked": "2026-10-17"
+    },
+    "education": {
+      "program": "Bachelor of Education — Elementary",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mtroyal.ca/academics/fees/pages/2026-27/international-student-tuition-max.php",
+      "checked": "2026-10-17"
+    },
+    "arts": {
+      "program": "Bachelor of Interior Design",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mtroyal.ca/academics/fees/pages/2026-27/international-student-tuition-max.php",
+      "checked": "2026-10-17"
+    }
+  },
+  "programsStatus": "partial"
+},
+
+{
+  "id": "thompson-rivers-university",
+  "name": "Thompson Rivers University",
+  "shortName": "TRU",
+  "country": "ca",
+  "city": "Kamloops",
+  "region": "British Columbia",
+  "founded": null,
+  "type": "Public university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#1f3a5f",
+    "c2": "#0f1f33",
+    "initials": "TR"
+  },
+  "description": "A university in Kamloops, British Columbia, with a large international enrolment and a guaranteed-tuition model: international students know the full programme cost before they start.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "engineering"
+  ],
+  "englishTaughtPrograms": [
+    "engineering"
+  ],
+  "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
+  "links": {
+    "website": "https://www.tru.ca/",
+    "admissions": "https://www.tru.ca/future/admissions/international/application-deadlines.html",
+    "internationalAdmissions": "https://www.tru.ca/future/admissions/international.html",
+    "applicationPortal": "https://www.tru.ca/future/admissions/international.html",
+    "scholarships": "https://www.tru.ca/truworld/future-students/scholarships.html",
+    "financialAid": "https://www.tru.ca/truworld/future-students/scholarships.html",
+    "programs": "https://www.tru.ca/truworld/future-students/fees.html",
+    "cost": "https://www.tru.ca/truworld/future-students/fees.html"
+  },
+  "admissions": {
+    "platforms": [
+      "TRU online international application"
+    ],
+    "deadlines": [
+      {
+        "name": "Application deadline, September intake",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-05-01",
+        "date": "1 May 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Late applications are considered if space is available; some programmes close earlier.",
+        "status": "confirmed",
+        "source": "https://www.tru.ca/future/admissions/international/application-deadlines.html",
+        "verified": "2026-10-17",
+        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 100,
+      "currency": "CAD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "One-time, non-refundable. A limited number of fee waivers can be requested.",
+      "source": "https://www.tru.ca/truworld/future-students/fees.html",
+      "verified": "2026-10-17"
+    },
+    "documents": [
+      "TRU application",
+      "Secondary school transcripts and certificate",
+      "English test result unless exempt"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": null,
+    "toefl": null,
+    "duolingo": null,
+    "waiver": null,
+    "note": "Not confirmed: TRU’s international English page showed no figures when read. Other TRU pages and third-party summaries quote IELTS 6.5 and TOEFL 88, which are not used here."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition rate; general fees, health fees, housing and food extra"
+    },
+    "academicYear": "2026–2027",
+    "currency": "CAD",
+    "studentCategory": "International undergraduates in intakes from Fall 2026 to Summer 2027 (guaranteed tuition)",
+    "source": "https://www.tru.ca/truworld/future-students/fees.html",
+    "verified": "2026-10-17",
+    "headline": "C$875 per credit; C$104,952 for a full bachelor’s degree (2026–27 intakes)",
+    "items": [
+      {
+        "label": "Tuition per credit",
+        "amount": 875
+      },
+      {
+        "label": "Tuition per 3-credit course",
+        "amount": 2623
+      },
+      {
+        "label": "Bachelor’s degree, 40 courses (120 credits), total tuition",
+        "amount": 104952
+      },
+      {
+        "label": "General fees per semester (12 credits)",
+        "amount": 612
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "The rate published for intakes from Fall 2026 to Summer 2027 is C$875 per credit, or C$104,952 for a 120-credit bachelor’s degree; the rate for the Fall 2027 intake is not yet published",
+    "note": "“Tuition rates published below apply for Fall (September) 2026, Winter (January) 2027 and Summer (May) 2027 intakes.” Some programmes (e.g. Engineering Transfer, Software Engineering) differ.",
+    "status": "previous-cycle"
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [
+      {
+        "name": "Exceptional Student Award",
+        "amount": "Up to C$4,000 (C$1,000 a semester)",
+        "eligibility": "New international students with at least 80% in their final year and direct entry (IELTS 6.5+)",
+        "deadline": null,
+        "application": "Candidates are identified from the application and contacted",
+        "renewable": true,
+        "note": "Continued with a 3.33 GPA each semester.",
+        "basis": "merit",
+        "source": "https://www.tru.ca/truworld/future-students/scholarships.html",
+        "verified": "2026-10-17"
+      },
+      {
+        "name": "Academic Excellence Award",
+        "amount": "Up to C$2,000",
+        "eligibility": "New international students with at least 86% in their final year",
+        "deadline": null,
+        "application": "Candidates are identified from the application",
+        "renewable": null,
+        "note": null,
+        "basis": "merit",
+        "source": "https://www.tru.ca/truworld/future-students/scholarships.html",
+        "verified": "2026-10-17"
+      },
+      {
+        "name": "Diversity Scholarships",
+        "amount": null,
+        "eligibility": "New international students from countries with five or fewer students on campus, with a 3.0 GPA or IELTS 6.5 or TOEFL 88",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": "The value is not given on the page read.",
+        "basis": "automatic",
+        "source": "https://www.tru.ca/truworld/future-students/scholarships.html",
+        "verified": "2026-10-17"
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Need-based aid for international first-year students is not described on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "TRU — international application deadlines",
+      "url": "https://www.tru.ca/future/admissions/international/application-deadlines.html"
+    },
+    {
+      "label": "TRU — international tuition fees",
+      "url": "https://www.tru.ca/truworld/future-students/fees.html"
+    },
+    {
+      "label": "TRU — scholarships for international students",
+      "url": "https://www.tru.ca/truworld/future-students/scholarships.html"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "deadlines",
+      "application fee",
+      "scholarships"
+    ],
+    "unconfirmed": [
+      "tuition for the Fall 2027 intake",
+      "English requirements",
+      "test policy",
+      "requirements for Uzbekistan",
+      "full list of majors",
+      "founding year"
+    ]
+  },
+  "lastVerified": "2026-10-17",
+  "aliases": [
+    "TRU",
+    "Thompson Rivers"
+  ],
+  "programsBasis": "evidence",
+  "province": "BC",
+  "programEvidence": {
+    "engineering": {
+      "program": "Engineering Transfer; Software Engineering",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.tru.ca/truworld/future-students/fees.html",
+      "checked": "2026-10-17"
+    }
+  },
+  "programsStatus": "partial"
+},
+
+{
+  "id": "university-of-northern-british-columbia",
+  "name": "University of Northern British Columbia",
+  "shortName": "UNBC",
+  "country": "ca",
+  "city": "Prince George",
+  "region": "British Columbia",
+  "founded": null,
+  "type": "Public university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#7a3b12",
+    "c2": "#3d1d09",
+    "initials": "NBC"
+  },
+  "description": "A research university in Prince George, northern British Columbia, with regional campuses; small classes and an environmental and health focus.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "engineering",
+    "medicine",
+    "social-sciences"
+  ],
+  "englishTaughtPrograms": [
+    "engineering",
+    "medicine",
+    "social-sciences"
+  ],
+  "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
+  "links": {
+    "website": "https://www.unbc.ca/",
+    "admissions": "https://www.unbc.ca/programs-and-admissions/undergraduate/undergraduate-application-deadlines",
+    "internationalAdmissions": "https://www.unbc.ca/calendar/undergraduate/international-admissions",
+    "applicationPortal": "https://www.unbc.ca/programs-and-admissions/undergraduate",
+    "scholarships": "https://www.unbc.ca/international/frequent-asked-questions-faq",
+    "financialAid": "https://www.unbc.ca/international/frequent-asked-questions-faq",
+    "programs": "https://www.unbc.ca/programs-and-admissions/undergraduate/undergraduate-application-deadlines",
+    "cost": "https://www.unbc.ca/calendar/undergraduate/fees"
+  },
+  "admissions": {
+    "platforms": [
+      "UNBC online application"
+    ],
+    "deadlines": [
+      {
+        "name": "Engineering (BASc) application deadline",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-03-01",
+        "date": "1 March 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.unbc.ca/programs-and-admissions/undergraduate/undergraduate-application-deadlines",
+        "verified": "2026-10-17",
+        "note": null
+      },
+      {
+        "name": "Health Sciences (BHSc) application deadline",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-05-15",
+        "date": "15 May 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.unbc.ca/programs-and-admissions/undergraduate/undergraduate-application-deadlines",
+        "verified": "2026-10-17",
+        "note": null
+      },
+      {
+        "name": "General-entry programmes (BA, BSc and others): international deadline",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-07-11",
+        "date": "11 July 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "not-confirmed",
+        "source": "https://www.unbc.ca/programs-and-admissions/undergraduate/undergraduate-application-deadlines",
+        "verified": "2026-10-17",
+        "note": "The page prints “July 11” without a year next to the note that applications for 2027–2028 open in early October, so it may still be the current cycle’s date."
+      }
+    ],
+    "applicationFee": {
+      "amount": 125,
+      "currency": "CAD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "International application fee, non-refundable, with each application.",
+      "source": "https://www.unbc.ca/calendar/undergraduate/fees",
+      "verified": "2026-10-17"
+    },
+    "documents": [
+      "UNBC application",
+      "Secondary school transcripts and certificate",
+      "English test result unless exempt"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "Academic; not less than 6.0 in any module."
+    },
+    "toefl": {
+      "min": 90,
+      "recommended": null,
+      "note": "iBT 90 with at least 20 in each component. The page gives no 1–6 scale figure.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 90,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 125,
+      "recommended": null,
+      "note": "Not less than 115 in each component."
+    },
+    "waiver": null,
+    "note": "CAEL 70 (no subtest below 60); Cambridge C1 Advanced grade B. Requirements updated 23 October 2025."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition rate and international fees; other fees, housing and food extra"
+    },
+    "academicYear": "2026–2027",
+    "currency": "CAD",
+    "studentCategory": "International undergraduates, tuition per credit hour",
+    "source": "https://www.unbc.ca/calendar/undergraduate/fees",
+    "verified": "2026-10-17",
+    "headline": "C$1,040.15 per credit hour",
+    "items": [
+      {
+        "label": "Tuition per credit hour",
+        "amount": 1040.15
+      },
+      {
+        "label": "International student fee, per semester",
+        "amount": 125
+      },
+      {
+        "label": "Medical insurance fee, per semester",
+        "amount": 190
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "International tuition is C$1,040.15 per credit hour, with per-semester international and medical insurance fees; a C$9,000 deposit is paid after admission",
+    "note": "The fee page does not print the academic year; the finance office lists Fall 2026 and Winter 2027 charts. BC requires international students to pay C$75 a month for MSP after a three-month wait."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "UNBC says it cannot offer fully funded scholarships or living expenses; awards are applied for after admission.",
+      "source": "https://www.unbc.ca/international/frequent-asked-questions-faq",
+      "verified": "2026-10-17"
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "UNBC — undergraduate application deadlines",
+      "url": "https://www.unbc.ca/programs-and-admissions/undergraduate/undergraduate-application-deadlines"
+    },
+    {
+      "label": "UNBC — undergraduate fees (calendar)",
+      "url": "https://www.unbc.ca/calendar/undergraduate/fees"
+    },
+    {
+      "label": "UNBC — international admissions (calendar)",
+      "url": "https://www.unbc.ca/calendar/undergraduate/international-admissions"
+    },
+    {
+      "label": "UNBC — international tuition and deposit",
+      "url": "https://www.unbc.ca/international/tuition-and-fees"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "deadlines",
+      "application fee",
+      "English requirements",
+      "tuition"
+    ],
+    "unconfirmed": [
+      "entrance scholarships for international students",
+      "test policy",
+      "requirements for Uzbekistan",
+      "full list of majors",
+      "founding year"
+    ]
+  },
+  "lastVerified": "2026-10-17",
+  "aliases": [
+    "UNBC",
+    "Northern British Columbia"
+  ],
+  "programsBasis": "evidence",
+  "province": "BC",
+  "programEvidence": {
+    "engineering": {
+      "program": "Bachelor of Applied Science (Engineering)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.unbc.ca/programs-and-admissions/undergraduate/undergraduate-application-deadlines",
+      "checked": "2026-10-17"
+    },
+    "medicine": {
+      "program": "Bachelor of Health Sciences",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.unbc.ca/programs-and-admissions/undergraduate/undergraduate-application-deadlines",
+      "checked": "2026-10-17"
+    },
+    "social-sciences": {
+      "program": "Bachelor of Social Work",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.unbc.ca/programs-and-admissions/undergraduate/undergraduate-application-deadlines",
+      "checked": "2026-10-17"
+    }
+  },
+  "programsStatus": "partial"
+},
+
+{
+  "id": "vancouver-island-university",
+  "name": "Vancouver Island University",
+  "shortName": "VIU",
+  "country": "ca",
+  "city": "Nanaimo",
+  "region": "British Columbia",
+  "founded": null,
+  "type": "Public university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#0b4f6c",
+    "c2": "#062b3b",
+    "initials": "VI"
+  },
+  "description": "A teaching-focused university in Nanaimo on Vancouver Island, with campuses in Cowichan and Powell River.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "medicine",
+    "arts",
+    "social-sciences"
+  ],
+  "englishTaughtPrograms": [
+    "medicine",
+    "arts",
+    "social-sciences"
+  ],
+  "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
+  "links": {
+    "website": "https://www.viu.ca/",
+    "admissions": "https://international.viu.ca/admissions",
+    "internationalAdmissions": "https://international.viu.ca/",
+    "applicationPortal": "https://www.viu.ca/apply",
+    "scholarships": "https://services.viu.ca/financial-aid-awards/viu-scholarships-awards-and-bursaries",
+    "financialAid": "https://services.viu.ca/financial-aid-awards/viu-scholarships-awards-and-bursaries",
+    "programs": "https://www.viu.ca/admissions/tuition-fee-schedule",
+    "cost": "https://www.viu.ca/admissions/tuition-fee-schedule"
+  },
+  "admissions": {
+    "platforms": [
+      "VIU online application"
+    ],
+    "deadlines": [],
+    "applicationFee": {
+      "amount": 153,
+      "currency": "CAD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Application fee, credit card only.",
+      "source": "https://international.viu.ca/admissions",
+      "verified": "2026-10-17"
+    },
+    "documents": [
+      "VIU application",
+      "Secondary school transcripts and certificate",
+      "English test result unless exempt",
+      "Official documents or certified translations by post"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": [
+      "No application deadline for September was found on the pages read; the offer letter sets the deposit deadline."
+    ]
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "Academic; no band below 6.0."
+    },
+    "toefl": {
+      "min": 88,
+      "recommended": null,
+      "note": "Before 21 January 2026: 88 with no section below 20. After: 4.5 with no section below 4.0.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 88,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 115,
+      "recommended": null,
+      "note": "No band below 105."
+    },
+    "waiver": null,
+    "note": "CAEL 60; PTE Academic 60 (60 in each section); Cambridge C1/C2 176. Results must be no older than two years."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": "Uzbekistan: Akademik Litsey Diplomi (Diploma of Academic Lyceum)."
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition rate only; fees, housing and food extra"
+    },
+    "academicYear": "2026–2027",
+    "currency": "CAD",
+    "studentCategory": "International undergraduate degree, diploma and certificate programmes",
+    "source": "https://www.viu.ca/admissions/tuition-fee-schedule",
+    "verified": "2026-10-17",
+    "headline": "C$832.09 per credit",
+    "items": [
+      {
+        "label": "Tuition per credit",
+        "amount": 832.09
+      },
+      {
+        "label": "Co-op education, per semester",
+        "amount": 2496.25
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "International undergraduate tuition is C$832.09 per credit; no yearly total is printed",
+    "note": "“Fees are effective April 1” (students’ union fees shown as of 1 April 2026); VIU may amend the schedule without notice."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Need-based aid for international first-year students is not described on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "VIU — international application information",
+      "url": "https://international.viu.ca/admissions"
+    },
+    {
+      "label": "VIU — tuition fee schedule",
+      "url": "https://www.viu.ca/admissions/tuition-fee-schedule"
+    },
+    {
+      "label": "VIU International — home for international students",
+      "url": "https://international.viu.ca/"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application fee",
+      "English requirements",
+      "requirements for Uzbekistan",
+      "tuition"
+    ],
+    "unconfirmed": [
+      "application deadline",
+      "entrance scholarships for international students",
+      "test policy",
+      "full list of majors",
+      "founding year"
+    ]
+  },
+  "lastVerified": "2026-10-17",
+  "aliases": [
+    "VIU",
+    "Vancouver Island"
+  ],
+  "programsBasis": "evidence",
+  "province": "BC",
+  "campuses": [
+    "Nanaimo",
+    "Cowichan",
+    "Powell River"
+  ],
+  "programEvidence": {
+    "medicine": {
+      "program": "Bachelor of Science in Nursing",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.viu.ca/admissions/tuition-fee-schedule",
+      "checked": "2026-10-17"
+    },
+    "arts": {
+      "program": "Bachelor of Interior Design",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.viu.ca/admissions/tuition-fee-schedule",
+      "checked": "2026-10-17"
+    },
+    "social-sciences": {
+      "program": "Bachelor of Social Work",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.viu.ca/admissions/tuition-fee-schedule",
+      "checked": "2026-10-17"
+    }
+  },
+  "programsStatus": "partial"
+},
+
+{
+  "id": "university-of-the-fraser-valley",
+  "name": "University of the Fraser Valley",
+  "shortName": "UFV",
+  "country": "ca",
+  "city": "Abbotsford",
+  "region": "British Columbia",
+  "founded": null,
+  "type": "Public university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#0b4f6c",
+    "c2": "#062b3b",
+    "initials": "FV"
+  },
+  "description": "A university in Abbotsford, British Columbia, with campuses in Chilliwack and Mission, east of Vancouver.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [],
+  "englishTaughtPrograms": [],
+  "programNote": "The pages read name no specific bachelor’s programmes, so no field of study is confirmed.",
+  "links": {
+    "website": "https://www.ufv.ca/",
+    "admissions": "https://international.ufv.ca/future-students/apply-to-ufv/application-deadlines/",
+    "internationalAdmissions": "https://international.ufv.ca/",
+    "applicationPortal": "https://international.ufv.ca/future-students/apply-to-ufv/",
+    "scholarships": "https://international.ufv.ca/future-students/tuition-scholarships-jobs/scholarships/international-excellence-scholarship/",
+    "financialAid": "https://international.ufv.ca/future-students/tuition-scholarships-jobs/scholarships/international-excellence-scholarship/",
+    "programs": "https://international.ufv.ca/future-students/tuition-scholarships-jobs/tuition-fees-future-students/",
+    "cost": "https://international.ufv.ca/future-students/tuition-scholarships-jobs/tuition-fees-future-students/"
+  },
+  "admissions": {
+    "platforms": [
+      "UFV online application"
+    ],
+    "deadlines": [
+      {
+        "name": "Application window for the fall semester closes",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-06-01",
+        "date": "1 June 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "The window opens on 1 October. Some programmes may close early due to high demand.",
+        "status": "confirmed",
+        "source": "https://international.ufv.ca/future-students/apply-to-ufv/application-deadlines/",
+        "verified": "2026-10-17",
+        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Full payment to confirm acceptance (fall)",
+        "kind": "reply",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-06-15",
+        "date": "15 June 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Without payment by this date you must re-apply for a later semester.",
+        "status": "confirmed",
+        "source": "https://international.ufv.ca/future-students/apply-to-ufv/application-deadlines/",
+        "verified": "2026-10-17",
+        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 150,
+      "currency": "CAD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "For all undergraduate and post-baccalaureate programmes, by credit card.",
+      "source": "https://international.ufv.ca/future-students/apply-to-ufv/",
+      "verified": "2026-10-17"
+    },
+    "documents": [
+      "UFV application",
+      "Secondary school transcripts and certificate",
+      "English test result unless exempt"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "Academic; minimum band 6.0. IELTS Indicator is not accepted."
+    },
+    "toefl": {
+      "min": 88,
+      "recommended": null,
+      "note": "iBT (including Home Edition) 88 with no section below 20. The page gives no 1–6 scale figure.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 88,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 110,
+      "recommended": null,
+      "note": "Accepted “until further notice”."
+    },
+    "waiver": null,
+    "note": "PTE 61 with 60 in writing; ILAC 3.3. Lower scores can lead to Qualifying Studies."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition and ancillary fees for one semester; health plan, housing and food extra",
+      "tuition": 7173,
+      "billed": 7658,
+      "period": "semester"
+    },
+    "academicYear": "2026–2027",
+    "currency": "CAD",
+    "studentCategory": "International students beginning studies in September 2026 or later, per semester (9 credits)",
+    "source": "https://international.ufv.ca/future-students/tuition-scholarships-jobs/tuition-fees-future-students/",
+    "verified": "2026-10-17",
+    "headline": "C$7,658 a semester for 9 credits (2026–27)",
+    "items": [
+      {
+        "label": "Tuition, 9 credits (C$797 a credit)",
+        "amount": 7173
+      },
+      {
+        "label": "Ancillary and student fees",
+        "amount": 485
+      }
+    ],
+    "billedSubtotal": 7658,
+    "totalText": "Tuition and fees are C$7,658 a semester for 9 credits for students starting from September 2026; the first semester adds a C$1,450 administration fee. UFV estimates about C$30,000 for a first year with living costs",
+    "note": "Nine credits is the minimum full-time load; a typical load is about 15 credits, which costs more."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [
+      {
+        "name": "International Excellence Entrance Scholarship",
+        "amount": "C$20,000 (C$5,000 a year for four years)",
+        "eligibility": "Ten international students a year in their graduating year or recently graduated, with a CGPA of 3.75 on approved grade 12 courses, applying to a degree",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": true,
+        "note": "Renewed with a CGPA of 3.0; awarded first come, first served.",
+        "basis": "merit",
+        "source": "https://international.ufv.ca/future-students/tuition-scholarships-jobs/scholarships/international-excellence-scholarship/",
+        "verified": "2026-10-17"
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Need-based aid for international first-year students is not described on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "UFV — international application deadlines",
+      "url": "https://international.ufv.ca/future-students/apply-to-ufv/application-deadlines/"
+    },
+    {
+      "label": "UFV — how international students apply",
+      "url": "https://international.ufv.ca/future-students/apply-to-ufv/"
+    },
+    {
+      "label": "UFV — international tuition and fees",
+      "url": "https://international.ufv.ca/future-students/tuition-scholarships-jobs/tuition-fees-future-students/"
+    },
+    {
+      "label": "UFV — English requirements",
+      "url": "https://international.ufv.ca/future-students/apply-to-ufv/english-language-requirements/"
+    },
+    {
+      "label": "UFV — International Excellence Entrance Scholarship",
+      "url": "https://international.ufv.ca/future-students/tuition-scholarships-jobs/scholarships/international-excellence-scholarship/"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "deadlines",
+      "application fee",
+      "English requirements",
+      "tuition",
+      "scholarships"
+    ],
+    "unconfirmed": [
+      "test policy",
+      "requirements for Uzbekistan",
+      "full list of majors",
+      "founding year"
+    ]
+  },
+  "lastVerified": "2026-10-17",
+  "aliases": [
+    "UFV",
+    "Fraser Valley"
+  ],
+  "province": "BC",
+  "campuses": [
+    "Abbotsford",
+    "Chilliwack",
+    "Mission"
+  ],
+  "programsStatus": "not-checked"
+},
+
+{
+  "id": "capilano-university",
+  "name": "Capilano University",
+  "shortName": "CapU",
+  "country": "ca",
+  "city": "North Vancouver",
+  "region": "British Columbia",
+  "founded": null,
+  "type": "Public university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#1f3a5f",
+    "c2": "#0f1f33",
+    "initials": "C"
+  },
+  "description": "A teaching university in North Vancouver, British Columbia, known for its arts, business, tourism and education programmes.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "education"
+  ],
+  "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
+  "links": {
+    "website": "https://www.capilanou.ca/",
+    "admissions": "https://www.capilanou.ca/admissions/apply-to-capu/how-to-apply/apply-as-an-international-student/",
+    "internationalAdmissions": "https://www.capilanou.ca/admissions/apply-to-capu/admission-requirements/international-students/",
+    "applicationPortal": "https://www.capilanou.ca/admissions/apply-to-capu/apply-now/",
+    "scholarships": "https://www.capilanou.ca/admissions/fees--finances/financial-aid--awards/funding-for-international-students/",
+    "financialAid": "https://www.capilanou.ca/admissions/fees--finances/financial-aid--awards/funding-for-international-students/",
+    "programs": "https://www.capilanou.ca/admissions/fees--finances/tuition--fees/tuition--other-fees/",
+    "cost": "https://www.capilanou.ca/admissions/fees--finances/tuition--fees/tuition--other-fees/"
+  },
+  "admissions": {
+    "platforms": [
+      "CapU online application (two programmes per application)"
+    ],
+    "deadlines": [
+      {
+        "name": "International Entrance & Performance Award, Fall 2027: complete application",
+        "kind": "scholarship",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-30",
+        "date": "30 November 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Then pay the tuition deposit by 4 December 2026 and submit the study permit application to IRCC by 31 December 2026. The award may close earlier if funds run out.",
+        "status": "confirmed",
+        "source": "https://www.capilanou.ca/admissions/fees--finances/financial-aid--awards/funding-for-international-students/",
+        "verified": "2026-10-17",
+        "note": null
+      }
+    ],
+    "applicationFee": {
+      "amount": 135,
+      "currency": "CAD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Non-refundable; covers up to two programmes.",
+      "source": "https://www.capilanou.ca/admissions/apply-to-capu/how-to-apply/apply-as-an-international-student/",
+      "verified": "2026-10-17"
+    },
+    "documents": [
+      "CapU application",
+      "Secondary school transcripts and certificate",
+      "English test result unless exempt"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": [
+      "Programme application deadlines are given on each programme’s page; the general fall 2027 date was not read."
+    ]
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "Academic; no single score below 6 (effective Fall 2027)."
+    },
+    "toefl": {
+      "min": 83,
+      "recommended": null,
+      "note": "Tests before 21 January 2026: 83 (within two years). After: 4.5 with no section below 4.0.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 83,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 120,
+      "recommended": null,
+      "note": "No sub-score below 110 (from Fall 2027)."
+    },
+    "waiver": null,
+    "note": "CAEL 70; PTE Academic 61 (from Fall 2027; 56 before)."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition rate only; surcharges, fees, housing and food extra"
+    },
+    "academicYear": "2026–2027",
+    "currency": "CAD",
+    "studentCategory": "International students, standard tuition per credit",
+    "source": "https://www.capilanou.ca/admissions/fees--finances/tuition--fees/tuition--other-fees/",
+    "verified": "2026-10-17",
+    "headline": "C$724.24 per credit (2026–27)",
+    "items": [
+      {
+        "label": "Standard tuition per credit",
+        "amount": 724.24
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "The standard international rate is C$724.24 per credit; some programmes add surcharges and other fees; no yearly total is printed",
+    "note": null
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [
+      {
+        "name": "International Entrance & Performance Award (IEPA)",
+        "amount": "C$1,800 a semester for 12 credits; up to C$18,000 for a four-year degree",
+        "eligibility": "New international students admitted for Spring, Summer or Fall 2027 with an admission GPA of 2.50 or higher",
+        "deadline": null,
+        "application": "Meet the qualifying dates: application by 30 November 2026, deposit by 4 December 2026, study permit filed by 31 December 2026",
+        "renewable": true,
+        "note": "A tuition reduction; kept with a 3.50 term GPA and 12 credits a term. Subject to availability.",
+        "basis": "automatic",
+        "source": "https://www.capilanou.ca/admissions/fees--finances/financial-aid--awards/funding-for-international-students/",
+        "verified": "2026-10-17"
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Need-based aid for international first-year students is not described on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "CapU — apply as an international student",
+      "url": "https://www.capilanou.ca/admissions/apply-to-capu/how-to-apply/apply-as-an-international-student/"
+    },
+    {
+      "label": "CapU — tuition and other fees 2026/27",
+      "url": "https://www.capilanou.ca/admissions/fees--finances/tuition--fees/tuition--other-fees/"
+    },
+    {
+      "label": "CapU — English language requirements",
+      "url": "https://www.capilanou.ca/admissions/apply-to-capu/admission-requirements/english-language-requirements/"
+    },
+    {
+      "label": "CapU — funding for international students",
+      "url": "https://www.capilanou.ca/admissions/fees--finances/financial-aid--awards/funding-for-international-students/"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "application fee",
+      "English requirements",
+      "tuition",
+      "scholarships"
+    ],
+    "unconfirmed": [
+      "general fall 2027 application deadline",
+      "test policy",
+      "requirements for Uzbekistan",
+      "full list of majors",
+      "founding year"
+    ]
+  },
+  "lastVerified": "2026-10-17",
+  "aliases": [
+    "CapU",
+    "Capilano"
+  ],
+  "programsBasis": "evidence",
+  "province": "BC",
+  "programEvidence": {
+    "education": {
+      "program": "Early Childhood Care and Education",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.capilanou.ca/admissions/fees--finances/tuition--fees/tuition--other-fees/",
+      "checked": "2026-10-17"
+    }
+  },
+  "programsStatus": "partial"
+},
+
+{
+  "id": "laurentian-university",
+  "name": "Laurentian University",
+  "shortName": "Laurentian",
+  "country": "ca",
+  "city": "Sudbury",
+  "region": "Ontario",
+  "founded": null,
+  "type": "Public university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#7a3b12",
+    "c2": "#3d1d09",
+    "initials": "L"
+  },
+  "description": "A bilingual university in Sudbury, northern Ontario, offering programmes in English and in French.",
+  "englishTaught": true,
+  "languageOfInstruction": "English and French",
+  "programs": [
+    "business",
+    "engineering",
+    "computer-science",
+    "medicine"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "engineering",
+    "computer-science",
+    "medicine"
+  ],
+  "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
+  "links": {
+    "website": "https://laurentian.ca/",
+    "admissions": "https://laurentian.ca/apply/international-undergraduate-applicants",
+    "internationalAdmissions": "https://laurentian.ca/apply/international-undergraduate-applicants",
+    "applicationPortal": "https://laurentian.ca/apply/international-undergraduate-applicants",
+    "scholarships": "https://laurentian.ca/academics/international/scholarships",
+    "financialAid": "https://laurentian.ca/academics/international/scholarships",
+    "programs": "https://laurentian.ca/academics/fees-financing/international",
+    "cost": "https://laurentian.ca/academics/fees-financing/international"
+  },
+  "admissions": {
+    "platforms": [
+      "Laurentian International Application form",
+      "OUAC (Ontario Universities’ Application Centre)"
+    ],
+    "deadlines": [
+      {
+        "name": "Nursing (BScN) application deadline",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-01",
+        "date": "1 February 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://laurentian.ca/apply/international-undergraduate-applicants",
+        "verified": "2026-10-17",
+        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Application deadline, September start (most programmes)",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-06-15",
+        "date": "15 June 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Documents by 20 June. Architectural Studies closes 14 February.",
+        "status": "confirmed",
+        "source": "https://laurentian.ca/apply/international-undergraduate-applicants",
+        "verified": "2026-10-17",
+        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "CAD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "International applicants use Laurentian’s own form; the fee amount was not shown on the page read. Ontario high school students apply through OUAC.",
+      "source": "https://laurentian.ca/apply/international-undergraduate-applicants",
+      "verified": "2026-10-17"
+    },
+    "documents": [
+      "Laurentian application",
+      "Secondary school transcripts and certificate",
+      "English test result unless exempt",
+      "For French-language programmes: proof of French (three years of study in French or TCF/TEF/DALF B2)"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "Academic (and One Skill Retake); no band lower than 6.0."
+    },
+    "toefl": {
+      "min": 88,
+      "recommended": null,
+      "note": "Before 1 January 2026: 88. From 1 January 2026: 4.5 with at least 5.0 in Writing and Speaking.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 88,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 120,
+      "recommended": null,
+      "note": "No subscore lower than 110."
+    },
+    "waiver": null,
+    "note": "PTE Academic 60; Cambridge C1/C2; Oxford ELLT 7 (no band below 6). French-language programmes need French instead."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition in the main figure; incidental fees and UHIP listed separately; housing and food extra",
+      "tuition": 30363.92
+    },
+    "academicYear": "2026–2027",
+    "currency": "CAD",
+    "studentCategory": "International undergraduates, full year",
+    "source": "https://laurentian.ca/academics/fees-financing/international",
+    "verified": "2026-10-17",
+    "headline": "C$30,052–C$41,041.60 tuition a year (2026–27)",
+    "items": [
+      {
+        "label": "Tuition, most programmes (30 credits)",
+        "amount": 30363.92
+      },
+      {
+        "label": "Tuition, Computer Science (30 credits)",
+        "amount": 30052.0
+      },
+      {
+        "label": "Tuition, Business or Sports Administration (30 credits)",
+        "amount": 31614.0
+      },
+      {
+        "label": "Tuition, Architecture (30 credits)",
+        "amount": 38844.56
+      },
+      {
+        "label": "Tuition, Engineering (36 credits)",
+        "amount": 41041.6
+      },
+      {
+        "label": "Incidental and association fees per year",
+        "amount": 1255.45
+      },
+      {
+        "label": "UHIP, 12 months from September 2026",
+        "amount": 948
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "Tuition for 2026–27 from C$30,052 (Computer Science) to C$41,041.60 (Engineering, 36 credits); incidental fees and UHIP are extra",
+    "note": "“All fees are subject to change.”"
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [
+      {
+        "name": "Laurentian International Academic Excellence Scholarships",
+        "amount": "Up to C$40,000 (80–89.9%) or C$60,000 (90–100%) over the degree",
+        "eligibility": "International undergraduate students by admission average; no prior degree",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": true,
+        "note": "C$10,000 or C$15,000 in year 1, renewed while the average stays above 80% (GPA 7.5) or 90% (GPA 9.5).",
+        "basis": "automatic",
+        "source": "https://laurentian.ca/academics/international/scholarships",
+        "verified": "2026-10-17"
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Need-based aid for international first-year students is not described on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Laurentian — how international undergraduates apply",
+      "url": "https://laurentian.ca/apply/international-undergraduate-applicants"
+    },
+    {
+      "label": "Laurentian — international fees 2026-2027",
+      "url": "https://laurentian.ca/academics/fees-financing/international"
+    },
+    {
+      "label": "Laurentian — international scholarships",
+      "url": "https://laurentian.ca/academics/international/scholarships"
+    },
+    {
+      "label": "Laurentian — language requirements",
+      "url": "https://laurentian.ca/academics/admissions/language-requirements"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "deadlines",
+      "English requirements",
+      "French requirement",
+      "tuition",
+      "scholarships"
+    ],
+    "unconfirmed": [
+      "application fee",
+      "test policy",
+      "requirements for Uzbekistan",
+      "full list of majors",
+      "founding year"
+    ]
+  },
+  "lastVerified": "2026-10-17",
+  "aliases": [
+    "Laurentian",
+    "Université Laurentienne",
+    "Universite Laurentienne",
+    "LU Sudbury"
+  ],
+  "programsBasis": "evidence",
+  "province": "ON",
+  "programEvidence": {
+    "business": {
+      "program": "Business Administration",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://laurentian.ca/academics/fees-financing/international",
+      "checked": "2026-10-17"
+    },
+    "engineering": {
+      "program": "Engineering",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://laurentian.ca/academics/fees-financing/international",
+      "checked": "2026-10-17"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://laurentian.ca/academics/fees-financing/international",
+      "checked": "2026-10-17"
+    },
+    "medicine": {
+      "program": "Bachelor of Science in Nursing",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://laurentian.ca/apply/international-undergraduate-applicants",
+      "checked": "2026-10-17"
+    }
+  },
+  "programsStatus": "partial",
+  "frenchRequirement": {
+    "level": "B2",
+    "note": "For programmes taught in French or bilingual: three years of study in French, or TCF B2 (version for prospective students), TEF B2 in the written part, or DALF B2.",
+    "source": "https://laurentian.ca/academics/admissions/language-requirements",
+    "verified": "2026-10-17"
+  }
+},
+
+{
+  "id": "universite-du-quebec-a-montreal",
+  "name": "Université du Québec à Montréal",
+  "shortName": "UQAM",
+  "country": "ca",
+  "city": "Montreal",
+  "region": "Quebec",
+  "founded": null,
+  "type": "Public university (French-language)",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#4b2e83",
+    "c2": "#2c1a4d",
+    "initials": "UDQ"
+  },
+  "description": "A French-language public university in downtown Montreal and the largest member of the Université du Québec network (listed here on its own). International students must study full time and need a Quebec Acceptance Certificate (CAQ).",
+  "englishTaught": false,
+  "languageOfInstruction": "French",
+  "programs": [
+    "business",
+    "mathematics",
+    "arts"
+  ],
+  "englishTaughtPrograms": [],
+  "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
+  "links": {
+    "website": "https://uqam.ca/",
+    "admissions": "https://www.apps.uqam.ca/Application/AdmissionEnLigne/Traitements/DatesLimites/AfficherDatesLimites.aspx?adm_web_cycle=1",
+    "internationalAdmissions": "https://etudier.uqam.ca/etudiants-internationaux",
+    "applicationPortal": "https://etudier.uqam.ca/admission",
+    "scholarships": "https://etudier.uqam.ca/etudiants-internationaux/bourses",
+    "financialAid": "https://etudier.uqam.ca/etudiants-internationaux/bourses",
+    "programs": "https://www.apps.uqam.ca/Application/AdmissionEnLigne/Traitements/DatesLimites/AfficherDatesLimites.aspx?adm_web_cycle=1",
+    "cost": "https://etudier.uqam.ca/cout-bourses"
+  },
+  "admissions": {
+    "platforms": [
+      "UQAM online admission (Admission en ligne)"
+    ],
+    "deadlines": [
+      {
+        "name": "Application deadline for international candidates, autumn 2027 (bachelor’s programmes)",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-03-01",
+        "date": "1 March 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Some programmes close earlier. Immigration steps take three to six months or more.",
+        "status": "confirmed",
+        "source": "https://www.apps.uqam.ca/Application/AdmissionEnLigne/Traitements/DatesLimites/AfficherDatesLimites.aspx?adm_web_cycle=1",
+        "verified": "2026-10-17",
+        "note": null
+      }
+    ],
+    "applicationFee": {
+      "amount": 155,
+      "currency": "CAD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Admission fee for international candidates for 2026 (C$117 for Canadians); the amount changes each 1 January.",
+      "source": "https://etudier.uqam.ca/frais-admission",
+      "verified": "2026-10-17"
+    },
+    "documents": [
+      "UQAM application",
+      "Secondary school transcripts and certificate",
+      "Proof of French where required"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": null,
+    "toefl": null,
+    "duolingo": null,
+    "waiver": null,
+    "note": "Teaching is in French; English is not an admission requirement. French: a recognised test (TEF, TCF, DELF or DALF) for many programmes, or UQAM’s own eliminatory French test for some; results can lead to direct admission or admission with required French training."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "not-applicable",
+      "note": "SAT and ACT are not part of the admission route; candidates are assessed on their school record and French."
+    },
+    "act": {
+      "policy": "not-applicable",
+      "note": "SAT and ACT are not part of the admission route; candidates are assessed on their school record and French."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition and fees, approximate; insurance, housing and food extra",
+      "tuition": 29415
+    },
+    "academicYear": "2026–2027",
+    "currency": "CAD",
+    "studentCategory": "International students, full time, certificate or bachelor’s (not French or francophone Belgian passports)",
+    "source": "https://etudier.uqam.ca/cout-bourses",
+    "verified": "2026-10-17",
+    "headline": "About C$29,415 a year (2026–27 estimate)",
+    "items": [
+      {
+        "label": "Estimated yearly tuition and fees, certificate and bachelor’s",
+        "amount": 29415
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "UQAM estimates C$29,415 a year for a full-time international bachelor’s student in 2026–27 (C$10,541 for French and francophone Belgian passports)",
+    "note": "“Amounts in force in June 2026 … approximate and subject to increase without notice.”"
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [
+      {
+        "name": "Partial exemption of the increased tuition (international agreements)",
+        "amount": "Reduces the international supplement",
+        "eligibility": "Nationals of countries with an agreement with Quebec",
+        "deadline": null,
+        "application": null,
+        "renewable": null,
+        "note": "Uzbekistan’s place on the list was not checked. Most UQAM scholarships listed are for graduate students.",
+        "basis": "partnership",
+        "source": "https://etudier.uqam.ca/etudiants-internationaux/bourses",
+        "verified": "2026-10-17"
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Need-based aid for international first-year students is not described on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "UQAM — admission deadlines, undergraduate",
+      "url": "https://www.apps.uqam.ca/Application/AdmissionEnLigne/Traitements/DatesLimites/AfficherDatesLimites.aspx?adm_web_cycle=1"
+    },
+    {
+      "label": "UQAM — admission fees",
+      "url": "https://etudier.uqam.ca/frais-admission"
+    },
+    {
+      "label": "UQAM — cost of studies 2026-2027",
+      "url": "https://etudier.uqam.ca/cout-bourses"
+    },
+    {
+      "label": "UQAM — recognised French tests",
+      "url": "https://etudier.uqam.ca/tests-francais-reconnus"
+    },
+    {
+      "label": "UQAM — funding for international students",
+      "url": "https://etudier.uqam.ca/etudiants-internationaux/bourses"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "deadlines",
+      "application fee",
+      "French requirement",
+      "costs"
+    ],
+    "unconfirmed": [
+      "French level by programme",
+      "requirements for Uzbekistan",
+      "undergraduate entrance scholarships for international students",
+      "full list of majors",
+      "founding year"
+    ]
+  },
+  "lastVerified": "2026-10-17",
+  "aliases": [
+    "UQAM",
+    "Universite du Quebec a Montreal",
+    "Université du Québec à Montreal",
+    "UQ Montreal"
+  ],
+  "programsBasis": "evidence",
+  "province": "QC",
+  "programEvidence": {
+    "business": {
+      "program": "Baccalauréat en administration",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://www.apps.uqam.ca/Application/AdmissionEnLigne/Traitements/DatesLimites/AfficherDatesLimites.aspx?adm_web_cycle=1",
+      "checked": "2026-10-17"
+    },
+    "mathematics": {
+      "program": "Baccalauréat en actuariat",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://www.apps.uqam.ca/Application/AdmissionEnLigne/Traitements/DatesLimites/AfficherDatesLimites.aspx?adm_web_cycle=1",
+      "checked": "2026-10-17"
+    },
+    "arts": {
+      "program": "Baccalauréat en art dramatique — études théâtrales",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://www.apps.uqam.ca/Application/AdmissionEnLigne/Traitements/DatesLimites/AfficherDatesLimites.aspx?adm_web_cycle=1",
+      "checked": "2026-10-17"
+    }
+  },
+  "programsStatus": "partial",
+  "frenchRequirement": {
+    "level": null,
+    "note": "Recognised tests: TEF, TCF, DELF, DALF (TFI results remain valid about two years). The level depends on the programme.",
+    "source": "https://etudier.uqam.ca/tests-francais-reconnus",
+    "verified": "2026-10-17"
+  }
+},
+
+{
+  "id": "universite-de-sherbrooke",
+  "name": "Université de Sherbrooke",
+  "shortName": "UdeS",
+  "country": "ca",
+  "city": "Sherbrooke",
+  "region": "Quebec",
+  "founded": null,
+  "type": "Public university (French-language)",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#0b4f6c",
+    "c2": "#062b3b",
+    "initials": "UDS"
+  },
+  "description": "A French-language research university in Sherbrooke, Quebec, with a campus in Longueuil, known for its co-op (paid internship) programmes. International students need a Quebec Acceptance Certificate (CAQ).",
+  "englishTaught": false,
+  "languageOfInstruction": "French",
+  "programs": [
+    "law",
+    "business",
+    "engineering",
+    "computer-science",
+    "medicine",
+    "humanities",
+    "education"
+  ],
+  "englishTaughtPrograms": [],
+  "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
+  "links": {
+    "website": "https://www.usherbrooke.ca/",
+    "admissions": "https://www.usherbrooke.ca/admission/da/planifier-demande/dates-limites/1er-cycle",
+    "internationalAdmissions": "https://www.usherbrooke.ca/admission/da/candidats-internationaux",
+    "applicationPortal": "https://www.usherbrooke.ca/admission/",
+    "scholarships": "https://www.usherbrooke.ca/admission/couts-et-aide-financiere/bourses-et-aide-financiere/etudiants-internationaux",
+    "financialAid": "https://www.usherbrooke.ca/admission/couts-et-aide-financiere/bourses-et-aide-financiere/etudiants-internationaux",
+    "programs": "https://www.usherbrooke.ca/admission/couts-et-aide-financiere/frais-scolarite/personnes-etudiantes-internationales",
+    "cost": "https://www.usherbrooke.ca/admission/couts-et-aide-financiere/frais-scolarite/personnes-etudiantes-internationales"
+  },
+  "admissions": {
+    "platforms": [
+      "Université de Sherbrooke online application"
+    ],
+    "deadlines": [
+      {
+        "name": "Application deadline for international candidates, autumn term (bachelor’s, certificates)",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Some programmes set other dates. Allow three to six months for permits after admission.",
+        "status": "confirmed",
+        "source": "https://www.usherbrooke.ca/admission/da/planifier-demande/dates-limites/1er-cycle",
+        "verified": "2026-10-17",
+        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 106,
+      "currency": "CAD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Non-refundable fee for opening and processing the admission file, the same at every level.",
+      "source": "https://www.usherbrooke.ca/admission/da/planifier-demande/frais",
+      "verified": "2026-10-17"
+    },
+    "documents": [
+      "Université de Sherbrooke application",
+      "Secondary school transcripts and certificate",
+      "Proof of French where required"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": null,
+    "toefl": null,
+    "duolingo": null,
+    "waiver": null,
+    "note": "Teaching is in French; English is not an admission requirement. Each programme sets a minimum French level in the four skills; accepted proof includes DALF (C1, C2), DELF (B1, B2), TCF (TP with the two extra tests, Canada or Québec), TEF (Canada, TEFAQ) and Bright with the Five Star module. TFI is not accepted."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "not-applicable",
+      "note": "SAT and ACT are not part of the admission route; candidates are assessed on their school record and French."
+    },
+    "act": {
+      "policy": "not-applicable",
+      "note": "SAT and ACT are not part of the admission route; candidates are assessed on their school record and French."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition and related fees for one term; insurance, housing and food extra",
+      "tuition": 11505,
+      "period": "semester"
+    },
+    "academicYear": "2026–2027",
+    "currency": "CAD",
+    "studentCategory": "International students (not France or francophone Belgium), one term of 15 credits, autumn 2026",
+    "source": "https://www.usherbrooke.ca/admission/couts-et-aide-financiere/frais-scolarite/personnes-etudiantes-internationales",
+    "verified": "2026-10-17",
+    "headline": "C$11,975–C$16,070 a term (autumn 2026)",
+    "items": [
+      {
+        "label": "Arts, letters, humanities, education — term without internship (tuition C$11,505 + fees C$470)",
+        "amount": 11975
+      },
+      {
+        "label": "Law, management, engineering, computer science, pure sciences, health — term without internship (tuition C$14,610 + fees C$470)",
+        "amount": 15080
+      },
+      {
+        "label": "Same group in a programme with internships (tuition C$15,600 + fees C$470)",
+        "amount": 16070
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "A 15-credit term costs C$11,975 to C$16,070 in tuition and related fees depending on the faculty group; an internship term costs C$550",
+    "note": "Tables are updated every term. Paid co-op internships average C$9,000 per 15-week placement."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [
+      {
+        "name": "Exemption from supplementary tuition (Quebec agreements)",
+        "amount": "Removes most of the international supplement",
+        "eligibility": "A limited number of nationals of countries with a tuition agreement with Quebec",
+        "deadline": null,
+        "application": null,
+        "renewable": null,
+        "note": "Uzbekistan’s place on the list was not checked.",
+        "basis": "partnership",
+        "source": "https://www.usherbrooke.ca/admission/couts-et-aide-financiere/bourses-et-aide-financiere/etudiants-internationaux",
+        "verified": "2026-10-17"
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Need-based aid for international first-year students is not described on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "UdeS — undergraduate admission deadlines",
+      "url": "https://www.usherbrooke.ca/admission/da/planifier-demande/dates-limites/1er-cycle"
+    },
+    {
+      "label": "UdeS — admission file fee",
+      "url": "https://www.usherbrooke.ca/admission/da/planifier-demande/frais"
+    },
+    {
+      "label": "UdeS — tuition for international students",
+      "url": "https://www.usherbrooke.ca/admission/couts-et-aide-financiere/frais-scolarite/personnes-etudiantes-internationales"
+    },
+    {
+      "label": "UdeS — French language requirements",
+      "url": "https://www.usherbrooke.ca/admission/da/exigences-linguistiques/exigences-relatives-a-la-langue-francaise-pour-admission"
+    },
+    {
+      "label": "UdeS — funding for international students",
+      "url": "https://www.usherbrooke.ca/admission/couts-et-aide-financiere/bourses-et-aide-financiere/etudiants-internationaux"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "deadlines",
+      "application fee",
+      "French requirement",
+      "tuition"
+    ],
+    "unconfirmed": [
+      "French level by programme",
+      "entrance scholarships",
+      "requirements for Uzbekistan",
+      "full list of majors",
+      "founding year"
+    ]
+  },
+  "lastVerified": "2026-10-17",
+  "aliases": [
+    "UdeS",
+    "USherbrooke",
+    "Universite de Sherbrooke",
+    "Sherbrooke University"
+  ],
+  "programsBasis": "evidence",
+  "province": "QC",
+  "campuses": [
+    "Sherbrooke",
+    "Longueuil"
+  ],
+  "programEvidence": {
+    "law": {
+      "program": "Droit",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://www.usherbrooke.ca/admission/couts-et-aide-financiere/frais-scolarite/personnes-etudiantes-internationales",
+      "checked": "2026-10-17"
+    },
+    "business": {
+      "program": "Gestion (Baccalauréat en administration des affaires)",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://www.usherbrooke.ca/admission/couts-et-aide-financiere/frais-scolarite/personnes-etudiantes-internationales",
+      "checked": "2026-10-17"
+    },
+    "engineering": {
+      "program": "Génie",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://www.usherbrooke.ca/admission/couts-et-aide-financiere/frais-scolarite/personnes-etudiantes-internationales",
+      "checked": "2026-10-17"
+    },
+    "computer-science": {
+      "program": "Informatique",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://www.usherbrooke.ca/admission/couts-et-aide-financiere/frais-scolarite/personnes-etudiantes-internationales",
+      "checked": "2026-10-17"
+    },
+    "medicine": {
+      "program": "Sciences de la santé",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://www.usherbrooke.ca/admission/couts-et-aide-financiere/frais-scolarite/personnes-etudiantes-internationales",
+      "checked": "2026-10-17"
+    },
+    "humanities": {
+      "program": "Lettres et sciences humaines",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://www.usherbrooke.ca/admission/couts-et-aide-financiere/frais-scolarite/personnes-etudiantes-internationales",
+      "checked": "2026-10-17"
+    },
+    "education": {
+      "program": "Sciences de l’éducation",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://www.usherbrooke.ca/admission/couts-et-aide-financiere/frais-scolarite/personnes-etudiantes-internationales",
+      "checked": "2026-10-17"
+    }
+  },
+  "programsStatus": "partial",
+  "frenchRequirement": {
+    "level": null,
+    "note": "The minimum level is set per bachelor’s programme in a table on the university’s page (not read programme by programme).",
+    "source": "https://www.usherbrooke.ca/admission/da/exigences-linguistiques/exigences-relatives-a-la-langue-francaise-pour-admission",
+    "verified": "2026-10-17"
+  }
+},
+
+{
+  "id": "universite-de-moncton",
+  "name": "Université de Moncton",
+  "shortName": "U de M",
+  "country": "ca",
+  "city": "Moncton",
+  "region": "New Brunswick",
+  "founded": null,
+  "type": "Public university (French-language)",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#5a1f2e",
+    "c2": "#2e0f17",
+    "initials": "UDM"
+  },
+  "description": "The largest French-language university in Canada outside Quebec, with campuses in Moncton, Edmundston and Shippagan, New Brunswick. A francophone-minority study permit pathway (PPECFSM) can lead to permanent residence.",
+  "englishTaught": false,
+  "languageOfInstruction": "French",
+  "programs": [
+    "engineering",
+    "medicine",
+    "law",
+    "education"
+  ],
+  "englishTaughtPrograms": [],
+  "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
+  "links": {
+    "website": "https://www.umoncton.ca/",
+    "admissions": "https://www.umoncton.ca/admission/dates-importantes",
+    "internationalAdmissions": "https://www.umoncton.ca/international",
+    "applicationPortal": "https://www.umoncton.ca/demande-admission",
+    "scholarships": "https://www.umoncton.ca/bourses",
+    "financialAid": "https://www.umoncton.ca/bourses",
+    "programs": "https://www.umoncton.ca/international/frais",
+    "cost": "https://www.umoncton.ca/international/frais"
+  },
+  "admissions": {
+    "platforms": [
+      "Université de Moncton online application"
+    ],
+    "deadlines": [
+      {
+        "name": "Application deadline for international students, autumn session",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-05-31",
+        "date": "31 May 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "The page says “before 31 May”; the university may close applications earlier depending on demand.",
+        "status": "confirmed",
+        "source": "https://www.umoncton.ca/admission/dates-importantes",
+        "verified": "2026-10-17",
+        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 300,
+      "currency": "CAD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Non-refundable file review fee; C$230 of it is credited against university fees at the start of the first session.",
+      "source": "https://www.umoncton.ca/processus-d%E2%80%99admission-pour-%C3%A9tudiants-internationaux",
+      "verified": "2026-10-17"
+    },
+    "documents": [
+      "Université de Moncton application",
+      "Secondary school transcripts and certificate",
+      "Proof of French where required"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": null,
+    "toefl": null,
+    "duolingo": null,
+    "waiver": null,
+    "note": "Teaching is in French; English is not an admission requirement. The French-language requirement for international applicants was not read."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "not-applicable",
+      "note": "SAT and ACT are not part of the admission route; candidates are assessed on their school record and French."
+    },
+    "act": {
+      "policy": "not-applicable",
+      "note": "SAT and ACT are not part of the admission route; candidates are assessed on their school record and French."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, related fees, health and dental plans",
+      "tuition": 15761,
+      "billed": 17839
+    },
+    "academicYear": "2026–2027",
+    "currency": "CAD",
+    "studentCategory": "International undergraduates, Moncton campus, one academic year (8 months)",
+    "source": "https://www.umoncton.ca/international/frais",
+    "verified": "2026-10-17",
+    "headline": "C$17,839 tuition and fees for a year (2026–27, indicative)",
+    "items": [
+      {
+        "label": "Tuition",
+        "amount": 15761
+      },
+      {
+        "label": "Related fees (Moncton campus)",
+        "amount": 726
+      },
+      {
+        "label": "Health plan",
+        "amount": 1296
+      },
+      {
+        "label": "Dental plan",
+        "amount": 56
+      },
+      {
+        "label": "Housing (8 months, estimate)",
+        "amount": 5720
+      }
+    ],
+    "billedSubtotal": 17839,
+    "totalText": "Tuition C$15,761 plus related fees, health and dental plans: C$17,839 for 2026–27 (engineering C$18,147, nursing C$18,689); housing and other living costs are extra",
+    "note": "“For information only; the rates for 2027-2028 have not yet been set.” Currency conversions on the page are dated 18 June 2026."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [
+      {
+        "name": "Bourse de mérite scolaire (Université de Moncton)",
+        "amount": "C$4,000–C$5,000 over the degree (C$1,000 a year); up to C$12,000 or C$15,000 with a higher average",
+        "eligibility": "Students entering a first-cycle programme with an 80% average",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": true,
+        "note": "Whether international students are included is not stated on the page read. Many programmes add an automatic admission award of C$1,000–C$2,000.",
+        "basis": "automatic",
+        "source": "https://www.umoncton.ca/bourses",
+        "verified": "2026-10-17"
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Need-based aid for international first-year students is not described on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "U de Moncton — important dates",
+      "url": "https://www.umoncton.ca/admission/dates-importantes"
+    },
+    {
+      "label": "U de Moncton — admission process for international students",
+      "url": "https://www.umoncton.ca/processus-d%E2%80%99admission-pour-%C3%A9tudiants-internationaux"
+    },
+    {
+      "label": "U de Moncton — school and living costs 2026-2027",
+      "url": "https://www.umoncton.ca/international/frais"
+    },
+    {
+      "label": "U de Moncton — scholarships",
+      "url": "https://www.umoncton.ca/bourses"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "deadlines",
+      "application fee",
+      "costs",
+      "scholarships"
+    ],
+    "unconfirmed": [
+      "French requirement",
+      "requirements for Uzbekistan",
+      "full list of majors",
+      "founding year"
+    ]
+  },
+  "lastVerified": "2026-10-17",
+  "aliases": [
+    "UMoncton",
+    "Université de Moncton",
+    "Universite de Moncton",
+    "University of Moncton"
+  ],
+  "programsBasis": "evidence",
+  "province": "NB",
+  "campuses": [
+    "Moncton",
+    "Edmundston",
+    "Shippagan"
+  ],
+  "programEvidence": {
+    "engineering": {
+      "program": "Programmes d’ingénierie",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://www.umoncton.ca/international/frais",
+      "checked": "2026-10-17"
+    },
+    "medicine": {
+      "program": "Baccalauréat en science infirmière",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://www.umoncton.ca/international/frais",
+      "checked": "2026-10-17"
+    },
+    "law": {
+      "program": "Baccalauréat en Juris Doctor",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://www.umoncton.ca/international/frais",
+      "checked": "2026-10-17"
+    },
+    "education": {
+      "program": "Baccalauréat en éducation",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://www.umoncton.ca/international/frais",
+      "checked": "2026-10-17"
+    }
+  },
+  "programsStatus": "partial",
+  "frenchRequirement": {
+    "level": null,
+    "note": "Not read on the pages checked.",
+    "source": "https://www.umoncton.ca/processus-d%E2%80%99admission-pour-%C3%A9tudiants-internationaux",
+    "verified": "2026-10-17"
+  }
 }
 );

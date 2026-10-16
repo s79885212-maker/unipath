@@ -53,7 +53,7 @@ DB.universities.forEach(function (u) { byCountry[u.country] = (byCountry[u.count
    US_NOW is raised with each batch; the other countries must not change. */
 var US_NOW = 200, US_TARGET = 200;
 /* Canada (October 2026): 50 universities added in batches of ten. */
-var CA_NOW = 39, CA_TARGET = 50;
+var CA_NOW = 49, CA_TARGET = 50;
 ok(byCountry.us === US_NOW && US_NOW <= US_TARGET, US_NOW + ' United States records (target ' + US_TARGET + ')', 'found ' + byCountry.us);
 ok(byCountry.ca === CA_NOW && CA_NOW <= CA_TARGET, CA_NOW + ' Canadian records (target ' + CA_TARGET + ')', 'found ' + byCountry.ca);
 ok(DB.universities.length === US_NOW + 120 + CA_NOW, (US_NOW + 120 + CA_NOW) + ' institutions in all', 'found ' + DB.universities.length);
@@ -689,6 +689,10 @@ group('Canada');
   ok(tr.admissions.deadlines.some(function (d) { return d.kind === 'regular' && d.status === 'not-confirmed'; }) && unb.costs.status === 'previous-cycle' &&
      !(DB.match.annualCost || {})['university-of-new-brunswick'] && U.satPolicy(U.uniById('memorial-university-of-newfoundland')) === 'conditional',
     'Trent: deadlines from a page not yet updated stay unconfirmed; UNB: no fee table, nothing compared; Memorial: SAT/ACT only for some schools');
+  var fr = ['universite-du-quebec-a-montreal', 'universite-de-sherbrooke', 'universite-de-moncton'].map(U.uniById);
+  ok(fr.every(function (u) { return u.englishTaught === false && !U.ieltsMin(u) && u.frenchRequirement && u.academics.sat.policy === 'not-applicable'; }) &&
+     U.uniById('universite-de-sherbrooke').costs.breakdown.period === 'semester' && U.uniById('laurentian-university').frenchRequirement.level === 'B2',
+    'UQAM, Sherbrooke and Moncton: French-language with a French requirement and no invented IELTS; Sherbrooke per-term fees stay per term; Laurentian’s French programmes ask for B2');
   var ms = U.uniById('mount-saint-vincent-university'), bi = U.uniById('bishops-university');
   ok(ms.costs.status === 'conflict' && ms.costs.conflict && !(DB.match.annualCost || {})['mount-saint-vincent-university'] &&
      typeof bi.costs.billedSubtotal !== 'number' && /not the sum/.test(bi.costs.totalText),
