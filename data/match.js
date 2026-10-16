@@ -42,6 +42,14 @@ window.UNIPATH.match = {
   annualCost: {
 
     /* Canada, October 2026 */
+    'lakehead-university': { currency: 'CAD', basis: 'tuition', min: 31750, max: 42000, note: 'Year-1 tuition 2026–27 for the programmes read (Computer Science, Engineering); fees, UHIP, housing and food extra' },
+    'acadia-university': { currency: 'CAD', basis: 'billed', min: 28466.86, max: 28466.86, note: 'Tuition and mandatory fees 2026–27 for a full course load; housing and food extra' },
+    'st-francis-xavier-university': { currency: 'CAD', basis: 'billed', min: 24958.1, max: 24958.1, note: 'Tuition, international fee and mandatory fees 2026–27 (not Nursing); housing and food extra' },
+    'mount-allison-university': { currency: 'CAD', basis: 'total', min: 44070, max: 44070, note: 'University estimate 2026–27: tuition, residence and meals, fees, medical coverage and books' },
+    'bishops-university': { currency: 'CAD', basis: 'tuition', min: 29510.43, max: 29510.43, note: 'Tuition for 30 credits, 2026 cohort; compulsory fees, insurance, housing and food extra' },
+    'university-of-lethbridge': { currency: 'CAD', basis: 'billed', min: 26390.98, max: 26390.98, note: 'Tuition and mandatory fees 2026/2027 incl. health insurance and UPass; books, housing and food extra' },
+
+    /* Canada, October 2026 */
     'memorial-university-of-newfoundland': { currency: 'CAD', basis: 'tuition', min: 22500, max: 22500, note: 'Tuition for two semesters for international students starting in fall 2026; fees, insurance, housing and food extra' },
     'university-of-regina': { currency: 'CAD', basis: 'total', min: 47000, max: 47000, note: 'University estimate 2026–27: average tuition and fees, books, on-campus housing, food and personal costs' },
     'ontario-tech-university': { currency: 'CAD', basis: 'tuition', min: 34148.27, max: 46561.31, note: 'Tuition 2026–27 by programme (30 credit hours); ancillary fees, housing and food extra' },
