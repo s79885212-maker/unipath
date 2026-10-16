@@ -6757,5 +6757,3282 @@ window.UNIPATH.universities.push(
     }
   },
   "programsStatus": "partial"
+},
+
+{
+  "id": "concordia-university",
+  "name": "Concordia University",
+  "shortName": "Concordia",
+  "country": "ca",
+  "city": "Montreal",
+  "region": "Quebec",
+  "founded": null,
+  "type": "Public research university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#0b4f6c",
+    "c2": "#062b3b",
+    "initials": "C"
+  },
+  "description": "An English-language university in downtown Montreal, with the John Molson School of Business and the Gina Cody School of Engineering and Computer Science. International students in Quebec also need a Quebec Acceptance Certificate (CAQ).",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "engineering",
+    "computer-science",
+    "arts"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "engineering",
+    "computer-science",
+    "arts"
+  ],
+  "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
+  "links": {
+    "website": "https://www.concordia.ca/",
+    "admissions": "https://www.concordia.ca/admissions/undergraduate/apply.html",
+    "internationalAdmissions": "https://www.concordia.ca/admissions/undergraduate/requirements/international.html",
+    "applicationPortal": "https://www.concordia.ca/admissions/undergraduate/apply-now.html",
+    "scholarships": "https://www.concordia.ca/students/financial/scholarships-funding/scholarships.html",
+    "financialAid": "https://www.concordia.ca/admissions/undergraduate/costs-aid.html",
+    "programs": "https://www.concordia.ca/students/financial/tuition-fees/rates/undergrad.html",
+    "cost": "https://www.concordia.ca/students/financial/tuition-fees/rates/undergrad.html"
+  },
+  "admissions": {
+    "platforms": [
+      "Concordia online application"
+    ],
+    "deadlines": [
+      {
+        "name": "Recommended date for U.S. and international applicants (immigration documents)",
+        "kind": "priority",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-01",
+        "date": "1 February 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.concordia.ca/admissions/undergraduate/apply.html",
+        "verified": "2026-10-16",
+        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Application deadline, fall entry",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-03-01",
+        "date": "1 March 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Programmes with additional requirements set their own dates.",
+        "status": "confirmed",
+        "source": "https://www.concordia.ca/admissions/undergraduate/apply.html",
+        "verified": "2026-10-16",
+        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 100,
+      "currency": "CAD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Non-refundable and cannot be waived; paid by credit card.",
+      "source": "https://www.concordia.ca/admissions/undergraduate/apply-now.html",
+      "verified": "2026-10-16"
+    },
+    "documents": [
+      "Concordia application",
+      "Secondary school transcripts and certificate",
+      "English test result unless exempt",
+      "Additional material for some programmes"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6,
+      "recommended": null,
+      "note": "Academic; no component under 5.5. One Skill Retake and IELTS Online accepted. A placement test may follow."
+    },
+    "toefl": {
+      "min": 70,
+      "recommended": null,
+      "note": "0–120 scale: 70. Tests from January 2026 (1–6 scale): 4.0 with no section below 3.5. MyBest accepted.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 70,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.0,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 105,
+      "recommended": null,
+      "note": "No subscore under 90."
+    },
+    "waiver": null,
+    "note": "CAEL 50 (50 in each part); Cambridge C1 Advanced 175 or C2 Proficiency 190; PTE Academic 50."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "For the American curriculum: “ACT and SAT scores are not required.”",
+      "source": "https://www.concordia.ca/admissions/undergraduate/requirements/international.html",
+      "verified": "2026-10-16",
+      "label": "SAT/ACT not required"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "For the American curriculum: “ACT and SAT scores are not required.”",
+      "source": "https://www.concordia.ca/admissions/undergraduate/requirements/international.html",
+      "verified": "2026-10-16",
+      "label": "SAT/ACT not required"
+    },
+    "otherTests": null,
+    "internationalQualifications": "Uzbekistan: Certificate of Secondary Education (O‘rta Ma’lumot To‘g‘risida Shahodatnoma / Attestat o Srednem Obrazovanii) or Certificate of General Secondary Education (Umumiy O‘rta Ta’lim To‘g‘risida)."
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition rates only; compulsory fees, health insurance, housing and food extra"
+    },
+    "academicYear": "2026–2027",
+    "currency": "CAD",
+    "studentCategory": "International undergraduates, tuition per credit, Fall 2026 and Winter 2027",
+    "source": "https://www.concordia.ca/students/financial/tuition-fees/rates/undergrad.html",
+    "verified": "2026-10-16",
+    "headline": "C$1,010–C$1,400 per credit (2026–27)",
+    "items": [
+      {
+        "label": "Arts and Science, per credit",
+        "amount": 1160.0
+      },
+      {
+        "label": "Fine Arts, per credit",
+        "amount": 1010.0
+      },
+      {
+        "label": "Engineering and Computer Science, per credit",
+        "amount": 1285.0
+      },
+      {
+        "label": "John Molson School of Business, per credit",
+        "amount": 1400.0
+      },
+      {
+        "label": "Residence room and fees, 8 months (no year stated)",
+        "min": 5352,
+        "max": 12920
+      },
+      {
+        "label": "Meal plan, mandatory in residence (no year stated)",
+        "amount": 6705
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "International tuition is charged per credit: from C$1,010 (Fine Arts) to C$1,400 (John Molson) in Fall 2026 and Winter 2027",
+    "note": "A yearly figure is not computed here because the full-time number of credits per year was not read. Some international students qualify for exemptions from the higher rate."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [
+      {
+        "name": "Concordia entrance scholarships",
+        "amount": null,
+        "eligibility": "Bachelor’s candidates entering university for the first time (CEGEP, Canadian high school or equivalent)",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": null,
+        "note": "Most are automatic, by academic ranking; an offer of admission does not guarantee one. Amounts are not given. The guaranteed C$4,000 Undergraduate Excellence Award is for Canadian citizens and permanent residents only.",
+        "basis": "merit",
+        "source": "https://www.concordia.ca/students/financial/scholarships-funding/scholarships.html",
+        "verified": "2026-10-16"
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Need-based aid for international first-year students is not described on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Concordia — how to apply and deadlines",
+      "url": "https://www.concordia.ca/admissions/undergraduate/apply.html"
+    },
+    {
+      "label": "Concordia — application fee",
+      "url": "https://www.concordia.ca/admissions/undergraduate/apply-now.html"
+    },
+    {
+      "label": "Concordia — undergraduate tuition rates",
+      "url": "https://www.concordia.ca/students/financial/tuition-fees/rates/undergrad.html"
+    },
+    {
+      "label": "Concordia — costs and aid",
+      "url": "https://www.concordia.ca/admissions/undergraduate/costs-aid.html"
+    },
+    {
+      "label": "Concordia — international requirements",
+      "url": "https://www.concordia.ca/admissions/undergraduate/requirements/international.html"
+    },
+    {
+      "label": "Concordia — English proficiency",
+      "url": "https://www.concordia.ca/admissions/undergraduate/requirements/english-language-proficiency.html"
+    },
+    {
+      "label": "Concordia — scholarships",
+      "url": "https://www.concordia.ca/students/financial/scholarships-funding/scholarships.html"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "deadlines",
+      "application fee",
+      "English requirements",
+      "test policy",
+      "requirements for Uzbekistan",
+      "tuition"
+    ],
+    "unconfirmed": [
+      "entrance scholarship amounts",
+      "full list of majors",
+      "founding year"
+    ]
+  },
+  "lastVerified": "2026-10-16",
+  "aliases": [
+    "Concordia",
+    "Concordia Montreal",
+    "John Molson School of Business"
+  ],
+  "programsBasis": "evidence",
+  "province": "QC",
+  "programEvidence": {
+    "business": {
+      "program": "John Molson School of Business programs",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.concordia.ca/students/financial/tuition-fees/rates/undergrad.html",
+      "checked": "2026-10-16"
+    },
+    "engineering": {
+      "program": "Engineering programs (Gina Cody School)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.concordia.ca/students/financial/tuition-fees/rates/undergrad.html",
+      "checked": "2026-10-16"
+    },
+    "computer-science": {
+      "program": "Computer Science programs (Gina Cody School)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.concordia.ca/students/financial/tuition-fees/rates/undergrad.html",
+      "checked": "2026-10-16"
+    },
+    "arts": {
+      "program": "Fine Arts",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.concordia.ca/students/financial/tuition-fees/rates/undergrad.html",
+      "checked": "2026-10-16"
+    }
+  },
+  "programsStatus": "partial"
+},
+
+{
+  "id": "memorial-university-of-newfoundland",
+  "name": "Memorial University of Newfoundland",
+  "shortName": "Memorial",
+  "country": "ca",
+  "city": "St. John’s",
+  "region": "Newfoundland and Labrador",
+  "founded": null,
+  "type": "Public research university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#7a3b12",
+    "c2": "#3d1d09",
+    "initials": "MN"
+  },
+  "description": "The largest university in Atlantic Canada, with its main campus in St. John’s and Grenfell Campus in Corner Brook. International tuition is among the lowest in Canada.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "engineering",
+    "education",
+    "arts",
+    "medicine"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "engineering",
+    "education",
+    "arts",
+    "medicine"
+  ],
+  "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
+  "links": {
+    "website": "https://www.mun.ca/",
+    "admissions": "https://www.mun.ca/undergrad/admissions/admission-deadlines/",
+    "internationalAdmissions": "https://www.mun.ca/undergrad/admissions/i-want-to-apply/international-high-school-curriculum-requirements/",
+    "applicationPortal": "https://apply.mun.ca/",
+    "scholarships": "https://www.mun.ca/scholarships/entrance-scholarships/international-students/",
+    "financialAid": "https://www.mun.ca/scholarships/entrance-scholarships/international-students/",
+    "programs": "https://www.mun.ca/undergrad/admissions/admission-deadlines/",
+    "cost": "https://www.mun.ca/undergrad/money-matters/"
+  },
+  "admissions": {
+    "platforms": [
+      "Memorial online application (apply.mun.ca)"
+    ],
+    "deadlines": [
+      {
+        "name": "Priority deadline for the fall semester (also for early entrance scholarships)",
+        "kind": "priority",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-03-01",
+        "date": "1 March 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Deadlines are in Newfoundland Time. International applicants are advised to apply at least 12 weeks before the semester starts; competitive programmes have their own dates.",
+        "status": "confirmed",
+        "source": "https://www.mun.ca/undergrad/admissions/admission-deadlines/",
+        "verified": "2026-10-16",
+        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Document deadline, fall semester",
+        "kind": "documents",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-08-20",
+        "date": "20 August 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "The general application closes on the first day of the semester.",
+        "status": "confirmed",
+        "source": "https://www.mun.ca/undergrad/admissions/admission-deadlines/",
+        "verified": "2026-10-16",
+        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 300,
+      "currency": "CAD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "General application fee for international applicants (C$70 for Canadians). Music adds C$40; the Doctor of Pharmacy adds C$175 for international applicants.",
+      "source": "https://www.mun.ca/undergrad/admissions/i-want-to-apply/application-fees/",
+      "verified": "2026-10-16"
+    },
+    "documents": [
+      "Memorial application",
+      "Secondary school transcripts and certificate",
+      "English test result unless exempt",
+      "Certified translation of the final certificate with grades, sent by post or courier"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "Academic or Academic for UKVI; at least 6 in reading and writing. Engineering asks for more."
+    },
+    "toefl": {
+      "min": 83,
+      "recommended": null,
+      "note": "Tests up to January 2026: 83 with 20 in reading and writing. Newer tests (1–6 scale): 4.5 with 4.0 in reading and writing. Home Edition accepted.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 83,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 115,
+      "recommended": null,
+      "note": null
+    },
+    "waiver": null,
+    "note": "CAEL 60; PTE Academic 60; Cambridge C1/C2 176; Michigan English Test 59."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "conditional",
+      "note": "Required only of applicants from American-patterned schools not accredited by a recognized body (SAT, ACT or AP). Applicants from national systems such as Uzbekistan’s are assessed on their school certificate.",
+      "source": "https://www.mun.ca/undergrad/admissions/i-want-to-apply/international-high-school-curriculum-requirements/american-patterned-curriculum/",
+      "verified": "2026-10-16",
+      "label": "SAT/ACT required only for some school systems"
+    },
+    "act": {
+      "policy": "conditional",
+      "note": "Required only of applicants from American-patterned schools not accredited by a recognized body (SAT, ACT or AP). Applicants from national systems such as Uzbekistan’s are assessed on their school certificate.",
+      "source": "https://www.mun.ca/undergrad/admissions/i-want-to-apply/international-high-school-curriculum-requirements/american-patterned-curriculum/",
+      "verified": "2026-10-16",
+      "label": "SAT/ACT required only for some school systems"
+    },
+    "otherTests": null,
+    "internationalQualifications": "Uzbekistan: Diploma of Academic Lyceum or Certificate of General Secondary Education, with English, Mathematics, a laboratory science, Social Studies or a language, and an elective; minimum average of 4 in these subjects at the senior level with a pass in each."
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition in the main figure; fees, insurance and residence listed separately",
+      "tuition": 22500
+    },
+    "academicYear": "2026–2027",
+    "currency": "CAD",
+    "studentCategory": "International students starting in fall 2026, St. John’s campus, two semesters (10 courses)",
+    "source": "https://www.mun.ca/undergrad/money-matters/",
+    "verified": "2026-10-16",
+    "headline": "C$22,500 tuition for two semesters (2026–27)",
+    "items": [
+      {
+        "label": "Tuition, new international students as of fall 2026",
+        "amount": 22500
+      },
+      {
+        "label": "Student Services Fee",
+        "amount": 100
+      },
+      {
+        "label": "Students’ Union",
+        "amount": 149
+      },
+      {
+        "label": "Recreation fee",
+        "amount": 148
+      },
+      {
+        "label": "Health insurance (international students)",
+        "amount": 548
+      },
+      {
+        "label": "Residence with mandatory meal plan, Paton College double room, per semester (Fall 2026)",
+        "amount": 5237
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "Tuition C$22,500 for two semesters for international students starting in fall 2026, plus fees and insurance of about C$945; residence with meals from C$5,237 a semester",
+    "note": "Fees approved by the Board of Regents as of June 2026. Residence rates are per semester (Winter 2027: C$5,357 for the same room)."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [
+      {
+        "name": "Memorial University of Newfoundland International Entrance Scholarship",
+        "amount": null,
+        "eligibility": "International students on admission",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": false,
+        "note": "Automatic consideration, not a guarantee; first year only. Other entrance awards (IUGS, Fortis – H. Stanley Marshall, Killam American) work the same way. Amounts are not given.",
+        "basis": "merit",
+        "source": "https://www.mun.ca/scholarships/entrance-scholarships/international-students/",
+        "verified": "2026-10-16"
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Need-based aid for international first-year students is not described on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Memorial — admission deadlines",
+      "url": "https://www.mun.ca/undergrad/admissions/admission-deadlines/"
+    },
+    {
+      "label": "Memorial — application fees",
+      "url": "https://www.mun.ca/undergrad/admissions/i-want-to-apply/application-fees/"
+    },
+    {
+      "label": "Memorial — money matters 2026-27",
+      "url": "https://www.mun.ca/undergrad/money-matters/"
+    },
+    {
+      "label": "Memorial — English proficiency tests",
+      "url": "https://www.mun.ca/undergrad/admissions/i-want-to-apply/english-proficiency-tests/"
+    },
+    {
+      "label": "Memorial — Uzbekistan requirements",
+      "url": "https://www.mun.ca/undergrad/admissions/i-want-to-apply/international-high-school-curriculum-requirements/uzbekistan/"
+    },
+    {
+      "label": "Memorial — American-patterned curriculum",
+      "url": "https://www.mun.ca/undergrad/admissions/i-want-to-apply/international-high-school-curriculum-requirements/american-patterned-curriculum/"
+    },
+    {
+      "label": "Memorial — international entrance scholarships",
+      "url": "https://www.mun.ca/scholarships/entrance-scholarships/international-students/"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "deadlines",
+      "application fee",
+      "English requirements",
+      "test policy",
+      "requirements for Uzbekistan",
+      "tuition",
+      "scholarships"
+    ],
+    "unconfirmed": [
+      "entrance scholarship amounts",
+      "full list of majors",
+      "founding year"
+    ]
+  },
+  "lastVerified": "2026-10-16",
+  "aliases": [
+    "MUN",
+    "Memorial",
+    "Memorial University"
+  ],
+  "programsBasis": "evidence",
+  "province": "NL",
+  "campuses": [
+    "St. John’s",
+    "Grenfell Campus (Corner Brook)"
+  ],
+  "programEvidence": {
+    "business": {
+      "program": "Bachelor of Commerce (co-operative)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mun.ca/undergrad/admissions/admission-deadlines/",
+      "checked": "2026-10-16"
+    },
+    "engineering": {
+      "program": "Bachelor of Engineering",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mun.ca/undergrad/admissions/i-want-to-apply/english-proficiency-tests/",
+      "checked": "2026-10-16"
+    },
+    "education": {
+      "program": "Bachelor of Education",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mun.ca/undergrad/admissions/admission-deadlines/",
+      "checked": "2026-10-16"
+    },
+    "arts": {
+      "program": "Bachelor of Music",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mun.ca/undergrad/admissions/i-want-to-apply/application-fees/",
+      "checked": "2026-10-16"
+    },
+    "medicine": {
+      "program": "Doctor of Pharmacy (entry-to-practice)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mun.ca/undergrad/admissions/i-want-to-apply/application-fees/",
+      "checked": "2026-10-16"
+    }
+  },
+  "programsStatus": "partial"
+},
+
+{
+  "id": "university-of-new-brunswick",
+  "name": "University of New Brunswick",
+  "shortName": "UNB",
+  "country": "ca",
+  "city": "Fredericton",
+  "region": "New Brunswick",
+  "founded": null,
+  "type": "Public research university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#1f4d3a",
+    "c2": "#0f2a1f",
+    "initials": "NB"
+  },
+  "description": "One of the oldest English-language universities in North America, with campuses in Fredericton and Saint John, New Brunswick.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "education",
+    "medicine"
+  ],
+  "englishTaughtPrograms": [
+    "education",
+    "medicine"
+  ],
+  "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
+  "links": {
+    "website": "https://www.unb.ca/",
+    "admissions": "https://www.unb.ca/international/apply/deadlines.html",
+    "internationalAdmissions": "https://www.unb.ca/international/admission/index.html",
+    "applicationPortal": "https://apply.unb.ca/",
+    "scholarships": "https://www.unb.ca/moneymatters/scholarships/international.html",
+    "financialAid": "https://www.unb.ca/moneymatters/scholarships/international.html",
+    "programs": "https://www.unb.ca/international/apply/deadlines.html",
+    "cost": "https://www.unb.ca/international/financial/index.html"
+  },
+  "admissions": {
+    "platforms": [
+      "UNB online application (apply.unb.ca)"
+    ],
+    "deadlines": [
+      {
+        "name": "Entrance scholarship application (after admission, in the UNB application account)",
+        "kind": "scholarship",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-03-01",
+        "date": "1 March 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.unb.ca/moneymatters/scholarships/international.html",
+        "verified": "2026-10-16",
+        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Application deadline for most undergraduate programmes",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-03-31",
+        "date": "31 March 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Guideline for international applicants: apply before 1 June for September. Nursing closes 15 February; Education 15 December. Programmes accept later applications while seats remain.",
+        "status": "confirmed",
+        "source": "https://www.unb.ca/international/apply/deadlines.html",
+        "verified": "2026-10-16",
+        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 125,
+      "currency": "CAD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "International application fee, non-refundable; credit card, bank draft or certified cheque.",
+      "source": "https://www.unb.ca/international/apply/index.html",
+      "verified": "2026-10-16"
+    },
+    "documents": [
+      "UNB application",
+      "Secondary school transcripts and certificate",
+      "English test result unless exempt",
+      "SAT, ACT, Cambridge or other test results if available"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "Academic or Academic Indicator. Nursing, Education and Arts in Fredericton, and Nursing and Health Sciences in Saint John, ask for 7.0."
+    },
+    "toefl": {
+      "min": 85,
+      "recommended": null,
+      "note": "Before 2026: 85. Tests from January 2026 (1–6 scale): 4.5 with at least 4.5 in speaking and writing.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 85,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 115,
+      "recommended": null,
+      "note": null
+    },
+    "waiver": null,
+    "note": "CAEL 60; PTE Academic 59; Cambridge B2 First, C1 or C2 176. Conditional admission with full-time English training at UNB is possible."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "For U.S. applicants: “SAT and ACT scores are not required but suggested.”",
+      "source": "https://www.unb.ca/international/admission/countries.html",
+      "verified": "2026-10-16"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "For U.S. applicants: “SAT and ACT scores are not required but suggested.”",
+      "source": "https://www.unb.ca/international/admission/countries.html",
+      "verified": "2026-10-16"
+    },
+    "otherTests": null,
+    "internationalQualifications": "Uzbekistan: Akademik litsey sertifikati / diplomi (Certificate / Diploma of Academic Lyceum), minimum grade 3."
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "nothing confirmed"
+    },
+    "academicYear": null,
+    "currency": "CAD",
+    "studentCategory": "International undergraduates",
+    "source": "https://www.unb.ca/international/financial/index.html",
+    "verified": "2026-10-16",
+    "headline": "Not published on the page read",
+    "items": [],
+    "billedSubtotal": null,
+    "totalText": "The fee page is headed “2025-2026 academic year” but shows no amounts",
+    "note": "The international fee table did not load on 15–16 October 2026, neither in the page source nor in the browser.",
+    "status": "previous-cycle"
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [
+      {
+        "name": "Lady Vi Aitken Scholarship",
+        "amount": "C$40,000 over four years",
+        "eligibility": "A top international student",
+        "deadline": null,
+        "application": "Entrance scholarship application by 1 March",
+        "renewable": null,
+        "note": "Awards for international students range from C$500 to C$40,000; one scholarship application covers them.",
+        "basis": "merit",
+        "source": "https://www.unb.ca/moneymatters/scholarships/international.html",
+        "verified": "2026-10-16"
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Need-based aid for international first-year students is not described on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "UNB — international application deadlines",
+      "url": "https://www.unb.ca/international/apply/deadlines.html"
+    },
+    {
+      "label": "UNB — how international students apply",
+      "url": "https://www.unb.ca/international/apply/index.html"
+    },
+    {
+      "label": "UNB — English requirements",
+      "url": "https://www.unb.ca/international/admission/english.html"
+    },
+    {
+      "label": "UNB — country requirements",
+      "url": "https://www.unb.ca/international/admission/countries.html"
+    },
+    {
+      "label": "UNB — scholarships for international students",
+      "url": "https://www.unb.ca/moneymatters/scholarships/international.html"
+    },
+    {
+      "label": "UNB — financial information",
+      "url": "https://www.unb.ca/international/financial/index.html"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "deadlines",
+      "application fee",
+      "English requirements",
+      "test policy",
+      "requirements for Uzbekistan",
+      "scholarships"
+    ],
+    "unconfirmed": [
+      "tuition",
+      "housing costs",
+      "full list of majors",
+      "founding year"
+    ]
+  },
+  "lastVerified": "2026-10-16",
+  "aliases": [
+    "UNB",
+    "UNB Fredericton",
+    "UNB Saint John"
+  ],
+  "programsBasis": "evidence",
+  "province": "NB",
+  "campuses": [
+    "Fredericton",
+    "Saint John"
+  ],
+  "programEvidence": {
+    "education": {
+      "program": "Bachelor of Education (Fredericton and Saint John)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.unb.ca/international/apply/deadlines.html",
+      "checked": "2026-10-16"
+    },
+    "medicine": {
+      "program": "Bachelor of Nursing",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.unb.ca/international/apply/deadlines.html",
+      "checked": "2026-10-16"
+    }
+  },
+  "programsStatus": "partial"
+},
+
+{
+  "id": "university-of-windsor",
+  "name": "University of Windsor",
+  "shortName": "UWindsor",
+  "country": "ca",
+  "city": "Windsor",
+  "region": "Ontario",
+  "founded": null,
+  "type": "Public university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#6b1d4f",
+    "c2": "#360f28",
+    "initials": "W"
+  },
+  "description": "A university in Windsor, Ontario, on the border with Detroit. International tuition stays stable for the length of the programme.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "computer-science",
+    "engineering",
+    "medicine",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "computer-science",
+    "engineering",
+    "medicine",
+    "education"
+  ],
+  "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
+  "links": {
+    "website": "https://www.uwindsor.ca/",
+    "admissions": "https://future.uwindsor.ca/apply-international",
+    "internationalAdmissions": "https://www.future.uwindsor.ca/international/",
+    "applicationPortal": "https://future.uwindsor.ca/apply-international",
+    "scholarships": "https://www.future.uwindsor.ca/global-lancer-scholarship/",
+    "financialAid": "https://www.future.uwindsor.ca/global-lancer-scholarship/",
+    "programs": "https://future.uwindsor.ca/student-awards",
+    "cost": "https://www.uwindsor.ca/finance/fee-estimator"
+  },
+  "admissions": {
+    "platforms": [
+      "UWindsor direct application (applicants outside Canada and the U.S. applying only to UWindsor)",
+      "OUAC (Ontario Universities’ Application Centre)"
+    ],
+    "deadlines": [
+      {
+        "name": "Recommended application date for September admission",
+        "kind": "priority",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-05-01",
+        "date": "1 May 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Qualified students are still admitted after this date while the programme has space.",
+        "status": "confirmed",
+        "source": "https://future.uwindsor.ca/apply-international",
+        "verified": "2026-10-16",
+        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "CAD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "The direct-application fee was not found on the pages read. Through OUAC: base fee C$159 plus a C$75 document-evaluation fee for Windsor.",
+      "source": "https://future.uwindsor.ca/apply-international",
+      "verified": "2026-10-16"
+    },
+    "documents": [
+      "Direct application or OUAC",
+      "Official diploma and transcripts, translated",
+      "Proof of English (it can follow the application)"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": null,
+    "toefl": null,
+    "duolingo": null,
+    "waiver": null,
+    "note": "Not confirmed: the requirements are in the Academic Calendar, which was not read. English is not needed at the time of application; conditional offers are made with the English Language Improvement Program (ELIP)."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "nothing confirmed"
+    },
+    "academicYear": null,
+    "currency": "CAD",
+    "studentCategory": "International undergraduates",
+    "source": "https://www.uwindsor.ca/finance/fee-estimator",
+    "verified": "2026-10-16",
+    "headline": "Not read",
+    "items": [],
+    "billedSubtotal": null,
+    "totalText": "The fee estimator gives 2026–27 fees per term but did not run on the pages read",
+    "note": "The university states that base tuition stays stable for the programme’s duration for all international students except those on the US Neighbour rate."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [
+      {
+        "name": "Global Lancer Scholarship",
+        "amount": "C$4,000–C$24,000 over four years",
+        "eligibility": "International students entering directly from full-time secondary school and paying international tuition",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": true,
+        "note": "By final average: 95%+ C$24,000; 90–94.99% C$20,000; 80–89.99% C$10,000; below 80% C$4,000 (over four years). Renewable each year with a 70% cumulative average.",
+        "basis": "automatic",
+        "source": "https://www.future.uwindsor.ca/global-lancer-scholarship/",
+        "verified": "2026-10-16"
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Need-based aid for international first-year students is not described on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "UWindsor — how international students apply",
+      "url": "https://future.uwindsor.ca/apply-international"
+    },
+    {
+      "label": "UWindsor — international students",
+      "url": "https://www.future.uwindsor.ca/international/"
+    },
+    {
+      "label": "UWindsor — Global Lancer Scholarship",
+      "url": "https://www.future.uwindsor.ca/global-lancer-scholarship/"
+    },
+    {
+      "label": "UWindsor — tuition fee estimator",
+      "url": "https://www.uwindsor.ca/finance/fee-estimator"
+    },
+    {
+      "label": "OUAC — undergraduate fees",
+      "url": "https://www.ouac.on.ca/guide/undergrad-fees"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "deadlines",
+      "scholarships"
+    ],
+    "unconfirmed": [
+      "English requirements",
+      "tuition",
+      "application fee",
+      "test policy",
+      "requirements for Uzbekistan",
+      "full list of majors",
+      "founding year"
+    ]
+  },
+  "lastVerified": "2026-10-16",
+  "aliases": [
+    "UWindsor",
+    "U of W",
+    "Windsor"
+  ],
+  "programsBasis": "evidence",
+  "province": "ON",
+  "programEvidence": {
+    "business": {
+      "program": "Business",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://future.uwindsor.ca/student-awards",
+      "checked": "2026-10-16"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://future.uwindsor.ca/student-awards",
+      "checked": "2026-10-16"
+    },
+    "engineering": {
+      "program": "Engineering",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://future.uwindsor.ca/student-awards",
+      "checked": "2026-10-16"
+    },
+    "medicine": {
+      "program": "Nursing",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://future.uwindsor.ca/student-awards",
+      "checked": "2026-10-16"
+    },
+    "education": {
+      "program": "Education",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://future.uwindsor.ca/student-awards",
+      "checked": "2026-10-16"
+    }
+  },
+  "programsStatus": "partial"
+},
+
+{
+  "id": "university-of-regina",
+  "name": "University of Regina",
+  "shortName": "U of R",
+  "country": "ca",
+  "city": "Regina",
+  "region": "Saskatchewan",
+  "founded": null,
+  "type": "Public university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#1f3a5f",
+    "c2": "#0f1f33",
+    "initials": "R"
+  },
+  "description": "A university in Saskatchewan’s capital, Regina, with federated colleges on campus. International applicants have no early deadline and a final date in August.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "medicine",
+    "education",
+    "arts"
+  ],
+  "englishTaughtPrograms": [
+    "medicine",
+    "education",
+    "arts"
+  ],
+  "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
+  "links": {
+    "website": "https://www.uregina.ca/",
+    "admissions": "https://www.uregina.ca/admissions/undergraduate/deadlines.html",
+    "internationalAdmissions": "https://www.uregina.ca/ur-international/index.html",
+    "applicationPortal": "https://apply.uregina.ca/apply/",
+    "scholarships": "https://www.uregina.ca/ur-international/scholarships.html",
+    "financialAid": "https://www.uregina.ca/ur-international/scholarships.html",
+    "programs": "https://www.uregina.ca/admissions/undergraduate/deadlines.html",
+    "cost": "https://www.uregina.ca/ur-international/tuition-and-fees.html"
+  },
+  "admissions": {
+    "platforms": [
+      "University of Regina student application portal"
+    ],
+    "deadlines": [
+      {
+        "name": "International Student of Distinction Scholarship: application and documents",
+        "kind": "scholarship",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-04-30",
+        "date": "30 April 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.uregina.ca/ur-international/scholarships.html",
+        "verified": "2026-10-16",
+        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Final application deadline, fall term (all programmes except those listed separately)",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-08-15",
+        "date": "15 August 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "There is no early deadline for international applicants. Nursing: application by 31 December and documents by 31 January; Fine Arts portfolio by 1 April.",
+        "status": "confirmed",
+        "source": "https://www.uregina.ca/admissions/undergraduate/deadlines.html",
+        "verified": "2026-10-16",
+        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 100,
+      "currency": "CAD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "International undergraduate application fee, paid in the student application portal by credit card or Flywire.",
+      "source": "https://www.uregina.ca/ur-international/tuition-and-fees.html",
+      "verified": "2026-10-16"
+    },
+    "documents": [
+      "University of Regina application",
+      "Secondary school transcripts and certificate",
+      "English test result unless exempt"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "Academic; no band lower than 6.0. One Skill Retake accepted from October 2025 to July 2026."
+    },
+    "toefl": {
+      "min": 83,
+      "recommended": null,
+      "note": "Tests before 21 January 2026: 83 with 20 in each section. Tests from 21 January 2026 (1–6 scale): 4.5 with 4 in each section. Home Edition included.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 83,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 120,
+      "recommended": null,
+      "note": "Tests from 1 July 2024: Literacy 105, Comprehension 100, Conversation 115, Production 115."
+    },
+    "waiver": null,
+    "note": "PTE Academic 59 (59 in each area); CAEL 60. Education and Nursing set their own requirements. Scores are valid for two years."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, fees, books, on-campus housing, food and personal costs",
+      "tuition": 32500,
+      "budget": 47000
+    },
+    "academicYear": "2026–2027",
+    "currency": "CAD",
+    "studentCategory": "International undergraduate living on campus; university estimate (10 classes, 30 credit hours)",
+    "source": "https://www.uregina.ca/ur-international/tuition-and-fees.html",
+    "verified": "2026-10-16",
+    "headline": "C$47,000 for one year on campus (2026–27 estimate)",
+    "items": [
+      {
+        "label": "Tuition and fees (average, varies by faculty)",
+        "amount": 32500
+      },
+      {
+        "label": "Books and supplies",
+        "amount": 1500
+      },
+      {
+        "label": "On-campus housing, two terms (average)",
+        "amount": 7000
+      },
+      {
+        "label": "Food and fun",
+        "amount": 6000
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "The university estimates C$47,000 for a year: tuition and fees C$32,500, books C$1,500, housing C$7,000, food and fun C$6,000",
+    "note": "Tuition is the average for 10 classes in 2026–2027 and varies by faculty. An enrolment deposit of C$1,000 is required."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [
+      {
+        "name": "International Entrance Scholarship",
+        "amount": "C$5,000 tuition credit, first term",
+        "eligibility": "International applicants to a degree programme with an admission average of 83% or higher",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": false,
+        "note": null,
+        "basis": "automatic",
+        "source": "https://www.uregina.ca/ur-international/scholarships.html",
+        "verified": "2026-10-16"
+      },
+      {
+        "name": "International Student of Distinction Scholarship",
+        "amount": "Housing and meal plan worth about C$90,000 (Tier 1) or housing worth about C$45,000 (Tier 2) over four years",
+        "eligibility": "International applicants directly from high school: 90%+ (Tier 1) or 85–89.99% (Tier 2)",
+        "deadline": null,
+        "application": "Automatic consideration if the application and documents arrive by 30 April",
+        "renewable": true,
+        "note": "“This is not a tuition credit scholarship.” Renewable with 24 credit hours a year and an 80% average. Places are limited.",
+        "basis": "merit",
+        "source": "https://www.uregina.ca/ur-international/scholarships.html",
+        "verified": "2026-10-16"
+      },
+      {
+        "name": "International Undergraduate Student Bursary",
+        "amount": "Up to C$20,000 over four years (tuition credit)",
+        "eligibility": "International students in a four-year degree who deposit two years of tuition in advance",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": true,
+        "note": "Part of the “Really Big Deal” bundle; not based on need despite the name.",
+        "basis": "automatic",
+        "source": "https://www.uregina.ca/ur-international/scholarships.html",
+        "verified": "2026-10-16"
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Need-based aid for international first-year students is not described on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "U of R — undergraduate deadlines",
+      "url": "https://www.uregina.ca/admissions/undergraduate/deadlines.html"
+    },
+    {
+      "label": "U of R — international tuition and fees",
+      "url": "https://www.uregina.ca/ur-international/tuition-and-fees.html"
+    },
+    {
+      "label": "U of R — international scholarships",
+      "url": "https://www.uregina.ca/ur-international/scholarships.html"
+    },
+    {
+      "label": "U of R — English language proficiency",
+      "url": "https://www.uregina.ca/admissions/undergraduate/english-language-proficiency.html"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "deadlines",
+      "application fee",
+      "English requirements",
+      "costs",
+      "scholarships"
+    ],
+    "unconfirmed": [
+      "test policy",
+      "requirements for Uzbekistan",
+      "full list of majors",
+      "founding year"
+    ]
+  },
+  "lastVerified": "2026-10-16",
+  "aliases": [
+    "U of R",
+    "URegina",
+    "Regina"
+  ],
+  "programsBasis": "evidence",
+  "province": "SK",
+  "programEvidence": {
+    "medicine": {
+      "program": "Nursing (BScN)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uregina.ca/admissions/undergraduate/deadlines.html",
+      "checked": "2026-10-16"
+    },
+    "education": {
+      "program": "Faculty of Education",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uregina.ca/admissions/undergraduate/english-language-proficiency.html",
+      "checked": "2026-10-16"
+    },
+    "arts": {
+      "program": "Bachelor of Fine Arts",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uregina.ca/admissions/undergraduate/deadlines.html",
+      "checked": "2026-10-16"
+    }
+  },
+  "programsStatus": "partial"
+},
+
+{
+  "id": "ontario-tech-university",
+  "name": "Ontario Tech University",
+  "shortName": "Ontario Tech",
+  "country": "ca",
+  "city": "Oshawa",
+  "region": "Ontario",
+  "founded": null,
+  "type": "Public university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#4b2e83",
+    "c2": "#2c1a4d",
+    "initials": "OT"
+  },
+  "description": "A technology-focused university in Oshawa, east of Toronto, founded as the University of Ontario Institute of Technology (UOIT).",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "computer-science",
+    "engineering",
+    "medicine",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "computer-science",
+    "engineering",
+    "medicine",
+    "education"
+  ],
+  "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
+  "links": {
+    "website": "https://ontariotechu.ca/",
+    "admissions": "https://admissions.ontariotechu.ca/applicant-information/international-applicants.php",
+    "internationalAdmissions": "https://admissions.ontariotechu.ca/applicant-information/international-applicants.php",
+    "applicationPortal": "https://www.ouac.on.ca/",
+    "scholarships": "https://safa.ontariotechu.ca/awards-bursaries-and-scholarships/undergraduate-student-finances/scholarships/scholarships-and-awards-for-international-students.php",
+    "financialAid": "https://safa.ontariotechu.ca/awards-bursaries-and-scholarships/undergraduate-student-finances/scholarships/scholarships-and-awards-for-international-students.php",
+    "programs": "https://registrar.ontariotechu.ca/fees-and-payment/international-student-tuition/undergraduate-international-tuition-2026-2027.php",
+    "cost": "https://registrar.ontariotechu.ca/fees-and-payment/international-student-tuition/undergraduate-international-tuition-2026-2027.php"
+  },
+  "admissions": {
+    "platforms": [
+      "OUAC (Ontario Universities’ Application Centre)",
+      "Ontario Tech International Application (direct)"
+    ],
+    "deadlines": [
+      {
+        "name": "Early Application Programs: application deadline",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-29",
+        "date": "29 January 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "For example Medical Laboratory Science and Nursing; documents by 8 February.",
+        "status": "confirmed",
+        "source": "https://admissions.ontariotechu.ca/applicant-information/international-applicants.php",
+        "verified": "2026-10-16",
+        "note": "The page prints “Friday, January 29” without a year; the weekday matches 2027."
+      },
+      {
+        "name": "Global Leadership Award application",
+        "kind": "scholarship",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-11",
+        "date": "11 February 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://admissions.ontariotechu.ca/applicant-information/international-applicants.php",
+        "verified": "2026-10-16",
+        "note": "Printed as “Thursday, February 11”; the weekday matches 2027."
+      },
+      {
+        "name": "International applicants: OUAC application for equal consideration (all other programmes)",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-03-31",
+        "date": "31 March 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Interim transcripts are due the same day. Later applications are still processed with institutional deadlines.",
+        "status": "confirmed",
+        "source": "https://admissions.ontariotechu.ca/applicant-information/international-applicants.php",
+        "verified": "2026-10-16",
+        "note": "Printed as “Wednesday, March 31”; the weekday matches 2027."
+      },
+      {
+        "name": "Common deadline to accept an offer",
+        "kind": "reply",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-05-03",
+        "date": "3 May 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "The non-refundable tuition deposit is due 4 June.",
+        "status": "confirmed",
+        "source": "https://admissions.ontariotechu.ca/applicant-information/international-applicants.php",
+        "verified": "2026-10-16",
+        "note": "Printed as “Monday, May 3”; the weekday matches 2027."
+      }
+    ],
+    "applicationFee": {
+      "amount": 100,
+      "currency": "CAD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Direct International Application for up to three programmes (the link was temporarily unavailable when read). Through OUAC: base fee C$159 plus a C$80 document-evaluation fee for Ontario Tech.",
+      "source": "https://admissions.ontariotechu.ca/applicant-information/international-applicants.php",
+      "verified": "2026-10-16"
+    },
+    "documents": [
+      "OUAC or direct application",
+      "Transcripts (may need WES authentication)",
+      "English test result unless exempt"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "Academic; no sub-score below 6.0 (Education and Nursing: 7.0)."
+    },
+    "toefl": {
+      "min": null,
+      "recommended": null,
+      "note": "iBT: 4.5 with no section below 4.0 (1–6 scale). The page read gives no 0–120 figure.",
+      "scales": [
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 120,
+      "recommended": null,
+      "note": "Education and Nursing: 130."
+    },
+    "waiver": null,
+    "note": "CAEL 70 (no sub-score below 60); PTE Academic 58; Oxford ELLT 7."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition only; ancillary fees, housing and food extra",
+      "tuition": 34148.27
+    },
+    "academicYear": "2026–2027",
+    "currency": "CAD",
+    "studentCategory": "International undergraduates, 10 courses (30 credit hours) a year",
+    "source": "https://registrar.ontariotechu.ca/fees-and-payment/international-student-tuition/undergraduate-international-tuition-2026-2027.php",
+    "verified": "2026-10-16",
+    "headline": "C$34,148–C$46,561 tuition a year (2026–27)",
+    "items": [
+      {
+        "label": "Tuition: Arts, Science, Health Science, Applied Science, Education and others",
+        "amount": 34148.27
+      },
+      {
+        "label": "Tuition: Nursing, Health Administration",
+        "amount": 34821.14
+      },
+      {
+        "label": "Tuition: Computer Science",
+        "amount": 37831.43
+      },
+      {
+        "label": "Tuition: Commerce",
+        "amount": 37877.47
+      },
+      {
+        "label": "Tuition: Information Technology",
+        "amount": 42143.13
+      },
+      {
+        "label": "Tuition: Engineering, Technology",
+        "amount": 46561.31
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "Tuition for 2026–27 from C$34,148.27 (Arts, Science and others) to C$46,561.31 (Engineering), the same figure shown for every year of study",
+    "note": "“Fees are subject to change without notice.” Ancillary fees are listed separately."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [
+      {
+        "name": "International Merit Award",
+        "amount": "C$20,000 over four years (C$5,000 a year)",
+        "eligibility": "International students on a study permit with an average of 80% or more at admission",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": true,
+        "note": "Renewable with a 3.30 cumulative GPA and a full course load; cannot be combined with the Global Leadership Award.",
+        "basis": "merit",
+        "source": "https://safa.ontariotechu.ca/awards-bursaries-and-scholarships/undergraduate-student-finances/scholarships/scholarships-and-awards-for-international-students.php",
+        "verified": "2026-10-16"
+      },
+      {
+        "name": "Global Leadership Award",
+        "amount": "C$120,000 (C$30,000 a year for four years)",
+        "eligibility": "International secondary-school applicants with strong academic and leadership records",
+        "deadline": null,
+        "application": "Application by 11 February 2027",
+        "renewable": true,
+        "note": "Highly competitive; never counted as received.",
+        "basis": "merit",
+        "source": "https://safa.ontariotechu.ca/awards-bursaries-and-scholarships/undergraduate-student-finances/scholarships/scholarships-and-awards-for-international-students.php",
+        "verified": "2026-10-16"
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "An International Emergency Bursary (2027–28) exists for students displaced by war or environmental catastrophe; general need-based aid for international first-year students is not described.",
+      "source": "https://safa.ontariotechu.ca/awards-bursaries-and-scholarships/undergraduate-student-finances/scholarships/scholarships-and-awards-for-international-students.php",
+      "verified": "2026-10-16"
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Ontario Tech — international applicants and dates",
+      "url": "https://admissions.ontariotechu.ca/applicant-information/international-applicants.php"
+    },
+    {
+      "label": "Ontario Tech — English proficiency",
+      "url": "https://admissions.ontariotechu.ca/english-language-proficiency/index.php"
+    },
+    {
+      "label": "Ontario Tech — international tuition 2026-27",
+      "url": "https://registrar.ontariotechu.ca/fees-and-payment/international-student-tuition/undergraduate-international-tuition-2026-2027.php"
+    },
+    {
+      "label": "Ontario Tech — international scholarships",
+      "url": "https://safa.ontariotechu.ca/awards-bursaries-and-scholarships/undergraduate-student-finances/scholarships/scholarships-and-awards-for-international-students.php"
+    },
+    {
+      "label": "OUAC — undergraduate fees",
+      "url": "https://www.ouac.on.ca/guide/undergrad-fees"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "deadlines",
+      "application fee",
+      "English requirements",
+      "tuition",
+      "scholarships"
+    ],
+    "unconfirmed": [
+      "test policy",
+      "requirements for Uzbekistan",
+      "full list of majors",
+      "founding year"
+    ]
+  },
+  "lastVerified": "2026-10-16",
+  "aliases": [
+    "UOIT",
+    "University of Ontario Institute of Technology",
+    "Ontario Tech",
+    "OTU"
+  ],
+  "programsBasis": "evidence",
+  "province": "ON",
+  "formerNames": [
+    "University of Ontario Institute of Technology (UOIT)"
+  ],
+  "programEvidence": {
+    "business": {
+      "program": "Bachelor of Commerce",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://registrar.ontariotechu.ca/fees-and-payment/international-student-tuition/undergraduate-international-tuition-2026-2027.php",
+      "checked": "2026-10-16"
+    },
+    "computer-science": {
+      "program": "Bachelor of Science in Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://registrar.ontariotechu.ca/fees-and-payment/international-student-tuition/undergraduate-international-tuition-2026-2027.php",
+      "checked": "2026-10-16"
+    },
+    "engineering": {
+      "program": "Bachelor of Engineering",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://registrar.ontariotechu.ca/fees-and-payment/international-student-tuition/undergraduate-international-tuition-2026-2027.php",
+      "checked": "2026-10-16"
+    },
+    "medicine": {
+      "program": "Bachelor of Science in Nursing",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://registrar.ontariotechu.ca/fees-and-payment/international-student-tuition/undergraduate-international-tuition-2026-2027.php",
+      "checked": "2026-10-16"
+    },
+    "education": {
+      "program": "Bachelor of Education",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://registrar.ontariotechu.ca/fees-and-payment/international-student-tuition/undergraduate-international-tuition-2026-2027.php",
+      "checked": "2026-10-16"
+    }
+  },
+  "programsStatus": "partial"
+},
+
+{
+  "id": "toronto-metropolitan-university",
+  "name": "Toronto Metropolitan University",
+  "shortName": "TMU",
+  "country": "ca",
+  "city": "Toronto",
+  "region": "Ontario",
+  "founded": null,
+  "type": "Public university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#1f3a5f",
+    "c2": "#0f1f33",
+    "initials": "TM"
+  },
+  "description": "A university in downtown Toronto, known until 2022 as Ryerson University, with the Ted Rogers School of Management and The Creative School.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "humanities",
+    "engineering",
+    "business",
+    "arts"
+  ],
+  "englishTaughtPrograms": [
+    "humanities",
+    "engineering",
+    "business",
+    "arts"
+  ],
+  "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
+  "links": {
+    "website": "https://www.torontomu.ca/",
+    "admissions": "https://www.torontomu.ca/admissions/undergraduate/apply/application-dates/",
+    "internationalAdmissions": "https://www.torontomu.ca/admissions/undergraduate/requirements/international/",
+    "applicationPortal": "https://www.ouac.on.ca/",
+    "scholarships": "https://www.torontomu.ca/admissions/scholarships-awards/",
+    "financialAid": "https://www.torontomu.ca/admissions/scholarships-awards/",
+    "programs": "https://www.torontomu.ca/admissions/tuition-fees/",
+    "cost": "https://www.torontomu.ca/admissions/tuition-fees/"
+  },
+  "admissions": {
+    "platforms": [
+      "OUAC (Ontario Universities’ Application Centre)"
+    ],
+    "deadlines": [
+      {
+        "name": "Guaranteed consideration date, all programmes (fall 2027)",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-01",
+        "date": "1 February 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.torontomu.ca/admissions/undergraduate/apply/application-dates/",
+        "verified": "2026-10-16",
+        "note": "The page heading is “Fall 2027 admission”; the date itself is printed without a year."
+      },
+      {
+        "name": "Prestigious entrance scholarships and ISLA – Fall 2027: application on AwardSpring",
+        "kind": "scholarship",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-16",
+        "date": "16 February 2027",
+        "time": "23:59",
+        "timezone": "ET",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Opens 2 November 2026; applications close at 11:59 p.m. ET.",
+        "status": "confirmed",
+        "source": "https://www.torontomu.ca/admissions/scholarships-awards/",
+        "verified": "2026-10-16",
+        "note": null
+      }
+    ],
+    "applicationFee": {
+      "amount": 159,
+      "currency": "CAD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Paid to OUAC, in Canadian dollars: a base fee of C$159 for up to three programme choices, C$51 for each further choice, and a document-evaluation fee of C$90 for TMU, charged once to applicants outside the Ontario school system (OUAC “Group B”). Some programmes add their own fee.",
+      "source": "https://www.ouac.on.ca/guide/undergrad-fees",
+      "verified": "2026-10-16"
+    },
+    "documents": [
+      "OUAC application",
+      "Secondary school documents",
+      "English test result unless exempt"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "Academic; One Skill Retake and IELTS Online accepted."
+    },
+    "toefl": {
+      "min": 83,
+      "recommended": null,
+      "note": "Tests before 21 January 2026: 83. Tests from 21 January 2026 (1–6 scale): 4.5. Home Edition accepted; MyBest not used.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 83,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 120,
+      "recommended": null,
+      "note": null
+    },
+    "waiver": null,
+    "note": "PTE 60; CAEL 60 (70 for Engineering and Architectural Science); Cambridge C1/C2 180."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "No minimum SAT or ACT; strong results can strengthen an application, and scores already written should be submitted.",
+      "source": "https://www.torontomu.ca/admissions/undergraduate/requirements/international/",
+      "verified": "2026-10-16"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "No minimum SAT or ACT; strong results can strengthen an application, and scores already written should be submitted.",
+      "source": "https://www.torontomu.ca/admissions/undergraduate/requirements/international/",
+      "verified": "2026-10-16"
+    },
+    "otherTests": null,
+    "internationalQualifications": "Uzbekistan: Attestat o Srednem Obrazovanii (Certificate of Secondary Education, Grade 11)."
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition fees by faculty; housing, food, books and personal costs shown separately",
+      "tuition": 38693
+    },
+    "academicYear": "2026–2027",
+    "currency": "CAD",
+    "studentCategory": "International students, full-time undergraduate programmes, fee range by faculty",
+    "source": "https://www.torontomu.ca/admissions/tuition-fees/",
+    "verified": "2026-10-16",
+    "headline": "C$38,693–C$44,675 a year in fees (2026–27)",
+    "items": [
+      {
+        "label": "Arts",
+        "min": 38706,
+        "max": 38731
+      },
+      {
+        "label": "Community Services",
+        "min": 38693,
+        "max": 41506
+      },
+      {
+        "label": "Engineering and Architectural Science",
+        "min": 44375,
+        "max": 44675
+      },
+      {
+        "label": "Science",
+        "min": 38702,
+        "max": 38762
+      },
+      {
+        "label": "Ted Rogers School of Management",
+        "min": 44476,
+        "max": 44532
+      },
+      {
+        "label": "The Creative School",
+        "min": 38733,
+        "max": 39209
+      },
+      {
+        "label": "On-campus housing (plus meal plan)",
+        "min": 9000,
+        "max": 15100
+      },
+      {
+        "label": "Food (meal plan options)",
+        "min": 5565,
+        "max": 7571
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "International fees for 2026–27 range from C$38,693 to C$44,675 by faculty; housing from C$9,000 and meals C$5,565–C$7,571 are extra",
+    "note": "Books C$1,500–C$6,700 by programme; personal costs C$3,200–C$5,600. A C$50 residence application fee applies."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [
+      {
+        "name": "International Student Leadership Award (ISLA) – Fall 2027",
+        "amount": "C$10,000, one time",
+        "eligibility": "Up to 53 international first-year students paying international fees, with a final average of at least 86% and a personal statement",
+        "deadline": null,
+        "application": "AwardSpring application by 16 February 2027",
+        "renewable": false,
+        "note": "For students who do well academically, volunteer, join clubs and show leadership.",
+        "basis": "merit",
+        "source": "https://www.torontomu.ca/admissions/scholarships-awards/",
+        "verified": "2026-10-16"
+      },
+      {
+        "name": "President’s Entrance Scholarships",
+        "amount": "C$40,000 (C$10,000 a year, renewable)",
+        "eligibility": "Twelve secondary-school graduates with at least a 90% average, leadership and creativity; international students eligible",
+        "deadline": null,
+        "application": "AwardSpring application by 16 February 2027",
+        "renewable": true,
+        "note": "A bed in residence is reserved (its cost is not covered). Competitive; never counted as received.",
+        "basis": "merit",
+        "source": "https://www.torontomu.ca/admissions/scholarships-awards/",
+        "verified": "2026-10-16"
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "The guaranteed renewable entrance scholarships (C$750–C$3,000 a year) are only for students in a Canadian secondary school. Need-based aid for international first-year students is not described.",
+      "source": "https://www.torontomu.ca/admissions/scholarships-awards/",
+      "verified": "2026-10-16"
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "TMU — fall 2027 application dates",
+      "url": "https://www.torontomu.ca/admissions/undergraduate/apply/application-dates/"
+    },
+    {
+      "label": "TMU — tuition and fees",
+      "url": "https://www.torontomu.ca/admissions/tuition-fees/"
+    },
+    {
+      "label": "TMU — English requirements",
+      "url": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/"
+    },
+    {
+      "label": "TMU — international requirements",
+      "url": "https://www.torontomu.ca/admissions/undergraduate/requirements/international/"
+    },
+    {
+      "label": "TMU — requirements by country",
+      "url": "https://www.torontomu.ca/content/ryerson/admissions/undergraduate/requirements/international/country-specific/"
+    },
+    {
+      "label": "TMU — scholarships and awards",
+      "url": "https://www.torontomu.ca/admissions/scholarships-awards/"
+    },
+    {
+      "label": "OUAC — undergraduate fees",
+      "url": "https://www.ouac.on.ca/guide/undergrad-fees"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "deadlines",
+      "English requirements",
+      "test policy",
+      "requirements for Uzbekistan",
+      "tuition",
+      "scholarships"
+    ],
+    "unconfirmed": [
+      "full list of majors",
+      "founding year"
+    ]
+  },
+  "lastVerified": "2026-10-16",
+  "aliases": [
+    "TMU",
+    "Ryerson",
+    "Ryerson University",
+    "Toronto Met"
+  ],
+  "programsBasis": "evidence",
+  "province": "ON",
+  "formerNames": [
+    "Ryerson University"
+  ],
+  "programEvidence": {
+    "humanities": {
+      "program": "Faculty of Arts",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.torontomu.ca/admissions/tuition-fees/",
+      "checked": "2026-10-16"
+    },
+    "engineering": {
+      "program": "Faculty of Engineering and Architectural Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.torontomu.ca/admissions/tuition-fees/",
+      "checked": "2026-10-16"
+    },
+    "business": {
+      "program": "Ted Rogers School of Management",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.torontomu.ca/admissions/tuition-fees/",
+      "checked": "2026-10-16"
+    },
+    "arts": {
+      "program": "The Creative School",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.torontomu.ca/admissions/tuition-fees/",
+      "checked": "2026-10-16"
+    }
+  },
+  "programsStatus": "partial"
+},
+
+{
+  "id": "brock-university",
+  "name": "Brock University",
+  "shortName": "Brock",
+  "country": "ca",
+  "city": "St. Catharines",
+  "region": "Ontario",
+  "founded": null,
+  "type": "Public university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#5a1f2e",
+    "c2": "#2e0f17",
+    "initials": "B"
+  },
+  "description": "A university in St. Catharines in the Niagara region of Ontario. An international student’s tuition rate is held for up to five academic years of a first degree.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "humanities",
+    "business",
+    "computer-science",
+    "engineering"
+  ],
+  "englishTaughtPrograms": [
+    "humanities",
+    "business",
+    "computer-science",
+    "engineering"
+  ],
+  "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
+  "links": {
+    "website": "https://brocku.ca/",
+    "admissions": "https://brocku.ca/admissions/apply/",
+    "internationalAdmissions": "https://brocku.ca/admissions/requirements-by-country/",
+    "applicationPortal": "https://brocku.ca/admissions/apply/",
+    "scholarships": "https://brocku.ca/safa/2026-international-students/",
+    "financialAid": "https://brocku.ca/safa/2026-international-students/",
+    "programs": "https://brocku.ca/safa/2026-undergraduate-fall-winter-tuition-and-fees-subject-to-change-updates-in-progress-and-pending-board-of-trustee-approval/",
+    "cost": "https://brocku.ca/safa/2026-undergraduate-fall-winter-tuition-and-fees-subject-to-change-updates-in-progress-and-pending-board-of-trustee-approval/"
+  },
+  "admissions": {
+    "platforms": [
+      "Brock Application (applying to Brock only)",
+      "OUAC (Ontario Universities’ Application Centre)"
+    ],
+    "deadlines": [
+      {
+        "name": "Application deadline, fall entry (international applicants meeting the English requirement)",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Applicants who do not yet meet the English requirement have continuous intake. Competitive programmes may fill earlier.",
+        "status": "confirmed",
+        "source": "https://brocku.ca/admissions/apply/",
+        "verified": "2026-10-16",
+        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 130,
+      "currency": "CAD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Brock Application, non-refundable. Through OUAC: base fee C$159 plus a C$75 document-evaluation fee for Brock.",
+      "source": "https://brocku.ca/admissions/apply/",
+      "verified": "2026-10-16"
+    },
+    "documents": [
+      "Brock application",
+      "Secondary school transcripts and certificate",
+      "English test result unless exempt"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "Academic; no band below 6.0; One Skill Retake accepted. Co-op Accounting: 7.0 with no band below 6.5."
+    },
+    "toefl": {
+      "min": 88,
+      "recommended": null,
+      "note": "0–120 scale: 88 with no band below 21. After 1 January 2026: 4.5 with 4.0 in Reading and Speaking and 4.5 in Writing and Listening.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 88,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 110,
+      "recommended": null,
+      "note": null
+    },
+    "waiver": null,
+    "note": "CAEL 70 (no band below 60); PTE 58; Cambridge C1/C2 176."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": "Uzbekistan: Akademik Litsey Diplomi (Diploma of Academic Lyceum) or Umumiy o‘rta ta’lim to‘g‘risida attestat (Certificate of General Secondary Education)."
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition in the main figure; ancillary fees, provincial fee and insurance listed separately",
+      "tuition": 39834.95
+    },
+    "academicYear": "2026–2027",
+    "currency": "CAD",
+    "studentCategory": "International (visa) students entering in 2026, full-time flat fee for fall and winter",
+    "source": "https://brocku.ca/safa/2026-undergraduate-fall-winter-tuition-and-fees-subject-to-change-updates-in-progress-and-pending-board-of-trustee-approval/",
+    "verified": "2026-10-16",
+    "headline": "C$39,835–C$41,646 tuition a year (2026 entry)",
+    "items": [
+      {
+        "label": "Tuition, Arts or Sciences (flat fee)",
+        "amount": 39834.95
+      },
+      {
+        "label": "Tuition, Engineering (flat fee)",
+        "amount": 40740.85
+      },
+      {
+        "label": "Tuition, Computer Science, Business, Sport Management (flat fee)",
+        "amount": 41645.6
+      },
+      {
+        "label": "Ancillary fees (flat)",
+        "amount": 584.45
+      },
+      {
+        "label": "Ontario International Recovery Fee",
+        "amount": 750
+      },
+      {
+        "label": "University Health Insurance Plan (UHIP)",
+        "amount": 948
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "Flat-fee tuition for international students entering in 2026: C$39,834.95 (Arts or Sciences) to C$41,645.60 (Computer Science, Business); plus ancillary fees, the C$750 provincial fee and UHIP",
+    "note": "The page is marked “subject to change … pending Board of Trustee approval”. The rate for 2027 entry is not yet published."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [
+      {
+        "name": "International Brock Scholars Award",
+        "amount": "C$7,000–C$32,000 over four years (2026–27 table)",
+        "eligibility": "Every incoming international student entering a first undergraduate programme, by admission average (80%+)",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": true,
+        "note": "Year 1: C$20,000 (95%+), C$15,000 (90–94.9%), C$8,000 (85–89.9%) or C$4,000 (80–84.9%), then C$4,000/C$3,000/C$1,500/C$1,000 renewals for up to three years. The page lists the 2026–27 table “subject to annual approval”; the 2027–28 values are not yet published.",
+        "basis": "automatic",
+        "source": "https://brocku.ca/safa/2026-international-students/",
+        "verified": "2026-10-16"
+      },
+      {
+        "name": "Brock Future Leaders Scholarship",
+        "amount": "C$10,000",
+        "eligibility": "Ten international fee-paying students selected by committee",
+        "deadline": null,
+        "application": "Separate application (2026–27 cycle shown)",
+        "renewable": null,
+        "note": "Can only be combined with the Brock Scholars Award.",
+        "basis": "merit",
+        "source": "https://brocku.ca/safa/2026-international-students/",
+        "verified": "2026-10-16"
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Need-based aid for international first-year students is not described on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Brock — apply now (fees and deadlines)",
+      "url": "https://brocku.ca/admissions/apply/"
+    },
+    {
+      "label": "Brock — 2026 tuition and fees",
+      "url": "https://brocku.ca/safa/2026-undergraduate-fall-winter-tuition-and-fees-subject-to-change-updates-in-progress-and-pending-board-of-trustee-approval/"
+    },
+    {
+      "label": "Brock — 2026 international student awards",
+      "url": "https://brocku.ca/safa/2026-international-students/"
+    },
+    {
+      "label": "Brock — English proficiency",
+      "url": "https://brocku.ca/admissions/english-proficiency/"
+    },
+    {
+      "label": "Brock — requirements by country",
+      "url": "https://brocku.ca/admissions/requirements-by-country/"
+    },
+    {
+      "label": "OUAC — undergraduate fees",
+      "url": "https://www.ouac.on.ca/guide/undergrad-fees"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "deadlines",
+      "application fee",
+      "English requirements",
+      "requirements for Uzbekistan",
+      "tuition",
+      "scholarships"
+    ],
+    "unconfirmed": [
+      "test policy",
+      "2027 tuition and award values",
+      "full list of majors",
+      "founding year"
+    ]
+  },
+  "lastVerified": "2026-10-16",
+  "aliases": [
+    "Brock",
+    "BrockU"
+  ],
+  "programsBasis": "evidence",
+  "province": "ON",
+  "programEvidence": {
+    "humanities": {
+      "program": "Arts programmes",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://brocku.ca/safa/2026-undergraduate-fall-winter-tuition-and-fees-subject-to-change-updates-in-progress-and-pending-board-of-trustee-approval/",
+      "checked": "2026-10-16"
+    },
+    "business": {
+      "program": "Business programmes (incl. Co-op Accounting)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://brocku.ca/safa/2026-undergraduate-fall-winter-tuition-and-fees-subject-to-change-updates-in-progress-and-pending-board-of-trustee-approval/",
+      "checked": "2026-10-16"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://brocku.ca/safa/2026-undergraduate-fall-winter-tuition-and-fees-subject-to-change-updates-in-progress-and-pending-board-of-trustee-approval/",
+      "checked": "2026-10-16"
+    },
+    "engineering": {
+      "program": "Engineering",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://brocku.ca/safa/2026-undergraduate-fall-winter-tuition-and-fees-subject-to-change-updates-in-progress-and-pending-board-of-trustee-approval/",
+      "checked": "2026-10-16"
+    }
+  },
+  "programsStatus": "partial"
+},
+
+{
+  "id": "wilfrid-laurier-university",
+  "name": "Wilfrid Laurier University",
+  "shortName": "Laurier",
+  "country": "ca",
+  "city": "Waterloo",
+  "region": "Ontario",
+  "founded": null,
+  "type": "Public university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#7a3b12",
+    "c2": "#3d1d09",
+    "initials": "WL"
+  },
+  "description": "A university with campuses in Waterloo and Brantford, Ontario, home of the Lazaridis School of Business and Economics; double degrees with the University of Waterloo are offered.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "humanities",
+    "arts",
+    "business",
+    "economics",
+    "computer-science"
+  ],
+  "englishTaughtPrograms": [
+    "humanities",
+    "arts",
+    "business",
+    "economics",
+    "computer-science"
+  ],
+  "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
+  "links": {
+    "website": "https://www.wlu.ca/",
+    "admissions": "https://www.wlu.ca/future-students/undergraduate/applicants/international/admissions.html",
+    "internationalAdmissions": "https://www.wlu.ca/future-students/undergraduate/applicants/international/admissions.html",
+    "applicationPortal": "https://www.ouac.on.ca/",
+    "scholarships": "https://www.wlu.ca/future-students/undergraduate/tuition-finances/entrance-scholarships.html",
+    "financialAid": "https://www.wlu.ca/future-students/undergraduate/tuition-finances/entrance-scholarships.html",
+    "programs": "https://www.wlu.ca/future-students/undergraduate/applicants/international/tuition-and-finances.html",
+    "cost": "https://www.wlu.ca/future-students/undergraduate/applicants/international/tuition-and-finances.html"
+  },
+  "admissions": {
+    "platforms": [
+      "OUAC (Ontario Universities’ Application Centre)"
+    ],
+    "deadlines": [
+      {
+        "name": "Inspiring Lives Scholarship application",
+        "kind": "scholarship",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-08",
+        "date": "8 November 2026",
+        "time": "23:59",
+        "timezone": "ET",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "You must accept your offer of admission before applying.",
+        "status": "confirmed",
+        "source": "https://www.wlu.ca/future-students/undergraduate/applicants/international/assets/resources/inspiring-lives-scholarship.html",
+        "verified": "2026-10-16",
+        "note": null
+      },
+      {
+        "name": "Application deadline, fall (September) 2027",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-04-01",
+        "date": "1 April 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.wlu.ca/future-students/undergraduate/applicants/international/admissions.html",
+        "verified": "2026-10-16",
+        "note": null
+      }
+    ],
+    "applicationFee": {
+      "amount": 159,
+      "currency": "CAD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Paid to OUAC, in Canadian dollars: a base fee of C$159 for up to three programme choices, C$51 for each further choice, and a document-evaluation fee of C$95 for Laurier, charged once to applicants outside the Ontario school system (OUAC “Group B”). Some programmes add their own fee.",
+      "source": "https://www.ouac.on.ca/guide/undergrad-fees",
+      "verified": "2026-10-16"
+    },
+    "documents": [
+      "OUAC application (up to three Laurier programmes)",
+      "Transcripts and final documents",
+      "English test result unless exempt"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "Academic or IELTS Online; 6.0 in each band."
+    },
+    "toefl": {
+      "min": 83,
+      "recommended": null,
+      "note": "Before January 2026: 83 with 20 in each component. From January 2026 (1–6 scale): 4.5 with 4.0 in each section.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 83,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 120,
+      "recommended": null,
+      "note": null
+    },
+    "waiver": null,
+    "note": "PTE Academic 59; CAEL 70 (60 in each band); Cambridge 176; LanguageCert 70 (65 in each skill). Tests within two years. A conditional offer is possible."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition in the main figure; student fees, residence and meals listed separately",
+      "tuition": 36624
+    },
+    "academicYear": "2026–2027",
+    "currency": "CAD",
+    "studentCategory": "International students, two terms (fall and winter), Waterloo campus figures",
+    "source": "https://www.wlu.ca/future-students/undergraduate/applicants/international/tuition-and-finances.html",
+    "verified": "2026-10-16",
+    "headline": "C$36,624–C$44,332 tuition for two terms (2026–27)",
+    "items": [
+      {
+        "label": "Tuition: Arts, Human and Social Sciences, Music, Science (most programmes)",
+        "amount": 36624
+      },
+      {
+        "label": "Tuition: Economics",
+        "amount": 39112
+      },
+      {
+        "label": "Tuition: Computer Science, Data Science",
+        "amount": 39470
+      },
+      {
+        "label": "Tuition: Business Administration",
+        "amount": 44332
+      },
+      {
+        "label": "Student fees, two terms",
+        "min": 2338,
+        "max": 3282
+      },
+      {
+        "label": "Waterloo residence (dormitory-style)",
+        "min": 8373,
+        "max": 10476
+      },
+      {
+        "label": "Waterloo meal plan (dormitory-style residence)",
+        "min": 7212,
+        "max": 7800
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "Tuition for 2026–27 from C$36,624 (Arts, Science) to C$44,332 (Business Administration), plus C$2,338–C$3,282 in student fees; double degrees with Waterloo cost more",
+    "note": "Figures are for 2026/27 and “subject to increase for the 2027/28 academic year”. After entry, tuition rises by no more than 5% a year. BBA with Waterloo Computer Science costs C$69,886."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [
+      {
+        "name": "Laurier international entrance scholarship",
+        "amount": "C$5,000 a year (C$6,000 at 95% and above), renewable",
+        "eligibility": "International students receiving an offer, from September 2027 (the grid starts at the average needed for an offer)",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": true,
+        "note": "“This scholarship grid is valid for incoming students beginning in September 2027 and after”, by admission average as of July 2027. Renewal: GPA 10.5 for C$6,000 (President’s Gold), 7.0 for C$5,000.",
+        "basis": "automatic",
+        "source": "https://www.wlu.ca/future-students/undergraduate/tuition-finances/entrance-scholarships.html",
+        "verified": "2026-10-16"
+      },
+      {
+        "name": "Inspiring Lives Scholarship",
+        "amount": "C$500–C$5,000",
+        "eligibility": "Incoming international students with leadership and community involvement; no minimum average",
+        "deadline": null,
+        "application": "Separate application by 8 November 2026, after accepting the offer",
+        "renewable": null,
+        "note": null,
+        "basis": "talent",
+        "source": "https://www.wlu.ca/future-students/undergraduate/applicants/international/assets/resources/inspiring-lives-scholarship.html",
+        "verified": "2026-10-16"
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Need-based aid for international first-year students is not described on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Laurier — international admissions and deadlines",
+      "url": "https://www.wlu.ca/future-students/undergraduate/applicants/international/admissions.html"
+    },
+    {
+      "label": "Laurier — international tuition and scholarships",
+      "url": "https://www.wlu.ca/future-students/undergraduate/applicants/international/tuition-and-finances.html"
+    },
+    {
+      "label": "Laurier — entrance scholarships",
+      "url": "https://www.wlu.ca/future-students/undergraduate/tuition-finances/entrance-scholarships.html"
+    },
+    {
+      "label": "Laurier — Inspiring Lives Scholarship",
+      "url": "https://www.wlu.ca/future-students/undergraduate/applicants/international/assets/resources/inspiring-lives-scholarship.html"
+    },
+    {
+      "label": "Laurier — English proficiency",
+      "url": "https://www.wlu.ca/admissions-toolkits/international/step-1-how-to-apply/english-proficiency.html"
+    },
+    {
+      "label": "OUAC — undergraduate fees",
+      "url": "https://www.ouac.on.ca/guide/undergrad-fees"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "deadlines",
+      "English requirements",
+      "tuition",
+      "scholarships"
+    ],
+    "unconfirmed": [
+      "test policy",
+      "requirements for Uzbekistan",
+      "full list of majors",
+      "founding year"
+    ]
+  },
+  "lastVerified": "2026-10-16",
+  "aliases": [
+    "Laurier",
+    "WLU",
+    "Wilfrid Laurier"
+  ],
+  "programsBasis": "evidence",
+  "province": "ON",
+  "campuses": [
+    "Waterloo",
+    "Brantford"
+  ],
+  "programEvidence": {
+    "humanities": {
+      "program": "Arts, Human and Social Sciences, Liberal Arts",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.wlu.ca/future-students/undergraduate/applicants/international/tuition-and-finances.html",
+      "checked": "2026-10-16"
+    },
+    "arts": {
+      "program": "Music",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.wlu.ca/future-students/undergraduate/applicants/international/tuition-and-finances.html",
+      "checked": "2026-10-16"
+    },
+    "business": {
+      "program": "Business Administration (Lazaridis School)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.wlu.ca/future-students/undergraduate/applicants/international/tuition-and-finances.html",
+      "checked": "2026-10-16"
+    },
+    "economics": {
+      "program": "Economics (all programs)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.wlu.ca/future-students/undergraduate/applicants/international/tuition-and-finances.html",
+      "checked": "2026-10-16"
+    },
+    "computer-science": {
+      "program": "Computer Science / Data Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.wlu.ca/future-students/undergraduate/applicants/international/tuition-and-finances.html",
+      "checked": "2026-10-16"
+    }
+  },
+  "programsStatus": "partial"
+},
+
+{
+  "id": "trent-university",
+  "name": "Trent University",
+  "shortName": "Trent",
+  "country": "ca",
+  "city": "Peterborough",
+  "region": "Ontario",
+  "founded": null,
+  "type": "Public university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#1f4d3a",
+    "c2": "#0f2a1f",
+    "initials": "T"
+  },
+  "description": "A university with its main campus on the Otonabee River in Peterborough and a second campus in Durham GTA (Oshawa); first-year and international students are guaranteed residence.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business",
+    "computer-science",
+    "biology",
+    "psychology",
+    "economics",
+    "social-sciences",
+    "humanities",
+    "medicine",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "business",
+    "computer-science",
+    "biology",
+    "psychology",
+    "economics",
+    "social-sciences",
+    "humanities",
+    "medicine",
+    "education"
+  ],
+  "programNote": "Fields of study are taken from the undergraduate programme selector on Trent’s international page.",
+  "links": {
+    "website": "https://www.trentu.ca/",
+    "admissions": "https://www.trentu.ca/futurestudents/admissions/intl-important-dates-deadlines",
+    "internationalAdmissions": "https://www.trentu.ca/futurestudents/international-undergraduate",
+    "applicationPortal": "https://www.trentu.ca/futurestudents/apply/international-students",
+    "scholarships": "https://www.trentu.ca/international/discover-trent/tuition-scholarships/scholarships",
+    "financialAid": "https://www.trentu.ca/international/discover-trent/tuition-scholarships/scholarships",
+    "programs": "https://www.trentu.ca/futurestudents/international-undergraduate",
+    "cost": "https://www.trentu.ca/international/finance-scholarships/estimated-cost-living-and-studying"
+  },
+  "admissions": {
+    "platforms": [
+      "Trent International Direct Application (applying only to Trent)",
+      "OUAC (Ontario Universities’ Application Centre)"
+    ],
+    "deadlines": [
+      {
+        "name": "International Prestigious Scholarships application",
+        "kind": "scholarship",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-15",
+        "date": "15 February 2027",
+        "time": "23:59",
+        "timezone": "ET",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Applications open 1 November and close 15 February “each year”, at 11:59 p.m. EST.",
+        "status": "confirmed",
+        "source": "https://www.trentu.ca/international/discover-trent/tuition-scholarships/scholarships",
+        "verified": "2026-10-16",
+        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Recommended application date for programmes with earlier deadlines",
+        "kind": "priority",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-01",
+        "date": "1 February 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "not-confirmed",
+        "source": "https://www.trentu.ca/futurestudents/admissions/intl-important-dates-deadlines",
+        "verified": "2026-10-16",
+        "note": "The same page still gives the fall 2026 and winter 2027 payment dates, so it may not yet be updated for 2027 entry."
+      },
+      {
+        "name": "General application deadline, fall intake",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-06-15",
+        "date": "15 June 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Documents by 1 July (15 February for programmes with earlier deadlines); English proof by 1 July. The C$2,000 deposit is due within two weeks of accepting and by 15 June.",
+        "status": "not-confirmed",
+        "source": "https://www.trentu.ca/futurestudents/admissions/intl-important-dates-deadlines",
+        "verified": "2026-10-16",
+        "note": "The same page still gives the fall 2026 and winter 2027 payment dates, so it may not yet be updated for 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 159,
+      "currency": "CAD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Through OUAC: base fee C$159 for up to three choices plus a C$70 document-evaluation fee for Trent. The fee of the direct application was not shown on the pages read.",
+      "source": "https://www.ouac.on.ca/guide/undergrad-fees",
+      "verified": "2026-10-16"
+    },
+    "documents": [
+      "OUAC or Trent direct application",
+      "Documents listed in myTrent",
+      "English test result unless exempt"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "No band below 6.0."
+    },
+    "toefl": {
+      "min": 86,
+      "recommended": null,
+      "note": "Before 2026: 86 with 20 in writing. 2026 onwards (1–6 scale): 4.5 with 4.0 in writing.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 86,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 115,
+      "recommended": null,
+      "note": "Undergraduate applications only."
+    },
+    "waiver": null,
+    "note": "Cambridge 176 (no part below 169); PTE Academic 59; Oxford ELLT 7 (no band below 6); LanguageCert Academic 70–74 (65 in each part)."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition, ancillary fees, books, housing, food and personal costs",
+      "tuition": 37410,
+      "budget": 57710,
+      "budgetMax": 66700
+    },
+    "academicYear": "2027–2028",
+    "currency": "CAD",
+    "studentCategory": "International undergraduate degree programme, one academic year; university estimate",
+    "source": "https://www.trentu.ca/international/finance-scholarships/estimated-cost-living-and-studying",
+    "verified": "2026-10-16",
+    "headline": "C$57,710–C$66,700 for one year (2027–28 estimate)",
+    "items": [
+      {
+        "label": "Tuition (general programmes)",
+        "amount": 37410
+      },
+      {
+        "label": "Ancillary fees",
+        "amount": 3420
+      },
+      {
+        "label": "Books and supplies",
+        "min": 1500,
+        "max": 3000
+      },
+      {
+        "label": "Housing (upper end: residence)",
+        "min": 9280,
+        "max": 13300
+      },
+      {
+        "label": "Food (upper end: residence dining plan)",
+        "min": 4600,
+        "max": 6570
+      },
+      {
+        "label": "Personal",
+        "min": 1500,
+        "max": 3000
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "Trent estimates C$57,710–C$66,700 for a year “based on 2027/28 figures”: tuition C$37,410, ancillary fees C$3,420, housing, food, books and personal costs",
+    "note": "Tuition is for general programmes; some programmes cost more."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [
+      {
+        "name": "Trent International Entrance Scholarship",
+        "amount": "C$2,500–C$5,500 a year (C$10,000–C$22,000 over four years)",
+        "eligibility": "International undergraduate applicants with a final average of 80% or more who meet the English requirement",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": true,
+        "note": "95–100%: C$5,500; 90–94.9%: C$4,500; 85–89.9%: C$3,500; 80–84.9%: C$2,500 a year. Renewable with an 80% average and a full course load.",
+        "basis": "automatic",
+        "source": "https://www.trentu.ca/international/discover-trent/tuition-scholarships/scholarships",
+        "verified": "2026-10-16"
+      },
+      {
+        "name": "Trent International Prestigious Scholarships and Awards",
+        "amount": "Up to C$15,000 a year (up to C$60,000 over four years)",
+        "eligibility": "Entering international students with outstanding achievement, community service, leadership and some financial need",
+        "deadline": null,
+        "application": "Application 1 November 2026 – 15 February 2027",
+        "renewable": true,
+        "note": "Highly competitive; includes the Moore Family International Scholarship (up to C$12,000 a year, three students from outside North America) and the Justin Chiu International Scholarship (Asia, up to C$15,000 a year). Never counted as received.",
+        "basis": "need-merit",
+        "source": "https://www.trentu.ca/international/discover-trent/tuition-scholarships/scholarships",
+        "verified": "2026-10-16"
+      }
+    ],
+    "needBased": {
+      "availableToInternational": true,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "The prestigious scholarships weigh some financial need; bursaries are described for current international students.",
+      "source": "https://www.trentu.ca/international/discover-trent/tuition-scholarships/scholarships",
+      "verified": "2026-10-16"
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Trent — international dates and deadlines",
+      "url": "https://www.trentu.ca/futurestudents/admissions/intl-important-dates-deadlines"
+    },
+    {
+      "label": "Trent — how international students apply",
+      "url": "https://www.trentu.ca/futurestudents/apply/international-students"
+    },
+    {
+      "label": "Trent — estimated cost 2027/28",
+      "url": "https://www.trentu.ca/international/finance-scholarships/estimated-cost-living-and-studying"
+    },
+    {
+      "label": "Trent — international scholarships",
+      "url": "https://www.trentu.ca/international/discover-trent/tuition-scholarships/scholarships"
+    },
+    {
+      "label": "Trent — English proficiency",
+      "url": "https://www.trentu.ca/futurestudents/admissions/international-students/english-proficiency"
+    },
+    {
+      "label": "Trent — international undergraduate programmes",
+      "url": "https://www.trentu.ca/futurestudents/international-undergraduate"
+    },
+    {
+      "label": "OUAC — undergraduate fees",
+      "url": "https://www.ouac.on.ca/guide/undergrad-fees"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "English requirements",
+      "costs",
+      "scholarships",
+      "list of programmes"
+    ],
+    "unconfirmed": [
+      "2027 application deadlines",
+      "test policy",
+      "requirements for Uzbekistan",
+      "founding year"
+    ]
+  },
+  "lastVerified": "2026-10-16",
+  "aliases": [
+    "Trent",
+    "Trent U",
+    "Trent University Durham"
+  ],
+  "programsBasis": "evidence",
+  "province": "ON",
+  "campuses": [
+    "Peterborough",
+    "Durham GTA (Oshawa)"
+  ],
+  "programEvidence": {
+    "business": {
+      "program": "Business Administration",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.trentu.ca/futurestudents/international-undergraduate",
+      "checked": "2026-10-16"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.trentu.ca/futurestudents/international-undergraduate",
+      "checked": "2026-10-16"
+    },
+    "biology": {
+      "program": "Biology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.trentu.ca/futurestudents/international-undergraduate",
+      "checked": "2026-10-16"
+    },
+    "psychology": {
+      "program": "Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.trentu.ca/futurestudents/international-undergraduate",
+      "checked": "2026-10-16"
+    },
+    "economics": {
+      "program": "Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.trentu.ca/futurestudents/international-undergraduate",
+      "checked": "2026-10-16"
+    },
+    "social-sciences": {
+      "program": "Sociology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.trentu.ca/futurestudents/international-undergraduate",
+      "checked": "2026-10-16"
+    },
+    "humanities": {
+      "program": "Philosophy",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.trentu.ca/futurestudents/international-undergraduate",
+      "checked": "2026-10-16"
+    },
+    "medicine": {
+      "program": "Nursing",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.trentu.ca/futurestudents/international-undergraduate",
+      "checked": "2026-10-16"
+    },
+    "education": {
+      "program": "Bachelor of Education (B.Ed)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.trentu.ca/futurestudents/international-undergraduate",
+      "checked": "2026-10-16"
+    }
+  },
+  "programsStatus": "partial"
 }
 );

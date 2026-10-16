@@ -42,6 +42,15 @@ window.UNIPATH.match = {
   annualCost: {
 
     /* Canada, October 2026 */
+    'memorial-university-of-newfoundland': { currency: 'CAD', basis: 'tuition', min: 22500, max: 22500, note: 'Tuition for two semesters for international students starting in fall 2026; fees, insurance, housing and food extra' },
+    'university-of-regina': { currency: 'CAD', basis: 'total', min: 47000, max: 47000, note: 'University estimate 2026–27: average tuition and fees, books, on-campus housing, food and personal costs' },
+    'ontario-tech-university': { currency: 'CAD', basis: 'tuition', min: 34148.27, max: 46561.31, note: 'Tuition 2026–27 by programme (30 credit hours); ancillary fees, housing and food extra' },
+    'toronto-metropolitan-university': { currency: 'CAD', basis: 'tuition', min: 38693, max: 44675, note: 'International fees 2026–27 by faculty; housing, food and books extra' },
+    'brock-university': { currency: 'CAD', basis: 'tuition', min: 39834.95, max: 41645.6, note: 'Flat-fee tuition for 2026 entry (pending Board approval); ancillary, provincial fee and UHIP extra' },
+    'wilfrid-laurier-university': { currency: 'CAD', basis: 'tuition', min: 36624, max: 44332, note: 'Tuition 2026–27 for two terms (Arts to Business Administration); student fees, housing and food extra' },
+    'trent-university': { currency: 'CAD', basis: 'total', min: 57710, max: 66700, note: 'University estimate on 2027/28 figures: tuition, ancillary fees, books, housing, food and personal costs' },
+
+    /* Canada, October 2026 */
     'queens-university': { currency: 'CAD', basis: 'total', min: 65996.8, max: 82026.8, note: 'University fee calculator 2026–27: tuition, UHIP, fees, books, double room and meal plan (Arts to Commerce)' },
     'dalhousie-university': { currency: 'CAD', basis: 'tuition', min: 30906, max: 48594, note: 'Guaranteed tuition 2026–27 by faculty (Agriculture to Engineering); fees, housing and food extra' },
     'simon-fraser-university': { currency: 'CAD', basis: 'total', min: 57303, max: 57303, note: 'University estimate for 2026–27: tuition and fees, books, single room with meals, insurance (Arts and Social Sciences or Science)' },
