@@ -684,6 +684,10 @@ group('Canada');
   var uv = U.uniById('university-of-victoria');
   ok(uv && uv.verified !== null && (DB.match.annualCost || {})['university-of-victoria'] && uv.scholarships.merit[0].amount.indexOf('15,000') > -1 && DB.universities.filter(function (u) { return u.country === 'ca'; }).length === 50,
     'University of Victoria is added once its site answered (19 October 2026): Canada now has all 50 listed universities');
+  var ruBox = { window: {} }; vm.createContext(ruBox);
+  vm.runInContext(fs.readFileSync(path.join(ROOT, 'data/i18n/ru.js'), 'utf8'), ruBox);
+  var noRuCity = DB.universities.filter(function (u) { return u.city && !ruBox.window.UNIPATH_I18N.ru[u.city]; }).map(function (u) { return u.city; });
+  ok(noRuCity.length === 0, 'every university city has a Russian name', noRuCity.join(', '));
   var first = function (q) { var r = U.search(q); return r[0] && r[0].id; };
   ok(first('Ryerson') === 'toronto-metropolitan-university' && first('UOIT') === 'ontario-tech-university' && first('MUN') === 'memorial-university-of-newfoundland',
     'former names find the current record: Ryerson → TMU, UOIT → Ontario Tech, MUN → Memorial', [first('Ryerson'), first('UOIT'), first('MUN')].join(', '));
