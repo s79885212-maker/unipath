@@ -1,0 +1,382 @@
+{
+ "university-of-toronto": {
+  "article": "University of Toronto",
+  "category": "University of Toronto",
+  "keywords": [
+   "university of toronto",
+   "u of t",
+   "uoft"
+  ]
+ },
+ "university-of-british-columbia": {
+  "article": "University of British Columbia",
+  "category": "University of British Columbia",
+  "keywords": [
+   "university of british columbia",
+   "ubc"
+  ]
+ },
+ "mcgill-university": {
+  "article": "McGill University",
+  "category": "McGill University",
+  "keywords": [
+   "mcgill"
+  ]
+ },
+ "university-of-alberta": {
+  "article": "University of Alberta",
+  "category": "University of Alberta",
+  "keywords": [
+   "university of alberta"
+  ]
+ },
+ "mcmaster-university": {
+  "article": "McMaster University",
+  "category": "McMaster University",
+  "keywords": [
+   "mcmaster"
+  ]
+ },
+ "universite-de-montreal": {
+  "article": "Université de Montréal",
+  "category": "Université de Montréal",
+  "keywords": [
+   "université de montréal",
+   "universite de montreal",
+   "university of montreal",
+   "udem"
+  ]
+ },
+ "university-of-waterloo": {
+  "article": "University of Waterloo",
+  "category": "University of Waterloo",
+  "keywords": [
+   "university of waterloo",
+   "uwaterloo"
+  ]
+ },
+ "western-university": {
+  "article": "University of Western Ontario",
+  "category": "University of Western Ontario",
+  "keywords": [
+   "western university",
+   "university of western ontario",
+   "western ontario"
+  ]
+ },
+ "university-of-ottawa": {
+  "article": "University of Ottawa",
+  "category": "University of Ottawa",
+  "keywords": [
+   "university of ottawa",
+   "uottawa",
+   "université d'ottawa"
+  ]
+ },
+ "university-of-calgary": {
+  "article": "University of Calgary",
+  "category": "University of Calgary",
+  "keywords": [
+   "university of calgary"
+  ]
+ },
+ "queens-university": {
+  "article": "Queen's University at Kingston",
+  "category": "Queen's University",
+  "keywords": [
+   "queen's university",
+   "queens university"
+  ]
+ },
+ "dalhousie-university": {
+  "article": "Dalhousie University",
+  "category": "Dalhousie University",
+  "keywords": [
+   "dalhousie"
+  ]
+ },
+ "simon-fraser-university": {
+  "article": "Simon Fraser University",
+  "category": "Simon Fraser University",
+  "keywords": [
+   "simon fraser"
+  ]
+ },
+ "universite-laval": {
+  "article": "Université Laval",
+  "category": "Université Laval",
+  "keywords": [
+   "université laval",
+   "universite laval",
+   "laval university"
+  ]
+ },
+ "university-of-saskatchewan": {
+  "article": "University of Saskatchewan",
+  "category": "University of Saskatchewan",
+  "keywords": [
+   "university of saskatchewan"
+  ]
+ },
+ "university-of-manitoba": {
+  "article": "University of Manitoba",
+  "category": "University of Manitoba",
+  "keywords": [
+   "university of manitoba"
+  ]
+ },
+ "university-of-guelph": {
+  "article": "University of Guelph",
+  "category": "University of Guelph",
+  "keywords": [
+   "university of guelph"
+  ]
+ },
+ "carleton-university": {
+  "article": "Carleton University",
+  "category": "Carleton University",
+  "keywords": [
+   "carleton university"
+  ]
+ },
+ "york-university": {
+  "article": "York University",
+  "category": "York University",
+  "keywords": [
+   "york university"
+  ]
+ },
+ "concordia-university": {
+  "article": "Concordia University",
+  "category": "Concordia University",
+  "keywords": [
+   "concordia university"
+  ]
+ },
+ "memorial-university-of-newfoundland": {
+  "article": "Memorial University of Newfoundland",
+  "category": "Memorial University of Newfoundland",
+  "keywords": [
+   "memorial university"
+  ]
+ },
+ "university-of-new-brunswick": {
+  "article": "University of New Brunswick",
+  "category": "University of New Brunswick",
+  "keywords": [
+   "university of new brunswick",
+   "unb"
+  ]
+ },
+ "university-of-windsor": {
+  "article": "University of Windsor",
+  "category": "University of Windsor",
+  "keywords": [
+   "university of windsor"
+  ]
+ },
+ "university-of-regina": {
+  "article": "University of Regina",
+  "category": "University of Regina",
+  "keywords": [
+   "university of regina"
+  ]
+ },
+ "ontario-tech-university": {
+  "article": "Ontario Tech University",
+  "category": "Ontario Tech University",
+  "keywords": [
+   "ontario tech",
+   "uoit",
+   "university of ontario institute of technology"
+  ]
+ },
+ "toronto-metropolitan-university": {
+  "article": "Toronto Metropolitan University",
+  "category": "Toronto Metropolitan University",
+  "keywords": [
+   "toronto metropolitan",
+   "ryerson"
+  ]
+ },
+ "brock-university": {
+  "article": "Brock University",
+  "category": "Brock University",
+  "keywords": [
+   "brock university"
+  ]
+ },
+ "wilfrid-laurier-university": {
+  "article": "Wilfrid Laurier University",
+  "category": "Wilfrid Laurier University",
+  "keywords": [
+   "wilfrid laurier",
+   "laurier"
+  ]
+ },
+ "trent-university": {
+  "article": "Trent University",
+  "category": "Trent University",
+  "keywords": [
+   "trent university"
+  ]
+ },
+ "lakehead-university": {
+  "article": "Lakehead University",
+  "category": "Lakehead University",
+  "keywords": [
+   "lakehead"
+  ]
+ },
+ "university-of-prince-edward-island": {
+  "article": "University of Prince Edward Island",
+  "category": "University of Prince Edward Island",
+  "keywords": [
+   "university of prince edward island",
+   "upei"
+  ]
+ },
+ "acadia-university": {
+  "article": "Acadia University",
+  "category": "Acadia University",
+  "keywords": [
+   "acadia university"
+  ]
+ },
+ "st-francis-xavier-university": {
+  "article": "St. Francis Xavier University",
+  "category": "St. Francis Xavier University",
+  "keywords": [
+   "st. francis xavier",
+   "st francis xavier",
+   "stfx"
+  ]
+ },
+ "mount-allison-university": {
+  "article": "Mount Allison University",
+  "category": "Mount Allison University",
+  "keywords": [
+   "mount allison"
+  ]
+ },
+ "saint-marys-university": {
+  "article": "Saint Mary's University (Halifax)",
+  "category": "Saint Mary's University (Halifax)",
+  "keywords": [
+   "saint mary's university"
+  ]
+ },
+ "bishops-university": {
+  "article": "Bishop's University",
+  "category": "Bishop's University",
+  "keywords": [
+   "bishop's university",
+   "bishops university"
+  ]
+ },
+ "university-of-lethbridge": {
+  "article": "University of Lethbridge",
+  "category": "University of Lethbridge",
+  "keywords": [
+   "university of lethbridge"
+  ]
+ },
+ "university-of-winnipeg": {
+  "article": "University of Winnipeg",
+  "category": "University of Winnipeg",
+  "keywords": [
+   "university of winnipeg"
+  ]
+ },
+ "mount-saint-vincent-university": {
+  "article": "Mount Saint Vincent University",
+  "category": "Mount Saint Vincent University",
+  "keywords": [
+   "mount saint vincent"
+  ]
+ },
+ "mount-royal-university": {
+  "article": "Mount Royal University",
+  "category": "Mount Royal University",
+  "keywords": [
+   "mount royal university"
+  ]
+ },
+ "thompson-rivers-university": {
+  "article": "Thompson Rivers University",
+  "category": "Thompson Rivers University",
+  "keywords": [
+   "thompson rivers"
+  ]
+ },
+ "university-of-northern-british-columbia": {
+  "article": "University of Northern British Columbia",
+  "category": "University of Northern British Columbia",
+  "keywords": [
+   "northern british columbia",
+   "unbc"
+  ]
+ },
+ "vancouver-island-university": {
+  "article": "Vancouver Island University",
+  "category": "Vancouver Island University",
+  "keywords": [
+   "vancouver island university"
+  ]
+ },
+ "university-of-the-fraser-valley": {
+  "article": "University of the Fraser Valley",
+  "category": "University of the Fraser Valley",
+  "keywords": [
+   "fraser valley"
+  ]
+ },
+ "capilano-university": {
+  "article": "Capilano University",
+  "category": "Capilano University",
+  "keywords": [
+   "capilano university"
+  ]
+ },
+ "laurentian-university": {
+  "article": "Laurentian University",
+  "category": "Laurentian University",
+  "keywords": [
+   "laurentian university",
+   "université laurentienne"
+  ]
+ },
+ "universite-du-quebec-a-montreal": {
+  "article": "Université du Québec à Montréal",
+  "category": "Université du Québec à Montréal",
+  "keywords": [
+   "université du québec à montréal",
+   "uqam"
+  ]
+ },
+ "universite-de-sherbrooke": {
+  "article": "Université de Sherbrooke",
+  "category": "Université de Sherbrooke",
+  "keywords": [
+   "université de sherbrooke",
+   "universite de sherbrooke",
+   "university of sherbrooke"
+  ]
+ },
+ "universite-de-moncton": {
+  "article": "Université de Moncton",
+  "category": "Université de Moncton",
+  "keywords": [
+   "université de moncton",
+   "universite de moncton"
+  ]
+ },
+ "university-of-victoria": {
+  "article": "University of Victoria",
+  "category": "University of Victoria",
+  "keywords": [
+   "university of victoria",
+   "uvic"
+  ]
+ }
+}

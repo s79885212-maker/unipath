@@ -12,7 +12,7 @@ ROOT = '/Users/salmonashurmamadov/Desktop/IL9/WORK'
 OUT = os.path.join(ROOT, 'assets/img/universities')
 UA = 'UniPathPhotoFetcher/1.0 (educational site; contact via GitHub s79885212-maker/unipath)'
 
-TARGETS = json.load(open(os.path.join(os.path.dirname(__file__), 'photo_targets_us200.json')))
+TARGETS = json.load(open(os.path.join(os.path.dirname(__file__), os.environ.get('PHOTO_TARGETS', 'photo_targets_us200.json'))))
 
 BAD = re.compile(r'(logo|seal|coat[_ ]of[_ ]arms|wordmark|shield|icon|map|locator|flag|signature|diagram|chart|graph|banner|portrait|\.svg$|\.gif$|commons-|wiki)', re.I)
 ICONIC = re.compile(r'(campus|library|quad|green|yard|aerial|tower|chapel|gate|arch|hall|square|panorama|skyline)', re.I)
@@ -32,7 +32,7 @@ def api(host, params):
             time.sleep(10 * (attempt + 1))
 
 def article_images(title):
-    d = api('en.wikipedia.org', {'action': 'query', 'prop': 'images', 'titles': title, 'imlimit': 100})
+    d = api('en.wikipedia.org', {'action': 'query', 'prop': 'images', 'titles': title, 'imlimit': 100, 'redirects': 1})
     pages = d.get('query', {}).get('pages', {})
     files = []
     for p in pages.values():
@@ -105,7 +105,7 @@ def download(url, path):
 
 def main():
     done = {}
-    outfile = os.path.join(ROOT, 'scratchpad_photos_us200.json')
+    outfile = os.environ.get('PHOTO_OUT') or os.path.join(ROOT, 'scratchpad_photos_us200.json')
     if os.path.exists(outfile):
         done = json.load(open(outfile))
     only = sys.argv[1:]

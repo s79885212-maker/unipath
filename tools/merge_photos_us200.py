@@ -3,7 +3,7 @@
 import io, json, os, re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-new = json.load(open(os.path.join(ROOT, 'scratchpad_photos_us200.json')))
+new = json.load(open(os.environ.get('PHOTO_OUT') or os.path.join(ROOT, 'scratchpad_photos_us200.json')))
 p = os.path.join(ROOT, 'data/photos.js')
 s = io.open(p, encoding='utf-8').read()
 
@@ -16,7 +16,7 @@ have = set(uid for uid, _ in entries)
 
 # only institutions that already have a record: photographs are fetched ahead of the records
 recorded = set()
-for f in ('us', 'us2', 'us3'):
+for f in os.environ.get('PHOTO_FILES', 'us,us2,us3').split(','):
     recorded |= set(re.findall(r'''(?m)^\s*"?id"?\s*:\s*['"]([a-z0-9-]+)['"]''', io.open(os.path.join(ROOT, 'data/universities.%s.js' % f), encoding='utf-8').read()))
 
 added = 0
