@@ -661,6 +661,9 @@ main {
 /* ---------- Search ---------- */
 .searchbox {
   position: relative;
+  /* The reveal animation gives the box and the chips below it their own
+     layers; this keeps the suggestion list above the later siblings. */
+  z-index: 30;
   max-width: 660px;
 }
 .searchbox input {

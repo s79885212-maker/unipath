@@ -53,7 +53,7 @@ DB.universities.forEach(function (u) { byCountry[u.country] = (byCountry[u.count
    US_NOW is raised with each batch; the other countries must not change. */
 var US_NOW = 200, US_TARGET = 200;
 /* Canada (October 2026): 50 universities added in batches of ten. */
-var CA_NOW = 49, CA_TARGET = 50;
+var CA_NOW = 50, CA_TARGET = 50;
 ok(byCountry.us === US_NOW && US_NOW <= US_TARGET, US_NOW + ' United States records (target ' + US_TARGET + ')', 'found ' + byCountry.us);
 ok(byCountry.ca === CA_NOW && CA_NOW <= CA_TARGET, CA_NOW + ' Canadian records (target ' + CA_TARGET + ')', 'found ' + byCountry.ca);
 ok(DB.universities.length === US_NOW + 120 + CA_NOW, (US_NOW + 120 + CA_NOW) + ' institutions in all', 'found ' + DB.universities.length);
@@ -681,7 +681,9 @@ group('Canada');
   var yk = U.uniById('york-university'), gu = U.uniById('university-of-guelph');
   ok(U.satPolicy(yk) === 'conditional' && gu.costs.status === 'previous-cycle' && !(DB.match.annualCost || {})['university-of-guelph'],
     'York: SAT/ACT only for some school systems; Guelph: 2025–26 estimates kept out of the budget comparison');
-  ok(!U.uniById('university-of-victoria'), 'University of Victoria is not added while its site could not be read');
+  var uv = U.uniById('university-of-victoria');
+  ok(uv && uv.verified !== null && (DB.match.annualCost || {})['university-of-victoria'] && uv.scholarships.merit[0].amount.indexOf('15,000') > -1 && DB.universities.filter(function (u) { return u.country === 'ca'; }).length === 50,
+    'University of Victoria is added once its site answered (19 October 2026): Canada now has all 50 listed universities');
   var first = function (q) { var r = U.search(q); return r[0] && r[0].id; };
   ok(first('Ryerson') === 'toronto-metropolitan-university' && first('UOIT') === 'ontario-tech-university' && first('MUN') === 'memorial-university-of-newfoundland',
     'former names find the current record: Ryerson → TMU, UOIT → Ontario Tech, MUN → Memorial', [first('Ryerson'), first('UOIT'), first('MUN')].join(', '));

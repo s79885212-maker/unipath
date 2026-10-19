@@ -15658,5 +15658,337 @@ window.UNIPATH.universities.push(
     "source": "https://www.umoncton.ca/processus-d%E2%80%99admission-pour-%C3%A9tudiants-internationaux",
     "verified": "2026-10-17"
   }
+},
+
+{
+  "id": "university-of-victoria",
+  "name": "University of Victoria",
+  "shortName": "UVic",
+  "country": "ca",
+  "city": "Victoria",
+  "region": "British Columbia",
+  "founded": null,
+  "type": "Public research university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#6b1d4f",
+    "c2": "#360f28",
+    "initials": "V"
+  },
+  "description": "A research university in Victoria, the capital of British Columbia, on Vancouver Island, applied to through EducationPlannerBC. International tuition is set for year 1 of each programme and rises by at most 6% a year.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "humanities",
+    "business",
+    "engineering",
+    "computer-science",
+    "social-sciences",
+    "arts",
+    "medicine",
+    "education"
+  ],
+  "englishTaughtPrograms": [
+    "humanities",
+    "business",
+    "engineering",
+    "computer-science",
+    "social-sciences",
+    "arts",
+    "medicine",
+    "education"
+  ],
+  "programNote": "Fields of study are the programme groups named in the university’s fee estimator; the full list of majors was not read.",
+  "links": {
+    "website": "https://www.uvic.ca/",
+    "admissions": "https://www.uvic.ca/undergraduate/admissions/application-deadlines/index.php",
+    "internationalAdmissions": "https://www.uvic.ca/undergraduate/info-for/international-students/index.php",
+    "applicationPortal": "https://www.educationplannerbc.ca/",
+    "scholarships": "https://www.uvic.ca/safa/scholarships/entrance-scholarships/index.php",
+    "financialAid": "https://www.uvic.ca/safa/scholarships/entrance-scholarships/index.php",
+    "programs": "https://www.uvic.ca/undergraduate/finances/tuition-costs/index.php",
+    "cost": "https://www.uvic.ca/undergraduate/finances/tuition-costs/index.php"
+  },
+  "admissions": {
+    "platforms": [
+      "EducationPlannerBC"
+    ],
+    "deadlines": [
+      {
+        "name": "Grades for early admission (high school applicants)",
+        "kind": "priority",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-12-01",
+        "date": "1 December 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Applicants who submit grades by early December can be considered for early admission; the page gives no exact day.",
+        "status": "not-confirmed",
+        "source": "https://www.uvic.ca/undergraduate/admissions/application-deadlines/index.php",
+        "verified": "2026-10-19",
+        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Application deadline, September entry (most degree programmes)",
+        "kind": "regular",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-31",
+        "date": "31 January 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Some programmes keep accepting applications later while they remain open in EducationPlannerBC; applications can close without warning.",
+        "status": "confirmed",
+        "source": "https://www.uvic.ca/undergraduate/admissions/application-deadlines/index.php",
+        "verified": "2026-10-19",
+        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+      }
+    ],
+    "applicationFee": {
+      "amount": 184,
+      "currency": "CAD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Through EducationPlannerBC when any transcript comes from outside Canada (C$89.50 with Canadian transcripts only).",
+      "source": "https://www.uvic.ca/undergraduate/admissions/how-to-apply/index.php",
+      "verified": "2026-10-19"
+    },
+    "documents": [
+      "EducationPlannerBC application",
+      "Transcripts uploaded in the UVic portal",
+      "English test result unless exempt"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": []
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "Academic (including One Skill Retake); no component below 6.0."
+    },
+    "toefl": {
+      "min": 88,
+      "recommended": null,
+      "note": "iBT 88 with no section below 20, or 4.5 on the new scale with no section below 4.0.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 88,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 120,
+      "recommended": null,
+      "note": "No subscore below 110."
+    },
+    "waiver": null,
+    "note": "CAEL 70; Cambridge C1/C2 180 (no skill below 170); PTE Academic 65 (60 in each skill); MET 64. Lower scores can lead to conditional admission."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "act": {
+      "policy": null,
+      "note": "Not checked on the pages read."
+    },
+    "otherTests": null,
+    "internationalQualifications": null
+  },
+  "costs": {
+    "breakdown": {
+      "includes": "tuition in the main figure; ancillary fees listed separately; housing, food and books extra",
+      "tuition": 37576
+    },
+    "academicYear": "2026–2027",
+    "currency": "CAD",
+    "studentCategory": "International undergraduates, year 1, two terms (university fee estimator, rates effective 1 May 2026)",
+    "source": "https://www.uvic.ca/undergraduate/finances/tuition-costs/tuition-fee-estimate.php?residency=I&level=UG&program=31",
+    "verified": "2026-10-19",
+    "headline": "C$37,576–C$42,618 tuition in year 1 (2026–27)",
+    "items": [
+      {
+        "label": "Tuition, year 1: Humanities, Business, Science, Social Sciences, Fine Arts, Health, Education and other programmes",
+        "amount": 37576
+      },
+      {
+        "label": "Tuition, year 1: Engineering & Computer Science",
+        "amount": 42618
+      },
+      {
+        "label": "Ancillary fees (student society, athletics, bus pass, dental, medical insurance, extended health)",
+        "amount": 1239
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "Year-1 international tuition for two terms is C$37,576 in most programmes and C$42,618 in Engineering and Computer Science, plus C$1,239 in ancillary fees; for Humanities the estimator shows C$164,378 over four years",
+    "note": "“International tuition fees are set at the June meeting of the Board for the following academic year … capped at 6% annually.” The estimate is not binding on the university."
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [
+      {
+        "name": "UVic international entrance scholarship",
+        "amount": "C$15,000, one time (2027–28 value)",
+        "eligibility": "International first-year students on a study permit with an A- admission average or equivalent who meet the English requirement",
+        "deadline": null,
+        "application": "Automatic with the application for admission; no separate application",
+        "renewable": false,
+        "note": "“The scholarship figures shown below are for the 2027-2028 academic year.” Only for students assessed international tuition.",
+        "basis": "automatic",
+        "source": "https://www.uvic.ca/safa/scholarships/entrance-scholarships/index.php",
+        "verified": "2026-10-19"
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Need-based aid for international first-year students is not described on the pages read."
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "UVic — application deadlines",
+      "url": "https://www.uvic.ca/undergraduate/admissions/application-deadlines/index.php"
+    },
+    {
+      "label": "UVic — how to apply and fee",
+      "url": "https://www.uvic.ca/undergraduate/admissions/how-to-apply/index.php"
+    },
+    {
+      "label": "UVic — tuition and costs (estimator)",
+      "url": "https://www.uvic.ca/undergraduate/finances/tuition-costs/index.php"
+    },
+    {
+      "label": "UVic — language requirements",
+      "url": "https://www.uvic.ca/undergraduate/admissions/language-requirements/index.php"
+    },
+    {
+      "label": "UVic — entrance scholarships",
+      "url": "https://www.uvic.ca/safa/scholarships/entrance-scholarships/index.php"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "deadlines",
+      "application fee",
+      "English requirements",
+      "tuition",
+      "scholarships"
+    ],
+    "unconfirmed": [
+      "test policy",
+      "requirements for Uzbekistan",
+      "full list of majors",
+      "founding year"
+    ]
+  },
+  "lastVerified": "2026-10-19",
+  "aliases": [
+    "UVic",
+    "U Vic",
+    "Victoria University BC"
+  ],
+  "programsBasis": "evidence",
+  "province": "BC",
+  "programEvidence": {
+    "humanities": {
+      "program": "Humanities",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uvic.ca/undergraduate/finances/tuition-costs/index.php",
+      "checked": "2026-10-19"
+    },
+    "business": {
+      "program": "Business (Gustavson School of Business)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uvic.ca/undergraduate/finances/tuition-costs/index.php",
+      "checked": "2026-10-19"
+    },
+    "engineering": {
+      "program": "Engineering & Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uvic.ca/undergraduate/finances/tuition-costs/index.php",
+      "checked": "2026-10-19"
+    },
+    "computer-science": {
+      "program": "Engineering & Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uvic.ca/undergraduate/finances/tuition-costs/index.php",
+      "checked": "2026-10-19"
+    },
+    "social-sciences": {
+      "program": "Social Sciences",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uvic.ca/undergraduate/finances/tuition-costs/index.php",
+      "checked": "2026-10-19"
+    },
+    "arts": {
+      "program": "Fine Arts",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uvic.ca/undergraduate/finances/tuition-costs/index.php",
+      "checked": "2026-10-19"
+    },
+    "medicine": {
+      "program": "Health",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uvic.ca/undergraduate/finances/tuition-costs/index.php",
+      "checked": "2026-10-19"
+    },
+    "education": {
+      "program": "Education",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uvic.ca/undergraduate/finances/tuition-costs/index.php",
+      "checked": "2026-10-19"
+    }
+  },
+  "programsStatus": "partial"
 }
 );

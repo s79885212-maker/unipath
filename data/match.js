@@ -42,6 +42,9 @@ window.UNIPATH.match = {
   annualCost: {
 
     /* Canada, October 2026 */
+    'university-of-victoria': { currency: 'CAD', basis: 'tuition', min: 37576, max: 42618, note: 'Year-1 tuition 2026–27 for two terms (most programmes to Engineering & Computer Science); ancillary fees, housing and food extra' },
+
+    /* Canada, October 2026 */
     'mount-royal-university': { currency: 'CAD', basis: 'tuition', min: 24277, max: 24277, note: 'Year-1 maximum international tuition 2026–27 (all degrees listed); mandatory fees C$2,432.68, housing and food extra' },
     'university-of-the-fraser-valley': { currency: 'CAD', calc: 'two-semesters', basis: 'tuition', min: 14346, max: 14346, note: 'Tuition for two semesters of 9 credits at the 2026–27 rate — calculated by UniPath, not printed by the university; fees, first-semester administration fee, housing and food extra' },
     'laurentian-university': { currency: 'CAD', basis: 'tuition', min: 30052, max: 41041.6, note: 'Tuition 2026–27 by programme (Computer Science to Engineering); incidental fees, UHIP, housing and food extra' },
