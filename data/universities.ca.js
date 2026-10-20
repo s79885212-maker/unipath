@@ -2069,7 +2069,9 @@ window.UNIPATH.universities.push(
       "note": "SAT and ACT are not part of the admission route; candidates are assessed on their school record and French."
     },
     "otherTests": null,
-    "internationalQualifications": "Uzbekistan: O‘rta Ma’lumot To‘g‘risida Shahodatnoma (pre-university certificate) and one successful year of university study — or UdeM’s preparatory year, the first year of a four-year bachelor’s or ACCÈS-FAC (some programmes). Proof of French is also required."
+    "internationalQualifications": "Uzbekistan: O‘rta Ma’lumot To‘g‘risida Shahodatnoma (pre-university certificate) and one successful year of university study — or UdeM’s preparatory year, the first year of a four-year bachelor’s or ACCÈS-FAC (some programmes). Proof of French is also required.",
+    "internationalQualificationsSource": "https://admission.umontreal.ca/admission/preparation-de-la-demande/verifier-les-conditions-dadmissibilite/par-pays-ou-diplome/equivalence-pays.html?tx_lboudemprogrammes_equivalencespays%5Baction%5D=show&tx_lboudemprogrammes_equivalencespays%5Bcontroller%5D=PaysEquivalence&tx_lboudemprogrammes_equivalencespays%5Bpays%5D=146&cHash=6a3234dd0be589374a08aa4d7413d72c",
+    "internationalQualificationsVerified": "2026-10-20"
   },
   "costs": {
     "breakdown": {
@@ -2365,7 +2367,9 @@ window.UNIPATH.universities.push(
       "note": "Not checked: the requirements by country are in an interactive tool that was not read."
     },
     "otherTests": null,
-    "internationalQualifications": "Uzbekistan: Certificate of Complete Secondary Education with competitive senior-level grades (for required courses, email myapplication@uwaterloo.ca). An English test is needed unless the last four years of full-time study were in English."
+    "internationalQualifications": "Uzbekistan: Certificate of Complete Secondary Education with competitive senior-level grades (for required courses, email myapplication@uwaterloo.ca). An English test is needed unless the last four years of full-time study were in English.",
+    "internationalQualificationsSource": "https://uwaterloo.ca/future-students/admissions/admission-requirements/computer-science/high-school/international/uzbekistan",
+    "internationalQualificationsVerified": "2026-10-20"
   },
   "costs": {
     "breakdown": {
@@ -3396,7 +3400,9 @@ window.UNIPATH.universities.push(
       "note": "Not checked on the pages read."
     },
     "otherTests": null,
-    "internationalQualifications": "Uzbekistan: Attestat o Srednem (Polnom) Obshchem Obrazovanii; applicants with less than 12 units of post-secondary study are high school applicants, and the average is competitive. Fall 2027 applications: 15 August 2026 to 1 April 2027."
+    "internationalQualifications": "Uzbekistan: Attestat o Srednem (Polnom) Obshchem Obrazovanii; applicants with less than 12 units of post-secondary study are high school applicants, and the average is competitive. Fall 2027 applications: 15 August 2026 to 1 April 2027.",
+    "internationalQualificationsSource": "https://www.ucalgary.ca/future-students/undergraduate/admissions/requirements?field_ugrad_student_types=1335&field_ugrad_education_systems=1836&field_ugrad_reqs_programs=1902",
+    "internationalQualificationsVerified": "2026-10-20"
   },
   "costs": {
     "breakdown": {
@@ -4787,7 +4793,9 @@ window.UNIPATH.universities.push(
       "note": "SAT and ACT are not part of the admission route; candidates are assessed on their school record and French."
     },
     "otherTests": null,
-    "internationalQualifications": "Uzbekistan: O‘rta Ma’lumot To‘g‘risida Shahodatnoma (11 years of schooling) plus post-secondary study — the official pages differ: the French page asks for 1 successful year of higher education, the English page for 2 years (with 1 year, a 30-credit preparatory year is possible for programmes without limited enrolment). Confirm with the Registrar."
+    "internationalQualifications": "Uzbekistan: O‘rta Ma’lumot To‘g‘risida Shahodatnoma (11 years of schooling) plus post-secondary study — the official pages differ: the French page asks for 1 successful year of higher education, the English page for 2 years (with 1 year, a 30-credit preparatory year is possible for programmes without limited enrolment). Confirm with the Registrar.",
+    "internationalQualificationsSource": "https://www.ulaval.ca/experience-ulaval/candidats-de-linternational/equivalence-des-diplomes",
+    "internationalQualificationsVerified": "2026-10-20"
   },
   "costs": {
     "breakdown": {
@@ -8509,7 +8517,9 @@ window.UNIPATH.universities.push(
       "note": "Not checked on the pages read."
     },
     "otherTests": null,
-    "internationalQualifications": "Uzbekistan: Akademik Litsey Sertificati/diplomi (Diploma of Academic Lyceum), with notarized English translations of documents in other languages."
+    "internationalQualifications": "Uzbekistan: Akademik Litsey Sertificati/diplomi (Diploma of Academic Lyceum), with notarized English translations of documents in other languages.",
+    "internationalQualificationsSource": "https://admissions.ontariotechu.ca/applicant-information/international-admission-requirements.php",
+    "internationalQualificationsVerified": "2026-10-20"
   },
   "costs": {
     "breakdown": {
@@ -9891,7 +9901,9 @@ window.UNIPATH.universities.push(
       "note": "Not checked on the pages read."
     },
     "otherTests": null,
-    "internationalQualifications": "Uzbekistan: high school transcript for grades 10, 11 and 12 with a minimum of 4/5."
+    "internationalQualifications": "Uzbekistan: high school transcript for grades 10, 11 and 12 with a minimum of 4/5.",
+    "internationalQualificationsSource": "https://www.trentu.ca/futurestudents/admissions/admissions-requirements-country",
+    "internationalQualificationsVerified": "2026-10-20"
   },
   "costs": {
     "breakdown": {
@@ -10260,7 +10272,9 @@ window.UNIPATH.universities.push(
       "note": "Not checked on the pages read."
     },
     "otherTests": null,
-    "internationalQualifications": "Uzbekistan: Shahodatnoma (Certificate of General Secondary Education); the general international minimum is the equivalent of a 70% average plus programme prerequisites."
+    "internationalQualifications": "Uzbekistan: Shahodatnoma (Certificate of General Secondary Education); the general international minimum is the equivalent of a 70% average plus programme prerequisites.",
+    "internationalQualificationsSource": "https://www.lakeheadu.ca/studentcentral/applying/general-admission-requirements/international-student/admission-requirements-by-country",
+    "internationalQualificationsVerified": "2026-10-20"
   },
   "costs": {
     "breakdown": {
@@ -12707,7 +12721,9 @@ window.UNIPATH.universities.push(
       "note": "Not checked on the pages read."
     },
     "otherTests": null,
-    "internationalQualifications": "Uzbekistan: Certificate of Secondary Education (O‘rta Ma’lumot To‘g‘risida Shahodatnoma) with a secondary school grade of 4; for transfer grades contact intladmissions@uwinnipeg.ca."
+    "internationalQualifications": "Uzbekistan: Certificate of Secondary Education (O‘rta Ma’lumot To‘g‘risida Shahodatnoma) with a secondary school grade of 4; for transfer grades contact intladmissions@uwinnipeg.ca.",
+    "internationalQualificationsSource": "https://www.uwinnipeg.ca/future-student/international/countries-a-to-z/-u-.html",
+    "internationalQualificationsVerified": "2026-10-20"
   },
   "costs": {
     "breakdown": {
@@ -13314,7 +13330,9 @@ window.UNIPATH.universities.push(
       "note": "Not checked on the pages read."
     },
     "otherTests": null,
-    "internationalQualifications": "Uzbekistan: Certificate of Completed Upper Secondary Education showing all exams taken and grades obtained."
+    "internationalQualifications": "Uzbekistan: Certificate of Completed Upper Secondary Education showing all exams taken and grades obtained.",
+    "internationalQualificationsSource": "https://www.mtroyal.ca/Admission/InternationalCredentials/",
+    "internationalQualificationsVerified": "2026-10-20"
   },
   "costs": {
     "breakdown": {
@@ -14920,7 +14938,9 @@ window.UNIPATH.universities.push(
       "note": "Not checked on the pages read."
     },
     "otherTests": null,
-    "internationalQualifications": "Uzbekistan: Certificate of Completed Secondary Education with a grade of 4/5."
+    "internationalQualifications": "Uzbekistan: Certificate of Completed Secondary Education with a grade of 4/5.",
+    "internationalQualificationsSource": "https://laurentian.ca/academics/admissions/international/undergraduate-admissions",
+    "internationalQualificationsVerified": "2026-10-20"
   },
   "costs": {
     "breakdown": {
@@ -16049,7 +16069,9 @@ window.UNIPATH.universities.push(
       "note": "Not checked on the pages read."
     },
     "otherTests": null,
-    "internationalQualifications": "Uzbekistan: Attestat o srednem obrazovanii (at Grade 11)."
+    "internationalQualifications": "Uzbekistan: Attestat o srednem obrazovanii (at Grade 11).",
+    "internationalQualificationsSource": "https://www.uvic.ca/undergraduate/admissions/how-to-apply/minimum-admission-requirements-for-international-students/index.php",
+    "internationalQualificationsVerified": "2026-10-20"
   },
   "costs": {
     "breakdown": {

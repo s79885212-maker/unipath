@@ -13,6 +13,8 @@ UZ = 'requirements for Uzbekistan'
 def uz(uid, text, label, url, extra=None):
     r = U[uid]
     r['academics']['internationalQualifications'] = G.plain(text)
+    r['academics']['internationalQualificationsSource'] = url
+    r['academics']['internationalQualificationsVerified'] = '2026-10-20'
     G.source(r, *G.plain((label, url)))
     if extra: G.source(r, *G.plain(extra))
     G.checked(r, UZ)
