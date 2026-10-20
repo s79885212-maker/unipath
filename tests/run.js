@@ -702,6 +702,11 @@ group('Canada');
   var satBad = Object.keys(satNow).filter(function (id) { var s = U.uniById(id).academics.sat; return s.policy !== satNow[id] || s.verified !== '2026-10-20' || !/^https:/.test(s.source); });
   ok(!satBad.length && U.satNotRequired(U.uniById('university-of-manitoba')) && !U.satNotRequired(U.uniById('trent-university')),
     'SAT/ACT policies read on 20 October 2026 keep the university’s wording: UBC differs by campus, Manitoba does not use them, Trent recommends them (never treated as not required)', satBad.join(', '));
+  var uzNow = ['universite-de-montreal', 'university-of-waterloo', 'university-of-calgary', 'universite-laval', 'trent-university', 'lakehead-university',
+    'ontario-tech-university', 'university-of-victoria', 'laurentian-university', 'mount-royal-university', 'university-of-winnipeg'];
+  var uzBad = uzNow.filter(function (id) { var u = U.uniById(id); return !/^Uzbekistan: /.test(u.academics.internationalQualifications || '') || u.verification.unconfirmed.indexOf('requirements for Uzbekistan') > -1; });
+  ok(!uzBad.length && /pages differ/.test(U.uniById('universite-laval').academics.internationalQualifications),
+    'requirements for Uzbekistan read on 20 October 2026 for 11 universities; Laval’s French and English pages differ and both are shown', uzBad.join(', '));
   var ruBox = { window: {} }; vm.createContext(ruBox);
   vm.runInContext(fs.readFileSync(path.join(ROOT, 'data/i18n/ru.js'), 'utf8'), ruBox);
   var noRuCity = DB.universities.filter(function (u) { return u.city && !ruBox.window.UNIPATH_I18N.ru[u.city]; }).map(function (u) { return u.city; });

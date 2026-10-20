@@ -2069,7 +2069,7 @@ window.UNIPATH.universities.push(
       "note": "SAT and ACT are not part of the admission route; candidates are assessed on their school record and French."
     },
     "otherTests": null,
-    "internationalQualifications": null
+    "internationalQualifications": "Uzbekistan: O‘rta Ma’lumot To‘g‘risida Shahodatnoma (pre-university certificate) and one successful year of university study — or UdeM’s preparatory year, the first year of a four-year bachelor’s or ACCÈS-FAC (some programmes). Proof of French is also required."
   },
   "costs": {
     "breakdown": {
@@ -2161,6 +2161,10 @@ window.UNIPATH.universities.push(
     {
       "label": "UdeM — Bourse d’exemption",
       "url": "https://registraire.umontreal.ca/droits-de-scolarite/bourse-exemption/"
+    },
+    {
+      "label": "UdeM — general admission conditions for Uzbekistan",
+      "url": "https://admission.umontreal.ca/admission/preparation-de-la-demande/verifier-les-conditions-dadmissibilite/par-pays-ou-diplome/equivalence-pays.html?tx_lboudemprogrammes_equivalencespays%5Baction%5D=show&tx_lboudemprogrammes_equivalencespays%5Bcontroller%5D=PaysEquivalence&tx_lboudemprogrammes_equivalencespays%5Bpays%5D=146&cHash=6a3234dd0be589374a08aa4d7413d72c"
     }
   ],
   "verification": {
@@ -2170,12 +2174,12 @@ window.UNIPATH.universities.push(
       "French requirement",
       "application fee",
       "tuition",
-      "tuition exemption scholarship"
+      "tuition exemption scholarship",
+      "requirements for Uzbekistan"
     ],
     "unconfirmed": [
       "full list of programmes",
       "other required fees",
-      "requirements for Uzbekistan",
       "founding year"
     ]
   },
@@ -2361,7 +2365,7 @@ window.UNIPATH.universities.push(
       "note": "Not checked: the requirements by country are in an interactive tool that was not read."
     },
     "otherTests": null,
-    "internationalQualifications": null
+    "internationalQualifications": "Uzbekistan: Certificate of Complete Secondary Education with competitive senior-level grades (for required courses, email myapplication@uwaterloo.ca). An English test is needed unless the last four years of full-time study were in English."
   },
   "costs": {
     "breakdown": {
@@ -2503,6 +2507,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Waterloo — admission requirements for US-curriculum applicants",
       "url": "https://uwaterloo.ca/future-students/admissions/admission-requirements/computer-science/high-school/international-system/american-system"
+    },
+    {
+      "label": "Waterloo — Computer Science requirements for high school students from Uzbekistan",
+      "url": "https://uwaterloo.ca/future-students/admissions/admission-requirements/computer-science/high-school/international/uzbekistan"
     }
   ],
   "verification": {
@@ -2512,10 +2520,10 @@ window.UNIPATH.universities.push(
       "English requirements",
       "estimated tuition",
       "scholarships",
-      "test policy"
+      "test policy",
+      "requirements for Uzbekistan"
     ],
     "unconfirmed": [
-      "requirements for Uzbekistan",
       "full list of majors",
       "founding year"
     ]
@@ -3388,7 +3396,7 @@ window.UNIPATH.universities.push(
       "note": "Not checked on the pages read."
     },
     "otherTests": null,
-    "internationalQualifications": null
+    "internationalQualifications": "Uzbekistan: Attestat o Srednem (Polnom) Obshchem Obrazovanii; applicants with less than 12 units of post-secondary study are high school applicants, and the average is competitive. Fall 2027 applications: 15 August 2026 to 1 April 2027."
   },
   "costs": {
     "breakdown": {
@@ -3494,6 +3502,10 @@ window.UNIPATH.universities.push(
     {
       "label": "UCalgary — admission requirements for US-curriculum applicants",
       "url": "https://calendar.ucalgary.ca/pages/b7751b7b2ff94754a035c2292ae59d4f"
+    },
+    {
+      "label": "UCalgary — admission requirements (Uzbekistan, Computer Science)",
+      "url": "https://www.ucalgary.ca/future-students/undergraduate/admissions/requirements?field_ugrad_student_types=1335&field_ugrad_education_systems=1836&field_ugrad_reqs_programs=1902"
     }
   ],
   "verification": {
@@ -3504,10 +3516,10 @@ window.UNIPATH.universities.push(
       "English requirements",
       "costs",
       "scholarships",
-      "test policy"
+      "test policy",
+      "requirements for Uzbekistan"
     ],
     "unconfirmed": [
-      "requirements for Uzbekistan",
       "full list of majors",
       "founding year"
     ]
@@ -4775,7 +4787,7 @@ window.UNIPATH.universities.push(
       "note": "SAT and ACT are not part of the admission route; candidates are assessed on their school record and French."
     },
     "otherTests": null,
-    "internationalQualifications": null
+    "internationalQualifications": "Uzbekistan: O‘rta Ma’lumot To‘g‘risida Shahodatnoma (11 years of schooling) plus post-secondary study — the official pages differ: the French page asks for 1 successful year of higher education, the English page for 2 years (with 1 year, a 30-credit preparatory year is possible for programmes without limited enrolment). Confirm with the Registrar."
   },
   "costs": {
     "breakdown": {
@@ -4872,6 +4884,14 @@ window.UNIPATH.universities.push(
     {
       "label": "ULaval — fees for foreign students",
       "url": "https://www.ulaval.ca/etudes/droits-de-scolarite/etudiant-etranger"
+    },
+    {
+      "label": "ULaval — équivalence des diplômes par pays (French)",
+      "url": "https://www.ulaval.ca/experience-ulaval/candidats-de-linternational/equivalence-des-diplomes"
+    },
+    {
+      "label": "ULaval — academic equivalence (English)",
+      "url": "https://www.ulaval.ca/en/ulaval-experience/international-applicants/academic-equivalence"
     }
   ],
   "verification": {
@@ -4880,11 +4900,11 @@ window.UNIPATH.universities.push(
       "deadlines",
       "application fee",
       "French requirement",
-      "tuition"
+      "tuition",
+      "requirements for Uzbekistan"
     ],
     "unconfirmed": [
       "entrance scholarships for international students",
-      "requirements for Uzbekistan",
       "full list of programmes",
       "founding year"
     ]
@@ -8489,7 +8509,7 @@ window.UNIPATH.universities.push(
       "note": "Not checked on the pages read."
     },
     "otherTests": null,
-    "internationalQualifications": null
+    "internationalQualifications": "Uzbekistan: Akademik Litsey Sertificati/diplomi (Diploma of Academic Lyceum), with notarized English translations of documents in other languages."
   },
   "costs": {
     "breakdown": {
@@ -8615,6 +8635,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Ontario Tech — admission requirements for US-curriculum applicants",
       "url": "https://ontariotechu.ca/policy/policy-library/policies/academic/undergraduate-and-professional-admissions-procedures.php"
+    },
+    {
+      "label": "Ontario Tech — international admission requirements",
+      "url": "https://admissions.ontariotechu.ca/applicant-information/international-admission-requirements.php"
     }
   ],
   "verification": {
@@ -8625,10 +8649,10 @@ window.UNIPATH.universities.push(
       "English requirements",
       "tuition",
       "scholarships",
-      "test policy"
+      "test policy",
+      "requirements for Uzbekistan"
     ],
     "unconfirmed": [
-      "requirements for Uzbekistan",
       "full list of majors",
       "founding year"
     ]
@@ -9867,7 +9891,7 @@ window.UNIPATH.universities.push(
       "note": "Not checked on the pages read."
     },
     "otherTests": null,
-    "internationalQualifications": null
+    "internationalQualifications": "Uzbekistan: high school transcript for grades 10, 11 and 12 with a minimum of 4/5."
   },
   "costs": {
     "breakdown": {
@@ -10007,6 +10031,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Trent — admission requirements for US-curriculum applicants",
       "url": "https://www.trentu.ca/futurestudents/admissions/admission-requirements/united-states-secondary-school"
+    },
+    {
+      "label": "Trent — admission requirements by country",
+      "url": "https://www.trentu.ca/futurestudents/admissions/admissions-requirements-country"
     }
   ],
   "verification": {
@@ -10016,11 +10044,11 @@ window.UNIPATH.universities.push(
       "costs",
       "scholarships",
       "list of programmes",
-      "test policy"
+      "test policy",
+      "requirements for Uzbekistan"
     ],
     "unconfirmed": [
       "2027 application deadlines",
-      "requirements for Uzbekistan",
       "founding year"
     ]
   },
@@ -10232,7 +10260,7 @@ window.UNIPATH.universities.push(
       "note": "Not checked on the pages read."
     },
     "otherTests": null,
-    "internationalQualifications": null
+    "internationalQualifications": "Uzbekistan: Shahodatnoma (Certificate of General Secondary Education); the general international minimum is the equivalent of a 70% average plus programme prerequisites."
   },
   "costs": {
     "breakdown": {
@@ -10349,11 +10377,11 @@ window.UNIPATH.universities.push(
       "English requirements",
       "tuition",
       "scholarships",
-      "test policy"
+      "test policy",
+      "requirements for Uzbekistan"
     ],
     "unconfirmed": [
       "tuition of general Arts and Science programmes",
-      "requirements for Uzbekistan",
       "full list of majors",
       "founding year"
     ]
@@ -12679,7 +12707,7 @@ window.UNIPATH.universities.push(
       "note": "Not checked on the pages read."
     },
     "otherTests": null,
-    "internationalQualifications": null
+    "internationalQualifications": "Uzbekistan: Certificate of Secondary Education (O‘rta Ma’lumot To‘g‘risida Shahodatnoma) with a secondary school grade of 4; for transfer grades contact intladmissions@uwinnipeg.ca."
   },
   "costs": {
     "breakdown": {
@@ -12791,6 +12819,10 @@ window.UNIPATH.universities.push(
     {
       "label": "UWinnipeg — admission requirements for US-curriculum applicants",
       "url": "https://www.uwinnipeg.ca/future-student/minnesota.html"
+    },
+    {
+      "label": "UWinnipeg — admission requirements by country (U)",
+      "url": "https://www.uwinnipeg.ca/future-student/international/countries-a-to-z/-u-.html"
     }
   ],
   "verification": {
@@ -12800,11 +12832,11 @@ window.UNIPATH.universities.push(
       "English requirements",
       "tuition",
       "scholarships",
-      "test policy"
+      "test policy",
+      "requirements for Uzbekistan"
     ],
     "unconfirmed": [
       "fall 2027 application deadline",
-      "requirements for Uzbekistan",
       "full list of majors",
       "founding year"
     ]
@@ -13282,7 +13314,7 @@ window.UNIPATH.universities.push(
       "note": "Not checked on the pages read."
     },
     "otherTests": null,
-    "internationalQualifications": null
+    "internationalQualifications": "Uzbekistan: Certificate of Completed Upper Secondary Education showing all exams taken and grades obtained."
   },
   "costs": {
     "breakdown": {
@@ -13374,6 +13406,10 @@ window.UNIPATH.universities.push(
     {
       "label": "MRU — award policies",
       "url": "https://www.mtroyal.ca/Admission/FinancingYourEducation/ScholarshipsBursaries/awardinfo.htm"
+    },
+    {
+      "label": "Mount Royal — international credentials",
+      "url": "https://www.mtroyal.ca/Admission/InternationalCredentials/"
     }
   ],
   "verification": {
@@ -13383,11 +13419,11 @@ window.UNIPATH.universities.push(
       "English requirements",
       "tuition",
       "scholarships",
-      "application fee"
+      "application fee",
+      "requirements for Uzbekistan"
     ],
     "unconfirmed": [
       "test policy",
-      "requirements for Uzbekistan",
       "full list of majors",
       "founding year"
     ]
@@ -14884,7 +14920,7 @@ window.UNIPATH.universities.push(
       "note": "Not checked on the pages read."
     },
     "otherTests": null,
-    "internationalQualifications": null
+    "internationalQualifications": "Uzbekistan: Certificate of Completed Secondary Education with a grade of 4/5."
   },
   "costs": {
     "breakdown": {
@@ -14992,6 +15028,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Laurentian — language requirements",
       "url": "https://laurentian.ca/academics/admissions/language-requirements"
+    },
+    {
+      "label": "Laurentian — international undergraduate admissions by country",
+      "url": "https://laurentian.ca/academics/admissions/international/undergraduate-admissions"
     }
   ],
   "verification": {
@@ -15002,11 +15042,11 @@ window.UNIPATH.universities.push(
       "French requirement",
       "tuition",
       "scholarships",
-      "application fee"
+      "application fee",
+      "requirements for Uzbekistan"
     ],
     "unconfirmed": [
       "test policy",
-      "requirements for Uzbekistan",
       "full list of majors",
       "founding year"
     ]
@@ -16009,7 +16049,7 @@ window.UNIPATH.universities.push(
       "note": "Not checked on the pages read."
     },
     "otherTests": null,
-    "internationalQualifications": null
+    "internationalQualifications": "Uzbekistan: Attestat o srednem obrazovanii (at Grade 11)."
   },
   "costs": {
     "breakdown": {
@@ -16109,6 +16149,10 @@ window.UNIPATH.universities.push(
     {
       "label": "UVic — admission requirements for US-curriculum applicants",
       "url": "https://www.uvic.ca/undergraduate/info-for/us-students/index.php"
+    },
+    {
+      "label": "UVic — minimum admission requirements for international students",
+      "url": "https://www.uvic.ca/undergraduate/admissions/how-to-apply/minimum-admission-requirements-for-international-students/index.php"
     }
   ],
   "verification": {
@@ -16119,10 +16163,10 @@ window.UNIPATH.universities.push(
       "English requirements",
       "tuition",
       "scholarships",
-      "test policy"
+      "test policy",
+      "requirements for Uzbekistan"
     ],
     "unconfirmed": [
-      "requirements for Uzbekistan",
       "full list of majors",
       "founding year"
     ]
