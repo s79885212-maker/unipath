@@ -698,6 +698,10 @@ group('Canada');
   var engBad = ['st-francis-xavier-university', 'university-of-lethbridge', 'thompson-rivers-university'].filter(function (id) {
     var u = U.uniById(id); return U.ieltsMin(u) !== 6.5 || !u.english.source || u.verification.unconfirmed.some(function (x) { return /English/.test(x); }); });
   ok(!feeBad.length && !engBad.length, 'gaps filled on 20 October 2026: application fees of nine universities and English minimums of StFX, Lethbridge and TRU, each with its page', feeBad.concat(engBad).join(', '));
+  var satNow = { 'university-of-british-columbia': 'conditional', 'university-of-manitoba': 'not-used', 'trent-university': 'accepted', 'queens-university': 'optional', 'university-of-victoria': 'optional', 'st-francis-xavier-university': 'optional' };
+  var satBad = Object.keys(satNow).filter(function (id) { var s = U.uniById(id).academics.sat; return s.policy !== satNow[id] || s.verified !== '2026-10-20' || !/^https:/.test(s.source); });
+  ok(!satBad.length && U.satNotRequired(U.uniById('university-of-manitoba')) && !U.satNotRequired(U.uniById('trent-university')),
+    'SAT/ACT policies read on 20 October 2026 keep the university’s wording: UBC differs by campus, Manitoba does not use them, Trent recommends them (never treated as not required)', satBad.join(', '));
   var ruBox = { window: {} }; vm.createContext(ruBox);
   vm.runInContext(fs.readFileSync(path.join(ROOT, 'data/i18n/ru.js'), 'utf8'), ruBox);
   var noRuCity = DB.universities.filter(function (u) { return u.city && !ruBox.window.UNIPATH_I18N.ru[u.city]; }).map(function (u) { return u.city; });

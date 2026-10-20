@@ -583,8 +583,11 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not checked: the requirement finder by country did not show a test policy on the pages read."
+      "policy": "conditional",
+      "note": "Vancouver campus: submitting SAT or ACT scores is optional, and applicants are not at a disadvantage without them. Okanagan campus: applicants on a US curriculum present the SAT or the ACT with Writing (exemptions where the tests are unavailable).",
+      "source": "https://vancouver.calendar.ubc.ca/admissions/applicants-following-american-secondary-school-curriculum",
+      "verified": "2026-10-20",
+      "label": "SAT/ACT optional at UBC Vancouver; required at UBC Okanagan for a US curriculum"
     },
     "act": {
       "policy": null,
@@ -740,6 +743,14 @@ window.UNIPATH.universities.push(
     {
       "label": "UBC — International Scholars",
       "url": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/international-scholars/"
+    },
+    {
+      "label": "UBC — admission requirements for US-curriculum applicants",
+      "url": "https://vancouver.calendar.ubc.ca/admissions/applicants-following-american-secondary-school-curriculum"
+    },
+    {
+      "label": "UBC Okanagan calendar — applicants following the American curriculum",
+      "url": "https://okanagan.calendar.ubc.ca/admissions/applicants-following-american-secondary-school-curriculum"
     }
   ],
   "verification": {
@@ -749,10 +760,10 @@ window.UNIPATH.universities.push(
       "application fee",
       "English requirements",
       "tuition",
-      "scholarships"
+      "scholarships",
+      "test policy"
     ],
     "unconfirmed": [
-      "test policy",
       "full list of majors",
       "Okanagan tuition",
       "founding year"
@@ -2339,8 +2350,11 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not checked: the requirements by country are in an interactive tool that was not read."
+      "policy": "optional",
+      "note": "The programme pages for American-system applicants read (Computer Science, Mechanical Engineering, Mathematics) say SAT and ACT scores are not required. AP scores are encouraged; Computer Science needs AP Calculus results from College Board.",
+      "source": "https://uwaterloo.ca/future-students/admissions/admission-requirements/computer-science/high-school/international-system/american-system",
+      "verified": "2026-10-20",
+      "label": "SAT/ACT not required"
     },
     "act": {
       "policy": null,
@@ -2485,6 +2499,10 @@ window.UNIPATH.universities.push(
     {
       "label": "OUAC — undergraduate fees",
       "url": "https://www.ouac.on.ca/guide/undergrad-fees"
+    },
+    {
+      "label": "Waterloo — admission requirements for US-curriculum applicants",
+      "url": "https://uwaterloo.ca/future-students/admissions/admission-requirements/computer-science/high-school/international-system/american-system"
     }
   ],
   "verification": {
@@ -2493,10 +2511,10 @@ window.UNIPATH.universities.push(
       "2027 deadlines",
       "English requirements",
       "estimated tuition",
-      "scholarships"
+      "scholarships",
+      "test policy"
     ],
     "unconfirmed": [
-      "test policy",
       "requirements for Uzbekistan",
       "full list of majors",
       "founding year"
@@ -3359,8 +3377,11 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not checked on the pages read."
+      "policy": "optional",
+      "note": "Applicants from an accredited American-based curriculum are considered on the faculty’s course requirements and proof of graduation. AP exams or SAT Subject Tests already taken can stand in for missing required courses.",
+      "source": "https://calendar.ucalgary.ca/pages/b7751b7b2ff94754a035c2292ae59d4f",
+      "verified": "2026-10-20",
+      "label": "SAT/ACT not required"
     },
     "act": {
       "policy": null,
@@ -3469,6 +3490,10 @@ window.UNIPATH.universities.push(
     {
       "label": "UCalgary — International Entrance Scholarship",
       "url": "https://www.ucalgary.ca/registrar/awards/university-calgary-international-entrance-scholarship"
+    },
+    {
+      "label": "UCalgary — admission requirements for US-curriculum applicants",
+      "url": "https://calendar.ucalgary.ca/pages/b7751b7b2ff94754a035c2292ae59d4f"
     }
   ],
   "verification": {
@@ -3478,10 +3503,10 @@ window.UNIPATH.universities.push(
       "application fee",
       "English requirements",
       "costs",
-      "scholarships"
+      "scholarships",
+      "test policy"
     ],
     "unconfirmed": [
-      "test policy",
       "requirements for Uzbekistan",
       "full list of majors",
       "founding year"
@@ -3702,8 +3727,10 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not checked on the pages read."
+      "policy": "optional",
+      "note": "Queen’s is test-optional: SAT/ACT results may be submitted but are not required (College Board code 0949, ACT 5236).",
+      "source": "https://www.queensu.ca/admission/applying/admission-requirements/united-states",
+      "verified": "2026-10-20"
     },
     "act": {
       "policy": null,
@@ -3842,6 +3869,10 @@ window.UNIPATH.universities.push(
     {
       "label": "OUAC — undergraduate fees",
       "url": "https://www.ouac.on.ca/guide/undergrad-fees"
+    },
+    {
+      "label": "Queen’s — admission requirements for US-curriculum applicants",
+      "url": "https://www.queensu.ca/admission/applying/admission-requirements/united-states"
     }
   ],
   "verification": {
@@ -3850,10 +3881,10 @@ window.UNIPATH.universities.push(
       "2027 deadlines",
       "English requirements",
       "costs",
-      "scholarships"
+      "scholarships",
+      "test policy"
     ],
     "unconfirmed": [
-      "test policy",
       "requirements for Uzbekistan",
       "full list of majors",
       "founding year"
@@ -4074,8 +4105,10 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not stated: the requirements for U.S. high school applicants on the page read list no SAT or ACT."
+      "policy": "optional",
+      "note": "Dalhousie is test-optional; without SAT or ACT results applicants are assessed on course grades. Home-schooled applicants must submit them. Submitted scores: SAT at least 1100 or ACT 23 with no part below 20.",
+      "source": "https://www.dal.ca/admissions/how-to-apply/undergraduate-admissions/international-applicants/us-applicants.html",
+      "verified": "2026-10-20"
     },
     "act": {
       "policy": null,
@@ -4214,6 +4247,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Dalhousie — entrance awards",
       "url": "https://www.dal.ca/admissions/scholarships-financial-aid/scholarships/future-undergraduate-student-awards.html"
+    },
+    {
+      "label": "Dal — admission requirements for US-curriculum applicants",
+      "url": "https://www.dal.ca/admissions/how-to-apply/undergraduate-admissions/international-applicants/us-applicants.html"
     }
   ],
   "verification": {
@@ -4224,10 +4261,10 @@ window.UNIPATH.universities.push(
       "tuition",
       "scholarships",
       "requirements for Uzbekistan",
-      "application fee"
+      "application fee",
+      "test policy"
     ],
     "unconfirmed": [
-      "test policy",
       "full list of majors",
       "founding year"
     ]
@@ -5377,8 +5414,10 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not checked on the pages read."
+      "policy": "not-used",
+      "note": "“There are no SAT or ACT requirements for admission to UM”; admission puts the emphasis on senior-year grades.",
+      "source": "https://umanitoba.ca/explore/student-experience/applying-united-states",
+      "verified": "2026-10-20"
     },
     "act": {
       "policy": null,
@@ -5511,6 +5550,10 @@ window.UNIPATH.universities.push(
     {
       "label": "UM — international admission requirements",
       "url": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/international-admission-requirements"
+    },
+    {
+      "label": "UM — admission requirements for US-curriculum applicants",
+      "url": "https://umanitoba.ca/explore/student-experience/applying-united-states"
     }
   ],
   "verification": {
@@ -5520,11 +5563,11 @@ window.UNIPATH.universities.push(
       "tuition rates",
       "requirements for Uzbekistan",
       "scholarships",
-      "application fee"
+      "application fee",
+      "test policy"
     ],
     "unconfirmed": [
       "application deadline for autumn 2027",
-      "test policy",
       "full list of majors",
       "founding year"
     ]
@@ -6139,8 +6182,10 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not stated for national school systems such as Uzbekistan’s on the pages read."
+      "policy": "optional",
+      "note": "US high school applicants are encouraged to submit SAT or ACT scores, grading information and class rank to support the application; the minimum is a B- average.",
+      "source": "https://admissions.carleton.ca/applicant-type/united-states-high-school-students/",
+      "verified": "2026-10-20"
     },
     "act": {
       "policy": null,
@@ -6283,6 +6328,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Carleton — international admission requirements",
       "url": "https://admissions.carleton.ca/international/"
+    },
+    {
+      "label": "Carleton — admission requirements for US-curriculum applicants",
+      "url": "https://admissions.carleton.ca/applicant-type/united-states-high-school-students/"
     }
   ],
   "verification": {
@@ -6292,10 +6341,10 @@ window.UNIPATH.universities.push(
       "application fee",
       "English requirements",
       "tuition",
-      "scholarships"
+      "scholarships",
+      "test policy"
     ],
     "unconfirmed": [
-      "test policy",
       "full list of majors",
       "founding year"
     ]
@@ -7794,8 +7843,10 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not checked on the pages read."
+      "policy": "optional",
+      "note": "Graduates of accredited high schools normally qualify with a cumulative GPA of 3.0; applicants are encouraged to submit SAT or ACT scores (SAT code 0904, ACT 7053).",
+      "source": "https://www.uwindsor.ca/studentrecruitment/415/admissions-information-us-students",
+      "verified": "2026-10-20"
     },
     "act": {
       "policy": null,
@@ -7884,19 +7935,23 @@ window.UNIPATH.universities.push(
     {
       "label": "OUAC — undergraduate fees",
       "url": "https://www.ouac.on.ca/guide/undergrad-fees"
+    },
+    {
+      "label": "UWindsor — admission requirements for US-curriculum applicants",
+      "url": "https://www.uwindsor.ca/studentrecruitment/415/admissions-information-us-students"
     }
   ],
   "verification": {
     "level": "partial",
     "checked": [
       "deadlines",
-      "scholarships"
+      "scholarships",
+      "test policy"
     ],
     "unconfirmed": [
       "English requirements",
       "tuition",
       "application fee",
-      "test policy",
       "requirements for Uzbekistan",
       "full list of majors",
       "founding year"
@@ -8423,8 +8478,11 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not checked on the pages read."
+      "policy": "optional",
+      "note": "Grades are the primary basis of admission. Applicants from US schools present SAT or ACT scores if written (not more than five years old); scores do not disadvantage an applicant.",
+      "source": "https://ontariotechu.ca/policy/policy-library/policies/academic/undergraduate-and-professional-admissions-procedures.php",
+      "verified": "2026-10-20",
+      "label": "SAT/ACT not required; send scores if written"
     },
     "act": {
       "policy": null,
@@ -8553,6 +8611,10 @@ window.UNIPATH.universities.push(
     {
       "label": "OUAC — undergraduate fees",
       "url": "https://www.ouac.on.ca/guide/undergrad-fees"
+    },
+    {
+      "label": "Ontario Tech — admission requirements for US-curriculum applicants",
+      "url": "https://ontariotechu.ca/policy/policy-library/policies/academic/undergraduate-and-professional-admissions-procedures.php"
     }
   ],
   "verification": {
@@ -8562,10 +8624,10 @@ window.UNIPATH.universities.push(
       "application fee",
       "English requirements",
       "tuition",
-      "scholarships"
+      "scholarships",
+      "test policy"
     ],
     "unconfirmed": [
-      "test policy",
       "requirements for Uzbekistan",
       "full list of majors",
       "founding year"
@@ -9794,8 +9856,11 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not checked on the pages read."
+      "policy": "accepted",
+      "note": "Minimum B average (GPA 3.0), 70% in Grade 12 English and four other senior subjects; “SAT or ACT recommended. Tests are not mandatory for students following US curriculum outside of the USA.”",
+      "source": "https://www.trentu.ca/futurestudents/admissions/admission-requirements/united-states-secondary-school",
+      "verified": "2026-10-20",
+      "label": "SAT/ACT recommended; not mandatory outside the USA"
     },
     "act": {
       "policy": null,
@@ -9938,6 +10003,10 @@ window.UNIPATH.universities.push(
     {
       "label": "OUAC — undergraduate fees",
       "url": "https://www.ouac.on.ca/guide/undergrad-fees"
+    },
+    {
+      "label": "Trent — admission requirements for US-curriculum applicants",
+      "url": "https://www.trentu.ca/futurestudents/admissions/admission-requirements/united-states-secondary-school"
     }
   ],
   "verification": {
@@ -9946,11 +10015,11 @@ window.UNIPATH.universities.push(
       "English requirements",
       "costs",
       "scholarships",
-      "list of programmes"
+      "list of programmes",
+      "test policy"
     ],
     "unconfirmed": [
       "2027 application deadlines",
-      "test policy",
       "requirements for Uzbekistan",
       "founding year"
     ]
@@ -10152,8 +10221,11 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not checked on the pages read."
+      "policy": "optional",
+      "note": "US applicants need a 70% admission average over four senior academic courses and the programme prerequisites; “Applicants are not required to complete an ACT or SAT.”",
+      "source": "https://www.lakeheadu.ca/studentcentral/applying/general-admission-requirements/international-student/admission-requirements-by-country",
+      "verified": "2026-10-20",
+      "label": "SAT/ACT not required"
     },
     "act": {
       "policy": null,
@@ -10264,6 +10336,10 @@ window.UNIPATH.universities.push(
     {
       "label": "OUAC — undergraduate fees",
       "url": "https://www.ouac.on.ca/guide/undergrad-fees"
+    },
+    {
+      "label": "Lakehead — admission requirements for US-curriculum applicants",
+      "url": "https://www.lakeheadu.ca/studentcentral/applying/general-admission-requirements/international-student/admission-requirements-by-country"
     }
   ],
   "verification": {
@@ -10272,11 +10348,11 @@ window.UNIPATH.universities.push(
       "deadlines",
       "English requirements",
       "tuition",
-      "scholarships"
+      "scholarships",
+      "test policy"
     ],
     "unconfirmed": [
       "tuition of general Arts and Science programmes",
-      "test policy",
       "requirements for Uzbekistan",
       "full list of majors",
       "founding year"
@@ -11003,8 +11079,11 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not checked on the pages read."
+      "policy": "optional",
+      "note": "For the United States: “SAT and ACT scores are NOT required for admission” to any of the programmes listed.",
+      "source": "https://www.stfx.ca/applications-admissions/admissions-information/admission-requirements/high-school",
+      "verified": "2026-10-20",
+      "label": "SAT/ACT not required"
     },
     "act": {
       "policy": null,
@@ -11140,11 +11219,11 @@ window.UNIPATH.universities.push(
       "deadlines",
       "costs",
       "scholarships",
-      "English requirements"
+      "English requirements",
+      "test policy"
     ],
     "unconfirmed": [
       "application fee",
-      "test policy",
       "requirements for Uzbekistan",
       "full list of majors",
       "founding year"
@@ -11345,8 +11424,10 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not checked on the pages read."
+      "policy": "optional",
+      "note": "Students on an American curriculum are considered on university-preparatory courses and graduation; SAT results are not required, but students are encouraged to submit them.",
+      "source": "https://mta.ca/academic_calendar/_3.html",
+      "verified": "2026-10-20"
     },
     "act": {
       "policy": null,
@@ -11480,6 +11561,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Mount Allison — admission requirements",
       "url": "https://mta.ca/admissions/admission-requirements"
+    },
+    {
+      "label": "Mount Allison — admission requirements for US-curriculum applicants",
+      "url": "https://mta.ca/academic_calendar/_3.html"
     }
   ],
   "verification": {
@@ -11489,10 +11574,10 @@ window.UNIPATH.universities.push(
       "English requirements",
       "costs",
       "scholarships",
-      "application fee"
+      "application fee",
+      "test policy"
     ],
     "unconfirmed": [
-      "test policy",
       "requirements for Uzbekistan",
       "full list of majors",
       "founding year"
@@ -12273,8 +12358,11 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not checked on the pages read."
+      "policy": "optional",
+      "note": "US applicants are admitted on a high school diploma with a converted average of 65% over all Grade 12 courses. Acceptable ACT or SAT scores are a separate route to general admission (programme requirements still apply).",
+      "source": "https://www.ulethbridge.ca/ross/admissions/undergrad/international/intreq_table",
+      "verified": "2026-10-20",
+      "label": "SAT/ACT not required; scores are an alternative route"
     },
     "act": {
       "policy": null,
@@ -12390,6 +12478,14 @@ window.UNIPATH.universities.push(
     {
       "label": "ULethbridge — English language proficiency for undergraduate students",
       "url": "https://www.ulethbridge.ca/ross/admissions/elp"
+    },
+    {
+      "label": "ULethbridge — admission requirements for US-curriculum applicants",
+      "url": "https://www.ulethbridge.ca/ross/admissions/undergrad/international/intreq_table"
+    },
+    {
+      "label": "ULethbridge — standardized test admission",
+      "url": "https://www.ulethbridge.ca/ross/admissions/undergrad/standardized-test"
     }
   ],
   "verification": {
@@ -12398,11 +12494,11 @@ window.UNIPATH.universities.push(
       "deadlines",
       "application fee",
       "costs",
-      "English test minimums"
+      "English test minimums",
+      "test policy"
     ],
     "unconfirmed": [
       "international entrance scholarships",
-      "test policy",
       "requirements for Uzbekistan",
       "full list of majors",
       "founding year"
@@ -12572,8 +12668,11 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not checked on the pages read."
+      "policy": "optional",
+      "note": "Grade 12 with an average of C+ or better in at least five academic subjects. “SAT/ACT scores are not required for current high school students; however, homeschooled students will need to provide SAT/ACT scores.”",
+      "source": "https://www.uwinnipeg.ca/future-student/minnesota.html",
+      "verified": "2026-10-20",
+      "label": "SAT/ACT not required (home-schooled applicants: required)"
     },
     "act": {
       "policy": null,
@@ -12688,6 +12787,10 @@ window.UNIPATH.universities.push(
     {
       "label": "UWinnipeg — awards for international students",
       "url": "https://www.uwinnipeg.ca/awards/awards-bursaries-and-scholarships/international-students.html"
+    },
+    {
+      "label": "UWinnipeg — admission requirements for US-curriculum applicants",
+      "url": "https://www.uwinnipeg.ca/future-student/minnesota.html"
     }
   ],
   "verification": {
@@ -12696,11 +12799,11 @@ window.UNIPATH.universities.push(
       "application fee",
       "English requirements",
       "tuition",
-      "scholarships"
+      "scholarships",
+      "test policy"
     ],
     "unconfirmed": [
       "fall 2027 application deadline",
-      "test policy",
       "requirements for Uzbekistan",
       "full list of majors",
       "founding year"
@@ -12869,8 +12972,10 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not checked on the pages read."
+      "policy": "optional",
+      "note": "US graduates: Grade 12 English (College Prep) and four other Grade 12 academic courses with a 70% average; SAT scores are not required but may be submitted as additional evidence (ETS code 0865).",
+      "source": "https://www.msvu.ca/future-students/admission-requirements/international-students/",
+      "verified": "2026-10-20"
     },
     "act": {
       "policy": null,
@@ -12975,6 +13080,10 @@ window.UNIPATH.universities.push(
     {
       "label": "MSVU — undergraduate scholarships",
       "url": "https://www.msvu.ca/future-students/money-matters/scholarships-awards/undergraduate-scholarships/"
+    },
+    {
+      "label": "MSVU — admission requirements for US-curriculum applicants",
+      "url": "https://www.msvu.ca/future-students/admission-requirements/international-students/"
     }
   ],
   "verification": {
@@ -12983,11 +13092,11 @@ window.UNIPATH.universities.push(
       "deadlines",
       "English requirements",
       "scholarships",
-      "application fee"
+      "application fee",
+      "test policy"
     ],
     "unconfirmed": [
       "international tuition (conflicting figures)",
-      "test policy",
       "requirements for Uzbekistan",
       "full list of majors",
       "founding year"
@@ -13442,8 +13551,11 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not checked on the pages read."
+      "policy": "optional",
+      "note": "TRU’s page for American students: “No SAT or ACT scores required”; admission is based on high school prerequisite courses in most programmes.",
+      "source": "https://www.tru.ca/truworld/future-students/usa.html",
+      "verified": "2026-10-20",
+      "label": "SAT/ACT not required"
     },
     "act": {
       "policy": null,
@@ -13570,6 +13682,10 @@ window.UNIPATH.universities.push(
     {
       "label": "TRU — English for Academic Purposes: levels and academic entry requirement",
       "url": "https://www.tru.ca/edsw/schools-and-departments/ellt/eap/regulations.html"
+    },
+    {
+      "label": "TRU — admission requirements for US-curriculum applicants",
+      "url": "https://www.tru.ca/truworld/future-students/usa.html"
     }
   ],
   "verification": {
@@ -13578,11 +13694,11 @@ window.UNIPATH.universities.push(
       "deadlines",
       "application fee",
       "scholarships",
-      "English requirements"
+      "English requirements",
+      "test policy"
     ],
     "unconfirmed": [
       "tuition for the Fall 2027 intake",
-      "test policy",
       "requirements for Uzbekistan",
       "full list of majors",
       "founding year"
@@ -14490,8 +14606,11 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not checked on the pages read."
+      "policy": "optional",
+      "note": "“Standardized tests like SAT or ACT are not required for admission.” Home-schooled applicants who cannot meet the requirements may be asked for SAT scores.",
+      "source": "https://www.capilanou.ca/programs--courses/get-started/parents-families--supporters/faqs/",
+      "verified": "2026-10-20",
+      "label": "SAT/ACT not required"
     },
     "act": {
       "policy": null,
@@ -14581,6 +14700,10 @@ window.UNIPATH.universities.push(
     {
       "label": "CapU — funding for international students",
       "url": "https://www.capilanou.ca/admissions/fees--finances/financial-aid--awards/funding-for-international-students/"
+    },
+    {
+      "label": "CapU — admission requirements for US-curriculum applicants",
+      "url": "https://www.capilanou.ca/programs--courses/get-started/parents-families--supporters/faqs/"
     }
   ],
   "verification": {
@@ -14589,11 +14712,11 @@ window.UNIPATH.universities.push(
       "application fee",
       "English requirements",
       "tuition",
-      "scholarships"
+      "scholarships",
+      "test policy"
     ],
     "unconfirmed": [
       "general fall 2027 application deadline",
-      "test policy",
       "requirements for Uzbekistan",
       "full list of majors",
       "founding year"
@@ -15876,8 +15999,10 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not checked on the pages read."
+      "policy": "optional",
+      "note": "Standardized tests (SAT, ACT) are not required but will be considered if submitted. Some programme pages give guideline scores.",
+      "source": "https://www.uvic.ca/undergraduate/info-for/us-students/index.php",
+      "verified": "2026-10-20"
     },
     "act": {
       "policy": null,
@@ -15980,6 +16105,10 @@ window.UNIPATH.universities.push(
     {
       "label": "UVic — entrance scholarships",
       "url": "https://www.uvic.ca/safa/scholarships/entrance-scholarships/index.php"
+    },
+    {
+      "label": "UVic — admission requirements for US-curriculum applicants",
+      "url": "https://www.uvic.ca/undergraduate/info-for/us-students/index.php"
     }
   ],
   "verification": {
@@ -15989,10 +16118,10 @@ window.UNIPATH.universities.push(
       "application fee",
       "English requirements",
       "tuition",
-      "scholarships"
+      "scholarships",
+      "test policy"
     ],
     "unconfirmed": [
-      "test policy",
       "requirements for Uzbekistan",
       "full list of majors",
       "founding year"
