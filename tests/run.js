@@ -475,6 +475,14 @@ DB.universities.forEach(function (u) {
 });
 ok(!missingFiles.length, 'every listed photo and thumbnail exists on disk', missingFiles.slice(0, 5).join(', '));
 ok(!noCredit.length, 'every photo has a title, author, licence and source page', noCredit.slice(0, 5).join(', '));
+var offCommons = [];
+DB.universities.forEach(function (u) {
+  ((u.photos && u.photos.gallery) || []).forEach(function (x) {
+    var commons = /^https:\/\/commons\.wikimedia\.org\//.test(x.page);
+    if (commons ? x.source : !(x.source && /^©/.test(x.license))) offCommons.push(u.id);
+  });
+});
+ok(!offCommons.length, 'a photo not from Wikimedia Commons names its source and carries a © notice (Capilano: from the university’s own page)', offCommons.join(', '));
 console.log('   without a photo (placeholder shown): ' + DB.universities.filter(function (u) { return !((u.photos && u.photos.gallery) || []).length; }).map(function (u) { return u.id; }).join(', '));
 
 /* ---------------- corrections after the expansion (v111) ----------------

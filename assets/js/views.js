@@ -262,7 +262,7 @@
         '<p>A field tag is a broad subject area, not a named major. For US institutions the tags are checked against the bachelor’s degrees each institution reports as conferred, by area, in section J of its Common Data Set. A tag stays when degrees were conferred in that area or when the institution’s own programme list shows a major; a tag that nothing backs is taken off and the profile says why; an area with at least 1% of bachelor’s degrees is added. Economics is not reported as a separate area there, so it cannot be checked this way. Where the table could not be read, the profile says the tags are not checked.</p>' +
 
         '<h3>Photographs</h3>' +
-        '<p>Campus photographs come from Wikimedia Commons under free licences, and every photo is credited to its author on the university profile.</p>' +
+        '<p>Campus photographs come from Wikimedia Commons under free licences, and every photo is credited to its author on the university profile. Where Commons has no usable photo, a photo from the university’s own website may be shown instead, marked © with a link to its page.</p>' +
 
         '<h2 style="margin-top:36px">Found a mistake?</h2>' +
         reportError() +
