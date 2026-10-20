@@ -692,6 +692,12 @@ group('Canada');
   var uv = U.uniById('university-of-victoria');
   ok(uv && uv.verified !== null && (DB.match.annualCost || {})['university-of-victoria'] && uv.scholarships.merit[0].amount.indexOf('15,000') > -1 && DB.universities.filter(function (u) { return u.country === 'ca'; }).length === 50,
     'University of Victoria is added once its site answered (19 October 2026): Canada now has all 50 listed universities');
+  var feeNow = { 'dalhousie-university': 70, 'simon-fraser-university': 130, 'university-of-manitoba': 130, 'mount-allison-university': 125, 'saint-marys-university': 100,
+    'bishops-university': 75, 'mount-saint-vincent-university': 80, 'mount-royal-university': 100, 'laurentian-university': 156 };
+  var feeBad = Object.keys(feeNow).filter(function (id) { var f = U.uniById(id).admissions.applicationFee; return f.amount !== feeNow[id] || f.verified !== '2026-10-20' || !/^https:/.test(f.source); });
+  var engBad = ['st-francis-xavier-university', 'university-of-lethbridge', 'thompson-rivers-university'].filter(function (id) {
+    var u = U.uniById(id); return U.ieltsMin(u) !== 6.5 || !u.english.source || u.verification.unconfirmed.some(function (x) { return /English/.test(x); }); });
+  ok(!feeBad.length && !engBad.length, 'gaps filled on 20 October 2026: application fees of nine universities and English minimums of StFX, Lethbridge and TRU, each with its page', feeBad.concat(engBad).join(', '));
   var ruBox = { window: {} }; vm.createContext(ruBox);
   vm.runInContext(fs.readFileSync(path.join(ROOT, 'data/i18n/ru.js'), 'utf8'), ruBox);
   var noRuCity = DB.universities.filter(function (u) { return u.city && !ruBox.window.UNIPATH_I18N.ru[u.city]; }).map(function (u) { return u.city; });

@@ -5,7 +5,6 @@
    pages do not state stays null. Amounts are Canadian dollars.
    ============================================================ */
 window.UNIPATH.universities.push(
-
 {
   "id": "university-of-toronto",
   "name": "University of Toronto",
@@ -4023,13 +4022,13 @@ window.UNIPATH.universities.push(
       }
     ],
     "applicationFee": {
-      "amount": null,
+      "amount": 70,
       "currency": "CAD",
       "waiverAvailableToInternational": null,
       "waiver": null,
-      "note": "The amount was not found on the pages read.",
-      "source": "https://www.dal.ca/admissions/",
-      "verified": "2026-10-15"
+      "note": "Non-refundable admissions application fee; it must be paid to be considered for entrance awards.",
+      "source": "https://www.dal.ca/admissions/scholarships-financial-aid/scholarships/future-undergraduate-student-awards.html",
+      "verified": "2026-10-20"
     },
     "documents": [
       "Online application",
@@ -4224,10 +4223,10 @@ window.UNIPATH.universities.push(
       "English requirements",
       "tuition",
       "scholarships",
-      "requirements for Uzbekistan"
+      "requirements for Uzbekistan",
+      "application fee"
     ],
     "unconfirmed": [
-      "application fee",
       "test policy",
       "full list of majors",
       "founding year"
@@ -4408,13 +4407,13 @@ window.UNIPATH.universities.push(
       }
     ],
     "applicationFee": {
-      "amount": null,
+      "amount": 130,
       "currency": "CAD",
       "waiverAvailableToInternational": null,
       "waiver": null,
-      "note": "Paid through EducationPlannerBC; the amount was not read.",
-      "source": "https://www.sfu.ca/students/admission/apply/dates-deadlines/high-school/fall-term.html",
-      "verified": "2026-10-15"
+      "note": "International students; non-refundable, paid online by credit card (domestic C$86).",
+      "source": "https://www.sfu.ca/students/admission/apply.html",
+      "verified": "2026-10-20"
     },
     "documents": [
       "EducationPlannerBC application",
@@ -4583,10 +4582,10 @@ window.UNIPATH.universities.push(
       "English requirements",
       "test policy",
       "costs",
-      "scholarships"
+      "scholarships",
+      "application fee"
     ],
     "unconfirmed": [
-      "application fee",
       "requirements for Uzbekistan",
       "full list of majors",
       "founding year"
@@ -5326,13 +5325,13 @@ window.UNIPATH.universities.push(
       }
     ],
     "applicationFee": {
-      "amount": null,
+      "amount": 130,
       "currency": "CAD",
       "waiverAvailableToInternational": null,
       "waiver": null,
-      "note": "The amount was not found on the pages read.",
-      "source": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/international-admission-requirements",
-      "verified": "2026-10-15"
+      "note": "International students, for each application; non-refundable (domestic C$100). The application is evaluated only after the fee is received.",
+      "source": "https://umanitoba.ca/explore/undergraduate-admissions/learn-how-apply",
+      "verified": "2026-10-20"
     },
     "documents": [
       "Online application",
@@ -5520,11 +5519,11 @@ window.UNIPATH.universities.push(
       "English requirements",
       "tuition rates",
       "requirements for Uzbekistan",
-      "scholarships"
+      "scholarships",
+      "application fee"
     ],
     "unconfirmed": [
       "application deadline for autumn 2027",
-      "application fee",
       "test policy",
       "full list of majors",
       "founding year"
@@ -10974,11 +10973,32 @@ window.UNIPATH.universities.push(
     "notes": []
   },
   "english": {
-    "ielts": null,
-    "toefl": null,
-    "duolingo": null,
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "No band below 6.0; One Skill Retake accepted."
+    },
+    "toefl": {
+      "min": 90,
+      "recommended": null,
+      "note": "iBT 90 with no band below 20; MyBest Scores accepted. A minimum on the 1–6 scale is not given.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 90,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 115,
+      "recommended": null,
+      "note": "No integrated subscore below 100."
+    },
     "waiver": null,
-    "note": "Not confirmed: the official English-requirements page was not read (third-party summaries quote IELTS 6.5 and TOEFL 90, which are not used here). StFX may require proof of English from any applicant."
+    "note": "MET 55; CAEL 70 (60 in each band); C1 Advanced or C2 Proficiency 180 (170 in each); PTE Academic 60 (50 in each); Oxford ELLT 7 (6 in each). Results must be at most two years old when you apply. StFX may ask any applicant for proof of English.",
+    "source": "https://www.stfx.ca/applications-admissions/admissions-information/admission-requirements/high-school",
+    "verified": "2026-10-20"
   },
   "academics": {
     "gpa": null,
@@ -11108,6 +11128,10 @@ window.UNIPATH.universities.push(
     {
       "label": "StFX — McKenna Scholars Program",
       "url": "https://www.stfx.ca/mckennascholars"
+    },
+    {
+      "label": "StFX — admission requirements and English language requirements",
+      "url": "https://www.stfx.ca/applications-admissions/admissions-information/admission-requirements/high-school"
     }
   ],
   "verification": {
@@ -11115,10 +11139,10 @@ window.UNIPATH.universities.push(
     "checked": [
       "deadlines",
       "costs",
-      "scholarships"
+      "scholarships",
+      "English requirements"
     ],
     "unconfirmed": [
-      "English requirements",
       "application fee",
       "test policy",
       "requirements for Uzbekistan",
@@ -11268,13 +11292,13 @@ window.UNIPATH.universities.push(
       }
     ],
     "applicationFee": {
-      "amount": null,
+      "amount": 125,
       "currency": "CAD",
       "waiverAvailableToInternational": null,
       "waiver": null,
-      "note": "The amount was not found on the pages read.",
-      "source": "https://mta.ca/admissions/how-apply",
-      "verified": "2026-10-17"
+      "note": "International students, paid by Visa or MasterCard (Canadian citizens and permanent residents C$50).",
+      "source": "https://mta.ca/admissions/you-apply",
+      "verified": "2026-10-20"
     },
     "documents": [
       "Mount Allison application",
@@ -11464,10 +11488,10 @@ window.UNIPATH.universities.push(
       "deadlines",
       "English requirements",
       "costs",
-      "scholarships"
+      "scholarships",
+      "application fee"
     ],
     "unconfirmed": [
-      "application fee",
       "test policy",
       "requirements for Uzbekistan",
       "full list of majors",
@@ -11565,13 +11589,13 @@ window.UNIPATH.universities.push(
       }
     ],
     "applicationFee": {
-      "amount": null,
+      "amount": 100,
       "currency": "CAD",
       "waiverAvailableToInternational": null,
       "waiver": null,
-      "note": "The amount was not found on the pages read.",
+      "note": "International students (domestic C$65); payment is required before the application is processed.",
       "source": "https://www.smu.ca/future-students/admissions/cs-apply-online.html",
-      "verified": "2026-10-17"
+      "verified": "2026-10-20"
     },
     "documents": [
       "Saint Mary’s application",
@@ -11733,11 +11757,11 @@ window.UNIPATH.universities.push(
       "English requirements",
       "requirements for Uzbekistan",
       "tuition",
-      "scholarships"
+      "scholarships",
+      "application fee"
     ],
     "unconfirmed": [
       "application deadline for September 2027",
-      "application fee",
       "test policy",
       "full list of majors",
       "founding year"
@@ -11861,13 +11885,13 @@ window.UNIPATH.universities.push(
       }
     ],
     "applicationFee": {
-      "amount": null,
+      "amount": 75,
       "currency": "CAD",
       "waiverAvailableToInternational": null,
       "waiver": null,
-      "note": "The amount was not found on the pages read.",
-      "source": "https://www.ubishops.ca/admissions/bishops-university-online-application/",
-      "verified": "2026-10-17"
+      "note": "Non-refundable.",
+      "source": "https://www.ubishops.ca/future-students/admission-process/",
+      "verified": "2026-10-20"
     },
     "documents": [
       "Bishop’s online application",
@@ -12041,10 +12065,10 @@ window.UNIPATH.universities.push(
       "English requirements",
       "test policy",
       "tuition",
-      "scholarships"
+      "scholarships",
+      "application fee"
     ],
     "unconfirmed": [
-      "application fee",
       "requirements for Uzbekistan",
       "full list of majors",
       "founding year"
@@ -12214,11 +12238,37 @@ window.UNIPATH.universities.push(
     "notes": []
   },
   "english": {
-    "ielts": null,
-    "toefl": null,
-    "duolingo": null,
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "Academic or IELTS Online; at least 6.0 in each band; One Skill Retake accepted."
+    },
+    "toefl": {
+      "min": 86,
+      "recommended": null,
+      "note": "Tests before 21 January 2026: 86 with at least 20 in each section. Newer tests (1–6 scale): 4.5 with at least 4.5 in each section.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 86,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 120,
+      "recommended": null,
+      "note": "At least 110 in each subscore."
+    },
     "waiver": null,
-    "note": "Accepted tests: TOEFL, IELTS, PTE, CAEL, Cambridge CAE/CPE, MELAB or the university’s EAP programme. The minimum scores are not given on the page read."
+    "note": "Requirements published for the 2027/2028 academic year. PTE Academic 61 (60 in each part); CAEL 70 (60 in each); Cambridge C1 Advanced or C2 Proficiency 176 (176 in each). Tests must be at most two years old when you apply; English must be met by 1 August for September entry. Health Sciences also ask for spoken English.",
+    "source": "https://www.ulethbridge.ca/ross/admissions/elp",
+    "verified": "2026-10-20"
   },
   "academics": {
     "gpa": null,
@@ -12336,6 +12386,10 @@ window.UNIPATH.universities.push(
     {
       "label": "ULethbridge — international / English",
       "url": "https://www.ulethbridge.ca/future-student/international-elp"
+    },
+    {
+      "label": "ULethbridge — English language proficiency for undergraduate students",
+      "url": "https://www.ulethbridge.ca/ross/admissions/elp"
     }
   ],
   "verification": {
@@ -12343,10 +12397,10 @@ window.UNIPATH.universities.push(
     "checked": [
       "deadlines",
       "application fee",
-      "costs"
+      "costs",
+      "English test minimums"
     ],
     "unconfirmed": [
-      "English test minimums",
       "international entrance scholarships",
       "test policy",
       "requirements for Uzbekistan",
@@ -12768,13 +12822,13 @@ window.UNIPATH.universities.push(
       }
     ],
     "applicationFee": {
-      "amount": null,
+      "amount": 80,
       "currency": "CAD",
       "waiverAvailableToInternational": null,
       "waiver": null,
-      "note": "The amount was not found on the pages read.",
+      "note": "International (visa) applicants; non-refundable (domestic C$40).",
       "source": "https://www.msvu.ca/future-students/apply-now/undergraduate-application/",
-      "verified": "2026-10-17"
+      "verified": "2026-10-20"
     },
     "documents": [
       "MSVU application",
@@ -12928,11 +12982,11 @@ window.UNIPATH.universities.push(
     "checked": [
       "deadlines",
       "English requirements",
-      "scholarships"
+      "scholarships",
+      "application fee"
     ],
     "unconfirmed": [
       "international tuition (conflicting figures)",
-      "application fee",
       "test policy",
       "requirements for Uzbekistan",
       "full list of majors",
@@ -13059,13 +13113,13 @@ window.UNIPATH.universities.push(
       }
     ],
     "applicationFee": {
-      "amount": null,
+      "amount": 100,
       "currency": "CAD",
       "waiverAvailableToInternational": null,
       "waiver": null,
-      "note": "The amount was not found on the pages read.",
-      "source": "https://www.mtroyal.ca/Admission/Apply/index.htm",
-      "verified": "2026-10-17"
+      "note": "Non-refundable; it must accompany every admission application (2026–2027 Academic Calendar).",
+      "source": "https://catalog.mtroyal.ca/content.php?catoid=38&navoid=3084",
+      "verified": "2026-10-20"
     },
     "documents": [
       "Mount Royal application",
@@ -13219,10 +13273,10 @@ window.UNIPATH.universities.push(
       "deadlines",
       "English requirements",
       "tuition",
-      "scholarships"
+      "scholarships",
+      "application fee"
     ],
     "unconfirmed": [
-      "application fee",
       "test policy",
       "requirements for Uzbekistan",
       "full list of majors",
@@ -13362,11 +13416,28 @@ window.UNIPATH.universities.push(
     "notes": []
   },
   "english": {
-    "ielts": null,
-    "toefl": null,
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "No band below 6.0."
+    },
+    "toefl": {
+      "min": 88,
+      "recommended": null,
+      "note": "iBT 88 with no section below 20. A minimum on the 1–6 scale is not given.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 88,
+          "recommended": null
+        }
+      ]
+    },
     "duolingo": null,
     "waiver": null,
-    "note": "Not confirmed: TRU’s international English page showed no figures when read. Other TRU pages and third-party summaries quote IELTS 6.5 and TOEFL 88, which are not used here."
+    "note": "The academic programme entry requirement on TRU’s English for Academic Purposes page: also TOEFL PBT 570 (TWE 4.5), CAEL 70 (60 in each subtest), PTE 58 or TRU EAP Level 5. Some programmes ask for more.",
+    "source": "https://www.tru.ca/edsw/schools-and-departments/ellt/eap/regulations.html",
+    "verified": "2026-10-20"
   },
   "academics": {
     "gpa": null,
@@ -13495,6 +13566,10 @@ window.UNIPATH.universities.push(
     {
       "label": "TRU — scholarships for international students",
       "url": "https://www.tru.ca/truworld/future-students/scholarships.html"
+    },
+    {
+      "label": "TRU — English for Academic Purposes: levels and academic entry requirement",
+      "url": "https://www.tru.ca/edsw/schools-and-departments/ellt/eap/regulations.html"
     }
   ],
   "verification": {
@@ -13502,11 +13577,11 @@ window.UNIPATH.universities.push(
     "checked": [
       "deadlines",
       "application fee",
-      "scholarships"
+      "scholarships",
+      "English requirements"
     ],
     "unconfirmed": [
       "tuition for the Fall 2027 intake",
-      "English requirements",
       "test policy",
       "requirements for Uzbekistan",
       "full list of majors",
@@ -14625,13 +14700,13 @@ window.UNIPATH.universities.push(
       }
     ],
     "applicationFee": {
-      "amount": null,
+      "amount": 156,
       "currency": "CAD",
       "waiverAvailableToInternational": null,
       "waiver": null,
-      "note": "International applicants use Laurentian’s own form; the fee amount was not shown on the page read. Ontario high school students apply through OUAC.",
-      "source": "https://laurentian.ca/apply/international-undergraduate-applicants",
-      "verified": "2026-10-17"
+      "note": "Admission fee for international undergraduate students, 2026–2027 (Laurentian’s own form). Applicants through OUAC pay OUAC’s fees instead.",
+      "source": "https://laurentian.ca/academics/fees-financing/other-fees",
+      "verified": "2026-10-20"
     },
     "documents": [
       "Laurentian application",
@@ -14803,10 +14878,10 @@ window.UNIPATH.universities.push(
       "English requirements",
       "French requirement",
       "tuition",
-      "scholarships"
+      "scholarships",
+      "application fee"
     ],
     "unconfirmed": [
-      "application fee",
       "test policy",
       "requirements for Uzbekistan",
       "full list of majors",
