@@ -916,3 +916,8 @@ Community colleges:
 - С разрешения пользователя скачаны 7 свободных снимков с Wikimedia Commons: **Loyola University Maryland** (Humanities Building, DeChiaro College Center, здание приёмной комиссии), **Yamanashi Gakuin** (Crystal Tower и два корпуса кампуса), **Whitecliffe (бывш. Berlin International)** — здание по адресу вуза Salzufer 6 (адрес сверен с сайтом вуза).
 - **Без фото остаются:** Olin (на Commons только снимки людей и одноимённых зданий других вузов), Temple University Japan (только вывеска на прежнем кампусе в Адзабу), SRH Berlin (кампус на Sonnenallee 221 — снимков нет), Karlshochschule (только портрет).
 - Тесты 213.
+
+## Windsor: плата 2026–27 (2026-10-21, v136, сначала на тестовом сайте)
+- Калькулятор платы Windsor (Tuition Fee Estimator) открылся в браузере: «approved fees for 2026-2027», иностранцы, очно, бакалавриат — базовая плата **C$16,500 за семестр** (Arts, Humanities, Social Science) и **C$18,750** (Computer Science), осень и зима одинаково. «Estimated Total» калькулятора (C$19,336.42 / C$21,593.92) — сумма всех строк, включая co-op «если применимо», сборы чужих факультетов и годовые платежи, поэтому итогом не называется. В подборе — плата за два семестра C$33,000–C$37,500 с пометкой «расчёт UniPath».
+- **UNB:** таблицы 2026–27 есть только в PDF по программам — ждут разрешения на скачивание.
+- Инструмент `tools/ca50_gaps5.py`, новый тест. Тесты 214.

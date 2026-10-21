@@ -7906,18 +7906,49 @@ window.UNIPATH.universities.push(
   },
   "costs": {
     "breakdown": {
-      "includes": "nothing confirmed"
+      "includes": "base tuition for one term; fees listed separately as printed",
+      "tuition": 16500,
+      "period": "semester"
     },
-    "academicYear": null,
+    "academicYear": "2026–2027",
     "currency": "CAD",
-    "studentCategory": "International undergraduates",
+    "studentCategory": "International undergraduates, full time, one term (Fall or Winter)",
     "source": "https://www.uwindsor.ca/finance/fee-estimator",
-    "verified": "2026-10-16",
-    "headline": "Not read",
-    "items": [],
+    "verified": "2026-10-21",
+    "headline": "C$16,500–C$18,750 tuition a term (2026–27)",
+    "items": [
+      {
+        "label": "Base tuition — Arts, Humanities, Social Science (each term)",
+        "amount": 16500
+      },
+      {
+        "label": "Base tuition — Computer Science (each term)",
+        "amount": 18750
+      },
+      {
+        "label": "International health insurance (once per academic year)",
+        "amount": 985.09
+      },
+      {
+        "label": "UWSA bus pass (once per academic year)",
+        "amount": 316.48
+      },
+      {
+        "label": "UWSA drug plan (once per academic year)",
+        "amount": 251
+      },
+      {
+        "label": "UWSA dental plan (once per academic year)",
+        "amount": 174
+      },
+      {
+        "label": "Co-op fee for international students (if applicable, each term)",
+        "amount": 601
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": "The fee estimator gives 2026–27 fees per term but did not run on the pages read",
-    "note": "The university states that base tuition stays stable for the programme’s duration for all international students except those on the US Neighbour rate."
+    "totalText": "Approved 2026–27 fees: base tuition is C$16,500 a term in Arts, Humanities and Social Science and C$18,750 in Computer Science. The estimator’s per-term “Estimated Total” (C$19,336.42 and C$21,593.92) adds every listed fee, including co-op and fees charged once a year or only in some faculties, so it is not used as a total here.",
+    "note": "Smaller per-term fees (recreation, wellness, UWinCard, student societies) come to a few hundred dollars. Base tuition stays stable for the programme’s duration for international students (except the US Neighbour rate). Housing and food are extra."
   },
   "scholarships": {
     "fullRide": {
@@ -8000,10 +8031,10 @@ window.UNIPATH.universities.push(
       "deadlines",
       "scholarships",
       "test policy",
-      "English requirements"
+      "English requirements",
+      "tuition"
     ],
     "unconfirmed": [
-      "tuition",
       "application fee",
       "requirements for Uzbekistan",
       "full list of majors",
