@@ -16348,4 +16348,7 @@ window.UNIPATH_I18N.ru = {
   "International undergraduates, Main Campus, 2026–27 (the page says current academic year)": "Иностранцы в бакалавриате, основной кампус, 2026–27 (на странице — «текущий учебный год»)",
   "Non-resident on campus, 2026–27 cost of attendance": "Нерезидент в общежитии, стоимость 2026–27",
   "First-year on campus, 2026–27 cost of attendance": "Первокурсник в общежитии, стоимость 2026–27",
+  "Salzufer 6, Berlin-Charlottenburg — the building at the university’s address": "Salzufer 6, Берлин-Шарлоттенбург — здание по адресу университета",
+  "Humanities Building Loyola": "Humanities Building, Loyola",
+  "Yamanashi Gakuin University crystal tower": "Yamanashi Gakuin University, Crystal Tower",
 };
