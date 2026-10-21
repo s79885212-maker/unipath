@@ -1,12 +1,20 @@
-# Publishes the site to GitHub Pages on every push to main.
-# The site is built exactly as on Netlify (python3 build-artifact.py);
-# BASE_PATH and SITE_URL tell the static pages where they will live.
-# With a custom domain later, set BASE_PATH to "/" and SITE_URL to the domain.
+# Publishes two copies of the site to GitHub Pages:
+#   branch main → https://s79885212-maker.github.io/unipath/          (the public site)
+#   branch dev  → https://s79885212-maker.github.io/unipath/staging/  (test copy, noindex)
+# Day-to-day changes go to dev; the public site changes only when dev is merged into main.
+# A push to main runs this directly; a push to dev runs "Staging check" (the tests) first,
+# and this workflow runs when that check succeeds (it then deploys from main, so the
+# github-pages environment's branch rule is respected). Both copies are rebuilt each time.
+# The site is built as on Netlify (python3 build-artifact.py); BASE_PATH and SITE_URL tell
+# the static pages where they live, STAGING=1 marks the test copy.
 name: Deploy to GitHub Pages
 
 on:
   push:
     branches: [main]
+  workflow_run:
+    workflows: ["Staging check"]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -20,23 +28,44 @@ concurrency:
 
 jobs:
   build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: site
+      - id: dev
+        uses: actions/checkout@v4
+        continue-on-error: true
+        with:
+          ref: dev
+          path: staging-src
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - name: Build the site
+      - name: Build the public site (main)
+        working-directory: site
         env:
           BASE_PATH: /unipath/
           SITE_URL: https://s79885212-maker.github.io/unipath
         run: python3 build-artifact.py
+      - name: Build the test copy (dev) under /staging/
+        if: steps.dev.outcome == 'success'
+        working-directory: staging-src
+        env:
+          BASE_PATH: /unipath/staging/
+          SITE_URL: https://s79885212-maker.github.io/unipath/staging
+          STAGING: '1'
+        run: |
+          python3 build-artifact.py
+          cp -R dist ../site/dist/staging
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: site/dist
 
   deploy:
     needs: build

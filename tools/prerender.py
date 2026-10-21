@@ -32,6 +32,26 @@ import tempfile
 SITE_URL = os.environ.get("SITE_URL", "https://unipath-edu.netlify.app").rstrip("/")
 BASE = "/" + os.environ.get("BASE_PATH", "/").strip("/") + "/" if os.environ.get("BASE_PATH", "/").strip("/") else "/"
 SITE = SITE_URL
+# STAGING=1 builds the test copy (branch dev, published under /staging/):
+# every page is marked noindex and carries a "test version" bar, and no sitemap is written.
+STAGING = os.environ.get("STAGING") == "1"
+STAGING_BAR = ('<div role="note" style="position:sticky;top:0;z-index:1000;background:#b45309;color:#fff;'
+               'font:600 13px/1.4 system-ui,sans-serif;text-align:center;padding:6px 12px">'
+               'Test version (staging) &mdash; not the public site &middot; Тестовая версия, не основной сайт</div>')
+
+
+def mark_staging(dist):
+    """Mark every HTML page of the test copy: noindex for search engines and a visible bar."""
+    n = 0
+    for page in dist.rglob("*.html"):
+        text = page.read_text(encoding="utf-8")
+        if 'name="robots"' not in text:
+            text = re.sub(r'(<meta charset="utf-8"\s*/?>)', r'\1\n    <meta name="robots" content="noindex, nofollow">', text, count=1)
+        if STAGING_BAR not in text:
+            text = re.sub(r'(<body[^>]*>)', lambda m: m.group(1) + STAGING_BAR, text, count=1)
+        page.write_text(text, encoding="utf-8")
+        n += 1
+    return n
 
 DATA_FILES = [
     "data/registry.js",
@@ -530,6 +550,10 @@ def build(root: pathlib.Path, dist: pathlib.Path) -> int:
             text = text[:charset.end()] + f'\n    <link rel="canonical" href="{SITE}/">' + text[charset.end():]
         home.write_text(text, encoding="utf-8")
 
+    if STAGING:
+        (dist / "robots.txt").write_text("User-agent: *\nDisallow: /\n", encoding="utf-8")
+        print(f"prerender: staging copy, {mark_staging(dist)} pages marked noindex")
+        return written
     (dist / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"  <url><loc>{e(x)}</loc></url>\n" for x in urls) + "</urlset>\n", encoding="utf-8")

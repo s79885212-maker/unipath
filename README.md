@@ -21,6 +21,24 @@ python3 -m http.server 8777
 
 Then open <http://127.0.0.1:8777>.
 
+## Test copy and releases (GitHub Pages)
+
+| Branch | Address | What it is |
+|---|---|---|
+| `dev` | <https://s79885212-maker.github.io/unipath/staging/> | test copy — every change lands here first; marked noindex and with a "test version" bar |
+| `main` | <https://s79885212-maker.github.io/unipath/> | the public site — changes only on a release |
+
+- Day-to-day work is committed to `dev` and pushed. The "Staging check" workflow runs
+  `node tests/run.js`; when it passes, "Deploy to GitHub Pages" rebuilds both copies.
+- A release brings everything collected on `dev` to the public site at once:
+
+  ```bash
+  git checkout main && git merge --ff-only dev && git push origin main && git checkout dev
+  ```
+
+- Both copies share one browser origin, so the language, theme and saved lists set on the
+  test copy also apply on the public site in the same browser.
+
 ## Publishing an update
 
 The published page is a single self-contained file generated from the source:

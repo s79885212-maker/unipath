@@ -1,0 +1,21 @@
+# Runs the tests on every push to dev. When they pass, "Deploy to GitHub Pages"
+# rebuilds the site and publishes dev as the test copy under /unipath/staging/.
+name: Staging check
+
+on:
+  push:
+    branches: [dev]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Tests
+        run: node tests/run.js
