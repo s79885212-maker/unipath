@@ -592,10 +592,16 @@ group('corrections after the expansion');
   /* Deep Springs has no year by nature (aid, not a price list); the others are
      records whose page gave figures without naming the academic year — a gap
      the profiles state. The list may only shrink. */
-  var noYearKnown = ['deep-springs-college', 'university-of-cincinnati', 'seattle-university', 'university-of-arizona', 'university-of-washington', 'xavier-university', 'american-university'];
+  var noYearKnown = ['deep-springs-college', 'american-university'];
   var bareNew = bare.filter(function (id) { return noYearKnown.indexOf(id) < 0; });
   ok(!bareNew.length, 'every cost breakdown of an added record names its year, student category, source and check date (known gaps apart)', bareNew.join(', '));
   console.log('   cost figures without a named academic year: ' + bare.filter(function (id) { return id !== 'deep-springs-college'; }).join(', '));
+  var slc = U.uniById('sarah-lawrence-college'), les = U.uniById('lesley-university');
+  ok(slc.admissions.deadlines.filter(function (d) { return d.entryYear === '2027' && d.status === 'confirmed' && d.dateISO; }).length === 4 &&
+     les.admissions.deadlines.every(function (d) { return d.status === 'previous-cycle' && d.verified === '2026-10-21'; }),
+    '12.6: Sarah Lawrence’s four rounds for autumn 2027 are confirmed (2025 tax returns on the aid page); Lesley, re-checked on 21 October 2026, still shows fall 2026 only');
+  ok(['university-of-cincinnati', 'university-of-arizona', 'xavier-university'].every(function (id) { return U.uniById(id).costs.academicYear === '2026–2027'; }),
+    'Cincinnati, Arizona and Xavier: cost figures now name 2026–2027 from the universities’ own cost pages');
   var kc2 = bud('kenyon-college', 96000);
   ok(kc2.status === 'conflict' && /needs checking/.test(kc2.text), 'Kenyon: a budget between the two official totals is still a source conflict');
   /* Dates and test policies (v113). */

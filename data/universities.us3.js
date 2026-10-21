@@ -2365,49 +2365,64 @@ window.UNIPATH.universities.push(
     ],
     "deadlines": [
       {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Not binding. Decision by late December; no deposit needed before 1 May.",
+        "status": "confirmed",
+        "source": "https://www.sarahlawrence.edu/financial-aid/undergraduate/deadlines.html",
+        "verified": "2026-10-21",
+        "note": "The pages print these dates without a year. Sarah Lawrence’s financial-aid deadlines page lists them with 2025 tax returns, which belong to the cycle for autumn 2027 entry (the older admission deadlines page still mentions 2024 returns). Read on 21 October 2026."
+      },
+      {
         "name": "Early Decision I",
         "kind": "ED",
         "entryTerm": "Autumn",
-        "entryYear": "2026",
-        "dateISO": "2025-11-01",
-        "date": "1 November 2025",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
         "binding": true,
         "appliesTo": "First-year applicants",
         "conditions": "Binding. Decision in late December.",
-        "status": "previous-cycle",
-        "source": "https://www.sarahlawrence.edu/admission/apply/deadlines.html",
-        "verified": "2026-10-12",
-        "note": "The deadlines page still asks aid applicants for 2024 tax returns, so it describes the previous cycle; the dates for autumn 2027 entry had not been republished when this was read."
+        "status": "confirmed",
+        "source": "https://www.sarahlawrence.edu/financial-aid/undergraduate/deadlines.html",
+        "verified": "2026-10-21",
+        "note": "The pages print these dates without a year. Sarah Lawrence’s financial-aid deadlines page lists them with 2025 tax returns, which belong to the cycle for autumn 2027 entry (the older admission deadlines page still mentions 2024 returns). Read on 21 October 2026."
       },
       {
         "name": "Early Decision II",
         "kind": "ED2",
         "entryTerm": "Autumn",
-        "entryYear": "2026",
-        "dateISO": "2026-01-15",
-        "date": "15 January 2026",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
         "binding": true,
         "appliesTo": "First-year applicants",
         "conditions": "Binding. Decision in early February.",
-        "status": "previous-cycle",
-        "source": "https://www.sarahlawrence.edu/admission/apply/deadlines.html",
-        "verified": "2026-10-12",
-        "note": "The deadlines page still asks aid applicants for 2024 tax returns, so it describes the previous cycle; the dates for autumn 2027 entry had not been republished when this was read."
+        "status": "confirmed",
+        "source": "https://www.sarahlawrence.edu/financial-aid/undergraduate/deadlines.html",
+        "verified": "2026-10-21",
+        "note": "The pages print these dates without a year. Sarah Lawrence’s financial-aid deadlines page lists them with 2025 tax returns, which belong to the cycle for autumn 2027 entry (the older admission deadlines page still mentions 2024 returns). Read on 21 October 2026."
       },
       {
         "name": "Regular Decision",
         "kind": "RD",
         "entryTerm": "Autumn",
-        "entryYear": "2026",
-        "dateISO": "2026-01-15",
-        "date": "15 January 2026",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Decision from late March to early April; reply by 1 May.",
-        "status": "previous-cycle",
-        "source": "https://www.sarahlawrence.edu/admission/apply/deadlines.html",
-        "verified": "2026-10-12",
-        "note": "The deadlines page still asks aid applicants for 2024 tax returns, so it describes the previous cycle; the dates for autumn 2027 entry had not been republished when this was read."
+        "status": "confirmed",
+        "source": "https://www.sarahlawrence.edu/financial-aid/undergraduate/deadlines.html",
+        "verified": "2026-10-21",
+        "note": "The pages print these dates without a year. Sarah Lawrence’s financial-aid deadlines page lists them with 2025 tax returns, which belong to the cycle for autumn 2027 entry (the older admission deadlines page still mentions 2024 returns). Read on 21 October 2026."
       },
       {
         "name": "Financial aid application for international students",
@@ -2620,6 +2635,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Sarah Lawrence — about",
       "url": "https://www.sarahlawrence.edu/about/"
+    },
+    {
+      "label": "Sarah Lawrence — financial aid requirements and deadlines",
+      "url": "https://www.sarahlawrence.edu/financial-aid/undergraduate/deadlines.html"
+    },
+    {
+      "label": "Sarah Lawrence — first-year applicants",
+      "url": "https://www.sarahlawrence.edu/admission/apply/first-year.html"
     }
   ],
   "verification": {
@@ -2630,10 +2653,10 @@ window.UNIPATH.universities.push(
       "international cost of attendance 2026–2027",
       "scholarships for international citizens",
       "founding year",
-      "list of majors"
+      "list of majors",
+      "application dates for autumn 2027 entry"
     ],
     "unconfirmed": [
-      "application dates for autumn 2027 entry",
       "application fee",
       "share of need met",
       "admission statistics"
@@ -11349,8 +11372,8 @@ window.UNIPATH.universities.push(
         "conditions": "Not binding. Decisions by 5 January. For autumn enrolment only.",
         "status": "previous-cycle",
         "source": "https://lesley.edu/admissions/undergraduate-students/how-to-apply-undergraduate",
-        "verified": "2026-10-12",
-        "note": "The page read still shows the previous cycle; the date for autumn 2027 entry is not published there yet."
+        "verified": "2026-10-21",
+        "note": "Re-checked on 21 October 2026: the page still shows the dates for fall 2026 only; the date for autumn 2027 entry is not published yet."
       },
       {
         "name": "Regular Decision",
@@ -11364,8 +11387,8 @@ window.UNIPATH.universities.push(
         "conditions": "Lesley offers rolling admission: applications after the deadline are still considered, with a decision within two weeks of a complete application.",
         "status": "previous-cycle",
         "source": "https://lesley.edu/admissions/undergraduate-students/how-to-apply-undergraduate",
-        "verified": "2026-10-12",
-        "note": "The page read still shows the previous cycle; the date for autumn 2027 entry is not published there yet."
+        "verified": "2026-10-21",
+        "note": "Re-checked on 21 October 2026: the page still shows the dates for fall 2026 only; the date for autumn 2027 entry is not published yet."
       }
     ],
     "applicationFee": {
@@ -16310,37 +16333,37 @@ window.UNIPATH.universities.push(
   "costs": {
     "breakdown": {
       "includes": "tuition and fees, health insurance, and the university’s estimate of living expenses",
-      "tuition": 30310,
+      "tuition": 31908,
       "tuitionLabel": "Tuition and fees",
-      "billed": 32831,
-      "budget": 50830
+      "billed": 34587,
+      "budget": 52899
     },
-    "academicYear": null,
+    "academicYear": "2026–2027",
     "currency": "USD",
     "studentCategory": "International undergraduates on the Main Campus",
     "source": "https://www.uc.edu/about/international/admissions/cost.html",
-    "verified": "2026-10-12",
-    "headline": "$50,830 total cost of attendance",
+    "verified": "2026-10-21",
+    "headline": "$52,899 total cost of attendance",
     "items": [
       {
         "label": "Tuition and fees",
         "group": "billed",
-        "amount": 30310
+        "amount": 31908
       },
       {
         "label": "Living expenses",
         "group": "estimate",
-        "amount": 17999
+        "amount": 18312
       },
       {
         "label": "Health insurance",
         "group": "billed",
-        "amount": 2521
+        "amount": 2679
       }
     ],
-    "billedSubtotal": 32831,
-    "totalText": "$50,830 a year on the Main Campus, of which $30,310 is tuition and fees",
-    "note": "The page labels these figures “current academic year” without naming it. Another Cincinnati page still shows 2022–2023 figures ($50,458)."
+    "billedSubtotal": 34587,
+    "totalText": "$52,899 a year on the Main Campus, of which $31,908 is tuition and fees",
+    "note": "The international page labels these figures “current academic year”; read on 21 October 2026, that is 2026–27. UC’s 2026–27 cost table gives $30,158 for a year of non-resident Uptown tuition (2026–27 cohort); the international figure also includes fees. Tuition for 2027–28 is set in June 2027."
   },
   "scholarships": {
     "fullRide": {
@@ -16408,6 +16431,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Cincinnati — official list of undergraduate programmes",
       "url": "https://webapps2.uc.edu/ecurriculum/degreeprograms/list"
+    },
+    {
+      "label": "UC — costs 2026–27",
+      "url": "https://www.uc.edu/about/financial-aid/starting/costs/costs-2027.html"
     }
   ],
   "verification": {
@@ -24237,21 +24264,21 @@ window.UNIPATH.universities.push(
   },
   "costs": {
     "breakdown": {
-      "includes": "estimated tuition and fees, housing and food, books and course materials, and travel and miscellaneous expenses",
+      "includes": "tuition and fees, housing and food, books and materials, travel and miscellaneous expenses",
       "tuition": 44400,
       "tuitionLabel": "Tuition and fees",
       "billed": 44400,
       "budget": 67770
     },
-    "academicYear": null,
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "studentCategory": "Non-Arizona residents",
-    "source": "https://www.arizona.edu/admissions/undergraduate/tuition-aid",
-    "verified": "2026-10-13",
+    "studentCategory": "Non-Arizona residents, incoming first-year students living on campus",
+    "source": "https://financialaid.arizona.edu/cost/incoming",
+    "verified": "2026-10-21",
     "headline": "$67,770 total cost of attendance",
     "items": [
       {
-        "label": "Estimated tuition and fees",
+        "label": "Tuition and fees",
         "group": "billed",
         "amount": 44400
       },
@@ -24261,19 +24288,24 @@ window.UNIPATH.universities.push(
         "amount": 17770
       },
       {
-        "label": "Books and course materials",
+        "label": "Books, course materials, supplies and equipment",
         "group": "estimate",
         "amount": 600
       },
       {
-        "label": "Travel and miscellaneous expenses",
+        "label": "Travel",
         "group": "estimate",
-        "amount": 5000
+        "amount": 2450
+      },
+      {
+        "label": "Miscellaneous",
+        "group": "estimate",
+        "amount": 2550
       }
     ],
     "billedSubtotal": 44400,
-    "totalText": "$67,770 estimated annual cost for non-Arizona residents, of which $44,400 is tuition and fees",
-    "note": "The page says the chart is “based on 2026-2026 figures” — printed that way — next to the announcement that tuition and mandatory fees are frozen for 2027–28. Health insurance is not listed."
+    "totalText": "$67,770 estimated cost of attendance for 2026–27 for non-residents living on campus, of which $44,400 is tuition and fees",
+    "note": "From the Financial Aid office’s 2026–2027 cost of attendance (fall and spring semesters). Health insurance and college fees are not included. The admissions page adds that tuition and mandatory fees are frozen for 2027–28."
   },
   "scholarships": {
     "fullRide": {
@@ -24343,6 +24375,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Arizona — SAT/ACT policy, read on 13 October 2026",
       "url": "https://www.arizona.edu/admissions/undergraduate/first-year"
+    },
+    {
+      "label": "University of Arizona — cost for incoming first-year and transfer students",
+      "url": "https://financialaid.arizona.edu/cost/incoming"
     }
   ],
   "verification": {
@@ -27835,17 +27871,18 @@ window.UNIPATH.universities.push(
   },
   "costs": {
     "breakdown": {
-      "includes": "tuition, accommodation, health insurance and other expenses, as estimated for international students",
+      "includes": "tuition, fees, on-campus housing and food, books, personal and travel expenses",
       "tuition": 54530,
-      "billed": 54530,
-      "budget": 74530
+      "tuitionLabel": "Tuition",
+      "billed": 70065,
+      "budget": 74523
     },
-    "academicYear": null,
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "studentCategory": "International undergraduates, one academic year",
-    "source": "https://www.xavier.edu/international-admission/tuition",
-    "verified": "2026-10-13",
-    "headline": "$74,530 total cost of attendance",
+    "studentCategory": "First-year students living on campus",
+    "source": "https://www.xavier.edu/financial-aid/cost-of-attendance/index",
+    "verified": "2026-10-21",
+    "headline": "$74,523 total cost of attendance",
     "items": [
       {
         "label": "Tuition",
@@ -27853,19 +27890,49 @@ window.UNIPATH.universities.push(
         "amount": 54530
       },
       {
-        "label": "Accommodations",
-        "group": "estimate",
-        "amount": 15000
+        "label": "Student activity fee",
+        "group": "billed",
+        "amount": 280
       },
       {
-        "label": "Health insurance and other expenses",
+        "label": "Student ID fee",
+        "group": "billed",
+        "amount": 30
+      },
+      {
+        "label": "Orientation fee",
+        "group": "billed",
+        "amount": 305
+      },
+      {
+        "label": "Housing and food",
+        "group": "billed",
+        "amount": 14920
+      },
+      {
+        "label": "Day One, books and supplies",
         "group": "estimate",
-        "amount": 5000
+        "amount": 700
+      },
+      {
+        "label": "Personal expenses",
+        "group": "estimate",
+        "amount": 2000
+      },
+      {
+        "label": "Transportation",
+        "group": "estimate",
+        "amount": 1700
+      },
+      {
+        "label": "Average Direct Loan fee",
+        "group": "estimate",
+        "amount": 58
       }
     ],
-    "billedSubtotal": 54530,
-    "totalText": "$74,530 total estimated cost of attendance for one academic year, of which $54,530 is the first line of the estimate",
-    "note": "The page calls this an estimate for one academic year (autumn and spring semesters) before merit scholarships and does not name the year."
+    "billedSubtotal": 70065,
+    "totalText": "$74,523 estimated cost of attendance for a first-year student on campus in 2026–27, of which $54,530 is tuition",
+    "note": "Student Financial Services’ 2026–27 estimate for fall and spring. The Direct Loan fee applies only to US federal loans. The international admission page gives its own estimate without naming the year; health insurance for international students is not in this table."
   },
   "scholarships": {
     "fullRide": {
@@ -27926,6 +27993,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Xavier — official list of undergraduate programmes",
       "url": "https://www.xavier.edu/academics/programs"
+    },
+    {
+      "label": "Xavier — cost of attendance",
+      "url": "https://www.xavier.edu/financial-aid/cost-of-attendance/index"
     }
   ],
   "verification": {

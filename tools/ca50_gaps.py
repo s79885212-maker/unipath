@@ -16,8 +16,9 @@ HEAD = 'window.UNIPATH.universities.push(\n'
 eng, toefl = us200.eng, us200.toefl
 
 
-def load():
-    s = io.open(PATH, encoding='utf-8').read()
+def load(path=PATH):
+    """Any data/universities.*.js written as JSON (Canada, the October 2026 US records)."""
+    s = io.open(path, encoding='utf-8').read()
     a = s.index(HEAD) + len(HEAD); b = s.rindex('\n);')
     recs = json.loads('[' + s[a:b] + ']')
     assert dump(recs) == s[a:b].strip(), 'layout would change'
@@ -28,8 +29,8 @@ def dump(recs):
     return ',\n\n'.join(json.dumps(r, ensure_ascii=False, indent=2) for r in recs)
 
 
-def save(head, recs, tail):
-    io.open(PATH, 'w', encoding='utf-8').write(head + dump(recs) + tail)
+def save(head, recs, tail, path=PATH):
+    io.open(path, 'w', encoding='utf-8').write(head + dump(recs) + tail)
 
 
 def checked(r, item):
