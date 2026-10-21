@@ -7862,11 +7862,32 @@ window.UNIPATH.universities.push(
     "notes": []
   },
   "english": {
-    "ielts": null,
-    "toefl": null,
-    "duolingo": null,
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "IELTS Academic or IELTS Online."
+    },
+    "toefl": {
+      "min": 83,
+      "recommended": null,
+      "note": "iBT (or Home Edition) 83 with a writing score of 20. A minimum on the 1–6 scale is not given.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 83,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 115,
+      "recommended": null,
+      "note": "Undergraduate applicants."
+    },
     "waiver": null,
-    "note": "Not confirmed: the requirements are in the Academic Calendar, which was not read. English is not needed at the time of application; conditional offers are made with the English Language Improvement Program (ELIP)."
+    "note": "Senate Policy on English Language Proficiency (merged 11 February 2022), linked from the international application page: also CAEL 60, PTE Academic 60, Cambridge CAE or CPE 176, or ELIP level III with 75%. Some programmes ask for more. English is not needed at the time of application; conditional offers are made with ELIP.",
+    "source": "https://images.e.uwindsor.ca/Web/UniversityofWindsor/%7Bb8e808b0-fabe-43af-828a-0a549a702830%7D_English_Language_Proficiency_Requirements.pdf",
+    "verified": "2026-10-21"
   },
   "academics": {
     "gpa": null,
@@ -7967,6 +7988,10 @@ window.UNIPATH.universities.push(
     {
       "label": "UWindsor — admission requirements for US-curriculum applicants",
       "url": "https://www.uwindsor.ca/studentrecruitment/415/admissions-information-us-students"
+    },
+    {
+      "label": "UWindsor — Senate Policy on English Language Proficiency (PDF)",
+      "url": "https://images.e.uwindsor.ca/Web/UniversityofWindsor/%7Bb8e808b0-fabe-43af-828a-0a549a702830%7D_English_Language_Proficiency_Requirements.pdf"
     }
   ],
   "verification": {
@@ -7974,10 +7999,10 @@ window.UNIPATH.universities.push(
     "checked": [
       "deadlines",
       "scholarships",
-      "test policy"
+      "test policy",
+      "English requirements"
     ],
     "unconfirmed": [
-      "English requirements",
       "tuition",
       "application fee",
       "requirements for Uzbekistan",
@@ -8164,8 +8189,11 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not checked on the pages read."
+      "policy": "optional",
+      "note": "2026–2027 Undergraduate Calendar: US high school applicants are admitted on graduation, the core curriculum (4 English, 3 Math, 3 laboratory science, 3 social studies, 16 credits), faculty subjects and the faculty average — no SAT or ACT is listed. Home-based learners need SAT I 1100 or ACT 24 plus one further qualifier. The calendar for 2027–2028 is not yet published.",
+      "source": "https://www.uregina.ca/registrar/assets/docs/pdf/calendar/2026-2027-u-of-r-undergraduate-calendar.pdf",
+      "verified": "2026-10-21",
+      "label": "SAT/ACT not required (home-based learners: required)"
     },
     "act": {
       "policy": null,
@@ -8293,6 +8321,10 @@ window.UNIPATH.universities.push(
     {
       "label": "U of R — English language proficiency",
       "url": "https://www.uregina.ca/admissions/undergraduate/english-language-proficiency.html"
+    },
+    {
+      "label": "University of Regina — Undergraduate Calendar 2026–2027 (PDF)",
+      "url": "https://www.uregina.ca/registrar/assets/docs/pdf/calendar/2026-2027-u-of-r-undergraduate-calendar.pdf"
     }
   ],
   "verification": {
@@ -8302,10 +8334,10 @@ window.UNIPATH.universities.push(
       "application fee",
       "English requirements",
       "costs",
-      "scholarships"
+      "scholarships",
+      "test policy"
     ],
     "unconfirmed": [
-      "test policy",
       "requirements for Uzbekistan",
       "full list of majors",
       "founding year"
@@ -11072,13 +11104,13 @@ window.UNIPATH.universities.push(
       }
     ],
     "applicationFee": {
-      "amount": null,
+      "amount": 40,
       "currency": "CAD",
       "waiverAvailableToInternational": null,
       "waiver": null,
-      "note": "The amount was not found on the pages read.",
-      "source": "https://www.stfx.ca/applications-admissions/admissions-information/key-dates-deadlines",
-      "verified": "2026-10-17"
+      "note": "Application fee for admission to undergraduate and B.Ed. programmes, 2026–2027 Academic Calendar; no separate international rate is given. After acceptance international undergraduates make a non-refundable confirmation payment of C$2,500.",
+      "source": "https://www.stfx.ca/sites/default/files/documents/2026-2027%20Academic%20Calendar_Sep25.pdf",
+      "verified": "2026-10-21"
     },
     "documents": [
       "StFX application",
@@ -11253,6 +11285,10 @@ window.UNIPATH.universities.push(
     {
       "label": "StFX — admission requirements and English language requirements",
       "url": "https://www.stfx.ca/applications-admissions/admissions-information/admission-requirements/high-school"
+    },
+    {
+      "label": "StFX — Academic Calendar 2026–2027 (PDF)",
+      "url": "https://www.stfx.ca/sites/default/files/documents/2026-2027%20Academic%20Calendar_Sep25.pdf"
     }
   ],
   "verification": {
@@ -11262,10 +11298,10 @@ window.UNIPATH.universities.push(
       "costs",
       "scholarships",
       "English requirements",
-      "test policy"
+      "test policy",
+      "application fee"
     ],
     "unconfirmed": [
-      "application fee",
       "requirements for Uzbekistan",
       "full list of majors",
       "founding year"

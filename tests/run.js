@@ -707,6 +707,10 @@ group('Canada');
   var uzBad = uzNow.filter(function (id) { var u = U.uniById(id); return !/^Uzbekistan: /.test(u.academics.internationalQualifications || '') || u.verification.unconfirmed.indexOf('requirements for Uzbekistan') > -1; });
   ok(!uzBad.length && /pages differ/.test(U.uniById('universite-laval').academics.internationalQualifications),
     'requirements for Uzbekistan read on 20 October 2026 for 11 universities; Laval’s French and English pages differ and both are shown', uzBad.join(', '));
+  var wi = U.uniById('university-of-windsor'), sx = U.uniById('st-francis-xavier-university'), rg = U.uniById('university-of-regina');
+  ok(U.ieltsMin(wi) === 6.5 && wi.english.verified === '2026-10-21' && sx.admissions.applicationFee.amount === 40 && /2026–2027 Academic Calendar/.test(sx.admissions.applicationFee.note) &&
+     rg.academics.sat.policy === 'optional' && /home-based/.test(rg.academics.sat.label),
+    'from the PDFs read on 21 October 2026: Windsor English (Senate policy), StFX fee C$40 (2026–27 calendar), Regina SAT/ACT not required except for home-based learners');
   var ruBox = { window: {} }; vm.createContext(ruBox);
   vm.runInContext(fs.readFileSync(path.join(ROOT, 'data/i18n/ru.js'), 'utf8'), ruBox);
   var noRuCity = DB.universities.filter(function (u) { return u.city && !ruBox.window.UNIPATH_I18N.ru[u.city]; }).map(function (u) { return u.city; });
