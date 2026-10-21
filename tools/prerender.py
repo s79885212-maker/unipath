@@ -35,7 +35,7 @@ SITE = SITE_URL
 # STAGING=1 builds the test copy (branch dev, published under /staging/):
 # every page is marked noindex and carries a "test version" bar, and no sitemap is written.
 STAGING = os.environ.get("STAGING") == "1"
-STAGING_BAR = ('<div role="note" style="position:sticky;top:0;z-index:1000;background:#b45309;color:#fff;'
+STAGING_BAR = ('<div role="note" style="background:#b45309;color:#fff;'
                'font:600 13px/1.4 system-ui,sans-serif;text-align:center;padding:6px 12px">'
                'Test version (staging) &mdash; not the public site &middot; Тестовая версия, не основной сайт</div>')
 
