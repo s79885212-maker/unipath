@@ -240,16 +240,10 @@ main {
   text-align: center;
 }
 .boot-mark {
-  width: 56px;
-  height: 56px;
-  border-radius: 16px;
-  background: linear-gradient(140deg, #2453a0, #122a56);
-  color: #fff;
-  display: grid;
-  place-items: center;
-  font-size: 1.5rem;
-  font-weight: 800;
-  letter-spacing: -0.03em;
+  display: block;
+  width: 72px;
+  height: 72px;
+  border-radius: 20px;
   box-shadow: 0 10px 30px rgba(18, 42, 86, 0.25);
   animation: boot-pulse 1.6s ease-in-out infinite;
 }

@@ -41,19 +41,21 @@
           if (lang !== "ru") return;
           var meta = document.querySelector('meta[name="unipath-root"]');
           var l = document.createElement("link");
-          l.rel = "preload"; l.as = "script"; l.href = (meta ? meta.content : "") + "data/i18n/ru.js?v=143";
+          l.rel = "preload"; l.as = "script"; l.href = (meta ? meta.content : "") + "data/i18n/ru.js?v=144";
           document.head.appendChild(l);
         } catch (e) {}
       })();
     </script>
-    <script src="assets/js/gate.js?v=143"></script>
-    <link rel="stylesheet" href="assets/css/styles.css?v=143" />
+    <script src="assets/js/gate.js?v=144"></script>
+    <link rel="stylesheet" href="assets/css/styles.css?v=144" />
   </head>
   <body>
     <div id="site-header"></div>
     <main id="main">
       <div class="boot" id="boot-state" role="status" aria-live="polite">
-        <div class="boot-mark" aria-hidden="true"><span>UP</span></div>
+        <!-- An image (not a styled box): Safari on iPhone and iPad paints a page only once it
+             holds enough text or a large enough image, so the mark makes the loading screen show. -->
+        <img class="boot-mark" width="72" height="72" alt="" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='72' height='72' viewBox='0 0 72 72'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%232453a0'/%3E%3Cstop offset='1' stop-color='%23122a56'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='72' height='72' rx='20' fill='url(%23g)'/%3E%3Ctext x='36' y='46.5' text-anchor='middle' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='30' font-weight='800' letter-spacing='-1' fill='%23fff'%3EUP%3C/text%3E%3C/svg%3E" />
         <p class="boot-name">UniPath</p>
         <div class="boot-bar" aria-hidden="true"><span></span></div>
         <p class="boot-text" id="boot-text">Loading universities…</p>
@@ -75,24 +77,24 @@
     </main>
     <div id="site-footer"></div>
 
-    <script src="data/registry.js?v=143"></script>
-    <script src="data/countries.js?v=143"></script>
-    <script src="data/universities.us.js?v=143"></script>
-    <script src="data/universities.us2.js?v=143"></script>
-    <script src="data/universities.us3.js?v=143"></script>
-    <script src="data/universities.jp.js?v=143"></script>
-    <script src="data/universities.kr.js?v=143"></script>
-    <script src="data/universities.uk.js?v=143"></script>
-    <script src="data/universities.de.js?v=143"></script>
-    <script src="data/universities.ca.js?v=143"></script>
-    <script src="data/photos.js?v=143"></script>
-    <script src="data/admission-profiles.js?v=143"></script>
-    <script src="data/degrees.js?v=143"></script>
-    <script src="data/test-policy.js?v=143"></script>
-    <script src="data/english-details.js?v=143"></script>
-    <script src="data/award-details.js?v=143"></script>
-    <script src="data/news.js?v=143"></script>
-    <script src="data/match.js?v=143"></script>
+    <script src="data/registry.js?v=144"></script>
+    <script src="data/countries.js?v=144"></script>
+    <script src="data/universities.us.js?v=144"></script>
+    <script src="data/universities.us2.js?v=144"></script>
+    <script src="data/universities.us3.js?v=144"></script>
+    <script src="data/universities.jp.js?v=144"></script>
+    <script src="data/universities.kr.js?v=144"></script>
+    <script src="data/universities.uk.js?v=144"></script>
+    <script src="data/universities.de.js?v=144"></script>
+    <script src="data/universities.ca.js?v=144"></script>
+    <script src="data/photos.js?v=144"></script>
+    <script src="data/admission-profiles.js?v=144"></script>
+    <script src="data/degrees.js?v=144"></script>
+    <script src="data/test-policy.js?v=144"></script>
+    <script src="data/english-details.js?v=144"></script>
+    <script src="data/award-details.js?v=144"></script>
+    <script src="data/news.js?v=144"></script>
+    <script src="data/match.js?v=144"></script>
     <script>
       /* The Russian dictionary is about 1 MB, so it is fetched only when Russian is
    the language in use. The choice is read exactly as assets/js/i18n.js reads it:
@@ -120,17 +122,17 @@
             "<scr" +
               'ipt src="' +
               root +
-              'data/i18n/ru.js?v=143"><\/scr' +
+              'data/i18n/ru.js?v=144"><\/scr' +
               "ipt>",
           );
         } catch (e) {}
       })();
     </script>
-    <script src="assets/js/i18n.js?v=143"></script>
-    <script src="assets/js/app.js?v=143"></script>
-    <script src="assets/js/pages.js?v=143"></script>
-    <script src="assets/js/views.js?v=143"></script>
-    <script src="assets/js/news.js?v=143"></script>
-    <script src="assets/js/match.js?v=143"></script>
-    <script src="assets/js/router.js?v=143"></script>
+    <script src="assets/js/i18n.js?v=144"></script>
+    <script src="assets/js/app.js?v=144"></script>
+    <script src="assets/js/pages.js?v=144"></script>
+    <script src="assets/js/views.js?v=144"></script>
+    <script src="assets/js/news.js?v=144"></script>
+    <script src="assets/js/match.js?v=144"></script>
+    <script src="assets/js/router.js?v=144"></script>
   </body>
