@@ -16,7 +16,11 @@ Read this before changing anything. It applies to every agent (Codex, Claude Cod
 - Release (only when the owner says so): `git checkout main && git merge --ff-only dev && git push origin main && git checkout dev`.
 - Never push to `main` otherwise. Never force-push. Stage files explicitly (no `git add -A`).
 - Do not commit these local files: `data/universities.us2 2.js`, `scratchpad_photos_new.json`, `scratchpad_photos_us200.json`, `assets/img/universities/wheaton-college-massachusetts/`. No file names with spaces in the repo (`git ls-files | grep -c " "` must be 0).
-- Two agents must not edit the same working tree at the same time. Coordinate through the owner, or work in a separate `git worktree` on your own branch and merge into `dev`.
+- Several agents share this one folder and the one branch `dev` (one test copy). To avoid overwriting each other:
+  - before starting, run `git status` and `git pull --rebase origin dev`; if there are uncommitted changes you did not make, do not touch or revert them — ask the owner;
+  - keep changes small and commit + push each finished step right away (do not leave work uncommitted);
+  - before pushing, `git pull --rebase origin dev`, rerun the tests, then push; if the rebase conflicts, stop and tell the owner;
+  - the cache-buster `?v=NN` is shared: take the next number after the one currently in `index.html` on `dev`.
 
 ## Before every commit
 1. `node tests/run.js` — all tests pass (the run prints `N passed, 0 failed`).
