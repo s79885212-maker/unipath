@@ -23,6 +23,12 @@
 
    Debugging: add ?i18n=collect to the URL; untranslated strings are
    gathered in I18N.missing (a Set).
+
+   Packed dictionaries: the published site (build-artifact.py →
+   tools/i18n_pack.js) replaces each plain key by keyHash(key), an
+   11-character fingerprint, in window.UNIPATH_I18N.<lang>H; keys with
+   placeholders stay as they are. That makes the Russian file about a
+   third smaller. The source file in data/i18n/ keeps the English keys.
    ============================================================ */
 (function (global) {
   'use strict';
@@ -51,9 +57,27 @@
   var collect = /[?&]i18n=collect\b/.test(global.location.search);
   var missing = new Set();
 
-  var exact = null, templates = null;
+  var exact = null, templates = null, packed = null;
 
   function norm(s) { return String(s).replace(/\s+/g, ' ').trim(); }
+
+  /* Fingerprint of a normalised key: two FNV-1a hashes over UTF-16 code
+     units, 32 + 20 bits, written as 7 + 4 base-36 digits. */
+  function keyHash(s) {
+    var a = 0x811c9dc5, b = 0x9747b28c;
+    for (var i = 0; i < s.length; i++) {
+      var c = s.charCodeAt(i);
+      a = Math.imul(a ^ c, 16777619);
+      b = Math.imul(b ^ c, 0x01000193) ^ (b >>> 15);
+    }
+    var x = (a >>> 0).toString(36), y = ((b >>> 0) & 0xfffff).toString(36);
+    return ('0000000' + x).slice(-7) + ('0000' + y).slice(-4);
+  }
+  function getExact(key) {
+    if (exact.has(key)) return exact.get(key);
+    if (packed) { var v = packed[keyHash(key)]; if (v != null) return v; }
+    return undefined;
+  }
   function escRe(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
 
   function build() {
@@ -61,6 +85,7 @@
     exact = new Map();
     templates = [];
     var dict = (global.UNIPATH_I18N && global.UNIPATH_I18N[lang]) || {};
+    packed = (global.UNIPATH_I18N && global.UNIPATH_I18N[lang + 'H']) || null;
     Object.keys(dict).forEach(function (k) {
       var key = norm(k);
       if (/\{#?\d+\}/.test(key)) {
@@ -86,7 +111,8 @@
     depth = depth || 0;
     var key = norm(text);
     if (!key) return null;
-    if (exact.has(key)) return exact.get(key);
+    var hit = getExact(key);
+    if (hit !== undefined) return hit;
     for (var i = 0; i < templates.length; i++) {
       var t = templates[i], m = t.re.exec(key);
       if (!m) continue;
@@ -95,7 +121,7 @@
         var part = m[idx + 1];
         /* A captured part may itself match a template (e.g. a date inside
            "{0}, 23:59 applicant’s local time"); one level of nesting is enough. */
-        var tr = exact.get(norm(part));
+        var tr = getExact(norm(part));
         if (tr == null && depth < 1 && /[A-Za-z]{2}/.test(part)) tr = lookup(part, depth + 1);
         out = out.split('{' + n + '}').join(tr != null ? tr : part);
       });
@@ -220,6 +246,7 @@
     setLang: setLang,
     translateTree: translateTree,
     missing: missing,
+    keyHash: keyHash,
     start: start
   };
 
