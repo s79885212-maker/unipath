@@ -1,37 +1,71 @@
 /* Pack a dictionary for the published site:
-     node tools/i18n_pack.js <data/i18n/ru.js> <assets/js/i18n.js> <out.js>
-   Plain keys become keyHash(normalised key) in UNIPATH_I18N.<lang>H (the same
-   function the browser uses, taken from assets/js/i18n.js); keys with {0}/{#0}
-   placeholders stay in UNIPATH_I18N.<lang>. Fails on a fingerprint collision. */
+     node tools/i18n_pack.js <site root> <lang> <out dir>
+   • Plain keys become keyHash(normalised key) — the same function the browser
+     uses, taken from assets/js/i18n.js; keys with {0}/{#0} placeholders stay.
+   • Long texts (over 60 characters) that occur only in the records of one
+     country go to a file of their own, <lang>.<country>.js, which the site
+     loads when a page of that country needs it (and in the background after
+     the first page). Everything else is in <lang>.js, loaded at start.
+   Fails on a fingerprint collision. */
 'use strict';
 const vm = require('vm'), fs = require('fs'), path = require('path');
-const [src, i18nJs, out] = process.argv.slice(2);
-const lang = path.basename(src, '.js');
+const [ROOT, lang, OUT] = process.argv.slice(2);
 
+const stub = () => ({ setAttribute() {}, getAttribute() { return null; }, classList: { add() {}, remove() {} }, style: {} });
 const box = {
-  location: { search: '' }, navigator: { language: 'en' }, localStorage: { getItem: () => null, setItem() {} },
-  document: { documentElement: { setAttribute() {} }, querySelector: () => null, body: null },
-  MutationObserver: function () { this.observe = () => {}; }, Set, Map
+  console, location: { search: '' }, navigator: { language: 'en' }, localStorage: { getItem: () => null, setItem() {} },
+  document: { documentElement: stub(), querySelector: () => null, querySelectorAll: () => [], getElementById: () => null, addEventListener() {}, createElement: stub, body: null },
+  addEventListener() {}, matchMedia: () => ({ matches: false, addEventListener() {} }), setTimeout() {}, CustomEvent: function () {},
+  MutationObserver: function () { this.observe = () => {}; }
 };
 box.window = box; vm.createContext(box);
-vm.runInContext(fs.readFileSync(src, 'utf8'), box);
-vm.runInContext(fs.readFileSync(i18nJs, 'utf8'), box);
-const dict = box.UNIPATH_I18N[lang], keyHash = box.I18N.keyHash;
+const idx = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
+const scripts = [...idx.matchAll(/<script src="([^"?]+)/g)].map(m => m[1]);
+scripts.filter(s => s.startsWith('data/')).forEach(s => vm.runInContext(fs.readFileSync(path.join(ROOT, s), 'utf8'), box));
+vm.runInContext(fs.readFileSync(path.join(ROOT, 'data/i18n', lang + '.js'), 'utf8'), box);
+vm.runInContext(fs.readFileSync(path.join(ROOT, 'assets/js/i18n.js'), 'utf8'), box);
+const dict = box.UNIPATH_I18N[lang], keyHash = box.I18N.keyHash, D = box.UNIPATH;
 const norm = s => String(s).replace(/\s+/g, ' ').trim();
 
-const plain = {}, packed = {}, owner = {};
-let n = 0;
+/* Which countries' records each text occurs in ('*' = shared data, not one university). */
+const uniCountry = {}; D.universities.forEach(u => { uniCountry[u.id] = u.country; });
+const where = new Map(), seen = new Set();
+const add = (s, c) => { s = norm(s); if (!s) return; let w = where.get(s); if (!w) where.set(s, w = new Set()); w.add(c); };
+function walk(o, c) {
+  if (o == null) return;
+  if (typeof o === 'string') { add(o, c); return; }
+  if (typeof o !== 'object' || seen.has(o)) return;
+  seen.add(o);
+  if (Array.isArray(o)) { o.forEach(x => walk(x, x && x.id && uniCountry[x.id] ? uniCountry[x.id] : c)); return; }
+  for (const k in o) { add(k, c); walk(o[k], uniCountry[k] || c); }
+}
+for (const k in D) if (k !== 'universities') walk(D[k], '*');
+D.universities.forEach(u => walk(u, u.country));
+const code = scripts.filter(s => s.startsWith('assets/')).map(s => fs.readFileSync(path.join(ROOT, s), 'utf8')).join('\n');
+
+const plain = {}, files = { '': {} }, owner = {};
 for (const k of Object.keys(dict)) {
   const key = norm(k);
   if (/\{#?\d+\}/.test(key)) { plain[k] = dict[k]; continue; }
   const h = keyHash(key);
   if (owner[h] !== undefined && owner[h] !== key) throw new Error('fingerprint collision: ' + JSON.stringify([owner[h], key]));
-  owner[h] = key; packed[h] = dict[k]; n++;
+  owner[h] = key;
+  const w = where.get(key);
+  const cc = key.length > 60 && w && w.size === 1 && !w.has('*') && !code.includes(k) ? [...w][0] : '';
+  (files[cc] = files[cc] || {})[h] = dict[k];
 }
-const text = '/* UniPath ' + lang + ' dictionary, packed for the published site by tools/i18n_pack.js from data/i18n/' + lang + '.js. */\n' +
-  'window.UNIPATH_I18N = window.UNIPATH_I18N || {};\n' +
+const chunks = Object.keys(files).filter(c => c).sort();
+const head = '/* UniPath ' + lang + ' dictionary, packed for the published site by tools/i18n_pack.js from data/i18n/' + lang + '.js. */\n';
+fs.mkdirSync(OUT, { recursive: true });
+const core = head + 'window.UNIPATH_I18N = window.UNIPATH_I18N || {};\n' +
   'window.UNIPATH_I18N.' + lang + ' = ' + JSON.stringify(plain) + ';\n' +
-  'window.UNIPATH_I18N.' + lang + 'H = ' + JSON.stringify(packed) + ';\n';
-fs.writeFileSync(out, text);
-console.log('i18n_pack: ' + lang + ' ' + n + ' packed, ' + Object.keys(plain).length + ' templates, ' +
-  (fs.statSync(src).size / 1048576).toFixed(2) + ' MB -> ' + (Buffer.byteLength(text) / 1048576).toFixed(2) + ' MB');
+  'window.UNIPATH_I18N.' + lang + 'H = ' + JSON.stringify(files['']) + ';\n' +
+  'window.UNIPATH_I18N.' + lang + 'Chunks = ' + JSON.stringify(chunks) + ';\n';
+fs.writeFileSync(path.join(OUT, lang + '.js'), core);
+const sizes = [lang + '.js ' + (Buffer.byteLength(core) / 1024).toFixed(0) + ' KB'];
+for (const c of chunks) {
+  const t = head + 'window.UNIPATH_I18N_ADD(' + JSON.stringify(lang) + ', ' + JSON.stringify(c) + ', ' + JSON.stringify(files[c]) + ');\n';
+  fs.writeFileSync(path.join(OUT, lang + '.' + c + '.js'), t);
+  sizes.push(c + ' ' + (Buffer.byteLength(t) / 1024).toFixed(0) + ' KB');
+}
+console.log('i18n_pack: ' + lang + ' from ' + (fs.statSync(path.join(ROOT, 'data/i18n', lang + '.js')).size / 1024).toFixed(0) + ' KB → ' + sizes.join(', '));

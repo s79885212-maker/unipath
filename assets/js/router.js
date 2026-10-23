@@ -45,9 +45,25 @@
       '<p>' + U.esc(body) + '</p><a class="btn btn-primary" href="#/universities">Browse all universities</a></div></div>';
   }
 
+  /* Which countries' long texts a page shows (for the dictionary parts, see i18n.js). */
+  function textNeeds(r) {
+    var head = r.parts[0] || '';
+    if (head === '' || head === 'countries' || head === 'about' || head === 'news') return [];
+    if (head === 'country') return [r.parts[1] || 'us'];
+    if (head === 'university') { var u = U.uniById(r.parts[1]); return u ? [u.country] : []; }
+    return 'all';
+  }
+  var prefetched = false;
+
   function render() {
     /* A fragment that is not a route never re-renders or scrolls the page. */
     if (rendered && !isRoute(global.location.hash)) return;
+    /* Wait for the translation parts this page needs; render() runs again when they are in. */
+    if (global.I18N && global.I18N.need && !global.I18N.need(textNeeds(parse()), render)) return;
+    if (!prefetched && global.I18N && global.I18N.prefetchAll) {
+      prefetched = true;
+      global.setTimeout(global.I18N.prefetchAll, 1200);
+    }
     rendered = true;
     var r = parse();
     var head = r.parts[0] || '';

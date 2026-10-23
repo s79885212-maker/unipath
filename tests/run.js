@@ -721,23 +721,27 @@ group('Canada');
   ok(wc.costs.academicYear === '2026–2027' && U.costPeriod(wc) === 'semester' && (DB.match.annualCost || {})['university-of-windsor'].calc === 'two-semesters' &&
      !/Estimated Total/.test(wc.costs.headline),
     'Windsor: per-term tuition from the fee estimator stays per term; the yearly figure is marked as calculated and the estimator’s all-fees total is not called a total');
-  /* The packed Russian dictionary of the published site gives every translation of the source file. */
-  var packOut = path.join(require('os').tmpdir(), 'unipath-ru-packed-' + process.pid + '.js');
-  require('child_process').execFileSync('node', [path.join(ROOT, 'tools/i18n_pack.js'), path.join(ROOT, 'data/i18n/ru.js'), path.join(ROOT, 'assets/js/i18n.js'), packOut]);
-  var lookIn = function (dictFile) {
+  /* The packed Russian dictionary of the published site (start part + country parts) gives every
+     translation of the source file, and the start part is much smaller. */
+  var packDir = fs.mkdtempSync(path.join(require('os').tmpdir(), 'unipath-ru-'));
+  require('child_process').execFileSync('node', [path.join(ROOT, 'tools/i18n_pack.js'), ROOT, 'ru', packDir]);
+  var lookIn = function (files) {
     var b = { location: { search: '?lang=ru' }, navigator: { language: 'ru' }, localStorage: { getItem: function () { return null; }, setItem: function () {} },
       document: { documentElement: { setAttribute: function () {} }, querySelector: function () { return null; }, body: null }, MutationObserver: function () { this.observe = function () {}; } };
     b.window = b; vm.createContext(b);
-    vm.runInContext(fs.readFileSync(dictFile, 'utf8'), b);
+    vm.runInContext(fs.readFileSync(files[0], 'utf8'), b);
     vm.runInContext(fs.readFileSync(path.join(ROOT, 'assets/js/i18n.js'), 'utf8'), b);
+    files.slice(1).forEach(function (f) { vm.runInContext(fs.readFileSync(f, 'utf8'), b); });
     return b;
   };
-  var plainBox = lookIn(path.join(ROOT, 'data/i18n/ru.js')), packBox = lookIn(packOut);
+  var parts = fs.readdirSync(packDir).filter(function (f) { return /^ru\.[a-z]{2}\.js$/.test(f); }).map(function (f) { return path.join(packDir, f); });
+  var plainBox = lookIn([path.join(ROOT, 'data/i18n/ru.js')]), packBox = lookIn([path.join(packDir, 'ru.js')].concat(parts));
   var probe = Object.keys(plainBox.UNIPATH_I18N.ru).concat(['Loading universities…', 'SAT/ACT not required', 'Not a key at all, so no translation', '2,450 universities']);
   var packDiff = probe.filter(function (k) { return plainBox.I18N.lookup(k) !== packBox.I18N.lookup(k); });
-  ok(packBox.I18N.lang === 'ru' && packBox.I18N.lookup('Loading universities…') === 'Загружаем университеты…' && !packDiff.length && fs.statSync(packOut).size < fs.statSync(path.join(ROOT, 'data/i18n/ru.js')).size * 0.8,
-    'the packed Russian dictionary (tools/i18n_pack.js) translates every key exactly as the source file and is at least 20% smaller', packDiff.slice(0, 3).join(' | '));
-  fs.unlinkSync(packOut);
+  var coreShare = fs.statSync(path.join(packDir, 'ru.js')).size / fs.statSync(path.join(ROOT, 'data/i18n/ru.js')).size;
+  ok(packBox.I18N.lang === 'ru' && packBox.I18N.lookup('Loading universities…') === 'Загружаем университеты…' && !packDiff.length && parts.length >= 5 && coreShare < 0.5,
+    'the packed Russian dictionary (tools/i18n_pack.js: start part + ' + parts.length + ' country parts) translates every key exactly as the source file; the start part is ' + Math.round(coreShare * 100) + '% of it', packDiff.slice(0, 3).join(' | '));
+  fs.readdirSync(packDir).forEach(function (f) { fs.unlinkSync(path.join(packDir, f)); }); fs.rmdirSync(packDir);
   var ruBox = { window: {} }; vm.createContext(ruBox);
   vm.runInContext(fs.readFileSync(path.join(ROOT, 'data/i18n/ru.js'), 'utf8'), ruBox);
   var noRuCity = DB.universities.filter(function (u) { return u.city && !ruBox.window.UNIPATH_I18N.ru[u.city]; }).map(function (u) { return u.city; });

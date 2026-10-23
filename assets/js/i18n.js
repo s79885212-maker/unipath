@@ -28,7 +28,11 @@
    tools/i18n_pack.js) replaces each plain key by keyHash(key), an
    11-character fingerprint, in window.UNIPATH_I18N.<lang>H; keys with
    placeholders stay as they are. That makes the Russian file about a
-   third smaller. The source file in data/i18n/ keeps the English keys.
+   third smaller. Long texts that occur in the records of one country only
+   are in <lang>.<country>.js (listed in UNIPATH_I18N.<lang>Chunks): the
+   router asks I18N.need([...countries]) before it renders a page, and all
+   of them are fetched in the background after the first page. The source
+   file in data/i18n/ keeps the English keys and has no chunks.
    ============================================================ */
 (function (global) {
   'use strict';
@@ -226,6 +230,54 @@
     if (titleEl) new MutationObserver(translateTitle).observe(titleEl, { childList: true, characterData: true, subtree: true });
   }
 
+  /* ---- dictionary parts loaded on demand (published site only) ---- */
+  var chunkState = {};   // country -> 'loading' | 'done'
+  var chunkWait = {};    // country -> [callbacks]
+  function chunkList() { var I = global.UNIPATH_I18N || {}; return I[lang + 'Chunks'] || []; }
+  function chunkSrc(cc) {
+    var own = doc.querySelector('script[src*="assets/js/i18n.js"]');
+    var q = own ? (own.getAttribute('src').split('?')[1] || '') : '';
+    var meta = doc.querySelector('meta[name="unipath-root"]');
+    return (meta ? meta.content : '') + 'data/i18n/' + lang + '.' + cc + '.js' + (q ? '?' + q : '');
+  }
+  global.UNIPATH_I18N_ADD = function (l, cc, entries) {
+    if (l !== lang) return;
+    build();
+    if (!packed) packed = {};
+    for (var h in entries) if (Object.prototype.hasOwnProperty.call(entries, h)) packed[h] = entries[h];
+    chunkState[cc] = 'done';
+    if (doc.body) { translateTree(doc.body); translateTitle(); }
+    (chunkWait[cc] || []).forEach(function (f) { f(); });
+    delete chunkWait[cc];
+  };
+  function loadChunk(cc, done) {
+    if (chunkState[cc] === 'done') { done(); return; }
+    (chunkWait[cc] = chunkWait[cc] || []).push(done);
+    if (chunkState[cc] === 'loading') return;
+    chunkState[cc] = 'loading';
+    var el = doc.createElement('script');
+    el.src = chunkSrc(cc);
+    el.async = true;
+    /* A failed part must never block the page: it is then shown with the texts that are there. */
+    el.onerror = function () { chunkState[cc] = 'done'; (chunkWait[cc] || []).forEach(function (f) { f(); }); delete chunkWait[cc]; };
+    doc.head.appendChild(el);
+  }
+  /* True when the parts for these countries ('all' = every part) are in.
+     Otherwise starts loading them, returns false and calls done() later. */
+  function need(countries, done) {
+    var all = chunkList();
+    if (lang === 'en' || !all.length) return true;
+    var want = (countries === 'all' || collect) ? all : (countries || []).filter(function (c) { return all.indexOf(c) > -1; });
+    var left = want.filter(function (c) { return chunkState[c] !== 'done'; });
+    if (!left.length) return true;
+    var n = left.length;
+    left.forEach(function (c) { loadChunk(c, function () { if (--n === 0) done(); }); });
+    return false;
+  }
+  function prefetchAll() {
+    chunkList().forEach(function (c) { loadChunk(c, function () {}); });
+  }
+
   function setLang(next) {
     if (SUPPORTED.indexOf(next) === -1 || next === lang) return;
     try { global.localStorage.setItem(KEY, next); } catch (e) {}
@@ -247,6 +299,8 @@
     translateTree: translateTree,
     missing: missing,
     keyHash: keyHash,
+    need: need,
+    prefetchAll: prefetchAll,
     start: start
   };
 

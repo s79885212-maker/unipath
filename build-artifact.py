@@ -110,17 +110,18 @@ shutil.copytree(ROOT / "assets", DIST / "assets")
 shutil.copytree(ROOT / "data", DIST / "data")
 (DIST / ".nojekyll").write_text("")  # GitHub Pages: serve files as-is
 
-# The Russian dictionary is published packed (tools/i18n_pack.js): plain keys become short
-# fingerprints, which makes the file about a third smaller. Needs Node; without it the
-# plain dictionary is published, which works the same, only slower to download.
+# Dictionaries are published packed (tools/i18n_pack.js): plain keys become short
+# fingerprints, and long texts of one country only go to a part of their own that the
+# site loads when needed. Needs Node; without it the plain dictionary is published,
+# which works the same, only slower to download.
 import subprocess  # noqa: E402
 for dict_file in sorted((ROOT / "data" / "i18n").glob("*.js")):
     try:
-        r = subprocess.run(["node", str(ROOT / "tools" / "i18n_pack.js"), str(dict_file),
-                            str(ROOT / "assets" / "js" / "i18n.js"), str(DIST / "data" / "i18n" / dict_file.name)],
-                           capture_output=True, text=True, check=True)
+        r = subprocess.run(["node", str(ROOT / "tools" / "i18n_pack.js"), str(ROOT), dict_file.stem,
+                            str(DIST / "data" / "i18n")], capture_output=True, text=True, check=True)
         print(r.stdout.strip())
     except (OSError, subprocess.CalledProcessError) as err:
+        shutil.copy2(dict_file, DIST / "data" / "i18n" / dict_file.name)
         print(f"i18n_pack skipped for {dict_file.name}: {err}")
 
 # Indexable static pages (/university/<id>/, /country/<code>/) + sitemap,
