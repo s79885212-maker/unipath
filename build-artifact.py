@@ -110,6 +110,15 @@ shutil.copytree(ROOT / "assets", DIST / "assets")
 shutil.copytree(ROOT / "data", DIST / "data")
 (DIST / ".nojekyll").write_text("")  # GitHub Pages: serve files as-is
 
+# Data files are published without line indentation (tools/minify_data.js checks that
+# the data they build is identical, and otherwise keeps the originals).
+import subprocess  # noqa: E402
+try:
+    print(subprocess.run(["node", str(ROOT / "tools" / "minify_data.js"), str(ROOT), str(DIST)],
+                         capture_output=True, text=True, check=True).stdout.strip())
+except (OSError, subprocess.CalledProcessError) as err:
+    print(f"minify_data skipped: {err}")
+
 # Dictionaries are published packed (tools/i18n_pack.js): plain keys become short
 # fingerprints, and long texts of one country only go to a part of their own that the
 # site loads when needed. Needs Node; without it the plain dictionary is published,

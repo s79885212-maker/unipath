@@ -742,6 +742,11 @@ group('Canada');
   ok(packBox.I18N.lang === 'ru' && packBox.I18N.lookup('Loading universities…') === 'Загружаем университеты…' && !packDiff.length && parts.length >= 5 && coreShare < 0.5,
     'the packed Russian dictionary (tools/i18n_pack.js: start part + ' + parts.length + ' country parts) translates every key exactly as the source file; the start part is ' + Math.round(coreShare * 100) + '% of it', packDiff.slice(0, 3).join(' | '));
   fs.readdirSync(packDir).forEach(function (f) { fs.unlinkSync(path.join(packDir, f)); }); fs.rmdirSync(packDir);
+  var minDir = fs.mkdtempSync(path.join(require('os').tmpdir(), 'unipath-min-'));
+  fs.mkdirSync(path.join(minDir, 'data'));
+  var minOut = require('child_process').execFileSync('node', [path.join(ROOT, 'tools/minify_data.js'), ROOT, minDir]).toString();
+  ok(/data identical/.test(minOut), 'the published data files are trimmed (tools/minify_data.js) and build exactly the same data', minOut.trim());
+  fs.readdirSync(path.join(minDir, 'data')).forEach(function (f) { fs.unlinkSync(path.join(minDir, 'data', f)); }); fs.rmdirSync(path.join(minDir, 'data')); fs.rmdirSync(minDir);
   var ruBox = { window: {} }; vm.createContext(ruBox);
   vm.runInContext(fs.readFileSync(path.join(ROOT, 'data/i18n/ru.js'), 'utf8'), ruBox);
   var noRuCity = DB.universities.filter(function (u) { return u.city && !ruBox.window.UNIPATH_I18N.ru[u.city]; }).map(function (u) { return u.city; });

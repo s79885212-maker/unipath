@@ -2,10 +2,11 @@
      node tools/i18n_pack.js <site root> <lang> <out dir>
    • Plain keys become keyHash(normalised key) — the same function the browser
      uses, taken from assets/js/i18n.js; keys with {0}/{#0} placeholders stay.
-   • Long texts (over 60 characters) that occur only in the records of one
-     country go to a file of their own, <lang>.<country>.js, which the site
-     loads when a page of that country needs it (and in the background after
-     the first page). Everything else is in <lang>.js, loaded at start.
+   • Texts longer than 30 characters that occur only in the records of one
+     country go to a file of their own, <lang>.<country>.js, which the site loads when a page of that
+     country needs it (and in the background after the first page). Shared
+     data, the site's own wording and texts found nowhere stay in <lang>.js,
+     loaded at start.
    Fails on a fingerprint collision. */
 'use strict';
 const vm = require('vm'), fs = require('fs'), path = require('path');
@@ -51,7 +52,8 @@ for (const k of Object.keys(dict)) {
   if (owner[h] !== undefined && owner[h] !== key) throw new Error('fingerprint collision: ' + JSON.stringify([owner[h], key]));
   owner[h] = key;
   const w = where.get(key);
-  const cc = key.length > 60 && w && w.size === 1 && !w.has('*') && !code.includes(k) ? [...w][0] : '';
+  /* Short texts (city names, types, labels) stay at start: search suggestions show them at once. */
+  const cc = key.length > 30 && w && w.size === 1 && !w.has('*') && !code.includes(k) ? [...w][0] : '';
   (files[cc] = files[cc] || {})[h] = dict[k];
 }
 const chunks = Object.keys(files).filter(c => c).sort();
