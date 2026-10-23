@@ -229,6 +229,71 @@ main {
   transform: translateY(-0.5px);
 }
 
+/* Loading screen shown until the app has read the data files and rendered the first page */
+.boot {
+  min-height: 70vh;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 14px;
+  padding: 40px 16px;
+  text-align: center;
+}
+.boot-mark {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  background: linear-gradient(140deg, #2453a0, #122a56);
+  color: #fff;
+  display: grid;
+  place-items: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  box-shadow: 0 10px 30px rgba(18, 42, 86, 0.25);
+  animation: boot-pulse 1.6s ease-in-out infinite;
+}
+.boot-name {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: var(--ink-900);
+}
+.boot-bar {
+  position: relative;
+  width: 180px;
+  height: 4px;
+  border-radius: 99px;
+  background: var(--line);
+  overflow: hidden;
+}
+.boot-bar span {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 40%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--brand-600), var(--accent-500));
+  animation: boot-slide 1.2s ease-in-out infinite;
+}
+.boot-text {
+  margin: 0;
+  color: var(--ink-500);
+  font-size: 0.95rem;
+}
+@keyframes boot-slide {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(250%); }
+}
+@keyframes boot-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.06); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .boot-mark, .boot-bar span { animation: none; }
+  .boot-bar span { width: 100%; opacity: 0.6; }
+}
+
 .nav-links {
   display: flex;
   align-items: center;

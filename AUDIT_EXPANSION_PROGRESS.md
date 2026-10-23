@@ -931,3 +931,7 @@ Community colleges:
 - **50 вузов** исправлены без скачивания: главным стал лучший снимок из их же галереи, плохие кадры убраны из галереи (55 файлов удалены), миниатюры пересобраны (`tools/photo_reorder.py`).
 - **13 вузов** ждут новых снимков с Commons: Carleton College, Wesleyan, Pusan, Sogang, Bucknell, Iowa, Mount Saint Vincent, Saint Mary’s, Thompson Rivers, Fraser Valley, Winnipeg, McGill, Mount Royal.
 - **v139:** у 13 вузов, где в галерее не было ни одного хорошего снимка, поставлены новые свободные фото с Wikimedia Commons (превью просмотрены перед выбором; больница, люди, интерьеры, ночные и случайные кадры отброшены): Carleton College (Willis Hall, корпус, библиотека), Wesleyan (College Row, часовня), Pusan, Sogang, Bucknell, Iowa (Old Capitol, Macbride Hall), Saint Mary’s, Fraser Valley, Winnipeg (Wesley Hall), McGill (Arts Building), Mount Royal (Bell Tower), Thompson Rivers, Mount Saint Vincent. Тесты 214.
+
+## Экран загрузки (2026-10-24, v140, сначала на тестовом сайте)
+- Пока сайт читает файлы данных (около 5 МБ), вместо серой строки «Loading universities…» в углу показывается экран по центру: значок UP, название UniPath, бегущая полоска и надпись на языке посетителя («Загружаем университеты…» / «Loading universities…», язык выбирается так же, как в `i18n.js`). Работает в светлой и тёмной теме; при системной настройке «уменьшить движение» анимация отключается. Статические страницы вузов по-прежнему сразу показывают своё содержимое.
+- Проверено: тесты 214, сборка (376 статических страниц), вид на 360 px в светлой и тёмной теме.
