@@ -729,9 +729,9 @@ group('Canada');
   ok(first('Ryerson') === 'toronto-metropolitan-university' && first('UOIT') === 'ontario-tech-university' && first('MUN') === 'memorial-university-of-newfoundland',
     'former names find the current record: Ryerson → TMU, UOIT → Ontario Tech, MUN → Memorial', [first('Ryerson'), first('UOIT'), first('MUN')].join(', '));
   var tr = U.uniById('trent-university'), unb = U.uniById('university-of-new-brunswick');
-  ok(tr.admissions.deadlines.some(function (d) { return d.kind === 'regular' && d.status === 'not-confirmed'; }) && unb.costs.status === 'previous-cycle' &&
-     !(DB.match.annualCost || {})['university-of-new-brunswick'] && U.satPolicy(U.uniById('memorial-university-of-newfoundland')) === 'conditional',
-    'Trent: deadlines from a page not yet updated stay unconfirmed; UNB: no fee table, nothing compared; Memorial: SAT/ACT only for some schools');
+  ok(tr.admissions.deadlines.some(function (d) { return d.kind === 'regular' && d.status === 'not-confirmed'; }) && unb.costs.academicYear === '2026–2027' && unb.costs.status !== 'previous-cycle' &&
+     (DB.match.annualCost || {})['university-of-new-brunswick'].min === 22754 && U.satPolicy(U.uniById('memorial-university-of-newfoundland')) === 'conditional',
+    'Trent: deadlines from a page not yet updated stay unconfirmed; UNB: 2026–27 fee tables read (C$22,754–C$27,722); Memorial: SAT/ACT only for some schools');
   var fr = ['universite-du-quebec-a-montreal', 'universite-de-sherbrooke', 'universite-de-moncton'].map(U.uniById);
   ok(fr.every(function (u) { return u.englishTaught === false && !U.ieltsMin(u) && u.frenchRequirement && u.academics.sat.policy === 'not-applicable'; }) &&
      U.uniById('universite-de-sherbrooke').costs.breakdown.period === 'semester' && U.uniById('laurentian-university').frenchRequirement.level === 'B2',

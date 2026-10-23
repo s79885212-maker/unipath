@@ -51,6 +51,7 @@ window.UNIPATH.match = {
     'universite-du-quebec-a-montreal': { currency: 'CAD', basis: 'tuition', min: 29415, max: 29415, note: 'University estimate of yearly tuition and fees 2026–27 for an international bachelor’s student (approximate); insurance, housing and food extra' },
     'universite-de-sherbrooke': { currency: 'CAD', calc: 'two-semesters', basis: 'billed', min: 23950, max: 32140, note: 'Two 15-credit terms at the autumn 2026 per-term totals — calculated by UniPath, not printed by the university; insurance, housing and food extra' },
     'university-of-windsor': { currency: 'CAD', calc: 'two-semesters', basis: 'tuition', min: 33000, max: 37500, note: 'Base tuition for two terms (Fall and Winter) at the 2026–27 rates for Arts and Computer Science — calculated by UniPath, not printed by the university; fees, health insurance, housing and food extra' },
+    'university-of-new-brunswick': { currency: 'CAD', basis: 'billed', min: 22754, max: 27722, note: 'Tuition and fees 2026–27 for an international student attending both terms, Fredericton (Arts to Engineering); housing and food extra' },
     'universite-de-moncton': { currency: 'CAD', basis: 'billed', min: 17839, max: 17839, note: 'Tuition, related fees and health and dental plans 2026–27 (indicative), Moncton campus; housing and food extra' },
 
     /* Canada, October 2026 */

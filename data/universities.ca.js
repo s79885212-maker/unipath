@@ -7641,19 +7641,32 @@ window.UNIPATH.universities.push(
   },
   "costs": {
     "breakdown": {
-      "includes": "nothing confirmed"
+      "includes": "tuition, mandatory fees, Student Union health and dental plans, international bus pass and health insurance, for Fall and Winter",
+      "tuition": 20903
     },
-    "academicYear": null,
+    "academicYear": "2026–2027",
     "currency": "CAD",
-    "studentCategory": "International undergraduates",
-    "source": "https://www.unb.ca/international/financial/index.html",
-    "verified": "2026-10-16",
-    "headline": "Not published on the page read",
-    "items": [],
+    "studentCategory": "International undergraduates, full time, Fredericton campus, attending both terms",
+    "source": "https://www.unb.ca/finance/financial-services/undergraduate/fredericton.html",
+    "verified": "2026-10-23",
+    "headline": "C$22,754–C$27,722 tuition and fees for a year (2026–27)",
+    "items": [
+      {
+        "label": "Arts — total for international students (tuition C$20,903)",
+        "amount": 22754
+      },
+      {
+        "label": "Computer Science — total for international students (tuition C$22,514)",
+        "amount": 24365
+      },
+      {
+        "label": "Engineering, except Software or Geological — total for international students (tuition C$25,871)",
+        "amount": 27722
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": "The fee page is headed “2025-2026 academic year” but shows no amounts",
-    "note": "The international fee table did not load on 15–16 October 2026, neither in the page source nor in the browser.",
-    "status": "previous-cycle"
+    "totalText": "UNB’s 2026–2027 fee tables (effective 1 September 2026) give C$22,754 for Arts, C$24,365 for Computer Science and C$27,722 for Engineering for an international student attending both terms; housing and food are extra",
+    "note": "Each total includes mandatory fees (C$831.50), Student Union health (C$235) and dental (C$140) plans, the international bus pass (C$180), UNB emergency health insurance (C$400) and travel health insurance (C$64.50). Online or web-based courses cost C$150 extra per course; first-year orientation C$80. Other programmes and the Saint John campus have their own tables."
   },
   "scholarships": {
     "fullRide": {
@@ -7724,6 +7737,22 @@ window.UNIPATH.universities.push(
     {
       "label": "UNB — financial information",
       "url": "https://www.unb.ca/international/financial/index.html"
+    },
+    {
+      "label": "UNB Fredericton — 2026–2027 tuition and fees, Arts (PDF)",
+      "url": "https://www.unb.ca/finance/_assets/documents/financial-services/fredericton-tuition/undergrad/fred_ug_arts_ft.pdf"
+    },
+    {
+      "label": "UNB Fredericton — 2026–2027 tuition and fees, Computer Science (PDF)",
+      "url": "https://www.unb.ca/finance/_assets/documents/financial-services/fredericton-tuition/undergrad/fred_ug_compsci_ft.pdf"
+    },
+    {
+      "label": "UNB Fredericton — 2026–2027 tuition and fees, Engineering (PDF)",
+      "url": "https://www.unb.ca/finance/_assets/documents/financial-services/fredericton-tuition/undergrad/fred_ug_eng_ft.pdf"
+    },
+    {
+      "label": "UNB Fredericton — undergraduate tuition and fees",
+      "url": "https://www.unb.ca/finance/financial-services/undergraduate/fredericton.html"
     }
   ],
   "verification": {
@@ -7734,10 +7763,10 @@ window.UNIPATH.universities.push(
       "English requirements",
       "test policy",
       "requirements for Uzbekistan",
-      "scholarships"
+      "scholarships",
+      "tuition"
     ],
     "unconfirmed": [
-      "tuition",
       "housing costs",
       "full list of majors",
       "founding year"
