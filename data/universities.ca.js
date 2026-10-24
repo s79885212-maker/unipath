@@ -4544,13 +4544,22 @@ window.UNIPATH.universities.push(
         "entryYear": "2027",
         "dateISO": "2026-12-15",
         "date": "15 December 2026",
-        "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Supporting documents by 31 January 2027.",
         "status": "confirmed",
-        "source": "https://www.sfu.ca/students/admission/fees-scholarships/uses.html",
-        "verified": "2026-10-15",
-        "note": null
+        "source": "https://www.sfu.ca/students/financial-aid/entrance/highschool/uses.html",
+        "verified": "2026-10-24",
+        "note": "Deadline confirmed; the application form is temporarily unavailable according to the official page. An upcoming deadline does not mean the portal is currently accessible.",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.sfu.ca/students/financial-aid/entrance/highschool/uses.html",
+          "verified": "2026-10-24",
+          "quote": "Fall 2027"
+        },
+        "awardId": "uses-international",
+        "awardCategory": "merit"
       },
       {
         "name": "Application deadline",
@@ -4564,8 +4573,16 @@ window.UNIPATH.universities.push(
         "conditions": "Applications opened on 1 October 2026; decisions are sent from January to late April on a rolling basis.",
         "status": "confirmed",
         "source": "https://www.sfu.ca/students/admission/apply/dates-deadlines/high-school/fall-term.html",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-24",
+        "note": "The page explicitly establishes Fall 2027. The year is supported by the page context, not by the day the page was viewed.",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.sfu.ca/students/admission/apply/dates-deadlines/high-school/fall-term.html",
+          "verified": "2026-10-24",
+          "quote": "Fall 2027"
+        }
       },
       {
         "name": "Beedie School of Business To-Do List items; Contemporary Arts supplemental (audition, interview or portfolio)",
@@ -4574,13 +4591,20 @@ window.UNIPATH.universities.push(
         "entryYear": "2027",
         "dateISO": "2027-02-07",
         "date": "7 February 2027",
-        "binding": false,
         "appliesTo": "First-year applicants",
-        "conditions": null,
+        "conditions": "Contemporary Arts supplemental requirements exclude Art, Performance, and Cinema Studies and Performance Production & Design. Beedie has its own To-Do List requirement.",
         "status": "confirmed",
         "source": "https://www.sfu.ca/students/admission/apply/dates-deadlines/high-school/fall-term.html",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-24",
+        "note": "The page explicitly establishes Fall 2027. The year is supported by the page context, not by the day the page was viewed.",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.sfu.ca/students/admission/apply/dates-deadlines/high-school/fall-term.html",
+          "verified": "2026-10-24",
+          "quote": "Fall 2027"
+        }
       },
       {
         "name": "Admission documents for all high school applicants",
@@ -4589,13 +4613,20 @@ window.UNIPATH.universities.push(
         "entryYear": "2027",
         "dateISO": "2027-02-28",
         "date": "28 February 2027",
-        "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.sfu.ca/students/admission/apply/dates-deadlines/high-school/fall-term.html",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-24",
+        "note": "The page explicitly establishes Fall 2027. The year is supported by the page context, not by the day the page was viewed.",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.sfu.ca/students/admission/apply/dates-deadlines/high-school/fall-term.html",
+          "verified": "2026-10-24",
+          "quote": "Fall 2027"
+        }
       },
       {
         "name": "Accept your offer; residence application",
@@ -4604,13 +4635,43 @@ window.UNIPATH.universities.push(
         "entryYear": "2027",
         "dateISO": "2027-05-01",
         "date": "1 May 2027",
-        "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.sfu.ca/students/admission/apply/dates-deadlines/high-school/fall-term.html",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-24",
+        "note": "The page explicitly establishes Fall 2027. The year is supported by the page context, not by the day the page was viewed.",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.sfu.ca/students/admission/apply/dates-deadlines/high-school/fall-term.html",
+          "verified": "2026-10-24",
+          "quote": "Fall 2027"
+        }
+      },
+      {
+        "name": "International USES references and supporting documents",
+        "kind": "documents",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-31",
+        "date": "31 January 2027",
+        "appliesTo": "International USES applicants; both references and admission To-Do List items",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.sfu.ca/students/financial-aid/entrance/highschool/uses.html",
+        "verified": "2026-10-24",
+        "awardId": "uses-international",
+        "awardCategory": "merit",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.sfu.ca/students/financial-aid/entrance/highschool/uses.html",
+          "verified": "2026-10-24",
+          "quote": "Fall 2027"
+        }
       }
     ],
     "applicationFee": {
@@ -4732,29 +4793,39 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Uggla is currently restricted to domestic Canadian students. The international USES cash award and possible need-based living allowance do not establish full tuition or full-cost coverage; international full-level coverage remains unconfirmed.",
+      "source": "https://www.sfu.ca/students/financial-aid/entrance/highschool/uses.html",
+      "verified": "2026-10-24",
+      "detailsSource": "https://www.sfu.ca/students/admission/fees-scholarships/uggla.html",
+      "detailsVerified": "2026-10-24"
     },
     "merit": [
       {
         "name": "Undergraduate Scholars Entrance Scholarship (USES)",
-        "amount": "Up to C$140,000 for international students",
-        "eligibility": "Canadian and international high school applicants for fall entry with at least a 90% average (or 31 IB points)",
+        "amount": "C$140,000 in eight C$17,500 payments for the selected international award",
+        "eligibility": "International high-school applicants for Fall 2027: 90% in programme admission courses or 31 IB points excluding bonus points; graduate in the entry year or previous year without postsecondary enrolment.",
         "deadline": null,
-        "application": "Separate application, 1 October to 15 December 2026",
+        "application": "Separate application, scheduled 1 October–15 December 2026. The official page reports the Fall 2027 form temporarily unavailable; expected portal return 2 November 2026.",
         "renewable": true,
-        "note": "Values run from C$20,000 up to C$140,000 for international students; the top value is a competitive maximum.",
+        "note": "Competitive award, not guaranteed funding or full-cost coverage. In limited cases an additional C$8,000 per term living allowance may be offered for demonstrated need. Renewal conditions must be checked separately.",
         "basis": "merit",
-        "source": "https://www.sfu.ca/students/admission/fees-scholarships/uses.html",
-        "verified": "2026-10-15"
+        "source": "https://www.sfu.ca/students/financial-aid/entrance/highschool/uses.html",
+        "verified": "2026-10-24",
+        "id": "uses-international",
+        "category": "merit",
+        "entryTerm": "Autumn",
+        "entryYear": "2027"
       }
     ],
     "needBased": {
-      "availableToInternational": null,
+      "availableToInternational": true,
       "meetsFullNeed": null,
       "needBlindInternational": null,
       "forms": [],
       "deadlines": null,
-      "note": "Need-based aid for international first-year students is not described on the pages read."
+      "note": "Limited additional living allowance for exceptionally talented international USES recipients with demonstrated financial need; not a promise to meet full need or aid for every admitted applicant.",
+      "source": "https://www.sfu.ca/students/financial-aid/entrance/highschool/uses.html",
+      "verified": "2026-10-24"
     }
   },
   "photos": {
@@ -4790,6 +4861,14 @@ window.UNIPATH.universities.push(
     {
       "label": "General requirements reviewed — Uzbekistan-specific rule unresolved",
       "url": "https://www.sfu.ca/students/admission/admission-requirements/international-highschool.html"
+    },
+    {
+      "label": "SFU — international USES amounts, need allowance and Fall 2027 access notice",
+      "url": "https://www.sfu.ca/students/financial-aid/entrance/highschool/uses.html"
+    },
+    {
+      "label": "SFU — Uggla domestic-only eligibility",
+      "url": "https://www.sfu.ca/students/admission/fees-scholarships/uggla.html"
     }
   ],
   "verification": {

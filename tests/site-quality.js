@@ -65,6 +65,13 @@ module.exports = function (env) {
     M.evaluate(american, { ielts: null, sat: null, gpa: null, budget: 4000, currency: 'USD' }).budget.status === 'over',
     'AU EGL: the linked 2027 scholarship never turns competitive maximum aid into a guaranteed $4,000 budget');
   var ufvActual = U.uniById('university-of-the-fraser-valley');
+  var sfuActual = U.uniById('simon-fraser-university');
+  var usesActual = U.awardsAll(sfuActual).filter(function (a) { return a.id === 'uses-international'; })[0];
+  ok(usesActual && U.awardDates(sfuActual, usesActual).length === 2 &&
+    U.awardDates(sfuActual, usesActual).every(function (d) { return U.roundStatus(d) === 'confirmed'; }) &&
+    U.fullRide(sfuActual).available === null && !U.costAfterAid(sfuActual) &&
+    sfuActual.scholarships.needBased.availableToInternational === true && sfuActual.scholarships.needBased.meetsFullNeed === null,
+    'SFU: international USES dates stay separate from general admission; competitive cash and limited need support do not establish full coverage');
   ok(U.applyFilters([ufvActual], { field: ['computer-science'] }).length === 1 &&
     !U.applyFilters([ufvActual], { field: ['computer-science'], language: ['english-yes'] }).length &&
     U.fieldUnverified(ufvActual, ['engineering'], false) && U.programsPartial(ufvActual),

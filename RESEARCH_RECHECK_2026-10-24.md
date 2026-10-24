@@ -411,3 +411,41 @@ SAT не становится optional в фильтре; минимальные
 Fall 2027 для всех школьных систем. Общие пункты verification не закрыты.
 Mount Allison получил дополнительное частичное пояснение; точные узбекские
 условия всех 21 ещё не считаются полностью проверенными.
+
+
+## Продолжение v155 — SFU USES, Uggla и доступ к форме
+
+Просмотр 24.10.2026. SFU, international high-school applicants, Fall 2027,
+любая undergraduate degree при выполнении предметов основной программы:
+https://www.sfu.ca/students/financial-aid/entrance/highschool/uses.html —
+«8 x $17,500»; «The Fall 2027 USES application is temporarily unavailable».
+Международная USES: C$140,000, в отдельных случаях возможна доплата
+C$8,000/term по финансовой нуждаемости. Денежная сумма не означает полного
+покрытия tuition/COA, средства конкурсные. Общая domestic шкала 20–60 тысяч
+не является минимальной международной суммой. Условия продления ещё требуют
+проверки. Связаны отдельные application 15.12.2026 и references/documents
+31.01.2027. Портал временно недоступен, страница ожидает восстановление
+02.11.2026; календарный срок не равен доступности формы. Источник пишет
+11:59pm PCT; нестандартная аббревиатура не преобразована в выдуманный пояс.
+
+https://www.sfu.ca/students/admission/fees-scholarships/uggla.html —
+«only available to Domestic Canadian students». Поэтому её полное покрытие
+не перенесено на иностранцев. У SFU fullRide.available остаётся null, а
+ограниченная need-based доплата USES не названа meetsFullNeed.
+
+https://www.sfu.ca/students/admission/apply/dates-deadlines/high-school/fall-term.html —
+«Fall 2027 Term». Доказательство цикла добавлено к пяти существующим датам.
+Контекст страницы подтверждает год, прежнее объяснение только датой чтения
+заменено. February 7 Contemporary Arts имеет перечисленные исключения;
+общие документы и ответ на offer не подставлены в scholarship dates.
+
+Windsor: ссылка прямой international undergraduate заявки на официальной
+https://future.uwindsor.ca/apply-international ведёт к OUAC Windsor 2027
+https://www.ouac.on.ca/apply/windsorugrad/intl/en_CA/user/login.
+Публичная страница входа fee не указывает. Вход/создание аккаунта не выполнялись,
+сумма остаётся неизвестной. Lesley: повторное чтение того же официального
+источника по-прежнему показывает Fall 2026, не переносится на 2027.
+
+Git: повторный обычный push dry-run только собственной ветки снова завершился
+ошибкой запуска Credential Manager, NtCreateDirectoryObject 0xC0000022.
+Ни одна ветка GitHub не изменена; через коннектор запись не повторялась.
