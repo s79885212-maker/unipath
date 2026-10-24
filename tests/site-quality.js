@@ -133,13 +133,14 @@ module.exports = function (env) {
     doc.getElementById = function (id) { return boxes[id] || null; };
     doc.addEventListener = function (name, fn) { if (name === 'click') clicks.push(fn); };
     env.load('assets/js/news.js'); env.sandbox.UPNews.render({ innerHTML: '' });
+    ok(JSON.parse(newsState).cycle === 'all', 'a fresh news session keeps all cycles even when a standing rule has no cycle field');
     ok(DB.countries.every(function (c) { return boxes['news-filter'].innerHTML.indexOf('data-news-country="' + c.code + '"') > -1; }),
       'all six country news filters exist, even with no local announcements');
     clicks[0]({ target: { closest: function () { return { getAttribute: function () { return 'ca'; } }; } } });
     ok(/aria-pressed="true" data-news-country="ca"/.test(boxes['news-filter'].innerHTML) &&
       /No confirmed country-specific updates/.test(boxes['news-list'].innerHTML),
       'Canada news filter selects accessibly and distinguishes absent local news from global updates');
-    DB.news.push({ country: 'ca', title: 'Canadian news fixture', org: 'Test fixture', state: 'informational',
+    DB.news.push({ country: 'ca', cycle: '2027', title: 'Canadian news fixture', org: 'Test fixture', state: 'informational',
       verified: '2026-10-24', url: 'https://university.example/news', summary: 'Test fixture only' });
     env.sandbox.UPNews.render({ innerHTML: '' });
     ok(/Canadian news fixture/.test(boxes['news-list'].innerHTML) && !/No confirmed country-specific updates/.test(boxes['news-list'].innerHTML),

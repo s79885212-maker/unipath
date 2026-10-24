@@ -22,8 +22,8 @@
   var STATE_KEY = 'unipath.news.v1';
   try {
     var saved = JSON.parse(global.sessionStorage.getItem(STATE_KEY) || '{}');
-    if (saved.country === 'all' || U.DB.countries.some(function (c) { return c.code === saved.country; })) state.country = saved.country;
-    if (saved.cycle === 'all' || items().some(function (n) { return n.cycle === saved.cycle; })) state.cycle = saved.cycle;
+    if (typeof saved.country === 'string' && (saved.country === 'all' || U.DB.countries.some(function (c) { return c.code === saved.country; }))) state.country = saved.country;
+    if (typeof saved.cycle === 'string' && (saved.cycle === 'all' || items().some(function (n) { return n.cycle === saved.cycle; }))) state.cycle = saved.cycle;
   } catch (e) {}
 
   function items() {
