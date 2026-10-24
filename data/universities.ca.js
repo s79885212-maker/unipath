@@ -9558,15 +9558,16 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "The accessible calendar page is labelled 2024–2025; it does not establish the 2027 SAT/ACT policy. A current handbook request returned 403. The general policy remains unconfirmed; older US-school and homeschool statements are not applied to all applicants.",
-      "source": "https://brocku.ca/webcal/current/undergrad/admi.html",
-      "verified": "2026-10-24"
+      "policy": "accepted",
+      "note": "The current Faculty Handbook, section 3.3.3(c), says SAT scores help evaluate borderline US Grade 12 diploma applications. It does not state a general test-optional policy, an ACT alternative or a minimum score. The handbook names no 2027 intake; historical library calendars are not used to set current thresholds.",
+      "source": "https://brocku.ca/university-secretariat/faculty-handbook/section-3/",
+      "verified": "2026-10-24",
+      "label": "SAT can support borderline US-diploma applications"
     },
     "act": {
       "policy": null,
-      "note": "The accessible calendar page is labelled 2024–2025; it does not establish the 2027 SAT/ACT policy. A current handbook request returned 403. The general policy remains unconfirmed; older US-school and homeschool statements are not applied to all applicants.",
-      "source": "https://brocku.ca/webcal/current/undergrad/admi.html",
+      "note": "Section 3.3.3(c) describes SAT support for US-diploma applications only; ACT policy is not established.",
+      "source": "https://brocku.ca/university-secretariat/faculty-handbook/section-3/",
       "verified": "2026-10-24"
     },
     "otherTests": null,
@@ -9698,6 +9699,10 @@ window.UNIPATH.universities.push(
     {
       "label": "SAT/ACT scope review — general policy unresolved",
       "url": "https://brocku.ca/webcal/current/undergrad/admi.html"
+    },
+    {
+      "label": "Brock — current Faculty Handbook, admission equivalencies",
+      "url": "https://brocku.ca/university-secretariat/faculty-handbook/section-3/"
     }
   ],
   "verification": {
@@ -11933,7 +11938,7 @@ window.UNIPATH.universities.push(
       "note": "Not checked on the pages read."
     },
     "otherTests": null,
-    "internationalQualifications": "Uzbekistan-specific qualifications, grades, programme subjects and preparatory-study requirements remain unconfirmed after this review. The linked official general requirements do not establish an exact Uzbek qualification or a rule for 2027 entry; requirements for another country or school system are not substituted.",
+    "internationalQualifications": "Uzbekistan / international / BSc / high-school selector: university-preparatory language arts plus generally four further preparatory courses; BSc requires pre-calculus. The result gives a 65% minimum in reviewed preparatory courses and individual country assessment, but names no accepted Uzbek credential, grade-scale conversion, required foundation or 2027 cycle. Official transcripts must come from the issuing institution, with notarized English translations when applicable.",
     "internationalQualificationsSource": "https://mta.ca/admissions/admission-requirements",
     "internationalQualificationsVerified": "2026-10-24"
   },
@@ -12234,15 +12239,17 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "The international-admission page describes US-patterned high-school subjects and grades without establishing an explicit SAT/ACT policy. Other curricula, programme exceptions and the 2027 cycle remain unconfirmed; this is not recorded as test-optional.",
-      "source": "https://www.smu.ca/future-students/admissions/internationaladmissions/",
-      "verified": "2026-10-24"
+      "policy": "conditional",
+      "note": "The official calendar requires SAT results under American School System. This does not establish an ACT alternative, a minimum SAT score, an Uzbek-school rule or Fall 2027 policy. The general international recruitment page does not mention SAT; its omission does not override the calendar requirement.",
+      "source": "https://smu-ca-public.courseleaf.com/undergraduate/recruitment-admission-services/",
+      "verified": "2026-10-24",
+      "label": "SAT required for the American school system — 2026–27 calendar",
+      "cycle": "2026–2027 Academic Calendar; effective September 2026"
     },
     "act": {
       "policy": null,
-      "note": "The international-admission page describes US-patterned high-school subjects and grades without establishing an explicit SAT/ACT policy. Other curricula, programme exceptions and the 2027 cycle remain unconfirmed; this is not recorded as test-optional.",
-      "source": "https://www.smu.ca/future-students/admissions/internationaladmissions/",
+      "note": "The American School System section requires SAT results but does not establish ACT as an alternative. ACT policy remains unconfirmed.",
+      "source": "https://smu-ca-public.courseleaf.com/undergraduate/recruitment-admission-services/",
       "verified": "2026-10-24"
     },
     "otherTests": null,
@@ -12347,6 +12354,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.smu.ca/future-students/programs/"
+    },
+    {
+      "label": "Saint Mary’s — official 2026–27 admission calendar",
+      "url": "https://smu-ca-public.courseleaf.com/undergraduate/recruitment-admission-services/"
     }
   ],
   "verification": {

@@ -431,7 +431,7 @@
         optional: ['Test-optional', 'You can apply without SAT or ACT scores.'],
         required: ['Required', 'SAT or ACT scores are required.'],
         'required-alternatives': ['Testing required, alternatives accepted', 'A test is required, but the university accepts alternatives to the SAT and ACT.'],
-        conditional: ['Only for some school systems', 'SAT or ACT is required only of applicants from the school systems named below; others are assessed without it.'],
+        conditional: ['Testing requirements depend on school system', 'Check the requirements for your school system and programme. A requirement for one route does not establish the policy for other routes.'],
         'not-used': ['Not used', 'SAT and ACT scores are not considered in admission.'],
         accepted: ['Accepted', 'Scores are accepted; whether they are required was not confirmed.'],
         'not-applicable': ['Not part of this admission route', 'This route does not use the SAT or ACT: selection rests on the qualifications and assessments listed here.'],

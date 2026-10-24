@@ -120,8 +120,8 @@
     } else if (policy === 'required') {
       checks.push({ level: 'soft', basis: 'minimum', text: 'SAT or ACT is required, and no score was entered.' });
     } else if (policy === 'conditional') {
-      checks.push({ level: 'info', text: 'SAT or ACT is required only for some school systems (see the profile); check whether yours is one of them.' });
-      unchecked.push('SAT/ACT — required only for some school systems, not entered');
+      checks.push({ level: 'info', text: 'Testing requirements depend on your school system and programme; see the scoped evidence in the profile.' });
+      unchecked.push('SAT/ACT — school-system requirements need individual checking');
     } else if (policy === 'required-alternatives') {
       checks.push({ level: 'info', text: 'Testing is required, but other exams can replace the SAT/ACT in the cases the university lists.' });
       unchecked.push('Required test (SAT/ACT or an accepted alternative) — not entered');

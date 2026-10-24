@@ -322,6 +322,15 @@ group('profile rendering');
   });
   ok(broken.length === 0, 'all ' + DB.universities.length + ' profiles render without an error', broken.slice(0, 4).join('; '));
   function page(id) { main.innerHTML = ''; P.renderProfile(U.uniById(id)); return main.innerHTML; }
+  var smuScoped = page('saint-marys-university');
+  ok(U.satPolicy(U.uniById('saint-marys-university')) === 'conditional' &&
+    U.uniById('saint-marys-university').academics.act.policy === null &&
+    /2026–2027 Academic Calendar/.test(smuScoped) &&
+    !/others are assessed without it/.test(smuScoped) && !U.satNotRequired(U.uniById('saint-marys-university')),
+    'Saint Marys: scoped American SAT evidence does not promise an ACT alternative or no-test admission for other school systems');
+  ok(U.satPolicy(U.uniById('brock-university')) === 'accepted' && !U.satNotRequired(U.uniById('brock-university')) &&
+    U.uniById('brock-university').academics.act.policy === null,
+    'Brock: SAT support for borderline US applications establishes acceptance, not universal test-optional or ACT acceptance');
   var hv = page('harvard-university');
   var aidCard = hv.slice(hv.indexOf('Need-based financial aid'));
   ok(/Financial aid deadlines[\s\S]{0,400}1 November 2026/.test(aidCard), 'Harvard: the aid section shows the confirmed dates from the rounds, not "Not checked"');

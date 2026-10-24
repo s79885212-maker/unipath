@@ -187,7 +187,7 @@
     'optional': 'Test-optional',
     'not-used': 'SAT/ACT not used',
     'accepted': 'SAT/ACT accepted — requirement not confirmed',
-    'conditional': 'SAT/ACT required only for some school systems',
+    'conditional': 'Testing requirements depend on school system',
     'not-applicable': 'SAT/ACT not part of this admission route',
     'unknown': 'SAT/ACT policy not checked'
   };
