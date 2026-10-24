@@ -156,7 +156,7 @@ var OTHER = ['opens', 'documents', 'portfolio', 'test', 'interview', 'aid', 'fin
 var badKinds = [], noSource = [], badStatus = [], oldConfirmed = [];
 DB.universities.forEach(function (u) {
   U.roundsOf(u).forEach(function (d) {
-    if (d.kind && !U.isApplicationDeadline(d) && OTHER.indexOf(d.kind) < 0) badKinds.push(u.id + ':' + d.kind);
+    if (d.kind && !U.isApplicationDeadline(d) && OTHER.indexOf(d.kind) < 0 && !(d.kind === 'admission' && d.awardId)) badKinds.push(u.id + ':' + d.kind);
     if (['confirmed', 'annual-rule', 'not-confirmed', 'previous-cycle'].indexOf(d.status) < 0) badStatus.push(u.id + ':' + d.name);
     if (d.status === 'confirmed' && (!d.source || !d.verified)) noSource.push(u.id + ':' + d.name);
     /* A confirmed application round must belong to the 2027 entry cycle or later. */

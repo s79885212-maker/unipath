@@ -472,12 +472,13 @@
          : '<span class="badge">Not checked</span>') + '</h3>' +
       '<dl class="deflist">' +
         row('Open to international students', yesNo(fr.internationalEligible)) +
-        row('Need-based or merit-based', or(fr.basis)) +
+        row('Need-based or merit-based', or(U.AWARD_BASIS[fr.basis] || fr.basis)) +
         row('What it covers', coverRow(fr.covers)) +
         (fr.available === true ? row('Costs that may remain', remainingCosts(fr.covers)) : '') +
         row('Renewal', yesNo(fr.renewable) + (has(fr.renewalConditions) ? '<br><span class="small muted">' + esc(fr.renewalConditions) + '</span>' : '')) +
         row('How competitive', or(fr.competitiveness)) +
         row('Application and deadline', or(fr.howToApply)) +
+        (has(fr.id) ? row('Deadline', U.awardDeadlineHtml(u, fr)) : '') +
         row('Test requirement for this award', has(fr.testRequirement) ? esc(fr.testRequirement)
           : (/^need-based$/i.test(String(fr.basis || '')) && fr.available === true
             ? '<span>Need-based: the award is assessed on family finances once you are admitted, so the test rules are the admission ones above.</span>'

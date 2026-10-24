@@ -30903,7 +30903,11 @@ window.UNIPATH.universities.push(
       "verified": "2026-10-24",
       "renewalConditions": "Up to four undergraduate years, subject to continued satisfactory academic performance",
       "detailsSource": "https://www.american.edu/admissions/international/au-egls-apply.cfm",
-      "detailsVerified": "2026-10-24"
+      "detailsVerified": "2026-10-24",
+      "id": "au-egls",
+      "category": "need-merit",
+      "entryTerm": "Autumn",
+      "entryYear": "2027"
     },
     "merit": [
       {

@@ -636,8 +636,8 @@
     test: 'Admissions test', interview: 'Interview', aid: 'Financial aid', scholarship: 'Scholarship',
     nomination: 'Nomination', deposit: 'Deposit', 'financial-aid': 'Financial aid',
     admission: 'Admission', decision: 'Decision', reply: 'Reply to offer', notice: 'Notice' };
-  function isApplicationDeadline(d) { return !d.kind || d.kind === 'admission' || APPLICATION_KINDS.hasOwnProperty(d.kind); }
-  function otherDateLabel(d) { return OTHER_DATE_KINDS[d.kind] || 'Other date'; }
+  function isApplicationDeadline(d) { return !d.awardId && (!d.kind || d.kind === 'admission' || APPLICATION_KINDS.hasOwnProperty(d.kind)); }
+  function otherDateLabel(d) { return d.kind === 'admission' && d.awardId ? 'Admission application for this award' : OTHER_DATE_KINDS[d.kind] || 'Other date'; }
   function roundStateLabel(d) { var s = roundState(d); return s ? ROUND_STATE[s] : null; }
   /* ---- intakes ----------------------------------------------------------
      A deadline belongs to the intake its source names. Intakes are reduced to
@@ -759,7 +759,7 @@
     if (!annual && (!award.entryTerm || !award.entryYear)) return [];
     return roundsOf(u).filter(function (d) {
       return d.awardId === award.id && d.awardCategory === award.category &&
-        (d.kind === 'scholarship' || d.kind === 'nomination' || d.kind === 'aid' || d.kind === 'financial-aid') &&
+        (d.kind === 'scholarship' || d.kind === 'nomination' || d.kind === 'aid' || d.kind === 'financial-aid' || d.kind === 'admission' || d.kind === 'documents') &&
         (annual ? d.status === 'annual-rule' && d.cycleEvidence && d.cycleEvidence.basis === 'annual-rule' &&
           d.entryTerm == null && d.entryYear == null && d.dateISO == null :
           d.entryTerm === award.entryTerm && String(d.entryYear) === String(award.entryYear));

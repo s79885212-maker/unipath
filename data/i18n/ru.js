@@ -16452,4 +16452,8 @@ window.UNIPATH_I18N.ru = {
   "UdeS — linked March 2022 guide; Uzbekistan sheet updated in 2006": "UdeS — связанный справочник марта 2022; узбекская памятка обновлена в 2006",
   "Uzbekistan-specific qualifications, grades, programme subjects and preparatory-study requirements remain unconfirmed after this review. The linked official general requirements do not establish an exact Uzbek qualification or a rule for 2027 entry; requirements for another country or school system are not substituted.": "Точные узбекские квалификации, оценки, предметы программы и требования подготовки после этой проверки остаются неподтверждёнными. Связанные официальные общие требования не устанавливают точный узбекский документ или правило набора 2027; условия другой страны или школьной системы не подставляются.",
   "General requirements reviewed — Uzbekistan-specific rule unresolved": "Общие требования проверены — точные условия для Узбекистана не установлены",
+  "Pearson school nomination deadline": "Срок школьной номинации Pearson",
+  "Secondary-school nomination for the Pearson Scholarship": "Школьная номинация на стипендию Pearson",
+  "One nomination per high school. The later scholarship-form deadline does not reopen nomination or the award-specific admission stage. The FAQ still contains older-cycle dates; these dates come from the explicit September 2027 application steps.": "Одна номинация от школы. Более поздний срок стипендиальной формы не открывает заново номинацию или специальный этап заявки на поступление. FAQ всё ещё содержит старые сроки; эти даты взяты из шагов для явно указанного сентября 2027.",
+  "Admission application for this award": "Заявка на поступление для этой стипендии",
 };

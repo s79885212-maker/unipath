@@ -5,7 +5,7 @@ module.exports = function (env) {
   DB.universities.forEach(function (u) {
     U.roundsOf(u).forEach(function (d) {
       if (d.cycleEvidence && d.status === 'confirmed' && U.roundStatus(d) !== 'confirmed') badEvidence.push(u.id + ':' + d.name);
-      if (d.awardId && !U.awardsAll(u).some(function (a) { return U.awardDates(u, a).indexOf(d) > -1; })) badLinks.push(u.id + ':' + d.awardId);
+      if (d.awardId && !U.awardsAll(u).concat([U.fullRide(u)]).some(function (a) { return U.awardDates(u, a).indexOf(d) > -1; })) badLinks.push(u.id + ':' + d.awardId);
     });
   });
   ok(!badEvidence.length, 'new cycle evidence satisfies the display contract', badEvidence.join('; '));
@@ -73,6 +73,19 @@ module.exports = function (env) {
   ok(U.roundsOf(mru).every(function (d) { return U.roundStatus(d) === 'confirmed'; }) &&
     U.roundsOf(mru).some(function (d) { return d.kind === 'documents' && d.dateISO === '2027-05-15' && !U.isApplicationDeadline(d); }),
     'Mount Royal: explicit Fall 2027 evidence establishes the cycle and keeps documents separate from the application');
+  var toronto = U.uniById('university-of-toronto'), pearson = U.awardDates(toronto, U.fullRide(toronto));
+  var atCheck = Date.UTC(2026, 9, 24, 12);
+  ok(pearson.length === 3 && pearson.every(function (d) { return U.roundStatus(d) === 'confirmed'; }) &&
+    pearson.some(function (d) { return d.kind === 'nomination' && U.deadlinePassed(d, atCheck); }) &&
+    pearson.some(function (d) { return d.kind === 'scholarship' && !U.deadlinePassed(d, atCheck); }),
+    'Pearson: at the audit date the confirmed nomination is closed while the separate scholarship form is still ahead');
+  ok(pearson.some(function (d) { return d.kind === 'admission'; }) && pearson.every(function (d) { return !U.isApplicationDeadline(d); }) &&
+    U.isApplicationDeadline({ kind: 'regular' }),
+    'the Pearson-specific admission prerequisite never replaces the university-wide admission deadline');
+  var ubc = U.uniById('university-of-british-columbia');
+  ok(U.roundsOf(ubc).every(function (d) { return U.roundStatus(d) === 'confirmed'; }) &&
+    U.awardDates(ubc, U.fullRide(ubc)).map(function (d) { return d.kind; }).join() === 'scholarship,documents',
+    'UBC: International Scholars award and documents link to that award only, with verified 2027 context');
   ok(/link not verified/.test(U.awardDeadlineHtml(acadia, Object.assign({}, additional, { id: null }))), 'an unlinked Acadia-style award explains the missing relation instead of contradicting the date table');
   ok(/no separate scholarship application/.test(U.awardDeadlineHtml(acadia, U.awardsAll(acadia)[0])),
     'Acadia automatic initial offer explains that no separate application is required');

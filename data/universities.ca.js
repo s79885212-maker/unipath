@@ -102,18 +102,27 @@ window.UNIPATH.universities.push(
       },
       {
         "name": "Pearson Scholarship: apply for admission",
-        "kind": "scholarship",
+        "kind": "admission",
         "entryTerm": "Autumn",
         "entryYear": "2027",
         "dateISO": "2026-10-16",
         "date": "16 October 2026",
-        "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Only for students their school has nominated (nominations closed on 9 October 2026).",
         "status": "confirmed",
         "source": "https://future.utoronto.ca/pearson-scholarships",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-24",
+        "note": null,
+        "awardId": "pearson",
+        "awardCategory": "merit",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://future.utoronto.ca/pearson-scholarships",
+          "verified": "2026-10-24",
+          "quote": "September 2027",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        }
       },
       {
         "name": "Pearson Scholarship application and documents",
@@ -122,13 +131,45 @@ window.UNIPATH.universities.push(
         "entryYear": "2027",
         "dateISO": "2026-11-06",
         "date": "6 November 2026",
-        "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": null,
         "status": "confirmed",
         "source": "https://future.utoronto.ca/pearson-scholarships",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-24",
+        "note": null,
+        "awardId": "pearson",
+        "awardCategory": "merit",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://future.utoronto.ca/pearson-scholarships",
+          "verified": "2026-10-24",
+          "quote": "September 2027",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        }
+      },
+      {
+        "name": "Pearson school nomination deadline",
+        "kind": "nomination",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-10-09",
+        "date": "9 October 2026",
+        "status": "confirmed",
+        "source": "https://future.utoronto.ca/pearson-scholarships",
+        "verified": "2026-10-24",
+        "appliesTo": "Secondary-school nomination for the Pearson Scholarship",
+        "conditions": "One nomination per high school. The later scholarship-form deadline does not reopen nomination or the award-specific admission stage. The FAQ still contains older-cycle dates; these dates come from the explicit September 2027 application steps.",
+        "awardId": "pearson",
+        "awardCategory": "merit",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://future.utoronto.ca/pearson-scholarships",
+          "verified": "2026-10-24",
+          "quote": "September 2027",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        }
       }
     ],
     "applicationFee": {
@@ -253,8 +294,14 @@ window.UNIPATH.universities.push(
       "howToApply": "Nomination by your secondary school (by 9 October 2026), then admission application by 16 October and scholarship application by 6 November 2026",
       "name": "Lester B. Pearson International Scholarship",
       "source": "https://future.utoronto.ca/pearson-scholarships",
-      "verified": "2026-10-15",
-      "note": "Covers tuition, books, incidental fees and full residence support for four years, for international students starting in September 2027 who are in their final year of school in 2026–27 or graduated no earlier than June 2026. For this cycle the nomination deadline has passed. The page’s FAQ still shows the previous cycle’s dates."
+      "verified": "2026-10-24",
+      "note": "Covers tuition, books, incidental fees and full residence support for four years, for international students starting in September 2027 who are in their final year of school in 2026–27 or graduated no earlier than June 2026. For this cycle the nomination deadline has passed. The page’s FAQ still shows the previous cycle’s dates.",
+      "id": "pearson",
+      "category": "merit",
+      "entryTerm": "Autumn",
+      "entryYear": "2027",
+      "detailsSource": "https://future.utoronto.ca/pearson-scholarships",
+      "detailsVerified": "2026-10-24"
     },
     "merit": [
       {
@@ -481,13 +528,22 @@ window.UNIPATH.universities.push(
         "date": "15 November 2026",
         "time": "23:59",
         "timezone": "PT",
-        "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Requires a school nomination and a teacher reference; for applicants with significant financial need.",
         "status": "confirmed",
         "source": "https://you.ubc.ca/applying-ubc/dates-deadlines/",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-24",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://you.ubc.ca/applying-ubc/dates-deadlines/",
+          "verified": "2026-10-24",
+          "quote": "September 2027",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "awardId": "international-scholars",
+        "awardCategory": "need"
       },
       {
         "name": "Application deadline",
@@ -503,8 +559,16 @@ window.UNIPATH.universities.push(
         "conditions": "Winter Session September 2027 to April 2028. Applying by this date also brings automatic consideration for merit awards.",
         "status": "confirmed",
         "source": "https://you.ubc.ca/applying-ubc/dates-deadlines/",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-24",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://you.ubc.ca/applying-ubc/dates-deadlines/",
+          "verified": "2026-10-24",
+          "quote": "September 2027",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        }
       },
       {
         "name": "Documents and English for International Scholars applicants",
@@ -513,13 +577,22 @@ window.UNIPATH.universities.push(
         "entryYear": "2027",
         "dateISO": "2027-01-31",
         "date": "31 January 2027",
-        "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": null,
         "status": "confirmed",
         "source": "https://you.ubc.ca/applying-ubc/dates-deadlines/",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-24",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://you.ubc.ca/applying-ubc/dates-deadlines/",
+          "verified": "2026-10-24",
+          "quote": "September 2027",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "awardId": "international-scholars",
+        "awardCategory": "need"
       },
       {
         "name": "Proof of English Language Admission Standard",
@@ -533,8 +606,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://you.ubc.ca/applying-ubc/dates-deadlines/",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-24",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://you.ubc.ca/applying-ubc/dates-deadlines/",
+          "verified": "2026-10-24",
+          "quote": "September 2027",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        }
       }
     ],
     "applicationFee": {
@@ -655,7 +736,11 @@ window.UNIPATH.universities.push(
       "name": "International Scholars Program (Karen McKellin International Leader of Tomorrow Award; Donald A. Wehrung International Student Award)",
       "source": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/international-scholars/",
       "verified": "2026-10-15",
-      "note": "UBC says these awards “range in value up to the full cost of a student’s academic program and living expenses” and are set by the financial need it assesses. Applicants are considered either for these need-based awards or for the merit awards, not both."
+      "note": "UBC says these awards “range in value up to the full cost of a student’s academic program and living expenses” and are set by the financial need it assesses. Applicants are considered either for these need-based awards or for the merit awards, not both.",
+      "id": "international-scholars",
+      "category": "need",
+      "entryTerm": "Autumn",
+      "entryYear": "2027"
     },
     "merit": [
       {

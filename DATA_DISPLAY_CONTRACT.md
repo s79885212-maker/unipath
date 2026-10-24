@@ -51,7 +51,8 @@ nomination, scholarship, aid (или financial-aid), deposit, reply — отде
 
 ## Связь со стипендией
 
-В `scholarships.merit[]` (включая записи других оснований) используются:
+В `scholarships.merit[]` (включая записи других оснований), а также у
+`scholarships.fullRide`, если это один конкретный проверенный award, используются:
 
 ```js
 { id: 'entrance', category: 'merit', entryTerm: 'Autumn', entryYear: '2027',
@@ -60,7 +61,13 @@ nomination, scholarship, aid (или financial-aid), deposit, reply — отде
 
 Событие связывается только при точном совпадении `awardId` ↔ `id`,
 `awardCategory` ↔ `category`, `entryTerm` и `entryYear`. `kind` события должен быть
-scholarship/nomination/aid/financial-aid. Названия не сопоставляются эвристически.
+scholarship/nomination/aid/financial-aid. Допускаются также явно связанные
+`documents` и `admission`: например, ранняя заявка на поступление для участия
+в конкретном конкурсе Pearson. Любое событие с `awardId` относится к этому
+award и не выбирается как общий ближайший срок поступления в вуз. Метка
+admission сохраняется, дата не переименовывается в scholarship. Названия не
+сопоставляются эвристически. Карточка крупнейшей стипендии при наличии её
+точного id использует тот же renderer, что и именованные стипендии и таблица.
 Ни одна общая дата помощи не переносится автоматически на все awards.
 Для опубликованного ежегодного правила без установленного набора допустим
 явный `deadlineScope: 'annual-rule'` у конкретной стипендии. У неё и события
