@@ -1,0 +1,408 @@
+[
+  {
+    "id": "laurentian-university",
+    "url": "https://laurentian.ca/academics/undergraduate-programs",
+    "quote": "Undergraduate Programs | Laurentian University",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "mcgill-university",
+    "url": "https://www.mcgill.ca/undergraduate-admissions/programs",
+    "quote": "Programs | Undergraduate Admissions - McGill University",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "york-university",
+    "url": "https://futurestudents.yorku.ca/programs",
+    "quote": "Programs of Study | Future Students | York University",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "university-of-prince-edward-island",
+    "url": "https://www.upei.ca/programs?field_program_level_value=undergraduate",
+    "quote": "UPEI Programs | UPEI",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "mount-allison-university",
+    "url": "https://mta.ca/academics/programs-and-degrees",
+    "quote": "Programs and degrees | Mount Allison",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "thompson-rivers-university",
+    "url": "https://www.tru.ca/programs.html",
+    "quote": "Programs | Thompson Rivers University",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "capilano-university",
+    "url": "https://www.capilanou.ca/programs--courses/search--select/find-a-program-or-course/",
+    "quote": "Find a Program or Course - Capilano University ",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "lakehead-university",
+    "url": "https://www.lakeheadu.ca/programs/undergraduate-programs",
+    "quote": "Undergraduate Programs | Lakehead University",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "university-of-manitoba",
+    "url": "https://umanitoba.ca/explore/programs-of-study",
+    "quote": "Undergraduate programs of study | Explore UM | University of Manitoba",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "concordia-university",
+    "url": "https://www.concordia.ca/academics/undergraduate.html",
+    "quote": "Undergraduate programs - Concordia University",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "dalhousie-university",
+    "url": "https://www.dal.ca/study/programs.html",
+    "quote": "Explore Programs | Welcome to Dalhousie University",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "university-of-windsor",
+    "url": "https://www.future.uwindsor.ca/programs/?p-level=undergraduate",
+    "quote": "Programs Archive - University of Windsor",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "queens-university",
+    "url": "https://www.queensu.ca/admission/undergraduate-programs",
+    "quote": "Undergraduate Programs",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "university-of-the-fraser-valley",
+    "url": "https://international.ufv.ca/future-students/programs/",
+    "quote": "UFV programs available to international students",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "university-of-northern-british-columbia",
+    "url": "https://www.unbc.ca/programs-courses",
+    "quote": "Programs and courses | UNBC",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "western-university",
+    "url": "https://welcome.uwo.ca/what-can-i-study/undergraduate-programs/index.html",
+    "quote": "Undergraduate Programs | Western University | London, Ontario, Canada",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "simon-fraser-university",
+    "url": "https://www.sfu.ca/students/admission/programs.html",
+    "quote": "Programs - Undergraduate Admission - Simon Fraser University ",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "trent-university",
+    "url": "https://www.trentu.ca/futurestudents/programs",
+    "quote": "Programs - Future Students - Trent University",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "carleton-university",
+    "url": "https://admissions.carleton.ca/programs/",
+    "quote": "Programs - Undergraduate Admissions - Carleton University",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "bishops-university",
+    "url": "https://www.ubishops.ca/academics/programs/",
+    "quote": "Academic Programs | Liberal Education | Bishop's University",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "universite-laval",
+    "url": "https://www.ulaval.ca/etudes/programmes?sessions_admission%5B0%5D=0",
+    "quote": "Trouvez votre programme d'études | Université Laval",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "universite-de-montreal",
+    "url": "https://admission.umontreal.ca/programmes-detudes/",
+    "quote": "Nos programmes d'études - Université de Montréal - Admission",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "university-of-calgary",
+    "url": "https://www.ucalgary.ca/future-students/undergraduate/programs",
+    "quote": "Programs | Future Students | University of Calgary",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "ontario-tech-university",
+    "url": "https://ontariotechu.ca/programs/",
+    "quote": "Programs",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "university-of-saskatchewan",
+    "url": "https://admissions.usask.ca/programs/find-a-program.php",
+    "quote": "Find a program - Admissions | University of Saskatchewan",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "universite-de-moncton",
+    "url": "https://www.umoncton.ca/programmes",
+    "quote": "Baccalauréats et autres programmes de 1er cycle | UMoncton",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "memorial-university-of-newfoundland",
+    "url": "https://www.mun.ca/main/programs/",
+    "quote": "Programs | Newfoundland and Labrador's University | Memorial University of",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "mount-saint-vincent-university",
+    "url": "https://www.msvu.ca/academics/",
+    "quote": "Academics | University programs | Halifax, Nova Scotia",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "wilfrid-laurier-university",
+    "url": "https://www.wlu.ca/programs/index.html",
+    "quote": "Academic Programs | Wilfrid Laurier University ",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "saint-marys-university",
+    "url": "https://www.smu.ca/future-students/programs/",
+    "quote": "Programs | Saint Mary's University ",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "university-of-regina",
+    "url": "https://www.uregina.ca/academics/index.html",
+    "quote": "Academic Programs | University of Regina",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "university-of-waterloo",
+    "url": "https://uwaterloo.ca/future-students/programs",
+    "quote": "Programs | Undergraduate Programs | University of Waterloo",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "university-of-toronto",
+    "url": "https://future.utoronto.ca/undergraduate-programs",
+    "quote": "Undergraduate Programs | Future Students. University of Toronto Skip to main content ",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "mcmaster-university",
+    "url": "https://future.mcmaster.ca/programs/",
+    "quote": "Undergraduate Programs",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "university-of-ottawa",
+    "url": "https://www.uottawa.ca/study/undergraduate-studies/undergraduate-programs",
+    "quote": "Undergraduate programs",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "universite-du-quebec-a-montreal",
+    "url": "https://etudier.uqam.ca/programmes",
+    "quote": "Programmes",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "university-of-british-columbia",
+    "url": "https://you.ubc.ca/programs/",
+    "quote": "Find a program by searching or browsing through the list.",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "university-of-new-brunswick",
+    "url": "https://www.unb.ca/academics/programs/",
+    "quote": "Academic Programs Search",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "toronto-metropolitan-university",
+    "url": "https://www.torontomu.ca/programs/undergraduate/",
+    "quote": "Undergraduate Programs",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "vancouver-island-university",
+    "url": "https://www.viu.ca/programs",
+    "quote": "Programs and Courses",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "university-of-victoria",
+    "url": "https://www.uvic.ca/undergraduate/programs/undergraduate-programs/index.php",
+    "quote": "Undergraduate programs",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "university-of-lethbridge",
+    "url": "https://www.ulethbridge.ca/future-student/programs",
+    "quote": "University of Lethbridge Undergraduate Programs & Degrees",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "university-of-guelph",
+    "url": "https://www.uoguelph.ca/programs/undergraduate",
+    "quote": "Undergraduate Programs",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "acadia-university",
+    "url": "https://www2.acadiau.ca/academics.html",
+    "quote": "Academics",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "mount-royal-university",
+    "url": "https://www.mtroyal.ca/ProgramsCourses/ProgramsOffered/index.htm",
+    "quote": "Programs Offered",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "st-francis-xavier-university",
+    "url": "https://www.stfx.ca/programs-courses/programs",
+    "quote": "Programs",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "universite-de-sherbrooke",
+    "url": "https://www.usherbrooke.ca/admission/programmes/",
+    "quote": "Programmes",
+    "verified": "2026-10-24",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements.",
+    "result": "verified-directory"
+  },
+  {
+    "id": "university-of-alberta",
+    "url": null,
+    "attempted": "https://www.ualberta.ca/en/undergraduate-programs/index.html",
+    "quote": null,
+    "verified": "2026-10-24",
+    "result": "unconfirmed — request returned HTTP 403; not bypassed",
+    "removedLinkReason": "Previous programme link was identical to the cost URL, a fee page or cost calculator.",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements."
+  },
+  {
+    "id": "brock-university",
+    "url": null,
+    "attempted": "https://brocku.ca/programs/undergraduate/",
+    "quote": null,
+    "verified": "2026-10-24",
+    "result": "unconfirmed — request returned HTTP 403; not bypassed",
+    "removedLinkReason": "Previous programme link was identical to the cost URL, a fee page or cost calculator.",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements."
+  },
+  {
+    "id": "university-of-winnipeg",
+    "url": null,
+    "attempted": "https://www.uwinnipeg.ca/future-student/academic-programs.html",
+    "quote": null,
+    "verified": "2026-10-24",
+    "result": "unconfirmed — request returned HTTP 403; not bypassed",
+    "removedLinkReason": "Previous programme link was identical to the cost URL, a fee page or cost calculator.",
+    "scope": "Programme directory destination only; not a complete review of degrees, campuses, languages or intake requirements."
+  }
+]

@@ -46,7 +46,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.ouac.on.ca/",
     "scholarships": "https://future.utoronto.ca/scholarships-international-students",
     "financialAid": "https://future.utoronto.ca/international-student-financial-aid",
-    "programs": "https://future.utoronto.ca/deadlines",
+    "programs": "https://future.utoronto.ca/undergraduate-programs",
     "cost": "https://future.utoronto.ca/fees"
   },
   "admissions": {
@@ -350,6 +350,10 @@ window.UNIPATH.universities.push(
     {
       "label": "OUAC — undergraduate fees",
       "url": "https://www.ouac.on.ca/guide/undergrad-fees"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://future.utoronto.ca/undergraduate-programs"
     }
   ],
   "verification": {
@@ -460,7 +464,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.educationplannerbc.ca/",
     "scholarships": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/",
     "financialAid": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/international-scholars/",
-    "programs": "https://students.ubc.ca/enrolment/finances/tuition-fees/undergraduate-tuition-fees",
+    "programs": "https://you.ubc.ca/programs/",
     "cost": "https://students.ubc.ca/enrolment/finances/tuition-fees/undergraduate-tuition-fees"
   },
   "admissions": {
@@ -751,6 +755,10 @@ window.UNIPATH.universities.push(
     {
       "label": "UBC Okanagan calendar — applicants following the American curriculum",
       "url": "https://okanagan.calendar.ubc.ca/admissions/applicants-following-american-secondary-school-curriculum"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://you.ubc.ca/programs/"
     }
   ],
   "verification": {
@@ -864,7 +872,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.mcgill.ca/undergraduate-admissions/apply",
     "scholarships": "https://www.mcgill.ca/studentaid/scholarships-aid/future-undergrads/entrance-scholarships",
     "financialAid": "https://www.mcgill.ca/studentaid/scholarships-aid/international-students",
-    "programs": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/international/other",
+    "programs": "https://www.mcgill.ca/undergraduate-admissions/programs",
     "cost": "https://www.mcgill.ca/student-accounts/tuition-charges/fallwinter-term-tuition-and-fees/undergraduate-fees"
   },
   "admissions": {
@@ -1104,6 +1112,10 @@ window.UNIPATH.universities.push(
     {
       "label": "McGill — U.S. high school requirements",
       "url": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/us"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://www.mcgill.ca/undergraduate-admissions/programs"
     }
   ],
   "verification": {
@@ -1214,7 +1226,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.ualberta.ca/en/admissions/how-to-apply/index.html",
     "scholarships": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/international-entrance-scholarships/index.html",
     "financialAid": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/international-entrance-scholarships/index.html",
-    "programs": "https://costcalculator.registrar.ualberta.ca/costcalculator/",
+    "programs": null,
     "cost": "https://costcalculator.registrar.ualberta.ca/costcalculator/"
   },
   "admissions": {
@@ -1511,7 +1523,8 @@ window.UNIPATH.universities.push(
     "unconfirmed": [
       "full list of majors",
       "tuition for Fall 2027 entry",
-      "founding year"
+      "founding year",
+      "official programme directory"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -1734,7 +1747,9 @@ window.UNIPATH.universities.push(
       "verified": "2026-10-15"
     },
     "otherTests": null,
-    "internationalQualifications": null
+    "internationalQualifications": "Uzbekistan-specific qualifications, grades, programme subjects and preparatory-study requirements remain unconfirmed after this review. The linked official general requirements do not establish an exact Uzbek qualification or a rule for 2027 entry; requirements for another country or school system are not substituted.",
+    "internationalQualificationsSource": "https://future.mcmaster.ca/apply/curriculum-requirements/",
+    "internationalQualificationsVerified": "2026-10-24"
   },
   "costs": {
     "breakdown": {
@@ -1997,7 +2012,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://admission.umontreal.ca/",
     "scholarships": "https://registraire.umontreal.ca/droits-de-scolarite/bourse-exemption/",
     "financialAid": "https://registraire.umontreal.ca/droits-de-scolarite/bourse-exemption/",
-    "programs": "https://admission.umontreal.ca/programmes/baccalaureat-en-informatique/",
+    "programs": "https://admission.umontreal.ca/programmes-detudes/",
     "cost": "https://registraire.umontreal.ca/droits-de-scolarite/couts/"
   },
   "admissions": {
@@ -2171,6 +2186,10 @@ window.UNIPATH.universities.push(
     {
       "label": "UdeM — general admission conditions for Uzbekistan",
       "url": "https://admission.umontreal.ca/admission/preparation-de-la-demande/verifier-les-conditions-dadmissibilite/par-pays-ou-diplome/equivalence-pays.html?tx_lboudemprogrammes_equivalencespays%5Baction%5D=show&tx_lboudemprogrammes_equivalencespays%5Bcontroller%5D=PaysEquivalence&tx_lboudemprogrammes_equivalencespays%5Bpays%5D=146&cHash=6a3234dd0be589374a08aa4d7413d72c"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://admission.umontreal.ca/programmes-detudes/"
     }
   ],
   "verification": {
@@ -2266,7 +2285,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.ouac.on.ca/",
     "scholarships": "https://uwaterloo.ca/future-students/financing/international-scholarships",
     "financialAid": "https://uwaterloo.ca/future-students/financing/international-scholarships",
-    "programs": "https://uwaterloo.ca/future-students/financing/tuition",
+    "programs": "https://uwaterloo.ca/future-students/programs",
     "cost": "https://uwaterloo.ca/future-students/financing/tuition"
   },
   "admissions": {
@@ -2519,6 +2538,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Waterloo — Computer Science requirements for high school students from Uzbekistan",
       "url": "https://uwaterloo.ca/future-students/admissions/admission-requirements/computer-science/high-school/international/uzbekistan"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://uwaterloo.ca/future-students/programs"
     }
   ],
   "verification": {
@@ -2624,7 +2647,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.ouac.on.ca/",
     "scholarships": "https://welcome.uwo.ca/next-steps/finances/index.html",
     "financialAid": "https://welcome.uwo.ca/next-steps/finances/index.html",
-    "programs": "https://welcome.uwo.ca/next-steps/apply/admission-deadlines.html",
+    "programs": "https://welcome.uwo.ca/what-can-i-study/undergraduate-programs/index.html",
     "cost": "https://welcome.uwo.ca/next-steps/finances/index.html"
   },
   "admissions": {
@@ -2844,6 +2867,10 @@ window.UNIPATH.universities.push(
     {
       "label": "OUAC — undergraduate fees",
       "url": "https://www.ouac.on.ca/guide/undergrad-fees"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://welcome.uwo.ca/what-can-i-study/undergraduate-programs/index.html"
     }
   ],
   "verification": {
@@ -3288,7 +3315,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.applyalberta.ca/",
     "scholarships": "https://www.ucalgary.ca/registrar/awards/university-calgary-international-entrance-scholarship",
     "financialAid": "https://www.ucalgary.ca/registrar/awards/university-calgary-international-entrance-scholarship",
-    "programs": "https://www.ucalgary.ca/registrar/finances/understanding-your-fees/undergraduate-student-cost-estimator",
+    "programs": "https://www.ucalgary.ca/future-students/undergraduate/programs",
     "cost": "https://www.ucalgary.ca/registrar/finances/understanding-your-fees/undergraduate-student-cost-estimator"
   },
   "admissions": {
@@ -3534,6 +3561,10 @@ window.UNIPATH.universities.push(
     {
       "label": "UCalgary — admission requirements (Uzbekistan, Computer Science)",
       "url": "https://www.ucalgary.ca/future-students/undergraduate/admissions/requirements?field_ugrad_student_types=1335&field_ugrad_education_systems=1836&field_ugrad_reqs_programs=1902"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://www.ucalgary.ca/future-students/undergraduate/programs"
     }
   ],
   "verification": {
@@ -3777,7 +3808,9 @@ window.UNIPATH.universities.push(
       "note": "Not checked on the pages read."
     },
     "otherTests": null,
-    "internationalQualifications": null
+    "internationalQualifications": "Uzbekistan-specific qualifications, grades, programme subjects and preparatory-study requirements remain unconfirmed after this review. The linked official general requirements do not establish an exact Uzbek qualification or a rule for 2027 entry; requirements for another country or school system are not substituted.",
+    "internationalQualificationsSource": "https://www.queensu.ca/admission/applying/admission-requirements",
+    "internationalQualificationsVerified": "2026-10-24"
   },
   "costs": {
     "breakdown": {
@@ -3917,6 +3950,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.queensu.ca/admission/undergraduate-programs"
+    },
+    {
+      "label": "General requirements reviewed — Uzbekistan-specific rule unresolved",
+      "url": "https://www.queensu.ca/admission/applying/admission-requirements"
     }
   ],
   "verification": {
@@ -4027,7 +4064,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.dal.ca/admissions/",
     "scholarships": "https://www.dal.ca/admissions/scholarships-financial-aid/scholarships/future-undergraduate-student-awards.html",
     "financialAid": "https://www.dal.ca/admissions/scholarships-financial-aid/scholarships/future-undergraduate-student-awards.html",
-    "programs": "https://www.dal.ca/admissions/cost-and-payment/tuition/international-tuition-guarantee.html",
+    "programs": "https://www.dal.ca/study/programs.html",
     "cost": "https://www.dal.ca/admissions/cost-and-payment/tuition/undergraduate-program-tuition.html"
   },
   "admissions": {
@@ -4295,6 +4332,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Dal — admission requirements for US-curriculum applicants",
       "url": "https://www.dal.ca/admissions/how-to-apply/undergraduate-admissions/international-applicants/us-applicants.html"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://www.dal.ca/study/programs.html"
     }
   ],
   "verification": {
@@ -4403,7 +4444,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.educationplannerbc.ca/",
     "scholarships": "https://www.sfu.ca/students/admission/fees-scholarships/uses.html",
     "financialAid": "https://www.sfu.ca/students/admission/fees-scholarships.html",
-    "programs": "https://www.sfu.ca/students/admission/apply/dates-deadlines/high-school/fall-term.html",
+    "programs": "https://www.sfu.ca/students/admission/programs.html",
     "cost": "https://www.sfu.ca/students/admission/fees-scholarships.html"
   },
   "admissions": {
@@ -4553,7 +4594,9 @@ window.UNIPATH.universities.push(
       "verified": "2026-10-15"
     },
     "otherTests": null,
-    "internationalQualifications": null
+    "internationalQualifications": "Uzbekistan-specific qualifications, grades, programme subjects and preparatory-study requirements remain unconfirmed after this review. The linked official general requirements do not establish an exact Uzbek qualification or a rule for 2027 entry; requirements for another country or school system are not substituted.",
+    "internationalQualificationsSource": "https://www.sfu.ca/students/admission/admission-requirements/international-highschool.html",
+    "internationalQualificationsVerified": "2026-10-24"
   },
   "costs": {
     "breakdown": {
@@ -4654,6 +4697,14 @@ window.UNIPATH.universities.push(
     {
       "label": "SFU — U.S. high school requirements",
       "url": "https://www.sfu.ca/students/admission/admission-requirements/usa-highschool.html"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://www.sfu.ca/students/admission/programs.html"
+    },
+    {
+      "label": "General requirements reviewed — Uzbekistan-specific rule unresolved",
+      "url": "https://www.sfu.ca/students/admission/admission-requirements/international-highschool.html"
     }
   ],
   "verification": {
@@ -4743,7 +4794,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.ulaval.ca/admission",
     "scholarships": "https://www.ulaval.ca/etudes/droits-de-scolarite/etudiant-etranger",
     "financialAid": "https://www.ulaval.ca/etudes/droits-de-scolarite/etudiant-etranger",
-    "programs": "https://www.ulaval.ca/admission/deposez-votre-demande-dadmission/dates-limites-de-depot",
+    "programs": "https://www.ulaval.ca/etudes/programmes?sessions_admission%5B0%5D=0",
     "cost": "https://www.ulaval.ca/etudes/droits-de-scolarite/etudiant-de-linternational/programmes-de-1er-cycle/automne-2026-hiver-2027"
   },
   "admissions": {
@@ -4926,6 +4977,10 @@ window.UNIPATH.universities.push(
     {
       "label": "ULaval — academic equivalence (English)",
       "url": "https://www.ulaval.ca/en/ulaval-experience/international-applicants/academic-equivalence"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://www.ulaval.ca/etudes/programmes?sessions_admission%5B0%5D=0"
     }
   ],
   "verification": {
@@ -5013,7 +5068,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://apply.usask.ca/",
     "scholarships": "https://admissions.usask.ca/money/scholarships.php",
     "financialAid": "https://admissions.usask.ca/money/scholarships.php",
-    "programs": "https://admissions.usask.ca/money/tuition.php",
+    "programs": "https://admissions.usask.ca/programs/find-a-program.php",
     "cost": "https://admissions.usask.ca/money/tuition.php"
   },
   "admissions": {
@@ -5132,7 +5187,9 @@ window.UNIPATH.universities.push(
       "verified": "2026-10-24"
     },
     "otherTests": null,
-    "internationalQualifications": null
+    "internationalQualifications": "Uzbekistan-specific qualifications, grades, programme subjects and preparatory-study requirements remain unconfirmed after this review. The linked official general requirements do not establish an exact Uzbek qualification or a rule for 2027 entry; requirements for another country or school system are not substituted.",
+    "internationalQualificationsSource": "https://admissions.usask.ca/requirements/deadlines.php",
+    "internationalQualificationsVerified": "2026-10-24"
   },
   "costs": {
     "breakdown": {
@@ -5272,6 +5329,14 @@ window.UNIPATH.universities.push(
     {
       "label": "SAT/ACT scope review — general policy unresolved",
       "url": "https://admissions.usask.ca/requirements/home-based.php"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://admissions.usask.ca/programs/find-a-program.php"
+    },
+    {
+      "label": "General requirements reviewed — Uzbekistan-specific rule unresolved",
+      "url": "https://admissions.usask.ca/requirements/deadlines.php"
     }
   ],
   "verification": {
@@ -5384,7 +5449,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://umanitoba.ca/explore/undergraduate-admissions",
     "scholarships": "https://umanitoba.ca/financial-aid-and-awards/entrance-awards",
     "financialAid": "https://umanitoba.ca/financial-aid-and-awards/entrance-awards",
-    "programs": "https://umanitoba.ca/registrar/tuition-fees/undergraduate",
+    "programs": "https://umanitoba.ca/explore/programs-of-study",
     "cost": "https://umanitoba.ca/registrar/tuition-fees/undergraduate"
   },
   "admissions": {
@@ -5616,6 +5681,10 @@ window.UNIPATH.universities.push(
     {
       "label": "UM — admission requirements for US-curriculum applicants",
       "url": "https://umanitoba.ca/explore/student-experience/applying-united-states"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://umanitoba.ca/explore/programs-of-study"
     }
   ],
   "verification": {
@@ -5733,7 +5802,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.ouac.on.ca/",
     "scholarships": "https://www.uoguelph.ca/admission/undergraduate/international/funding",
     "financialAid": "https://www.uoguelph.ca/admission/undergraduate/international/funding",
-    "programs": "https://www.uoguelph.ca/admission/undergraduate/international/funding",
+    "programs": "https://www.uoguelph.ca/programs/undergraduate",
     "cost": "https://www.uoguelph.ca/admission/undergraduate/international/funding"
   },
   "admissions": {
@@ -6024,6 +6093,10 @@ window.UNIPATH.universities.push(
     {
       "label": "OUAC — undergraduate fees",
       "url": "https://www.ouac.on.ca/guide/undergrad-fees"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://www.uoguelph.ca/programs/undergraduate"
     }
   ],
   "verification": {
@@ -6136,7 +6209,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://carleton360.carleton.ca/",
     "scholarships": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/",
     "financialAid": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/",
-    "programs": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/",
+    "programs": "https://admissions.carleton.ca/programs/",
     "cost": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/"
   },
   "admissions": {
@@ -6394,6 +6467,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Carleton — admission requirements for US-curriculum applicants",
       "url": "https://admissions.carleton.ca/applicant-type/united-states-high-school-students/"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://admissions.carleton.ca/programs/"
     }
   ],
   "verification": {
@@ -6515,7 +6592,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://futurestudents.yorku.ca/requirements/apply",
     "scholarships": "https://futurestudents.yorku.ca/financing-your-degree/international-scholarships",
     "financialAid": "https://futurestudents.yorku.ca/financing-your-degree/international-scholarships",
-    "programs": "https://futurestudents.yorku.ca/requirements/deadlines",
+    "programs": "https://futurestudents.yorku.ca/programs",
     "cost": "https://futurestudents.yorku.ca/financing-your-degree/tuition-fees"
   },
   "admissions": {
@@ -6796,6 +6873,10 @@ window.UNIPATH.universities.push(
     {
       "label": "York — international applicants and SAT/ACT",
       "url": "https://futurestudents.yorku.ca/your-application/how-apply/international-student"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://futurestudents.yorku.ca/programs"
     }
   ],
   "verification": {
@@ -6910,7 +6991,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.concordia.ca/admissions/undergraduate/apply-now.html",
     "scholarships": "https://www.concordia.ca/students/financial/scholarships-funding/scholarships.html",
     "financialAid": "https://www.concordia.ca/admissions/undergraduate/costs-aid.html",
-    "programs": "https://www.concordia.ca/students/financial/tuition-fees/rates/undergrad.html",
+    "programs": "https://www.concordia.ca/academics/undergraduate.html",
     "cost": "https://www.concordia.ca/students/financial/tuition-fees/rates/undergrad.html"
   },
   "admissions": {
@@ -7133,6 +7214,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Concordia — scholarships",
       "url": "https://www.concordia.ca/students/financial/scholarships-funding/scholarships.html"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://www.concordia.ca/academics/undergraduate.html"
     }
   ],
   "verification": {
@@ -7235,7 +7320,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://apply.mun.ca/",
     "scholarships": "https://www.mun.ca/scholarships/entrance-scholarships/international-students/",
     "financialAid": "https://www.mun.ca/scholarships/entrance-scholarships/international-students/",
-    "programs": "https://www.mun.ca/undergrad/admissions/admission-deadlines/",
+    "programs": "https://www.mun.ca/main/programs/",
     "cost": "https://www.mun.ca/undergrad/money-matters/"
   },
   "admissions": {
@@ -7458,6 +7543,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Memorial — international entrance scholarships",
       "url": "https://www.mun.ca/scholarships/entrance-scholarships/international-students/"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://www.mun.ca/main/programs/"
     }
   ],
   "verification": {
@@ -7566,7 +7655,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://apply.unb.ca/",
     "scholarships": "https://www.unb.ca/moneymatters/scholarships/international.html",
     "financialAid": "https://www.unb.ca/moneymatters/scholarships/international.html",
-    "programs": "https://www.unb.ca/international/apply/deadlines.html",
+    "programs": "https://www.unb.ca/academics/programs/",
     "cost": "https://www.unb.ca/international/financial/index.html"
   },
   "admissions": {
@@ -7787,6 +7876,10 @@ window.UNIPATH.universities.push(
     {
       "label": "UNB Fredericton — undergraduate tuition and fees",
       "url": "https://www.unb.ca/finance/financial-services/undergraduate/fredericton.html"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://www.unb.ca/academics/programs/"
     }
   ],
   "verification": {
@@ -7965,7 +8058,9 @@ window.UNIPATH.universities.push(
       "note": "Not checked on the pages read."
     },
     "otherTests": null,
-    "internationalQualifications": null
+    "internationalQualifications": "Uzbekistan-specific qualifications, grades, programme subjects and preparatory-study requirements remain unconfirmed after this review. The linked official general requirements do not establish an exact Uzbek qualification or a rule for 2027 entry; requirements for another country or school system are not substituted.",
+    "internationalQualificationsSource": "https://future.uwindsor.ca/apply-international",
+    "internationalQualificationsVerified": "2026-10-24"
   },
   "costs": {
     "breakdown": {
@@ -8195,7 +8290,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://apply.uregina.ca/apply/",
     "scholarships": "https://www.uregina.ca/ur-international/scholarships.html",
     "financialAid": "https://www.uregina.ca/ur-international/scholarships.html",
-    "programs": "https://www.uregina.ca/admissions/undergraduate/deadlines.html",
+    "programs": "https://www.uregina.ca/academics/index.html",
     "cost": "https://www.uregina.ca/ur-international/tuition-and-fees.html"
   },
   "admissions": {
@@ -8298,7 +8393,9 @@ window.UNIPATH.universities.push(
       "note": "Not checked on the pages read."
     },
     "otherTests": null,
-    "internationalQualifications": null
+    "internationalQualifications": "Uzbekistan-specific qualifications, grades, programme subjects and preparatory-study requirements remain unconfirmed after this review. The linked official general requirements do not establish an exact Uzbek qualification or a rule for 2027 entry; requirements for another country or school system are not substituted.",
+    "internationalQualificationsSource": "https://www.uregina.ca/admissions/application-guide/index.html",
+    "internationalQualificationsVerified": "2026-10-24"
   },
   "costs": {
     "breakdown": {
@@ -8423,6 +8520,14 @@ window.UNIPATH.universities.push(
     {
       "label": "University of Regina — Undergraduate Calendar 2026–2027 (PDF)",
       "url": "https://www.uregina.ca/registrar/assets/docs/pdf/calendar/2026-2027-u-of-r-undergraduate-calendar.pdf"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://www.uregina.ca/academics/index.html"
+    },
+    {
+      "label": "General requirements reviewed — Uzbekistan-specific rule unresolved",
+      "url": "https://www.uregina.ca/admissions/application-guide/index.html"
     }
   ],
   "verification": {
@@ -8518,7 +8623,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.ouac.on.ca/",
     "scholarships": "https://safa.ontariotechu.ca/awards-bursaries-and-scholarships/undergraduate-student-finances/scholarships/scholarships-and-awards-for-international-students.php",
     "financialAid": "https://safa.ontariotechu.ca/awards-bursaries-and-scholarships/undergraduate-student-finances/scholarships/scholarships-and-awards-for-international-students.php",
-    "programs": "https://registrar.ontariotechu.ca/fees-and-payment/international-student-tuition/undergraduate-international-tuition-2026-2027.php",
+    "programs": "https://ontariotechu.ca/programs/",
     "cost": "https://registrar.ontariotechu.ca/fees-and-payment/international-student-tuition/undergraduate-international-tuition-2026-2027.php"
   },
   "admissions": {
@@ -8779,6 +8884,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Ontario Tech — international admission requirements",
       "url": "https://admissions.ontariotechu.ca/applicant-information/international-admission-requirements.php"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://ontariotechu.ca/programs/"
     }
   ],
   "verification": {
@@ -8890,7 +8999,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.ouac.on.ca/",
     "scholarships": "https://www.torontomu.ca/admissions/scholarships-awards/",
     "financialAid": "https://www.torontomu.ca/admissions/scholarships-awards/",
-    "programs": "https://www.torontomu.ca/admissions/tuition-fees/",
+    "programs": "https://www.torontomu.ca/programs/undergraduate/",
     "cost": "https://www.torontomu.ca/admissions/tuition-fees/"
   },
   "admissions": {
@@ -9142,6 +9251,10 @@ window.UNIPATH.universities.push(
     {
       "label": "OUAC — undergraduate fees",
       "url": "https://www.ouac.on.ca/guide/undergrad-fees"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://www.torontomu.ca/programs/undergraduate/"
     }
   ],
   "verification": {
@@ -9245,7 +9358,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://brocku.ca/admissions/apply/",
     "scholarships": "https://brocku.ca/safa/2026-international-students/",
     "financialAid": "https://brocku.ca/safa/2026-international-students/",
-    "programs": "https://brocku.ca/safa/2026-undergraduate-fall-winter-tuition-and-fees-subject-to-change-updates-in-progress-and-pending-board-of-trustee-approval/",
+    "programs": null,
     "cost": "https://brocku.ca/safa/2026-undergraduate-fall-winter-tuition-and-fees-subject-to-change-updates-in-progress-and-pending-board-of-trustee-approval/"
   },
   "admissions": {
@@ -9479,7 +9592,8 @@ window.UNIPATH.universities.push(
       "test policy",
       "2027 tuition and award values",
       "full list of majors",
-      "founding year"
+      "founding year",
+      "official programme directory"
     ]
   },
   "lastVerified": "2026-10-16",
@@ -9565,7 +9679,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.ouac.on.ca/",
     "scholarships": "https://www.wlu.ca/future-students/undergraduate/tuition-finances/entrance-scholarships.html",
     "financialAid": "https://www.wlu.ca/future-students/undergraduate/tuition-finances/entrance-scholarships.html",
-    "programs": "https://www.wlu.ca/future-students/undergraduate/applicants/international/tuition-and-finances.html",
+    "programs": "https://www.wlu.ca/programs/index.html",
     "cost": "https://www.wlu.ca/future-students/undergraduate/applicants/international/tuition-and-finances.html"
   },
   "admissions": {
@@ -9671,7 +9785,9 @@ window.UNIPATH.universities.push(
       "verified": "2026-10-24"
     },
     "otherTests": null,
-    "internationalQualifications": null
+    "internationalQualifications": "Uzbekistan-specific qualifications, grades, programme subjects and preparatory-study requirements remain unconfirmed after this review. The linked official general requirements do not establish an exact Uzbek qualification or a rule for 2027 entry; requirements for another country or school system are not substituted.",
+    "internationalQualificationsSource": "https://www.wlu.ca/future-students/undergraduate/admissions/requirements/international.html",
+    "internationalQualificationsVerified": "2026-10-24"
   },
   "costs": {
     "breakdown": {
@@ -9806,6 +9922,14 @@ window.UNIPATH.universities.push(
     {
       "label": "SAT/ACT scope review — general policy unresolved",
       "url": "https://www.wlu.ca/future-students/undergraduate/admissions/assets/resources/sat-act-curriculum.html"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://www.wlu.ca/programs/index.html"
+    },
+    {
+      "label": "General requirements reviewed — Uzbekistan-specific rule unresolved",
+      "url": "https://www.wlu.ca/future-students/undergraduate/admissions/requirements/international.html"
     }
   ],
   "verification": {
@@ -9926,7 +10050,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.trentu.ca/futurestudents/apply/international-students",
     "scholarships": "https://www.trentu.ca/international/discover-trent/tuition-scholarships/scholarships",
     "financialAid": "https://www.trentu.ca/international/discover-trent/tuition-scholarships/scholarships",
-    "programs": "https://www.trentu.ca/futurestudents/international-undergraduate",
+    "programs": "https://www.trentu.ca/futurestudents/programs",
     "cost": "https://www.trentu.ca/international/finance-scholarships/estimated-cost-living-and-studying"
   },
   "admissions": {
@@ -10193,6 +10317,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Trent — admission requirements by country",
       "url": "https://www.trentu.ca/futurestudents/admissions/admissions-requirements-country"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://www.trentu.ca/futurestudents/programs"
     }
   ],
   "verification": {
@@ -10329,7 +10457,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.ouac.on.ca/",
     "scholarships": "https://www.lakeheadu.ca/international/future/scholarships-awards",
     "financialAid": "https://www.lakeheadu.ca/international/future/scholarships-awards",
-    "programs": "https://www.lakeheadu.ca/students/finances/student-fees/fees/undergraduate-fees/2026-2027",
+    "programs": "https://www.lakeheadu.ca/programs/undergraduate-programs",
     "cost": "https://www.lakeheadu.ca/students/finances/student-fees/fees/undergraduate-fees/2026-2027"
   },
   "admissions": {
@@ -10528,6 +10656,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Lakehead — admission requirements for US-curriculum applicants",
       "url": "https://www.lakeheadu.ca/studentcentral/applying/general-admission-requirements/international-student/admission-requirements-by-country"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://www.lakeheadu.ca/programs/undergraduate-programs"
     }
   ],
   "verification": {
@@ -10694,7 +10826,9 @@ window.UNIPATH.universities.push(
       "verified": "2026-10-17"
     },
     "otherTests": null,
-    "internationalQualifications": "Uzbekistan: not listed on UPEI’s country page. For Russia the page asks for the Attestat o srednem obrazovanii with a minimum average of 4/5."
+    "internationalQualifications": "Uzbekistan-specific qualifications, grades, programme subjects and preparatory-study requirements remain unconfirmed after this review. The linked official general requirements do not establish an exact Uzbek qualification or a rule for 2027 entry; requirements for another country or school system are not substituted.",
+    "internationalQualificationsSource": "https://www.upei.ca/admission-requirements/country-specific-requirements",
+    "internationalQualificationsVerified": "2026-10-24"
   },
   "costs": {
     "breakdown": {
@@ -10881,7 +11015,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://connect.acadiau.ca/portal/apply_ug",
     "scholarships": "https://www2.acadiau.ca/student-services/scholarships-financial-aid/international-students/entrance-scholarships.html",
     "financialAid": "https://www2.acadiau.ca/student-services/scholarships-financial-aid/international-students/entrance-scholarships.html",
-    "programs": "https://www2.acadiau.ca/admissions/application-process/international-students.html",
+    "programs": "https://www2.acadiau.ca/academics.html",
     "cost": "https://www2.acadiau.ca/student-services/student-accounts/tuition-fees/full-time-student-fees.html"
   },
   "admissions": {
@@ -11121,6 +11255,10 @@ window.UNIPATH.universities.push(
     {
       "label": "SAT/ACT scope review — general policy unresolved",
       "url": "https://www2.acadiau.ca/admissions/application-process/american-students.html"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://www2.acadiau.ca/academics.html"
     }
   ],
   "verification": {
@@ -11204,7 +11342,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.stfx.ca/applications-admissions",
     "scholarships": "https://www.stfx.ca/applications-admissions/admissions-information/after-you-apply/scholarships",
     "financialAid": "https://www.stfx.ca/applications-admissions/admissions-information/after-you-apply/scholarships",
-    "programs": "https://www.stfx.ca/student-accounts",
+    "programs": "https://www.stfx.ca/programs-courses/programs",
     "cost": "https://www.stfx.ca/student-accounts"
   },
   "admissions": {
@@ -11319,7 +11457,9 @@ window.UNIPATH.universities.push(
       "note": "Not checked on the pages read."
     },
     "otherTests": null,
-    "internationalQualifications": null
+    "internationalQualifications": "Uzbekistan-specific qualifications, grades, programme subjects and preparatory-study requirements remain unconfirmed after this review. The linked official general requirements do not establish an exact Uzbek qualification or a rule for 2027 entry; requirements for another country or school system are not substituted.",
+    "internationalQualificationsSource": "https://www.stfx.ca/applications-admissions/admissions-information/admission-requirements/high-school",
+    "internationalQualificationsVerified": "2026-10-24"
   },
   "costs": {
     "breakdown": {
@@ -11444,6 +11584,10 @@ window.UNIPATH.universities.push(
     {
       "label": "StFX — Academic Calendar 2026–2027 (PDF)",
       "url": "https://www.stfx.ca/sites/default/files/documents/2026-2027%20Academic%20Calendar_Sep25.pdf"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://www.stfx.ca/programs-courses/programs"
     }
   ],
   "verification": {
@@ -11667,7 +11811,9 @@ window.UNIPATH.universities.push(
       "note": "Not checked on the pages read."
     },
     "otherTests": null,
-    "internationalQualifications": null
+    "internationalQualifications": "Uzbekistan-specific qualifications, grades, programme subjects and preparatory-study requirements remain unconfirmed after this review. The linked official general requirements do not establish an exact Uzbek qualification or a rule for 2027 entry; requirements for another country or school system are not substituted.",
+    "internationalQualificationsSource": "https://mta.ca/admissions/admission-requirements",
+    "internationalQualificationsVerified": "2026-10-24"
   },
   "costs": {
     "breakdown": {
@@ -11886,7 +12032,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.smu.ca/future-students/admissions/cs-apply-online.html",
     "scholarships": "https://www.smu.ca/future-students/moneymatters/scholarshipsawards/",
     "financialAid": "https://www.smu.ca/future-students/moneymatters/scholarshipsawards/",
-    "programs": "https://www.smu.ca/future-students/moneymatters/tuitionandfees/",
+    "programs": "https://www.smu.ca/future-students/programs/",
     "cost": "https://www.smu.ca/future-students/moneymatters/tuitionandfees/"
   },
   "admissions": {
@@ -12075,6 +12221,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Saint Mary’s — international admission requirements",
       "url": "https://www.smu.ca/future-students/admissions/internationaladmissions/"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://www.smu.ca/future-students/programs/"
     }
   ],
   "verification": {
@@ -12171,7 +12321,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.ubishops.ca/admissions/bishops-university-online-application/",
     "scholarships": "https://www.ubishops.ca/admissions/scholarships-awards-bursaries/",
     "financialAid": "https://www.ubishops.ca/admissions/scholarships-awards-bursaries/",
-    "programs": "https://www.ubishops.ca/admissions/admission-requirements/international-high-school-students/",
+    "programs": "https://www.ubishops.ca/academics/programs/",
     "cost": "https://www.ubishops.ca/admissions/tuition-and-fees/"
   },
   "admissions": {
@@ -12276,7 +12426,9 @@ window.UNIPATH.universities.push(
       "verified": "2026-10-17"
     },
     "otherTests": null,
-    "internationalQualifications": "Uzbekistan: not named. Bishop’s normally expects 12 years of schooling; applicants from systems that end after 11 years are evaluated individually."
+    "internationalQualifications": "Uzbekistan: not named. Bishop’s normally expects 12 years of schooling; applicants from systems that end after 11 years are evaluated individually.",
+    "internationalQualificationsSource": "https://www.ubishops.ca/admissions/admission-requirements/international-high-school-students/",
+    "internationalQualificationsVerified": "2026-10-24"
   },
   "costs": {
     "breakdown": {
@@ -12382,6 +12534,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Bishop’s — international high school students",
       "url": "https://www.ubishops.ca/admissions/admission-requirements/international-high-school-students/"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://www.ubishops.ca/academics/programs/"
     }
   ],
   "verification": {
@@ -12490,7 +12646,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.applyalberta.ca/",
     "scholarships": "https://www.ulethbridge.ca/future-student/awards-and-scholarships",
     "financialAid": "https://www.ulethbridge.ca/future-student/awards-and-scholarships",
-    "programs": "https://www.ulethbridge.ca/future-student/important-dates",
+    "programs": "https://www.ulethbridge.ca/future-student/programs",
     "cost": "https://www.ulethbridge.ca/future-student/undergraduate-tuition-fees"
   },
   "admissions": {
@@ -12610,7 +12766,9 @@ window.UNIPATH.universities.push(
       "note": "Not checked on the pages read."
     },
     "otherTests": null,
-    "internationalQualifications": null
+    "internationalQualifications": "Uzbekistan-specific qualifications, grades, programme subjects and preparatory-study requirements remain unconfirmed after this review. The linked official general requirements do not establish an exact Uzbek qualification or a rule for 2027 entry; requirements for another country or school system are not substituted.",
+    "internationalQualificationsSource": "https://www.ulethbridge.ca/ross/admissions/undergrad/international/intreq_table",
+    "internationalQualificationsVerified": "2026-10-24"
   },
   "costs": {
     "breakdown": {
@@ -12727,6 +12885,10 @@ window.UNIPATH.universities.push(
     {
       "label": "ULethbridge — standardized test admission",
       "url": "https://www.ulethbridge.ca/ross/admissions/undergrad/standardized-test"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://www.ulethbridge.ca/future-student/programs"
     }
   ],
   "verification": {
@@ -12832,7 +12994,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.uwinnipeg.ca/future-student/apply/ready-to-apply.html",
     "scholarships": "https://www.uwinnipeg.ca/awards/awards-bursaries-and-scholarships/international-students.html",
     "financialAid": "https://www.uwinnipeg.ca/awards/awards-bursaries-and-scholarships/international-students.html",
-    "programs": "https://www.uwinnipeg.ca/fees/tuition.html",
+    "programs": null,
     "cost": "https://www.uwinnipeg.ca/fees/tuition.html"
   },
   "admissions": {
@@ -13053,7 +13215,8 @@ window.UNIPATH.universities.push(
     "unconfirmed": [
       "fall 2027 application deadline",
       "full list of majors",
-      "founding year"
+      "founding year",
+      "official programme directory"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -13132,7 +13295,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.msvu.ca/future-students/apply-now/undergraduate-application/",
     "scholarships": "https://www.msvu.ca/future-students/money-matters/scholarships-awards/undergraduate-scholarships/",
     "financialAid": "https://www.msvu.ca/future-students/money-matters/scholarships-awards/undergraduate-scholarships/",
-    "programs": "https://www.msvu.ca/future-students/admission-requirements/application-deadlines/",
+    "programs": "https://www.msvu.ca/academics/",
     "cost": "https://www.msvu.ca/future-students/money-matters/tuition-fees/"
   },
   "admissions": {
@@ -13229,7 +13392,9 @@ window.UNIPATH.universities.push(
       "note": "Not checked on the pages read."
     },
     "otherTests": null,
-    "internationalQualifications": null
+    "internationalQualifications": "Uzbekistan-specific qualifications, grades, programme subjects and preparatory-study requirements remain unconfirmed after this review. The linked official general requirements do not establish an exact Uzbek qualification or a rule for 2027 entry; requirements for another country or school system are not substituted.",
+    "internationalQualificationsSource": "https://www.msvu.ca/future-students/admission-requirements/international-students/",
+    "internationalQualificationsVerified": "2026-10-24"
   },
   "costs": {
     "breakdown": {
@@ -13331,6 +13496,10 @@ window.UNIPATH.universities.push(
     {
       "label": "MSVU — admission requirements for US-curriculum applicants",
       "url": "https://www.msvu.ca/future-students/admission-requirements/international-students/"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://www.msvu.ca/academics/"
     }
   ],
   "verification": {
@@ -13414,7 +13583,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.mtroyal.ca/Admission/Apply/index.htm",
     "scholarships": "https://www.mtroyal.ca/Admission/FinancingYourEducation/ScholarshipsBursaries/awardinfo.htm",
     "financialAid": "https://www.mtroyal.ca/Admission/FinancingYourEducation/ScholarshipsBursaries/awardinfo.htm",
-    "programs": "https://www.mtroyal.ca/academics/fees/pages/2026-27/international-student-tuition-max.php",
+    "programs": "https://www.mtroyal.ca/ProgramsCourses/ProgramsOffered/index.htm",
     "cost": "https://www.mtroyal.ca/academics/fees/pages/2026-27/international-student-tuition-max.php"
   },
   "admissions": {
@@ -13679,6 +13848,10 @@ window.UNIPATH.universities.push(
     {
       "label": "SAT/ACT scope review — general policy unresolved",
       "url": "https://www.mtroyal.ca/InternationalStudents/Admissionrequirements/index.htm"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://www.mtroyal.ca/ProgramsCourses/ProgramsOffered/index.htm"
     }
   ],
   "verification": {
@@ -13786,7 +13959,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.tru.ca/future/admissions/international.html",
     "scholarships": "https://www.tru.ca/truworld/future-students/scholarships.html",
     "financialAid": "https://www.tru.ca/truworld/future-students/scholarships.html",
-    "programs": "https://www.tru.ca/truworld/future-students/fees.html",
+    "programs": "https://www.tru.ca/programs.html",
     "cost": "https://www.tru.ca/truworld/future-students/fees.html"
   },
   "admissions": {
@@ -13867,7 +14040,9 @@ window.UNIPATH.universities.push(
       "note": "Not checked on the pages read."
     },
     "otherTests": null,
-    "internationalQualifications": null
+    "internationalQualifications": "Uzbekistan-specific qualifications, grades, programme subjects and preparatory-study requirements remain unconfirmed after this review. The linked official general requirements do not establish an exact Uzbek qualification or a rule for 2027 entry; requirements for another country or school system are not substituted.",
+    "internationalQualificationsSource": "https://www.tru.ca/future/admissions/international/admission-requirements.html",
+    "internationalQualificationsVerified": "2026-10-24"
   },
   "costs": {
     "breakdown": {
@@ -13991,6 +14166,14 @@ window.UNIPATH.universities.push(
     {
       "label": "TRU — admission requirements for US-curriculum applicants",
       "url": "https://www.tru.ca/truworld/future-students/usa.html"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://www.tru.ca/programs.html"
+    },
+    {
+      "label": "General requirements reviewed — Uzbekistan-specific rule unresolved",
+      "url": "https://www.tru.ca/future/admissions/international/admission-requirements.html"
     }
   ],
   "verification": {
@@ -14067,7 +14250,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.unbc.ca/programs-and-admissions/undergraduate",
     "scholarships": "https://www.unbc.ca/international/frequent-asked-questions-faq",
     "financialAid": "https://www.unbc.ca/international/frequent-asked-questions-faq",
-    "programs": "https://www.unbc.ca/programs-and-admissions/undergraduate/undergraduate-application-deadlines",
+    "programs": "https://www.unbc.ca/programs-courses",
     "cost": "https://www.unbc.ca/calendar/undergraduate/fees"
   },
   "admissions": {
@@ -14271,6 +14454,10 @@ window.UNIPATH.universities.push(
     {
       "label": "SAT/ACT scope review — general policy unresolved",
       "url": "https://www.unbc.ca/programs-and-admissions/undergraduate/international-admission-requirements-undergraduate-studies"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://www.unbc.ca/programs-courses"
     }
   ],
   "verification": {
@@ -14361,7 +14548,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.viu.ca/apply",
     "scholarships": "https://services.viu.ca/financial-aid-awards/viu-scholarships-awards-and-bursaries",
     "financialAid": "https://services.viu.ca/financial-aid-awards/viu-scholarships-awards-and-bursaries",
-    "programs": "https://www.viu.ca/admissions/tuition-fee-schedule",
+    "programs": "https://www.viu.ca/programs",
     "cost": "https://www.viu.ca/admissions/tuition-fee-schedule"
   },
   "admissions": {
@@ -14511,6 +14698,10 @@ window.UNIPATH.universities.push(
     {
       "label": "SAT/ACT scope review — general policy unresolved",
       "url": "https://www.viu.ca/admissions/international"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://www.viu.ca/programs"
     }
   ],
   "verification": {
@@ -14700,7 +14891,9 @@ window.UNIPATH.universities.push(
       "verified": "2026-10-24"
     },
     "otherTests": null,
-    "internationalQualifications": null
+    "internationalQualifications": "Uzbekistan-specific qualifications, grades, programme subjects and preparatory-study requirements remain unconfirmed after this review. The linked official general requirements do not establish an exact Uzbek qualification or a rule for 2027 entry; requirements for another country or school system are not substituted.",
+    "internationalQualificationsSource": "https://international.ufv.ca/future-students/apply-to-ufv/admission-requirements/",
+    "internationalQualificationsVerified": "2026-10-24"
   },
   "costs": {
     "breakdown": {
@@ -14896,7 +15089,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.capilanou.ca/admissions/apply-to-capu/apply-now/",
     "scholarships": "https://www.capilanou.ca/admissions/fees--finances/financial-aid--awards/funding-for-international-students/",
     "financialAid": "https://www.capilanou.ca/admissions/fees--finances/financial-aid--awards/funding-for-international-students/",
-    "programs": "https://www.capilanou.ca/admissions/fees--finances/tuition--fees/tuition--other-fees/",
+    "programs": "https://www.capilanou.ca/programs--courses/search--select/find-a-program-or-course/",
     "cost": "https://www.capilanou.ca/admissions/fees--finances/tuition--fees/tuition--other-fees/"
   },
   "admissions": {
@@ -15079,6 +15272,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Capilano — international secondary-school equivalencies",
       "url": "https://www.capilanou.ca/media/capilanouca/programs-amp-courses/capu-for-you/international-students/EQU-INTL-SEC-CURRICULA-202120-Web.pdf"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://www.capilanou.ca/programs--courses/search--select/find-a-program-or-course/"
     }
   ],
   "verification": {
@@ -15544,7 +15741,9 @@ window.UNIPATH.universities.push(
       "note": "SAT and ACT are not part of the admission route; candidates are assessed on their school record and French."
     },
     "otherTests": null,
-    "internationalQualifications": null
+    "internationalQualifications": "Uzbekistan-specific qualifications, grades, programme subjects and preparatory-study requirements remain unconfirmed after this review. The linked official general requirements do not establish an exact Uzbek qualification or a rule for 2027 entry; requirements for another country or school system are not substituted.",
+    "internationalQualificationsSource": "https://etudier.uqam.ca/etudiants-internationaux",
+    "internationalQualificationsVerified": "2026-10-24"
   },
   "costs": {
     "breakdown": {
@@ -15636,6 +15835,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://etudier.uqam.ca/programmes"
+    },
+    {
+      "label": "General requirements reviewed — Uzbekistan-specific rule unresolved",
+      "url": "https://etudier.uqam.ca/etudiants-internationaux"
     }
   ],
   "verification": {
@@ -15734,7 +15937,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.usherbrooke.ca/admission/",
     "scholarships": "https://www.usherbrooke.ca/admission/couts-et-aide-financiere/bourses-et-aide-financiere/etudiants-internationaux",
     "financialAid": "https://www.usherbrooke.ca/admission/couts-et-aide-financiere/bourses-et-aide-financiere/etudiants-internationaux",
-    "programs": "https://www.usherbrooke.ca/admission/couts-et-aide-financiere/frais-scolarite/personnes-etudiantes-internationales",
+    "programs": "https://www.usherbrooke.ca/admission/programmes/",
     "cost": "https://www.usherbrooke.ca/admission/couts-et-aide-financiere/frais-scolarite/personnes-etudiantes-internationales"
   },
   "admissions": {
@@ -15795,7 +15998,9 @@ window.UNIPATH.universities.push(
       "note": "SAT and ACT are not part of the admission route; candidates are assessed on their school record and French."
     },
     "otherTests": null,
-    "internationalQualifications": null
+    "internationalQualifications": "Uzbekistan: current UdeS general guidance requires 13 years of appropriate schooling for bachelor’s entry. Engineering applicants outside the Quebec college system need the UdeS preparatory certificate or equivalent. Its linked March 2022 guide has a Uzbekistan sheet last updated in 2006: it lists two additional university years after the 11-year O’rta Ma’lumot To’g’risida Shahodatnoma. That historical sheet does not confirm how a modern Uzbek qualification will be assessed for 2027; exact grades, subjects and any required preparation remain unconfirmed.",
+    "internationalQualificationsSource": "https://www.usherbrooke.ca/admission/da/valider-admissibilite/equivalences-internationales",
+    "internationalQualificationsVerified": "2026-10-24"
   },
   "costs": {
     "breakdown": {
@@ -15892,6 +16097,18 @@ window.UNIPATH.universities.push(
     {
       "label": "UdeS — funding for international students",
       "url": "https://www.usherbrooke.ca/admission/couts-et-aide-financiere/bourses-et-aide-financiere/etudiants-internationaux"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://www.usherbrooke.ca/admission/programmes/"
+    },
+    {
+      "label": "UdeS — international equivalencies",
+      "url": "https://www.usherbrooke.ca/admission/da/valider-admissibilite/equivalences-internationales"
+    },
+    {
+      "label": "UdeS — linked March 2022 guide; Uzbekistan sheet updated in 2006",
+      "url": "https://www.usherbrooke.ca/admission/fileadmin/sites/admission/documents/admission/Reconnaissances_internationales/Guide-des-niveaux-de-formation-Mars2022.pdf"
     }
   ],
   "verification": {
@@ -16019,7 +16236,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.umoncton.ca/demande-admission",
     "scholarships": "https://www.umoncton.ca/bourses",
     "financialAid": "https://www.umoncton.ca/bourses",
-    "programs": "https://www.umoncton.ca/international/frais",
+    "programs": "https://www.umoncton.ca/programmes",
     "cost": "https://www.umoncton.ca/international/frais"
   },
   "admissions": {
@@ -16080,7 +16297,9 @@ window.UNIPATH.universities.push(
       "note": "SAT and ACT are not part of the admission route; candidates are assessed on their school record and French."
     },
     "otherTests": null,
-    "internationalQualifications": null
+    "internationalQualifications": "Uzbekistan-specific qualifications, grades, programme subjects and preparatory-study requirements remain unconfirmed after this review. The linked official general requirements do not establish an exact Uzbek qualification or a rule for 2027 entry; requirements for another country or school system are not substituted.",
+    "internationalQualificationsSource": "https://www.umoncton.ca/conditions",
+    "internationalQualificationsVerified": "2026-10-24"
   },
   "costs": {
     "breakdown": {
@@ -16181,6 +16400,14 @@ window.UNIPATH.universities.push(
     {
       "label": "U de Moncton — scholarships",
       "url": "https://www.umoncton.ca/bourses"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://www.umoncton.ca/programmes"
+    },
+    {
+      "label": "General requirements reviewed — Uzbekistan-specific rule unresolved",
+      "url": "https://www.umoncton.ca/conditions"
     }
   ],
   "verification": {
@@ -16300,7 +16527,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.educationplannerbc.ca/",
     "scholarships": "https://www.uvic.ca/safa/scholarships/entrance-scholarships/index.php",
     "financialAid": "https://www.uvic.ca/safa/scholarships/entrance-scholarships/index.php",
-    "programs": "https://www.uvic.ca/undergraduate/finances/tuition-costs/index.php",
+    "programs": "https://www.uvic.ca/undergraduate/programs/undergraduate-programs/index.php",
     "cost": "https://www.uvic.ca/undergraduate/finances/tuition-costs/index.php"
   },
   "admissions": {
@@ -16508,6 +16735,10 @@ window.UNIPATH.universities.push(
     {
       "label": "UVic — minimum admission requirements for international students",
       "url": "https://www.uvic.ca/undergraduate/admissions/how-to-apply/minimum-admission-requirements-for-international-students/index.php"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://www.uvic.ca/undergraduate/programs/undergraduate-programs/index.php"
     }
   ],
   "verification": {
