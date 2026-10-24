@@ -152,12 +152,12 @@ group('dates shown in several sections');
 
 /* ---------------- deadlines ---------------- */
 group('deadlines and statuses');
-var OTHER = ['opens', 'documents', 'portfolio', 'test', 'interview', 'aid', 'scholarship', 'decision', 'reply', 'notice'];
+var OTHER = ['opens', 'documents', 'portfolio', 'test', 'interview', 'aid', 'financial-aid', 'scholarship', 'nomination', 'deposit', 'decision', 'reply', 'notice'];
 var badKinds = [], noSource = [], badStatus = [], oldConfirmed = [];
 DB.universities.forEach(function (u) {
   U.roundsOf(u).forEach(function (d) {
-    if (d.kind && !U.APPLICATION_KINDS.hasOwnProperty(d.kind) && OTHER.indexOf(d.kind) < 0) badKinds.push(u.id + ':' + d.kind);
-    if (['confirmed', 'not-confirmed', 'previous-cycle'].indexOf(d.status) < 0) badStatus.push(u.id + ':' + d.name);
+    if (d.kind && !U.isApplicationDeadline(d) && OTHER.indexOf(d.kind) < 0) badKinds.push(u.id + ':' + d.kind);
+    if (['confirmed', 'annual-rule', 'not-confirmed', 'previous-cycle'].indexOf(d.status) < 0) badStatus.push(u.id + ':' + d.name);
     if (d.status === 'confirmed' && (!d.source || !d.verified)) noSource.push(u.id + ':' + d.name);
     /* A confirmed application round must belong to the 2027 entry cycle or later. */
     var y = /(20\d\d)/.exec(String(d.entryYear || ''));
@@ -178,8 +178,14 @@ ok(!prevUsed.length, '"next deadline" only ever uses a confirmed round', prevUse
 
 ok(U.roundState({ status: 'previous-cycle', dateISO: '2099-01-01', kind: 'RD' }) === 'unknown', 'a previous-cycle date is never "upcoming"');
 ok(U.roundState({ status: 'not-confirmed', dateISO: '2099-01-01', kind: 'RD' }) === 'unknown', 'an unconfirmed date is never "upcoming"');
-ok(U.roundState({ status: 'confirmed', dateISO: '2001-01-01', kind: 'RD' }) === 'closed', 'a confirmed past date is closed');
-ok(U.roundState({ status: 'confirmed', dateISO: '2099-01-01', kind: 'RD' }) === 'upcoming', 'a confirmed future date is upcoming');
+function confirmedRound(d) {
+  d.entryTerm = d.entryTerm || 'Fall'; d.entryYear = d.entryYear || '2099';
+  d.cycleEvidence = { basis: 'explicit-date', entryTerm: d.entryTerm, entryYear: d.entryYear,
+    source: 'https://university.example/admissions', verified: '2026-10-24', quote: 'Official intake date' };
+  return d;
+}
+ok(U.roundState(confirmedRound({ status: 'confirmed', dateISO: '2001-01-01', kind: 'RD' })) === 'closed', 'a confirmed past date is closed');
+ok(U.roundState(confirmedRound({ status: 'confirmed', dateISO: '2099-01-01', kind: 'RD' })) === 'upcoming', 'a confirmed future date is upcoming');
 ok(U.isApplicationDeadline({ kind: 'round-4' }) && U.isApplicationDeadline({ kind: 'regular' }) && !U.isApplicationDeadline({ kind: 'opens' }),
   'numbered rounds and regular deadlines are application deadlines; openings are not');
 
@@ -193,7 +199,7 @@ var fake = { id: 'x', country: 'kr', admissions: { deadlines: [
   { name: 'Spring round', kind: 'round-1', entryTerm: 'Spring', entryYear: '2027', dateISO: '2099-01-10', date: '10 January 2099', status: 'confirmed', source: 's', verified: 'v' },
   { name: 'Fall round', kind: 'round-1', entryTerm: 'Fall', entryYear: '2027', dateISO: '2099-05-10', date: '10 May 2099', status: 'confirmed', source: 's', verified: 'v' },
   { name: 'Old', kind: 'round-1', entryTerm: 'Fall', entryYear: '2026', dateISO: '2099-03-01', status: 'previous-cycle' }
-] } };
+] .map(confirmedRound) } };
 ok(U.nextDeadline(fake, 'all').round.name === 'Spring round', 'any intake: the nearest confirmed round');
 ok(U.nextDeadline(fake, 'fall-2027').round.name === 'Fall round', 'fall intake: the spring date is not offered');
 ok(U.nextDeadline(fake, 'spring-2027').round.name === 'Spring round', 'spring intake: the spring date');
@@ -272,7 +278,7 @@ DB.universities.forEach(function (u) {
 });
 ok(wrongIntake.length === 0, 'a round named for a season is filed under that intake', wrongIntake.slice(0, 5).join('; '));
 ok(confirmedUndated.length === 0, 'a confirmed round carries its source and check date', confirmedUndated.slice(0, 5).join('; '));
-var counts = { confirmed: 0, 'not-confirmed': 0, 'previous-cycle': 0 };
+var counts = { confirmed: 0, 'annual-rule': 0, 'not-confirmed': 0, 'previous-cycle': 0 };
 DB.universities.forEach(function (u) { U.roundsOf(u).forEach(function (d) { counts[d.status]++; }); });
 console.log('   deadline entries: ' + JSON.stringify(counts));
 
@@ -422,7 +428,7 @@ group('match');
   ok(mid.status === 'conflict', 'Kenyon: a budget between the two official totals is a source conflict, not "depends on programme"', mid.status);
   ok(/\$95,890/.test(mid.html) && /\$96,940/.test(mid.html) && /2026–27/.test(mid.html) && /2025–26/.test(mid.html) &&
      /factbook/.test(mid.html) && /tuition-costs/.test(mid.html), 'Kenyon: both sums, their years and both links are shown', mid.html);
-  ok(kin(95889).status === 'over' && kin(95890).status === 'conflict' && kin(96939).status === 'conflict' && kin(96940).status === 'fits', 'Kenyon: below both figures is over, at or above both is within, in between is a conflict');
+  ok([95889, 95890, 96939, 96940].every(function (b) { return kin(b).status === 'conflict'; }), 'Kenyon: source conflict persists below, between and above both figures');
   var falseRange = DB.universities.filter(function (u) {
     var c = M.costOf(u); if (!c || !c.conflict) return false;
     return [c.min, (c.min + c.max) / 2, c.max - 1].some(function (b) { return M.evaluate(u, { ielts: null, sat: null, gpa: null, budget: b, currency: c.currency }).budget.status === 'maybe'; });
@@ -769,6 +775,8 @@ group('Canada');
 })();
 
 
+group('site quality regressions');
+require('./site-quality.js')({ U: U, M: M, DB: DB, ok: ok, sandbox: sandbox, load: load });
 console.log('\n' + passed + ' passed, ' + failed + ' failed');
 /* Exit with a status only when run directly; tests/links.js loads this file for the data. */
 if (require.main === module) process.exit(failed ? 1 : 0);

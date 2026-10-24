@@ -5,6 +5,9 @@
    on purpose, so students can find them on the universities' own websites. */
 window.UNIPATH_I18N = window.UNIPATH_I18N || {};
 window.UNIPATH_I18N.ru = {
+  "No confirmed country-specific updates.": "Подтверждённых новостей по этой стране пока нет.",
+  "General updates that may apply to this country are shown below when available.": "Ниже могут отображаться общие новости, применимые и к этой стране.",
+  "All confirmed fields taught in English — programme list incomplete": "Все подтверждённые направления доступны на английском — список программ неполный",
   "Student financial aid": "Финансовая помощь студентам",
   "KAIST international undergraduate admission (2023 admission guideline)": "Приём иностранцев в бакалавриат KAIST (правила приёма 2023 года)",
   "IELTS: {0}": "IELTS: {0}",
@@ -16377,4 +16380,15 @@ window.UNIPATH_I18N.ru = {
   "UNB Fredericton — 2026–2027 tuition and fees, Engineering (PDF)": "UNB Фредериктон — плата 2026–2027, Engineering (PDF)",
   "UNB Fredericton — undergraduate tuition and fees": "UNB Фредериктон — плата за бакалавриат",
   "Tuition and fees 2026–27 for an international student attending both terms, Fredericton (Arts to Engineering); housing and food extra": "Обучение и сборы 2026–27 для иностранца на оба семестра, Фредериктон (от Arts до Engineering); жильё и питание — отдельно",
+  "Annual rule — intake year not confirmed": "Ежегодное правило — год набора не подтверждён",
+  "Award deadline link not verified — see the dated entries below and the official award page": "Связь срока с этой стипендией не проверена — см. отдельные даты ниже и официальную страницу стипендии",
+  "Only confirmed field matches are included. Check the exact programme, campus, teaching language and intake on its official page.": "В результатах только подтверждённые совпадения направлений. Проверьте конкретную программу, кампус, язык обучения и набор на официальной странице.",
+  "Unverified field options — separate from confirmed matches": "Варианты с непроверенными направлениями — отдельно от подтверждённых совпадений",
+  "An absent field does not mean the programme is unavailable. These institutions have incomplete or unverified programme information.": "Отсутствие направления не означает отсутствия программы. Данные о программах этих вузов неполные или не проверены.",
+  "Historical approximate conversion using ECB reference rates dated": "Приблизительный пересчёт по историческим справочным курсам ЕЦБ от",
+  ". These are not current exchange rates.": ". Это не текущие обменные курсы.",
+  "Nomination": "Номинация",
+  "Deposit": "Депозит",
+  "Admission": "Поступление",
+  "Teaching language not confirmed": "Язык обучения не подтверждён",
 };

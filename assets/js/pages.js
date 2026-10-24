@@ -512,7 +512,7 @@
         '<dl class="deflist">' +
           row('Amount', or(m.amount)) +
           row('Eligibility', or(m.eligibility)) +
-          row('Deadline', or(m.deadline)) +
+          row('Deadline', U.awardDeadlineHtml(u, m)) +
           row('Automatic or separate application', or(m.application)) +
           row('Renewable', yesNo(m.renewable)) +
           (has(m.testRequirement) ? row('Test requirement', esc(m.testRequirement))
@@ -529,7 +529,7 @@
           row('Basis', '<strong>' + esc(U.awardBasisLabel(m)) + '</strong>' + (has(m.basisNote) ? '<br><span class="small muted">' + esc(m.basisNote) + '</span>' : '')) +
           row('Amount', or(m.amount)) +
           row('Open to', or(m.eligibility)) +
-          row('Deadline', or(m.deadline)) +
+          row('Deadline', U.awardDeadlineHtml(u, m)) +
           row('Automatic or separate application', or(m.application)) +
           row('Renewable', yesNo(m.renewable)) +
           (has(m.note) ? row('Note', esc(m.note)) : '') +
@@ -554,6 +554,7 @@
             (intake ? 'Intake: <span>' + esc(intake) + '</span> · ' : '') +
             (has(d.appliesTo) ? '<span>' + esc(d.appliesTo) + '</span> · ' : '') +
             '<span>' + esc(U.roundStatusLabel(d)) + '</span>' +
+            (U.roundStateLabel(d) ? ' · <span>' + esc(U.roundStateLabel(d)) + '</span>' : '') +
             (has(d.source) ? ' · <a href="' + esc(d.source) + '" target="_blank" rel="noopener">Official page ↗</a>' : '') +
           '</span>' +
           (has(d.conditions) ? '<br><span class="small">' + esc(d.conditions) + '</span>' : '') + '</div>';
@@ -746,7 +747,7 @@
     var evRows = (u.programs || []).filter(function (p) { return ev[p]; }).map(function (p) {
       var e = ev[p];
       return '<li><strong>' + esc(U.field(p).label) + '</strong> — <span data-no-i18n>' + esc(e.program) + '</span>' +
-        ' <span class="small muted">(<span>' + (/French/.test(e.language || '') ? (/English/.test(e.language) ? 'bachelor’s programme, taught in English and French' : 'bachelor’s programme, taught in French') : 'bachelor’s programme, taught in English') + '</span>)</span>' +
+        ' <span class="small muted">(<span>' + (/French/.test(e.language || '') ? (/English/.test(e.language) ? 'bachelor’s programme, taught in English and French' : 'bachelor’s programme, taught in French') : /English/.test(e.language || '') ? 'bachelor’s programme, taught in English' : 'Teaching language not confirmed') + '</span>)</span>' +
         (has(e.url) ? ' · <a href="' + esc(e.url) + '" target="_blank" rel="noopener">Official page ↗</a>' : '') +
         (has(e.checked) ? ' · <span class="small muted">Checked ' + esc(e.checked) + '</span>' : '') + '</li>';
     });
@@ -1070,8 +1071,8 @@
       if (!(selected.field && selected.field.length)) return '';
       var rest = {};
       for (var k in selected) if (selected.hasOwnProperty(k) && k !== 'field') rest[k] = selected[k];
-      var n = U.applyFilters(base, rest).filter(function (u) { return !U.programsChecked(u); }).length;
-      return n ? '<span class="small muted results-level"><span>Not shown under a field filter:</span> ' + n + ' <span>institutions whose list of majors has not been checked.</span></span>' : '';
+      var english = (selected.language || []).indexOf('english-yes') > -1;
+      return '<div class="results-level">' + U.unverifiedFieldsHtml(U.applyFilters(base, rest), selected.field, english) + '</div>';
     }
 
     function drawResults() {

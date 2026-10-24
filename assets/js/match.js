@@ -27,13 +27,16 @@
   function data() { return U.DB.match || { rates: { perEUR: { EUR: 1 } }, annualCost: {} }; }
 
   function convert(amount, from, to) {
-    var r = data().rates.perEUR;
-    if (!r[from] || !r[to]) return null;
+    if (typeof amount !== 'number' || !isFinite(amount) || !from || !to) return null;
     /* The same currency is not converted: a division and a multiplication
        would move the figure by a rounding error, and a budget exactly equal to
        the published cost would read as "above budget". */
     if (from === to) return amount;
-    return amount / r[from] * r[to];
+    var r = (data().rates || {}).perEUR || {};
+    if (typeof r[from] !== 'number' || !isFinite(r[from]) || r[from] <= 0 ||
+        typeof r[to] !== 'number' || !isFinite(r[to]) || r[to] <= 0) return null;
+    var result = amount / r[from] * r[to];
+    return isFinite(result) ? result : null;
   }
   function money(amount, cur) {
     var step = cur === 'JPY' || cur === 'KRW' ? 1000 : 100;
@@ -192,8 +195,11 @@
        compare, only what the profile says is covered and what remains. */
     var aa = U.costAfterAid(u);
     if (aa) return { covered: aa, currency: U.costCurrency(u) };
+    if (U.costStatus(u) === 'previous-cycle') return null;
     var c = data().annualCost[u.id];
     if (!c) return null;
+    if (['total', 'billed', 'tuition'].indexOf(c.basis) < 0 ||
+        (c.period && c.period !== 'year' && c.period !== 'annual')) return null;
     /* Two official sources, two totals: both travel with the record. */
     var figures = U.costConflict(u);
     if (figures) {
@@ -226,21 +232,16 @@
     /* Whatever the budget — 0 or any other number — covered main costs with
        unpriced remaining expenses are never called "within budget". */
     if (c.covered) return { status: input.budget === null ? 'none' : 'core-covered', text: coveredText(c.covered), html: coveredHtml(c.covered) };
-    if (input.budget === null) return { status: 'none', text: costText(c, c.currency), html: c.conflict ? conflictHtml(c, c.currency) : null };
+    if (c.conflict) return { status: 'conflict', text: costText(c, c.currency), html: conflictHtml(c, c.currency) };
+    if (input.budget === null) return { status: 'none', text: costText(c, c.currency) };
     var lo = convert(c.min, c.currency, input.currency), hi = convert(c.max, c.currency, input.currency);
-    if (lo === null) return { status: 'unknown', text: 'No comparable yearly cost is recorded' };
+    if (lo === null || hi === null || lo < 0 || hi < lo) return { status: 'unknown', text: 'No comparable yearly cost is recorded' };
     /* A full cost of zero is not a published figure: nobody studies for nothing. */
     if (c.basis === 'total' && c.max === 0) return { status: 'unknown', text: 'No comparable yearly cost is recorded' };
-    /* Sources that disagree are not a range of programme prices: a budget
-       between the two figures is neither enough nor too little until the
-       university says which figure holds. */
-    if (c.conflict) {
-      return { status: hi <= input.budget ? 'fits' : lo > input.budget ? 'over' : 'conflict',
-        text: costText(c, input.currency), html: conflictHtml(c, input.currency) };
-    }
     /* A required cost the university leaves out of its published total is
        added before a budget is called sufficient. */
     var extra = typeof c.extras === 'number' ? convert(c.extras, c.currency, input.currency) : 0;
+    if (extra === null) return { status: 'unknown', text: 'No comparable yearly cost is recorded' };
     var status = hi + extra <= input.budget ? 'fits'
       : hi <= input.budget ? 'fits-no-extras'
       : lo <= input.budget ? 'maybe' : 'over';
@@ -412,6 +413,7 @@
   function dropdown(sel, iconFor, labelId, compact) {
     if (!sel || sel.getAttribute('data-fs')) return;
     sel.setAttribute('data-fs', '1');
+    if (labelId) sel.setAttribute('aria-labelledby', labelId);
     var texts = [].map.call(sel.options, function (o) { return o.text; });  /* English, before translation */
     var wrap = document.createElement('div');
     wrap.className = 'fs' + (compact ? ' fs-compact' : '');
@@ -555,7 +557,7 @@
     var curOpts = ['USD', 'CAD', 'EUR', 'GBP', 'JPY', 'KRW'].map(function (c) {
       return '<option value="' + c + '"' + ((s.currency || 'USD') === c ? ' selected' : '') + '>' + c + '</option>';
     }).join('');
-    var r = data().rates;
+    var r = data().rates || {};
 
     main.innerHTML =
       '<section class="page-head"><div class="wrap"><h1>Find my match</h1>' +
@@ -572,7 +574,7 @@
               '<input id="m-budget" type="number" inputmode="numeric" min="0" step="100" placeholder="e.g. 30000" aria-describedby="m-budget-err" value="' + esc(has(s.budget) ? s.budget : '') + '">' +
               '<select id="m-currency" aria-label="Currency">' + curOpts + '</select></div>' +
               '<small class="field-error" id="m-budget-err" role="alert" hidden></small>' +
-              '<small class="muted">Converted with ECB reference rates of <span>' + esc(r.date || '') + '</span> — approximate.</small></label>' +
+              '<small class="muted">Historical approximate conversion using ECB reference rates dated <span>' + esc(r.date || '') + '</span><span>. These are not current exchange rates.</span></small></label>' +
             '<label class="match-field"><span id="m-country-l">Country</span><select id="m-country">' + countryOpts + '</select></label>' +
             '<label class="match-field"><span id="m-field-l">Field of study</span><select id="m-field">' + fieldOpts + '</select></label>' +
           '</div>' +
@@ -629,6 +631,9 @@
 
     var out = document.getElementById('match-out');
     if (!out) return;
+    var fieldNote = input.field ? U.unverifiedFieldsHtml(U.DB.universities.filter(function (u) {
+      return (!input.country || u.country === input.country) && (!input.englishOnly || u.englishTaught === true);
+    }), [input.field], input.englishOnly) : '';
     if (input.ielts === null && input.gpa === null && input.sat === null && input.budget === null) {
       out.innerHTML = input.invalid.length
         ? '<div class="empty-state"><h3>No valid score or budget to compare</h3><p>Correct the fields marked above. A value outside the allowed range is not used.</p></div>'
@@ -636,7 +641,7 @@
       return;
     }
     if (!list.length) {
-      out.innerHTML = '<div class="empty-state"><h3>No institutions match these filters</h3><p>Try another country or field, or include fields that are not fully English-taught.</p></div>';
+      out.innerHTML = fieldNote + '<div class="empty-state"><h3>No institutions match these filters</h3><p>Try another country or field, or include fields that are not fully English-taught.</p></div>';
       return;
     }
 
@@ -646,15 +651,11 @@
     (input.ielts !== null ? entered : missing).push('IELTS');
     (input.sat !== null ? entered : missing).push('SAT');
     (input.gpa !== null ? entered : missing).push('GPA');
-    var gap = input.field ? U.DB.universities.filter(function (u) {
-      return (!input.country || u.country === input.country) && (!input.englishOnly || u.englishTaught === true) && !U.programsChecked(u);
-    }).length : 0;
     var html = '<p class="muted small" style="margin-bottom:6px">' + rows.length + ' institutions compared</p>' +
-      (gap ? '<p class="muted small" style="margin:0 0 6px"><span>Not included under this field:</span> ' + gap + ' <span>institutions whose list of majors has not been checked.</span></p>' : '') +
+      fieldNote +
       '<p class="small" style="margin:0 0 18px"><strong>Compared:</strong> <span>' + (entered.length ? entered.join(', ') : 'budget only') + '</span>' +
       (missing.length ? ' · <strong>Not entered, so not compared:</strong> <span>' + missing.join(', ') + '</span>' : '') + '</p>' +
-      (input.invalid.length ? '<p class="small warn-text" style="margin:-10px 0 18px">A value outside the allowed range was entered and is not used.</p>' : '') +
-      (input.field ? '<p class="small muted" style="margin:0 0 18px">Field of study is a broad subject area, not a named degree. Check that the exact programme exists and is open to your intake.</p>' : '');
+      (input.invalid.length ? '<p class="small warn-text" style="margin:-10px 0 18px">A value outside the allowed range was entered and is not used.</p>' : '');
     GROUPS.forEach(function (g) {
       var items = rows.filter(function (x) { return x.r.category === g.key; });
       if (!items.length) return;

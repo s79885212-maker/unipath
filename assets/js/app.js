@@ -398,10 +398,22 @@
   /* Only some fields were confirmed (the full list could not be read): a field
      that is absent is then "not confirmed", never "not offered". */
   function programsPartial(u) { return u.programsStatus === 'partial'; }
+  function fieldUnverified(u, fields, englishOnly) {
+    var confirmed = englishOnly ? englishPrograms(u) : (u.programs || []);
+    return fields.every(function (f) { return confirmed.indexOf(f) < 0; }) &&
+      (!programsChecked(u) || programsPartial(u) || (englishOnly && u.englishTaught === true));
+  }
+  function unverifiedFieldsHtml(list, fields, englishOnly) {
+    var unknown = list.filter(function (u) { return fieldUnverified(u, fields, englishOnly); });
+    return '<p class="small muted">Only confirmed field matches are included. Check the exact programme, campus, teaching language and intake on its official page.</p>' +
+      (unknown.length ? '<details class="ref-block"><summary><span>Unverified field options — separate from confirmed matches</span> (' + unknown.length + ')</summary>' +
+        '<p class="small muted">An absent field does not mean the programme is unavailable. These institutions have incomplete or unverified programme information.</p><ul class="plain-list">' +
+        unknown.map(function (u) { return '<li><a href="' + uniUrl(u) + '">' + esc(u.name) + '</a></li>'; }).join('') + '</ul></details>' : '');
+  }
   function englishLabel(u) {
     if (u.englishTaught !== true) return null;
     var en = englishPrograms(u), all = u.programs || [];
-    if (en.length && en.length >= all.length) return 'All fields taught in English';
+    if (en.length && en.length >= all.length) return programsPartial(u) ? 'All confirmed fields taught in English — programme list incomplete' : 'All fields taught in English';
     if (en.length) return 'English-taught: ' + en.length + ' of ' + all.length + ' fields';
     return 'English route — fields not confirmed';
   }
@@ -546,12 +558,20 @@
      date for the next one. */
   var ROUND_STATUS = {
     'confirmed': 'Confirmed for this cycle',
+    'annual-rule': 'Annual rule — intake year not confirmed',
     'previous-cycle': 'Previous cycle — not yet republished',
     'not-confirmed': 'Deadline for the current intake not confirmed'
   };
-  /* Confirmation comes only from an explicit, verified status on the record. */
+  /* A legacy status or a reading date is not evidence of the intake. See DATA_DISPLAY_CONTRACT.md. */
   function roundStatus(d) {
-    return d.status && ROUND_STATUS[d.status] ? d.status : 'not-confirmed';
+    if (d.status === 'previous-cycle') return 'previous-cycle';
+    var e = d.cycleEvidence;
+    if (d.status === 'annual-rule' || (e && e.basis === 'annual-rule')) return 'annual-rule';
+    if (d.status !== 'confirmed' || !e) return 'not-confirmed';
+    return (e.basis === 'explicit-date' || e.basis === 'page-context') &&
+      /^https:\/\//.test(e.source || '') && /^\d{4}-\d\d-\d\d$/.test(e.verified || '') &&
+      has(e.quote) && /^20\d\d$/.test(String(d.entryYear || '')) && String(e.entryYear) === String(d.entryYear) &&
+      has(d.entryTerm) && e.entryTerm === d.entryTerm ? 'confirmed' : 'not-confirmed';
   }
   /* Where the date stands today — kept apart from confirmation, because an
      officially confirmed date can already have passed. Only a confirmed date
@@ -576,10 +596,13 @@
     } catch (e) { return null; }
   }
   function deadlineEnd(d) {
-    var m = /^(\d{4})-(\d\d)-(\d\d)/.exec(String(d.dateISO || ''));
+    var m = /^(\d{4})-(\d\d)-(\d\d)$/.exec(String(d.dateISO || ''));
     if (!m) return null;
     var y = +m[1], mo = +m[2] - 1, day = +m[3];
+    var calendar = new Date(Date.UTC(y, mo, day));
+    if (calendar.getUTCFullYear() !== y || calendar.getUTCMonth() !== mo || calendar.getUTCDate() !== day) return null;
     var t = /^(\d{1,2}):(\d\d)$/.exec(String(d.time || ''));
+    if (has(d.time) && (!t || +t[1] > 23 || +t[2] > 59)) return null;
     var hh = t ? +t[1] : 23, mm = t ? +t[2] : 59, ss = t ? 0 : 59;
     var zone = d.timezone;
     var naive = Date.UTC(y, mo, day, hh, mm, ss);
@@ -588,19 +611,18 @@
       var off = zoneOffset(IANA_ZONES[zone], naive);
       if (off !== null) return { at: naive - off * 60000, precise: !!t };
     }
-    if (has(zone) && /local time/i.test(zone)) return { at: new Date(y, mo, day, hh, mm, ss).getTime(), precise: !!t };
     /* No usable zone: end of that calendar day at UTC−12. */
     return { at: Date.UTC(y, mo, day, 23, 59, 59) + 12 * 3600000, precise: false };
   }
   function deadlinePassed(d, now) {
     var e = deadlineEnd(d);
-    return e ? (now || Date.now()) > e.at : false;
+    return e ? (now === undefined ? Date.now() : now) > e.at : false;
   }
   function roundState(d) {
     if (d.kind === 'notice') return null;
     if (roundStatus(d) !== 'confirmed') return 'unknown';
     if (d.kind === 'rolling') return 'varies';
-    if (!has(d.dateISO)) return isApplicationDeadline(d) ? 'varies' : null;
+    if (!deadlineEnd(d)) return 'unknown';
     return deadlinePassed(d) ? 'closed' : 'upcoming';
   }
   /* Application deadlines are kept apart from the other dates of a cycle, so
@@ -612,8 +634,9 @@
     round: '', 'application-window': '', intake: '' };
   var OTHER_DATE_KINDS = { opens: 'Applications open', documents: 'Documents and tests', portfolio: 'Portfolio',
     test: 'Admissions test', interview: 'Interview', aid: 'Financial aid', scholarship: 'Scholarship',
-    decision: 'Decision', reply: 'Reply to offer', notice: 'Notice' };
-  function isApplicationDeadline(d) { return !d.kind || APPLICATION_KINDS.hasOwnProperty(d.kind); }
+    nomination: 'Nomination', deposit: 'Deposit', 'financial-aid': 'Financial aid',
+    admission: 'Admission', decision: 'Decision', reply: 'Reply to offer', notice: 'Notice' };
+  function isApplicationDeadline(d) { return !d.kind || d.kind === 'admission' || APPLICATION_KINDS.hasOwnProperty(d.kind); }
   function otherDateLabel(d) { return OTHER_DATE_KINDS[d.kind] || 'Other date'; }
   function roundStateLabel(d) { var s = roundState(d); return s ? ROUND_STATE[s] : null; }
   /* ---- intakes ----------------------------------------------------------
@@ -647,15 +670,15 @@
     var p = String(key).split('-');
     return (SEASON_LABEL[p[0]] || p[0]) + ' ' + p[1];
   }
-  /* Intakes that have at least one confirmed application deadline somewhere
-     in the database, in calendar order. */
+  /* Intake choices come from stated application intakes, in calendar order.
+     Selecting one never upgrades the confirmation status of its dates. */
   var intakeListCache = null;
   function intakeList() {
     if (intakeListCache) return intakeListCache;
     var seen = {};
     DB.universities.forEach(function (u) {
       roundsOf(u).forEach(function (d) {
-        if (!isApplicationDeadline(d) || roundStatus(d) !== 'confirmed') return;
+        if (!isApplicationDeadline(d)) return;
         intakesOf(d, u).forEach(function (k) { seen[k] = (seen[k] || 0) + 1; });
       });
     });
@@ -719,8 +742,8 @@
   }
   function roundConditions(d) {
     var parts = [];
-    if (d.binding === true) parts.push('Binding — if admitted you must enrol and withdraw other applications');
-    if (d.binding === false) parts.push('Not binding');
+    if (isApplicationDeadline(d) && d.binding === true) parts.push('Binding — if admitted you must enrol and withdraw other applications');
+    if (isApplicationDeadline(d) && d.binding === false) parts.push('Not binding');
     if (has(d.appliesTo)) parts.push(d.appliesTo);
     if (has(d.conditions)) parts.push(d.conditions);
     if (has(d.note)) parts.push(d.note);
@@ -728,6 +751,23 @@
   }
   function roundsOf(u) {
     return (u.admissions && u.admissions.deadlines) || [];
+  }
+  /* Exact structured links only: no name matching or university-wide aid fallback. */
+  function awardDates(u, award) {
+    if (!award.id || !award.category || !award.entryTerm || !award.entryYear) return [];
+    return roundsOf(u).filter(function (d) {
+      return d.awardId === award.id && d.awardCategory === award.category &&
+        (d.kind === 'scholarship' || d.kind === 'nomination' || d.kind === 'aid' || d.kind === 'financial-aid') &&
+        d.entryTerm === award.entryTerm && String(d.entryYear) === String(award.entryYear);
+    });
+  }
+  function awardDeadlineHtml(u, award) {
+    var dates = awardDates(u, award);
+    if (!dates.length) return '<span class="unknown">Award deadline link not verified — see the dated entries below and the official award page</span>' +
+      (has(award.deadline) ? '<br><span class="small muted">' + esc(award.deadline) + '</span>' : '');
+    return dates.map(function (d) {
+      return '<span>' + esc(otherDateLabel(d)) + '</span>: ' + deadlineHtml(d);
+    }).join('<br>');
   }
 
   function firstDeadline(u) {
@@ -1681,7 +1721,7 @@
   global.UP = { initMotion: initMotion, routeEnter: routeEnter, fieldCheck: fieldCheck, degreeValue: degreeValue, FIELD_NOTE_KIND: FIELD_NOTE_KIND,
     DB: DB, esc: esc, has: has, or: or, orRaw: orRaw, qs: qs, money: money, el: el, UNKNOWN: UNKNOWN,
     STATUS: STATUS, statusLabel: statusLabel, statusHtml: statusHtml, feeStatus: feeStatus, costStatus: costStatus, cardTuition: cardTuition, cardCost: cardCost, tuitionLabel: tuitionLabel,
-    recBasis: recBasis, recInfo: recInfo, programsChecked: programsChecked, programsPartial: programsPartial, costAfterAid: costAfterAid, costExtras: costExtras, budgetRange: budgetRange, budgetWithExtras: budgetWithExtras, costArithmetic: costArithmetic, costItemsMismatch: costItemsMismatch, costConflict: costConflict,
+    recBasis: recBasis, recInfo: recInfo, programsChecked: programsChecked, programsPartial: programsPartial, fieldUnverified: fieldUnverified, unverifiedFieldsHtml: unverifiedFieldsHtml, awardDates: awardDates, awardDeadlineHtml: awardDeadlineHtml, costAfterAid: costAfterAid, costExtras: costExtras, budgetRange: budgetRange, budgetWithExtras: budgetWithExtras, costArithmetic: costArithmetic, costItemsMismatch: costItemsMismatch, costConflict: costConflict,
     DISCLAIMER: DISCLAIMER,
     country: country, field: field, uniById: uniById, unisByCountry: unisByCountry,
     displayName: displayName, uniUrl: uniUrl,

@@ -19,6 +19,12 @@
   };
 
   var state = { country: 'all', cycle: 'all' };
+  var STATE_KEY = 'unipath.news.v1';
+  try {
+    var saved = JSON.parse(global.sessionStorage.getItem(STATE_KEY) || '{}');
+    if (saved.country === 'all' || U.DB.countries.some(function (c) { return c.code === saved.country; })) state.country = saved.country;
+    if (saved.cycle === 'all' || items().some(function (n) { return n.cycle === saved.cycle; })) state.cycle = saved.cycle;
+  } catch (e) {}
 
   function items() {
     return (global.UNIPATH && global.UNIPATH.news) || [];
@@ -96,12 +102,11 @@
   }
 
   function countriesWithNews() {
-    var seen = {};
-    items().forEach(function (n) { seen[n.country] = true; });
-    return Object.keys(seen);
+    return U.DB.countries.map(function (c) { return c.code; });
   }
 
   function draw() {
+    try { global.sessionStorage.setItem(STATE_KEY, JSON.stringify(state)); } catch (e) {}
     /* An item with no cycle is a standing rule: it stays visible under every entry year. */
     var all = items().filter(function (n) {
       return (state.country === 'all' || n.country === state.country || n.country === 'all') &&
@@ -112,7 +117,8 @@
 
     var box = document.getElementById('news-list');
     if (!box) return;
-    box.innerHTML = (live.length
+    var localEmpty = state.country !== 'all' && !all.some(function (n) { return n.country === state.country; });
+    box.innerHTML = (localEmpty ? '<div class="notice notice-info" role="status"><div><strong>No confirmed country-specific updates.</strong> <span>General updates that may apply to this country are shown below when available.</span></div></div>' : '') + (live.length
       ? '<div class="grid grid-2">' + live.map(card).join('') + '</div>'
       : '<div class="empty-state"><h3>No confirmed updates for this filter</h3>' +
         '<p>Only announcements confirmed on an official source are listed here, so this section stays empty rather than showing anything unverified.</p></div>') +
@@ -128,7 +134,7 @@
       chips.innerHTML = ['all'].concat(codes).map(function (code) {
         var c = code === 'all' ? null : U.country(code);
         var on = state.country === code;
-        return '<button type="button" class="badge badge-flat' + (on ? ' is-on' : '') + '" data-news-country="' + esc(code) + '">' +
+        return '<button type="button" class="badge badge-flat' + (on ? ' is-on' : '') + '" aria-pressed="' + (on ? 'true' : 'false') + '" data-news-country="' + esc(code) + '">' +
           (c ? c.flag + ' ' + esc(c.name) : 'All countries') + '</button>';
       }).join('');
     }
