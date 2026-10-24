@@ -118,7 +118,7 @@ window.UNIPATH.match = {
     'gonzaga-university': { currency: 'USD', basis: 'billed', min: 76670, max: 76670 },
     'cornell-college': { currency: 'USD', basis: 'total', min: 73578, max: 74778 },
     'savannah-college-of-art-and-design': { currency: 'USD', basis: 'total', min: 68691, max: 68691 },
-    'american-university': { currency: 'USD', basis: 'total', min: 87374, max: 87374, note: 'The minimum an international applicant must declare; the page does not name the academic year' },
+    'american-university': { currency: 'USD', basis: 'total', min: 87374, max: 87374, source: 'https://www.american.edu/financialaid/cost-of-attendance/undergraduate-first-year-students.cfm', verified: '2026-10-24', academicYear: '2026–2027', note: 'Published 2026–27 first-year on-campus cost of attendance; required health insurance is additional unless waived' },
 
     /* United States expansion, October 2026 */
     'university-of-san-diego': { currency: 'USD', basis: 'billed', min: 88557, max: 88557 },

@@ -3039,7 +3039,9 @@ window.UNIPATH.universities.push(
       "note": "Not checked on the pages read."
     },
     "otherTests": null,
-    "internationalQualifications": null
+    "internationalQualifications": "Uzbekistan: the direct-entry undergraduate qualifications table lists Certificate of Completed Secondary Education, Certificate of Secondary Education or Attestat o Srednem Obrazovanii. This table does not establish required grades, programme prerequisites or whether preparatory study is needed for a particular applicant; those remain unconfirmed. No 2027 cycle is stated.",
+    "internationalQualificationsSource": "https://www.uottawa.ca/study/undergraduate-studies/international-applicants",
+    "internationalQualificationsVerified": "2026-10-24"
   },
   "costs": {
     "breakdown": {
@@ -3168,6 +3170,10 @@ window.UNIPATH.universities.push(
     {
       "label": "OUAC — undergraduate fees",
       "url": "https://www.ouac.on.ca/guide/undergrad-fees"
+    },
+    {
+      "label": "Official country-specific undergraduate qualifications",
+      "url": "https://www.uottawa.ca/study/undergraduate-studies/international-applicants"
     }
   ],
   "verification": {
@@ -10832,19 +10838,26 @@ window.UNIPATH.universities.push(
     ],
     "deadlines": [
       {
-        "name": "Apply for admission and complete the scholarship forms to be considered for entrance scholarships",
+        "name": "Additional entrance scholarships and scholar-bursaries: portal forms",
         "kind": "scholarship",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-03-01",
-        "date": "1 March 2027",
-        "binding": false,
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 March — intake year not confirmed",
         "appliesTo": "First-year applicants",
-        "conditions": "Applications are accepted any time after 21 September; scholarship offers come by mid-April.",
-        "status": "confirmed",
-        "source": "https://www2.acadiau.ca/student-services/scholarships-financial-aid/international-students/entrance-scholarships.html",
-        "verified": "2026-10-17",
-        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+        "conditions": "Separate forms are required for additional awards; this is not the deadline for the automatic initial entrance offer. Individual awards have additional eligibility restrictions.",
+        "status": "annual-rule",
+        "source": "https://www2.acadiau.ca/student-services/scholarships-financial-aid/future-students/entrance-scholarships.html",
+        "verified": "2026-10-24",
+        "note": "The official scholarship page states March 1 without identifying an entry cycle. The reading date does not establish 2027.",
+        "awardId": "additional-entrance",
+        "awardCategory": "merit",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www2.acadiau.ca/student-services/scholarships-financial-aid/future-students/entrance-scholarships.html",
+          "verified": "2026-10-24",
+          "quote": "Complete the scholarship application by March 1st."
+        }
       }
     ],
     "applicationFee": {
@@ -10988,16 +11001,34 @@ window.UNIPATH.universities.push(
     },
     "merit": [
       {
-        "name": "Acadia entrance scholarships",
-        "amount": "C$500–C$2,500 initial offers; other scholarships and scholar-bursaries up to C$80,000 over four years",
+        "name": "Acadia initial entrance scholarship",
+        "amount": "C$500–C$2,500 initial offer",
         "eligibility": "Canadian and international applicants with at least an 80% average in the courses required for admission",
         "deadline": null,
-        "application": "Automatic initial offer; scholarship forms in the portal by 1 March",
+        "application": "Automatically considered with the undergraduate admission application; no separate initial scholarship form",
         "renewable": null,
         "note": "Some scholar-bursaries (e.g. Harrison McCain, Spicer-Hennessey) are only for students from Canadian or Nova Scotia schools.",
         "basis": "merit",
-        "source": "https://www2.acadiau.ca/student-services/scholarships-financial-aid/international-students/entrance-scholarships.html",
-        "verified": "2026-10-17"
+        "source": "https://www2.acadiau.ca/student-services/scholarships-financial-aid/future-students/entrance-scholarships.html",
+        "verified": "2026-10-24",
+        "deadlineScope": "no-separate-application"
+      },
+      {
+        "name": "Acadia additional entrance scholarships and scholar-bursaries",
+        "amount": "Up to C$80,000 over four years; award-specific eligibility",
+        "eligibility": "Canadian and international applicants with at least an 80% average in the courses required for admission",
+        "deadline": null,
+        "application": "Submit the scholarship forms in the status portal; local and specialized awards require separate forms",
+        "renewable": null,
+        "note": "Some scholar-bursaries (e.g. Harrison McCain, Spicer-Hennessey) are only for students from Canadian or Nova Scotia schools.",
+        "basis": "merit",
+        "source": "https://www2.acadiau.ca/student-services/scholarships-financial-aid/future-students/entrance-scholarships.html",
+        "verified": "2026-10-24",
+        "id": "additional-entrance",
+        "category": "merit",
+        "deadlineScope": "annual-rule",
+        "entryTerm": null,
+        "entryYear": null
       }
     ],
     "needBased": {
@@ -11026,6 +11057,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Acadia — international entrance scholarships",
       "url": "https://www2.acadiau.ca/student-services/scholarships-financial-aid/international-students/entrance-scholarships.html"
+    },
+    {
+      "label": "Acadia — entrance scholarships for future students",
+      "url": "https://www2.acadiau.ca/student-services/scholarships-financial-aid/future-students/entrance-scholarships.html"
     }
   ],
   "verification": {
@@ -14022,7 +14057,9 @@ window.UNIPATH.universities.push(
       "note": "Not checked on the pages read."
     },
     "otherTests": null,
-    "internationalQualifications": null
+    "internationalQualifications": "Uzbekistan: UNBC’s currently linked country sheet (version 2021 03) lists Akademik Litsey Diplomi or Kasb-Hunar Kolleji Diplomi with a final grade of at least 3/5 for general entry. Programme prerequisites and English requirements also apply. The sheet does not establish admission with a general-school Attestat or requirements for the 2027 intake; these remain unconfirmed.",
+    "internationalQualificationsSource": "https://www.unbc.ca/sites/default/files/sections/admissions/undergraduate/uzbekistan-admissionrequirementssept2021.pdf",
+    "internationalQualificationsVerified": "2026-10-24"
   },
   "costs": {
     "breakdown": {
@@ -14102,6 +14139,10 @@ window.UNIPATH.universities.push(
     {
       "label": "UNBC — international tuition and deposit",
       "url": "https://www.unbc.ca/international/tuition-and-fees"
+    },
+    {
+      "label": "Official country-specific undergraduate qualifications",
+      "url": "https://www.unbc.ca/sites/default/files/sections/admissions/undergraduate/uzbekistan-admissionrequirementssept2021.pdf"
     }
   ],
   "verification": {

@@ -754,14 +754,19 @@
   }
   /* Exact structured links only: no name matching or university-wide aid fallback. */
   function awardDates(u, award) {
-    if (!award.id || !award.category || !award.entryTerm || !award.entryYear) return [];
+    if (!award.id || !award.category) return [];
+    var annual = award.deadlineScope === 'annual-rule' && award.entryTerm == null && award.entryYear == null;
+    if (!annual && (!award.entryTerm || !award.entryYear)) return [];
     return roundsOf(u).filter(function (d) {
       return d.awardId === award.id && d.awardCategory === award.category &&
         (d.kind === 'scholarship' || d.kind === 'nomination' || d.kind === 'aid' || d.kind === 'financial-aid') &&
-        d.entryTerm === award.entryTerm && String(d.entryYear) === String(award.entryYear);
+        (annual ? d.status === 'annual-rule' && d.cycleEvidence && d.cycleEvidence.basis === 'annual-rule' &&
+          d.entryTerm == null && d.entryYear == null && d.dateISO == null :
+          d.entryTerm === award.entryTerm && String(d.entryYear) === String(award.entryYear));
     });
   }
   function awardDeadlineHtml(u, award) {
+    if (award.deadlineScope === 'no-separate-application') return esc('Automatic consideration — no separate scholarship application');
     var dates = awardDates(u, award);
     if (!dates.length) return '<span class="unknown">Award deadline link not verified — see the dated entries below and the official award page</span>' +
       (has(award.deadline) ? '<br><span class="small muted">' + esc(award.deadline) + '</span>' : '');

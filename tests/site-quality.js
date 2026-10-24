@@ -45,7 +45,23 @@ module.exports = function (env) {
   var html = U.awardDeadlineHtml(uni, award);
   ok(/Closed/.test(html) && /Upcoming/.test(html), 'award cards use the same date and state renderer as the timeline');
   var acadia = U.uniById('acadia-university');
-  ok(/link not verified/.test(U.awardDeadlineHtml(acadia, Object.assign({}, U.awardsAll(acadia)[0], { id: null }))), 'an unlinked Acadia-style award explains the missing relation instead of contradicting the date table');
+  var additional = U.awardsAll(acadia).filter(function (a) { return a.id === 'additional-entrance'; })[0];
+  var annualDates = U.awardDates(acadia, additional);
+  ok(annualDates.length === 1 && U.roundStatus(annualDates[0]) === 'annual-rule' &&
+    annualDates[0].dateISO === null && annualDates[0].entryYear === null && !U.firstDeadline(acadia),
+    'Acadia: additional award links to the yearless March rule without claiming a 2027 deadline');
+  ok(!U.awardDates(acadia, U.awardsAll(acadia)[0]).length &&
+    !U.awardDates(acadia, Object.assign({}, additional, { entryYear: '2027' })).length &&
+    !U.awardDates(acadia, Object.assign({}, additional, { category: 'need' })).length,
+    'Acadia: the March rule never leaks into the automatic initial offer, another category or a named intake');
+  var american = U.uniById('american-university');
+  ok(american.costs.academicYear === '2026–2027' && U.budgetRange(american).min === 87374 &&
+    U.budgetWithExtras(american).min === 90133 && U.costExtras(american)[0].amount === 2759 &&
+    M.evaluate(american, { ielts: null, sat: null, gpa: null, budget: 87374, currency: 'USD' }).budget.status === 'fits-no-extras',
+    'American: the published 2026–27 total stays distinct from required insurance and the calculated combined budget');
+  ok(/link not verified/.test(U.awardDeadlineHtml(acadia, Object.assign({}, additional, { id: null }))), 'an unlinked Acadia-style award explains the missing relation instead of contradicting the date table');
+  ok(/no separate scholarship application/.test(U.awardDeadlineHtml(acadia, U.awardsAll(acadia)[0])),
+    'Acadia automatic initial offer explains that no separate application is required');
   ok(U.fieldUnverified({ programsStatus: 'partial', programs: ['business'] }, ['engineering'], false) &&
     !U.fieldUnverified({ programsStatus: 'partial', programs: ['business'] }, ['business'], false),
     'partial programme coverage distinguishes confirmed matches from unchecked fields');

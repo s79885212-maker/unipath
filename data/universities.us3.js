@@ -11372,8 +11372,8 @@ window.UNIPATH.universities.push(
         "conditions": "Not binding. Decisions by 5 January. For autumn enrolment only.",
         "status": "previous-cycle",
         "source": "https://lesley.edu/admissions/undergraduate-students/how-to-apply-undergraduate",
-        "verified": "2026-10-21",
-        "note": "Re-checked on 21 October 2026: the page still shows the dates for fall 2026 only; the date for autumn 2027 entry is not published yet."
+        "verified": "2026-10-24",
+        "note": "Re-checked on 24 October 2026: the official page still labels these deadlines Fall 2026. No deadline for fall 2027 is established."
       },
       {
         "name": "Regular Decision",
@@ -11387,8 +11387,8 @@ window.UNIPATH.universities.push(
         "conditions": "Lesley offers rolling admission: applications after the deadline are still considered, with a decision within two weeks of a complete application.",
         "status": "previous-cycle",
         "source": "https://lesley.edu/admissions/undergraduate-students/how-to-apply-undergraduate",
-        "verified": "2026-10-21",
-        "note": "Re-checked on 21 October 2026: the page still shows the dates for fall 2026 only; the date for autumn 2027 entry is not published yet."
+        "verified": "2026-10-24",
+        "note": "Re-checked on 24 October 2026: the official page still labels these deadlines Fall 2026. No deadline for fall 2027 is established."
       }
     ],
     "applicationFee": {
@@ -30789,25 +30789,76 @@ window.UNIPATH.universities.push(
   },
   "costs": {
     "breakdown": {
-      "includes": "the full amount the university asks international applicants to show; its breakdown was not read",
-      "budget": 87374
+      "tuition": 62680,
+      "budget": 87374,
+      "includes": "tuition, mandatory fees, housing, food, Metro pass, books, transport, personal expenses and federal loan fees; health insurance extra"
     },
-    "academicYear": null,
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "studentCategory": "International first-year applicants — the amount to be declared",
-    "source": "https://www.american.edu/admissions/international/instructions.cfm",
-    "verified": "2026-10-12",
-    "headline": "$87,374 minimum to be declared",
+    "studentCategory": "First-year students living on campus, full-time (12–17 credits a semester), nine months",
+    "source": "https://www.american.edu/financialaid/cost-of-attendance/undergraduate-first-year-students.cfm",
+    "verified": "2026-10-24",
+    "headline": "$87,374 published cost of attendance for 2026–27; health insurance extra",
     "items": [
       {
-        "label": "Minimum funds to confirm on the AU Declaration of Finances Form",
+        "label": "Tuition",
         "group": "estimate",
-        "amount": 87374
+        "amount": 62680
+      },
+      {
+        "label": "Mandatory fees",
+        "group": "estimate",
+        "amount": 1700
+      },
+      {
+        "label": "Housing",
+        "group": "estimate",
+        "amount": 13112
+      },
+      {
+        "label": "Food",
+        "group": "estimate",
+        "amount": 6584
+      },
+      {
+        "label": "Metro pass fees",
+        "group": "estimate",
+        "amount": 272
+      },
+      {
+        "label": "Books and supplies",
+        "group": "estimate",
+        "amount": 1200
+      },
+      {
+        "label": "Miscellaneous transportation",
+        "group": "estimate",
+        "amount": 692
+      },
+      {
+        "label": "Personal expenses",
+        "group": "estimate",
+        "amount": 1080
+      },
+      {
+        "label": "Federal loan fees",
+        "group": "estimate",
+        "amount": 54
       }
     ],
     "billedSubtotal": null,
-    "totalText": "$87,374 is the minimum a first-year international applicant must confirm; the tuition and fee table itself was not read",
-    "note": "The page does not say which academic year the figure refers to."
+    "totalText": "$87,374 is the university’s published on-campus first-year cost of attendance for fall 2026 and spring 2027. Health insurance is additional.",
+    "note": "This is the Financial Aid cost-of-attendance estimate, not a visa funding requirement. The $54 federal loan fee may not apply to international students. The annual insurance charge is $2,759 unless an approved equivalent-coverage waiver applies. The 2027–28 cost is not established here.",
+    "extras": [
+      {
+        "label": "Annual student health insurance (unless approved waiver)",
+        "amount": 2759,
+        "required": true,
+        "source": "https://www.american.edu/finance/studentaccounts/tuition-and-fees-information.cfm",
+        "verified": "2026-10-24",
+        "academicYear": "2026–2027"
+      }
+    ]
   },
   "scholarships": {
     "fullRide": {
@@ -30878,6 +30929,14 @@ window.UNIPATH.universities.push(
     {
       "label": "American — test-optional admission",
       "url": "https://www.american.edu/admissions/first-year/test-optional.cfm"
+    },
+    {
+      "label": "American University — first-year cost of attendance 2026–27",
+      "url": "https://www.american.edu/financialaid/cost-of-attendance/undergraduate-first-year-students.cfm"
+    },
+    {
+      "label": "American University — tuition, fees and health insurance 2026–27",
+      "url": "https://www.american.edu/finance/studentaccounts/tuition-and-fees-information.cfm"
     }
   ],
   "verification": {
@@ -30890,10 +30949,10 @@ window.UNIPATH.universities.push(
       "aid for international students",
       "list of majors",
       "application rounds",
-      "test policy"
+      "test policy",
+      "tuition and fees"
     ],
     "unconfirmed": [
-      "tuition and fees",
       "amounts of merit awards",
       "share of need met",
       "founding year",
