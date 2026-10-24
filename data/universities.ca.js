@@ -8729,8 +8729,16 @@ window.UNIPATH.universities.push(
         "conditions": "For example Medical Laboratory Science and Nursing; documents by 8 February.",
         "status": "confirmed",
         "source": "https://admissions.ontariotechu.ca/applicant-information/international-applicants.php",
-        "verified": "2026-10-16",
-        "note": "The page prints “Friday, January 29” without a year; the weekday matches 2027."
+        "verified": "2026-10-24",
+        "note": "The admissions page explicitly identifies Fall 2027 before this timeline. The cycle is established by that page context, not by the weekday matching a guessed year. The offer letter sets the applicant’s actual reply deadline.",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://admissions.ontariotechu.ca/applicant-information/international-applicants.php",
+          "verified": "2026-10-24",
+          "quote": "Fall 2027"
+        }
       },
       {
         "name": "Global Leadership Award application",
@@ -8739,13 +8747,22 @@ window.UNIPATH.universities.push(
         "entryYear": "2027",
         "dateISO": "2027-02-11",
         "date": "11 February 2027",
-        "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": null,
         "status": "confirmed",
         "source": "https://admissions.ontariotechu.ca/applicant-information/international-applicants.php",
-        "verified": "2026-10-16",
-        "note": "Printed as “Thursday, February 11”; the weekday matches 2027."
+        "verified": "2026-10-24",
+        "note": "The admissions page explicitly identifies Fall 2027 before this timeline. The cycle is established by that page context, not by the weekday matching a guessed year. The offer letter sets the applicant’s actual reply deadline.",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://admissions.ontariotechu.ca/applicant-information/international-applicants.php",
+          "verified": "2026-10-24",
+          "quote": "Fall 2027"
+        },
+        "awardId": "global-leadership",
+        "awardCategory": "merit"
       },
       {
         "name": "International applicants: OUAC application for equal consideration (all other programmes)",
@@ -8759,8 +8776,16 @@ window.UNIPATH.universities.push(
         "conditions": "Interim transcripts are due the same day. Later applications are still processed with institutional deadlines.",
         "status": "confirmed",
         "source": "https://admissions.ontariotechu.ca/applicant-information/international-applicants.php",
-        "verified": "2026-10-16",
-        "note": "Printed as “Wednesday, March 31”; the weekday matches 2027."
+        "verified": "2026-10-24",
+        "note": "The admissions page explicitly identifies Fall 2027 before this timeline. The cycle is established by that page context, not by the weekday matching a guessed year. The offer letter sets the applicant’s actual reply deadline.",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://admissions.ontariotechu.ca/applicant-information/international-applicants.php",
+          "verified": "2026-10-24",
+          "quote": "Fall 2027"
+        }
       },
       {
         "name": "Common deadline to accept an offer",
@@ -8774,8 +8799,16 @@ window.UNIPATH.universities.push(
         "conditions": "The non-refundable tuition deposit is due 4 June.",
         "status": "confirmed",
         "source": "https://admissions.ontariotechu.ca/applicant-information/international-applicants.php",
-        "verified": "2026-10-16",
-        "note": "Printed as “Monday, May 3”; the weekday matches 2027."
+        "verified": "2026-10-24",
+        "note": "The admissions page explicitly identifies Fall 2027 before this timeline. The cycle is established by that page context, not by the weekday matching a guessed year. The offer letter sets the applicant’s actual reply deadline.",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://admissions.ontariotechu.ca/applicant-information/international-applicants.php",
+          "verified": "2026-10-24",
+          "quote": "Fall 2027"
+        }
       }
     ],
     "applicationFee": {
@@ -8919,10 +8952,14 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Application by 11 February 2027",
         "renewable": true,
-        "note": "Highly competitive; never counted as received.",
+        "note": "Competitive C$120,000 award over four years; no full-cost coverage is inferred from the amount. The admissions timeline establishes the 11 February deadline for Fall 2027. The award office’s separate page still labels the 2026–27 competition closed; this does not establish when the 2027 award application opens or confirm all 2027 terms.",
         "basis": "merit",
         "source": "https://safa.ontariotechu.ca/awards-bursaries-and-scholarships/undergraduate-student-finances/scholarships/scholarships-and-awards-for-international-students.php",
-        "verified": "2026-10-16"
+        "verified": "2026-10-24",
+        "id": "global-leadership",
+        "category": "merit",
+        "entryTerm": "Autumn",
+        "entryYear": "2027"
       }
     ],
     "needBased": {

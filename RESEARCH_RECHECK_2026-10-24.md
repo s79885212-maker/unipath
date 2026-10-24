@@ -340,3 +340,37 @@ Credential Manager не стартует в текущей среде (`NtCreate
 GitHub и не ошибка 403 от самого GitHub. Через ранее отклонённое подключение
 запись повторно не запрашивалась. Повторный read-only запрос публичного API:
 main и dev всё ещё `a468bd39c56077e195efa82da10c11ea76cd91e1`.
+
+
+## Дополнение v152: Ontario Tech и границы проверки awards
+
+24.10.2026 на [официальной странице международного приёма Ontario Tech](https://admissions.ontariotechu.ca/applicant-information/international-applicants.php)
+проверен явный контекст «Fall 2027» перед календарём. Четыре существовавших
+события получили структурированное доказательство этого цикла: 29 января,
+11 февраля (GLA), 31 марта и 3 мая. Год установлен контекстом страницы,
+а не вычислением дня недели. Offer letter определяет фактический reply deadline.
+GLA связан только с собственным событием 11 февраля по id/category/набору.
+[Стипендиальный офис](https://safa.ontariotechu.ca/awards-bursaries-and-scholarships/undergraduate-student-finances/scholarships/scholarships-and-awards-for-international-students.php)
+ещё описывает закрытый конкурс 2026–27. Открытие формы и все условия GLA
+2027 не подтверждены. Отдельная Emergency Bursary 2027–28 не использована
+как источник даты GLA. C$120,000 за четыре года не означает полного покрытия.
+
+Реестр research/2026-10-24-award-review.json содержит первоначальную проверку
+48 связанных официальных страниц: 40 читаемых HTML, 8 недоступных. Это
+проверка охвата источников, а не завершённое исследование всех awards.
+У всех 48 fullRide.available сохранено null. Дополнительные следы:
+
+* [Mount Allison](https://mta.ca/costs-financial-aid/scholarships-and-awards-first-year-students):
+  Class of 1968 Entrance Award покрывает tuition первого года, один получатель.
+  Международная допустимость и цикл 2027 не установлены. Последующая
+  стипендия при GPA 3.7 не названа гарантированным продлением этого award.
+* [Saint Mary’s](https://www.smu.ca/future-students/moneymatters/scholarshipsawards/):
+  правила Major Renewable 2027 ограничены Canadian citizens/permanent residents.
+  Они не перенесены на отдельные автоматические Admission Scholarships.
+* UNBC: отсутствие fully funded scholarship с проживанием не доказывает
+  отсутствие полной tuition-стипендии. Отрицательный fullRide не назначен.
+* Trent: результаты с тестового домена не использованы как новые правила.
+
+Видимые названия разрешённых фотографий уточнены годом: Olin — исторический
+снимок 2002, TUJ Setagaya — 2019. Ранее год был только в caption metadata,
+которое галерея не выводит. Автор и лицензия сохранены.

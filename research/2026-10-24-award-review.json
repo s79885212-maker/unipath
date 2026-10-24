@@ -1,0 +1,436 @@
+[
+  {
+    "id": "mcgill-university",
+    "source": "https://www.mcgill.ca/studentaid/scholarships-aid/future-undergrads/entrance-scholarships",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "Entrance scholarships for future undergraduates - McGill University",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "university-of-alberta",
+    "source": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/international-entrance-scholarships/index.html",
+    "verified": "2026-10-24",
+    "fetchResult": "unavailable",
+    "title": null,
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "mcmaster-university",
+    "source": "https://registrar.mcmaster.ca/entrance-awards/",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "Entrance scholarships and bursaries | Office of the Registrar | McMaster University",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "universite-de-montreal",
+    "source": "https://registraire.umontreal.ca/droits-de-scolarite/bourse-exemption/",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "Bourse d'exemption UdeM pour personnes étudiantes de l'international - Bureau du registraire - Université de Montréal",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "university-of-waterloo",
+    "source": "https://uwaterloo.ca/future-students/financing/international-scholarships",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "Scholarships for international students | Undergraduate Programs | University of Waterloo",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "western-university",
+    "source": "https://welcome.uwo.ca/next-steps/finances/index.html",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "Review Costs & Financial Support | Western University | London, Ontario, Canada",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "university-of-ottawa",
+    "source": "https://www.uottawa.ca/study/fees-financial-support/scholarships-awards-overview",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "Scholarships and awards - Overview | Study",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "university-of-calgary",
+    "source": "https://www.ucalgary.ca/registrar/awards/university-calgary-international-entrance-scholarship",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "University of Calgary International Entrance Scholarship | Office of the Registrar | University of Calgary",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "queens-university",
+    "source": "https://www.queensu.ca/registrar/financial-aid/specific-students/international",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "International and U.S. Students | Registrar & Financial Aid Services",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "dalhousie-university",
+    "source": "https://www.dal.ca/admissions/scholarships-financial-aid/scholarships/future-undergraduate-student-awards.html",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "Future undergraduate student awards | Welcome to Dalhousie University",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "simon-fraser-university",
+    "source": "https://www.sfu.ca/students/admission/fees-scholarships/uses.html",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "Undergraduate Scholars Entrance Scholarship - Undergraduate Admission - Simon Fraser University ",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "universite-laval",
+    "source": "https://www.ulaval.ca/etudes/droits-de-scolarite/etudiant-etranger",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "Étudiant de l'international | Droits de scolarité",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "university-of-saskatchewan",
+    "source": "https://admissions.usask.ca/money/scholarships.php",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "Scholarships - Admissions | University of Saskatchewan",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "university-of-manitoba",
+    "source": "https://umanitoba.ca/financial-aid-and-awards/entrance-awards",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "Entrance awards | University of Manitoba",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "university-of-guelph",
+    "source": "https://www.uoguelph.ca/admission/undergraduate/international/funding",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "Funding Your Education | International Students | University of Guelph",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "carleton-university",
+    "source": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "USA and International Costs - Undergraduate Admissions - Carleton University",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "york-university",
+    "source": "https://futurestudents.yorku.ca/financing-your-degree/international-scholarships",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "Scholarships and Awards for International Students | Future Students | York University",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "concordia-university",
+    "source": "https://www.concordia.ca/students/financial/scholarships-funding/scholarships.html",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "Scholarships | Tuition & Financial Aid - Concordia University",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "memorial-university-of-newfoundland",
+    "source": "https://www.mun.ca/scholarships/entrance-scholarships/international-students/",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "International students | Scholarships / Bursaries / Awards and other Financial Aid | Memorial University of",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "university-of-new-brunswick",
+    "source": "https://www.unb.ca/moneymatters/scholarships/international.html",
+    "verified": "2026-10-24",
+    "fetchResult": "unavailable",
+    "title": null,
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "university-of-windsor",
+    "source": "https://www.future.uwindsor.ca/global-lancer-scholarship/",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "Global Lancer Scholarship - University of Windsor - Your Future Starts Here",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "university-of-regina",
+    "source": "https://www.uregina.ca/ur-international/scholarships.html",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "Scholarships | University of Regina",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "ontario-tech-university",
+    "source": "https://safa.ontariotechu.ca/awards-bursaries-and-scholarships/undergraduate-student-finances/scholarships/scholarships-and-awards-for-international-students.php",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "Scholarships for international students | Student Awards and Financial Aid",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Admissions page explicitly establishes Fall 2027 and GLA 11 February deadline. Award office still describes the closed 2026–27 competition. Opening and all 2027 award conditions unresolved; C$120,000 over four years does not prove full-cost coverage.",
+    "additionalSource": "https://admissions.ontariotechu.ca/applicant-information/international-applicants.php",
+    "quote": "Fall 2027"
+  },
+  {
+    "id": "toronto-metropolitan-university",
+    "source": "https://www.torontomu.ca/admissions/scholarships-awards/",
+    "verified": "2026-10-24",
+    "fetchResult": "unavailable",
+    "title": null,
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "brock-university",
+    "source": "https://brocku.ca/safa/2026-international-students/",
+    "verified": "2026-10-24",
+    "fetchResult": "unavailable",
+    "title": null,
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "wilfrid-laurier-university",
+    "source": "https://www.wlu.ca/future-students/undergraduate/tuition-finances/entrance-scholarships.html",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "Scholarships and Bursaries | Future Undergraduate Students | Wilfrid Laurier University ",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "trent-university",
+    "source": "https://www.trentu.ca/international/discover-trent/tuition-scholarships/scholarships",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "Scholarships - Trent International - Trent University",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "lakehead-university",
+    "source": "https://www.lakeheadu.ca/international/future/scholarships-awards",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "International Scholarships & Awards | Lakehead University",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "university-of-prince-edward-island",
+    "source": "https://www.upei.ca/scholarships-and-awards/international-student-scholarships",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "International Entrance Award Cycle | UPEI",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "acadia-university",
+    "source": "https://www2.acadiau.ca/student-services/scholarships-financial-aid/international-students/entrance-scholarships.html",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "Scholarships & Financial Aid - International Students - Entrance Scholarships - Acadia University",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "st-francis-xavier-university",
+    "source": "https://www.stfx.ca/applications-admissions/admissions-information/after-you-apply/scholarships",
+    "verified": "2026-10-24",
+    "fetchResult": "unavailable",
+    "title": null,
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "mount-allison-university",
+    "source": "https://mta.ca/costs-financial-aid/scholarships-and-awards-first-year-students",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "Scholarships and awards for first-year students | Mount Allison",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "saint-marys-university",
+    "source": "https://www.smu.ca/future-students/moneymatters/scholarshipsawards/",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "Scholarships & Awards | Future Students | Saint Mary's University ",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "bishops-university",
+    "source": "https://www.ubishops.ca/admissions/scholarships-awards-bursaries/",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "Scholarships | Awards | Bursaries | Bishop's University",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "university-of-lethbridge",
+    "source": "https://www.ulethbridge.ca/future-student/awards-and-scholarships",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "Awards and Scholarships | University of Lethbridge",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "university-of-winnipeg",
+    "source": "https://www.uwinnipeg.ca/awards/awards-bursaries-and-scholarships/international-students.html",
+    "verified": "2026-10-24",
+    "fetchResult": "unavailable",
+    "title": null,
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "mount-saint-vincent-university",
+    "source": "https://www.msvu.ca/future-students/money-matters/scholarships-awards/undergraduate-scholarships/",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "Undergraduate Scholarships",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "mount-royal-university",
+    "source": "https://www.mtroyal.ca/Admission/FinancingYourEducation/ScholarshipsBursaries/awardinfo.htm",
+    "verified": "2026-10-24",
+    "fetchResult": "unavailable",
+    "title": null,
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "thompson-rivers-university",
+    "source": "https://www.tru.ca/truworld/future-students/scholarships.html",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "Scholarships, TRU World - Thompson Rivers University",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "university-of-northern-british-columbia",
+    "source": "https://www.unbc.ca/international/frequent-asked-questions-faq",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "Frequent Asked Questions (FAQ) | UNBC",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "vancouver-island-university",
+    "source": "https://services.viu.ca/financial-aid-awards/viu-scholarships-awards-and-bursaries",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "VIU Scholarships Awards and Bursaries | Vancouver Island University | Canada",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "university-of-the-fraser-valley",
+    "source": "https://international.ufv.ca/future-students/tuition-scholarships-jobs/scholarships/international-excellence-scholarship/",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "Tuition, scholarships, and jobs for future international students > Scholarships for international students > International Excellence Entra",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "capilano-university",
+    "source": "https://www.capilanou.ca/admissions/fees--finances/financial-aid--awards/funding-for-international-students/",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "Funding for International Students - Capilano University ",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "laurentian-university",
+    "source": "https://laurentian.ca/academics/international/scholarships",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "International Scholarships and Bursaries | Laurentian University",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "universite-du-quebec-a-montreal",
+    "source": "https://etudier.uqam.ca/etudiants-internationaux/bourses",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "Financement des études et travail au Québec | Étudier à l'UQAM ",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "universite-de-sherbrooke",
+    "source": "https://www.usherbrooke.ca/admission/couts-et-aide-financiere/bourses-et-aide-financiere/etudiants-internationaux",
+    "verified": "2026-10-24",
+    "fetchResult": "unavailable",
+    "title": null,
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "universite-de-moncton",
+    "source": "https://www.umoncton.ca/bourses",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "Bourses | UMoncton",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  },
+  {
+    "id": "university-of-victoria",
+    "source": "https://www.uvic.ca/safa/scholarships/entrance-scholarships/index.php",
+    "verified": "2026-10-24",
+    "fetchResult": "read-html",
+    "title": "Entrance scholarships & awards - SAFA - UVic",
+    "scope": "Initial review of the linked official scholarship page only. International eligibility, full coverage and 2027 cycle are not inferred from absence of keywords.",
+    "outcome": "Unresolved; no automatic full-funding conclusion or new deadline."
+  }
+]
