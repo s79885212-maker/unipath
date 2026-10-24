@@ -3,6 +3,29 @@
    Modern, responsive, accessible. No build step, no framework.
    ============================================================ */
 
+/* Country flags on Windows. Windows has no flag emoji (🇺🇸 shows as the
+   letters "US"), so when the check in index.html finds that, html gets the
+   class "flag-font" and flags are drawn from Twemoji Country Flags
+   (Twemoji graphics © Twitter, CC BY 4.0; font packaged by
+   country-flag-emoji-polyfill, MIT). The unicode-range limits the font to
+   flag letters, and it is fetched only on pages that show a flag. */
+@font-face {
+  font-family: "Twemoji Country Flags";
+  unicode-range: U+1F1E6-1F1FF, U+1F3F4, U+E0062-E0063, U+E0065, U+E0067,
+    U+E006C, U+E006E, U+E0073-E0074, U+E0077, U+E007F;
+  src: url("https://cdn.jsdelivr.net/npm/country-flag-emoji-polyfill@0.1.8/dist/TwemojiCountryFlags.woff2")
+    format("woff2");
+  font-display: swap;
+}
+html.flag-font {
+  --font:
+    "Twemoji Country Flags", ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  --font-display:
+    "Twemoji Country Flags", "Iowan Old Style", "Palatino Linotype", Palatino,
+    Georgia, "Times New Roman", serif;
+}
+
 :root {
   /* Brand */
   --brand-900: #0b1b3a;
