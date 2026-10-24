@@ -2681,7 +2681,8 @@ button.badge {
    School of Art and Design)"): it wraps inside its tile. */
 .field-check .field-named { font-weight: 600; overflow-wrap: anywhere; }
 .degrees-table { margin-top: 10px; }
-.degrees-table td:last-child, .degrees-table th:last-child { text-align: right; white-space: nowrap; }
+.degrees-table td:last-child, .degrees-table th:last-child { text-align: right; }
+.degrees-table td:last-child { white-space: nowrap; }
 .plain-list { margin: 8px 0 0; padding-left: 18px; }
 .plain-list li { margin-bottom: 6px; }
 
@@ -3315,5 +3316,32 @@ html.theme-switching *::after {
   }
   .fs-chev {
     transition: none;
+  }
+}
+
+/* ---------- Phones: shorter country cards, larger touch targets ---------- */
+@media (max-width: 560px) {
+  /* Flag beside the name instead of above it: six cards take a screen less. */
+  .country-card .card-body {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    column-gap: 12px;
+    row-gap: 10px;
+  }
+  .country-card .card-body > :not(.flag):not(h3) {
+    grid-column: 1 / -1;
+  }
+  .country-card .flag {
+    font-size: 2rem;
+  }
+  .compare-toggle {
+    min-height: 34px;
+    padding: 6px 12px;
+  }
+  .quick-links .chip {
+    display: inline-flex;
+    align-items: center;
+    min-height: 36px;
   }
 }
