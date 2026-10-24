@@ -121,6 +121,11 @@ module.exports = function (env) {
     DB.match.rates = {};
     ok(budget('rollins-college', 200, 'CAD').status === 'fits-tuition', 'same-currency comparison needs no exchange rate and never promises housing');
   } finally { DB.match.annualCost['rollins-college'] = saved; DB.match.rates = rates; }
+  var pearsonCoverage = U.fullRide(U.uniById('university-of-toronto')).covers;
+  ok(pearsonCoverage.housing === true && pearsonCoverage.meals === null &&
+    U.awardKind(U.uniById('university-of-toronto')) === 'full-tuition' &&
+    U.awardLabel(U.uniById('university-of-toronto')) === 'Full tuition covered',
+    'Pearson tuition badge does not deny confirmed housing or invent meals coverage');
   var satUnknown = { academics: { sat: { policy: 'unknown' } } };
   ok(U.satPolicy(satUnknown) !== 'optional' && !U.gpaComparable({ average: 3.5, scale: 5, weighting: 'unweighted' }) &&
     !U.gpaComparable({ average: 3.5, scale: 4, weighting: 'weighted' }), 'unknown SAT and incompatible GPA never become comparable requirements');

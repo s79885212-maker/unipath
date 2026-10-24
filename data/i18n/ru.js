@@ -16461,4 +16461,6 @@ window.UNIPATH_I18N.ru = {
   "Ontario Tech — Fall 2027 international admissions timeline": "Ontario Tech — календарь международного приёма Fall 2027",
   "Olin College Great Lawn — historic photograph, 2002": "Большая лужайка Olin College — исторический снимок, 2002",
   "Temple University Japan — Setagaya, 2019": "Temple University Japan — Setagaya, 2019",
+  "Acadia — entrance scholarships for future students": "Acadia — вступительные стипендии для будущих студентов",
+  "SAT/ACT scope review — general policy unresolved": "Проверка области SAT/ACT — общая политика не подтверждена",
 };

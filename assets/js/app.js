@@ -440,7 +440,7 @@
   var AWARD_LABEL = {
     'full-ride': 'Full ride: tuition, housing and meals',
     'tuition-stipend': 'Full tuition + living stipend',
-    'full-tuition': 'Full tuition only',
+    'full-tuition': 'Full tuition covered',
     'full-funding': 'Full funding possible — coverage not itemised'
   };
   function awardLabel(u) { var k = awardKind(u); return k ? AWARD_LABEL[k] : null; }
