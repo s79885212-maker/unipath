@@ -3036,11 +3036,15 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": null,
-      "note": "Not checked on the pages read."
+      "note": "The official US-curriculum page (American high schools in the US or abroad) lists Grade 12, admission average and programme prerequisites, but does not explicitly establish a SAT/ACT submission policy. Requirements for other school systems and the 2027 policy remain unconfirmed.",
+      "source": "https://www.uottawa.ca/study/undergraduate-studies/international-applicants/usa",
+      "verified": "2026-10-24"
     },
     "act": {
       "policy": null,
-      "note": "Not checked on the pages read."
+      "note": "The official US-curriculum page (American high schools in the US or abroad) lists Grade 12, admission average and programme prerequisites, but does not explicitly establish a SAT/ACT submission policy. Requirements for other school systems and the 2027 policy remain unconfirmed.",
+      "source": "https://www.uottawa.ca/study/undergraduate-studies/international-applicants/usa",
+      "verified": "2026-10-24"
     },
     "otherTests": null,
     "internationalQualifications": "Uzbekistan: the direct-entry undergraduate qualifications table lists Certificate of Completed Secondary Education, Certificate of Secondary Education or Attestat o Srednem Obrazovanii. This table does not establish required grades, programme prerequisites or whether preparatory study is needed for a particular applicant; those remain unconfirmed. No 2027 cycle is stated.",
@@ -3182,6 +3186,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.uottawa.ca/study/undergraduate-studies/undergraduate-programs"
+    },
+    {
+      "label": "SAT/ACT scope review — general policy unresolved",
+      "url": "https://www.uottawa.ca/study/undergraduate-studies/international-applicants/usa"
     }
   ],
   "verification": {
@@ -5113,11 +5121,15 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": null,
-      "note": "Not checked on the pages read."
+      "note": "For home-based learners only, USask accepts independent SAT I results from 1100 or ACT average 24 as assessment tools, alongside programme prerequisites and the college admission average. These scoped alternatives do not establish a general SAT/ACT requirement or a 2027 test-optional policy for other school systems.",
+      "source": "https://admissions.usask.ca/requirements/home-based.php",
+      "verified": "2026-10-24"
     },
     "act": {
       "policy": null,
-      "note": "Not checked on the pages read."
+      "note": "For home-based learners only, USask accepts independent SAT I results from 1100 or ACT average 24 as assessment tools, alongside programme prerequisites and the college admission average. These scoped alternatives do not establish a general SAT/ACT requirement or a 2027 test-optional policy for other school systems.",
+      "source": "https://admissions.usask.ca/requirements/home-based.php",
+      "verified": "2026-10-24"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -5256,6 +5268,10 @@ window.UNIPATH.universities.push(
     {
       "label": "USask — scholarships",
       "url": "https://admissions.usask.ca/money/scholarships.php"
+    },
+    {
+      "label": "SAT/ACT scope review — general policy unresolved",
+      "url": "https://admissions.usask.ca/requirements/home-based.php"
     }
   ],
   "verification": {
@@ -7894,9 +7910,9 @@ window.UNIPATH.universities.push(
       "currency": "CAD",
       "waiverAvailableToInternational": null,
       "waiver": null,
-      "note": "The direct-application fee was not found on the pages read. Through OUAC: base fee C$159 plus a C$75 document-evaluation fee for Windsor.",
+      "note": "Rechecked: the official direct international application and Finance fees pages do not establish the application charge for this applicant route. The C$2,000 enrolment deposit and graduate application fees are different charges. Application fee remains unknown.",
       "source": "https://future.uwindsor.ca/apply-international",
-      "verified": "2026-10-16"
+      "verified": "2026-10-24"
     },
     "documents": [
       "Direct application or OUAC",
@@ -9308,11 +9324,15 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": null,
-      "note": "Not checked on the pages read."
+      "note": "The accessible calendar page is labelled 2024–2025; it does not establish the 2027 SAT/ACT policy. A current handbook request returned 403. The general policy remains unconfirmed; older US-school and homeschool statements are not applied to all applicants.",
+      "source": "https://brocku.ca/webcal/current/undergrad/admi.html",
+      "verified": "2026-10-24"
     },
     "act": {
       "policy": null,
-      "note": "Not checked on the pages read."
+      "note": "The accessible calendar page is labelled 2024–2025; it does not establish the 2027 SAT/ACT policy. A current handbook request returned 403. The general policy remains unconfirmed; older US-school and homeschool statements are not applied to all applicants.",
+      "source": "https://brocku.ca/webcal/current/undergrad/admi.html",
+      "verified": "2026-10-24"
     },
     "otherTests": null,
     "internationalQualifications": "Uzbekistan: Akademik Litsey Diplomi (Diploma of Academic Lyceum) or Umumiy o‘rta ta’lim to‘g‘risida attestat (Certificate of General Secondary Education)."
@@ -9439,6 +9459,10 @@ window.UNIPATH.universities.push(
     {
       "label": "OUAC — undergraduate fees",
       "url": "https://www.ouac.on.ca/guide/undergrad-fees"
+    },
+    {
+      "label": "SAT/ACT scope review — general policy unresolved",
+      "url": "https://brocku.ca/webcal/current/undergrad/admi.html"
     }
   ],
   "verification": {
@@ -9636,11 +9660,15 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": null,
-      "note": "Not checked on the pages read."
+      "note": "The SAT/ACT Curriculum page explicitly says ACT and SAT subject exams may support a homeschooled application but are not required. This is a homeschool statement, not a universal policy for American or Uzbek school qualifications; the general and 2027 policies remain unconfirmed.",
+      "source": "https://www.wlu.ca/future-students/undergraduate/admissions/assets/resources/sat-act-curriculum.html",
+      "verified": "2026-10-24"
     },
     "act": {
       "policy": null,
-      "note": "Not checked on the pages read."
+      "note": "The SAT/ACT Curriculum page explicitly says ACT and SAT subject exams may support a homeschooled application but are not required. This is a homeschool statement, not a universal policy for American or Uzbek school qualifications; the general and 2027 policies remain unconfirmed.",
+      "source": "https://www.wlu.ca/future-students/undergraduate/admissions/assets/resources/sat-act-curriculum.html",
+      "verified": "2026-10-24"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -9774,6 +9802,10 @@ window.UNIPATH.universities.push(
     {
       "label": "OUAC — undergraduate fees",
       "url": "https://www.ouac.on.ca/guide/undergrad-fees"
+    },
+    {
+      "label": "SAT/ACT scope review — general policy unresolved",
+      "url": "https://www.wlu.ca/future-students/undergraduate/admissions/assets/resources/sat-act-curriculum.html"
     }
   ],
   "verification": {
@@ -10934,11 +10966,15 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": null,
-      "note": "Not checked on the pages read."
+      "note": "The official American-student requirements page was read; no explicit general SAT/ACT submission policy was established. An omitted test on this page is not evidence of a test-optional rule for every school system or faculty.",
+      "source": "https://www2.acadiau.ca/admissions/application-process/american-students.html",
+      "verified": "2026-10-24"
     },
     "act": {
       "policy": null,
-      "note": "Not checked on the pages read."
+      "note": "The official American-student requirements page was read; no explicit general SAT/ACT submission policy was established. An omitted test on this page is not evidence of a test-optional rule for every school system or faculty.",
+      "source": "https://www2.acadiau.ca/admissions/application-process/american-students.html",
+      "verified": "2026-10-24"
     },
     "otherTests": null,
     "internationalQualifications": "Uzbekistan: Attestat o Srednem Obrazovanii with 4/5."
@@ -11081,6 +11117,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Acadia — entrance scholarships for future students",
       "url": "https://www2.acadiau.ca/student-services/scholarships-financial-aid/future-students/entrance-scholarships.html"
+    },
+    {
+      "label": "SAT/ACT scope review — general policy unresolved",
+      "url": "https://www2.acadiau.ca/admissions/application-process/american-students.html"
     }
   ],
   "verification": {
@@ -11927,11 +11967,15 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": null,
-      "note": "Not checked on the pages read."
+      "note": "The international-admission page describes US-patterned high-school subjects and grades without establishing an explicit SAT/ACT policy. Other curricula, programme exceptions and the 2027 cycle remain unconfirmed; this is not recorded as test-optional.",
+      "source": "https://www.smu.ca/future-students/admissions/internationaladmissions/",
+      "verified": "2026-10-24"
     },
     "act": {
       "policy": null,
-      "note": "Not checked on the pages read."
+      "note": "The international-admission page describes US-patterned high-school subjects and grades without establishing an explicit SAT/ACT policy. Other curricula, programme exceptions and the 2027 cycle remain unconfirmed; this is not recorded as test-optional.",
+      "source": "https://www.smu.ca/future-students/admissions/internationaladmissions/",
+      "verified": "2026-10-24"
     },
     "otherTests": null,
     "internationalQualifications": "Uzbekistan: Akademik Litsey Diplomi (Diploma of Academic Lyceum, State Attestation Committee) or Umumiy O‘rta Ta’lim To‘g‘risida Shahodatnoma (Certificate of Full Secondary Education, Ministry of Education)."
@@ -13522,11 +13566,15 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": null,
-      "note": "Not checked on the pages read."
+      "note": "The official international-admission page was reviewed. It requires general and programme-specific admission conditions but does not establish an explicit SAT/ACT policy by school system. General policy remains unconfirmed.",
+      "source": "https://www.mtroyal.ca/InternationalStudents/Admissionrequirements/index.htm",
+      "verified": "2026-10-24"
     },
     "act": {
       "policy": null,
-      "note": "Not checked on the pages read."
+      "note": "The official international-admission page was reviewed. It requires general and programme-specific admission conditions but does not establish an explicit SAT/ACT policy by school system. General policy remains unconfirmed.",
+      "source": "https://www.mtroyal.ca/InternationalStudents/Admissionrequirements/index.htm",
+      "verified": "2026-10-24"
     },
     "otherTests": null,
     "internationalQualifications": "Uzbekistan: Certificate of Completed Upper Secondary Education showing all exams taken and grades obtained.",
@@ -13627,6 +13675,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Mount Royal — international credentials",
       "url": "https://www.mtroyal.ca/Admission/InternationalCredentials/"
+    },
+    {
+      "label": "SAT/ACT scope review — general policy unresolved",
+      "url": "https://www.mtroyal.ca/InternationalStudents/Admissionrequirements/index.htm"
     }
   ],
   "verification": {
@@ -14118,11 +14170,15 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": null,
-      "note": "Not checked on the pages read."
+      "note": "The current country-requirements page links US secondary-school qualifications and subject requirements but does not establish an explicit general SAT/ACT policy. The 2027 policy and faculty exceptions remain unconfirmed.",
+      "source": "https://www.unbc.ca/programs-and-admissions/undergraduate/international-admission-requirements-undergraduate-studies",
+      "verified": "2026-10-24"
     },
     "act": {
       "policy": null,
-      "note": "Not checked on the pages read."
+      "note": "The current country-requirements page links US secondary-school qualifications and subject requirements but does not establish an explicit general SAT/ACT policy. The 2027 policy and faculty exceptions remain unconfirmed.",
+      "source": "https://www.unbc.ca/programs-and-admissions/undergraduate/international-admission-requirements-undergraduate-studies",
+      "verified": "2026-10-24"
     },
     "otherTests": null,
     "internationalQualifications": "Uzbekistan: UNBC’s currently linked country sheet (version 2021 03) lists Akademik Litsey Diplomi or Kasb-Hunar Kolleji Diplomi with a final grade of at least 3/5 for general entry. Programme prerequisites and English requirements also apply. The sheet does not establish admission with a general-school Attestat or requirements for the 2027 intake; these remain unconfirmed.",
@@ -14211,6 +14267,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official country-specific undergraduate qualifications",
       "url": "https://www.unbc.ca/sites/default/files/sections/admissions/undergraduate/uzbekistan-admissionrequirementssept2021.pdf"
+    },
+    {
+      "label": "SAT/ACT scope review — general policy unresolved",
+      "url": "https://www.unbc.ca/programs-and-admissions/undergraduate/international-admission-requirements-undergraduate-studies"
     }
   ],
   "verification": {
@@ -14366,11 +14426,15 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": null,
-      "note": "Not checked on the pages read."
+      "note": "The official international-admission and high-school equivalency page was reviewed; an explicit SAT/ACT policy for admission was not established. English proficiency alternatives and school-completion equivalencies do not prove a universal test-optional policy.",
+      "source": "https://www.viu.ca/admissions/international",
+      "verified": "2026-10-24"
     },
     "act": {
       "policy": null,
-      "note": "Not checked on the pages read."
+      "note": "The official international-admission and high-school equivalency page was reviewed; an explicit SAT/ACT policy for admission was not established. English proficiency alternatives and school-completion equivalencies do not prove a universal test-optional policy.",
+      "source": "https://www.viu.ca/admissions/international",
+      "verified": "2026-10-24"
     },
     "otherTests": null,
     "internationalQualifications": "Uzbekistan: Akademik Litsey Diplomi (Diploma of Academic Lyceum)."
@@ -14443,6 +14507,10 @@ window.UNIPATH.universities.push(
     {
       "label": "VIU International — home for international students",
       "url": "https://international.viu.ca/"
+    },
+    {
+      "label": "SAT/ACT scope review — general policy unresolved",
+      "url": "https://www.viu.ca/admissions/international"
     }
   ],
   "verification": {
@@ -14621,11 +14689,15 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": null,
-      "note": "Not checked on the pages read."
+      "note": "The international-admission page requires Grade-12-equivalent qualifications, English proficiency and programme prerequisites; it does not explicitly establish a SAT/ACT submission policy. Policy by school system and programme remains unconfirmed.",
+      "source": "https://international.ufv.ca/future-students/apply-to-ufv/admission-requirements/",
+      "verified": "2026-10-24"
     },
     "act": {
       "policy": null,
-      "note": "Not checked on the pages read."
+      "note": "The international-admission page requires Grade-12-equivalent qualifications, English proficiency and programme prerequisites; it does not explicitly establish a SAT/ACT submission policy. Policy by school system and programme remains unconfirmed.",
+      "source": "https://international.ufv.ca/future-students/apply-to-ufv/admission-requirements/",
+      "verified": "2026-10-24"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -14734,6 +14806,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Computing Science — Bachelor of Science",
       "url": "https://www.ufv.ca/programs/computing/computing-science-bsc/"
+    },
+    {
+      "label": "SAT/ACT scope review — general policy unresolved",
+      "url": "https://international.ufv.ca/future-students/apply-to-ufv/admission-requirements/"
     }
   ],
   "verification": {
@@ -14910,7 +14986,9 @@ window.UNIPATH.universities.push(
       "note": "Not checked on the pages read."
     },
     "otherTests": null,
-    "internationalQualifications": null
+    "internationalQualifications": "Uzbekistan: Capilano’s currently linked international secondary-school equivalency list (2021 file), page 10, names O’rta Ma’lumot To’g’risida Shahodatnoma or Attestat o Srednem Obrazovanii. The table establishes a school-completion equivalency only; required grades, programme subjects and any preparatory study for a specific applicant are not established. No 2027 cycle is stated.",
+    "internationalQualificationsSource": "https://www.capilanou.ca/media/capilanouca/programs-amp-courses/capu-for-you/international-students/EQU-INTL-SEC-CURRICULA-202120-Web.pdf",
+    "internationalQualificationsVerified": "2026-10-24"
   },
   "costs": {
     "breakdown": {
@@ -14997,6 +15075,10 @@ window.UNIPATH.universities.push(
     {
       "label": "CapU — admission requirements for US-curriculum applicants",
       "url": "https://www.capilanou.ca/programs--courses/get-started/parents-families--supporters/faqs/"
+    },
+    {
+      "label": "Capilano — international secondary-school equivalencies",
+      "url": "https://www.capilanou.ca/media/capilanouca/programs-amp-courses/capu-for-you/international-students/EQU-INTL-SEC-CURRICULA-202120-Web.pdf"
     }
   ],
   "verification": {
@@ -15170,11 +15252,15 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": null,
-      "note": "Not checked on the pages read."
+      "note": "The current international page lists a US high-school diploma with B average or better and separate faculty prerequisites. It does not explicitly establish the SAT/ACT policy; this omission is not treated as a universal test-optional rule.",
+      "source": "https://laurentian.ca/academics/admissions/international/undergraduate-admissions",
+      "verified": "2026-10-24"
     },
     "act": {
       "policy": null,
-      "note": "Not checked on the pages read."
+      "note": "The current international page lists a US high-school diploma with B average or better and separate faculty prerequisites. It does not explicitly establish the SAT/ACT policy; this omission is not treated as a universal test-optional rule.",
+      "source": "https://laurentian.ca/academics/admissions/international/undergraduate-admissions",
+      "verified": "2026-10-24"
     },
     "otherTests": null,
     "internationalQualifications": "Uzbekistan: Certificate of Completed Secondary Education with a grade of 4/5.",

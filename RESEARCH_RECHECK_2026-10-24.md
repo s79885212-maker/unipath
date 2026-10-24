@@ -150,8 +150,9 @@ Capilano. Windsor и UNB уже исправлены в актуальном dev
 * Temple Japan: https://commons.wikimedia.org/wiki/File:TUJ_Setagaya.jpg —
   Temple University Japan, CC BY-SA 4.0; Tokyo campus at Showa Women’s University,
   26.07.2019, 320×240. Старые фотографии Azabu не подменяют нынешний кампус.
-* Для этих двух конкретных файлов запрошено разрешение на скачивание согласно
-  прямому правилу AGENTS.md. Пока согласие не получено, файлы не скачиваются.
+* Владелец явно разрешил скачать оба указанных файла. Оригиналы скачаны без
+  изменения содержимого, визуально просмотрены; thumb.jpg — копия тех же байтов.
+  Автор, лицензия и страница файла добавлены в data/photos.js.
 * SRH: поиск Commons дал старые логотипы и здания других школ группы; подходящий
   снимок актуального Berlin campus не подтверждён. Karlshochschule: логотипы
   и портрет президента не подходят как фото кампуса. Заглушки сохранены;
@@ -172,3 +173,55 @@ RU/EN, light/dark, ширины 360/390/768/1280. Ошибок JS, неудач�
 зафиксированных проблем разметки в этой матрице нет. Это ограниченный результат
 проверок, а не заявление об отсутствии всех ошибок. После v147: **254 passed,
 0 failed**; финальная сборка/целевые браузерные проверки ещё предстоят.
+
+## Дополнения v148: SAT/ACT, Capilano, фотографии
+
+Все 11 общих политик остаются `null`. Это результат ограниченной проверки,
+а не заключение о наличии/отсутствии обязательного теста. В карточках теперь
+сохранены источник, дата 24.10.2026 и объяснение области проверки вместо
+прежнего общего «Not checked on the pages read». Числовые условия специальных
+категорий не стали универсальными минимумами в подборе. Ни один пункт
+`verification.unconfirmed: test policy` не закрыт.
+
+| Вуз; категория | Прочитанный официальный источник | Короткая выдержка/область | Результат |
+|---|---|---|---|
+| Ottawa; American high school в США и за рубежом | https://www.uottawa.ca/study/undergraduate-studies/international-applicants/usa | “American high school program in the United States or abroad” | Явная SAT/ACT политика не установлена; не optional |
+| Saskatchewan; home-based learner | https://admissions.usask.ca/requirements/home-based.php | “the SAT I”; “minimum score of 1100”; “minimum average of 24” | SAT/ACT допустимы в специальной оценке homeschool; общая политика и 2027 не установлены |
+| Brock; undergraduate calendar | https://brocku.ca/webcal/current/undergrad/admi.html | “2024–2025” | Не подтверждает 2027; handbook 403 не обходился |
+| Laurier; homeschooled | https://www.wlu.ca/future-students/undergraduate/admissions/assets/resources/sat-act-curriculum.html | “to support a homeschooled applicant, however it is not required” | Это не общий optional для других школьных систем |
+| Acadia; American students | https://www2.acadiau.ca/admissions/application-process/american-students.html | “Admissions requirements for American students” | Явная общая SAT/ACT политика не установлена |
+| Saint Mary’s; US-patterned high school | https://www.smu.ca/future-students/admissions/internationaladmissions/ | “US Patterned” | Предметы/оценки описаны, явная SAT/ACT политика не установлена |
+| Mount Royal; international applicants | https://www.mtroyal.ca/InternationalStudents/Admissionrequirements/index.htm | “general and specific admission requirements” | Нет установленного общего правила SAT/ACT по системам |
+| UNBC; country requirements / US | https://www.unbc.ca/programs-and-admissions/undergraduate/international-admission-requirements-undergraduate-studies | “United States of America” | Список квалификаций не доказывает optional |
+| VIU; international / equivalencies | https://www.viu.ca/admissions/international | “High school completion equivalency list by country” | Школьные эквиваленты и языковые альтернативы не устанавливают общую SAT/ACT политику |
+| UFV; international / programme prerequisites | https://international.ufv.ca/future-students/apply-to-ufv/admission-requirements/ | “General requirements”; “Program requirements” | Требуется отдельная политика по системе/программе |
+| Laurentian; American curriculum / separate faculty prerequisites | https://laurentian.ca/academics/admissions/international/undergraduate-admissions | “High School Diploma”; “B average or better” | Явная SAT/ACT политика не установлена; не optional |
+
+Для этих общих политик **2027 не подтверждён**; прочитанный standing page без
+указанного цикла не выдаётся за правило конкретного будущего набора.
+
+Capilano: текущая официальная страница
+https://www.capilanou.ca/admissions/apply-to-capu/admission-requirements/international-students/
+ссылается на
+https://www.capilanou.ca/media/capilanouca/programs-amp-courses/capu-for-you/international-students/EQU-INTL-SEC-CURRICULA-202120-Web.pdf.
+Стр. 10: “O'rta Ma'lumot To'g'risida Shahodatnoma”; “Attestat o Srednem Obrazovanii”.
+Категория — international secondary-school completion equivalency, файл 2021.
+Оценки, предметы, необходимость подготовки и набор 2027 этой строкой не
+подтверждаются. Добавлена частичная квалификация с source/verified, общий
+пункт Узбекистана остался открытым. Документ локально не скачивался.
+
+Windsor: `applicationFee.amount: null` сохранён; добавлено объяснение повторной
+проверки прямого международного маршрута. Депозит/graduate fee не подставлены.
+
+Одобренные владельцем оригиналы фото:
+
+| Объект | Автор / лицензия | Размер и SHA-256 оригинала |
+|---|---|---|
+| Olin College Great Lawn, 2002 | Michael Maloney / CC BY-SA 3.0 | 750×536, 189141 bytes; `33d818ded15e4a79111ede481d41bc40a7a03da1ef8a31b62a65f7196ce4da9f` |
+| Temple Japan Setagaya, 26.07.2019 | Temple University Japan / CC BY-SA 4.0 | 320×240, 38628 bytes; `e743c4566faad20b92ca9bd613a9502fe1d61250bb8a67e4144c1be3fe2b1269` |
+
+Страницы файла и лицензии указаны в разделе фотографий выше и в data/photos.js;
+каждая карточка показывает атрибуцию. Оригиналы и thumbnail сохранены без
+изменения байтов; изображения просмотрены, объект соответствует описанию.
+Невысокое разрешение TUJ и исторический возраст обоих фото явно обозначены.
+После изменения **254 passed, 0 failed**.
