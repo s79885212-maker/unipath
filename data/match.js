@@ -22,6 +22,9 @@
            'two-semesters' = twice the published flat full-time charge of one
            semester; 'lines' = the sum of the lines of a table that prints no
            total. The match page says so next to the figure.
+           'credit-load' = a sourced per-credit rate times a separately sourced
+           annual workload; both sources, dates and matching academic year are
+           required. This is a tuition-only scenario, never a full budget.
      Required costs a university leaves OUT of its published total (for
      example compulsory health insurance) are not repeated here: the match
      page reads them from the profile (costs.extras) and adds them before a
@@ -40,6 +43,7 @@ window.UNIPATH.match = {
     perEUR: { EUR: 1, USD: 1.1195, CAD: 1.5918, GBP: 0.84385, JPY: 177.39, KRW: 1496.54 }
   },
   annualCost: {
+    'university-of-northern-british-columbia': {"currency": "CAD", "basis": "tuition", "calc": "credit-load", "period": "year", "min": 31204.5, "max": 31204.5, "perCredit": 1040.15, "creditsPerYear": 30, "academicYear": "2026–2027", "source": "https://www.unbc.ca/finance/accounts-receivable/tuition-and-fees", "verified": "2026-10-24", "workloadSource": "https://www.unbc.ca/programs-and-admissions/undergraduate/tuition-and-fees", "workloadVerified": "2026-10-24", "note": "2026–27 tuition-only scenario for the official 30-credit annual workload; calculated by UniPath. Mandatory fees and living costs are additional."},
 
     /* Canada, October 2026 */
     'university-of-victoria': { currency: 'CAD', basis: 'tuition', min: 37576, max: 42618, note: 'Year-1 tuition 2026–27 for two terms (most programmes to Engineering & Computer Science); ancillary fees, housing and food extra' },

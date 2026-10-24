@@ -106,6 +106,18 @@ module.exports = function (env) {
   ok(!U.applyFilters([french], { field: ['business'], language: ['english-yes'] }).length,
     'a French field cannot match an English field via a university-wide flag');
   function budget(id, b, currency) { return M.evaluate(U.uniById(id), { ielts: null, sat: null, gpa: null, budget: b, currency: currency || 'USD' }).budget; }
+  var unbcCost = DB.match.annualCost['university-of-northern-british-columbia'];
+  var unbcResult = budget('university-of-northern-british-columbia', 31204.5, 'CAD');
+  ok(unbcCost && unbcResult.status === 'fits-tuition' && /30 credits/.test(unbcResult.text) && /calculated by UniPath/.test(unbcResult.text),
+    'UNBC: sourced 30-credit calculation is labelled and can cover tuition only, never the full budget');
+  try {
+    DB.match.annualCost['university-of-northern-british-columbia'] = Object.assign({}, unbcCost, { workloadSource: null });
+    var missingWorkload = budget('university-of-northern-british-columbia', 100000, 'CAD');
+    DB.match.annualCost['university-of-northern-british-columbia'] = Object.assign({}, unbcCost, { min: 1040.15, max: 1040.15 });
+    var creditAsYear = budget('university-of-northern-british-columbia', 2000, 'CAD');
+    ok(missingWorkload.status === 'unknown' && creditAsYear.status === 'unknown',
+      'a missing workload source or one credit presented as a year never gives a positive budget match');
+  } finally { DB.match.annualCost['university-of-northern-british-columbia'] = unbcCost; }
   ok([null, 0, 1, 96000, 5000000].every(function (b) { return budget('kenyon-college', b).status === 'conflict'; }),
     'Kenyon: official source conflict remains visible with blank, zero, low and high budgets');
   ok(['deep-springs-college', 'berea-college'].every(function (id) {

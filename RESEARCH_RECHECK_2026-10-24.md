@@ -449,3 +449,42 @@ https://www.ouac.on.ca/apply/windsorugrad/intl/en_CA/user/login.
 Git: повторный обычный push dry-run только собственной ветки снова завершился
 ошибкой запуска Credential Manager, NtCreateDirectoryObject 0xC0000022.
 Ни одна ветка GitHub не изменена; через коннектор запись не повторялась.
+
+
+## Продолжение v156 — UNBC: годовая tuition только при известной нагрузке
+
+Просмотр 24.10.2026, international undergraduate, пример первого года:
+https://www.unbc.ca/finance/accounts-receivable/tuition-and-fees —
+«Academic year 2026/27», «$1,040.15 per credit hour».
+https://www.unbc.ca/programs-and-admissions/undergraduate/tuition-and-fees —
+«30 credit hours of full-time study (10 courses)».
+
+C$1,040.15 × 30 = **C$31,204.50 за учебный год — расчёт UniPath**.
+Это tuition при опубликованном вузом сценарии нагрузки, не официальный total.
+Обязательные сборы, страховка, жильё и питание отдельно. В записи подбора
+хранятся ставка, нагрузка, оба источника и даты, учебный год и вид tuition.
+При отсутствии источника нагрузки, несоответствии года или неверном произведении
+положительное сравнение запрещено. В интерфейсе сумма подписана расчётом и
+30 кредитами, даже если введённого бюджета хватает на tuition.
+
+Университетская at-a-glance таблица overall expenses не использована как
+текущий COA: примечания жилья всё ещё указывают 2025–26; поисковая выдержка
+и полный просмотр также дали разные значения жилья. Это не основание
+выбирать удобный total или переносить старое жильё на 2026–27.
+Старый C$125/semester item сохраняет свой прежний календарный источник и дату,
+не подставляется в новую tuition-only сумму и не считается заново проверенным.
+
+Теперь из исходных 12 пробелов annualCost один закрыт только в пределах
+описанного сценария tuition. **11** остаются: Western, Manitoba, Guelph,
+Concordia, UPEI, Saint Mary’s, Winnipeg, Mount Saint Vincent, Thompson Rivers,
+VIU и Capilano. Полный годовой бюджет UNBC остаётся неподтверждённым.
+
+Дополнительно прочитаны официальные текущие страницы Manitoba
+https://umanitoba.ca/registrar/tuition-fees/undergraduate и
+https://umanitoba.ca/explore/student-experience/tuition-and-financial-supports:
+первый источник задаёт ставки 2026–27 по teaching unit, второй — плановые
+полные нагрузки, но отдельный год каждой приведённой сметы ещё не установлен.
+Guelph https://www.uoguelph.ca/registrar/finances-fees/tuition-fees/guelph-undergrad
+явно относится к Fall 2026/Winter 2027/Summer 2027 и публикует семестровые
+тарифы по cohort. Это перспективные источники для дальнейшего расчёта,
+но новые общие суммы пока не выбраны. Capilano остаётся per-credit.

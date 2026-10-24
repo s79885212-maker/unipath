@@ -200,6 +200,15 @@
     if (!c) return null;
     if (['total', 'billed', 'tuition'].indexOf(c.basis) < 0 ||
         (c.period && c.period !== 'year' && c.period !== 'annual')) return null;
+    if (c.calc === 'credit-load') {
+      if (c.basis !== 'tuition' || c.period !== 'year' ||
+          typeof c.perCredit !== 'number' || !isFinite(c.perCredit) || c.perCredit <= 0 ||
+          typeof c.creditsPerYear !== 'number' || !isFinite(c.creditsPerYear) || c.creditsPerYear <= 0 || c.creditsPerYear % 1 ||
+          !/^https:\/\//.test(c.source || '') || !/^https:\/\//.test(c.workloadSource || '') ||
+          !/^\d{4}-\d{2}-\d{2}$/.test(c.verified || '') || !/^\d{4}-\d{2}-\d{2}$/.test(c.workloadVerified || '') ||
+          !has(c.academicYear) || c.academicYear !== U.costYear(u) ||
+          c.min !== Math.round(c.perCredit * c.creditsPerYear * 100) / 100 || c.max !== c.min) return null;
+    }
     /* Two official sources, two totals: both travel with the record. */
     var figures = U.costConflict(u);
     if (figures) {
@@ -305,6 +314,7 @@
     if (c.example) label += ' (one programme’s fee)';
     if (c.calc === 'two-semesters') label += '. Two semesters at the published per-semester rates — calculated by UniPath, not a figure the university prints';
     if (c.calc === 'lines') label += '. The sum of the lines the page lists — the page prints no total';
+    if (c.calc === 'credit-load') label += '. ' + c.creditsPerYear + ' ' + 'credits per academic year at the published per-credit rate — calculated by UniPath; mandatory fees, insurance, housing and food are extra';
     if (typeof c.extras === 'number') {
       var ex = convert(c.extras, c.currency, cur);
       label += '. Not included: ' + show(ex) + ' — ' + (c.extrasLabel || 'a required cost') + (c.extrasMore ? ' and other required costs' : '') +

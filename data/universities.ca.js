@@ -14587,26 +14587,32 @@ window.UNIPATH.universities.push(
     "academicYear": "2026–2027",
     "currency": "CAD",
     "studentCategory": "International undergraduates, tuition per credit hour",
-    "source": "https://www.unbc.ca/calendar/undergraduate/fees",
-    "verified": "2026-10-17",
+    "source": "https://www.unbc.ca/finance/accounts-receivable/tuition-and-fees",
+    "verified": "2026-10-24",
     "headline": "C$1,040.15 per credit hour",
     "items": [
       {
         "label": "Tuition per credit hour",
-        "amount": 1040.15
+        "amount": 1040.15,
+        "source": "https://www.unbc.ca/finance/accounts-receivable/tuition-and-fees",
+        "verified": "2026-10-24"
       },
       {
         "label": "International student fee, per semester",
-        "amount": 125
+        "amount": 125,
+        "source": "https://www.unbc.ca/calendar/undergraduate/fees",
+        "verified": "2026-10-17"
       },
       {
         "label": "Medical insurance fee, per semester",
-        "amount": 190
+        "amount": 190,
+        "source": "https://www.unbc.ca/finance/accounts-receivable/tuition-and-fees",
+        "verified": "2026-10-24"
       }
     ],
     "billedSubtotal": null,
     "totalText": "International tuition is C$1,040.15 per credit hour, with per-semester international and medical insurance fees; a C$9,000 deposit is paid after admission",
-    "note": "The fee page does not print the academic year; the finance office lists Fall 2026 and Winter 2027 charts. BC requires international students to pay C$75 a month for MSP after a three-month wait."
+    "note": "The finance page explicitly gives the 2026–27 international rate of C$1,040.15 per credit. For the university’s first-year planning example of 30 credits per academic year, tuition is C$31,204.50 — calculated by UniPath, not a published annual total. Mandatory fees, insurance, housing and food are additional. The C$125 semester fee above retains its earlier calendar source and review date; it is not included in this tuition-only comparison. The admissions-page overall estimate mixes housing-year information and is not used as a current total."
   },
   "scholarships": {
     "fullRide": {
@@ -14670,6 +14676,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.unbc.ca/programs-courses"
+    },
+    {
+      "label": "UNBC — explicit 2026–27 international per-credit rate",
+      "url": "https://www.unbc.ca/finance/accounts-receivable/tuition-and-fees"
+    },
+    {
+      "label": "UNBC — first-year annual planning workload: 30 credits",
+      "url": "https://www.unbc.ca/programs-and-admissions/undergraduate/tuition-and-fees"
     }
   ],
   "verification": {
