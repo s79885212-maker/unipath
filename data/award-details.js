@@ -41,7 +41,7 @@ window.UNIPATH.awardDetails = {
    record's own scholarship note. */
 window.UNIPATH.awardNotDescribed = [
   'umass-amherst', 'university-of-minnesota-twin-cities', 'university-of-oregon', 'university-of-oklahoma', 'west-virginia-university', 'anderson-university-indiana',
-  'gonzaga-university', 'cornell-college', 'the-new-school', 'savannah-college-of-art-and-design', 'american-university',
+  'gonzaga-university', 'cornell-college', 'the-new-school', 'savannah-college-of-art-and-design', 
   'university-of-san-diego', 'ursinus-college', 'willamette-university', 'wofford-college', 'xavier-university', 'xavier-university-of-louisiana', 'rochester-institute-of-technology',
   'stony-brook-university', 'temple-university', 'texas-a-and-m-university', 'university-of-arizona', 'university-of-iowa', 'university-of-denver', 'university-of-maryland',
   'southern-methodist-university',

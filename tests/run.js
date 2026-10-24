@@ -559,7 +559,7 @@ group('corrections after the expansion');
       if (!e || !e.program || !/^https:\/\//.test(e.url || '') || !e.checked || e.level !== 'bachelor') badEv.push(u.id + ':' + t);
     });
     Object.keys(u.programEvidence || {}).forEach(function (t) { if ((u.programs || []).indexOf(t) < 0) badEv.push(u.id + ':extra ' + t); });
-    var inEnglish = (u.programs || []).filter(function (t) { var e = (u.programEvidence || {})[t]; return !e || /English/.test(e.language || 'English'); });
+    var inEnglish = (u.programs || []).filter(function (t) { var e = (u.programEvidence || {})[t]; return !!e && /English/.test(e.language || ''); });
     if ((u.englishTaughtPrograms || []).join() !== inEnglish.join()) badEv.push(u.id + ':english list differs');
   });
   ok(!badEv.length, 'every field tag written from an official list names its programme, level, page and check date', badEv.slice(0, 6).join('; '));
@@ -624,7 +624,7 @@ group('corrections after the expansion');
   var bare26 = ['ursinus-college', 'anderson-university-indiana', 'cornell-college', 'the-new-school', 'savannah-college-of-art-and-design'].filter(function (id) {
     var t = U.uniById(id).academics.sat; return t.policy || !/^Not checked:/.test(t.note) || !t.source; });
   ok(!bare26.length, 'the five records whose test policy could not be read say “Not checked”, why, and where to look', bare26.join(', '));
-  ok(U.uniById('american-university').academics.sat.policy === 'optional' && U.roundsOf(U.uniById('american-university')).length === 4, 'American: test policy and all four rounds read once the site opened');
+  ok(U.uniById('american-university').academics.sat.policy === 'optional' && U.roundsOf(U.uniById('american-university')).filter(U.isApplicationDeadline).length === 4, 'American: test policy and all four admission rounds remain separate from scholarship dates');
   ok(U.uniById('lesley-university').academics.sat.policy === 'not-used' && U.uniById('rensselaer-polytechnic-institute').academics.sat.cycle === 'autumn 2027',
     'Lesley does not use test scores for admission; RPI’s test-optional policy names its cycle');
   /* Field tags that had come from a pre-law track, a dual-degree route or a graduate school (v114). */

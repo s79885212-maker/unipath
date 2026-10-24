@@ -30713,6 +30713,29 @@ window.UNIPATH.universities.push(
         "source": "https://www.american.edu/admissions/first-year/decision-plans-and-deadlines.cfm",
         "verified": "2026-10-14",
         "note": "The page prints this date without a year; it was read on 14 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "AU EGLS application, essays and supporting documents",
+        "kind": "scholarship",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "status": "confirmed",
+        "awardId": "au-egls",
+        "awardCategory": "need-merit",
+        "appliesTo": "Eligible international first-year applicants",
+        "conditions": "Complete the Common Application and required supporting documents, then the separate AU EGLS portal application and essays by 15 January 2027; official English scores are also due by that date. Regular Decision for fall 2027 is recommended.",
+        "source": "https://www.american.edu/admissions/international/au-egls-apply.cfm",
+        "verified": "2026-10-24",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.american.edu/admissions/international/au-egls-apply.cfm",
+          "verified": "2026-10-24",
+          "quote": "Regular Decision for Fall 2027"
+        }
       }
     ],
     "applicationFee": {
@@ -30862,20 +30885,25 @@ window.UNIPATH.universities.push(
   },
   "scholarships": {
     "fullRide": {
-      "available": null,
-      "internationalEligible": null,
-      "basis": null,
+      "available": true,
+      "internationalEligible": true,
+      "basis": "need-merit",
       "covers": {
-        "tuition": null,
-        "housing": null,
-        "meals": null,
-        "insurance": null,
-        "books": null
+        "tuition": true,
+        "housing": true,
+        "meals": true,
+        "insurance": false,
+        "books": false
       },
-      "renewable": null,
-      "competitiveness": null,
-      "howToApply": null,
-      "note": "American University states that merit scholarships for international students are partial, not full, awards that are highly competitive. Its Emerging Global Leader Scholarship is mentioned on the instructions page; its terms were not read."
+      "renewable": true,
+      "competitiveness": "Two international recipients; competitive selection, not guaranteed aid for every admitted student",
+      "howToApply": "Complete the Common Application and required supporting documents, then the separate AU EGLS portal application and essays by 15 January 2027; official English scores are also due by that date. Regular Decision for fall 2027 is recommended.",
+      "note": "AU Emerging Global Leader covers full tuition, room and board, but excludes health insurance, books, flights, taxes and miscellaneous expenses. The award page estimates about $4,000 a year of uncovered costs; this is not a guaranteed personal budget. Applicants cannot be US citizens/permanent residents, have begun postsecondary study elsewhere, or have finished secondary school before 2024. Preference includes students graduating by June 2027.",
+      "source": "https://www.american.edu/admissions/international/au-egls-apply.cfm",
+      "verified": "2026-10-24",
+      "renewalConditions": "Up to four undergraduate years, subject to continued satisfactory academic performance",
+      "detailsSource": "https://www.american.edu/admissions/international/au-egls-apply.cfm",
+      "detailsVerified": "2026-10-24"
     },
     "merit": [
       {
@@ -30887,6 +30915,22 @@ window.UNIPATH.universities.push(
         "renewable": null,
         "note": null,
         "basis": "merit"
+      },
+      {
+        "id": "au-egls",
+        "category": "need-merit",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "name": "AU Emerging Global Leader Scholarship",
+        "basis": "need-merit",
+        "amount": "Full tuition, room and board for two international recipients; uncovered expenses remain",
+        "eligibility": "AU Emerging Global Leader covers full tuition, room and board, but excludes health insurance, books, flights, taxes and miscellaneous expenses. The award page estimates about $4,000 a year of uncovered costs; this is not a guaranteed personal budget. Applicants cannot be US citizens/permanent residents, have begun postsecondary study elsewhere, or have finished secondary school before 2024. Preference includes students graduating by June 2027.",
+        "deadline": null,
+        "application": "Complete the Common Application and required supporting documents, then the separate AU EGLS portal application and essays by 15 January 2027; official English scores are also due by that date. Regular Decision for fall 2027 is recommended.",
+        "renewable": true,
+        "note": "Applicants completing this process may also be considered for partial EGL awards of up to $40,000 a year; additional proof of funds is required for the uncovered difference. No award is subtracted automatically in budget matching.",
+        "source": "https://www.american.edu/admissions/international/au-egls-apply.cfm",
+        "verified": "2026-10-24"
       }
     ],
     "needBased": {
@@ -30937,6 +30981,10 @@ window.UNIPATH.universities.push(
     {
       "label": "American University — tuition, fees and health insurance 2026–27",
       "url": "https://www.american.edu/finance/studentaccounts/tuition-and-fees-information.cfm"
+    },
+    {
+      "label": "American University — Emerging Global Leader Scholarship application",
+      "url": "https://www.american.edu/admissions/international/au-egls-apply.cfm"
     }
   ],
   "verification": {

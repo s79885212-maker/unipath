@@ -59,6 +59,20 @@ module.exports = function (env) {
     U.budgetWithExtras(american).min === 90133 && U.costExtras(american)[0].amount === 2759 &&
     M.evaluate(american, { ielts: null, sat: null, gpa: null, budget: 87374, currency: 'USD' }).budget.status === 'fits-no-extras',
     'American: the published 2026–27 total stays distinct from required insurance and the calculated combined budget');
+  var egl = U.awardsAll(american).filter(function (a) { return a.id === 'au-egls'; })[0];
+  ok(U.fullRide(american).covers.insurance === false && U.awardDates(american, egl).length === 1 &&
+    U.roundStatus(U.awardDates(american, egl)[0]) === 'confirmed' && !U.costAfterAid(american) &&
+    M.evaluate(american, { ielts: null, sat: null, gpa: null, budget: 4000, currency: 'USD' }).budget.status === 'over',
+    'AU EGL: the linked 2027 scholarship never turns competitive maximum aid into a guaranteed $4,000 budget');
+  var ufvActual = U.uniById('university-of-the-fraser-valley');
+  ok(U.applyFilters([ufvActual], { field: ['computer-science'] }).length === 1 &&
+    !U.applyFilters([ufvActual], { field: ['computer-science'], language: ['english-yes'] }).length &&
+    U.fieldUnverified(ufvActual, ['engineering'], false) && U.programsPartial(ufvActual),
+    'UFV: confirmed Computing Science matches strictly, its unverified language does not, and unreviewed fields remain uncertain');
+  var mru = U.uniById('mount-royal-university');
+  ok(U.roundsOf(mru).every(function (d) { return U.roundStatus(d) === 'confirmed'; }) &&
+    U.roundsOf(mru).some(function (d) { return d.kind === 'documents' && d.dateISO === '2027-05-15' && !U.isApplicationDeadline(d); }),
+    'Mount Royal: explicit Fall 2027 evidence establishes the cycle and keeps documents separate from the application');
   ok(/link not verified/.test(U.awardDeadlineHtml(acadia, Object.assign({}, additional, { id: null }))), 'an unlinked Acadia-style award explains the missing relation instead of contradicting the date table');
   ok(/no separate scholarship application/.test(U.awardDeadlineHtml(acadia, U.awardsAll(acadia)[0])),
     'Acadia automatic initial offer explains that no separate application is required');

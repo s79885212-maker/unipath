@@ -1614,7 +1614,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.ouac.on.ca/",
     "scholarships": "https://registrar.mcmaster.ca/entrance-awards/",
     "financialAid": "https://registrar.mcmaster.ca/aid-awards-for-international-students/",
-    "programs": "https://future.mcmaster.ca/apply/deadlines/",
+    "programs": "https://future.mcmaster.ca/programs/",
     "cost": "https://future.mcmaster.ca/finances/cost-estimator/"
   },
   "admissions": {
@@ -1860,6 +1860,10 @@ window.UNIPATH.universities.push(
     {
       "label": "OUAC — undergraduate fees",
       "url": "https://www.ouac.on.ca/guide/undergrad-fees"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://future.mcmaster.ca/programs/"
     }
   ],
   "verification": {
@@ -2939,7 +2943,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.ouac.on.ca/",
     "scholarships": "https://www.uottawa.ca/study/fees-financial-support/scholarships-awards-overview",
     "financialAid": "https://www.uottawa.ca/study/fees-financial-support/scholarships-awards-overview",
-    "programs": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+    "programs": "https://www.uottawa.ca/study/undergraduate-studies/undergraduate-programs",
     "cost": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international"
   },
   "admissions": {
@@ -3174,6 +3178,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official country-specific undergraduate qualifications",
       "url": "https://www.uottawa.ca/study/undergraduate-studies/international-applicants"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://www.uottawa.ca/study/undergraduate-studies/undergraduate-programs"
     }
   ],
   "verification": {
@@ -3612,7 +3620,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.ouac.on.ca/",
     "scholarships": "https://www.queensu.ca/registrar/financial-aid/specific-students/international",
     "financialAid": "https://www.queensu.ca/registrar/financial-aid/specific-students/international",
-    "programs": "https://www.queensu.ca/registrar/tuition-fees/undergraduate/fee-calculator",
+    "programs": "https://www.queensu.ca/admission/undergraduate-programs",
     "cost": "https://www.queensu.ca/registrar/tuition-fees/undergraduate/fee-calculator"
   },
   "admissions": {
@@ -3897,6 +3905,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Queen’s — admission requirements for US-curriculum applicants",
       "url": "https://www.queensu.ca/admission/applying/admission-requirements/united-states"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://www.queensu.ca/admission/undergraduate-programs"
     }
   ],
   "verification": {
@@ -7852,7 +7864,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://future.uwindsor.ca/apply-international",
     "scholarships": "https://www.future.uwindsor.ca/global-lancer-scholarship/",
     "financialAid": "https://www.future.uwindsor.ca/global-lancer-scholarship/",
-    "programs": "https://future.uwindsor.ca/student-awards",
+    "programs": "https://www.future.uwindsor.ca/programs/?p-level=undergraduate",
     "cost": "https://www.uwindsor.ca/finance/fee-estimator"
   },
   "admissions": {
@@ -8058,6 +8070,10 @@ window.UNIPATH.universities.push(
     {
       "label": "UWindsor — Senate Policy on English Language Proficiency (PDF)",
       "url": "https://images.e.uwindsor.ca/Web/UniversityofWindsor/%7Bb8e808b0-fabe-43af-828a-0a549a702830%7D_English_Language_Proficiency_Requirements.pdf"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://www.future.uwindsor.ca/programs/?p-level=undergraduate"
     }
   ],
   "verification": {
@@ -10576,7 +10592,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.upei.ca/apply",
     "scholarships": "https://www.upei.ca/scholarships-and-awards/international-student-scholarships",
     "financialAid": "https://www.upei.ca/scholarships-and-awards/international-student-scholarships",
-    "programs": "https://calendar.upei.ca/current/chapter/tuition-and-fees-2/",
+    "programs": "https://www.upei.ca/programs?field_program_level_value=undergraduate",
     "cost": "https://calendar.upei.ca/current/chapter/tuition-and-fees-2/"
   },
   "admissions": {
@@ -10741,6 +10757,10 @@ window.UNIPATH.universities.push(
     {
       "label": "UPEI — international entrance awards",
       "url": "https://www.upei.ca/scholarships-and-awards/international-student-scholarships"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://www.upei.ca/programs?field_program_level_value=undergraduate"
     }
   ],
   "verification": {
@@ -11474,7 +11494,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://mta.ca/admissions/how-apply",
     "scholarships": "https://mta.ca/costs-financial-aid/scholarships-and-awards-first-year-students",
     "financialAid": "https://mta.ca/costs-financial-aid/scholarships-and-awards-first-year-students",
-    "programs": "https://mta.ca/admissions/admission-requirements",
+    "programs": "https://mta.ca/academics/programs-and-degrees",
     "cost": "https://mta.ca/costs-financial-aid/tuition-and-costs-first-year-students"
   },
   "admissions": {
@@ -11738,6 +11758,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Mount Allison — admission requirements for US-curriculum applicants",
       "url": "https://mta.ca/academic_calendar/_3.html"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://mta.ca/academics/programs-and-degrees"
     }
   ],
   "verification": {
@@ -13366,8 +13390,16 @@ window.UNIPATH.universities.push(
         "conditions": "Application and supporting documents are needed for early admission; some programmes close on this date.",
         "status": "confirmed",
         "source": "https://www.mtroyal.ca/Admission/DatesDeadlines/index.htm",
-        "verified": "2026-10-17",
-        "note": null
+        "verified": "2026-10-24",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.mtroyal.ca/Admission/DatesDeadlines/index.htm",
+          "verified": "2026-10-24",
+          "quote": "Fall Semester 2027"
+        }
       },
       {
         "name": "Scholarships and bursaries application",
@@ -13376,13 +13408,20 @@ window.UNIPATH.universities.push(
         "entryYear": "2027",
         "dateISO": "2027-03-01",
         "date": "1 March 2027",
-        "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Applications open 1 November 2026.",
         "status": "confirmed",
         "source": "https://www.mtroyal.ca/Admission/DatesDeadlines/index.htm",
-        "verified": "2026-10-17",
-        "note": null
+        "verified": "2026-10-24",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.mtroyal.ca/Admission/DatesDeadlines/index.htm",
+          "verified": "2026-10-24",
+          "quote": "Fall Semester 2027"
+        }
       },
       {
         "name": "Application deadline for international students",
@@ -13396,8 +13435,37 @@ window.UNIPATH.universities.push(
         "conditions": "Applicants eligible for a study permit under IRPR 214 may still apply later. Documents are due 15 May 2027.",
         "status": "confirmed",
         "source": "https://www.mtroyal.ca/Admission/DatesDeadlines/index.htm",
-        "verified": "2026-10-17",
-        "note": null
+        "verified": "2026-10-24",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.mtroyal.ca/Admission/DatesDeadlines/index.htm",
+          "verified": "2026-10-24",
+          "quote": "Fall Semester 2027"
+        }
+      },
+      {
+        "name": "International supporting documents deadline",
+        "kind": "documents",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-05-15",
+        "date": "15 May 2027",
+        "appliesTo": "International applicants, unless the programme has already closed",
+        "conditions": "This is a document deadline, separate from the 1 May application deadline. Some programmes close earlier.",
+        "status": "confirmed",
+        "source": "https://www.mtroyal.ca/Admission/DatesDeadlines/index.htm",
+        "verified": "2026-10-24",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.mtroyal.ca/Admission/DatesDeadlines/index.htm",
+          "verified": "2026-10-24",
+          "quote": "Fall Semester 2027"
+        }
       }
     ],
     "applicationFee": {
@@ -14452,9 +14520,12 @@ window.UNIPATH.universities.push(
   "description": "A university in Abbotsford, British Columbia, with campuses in Chilliwack and Mission, east of Vancouver.",
   "englishTaught": true,
   "languageOfInstruction": "English",
-  "programs": [],
+  "programs": [
+    "business",
+    "computer-science"
+  ],
   "englishTaughtPrograms": [],
-  "programNote": "The pages read name no specific bachelor’s programmes, so no field of study is confirmed.",
+  "programNote": "Confirmed bachelor’s programmes: Business Administration (Abbotsford) and Computing Science (Abbotsford; some courses in Chilliwack). This is a partial review. The language of these specific routes has not been separately verified, so they are not included in the strict English-taught field filter.",
   "links": {
     "website": "https://www.ufv.ca/",
     "admissions": "https://international.ufv.ca/future-students/apply-to-ufv/application-deadlines/",
@@ -14462,7 +14533,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://international.ufv.ca/future-students/apply-to-ufv/",
     "scholarships": "https://international.ufv.ca/future-students/tuition-scholarships-jobs/scholarships/international-excellence-scholarship/",
     "financialAid": "https://international.ufv.ca/future-students/tuition-scholarships-jobs/scholarships/international-excellence-scholarship/",
-    "programs": "https://international.ufv.ca/future-students/tuition-scholarships-jobs/tuition-fees-future-students/",
+    "programs": "https://international.ufv.ca/future-students/programs/",
     "cost": "https://international.ufv.ca/future-students/tuition-scholarships-jobs/tuition-fees-future-students/"
   },
   "admissions": {
@@ -14651,6 +14722,18 @@ window.UNIPATH.universities.push(
     {
       "label": "UFV — International Excellence Entrance Scholarship",
       "url": "https://international.ufv.ca/future-students/tuition-scholarships-jobs/scholarships/international-excellence-scholarship/"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://international.ufv.ca/future-students/programs/"
+    },
+    {
+      "label": "Bachelor of Business Administration",
+      "url": "https://www.ufv.ca/business/programs/bba/"
+    },
+    {
+      "label": "Computing Science — Bachelor of Science",
+      "url": "https://www.ufv.ca/programs/computing/computing-science-bsc/"
     }
   ],
   "verification": {
@@ -14680,7 +14763,26 @@ window.UNIPATH.universities.push(
     "Chilliwack",
     "Mission"
   ],
-  "programsStatus": "not-checked"
+  "programsStatus": "partial",
+  "programsBasis": "evidence",
+  "programEvidence": {
+    "business": {
+      "program": "Bachelor of Business Administration",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Abbotsford",
+      "url": "https://www.ufv.ca/business/programs/bba/",
+      "checked": "2026-10-24"
+    },
+    "computer-science": {
+      "program": "Computing Science — Bachelor of Science",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Abbotsford; some courses in Chilliwack",
+      "url": "https://www.ufv.ca/programs/computing/computing-science-bsc/",
+      "checked": "2026-10-24"
+    }
+  }
 },
 
 {
@@ -14973,7 +15075,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://laurentian.ca/apply/international-undergraduate-applicants",
     "scholarships": "https://laurentian.ca/academics/international/scholarships",
     "financialAid": "https://laurentian.ca/academics/international/scholarships",
-    "programs": "https://laurentian.ca/academics/fees-financing/international",
+    "programs": "https://laurentian.ca/academics/undergraduate-programs",
     "cost": "https://laurentian.ca/academics/fees-financing/international"
   },
   "admissions": {
@@ -15189,6 +15291,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Laurentian — international undergraduate admissions by country",
       "url": "https://laurentian.ca/academics/admissions/international/undergraduate-admissions"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://laurentian.ca/academics/undergraduate-programs"
     }
   ],
   "verification": {
@@ -15291,7 +15397,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://etudier.uqam.ca/admission",
     "scholarships": "https://etudier.uqam.ca/etudiants-internationaux/bourses",
     "financialAid": "https://etudier.uqam.ca/etudiants-internationaux/bourses",
-    "programs": "https://www.apps.uqam.ca/Application/AdmissionEnLigne/Traitements/DatesLimites/AfficherDatesLimites.aspx?adm_web_cycle=1",
+    "programs": "https://etudier.uqam.ca/programmes",
     "cost": "https://etudier.uqam.ca/cout-bourses"
   },
   "admissions": {
@@ -15440,6 +15546,10 @@ window.UNIPATH.universities.push(
     {
       "label": "UQAM — funding for international students",
       "url": "https://etudier.uqam.ca/etudiants-internationaux/bourses"
+    },
+    {
+      "label": "Official programme directory",
+      "url": "https://etudier.uqam.ca/programmes"
     }
   ],
   "verification": {

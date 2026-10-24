@@ -28,6 +28,25 @@
                 left out for a rule that is not tied to one entry year
    ============================================================ */
 window.UNIPATH.news = [
+{
+  "id": "mru-fall-2027-admission-open",
+  "cycle": "2027",
+  "type": "applications-open",
+  "country": "ca",
+  "uniId": "mount-royal-university",
+  "org": "Mount Royal University",
+  "title": "Mount Royal: applications for fall 2027 are open",
+  "summary": "The official Fall Semester 2027 timetable opens Early Admission on 1 October 2026 and ends it on 1 February 2027. Some programmes close then; later admission depends on remaining places. International applications are due 1 May and documents 15 May unless the programme closes earlier; the IRPR 214 exception applies to the application deadline. Scholarship applications have a separate window, 1 November 2026 to 1 March 2027.",
+  "url": "https://www.mtroyal.ca/Admission/DatesDeadlines/index.htm",
+  "published": null,
+  "verified": "2026-10-24",
+  "eventDate": "2026-10-01",
+  "eventLabel": "Applications open",
+  "deadline": false,
+  "closes": "2027-02-01",
+  "state": "open",
+  "stateNote": "Early Admission is open. Scholarship applications open separately on 1 November 2026; they are not yet open on the check date."
+},
   {
     id: 'commonapp-2026-27-open',
     cycle: '2027',
