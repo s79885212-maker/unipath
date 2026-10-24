@@ -6121,64 +6121,52 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Uzbekistan: the page refers to Russia: Certificate of (Completed) Secondary Education (Attestat) with good grades."
   },
   "costs": {
-    "breakdown": {
-      "includes": "tuition in the main figure; fees, insurance, residence, meals, books and personal costs listed separately"
-    },
-    "academicYear": "2025–2026",
+    "status": "confirmed",
+    "academicYear": "2026–2027",
     "currency": "CAD",
-    "studentCategory": "International first-year students; university estimate",
-    "source": "https://www.uoguelph.ca/admission/undergraduate/international/funding",
-    "verified": "2026-10-15",
-    "headline": "C$46,780–C$66,099 tuition a year (2025–26 estimates)",
+    "source": "https://www.uoguelph.ca/registrar/finances-fees/tuition-fees/guelph-undergrad",
+    "verified": "2026-10-24",
+    "studentCategory": "International Cohort 2026; standard bachelor’s programmes, at least 2.00 credits per semester",
+    "headline": "C$22,276.10–C$31,475.49 tuition per semester, Cohort 2026",
+    "breakdown": {
+      "period": "semester",
+      "tuition": 22276.1,
+      "tuitionText": "C$22,276.10–C$31,475.49 per semester (Arts & Science through Engineering)",
+      "includes": "Tuition only; compulsory fees, UHIP and living expenses are additional"
+    },
     "items": [
       {
-        "label": "Tuition, most bachelor’s degrees (Arts, Science, Mathematics, Fine Arts and others)",
-        "amount": 46780
+        "label": "Arts & Science tuition, one semester",
+        "amount": 22276.1
       },
       {
-        "label": "Tuition, Commerce",
-        "amount": 57112
+        "label": "Commerce tuition, one semester",
+        "amount": 27196.31
       },
       {
-        "label": "Tuition, Computing",
-        "amount": 58807
+        "label": "Computing tuition, one semester",
+        "amount": 28003.39
       },
       {
-        "label": "Tuition, Engineering",
-        "amount": 66099
+        "label": "Engineering tuition, one semester",
+        "amount": 31475.49
       },
       {
-        "label": "Compulsory fees",
-        "min": 1748,
-        "max": 2297
+        "label": "Landscape Architecture tuition, one semester",
+        "amount": 27201.7
       },
       {
-        "label": "Health insurance (UHIP)",
-        "amount": 948
+        "label": "Compulsory fees, Fall 2026",
+        "amount": 969.82
       },
       {
-        "label": "Residence room",
-        "min": 8387,
-        "max": 11742
-      },
-      {
-        "label": "Meal plan",
-        "min": 5750,
-        "max": 7850
-      },
-      {
-        "label": "Textbooks",
-        "amount": 1400
-      },
-      {
-        "label": "Personal expenses",
-        "amount": 2500
+        "label": "Compulsory fees, Winter 2027",
+        "amount": 673.71
       }
     ],
     "billedSubtotal": null,
-    "totalText": "The page gives two different yearly totals: C$67,513–C$92,836 in its text and C$64,589–C$88,498 in its table; both are based on 2025–26",
-    "note": "“Estimated costs are based on the 2025-26 academic year.” Veterinary Medicine (DVM) is C$101,634. Co-op adds C$405 a term. The C$2,000 tuition deposit is non-refundable.",
-    "status": "previous-cycle"
+    "totalText": "Published tuition rates are for one semester, Cohort 2026; no full-year cost-of-attendance total is selected.",
+    "note": "Two fully enrolled Fall/Winter semesters give C$44,552.20–C$62,950.98 tuition — calculated by UniPath. Fees, health insurance, housing, meals, books and personal expenses are extra. DVM, diploma, part-time study and other entry cohorts are outside this comparison. The former conflicting 2025–26 overall estimates are not used as a current budget."
   },
   "scholarships": {
     "fullRide": {
@@ -6261,6 +6249,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.uoguelph.ca/programs/undergraduate"
+    },
+    {
+      "label": "Guelph Registrar — 2026–27 tariffs by cohort and semester",
+      "url": "https://www.uoguelph.ca/registrar/finances-fees/tuition-fees/guelph-undergrad"
     }
   ],
   "verification": {

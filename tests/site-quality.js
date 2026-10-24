@@ -107,8 +107,15 @@ module.exports = function (env) {
     'a French field cannot match an English field via a university-wide flag');
   function budget(id, b, currency) { return M.evaluate(U.uniById(id), { ielts: null, sat: null, gpa: null, budget: b, currency: currency || 'USD' }).budget; }
   var unbcCost = DB.match.annualCost['university-of-northern-british-columbia'];
+  var guelphCost = U.uniById('university-of-guelph').costs;
+  var guelphWithin = budget('university-of-guelph', 70000, 'CAD');
+  try {
+    guelphCost.status = 'previous-cycle';
+    ok(guelphWithin.status === 'fits-tuition' && /Cohort 2026/.test(guelphWithin.text) && budget('university-of-guelph', 70000, 'CAD').status === 'unknown',
+      'Guelph: current two-semester tuition never promises the full budget, and previous-cycle costs remain incomparable');
+  } finally { guelphCost.status = 'confirmed'; }
   var unbcResult = budget('university-of-northern-british-columbia', 31204.5, 'CAD');
-  ok(unbcCost && unbcResult.status === 'fits-tuition' && /30 credits/.test(unbcResult.text) && /calculated by UniPath/.test(unbcResult.text),
+  ok(unbcCost && unbcResult.status === 'fits-tuition' && /2026–27/.test(unbcResult.text) && /30 credits/.test(unbcResult.text) && /calculated by UniPath/.test(unbcResult.text),
     'UNBC: sourced 30-credit calculation is labelled and can cover tuition only, never the full budget');
   try {
     DB.match.annualCost['university-of-northern-british-columbia'] = Object.assign({}, unbcCost, { workloadSource: null });

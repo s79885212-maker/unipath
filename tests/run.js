@@ -708,8 +708,9 @@ group('Canada');
      (DB.match.annualCost || {})['universite-laval'].calc === 'two-semesters',
     'Université Laval: French-language, French requirement recorded, per-term fee kept per term and the yearly figure marked as calculated');
   var yk = U.uniById('york-university'), gu = U.uniById('university-of-guelph');
-  ok(U.satPolicy(yk) === 'conditional' && gu.costs.status === 'previous-cycle' && !(DB.match.annualCost || {})['university-of-guelph'],
-    'York: SAT/ACT only for some school systems; Guelph: 2025–26 estimates kept out of the budget comparison');
+  ok(U.satPolicy(yk) === 'conditional' && gu.costs.status === 'confirmed' && gu.costs.academicYear === '2026–2027' &&
+    (DB.match.annualCost || {})['university-of-guelph'].min === 44552.2 && (DB.match.annualCost || {})['university-of-guelph'].max === 62950.98,
+    'York: school-system policy; Guelph: sourced Cohort 2026 semester rates replace previous-cycle estimates');
   var uv = U.uniById('university-of-victoria');
   ok(uv && uv.verified !== null && (DB.match.annualCost || {})['university-of-victoria'] && uv.scholarships.merit[0].amount.indexOf('15,000') > -1 && DB.universities.filter(function (u) { return u.country === 'ca'; }).length === 50,
     'University of Victoria is added once its site answered (19 October 2026): Canada now has all 50 listed universities');

@@ -43,6 +43,7 @@ window.UNIPATH.match = {
     perEUR: { EUR: 1, USD: 1.1195, CAD: 1.5918, GBP: 0.84385, JPY: 177.39, KRW: 1496.54 }
   },
   annualCost: {
+    'university-of-guelph': {"currency": "CAD", "basis": "tuition", "calc": "two-semesters", "period": "year", "min": 44552.2, "max": 62950.98, "academicYear": "2026–2027", "source": "https://www.uoguelph.ca/registrar/finances-fees/tuition-fees/guelph-undergrad", "verified": "2026-10-24", "note": "Cohort 2026, two full Fall/Winter semesters in standard bachelor’s programmes; calculated by UniPath. DVM, diplomas, other cohorts and all fees/living expenses excluded."},
     'university-of-northern-british-columbia': {"currency": "CAD", "basis": "tuition", "calc": "credit-load", "period": "year", "min": 31204.5, "max": 31204.5, "perCredit": 1040.15, "creditsPerYear": 30, "academicYear": "2026–2027", "source": "https://www.unbc.ca/finance/accounts-receivable/tuition-and-fees", "verified": "2026-10-24", "workloadSource": "https://www.unbc.ca/programs-and-admissions/undergraduate/tuition-and-fees", "workloadVerified": "2026-10-24", "note": "2026–27 tuition-only scenario for the official 30-credit annual workload; calculated by UniPath. Mandatory fees and living costs are additional."},
 
     /* Canada, October 2026 */
