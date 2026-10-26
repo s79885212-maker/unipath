@@ -2844,30 +2844,62 @@ window.UNIPATH.universities.push(
   },
   "costs": {
     "breakdown": {
-      "includes": "tuition and fees; residence and meals shown separately on older figures"
+      "period": "year",
+      "includes": "Draft tuition only; ancillary fees, insurance and living expenses are separate"
     },
-    "academicYear": "2025–2026",
+    "academicYear": "2026–2027",
     "currency": "CAD",
-    "studentCategory": "International first-year students; university estimate",
-    "source": "https://welcome.uwo.ca/next-steps/finances/index.html",
-    "verified": "2026-10-15",
-    "headline": "C$48,000–C$64,400 tuition and fees in year 1 (2025–26 estimate)",
+    "studentCategory": "International first-entry undergraduates, September 2026–April 2027; published draft schedule",
+    "source": "https://registrar.uwo.ca/student_finances/fees_refunds/2026-27-UGRD-Fee-Schedule---FT-International1.pdf",
+    "verified": "2026-10-26",
+    "headline": "Draft 2026–27 tuition rates; UHIP charge needs clarification",
     "items": [
       {
-        "label": "Year 1 international tuition and fees",
-        "min": 48000,
-        "max": 64400
+        "label": "Draft first-entry Arts/Humanities or general Science/Social Science tuition",
+        "amount": 47493,
+        "source": "https://registrar.uwo.ca/student_finances/fees_refunds/2026-27-UGRD-Fee-Schedule---FT-International1.pdf",
+        "verified": "2026-10-26"
+      },
+      {
+        "label": "Draft Computer Science tuition, years 1–3",
+        "amount": 55167,
+        "source": "https://registrar.uwo.ca/student_finances/fees_refunds/2026-27-UGRD-Fee-Schedule---FT-International1.pdf",
+        "verified": "2026-10-26"
+      },
+      {
+        "label": "Draft MOS tuition, year 1",
+        "amount": 60105,
+        "source": "https://registrar.uwo.ca/student_finances/fees_refunds/2026-27-UGRD-Fee-Schedule---FT-International1.pdf",
+        "verified": "2026-10-26"
+      },
+      {
+        "label": "Draft Engineering tuition, year 1",
+        "amount": 64310,
+        "source": "https://registrar.uwo.ca/student_finances/fees_refunds/2026-27-UGRD-Fee-Schedule---FT-International1.pdf",
+        "verified": "2026-10-26"
       },
       {
         "label": "Residence and meal plan, 8 months (2024–25 figures)",
         "min": 16510,
-        "max": 19140
+        "max": 19140,
+        "source": "https://welcome.uwo.ca/next-steps/finances/index.html",
+        "verified": "2026-10-15",
+        "academicYear": "2024–2025"
       }
     ],
     "billedSubtotal": null,
-    "totalText": "Year 1 tuition and fees estimated at C$48,000–C$64,400 on 2025–26 rates; residence and meals C$16,510–C$19,140 on 2024–25 figures",
-    "note": "Western’s page still gives estimates “based on 2025-26 tuition” and residence fees from 2024–25. After year 1, international tuition rises by no more than 4% a year.",
-    "status": "previous-cycle"
+    "totalText": "A 2026–27 international draft now exists. Its first-entry tuition examples are listed above, but no consistent final annual billed total or complete living budget is confirmed. The older residence estimate keeps its 2024–25 label and earlier source/date.",
+    "note": "The schedule says DRAFT: FEES MAY CHANGE WITHOUT NOTICE. The table and paragraph disagree on UHIP; do not select one silently. A first-time Western One Card costs C$50 outside the table. First-entry tuition after year 1 has a maximum 4% annual increase under the Registrar’s stated conditions; second-entry programmes are outside that guarantee. No draft figure is used to promise budget sufficiency.",
+    "status": "conflict",
+    "conflict": {
+      "text": "Western’s 2026–27 international fee schedule is labelled DRAFT. Its UHIP column lists C$948 while the explanatory paragraph states C$792 for September 2026–August 2027. A final consistent billed total is not selected.",
+      "sources": [
+        {
+          "label": "Western — published draft international schedule, 2026–27",
+          "url": "https://registrar.uwo.ca/student_finances/fees_refunds/2026-27-UGRD-Fee-Schedule---FT-International1.pdf"
+        }
+      ]
+    }
   },
   "scholarships": {
     "fullRide": {
@@ -2956,6 +2988,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://welcome.uwo.ca/what-can-i-study/undergraduate-programs/index.html"
+    },
+    {
+      "label": "Western — current draft international tuition and ancillary schedule, 2026–27",
+      "url": "https://registrar.uwo.ca/student_finances/fees_refunds/2026-27-UGRD-Fee-Schedule---FT-International1.pdf"
+    },
+    {
+      "label": "Western — fee index and tuition guarantee",
+      "url": "https://registrar.uwo.ca/student_finances/fees_refunds/fee_refund_schedules.html"
     }
   ],
   "verification": {
@@ -3893,9 +3933,9 @@ window.UNIPATH.universities.push(
       "note": "Not checked on the pages read."
     },
     "otherTests": null,
-    "internationalQualifications": "Uzbekistan-specific qualifications, grades, programme subjects and preparatory-study requirements remain unconfirmed after this review. The linked official general requirements do not establish an exact Uzbek qualification or a rule for 2027 entry; requirements for another country or school system are not substituted.",
+    "internationalQualifications": "Uzbekistan is absent from the current international country/region selector. The accepted Uzbek qualification, grades, programme subjects and preparatory-study requirements remain unconfirmed. Do not substitute Kazakhstan or another listed country for Uzbekistan.",
     "internationalQualificationsSource": "https://www.queensu.ca/admission/applying/admission-requirements",
-    "internationalQualificationsVerified": "2026-10-24"
+    "internationalQualificationsVerified": "2026-10-26"
   },
   "costs": {
     "breakdown": {
@@ -4740,9 +4780,9 @@ window.UNIPATH.universities.push(
       "verified": "2026-10-15"
     },
     "otherTests": null,
-    "internationalQualifications": "Uzbekistan-specific qualifications, grades, programme subjects and preparatory-study requirements remain unconfirmed after this review. The linked official general requirements do not establish an exact Uzbek qualification or a rule for 2027 entry; requirements for another country or school system are not substituted.",
-    "internationalQualificationsSource": "https://www.sfu.ca/students/admission/admission-requirements/international-highschool.html",
-    "internationalQualificationsVerified": "2026-10-24"
+    "internationalQualifications": "Uzbekistan is absent from SFU’s country selector; unlisted countries are directed to Basic requirements. The fallback requires university-preparatory school graduation and transcripts. General Math C-/60% is not an Uzbek grade conversion. Business needs senior Math; Engineering also needs Chemistry and Physics. The exact accepted Uzbek credential and required preparation remain unconfirmed. FIC is a separate pathway, not mandatory for every Uzbek applicant.",
+    "internationalQualificationsSource": "https://www.sfu.ca/students/admission/admission-requirements/international-highschool/country/basic-requirements.html",
+    "internationalQualificationsVerified": "2026-10-26"
   },
   "costs": {
     "breakdown": {
@@ -4869,6 +4909,14 @@ window.UNIPATH.universities.push(
     {
       "label": "SFU — Uggla domestic-only eligibility",
       "url": "https://www.sfu.ca/students/admission/fees-scholarships/uggla.html"
+    },
+    {
+      "label": "SFU — official fallback for countries absent from the selector",
+      "url": "https://www.sfu.ca/students/admission/admission-requirements/international-highschool/country/basic-requirements.html"
+    },
+    {
+      "label": "SFU — country selector checked; Uzbekistan absent",
+      "url": "https://www.sfu.ca/students/admission/admission-requirements/international-highschool/country.html"
     }
   ],
   "verification": {
@@ -8261,9 +8309,9 @@ window.UNIPATH.universities.push(
       "currency": "CAD",
       "waiverAvailableToInternational": null,
       "waiver": null,
-      "note": "Rechecked: the official direct international application and Finance fees pages do not establish the application charge for this applicant route. The C$2,000 enrolment deposit and graduate application fees are different charges. Application fee remains unknown.",
-      "source": "https://future.uwindsor.ca/apply-international",
-      "verified": "2026-10-24"
+      "note": "The current Registrarial Service Fees page still links a fee outline for 2022/23–2023/24, revised June 2023. Its C$75 International Contract Application charge does not confirm the current direct international undergraduate fee. OUAC routes, part-time fees, graduate fees and the enrolment deposit are different charges; the current amount remains unknown.",
+      "source": "https://www.uwindsor.ca/registrar/2879/registrarial-service-fees",
+      "verified": "2026-10-26"
     },
     "documents": [
       "Direct application or OUAC",
@@ -8443,6 +8491,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.future.uwindsor.ca/programs/?p-level=undergraduate"
+    },
+    {
+      "label": "Windsor — current service-fee index links an older schedule",
+      "url": "https://www.uwindsor.ca/registrar/2879/registrarial-service-fees"
     }
   ],
   "verification": {

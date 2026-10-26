@@ -246,6 +246,11 @@
 
   function budget(u, input) {
     var c = costOf(u);
+    /* A documented textual conflict must survive missing comparable totals. */
+    if (U.costStatus(u) === 'conflict' && !(c && c.conflict) && u.costs.conflict &&
+        typeof u.costs.conflict.text === 'string' && u.costs.conflict.text.trim()) {
+      return { status: 'conflict', text: u.costs.conflict.text, html: '<p>' + esc(u.costs.conflict.text) + '</p>' };
+    }
     if (!c) {
       /* A figure for an earlier year is shown for what it is and is not compared. */
       if (U.costStatus(u) === 'previous-cycle' && U.budgetText(u)) return { status: 'unknown',

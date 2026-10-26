@@ -338,9 +338,12 @@ group('profile rendering');
   var rangeRows = DB.universities.filter(function (u) {
     return (u.costs && u.costs.items || []).some(function (i) { return typeof i.min === 'number' && typeof i.max === 'number' && !('amount' in i); });
   });
-  var we = page('western-university');
-  ok(rangeRows.length > 0 && /C\$48,000–C\$64,400/.test(we),
-    'a cost line given as a range shows both ends instead of "Not checked" (Western: C$48,000–C$64,400)', rangeRows.length + ' records with range lines');
+  ok(rangeRows.length > 0 && rangeRows.every(function (u) {
+    var html = page(u.id);
+    return u.costs.items.filter(function (i) { return typeof i.min === 'number' && typeof i.max === 'number' && !('amount' in i); }).every(function (i) {
+      return html.indexOf(U.money(i.min, u.costs.currency)) > -1 && html.indexOf(U.money(i.max, u.costs.currency).replace(/^[^0-9]+/, '')) > -1;
+    });
+  }), 'every sourced cost range renders both endpoints', rangeRows.length + ' records with range lines');
   var be = page('berea-college');
   ok(be.indexOf('What an admitted international student pays') > -1, 'Berea: the cost section says what an admitted student pays');
   ok(be.indexOf('winning one is not guaranteed') < 0, 'Berea: the competitive-scholarship text is not used for guaranteed aid');
@@ -701,8 +704,8 @@ group('Canada');
      ev('university-of-toronto', 50000, 'CAD').status !== 'core-covered',
     'Toronto: the Pearson Scholarship is shown with its passed nomination date and is never subtracted from the cost');
   var we = U.uniById('western-university');
-  ok(we.costs.status === 'previous-cycle' && !(DB.match.annualCost || {})['western-university'],
-    'Western: costs from 2025–26 are marked as an earlier cycle and are not compared with a budget');
+  ok(we.costs.status === 'conflict' && we.costs.academicYear === '2026–2027' && !(DB.match.annualCost || {})['western-university'],
+    'Western: the current draft insurance conflict is explicit and no final annual budget is invented');
   var lv = U.uniById('universite-laval');
   ok(lv.englishTaught === false && !U.ieltsMin(lv) && lv.frenchRequirement && lv.costs.breakdown.period === 'semester' &&
      (DB.match.annualCost || {})['universite-laval'].calc === 'two-semesters',

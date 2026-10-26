@@ -191,6 +191,12 @@ module.exports = function (env) {
   try { smc.workloadSource = null; ok(M.costOf(U.uniById('saint-marys-university')) === null,
     'per-course prices without the annual workload source cannot become annual costs'); }
   finally { smc.workloadSource = smLoad; }
+  ['western-university', 'mount-saint-vincent-university'].forEach(function (id) {
+    ok([null, 0, 1000000].every(function (amount) {
+      var b = M.evaluate(U.uniById(id), { budget: amount, currency: 'CAD' }).budget;
+      return b.status === 'conflict' && b.text === U.uniById(id).costs.conflict.text && b.html.indexOf('<p>') === 0;
+    }), id + ': a sourced textual fee conflict stays visible with empty, zero and large budgets');
+  });
   var satUnknown = { academics: { sat: { policy: 'unknown' } } };
   ok(U.satPolicy(satUnknown) !== 'optional' && !U.gpaComparable({ average: 3.5, scale: 5, weighting: 'unweighted' }) &&
     !U.gpaComparable({ average: 3.5, scale: 4, weighting: 'weighted' }), 'unknown SAT and incompatible GPA never become comparable requirements');
