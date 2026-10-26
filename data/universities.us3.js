@@ -11372,8 +11372,8 @@ window.UNIPATH.universities.push(
         "conditions": "Not binding. Decisions by 5 January. For autumn enrolment only.",
         "status": "previous-cycle",
         "source": "https://lesley.edu/admissions/undergraduate-students/how-to-apply-undergraduate",
-        "verified": "2026-10-24",
-        "note": "Re-checked on 24 October 2026: the official page still labels these deadlines Fall 2026. No deadline for fall 2027 is established."
+        "verified": "2026-10-26",
+        "note": "The replacement undergraduate admissions page still explicitly labels preferred deadlines Fall 2026. Rolling admission does not establish a dated Fall 2027 deadline. The former /admissions-aid/ route returns 404."
       },
       {
         "name": "Regular Decision",
@@ -11387,8 +11387,8 @@ window.UNIPATH.universities.push(
         "conditions": "Lesley offers rolling admission: applications after the deadline are still considered, with a decision within two weeks of a complete application.",
         "status": "previous-cycle",
         "source": "https://lesley.edu/admissions/undergraduate-students/how-to-apply-undergraduate",
-        "verified": "2026-10-24",
-        "note": "Re-checked on 24 October 2026: the official page still labels these deadlines Fall 2026. No deadline for fall 2027 is established."
+        "verified": "2026-10-26",
+        "note": "The replacement undergraduate admissions page still explicitly labels preferred deadlines Fall 2026. Rolling admission does not establish a dated Fall 2027 deadline. The former /admissions-aid/ route returns 404."
       }
     ],
     "applicationFee": {

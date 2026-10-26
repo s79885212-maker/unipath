@@ -152,6 +152,18 @@ module.exports = function (env) {
     U.awardKind(U.uniById('university-of-toronto')) === 'full-tuition' &&
     U.awardLabel(U.uniById('university-of-toronto')) === 'Full tuition covered',
     'Pearson tuition badge does not deny confirmed housing or invent meals coverage');
+  var pe = U.uniById('university-of-prince-edward-island');
+  function peBudget(field, b) { return M.evaluate(pe, { ielts: null, sat: null, gpa: null, budget: b, currency: 'CAD', field: field }).budget; }
+  ok(peBudget('business', 17848).status === 'fits-tuition' && peBudget('business', 17847).status === 'over' &&
+    peBudget('', 17848).text.indexOf('one programme') > -1,
+    'UPEI published Business core tuition is comparable only as a programme example, never a full budget');
+  ok(peBudget('engineering', 1000000).status === 'unknown' && peBudget('medicine', null).status === 'unknown',
+    'a large or empty budget cannot turn another faculty price into a match for the selected field');
+  var peScope = DB.match.annualCost[pe.id].scopeFields;
+  try {
+    DB.match.annualCost[pe.id].scopeFields = ['unknown-field'];
+    ok(M.costOf(pe) === null, 'a scoped example with an unrecognised field cannot be compared');
+  } finally { DB.match.annualCost[pe.id].scopeFields = peScope; }
   var satUnknown = { academics: { sat: { policy: 'unknown' } } };
   ok(U.satPolicy(satUnknown) !== 'optional' && !U.gpaComparable({ average: 3.5, scale: 5, weighting: 'unweighted' }) &&
     !U.gpaComparable({ average: 3.5, scale: 4, weighting: 'weighted' }), 'unknown SAT and incompatible GPA never become comparable requirements');

@@ -200,6 +200,9 @@
     if (!c) return null;
     if (['total', 'billed', 'tuition'].indexOf(c.basis) < 0 ||
         (c.period && c.period !== 'year' && c.period !== 'annual')) return null;
+    if (c.scopeFields && (!Array.isArray(c.scopeFields) || !c.scopeFields.length ||
+        !c.scopeFields.every(function (id) { return U.DB.fields.some(function (f) { return f.id === id; }); }) ||
+        !c.example || !has(c.academicYear) || c.academicYear !== U.costYear(u))) return null;
     if (c.calc === 'credit-load') {
       if (c.basis !== 'tuition' || c.period !== 'year' ||
           typeof c.perCredit !== 'number' || !isFinite(c.perCredit) || c.perCredit <= 0 ||
@@ -242,6 +245,8 @@
        unpriced remaining expenses are never called "within budget". */
     if (c.covered) return { status: input.budget === null ? 'none' : 'core-covered', text: coveredText(c.covered), html: coveredHtml(c.covered) };
     if (c.conflict) return { status: 'conflict', text: costText(c, c.currency), html: conflictHtml(c, c.currency) };
+    if (input.field && c.scopeFields && c.scopeFields.indexOf(input.field) < 0) return { status: 'unknown',
+      text: 'The recorded yearly cost is for a different field of study. No comparable cost is confirmed for your selected field.' };
     if (input.budget === null) return { status: 'none', text: costText(c, c.currency) };
     var lo = convert(c.min, c.currency, input.currency), hi = convert(c.max, c.currency, input.currency);
     if (lo === null || hi === null || lo < 0 || hi < lo) return { status: 'unknown', text: 'No comparable yearly cost is recorded' };
@@ -320,7 +325,7 @@
       label += '. Not included: ' + show(ex) + ' — ' + (c.extrasLabel || 'a required cost') + (c.extrasMore ? ' and other required costs' : '') +
         ', required and outside the published total. With it: ' + range(lo + ex, hi + ex) + ' (calculated by UniPath)';
     }
-    if (has(c.academicYear) && has(c.note) && (c.calc === 'credit-load' || c.calc === 'two-semesters')) {
+    if (has(c.academicYear) && has(c.note) && (c.calc === 'credit-load' || c.calc === 'two-semesters' || c.scopeFields)) {
       label += '. Scope: ' + c.note;
     }
     return label;

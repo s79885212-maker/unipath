@@ -11050,11 +11050,17 @@ window.UNIPATH.universities.push(
       {
         "label": "Engineering professional fee",
         "amount": 1250
+      },
+      {
+        "label": "Business: tuition and international fee per year, excluding other fees",
+        "amount": 17848,
+        "source": "https://www.upei.ca/fees?field_fee_faculty_target_id=190&field_type_value=international&field_time_value=fulltime&field_level_value=undergraduate",
+        "verified": "2026-10-26"
       }
     ],
     "billedSubtotal": null,
-    "totalText": "Tuition is C$813 per three-credit course; international students also pay a C$9,718 yearly fee. A full-year total is not printed on the page read",
-    "note": "Approved by the Board of Governors for 2026/2027 and “subject to change without notice”."
+    "totalText": "The calendar lists C$813 per three-credit course and C$9,718 international fee per year. The current Business selector separately publishes C$17,848 yearly tuition plus international fee; other fees and living expenses are additional.",
+    "note": "Business only, international full-time undergraduates, 2026–27: C$17,848 per year is published for tuition plus the international fee. Other mandatory fees, the C$200 business service fee, insurance, co-op, housing and meals are extra. This is not a full budget or a price for other faculties or 2027–28 entry."
   },
   "scholarships": {
     "fullRide": {
@@ -11125,6 +11131,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.upei.ca/programs?field_program_level_value=undergraduate"
+    },
+    {
+      "label": "UPEI — international full-time Business fees selector, 2026–27",
+      "url": "https://www.upei.ca/fees?field_fee_faculty_target_id=190&field_type_value=international&field_time_value=fulltime&field_level_value=undergraduate"
     }
   ],
   "verification": {

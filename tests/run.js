@@ -613,8 +613,8 @@ group('corrections after the expansion');
   console.log('   cost figures without a named academic year: ' + bare.filter(function (id) { return id !== 'deep-springs-college'; }).join(', '));
   var slc = U.uniById('sarah-lawrence-college'), les = U.uniById('lesley-university');
   ok(slc.admissions.deadlines.filter(function (d) { return d.entryYear === '2027' && d.status === 'confirmed' && d.dateISO; }).length === 4 &&
-     les.admissions.deadlines.every(function (d) { return d.status === 'previous-cycle' && d.entryYear === '2026' && d.verified === '2026-10-24'; }),
-    '12.6: Sarah Lawrence keeps its four rounds; Lesley, re-checked on 24 October 2026, still shows fall 2026 only');
+     les.admissions.deadlines.every(function (d) { return d.status === 'previous-cycle' && d.entryYear === '2026' && d.verified === '2026-10-26'; }),
+    '12.6: Sarah Lawrence keeps its four rounds; Lesley, re-checked on 26 October 2026, still shows fall 2026 only');
   ok(['university-of-cincinnati', 'university-of-arizona', 'xavier-university'].every(function (id) { return U.uniById(id).costs.academicYear === '2026–2027'; }),
     'Cincinnati, Arizona and Xavier: cost figures now name 2026–2027 from the universities’ own cost pages');
   var kc2 = bud('kenyon-college', 96000);
