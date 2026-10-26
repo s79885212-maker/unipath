@@ -1311,7 +1311,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.ualberta.ca/en/admissions/how-to-apply/index.html",
     "scholarships": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/international-entrance-scholarships/index.html",
     "financialAid": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/international-entrance-scholarships/index.html",
-    "programs": null,
+    "programs": "https://www.ualberta.ca/en/undergraduate-programs/index.html",
     "cost": "https://costcalculator.registrar.ualberta.ca/costcalculator/"
   },
   "admissions": {
@@ -1593,6 +1593,10 @@ window.UNIPATH.universities.push(
     {
       "label": "U of A — international entrance scholarships",
       "url": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/international-entrance-scholarships/index.html"
+    },
+    {
+      "label": "Official undergraduate programme directory — checked 2026-10-26",
+      "url": "https://www.ualberta.ca/en/undergraduate-programs/index.html"
     }
   ],
   "verification": {
@@ -1603,13 +1607,13 @@ window.UNIPATH.universities.push(
       "English requirements",
       "test policy",
       "tuition",
-      "scholarships"
+      "scholarships",
+      "official programme directory"
     ],
     "unconfirmed": [
       "full list of majors",
       "tuition for Fall 2027 entry",
-      "founding year",
-      "official programme directory"
+      "founding year"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -8364,9 +8368,9 @@ window.UNIPATH.universities.push(
       "note": "Not checked on the pages read."
     },
     "otherTests": null,
-    "internationalQualifications": "Uzbekistan-specific qualifications, grades, programme subjects and preparatory-study requirements remain unconfirmed after this review. The linked official general requirements do not establish an exact Uzbek qualification or a rule for 2027 entry; requirements for another country or school system are not substituted.",
+    "internationalQualifications": "The international undergraduate application guide requires official senior-secondary diploma and transcripts, post-secondary records when applicable, English evidence and any programme-specific portfolio; course descriptions are required for transfer-credit assessment only. Documents outside English need an official translation service. These general document categories do not confirm a particular Uzbek qualification, its grades, prerequisite equivalencies or preparatory-study requirements for Fall 2027.",
     "internationalQualificationsSource": "https://future.uwindsor.ca/apply-international",
-    "internationalQualificationsVerified": "2026-10-24"
+    "internationalQualificationsVerified": "2026-10-26"
   },
   "costs": {
     "breakdown": {
@@ -9742,7 +9746,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://brocku.ca/admissions/apply/",
     "scholarships": "https://brocku.ca/safa/2026-international-students/",
     "financialAid": "https://brocku.ca/safa/2026-international-students/",
-    "programs": null,
+    "programs": "https://brocku.ca/programs/",
     "cost": "https://brocku.ca/safa/2026-undergraduate-fall-winter-tuition-and-fees-subject-to-change-updates-in-progress-and-pending-board-of-trustee-approval/"
   },
   "admissions": {
@@ -9965,6 +9969,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Brock — current Faculty Handbook, admission equivalencies",
       "url": "https://brocku.ca/university-secretariat/faculty-handbook/section-3/"
+    },
+    {
+      "label": "Official undergraduate programme directory — checked 2026-10-26",
+      "url": "https://brocku.ca/programs/"
     }
   ],
   "verification": {
@@ -9975,14 +9983,14 @@ window.UNIPATH.universities.push(
       "English requirements",
       "requirements for Uzbekistan",
       "tuition",
-      "scholarships"
+      "scholarships",
+      "official programme directory"
     ],
     "unconfirmed": [
       "test policy",
       "2027 tuition and award values",
       "full list of majors",
-      "founding year",
-      "official programme directory"
+      "founding year"
     ]
   },
   "lastVerified": "2026-10-16",
@@ -10163,9 +10171,9 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": null,
-      "note": "The SAT/ACT Curriculum page explicitly says ACT and SAT subject exams may support a homeschooled application but are not required. This is a homeschool statement, not a universal policy for American or Uzbek school qualifications; the general and 2027 policies remain unconfirmed.",
-      "source": "https://www.wlu.ca/future-students/undergraduate/admissions/assets/resources/sat-act-curriculum.html",
-      "verified": "2026-10-24"
+      "note": "The general Top Application Questions page explicitly says SAT scores are not required for admission decisions. However, adjacent document/deadline instructions still cite 2024, so that page alone does not establish Fall 2027 policy. The separate current American Curriculum page lists school graduation, five senior/honours/AP courses and Grade 9–12 transcripts without an explicit SAT rule. The homeschool page says ACT and SAT subject exams may support an application but are not required; this is not a general ACT policy. The Fall 2027 policy and faculty exceptions remain unconfirmed.",
+      "source": "https://www.wlu.ca/future-students/undergraduate/assets/resources/applying-to-laurier.html",
+      "verified": "2026-10-26"
     },
     "act": {
       "policy": null,
@@ -10319,6 +10327,14 @@ window.UNIPATH.universities.push(
     {
       "label": "General requirements reviewed — Uzbekistan-specific rule unresolved",
       "url": "https://www.wlu.ca/future-students/undergraduate/admissions/requirements/international.html"
+    },
+    {
+      "label": "Laurier — SAT FAQ has older adjacent deadline instructions",
+      "url": "https://www.wlu.ca/future-students/undergraduate/assets/resources/applying-to-laurier.html"
+    },
+    {
+      "label": "Laurier — current American curriculum requirements",
+      "url": "https://www.wlu.ca/future-students/undergraduate/admissions/assets/resources/american-curriculum-chart.html"
     }
   ],
   "verification": {
@@ -12848,9 +12864,9 @@ window.UNIPATH.universities.push(
       "verified": "2026-10-17"
     },
     "otherTests": null,
-    "internationalQualifications": "Uzbekistan: not named. Bishop’s normally expects 12 years of schooling; applicants from systems that end after 11 years are evaluated individually.",
+    "internationalQualifications": "Uzbekistan is not named. Bishop’s normally expects 12 years of school and a credential giving university access in its issuing country; 11-year-school applicants are assessed individually, not automatically assigned foundation. General supporting documents are the school transcript (mid-terms if available), personal identification and English evidence as applicable. Business normally requires Grade 11 Math; BSc normally requires university-entrance Math and two sciences; Music needs an audition and musical-background letter. Exact Uzbek credential, thresholds, prerequisite equivalencies and Fall 2027 terms remain unconfirmed.",
     "internationalQualificationsSource": "https://www.ubishops.ca/admissions/admission-requirements/international-high-school-students/",
-    "internationalQualificationsVerified": "2026-10-24"
+    "internationalQualificationsVerified": "2026-10-26"
   },
   "costs": {
     "breakdown": {
@@ -13188,9 +13204,9 @@ window.UNIPATH.universities.push(
       "note": "Not checked on the pages read."
     },
     "otherTests": null,
-    "internationalQualifications": "Uzbekistan-specific qualifications, grades, programme subjects and preparatory-study requirements remain unconfirmed after this review. The linked official general requirements do not establish an exact Uzbek qualification or a rule for 2027 entry; requirements for another country or school system are not substituted.",
+    "internationalQualifications": "Uzbekistan is absent from the reviewed undergraduate country table. Its instruction is to contact Admissions for countries not shown; programme prerequisites and English requirements still apply. A separate graduate table naming Bakalavr is not a school-leaver rule, and UICC Calgary foundation/international-year-one conditions are not direct university-entry requirements. Accepted Uzbek school credential, grades, subject equivalencies and preparation for Fall 2027 remain unconfirmed.",
     "internationalQualificationsSource": "https://www.ulethbridge.ca/ross/admissions/undergrad/international/intreq_table",
-    "internationalQualificationsVerified": "2026-10-24"
+    "internationalQualificationsVerified": "2026-10-26"
   },
   "costs": {
     "breakdown": {
@@ -16177,9 +16193,9 @@ window.UNIPATH.universities.push(
       "note": "SAT and ACT are not part of the admission route; candidates are assessed on their school record and French."
     },
     "otherTests": null,
-    "internationalQualifications": "Uzbekistan-specific qualifications, grades, programme subjects and preparatory-study requirements remain unconfirmed after this review. The linked official general requirements do not establish an exact Uzbek qualification or a rule for 2027 entry; requirements for another country or school system are not substituted.",
+    "internationalQualifications": "UQAM’s general first-cycle rule requires a qualification corresponding to at least 13 years of schooling. Certain four-year bachelor’s routes accept a pre-university qualification after 12 years, subject to the specific programme. Neither rule establishes direct entry with an 11-year Uzbek school credential. Documents outside French or English need a certified French or English translation. Exact accepted Uzbek qualification, grades, subjects and any required preparation for a particular programme/Fall 2027 remain unconfirmed.",
     "internationalQualificationsSource": "https://etudier.uqam.ca/etudiants-internationaux",
-    "internationalQualificationsVerified": "2026-10-24"
+    "internationalQualificationsVerified": "2026-10-26"
   },
   "costs": {
     "breakdown": {
