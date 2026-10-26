@@ -581,7 +581,7 @@
      instant is used; with only a date, the deadline counts as passed only once
      that day has ended everywhere on Earth (UTC−12), so a date is never closed
      early on the strength of the device's own calendar. */
-  var FIXED_ZONES = { 'JST': 540, 'KST': 540, 'Japan time': 540, 'UTC': 0, 'GMT': 0 };
+  var FIXED_ZONES = { 'JST': 540, 'KST': 540, 'Japan time': 540, 'UTC': 0, 'GMT': 0, 'EST': -300, 'EDT': -240 };
   var IANA_ZONES = { 'UK time': 'Europe/London', 'CET': 'Europe/Berlin', 'CEST': 'Europe/Berlin', 'German time': 'Europe/Berlin',
     'ET': 'America/New_York', 'Eastern Time': 'America/New_York', 'CT': 'America/Chicago', 'Central Time': 'America/Chicago',
     'MT': 'America/Denver', 'PT': 'America/Los_Angeles', 'Pacific Time': 'America/Los_Angeles',

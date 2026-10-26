@@ -164,6 +164,21 @@ module.exports = function (env) {
     DB.match.annualCost[pe.id].scopeFields = ['unknown-field'];
     ok(M.costOf(pe) === null, 'a scoped example with an unrecognised field cannot be compared');
   } finally { DB.match.annualCost[pe.id].scopeFields = peScope; }
+  var york = U.uniById('york-university'), pise = york.scholarships.merit[0], yd = U.awardDates(york, pise);
+  ok(yd.length === 2 && yd.some(function (d) { return d.kind === 'nomination' && d.dateISO === '2027-02-04'; }) &&
+    yd.every(function (d) { return U.roundStatus(d) === 'confirmed' && d.binding == null; }),
+    'PISE links only its Fall 2027 student and nomination stages, without scholarship binding labels');
+  var guelph = U.uniById('university-of-guelph'), vd = U.awardDates(guelph, guelph.scholarships.merit[1]);
+  ok(vd.length === 2 && vd.some(function (d) { return d.kind === 'documents' && d.dateISO === '2027-03-15'; }) &&
+    vd.every(function (d) { return !U.isApplicationDeadline(d); }),
+    'Vaccarino references have a separate award-specific date and never become general admission deadlines');
+  ok(U.deadlineEnd({ dateISO: '2027-03-08', time: '16:00', timezone: 'EST' }).at === Date.UTC(2027, 2, 8, 21) &&
+    U.deadlineEnd({ dateISO: '2027-03-15', time: '16:00', timezone: 'EDT' }).at === Date.UTC(2027, 2, 15, 20),
+    'explicit published EST and EDT times remain different instants across the DST transition');
+  var regina = U.uniById('university-of-regina'), isd = regina.scholarships.merit[1], rd = U.awardDates(regina, isd);
+  ok(rd.length === 2 && rd.every(function (d) { return d.dateISO === '2027-04-30' && U.roundStatus(d) === 'confirmed' && !U.isApplicationDeadline(d); }) &&
+    U.awardDates(regina, regina.scholarships.merit[0]).length === 0 && regina.scholarships.fullRide.available === null,
+    'automatic ISD admission and documents are scoped to that award; housing does not become guaranteed tuition coverage');
   var satUnknown = { academics: { sat: { policy: 'unknown' } } };
   ok(U.satPolicy(satUnknown) !== 'optional' && !U.gpaComparable({ average: 3.5, scale: 5, weighting: 'unweighted' }) &&
     !U.gpaComparable({ average: 3.5, scale: 4, weighting: 'weighted' }), 'unknown SAT and incompatible GPA never become comparable requirements');

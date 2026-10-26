@@ -6011,13 +6011,24 @@ window.UNIPATH.universities.push(
         "entryYear": "2027",
         "dateISO": "2027-03-08",
         "date": "8 March 2027",
-        "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": null,
         "status": "confirmed",
-        "source": "https://www.uoguelph.ca/admission/undergraduate/international/funding",
-        "verified": "2026-10-15",
-        "note": null
+        "source": "https://www.uoguelph.ca/registrar/finances-fees/vaccarino",
+        "verified": "2026-10-26",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://www.uoguelph.ca/registrar/finances-fees/vaccarino",
+          "verified": "2026-10-26",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "quote": "Fall 2027"
+        },
+        "awardId": "vaccarino",
+        "awardCategory": "merit",
+        "time": "16:00",
+        "timezone": "EST"
       },
       {
         "name": "Application deadline for fall 2027 (high school students outside Canada)",
@@ -6048,6 +6059,32 @@ window.UNIPATH.universities.push(
         "source": "https://www.uoguelph.ca/admission/undergraduate/apply/deadlines",
         "verified": "2026-10-15",
         "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "Vaccarino scholarship: reference letters",
+        "kind": "documents",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-03-15",
+        "date": "15 March 2027",
+        "appliesTo": "First-year applicants",
+        "conditions": "Reference-letter deadline for this scholarship only.",
+        "status": "confirmed",
+        "source": "https://www.uoguelph.ca/registrar/finances-fees/vaccarino",
+        "verified": "2026-10-26",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://www.uoguelph.ca/registrar/finances-fees/vaccarino",
+          "verified": "2026-10-26",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "quote": "Fall 2027"
+        },
+        "awardId": "vaccarino",
+        "awardCategory": "merit",
+        "time": "16:00",
+        "timezone": "EDT"
       }
     ],
     "applicationFee": {
@@ -6201,14 +6238,18 @@ window.UNIPATH.universities.push(
       {
         "name": "Dr. Franco J. Vaccarino President’s Scholarship",
         "amount": "C$42,500",
-        "eligibility": "Two top international fee-paying students with academic excellence and contributions to school and community",
+        "eligibility": "Two international VISA students entering their first undergraduate semester in Fall 2027, no prior post-secondary attendance, at least 90% Canadian-equivalent admission average, and leadership contributions.",
         "deadline": null,
-        "application": "Application by 8 March 2027",
+        "application": "The Fall 2027 form will open by 1 December 2026. Student application: 8 March 2027, 16:00 EST; reference letters: 15 March, 16:00 EDT.",
         "renewable": null,
-        "note": "Includes guaranteed on-campus residence and first-choice room in first year. A competitive award; it is not counted as received.",
+        "note": "C$42,500 plus a summer research assistantship and mentorship. First-year room preference requires the residence deposit; a guaranteed place is not paid housing. Competitive; not deducted from the budget.",
         "basis": "merit",
-        "source": "https://www.uoguelph.ca/admission/undergraduate/international/funding",
-        "verified": "2026-10-15"
+        "source": "https://www.uoguelph.ca/registrar/finances-fees/vaccarino",
+        "verified": "2026-10-26",
+        "id": "vaccarino",
+        "category": "merit",
+        "entryTerm": "Autumn",
+        "entryYear": "2027"
       }
     ],
     "needBased": {
@@ -6253,6 +6294,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Guelph Registrar — 2026–27 tariffs by cohort and semester",
       "url": "https://www.uoguelph.ca/registrar/finances-fees/tuition-fees/guelph-undergrad"
+    },
+    {
+      "label": "Guelph — Vaccarino scholarship for Fall 2027",
+      "url": "https://www.uoguelph.ca/registrar/finances-fees/vaccarino"
     }
   ],
   "verification": {
@@ -6779,13 +6824,24 @@ window.UNIPATH.universities.push(
         "entryYear": "2027",
         "dateISO": "2027-01-27",
         "date": "27 January 2027",
-        "binding": false,
         "appliesTo": "First-year applicants",
-        "conditions": "Nominee’s deadline 4 February 2027.",
+        "conditions": "Student application; school nomination and reference have their own later deadline.",
         "status": "confirmed",
-        "source": "https://futurestudents.yorku.ca/financing-your-degree/international-scholarships",
-        "verified": "2026-10-15",
-        "note": null
+        "source": "https://futurestudents.yorku.ca/presidents-international-scholarship-excellence-application-guides",
+        "verified": "2026-10-26",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://futurestudents.yorku.ca/presidents-international-scholarship-excellence-application-guides",
+          "verified": "2026-10-26",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "quote": "Fall 2027"
+        },
+        "awardId": "pise",
+        "awardCategory": "merit",
+        "time": "23:59",
+        "timezone": "EST"
       },
       {
         "name": "Direct Entry Nursing application deadline",
@@ -6816,6 +6872,32 @@ window.UNIPATH.universities.push(
         "source": "https://futurestudents.yorku.ca/requirements/deadlines",
         "verified": "2026-10-15",
         "note": null
+      },
+      {
+        "name": "PISE: school nomination and reference submission",
+        "kind": "nomination",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-04",
+        "date": "4 February 2027",
+        "appliesTo": "First-year applicants",
+        "conditions": "After the student submits, York emails the school nominator a submission link.",
+        "status": "confirmed",
+        "source": "https://futurestudents.yorku.ca/presidents-international-scholarship-excellence-application-guides",
+        "verified": "2026-10-26",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://futurestudents.yorku.ca/presidents-international-scholarship-excellence-application-guides",
+          "verified": "2026-10-26",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "quote": "Fall 2027"
+        },
+        "awardId": "pise",
+        "awardCategory": "merit",
+        "time": "23:59",
+        "timezone": "EST"
       }
     ],
     "applicationFee": {
@@ -6965,14 +7047,18 @@ window.UNIPATH.universities.push(
       {
         "name": "President’s International Scholarship of Excellence (PISE)",
         "amount": "C$180,000 (C$45,000 a year for four years)",
-        "eligibility": "International high school applicants with academic excellence, volunteer and extracurricular commitment and leadership",
+        "eligibility": "International-fee high-school entrants for Fall 2027, minimum final admission average 80% or equivalent; academic achievement, leadership and service; school nomination required (maximum two per school).",
         "deadline": null,
-        "application": "Student application by 27 January 2027; nominee’s deadline 4 February 2027",
+        "application": "Opens 1 November 2026. Student form by 27 January 2027; school nomination and reference by 4 February. A York reference number from the admission application is required.",
         "renewable": true,
         "note": "Cannot be combined with entrance scholarships. A competitive award; it is not counted as received.",
         "basis": "merit",
-        "source": "https://futurestudents.yorku.ca/financing-your-degree/international-scholarships",
-        "verified": "2026-10-15"
+        "source": "https://futurestudents.yorku.ca/presidents-international-scholarship-excellence-application-guides",
+        "verified": "2026-10-26",
+        "id": "pise",
+        "category": "merit",
+        "entryTerm": "Autumn",
+        "entryYear": "2027"
       },
       {
         "name": "York International Entrance Scholarships",
@@ -7033,6 +7119,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://futurestudents.yorku.ca/programs"
+    },
+    {
+      "label": "York — PISE Fall 2027 application guides",
+      "url": "https://futurestudents.yorku.ca/presidents-international-scholarship-excellence-application-guides"
     }
   ],
   "verification": {
@@ -8455,19 +8545,28 @@ window.UNIPATH.universities.push(
     ],
     "deadlines": [
       {
-        "name": "International Student of Distinction Scholarship: application and documents",
-        "kind": "scholarship",
+        "name": "ISD award consideration: admission application",
+        "kind": "admission",
         "entryTerm": "Autumn",
         "entryYear": "2027",
         "dateISO": "2027-04-30",
         "date": "30 April 2027",
-        "binding": false,
         "appliesTo": "First-year applicants",
-        "conditions": null,
+        "conditions": "Award consideration only; this is not the general admission closing date. No separate scholarship application.",
         "status": "confirmed",
         "source": "https://www.uregina.ca/ur-international/scholarships.html",
-        "verified": "2026-10-16",
-        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-26",
+        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry.",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://www.uregina.ca/ur-international/scholarships.html",
+          "verified": "2026-10-26",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "quote": "Fall 2027"
+        },
+        "awardId": "international-student-of-distinction",
+        "awardCategory": "merit"
       },
       {
         "name": "Final application deadline, fall term (all programmes except those listed separately)",
@@ -8483,6 +8582,30 @@ window.UNIPATH.universities.push(
         "source": "https://www.uregina.ca/admissions/undergraduate/deadlines.html",
         "verified": "2026-10-16",
         "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry."
+      },
+      {
+        "name": "ISD award consideration: supporting documents",
+        "kind": "documents",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-04-30",
+        "date": "30 April 2027",
+        "appliesTo": "First-year applicants",
+        "conditions": "Award consideration only; this is not the general admission closing date. No separate scholarship application.",
+        "status": "confirmed",
+        "source": "https://www.uregina.ca/ur-international/scholarships.html",
+        "verified": "2026-10-26",
+        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry.",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://www.uregina.ca/ur-international/scholarships.html",
+          "verified": "2026-10-26",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "quote": "Fall 2027"
+        },
+        "awardId": "international-student-of-distinction",
+        "awardCategory": "merit"
       }
     ],
     "applicationFee": {
@@ -8622,12 +8745,16 @@ window.UNIPATH.universities.push(
         "amount": "Housing and meal plan worth about C$90,000 (Tier 1) or housing worth about C$45,000 (Tier 2) over four years",
         "eligibility": "International applicants directly from high school: 90%+ (Tier 1) or 85–89.99% (Tier 2)",
         "deadline": null,
-        "application": "Automatic consideration if the application and documents arrive by 30 April",
+        "application": "Automatic consideration from the admission application and required documents by 30 April for Fall 2027; no separate scholarship form. Winter and Spring/Summer 2027 places are already filled.",
         "renewable": true,
-        "note": "“This is not a tuition credit scholarship.” Renewable with 24 credit hours a year and an 80% average. Places are limited.",
+        "note": "Housing/meal benefits are not a tuition credit. Renewal requires 24 credits per calendar year and 80% UGPA; up to three further years (3.5 in Engineering). Limited places.",
         "basis": "merit",
         "source": "https://www.uregina.ca/ur-international/scholarships.html",
-        "verified": "2026-10-16"
+        "verified": "2026-10-26",
+        "id": "international-student-of-distinction",
+        "category": "merit",
+        "entryTerm": "Autumn",
+        "entryYear": "2027"
       },
       {
         "name": "International Undergraduate Student Bursary",
