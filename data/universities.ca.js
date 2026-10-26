@@ -4208,13 +4208,22 @@ window.UNIPATH.universities.push(
         "entryYear": "2027",
         "dateISO": "2027-02-15",
         "date": "15 February 2027",
-        "binding": false,
         "appliesTo": "First-year applicants",
-        "conditions": "High school applicants are encouraged to apply for admission early enough to meet this deadline.",
+        "conditions": "Fall school-leavers or applicants without transferable post-secondary study. Submit the admission application before the award application. Required documents must also arrive by this deadline.",
         "status": "confirmed",
         "source": "https://www.dal.ca/admissions/scholarships-financial-aid/scholarships/future-undergraduate-student-awards.html",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-26",
+        "note": null,
+        "awardId": "general-entrance-awards",
+        "awardCategory": "merit",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.dal.ca/admissions/scholarships-financial-aid/scholarships/future-undergraduate-student-awards.html",
+          "verified": "2026-10-26",
+          "quote": "2027–2028 General Entrance Award program"
+        }
       },
       {
         "name": "Application deadline: Nursing, Health Sciences, Medical Sciences, Social Work",
@@ -4260,6 +4269,30 @@ window.UNIPATH.universities.push(
         "source": "https://www.dal.ca/admissions/dates-and-deadlines.html",
         "verified": "2026-10-15",
         "note": null
+      },
+      {
+        "name": "General Entrance Awards — required documents",
+        "kind": "documents",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-15",
+        "date": "15 February 2027",
+        "appliesTo": "First-year applicants",
+        "conditions": "Fall school-leavers or applicants without transferable post-secondary study. Submit the admission application before the award application. Required documents must also arrive by this deadline.",
+        "status": "confirmed",
+        "source": "https://www.dal.ca/admissions/scholarships-financial-aid/scholarships/future-undergraduate-student-awards.html",
+        "verified": "2026-10-26",
+        "note": null,
+        "awardId": "general-entrance-awards",
+        "awardCategory": "merit",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.dal.ca/admissions/scholarships-financial-aid/scholarships/future-undergraduate-student-awards.html",
+          "verified": "2026-10-26",
+          "quote": "2027–2028 General Entrance Award program"
+        }
       }
     ],
     "applicationFee": {
@@ -4395,14 +4428,18 @@ window.UNIPATH.universities.push(
       {
         "name": "Dalhousie General Entrance Awards",
         "amount": null,
-        "eligibility": "Domestic and international first-year applicants",
+        "eligibility": "Domestic and international Fall entrants directly from high school or without transferable post-secondary study; normally 80% across the five programme-required courses or 26 predicted IB points, with named exceptions",
         "deadline": null,
         "application": "One application for the 2027–28 program, open 1 October 2026 to 15 February 2027",
         "renewable": null,
-        "note": "More than 2,000 entrance awards; some are for merit, some for financial need and some for both. Some can be renewed for up to four years.",
+        "note": "The 2027–28 programme opens 1 October 2026 and requires the award application and required documents by 15 February 2027. Apply for undergraduate admission first; an offer need not already have been issued. Official first-semester transcripts must be sent by the issuing institution; extra financial or other evidence depends on the award. Awards may be one-time or renewable for up to four years; no common amount or guaranteed full funding is stated.",
         "basis": "need-merit",
         "source": "https://www.dal.ca/admissions/scholarships-financial-aid/scholarships/future-undergraduate-student-awards.html",
-        "verified": "2026-10-15"
+        "verified": "2026-10-26",
+        "id": "general-entrance-awards",
+        "category": "merit",
+        "entryTerm": "Autumn",
+        "entryYear": "2027"
       },
       {
         "name": "Sankofa Scholarship",
@@ -4415,6 +4452,18 @@ window.UNIPATH.universities.push(
         "basis": "merit",
         "source": "https://www.dal.ca/admissions/scholarships-financial-aid/scholarships/future-undergraduate-student-awards.html",
         "verified": "2026-10-15"
+      },
+      {
+        "name": "Murray Family Jamaican Engineering Scholarship",
+        "amount": "C$88,000 (C$22,000 renewable for four years)",
+        "eligibility": "Students from Jamaica entering Bachelor of Engineering, with preference for Civil Engineering, showing good academic standing and financial need",
+        "deadline": null,
+        "application": "Consideration through the General Entrance Award application; this is not an unrestricted international award",
+        "renewable": true,
+        "note": "The individual listing does not establish a separate Fall 2027 deadline or all renewal thresholds. No tuition/living coverage percentage is inferred from the cash amount, and it is not subtracted as awarded aid.",
+        "basis": "need-merit",
+        "source": "https://www.dal.ca/admissions/scholarships-financial-aid/scholarships/future-undergraduate-student-awards.html",
+        "verified": "2026-10-26"
       }
     ],
     "needBased": {

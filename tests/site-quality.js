@@ -197,6 +197,11 @@ module.exports = function (env) {
       return b.status === 'conflict' && b.text === U.uniById(id).costs.conflict.text && b.html.indexOf('<p>') === 0;
     }), id + ': a sourced textual fee conflict stays visible with empty, zero and large budgets');
   });
+  var dal = U.uniById('dalhousie-university'), dalAwards = U.awardsAll(dal), general = dalAwards.filter(function (a) { return a.id === 'general-entrance-awards'; })[0];
+  ok(U.awardDates(dal, general).map(function (d) { return d.kind; }).sort().join() === 'documents,scholarship' &&
+    U.awardDates(dal, general).every(function (d) { return U.roundStatus(d) === 'confirmed' && !U.isApplicationDeadline(d) && !d.time && !d.timezone; }) &&
+    dalAwards.filter(function (a) { return a.name.indexOf('Murray Family') > -1 || a.name.indexOf('Sankofa') > -1; }).every(function (a) { return !U.awardDates(dal, a).length; }),
+    'Dalhousie General Entrance cycle links its own application/documents without assigning its date to unrelated awards or inventing a time');
   var satUnknown = { academics: { sat: { policy: 'unknown' } } };
   ok(U.satPolicy(satUnknown) !== 'optional' && !U.gpaComparable({ average: 3.5, scale: 5, weighting: 'unweighted' }) &&
     !U.gpaComparable({ average: 3.5, scale: 4, weighting: 'weighted' }), 'unknown SAT and incompatible GPA never become comparable requirements');
