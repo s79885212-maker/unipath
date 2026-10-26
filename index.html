@@ -29,6 +29,14 @@
         if (t === "dark" || t === "light")
           document.documentElement.setAttribute("data-theme", t);
       } catch (e) {}
+      /* Windows draws a flag emoji as two letters ("US"), twice as wide as one
+         letter; then flags come from a web font (see styles.css, "flag-font"). */
+      try {
+        var cx = document.createElement("canvas").getContext("2d");
+        cx.font = "32px sans-serif";
+        if (cx.measureText("\uD83C\uDDFA\uD83C\uDDF8").width >= 1.5 * cx.measureText("\uD83C\uDDFA").width)
+          document.documentElement.classList.add("flag-font");
+      } catch (e) {}
     </script>
     <script>
       /* Start downloading the Russian dictionary at once, in parallel with the
@@ -41,13 +49,13 @@
           if (lang !== "ru") return;
           var meta = document.querySelector('meta[name="unipath-root"]');
           var l = document.createElement("link");
-          l.rel = "preload"; l.as = "script"; l.href = (meta ? meta.content : "") + "data/i18n/ru.js?v=157";
+          l.rel = "preload"; l.as = "script"; l.href = (meta ? meta.content : "") + "data/i18n/ru.js?v=158";
           document.head.appendChild(l);
         } catch (e) {}
       })();
     </script>
-    <script src="assets/js/gate.js?v=157"></script>
-    <link rel="stylesheet" href="assets/css/styles.css?v=157" />
+    <script src="assets/js/gate.js?v=158"></script>
+    <link rel="stylesheet" href="assets/css/styles.css?v=158" />
   </head>
   <body>
     <div id="site-header"></div>
@@ -77,24 +85,24 @@
     </main>
     <div id="site-footer"></div>
 
-    <script src="data/registry.js?v=157"></script>
-    <script src="data/countries.js?v=157"></script>
-    <script src="data/universities.us.js?v=157"></script>
-    <script src="data/universities.us2.js?v=157"></script>
-    <script src="data/universities.us3.js?v=157"></script>
-    <script src="data/universities.jp.js?v=157"></script>
-    <script src="data/universities.kr.js?v=157"></script>
-    <script src="data/universities.uk.js?v=157"></script>
-    <script src="data/universities.de.js?v=157"></script>
-    <script src="data/universities.ca.js?v=157"></script>
-    <script src="data/photos.js?v=157"></script>
-    <script src="data/admission-profiles.js?v=157"></script>
-    <script src="data/degrees.js?v=157"></script>
-    <script src="data/test-policy.js?v=157"></script>
-    <script src="data/english-details.js?v=157"></script>
-    <script src="data/award-details.js?v=157"></script>
-    <script src="data/news.js?v=157"></script>
-    <script src="data/match.js?v=157"></script>
+    <script src="data/registry.js?v=158"></script>
+    <script src="data/countries.js?v=158"></script>
+    <script src="data/universities.us.js?v=158"></script>
+    <script src="data/universities.us2.js?v=158"></script>
+    <script src="data/universities.us3.js?v=158"></script>
+    <script src="data/universities.jp.js?v=158"></script>
+    <script src="data/universities.kr.js?v=158"></script>
+    <script src="data/universities.uk.js?v=158"></script>
+    <script src="data/universities.de.js?v=158"></script>
+    <script src="data/universities.ca.js?v=158"></script>
+    <script src="data/photos.js?v=158"></script>
+    <script src="data/admission-profiles.js?v=158"></script>
+    <script src="data/degrees.js?v=158"></script>
+    <script src="data/test-policy.js?v=158"></script>
+    <script src="data/english-details.js?v=158"></script>
+    <script src="data/award-details.js?v=158"></script>
+    <script src="data/news.js?v=158"></script>
+    <script src="data/match.js?v=158"></script>
     <script>
       /* The Russian dictionary is about 1 MB, so it is fetched only when Russian is
    the language in use. The choice is read exactly as assets/js/i18n.js reads it:
@@ -122,17 +130,17 @@
             "<scr" +
               'ipt src="' +
               root +
-              'data/i18n/ru.js?v=157"><\/scr' +
+              'data/i18n/ru.js?v=158"><\/scr' +
               "ipt>",
           );
         } catch (e) {}
       })();
     </script>
-    <script src="assets/js/i18n.js?v=157"></script>
-    <script src="assets/js/app.js?v=157"></script>
-    <script src="assets/js/pages.js?v=157"></script>
-    <script src="assets/js/views.js?v=157"></script>
-    <script src="assets/js/news.js?v=157"></script>
-    <script src="assets/js/match.js?v=157"></script>
-    <script src="assets/js/router.js?v=157"></script>
+    <script src="assets/js/i18n.js?v=158"></script>
+    <script src="assets/js/app.js?v=158"></script>
+    <script src="assets/js/pages.js?v=158"></script>
+    <script src="assets/js/views.js?v=158"></script>
+    <script src="assets/js/news.js?v=158"></script>
+    <script src="assets/js/match.js?v=158"></script>
+    <script src="assets/js/router.js?v=158"></script>
   </body>

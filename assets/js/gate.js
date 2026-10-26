@@ -95,8 +95,19 @@
       '</div>';
     doc.body.appendChild(modal);
     /* Moving the widget would reload Cloudflare's iframe, so it stays in
-       place and is simply positioned over the card's empty slot. */
+       place and is positioned over the card's empty slot — measured, since
+       on a narrow screen the text above the slot wraps onto more lines. */
     holder.className = 'gate-visible-holder';
+    place();
+    global.addEventListener('resize', place);
+  }
+
+  function place() {
+    var slot = doc.getElementById('gate-slot');
+    if (!modal || !slot || !holder) return;
+    var r = slot.getBoundingClientRect();
+    holder.style.left = r.left + r.width / 2 + 'px';
+    holder.style.top = r.top + r.height / 2 + 'px';
   }
 
   function status(msg) {
@@ -114,6 +125,7 @@
       modal = null;
     }
     if (holder && holder.parentNode) holder.parentNode.removeChild(holder);
+    global.removeEventListener('resize', place);
   }
 
   global.__unipathTurnstileReady = function () {
