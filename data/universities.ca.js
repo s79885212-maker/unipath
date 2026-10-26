@@ -7381,11 +7381,19 @@ window.UNIPATH.universities.push(
       {
         "label": "Meal plan, mandatory in residence (no year stated)",
         "amount": 6705
+      },
+      {
+        "label": "Business annual tuition at 30 credits, calculated by UniPath",
+        "amount": 42000,
+        "source": "https://www.concordia.ca/students/financial/tuition-fees/rates/undergrad.html",
+        "verified": "2026-10-26",
+        "workloadSource": "https://www.concordia.ca/academics/undergraduate/calendar/current/section-16-academic-information-definitions-and-regulations/section-16-1-general-information.html",
+        "workloadVerified": "2026-10-26"
       }
     ],
     "billedSubtotal": null,
     "totalText": "International tuition is charged per credit: from C$1,010 (Fine Arts) to C$1,400 (John Molson) in Fall 2026 and Winter 2027",
-    "note": "A yearly figure is not computed here because the full-time number of credits per year was not read. Some international students qualify for exemptions from the higher rate."
+    "note": "John Molson Business only, Fall 2026/Winter 2027: 30 credits at C$1,400 = C$42,000 tuition, calculated by UniPath. Compulsory fees, insurance and living expenses are extra. Engineering may require more than 30 credits and is outside this example. Exemption eligibility is not assumed."
   },
   "scholarships": {
     "fullRide": {
@@ -7464,6 +7472,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.concordia.ca/academics/undergraduate.html"
+    },
+    {
+      "label": "Concordia — official regular-session credit load",
+      "url": "https://www.concordia.ca/academics/undergraduate/calendar/current/section-16-academic-information-definitions-and-regulations/section-16-1-general-information.html"
     }
   ],
   "verification": {
@@ -12485,11 +12497,20 @@ window.UNIPATH.universities.push(
       {
         "label": "Science & Engineering, per course",
         "amount": 3334.0
+      },
+      {
+        "label": "Business annual tuition at ten courses, calculated by UniPath",
+        "min": 33010,
+        "max": 33340,
+        "source": "https://www.smu.ca/academics/undergraduate-tuition-and-fees.html",
+        "verified": "2026-10-26",
+        "workloadSource": "https://smu-ca-public.courseleaf.com/undergraduate/faculties/sobey-school-business/bachelor-commerce/",
+        "workloadVerified": "2026-10-26"
       }
     ],
     "billedSubtotal": null,
     "totalText": "Tuition for new international students is C$3,301 per course in Arts and Commerce and C$3,334 in Science and Engineering, including per-course mandatory fees; no yearly total is printed",
-    "note": "Graduates of some partner programmes (NBISP, NISEP, PEI-ISP, CAIS, UWC, CIS, IB) get C$1,000 off per course; this does not apply to applicants from Uzbekistan’s national schools."
+    "note": "Business (BComm) only, new 2026–27 international cohort: five courses per term, ten across Fall/Winter. Arts/Commerce courses cost C$3,301; Science courses C$3,334. Ten courses give C$33,010–C$33,340 tuition, calculated by UniPath; ancillary fees, insurance, co-op and living expenses are additional. Engineering has a different normal workload and is not compared with this example. Graduates of some partner programmes (NBISP, NISEP, PEI-ISP, CAIS, UWC, CIS, IB) get C$1,000 off per course; this does not apply to applicants from Uzbekistan’s national schools."
   },
   "scholarships": {
     "fullRide": {
@@ -12566,6 +12587,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Saint Mary’s — official 2026–27 admission calendar",
       "url": "https://smu-ca-public.courseleaf.com/undergraduate/recruitment-admission-services/"
+    },
+    {
+      "label": "SMU — current international cohort course tuition, 2026–27",
+      "url": "https://www.smu.ca/academics/undergraduate-tuition-and-fees.html"
+    },
+    {
+      "label": "SMU — BComm normal annual course load",
+      "url": "https://smu-ca-public.courseleaf.com/undergraduate/faculties/sobey-school-business/bachelor-commerce/"
     }
   ],
   "verification": {

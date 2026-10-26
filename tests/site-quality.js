@@ -179,6 +179,18 @@ module.exports = function (env) {
   ok(rd.length === 2 && rd.every(function (d) { return d.dateISO === '2027-04-30' && U.roundStatus(d) === 'confirmed' && !U.isApplicationDeadline(d); }) &&
     U.awardDates(regina, regina.scholarships.merit[0]).length === 0 && regina.scholarships.fullRide.available === null,
     'automatic ISD admission and documents are scoped to that award; housing does not become guaranteed tuition coverage');
+  function scopedBudget(id, field, b) { return M.evaluate(U.uniById(id), { ielts: null, sat: null, gpa: null, field: field, budget: b, currency: 'CAD' }).budget; }
+  ok(scopedBudget('concordia-university', 'business', 42000).status === 'fits-tuition' &&
+    scopedBudget('concordia-university', 'engineering', 1000000).status === 'unknown',
+    'Concordia normal Business load never pays for a different engineering workload');
+  ok(scopedBudget('saint-marys-university', 'business', 33010).status === 'maybe' &&
+    scopedBudget('saint-marys-university', 'business', 33340).status === 'fits-tuition' &&
+    scopedBudget('saint-marys-university', 'engineering', 1000000).status === 'unknown',
+    'SMU elective price range needs the upper tuition bound and stays scoped to the sourced BComm workload');
+  var smc = DB.match.annualCost['saint-marys-university'], smLoad = smc.workloadSource;
+  try { smc.workloadSource = null; ok(M.costOf(U.uniById('saint-marys-university')) === null,
+    'per-course prices without the annual workload source cannot become annual costs'); }
+  finally { smc.workloadSource = smLoad; }
   var satUnknown = { academics: { sat: { policy: 'unknown' } } };
   ok(U.satPolicy(satUnknown) !== 'optional' && !U.gpaComparable({ average: 3.5, scale: 5, weighting: 'unweighted' }) &&
     !U.gpaComparable({ average: 3.5, scale: 4, weighting: 'weighted' }), 'unknown SAT and incompatible GPA never become comparable requirements');

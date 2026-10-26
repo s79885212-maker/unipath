@@ -212,6 +212,17 @@
           !has(c.academicYear) || c.academicYear !== U.costYear(u) ||
           c.min !== Math.round(c.perCredit * c.creditsPerYear * 100) / 100 || c.max !== c.min) return null;
     }
+    if (c.calc === 'course-load') {
+      if (c.basis !== 'tuition' || c.period !== 'year' ||
+          typeof c.perCourseMin !== 'number' || !isFinite(c.perCourseMin) || c.perCourseMin <= 0 ||
+          typeof c.perCourseMax !== 'number' || !isFinite(c.perCourseMax) || c.perCourseMax < c.perCourseMin ||
+          typeof c.coursesPerYear !== 'number' || !isFinite(c.coursesPerYear) || c.coursesPerYear <= 0 || c.coursesPerYear % 1 ||
+          !/^https:\/\//.test(c.source || '') || !/^https:\/\//.test(c.workloadSource || '') ||
+          !/^\d{4}-\d{2}-\d{2}$/.test(c.verified || '') || !/^\d{4}-\d{2}-\d{2}$/.test(c.workloadVerified || '') ||
+          !has(c.academicYear) || c.academicYear !== U.costYear(u) ||
+          c.min !== Math.round(c.perCourseMin * c.coursesPerYear * 100) / 100 ||
+          c.max !== Math.round(c.perCourseMax * c.coursesPerYear * 100) / 100 || !has(c.note)) return null;
+    }
     /* Two official sources, two totals: both travel with the record. */
     var figures = U.costConflict(u);
     if (figures) {
