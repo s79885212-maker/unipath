@@ -916,5 +916,95 @@
   "cycle": "2027–2028",
   "scope": null,
   "read": "2026-10-27"
+ },
+ {
+  "id": "universite-laval",
+  "field": "award (previous cycle): BCCM excellence, bachelor",
+  "source": "https://nouvelles.ulaval.ca/2025/12/15/des-bourses-de-20-000dollar-et-30-000dollar-pour-attirer-des-talents-etudiants-a-luniversite-laval-4559df29-6be3-4588-b705-67db5fb40017",
+  "quote": "20 000$ pour les programmes de baccalauréat et de maîtrise … Baccalauréat ou maîtrise professionnelle Date limite de soumission des candidatures: 15 janvier 2026",
+  "cycle": "2026 admission",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-laval",
+  "field": "award scope 2027: BCCM excellence",
+  "source": "https://www.ulaval.ca/espace-etudiant/bourses-et-aide-financiere/bourses-detudes/bourses-citoyennes-et-citoyens-du-monde-volets-excellence-et-engagement",
+  "quote": "Volet excellence (2e et 3e cycles avec recherche) … La sélection des candidatures pour les bourses d'admission 2027 commencera dès le mois de novembre.",
+  "cycle": "2027 admission",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-saskatchewan",
+  "field": "award: Best and Brightest eligibility",
+  "source": "https://admissions.usask.ca/money/search-awards.php?award=300098ES02",
+  "quote": "Eligibility: Graduating from a Canadian high school Proceeding directly from high school to university",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-manitoba",
+  "field": "award: International Excellence Entrance Scholarship",
+  "source": "https://apply.umanitoba.ca/portal/program-info?cmd=program-details&progTerm=0a46dda2-76cd-46bc-b8d5-5ff06bfbdbde",
+  "quote": "a total of three scholarships will be awarded to direct entry students entering the University of Manitoba in September 2027 … Application Deadline December 1, 2026",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "carleton-university",
+  "field": "award: Prestige Scholarships",
+  "source": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/",
+  "quote": "The values of the Prestige Scholarships range from $5,000 to $14,178 CAD per year, and they are renewable based on maintaining a minimum A- (10.0 GPA) in full-time studies. An application is required. Deadline: March 1.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "york-university",
+  "field": "award: PISE",
+  "source": "https://futurestudents.yorku.ca/financing-your-degree/international-scholarships",
+  "quote": "International award valued at $180,000 ($45,000 x 4 years) … Student Application Deadline: January 27, 2027 Nominee’s Deadline: February 4, 2027",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "concordia-university",
+  "field": "award eligibility: Undergraduate Excellence Awards",
+  "source": "https://www.concordia.ca/students/financial/scholarships-funding/undergraduate-excellence-awards.html",
+  "quote": "be a Canadian citizen or permanent resident",
+  "cycle": "Fall 2027 or Winter 2028",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "memorial-university-of-newfoundland",
+  "field": "award: International Entrance Scholarship",
+  "source": "https://www.mun.ca/scholarships/entrance-scholarships/other-entrance-scholarships/",
+  "quote": "The values will vary but will not exceed $6,000 each annually.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-new-brunswick",
+  "field": "award: Lady Vi Aitken Scholarship",
+  "source": "https://www.unb.ca/moneymatters/scholarships/international.html",
+  "quote": "Lady Vi Aitken Scholarship valued at $40,000 over 4 years for a top international student. … Awards for international students range from $500 to $40,000",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-windsor",
+  "field": "award: Global Lancer Scholarship",
+  "source": "https://www.future.uwindsor.ca/global-lancer-scholarship/",
+  "quote": "It provides up to $24,000 over four years (equivalent to up to 20% of tuition savings) based on the student’s academic performance.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
  }
 ]

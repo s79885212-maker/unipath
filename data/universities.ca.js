@@ -5145,9 +5145,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": "Uggla is currently restricted to domestic Canadian students. The international USES cash award and possible need-based living allowance do not establish full tuition or full-cost coverage; international full-level coverage remains unconfirmed.",
+      "note": "Largest award open to international students: the Undergraduate Scholars Entrance Scholarship (USES), C$140,000 in eight C$17,500 payments for the selected international award, by separate application. It is not described as covering full tuition.",
       "source": "https://www.sfu.ca/students/financial-aid/entrance/highschool/uses.html",
-      "verified": "2026-10-24",
+      "verified": "2026-10-27",
       "detailsSource": "https://www.sfu.ca/students/admission/fees-scholarships/uggla.html",
       "detailsVerified": "2026-10-24"
     },
@@ -5455,7 +5455,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "No award at the level of full tuition is described for bachelor’s students. The supplementary-fee exemption depends on Quebec government quotas by country (or on French or Belgian francophone citizenship). The C$20,000 excellence award of the 2026 round is not confirmed for bachelor’s students in 2027.",
+      "source": "https://www.ulaval.ca/espace-etudiant/bourses-et-aide-financiere/bourses-detudes/bourses-citoyennes-et-citoyens-du-monde-volets-excellence-et-engagement",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -5468,7 +5470,19 @@ window.UNIPATH.universities.push(
         "note": "Country quotas set by the Quebec government; Uzbekistan’s place on the list was not checked.",
         "basis": "partnership",
         "source": "https://www.ulaval.ca/etudes/droits-de-scolarite/etudiant-etranger",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
+      },
+      {
+        "name": "Bourses citoyennes et citoyens du monde — volet excellence (baccalauréat)",
+        "amount": "C$20,000 in the 2026 admission round (previous cycle)",
+        "eligibility": "International applicants who submitted a new admission application; in the 2026 round bachelor’s programmes were included",
+        "deadline": null,
+        "application": "Separate application; the 2026 round closed on 15 January 2026. The 2027 competition opens in November 2026.",
+        "renewable": null,
+        "note": "Previous cycle. The current official page describes the excellence strand for research master’s and doctoral programmes only, so a 2027 bachelor’s award is not confirmed.",
+        "basis": "merit",
+        "source": "https://nouvelles.ulaval.ca/2025/12/15/des-bourses-de-20-000dollar-et-30-000dollar-pour-attirer-des-talents-etudiants-a-luniversite-laval-4559df29-6be3-4588-b705-67db5fb40017",
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -5526,7 +5540,8 @@ window.UNIPATH.universities.push(
       "application fee",
       "French requirement",
       "tuition",
-      "requirements for Uzbekistan"
+      "requirements for Uzbekistan",
+      "scholarships"
     ],
     "unconfirmed": [
       "entrance scholarships for international students",
@@ -5807,7 +5822,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "For applicants from schools outside Canada the largest awards on the pages read are the International Baccalaureate Excellence Award (C$20,000, one award, IB Diploma) and the International Excellence Award (C$10,000, one award), both automatic for admission applications by 15 February. The Best and Brightest scholarships (up to C$40,000) require graduating from a Canadian high school; four C$15,000 and several C$10,000 awards are for international students at schools in Saskatchewan, Manitoba, Alberta or British Columbia. No award at the level of full tuition is described.",
+      "source": "https://admissions.usask.ca/money/scholarships.php",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -5820,7 +5837,7 @@ window.UNIPATH.universities.push(
         "note": "One award offered.",
         "basis": "merit",
         "source": "https://admissions.usask.ca/money/scholarships.php",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       },
       {
         "name": "International Baccalaureate Excellence Award",
@@ -5832,7 +5849,7 @@ window.UNIPATH.universities.push(
         "note": "One award offered.",
         "basis": "merit",
         "source": "https://admissions.usask.ca/money/scholarships.php",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       },
       {
         "name": "USask Entrance Scholarships",
@@ -5844,7 +5861,7 @@ window.UNIPATH.universities.push(
         "note": "Awarded by admission average; the eligibility text read names no citizenship limit.",
         "basis": "merit",
         "source": "https://admissions.usask.ca/money/scholarships.php",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -6034,7 +6051,9 @@ window.UNIPATH.universities.push(
           "source": "https://umanitoba.ca/financial-aid-and-awards/entrance-awards",
           "verified": "2026-10-27",
           "quote": "Dec. 1, 2026 International Excellence Entrance Scholarship deadline"
-        }
+        },
+        "awardId": "international-excellence",
+        "awardCategory": "merit"
       },
       {
         "name": "Admission application and entrance scholarship consideration",
@@ -6177,20 +6196,26 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award open to international students on the pages read: one International Excellence Entrance Scholarship of C$25,000 (two more of C$10,000), for entry in September 2027, application by 1 December 2026. No award at the level of full tuition is described.",
+      "source": "https://umanitoba.ca/financial-aid-and-awards/entrance-awards/international-excellence-entrance-scholarship",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
         "name": "International Excellence Entrance Scholarship",
-        "amount": null,
-        "eligibility": "Exceptional international students entering a direct-entry programme; three awards",
+        "amount": "One award of C$25,000 and two of C$10,000",
+        "eligibility": "International students entering a direct-entry programme in September 2027, with leadership and community involvement; the C$25,000 award needs at least 90% across five listed senior courses",
         "deadline": null,
-        "application": "Application by 1 December 2026",
+        "application": "Scholarship application with one teacher or principal reference, and the admission application with fee, by 1 December 2026",
         "renewable": null,
-        "note": "The value is not stated on the page read.",
+        "note": "The award pages do not state renewal. Decisions are released in mid-March 2027.",
         "basis": "merit",
-        "source": "https://umanitoba.ca/financial-aid-and-awards/entrance-awards",
-        "verified": "2026-10-15"
+        "source": "https://umanitoba.ca/financial-aid-and-awards/entrance-awards/international-excellence-entrance-scholarship",
+        "verified": "2026-10-27",
+        "id": "international-excellence",
+        "category": "merit",
+        "entryTerm": "Autumn",
+        "entryYear": "2027"
       },
       {
         "name": "University of Manitoba General Entrance Scholarships",
@@ -6652,7 +6677,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest awards open to international students: the Dr. Franco J. Vaccarino President’s Scholarship (C$42,500, two awards, by application) and the President’s International Entrance Scholarship (up to C$42,500 over four years, automatic by admission average). No award at the level of full tuition is described.",
+      "source": "https://www.uoguelph.ca/admission/undergraduate/international/funding",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -7046,7 +7073,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest awards open to international students: Prestige Scholarships, C$5,000–C$14,178 a year, renewable, by application (admission average over 90%). No award at the level of full tuition is described.",
+      "source": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -7059,7 +7088,7 @@ window.UNIPATH.universities.push(
         "note": "Renewable with an A- standing (annual GPA 10.0); can be regained.",
         "basis": "merit",
         "source": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       },
       {
         "name": "President’s Welcome Award for International Students",
@@ -7071,7 +7100,7 @@ window.UNIPATH.universities.push(
         "note": "By grades at admission; in addition to other entrance scholarships.",
         "basis": "merit",
         "source": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       },
       {
         "name": "Prestige Scholarships",
@@ -7083,7 +7112,7 @@ window.UNIPATH.universities.push(
         "note": "Renewable with a minimum A- (10.0 GPA) in full-time studies.",
         "basis": "merit",
         "source": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -7521,7 +7550,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award open to international students: the President’s International Scholarship of Excellence (PISE), C$180,000 (C$45,000 a year for four years), by application with school nomination (student form 27 January 2027). It is not described as covering full tuition, and residence and meals are paid separately.",
+      "source": "https://futurestudents.yorku.ca/financing-your-degree/international-scholarships",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -7613,7 +7644,8 @@ window.UNIPATH.universities.push(
       "English requirements",
       "test policy",
       "requirements for Uzbekistan",
-      "tuition"
+      "tuition",
+      "scholarships"
     ],
     "unconfirmed": [
       "entrance scholarship values for fall 2027",
@@ -7902,7 +7934,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "The official pages read publish no amounts for the entrance scholarships open to international students, so the largest award cannot be named. The guaranteed C$4,000 Undergraduate Excellence Award is for Canadian citizens and permanent residents only; no Presidential Scholarship page was found on concordia.ca.",
+      "source": "https://www.concordia.ca/students/financial/scholarships-funding/scholarships.html",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -7915,7 +7949,7 @@ window.UNIPATH.universities.push(
         "note": "Most are automatic, by academic ranking; an offer of admission does not guarantee one. Amounts are not given. The guaranteed C$4,000 Undergraduate Excellence Award is for Canadian citizens and permanent residents only.",
         "basis": "merit",
         "source": "https://www.concordia.ca/students/financial/scholarships-funding/scholarships.html",
-        "verified": "2026-10-16"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -7978,7 +8012,8 @@ window.UNIPATH.universities.push(
       "English requirements",
       "test policy",
       "requirements for Uzbekistan",
-      "tuition"
+      "tuition",
+      "scholarships"
     ],
     "unconfirmed": [
       "entrance scholarship amounts",
@@ -8247,20 +8282,22 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "International entrance scholarships are for the first year only and not renewable; the International Entrance Scholarship is worth at most C$6,000. The amounts of the other named international entrance awards were not read, so the largest cannot be named. No award at the level of full tuition is described.",
+      "source": "https://www.mun.ca/scholarships/entrance-scholarships/international-students/",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
         "name": "Memorial University of Newfoundland International Entrance Scholarship",
-        "amount": null,
-        "eligibility": "International students on admission",
+        "amount": "Varies, not more than C$6,000 a year",
+        "eligibility": "Students paying the full international undergraduate fee, at least 9 credit hours in each of two semesters of the first year, normally fewer than 31 transfer credit hours, and scholarship standing",
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": false,
         "note": "Automatic consideration, not a guarantee; first year only. Other entrance awards (IUGS, Fortis – H. Stanley Marshall, Killam American) work the same way. Amounts are not given.",
         "basis": "merit",
-        "source": "https://www.mun.ca/scholarships/entrance-scholarships/international-students/",
-        "verified": "2026-10-16"
+        "source": "https://www.mun.ca/scholarships/entrance-scholarships/other-entrance-scholarships/",
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -8580,7 +8617,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award open to international students: the Lady Vi Aitken Scholarship, C$40,000 over four years, through the entrance scholarship application (1 March; no year on the page). Awards for international students range from C$500 to C$40,000. No award at the level of full tuition is described.",
+      "source": "https://www.unb.ca/moneymatters/scholarships/international.html",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -8593,7 +8632,7 @@ window.UNIPATH.universities.push(
         "note": "Awards for international students range from C$500 to C$40,000; one scholarship application covers them.",
         "basis": "merit",
         "source": "https://www.unb.ca/moneymatters/scholarships/international.html",
-        "verified": "2026-10-16"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -8903,7 +8942,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award on the pages read: the Global Lancer Scholarship, up to C$24,000 over four years (the university calls it up to 20% of tuition), automatic. No award at the level of full tuition is described.",
+      "source": "https://www.future.uwindsor.ca/global-lancer-scholarship/",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -8916,7 +8957,7 @@ window.UNIPATH.universities.push(
         "note": "By final average: 95%+ C$24,000; 90–94.99% C$20,000; 80–89.99% C$10,000; below 80% C$4,000 (over four years). Renewable each year with a 70% cumulative average.",
         "basis": "automatic",
         "source": "https://www.future.uwindsor.ca/global-lancer-scholarship/",
-        "verified": "2026-10-16"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
