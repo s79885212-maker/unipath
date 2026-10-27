@@ -30,13 +30,19 @@ window.UNIPATH.universities.push(
     "business",
     "computer-science",
     "engineering",
-    "arts"
+    "arts",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "englishTaughtPrograms": [
     "business",
     "computer-science",
     "engineering",
-    "arts"
+    "arts",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -491,6 +497,27 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://future.utoronto.ca/deadlines",
       "checked": "2026-10-15"
+    },
+    "economics": {
+      "program": "Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://future.utoronto.ca/program/economics",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://future.utoronto.ca/program/psychology",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Applied Mathematics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://future.utoronto.ca/program/applied-mathematics",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -522,14 +549,18 @@ window.UNIPATH.universities.push(
     "economics",
     "computer-science",
     "engineering",
-    "arts"
+    "arts",
+    "psychology",
+    "mathematics"
   ],
   "englishTaughtPrograms": [
     "business",
     "economics",
     "computer-science",
     "engineering",
-    "arts"
+    "arts",
+    "psychology",
+    "mathematics"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -937,6 +968,20 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://students.ubc.ca/enrolment/finances/tuition-fees/undergraduate-tuition-fees",
       "checked": "2026-10-15"
+    },
+    "psychology": {
+      "program": "Psychology (BA), Vancouver campus",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://you.ubc.ca/programs/psychology-vancouver-ba/",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics (BSc), Vancouver campus",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://you.ubc.ca/programs/mathematics-vancouver-bsc/",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -968,14 +1013,20 @@ window.UNIPATH.universities.push(
     "engineering",
     "psychology",
     "arts",
-    "education"
+    "education",
+    "economics",
+    "mathematics",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
     "business",
     "engineering",
     "psychology",
     "arts",
-    "education"
+    "education",
+    "economics",
+    "mathematics",
+    "computer-science"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -1317,6 +1368,27 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/international/other",
       "checked": "2026-10-15"
+    },
+    "economics": {
+      "program": "Economics Major Concentration (B.A.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://coursecatalogue.mcgill.ca/en/undergraduate/arts/programs/economics/economics-major-concentration-ba/",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics (Faculty of Science, B.Sc.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mcgill.ca/undergraduate-admissions/program/mathematics-faculty-science",
+      "checked": "2026-10-27"
+    },
+    "computer-science": {
+      "program": "Computer Science (Faculty of Science)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mcgill.ca/undergraduate-admissions/program/computer-science-faculty-science",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -2237,7 +2309,9 @@ window.UNIPATH.universities.push(
   "programs": [
     "computer-science",
     "medicine",
-    "economics"
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "englishTaughtPrograms": [],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
@@ -2496,6 +2570,20 @@ window.UNIPATH.universities.push(
       "level": "bachelor",
       "language": "French",
       "url": "https://admission.umontreal.ca/programmes/economie-et-politique/",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Baccalauréat en psychologie (campus Montréal)",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://admission.umontreal.ca/programmes/baccalaureat-en-psychologie/",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Baccalauréat en mathématiques",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://admission.umontreal.ca/programmes/baccalaureat-en-mathematiques/",
       "checked": "2026-10-27"
     }
   },
@@ -2937,13 +3025,17 @@ window.UNIPATH.universities.push(
     "business",
     "engineering",
     "humanities",
-    "arts"
+    "arts",
+    "psychology",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
     "business",
     "engineering",
     "humanities",
-    "arts"
+    "arts",
+    "psychology",
+    "computer-science"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -3304,6 +3396,20 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://welcome.uwo.ca/next-steps/apply/admission-deadlines.html",
       "checked": "2026-10-15"
+    },
+    "psychology": {
+      "program": "Major in Psychology (BA or BSc)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.psychology.uwo.ca/undergraduate/programs_modules/major/index.html",
+      "checked": "2026-10-27"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://welcome.uwo.ca/what-can-i-study/undergraduate-programs/computer-science.html",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -3334,13 +3440,21 @@ window.UNIPATH.universities.push(
     "business",
     "engineering",
     "biology",
-    "social-sciences"
+    "social-sciences",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
     "business",
     "engineering",
     "biology",
-    "social-sciences"
+    "social-sciences",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -3673,6 +3787,34 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://dnn.uottawa.ca/en/Utilities/University-Fees/Tuition-Fees-INTL",
       "checked": "2026-10-15"
+    },
+    "economics": {
+      "program": "Honours in Economics",
+      "level": "bachelor",
+      "language": "English and French",
+      "url": "https://www.uottawa.ca/faculty-social-sciences/programs/undergraduate/course-sequences/honours-economics",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Honours BA Psychology",
+      "level": "bachelor",
+      "language": "English and French",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-ba-psychology/",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Major in Mathematics",
+      "level": "bachelor",
+      "language": "English and French",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/major-mathematics/",
+      "checked": "2026-10-27"
+    },
+    "computer-science": {
+      "program": "Computer Science (BSc)",
+      "level": "bachelor",
+      "language": "English and French",
+      "url": "https://www.uottawa.ca/faculty-engineering/undergraduate-studies/programs/computer-science",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -3702,12 +3844,18 @@ window.UNIPATH.universities.push(
   "programs": [
     "business",
     "engineering",
-    "arts"
+    "arts",
+    "economics",
+    "mathematics",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
     "business",
     "engineering",
-    "arts"
+    "arts",
+    "economics",
+    "mathematics",
+    "computer-science"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -4043,6 +4191,27 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.ucalgary.ca/future-students/undergraduate/admissions/dates",
       "checked": "2026-10-15"
+    },
+    "economics": {
+      "program": "Economics (BA)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/economics",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics (BSc)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/mathematics",
+      "checked": "2026-10-27"
+    },
+    "computer-science": {
+      "program": "Computer Science (BSc)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/computer-science",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -4074,14 +4243,20 @@ window.UNIPATH.universities.push(
     "computer-science",
     "engineering",
     "humanities",
-    "medicine"
+    "medicine",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "englishTaughtPrograms": [
     "business",
     "computer-science",
     "engineering",
     "humanities",
-    "medicine"
+    "medicine",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -4440,6 +4615,27 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.queensu.ca/admission/applying/dates-deadlines",
       "checked": "2026-10-15"
+    },
+    "economics": {
+      "program": "Economics – Major (Arts) – Bachelor of Arts (Honours)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.queensu.ca/academic-calendar/arts-science/schools-departments-programs/economics/economics-major-arts-ba-honours/",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology – Major (Arts) – Bachelor of Arts (Honours)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.queensu.ca/academic-calendar/arts-science/schools-departments-programs/psychology/psychology-major-arts-ba-honours/",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics and Statistics (BA, BSc plans)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.queensu.ca/academic-calendar/arts-science/schools-departments-programs/mathematics-statistics/",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -4471,14 +4667,20 @@ window.UNIPATH.universities.push(
     "computer-science",
     "engineering",
     "business",
-    "medicine"
+    "medicine",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "englishTaughtPrograms": [
     "humanities",
     "computer-science",
     "engineering",
     "business",
-    "medicine"
+    "medicine",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -4903,6 +5105,27 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.dal.ca/admissions/dates-and-deadlines.html",
       "checked": "2026-10-15"
+    },
+    "economics": {
+      "program": "Economics (BSc) or (BA)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.dal.ca/study/programs/undergraduate/economics-bsc.html",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology (BSc) or (BA)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.dal.ca/study/programs/undergraduate/psychology-bsc-ba.html",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics (BSc) or (BA)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.dal.ca/study/programs/undergraduate/mathematics-ba-bsc.html",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -4932,12 +5155,20 @@ window.UNIPATH.universities.push(
   "programs": [
     "business",
     "social-sciences",
-    "arts"
+    "arts",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
     "business",
     "social-sciences",
-    "arts"
+    "arts",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -5350,6 +5581,34 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.sfu.ca/students/admission/apply/dates-deadlines/high-school/fall-term.html",
       "checked": "2026-10-15"
+    },
+    "economics": {
+      "program": "Economics (Bachelor of Arts or Bachelor of Science)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/e/economics.html",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology (Bachelor of Arts)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/p/psychology.html",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics (Bachelor of Science)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/m/mathematics.html",
+      "checked": "2026-10-27"
+    },
+    "computer-science": {
+      "program": "Computing Science (Bachelor of Science or Bachelor of Arts)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/c/computing-science.html",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -5377,7 +5636,11 @@ window.UNIPATH.universities.push(
   "englishTaught": false,
   "languageOfInstruction": "French",
   "programs": [
-    "medicine"
+    "medicine",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "englishTaughtPrograms": [],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
@@ -5639,6 +5902,34 @@ window.UNIPATH.universities.push(
       "language": "French",
       "url": "https://www.ulaval.ca/admission/deposez-votre-demande-dadmission/dates-limites-de-depot",
       "checked": "2026-10-15"
+    },
+    "economics": {
+      "program": "Baccalauréat en économique",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://www.ulaval.ca/etudes/programmes/baccalaureat-en-economique",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Baccalauréat en psychologie",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://www.ulaval.ca/etudes/programmes/baccalaureat-en-psychologie",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Baccalauréat en mathématiques",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://www.ulaval.ca/etudes/programmes/baccalaureat-en-mathematiques",
+      "checked": "2026-10-27"
+    },
+    "computer-science": {
+      "program": "Baccalauréat en informatique",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://www.ulaval.ca/etudes/programmes/baccalaureat-en-informatique",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial",
@@ -5676,14 +5967,20 @@ window.UNIPATH.universities.push(
     "engineering",
     "computer-science",
     "humanities",
-    "medicine"
+    "medicine",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "englishTaughtPrograms": [
     "business",
     "engineering",
     "computer-science",
     "humanities",
-    "medicine"
+    "medicine",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -6050,6 +6347,27 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://admissions.usask.ca/money/tuition.php",
       "checked": "2026-10-15"
+    },
+    "economics": {
+      "program": "Economics (Bachelor of Arts)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://admissions.usask.ca/economics.php",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology (Bachelor of Arts or Bachelor of Science)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://admissions.usask.ca/psychology.php",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics (Bachelor of Science)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://admissions.usask.ca/mathematics.php",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -6082,7 +6400,11 @@ window.UNIPATH.universities.push(
     "business",
     "arts",
     "medicine",
-    "education"
+    "education",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
     "humanities",
@@ -6090,7 +6412,11 @@ window.UNIPATH.universities.push(
     "business",
     "arts",
     "medicine",
-    "education"
+    "education",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -6425,6 +6751,34 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://umanitoba.ca/registrar/tuition-fees/undergraduate",
       "checked": "2026-10-15"
+    },
+    "economics": {
+      "program": "Economics (BA)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://umanitoba.ca/explore/programs-of-study/economics-ba",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology (BA)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://umanitoba.ca/explore/programs-of-study/psychology-ba",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics (BSc)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://umanitoba.ca/explore/programs-of-study/mathematics-bsc",
+      "checked": "2026-10-27"
+    },
+    "computer-science": {
+      "program": "Computer Science (BCSc) (BSc)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://umanitoba.ca/explore/programs-of-study/computer-science-bsc",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -6456,14 +6810,16 @@ window.UNIPATH.universities.push(
     "computer-science",
     "engineering",
     "mathematics",
-    "arts"
+    "arts",
+    "psychology"
   ],
   "englishTaughtPrograms": [
     "business",
     "computer-science",
     "engineering",
     "mathematics",
-    "arts"
+    "arts",
+    "psychology"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -6903,6 +7259,13 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.uoguelph.ca/admission/undergraduate/international/funding",
       "checked": "2026-10-15"
+    },
+    "psychology": {
+      "program": "Bachelor of Arts (B.A.) Psychology Major",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uoguelph.ca/psychology/undergraduate/programs/bachelor-arts-ba-psychology-majorminor",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -6936,7 +7299,9 @@ window.UNIPATH.universities.push(
     "engineering",
     "economics",
     "social-sciences",
-    "arts"
+    "arts",
+    "psychology",
+    "mathematics"
   ],
   "englishTaughtPrograms": [
     "humanities",
@@ -6945,7 +7310,9 @@ window.UNIPATH.universities.push(
     "engineering",
     "economics",
     "social-sciences",
-    "arts"
+    "arts",
+    "psychology",
+    "mathematics"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -7320,6 +7687,20 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/",
       "checked": "2026-10-15"
+    },
+    "psychology": {
+      "program": "Psychology (BA)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://admissions.carleton.ca/programs/psychology-ba/",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics (BMath)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://admissions.carleton.ca/programs/mathematics/",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -8240,14 +8621,22 @@ window.UNIPATH.universities.push(
     "engineering",
     "education",
     "arts",
-    "medicine"
+    "medicine",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
     "business",
     "engineering",
     "education",
     "arts",
-    "medicine"
+    "medicine",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -8568,6 +8957,34 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.mun.ca/undergrad/admissions/i-want-to-apply/application-fees/",
       "checked": "2026-10-16"
+    },
+    "economics": {
+      "program": "Economics (BA or B.Sc.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mun.ca/undergrad/programs/humanities-and-social-sciences/economics/",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology (BA or B.Sc.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mun.ca/undergrad/programs/science/psychology/",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics (BA or B.Sc.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mun.ca/undergrad/programs/science/mathematics/",
+      "checked": "2026-10-27"
+    },
+    "computer-science": {
+      "program": "Computer Science (BA or B.Sc.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mun.ca/undergrad/programs/science/computer-science/",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -8965,14 +9382,20 @@ window.UNIPATH.universities.push(
     "computer-science",
     "engineering",
     "medicine",
-    "education"
+    "education",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "englishTaughtPrograms": [
     "business",
     "computer-science",
     "engineering",
     "medicine",
-    "education"
+    "education",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -9271,6 +9694,27 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://future.uwindsor.ca/student-awards",
       "checked": "2026-10-16"
+    },
+    "economics": {
+      "program": "Economics (BA, BSc)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://future.uwindsor.ca/economics",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology (BA)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://future.uwindsor.ca/psychology",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics & Statistics (BMath)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://future.uwindsor.ca/mathematics-statistics",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -10154,13 +10598,21 @@ window.UNIPATH.universities.push(
     "humanities",
     "engineering",
     "business",
-    "arts"
+    "arts",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
     "humanities",
     "engineering",
     "business",
-    "arts"
+    "arts",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -10505,6 +10957,34 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.torontomu.ca/admissions/tuition-fees/",
       "checked": "2026-10-16"
+    },
+    "economics": {
+      "program": "Economics and Finance – BA (Hons)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.torontomu.ca/programs/undergraduate/economics-finance/",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology – BA (Hons)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.torontomu.ca/programs/undergraduate/psychology/",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics and Its Applications – BSc (Hons)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.torontomu.ca/programs/undergraduate/mathematics-applications/",
+      "checked": "2026-10-27"
+    },
+    "computer-science": {
+      "program": "Computer Science – BSc (Hons)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.torontomu.ca/programs/undergraduate/computer-science/",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -11285,7 +11765,8 @@ window.UNIPATH.universities.push(
     "social-sciences",
     "humanities",
     "medicine",
-    "education"
+    "education",
+    "mathematics"
   ],
   "englishTaughtPrograms": [
     "business",
@@ -11296,7 +11777,8 @@ window.UNIPATH.universities.push(
     "social-sciences",
     "humanities",
     "medicine",
-    "education"
+    "education",
+    "mathematics"
   ],
   "programNote": "Fields of study are taken from the undergraduate programme selector on Trent’s international page.",
   "links": {
@@ -11681,6 +12163,13 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.trentu.ca/futurestudents/international-undergraduate",
       "checked": "2026-10-16"
+    },
+    "mathematics": {
+      "program": "Mathematics (Bachelor of Science)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.trentu.ca/futurestudents/degree/mathematics",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -13845,14 +14334,20 @@ window.UNIPATH.universities.push(
     "humanities",
     "social-sciences",
     "education",
-    "arts"
+    "arts",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
     "business",
     "humanities",
     "social-sciences",
     "education",
-    "arts"
+    "arts",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -14155,6 +14650,27 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.ubishops.ca/admissions/admission-requirements/international-high-school-students/",
       "checked": "2026-10-17"
+    },
+    "psychology": {
+      "program": "Psychology (Bachelor of Arts)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ubishops.ca/program/psychology/",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics (Bachelor of Arts)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ubishops.ca/program/mathematics/",
+      "checked": "2026-10-27"
+    },
+    "computer-science": {
+      "program": "Computer Science (Bachelor of Science)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ubishops.ca/program/computer-science/",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -15981,12 +16497,18 @@ window.UNIPATH.universities.push(
   "programs": [
     "engineering",
     "medicine",
-    "social-sciences"
+    "social-sciences",
+    "economics",
+    "psychology",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
     "engineering",
     "medicine",
-    "social-sciences"
+    "social-sciences",
+    "economics",
+    "psychology",
+    "computer-science"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -16287,6 +16809,27 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.unbc.ca/programs-and-admissions/undergraduate/undergraduate-application-deadlines",
       "checked": "2026-10-17"
+    },
+    "economics": {
+      "program": "Bachelor of Arts in Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.unbc.ca/economics",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology (BSc)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.unbc.ca/psychology",
+      "checked": "2026-10-27"
+    },
+    "computer-science": {
+      "program": "Computer Science (Bachelor of Science)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.unbc.ca/computer-science",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"

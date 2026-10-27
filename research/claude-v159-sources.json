@@ -2059,5 +2059,554 @@
   "cycle": null,
   "scope": null,
   "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-toronto",
+  "field": "field: economics",
+  "source": "https://future.utoronto.ca/program/economics",
+  "quote": "Economics",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-toronto",
+  "field": "field: psychology",
+  "source": "https://future.utoronto.ca/program/psychology",
+  "quote": "Psychology",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-toronto",
+  "field": "field: mathematics",
+  "source": "https://future.utoronto.ca/program/applied-mathematics",
+  "quote": "Applied Mathematics",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-british-columbia",
+  "field": "field: psychology",
+  "source": "https://you.ubc.ca/programs/psychology-vancouver-ba/",
+  "quote": "Psychology (BA), Vancouver campus",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-british-columbia",
+  "field": "field: mathematics",
+  "source": "https://you.ubc.ca/programs/mathematics-vancouver-bsc/",
+  "quote": "Mathematics (BSc), Vancouver campus",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mcgill-university",
+  "field": "field: economics",
+  "source": "https://coursecatalogue.mcgill.ca/en/undergraduate/arts/programs/economics/economics-major-concentration-ba/",
+  "quote": "Economics Major Concentration (B.A.)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mcgill-university",
+  "field": "field: mathematics",
+  "source": "https://www.mcgill.ca/undergraduate-admissions/program/mathematics-faculty-science",
+  "quote": "Mathematics (Faculty of Science, B.Sc.)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mcgill-university",
+  "field": "field: computer-science",
+  "source": "https://www.mcgill.ca/undergraduate-admissions/program/computer-science-faculty-science",
+  "quote": "Computer Science (Faculty of Science)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "western-university",
+  "field": "field: psychology",
+  "source": "https://www.psychology.uwo.ca/undergraduate/programs_modules/major/index.html",
+  "quote": "Major in Psychology (BA or BSc)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "western-university",
+  "field": "field: computer-science",
+  "source": "https://welcome.uwo.ca/what-can-i-study/undergraduate-programs/computer-science.html",
+  "quote": "Computer Science",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-ottawa",
+  "field": "field: economics",
+  "source": "https://www.uottawa.ca/faculty-social-sciences/programs/undergraduate/course-sequences/honours-economics",
+  "quote": "Honours in Economics",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-ottawa",
+  "field": "field: psychology",
+  "source": "https://catalogue.uottawa.ca/en/undergrad/honours-ba-psychology/",
+  "quote": "Honours BA Psychology",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-ottawa",
+  "field": "field: mathematics",
+  "source": "https://catalogue.uottawa.ca/en/undergrad/major-mathematics/",
+  "quote": "Major in Mathematics",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-ottawa",
+  "field": "field: computer-science",
+  "source": "https://www.uottawa.ca/faculty-engineering/undergraduate-studies/programs/computer-science",
+  "quote": "Computer Science (BSc)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-calgary",
+  "field": "field: economics",
+  "source": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/economics",
+  "quote": "Economics (BA)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-calgary",
+  "field": "field: mathematics",
+  "source": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/mathematics",
+  "quote": "Mathematics (BSc)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-calgary",
+  "field": "field: computer-science",
+  "source": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/computer-science",
+  "quote": "Computer Science (BSc)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "queens-university",
+  "field": "field: economics",
+  "source": "https://www.queensu.ca/academic-calendar/arts-science/schools-departments-programs/economics/economics-major-arts-ba-honours/",
+  "quote": "Economics – Major (Arts) – Bachelor of Arts (Honours)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "queens-university",
+  "field": "field: psychology",
+  "source": "https://www.queensu.ca/academic-calendar/arts-science/schools-departments-programs/psychology/psychology-major-arts-ba-honours/",
+  "quote": "Psychology – Major (Arts) – Bachelor of Arts (Honours)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "queens-university",
+  "field": "field: mathematics",
+  "source": "https://www.queensu.ca/academic-calendar/arts-science/schools-departments-programs/mathematics-statistics/",
+  "quote": "Mathematics and Statistics (BA, BSc plans)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "dalhousie-university",
+  "field": "field: economics",
+  "source": "https://www.dal.ca/study/programs/undergraduate/economics-bsc.html",
+  "quote": "Economics (BSc) or (BA)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "dalhousie-university",
+  "field": "field: psychology",
+  "source": "https://www.dal.ca/study/programs/undergraduate/psychology-bsc-ba.html",
+  "quote": "Psychology (BSc) or (BA)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "dalhousie-university",
+  "field": "field: mathematics",
+  "source": "https://www.dal.ca/study/programs/undergraduate/mathematics-ba-bsc.html",
+  "quote": "Mathematics (BSc) or (BA)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "simon-fraser-university",
+  "field": "field: economics",
+  "source": "https://www.sfu.ca/students/admission/programs/a-z/e/economics.html",
+  "quote": "Economics (Bachelor of Arts or Bachelor of Science)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "simon-fraser-university",
+  "field": "field: psychology",
+  "source": "https://www.sfu.ca/students/admission/programs/a-z/p/psychology.html",
+  "quote": "Psychology (Bachelor of Arts)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "simon-fraser-university",
+  "field": "field: mathematics",
+  "source": "https://www.sfu.ca/students/admission/programs/a-z/m/mathematics.html",
+  "quote": "Mathematics (Bachelor of Science)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "simon-fraser-university",
+  "field": "field: computer-science",
+  "source": "https://www.sfu.ca/students/admission/programs/a-z/c/computing-science.html",
+  "quote": "Computing Science (Bachelor of Science or Bachelor of Arts)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-laval",
+  "field": "field: economics",
+  "source": "https://www.ulaval.ca/etudes/programmes/baccalaureat-en-economique",
+  "quote": "Baccalauréat en économique",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-laval",
+  "field": "field: psychology",
+  "source": "https://www.ulaval.ca/etudes/programmes/baccalaureat-en-psychologie",
+  "quote": "Baccalauréat en psychologie",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-laval",
+  "field": "field: mathematics",
+  "source": "https://www.ulaval.ca/etudes/programmes/baccalaureat-en-mathematiques",
+  "quote": "Baccalauréat en mathématiques",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-laval",
+  "field": "field: computer-science",
+  "source": "https://www.ulaval.ca/etudes/programmes/baccalaureat-en-informatique",
+  "quote": "Baccalauréat en informatique",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-saskatchewan",
+  "field": "field: economics",
+  "source": "https://admissions.usask.ca/economics.php",
+  "quote": "Economics (Bachelor of Arts)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-saskatchewan",
+  "field": "field: psychology",
+  "source": "https://admissions.usask.ca/psychology.php",
+  "quote": "Psychology (Bachelor of Arts or Bachelor of Science)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-saskatchewan",
+  "field": "field: mathematics",
+  "source": "https://admissions.usask.ca/mathematics.php",
+  "quote": "Mathematics (Bachelor of Science)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-manitoba",
+  "field": "field: economics",
+  "source": "https://umanitoba.ca/explore/programs-of-study/economics-ba",
+  "quote": "Economics (BA)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-manitoba",
+  "field": "field: psychology",
+  "source": "https://umanitoba.ca/explore/programs-of-study/psychology-ba",
+  "quote": "Psychology (BA)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-manitoba",
+  "field": "field: mathematics",
+  "source": "https://umanitoba.ca/explore/programs-of-study/mathematics-bsc",
+  "quote": "Mathematics (BSc)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-manitoba",
+  "field": "field: computer-science",
+  "source": "https://umanitoba.ca/explore/programs-of-study/computer-science-bsc",
+  "quote": "Computer Science (BCSc) (BSc)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-guelph",
+  "field": "field: psychology",
+  "source": "https://www.uoguelph.ca/psychology/undergraduate/programs/bachelor-arts-ba-psychology-majorminor",
+  "quote": "Bachelor of Arts (B.A.) Psychology Major",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "carleton-university",
+  "field": "field: psychology",
+  "source": "https://admissions.carleton.ca/programs/psychology-ba/",
+  "quote": "Psychology (BA)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "carleton-university",
+  "field": "field: mathematics",
+  "source": "https://admissions.carleton.ca/programs/mathematics/",
+  "quote": "Mathematics (BMath)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "memorial-university-of-newfoundland",
+  "field": "field: economics",
+  "source": "https://www.mun.ca/undergrad/programs/humanities-and-social-sciences/economics/",
+  "quote": "Economics (BA or B.Sc.)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "memorial-university-of-newfoundland",
+  "field": "field: psychology",
+  "source": "https://www.mun.ca/undergrad/programs/science/psychology/",
+  "quote": "Psychology (BA or B.Sc.)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "memorial-university-of-newfoundland",
+  "field": "field: mathematics",
+  "source": "https://www.mun.ca/undergrad/programs/science/mathematics/",
+  "quote": "Mathematics (BA or B.Sc.)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "memorial-university-of-newfoundland",
+  "field": "field: computer-science",
+  "source": "https://www.mun.ca/undergrad/programs/science/computer-science/",
+  "quote": "Computer Science (BA or B.Sc.)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-windsor",
+  "field": "field: economics",
+  "source": "https://future.uwindsor.ca/economics",
+  "quote": "Economics (BA, BSc)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-windsor",
+  "field": "field: psychology",
+  "source": "https://future.uwindsor.ca/psychology",
+  "quote": "Psychology (BA)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-windsor",
+  "field": "field: mathematics",
+  "source": "https://future.uwindsor.ca/mathematics-statistics",
+  "quote": "Mathematics & Statistics (BMath)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "toronto-metropolitan-university",
+  "field": "field: economics",
+  "source": "https://www.torontomu.ca/programs/undergraduate/economics-finance/",
+  "quote": "Economics and Finance – BA (Hons)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "toronto-metropolitan-university",
+  "field": "field: psychology",
+  "source": "https://www.torontomu.ca/programs/undergraduate/psychology/",
+  "quote": "Psychology – BA (Hons)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "toronto-metropolitan-university",
+  "field": "field: mathematics",
+  "source": "https://www.torontomu.ca/programs/undergraduate/mathematics-applications/",
+  "quote": "Mathematics and Its Applications – BSc (Hons)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "toronto-metropolitan-university",
+  "field": "field: computer-science",
+  "source": "https://www.torontomu.ca/programs/undergraduate/computer-science/",
+  "quote": "Computer Science – BSc (Hons)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "bishops-university",
+  "field": "field: psychology",
+  "source": "https://www.ubishops.ca/program/psychology/",
+  "quote": "Psychology (Bachelor of Arts)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "bishops-university",
+  "field": "field: mathematics",
+  "source": "https://www.ubishops.ca/program/mathematics/",
+  "quote": "Mathematics (Bachelor of Arts)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "bishops-university",
+  "field": "field: computer-science",
+  "source": "https://www.ubishops.ca/program/computer-science/",
+  "quote": "Computer Science (Bachelor of Science)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-northern-british-columbia",
+  "field": "field: economics",
+  "source": "https://www.unbc.ca/economics",
+  "quote": "Bachelor of Arts in Economics",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-northern-british-columbia",
+  "field": "field: psychology",
+  "source": "https://www.unbc.ca/psychology",
+  "quote": "Psychology (BSc)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-northern-british-columbia",
+  "field": "field: computer-science",
+  "source": "https://www.unbc.ca/computer-science",
+  "quote": "Computer Science (Bachelor of Science)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-de-montreal",
+  "field": "field: psychology",
+  "source": "https://admission.umontreal.ca/programmes/baccalaureat-en-psychologie/",
+  "quote": "Baccalauréat en psychologie (campus Montréal)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-de-montreal",
+  "field": "field: mathematics",
+  "source": "https://admission.umontreal.ca/programmes/baccalaureat-en-mathematiques/",
+  "quote": "Baccalauréat en mathématiques",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "trent-university",
+  "field": "field: mathematics",
+  "source": "https://www.trentu.ca/futurestudents/degree/mathematics",
+  "quote": "Mathematics (Bachelor of Science)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
  }
 ]
