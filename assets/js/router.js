@@ -122,6 +122,7 @@
         U.setActiveNav('universities');
         current = { type: 'university', id: u.id };
         setCanonical(r);
+        document.dispatchEvent(new CustomEvent('unipath:ready'));
         return;
 
       case 'news':
@@ -173,6 +174,7 @@
     global.scrollTo(0, 0);
     if (U.routeEnter) U.routeEnter(main);
     document.querySelectorAll('[data-searchbox]').forEach(U.wireSearchBox);
+    document.dispatchEvent(new CustomEvent('unipath:ready'));
   }
 
   /* Point search engines at the static page for each university and

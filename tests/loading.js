@@ -29,19 +29,23 @@ module.exports = function (ok) {
     appendChild: function (el) { this.children.push(el); }, addEventListener: function (name, fn) { this[name] = fn; } }; }
   var box = { navigator: { language: 'ru' }, URL: URL, localStorage: { getItem: function () {} },
     location: { href: 'http://localhost/unipath/staging/', origin: 'http://localhost', search: '?lang=ru', reload: function () { reloaded++; } },
-    addEventListener: function (name, fn) { handlers[name] = fn; }, document: { readyState: 'complete', createElement: element,
+    addEventListener: function (name, fn) { handlers[name] = fn; }, document: { readyState: 'complete', createElement: element, addEventListener: function (name, fn) { handlers[name] = fn; },
       getElementById: function (id) { return ids[id]; }, querySelector: function () { return boot ? { remove: function () { boot = false; } } : null; },
       body: { insertBefore: function (el) { ids[el.id] = el; inserted.push(el); } } } };
   var tick = clock(box); run('assets/js/boot.js', box);
   handlers.error({ target: { tagName: 'IMG', src: 'http://localhost/broken.jpg' } });
   handlers.error({ target: { tagName: 'SCRIPT', src: 'https://challenges.cloudflare.com/api.js' } });
   ok(!inserted.length, 'photos and external widgets never trigger a first-party boot error');
-  tick(20000);
+  boot = false; tick(20000);
   ok(!boot && inserted.length === 1 && inserted[0].children[0].textContent.indexOf('Не удалось') === 0,
-    'a stalled first render ends the loading animation and explains the failure in Russian');
+    'a stalled static page gets a Russian recovery message even without a loading animation');
   inserted[0].children[1].click(); ok(reloaded === 1, 'the load recovery action reloads the current page');
   delete ids['boot-error']; handlers.error({ target: { tagName: 'SCRIPT', src: 'http://localhost/unipath/staging/assets/js/router.js?v=168' } });
   ok(inserted.length === 2, 'a missing first-party router shows an error even with static content');
   delete ids['boot-error']; handlers.error({ target: box, filename: 'http://localhost/unipath/staging/assets/js/router.js?v=168' });
   ok(inserted.length === 3, 'a first-party startup exception also explains why the static page is not interactive');
+  ids = {}; inserted = []; box.document.readyState = 'loading'; tick = clock(box); run('assets/js/boot.js', box); tick(20000);
+  ok(inserted.length === 1, 'the watchdog does not wait for DOMContentLoaded behind a stalled script');
+  ids = {}; inserted = []; tick = clock(box); run('assets/js/boot.js', box); handlers['unipath:ready'](); tick(20000);
+  ok(inserted.length === 0, 'successful first render prevents a false loading error');
 };
