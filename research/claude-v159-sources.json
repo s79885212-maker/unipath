@@ -2608,5 +2608,41 @@
   "cycle": null,
   "scope": null,
   "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-winnipeg",
+  "field": "field: economics",
+  "source": "https://www.uwinnipeg.ca/programs/economics.html",
+  "quote": "Economics (Bachelor of Arts)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-winnipeg",
+  "field": "field: psychology",
+  "source": "https://www.uwinnipeg.ca/programs/psychology.html",
+  "quote": "Psychology (Bachelor of Arts)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-winnipeg",
+  "field": "field: mathematics",
+  "source": "https://www.uwinnipeg.ca/programs/mathematics.html",
+  "quote": "Mathematics (Bachelor of Science or Bachelor of Arts)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-winnipeg",
+  "field": "field: computer-science",
+  "source": "https://www.uwinnipeg.ca/programs/applied-computer-science.html",
+  "quote": "Applied Computer Science (Bachelor of Science)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
  }
 ]

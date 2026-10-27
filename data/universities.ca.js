@@ -15110,13 +15110,21 @@ window.UNIPATH.universities.push(
     "humanities",
     "business",
     "education",
-    "biology"
+    "biology",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
     "humanities",
     "business",
     "education",
-    "biology"
+    "biology",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -15126,7 +15134,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.uwinnipeg.ca/future-student/apply/ready-to-apply.html",
     "scholarships": "https://www.uwinnipeg.ca/awards/awards-bursaries-and-scholarships/international-students.html",
     "financialAid": "https://www.uwinnipeg.ca/awards/awards-bursaries-and-scholarships/international-students.html",
-    "programs": null,
+    "programs": "https://www.uwinnipeg.ca/programs/",
     "cost": "https://www.uwinnipeg.ca/fees/tuition.html"
   },
   "admissions": {
@@ -15361,12 +15369,12 @@ window.UNIPATH.universities.push(
       "scholarships",
       "test policy",
       "requirements for Uzbekistan",
-      "founding year"
+      "founding year",
+      "official programme directory"
     ],
     "unconfirmed": [
       "fall 2027 application deadline",
-      "full list of majors",
-      "official programme directory"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -15405,6 +15413,34 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.uwinnipeg.ca/fees/tuition.html",
       "checked": "2026-10-17"
+    },
+    "economics": {
+      "program": "Economics (Bachelor of Arts)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uwinnipeg.ca/programs/economics.html",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology (Bachelor of Arts)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uwinnipeg.ca/programs/psychology.html",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics (Bachelor of Science or Bachelor of Arts)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uwinnipeg.ca/programs/mathematics.html",
+      "checked": "2026-10-27"
+    },
+    "computer-science": {
+      "program": "Applied Computer Science (Bachelor of Science)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uwinnipeg.ca/programs/applied-computer-science.html",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
