@@ -1171,7 +1171,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award open to international students on the pages read: the Major Entrance Scholarship, up to C$10,000 a year, renewable for up to 3 or 4 years, by separate application. No award at the level of full tuition is described.",
+      "source": "https://www.mcgill.ca/studentaid/scholarships-aid/future-undergrads/entrance-scholarships",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -1181,10 +1183,10 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Separate application in the Applicant Portal (opens 1 October), due 21 January for this applicant group",
         "renewable": true,
-        "note": "The C$12,000 level is for Canadian citizens and permanent residents only. Renewable for up to four years if criteria are met.",
+        "note": "The C$12,000 level is for Canadian citizens and permanent residents only. Renewable for up to 3 or 4 years if the renewal criteria are met. A student can hold only one centrally administered entrance scholarship; finalists may be interviewed. The 21 January date has no year on the page.",
         "basis": "merit",
         "source": "https://www.mcgill.ca/studentaid/scholarships-aid/future-undergrads/entrance-scholarships",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       },
       {
         "name": "One-year Entrance Scholarship",
@@ -1196,7 +1198,7 @@ window.UNIPATH.universities.push(
         "note": "Meeting the minimum does not guarantee an award.",
         "basis": "merit",
         "source": "https://www.mcgill.ca/studentaid/scholarships-aid/future-undergrads/entrance-scholarships",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -1585,7 +1587,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "For international applicants in general, the largest awards on the pages read are the President’s International Distinction and Chan Pang Kuen Memorial scholarships, up to C$120,000 payable over four years, by single scholarship application. An award covering full tuition and fees plus living costs exists only for graduates of Aga Khan Academies.",
+      "source": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/international-entrance-scholarships/index.html",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -1598,19 +1602,31 @@ window.UNIPATH.universities.push(
         "note": null,
         "basis": "merit",
         "source": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/international-entrance-scholarships/index.html",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       },
       {
         "name": "President’s International Distinction Scholarship",
-        "amount": "Up to C$120,000 over four years",
+        "amount": "Up to C$120,000, payable over four years",
         "eligibility": "25 a year: first-year students on a study permit with a superior average and leadership",
         "deadline": null,
-        "application": "Single scholarship application by 10 January",
-        "renewable": true,
-        "note": null,
+        "application": "Single scholarship application after applying for admission; the scholarship page gives 10 January (no year) and the Fall 2027 dates page gives 10 January 2027",
+        "renewable": null,
+        "note": "25 awards a year; the page states the total over four years, not a yearly coverage of tuition. Renewal conditions are not given on the page read.",
         "basis": "merit",
         "source": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/international-entrance-scholarships/index.html",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
+      },
+      {
+        "name": "Chan Pang Kuen Memorial International Distinction Scholarship",
+        "amount": "Up to C$120,000, payable over four years",
+        "eligibility": "First-year undergraduate students on a study permit with a superior admission average and leadership",
+        "deadline": null,
+        "application": "Single scholarship application (same form as the other application-based awards)",
+        "renewable": null,
+        "note": "The number of awards is not stated.",
+        "basis": "merit",
+        "source": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/international-entrance-scholarships/index.html",
+        "verified": "2026-10-27"
       },
       {
         "name": "International Leader Scholarship",
@@ -1622,7 +1638,7 @@ window.UNIPATH.universities.push(
         "note": null,
         "basis": "merit",
         "source": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/international-entrance-scholarships/index.html",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       },
       {
         "name": "Regional Excellence Scholarship",
@@ -1634,7 +1650,19 @@ window.UNIPATH.universities.push(
         "note": null,
         "basis": "merit",
         "source": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/international-entrance-scholarships/index.html",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
+      },
+      {
+        "name": "University of Alberta Global Citizen Scholarship for IB Diploma International Students from the Aga Khan Academy",
+        "amount": "Total tuition and non-instructional fees for four years, plus up to C$28,000 a year for living expenses",
+        "eligibility": "Only students entering from an Aga Khan Academy (IB Diploma) with superior academics, financial need and leadership, studying on a study permit",
+        "deadline": null,
+        "application": "Contact welcome@ualberta.ca for details",
+        "renewable": null,
+        "note": "A partner award for one school network; it is not open to other international applicants.",
+        "basis": "partnership",
+        "source": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/international-entrance-scholarships/index.html",
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -1998,7 +2026,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "The Registrar states awards for international fee-paying undergraduates “ranging from $7,500-$210,000” (one award by application, one automatic award and financial awards). The page does not name the C$210,000 award or its period and coverage, so the largest award cannot be described here.",
+      "source": "https://registrar.mcmaster.ca/aid-awards-for-international-students/",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -2011,7 +2041,7 @@ window.UNIPATH.universities.push(
         "note": "A student receives either this award or the faculty achievement award. Offers are conditional on final grades.",
         "basis": "automatic",
         "source": "https://registrar.mcmaster.ca/entrance-awards/",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       },
       {
         "name": "Faculty-Specific Achievement Award",
@@ -2023,7 +2053,7 @@ window.UNIPATH.universities.push(
         "note": null,
         "basis": "automatic",
         "source": "https://registrar.mcmaster.ca/entrance-awards/",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -2079,12 +2109,14 @@ window.UNIPATH.universities.push(
       "English requirements",
       "test policy",
       "estimated tuition",
-      "entrance awards"
+      "entrance awards",
+      "scholarships"
     ],
     "unconfirmed": [
       "ancillary fees and housing",
       "requirements for Uzbekistan",
-      "founding year"
+      "founding year",
+      "name and terms of the largest international award"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -2335,7 +2367,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award on the pages read: the Bourse d’exemption UdeM, level A C$14,436 a year (2026–27 rates), deducted from tuition and given automatically at admission; French and Belgian francophone students are excluded. No award at the level of full tuition is described.",
+      "source": "https://registraire.umontreal.ca/droits-de-scolarite/bourse-exemption/",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -2348,7 +2382,7 @@ window.UNIPATH.universities.push(
         "note": "The level depends on the academic record at admission; a record that does not qualify for level A or B gets no exemption. Short programmes (certificates, majors, minors) are excluded.",
         "basis": "merit",
         "source": "https://registraire.umontreal.ca/droits-de-scolarite/bourse-exemption/",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -2407,7 +2441,8 @@ window.UNIPATH.universities.push(
       "application fee",
       "tuition",
       "tuition exemption scholarship",
-      "requirements for Uzbekistan"
+      "requirements for Uzbekistan",
+      "scholarships"
     ],
     "unconfirmed": [
       "full list of programmes",
@@ -2677,7 +2712,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award on the pages read: Faculty of Science International Student Scholarships, up to 15 awards of C$25,000–C$80,000, by application. Every eligible international first-year student also receives C$10,000 in the first year. No award at the level of full tuition is described.",
+      "source": "https://uwaterloo.ca/future-students/financing/international-scholarships",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -2690,7 +2727,7 @@ window.UNIPATH.universities.push(
         "note": "No limit on the number of recipients. Applied to the first two terms’ tuition; the student must stay full-time and international fee-paying.",
         "basis": "automatic",
         "source": "https://uwaterloo.ca/future-students/financing/international-scholarships",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       },
       {
         "name": "Faculty of Mathematics Global Scholarships",
@@ -2702,19 +2739,19 @@ window.UNIPATH.universities.push(
         "note": null,
         "basis": "merit",
         "source": "https://uwaterloo.ca/future-students/financing/international-scholarships",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       },
       {
         "name": "Faculty of Science International Student Scholarships",
-        "amount": "C$25,000–C$80,000 (15 awards)",
+        "amount": "C$25,000–C$80,000 (up to 15 awards)",
         "eligibility": "Most programmes in the Faculty of Science",
         "deadline": null,
         "application": "Application required",
         "renewable": null,
-        "note": null,
+        "note": "The page does not say over how many years the amount is paid.",
         "basis": "merit",
         "source": "https://uwaterloo.ca/future-students/financing/international-scholarships",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -3070,20 +3107,34 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest awards open to international students: three International President’s Entrance Scholarships of C$100,000 and one Neen Hodgins President’s International Entrance Scholarship of up to C$100,000 (C$25,000 a year for four years). They need a school nomination and the National Scholarship application. No award at the level of full tuition is described.",
+      "source": "https://registrar.uwo.ca/student_finances/scholarships_awards/admission/national_scholarship_program.html",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
-        "name": "International President’s Entrance Scholarship",
-        "amount": "C$100,000 (three awards)",
-        "eligibility": "International students; National Scholarship Program for all-round excellence",
+        "name": "International President’s Entrance Scholarships",
+        "amount": "C$100,000 each (three awards)",
+        "eligibility": "International (visa) students with at least 90% on all Grade 12 U/M courses or equivalent, entering full-time at the main campus; a school nomination is required (a school may nominate one international student in addition to its four)",
         "deadline": null,
-        "application": "National Scholarship application by 14 February 2027",
+        "application": "Online National Scholarship application for international (visa) students with essay, school transcript and reference; the 2027–28 application opens by mid-November 2026",
         "renewable": null,
-        "note": null,
+        "note": "The 2026–27 deadline (14 February 2026) has passed; Western’s dates page lists 14 February in February 2027 for the next cycle.",
         "basis": "merit",
-        "source": "https://welcome.uwo.ca/next-steps/finances/index.html",
-        "verified": "2026-10-15"
+        "source": "https://registrar.uwo.ca/student_finances/scholarships_awards/admission/national_scholarship_program.html",
+        "verified": "2026-10-27"
+      },
+      {
+        "name": "Neen Hodgins President’s International Entrance Scholarship",
+        "amount": "Up to C$100,000: C$25,000 a year for four years (one award)",
+        "eligibility": "International (visa) students with at least 90% on all Grade 12 U/M courses or equivalent, entering full-time at the main campus; a school nomination is required (a school may nominate one international student in addition to its four)",
+        "deadline": null,
+        "application": "Online National Scholarship application for international (visa) students with essay, school transcript and reference; the 2027–28 application opens by mid-November 2026",
+        "renewable": true,
+        "note": "Part of the National Scholarship Program; renewal conditions are not given on the page read.",
+        "basis": "merit",
+        "source": "https://registrar.uwo.ca/student_finances/scholarships_awards/admission/national_scholarship_program.html",
+        "verified": "2026-10-27"
       },
       {
         "name": "Western Admission Scholarship",
@@ -3414,32 +3465,34 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "For programmes taught in English the largest award is the International English Admission Scholarship, C$7,500 per term (C$60,000 over four years), automatic; for programmes in French or French Immersion, the Differential Tuition Fee Exemption Scholarship, whose value varies by programme. Neither is described as covering full tuition.",
+      "source": "https://www.uottawa.ca/study/fees-financial-support/scholarships-awards-overview",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
-        "name": "International Admission Entrance Scholarship",
-        "amount": "C$15,000 a year off tuition",
-        "eligibility": "International students newly admitted (winter 2026 or later) to an eligible undergraduate programme taught in English",
+        "name": "International English Admission Scholarship",
+        "amount": "C$7,500 per term (C$60,000 over a four-year degree); renewable each term, up to 12 instalments",
+        "eligibility": "International students paying international fees, newly admitted in winter 2026 or later to an eligible undergraduate programme taught in English; no limit on the number of recipients",
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": true,
-        "note": "Awarded automatically on full-time enrolment; tuition is reduced immediately.",
+        "note": "Awarded automatically on full-time enrolment; tuition is reduced by C$15,000 a year. Listed under scholarships for international students 2027–2028.",
         "basis": "automatic",
         "source": "https://www.uottawa.ca/study/fees-financial-support/scholarships-awards-overview",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       },
       {
         "name": "International English Academic Excellence Scholarship",
-        "amount": "C$10,000 a year (100 awards)",
+        "amount": "C$10,000 (C$5,000 per term), 100 awards",
         "eligibility": "International students with an admission average of 90% or more, in an eligible English programme",
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
-        "renewable": null,
-        "note": null,
-        "basis": "merit",
+        "renewable": false,
+        "note": "Not renewable, but it can be combined with the International English Admission Scholarship.",
+        "basis": "automatic",
         "source": "https://www.uottawa.ca/study/fees-financial-support/scholarships-awards-overview",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       },
       {
         "name": "Differential Tuition Fee Exemption Scholarship",
@@ -3451,7 +3504,7 @@ window.UNIPATH.universities.push(
         "note": null,
         "basis": "automatic",
         "source": "https://www.uottawa.ca/study/fees-financial-support/scholarships-awards-overview",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       },
       {
         "name": "University of Ottawa Admission Scholarship",
@@ -3463,7 +3516,7 @@ window.UNIPATH.universities.push(
         "note": null,
         "basis": "merit",
         "source": "https://www.uottawa.ca/study/fees-financial-support/scholarships-awards-overview",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -3822,7 +3875,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award open to international students on the pages read: the University of Calgary International Entrance Scholarship, C$20,000, renewable, two awards. No award at the level of full tuition is described.",
+      "source": "https://www.ucalgary.ca/registrar/awards/university-calgary-international-entrance-scholarship",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -3830,12 +3885,12 @@ window.UNIPATH.universities.push(
         "amount": "C$20,000, renewable",
         "eligibility": "Two a year: international students entering first year who meet the English requirement; academic merit",
         "deadline": null,
-        "application": "High School Prestige Awards application in the My UCalgary portal (by 1 December)",
+        "application": "Application required: High School Prestige Awards application in the My UCalgary portal (1 December; no year on the dates page)",
         "renewable": true,
         "note": "Renewable in years 2–4 with a GPA of 2.60 over at least 24 units and continued international fee status.",
         "basis": "merit",
         "source": "https://www.ucalgary.ca/registrar/awards/university-calgary-international-entrance-scholarship",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -3987,52 +4042,6 @@ window.UNIPATH.universities.push(
       "SOLUS (Queen’s student portal)"
     ],
     "deadlines": [
-      {
-        "name": "Recommended OUAC application date to reach the Major Admission Award application",
-        "kind": "priority",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2026-11-20",
-        "date": "20 November 2026",
-        "binding": false,
-        "appliesTo": "First-year applicants",
-        "conditions": "The university advises applying by 15 November so the SOLUS account is ready in time.",
-        "status": "confirmed",
-        "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
-        "verified": "2026-10-27",
-        "note": null,
-        "cycleEvidence": {
-          "basis": "explicit-date",
-          "entryTerm": "Autumn",
-          "entryYear": "2027",
-          "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
-          "verified": "2026-10-27",
-          "quote": "November 20, 2026 … we strongly recommend applying to Queen’s on OUAC by November 20."
-        }
-      },
-      {
-        "name": "Major Admission Award application on SOLUS",
-        "kind": "scholarship",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2026-12-08",
-        "date": "8 December 2026",
-        "binding": false,
-        "appliesTo": "First-year applicants",
-        "conditions": null,
-        "status": "confirmed",
-        "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
-        "verified": "2026-10-27",
-        "note": null,
-        "cycleEvidence": {
-          "basis": "explicit-date",
-          "entryTerm": "Autumn",
-          "entryYear": "2027",
-          "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
-          "verified": "2026-10-27",
-          "quote": "December 8, 2026 Deadline to submit the online Major Admission Award (MAA)"
-        }
-      },
       {
         "name": "Application deadline: Commerce, Health Sciences and Nursing",
         "kind": "regular",
@@ -4237,7 +4246,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest awards open to international students: the Dean’s International Awards, up to C$25,000 a year for four years in Arts and Science, Commerce and Engineering (up to C$15,000 in Health Sciences), automatic. The Major Admission Awards and the Chancellor’s Scholarship are only for Canadian citizens, permanent residents and Protected Persons. No award at the level of full tuition is described.",
+      "source": "https://www.queensu.ca/registrar/financial-aid/specific-students/international",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -4250,19 +4261,7 @@ window.UNIPATH.universities.push(
         "note": "Renewable for three more years with full-time study in the original faculty. Commerce (C$15,000, C$20,000 or C$25,000 a year), Engineering (C$10,000–C$25,000) and Health Sciences (C$10,000 or C$15,000) have their own versions.",
         "basis": "merit",
         "source": "https://www.queensu.ca/registrar/financial-aid/specific-students/international",
-        "verified": "2026-10-15"
-      },
-      {
-        "name": "Major Admission Awards",
-        "amount": null,
-        "eligibility": "Applicants with a strong record of achievement; open to domestic and international applicants",
-        "deadline": null,
-        "application": "Separate application on SOLUS by 8 December 2026",
-        "renewable": null,
-        "note": "Amounts are not given on the pages read.",
-        "basis": "merit",
-        "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -4313,6 +4312,10 @@ window.UNIPATH.universities.push(
     {
       "label": "General requirements reviewed — Uzbekistan-specific rule unresolved",
       "url": "https://www.queensu.ca/admission/applying/admission-requirements"
+    },
+    {
+      "label": "Queen’s — Major Admission Awards (Canadian citizens, permanent residents and Protected Persons only)",
+      "url": "https://www.queensu.ca/registrar/financial-aid/application-required/future-students/major-awards"
     }
   ],
   "verification": {
@@ -4676,7 +4679,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Dalhousie states entrance awards of C$1K to C$80K, one-time or renewable for up to four years, open to domestic and international students through the General Entrance Award application (15 February 2027). Larger listed awards are for defined groups (e.g. the Murray Family Jamaican Engineering Scholarship, C$88,000, for students from Jamaica). No award at the level of full tuition is described.",
+      "source": "https://www.dal.ca/admissions/scholarships-financial-aid/scholarships/future-undergraduate-student-awards.html",
+      "verified": "2026-10-27"
     },
     "merit": [
       {

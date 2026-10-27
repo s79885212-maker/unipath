@@ -817,5 +817,104 @@
   "cycle": null,
   "scope": null,
   "read": "2026-10-27"
+ },
+ {
+  "id": "mcgill-university",
+  "field": "award: Major Entrance Scholarship",
+  "source": "https://www.mcgill.ca/studentaid/scholarships-aid/future-undergrads/entrance-scholarships",
+  "quote": "Major entrance scholarships (value: $3,000, $5,000, $10,000 or $12,000 renewable) $12,000 scholarships are only available to Canadian citizens or legal permanent residents of Canada.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-alberta",
+  "field": "award: President’s International Distinction Scholarship",
+  "source": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/international-entrance-scholarships/index.html",
+  "quote": "Each year 25 students with a superior admission average and demonstrated leadership qualities entering their first year of an undergraduate degree on a student visa permit receive up to CAN $120,000 (payable over 4 years).",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mcmaster-university",
+  "field": "award range",
+  "source": "https://registrar.mcmaster.ca/aid-awards-for-international-students/",
+  "quote": "With over $20 million in awards for international fee paying undergraduate students, ranging from $7,500-$210,000",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-de-montreal",
+  "field": "award: Bourse d’exemption UdeM",
+  "source": "https://registraire.umontreal.ca/droits-de-scolarite/bourse-exemption/",
+  "quote": "Tarification de l’année académique 2026-2027. … A 481,20$ 7 218,00 $ 14 436,00 $",
+  "cycle": "2026–2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-waterloo",
+  "field": "award: Faculty of Science International Student Scholarships",
+  "source": "https://uwaterloo.ca/future-students/financing/international-scholarships",
+  "quote": "Most programs in the Faculty of Science Up to 15 scholarships of $25,000 to $80,000 Yes",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "western-university",
+  "field": "award: International President’s Entrance Scholarships",
+  "source": "https://registrar.uwo.ca/student_finances/scholarships_awards/admission/national_scholarship_program.html",
+  "quote": "International President's Entrance Scholarships 3 at $100,000",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "western-university",
+  "field": "award: Neen Hodgins President’s International Entrance Scholarship",
+  "source": "https://registrar.uwo.ca/student_finances/scholarships_awards/admission/national_scholarship_program.html",
+  "quote": "Neen Hodgins President's International Entrance Scholarship ONE at up to $100,000; payable $25,000 per academic year for a period of four years.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-ottawa",
+  "field": "award: International English Admission Scholarship",
+  "source": "https://www.uottawa.ca/study/fees-financial-support/scholarships-awards-overview",
+  "quote": "$7,500 per term ($60,000 over the course of a four-year degree) Renewable each term (maximum of 12 instalments).",
+  "cycle": "2027–2028",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-calgary",
+  "field": "award: University of Calgary International Entrance Scholarship",
+  "source": "https://www.ucalgary.ca/registrar/awards/university-calgary-international-entrance-scholarship",
+  "quote": "Award value $20,000 (Renewable) Number of awards 2",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "queens-university",
+  "field": "removed: Major Admission Awards (domestic only)",
+  "source": "https://www.queensu.ca/registrar/financial-aid/application-required/future-students/major-awards",
+  "quote": "Available to a Canadian citizen, permanent resident of Canada, or Protected Person.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "dalhousie-university",
+  "field": "award range",
+  "source": "https://www.dal.ca/admissions/scholarships-financial-aid/scholarships/future-undergraduate-student-awards.html",
+  "quote": "$1K to $80K Awards may be one-time, or renewable for up to 4 years. All students—domestic and international—are eligible to apply.",
+  "cycle": "2027–2028",
+  "scope": null,
+  "read": "2026-10-27"
  }
 ]
