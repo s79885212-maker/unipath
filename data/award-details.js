@@ -40,6 +40,7 @@ window.UNIPATH.awardDetails = {
    whose pages were never read stays "not checked". The reason is in each
    record's own scholarship note. */
 window.UNIPATH.awardNotDescribed = [
+  'saint-marys-university', 'bishops-university', 'mount-saint-vincent-university', 'mount-royal-university', 'thompson-rivers-university', 'vancouver-island-university', 'university-of-the-fraser-valley',
   'university-of-regina', 'ontario-tech-university', 'toronto-metropolitan-university', 'brock-university', 'wilfrid-laurier-university', 'trent-university', 'lakehead-university', 'university-of-prince-edward-island', 'acadia-university', 'st-francis-xavier-university', 'mount-allison-university',
   'simon-fraser-university', 'universite-laval', 'university-of-saskatchewan', 'university-of-manitoba', 'university-of-guelph', 'carleton-university', 'york-university', 'concordia-university', 'memorial-university-of-newfoundland', 'university-of-new-brunswick', 'university-of-windsor',
   'mcgill-university', 'universite-de-montreal', 'university-of-waterloo', 'western-university', 'university-of-ottawa', 'university-of-calgary', 'queens-university', 'dalhousie-university',

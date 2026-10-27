@@ -13245,7 +13245,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "The C$50,000 Major Renewable Scholarships (Sobey National Innovator and Presidential) are for Canadian citizens and permanent residents only. For applicants from schools abroad the pages read give no amounts for the competitive Admissions Scholarships (application by 15 February) or the Entrance Awards, so the largest award cannot be named; tuition reductions of about C$40,000–C$50,000 over a degree are for graduates of named Canadian provincial programmes, CAIS schools and United World Colleges. No award at the level of full tuition is described.",
+      "source": "https://www.smu.ca/future-students/moneymatters/scholarshipsawards/",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -13258,7 +13260,7 @@ window.UNIPATH.universities.push(
         "note": "Competitive and merit-based; amounts are not given. Applicants through a tuition-reduction programme are excluded.",
         "basis": "merit",
         "source": "https://www.smu.ca/future-students/moneymatters/scholarshipsawards/",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -13574,7 +13576,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "For international students the pages read list Competitive Admission Scholarships of C$1,000–C$4,000 a year and entrance awards and bursaries of C$500–C$12,000 a year, mostly one-time. The C$10,000-a-year Michael Goldbloom Excellence Scholarships are for Canadian citizens and permanent residents only. No award at the level of full tuition is described.",
+      "source": "https://www.ubishops.ca/admissions/scholarships-awards-bursaries/",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -13587,19 +13591,7 @@ window.UNIPATH.universities.push(
         "note": null,
         "basis": "merit",
         "source": "https://www.ubishops.ca/admissions/scholarships-awards-bursaries/",
-        "verified": "2026-10-17"
-      },
-      {
-        "name": "Michael Goldbloom Excellence Scholarships",
-        "amount": "C$10,000 a year, renewable",
-        "eligibility": "Students with outstanding academic records who reflect Bishop’s values",
-        "deadline": null,
-        "application": "Separate application",
-        "renewable": true,
-        "note": "Competitive; never counted as received.",
-        "basis": "merit",
-        "source": "https://www.ubishops.ca/admissions/scholarships-awards-bursaries/",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -13642,6 +13634,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.ubishops.ca/academics/programs/"
+    },
+    {
+      "label": "Bishop’s — Michael Goldbloom Excellence Scholarships (Canadian citizens and permanent residents only)",
+      "url": "https://www.ubishops.ca/admissions/scholarships-awards-bursaries/michael-goldbloom-excellence-scholarships/"
     }
   ],
   "verification": {
@@ -13949,7 +13945,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "The official awards page shows only a summary (C$8.4 million in scholarships and awards); amounts of international entrance awards were not found on the pages read, so the largest award cannot be named.",
+      "source": "https://www.ulethbridge.ca/future-student/awards-and-scholarships",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -13962,7 +13960,7 @@ window.UNIPATH.universities.push(
         "note": "Eligibility of international students is not restricted in the text read.",
         "basis": "merit",
         "source": "https://www.ulethbridge.ca/future-student/application",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -14020,7 +14018,8 @@ window.UNIPATH.universities.push(
       "application fee",
       "costs",
       "English test minimums",
-      "test policy"
+      "test policy",
+      "scholarships"
     ],
     "unconfirmed": [
       "international entrance scholarships",
@@ -14256,7 +14255,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "For international applicants in general, the largest award with a published amount is the President’s Scholarship for World Leaders, C$5,000 for undergraduates in the 2026–27 table (2027–28 values due in December 2026); amounts of the automatic International Special Entrance Scholarships were not read. Full support (tuition, housing, meals, books, travel) exists only in the Wu Chung Scholarship for residents of Huadu or Hong Kong.",
+      "source": "https://www.uwinnipeg.ca/awards/awards-bursaries-and-scholarships/international-students.html",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -14269,19 +14270,31 @@ window.UNIPATH.universities.push(
         "note": "The value is not given on the page read.",
         "basis": "automatic",
         "source": "https://www.uwinnipeg.ca/awards/awards-bursaries-and-scholarships/international-students.html",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       },
       {
         "name": "President’s Scholarship for World Leaders",
-        "amount": null,
+        "amount": "C$5,000 for undergraduates (6 awards) in the 2026–27 table",
         "eligibility": "International students entering their first UWinnipeg programme with an 80% average and exceptional leadership",
         "deadline": null,
-        "application": "Separate application with a personal statement, CV and two references",
+        "application": "Admission application by the scholarship deadline of the chosen term; 2027–28 values and deadlines will be published in December 2026",
         "renewable": null,
-        "note": "The page shows the 2026–27 values and deadlines; those for 2027–28 are due in December 2026.",
+        "note": "Previous cycle: the table shows 2026–27 values and closed deadlines. It cannot be held together with the International Special Entrance Scholarship.",
         "basis": "merit",
         "source": "https://www.uwinnipeg.ca/awards/awards-bursaries-and-scholarships/international-students.html",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
+      },
+      {
+        "name": "Wu Chung Scholarship",
+        "amount": "Full support: undergraduate tuition and fees for up to four years, textbooks and study costs, UW housing with a meal plan, and up to C$2,500 for the flight",
+        "eligibility": "Only residents of Huadu (Guangzhou) or Hong Kong, China",
+        "deadline": null,
+        "application": null,
+        "renewable": null,
+        "note": "An award for a defined region; it is not open to other international applicants.",
+        "basis": "partnership",
+        "source": "https://www.uwinnipeg.ca/awards/awards-bursaries-and-scholarships/international-students.html",
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -14584,7 +14597,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "The entrance scholarship page lists named awards with automatic consideration (complete admission application by 1 March) but gives no amounts for them, so the largest award open to international students cannot be named. The C$16,000 Harrison McCain award is for students graduating from a high school in Canada. No award at the level of full tuition is described.",
+      "source": "https://www.msvu.ca/future-students/money-matters/scholarships-awards/undergraduate-scholarships/entrance-scholarships/",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -14597,7 +14612,7 @@ window.UNIPATH.universities.push(
         "note": "Amounts are not given on the page read.",
         "basis": "merit",
         "source": "https://www.msvu.ca/future-students/money-matters/scholarships-awards/undergraduate-scholarships/",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -14928,7 +14943,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "International students may hold entrance scholarships that have no residency requirement (applications 1 November–1 March each year), but the page read gives no amounts, so the largest award cannot be named. No award at the level of full tuition is described.",
+      "source": "https://www.mtroyal.ca/Admission/FinancingYourEducation/ScholarshipsBursaries/awardinfo.htm",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -14941,7 +14958,7 @@ window.UNIPATH.universities.push(
         "note": "Amounts are not given on the page read; many awards are for Canadian citizens and permanent residents only.",
         "basis": "merit",
         "source": "https://www.mtroyal.ca/Admission/FinancingYourEducation/ScholarshipsBursaries/awardinfo.htm",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -15236,7 +15253,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award with a published amount on the page read: the Exceptional Student Award, up to C$4,000 (C$1,000 a semester with a 3.33 GPA), for candidates identified by the international marketing team. Country-specific awards (e.g. for Mexico or the Caribbean) are for those countries only. No award at the level of full tuition is described.",
+      "source": "https://www.tru.ca/truworld/future-students/scholarships.html",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -15249,7 +15268,7 @@ window.UNIPATH.universities.push(
         "note": "Continued with a 3.33 GPA each semester.",
         "basis": "merit",
         "source": "https://www.tru.ca/truworld/future-students/scholarships.html",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       },
       {
         "name": "Academic Excellence Award",
@@ -15261,7 +15280,7 @@ window.UNIPATH.universities.push(
         "note": null,
         "basis": "merit",
         "source": "https://www.tru.ca/truworld/future-students/scholarships.html",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       },
       {
         "name": "Diversity Scholarships",
@@ -15273,7 +15292,7 @@ window.UNIPATH.universities.push(
         "note": "The value is not given on the page read.",
         "basis": "automatic",
         "source": "https://www.tru.ca/truworld/future-students/scholarships.html",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -15577,7 +15596,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "No official UNBC page listing international undergraduate entrance awards and their amounts was found in this check; aggregator listings were not used. The largest award cannot be named.",
+      "source": "https://www.unbc.ca/international/frequent-asked-questions-faq",
+      "verified": "2026-10-27"
     },
     "merit": [],
     "needBased": {
@@ -15640,7 +15661,8 @@ window.UNIPATH.universities.push(
       "deadlines",
       "application fee",
       "English requirements",
-      "tuition"
+      "tuition",
+      "scholarships"
     ],
     "unconfirmed": [
       "entrance scholarships for international students",
@@ -15729,7 +15751,33 @@ window.UNIPATH.universities.push(
     "platforms": [
       "VIU online application"
     ],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "VIU entrance award application (includes the International Student Entrance Scholarship)",
+        "kind": "scholarship",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-28",
+        "date": "28 February 2027",
+        "time": "23:59",
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://services.viu.ca/financial-aid-awards/viu-entrance-awards",
+        "verified": "2026-10-27",
+        "note": "The page gives 11:59 pm without a time zone, so the end of the day is not converted to a zone.",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://services.viu.ca/financial-aid-awards/viu-entrance-awards",
+          "verified": "2026-10-27",
+          "quote": "Fall 2027 application open October 15, 2026 The entrance award application is now open. Entrance award applications will be open until 11:59 pm on February 28, 2027."
+        },
+        "awardId": "international-entrance",
+        "awardCategory": "merit"
+      }
+    ],
     "applicationFee": {
       "amount": 153,
       "currency": "CAD",
@@ -15839,9 +15887,28 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award open to international students on the pages read: the International Student Entrance Scholarship, C$5,000 each for 20 students, by the single entrance award application (Fall 2027: until 28 February 2027). No award at the level of full tuition is described.",
+      "source": "https://services.viu.ca/financial-aid-awards/viu-entrance-awards",
+      "verified": "2026-10-27"
     },
-    "merit": [],
+    "merit": [
+      {
+        "name": "International Student Entrance Scholarship",
+        "amount": "C$5,000 each (20 awards)",
+        "eligibility": "First-year students in any undergraduate programme; selection by academic excellence",
+        "deadline": null,
+        "application": "Single VIU entrance award application (not automatic); Fall 2027 application open 15 October 2026 to 28 February 2027, 11:59 pm",
+        "renewable": null,
+        "note": "Applied as a tuition credit in the fall semester after full-time enrolment is confirmed. The page does not name the time zone.",
+        "basis": "merit",
+        "source": "https://services.viu.ca/financial-aid-awards/viu-entrance-awards",
+        "verified": "2026-10-27",
+        "id": "international-entrance",
+        "category": "merit",
+        "entryTerm": "Autumn",
+        "entryYear": "2027"
+      }
+    ],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,
@@ -15884,11 +15951,12 @@ window.UNIPATH.universities.push(
       "application fee",
       "English requirements",
       "requirements for Uzbekistan",
-      "tuition"
+      "tuition",
+      "scholarships",
+      "entrance scholarships for international students"
     ],
     "unconfirmed": [
       "application deadline",
-      "entrance scholarships for international students",
       "test policy",
       "full list of majors",
       "founding year"
@@ -16123,7 +16191,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award on the pages read: the International Excellence Entrance Scholarship, C$20,000 (C$5,000 a year for four years), ten a year, automatic in order of application. No award at the level of full tuition is described.",
+      "source": "https://international.ufv.ca/future-students/tuition-scholarships-jobs/scholarships/international-excellence-scholarship/",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -16133,10 +16203,10 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": true,
-        "note": "Renewed with a CGPA of 3.0; awarded first come, first served.",
+        "note": "Ten a year, automatic, first come first served; needs a CGPA of 3.75 on approved Grade 12 courses and a degree programme; kept with a CGPA of 3.0 each year. Paid as a tuition credit each year.",
         "basis": "merit",
         "source": "https://international.ufv.ca/future-students/tuition-scholarships-jobs/scholarships/international-excellence-scholarship/",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {

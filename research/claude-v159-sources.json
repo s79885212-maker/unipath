@@ -1096,5 +1096,50 @@
   "cycle": null,
   "scope": null,
   "read": "2026-10-27"
+ },
+ {
+  "id": "saint-marys-university",
+  "field": "award eligibility: Major Renewable Scholarships",
+  "source": "https://www.smu.ca/future-students/moneymatters/scholarshipsawards/",
+  "quote": "Valued at $50,000 over four years … Eligibility Requirements Must be either a Canadian Citizen or Permanent Resident of Canada",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "bishops-university",
+  "field": "removed: Michael Goldbloom Excellence Scholarships (citizens and permanent residents only)",
+  "source": "https://www.ubishops.ca/admissions/scholarships-awards-bursaries/michael-goldbloom-excellence-scholarships/",
+  "quote": "be citizens or permanent residents of Canada (applicants may be residing elsewhere for their studies at the time of application)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-winnipeg",
+  "field": "award (2026–27): President’s Scholarship for World Leaders",
+  "source": "https://www.uwinnipeg.ca/awards/awards-bursaries-and-scholarships/international-students.html",
+  "quote": "Values and Deadlines for 2026-27 (2027-28 will be available in December 2026): … Undergraduate $5,000 6",
+  "cycle": "2026–2027 (previous cycle)",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mount-royal-university",
+  "field": "award eligibility",
+  "source": "https://www.mtroyal.ca/Admission/FinancingYourEducation/ScholarshipsBursaries/awardinfo.htm",
+  "quote": "International students are eligible for entrance and in-course scholarships, nominated awards and emergency bursaries that do not have a residency requirement",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "vancouver-island-university",
+  "field": "award + deadline: International Student Entrance Scholarship",
+  "source": "https://services.viu.ca/financial-aid-awards/viu-entrance-awards",
+  "quote": "International Student Entrance Scholarship $5,000 each | 20 available … Fall 2027 application open October 15, 2026 The entrance award application is now open. Entrance award applications will be open until 11:59 pm on February 28, 2027.",
+  "cycle": "Fall 2027",
+  "scope": null,
+  "read": "2026-10-27"
  }
 ]
