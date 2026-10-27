@@ -16482,7 +16482,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award on the page read: the International Entrance & Performance Award, a tuition discount of C$1,800 a semester for 12 credits, up to C$18,000 over a four-year degree; for Fall 2027 the application must be complete by 30 November 2026 and the deposit paid by 4 December 2026. No award at the level of full tuition is described.",
+      "source": "https://www.capilanou.ca/admissions/fees--finances/financial-aid--awards/funding-for-international-students/",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -16495,7 +16497,7 @@ window.UNIPATH.universities.push(
         "note": "A tuition reduction; kept with a 3.50 term GPA and 12 credits a term. Subject to availability.",
         "basis": "automatic",
         "source": "https://www.capilanou.ca/admissions/fees--finances/financial-aid--awards/funding-for-international-students/",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -16800,7 +16802,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award on the pages read: the International Academic Excellence Scholarship, up to C$60,000 (C$15,000 a year) for an average of 90% or more, automatic. No award at the level of full tuition is described.",
+      "source": "https://laurentian.ca/academics/international/scholarships",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -16810,10 +16814,10 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": true,
-        "note": "C$10,000 or C$15,000 in year 1, renewed while the average stays above 80% (GPA 7.5) or 90% (GPA 9.5).",
+        "note": "C$15,000 in the first year at 90–100% (up to C$60,000) or C$10,000 at 80–89.9% (up to C$40,000); renewable for at most three more years while the average is kept. Automatic, no separate application.",
         "basis": "automatic",
         "source": "https://laurentian.ca/academics/international/scholarships",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -17065,7 +17069,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "The page read names an institutional scholarship programme for international students at the master’s level, doctoral support and UQAM Foundation awards, but no bachelor’s entrance award with an amount. The exemption from the increased tuition depends on Quebec’s agreements with the student’s country. No award at the level of full tuition is described.",
+      "source": "https://etudier.uqam.ca/etudiants-internationaux/bourses",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -17078,7 +17084,7 @@ window.UNIPATH.universities.push(
         "note": "Uzbekistan’s place on the list was not checked. Most UQAM scholarships listed are for graduate students.",
         "basis": "partnership",
         "source": "https://etudier.uqam.ca/etudiants-internationaux/bourses",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -17131,7 +17137,8 @@ window.UNIPATH.universities.push(
       "deadlines",
       "application fee",
       "French requirement",
-      "costs"
+      "costs",
+      "scholarships"
     ],
     "unconfirmed": [
       "French level by programme",
@@ -17337,7 +17344,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "For international students the page points to government and external programmes, the USherbrooke International involvement award and research scholarships; no bachelor’s entrance award with an amount is described. The exemption from supplementary tuition is limited to nationals of countries with a Quebec agreement. No award at the level of full tuition is described.",
+      "source": "https://www.usherbrooke.ca/admission/couts-et-aide-financiere/bourses-et-aide-financiere/etudiants-internationaux",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -17350,7 +17359,7 @@ window.UNIPATH.universities.push(
         "note": "Uzbekistan’s place on the list was not checked.",
         "basis": "partnership",
         "source": "https://www.usherbrooke.ca/admission/couts-et-aide-financiere/bourses-et-aide-financiere/etudiants-internationaux",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -17407,7 +17416,8 @@ window.UNIPATH.universities.push(
       "deadlines",
       "application fee",
       "French requirement",
-      "tuition"
+      "tuition",
+      "scholarships"
     ],
     "unconfirmed": [
       "French level by programme",
@@ -17650,7 +17660,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "The award page was re-opened on 27 October 2026 but its amounts did not display for the reader used, so the entry read on 17 October (Bourse de mérite scolaire, C$4,000–C$5,000 over the degree, more with a higher average) is not re-confirmed. The largest award cannot be named from this check.",
+      "source": "https://www.umoncton.ca/bourses",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -17979,7 +17991,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award on the page read: the international entrance scholarship, C$15,000 once for an A- average or equivalent (2027–2028 figures), automatic. No award at the level of full tuition is described.",
+      "source": "https://www.uvic.ca/safa/scholarships/entrance-scholarships/index.php",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -17992,7 +18006,7 @@ window.UNIPATH.universities.push(
         "note": "“The scholarship figures shown below are for the 2027-2028 academic year.” Only for students assessed international tuition.",
         "basis": "automatic",
         "source": "https://www.uvic.ca/safa/scholarships/entrance-scholarships/index.php",
-        "verified": "2026-10-19"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {

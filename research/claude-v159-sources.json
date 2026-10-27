@@ -1141,5 +1141,32 @@
   "cycle": "Fall 2027",
   "scope": null,
   "read": "2026-10-27"
+ },
+ {
+  "id": "capilano-university",
+  "field": "award deadline: IEPA Fall 2027",
+  "source": "https://www.capilanou.ca/admissions/fees--finances/financial-aid--awards/funding-for-international-students/",
+  "quote": "Fall 2027 term Complete application by November 30, 2026 Pay the Tuition Deposit by Dec 4, 2026",
+  "cycle": "Fall 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "laurentian-university",
+  "field": "award: International Academic Excellence Scholarships",
+  "source": "https://laurentian.ca/academics/international/scholarships",
+  "quote": "90% to 100%* Up to $60,000 in scholarship awards $15,000 in first year, renewable in subsequent years provided average is maintained.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-victoria",
+  "field": "award table 2027–28",
+  "source": "https://www.uvic.ca/safa/scholarships/entrance-scholarships/index.php",
+  "quote": "Scholarship figures shown below are for the 2027-2028 academic year. … International student A- or equivalent $15,000 (one-time)",
+  "cycle": "2027–2028",
+  "scope": null,
+  "read": "2026-10-27"
  }
 ]
