@@ -1168,5 +1168,419 @@
   "cycle": "2027–2028",
   "scope": null,
   "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-toronto",
+  "field": "founded",
+  "source": "https://www.utoronto.ca/about-u-of-t",
+  "quote": "Founded in 1827, the University of Toronto is consistently ranked as Canada’s top university.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mcgill-university",
+  "field": "founded",
+  "source": "https://www.mcgill.ca/jms/mcgill-milestones/1821-1884",
+  "quote": "1821 McGill College received a Royal Charter from King George IV, establishing it as a university.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mcmaster-university",
+  "field": "founded",
+  "source": "https://secretariat.mcmaster.ca/home/history-of-mcmaster-university/",
+  "quote": "the University was incorporated under the terms of an act of the Legislative Assembly of Ontario in 1887.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-de-montreal",
+  "field": "founded",
+  "source": "https://secretariatgeneral.umontreal.ca/secretariat-general/histoire-de-luniversite/1878-1919-naissance-dune-universite/",
+  "quote": "ce n’est que le 8 mai 1919 que le Saint-Siège … commande que la succursale soit érigée en une « université autonome » qui portera dorénavant le nom d",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-waterloo",
+  "field": "founded",
+  "source": "https://uwaterloo.ca/about/history",
+  "quote": "In 1957, innovation and entrepreneurship brought the University of Waterloo into being",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "western-university",
+  "field": "founded",
+  "source": "https://mediarelations.uwo.ca/2012/01/26/western-draws-from-rich-history-with-new-visual-identity/",
+  "quote": "founded by Bishop Isaac Hellmuth as Western University of London Ontario in 1878.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-ottawa",
+  "field": "founded",
+  "source": "https://www.uottawa.ca/about-us/administration-services/information-archives-management-service/history-uottawa",
+  "quote": "The College of Bytown was founded in 1848 by the Oblates of Mary Immaculate as a bilingual Catholic c",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-calgary",
+  "field": "founded",
+  "source": "https://www.ucalgary.ca/about-ucalgary/our-history",
+  "quote": "Their dedication was finally rewarded on April 29, 1966 when the University of Calgary was granted autonomy.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "queens-university",
+  "field": "founded",
+  "source": "https://www.queensu.ca/encyclopedia/h/history-queens-overview",
+  "quote": "Queen's University was established on October 16, 1841 in a Royal Charter issued by Queen Victoria",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "dalhousie-university",
+  "field": "founded",
+  "source": "https://www.dal.ca/about/our-story/history.html",
+  "quote": "Founded in 1818, Dalhousie has been delivering an exceptional education",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "simon-fraser-university",
+  "field": "founded",
+  "source": "https://www.sfu.ca/convocation/about/history.html",
+  "quote": "18 months later on September 9, 1965, SFU opened to 2,500 charter students.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-laval",
+  "field": "founded",
+  "source": "https://www.ulaval.ca/notre-universite/origine-et-histoire",
+  "quote": "Près de 200 ans plus tard, en 1852, cet établissement crée l'Université Laval",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-saskatchewan",
+  "field": "founded",
+  "source": "https://library.usask.ca/uasc/campus-history/brief-chronology.php",
+  "quote": "1907 University of Saskatchewan created: University Act passed by the Legislative Assembly; receives royal assent 3 April",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-manitoba",
+  "field": "founded",
+  "source": "https://umanitoba.ca/about-um",
+  "quote": "Discover the story of UM—from our founding in 1877",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-guelph",
+  "field": "founded",
+  "source": "https://www.uoguelph.ca/maps/locations/founding-of-ug",
+  "quote": "Fast forward to 1964, when the three founding colleges (Ontario Agricultural College, Ontario Veterina",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "carleton-university",
+  "field": "founded",
+  "source": "https://carleton.ca/about/history/",
+  "quote": "Established in 1942 as Carleton College",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "york-university",
+  "field": "founded",
+  "source": "https://www.yorku.ca/about/history/",
+  "quote": "Incorporated in 1959, York originally consisted of a residential college",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "concordia-university",
+  "field": "founded",
+  "source": "https://www.concordia.ca/about/history.html",
+  "quote": "The university was officially founded on August 24, 1974, following the merger of Loyola College and Sir George Will",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "memorial-university-of-newfoundland",
+  "field": "founded",
+  "source": "https://www.mun.ca/main/history/",
+  "quote": "In 1925, Memorial University College was founded",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-new-brunswick",
+  "field": "founded",
+  "source": "https://www.unb.ca/aboutunb/history/index.html",
+  "quote": "The Founders' Petition of 1785",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-windsor",
+  "field": "founded",
+  "source": "https://www.uwindsor.ca/47/our-history",
+  "quote": "On December 19, 1962, the University of Windsor was incorporated by the Ontario Legislature, accepting Assumption University in Federation.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-regina",
+  "field": "founded",
+  "source": "https://www.uregina.ca/about/index.html",
+  "quote": "Although our roots go back more than a century as Regina College, we became an independent, degree-granting university on July 1, 1974.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "ontario-tech-university",
+  "field": "founded",
+  "source": "https://news.ontariotechu.ca/archives/2002/06/20020627_1.php",
+  "quote": "The University of Ontario Institute of Technology - the newest university to be created in Canada - is now a legal entity, thanks to passage of Bill 109",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "toronto-metropolitan-university",
+  "field": "founded",
+  "source": "https://www.torontomu.ca/about/history/",
+  "quote": "In 1948, the Ryerson Institute of Technology was founded",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "brock-university",
+  "field": "founded",
+  "source": "https://brocku.ca/about/history/",
+  "quote": "After years of meetings and fundraising, Brock opened in September 1964.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "wilfrid-laurier-university",
+  "field": "founded",
+  "source": "https://www.wlu.ca/about/index.html",
+  "quote": "Laurier traces its roots to the opening of the Evangelical Lutheran Seminary in Waterloo more than 100 years ago in 1911.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "trent-university",
+  "field": "founded",
+  "source": "https://www.trentu.ca/about/",
+  "quote": "Founded in 1964, Trent University is one of Canada’s top undergraduate univ",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-prince-edward-island",
+  "field": "founded",
+  "source": "https://www.upei.ca/about-upei",
+  "quote": "the University of Prince Edward Island was established in 1969",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "acadia-university",
+  "field": "founded",
+  "source": "https://www2.acadiau.ca/about-acadia/history.html",
+  "quote": "Acadia was founded in 1838 by local Baptists",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "st-francis-xavier-university",
+  "field": "founded",
+  "source": "https://www.alumni.stfx.ca/s/650/17/interior.aspx?pgid=264&gid=1&cid=5111",
+  "quote": "Founded in 1853 by the Diocese of Antigonish",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mount-allison-university",
+  "field": "founded",
+  "source": "https://mta.ca/about/key-facts-and-history",
+  "quote": "Mount Allison traces its roots to 1839 when Sackville merchant Charles Frederick Allison proposed",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "saint-marys-university",
+  "field": "founded",
+  "source": "https://www.smu.ca/about/history.html",
+  "quote": "Saint Mary's traces its earliest beginnings to 1802",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "bishops-university",
+  "field": "founded",
+  "source": "https://www.ubishops.ca/about-bu/historical-timeline/1843-1853/",
+  "quote": "Bishop’s College opened in 1843",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-lethbridge",
+  "field": "founded",
+  "source": "https://www.ulethbridge.ca/president/university-historical-highlights",
+  "quote": "1967 The University of Lethbridge commences operations, with Faculties of Arts and Science and Education.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-winnipeg",
+  "field": "founded",
+  "source": "https://www.uwinnipeg.ca/about/history.html",
+  "quote": "The University of Winnipeg received its charter in 1967 but its roots date back more than 145 years.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mount-saint-vincent-university",
+  "field": "founded",
+  "source": "https://www.msvu.ca/about-msvu/university-profile/tradition-and-history/",
+  "quote": "Established in 1873 by the Sisters of Charity of Saint Vincent de Paul, Halifax",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mount-royal-university",
+  "field": "founded",
+  "source": "https://www.mtroyal.ca/AboutMountRoyal/FastFacts/History/index.htm",
+  "quote": "since our 1910 founding",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "thompson-rivers-university",
+  "field": "founded",
+  "source": "https://www.tru.ca/gaglardi/about/school-history.html",
+  "quote": "Thompson Rivers University (TRU) was founded in 1970 as Cariboo College",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-northern-british-columbia",
+  "field": "founded",
+  "source": "https://www.unbc.ca/about-unbc/history",
+  "quote": "It was in June 1990 that the members of the BC legislative assembly passed the UNBC Act, officially creating UNBC.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "vancouver-island-university",
+  "field": "founded",
+  "source": "https://www.viu.ca/about",
+  "quote": "VIU started out as the Dominion-Provincial Youth Training Centre in 1936.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-the-fraser-valley",
+  "field": "founded",
+  "source": "https://www.ufv.ca/about/ufv-history/",
+  "quote": "1974 - 1975 » Fraser Valley College (FVC) founded",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "capilano-university",
+  "field": "founded",
+  "source": "https://www.capilanou.ca/about-capu/get-to-know-us/our-history/",
+  "quote": "Capilano University was founded as a college in 1968",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-du-quebec-a-montreal",
+  "field": "founded",
+  "source": "https://uqam.ca/information/historique/",
+  "quote": "L’Université du Québec à Montréal (UQAM) est créée le 9 avril 1969 par le gouvernement du Québec",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-de-sherbrooke",
+  "field": "founded",
+  "source": "https://www.usherbrooke.ca/decouvrir/a-propos/notre-histoire",
+  "quote": "L'Université de Sherbrooke a été créée le 4 mai 1954.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-de-moncton",
+  "field": "founded",
+  "source": "https://www.umoncton.ca/notreumoncton/historique",
+  "quote": "Fondée en 1963, l’Université de Moncton regroupe trois campus",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-victoria",
+  "field": "founded",
+  "source": "https://www.uvic.ca/about-uvic/about-the-university/index.php",
+  "quote": "The university received degree-granting status in 1963. The origins of UVic, however, can be traced back to 1903",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
  }
 ]

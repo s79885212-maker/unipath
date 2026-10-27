@@ -12,7 +12,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Toronto",
   "region": "Ontario",
-  "founded": null,
+  "founded": 1827,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -425,6 +425,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://future.utoronto.ca/undergraduate-programs"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.utoronto.ca/about-u-of-t"
     }
   ],
   "verification": {
@@ -434,12 +438,12 @@ window.UNIPATH.universities.push(
       "English requirements",
       "test policy",
       "tuition",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "full list of majors",
-      "residence and UHIP amounts",
-      "founding year"
+      "residence and UHIP amounts"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -945,7 +949,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Montreal",
   "region": "Quebec",
-  "founded": null,
+  "founded": 1821,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -1245,6 +1249,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.mcgill.ca/undergraduate-admissions/programs"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.mcgill.ca/jms/mcgill-milestones/1821-1884"
     }
   ],
   "verification": {
@@ -1255,12 +1263,12 @@ window.UNIPATH.universities.push(
       "English requirements",
       "test policy",
       "tuition and fees",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "full list of majors",
-      "housing costs",
-      "founding year"
+      "housing costs"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -1776,7 +1784,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Hamilton",
   "region": "Ontario",
-  "founded": null,
+  "founded": 1887,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -2100,6 +2108,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://future.mcmaster.ca/programs/"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://secretariat.mcmaster.ca/home/history-of-mcmaster-university/"
     }
   ],
   "verification": {
@@ -2110,12 +2122,12 @@ window.UNIPATH.universities.push(
       "test policy",
       "estimated tuition",
       "entrance awards",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "ancillary fees and housing",
       "requirements for Uzbekistan",
-      "founding year",
       "name and terms of the largest international award"
     ]
   },
@@ -2208,7 +2220,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Montreal",
   "region": "Quebec",
-  "founded": null,
+  "founded": 1919,
   "type": "Public research university (French-language)",
   "institutionKind": "public",
   "degrees": [
@@ -2431,6 +2443,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://admission.umontreal.ca/programmes-detudes/"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://secretariatgeneral.umontreal.ca/secretariat-general/histoire-de-luniversite/1878-1919-naissance-dune-universite/"
     }
   ],
   "verification": {
@@ -2442,12 +2458,12 @@ window.UNIPATH.universities.push(
       "tuition",
       "tuition exemption scholarship",
       "requirements for Uzbekistan",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "full list of programmes",
-      "other required fees",
-      "founding year"
+      "other required fees"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -2491,7 +2507,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Waterloo",
   "region": "Ontario",
-  "founded": null,
+  "founded": 1957,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -2802,6 +2818,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://uwaterloo.ca/future-students/programs"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://uwaterloo.ca/about/history"
     }
   ],
   "verification": {
@@ -2812,11 +2832,11 @@ window.UNIPATH.universities.push(
       "estimated tuition",
       "scholarships",
       "test policy",
-      "requirements for Uzbekistan"
+      "requirements for Uzbekistan",
+      "founding year"
     ],
     "unconfirmed": [
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -2873,7 +2893,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "London",
   "region": "Ontario",
-  "founded": null,
+  "founded": 1878,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -3201,6 +3221,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Western — fee index and tuition guarantee",
       "url": "https://registrar.uwo.ca/student_finances/fees_refunds/fee_refund_schedules.html"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://mediarelations.uwo.ca/2012/01/26/western-draws-from-rich-history-with-new-visual-identity/"
     }
   ],
   "verification": {
@@ -3209,12 +3233,12 @@ window.UNIPATH.universities.push(
       "2027 deadlines",
       "English requirements",
       "test policy",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "tuition for 2026–27 and 2027–28",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -3266,7 +3290,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Ottawa",
   "region": "Ontario",
-  "founded": null,
+  "founded": 1848,
   "type": "Public research university (bilingual)",
   "institutionKind": "public",
   "degrees": [
@@ -3565,6 +3589,10 @@ window.UNIPATH.universities.push(
     {
       "label": "SAT/ACT scope review — general policy unresolved",
       "url": "https://www.uottawa.ca/study/undergraduate-studies/international-applicants/usa"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.uottawa.ca/about-us/administration-services/information-archives-management-service/history-uottawa"
     }
   ],
   "verification": {
@@ -3573,13 +3601,13 @@ window.UNIPATH.universities.push(
       "2027 deadlines",
       "English and French requirements",
       "tuition",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "test policy",
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -3631,7 +3659,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Calgary",
   "region": "Alberta",
-  "founded": null,
+  "founded": 1966,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -3939,6 +3967,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.ucalgary.ca/future-students/undergraduate/programs"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.ucalgary.ca/about-ucalgary/our-history"
     }
   ],
   "verification": {
@@ -3950,11 +3982,11 @@ window.UNIPATH.universities.push(
       "costs",
       "scholarships",
       "test policy",
-      "requirements for Uzbekistan"
+      "requirements for Uzbekistan",
+      "founding year"
     ],
     "unconfirmed": [
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -3997,7 +4029,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Kingston",
   "region": "Ontario",
-  "founded": null,
+  "founded": 1841,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -4316,6 +4348,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Queen’s — Major Admission Awards (Canadian citizens, permanent residents and Protected Persons only)",
       "url": "https://www.queensu.ca/registrar/financial-aid/application-required/future-students/major-awards"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.queensu.ca/encyclopedia/h/history-queens-overview"
     }
   ],
   "verification": {
@@ -4325,12 +4361,12 @@ window.UNIPATH.universities.push(
       "English requirements",
       "costs",
       "scholarships",
-      "test policy"
+      "test policy",
+      "founding year"
     ],
     "unconfirmed": [
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -4390,7 +4426,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Halifax",
   "region": "Nova Scotia",
-  "founded": null,
+  "founded": 1818,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -4773,6 +4809,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.dal.ca/study/programs.html"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.dal.ca/about/our-story/history.html"
     }
   ],
   "verification": {
@@ -4784,11 +4824,11 @@ window.UNIPATH.universities.push(
       "scholarships",
       "requirements for Uzbekistan",
       "application fee",
-      "test policy"
+      "test policy",
+      "founding year"
     ],
     "unconfirmed": [
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -4849,7 +4889,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Burnaby",
   "region": "British Columbia",
-  "founded": null,
+  "founded": 1965,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -5229,6 +5269,10 @@ window.UNIPATH.universities.push(
     {
       "label": "SFU — country selector checked; Uzbekistan absent",
       "url": "https://www.sfu.ca/students/admission/admission-requirements/international-highschool/country.html"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.sfu.ca/convocation/about/history.html"
     }
   ],
   "verification": {
@@ -5239,12 +5283,12 @@ window.UNIPATH.universities.push(
       "test policy",
       "costs",
       "scholarships",
-      "application fee"
+      "application fee",
+      "founding year"
     ],
     "unconfirmed": [
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -5292,7 +5336,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Quebec City",
   "region": "Quebec",
-  "founded": null,
+  "founded": 1852,
   "type": "Public research university (French-language)",
   "institutionKind": "public",
   "degrees": [
@@ -5531,6 +5575,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.ulaval.ca/etudes/programmes?sessions_admission%5B0%5D=0"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.ulaval.ca/notre-universite/origine-et-histoire"
     }
   ],
   "verification": {
@@ -5541,12 +5589,12 @@ window.UNIPATH.universities.push(
       "French requirement",
       "tuition",
       "requirements for Uzbekistan",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "entrance scholarships for international students",
-      "full list of programmes",
-      "founding year"
+      "full list of programmes"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -5583,7 +5631,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Saskatoon",
   "region": "Saskatchewan",
-  "founded": null,
+  "founded": 1907,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -5910,6 +5958,10 @@ window.UNIPATH.universities.push(
     {
       "label": "General requirements reviewed — Uzbekistan-specific rule unresolved",
       "url": "https://admissions.usask.ca/requirements/deadlines.php"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://library.usask.ca/uasc/campus-history/brief-chronology.php"
     }
   ],
   "verification": {
@@ -5919,14 +5971,14 @@ window.UNIPATH.universities.push(
       "application fee",
       "English requirements",
       "tuition",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "test policy",
       "requirements for Uzbekistan",
       "housing costs",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -5984,7 +6036,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Winnipeg",
   "region": "Manitoba",
-  "founded": null,
+  "founded": 1877,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -6274,6 +6326,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://umanitoba.ca/explore/programs-of-study"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://umanitoba.ca/about-um"
     }
   ],
   "verification": {
@@ -6284,12 +6340,12 @@ window.UNIPATH.universities.push(
       "requirements for Uzbekistan",
       "scholarships",
       "application fee",
-      "test policy"
+      "test policy",
+      "founding year"
     ],
     "unconfirmed": [
       "application deadline for autumn 2027",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -6355,7 +6411,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Guelph",
   "region": "Ontario",
-  "founded": null,
+  "founded": 1964,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -6757,6 +6813,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Guelph — Vaccarino scholarship for Fall 2027",
       "url": "https://www.uoguelph.ca/registrar/finances-fees/vaccarino"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.uoguelph.ca/maps/locations/founding-of-ug"
     }
   ],
   "verification": {
@@ -6766,12 +6826,12 @@ window.UNIPATH.universities.push(
       "English requirements",
       "test policy",
       "requirements for Uzbekistan",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "tuition for 2026–27 and 2027–28",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -6829,7 +6889,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Ottawa",
   "region": "Ontario",
-  "founded": null,
+  "founded": 1942,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -7157,6 +7217,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://admissions.carleton.ca/programs/"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://carleton.ca/about/history/"
     }
   ],
   "verification": {
@@ -7167,11 +7231,11 @@ window.UNIPATH.universities.push(
       "English requirements",
       "tuition",
       "scholarships",
-      "test policy"
+      "test policy",
+      "founding year"
     ],
     "unconfirmed": [
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -7242,7 +7306,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Toronto",
   "region": "Ontario",
-  "founded": null,
+  "founded": 1959,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -7634,6 +7698,10 @@ window.UNIPATH.universities.push(
     {
       "label": "York — PISE Fall 2027 application guides",
       "url": "https://futurestudents.yorku.ca/presidents-international-scholarship-excellence-application-guides"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.yorku.ca/about/history/"
     }
   ],
   "verification": {
@@ -7645,12 +7713,12 @@ window.UNIPATH.universities.push(
       "test policy",
       "requirements for Uzbekistan",
       "tuition",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "entrance scholarship values for fall 2027",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -7715,7 +7783,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Montreal",
   "region": "Quebec",
-  "founded": null,
+  "founded": 1974,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -8002,6 +8070,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Concordia — official regular-session credit load",
       "url": "https://www.concordia.ca/academics/undergraduate/calendar/current/section-16-academic-information-definitions-and-regulations/section-16-1-general-information.html"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.concordia.ca/about/history.html"
     }
   ],
   "verification": {
@@ -8013,12 +8085,12 @@ window.UNIPATH.universities.push(
       "test policy",
       "requirements for Uzbekistan",
       "tuition",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "entrance scholarship amounts",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-16",
@@ -8069,7 +8141,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "St. John’s",
   "region": "Newfoundland and Labrador",
-  "founded": null,
+  "founded": 1925,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -8346,6 +8418,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.mun.ca/main/programs/"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.mun.ca/main/history/"
     }
   ],
   "verification": {
@@ -8357,12 +8433,12 @@ window.UNIPATH.universities.push(
       "test policy",
       "requirements for Uzbekistan",
       "tuition",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "entrance scholarship amounts",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-16",
@@ -8424,7 +8500,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Fredericton",
   "region": "New Brunswick",
-  "founded": null,
+  "founded": 1785,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -8693,6 +8769,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.unb.ca/academics/programs/"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.unb.ca/aboutunb/history/index.html"
     }
   ],
   "verification": {
@@ -8704,12 +8784,12 @@ window.UNIPATH.universities.push(
       "test policy",
       "requirements for Uzbekistan",
       "scholarships",
-      "tuition"
+      "tuition",
+      "founding year"
     ],
     "unconfirmed": [
       "housing costs",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-16",
@@ -8750,7 +8830,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Windsor",
   "region": "Ontario",
-  "founded": null,
+  "founded": 1962,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -9010,6 +9090,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Windsor — current service-fee index links an older schedule",
       "url": "https://www.uwindsor.ca/registrar/2879/registrarial-service-fees"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.uwindsor.ca/47/our-history"
     }
   ],
   "verification": {
@@ -9019,13 +9103,13 @@ window.UNIPATH.universities.push(
       "scholarships",
       "test policy",
       "English requirements",
-      "tuition"
+      "tuition",
+      "founding year"
     ],
     "unconfirmed": [
       "application fee",
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-16",
@@ -9083,7 +9167,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Regina",
   "region": "Saskatchewan",
-  "founded": null,
+  "founded": 1974,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -9398,6 +9482,10 @@ window.UNIPATH.universities.push(
     {
       "label": "General requirements reviewed — Uzbekistan-specific rule unresolved",
       "url": "https://www.uregina.ca/admissions/application-guide/index.html"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.uregina.ca/about/index.html"
     }
   ],
   "verification": {
@@ -9408,12 +9496,12 @@ window.UNIPATH.universities.push(
       "English requirements",
       "costs",
       "scholarships",
-      "test policy"
+      "test policy",
+      "founding year"
     ],
     "unconfirmed": [
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-16",
@@ -9457,7 +9545,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Oshawa",
   "region": "Ontario",
-  "founded": null,
+  "founded": 2002,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -9797,6 +9885,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://ontariotechu.ca/programs/"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://news.ontariotechu.ca/archives/2002/06/20020627_1.php"
     }
   ],
   "verification": {
@@ -9808,11 +9900,11 @@ window.UNIPATH.universities.push(
       "tuition",
       "scholarships",
       "test policy",
-      "requirements for Uzbekistan"
+      "requirements for Uzbekistan",
+      "founding year"
     ],
     "unconfirmed": [
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-16",
@@ -9874,7 +9966,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Toronto",
   "region": "Ontario",
-  "founded": null,
+  "founded": 1948,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -10182,6 +10274,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.torontomu.ca/programs/undergraduate/"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.torontomu.ca/about/history/"
     }
   ],
   "verification": {
@@ -10192,11 +10288,11 @@ window.UNIPATH.universities.push(
       "test policy",
       "requirements for Uzbekistan",
       "tuition",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-16",
@@ -10251,7 +10347,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "St. Catharines",
   "region": "Ontario",
-  "founded": null,
+  "founded": 1964,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -10522,6 +10618,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official undergraduate programme directory — checked 2026-10-26",
       "url": "https://brocku.ca/programs/"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://brocku.ca/about/history/"
     }
   ],
   "verification": {
@@ -10533,13 +10633,13 @@ window.UNIPATH.universities.push(
       "requirements for Uzbekistan",
       "tuition",
       "scholarships",
-      "official programme directory"
+      "official programme directory",
+      "founding year"
     ],
     "unconfirmed": [
       "test policy",
       "2027 tuition and award values",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-16",
@@ -10589,7 +10689,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Waterloo",
   "region": "Ontario",
-  "founded": null,
+  "founded": 1911,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -10894,6 +10994,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Laurier — current American curriculum requirements",
       "url": "https://www.wlu.ca/future-students/undergraduate/admissions/assets/resources/american-curriculum-chart.html"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.wlu.ca/about/index.html"
     }
   ],
   "verification": {
@@ -10902,13 +11006,13 @@ window.UNIPATH.universities.push(
       "deadlines",
       "English requirements",
       "tuition",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "test policy",
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-16",
@@ -10970,7 +11074,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Peterborough",
   "region": "Ontario",
-  "founded": null,
+  "founded": 1964,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -11293,6 +11397,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.trentu.ca/futurestudents/programs"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.trentu.ca/about/"
     }
   ],
   "verification": {
@@ -11303,11 +11411,11 @@ window.UNIPATH.universities.push(
       "scholarships",
       "list of programmes",
       "test policy",
-      "requirements for Uzbekistan"
+      "requirements for Uzbekistan",
+      "founding year"
     ],
     "unconfirmed": [
-      "2027 application deadlines",
-      "founding year"
+      "2027 application deadlines"
     ]
   },
   "lastVerified": "2026-10-16",
@@ -11706,7 +11814,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Charlottetown",
   "region": "Prince Edward Island",
-  "founded": null,
+  "founded": 1969,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -11921,6 +12029,10 @@ window.UNIPATH.universities.push(
     {
       "label": "UPEI — international full-time Business fees selector, 2026–27",
       "url": "https://www.upei.ca/fees?field_fee_faculty_target_id=190&field_type_value=international&field_time_value=fulltime&field_level_value=undergraduate"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.upei.ca/about-upei"
     }
   ],
   "verification": {
@@ -11930,13 +12042,13 @@ window.UNIPATH.universities.push(
       "English requirements",
       "test policy",
       "tuition",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "application deadline for international applicants",
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -11979,7 +12091,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Wolfville",
   "region": "Nova Scotia",
-  "founded": null,
+  "founded": 1838,
   "type": "Public liberal arts university",
   "institutionKind": "public",
   "degrees": [
@@ -12255,6 +12367,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www2.acadiau.ca/academics.html"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www2.acadiau.ca/about-acadia/history.html"
     }
   ],
   "verification": {
@@ -12265,12 +12381,12 @@ window.UNIPATH.universities.push(
       "English requirements",
       "requirements for Uzbekistan",
       "costs",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "test policy",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -12306,7 +12422,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Antigonish",
   "region": "Nova Scotia",
-  "founded": null,
+  "founded": 1853,
   "type": "Public liberal arts university",
   "institutionKind": "public",
   "degrees": [
@@ -12611,6 +12727,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.stfx.ca/programs-courses/programs"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.alumni.stfx.ca/s/650/17/interior.aspx?pgid=264&gid=1&cid=5111"
     }
   ],
   "verification": {
@@ -12621,12 +12741,12 @@ window.UNIPATH.universities.push(
       "scholarships",
       "English requirements",
       "test policy",
-      "application fee"
+      "application fee",
+      "founding year"
     ],
     "unconfirmed": [
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -12671,7 +12791,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Sackville",
   "region": "New Brunswick",
-  "founded": null,
+  "founded": 1839,
   "type": "Public liberal arts university",
   "institutionKind": "public",
   "degrees": [
@@ -13005,6 +13125,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://mta.ca/academics/programs-and-degrees"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://mta.ca/about/key-facts-and-history"
     }
   ],
   "verification": {
@@ -13015,12 +13139,12 @@ window.UNIPATH.universities.push(
       "costs",
       "scholarships",
       "application fee",
-      "test policy"
+      "test policy",
+      "founding year"
     ],
     "unconfirmed": [
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -13057,7 +13181,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Halifax",
   "region": "Nova Scotia",
-  "founded": null,
+  "founded": 1802,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -13315,6 +13439,10 @@ window.UNIPATH.universities.push(
     {
       "label": "SMU — BComm normal annual course load",
       "url": "https://smu-ca-public.courseleaf.com/undergraduate/faculties/sobey-school-business/bachelor-commerce/"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.smu.ca/about/history.html"
     }
   ],
   "verification": {
@@ -13324,13 +13452,13 @@ window.UNIPATH.universities.push(
       "requirements for Uzbekistan",
       "tuition",
       "scholarships",
-      "application fee"
+      "application fee",
+      "founding year"
     ],
     "unconfirmed": [
       "application deadline for September 2027",
       "test policy",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -13375,7 +13503,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Sherbrooke",
   "region": "Quebec",
-  "founded": null,
+  "founded": 1843,
   "type": "Public liberal arts university",
   "institutionKind": "public",
   "degrees": [
@@ -13638,6 +13766,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Bishop’s — Michael Goldbloom Excellence Scholarships (Canadian citizens and permanent residents only)",
       "url": "https://www.ubishops.ca/admissions/scholarships-awards-bursaries/michael-goldbloom-excellence-scholarships/"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.ubishops.ca/about-bu/historical-timeline/1843-1853/"
     }
   ],
   "verification": {
@@ -13648,12 +13780,12 @@ window.UNIPATH.universities.push(
       "test policy",
       "tuition",
       "scholarships",
-      "application fee"
+      "application fee",
+      "founding year"
     ],
     "unconfirmed": [
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -13712,7 +13844,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Lethbridge",
   "region": "Alberta",
-  "founded": null,
+  "founded": 1967,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -14009,6 +14141,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.ulethbridge.ca/future-student/programs"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.ulethbridge.ca/president/university-historical-highlights"
     }
   ],
   "verification": {
@@ -14019,13 +14155,13 @@ window.UNIPATH.universities.push(
       "costs",
       "English test minimums",
       "test policy",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "international entrance scholarships",
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -14081,7 +14217,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Winnipeg",
   "region": "Manitoba",
-  "founded": null,
+  "founded": 1967,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -14335,6 +14471,10 @@ window.UNIPATH.universities.push(
     {
       "label": "UWinnipeg — admission requirements by country (U)",
       "url": "https://www.uwinnipeg.ca/future-student/international/countries-a-to-z/-u-.html"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.uwinnipeg.ca/about/history.html"
     }
   ],
   "verification": {
@@ -14345,12 +14485,12 @@ window.UNIPATH.universities.push(
       "tuition",
       "scholarships",
       "test policy",
-      "requirements for Uzbekistan"
+      "requirements for Uzbekistan",
+      "founding year"
     ],
     "unconfirmed": [
       "fall 2027 application deadline",
       "full list of majors",
-      "founding year",
       "official programme directory"
     ]
   },
@@ -14402,7 +14542,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Halifax",
   "region": "Nova Scotia",
-  "founded": null,
+  "founded": 1873,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -14653,6 +14793,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.msvu.ca/academics/"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.msvu.ca/about-msvu/university-profile/tradition-and-history/"
     }
   ],
   "verification": {
@@ -14662,13 +14806,13 @@ window.UNIPATH.universities.push(
       "English requirements",
       "scholarships",
       "application fee",
-      "test policy"
+      "test policy",
+      "founding year"
     ],
     "unconfirmed": [
       "international tuition (conflicting figures)",
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -14698,7 +14842,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Calgary",
   "region": "Alberta",
-  "founded": null,
+  "founded": 1910,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -15007,6 +15151,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.mtroyal.ca/ProgramsCourses/ProgramsOffered/index.htm"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.mtroyal.ca/AboutMountRoyal/FastFacts/History/index.htm"
     }
   ],
   "verification": {
@@ -15017,12 +15165,12 @@ window.UNIPATH.universities.push(
       "tuition",
       "scholarships",
       "application fee",
-      "requirements for Uzbekistan"
+      "requirements for Uzbekistan",
+      "founding year"
     ],
     "unconfirmed": [
       "test policy",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -15086,7 +15234,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Kamloops",
   "region": "British Columbia",
-  "founded": null,
+  "founded": 1970,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -15337,6 +15485,10 @@ window.UNIPATH.universities.push(
     {
       "label": "General requirements reviewed — Uzbekistan-specific rule unresolved",
       "url": "https://www.tru.ca/future/admissions/international/admission-requirements.html"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.tru.ca/gaglardi/about/school-history.html"
     }
   ],
   "verification": {
@@ -15346,13 +15498,13 @@ window.UNIPATH.universities.push(
       "application fee",
       "scholarships",
       "English requirements",
-      "test policy"
+      "test policy",
+      "founding year"
     ],
     "unconfirmed": [
       "tuition for the Fall 2027 intake",
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -15381,7 +15533,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Prince George",
   "region": "British Columbia",
-  "founded": null,
+  "founded": 1990,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -15653,6 +15805,10 @@ window.UNIPATH.universities.push(
     {
       "label": "UNBC — first-year annual planning workload: 30 credits",
       "url": "https://www.unbc.ca/programs-and-admissions/undergraduate/tuition-and-fees"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.unbc.ca/about-unbc/history"
     }
   ],
   "verification": {
@@ -15662,14 +15818,14 @@ window.UNIPATH.universities.push(
       "application fee",
       "English requirements",
       "tuition",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "entrance scholarships for international students",
       "test policy",
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -15712,7 +15868,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Nanaimo",
   "region": "British Columbia",
-  "founded": null,
+  "founded": 1936,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -15943,6 +16099,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.viu.ca/programs"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.viu.ca/about"
     }
   ],
   "verification": {
@@ -15953,13 +16113,13 @@ window.UNIPATH.universities.push(
       "requirements for Uzbekistan",
       "tuition",
       "scholarships",
-      "entrance scholarships for international students"
+      "entrance scholarships for international students",
+      "founding year"
     ],
     "unconfirmed": [
       "application deadline",
       "test policy",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -16007,7 +16167,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Abbotsford",
   "region": "British Columbia",
-  "founded": null,
+  "founded": 1974,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -16259,6 +16419,10 @@ window.UNIPATH.universities.push(
     {
       "label": "SAT/ACT scope review — general policy unresolved",
       "url": "https://international.ufv.ca/future-students/apply-to-ufv/admission-requirements/"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.ufv.ca/about/ufv-history/"
     }
   ],
   "verification": {
@@ -16268,13 +16432,13 @@ window.UNIPATH.universities.push(
       "application fee",
       "English requirements",
       "tuition",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "test policy",
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -16317,7 +16481,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "North Vancouver",
   "region": "British Columbia",
-  "founded": null,
+  "founded": 1968,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -16542,6 +16706,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.capilanou.ca/programs--courses/search--select/find-a-program-or-course/"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.capilanou.ca/about-capu/get-to-know-us/our-history/"
     }
   ],
   "verification": {
@@ -16551,13 +16719,13 @@ window.UNIPATH.universities.push(
       "English requirements",
       "tuition",
       "scholarships",
-      "test policy"
+      "test policy",
+      "founding year"
     ],
     "unconfirmed": [
       "general fall 2027 application deadline",
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -16932,7 +17100,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Montreal",
   "region": "Quebec",
-  "founded": null,
+  "founded": 1969,
   "type": "Public university (French-language)",
   "institutionKind": "public",
   "degrees": [
@@ -17129,6 +17297,10 @@ window.UNIPATH.universities.push(
     {
       "label": "General requirements reviewed — Uzbekistan-specific rule unresolved",
       "url": "https://etudier.uqam.ca/etudiants-internationaux"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://uqam.ca/information/historique/"
     }
   ],
   "verification": {
@@ -17138,14 +17310,14 @@ window.UNIPATH.universities.push(
       "application fee",
       "French requirement",
       "costs",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "French level by programme",
       "requirements for Uzbekistan",
       "undergraduate entrance scholarships for international students",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -17196,7 +17368,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Sherbrooke",
   "region": "Quebec",
-  "founded": null,
+  "founded": 1954,
   "type": "Public university (French-language)",
   "institutionKind": "public",
   "degrees": [
@@ -17408,6 +17580,10 @@ window.UNIPATH.universities.push(
     {
       "label": "UdeS — linked March 2022 guide; Uzbekistan sheet updated in 2006",
       "url": "https://www.usherbrooke.ca/admission/fileadmin/sites/admission/documents/admission/Reconnaissances_internationales/Guide-des-niveaux-de-formation-Mars2022.pdf"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.usherbrooke.ca/decouvrir/a-propos/notre-histoire"
     }
   ],
   "verification": {
@@ -17417,14 +17593,14 @@ window.UNIPATH.universities.push(
       "application fee",
       "French requirement",
       "tuition",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "French level by programme",
       "entrance scholarships",
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -17507,7 +17683,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Moncton",
   "region": "New Brunswick",
-  "founded": null,
+  "founded": 1963,
   "type": "Public university (French-language)",
   "institutionKind": "public",
   "degrees": [
@@ -17716,6 +17892,10 @@ window.UNIPATH.universities.push(
     {
       "label": "General requirements reviewed — Uzbekistan-specific rule unresolved",
       "url": "https://www.umoncton.ca/conditions"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.umoncton.ca/notreumoncton/historique"
     }
   ],
   "verification": {
@@ -17724,13 +17904,13 @@ window.UNIPATH.universities.push(
       "deadlines",
       "application fee",
       "costs",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "French requirement",
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -17793,7 +17973,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Victoria",
   "region": "British Columbia",
-  "founded": null,
+  "founded": 1963,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -18055,6 +18235,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.uvic.ca/undergraduate/programs/undergraduate-programs/index.php"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.uvic.ca/about-uvic/about-the-university/index.php"
     }
   ],
   "verification": {
@@ -18066,11 +18250,11 @@ window.UNIPATH.universities.push(
       "tuition",
       "scholarships",
       "test policy",
-      "requirements for Uzbekistan"
+      "requirements for Uzbekistan",
+      "founding year"
     ],
     "unconfirmed": [
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-19",
