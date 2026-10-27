@@ -1006,5 +1006,95 @@
   "cycle": null,
   "scope": null,
   "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-regina",
+  "field": "award: International Student of Distinction, Tier 1",
+  "source": "https://www.uregina.ca/ur-international/scholarships.html",
+  "quote": "International students selected for Tier 1 will be awarded on-campus housing and a meal plan which is valued at $90,000 over 4 years. This is not a tuition credit scholarship.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "ontario-tech-university",
+  "field": "award: Global Leadership Award",
+  "source": "https://safa.ontariotechu.ca/awards-bursaries-and-scholarships/undergraduate-student-finances/scholarships/scholarships-and-awards-for-international-students.php",
+  "quote": "Valued at $120,000 CAD ($30,000 CAD a year for four years) … Canadian citizens and permanent residents are not eligible for the GLA. CLOSED FOR THE 2026-2027 ACADEMIC YEAR",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "toronto-metropolitan-university",
+  "field": "award: President’s Entrance Scholarships",
+  "source": "https://www.torontomu.ca/admissions/scholarships-awards/",
+  "quote": "Twelve (12) recipients | $40,000 CAD (total value) | $10,000 CAD (annual amount, renewable) … International Students are eligible to apply for this award.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "toronto-metropolitan-university",
+  "field": "award eligibility: Terence Grier Entrance Scholarship",
+  "source": "https://www.torontomu.ca/admissions/scholarships-awards/",
+  "quote": "One (1) recipient | Full tuition for first-year only (not renewable) … Canadian Citizens, Permanent Residents of Canada and Protected Persons in Canada are eligible to apply for this award.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "brock-university",
+  "field": "award (2026–27 table): International Brock Scholars Award",
+  "source": "https://brocku.ca/safa/2026-international-students/",
+  "quote": "Our largest award is the Brock Scholars awards. … $32,000* 95.0% and above $20,000* $4,000** … Other awards available to incoming international students 2026-2027 academic year",
+  "cycle": "2026–2027 (previous cycle)",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "wilfrid-laurier-university",
+  "field": "award grid",
+  "source": "https://www.wlu.ca/future-students/undergraduate/tuition-finances/entrance-scholarships.html",
+  "quote": "This scholarship grid is valid for incoming students beginning in September 2027 and after. … The renewable scholarship amount is $4,000 (domestic) or $6,000 (international) per year for four years",
+  "cycle": "September 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "trent-university",
+  "field": "award: International Prestigious Scholarships",
+  "source": "https://www.trentu.ca/international/discover-trent/tuition-scholarships/scholarships",
+  "quote": "These awards are highly competitive and fund tuition and mandatory ancillary fees at Trent in amounts up to $15,000 per academic year, and up to $60,000 over a 4-year degree.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "lakehead-university",
+  "field": "award table 2027–28",
+  "source": "https://www.lakeheadu.ca/international/future/scholarships-awards",
+  "quote": "90.0%+ 35+ $40,000 ($10,000 x 4 years)1 Unlimited",
+  "cycle": "2027–2028",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "st-francis-xavier-university",
+  "field": "award: McKenna Scholars Program",
+  "source": "https://www.stfx.ca/mckennascholars",
+  "quote": "McKenna National Scholars $125,000 8 awarded annually Valued over four years … Fall 2027 StFX applications open. … McKenna Scholars application deadline.",
+  "cycle": "Fall 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mount-allison-university",
+  "field": "award: Marjorie Young Bell Scholarship",
+  "source": "https://mta.ca/costs-financial-aid/scholarships-and-awards-first-year-students",
+  "quote": "Value $70,000 ($17,500 per year) … Number offered 8 … Deadline Submit your application and supporting documents by March 1",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
  }
 ]

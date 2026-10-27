@@ -9310,7 +9310,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "The highest-value award is the International Student of Distinction Scholarship, Tier 1: on-campus housing and a meal plan worth about C$90,000 over four years (Tier 2: housing, about C$45,000), automatic for applicants from high school with 90% or more. It is not a tuition credit. Tuition support is smaller: C$5,000 in the first term and a bursary of up to C$20,000 over four years. No award at the level of full tuition is described.",
+      "source": "https://www.uregina.ca/ur-international/scholarships.html",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -9323,7 +9325,7 @@ window.UNIPATH.universities.push(
         "note": null,
         "basis": "automatic",
         "source": "https://www.uregina.ca/ur-international/scholarships.html",
-        "verified": "2026-10-16"
+        "verified": "2026-10-27"
       },
       {
         "name": "International Student of Distinction Scholarship",
@@ -9335,7 +9337,7 @@ window.UNIPATH.universities.push(
         "note": "Housing/meal benefits are not a tuition credit. Renewal requires 24 credits per calendar year and 80% UGPA; up to three further years (3.5 in Engineering). Limited places.",
         "basis": "merit",
         "source": "https://www.uregina.ca/ur-international/scholarships.html",
-        "verified": "2026-10-26",
+        "verified": "2026-10-27",
         "id": "international-student-of-distinction",
         "category": "merit",
         "entryTerm": "Autumn",
@@ -9351,7 +9353,7 @@ window.UNIPATH.universities.push(
         "note": "Part of the “Really Big Deal” bundle; not based on need despite the name.",
         "basis": "automatic",
         "source": "https://www.uregina.ca/ur-international/scholarships.html",
-        "verified": "2026-10-16"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -9713,7 +9715,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award open to international students: the Global Leadership Award, C$120,000 (C$30,000 a year for four years), by application from applicants studying outside Canada. The page marks it closed for 2026–2027 and does not yet state the 2027–28 competition. The automatic International Merit Award is C$20,000 over four years. No award at the level of full tuition is described.",
+      "source": "https://safa.ontariotechu.ca/awards-bursaries-and-scholarships/undergraduate-student-finances/scholarships/scholarships-and-awards-for-international-students.php",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -9726,7 +9730,7 @@ window.UNIPATH.universities.push(
         "note": "Renewable with a 3.30 cumulative GPA and a full course load; cannot be combined with the Global Leadership Award.",
         "basis": "merit",
         "source": "https://safa.ontariotechu.ca/awards-bursaries-and-scholarships/undergraduate-student-finances/scholarships/scholarships-and-awards-for-international-students.php",
-        "verified": "2026-10-16"
+        "verified": "2026-10-27"
       },
       {
         "name": "Global Leadership Award",
@@ -9738,7 +9742,7 @@ window.UNIPATH.universities.push(
         "note": "Competitive C$120,000 award over four years; no full-cost coverage is inferred from the amount. The admissions timeline establishes the 11 February deadline for Fall 2027. The award office’s separate page still labels the 2026–27 competition closed; this does not establish when the 2027 award application opens or confirm all 2027 terms.",
         "basis": "merit",
         "source": "https://safa.ontariotechu.ca/awards-bursaries-and-scholarships/undergraduate-student-finances/scholarships/scholarships-and-awards-for-international-students.php",
-        "verified": "2026-10-24",
+        "verified": "2026-10-27",
         "id": "global-leadership",
         "category": "merit",
         "entryTerm": "Autumn",
@@ -10100,12 +10104,14 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award open to international students: the President’s Entrance Scholarship, C$40,000 (C$10,000 a year, renewable), twelve recipients, by application on AwardSpring (16 February 2027 for Fall 2027). ISLA – Fall 2027 gives C$10,000 once to up to 53 international students. The full-tuition first-year Terence Grier award is for Canadian citizens, permanent residents and protected persons only.",
+      "source": "https://www.torontomu.ca/admissions/scholarships-awards/",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
         "name": "International Student Leadership Award (ISLA) – Fall 2027",
-        "amount": "C$10,000, one time",
+        "amount": "C$10,000, one time (up to 53 recipients)",
         "eligibility": "Up to 53 international first-year students paying international fees, with a final average of at least 86% and a personal statement",
         "deadline": null,
         "application": "AwardSpring application by 16 February 2027",
@@ -10113,19 +10119,19 @@ window.UNIPATH.universities.push(
         "note": "For students who do well academically, volunteer, join clubs and show leadership.",
         "basis": "merit",
         "source": "https://www.torontomu.ca/admissions/scholarships-awards/",
-        "verified": "2026-10-16"
+        "verified": "2026-10-27"
       },
       {
         "name": "President’s Entrance Scholarships",
         "amount": "C$40,000 (C$10,000 a year, renewable)",
-        "eligibility": "Twelve secondary-school graduates with at least a 90% average, leadership and creativity; international students eligible",
+        "eligibility": "Twelve secondary school graduates with at least a 90% final admission average, leadership, original thought and creative ability; Canadian citizens, permanent residents, protected persons and international students may apply",
         "deadline": null,
         "application": "AwardSpring application by 16 February 2027",
         "renewable": true,
         "note": "A bed in residence is reserved (its cost is not covered). Competitive; never counted as received.",
         "basis": "merit",
         "source": "https://www.torontomu.ca/admissions/scholarships-awards/",
-        "verified": "2026-10-16"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -10436,7 +10442,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Brock calls the Brock Scholars awards its largest: on the 2026 page, the International Brock Scholars Award is up to C$32,000 over four years, automatic. That table is for the 2026–2027 year; no 2027 table was found (the 2027 page does not exist yet). No award at the level of full tuition is described.",
+      "source": "https://brocku.ca/safa/2026-international-students/",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -10449,7 +10457,7 @@ window.UNIPATH.universities.push(
         "note": "Year 1: C$20,000 (95%+), C$15,000 (90–94.9%), C$8,000 (85–89.9%) or C$4,000 (80–84.9%), then C$4,000/C$3,000/C$1,500/C$1,000 renewals for up to three years. The page lists the 2026–27 table “subject to annual approval”; the 2027–28 values are not yet published.",
         "basis": "automatic",
         "source": "https://brocku.ca/safa/2026-international-students/",
-        "verified": "2026-10-16"
+        "verified": "2026-10-27"
       },
       {
         "name": "Brock Future Leaders Scholarship",
@@ -10461,7 +10469,7 @@ window.UNIPATH.universities.push(
         "note": "Can only be combined with the Brock Scholars Award.",
         "basis": "merit",
         "source": "https://brocku.ca/safa/2026-international-students/",
-        "verified": "2026-10-16"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -10798,7 +10806,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award on the pages read: the President’s Gold Scholarship for an admission average of 95% or more, C$6,000 a year for international students, renewable for four years (grid valid from September 2027). No award at the level of full tuition is described.",
+      "source": "https://www.wlu.ca/future-students/undergraduate/tuition-finances/entrance-scholarships.html",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -10808,10 +10818,10 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": true,
-        "note": "“This scholarship grid is valid for incoming students beginning in September 2027 and after”, by admission average as of July 2027. Renewal: GPA 10.5 for C$6,000 (President’s Gold), 7.0 for C$5,000.",
+        "note": "The grid is valid for students beginning in September 2027 and after. At 95% and above it is the President’s Gold Scholarship: C$6,000 a year for international students, renewable for four years with an annual GPA of 10.5 on at least 5.0 credits.",
         "basis": "automatic",
         "source": "https://www.wlu.ca/future-students/undergraduate/tuition-finances/entrance-scholarships.html",
-        "verified": "2026-10-16"
+        "verified": "2026-10-27"
       },
       {
         "name": "Inspiring Lives Scholarship",
@@ -11197,7 +11207,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest awards open to international students: the International Prestigious Scholarships and Awards, up to C$15,000 a year (up to C$60,000 over four years) toward tuition and mandatory fees, by application (1 November–15 February each year). No award at the level of full tuition is described.",
+      "source": "https://www.trentu.ca/international/discover-trent/tuition-scholarships/scholarships",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -11210,7 +11222,7 @@ window.UNIPATH.universities.push(
         "note": "95–100%: C$5,500; 90–94.9%: C$4,500; 85–89.9%: C$3,500; 80–84.9%: C$2,500 a year. Renewable with an 80% average and a full course load.",
         "basis": "automatic",
         "source": "https://www.trentu.ca/international/discover-trent/tuition-scholarships/scholarships",
-        "verified": "2026-10-16"
+        "verified": "2026-10-27"
       },
       {
         "name": "Trent International Prestigious Scholarships and Awards",
@@ -11222,7 +11234,7 @@ window.UNIPATH.universities.push(
         "note": "Highly competitive; includes the Moore Family International Scholarship (up to C$12,000 a year, three students from outside North America) and the Justin Chiu International Scholarship (Asia, up to C$15,000 a year). Never counted as received.",
         "basis": "need-merit",
         "source": "https://www.trentu.ca/international/discover-trent/tuition-scholarships/scholarships",
-        "verified": "2026-10-16"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -11570,7 +11582,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award on the pages read: the International Undergraduate Entrance Scholarship for a 90%+ average (or IB 35+), C$40,000 (C$10,000 a year for four years), automatic and unlimited in number, 2027–2028 table. No award at the level of full tuition is described.",
+      "source": "https://www.lakeheadu.ca/international/future/scholarships-awards",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -11583,7 +11597,7 @@ window.UNIPATH.universities.push(
         "note": "90%+ (IB 35+): C$10,000 a year for four years; 80–89.9% (IB 30–34): C$7,500 a year; 75–79.9% (IB 28–29): C$6,000 in year 1 only. Unlimited number; renewal needs the same average at university.",
         "basis": "automatic",
         "source": "https://www.lakeheadu.ca/international/future/scholarships-awards",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -11847,7 +11861,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "The international entrance awards on the page read range from C$1,000 to C$3,000. No award at the level of full tuition is described.",
+      "source": "https://www.upei.ca/scholarships-and-awards/international-student-scholarships",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -11860,7 +11876,7 @@ window.UNIPATH.universities.push(
         "note": "A limited number; early applications are encouraged. The 2027 cycle dates were not published on the page read.",
         "basis": "merit",
         "source": "https://www.upei.ca/scholarships-and-awards/international-student-scholarships",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -12165,7 +12181,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest awards on the pages read: additional entrance scholarships and scholar-bursaries of up to C$80,000 over four years, by forms in the status portal, with award-specific eligibility (some are only for students from Canadian or Nova Scotia schools). No award at the level of full tuition is described.",
+      "source": "https://www2.acadiau.ca/student-services/scholarships-financial-aid/future-students/entrance-scholarships.html",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -12520,20 +12538,23 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "The McKenna Scholars Program offers up to C$125,000 over four years (application 1 December 2026 – 1 March 2027), but the page does not say whether international students are eligible. National Entrance Scholarships of at least C$5,000 over four years go to admission averages of 85% or more. No award at the level of full tuition is described.",
+      "source": "https://www.stfx.ca/mckennascholars",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
         "name": "McKenna Scholars Program",
-        "amount": "C$20,000, C$40,000 or C$125,000 over four years",
+        "amount": "C$125,000 (8 a year), C$40,000 (16) or C$20,000 (36), each over four years",
         "eligibility": "High-achieving entering students in any field, by achievement, leadership, character, service and community impact",
         "deadline": null,
-        "application": "Applications open 1 December 2026",
+        "application": "Apply to StFX for Fall 2027, then the McKenna Scholars application (opens 1 December 2026), by 1 March 2027",
         "renewable": true,
-        "note": "Each year 8 awards of C$125,000, 16 of C$40,000 and 36 of C$20,000. The pages read do not say whether international students are eligible. Competitive; never counted as received.",
+        "note": "The page read does not say whether international applicants are eligible.",
         "basis": "merit",
         "source": "https://www.stfx.ca/mckennascholars",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27",
+        "internationalEligible": null
       },
       {
         "name": "National Entrance Scholarships",
@@ -12902,7 +12923,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award on the pages read: the Marjorie Young Bell Scholarship, C$70,000 (C$17,500 a year), eight awards, with no citizenship limit in its criteria; reference and essay by 1 March. No award at the level of full tuition is described.",
+      "source": "https://mta.ca/costs-financial-aid/scholarships-and-awards-first-year-students",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -12915,7 +12938,7 @@ window.UNIPATH.universities.push(
         "note": null,
         "basis": "automatic",
         "source": "https://mta.ca/costs-financial-aid/scholarships-and-awards-first-year-students",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       },
       {
         "name": "Marjorie Young Bell Scholarship",
@@ -12924,10 +12947,10 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Application and documents by 1 March",
         "renewable": true,
-        "note": "Finalists not selected are offered the C$20,000 President’s Scholarship. Competitive; never counted as received.",
+        "note": "Eight awards; renewal needs a 3.5 GPA on 30 credits a year and a yearly activities report. One reference letter and an essay are required by 1 March. The criteria name no citizenship limit; finalists not selected are offered the C$20,000 President’s Scholarship.",
         "basis": "merit",
         "source": "https://mta.ca/costs-financial-aid/scholarships-and-awards-first-year-students",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       },
       {
         "name": "International Award",
@@ -12939,7 +12962,7 @@ window.UNIPATH.universities.push(
         "note": "Can be combined with all other Mount Allison scholarships and bursaries.",
         "basis": "need-merit",
         "source": "https://mta.ca/costs-financial-aid/scholarships-and-awards-first-year-students",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
