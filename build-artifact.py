@@ -21,6 +21,7 @@ BUILD = ROOT / "build"    # helper outputs (Claude bundle, zip)
 BUILD.mkdir(exist_ok=True)
 
 JS_FILES = [
+    "assets/js/boot.js",
     "data/registry.js",
     "data/countries.js",
     "data/universities.us.js",

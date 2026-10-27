@@ -231,7 +231,8 @@
   }
 
   /* ---- dictionary parts loaded on demand (published site only) ---- */
-  var chunkState = {};   // country -> 'loading' | 'done'
+  var chunkState = {};   // country -> 'loading' | 'done' | 'error'
+  var chunkTimer = {};
   var chunkWait = {};    // country -> [callbacks]
   function chunkList() { var I = global.UNIPATH_I18N || {}; return I[lang + 'Chunks'] || []; }
   function chunkSrc(cc) {
@@ -240,26 +241,56 @@
     var meta = doc.querySelector('meta[name="unipath-root"]');
     return (meta ? meta.content : '') + 'data/i18n/' + lang + '.' + cc + '.js' + (q ? '?' + q : '');
   }
+  function chunkStatus() {
+    if (!doc.body) return;
+    var failed = Object.keys(chunkState).filter(function (cc) { return chunkState[cc] === 'error'; });
+    var box = doc.getElementById('translation-status');
+    if (!failed.length) { if (box) box.remove(); return; }
+    if (!box) {
+      box = doc.createElement('div'); box.id = 'translation-status'; box.className = 'wrap small';
+      box.setAttribute('role', 'status');
+      box.innerHTML = '<p><span>Some university descriptions could not be translated. The available information is shown below.</span> <button type="button" class="btn btn-sm">Retry translations</button></p>';
+      box.querySelector('button').addEventListener('click', function () {
+        failed = Object.keys(chunkState).filter(function (cc) { return chunkState[cc] === 'error'; });
+        failed.forEach(function (cc) { if (chunkState[cc] === 'error') delete chunkState[cc]; });
+        box.querySelector('button').disabled = true;
+        need(failed, function () { chunkStatus(); if (doc.body) translateTree(doc.body); });
+      });
+      doc.body.insertBefore(box, doc.getElementById('main'));
+    }
+    box.querySelector('button').disabled = false;
+    translateTree(box);
+  }
   global.UNIPATH_I18N_ADD = function (l, cc, entries) {
     if (l !== lang) return;
     build();
     if (!packed) packed = {};
     for (var h in entries) if (Object.prototype.hasOwnProperty.call(entries, h)) packed[h] = entries[h];
+    global.clearTimeout(chunkTimer[cc]);
     chunkState[cc] = 'done';
+    chunkStatus();
     if (doc.body) { translateTree(doc.body); translateTitle(); }
     (chunkWait[cc] || []).forEach(function (f) { f(); });
     delete chunkWait[cc];
   };
   function loadChunk(cc, done) {
-    if (chunkState[cc] === 'done') { done(); return; }
+    if (chunkState[cc] === 'done' || chunkState[cc] === 'error') { done(); return; }
     (chunkWait[cc] = chunkWait[cc] || []).push(done);
     if (chunkState[cc] === 'loading') return;
     chunkState[cc] = 'loading';
     var el = doc.createElement('script');
     el.src = chunkSrc(cc);
     el.async = true;
-    /* A failed part must never block the page: it is then shown with the texts that are there. */
-    el.onerror = function () { chunkState[cc] = 'done'; (chunkWait[cc] || []).forEach(function (f) { f(); }); delete chunkWait[cc]; };
+    /* Errors and stalled requests release the router, but remain retryable. */
+    function fail() {
+      if (chunkState[cc] !== 'loading') return;
+      global.clearTimeout(chunkTimer[cc]);
+      el.remove(); chunkState[cc] = 'error'; chunkStatus();
+      var waiting = chunkWait[cc] || []; delete chunkWait[cc];
+      waiting.forEach(function (f) { f(); });
+    }
+    el.onerror = fail;
+    chunkTimer[cc] = global.setTimeout(fail, 12000);
     doc.head.appendChild(el);
   }
   /* True when the parts for these countries ('all' = every part) are in.
@@ -268,7 +299,7 @@
     var all = chunkList();
     if (lang === 'en' || !all.length) return true;
     var want = (countries === 'all' || collect) ? all : (countries || []).filter(function (c) { return all.indexOf(c) > -1; });
-    var left = want.filter(function (c) { return chunkState[c] !== 'done'; });
+    var left = want.filter(function (c) { return chunkState[c] !== 'done' && chunkState[c] !== 'error'; });
     if (!left.length) return true;
     var n = left.length;
     left.forEach(function (c) { loadChunk(c, function () { if (--n === 0) done(); }); });

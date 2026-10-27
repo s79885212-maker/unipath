@@ -21,6 +21,11 @@ function walk(dir, out) {
   return out;
 }
 var pages = walk(DIST, []), broken = [], badId = [], badRoute = [], checked = 0;
+var homeHtml = fs.readFileSync(path.join(DIST, 'index.html'), 'utf8');
+var homeCanonical = /<link rel="canonical" href="([^"]+)"/.exec(homeHtml);
+var buildBase = homeCanonical ? new URL(homeCanonical[1]).pathname : '/';
+var staging = /\/staging\/$/.test(buildBase) && /<meta name="robots" content="[^"]*noindex/.test(homeHtml);
+
 function hash(h, where) {
   var parts = h.replace(/^#\/?/, '').split('?')[0].split('/');
   if (!ROUTES.hasOwnProperty(parts[0])) badRoute.push(where + ' → ' + h);
@@ -38,7 +43,10 @@ pages.forEach(function (file) {
     if (/^#\//.test(frag)) hash(frag, rel);
     target = target.split('?')[0];
     if (!target) continue;
-    var p = target.charAt(0) === '/' ? path.join(DIST, target.replace(/^\/unipath\//, '/')) : path.join(path.dirname(file), target);
+    if (target.charAt(0) === '/' && target.indexOf(buildBase) !== 0) {
+      broken.push(rel + ' → ' + link + ' (outside build base ' + buildBase + ')'); continue;
+    }
+    var p = target.charAt(0) === '/' ? path.join(DIST, target.slice(buildBase.length)) : path.join(path.dirname(file), target);
     if (/\/$/.test(target) || (fs.existsSync(p) && fs.statSync(p).isDirectory())) p = path.join(p, 'index.html');
     if (!fs.existsSync(p)) broken.push(rel + ' → ' + link);
     var um = /(?:^|\/)university\/([^\/]+)\/?$/.exec(target.replace(/index\.html$/, ''));
@@ -60,16 +68,22 @@ function report(list, label) {
    has no address of its own. */
 var badCanonical = [], sitemap = fs.existsSync(path.join(DIST, 'sitemap.xml')) ? fs.readFileSync(path.join(DIST, 'sitemap.xml'), 'utf8') : '';
 var locs = (sitemap.match(/<loc>([^<]+)<\/loc>/g) || []).map(function (x) { return x.replace(/<\/?loc>/g, ''); });
-var site = locs.length ? locs[0].replace(/\/$/, '') : null;
+var site = homeCanonical ? homeCanonical[1].replace(/\/$/, '') : null;
+if (!staging && !locs.length) badCanonical.push('indexable production build has no sitemap');
+if (staging) {
+  var robots = fs.existsSync(path.join(DIST, 'robots.txt')) ? fs.readFileSync(path.join(DIST, 'robots.txt'), 'utf8') : '';
+  if (!/^Disallow:\s*\/\s*$/m.test(robots)) badCanonical.push('staging robots.txt does not disallow indexing');
+  pages.forEach(function (file) { if (!/<meta name="robots" content="[^"]*noindex/.test(fs.readFileSync(file, 'utf8'))) badCanonical.push(path.relative(DIST, file) + ': staging page missing noindex'); });
+}
 pages.forEach(function (file) {
-  var rel = path.relative(DIST, file);
+  var rel = path.relative(DIST, file).split(path.sep).join('/');
   if (rel === 'unipath.html' || rel === '404.html') return;
   var html = fs.readFileSync(file, 'utf8'), m = /<link rel="canonical" href="([^"]+)"/.exec(html);
   if (!m) { badCanonical.push(rel + ': no canonical link'); return; }
   if (!site || m[1].indexOf(site + '/') !== 0) { badCanonical.push(rel + ': ' + m[1] + ' is outside ' + site); return; }
   var local = m[1].slice(site.length + 1);
   if (!fs.existsSync(path.join(DIST, local, 'index.html')) && !fs.existsSync(path.join(DIST, local))) badCanonical.push(rel + ': ' + m[1] + ' does not exist in the build');
-  if (locs.indexOf(m[1]) < 0) badCanonical.push(rel + ': ' + m[1] + ' is not in the sitemap');
+  if ((!staging || locs.length) && locs.indexOf(m[1]) < 0) badCanonical.push(rel + ': ' + m[1] + ' is not in the sitemap');
   var expect = rel === 'index.html' ? '' : rel.replace(/index\.html$/, '');
   if (local !== expect) badCanonical.push(rel + ': canonical points to ' + local + ', not to this page');
 });
@@ -80,5 +94,5 @@ console.log(pages.length + ' pages, ' + checked + ' internal links checked');
 var failed = report(broken, 'every relative link points to an existing file') +
   report(badId, 'every university link names an existing record') +
   report(badRoute, 'every hash route is one the router handles') +
-  report(badCanonical, 'every canonical link keeps the site folder, exists in the build and is in the sitemap');
+  report(badCanonical, 'every canonical link keeps the site folder, exists in the build, respects indexing policy and is in the sitemap when indexable');
 process.exit(failed ? 1 : 0);

@@ -745,7 +745,7 @@ group('Canada');
   var packDir = fs.mkdtempSync(path.join(require('os').tmpdir(), 'unipath-ru-'));
   require('child_process').execFileSync('node', [path.join(ROOT, 'tools/i18n_pack.js'), ROOT, 'ru', packDir]);
   var lookIn = function (files) {
-    var b = { location: { search: '?lang=ru' }, navigator: { language: 'ru' }, localStorage: { getItem: function () { return null; }, setItem: function () {} },
+    var b = { clearTimeout: clearTimeout, location: { search: '?lang=ru' }, navigator: { language: 'ru' }, localStorage: { getItem: function () { return null; }, setItem: function () {} },
       document: { documentElement: { setAttribute: function () {} }, querySelector: function () { return null; }, body: null }, MutationObserver: function () { this.observe = function () {}; } };
     b.window = b; vm.createContext(b);
     vm.runInContext(fs.readFileSync(files[0], 'utf8'), b);
@@ -790,6 +790,9 @@ group('Canada');
 
 group('site quality regressions');
 require('./site-quality.js')({ U: U, M: M, DB: DB, ok: ok, sandbox: sandbox, load: load });
+group('loading failure regressions');
+require('./loading.js')(ok);
+require('./loading-gate.js')(ok);
 console.log('\n' + passed + ' passed, ' + failed + ' failed');
 /* Exit with a status only when run directly; tests/links.js loads this file for the data. */
 if (require.main === module) process.exit(failed ? 1 : 0);

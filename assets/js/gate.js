@@ -68,7 +68,7 @@
 
   /* The widget lives in an off-screen holder; if Cloudflare asks for
      interaction, the holder is shown on top of the modal card. */
-  var holder, modal;
+  var holder, modal, widgetId;
 
   function build() {
     holder = doc.createElement('div');
@@ -92,8 +92,14 @@
         '<p>We couldn’t confirm automatically that you are a person. Please complete the check below to continue.</p>' +
         '<div class="gate-widget" id="gate-slot"></div>' +
         '<p class="gate-status" id="gate-status" aria-live="polite"></p>' +
+        '<button type="button" class="btn" id="gate-retry" hidden>Retry security check</button>' +
       '</div>';
     doc.body.appendChild(modal);
+    doc.getElementById('gate-retry').addEventListener('click', function () {
+      if (widgetId == null || !global.turnstile) { global.location.reload(); return; }
+      this.hidden = true; status('Retrying the security check…');
+      global.turnstile.reset(widgetId);
+    });
     /* Moving the widget would reload Cloudflare's iframe, so it stays in
        place and is positioned over the card's empty slot — measured, since
        on a narrow screen the text above the slot wraps onto more lines. */
@@ -115,6 +121,13 @@
     if (s) s.textContent = msg;
   }
 
+  function recover(message) {
+    if (!modal) return;
+    status(message);
+    doc.getElementById('gate-retry').hidden = false;
+    place();
+  }
+
   function unlock() {
     remember();
     root.classList.remove('is-gated');
@@ -129,17 +142,18 @@
   }
 
   global.__unipathTurnstileReady = function () {
-    global.turnstile.render(holder, {
+    widgetId = global.turnstile.render(holder, {
       sitekey: siteKey,
       theme: 'auto',
       appearance: 'interaction-only',
       'before-interactive-callback': showModal,
       callback: function () { status('Verified — welcome!'); global.setTimeout(unlock, modal ? 350 : 0); },
       'error-callback': function () {
-        if (modal) status('The check could not complete. Please reload the page.');
+        recover('The security check could not finish. Check your connection and try again.');
         return true; /* handled — do not throw */
       },
-      'expired-callback': function () { if (modal) status('The check expired — please try again.'); },
+      'expired-callback': function () { recover('The check expired — please try again.'); },
+      'timeout-callback': function () { recover('The security check timed out. Please try again.'); },
       'unsupported-callback': unlock   /* very old browsers: never lock real students out */
     });
   };

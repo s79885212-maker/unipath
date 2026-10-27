@@ -16586,4 +16586,10 @@ window.UNIPATH_I18N.ru = {
   "Students from Jamaica entering Bachelor of Engineering, with preference for Civil Engineering, showing good academic standing and financial need": "Студенты из Ямайки, поступающие на Bachelor of Engineering; предпочтение Civil Engineering, хорошие результаты и финансовая нуждаемость",
   "Consideration through the General Entrance Award application; this is not an unrestricted international award": "Рассмотрение через General Entrance Award application; это не award для всех иностранцев",
   "The individual listing does not establish a separate Fall 2027 deadline or all renewal thresholds. No tuition/living coverage percentage is inferred from the cash amount, and it is not subtracted as awarded aid.": "Отдельное описание не устанавливает самостоятельный срок Fall 2027 или все пороги продления. Из денежной суммы не выводится процент покрытия обучения/жизни; она не вычитается как уже полученная помощь.",
+  "Some university descriptions could not be translated. The available information is shown below.": "Не удалось загрузить перевод части описаний вузов. Ниже показана доступная информация.",
+  "Retry translations": "Повторить загрузку перевода",
+  "Retry security check": "Повторить проверку безопасности",
+  "Retrying the security check…": "Повторяем проверку безопасности…",
+  "The security check could not finish. Check your connection and try again.": "Не удалось завершить проверку безопасности. Проверьте подключение и повторите попытку.",
+  "The security check timed out. Please try again.": "Время ожидания проверки безопасности истекло. Повторите попытку.",
 };
