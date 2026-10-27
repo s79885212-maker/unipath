@@ -67,8 +67,16 @@ window.UNIPATH.universities.push(
         "conditions": "Recommended for most faculties and both suburban campuses; documents available by then are encouraged by 1 December.",
         "status": "confirmed",
         "source": "https://future.utoronto.ca/deadlines",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://future.utoronto.ca/deadlines",
+          "verified": "2026-10-27",
+          "quote": "2027 admissions Deadlines to apply … Arts & Science, U of T St. George (including International Foundation Program) November 7 January 15"
+        }
       },
       {
         "name": "Application deadline (most programmes)",
@@ -82,8 +90,16 @@ window.UNIPATH.universities.push(
         "conditions": "Applied Science & Engineering, Architecture, Arts & Science (St. George), Information, Kinesiology & Physical Education, Music, U of T Mississauga and U of T Scarborough.",
         "status": "confirmed",
         "source": "https://future.utoronto.ca/deadlines",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://future.utoronto.ca/deadlines",
+          "verified": "2026-10-27",
+          "quote": "2027 admissions Deadlines to apply … Arts & Science, U of T St. George (including International Foundation Program) November 7 January 15"
+        }
       },
       {
         "name": "Supporting documents (most programmes)",
@@ -97,8 +113,16 @@ window.UNIPATH.universities.push(
         "conditions": "Engineering documents are due 15 January 2027. Supplementary applications for Rotman Commerce, Computer Science and Architecture are also due 1 February.",
         "status": "confirmed",
         "source": "https://future.utoronto.ca/deadlines",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://future.utoronto.ca/deadlines",
+          "verified": "2026-10-27",
+          "quote": "2027 admissions Deadlines to submit supporting documentation … Arts & Science, U of T St. George - All other program areas February 1"
+        }
       },
       {
         "name": "Pearson Scholarship: apply for admission",
@@ -968,47 +992,65 @@ window.UNIPATH.universities.push(
       {
         "name": "Application deadline",
         "kind": "regular",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-01-15",
-        "date": "15 January 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 January — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "For applicants from high schools outside Canada and the U.S.; Music and Religious Studies need application and documents by this date.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/international/other",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/international/other",
+          "verified": "2026-10-27",
+          "quote": "Other international high schools … DEADLINES Application for admission January 15"
+        }
       },
       {
         "name": "Major Entrance Scholarship application and documents",
         "kind": "scholarship",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-01-21",
-        "date": "21 January 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "21 January — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": null,
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/international/other",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/international/other",
+          "verified": "2026-10-27",
+          "quote": "Major Entrance Scholarship application & documents January 21"
+        }
       },
       {
         "name": "Supporting documents",
         "kind": "documents",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-03-01",
-        "date": "1 March 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 March — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": null,
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/international/other",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/international/other",
+          "verified": "2026-10-27",
+          "quote": "Supporting documents March 1"
+        }
       }
     ],
     "applicationFee": {
@@ -1333,8 +1375,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.ualberta.ca/en/admissions/how-to-apply/dates-deadlines/index.html",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": "The page heading reads “Timeline for Fall 2027 Applicants” and every date in the table carries its year; the table caption under the heading still says “Fall 2024”.",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.ualberta.ca/en/admissions/how-to-apply/dates-deadlines/index.html",
+          "verified": "2026-10-27",
+          "quote": "Timeline for Fall 2027 Applicants … January 10, 2027 Entrance Award Application Deadline"
+        }
       },
       {
         "name": "Application deadline (most programmes)",
@@ -1350,8 +1400,16 @@ window.UNIPATH.universities.push(
         "conditions": "Some programmes have extended deadlines; Dental Hygiene, Dentistry, Medicine and Law differ. Admission is evaluated on a rolling basis.",
         "status": "confirmed",
         "source": "https://www.ualberta.ca/en/admissions/how-to-apply/dates-deadlines/index.html",
-        "verified": "2026-10-15",
-        "note": "The page is titled “Timeline for Fall 2027 Applicants”, although one table heading still reads “Fall 2024”."
+        "verified": "2026-10-27",
+        "note": "The page heading reads “Timeline for Fall 2027 Applicants” and every date in the table carries its year; the table caption under the heading still says “Fall 2024”.",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.ualberta.ca/en/admissions/how-to-apply/dates-deadlines/index.html",
+          "verified": "2026-10-27",
+          "quote": "March 1, 2027 Deadline to submit application for admission for most programs."
+        }
       },
       {
         "name": "Accept offers made before 1 April",
@@ -1365,8 +1423,18 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.ualberta.ca/en/admissions/how-to-apply/dates-deadlines/index.html",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": "The page heading reads “Timeline for Fall 2027 Applicants” and every date in the table carries its year; the table caption under the heading still says “Fall 2024”.",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.ualberta.ca/en/admissions/how-to-apply/dates-deadlines/index.html",
+          "verified": "2026-10-27",
+          "quote": "May 1, 2027 Deadline to accept admission offers made before April 1."
+        },
+        "time": "23:59",
+        "timezone": "MT"
       },
       {
         "name": "Outstanding documents for high school students",
@@ -1380,8 +1448,18 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.ualberta.ca/en/admissions/how-to-apply/dates-deadlines/index.html",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": "The page heading reads “Timeline for Fall 2027 Applicants” and every date in the table carries its year; the table caption under the heading still says “Fall 2024”.",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.ualberta.ca/en/admissions/how-to-apply/dates-deadlines/index.html",
+          "verified": "2026-10-27",
+          "quote": "August 1, 2027 Deadline to submit outstanding documents for high school students."
+        },
+        "time": "23:59",
+        "timezone": "MT"
       }
     ],
     "applicationFee": {
@@ -1736,8 +1814,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://future.mcmaster.ca/apply/deadlines/",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": "Read in the official deadline finder for applicants from outside Canada (Level I): Engineering, Computer Science and Arts & Science show 15 January 2027; Business and Social Sciences show 1 April 2027.",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://future.mcmaster.ca/apply/deadlines/",
+          "verified": "2026-10-27",
+          "quote": "Engineering - International Application Deadline: January 15, 2027. Recommended Early Application Submission: Thursday, November 12, 2026"
+        }
       },
       {
         "name": "Application deadline: Engineering, Computer Science, Arts & Science",
@@ -1751,8 +1837,16 @@ window.UNIPATH.universities.push(
         "conditions": "Arts & Science also needs a supplementary application by 1 February 2027 (11:59 pm ET).",
         "status": "confirmed",
         "source": "https://future.mcmaster.ca/apply/deadlines/",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": "Read in the official deadline finder for applicants from outside Canada (Level I): Engineering, Computer Science and Arts & Science show 15 January 2027; Business and Social Sciences show 1 April 2027.",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://future.mcmaster.ca/apply/deadlines/",
+          "verified": "2026-10-27",
+          "quote": "Engineering - International Application Deadline: January 15, 2027. Recommended Early Application Submission: Thursday, November 12, 2026"
+        }
       },
       {
         "name": "Application deadline: Humanities, Social Sciences, Business, Life Sciences and other programmes",
@@ -1766,8 +1860,16 @@ window.UNIPATH.universities.push(
         "conditions": "For applicants outside Canada. Documents, including the English test, are due 1 April 2027 for all programmes.",
         "status": "confirmed",
         "source": "https://future.mcmaster.ca/apply/deadlines/",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": "Read in the official deadline finder for applicants from outside Canada (Level I): Engineering, Computer Science and Arts & Science show 15 January 2027; Business and Social Sciences show 1 April 2027.",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://future.mcmaster.ca/apply/deadlines/",
+          "verified": "2026-10-27",
+          "quote": "Business - International Application Deadline: April 1, 2027"
+        }
       }
     ],
     "applicationFee": {
@@ -2121,8 +2223,16 @@ window.UNIPATH.universities.push(
         "conditions": "For candidates studying (or who studied) at a university or outside Quebec, in most faculties. Music: 15 January for all candidates.",
         "status": "confirmed",
         "source": "https://admission.umontreal.ca/admission/preparation-de-la-demande/respecter-les-dates-limites-de-depot/",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": "Shown for Automne 2027 on the official programme page (example: Baccalauréat en informatique). The general deadlines page prints 1 February without a year; check the programme page for other programmes.",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://admission.umontreal.ca/programmes/baccalaureat-en-informatique/",
+          "verified": "2026-10-27",
+          "quote": "Vous étudiez (ou avez étudié) à l’université ou hors Québec : 1er février 2027Du 1er août 2026 au 1er février 2027"
+        }
       },
       {
         "name": "French requirement: proof due (example: Baccalauréat en informatique)",
@@ -2136,8 +2246,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://admission.umontreal.ca/programmes/baccalaureat-en-informatique/",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://admission.umontreal.ca/programmes/baccalaureat-en-informatique/",
+          "verified": "2026-10-27",
+          "quote": "Vous étudiez (ou avez étudié) à l’université ou hors Québec : 15 février 2027Du 1er août 2026 au 15 février 2027"
+        }
       }
     ],
     "applicationFee": {
@@ -2395,8 +2513,16 @@ window.UNIPATH.universities.push(
         "conditions": "Documents by 1 February 2027; online interview required.",
         "status": "confirmed",
         "source": "https://uwaterloo.ca/future-students/admissions/deadlines",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://uwaterloo.ca/future-students/admissions/deadlines",
+          "verified": "2026-10-27",
+          "quote": "Engineering programs (other than Architecture) January 15, 2027 February 1, 2027"
+        }
       },
       {
         "name": "Application deadline: programmes other than Engineering",
@@ -2410,8 +2536,16 @@ window.UNIPATH.universities.push(
         "conditions": "Documents by 15 February 2027.",
         "status": "confirmed",
         "source": "https://uwaterloo.ca/future-students/admissions/deadlines",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://uwaterloo.ca/future-students/admissions/deadlines",
+          "verified": "2026-10-27",
+          "quote": "Programs other than Engineering February 1, 2027 February 15, 2027"
+        }
       }
     ],
     "applicationFee": {
@@ -2757,8 +2891,16 @@ window.UNIPATH.universities.push(
         "conditions": "Also the Ivey Advanced Entry Opportunity deadline.",
         "status": "confirmed",
         "source": "https://welcome.uwo.ca/next-steps/apply/admission-deadlines.html",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://welcome.uwo.ca/next-steps/apply/admission-deadlines.html",
+          "verified": "2026-10-27",
+          "quote": "January 2027 … Deadline to submit OUAC application for equal consideration to full-time undergraduate studies January 15"
+        }
       },
       {
         "name": "National Scholarship application (including International President’s Entrance Scholarships)",
@@ -2772,8 +2914,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://welcome.uwo.ca/next-steps/apply/admission-deadlines.html",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": "The Registrar’s National Scholarship page says the 2027–28 application will be available by mid-November 2026; it still shows the passed 2026–27 deadline of 14 February 2026.",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://welcome.uwo.ca/next-steps/apply/admission-deadlines.html",
+          "verified": "2026-10-27",
+          "quote": "February 2027 … National Scholarship application deadline February 14"
+        }
       }
     ],
     "applicationFee": {
@@ -3119,8 +3269,16 @@ window.UNIPATH.universities.push(
         "conditions": "Deadlines vary by programme; many programmes reach capacity quickly and can close at any time. For international applicants most programmes close in May.",
         "status": "confirmed",
         "source": "https://www.uottawa.ca/study/undergraduate-studies/application-deadlines",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.uottawa.ca/study/undergraduate-studies/application-deadlines",
+          "verified": "2026-10-27",
+          "quote": "accepting applications for programs that begin in September 2027 on September 17, 2026. … we recommend that you submit your application before January 15, 2027."
+        }
       },
       {
         "name": "Documents and test results",
@@ -3134,8 +3292,16 @@ window.UNIPATH.universities.push(
         "conditions": "Or 30 days after applying.",
         "status": "confirmed",
         "source": "https://www.uottawa.ca/study/undergraduate-studies/application-deadlines",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.uottawa.ca/study/undergraduate-studies/application-deadlines",
+          "verified": "2026-10-27",
+          "quote": "submitting documents and test results, as soon possible, by February 15, 2027, or 30 days after you apply."
+        }
       }
     ],
     "applicationFee": {
@@ -3456,62 +3622,86 @@ window.UNIPATH.universities.push(
       {
         "name": "Prestige Award application (incl. International Entrance Scholarship)",
         "kind": "scholarship",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2026-12-01",
-        "date": "1 December 2026",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 December — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Documents by 15 December.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.ucalgary.ca/future-students/undergraduate/admissions/dates",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.ucalgary.ca/future-students/undergraduate/admissions/dates",
+          "verified": "2026-10-27",
+          "quote": "Dec. 1 Application deadline: Prestige Award for incoming high school students"
+        }
       },
       {
         "name": "Application deadline, including the application fee",
         "kind": "regular",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-03-01",
-        "date": "1 March 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 March — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": null,
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.ucalgary.ca/future-students/undergraduate/admissions/dates",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.ucalgary.ca/future-students/undergraduate/admissions/dates",
+          "verified": "2026-10-27",
+          "quote": "March 1 Application deadline: Fall undergraduate admission"
+        }
       },
       {
         "name": "Supporting documents (unofficial transcripts)",
         "kind": "documents",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-03-15",
-        "date": "15 March 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 March — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Dance, Music and Visual Studies audition and portfolio by 4 March.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.ucalgary.ca/future-students/undergraduate/admissions/dates",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.ucalgary.ca/future-students/undergraduate/admissions/dates",
+          "verified": "2026-10-27",
+          "quote": "March 15 Document deadline: Fall undergraduate admission"
+        }
       },
       {
         "name": "Accept an offer dated 1 April or earlier",
         "kind": "reply",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-05-01",
-        "date": "1 May 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 May — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Later offers: 30 days from the offer date.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.ucalgary.ca/future-students/undergraduate/admissions/dates",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.ucalgary.ca/future-students/undergraduate/admissions/dates",
+          "verified": "2026-10-27",
+          "quote": "May 1 Acceptance deadline: Fall undergraduate admission Deadline to accept fall offer of admission dated April 1 or prior."
+        }
       }
     ],
     "applicationFee": {
@@ -3809,8 +3999,16 @@ window.UNIPATH.universities.push(
         "conditions": "The university advises applying by 15 November so the SOLUS account is ready in time.",
         "status": "confirmed",
         "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
+          "verified": "2026-10-27",
+          "quote": "November 20, 2026 … we strongly recommend applying to Queen’s on OUAC by November 20."
+        }
       },
       {
         "name": "Major Admission Award application on SOLUS",
@@ -3824,8 +4022,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
+          "verified": "2026-10-27",
+          "quote": "December 8, 2026 Deadline to submit the online Major Admission Award (MAA)"
+        }
       },
       {
         "name": "Application deadline: Commerce, Health Sciences and Nursing",
@@ -3839,8 +4045,16 @@ window.UNIPATH.universities.push(
         "conditions": "Supplementary applications for these programmes are due 15 February 2027.",
         "status": "confirmed",
         "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
+          "verified": "2026-10-27",
+          "quote": "February 1, 2027 Applications are due for first-year full-time programs in Commerce, Health Science and Nursing."
+        }
       },
       {
         "name": "Application deadline: all other first-year programmes",
@@ -3854,8 +4068,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
+          "verified": "2026-10-27",
+          "quote": "March 1, 2027 Applications are due for all first-year full-time programs, except Commerce, Health Sciences, and Nursing."
+        }
       },
       {
         "name": "All documents, including transcripts and English test scores",
@@ -3869,8 +4091,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
+          "verified": "2026-10-27",
+          "quote": "March 31, 2027 Deadline to submit all documents, including transcripts and English test scores."
+        }
       }
     ],
     "applicationFee": {
@@ -4237,8 +4467,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.dal.ca/admissions/dates-and-deadlines.html",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.dal.ca/admissions/dates-and-deadlines.html",
+          "verified": "2026-10-27",
+          "quote": "September 2027 entry - Program specific deadlines Feb. 15, 2027 Bachelor of Science (Nursing)"
+        }
       },
       {
         "name": "Application deadline: Environmental Design Studies (Architecture)",
@@ -4252,8 +4490,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.dal.ca/admissions/dates-and-deadlines.html",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.dal.ca/admissions/dates-and-deadlines.html",
+          "verified": "2026-10-27",
+          "quote": "March 1, 2027 Bachelor of Environmental Design Studies (Architecture)"
+        }
       },
       {
         "name": "Accept the offer (admission deposit) and prove English proficiency",
@@ -4267,8 +4513,16 @@ window.UNIPATH.universities.push(
         "conditions": "Other programmes have no fixed deadline: applications are considered while space remains, before classes start in September.",
         "status": "confirmed",
         "source": "https://www.dal.ca/admissions/dates-and-deadlines.html",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.dal.ca/admissions/dates-and-deadlines.html",
+          "verified": "2026-10-27",
+          "quote": "September 2027 entry … May 1, 2027 Deadline to accept your offer of admission by paying your admission deposit"
+        }
       },
       {
         "name": "General Entrance Awards — required documents",
@@ -5070,32 +5324,44 @@ window.UNIPATH.universities.push(
       {
         "name": "Application deadline: quota programmes (medicine, pharmacy, occupational therapy, physiotherapy, sexology, biomedical sciences)",
         "kind": "regular",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2026-11-01",
-        "date": "1 November 2026",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 November before the year of entry — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": null,
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.ulaval.ca/admission/deposez-votre-demande-dadmission/dates-limites-de-depot",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.ulaval.ca/admission/deposez-votre-demande-dadmission/dates-limites-de-depot",
+          "verified": "2026-10-27",
+          "quote": "est le 1er novembre précédant l’année d’admission visée"
+        }
       },
       {
         "name": "Application deadline: limited-capacity and open bachelor’s programmes",
         "kind": "regular",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-02-01",
-        "date": "1 February 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 February — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "An application filed after the deadline is moved to a later term. Immigration steps can take four to six months.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.ulaval.ca/admission/deposez-votre-demande-dadmission/dates-limites-de-depot",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.ulaval.ca/admission/deposez-votre-demande-dadmission/dates-limites-de-depot",
+          "verified": "2026-10-27",
+          "quote": "Programmes à capacité d'accueil limitée Date limite: 1er février"
+        }
       }
     ],
     "applicationFee": {
@@ -5344,32 +5610,44 @@ window.UNIPATH.universities.push(
       {
         "name": "Apply with documents to be considered for USask Entrance Scholarships",
         "kind": "priority",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2026-12-01",
-        "date": "1 December 2026",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 December — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": null,
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://admissions.usask.ca/money/scholarships.php",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://admissions.usask.ca/money/scholarships.php",
+          "verified": "2026-10-27",
+          "quote": "ensure your transcript and other admission documents have been submitted to the Admissions Office by December 1."
+        }
       },
       {
         "name": "Apply for admission to be eligible for international student awards",
         "kind": "priority",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-02-15",
-        "date": "15 February 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 February — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": null,
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://admissions.usask.ca/money/scholarships.php",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://admissions.usask.ca/money/scholarships.php",
+          "verified": "2026-10-27",
+          "quote": "Step 1: Apply for admission by February 15"
+        }
       },
       {
         "name": "International application deadline (Arts and Science)",
@@ -5383,8 +5661,16 @@ window.UNIPATH.universities.push(
         "conditions": "Documents due 1 June 2027. Other colleges set their own dates.",
         "status": "confirmed",
         "source": "https://admissions.usask.ca/computer-science.php",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://admissions.usask.ca/computer-science.php",
+          "verified": "2026-10-27",
+          "quote": "Fall September 2027 July 15, 2027 Documents due: Aug. 1, 2027 May 1, 2027 Documents due: June 1, 2027"
+        }
       }
     ],
     "applicationFee": {
@@ -5734,8 +6020,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://umanitoba.ca/financial-aid-and-awards/entrance-awards",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": "The same official list labels the 1 March 2027 admission and scholarship deadline “(Fall 2026)”; that label conflicts with its year and is not used here.",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://umanitoba.ca/financial-aid-and-awards/entrance-awards",
+          "verified": "2026-10-27",
+          "quote": "Dec. 1, 2026 International Excellence Entrance Scholarship deadline"
+        }
       },
       {
         "name": "Admission application and entrance scholarship consideration",
@@ -6087,8 +6381,16 @@ window.UNIPATH.universities.push(
         "conditions": "Applications to Landscape Architecture close on 1 February.",
         "status": "confirmed",
         "source": "https://www.uoguelph.ca/admission/undergraduate/apply/deadlines",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.uoguelph.ca/admission/undergraduate/apply/deadlines",
+          "verified": "2026-10-27",
+          "quote": "For the 2026-27 calendar year … February 1 Deadline for high school students studying outside of Canada to submit documents to be considered for early admission"
+        }
       },
       {
         "name": "Proof of English proficiency (soft deadline)",
@@ -6102,8 +6404,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.uoguelph.ca/admission/undergraduate/apply/deadlines",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.uoguelph.ca/admission/undergraduate/apply/deadlines",
+          "verified": "2026-10-27",
+          "quote": "For the 2026-27 calendar year … March 1 Deadline for out-of-country applicants to provide proof of English proficiency (soft deadline)"
+        }
       },
       {
         "name": "Dr. Franco J. Vaccarino President’s Scholarship application",
@@ -6143,8 +6453,16 @@ window.UNIPATH.universities.push(
         "conditions": "Documents due 22 May.",
         "status": "confirmed",
         "source": "https://www.uoguelph.ca/admission/undergraduate/apply/deadlines",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.uoguelph.ca/admission/undergraduate/apply/deadlines",
+          "verified": "2026-10-27",
+          "quote": "May 15 Deadline for high school students studying outside of Canada to apply for fall 2027 entry"
+        }
       },
       {
         "name": "Accept the offer of admission",
@@ -6158,8 +6476,16 @@ window.UNIPATH.universities.push(
         "conditions": "The C$2,000 tuition deposit is due 15 June.",
         "status": "confirmed",
         "source": "https://www.uoguelph.ca/admission/undergraduate/apply/deadlines",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.uoguelph.ca/admission/undergraduate/apply/deadlines",
+          "verified": "2026-10-27",
+          "quote": "For the 2026-27 calendar year … June 1 Deadline for international students studying outside of Canada to accept their offer of admission"
+        }
       },
       {
         "name": "Vaccarino scholarship: reference letters",
@@ -6532,8 +6858,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://admissions.carleton.ca/deadlines/",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://admissions.carleton.ca/deadlines/",
+          "verified": "2026-10-27",
+          "quote": "This timeline is based on the 2026-2027 academic year. … March 1, 2027 – Deadline to apply for a Prestige Scholarship."
+        }
       },
       {
         "name": "Programme-specific application deadlines",
@@ -6547,8 +6881,16 @@ window.UNIPATH.universities.push(
         "conditions": "Some programmes have early deadlines and extra admission material, due 5 March 2027.",
         "status": "confirmed",
         "source": "https://admissions.carleton.ca/deadlines/",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://admissions.carleton.ca/deadlines/",
+          "verified": "2026-10-27",
+          "quote": "March 1, 2027 – Program specific application deadlines*."
+        }
       },
       {
         "name": "Main application deadline for international students (transcripts from outside Canada or the US)",
@@ -6562,8 +6904,16 @@ window.UNIPATH.universities.push(
         "conditions": "Applications are reviewed on a rolling basis; applying early is encouraged.",
         "status": "confirmed",
         "source": "https://admissions.carleton.ca/deadlines/",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://admissions.carleton.ca/deadlines/",
+          "verified": "2026-10-27",
+          "quote": "April 1, 2027 – Main deadline to apply for international students (whose transcripts originate outside Canada or the US)*."
+        }
       }
     ],
     "applicationFee": {
@@ -6915,8 +7265,16 @@ window.UNIPATH.universities.push(
         "conditions": "Schulich does not accept applications after 15 January; its supplementary application is due 1 February 2027. Social Work also closes on 15 January.",
         "status": "confirmed",
         "source": "https://futurestudents.yorku.ca/requirements/deadlines",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://futurestudents.yorku.ca/requirements/deadlines",
+          "verified": "2026-10-27",
+          "quote": "Fall 2027 (September) January 15, 2027 … Schulich School of Business (BBA) will not accept applications after the January 15 deadline."
+        }
       },
       {
         "name": "President’s International Scholarship of Excellence: student application",
@@ -6956,8 +7314,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://futurestudents.yorku.ca/requirements/deadlines",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://futurestudents.yorku.ca/requirements/deadlines",
+          "verified": "2026-10-27",
+          "quote": "Fall 2027 (September) … Deadlines exceptions: Nursing: Application for Direct Entry Nursing is February 1."
+        }
       },
       {
         "name": "Application deadline for international students (fall 2027)",
@@ -6971,8 +7337,16 @@ window.UNIPATH.universities.push(
         "conditions": "Applications are still accepted and assessed until each programme is full; apply early for study permit time.",
         "status": "confirmed",
         "source": "https://futurestudents.yorku.ca/requirements/deadlines",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://futurestudents.yorku.ca/requirements/deadlines",
+          "verified": "2026-10-27",
+          "quote": "Fall 2027 (September) January 15, 2027 March 24, 2027 March 24, 2027 March 24, 2027"
+        }
       },
       {
         "name": "PISE: school nomination and reference submission",
@@ -7349,32 +7723,44 @@ window.UNIPATH.universities.push(
       {
         "name": "Recommended date for U.S. and international applicants (immigration documents)",
         "kind": "priority",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-02-01",
-        "date": "1 February 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 February — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": null,
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.concordia.ca/admissions/undergraduate/apply.html",
-        "verified": "2026-10-16",
-        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.concordia.ca/admissions/undergraduate/apply.html",
+          "verified": "2026-10-27",
+          "quote": "U.S. and international applicants: Apply no later than February 1 to allow time for immigration document processing."
+        }
       },
       {
         "name": "Application deadline, fall entry",
         "kind": "regular",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-03-01",
-        "date": "1 March 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 March — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Programmes with additional requirements set their own dates.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.concordia.ca/admissions/undergraduate/apply.html",
-        "verified": "2026-10-16",
-        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.concordia.ca/admissions/undergraduate/apply.html",
+          "verified": "2026-10-27",
+          "quote": "FALL ENTRY (September) Deadline: March 1"
+        }
       }
     ],
     "applicationFee": {
@@ -7690,32 +8076,44 @@ window.UNIPATH.universities.push(
       {
         "name": "Priority deadline for the fall semester (also for early entrance scholarships)",
         "kind": "priority",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-03-01",
-        "date": "1 March 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 March — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Deadlines are in Newfoundland Time. International applicants are advised to apply at least 12 weeks before the semester starts; competitive programmes have their own dates.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.mun.ca/undergrad/admissions/admission-deadlines/",
-        "verified": "2026-10-16",
-        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.mun.ca/undergrad/admissions/admission-deadlines/",
+          "verified": "2026-10-27",
+          "quote": "Fall semester (September to December) Sept. 10 March 1 Aug. 20 Sept. 9"
+        }
       },
       {
         "name": "Document deadline, fall semester",
         "kind": "documents",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-08-20",
-        "date": "20 August 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "20 August — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "The general application closes on the first day of the semester.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.mun.ca/undergrad/admissions/admission-deadlines/",
-        "verified": "2026-10-16",
-        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.mun.ca/undergrad/admissions/admission-deadlines/",
+          "verified": "2026-10-27",
+          "quote": "Fall semester (September to December) Sept. 10 March 1 Aug. 20 Sept. 9"
+        }
       }
     ],
     "applicationFee": {
@@ -8025,32 +8423,44 @@ window.UNIPATH.universities.push(
       {
         "name": "Entrance scholarship application (after admission, in the UNB application account)",
         "kind": "scholarship",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-03-01",
-        "date": "1 March 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 March — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": null,
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.unb.ca/moneymatters/scholarships/international.html",
-        "verified": "2026-10-16",
-        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.unb.ca/moneymatters/scholarships/international.html",
+          "verified": "2026-10-27",
+          "quote": "Once admitted, sign into your UNB application account and apply for entrance scholarships by March 1."
+        }
       },
       {
         "name": "Application deadline for most undergraduate programmes",
         "kind": "regular",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-03-31",
-        "date": "31 March 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "31 March — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Guideline for international applicants: apply before 1 June for September. Nursing closes 15 February; Education 15 December. Programmes accept later applications while seats remain.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.unb.ca/international/apply/deadlines.html",
-        "verified": "2026-10-16",
-        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.unb.ca/international/apply/deadlines.html",
+          "verified": "2026-10-27",
+          "quote": "The deadline to apply for most undergraduate programs is March 31."
+        }
       }
     ],
     "applicationFee": {
@@ -8344,17 +8754,23 @@ window.UNIPATH.universities.push(
       {
         "name": "Recommended application date for September admission",
         "kind": "priority",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-05-01",
-        "date": "1 May 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 May — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Qualified students are still admitted after this date while the programme has space.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://future.uwindsor.ca/apply-international",
-        "verified": "2026-10-16",
-        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://future.uwindsor.ca/apply-international",
+          "verified": "2026-10-27",
+          "quote": "May 1 for September admissions (Fall)"
+        }
       }
     ],
     "applicationFee": {
@@ -8688,17 +9104,23 @@ window.UNIPATH.universities.push(
       {
         "name": "Final application deadline, fall term (all programmes except those listed separately)",
         "kind": "regular",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-08-15",
-        "date": "15 August 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 August — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "There is no early deadline for international applicants. Nursing: application by 31 December and documents by 31 January; Fine Arts portfolio by 1 April.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.uregina.ca/admissions/undergraduate/deadlines.html",
-        "verified": "2026-10-16",
-        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.uregina.ca/admissions/undergraduate/deadlines.html",
+          "verified": "2026-10-27",
+          "quote": "ALL PROGRAMS – FINAL DEADLINE for new applicants, and re-admission deadline for returning students (except those noted below) August 15"
+        }
       },
       {
         "name": "ISD award consideration: supporting documents",
@@ -9456,8 +9878,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.torontomu.ca/admissions/undergraduate/apply/application-dates/",
-        "verified": "2026-10-16",
-        "note": "The page heading is “Fall 2027 admission”; the date itself is printed without a year."
+        "verified": "2026-10-27",
+        "note": "The page heading is “Fall 2027 admission”; the date itself is printed without a year.",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.torontomu.ca/admissions/undergraduate/apply/application-dates/",
+          "verified": "2026-10-27",
+          "quote": "Fall 2027 admission … Guaranteed consideration date for applications to all programs: February 1"
+        }
       },
       {
         "name": "Prestigious entrance scholarships and ISLA – Fall 2027: application on AwardSpring",
@@ -9473,8 +9903,16 @@ window.UNIPATH.universities.push(
         "conditions": "Opens 2 November 2026; applications close at 11:59 p.m. ET.",
         "status": "confirmed",
         "source": "https://www.torontomu.ca/admissions/scholarships-awards/",
-        "verified": "2026-10-16",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.torontomu.ca/admissions/scholarships-awards/",
+          "verified": "2026-10-27",
+          "quote": "The application for fall 2027 awards is available on AwardSpring from November 2, 2026 until the extended deadline to apply, February 16, 2027."
+        }
       }
     ],
     "applicationFee": {
@@ -9816,8 +10254,16 @@ window.UNIPATH.universities.push(
         "conditions": "Applicants who do not yet meet the English requirement have continuous intake. Competitive programmes may fill earlier.",
         "status": "confirmed",
         "source": "https://brocku.ca/admissions/apply/",
-        "verified": "2026-10-16",
-        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "Read on the rendered official page (the static copy is refused to automated readers).",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://brocku.ca/admissions/apply/",
+          "verified": "2026-10-27",
+          "quote": "If a program reaches capacity after the January 15, 2027 application deadline … International students (only applying to Brock and meet English proficiency requirements) … January 15 (Fall entry)"
+        }
       }
     ],
     "applicationFee": {
@@ -10136,19 +10582,19 @@ window.UNIPATH.universities.push(
       {
         "name": "Inspiring Lives Scholarship application",
         "kind": "scholarship",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
+        "entryTerm": null,
+        "entryYear": null,
         "dateISO": "2026-11-08",
         "date": "8 November 2026",
         "time": "23:59",
-        "timezone": "ET",
+        "timezone": "EDT",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "You must accept your offer of admission before applying.",
-        "status": "confirmed",
+        "status": "not-confirmed",
         "source": "https://www.wlu.ca/future-students/undergraduate/applicants/international/assets/resources/inspiring-lives-scholarship.html",
-        "verified": "2026-10-16",
-        "note": null
+        "verified": "2026-10-27",
+        "note": "The page prints “Application deadline: Sunday, Nov. 8, 2026 at 11:59 p.m. EDT” for students who have accepted their offer and are entering first year in the fall term, but it does not say which fall. The intake is not established."
       },
       {
         "name": "Application deadline, fall (September) 2027",
@@ -10162,8 +10608,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.wlu.ca/future-students/undergraduate/applicants/international/admissions.html",
-        "verified": "2026-10-16",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.wlu.ca/future-students/undergraduate/applicants/international/admissions.html",
+          "verified": "2026-10-27",
+          "quote": "April 1, 2027: The deadline to apply for fall (September) 2027."
+        }
       }
     ],
     "applicationFee": {
@@ -10516,19 +10970,25 @@ window.UNIPATH.universities.push(
       {
         "name": "International Prestigious Scholarships application",
         "kind": "scholarship",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-02-15",
-        "date": "15 February 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 February — intake year not confirmed",
         "time": "23:59",
         "timezone": "ET",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Applications open 1 November and close 15 February “each year”, at 11:59 p.m. EST.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.trentu.ca/international/discover-trent/tuition-scholarships/scholarships",
-        "verified": "2026-10-16",
-        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.trentu.ca/international/discover-trent/tuition-scholarships/scholarships",
+          "verified": "2026-10-27",
+          "quote": "Applications for International Prestigious Scholarships open on November 1 and close on February 15 each year."
+        }
       },
       {
         "name": "Recommended application date for programmes with earlier deadlines",
@@ -10932,8 +11392,16 @@ window.UNIPATH.universities.push(
         "conditions": "Most programmes still accept applications later, pending space. Nursing: 15 January 2027.",
         "status": "confirmed",
         "source": "https://www.lakeheadu.ca/studentcentral/applying/application-deadlines",
-        "verified": "2026-10-17",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.lakeheadu.ca/studentcentral/applying/application-deadlines",
+          "verified": "2026-10-27",
+          "quote": "Recommended Deadlines to Apply for Fall 2027 (Full Time & Part Time) Admission: … March 1, 2027 (International Applicants)"
+        }
       }
     ],
     "applicationFee": {
@@ -11826,8 +12294,16 @@ window.UNIPATH.universities.push(
         "conditions": "First-semester transcripts must reach the Admissions office by 12 noon.",
         "status": "confirmed",
         "source": "https://www.stfx.ca/applications-admissions/admissions-information/key-dates-deadlines",
-        "verified": "2026-10-17",
-        "note": null
+        "verified": "2026-10-27",
+        "note": "Read on the rendered official page (the static copy is refused to automated readers).",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.stfx.ca/applications-admissions/admissions-information/key-dates-deadlines",
+          "verified": "2026-10-27",
+          "quote": "Application for September 2027 open for admission. … March 2027 March 1 Deadline to apply for admission to StFX to be eligible for Major Scholarship consideration."
+        }
       },
       {
         "name": "Confirm acceptance; room guarantee; accept scholarships",
@@ -11841,8 +12317,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.stfx.ca/applications-admissions/admissions-information/key-dates-deadlines",
-        "verified": "2026-10-17",
-        "note": null
+        "verified": "2026-10-27",
+        "note": "Read on the rendered official page (the static copy is refused to automated readers).",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.stfx.ca/applications-admissions/admissions-information/key-dates-deadlines",
+          "verified": "2026-10-27",
+          "quote": "May 2027 May 15 Confirm your acceptance to StFX. … Deadline to accept Scholarships."
+        }
       },
       {
         "name": "Deadline for international student applications",
@@ -11856,8 +12340,16 @@ window.UNIPATH.universities.push(
         "conditions": "Applications after 30 May 2027 are reviewed case by case according to visa processing times. Nursing: 3 March 2027.",
         "status": "confirmed",
         "source": "https://www.stfx.ca/applications-admissions/admissions-information/key-dates-deadlines",
-        "verified": "2026-10-17",
-        "note": null
+        "verified": "2026-10-27",
+        "note": "Read on the rendered official page (the static copy is refused to automated readers).",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.stfx.ca/applications-admissions/admissions-information/key-dates-deadlines",
+          "verified": "2026-10-27",
+          "quote": "May 30 Deadline for International Student Applications. Applications received after the May 30, 2027, deadline will be reviewed on a case by case basis according to visa processing times."
+        }
       }
     ],
     "applicationFee": {
@@ -12162,8 +12654,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://mta.ca/admissions/important-admission-dates-and-deadlines",
-        "verified": "2026-10-17",
-        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://mta.ca/admissions/important-admission-dates-and-deadlines",
+          "verified": "2026-10-27",
+          "quote": "Preparing to apply for 2027-28 academic year … Feb. 1 BMus and BMusEd APPLICATION DEADLINE"
+        }
       },
       {
         "name": "Fine Arts application and portfolio",
@@ -12177,8 +12677,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://mta.ca/admissions/important-admission-dates-and-deadlines",
-        "verified": "2026-10-17",
-        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://mta.ca/admissions/important-admission-dates-and-deadlines",
+          "verified": "2026-10-27",
+          "quote": "Preparing to apply for 2027-28 academic year … Feb. 15 FINE ARTS APPLICATION AND PORTFOLIO DEADLINE"
+        }
       },
       {
         "name": "Application for admission and scholarships, with all documents, to be considered for scholarships",
@@ -12192,8 +12700,16 @@ window.UNIPATH.universities.push(
         "conditions": "No general application deadline is printed; the page lists dates for the 2027–28 academic year.",
         "status": "confirmed",
         "source": "https://mta.ca/admissions/important-admission-dates-and-deadlines",
-        "verified": "2026-10-17",
-        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://mta.ca/admissions/important-admission-dates-and-deadlines",
+          "verified": "2026-10-27",
+          "quote": "Preparing to apply for 2027-28 academic year … March 1 SCHOLARSHIPS APPLICATION DEADLINE To be considered for scholarships: Deadline to submit your application for admission and scholarships, and all required documents."
+        }
       },
       {
         "name": "Accept the offer of admission and scholarships",
@@ -12207,8 +12723,16 @@ window.UNIPATH.universities.push(
         "conditions": "International students receive deposit instructions by email after an unconditional offer.",
         "status": "confirmed",
         "source": "https://mta.ca/admissions/important-admission-dates-and-deadlines",
-        "verified": "2026-10-17",
-        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://mta.ca/admissions/important-admission-dates-and-deadlines",
+          "verified": "2026-10-27",
+          "quote": "Preparing to apply for 2027-28 academic year … May 1 ACCEPT YOUR OFFER! Deadline to accept your offer of admission and scholarships/bursaries"
+        }
       }
     ],
     "applicationFee": {
@@ -12516,8 +13040,16 @@ window.UNIPATH.universities.push(
         "conditions": "Applications for 2027–28 opened on 1 October 2026; the Entrance Awards application opened on 15 October 2026.",
         "status": "confirmed",
         "source": "https://www.smu.ca/future-students/admissions/importantdates/",
-        "verified": "2026-10-17",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.smu.ca/future-students/admissions/importantdates/",
+          "verified": "2026-10-27",
+          "quote": "Admission applications open for the 2027-2028 academic year … Entrance Awards application opens (due February 15, 2027)."
+        }
       }
     ],
     "applicationFee": {
@@ -12828,8 +13360,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.ubishops.ca/admissions/bishops-university-online-application/",
-        "verified": "2026-10-17",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.ubishops.ca/admissions/bishops-university-online-application/",
+          "verified": "2026-10-27",
+          "quote": "Fall 2027 Semester: … March 31, 2027: Deadline for international students (except USA Citizens) to submit an application and be considered for Fall entry."
+        }
       },
       {
         "name": "Supporting documents for international applicants",
@@ -12843,8 +13383,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.ubishops.ca/admissions/bishops-university-online-application/",
-        "verified": "2026-10-17",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.ubishops.ca/admissions/bishops-university-online-application/",
+          "verified": "2026-10-27",
+          "quote": "April 15, 2027: Deadline for international students (except USA Citizens) to submit supporting documentation for an undergraduate application and be considered for the Fall entry."
+        }
       }
     ],
     "applicationFee": {
@@ -13144,47 +13692,65 @@ window.UNIPATH.universities.push(
       {
         "name": "Early admission and Board of Governors’ Admission Scholarship (up to C$1,000)",
         "kind": "priority",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2026-12-15",
-        "date": "15 December 2026",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 December — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": null,
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.ulethbridge.ca/future-student/important-dates",
-        "verified": "2026-10-17",
-        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.ulethbridge.ca/future-student/important-dates",
+          "verified": "2026-10-27",
+          "quote": "December 15 Early admission application deadline Board of Governors' scholarship application deadline"
+        }
       },
       {
         "name": "High school awards application",
         "kind": "scholarship",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-03-15",
-        "date": "15 March 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 March — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": null,
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.ulethbridge.ca/future-student/important-dates",
-        "verified": "2026-10-17",
-        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.ulethbridge.ca/future-student/important-dates",
+          "verified": "2026-10-27",
+          "quote": "March 15 High school awards application deadline"
+        }
       },
       {
         "name": "Application deadline for international students",
         "kind": "regular",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-06-15",
-        "date": "15 June 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 June — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Nursing closes on 1 March; Music on 15 June.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.ulethbridge.ca/future-student/important-dates",
-        "verified": "2026-10-17",
-        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.ulethbridge.ca/future-student/important-dates",
+          "verified": "2026-10-27",
+          "quote": "June 15 Application deadline for international students"
+        }
       }
     ],
     "applicationFee": {
@@ -13802,8 +14368,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.msvu.ca/future-students/admission-requirements/application-deadlines/",
-        "verified": "2026-10-17",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.msvu.ca/future-students/admission-requirements/application-deadlines/",
+          "verified": "2026-10-27",
+          "quote": "For September 2027 Entrance … Entrance scholarship candidates – March 1, 2027 International undergraduate applicants – May 3, 2027"
+        }
       },
       {
         "name": "Application deadline for international undergraduate applicants (September 2027)",
@@ -13817,8 +14391,16 @@ window.UNIPATH.universities.push(
         "conditions": "The dossier (transcripts, documents and fee) must be complete by the deadline.",
         "status": "confirmed",
         "source": "https://www.msvu.ca/future-students/admission-requirements/application-deadlines/",
-        "verified": "2026-10-17",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.msvu.ca/future-students/admission-requirements/application-deadlines/",
+          "verified": "2026-10-27",
+          "quote": "For September 2027 Entrance … Entrance scholarship candidates – March 1, 2027 International undergraduate applicants – May 3, 2027"
+        }
       }
     ],
     "applicationFee": {
@@ -14457,17 +15039,23 @@ window.UNIPATH.universities.push(
       {
         "name": "Application deadline, September intake",
         "kind": "regular",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-05-01",
-        "date": "1 May 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 May — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Late applications are considered if space is available; some programmes close earlier.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.tru.ca/future/admissions/international/application-deadlines.html",
-        "verified": "2026-10-17",
-        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.tru.ca/future/admissions/international/application-deadlines.html",
+          "verified": "2026-10-27",
+          "quote": "International Student Application Deadlines Semester Deadline January October 1 May February 1 September May 1"
+        }
       }
     ],
     "applicationFee": {
@@ -14757,8 +15345,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.unbc.ca/programs-and-admissions/undergraduate/undergraduate-application-deadlines",
-        "verified": "2026-10-17",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.unbc.ca/programs-and-admissions/undergraduate/undergraduate-application-deadlines",
+          "verified": "2026-10-27",
+          "quote": "Bachelor of Applied Science (Engineering) (BASc) Domestic International September semester March 1, 2027 March 1, 2027"
+        }
       },
       {
         "name": "Health Sciences (BHSc) application deadline",
@@ -14772,8 +15368,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.unbc.ca/programs-and-admissions/undergraduate/undergraduate-application-deadlines",
-        "verified": "2026-10-17",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.unbc.ca/programs-and-admissions/undergraduate/undergraduate-application-deadlines",
+          "verified": "2026-10-27",
+          "quote": "Bachelor of Health Sciences (BHSc) Domestic International September semester May 15, 2027 May 15, 2027"
+        }
       },
       {
         "name": "General-entry programmes (BA, BSc and others): international deadline",
@@ -15304,32 +15908,44 @@ window.UNIPATH.universities.push(
       {
         "name": "Application window for the fall semester closes",
         "kind": "regular",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-06-01",
-        "date": "1 June 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 June — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "The window opens on 1 October. Some programmes may close early due to high demand.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://international.ufv.ca/future-students/apply-to-ufv/application-deadlines/",
-        "verified": "2026-10-17",
-        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://international.ufv.ca/future-students/apply-to-ufv/application-deadlines/",
+          "verified": "2026-10-27",
+          "quote": "Fall semester: October 1 to June 1"
+        }
       },
       {
         "name": "Full payment to confirm acceptance (fall)",
         "kind": "reply",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-06-15",
-        "date": "15 June 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 June — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Without payment by this date you must re-apply for a later semester.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://international.ufv.ca/future-students/apply-to-ufv/application-deadlines/",
-        "verified": "2026-10-17",
-        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://international.ufv.ca/future-students/apply-to-ufv/application-deadlines/",
+          "verified": "2026-10-27",
+          "quote": "We must receive your payment in full by the following dates: Fall semester: June 15"
+        }
       }
     ],
     "applicationFee": {
@@ -15610,8 +16226,16 @@ window.UNIPATH.universities.push(
         "conditions": "Then pay the tuition deposit by 4 December 2026 and submit the study permit application to IRCC by 31 December 2026. The award may close earlier if funds run out.",
         "status": "confirmed",
         "source": "https://www.capilanou.ca/admissions/fees--finances/financial-aid--awards/funding-for-international-students/",
-        "verified": "2026-10-17",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.capilanou.ca/admissions/fees--finances/financial-aid--awards/funding-for-international-students/",
+          "verified": "2026-10-27",
+          "quote": "Fall 2027 term Complete application by November 30, 2026"
+        }
       }
     ],
     "applicationFee": {
@@ -15867,32 +16491,44 @@ window.UNIPATH.universities.push(
       {
         "name": "Nursing (BScN) application deadline",
         "kind": "regular",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-02-01",
-        "date": "1 February 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 February — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": null,
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://laurentian.ca/apply/international-undergraduate-applicants",
-        "verified": "2026-10-17",
-        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://laurentian.ca/apply/international-undergraduate-applicants",
+          "verified": "2026-10-27",
+          "quote": "Bachelor of Science in Nursing (September entry only) – February 1st"
+        }
       },
       {
         "name": "Application deadline, September start (most programmes)",
         "kind": "regular",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-06-15",
-        "date": "15 June 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 June — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Documents by 20 June. Architectural Studies closes 14 February.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://laurentian.ca/apply/international-undergraduate-applicants",
-        "verified": "2026-10-17",
-        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://laurentian.ca/apply/international-undergraduate-applicants",
+          "verified": "2026-10-27",
+          "quote": "September start Application deadline – June 15th"
+        }
       }
     ],
     "applicationFee": {
@@ -16201,8 +16837,16 @@ window.UNIPATH.universities.push(
         "conditions": "Some programmes close earlier. Immigration steps take three to six months or more.",
         "status": "confirmed",
         "source": "https://www.apps.uqam.ca/Application/AdmissionEnLigne/Traitements/DatesLimites/AfficherDatesLimites.aspx?adm_web_cycle=1",
-        "verified": "2026-10-17",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.apps.uqam.ca/Application/AdmissionEnLigne/Traitements/DatesLimites/AfficherDatesLimites.aspx?adm_web_cycle=1",
+          "verified": "2026-10-27",
+          "quote": "IMPORTANT : Informations supplémentaires à l'attention des candidats internationaux Automne : 1er mars (certains programmes ont une date limite plus hâtive) … DATES LIMITES DES DEMANDES D'ADMISSION AUX BACCALAURÉATS … AUTOMNE 2027"
+        }
       }
     ],
     "applicationFee": {
@@ -16449,17 +17093,23 @@ window.UNIPATH.universities.push(
       {
         "name": "Application deadline for international candidates, autumn term (bachelor’s, certificates)",
         "kind": "regular",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-01-15",
-        "date": "15 January 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 January — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Some programmes set other dates. Allow three to six months for permits after admission.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.usherbrooke.ca/admission/da/planifier-demande/dates-limites/1er-cycle",
-        "verified": "2026-10-17",
-        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.usherbrooke.ca/admission/da/planifier-demande/dates-limites/1er-cycle",
+          "verified": "2026-10-27",
+          "quote": "Candidat international 15 janvier 1er juin"
+        }
       }
     ],
     "applicationFee": {
@@ -16748,17 +17398,23 @@ window.UNIPATH.universities.push(
       {
         "name": "Application deadline for international students, autumn session",
         "kind": "regular",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-05-31",
-        "date": "31 May 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "31 May — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "The page says “before 31 May”; the university may close applications earlier depending on demand.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.umoncton.ca/admission/dates-importantes",
-        "verified": "2026-10-17",
-        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.umoncton.ca/admission/dates-importantes",
+          "verified": "2026-10-27",
+          "quote": "Personnes étudiantes internationales Avant le 31 mai pour la session d’automne"
+        }
       }
     ],
     "applicationFee": {
@@ -17054,17 +17710,23 @@ window.UNIPATH.universities.push(
       {
         "name": "Application deadline, September entry (most degree programmes)",
         "kind": "regular",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-01-31",
-        "date": "31 January 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "31 January — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Some programmes keep accepting applications later while they remain open in EducationPlannerBC; applications can close without warning.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.uvic.ca/undergraduate/admissions/application-deadlines/index.php",
-        "verified": "2026-10-19",
-        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.uvic.ca/undergraduate/admissions/application-deadlines/index.php",
+          "verified": "2026-10-27",
+          "quote": "Degree programs Most degree programs: January 31"
+        }
       }
     ],
     "applicationFee": {

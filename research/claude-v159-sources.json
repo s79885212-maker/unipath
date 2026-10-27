@@ -1,0 +1,821 @@
+[
+ {
+  "id": "university-of-toronto",
+  "field": "deadline: Recommended early application date",
+  "source": "https://future.utoronto.ca/deadlines",
+  "quote": "2027 admissions Deadlines to apply … Arts & Science, U of T St. George (including International Foundation Program) November 7 January 15",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-toronto",
+  "field": "deadline: Application deadline (most programmes)",
+  "source": "https://future.utoronto.ca/deadlines",
+  "quote": "2027 admissions Deadlines to apply … Arts & Science, U of T St. George (including International Foundation Program) November 7 January 15",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-toronto",
+  "field": "deadline: Supporting documents (most programmes)",
+  "source": "https://future.utoronto.ca/deadlines",
+  "quote": "2027 admissions Deadlines to submit supporting documentation … Arts & Science, U of T St. George - All other program areas February 1",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mcgill-university",
+  "field": "deadline (annual rule): Application deadline",
+  "source": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/international/other",
+  "quote": "Other international high schools … DEADLINES Application for admission January 15",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mcgill-university",
+  "field": "deadline (annual rule): Major Entrance Scholarship application and documents",
+  "source": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/international/other",
+  "quote": "Major Entrance Scholarship application & documents January 21",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mcgill-university",
+  "field": "deadline (annual rule): Supporting documents",
+  "source": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/international/other",
+  "quote": "Supporting documents March 1",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-alberta",
+  "field": "deadline: Entrance award application",
+  "source": "https://www.ualberta.ca/en/admissions/how-to-apply/dates-deadlines/index.html",
+  "quote": "Timeline for Fall 2027 Applicants … January 10, 2027 Entrance Award Application Deadline",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-alberta",
+  "field": "deadline: Application deadline (most programmes)",
+  "source": "https://www.ualberta.ca/en/admissions/how-to-apply/dates-deadlines/index.html",
+  "quote": "March 1, 2027 Deadline to submit application for admission for most programs.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-alberta",
+  "field": "deadline: Accept offers made before 1 April",
+  "source": "https://www.ualberta.ca/en/admissions/how-to-apply/dates-deadlines/index.html",
+  "quote": "May 1, 2027 Deadline to accept admission offers made before April 1.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-alberta",
+  "field": "deadline: Outstanding documents for high school students",
+  "source": "https://www.ualberta.ca/en/admissions/how-to-apply/dates-deadlines/index.html",
+  "quote": "August 1, 2027 Deadline to submit outstanding documents for high school students.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mcmaster-university",
+  "field": "deadline: Engineering and Computer Science: recommended early submission",
+  "source": "https://future.mcmaster.ca/apply/deadlines/",
+  "quote": "Engineering - International Application Deadline: January 15, 2027. Recommended Early Application Submission: Thursday, November 12, 2026",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mcmaster-university",
+  "field": "deadline: Application deadline: Engineering, Computer Science, Arts & Science",
+  "source": "https://future.mcmaster.ca/apply/deadlines/",
+  "quote": "Engineering - International Application Deadline: January 15, 2027. Recommended Early Application Submission: Thursday, November 12, 2026",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mcmaster-university",
+  "field": "deadline: Application deadline: Humanities, Social Sciences, Business, Life Sciences and other programmes",
+  "source": "https://future.mcmaster.ca/apply/deadlines/",
+  "quote": "Business - International Application Deadline: April 1, 2027",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-de-montreal",
+  "field": "deadline: Application deadline (bachelor’s programmes, studies outside Quebec)",
+  "source": "https://admission.umontreal.ca/programmes/baccalaureat-en-informatique/",
+  "quote": "Vous étudiez (ou avez étudié) à l’université ou hors Québec : 1er février 2027Du 1er août 2026 au 1er février 2027",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-de-montreal",
+  "field": "deadline: French requirement: proof due (example: Baccalauréat en informatique)",
+  "source": "https://admission.umontreal.ca/programmes/baccalaureat-en-informatique/",
+  "quote": "Vous étudiez (ou avez étudié) à l’université ou hors Québec : 15 février 2027Du 1er août 2026 au 15 février 2027",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-waterloo",
+  "field": "deadline: Application deadline: Engineering (except Architecture)",
+  "source": "https://uwaterloo.ca/future-students/admissions/deadlines",
+  "quote": "Engineering programs (other than Architecture) January 15, 2027 February 1, 2027",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-waterloo",
+  "field": "deadline: Application deadline: programmes other than Engineering",
+  "source": "https://uwaterloo.ca/future-students/admissions/deadlines",
+  "quote": "Programs other than Engineering February 1, 2027 February 15, 2027",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "western-university",
+  "field": "deadline: OUAC application for equal consideration",
+  "source": "https://welcome.uwo.ca/next-steps/apply/admission-deadlines.html",
+  "quote": "January 2027 … Deadline to submit OUAC application for equal consideration to full-time undergraduate studies January 15",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "western-university",
+  "field": "deadline: National Scholarship application (including International President’s Entrance Scholarships)",
+  "source": "https://welcome.uwo.ca/next-steps/apply/admission-deadlines.html",
+  "quote": "February 2027 … National Scholarship application deadline February 14",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-ottawa",
+  "field": "deadline: Recommended application date",
+  "source": "https://www.uottawa.ca/study/undergraduate-studies/application-deadlines",
+  "quote": "accepting applications for programs that begin in September 2027 on September 17, 2026. … we recommend that you submit your application before January 15, 2027.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-ottawa",
+  "field": "deadline: Documents and test results",
+  "source": "https://www.uottawa.ca/study/undergraduate-studies/application-deadlines",
+  "quote": "submitting documents and test results, as soon possible, by February 15, 2027, or 30 days after you apply.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-calgary",
+  "field": "deadline (annual rule): Prestige Award application (incl. International Entrance Scholarship)",
+  "source": "https://www.ucalgary.ca/future-students/undergraduate/admissions/dates",
+  "quote": "Dec. 1 Application deadline: Prestige Award for incoming high school students",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-calgary",
+  "field": "deadline (annual rule): Application deadline, including the application fee",
+  "source": "https://www.ucalgary.ca/future-students/undergraduate/admissions/dates",
+  "quote": "March 1 Application deadline: Fall undergraduate admission",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-calgary",
+  "field": "deadline (annual rule): Supporting documents (unofficial transcripts)",
+  "source": "https://www.ucalgary.ca/future-students/undergraduate/admissions/dates",
+  "quote": "March 15 Document deadline: Fall undergraduate admission",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-calgary",
+  "field": "deadline (annual rule): Accept an offer dated 1 April or earlier",
+  "source": "https://www.ucalgary.ca/future-students/undergraduate/admissions/dates",
+  "quote": "May 1 Acceptance deadline: Fall undergraduate admission Deadline to accept fall offer of admission dated April 1 or prior.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "queens-university",
+  "field": "deadline: Recommended OUAC application date to reach the Major Admission Award application",
+  "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
+  "quote": "November 20, 2026 … we strongly recommend applying to Queen’s on OUAC by November 20.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "queens-university",
+  "field": "deadline: Major Admission Award application on SOLUS",
+  "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
+  "quote": "December 8, 2026 Deadline to submit the online Major Admission Award (MAA)",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "queens-university",
+  "field": "deadline: Application deadline: Commerce, Health Sciences and Nursing",
+  "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
+  "quote": "February 1, 2027 Applications are due for first-year full-time programs in Commerce, Health Science and Nursing.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "queens-university",
+  "field": "deadline: Application deadline: all other first-year programmes",
+  "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
+  "quote": "March 1, 2027 Applications are due for all first-year full-time programs, except Commerce, Health Sciences, and Nursing.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "queens-university",
+  "field": "deadline: All documents, including transcripts and English test scores",
+  "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
+  "quote": "March 31, 2027 Deadline to submit all documents, including transcripts and English test scores.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "dalhousie-university",
+  "field": "deadline: Application deadline: Nursing, Health Sciences, Medical Sciences, Social Work",
+  "source": "https://www.dal.ca/admissions/dates-and-deadlines.html",
+  "quote": "September 2027 entry - Program specific deadlines Feb. 15, 2027 Bachelor of Science (Nursing)",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "dalhousie-university",
+  "field": "deadline: Application deadline: Environmental Design Studies (Architecture)",
+  "source": "https://www.dal.ca/admissions/dates-and-deadlines.html",
+  "quote": "March 1, 2027 Bachelor of Environmental Design Studies (Architecture)",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "dalhousie-university",
+  "field": "deadline: Accept the offer (admission deposit) and prove English proficiency",
+  "source": "https://www.dal.ca/admissions/dates-and-deadlines.html",
+  "quote": "September 2027 entry … May 1, 2027 Deadline to accept your offer of admission by paying your admission deposit",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-laval",
+  "field": "deadline (annual rule): Application deadline: quota programmes (medicine, pharmacy, occupational therapy, physiotherapy, sexology, biomedical sciences)",
+  "source": "https://www.ulaval.ca/admission/deposez-votre-demande-dadmission/dates-limites-de-depot",
+  "quote": "est le 1er novembre précédant l’année d’admission visée",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-laval",
+  "field": "deadline (annual rule): Application deadline: limited-capacity and open bachelor’s programmes",
+  "source": "https://www.ulaval.ca/admission/deposez-votre-demande-dadmission/dates-limites-de-depot",
+  "quote": "Programmes à capacité d'accueil limitée Date limite: 1er février",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-saskatchewan",
+  "field": "deadline (annual rule): Apply with documents to be considered for USask Entrance Scholarships",
+  "source": "https://admissions.usask.ca/money/scholarships.php",
+  "quote": "ensure your transcript and other admission documents have been submitted to the Admissions Office by December 1.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-saskatchewan",
+  "field": "deadline (annual rule): Apply for admission to be eligible for international student awards",
+  "source": "https://admissions.usask.ca/money/scholarships.php",
+  "quote": "Step 1: Apply for admission by February 15",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-saskatchewan",
+  "field": "deadline: International application deadline (Arts and Science)",
+  "source": "https://admissions.usask.ca/computer-science.php",
+  "quote": "Fall September 2027 July 15, 2027 Documents due: Aug. 1, 2027 May 1, 2027 Documents due: June 1, 2027",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-manitoba",
+  "field": "deadline: International Excellence Entrance Scholarship deadline",
+  "source": "https://umanitoba.ca/financial-aid-and-awards/entrance-awards",
+  "quote": "Dec. 1, 2026 International Excellence Entrance Scholarship deadline",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-guelph",
+  "field": "deadline: Documents for early admission consideration (students outside Canada)",
+  "source": "https://www.uoguelph.ca/admission/undergraduate/apply/deadlines",
+  "quote": "For the 2026-27 calendar year … February 1 Deadline for high school students studying outside of Canada to submit documents to be considered for early admission",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-guelph",
+  "field": "deadline: Proof of English proficiency (soft deadline)",
+  "source": "https://www.uoguelph.ca/admission/undergraduate/apply/deadlines",
+  "quote": "For the 2026-27 calendar year … March 1 Deadline for out-of-country applicants to provide proof of English proficiency (soft deadline)",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-guelph",
+  "field": "deadline: Application deadline for fall 2027 (high school students outside Canada)",
+  "source": "https://www.uoguelph.ca/admission/undergraduate/apply/deadlines",
+  "quote": "May 15 Deadline for high school students studying outside of Canada to apply for fall 2027 entry",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-guelph",
+  "field": "deadline: Accept the offer of admission",
+  "source": "https://www.uoguelph.ca/admission/undergraduate/apply/deadlines",
+  "quote": "For the 2026-27 calendar year … June 1 Deadline for international students studying outside of Canada to accept their offer of admission",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "carleton-university",
+  "field": "deadline: Prestige Scholarship application",
+  "source": "https://admissions.carleton.ca/deadlines/",
+  "quote": "This timeline is based on the 2026-2027 academic year. … March 1, 2027 – Deadline to apply for a Prestige Scholarship.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "carleton-university",
+  "field": "deadline: Programme-specific application deadlines",
+  "source": "https://admissions.carleton.ca/deadlines/",
+  "quote": "March 1, 2027 – Program specific application deadlines*.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "carleton-university",
+  "field": "deadline: Main application deadline for international students (transcripts from outside Canada or the US)",
+  "source": "https://admissions.carleton.ca/deadlines/",
+  "quote": "April 1, 2027 – Main deadline to apply for international students (whose transcripts originate outside Canada or the US)*.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "york-university",
+  "field": "deadline: Schulich BBA: application deadline",
+  "source": "https://futurestudents.yorku.ca/requirements/deadlines",
+  "quote": "Fall 2027 (September) January 15, 2027 … Schulich School of Business (BBA) will not accept applications after the January 15 deadline.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "york-university",
+  "field": "deadline: Direct Entry Nursing application deadline",
+  "source": "https://futurestudents.yorku.ca/requirements/deadlines",
+  "quote": "Fall 2027 (September) … Deadlines exceptions: Nursing: Application for Direct Entry Nursing is February 1.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "york-university",
+  "field": "deadline: Application deadline for international students (fall 2027)",
+  "source": "https://futurestudents.yorku.ca/requirements/deadlines",
+  "quote": "Fall 2027 (September) January 15, 2027 March 24, 2027 March 24, 2027 March 24, 2027",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "concordia-university",
+  "field": "deadline (annual rule): Recommended date for U.S. and international applicants (immigration documents)",
+  "source": "https://www.concordia.ca/admissions/undergraduate/apply.html",
+  "quote": "U.S. and international applicants: Apply no later than February 1 to allow time for immigration document processing.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "concordia-university",
+  "field": "deadline (annual rule): Application deadline, fall entry",
+  "source": "https://www.concordia.ca/admissions/undergraduate/apply.html",
+  "quote": "FALL ENTRY (September) Deadline: March 1",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "memorial-university-of-newfoundland",
+  "field": "deadline (annual rule): Priority deadline for the fall semester (also for early entrance scholarships)",
+  "source": "https://www.mun.ca/undergrad/admissions/admission-deadlines/",
+  "quote": "Fall semester (September to December) Sept. 10 March 1 Aug. 20 Sept. 9",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "memorial-university-of-newfoundland",
+  "field": "deadline (annual rule): Document deadline, fall semester",
+  "source": "https://www.mun.ca/undergrad/admissions/admission-deadlines/",
+  "quote": "Fall semester (September to December) Sept. 10 March 1 Aug. 20 Sept. 9",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-new-brunswick",
+  "field": "deadline (annual rule): Entrance scholarship application (after admission, in the UNB application account)",
+  "source": "https://www.unb.ca/moneymatters/scholarships/international.html",
+  "quote": "Once admitted, sign into your UNB application account and apply for entrance scholarships by March 1.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-new-brunswick",
+  "field": "deadline (annual rule): Application deadline for most undergraduate programmes",
+  "source": "https://www.unb.ca/international/apply/deadlines.html",
+  "quote": "The deadline to apply for most undergraduate programs is March 31.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-windsor",
+  "field": "deadline (annual rule): Recommended application date for September admission",
+  "source": "https://future.uwindsor.ca/apply-international",
+  "quote": "May 1 for September admissions (Fall)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-regina",
+  "field": "deadline (annual rule): Final application deadline, fall term (all programmes except those listed separately)",
+  "source": "https://www.uregina.ca/admissions/undergraduate/deadlines.html",
+  "quote": "ALL PROGRAMS – FINAL DEADLINE for new applicants, and re-admission deadline for returning students (except those noted below) August 15",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "toronto-metropolitan-university",
+  "field": "deadline: Guaranteed consideration date, all programmes (fall 2027)",
+  "source": "https://www.torontomu.ca/admissions/undergraduate/apply/application-dates/",
+  "quote": "Fall 2027 admission … Guaranteed consideration date for applications to all programs: February 1",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "toronto-metropolitan-university",
+  "field": "deadline: Prestigious entrance scholarships and ISLA – Fall 2027: application on AwardSpring",
+  "source": "https://www.torontomu.ca/admissions/scholarships-awards/",
+  "quote": "The application for fall 2027 awards is available on AwardSpring from November 2, 2026 until the extended deadline to apply, February 16, 2027.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "brock-university",
+  "field": "deadline: Application deadline, fall entry (international applicants meeting the English requirement)",
+  "source": "https://brocku.ca/admissions/apply/",
+  "quote": "If a program reaches capacity after the January 15, 2027 application deadline … International students (only applying to Brock and meet English proficiency requirements) … January 15 (Fall entry)",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "wilfrid-laurier-university",
+  "field": "deadline: Application deadline, fall (September) 2027",
+  "source": "https://www.wlu.ca/future-students/undergraduate/applicants/international/admissions.html",
+  "quote": "April 1, 2027: The deadline to apply for fall (September) 2027.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "wilfrid-laurier-university",
+  "field": "deadline (intake not established): Inspiring Lives Scholarship application",
+  "source": "https://www.wlu.ca/future-students/undergraduate/applicants/international/assets/resources/inspiring-lives-scholarship.html",
+  "quote": "Application deadline: Sunday, Nov. 8, 2026 at 11:59 p.m. EDT",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "trent-university",
+  "field": "deadline (annual rule): International Prestigious Scholarships application",
+  "source": "https://www.trentu.ca/international/discover-trent/tuition-scholarships/scholarships",
+  "quote": "Applications for International Prestigious Scholarships open on November 1 and close on February 15 each year.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "lakehead-university",
+  "field": "deadline: Recommended application date for international applicants (fall 2027, most programmes)",
+  "source": "https://www.lakeheadu.ca/studentcentral/applying/application-deadlines",
+  "quote": "Recommended Deadlines to Apply for Fall 2027 (Full Time & Part Time) Admission: … March 1, 2027 (International Applicants)",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "st-francis-xavier-university",
+  "field": "deadline: Apply for admission, scholarship application and documents for Major Scholarship consideration",
+  "source": "https://www.stfx.ca/applications-admissions/admissions-information/key-dates-deadlines",
+  "quote": "Application for September 2027 open for admission. … March 2027 March 1 Deadline to apply for admission to StFX to be eligible for Major Scholarship consideration.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "st-francis-xavier-university",
+  "field": "deadline: Confirm acceptance; room guarantee; accept scholarships",
+  "source": "https://www.stfx.ca/applications-admissions/admissions-information/key-dates-deadlines",
+  "quote": "May 2027 May 15 Confirm your acceptance to StFX. … Deadline to accept Scholarships.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "st-francis-xavier-university",
+  "field": "deadline: Deadline for international student applications",
+  "source": "https://www.stfx.ca/applications-admissions/admissions-information/key-dates-deadlines",
+  "quote": "May 30 Deadline for International Student Applications. Applications received after the May 30, 2027, deadline will be reviewed on a case by case basis according to visa processing times.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mount-allison-university",
+  "field": "deadline: Music (BMus, BMusEd) application package",
+  "source": "https://mta.ca/admissions/important-admission-dates-and-deadlines",
+  "quote": "Preparing to apply for 2027-28 academic year … Feb. 1 BMus and BMusEd APPLICATION DEADLINE",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mount-allison-university",
+  "field": "deadline: Fine Arts application and portfolio",
+  "source": "https://mta.ca/admissions/important-admission-dates-and-deadlines",
+  "quote": "Preparing to apply for 2027-28 academic year … Feb. 15 FINE ARTS APPLICATION AND PORTFOLIO DEADLINE",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mount-allison-university",
+  "field": "deadline: Application for admission and scholarships, with all documents, to be considered for scholarships",
+  "source": "https://mta.ca/admissions/important-admission-dates-and-deadlines",
+  "quote": "Preparing to apply for 2027-28 academic year … March 1 SCHOLARSHIPS APPLICATION DEADLINE To be considered for scholarships: Deadline to submit your application for admission and scholarships, and all required documents.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mount-allison-university",
+  "field": "deadline: Accept the offer of admission and scholarships",
+  "source": "https://mta.ca/admissions/important-admission-dates-and-deadlines",
+  "quote": "Preparing to apply for 2027-28 academic year … May 1 ACCEPT YOUR OFFER! Deadline to accept your offer of admission and scholarships/bursaries",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "saint-marys-university",
+  "field": "deadline: Apply for admission (for Admissions Scholarships) and submit the Entrance Awards application",
+  "source": "https://www.smu.ca/future-students/admissions/importantdates/",
+  "quote": "Admission applications open for the 2027-2028 academic year … Entrance Awards application opens (due February 15, 2027).",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "bishops-university",
+  "field": "deadline: Application deadline for international students (fall 2027); also for Competitive Entrance Scholarships and the Entrance Awards and Bursaries application",
+  "source": "https://www.ubishops.ca/admissions/bishops-university-online-application/",
+  "quote": "Fall 2027 Semester: … March 31, 2027: Deadline for international students (except USA Citizens) to submit an application and be considered for Fall entry.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "bishops-university",
+  "field": "deadline: Supporting documents for international applicants",
+  "source": "https://www.ubishops.ca/admissions/bishops-university-online-application/",
+  "quote": "April 15, 2027: Deadline for international students (except USA Citizens) to submit supporting documentation for an undergraduate application and be considered for the Fall entry.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-lethbridge",
+  "field": "deadline (annual rule): Early admission and Board of Governors’ Admission Scholarship (up to C$1,000)",
+  "source": "https://www.ulethbridge.ca/future-student/important-dates",
+  "quote": "December 15 Early admission application deadline Board of Governors' scholarship application deadline",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-lethbridge",
+  "field": "deadline (annual rule): High school awards application",
+  "source": "https://www.ulethbridge.ca/future-student/important-dates",
+  "quote": "March 15 High school awards application deadline",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-lethbridge",
+  "field": "deadline (annual rule): Application deadline for international students",
+  "source": "https://www.ulethbridge.ca/future-student/important-dates",
+  "quote": "June 15 Application deadline for international students",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mount-saint-vincent-university",
+  "field": "deadline: Entrance scholarship candidates",
+  "source": "https://www.msvu.ca/future-students/admission-requirements/application-deadlines/",
+  "quote": "For September 2027 Entrance … Entrance scholarship candidates – March 1, 2027 International undergraduate applicants – May 3, 2027",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mount-saint-vincent-university",
+  "field": "deadline: Application deadline for international undergraduate applicants (September 2027)",
+  "source": "https://www.msvu.ca/future-students/admission-requirements/application-deadlines/",
+  "quote": "For September 2027 Entrance … Entrance scholarship candidates – March 1, 2027 International undergraduate applicants – May 3, 2027",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "thompson-rivers-university",
+  "field": "deadline (annual rule): Application deadline, September intake",
+  "source": "https://www.tru.ca/future/admissions/international/application-deadlines.html",
+  "quote": "International Student Application Deadlines Semester Deadline January October 1 May February 1 September May 1",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-northern-british-columbia",
+  "field": "deadline: Engineering (BASc) application deadline",
+  "source": "https://www.unbc.ca/programs-and-admissions/undergraduate/undergraduate-application-deadlines",
+  "quote": "Bachelor of Applied Science (Engineering) (BASc) Domestic International September semester March 1, 2027 March 1, 2027",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-northern-british-columbia",
+  "field": "deadline: Health Sciences (BHSc) application deadline",
+  "source": "https://www.unbc.ca/programs-and-admissions/undergraduate/undergraduate-application-deadlines",
+  "quote": "Bachelor of Health Sciences (BHSc) Domestic International September semester May 15, 2027 May 15, 2027",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-the-fraser-valley",
+  "field": "deadline (annual rule): Application window for the fall semester closes",
+  "source": "https://international.ufv.ca/future-students/apply-to-ufv/application-deadlines/",
+  "quote": "Fall semester: October 1 to June 1",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-the-fraser-valley",
+  "field": "deadline (annual rule): Full payment to confirm acceptance (fall)",
+  "source": "https://international.ufv.ca/future-students/apply-to-ufv/application-deadlines/",
+  "quote": "We must receive your payment in full by the following dates: Fall semester: June 15",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "capilano-university",
+  "field": "deadline: International Entrance & Performance Award, Fall 2027: complete application",
+  "source": "https://www.capilanou.ca/admissions/fees--finances/financial-aid--awards/funding-for-international-students/",
+  "quote": "Fall 2027 term Complete application by November 30, 2026",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "laurentian-university",
+  "field": "deadline (annual rule): Nursing (BScN) application deadline",
+  "source": "https://laurentian.ca/apply/international-undergraduate-applicants",
+  "quote": "Bachelor of Science in Nursing (September entry only) – February 1st",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "laurentian-university",
+  "field": "deadline (annual rule): Application deadline, September start (most programmes)",
+  "source": "https://laurentian.ca/apply/international-undergraduate-applicants",
+  "quote": "September start Application deadline – June 15th",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-du-quebec-a-montreal",
+  "field": "deadline: Application deadline for international candidates, autumn 2027 (bachelor’s programmes)",
+  "source": "https://www.apps.uqam.ca/Application/AdmissionEnLigne/Traitements/DatesLimites/AfficherDatesLimites.aspx?adm_web_cycle=1",
+  "quote": "IMPORTANT : Informations supplémentaires à l'attention des candidats internationaux Automne : 1er mars (certains programmes ont une date limite plus hâtive) … DATES LIMITES DES DEMANDES D'ADMISSION AUX BACCALAURÉATS … AUTOMNE 2027",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-de-sherbrooke",
+  "field": "deadline (annual rule): Application deadline for international candidates, autumn term (bachelor’s, certificates)",
+  "source": "https://www.usherbrooke.ca/admission/da/planifier-demande/dates-limites/1er-cycle",
+  "quote": "Candidat international 15 janvier 1er juin",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-de-moncton",
+  "field": "deadline (annual rule): Application deadline for international students, autumn session",
+  "source": "https://www.umoncton.ca/admission/dates-importantes",
+  "quote": "Personnes étudiantes internationales Avant le 31 mai pour la session d’automne",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-victoria",
+  "field": "deadline (annual rule): Application deadline, September entry (most degree programmes)",
+  "source": "https://www.uvic.ca/undergraduate/admissions/application-deadlines/index.php",
+  "quote": "Degree programs Most degree programs: January 31",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ }
+]
