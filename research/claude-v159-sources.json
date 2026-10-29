@@ -2797,5 +2797,122 @@
   "cycle": null,
   "scope": null,
   "read": "2026-10-29"
+ },
+ {
+  "id": "university-of-british-columbia",
+  "field": "founded",
+  "source": "https://vancouver.calendar.ubc.ca/establishment-and-constitution/introduction",
+  "quote": "In 1908 the earlier act was repealed and a new act was established, incorporating the University.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "university-of-alberta",
+  "field": "founded",
+  "source": "https://www.ualberta.ca/en/toolkit/communications/overview.html",
+  "quote": "Founded in 1908 (created by legislation in 1906, first classes held in 1908)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "lakehead-university",
+  "field": "founded",
+  "source": "https://www.lakeheadu.ca/about/sg/secretariat/university-act",
+  "quote": "Statutes of Ontario, 1965 … The Lakehead College of Arts, Science and Technology, hereafter to be known as \"Lakehead University\"",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "laurentian-university",
+  "field": "founded",
+  "source": "https://laurentian.ca/faculties/arts/our-tricultural-mandate",
+  "quote": "Founded in 1960, Laurentian University offers a rich array of programs",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "university-of-alberta",
+  "field": "field: economics",
+  "source": "https://www.ualberta.ca/en/undergraduate-programs/bachelor-of-arts-economics.html",
+  "quote": "Economics (Bachelor of Arts)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "university-of-alberta",
+  "field": "field: psychology",
+  "source": "https://www.ualberta.ca/en/undergraduate-programs/bachelor-of-arts-psychology.html",
+  "quote": "Psychology (Bachelor of Arts)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "university-of-alberta",
+  "field": "field: mathematics",
+  "source": "https://www.ualberta.ca/en/undergraduate-programs/bachelor-of-science-with-major-mathematics.html",
+  "quote": "Mathematics (Bachelor of Science with Major)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "university-of-alberta",
+  "field": "field: computer-science",
+  "source": "https://www.ualberta.ca/en/undergraduate-programs/bachelor-of-science-with-major-computing-science.html",
+  "quote": "Computing Science (Bachelor of Science with Major)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "mcmaster-university",
+  "field": "field: psychology",
+  "source": "https://future.mcmaster.ca/programs/psychology-neuroscience-behaviour/",
+  "quote": "Honours Psychology, Neuroscience & Behaviour (Bachelor of Science)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "university-of-guelph",
+  "field": "field: economics",
+  "source": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/economics-econ/",
+  "quote": "Economics (ECON) major, Bachelor of Arts",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "university-of-regina",
+  "field": "field: psychology",
+  "source": "https://www.uregina.ca/academics/programs/arts/psychology.html",
+  "quote": "Psychology (Bachelor of Arts)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "universite-du-quebec-a-montreal",
+  "field": "field: psychology",
+  "source": "https://etudier.uqam.ca/programme?code=6589",
+  "quote": "Baccalauréat en psychologie (6589)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "universite-du-quebec-a-montreal",
+  "field": "field: computer-science",
+  "source": "https://etudier.uqam.ca/programme?code=7416",
+  "quote": "Baccalauréat en informatique et génie logiciel (7416)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
  }
 ]

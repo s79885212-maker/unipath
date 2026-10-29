@@ -530,7 +530,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Vancouver",
   "region": "British Columbia",
-  "founded": null,
+  "founded": 1908,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -903,6 +903,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://you.ubc.ca/programs/"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://vancouver.calendar.ubc.ca/establishment-and-constitution/introduction"
     }
   ],
   "verification": {
@@ -913,12 +917,12 @@ window.UNIPATH.universities.push(
       "English requirements",
       "tuition",
       "scholarships",
-      "test policy"
+      "test policy",
+      "founding year"
     ],
     "unconfirmed": [
       "full list of majors",
-      "Okanagan tuition",
-      "founding year"
+      "Okanagan tuition"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -1401,7 +1405,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Edmonton",
   "region": "Alberta",
-  "founded": null,
+  "founded": 1908,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -1419,13 +1423,21 @@ window.UNIPATH.universities.push(
     "business",
     "engineering",
     "social-sciences",
-    "arts"
+    "arts",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
     "business",
     "engineering",
     "social-sciences",
-    "arts"
+    "arts",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -1783,6 +1795,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official undergraduate programme directory — checked 2026-10-26",
       "url": "https://www.ualberta.ca/en/undergraduate-programs/index.html"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.ualberta.ca/en/toolkit/communications/overview.html"
     }
   ],
   "verification": {
@@ -1794,12 +1810,12 @@ window.UNIPATH.universities.push(
       "test policy",
       "tuition",
       "scholarships",
-      "official programme directory"
+      "official programme directory",
+      "founding year"
     ],
     "unconfirmed": [
       "full list of majors",
-      "tuition for Fall 2027 entry",
-      "founding year"
+      "tuition for Fall 2027 entry"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -1844,6 +1860,34 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://costcalculator.registrar.ualberta.ca/costcalculator/",
       "checked": "2026-10-15"
+    },
+    "economics": {
+      "program": "Economics (Bachelor of Arts)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ualberta.ca/en/undergraduate-programs/bachelor-of-arts-economics.html",
+      "checked": "2026-10-29"
+    },
+    "psychology": {
+      "program": "Psychology (Bachelor of Arts)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ualberta.ca/en/undergraduate-programs/bachelor-of-arts-psychology.html",
+      "checked": "2026-10-29"
+    },
+    "mathematics": {
+      "program": "Mathematics (Bachelor of Science with Major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ualberta.ca/en/undergraduate-programs/bachelor-of-science-with-major-mathematics.html",
+      "checked": "2026-10-29"
+    },
+    "computer-science": {
+      "program": "Computing Science (Bachelor of Science with Major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ualberta.ca/en/undergraduate-programs/bachelor-of-science-with-major-computing-science.html",
+      "checked": "2026-10-29"
     }
   },
   "programsStatus": "partial"
@@ -1880,7 +1924,8 @@ window.UNIPATH.universities.push(
     "social-sciences",
     "humanities",
     "arts",
-    "medicine"
+    "medicine",
+    "psychology"
   ],
   "englishTaughtPrograms": [
     "business",
@@ -1892,7 +1937,8 @@ window.UNIPATH.universities.push(
     "social-sciences",
     "humanities",
     "arts",
-    "medicine"
+    "medicine",
+    "psychology"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -2280,6 +2326,13 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://future.mcmaster.ca/apply/deadlines/",
       "checked": "2026-10-15"
+    },
+    "psychology": {
+      "program": "Honours Psychology, Neuroscience & Behaviour (Bachelor of Science)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://future.mcmaster.ca/programs/psychology-neuroscience-behaviour/",
+      "checked": "2026-10-29"
     }
   },
   "programsStatus": "partial"
@@ -6811,7 +6864,8 @@ window.UNIPATH.universities.push(
     "engineering",
     "mathematics",
     "arts",
-    "psychology"
+    "psychology",
+    "economics"
   ],
   "englishTaughtPrograms": [
     "business",
@@ -6819,7 +6873,8 @@ window.UNIPATH.universities.push(
     "engineering",
     "mathematics",
     "arts",
-    "psychology"
+    "psychology",
+    "economics"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -7266,6 +7321,13 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.uoguelph.ca/psychology/undergraduate/programs/bachelor-arts-ba-psychology-majorminor",
       "checked": "2026-10-27"
+    },
+    "economics": {
+      "program": "Economics (ECON) major, Bachelor of Arts",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/economics-econ/",
+      "checked": "2026-10-29"
     }
   },
   "programsStatus": "partial"
@@ -9747,7 +9809,8 @@ window.UNIPATH.universities.push(
     "arts",
     "economics",
     "mathematics",
-    "computer-science"
+    "computer-science",
+    "psychology"
   ],
   "englishTaughtPrograms": [
     "medicine",
@@ -9755,7 +9818,8 @@ window.UNIPATH.universities.push(
     "arts",
     "economics",
     "mathematics",
-    "computer-science"
+    "computer-science",
+    "psychology"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -10120,6 +10184,13 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.uregina.ca/academics/index.html",
       "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology (Bachelor of Arts)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uregina.ca/academics/programs/arts/psychology.html",
+      "checked": "2026-10-29"
     }
   },
   "programsStatus": "partial"
@@ -12200,7 +12271,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Thunder Bay",
   "region": "Ontario",
-  "founded": null,
+  "founded": 1965,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -12451,6 +12522,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.lakeheadu.ca/programs/undergraduate-programs"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.lakeheadu.ca/about/sg/secretariat/university-act"
     }
   ],
   "verification": {
@@ -12461,12 +12536,12 @@ window.UNIPATH.universities.push(
       "tuition",
       "scholarships",
       "test policy",
-      "requirements for Uzbekistan"
+      "requirements for Uzbekistan",
+      "founding year"
     ],
     "unconfirmed": [
       "tuition of general Arts and Science programmes",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -17873,7 +17948,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Sudbury",
   "region": "Ontario",
-  "founded": null,
+  "founded": 1960,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -18149,6 +18224,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://laurentian.ca/academics/undergraduate-programs"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://laurentian.ca/faculties/arts/our-tricultural-mandate"
     }
   ],
   "verification": {
@@ -18160,12 +18239,12 @@ window.UNIPATH.universities.push(
       "tuition",
       "scholarships",
       "application fee",
-      "requirements for Uzbekistan"
+      "requirements for Uzbekistan",
+      "founding year"
     ],
     "unconfirmed": [
       "test policy",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -18255,7 +18334,9 @@ window.UNIPATH.universities.push(
     "business",
     "mathematics",
     "arts",
-    "economics"
+    "economics",
+    "psychology",
+    "computer-science"
   ],
   "englishTaughtPrograms": [],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
@@ -18495,6 +18576,20 @@ window.UNIPATH.universities.push(
       "language": "French",
       "url": "https://etudier.uqam.ca/programme/baccalaureat-economique",
       "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Baccalauréat en psychologie (6589)",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://etudier.uqam.ca/programme?code=6589",
+      "checked": "2026-10-29"
+    },
+    "computer-science": {
+      "program": "Baccalauréat en informatique et génie logiciel (7416)",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://etudier.uqam.ca/programme?code=7416",
+      "checked": "2026-10-29"
     }
   },
   "programsStatus": "partial",
