@@ -1034,3 +1034,10 @@ Concordia: 30 кредитов × C$1,400 = C$42,000 tuition. SMU BComm: дес�
 
 ## 27 октября 2026 — v167: безопасное объединение с новой dev
 В codex/site-quality объединён origin/dev 1aa5247: сохранены три новых русских перевода American University, Division of Global Engagement и UVic, обе записи журнала и все локальные v159–166. Конфликты index/journal разрешены без потери содержимого, cache-buster 167. 920c099 и обе ветви истории сохранены. Main не меняется. Предыдущий atomic push был отклонён защитой fetch first; force push не применяется.
+
+## 29 октября 2026 — v168: объединена ветка Claude `claude/data-quality-v159`
+- Канадские сроки: у 59 подтверждён набор Fall 2027 дословными цитатами (cycleEvidence), 31 дата без года стала «ежегодным правилом», у Inspiring Lives (Laurier) набор не установлен.
+- Стипендии всех 50 канадских вузов перечитаны: у 42 названа крупнейшая награда и отмечено отсутствие награды уровня полной оплаты (awardNotDescribed); убраны награды только для граждан Канады (Queen's Major Admission Awards, Bishop's Goldbloom); добавлены награды Western, Alberta, Ottawa, VIU, Winnipeg; стипендии Manitoba и VIU связаны со сроками 2027.
+- Направления: 153 тега Economics/Psychology/Mathematics/Computer Science с названной программой бакалавриата; каталог Winnipeg.
+- Год основания у всех 50 канадских вузов по официальным страницам.
+- Добавлены русские переводы новых строк (research/claude-v159-ru.json). Отчёт: research/claude-v159-report.md. Открыто: SAT/ACT у 9, годовая стоимость у 7, Узбекистан у 21, фото SRH Berlin и Karlshochschule.
