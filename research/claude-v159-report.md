@@ -10,9 +10,10 @@ Branch `claude/data-quality-v159`, base `0fd4d6a` (dev, v167). Only data/researc
 | Awards added/updated | Western Neen Hodgins + IPES, Alberta Chan Pang Kuen + Aga Khan (partner), Ottawa English awards, Manitoba IEES (linked to its Fall 2027 deadline), VIU international award + Fall 2027 deadline, Winnipeg Wu Chung (regional), Laval BCCM 2026 (previous cycle) | — | Brock, York, Winnipeg tables are 2026–27 (previous cycle) |
 | SAT/ACT (9) | re-checked calendars and country tables | no explicit rule found; USask 2027–28 catalogue confirms SAT/ACT only for home-schooled Business/Engineering applicants | all 9 stay unknown; UNBC 2026–27 calendar is a PDF (not downloaded) |
 | Annual cost (7) | re-read | none can be computed honestly (TRU rate not for Fall 2027; VIU year not stated; Capilano workload not stated; Western draft PDF; Manitoba/Winnipeg per-course; MSVU conflict) | all 7 |
-| Fields | 118 Econ/Psych/Math/CS tags with named bachelor programmes (Econ 35→+1, Psych 35+, Math 37+, CS 41+ of 50) + Winnipeg catalogue | lists stay partial | Brock, StFX (403), SMU, VIU, Laurentian, Sherbrooke, Moncton, Capilano, MRU, Alberta gaps |
+| Fields | 135 Econ/Psych/Math/CS tags (third pass 29.10: Brock, StFX, SMU, VIU, Laurentian, Sherbrooke, Moncton) with named bachelor programmes (Econ 35→+1, Psych 35+, Math 37+, CS 41+ of 50) + Winnipeg catalogue | lists stay partial | Alberta (directory by script), Capilano (course pages only), MRU (no Economics major or Mathematics BSc listed), VIU Economics BA major suspended since 14.12.2023 |
 | Founded | 46 of 50 from official history pages (research/claude-v159-founded.md) | — | UBC (archives behind bot check), Alberta, Lakehead, Laurentian; proposal: optional foundedNote field |
 | Windsor fee, Lesley | re-checked 27.10 | still unknown / previous cycle | — |
-| Photos SRH/Karlshochschule, Uzbekistan 21 | not done in this pass | — | open |
+| Photos SRH/Karlshochschule | Commons searched again 29.10: only logos and a portrait | placeholders kept | open |
+| Uzbekistan 21 | official country tables re-searched 29.10 (McMaster, Queen's, Laurier, Regina, MSVU, TRU, UPEI, StFX, UFV) | no Uzbekistan entry found | all 21 open |
 
 Registers: research/claude-v159-sources.json (294 entries with quotes), research/claude-v159-ru.json (113 English→Russian pairs for Codex to add to ru.js).
