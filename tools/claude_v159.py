@@ -11,7 +11,7 @@ import ca50_gaps as G
 from us200_std import L, TR
 
 ROOT = G.ROOT
-DAY = '2026-10-27'
+DAY = '2026-10-29'
 RU_FILE = os.path.join(ROOT, 'research/claude-v159-ru.json')
 REG_FILE = os.path.join(ROOT, 'research/claude-v159-sources.json')
 OLD_NOTE = re.compile(r'^The page prints this date without a year')

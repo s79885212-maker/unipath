@@ -2644,5 +2644,158 @@
   "cycle": null,
   "scope": null,
   "read": "2026-10-27"
+ },
+ {
+  "id": "brock-university",
+  "field": "field: economics",
+  "source": "https://brocku.ca/programs/undergraduate/economics/",
+  "quote": "BA in Economics",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "brock-university",
+  "field": "field: psychology",
+  "source": "https://brocku.ca/programs/undergraduate/psychology/",
+  "quote": "BA or BSc in Psychology",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "st-francis-xavier-university",
+  "field": "field: economics",
+  "source": "https://www.stfx.ca/programs-courses/programs/economics",
+  "quote": "Economics (BA, BSc or BBA honours)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "st-francis-xavier-university",
+  "field": "field: psychology",
+  "source": "https://www.stfx.ca/programs-courses/programs/psychology",
+  "quote": "Psychology (Bachelor of Arts or Bachelor of Science)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "st-francis-xavier-university",
+  "field": "field: computer-science",
+  "source": "https://www.stfx.ca/programs-courses/programs/computer-science",
+  "quote": "Computer Science (Bachelor of Arts or Bachelor of Science)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "saint-marys-university",
+  "field": "field: economics",
+  "source": "https://www.smu.ca/future-students/ba-programs/economics-program.html",
+  "quote": "Economics (Bachelor of Arts)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "saint-marys-university",
+  "field": "field: psychology",
+  "source": "https://www.smu.ca/future-students/ba-programs/psychology-program.html",
+  "quote": "Psychology (BA or BSc)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "saint-marys-university",
+  "field": "field: mathematics",
+  "source": "https://www.smu.ca/future-students/ba-programs/mathematics-program.html",
+  "quote": "Mathematics (BA or BSc)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "saint-marys-university",
+  "field": "field: computer-science",
+  "source": "https://www.smu.ca/future-students/bsc-programs/computing-science-program.html",
+  "quote": "Computing Science (BSc)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "vancouver-island-university",
+  "field": "field: psychology",
+  "source": "https://www.viu.ca/programs/arts-humanities-social-sciences/psychology-ba",
+  "quote": "Psychology (BA)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "vancouver-island-university",
+  "field": "field: computer-science",
+  "source": "https://www.viu.ca/programs/science-and-technology/computer-science-bsc",
+  "quote": "Computer Science (BSc), Nanaimo",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "laurentian-university",
+  "field": "field: economics",
+  "source": "https://laurentian.ca/academics/program/economics",
+  "quote": "Economics, Bachelor of Arts",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "laurentian-university",
+  "field": "field: psychology",
+  "source": "https://laurentian.ca/program/psychology/details",
+  "quote": "Psychology, Bachelor of Arts or Bachelor of Science",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "universite-de-sherbrooke",
+  "field": "field: economics",
+  "source": "https://www.usherbrooke.ca/admission/programme/208/baccalaureat-en-economique/",
+  "quote": "Baccalauréat en économique",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "universite-de-sherbrooke",
+  "field": "field: psychology",
+  "source": "https://www.usherbrooke.ca/admission/programme/225/baccalaureat-en-psychologie/",
+  "quote": "Baccalauréat en psychologie",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "universite-de-sherbrooke",
+  "field": "field: mathematics",
+  "source": "https://www.usherbrooke.ca/admission/programme/222/baccalaureat-en-mathematiques/",
+  "quote": "Baccalauréat en mathématiques",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "universite-de-moncton",
+  "field": "field: computer-science",
+  "source": "https://www.umoncton.ca/repertoire/programmes?programme_select=148",
+  "quote": "Baccalauréat ès sciences (majeure en informatique)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
  }
 ]
