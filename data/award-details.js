@@ -40,6 +40,11 @@ window.UNIPATH.awardDetails = {
    whose pages were never read stays "not checked". The reason is in each
    record's own scholarship note. */
 window.UNIPATH.awardNotDescribed = [
+  'capilano-university', 'laurentian-university', 'universite-du-quebec-a-montreal', 'universite-de-sherbrooke', 'university-of-victoria',
+  'saint-marys-university', 'bishops-university', 'mount-saint-vincent-university', 'mount-royal-university', 'thompson-rivers-university', 'vancouver-island-university', 'university-of-the-fraser-valley',
+  'university-of-regina', 'ontario-tech-university', 'toronto-metropolitan-university', 'brock-university', 'wilfrid-laurier-university', 'trent-university', 'lakehead-university', 'university-of-prince-edward-island', 'acadia-university', 'st-francis-xavier-university', 'mount-allison-university',
+  'simon-fraser-university', 'universite-laval', 'university-of-saskatchewan', 'university-of-manitoba', 'university-of-guelph', 'carleton-university', 'york-university', 'concordia-university', 'memorial-university-of-newfoundland', 'university-of-new-brunswick', 'university-of-windsor',
+  'mcgill-university', 'universite-de-montreal', 'university-of-waterloo', 'western-university', 'university-of-ottawa', 'university-of-calgary', 'queens-university', 'dalhousie-university',
   'umass-amherst', 'university-of-minnesota-twin-cities', 'university-of-oregon', 'university-of-oklahoma', 'west-virginia-university', 'anderson-university-indiana',
   'gonzaga-university', 'cornell-college', 'the-new-school', 'savannah-college-of-art-and-design',
   'university-of-san-diego', 'ursinus-college', 'willamette-university', 'wofford-college', 'xavier-university', 'xavier-university-of-louisiana', 'rochester-institute-of-technology',

@@ -12,7 +12,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Toronto",
   "region": "Ontario",
-  "founded": null,
+  "founded": 1827,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -30,13 +30,19 @@ window.UNIPATH.universities.push(
     "business",
     "computer-science",
     "engineering",
-    "arts"
+    "arts",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "englishTaughtPrograms": [
     "business",
     "computer-science",
     "engineering",
-    "arts"
+    "arts",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -67,8 +73,16 @@ window.UNIPATH.universities.push(
         "conditions": "Recommended for most faculties and both suburban campuses; documents available by then are encouraged by 1 December.",
         "status": "confirmed",
         "source": "https://future.utoronto.ca/deadlines",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://future.utoronto.ca/deadlines",
+          "verified": "2026-10-27",
+          "quote": "2027 admissions Deadlines to apply … Arts & Science, U of T St. George (including International Foundation Program) November 7 January 15"
+        }
       },
       {
         "name": "Application deadline (most programmes)",
@@ -82,8 +96,16 @@ window.UNIPATH.universities.push(
         "conditions": "Applied Science & Engineering, Architecture, Arts & Science (St. George), Information, Kinesiology & Physical Education, Music, U of T Mississauga and U of T Scarborough.",
         "status": "confirmed",
         "source": "https://future.utoronto.ca/deadlines",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://future.utoronto.ca/deadlines",
+          "verified": "2026-10-27",
+          "quote": "2027 admissions Deadlines to apply … Arts & Science, U of T St. George (including International Foundation Program) November 7 January 15"
+        }
       },
       {
         "name": "Supporting documents (most programmes)",
@@ -97,8 +119,16 @@ window.UNIPATH.universities.push(
         "conditions": "Engineering documents are due 15 January 2027. Supplementary applications for Rotman Commerce, Computer Science and Architecture are also due 1 February.",
         "status": "confirmed",
         "source": "https://future.utoronto.ca/deadlines",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://future.utoronto.ca/deadlines",
+          "verified": "2026-10-27",
+          "quote": "2027 admissions Deadlines to submit supporting documentation … Arts & Science, U of T St. George - All other program areas February 1"
+        }
       },
       {
         "name": "Pearson Scholarship: apply for admission",
@@ -401,6 +431,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://future.utoronto.ca/undergraduate-programs"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.utoronto.ca/about-u-of-t"
     }
   ],
   "verification": {
@@ -410,12 +444,12 @@ window.UNIPATH.universities.push(
       "English requirements",
       "test policy",
       "tuition",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "full list of majors",
-      "residence and UHIP amounts",
-      "founding year"
+      "residence and UHIP amounts"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -463,6 +497,27 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://future.utoronto.ca/deadlines",
       "checked": "2026-10-15"
+    },
+    "economics": {
+      "program": "Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://future.utoronto.ca/program/economics",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://future.utoronto.ca/program/psychology",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Applied Mathematics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://future.utoronto.ca/program/applied-mathematics",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -475,7 +530,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Vancouver",
   "region": "British Columbia",
-  "founded": null,
+  "founded": 1908,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -494,14 +549,18 @@ window.UNIPATH.universities.push(
     "economics",
     "computer-science",
     "engineering",
-    "arts"
+    "arts",
+    "psychology",
+    "mathematics"
   ],
   "englishTaughtPrograms": [
     "business",
     "economics",
     "computer-science",
     "engineering",
-    "arts"
+    "arts",
+    "psychology",
+    "mathematics"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -844,6 +903,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://you.ubc.ca/programs/"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://vancouver.calendar.ubc.ca/establishment-and-constitution/introduction"
     }
   ],
   "verification": {
@@ -854,12 +917,12 @@ window.UNIPATH.universities.push(
       "English requirements",
       "tuition",
       "scholarships",
-      "test policy"
+      "test policy",
+      "founding year"
     ],
     "unconfirmed": [
       "full list of majors",
-      "Okanagan tuition",
-      "founding year"
+      "Okanagan tuition"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -909,6 +972,20 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://students.ubc.ca/enrolment/finances/tuition-fees/undergraduate-tuition-fees",
       "checked": "2026-10-15"
+    },
+    "psychology": {
+      "program": "Psychology (BA), Vancouver campus",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://you.ubc.ca/programs/psychology-vancouver-ba/",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics (BSc), Vancouver campus",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://you.ubc.ca/programs/mathematics-vancouver-bsc/",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -921,7 +998,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Montreal",
   "region": "Quebec",
-  "founded": null,
+  "founded": 1821,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -940,14 +1017,20 @@ window.UNIPATH.universities.push(
     "engineering",
     "psychology",
     "arts",
-    "education"
+    "education",
+    "economics",
+    "mathematics",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
     "business",
     "engineering",
     "psychology",
     "arts",
-    "education"
+    "education",
+    "economics",
+    "mathematics",
+    "computer-science"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -968,47 +1051,65 @@ window.UNIPATH.universities.push(
       {
         "name": "Application deadline",
         "kind": "regular",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-01-15",
-        "date": "15 January 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 January — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "For applicants from high schools outside Canada and the U.S.; Music and Religious Studies need application and documents by this date.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/international/other",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/international/other",
+          "verified": "2026-10-27",
+          "quote": "Other international high schools … DEADLINES Application for admission January 15"
+        }
       },
       {
         "name": "Major Entrance Scholarship application and documents",
         "kind": "scholarship",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-01-21",
-        "date": "21 January 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "21 January — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": null,
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/international/other",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/international/other",
+          "verified": "2026-10-27",
+          "quote": "Major Entrance Scholarship application & documents January 21"
+        }
       },
       {
         "name": "Supporting documents",
         "kind": "documents",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-03-01",
-        "date": "1 March 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 March — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": null,
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/international/other",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/international/other",
+          "verified": "2026-10-27",
+          "quote": "Supporting documents March 1"
+        }
       }
     ],
     "applicationFee": {
@@ -1129,7 +1230,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award open to international students on the pages read: the Major Entrance Scholarship, up to C$10,000 a year, renewable for up to 3 or 4 years, by separate application. No award at the level of full tuition is described.",
+      "source": "https://www.mcgill.ca/studentaid/scholarships-aid/future-undergrads/entrance-scholarships",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -1139,10 +1242,10 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Separate application in the Applicant Portal (opens 1 October), due 21 January for this applicant group",
         "renewable": true,
-        "note": "The C$12,000 level is for Canadian citizens and permanent residents only. Renewable for up to four years if criteria are met.",
+        "note": "The C$12,000 level is for Canadian citizens and permanent residents only. Renewable for up to 3 or 4 years if the renewal criteria are met. A student can hold only one centrally administered entrance scholarship; finalists may be interviewed. The 21 January date has no year on the page.",
         "basis": "merit",
         "source": "https://www.mcgill.ca/studentaid/scholarships-aid/future-undergrads/entrance-scholarships",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       },
       {
         "name": "One-year Entrance Scholarship",
@@ -1154,7 +1257,7 @@ window.UNIPATH.universities.push(
         "note": "Meeting the minimum does not guarantee an award.",
         "basis": "merit",
         "source": "https://www.mcgill.ca/studentaid/scholarships-aid/future-undergrads/entrance-scholarships",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -1201,6 +1304,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.mcgill.ca/undergraduate-admissions/programs"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.mcgill.ca/jms/mcgill-milestones/1821-1884"
     }
   ],
   "verification": {
@@ -1211,12 +1318,12 @@ window.UNIPATH.universities.push(
       "English requirements",
       "test policy",
       "tuition and fees",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "full list of majors",
-      "housing costs",
-      "founding year"
+      "housing costs"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -1265,6 +1372,27 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/international/other",
       "checked": "2026-10-15"
+    },
+    "economics": {
+      "program": "Economics Major Concentration (B.A.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://coursecatalogue.mcgill.ca/en/undergraduate/arts/programs/economics/economics-major-concentration-ba/",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics (Faculty of Science, B.Sc.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mcgill.ca/undergraduate-admissions/program/mathematics-faculty-science",
+      "checked": "2026-10-27"
+    },
+    "computer-science": {
+      "program": "Computer Science (Faculty of Science)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mcgill.ca/undergraduate-admissions/program/computer-science-faculty-science",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -1277,7 +1405,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Edmonton",
   "region": "Alberta",
-  "founded": null,
+  "founded": 1908,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -1295,13 +1423,21 @@ window.UNIPATH.universities.push(
     "business",
     "engineering",
     "social-sciences",
-    "arts"
+    "arts",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
     "business",
     "engineering",
     "social-sciences",
-    "arts"
+    "arts",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -1333,8 +1469,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.ualberta.ca/en/admissions/how-to-apply/dates-deadlines/index.html",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": "The page heading reads “Timeline for Fall 2027 Applicants” and every date in the table carries its year; the table caption under the heading still says “Fall 2024”.",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.ualberta.ca/en/admissions/how-to-apply/dates-deadlines/index.html",
+          "verified": "2026-10-27",
+          "quote": "Timeline for Fall 2027 Applicants … January 10, 2027 Entrance Award Application Deadline"
+        }
       },
       {
         "name": "Application deadline (most programmes)",
@@ -1350,8 +1494,16 @@ window.UNIPATH.universities.push(
         "conditions": "Some programmes have extended deadlines; Dental Hygiene, Dentistry, Medicine and Law differ. Admission is evaluated on a rolling basis.",
         "status": "confirmed",
         "source": "https://www.ualberta.ca/en/admissions/how-to-apply/dates-deadlines/index.html",
-        "verified": "2026-10-15",
-        "note": "The page is titled “Timeline for Fall 2027 Applicants”, although one table heading still reads “Fall 2024”."
+        "verified": "2026-10-27",
+        "note": "The page heading reads “Timeline for Fall 2027 Applicants” and every date in the table carries its year; the table caption under the heading still says “Fall 2024”.",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.ualberta.ca/en/admissions/how-to-apply/dates-deadlines/index.html",
+          "verified": "2026-10-27",
+          "quote": "March 1, 2027 Deadline to submit application for admission for most programs."
+        }
       },
       {
         "name": "Accept offers made before 1 April",
@@ -1365,8 +1517,18 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.ualberta.ca/en/admissions/how-to-apply/dates-deadlines/index.html",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": "The page heading reads “Timeline for Fall 2027 Applicants” and every date in the table carries its year; the table caption under the heading still says “Fall 2024”.",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.ualberta.ca/en/admissions/how-to-apply/dates-deadlines/index.html",
+          "verified": "2026-10-27",
+          "quote": "May 1, 2027 Deadline to accept admission offers made before April 1."
+        },
+        "time": "23:59",
+        "timezone": "MT"
       },
       {
         "name": "Outstanding documents for high school students",
@@ -1380,8 +1542,18 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.ualberta.ca/en/admissions/how-to-apply/dates-deadlines/index.html",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": "The page heading reads “Timeline for Fall 2027 Applicants” and every date in the table carries its year; the table caption under the heading still says “Fall 2024”.",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.ualberta.ca/en/admissions/how-to-apply/dates-deadlines/index.html",
+          "verified": "2026-10-27",
+          "quote": "August 1, 2027 Deadline to submit outstanding documents for high school students."
+        },
+        "time": "23:59",
+        "timezone": "MT"
       }
     ],
     "applicationFee": {
@@ -1507,7 +1679,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "For international applicants in general, the largest awards on the pages read are the President’s International Distinction and Chan Pang Kuen Memorial scholarships, up to C$120,000 payable over four years, by single scholarship application. An award covering full tuition and fees plus living costs exists only for graduates of Aga Khan Academies.",
+      "source": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/international-entrance-scholarships/index.html",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -1520,19 +1694,31 @@ window.UNIPATH.universities.push(
         "note": null,
         "basis": "merit",
         "source": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/international-entrance-scholarships/index.html",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       },
       {
         "name": "President’s International Distinction Scholarship",
-        "amount": "Up to C$120,000 over four years",
+        "amount": "Up to C$120,000, payable over four years",
         "eligibility": "25 a year: first-year students on a study permit with a superior average and leadership",
         "deadline": null,
-        "application": "Single scholarship application by 10 January",
-        "renewable": true,
-        "note": null,
+        "application": "Single scholarship application after applying for admission; the scholarship page gives 10 January (no year) and the Fall 2027 dates page gives 10 January 2027",
+        "renewable": null,
+        "note": "25 awards a year; the page states the total over four years, not a yearly coverage of tuition. Renewal conditions are not given on the page read.",
         "basis": "merit",
         "source": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/international-entrance-scholarships/index.html",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
+      },
+      {
+        "name": "Chan Pang Kuen Memorial International Distinction Scholarship",
+        "amount": "Up to C$120,000, payable over four years",
+        "eligibility": "First-year undergraduate students on a study permit with a superior admission average and leadership",
+        "deadline": null,
+        "application": "Single scholarship application (same form as the other application-based awards)",
+        "renewable": null,
+        "note": "The number of awards is not stated.",
+        "basis": "merit",
+        "source": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/international-entrance-scholarships/index.html",
+        "verified": "2026-10-27"
       },
       {
         "name": "International Leader Scholarship",
@@ -1544,7 +1730,7 @@ window.UNIPATH.universities.push(
         "note": null,
         "basis": "merit",
         "source": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/international-entrance-scholarships/index.html",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       },
       {
         "name": "Regional Excellence Scholarship",
@@ -1556,7 +1742,19 @@ window.UNIPATH.universities.push(
         "note": null,
         "basis": "merit",
         "source": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/international-entrance-scholarships/index.html",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
+      },
+      {
+        "name": "University of Alberta Global Citizen Scholarship for IB Diploma International Students from the Aga Khan Academy",
+        "amount": "Total tuition and non-instructional fees for four years, plus up to C$28,000 a year for living expenses",
+        "eligibility": "Only students entering from an Aga Khan Academy (IB Diploma) with superior academics, financial need and leadership, studying on a study permit",
+        "deadline": null,
+        "application": "Contact welcome@ualberta.ca for details",
+        "renewable": null,
+        "note": "A partner award for one school network; it is not open to other international applicants.",
+        "basis": "partnership",
+        "source": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/international-entrance-scholarships/index.html",
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -1597,6 +1795,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official undergraduate programme directory — checked 2026-10-26",
       "url": "https://www.ualberta.ca/en/undergraduate-programs/index.html"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.ualberta.ca/en/toolkit/communications/overview.html"
     }
   ],
   "verification": {
@@ -1608,12 +1810,12 @@ window.UNIPATH.universities.push(
       "test policy",
       "tuition",
       "scholarships",
-      "official programme directory"
+      "official programme directory",
+      "founding year"
     ],
     "unconfirmed": [
       "full list of majors",
-      "tuition for Fall 2027 entry",
-      "founding year"
+      "tuition for Fall 2027 entry"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -1658,6 +1860,34 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://costcalculator.registrar.ualberta.ca/costcalculator/",
       "checked": "2026-10-15"
+    },
+    "economics": {
+      "program": "Economics (Bachelor of Arts)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ualberta.ca/en/undergraduate-programs/bachelor-of-arts-economics.html",
+      "checked": "2026-10-29"
+    },
+    "psychology": {
+      "program": "Psychology (Bachelor of Arts)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ualberta.ca/en/undergraduate-programs/bachelor-of-arts-psychology.html",
+      "checked": "2026-10-29"
+    },
+    "mathematics": {
+      "program": "Mathematics (Bachelor of Science with Major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ualberta.ca/en/undergraduate-programs/bachelor-of-science-with-major-mathematics.html",
+      "checked": "2026-10-29"
+    },
+    "computer-science": {
+      "program": "Computing Science (Bachelor of Science with Major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ualberta.ca/en/undergraduate-programs/bachelor-of-science-with-major-computing-science.html",
+      "checked": "2026-10-29"
     }
   },
   "programsStatus": "partial"
@@ -1670,7 +1900,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Hamilton",
   "region": "Ontario",
-  "founded": null,
+  "founded": 1887,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -1694,7 +1924,8 @@ window.UNIPATH.universities.push(
     "social-sciences",
     "humanities",
     "arts",
-    "medicine"
+    "medicine",
+    "psychology"
   ],
   "englishTaughtPrograms": [
     "business",
@@ -1706,7 +1937,8 @@ window.UNIPATH.universities.push(
     "social-sciences",
     "humanities",
     "arts",
-    "medicine"
+    "medicine",
+    "psychology"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -1736,8 +1968,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://future.mcmaster.ca/apply/deadlines/",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": "Read in the official deadline finder for applicants from outside Canada (Level I): Engineering, Computer Science and Arts & Science show 15 January 2027; Business and Social Sciences show 1 April 2027.",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://future.mcmaster.ca/apply/deadlines/",
+          "verified": "2026-10-27",
+          "quote": "Engineering - International Application Deadline: January 15, 2027. Recommended Early Application Submission: Thursday, November 12, 2026"
+        }
       },
       {
         "name": "Application deadline: Engineering, Computer Science, Arts & Science",
@@ -1751,8 +1991,16 @@ window.UNIPATH.universities.push(
         "conditions": "Arts & Science also needs a supplementary application by 1 February 2027 (11:59 pm ET).",
         "status": "confirmed",
         "source": "https://future.mcmaster.ca/apply/deadlines/",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": "Read in the official deadline finder for applicants from outside Canada (Level I): Engineering, Computer Science and Arts & Science show 15 January 2027; Business and Social Sciences show 1 April 2027.",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://future.mcmaster.ca/apply/deadlines/",
+          "verified": "2026-10-27",
+          "quote": "Engineering - International Application Deadline: January 15, 2027. Recommended Early Application Submission: Thursday, November 12, 2026"
+        }
       },
       {
         "name": "Application deadline: Humanities, Social Sciences, Business, Life Sciences and other programmes",
@@ -1766,8 +2014,16 @@ window.UNIPATH.universities.push(
         "conditions": "For applicants outside Canada. Documents, including the English test, are due 1 April 2027 for all programmes.",
         "status": "confirmed",
         "source": "https://future.mcmaster.ca/apply/deadlines/",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": "Read in the official deadline finder for applicants from outside Canada (Level I): Engineering, Computer Science and Arts & Science show 15 January 2027; Business and Social Sciences show 1 April 2027.",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://future.mcmaster.ca/apply/deadlines/",
+          "verified": "2026-10-27",
+          "quote": "Business - International Application Deadline: April 1, 2027"
+        }
       }
     ],
     "applicationFee": {
@@ -1896,7 +2152,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "The Registrar states awards for international fee-paying undergraduates “ranging from $7,500-$210,000” (one award by application, one automatic award and financial awards). The page does not name the C$210,000 award or its period and coverage, so the largest award cannot be described here.",
+      "source": "https://registrar.mcmaster.ca/aid-awards-for-international-students/",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -1909,7 +2167,7 @@ window.UNIPATH.universities.push(
         "note": "A student receives either this award or the faculty achievement award. Offers are conditional on final grades.",
         "basis": "automatic",
         "source": "https://registrar.mcmaster.ca/entrance-awards/",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       },
       {
         "name": "Faculty-Specific Achievement Award",
@@ -1921,7 +2179,7 @@ window.UNIPATH.universities.push(
         "note": null,
         "basis": "automatic",
         "source": "https://registrar.mcmaster.ca/entrance-awards/",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -1968,6 +2226,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://future.mcmaster.ca/programs/"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://secretariat.mcmaster.ca/home/history-of-mcmaster-university/"
     }
   ],
   "verification": {
@@ -1977,12 +2239,14 @@ window.UNIPATH.universities.push(
       "English requirements",
       "test policy",
       "estimated tuition",
-      "entrance awards"
+      "entrance awards",
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "ancillary fees and housing",
       "requirements for Uzbekistan",
-      "founding year"
+      "name and terms of the largest international award"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -2062,6 +2326,13 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://future.mcmaster.ca/apply/deadlines/",
       "checked": "2026-10-15"
+    },
+    "psychology": {
+      "program": "Honours Psychology, Neuroscience & Behaviour (Bachelor of Science)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://future.mcmaster.ca/programs/psychology-neuroscience-behaviour/",
+      "checked": "2026-10-29"
     }
   },
   "programsStatus": "partial"
@@ -2074,7 +2345,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Montreal",
   "region": "Quebec",
-  "founded": null,
+  "founded": 1919,
   "type": "Public research university (French-language)",
   "institutionKind": "public",
   "degrees": [
@@ -2090,7 +2361,10 @@ window.UNIPATH.universities.push(
   "languageOfInstruction": "French",
   "programs": [
     "computer-science",
-    "medicine"
+    "medicine",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "englishTaughtPrograms": [],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
@@ -2121,8 +2395,16 @@ window.UNIPATH.universities.push(
         "conditions": "For candidates studying (or who studied) at a university or outside Quebec, in most faculties. Music: 15 January for all candidates.",
         "status": "confirmed",
         "source": "https://admission.umontreal.ca/admission/preparation-de-la-demande/respecter-les-dates-limites-de-depot/",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": "Shown for Automne 2027 on the official programme page (example: Baccalauréat en informatique). The general deadlines page prints 1 February without a year; check the programme page for other programmes.",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://admission.umontreal.ca/programmes/baccalaureat-en-informatique/",
+          "verified": "2026-10-27",
+          "quote": "Vous étudiez (ou avez étudié) à l’université ou hors Québec : 1er février 2027Du 1er août 2026 au 1er février 2027"
+        }
       },
       {
         "name": "French requirement: proof due (example: Baccalauréat en informatique)",
@@ -2136,8 +2418,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://admission.umontreal.ca/programmes/baccalaureat-en-informatique/",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://admission.umontreal.ca/programmes/baccalaureat-en-informatique/",
+          "verified": "2026-10-27",
+          "quote": "Vous étudiez (ou avez étudié) à l’université ou hors Québec : 15 février 2027Du 1er août 2026 au 15 février 2027"
+        }
       }
     ],
     "applicationFee": {
@@ -2217,7 +2507,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award on the pages read: the Bourse d’exemption UdeM, level A C$14,436 a year (2026–27 rates), deducted from tuition and given automatically at admission; French and Belgian francophone students are excluded. No award at the level of full tuition is described.",
+      "source": "https://registraire.umontreal.ca/droits-de-scolarite/bourse-exemption/",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -2230,7 +2522,7 @@ window.UNIPATH.universities.push(
         "note": "The level depends on the academic record at admission; a record that does not qualify for level A or B gets no exemption. Short programmes (certificates, majors, minors) are excluded.",
         "basis": "merit",
         "source": "https://registraire.umontreal.ca/droits-de-scolarite/bourse-exemption/",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -2279,6 +2571,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://admission.umontreal.ca/programmes-detudes/"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://secretariatgeneral.umontreal.ca/secretariat-general/histoire-de-luniversite/1878-1919-naissance-dune-universite/"
     }
   ],
   "verification": {
@@ -2289,12 +2585,13 @@ window.UNIPATH.universities.push(
       "application fee",
       "tuition",
       "tuition exemption scholarship",
-      "requirements for Uzbekistan"
+      "requirements for Uzbekistan",
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "full list of programmes",
-      "other required fees",
-      "founding year"
+      "other required fees"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -2320,6 +2617,27 @@ window.UNIPATH.universities.push(
       "language": "French",
       "url": "https://admission.umontreal.ca/admission/depot-de-la-demande/payer-les-frais-dadmission/",
       "checked": "2026-10-15"
+    },
+    "economics": {
+      "program": "Baccalauréat en économie et politique",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://admission.umontreal.ca/programmes/economie-et-politique/",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Baccalauréat en psychologie (campus Montréal)",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://admission.umontreal.ca/programmes/baccalaureat-en-psychologie/",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Baccalauréat en mathématiques",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://admission.umontreal.ca/programmes/baccalaureat-en-mathematiques/",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial",
@@ -2338,7 +2656,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Waterloo",
   "region": "Ontario",
-  "founded": null,
+  "founded": 1957,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -2357,14 +2675,18 @@ window.UNIPATH.universities.push(
     "computer-science",
     "engineering",
     "mathematics",
-    "arts"
+    "arts",
+    "economics",
+    "psychology"
   ],
   "englishTaughtPrograms": [
     "business",
     "computer-science",
     "engineering",
     "mathematics",
-    "arts"
+    "arts",
+    "economics",
+    "psychology"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -2395,8 +2717,16 @@ window.UNIPATH.universities.push(
         "conditions": "Documents by 1 February 2027; online interview required.",
         "status": "confirmed",
         "source": "https://uwaterloo.ca/future-students/admissions/deadlines",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://uwaterloo.ca/future-students/admissions/deadlines",
+          "verified": "2026-10-27",
+          "quote": "Engineering programs (other than Architecture) January 15, 2027 February 1, 2027"
+        }
       },
       {
         "name": "Application deadline: programmes other than Engineering",
@@ -2410,8 +2740,16 @@ window.UNIPATH.universities.push(
         "conditions": "Documents by 15 February 2027.",
         "status": "confirmed",
         "source": "https://uwaterloo.ca/future-students/admissions/deadlines",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://uwaterloo.ca/future-students/admissions/deadlines",
+          "verified": "2026-10-27",
+          "quote": "Programs other than Engineering February 1, 2027 February 15, 2027"
+        }
       }
     ],
     "applicationFee": {
@@ -2543,7 +2881,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award on the pages read: Faculty of Science International Student Scholarships, up to 15 awards of C$25,000–C$80,000, by application. Every eligible international first-year student also receives C$10,000 in the first year. No award at the level of full tuition is described.",
+      "source": "https://uwaterloo.ca/future-students/financing/international-scholarships",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -2556,7 +2896,7 @@ window.UNIPATH.universities.push(
         "note": "No limit on the number of recipients. Applied to the first two terms’ tuition; the student must stay full-time and international fee-paying.",
         "basis": "automatic",
         "source": "https://uwaterloo.ca/future-students/financing/international-scholarships",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       },
       {
         "name": "Faculty of Mathematics Global Scholarships",
@@ -2568,19 +2908,19 @@ window.UNIPATH.universities.push(
         "note": null,
         "basis": "merit",
         "source": "https://uwaterloo.ca/future-students/financing/international-scholarships",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       },
       {
         "name": "Faculty of Science International Student Scholarships",
-        "amount": "C$25,000–C$80,000 (15 awards)",
+        "amount": "C$25,000–C$80,000 (up to 15 awards)",
         "eligibility": "Most programmes in the Faculty of Science",
         "deadline": null,
         "application": "Application required",
         "renewable": null,
-        "note": null,
+        "note": "The page does not say over how many years the amount is paid.",
         "basis": "merit",
         "source": "https://uwaterloo.ca/future-students/financing/international-scholarships",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -2631,6 +2971,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://uwaterloo.ca/future-students/programs"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://uwaterloo.ca/about/history"
     }
   ],
   "verification": {
@@ -2641,11 +2985,11 @@ window.UNIPATH.universities.push(
       "estimated tuition",
       "scholarships",
       "test policy",
-      "requirements for Uzbekistan"
+      "requirements for Uzbekistan",
+      "founding year"
     ],
     "unconfirmed": [
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -2690,6 +3034,20 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://uwaterloo.ca/future-students/financing/tuition",
       "checked": "2026-10-15"
+    },
+    "economics": {
+      "program": "Economics (Faculty of Arts)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://uwaterloo.ca/future-students/programs/economics",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology – Bachelor of Arts",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://uwaterloo.ca/future-students/programs/psychology-arts",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -2702,7 +3060,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "London",
   "region": "Ontario",
-  "founded": null,
+  "founded": 1878,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -2720,13 +3078,17 @@ window.UNIPATH.universities.push(
     "business",
     "engineering",
     "humanities",
-    "arts"
+    "arts",
+    "psychology",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
     "business",
     "engineering",
     "humanities",
-    "arts"
+    "arts",
+    "psychology",
+    "computer-science"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -2757,8 +3119,16 @@ window.UNIPATH.universities.push(
         "conditions": "Also the Ivey Advanced Entry Opportunity deadline.",
         "status": "confirmed",
         "source": "https://welcome.uwo.ca/next-steps/apply/admission-deadlines.html",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://welcome.uwo.ca/next-steps/apply/admission-deadlines.html",
+          "verified": "2026-10-27",
+          "quote": "January 2027 … Deadline to submit OUAC application for equal consideration to full-time undergraduate studies January 15"
+        }
       },
       {
         "name": "National Scholarship application (including International President’s Entrance Scholarships)",
@@ -2772,8 +3142,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://welcome.uwo.ca/next-steps/apply/admission-deadlines.html",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": "The Registrar’s National Scholarship page says the 2027–28 application will be available by mid-November 2026; it still shows the passed 2026–27 deadline of 14 February 2026.",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://welcome.uwo.ca/next-steps/apply/admission-deadlines.html",
+          "verified": "2026-10-27",
+          "quote": "February 2027 … National Scholarship application deadline February 14"
+        }
       }
     ],
     "applicationFee": {
@@ -2920,20 +3298,34 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest awards open to international students: three International President’s Entrance Scholarships of C$100,000 and one Neen Hodgins President’s International Entrance Scholarship of up to C$100,000 (C$25,000 a year for four years). They need a school nomination and the National Scholarship application. No award at the level of full tuition is described.",
+      "source": "https://registrar.uwo.ca/student_finances/scholarships_awards/admission/national_scholarship_program.html",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
-        "name": "International President’s Entrance Scholarship",
-        "amount": "C$100,000 (three awards)",
-        "eligibility": "International students; National Scholarship Program for all-round excellence",
+        "name": "International President’s Entrance Scholarships",
+        "amount": "C$100,000 each (three awards)",
+        "eligibility": "International (visa) students with at least 90% on all Grade 12 U/M courses or equivalent, entering full-time at the main campus; a school nomination is required (a school may nominate one international student in addition to its four)",
         "deadline": null,
-        "application": "National Scholarship application by 14 February 2027",
+        "application": "Online National Scholarship application for international (visa) students with essay, school transcript and reference; the 2027–28 application opens by mid-November 2026",
         "renewable": null,
-        "note": null,
+        "note": "The 2026–27 deadline (14 February 2026) has passed; Western’s dates page lists 14 February in February 2027 for the next cycle.",
         "basis": "merit",
-        "source": "https://welcome.uwo.ca/next-steps/finances/index.html",
-        "verified": "2026-10-15"
+        "source": "https://registrar.uwo.ca/student_finances/scholarships_awards/admission/national_scholarship_program.html",
+        "verified": "2026-10-27"
+      },
+      {
+        "name": "Neen Hodgins President’s International Entrance Scholarship",
+        "amount": "Up to C$100,000: C$25,000 a year for four years (one award)",
+        "eligibility": "International (visa) students with at least 90% on all Grade 12 U/M courses or equivalent, entering full-time at the main campus; a school nomination is required (a school may nominate one international student in addition to its four)",
+        "deadline": null,
+        "application": "Online National Scholarship application for international (visa) students with essay, school transcript and reference; the 2027–28 application opens by mid-November 2026",
+        "renewable": true,
+        "note": "Part of the National Scholarship Program; renewal conditions are not given on the page read.",
+        "basis": "merit",
+        "source": "https://registrar.uwo.ca/student_finances/scholarships_awards/admission/national_scholarship_program.html",
+        "verified": "2026-10-27"
       },
       {
         "name": "Western Admission Scholarship",
@@ -3000,6 +3392,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Western — fee index and tuition guarantee",
       "url": "https://registrar.uwo.ca/student_finances/fees_refunds/fee_refund_schedules.html"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://mediarelations.uwo.ca/2012/01/26/western-draws-from-rich-history-with-new-visual-identity/"
     }
   ],
   "verification": {
@@ -3008,12 +3404,12 @@ window.UNIPATH.universities.push(
       "2027 deadlines",
       "English requirements",
       "test policy",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "tuition for 2026–27 and 2027–28",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -3053,6 +3449,20 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://welcome.uwo.ca/next-steps/apply/admission-deadlines.html",
       "checked": "2026-10-15"
+    },
+    "psychology": {
+      "program": "Major in Psychology (BA or BSc)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.psychology.uwo.ca/undergraduate/programs_modules/major/index.html",
+      "checked": "2026-10-27"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://welcome.uwo.ca/what-can-i-study/undergraduate-programs/computer-science.html",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -3065,7 +3475,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Ottawa",
   "region": "Ontario",
-  "founded": null,
+  "founded": 1848,
   "type": "Public research university (bilingual)",
   "institutionKind": "public",
   "degrees": [
@@ -3083,13 +3493,21 @@ window.UNIPATH.universities.push(
     "business",
     "engineering",
     "biology",
-    "social-sciences"
+    "social-sciences",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
     "business",
     "engineering",
     "biology",
-    "social-sciences"
+    "social-sciences",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -3119,8 +3537,16 @@ window.UNIPATH.universities.push(
         "conditions": "Deadlines vary by programme; many programmes reach capacity quickly and can close at any time. For international applicants most programmes close in May.",
         "status": "confirmed",
         "source": "https://www.uottawa.ca/study/undergraduate-studies/application-deadlines",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.uottawa.ca/study/undergraduate-studies/application-deadlines",
+          "verified": "2026-10-27",
+          "quote": "accepting applications for programs that begin in September 2027 on September 17, 2026. … we recommend that you submit your application before January 15, 2027."
+        }
       },
       {
         "name": "Documents and test results",
@@ -3134,8 +3560,16 @@ window.UNIPATH.universities.push(
         "conditions": "Or 30 days after applying.",
         "status": "confirmed",
         "source": "https://www.uottawa.ca/study/undergraduate-studies/application-deadlines",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.uottawa.ca/study/undergraduate-studies/application-deadlines",
+          "verified": "2026-10-27",
+          "quote": "submitting documents and test results, as soon possible, by February 15, 2027, or 30 days after you apply."
+        }
       }
     ],
     "applicationFee": {
@@ -3248,32 +3682,34 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "For programmes taught in English the largest award is the International English Admission Scholarship, C$7,500 per term (C$60,000 over four years), automatic; for programmes in French or French Immersion, the Differential Tuition Fee Exemption Scholarship, whose value varies by programme. Neither is described as covering full tuition.",
+      "source": "https://www.uottawa.ca/study/fees-financial-support/scholarships-awards-overview",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
-        "name": "International Admission Entrance Scholarship",
-        "amount": "C$15,000 a year off tuition",
-        "eligibility": "International students newly admitted (winter 2026 or later) to an eligible undergraduate programme taught in English",
+        "name": "International English Admission Scholarship",
+        "amount": "C$7,500 per term (C$60,000 over a four-year degree); renewable each term, up to 12 instalments",
+        "eligibility": "International students paying international fees, newly admitted in winter 2026 or later to an eligible undergraduate programme taught in English; no limit on the number of recipients",
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": true,
-        "note": "Awarded automatically on full-time enrolment; tuition is reduced immediately.",
+        "note": "Awarded automatically on full-time enrolment; tuition is reduced by C$15,000 a year. Listed under scholarships for international students 2027–2028.",
         "basis": "automatic",
         "source": "https://www.uottawa.ca/study/fees-financial-support/scholarships-awards-overview",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       },
       {
         "name": "International English Academic Excellence Scholarship",
-        "amount": "C$10,000 a year (100 awards)",
+        "amount": "C$10,000 (C$5,000 per term), 100 awards",
         "eligibility": "International students with an admission average of 90% or more, in an eligible English programme",
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
-        "renewable": null,
-        "note": null,
-        "basis": "merit",
+        "renewable": false,
+        "note": "Not renewable, but it can be combined with the International English Admission Scholarship.",
+        "basis": "automatic",
         "source": "https://www.uottawa.ca/study/fees-financial-support/scholarships-awards-overview",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       },
       {
         "name": "Differential Tuition Fee Exemption Scholarship",
@@ -3285,7 +3721,7 @@ window.UNIPATH.universities.push(
         "note": null,
         "basis": "automatic",
         "source": "https://www.uottawa.ca/study/fees-financial-support/scholarships-awards-overview",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       },
       {
         "name": "University of Ottawa Admission Scholarship",
@@ -3297,7 +3733,7 @@ window.UNIPATH.universities.push(
         "note": null,
         "basis": "merit",
         "source": "https://www.uottawa.ca/study/fees-financial-support/scholarships-awards-overview",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -3346,6 +3782,10 @@ window.UNIPATH.universities.push(
     {
       "label": "SAT/ACT scope review — general policy unresolved",
       "url": "https://www.uottawa.ca/study/undergraduate-studies/international-applicants/usa"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.uottawa.ca/about-us/administration-services/information-archives-management-service/history-uottawa"
     }
   ],
   "verification": {
@@ -3354,13 +3794,13 @@ window.UNIPATH.universities.push(
       "2027 deadlines",
       "English and French requirements",
       "tuition",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "test policy",
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -3400,6 +3840,34 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://dnn.uottawa.ca/en/Utilities/University-Fees/Tuition-Fees-INTL",
       "checked": "2026-10-15"
+    },
+    "economics": {
+      "program": "Honours in Economics",
+      "level": "bachelor",
+      "language": "English and French",
+      "url": "https://www.uottawa.ca/faculty-social-sciences/programs/undergraduate/course-sequences/honours-economics",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Honours BA Psychology",
+      "level": "bachelor",
+      "language": "English and French",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-ba-psychology/",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Major in Mathematics",
+      "level": "bachelor",
+      "language": "English and French",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/major-mathematics/",
+      "checked": "2026-10-27"
+    },
+    "computer-science": {
+      "program": "Computer Science (BSc)",
+      "level": "bachelor",
+      "language": "English and French",
+      "url": "https://www.uottawa.ca/faculty-engineering/undergraduate-studies/programs/computer-science",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -3412,7 +3880,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Calgary",
   "region": "Alberta",
-  "founded": null,
+  "founded": 1966,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -3429,12 +3897,18 @@ window.UNIPATH.universities.push(
   "programs": [
     "business",
     "engineering",
-    "arts"
+    "arts",
+    "economics",
+    "mathematics",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
     "business",
     "engineering",
-    "arts"
+    "arts",
+    "economics",
+    "mathematics",
+    "computer-science"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -3456,62 +3930,86 @@ window.UNIPATH.universities.push(
       {
         "name": "Prestige Award application (incl. International Entrance Scholarship)",
         "kind": "scholarship",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2026-12-01",
-        "date": "1 December 2026",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 December — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Documents by 15 December.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.ucalgary.ca/future-students/undergraduate/admissions/dates",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.ucalgary.ca/future-students/undergraduate/admissions/dates",
+          "verified": "2026-10-27",
+          "quote": "Dec. 1 Application deadline: Prestige Award for incoming high school students"
+        }
       },
       {
         "name": "Application deadline, including the application fee",
         "kind": "regular",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-03-01",
-        "date": "1 March 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 March — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": null,
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.ucalgary.ca/future-students/undergraduate/admissions/dates",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.ucalgary.ca/future-students/undergraduate/admissions/dates",
+          "verified": "2026-10-27",
+          "quote": "March 1 Application deadline: Fall undergraduate admission"
+        }
       },
       {
         "name": "Supporting documents (unofficial transcripts)",
         "kind": "documents",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-03-15",
-        "date": "15 March 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 March — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Dance, Music and Visual Studies audition and portfolio by 4 March.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.ucalgary.ca/future-students/undergraduate/admissions/dates",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.ucalgary.ca/future-students/undergraduate/admissions/dates",
+          "verified": "2026-10-27",
+          "quote": "March 15 Document deadline: Fall undergraduate admission"
+        }
       },
       {
         "name": "Accept an offer dated 1 April or earlier",
         "kind": "reply",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-05-01",
-        "date": "1 May 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 May — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Later offers: 30 days from the offer date.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.ucalgary.ca/future-students/undergraduate/admissions/dates",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.ucalgary.ca/future-students/undergraduate/admissions/dates",
+          "verified": "2026-10-27",
+          "quote": "May 1 Acceptance deadline: Fall undergraduate admission Deadline to accept fall offer of admission dated April 1 or prior."
+        }
       }
     ],
     "applicationFee": {
@@ -3632,7 +4130,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award open to international students on the pages read: the University of Calgary International Entrance Scholarship, C$20,000, renewable, two awards. No award at the level of full tuition is described.",
+      "source": "https://www.ucalgary.ca/registrar/awards/university-calgary-international-entrance-scholarship",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -3640,12 +4140,12 @@ window.UNIPATH.universities.push(
         "amount": "C$20,000, renewable",
         "eligibility": "Two a year: international students entering first year who meet the English requirement; academic merit",
         "deadline": null,
-        "application": "High School Prestige Awards application in the My UCalgary portal (by 1 December)",
+        "application": "Application required: High School Prestige Awards application in the My UCalgary portal (1 December; no year on the dates page)",
         "renewable": true,
         "note": "Renewable in years 2–4 with a GPA of 2.60 over at least 24 units and continued international fee status.",
         "basis": "merit",
         "source": "https://www.ucalgary.ca/registrar/awards/university-calgary-international-entrance-scholarship",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -3694,6 +4194,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.ucalgary.ca/future-students/undergraduate/programs"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.ucalgary.ca/about-ucalgary/our-history"
     }
   ],
   "verification": {
@@ -3705,11 +4209,11 @@ window.UNIPATH.universities.push(
       "costs",
       "scholarships",
       "test policy",
-      "requirements for Uzbekistan"
+      "requirements for Uzbekistan",
+      "founding year"
     ],
     "unconfirmed": [
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -3740,6 +4244,27 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.ucalgary.ca/future-students/undergraduate/admissions/dates",
       "checked": "2026-10-15"
+    },
+    "economics": {
+      "program": "Economics (BA)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/economics",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics (BSc)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/mathematics",
+      "checked": "2026-10-27"
+    },
+    "computer-science": {
+      "program": "Computer Science (BSc)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/computer-science",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -3752,7 +4277,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Kingston",
   "region": "Ontario",
-  "founded": null,
+  "founded": 1841,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -3771,14 +4296,20 @@ window.UNIPATH.universities.push(
     "computer-science",
     "engineering",
     "humanities",
-    "medicine"
+    "medicine",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "englishTaughtPrograms": [
     "business",
     "computer-science",
     "engineering",
     "humanities",
-    "medicine"
+    "medicine",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -3798,36 +4329,6 @@ window.UNIPATH.universities.push(
     ],
     "deadlines": [
       {
-        "name": "Recommended OUAC application date to reach the Major Admission Award application",
-        "kind": "priority",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2026-11-20",
-        "date": "20 November 2026",
-        "binding": false,
-        "appliesTo": "First-year applicants",
-        "conditions": "The university advises applying by 15 November so the SOLUS account is ready in time.",
-        "status": "confirmed",
-        "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
-        "verified": "2026-10-15",
-        "note": null
-      },
-      {
-        "name": "Major Admission Award application on SOLUS",
-        "kind": "scholarship",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2026-12-08",
-        "date": "8 December 2026",
-        "binding": false,
-        "appliesTo": "First-year applicants",
-        "conditions": null,
-        "status": "confirmed",
-        "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
-        "verified": "2026-10-15",
-        "note": null
-      },
-      {
         "name": "Application deadline: Commerce, Health Sciences and Nursing",
         "kind": "regular",
         "entryTerm": "Autumn",
@@ -3839,8 +4340,16 @@ window.UNIPATH.universities.push(
         "conditions": "Supplementary applications for these programmes are due 15 February 2027.",
         "status": "confirmed",
         "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
+          "verified": "2026-10-27",
+          "quote": "February 1, 2027 Applications are due for first-year full-time programs in Commerce, Health Science and Nursing."
+        }
       },
       {
         "name": "Application deadline: all other first-year programmes",
@@ -3854,8 +4363,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
+          "verified": "2026-10-27",
+          "quote": "March 1, 2027 Applications are due for all first-year full-time programs, except Commerce, Health Sciences, and Nursing."
+        }
       },
       {
         "name": "All documents, including transcripts and English test scores",
@@ -3869,8 +4386,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
+          "verified": "2026-10-27",
+          "quote": "March 31, 2027 Deadline to submit all documents, including transcripts and English test scores."
+        }
       }
     ],
     "applicationFee": {
@@ -4007,7 +4532,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest awards open to international students: the Dean’s International Awards, up to C$25,000 a year for four years in Arts and Science, Commerce and Engineering (up to C$15,000 in Health Sciences), automatic. The Major Admission Awards and the Chancellor’s Scholarship are only for Canadian citizens, permanent residents and Protected Persons. No award at the level of full tuition is described.",
+      "source": "https://www.queensu.ca/registrar/financial-aid/specific-students/international",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -4020,19 +4547,7 @@ window.UNIPATH.universities.push(
         "note": "Renewable for three more years with full-time study in the original faculty. Commerce (C$15,000, C$20,000 or C$25,000 a year), Engineering (C$10,000–C$25,000) and Health Sciences (C$10,000 or C$15,000) have their own versions.",
         "basis": "merit",
         "source": "https://www.queensu.ca/registrar/financial-aid/specific-students/international",
-        "verified": "2026-10-15"
-      },
-      {
-        "name": "Major Admission Awards",
-        "amount": null,
-        "eligibility": "Applicants with a strong record of achievement; open to domestic and international applicants",
-        "deadline": null,
-        "application": "Separate application on SOLUS by 8 December 2026",
-        "renewable": null,
-        "note": "Amounts are not given on the pages read.",
-        "basis": "merit",
-        "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -4083,6 +4598,14 @@ window.UNIPATH.universities.push(
     {
       "label": "General requirements reviewed — Uzbekistan-specific rule unresolved",
       "url": "https://www.queensu.ca/admission/applying/admission-requirements"
+    },
+    {
+      "label": "Queen’s — Major Admission Awards (Canadian citizens, permanent residents and Protected Persons only)",
+      "url": "https://www.queensu.ca/registrar/financial-aid/application-required/future-students/major-awards"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.queensu.ca/encyclopedia/h/history-queens-overview"
     }
   ],
   "verification": {
@@ -4092,12 +4615,12 @@ window.UNIPATH.universities.push(
       "English requirements",
       "costs",
       "scholarships",
-      "test policy"
+      "test policy",
+      "founding year"
     ],
     "unconfirmed": [
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -4145,6 +4668,27 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.queensu.ca/admission/applying/dates-deadlines",
       "checked": "2026-10-15"
+    },
+    "economics": {
+      "program": "Economics – Major (Arts) – Bachelor of Arts (Honours)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.queensu.ca/academic-calendar/arts-science/schools-departments-programs/economics/economics-major-arts-ba-honours/",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology – Major (Arts) – Bachelor of Arts (Honours)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.queensu.ca/academic-calendar/arts-science/schools-departments-programs/psychology/psychology-major-arts-ba-honours/",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics and Statistics (BA, BSc plans)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.queensu.ca/academic-calendar/arts-science/schools-departments-programs/mathematics-statistics/",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -4157,7 +4701,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Halifax",
   "region": "Nova Scotia",
-  "founded": null,
+  "founded": 1818,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -4176,14 +4720,20 @@ window.UNIPATH.universities.push(
     "computer-science",
     "engineering",
     "business",
-    "medicine"
+    "medicine",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "englishTaughtPrograms": [
     "humanities",
     "computer-science",
     "engineering",
     "business",
-    "medicine"
+    "medicine",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -4237,8 +4787,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.dal.ca/admissions/dates-and-deadlines.html",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.dal.ca/admissions/dates-and-deadlines.html",
+          "verified": "2026-10-27",
+          "quote": "September 2027 entry - Program specific deadlines Feb. 15, 2027 Bachelor of Science (Nursing)"
+        }
       },
       {
         "name": "Application deadline: Environmental Design Studies (Architecture)",
@@ -4252,8 +4810,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.dal.ca/admissions/dates-and-deadlines.html",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.dal.ca/admissions/dates-and-deadlines.html",
+          "verified": "2026-10-27",
+          "quote": "March 1, 2027 Bachelor of Environmental Design Studies (Architecture)"
+        }
       },
       {
         "name": "Accept the offer (admission deposit) and prove English proficiency",
@@ -4267,8 +4833,16 @@ window.UNIPATH.universities.push(
         "conditions": "Other programmes have no fixed deadline: applications are considered while space remains, before classes start in September.",
         "status": "confirmed",
         "source": "https://www.dal.ca/admissions/dates-and-deadlines.html",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.dal.ca/admissions/dates-and-deadlines.html",
+          "verified": "2026-10-27",
+          "quote": "September 2027 entry … May 1, 2027 Deadline to accept your offer of admission by paying your admission deposit"
+        }
       },
       {
         "name": "General Entrance Awards — required documents",
@@ -4422,7 +4996,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Dalhousie states entrance awards of C$1K to C$80K, one-time or renewable for up to four years, open to domestic and international students through the General Entrance Award application (15 February 2027). Larger listed awards are for defined groups (e.g. the Murray Family Jamaican Engineering Scholarship, C$88,000, for students from Jamaica). No award at the level of full tuition is described.",
+      "source": "https://www.dal.ca/admissions/scholarships-financial-aid/scholarships/future-undergraduate-student-awards.html",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -4514,6 +5090,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.dal.ca/study/programs.html"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.dal.ca/about/our-story/history.html"
     }
   ],
   "verification": {
@@ -4525,11 +5105,11 @@ window.UNIPATH.universities.push(
       "scholarships",
       "requirements for Uzbekistan",
       "application fee",
-      "test policy"
+      "test policy",
+      "founding year"
     ],
     "unconfirmed": [
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -4578,6 +5158,27 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.dal.ca/admissions/dates-and-deadlines.html",
       "checked": "2026-10-15"
+    },
+    "economics": {
+      "program": "Economics (BSc) or (BA)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.dal.ca/study/programs/undergraduate/economics-bsc.html",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology (BSc) or (BA)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.dal.ca/study/programs/undergraduate/psychology-bsc-ba.html",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics (BSc) or (BA)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.dal.ca/study/programs/undergraduate/mathematics-ba-bsc.html",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -4590,7 +5191,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Burnaby",
   "region": "British Columbia",
-  "founded": null,
+  "founded": 1965,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -4607,12 +5208,20 @@ window.UNIPATH.universities.push(
   "programs": [
     "business",
     "social-sciences",
-    "arts"
+    "arts",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
     "business",
     "social-sciences",
-    "arts"
+    "arts",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -4886,9 +5495,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": "Uggla is currently restricted to domestic Canadian students. The international USES cash award and possible need-based living allowance do not establish full tuition or full-cost coverage; international full-level coverage remains unconfirmed.",
+      "note": "Largest award open to international students: the Undergraduate Scholars Entrance Scholarship (USES), C$140,000 in eight C$17,500 payments for the selected international award, by separate application. It is not described as covering full tuition.",
       "source": "https://www.sfu.ca/students/financial-aid/entrance/highschool/uses.html",
-      "verified": "2026-10-24",
+      "verified": "2026-10-27",
       "detailsSource": "https://www.sfu.ca/students/admission/fees-scholarships/uggla.html",
       "detailsVerified": "2026-10-24"
     },
@@ -4970,6 +5579,10 @@ window.UNIPATH.universities.push(
     {
       "label": "SFU — country selector checked; Uzbekistan absent",
       "url": "https://www.sfu.ca/students/admission/admission-requirements/international-highschool/country.html"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.sfu.ca/convocation/about/history.html"
     }
   ],
   "verification": {
@@ -4980,12 +5593,12 @@ window.UNIPATH.universities.push(
       "test policy",
       "costs",
       "scholarships",
-      "application fee"
+      "application fee",
+      "founding year"
     ],
     "unconfirmed": [
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -5021,6 +5634,34 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.sfu.ca/students/admission/apply/dates-deadlines/high-school/fall-term.html",
       "checked": "2026-10-15"
+    },
+    "economics": {
+      "program": "Economics (Bachelor of Arts or Bachelor of Science)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/e/economics.html",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology (Bachelor of Arts)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/p/psychology.html",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics (Bachelor of Science)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/m/mathematics.html",
+      "checked": "2026-10-27"
+    },
+    "computer-science": {
+      "program": "Computing Science (Bachelor of Science or Bachelor of Arts)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/c/computing-science.html",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -5033,7 +5674,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Quebec City",
   "region": "Quebec",
-  "founded": null,
+  "founded": 1852,
   "type": "Public research university (French-language)",
   "institutionKind": "public",
   "degrees": [
@@ -5048,7 +5689,11 @@ window.UNIPATH.universities.push(
   "englishTaught": false,
   "languageOfInstruction": "French",
   "programs": [
-    "medicine"
+    "medicine",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "englishTaughtPrograms": [],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
@@ -5070,32 +5715,44 @@ window.UNIPATH.universities.push(
       {
         "name": "Application deadline: quota programmes (medicine, pharmacy, occupational therapy, physiotherapy, sexology, biomedical sciences)",
         "kind": "regular",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2026-11-01",
-        "date": "1 November 2026",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 November before the year of entry — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": null,
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.ulaval.ca/admission/deposez-votre-demande-dadmission/dates-limites-de-depot",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.ulaval.ca/admission/deposez-votre-demande-dadmission/dates-limites-de-depot",
+          "verified": "2026-10-27",
+          "quote": "est le 1er novembre précédant l’année d’admission visée"
+        }
       },
       {
         "name": "Application deadline: limited-capacity and open bachelor’s programmes",
         "kind": "regular",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-02-01",
-        "date": "1 February 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 February — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "An application filed after the deadline is moved to a later term. Immigration steps can take four to six months.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.ulaval.ca/admission/deposez-votre-demande-dadmission/dates-limites-de-depot",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.ulaval.ca/admission/deposez-votre-demande-dadmission/dates-limites-de-depot",
+          "verified": "2026-10-27",
+          "quote": "Programmes à capacité d'accueil limitée Date limite: 1er février"
+        }
       }
     ],
     "applicationFee": {
@@ -5184,7 +5841,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "No award at the level of full tuition is described for bachelor’s students. The supplementary-fee exemption depends on Quebec government quotas by country (or on French or Belgian francophone citizenship). The C$20,000 excellence award of the 2026 round is not confirmed for bachelor’s students in 2027.",
+      "source": "https://www.ulaval.ca/espace-etudiant/bourses-et-aide-financiere/bourses-detudes/bourses-citoyennes-et-citoyens-du-monde-volets-excellence-et-engagement",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -5197,7 +5856,19 @@ window.UNIPATH.universities.push(
         "note": "Country quotas set by the Quebec government; Uzbekistan’s place on the list was not checked.",
         "basis": "partnership",
         "source": "https://www.ulaval.ca/etudes/droits-de-scolarite/etudiant-etranger",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
+      },
+      {
+        "name": "Bourses citoyennes et citoyens du monde — volet excellence (baccalauréat)",
+        "amount": "C$20,000 in the 2026 admission round (previous cycle)",
+        "eligibility": "International applicants who submitted a new admission application; in the 2026 round bachelor’s programmes were included",
+        "deadline": null,
+        "application": "Separate application; the 2026 round closed on 15 January 2026. The 2027 competition opens in November 2026.",
+        "renewable": null,
+        "note": "Previous cycle. The current official page describes the excellence strand for research master’s and doctoral programmes only, so a 2027 bachelor’s award is not confirmed.",
+        "basis": "merit",
+        "source": "https://nouvelles.ulaval.ca/2025/12/15/des-bourses-de-20-000dollar-et-30-000dollar-pour-attirer-des-talents-etudiants-a-luniversite-laval-4559df29-6be3-4588-b705-67db5fb40017",
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -5246,6 +5917,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.ulaval.ca/etudes/programmes?sessions_admission%5B0%5D=0"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.ulaval.ca/notre-universite/origine-et-histoire"
     }
   ],
   "verification": {
@@ -5255,12 +5930,13 @@ window.UNIPATH.universities.push(
       "application fee",
       "French requirement",
       "tuition",
-      "requirements for Uzbekistan"
+      "requirements for Uzbekistan",
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "entrance scholarships for international students",
-      "full list of programmes",
-      "founding year"
+      "full list of programmes"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -5279,6 +5955,34 @@ window.UNIPATH.universities.push(
       "language": "French",
       "url": "https://www.ulaval.ca/admission/deposez-votre-demande-dadmission/dates-limites-de-depot",
       "checked": "2026-10-15"
+    },
+    "economics": {
+      "program": "Baccalauréat en économique",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://www.ulaval.ca/etudes/programmes/baccalaureat-en-economique",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Baccalauréat en psychologie",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://www.ulaval.ca/etudes/programmes/baccalaureat-en-psychologie",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Baccalauréat en mathématiques",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://www.ulaval.ca/etudes/programmes/baccalaureat-en-mathematiques",
+      "checked": "2026-10-27"
+    },
+    "computer-science": {
+      "program": "Baccalauréat en informatique",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://www.ulaval.ca/etudes/programmes/baccalaureat-en-informatique",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial",
@@ -5297,7 +6001,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Saskatoon",
   "region": "Saskatchewan",
-  "founded": null,
+  "founded": 1907,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -5316,14 +6020,20 @@ window.UNIPATH.universities.push(
     "engineering",
     "computer-science",
     "humanities",
-    "medicine"
+    "medicine",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "englishTaughtPrograms": [
     "business",
     "engineering",
     "computer-science",
     "humanities",
-    "medicine"
+    "medicine",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -5344,32 +6054,44 @@ window.UNIPATH.universities.push(
       {
         "name": "Apply with documents to be considered for USask Entrance Scholarships",
         "kind": "priority",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2026-12-01",
-        "date": "1 December 2026",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 December — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": null,
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://admissions.usask.ca/money/scholarships.php",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://admissions.usask.ca/money/scholarships.php",
+          "verified": "2026-10-27",
+          "quote": "ensure your transcript and other admission documents have been submitted to the Admissions Office by December 1."
+        }
       },
       {
         "name": "Apply for admission to be eligible for international student awards",
         "kind": "priority",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-02-15",
-        "date": "15 February 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 February — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": null,
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://admissions.usask.ca/money/scholarships.php",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://admissions.usask.ca/money/scholarships.php",
+          "verified": "2026-10-27",
+          "quote": "Step 1: Apply for admission by February 15"
+        }
       },
       {
         "name": "International application deadline (Arts and Science)",
@@ -5383,8 +6105,16 @@ window.UNIPATH.universities.push(
         "conditions": "Documents due 1 June 2027. Other colleges set their own dates.",
         "status": "confirmed",
         "source": "https://admissions.usask.ca/computer-science.php",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://admissions.usask.ca/computer-science.php",
+          "verified": "2026-10-27",
+          "quote": "Fall September 2027 July 15, 2027 Documents due: Aug. 1, 2027 May 1, 2027 Documents due: June 1, 2027"
+        }
       }
     ],
     "applicationFee": {
@@ -5516,7 +6246,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "For applicants from schools outside Canada the largest awards on the pages read are the International Baccalaureate Excellence Award (C$20,000, one award, IB Diploma) and the International Excellence Award (C$10,000, one award), both automatic for admission applications by 15 February. The Best and Brightest scholarships (up to C$40,000) require graduating from a Canadian high school; four C$15,000 and several C$10,000 awards are for international students at schools in Saskatchewan, Manitoba, Alberta or British Columbia. No award at the level of full tuition is described.",
+      "source": "https://admissions.usask.ca/money/scholarships.php",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -5529,7 +6261,7 @@ window.UNIPATH.universities.push(
         "note": "One award offered.",
         "basis": "merit",
         "source": "https://admissions.usask.ca/money/scholarships.php",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       },
       {
         "name": "International Baccalaureate Excellence Award",
@@ -5541,7 +6273,7 @@ window.UNIPATH.universities.push(
         "note": "One award offered.",
         "basis": "merit",
         "source": "https://admissions.usask.ca/money/scholarships.php",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       },
       {
         "name": "USask Entrance Scholarships",
@@ -5553,7 +6285,7 @@ window.UNIPATH.universities.push(
         "note": "Awarded by admission average; the eligibility text read names no citizenship limit.",
         "basis": "merit",
         "source": "https://admissions.usask.ca/money/scholarships.php",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -5602,6 +6334,10 @@ window.UNIPATH.universities.push(
     {
       "label": "General requirements reviewed — Uzbekistan-specific rule unresolved",
       "url": "https://admissions.usask.ca/requirements/deadlines.php"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://library.usask.ca/uasc/campus-history/brief-chronology.php"
     }
   ],
   "verification": {
@@ -5611,14 +6347,14 @@ window.UNIPATH.universities.push(
       "application fee",
       "English requirements",
       "tuition",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "test policy",
       "requirements for Uzbekistan",
       "housing costs",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -5664,6 +6400,27 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://admissions.usask.ca/money/tuition.php",
       "checked": "2026-10-15"
+    },
+    "economics": {
+      "program": "Economics (Bachelor of Arts)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://admissions.usask.ca/economics.php",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology (Bachelor of Arts or Bachelor of Science)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://admissions.usask.ca/psychology.php",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics (Bachelor of Science)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://admissions.usask.ca/mathematics.php",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -5676,7 +6433,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Winnipeg",
   "region": "Manitoba",
-  "founded": null,
+  "founded": 1877,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -5696,7 +6453,11 @@ window.UNIPATH.universities.push(
     "business",
     "arts",
     "medicine",
-    "education"
+    "education",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
     "humanities",
@@ -5704,7 +6465,11 @@ window.UNIPATH.universities.push(
     "business",
     "arts",
     "medicine",
-    "education"
+    "education",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -5734,8 +6499,18 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://umanitoba.ca/financial-aid-and-awards/entrance-awards",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": "The same official list labels the 1 March 2027 admission and scholarship deadline “(Fall 2026)”; that label conflicts with its year and is not used here.",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://umanitoba.ca/financial-aid-and-awards/entrance-awards",
+          "verified": "2026-10-27",
+          "quote": "Dec. 1, 2026 International Excellence Entrance Scholarship deadline"
+        },
+        "awardId": "international-excellence",
+        "awardCategory": "merit"
       },
       {
         "name": "Admission application and entrance scholarship consideration",
@@ -5878,20 +6653,26 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award open to international students on the pages read: one International Excellence Entrance Scholarship of C$25,000 (two more of C$10,000), for entry in September 2027, application by 1 December 2026. No award at the level of full tuition is described.",
+      "source": "https://umanitoba.ca/financial-aid-and-awards/entrance-awards/international-excellence-entrance-scholarship",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
         "name": "International Excellence Entrance Scholarship",
-        "amount": null,
-        "eligibility": "Exceptional international students entering a direct-entry programme; three awards",
+        "amount": "One award of C$25,000 and two of C$10,000",
+        "eligibility": "International students entering a direct-entry programme in September 2027, with leadership and community involvement; the C$25,000 award needs at least 90% across five listed senior courses",
         "deadline": null,
-        "application": "Application by 1 December 2026",
+        "application": "Scholarship application with one teacher or principal reference, and the admission application with fee, by 1 December 2026",
         "renewable": null,
-        "note": "The value is not stated on the page read.",
+        "note": "The award pages do not state renewal. Decisions are released in mid-March 2027.",
         "basis": "merit",
-        "source": "https://umanitoba.ca/financial-aid-and-awards/entrance-awards",
-        "verified": "2026-10-15"
+        "source": "https://umanitoba.ca/financial-aid-and-awards/entrance-awards/international-excellence-entrance-scholarship",
+        "verified": "2026-10-27",
+        "id": "international-excellence",
+        "category": "merit",
+        "entryTerm": "Autumn",
+        "entryYear": "2027"
       },
       {
         "name": "University of Manitoba General Entrance Scholarships",
@@ -5950,6 +6731,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://umanitoba.ca/explore/programs-of-study"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://umanitoba.ca/about-um"
     }
   ],
   "verification": {
@@ -5960,12 +6745,12 @@ window.UNIPATH.universities.push(
       "requirements for Uzbekistan",
       "scholarships",
       "application fee",
-      "test policy"
+      "test policy",
+      "founding year"
     ],
     "unconfirmed": [
       "application deadline for autumn 2027",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -6019,6 +6804,34 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://umanitoba.ca/registrar/tuition-fees/undergraduate",
       "checked": "2026-10-15"
+    },
+    "economics": {
+      "program": "Economics (BA)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://umanitoba.ca/explore/programs-of-study/economics-ba",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology (BA)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://umanitoba.ca/explore/programs-of-study/psychology-ba",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics (BSc)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://umanitoba.ca/explore/programs-of-study/mathematics-bsc",
+      "checked": "2026-10-27"
+    },
+    "computer-science": {
+      "program": "Computer Science (BCSc) (BSc)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://umanitoba.ca/explore/programs-of-study/computer-science-bsc",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -6031,7 +6844,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Guelph",
   "region": "Ontario",
-  "founded": null,
+  "founded": 1964,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -6050,14 +6863,18 @@ window.UNIPATH.universities.push(
     "computer-science",
     "engineering",
     "mathematics",
-    "arts"
+    "arts",
+    "psychology",
+    "economics"
   ],
   "englishTaughtPrograms": [
     "business",
     "computer-science",
     "engineering",
     "mathematics",
-    "arts"
+    "arts",
+    "psychology",
+    "economics"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -6087,8 +6904,16 @@ window.UNIPATH.universities.push(
         "conditions": "Applications to Landscape Architecture close on 1 February.",
         "status": "confirmed",
         "source": "https://www.uoguelph.ca/admission/undergraduate/apply/deadlines",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.uoguelph.ca/admission/undergraduate/apply/deadlines",
+          "verified": "2026-10-27",
+          "quote": "For the 2026-27 calendar year … February 1 Deadline for high school students studying outside of Canada to submit documents to be considered for early admission"
+        }
       },
       {
         "name": "Proof of English proficiency (soft deadline)",
@@ -6102,8 +6927,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.uoguelph.ca/admission/undergraduate/apply/deadlines",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.uoguelph.ca/admission/undergraduate/apply/deadlines",
+          "verified": "2026-10-27",
+          "quote": "For the 2026-27 calendar year … March 1 Deadline for out-of-country applicants to provide proof of English proficiency (soft deadline)"
+        }
       },
       {
         "name": "Dr. Franco J. Vaccarino President’s Scholarship application",
@@ -6143,8 +6976,16 @@ window.UNIPATH.universities.push(
         "conditions": "Documents due 22 May.",
         "status": "confirmed",
         "source": "https://www.uoguelph.ca/admission/undergraduate/apply/deadlines",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.uoguelph.ca/admission/undergraduate/apply/deadlines",
+          "verified": "2026-10-27",
+          "quote": "May 15 Deadline for high school students studying outside of Canada to apply for fall 2027 entry"
+        }
       },
       {
         "name": "Accept the offer of admission",
@@ -6158,8 +6999,16 @@ window.UNIPATH.universities.push(
         "conditions": "The C$2,000 tuition deposit is due 15 June.",
         "status": "confirmed",
         "source": "https://www.uoguelph.ca/admission/undergraduate/apply/deadlines",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.uoguelph.ca/admission/undergraduate/apply/deadlines",
+          "verified": "2026-10-27",
+          "quote": "For the 2026-27 calendar year … June 1 Deadline for international students studying outside of Canada to accept their offer of admission"
+        }
       },
       {
         "name": "Vaccarino scholarship: reference letters",
@@ -6321,7 +7170,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest awards open to international students: the Dr. Franco J. Vaccarino President’s Scholarship (C$42,500, two awards, by application) and the President’s International Entrance Scholarship (up to C$42,500 over four years, automatic by admission average). No award at the level of full tuition is described.",
+      "source": "https://www.uoguelph.ca/admission/undergraduate/international/funding",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -6399,6 +7250,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Guelph — Vaccarino scholarship for Fall 2027",
       "url": "https://www.uoguelph.ca/registrar/finances-fees/vaccarino"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.uoguelph.ca/maps/locations/founding-of-ug"
     }
   ],
   "verification": {
@@ -6408,12 +7263,12 @@ window.UNIPATH.universities.push(
       "English requirements",
       "test policy",
       "requirements for Uzbekistan",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "tuition for 2026–27 and 2027–28",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -6459,6 +7314,20 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.uoguelph.ca/admission/undergraduate/international/funding",
       "checked": "2026-10-15"
+    },
+    "psychology": {
+      "program": "Bachelor of Arts (B.A.) Psychology Major",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uoguelph.ca/psychology/undergraduate/programs/bachelor-arts-ba-psychology-majorminor",
+      "checked": "2026-10-27"
+    },
+    "economics": {
+      "program": "Economics (ECON) major, Bachelor of Arts",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/economics-econ/",
+      "checked": "2026-10-29"
     }
   },
   "programsStatus": "partial"
@@ -6471,7 +7340,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Ottawa",
   "region": "Ontario",
-  "founded": null,
+  "founded": 1942,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -6492,7 +7361,9 @@ window.UNIPATH.universities.push(
     "engineering",
     "economics",
     "social-sciences",
-    "arts"
+    "arts",
+    "psychology",
+    "mathematics"
   ],
   "englishTaughtPrograms": [
     "humanities",
@@ -6501,7 +7372,9 @@ window.UNIPATH.universities.push(
     "engineering",
     "economics",
     "social-sciences",
-    "arts"
+    "arts",
+    "psychology",
+    "mathematics"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -6532,8 +7405,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://admissions.carleton.ca/deadlines/",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://admissions.carleton.ca/deadlines/",
+          "verified": "2026-10-27",
+          "quote": "This timeline is based on the 2026-2027 academic year. … March 1, 2027 – Deadline to apply for a Prestige Scholarship."
+        }
       },
       {
         "name": "Programme-specific application deadlines",
@@ -6547,8 +7428,16 @@ window.UNIPATH.universities.push(
         "conditions": "Some programmes have early deadlines and extra admission material, due 5 March 2027.",
         "status": "confirmed",
         "source": "https://admissions.carleton.ca/deadlines/",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://admissions.carleton.ca/deadlines/",
+          "verified": "2026-10-27",
+          "quote": "March 1, 2027 – Program specific application deadlines*."
+        }
       },
       {
         "name": "Main application deadline for international students (transcripts from outside Canada or the US)",
@@ -6562,8 +7451,16 @@ window.UNIPATH.universities.push(
         "conditions": "Applications are reviewed on a rolling basis; applying early is encouraged.",
         "status": "confirmed",
         "source": "https://admissions.carleton.ca/deadlines/",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://admissions.carleton.ca/deadlines/",
+          "verified": "2026-10-27",
+          "quote": "April 1, 2027 – Main deadline to apply for international students (whose transcripts originate outside Canada or the US)*."
+        }
       }
     ],
     "applicationFee": {
@@ -6691,7 +7588,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest awards open to international students: Prestige Scholarships, C$5,000–C$14,178 a year, renewable, by application (admission average over 90%). No award at the level of full tuition is described.",
+      "source": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -6704,7 +7603,7 @@ window.UNIPATH.universities.push(
         "note": "Renewable with an A- standing (annual GPA 10.0); can be regained.",
         "basis": "merit",
         "source": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       },
       {
         "name": "President’s Welcome Award for International Students",
@@ -6716,7 +7615,7 @@ window.UNIPATH.universities.push(
         "note": "By grades at admission; in addition to other entrance scholarships.",
         "basis": "merit",
         "source": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       },
       {
         "name": "Prestige Scholarships",
@@ -6728,7 +7627,7 @@ window.UNIPATH.universities.push(
         "note": "Renewable with a minimum A- (10.0 GPA) in full-time studies.",
         "basis": "merit",
         "source": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/",
-        "verified": "2026-10-15"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -6773,6 +7672,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://admissions.carleton.ca/programs/"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://carleton.ca/about/history/"
     }
   ],
   "verification": {
@@ -6783,11 +7686,11 @@ window.UNIPATH.universities.push(
       "English requirements",
       "tuition",
       "scholarships",
-      "test policy"
+      "test policy",
+      "founding year"
     ],
     "unconfirmed": [
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -6846,6 +7749,20 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/",
       "checked": "2026-10-15"
+    },
+    "psychology": {
+      "program": "Psychology (BA)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://admissions.carleton.ca/programs/psychology-ba/",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics (BMath)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://admissions.carleton.ca/programs/mathematics/",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -6858,7 +7775,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Toronto",
   "region": "Ontario",
-  "founded": null,
+  "founded": 1959,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -6877,14 +7794,20 @@ window.UNIPATH.universities.push(
     "computer-science",
     "engineering",
     "arts",
-    "medicine"
+    "medicine",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "englishTaughtPrograms": [
     "business",
     "computer-science",
     "engineering",
     "arts",
-    "medicine"
+    "medicine",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -6915,8 +7838,16 @@ window.UNIPATH.universities.push(
         "conditions": "Schulich does not accept applications after 15 January; its supplementary application is due 1 February 2027. Social Work also closes on 15 January.",
         "status": "confirmed",
         "source": "https://futurestudents.yorku.ca/requirements/deadlines",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://futurestudents.yorku.ca/requirements/deadlines",
+          "verified": "2026-10-27",
+          "quote": "Fall 2027 (September) January 15, 2027 … Schulich School of Business (BBA) will not accept applications after the January 15 deadline."
+        }
       },
       {
         "name": "President’s International Scholarship of Excellence: student application",
@@ -6956,8 +7887,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://futurestudents.yorku.ca/requirements/deadlines",
-        "verified": "2026-10-15",
-        "note": "The page prints this date without a year; it was read on 15 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://futurestudents.yorku.ca/requirements/deadlines",
+          "verified": "2026-10-27",
+          "quote": "Fall 2027 (September) … Deadlines exceptions: Nursing: Application for Direct Entry Nursing is February 1."
+        }
       },
       {
         "name": "Application deadline for international students (fall 2027)",
@@ -6971,8 +7910,16 @@ window.UNIPATH.universities.push(
         "conditions": "Applications are still accepted and assessed until each programme is full; apply early for study permit time.",
         "status": "confirmed",
         "source": "https://futurestudents.yorku.ca/requirements/deadlines",
-        "verified": "2026-10-15",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://futurestudents.yorku.ca/requirements/deadlines",
+          "verified": "2026-10-27",
+          "quote": "Fall 2027 (September) January 15, 2027 March 24, 2027 March 24, 2027 March 24, 2027"
+        }
       },
       {
         "name": "PISE: school nomination and reference submission",
@@ -7142,7 +8089,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award open to international students: the President’s International Scholarship of Excellence (PISE), C$180,000 (C$45,000 a year for four years), by application with school nomination (student form 27 January 2027). It is not described as covering full tuition, and residence and meals are paid separately.",
+      "source": "https://futurestudents.yorku.ca/financing-your-degree/international-scholarships",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -7224,6 +8173,10 @@ window.UNIPATH.universities.push(
     {
       "label": "York — PISE Fall 2027 application guides",
       "url": "https://futurestudents.yorku.ca/presidents-international-scholarship-excellence-application-guides"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.yorku.ca/about/history/"
     }
   ],
   "verification": {
@@ -7234,12 +8187,13 @@ window.UNIPATH.universities.push(
       "English requirements",
       "test policy",
       "requirements for Uzbekistan",
-      "tuition"
+      "tuition",
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "entrance scholarship values for fall 2027",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-15",
@@ -7292,6 +8246,27 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://futurestudents.yorku.ca/requirements/deadlines",
       "checked": "2026-10-15"
+    },
+    "economics": {
+      "program": "Economics (Faculty of Liberal Arts & Professional Studies)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://futurestudents.yorku.ca/program/economics/laps",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology (Faculty of Health)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://futurestudents.yorku.ca/program/psychology/health",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics (Faculty of Science)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://futurestudents.yorku.ca/program/mathematics/science",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -7304,7 +8279,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Montreal",
   "region": "Quebec",
-  "founded": null,
+  "founded": 1974,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -7322,13 +8297,19 @@ window.UNIPATH.universities.push(
     "business",
     "engineering",
     "computer-science",
-    "arts"
+    "arts",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "englishTaughtPrograms": [
     "business",
     "engineering",
     "computer-science",
-    "arts"
+    "arts",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -7349,32 +8330,44 @@ window.UNIPATH.universities.push(
       {
         "name": "Recommended date for U.S. and international applicants (immigration documents)",
         "kind": "priority",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-02-01",
-        "date": "1 February 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 February — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": null,
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.concordia.ca/admissions/undergraduate/apply.html",
-        "verified": "2026-10-16",
-        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.concordia.ca/admissions/undergraduate/apply.html",
+          "verified": "2026-10-27",
+          "quote": "U.S. and international applicants: Apply no later than February 1 to allow time for immigration document processing."
+        }
       },
       {
         "name": "Application deadline, fall entry",
         "kind": "regular",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-03-01",
-        "date": "1 March 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 March — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Programmes with additional requirements set their own dates.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.concordia.ca/admissions/undergraduate/apply.html",
-        "verified": "2026-10-16",
-        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.concordia.ca/admissions/undergraduate/apply.html",
+          "verified": "2026-10-27",
+          "quote": "FALL ENTRY (September) Deadline: March 1"
+        }
       }
     ],
     "applicationFee": {
@@ -7511,7 +8504,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "The official pages read publish no amounts for the entrance scholarships open to international students, so the largest award cannot be named. The guaranteed C$4,000 Undergraduate Excellence Award is for Canadian citizens and permanent residents only; no Presidential Scholarship page was found on concordia.ca.",
+      "source": "https://www.concordia.ca/students/financial/scholarships-funding/scholarships.html",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -7524,7 +8519,7 @@ window.UNIPATH.universities.push(
         "note": "Most are automatic, by academic ranking; an offer of admission does not guarantee one. Amounts are not given. The guaranteed C$4,000 Undergraduate Excellence Award is for Canadian citizens and permanent residents only.",
         "basis": "merit",
         "source": "https://www.concordia.ca/students/financial/scholarships-funding/scholarships.html",
-        "verified": "2026-10-16"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -7577,6 +8572,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Concordia — official regular-session credit load",
       "url": "https://www.concordia.ca/academics/undergraduate/calendar/current/section-16-academic-information-definitions-and-regulations/section-16-1-general-information.html"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.concordia.ca/about/history.html"
     }
   ],
   "verification": {
@@ -7587,12 +8586,13 @@ window.UNIPATH.universities.push(
       "English requirements",
       "test policy",
       "requirements for Uzbekistan",
-      "tuition"
+      "tuition",
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "entrance scholarship amounts",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-16",
@@ -7631,6 +8631,27 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.concordia.ca/students/financial/tuition-fees/rates/undergrad.html",
       "checked": "2026-10-16"
+    },
+    "economics": {
+      "program": "Economics (BA)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.concordia.ca/academics/undergraduate/economics.html",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology (BA, BSc)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.concordia.ca/academics/undergraduate/psychology.html",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Actuarial Mathematics (BA, BSc)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.concordia.ca/academics/undergraduate/actuarial-mathematics.html",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -7643,7 +8664,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "St. John’s",
   "region": "Newfoundland and Labrador",
-  "founded": null,
+  "founded": 1925,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -7662,14 +8683,22 @@ window.UNIPATH.universities.push(
     "engineering",
     "education",
     "arts",
-    "medicine"
+    "medicine",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
     "business",
     "engineering",
     "education",
     "arts",
-    "medicine"
+    "medicine",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -7690,32 +8719,44 @@ window.UNIPATH.universities.push(
       {
         "name": "Priority deadline for the fall semester (also for early entrance scholarships)",
         "kind": "priority",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-03-01",
-        "date": "1 March 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 March — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Deadlines are in Newfoundland Time. International applicants are advised to apply at least 12 weeks before the semester starts; competitive programmes have their own dates.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.mun.ca/undergrad/admissions/admission-deadlines/",
-        "verified": "2026-10-16",
-        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.mun.ca/undergrad/admissions/admission-deadlines/",
+          "verified": "2026-10-27",
+          "quote": "Fall semester (September to December) Sept. 10 March 1 Aug. 20 Sept. 9"
+        }
       },
       {
         "name": "Document deadline, fall semester",
         "kind": "documents",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-08-20",
-        "date": "20 August 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "20 August — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "The general application closes on the first day of the semester.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.mun.ca/undergrad/admissions/admission-deadlines/",
-        "verified": "2026-10-16",
-        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.mun.ca/undergrad/admissions/admission-deadlines/",
+          "verified": "2026-10-27",
+          "quote": "Fall semester (September to December) Sept. 10 March 1 Aug. 20 Sept. 9"
+        }
       }
     ],
     "applicationFee": {
@@ -7844,20 +8885,22 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "International entrance scholarships are for the first year only and not renewable; the International Entrance Scholarship is worth at most C$6,000. The amounts of the other named international entrance awards were not read, so the largest cannot be named. No award at the level of full tuition is described.",
+      "source": "https://www.mun.ca/scholarships/entrance-scholarships/international-students/",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
         "name": "Memorial University of Newfoundland International Entrance Scholarship",
-        "amount": null,
-        "eligibility": "International students on admission",
+        "amount": "Varies, not more than C$6,000 a year",
+        "eligibility": "Students paying the full international undergraduate fee, at least 9 credit hours in each of two semesters of the first year, normally fewer than 31 transfer credit hours, and scholarship standing",
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": false,
         "note": "Automatic consideration, not a guarantee; first year only. Other entrance awards (IUGS, Fortis – H. Stanley Marshall, Killam American) work the same way. Amounts are not given.",
         "basis": "merit",
-        "source": "https://www.mun.ca/scholarships/entrance-scholarships/international-students/",
-        "verified": "2026-10-16"
+        "source": "https://www.mun.ca/scholarships/entrance-scholarships/other-entrance-scholarships/",
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -7906,6 +8949,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.mun.ca/main/programs/"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.mun.ca/main/history/"
     }
   ],
   "verification": {
@@ -7917,12 +8964,12 @@ window.UNIPATH.universities.push(
       "test policy",
       "requirements for Uzbekistan",
       "tuition",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "entrance scholarship amounts",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-16",
@@ -7972,6 +9019,34 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.mun.ca/undergrad/admissions/i-want-to-apply/application-fees/",
       "checked": "2026-10-16"
+    },
+    "economics": {
+      "program": "Economics (BA or B.Sc.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mun.ca/undergrad/programs/humanities-and-social-sciences/economics/",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology (BA or B.Sc.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mun.ca/undergrad/programs/science/psychology/",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics (BA or B.Sc.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mun.ca/undergrad/programs/science/mathematics/",
+      "checked": "2026-10-27"
+    },
+    "computer-science": {
+      "program": "Computer Science (BA or B.Sc.)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mun.ca/undergrad/programs/science/computer-science/",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -7984,7 +9059,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Fredericton",
   "region": "New Brunswick",
-  "founded": null,
+  "founded": 1785,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -8000,11 +9075,19 @@ window.UNIPATH.universities.push(
   "languageOfInstruction": "English",
   "programs": [
     "education",
-    "medicine"
+    "medicine",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
     "education",
-    "medicine"
+    "medicine",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -8025,32 +9108,44 @@ window.UNIPATH.universities.push(
       {
         "name": "Entrance scholarship application (after admission, in the UNB application account)",
         "kind": "scholarship",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-03-01",
-        "date": "1 March 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 March — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": null,
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.unb.ca/moneymatters/scholarships/international.html",
-        "verified": "2026-10-16",
-        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.unb.ca/moneymatters/scholarships/international.html",
+          "verified": "2026-10-27",
+          "quote": "Once admitted, sign into your UNB application account and apply for entrance scholarships by March 1."
+        }
       },
       {
         "name": "Application deadline for most undergraduate programmes",
         "kind": "regular",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-03-31",
-        "date": "31 March 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "31 March — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Guideline for international applicants: apply before 1 June for September. Nursing closes 15 February; Education 15 December. Programmes accept later applications while seats remain.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.unb.ca/international/apply/deadlines.html",
-        "verified": "2026-10-16",
-        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.unb.ca/international/apply/deadlines.html",
+          "verified": "2026-10-27",
+          "quote": "The deadline to apply for most undergraduate programs is March 31."
+        }
       }
     ],
     "applicationFee": {
@@ -8165,7 +9260,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award open to international students: the Lady Vi Aitken Scholarship, C$40,000 over four years, through the entrance scholarship application (1 March; no year on the page). Awards for international students range from C$500 to C$40,000. No award at the level of full tuition is described.",
+      "source": "https://www.unb.ca/moneymatters/scholarships/international.html",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -8178,7 +9275,7 @@ window.UNIPATH.universities.push(
         "note": "Awards for international students range from C$500 to C$40,000; one scholarship application covers them.",
         "basis": "merit",
         "source": "https://www.unb.ca/moneymatters/scholarships/international.html",
-        "verified": "2026-10-16"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -8239,6 +9336,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.unb.ca/academics/programs/"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.unb.ca/aboutunb/history/index.html"
     }
   ],
   "verification": {
@@ -8250,12 +9351,12 @@ window.UNIPATH.universities.push(
       "test policy",
       "requirements for Uzbekistan",
       "scholarships",
-      "tuition"
+      "tuition",
+      "founding year"
     ],
     "unconfirmed": [
       "housing costs",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-16",
@@ -8284,6 +9385,34 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.unb.ca/international/apply/deadlines.html",
       "checked": "2026-10-16"
+    },
+    "economics": {
+      "program": "Economics, Bachelor of Arts (Fredericton)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.unb.ca/academics/programs/arts/economics-fr.html",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology, Bachelor of Arts (Fredericton)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.unb.ca/academics/programs/arts/psychology.html",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics, Bachelor of Arts (Fredericton)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.unb.ca/academics/programs/arts/mathematics.html",
+      "checked": "2026-10-27"
+    },
+    "computer-science": {
+      "program": "Computer Science (Fredericton)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.unb.ca/academics/programs/computer-science/computer-science_f.html",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -8296,7 +9425,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Windsor",
   "region": "Ontario",
-  "founded": null,
+  "founded": 1962,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -8315,14 +9444,20 @@ window.UNIPATH.universities.push(
     "computer-science",
     "engineering",
     "medicine",
-    "education"
+    "education",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "englishTaughtPrograms": [
     "business",
     "computer-science",
     "engineering",
     "medicine",
-    "education"
+    "education",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -8344,17 +9479,23 @@ window.UNIPATH.universities.push(
       {
         "name": "Recommended application date for September admission",
         "kind": "priority",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-05-01",
-        "date": "1 May 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 May — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Qualified students are still admitted after this date while the programme has space.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://future.uwindsor.ca/apply-international",
-        "verified": "2026-10-16",
-        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://future.uwindsor.ca/apply-international",
+          "verified": "2026-10-27",
+          "quote": "May 1 for September admissions (Fall)"
+        }
       }
     ],
     "applicationFee": {
@@ -8482,7 +9623,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award on the pages read: the Global Lancer Scholarship, up to C$24,000 over four years (the university calls it up to 20% of tuition), automatic. No award at the level of full tuition is described.",
+      "source": "https://www.future.uwindsor.ca/global-lancer-scholarship/",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -8495,7 +9638,7 @@ window.UNIPATH.universities.push(
         "note": "By final average: 95%+ C$24,000; 90–94.99% C$20,000; 80–89.99% C$10,000; below 80% C$4,000 (over four years). Renewable each year with a 70% cumulative average.",
         "basis": "automatic",
         "source": "https://www.future.uwindsor.ca/global-lancer-scholarship/",
-        "verified": "2026-10-16"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -8548,6 +9691,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Windsor — current service-fee index links an older schedule",
       "url": "https://www.uwindsor.ca/registrar/2879/registrarial-service-fees"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.uwindsor.ca/47/our-history"
     }
   ],
   "verification": {
@@ -8557,13 +9704,13 @@ window.UNIPATH.universities.push(
       "scholarships",
       "test policy",
       "English requirements",
-      "tuition"
+      "tuition",
+      "founding year"
     ],
     "unconfirmed": [
       "application fee",
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-16",
@@ -8609,6 +9756,27 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://future.uwindsor.ca/student-awards",
       "checked": "2026-10-16"
+    },
+    "economics": {
+      "program": "Economics (BA, BSc)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://future.uwindsor.ca/economics",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology (BA)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://future.uwindsor.ca/psychology",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics & Statistics (BMath)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://future.uwindsor.ca/mathematics-statistics",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -8621,7 +9789,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Regina",
   "region": "Saskatchewan",
-  "founded": null,
+  "founded": 1974,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -8638,12 +9806,20 @@ window.UNIPATH.universities.push(
   "programs": [
     "medicine",
     "education",
-    "arts"
+    "arts",
+    "economics",
+    "mathematics",
+    "computer-science",
+    "psychology"
   ],
   "englishTaughtPrograms": [
     "medicine",
     "education",
-    "arts"
+    "arts",
+    "economics",
+    "mathematics",
+    "computer-science",
+    "psychology"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -8688,17 +9864,23 @@ window.UNIPATH.universities.push(
       {
         "name": "Final application deadline, fall term (all programmes except those listed separately)",
         "kind": "regular",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-08-15",
-        "date": "15 August 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 August — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "There is no early deadline for international applicants. Nursing: application by 31 December and documents by 31 January; Fine Arts portfolio by 1 April.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.uregina.ca/admissions/undergraduate/deadlines.html",
-        "verified": "2026-10-16",
-        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.uregina.ca/admissions/undergraduate/deadlines.html",
+          "verified": "2026-10-27",
+          "quote": "ALL PROGRAMS – FINAL DEADLINE for new applicants, and re-admission deadline for returning students (except those noted below) August 15"
+        }
       },
       {
         "name": "ISD award consideration: supporting documents",
@@ -8842,7 +10024,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "The highest-value award is the International Student of Distinction Scholarship, Tier 1: on-campus housing and a meal plan worth about C$90,000 over four years (Tier 2: housing, about C$45,000), automatic for applicants from high school with 90% or more. It is not a tuition credit. Tuition support is smaller: C$5,000 in the first term and a bursary of up to C$20,000 over four years. No award at the level of full tuition is described.",
+      "source": "https://www.uregina.ca/ur-international/scholarships.html",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -8855,7 +10039,7 @@ window.UNIPATH.universities.push(
         "note": null,
         "basis": "automatic",
         "source": "https://www.uregina.ca/ur-international/scholarships.html",
-        "verified": "2026-10-16"
+        "verified": "2026-10-27"
       },
       {
         "name": "International Student of Distinction Scholarship",
@@ -8867,7 +10051,7 @@ window.UNIPATH.universities.push(
         "note": "Housing/meal benefits are not a tuition credit. Renewal requires 24 credits per calendar year and 80% UGPA; up to three further years (3.5 in Engineering). Limited places.",
         "basis": "merit",
         "source": "https://www.uregina.ca/ur-international/scholarships.html",
-        "verified": "2026-10-26",
+        "verified": "2026-10-27",
         "id": "international-student-of-distinction",
         "category": "merit",
         "entryTerm": "Autumn",
@@ -8883,7 +10067,7 @@ window.UNIPATH.universities.push(
         "note": "Part of the “Really Big Deal” bundle; not based on need despite the name.",
         "basis": "automatic",
         "source": "https://www.uregina.ca/ur-international/scholarships.html",
-        "verified": "2026-10-16"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -8928,6 +10112,10 @@ window.UNIPATH.universities.push(
     {
       "label": "General requirements reviewed — Uzbekistan-specific rule unresolved",
       "url": "https://www.uregina.ca/admissions/application-guide/index.html"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.uregina.ca/about/index.html"
     }
   ],
   "verification": {
@@ -8938,12 +10126,12 @@ window.UNIPATH.universities.push(
       "English requirements",
       "costs",
       "scholarships",
-      "test policy"
+      "test policy",
+      "founding year"
     ],
     "unconfirmed": [
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-16",
@@ -8975,6 +10163,34 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.uregina.ca/admissions/undergraduate/deadlines.html",
       "checked": "2026-10-16"
+    },
+    "economics": {
+      "program": "Economics — Bachelor’s Degree",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uregina.ca/academics/index.html",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics — Bachelor’s Degree",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uregina.ca/academics/index.html",
+      "checked": "2026-10-27"
+    },
+    "computer-science": {
+      "program": "Computer Science — Bachelor’s Degree",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uregina.ca/academics/index.html",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology (Bachelor of Arts)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uregina.ca/academics/programs/arts/psychology.html",
+      "checked": "2026-10-29"
     }
   },
   "programsStatus": "partial"
@@ -8987,7 +10203,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Oshawa",
   "region": "Ontario",
-  "founded": null,
+  "founded": 2002,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -9006,14 +10222,20 @@ window.UNIPATH.universities.push(
     "computer-science",
     "engineering",
     "medicine",
-    "education"
+    "education",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "englishTaughtPrograms": [
     "business",
     "computer-science",
     "engineering",
     "medicine",
-    "education"
+    "education",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -9245,7 +10467,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award open to international students: the Global Leadership Award, C$120,000 (C$30,000 a year for four years), by application from applicants studying outside Canada. The page marks it closed for 2026–2027 and does not yet state the 2027–28 competition. The automatic International Merit Award is C$20,000 over four years. No award at the level of full tuition is described.",
+      "source": "https://safa.ontariotechu.ca/awards-bursaries-and-scholarships/undergraduate-student-finances/scholarships/scholarships-and-awards-for-international-students.php",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -9258,7 +10482,7 @@ window.UNIPATH.universities.push(
         "note": "Renewable with a 3.30 cumulative GPA and a full course load; cannot be combined with the Global Leadership Award.",
         "basis": "merit",
         "source": "https://safa.ontariotechu.ca/awards-bursaries-and-scholarships/undergraduate-student-finances/scholarships/scholarships-and-awards-for-international-students.php",
-        "verified": "2026-10-16"
+        "verified": "2026-10-27"
       },
       {
         "name": "Global Leadership Award",
@@ -9270,7 +10494,7 @@ window.UNIPATH.universities.push(
         "note": "Competitive C$120,000 award over four years; no full-cost coverage is inferred from the amount. The admissions timeline establishes the 11 February deadline for Fall 2027. The award office’s separate page still labels the 2026–27 competition closed; this does not establish when the 2027 award application opens or confirm all 2027 terms.",
         "basis": "merit",
         "source": "https://safa.ontariotechu.ca/awards-bursaries-and-scholarships/undergraduate-student-finances/scholarships/scholarships-and-awards-for-international-students.php",
-        "verified": "2026-10-24",
+        "verified": "2026-10-27",
         "id": "global-leadership",
         "category": "merit",
         "entryTerm": "Autumn",
@@ -9325,6 +10549,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://ontariotechu.ca/programs/"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://news.ontariotechu.ca/archives/2002/06/20020627_1.php"
     }
   ],
   "verification": {
@@ -9336,11 +10564,11 @@ window.UNIPATH.universities.push(
       "tuition",
       "scholarships",
       "test policy",
-      "requirements for Uzbekistan"
+      "requirements for Uzbekistan",
+      "founding year"
     ],
     "unconfirmed": [
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-16",
@@ -9390,6 +10618,27 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://registrar.ontariotechu.ca/fees-and-payment/international-student-tuition/undergraduate-international-tuition-2026-2027.php",
       "checked": "2026-10-16"
+    },
+    "economics": {
+      "program": "Commerce — Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://ontariotechu.ca/programs/undergraduate/business/economics-commerce/index.php",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology (Bachelor of Arts)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://ontariotechu.ca/programs/undergraduate/social-science-and-humanities/psychology-bachelor-of-arts/index.php",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics for Science and Industry",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://ontariotechu.ca/programs/undergraduate/science/mathematics-for-science-and-industry/index.php",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -9402,7 +10651,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Toronto",
   "region": "Ontario",
-  "founded": null,
+  "founded": 1948,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -9420,13 +10669,21 @@ window.UNIPATH.universities.push(
     "humanities",
     "engineering",
     "business",
-    "arts"
+    "arts",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
     "humanities",
     "engineering",
     "business",
-    "arts"
+    "arts",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -9456,8 +10713,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.torontomu.ca/admissions/undergraduate/apply/application-dates/",
-        "verified": "2026-10-16",
-        "note": "The page heading is “Fall 2027 admission”; the date itself is printed without a year."
+        "verified": "2026-10-27",
+        "note": "The page heading is “Fall 2027 admission”; the date itself is printed without a year.",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.torontomu.ca/admissions/undergraduate/apply/application-dates/",
+          "verified": "2026-10-27",
+          "quote": "Fall 2027 admission … Guaranteed consideration date for applications to all programs: February 1"
+        }
       },
       {
         "name": "Prestigious entrance scholarships and ISLA – Fall 2027: application on AwardSpring",
@@ -9473,8 +10738,16 @@ window.UNIPATH.universities.push(
         "conditions": "Opens 2 November 2026; applications close at 11:59 p.m. ET.",
         "status": "confirmed",
         "source": "https://www.torontomu.ca/admissions/scholarships-awards/",
-        "verified": "2026-10-16",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.torontomu.ca/admissions/scholarships-awards/",
+          "verified": "2026-10-27",
+          "quote": "The application for fall 2027 awards is available on AwardSpring from November 2, 2026 until the extended deadline to apply, February 16, 2027."
+        }
       }
     ],
     "applicationFee": {
@@ -9616,12 +10889,14 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award open to international students: the President’s Entrance Scholarship, C$40,000 (C$10,000 a year, renewable), twelve recipients, by application on AwardSpring (16 February 2027 for Fall 2027). ISLA – Fall 2027 gives C$10,000 once to up to 53 international students. The full-tuition first-year Terence Grier award is for Canadian citizens, permanent residents and protected persons only.",
+      "source": "https://www.torontomu.ca/admissions/scholarships-awards/",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
         "name": "International Student Leadership Award (ISLA) – Fall 2027",
-        "amount": "C$10,000, one time",
+        "amount": "C$10,000, one time (up to 53 recipients)",
         "eligibility": "Up to 53 international first-year students paying international fees, with a final average of at least 86% and a personal statement",
         "deadline": null,
         "application": "AwardSpring application by 16 February 2027",
@@ -9629,19 +10904,19 @@ window.UNIPATH.universities.push(
         "note": "For students who do well academically, volunteer, join clubs and show leadership.",
         "basis": "merit",
         "source": "https://www.torontomu.ca/admissions/scholarships-awards/",
-        "verified": "2026-10-16"
+        "verified": "2026-10-27"
       },
       {
         "name": "President’s Entrance Scholarships",
         "amount": "C$40,000 (C$10,000 a year, renewable)",
-        "eligibility": "Twelve secondary-school graduates with at least a 90% average, leadership and creativity; international students eligible",
+        "eligibility": "Twelve secondary school graduates with at least a 90% final admission average, leadership, original thought and creative ability; Canadian citizens, permanent residents, protected persons and international students may apply",
         "deadline": null,
         "application": "AwardSpring application by 16 February 2027",
         "renewable": true,
         "note": "A bed in residence is reserved (its cost is not covered). Competitive; never counted as received.",
         "basis": "merit",
         "source": "https://www.torontomu.ca/admissions/scholarships-awards/",
-        "verified": "2026-10-16"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -9692,6 +10967,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.torontomu.ca/programs/undergraduate/"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.torontomu.ca/about/history/"
     }
   ],
   "verification": {
@@ -9702,11 +10981,11 @@ window.UNIPATH.universities.push(
       "test policy",
       "requirements for Uzbekistan",
       "tuition",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-16",
@@ -9749,6 +11028,34 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.torontomu.ca/admissions/tuition-fees/",
       "checked": "2026-10-16"
+    },
+    "economics": {
+      "program": "Economics and Finance – BA (Hons)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.torontomu.ca/programs/undergraduate/economics-finance/",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology – BA (Hons)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.torontomu.ca/programs/undergraduate/psychology/",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics and Its Applications – BSc (Hons)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.torontomu.ca/programs/undergraduate/mathematics-applications/",
+      "checked": "2026-10-27"
+    },
+    "computer-science": {
+      "program": "Computer Science – BSc (Hons)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.torontomu.ca/programs/undergraduate/computer-science/",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -9761,7 +11068,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "St. Catharines",
   "region": "Ontario",
-  "founded": null,
+  "founded": 1964,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -9779,13 +11086,17 @@ window.UNIPATH.universities.push(
     "humanities",
     "business",
     "computer-science",
-    "engineering"
+    "engineering",
+    "economics",
+    "psychology"
   ],
   "englishTaughtPrograms": [
     "humanities",
     "business",
     "computer-science",
-    "engineering"
+    "engineering",
+    "economics",
+    "psychology"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -9816,8 +11127,16 @@ window.UNIPATH.universities.push(
         "conditions": "Applicants who do not yet meet the English requirement have continuous intake. Competitive programmes may fill earlier.",
         "status": "confirmed",
         "source": "https://brocku.ca/admissions/apply/",
-        "verified": "2026-10-16",
-        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "Read on the rendered official page (the static copy is refused to automated readers).",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://brocku.ca/admissions/apply/",
+          "verified": "2026-10-27",
+          "quote": "If a program reaches capacity after the January 15, 2027 application deadline … International students (only applying to Brock and meet English proficiency requirements) … January 15 (Fall entry)"
+        }
       }
     ],
     "applicationFee": {
@@ -9944,7 +11263,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Brock calls the Brock Scholars awards its largest: on the 2026 page, the International Brock Scholars Award is up to C$32,000 over four years, automatic. That table is for the 2026–2027 year; no 2027 table was found (the 2027 page does not exist yet). No award at the level of full tuition is described.",
+      "source": "https://brocku.ca/safa/2026-international-students/",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -9957,7 +11278,7 @@ window.UNIPATH.universities.push(
         "note": "Year 1: C$20,000 (95%+), C$15,000 (90–94.9%), C$8,000 (85–89.9%) or C$4,000 (80–84.9%), then C$4,000/C$3,000/C$1,500/C$1,000 renewals for up to three years. The page lists the 2026–27 table “subject to annual approval”; the 2027–28 values are not yet published.",
         "basis": "automatic",
         "source": "https://brocku.ca/safa/2026-international-students/",
-        "verified": "2026-10-16"
+        "verified": "2026-10-27"
       },
       {
         "name": "Brock Future Leaders Scholarship",
@@ -9969,7 +11290,7 @@ window.UNIPATH.universities.push(
         "note": "Can only be combined with the Brock Scholars Award.",
         "basis": "merit",
         "source": "https://brocku.ca/safa/2026-international-students/",
-        "verified": "2026-10-16"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -10022,6 +11343,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official undergraduate programme directory — checked 2026-10-26",
       "url": "https://brocku.ca/programs/"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://brocku.ca/about/history/"
     }
   ],
   "verification": {
@@ -10033,13 +11358,13 @@ window.UNIPATH.universities.push(
       "requirements for Uzbekistan",
       "tuition",
       "scholarships",
-      "official programme directory"
+      "official programme directory",
+      "founding year"
     ],
     "unconfirmed": [
       "test policy",
       "2027 tuition and award values",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-16",
@@ -10077,6 +11402,20 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://brocku.ca/safa/2026-undergraduate-fall-winter-tuition-and-fees-subject-to-change-updates-in-progress-and-pending-board-of-trustee-approval/",
       "checked": "2026-10-16"
+    },
+    "economics": {
+      "program": "BA in Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://brocku.ca/programs/undergraduate/economics/",
+      "checked": "2026-10-29"
+    },
+    "psychology": {
+      "program": "BA or BSc in Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://brocku.ca/programs/undergraduate/psychology/",
+      "checked": "2026-10-29"
     }
   },
   "programsStatus": "partial"
@@ -10089,7 +11428,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Waterloo",
   "region": "Ontario",
-  "founded": null,
+  "founded": 1911,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -10108,14 +11447,18 @@ window.UNIPATH.universities.push(
     "arts",
     "business",
     "economics",
-    "computer-science"
+    "computer-science",
+    "psychology",
+    "mathematics"
   ],
   "englishTaughtPrograms": [
     "humanities",
     "arts",
     "business",
     "economics",
-    "computer-science"
+    "computer-science",
+    "psychology",
+    "mathematics"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -10136,19 +11479,19 @@ window.UNIPATH.universities.push(
       {
         "name": "Inspiring Lives Scholarship application",
         "kind": "scholarship",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
+        "entryTerm": null,
+        "entryYear": null,
         "dateISO": "2026-11-08",
         "date": "8 November 2026",
         "time": "23:59",
-        "timezone": "ET",
+        "timezone": "EDT",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "You must accept your offer of admission before applying.",
-        "status": "confirmed",
+        "status": "not-confirmed",
         "source": "https://www.wlu.ca/future-students/undergraduate/applicants/international/assets/resources/inspiring-lives-scholarship.html",
-        "verified": "2026-10-16",
-        "note": null
+        "verified": "2026-10-27",
+        "note": "The page prints “Application deadline: Sunday, Nov. 8, 2026 at 11:59 p.m. EDT” for students who have accepted their offer and are entering first year in the fall term, but it does not say which fall. The intake is not established."
       },
       {
         "name": "Application deadline, fall (September) 2027",
@@ -10162,8 +11505,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.wlu.ca/future-students/undergraduate/applicants/international/admissions.html",
-        "verified": "2026-10-16",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.wlu.ca/future-students/undergraduate/applicants/international/admissions.html",
+          "verified": "2026-10-27",
+          "quote": "April 1, 2027: The deadline to apply for fall (September) 2027."
+        }
       }
     ],
     "applicationFee": {
@@ -10298,7 +11649,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award on the pages read: the President’s Gold Scholarship for an admission average of 95% or more, C$6,000 a year for international students, renewable for four years (grid valid from September 2027). No award at the level of full tuition is described.",
+      "source": "https://www.wlu.ca/future-students/undergraduate/tuition-finances/entrance-scholarships.html",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -10308,10 +11661,10 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": true,
-        "note": "“This scholarship grid is valid for incoming students beginning in September 2027 and after”, by admission average as of July 2027. Renewal: GPA 10.5 for C$6,000 (President’s Gold), 7.0 for C$5,000.",
+        "note": "The grid is valid for students beginning in September 2027 and after. At 95% and above it is the President’s Gold Scholarship: C$6,000 a year for international students, renewable for four years with an annual GPA of 10.5 on at least 5.0 credits.",
         "basis": "automatic",
         "source": "https://www.wlu.ca/future-students/undergraduate/tuition-finances/entrance-scholarships.html",
-        "verified": "2026-10-16"
+        "verified": "2026-10-27"
       },
       {
         "name": "Inspiring Lives Scholarship",
@@ -10384,6 +11737,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Laurier — current American curriculum requirements",
       "url": "https://www.wlu.ca/future-students/undergraduate/admissions/assets/resources/american-curriculum-chart.html"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.wlu.ca/about/index.html"
     }
   ],
   "verification": {
@@ -10392,13 +11749,13 @@ window.UNIPATH.universities.push(
       "deadlines",
       "English requirements",
       "tuition",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "test policy",
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-16",
@@ -10448,6 +11805,20 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.wlu.ca/future-students/undergraduate/applicants/international/tuition-and-finances.html",
       "checked": "2026-10-16"
+    },
+    "psychology": {
+      "program": "Psychology (BA or BSc), Waterloo campus",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.wlu.ca/programs/index.html",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics, Bachelor of Science (BSc)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.wlu.ca/programs/index.html",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -10460,7 +11831,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Peterborough",
   "region": "Ontario",
-  "founded": null,
+  "founded": 1964,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -10483,7 +11854,8 @@ window.UNIPATH.universities.push(
     "social-sciences",
     "humanities",
     "medicine",
-    "education"
+    "education",
+    "mathematics"
   ],
   "englishTaughtPrograms": [
     "business",
@@ -10494,7 +11866,8 @@ window.UNIPATH.universities.push(
     "social-sciences",
     "humanities",
     "medicine",
-    "education"
+    "education",
+    "mathematics"
   ],
   "programNote": "Fields of study are taken from the undergraduate programme selector on Trent’s international page.",
   "links": {
@@ -10516,19 +11889,25 @@ window.UNIPATH.universities.push(
       {
         "name": "International Prestigious Scholarships application",
         "kind": "scholarship",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-02-15",
-        "date": "15 February 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 February — intake year not confirmed",
         "time": "23:59",
         "timezone": "ET",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Applications open 1 November and close 15 February “each year”, at 11:59 p.m. EST.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.trentu.ca/international/discover-trent/tuition-scholarships/scholarships",
-        "verified": "2026-10-16",
-        "note": "The page prints this date without a year; it was read on 16 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.trentu.ca/international/discover-trent/tuition-scholarships/scholarships",
+          "verified": "2026-10-27",
+          "quote": "Applications for International Prestigious Scholarships open on November 1 and close on February 15 each year."
+        }
       },
       {
         "name": "Recommended application date for programmes with earlier deadlines",
@@ -10691,7 +12070,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest awards open to international students: the International Prestigious Scholarships and Awards, up to C$15,000 a year (up to C$60,000 over four years) toward tuition and mandatory fees, by application (1 November–15 February each year). No award at the level of full tuition is described.",
+      "source": "https://www.trentu.ca/international/discover-trent/tuition-scholarships/scholarships",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -10704,7 +12085,7 @@ window.UNIPATH.universities.push(
         "note": "95–100%: C$5,500; 90–94.9%: C$4,500; 85–89.9%: C$3,500; 80–84.9%: C$2,500 a year. Renewable with an 80% average and a full course load.",
         "basis": "automatic",
         "source": "https://www.trentu.ca/international/discover-trent/tuition-scholarships/scholarships",
-        "verified": "2026-10-16"
+        "verified": "2026-10-27"
       },
       {
         "name": "Trent International Prestigious Scholarships and Awards",
@@ -10716,7 +12097,7 @@ window.UNIPATH.universities.push(
         "note": "Highly competitive; includes the Moore Family International Scholarship (up to C$12,000 a year, three students from outside North America) and the Justin Chiu International Scholarship (Asia, up to C$15,000 a year). Never counted as received.",
         "basis": "need-merit",
         "source": "https://www.trentu.ca/international/discover-trent/tuition-scholarships/scholarships",
-        "verified": "2026-10-16"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -10775,6 +12156,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.trentu.ca/futurestudents/programs"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.trentu.ca/about/"
     }
   ],
   "verification": {
@@ -10785,11 +12170,11 @@ window.UNIPATH.universities.push(
       "scholarships",
       "list of programmes",
       "test policy",
-      "requirements for Uzbekistan"
+      "requirements for Uzbekistan",
+      "founding year"
     ],
     "unconfirmed": [
-      "2027 application deadlines",
-      "founding year"
+      "2027 application deadlines"
     ]
   },
   "lastVerified": "2026-10-16",
@@ -10867,6 +12252,13 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.trentu.ca/futurestudents/international-undergraduate",
       "checked": "2026-10-16"
+    },
+    "mathematics": {
+      "program": "Mathematics (Bachelor of Science)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.trentu.ca/futurestudents/degree/mathematics",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -10879,7 +12271,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Thunder Bay",
   "region": "Ontario",
-  "founded": null,
+  "founded": 1965,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -10896,12 +12288,18 @@ window.UNIPATH.universities.push(
   "programs": [
     "engineering",
     "computer-science",
-    "medicine"
+    "medicine",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "englishTaughtPrograms": [
     "engineering",
     "computer-science",
-    "medicine"
+    "medicine",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -10932,8 +12330,16 @@ window.UNIPATH.universities.push(
         "conditions": "Most programmes still accept applications later, pending space. Nursing: 15 January 2027.",
         "status": "confirmed",
         "source": "https://www.lakeheadu.ca/studentcentral/applying/application-deadlines",
-        "verified": "2026-10-17",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.lakeheadu.ca/studentcentral/applying/application-deadlines",
+          "verified": "2026-10-27",
+          "quote": "Recommended Deadlines to Apply for Fall 2027 (Full Time & Part Time) Admission: … March 1, 2027 (International Applicants)"
+        }
       }
     ],
     "applicationFee": {
@@ -11056,7 +12462,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award on the pages read: the International Undergraduate Entrance Scholarship for a 90%+ average (or IB 35+), C$40,000 (C$10,000 a year for four years), automatic and unlimited in number, 2027–2028 table. No award at the level of full tuition is described.",
+      "source": "https://www.lakeheadu.ca/international/future/scholarships-awards",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -11069,7 +12477,7 @@ window.UNIPATH.universities.push(
         "note": "90%+ (IB 35+): C$10,000 a year for four years; 80–89.9% (IB 30–34): C$7,500 a year; 75–79.9% (IB 28–29): C$6,000 in year 1 only. Unlimited number; renewal needs the same average at university.",
         "basis": "automatic",
         "source": "https://www.lakeheadu.ca/international/future/scholarships-awards",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -11114,6 +12522,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.lakeheadu.ca/programs/undergraduate-programs"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.lakeheadu.ca/about/sg/secretariat/university-act"
     }
   ],
   "verification": {
@@ -11124,12 +12536,12 @@ window.UNIPATH.universities.push(
       "tuition",
       "scholarships",
       "test policy",
-      "requirements for Uzbekistan"
+      "requirements for Uzbekistan",
+      "founding year"
     ],
     "unconfirmed": [
       "tuition of general Arts and Science programmes",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -11166,6 +12578,27 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.lakeheadu.ca/studentcentral/applying/application-deadlines",
       "checked": "2026-10-17"
+    },
+    "economics": {
+      "program": "Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.lakeheadu.ca/programs/undergraduate-programs/economics",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.lakeheadu.ca/programs/undergraduate-programs/psychology",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.lakeheadu.ca/programs/undergraduate-programs/mathematics",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -11178,7 +12611,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Charlottetown",
   "region": "Prince Edward Island",
-  "founded": null,
+  "founded": 1969,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -11195,12 +12628,20 @@ window.UNIPATH.universities.push(
   "programs": [
     "engineering",
     "medicine",
-    "education"
+    "education",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
     "engineering",
     "medicine",
-    "education"
+    "education",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -11333,7 +12774,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "The international entrance awards on the page read range from C$1,000 to C$3,000. No award at the level of full tuition is described.",
+      "source": "https://www.upei.ca/scholarships-and-awards/international-student-scholarships",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -11346,7 +12789,7 @@ window.UNIPATH.universities.push(
         "note": "A limited number; early applications are encouraged. The 2027 cycle dates were not published on the page read.",
         "basis": "merit",
         "source": "https://www.upei.ca/scholarships-and-awards/international-student-scholarships",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -11391,6 +12834,10 @@ window.UNIPATH.universities.push(
     {
       "label": "UPEI — international full-time Business fees selector, 2026–27",
       "url": "https://www.upei.ca/fees?field_fee_faculty_target_id=190&field_type_value=international&field_time_value=fulltime&field_level_value=undergraduate"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.upei.ca/about-upei"
     }
   ],
   "verification": {
@@ -11400,13 +12847,13 @@ window.UNIPATH.universities.push(
       "English requirements",
       "test policy",
       "tuition",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "application deadline for international applicants",
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -11437,6 +12884,34 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.upei.ca/admission-requirements/english-language-proficiency-requirements/undergraduate-programs",
       "checked": "2026-10-17"
+    },
+    "economics": {
+      "program": "Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.upei.ca/programs/economics",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.upei.ca/programs/psychology",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.upei.ca/programs/mathematics",
+      "checked": "2026-10-27"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.upei.ca/programs/computer-science",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -11449,7 +12924,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Wolfville",
   "region": "Nova Scotia",
-  "founded": null,
+  "founded": 1838,
   "type": "Public liberal arts university",
   "institutionKind": "public",
   "degrees": [
@@ -11465,11 +12940,19 @@ window.UNIPATH.universities.push(
   "languageOfInstruction": "English",
   "programs": [
     "biology",
-    "business"
+    "business",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
     "biology",
-    "business"
+    "business",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -11651,7 +13134,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest awards on the pages read: additional entrance scholarships and scholar-bursaries of up to C$80,000 over four years, by forms in the status portal, with award-specific eligibility (some are only for students from Canadian or Nova Scotia schools). No award at the level of full tuition is described.",
+      "source": "https://www2.acadiau.ca/student-services/scholarships-financial-aid/future-students/entrance-scholarships.html",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -11723,6 +13208,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www2.acadiau.ca/academics.html"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www2.acadiau.ca/about-acadia/history.html"
     }
   ],
   "verification": {
@@ -11733,12 +13222,12 @@ window.UNIPATH.universities.push(
       "English requirements",
       "requirements for Uzbekistan",
       "costs",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "test policy",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -11762,6 +13251,34 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www2.acadiau.ca/admissions/application-process/international-students.html",
       "checked": "2026-10-17"
+    },
+    "economics": {
+      "program": "Economics (BA)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www2.acadiau.ca/academics/undergraduate/economics.html",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www2.acadiau.ca/academics/undergraduate/psychology.html",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics and Statistics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www2.acadiau.ca/academics/undergraduate/mathematics-and-statistics.html",
+      "checked": "2026-10-27"
+    },
+    "computer-science": {
+      "program": "Computer Science (BCS, BACS, BSc)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www2.acadiau.ca/academics/undergraduate/computer-science.html",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -11774,7 +13291,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Antigonish",
   "region": "Nova Scotia",
-  "founded": null,
+  "founded": 1853,
   "type": "Public liberal arts university",
   "institutionKind": "public",
   "degrees": [
@@ -11791,12 +13308,18 @@ window.UNIPATH.universities.push(
   "programs": [
     "business",
     "medicine",
-    "education"
+    "education",
+    "economics",
+    "psychology",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
     "business",
     "medicine",
-    "education"
+    "education",
+    "economics",
+    "psychology",
+    "computer-science"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -11826,8 +13349,16 @@ window.UNIPATH.universities.push(
         "conditions": "First-semester transcripts must reach the Admissions office by 12 noon.",
         "status": "confirmed",
         "source": "https://www.stfx.ca/applications-admissions/admissions-information/key-dates-deadlines",
-        "verified": "2026-10-17",
-        "note": null
+        "verified": "2026-10-27",
+        "note": "Read on the rendered official page (the static copy is refused to automated readers).",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.stfx.ca/applications-admissions/admissions-information/key-dates-deadlines",
+          "verified": "2026-10-27",
+          "quote": "Application for September 2027 open for admission. … March 2027 March 1 Deadline to apply for admission to StFX to be eligible for Major Scholarship consideration."
+        }
       },
       {
         "name": "Confirm acceptance; room guarantee; accept scholarships",
@@ -11841,8 +13372,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.stfx.ca/applications-admissions/admissions-information/key-dates-deadlines",
-        "verified": "2026-10-17",
-        "note": null
+        "verified": "2026-10-27",
+        "note": "Read on the rendered official page (the static copy is refused to automated readers).",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.stfx.ca/applications-admissions/admissions-information/key-dates-deadlines",
+          "verified": "2026-10-27",
+          "quote": "May 2027 May 15 Confirm your acceptance to StFX. … Deadline to accept Scholarships."
+        }
       },
       {
         "name": "Deadline for international student applications",
@@ -11856,8 +13395,16 @@ window.UNIPATH.universities.push(
         "conditions": "Applications after 30 May 2027 are reviewed case by case according to visa processing times. Nursing: 3 March 2027.",
         "status": "confirmed",
         "source": "https://www.stfx.ca/applications-admissions/admissions-information/key-dates-deadlines",
-        "verified": "2026-10-17",
-        "note": null
+        "verified": "2026-10-27",
+        "note": "Read on the rendered official page (the static copy is refused to automated readers).",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.stfx.ca/applications-admissions/admissions-information/key-dates-deadlines",
+          "verified": "2026-10-27",
+          "quote": "May 30 Deadline for International Student Applications. Applications received after the May 30, 2027, deadline will be reviewed on a case by case basis according to visa processing times."
+        }
       }
     ],
     "applicationFee": {
@@ -11982,20 +13529,23 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "The McKenna Scholars Program offers up to C$125,000 over four years (application 1 December 2026 – 1 March 2027), but the page does not say whether international students are eligible. National Entrance Scholarships of at least C$5,000 over four years go to admission averages of 85% or more. No award at the level of full tuition is described.",
+      "source": "https://www.stfx.ca/mckennascholars",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
         "name": "McKenna Scholars Program",
-        "amount": "C$20,000, C$40,000 or C$125,000 over four years",
+        "amount": "C$125,000 (8 a year), C$40,000 (16) or C$20,000 (36), each over four years",
         "eligibility": "High-achieving entering students in any field, by achievement, leadership, character, service and community impact",
         "deadline": null,
-        "application": "Applications open 1 December 2026",
+        "application": "Apply to StFX for Fall 2027, then the McKenna Scholars application (opens 1 December 2026), by 1 March 2027",
         "renewable": true,
-        "note": "Each year 8 awards of C$125,000, 16 of C$40,000 and 36 of C$20,000. The pages read do not say whether international students are eligible. Competitive; never counted as received.",
+        "note": "The page read does not say whether international applicants are eligible.",
         "basis": "merit",
         "source": "https://www.stfx.ca/mckennascholars",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27",
+        "internationalEligible": null
       },
       {
         "name": "National Entrance Scholarships",
@@ -12052,6 +13602,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.stfx.ca/programs-courses/programs"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.alumni.stfx.ca/s/650/17/interior.aspx?pgid=264&gid=1&cid=5111"
     }
   ],
   "verification": {
@@ -12062,12 +13616,12 @@ window.UNIPATH.universities.push(
       "scholarships",
       "English requirements",
       "test policy",
-      "application fee"
+      "application fee",
+      "founding year"
     ],
     "unconfirmed": [
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -12100,6 +13654,27 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.stfx.ca/applications-admissions/admissions-information/key-dates-deadlines",
       "checked": "2026-10-17"
+    },
+    "economics": {
+      "program": "Economics (BA, BSc or BBA honours)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.stfx.ca/programs-courses/programs/economics",
+      "checked": "2026-10-29"
+    },
+    "psychology": {
+      "program": "Psychology (Bachelor of Arts or Bachelor of Science)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.stfx.ca/programs-courses/programs/psychology",
+      "checked": "2026-10-29"
+    },
+    "computer-science": {
+      "program": "Computer Science (Bachelor of Arts or Bachelor of Science)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.stfx.ca/programs-courses/programs/computer-science",
+      "checked": "2026-10-29"
     }
   },
   "programsStatus": "partial"
@@ -12112,7 +13687,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Sackville",
   "region": "New Brunswick",
-  "founded": null,
+  "founded": 1839,
   "type": "Public liberal arts university",
   "institutionKind": "public",
   "degrees": [
@@ -12128,11 +13703,19 @@ window.UNIPATH.universities.push(
   "languageOfInstruction": "English",
   "programs": [
     "business",
-    "arts"
+    "arts",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
     "business",
-    "arts"
+    "arts",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -12162,8 +13745,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://mta.ca/admissions/important-admission-dates-and-deadlines",
-        "verified": "2026-10-17",
-        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://mta.ca/admissions/important-admission-dates-and-deadlines",
+          "verified": "2026-10-27",
+          "quote": "Preparing to apply for 2027-28 academic year … Feb. 1 BMus and BMusEd APPLICATION DEADLINE"
+        }
       },
       {
         "name": "Fine Arts application and portfolio",
@@ -12177,8 +13768,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://mta.ca/admissions/important-admission-dates-and-deadlines",
-        "verified": "2026-10-17",
-        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://mta.ca/admissions/important-admission-dates-and-deadlines",
+          "verified": "2026-10-27",
+          "quote": "Preparing to apply for 2027-28 academic year … Feb. 15 FINE ARTS APPLICATION AND PORTFOLIO DEADLINE"
+        }
       },
       {
         "name": "Application for admission and scholarships, with all documents, to be considered for scholarships",
@@ -12192,8 +13791,16 @@ window.UNIPATH.universities.push(
         "conditions": "No general application deadline is printed; the page lists dates for the 2027–28 academic year.",
         "status": "confirmed",
         "source": "https://mta.ca/admissions/important-admission-dates-and-deadlines",
-        "verified": "2026-10-17",
-        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://mta.ca/admissions/important-admission-dates-and-deadlines",
+          "verified": "2026-10-27",
+          "quote": "Preparing to apply for 2027-28 academic year … March 1 SCHOLARSHIPS APPLICATION DEADLINE To be considered for scholarships: Deadline to submit your application for admission and scholarships, and all required documents."
+        }
       },
       {
         "name": "Accept the offer of admission and scholarships",
@@ -12207,8 +13814,16 @@ window.UNIPATH.universities.push(
         "conditions": "International students receive deposit instructions by email after an unconditional offer.",
         "status": "confirmed",
         "source": "https://mta.ca/admissions/important-admission-dates-and-deadlines",
-        "verified": "2026-10-17",
-        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://mta.ca/admissions/important-admission-dates-and-deadlines",
+          "verified": "2026-10-27",
+          "quote": "Preparing to apply for 2027-28 academic year … May 1 ACCEPT YOUR OFFER! Deadline to accept your offer of admission and scholarships/bursaries"
+        }
       }
     ],
     "applicationFee": {
@@ -12332,7 +13947,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award on the pages read: the Marjorie Young Bell Scholarship, C$70,000 (C$17,500 a year), eight awards, with no citizenship limit in its criteria; reference and essay by 1 March. No award at the level of full tuition is described.",
+      "source": "https://mta.ca/costs-financial-aid/scholarships-and-awards-first-year-students",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -12345,7 +13962,7 @@ window.UNIPATH.universities.push(
         "note": null,
         "basis": "automatic",
         "source": "https://mta.ca/costs-financial-aid/scholarships-and-awards-first-year-students",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       },
       {
         "name": "Marjorie Young Bell Scholarship",
@@ -12354,10 +13971,10 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Application and documents by 1 March",
         "renewable": true,
-        "note": "Finalists not selected are offered the C$20,000 President’s Scholarship. Competitive; never counted as received.",
+        "note": "Eight awards; renewal needs a 3.5 GPA on 30 credits a year and a yearly activities report. One reference letter and an essay are required by 1 March. The criteria name no citizenship limit; finalists not selected are offered the C$20,000 President’s Scholarship.",
         "basis": "merit",
         "source": "https://mta.ca/costs-financial-aid/scholarships-and-awards-first-year-students",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       },
       {
         "name": "International Award",
@@ -12369,7 +13986,7 @@ window.UNIPATH.universities.push(
         "note": "Can be combined with all other Mount Allison scholarships and bursaries.",
         "basis": "need-merit",
         "source": "https://mta.ca/costs-financial-aid/scholarships-and-awards-first-year-students",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -12412,6 +14029,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://mta.ca/academics/programs-and-degrees"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://mta.ca/about/key-facts-and-history"
     }
   ],
   "verification": {
@@ -12422,12 +14043,12 @@ window.UNIPATH.universities.push(
       "costs",
       "scholarships",
       "application fee",
-      "test policy"
+      "test policy",
+      "founding year"
     ],
     "unconfirmed": [
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -12452,6 +14073,34 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://mta.ca/admissions/important-admission-dates-and-deadlines",
       "checked": "2026-10-17"
+    },
+    "economics": {
+      "program": "Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://mta.ca/academics/programs-and-degrees/economics",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://mta.ca/academics/programs-and-degrees/psychology",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://mta.ca/academics/programs-and-degrees/mathematics",
+      "checked": "2026-10-27"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://mta.ca/academics/programs-and-degrees/computer-science",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -12464,7 +14113,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Halifax",
   "region": "Nova Scotia",
-  "founded": null,
+  "founded": 1802,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -12481,12 +14130,20 @@ window.UNIPATH.universities.push(
   "programs": [
     "humanities",
     "business",
-    "engineering"
+    "engineering",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
     "humanities",
     "business",
-    "engineering"
+    "engineering",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -12516,8 +14173,16 @@ window.UNIPATH.universities.push(
         "conditions": "Applications for 2027–28 opened on 1 October 2026; the Entrance Awards application opened on 15 October 2026.",
         "status": "confirmed",
         "source": "https://www.smu.ca/future-students/admissions/importantdates/",
-        "verified": "2026-10-17",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.smu.ca/future-students/admissions/importantdates/",
+          "verified": "2026-10-27",
+          "quote": "Admission applications open for the 2027-2028 academic year … Entrance Awards application opens (due February 15, 2027)."
+        }
       }
     ],
     "applicationFee": {
@@ -12644,7 +14309,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "The C$50,000 Major Renewable Scholarships (Sobey National Innovator and Presidential) are for Canadian citizens and permanent residents only. For applicants from schools abroad the pages read give no amounts for the competitive Admissions Scholarships (application by 15 February) or the Entrance Awards, so the largest award cannot be named; tuition reductions of about C$40,000–C$50,000 over a degree are for graduates of named Canadian provincial programmes, CAIS schools and United World Colleges. No award at the level of full tuition is described.",
+      "source": "https://www.smu.ca/future-students/moneymatters/scholarshipsawards/",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -12657,7 +14324,7 @@ window.UNIPATH.universities.push(
         "note": "Competitive and merit-based; amounts are not given. Applicants through a tuition-reduction programme are excluded.",
         "basis": "merit",
         "source": "https://www.smu.ca/future-students/moneymatters/scholarshipsawards/",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -12712,6 +14379,10 @@ window.UNIPATH.universities.push(
     {
       "label": "SMU — BComm normal annual course load",
       "url": "https://smu-ca-public.courseleaf.com/undergraduate/faculties/sobey-school-business/bachelor-commerce/"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.smu.ca/about/history.html"
     }
   ],
   "verification": {
@@ -12721,13 +14392,13 @@ window.UNIPATH.universities.push(
       "requirements for Uzbekistan",
       "tuition",
       "scholarships",
-      "application fee"
+      "application fee",
+      "founding year"
     ],
     "unconfirmed": [
       "application deadline for September 2027",
       "test policy",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -12760,6 +14431,34 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.smu.ca/future-students/moneymatters/tuitionandfees/",
       "checked": "2026-10-17"
+    },
+    "economics": {
+      "program": "Economics (Bachelor of Arts)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.smu.ca/future-students/ba-programs/economics-program.html",
+      "checked": "2026-10-29"
+    },
+    "psychology": {
+      "program": "Psychology (BA or BSc)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.smu.ca/future-students/ba-programs/psychology-program.html",
+      "checked": "2026-10-29"
+    },
+    "mathematics": {
+      "program": "Mathematics (BA or BSc)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.smu.ca/future-students/ba-programs/mathematics-program.html",
+      "checked": "2026-10-29"
+    },
+    "computer-science": {
+      "program": "Computing Science (BSc)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.smu.ca/future-students/bsc-programs/computing-science-program.html",
+      "checked": "2026-10-29"
     }
   },
   "programsStatus": "partial"
@@ -12772,7 +14471,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Sherbrooke",
   "region": "Quebec",
-  "founded": null,
+  "founded": 1843,
   "type": "Public liberal arts university",
   "institutionKind": "public",
   "degrees": [
@@ -12791,14 +14490,20 @@ window.UNIPATH.universities.push(
     "humanities",
     "social-sciences",
     "education",
-    "arts"
+    "arts",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
     "business",
     "humanities",
     "social-sciences",
     "education",
-    "arts"
+    "arts",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -12828,8 +14533,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.ubishops.ca/admissions/bishops-university-online-application/",
-        "verified": "2026-10-17",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.ubishops.ca/admissions/bishops-university-online-application/",
+          "verified": "2026-10-27",
+          "quote": "Fall 2027 Semester: … March 31, 2027: Deadline for international students (except USA Citizens) to submit an application and be considered for Fall entry."
+        }
       },
       {
         "name": "Supporting documents for international applicants",
@@ -12843,8 +14556,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.ubishops.ca/admissions/bishops-university-online-application/",
-        "verified": "2026-10-17",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.ubishops.ca/admissions/bishops-university-online-application/",
+          "verified": "2026-10-27",
+          "quote": "April 15, 2027: Deadline for international students (except USA Citizens) to submit supporting documentation for an undergraduate application and be considered for the Fall entry."
+        }
       }
     ],
     "applicationFee": {
@@ -12957,7 +14678,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "For international students the pages read list Competitive Admission Scholarships of C$1,000–C$4,000 a year and entrance awards and bursaries of C$500–C$12,000 a year, mostly one-time. The C$10,000-a-year Michael Goldbloom Excellence Scholarships are for Canadian citizens and permanent residents only. No award at the level of full tuition is described.",
+      "source": "https://www.ubishops.ca/admissions/scholarships-awards-bursaries/",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -12970,19 +14693,7 @@ window.UNIPATH.universities.push(
         "note": null,
         "basis": "merit",
         "source": "https://www.ubishops.ca/admissions/scholarships-awards-bursaries/",
-        "verified": "2026-10-17"
-      },
-      {
-        "name": "Michael Goldbloom Excellence Scholarships",
-        "amount": "C$10,000 a year, renewable",
-        "eligibility": "Students with outstanding academic records who reflect Bishop’s values",
-        "deadline": null,
-        "application": "Separate application",
-        "renewable": true,
-        "note": "Competitive; never counted as received.",
-        "basis": "merit",
-        "source": "https://www.ubishops.ca/admissions/scholarships-awards-bursaries/",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -13025,6 +14736,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.ubishops.ca/academics/programs/"
+    },
+    {
+      "label": "Bishop’s — Michael Goldbloom Excellence Scholarships (Canadian citizens and permanent residents only)",
+      "url": "https://www.ubishops.ca/admissions/scholarships-awards-bursaries/michael-goldbloom-excellence-scholarships/"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.ubishops.ca/about-bu/historical-timeline/1843-1853/"
     }
   ],
   "verification": {
@@ -13035,12 +14754,12 @@ window.UNIPATH.universities.push(
       "test policy",
       "tuition",
       "scholarships",
-      "application fee"
+      "application fee",
+      "founding year"
     ],
     "unconfirmed": [
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -13087,6 +14806,27 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.ubishops.ca/admissions/admission-requirements/international-high-school-students/",
       "checked": "2026-10-17"
+    },
+    "psychology": {
+      "program": "Psychology (Bachelor of Arts)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ubishops.ca/program/psychology/",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics (Bachelor of Arts)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ubishops.ca/program/mathematics/",
+      "checked": "2026-10-27"
+    },
+    "computer-science": {
+      "program": "Computer Science (Bachelor of Science)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ubishops.ca/program/computer-science/",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -13099,7 +14839,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Lethbridge",
   "region": "Alberta",
-  "founded": null,
+  "founded": 1967,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -13117,13 +14857,21 @@ window.UNIPATH.universities.push(
     "business",
     "medicine",
     "arts",
-    "education"
+    "education",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
     "business",
     "medicine",
     "arts",
-    "education"
+    "education",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -13144,47 +14892,65 @@ window.UNIPATH.universities.push(
       {
         "name": "Early admission and Board of Governors’ Admission Scholarship (up to C$1,000)",
         "kind": "priority",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2026-12-15",
-        "date": "15 December 2026",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 December — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": null,
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.ulethbridge.ca/future-student/important-dates",
-        "verified": "2026-10-17",
-        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.ulethbridge.ca/future-student/important-dates",
+          "verified": "2026-10-27",
+          "quote": "December 15 Early admission application deadline Board of Governors' scholarship application deadline"
+        }
       },
       {
         "name": "High school awards application",
         "kind": "scholarship",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-03-15",
-        "date": "15 March 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 March — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": null,
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.ulethbridge.ca/future-student/important-dates",
-        "verified": "2026-10-17",
-        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.ulethbridge.ca/future-student/important-dates",
+          "verified": "2026-10-27",
+          "quote": "March 15 High school awards application deadline"
+        }
       },
       {
         "name": "Application deadline for international students",
         "kind": "regular",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-06-15",
-        "date": "15 June 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 June — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Nursing closes on 1 March; Music on 15 June.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.ulethbridge.ca/future-student/important-dates",
-        "verified": "2026-10-17",
-        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.ulethbridge.ca/future-student/important-dates",
+          "verified": "2026-10-27",
+          "quote": "June 15 Application deadline for international students"
+        }
       }
     ],
     "applicationFee": {
@@ -13314,7 +15080,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "The official awards page shows only a summary (C$8.4 million in scholarships and awards); amounts of international entrance awards were not found on the pages read, so the largest award cannot be named.",
+      "source": "https://www.ulethbridge.ca/future-student/awards-and-scholarships",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -13327,7 +15095,7 @@ window.UNIPATH.universities.push(
         "note": "Eligibility of international students is not restricted in the text read.",
         "basis": "merit",
         "source": "https://www.ulethbridge.ca/future-student/application",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -13376,6 +15144,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.ulethbridge.ca/future-student/programs"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.ulethbridge.ca/president/university-historical-highlights"
     }
   ],
   "verification": {
@@ -13385,13 +15157,14 @@ window.UNIPATH.universities.push(
       "application fee",
       "costs",
       "English test minimums",
-      "test policy"
+      "test policy",
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "international entrance scholarships",
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -13435,6 +15208,34 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.ulethbridge.ca/future-student/important-dates",
       "checked": "2026-10-17"
+    },
+    "economics": {
+      "program": "Economics (Arts & Science), bachelor’s degree",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ulethbridge.ca/future-student/programs",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology (Arts & Science), bachelor’s degree",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ulethbridge.ca/future-student/programs",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics (Arts & Science), bachelor’s degree",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ulethbridge.ca/future-student/programs",
+      "checked": "2026-10-27"
+    },
+    "computer-science": {
+      "program": "Computer Science (Arts & Science), bachelor’s degree",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ulethbridge.ca/future-student/programs",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -13447,7 +15248,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Winnipeg",
   "region": "Manitoba",
-  "founded": null,
+  "founded": 1967,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -13465,13 +15266,21 @@ window.UNIPATH.universities.push(
     "humanities",
     "business",
     "education",
-    "biology"
+    "biology",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
     "humanities",
     "business",
     "education",
-    "biology"
+    "biology",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -13481,7 +15290,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.uwinnipeg.ca/future-student/apply/ready-to-apply.html",
     "scholarships": "https://www.uwinnipeg.ca/awards/awards-bursaries-and-scholarships/international-students.html",
     "financialAid": "https://www.uwinnipeg.ca/awards/awards-bursaries-and-scholarships/international-students.html",
-    "programs": null,
+    "programs": "https://www.uwinnipeg.ca/programs/",
     "cost": "https://www.uwinnipeg.ca/fees/tuition.html"
   },
   "admissions": {
@@ -13621,7 +15430,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "For international applicants in general, the largest award with a published amount is the President’s Scholarship for World Leaders, C$5,000 for undergraduates in the 2026–27 table (2027–28 values due in December 2026); amounts of the automatic International Special Entrance Scholarships were not read. Full support (tuition, housing, meals, books, travel) exists only in the Wu Chung Scholarship for residents of Huadu or Hong Kong.",
+      "source": "https://www.uwinnipeg.ca/awards/awards-bursaries-and-scholarships/international-students.html",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -13634,19 +15445,31 @@ window.UNIPATH.universities.push(
         "note": "The value is not given on the page read.",
         "basis": "automatic",
         "source": "https://www.uwinnipeg.ca/awards/awards-bursaries-and-scholarships/international-students.html",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       },
       {
         "name": "President’s Scholarship for World Leaders",
-        "amount": null,
+        "amount": "C$5,000 for undergraduates (6 awards) in the 2026–27 table",
         "eligibility": "International students entering their first UWinnipeg programme with an 80% average and exceptional leadership",
         "deadline": null,
-        "application": "Separate application with a personal statement, CV and two references",
+        "application": "Admission application by the scholarship deadline of the chosen term; 2027–28 values and deadlines will be published in December 2026",
         "renewable": null,
-        "note": "The page shows the 2026–27 values and deadlines; those for 2027–28 are due in December 2026.",
+        "note": "Previous cycle: the table shows 2026–27 values and closed deadlines. It cannot be held together with the International Special Entrance Scholarship.",
         "basis": "merit",
         "source": "https://www.uwinnipeg.ca/awards/awards-bursaries-and-scholarships/international-students.html",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
+      },
+      {
+        "name": "Wu Chung Scholarship",
+        "amount": "Full support: undergraduate tuition and fees for up to four years, textbooks and study costs, UW housing with a meal plan, and up to C$2,500 for the flight",
+        "eligibility": "Only residents of Huadu (Guangzhou) or Hong Kong, China",
+        "deadline": null,
+        "application": null,
+        "renewable": null,
+        "note": "An award for a defined region; it is not open to other international applicants.",
+        "basis": "partnership",
+        "source": "https://www.uwinnipeg.ca/awards/awards-bursaries-and-scholarships/international-students.html",
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -13687,6 +15510,10 @@ window.UNIPATH.universities.push(
     {
       "label": "UWinnipeg — admission requirements by country (U)",
       "url": "https://www.uwinnipeg.ca/future-student/international/countries-a-to-z/-u-.html"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.uwinnipeg.ca/about/history.html"
     }
   ],
   "verification": {
@@ -13697,13 +15524,13 @@ window.UNIPATH.universities.push(
       "tuition",
       "scholarships",
       "test policy",
-      "requirements for Uzbekistan"
+      "requirements for Uzbekistan",
+      "founding year",
+      "official programme directory"
     ],
     "unconfirmed": [
       "fall 2027 application deadline",
-      "full list of majors",
-      "founding year",
-      "official programme directory"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -13742,6 +15569,34 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.uwinnipeg.ca/fees/tuition.html",
       "checked": "2026-10-17"
+    },
+    "economics": {
+      "program": "Economics (Bachelor of Arts)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uwinnipeg.ca/programs/economics.html",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology (Bachelor of Arts)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uwinnipeg.ca/programs/psychology.html",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics (Bachelor of Science or Bachelor of Arts)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uwinnipeg.ca/programs/mathematics.html",
+      "checked": "2026-10-27"
+    },
+    "computer-science": {
+      "program": "Applied Computer Science (Bachelor of Science)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uwinnipeg.ca/programs/applied-computer-science.html",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -13754,7 +15609,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Halifax",
   "region": "Nova Scotia",
-  "founded": null,
+  "founded": 1873,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -13769,10 +15624,16 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "education"
+    "education",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "englishTaughtPrograms": [
-    "education"
+    "education",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -13802,8 +15663,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.msvu.ca/future-students/admission-requirements/application-deadlines/",
-        "verified": "2026-10-17",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.msvu.ca/future-students/admission-requirements/application-deadlines/",
+          "verified": "2026-10-27",
+          "quote": "For September 2027 Entrance … Entrance scholarship candidates – March 1, 2027 International undergraduate applicants – May 3, 2027"
+        }
       },
       {
         "name": "Application deadline for international undergraduate applicants (September 2027)",
@@ -13817,8 +15686,16 @@ window.UNIPATH.universities.push(
         "conditions": "The dossier (transcripts, documents and fee) must be complete by the deadline.",
         "status": "confirmed",
         "source": "https://www.msvu.ca/future-students/admission-requirements/application-deadlines/",
-        "verified": "2026-10-17",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.msvu.ca/future-students/admission-requirements/application-deadlines/",
+          "verified": "2026-10-27",
+          "quote": "For September 2027 Entrance … Entrance scholarship candidates – March 1, 2027 International undergraduate applicants – May 3, 2027"
+        }
       }
     ],
     "applicationFee": {
@@ -13933,7 +15810,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "The entrance scholarship page lists named awards with automatic consideration (complete admission application by 1 March) but gives no amounts for them, so the largest award open to international students cannot be named. The C$16,000 Harrison McCain award is for students graduating from a high school in Canada. No award at the level of full tuition is described.",
+      "source": "https://www.msvu.ca/future-students/money-matters/scholarships-awards/undergraduate-scholarships/entrance-scholarships/",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -13946,7 +15825,7 @@ window.UNIPATH.universities.push(
         "note": "Amounts are not given on the page read.",
         "basis": "merit",
         "source": "https://www.msvu.ca/future-students/money-matters/scholarships-awards/undergraduate-scholarships/",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -13987,6 +15866,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.msvu.ca/academics/"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.msvu.ca/about-msvu/university-profile/tradition-and-history/"
     }
   ],
   "verification": {
@@ -13996,13 +15879,13 @@ window.UNIPATH.universities.push(
       "English requirements",
       "scholarships",
       "application fee",
-      "test policy"
+      "test policy",
+      "founding year"
     ],
     "unconfirmed": [
       "international tuition (conflicting figures)",
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -14020,6 +15903,27 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.msvu.ca/future-students/admission-requirements/application-deadlines/",
       "checked": "2026-10-17"
+    },
+    "economics": {
+      "program": "Economics — Bachelor of Arts",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.msvu.ca/academics/bachelor-of-arts-ba/economics/",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology — Bachelor of Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.msvu.ca/academics/bachelor-of-science-bsc/psychology/",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Mathematics — Bachelor of Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.msvu.ca/academics/bachelor-of-science-bsc/mathematics/",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -14032,7 +15936,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Calgary",
   "region": "Alberta",
-  "founded": null,
+  "founded": 1910,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -14052,7 +15956,8 @@ window.UNIPATH.universities.push(
     "computer-science",
     "medicine",
     "education",
-    "arts"
+    "arts",
+    "psychology"
   ],
   "englishTaughtPrograms": [
     "humanities",
@@ -14060,7 +15965,8 @@ window.UNIPATH.universities.push(
     "computer-science",
     "medicine",
     "education",
-    "arts"
+    "arts",
+    "psychology"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -14277,7 +16183,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "International students may hold entrance scholarships that have no residency requirement (applications 1 November–1 March each year), but the page read gives no amounts, so the largest award cannot be named. No award at the level of full tuition is described.",
+      "source": "https://www.mtroyal.ca/Admission/FinancingYourEducation/ScholarshipsBursaries/awardinfo.htm",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -14290,7 +16198,7 @@ window.UNIPATH.universities.push(
         "note": "Amounts are not given on the page read; many awards are for Canadian citizens and permanent residents only.",
         "basis": "merit",
         "source": "https://www.mtroyal.ca/Admission/FinancingYourEducation/ScholarshipsBursaries/awardinfo.htm",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -14339,6 +16247,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.mtroyal.ca/ProgramsCourses/ProgramsOffered/index.htm"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.mtroyal.ca/AboutMountRoyal/FastFacts/History/index.htm"
     }
   ],
   "verification": {
@@ -14349,12 +16261,12 @@ window.UNIPATH.universities.push(
       "tuition",
       "scholarships",
       "application fee",
-      "requirements for Uzbekistan"
+      "requirements for Uzbekistan",
+      "founding year"
     ],
     "unconfirmed": [
       "test policy",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -14406,6 +16318,13 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.mtroyal.ca/academics/fees/pages/2026-27/international-student-tuition-max.php",
       "checked": "2026-10-17"
+    },
+    "psychology": {
+      "program": "Bachelor of Arts — Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.mtroyal.ca/ProgramsCourses/FacultiesSchoolsCentres/Arts/Departments/Psychology/PsychologyMajor/index.htm",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -14418,7 +16337,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Kamloops",
   "region": "British Columbia",
-  "founded": null,
+  "founded": 1970,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -14433,10 +16352,18 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "engineering"
+    "engineering",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
-    "engineering"
+    "engineering",
+    "economics",
+    "psychology",
+    "mathematics",
+    "computer-science"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -14457,17 +16384,23 @@ window.UNIPATH.universities.push(
       {
         "name": "Application deadline, September intake",
         "kind": "regular",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-05-01",
-        "date": "1 May 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 May — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Late applications are considered if space is available; some programmes close earlier.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.tru.ca/future/admissions/international/application-deadlines.html",
-        "verified": "2026-10-17",
-        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.tru.ca/future/admissions/international/application-deadlines.html",
+          "verified": "2026-10-27",
+          "quote": "International Student Application Deadlines Semester Deadline January October 1 May February 1 September May 1"
+        }
       }
     ],
     "applicationFee": {
@@ -14579,7 +16512,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award with a published amount on the page read: the Exceptional Student Award, up to C$4,000 (C$1,000 a semester with a 3.33 GPA), for candidates identified by the international marketing team. Country-specific awards (e.g. for Mexico or the Caribbean) are for those countries only. No award at the level of full tuition is described.",
+      "source": "https://www.tru.ca/truworld/future-students/scholarships.html",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -14592,7 +16527,7 @@ window.UNIPATH.universities.push(
         "note": "Continued with a 3.33 GPA each semester.",
         "basis": "merit",
         "source": "https://www.tru.ca/truworld/future-students/scholarships.html",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       },
       {
         "name": "Academic Excellence Award",
@@ -14604,7 +16539,7 @@ window.UNIPATH.universities.push(
         "note": null,
         "basis": "merit",
         "source": "https://www.tru.ca/truworld/future-students/scholarships.html",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       },
       {
         "name": "Diversity Scholarships",
@@ -14616,7 +16551,7 @@ window.UNIPATH.universities.push(
         "note": "The value is not given on the page read.",
         "basis": "automatic",
         "source": "https://www.tru.ca/truworld/future-students/scholarships.html",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -14661,6 +16596,10 @@ window.UNIPATH.universities.push(
     {
       "label": "General requirements reviewed — Uzbekistan-specific rule unresolved",
       "url": "https://www.tru.ca/future/admissions/international/admission-requirements.html"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.tru.ca/gaglardi/about/school-history.html"
     }
   ],
   "verification": {
@@ -14670,13 +16609,13 @@ window.UNIPATH.universities.push(
       "application fee",
       "scholarships",
       "English requirements",
-      "test policy"
+      "test policy",
+      "founding year"
     ],
     "unconfirmed": [
       "tuition for the Fall 2027 intake",
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -14693,6 +16632,34 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.tru.ca/truworld/future-students/fees.html",
       "checked": "2026-10-17"
+    },
+    "economics": {
+      "program": "Bachelor of Arts, Major in Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.tru.ca/programs/catalogue/economics-major.html",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Bachelor of Arts, Major in Psychology",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.tru.ca/programs/catalogue/psychology-major.html",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Bachelor of Arts, Major in Mathematics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.tru.ca/programs/catalogue/mathematics-major.html",
+      "checked": "2026-10-27"
+    },
+    "computer-science": {
+      "program": "Bachelor of Computing Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.tru.ca/programs/catalogue/bachelor-of-computing-science.html",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -14705,7 +16672,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Prince George",
   "region": "British Columbia",
-  "founded": null,
+  "founded": 1990,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -14722,12 +16689,18 @@ window.UNIPATH.universities.push(
   "programs": [
     "engineering",
     "medicine",
-    "social-sciences"
+    "social-sciences",
+    "economics",
+    "psychology",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
     "engineering",
     "medicine",
-    "social-sciences"
+    "social-sciences",
+    "economics",
+    "psychology",
+    "computer-science"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -14757,8 +16730,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.unbc.ca/programs-and-admissions/undergraduate/undergraduate-application-deadlines",
-        "verified": "2026-10-17",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.unbc.ca/programs-and-admissions/undergraduate/undergraduate-application-deadlines",
+          "verified": "2026-10-27",
+          "quote": "Bachelor of Applied Science (Engineering) (BASc) Domestic International September semester March 1, 2027 March 1, 2027"
+        }
       },
       {
         "name": "Health Sciences (BHSc) application deadline",
@@ -14772,8 +16753,16 @@ window.UNIPATH.universities.push(
         "conditions": null,
         "status": "confirmed",
         "source": "https://www.unbc.ca/programs-and-admissions/undergraduate/undergraduate-application-deadlines",
-        "verified": "2026-10-17",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.unbc.ca/programs-and-admissions/undergraduate/undergraduate-application-deadlines",
+          "verified": "2026-10-27",
+          "quote": "Bachelor of Health Sciences (BHSc) Domestic International September semester May 15, 2027 May 15, 2027"
+        }
       },
       {
         "name": "General-entry programmes (BA, BSc and others): international deadline",
@@ -14904,7 +16893,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "No official UNBC page listing international undergraduate entrance awards and their amounts was found in this check; aggregator listings were not used. The largest award cannot be named.",
+      "source": "https://www.unbc.ca/international/frequent-asked-questions-faq",
+      "verified": "2026-10-27"
     },
     "merit": [],
     "needBased": {
@@ -14959,6 +16950,10 @@ window.UNIPATH.universities.push(
     {
       "label": "UNBC — first-year annual planning workload: 30 credits",
       "url": "https://www.unbc.ca/programs-and-admissions/undergraduate/tuition-and-fees"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.unbc.ca/about-unbc/history"
     }
   ],
   "verification": {
@@ -14967,14 +16962,15 @@ window.UNIPATH.universities.push(
       "deadlines",
       "application fee",
       "English requirements",
-      "tuition"
+      "tuition",
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "entrance scholarships for international students",
       "test policy",
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -15005,6 +17001,27 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.unbc.ca/programs-and-admissions/undergraduate/undergraduate-application-deadlines",
       "checked": "2026-10-17"
+    },
+    "economics": {
+      "program": "Bachelor of Arts in Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.unbc.ca/economics",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology (BSc)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.unbc.ca/psychology",
+      "checked": "2026-10-27"
+    },
+    "computer-science": {
+      "program": "Computer Science (Bachelor of Science)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.unbc.ca/computer-science",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"
@@ -15017,7 +17034,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Nanaimo",
   "region": "British Columbia",
-  "founded": null,
+  "founded": 1936,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -15034,12 +17051,16 @@ window.UNIPATH.universities.push(
   "programs": [
     "medicine",
     "arts",
-    "social-sciences"
+    "social-sciences",
+    "psychology",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
     "medicine",
     "arts",
-    "social-sciences"
+    "social-sciences",
+    "psychology",
+    "computer-science"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -15056,7 +17077,33 @@ window.UNIPATH.universities.push(
     "platforms": [
       "VIU online application"
     ],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "VIU entrance award application (includes the International Student Entrance Scholarship)",
+        "kind": "scholarship",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-28",
+        "date": "28 February 2027",
+        "time": "23:59",
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://services.viu.ca/financial-aid-awards/viu-entrance-awards",
+        "verified": "2026-10-27",
+        "note": "The page gives 11:59 pm without a time zone, so the end of the day is not converted to a zone.",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://services.viu.ca/financial-aid-awards/viu-entrance-awards",
+          "verified": "2026-10-27",
+          "quote": "Fall 2027 application open October 15, 2026 The entrance award application is now open. Entrance award applications will be open until 11:59 pm on February 28, 2027."
+        },
+        "awardId": "international-entrance",
+        "awardCategory": "merit"
+      }
+    ],
     "applicationFee": {
       "amount": 153,
       "currency": "CAD",
@@ -15166,9 +17213,28 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award open to international students on the pages read: the International Student Entrance Scholarship, C$5,000 each for 20 students, by the single entrance award application (Fall 2027: until 28 February 2027). No award at the level of full tuition is described.",
+      "source": "https://services.viu.ca/financial-aid-awards/viu-entrance-awards",
+      "verified": "2026-10-27"
     },
-    "merit": [],
+    "merit": [
+      {
+        "name": "International Student Entrance Scholarship",
+        "amount": "C$5,000 each (20 awards)",
+        "eligibility": "First-year students in any undergraduate programme; selection by academic excellence",
+        "deadline": null,
+        "application": "Single VIU entrance award application (not automatic); Fall 2027 application open 15 October 2026 to 28 February 2027, 11:59 pm",
+        "renewable": null,
+        "note": "Applied as a tuition credit in the fall semester after full-time enrolment is confirmed. The page does not name the time zone.",
+        "basis": "merit",
+        "source": "https://services.viu.ca/financial-aid-awards/viu-entrance-awards",
+        "verified": "2026-10-27",
+        "id": "international-entrance",
+        "category": "merit",
+        "entryTerm": "Autumn",
+        "entryYear": "2027"
+      }
+    ],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,
@@ -15203,6 +17269,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.viu.ca/programs"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.viu.ca/about"
     }
   ],
   "verification": {
@@ -15211,14 +17281,15 @@ window.UNIPATH.universities.push(
       "application fee",
       "English requirements",
       "requirements for Uzbekistan",
-      "tuition"
+      "tuition",
+      "scholarships",
+      "entrance scholarships for international students",
+      "founding year"
     ],
     "unconfirmed": [
       "application deadline",
-      "entrance scholarships for international students",
       "test policy",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -15254,6 +17325,20 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.viu.ca/admissions/tuition-fee-schedule",
       "checked": "2026-10-17"
+    },
+    "psychology": {
+      "program": "Psychology (BA)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.viu.ca/programs/arts-humanities-social-sciences/psychology-ba",
+      "checked": "2026-10-29"
+    },
+    "computer-science": {
+      "program": "Computer Science (BSc), Nanaimo",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.viu.ca/programs/science-and-technology/computer-science-bsc",
+      "checked": "2026-10-29"
     }
   },
   "programsStatus": "partial"
@@ -15266,7 +17351,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Abbotsford",
   "region": "British Columbia",
-  "founded": null,
+  "founded": 1974,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -15282,9 +17367,12 @@ window.UNIPATH.universities.push(
   "languageOfInstruction": "English",
   "programs": [
     "business",
-    "computer-science"
+    "computer-science",
+    "mathematics"
   ],
-  "englishTaughtPrograms": [],
+  "englishTaughtPrograms": [
+    "mathematics"
+  ],
   "programNote": "Confirmed bachelor’s programmes: Business Administration (Abbotsford) and Computing Science (Abbotsford; some courses in Chilliwack). This is a partial review. The language of these specific routes has not been separately verified, so they are not included in the strict English-taught field filter.",
   "links": {
     "website": "https://www.ufv.ca/",
@@ -15304,32 +17392,44 @@ window.UNIPATH.universities.push(
       {
         "name": "Application window for the fall semester closes",
         "kind": "regular",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-06-01",
-        "date": "1 June 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 June — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "The window opens on 1 October. Some programmes may close early due to high demand.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://international.ufv.ca/future-students/apply-to-ufv/application-deadlines/",
-        "verified": "2026-10-17",
-        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://international.ufv.ca/future-students/apply-to-ufv/application-deadlines/",
+          "verified": "2026-10-27",
+          "quote": "Fall semester: October 1 to June 1"
+        }
       },
       {
         "name": "Full payment to confirm acceptance (fall)",
         "kind": "reply",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-06-15",
-        "date": "15 June 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 June — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Without payment by this date you must re-apply for a later semester.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://international.ufv.ca/future-students/apply-to-ufv/application-deadlines/",
-        "verified": "2026-10-17",
-        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://international.ufv.ca/future-students/apply-to-ufv/application-deadlines/",
+          "verified": "2026-10-27",
+          "quote": "We must receive your payment in full by the following dates: Fall semester: June 15"
+        }
       }
     ],
     "applicationFee": {
@@ -15438,7 +17538,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award on the pages read: the International Excellence Entrance Scholarship, C$20,000 (C$5,000 a year for four years), ten a year, automatic in order of application. No award at the level of full tuition is described.",
+      "source": "https://international.ufv.ca/future-students/tuition-scholarships-jobs/scholarships/international-excellence-scholarship/",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -15448,10 +17550,10 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": true,
-        "note": "Renewed with a CGPA of 3.0; awarded first come, first served.",
+        "note": "Ten a year, automatic, first come first served; needs a CGPA of 3.75 on approved Grade 12 courses and a degree programme; kept with a CGPA of 3.0 each year. Paid as a tuition credit each year.",
         "basis": "merit",
         "source": "https://international.ufv.ca/future-students/tuition-scholarships-jobs/scholarships/international-excellence-scholarship/",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -15504,6 +17606,10 @@ window.UNIPATH.universities.push(
     {
       "label": "SAT/ACT scope review — general policy unresolved",
       "url": "https://international.ufv.ca/future-students/apply-to-ufv/admission-requirements/"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.ufv.ca/about/ufv-history/"
     }
   ],
   "verification": {
@@ -15513,13 +17619,13 @@ window.UNIPATH.universities.push(
       "application fee",
       "English requirements",
       "tuition",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "test policy",
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -15551,6 +17657,13 @@ window.UNIPATH.universities.push(
       "campus": "Abbotsford; some courses in Chilliwack",
       "url": "https://www.ufv.ca/programs/computing/computing-science-bsc/",
       "checked": "2026-10-24"
+    },
+    "mathematics": {
+      "program": "Bachelor of Science (Mathematics major)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.ufv.ca/programs/science/mathematics-bsc-or-ba/",
+      "checked": "2026-10-27"
     }
   }
 },
@@ -15562,7 +17675,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "North Vancouver",
   "region": "British Columbia",
-  "founded": null,
+  "founded": 1968,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -15610,8 +17723,16 @@ window.UNIPATH.universities.push(
         "conditions": "Then pay the tuition deposit by 4 December 2026 and submit the study permit application to IRCC by 31 December 2026. The award may close earlier if funds run out.",
         "status": "confirmed",
         "source": "https://www.capilanou.ca/admissions/fees--finances/financial-aid--awards/funding-for-international-students/",
-        "verified": "2026-10-17",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.capilanou.ca/admissions/fees--finances/financial-aid--awards/funding-for-international-students/",
+          "verified": "2026-10-27",
+          "quote": "Fall 2027 term Complete application by November 30, 2026"
+        }
       }
     ],
     "applicationFee": {
@@ -15719,7 +17840,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award on the page read: the International Entrance & Performance Award, a tuition discount of C$1,800 a semester for 12 credits, up to C$18,000 over a four-year degree; for Fall 2027 the application must be complete by 30 November 2026 and the deposit paid by 4 December 2026. No award at the level of full tuition is described.",
+      "source": "https://www.capilanou.ca/admissions/fees--finances/financial-aid--awards/funding-for-international-students/",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -15732,7 +17855,7 @@ window.UNIPATH.universities.push(
         "note": "A tuition reduction; kept with a 3.50 term GPA and 12 credits a term. Subject to availability.",
         "basis": "automatic",
         "source": "https://www.capilanou.ca/admissions/fees--finances/financial-aid--awards/funding-for-international-students/",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -15777,6 +17900,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.capilanou.ca/programs--courses/search--select/find-a-program-or-course/"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.capilanou.ca/about-capu/get-to-know-us/our-history/"
     }
   ],
   "verification": {
@@ -15786,13 +17913,13 @@ window.UNIPATH.universities.push(
       "English requirements",
       "tuition",
       "scholarships",
-      "test policy"
+      "test policy",
+      "founding year"
     ],
     "unconfirmed": [
       "general fall 2027 application deadline",
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -15821,7 +17948,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Sudbury",
   "region": "Ontario",
-  "founded": null,
+  "founded": 1960,
   "type": "Public university",
   "institutionKind": "public",
   "degrees": [
@@ -15839,13 +17966,17 @@ window.UNIPATH.universities.push(
     "business",
     "engineering",
     "computer-science",
-    "medicine"
+    "medicine",
+    "economics",
+    "psychology"
   ],
   "englishTaughtPrograms": [
     "business",
     "engineering",
     "computer-science",
-    "medicine"
+    "medicine",
+    "economics",
+    "psychology"
   ],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
   "links": {
@@ -15867,32 +17998,44 @@ window.UNIPATH.universities.push(
       {
         "name": "Nursing (BScN) application deadline",
         "kind": "regular",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-02-01",
-        "date": "1 February 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 February — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": null,
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://laurentian.ca/apply/international-undergraduate-applicants",
-        "verified": "2026-10-17",
-        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://laurentian.ca/apply/international-undergraduate-applicants",
+          "verified": "2026-10-27",
+          "quote": "Bachelor of Science in Nursing (September entry only) – February 1st"
+        }
       },
       {
         "name": "Application deadline, September start (most programmes)",
         "kind": "regular",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-06-15",
-        "date": "15 June 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 June — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Documents by 20 June. Architectural Studies closes 14 February.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://laurentian.ca/apply/international-undergraduate-applicants",
-        "verified": "2026-10-17",
-        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://laurentian.ca/apply/international-undergraduate-applicants",
+          "verified": "2026-10-27",
+          "quote": "September start Application deadline – June 15th"
+        }
       }
     ],
     "applicationFee": {
@@ -16025,7 +18168,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award on the pages read: the International Academic Excellence Scholarship, up to C$60,000 (C$15,000 a year) for an average of 90% or more, automatic. No award at the level of full tuition is described.",
+      "source": "https://laurentian.ca/academics/international/scholarships",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -16035,10 +18180,10 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": true,
-        "note": "C$10,000 or C$15,000 in year 1, renewed while the average stays above 80% (GPA 7.5) or 90% (GPA 9.5).",
+        "note": "C$15,000 in the first year at 90–100% (up to C$60,000) or C$10,000 at 80–89.9% (up to C$40,000); renewable for at most three more years while the average is kept. Automatic, no separate application.",
         "basis": "automatic",
         "source": "https://laurentian.ca/academics/international/scholarships",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -16079,6 +18224,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://laurentian.ca/academics/undergraduate-programs"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://laurentian.ca/faculties/arts/our-tricultural-mandate"
     }
   ],
   "verification": {
@@ -16090,12 +18239,12 @@ window.UNIPATH.universities.push(
       "tuition",
       "scholarships",
       "application fee",
-      "requirements for Uzbekistan"
+      "requirements for Uzbekistan",
+      "founding year"
     ],
     "unconfirmed": [
       "test policy",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -16135,6 +18284,20 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://laurentian.ca/apply/international-undergraduate-applicants",
       "checked": "2026-10-17"
+    },
+    "economics": {
+      "program": "Economics, Bachelor of Arts",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://laurentian.ca/academics/program/economics",
+      "checked": "2026-10-29"
+    },
+    "psychology": {
+      "program": "Psychology, Bachelor of Arts or Bachelor of Science",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://laurentian.ca/program/psychology/details",
+      "checked": "2026-10-29"
     }
   },
   "programsStatus": "partial",
@@ -16153,7 +18316,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Montreal",
   "region": "Quebec",
-  "founded": null,
+  "founded": 1969,
   "type": "Public university (French-language)",
   "institutionKind": "public",
   "degrees": [
@@ -16170,7 +18333,10 @@ window.UNIPATH.universities.push(
   "programs": [
     "business",
     "mathematics",
-    "arts"
+    "arts",
+    "economics",
+    "psychology",
+    "computer-science"
   ],
   "englishTaughtPrograms": [],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
@@ -16201,8 +18367,16 @@ window.UNIPATH.universities.push(
         "conditions": "Some programmes close earlier. Immigration steps take three to six months or more.",
         "status": "confirmed",
         "source": "https://www.apps.uqam.ca/Application/AdmissionEnLigne/Traitements/DatesLimites/AfficherDatesLimites.aspx?adm_web_cycle=1",
-        "verified": "2026-10-17",
-        "note": null
+        "verified": "2026-10-27",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.apps.uqam.ca/Application/AdmissionEnLigne/Traitements/DatesLimites/AfficherDatesLimites.aspx?adm_web_cycle=1",
+          "verified": "2026-10-27",
+          "quote": "IMPORTANT : Informations supplémentaires à l'attention des candidats internationaux Automne : 1er mars (certains programmes ont une date limite plus hâtive) … DATES LIMITES DES DEMANDES D'ADMISSION AUX BACCALAURÉATS … AUTOMNE 2027"
+        }
       }
     ],
     "applicationFee": {
@@ -16282,7 +18456,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "The page read names an institutional scholarship programme for international students at the master’s level, doctoral support and UQAM Foundation awards, but no bachelor’s entrance award with an amount. The exemption from the increased tuition depends on Quebec’s agreements with the student’s country. No award at the level of full tuition is described.",
+      "source": "https://etudier.uqam.ca/etudiants-internationaux/bourses",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -16295,7 +18471,7 @@ window.UNIPATH.universities.push(
         "note": "Uzbekistan’s place on the list was not checked. Most UQAM scholarships listed are for graduate students.",
         "basis": "partnership",
         "source": "https://etudier.uqam.ca/etudiants-internationaux/bourses",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -16340,6 +18516,10 @@ window.UNIPATH.universities.push(
     {
       "label": "General requirements reviewed — Uzbekistan-specific rule unresolved",
       "url": "https://etudier.uqam.ca/etudiants-internationaux"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://uqam.ca/information/historique/"
     }
   ],
   "verification": {
@@ -16348,14 +18528,15 @@ window.UNIPATH.universities.push(
       "deadlines",
       "application fee",
       "French requirement",
-      "costs"
+      "costs",
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "French level by programme",
       "requirements for Uzbekistan",
       "undergraduate entrance scholarships for international students",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -16388,6 +18569,27 @@ window.UNIPATH.universities.push(
       "language": "French",
       "url": "https://www.apps.uqam.ca/Application/AdmissionEnLigne/Traitements/DatesLimites/AfficherDatesLimites.aspx?adm_web_cycle=1",
       "checked": "2026-10-17"
+    },
+    "economics": {
+      "program": "Baccalauréat en économique",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://etudier.uqam.ca/programme/baccalaureat-economique",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Baccalauréat en psychologie (6589)",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://etudier.uqam.ca/programme?code=6589",
+      "checked": "2026-10-29"
+    },
+    "computer-science": {
+      "program": "Baccalauréat en informatique et génie logiciel (7416)",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://etudier.uqam.ca/programme?code=7416",
+      "checked": "2026-10-29"
     }
   },
   "programsStatus": "partial",
@@ -16406,7 +18608,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Sherbrooke",
   "region": "Quebec",
-  "founded": null,
+  "founded": 1954,
   "type": "Public university (French-language)",
   "institutionKind": "public",
   "degrees": [
@@ -16427,7 +18629,10 @@ window.UNIPATH.universities.push(
     "computer-science",
     "medicine",
     "humanities",
-    "education"
+    "education",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "englishTaughtPrograms": [],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
@@ -16449,17 +18654,23 @@ window.UNIPATH.universities.push(
       {
         "name": "Application deadline for international candidates, autumn term (bachelor’s, certificates)",
         "kind": "regular",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-01-15",
-        "date": "15 January 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 January — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Some programmes set other dates. Allow three to six months for permits after admission.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.usherbrooke.ca/admission/da/planifier-demande/dates-limites/1er-cycle",
-        "verified": "2026-10-17",
-        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.usherbrooke.ca/admission/da/planifier-demande/dates-limites/1er-cycle",
+          "verified": "2026-10-27",
+          "quote": "Candidat international 15 janvier 1er juin"
+        }
       }
     ],
     "applicationFee": {
@@ -16548,7 +18759,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "For international students the page points to government and external programmes, the USherbrooke International involvement award and research scholarships; no bachelor’s entrance award with an amount is described. The exemption from supplementary tuition is limited to nationals of countries with a Quebec agreement. No award at the level of full tuition is described.",
+      "source": "https://www.usherbrooke.ca/admission/couts-et-aide-financiere/bourses-et-aide-financiere/etudiants-internationaux",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -16561,7 +18774,7 @@ window.UNIPATH.universities.push(
         "note": "Uzbekistan’s place on the list was not checked.",
         "basis": "partnership",
         "source": "https://www.usherbrooke.ca/admission/couts-et-aide-financiere/bourses-et-aide-financiere/etudiants-internationaux",
-        "verified": "2026-10-17"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -16610,6 +18823,10 @@ window.UNIPATH.universities.push(
     {
       "label": "UdeS — linked March 2022 guide; Uzbekistan sheet updated in 2006",
       "url": "https://www.usherbrooke.ca/admission/fileadmin/sites/admission/documents/admission/Reconnaissances_internationales/Guide-des-niveaux-de-formation-Mars2022.pdf"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.usherbrooke.ca/decouvrir/a-propos/notre-histoire"
     }
   ],
   "verification": {
@@ -16618,14 +18835,15 @@ window.UNIPATH.universities.push(
       "deadlines",
       "application fee",
       "French requirement",
-      "tuition"
+      "tuition",
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "French level by programme",
       "entrance scholarships",
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -16690,6 +18908,27 @@ window.UNIPATH.universities.push(
       "language": "French",
       "url": "https://www.usherbrooke.ca/admission/couts-et-aide-financiere/frais-scolarite/personnes-etudiantes-internationales",
       "checked": "2026-10-17"
+    },
+    "economics": {
+      "program": "Baccalauréat en économique",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://www.usherbrooke.ca/admission/programme/208/baccalaureat-en-economique/",
+      "checked": "2026-10-29"
+    },
+    "psychology": {
+      "program": "Baccalauréat en psychologie",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://www.usherbrooke.ca/admission/programme/225/baccalaureat-en-psychologie/",
+      "checked": "2026-10-29"
+    },
+    "mathematics": {
+      "program": "Baccalauréat en mathématiques",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://www.usherbrooke.ca/admission/programme/222/baccalaureat-en-mathematiques/",
+      "checked": "2026-10-29"
     }
   },
   "programsStatus": "partial",
@@ -16708,7 +18947,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Moncton",
   "region": "New Brunswick",
-  "founded": null,
+  "founded": 1963,
   "type": "Public university (French-language)",
   "institutionKind": "public",
   "degrees": [
@@ -16726,7 +18965,8 @@ window.UNIPATH.universities.push(
     "engineering",
     "medicine",
     "law",
-    "education"
+    "education",
+    "computer-science"
   ],
   "englishTaughtPrograms": [],
   "programNote": "Fields of study are those whose programme was named on the pages read (deadline, fee and tuition tables); the full list of majors was not read, so a field missing here may still exist.",
@@ -16748,17 +18988,23 @@ window.UNIPATH.universities.push(
       {
         "name": "Application deadline for international students, autumn session",
         "kind": "regular",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-05-31",
-        "date": "31 May 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "31 May — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "The page says “before 31 May”; the university may close applications earlier depending on demand.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.umoncton.ca/admission/dates-importantes",
-        "verified": "2026-10-17",
-        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.umoncton.ca/admission/dates-importantes",
+          "verified": "2026-10-27",
+          "quote": "Personnes étudiantes internationales Avant le 31 mai pour la session d’automne"
+        }
       }
     ],
     "applicationFee": {
@@ -16855,7 +19101,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "The award page was re-opened on 27 October 2026 but its amounts did not display for the reader used, so the entry read on 17 October (Bourse de mérite scolaire, C$4,000–C$5,000 over the degree, more with a higher average) is not re-confirmed. The largest award cannot be named from this check.",
+      "source": "https://www.umoncton.ca/bourses",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -16909,6 +19157,10 @@ window.UNIPATH.universities.push(
     {
       "label": "General requirements reviewed — Uzbekistan-specific rule unresolved",
       "url": "https://www.umoncton.ca/conditions"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.umoncton.ca/notreumoncton/historique"
     }
   ],
   "verification": {
@@ -16917,13 +19169,13 @@ window.UNIPATH.universities.push(
       "deadlines",
       "application fee",
       "costs",
-      "scholarships"
+      "scholarships",
+      "founding year"
     ],
     "unconfirmed": [
       "French requirement",
       "requirements for Uzbekistan",
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-17",
@@ -16968,6 +19220,13 @@ window.UNIPATH.universities.push(
       "language": "French",
       "url": "https://www.umoncton.ca/international/frais",
       "checked": "2026-10-17"
+    },
+    "computer-science": {
+      "program": "Baccalauréat ès sciences (majeure en informatique)",
+      "level": "bachelor",
+      "language": "French",
+      "url": "https://www.umoncton.ca/repertoire/programmes?programme_select=148",
+      "checked": "2026-10-29"
     }
   },
   "programsStatus": "partial",
@@ -16986,7 +19245,7 @@ window.UNIPATH.universities.push(
   "country": "ca",
   "city": "Victoria",
   "region": "British Columbia",
-  "founded": null,
+  "founded": 1963,
   "type": "Public research university",
   "institutionKind": "public",
   "degrees": [
@@ -17008,7 +19267,10 @@ window.UNIPATH.universities.push(
     "social-sciences",
     "arts",
     "medicine",
-    "education"
+    "education",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "englishTaughtPrograms": [
     "humanities",
@@ -17018,7 +19280,10 @@ window.UNIPATH.universities.push(
     "social-sciences",
     "arts",
     "medicine",
-    "education"
+    "education",
+    "economics",
+    "psychology",
+    "mathematics"
   ],
   "programNote": "Fields of study are the programme groups named in the university’s fee estimator; the full list of majors was not read.",
   "links": {
@@ -17054,17 +19319,23 @@ window.UNIPATH.universities.push(
       {
         "name": "Application deadline, September entry (most degree programmes)",
         "kind": "regular",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-01-31",
-        "date": "31 January 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "31 January — intake year not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Some programmes keep accepting applications later while they remain open in EducationPlannerBC; applications can close without warning.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.uvic.ca/undergraduate/admissions/application-deadlines/index.php",
-        "verified": "2026-10-19",
-        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-10-27",
+        "note": "The official page prints this date without a year and names no intake. The reading date does not establish 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.uvic.ca/undergraduate/admissions/application-deadlines/index.php",
+          "verified": "2026-10-27",
+          "quote": "Degree programs Most degree programs: January 31"
+        }
       }
     ],
     "applicationFee": {
@@ -17178,7 +19449,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Largest award on the page read: the international entrance scholarship, C$15,000 once for an A- average or equivalent (2027–2028 figures), automatic. No award at the level of full tuition is described.",
+      "source": "https://www.uvic.ca/safa/scholarships/entrance-scholarships/index.php",
+      "verified": "2026-10-27"
     },
     "merit": [
       {
@@ -17191,7 +19464,7 @@ window.UNIPATH.universities.push(
         "note": "“The scholarship figures shown below are for the 2027-2028 academic year.” Only for students assessed international tuition.",
         "basis": "automatic",
         "source": "https://www.uvic.ca/safa/scholarships/entrance-scholarships/index.php",
-        "verified": "2026-10-19"
+        "verified": "2026-10-27"
       }
     ],
     "needBased": {
@@ -17240,6 +19513,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official programme directory",
       "url": "https://www.uvic.ca/undergraduate/programs/undergraduate-programs/index.php"
+    },
+    {
+      "label": "History and founding year",
+      "url": "https://www.uvic.ca/about-uvic/about-the-university/index.php"
     }
   ],
   "verification": {
@@ -17251,11 +19528,11 @@ window.UNIPATH.universities.push(
       "tuition",
       "scholarships",
       "test policy",
-      "requirements for Uzbekistan"
+      "requirements for Uzbekistan",
+      "founding year"
     ],
     "unconfirmed": [
-      "full list of majors",
-      "founding year"
+      "full list of majors"
     ]
   },
   "lastVerified": "2026-10-19",
@@ -17322,6 +19599,27 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.uvic.ca/undergraduate/finances/tuition-costs/index.php",
       "checked": "2026-10-19"
+    },
+    "economics": {
+      "program": "Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uvic.ca/undergraduate/programs/undergraduate-programs/pages/economics.php",
+      "checked": "2026-10-27"
+    },
+    "psychology": {
+      "program": "Psychology and Computer Science (combined)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uvic.ca/undergraduate/programs/undergraduate-programs/pages/psychology-and-computer-science.php",
+      "checked": "2026-10-27"
+    },
+    "mathematics": {
+      "program": "Financial Mathematics and Economics",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.uvic.ca/undergraduate/programs/undergraduate-programs/pages/financial-mathematics-and-economics.php",
+      "checked": "2026-10-27"
     }
   },
   "programsStatus": "partial"

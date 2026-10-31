@@ -790,6 +790,8 @@ group('Canada');
 
 group('site quality regressions');
 require('./site-quality.js')({ U: U, M: M, DB: DB, ok: ok, sandbox: sandbox, load: load });
+group('data integration regressions');
+require('./data-integration.js')({ U: U, DB: DB, ok: ok });
 group('loading failure regressions');
 require('./loading.js')(ok);
 require('./loading-gate.js')(ok);

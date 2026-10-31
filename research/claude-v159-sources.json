@@ -1,0 +1,2918 @@
+[
+ {
+  "id": "university-of-toronto",
+  "field": "deadline: Recommended early application date",
+  "source": "https://future.utoronto.ca/deadlines",
+  "quote": "2027 admissions Deadlines to apply … Arts & Science, U of T St. George (including International Foundation Program) November 7 January 15",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-toronto",
+  "field": "deadline: Application deadline (most programmes)",
+  "source": "https://future.utoronto.ca/deadlines",
+  "quote": "2027 admissions Deadlines to apply … Arts & Science, U of T St. George (including International Foundation Program) November 7 January 15",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-toronto",
+  "field": "deadline: Supporting documents (most programmes)",
+  "source": "https://future.utoronto.ca/deadlines",
+  "quote": "2027 admissions Deadlines to submit supporting documentation … Arts & Science, U of T St. George - All other program areas February 1",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mcgill-university",
+  "field": "deadline (annual rule): Application deadline",
+  "source": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/international/other",
+  "quote": "Other international high schools … DEADLINES Application for admission January 15",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mcgill-university",
+  "field": "deadline (annual rule): Major Entrance Scholarship application and documents",
+  "source": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/international/other",
+  "quote": "Major Entrance Scholarship application & documents January 21",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mcgill-university",
+  "field": "deadline (annual rule): Supporting documents",
+  "source": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/international/other",
+  "quote": "Supporting documents March 1",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-alberta",
+  "field": "deadline: Entrance award application",
+  "source": "https://www.ualberta.ca/en/admissions/how-to-apply/dates-deadlines/index.html",
+  "quote": "Timeline for Fall 2027 Applicants … January 10, 2027 Entrance Award Application Deadline",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-alberta",
+  "field": "deadline: Application deadline (most programmes)",
+  "source": "https://www.ualberta.ca/en/admissions/how-to-apply/dates-deadlines/index.html",
+  "quote": "March 1, 2027 Deadline to submit application for admission for most programs.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-alberta",
+  "field": "deadline: Accept offers made before 1 April",
+  "source": "https://www.ualberta.ca/en/admissions/how-to-apply/dates-deadlines/index.html",
+  "quote": "May 1, 2027 Deadline to accept admission offers made before April 1.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-alberta",
+  "field": "deadline: Outstanding documents for high school students",
+  "source": "https://www.ualberta.ca/en/admissions/how-to-apply/dates-deadlines/index.html",
+  "quote": "August 1, 2027 Deadline to submit outstanding documents for high school students.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mcmaster-university",
+  "field": "deadline: Engineering and Computer Science: recommended early submission",
+  "source": "https://future.mcmaster.ca/apply/deadlines/",
+  "quote": "Engineering - International Application Deadline: January 15, 2027. Recommended Early Application Submission: Thursday, November 12, 2026",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mcmaster-university",
+  "field": "deadline: Application deadline: Engineering, Computer Science, Arts & Science",
+  "source": "https://future.mcmaster.ca/apply/deadlines/",
+  "quote": "Engineering - International Application Deadline: January 15, 2027. Recommended Early Application Submission: Thursday, November 12, 2026",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mcmaster-university",
+  "field": "deadline: Application deadline: Humanities, Social Sciences, Business, Life Sciences and other programmes",
+  "source": "https://future.mcmaster.ca/apply/deadlines/",
+  "quote": "Business - International Application Deadline: April 1, 2027",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-de-montreal",
+  "field": "deadline: Application deadline (bachelor’s programmes, studies outside Quebec)",
+  "source": "https://admission.umontreal.ca/programmes/baccalaureat-en-informatique/",
+  "quote": "Vous étudiez (ou avez étudié) à l’université ou hors Québec : 1er février 2027Du 1er août 2026 au 1er février 2027",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-de-montreal",
+  "field": "deadline: French requirement: proof due (example: Baccalauréat en informatique)",
+  "source": "https://admission.umontreal.ca/programmes/baccalaureat-en-informatique/",
+  "quote": "Vous étudiez (ou avez étudié) à l’université ou hors Québec : 15 février 2027Du 1er août 2026 au 15 février 2027",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-waterloo",
+  "field": "deadline: Application deadline: Engineering (except Architecture)",
+  "source": "https://uwaterloo.ca/future-students/admissions/deadlines",
+  "quote": "Engineering programs (other than Architecture) January 15, 2027 February 1, 2027",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-waterloo",
+  "field": "deadline: Application deadline: programmes other than Engineering",
+  "source": "https://uwaterloo.ca/future-students/admissions/deadlines",
+  "quote": "Programs other than Engineering February 1, 2027 February 15, 2027",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "western-university",
+  "field": "deadline: OUAC application for equal consideration",
+  "source": "https://welcome.uwo.ca/next-steps/apply/admission-deadlines.html",
+  "quote": "January 2027 … Deadline to submit OUAC application for equal consideration to full-time undergraduate studies January 15",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "western-university",
+  "field": "deadline: National Scholarship application (including International President’s Entrance Scholarships)",
+  "source": "https://welcome.uwo.ca/next-steps/apply/admission-deadlines.html",
+  "quote": "February 2027 … National Scholarship application deadline February 14",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-ottawa",
+  "field": "deadline: Recommended application date",
+  "source": "https://www.uottawa.ca/study/undergraduate-studies/application-deadlines",
+  "quote": "accepting applications for programs that begin in September 2027 on September 17, 2026. … we recommend that you submit your application before January 15, 2027.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-ottawa",
+  "field": "deadline: Documents and test results",
+  "source": "https://www.uottawa.ca/study/undergraduate-studies/application-deadlines",
+  "quote": "submitting documents and test results, as soon possible, by February 15, 2027, or 30 days after you apply.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-calgary",
+  "field": "deadline (annual rule): Prestige Award application (incl. International Entrance Scholarship)",
+  "source": "https://www.ucalgary.ca/future-students/undergraduate/admissions/dates",
+  "quote": "Dec. 1 Application deadline: Prestige Award for incoming high school students",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-calgary",
+  "field": "deadline (annual rule): Application deadline, including the application fee",
+  "source": "https://www.ucalgary.ca/future-students/undergraduate/admissions/dates",
+  "quote": "March 1 Application deadline: Fall undergraduate admission",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-calgary",
+  "field": "deadline (annual rule): Supporting documents (unofficial transcripts)",
+  "source": "https://www.ucalgary.ca/future-students/undergraduate/admissions/dates",
+  "quote": "March 15 Document deadline: Fall undergraduate admission",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-calgary",
+  "field": "deadline (annual rule): Accept an offer dated 1 April or earlier",
+  "source": "https://www.ucalgary.ca/future-students/undergraduate/admissions/dates",
+  "quote": "May 1 Acceptance deadline: Fall undergraduate admission Deadline to accept fall offer of admission dated April 1 or prior.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "queens-university",
+  "field": "deadline: Recommended OUAC application date to reach the Major Admission Award application",
+  "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
+  "quote": "November 20, 2026 … we strongly recommend applying to Queen’s on OUAC by November 20.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "queens-university",
+  "field": "deadline: Major Admission Award application on SOLUS",
+  "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
+  "quote": "December 8, 2026 Deadline to submit the online Major Admission Award (MAA)",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "queens-university",
+  "field": "deadline: Application deadline: Commerce, Health Sciences and Nursing",
+  "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
+  "quote": "February 1, 2027 Applications are due for first-year full-time programs in Commerce, Health Science and Nursing.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "queens-university",
+  "field": "deadline: Application deadline: all other first-year programmes",
+  "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
+  "quote": "March 1, 2027 Applications are due for all first-year full-time programs, except Commerce, Health Sciences, and Nursing.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "queens-university",
+  "field": "deadline: All documents, including transcripts and English test scores",
+  "source": "https://www.queensu.ca/admission/applying/dates-deadlines",
+  "quote": "March 31, 2027 Deadline to submit all documents, including transcripts and English test scores.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "dalhousie-university",
+  "field": "deadline: Application deadline: Nursing, Health Sciences, Medical Sciences, Social Work",
+  "source": "https://www.dal.ca/admissions/dates-and-deadlines.html",
+  "quote": "September 2027 entry - Program specific deadlines Feb. 15, 2027 Bachelor of Science (Nursing)",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "dalhousie-university",
+  "field": "deadline: Application deadline: Environmental Design Studies (Architecture)",
+  "source": "https://www.dal.ca/admissions/dates-and-deadlines.html",
+  "quote": "March 1, 2027 Bachelor of Environmental Design Studies (Architecture)",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "dalhousie-university",
+  "field": "deadline: Accept the offer (admission deposit) and prove English proficiency",
+  "source": "https://www.dal.ca/admissions/dates-and-deadlines.html",
+  "quote": "September 2027 entry … May 1, 2027 Deadline to accept your offer of admission by paying your admission deposit",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-laval",
+  "field": "deadline (annual rule): Application deadline: quota programmes (medicine, pharmacy, occupational therapy, physiotherapy, sexology, biomedical sciences)",
+  "source": "https://www.ulaval.ca/admission/deposez-votre-demande-dadmission/dates-limites-de-depot",
+  "quote": "est le 1er novembre précédant l’année d’admission visée",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-laval",
+  "field": "deadline (annual rule): Application deadline: limited-capacity and open bachelor’s programmes",
+  "source": "https://www.ulaval.ca/admission/deposez-votre-demande-dadmission/dates-limites-de-depot",
+  "quote": "Programmes à capacité d'accueil limitée Date limite: 1er février",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-saskatchewan",
+  "field": "deadline (annual rule): Apply with documents to be considered for USask Entrance Scholarships",
+  "source": "https://admissions.usask.ca/money/scholarships.php",
+  "quote": "ensure your transcript and other admission documents have been submitted to the Admissions Office by December 1.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-saskatchewan",
+  "field": "deadline (annual rule): Apply for admission to be eligible for international student awards",
+  "source": "https://admissions.usask.ca/money/scholarships.php",
+  "quote": "Step 1: Apply for admission by February 15",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-saskatchewan",
+  "field": "deadline: International application deadline (Arts and Science)",
+  "source": "https://admissions.usask.ca/computer-science.php",
+  "quote": "Fall September 2027 July 15, 2027 Documents due: Aug. 1, 2027 May 1, 2027 Documents due: June 1, 2027",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-manitoba",
+  "field": "deadline: International Excellence Entrance Scholarship deadline",
+  "source": "https://umanitoba.ca/financial-aid-and-awards/entrance-awards",
+  "quote": "Dec. 1, 2026 International Excellence Entrance Scholarship deadline",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-guelph",
+  "field": "deadline: Documents for early admission consideration (students outside Canada)",
+  "source": "https://www.uoguelph.ca/admission/undergraduate/apply/deadlines",
+  "quote": "For the 2026-27 calendar year … February 1 Deadline for high school students studying outside of Canada to submit documents to be considered for early admission",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-guelph",
+  "field": "deadline: Proof of English proficiency (soft deadline)",
+  "source": "https://www.uoguelph.ca/admission/undergraduate/apply/deadlines",
+  "quote": "For the 2026-27 calendar year … March 1 Deadline for out-of-country applicants to provide proof of English proficiency (soft deadline)",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-guelph",
+  "field": "deadline: Application deadline for fall 2027 (high school students outside Canada)",
+  "source": "https://www.uoguelph.ca/admission/undergraduate/apply/deadlines",
+  "quote": "May 15 Deadline for high school students studying outside of Canada to apply for fall 2027 entry",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-guelph",
+  "field": "deadline: Accept the offer of admission",
+  "source": "https://www.uoguelph.ca/admission/undergraduate/apply/deadlines",
+  "quote": "For the 2026-27 calendar year … June 1 Deadline for international students studying outside of Canada to accept their offer of admission",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "carleton-university",
+  "field": "deadline: Prestige Scholarship application",
+  "source": "https://admissions.carleton.ca/deadlines/",
+  "quote": "This timeline is based on the 2026-2027 academic year. … March 1, 2027 – Deadline to apply for a Prestige Scholarship.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "carleton-university",
+  "field": "deadline: Programme-specific application deadlines",
+  "source": "https://admissions.carleton.ca/deadlines/",
+  "quote": "March 1, 2027 – Program specific application deadlines*.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "carleton-university",
+  "field": "deadline: Main application deadline for international students (transcripts from outside Canada or the US)",
+  "source": "https://admissions.carleton.ca/deadlines/",
+  "quote": "April 1, 2027 – Main deadline to apply for international students (whose transcripts originate outside Canada or the US)*.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "york-university",
+  "field": "deadline: Schulich BBA: application deadline",
+  "source": "https://futurestudents.yorku.ca/requirements/deadlines",
+  "quote": "Fall 2027 (September) January 15, 2027 … Schulich School of Business (BBA) will not accept applications after the January 15 deadline.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "york-university",
+  "field": "deadline: Direct Entry Nursing application deadline",
+  "source": "https://futurestudents.yorku.ca/requirements/deadlines",
+  "quote": "Fall 2027 (September) … Deadlines exceptions: Nursing: Application for Direct Entry Nursing is February 1.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "york-university",
+  "field": "deadline: Application deadline for international students (fall 2027)",
+  "source": "https://futurestudents.yorku.ca/requirements/deadlines",
+  "quote": "Fall 2027 (September) January 15, 2027 March 24, 2027 March 24, 2027 March 24, 2027",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "concordia-university",
+  "field": "deadline (annual rule): Recommended date for U.S. and international applicants (immigration documents)",
+  "source": "https://www.concordia.ca/admissions/undergraduate/apply.html",
+  "quote": "U.S. and international applicants: Apply no later than February 1 to allow time for immigration document processing.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "concordia-university",
+  "field": "deadline (annual rule): Application deadline, fall entry",
+  "source": "https://www.concordia.ca/admissions/undergraduate/apply.html",
+  "quote": "FALL ENTRY (September) Deadline: March 1",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "memorial-university-of-newfoundland",
+  "field": "deadline (annual rule): Priority deadline for the fall semester (also for early entrance scholarships)",
+  "source": "https://www.mun.ca/undergrad/admissions/admission-deadlines/",
+  "quote": "Fall semester (September to December) Sept. 10 March 1 Aug. 20 Sept. 9",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "memorial-university-of-newfoundland",
+  "field": "deadline (annual rule): Document deadline, fall semester",
+  "source": "https://www.mun.ca/undergrad/admissions/admission-deadlines/",
+  "quote": "Fall semester (September to December) Sept. 10 March 1 Aug. 20 Sept. 9",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-new-brunswick",
+  "field": "deadline (annual rule): Entrance scholarship application (after admission, in the UNB application account)",
+  "source": "https://www.unb.ca/moneymatters/scholarships/international.html",
+  "quote": "Once admitted, sign into your UNB application account and apply for entrance scholarships by March 1.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-new-brunswick",
+  "field": "deadline (annual rule): Application deadline for most undergraduate programmes",
+  "source": "https://www.unb.ca/international/apply/deadlines.html",
+  "quote": "The deadline to apply for most undergraduate programs is March 31.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-windsor",
+  "field": "deadline (annual rule): Recommended application date for September admission",
+  "source": "https://future.uwindsor.ca/apply-international",
+  "quote": "May 1 for September admissions (Fall)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-regina",
+  "field": "deadline (annual rule): Final application deadline, fall term (all programmes except those listed separately)",
+  "source": "https://www.uregina.ca/admissions/undergraduate/deadlines.html",
+  "quote": "ALL PROGRAMS – FINAL DEADLINE for new applicants, and re-admission deadline for returning students (except those noted below) August 15",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "toronto-metropolitan-university",
+  "field": "deadline: Guaranteed consideration date, all programmes (fall 2027)",
+  "source": "https://www.torontomu.ca/admissions/undergraduate/apply/application-dates/",
+  "quote": "Fall 2027 admission … Guaranteed consideration date for applications to all programs: February 1",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "toronto-metropolitan-university",
+  "field": "deadline: Prestigious entrance scholarships and ISLA – Fall 2027: application on AwardSpring",
+  "source": "https://www.torontomu.ca/admissions/scholarships-awards/",
+  "quote": "The application for fall 2027 awards is available on AwardSpring from November 2, 2026 until the extended deadline to apply, February 16, 2027.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "brock-university",
+  "field": "deadline: Application deadline, fall entry (international applicants meeting the English requirement)",
+  "source": "https://brocku.ca/admissions/apply/",
+  "quote": "If a program reaches capacity after the January 15, 2027 application deadline … International students (only applying to Brock and meet English proficiency requirements) … January 15 (Fall entry)",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "wilfrid-laurier-university",
+  "field": "deadline: Application deadline, fall (September) 2027",
+  "source": "https://www.wlu.ca/future-students/undergraduate/applicants/international/admissions.html",
+  "quote": "April 1, 2027: The deadline to apply for fall (September) 2027.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "wilfrid-laurier-university",
+  "field": "deadline (intake not established): Inspiring Lives Scholarship application",
+  "source": "https://www.wlu.ca/future-students/undergraduate/applicants/international/assets/resources/inspiring-lives-scholarship.html",
+  "quote": "Application deadline: Sunday, Nov. 8, 2026 at 11:59 p.m. EDT",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "trent-university",
+  "field": "deadline (annual rule): International Prestigious Scholarships application",
+  "source": "https://www.trentu.ca/international/discover-trent/tuition-scholarships/scholarships",
+  "quote": "Applications for International Prestigious Scholarships open on November 1 and close on February 15 each year.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "lakehead-university",
+  "field": "deadline: Recommended application date for international applicants (fall 2027, most programmes)",
+  "source": "https://www.lakeheadu.ca/studentcentral/applying/application-deadlines",
+  "quote": "Recommended Deadlines to Apply for Fall 2027 (Full Time & Part Time) Admission: … March 1, 2027 (International Applicants)",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "st-francis-xavier-university",
+  "field": "deadline: Apply for admission, scholarship application and documents for Major Scholarship consideration",
+  "source": "https://www.stfx.ca/applications-admissions/admissions-information/key-dates-deadlines",
+  "quote": "Application for September 2027 open for admission. … March 2027 March 1 Deadline to apply for admission to StFX to be eligible for Major Scholarship consideration.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "st-francis-xavier-university",
+  "field": "deadline: Confirm acceptance; room guarantee; accept scholarships",
+  "source": "https://www.stfx.ca/applications-admissions/admissions-information/key-dates-deadlines",
+  "quote": "May 2027 May 15 Confirm your acceptance to StFX. … Deadline to accept Scholarships.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "st-francis-xavier-university",
+  "field": "deadline: Deadline for international student applications",
+  "source": "https://www.stfx.ca/applications-admissions/admissions-information/key-dates-deadlines",
+  "quote": "May 30 Deadline for International Student Applications. Applications received after the May 30, 2027, deadline will be reviewed on a case by case basis according to visa processing times.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mount-allison-university",
+  "field": "deadline: Music (BMus, BMusEd) application package",
+  "source": "https://mta.ca/admissions/important-admission-dates-and-deadlines",
+  "quote": "Preparing to apply for 2027-28 academic year … Feb. 1 BMus and BMusEd APPLICATION DEADLINE",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mount-allison-university",
+  "field": "deadline: Fine Arts application and portfolio",
+  "source": "https://mta.ca/admissions/important-admission-dates-and-deadlines",
+  "quote": "Preparing to apply for 2027-28 academic year … Feb. 15 FINE ARTS APPLICATION AND PORTFOLIO DEADLINE",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mount-allison-university",
+  "field": "deadline: Application for admission and scholarships, with all documents, to be considered for scholarships",
+  "source": "https://mta.ca/admissions/important-admission-dates-and-deadlines",
+  "quote": "Preparing to apply for 2027-28 academic year … March 1 SCHOLARSHIPS APPLICATION DEADLINE To be considered for scholarships: Deadline to submit your application for admission and scholarships, and all required documents.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mount-allison-university",
+  "field": "deadline: Accept the offer of admission and scholarships",
+  "source": "https://mta.ca/admissions/important-admission-dates-and-deadlines",
+  "quote": "Preparing to apply for 2027-28 academic year … May 1 ACCEPT YOUR OFFER! Deadline to accept your offer of admission and scholarships/bursaries",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "saint-marys-university",
+  "field": "deadline: Apply for admission (for Admissions Scholarships) and submit the Entrance Awards application",
+  "source": "https://www.smu.ca/future-students/admissions/importantdates/",
+  "quote": "Admission applications open for the 2027-2028 academic year … Entrance Awards application opens (due February 15, 2027).",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "bishops-university",
+  "field": "deadline: Application deadline for international students (fall 2027); also for Competitive Entrance Scholarships and the Entrance Awards and Bursaries application",
+  "source": "https://www.ubishops.ca/admissions/bishops-university-online-application/",
+  "quote": "Fall 2027 Semester: … March 31, 2027: Deadline for international students (except USA Citizens) to submit an application and be considered for Fall entry.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "bishops-university",
+  "field": "deadline: Supporting documents for international applicants",
+  "source": "https://www.ubishops.ca/admissions/bishops-university-online-application/",
+  "quote": "April 15, 2027: Deadline for international students (except USA Citizens) to submit supporting documentation for an undergraduate application and be considered for the Fall entry.",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-lethbridge",
+  "field": "deadline (annual rule): Early admission and Board of Governors’ Admission Scholarship (up to C$1,000)",
+  "source": "https://www.ulethbridge.ca/future-student/important-dates",
+  "quote": "December 15 Early admission application deadline Board of Governors' scholarship application deadline",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-lethbridge",
+  "field": "deadline (annual rule): High school awards application",
+  "source": "https://www.ulethbridge.ca/future-student/important-dates",
+  "quote": "March 15 High school awards application deadline",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-lethbridge",
+  "field": "deadline (annual rule): Application deadline for international students",
+  "source": "https://www.ulethbridge.ca/future-student/important-dates",
+  "quote": "June 15 Application deadline for international students",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mount-saint-vincent-university",
+  "field": "deadline: Entrance scholarship candidates",
+  "source": "https://www.msvu.ca/future-students/admission-requirements/application-deadlines/",
+  "quote": "For September 2027 Entrance … Entrance scholarship candidates – March 1, 2027 International undergraduate applicants – May 3, 2027",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mount-saint-vincent-university",
+  "field": "deadline: Application deadline for international undergraduate applicants (September 2027)",
+  "source": "https://www.msvu.ca/future-students/admission-requirements/application-deadlines/",
+  "quote": "For September 2027 Entrance … Entrance scholarship candidates – March 1, 2027 International undergraduate applicants – May 3, 2027",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "thompson-rivers-university",
+  "field": "deadline (annual rule): Application deadline, September intake",
+  "source": "https://www.tru.ca/future/admissions/international/application-deadlines.html",
+  "quote": "International Student Application Deadlines Semester Deadline January October 1 May February 1 September May 1",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-northern-british-columbia",
+  "field": "deadline: Engineering (BASc) application deadline",
+  "source": "https://www.unbc.ca/programs-and-admissions/undergraduate/undergraduate-application-deadlines",
+  "quote": "Bachelor of Applied Science (Engineering) (BASc) Domestic International September semester March 1, 2027 March 1, 2027",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-northern-british-columbia",
+  "field": "deadline: Health Sciences (BHSc) application deadline",
+  "source": "https://www.unbc.ca/programs-and-admissions/undergraduate/undergraduate-application-deadlines",
+  "quote": "Bachelor of Health Sciences (BHSc) Domestic International September semester May 15, 2027 May 15, 2027",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-the-fraser-valley",
+  "field": "deadline (annual rule): Application window for the fall semester closes",
+  "source": "https://international.ufv.ca/future-students/apply-to-ufv/application-deadlines/",
+  "quote": "Fall semester: October 1 to June 1",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-the-fraser-valley",
+  "field": "deadline (annual rule): Full payment to confirm acceptance (fall)",
+  "source": "https://international.ufv.ca/future-students/apply-to-ufv/application-deadlines/",
+  "quote": "We must receive your payment in full by the following dates: Fall semester: June 15",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "capilano-university",
+  "field": "deadline: International Entrance & Performance Award, Fall 2027: complete application",
+  "source": "https://www.capilanou.ca/admissions/fees--finances/financial-aid--awards/funding-for-international-students/",
+  "quote": "Fall 2027 term Complete application by November 30, 2026",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "laurentian-university",
+  "field": "deadline (annual rule): Nursing (BScN) application deadline",
+  "source": "https://laurentian.ca/apply/international-undergraduate-applicants",
+  "quote": "Bachelor of Science in Nursing (September entry only) – February 1st",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "laurentian-university",
+  "field": "deadline (annual rule): Application deadline, September start (most programmes)",
+  "source": "https://laurentian.ca/apply/international-undergraduate-applicants",
+  "quote": "September start Application deadline – June 15th",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-du-quebec-a-montreal",
+  "field": "deadline: Application deadline for international candidates, autumn 2027 (bachelor’s programmes)",
+  "source": "https://www.apps.uqam.ca/Application/AdmissionEnLigne/Traitements/DatesLimites/AfficherDatesLimites.aspx?adm_web_cycle=1",
+  "quote": "IMPORTANT : Informations supplémentaires à l'attention des candidats internationaux Automne : 1er mars (certains programmes ont une date limite plus hâtive) … DATES LIMITES DES DEMANDES D'ADMISSION AUX BACCALAURÉATS … AUTOMNE 2027",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-de-sherbrooke",
+  "field": "deadline (annual rule): Application deadline for international candidates, autumn term (bachelor’s, certificates)",
+  "source": "https://www.usherbrooke.ca/admission/da/planifier-demande/dates-limites/1er-cycle",
+  "quote": "Candidat international 15 janvier 1er juin",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-de-moncton",
+  "field": "deadline (annual rule): Application deadline for international students, autumn session",
+  "source": "https://www.umoncton.ca/admission/dates-importantes",
+  "quote": "Personnes étudiantes internationales Avant le 31 mai pour la session d’automne",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-victoria",
+  "field": "deadline (annual rule): Application deadline, September entry (most degree programmes)",
+  "source": "https://www.uvic.ca/undergraduate/admissions/application-deadlines/index.php",
+  "quote": "Degree programs Most degree programs: January 31",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mcgill-university",
+  "field": "award: Major Entrance Scholarship",
+  "source": "https://www.mcgill.ca/studentaid/scholarships-aid/future-undergrads/entrance-scholarships",
+  "quote": "Major entrance scholarships (value: $3,000, $5,000, $10,000 or $12,000 renewable) $12,000 scholarships are only available to Canadian citizens or legal permanent residents of Canada.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-alberta",
+  "field": "award: President’s International Distinction Scholarship",
+  "source": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/international-entrance-scholarships/index.html",
+  "quote": "Each year 25 students with a superior admission average and demonstrated leadership qualities entering their first year of an undergraduate degree on a student visa permit receive up to CAN $120,000 (payable over 4 years).",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mcmaster-university",
+  "field": "award range",
+  "source": "https://registrar.mcmaster.ca/aid-awards-for-international-students/",
+  "quote": "With over $20 million in awards for international fee paying undergraduate students, ranging from $7,500-$210,000",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-de-montreal",
+  "field": "award: Bourse d’exemption UdeM",
+  "source": "https://registraire.umontreal.ca/droits-de-scolarite/bourse-exemption/",
+  "quote": "Tarification de l’année académique 2026-2027. … A 481,20$ 7 218,00 $ 14 436,00 $",
+  "cycle": "2026–2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-waterloo",
+  "field": "award: Faculty of Science International Student Scholarships",
+  "source": "https://uwaterloo.ca/future-students/financing/international-scholarships",
+  "quote": "Most programs in the Faculty of Science Up to 15 scholarships of $25,000 to $80,000 Yes",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "western-university",
+  "field": "award: International President’s Entrance Scholarships",
+  "source": "https://registrar.uwo.ca/student_finances/scholarships_awards/admission/national_scholarship_program.html",
+  "quote": "International President's Entrance Scholarships 3 at $100,000",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "western-university",
+  "field": "award: Neen Hodgins President’s International Entrance Scholarship",
+  "source": "https://registrar.uwo.ca/student_finances/scholarships_awards/admission/national_scholarship_program.html",
+  "quote": "Neen Hodgins President's International Entrance Scholarship ONE at up to $100,000; payable $25,000 per academic year for a period of four years.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-ottawa",
+  "field": "award: International English Admission Scholarship",
+  "source": "https://www.uottawa.ca/study/fees-financial-support/scholarships-awards-overview",
+  "quote": "$7,500 per term ($60,000 over the course of a four-year degree) Renewable each term (maximum of 12 instalments).",
+  "cycle": "2027–2028",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-calgary",
+  "field": "award: University of Calgary International Entrance Scholarship",
+  "source": "https://www.ucalgary.ca/registrar/awards/university-calgary-international-entrance-scholarship",
+  "quote": "Award value $20,000 (Renewable) Number of awards 2",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "queens-university",
+  "field": "removed: Major Admission Awards (domestic only)",
+  "source": "https://www.queensu.ca/registrar/financial-aid/application-required/future-students/major-awards",
+  "quote": "Available to a Canadian citizen, permanent resident of Canada, or Protected Person.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "dalhousie-university",
+  "field": "award range",
+  "source": "https://www.dal.ca/admissions/scholarships-financial-aid/scholarships/future-undergraduate-student-awards.html",
+  "quote": "$1K to $80K Awards may be one-time, or renewable for up to 4 years. All students—domestic and international—are eligible to apply.",
+  "cycle": "2027–2028",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-laval",
+  "field": "award (previous cycle): BCCM excellence, bachelor",
+  "source": "https://nouvelles.ulaval.ca/2025/12/15/des-bourses-de-20-000dollar-et-30-000dollar-pour-attirer-des-talents-etudiants-a-luniversite-laval-4559df29-6be3-4588-b705-67db5fb40017",
+  "quote": "20 000$ pour les programmes de baccalauréat et de maîtrise … Baccalauréat ou maîtrise professionnelle Date limite de soumission des candidatures: 15 janvier 2026",
+  "cycle": "2026 admission",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-laval",
+  "field": "award scope 2027: BCCM excellence",
+  "source": "https://www.ulaval.ca/espace-etudiant/bourses-et-aide-financiere/bourses-detudes/bourses-citoyennes-et-citoyens-du-monde-volets-excellence-et-engagement",
+  "quote": "Volet excellence (2e et 3e cycles avec recherche) … La sélection des candidatures pour les bourses d'admission 2027 commencera dès le mois de novembre.",
+  "cycle": "2027 admission",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-saskatchewan",
+  "field": "award: Best and Brightest eligibility",
+  "source": "https://admissions.usask.ca/money/search-awards.php?award=300098ES02",
+  "quote": "Eligibility: Graduating from a Canadian high school Proceeding directly from high school to university",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-manitoba",
+  "field": "award: International Excellence Entrance Scholarship",
+  "source": "https://apply.umanitoba.ca/portal/program-info?cmd=program-details&progTerm=0a46dda2-76cd-46bc-b8d5-5ff06bfbdbde",
+  "quote": "a total of three scholarships will be awarded to direct entry students entering the University of Manitoba in September 2027 … Application Deadline December 1, 2026",
+  "cycle": "Autumn 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "carleton-university",
+  "field": "award: Prestige Scholarships",
+  "source": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/",
+  "quote": "The values of the Prestige Scholarships range from $5,000 to $14,178 CAD per year, and they are renewable based on maintaining a minimum A- (10.0 GPA) in full-time studies. An application is required. Deadline: March 1.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "york-university",
+  "field": "award: PISE",
+  "source": "https://futurestudents.yorku.ca/financing-your-degree/international-scholarships",
+  "quote": "International award valued at $180,000 ($45,000 x 4 years) … Student Application Deadline: January 27, 2027 Nominee’s Deadline: February 4, 2027",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "concordia-university",
+  "field": "award eligibility: Undergraduate Excellence Awards",
+  "source": "https://www.concordia.ca/students/financial/scholarships-funding/undergraduate-excellence-awards.html",
+  "quote": "be a Canadian citizen or permanent resident",
+  "cycle": "Fall 2027 or Winter 2028",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "memorial-university-of-newfoundland",
+  "field": "award: International Entrance Scholarship",
+  "source": "https://www.mun.ca/scholarships/entrance-scholarships/other-entrance-scholarships/",
+  "quote": "The values will vary but will not exceed $6,000 each annually.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-new-brunswick",
+  "field": "award: Lady Vi Aitken Scholarship",
+  "source": "https://www.unb.ca/moneymatters/scholarships/international.html",
+  "quote": "Lady Vi Aitken Scholarship valued at $40,000 over 4 years for a top international student. … Awards for international students range from $500 to $40,000",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-windsor",
+  "field": "award: Global Lancer Scholarship",
+  "source": "https://www.future.uwindsor.ca/global-lancer-scholarship/",
+  "quote": "It provides up to $24,000 over four years (equivalent to up to 20% of tuition savings) based on the student’s academic performance.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-regina",
+  "field": "award: International Student of Distinction, Tier 1",
+  "source": "https://www.uregina.ca/ur-international/scholarships.html",
+  "quote": "International students selected for Tier 1 will be awarded on-campus housing and a meal plan which is valued at $90,000 over 4 years. This is not a tuition credit scholarship.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "ontario-tech-university",
+  "field": "award: Global Leadership Award",
+  "source": "https://safa.ontariotechu.ca/awards-bursaries-and-scholarships/undergraduate-student-finances/scholarships/scholarships-and-awards-for-international-students.php",
+  "quote": "Valued at $120,000 CAD ($30,000 CAD a year for four years) … Canadian citizens and permanent residents are not eligible for the GLA. CLOSED FOR THE 2026-2027 ACADEMIC YEAR",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "toronto-metropolitan-university",
+  "field": "award: President’s Entrance Scholarships",
+  "source": "https://www.torontomu.ca/admissions/scholarships-awards/",
+  "quote": "Twelve (12) recipients | $40,000 CAD (total value) | $10,000 CAD (annual amount, renewable) … International Students are eligible to apply for this award.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "toronto-metropolitan-university",
+  "field": "award eligibility: Terence Grier Entrance Scholarship",
+  "source": "https://www.torontomu.ca/admissions/scholarships-awards/",
+  "quote": "One (1) recipient | Full tuition for first-year only (not renewable) … Canadian Citizens, Permanent Residents of Canada and Protected Persons in Canada are eligible to apply for this award.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "brock-university",
+  "field": "award (2026–27 table): International Brock Scholars Award",
+  "source": "https://brocku.ca/safa/2026-international-students/",
+  "quote": "Our largest award is the Brock Scholars awards. … $32,000* 95.0% and above $20,000* $4,000** … Other awards available to incoming international students 2026-2027 academic year",
+  "cycle": "2026–2027 (previous cycle)",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "wilfrid-laurier-university",
+  "field": "award grid",
+  "source": "https://www.wlu.ca/future-students/undergraduate/tuition-finances/entrance-scholarships.html",
+  "quote": "This scholarship grid is valid for incoming students beginning in September 2027 and after. … The renewable scholarship amount is $4,000 (domestic) or $6,000 (international) per year for four years",
+  "cycle": "September 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "trent-university",
+  "field": "award: International Prestigious Scholarships",
+  "source": "https://www.trentu.ca/international/discover-trent/tuition-scholarships/scholarships",
+  "quote": "These awards are highly competitive and fund tuition and mandatory ancillary fees at Trent in amounts up to $15,000 per academic year, and up to $60,000 over a 4-year degree.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "lakehead-university",
+  "field": "award table 2027–28",
+  "source": "https://www.lakeheadu.ca/international/future/scholarships-awards",
+  "quote": "90.0%+ 35+ $40,000 ($10,000 x 4 years)1 Unlimited",
+  "cycle": "2027–2028",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "st-francis-xavier-university",
+  "field": "award: McKenna Scholars Program",
+  "source": "https://www.stfx.ca/mckennascholars",
+  "quote": "McKenna National Scholars $125,000 8 awarded annually Valued over four years … Fall 2027 StFX applications open. … McKenna Scholars application deadline.",
+  "cycle": "Fall 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mount-allison-university",
+  "field": "award: Marjorie Young Bell Scholarship",
+  "source": "https://mta.ca/costs-financial-aid/scholarships-and-awards-first-year-students",
+  "quote": "Value $70,000 ($17,500 per year) … Number offered 8 … Deadline Submit your application and supporting documents by March 1",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "saint-marys-university",
+  "field": "award eligibility: Major Renewable Scholarships",
+  "source": "https://www.smu.ca/future-students/moneymatters/scholarshipsawards/",
+  "quote": "Valued at $50,000 over four years … Eligibility Requirements Must be either a Canadian Citizen or Permanent Resident of Canada",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "bishops-university",
+  "field": "removed: Michael Goldbloom Excellence Scholarships (citizens and permanent residents only)",
+  "source": "https://www.ubishops.ca/admissions/scholarships-awards-bursaries/michael-goldbloom-excellence-scholarships/",
+  "quote": "be citizens or permanent residents of Canada (applicants may be residing elsewhere for their studies at the time of application)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-winnipeg",
+  "field": "award (2026–27): President’s Scholarship for World Leaders",
+  "source": "https://www.uwinnipeg.ca/awards/awards-bursaries-and-scholarships/international-students.html",
+  "quote": "Values and Deadlines for 2026-27 (2027-28 will be available in December 2026): … Undergraduate $5,000 6",
+  "cycle": "2026–2027 (previous cycle)",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mount-royal-university",
+  "field": "award eligibility",
+  "source": "https://www.mtroyal.ca/Admission/FinancingYourEducation/ScholarshipsBursaries/awardinfo.htm",
+  "quote": "International students are eligible for entrance and in-course scholarships, nominated awards and emergency bursaries that do not have a residency requirement",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "vancouver-island-university",
+  "field": "award + deadline: International Student Entrance Scholarship",
+  "source": "https://services.viu.ca/financial-aid-awards/viu-entrance-awards",
+  "quote": "International Student Entrance Scholarship $5,000 each | 20 available … Fall 2027 application open October 15, 2026 The entrance award application is now open. Entrance award applications will be open until 11:59 pm on February 28, 2027.",
+  "cycle": "Fall 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "capilano-university",
+  "field": "award deadline: IEPA Fall 2027",
+  "source": "https://www.capilanou.ca/admissions/fees--finances/financial-aid--awards/funding-for-international-students/",
+  "quote": "Fall 2027 term Complete application by November 30, 2026 Pay the Tuition Deposit by Dec 4, 2026",
+  "cycle": "Fall 2027",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "laurentian-university",
+  "field": "award: International Academic Excellence Scholarships",
+  "source": "https://laurentian.ca/academics/international/scholarships",
+  "quote": "90% to 100%* Up to $60,000 in scholarship awards $15,000 in first year, renewable in subsequent years provided average is maintained.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-victoria",
+  "field": "award table 2027–28",
+  "source": "https://www.uvic.ca/safa/scholarships/entrance-scholarships/index.php",
+  "quote": "Scholarship figures shown below are for the 2027-2028 academic year. … International student A- or equivalent $15,000 (one-time)",
+  "cycle": "2027–2028",
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-toronto",
+  "field": "founded",
+  "source": "https://www.utoronto.ca/about-u-of-t",
+  "quote": "Founded in 1827, the University of Toronto is consistently ranked as Canada’s top university.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mcgill-university",
+  "field": "founded",
+  "source": "https://www.mcgill.ca/jms/mcgill-milestones/1821-1884",
+  "quote": "1821 McGill College received a Royal Charter from King George IV, establishing it as a university.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mcmaster-university",
+  "field": "founded",
+  "source": "https://secretariat.mcmaster.ca/home/history-of-mcmaster-university/",
+  "quote": "the University was incorporated under the terms of an act of the Legislative Assembly of Ontario in 1887.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-de-montreal",
+  "field": "founded",
+  "source": "https://secretariatgeneral.umontreal.ca/secretariat-general/histoire-de-luniversite/1878-1919-naissance-dune-universite/",
+  "quote": "ce n’est que le 8 mai 1919 que le Saint-Siège … commande que la succursale soit érigée en une « université autonome » qui portera dorénavant le nom d",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-waterloo",
+  "field": "founded",
+  "source": "https://uwaterloo.ca/about/history",
+  "quote": "In 1957, innovation and entrepreneurship brought the University of Waterloo into being",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "western-university",
+  "field": "founded",
+  "source": "https://mediarelations.uwo.ca/2012/01/26/western-draws-from-rich-history-with-new-visual-identity/",
+  "quote": "founded by Bishop Isaac Hellmuth as Western University of London Ontario in 1878.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-ottawa",
+  "field": "founded",
+  "source": "https://www.uottawa.ca/about-us/administration-services/information-archives-management-service/history-uottawa",
+  "quote": "The College of Bytown was founded in 1848 by the Oblates of Mary Immaculate as a bilingual Catholic c",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-calgary",
+  "field": "founded",
+  "source": "https://www.ucalgary.ca/about-ucalgary/our-history",
+  "quote": "Their dedication was finally rewarded on April 29, 1966 when the University of Calgary was granted autonomy.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "queens-university",
+  "field": "founded",
+  "source": "https://www.queensu.ca/encyclopedia/h/history-queens-overview",
+  "quote": "Queen's University was established on October 16, 1841 in a Royal Charter issued by Queen Victoria",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "dalhousie-university",
+  "field": "founded",
+  "source": "https://www.dal.ca/about/our-story/history.html",
+  "quote": "Founded in 1818, Dalhousie has been delivering an exceptional education",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "simon-fraser-university",
+  "field": "founded",
+  "source": "https://www.sfu.ca/convocation/about/history.html",
+  "quote": "18 months later on September 9, 1965, SFU opened to 2,500 charter students.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-laval",
+  "field": "founded",
+  "source": "https://www.ulaval.ca/notre-universite/origine-et-histoire",
+  "quote": "Près de 200 ans plus tard, en 1852, cet établissement crée l'Université Laval",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-saskatchewan",
+  "field": "founded",
+  "source": "https://library.usask.ca/uasc/campus-history/brief-chronology.php",
+  "quote": "1907 University of Saskatchewan created: University Act passed by the Legislative Assembly; receives royal assent 3 April",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-manitoba",
+  "field": "founded",
+  "source": "https://umanitoba.ca/about-um",
+  "quote": "Discover the story of UM—from our founding in 1877",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-guelph",
+  "field": "founded",
+  "source": "https://www.uoguelph.ca/maps/locations/founding-of-ug",
+  "quote": "Fast forward to 1964, when the three founding colleges (Ontario Agricultural College, Ontario Veterina",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "carleton-university",
+  "field": "founded",
+  "source": "https://carleton.ca/about/history/",
+  "quote": "Established in 1942 as Carleton College",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "york-university",
+  "field": "founded",
+  "source": "https://www.yorku.ca/about/history/",
+  "quote": "Incorporated in 1959, York originally consisted of a residential college",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "concordia-university",
+  "field": "founded",
+  "source": "https://www.concordia.ca/about/history.html",
+  "quote": "The university was officially founded on August 24, 1974, following the merger of Loyola College and Sir George Will",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "memorial-university-of-newfoundland",
+  "field": "founded",
+  "source": "https://www.mun.ca/main/history/",
+  "quote": "In 1925, Memorial University College was founded",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-new-brunswick",
+  "field": "founded",
+  "source": "https://www.unb.ca/aboutunb/history/index.html",
+  "quote": "The Founders' Petition of 1785",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-windsor",
+  "field": "founded",
+  "source": "https://www.uwindsor.ca/47/our-history",
+  "quote": "On December 19, 1962, the University of Windsor was incorporated by the Ontario Legislature, accepting Assumption University in Federation.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-regina",
+  "field": "founded",
+  "source": "https://www.uregina.ca/about/index.html",
+  "quote": "Although our roots go back more than a century as Regina College, we became an independent, degree-granting university on July 1, 1974.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "ontario-tech-university",
+  "field": "founded",
+  "source": "https://news.ontariotechu.ca/archives/2002/06/20020627_1.php",
+  "quote": "The University of Ontario Institute of Technology - the newest university to be created in Canada - is now a legal entity, thanks to passage of Bill 109",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "toronto-metropolitan-university",
+  "field": "founded",
+  "source": "https://www.torontomu.ca/about/history/",
+  "quote": "In 1948, the Ryerson Institute of Technology was founded",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "brock-university",
+  "field": "founded",
+  "source": "https://brocku.ca/about/history/",
+  "quote": "After years of meetings and fundraising, Brock opened in September 1964.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "wilfrid-laurier-university",
+  "field": "founded",
+  "source": "https://www.wlu.ca/about/index.html",
+  "quote": "Laurier traces its roots to the opening of the Evangelical Lutheran Seminary in Waterloo more than 100 years ago in 1911.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "trent-university",
+  "field": "founded",
+  "source": "https://www.trentu.ca/about/",
+  "quote": "Founded in 1964, Trent University is one of Canada’s top undergraduate univ",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-prince-edward-island",
+  "field": "founded",
+  "source": "https://www.upei.ca/about-upei",
+  "quote": "the University of Prince Edward Island was established in 1969",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "acadia-university",
+  "field": "founded",
+  "source": "https://www2.acadiau.ca/about-acadia/history.html",
+  "quote": "Acadia was founded in 1838 by local Baptists",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "st-francis-xavier-university",
+  "field": "founded",
+  "source": "https://www.alumni.stfx.ca/s/650/17/interior.aspx?pgid=264&gid=1&cid=5111",
+  "quote": "Founded in 1853 by the Diocese of Antigonish",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mount-allison-university",
+  "field": "founded",
+  "source": "https://mta.ca/about/key-facts-and-history",
+  "quote": "Mount Allison traces its roots to 1839 when Sackville merchant Charles Frederick Allison proposed",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "saint-marys-university",
+  "field": "founded",
+  "source": "https://www.smu.ca/about/history.html",
+  "quote": "Saint Mary's traces its earliest beginnings to 1802",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "bishops-university",
+  "field": "founded",
+  "source": "https://www.ubishops.ca/about-bu/historical-timeline/1843-1853/",
+  "quote": "Bishop’s College opened in 1843",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-lethbridge",
+  "field": "founded",
+  "source": "https://www.ulethbridge.ca/president/university-historical-highlights",
+  "quote": "1967 The University of Lethbridge commences operations, with Faculties of Arts and Science and Education.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-winnipeg",
+  "field": "founded",
+  "source": "https://www.uwinnipeg.ca/about/history.html",
+  "quote": "The University of Winnipeg received its charter in 1967 but its roots date back more than 145 years.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mount-saint-vincent-university",
+  "field": "founded",
+  "source": "https://www.msvu.ca/about-msvu/university-profile/tradition-and-history/",
+  "quote": "Established in 1873 by the Sisters of Charity of Saint Vincent de Paul, Halifax",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mount-royal-university",
+  "field": "founded",
+  "source": "https://www.mtroyal.ca/AboutMountRoyal/FastFacts/History/index.htm",
+  "quote": "since our 1910 founding",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "thompson-rivers-university",
+  "field": "founded",
+  "source": "https://www.tru.ca/gaglardi/about/school-history.html",
+  "quote": "Thompson Rivers University (TRU) was founded in 1970 as Cariboo College",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-northern-british-columbia",
+  "field": "founded",
+  "source": "https://www.unbc.ca/about-unbc/history",
+  "quote": "It was in June 1990 that the members of the BC legislative assembly passed the UNBC Act, officially creating UNBC.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "vancouver-island-university",
+  "field": "founded",
+  "source": "https://www.viu.ca/about",
+  "quote": "VIU started out as the Dominion-Provincial Youth Training Centre in 1936.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-the-fraser-valley",
+  "field": "founded",
+  "source": "https://www.ufv.ca/about/ufv-history/",
+  "quote": "1974 - 1975 » Fraser Valley College (FVC) founded",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "capilano-university",
+  "field": "founded",
+  "source": "https://www.capilanou.ca/about-capu/get-to-know-us/our-history/",
+  "quote": "Capilano University was founded as a college in 1968",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-du-quebec-a-montreal",
+  "field": "founded",
+  "source": "https://uqam.ca/information/historique/",
+  "quote": "L’Université du Québec à Montréal (UQAM) est créée le 9 avril 1969 par le gouvernement du Québec",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-de-sherbrooke",
+  "field": "founded",
+  "source": "https://www.usherbrooke.ca/decouvrir/a-propos/notre-histoire",
+  "quote": "L'Université de Sherbrooke a été créée le 4 mai 1954.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-de-moncton",
+  "field": "founded",
+  "source": "https://www.umoncton.ca/notreumoncton/historique",
+  "quote": "Fondée en 1963, l’Université de Moncton regroupe trois campus",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-victoria",
+  "field": "founded",
+  "source": "https://www.uvic.ca/about-uvic/about-the-university/index.php",
+  "quote": "The university received degree-granting status in 1963. The origins of UVic, however, can be traced back to 1903",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-waterloo",
+  "field": "field: economics",
+  "source": "https://uwaterloo.ca/future-students/programs/economics",
+  "quote": "Economics (Faculty of Arts)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-waterloo",
+  "field": "field: psychology",
+  "source": "https://uwaterloo.ca/future-students/programs/psychology-arts",
+  "quote": "Psychology – Bachelor of Arts",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "york-university",
+  "field": "field: economics",
+  "source": "https://futurestudents.yorku.ca/program/economics/laps",
+  "quote": "Economics (Faculty of Liberal Arts & Professional Studies)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "york-university",
+  "field": "field: psychology",
+  "source": "https://futurestudents.yorku.ca/program/psychology/health",
+  "quote": "Psychology (Faculty of Health)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "york-university",
+  "field": "field: mathematics",
+  "source": "https://futurestudents.yorku.ca/program/mathematics/science",
+  "quote": "Mathematics (Faculty of Science)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "concordia-university",
+  "field": "field: economics",
+  "source": "https://www.concordia.ca/academics/undergraduate/economics.html",
+  "quote": "Economics (BA)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "concordia-university",
+  "field": "field: psychology",
+  "source": "https://www.concordia.ca/academics/undergraduate/psychology.html",
+  "quote": "Psychology (BA, BSc)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "concordia-university",
+  "field": "field: mathematics",
+  "source": "https://www.concordia.ca/academics/undergraduate/actuarial-mathematics.html",
+  "quote": "Actuarial Mathematics (BA, BSc)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-new-brunswick",
+  "field": "field: economics",
+  "source": "https://www.unb.ca/academics/programs/arts/economics-fr.html",
+  "quote": "Economics, Bachelor of Arts (Fredericton)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-new-brunswick",
+  "field": "field: psychology",
+  "source": "https://www.unb.ca/academics/programs/arts/psychology.html",
+  "quote": "Psychology, Bachelor of Arts (Fredericton)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-new-brunswick",
+  "field": "field: mathematics",
+  "source": "https://www.unb.ca/academics/programs/arts/mathematics.html",
+  "quote": "Mathematics, Bachelor of Arts (Fredericton)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-new-brunswick",
+  "field": "field: computer-science",
+  "source": "https://www.unb.ca/academics/programs/computer-science/computer-science_f.html",
+  "quote": "Computer Science (Fredericton)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-regina",
+  "field": "field: economics",
+  "source": "https://www.uregina.ca/academics/index.html",
+  "quote": "Economics — Bachelor’s Degree",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-regina",
+  "field": "field: mathematics",
+  "source": "https://www.uregina.ca/academics/index.html",
+  "quote": "Mathematics — Bachelor’s Degree",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-regina",
+  "field": "field: computer-science",
+  "source": "https://www.uregina.ca/academics/index.html",
+  "quote": "Computer Science — Bachelor’s Degree",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "ontario-tech-university",
+  "field": "field: economics",
+  "source": "https://ontariotechu.ca/programs/undergraduate/business/economics-commerce/index.php",
+  "quote": "Commerce — Economics",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "ontario-tech-university",
+  "field": "field: psychology",
+  "source": "https://ontariotechu.ca/programs/undergraduate/social-science-and-humanities/psychology-bachelor-of-arts/index.php",
+  "quote": "Psychology (Bachelor of Arts)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "ontario-tech-university",
+  "field": "field: mathematics",
+  "source": "https://ontariotechu.ca/programs/undergraduate/science/mathematics-for-science-and-industry/index.php",
+  "quote": "Mathematics for Science and Industry",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "wilfrid-laurier-university",
+  "field": "field: psychology",
+  "source": "https://www.wlu.ca/programs/index.html",
+  "quote": "Psychology (BA or BSc), Waterloo campus",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "wilfrid-laurier-university",
+  "field": "field: mathematics",
+  "source": "https://www.wlu.ca/programs/index.html",
+  "quote": "Mathematics, Bachelor of Science (BSc)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "lakehead-university",
+  "field": "field: economics",
+  "source": "https://www.lakeheadu.ca/programs/undergraduate-programs/economics",
+  "quote": "Economics",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "lakehead-university",
+  "field": "field: psychology",
+  "source": "https://www.lakeheadu.ca/programs/undergraduate-programs/psychology",
+  "quote": "Psychology",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "lakehead-university",
+  "field": "field: mathematics",
+  "source": "https://www.lakeheadu.ca/programs/undergraduate-programs/mathematics",
+  "quote": "Mathematics",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-prince-edward-island",
+  "field": "field: economics",
+  "source": "https://www.upei.ca/programs/economics",
+  "quote": "Economics",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-prince-edward-island",
+  "field": "field: psychology",
+  "source": "https://www.upei.ca/programs/psychology",
+  "quote": "Psychology",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-prince-edward-island",
+  "field": "field: mathematics",
+  "source": "https://www.upei.ca/programs/mathematics",
+  "quote": "Mathematics",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-prince-edward-island",
+  "field": "field: computer-science",
+  "source": "https://www.upei.ca/programs/computer-science",
+  "quote": "Computer Science",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "acadia-university",
+  "field": "field: economics",
+  "source": "https://www2.acadiau.ca/academics/undergraduate/economics.html",
+  "quote": "Economics (BA)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "acadia-university",
+  "field": "field: psychology",
+  "source": "https://www2.acadiau.ca/academics/undergraduate/psychology.html",
+  "quote": "Psychology",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "acadia-university",
+  "field": "field: mathematics",
+  "source": "https://www2.acadiau.ca/academics/undergraduate/mathematics-and-statistics.html",
+  "quote": "Mathematics and Statistics",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "acadia-university",
+  "field": "field: computer-science",
+  "source": "https://www2.acadiau.ca/academics/undergraduate/computer-science.html",
+  "quote": "Computer Science (BCS, BACS, BSc)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mount-allison-university",
+  "field": "field: economics",
+  "source": "https://mta.ca/academics/programs-and-degrees/economics",
+  "quote": "Economics",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mount-allison-university",
+  "field": "field: psychology",
+  "source": "https://mta.ca/academics/programs-and-degrees/psychology",
+  "quote": "Psychology",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mount-allison-university",
+  "field": "field: mathematics",
+  "source": "https://mta.ca/academics/programs-and-degrees/mathematics",
+  "quote": "Mathematics",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mount-allison-university",
+  "field": "field: computer-science",
+  "source": "https://mta.ca/academics/programs-and-degrees/computer-science",
+  "quote": "Computer Science",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-lethbridge",
+  "field": "field: economics",
+  "source": "https://www.ulethbridge.ca/future-student/programs",
+  "quote": "Economics (Arts & Science), bachelor’s degree",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-lethbridge",
+  "field": "field: psychology",
+  "source": "https://www.ulethbridge.ca/future-student/programs",
+  "quote": "Psychology (Arts & Science), bachelor’s degree",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-lethbridge",
+  "field": "field: mathematics",
+  "source": "https://www.ulethbridge.ca/future-student/programs",
+  "quote": "Mathematics (Arts & Science), bachelor’s degree",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-lethbridge",
+  "field": "field: computer-science",
+  "source": "https://www.ulethbridge.ca/future-student/programs",
+  "quote": "Computer Science (Arts & Science), bachelor’s degree",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mount-saint-vincent-university",
+  "field": "field: economics",
+  "source": "https://www.msvu.ca/academics/bachelor-of-arts-ba/economics/",
+  "quote": "Economics — Bachelor of Arts",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mount-saint-vincent-university",
+  "field": "field: psychology",
+  "source": "https://www.msvu.ca/academics/bachelor-of-science-bsc/psychology/",
+  "quote": "Psychology — Bachelor of Science",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mount-saint-vincent-university",
+  "field": "field: mathematics",
+  "source": "https://www.msvu.ca/academics/bachelor-of-science-bsc/mathematics/",
+  "quote": "Mathematics — Bachelor of Science",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mount-royal-university",
+  "field": "field: psychology",
+  "source": "https://www.mtroyal.ca/ProgramsCourses/FacultiesSchoolsCentres/Arts/Departments/Psychology/PsychologyMajor/index.htm",
+  "quote": "Bachelor of Arts — Psychology",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "thompson-rivers-university",
+  "field": "field: economics",
+  "source": "https://www.tru.ca/programs/catalogue/economics-major.html",
+  "quote": "Bachelor of Arts, Major in Economics",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "thompson-rivers-university",
+  "field": "field: psychology",
+  "source": "https://www.tru.ca/programs/catalogue/psychology-major.html",
+  "quote": "Bachelor of Arts, Major in Psychology",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "thompson-rivers-university",
+  "field": "field: mathematics",
+  "source": "https://www.tru.ca/programs/catalogue/mathematics-major.html",
+  "quote": "Bachelor of Arts, Major in Mathematics",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "thompson-rivers-university",
+  "field": "field: computer-science",
+  "source": "https://www.tru.ca/programs/catalogue/bachelor-of-computing-science.html",
+  "quote": "Bachelor of Computing Science",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-the-fraser-valley",
+  "field": "field: mathematics",
+  "source": "https://www.ufv.ca/programs/science/mathematics-bsc-or-ba/",
+  "quote": "Bachelor of Science (Mathematics major)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-victoria",
+  "field": "field: economics",
+  "source": "https://www.uvic.ca/undergraduate/programs/undergraduate-programs/pages/economics.php",
+  "quote": "Economics",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-victoria",
+  "field": "field: psychology",
+  "source": "https://www.uvic.ca/undergraduate/programs/undergraduate-programs/pages/psychology-and-computer-science.php",
+  "quote": "Psychology and Computer Science (combined)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-victoria",
+  "field": "field: mathematics",
+  "source": "https://www.uvic.ca/undergraduate/programs/undergraduate-programs/pages/financial-mathematics-and-economics.php",
+  "quote": "Financial Mathematics and Economics",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-de-montreal",
+  "field": "field: economics",
+  "source": "https://admission.umontreal.ca/programmes/economie-et-politique/",
+  "quote": "Baccalauréat en économie et politique",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-du-quebec-a-montreal",
+  "field": "field: economics",
+  "source": "https://etudier.uqam.ca/programme/baccalaureat-economique",
+  "quote": "Baccalauréat en économique",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-toronto",
+  "field": "field: economics",
+  "source": "https://future.utoronto.ca/program/economics",
+  "quote": "Economics",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-toronto",
+  "field": "field: psychology",
+  "source": "https://future.utoronto.ca/program/psychology",
+  "quote": "Psychology",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-toronto",
+  "field": "field: mathematics",
+  "source": "https://future.utoronto.ca/program/applied-mathematics",
+  "quote": "Applied Mathematics",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-british-columbia",
+  "field": "field: psychology",
+  "source": "https://you.ubc.ca/programs/psychology-vancouver-ba/",
+  "quote": "Psychology (BA), Vancouver campus",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-british-columbia",
+  "field": "field: mathematics",
+  "source": "https://you.ubc.ca/programs/mathematics-vancouver-bsc/",
+  "quote": "Mathematics (BSc), Vancouver campus",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mcgill-university",
+  "field": "field: economics",
+  "source": "https://coursecatalogue.mcgill.ca/en/undergraduate/arts/programs/economics/economics-major-concentration-ba/",
+  "quote": "Economics Major Concentration (B.A.)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mcgill-university",
+  "field": "field: mathematics",
+  "source": "https://www.mcgill.ca/undergraduate-admissions/program/mathematics-faculty-science",
+  "quote": "Mathematics (Faculty of Science, B.Sc.)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "mcgill-university",
+  "field": "field: computer-science",
+  "source": "https://www.mcgill.ca/undergraduate-admissions/program/computer-science-faculty-science",
+  "quote": "Computer Science (Faculty of Science)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "western-university",
+  "field": "field: psychology",
+  "source": "https://www.psychology.uwo.ca/undergraduate/programs_modules/major/index.html",
+  "quote": "Major in Psychology (BA or BSc)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "western-university",
+  "field": "field: computer-science",
+  "source": "https://welcome.uwo.ca/what-can-i-study/undergraduate-programs/computer-science.html",
+  "quote": "Computer Science",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-ottawa",
+  "field": "field: economics",
+  "source": "https://www.uottawa.ca/faculty-social-sciences/programs/undergraduate/course-sequences/honours-economics",
+  "quote": "Honours in Economics",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-ottawa",
+  "field": "field: psychology",
+  "source": "https://catalogue.uottawa.ca/en/undergrad/honours-ba-psychology/",
+  "quote": "Honours BA Psychology",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-ottawa",
+  "field": "field: mathematics",
+  "source": "https://catalogue.uottawa.ca/en/undergrad/major-mathematics/",
+  "quote": "Major in Mathematics",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-ottawa",
+  "field": "field: computer-science",
+  "source": "https://www.uottawa.ca/faculty-engineering/undergraduate-studies/programs/computer-science",
+  "quote": "Computer Science (BSc)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-calgary",
+  "field": "field: economics",
+  "source": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/economics",
+  "quote": "Economics (BA)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-calgary",
+  "field": "field: mathematics",
+  "source": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/mathematics",
+  "quote": "Mathematics (BSc)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-calgary",
+  "field": "field: computer-science",
+  "source": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/computer-science",
+  "quote": "Computer Science (BSc)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "queens-university",
+  "field": "field: economics",
+  "source": "https://www.queensu.ca/academic-calendar/arts-science/schools-departments-programs/economics/economics-major-arts-ba-honours/",
+  "quote": "Economics – Major (Arts) – Bachelor of Arts (Honours)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "queens-university",
+  "field": "field: psychology",
+  "source": "https://www.queensu.ca/academic-calendar/arts-science/schools-departments-programs/psychology/psychology-major-arts-ba-honours/",
+  "quote": "Psychology – Major (Arts) – Bachelor of Arts (Honours)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "queens-university",
+  "field": "field: mathematics",
+  "source": "https://www.queensu.ca/academic-calendar/arts-science/schools-departments-programs/mathematics-statistics/",
+  "quote": "Mathematics and Statistics (BA, BSc plans)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "dalhousie-university",
+  "field": "field: economics",
+  "source": "https://www.dal.ca/study/programs/undergraduate/economics-bsc.html",
+  "quote": "Economics (BSc) or (BA)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "dalhousie-university",
+  "field": "field: psychology",
+  "source": "https://www.dal.ca/study/programs/undergraduate/psychology-bsc-ba.html",
+  "quote": "Psychology (BSc) or (BA)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "dalhousie-university",
+  "field": "field: mathematics",
+  "source": "https://www.dal.ca/study/programs/undergraduate/mathematics-ba-bsc.html",
+  "quote": "Mathematics (BSc) or (BA)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "simon-fraser-university",
+  "field": "field: economics",
+  "source": "https://www.sfu.ca/students/admission/programs/a-z/e/economics.html",
+  "quote": "Economics (Bachelor of Arts or Bachelor of Science)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "simon-fraser-university",
+  "field": "field: psychology",
+  "source": "https://www.sfu.ca/students/admission/programs/a-z/p/psychology.html",
+  "quote": "Psychology (Bachelor of Arts)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "simon-fraser-university",
+  "field": "field: mathematics",
+  "source": "https://www.sfu.ca/students/admission/programs/a-z/m/mathematics.html",
+  "quote": "Mathematics (Bachelor of Science)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "simon-fraser-university",
+  "field": "field: computer-science",
+  "source": "https://www.sfu.ca/students/admission/programs/a-z/c/computing-science.html",
+  "quote": "Computing Science (Bachelor of Science or Bachelor of Arts)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-laval",
+  "field": "field: economics",
+  "source": "https://www.ulaval.ca/etudes/programmes/baccalaureat-en-economique",
+  "quote": "Baccalauréat en économique",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-laval",
+  "field": "field: psychology",
+  "source": "https://www.ulaval.ca/etudes/programmes/baccalaureat-en-psychologie",
+  "quote": "Baccalauréat en psychologie",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-laval",
+  "field": "field: mathematics",
+  "source": "https://www.ulaval.ca/etudes/programmes/baccalaureat-en-mathematiques",
+  "quote": "Baccalauréat en mathématiques",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-laval",
+  "field": "field: computer-science",
+  "source": "https://www.ulaval.ca/etudes/programmes/baccalaureat-en-informatique",
+  "quote": "Baccalauréat en informatique",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-saskatchewan",
+  "field": "field: economics",
+  "source": "https://admissions.usask.ca/economics.php",
+  "quote": "Economics (Bachelor of Arts)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-saskatchewan",
+  "field": "field: psychology",
+  "source": "https://admissions.usask.ca/psychology.php",
+  "quote": "Psychology (Bachelor of Arts or Bachelor of Science)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-saskatchewan",
+  "field": "field: mathematics",
+  "source": "https://admissions.usask.ca/mathematics.php",
+  "quote": "Mathematics (Bachelor of Science)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-manitoba",
+  "field": "field: economics",
+  "source": "https://umanitoba.ca/explore/programs-of-study/economics-ba",
+  "quote": "Economics (BA)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-manitoba",
+  "field": "field: psychology",
+  "source": "https://umanitoba.ca/explore/programs-of-study/psychology-ba",
+  "quote": "Psychology (BA)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-manitoba",
+  "field": "field: mathematics",
+  "source": "https://umanitoba.ca/explore/programs-of-study/mathematics-bsc",
+  "quote": "Mathematics (BSc)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-manitoba",
+  "field": "field: computer-science",
+  "source": "https://umanitoba.ca/explore/programs-of-study/computer-science-bsc",
+  "quote": "Computer Science (BCSc) (BSc)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-guelph",
+  "field": "field: psychology",
+  "source": "https://www.uoguelph.ca/psychology/undergraduate/programs/bachelor-arts-ba-psychology-majorminor",
+  "quote": "Bachelor of Arts (B.A.) Psychology Major",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "carleton-university",
+  "field": "field: psychology",
+  "source": "https://admissions.carleton.ca/programs/psychology-ba/",
+  "quote": "Psychology (BA)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "carleton-university",
+  "field": "field: mathematics",
+  "source": "https://admissions.carleton.ca/programs/mathematics/",
+  "quote": "Mathematics (BMath)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "memorial-university-of-newfoundland",
+  "field": "field: economics",
+  "source": "https://www.mun.ca/undergrad/programs/humanities-and-social-sciences/economics/",
+  "quote": "Economics (BA or B.Sc.)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "memorial-university-of-newfoundland",
+  "field": "field: psychology",
+  "source": "https://www.mun.ca/undergrad/programs/science/psychology/",
+  "quote": "Psychology (BA or B.Sc.)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "memorial-university-of-newfoundland",
+  "field": "field: mathematics",
+  "source": "https://www.mun.ca/undergrad/programs/science/mathematics/",
+  "quote": "Mathematics (BA or B.Sc.)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "memorial-university-of-newfoundland",
+  "field": "field: computer-science",
+  "source": "https://www.mun.ca/undergrad/programs/science/computer-science/",
+  "quote": "Computer Science (BA or B.Sc.)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-windsor",
+  "field": "field: economics",
+  "source": "https://future.uwindsor.ca/economics",
+  "quote": "Economics (BA, BSc)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-windsor",
+  "field": "field: psychology",
+  "source": "https://future.uwindsor.ca/psychology",
+  "quote": "Psychology (BA)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-windsor",
+  "field": "field: mathematics",
+  "source": "https://future.uwindsor.ca/mathematics-statistics",
+  "quote": "Mathematics & Statistics (BMath)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "toronto-metropolitan-university",
+  "field": "field: economics",
+  "source": "https://www.torontomu.ca/programs/undergraduate/economics-finance/",
+  "quote": "Economics and Finance – BA (Hons)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "toronto-metropolitan-university",
+  "field": "field: psychology",
+  "source": "https://www.torontomu.ca/programs/undergraduate/psychology/",
+  "quote": "Psychology – BA (Hons)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "toronto-metropolitan-university",
+  "field": "field: mathematics",
+  "source": "https://www.torontomu.ca/programs/undergraduate/mathematics-applications/",
+  "quote": "Mathematics and Its Applications – BSc (Hons)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "toronto-metropolitan-university",
+  "field": "field: computer-science",
+  "source": "https://www.torontomu.ca/programs/undergraduate/computer-science/",
+  "quote": "Computer Science – BSc (Hons)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "bishops-university",
+  "field": "field: psychology",
+  "source": "https://www.ubishops.ca/program/psychology/",
+  "quote": "Psychology (Bachelor of Arts)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "bishops-university",
+  "field": "field: mathematics",
+  "source": "https://www.ubishops.ca/program/mathematics/",
+  "quote": "Mathematics (Bachelor of Arts)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "bishops-university",
+  "field": "field: computer-science",
+  "source": "https://www.ubishops.ca/program/computer-science/",
+  "quote": "Computer Science (Bachelor of Science)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-northern-british-columbia",
+  "field": "field: economics",
+  "source": "https://www.unbc.ca/economics",
+  "quote": "Bachelor of Arts in Economics",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-northern-british-columbia",
+  "field": "field: psychology",
+  "source": "https://www.unbc.ca/psychology",
+  "quote": "Psychology (BSc)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-northern-british-columbia",
+  "field": "field: computer-science",
+  "source": "https://www.unbc.ca/computer-science",
+  "quote": "Computer Science (Bachelor of Science)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-de-montreal",
+  "field": "field: psychology",
+  "source": "https://admission.umontreal.ca/programmes/baccalaureat-en-psychologie/",
+  "quote": "Baccalauréat en psychologie (campus Montréal)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "universite-de-montreal",
+  "field": "field: mathematics",
+  "source": "https://admission.umontreal.ca/programmes/baccalaureat-en-mathematiques/",
+  "quote": "Baccalauréat en mathématiques",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "trent-university",
+  "field": "field: mathematics",
+  "source": "https://www.trentu.ca/futurestudents/degree/mathematics",
+  "quote": "Mathematics (Bachelor of Science)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-winnipeg",
+  "field": "field: economics",
+  "source": "https://www.uwinnipeg.ca/programs/economics.html",
+  "quote": "Economics (Bachelor of Arts)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-winnipeg",
+  "field": "field: psychology",
+  "source": "https://www.uwinnipeg.ca/programs/psychology.html",
+  "quote": "Psychology (Bachelor of Arts)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-winnipeg",
+  "field": "field: mathematics",
+  "source": "https://www.uwinnipeg.ca/programs/mathematics.html",
+  "quote": "Mathematics (Bachelor of Science or Bachelor of Arts)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "university-of-winnipeg",
+  "field": "field: computer-science",
+  "source": "https://www.uwinnipeg.ca/programs/applied-computer-science.html",
+  "quote": "Applied Computer Science (Bachelor of Science)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-27"
+ },
+ {
+  "id": "brock-university",
+  "field": "field: economics",
+  "source": "https://brocku.ca/programs/undergraduate/economics/",
+  "quote": "BA in Economics",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "brock-university",
+  "field": "field: psychology",
+  "source": "https://brocku.ca/programs/undergraduate/psychology/",
+  "quote": "BA or BSc in Psychology",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "st-francis-xavier-university",
+  "field": "field: economics",
+  "source": "https://www.stfx.ca/programs-courses/programs/economics",
+  "quote": "Economics (BA, BSc or BBA honours)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "st-francis-xavier-university",
+  "field": "field: psychology",
+  "source": "https://www.stfx.ca/programs-courses/programs/psychology",
+  "quote": "Psychology (Bachelor of Arts or Bachelor of Science)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "st-francis-xavier-university",
+  "field": "field: computer-science",
+  "source": "https://www.stfx.ca/programs-courses/programs/computer-science",
+  "quote": "Computer Science (Bachelor of Arts or Bachelor of Science)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "saint-marys-university",
+  "field": "field: economics",
+  "source": "https://www.smu.ca/future-students/ba-programs/economics-program.html",
+  "quote": "Economics (Bachelor of Arts)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "saint-marys-university",
+  "field": "field: psychology",
+  "source": "https://www.smu.ca/future-students/ba-programs/psychology-program.html",
+  "quote": "Psychology (BA or BSc)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "saint-marys-university",
+  "field": "field: mathematics",
+  "source": "https://www.smu.ca/future-students/ba-programs/mathematics-program.html",
+  "quote": "Mathematics (BA or BSc)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "saint-marys-university",
+  "field": "field: computer-science",
+  "source": "https://www.smu.ca/future-students/bsc-programs/computing-science-program.html",
+  "quote": "Computing Science (BSc)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "vancouver-island-university",
+  "field": "field: psychology",
+  "source": "https://www.viu.ca/programs/arts-humanities-social-sciences/psychology-ba",
+  "quote": "Psychology (BA)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "vancouver-island-university",
+  "field": "field: computer-science",
+  "source": "https://www.viu.ca/programs/science-and-technology/computer-science-bsc",
+  "quote": "Computer Science (BSc), Nanaimo",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "laurentian-university",
+  "field": "field: economics",
+  "source": "https://laurentian.ca/academics/program/economics",
+  "quote": "Economics, Bachelor of Arts",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "laurentian-university",
+  "field": "field: psychology",
+  "source": "https://laurentian.ca/program/psychology/details",
+  "quote": "Psychology, Bachelor of Arts or Bachelor of Science",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "universite-de-sherbrooke",
+  "field": "field: economics",
+  "source": "https://www.usherbrooke.ca/admission/programme/208/baccalaureat-en-economique/",
+  "quote": "Baccalauréat en économique",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "universite-de-sherbrooke",
+  "field": "field: psychology",
+  "source": "https://www.usherbrooke.ca/admission/programme/225/baccalaureat-en-psychologie/",
+  "quote": "Baccalauréat en psychologie",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "universite-de-sherbrooke",
+  "field": "field: mathematics",
+  "source": "https://www.usherbrooke.ca/admission/programme/222/baccalaureat-en-mathematiques/",
+  "quote": "Baccalauréat en mathématiques",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "universite-de-moncton",
+  "field": "field: computer-science",
+  "source": "https://www.umoncton.ca/repertoire/programmes?programme_select=148",
+  "quote": "Baccalauréat ès sciences (majeure en informatique)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "university-of-british-columbia",
+  "field": "founded",
+  "source": "https://vancouver.calendar.ubc.ca/establishment-and-constitution/introduction",
+  "quote": "In 1908 the earlier act was repealed and a new act was established, incorporating the University.",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "university-of-alberta",
+  "field": "founded",
+  "source": "https://www.ualberta.ca/en/toolkit/communications/overview.html",
+  "quote": "Founded in 1908 (created by legislation in 1906, first classes held in 1908)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "lakehead-university",
+  "field": "founded",
+  "source": "https://www.lakeheadu.ca/about/sg/secretariat/university-act",
+  "quote": "Statutes of Ontario, 1965 … The Lakehead College of Arts, Science and Technology, hereafter to be known as \"Lakehead University\"",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "laurentian-university",
+  "field": "founded",
+  "source": "https://laurentian.ca/faculties/arts/our-tricultural-mandate",
+  "quote": "Founded in 1960, Laurentian University offers a rich array of programs",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "university-of-alberta",
+  "field": "field: economics",
+  "source": "https://www.ualberta.ca/en/undergraduate-programs/bachelor-of-arts-economics.html",
+  "quote": "Economics (Bachelor of Arts)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "university-of-alberta",
+  "field": "field: psychology",
+  "source": "https://www.ualberta.ca/en/undergraduate-programs/bachelor-of-arts-psychology.html",
+  "quote": "Psychology (Bachelor of Arts)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "university-of-alberta",
+  "field": "field: mathematics",
+  "source": "https://www.ualberta.ca/en/undergraduate-programs/bachelor-of-science-with-major-mathematics.html",
+  "quote": "Mathematics (Bachelor of Science with Major)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "university-of-alberta",
+  "field": "field: computer-science",
+  "source": "https://www.ualberta.ca/en/undergraduate-programs/bachelor-of-science-with-major-computing-science.html",
+  "quote": "Computing Science (Bachelor of Science with Major)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "mcmaster-university",
+  "field": "field: psychology",
+  "source": "https://future.mcmaster.ca/programs/psychology-neuroscience-behaviour/",
+  "quote": "Honours Psychology, Neuroscience & Behaviour (Bachelor of Science)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "university-of-guelph",
+  "field": "field: economics",
+  "source": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/economics-econ/",
+  "quote": "Economics (ECON) major, Bachelor of Arts",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "university-of-regina",
+  "field": "field: psychology",
+  "source": "https://www.uregina.ca/academics/programs/arts/psychology.html",
+  "quote": "Psychology (Bachelor of Arts)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "universite-du-quebec-a-montreal",
+  "field": "field: psychology",
+  "source": "https://etudier.uqam.ca/programme?code=6589",
+  "quote": "Baccalauréat en psychologie (6589)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ },
+ {
+  "id": "universite-du-quebec-a-montreal",
+  "field": "field: computer-science",
+  "source": "https://etudier.uqam.ca/programme?code=7416",
+  "quote": "Baccalauréat en informatique et génie logiciel (7416)",
+  "cycle": null,
+  "scope": null,
+  "read": "2026-10-29"
+ }
+]

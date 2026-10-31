@@ -52,3 +52,52 @@ Safari, реальные телефоны и screen reader пока не про�
 
 Push новой технической ветки из Codex отклонён средой на запуске sh/Credential Manager: NtCreateDirectoryObject 0xC0000022. На GitHub codex/staging-quality пока отсутствует. По уточнению владельца из внешнего PowerShell отправлялась старая codex/site-quality, а не новая ветка. Ничего не сбрасывается и не перезаписывается. Все технические коммиты сохранены локально; bundle v168 проверен.
 На повторной сверке dev=0fd4d6a, main=1aa5247, Claude продвигает отдельную claude/data-quality-v159 (текущий snapshot требует fetch/review, старый 85f64c4 — только предварительная структурная проверка выше). Готовые PR и отчёт Claude ещё не получены, поэтому объединённый новый staging не объявлен готовым. Следующий шаг — проверить финальный diff и источники, импортировать отдельные переводы без конфликтов, объединить в интеграционной ветке, проверить и только затем обновить dev. Force push и публикация в main запрещены и не выполнялись.
+
+## 31 октября — объединение v170 без ожидания Claude
+
+Предыдущие записи об ожидании PR и серверных refs — история 27 октября. На начало новой сессии GitHub: Claude **d70b56fb9b97368fc043a294fb094952caeec952**, dev **и main уже afa5a19abf3f0d06d273046750e09b5cfac41758**, v169. Main обновлена до начала наших действий; нами не переключалась и не менялась. GitHub compare: все 14 коммитов Claude уже являются предками dev, после них два коммита переводов. Объединяется актуальная dev с нашими c02a978/f8f58dd, повторный перенос данных Claude не нужен.
+
+Обычный Git не имеет сетевого доступа (DNS github.com недоступен). Через разрешённое read-only подключение GitHub прочитаны оригинальные объекты: SHA сверены для 10 недостающих commits, 5 деревьев актуальной dev, 21 текстового blob до использования. Исходные коммиты не пересозданы с другими хешами; серверные refs не менялись. Это не полный fetch partial clone: промежуточные деревья старых commits могут потребовать обычного fetch. Все ветки, прежние коммиты и 920c099 сохранены.
+
+Конфликты — только добавления журнала и ru.js. Сохранены обе стороны: 113 переводов Claude, 20 последующих подписей dev, шесть технических переводов нашей ветки. Университетские данные и award-details совпадают с afa5a19. data/match.js, фотографии, workflows и схема не меняются. Предложенный foundedNote отложен; исследовательское пояснение сохранено.
+
+| Область | Исправлено / проверено | Осталось / требует проверки |
+|---|---|---|
+| Даты | 59 cycleEvidence, 31 исправленное ежегодное правило; с прежним Acadia в CA 32 annual-rule | Схема проверена для всех записей; не все официальные страницы независимо перечитаны |
+| Awards | Все 50 CA имеют описание крупнейшей найденной награды или объяснение неопределённости; domestic-only Queen’s MAA и Bishop’s Goldbloom исключены | Неполные опубликованные суммы/renewal, eligibility StFX McKenna и предыдущие циклы не объявлены подтверждёнными |
+| Направления | 144 новых тега относительно 0fd4d6a, с bachelor/programme, URL, датой и языком | Все 50 списков partial; полный аудит языков/кампусов не закончен |
+| SAT/ACT | Unknown не превращается в optional; у Brock/SMU сохранены ограниченные правила | Общая политика неизвестна у Ottawa, Saskatchewan, Laurier, Acadia, MRU, UNBC, VIU, UFV, Laurentian; полный Fall 2027/ACT scope Brock/SMU тоже не установлен |
+| Бюджет | Прежние scoped Business-примеры сохранены; неизвестное не становится нулём | AnnualCost отсутствует у Western, Manitoba, Winnipeg, MSVU, TRU, VIU, Capilano |
+| Остальное | 370 учреждений, 6 стран, CA 50; новых учреждений нет | Полные Uzbekistan requirements у исходных 21; Windsor direct application fee; Lesley Fall 2027; SRH/Karlshochschule photos |
+
+Отчёт Claude и handoff найдены в research/claude-v159-*. Его числа 294 источника / 135 тегов устарели: фактически **324** записи реестра / **144** новых тега. Каждая запись имеет HTTPS URL, цитату и дату чтения. Это проверка реестра, не независимое подтверждение всех 324 фактов. В раннем сообщении текущей сессии число 325 было неточным; машинный подсчёт — 324.
+
+Независимое чтение официального HTML 31 октября (без скачивания PDF/изображений и обхода защиты):
+
+- [Toronto deadlines](https://future.utoronto.ca/deadlines): «2027 admissions Deadlines to apply»; отдельные programme/faculty/document deadlines. Цикл установлен контекстом.
+- [Windsor Global Lancer](https://www.future.uwindsor.ca/global-lancer-scholarship/): «up to $24,000 over four years»; international undergraduate directly from full-time secondary school. Это не application fee.
+- [Queen’s MAA](https://www.queensu.ca/registrar/financial-aid/application-required/future-students/major-awards): «Available to a Canadian citizen, permanent resident of Canada, or Protected Person.» Исключение подтверждено.
+- [Bishop’s Goldbloom](https://www.ubishops.ca/admissions/scholarships-awards-bursaries/michael-goldbloom-excellence-scholarships/): «be citizens or permanent residents of Canada». Срок 2026 не перенесён в 2027.
+- [VIU entrance awards](https://services.viu.ca/financial-aid-awards/viu-entrance-awards): Fall 2027, international award C$5,000 × 20; 28 февраля 2027 в 11:59 pm, зона не названа. Не выдумана.
+- [StFX McKenna](https://www.stfx.ca/mckennascholars): C$125,000/four years, Fall 2027; международная eligibility не установлена общим упоминанием всех факультетов.
+- [Ottawa awards](https://www.uottawa.ca/study/fees-financial-support/scholarships-awards-overview): C$7,500/term, C$60,000/four years, eligible undergraduate English programmes. Maximum 12 instalments не превращён в самостоятельно вычисленные C$90,000.
+- [Trent awards](https://www.trentu.ca/international/discover-trent/tuition-scholarships/scholarships): competitive, до C$15,000/year / C$60,000/four years; ежегодный February 15 не устанавливает набор.
+- [Concordia Actuarial Mathematics](https://www.concordia.ca/academics/undergraduate/actuarial-mathematics.html): BA/BSc, SGW campus; [официальная политика](https://www.concordia.ca/admissions/undergraduate/requirements/english-language-proficiency.html): «English is the language of instruction at Concordia.»
+- [UFV Mathematics](https://www.ufv.ca/programs/science/mathematics-bsc-or-ba/): bachelor BA/BSc, Abbotsford; [Calendar 2026/27](https://www.ufv.ca/calendar/current/General/EnglishProficiency.htm): «English is the language of instruction at UFV.» Это официальное правило, не вывод из языка сайта.
+- [UQAM Psychology 6589](https://etudier.uqam.ca/programme?code=6589): конкретный baccalauréat; французская запись не становится английским маршрутом.
+
+297 passed, 0 failed: прежние 293 плюс четыре проверки интеграции — все переданные переводы, English evidence, собственный срок VIU без timezone/утечки в другой award, исключённые domestic-only awards. Полная staging-сборка v170: 377 страниц noindex, minify data identical. Дальнейшая браузерная проверка и отправка фиксируются по фактическому результату; успешные тесты не закрывают исследования.
+
+Интегрированные через актуальную dev коммиты Claude: bfda712, 85f64c4, 93e43e6, 47fc95f, ded15b7, e046f3b, ceefbb1, 42ca618, a1c3f9e, a3a5f6f, 6bd6151, 4425a48, 1555972, d70b56f; также сохранены коммиты dev 2fdd620 и afa5a19. Это уже опубликованная чужая история, а не новый merge Claude напрямую в main.
+
+Исходные 21 незавершённое Uzbekistan research: McMaster, Ottawa, Queen’s, SFU, Saskatchewan, Windsor, Regina, Laurier, UPEI, StFX, Mount Allison, Bishop’s, Lethbridge, MSVU, TRU, UNBC, UFV, Capilano, UQAM, Sherbrooke, Moncton. У части установлен документ/часть требований; слово «незавершённое» не означает полное отсутствие найденных сведений. Прежние условные примеры других школьных систем и исторические таблицы не подтверждают пригодность конкретного узбекского документа для Fall 2027.
+
+12 095 внутренних ссылок / 377 страниц — pass, включая базу /unipath/staging/ и noindex. Прямая браузерная сеть этой сессии запрещена даже для localhost (ERR_NETWORK_ACCESS_DENIED); web-доступ к опубликованному Pages тоже не удался. Поэтому новая Chrome-проверка выполняется как **офлайн-проверка артефакта**: Playwright подставляет файлы из dist на те же локальные URL без сетевых соединений. Это не проверка доступности Pages/CDN, не измерение живой сети и не обход Cloudflare. Production widget и настройки не менялись. При восстановлении сети нужна отдельная фактическая проверка опубликованного staging.
+
+### Завершённые проверки объединённого артефакта v170
+
+Chrome **156.0.8078.74**, 224 сочетания: 14 маршрутов × RU/EN × light/dark × 360/390/768/1280. Горизонтальное переполнение, незагруженные видимые изображения и неподписанные проверяемые поля: issues=[]; исключений приложения не наблюдалось. В консоли зарегистрирована сетевая ошибка двух внешних ресурсов: jsDelivr flag font и Cloudflare SDK (ERR_NAME_NOT_RESOLVED). Это реальные ограничения проверки, они не удалены из результата. Фактическая доступность этих ресурсов в обычном сеансе не установлена. В офлайн-режиме нельзя считать размеры ресурсов/readyMs измерением реальной сжатой сетевой загрузки.
+
+Проверены budget=0 и сохранение избранного/сравнения, фильтр канадских новостей, отдельные непроверенные направления, прямые static Acadia/Canada и reload, переход из /unipath/staging/university/... в /unipath/staging/#/match. Все шесть сетевых fault/recovery сценариев успешны: failed/stalled translation, failed/throwing/stalled router, static-route base. Клавиатурное меню и country picker возвращают фокус при Escape. Olin 750×536 и TUJ 320×240 реально декодированы браузером из файлов артефакта, атрибуция есть; при искусственной ошибке фото fallback работает и не объявляет отказ JS. Скриншоты мобильных match и translation failure просмотрены визуально. I18N.missing=460 включает собственные имена и не объявляется нулём. Safari, Firefox, Edge, реальные телефоны и screen reader в этой сессии не проверены.
+
+Локальные доказательства: outputs/integration-v170-chrome-quality.json, v170-failure-browser.json, v170-keyboard-photos.json, v170-data-review.json (вне репозитория). Итоговая локальная ревизия — merge-коммит этого отчёта в codex/staging-quality, версия **v170**, родители c02a978 и afa5a19. Проверенный источник данных Claude — d70b56f через актуальную dev. Статус отправки/Actions и точный итоговый SHA фиксируются в отдельной передаче после создания коммита; публикация в main не разрешена и не выполняется.
