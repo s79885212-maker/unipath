@@ -43321,14 +43321,47 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": "Full-time undergraduate living on campus; not an international-specific quotation",
+      "budget": 91294
+    },
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "International first-year bachelor applicants",
+    "source": "https://www.stevens.edu/admission-aid/tuition-financial-aid/undergraduate-costs-and-aid",
+    "verified": "2026-10-31",
+    "headline": "Previous-cycle published COA: USD 91,294",
+    "items": [
+      {
+        "label": "Tuition and fees",
+        "group": "billed",
+        "amount": 68230
+      },
+      {
+        "label": "Housing and meals",
+        "group": "estimate",
+        "amount": 20744
+      },
+      {
+        "label": "Books and supplies",
+        "group": "estimate",
+        "amount": 1200
+      },
+      {
+        "label": "Miscellaneous",
+        "group": "estimate",
+        "amount": 1050
+      },
+      {
+        "label": "Loan fee, only for students offered federal loans",
+        "group": "estimate",
+        "amount": 70
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "totalText": "USD 91,294, including a conditional federal loan fee",
+    "note": "The 2026–27 published total includes USD 70 only for students offered federal loans. That fee is not assumed applicable to an international student. Insurance coverage is not established by this table. Off-campus and commuter figures describe other arrangements. No comparable Fall 2027 annual cost is assigned.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -43378,6 +43411,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.stevens.edu/page-basic/centuries-of-inspiration-and-progress"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.stevens.edu/admission-aid/tuition-financial-aid/undergraduate-costs-and-aid"
     }
   ],
   "verification": {
@@ -43821,13 +43858,16 @@ window.UNIPATH.universities.push(
   },
   "costs": {
     "breakdown": null,
-    "academicYear": null,
+    "academicYear": "2027–2028",
     "currency": "USD",
     "headline": null,
     "items": [],
     "billedSubtotal": null,
     "totalText": null,
-    "note": null
+    "note": "The official 2027–28 undergraduate cost table currently marks tuition, housing, fees and other amounts TBD. Instruments show USD 0–TBD, not a confirmed zero. The separate 2026–27 full-time table lists tuition USD 53,890, student fees 1,200 and university housing/food 17,480; those previous-cycle figures are not assigned to Fall 2027. Programme, living arrangement and international travel costs require individual review.",
+    "status": "not-published",
+    "source": "https://www.marquette.edu/central/financial-aid/resources/undergraduate-cost-of-attendance.php",
+    "verified": "2026-10-31"
   },
   "scholarships": {
     "fullRide": {
@@ -43844,16 +43884,20 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "The international scholarship page explicitly says need-based scholarships are unavailable and merit scholarships cannot cover all costs: even the largest leaves room, board, fees and books to the family. All applicants are automatically considered for the Père Marquette Award; other awards require admitted students to apply separately. The largest named award, renewal and stacking terms remain under review. No award is deducted from cost.",
+      "source": "https://www.marquette.edu/oie/prospective-students/scholarships.php",
+      "verified": "2026-10-31"
     },
     "merit": [],
     "needBased": {
-      "availableToInternational": null,
+      "availableToInternational": false,
       "meetsFullNeed": null,
       "needBlindInternational": null,
       "forms": [],
       "deadlines": null,
-      "note": null
+      "note": null,
+      "source": "https://www.marquette.edu/oie/prospective-students/scholarships.php",
+      "verified": "2026-10-31"
     }
   },
   "photos": {
@@ -43877,6 +43921,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.marquette.edu/about/"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.marquette.edu/central/financial-aid/resources/undergraduate-cost-of-attendance.php"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.marquette.edu/oie/prospective-students/scholarships.php"
     }
   ],
   "verification": {
@@ -44348,7 +44400,23 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": null
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "presidential-international",
+        "category": "merit",
+        "basis": "merit",
+        "name": "Presidential International Scholarship",
+        "amount": "Up to USD 48,000 per academic year",
+        "eligibility": "International applicants; competitive review of the admissions application. An award is included in the admission letter if granted.",
+        "renewable": "Up to eight semesters, subject to Satisfactory Academic Progress; exact SAP thresholds still require review.",
+        "deadlineScope": "annual-rule",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://www.wabash.edu/admissions/international/scholarships",
+        "verified": "2026-10-31",
+        "note": "Priority completed application by 15 January is an annual rule, not a confirmed Fall 2027 deadline. Separate ED and virtual-event awards are USD 2,000 per year each; stacking has not been confirmed. WISE up to USD 4,500 per year is earned work, not guaranteed scholarship. This maximum is not deducted from cost and is not labelled full tuition or full ride."
+      }
+    ],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,
@@ -44375,6 +44443,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.wabash.edu/academics/computer_science/"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.wabash.edu/admissions/international/scholarships"
     }
   ],
   "verification": {

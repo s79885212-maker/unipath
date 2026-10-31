@@ -133,4 +133,35 @@ for i,r in enumerate(records):
   for name,kind,d in [('Early Decision','ED','15 November'),('Early Action','EA','1 December'),('Regular Decision','RD','15 January')]:event(r,name,kind,d)
   r['admissions']['documents']=[L('Official school records from the school, last four years or last three if still enrolled, certified English translation and school report. Recommendation is optional. No self-reported transcripts. Exact Uzbek qualification remains unknown.',
     'Официальные школьные записи от школы за последние четыре года или три для учащегося, заверенный английский перевод и школьный отчёт. Рекомендация необязательна. Самостоятельные транскрипты не принимаются. Точная узбекская квалификация неизвестна.')]
+r=records[7];s=src(r['id'],'cost-current-unpublished')
+r['costs'].update(status='not-published',academicYear='2027–2028',currency='USD',source=s['source'],verified=DAY,
+  note=L('The official 2027–28 undergraduate cost table currently marks tuition, housing, fees and other amounts TBD. Instruments show USD 0–TBD, not a confirmed zero. The separate 2026–27 full-time table lists tuition USD 53,890, student fees 1,200 and university housing/food 17,480; those previous-cycle figures are not assigned to Fall 2027. Programme, living arrangement and international travel costs require individual review.',
+    'В официальной таблице бакалавриата 2027–28 обучение, жильё, сборы и прочие суммы пока TBD — ещё не определены. Инструменты указаны как 0–TBD USD, а не подтверждённый ноль. Отдельная таблица очного обучения 2026–27 содержит обучение 53 890 USD, сборы 1 200 и университетское жильё/питание 17 480; эти прошлогодние суммы не назначены осени 2027. Программа, вариант проживания и международная дорога проверяются отдельно.'))
+r['scholarships']['needBased']['availableToInternational']=False
+aid_source=src(r['id'],'international-aid-scope')['source']
+r['scholarships']['needBased'].update(source=aid_source,verified=DAY)
+r['scholarships']['fullRide'].update(source=aid_source,verified=DAY)
+r['scholarships']['fullRide']['note']=L('The international scholarship page explicitly says need-based scholarships are unavailable and merit scholarships cannot cover all costs: even the largest leaves room, board, fees and books to the family. All applicants are automatically considered for the Père Marquette Award; other awards require admitted students to apply separately. The largest named award, renewal and stacking terms remain under review. No award is deducted from cost.',
+  'Международная страница явно исключает стипендии по нуждаемости и сообщает, что академические награды не покрывают все расходы: даже крупнейшая оставляет семье жильё, питание, сборы и книги. Все кандидаты автоматически рассматриваются на Père Marquette Award; остальные награды требуют отдельной заявки после приёма. Название крупнейшей награды, продление и совместимость ещё проверяются. Награда из стоимости не вычитается.')
+r=records[9];s=src(r['id'],'international-awards')
+r['scholarships']['merit']=[dict(id='presidential-international',category='merit',basis='merit',
+  name=L('Presidential International Scholarship','Международная президентская стипендия'),
+  amount=L('Up to USD 48,000 per academic year','До 48 000 USD за учебный год'),
+  eligibility=L('International applicants; competitive review of the admissions application. An award is included in the admission letter if granted.',
+    'Иностранные кандидаты; конкурсная оценка заявки на поступление. При присуждении награда указана в письме о приёме.'),
+  renewable=L('Up to eight semesters, subject to Satisfactory Academic Progress; exact SAP thresholds still require review.',
+    'До восьми семестров при удовлетворительной академической успеваемости; точные пороги SAP ещё проверяются.'),
+  deadlineScope='annual-rule',entryTerm=None,entryYear=None,source=s['source'],verified=DAY,
+  note=L('Priority completed application by 15 January is an annual rule, not a confirmed Fall 2027 deadline. Separate ED and virtual-event awards are USD 2,000 per year each; stacking has not been confirmed. WISE up to USD 4,500 per year is earned work, not guaranteed scholarship. This maximum is not deducted from cost and is not labelled full tuition or full ride.',
+    'Приоритет полностью поданной заявки к 15 января — ежегодное правило, не подтверждённый срок осени 2027. Отдельные награды ED и за виртуальные мероприятия — по 2 000 USD в год; совместимость не подтверждена. WISE до 4 500 USD в год — заработок, не гарантированная стипендия. Максимум не вычитается из стоимости и не назван full tuition или full ride.'))]
+r=records[5];s=src(r['id'],'cost-reference')
+r['costs']=costs('2026–2027',s['source'],DAY,FY,
+  [(L('Tuition and fees','Обучение и сборы'),68230,'billed'),(L('Housing and meals','Жильё и питание'),20744,'estimate'),
+   (L('Books and supplies','Книги и материалы'),1200,'estimate'),(L('Miscellaneous','Прочее'),1050,'estimate'),
+   (L('Loan fee, only for students offered federal loans','Кредитный сбор, только при предложении федерального кредита'),70,'estimate')],
+  L('Previous-cycle published COA: USD 91,294','Опубликованная COA прошлого цикла: 91 294 USD'),
+  L('USD 91,294, including a conditional federal loan fee','91 294 USD, включая условный сбор федерального кредита'),
+  L('Full-time undergraduate living on campus; not an international-specific quotation','Очный бакалавриат с проживанием в кампусе; не отдельная международная смета'),
+  budget=91294,status='previous-cycle',note=L('The 2026–27 published total includes USD 70 only for students offered federal loans. That fee is not assumed applicable to an international student. Insurance coverage is not established by this table. Off-campus and commuter figures describe other arrangements. No comparable Fall 2027 annual cost is assigned.',
+    'Опубликованный итог 2026–27 включает 70 USD только для получивших предложение федерального кредита; применимость сбора к иностранцу не предполагается. Покрытие страховки таблицей не установлено. Суммы вне кампуса и для приезжающих — другие варианты проживания. Сопоставимая годовая стоимость осени 2027 не назначена.'))
 finish(records,4)

@@ -28,7 +28,7 @@ for order,t in enumerate(targets,1):
  programme='; '.join(e['program'] for e in evidence)+'; '+str(prog.get('campus') or u['city'])
  cred='Название документа проверено; оценки, лицей и прочие условия открыты' if uid in ('university-of-wisconsin-madison','pennsylvania-state-university-university-park') else 'Точное соответствие не подтверждено'
  c=u.get('costs',{});year=c.get('academicYear')
- cost={'previous-cycle':'Предыдущий доступный цикл','conflict':'Конфликт: см. профиль','confirmed':'Опубликована оценка'}.get(c.get('status'),'Не подтверждена для Fall 2027')
+ cost={'previous-cycle':'Предыдущий доступный цикл','conflict':'Конфликт: см. профиль','confirmed':'Опубликована оценка','not-published':'В проверенной таблице суммы ещё не опубликованы'}.get(c.get('status'),'Не подтверждена для Fall 2027')
  if year:cost+='; '+year
  fr=u['scholarships']['fullRide'];award=fr.get('name') or 'Крупнейшая ещё не установлена'
  if fr.get('available') is True:award+=' — конкурс, не гарантия'

@@ -4596,5 +4596,96 @@
       "historyNote": "Official history separates the 1965 planning legislation, appointment of the first president in 1969 (also called founding on this page) and opening to students on 14 September 1972. One founding year is not guessed.",
       "historyNoteRu": "Официальная история различает закон о планировании 1965 года, назначение первого президента в 1969 (на странице также названо основанием) и открытие для студентов 14 сентября 1972 года. Единый год основания не угадан."
     }
+  },
+  {
+    "id": "marquette-university",
+    "topic": "cost-current-unpublished",
+    "source": "https://www.marquette.edu/central/financial-aid/resources/undergraduate-cost-of-attendance.php",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor; exact scope in facts",
+    "campus": null,
+    "access": "html-read",
+    "quote": "2027-28 Undergraduate Cost of Attendance",
+    "facts": {
+      "year": "2027–2028",
+      "status": "not-published",
+      "scope": "Current-year table TBD; instruments $0–TBD is not zero total",
+      "previousYear": "2026–2027",
+      "previousTuition": 53890,
+      "previousStudentFees": 1200,
+      "previousUniversityHousingFood": 17480,
+      "programme": "Full-time undergraduate; living arrangement categories differ",
+      "transportation": "Regional travel allowances do not establish travel from Uzbekistan",
+      "annualCost": null
+    }
+  },
+  {
+    "id": "marquette-university",
+    "topic": "international-aid-scope",
+    "source": "https://www.marquette.edu/oie/prospective-students/scholarships.php",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor; exact scope in facts",
+    "campus": null,
+    "access": "html-read",
+    "quote": "Marquette university is not able to award need-based scholarships. Merit scholarships cannot cover all costs.",
+    "facts": {
+      "needBased": false,
+      "automaticConsideration": "Père Marquette Award",
+      "otherAwards": "Separate application after admission",
+      "largestCoverage": "Largest merit award leaves room, board, fees and books to student/family",
+      "largestNamedAward": null,
+      "renewal": "Not yet checked",
+      "stacking": "Not yet checked"
+    }
+  },
+  {
+    "id": "wabash-college",
+    "topic": "international-awards",
+    "source": "https://www.wabash.edu/admissions/international/scholarships",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor; exact scope in facts",
+    "campus": null,
+    "access": "html-read",
+    "quote": "Merit-based scholarships up to $48,000 per year.",
+    "facts": {
+      "name": "Presidential International Scholarship",
+      "maximumAnnualUSD": 48000,
+      "automaticConsideration": true,
+      "scope": "Competitive international merit; award in admission letter if granted",
+      "renewal": "Up to eight semesters; SAP required, exact standard not yet reviewed",
+      "priority": "15 January annual rule; year not established",
+      "otherAwards": "Early Decision $2000/year and two virtual events $2000/year, renewable eight semesters with SAP; stacking with Presidential not settled",
+      "employment": "WISE up to $4500/year is earned employment, not guaranteed scholarship",
+      "fullTuition": null,
+      "fullRide": null,
+      "largestComparison": "Not yet complete"
+    }
+  },
+  {
+    "id": "stevens-institute-of-technology",
+    "topic": "cost-reference",
+    "source": "https://www.stevens.edu/admission-aid/tuition-financial-aid/undergraduate-costs-and-aid",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor; exact scope in facts",
+    "campus": null,
+    "access": "html-read",
+    "quote": "2026-2027 Undergraduate Costs for Students Residing on Campus",
+    "facts": {
+      "year": "2026–2027",
+      "status": "previous-cycle",
+      "period": "Full-time undergraduate academic year",
+      "tuitionFees": 68230,
+      "housingMeals": 20744,
+      "booksSupplies": 1200,
+      "miscellaneous": 1050,
+      "conditionalFederalLoanFee": 70,
+      "publishedCOA": 91294,
+      "insurance": "Not established by this table",
+      "annualCost2027": null
+    }
   }
 ]

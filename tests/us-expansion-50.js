@@ -165,4 +165,17 @@ module.exports=function(env){
   ok(conn.costs.academicYear==='2026–2027'&&U.costArithmetic(conn).length===0&&
      U.budgetAmount(conn)===70649&&!DB.match.annualCost[conn.id]&&budget(conn,100000).status==='unknown',
      'UConn correctly itemised2026–27 COA excludes BGS/exchange and never confirms a Fall2027 budget');
+  var marq=U.uniById('marquette-university'),stevens=U.uniById('stevens-institute-of-technology');
+  ok(U.costStatus(marq)==='not-published'&&marq.costs.academicYear==='2027–2028'&&
+     !DB.match.annualCost[marq.id]&&budget(marq,100000).status==='unknown'&&
+     marq.scholarships.needBased.availableToInternational===false&&/TBD/.test(marq.costs.note),
+     'Marquette current-year TBD is not published, never zero; international merit leaves residual costs');
+  ok(stevens.costs.status==='previous-cycle'&&U.costArithmetic(stevens).length===0&&
+     !DB.match.annualCost[stevens.id]&&budget(stevens,100000).status==='unknown'&&/federal loans/.test(stevens.costs.note),
+     'Stevens previous-year COA keeps the federal-loan-only fee conditional and cannot confirm a Fall2027 budget');
+  var wabashAward=U.uniById('wabash-college').scholarships.merit[0];
+  ok(wabashAward.id==='presidential-international'&&wabashAward.deadlineScope==='annual-rule'&&
+     wabashAward.entryYear===null&&/48,000/.test(wabashAward.amount)&&/earned work/.test(wabashAward.note)&&
+     budget(U.uniById('wabash-college'),100000).status==='unknown',
+     'Wabash competitive maximum, earned employment and annual priority are never a guaranteed budget award or confirmed2027 date');
 };
