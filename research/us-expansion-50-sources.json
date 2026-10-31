@@ -695,5 +695,666 @@
       "language": null,
       "scope": "Direct official degree page read: Bachelor of Science, College of Engineering. Programme language remains unconfirmed."
     }
+  },
+  {
+    "id": "university-of-illinois-urbana-champaign",
+    "topic": "program-computer-science",
+    "source": "https://catalog.illinois.edu/undergraduate/engineering/computer-science-bs/",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Urbana-Champaign",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Computer Science, BS",
+    "facts": {
+      "field": "computer-science",
+      "level": "bachelor",
+      "language": null,
+      "scope": "Computer Science, BS; Grainger College of Engineering; 2026–2027"
+    }
+  },
+  {
+    "id": "university-of-texas-at-austin",
+    "topic": "program-computer-science",
+    "source": "https://www.cs.utexas.edu/undergraduate/core-degrees",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Austin",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Bachelor of Science in Computer Science",
+    "facts": {
+      "field": "computer-science",
+      "level": "bachelor",
+      "language": null,
+      "scope": "BS Computer Science and BSA Computer Science; entry-level CS students choose a degree later. Concentrations are not independent bachelor majors."
+    }
+  },
+  {
+    "id": "university-of-wisconsin-madison",
+    "topic": "program-computer-science",
+    "source": "https://guide.wisc.edu/undergraduate/letters-science/computer-sciences/computer-sciences-bs/",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Madison",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Computer Sciences, BS",
+    "facts": {
+      "field": "computer-science",
+      "level": "bachelor",
+      "language": null,
+      "scope": "Computer Sciences, BS; College of Letters & Science; 2026–2027"
+    }
+  },
+  {
+    "id": "rutgers-university-new-brunswick",
+    "topic": "program-computer-science",
+    "source": "https://www.sasundergrad.rutgers.edu/majors-and-core-curriculum/major/major-minor-details/computer-science-b-s",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "New Brunswick",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Computer Science (Major) | BS",
+    "facts": {
+      "field": "computer-science",
+      "level": "bachelor",
+      "language": null,
+      "scope": "Computer Science BS; SAS; 198S. Major declaration prerequisites are not first-year admission minimums."
+    }
+  },
+  {
+    "id": "university-of-california-santa-barbara",
+    "topic": "program-computer-science",
+    "source": "https://admissions.sa.ucsb.edu/majors",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Santa Barbara",
+    "intake": null,
+    "access": "html-read",
+    "quote": "five undergraduate majors",
+    "facts": {
+      "field": "computer-science",
+      "level": "bachelor",
+      "language": null,
+      "scope": "Computer Science is listed under College of Engineering undergraduate majors; Technology Management is a certificate, not a bachelor major. Page says five but lists six including AI; no inferred count."
+    }
+  },
+  {
+    "id": "university-of-georgia",
+    "topic": "program-computer-science",
+    "source": "https://bulletin.uga.edu/Program/Details/73962",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Athens",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Computer Science BS",
+    "facts": {
+      "field": "computer-science",
+      "level": "bachelor",
+      "language": null,
+      "scope": "Undergraduate major, Computer Science BS. Internal major entrance requirements do not establish a general first-year GPA."
+    }
+  },
+  {
+    "id": "virginia-tech",
+    "topic": "program-computer-science",
+    "source": "https://www.vt.edu/academics/majors/computer-science.html",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Blacksburg",
+    "intake": null,
+    "access": "html-read",
+    "quote": "All students wishing to study this major should apply to General Engineering.",
+    "facts": {
+      "field": "computer-science",
+      "level": "bachelor",
+      "language": null,
+      "scope": "Computer Science undergraduate major; students initially apply to General Engineering. Language not stated."
+    }
+  },
+  {
+    "id": "pennsylvania-state-university-university-park",
+    "topic": "program-computer-science",
+    "source": "https://bulletins.psu.edu/undergraduate/colleges/engineering/computer-science-bs/",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "University Park",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Computer Science, B.S.",
+    "facts": {
+      "field": "computer-science",
+      "level": "bachelor",
+      "language": null,
+      "scope": "2026–2027 undergraduate Engineering CS BS; University Park is a permitted ending campus. Other listed campuses do not share one automatic price."
+    }
+  },
+  {
+    "id": "university-of-california-davis",
+    "topic": "uc-system-fall-2027-dates",
+    "source": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/dates-and-deadlines.html",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": null,
+    "intake": "Fall 2027",
+    "access": "html-read",
+    "quote": "Application opens for fall 2027 applicants.",
+    "facts": {
+      "applicationOpens": "2026-08-01",
+      "filing": "2026-10-01 to 2026-11-30",
+      "reply": "2027-05-01",
+      "finalOfficialTranscripts": "2027-07-01",
+      "timezone": null,
+      "scope": "Official UC system calendar applies to first-year UC campuses; final transcripts postmarked or electronically submitted, not an online application event."
+    }
+  },
+  {
+    "id": "university-of-california-davis",
+    "topic": "uc-system-international-fee",
+    "source": "https://admission.universityofcalifornia.edu/apply-now.html",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": null,
+    "intake": null,
+    "access": "html-read",
+    "quote": "$95 for international and non-immigrant applicants",
+    "facts": {
+      "amount": 95,
+      "currency": "USD",
+      "period": "per campus",
+      "refundable": false,
+      "waiver": "Ordinary waiver limited to US citizens, permanent residents and AB540-eligible applicants; not a blanket international waiver."
+    }
+  },
+  {
+    "id": "university-of-california-irvine",
+    "topic": "uc-system-fall-2027-dates",
+    "source": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/dates-and-deadlines.html",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": null,
+    "intake": "Fall 2027",
+    "access": "html-read",
+    "quote": "Application opens for fall 2027 applicants.",
+    "facts": {
+      "applicationOpens": "2026-08-01",
+      "filing": "2026-10-01 to 2026-11-30",
+      "reply": "2027-05-01",
+      "finalOfficialTranscripts": "2027-07-01",
+      "timezone": null,
+      "scope": "Official UC system calendar applies to first-year UC campuses; final transcripts postmarked or electronically submitted, not an online application event."
+    }
+  },
+  {
+    "id": "university-of-california-irvine",
+    "topic": "uc-system-international-fee",
+    "source": "https://admission.universityofcalifornia.edu/apply-now.html",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": null,
+    "intake": null,
+    "access": "html-read",
+    "quote": "$95 for international and non-immigrant applicants",
+    "facts": {
+      "amount": 95,
+      "currency": "USD",
+      "period": "per campus",
+      "refundable": false,
+      "waiver": "Ordinary waiver limited to US citizens, permanent residents and AB540-eligible applicants; not a blanket international waiver."
+    }
+  },
+  {
+    "id": "university-of-california-santa-barbara",
+    "topic": "uc-system-fall-2027-dates",
+    "source": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/dates-and-deadlines.html",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": null,
+    "intake": "Fall 2027",
+    "access": "html-read",
+    "quote": "Application opens for fall 2027 applicants.",
+    "facts": {
+      "applicationOpens": "2026-08-01",
+      "filing": "2026-10-01 to 2026-11-30",
+      "reply": "2027-05-01",
+      "finalOfficialTranscripts": "2027-07-01",
+      "timezone": null,
+      "scope": "Official UC system calendar applies to first-year UC campuses; final transcripts postmarked or electronically submitted, not an online application event."
+    }
+  },
+  {
+    "id": "university-of-california-santa-barbara",
+    "topic": "uc-system-international-fee",
+    "source": "https://admission.universityofcalifornia.edu/apply-now.html",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": null,
+    "intake": null,
+    "access": "html-read",
+    "quote": "$95 for international and non-immigrant applicants",
+    "facts": {
+      "amount": 95,
+      "currency": "USD",
+      "period": "per campus",
+      "refundable": false,
+      "waiver": "Ordinary waiver limited to US citizens, permanent residents and AB540-eligible applicants; not a blanket international waiver."
+    }
+  },
+  {
+    "id": "university-of-california-davis",
+    "topic": "uc-system-english-floor",
+    "source": "https://admission.universityofcalifornia.edu/admission-requirements/first-year-requirements/english-language-proficiency.html",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": null,
+    "intake": null,
+    "access": "html-read",
+    "quote": "Score 6.5 or higher",
+    "facts": {
+      "ieltsSystemFloor": 6.5,
+      "toeflPre2026SystemFloor": 80,
+      "toeflPost2026SystemFloor": 4.5,
+      "scope": "UC system floor only; campuses may set higher requirements. Do not call a system minimum the confirmed campus-specific minimum. No One Skill Retake/MyBest; digital SAT Reading/Writing not an approved English route."
+    }
+  },
+  {
+    "id": "university-of-california-irvine",
+    "topic": "uc-system-english-floor",
+    "source": "https://admission.universityofcalifornia.edu/admission-requirements/first-year-requirements/english-language-proficiency.html",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": null,
+    "intake": null,
+    "access": "html-read",
+    "quote": "Score 6.5 or higher",
+    "facts": {
+      "ieltsSystemFloor": 6.5,
+      "toeflPre2026SystemFloor": 80,
+      "toeflPost2026SystemFloor": 4.5,
+      "scope": "UC system floor only; campuses may set higher requirements. Do not call a system minimum the confirmed campus-specific minimum. No One Skill Retake/MyBest; digital SAT Reading/Writing not an approved English route."
+    }
+  },
+  {
+    "id": "rutgers-university-new-brunswick",
+    "topic": "first-year-policy-and-fee",
+    "source": "https://admissions.rutgers.edu/apply/first-year-applicants",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "New Brunswick",
+    "intake": "Through 2027",
+    "access": "html-read",
+    "quote": "maintains test-optional and test-blind policies through 2027",
+    "facts": {
+      "satAct": "New Brunswick optional; Newark blind with BA/MD exception; Camden optional with BS/DO exception. Keep campus policies separate.",
+      "feeUSD": 70,
+      "essay": "Required with either application; Rutgers Application or Common App.",
+      "waiverInternational": null,
+      "scope": "Fee waiver routes described but international availability not separately confirmed."
+    }
+  },
+  {
+    "id": "rutgers-university-new-brunswick",
+    "topic": "international-english-and-records",
+    "source": "https://admissions.rutgers.edu/apply/international-applicants",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "New Brunswick",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Test  | New Brunswick  | Newark  | Camden",
+    "facts": {
+      "ielts": 6.5,
+      "toeflOld": 79,
+      "toeflNew": 4.5,
+      "det": 115,
+      "exceptions": "New Brunswick Pharmacy/Nursing TOEFL100/5.5 and DET130. Source uses Jan21 vs Jan22 cutoff; preserve its wording, do not silently harmonize.",
+      "documents": "Self-report international education in STARS; official records on enrolment; non-English records need professional/qualified translation on letterhead.",
+      "uzbekistan": "Exact Uzbek qualification not established.",
+      "waiver": "English-medium-school waiver assessed individually; not automatic."
+    }
+  },
+  {
+    "id": "university-of-texas-at-austin",
+    "topic": "cost",
+    "source": "https://onestop.utexas.edu/managing-costs/cost-tuition-rates/cost-of-attendance/",
+    "verified": "2026-10-31",
+    "category": "Nonresident full-time undergraduates",
+    "campus": "Austin",
+    "intake": "2026–2027 cost reference",
+    "access": "html-read",
+    "quote": "2026-2027",
+    "facts": {
+      "currency": "USD",
+      "period": "fall and spring",
+      "load": "Full-time undergraduate, 12 semester hours",
+      "tuition": {
+        "min": 42554,
+        "max": 51106
+      },
+      "housingFood": {
+        "min": 15420,
+        "max": 15580
+      },
+      "transport": 1840,
+      "books": 724,
+      "personal": 3666,
+      "publishedTotal": {
+        "min": 64204,
+        "max": 72916
+      },
+      "status": "previous-cycle",
+      "scope": "Nonresident undergraduate range, not a confirmed 2027–2028 international quote; verify insurance and individual programme rates separately."
+    }
+  },
+  {
+    "id": "university-of-california-irvine",
+    "topic": "uc-system-sat-act",
+    "source": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/filling-out-the-application.html",
+    "verified": "2026-10-31",
+    "category": "UC first-year applicants including international",
+    "campus": "Irvine",
+    "intake": null,
+    "access": "html-read",
+    "quote": "UC will not consider SAT or ACT test scores",
+    "facts": {
+      "policy": "not-used",
+      "scope": "Admission and scholarship selection; reported scores can meet specified eligibility or placement requirements, not admission selection. Standing policy, no named 2027 expiry."
+    }
+  },
+  {
+    "id": "university-of-california-santa-barbara",
+    "topic": "uc-system-sat-act",
+    "source": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/filling-out-the-application.html",
+    "verified": "2026-10-31",
+    "category": "UC first-year applicants including international",
+    "campus": "Santa Barbara",
+    "intake": null,
+    "access": "html-read",
+    "quote": "UC will not consider SAT or ACT test scores",
+    "facts": {
+      "policy": "not-used",
+      "scope": "Admission and scholarship selection; reported scores can meet specified eligibility or placement requirements, not admission selection. Standing policy, no named 2027 expiry."
+    }
+  },
+  {
+    "id": "university-of-wisconsin-madison",
+    "topic": "first-year-english-minima",
+    "source": "https://admissions.wisc.edu/first-year-academic-requirements/",
+    "verified": "2026-10-31",
+    "category": "First-year applicants educated in non-English-speaking countries",
+    "campus": "Madison",
+    "intake": null,
+    "access": "html-read",
+    "quote": "IELTS  | 6.5+",
+    "facts": {
+      "ieltsMin": 6.5,
+      "toeflPre2026Min": 80,
+      "toeflPost2026Min": 4.5,
+      "detMin": 115,
+      "scope": "Waiver if English was primary instruction in all four secondary years. TOEFL cutoff on or before January20 versus January21 or later. No invented recommended mean."
+    }
+  },
+  {
+    "id": "virginia-tech",
+    "topic": "international-english-minima",
+    "source": "https://www.vt.edu/admissions/international/requirements.html",
+    "verified": "2026-10-31",
+    "category": "International first-year applicants whose native language is not English",
+    "campus": "Blacksburg",
+    "intake": null,
+    "access": "html-read",
+    "quote": "6.5 or higher with no sub score below 6.5",
+    "facts": {
+      "ieltsMin": 6.5,
+      "ieltsSectionMin": 6.5,
+      "toeflPost2026Min": 4.5,
+      "toeflPost2026SectionMin": 4.0,
+      "scope": "Page mistakenly labels BOTH legacy80 and new4.5 rows as on/after January21,2026; old-scale cutoff not confirmed. Do not silently repair source. No MyBest/Essentials/ITP Plus; regular degree route distinct from VTLCI pathway. SAT/ACT optional separately."
+    }
+  },
+  {
+    "id": "virginia-tech",
+    "topic": "first-year-deadline-calendar",
+    "source": "https://www.vt.edu/admissions/undergraduate/apply/dates-and-deadlines.html",
+    "verified": "2026-10-31",
+    "category": "International first-year applicants; separate online application and materials",
+    "campus": "Blacksburg",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Applications for Regular Decision due January 15",
+    "facts": {
+      "earlyAction": "November15; materialsDecember1",
+      "regularDecision": "January15; materialsJanuary24",
+      "status": "annual-rule",
+      "scope": "Title says 2026–2027, but the parsed rows do not explicitly name Fall2027 entry. Preserve annual rules rather than infer an exact intake from the review date. No published zone captured."
+    }
+  },
+  {
+    "id": "university-of-wisconsin-madison",
+    "topic": "uzbekistan-school-credentials",
+    "source": "https://admissions.wisc.edu/international/",
+    "verified": "2026-10-31",
+    "category": "First-year applicants educated in Uzbekistan; current pupils versus completed school",
+    "campus": "Madison",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Official transcripts from years 8–11",
+    "facts": {
+      "currentPupils": "Official years8–10 transcripts; final Attestat O’rta Ma’lumot To’g’risida Shahodtnoma (Certificate of Completed Upper Secondary Education) to finalize admission.",
+      "graduates": "Official years8–11 transcripts and official copy of the named Attestat.",
+      "translations": "Original plus school/institution or EducationUSA official translation under general instructions on same page.",
+      "unresolved": "No Uzbek minimum grade/subject thresholds, separate academic lyceum diploma equivalence or foundation requirement established. Named credential/document route is not a guarantee of admission."
+    }
+  },
+  {
+    "id": "pennsylvania-state-university-university-park",
+    "topic": "uzbekistan-school-credentials",
+    "source": "https://www.psu.edu/resources/international-students/credentials/uzbekistan",
+    "verified": "2026-10-31",
+    "category": "Uzbekistan first-year applicants; final official documents after accepting admission offer",
+    "campus": "University Park subject to selected starting/ending campus",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Official copy of the Attestat o Srednem Obrazovanii",
+    "facts": {
+      "application": "STARS self-reports every class and grade for last three years and current classes; select intended semester, programme, starting and ending campus.",
+      "afterAcceptingOffer": "Official transcripts for years9,10,11,12 and official Attestat o Srednem Obrazovanii; separate literal line-by-line English translations required.",
+      "unresolved": "Page still lists years9–12. Treatment of an 11-year Uzbek school record, academic lyceum diploma, grade/subject thresholds and any preparatory requirement not settled. Do not infer a guaranteed direct-admission eligibility from final-document list."
+    }
+  },
+  {
+    "id": "university-of-california-davis",
+    "topic": "identity-history",
+    "source": "https://www.ucdavis.edu/about",
+    "verified": "2026-10-31",
+    "category": "Institutional identity and history, not admission eligibility",
+    "campus": null,
+    "intake": null,
+    "access": "html-read",
+    "quote": "UC Davis was founded in 1908",
+    "facts": {
+      "founded": 1908,
+      "type": "Public university",
+      "scope": "Opened as University Farm; origins distinct from later independent-campus development."
+    }
+  },
+  {
+    "id": "university-of-california-irvine",
+    "topic": "identity-history",
+    "source": "https://uci.edu/about/",
+    "verified": "2026-10-31",
+    "category": "Institutional identity and history, not admission eligibility",
+    "campus": null,
+    "intake": null,
+    "access": "html-read",
+    "quote": "In 1965, the University of California, Irvine was founded",
+    "facts": {
+      "founded": 1965,
+      "type": "Public university",
+      "scope": "Official About page classifies UC Irvine among public universities; no ranking copied."
+    }
+  },
+  {
+    "id": "university-of-illinois-urbana-champaign",
+    "topic": "identity-history",
+    "source": "https://illinois.edu/about/",
+    "verified": "2026-10-31",
+    "category": "Institutional identity and history, not admission eligibility",
+    "campus": null,
+    "intake": null,
+    "access": "html-read",
+    "quote": "since our founding in 1867",
+    "facts": {
+      "founded": 1867,
+      "type": "Public university",
+      "scope": "Urbana-Champaign public research and land-grant identity; not University of Illinois Chicago."
+    }
+  },
+  {
+    "id": "university-of-texas-at-austin",
+    "topic": "identity-history",
+    "source": "https://www.utexas.edu/about-texas",
+    "verified": "2026-10-31",
+    "category": "Institutional identity and history, not admission eligibility",
+    "campus": null,
+    "intake": null,
+    "access": "html-read",
+    "quote": "founded in 1883",
+    "facts": {
+      "founded": 1883,
+      "type": "Public university",
+      "scope": "Austin,Texas; no ranking copied."
+    }
+  },
+  {
+    "id": "university-of-wisconsin-madison",
+    "topic": "identity-history",
+    "source": "https://www.wisc.edu/about/",
+    "verified": "2026-10-31",
+    "category": "Institutional identity and history, not admission eligibility",
+    "campus": null,
+    "intake": null,
+    "access": "html-read",
+    "quote": "Since its founding in 1848",
+    "facts": {
+      "founded": 1848,
+      "type": "Public university",
+      "scope": "Public land-grant campus, distinct from the other Universities of Wisconsin."
+    }
+  },
+  {
+    "id": "rutgers-university-new-brunswick",
+    "topic": "identity-history",
+    "source": "https://newbrunswick.rutgers.edu/about",
+    "verified": "2026-10-31",
+    "category": "Institutional identity and history, not admission eligibility",
+    "campus": null,
+    "intake": null,
+    "access": "html-read",
+    "quote": "Chartered in 1766",
+    "facts": {
+      "founded": 1766,
+      "type": "Public university",
+      "scope": "New Brunswick public flagship; charter origin named on campus About page, not dates of the Newark/Camden institutions."
+    }
+  },
+  {
+    "id": "university-of-california-santa-barbara",
+    "topic": "identity-history",
+    "source": "https://www.ucsb.edu/about",
+    "verified": "2026-10-31",
+    "category": "Institutional identity and history, not admission eligibility",
+    "campus": null,
+    "intake": null,
+    "access": "html-read",
+    "quote": "history dates to 1891",
+    "facts": {
+      "founded": null,
+      "type": null,
+      "scope": "History traced to 1891 predecessor; not a claim that the UC campus existed under current status in 1891."
+    }
+  },
+  {
+    "id": "university-of-california-santa-barbara",
+    "topic": "identity-history-milestones",
+    "source": "https://www.ucsb.edu/about/history",
+    "verified": "2026-10-31",
+    "category": "Institutional identity and history, not admission eligibility",
+    "campus": null,
+    "intake": null,
+    "access": "html-read",
+    "quote": "Entering the UC",
+    "facts": {
+      "founded": null,
+      "type": null,
+      "scope": "Joined UC as Santa Barbara College in1944; moved to present Goleta site1954; designated general UC campus1958. No arbitrary single founding year chosen."
+    }
+  },
+  {
+    "id": "university-of-california-santa-barbara",
+    "topic": "identity-public-type",
+    "source": "https://www.ucsb.edu/about/facts-and-figures",
+    "verified": "2026-10-31",
+    "category": "Institutional identity and history, not admission eligibility",
+    "campus": null,
+    "intake": null,
+    "access": "html-read",
+    "quote": "U.S. Public University",
+    "facts": {
+      "founded": null,
+      "type": "Public university",
+      "scope": "Public institutional identity only; no ranking, graduate count or aggregate programme count imported."
+    }
+  },
+  {
+    "id": "university-of-georgia",
+    "topic": "identity-history",
+    "source": "https://sclfind.libs.uga.edu/catalog/UA22-010",
+    "verified": "2026-10-31",
+    "category": "Institutional identity and history, not admission eligibility",
+    "campus": null,
+    "intake": null,
+    "access": "html-read",
+    "quote": "University of Georgia charter, 1785 January 27",
+    "facts": {
+      "founded": 1785,
+      "type": null,
+      "scope": "Founding charter dated January27,1785. It does not establish the year a particular bachelor programme began."
+    }
+  },
+  {
+    "id": "virginia-tech",
+    "topic": "identity-history",
+    "source": "https://cired.vt.edu/About/history.html",
+    "verified": "2026-10-31",
+    "category": "Institutional identity and history, not admission eligibility",
+    "campus": null,
+    "intake": null,
+    "access": "html-read",
+    "quote": "Virginia Tech was founded in 1872 as a public land-grant university.",
+    "facts": {
+      "founded": 1872,
+      "type": "Public university",
+      "scope": "Institutional origin; Centre history is not a separate university."
+    }
+  },
+  {
+    "id": "pennsylvania-state-university-university-park",
+    "topic": "identity-history",
+    "source": "https://www.psu.edu/about/traditions",
+    "verified": "2026-10-31",
+    "category": "Institutional identity and history, not admission eligibility",
+    "campus": null,
+    "intake": null,
+    "access": "html-read",
+    "quote": "Founded in 1855",
+    "facts": {
+      "founded": 1855,
+      "type": null,
+      "scope": "Institution founded1855; public status independently confirmed in financial-guarantee source. Do not apply all campuses as one price or ending campus."
+    }
   }
 ]

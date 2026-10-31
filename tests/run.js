@@ -51,7 +51,7 @@ var byCountry = {};
 DB.universities.forEach(function (u) { byCountry[u.country] = (byCountry[u.country] || 0) + 1; });
 /* United States expansion (October 2026): 110 records grow to 200 in batches.
    US_NOW is raised with each batch; the other countries must not change. */
-var US_NOW = 200, US_TARGET = 200;
+var US_NOW = 210, US_TARGET = 250;
 /* Canada (October 2026): 50 universities added in batches of ten. */
 var CA_NOW = 50, CA_TARGET = 50;
 ok(byCountry.us === US_NOW && US_NOW <= US_TARGET, US_NOW + ' United States records (target ' + US_TARGET + ')', 'found ' + byCountry.us);
@@ -795,6 +795,8 @@ require('./data-integration.js')({ U: U, DB: DB, ok: ok });
 group('loading failure regressions');
 require('./loading.js')(ok);
 require('./loading-gate.js')(ok);
+group('approved USA +50 expansion regressions');
+require('./us-expansion-50.js')({U:U,M:M,DB:DB,ok:ok});
 console.log('\n' + passed + ' passed, ' + failed + ' failed');
 /* Exit with a status only when run directly; tests/links.js loads this file for the data. */
 if (require.main === module) process.exit(failed ? 1 : 0);
