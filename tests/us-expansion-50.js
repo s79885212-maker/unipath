@@ -126,4 +126,22 @@ module.exports=function(env){
   ok(utk&&/including CS/.test(U.satLabel(utk))&&utk.admissions.deadlines.filter(function(d){return d.kind==='documents';}).length===2&&
      stev&&/Pre-Law/.test(U.satLabel(stev))&&!stev.academics.sat.min&&stev.academics.sat.cycle==='Through Fall 2029',
      'Tennessee and Stevens retain named programme test exceptions without leaking special minima into general admission');
+  var hill=U.uniById('hillsdale-college'),byu=U.uniById('brigham-young-university');
+  ok(fresh.length===50&&DB.universities.length===420&&hill&&!hill.programs.includes('computer-science')&&
+     hill.programs.includes('mathematics')&&/minor only/.test(hill.programNote),
+     'all fifty approved institutions are present; Hillsdale CS minor never becomes a confirmed bachelor-major match');
+  ok(byu&&byu.city==='Provo'&&byu.academics.sat.policy===null&&U.costStatus(byu)==='previous-cycle'&&
+     !DB.match.annualCost[byu.id]&&/Religious membership is not citizenship/.test(byu.costs.note)&&
+     /endorsement/.test(byu.admissions.notes.join(' ')),
+     'BYU Provo keeps endorsement, religious tuition categories, semester/year and unresolved cohort testing explicit');
+  var sf=U.uniById('university-of-san-francisco'),ucf=U.uniById('university-of-central-florida');
+  ok(sf&&U.ieltsMin(sf)===6.0&&sf.english.ielts.recommended===6.5&&sf.english.toefl.scales[1].min===3.5&&
+     sf.english.toefl.scales[1].recommended===4.5&&U.satPolicy(sf)==='optional'&&
+     ucf&&U.satPolicy(ucf)==='required-alternatives'&&/institution outside the US/.test(ucf.admissions.deadlines[0].note),
+     'San Francisco separates preferred/minimum English and differs from Florida; UCF abroad deadline follows prior institution');
+  var alb=U.uniById('university-at-albany-suny'),pac=U.uniById('university-of-the-pacific'),day=U.uniById('university-of-dayton');
+  ok(alb&&!DB.match.annualCost[alb.id]&&budget(alb,100000).status==='unknown'&&
+     pac&&pac.city==='Stockton'&&pac.academics.sat.policy===null&&U.ieltsMin(pac)===null&&
+     day&&day.admissions.deadlines[0].date==='1 May',
+     'undated Albany cost, blocked Pacific current policy and Dayton international May1 are not filled from unrelated routes');
 };

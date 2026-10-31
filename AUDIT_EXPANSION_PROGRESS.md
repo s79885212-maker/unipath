@@ -1073,3 +1073,7 @@ Watchdog запускается до DOMContentLoaded и ждёт явный uni
 
 ### v176 — 31 октября 2026: четвёртая десятка США
 410 учреждений/США240,173 записи источников,330passed/0failed. Разделены Yeshiva/Stern, Wabash men/recommendedEnglish/funding declaration, Tennessee/Stevens/GW programme exceptions. BaylorBIFAA priorityconflict сохранён;0USDfee подтверждён. v175 офлайнChrome288сочетаний/10reload,issues0/errors0. Фото и полная глубина исследования ещё не завершены;main/dev не менялись.
+
+
+### v177 — 31 октября 2026: утверждённые50добавлены, исследованиепродолжается
+420/США250/шестьстран,205источников,334passed/0failed. HillsdaleCSminorисключён;BYUProvo/религиозныесеместровыетарифы,USFCAminimumvsPreferred,GMUScoreOptionalmath,UCFabroad,Daytonintl,PacificPharmacyразделены.403необходились,пустотынескрыты.v176Chrome288/10reloadбезissues/errors.Фото/стоимости/крупнейшиенаградыещёисследуются;main/devнеменялись.

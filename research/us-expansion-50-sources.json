@@ -3176,5 +3176,563 @@
       "language": null,
       "scope": "Named bachelor degree only; minor, concentration and graduate programmes excluded."
     }
+  },
+  {
+    "id": "hillsdale-college",
+    "topic": "international-first-year-admission",
+    "source": "https://www.hillsdale.edu/admissions-aid/admissions-2/application-process-2/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Hillsdale",
+    "access": "html-read",
+    "quote": "neither online application requires a fee",
+    "facts": {
+      "fee": 0,
+      "sat": "ACT/CLT/SAT optional; highestsinglecomposite,no superscore.",
+      "documents": "Originalschoolrecords+Englishtranslation,2academicrecommendations,essay/3shortanswers,resume. Internationalevaluationstronglyrecommendednotmandatory;TEC/NACESallowed.",
+      "english": "TOEFL/equivalentproofrequired;numericIELTS/TOEFLminimumnotestablishedfrompage.",
+      "uzbekistan": "ExactAttestat/lyceumrequirementsunknown."
+    }
+  },
+  {
+    "id": "hillsdale-college",
+    "topic": "admission-deadlines",
+    "source": "https://www.hillsdale.edu/admissions-aid/admissions-2/frequently-asked-questions/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Hillsdale",
+    "access": "html-read",
+    "quote": "November 1 is the binding Early Decision deadline",
+    "facts": {
+      "deadlines": "Yearless FallED Nov1binding;allapp/materialsMar15. LeadershipscholarshipNov15/meritpriorityDec15 separate.",
+      "statistics": "Fall2024midrangeACT30–33,SAT1340–1470,GPA3.95–4.0 notminima/notnecessarilyexplicit25–75.",
+      "cost": "2025–26 reference48210total/32730tuition/14020roomboard/1460fees NOT2027–28."
+    }
+  },
+  {
+    "id": "hillsdale-college",
+    "topic": "programs",
+    "source": "https://www.hillsdale.edu/about/college-profile/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Hillsdale",
+    "access": "html-read",
+    "quote": "Computer Science",
+    "facts": {
+      "programs": {
+        "mathematics": "Mathematics — bachelor major",
+        "economics": "Economics — bachelor major"
+      },
+      "language": null,
+      "scope": "BA/BS bachelordegrees; mathematics/economics listedmajors. ComputerScience explicitlyMINORONLY;notconfirmedCSmajor.",
+      "founded": 1844,
+      "type": "Independent nonsectarianChristian coeducational residentialliberalartscollege."
+    }
+  },
+  {
+    "id": "brigham-young-university",
+    "topic": "unavailable-admission-source",
+    "source": "https://enrollment.byu.edu/admissions/international-students",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Provo",
+    "access": "403-blocked",
+    "quote": null,
+    "facts": null,
+    "unresolved": "Direct access unavailable; search snippets do not verify requirements. No bypass attempted."
+  },
+  {
+    "id": "brigham-young-university",
+    "topic": "international-first-year-admission",
+    "source": "https://policy.byu.edu/view/admission-policy",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Provo",
+    "access": "html-read",
+    "quote": "Testing requirements may be suspended for a specific applicant pool",
+    "facts": {
+      "sat": "StandingpolicyrequiresSAT/ACTunless24gradedpostschoolcollegecredits,butexplicitlyallowssuspension. CurrentFall2027poolnotestablished;noautomaticrequired/optionalclaim.",
+      "documents": "Non-US-accreditedsecondaryeducationrequirespaidforeigncredentialevaluation. ExactUzbekqualificationnotestablished.",
+      "english": "ApprovedEnglishexamrequiredifprimarylanguageotherthanEnglish;numericthresholdunconfirmed.",
+      "conditions": "Minimumage17atstart;ecclesiasticalendorsement/HonorCodestandingandexceptionsprocess;do notsubmitforeligibilityautomatically.",
+      "deadlines": "Policyrequiresallmaterialsbytermdeadlinewithoutpublishingdate."
+    }
+  },
+  {
+    "id": "brigham-young-university",
+    "topic": "tuition-reference",
+    "source": "https://catalog.byu.edu/policy/tuition-and-fees",
+    "verified": "2026-10-31",
+    "intake": "2026–2027",
+    "category": "full-time undergraduate tuition by religious membership",
+    "campus": "Provo",
+    "access": "html-read",
+    "quote": "2026-2027",
+    "facts": {
+      "currency": "USD",
+      "year": "2026–2027",
+      "period": "per Fall/Winter semester",
+      "tuition": "Undergraduate12+credits:3548Latter-daySaint/7096non-Latter-daySaint;spring/summersixcreditsdifferent. NotannualorfullCOA;religiouscategorynotcitizenship. Not2027–28."
+    }
+  },
+  {
+    "id": "university-of-san-francisco",
+    "topic": "international-first-year-admission",
+    "source": "https://www.usfca.edu/admission/undergraduate/international-first-year",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "San Francisco",
+    "access": "html-read",
+    "quote": "USF does not require students to submit standardized test scores",
+    "facts": {
+      "sat": "OptionalSAT/ACT,superscore. Englishproofstillrequiredunlesswaiver.",
+      "documents": "Eachschoolofficialtranscript+certifiedEnglishtranslation,schoolreport,financesforF1/J1.",
+      "fee": "Nonrefundfeeexists,amountnotprinted.",
+      "deadlines": "Yearless fallJanuary15;EA/ED/RDroutesmentionedbutindividualdatesrequireseparateverification.",
+      "aid": "Automaticmeritconsiderationnotawardguarantee;largestamountunknown."
+    }
+  },
+  {
+    "id": "university-of-san-francisco",
+    "topic": "english",
+    "source": "https://www.usfca.edu/admission/undergraduate/english-language-proficiency",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "San Francisco",
+    "access": "html-read",
+    "quote": "Preferred Score  | Minimum Required Score*",
+    "facts": {
+      "ieltsMin": 6.0,
+      "ieltsPreferred": 6.5,
+      "toeflPreMin": 65,
+      "toeflPrePreferred": 80,
+      "toeflPostMin": 3.5,
+      "toeflPostPreferred": 4.5,
+      "detMin": 100,
+      "detPreferred": 125,
+      "scope": "Minimumandpreferredcolumnsdistinct. Anyextralanguagesupport/pathwayfootnoteconditionsnotestablishedfromreadtable."
+    }
+  },
+  {
+    "id": "george-mason-university",
+    "topic": "international-first-year-admission",
+    "source": "https://www.gmu.edu/freshman/requirements/international",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Fairfax",
+    "access": "html-read",
+    "quote": "four years of high school mathematics course",
+    "facts": {
+      "sat": "ScoreOptionalconditionalforCS/Engineering:4mathyears,oneaboveAlgebraIIbysenioryear,equivalentB+all. NoautomaticUzbekmarkconversion.",
+      "documents": "Officialoriginalschoolrecords/leavingcertificates+certifiedEnglishtranslation,schoolreport,2recommendationssuggested,essayencouraged,gapenrolmentresume.",
+      "fee": "Paidfeeexists,amountnotverified."
+    }
+  },
+  {
+    "id": "george-mason-university",
+    "topic": "english",
+    "source": "https://www.gmu.edu/international/english-language-requirements",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Fairfax",
+    "access": "html-read",
+    "quote": "No minimum subsection score required",
+    "facts": {
+      "ielts": 6.5,
+      "toeflPre": 80,
+      "toeflPost": 4.5,
+      "det": 110,
+      "scope": "GeneralIELTSsub6/TOEFLoldsub18/newsub4;EngineeringComputingwaivessectionminima sameoverall. Within2yrs,TOEFLHome/MyBestaccepted;IELTSOneSkillaccepted,Indicatornot. Korea/pathwayseparate."
+    }
+  },
+  {
+    "id": "george-mason-university",
+    "topic": "admission-deadlines",
+    "source": "https://www.gmu.edu/freshman/dates-deadlines",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Fairfax",
+    "access": "html-read",
+    "quote": "November 1, Nonbinding early action",
+    "facts": {
+      "deadlines": "Yearless EA Nov1nonbinding, RD Feb1. FAFSA/VASA prioritynotordinaryinternationalF1route."
+    }
+  },
+  {
+    "id": "university-at-albany-suny",
+    "topic": "international-first-year-admission",
+    "source": "https://www.albany.edu/international-admissions/apply-international-undergraduate-student",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Albany",
+    "access": "html-read",
+    "quote": "70 (4 on new scale)",
+    "facts": {
+      "policy": "OptionalSATACT.",
+      "ielts": 6.0,
+      "toeflPre": 70,
+      "toeflPost": 4.0,
+      "det": 95,
+      "documents": "Officialschoolrecords+certifiedEnglishtranslation,directschool;finalgraduationrecordafteroffer. Evaluation/Uzbekconditionsneedseparatereview.",
+      "deadlines": "YearlessEA Nov1/RDMar1,rollingreview. TemporaryfreeweeksOct19–Nov2,2026notpermanentzero fee.",
+      "cost": "54354oncampusannualestimateNOACADEMICYEAR;45008offcampusonlyjuniors/seniors. Notcurrent2027annualCost.",
+      "award": "GlobalExcellence max20500peryear/82000over4;renewGPA2.5continuousfulltimeout-of-statetuition. Meritcompetitive,notguaranteed/netprice;largestnotyetverified."
+    }
+  },
+  {
+    "id": "university-of-central-florida",
+    "topic": "international-first-year-admission",
+    "source": "https://www.ucf.edu/admissions/undergraduate/international/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Orlando",
+    "access": "html-read",
+    "quote": "International Abroad (Freshman)",
+    "facts": {
+      "fee": 30,
+      "policy": "SATorACTorCLTrequired,official. SAT/ACTwithin5yrs,CLTafterJuly1,2023.",
+      "ielts": 6.5,
+      "toeflPre": 80,
+      "toeflPost": 4.0,
+      "scope": "Englishalternatives SATRW520/ACTEnglish20/CLTverbalgrammar42,notcomposites. Englishpathwayseparate.",
+      "deadlines": "YearlessFallAbroadApr1vsInternationalUSinstitutionMay1;citizenshipnotbasis. EAonotherpageDOMESTICnotapplied.",
+      "documents": "InternationalrecordsEnglishliteraltranslation;countrycredentialsunconfirmed,SPARKrulesdiffermixedinternationalwork."
+    }
+  },
+  {
+    "id": "university-of-dayton",
+    "topic": "international-first-year-admission",
+    "source": "https://udayton.edu/apply/international/undergraduate/index.php",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Dayton",
+    "access": "html-read",
+    "quote": "Applications are due by May",
+    "facts": {
+      "deadlines": "InternationalFallMay1/yearless,notdomesticFeb1.",
+      "documents": "Originalallsecondaryrecords+certifiedEnglishtranslation/finalgraduationproofbeforearrival. TECcourseanalysisrequirementpostsecondaryTRANSFERnotuniversalschool-only.",
+      "finances": "F1J1proofyear1fundsdocumentunder6monthsold,notannualcostproof."
+    }
+  },
+  {
+    "id": "university-of-dayton",
+    "topic": "english",
+    "source": "https://udayton.edu/apply/international/undergraduate/english-proficiency.php",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Dayton",
+    "access": "html-read",
+    "quote": "4 (70 on the previous score scale)",
+    "facts": {
+      "ielts": 6.0,
+      "toeflPre": 70,
+      "toeflPost": 4.0,
+      "det": 105,
+      "scope": "Fulladmissionthresholds;SAT ERW480/ACTEnglish21alternativesnotcompositeminima. iTEP4.0someprograms4.5separate."
+    }
+  },
+  {
+    "id": "university-of-dayton",
+    "topic": "sat-act",
+    "source": "https://udayton.edu/apply/undergraduate/resources/test-optional.php",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Dayton",
+    "access": "html-read",
+    "quote": "eligibility for admission or merit scholarships",
+    "facts": {
+      "policy": "OptionalSAT/ACTundergraduateincludingmerit;internationalEnglishproofseparate."
+    }
+  },
+  {
+    "id": "university-of-dayton",
+    "topic": "application-fee",
+    "source": "https://catalog.udayton.edu/undergraduate/generalinformation/admission/applicationforadmission/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Dayton",
+    "access": "html-read",
+    "quote": "There is no fee to apply.",
+    "facts": {
+      "amount": 0,
+      "currency": "USD",
+      "scope": "UniversityapplicationorCommonAppfirstyear. GeneralEA/RDcalendarisnotcopiedoverinternationalMay1."
+    }
+  },
+  {
+    "id": "university-of-south-carolina",
+    "topic": "international-first-year-admission",
+    "source": "https://sc.edu/about/offices_and_divisions/undergraduate_admissions/apply/for_international_students/",
+    "verified": "2026-10-31",
+    "intake": "Fall/Spring/Summer 2027 SAT policy",
+    "category": "international first-year bachelor",
+    "campus": "Columbia",
+    "access": "html-read",
+    "quote": "fall, spring and summer 2027",
+    "facts": {
+      "fee": 100,
+      "policy": "OptionalSATACTinternational2027;ACTsuperscoreEnglishMathReading,notScience.",
+      "ielts": 6.5,
+      "toeflPre": 77,
+      "toeflPost": null,
+      "det": 115,
+      "scope": "SAT EBRW560/ACTEnglish22 languagealternativesnotcomposite;newTOEFL1–6notprinted.",
+      "documents": "Originalschoolrecords+certifiedschooltranslation/finalaftergraduation.",
+      "deadlines": "YearlessEAOct15/docNov1;HonorsNov15/docDec1;RDDec1/docJan15. Explicit2027SATsectiondoesnotbyitselfdatetheyearlesscalendar."
+    }
+  },
+  {
+    "id": "university-of-texas-at-dallas",
+    "topic": "unavailable-admission-source",
+    "source": "https://enroll.utdallas.edu/apply/international-applicants/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Richardson",
+    "access": "502-unavailable",
+    "quote": null,
+    "facts": null,
+    "unresolved": "Direct access unavailable; search snippets do not verify requirements. No bypass attempted."
+  },
+  {
+    "id": "university-of-texas-at-dallas",
+    "topic": "international-first-year-admission",
+    "source": "https://catalog.utdallas.edu/2026/undergraduate/policies/admission-policies",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Richardson",
+    "access": "html-read",
+    "quote": "Reviewed Admission",
+    "facts": {
+      "policy": "2026cataloglistsSAT/ACTamongreviewfactorsbutdoesnotsettleFall2027requiredvsoptional;TexasautomaticcriteriaNOTinternationalgenericeligibility.",
+      "documents": "ExactUzbek/Englishnumericrequirementsnotconfirmed;internationaladmissionssourceunavailable."
+    }
+  },
+  {
+    "id": "university-of-texas-at-dallas",
+    "topic": "application-fee-deadlines",
+    "source": "https://catalog.utdallas.edu/2026/undergraduate/admission/application-fees-and-deadlines",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Richardson",
+    "access": "html-read",
+    "quote": "additional one-time foreign credential evaluation fee of $50",
+    "facts": {
+      "fee": 50,
+      "evaluation": 50,
+      "currency": "USD",
+      "scope": "2026catalogtimelyapp50+internationalacademicdocsevaluation50;lateadditional75. NotstatedFall2027publishedfee.",
+      "deadlines": "YearlessFallFYpriorityDec1/RDMay1,catalog2026referencenotconfirmedFall2027."
+    }
+  },
+  {
+    "id": "university-of-the-pacific",
+    "topic": "unavailable-admission-source",
+    "source": "https://www.pacific.edu/admission/undergraduate/international-students",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Stockton",
+    "access": "403-blocked",
+    "quote": null,
+    "facts": null,
+    "unresolved": "Direct access unavailable; search snippets do not verify requirements. No bypass attempted."
+  },
+  {
+    "id": "university-of-the-pacific",
+    "topic": "international-first-year-admission",
+    "source": "https://catalog.pacific.edu/uop/generalinformation/admissionrequirements/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Stockton",
+    "access": "html-read",
+    "quote": "Admission of International Students",
+    "facts": {
+      "policy": "CatalogstandingFYrequiresSATACT;current2027admissionpageblocked,currentpolicyunsettled.",
+      "documents": "Officialallrecords,graduationbeforeterm,Englishproficiencyandcertificationfunding. Pharmacy77/80/6.5EnglishrowsareprofessionalsectionNOTallFY.",
+      "deadlines": "YearlessEA Nov15nonbinding,regularpriorityJan15. Predental/prepharmacy/PowellseparateNov15. NotSpring/transfer.",
+      "scope": "Stocktonbachelor,notPacificUniversityOregonandnotgraduateSF/Sacramento."
+    }
+  },
+  {
+    "id": "brigham-young-university",
+    "topic": "programs",
+    "source": "https://catalog.byu.edu/programs/34712",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Provo",
+    "access": "html-read",
+    "quote": "Computer Science (BS)",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, B.S."
+      },
+      "language": null,
+      "scope": "Named bachelor only, language not established. Concentrations/minors/graduate courses excluded."
+    }
+  },
+  {
+    "id": "university-of-san-francisco",
+    "topic": "programs",
+    "source": "https://www.usfca.edu/arts-sciences/programs/undergraduate/computer-science",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "San Francisco",
+    "access": "html-read",
+    "quote": "Computer Science, BS",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, B.S."
+      },
+      "language": null,
+      "scope": "Named bachelor only, language not established. Concentrations/minors/graduate courses excluded."
+    }
+  },
+  {
+    "id": "george-mason-university",
+    "topic": "programs",
+    "source": "https://www.gmu.edu/program/computer-science-bs",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Fairfax",
+    "access": "html-read",
+    "quote": "Computer Science, BS",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, B.S."
+      },
+      "language": null,
+      "scope": "Named bachelor only, language not established. Concentrations/minors/graduate courses excluded."
+    }
+  },
+  {
+    "id": "university-at-albany-suny",
+    "topic": "programs",
+    "source": "https://www.albany.edu/computer-science/programs/bs-computer-science",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Albany",
+    "access": "html-read",
+    "quote": "Bachelor of Science in",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, B.S."
+      },
+      "language": null,
+      "scope": "Named bachelor only, language not established. Concentrations/minors/graduate courses excluded."
+    }
+  },
+  {
+    "id": "university-of-central-florida",
+    "topic": "programs",
+    "source": "https://www.ucf.edu/degree/computer-science-bs/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Orlando",
+    "access": "html-read",
+    "quote": "Bachelor of Science in Computer Science, BS",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, B.S."
+      },
+      "language": null,
+      "scope": "Named bachelor only, language not established. Concentrations/minors/graduate courses excluded."
+    }
+  },
+  {
+    "id": "university-of-dayton",
+    "topic": "programs",
+    "source": "https://catalog.udayton.edu/undergraduate/schoolofengineering/programsofstudy/csci/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Dayton",
+    "access": "html-read",
+    "quote": "Bachelor of Science, Computer Science",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, B.S."
+      },
+      "language": null,
+      "scope": "Named bachelor only, language not established. Concentrations/minors/graduate courses excluded."
+    }
+  },
+  {
+    "id": "university-of-south-carolina",
+    "topic": "programs",
+    "source": "https://www.sc.edu/study/majors_and_degrees/computer-science-bscs.php",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Columbia",
+    "access": "html-read",
+    "quote": "Computer Science, B.S.C.S.",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, B.S.C.S."
+      },
+      "language": null,
+      "scope": "Named bachelor only, language not established. Concentrations/minors/graduate courses excluded."
+    }
+  },
+  {
+    "id": "university-of-texas-at-dallas",
+    "topic": "programs",
+    "source": "https://catalog.utdallas.edu/2026/undergraduate/programs/ecs/computer-science",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Richardson",
+    "access": "html-read",
+    "quote": "Computer Science (BS)",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, B.S."
+      },
+      "language": null,
+      "scope": "Named bachelor only, language not established. Concentrations/minors/graduate courses excluded."
+    }
+  },
+  {
+    "id": "university-of-the-pacific",
+    "topic": "programs",
+    "source": "https://catalog.pacific.edu/uop/schoolofengineeringandcomputerscience/computerscience/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Stockton",
+    "access": "html-read",
+    "quote": "Bachelor of Science in Computer Science",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, B.S."
+      },
+      "language": null,
+      "scope": "Named bachelor only, language not established. Concentrations/minors/graduate courses excluded."
+    }
   }
 ]
