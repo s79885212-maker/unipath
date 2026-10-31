@@ -178,4 +178,16 @@ module.exports=function(env){
      wabashAward.entryYear===null&&/48,000/.test(wabashAward.amount)&&/earned work/.test(wabashAward.note)&&
      budget(U.uniById('wabash-college'),100000).status==='unknown',
      'Wabash competitive maximum, earned employment and annual priority are never a guaranteed budget award or confirmed2027 date');
+  ok(marq.scholarships.fullRide.available===true&&marq.scholarships.fullRide.status==='conflict'&&
+     U.awardKind(marq)==='full-ride'&&marq.scholarships.fullRide.renewable===true&&
+     /Replaces any other/.test(marq.scholarships.fullRide.renewalConditions)&&
+     marq.admissions.deadlines.some(function(d){return d.awardId==='global-scholar'&&d.status==='annual-rule'&&d.entryYear===null;})&&
+     budget(marq,100000).status==='unknown',
+     'Marquette named Global Scholar coverage and no-stacking terms remain visible alongside the conflicting broad warning; March1 is annual, never a guaranteed budget award');
+  var pmm=U.uniById('pennsylvania-state-university-university-park');
+  ok(U.satPolicy(pmm)==='conditional'&&!U.has(pmm.academics.sat.min)&&
+     pmm.admissions.deadlines.some(function(d){return d.dateISO==='2026-10-13'&&d.status==='confirmed'&&d.entryYear==='2027'&&/PMM/.test(d.appliesTo);}),
+     'Penn State closed PMM Fall2027 exception has programme-only1470/32 testing; no university-wide minimum');
+  ok(fresh.every(function(u){var r=u.scholarships.fullRide;return r.renewable===null||r.renewable===undefined||typeof r.renewable==='boolean';}),
+     'Full-level award renewal uses the existing boolean contract with conditions in the field the profile displays');
 };

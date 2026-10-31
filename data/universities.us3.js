@@ -35435,7 +35435,7 @@ window.UNIPATH.universities.push(
         "insurance": true,
         "books": null
       },
-      "renewable": "Four years / eight full-time semesters; detailed GPA, credit and stacking conditions not yet verified.",
+      "renewable": true,
       "competitiveness": "King-Morgridge: competitive selection of six first-year scholars with financial need, leadership and a commitment to alleviate poverty. Eligibility depends on the COUNTRY OF THE SECONDARY SCHOOL awarding the qualification. Uzbekistan is not listed; Uzbek citizenship alone does not determine eligibility. No prior college/university study.",
       "howToApply": "Early Action admission application plus a separate WiSH scholarship application.",
       "note": "King-Morgridge: competitive selection of six first-year scholars with financial need, leadership and a commitment to alleviate poverty. Eligibility depends on the COUNTRY OF THE SECONDARY SCHOOL awarding the qualification. Uzbekistan is not listed; Uzbek citizenship alone does not determine eligibility. No prior college/university study.",
@@ -35444,6 +35444,7 @@ window.UNIPATH.universities.push(
       "category": "merit",
       "entryTerm": "Autumn",
       "entryYear": "2027",
+      "renewalConditions": "Four years / eight full-time semesters; detailed GPA, credit and stacking conditions not yet verified.",
       "source": "https://admissions.wisc.edu/international-scholarships/",
       "verified": "2026-10-31"
     },
@@ -35800,6 +35801,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://newbrunswick.rutgers.edu/about"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_Queens_Rutgers.jpg"
     }
   ],
   "verification": {
@@ -36069,6 +36074,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.ucsb.edu/about/facts-and-figures"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://commons.wikimedia.org/wiki/File:UC_Santa_Barbara_Library_(35399729253).jpg"
     }
   ],
   "verification": {
@@ -36327,7 +36336,7 @@ window.UNIPATH.universities.push(
         "books": null,
         "stipend": true
       },
-      "renewable": "Programme page: cumulative UGA GPA3.40, at least12 credits per semester, Honors good standing, programme participation/reports, four-year graduation and first-year Myers Hall residence. Recheck any individual award-letter terms; stacking is unconfirmed.",
+      "renewable": true,
       "competitiveness": null,
       "howToApply": "Separate Morehead Honors College/Foundation Fellowship application, due November1 each year; Fall2027 cycle has not been established.",
       "note": "Foundation Fellowship is the university’s top academic scholarship. The standing international package lists USD30,000 annual stipend plus a Presidential waiver valued at USD21,740, with no academic year established. The university says the stipend APPROXIMATES attendance cost; individual housing, meals, insurance and residual costs are not guaranteed covered. Travel/research grants are separate. Exact Fall2027 amounts and stacking remain unconfirmed.",
@@ -36337,6 +36346,7 @@ window.UNIPATH.universities.push(
       "entryTerm": null,
       "entryYear": null,
       "deadlineScope": "annual-rule",
+      "renewalConditions": "Programme page: cumulative UGA GPA3.40, at least12 credits per semester, Honors good standing, programme participation/reports, four-year graduation and first-year Myers Hall residence. Recheck any individual award-letter terms; stacking is unconfirmed.",
       "source": "https://honors.uga.edu/scholarships/prospective-students/foundation-fellowship/",
       "verified": "2026-10-31"
     },
@@ -36380,6 +36390,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://honors.uga.edu/scholarships/prospective-students/foundation-fellowship/"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://commons.wikimedia.org/wiki/File:UGA_Chapel.jpg"
     }
   ],
   "verification": {
@@ -36674,6 +36688,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://cired.vt.edu/About/history.html"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://commons.wikimedia.org/wiki/File:Burruss_Hall,_Virginia_Tech.JPG"
     }
   ],
   "verification": {
@@ -36766,6 +36784,30 @@ window.UNIPATH.universities.push(
           "source": "https://www.psu.edu/resources/international-students/deadlines",
           "verified": "2026-10-31"
         }
+      },
+      {
+        "name": "Accelerated Premedical-Medical BS/MD — closed",
+        "kind": "admission",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-10-13",
+        "date": "13 October 2026",
+        "status": "confirmed",
+        "binding": null,
+        "appliesTo": "Current school seniors applying to the accelerated PMM programme only",
+        "source": "https://science.psu.edu/interdisciplinary-programs/premed-med-bsmd/admission-requirements",
+        "verified": "2026-10-31",
+        "note": "General first-year SAT/ACT is optional, except the accelerated Premedical-Medical BS/MD. That programme explicitly requires SAT 1470 or ACT 32 from one sitting for Fall 2027 and welcomes international applicants, but only current school seniors: graduates are ineligible. Its application closed on 13 October 2026 at 23:59 EST, as printed. The required school subjects and STARS/SKMC materials are programme-specific. Prior accepted averages and interview ranges are statistics, not additional minima. No programme minimum is assigned to all majors.",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://science.psu.edu/interdisciplinary-programs/premed-med-bsmd/admission-requirements",
+          "verified": "2026-10-31",
+          "quote": "Admission Cycle for Fall 2027."
+        },
+        "time": "23:59",
+        "timezone": "EST"
       }
     ],
     "applicationFee": {
@@ -36820,16 +36862,18 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": "optional",
-      "note": "General international first-year policy is optional, with scores required if used for English proof. Special combined-degree exceptions and a named Fall2027 policy cycle still need verification; no superscoring.",
-      "source": "https://www.psu.edu/resources/international-students/admission-requirements",
-      "verified": "2026-10-31"
+      "policy": "conditional",
+      "note": "General first-year SAT/ACT is optional, except the accelerated Premedical-Medical BS/MD. That programme explicitly requires SAT 1470 or ACT 32 from one sitting for Fall 2027 and welcomes international applicants, but only current school seniors: graduates are ineligible. Its application closed on 13 October 2026 at 23:59 EST, as printed. The required school subjects and STARS/SKMC materials are programme-specific. Prior accepted averages and interview ranges are statistics, not additional minima. No programme minimum is assigned to all majors.",
+      "source": "https://science.psu.edu/interdisciplinary-programs/premed-med-bsmd/admission-requirements",
+      "verified": "2026-10-31",
+      "label": "Optional except accelerated Premedical-Medical BS/MD"
     },
     "act": {
-      "policy": "optional",
-      "note": "General international first-year policy is optional, with scores required if used for English proof. Special combined-degree exceptions and a named Fall2027 policy cycle still need verification; no superscoring.",
-      "source": "https://www.psu.edu/resources/international-students/admission-requirements",
-      "verified": "2026-10-31"
+      "policy": "conditional",
+      "note": "General first-year SAT/ACT is optional, except the accelerated Premedical-Medical BS/MD. That programme explicitly requires SAT 1470 or ACT 32 from one sitting for Fall 2027 and welcomes international applicants, but only current school seniors: graduates are ineligible. Its application closed on 13 October 2026 at 23:59 EST, as printed. The required school subjects and STARS/SKMC materials are programme-specific. Prior accepted averages and interview ranges are statistics, not additional minima. No programme minimum is assigned to all majors.",
+      "source": "https://science.psu.edu/interdisciplinary-programs/premed-med-bsmd/admission-requirements",
+      "verified": "2026-10-31",
+      "label": "Optional except accelerated Premedical-Medical BS/MD"
     },
     "otherTests": null,
     "internationalQualifications": "Uzbekistan: first-year applicants self-report the last three years and current courses in STARS. After accepting an offer, the country page requests official years9–12 transcripts and Attestat o Srednem Obrazovanii, each with a separate line-by-line English translation. The page does not resolve how an 11-year school record or academic lyceum diploma is handled, or the exact grades, subjects and preparatory-study requirements; eligibility is not guaranteed."
@@ -36901,6 +36945,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.psu.edu/about/traditions"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://commons.wikimedia.org/wiki/File:Penn_state_old_main_summer.jpg"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://science.psu.edu/interdisciplinary-programs/premed-med-bsmd/admission-requirements"
     }
   ],
   "verification": {
@@ -42796,7 +42848,7 @@ window.UNIPATH.universities.push(
         "insurance": null,
         "books": null
       },
-      "renewable": "Four undergraduate years described; detailed GPA and stacking conditions still need verification. General merit terms usually require full-time enrolment and campus housing.",
+      "renewable": null,
       "competitiveness": null,
       "howToApply": "Complete the admission application by annual November15; no ordinary separate award form. Finalists are invited to campus interviews. Fall2027 cycle not confirmed for this date.",
       "note": "Stamps is a highly competitive full-cost Signature award, around15 entering recipients. It covers tuition, fees, room and board, plus USD3,400 for books/personal expenses; up to USD15,000 total approved travel/study across four years. International first-year eligibility is explicitly confirmed on the admissions page. Insurance, exact renewal GPA, stacking and award-year amounts remain unconfirmed; this is not guaranteed aid for every international applicant.",
@@ -42807,7 +42859,8 @@ window.UNIPATH.universities.push(
       "entryYear": null,
       "deadlineScope": "annual-rule",
       "source": "https://financialaid.wfu.edu/types-of-aid/scholarships/",
-      "verified": "2026-10-31"
+      "verified": "2026-10-31",
+      "renewalConditions": "Four undergraduate years described; detailed GPA and stacking conditions still need verification. General merit terms usually require full-time enrolment and campus housing."
     },
     "merit": [],
     "needBased": {
@@ -43789,6 +43842,29 @@ window.UNIPATH.universities.push(
           "entryTerm": null,
           "entryYear": null
         }
+      },
+      {
+        "name": "Global Scholar — scholarship application",
+        "kind": "scholarship",
+        "date": "1 March",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "binding": null,
+        "source": "https://www.marquette.edu/tuition-financial-aid/scholarship-global-scholar.php",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.marquette.edu/tuition-financial-aid/scholarship-global-scholar.php",
+          "verified": "2026-10-31",
+          "entryTerm": null,
+          "entryYear": null
+        },
+        "awardId": "global-scholar",
+        "awardCategory": "merit"
       }
     ],
     "applicationFee": {
@@ -43871,22 +43947,32 @@ window.UNIPATH.universities.push(
   },
   "scholarships": {
     "fullRide": {
-      "available": null,
-      "internationalEligible": null,
-      "basis": null,
+      "available": true,
+      "internationalEligible": true,
+      "basis": "merit",
       "covers": {
-        "tuition": null,
-        "housing": null,
-        "meals": null,
+        "tuition": true,
+        "housing": true,
+        "meals": true,
         "insurance": null,
         "books": null
       },
-      "renewable": null,
+      "renewable": true,
       "competitiveness": null,
-      "howToApply": null,
-      "note": "The international scholarship page explicitly says need-based scholarships are unavailable and merit scholarships cannot cover all costs: even the largest leaves room, board, fees and books to the family. All applicants are automatically considered for the Père Marquette Award; other awards require admitted students to apply separately. The largest named award, renewal and stacking terms remain under review. No award is deducted from cost.",
-      "source": "https://www.marquette.edu/oie/prospective-students/scholarships.php",
-      "verified": "2026-10-31"
+      "howToApply": "Admission by annual 1 February, then separate Global Scholar application in the admitted-student portal, essay and activities/resume by annual 1 March; finalists video interview. The award date itself has no established 2027 cycle, despite the separate 2027–28 guide.",
+      "note": "Official sources conflict: the general international scholarship page says the largest merit award leaves housing and food to the family, while the named Global Scholar page and 2027–28 aid guide explicitly cover tuition, student fees, standard on-campus double housing and food plan. This competitive award is for one international fall freshman annually, school outside the US and F-1 status. Selection includes at least 3.25 unweighted GPA on a 4.0 scale in college-preparatory courses and leadership; no Uzbek grade conversion is inferred. Books, insurance and travel are not promised. It is not guaranteed aid and is not deducted from budget. The broad warning is not applied to every award.",
+      "source": "https://www.marquette.edu/tuition-financial-aid/scholarship-global-scholar.php",
+      "verified": "2026-10-31",
+      "status": "conflict",
+      "name": "Global Scholar Award",
+      "id": "global-scholar",
+      "category": "merit",
+      "entryTerm": null,
+      "entryYear": null,
+      "deadlineScope": "annual-rule",
+      "detailsSource": "https://www.marquette.edu/central/financial-aid/resources/award-information/award-information-2027-2028.php",
+      "detailsVerified": "2026-10-31",
+      "renewalConditions": "Up to eight semesters; full-time undergraduate, SAP, good academic standing and annual global engagement; online programmes excluded. Replaces any other Marquette scholarship or grant, not additional to them."
     },
     "merit": [],
     "needBased": {
@@ -43929,6 +44015,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.marquette.edu/oie/prospective-students/scholarships.php"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.marquette.edu/tuition-financial-aid/scholarship-global-scholar.php"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.marquette.edu/central/financial-aid/resources/award-information/award-information-2027-2028.php"
     }
   ],
   "verification": {

@@ -569,7 +569,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "not-yet-researched-placeholder"
+        "photo": "candidate-license-reviewed-owner-download-permission-pending"
       },
       "unresolved": [
         "Full programme coverage and instruction language",
@@ -577,7 +577,7 @@
         "Campus photo/licence",
         "Remaining cost, award, identity and application fields; see profile and sources"
       ],
-      "sourceEntries": 6
+      "sourceEntries": 7
     },
     {
       "number": 7,
@@ -602,7 +602,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "not-yet-researched-placeholder"
+        "photo": "candidate-license-reviewed-owner-download-permission-pending"
       },
       "unresolved": [
         "Full programme coverage and instruction language",
@@ -610,7 +610,7 @@
         "Campus photo/licence",
         "Remaining cost, award, identity and application fields; see profile and sources"
       ],
-      "sourceEntries": 9
+      "sourceEntries": 10
     },
     {
       "number": 8,
@@ -634,7 +634,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "not-yet-researched-placeholder"
+        "photo": "candidate-license-reviewed-owner-download-permission-pending"
       },
       "unresolved": [
         "Full programme coverage and instruction language",
@@ -642,7 +642,7 @@
         "Campus photo/licence",
         "Remaining cost, award, identity and application fields; see profile and sources"
       ],
-      "sourceEntries": 7
+      "sourceEntries": 8
     },
     {
       "number": 9,
@@ -666,7 +666,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "not-yet-researched-placeholder"
+        "photo": "candidate-license-reviewed-owner-download-permission-pending"
       },
       "unresolved": [
         "Full programme coverage and instruction language",
@@ -674,7 +674,7 @@
         "Campus photo/licence",
         "Remaining cost, award, identity and application fields; see profile and sources"
       ],
-      "sourceEntries": 7
+      "sourceEntries": 8
     },
     {
       "number": 10,
@@ -699,7 +699,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "not-yet-researched-placeholder"
+        "photo": "candidate-license-reviewed-owner-download-permission-pending"
       },
       "unresolved": [
         "Full programme coverage and instruction language",
@@ -707,7 +707,7 @@
         "Campus photo/licence",
         "Remaining cost, award, identity and application fields; see profile and sources"
       ],
-      "sourceEntries": 6
+      "sourceEntries": 8
     },
     {
       "number": 11,
@@ -1598,7 +1598,7 @@
         "Remaining costs/awards/history",
         "Campus photograph/licence"
       ],
-      "sourceEntries": 6
+      "sourceEntries": 8
     },
     {
       "number": 39,

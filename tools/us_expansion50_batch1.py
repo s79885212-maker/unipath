@@ -56,7 +56,8 @@ def event(name, kind, date, src, confirmed=False, binding=None, award=None, time
             'uc-system-fall-2027-dates':'fall 2027 applicants.',
             'international-first-year-admission':'January 15, 2027',
             'international-awards':'The King-Morgridge Scholarship application for Fall 2027',
-            'admission-deadlines':'Fall/September 2027'
+            'admission-deadlines':'Fall/September 2027',
+            'pmm-cycle-exception':'Admission Cycle for Fall 2027.'
         }[src['topic']]
         row['cycleEvidence']=dict(basis='page-context',entryTerm='Autumn',entryYear='2027',source=src['source'],verified=DAY,quote=cycle_quote)
     else:
@@ -197,7 +198,7 @@ for index,r in enumerate(new):
             'King-Morgridge: конкурсный отбор шести первокурсников с финансовой нуждаемостью, лидерством и планом борьбы с бедностью. Право зависит от СТРАНЫ ШКОЛЫ, выдавшей документ. Узбекистана нет в списке; само узбекское гражданство не определяет право участия. Без предыдущего обучения в колледже или университете.')
         r['scholarships']['fullRide'].update(available=True,internationalEligible=True,basis='need-merit',name='King-Morgridge Scholars Program',id='king-morgridge',category='merit',entryTerm='Autumn',entryYear='2027',
             covers=dict(tuition=True,housing=True,meals=True,insurance=True,books=None),note=eligibility,
-            renewable=L('Four years / eight full-time semesters; detailed GPA, credit and stacking conditions not yet verified.','Четыре года / восемь семестров полной нагрузки; точные условия GPA, кредитов и совместимости с другими awards пока не проверены.'),
+            renewable=True,renewalConditions=L('Four years / eight full-time semesters; detailed GPA, credit and stacking conditions not yet verified.','Четыре года / восемь семестров полной нагрузки; точные условия GPA, кредитов и совместимости с другими awards пока не проверены.'),
             competitiveness=eligibility,howToApply=L('Early Action admission application plus a separate WiSH scholarship application.','Заявка на поступление Early Action и отдельная заявка на стипендию WiSH.'),source=s['source'],verified=DAY)
         dates.extend([event(L('King-Morgridge — Early Action application','King-Morgridge — заявка Early Action'),'admission','2026-11-01',s,True,False,'king-morgridge'),
                       event(L('King-Morgridge — WiSH application','King-Morgridge — заявка WiSH'),'scholarship','2026-11-15',s,True,award='king-morgridge')])
@@ -219,7 +220,7 @@ for index,r in enumerate(new):
             'Foundation Fellowship — главная академическая стипендия университета. Общий международный пакет указывает30 000USD годовой стипендии и Presidential waiver стоимостью21 740USD без установленного учебного года. Университет говорит, что стипендия ПРИБЛИЗИТЕЛЬНО соответствует стоимости посещения; полное покрытие жилья, питания, страховки и остаточных расходов не гарантировано. Гранты поездок/исследования отдельные. Точные суммы осени2027 и совместимость не подтверждены.')
         r['scholarships']['fullRide'].update(available=True,internationalEligible=True,basis='merit',name='Foundation Fellowship',id='foundation-fellowship',category='merit',entryTerm=None,entryYear=None,deadlineScope='annual-rule',
             covers=dict(tuition=None,housing=None,meals=None,insurance=None,books=None,stipend=True),note=award_note,
-            renewable=L('Programme page: cumulative UGA GPA3.40, at least12 credits per semester, Honors good standing, programme participation/reports, four-year graduation and first-year Myers Hall residence. Recheck any individual award-letter terms; stacking is unconfirmed.',
+            renewable=True,renewalConditions=L('Programme page: cumulative UGA GPA3.40, at least12 credits per semester, Honors good standing, programme participation/reports, four-year graduation and first-year Myers Hall residence. Recheck any individual award-letter terms; stacking is unconfirmed.',
                 'Страница программы: совокупный UGA GPA3,40, не менее12кредитов за семестр, хорошее положение Honors, участие/отчёты, окончание за четыре года и Myers Hall на первом курсе. Проверяйте индивидуальное письмо о награде; совместимость не подтверждена.'),
             howToApply=L('Separate Morehead Honors College/Foundation Fellowship application, due November1 each year; Fall2027 cycle has not been established.',
                 'Отдельная заявка Morehead Honors College/Foundation Fellowship к1ноября ежегодно; цикл осени2027 не установлен.'),source=award_source['source'],verified=DAY)
@@ -253,6 +254,17 @@ for index,r in enumerate(new):
         english(r,'international-first-year-requirements',6.5,80,4.5,120,L('IELTS Academic6.5; TOEFL80 before January21,2026 or4.5 from that date; DET120. No TOEFL MyBest. Language alternatives do not turn SAT/ACT into a general admission requirement.',
             'IELTS Academic6,5; TOEFL80 до21января2026 или4,5 начиная с этой даты; DET120. TOEFL MyBest не принимается. Языковые альтернативы не делают SAT/ACT общим требованием приёма.'))
         r['type']=L('Public university','Государственный университет')
+
+# A current, named BS/MD exception does not establish a university-wide minimum.
+r=new[9];pmm=source(r['id'],'pmm-cycle-exception')
+pmm_note=L('General first-year SAT/ACT is optional, except the accelerated Premedical-Medical BS/MD. That programme explicitly requires SAT 1470 or ACT 32 from one sitting for Fall 2027 and welcomes international applicants, but only current school seniors: graduates are ineligible. Its application closed on 13 October 2026 at 23:59 EST, as printed. The required school subjects and STARS/SKMC materials are programme-specific. Prior accepted averages and interview ranges are statistics, not additional minima. No programme minimum is assigned to all majors.',
+  'На общий первый курс SAT/ACT необязательны, кроме ускоренной Premedical-Medical BS/MD. Для неё прямо требуются SAT 1470 или ACT 32 за одну сдачу на осень 2027; иностранцы могут подаваться, но только в выпускном классе: уже окончившие школу не подходят. Заявка закрылась 13 октября 2026 в 23:59 EST, как напечатано источником. Школьные предметы и STARS/SKMC относятся к этой программе. Средние принятых и диапазоны интервью — статистика, не дополнительные минимумы. Минимум программы не назначен всем специальностям.')
+policy(r,'pmm-cycle-exception','conditional',pmm_note)
+for key in ('sat','act'):
+    r['academics'][key]['label']=L('Optional except accelerated Premedical-Medical BS/MD','Необязательны, кроме ускоренной Premedical-Medical BS/MD')
+d=event(L('Accelerated Premedical-Medical BS/MD — closed','Ускоренная Premedical-Medical BS/MD — приём закрыт'),'admission','2026-10-13',pmm,confirmed=True,time='23:59',zone='EST')
+d.update(appliesTo=L('Current school seniors applying to the accelerated PMM programme only','Только выпускной класс школы и ускоренная программа PMM'),note=pmm_note)
+r['admissions']['deadlines'].append(d)
 
 # Country-specific documents supplement the general route, without turning a
 # named final credential into a guaranteed admission/foundation equivalence.

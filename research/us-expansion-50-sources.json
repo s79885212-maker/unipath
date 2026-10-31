@@ -4687,5 +4687,160 @@
       "insurance": "Not established by this table",
       "annualCost2027": null
     }
+  },
+  {
+    "id": "rutgers-university-new-brunswick",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:Old_Queens_Rutgers.jpg",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "Campus photograph; licence and subject metadata reviewed, visual inspection pending",
+    "campus": "Old Queens, Rutgers University, New Brunswick",
+    "access": "html-read",
+    "quote": "Old Queens, at Rutgers University, on a wintry day",
+    "facts": {
+      "author": "Rickyrab",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "subject": "Old Queens, Rutgers University, New Brunswick",
+      "downloaded": false,
+      "permission": "requested-awaiting-owner"
+    }
+  },
+  {
+    "id": "university-of-california-santa-barbara",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:UC_Santa_Barbara_Library_(35399729253).jpg",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "Campus photograph; licence and subject metadata reviewed, visual inspection pending",
+    "campus": "West entrance, UC Santa Barbara Library",
+    "access": "html-read",
+    "quote": "West entrance to the UC Santa Barbara Library",
+    "facts": {
+      "author": "UCSB Library",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "subject": "West entrance, UC Santa Barbara Library",
+      "downloaded": false,
+      "permission": "requested-awaiting-owner"
+    }
+  },
+  {
+    "id": "university-of-georgia",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:UGA_Chapel.jpg",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "Campus photograph; licence and subject metadata reviewed, visual inspection pending",
+    "campus": "University of Georgia Chapel",
+    "access": "html-read",
+    "quote": "University of Georgia Chapel",
+    "facts": {
+      "author": "Coxonian",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "subject": "University of Georgia Chapel",
+      "downloaded": false,
+      "permission": "requested-awaiting-owner"
+    }
+  },
+  {
+    "id": "virginia-tech",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:Burruss_Hall,_Virginia_Tech.JPG",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "Campus photograph; licence and subject metadata reviewed, visual inspection pending",
+    "campus": "Burruss Hall, Virginia Tech, Blacksburg",
+    "access": "html-read",
+    "quote": "Virginia Tech's Burruss Hall after a fresh snowfall.",
+    "facts": {
+      "author": "CBGator87",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "subject": "Burruss Hall, Virginia Tech, Blacksburg",
+      "downloaded": false,
+      "permission": "requested-awaiting-owner"
+    }
+  },
+  {
+    "id": "pennsylvania-state-university-university-park",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:Penn_state_old_main_summer.jpg",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "Campus photograph; licence and subject metadata reviewed, visual inspection pending",
+    "campus": "Old Main, Penn State University Park",
+    "access": "html-read",
+    "quote": "Main entrance of Old Main, at Penn State University in University Park, Pennsylvania.",
+    "facts": {
+      "author": "George Chriss",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
+      "subject": "Old Main, Penn State University Park",
+      "downloaded": false,
+      "permission": "requested-awaiting-owner"
+    }
+  },
+  {
+    "id": "marquette-university",
+    "topic": "global-scholar",
+    "source": "https://www.marquette.edu/tuition-financial-aid/scholarship-global-scholar.php",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor; named programme/award only",
+    "campus": null,
+    "access": "html-read",
+    "quote": "Full tuition, housing and food, and student fees",
+    "facts": {
+      "name": "Global Scholar Award",
+      "coverage": "Tuition, housing, food, student fees; books, insurance, travel not promised",
+      "selection": "One international fall first-year recipient annually; school outside USA; F-1; GPA at least 3.25 unweighted 4.0 in college preparatory courses, leadership",
+      "renewal": "Four years/eight semesters good academic standing; annual global engagement",
+      "process": "Admitted student portal, award application, 300–500-word essay, activities/resume; finalists video interview",
+      "deadline": "Admission February1 and award March1 annual rules; no year established",
+      "conflict": "General international scholarship page says even largest merit leaves housing/meals; conflicts with named award and2027–28 guide",
+      "largest": "Broadest verified international award so far; comprehensive comparison remains open"
+    }
+  },
+  {
+    "id": "marquette-university",
+    "topic": "global-scholar-cycle-renewal",
+    "source": "https://www.marquette.edu/central/financial-aid/resources/award-information/award-information-2027-2028.php",
+    "verified": "2026-10-31",
+    "intake": "2027–2028 aid year",
+    "category": "international first-year bachelor; named programme/award only",
+    "campus": null,
+    "access": "html-read",
+    "quote": "The Global Scholar Scholarship replaces any other Marquette scholarship or grant.",
+    "facts": {
+      "year": "2027–2028",
+      "coverage": "New recipients since2023–24: tuition, fees, on-campus standard double housing and meal plan; nonrefundable",
+      "renewal": "Maximum eight semesters; full-time undergraduate; SAP; not online",
+      "stacking": "Replaces any other Marquette scholarship or grant",
+      "deadline": "Yearless March1 on separate award page not automatically confirmed for2027"
+    }
+  },
+  {
+    "id": "pennsylvania-state-university-university-park",
+    "topic": "pmm-cycle-exception",
+    "source": "https://science.psu.edu/interdisciplinary-programs/premed-med-bsmd/admission-requirements",
+    "verified": "2026-10-31",
+    "intake": "Fall2027",
+    "category": "international first-year bachelor; named programme/award only",
+    "campus": null,
+    "access": "html-read",
+    "quote": "Admission Cycle for Fall 2027. Application is now closed.",
+    "facts": {
+      "programme": "Accelerated Premedical-Medical BS/MD only",
+      "testing": "Required SAT1470 or ACT32 single test date; scores may be self-reported; no SAT/ACT science or writing requirement",
+      "intake": "Fall2027",
+      "deadline": "October13,2026 11:59pm EST as printed; application closed",
+      "eligibility": "International students welcome; current school seniors only, graduates ineligible; school subject units required",
+      "statistics": "Prior accepted average SAT1570/ACT36 and interviewed range1510–1600 are not minimum1470/32; cohort year not explicit",
+      "documents": "STARS plus school credentials, application fee, SKMC questions; recommendations not used",
+      "scope": "Programme-only; no global SAT minimum assigned"
+    }
   }
 ]
