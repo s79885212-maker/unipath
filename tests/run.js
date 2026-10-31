@@ -317,7 +317,11 @@ group('profile rendering');
   var broken = [];
   DB.universities.forEach(function (u) {
     main.innerHTML = '';
-    try { P.renderProfile(u); if (main.innerHTML.length < 2000) broken.push(u.id + ' (empty)'); }
+    try {
+      P.renderProfile(u);
+      if (main.innerHTML.length < 2000) broken.push(u.id + ' (empty)');
+      if (main.innerHTML.includes('[object Object]')) broken.push(u.id + ' (unformatted structured value)');
+    }
     catch (e) { broken.push(u.id + ': ' + e.message); }
   });
   ok(broken.length === 0, 'all ' + DB.universities.length + ' profiles render without an error', broken.slice(0, 4).join('; '));

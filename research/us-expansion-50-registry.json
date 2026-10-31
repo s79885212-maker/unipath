@@ -406,7 +406,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "not-yet-researched-placeholder"
+        "photo": "candidate-license-reviewed-owner-download-permission-pending"
       },
       "unresolved": [
         "Full programme coverage and instruction language",
@@ -414,7 +414,7 @@
         "Campus photo/licence",
         "Remaining cost, award, identity and application fields; see profile and sources"
       ],
-      "sourceEntries": 10
+      "sourceEntries": 11
     },
     {
       "number": 2,
@@ -438,7 +438,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "not-yet-researched-placeholder"
+        "photo": "candidate-license-reviewed-owner-download-permission-pending"
       },
       "unresolved": [
         "Full programme coverage and instruction language",
@@ -446,7 +446,7 @@
         "Campus photo/licence",
         "Remaining cost, award, identity and application fields; see profile and sources"
       ],
-      "sourceEntries": 8
+      "sourceEntries": 11
     },
     {
       "number": 3,
@@ -471,7 +471,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "not-yet-researched-placeholder"
+        "photo": "candidate-license-reviewed-owner-download-permission-pending"
       },
       "unresolved": [
         "Full programme coverage and instruction language",
@@ -479,7 +479,7 @@
         "Campus photo/licence",
         "Remaining cost, award, identity and application fields; see profile and sources"
       ],
-      "sourceEntries": 10
+      "sourceEntries": 11
     },
     {
       "number": 4,
@@ -504,7 +504,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "not-yet-researched-placeholder"
+        "photo": "candidate-license-reviewed-owner-download-permission-pending"
       },
       "unresolved": [
         "Full programme coverage and instruction language",
@@ -512,7 +512,7 @@
         "Campus photo/licence",
         "Remaining cost, award, identity and application fields; see profile and sources"
       ],
-      "sourceEntries": 4
+      "sourceEntries": 5
     },
     {
       "number": 5,
@@ -536,7 +536,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "not-yet-researched-placeholder"
+        "photo": "candidate-license-reviewed-owner-download-permission-pending"
       },
       "unresolved": [
         "Full programme coverage and instruction language",
@@ -544,7 +544,7 @@
         "Campus photo/licence",
         "Remaining cost, award, identity and application fields; see profile and sources"
       ],
-      "sourceEntries": 8
+      "sourceEntries": 9
     },
     {
       "number": 6,
@@ -642,7 +642,7 @@
         "Campus photo/licence",
         "Remaining cost, award, identity and application fields; see profile and sources"
       ],
-      "sourceEntries": 6
+      "sourceEntries": 7
     },
     {
       "number": 9,
@@ -739,7 +739,7 @@
         "Remaining costs/awards/history",
         "Campus photograph/licence"
       ],
-      "sourceEntries": 3
+      "sourceEntries": 4
     },
     {
       "number": 12,
@@ -836,7 +836,7 @@
         "Remaining costs/awards/history",
         "Campus photograph/licence"
       ],
-      "sourceEntries": 4
+      "sourceEntries": 5
     },
     {
       "number": 15,
@@ -935,7 +935,7 @@
         "Remaining costs/awards/history",
         "Campus photograph/licence"
       ],
-      "sourceEntries": 3
+      "sourceEntries": 4
     },
     {
       "number": 18,
@@ -965,7 +965,7 @@
         "Remaining costs/awards/history",
         "Campus photograph/licence"
       ],
-      "sourceEntries": 2
+      "sourceEntries": 4
     },
     {
       "number": 19,
@@ -1252,7 +1252,7 @@
         "Remaining costs/awards/history",
         "Campus photograph/licence"
       ],
-      "sourceEntries": 2
+      "sourceEntries": 3
     },
     {
       "number": 28,
@@ -1476,7 +1476,7 @@
         "Remaining costs/awards/history",
         "Campus photograph/licence"
       ],
-      "sourceEntries": 2
+      "sourceEntries": 3
     },
     {
       "number": 35,

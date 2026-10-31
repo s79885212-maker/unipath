@@ -21,6 +21,11 @@ module.exports=function(env){
       (u.programs||[]).every(function(f){var e=u.programEvidence[f];return e&&e.level==='bachelor'&&e.url&&e.checked&&e.campus;});}),
      'new programme matches have named bachelor/campus evidence and do not claim complete coverage');
   var fields=new Set(DB.fields.map(function(f){return f.id;}));
+  var wfu=U.uniById('wake-forest-university');
+  ok(fresh.every(function(u){return ['ielts','toefl','duolingo'].every(function(k){
+       var t=(u.english||{})[k]||{};
+       return (!t.sections||typeof t.sections==='string')&&(t.profiles||[]).every(function(p){return !p.sections||typeof p.sections==='string';});
+     });}), 'English section descriptions preserve the text schema used by both browser rendering and static export');
   ok(fresh.every(function(u){return u.programs.every(function(f){return fields.has(f);});}),
      'new degree evidence uses existing field categories, never untranslated chemistry/physics keys');
   ok(fresh.every(function(u){return u.englishTaught!==true || (u.englishTaughtPrograms||[]).length>0;}) &&
@@ -37,6 +42,11 @@ module.exports=function(env){
      (!DB.match.annualCost[u.id]&&[null,0,999999].every(function(b){return budget(u,b).status==='unknown';}));}),
      'new previous-cycle references never confirm budget coverage with empty, zero or large budgets');
   var uiuc=U.uniById('university-of-illinois-urbana-champaign'),uga=U.uniById('university-of-georgia');
+  ok(U.awardKind(wfu)==='full-ride'&&U.awardDates(wfu,U.fullRide(wfu)).length===1&&
+     U.needBased(wfu).availableToInternational===false&&budget(wfu,0).status==='unknown'&&
+     U.awardKind(uga)==='full-funding'&&U.awardDates(uga,U.fullRide(uga)).length===1&&
+     /APPROXIMATES/.test(U.fullRide(uga).note)&&budget(uga,0).status==='unknown',
+     'Stamps itemised coverage differs from approximate Foundation funding; annual award links neither confirm2027 nor cover an unknown budget');
   ok(uiuc&&U.ieltsMin(uiuc)===null&&/TRANSFER/.test(uiuc.english.note),
      'UIUC transfer IELTS7.5 is not installed as a first-year minimum');
   ok(uga&&U.ieltsMin(uga)===null&&uga.english.ielts.recommended===null&&/2019–2023/.test(uga.english.note),
@@ -58,6 +68,9 @@ module.exports=function(env){
   env.sandbox.location.search='?lang=ru';
   env.load('data/i18n/ru.js');env.load('assets/js/i18n.js');
   var tr=env.sandbox.I18N.lookup;
+  ok(fresh.every(function(u){return !u.type||!!tr(u.type);})&&
+     !!tr('Through Fall 2029')&&!!tr('Fall/Spring/Summer 2027'),
+     'institution types and new SAT cohort labels have Russian display translations');
   ok(tr('Required documents — Early Action')==='Обязательные документы — Early Action (ранняя подача)'&&
      /ноября/.test(tr('1 November, 23:59 CT')||'')&&/тихоокеанскому/.test(tr('22 January, 23:59 Pacific Time')||''),
      'new composed document titles and dates with published US time zones translate in Russian');
@@ -114,10 +127,10 @@ module.exports=function(env){
      wab.english.toefl.min===null&&!DB.match.annualCost[wab.id]&&budget(wab,24990).status==='unknown'&&
      /college for men/.test(wab.admissions.notes.join(' ')),
      'Wabash keeps men-only scope, recommended English and financial declaration separate from admission minima and annual price');
-  ok(bay&&bay.admissions.applicationFee.amount===0&&bay.scholarships.needBasedAidForIntl===true&&
+  ok(bay&&bay.admissions.applicationFee.amount===0&&U.needBased(bay).availableToInternational===true&&
      /November 1 versus November 15/.test(bay.scholarships.fullRide.note)&&
      !bay.admissions.deadlines.some(function(d){return d.kind==='aid'&&d.status==='confirmed';}),
-     'verified free Baylor application differs from unknown fee; conflicting BIFAA priority does not become confirmed aid date');
+     'Baylor aid reaches the display/filter helper; verified free application differs from unknown fee; conflicting BIFAA priority does not become confirmed aid date');
   ok(yu&&/Honors/.test(U.satLabel(yu))&&/Yeshiva College for Men/.test(yu.programNote)&&
      /Stern College for Women/.test(yu.programNote)&&yu.english.toefl.scales.every(function(s){return s.period!=='post2026';})&&
      yu.admissions.deadlines[0].dateISO==='2027-02-01',
@@ -144,4 +157,12 @@ module.exports=function(env){
      pac&&pac.city==='Stockton'&&pac.academics.sat.policy===null&&U.ieltsMin(pac)===null&&
      day&&day.admissions.deadlines[0].date==='1 May',
      'undated Albany cost, blocked Pacific current policy and Dayton international May1 are not filled from unrelated routes');
+  var clem=U.uniById('clemson-university'),aub=U.uniById('auburn-university'),conn=U.uniById('university-of-connecticut');
+  ok([clem,aub].every(function(u){return U.costStatus(u)==='conflict'&&[null,0,100000].every(function(b){return budget(u,b).status==='conflict';});})&&
+     /42,852/.test(clem.costs.conflict.text)&&/43,852/.test(clem.costs.conflict.text)&&/transportation/.test(aub.costs.conflict.text)&&
+     DB.match.annualCost[aub.id].basis==='tuition'&&DB.match.annualCost[aub.id].min===39658,
+     'Clemson tuition discrepancy and Auburn transport-coverage contradiction remain conflicts at every budget, never programme price ranges');
+  ok(conn.costs.academicYear==='2026–2027'&&U.costArithmetic(conn).length===0&&
+     U.budgetAmount(conn)===70649&&!DB.match.annualCost[conn.id]&&budget(conn,100000).status==='unknown',
+     'UConn correctly itemised2026–27 COA excludes BGS/exchange and never confirms a Fall2027 budget');
 };

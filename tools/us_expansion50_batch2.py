@@ -124,4 +124,20 @@ for i,r in enumerate(records):
       'Сохраняйте GPA3,0 каждую четверть; дополнительные условия совместимости или продления ещё проверяются.'),deadlineScope='no-separate-application',entryTerm=None,entryYear=None,source=src(uid,'international-first-year-admission')['source'],verified=DAY,
     note=L('Standing published amount; a Fall2027-specific award cycle and largest-award comparison are not established. This is not full tuition or full ride and is not deducted from cost.',
       'Опубликованная сумма без отдельного установленного цикла Fall2027; сравнение с крупнейшей наградой не завершено. Это не полное покрытие обучения или full ride, из стоимости сумма не вычитается.'))]
+# Cost references preserve the exact year, coverage and unresolved contradictions.
+r=records[3]
+r['costs']['note']=L('The international table publishes USD61,156 for nine months: tuition/mandatory fees44,339, housing/food12,431, insurance1,916 and miscellaneous2,470. Its academic year is not established on that table; the domestic page’s2026–27 heading is not transferred. Summer and extra programme/course costs are separate. No comparable Fall2027 annual cost is assigned.',
+  'Международная таблица публикует61 156USD за девять месяцев: обучение/обязательные сборы44 339, жильё/питание12 431, страховка1 916, прочее2 470. Учебный год самой таблицы не установлен; заголовок2026–27 внутренней страницы не перенесён. Лето и дополнительные расходы программы/курсов отдельные. Сопоставимая годовая цена осени2027 не назначена.')
+r=records[6];s=src(r['id'],'cost-reference')
+r['costs']=costs('2026–2027',s['source'],DAY,FY,
+  [(L('Tuition','Обучение'),39678,'billed'),(L('Fees','Сборы'),5224,'billed'),(L('Housing and meals','Жильё и питание'),17082,'estimate'),(L('Books, travel, insurance and miscellaneous','Книги, дорога, страховка и прочее'),8665,'estimate')],
+  L('Previous-cycle published COA: USD70,649','Опубликованная COA прошлого цикла:70 649USD'),L('USD70,649 for the published2026–27 academic-year estimate','70 649USD по опубликованной оценке учебного2026–27года'),
+  L('All undergraduate programmes except BGS; not a semester exchange price','Все программы бакалавриата, кроме BGS; не цена семестрового обмена'),tuition=39678,budget=70649,status='previous-cycle',
+  note=L('Published financial-guarantee estimate for2026–27; not Fall2027–28. Other costs already include books, travel, insurance and miscellaneous. BGS47,981 and Storrs exchange12,248 per semester are different categories and are not substituted.',
+    'Опубликованная оценка финансового обеспечения2026–27, не осени2027–28. Прочее уже включает книги, дорогу, страховку и разные расходы. BGS47 981 и обмен Storrs12 248 за семестр — другие категории, не подставлены.'))
+r=records[7];s=src(r['id'],'cost-reference-financial-aid')
+conflict=L('Both pages label2026–27 non-South-Carolina undergraduate costs. Admissions lists tuition/feesUSD42,852; Financial Aid lists tuition42,020 plus fees1,832 = USD43,852 (sum by UniPath). The USD1,000 discrepancy is unresolved and is not described as programme variation. Admissions60,308 excludes other expenses and is not comparable to the full COA66,180 (68,704 with laptop). These are previous-year references, not Fall2027 rates; no budget sufficiency is confirmed.',
+  'Обе страницы называют2026–27 и бакалавриат нерезидента Южной Каролины. Приём указывает tuition/fees42 852USD; Financial Aid — обучение42 020 плюс сборы1 832 =43 852USD (сумма UniPath). Разница1 000USD не разрешена и не названа различием программ. Итог приёма60 308 исключает прочие расходы и несопоставим с полной COA66 180 (68 704 с ноутбуком). Это прошлогодние справочные суммы, не тарифы осени2027; достаточность бюджета не подтверждается.')
+r['costs']=costs('2026–2027',s['source'],DAY,FY,[],L('Conflict in previous-year official tuition/fee figures','Конфликт прошлогодних официальных сумм обучения/сборов'),None,L('Comparable scope unresolved','Сопоставимость области не разрешена'),status='conflict',note=conflict)
+r['costs']['conflict']={'text':conflict}
 finish(records,2,annual)

@@ -3734,5 +3734,273 @@
       "language": null,
       "scope": "Named bachelor only, language not established. Concentrations/minors/graduate courses excluded."
     }
+  },
+  {
+    "id": "university-of-georgia",
+    "topic": "foundation-fellowship-benefits",
+    "source": "https://honors.uga.edu/scholarships/prospective-students/foundation-fellowship/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year competitive academic scholarship",
+    "campus": null,
+    "access": "html-read",
+    "quote": "The stipend approximates the cost of attendance.",
+    "facts": {
+      "eligibility": "International student annual stipend30000USD plus Presidential waiver listed21740USD; no published award academic year.",
+      "coverage": "University calls top academic scholarship/approximateCOA, not unconditional itemisedhousing/meal/insurance coverage. Travel/researchgrantsseparate.",
+      "renewal": "Programme page GPA3.40,12credits/semester,Honorsstanding,events/reports,4yeargraduation,firstyearMyersHall.",
+      "process": "Separate Morehead Honors/Foundationapplication, November1 EACHYEAR; no entrycycle established. Stacking/exactFall2027ratesunknown."
+    }
+  },
+  {
+    "id": "wake-forest-university",
+    "topic": "stamps-coverage",
+    "source": "https://financialaid.wfu.edu/types-of-aid/scholarships/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year Stamps scholarship",
+    "campus": null,
+    "access": "html-read",
+    "quote": "cost of tuition, fees, room, and board",
+    "facts": {
+      "eligibility": "Around15firstyearStampsrecipients;internationaleligibilityseparatelyconfirmedoninternationaladmissionspage.",
+      "coverage": "Tuition/fees/housing/meals annually plus3400USDbooks/personalallowance,upto15000totalapprovedtravel/studyover4yrs. Insurancecoverageunprinted.",
+      "process": "CompletedadmissionappbyannualNov15,noordinaryseparateawardform;campusfinalistinterview. Exact2027cycle/renewalGPA/stackingunknown.",
+      "scope": "SignaturefullCOAnotneedbasedaidforforeignnationals;notawardedtoeveryapplicant."
+    }
+  },
+  {
+    "id": "university-of-california-irvine",
+    "topic": "unavailable-scholarship-source",
+    "source": "https://www.ofas.uci.edu/scholarships/faq.php",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year scholarships",
+    "campus": "Irvine",
+    "access": "403-blocked",
+    "quote": null,
+    "facts": null,
+    "unresolved": "Direct403;eligibility/amountnotconfirmedfromsearchsummary.No bypass."
+  },
+  {
+    "id": "university-of-california-irvine",
+    "topic": "unavailable-scholarship-source",
+    "source": "https://ofas.uci.edu/scholarships/uci-scholarships/chancellors-scholarship.php",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year scholarships",
+    "campus": "Irvine",
+    "access": "403-blocked",
+    "quote": null,
+    "facts": null,
+    "unresolved": "Direct403;eligibility/amountnotconfirmedfromsearchsummary.No bypass."
+  },
+  {
+    "id": "university-of-california-davis",
+    "topic": "campus-photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:University_of_California,_Davis_campus_1_2024-03-26.jpg",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "campus photo: Wikimedia Commons licence and attribution",
+    "campus": null,
+    "access": "html-read",
+    "quote": "University of California, Davis campus",
+    "facts": {
+      "author": "Fastily",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "subject": "UC Davis campus",
+      "status": "Owner download permission pending; image not downloaded or installed. Object and licensing statements read from file page."
+    }
+  },
+  {
+    "id": "university-of-california-irvine",
+    "topic": "campus-photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:Aldrich_Park,_UCI.jpg",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "campus photo: Wikimedia Commons licence and attribution",
+    "campus": null,
+    "access": "html-read",
+    "quote": "The center of UCI campus is a lovely park.",
+    "facts": {
+      "author": "Florian Boyd",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "subject": "Aldrich Park on UC Irvine campus",
+      "status": "Owner download permission pending; image not downloaded or installed. Object and licensing statements read from file page."
+    }
+  },
+  {
+    "id": "university-of-illinois-urbana-champaign",
+    "topic": "campus-photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:Foellinger_Auditorium_-_UIUC_-_DSC09127.JPG",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "campus photo: Wikimedia Commons licence and attribution",
+    "campus": null,
+    "access": "html-read",
+    "quote": "Building on the campus of the University of Illinois at Urbana-Champaign (UIUC)",
+    "facts": {
+      "author": "Daderot",
+      "license": "Public domain",
+      "licenseUrl": "https://en.wikipedia.org/wiki/Public_domain",
+      "subject": "Foellinger Auditorium, UIUC",
+      "status": "Owner download permission pending; image not downloaded or installed. Object and licensing statements read from file page."
+    }
+  },
+  {
+    "id": "university-of-texas-at-austin",
+    "topic": "campus-photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:University_of_texas_at_austin_main_building_2014.jpg",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "campus photo: Wikimedia Commons licence and attribution",
+    "campus": null,
+    "access": "html-read",
+    "quote": "The Main Building of the University of Texas at Austin in Austin, Texas, United States.",
+    "facts": {
+      "author": "Larry D. Moore",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "subject": "Main Building, UT Austin",
+      "status": "Owner download permission pending; image not downloaded or installed. Object and licensing statements read from file page."
+    }
+  },
+  {
+    "id": "university-of-wisconsin-madison",
+    "topic": "campus-photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:University_of_Wisconsin–Madison_August_2022_09_(Bascom_Hall).jpg",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "campus photo: Wikimedia Commons licence and attribution",
+    "campus": null,
+    "access": "html-read",
+    "quote": "Bascom Hall on the campus of the University of Wisconsin–Madison",
+    "facts": {
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "subject": "Bascom Hall, UW Madison",
+      "status": "Owner download permission pending; image not downloaded or installed. Object and licensing statements read from file page."
+    }
+  },
+  {
+    "id": "university-of-connecticut",
+    "topic": "cost-reference",
+    "source": "https://international.global.uconn.edu/coa/",
+    "verified": "2026-10-31",
+    "intake": "2026–2027",
+    "category": "international undergraduate cost / campus scope",
+    "campus": "Storrs",
+    "access": "html-read",
+    "quote": "2026-2027 Estimated Cost of Attendance",
+    "facts": {
+      "year": "2026–2027",
+      "currency": "USD",
+      "category": "All undergraduate programmes exceptBGS;notsemesterexchange",
+      "tuition": 39678,
+      "fees": 5224,
+      "roomBoard": 17082,
+      "other": 8665,
+      "total": 70649,
+      "scope": "UniversitypublishedfinancialguaranteeCOA,otherincludesbooks/travel/insurance/misc. BGS47981andexchange12248notgeneralStorrsfirstyear. Previouscycle,norates2027–28established."
+    }
+  },
+  {
+    "id": "indiana-university-bloomington",
+    "topic": "cost-reference",
+    "source": "https://bloomington.iu.edu/cost-aid/cost-attendance/international/undergraduate.html",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international undergraduate cost / campus scope",
+    "campus": "Bloomington",
+    "access": "html-read",
+    "quote": "Total for 9 months",
+    "facts": {
+      "year": null,
+      "currency": "USD",
+      "tuitionFees": 44339,
+      "housingFood": 12431,
+      "insurance": 1916,
+      "misc": 2470,
+      "total": 61156,
+      "scope": "Noacademicyearestablishedoninternationaltable.Domestic2026–27pageyearnottransferred.Summerextra;programme/course/optionalfeesmayvary. NotannualCostforFall2027."
+    }
+  },
+  {
+    "id": "clemson-university",
+    "topic": "cost-reference-admission",
+    "source": "https://www.clemson.edu/admissions/undergraduate-admissions/afford.html",
+    "verified": "2026-10-31",
+    "intake": "2026–2027",
+    "category": "international undergraduate cost / campus scope",
+    "campus": "Clemson",
+    "access": "html-read",
+    "quote": "$42,852",
+    "facts": {
+      "year": "2026–2027",
+      "currency": "USD",
+      "scope": "Non-SCresidentialannualadmissionestimate",
+      "tuitionFees": 42852,
+      "housingFood": 14880,
+      "books": 1576,
+      "publishedSubtotal": 60308,
+      "other": "Personal/transport5804,laptop2524extra;notfullCOA."
+    }
+  },
+  {
+    "id": "clemson-university",
+    "topic": "cost-reference-financial-aid",
+    "source": "https://www.clemson.edu/financial-aid/cost/estimated-cost-of-attendance.html",
+    "verified": "2026-10-31",
+    "intake": "2026–2027",
+    "category": "international undergraduate cost / campus scope",
+    "campus": "Clemson",
+    "access": "html-read",
+    "quote": "2026-2027 Non-South Carolina Resident Undergraduate Cost of Attendance",
+    "facts": {
+      "year": "2026–2027",
+      "currency": "USD",
+      "tuition": 42020,
+      "fees": 1832,
+      "tuitionFeesCalculated": 43852,
+      "fullCOA": 66180,
+      "withLaptop": 68704,
+      "scope": "FullCOAincludestransport/personal/loanfees;notcomparabletoadmission60308subtotal.Unresolvedtuitionfees1000differenceversus42852sameyear/category;noevidenceitisprogrammedifference.Majorenrichment0–2500separate."
+    }
+  },
+  {
+    "id": "auburn-university",
+    "topic": "current-coa",
+    "source": "https://www.auburn.edu/academic/international/isss/cost.php",
+    "verified": "2026-10-31",
+    "intake": "2027–2028",
+    "category": "international undergraduate cost / campus scope",
+    "campus": "Auburn",
+    "access": "html-read",
+    "quote": "Estimates for the 2027-2028 academic year",
+    "facts": {
+      "year": "2027–2028",
+      "currency": "USD",
+      "tuitionFees": 39658,
+      "living": 15000,
+      "insurance": 2317,
+      "publishedTotal": 56975,
+      "scope": "Fall/springtuition9months,living12months. Introincludestransport,footnoteexplicitlyexcludesit;coverageconflictretained.Dependent6000eachandprofessionalfeesextra.Internationalinsurancecompulsory.EstimateasofOct2026,notfixedinvoice."
+    }
+  },
+  {
+    "id": "university-of-pittsburgh",
+    "topic": "unavailable-cost-source",
+    "source": "https://catalog.upp.pitt.edu/content.php?catoid=241&navoid=27339&print=",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international Pittsburgh undergraduate cost",
+    "campus": "Pittsburgh",
+    "access": "403-blocked",
+    "quote": null,
+    "facts": null,
+    "unresolved": "Direct403;do not substitute Pittsburg State or Carnegie Mellon. No bypass."
   }
 ]

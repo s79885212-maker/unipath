@@ -214,6 +214,16 @@ for index,r in enumerate(new):
             note=('New Brunswick nonresident on-campus billed example only, not full cost. F-1/J-1 SAF500, insurance, health services, books and travel/living extras are excluded. Newark/Camden totals differ.',
                   'Только пример счёта нерезидента с жильём в New Brunswick, не полная стоимость. Не включены SAF500 для F-1/J-1, страховка, медицинские услуги, книги, дорога и прочие расходы. У Newark/Camden другие суммы.'))
     elif index==7:
+        award_source=source(uid,'foundation-fellowship-benefits')
+        award_note=L('Foundation Fellowship is the university’s top academic scholarship. The standing international package lists USD30,000 annual stipend plus a Presidential waiver valued at USD21,740, with no academic year established. The university says the stipend APPROXIMATES attendance cost; individual housing, meals, insurance and residual costs are not guaranteed covered. Travel/research grants are separate. Exact Fall2027 amounts and stacking remain unconfirmed.',
+            'Foundation Fellowship — главная академическая стипендия университета. Общий международный пакет указывает30 000USD годовой стипендии и Presidential waiver стоимостью21 740USD без установленного учебного года. Университет говорит, что стипендия ПРИБЛИЗИТЕЛЬНО соответствует стоимости посещения; полное покрытие жилья, питания, страховки и остаточных расходов не гарантировано. Гранты поездок/исследования отдельные. Точные суммы осени2027 и совместимость не подтверждены.')
+        r['scholarships']['fullRide'].update(available=True,internationalEligible=True,basis='merit',name='Foundation Fellowship',id='foundation-fellowship',category='merit',entryTerm=None,entryYear=None,deadlineScope='annual-rule',
+            covers=dict(tuition=None,housing=None,meals=None,insurance=None,books=None,stipend=True),note=award_note,
+            renewable=L('Programme page: cumulative UGA GPA3.40, at least12 credits per semester, Honors good standing, programme participation/reports, four-year graduation and first-year Myers Hall residence. Recheck any individual award-letter terms; stacking is unconfirmed.',
+                'Страница программы: совокупный UGA GPA3,40, не менее12кредитов за семестр, хорошее положение Honors, участие/отчёты, окончание за четыре года и Myers Hall на первом курсе. Проверяйте индивидуальное письмо о награде; совместимость не подтверждена.'),
+            howToApply=L('Separate Morehead Honors College/Foundation Fellowship application, due November1 each year; Fall2027 cycle has not been established.',
+                'Отдельная заявка Morehead Honors College/Foundation Fellowship к1ноября ежегодно; цикл осени2027 не установлен.'),source=award_source['source'],verified=DAY)
+        dates.append(event(L('Foundation Fellowship application','Заявка Foundation Fellowship'),'scholarship','1 November',award_source,award='foundation-fellowship'))
         s=source(uid,'admission-deadlines')
         for name,date,doc in [('Early Action','15 October','29 October'),('Regular Decision','1 January','15 January')]:
             dates.extend([event(name,'EA' if 'Early' in name else 'RD',date,s),event(DOCS+' — '+name,'documents',doc,s)])

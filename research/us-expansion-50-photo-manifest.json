@@ -1,0 +1,72 @@
+[
+  {
+    "id": "university-of-california-davis",
+    "file": "University of California, Davis campus 1 2024-03-26.jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:University_of_California,_Davis_campus_1_2024-03-26.jpg",
+    "author": "Fastily",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "subject": "UC Davis campus",
+    "verified": "2026-10-31",
+    "permission": "requested-awaiting-owner",
+    "downloaded": false,
+    "attribution": "Fastily, CC BY-SA 4.0, Wikimedia Commons",
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+  },
+  {
+    "id": "university-of-california-irvine",
+    "file": "Aldrich Park, UCI.jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Aldrich_Park,_UCI.jpg",
+    "author": "Florian Boyd",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "subject": "Aldrich Park on UC Irvine campus",
+    "verified": "2026-10-31",
+    "permission": "requested-awaiting-owner",
+    "downloaded": false,
+    "attribution": "Florian Boyd, CC BY-SA 2.0, Wikimedia Commons",
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+  },
+  {
+    "id": "university-of-illinois-urbana-champaign",
+    "file": "Foellinger Auditorium - UIUC - DSC09127.JPG",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Foellinger_Auditorium_-_UIUC_-_DSC09127.JPG",
+    "author": "Daderot",
+    "license": "Public domain",
+    "licenseUrl": "https://en.wikipedia.org/wiki/Public_domain",
+    "subject": "Foellinger Auditorium, UIUC",
+    "verified": "2026-10-31",
+    "permission": "requested-awaiting-owner",
+    "downloaded": false,
+    "attribution": "Daderot, Public domain, Wikimedia Commons",
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+  },
+  {
+    "id": "university-of-texas-at-austin",
+    "file": "University of texas at austin main building 2014.jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:University_of_texas_at_austin_main_building_2014.jpg",
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "subject": "Main Building, UT Austin",
+    "verified": "2026-10-31",
+    "permission": "requested-awaiting-owner",
+    "downloaded": false,
+    "attribution": "Larry D. Moore, CC BY 4.0, Wikimedia Commons",
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+  },
+  {
+    "id": "university-of-wisconsin-madison",
+    "file": "University of Wisconsin–Madison August 2022 09 (Bascom Hall).jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:University_of_Wisconsin–Madison_August_2022_09_(Bascom_Hall).jpg",
+    "author": "Michael Barera",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "subject": "Bascom Hall, UW Madison",
+    "verified": "2026-10-31",
+    "permission": "requested-awaiting-owner",
+    "downloaded": false,
+    "attribution": "Michael Barera, CC BY-SA 4.0, Wikimedia Commons",
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+  }
+]

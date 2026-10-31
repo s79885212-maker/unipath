@@ -23,7 +23,7 @@ for i,r in enumerate(records):
   english(r,6.5,80,4.0,115,L('Tests within two calendar years of enrolment. A medium-of-instruction letter alone is insufficient; country and duration conditions apply. English evidence is needed by Regular Decision for scholarship consideration; Pathway conditional admission is separate.',
     'Тесты в пределах двух календарных лет до зачисления. Одного письма о языке недостаточно; действуют условия страны и длительности обучения. Для рассмотрения на стипендии английский нужен к Regular Decision; условный маршрут Pathway отдельный.'),topic='english')
   event(r,'Early Action','EA','15 November');event(r,'Regular Decision','RD','15 January')
-  r.update(type='public',founded=1876)
+  r.update(type=L('Public university','Государственный университет'),founded=1876)
  elif i==1:
   application_fee(r,65,L('Non-resident application fee. A Common App waiver can be requested; approval is not automatic.',
     'Сбор для нерезидента. Можно запросить освобождение Common App; одобрение не автоматически.'))
@@ -45,7 +45,7 @@ for i,r in enumerate(records):
   for name,kind,d in [('Early Action','EA','1 November'),('Required documents — Early Action','documents','15 November'),('Regular Decision','RD','5 January'),('Required documents — Regular Decision','documents','20 January')]:event(r,name,kind,d)
   r['admissions']['documents']=[L('Official school/ministry records with certified literal English translation. STARS is required for US-school applicants; applicants schooled outside the US do not complete it. Nursing and Architecture use Early Action dates.',
     'Официальные документы школы/министерства с заверенным буквальным английским переводом. STARS нужен выпускникам школ США; учившиеся вне США его не заполняют. Сестринское дело и архитектура используют сроки Early Action.')]
-  r.update(type='public',founded=1794)
+  r.update(type=L('Public university','Государственный университет'),founded=1794)
  elif i==3:
   application_fee(r,85,L('Application fee; applicants may request a waiver on the application.',
     'Сбор заявки; можно запросить освобождение в самой заявке.'))
@@ -57,9 +57,17 @@ for i,r in enumerate(records):
   event(r,'Early Action','EA','15 November',note=L('Only first-generation college applicants meeting Wake Forest’s stated parent/guardian education criteria. The entry year remains unconfirmed.',
     'Только первое поколение студентов согласно критериям образования родителей/опекунов Wake Forest. Год набора не подтверждён.'))
   event(r,'Early Decision II','ED','1 January',binding=True);event(r,'Regular Decision','RD','1 January')
-  r['scholarships']['needBasedAidForIntl']=False
-  r['scholarships']['fullRide']['note']=L('International first-years can compete for Carswell, Gordon, Reynolds and Stamps full-cost awards through the admission application. Exact coverage, renewal, stacking and the largest eligible award require further verification. Foreign nationals do not receive need-based aid.',
-    'Иностранные первокурсники могут участвовать в конкурсах full-cost Carswell, Gordon, Reynolds и Stamps через заявку на поступление. Точное покрытие, продление, совместимость и крупнейшая доступная награда ещё проверяются. Иностранцам не предоставляется помощь по нуждаемости.')
+  r['scholarships']['needBased']['availableToInternational']=False
+  s=src(r['id'],'stamps-coverage')
+  r['scholarships']['fullRide'].update(available=True,internationalEligible=True,basis='merit',name='Stamps Scholarship',id='stamps',category='merit',entryTerm=None,entryYear=None,deadlineScope='annual-rule',
+    covers=dict(tuition=True,housing=True,meals=True,insurance=None,books=None),source=s['source'],verified=DAY,
+    note=L('Stamps is a highly competitive full-cost Signature award, around15 entering recipients. It covers tuition, fees, room and board, plus USD3,400 for books/personal expenses; up to USD15,000 total approved travel/study across four years. International first-year eligibility is explicitly confirmed on the admissions page. Insurance, exact renewal GPA, stacking and award-year amounts remain unconfirmed; this is not guaranteed aid for every international applicant.',
+      'Stamps — конкурсная награда Signature с полным основным покрытием, около15 новых получателей. Покрывает обучение, сборы, жильё и питание, плюс3 400USD на книги/личные расходы; до15 000USD суммарно на одобренные поездки/учёбу за четыре года. Международные первокурсники явно допущены на странице приёма. Страховка, точный GPA продления, совместимость и суммы конкретного года не подтверждены; помощь не гарантируется всем иностранцам.'),
+    renewable=L('Four undergraduate years described; detailed GPA and stacking conditions still need verification. General merit terms usually require full-time enrolment and campus housing.',
+      'Описаны четыре года бакалавриата; точные условия GPA и совместимости ещё проверяются. Общие условия академических наград обычно требуют полной нагрузки и жилья на кампусе.'),
+    howToApply=L('Complete the admission application by annual November15; no ordinary separate award form. Finalists are invited to campus interviews. Fall2027 cycle not confirmed for this date.',
+      'Завершите заявку на поступление к ежегодному15ноября; обычной отдельной формы награды нет. Финалистов приглашают на интервью в кампус. Цикл осени2027 для этой даты не подтверждён.'))
+  event(r,L('Stamps — completed admission application','Stamps — завершённая заявка на поступление'),'admission','15 November',topic='stamps-coverage',award='stamps')
  elif i==4:
   application_fee(r,80,L('Non-refundable application fee.','Невозвратный сбор заявки.'))
   policy(r,'conditional',L('Optional except BA/BS-MD, homeschool and narrative-only secondary-school evaluations. ACT Science required for BA/BS-MD. Otherwise optional also for international applicants and merit scholarships.',
@@ -71,7 +79,7 @@ for i,r in enumerate(records):
  elif i==5:
   application_fee(r,75,L('Published first-year application fee.','Опубликованный сбор заявки на первый курс.'))
   policy(r,'conditional',L('Test-optional through Fall 2029 except accelerated Pre-Medicine and Pre-Law. Pre-Medicine SAT 1400/ACT 32 with science in one sitting is programme-specific; it is not a university-wide minimum. The published general SAT range has no established percentile/cohort.',
-    'Test-optional до осени 2029, кроме ускоренных Pre-Medicine и Pre-Law. SAT 1400/ACT 32 с science за одну сдачу для Pre-Medicine относится только к программе, не всему вузу. У общего опубликованного диапазона SAT не установлены перцентили/набор.'),cycle='Through Fall 2029')
+    'Test-optional до осени 2029, кроме ускоренных Pre-Medicine и Pre-Law. SAT 1400/ACT 32 с science за одну сдачу для Pre-Medicine относится только к программе, не всему вузу. У общего опубликованного диапазона SAT не установлены перцентили/набор.'),cycle=L('Through Fall 2029','До осени 2029 включительно'))
   labelled(r,'Optional except accelerated Pre-Medicine / Pre-Law','Необязательны, кроме ускоренных Pre-Medicine / Pre-Law')
   english(r,6.0,80,4.0,105,L('Published English minima. SAT EBRW 550 is an English-proof alternative, not composite minimum. Waivers after three years in US schools are case by case. Two recommendations, essay and official records from the institution are required.',
     'Опубликованные минимумы английского. SAT EBRW 550 — альтернатива подтверждения английского, не общий минимум. Освобождения после трёх лет в школах США индивидуальны. Нужны две рекомендации, эссе и официальные записи от учреждения.'))
@@ -84,7 +92,7 @@ for i,r in enumerate(records):
   english(r,6.5,80,4.0,110,L('Published English thresholds; TOEFL Home Edition/MyBest and IELTS Indicator accepted. SAT EBRW 520/ACT English 20 are English alternatives. Individual holistic consideration below published thresholds is possible. ECE/WES evaluation is optional; original school records and literal English translation remain required.',
     'Опубликованные пороги английского; принимаются TOEFL Home Edition/MyBest и IELTS Indicator. SAT EBRW 520/ACT English 20 — языковые альтернативы. Возможно индивидуальное рассмотрение ниже порогов. Оценка ECE/WES необязательна; оригинальные школьные записи и буквальный английский перевод нужны.'))
   event(r,'Early Decision','ED','1 November',binding=True);event(r,'Early Action','EA','1 November',binding=False);event(r,'Regular Decision','RD','1 February',binding=False)
-  r['scholarships']['needBasedAidForIntl']=True
+  r['scholarships']['needBased']['availableToInternational']=True
   r['scholarships']['fullRide']['note']=L('Beginning Fall 2027, international need-based aid consideration uses BIFAA; it does not guarantee an award and is not required for merit. Official sources conflict on priority November 1 versus November 15, including two sections on one page. Final February 1 is consistent; no single priority deadline is presented as confirmed. Largest award/renewal remains unverified.',
     'С осени 2027 иностранцы рассматриваются на помощь по нуждаемости через BIFAA; награда не гарантирована, для академических стипендий BIFAA не нужен. Официальные источники противоречат по приоритету 1 или 15 ноября, включая два раздела одной страницы. Итоговое 1 февраля согласуется; единый приоритет не показан подтверждённым. Крупнейшая награда/продление ещё не проверены.')
  elif i==7:
@@ -92,7 +100,7 @@ for i,r in enumerate(records):
     'SAT/ACT необязательны. SAT English 560 и ACT English 24/Reading 20 — варианты подтверждения языка, не общие вступительные минимумы.'))
   english(r,6.5,86,4.5,120,L('IELTS at least 6.5 IN EACH SECTION. Old TOEFL 86 with every section20; new total4.5. DET120 total and subscore115 PREFERRED, not a hard minimum. Credential evaluation is in the college/university-study section, not a universal school-only first-year requirement.',
     'IELTS не ниже 6,5 В КАЖДОМ РАЗДЕЛЕ. Старый TOEFL 86 и каждый раздел20; новый общий4,5. DET120 общий, раздел115 ЖЕЛАТЕЛЕН, не жёсткий минимум. Оценка документов относится к разделу обучения в колледже/университете, не всем первокурсникам только после школы.'))
-  r['english']['ielts']['sections']={x:6.5 for x in ('listening','reading','writing','speaking')}
+  r['english']['ielts']['sections']=L('At least 6.5 in each section','Не ниже 6,5 в каждом разделе')
   event(r,'Early Action','EA','15 November',topic='admission-deadlines');event(r,'Regular Decision','RD','1 February',topic='admission-deadlines')
  elif i==8:
   application_fee(r,65,L('Non-refundable application fee.','Невозвратный сбор заявки.'))
@@ -109,7 +117,7 @@ for i,r in enumerate(records):
   r['programNote']=L(str(PARTIAL)+' '+str(scope),PARTIAL.ru+' '+scope.ru)
   r['programEvidence']['computer-science']['campus']='Yeshiva College for Men, New York'
  elif i==9:
-  r.update(institutionKind='college',type='private',founded=1832)
+  r.update(institutionKind='college',type=L('Private liberal arts college for men','Частный колледж свободных искусств для мужчин'),founded=1832)
   application_fee(r,0,L('Both Wabash Application and Common App are explicitly free for international applicants.',
     'Wabash Application и Common App явно бесплатны для иностранных абитуриентов.'))
   policy(r,'optional',L('SAT/ACT optional also for merit scholarships; superscoring, but self-reported scores are not accepted.',

@@ -34246,6 +34246,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.ucdavis.edu/about"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://commons.wikimedia.org/wiki/File:University_of_California,_Davis_campus_1_2024-03-26.jpg"
     }
   ],
   "verification": {
@@ -34477,6 +34481,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://uci.edu/about/"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://commons.wikimedia.org/wiki/File:Aldrich_Park,_UCI.jpg"
     }
   ],
   "verification": {
@@ -34810,6 +34818,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://illinois.edu/about/"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://commons.wikimedia.org/wiki/File:Foellinger_Auditorium_-_UIUC_-_DSC09127.JPG"
     }
   ],
   "verification": {
@@ -35115,6 +35127,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.utexas.edu/about-texas"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://commons.wikimedia.org/wiki/File:University_of_texas_at_austin_main_building_2014.jpg"
     }
   ],
   "verification": {
@@ -35475,6 +35491,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.wisc.edu/about/"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://commons.wikimedia.org/wiki/File:University_of_Wisconsin–Madison_August_2022_09_(Bascom_Hall).jpg"
     }
   ],
   "verification": {
@@ -36123,6 +36143,29 @@ window.UNIPATH.universities.push(
     "platforms": [],
     "deadlines": [
       {
+        "name": "Foundation Fellowship application",
+        "kind": "scholarship",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 November",
+        "status": "annual-rule",
+        "binding": null,
+        "appliesTo": "International first-year bachelor applicants",
+        "source": "https://honors.uga.edu/scholarships/prospective-students/foundation-fellowship/",
+        "verified": "2026-10-31",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://honors.uga.edu/scholarships/prospective-students/foundation-fellowship/",
+          "verified": "2026-10-31"
+        },
+        "awardId": "foundation-fellowship",
+        "awardCategory": "merit"
+      },
+      {
         "name": "Early Action",
         "kind": "EA",
         "entryTerm": null,
@@ -36273,20 +36316,29 @@ window.UNIPATH.universities.push(
   },
   "scholarships": {
     "fullRide": {
-      "available": null,
-      "internationalEligible": null,
-      "basis": null,
+      "available": true,
+      "internationalEligible": true,
+      "basis": "merit",
       "covers": {
         "tuition": null,
         "housing": null,
         "meals": null,
         "insurance": null,
-        "books": null
+        "books": null,
+        "stipend": true
       },
-      "renewable": null,
+      "renewable": "Programme page: cumulative UGA GPA3.40, at least12 credits per semester, Honors good standing, programme participation/reports, four-year graduation and first-year Myers Hall residence. Recheck any individual award-letter terms; stacking is unconfirmed.",
       "competitiveness": null,
-      "howToApply": null,
-      "note": null
+      "howToApply": "Separate Morehead Honors College/Foundation Fellowship application, due November1 each year; Fall2027 cycle has not been established.",
+      "note": "Foundation Fellowship is the university’s top academic scholarship. The standing international package lists USD30,000 annual stipend plus a Presidential waiver valued at USD21,740, with no academic year established. The university says the stipend APPROXIMATES attendance cost; individual housing, meals, insurance and residual costs are not guaranteed covered. Travel/research grants are separate. Exact Fall2027 amounts and stacking remain unconfirmed.",
+      "name": "Foundation Fellowship",
+      "id": "foundation-fellowship",
+      "category": "merit",
+      "entryTerm": null,
+      "entryYear": null,
+      "deadlineScope": "annual-rule",
+      "source": "https://honors.uga.edu/scholarships/prospective-students/foundation-fellowship/",
+      "verified": "2026-10-31"
     },
     "merit": [],
     "needBased": {
@@ -36324,6 +36376,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://sclfind.libs.uga.edu/catalog/UA22-010"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://honors.uga.edu/scholarships/prospective-students/foundation-fellowship/"
     }
   ],
   "verification": {
@@ -37635,7 +37691,7 @@ window.UNIPATH.universities.push(
     "items": [],
     "billedSubtotal": null,
     "totalText": null,
-    "note": null
+    "note": "The international table publishes USD61,156 for nine months: tuition/mandatory fees44,339, housing/food12,431, insurance1,916 and miscellaneous2,470. Its academic year is not established on that table; the domestic page’s2026–27 heading is not transferred. Summer and extra programme/course costs are separate. No comparable Fall2027 annual cost is assigned."
   },
   "scholarships": {
     "fullRide": {
@@ -37685,6 +37741,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://luddy.iu.edu/academics/undergraduate/bs-computer-science.html"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://bloomington.iu.edu/cost-aid/cost-attendance/international/undergraduate.html"
     }
   ],
   "verification": {
@@ -38401,14 +38461,43 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": "All undergraduate programmes except BGS; not a semester exchange price",
+      "tuition": 39678,
+      "budget": 70649
+    },
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "International first-year bachelor applicants",
+    "source": "https://international.global.uconn.edu/coa/",
+    "verified": "2026-10-31",
+    "headline": "Previous-cycle published COA: USD70,649",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 39678
+      },
+      {
+        "label": "Fees",
+        "group": "billed",
+        "amount": 5224
+      },
+      {
+        "label": "Housing and meals",
+        "group": "estimate",
+        "amount": 17082
+      },
+      {
+        "label": "Books, travel, insurance and miscellaneous",
+        "group": "estimate",
+        "amount": 8665
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "totalText": "USD70,649 for the published2026–27 academic-year estimate",
+    "note": "Published financial-guarantee estimate for2026–27; not Fall2027–28. Other costs already include books, travel, insurance and miscellaneous. BGS47,981 and Storrs exchange12,248 per semester are different categories and are not substituted.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -38454,6 +38543,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://computing.engineering.uconn.edu/undergraduate/major-programs/computer-science/"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://international.global.uconn.edu/coa/"
     }
   ],
   "verification": {
@@ -38633,14 +38726,23 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": "Comparable scope unresolved"
+    },
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
+    "studentCategory": "International first-year bachelor applicants",
+    "source": "https://www.clemson.edu/financial-aid/cost/estimated-cost-of-attendance.html",
+    "verified": "2026-10-31",
+    "headline": "Conflict in previous-year official tuition/fee figures",
     "items": [],
     "billedSubtotal": null,
     "totalText": null,
-    "note": null
+    "note": "Both pages label2026–27 non-South-Carolina undergraduate costs. Admissions lists tuition/feesUSD42,852; Financial Aid lists tuition42,020 plus fees1,832 = USD43,852 (sum by UniPath). The USD1,000 discrepancy is unresolved and is not described as programme variation. Admissions60,308 excludes other expenses and is not comparable to the full COA66,180 (68,704 with laptop). These are previous-year references, not Fall2027 rates; no budget sufficiency is confirmed.",
+    "status": "conflict",
+    "conflict": {
+      "text": "Both pages label2026–27 non-South-Carolina undergraduate costs. Admissions lists tuition/feesUSD42,852; Financial Aid lists tuition42,020 plus fees1,832 = USD43,852 (sum by UniPath). The USD1,000 discrepancy is unresolved and is not described as programme variation. Admissions60,308 excludes other expenses and is not comparable to the full COA66,180 (68,704 with laptop). These are previous-year references, not Fall2027 rates; no budget sufficiency is confirmed."
+    }
   },
   "scholarships": {
     "fullRide": {
@@ -38682,6 +38784,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.clemson.edu/cecas/departments/computing/academics/undergrad/degrees/cs-bs.html"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.clemson.edu/admissions/undergraduate-admissions/afford.html"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.clemson.edu/financial-aid/cost/estimated-cost-of-attendance.html"
     }
   ],
   "verification": {
@@ -40703,14 +40813,41 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": "Full cost coverage unresolved",
+      "tuition": 39658,
+      "tuitionLabel": "Tuition and fees"
+    },
+    "academicYear": "2027–2028",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "International first-year bachelor applicants",
+    "source": "https://www.auburn.edu/academic/international/isss/cost.php",
+    "verified": "2026-10-31",
+    "headline": "Published estimate; transport coverage conflicts",
+    "items": [
+      {
+        "label": "Tuition and fees",
+        "group": "billed",
+        "amount": 39658
+      },
+      {
+        "label": "Living expenses",
+        "group": "estimate",
+        "amount": 15000
+      },
+      {
+        "label": "Health insurance",
+        "group": "estimate",
+        "amount": 2317
+      }
+    ],
     "billedSubtotal": null,
     "totalText": null,
-    "note": null
+    "note": "Auburn publishes a2027–28 F/J estimate: tuition/feesUSD39,658, living15,000, insurance2,317, total56,975. Its introduction includes transportation but footnote1 explicitly excludes transportation; coverage is inconsistent. Footnote2 separates fall/spring tuition (nine months) and12-month living expenses. DependantsUSD6,000 each and professional fees may add costs. The gross total is not a verified complete budget; no scholarship is deducted.",
+    "status": "conflict",
+    "conflict": {
+      "text": "Auburn publishes a2027–28 F/J estimate: tuition/feesUSD39,658, living15,000, insurance2,317, total56,975. Its introduction includes transportation but footnote1 explicitly excludes transportation; coverage is inconsistent. Footnote2 separates fall/spring tuition (nine months) and12-month living expenses. DependantsUSD6,000 each and professional fees may add costs. The gross total is not a verified complete budget; no scholarship is deducted."
+    }
   },
   "scholarships": {
     "fullRide": {
@@ -40752,6 +40889,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://eng.auburn.edu/cse/academics/undergraduate/computer-science.html"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.auburn.edu/academic/international/isss/cost.php"
     }
   ],
   "verification": {
@@ -41575,7 +41716,7 @@ window.UNIPATH.universities.push(
   "city": "Boulder",
   "region": "Colorado",
   "founded": 1876,
-  "type": "public",
+  "type": "Public university",
   "institutionKind": "university",
   "degrees": [
     "bachelor"
@@ -42066,7 +42207,7 @@ window.UNIPATH.universities.push(
   "city": "Knoxville",
   "region": "Tennessee",
   "founded": 1794,
-  "type": "public",
+  "type": "Public university",
   "institutionKind": "university",
   "degrees": [
     "bachelor"
@@ -42457,6 +42598,29 @@ window.UNIPATH.universities.push(
           "entryTerm": null,
           "entryYear": null
         }
+      },
+      {
+        "name": "Stamps — completed admission application",
+        "kind": "admission",
+        "date": "15 November",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "binding": null,
+        "source": "https://financialaid.wfu.edu/types-of-aid/scholarships/",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://financialaid.wfu.edu/types-of-aid/scholarships/",
+          "verified": "2026-10-31",
+          "entryTerm": null,
+          "entryYear": null
+        },
+        "awardId": "stamps",
+        "awardCategory": "merit"
       }
     ],
     "applicationFee": {
@@ -42526,31 +42690,38 @@ window.UNIPATH.universities.push(
   },
   "scholarships": {
     "fullRide": {
-      "available": null,
-      "internationalEligible": null,
-      "basis": null,
+      "available": true,
+      "internationalEligible": true,
+      "basis": "merit",
       "covers": {
-        "tuition": null,
-        "housing": null,
-        "meals": null,
+        "tuition": true,
+        "housing": true,
+        "meals": true,
         "insurance": null,
         "books": null
       },
-      "renewable": null,
+      "renewable": "Four undergraduate years described; detailed GPA and stacking conditions still need verification. General merit terms usually require full-time enrolment and campus housing.",
       "competitiveness": null,
-      "howToApply": null,
-      "note": "International first-years can compete for Carswell, Gordon, Reynolds and Stamps full-cost awards through the admission application. Exact coverage, renewal, stacking and the largest eligible award require further verification. Foreign nationals do not receive need-based aid."
+      "howToApply": "Complete the admission application by annual November15; no ordinary separate award form. Finalists are invited to campus interviews. Fall2027 cycle not confirmed for this date.",
+      "note": "Stamps is a highly competitive full-cost Signature award, around15 entering recipients. It covers tuition, fees, room and board, plus USD3,400 for books/personal expenses; up to USD15,000 total approved travel/study across four years. International first-year eligibility is explicitly confirmed on the admissions page. Insurance, exact renewal GPA, stacking and award-year amounts remain unconfirmed; this is not guaranteed aid for every international applicant.",
+      "name": "Stamps Scholarship",
+      "id": "stamps",
+      "category": "merit",
+      "entryTerm": null,
+      "entryYear": null,
+      "deadlineScope": "annual-rule",
+      "source": "https://financialaid.wfu.edu/types-of-aid/scholarships/",
+      "verified": "2026-10-31"
     },
     "merit": [],
     "needBased": {
-      "availableToInternational": null,
+      "availableToInternational": false,
       "meetsFullNeed": null,
       "needBlindInternational": null,
       "forms": [],
       "deadlines": null,
       "note": null
-    },
-    "needBasedAidForIntl": false
+    }
   },
   "photos": {
     "main": null,
@@ -42565,6 +42736,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://admissions.wfu.edu/academics/majors-minors/computer-science/"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://financialaid.wfu.edu/types-of-aid/scholarships/"
     }
   ],
   "verification": {
@@ -43323,14 +43498,13 @@ window.UNIPATH.universities.push(
     },
     "merit": [],
     "needBased": {
-      "availableToInternational": null,
+      "availableToInternational": true,
       "meetsFullNeed": null,
       "needBlindInternational": null,
       "forms": [],
       "deadlines": null,
       "note": null
-    },
-    "needBasedAidForIntl": true
+    }
   },
   "photos": {
     "main": null,
@@ -43487,12 +43661,7 @@ window.UNIPATH.universities.push(
       "min": 6.5,
       "recommended": null,
       "note": "IELTS at least 6.5 IN EACH SECTION. Old TOEFL 86 with every section20; new total4.5. DET120 total and subscore115 PREFERRED, not a hard minimum. Credential evaluation is in the college/university-study section, not a universal school-only first-year requirement.",
-      "sections": {
-        "listening": 6.5,
-        "reading": 6.5,
-        "writing": 6.5,
-        "speaking": 6.5
-      }
+      "sections": "At least 6.5 in each section"
     },
     "toefl": {
       "min": 86,
@@ -43864,7 +44033,7 @@ window.UNIPATH.universities.push(
   "city": "Crawfordsville",
   "region": "Indiana",
   "founded": 1832,
-  "type": "private",
+  "type": "Private liberal arts college for men",
   "institutionKind": "college",
   "degrees": [
     "bachelor"
@@ -44863,12 +45032,7 @@ window.UNIPATH.universities.push(
           "name": "General undergraduate",
           "kind": "minimum",
           "overall": 6.5,
-          "sections": {
-            "listening": 6,
-            "reading": 6,
-            "writing": 6,
-            "speaking": 6
-          },
+          "sections": "At least 6.0 in each section",
           "source": "https://www.gmu.edu/international/english-language-requirements",
           "verified": "2026-10-31"
         },
@@ -44876,6 +45040,7 @@ window.UNIPATH.universities.push(
           "name": "College of Engineering and Computing",
           "kind": "minimum",
           "overall": 6.5,
+          "sections": "No minimum subsection score",
           "source": "https://www.gmu.edu/international/english-language-requirements",
           "verified": "2026-10-31"
         }

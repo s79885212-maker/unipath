@@ -113,4 +113,11 @@ for i,r in enumerate(records):
     'Пороги первого курса: IELTS 6,5, TOEFL новой шкалы 4,5, DET 115. Текущая страница кампуса не печатает значение старой шкалы TOEFL; оно не выдумано. Английский для перевода проверяется отдельно.'),topic='english')
   r['admissions']['documents']=[L('Report all foreign coursework as printed without US-grade or agency conversion. Do not submit extra academic records with the UC application unless requested. Official final records follow admission instructions.',
     'Укажите все иностранные предметы как в документе, без конвертации в оценки США или сторонней оценки. Не подавайте дополнительные школьные документы с UC-заявкой без запроса. Итоговые официальные документы подаются по инструкциям после приёма.')]
-finish(records,3)
+r=records[6];s=src(r['id'],'current-coa')
+note=L('Auburn publishes a2027–28 F/J estimate: tuition/feesUSD39,658, living15,000, insurance2,317, total56,975. Its introduction includes transportation but footnote1 explicitly excludes transportation; coverage is inconsistent. Footnote2 separates fall/spring tuition (nine months) and12-month living expenses. DependantsUSD6,000 each and professional fees may add costs. The gross total is not a verified complete budget; no scholarship is deducted.',
+  'Auburn публикует оценку F/J2027–28: обучение/сборы39 658USD, проживание15 000, страховка2 317, итог56 975. Введение включает транспорт, а сноска1 явно исключает его; покрытие противоречиво. Сноска2 отделяет обучение Fall/Spring (девять месяцев) от12месяцев проживания. Иждивенцы6 000USD каждый и профессиональные сборы могут добавить расходы. Итог не подтверждает полный бюджет; стипендия не вычтена.')
+r['costs']=costs('2027–2028',s['source'],DAY,FY,[(L('Tuition and fees','Обучение и сборы'),39658,'billed'),(L('Living expenses','Расходы на проживание'),15000,'estimate'),(L('Health insurance','Медицинская страховка'),2317,'estimate')],
+  L('Published estimate; transport coverage conflicts','Опубликованная оценка; противоречие покрытия транспорта'),None,L('Full cost coverage unresolved','Покрытие полной стоимости не разрешено'),tuition=39658,tuition_label=L('Tuition and fees','Обучение и сборы'),status='conflict',note=note)
+r['costs']['conflict']={'text':note}
+annual={r['id']:dict(min=39658,max=39658,currency='USD',basis='tuition',period='year',academicYear='2027–2028',source=s['source'],verified=DAY,note=note)}
+finish(records,3,annual)
