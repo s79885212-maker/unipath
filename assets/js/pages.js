@@ -255,7 +255,7 @@
         if (has(t.min)) v.push('<span>University-wide minimum: <strong>' + esc(band(t.min)) + '</strong></span>');
         if (t.profiles && t.profiles.length) v.push(profileList(t));
         else v.push('<span class="muted">The level is published on each programme page.</span>');
-        if (has(t.note)) v.push('<span class="small muted">' + esc(t.note) + '</span>');
+        if (has(t.note) && t.note !== eng.note) v.push('<span class="small muted">' + esc(t.note) + '</span>');
         return row(label, v.join(''));
       }
       /* TOEFL has two scales (0–120 before 21 January 2026, 1–6 after). A
@@ -278,7 +278,7 @@
       if (!v.length) v.push('<strong>' + esc(U.testStatusLabel(t)) + '</strong>');
       if (has(t.sections)) v.push('<span class="small"><strong>Sections:</strong> <span>' + esc(t.sections) + '</span></span>');
       if (has(t.variants)) v.push('<span class="small"><strong>Test versions:</strong> <span>' + esc(t.variants) + '</span></span>');
-      if (has(t.note)) v.push('<span class="small muted">' + esc(t.note) + '</span>');
+      if (has(t.note) && t.note !== eng.note) v.push('<span class="small muted">' + esc(t.note) + '</span>');
       return row(label, v.length ? v.join('<br>') : UNKNOWN);
     }
     /* Scores of students who were admitted or enrolled — shown only when the

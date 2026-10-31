@@ -36943,7 +36943,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Pittsburgh",
   "region": "Pennsylvania",
-  "founded": null,
+  "founded": 1787,
   "type": null,
   "institutionKind": "university",
   "degrees": [
@@ -36954,7 +36954,7 @@ window.UNIPATH.universities.push(
     "c2": "#1f1f2e",
     "initials": "P"
   },
-  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open.",
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. The university explicitly dates its foundation to1787 as Pittsburgh Academy; later institutional names are not treated as new foundations.",
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
@@ -37094,6 +37094,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.academics.pitt.edu/undergraduate-programs"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.pitt.edu/about/history-and-achievements"
     }
   ],
   "verification": {
@@ -37172,8 +37176,8 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Merced",
   "region": "California",
-  "founded": null,
-  "type": null,
+  "founded": 2005,
+  "type": "Public university",
   "institutionKind": "university",
   "degrees": [
     "bachelor"
@@ -37183,7 +37187,7 @@ window.UNIPATH.universities.push(
     "c2": "#2e0f17",
     "initials": "CM"
   },
-  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open.",
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. The current campus opened to undergraduates in2005.",
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
@@ -37328,6 +37332,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/filling-out-the-application.html"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.ucmerced.edu/about"
     }
   ],
   "verification": {
@@ -37366,8 +37374,8 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Binghamton",
   "region": "New York",
-  "founded": null,
-  "type": null,
+  "founded": 1946,
+  "type": "Public university",
   "institutionKind": "university",
   "degrees": [
     "bachelor"
@@ -37377,7 +37385,7 @@ window.UNIPATH.universities.push(
     "c2": "#0f2a1f",
     "initials": "B"
   },
-  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open.",
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. Opened1946 as Triple Cities College inEndicott, then SUNY/Harpur1950 and moved toVestal1961. Founding, system membership and campus move are distinct.",
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
@@ -37548,6 +37556,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.binghamton.edu/apps/academics/program/ug/computer-science"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.binghamton.edu/about/our-story.html"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.binghamton.edu/about/"
     }
   ],
   "verification": {
@@ -37587,8 +37603,8 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Bloomington",
   "region": "Indiana",
-  "founded": null,
-  "type": null,
+  "founded": 1820,
+  "type": "Public university",
   "institutionKind": "university",
   "degrees": [
     "bachelor"
@@ -37598,7 +37614,7 @@ window.UNIPATH.universities.push(
     "c2": "#2c1a4d",
     "initials": "IB"
   },
-  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open.",
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. History begins with the1820 state seminary; this is Bloomington, not Indianapolis.",
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
@@ -37745,6 +37761,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://bloomington.iu.edu/cost-aid/cost-attendance/international/undergraduate.html"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://bloomington.iu.edu/about/history.html"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.oem.indiana.edu/about/oem-timeline/index.html"
     }
   ],
   "verification": {
@@ -37783,8 +37807,8 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Raleigh",
   "region": "North Carolina",
-  "founded": null,
-  "type": null,
+  "founded": 1887,
+  "type": "Public university",
   "institutionKind": "university",
   "degrees": [
     "bachelor"
@@ -38005,6 +38029,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://catalog.ncsu.edu/undergraduate/engineering/computer-science/computer-science-bs/"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.lib.ncsu.edu/about"
     }
   ],
   "verification": {
@@ -38044,7 +38072,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Newark",
   "region": "New Jersey",
-  "founded": null,
+  "founded": 1946,
   "type": null,
   "institutionKind": "university",
   "degrees": [
@@ -38055,7 +38083,7 @@ window.UNIPATH.universities.push(
     "c2": "#1f1f2e",
     "initials": "RN"
   },
-  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open.",
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. Rutgers’ university timeline names1946 for Newark.1766 belongs to the original Rutgers founding, not this campus.",
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
@@ -38253,6 +38281,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://sasn.rutgers.edu/academics/undergraduate-majors-minors"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.rutgers.edu/about/our-revolutionary-roots-history"
     }
   ],
   "verification": {
@@ -38316,8 +38348,8 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Storrs",
   "region": "Connecticut",
-  "founded": null,
-  "type": null,
+  "founded": 1881,
+  "type": "Public university",
   "institutionKind": "university",
   "degrees": [
     "bachelor"
@@ -38327,7 +38359,7 @@ window.UNIPATH.universities.push(
     "c2": "#062b3b",
     "initials": "C"
   },
-  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open.",
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. Storrs Agricultural School established in1881; later University of Connecticut name is separate.",
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
@@ -38547,6 +38579,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://international.global.uconn.edu/coa/"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://uconn.edu/about-us/history/"
     }
   ],
   "verification": {
@@ -38586,8 +38622,8 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Clemson",
   "region": "South Carolina",
-  "founded": null,
-  "type": null,
+  "founded": 1889,
+  "type": "Public university",
   "institutionKind": "university",
   "degrees": [
     "bachelor"
@@ -38792,6 +38828,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.clemson.edu/financial-aid/cost/estimated-cost-of-attendance.html"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.clemson.edu/about/history/"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.clemson.edu/about/"
     }
   ],
   "verification": {
@@ -38828,8 +38872,8 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Golden",
   "region": "Colorado",
-  "founded": null,
-  "type": null,
+  "founded": 1874,
+  "type": "Public university",
   "institutionKind": "university",
   "degrees": [
     "bachelor"
@@ -38989,6 +39033,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.mines.edu/academics/undergraduate-academics/majors/applied-mathematics-and-statistics-major/"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.mines.edu/about/president/mission-and-vision/"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.mines.edu/about/"
     }
   ],
   "verification": {
@@ -39025,8 +39077,8 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Riverside",
   "region": "California",
-  "founded": null,
-  "type": null,
+  "founded": 1954,
+  "type": "Public university",
   "institutionKind": "university",
   "degrees": [
     "bachelor"
@@ -39036,7 +39088,7 @@ window.UNIPATH.universities.push(
     "c2": "#062b3b",
     "initials": "CR"
   },
-  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open.",
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. University campus founding1954 is separate from the1907 Citrus Experiment Station predecessor.",
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
@@ -39223,6 +39275,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://admission.universityofcalifornia.edu/apply-now.html"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://history.ucr.edu/about-us"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.ucr.edu/about"
     }
   ],
   "verification": {
@@ -39262,7 +39322,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Newark",
   "region": "New Jersey",
-  "founded": null,
+  "founded": 1881,
   "type": null,
   "institutionKind": "university",
   "degrees": [
@@ -39273,7 +39333,7 @@ window.UNIPATH.universities.push(
     "c2": "#062b3b",
     "initials": "NJI"
   },
-  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open.",
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. Founded as Newark Technical School in1881; renamed NJIT in1975.",
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
@@ -39481,6 +39541,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.njit.edu/academics/degree/bs-computer-science"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.njit.edu/njcep/about/key-facts"
     }
   ],
   "verification": {
@@ -39519,8 +39583,8 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Buffalo",
   "region": "New York",
-  "founded": null,
-  "type": null,
+  "founded": 1846,
+  "type": "Public university",
   "institutionKind": "university",
   "degrees": [
     "bachelor"
@@ -39530,7 +39594,7 @@ window.UNIPATH.universities.push(
     "c2": "#1f1f2e",
     "initials": "B"
   },
-  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open.",
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. Initially private medical college1846; joined SUNY in1962. Historical private origin is not its current classification.",
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
@@ -39721,6 +39785,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.buffalo.edu/admissions/academics/programs/computer-science.html"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.buffalo.edu/advancement/work-with-us/about-the-university.html"
     }
   ],
   "verification": {
@@ -39760,8 +39828,8 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Newark",
   "region": "Delaware",
-  "founded": null,
-  "type": null,
+  "founded": 1743,
+  "type": "State-assisted, privately governed university",
   "institutionKind": "university",
   "degrees": [
     "bachelor"
@@ -39771,7 +39839,7 @@ window.UNIPATH.universities.push(
     "c2": "#2e0f17",
     "initials": "D"
   },
-  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open.",
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. University states founded1743 and chartered1833; state assistance and private governance are both explicit, not simplified to an unqualified public/private category.",
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
@@ -39933,6 +40001,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.cis.udel.edu/academics/undergraduate-programs/"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.udel.edu/about/"
     }
   ],
   "verification": {
@@ -39980,7 +40052,7 @@ window.UNIPATH.universities.push(
     "c2": "#062b3b",
     "initials": "RC"
   },
-  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open.",
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. System timeline calls Rutgers–Camden founded1950. Its own centennial archive describes1950 as merger with Rutgers; predecessor origins are distinct. No single founding year is inferred here;1766 is not assigned toCamden.",
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
@@ -40175,6 +40247,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://camden.rutgers.edu/academics/programs?page=1&program_type=undergraduate"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.rutgers.edu/about/our-revolutionary-roots-history"
     }
   ],
   "verification": {
@@ -40457,8 +40533,8 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Columbia",
   "region": "Missouri",
-  "founded": null,
-  "type": null,
+  "founded": 1839,
+  "type": "Public university",
   "institutionKind": "university",
   "degrees": [
     "bachelor"
@@ -40655,6 +40731,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://engineering.missouri.edu/degree/bachelor-of-science-in-computer-science/"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://missouri.edu/about"
     }
   ],
   "verification": {
@@ -40694,8 +40774,8 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Auburn",
   "region": "Alabama",
-  "founded": null,
-  "type": null,
+  "founded": 1856,
+  "type": "Public university",
   "institutionKind": "university",
   "degrees": [
     "bachelor"
@@ -40705,7 +40785,7 @@ window.UNIPATH.universities.push(
     "c2": "#062b3b",
     "initials": "A"
   },
-  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open.",
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. Chartered1856 as East Alabama Male College; opened1859. Founding and first teaching are distinct; historic private status is not current public classification.",
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
@@ -40893,6 +40973,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.auburn.edu/academic/international/isss/cost.php"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://auburn.edu/about/"
     }
   ],
   "verification": {
@@ -40940,7 +41024,7 @@ window.UNIPATH.universities.push(
     "c2": "#360f28",
     "initials": "FI"
   },
-  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open.",
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. Official history separates the 1965 planning legislation, appointment of the first president in 1969 (also called founding on this page) and opening to students on 14 September 1972. One founding year is not guessed.",
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
@@ -41139,6 +41223,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://cec.fiu.edu/degrees-programs/undergraduate/bs-in-computer-science/"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://president.fiu.edu/about/past-presidents/"
     }
   ],
   "verification": {
@@ -41177,7 +41265,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Tampa",
   "region": "Florida",
-  "founded": null,
+  "founded": 1956,
   "type": null,
   "institutionKind": "university",
   "degrees": [
@@ -41188,7 +41276,7 @@ window.UNIPATH.universities.push(
     "c2": "#3d1d09",
     "initials": "SF"
   },
-  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open.",
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. University founded1956; the profile remains scoped toTampa, not an automatic claim for every campus programme.",
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
@@ -41457,6 +41545,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.usf.edu/ai-cybersecurity-computing/academics/undergraduate/bscs.aspx"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.usf.edu/about-usf/"
     }
   ],
   "verification": {
@@ -41953,8 +42045,8 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Durham",
   "region": "New Hampshire",
-  "founded": null,
-  "type": null,
+  "founded": 1866,
+  "type": "Public university",
   "institutionKind": "university",
   "degrees": [
     "bachelor"
@@ -42168,6 +42260,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.unh.edu/program/bachelor-science/computer-science"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.unh.edu/provost/academic-administration/faculty-resource-guide/section-1-overview-university-new-hampshire"
     }
   ],
   "verification": {
@@ -42483,8 +42579,8 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Winston-Salem",
   "region": "North Carolina",
-  "founded": null,
-  "type": null,
+  "founded": 1834,
+  "type": "Private university",
   "institutionKind": "university",
   "degrees": [
     "bachelor"
@@ -42740,6 +42836,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://financialaid.wfu.edu/types-of-aid/scholarships/"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://business.wfu.edu/online-mba/about-us/"
     }
   ],
   "verification": {
@@ -42776,7 +42876,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Washington, D.C.",
   "region": "District of Columbia",
-  "founded": null,
+  "founded": 1821,
   "type": null,
   "institutionKind": "university",
   "degrees": [
@@ -42990,6 +43090,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://cs.engineering.gwu.edu/bachelor-science-program"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.gwu.edu/traditions"
     }
   ],
   "verification": {
@@ -43028,7 +43132,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Hoboken",
   "region": "New Jersey",
-  "founded": null,
+  "founded": 1870,
   "type": null,
   "institutionKind": "university",
   "degrees": [
@@ -43270,6 +43374,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.stevens.edu/program/computer-science-bachelor-degree"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.stevens.edu/page-basic/centuries-of-inspiration-and-progress"
     }
   ],
   "verification": {
@@ -43306,7 +43414,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Waco",
   "region": "Texas",
-  "founded": null,
+  "founded": 1845,
   "type": null,
   "institutionKind": "university",
   "degrees": [
@@ -43317,7 +43425,7 @@ window.UNIPATH.universities.push(
     "c2": "#3d1d09",
     "initials": "B"
   },
-  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open.",
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. Founded in Independence in 1845 under the Republic of Texas; the present Waco location is not treated as the original founding site.",
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
@@ -43531,6 +43639,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.ecs.baylor.edu/prospective-undergraduate-students/undergraduate-degree-programs/bscs-computer-science"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://about.web.baylor.edu/heritage/commission/forward"
     }
   ],
   "verification": {
@@ -43567,7 +43679,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Milwaukee",
   "region": "Wisconsin",
-  "founded": null,
+  "founded": 1881,
   "type": null,
   "institutionKind": "university",
   "degrees": [
@@ -43761,6 +43873,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://bulletin.marquette.edu/arts-sciences/computer-science/computer-science-bs/"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.marquette.edu/about/"
     }
   ],
   "verification": {
@@ -43797,7 +43913,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "New York",
   "region": "New York",
-  "founded": null,
+  "founded": 1886,
   "type": null,
   "institutionKind": "university",
   "degrees": [
@@ -43808,7 +43924,7 @@ window.UNIPATH.universities.push(
     "c2": "#0f1f33",
     "initials": "Y"
   },
-  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open.",
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. The history dates the institutional origin to a Lower East Side yeshiva in 1886; this is not the foundation date of every present undergraduate school.",
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
@@ -43996,6 +44112,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://yu.smartcatalogiq.com/en/current/university-catalog/undergraduate-programs/yeshiva-college/copy-of-computer-science-artificial-intelligence-bs"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.yu.edu/about/history"
     }
   ],
   "verification": {
@@ -44522,7 +44642,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "Provo",
   "region": "Utah",
-  "founded": null,
+  "founded": 1875,
   "type": null,
   "institutionKind": "university",
   "degrees": [
@@ -44533,7 +44653,7 @@ window.UNIPATH.universities.push(
     "c2": "#360f28",
     "initials": "BY"
   },
-  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open.",
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. Brigham Young Academy in Provo dates to 1875. The Salt Lake academy and Brigham Young College in Logan were separate institutions.",
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
@@ -44681,6 +44801,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://catalog.byu.edu/programs/34712"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://rsc.byu.edu/called-teach/beginnings-brigham-young-academy-1876-84"
     }
   ],
   "verification": {
@@ -44719,7 +44843,7 @@ window.UNIPATH.universities.push(
   "country": "us",
   "city": "San Francisco",
   "region": "California",
-  "founded": null,
+  "founded": 1855,
   "type": null,
   "institutionKind": "university",
   "degrees": [
@@ -44730,7 +44854,7 @@ window.UNIPATH.universities.push(
     "c2": "#2e0f17",
     "initials": "SF"
   },
-  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open.",
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. Founded as St. Ignatius Academy in 1855, chartered in 1859, moved to the present location in 1927 and renamed in 1930; these are separate milestones.",
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
@@ -44895,6 +45019,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.usfca.edu/arts-sciences/programs/undergraduate/computer-science"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.usfca.edu/who-we-are/san-franciscos-university/our-history"
     }
   ],
   "verification": {
@@ -44932,7 +45060,7 @@ window.UNIPATH.universities.push(
   "city": "Fairfax",
   "region": "Virginia",
   "founded": null,
-  "type": null,
+  "type": "Public university",
   "institutionKind": "university",
   "degrees": [
     "bachelor"
@@ -44942,7 +45070,7 @@ window.UNIPATH.universities.push(
     "c2": "#2c1a4d",
     "initials": "GM"
   },
-  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open.",
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. The University of Virginia branch opened in 1957; George Mason became an independent university on 7 April 1972. A single founding date is not selected between these different milestones.",
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
@@ -45150,6 +45278,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.gmu.edu/program/computer-science-bs"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://catalog.gmu.edu/about-mason/university/"
     }
   ],
   "verification": {

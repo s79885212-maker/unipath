@@ -409,7 +409,17 @@ def university_page(u, country, fields):
     for key, name in (("ielts", "IELTS"), ("toefl", "TOEFL"), ("duolingo", "Duolingo English Test")):
         lines = english_lines(eng.get(key), name)
         if lines:
+            test_note = (eng.get(key) or {}).get("note")
+            if has(test_note) and test_note != eng.get("note"):
+                lines.append(test_note)
             row(name, "<br>".join(e(x) for x in lines))
+    for key, label in (("note", "Notes"), ("waiver", "Waiver / exemption"),
+                       ("conditional", "Conditional admission"), ("detailsNote", "Also stated")):
+        if has(eng.get(key)):
+            row(label, e(eng[key]))
+    if eng.get("detailsSource"):
+        row("Test versions and conditions", f'<a href="{e(eng["detailsSource"])}" rel="noopener">Official page ↗</a>' +
+            (f' — {e(eng["detailsVerified"])}' if eng.get("detailsVerified") else ""))
     row("SAT / ACT", e(sat_label(u)))
     sat_stats = sat_stats_line(u)
     if sat_stats:

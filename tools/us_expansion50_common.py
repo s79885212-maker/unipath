@@ -43,6 +43,16 @@ def record(uid,city,ru_city,state,website,admission_topic='international-first-y
     r.update(programsStatus='partial',englishTaught=None,languageOfInstruction=None,englishTaughtPrograms=[],
       programEvidence={f:dict(program=n,level='bachelor',language=None,campus=city,url=p['source'],checked=DAY) for f,n in fields.items()})
     r['academics']['internationalQualifications']=UNKNOWN
+    for ident in (s for s in EVIDENCE if s['id']==uid and s['topic']=='identity-reviewed' and s['access']=='html-read'):
+      facts=ident['facts']
+      if facts.get('founded') is not None:r['founded']=facts['founded']
+      if facts.get('type'):
+        assert facts.get('typeRu'), 'An institutional classification needs its Russian display label'
+        r['type']=L(facts['type'],facts['typeRu'])
+      if facts.get('historyNote'):
+        assert facts.get('historyNoteRu')
+        note=L(facts['historyNote'],facts['historyNoteRu'])
+        r['description']=L(str(r['description'])+' '+str(note),r['description'].ru+' '+note.ru)
     if p['facts'].get('additionalNamedPrograms'):
       extra=', '.join(p['facts']['additionalNamedPrograms'])
       r['programNote']=L(str(PARTIAL)+' Additional confirmed degree programmes: '+extra+'.',

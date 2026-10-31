@@ -1,5 +1,6 @@
 """Final approved ten: conservative first-year routes and named bachelor majors."""
 from us_expansion50_common import *
+L('Utah','Юта')
 configs=[
  ('hillsdale-college','Hillsdale','Хиллсдейл','Michigan','https://www.hillsdale.edu/'),
  ('brigham-young-university','Provo','Прово','Utah','https://www.byu.edu/'),

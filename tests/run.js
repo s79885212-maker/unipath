@@ -326,6 +326,10 @@ group('profile rendering');
   });
   ok(broken.length === 0, 'all ' + DB.universities.length + ' profiles render without an error', broken.slice(0, 4).join('; '));
   function page(id) { main.innerHTML = ''; P.renderProfile(U.uniById(id)); return main.innerHTML; }
+  var masonEnglish = U.uniById('george-mason-university').english;
+  var masonEnglishHTML = page('george-mason-university').split('id="english"')[1].split('</section>')[0];
+  ok(masonEnglishHTML.split(masonEnglish.note).length === 2 && /College of Engineering/.test(masonEnglishHTML),
+    'Mason English: shared conditions appear once, with programme-specific exceptions retained');
   var smuScoped = page('saint-marys-university');
   ok(U.satPolicy(U.uniById('saint-marys-university')) === 'conditional' &&
     U.uniById('saint-marys-university').academics.act.policy === null &&

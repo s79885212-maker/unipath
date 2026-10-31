@@ -4002,5 +4002,599 @@
     "quote": null,
     "facts": null,
     "unresolved": "Direct403;do not substitute Pittsburg State or Carnegie Mellon. No bypass."
+  },
+  {
+    "id": "university-of-pittsburgh",
+    "topic": "identity-reviewed",
+    "source": "https://www.pitt.edu/about/history-and-achievements",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "institutional identity and history; campus-specific",
+    "campus": null,
+    "access": "html-read",
+    "quote": "Founded in 1787 as the Pittsburgh Academy",
+    "facts": {
+      "founded": 1787,
+      "type": null,
+      "typeRu": null,
+      "historyNote": "The university explicitly dates its foundation to1787 as Pittsburgh Academy; later institutional names are not treated as new foundations.",
+      "historyNoteRu": "Сам университет прямо датирует основание1787годом как Pittsburgh Academy; последующие названия не считаются новым основанием."
+    }
+  },
+  {
+    "id": "university-of-california-merced",
+    "topic": "identity-reviewed",
+    "source": "https://www.ucmerced.edu/about",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "institutional identity and history; campus-specific",
+    "campus": null,
+    "access": "html-read",
+    "quote": "UC Merced opened to undergraduates in 2005",
+    "facts": {
+      "founded": 2005,
+      "type": "Public university",
+      "typeRu": "Государственный университет",
+      "historyNote": "The current campus opened to undergraduates in2005.",
+      "historyNoteRu": "Текущий кампус открылся для бакалавров в2005году."
+    }
+  },
+  {
+    "id": "binghamton-university",
+    "topic": "identity-reviewed",
+    "source": "https://www.binghamton.edu/about/our-story.html",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "institutional identity and history; campus-specific",
+    "campus": null,
+    "access": "html-read",
+    "quote": "Triple Cities College in 1946",
+    "facts": {
+      "founded": 1946,
+      "type": null,
+      "typeRu": null,
+      "historyNote": "Opened1946 as Triple Cities College inEndicott, then SUNY/Harpur1950 and moved toVestal1961. Founding, system membership and campus move are distinct.",
+      "historyNoteRu": "Открылся1946как Triple Cities College вEndicott, затемSUNY/Harpur1950 и переезд вVestal1961. Основание, вхождение в систему и переезд различаются."
+    }
+  },
+  {
+    "id": "binghamton-university",
+    "topic": "identity-reviewed",
+    "source": "https://www.binghamton.edu/about/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "institutional identity and history; campus-specific",
+    "campus": null,
+    "access": "html-read",
+    "quote": "The Premier Public University",
+    "facts": {
+      "founded": null,
+      "type": "Public university",
+      "typeRu": "Государственный университет",
+      "historyNote": null,
+      "historyNoteRu": null
+    }
+  },
+  {
+    "id": "indiana-university-bloomington",
+    "topic": "identity-reviewed",
+    "source": "https://bloomington.iu.edu/about/history.html",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "institutional identity and history; campus-specific",
+    "campus": null,
+    "access": "html-read",
+    "quote": "1820: A legislative act is adopted establishing a state seminary.",
+    "facts": {
+      "founded": 1820,
+      "type": null,
+      "typeRu": null,
+      "historyNote": "History begins with the1820 state seminary; this is Bloomington, not Indianapolis.",
+      "historyNoteRu": "История начинается с государственной семинарии1820года; этоBloomington, неIndianapolis."
+    }
+  },
+  {
+    "id": "indiana-university-bloomington",
+    "topic": "identity-reviewed",
+    "source": "https://www.oem.indiana.edu/about/oem-timeline/index.html",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "institutional identity and history; campus-specific",
+    "campus": null,
+    "access": "html-read",
+    "quote": "one of the first public universities",
+    "facts": {
+      "founded": null,
+      "type": "Public university",
+      "typeRu": "Государственный университет",
+      "historyNote": null,
+      "historyNoteRu": null
+    }
+  },
+  {
+    "id": "north-carolina-state-university",
+    "topic": "identity-reviewed",
+    "source": "https://www.lib.ncsu.edu/about",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "institutional identity and history; campus-specific",
+    "campus": null,
+    "access": "html-read",
+    "quote": "a public, land-grant institution founded in 1887",
+    "facts": {
+      "founded": 1887,
+      "type": "Public university",
+      "typeRu": "Государственный университет",
+      "historyNote": null,
+      "historyNoteRu": null
+    }
+  },
+  {
+    "id": "rutgers-university-newark",
+    "topic": "identity-reviewed",
+    "source": "https://www.rutgers.edu/about/our-revolutionary-roots-history",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "institutional identity and history; campus-specific",
+    "campus": null,
+    "access": "html-read",
+    "quote": "1946 Rutgers University–Newark founded",
+    "facts": {
+      "founded": 1946,
+      "type": null,
+      "typeRu": null,
+      "historyNote": "Rutgers’ university timeline names1946 for Newark.1766 belongs to the original Rutgers founding, not this campus.",
+      "historyNoteRu": "Общая хронологияRutgers называет1946дляNewark.1766относится к исходному основаниюRutgers, не этому кампусу."
+    }
+  },
+  {
+    "id": "university-of-connecticut",
+    "topic": "identity-reviewed",
+    "source": "https://uconn.edu/about-us/history/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "institutional identity and history; campus-specific",
+    "campus": null,
+    "access": "html-read",
+    "quote": "1881",
+    "facts": {
+      "founded": 1881,
+      "type": "Public university",
+      "typeRu": "Государственный университет",
+      "historyNote": "Storrs Agricultural School established in1881; later University of Connecticut name is separate.",
+      "historyNoteRu": "Storrs Agricultural School учреждена в1881; последующее названиеUniversity of Connecticut — отдельный этап."
+    }
+  },
+  {
+    "id": "clemson-university",
+    "topic": "identity-reviewed",
+    "source": "https://www.clemson.edu/about/history/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "institutional identity and history; campus-specific",
+    "campus": null,
+    "access": "html-read",
+    "quote": "Clemson was founded in 1889",
+    "facts": {
+      "founded": 1889,
+      "type": null,
+      "typeRu": null,
+      "historyNote": null,
+      "historyNoteRu": null
+    }
+  },
+  {
+    "id": "clemson-university",
+    "topic": "identity-reviewed",
+    "source": "https://www.clemson.edu/about/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "institutional identity and history; campus-specific",
+    "campus": null,
+    "access": "html-read",
+    "quote": "public research universities",
+    "facts": {
+      "founded": null,
+      "type": "Public university",
+      "typeRu": "Государственный университет",
+      "historyNote": null,
+      "historyNoteRu": null
+    }
+  },
+  {
+    "id": "colorado-school-of-mines",
+    "topic": "identity-reviewed",
+    "source": "https://www.mines.edu/about/president/mission-and-vision/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "institutional identity and history; campus-specific",
+    "campus": null,
+    "access": "html-read",
+    "quote": "Colorado School of Mines was founded in 1874",
+    "facts": {
+      "founded": 1874,
+      "type": null,
+      "typeRu": null,
+      "historyNote": null,
+      "historyNoteRu": null
+    }
+  },
+  {
+    "id": "colorado-school-of-mines",
+    "topic": "identity-reviewed",
+    "source": "https://www.mines.edu/about/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "institutional identity and history; campus-specific",
+    "campus": null,
+    "access": "html-read",
+    "quote": "a public R1 research university",
+    "facts": {
+      "founded": null,
+      "type": "Public university",
+      "typeRu": "Государственный университет",
+      "historyNote": null,
+      "historyNoteRu": null
+    }
+  },
+  {
+    "id": "university-of-california-riverside",
+    "topic": "identity-reviewed",
+    "source": "https://history.ucr.edu/about-us",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "institutional identity and history; campus-specific",
+    "campus": null,
+    "access": "html-read",
+    "quote": "the University’s founding in 1954",
+    "facts": {
+      "founded": 1954,
+      "type": null,
+      "typeRu": null,
+      "historyNote": "University campus founding1954 is separate from the1907 Citrus Experiment Station predecessor.",
+      "historyNoteRu": "Основание университетского кампуса1954отделено от предшественника Citrus Experiment Station1907."
+    }
+  },
+  {
+    "id": "university-of-california-riverside",
+    "topic": "identity-reviewed",
+    "source": "https://www.ucr.edu/about",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "institutional identity and history; campus-specific",
+    "campus": null,
+    "access": "html-read",
+    "quote": "public research university",
+    "facts": {
+      "founded": null,
+      "type": "Public university",
+      "typeRu": "Государственный университет",
+      "historyNote": null,
+      "historyNoteRu": null
+    }
+  },
+  {
+    "id": "new-jersey-institute-of-technology",
+    "topic": "identity-reviewed",
+    "source": "https://www.njit.edu/njcep/about/key-facts",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "institutional identity and history; campus-specific",
+    "campus": null,
+    "access": "html-read",
+    "quote": "Founded in 1881 as Newark Technical School",
+    "facts": {
+      "founded": 1881,
+      "type": null,
+      "typeRu": null,
+      "historyNote": "Founded as Newark Technical School in1881; renamed NJIT in1975.",
+      "historyNoteRu": "Основан как Newark Technical School в1881; переименованNJIT в1975."
+    }
+  },
+  {
+    "id": "university-at-buffalo",
+    "topic": "identity-reviewed",
+    "source": "https://www.buffalo.edu/advancement/work-with-us/about-the-university.html",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "institutional identity and history; campus-specific",
+    "campus": null,
+    "access": "html-read",
+    "quote": "founded in 1846 as a private medical college",
+    "facts": {
+      "founded": 1846,
+      "type": "Public university",
+      "typeRu": "Государственный университет",
+      "historyNote": "Initially private medical college1846; joined SUNY in1962. Historical private origin is not its current classification.",
+      "historyNoteRu": "Первоначально частный медицинский колледж1846; вошёл вSUNY в1962. Историческое частное происхождение не является текущим статусом."
+    }
+  },
+  {
+    "id": "university-of-delaware",
+    "topic": "identity-reviewed",
+    "source": "https://www.udel.edu/about/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "institutional identity and history; campus-specific",
+    "campus": null,
+    "access": "html-read",
+    "quote": "State-assisted yet privately governed",
+    "facts": {
+      "founded": 1743,
+      "type": "State-assisted, privately governed university",
+      "typeRu": "Университет с поддержкой штата и частным управлением",
+      "historyNote": "University states founded1743 and chartered1833; state assistance and private governance are both explicit, not simplified to an unqualified public/private category.",
+      "historyNoteRu": "Университет указывает основание1743и charter1833; поддержка штата и частное управление сохранены явно, без упрощения до безусловного public/private."
+    }
+  },
+  {
+    "id": "rutgers-university-camden",
+    "topic": "identity-reviewed",
+    "source": "https://www.rutgers.edu/about/our-revolutionary-roots-history",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "institutional identity and history; campus-specific",
+    "campus": null,
+    "access": "html-read",
+    "quote": "1950 Rutgers University–Camden founded",
+    "facts": {
+      "founded": null,
+      "type": null,
+      "typeRu": null,
+      "historyNote": "System timeline calls Rutgers–Camden founded1950. Its own centennial archive describes1950 as merger with Rutgers; predecessor origins are distinct. No single founding year is inferred here;1766 is not assigned toCamden.",
+      "historyNoteRu": "Общая хронология называет основаниеRutgers–Camden1950. Собственный архив столетия описывает1950как объединение сRutgers; происхождение предшественников отдельно. Единый год не выведен;1766не назначенCamden."
+    }
+  },
+  {
+    "id": "university-of-missouri",
+    "topic": "identity-reviewed",
+    "source": "https://missouri.edu/about",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "institutional identity and history; campus-specific",
+    "campus": null,
+    "access": "html-read",
+    "quote": "Established in 1839",
+    "facts": {
+      "founded": 1839,
+      "type": "Public university",
+      "typeRu": "Государственный университет",
+      "historyNote": null,
+      "historyNoteRu": null
+    }
+  },
+  {
+    "id": "auburn-university",
+    "topic": "identity-reviewed",
+    "source": "https://auburn.edu/about/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "institutional identity and history; campus-specific",
+    "campus": null,
+    "access": "html-read",
+    "quote": "Founded in 1856",
+    "facts": {
+      "founded": 1856,
+      "type": "Public university",
+      "typeRu": "Государственный университет",
+      "historyNote": "Chartered1856 as East Alabama Male College; opened1859. Founding and first teaching are distinct; historic private status is not current public classification.",
+      "historyNoteRu": "Charter1856как East Alabama Male College; открытие1859. Основание и начало преподавания различаются; исторический частный статус не текущий государственный."
+    }
+  },
+  {
+    "id": "university-of-south-florida",
+    "topic": "identity-reviewed",
+    "source": "https://www.usf.edu/about-usf/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "institutional identity and history; campus-specific",
+    "campus": null,
+    "access": "html-read",
+    "quote": "Founded in 1956",
+    "facts": {
+      "founded": 1956,
+      "type": null,
+      "typeRu": null,
+      "historyNote": "University founded1956; the profile remains scoped toTampa, not an automatic claim for every campus programme.",
+      "historyNoteRu": "Университет основан1956; профиль относится кTampa, без автоматического переноса условий всех кампусов."
+    }
+  },
+  {
+    "id": "university-of-new-hampshire",
+    "topic": "identity-reviewed",
+    "source": "https://www.unh.edu/provost/academic-administration/faculty-resource-guide/section-1-overview-university-new-hampshire",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "institutional identity and history only; no graduate admission rules transferred",
+    "campus": null,
+    "access": "html-read",
+    "quote": "It was founded in 1866 as the New Hampshire College of Agriculture and the Mechanic Arts",
+    "facts": {
+      "founded": 1866,
+      "type": "Public university",
+      "typeRu": "Государственный университет",
+      "historyNote": null,
+      "historyNoteRu": null
+    }
+  },
+  {
+    "id": "yeshiva-university",
+    "topic": "identity-reviewed",
+    "source": "https://www.yu.edu/about/history",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "institutional identity and history only; no graduate admission rules transferred",
+    "campus": null,
+    "access": "html-read",
+    "quote": "on the Lower East Side of Manhattan in 1886",
+    "facts": {
+      "founded": 1886,
+      "type": null,
+      "typeRu": null,
+      "historyNote": "The history dates the institutional origin to a Lower East Side yeshiva in 1886; this is not the foundation date of every present undergraduate school.",
+      "historyNoteRu": "История относит начало учреждения к ешиве Нижнего Ист-Сайда 1886 года; это не дата основания каждого нынешнего колледжа бакалавриата."
+    }
+  },
+  {
+    "id": "marquette-university",
+    "topic": "identity-reviewed",
+    "source": "https://www.marquette.edu/about/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "institutional identity and history only; no graduate admission rules transferred",
+    "campus": null,
+    "access": "html-read",
+    "quote": "Marquette was founded in 1881",
+    "facts": {
+      "founded": 1881,
+      "type": null,
+      "typeRu": null,
+      "historyNote": null,
+      "historyNoteRu": null
+    }
+  },
+  {
+    "id": "george-washington-university",
+    "topic": "identity-reviewed",
+    "source": "https://www.gwu.edu/traditions",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "institutional identity and history only; no graduate admission rules transferred",
+    "campus": null,
+    "access": "html-read",
+    "quote": "Founded in 1821 through an Act of Congress",
+    "facts": {
+      "founded": 1821,
+      "type": null,
+      "typeRu": null,
+      "historyNote": null,
+      "historyNoteRu": null
+    }
+  },
+  {
+    "id": "stevens-institute-of-technology",
+    "topic": "identity-reviewed",
+    "source": "https://www.stevens.edu/page-basic/centuries-of-inspiration-and-progress",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "institutional identity and history only; no graduate admission rules transferred",
+    "campus": null,
+    "access": "html-read",
+    "quote": "was founded in Hoboken, NJ on February 15, 1870",
+    "facts": {
+      "founded": 1870,
+      "type": null,
+      "typeRu": null,
+      "historyNote": null,
+      "historyNoteRu": null
+    }
+  },
+  {
+    "id": "wake-forest-university",
+    "topic": "identity-reviewed",
+    "source": "https://business.wfu.edu/online-mba/about-us/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "institutional identity and history only; no graduate admission rules transferred",
+    "campus": null,
+    "access": "html-read",
+    "quote": "Founded in 1834, Wake Forest University is a private university based in Winston-Salem, North Carolina",
+    "facts": {
+      "founded": 1834,
+      "type": "Private university",
+      "typeRu": "Частный университет",
+      "historyNote": null,
+      "historyNoteRu": null
+    }
+  },
+  {
+    "id": "baylor-university",
+    "topic": "identity-reviewed",
+    "source": "https://about.web.baylor.edu/heritage/commission/forward",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "institutional identity and history only; no graduate admission rules transferred",
+    "campus": null,
+    "access": "html-read",
+    "quote": "Baylor was founded in 1845 by the Republic of Texas",
+    "facts": {
+      "founded": 1845,
+      "type": null,
+      "typeRu": null,
+      "historyNote": "Founded in Independence in 1845 under the Republic of Texas; the present Waco location is not treated as the original founding site.",
+      "historyNoteRu": "Основан в Индепенденсе в 1845 году при Республике Техас; нынешний Уэйко не указан как место первоначального основания."
+    }
+  },
+  {
+    "id": "university-of-san-francisco",
+    "topic": "identity-reviewed",
+    "source": "https://www.usfca.edu/who-we-are/san-franciscos-university/our-history",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "institutional identity and campus history",
+    "campus": null,
+    "access": "html-read",
+    "quote": "The university was founded in 1855 as St. Ignatius Academy",
+    "facts": {
+      "founded": 1855,
+      "type": null,
+      "typeRu": null,
+      "historyNote": "Founded as St. Ignatius Academy in 1855, chartered in 1859, moved to the present location in 1927 and renamed in 1930; these are separate milestones.",
+      "historyNoteRu": "Основан как St. Ignatius Academy в 1855 году, получил хартию в 1859, переехал на нынешнее место в 1927 и переименован в 1930; это разные события."
+    }
+  },
+  {
+    "id": "george-mason-university",
+    "topic": "identity-reviewed",
+    "source": "https://catalog.gmu.edu/about-mason/university/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "institutional identity and campus history",
+    "campus": null,
+    "access": "html-read",
+    "quote": "The university's formal history began in 1957 as University College",
+    "facts": {
+      "founded": null,
+      "type": "Public university",
+      "typeRu": "Государственный университет",
+      "historyNote": "The University of Virginia branch opened in 1957; George Mason became an independent university on 7 April 1972. A single founding date is not selected between these different milestones.",
+      "historyNoteRu": "Филиал University of Virginia открылся в 1957 году; George Mason стал самостоятельным университетом 7 апреля 1972 года. Единая дата основания между этими событиями не выбрана."
+    }
+  },
+  {
+    "id": "brigham-young-university",
+    "topic": "identity-reviewed",
+    "source": "https://rsc.byu.edu/called-teach/beginnings-brigham-young-academy-1876-84",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "institutional identity and campus history",
+    "campus": null,
+    "access": "html-read",
+    "quote": "The academy at Provo was the first of these, founded in 1875",
+    "facts": {
+      "founded": 1875,
+      "type": null,
+      "typeRu": null,
+      "historyNote": "Brigham Young Academy in Provo dates to 1875. The Salt Lake academy and Brigham Young College in Logan were separate institutions.",
+      "historyNoteRu": "Brigham Young Academy в Прово основана в 1875 году. Академия Солт-Лейк-Сити и Brigham Young College в Логане — отдельные учреждения."
+    }
+  },
+  {
+    "id": "florida-international-university",
+    "topic": "identity-reviewed",
+    "source": "https://president.fiu.edu/about/past-presidents/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "institutional identity and campus history",
+    "campus": null,
+    "access": "html-read",
+    "quote": "On opening day, Sept. 14, 1972, FIU had 5,667 students",
+    "facts": {
+      "founded": null,
+      "type": null,
+      "typeRu": null,
+      "historyNote": "Official history separates the 1965 planning legislation, appointment of the first president in 1969 (also called founding on this page) and opening to students on 14 September 1972. One founding year is not guessed.",
+      "historyNoteRu": "Официальная история различает закон о планировании 1965 года, назначение первого президента в 1969 (на странице также названо основанием) и открытие для студентов 14 сентября 1972 года. Единый год основания не угадан."
+    }
   }
 ]
