@@ -1356,5 +1356,628 @@
       "type": null,
       "scope": "Institution founded1855; public status independently confirmed in financial-guarantee source. Do not apply all campuses as one price or ending campus."
     }
+  },
+  {
+    "id": "university-of-pittsburgh",
+    "topic": "international-first-year-admission",
+    "source": "https://admissions.pitt.edu/international/international-first-year-students/",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Pittsburgh",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Fall term (August)—complete your application by April 1",
+    "facts": {
+      "rounds": "Rolling review; fall completion April1. Page banner says Fall2027 application open, but table does not explicitly date the April1 row; retain annual rule pending stronger cycle context.",
+      "satAct": null,
+      "feeUSD": null,
+      "scope": "Pittsburgh campus; do not substitute Pitt State/Kansas or regional-campus programmes."
+    }
+  },
+  {
+    "id": "university-of-pittsburgh",
+    "topic": "international-aid",
+    "source": "https://admissions.pitt.edu/international/",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Pittsburgh",
+    "intake": null,
+    "access": "html-read",
+    "quote": "reviewed for international student scholarships",
+    "facts": {
+      "needBasedInternational": false,
+      "scholarships": "Competitive international first-year fall awards; completed application and credentials by annualFebruary1; automatic consideration, rolling review, no amount established. Statement financial aid unavailable does not negate separately listed scholarships.",
+      "serviceFee": "Pittsburgh F1/J1 international services fee500 per fall/spring term, not total tuition or an application fee."
+    }
+  },
+  {
+    "id": "university-of-california-merced",
+    "topic": "international-first-year-admission",
+    "source": "https://admissions.ucmerced.edu/apply",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Merced",
+    "intake": "Fall2027",
+    "access": "html-read",
+    "quote": "Fall 2027 UC application",
+    "facts": {
+      "rounds": [
+        {
+          "kind": "RD",
+          "date": "2026-11-30",
+          "status": "confirmed"
+        }
+      ],
+      "feeUSD": 95,
+      "scope": "General UC route October1–November30; MAAP and SJV PRIME+ BS/MD have separate processes/deadlines. US80 is not the international fee."
+    }
+  },
+  {
+    "id": "university-of-california-merced",
+    "topic": "international-school-and-aid",
+    "source": "https://admissions.ucmerced.edu/node/1255",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Merced",
+    "intake": null,
+    "access": "html-read",
+    "quote": "minimum cumulative 3.00 GPA",
+    "facts": {
+      "ucAdmission": "Nonresident first-year UC GPA3.4 in required15yearlongcourses; no Uzbek grade conversion established.",
+      "award": "Global Access Program Scholarship:25000USD/year for eligible nonresidents with GPA3.25+; renewal cumulative3.00, full-time and SAP. Programme details/other limits still require review.",
+      "uzbekistan": "Exact Uzbek credential, lyceum, grade conversion and preparatory route unconfirmed."
+    }
+  },
+  {
+    "id": "binghamton-university",
+    "topic": "international-first-year-admission",
+    "source": "https://www.binghamton.edu/admissions/undergraduate/apply/international/first-year.html",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Binghamton",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Mid 50%",
+    "facts": {
+      "feeUSD": 50,
+      "waiverInternational": false,
+      "satAct": "Optional for admission; separate official English proof still needed; scores younger than2years. Four English-medium years can request a waiver, not automatic.",
+      "englishStatistics": "Mid50% IELTS6.5–7.0, TOEFL80–95/4.0–5.0,DET110–120; these are not minima or means. SAT EBRW530–640 is a section, not composite.",
+      "documents": "Official last3schoolyears with all courses/marks; original plus English translation, sent by school official.",
+      "rounds": "Annual EA November1; regularMarch15; lateapplications space-available. Decisions January15/April1 are not application deadlines."
+    }
+  },
+  {
+    "id": "indiana-university-bloomington",
+    "topic": "international-first-year-admission",
+    "source": "https://bloomington.iu.edu/admissions/apply/international/freshman/",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Bloomington",
+    "intake": null,
+    "access": "html-read",
+    "quote": "early action (non-binding) deadline",
+    "facts": {
+      "platforms": [
+        "Apply IU",
+        "Common Application"
+      ],
+      "rounds": "Annual nonbinding EarlyActionNovember1 for greatest admission/scholarship consideration; no named entry year established.",
+      "scope": "Bloomington, not Indianapolis; only one application, no benefit to duplicate platforms."
+    }
+  },
+  {
+    "id": "indiana-university-bloomington",
+    "topic": "international-academic-policy",
+    "source": "https://bloomington.iu.edu/admissions/apply/international/freshman/admission-standards.html",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Bloomington",
+    "intake": null,
+    "access": "html-read",
+    "quote": "test-optional admissions policy",
+    "facts": {
+      "satAct": "Optional for international first-year admission; no named policy expiry established.",
+      "documents": "Equivalent uppersecondary completed, requiredcoursecomponents/exams;34credits recommendedrequiredpreparation listed acrosslanguages/math/science/socialscience. Substitution possible when school does not offer a subject.",
+      "english": "Required proof withinlast2years; numeric requirement on separate linked page.",
+      "uzbekistan": "No exact Uzbek diploma established; do not use Kazakhstan/Kyrgyzstan/Russia table as Uzbekistan equivalence."
+    }
+  },
+  {
+    "id": "indiana-university-bloomington",
+    "topic": "country-credentials-review",
+    "source": "https://bloomington.iu.edu/admissions/apply/international/transcripts.html",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Bloomington",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Secondary school requirements for admission",
+    "facts": {
+      "review": "Reviewed country table and searched Uzbekistan; no specific Uzbekistan row found. Nearby Kazakhstan/Kyrgyzstan Attestat and Russian certificate entries must not be copied to Uzbekistan.",
+      "status": "not-confirmed",
+      "scope": "This is not a claim that all Uzbek qualifications are rejected or that university publishes no other guidance."
+    }
+  },
+  {
+    "id": "north-carolina-state-university",
+    "topic": "international-first-year-admission",
+    "source": "https://admissions.ncsu.edu/apply/international/first-year/",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Raleigh",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Scores required for full undergraduate admission:",
+    "facts": {
+      "feeUSD": 100,
+      "waiverInternational": false,
+      "rounds": "Annual EA November1/RD January15; studio programmes earlier portfolio/essay November1, MusicTechnology own portfolio.",
+      "documents": "Official secondaryrecords plus issuinginstitution/Ministry/certified English translation; F1J1 proofoffunds.",
+      "english": {
+        "ieltsMin": 6.5,
+        "ieltsSectionMin": 6.0,
+        "toeflPreMin": 80,
+        "toeflPreSectionMin": 18,
+        "toeflPostMin": 4.5,
+        "toeflPostSectionMin": 4.0,
+        "detMin": 110
+      },
+      "scope": "Conditional pathway IELTS5.0/TOEFL42or3.0/DET80 is separate from direct undergraduate entry. General Uzbek equivalence unconfirmed."
+    }
+  },
+  {
+    "id": "north-carolina-state-university",
+    "topic": "international-sat-scope",
+    "source": "https://admissions.ncsu.edu/apply/international/",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Raleigh",
+    "intake": "2027–2028 financial requirement",
+    "access": "html-read",
+    "quote": "Applicants attending school outside the U.S. are not required",
+    "facts": {
+      "satAct": "Applicants schooled outsideUS need not submit SAT/ACT/CLT. USschool weightedGPA2.5–2.79 requires SAT/ACT; optional at2.8+. School context, not citizenship, governs this condition.",
+      "financialRequirement": "2027–28 annual F1/J1 financial requirement58423USD; figures are estimated, not a guaranteed future invoice.",
+      "aid": "No international financial aid; limited competitive merit awards via PACKASSIST only after admission."
+    }
+  },
+  {
+    "id": "north-carolina-state-university",
+    "topic": "fall-2027-estimated-expenses",
+    "source": "https://admissions.ncsu.edu/apply/international/first-year/",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Raleigh",
+    "intake": "Fall2027",
+    "access": "html-read",
+    "quote": "Estimated Expenses for Students Starting at NC State in Fall 2027",
+    "facts": {
+      "currency": "USD",
+      "tuitionFees": 37510,
+      "living": 18210,
+      "insurance": 2703,
+      "publishedTotal": 58423,
+      "summerExtra": 6070,
+      "scope": "University-published F1visa academic-year estimated school expenses; summer residency extra, no scholarship deducted. Financialrequirement year established on linked general international page. Not a fixed programme invoice."
+    }
+  },
+  {
+    "id": "rutgers-university-newark",
+    "topic": "international-first-year-admission",
+    "source": "https://admissions.rutgers.edu/apply/first-year-applicants",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Newark",
+    "intake": "Through2027",
+    "access": "html-read",
+    "quote": "Rutgers University–Newark is test blind.",
+    "facts": {
+      "satAct": "Test-blind for most undergraduate applicants; Newark7-yearBA/MD requires SAT or ACT. This differs from NewBrunswickoptional and Camdenoptional/BS-DOexception.",
+      "feeUSD": 70,
+      "waiverInternational": null,
+      "scope": "Standing policy through2027; SATlanguage/placementexemptions are separate."
+    }
+  },
+  {
+    "id": "rutgers-university-newark",
+    "topic": "international-english",
+    "source": "https://admissions.rutgers.edu/apply/international-applicants",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Newark",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Test  | New Brunswick  | Newark  | Camden",
+    "facts": {
+      "ieltsMin": 6.5,
+      "toeflPreMin": 79,
+      "toeflPostMin": 4.0,
+      "detMin": 115,
+      "scope": "Newarkcolumn. Pharmacy/NursingschoolTOEFL100/5.5 and DET130exceptions must be checked forapplicableprogramme; sourcecutoffJan21/22. STARS self-report, officialrecords onenrolment; professionaltranslation. No exactUzbek equivalence established."
+    }
+  },
+  {
+    "id": "rutgers-university-newark",
+    "topic": "admission-deadlines",
+    "source": "https://admissions.rutgers.edu/apply/dates-deadlines/newark",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Newark",
+    "intake": "Fall2027",
+    "access": "html-read",
+    "quote": "Fall/September 2027: Application Dates & Deadlines",
+    "facts": {
+      "earlyAction": "2026-11-01",
+      "regularDecision": "2026-12-01",
+      "reply": "2027-05-01",
+      "scope": "Official table calls these due dates, permits later submissions ifschoolstillopen. Page also contains an old Fall2026 availability subheading; do not copy that into the explicitly labelled2027table.",
+      "binding": "EA footnote still needs review."
+    }
+  },
+  {
+    "id": "university-of-connecticut",
+    "topic": "international-first-year-admission",
+    "source": "https://admissions.uconn.edu/apply/international/first-year/",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Storrs",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Meeting the minimum score requirements does not guarantee admission",
+    "facts": {
+      "feeUSD": 80,
+      "satAct": "Optional; officialscores ifsubmitted, superscores. SAT/ACT writingnotused. Standing page no named2027expiry.",
+      "english": {
+        "ieltsMin": 6.5,
+        "toeflPreMin": 79,
+        "toeflPostMin": 4.5,
+        "detMin": 110
+      },
+      "documents": "Officialsecondaryrecords/latestgrades/seniorcourses, directschoolsubmission plus certifiedEnglishtranslation; essayrequired,twolettersoptional.",
+      "rounds": "Annual EDNovember1, StorrsgeneralJanuary15; specialprogramsMedicine/Dental/LawNovember1. Regionalcampus datesnotcopied.",
+      "scope": "UCAELI conditional entry distinct from directdegree; waiversexistwithspecificcriteria, notallEnglishschooling automatically."
+    }
+  },
+  {
+    "id": "university-of-connecticut",
+    "topic": "country-credentials-review",
+    "source": "https://admissions.uconn.edu/apply/international/credentials/",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Storrs",
+    "intake": null,
+    "access": "html-read",
+    "quote": "International Credentials",
+    "facts": {
+      "review": "Countrylist endsVietnam afterUAE/UK; noUzbekistanrow found. Othercountries/transfers notproofUzbekcertificateaccepted. ExactAttestat/lyceum/grades/foundationunconfirmed."
+    }
+  },
+  {
+    "id": "clemson-university",
+    "topic": "international-first-year-admission",
+    "source": "https://www.clemson.edu/admissions/undergraduate-admissions/apply/international.html",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Clemson",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Clemson has adopted a test-optional policy.",
+    "facts": {
+      "feeUSD": 70,
+      "satAct": "Optional, superscores ifsubmitted; oldACTscienceformula onpage notinferredas2027policy.",
+      "english": "IELTS6.5 with sections6.0; TOEFL80 oldscale printed, no newscale confirmed onreviewed page. Englishpathway/directdistinction stillreview.",
+      "documents": "FirstyearSTARSselfreport; officialrecords beforeenrolment. WES/JosefSilnyevaluation statement here belongs TRANSFER, do notrequireitofallfirstyears.",
+      "rounds": "InternationalFall annualMay1application+credentials,June1I20/DS2019; noyearprinted. Domestic/earliermeritdeadlines needseparatereview."
+    }
+  },
+  {
+    "id": "colorado-school-of-mines",
+    "topic": "international-admission-access",
+    "source": "https://undergraduate-admissions.mines.edu/international-first-year-requirements/",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Golden",
+    "intake": null,
+    "access": "403-blocked",
+    "quote": null,
+    "facts": null
+  },
+  {
+    "id": "colorado-school-of-mines",
+    "topic": "fee-access",
+    "source": "https://undergraduate-admissions.mines.edu/frequently-asked-questions/",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Golden",
+    "intake": null,
+    "access": "fetch-unavailable",
+    "quote": null,
+    "facts": null
+  },
+  {
+    "id": "university-of-california-riverside",
+    "topic": "international-first-year-admission",
+    "source": "https://discover.ucr.edu/international",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Riverside",
+    "intake": null,
+    "access": "html-read",
+    "quote": "UC Riverside will not consider SAT or ACT test scores",
+    "facts": {
+      "satAct": "Not used foradmission/awards; eligibility/placement separate.",
+      "english": {
+        "ieltsMin": 6.5,
+        "toeflPreMin": 80,
+        "toeflPostMin": 4.5,
+        "detMin": 115
+      },
+      "scope": "FirstyearEnglishsection; noOneSkill/MyBest;digitalSATnotapprovedEnglishroute. Pagecontainsstalegeneral80fee/November1–30filing; usecurrentUCsysteminternationalfee95 andFall2027calendarinstead.",
+      "award": "AchievementScholarshipautomaticinternationalfirstyearconsideration, upto89100over4years,nonresidentconfirmed/UCeligible/SIR; renewquarterGPA3.0. Not a guaranteeorfullride; largestawardnotestablished."
+    }
+  },
+  {
+    "id": "university-of-pittsburgh",
+    "topic": "programs",
+    "source": "https://www.academics.pitt.edu/undergraduate-programs",
+    "verified": "2026-10-31",
+    "category": "Undergraduate degree availability; not a promise of2027admission",
+    "campus": "Pittsburgh",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Computer Science",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, BS",
+        "biology": "Biological Sciences, BS",
+        "economics": "Economics, BA or BS",
+        "mathematics": "Mathematics, BS",
+        "psychology": "Psychology, BS",
+        "business": "Marketing, BSBA"
+      },
+      "level": "bachelor",
+      "language": null,
+      "scope": "Confirmed degree major(s) only; partial list. No instruction language inferred from English page."
+    }
+  },
+  {
+    "id": "university-of-california-merced",
+    "topic": "programs",
+    "source": "https://engr-advising.ucmerced.edu/node/6",
+    "verified": "2026-10-31",
+    "category": "Undergraduate degree availability; not a promise of2027admission",
+    "campus": "Merced",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Computer Science and Engineering, B.S.",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science and Engineering, B.S."
+      },
+      "level": "bachelor",
+      "language": null,
+      "scope": "Confirmed degree major(s) only; partial list. No instruction language inferred from English page."
+    }
+  },
+  {
+    "id": "binghamton-university",
+    "topic": "programs",
+    "source": "https://www.binghamton.edu/apps/academics/program/ug/computer-science",
+    "verified": "2026-10-31",
+    "category": "Undergraduate degree availability; not a promise of2027admission",
+    "campus": "Binghamton",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Computer Science (BS, Minor)",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, BS"
+      },
+      "level": "bachelor",
+      "language": null,
+      "scope": "Confirmed degree major(s) only; partial list. No instruction language inferred from English page."
+    }
+  },
+  {
+    "id": "indiana-university-bloomington",
+    "topic": "programs",
+    "source": "https://luddy.iu.edu/academics/undergraduate/bs-computer-science.html",
+    "verified": "2026-10-31",
+    "category": "Undergraduate degree availability; not a promise of2027admission",
+    "campus": "Bloomington",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Bachelor of Science in Computer Science",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, B.S."
+      },
+      "level": "bachelor",
+      "language": null,
+      "scope": "Confirmed degree major(s) only; partial list. No instruction language inferred from English page."
+    }
+  },
+  {
+    "id": "north-carolina-state-university",
+    "topic": "programs",
+    "source": "https://catalog.ncsu.edu/undergraduate/engineering/computer-science/computer-science-bs/",
+    "verified": "2026-10-31",
+    "category": "Undergraduate degree availability; not a promise of2027admission",
+    "campus": "Raleigh",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Computer Science (BS)",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, BS"
+      },
+      "level": "bachelor",
+      "language": null,
+      "scope": "Confirmed degree major(s) only; partial list. No instruction language inferred from English page."
+    }
+  },
+  {
+    "id": "rutgers-university-newark",
+    "topic": "programs",
+    "source": "https://sasn.rutgers.edu/academics/undergraduate-majors-minors",
+    "verified": "2026-10-31",
+    "category": "Undergraduate degree availability; not a promise of2027admission",
+    "campus": "Newark",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Computer Science",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, B.A.",
+        "biology": "Biology, B.A./B.S.",
+        "chemistry": "Chemistry, B.A.",
+        "mathematics": "Mathematics, B.A.",
+        "psychology": "Psychology, B.A.",
+        "physics": "Physics, B.A."
+      },
+      "level": "bachelor",
+      "language": null,
+      "scope": "Confirmed degree major(s) only; partial list. No instruction language inferred from English page."
+    }
+  },
+  {
+    "id": "university-of-connecticut",
+    "topic": "programs",
+    "source": "https://computing.engineering.uconn.edu/undergraduate/major-programs/computer-science/",
+    "verified": "2026-10-31",
+    "category": "Undergraduate degree availability; not a promise of2027admission",
+    "campus": "Storrs",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Bachelor of Science (BS)",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, BS"
+      },
+      "level": "bachelor",
+      "language": null,
+      "scope": "Confirmed degree major(s) only; partial list. No instruction language inferred from English page."
+    }
+  },
+  {
+    "id": "clemson-university",
+    "topic": "programs",
+    "source": "https://www.clemson.edu/cecas/departments/computing/academics/undergrad/degrees/cs-bs.html",
+    "verified": "2026-10-31",
+    "category": "Undergraduate degree availability; not a promise of2027admission",
+    "campus": "Clemson",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Bachelor of Science in Computer Science",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, B.S."
+      },
+      "level": "bachelor",
+      "language": null,
+      "scope": "Confirmed degree major(s) only; partial list. No instruction language inferred from English page."
+    }
+  },
+  {
+    "id": "colorado-school-of-mines",
+    "topic": "programs",
+    "source": "https://www.mines.edu/academics/undergraduate-academics/majors/applied-mathematics-and-statistics-major/",
+    "verified": "2026-10-31",
+    "category": "Undergraduate degree availability; not a promise of2027admission",
+    "campus": "Golden",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Bachelor of Science",
+    "facts": {
+      "programs": {
+        "mathematics": "Applied Mathematics and Statistics, BS"
+      },
+      "level": "bachelor",
+      "language": null,
+      "scope": "Confirmed degree major(s) only; partial list. No instruction language inferred from English page."
+    }
+  },
+  {
+    "id": "university-of-california-riverside",
+    "topic": "programs",
+    "source": "https://www1.cs.ucr.edu/programs/undergraduate/computer-science",
+    "verified": "2026-10-31",
+    "category": "Undergraduate degree availability; not a promise of2027admission",
+    "campus": "Riverside",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Bachelor of Science in Computer Science",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, BS"
+      },
+      "level": "bachelor",
+      "language": null,
+      "scope": "Confirmed degree major(s) only; partial list. No instruction language inferred from English page."
+    }
+  },
+  {
+    "id": "colorado-school-of-mines",
+    "topic": "programme-admission-dates",
+    "source": "https://www.mines.edu/academics/undergraduate-academics/majors/applied-mathematics-and-statistics-major/",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Golden",
+    "intake": "Fall2027",
+    "access": "html-read",
+    "quote": "Fall 2027 Deadline",
+    "facts": {
+      "priority": "2026-11-01",
+      "regular": "2027-01-15",
+      "scope": "Read AppliedMathematicsandStatistics bachelorpage; programme-specificscope. TransferUSMarch1/internationalApril1 do notbecomefirstyeardates. SAT/English/fee notestablishedbythisdegreepage."
+    }
+  },
+  {
+    "id": "university-of-california-merced",
+    "topic": "uc-system-sat-act",
+    "source": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/filling-out-the-application.html",
+    "verified": "2026-10-31",
+    "category": "UC international first-year applicants",
+    "campus": "Merced",
+    "intake": null,
+    "access": "html-read",
+    "quote": "ACT & SAT:",
+    "facts": {
+      "policy": "not-used",
+      "scope": "UC admission and scholarship selection do not consider SAT/ACT. Placement/eligibility uses are separate; not a numeric admission minimum."
+    }
+  },
+  {
+    "id": "university-of-california-riverside",
+    "topic": "uc-system-fall-2027-dates",
+    "source": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/dates-and-deadlines.html",
+    "verified": "2026-10-31",
+    "category": "UC international first-year applicants",
+    "campus": "Riverside",
+    "intake": "Fall2027",
+    "access": "html-read",
+    "quote": "fall 2027 applicants.",
+    "facts": {
+      "filing": "October1–November30,2026",
+      "finalOfficialTranscripts": "2027-07-01",
+      "scope": "Current UC-system calendar overrides old November1–30 language on the campus international page. No fabricated time zone."
+    }
+  },
+  {
+    "id": "university-of-california-riverside",
+    "topic": "uc-system-international-fee",
+    "source": "https://admission.universityofcalifornia.edu/apply-now.html",
+    "verified": "2026-10-31",
+    "category": "International and nonimmigrant UC applicants",
+    "campus": "Riverside",
+    "intake": null,
+    "access": "html-read",
+    "quote": "$95 for international and non-immigrant applicants",
+    "facts": {
+      "feeUSD": 95,
+      "period": "percampus",
+      "waiver": "Ordinary UC waivers limited to UScitizens,permanentresidents,AB540eligible; not universalinternational waiver. Current category-specificfee rather than old general80campuspage."
+    }
   }
 ]

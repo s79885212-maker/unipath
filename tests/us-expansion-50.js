@@ -50,4 +50,33 @@ module.exports=function(env){
   ok(fresh.every(function(u){return sources.some(function(s){return s.id===u.id&&s.access==='html-read'&&s.quote&&s.category&&s.verified;});}) &&
      sources.every(function(s){return allowed.has(s.id)&&/^https:\/\//.test(s.source)&&s.verified&&s.category&&(s.access==='html-read'?s.quote&&s.facts:s.facts===null);}),
      'new research distinguishes read primary evidence from blocked/unavailable facts');
+  env.sandbox.location.search='?lang=ru';
+  env.load('data/i18n/ru.js');env.load('assets/js/i18n.js');
+  var tr=env.sandbox.I18N.lookup;
+  ok(tr('Required documents — Early Action')==='Обязательные документы — Early Action (ранняя подача)'&&
+     /ноября/.test(tr('1 November, 23:59 CT')||'')&&/тихоокеанскому/.test(tr('22 January, 23:59 Pacific Time')||''),
+     'new composed document titles and dates with published US time zones translate in Russian');
+  var bing=U.uniById('binghamton-university');
+  ok(bing&&U.ieltsMin(bing)===null&&bing.english.ielts.recommended===null&&/Mid50%/.test(bing.english.note)&&
+     /section range/.test(bing.english.note),
+     'Binghamton Mid50 IELTS/TOEFL and SAT EBRW statistics are not minima, averages or SAT composite');
+  var nc=U.uniById('north-carolina-state-university');
+  ok(nc&&U.satPolicy(nc)==='conditional'&&/outside the US do not need/.test(nc.academics.sat.note)&&
+     /US schools/.test(nc.academics.sat.note)&&nc.academics.gpa===null,
+     'NC State preserves school-location SAT conditions without converting Uzbek marks into US weighted GPA');
+  ok(nc.costs.academicYear==='2027–2028'&&U.budgetAmount(nc)===58423&&U.costArithmetic(nc).length===0&&
+     budget(nc,null).status==='none'&&budget(nc,0).status==='over'&&budget(nc,58423).status==='fits'&&
+     [null,0,58423].every(function(b){var t=budget(nc,b).text;return /2027–2028/.test(t)&&/Summer/.test(t)&&/financial-guarantee estimate/.test(t);}),
+     'NC State published 2027–28 estimate keeps its financial/academic-year/summer scope for empty, zero and sufficient budgets');
+  var ncRu=tr(budget(nc,58423).text)||'';
+  ok(/финансового обеспечения/.test(ncRu)&&/Лето в США не включено/.test(ncRu)&&!ncRu.includes('Scope:'),
+     'a plain annual-total scope note translates completely in Russian, not just calculated programme examples');
+  var nw=U.uniById('rutgers-university-newark');
+  ok(nw&&nw.city==='Newark'&&U.satPolicy(nw)==='conditional'&&/seven-year BA\/MD/.test(nw.academics.sat.note)&&
+     nw.english.toefl.scales[1].min===4.0&&nw.programEvidence['computer-science'].program==='Computer Science, B.A.',
+     'Rutgers Newark retains its BA/MD exception, TOEFL4.0 and BA degree distinct from New Brunswick');
+  var mines=U.uniById('colorado-school-of-mines');
+  ok(mines&&mines.academics.sat.policy===null&&mines.admissions.applicationFee.amount===null&&
+     /403/.test(mines.academics.sat.note)&&mines.programs.join(',')==='mathematics',
+     'blocked Mines admissions snippets never become a fee, optional policy, English minimum or unverified CS match');
 };

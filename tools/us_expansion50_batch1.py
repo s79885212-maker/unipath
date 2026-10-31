@@ -7,6 +7,7 @@ import copy, json, pathlib
 from ca50_gaps import load, save
 from us200 import R, test, eng, toefl, fee, costs
 from us200_std import L, flush
+from newrec import nice
 
 ROOT=pathlib.Path(__file__).resolve().parent.parent
 DAY='2026-10-31'
@@ -35,13 +36,20 @@ ADMISSION=L('Admission application','Заявка на поступление')
 DOCS=L('Required documents','Обязательные документы')
 PHOTO_GAP=L('Campus photograph and free licence have not yet been verified; a placeholder is shown.',
             'Фотография кампуса и свободная лицензия пока не проверены; показана заглушка.')
+L('Required documents — {0}','Обязательные документы — {0}')
+L('{0}, 23:59 CT','{0}, 23:59 по центральному времени США')
+L('{0}, 23:59 Pacific Time','{0}, 23:59 по тихоокеанскому времени США')
+L('University of California application','Заявка University of California')
+L('Rutgers Application','Заявка Rutgers')
+L('Through 2027','До 2027 года включительно')
+L('Through Fall 2028','До осени 2028 года включительно')
 
 def source(uid,topic):
     return next(r for r in evidence if r['id']==uid and r['topic']==topic and r['access']=='html-read')
 
 def event(name, kind, date, src, confirmed=False, binding=None, award=None, time=None, zone=None):
     row=dict(name=name,kind=kind,entryTerm='Autumn' if confirmed else None,entryYear='2027' if confirmed else None,
-             dateISO=date if confirmed else None,date=date,status='confirmed' if confirmed else 'annual-rule',binding=binding,
+             dateISO=date if confirmed else None,date=nice(date) if confirmed else date,status='confirmed' if confirmed else 'annual-rule',binding=binding,
              appliesTo=FY,source=src['source'],verified=DAY,note=None if confirmed else ANNUAL)
     if confirmed:
         cycle_quote={
@@ -155,7 +163,7 @@ for index,r in enumerate(new):
     elif index==2:
         s=source(uid,'admission-deadlines')
         for name,date,doc in [('Early Action','1 November','7 November'),('Regular Decision','5 January','11 January')]:
-            dates.extend([event(name,'EA' if 'Early' in name else 'RD',date,s,binding=False if 'Early' in name else None,time='23:59',zone='America/Chicago'),event(DOCS+' — '+name,'documents',doc,s,time='23:59',zone='America/Chicago')])
+            dates.extend([event(name,'EA' if 'Early' in name else 'RD',date,s,binding=False if 'Early' in name else None,time='23:59',zone='CT'),event(DOCS+' — '+name,'documents',doc,s,time='23:59',zone='CT')])
         policy(r,'sat-act-first-year-faq','optional',L('First-year SAT/ACT optional for all majors, including international applicants and merit/honours consideration. The standing FAQ does not name a SAT-policy intake year.',
             'SAT/ACT необязательны на первом курсе для всех направлений, включая иностранцев и рассмотрение на merit-стипендии и honours. Страница не называет год набора для этой политики.'))
         english(r,'first-year-english-scope',note=L('No first-year numerical minimum established. IELTS 7.5 with 6.5 sections, TOEFL100/5.0 and DET130 on this source apply to TRANSFER applicants, not first-year. No IELTS General, One Skill Retake or TOEFL MyBest.',
@@ -179,7 +187,7 @@ for index,r in enumerate(new):
     elif index==4:
         s=source(uid,'admission-deadlines')
         for name,date,doc in [('Early Action','1 November','9 November'),('Regular Decision','15 January','22 January')]:
-            dates.extend([event(name,'EA' if 'Early' in name else 'RD',date,s,binding=False if 'Early' in name else None,time='23:59',zone='America/Los_Angeles'),event(DOCS+' — '+name,'documents',doc,s,time='23:59',zone='America/Los_Angeles')])
+            dates.extend([event(name,'EA' if 'Early' in name else 'RD',date,s,binding=False if 'Early' in name else None,time='23:59',zone='Pacific Time'),event(DOCS+' — '+name,'documents',doc,s,time='23:59',zone='Pacific Time')])
         policy(r,'sat-act-cycle','optional',L('Optional through Spring 2028, including Fall 2027. Official scores only if submitted; no superscoring. Scholarships do not require submission; English proficiency remains separate.',
             'Необязательно до Spring 2028 включительно, в том числе Fall 2027. При подаче нужны официальные баллы; superscoring нет. Для стипендий подача не обязательна; английский проверяется отдельно.'),'Fall 2027')
         english(r,'first-year-english-minima',6.5,80,4.5,115,L('English examination required unless English was the primary language of instruction in all four years of secondary school. TOEFL changes scale on 21 January 2026.',
@@ -251,6 +259,26 @@ for r in (new[4],new[9]):
     r['verification']['unconfirmed']=[n for n in r['verification']['unconfirmed'] if n!=UNKNOWN]+[detail]
     r['verification']['checked'].append(L('Uzbekistan-specific school-document instructions; unresolved qualification conditions remain explicit.',
                                         'Страновые инструкции по школьным документам Узбекистана; непроверенные условия квалификаций оставлены явно.'))
+
+docs={
+ 0:L('Report international school grades as printed, without conversion or credential evaluation. Final official records are required after accepting admission; exact Uzbek diploma equivalence remains unconfirmed.',
+     'Указывайте оценки международной школы как в документе, без конвертации или сторонней оценки квалификации. После принятия предложения нужны итоговые официальные документы; точное соответствие узбекского диплома не подтверждено.'),
+ 2:L('Self-report coursework and examinations. For a year11 school system, report completed or in-progress year11 and name the expected diploma in Common App. Official records are required for enrolment; no WES/ECE conversion is requested in these instructions.',
+     'Самостоятельно укажите предметы и экзамены. Для 11-летней школы укажите оконченный или текущий 11класс и ожидаемый диплом в Common App. Официальные документы нужны для зачисления; инструкции не требуют конвертации WES/ECE.'),
+ 3:L('Secondary transcripts equivalent to US grades9–12; admission essay and short answers. Additional materials depend on the chosen major. The exact Uzbek qualification route is not established by these general instructions.',
+     'Школьные документы, соответствующие9–12классам США; эссе и краткие ответы. Дополнительные материалы зависят от направления. Точный маршрут узбекской квалификации эти общие инструкции не устанавливают.'),
+ 4:L('Official school records and graduation credentials; original non-English record plus an official translation by the school/institution or EducationUSA. See the Uzbekistan-specific instructions below.',
+     'Официальные школьные документы и документ об окончании; оригинал неанглоязычного документа и официальный перевод школы/учреждения или EducationUSA. Ниже приведены отдельные инструкции для Узбекистана.'),
+ 5:L('Self-report international schooling in STARS; official documents are required on enrolment. Non-English records need a qualified professional translation on the translator’s letterhead. Exact Uzbek diploma equivalence is unconfirmed.',
+     'Самостоятельно укажите международное школьное обучение в STARS; официальные документы нужны при зачислении. Для неанглоязычных документов нужен квалифицированный перевод на бланке переводчика. Точное соответствие узбекского диплома не подтверждено.'),
+ 6:L('Self-report school grades without US conversion. During review, submit transcripts only if requested. After accepting an offer, provide official records from every original institution attended.',
+     'Самостоятельно укажите школьные оценки без перевода в шкалу США. Во время рассмотрения направляйте документы по запросу. После принятия предложения нужны официальные документы из каждого исходного учебного заведения.'),
+ 8:L('STARS or copies of transcripts/marksheets and examinations for schooling outside the US; include years9–11 and planned courses, or final school record and leaving diploma if graduated. Exact Uzbek equivalence remains open.',
+     'Для школы вне США — STARS или копии оценок и экзаменов; укажите9–11классы и планируемые предметы, а после окончания — итоговые оценки и выпускной документ. Точное соответствие узбекской квалификации остаётся открытым.'),
+ 9:L('First-year STARS record plus official final documents after admission; originals and separate certified line-by-line English translations. Follow the Uzbekistan-specific page, whose years9–12 wording remains unresolved for an 11-year school.',
+     'На первый курс — STARS и официальные итоговые документы после приёма; оригиналы и отдельные заверенные построчные английские переводы. Следуйте страновой странице Узбекистана, где формулировка9–12классы остаётся неразъяснённой для 11-летней школы.')
+}
+for i,text in docs.items(): new[i]['admissions']['documents']=[text]
 
 save(head,old+new,tail,PATH)
 for e in registry['entries'][:10]:

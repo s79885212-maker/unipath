@@ -341,7 +341,9 @@
       label += '. Not included: ' + show(ex) + ' — ' + (c.extrasLabel || 'a required cost') + (c.extrasMore ? ' and other required costs' : '') +
         ', required and outside the published total. With it: ' + range(lo + ex, hi + ex) + ' (calculated by UniPath)';
     }
-    if (has(c.academicYear) && has(c.note) && (c.calc === 'credit-load' || c.calc === 'two-semesters' || c.scopeFields)) {
+    /* A published total can have important year/category/period limitations
+       too. Keep its reviewed scope beside the amount for every budget state. */
+    if (has(c.academicYear) && has(c.note)) {
       label += '. Scope: ' + c.note;
     }
     return label;
