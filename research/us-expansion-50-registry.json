@@ -1041,20 +1041,26 @@
       ],
       "existingMatches": [],
       "id": "new-jersey-institute-of-technology",
-      "researchStatus": "pending",
-      "implementationStatus": "not-added",
+      "researchStatus": "in-progress",
+      "implementationStatus": "draft-profile-added",
       "topics": {
         "identity": "pending",
         "admission": "pending",
-        "uzbekistan": "pending",
+        "uzbekistan": "exact-qualification-not-confirmed",
         "tests": "pending",
         "english": "pending",
-        "programs": "pending",
+        "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "pending"
+        "photo": "not-yet-researched-placeholder"
       },
-      "unresolved": []
+      "unresolved": [
+        "Programme coverage/instruction language",
+        "Exact Uzbek qualifications/conditions",
+        "Remaining costs/awards/history",
+        "Campus photograph/licence"
+      ],
+      "sourceEntries": 3
     },
     {
       "number": 22,
@@ -1068,20 +1074,26 @@
       ],
       "existingMatches": [],
       "id": "university-at-buffalo",
-      "researchStatus": "pending",
-      "implementationStatus": "not-added",
+      "researchStatus": "in-progress",
+      "implementationStatus": "draft-profile-added",
       "topics": {
         "identity": "pending",
         "admission": "pending",
-        "uzbekistan": "pending",
+        "uzbekistan": "exact-qualification-not-confirmed",
         "tests": "pending",
         "english": "pending",
-        "programs": "pending",
+        "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "pending"
+        "photo": "not-yet-researched-placeholder"
       },
-      "unresolved": []
+      "unresolved": [
+        "Programme coverage/instruction language",
+        "Exact Uzbek qualifications/conditions",
+        "Remaining costs/awards/history",
+        "Campus photograph/licence"
+      ],
+      "sourceEntries": 4
     },
     {
       "number": 23,
@@ -1092,20 +1104,26 @@
       "aliases": [],
       "existingMatches": [],
       "id": "university-of-delaware",
-      "researchStatus": "pending",
-      "implementationStatus": "not-added",
+      "researchStatus": "in-progress",
+      "implementationStatus": "draft-profile-added",
       "topics": {
         "identity": "pending",
         "admission": "pending",
-        "uzbekistan": "pending",
+        "uzbekistan": "exact-qualification-not-confirmed",
         "tests": "pending",
         "english": "pending",
-        "programs": "pending",
+        "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "pending"
+        "photo": "not-yet-researched-placeholder"
       },
-      "unresolved": []
+      "unresolved": [
+        "Programme coverage/instruction language",
+        "Exact Uzbek qualifications/conditions",
+        "Remaining costs/awards/history",
+        "Campus photograph/licence"
+      ],
+      "sourceEntries": 2
     },
     {
       "number": 24,
@@ -1119,20 +1137,26 @@
       ],
       "existingMatches": [],
       "id": "rutgers-university-camden",
-      "researchStatus": "pending",
-      "implementationStatus": "not-added",
+      "researchStatus": "in-progress",
+      "implementationStatus": "draft-profile-added",
       "topics": {
         "identity": "pending",
         "admission": "pending",
-        "uzbekistan": "pending",
+        "uzbekistan": "exact-qualification-not-confirmed",
         "tests": "pending",
         "english": "pending",
-        "programs": "pending",
+        "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "pending"
+        "photo": "not-yet-researched-placeholder"
       },
-      "unresolved": []
+      "unresolved": [
+        "Programme coverage/instruction language",
+        "Exact Uzbek qualifications/conditions",
+        "Remaining costs/awards/history",
+        "Campus photograph/licence"
+      ],
+      "sourceEntries": 5
     },
     {
       "number": 25,
@@ -1146,20 +1170,26 @@
       ],
       "existingMatches": [],
       "id": "university-of-illinois-chicago",
-      "researchStatus": "pending",
-      "implementationStatus": "not-added",
+      "researchStatus": "in-progress",
+      "implementationStatus": "draft-profile-added",
       "topics": {
         "identity": "pending",
         "admission": "pending",
-        "uzbekistan": "pending",
+        "uzbekistan": "exact-qualification-not-confirmed",
         "tests": "pending",
         "english": "pending",
-        "programs": "pending",
+        "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "pending"
+        "photo": "not-yet-researched-placeholder"
       },
-      "unresolved": []
+      "unresolved": [
+        "Programme coverage/instruction language",
+        "Exact Uzbek qualifications/conditions",
+        "Remaining costs/awards/history",
+        "Campus photograph/licence"
+      ],
+      "sourceEntries": 4
     },
     {
       "number": 26,
@@ -1173,20 +1203,26 @@
       ],
       "existingMatches": [],
       "id": "university-of-missouri",
-      "researchStatus": "pending",
-      "implementationStatus": "not-added",
+      "researchStatus": "in-progress",
+      "implementationStatus": "draft-profile-added",
       "topics": {
         "identity": "pending",
         "admission": "pending",
-        "uzbekistan": "pending",
+        "uzbekistan": "exact-qualification-not-confirmed",
         "tests": "pending",
         "english": "pending",
-        "programs": "pending",
+        "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "pending"
+        "photo": "not-yet-researched-placeholder"
       },
-      "unresolved": []
+      "unresolved": [
+        "Programme coverage/instruction language",
+        "Exact Uzbek qualifications/conditions",
+        "Remaining costs/awards/history",
+        "Campus photograph/licence"
+      ],
+      "sourceEntries": 3
     },
     {
       "number": 27,
@@ -1197,20 +1233,26 @@
       "aliases": [],
       "existingMatches": [],
       "id": "auburn-university",
-      "researchStatus": "pending",
-      "implementationStatus": "not-added",
+      "researchStatus": "in-progress",
+      "implementationStatus": "draft-profile-added",
       "topics": {
         "identity": "pending",
         "admission": "pending",
-        "uzbekistan": "pending",
+        "uzbekistan": "exact-qualification-not-confirmed",
         "tests": "pending",
         "english": "pending",
-        "programs": "pending",
+        "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "pending"
+        "photo": "not-yet-researched-placeholder"
       },
-      "unresolved": []
+      "unresolved": [
+        "Programme coverage/instruction language",
+        "Exact Uzbek qualifications/conditions",
+        "Remaining costs/awards/history",
+        "Campus photograph/licence"
+      ],
+      "sourceEntries": 2
     },
     {
       "number": 28,
@@ -1223,20 +1265,26 @@
       ],
       "existingMatches": [],
       "id": "florida-international-university",
-      "researchStatus": "pending",
-      "implementationStatus": "not-added",
+      "researchStatus": "in-progress",
+      "implementationStatus": "draft-profile-added",
       "topics": {
         "identity": "pending",
         "admission": "pending",
-        "uzbekistan": "pending",
+        "uzbekistan": "exact-qualification-not-confirmed",
         "tests": "pending",
         "english": "pending",
-        "programs": "pending",
+        "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "pending"
+        "photo": "not-yet-researched-placeholder"
       },
-      "unresolved": []
+      "unresolved": [
+        "Programme coverage/instruction language",
+        "Exact Uzbek qualifications/conditions",
+        "Remaining costs/awards/history",
+        "Campus photograph/licence"
+      ],
+      "sourceEntries": 3
     },
     {
       "number": 29,
@@ -1249,20 +1297,26 @@
       ],
       "existingMatches": [],
       "id": "university-of-south-florida",
-      "researchStatus": "pending",
-      "implementationStatus": "not-added",
+      "researchStatus": "in-progress",
+      "implementationStatus": "draft-profile-added",
       "topics": {
         "identity": "pending",
         "admission": "pending",
-        "uzbekistan": "pending",
+        "uzbekistan": "exact-qualification-not-confirmed",
         "tests": "pending",
         "english": "pending",
-        "programs": "pending",
+        "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "pending"
+        "photo": "not-yet-researched-placeholder"
       },
-      "unresolved": []
+      "unresolved": [
+        "Programme coverage/instruction language",
+        "Exact Uzbek qualifications/conditions",
+        "Remaining costs/awards/history",
+        "Campus photograph/licence"
+      ],
+      "sourceEntries": 3
     },
     {
       "number": 30,
@@ -1276,20 +1330,26 @@
       ],
       "existingMatches": [],
       "id": "university-of-california-santa-cruz",
-      "researchStatus": "pending",
-      "implementationStatus": "not-added",
+      "researchStatus": "in-progress",
+      "implementationStatus": "draft-profile-added",
       "topics": {
         "identity": "pending",
         "admission": "pending",
-        "uzbekistan": "pending",
+        "uzbekistan": "exact-qualification-not-confirmed",
         "tests": "pending",
         "english": "pending",
-        "programs": "pending",
+        "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "pending"
+        "photo": "not-yet-researched-placeholder"
       },
-      "unresolved": []
+      "unresolved": [
+        "Programme coverage/instruction language",
+        "Exact Uzbek qualifications/conditions",
+        "Remaining costs/awards/history",
+        "Campus photograph/licence"
+      ],
+      "sourceEntries": 5
     },
     {
       "number": 31,

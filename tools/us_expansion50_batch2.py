@@ -75,6 +75,7 @@ for i,r in enumerate(records):
   application_fee(r,70,L('Non-refundable fee; a general international waiver is not established.','Невозвратный сбор; общее освобождение иностранцев не подтверждено.'))
   policy(r,'conditional',L('Rutgers Newark is test-blind for most undergraduate programmes, but its seven-year BA/MD requires SAT or ACT. This exception is not a test-optional policy and is not the New Brunswick or Camden rule.',
     'В Rutgers Newark большинство программ — test-blind, но семилетняя BA/MD требует SAT или ACT. Это исключение не является политикой test-optional и не совпадает с правилами New Brunswick или Camden.'),'international-first-year-admission','Through 2027')
+  for key in ('sat','act'):r['academics'][key]['label']=L('Test-blind except seven-year BA/MD','Test-blind, кроме семилетней BA/MD')
   english(r,6.5,79,4.0,115,L('Use Newark column, not New Brunswick: general IELTS6.5, old TOEFL79/new4.0, DET115. Pharmacy/Nursing exceptions include TOEFL100/5.5 and DET130; confirm the selected school. Exact test-date cutoff wording is January21/22 on the source.',
     'Используйте столбец Newark, а не New Brunswick: общие IELTS6,5, TOEFL79 по старой/4,0 по новой шкале, DET115. Исключения Pharmacy/Nursing включают TOEFL100/5,5 и DET130; проверяйте выбранную школу. Источник разделяет даты теста по21/22января.'),topic='international-english')
  elif i==6:

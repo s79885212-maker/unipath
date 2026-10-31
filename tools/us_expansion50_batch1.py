@@ -179,8 +179,8 @@ for index,r in enumerate(new):
             dates.extend([event(name,'EA' if 'Early' in name else 'RD',date,s,True),event(DOCS+' — '+name,'documents',doc,s,True)])
         r['admissions']['platforms']=['Common Application']
         r['admissions']['applicationFee']=fee(90,L('International application fee; non-refundable and no international fee waiver.','Международный сбор; без возврата и без освобождения иностранных абитуриентов.'),s['source'],DAY,waiver_intl=False)
-        policy(r,'international-first-year-admission','required',L('First-year applicants must provide SAT or ACT; the official page also accepts CLT. No SAT essay, ACT writing/science or SAT Subject Tests required.',
-            'На первый курс требуется SAT или ACT; официальная страница также принимает CLT. SAT essay, ACT writing/science и SAT Subject Tests не требуются.'),'Fall 2027')
+        policy(r,'international-first-year-admission','required-alternatives',L('First-year testing is required: official SAT, ACT or CLT satisfies the requirement. SAT/ACT are not the only accepted route. No SAT essay, ACT writing/science or SAT Subject Tests required.',
+            'На первый курс требуется тест: официальный SAT, ACT или CLT выполняет это условие. SAT/ACT — не единственный принимаемый вариант. SAT essay, ACT writing/science и SAT Subject Tests не требуются.'),'Fall 2027')
         r['admissions']['recommendations']=L('Up to two optional recommendations.','До двух необязательных рекомендаций.')
         historical_cost(r,'cost',[(L('Tuition','Обучение'),{'min':42554,'max':51106},'billed'),('Housing and food',{'min':15420,'max':15580},'estimate'),('Transportation',1840,'estimate'),('Books and supplies',724,'estimate'),('Personal expenses',3666,'estimate')],64204,72916,
             note=('Nonresident full-time undergraduate reference, fall and spring; verify programme-specific rates and international insurance separately.','Ориентир нерезидента бакалавриата с полной нагрузкой, осень и весна; ставки конкретной программы и международную страховку нужно проверять отдельно.'))
@@ -280,7 +280,10 @@ docs={
 }
 for i,text in docs.items(): new[i]['admissions']['documents']=[text]
 
-save(head,old+new,tail,PATH)
+all_targets=json.loads((ROOT/'research/us-expansion-50-targets.json').read_text(encoding='utf-8'))
+all_target_ids={t['id'] for t in all_targets}
+by_id={r['id']:r for r in old};by_id.update({r['id']:r for r in new})
+save(head,[r for r in old if r['id'] not in all_target_ids]+[by_id[t['id']] for t in all_targets if t['id'] in by_id],tail,PATH)
 for e in registry['entries'][:10]:
     e['implementationStatus']='draft-profile-added'
     e['topics']['programs']='verified-partial-language-unconfirmed'

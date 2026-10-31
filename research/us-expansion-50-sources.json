@@ -841,7 +841,7 @@
     "campus": null,
     "intake": "Fall 2027",
     "access": "html-read",
-    "quote": "Application opens for fall 2027 applicants.",
+    "quote": "fall 2027",
     "facts": {
       "applicationOpens": "2026-08-01",
       "filing": "2026-10-01 to 2026-11-30",
@@ -860,7 +860,7 @@
     "campus": null,
     "intake": null,
     "access": "html-read",
-    "quote": "$95 for international and non-immigrant applicants",
+    "quote": "$95",
     "facts": {
       "amount": 95,
       "currency": "USD",
@@ -878,7 +878,7 @@
     "campus": null,
     "intake": "Fall 2027",
     "access": "html-read",
-    "quote": "Application opens for fall 2027 applicants.",
+    "quote": "fall 2027",
     "facts": {
       "applicationOpens": "2026-08-01",
       "filing": "2026-10-01 to 2026-11-30",
@@ -897,7 +897,7 @@
     "campus": null,
     "intake": null,
     "access": "html-read",
-    "quote": "$95 for international and non-immigrant applicants",
+    "quote": "$95",
     "facts": {
       "amount": 95,
       "currency": "USD",
@@ -915,7 +915,7 @@
     "campus": null,
     "intake": "Fall 2027",
     "access": "html-read",
-    "quote": "Application opens for fall 2027 applicants.",
+    "quote": "fall 2027",
     "facts": {
       "applicationOpens": "2026-08-01",
       "filing": "2026-10-01 to 2026-11-30",
@@ -934,7 +934,7 @@
     "campus": null,
     "intake": null,
     "access": "html-read",
-    "quote": "$95 for international and non-immigrant applicants",
+    "quote": "$95",
     "facts": {
       "amount": 95,
       "currency": "USD",
@@ -1831,14 +1831,16 @@
       "programs": {
         "computer-science": "Computer Science, B.A.",
         "biology": "Biology, B.A./B.S.",
-        "chemistry": "Chemistry, B.A.",
         "mathematics": "Mathematics, B.A.",
-        "psychology": "Psychology, B.A.",
-        "physics": "Physics, B.A."
+        "psychology": "Psychology, B.A."
       },
       "level": "bachelor",
       "language": null,
-      "scope": "Confirmed degree major(s) only; partial list. No instruction language inferred from English page."
+      "scope": "Confirmed degree major(s) only; partial list. No instruction language inferred from English page.",
+      "additionalNamedPrograms": [
+        "Chemistry, B.A.",
+        "Physics, B.A."
+      ]
     }
   },
   {
@@ -1957,7 +1959,7 @@
     "campus": "Riverside",
     "intake": "Fall2027",
     "access": "html-read",
-    "quote": "fall 2027 applicants.",
+    "quote": "fall 2027",
     "facts": {
       "filing": "October1–November30,2026",
       "finalOfficialTranscripts": "2027-07-01",
@@ -1973,11 +1975,650 @@
     "campus": "Riverside",
     "intake": null,
     "access": "html-read",
-    "quote": "$95 for international and non-immigrant applicants",
+    "quote": "$95",
     "facts": {
       "feeUSD": 95,
       "period": "percampus",
       "waiver": "Ordinary UC waivers limited to UScitizens,permanentresidents,AB540eligible; not universalinternational waiver. Current category-specificfee rather than old general80campuspage."
     }
+  },
+  {
+    "id": "new-jersey-institute-of-technology",
+    "topic": "international-first-year-admission",
+    "source": "https://www.njit.edu/admissions/how-apply-international-students",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Newark,NJ",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Test-Optional Admission Policy for Fall 2026",
+    "facts": {
+      "feeUSD": 75,
+      "english": {
+        "ielts": 6.0,
+        "toeflOld": 79,
+        "toeflNew": 4.0,
+        "det": 100,
+        "pte": 53
+      },
+      "satAct": "The only dated optional policy is Fall2026; standing checklist says optional except Honors, dated paragraph also excludes accelerated programmes. Fall2027 not established; no current optional inference.",
+      "documents": "Official secondary transcript in English or notarized copy; architecture/design portfolio. WES/NACES evaluation statement is in TRANSFER section, not assigned to all first-year students.",
+      "scope": "SAT average1285/ACT26 are enrolling-class statistics with no verified intake year, not minimums."
+    }
+  },
+  {
+    "id": "new-jersey-institute-of-technology",
+    "topic": "admission-deadlines",
+    "source": "https://www.njit.edu/nai/admissions/dates-deadlines",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Newark,NJ",
+    "intake": null,
+    "access": "html-read",
+    "quote": "First-Year Student application deadlines:",
+    "facts": {
+      "status": "annual-rule",
+      "earlyActionI": "November15",
+      "earlyActionII": "December15",
+      "honors": "February1",
+      "rolling": "March1",
+      "scope": "Fall first-year table without entry year; readmit/transfer/spring deadlines excluded."
+    }
+  },
+  {
+    "id": "university-at-buffalo",
+    "topic": "international-first-year-admission",
+    "source": "https://www.buffalo.edu/admissions/apply/international/first-year.special-requirements.html",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Buffalo",
+    "intake": null,
+    "access": "html-read",
+    "quote": "A $50 non-refundable fee is required.",
+    "facts": {
+      "feeUSD": 50,
+      "rounds": "Annual Fall EarlyActionNovember1, RegularDecisioncompletionFebruary1. DepositMay1/housingMay7 separate.",
+      "documents": "Evaluate school transcripts/state exams; non-English documents need English translation. Country widget did not expose an Uzbekistan result in text; exact Uzbek qualification remains unconfirmed.",
+      "gpa": "University expects equivalent3.0/4.0, B or83/100; university evaluates foreign scales. No automatic Uzbek GPA conversion or genericminimumassigned."
+    }
+  },
+  {
+    "id": "university-at-buffalo",
+    "topic": "sat-act",
+    "source": "https://www.buffalo.edu/admissions/apply/international/first-year.standardized-tests.html",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Buffalo",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Test-Optional Policy",
+    "facts": {
+      "policy": "optional",
+      "scope": "Admission and scholarship consideration, no disadvantage without scores. SAT1170+/ACT25+ describe most admitted score-submitters, not official minima or an average. No named expiry established."
+    }
+  },
+  {
+    "id": "university-at-buffalo",
+    "topic": "english",
+    "source": "https://www.buffalo.edu/admissions/apply/international/first-year.english-proficiency.html",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Buffalo",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Below are the minimum scores",
+    "facts": {
+      "ielts": 6.0,
+      "toeflOld": 70,
+      "toeflNew": 4.0,
+      "det": 105,
+      "scope": "Explicitly includes TOEFL MyBest; scores younger than2years. ACTEnglishANDReading18/SATERWS500 are English alternatives, not composite minima or admission-test requirements. Finalofficialscores direct from agency."
+    }
+  },
+  {
+    "id": "university-of-delaware",
+    "topic": "international-first-year-admission",
+    "source": "https://www.udel.edu/apply/undergraduate-admissions/apply-to-ud/international-admissions/",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Newark,DE",
+    "intake": null,
+    "access": "html-read",
+    "quote": "International students are not required to submit standardized test scores",
+    "facts": {
+      "feeUSD": 75,
+      "satAct": "Optional for international admission, distinct from English requirement.",
+      "english": {
+        "ielts": 6.5,
+        "toeflOld": 79,
+        "toeflNew": 4.0,
+        "det": 110
+      },
+      "rounds": "Annual direct first-year priorityJanuary15; HonorsNovember1; NursingDecember1; conditionalAcademicTransitionsJune1. No intake year established.",
+      "documents": "Official secondary/postsecondary records and examinations; IERF evaluation for prior international COLLEGE study, WESnotacceptedthere. Not a blanket WES requirement for school-onlyfirstyear.",
+      "scope": "AcademicTransitions IELTS5.5–6.0/TOEFL65–78 or3–3.5 is conditional. A-UD for TOEFL79–89 is optional support, not conditional and no additionalcost/time. Exact Uzbekschool/lyceumrouteunconfirmed."
+    }
+  },
+  {
+    "id": "rutgers-university-camden",
+    "topic": "international-first-year-admission",
+    "source": "https://admissions.rutgers.edu/apply/first-year-applicants",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Camden",
+    "intake": "Through2027",
+    "access": "html-read",
+    "quote": "Rutgers University–Camden is test optional.",
+    "facts": {
+      "feeUSD": 70,
+      "satAct": "Optional except CamdenBS/DO requires SATorACT; through2027 standing policy. Do not copy Newarkblind/BA-MD orNewBrunswickoptionalwithoutcampuslimits.",
+      "waiverInternational": null
+    }
+  },
+  {
+    "id": "rutgers-university-camden",
+    "topic": "english",
+    "source": "https://admissions.rutgers.edu/apply/international-applicants",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Camden",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Camden",
+    "facts": {
+      "ielts": 6.0,
+      "toeflOld": 79,
+      "toeflNew": 4.0,
+      "det": 115,
+      "scope": "Camden column, not Newark/NB IELTS6.5. Higher Pharmacy/Nursing conditions must be checked by school. Source Jan21/22cutoff retained in note. STARS/officialenrolmentrecords, qualifiedtranslation; noexactUzbekqualification."
+    }
+  },
+  {
+    "id": "rutgers-university-camden",
+    "topic": "admission-deadlines",
+    "source": "https://admissions.rutgers.edu/apply/dates-deadlines/camden",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Camden",
+    "intake": "Fall2027",
+    "access": "html-read",
+    "quote": "Fall/September 2027: Application Dates & Deadlines",
+    "facts": {
+      "earlyAction": "2026-11-01",
+      "regularDecision": "2026-12-01",
+      "reply": "2027-05-01",
+      "binding": false,
+      "scope": "EA footnote expressly nonbinding/nonrestrictive. Due dates, laterapplicationsonlyifspace; notification datesnotapplication/materialdeadlines."
+    }
+  },
+  {
+    "id": "university-of-illinois-chicago",
+    "topic": "international-first-year-admission",
+    "source": "https://admissions.uic.edu/undergraduate/requirements-deadlines/international-requirements",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Chicago",
+    "intake": null,
+    "access": "html-read",
+    "quote": "mandatory, nonrefundable total of $170",
+    "facts": {
+      "feeUSD": 170,
+      "feeComponents": "Standard70 plus international evaluation100, paid together throughCommonApp; university publishes170total.",
+      "english": {
+        "ielts": 6.5,
+        "ieltsSection": 6.0,
+        "toeflOld": 80,
+        "toeflNew": 4.5,
+        "det": 120,
+        "detSubsections": 115
+      },
+      "scope": "DET only Fall2027+. Colleges may set higher minima. Firstyearfees distinctfromtransfer/secondbachelor; foreigncredentials instructionsincludeATAcertifiedtranslations. CountrywidgetnotreadforUzbekistan; no qualificationeligibilityinferred."
+    }
+  },
+  {
+    "id": "university-of-illinois-chicago",
+    "topic": "sat-act",
+    "source": "https://admissions.uic.edu/undergraduate/requirements-deadlines/first-year-requirements/test-optional-faq",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Chicago",
+    "intake": "2027undergraduatecycle",
+    "access": "html-read",
+    "quote": "Effective with the 2027 undergraduate admission cycle",
+    "facts": {
+      "policy": "optional",
+      "scope": "SubmittedACT/SATconsideredonlywhenpositive. No disadvantagewithouttest, meritscholarshipseligible. Not test-blind. No CommonAppselfreports/SuperScore reports; officialreport orstudentportaltestingreportwithrequiredidentifiersaccepted. Specialprogramconditionsrequireseparatereview."
+    }
+  },
+  {
+    "id": "university-of-illinois-chicago",
+    "topic": "admission-deadlines",
+    "source": "https://admissions.uic.edu/undergraduate/requirements-deadlines",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Chicago",
+    "intake": "Fall2027",
+    "access": "html-read",
+    "quote": "Fall 2027 First Year Early Action",
+    "facts": {
+      "earlyAction": "2026-11-02",
+      "regularDecision": "2027-02-01",
+      "materials": "Application includingalldocumentation mustbecompletebydeadline.",
+      "scope": "Not UIUCNovember1/January5; separateUICcalendar."
+    }
+  },
+  {
+    "id": "university-of-missouri",
+    "topic": "international-first-year-admission",
+    "source": "https://admissions.missouri.edu/apply/international/how-to-apply/",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Columbia",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Scores from SAT/ACT are not required",
+    "facts": {
+      "feeUSD": 65,
+      "satAct": "Optional foradmission, preferredforinternationalfreshmenscholarships, not universallyrequiredforaid.",
+      "rounds": "Nofixedapplicationdeadlines, rolling; universityrecommends6–12monthsahead, not amandatorycutoff.",
+      "documents": "Uploadschoolrecords/originalandEnglishtranslation; unofficialmayallowinitialdecisiondependingonsystem,officialfinalrequiredafteradmission. USschooldoesnotreplaceoriginalhomecountryrecords.",
+      "scope": "Columbia,Mizzou; notUMKC/UMSL. ExactUzbekattestat/lyceumequivalenceunconfirmed."
+    }
+  },
+  {
+    "id": "university-of-missouri",
+    "topic": "english",
+    "source": "https://admissions.missouri.edu/apply/international/english-language-requirements/",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Columbia",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Many schools and colleges at Mizzou require higher IELTS scores.",
+    "facts": {
+      "ieltsUniversityMin": 6.5,
+      "ieltsSectionMin": 6.0,
+      "engineeringIELTS": 6.5,
+      "educationIELTS": 7.0,
+      "nursingIELTS": 7.0,
+      "nursingSpeaking": 8.0,
+      "toeflNew": 4.5,
+      "toeflNewSection": 4.0,
+      "scope": "OldTOEFL79row says beforeJanuary26,2026 while newrowbeginsJanuary21; ambiguouscutoffnotrepairedsilently. Do notassignoneTOEFL/IELTSleveltoallschools. AIMlanguage-support route distinct; placementexamalsorequired. DETschoolthresholdsnotyettranscribed."
+    }
+  },
+  {
+    "id": "auburn-university",
+    "topic": "international-first-year-admission",
+    "source": "https://www.auburn.edu/admissions/prospective-students/international/index.php",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Auburn",
+    "intake": null,
+    "access": "html-read",
+    "quote": "International Freshmen Applicants",
+    "facts": {
+      "feeUSD": 60,
+      "satAct": "RequiredSATorACTforinternationalfreshmen, officialagencyreport.",
+      "english": {
+        "ielts": 6.5,
+        "toeflOld": 79,
+        "pte": 53,
+        "toeflNew": null
+      },
+      "rounds": "AnnualFallfirstyearFebruary1; depositMay1or15daysfromacceptance. Source doesnotname2027cycle.",
+      "documents": "Independentevaluationofforeignrecords includingGPA forfreshmanANDtransfer;WESpreferred,otherlistedevaluatorsaccepted. Affidavitandbankletterfinancialsupport. ExactUzbekcredentialequivalenceunconfirmed.",
+      "scope": "Directadmission differsfromAuburnGlobalroutewithlowerEnglishproficiency; oldCBT/PBTentriesnotnewTOEFLscale."
+    }
+  },
+  {
+    "id": "florida-international-university",
+    "topic": "international-first-year-admission",
+    "source": "https://admissions.fiu.edu/international/incoming-freshmen/index.html",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Miami",
+    "intake": null,
+    "access": "html-read",
+    "quote": "not required to submit TOEFL or IELTS scores",
+    "facts": {
+      "feeUSD": 30,
+      "satAct": "SAT/ACTorCLTusedforadmission; Englishreadiness throughrequiredadmissiontestsubsections, not IELTSrequirement.",
+      "english": "TOEFL/IELTSnotrequiredfordirectfirst-time-in-collegeinternationalentry; thisdoesnotwaiveEnglishreadiness. ExactCLTlanguagecomponentthresholdnotestablishedhere.",
+      "documents": "Officialsecondaryrecordsfromschool/counselor plusoriginalandofficialEnglishtranslation; completeCommonApp.",
+      "scope": "FallDirectAugust intake separatefromEarlyFallJuneandSpring/pathways. ExactUzbekqualificationsunconfirmed."
+    }
+  },
+  {
+    "id": "florida-international-university",
+    "topic": "admission-deadlines",
+    "source": "https://admissions.fiu.edu/how-to-apply/freshman-applicant/",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Miami",
+    "intake": "Fall2027",
+    "access": "html-read",
+    "quote": "Fall 2027",
+    "facts": {
+      "earlyAction": "2026-11-02",
+      "general": "2026-12-16",
+      "final": "2027-03-02",
+      "materials": "EachdateiscompletedapplicationWITHdocuments.",
+      "deposit": "2027-05-01",
+      "scope": "UseFall2027rows, notEarlyFall2027JuneorFAFSA. SAT/ACT/CLTaccepted;ACTscienceoptionalfrom2025–26. Nofee-waiverinternationaleligibilityinferredfromgenericwaiverlink."
+    }
+  },
+  {
+    "id": "university-of-south-florida",
+    "topic": "international-first-year-admission",
+    "source": "https://www.usf.edu/admissions/international/admission-information/undergraduate/freshmen-how-to-apply.aspx",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Tampa",
+    "intake": null,
+    "access": "html-read",
+    "quote": "We do not accept English proficiency tests",
+    "facts": {
+      "feeUSD": 30,
+      "satAct": "SATorACTorCLTrequired, agencyreports, superscores. Do notputSATreading490ascompositemin.",
+      "english": "RequiredEnglishproof:SATRW490;ACTEnglish17ANDReading19;CLTVerbalReasoningWriting38. TOEFL/IELTS/DETnotacceptedSUBSTITUTESfortheseroute-specificscores.",
+      "documents": "STARSand/orofficialtranscriptsbasedonschooling; finaloriginal/certifiedschoolrecords/examresults andcertifiedEnglishtranslation.",
+      "scope": "SelectedTampaprofile; programme/campusavailabilitynotinferredforallUSFcampuses. Test-dateadvicebeforeDecemberisinhow-toapplypage;confirmforlateradmissionroundratherthaninventexacttestdeadline."
+    }
+  },
+  {
+    "id": "university-of-south-florida",
+    "topic": "admission-deadlines",
+    "source": "https://www.usf.edu/admissions/international/admission-information/undergraduate/freshmen-dates-deadlines.aspx",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "Tampa",
+    "intake": "Fall/Summer2027",
+    "access": "html-read",
+    "quote": "FALL/SUMMER 2027 SEMESTER START",
+    "facts": {
+      "earlyAction": {
+        "application": "2026-11-02",
+        "materials": "2026-11-16"
+      },
+      "regularDecision": {
+        "application": "2026-12-16",
+        "materials": "2027-01-15"
+      },
+      "rolling": {
+        "application": "2027-03-01",
+        "materials": "2027-03-15"
+      },
+      "scope": "Separateapplication/materialcolumns. Do notsubstituteFIUMarch2orcollapseFall/Summerintakeforprogrammeavailability."
+    }
+  },
+  {
+    "id": "university-of-california-santa-cruz",
+    "topic": "international-first-year-admission",
+    "source": "https://admissions.ucsc.edu/international-first-year-students-admissions-requirements",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "SantaCruz",
+    "intake": null,
+    "access": "html-read",
+    "quote": "will not consider SAT or ACT test scores",
+    "facts": {
+      "satAct": "Notusedforadmissionorawards;eligibility/placementseparate.",
+      "documents": "SelfreportforeigncourseworkwithoutUSconversion/agencyconversion; noextraacademicdocumentswithUCapplicationunlessrequested;finalofficialrecordsinstructionsafteradmission.",
+      "scope": "Firstyearfallentryonly, secondarycompletionallowinguniversitystudyathome. ExactUzbekdiploma/foundationnotestablished."
+    }
+  },
+  {
+    "id": "university-of-california-santa-cruz",
+    "topic": "english",
+    "source": "https://admissions.ucsc.edu/posts/english-proficiency-requirement",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "SantaCruz",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Minimum score of 4.5 or better",
+    "facts": {
+      "ielts": 6.5,
+      "toeflNew": 4.5,
+      "toeflOld": null,
+      "det": 115,
+      "scope": "Firstyearsection; oldTOEFLthresholdnotprintedandnotinvented. Transfersectionseparate. IETLS electronicdelivery,no paperforms; versionsneedconsultationwithsource."
+    }
+  },
+  {
+    "id": "university-of-california-santa-cruz",
+    "topic": "admission-deadlines",
+    "source": "https://admissions.ucsc.edu/posts/dates-deadlines",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "SantaCruz",
+    "intake": "Fall2027",
+    "access": "html-read",
+    "quote": "Dates for students applying for fall 2027",
+    "facts": {
+      "application": "2026-11-30",
+      "opens": "2026-10-01",
+      "scope": "Explicit2026datesforFall2027; TAG/TAUtransferdeadlineandFAFSA/CalGrantareseparate, notinternationalfirstyearapplicationevents."
+    }
+  },
+  {
+    "id": "university-of-california-santa-cruz",
+    "topic": "uc-system-international-fee",
+    "source": "https://admission.universityofcalifornia.edu/apply-now.html",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": "SantaCruz",
+    "intake": null,
+    "access": "html-read",
+    "quote": "$95",
+    "facts": {
+      "amount": 95,
+      "currency": "USD",
+      "period": "percampus",
+      "scope": "International/nonimmigrantcategory,nonrefundable;ordinarywaiversrestrictedtoUScitizens/permanentresidents/AB540eligible."
+    }
+  },
+  {
+    "id": "new-jersey-institute-of-technology",
+    "topic": "programs",
+    "source": "https://www.njit.edu/academics/degree/bs-computer-science",
+    "verified": "2026-10-31",
+    "category": "Undergraduate degree availability; admission and campus conditions remain separate",
+    "campus": "Newark,NJ",
+    "intake": null,
+    "access": "html-read",
+    "quote": "BS in Computer Science",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, B.S."
+      },
+      "level": "bachelor",
+      "language": null,
+      "scope": "Namedbachelormajor,partiallist,nounverifiedlanguageclaim. Specializations/minors/acceleratedmastersnotseparatemajors."
+    }
+  },
+  {
+    "id": "university-at-buffalo",
+    "topic": "programs",
+    "source": "https://www.buffalo.edu/admissions/academics/programs/computer-science.html",
+    "verified": "2026-10-31",
+    "category": "Undergraduate degree availability; admission and campus conditions remain separate",
+    "campus": "Buffalo",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Computer Science BS",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, BA/BS"
+      },
+      "level": "bachelor",
+      "language": null,
+      "scope": "Namedbachelormajor,partiallist,nounverifiedlanguageclaim. Specializations/minors/acceleratedmastersnotseparatemajors."
+    }
+  },
+  {
+    "id": "university-of-delaware",
+    "topic": "programs",
+    "source": "https://www.cis.udel.edu/academics/undergraduate-programs/",
+    "verified": "2026-10-31",
+    "category": "Undergraduate degree availability; admission and campus conditions remain separate",
+    "campus": "Newark,DE",
+    "intake": null,
+    "access": "html-read",
+    "quote": "BS in Computer Science",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, BA/BS"
+      },
+      "level": "bachelor",
+      "language": null,
+      "scope": "Namedbachelormajor,partiallist,nounverifiedlanguageclaim. Specializations/minors/acceleratedmastersnotseparatemajors."
+    }
+  },
+  {
+    "id": "rutgers-university-camden",
+    "topic": "programs",
+    "source": "https://camden.rutgers.edu/academics/programs?page=1&program_type=undergraduate",
+    "verified": "2026-10-31",
+    "category": "Undergraduate degree availability; admission and campus conditions remain separate",
+    "campus": "Camden",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Computer Science, BA or BS",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, BA/BS"
+      },
+      "level": "bachelor",
+      "language": null,
+      "scope": "Namedbachelormajor,partiallist,nounverifiedlanguageclaim. Specializations/minors/acceleratedmastersnotseparatemajors."
+    }
+  },
+  {
+    "id": "university-of-illinois-chicago",
+    "topic": "programs",
+    "source": "https://catalog.uic.edu/ucat/colleges-depts/engineering/cs/bs-cs/",
+    "verified": "2026-10-31",
+    "category": "Undergraduate degree availability; admission and campus conditions remain separate",
+    "campus": "Chicago",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Bachelor of Science in Computer Science",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, BS"
+      },
+      "level": "bachelor",
+      "language": null,
+      "scope": "Namedbachelormajor,partiallist,nounverifiedlanguageclaim. Specializations/minors/acceleratedmastersnotseparatemajors."
+    }
+  },
+  {
+    "id": "university-of-missouri",
+    "topic": "programs",
+    "source": "https://engineering.missouri.edu/degree/bachelor-of-science-in-computer-science/",
+    "verified": "2026-10-31",
+    "category": "Undergraduate degree availability; admission and campus conditions remain separate",
+    "campus": "Columbia",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Bachelor of Science in Computer Science",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, BS"
+      },
+      "level": "bachelor",
+      "language": null,
+      "scope": "Namedbachelormajor,partiallist,nounverifiedlanguageclaim. Specializations/minors/acceleratedmastersnotseparatemajors."
+    }
+  },
+  {
+    "id": "auburn-university",
+    "topic": "programs",
+    "source": "https://eng.auburn.edu/cse/academics/undergraduate/computer-science.html",
+    "verified": "2026-10-31",
+    "category": "Undergraduate degree availability; admission and campus conditions remain separate",
+    "campus": "Auburn",
+    "intake": null,
+    "access": "html-read",
+    "quote": "bachelor of science in computer science",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, BS"
+      },
+      "level": "bachelor",
+      "language": null,
+      "scope": "Namedbachelormajor,partiallist,nounverifiedlanguageclaim. Specializations/minors/acceleratedmastersnotseparatemajors."
+    }
+  },
+  {
+    "id": "florida-international-university",
+    "topic": "programs",
+    "source": "https://cec.fiu.edu/degrees-programs/undergraduate/bs-in-computer-science/",
+    "verified": "2026-10-31",
+    "category": "Undergraduate degree availability; admission and campus conditions remain separate",
+    "campus": "Miami",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Bachelor of Science in Computer Science",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, BS"
+      },
+      "level": "bachelor",
+      "language": null,
+      "scope": "Namedbachelormajor,partiallist,nounverifiedlanguageclaim. Specializations/minors/acceleratedmastersnotseparatemajors."
+    }
+  },
+  {
+    "id": "university-of-south-florida",
+    "topic": "programs",
+    "source": "https://www.usf.edu/ai-cybersecurity-computing/academics/undergraduate/bscs.aspx",
+    "verified": "2026-10-31",
+    "category": "Undergraduate degree availability; admission and campus conditions remain separate",
+    "campus": "Tampa",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Bachelor of Science in Computer Science",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, BS"
+      },
+      "level": "bachelor",
+      "language": null,
+      "scope": "Namedbachelormajor,partiallist,nounverifiedlanguageclaim. Specializations/minors/acceleratedmastersnotseparatemajors."
+    }
+  },
+  {
+    "id": "university-of-california-santa-cruz",
+    "topic": "programs",
+    "source": "https://admissions.ucsc.edu/programs/computer-science",
+    "verified": "2026-10-31",
+    "category": "Undergraduate degree availability; admission and campus conditions remain separate",
+    "campus": "SantaCruz",
+    "intake": null,
+    "access": "html-read",
+    "quote": "Computer Science B.A. and a Computer Science B.S.",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, BA/BS"
+      },
+      "level": "bachelor",
+      "language": null,
+      "scope": "Namedbachelormajor,partiallist,nounverifiedlanguageclaim. Specializations/minors/acceleratedmastersnotseparatemajors."
+    }
+  },
+  {
+    "id": "rutgers-university-camden",
+    "topic": "department-access",
+    "source": "https://cs.camden.rutgers.edu/undergraduate/",
+    "verified": "2026-10-31",
+    "category": "International first-year bachelor applicants",
+    "campus": null,
+    "intake": null,
+    "access": "403-blocked",
+    "quote": null,
+    "facts": null
   }
 ]

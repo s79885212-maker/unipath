@@ -21,6 +21,9 @@ GAPS=L('Remaining application, 2027–2028 cost, award coverage/renewal, institu
        'Оставшиеся поля заявки, стоимости 2027–2028, покрытия и продления стипендий, истории учреждения и фотографии/лицензии ещё исследуются, если ниже нет явного подтверждения.')
 ANNUAL=L('Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.',
          'Ежегодный срок; проверенный источник не устанавливает год поступления. Это не подтверждённый ближайший дедлайн набора осени 2027.')
+L('IELTS is not accepted for this admission route. Your score was not compared and does not satisfy its published English-proof requirement.',
+  'IELTS не принимается для этого маршрута поступления. Балл не сравнивался и не выполняет опубликованное требование подтверждения английского.')
+L('Required documents — {0}','Обязательные документы — {0}')
 
 def src(uid,topic):
     return next(s for s in EVIDENCE if s['id']==uid and s['topic']==topic)
@@ -30,6 +33,8 @@ def record(uid,city,ru_city,state,website,admission_topic='international-first-y
     a=src(uid,admission_topic);p=src(uid,'programs')
     assert a['access']=='html-read' and p['access']=='html-read'
     fields=p['facts']['programs']
+    valid_fields=set(re.findall(r"id:\s*'([^']+)'",(ROOT/'data/registry.js').read_text(encoding='utf-8')))
+    assert set(fields)<=valid_fields, 'Unknown programme category: '+uid
     r=R(uid,t['name'],t['name'],L(city,ru_city),state,'university',None,
       L('This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open.',
         'Профиль относится к указанному кампусу и программам бакалавриата, подтверждённым официальными источниками по ссылкам. Непроверенные сведения явно оставлены открытыми.'),
@@ -38,6 +43,10 @@ def record(uid,city,ru_city,state,website,admission_topic='international-first-y
     r.update(programsStatus='partial',englishTaught=None,languageOfInstruction=None,englishTaughtPrograms=[],
       programEvidence={f:dict(program=n,level='bachelor',language=None,campus=city,url=p['source'],checked=DAY) for f,n in fields.items()})
     r['academics']['internationalQualifications']=UNKNOWN
+    if p['facts'].get('additionalNamedPrograms'):
+      extra=', '.join(p['facts']['additionalNamedPrograms'])
+      r['programNote']=L(str(PARTIAL)+' Additional confirmed degree programmes: '+extra+'.',
+                         PARTIAL.ru+' Дополнительные подтверждённые программы: '+extra+'.')
     r['admissions']['notes']=[UNKNOWN]
     r['sources']=[]
     for s in EVIDENCE:
@@ -76,8 +85,11 @@ def finish(records,batch,annual=None):
     rp=ROOT/'research/us-expansion-50-registry.json';registry=json.loads(rp.read_text(encoding='utf-8'))
     assert not wanted.intersection(registry['baselineIds'])
     path=str(ROOT/'data/universities.us3.js');head,old,tail=load(path)
-    old=[r for r in old if r['id'] not in wanted]
-    save(head,old+records,tail,path)
+    by_id={r['id']:r for r in old};by_id.update({r['id']:r for r in records})
+    all_targets={t['id'] for t in TARGETS}
+    kept=[r for r in old if r['id'] not in all_targets]
+    ordered=[by_id[t['id']] for t in TARGETS if t['id'] in by_id]
+    save(head,kept+ordered,tail,path)
     for e in registry['entries'][(batch-1)*10:batch*10]:
       e.update(implementationStatus='draft-profile-added',researchStatus='in-progress')
       e['topics']['programs']='verified-partial-language-unconfirmed'

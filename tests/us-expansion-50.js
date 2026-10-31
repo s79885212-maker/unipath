@@ -15,9 +15,14 @@ module.exports=function(env){
   var firstMissing=targets.findIndex(function(t){return !U.uniById(t.id);});
   ok(firstMissing===-1 || (firstMissing%10===0 && targets.slice(firstMissing).every(function(t){return !U.uniById(t.id);})),
      'approved expansion is an ordered prefix of complete ten-institution batches');
+  ok(fresh.map(function(u){return u.id;}).join('|')===targets.slice(0,fresh.length).map(function(t){return t.id;}).join('|'),
+     'rebuilding an earlier batch cannot move it behind later approved batches');
   ok(fresh.every(function(u){return u.programsStatus==='partial'&&u.programsBasis==='evidence'&&
       (u.programs||[]).every(function(f){var e=u.programEvidence[f];return e&&e.level==='bachelor'&&e.url&&e.checked&&e.campus;});}),
      'new programme matches have named bachelor/campus evidence and do not claim complete coverage');
+  var fields=new Set(DB.fields.map(function(f){return f.id;}));
+  ok(fresh.every(function(u){return u.programs.every(function(f){return fields.has(f);});}),
+     'new degree evidence uses existing field categories, never untranslated chemistry/physics keys');
   ok(fresh.every(function(u){return u.englishTaught!==true || (u.englishTaughtPrograms||[]).length>0;}) &&
      fresh.every(function(u){return (u.englishTaughtPrograms||[]).every(function(f){return /English/.test(u.programEvidence[f].language||'');});}),
      'an English website alone never makes new majors English-taught');
@@ -79,4 +84,29 @@ module.exports=function(env){
   ok(mines&&mines.academics.sat.policy===null&&mines.admissions.applicationFee.amount===null&&
      /403/.test(mines.academics.sat.note)&&mines.programs.join(',')==='mathematics',
      'blocked Mines admissions snippets never become a fee, optional policy, English minimum or unverified CS match');
+  var rejected={id:'synthetic-rejected-ielts',english:{ielts:{accepted:false,min:1}},academics:{sat:{}},costs:{},scholarships:{}};
+  var reject=M.evaluate(rejected,{ielts:9,sat:null,gpa:null,budget:null,currency:'USD'});
+  ok(!reject.checks.some(function(c){return c.level==='ok'&&/IELTS/.test(c.text);})&&
+     reject.checks.some(function(c){return /IELTS is not accepted/.test(c.text);}),
+     'explicitly unaccepted IELTS cannot become a green match even if a stale numeric minimum exists');
+  ok(U.satPolicy(U.uniById('university-of-texas-at-austin'))==='required-alternatives',
+     'UT Austin required testing keeps the official CLT alternative rather than requiring SAT/ACT alone');
+  var usf=U.uniById('university-of-south-florida'),fiu=U.uniById('florida-international-university');
+  ok(usf&&U.testStatus(usf.english.ielts)==='not-accepted'&&U.ieltsLabel(usf)==='Not accepted'&&
+     !M.evaluate(usf,{ielts:9,sat:null,gpa:null,budget:null,currency:'USD'}).checks.some(function(c){return c.level==='ok'&&/IELTS/.test(c.text);})&&
+     !usf.academics.sat.min&&/490/.test(usf.academics.sat.note),
+     'USF explicitly rejects IELTS as a substitute and never installs SAT section490 as composite minimum');
+  ok(fiu&&U.testStatus(fiu.english.ielts)==='not-required'&&U.satPolicy(fiu)==='required-alternatives'&&
+     /not an English waiver/.test(fiu.english.note),
+     'FIU IELTS-not-required is distinct from USF-not-accepted and is not an English-readiness waiver');
+  var uic=U.uniById('university-of-illinois-chicago'),njit=U.uniById('new-jersey-institute-of-technology');
+  ok(uic&&uic.admissions.applicationFee.amount===170&&U.satPolicy(uic)==='optional'&&
+     uic.admissions.deadlines[0].dateISO==='2026-11-02'&&uic.english.duolingo.min===120,
+     'UIC keeps170USD total,2027 test-optional,November2 deadline and DET120 distinct from UIUC');
+  ok(njit&&njit.academics.sat.policy===null&&/Fall 2026/.test(njit.academics.sat.note)&&/Fall 2027/.test(njit.academics.sat.note),
+     'dated NJIT Fall2026 test policy is not silently extended to Fall2027');
+  var cam=U.uniById('rutgers-university-camden');
+  ok(cam&&U.ieltsMin(cam)===6.0&&/BS\/DO/.test(U.satLabel(cam))&&/BA\/MD/.test(U.satLabel(nw))&&
+     /BA\/BS/.test(cam.programEvidence['computer-science'].program),
+     'Rutgers three campuses keep distinct IELTS thresholds, programme-exception labels and degrees');
 };

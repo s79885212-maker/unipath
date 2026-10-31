@@ -449,7 +449,7 @@
       if (pol === 'optional' || pol === 'not-used') {
         extra += '<br><span class="small muted">This is the policy for admission. A merit scholarship, an honours programme or a particular major may still ask for a score — check each one.</span>';
       }
-      return '<strong class="req-varies">' + esc(x[0]) + '</strong><span>' + esc(x[1]) + '</span>' + extra;
+      return '<strong class="req-varies">' + esc(has(sat.label) ? sat.label : x[0]) + '</strong><span>' + esc(x[1]) + '</span>' + extra;
     }
     var academics = '<section class="profile-section" id="academics"><h2>Academic requirements</h2>' +
       '<div class="notice notice-warn"><span class="ico">⚠️</span><div data-i18n-html>Requirements are <strong>not the same for every applicant</strong>. Individual faculties, schools and programmes often set higher bars than the university minimum, and international applicants are frequently assessed on a separate track. Check the requirement for your exact programme and entry year.</div></div>' +
