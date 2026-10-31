@@ -1,1 +1,699 @@
-[]
+[
+  {
+    "id": "university-of-california-davis",
+    "topic": "international-admission",
+    "source": "https://www.ucdavis.edu/admissions/undergraduate/international",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Davis",
+    "access": "html-read",
+    "quote": "receive a certificate of completion that grants you admission to university-level studies in your country",
+    "facts": {
+      "firstYear": "Secondary school completed without subsequent college/university enrolment. Report international grades as printed; do not convert them or use a credential-evaluation service on the application.",
+      "uzbekistan": "Exact Uzbek qualification, thresholds and subject equivalencies not established by this general page."
+    }
+  },
+  {
+    "id": "university-of-california-davis",
+    "topic": "sat-act",
+    "source": "https://www.ucdavis.edu/admissions/undergraduate/first-year/requirements",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "first-year admission and scholarship awards",
+    "campus": "Davis",
+    "access": "html-read",
+    "quote": "UC Davis no longer considers SAT or ACT test scores for admissions decisions or scholarship awards.",
+    "facts": {
+      "policy": "not-used",
+      "cycle": "Standing policy; no separate Fall 2027 expiry specified.",
+      "scope": "Scores may still serve subject eligibility or placement after enrolment; this is not admission selection.",
+      "gpa": "Non-California residents: 3.40 UC admission GPA requirement; not a generic conversion of Uzbek school marks."
+    }
+  },
+  {
+    "id": "university-of-california-irvine",
+    "topic": "international-admission",
+    "source": "https://admissions.uci.edu/apply/international-students.php",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Irvine",
+    "access": "403-blocked",
+    "quote": null,
+    "facts": null,
+    "unresolved": "Search lead found, but direct reading returned 403. Do not treat search excerpt as verified IELTS/TOEFL data; seek an accessible official catalogue."
+  },
+  {
+    "id": "university-of-illinois-urbana-champaign",
+    "topic": "international-admission-english",
+    "source": "https://www.admissions.illinois.edu/international-requirements/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "first-year; grades 10–12 outside an approved English-speaking country",
+    "campus": "Urbana-Champaign",
+    "access": "html-read",
+    "quote": "This requirement cannot be waived.",
+    "facts": {
+      "english": "TOEFL, IELTS, DET, ACT or SAT accepted for the stated route; results within two years of intended entry. No first-year numeric English minimum established on this page.",
+      "satScope": "If SAT/ACT consideration is selected, the score is used throughout review, not only as English evidence.",
+      "documents": "Self-report coursework and examinations; official transcripts only on enrolment.",
+      "scopeCaution": "Fall 2027 TOEFL Home Edition statement appears in transfer section; do not apply it automatically to first-year."
+    }
+  },
+  {
+    "id": "university-of-illinois-urbana-champaign",
+    "topic": "year-11-school-system",
+    "source": "https://www.admissions.illinois.edu/year-11-help/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "first-year SRAR, Peru/Eastern Europe year-11 education systems",
+    "campus": "Urbana-Champaign",
+    "access": "html-read",
+    "quote": "For schools following the national curriculum, enter the grade/mark/descriptor and the maximum grade for years 9 through 10.",
+    "facts": {
+      "documents": "Report year 11 final results or in-progress; name graduation diploma in Common App additional information.",
+      "uzbekistan": "Page does not name Uzbekistan or establish a precise accepted Uzbek diploma or preparatory-study rule."
+    }
+  },
+  {
+    "id": "university-of-illinois-urbana-champaign",
+    "topic": "admission-deadlines",
+    "source": "https://www.admissions.illinois.edu/first-year-dates/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "first-year",
+    "campus": "Urbana-Champaign",
+    "access": "html-read",
+    "quote": "Early Action Deadline … Nov 1 … Non-binding.",
+    "facts": {
+      "status": "annual-rule",
+      "applicationOpens": "September 1",
+      "earlyAction": "November 1; materials November 7",
+      "regular": "January 5; materials January 11",
+      "time": "23:59",
+      "timezone": "America/Chicago",
+      "unresolved": "The page prints no intake year. Do not manufacture dated Fall 2027 events."
+    }
+  },
+  {
+    "id": "university-of-illinois-urbana-champaign",
+    "topic": "cost",
+    "source": "https://www.admissions.illinois.edu/tuition/",
+    "verified": "2026-10-31",
+    "academicYear": "2026–2027",
+    "intake": "Fall 2027 not established for these rates",
+    "category": "international full-time undergraduate",
+    "campus": "Urbana-Champaign",
+    "access": "html-read",
+    "quote": "Estimates are based on 2026-2027 data and assume full-time enrollment.",
+    "facts": {
+      "currency": "USD",
+      "tuitionAndFees": {
+        "min": 42248,
+        "max": 53078
+      },
+      "foodHousing": 15858,
+      "booksSupplies": 1200,
+      "otherExpenses": 2840,
+      "publishedEstimatedTotal": {
+        "min": 62146,
+        "max": 72976
+      },
+      "scope": "University-published range varies with major/housing/meal plan/lifestyle. No scholarships deducted. Previous available year, not confirmed 2027–28 rates."
+    }
+  },
+  {
+    "id": "university-of-texas-at-austin",
+    "topic": "international-first-year-admission",
+    "source": "https://admissions.utexas.edu/apply/international-students/",
+    "verified": "2026-10-31",
+    "intake": "Autumn 2027",
+    "category": "non-US citizen/non-permanent resident; no Texas high-school graduation; first-year",
+    "campus": "Austin",
+    "access": "html-read",
+    "quote": "Send at least one official SAT or ACT score directly from the testing agency.",
+    "cycleQuote": "by January 15, 2027",
+    "facts": {
+      "application": "Common App for summer/fall",
+      "feeUSD": 90,
+      "feeWaiverInternational": false,
+      "satAct": "required; official CLT also satisfies requirement; ACT science, SAT essay, ACT writing and SAT subject tests not required",
+      "rounds": [
+        {
+          "kind": "EA",
+          "application": "2026-10-15",
+          "documents": "2026-10-22"
+        },
+        {
+          "kind": "RD",
+          "application": "2026-12-01",
+          "documents": "2026-12-10"
+        }
+      ],
+      "timezone": null,
+      "documents": "Secondary transcripts equivalent to US grades 9–12; essay and short answers; programme-specific extras where required.",
+      "recommendations": "Up to two, optional.",
+      "english": "TOEFL/IELTS/DET if applicable; numeric requirements on a separate page.",
+      "uzbekistan": "Exact qualification and preparatory requirements not established here."
+    }
+  },
+  {
+    "id": "university-of-wisconsin-madison",
+    "topic": "international-documents",
+    "source": "https://admissions.wisc.edu/international/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year",
+    "campus": "Madison",
+    "access": "html-read",
+    "quote": "We must receive both the original non-English transcript and the official English translation to complete your application.",
+    "facts": {
+      "documents": "Official transcripts and graduation credentials establishing progression to higher education. Official translations by school or EducationUSA; original also needed. Unlisted curricula use equivalent US grades 9–12 and relevant leaving exams.",
+      "uzbekistan": "No exact Uzbek qualification established from the portions reviewed."
+    }
+  },
+  {
+    "id": "university-of-wisconsin-madison",
+    "topic": "admission-deadlines",
+    "source": "https://admissions.wisc.edu/deadlines/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "domestic and international first-year",
+    "campus": "Madison",
+    "access": "html-read",
+    "quote": "Early Action is non-binding.",
+    "facts": {
+      "status": "annual-rule",
+      "earlyAction": "November 1; materials November 9",
+      "regular": "January 15; materials January 22",
+      "time": "23:59",
+      "timezone": "America/Los_Angeles",
+      "applicationOpens": "August 1",
+      "scope": "Page explicitly says Pacific Time, not the campus/device local zone. No named intake year on page."
+    }
+  },
+  {
+    "id": "rutgers-university-new-brunswick",
+    "topic": "admission-deadlines",
+    "source": "https://admissions.rutgers.edu/apply/dates-deadlines/new-brunswick",
+    "verified": "2026-10-31",
+    "intake": "Autumn 2027",
+    "category": "first-year",
+    "campus": "New Brunswick only",
+    "access": "html-read",
+    "quote": "Fall/September 2027: Application Dates & Deadlines",
+    "facts": {
+      "earlyAction": "2026-11-01",
+      "regularDecision": "2026-12-01",
+      "reply": "2027-05-01",
+      "timezone": null,
+      "rolling": "After due dates, only schools still available in the application; not guaranteed availability.",
+      "unresolved": "Read EA footnote and separate credential deadlines before implementing binding/materials semantics."
+    }
+  },
+  {
+    "id": "virginia-tech",
+    "topic": "international-first-year-application",
+    "source": "https://www.vt.edu/admissions/international/checklist.html",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year undergraduate",
+    "campus": "Blacksburg",
+    "access": "html-read",
+    "quote": "SAT Reasoning Test or ACT Scores (Optional for international applicants)",
+    "facts": {
+      "feeUSD": 70,
+      "satAct": "Optional on standing checklist; named Fall 2027 cycle needs separate evidence.",
+      "documents": "STARS or copies of secondary transcripts/marksheets and exams; years 9–11 and courses in progress; graduates supply leaving diploma and final record for years 9–12.",
+      "materialsDeadlines": "EA December 1; RD January 24, without cycle year on checklist.",
+      "english": "Accepted exams include TOEFL, IELTS, PTE, DET; numeric requirements on separate requirements page.",
+      "uzbekistan": "Exact qualification/grade equivalency not established by general checklist."
+    }
+  },
+  {
+    "id": "university-of-california-davis",
+    "topic": "english",
+    "source": "https://www.ucdavis.edu/admissions/undergraduate/international/exams-visas",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year with fewer than three US schooling years and prior non-English instruction",
+    "campus": "Davis",
+    "access": "html-read",
+    "quote": "Provide proof of English proficiency with one of the following:",
+    "facts": {
+      "accepted": [
+        "TOEFL",
+        "IELTS",
+        "Duolingo English Test"
+      ],
+      "otherRoutes": "Specified AP/IB and transferable college coursework; linked UC guidance controls detailed conditions.",
+      "minimum": null,
+      "unresolved": "Campus page reviewed names no numeric threshold; follow official UC guidance, do not invent a campus score."
+    }
+  },
+  {
+    "id": "university-of-california-davis",
+    "topic": "cost",
+    "source": "https://financialaid.ucdavis.edu/undergraduate/cost/2627-entering",
+    "verified": "2026-10-31",
+    "academicYear": "2026–2027",
+    "intake": "first enrolled 2026–27, not a confirmed Fall 2027 cohort rate",
+    "category": "nonresident undergraduate, on-campus residence hall, three quarters",
+    "campus": "Davis",
+    "access": "html-read",
+    "quote": "Total costs for nonresidents",
+    "facts": {
+      "currency": "USD",
+      "period": "three quarters, mid-September to mid-June",
+      "publishedTotal": 88279,
+      "nonresidentSupplement": 39270,
+      "residentTotal": 49009,
+      "scope": "Published nonresident total already includes supplement; never add it twice. Other housing columns differ. Cohort tuition stability does not establish 2027 entrants' rates.",
+      "status": "previous-cycle"
+    }
+  },
+  {
+    "id": "university-of-california-davis",
+    "topic": "international-aid",
+    "source": "https://financialaid.ucdavis.edu/undergraduate/apply/international",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "F-1/F-2, G, H, J-1/J-2 visa students",
+    "campus": "Davis",
+    "access": "html-read",
+    "quote": "International students may, however, be eligible for scholarships, private loans, and short-term loans.",
+    "facts": {
+      "aid": "Most aid types unavailable for stated visa groups; scholarships may exist. Private and short-term loans are not grants.",
+      "fullRide": null,
+      "largestAward": null,
+      "unresolved": "Follow institutional and prestigious scholarship list; no basis yet to say all international aid is absent."
+    }
+  },
+  {
+    "id": "university-of-california-irvine",
+    "topic": "catalogue-admission-currency",
+    "source": "https://catalogue.uci.edu/informationforprospectivestudents/undergraduateadmissions/",
+    "verified": "2026-10-31",
+    "intake": "Catalogue contains explicit 2021/2022 transfer and English-test exceptions",
+    "category": "international undergraduate; freshman and transfer sections must be separated",
+    "campus": "Irvine",
+    "access": "html-read",
+    "quote": "Fall 2021 and Fall 2022 only",
+    "facts": {
+      "englishHistorical": "IELTS 6.5 and TOEFL 80 appear, alongside old time-limited Indicator/DET alternatives and 2022 TAG instructions.",
+      "current2027EnglishMinimum": null,
+      "scope": "Do not use the whole catalogue section as proof that historical test alternatives or dates apply in 2027. Search lead on current admissions page is blocked.",
+      "uzbekistan": "Exact accepted Uzbek school credentials not established."
+    }
+  },
+  {
+    "id": "university-of-california-irvine",
+    "topic": "program-computer-science",
+    "source": "https://catalogue.uci.edu/donaldbrenschoolofinformationandcomputersciences/departmentofcomputerscience/computerscience_bs/",
+    "verified": "2026-10-31",
+    "academicYear": "2026–2027 catalogue",
+    "intake": null,
+    "category": "undergraduate bachelor major",
+    "campus": "Irvine; Donald Bren School of Information and Computer Sciences",
+    "access": "html-read",
+    "quote": "Computer Science, B.S.",
+    "facts": {
+      "field": "computer-science",
+      "program": "Computer Science, B.S.",
+      "level": "bachelor",
+      "language": null,
+      "scope": "2026–27 edition identifies a degree major; upper-division areas are not independent majors. Language not inferred just from website language."
+    }
+  },
+  {
+    "id": "university-of-california-santa-barbara",
+    "topic": "international-admission",
+    "source": "https://admissions.sa.ucsb.edu/international",
+    "verified": "2026-10-31",
+    "intake": "Autumn 2027",
+    "category": "international first-year",
+    "campus": "Santa Barbara",
+    "access": "html-read",
+    "quote": "October 1 - November 30, 2026 for the fall 2027 term.",
+    "facts": {
+      "applicationOpens": "August 1 each year; filing October 1–November 30, 2026 for Fall 2027",
+      "deadline": "2026-11-30",
+      "timezone": null,
+      "documents": "Self-report grades without US conversion; transcripts only if requested during review, official records from each original institution after accepting offer.",
+      "uzbekistan": "Country-context evaluation described; exact Uzbek diploma/subjects/thresholds not established."
+    }
+  },
+  {
+    "id": "university-of-california-santa-barbara",
+    "topic": "english",
+    "source": "https://admissions.sa.ucsb.edu/english-language-proficiency",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "non-native English speakers educated through another language or fewer than three years English instruction",
+    "campus": "Santa Barbara",
+    "access": "html-read",
+    "quote": "Score 6.5 or higher",
+    "facts": {
+      "ieltsAcademicMin": 6.5,
+      "toeflPre2026Min": 80,
+      "toeflPost2026Min": 4.5,
+      "detMin": 115,
+      "validity": "Two years; scores available in July before enrolment; complete exam by December before enrolment.",
+      "waivers": "Specified AP/IB, old ACT English/SAT Writing, or transferable English composition routes.",
+      "exceptions": "No IELTS One Skill Retake, no TOEFL MyBest; digital SAT Reading/Writing not approved as English proof.",
+      "scope": "Do not confuse English-score alternatives with SAT/ACT admission policy or transfer-only composition rules."
+    }
+  },
+  {
+    "id": "university-of-wisconsin-madison",
+    "topic": "international-awards",
+    "source": "https://admissions.wisc.edu/international-scholarships/",
+    "verified": "2026-10-31",
+    "intake": "Autumn 2027 for King-Morgridge",
+    "category": "first-year bachelor, high need, no prior tertiary education, school-location restrictions",
+    "campus": "Madison",
+    "access": "html-read",
+    "quote": "King-Morgridge Scholarship Application Deadline: November 15",
+    "cycleQuote": "King-Morgridge Scholarship application for Fall 2027",
+    "facts": {
+      "award": "King-Morgridge Scholars Program",
+      "coverage": [
+        "tuition and fees",
+        "room and board",
+        "health insurance",
+        "airfare",
+        "miscellaneous stipend"
+      ],
+      "duration": "Four years/eight semesters, full-time",
+      "recipients": 6,
+      "selection": "Competitive; leadership, community contribution, poverty alleviation, financial need and plan to return home/region.",
+      "eligibility": "Qualifying secondary credential must come from an institution in an explicitly listed country in Africa, Caribbean, Latin America, South Asia or Southeast Asia. Uzbekistan is absent. This restricts school location, not simply citizenship.",
+      "admissionApplication": "Early Action November 1; must be admitted in EA review period",
+      "scholarshipApplication": "Separate WiSH application by November 15, 2026, for Fall 2027",
+      "renewal": "Detailed GPA/credits/stacking conditions not established on reviewed page.",
+      "otherAward": "Western Union: one-time USD 1000, one incoming international student from underrepresented countries, no separate application; not guaranteed.",
+      "aid": "F-1/J-1 ineligible for federal and Wisconsin state aid."
+    }
+  },
+  {
+    "id": "rutgers-university-new-brunswick",
+    "topic": "cost",
+    "source": "https://admissions.newbrunswick.rutgers.edu/costs-and-aid/tuition-fees",
+    "verified": "2026-10-31",
+    "academicYear": "2026–2027",
+    "intake": "Fall 2027 rates not established",
+    "category": "non-New-Jersey resident undergraduate, on campus",
+    "campus": "New Brunswick; separate Newark/Camden tables not substituted",
+    "access": "html-read",
+    "quote": "At Rutgers, the cost of attendance varies based on school affiliation, campus, and program.",
+    "facts": {
+      "currency": "USD",
+      "period": "academic year",
+      "tuition": 36831,
+      "fees": 4008,
+      "foodHousing": 21943,
+      "publishedSubtotal": 62782,
+      "basis": "billed example, not total cost of attendance",
+      "excluded": "F-1/J-1 also incur SAF 500, insurance/health services, books, travel and other living costs.",
+      "scope": "Fees and housing vary; part-time School of Arts and Sciences rate is not an annual rate. Do not apply same fee total to Newark/Camden.",
+      "status": "previous-cycle"
+    }
+  },
+  {
+    "id": "pennsylvania-state-university-university-park",
+    "topic": "international-first-year-requirements",
+    "source": "https://www.psu.edu/resources/international-students/admission-requirements",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year, including University Park; do not use transfer-only paragraphs",
+    "campus": "University Park record; policy source is multi-campus",
+    "access": "html-read",
+    "quote": "Penn State is test-optional",
+    "facts": {
+      "application": [
+        "MyPennState",
+        "Common App"
+      ],
+      "satAct": "Optional except when used as English proficiency evidence; no superscoring; self-report within published eligibility.",
+      "english": {
+        "ieltsAcademicMin": 6.5,
+        "toeflPre2026Min": 80,
+        "toeflPost2026Min": 4.5,
+        "detMin": 120
+      },
+      "documents": "STARS for first-year except specified South Korean route; non-English documents need literal line-by-line certified translation with original.",
+      "uzbekistan": "Specific Uzbek credential equivalence not established; separate country records guidance needs review.",
+      "scope": "No named Fall 2027 SAT cycle stated on this page; no invented SAT statistic or IELTS average."
+    }
+  },
+  {
+    "id": "pennsylvania-state-university-university-park",
+    "topic": "international-deadlines",
+    "source": "https://www.psu.edu/resources/international-students/deadlines",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year",
+    "campus": "University Park named; some programmes have earlier dates",
+    "access": "html-read",
+    "quote": "our Early Action Deadline is November 1.",
+    "facts": {
+      "status": "annual-rule",
+      "earlyAction": "November 1",
+      "rolling": "After November 1, space/programme availability becomes more competitive, especially University Park.",
+      "unresolved": "Final international/I-20 deadlines and named Fall 2027 cycle not established from reviewed excerpt."
+    }
+  },
+  {
+    "id": "university-of-georgia",
+    "topic": "international-admission",
+    "source": "https://admissions.uga.edu/admissions/international/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Athens",
+    "access": "403-blocked",
+    "quote": null,
+    "facts": null,
+    "unresolved": "No bot bypass. Seek accessible university bulletin or other official source; do not invent fee, IELTS or SAT policy."
+  },
+  {
+    "id": "university-of-wisconsin-madison",
+    "topic": "sat-act-cycle",
+    "source": "https://admissions.wisc.edu/act_sat_faq/",
+    "verified": "2026-10-31",
+    "intake": "Fall 2027 included through Spring 2028",
+    "category": "first-year; international English testing remains separate",
+    "campus": "Madison",
+    "access": "html-read",
+    "quote": "ACT/SAT scores are optional through the spring 2028 term",
+    "facts": {
+      "policy": "optional",
+      "cycle": "Spring 2027, Fall 2027, Spring 2028",
+      "scholarships": "Not required; considered if supplied.",
+      "exceptions": "Wisconsin Guarantee for in-state homeschooled applicants is separate. Ordinary homeschool applicants encouraged, not required, to supply scores.",
+      "english": "Native-language exception requires English as primary instruction in all four secondary years; otherwise TOEFL/IELTS/DET required.",
+      "reporting": "Official scores only, no superscore."
+    }
+  },
+  {
+    "id": "virginia-tech",
+    "topic": "sat-act-cycle",
+    "source": "https://www.vt.edu/admissions/frequently-asked-questions/test-optional.html",
+    "verified": "2026-10-31",
+    "intake": "Through Fall 2028, includes Fall 2027",
+    "category": "first-year, all majors",
+    "campus": "Blacksburg",
+    "access": "html-read",
+    "quote": "first-year applicants entering through Fall 2028",
+    "facts": {
+      "policy": "optional",
+      "majors": "All majors follow policy.",
+      "scholarships": "Applicants without SAT/ACT remain eligible; award-specific requirements still need review.",
+      "english": "English proficiency exams are separate and not waived by test-optional."
+    }
+  },
+  {
+    "id": "virginia-tech",
+    "topic": "first-year-academic-requirements",
+    "source": "https://www.vt.edu/admissions/undergraduate/apply/freshman-requirements.html",
+    "verified": "2026-10-31",
+    "intake": "Fall 2027 coursework section; page also retains July 2025 footer",
+    "category": "first-year; schooling outside US",
+    "campus": "Blacksburg",
+    "access": "html-read",
+    "quote": "Letters of recommendation are not required or requested.",
+    "facts": {
+      "recommendations": "Ordinary recommendation letters are not considered. A letter of circumstance is different.",
+      "documents": "STARS or transcripts for schooling outside US; list years 9–11 and planned/current year-12 courses and exams.",
+      "scope": "Do not transplant a US year-12 model into a confirmed Uzbek diploma equivalence.",
+      "satAct": "Optional through Fall 2028; confirms international checklist scope."
+    }
+  },
+  {
+    "id": "university-of-illinois-urbana-champaign",
+    "topic": "first-year-english-scope",
+    "source": "https://www.admissions.illinois.edu/general-admission-policies/",
+    "verified": "2026-10-31",
+    "intake": "Fall 2027 TOEFL Home Edition explicitly in first-year section",
+    "category": "first-year; English competence",
+    "campus": "Urbana-Champaign",
+    "access": "html-read",
+    "quote": "Competence in English (First-Year Applicants)",
+    "facts": {
+      "firstYearEnglish": "No numeric first-year minimum published in reviewed section; TOEFL/IELTS/DET required for stated non-approved schooling route without SAT/ACT; with SAT/ACT strongly encouraged.",
+      "transferOnly": "IELTS 7.5 with all subscores 6.5+, TOEFL 100/5.0, DET 130 occur only under Transfer Applicants; do not assign these thresholds to first-year.",
+      "excludedVersions": "IELTS OneSkill Retake, IELTS General and TOEFL MyBest not accepted.",
+      "feeScope": "General policy lists USD75 without a distinct international first-year breakdown; category-specific fee must still be established."
+    }
+  },
+  {
+    "id": "university-of-illinois-urbana-champaign",
+    "topic": "sat-act-first-year-faq",
+    "source": "https://www.admissions.illinois.edu/first-year-apply-faq/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "all first-year, including international, homeschool and athletes",
+    "campus": "Urbana-Champaign",
+    "access": "html-read",
+    "quote": "ACT/SAT scores are optional for all first-year applicants, including international students",
+    "facts": {
+      "policy": "optional on standing page; no SAT-policy cycle named",
+      "majors": "All majors optional; merit and honours consideration does not require test submission.",
+      "caution": "FAQ retains Fall 2026 Home Edition wording, while general policy explicitly says Fall 2027. Treat version/year-specific statements separately; no invented universal IELTS minimum."
+    }
+  },
+  {
+    "id": "university-of-illinois-urbana-champaign",
+    "topic": "international-need-aid",
+    "source": "https://www.admissions.illinois.edu/financial-aid/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international undergraduate",
+    "campus": "Urbana-Champaign",
+    "access": "html-read",
+    "quote": "Need-based financial aid is not available to international undergraduates at Illinois",
+    "facts": {
+      "needBasedInternational": false,
+      "otherAid": "Limited scholarships and loans may exist through ISSS; no claim that every form of help is absent.",
+      "excluded": "Illinois Commitment and FAFSA-dependent support are not automatically available to Uzbek F-1 applicants."
+    }
+  },
+  {
+    "id": "university-of-illinois-urbana-champaign",
+    "topic": "merit-award-eligibility-review",
+    "source": "https://www.osfa.illinois.edu/types-of-aid/scholarships/merit-based-scholarships/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "mixed university scholarship list; international eligibility not uniformly established",
+    "campus": "Urbana-Champaign",
+    "access": "html-read",
+    "quote": "Requirements: Incoming non-resident freshman with demonstrated financial need",
+    "facts": {
+      "listedAwards": "Illinois Achievement USD10000; Stamps up to COA; Provost full tuition. Do not call any confirmed international award merely from these generic headings.",
+      "excluded": "PAP requires Illinois residency; Anthony/Blackshear requires Illinois high-school graduation; Tribal awards have specific membership/FAFSA conditions.",
+      "unresolved": "Open Stamps eligibility page and ISSS resources before declaring largest international award or full ride."
+    }
+  },
+  {
+    "id": "university-of-georgia",
+    "topic": "international-first-year-admission",
+    "source": "https://admissions.uga.edu/apply/other-applicants/international-students/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year; transfer section excluded",
+    "campus": "Athens",
+    "access": "html-read",
+    "quote": "Average scores for admitted international students (2019–2023)",
+    "facts": {
+      "satAct": "Required under Board of Regents policy; TOEFL/IELTS can also evidence English proficiency.",
+      "ieltsStatistic": {
+        "value": 7.5,
+        "measure": "average",
+        "group": "admitted international students",
+        "period": "2019–2023"
+      },
+      "toeflStatistic": {
+        "value": 102,
+        "measure": "average",
+        "group": "admitted international students",
+        "period": "2019–2023"
+      },
+      "englishMinimum": null,
+      "documents": "Final English-translated records from every school; do not self-report grades; university calculates GPA. Complete schooling qualifying for university in home system.",
+      "excluded": "Transfer-only IELTS 6.5, SAT EBRW 480 and other transfer requirements are not first-year minimums.",
+      "uzbekistan": "Exact credential, grades and preparatory-study route not stated."
+    }
+  },
+  {
+    "id": "university-of-georgia",
+    "topic": "admission-deadlines",
+    "source": "https://admissions.uga.edu/apply/deadlines/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "first-year Fall, not transfer/Griffin/Tifton tables",
+    "campus": "Athens",
+    "access": "html-read",
+    "quote": "Application Deadline … October 15 … January 1",
+    "facts": {
+      "status": "annual-rule",
+      "earlyAction": "October 15; materials October 29",
+      "regularDecision": "January 1; materials January 15",
+      "unresolved": "Table does not name intake year; Foundation Fellowship has its own evidence and application."
+    }
+  },
+  {
+    "id": "university-of-georgia",
+    "topic": "foundation-fellowship-application",
+    "source": "https://honors.uga.edu/scholarships/prospective-students/foundation-fellowship/applying-for-the-foundation-fellowship/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "first-year, international eligible, no matriculation elsewhere",
+    "campus": "Athens",
+    "access": "html-read",
+    "quote": "international students are eligible to apply",
+    "cycleQuote": "Friday, February 26 and Saturday, February 27, 2027",
+    "facts": {
+      "award": "Foundation Fellowship",
+      "deadline": "Annual November 1 rule; do not assign ISO year until entry intake is established",
+      "application": "Submit UGA first-year application first; separate linked Morehead Honors/Foundation Fellowship form, supporting recommendations and mandatory interview if finalist.",
+      "coverage": null,
+      "unresolved": "Award coverage, stipend values, renewal, stacking and exact intake still need benefits page; application deadline must remain linked to this award only."
+    },
+    "cycleContext": "Finalist interview explicitly February 26–27, 2027; entry term must still be established"
+  },
+  {
+    "id": "pennsylvania-state-university-university-park",
+    "topic": "international-aid-financial-guarantee",
+    "source": "https://global.psu.edu/page/university-park-hershey-and-great-valley-financial-guarantee-requirements",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international undergraduate; University Park",
+    "campus": "University Park, not World Campus",
+    "access": "html-read",
+    "quote": "essentially no financial aid available for international undergraduate students",
+    "facts": {
+      "type": "Public university confirmed by source.",
+      "aid": "Do not promise financing; federal eligibility requires citizenship/permanent residency and state funds Pennsylvania residency.",
+      "cost": "Linked guarantee charts separate University Park and Smeal Business. Page itself provides no numeric annual total; do not substitute a graduate or other-campus budget.",
+      "fullRide": null
+    }
+  },
+  {
+    "id": "university-of-california-davis",
+    "topic": "program-computer-science",
+    "source": "https://www.ucdavis.edu/majors/computer-science",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "undergraduate bachelor major",
+    "campus": "Davis, College of Engineering",
+    "access": "html-read",
+    "quote": "Bachelor of Science",
+    "facts": {
+      "field": "computer-science",
+      "program": "Computer Science, Bachelor of Science",
+      "language": null,
+      "scope": "Direct official degree page read: Bachelor of Science, College of Engineering. Programme language remains unconfirmed."
+    }
+  }
+]

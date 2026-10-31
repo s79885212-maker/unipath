@@ -395,7 +395,7 @@
       ],
       "existingMatches": [],
       "id": "university-of-california-davis",
-      "researchStatus": "pending",
+      "researchStatus": "in-progress",
       "implementationStatus": "not-added",
       "topics": {
         "identity": "pending",
@@ -408,7 +408,8 @@
         "aid": "pending",
         "photo": "pending"
       },
-      "unresolved": []
+      "unresolved": [],
+      "sourceEntries": 6
     },
     {
       "number": 2,
@@ -421,7 +422,7 @@
       ],
       "existingMatches": [],
       "id": "university-of-california-irvine",
-      "researchStatus": "pending",
+      "researchStatus": "in-progress",
       "implementationStatus": "not-added",
       "topics": {
         "identity": "pending",
@@ -434,7 +435,8 @@
         "aid": "pending",
         "photo": "pending"
       },
-      "unresolved": []
+      "unresolved": [],
+      "sourceEntries": 3
     },
     {
       "number": 3,
@@ -448,7 +450,7 @@
       ],
       "existingMatches": [],
       "id": "university-of-illinois-urbana-champaign",
-      "researchStatus": "pending",
+      "researchStatus": "in-progress",
       "implementationStatus": "not-added",
       "topics": {
         "identity": "pending",
@@ -461,7 +463,8 @@
         "aid": "pending",
         "photo": "pending"
       },
-      "unresolved": []
+      "unresolved": [],
+      "sourceEntries": 8
     },
     {
       "number": 4,
@@ -475,7 +478,7 @@
       ],
       "existingMatches": [],
       "id": "university-of-texas-at-austin",
-      "researchStatus": "pending",
+      "researchStatus": "in-progress",
       "implementationStatus": "not-added",
       "topics": {
         "identity": "pending",
@@ -488,7 +491,8 @@
         "aid": "pending",
         "photo": "pending"
       },
-      "unresolved": []
+      "unresolved": [],
+      "sourceEntries": 1
     },
     {
       "number": 5,
@@ -501,7 +505,7 @@
       ],
       "existingMatches": [],
       "id": "university-of-wisconsin-madison",
-      "researchStatus": "pending",
+      "researchStatus": "in-progress",
       "implementationStatus": "not-added",
       "topics": {
         "identity": "pending",
@@ -514,7 +518,8 @@
         "aid": "pending",
         "photo": "pending"
       },
-      "unresolved": []
+      "unresolved": [],
+      "sourceEntries": 4
     },
     {
       "number": 6,
@@ -528,7 +533,7 @@
       ],
       "existingMatches": [],
       "id": "rutgers-university-new-brunswick",
-      "researchStatus": "pending",
+      "researchStatus": "in-progress",
       "implementationStatus": "not-added",
       "topics": {
         "identity": "pending",
@@ -541,7 +546,8 @@
         "aid": "pending",
         "photo": "pending"
       },
-      "unresolved": []
+      "unresolved": [],
+      "sourceEntries": 2
     },
     {
       "number": 7,
@@ -555,7 +561,7 @@
       ],
       "existingMatches": [],
       "id": "university-of-california-santa-barbara",
-      "researchStatus": "pending",
+      "researchStatus": "in-progress",
       "implementationStatus": "not-added",
       "topics": {
         "identity": "pending",
@@ -568,7 +574,8 @@
         "aid": "pending",
         "photo": "pending"
       },
-      "unresolved": []
+      "unresolved": [],
+      "sourceEntries": 2
     },
     {
       "number": 8,
@@ -581,7 +588,7 @@
       ],
       "existingMatches": [],
       "id": "university-of-georgia",
-      "researchStatus": "pending",
+      "researchStatus": "in-progress",
       "implementationStatus": "not-added",
       "topics": {
         "identity": "pending",
@@ -594,7 +601,8 @@
         "aid": "pending",
         "photo": "pending"
       },
-      "unresolved": []
+      "unresolved": [],
+      "sourceEntries": 4
     },
     {
       "number": 9,
@@ -607,7 +615,7 @@
       ],
       "existingMatches": [],
       "id": "virginia-tech",
-      "researchStatus": "pending",
+      "researchStatus": "in-progress",
       "implementationStatus": "not-added",
       "topics": {
         "identity": "pending",
@@ -620,7 +628,8 @@
         "aid": "pending",
         "photo": "pending"
       },
-      "unresolved": []
+      "unresolved": [],
+      "sourceEntries": 3
     },
     {
       "number": 10,
@@ -634,7 +643,7 @@
       ],
       "existingMatches": [],
       "id": "pennsylvania-state-university-university-park",
-      "researchStatus": "pending",
+      "researchStatus": "in-progress",
       "implementationStatus": "not-added",
       "topics": {
         "identity": "pending",
@@ -647,7 +656,8 @@
         "aid": "pending",
         "photo": "pending"
       },
-      "unresolved": []
+      "unresolved": [],
+      "sourceEntries": 3
     },
     {
       "number": 11,
