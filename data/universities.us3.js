@@ -41565,5 +41565,2553 @@ window.UNIPATH.universities.push(
       "checked": "2026-10-31"
     }
   }
+},
+
+{
+  "id": "university-of-colorado-boulder",
+  "name": "University of Colorado Boulder",
+  "shortName": "University of Colorado Boulder",
+  "country": "us",
+  "city": "Boulder",
+  "region": "Colorado",
+  "founded": 1876,
+  "type": "public",
+  "institutionKind": "university",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#1f3a5f",
+    "c2": "#0f1f33",
+    "initials": "CB"
+  },
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open.",
+  "englishTaught": null,
+  "languageOfInstruction": null,
+  "programs": [
+    "computer-science"
+  ],
+  "englishTaughtPrograms": [],
+  "programNote": "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+  "links": {
+    "website": "https://www.colorado.edu/",
+    "admissions": "https://www.colorado.edu/admissions/process/international/apply",
+    "internationalAdmissions": "https://www.colorado.edu/admissions/process/international/apply",
+    "applicationPortal": null,
+    "scholarships": null,
+    "financialAid": null,
+    "programs": "https://www.colorado.edu/cs/academics/undergraduate-programs/bachelor-science",
+    "cost": null
+  },
+  "admissions": {
+    "platforms": [],
+    "deadlines": [
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "date": "15 November",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "binding": null,
+        "source": "https://www.colorado.edu/admissions/process/international/apply",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.colorado.edu/admissions/process/international/apply",
+          "verified": "2026-10-31",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "date": "15 January",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "binding": null,
+        "source": "https://www.colorado.edu/admissions/process/international/apply",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.colorado.edu/admissions/process/international/apply",
+          "verified": "2026-10-31",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      }
+    ],
+    "applicationFee": {
+      "amount": 70,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "International application fee; domestic USD 65 does not apply. Common App fee-waiver request is possible, not automatic.",
+      "source": "https://www.colorado.edu/admissions/process/first-year/apply",
+      "verified": "2026-10-31"
+    },
+    "documents": [],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": [
+      "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
+    ]
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "Tests within two calendar years of enrolment. A medium-of-instruction letter alone is insufficient; country and duration conditions apply. English evidence is needed by Regular Decision for scholarship consideration; Pathway conditional admission is separate."
+    },
+    "toefl": {
+      "min": 80,
+      "recommended": null,
+      "note": "Tests within two calendar years of enrolment. A medium-of-instruction letter alone is insufficient; country and duration conditions apply. English evidence is needed by Regular Decision for scholarship consideration; Pathway conditional admission is separate.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 80,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.0,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 115,
+      "recommended": null,
+      "note": "Tests within two calendar years of enrolment. A medium-of-instruction letter alone is insufficient; country and duration conditions apply. English evidence is needed by Regular Decision for scholarship consideration; Pathway conditional admission is separate."
+    },
+    "waiver": null,
+    "note": "Tests within two calendar years of enrolment. A medium-of-instruction letter alone is insufficient; country and duration conditions apply. English evidence is needed by Regular Decision for scholarship consideration; Pathway conditional admission is separate.",
+    "detailsSource": "https://www.colorado.edu/admissions/process/international/plan/english-proficiency",
+    "detailsVerified": "2026-10-31"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "First-year SAT/ACT are optional and may be self-reported. English-proof SAT EBRW 580 is a section score, not a composite admission minimum.",
+      "source": "https://www.colorado.edu/admissions/process/first-year/apply",
+      "verified": "2026-10-31"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "First-year SAT/ACT are optional and may be self-reported. English-proof SAT EBRW 580 is a section score, not a composite admission minimum.",
+      "source": "https://www.colorado.edu/admissions/process/first-year/apply",
+      "verified": "2026-10-31"
+    },
+    "otherTests": null,
+    "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
+  },
+  "costs": {
+    "breakdown": null,
+    "academicYear": null,
+    "currency": "USD",
+    "headline": null,
+    "items": [],
+    "billedSubtotal": null,
+    "totalText": null,
+    "note": null
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": null
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Official university page",
+      "url": "https://www.colorado.edu/admissions/process/international/apply"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.colorado.edu/admissions/process/first-year/apply"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.colorado.edu/admissions/process/international/plan/english-proficiency"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.colorado.edu/cs/academics/undergraduate-programs/bachelor-science"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "Named bachelor programme and available official admission instructions."
+    ],
+    "unconfirmed": [
+      "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
+      "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+      "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
+    ]
+  },
+  "lastVerified": "2026-10-31",
+  "aliases": [
+    "CU Boulder"
+  ],
+  "programsBasis": "evidence",
+  "programsStatus": "partial",
+  "programEvidence": {
+    "computer-science": {
+      "program": "Computer Science, B.S.",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Boulder",
+      "url": "https://www.colorado.edu/cs/academics/undergraduate-programs/bachelor-science",
+      "checked": "2026-10-31"
+    }
+  }
+},
+
+{
+  "id": "university-of-new-hampshire",
+  "name": "University of New Hampshire",
+  "shortName": "University of New Hampshire",
+  "country": "us",
+  "city": "Durham",
+  "region": "New Hampshire",
+  "founded": null,
+  "type": null,
+  "institutionKind": "university",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#7a3b12",
+    "c2": "#3d1d09",
+    "initials": "NH"
+  },
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open.",
+  "englishTaught": null,
+  "languageOfInstruction": null,
+  "programs": [
+    "computer-science"
+  ],
+  "englishTaughtPrograms": [],
+  "programNote": "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+  "links": {
+    "website": "https://www.unh.edu/",
+    "admissions": "https://admissions.unh.edu/apply/international-students",
+    "internationalAdmissions": "https://admissions.unh.edu/apply/international-students",
+    "applicationPortal": null,
+    "scholarships": null,
+    "financialAid": null,
+    "programs": "https://www.unh.edu/program/bachelor-science/computer-science",
+    "cost": null
+  },
+  "admissions": {
+    "platforms": [],
+    "deadlines": [
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "date": "15 November",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "binding": null,
+        "source": "https://admissions.unh.edu/apply/international-students",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://admissions.unh.edu/apply/international-students",
+          "verified": "2026-10-31",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      },
+      {
+        "name": "Required documents — Early Action",
+        "kind": "documents",
+        "date": "12 December",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "binding": null,
+        "source": "https://admissions.unh.edu/apply/international-students",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://admissions.unh.edu/apply/international-students",
+          "verified": "2026-10-31",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "date": "1 February",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "binding": null,
+        "source": "https://admissions.unh.edu/apply/international-students",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://admissions.unh.edu/apply/international-students",
+          "verified": "2026-10-31",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      }
+    ],
+    "applicationFee": {
+      "amount": 65,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Non-resident application fee. A Common App waiver can be requested; approval is not automatic.",
+      "source": "https://admissions.unh.edu/apply/international-students",
+      "verified": "2026-10-31"
+    },
+    "documents": [
+      "School transcripts with English translation; unofficial records may complete the application, official copies after confirmation by the yearless June 30 date. One recommendation. Exact Uzbek qualification remains unconfirmed."
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": [
+      "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
+    ]
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "Official English minima; the source describes TOEFL versions around January 2026 without an exact day. Waivers are reviewed case by case. TOEFL Essentials is a separate test, not an iBT scale."
+    },
+    "toefl": {
+      "min": 87,
+      "recommended": null,
+      "note": "Official English minima; the source describes TOEFL versions around January 2026 without an exact day. Waivers are reviewed case by case. TOEFL Essentials is a separate test, not an iBT scale.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 87,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 120,
+      "recommended": null,
+      "note": "Official English minima; the source describes TOEFL versions around January 2026 without an exact day. Waivers are reviewed case by case. TOEFL Essentials is a separate test, not an iBT scale."
+    },
+    "waiver": null,
+    "note": "Official English minima; the source describes TOEFL versions around January 2026 without an exact day. Waivers are reviewed case by case. TOEFL Essentials is a separate test, not an iBT scale.",
+    "detailsSource": "https://admissions.unh.edu/apply/international-students",
+    "detailsVerified": "2026-10-31"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "SAT/ACT optional, highest sections considered, no numerical test cut-offs. Published admitted-student averages SAT 1175/ACT 25 have no named cohort and are not minima.",
+      "source": "https://admissions.unh.edu/apply/international-students",
+      "verified": "2026-10-31"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "SAT/ACT optional, highest sections considered, no numerical test cut-offs. Published admitted-student averages SAT 1175/ACT 25 have no named cohort and are not minima.",
+      "source": "https://admissions.unh.edu/apply/international-students",
+      "verified": "2026-10-31"
+    },
+    "otherTests": null,
+    "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
+  },
+  "costs": {
+    "breakdown": null,
+    "academicYear": null,
+    "currency": "USD",
+    "headline": null,
+    "items": [],
+    "billedSubtotal": null,
+    "totalText": null,
+    "note": null
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": null
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Official university page",
+      "url": "https://admissions.unh.edu/apply/international-students"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.unh.edu/program/bachelor-science/computer-science"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "Named bachelor programme and available official admission instructions."
+    ],
+    "unconfirmed": [
+      "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
+      "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+      "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
+    ]
+  },
+  "lastVerified": "2026-10-31",
+  "aliases": [
+    "UNH Durham"
+  ],
+  "programsBasis": "evidence",
+  "programsStatus": "partial",
+  "programEvidence": {
+    "computer-science": {
+      "program": "Computer Science, B.S.",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Durham",
+      "url": "https://www.unh.edu/program/bachelor-science/computer-science",
+      "checked": "2026-10-31"
+    }
+  }
+},
+
+{
+  "id": "university-of-tennessee-knoxville",
+  "name": "University of Tennessee, Knoxville",
+  "shortName": "University of Tennessee, Knoxville",
+  "country": "us",
+  "city": "Knoxville",
+  "region": "Tennessee",
+  "founded": 1794,
+  "type": "public",
+  "institutionKind": "university",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#7a3b12",
+    "c2": "#3d1d09",
+    "initials": "TK"
+  },
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open.",
+  "englishTaught": null,
+  "languageOfInstruction": null,
+  "programs": [
+    "computer-science"
+  ],
+  "englishTaughtPrograms": [],
+  "programNote": "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+  "links": {
+    "website": "https://www.utk.edu/",
+    "admissions": "https://admissions.utk.edu/undergraduate-application/international-students/",
+    "internationalAdmissions": "https://admissions.utk.edu/undergraduate-application/international-students/",
+    "applicationPortal": null,
+    "scholarships": null,
+    "financialAid": null,
+    "programs": "https://eecs.utk.edu/undergraduate/computer-science/",
+    "cost": null
+  },
+  "admissions": {
+    "platforms": [],
+    "deadlines": [
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "date": "1 November",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "binding": null,
+        "source": "https://admissions.utk.edu/undergraduate-application/international-students/",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://admissions.utk.edu/undergraduate-application/international-students/",
+          "verified": "2026-10-31",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      },
+      {
+        "name": "Required documents — Early Action",
+        "kind": "documents",
+        "date": "15 November",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "binding": null,
+        "source": "https://admissions.utk.edu/undergraduate-application/international-students/",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://admissions.utk.edu/undergraduate-application/international-students/",
+          "verified": "2026-10-31",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "date": "5 January",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "binding": null,
+        "source": "https://admissions.utk.edu/undergraduate-application/international-students/",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://admissions.utk.edu/undergraduate-application/international-students/",
+          "verified": "2026-10-31",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      },
+      {
+        "name": "Required documents — Regular Decision",
+        "kind": "documents",
+        "date": "20 January",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "binding": null,
+        "source": "https://admissions.utk.edu/undergraduate-application/international-students/",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://admissions.utk.edu/undergraduate-application/international-students/",
+          "verified": "2026-10-31",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      }
+    ],
+    "applicationFee": {
+      "amount": 75,
+      "currency": "USD",
+      "waiverAvailableToInternational": false,
+      "waiver": null,
+      "note": "Non-refundable international fee; international applicants cannot receive a waiver.",
+      "source": "https://admissions.utk.edu/undergraduate-application/international-students/",
+      "verified": "2026-10-31"
+    },
+    "documents": [
+      "Official school/ministry records with certified literal English translation. STARS is required for US-school applicants; applicants schooled outside the US do not complete it. Nursing and Architecture use Early Action dates."
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": [
+      "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
+    ]
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "Published direct-admission thresholds. DET, Cambridge and PTE are accepted for admission but not placement: ELI 110 or EPE is required for placement. SAT Reading/Writing 540 and ACT English 21 are language alternatives, not composite cut-offs. Conditional ELI is separate."
+    },
+    "toefl": {
+      "min": 79,
+      "recommended": null,
+      "note": "Published direct-admission thresholds. DET, Cambridge and PTE are accepted for admission but not placement: ELI 110 or EPE is required for placement. SAT Reading/Writing 540 and ACT English 21 are language alternatives, not composite cut-offs. Conditional ELI is separate.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 79,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.0,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 110,
+      "recommended": null,
+      "note": "Published direct-admission thresholds. DET, Cambridge and PTE are accepted for admission but not placement: ELI 110 or EPE is required for placement. SAT Reading/Writing 540 and ACT English 21 are language alternatives, not composite cut-offs. Conditional ELI is separate."
+    },
+    "waiver": null,
+    "note": "Published direct-admission thresholds. DET, Cambridge and PTE are accepted for admission but not placement: ELI 110 or EPE is required for placement. SAT Reading/Writing 540 and ACT English 21 are language alternatives, not composite cut-offs. Conditional ELI is separate.",
+    "detailsSource": "https://admissions.utk.edu/undergraduate-application/international-students/",
+    "detailsVerified": "2026-10-31"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "conditional",
+      "note": "SAT/ACT are explicitly required by Architecture/Design, Nursing, Music and Engineering, including Computer Science. The remaining routes need separate policy review; do not infer a universal optional policy. Conditional English-route mathematics thresholds are not general composite admission minima.",
+      "source": "https://admissions.utk.edu/undergraduate-application/international-students/",
+      "verified": "2026-10-31",
+      "label": "Required for named colleges, including CS"
+    },
+    "act": {
+      "policy": "conditional",
+      "note": "SAT/ACT are explicitly required by Architecture/Design, Nursing, Music and Engineering, including Computer Science. The remaining routes need separate policy review; do not infer a universal optional policy. Conditional English-route mathematics thresholds are not general composite admission minima.",
+      "source": "https://admissions.utk.edu/undergraduate-application/international-students/",
+      "verified": "2026-10-31",
+      "label": "Required for named colleges, including CS"
+    },
+    "otherTests": null,
+    "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
+  },
+  "costs": {
+    "breakdown": null,
+    "academicYear": null,
+    "currency": "USD",
+    "headline": null,
+    "items": [],
+    "billedSubtotal": null,
+    "totalText": null,
+    "note": null
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": null
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Official university page",
+      "url": "https://admissions.utk.edu/undergraduate-application/international-students/"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://eecs.utk.edu/undergraduate/computer-science/"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "Named bachelor programme and available official admission instructions."
+    ],
+    "unconfirmed": [
+      "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
+      "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+      "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
+    ]
+  },
+  "lastVerified": "2026-10-31",
+  "aliases": [
+    "UT Knoxville",
+    "University of Tennessee-Knoxville"
+  ],
+  "programsBasis": "evidence",
+  "programsStatus": "partial",
+  "programEvidence": {
+    "computer-science": {
+      "program": "Computer Science, B.S.",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Knoxville",
+      "url": "https://eecs.utk.edu/undergraduate/computer-science/",
+      "checked": "2026-10-31"
+    }
+  }
+},
+
+{
+  "id": "wake-forest-university",
+  "name": "Wake Forest University",
+  "shortName": "Wake Forest University",
+  "country": "us",
+  "city": "Winston-Salem",
+  "region": "North Carolina",
+  "founded": null,
+  "type": null,
+  "institutionKind": "university",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#1f3a5f",
+    "c2": "#0f1f33",
+    "initials": "WF"
+  },
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open.",
+  "englishTaught": null,
+  "languageOfInstruction": null,
+  "programs": [
+    "computer-science"
+  ],
+  "englishTaughtPrograms": [],
+  "programNote": "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+  "links": {
+    "website": "https://www.wfu.edu/",
+    "admissions": "https://admissions.wfu.edu/become-a-deacon/international/",
+    "internationalAdmissions": "https://admissions.wfu.edu/become-a-deacon/international/",
+    "applicationPortal": null,
+    "scholarships": null,
+    "financialAid": null,
+    "programs": "https://admissions.wfu.edu/academics/majors-minors/computer-science/",
+    "cost": null
+  },
+  "admissions": {
+    "platforms": [],
+    "deadlines": [
+      {
+        "name": "Early Decision I",
+        "kind": "ED",
+        "date": "15 November",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "binding": true,
+        "source": "https://admissions.wfu.edu/become-a-deacon/international/",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://admissions.wfu.edu/become-a-deacon/international/",
+          "verified": "2026-10-31",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      },
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "date": "15 November",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "binding": null,
+        "source": "https://admissions.wfu.edu/become-a-deacon/international/",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": "Only first-generation college applicants meeting Wake Forest’s stated parent/guardian education criteria. The entry year remains unconfirmed.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://admissions.wfu.edu/become-a-deacon/international/",
+          "verified": "2026-10-31",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      },
+      {
+        "name": "Early Decision II",
+        "kind": "ED",
+        "date": "1 January",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "binding": true,
+        "source": "https://admissions.wfu.edu/become-a-deacon/international/",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://admissions.wfu.edu/become-a-deacon/international/",
+          "verified": "2026-10-31",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "date": "1 January",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "binding": null,
+        "source": "https://admissions.wfu.edu/become-a-deacon/international/",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://admissions.wfu.edu/become-a-deacon/international/",
+          "verified": "2026-10-31",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      }
+    ],
+    "applicationFee": {
+      "amount": 85,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Application fee; applicants may request a waiver on the application.",
+      "source": "https://admissions.wfu.edu/become-a-deacon/international/",
+      "verified": "2026-10-31"
+    },
+    "documents": [],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": [
+      "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
+    ]
+  },
+  "english": {
+    "ielts": {
+      "min": null,
+      "recommended": null,
+      "note": "IELTS, TOEFL and DET are accepted; numerical minimum has not been confirmed. Three years in an English-medium school may qualify for a waiver. The source’s January 1, 2026 TOEFL-change wording is not used to infer a score scale."
+    },
+    "toefl": {
+      "min": null,
+      "recommended": null,
+      "note": "IELTS, TOEFL and DET are accepted; numerical minimum has not been confirmed. Three years in an English-medium school may qualify for a waiver. The source’s January 1, 2026 TOEFL-change wording is not used to infer a score scale."
+    },
+    "duolingo": {
+      "min": null,
+      "recommended": null,
+      "note": "IELTS, TOEFL and DET are accepted; numerical minimum has not been confirmed. Three years in an English-medium school may qualify for a waiver. The source’s January 1, 2026 TOEFL-change wording is not used to infer a score scale."
+    },
+    "waiver": null,
+    "note": "IELTS, TOEFL and DET are accepted; numerical minimum has not been confirmed. Three years in an English-medium school may qualify for a waiver. The source’s January 1, 2026 TOEFL-change wording is not used to infer a score scale.",
+    "detailsSource": "https://admissions.wfu.edu/become-a-deacon/international/",
+    "detailsVerified": "2026-10-31"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "SAT/ACT optional, self-report allowed, superscoring for admission tests. This does not waive English-proficiency evidence; English exams are not superscored.",
+      "source": "https://admissions.wfu.edu/become-a-deacon/international/",
+      "verified": "2026-10-31"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "SAT/ACT optional, self-report allowed, superscoring for admission tests. This does not waive English-proficiency evidence; English exams are not superscored.",
+      "source": "https://admissions.wfu.edu/become-a-deacon/international/",
+      "verified": "2026-10-31"
+    },
+    "otherTests": null,
+    "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
+  },
+  "costs": {
+    "breakdown": null,
+    "academicYear": null,
+    "currency": "USD",
+    "headline": null,
+    "items": [],
+    "billedSubtotal": null,
+    "totalText": null,
+    "note": null
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "International first-years can compete for Carswell, Gordon, Reynolds and Stamps full-cost awards through the admission application. Exact coverage, renewal, stacking and the largest eligible award require further verification. Foreign nationals do not receive need-based aid."
+    },
+    "merit": [],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": null
+    },
+    "needBasedAidForIntl": false
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Official university page",
+      "url": "https://admissions.wfu.edu/become-a-deacon/international/"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://admissions.wfu.edu/academics/majors-minors/computer-science/"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "Named bachelor programme and available official admission instructions."
+    ],
+    "unconfirmed": [
+      "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
+      "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+      "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
+    ]
+  },
+  "lastVerified": "2026-10-31",
+  "aliases": [],
+  "programsBasis": "evidence",
+  "programsStatus": "partial",
+  "programEvidence": {
+    "computer-science": {
+      "program": "Computer Science, B.A./B.S.",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Winston-Salem",
+      "url": "https://admissions.wfu.edu/academics/majors-minors/computer-science/",
+      "checked": "2026-10-31"
+    }
+  }
+},
+
+{
+  "id": "george-washington-university",
+  "name": "George Washington University",
+  "shortName": "George Washington University",
+  "country": "us",
+  "city": "Washington, D.C.",
+  "region": "District of Columbia",
+  "founded": null,
+  "type": null,
+  "institutionKind": "university",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#1f3a5f",
+    "c2": "#0f1f33",
+    "initials": "GW"
+  },
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open.",
+  "englishTaught": null,
+  "languageOfInstruction": null,
+  "programs": [
+    "computer-science"
+  ],
+  "englishTaughtPrograms": [],
+  "programNote": "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+  "links": {
+    "website": "https://www.gwu.edu/",
+    "admissions": "https://undergraduate.admissions.gwu.edu/apply/international-applicants",
+    "internationalAdmissions": "https://undergraduate.admissions.gwu.edu/apply/international-applicants",
+    "applicationPortal": null,
+    "scholarships": null,
+    "financialAid": null,
+    "programs": "https://cs.engineering.gwu.edu/bachelor-science-program",
+    "cost": null
+  },
+  "admissions": {
+    "platforms": [],
+    "deadlines": [
+      {
+        "name": "Early Decision I",
+        "kind": "ED",
+        "date": "1 November",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "binding": true,
+        "source": "https://undergraduate.admissions.gwu.edu/apply/international-applicants",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://undergraduate.admissions.gwu.edu/apply/international-applicants",
+          "verified": "2026-10-31",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      },
+      {
+        "name": "Early Decision II",
+        "kind": "ED",
+        "date": "5 January",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "binding": true,
+        "source": "https://undergraduate.admissions.gwu.edu/apply/international-applicants",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://undergraduate.admissions.gwu.edu/apply/international-applicants",
+          "verified": "2026-10-31",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "date": "5 January",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "binding": null,
+        "source": "https://undergraduate.admissions.gwu.edu/apply/international-applicants",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://undergraduate.admissions.gwu.edu/apply/international-applicants",
+          "verified": "2026-10-31",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      }
+    ],
+    "applicationFee": {
+      "amount": 80,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Non-refundable application fee.",
+      "source": "https://undergraduate.admissions.gwu.edu/apply/international-applicants",
+      "verified": "2026-10-31"
+    },
+    "documents": [],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": [
+      "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
+    ]
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "IELTS 6.5, new TOEFL 4.5 and DET 120 published. Old TOEFL 90 is printed with a January 26, 2026 cutoff inconsistent with the January 21 scale change; the old numeric minimum is not installed under a silently corrected date. EAP may be required after review."
+    },
+    "toefl": {
+      "min": null,
+      "recommended": null,
+      "note": "IELTS 6.5, new TOEFL 4.5 and DET 120 published. Old TOEFL 90 is printed with a January 26, 2026 cutoff inconsistent with the January 21 scale change; the old numeric minimum is not installed under a silently corrected date. EAP may be required after review.",
+      "scales": [
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 120,
+      "recommended": null,
+      "note": "IELTS 6.5, new TOEFL 4.5 and DET 120 published. Old TOEFL 90 is printed with a January 26, 2026 cutoff inconsistent with the January 21 scale change; the old numeric minimum is not installed under a silently corrected date. EAP may be required after review."
+    },
+    "waiver": null,
+    "note": "IELTS 6.5, new TOEFL 4.5 and DET 120 published. Old TOEFL 90 is printed with a January 26, 2026 cutoff inconsistent with the January 21 scale change; the old numeric minimum is not installed under a silently corrected date. EAP may be required after review.",
+    "detailsSource": "https://undergraduate.admissions.gwu.edu/apply/international-applicants",
+    "detailsVerified": "2026-10-31"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "conditional",
+      "note": "Optional except BA/BS-MD, homeschool and narrative-only secondary-school evaluations. ACT Science required for BA/BS-MD. Otherwise optional also for international applicants and merit scholarships.",
+      "source": "https://undergraduate.admissions.gwu.edu/apply/test-optional",
+      "verified": "2026-10-31",
+      "label": "Optional with programme and school exceptions"
+    },
+    "act": {
+      "policy": "conditional",
+      "note": "Optional except BA/BS-MD, homeschool and narrative-only secondary-school evaluations. ACT Science required for BA/BS-MD. Otherwise optional also for international applicants and merit scholarships.",
+      "source": "https://undergraduate.admissions.gwu.edu/apply/test-optional",
+      "verified": "2026-10-31",
+      "label": "Optional with programme and school exceptions"
+    },
+    "otherTests": null,
+    "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
+  },
+  "costs": {
+    "breakdown": null,
+    "academicYear": null,
+    "currency": "USD",
+    "headline": null,
+    "items": [],
+    "billedSubtotal": null,
+    "totalText": null,
+    "note": null
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": null
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Official university page",
+      "url": "https://undergraduate.admissions.gwu.edu/apply/international-applicants"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://undergraduate.admissions.gwu.edu/apply/test-optional"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://cs.engineering.gwu.edu/bachelor-science-program"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "Named bachelor programme and available official admission instructions."
+    ],
+    "unconfirmed": [
+      "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
+      "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+      "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
+    ]
+  },
+  "lastVerified": "2026-10-31",
+  "aliases": [
+    "The George Washington University"
+  ],
+  "programsBasis": "evidence",
+  "programsStatus": "partial",
+  "programEvidence": {
+    "computer-science": {
+      "program": "Computer Science, B.S.",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Washington, D.C.",
+      "url": "https://cs.engineering.gwu.edu/bachelor-science-program",
+      "checked": "2026-10-31"
+    }
+  }
+},
+
+{
+  "id": "stevens-institute-of-technology",
+  "name": "Stevens Institute of Technology",
+  "shortName": "Stevens Institute of Technology",
+  "country": "us",
+  "city": "Hoboken",
+  "region": "New Jersey",
+  "founded": null,
+  "type": null,
+  "institutionKind": "university",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#7a3b12",
+    "c2": "#3d1d09",
+    "initials": "SIT"
+  },
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open.",
+  "englishTaught": null,
+  "languageOfInstruction": null,
+  "programs": [
+    "computer-science"
+  ],
+  "englishTaughtPrograms": [],
+  "programNote": "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+  "links": {
+    "website": "https://www.stevens.edu/",
+    "admissions": "https://www.stevens.edu/admission-aid/undergraduate-admissions/first-year-students",
+    "internationalAdmissions": "https://www.stevens.edu/admission-aid/undergraduate-admissions/first-year-students",
+    "applicationPortal": null,
+    "scholarships": null,
+    "financialAid": null,
+    "programs": "https://www.stevens.edu/program/computer-science-bachelor-degree",
+    "cost": null
+  },
+  "admissions": {
+    "platforms": [],
+    "deadlines": [
+      {
+        "name": "Early Decision I",
+        "kind": "ED",
+        "date": "15 November",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "binding": true,
+        "source": "https://www.stevens.edu/admission-aid/undergraduate-admissions/admissions-timeline",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.stevens.edu/admission-aid/undergraduate-admissions/admissions-timeline",
+          "verified": "2026-10-31",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      },
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "date": "1 December",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "binding": false,
+        "source": "https://www.stevens.edu/admission-aid/undergraduate-admissions/admissions-timeline",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.stevens.edu/admission-aid/undergraduate-admissions/admissions-timeline",
+          "verified": "2026-10-31",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      },
+      {
+        "name": "Early Decision II",
+        "kind": "ED",
+        "date": "5 January",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "binding": true,
+        "source": "https://www.stevens.edu/admission-aid/undergraduate-admissions/admissions-timeline",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.stevens.edu/admission-aid/undergraduate-admissions/admissions-timeline",
+          "verified": "2026-10-31",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "date": "5 January",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "binding": false,
+        "source": "https://www.stevens.edu/admission-aid/undergraduate-admissions/admissions-timeline",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.stevens.edu/admission-aid/undergraduate-admissions/admissions-timeline",
+          "verified": "2026-10-31",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      }
+    ],
+    "applicationFee": {
+      "amount": 75,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Published first-year application fee.",
+      "source": "https://www.stevens.edu/admission-aid/undergraduate-admissions/first-year-students",
+      "verified": "2026-10-31"
+    },
+    "documents": [],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": [
+      "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
+    ]
+  },
+  "english": {
+    "ielts": {
+      "min": 6.0,
+      "recommended": null,
+      "note": "Published English minima. SAT EBRW 550 is an English-proof alternative, not composite minimum. Waivers after three years in US schools are case by case. Two recommendations, essay and official records from the institution are required."
+    },
+    "toefl": {
+      "min": 80,
+      "recommended": null,
+      "note": "Published English minima. SAT EBRW 550 is an English-proof alternative, not composite minimum. Waivers after three years in US schools are case by case. Two recommendations, essay and official records from the institution are required.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 80,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.0,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 105,
+      "recommended": null,
+      "note": "Published English minima. SAT EBRW 550 is an English-proof alternative, not composite minimum. Waivers after three years in US schools are case by case. Two recommendations, essay and official records from the institution are required."
+    },
+    "waiver": null,
+    "note": "Published English minima. SAT EBRW 550 is an English-proof alternative, not composite minimum. Waivers after three years in US schools are case by case. Two recommendations, essay and official records from the institution are required.",
+    "detailsSource": "https://www.stevens.edu/admission-aid/undergraduate-admissions/first-year-students",
+    "detailsVerified": "2026-10-31"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "conditional",
+      "note": "Test-optional through Fall 2029 except accelerated Pre-Medicine and Pre-Law. Pre-Medicine SAT 1400/ACT 32 with science in one sitting is programme-specific; it is not a university-wide minimum. The published general SAT range has no established percentile/cohort.",
+      "cycle": "Through Fall 2029",
+      "source": "https://www.stevens.edu/admission-aid/undergraduate-admissions/first-year-students",
+      "verified": "2026-10-31",
+      "label": "Optional except accelerated Pre-Medicine / Pre-Law"
+    },
+    "act": {
+      "policy": "conditional",
+      "note": "Test-optional through Fall 2029 except accelerated Pre-Medicine and Pre-Law. Pre-Medicine SAT 1400/ACT 32 with science in one sitting is programme-specific; it is not a university-wide minimum. The published general SAT range has no established percentile/cohort.",
+      "cycle": "Through Fall 2029",
+      "source": "https://www.stevens.edu/admission-aid/undergraduate-admissions/first-year-students",
+      "verified": "2026-10-31",
+      "label": "Optional except accelerated Pre-Medicine / Pre-Law"
+    },
+    "otherTests": null,
+    "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
+  },
+  "costs": {
+    "breakdown": null,
+    "academicYear": null,
+    "currency": "USD",
+    "headline": null,
+    "items": [],
+    "billedSubtotal": null,
+    "totalText": null,
+    "note": null
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": null
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Official university page",
+      "url": "https://www.stevens.edu/admission-aid/undergraduate-admissions/first-year-students"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.stevens.edu/admission-aid/undergraduate-admissions/admissions-timeline"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.stevens.edu/program/computer-science-bachelor-degree"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "Named bachelor programme and available official admission instructions."
+    ],
+    "unconfirmed": [
+      "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
+      "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+      "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
+    ]
+  },
+  "lastVerified": "2026-10-31",
+  "aliases": [],
+  "programsBasis": "evidence",
+  "programsStatus": "partial",
+  "programEvidence": {
+    "computer-science": {
+      "program": "Computer Science, B.S. (on campus)",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Hoboken",
+      "url": "https://www.stevens.edu/program/computer-science-bachelor-degree",
+      "checked": "2026-10-31"
+    }
+  }
+},
+
+{
+  "id": "baylor-university",
+  "name": "Baylor University",
+  "shortName": "Baylor University",
+  "country": "us",
+  "city": "Waco",
+  "region": "Texas",
+  "founded": null,
+  "type": null,
+  "institutionKind": "university",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#7a3b12",
+    "c2": "#3d1d09",
+    "initials": "B"
+  },
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open.",
+  "englishTaught": null,
+  "languageOfInstruction": null,
+  "programs": [
+    "computer-science"
+  ],
+  "englishTaughtPrograms": [],
+  "programNote": "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+  "links": {
+    "website": "https://www.baylor.edu/",
+    "admissions": "https://admissions.web.baylor.edu/admission/international/application-process-international-students",
+    "internationalAdmissions": "https://admissions.web.baylor.edu/admission/international/application-process-international-students",
+    "applicationPortal": null,
+    "scholarships": null,
+    "financialAid": null,
+    "programs": "https://www.ecs.baylor.edu/prospective-undergraduate-students/undergraduate-degree-programs/bscs-computer-science",
+    "cost": null
+  },
+  "admissions": {
+    "platforms": [],
+    "deadlines": [
+      {
+        "name": "Early Decision",
+        "kind": "ED",
+        "date": "1 November",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "binding": true,
+        "source": "https://admissions.web.baylor.edu/admission/international/application-process-international-students",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://admissions.web.baylor.edu/admission/international/application-process-international-students",
+          "verified": "2026-10-31",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      },
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "date": "1 November",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "binding": false,
+        "source": "https://admissions.web.baylor.edu/admission/international/application-process-international-students",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://admissions.web.baylor.edu/admission/international/application-process-international-students",
+          "verified": "2026-10-31",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "date": "1 February",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "binding": false,
+        "source": "https://admissions.web.baylor.edu/admission/international/application-process-international-students",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://admissions.web.baylor.edu/admission/international/application-process-international-students",
+          "verified": "2026-10-31",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      }
+    ],
+    "applicationFee": {
+      "amount": 0,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Verified free application via Common App or Baylor Online Application; Baylor is not on ApplyTexas.",
+      "source": "https://admissions.web.baylor.edu/ApplyTexas",
+      "verified": "2026-10-31"
+    },
+    "documents": [],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": [
+      "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
+    ]
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "Published English thresholds; TOEFL Home Edition/MyBest and IELTS Indicator accepted. SAT EBRW 520/ACT English 20 are English alternatives. Individual holistic consideration below published thresholds is possible. ECE/WES evaluation is optional; original school records and literal English translation remain required."
+    },
+    "toefl": {
+      "min": 80,
+      "recommended": null,
+      "note": "Published English thresholds; TOEFL Home Edition/MyBest and IELTS Indicator accepted. SAT EBRW 520/ACT English 20 are English alternatives. Individual holistic consideration below published thresholds is possible. ECE/WES evaluation is optional; original school records and literal English translation remain required.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 80,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.0,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 110,
+      "recommended": null,
+      "note": "Published English thresholds; TOEFL Home Edition/MyBest and IELTS Indicator accepted. SAT EBRW 520/ACT English 20 are English alternatives. Individual holistic consideration below published thresholds is possible. ECE/WES evaluation is optional; original school records and literal English translation remain required."
+    },
+    "waiver": null,
+    "note": "Published English thresholds; TOEFL Home Edition/MyBest and IELTS Indicator accepted. SAT EBRW 520/ACT English 20 are English alternatives. Individual holistic consideration below published thresholds is possible. ECE/WES evaluation is optional; original school records and literal English translation remain required.",
+    "detailsSource": "https://admissions.web.baylor.edu/admission/international/application-process-international-students",
+    "detailsVerified": "2026-10-31"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "SAT/ACT optional; international non-submitters may choose an interview. English-proof section scores are separate from admission testing.",
+      "source": "https://admissions.web.baylor.edu/admission/international/application-process-international-students",
+      "verified": "2026-10-31"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "SAT/ACT optional; international non-submitters may choose an interview. English-proof section scores are separate from admission testing.",
+      "source": "https://admissions.web.baylor.edu/admission/international/application-process-international-students",
+      "verified": "2026-10-31"
+    },
+    "otherTests": null,
+    "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
+  },
+  "costs": {
+    "breakdown": null,
+    "academicYear": null,
+    "currency": "USD",
+    "headline": null,
+    "items": [],
+    "billedSubtotal": null,
+    "totalText": null,
+    "note": null
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "Beginning Fall 2027, international need-based aid consideration uses BIFAA; it does not guarantee an award and is not required for merit. Official sources conflict on priority November 1 versus November 15, including two sections on one page. Final February 1 is consistent; no single priority deadline is presented as confirmed. Largest award/renewal remains unverified."
+    },
+    "merit": [],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": null
+    },
+    "needBasedAidForIntl": true
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Official university page",
+      "url": "https://admissions.web.baylor.edu/admission/international/application-process-international-students"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://admissions.web.baylor.edu/ApplyTexas"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://admissions.web.baylor.edu/costs-aid/scholarships-aid"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://admissions.web.baylor.edu/admission/international/application-process/secondary-credential-requirements-region"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.ecs.baylor.edu/prospective-undergraduate-students/undergraduate-degree-programs/bscs-computer-science"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "Named bachelor programme and available official admission instructions."
+    ],
+    "unconfirmed": [
+      "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
+      "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+      "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
+    ]
+  },
+  "lastVerified": "2026-10-31",
+  "aliases": [],
+  "programsBasis": "evidence",
+  "programsStatus": "partial",
+  "programEvidence": {
+    "computer-science": {
+      "program": "Computer Science, B.S.C.S.",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Waco",
+      "url": "https://www.ecs.baylor.edu/prospective-undergraduate-students/undergraduate-degree-programs/bscs-computer-science",
+      "checked": "2026-10-31"
+    }
+  }
+},
+
+{
+  "id": "marquette-university",
+  "name": "Marquette University",
+  "shortName": "Marquette University",
+  "country": "us",
+  "city": "Milwaukee",
+  "region": "Wisconsin",
+  "founded": null,
+  "type": null,
+  "institutionKind": "university",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#0b4f6c",
+    "c2": "#062b3b",
+    "initials": "M"
+  },
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open.",
+  "englishTaught": null,
+  "languageOfInstruction": null,
+  "programs": [
+    "computer-science"
+  ],
+  "englishTaughtPrograms": [],
+  "programNote": "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+  "links": {
+    "website": "https://www.marquette.edu/",
+    "admissions": "https://www.marquette.edu/oie/prospective-students/application-materials.php",
+    "internationalAdmissions": "https://www.marquette.edu/oie/prospective-students/application-materials.php",
+    "applicationPortal": null,
+    "scholarships": null,
+    "financialAid": null,
+    "programs": "https://bulletin.marquette.edu/arts-sciences/computer-science/computer-science-bs/",
+    "cost": null
+  },
+  "admissions": {
+    "platforms": [],
+    "deadlines": [
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "date": "15 November",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "binding": null,
+        "source": "https://www.marquette.edu/oie/prospective-students/application-process.php",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.marquette.edu/oie/prospective-students/application-process.php",
+          "verified": "2026-10-31",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "date": "1 February",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "binding": null,
+        "source": "https://www.marquette.edu/oie/prospective-students/application-process.php",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.marquette.edu/oie/prospective-students/application-process.php",
+          "verified": "2026-10-31",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null
+    },
+    "documents": [],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": [
+      "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
+    ]
+  },
+  "english": {
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": "IELTS at least 6.5 IN EACH SECTION. Old TOEFL 86 with every section20; new total4.5. DET120 total and subscore115 PREFERRED, not a hard minimum. Credential evaluation is in the college/university-study section, not a universal school-only first-year requirement.",
+      "sections": {
+        "listening": 6.5,
+        "reading": 6.5,
+        "writing": 6.5,
+        "speaking": 6.5
+      }
+    },
+    "toefl": {
+      "min": 86,
+      "recommended": null,
+      "note": "IELTS at least 6.5 IN EACH SECTION. Old TOEFL 86 with every section20; new total4.5. DET120 total and subscore115 PREFERRED, not a hard minimum. Credential evaluation is in the college/university-study section, not a universal school-only first-year requirement.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 86,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4.5,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 120,
+      "recommended": null,
+      "note": "IELTS at least 6.5 IN EACH SECTION. Old TOEFL 86 with every section20; new total4.5. DET120 total and subscore115 PREFERRED, not a hard minimum. Credential evaluation is in the college/university-study section, not a universal school-only first-year requirement."
+    },
+    "waiver": null,
+    "note": "IELTS at least 6.5 IN EACH SECTION. Old TOEFL 86 with every section20; new total4.5. DET120 total and subscore115 PREFERRED, not a hard minimum. Credential evaluation is in the college/university-study section, not a universal school-only first-year requirement.",
+    "detailsSource": "https://www.marquette.edu/oie/prospective-students/application-materials.php",
+    "detailsVerified": "2026-10-31"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "SAT/ACT optional. SAT English 560 and ACT English 24/Reading 20 are language-proof alternatives, not composite admission minima.",
+      "source": "https://www.marquette.edu/oie/prospective-students/application-materials.php",
+      "verified": "2026-10-31"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "SAT/ACT optional. SAT English 560 and ACT English 24/Reading 20 are language-proof alternatives, not composite admission minima.",
+      "source": "https://www.marquette.edu/oie/prospective-students/application-materials.php",
+      "verified": "2026-10-31"
+    },
+    "otherTests": null,
+    "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
+  },
+  "costs": {
+    "breakdown": null,
+    "academicYear": null,
+    "currency": "USD",
+    "headline": null,
+    "items": [],
+    "billedSubtotal": null,
+    "totalText": null,
+    "note": null
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": null
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Official university page",
+      "url": "https://www.marquette.edu/oie/prospective-students/application-materials.php"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.marquette.edu/oie/prospective-students/application-process.php"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://bulletin.marquette.edu/arts-sciences/computer-science/computer-science-bs/"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "Named bachelor programme and available official admission instructions."
+    ],
+    "unconfirmed": [
+      "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
+      "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+      "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
+    ]
+  },
+  "lastVerified": "2026-10-31",
+  "aliases": [],
+  "programsBasis": "evidence",
+  "programsStatus": "partial",
+  "programEvidence": {
+    "computer-science": {
+      "program": "Computer Science, B.S.",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Milwaukee",
+      "url": "https://bulletin.marquette.edu/arts-sciences/computer-science/computer-science-bs/",
+      "checked": "2026-10-31"
+    }
+  }
+},
+
+{
+  "id": "yeshiva-university",
+  "name": "Yeshiva University",
+  "shortName": "Yeshiva University",
+  "country": "us",
+  "city": "New York",
+  "region": "New York",
+  "founded": null,
+  "type": null,
+  "institutionKind": "university",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#1f3a5f",
+    "c2": "#0f1f33",
+    "initials": "Y"
+  },
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open.",
+  "englishTaught": null,
+  "languageOfInstruction": null,
+  "programs": [
+    "computer-science"
+  ],
+  "englishTaughtPrograms": [],
+  "programNote": "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement. The verified Computer Science BS belongs to Yeshiva College for Men. Stern College for Women and its programmes are separate; this degree, campus and conditions are not automatically assigned to Stern. Undergraduate Torah/Jewish studies requirements also need programme-specific review.",
+  "links": {
+    "website": "https://www.yu.edu/",
+    "admissions": "https://apply.yu.edu/international",
+    "internationalAdmissions": "https://apply.yu.edu/international",
+    "applicationPortal": null,
+    "scholarships": null,
+    "financialAid": null,
+    "programs": "https://yu.smartcatalogiq.com/en/current/university-catalog/undergraduate-programs/yeshiva-college/copy-of-computer-science-artificial-intelligence-bs",
+    "cost": null
+  },
+  "admissions": {
+    "platforms": [],
+    "deadlines": [
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "date": "1 February 2027",
+        "dateISO": "2027-02-01",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
+        "binding": null,
+        "source": "https://apply.yu.edu/deadlines",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://apply.yu.edu/deadlines",
+          "verified": "2026-10-31",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "quote": "Fall 2027"
+        }
+      },
+      {
+        "name": "Early Decision Honors",
+        "kind": "ED",
+        "date": "2 November 2026",
+        "dateISO": "2026-11-02",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
+        "binding": null,
+        "source": "https://apply.yu.edu/deadlines",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": "Honors route; its binding agreement has not been verified separately. Do not infer the terms from the round name alone.",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://apply.yu.edu/deadlines",
+          "verified": "2026-10-31",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "quote": "Fall 2027"
+        }
+      }
+    ],
+    "applicationFee": {
+      "amount": 65,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Non-refundable application fee.",
+      "source": "https://apply.yu.edu/international",
+      "verified": "2026-10-31"
+    },
+    "documents": [],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": [
+      "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
+    ]
+  },
+  "english": {
+    "ielts": {
+      "min": 7,
+      "recommended": null,
+      "note": "Published IELTS7, TOEFL82 on the old scale and DET115. A new TOEFL1–6 threshold is not printed and is not guessed. If records are not in English or Hebrew, the source calls for certified translation/evaluation by a NACES-approved agency."
+    },
+    "toefl": {
+      "min": 82,
+      "recommended": null,
+      "note": "Published IELTS7, TOEFL82 on the old scale and DET115. A new TOEFL1–6 threshold is not printed and is not guessed. If records are not in English or Hebrew, the source calls for certified translation/evaluation by a NACES-approved agency.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 82,
+          "recommended": null
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 115,
+      "recommended": null,
+      "note": "Published IELTS7, TOEFL82 on the old scale and DET115. A new TOEFL1–6 threshold is not printed and is not guessed. If records are not in English or Hebrew, the source calls for certified translation/evaluation by a NACES-approved agency."
+    },
+    "waiver": null,
+    "note": "Published IELTS7, TOEFL82 on the old scale and DET115. A new TOEFL1–6 threshold is not printed and is not guessed. If records are not in English or Hebrew, the source calls for certified translation/evaluation by a NACES-approved agency.",
+    "detailsSource": "https://apply.yu.edu/international",
+    "detailsVerified": "2026-10-31"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "conditional",
+      "note": "SAT/ACT required only for Honors applicants; optional for others. Official scores are required if submitted. This does not waive English evidence or establish eligibility for every undergraduate college.",
+      "source": "https://apply.yu.edu/international",
+      "verified": "2026-10-31",
+      "label": "Optional except Honors"
+    },
+    "act": {
+      "policy": "conditional",
+      "note": "SAT/ACT required only for Honors applicants; optional for others. Official scores are required if submitted. This does not waive English evidence or establish eligibility for every undergraduate college.",
+      "source": "https://apply.yu.edu/international",
+      "verified": "2026-10-31",
+      "label": "Optional except Honors"
+    },
+    "otherTests": null,
+    "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
+  },
+  "costs": {
+    "breakdown": null,
+    "academicYear": null,
+    "currency": "USD",
+    "headline": null,
+    "items": [],
+    "billedSubtotal": null,
+    "totalText": null,
+    "note": null
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": null
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Official university page",
+      "url": "https://apply.yu.edu/international"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://apply.yu.edu/deadlines"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://apply.yu.edu/info-sessions"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://yu.smartcatalogiq.com/en/current/university-catalog/undergraduate-programs/yeshiva-college/copy-of-computer-science-artificial-intelligence-bs"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "Named bachelor programme and available official admission instructions."
+    ],
+    "unconfirmed": [
+      "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
+      "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+      "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
+    ]
+  },
+  "lastVerified": "2026-10-31",
+  "aliases": [],
+  "programsBasis": "evidence",
+  "programsStatus": "partial",
+  "programEvidence": {
+    "computer-science": {
+      "program": "Computer Science, B.S. — Yeshiva College",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Yeshiva College for Men, New York",
+      "url": "https://yu.smartcatalogiq.com/en/current/university-catalog/undergraduate-programs/yeshiva-college/copy-of-computer-science-artificial-intelligence-bs",
+      "checked": "2026-10-31"
+    }
+  }
+},
+
+{
+  "id": "wabash-college",
+  "name": "Wabash College",
+  "shortName": "Wabash College",
+  "country": "us",
+  "city": "Crawfordsville",
+  "region": "Indiana",
+  "founded": 1832,
+  "type": "private",
+  "institutionKind": "college",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#6b1d4f",
+    "c2": "#360f28",
+    "initials": "W"
+  },
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open.",
+  "englishTaught": null,
+  "languageOfInstruction": null,
+  "programs": [
+    "computer-science"
+  ],
+  "englishTaughtPrograms": [],
+  "programNote": "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+  "links": {
+    "website": "https://www.wabash.edu/",
+    "admissions": "https://www.wabash.edu/admissions/international",
+    "internationalAdmissions": "https://www.wabash.edu/admissions/international",
+    "applicationPortal": null,
+    "scholarships": null,
+    "financialAid": null,
+    "programs": "https://www.wabash.edu/academics/computer_science/",
+    "cost": null
+  },
+  "admissions": {
+    "platforms": [],
+    "deadlines": [
+      {
+        "name": "Early Decision",
+        "kind": "ED",
+        "date": "15 November",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "binding": null,
+        "source": "https://www.wabash.edu/admissions/international",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.wabash.edu/admissions/international",
+          "verified": "2026-10-31",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      },
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "date": "1 December",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "binding": null,
+        "source": "https://www.wabash.edu/admissions/international",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.wabash.edu/admissions/international",
+          "verified": "2026-10-31",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "date": "15 January",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "binding": null,
+        "source": "https://www.wabash.edu/admissions/international",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.wabash.edu/admissions/international",
+          "verified": "2026-10-31",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      }
+    ],
+    "applicationFee": {
+      "amount": 0,
+      "currency": "USD",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Both Wabash Application and Common App are explicitly free for international applicants.",
+      "source": "https://www.wabash.edu/admissions/international",
+      "verified": "2026-10-31"
+    },
+    "documents": [
+      "Official school records from the school, last four years or last three if still enrolled, certified English translation and school report. Recommendation is optional. No self-reported transcripts. Exact Uzbek qualification remains unknown."
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": [
+      "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
+      "The source RECOMMENDS these scores: IELTS6.5, old TOEFL85/new4.5 and DET115; they are not installed as hard admission minima. English evidence must be official; waiver decisions are individual. Wabash is a college for men. USD24,990 required financial declaration is neither gross annual cost nor a guaranteed net price after scholarship."
+    ]
+  },
+  "english": {
+    "ielts": {
+      "min": null,
+      "recommended": 6.5,
+      "note": "The source RECOMMENDS these scores: IELTS6.5, old TOEFL85/new4.5 and DET115; they are not installed as hard admission minima. English evidence must be official; waiver decisions are individual. Wabash is a college for men. USD24,990 required financial declaration is neither gross annual cost nor a guaranteed net price after scholarship.",
+      "recBasis": "University-published recommended English scores"
+    },
+    "toefl": {
+      "min": null,
+      "recommended": 85,
+      "note": "The source RECOMMENDS these scores: IELTS6.5, old TOEFL85/new4.5 and DET115; they are not installed as hard admission minima. English evidence must be official; waiver decisions are individual. Wabash is a college for men. USD24,990 required financial declaration is neither gross annual cost nor a guaranteed net price after scholarship.",
+      "scales": [
+        {
+          "period": "pre2026",
+          "recommended": 85,
+          "min": null
+        },
+        {
+          "period": "post2026",
+          "recommended": 4.5,
+          "min": null
+        }
+      ],
+      "recBasis": "University-published recommended English scores"
+    },
+    "duolingo": {
+      "min": null,
+      "recommended": 115,
+      "note": "The source RECOMMENDS these scores: IELTS6.5, old TOEFL85/new4.5 and DET115; they are not installed as hard admission minima. English evidence must be official; waiver decisions are individual. Wabash is a college for men. USD24,990 required financial declaration is neither gross annual cost nor a guaranteed net price after scholarship.",
+      "recBasis": "University-published recommended English scores"
+    },
+    "waiver": null,
+    "note": "The source RECOMMENDS these scores: IELTS6.5, old TOEFL85/new4.5 and DET115; they are not installed as hard admission minima. English evidence must be official; waiver decisions are individual. Wabash is a college for men. USD24,990 required financial declaration is neither gross annual cost nor a guaranteed net price after scholarship.",
+    "detailsSource": "https://www.wabash.edu/admissions/international",
+    "detailsVerified": "2026-10-31"
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "optional",
+      "note": "SAT/ACT optional also for merit scholarships; superscoring, but self-reported scores are not accepted.",
+      "source": "https://www.wabash.edu/admissions/international",
+      "verified": "2026-10-31"
+    },
+    "act": {
+      "policy": "optional",
+      "note": "SAT/ACT optional also for merit scholarships; superscoring, but self-reported scores are not accepted.",
+      "source": "https://www.wabash.edu/admissions/international",
+      "verified": "2026-10-31"
+    },
+    "otherTests": null,
+    "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
+  },
+  "costs": {
+    "breakdown": null,
+    "academicYear": null,
+    "currency": "USD",
+    "headline": null,
+    "items": [],
+    "billedSubtotal": null,
+    "totalText": null,
+    "note": null
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": null
+    },
+    "merit": [],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": null
+    }
+  },
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  },
+  "sources": [
+    {
+      "label": "Official university page",
+      "url": "https://www.wabash.edu/admissions/international"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.wabash.edu/aboutwabash/"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.wabash.edu/academics/computer_science/"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "Named bachelor programme and available official admission instructions."
+    ],
+    "unconfirmed": [
+      "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
+      "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+      "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
+    ]
+  },
+  "lastVerified": "2026-10-31",
+  "aliases": [],
+  "programsBasis": "evidence",
+  "programsStatus": "partial",
+  "programEvidence": {
+    "computer-science": {
+      "program": "Computer Science, B.A.",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Crawfordsville",
+      "url": "https://www.wabash.edu/academics/computer_science/",
+      "checked": "2026-10-31"
+    }
+  }
 }
 );

@@ -109,4 +109,21 @@ module.exports=function(env){
   ok(cam&&U.ieltsMin(cam)===6.0&&/BS\/DO/.test(U.satLabel(cam))&&/BA\/MD/.test(U.satLabel(nw))&&
      /BA\/BS/.test(cam.programEvidence['computer-science'].program),
      'Rutgers three campuses keep distinct IELTS thresholds, programme-exception labels and degrees');
+  var wab=U.uniById('wabash-college'),bay=U.uniById('baylor-university'),yu=U.uniById('yeshiva-university');
+  ok(wab&&wab.institutionKind==='college'&&U.ieltsMin(wab)===null&&wab.english.ielts.recommended===6.5&&
+     wab.english.toefl.min===null&&!DB.match.annualCost[wab.id]&&budget(wab,24990).status==='unknown'&&
+     /college for men/.test(wab.admissions.notes.join(' ')),
+     'Wabash keeps men-only scope, recommended English and financial declaration separate from admission minima and annual price');
+  ok(bay&&bay.admissions.applicationFee.amount===0&&bay.scholarships.needBasedAidForIntl===true&&
+     /November 1 versus November 15/.test(bay.scholarships.fullRide.note)&&
+     !bay.admissions.deadlines.some(function(d){return d.kind==='aid'&&d.status==='confirmed';}),
+     'verified free Baylor application differs from unknown fee; conflicting BIFAA priority does not become confirmed aid date');
+  ok(yu&&/Honors/.test(U.satLabel(yu))&&/Yeshiva College for Men/.test(yu.programNote)&&
+     /Stern College for Women/.test(yu.programNote)&&yu.english.toefl.scales.every(function(s){return s.period!=='post2026';})&&
+     yu.admissions.deadlines[0].dateISO==='2027-02-01',
+     'Yeshiva preserves college scope, Honors test condition, verified2027 deadline and unknown new TOEFL threshold');
+  var utk=U.uniById('university-of-tennessee-knoxville'),stev=U.uniById('stevens-institute-of-technology');
+  ok(utk&&/including CS/.test(U.satLabel(utk))&&utk.admissions.deadlines.filter(function(d){return d.kind==='documents';}).length===2&&
+     stev&&/Pre-Law/.test(U.satLabel(stev))&&!stev.academics.sat.min&&stev.academics.sat.cycle==='Through Fall 2029',
+     'Tennessee and Stevens retain named programme test exceptions without leaking special minima into general admission');
 };

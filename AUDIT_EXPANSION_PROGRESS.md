@@ -1069,3 +1069,7 @@ Watchdog запускается до DOMContentLoaded и ждёт явный uni
 
 ### v175 — 31 октября 2026: третья десятка США и границы языковых требований
 Только позиции21–30,400 учреждений/США230,142 записи источников.326passed/0failed. UIC170USD/Fall2027, Rutgers три кампуса и исключения, FIU IELTS-not-required против USF-not-accepted, NJIT2026 не перенесён. Исправлены неприменимый IELTS в подборе, конкретная подпись SAT, несуществующие теги Newark и порядок генерации. Фото/стоимость/крупнейшие награды ещё исследуются; main/dev не менялись.
+
+
+### v176 — 31 октября 2026: четвёртая десятка США
+410 учреждений/США240,173 записи источников,330passed/0failed. Разделены Yeshiva/Stern, Wabash men/recommendedEnglish/funding declaration, Tennessee/Stevens/GW programme exceptions. BaylorBIFAA priorityconflict сохранён;0USDfee подтверждён. v175 офлайнChrome288сочетаний/10reload,issues0/errors0. Фото и полная глубина исследования ещё не завершены;main/dev не менялись.

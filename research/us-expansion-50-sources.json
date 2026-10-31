@@ -2620,5 +2620,561 @@
     "access": "403-blocked",
     "quote": null,
     "facts": null
+  },
+  {
+    "id": "university-of-colorado-boulder",
+    "topic": "international-first-year-admission",
+    "source": "https://www.colorado.edu/admissions/process/international/apply",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Boulder",
+    "access": "html-read",
+    "quote": "The 2027 application is now open!",
+    "facts": {
+      "deadlines": "Fall/summer EA November15; RD January15. The heading identifies application2027, but no entry-year appears in the deadline rows; keep annual pending stronger context.",
+      "credentials": "First-year excludes college coursework after school graduation; exact Uzbek route not established."
+    }
+  },
+  {
+    "id": "university-of-colorado-boulder",
+    "topic": "application-checklist",
+    "source": "https://www.colorado.edu/admissions/process/first-year/apply",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Boulder",
+    "access": "html-read",
+    "quote": "$70 for international applicants",
+    "facts": {
+      "fee": 70,
+      "sat": "SAT/ACT optional, self-report allowed.",
+      "documents": "CommonApp, essay/short answer, one recommendation, transcripts initially unofficial; official on enrolment. Music separate audition.",
+      "identity": "Footer describes public research university since1876."
+    }
+  },
+  {
+    "id": "university-of-colorado-boulder",
+    "topic": "english",
+    "source": "https://www.colorado.edu/admissions/process/international/plan/english-proficiency",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Boulder",
+    "access": "html-read",
+    "quote": "TOEFL iBT26 (post January 2026)",
+    "facts": {
+      "ielts": 6.5,
+      "toeflPre": 80,
+      "toeflPost": 4.0,
+      "det": 115,
+      "scope": "Tests within2calendar years. Medium-of-instruction letter alone insufficient; school-country waiver conditions apply. English evidence needed by RD for scholarship consideration; Pathway conditional separate."
+    }
+  },
+  {
+    "id": "university-of-new-hampshire",
+    "topic": "international-first-year-admission",
+    "source": "https://admissions.unh.edu/apply/international-students",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Durham",
+    "access": "html-read",
+    "quote": "There are no cut-offs for standardized test scores",
+    "facts": {
+      "fee": 65,
+      "waiver": "CommonApp request possible, not automatic.",
+      "sat": "Optional; supremum sections; SAT1175/ACT25 admitted averages lack named cohort and are not minima.",
+      "ielts": 6.5,
+      "toeflPre": 87,
+      "toeflPost": 4.5,
+      "det": 120,
+      "documents": "School records+English translations; unofficial initially; official after confirmation by June30. One recommendation. Waivers case-by-case.",
+      "deadlines": "Annual EA Nov15/application and Dec12/supporting documents, RD Feb1. No entry year established.",
+      "uzbekistan": "Exact qualification/grades/subjects/foundation unknown."
+    }
+  },
+  {
+    "id": "university-of-tennessee-knoxville",
+    "topic": "international-first-year-admission",
+    "source": "https://admissions.utk.edu/undergraduate-application/international-students/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Knoxville",
+    "access": "html-read",
+    "quote": "Tickle College of Engineering (Includes Computer Science)",
+    "facts": {
+      "fee": 75,
+      "waiverIntl": false,
+      "sat": "ACT/SAT explicitly required for Architecture/Design, Nursing, Music and Engineering including CS. Remaining-route testing policy needs full review.",
+      "ielts": 6.5,
+      "toeflPre": 79,
+      "toeflPost": 4.0,
+      "det": 110,
+      "scope": "DET/Cambridge/PTE admission not placement: ELI110/EPE needed. Conditional English route separate; its math thresholds not global admission minima.",
+      "documents": "Official school/ministry records and certified literal English translation. STARS required for US-school applicants, not school outsideUS.",
+      "deadlines": "Annual EA appNov1/docsNov15, RD appJan5/docsJan20. Nursing/Architecture useEA. No Fall2027 named.",
+      "identity": "Public, founded1794."
+    }
+  },
+  {
+    "id": "wake-forest-university",
+    "topic": "international-first-year-admission",
+    "source": "https://admissions.wfu.edu/become-a-deacon/international/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Winston-Salem",
+    "access": "html-read",
+    "quote": "Early Action for first-generation college students",
+    "facts": {
+      "fee": 85,
+      "waiver": "Fee waiver request on application.",
+      "sat": "Optional; admission scores superscored. No English-test superscore.",
+      "english": "IELTS/TOEFL/DET accepted; numerical minimum unprinted. English-school3years waiver conditional. Page TOEFL change Jan1,2026 wording not corrected by inference.",
+      "deadlines": "Yearless EDI Nov15 binding, EA Nov15 first-generation only, EDII Jan1 binding, RD Jan1.",
+      "documents": "Atleast4schoolyears certified records and original+Englishtranslation, schoolreport and one recommendation.",
+      "aid": "No need-based aid for foreign nationals; international first-years eligible most merit awards incl Carswell/Gordon/Reynolds/Stamps full-cost competitions. Exact coverage/renewal/largest pending."
+    }
+  },
+  {
+    "id": "george-washington-university",
+    "topic": "international-first-year-admission",
+    "source": "https://undergraduate.admissions.gwu.edu/apply/international-applicants",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Washington, D.C.",
+    "access": "html-read",
+    "quote": "non-refundable $80 application fee",
+    "facts": {
+      "fee": 80,
+      "ielts": 6.5,
+      "toeflPre": 90,
+      "toeflPost": 4.5,
+      "det": 120,
+      "scope": "Source uses Jan26,2026 TOEFL cutoff; discrepancy with established Jan21 noted, old minimum not installed as corrected date.",
+      "deadlines": "Yearless EDI Nov1 binding, EDII/RD Jan5; EDIIbinding.",
+      "documents": "CommonApp/Coalition essay and one counselor/teacher recommendation. Exact Uzbek equivalence unconfirmed."
+    }
+  },
+  {
+    "id": "george-washington-university",
+    "topic": "sat-act",
+    "source": "https://undergraduate.admissions.gwu.edu/apply/test-optional",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Washington, D.C.",
+    "access": "html-read",
+    "quote": "Applicants who are homeschooled",
+    "facts": {
+      "policy": "conditional",
+      "exceptions": "BA/BS-MD (ACT science required), homeschool, schools with narrative evaluations only. Otherwise optional incl international and merit."
+    }
+  },
+  {
+    "id": "stevens-institute-of-technology",
+    "topic": "international-first-year-admission",
+    "source": "https://www.stevens.edu/admission-aid/undergraduate-admissions/first-year-students",
+    "verified": "2026-10-31",
+    "intake": "Through Fall 2029",
+    "category": "international first-year bachelor",
+    "campus": "Hoboken",
+    "access": "html-read",
+    "quote": "through Fall 2029",
+    "facts": {
+      "fee": 75,
+      "policy": "Optional through Fall2029 with acceleratedPreMedicine/PreLaw required exceptions.",
+      "ielts": 6.0,
+      "toeflPre": 80,
+      "toeflPost": 4.0,
+      "det": 105,
+      "documents": "Essay, schoolofficialtranscript and2recommendations frominstitution notstudent. STEM recommendedcalculus notgenericadmissionminimum.",
+      "statistics": "3.8averageGPA/SAT1380–1505 range notcompositeminimum; exactcohort/percentiles unestablished.",
+      "scope": "SAT550EBRW Englishproof notcompositemin;3USschoolyears waivercasebycase. PreMedicine1400SAT/32ACTwithscience single-sitting only."
+    }
+  },
+  {
+    "id": "stevens-institute-of-technology",
+    "topic": "admission-deadlines",
+    "source": "https://www.stevens.edu/admission-aid/undergraduate-admissions/admissions-timeline",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Hoboken",
+    "access": "html-read",
+    "quote": "Binding?  | Yes  | No  | Yes  | No",
+    "facts": {
+      "deadlines": "Annual EDI Nov15 binding; EA Dec1 nonbinding; EDII Jan5 binding; RD Jan5 nonbinding. AcceleratedPreMedicine RD app/materials Nov1. No entryyear established."
+    }
+  },
+  {
+    "id": "baylor-university",
+    "topic": "international-first-year-admission",
+    "source": "https://admissions.web.baylor.edu/admission/international/application-process-international-students",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Waco",
+    "access": "html-read",
+    "quote": "Official SAT/ACT Scores (Optional)",
+    "facts": {
+      "policy": "Optional; interviews optional for non-submitters.",
+      "ielts": 6.5,
+      "toeflPre": 80,
+      "toeflPost": 4.0,
+      "det": 110,
+      "scope": "TOEFLHome/MyBest andIELTSIndicatoraccepted;SAT520EBRW/ACTEnglish20 areEnglishalternatives. Individualholisticreviewpossiblebelowthresholds.",
+      "documents": "6semestermarks+prior yearifonly3secondaryyears,original+literaltranslation;unofficialinitial/officialfinal. ECE/WES optionalnotmandatory. Provisionalresultwording internallyinconsistent,verifybeforeenrolment.",
+      "deadlines": "Yearless EDI/EA Nov1, RD Feb1;EDbindingothersnonbinding. AidFall2027BIFAA priorityNov1/finalFeb1 differswithinotherofficialpage."
+    }
+  },
+  {
+    "id": "baylor-university",
+    "topic": "application-fee",
+    "source": "https://admissions.web.baylor.edu/ApplyTexas",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Waco",
+    "access": "html-read",
+    "quote": "Both are always free",
+    "facts": {
+      "amount": 0,
+      "currency": "USD",
+      "scope": "CommonApp and Baylor Online Application; no ApplyTexas. This is verified free application, not unknown fee."
+    }
+  },
+  {
+    "id": "baylor-university",
+    "topic": "financial-aid",
+    "source": "https://admissions.web.baylor.edu/costs-aid/scholarships-aid",
+    "verified": "2026-10-31",
+    "intake": "Fall 2027",
+    "category": "international first-year need-based aid",
+    "campus": "Waco",
+    "access": "html-read",
+    "quote": "Beginning with the incoming Fall 2027 class",
+    "facts": {
+      "aid": "InternationalF1 need-based consideration viaBIFAA,notFAFSA. BIFAAnotneededformerit. Noawardguarantee.",
+      "conflict": "SamepageBIFAA priority Nov15 inlist versusNov1 inbottomFall2027section; internationaladmissionpagealsoNov1. FinalFeb1consistent. Do notshowonepriorityconfirmed."
+    }
+  },
+  {
+    "id": "baylor-university",
+    "topic": "uzbekistan-check",
+    "source": "https://admissions.web.baylor.edu/admission/international/application-process/secondary-credential-requirements-region",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Waco",
+    "access": "html-read",
+    "quote": "Secondary Credential Requirements by Region",
+    "facts": {
+      "result": "No Uzbekistan entry found in reviewed country/region text. Do not borrow credentials from another country."
+    }
+  },
+  {
+    "id": "marquette-university",
+    "topic": "international-first-year-admission",
+    "source": "https://www.marquette.edu/oie/prospective-students/application-materials.php",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Milwaukee",
+    "access": "html-read",
+    "quote": "IELTS scores of 6.5 or higher for each section",
+    "facts": {
+      "sat": "Optional.",
+      "ieltsSections": 6.5,
+      "toeflPre": 86,
+      "toeflPreSections": 20,
+      "toeflPost": 4.5,
+      "det": 120,
+      "detSubscore": "115 preferred, not minimum.",
+      "documents": "Schoolrecords/examsinitialunofficial,officialbeforeI20andenrolment,exactEnglishtranslation. Credentialevaluationsectioniscollege/universitystudy,notallfirstyearschoolrecords.",
+      "scope": "SAT560English/ACTEnglish24Reading20 areEnglishproof notcomposites. ExactUzbekqualificationunknown."
+    }
+  },
+  {
+    "id": "marquette-university",
+    "topic": "admission-deadlines",
+    "source": "https://www.marquette.edu/oie/prospective-students/application-process.php",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Milwaukee",
+    "access": "html-read",
+    "quote": "Regular Decision Deadline: February 1",
+    "facts": {
+      "deadlines": "Yearless internationalEA Nov15/RD Feb1,lateas-space-allows. Supportingmaterialdatesinthesecondcolumnarespringnotfall."
+    }
+  },
+  {
+    "id": "yeshiva-university",
+    "topic": "international-first-year-admission",
+    "source": "https://apply.yu.edu/international",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "New York",
+    "access": "html-read",
+    "quote": "ONLY for applicants to our Honors program",
+    "facts": {
+      "fee": 65,
+      "policy": "Optional except Honors required.",
+      "ielts": 7,
+      "toeflPre": 82,
+      "toeflPost": null,
+      "det": 115,
+      "documents": "Officialschoolrecord,ifnotEnglishorHebrewcertifiedtranslation/evaluationNACESapproved;2recommendationspreferoneclergyman,essay/personalstatement/activitylist/interview.",
+      "aid": "Intlmeritandinstitutionalneedconsiderationpossible;USfederal/stateaidunavailable. Largestcoverageunconfirmed."
+    }
+  },
+  {
+    "id": "yeshiva-university",
+    "topic": "admission-deadlines",
+    "source": "https://apply.yu.edu/deadlines",
+    "verified": "2026-10-31",
+    "intake": "Fall 2027",
+    "category": "international first-year bachelor",
+    "campus": "New York",
+    "access": "html-read",
+    "quote": "Fall 2027",
+    "facts": {
+      "general": "Application2027-02-01;deposit2027-05-03.",
+      "honors": "EarlyDecisionHonors2026-11-02;deposit2027-01-15. Bindingtermsnotyetread;notassumedfromname.",
+      "scope": "Latecompletedgeneralapplicationswaitlist/space;do notcopySpring2027December15date."
+    }
+  },
+  {
+    "id": "yeshiva-university",
+    "topic": "college-scope",
+    "source": "https://apply.yu.edu/info-sessions",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Yeshiva College / Stern College",
+    "access": "html-read",
+    "quote": "Yeshiva College for Men",
+    "facts": {
+      "scope": "Current2026events separatelynameYeshivaCollegeforMen/WilfTorahStudies andSternCollegeforWomen. ConfirmedYCdegree notautomaticallyassignedStern."
+    }
+  },
+  {
+    "id": "wabash-college",
+    "topic": "international-first-year-admission",
+    "source": "https://www.wabash.edu/admissions/international",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Crawfordsville",
+    "access": "html-read",
+    "quote": "recommend these minimum scores",
+    "facts": {
+      "fee": 0,
+      "sat": "Optionalincludingmerit;superscore;no selfreport.",
+      "english": "RecommendedIELTS6.5,oldTOEFL85/new4.5,DET115,PTE57;source explicitly recommends, not unambiguous mandatoryscore cutoffs.",
+      "documents": "Officiallast4years(orlast3ifpupil)schoolrecordswithcertifiedEnglishtranslationdirectschool;schoolreport;graduationproofafteroffer;Englishscoresofficial.",
+      "funding": "Needaware;24990USDminimumfundingdeclarationfirstyear, NOTgrossCOA/universityannualprice/guaranteednetcost. Degreecostmorethanfirstyear.",
+      "deadlines": "Yearless EDNov15, EADec1, regularJan15;bindingagreementnotread."
+    }
+  },
+  {
+    "id": "wabash-college",
+    "topic": "identity",
+    "source": "https://www.wabash.edu/aboutwabash/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Crawfordsville",
+    "access": "html-read",
+    "quote": "Founded in 1832",
+    "facts": {
+      "type": "Private liberal arts college for men.",
+      "founded": 1832
+    }
+  },
+  {
+    "id": "university-of-colorado-boulder",
+    "topic": "programs",
+    "source": "https://www.colorado.edu/cs/academics/undergraduate-programs/bachelor-science",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Boulder",
+    "access": "html-read",
+    "quote": "Computer Science Bachelor of Science (BS)",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, B.S."
+      },
+      "language": null,
+      "scope": "Named bachelor degree only; minor, concentration and graduate programmes excluded."
+    }
+  },
+  {
+    "id": "university-of-new-hampshire",
+    "topic": "programs",
+    "source": "https://www.unh.edu/program/bachelor-science/computer-science",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Durham",
+    "access": "html-read",
+    "quote": "Bachelor of Science",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, B.S."
+      },
+      "language": null,
+      "scope": "Named bachelor degree only; minor, concentration and graduate programmes excluded."
+    }
+  },
+  {
+    "id": "university-of-tennessee-knoxville",
+    "topic": "programs",
+    "source": "https://eecs.utk.edu/undergraduate/computer-science/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Knoxville",
+    "access": "html-read",
+    "quote": "Computer Science Major, BS in Computer Science",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, B.S."
+      },
+      "language": null,
+      "scope": "Named bachelor degree only; minor, concentration and graduate programmes excluded."
+    }
+  },
+  {
+    "id": "wake-forest-university",
+    "topic": "programs",
+    "source": "https://admissions.wfu.edu/academics/majors-minors/computer-science/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Winston-Salem",
+    "access": "html-read",
+    "quote": "Bachelor of Science, Bachelor of Arts, Minor",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, B.A./B.S."
+      },
+      "language": null,
+      "scope": "Named bachelor degree only; minor, concentration and graduate programmes excluded."
+    }
+  },
+  {
+    "id": "george-washington-university",
+    "topic": "programs",
+    "source": "https://cs.engineering.gwu.edu/bachelor-science-program",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Washington, D.C.",
+    "access": "html-read",
+    "quote": "bachelor of science (BS) program in computer science",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, B.S."
+      },
+      "language": null,
+      "scope": "Named bachelor degree only; minor, concentration and graduate programmes excluded."
+    }
+  },
+  {
+    "id": "stevens-institute-of-technology",
+    "topic": "programs",
+    "source": "https://www.stevens.edu/program/computer-science-bachelor-degree",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Hoboken",
+    "access": "html-read",
+    "quote": "Bachelor of Science",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, B.S. (on campus)"
+      },
+      "language": null,
+      "scope": "Named bachelor degree only; minor, concentration and graduate programmes excluded."
+    }
+  },
+  {
+    "id": "baylor-university",
+    "topic": "programs",
+    "source": "https://www.ecs.baylor.edu/prospective-undergraduate-students/undergraduate-degree-programs/bscs-computer-science",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Waco",
+    "access": "html-read",
+    "quote": "BSCS: Computer Science",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, B.S.C.S."
+      },
+      "language": null,
+      "scope": "Named bachelor degree only; minor, concentration and graduate programmes excluded."
+    }
+  },
+  {
+    "id": "marquette-university",
+    "topic": "programs",
+    "source": "https://bulletin.marquette.edu/arts-sciences/computer-science/computer-science-bs/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Milwaukee",
+    "access": "html-read",
+    "quote": "Computer Science, BS",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, B.S."
+      },
+      "language": null,
+      "scope": "Named bachelor degree only; minor, concentration and graduate programmes excluded."
+    }
+  },
+  {
+    "id": "yeshiva-university",
+    "topic": "programs",
+    "source": "https://yu.smartcatalogiq.com/en/current/university-catalog/undergraduate-programs/yeshiva-college/copy-of-computer-science-artificial-intelligence-bs",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Yeshiva College, New York",
+    "access": "html-read",
+    "quote": "Bachelor of Science in Computer Science",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, B.S. — Yeshiva College"
+      },
+      "language": null,
+      "scope": "Named bachelor degree only; minor, concentration and graduate programmes excluded."
+    }
+  },
+  {
+    "id": "wabash-college",
+    "topic": "programs",
+    "source": "https://www.wabash.edu/academics/computer_science/",
+    "verified": "2026-10-31",
+    "intake": null,
+    "category": "international first-year bachelor",
+    "campus": "Crawfordsville",
+    "access": "html-read",
+    "quote": "Our B.A. in computer science degree",
+    "facts": {
+      "programs": {
+        "computer-science": "Computer Science, B.A."
+      },
+      "language": null,
+      "scope": "Named bachelor degree only; minor, concentration and graduate programmes excluded."
+    }
   }
 ]
