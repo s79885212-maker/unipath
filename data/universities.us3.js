@@ -37482,7 +37482,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": null,
     "programs": "https://www.vt.edu/academics/majors.html",
-    "cost": null
+    "cost": "https://finaid.vt.edu/content/dam/finaid_vt_edu/Cost_of_Attendance/2627/UGNRON_UPDATED_008262026.pdf"
   },
   "admissions": {
     "platforms": [],
@@ -37640,16 +37640,67 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grades, subjects and any preparatory study have not been established. General international instructions do not confirm eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "status": "previous-cycle",
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
-    "billedSubtotal": null,
-    "totalText": null,
-    "note": "The official cost page links separate 2026–27 in-state/out-of-state and housing-category tables. Numeric tables require further document review; no amount is inferred from an in-state example, graduate costs or an award. A comparable 2027–28 annual cost remains unconfirmed.",
-    "source": "https://finaid.vt.edu/undergraduate/coa.html",
-    "verified": "2026-11-01"
+    "studentCategory": "Nonresident undergraduate, on-campus; international additions unresolved",
+    "breakdown": {
+      "period": "year",
+      "includes": "Official scoped reference before aid; not a Fall 2027 price or guaranteed net cost"
+    },
+    "headline": "Previous-cycle cost reference — check programme and exclusions",
+    "items": [
+      {
+        "label": "Tuition",
+        "amount": 36428,
+        "group": "billed"
+      },
+      {
+        "label": "Mandatory fees",
+        "amount": 3754,
+        "group": "billed"
+      },
+      {
+        "label": "Housing",
+        "amount": 10394,
+        "group": "billed"
+      },
+      {
+        "label": "Food",
+        "amount": 6826,
+        "group": "billed"
+      },
+      {
+        "label": "Course materials",
+        "amount": 1120,
+        "group": "estimate"
+      },
+      {
+        "label": "Transportation",
+        "amount": 3014,
+        "group": "estimate"
+      },
+      {
+        "label": "Personal expenses",
+        "amount": 3150,
+        "group": "estimate"
+      },
+      {
+        "label": "Conditional federal loan fee in published COA",
+        "amount": 70,
+        "group": "estimate"
+      },
+      {
+        "label": "New-student computer allowance — general rate",
+        "amount": 2150,
+        "group": "estimate"
+      }
+    ],
+    "billedSubtotal": 57402,
+    "totalText": "Published general freshman COA: USD 66,906; not a complete international estimate",
+    "note": "2026–2027 out-of-state on-campus reference, not a complete international or Fall 2027 budget. Published direct costs are USD 57,402; general freshman COA is USD 66,906, including a USD 2,150 computer allowance and conditional USD 70 federal-loan fee. Engineering/architecture computer allowance is USD 3,140 instead. Published annual programme additions: Agriculture/Biochemistry 750, Architecture/Arts/Design 1,500, Building Construction/Engineering 2,000, Business 2,550, Science 1,000 USD. International insurance and any other international charges are not established by this sheet; no universal full budget is assigned. No scholarship is deducted.",
+    "source": "https://finaid.vt.edu/content/dam/finaid_vt_edu/Cost_of_Attendance/2627/UGNRON_UPDATED_008262026.pdf",
+    "verified": "2026-11-02"
   },
   "scholarships": {
     "fullRide": {
@@ -37750,6 +37801,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://www.vt.edu/academics/majors/mechanical-engineering.html"
+    },
+    {
+      "label": "Cost — reviewed official scope and period",
+      "url": "https://finaid.vt.edu/content/dam/finaid_vt_edu/Cost_of_Attendance/2627/UGNRON_UPDATED_008262026.pdf"
     }
   ],
   "verification": {
@@ -37764,7 +37819,7 @@ window.UNIPATH.universities.push(
       "Complete programme catalogue, 2027–2028 costs and remaining award/renewal conditions are still under review."
     ]
   },
-  "lastVerified": "2026-11-01",
+  "lastVerified": "2026-11-02",
   "aliases": [
     "Virginia Polytechnic Institute and State University"
   ],
@@ -38302,16 +38357,62 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "status": "previous-cycle",
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "School of Business example, nonresident full-time, two terms",
+    "breakdown": {
+      "period": "year",
+      "includes": "Official scoped reference before aid; not a Fall 2027 price or guaranteed net cost"
+    },
+    "headline": "Previous-cycle cost reference — check programme and exclusions",
+    "items": [
+      {
+        "label": "School of Business nonresident tuition — two terms",
+        "amount": 48812,
+        "group": "billed"
+      },
+      {
+        "label": "Mandatory fees — two terms",
+        "amount": 2152,
+        "group": "billed"
+      },
+      {
+        "label": "Housing estimate",
+        "amount": 10374,
+        "group": "estimate"
+      },
+      {
+        "label": "Food estimate",
+        "amount": 6118,
+        "group": "estimate"
+      },
+      {
+        "label": "Books and supplies",
+        "amount": 596,
+        "group": "estimate"
+      },
+      {
+        "label": "Personal expenses",
+        "amount": 2398,
+        "group": "estimate"
+      },
+      {
+        "label": "Transportation",
+        "amount": 1088,
+        "group": "estimate"
+      },
+      {
+        "label": "Conditional loan fees in published estimate",
+        "amount": 80,
+        "group": "estimate"
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": null,
-    "note": "The official School of Business page lists nonresident full-time tuition USD48,812 for two terms, with international services USD500 per fall/spring term additional. That is one school, not a university-wide quote or a Computer Science rate. Its academic year was not established from the readable body; a search title alone is not used. No comparable annual cost is assigned to this profile.",
+    "totalText": "School-specific tuition USD 48,812 and mandatory fees USD 2,152; living estimate USD 20,654",
+    "note": "2026–2027 School of Business reference only, not the university-wide or Fall 2027 price. Full-time international undergraduates at Pittsburgh additionally pay USD 500 per fall/spring term in International Services Fees; UniPath would calculate USD 1,000 for two terms, which is not a separately printed annual university total. Health-insurance inclusion is unconfirmed; loan fees are conditional. No complete international total or budget fit is asserted and no competitive award is deducted.",
     "source": "https://www.tuition.pitt.edu/undergraduate/tuition/pittsburgh/school-business",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   "scholarships": {
     "fullRide": {
@@ -38393,7 +38494,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-11-01",
+  "lastVerified": "2026-11-02",
   "aliases": [
     "Pitt"
   ],
@@ -39231,7 +39332,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": null,
     "programs": "https://bloomington.iu.edu/academics/degrees-majors/programs.html",
-    "cost": null
+    "cost": "https://bloomington.iu.edu/cost-aid/cost-attendance/international/undergraduate.html"
   },
   "admissions": {
     "platforms": [
@@ -39301,14 +39402,18 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
+    "status": "not-checked",
     "academicYear": null,
     "currency": "USD",
-    "headline": null,
+    "studentCategory": "International undergraduate; reference academic year not stated",
+    "breakdown": null,
     "items": [],
     "billedSubtotal": null,
+    "headline": "Academic year of the international estimate is unconfirmed",
     "totalText": null,
-    "note": "The international table publishes USD61,156 for nine months: tuition/mandatory fees44,339, housing/food12,431, insurance1,916 and miscellaneous2,470. Its academic year is not established on that table; the domestic page’s2026–27 heading is not transferred. Summer and extra programme/course costs are separate. No comparable Fall2027 annual cost is assigned."
+    "note": "The official international cost page was read on 2 November 2026, but its price table does not name an academic year. The date of viewing and office holiday dates do not establish the price year. The undated nine-month figures are retained in research, not assigned to Fall 2027 or used for a budget match. Programme/course extras and summer costs are separate.",
+    "source": "https://bloomington.iu.edu/cost-aid/cost-attendance/international/undergraduate.html",
+    "verified": "2026-11-02"
   },
   "scholarships": {
     "fullRide": {
@@ -39414,7 +39519,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-11-01",
+  "lastVerified": "2026-11-02",
   "aliases": [
     "IU Bloomington"
   ],
@@ -41241,7 +41346,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": null,
     "programs": "https://admissions.ucr.edu/majors",
-    "cost": null
+    "cost": "https://financialaid.ucr.edu/cost"
   },
   "admissions": {
     "platforms": [
@@ -41340,14 +41445,61 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "status": "conflict",
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "International first-year entering 2026–2027, university housing",
+    "breakdown": {
+      "period": "year",
+      "includes": "Official scoped reference before aid; not a Fall 2027 price or guaranteed net cost"
+    },
+    "headline": "Official rows and total conflict",
+    "items": [
+      {
+        "label": "UC tuition and fees",
+        "amount": 15588
+      },
+      {
+        "label": "Nonresident supplemental tuition",
+        "amount": 39270
+      },
+      {
+        "label": "Campus and technology fees",
+        "amount": 1202
+      },
+      {
+        "label": "Health insurance",
+        "amount": 2824
+      },
+      {
+        "label": "Housing",
+        "amount": 13793
+      },
+      {
+        "label": "Food",
+        "amount": 7282
+      },
+      {
+        "label": "Books and supplies",
+        "amount": 1700
+      },
+      {
+        "label": "Transportation",
+        "amount": 1100
+      },
+      {
+        "label": "Personal expenses",
+        "amount": 2525
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "totalText": "University-printed international on-campus total: USD 85,809; component sum unresolved",
+    "note": "Previous 2026–2027 cohort, not Fall 2027. Campus housing, first-term fees, insurance conditions and programme extras require separate review. Competitive merit is not deducted.",
+    "conflict": {
+      "text": "The international on-campus rows add to USD 85,284 (UniPath calculation), while the university prints USD 85,809: unexplained difference USD 525. The resident first-year table uses different transportation/personal estimates; those values are not silently substituted. Additional first-term orientation USD 300 and records USD 315 are listed separately and do not reconcile that difference. Both printed rows and total are retained; no reconciled billed or full budget is assigned."
+    },
+    "source": "https://financialaid.ucr.edu/cost",
+    "verified": "2026-11-02"
   },
   "scholarships": {
     "fullRide": {
@@ -41444,6 +41596,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://admissions.ucr.edu/majors"
+    },
+    {
+      "label": "Cost — reviewed official scope and period",
+      "url": "https://financialaid.ucr.edu/cost"
     }
   ],
   "verification": {
@@ -41457,7 +41613,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-11-01",
+  "lastVerified": "2026-11-02",
   "aliases": [
     "UC Riverside",
     "UCR"
@@ -42945,7 +43101,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": null,
     "programs": "https://catalog.uic.edu/ucat/degree-programs/degree-minors/",
-    "cost": null
+    "cost": "https://ois.uic.edu/immigration/estimated-expenses/"
   },
   "admissions": {
     "platforms": [],
@@ -43065,14 +43221,32 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "status": "previous-cycle",
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "International undergraduate funding estimate by programme, normally nine months",
+    "breakdown": {
+      "period": "year",
+      "includes": "Official scoped reference before aid; not a Fall 2027 price or guaranteed net cost"
+    },
+    "headline": "Previous-cycle cost reference — check programme and exclusions",
+    "items": [
+      {
+        "label": "Living expenses — international funding estimate",
+        "amount": 18125,
+        "group": "estimate"
+      },
+      {
+        "label": "Books and orientation",
+        "amount": 1849,
+        "group": "estimate"
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "totalText": "Published I-20/DS-2019 funding: general USD 55,570; Business USD 58,370; Engineering USD 58,266",
+    "note": "2026–2027 international funding table, not an exact bill or Fall 2027 price. Annual tuition and fees: general programmes 35,596; Business 38,396; Engineering and CS/Linguistics 38,292; listed LAS sciences/Psychology 37,698 USD. Each adds living 18,125 and books/orientation 1,849 USD. Published corresponding totals: 55,570; 58,370; 58,266; 57,672 USD. Other listed schools differ. A general programme amount is not assigned to every major. Proof of funding does not establish complete personal spending or deduct a scholarship.",
+    "source": "https://ois.uic.edu/immigration/estimated-expenses/",
+    "verified": "2026-11-02"
   },
   "scholarships": {
     "fullRide": {
@@ -43141,6 +43315,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://catalog.uic.edu/ucat/degree-programs/degree-minors/"
+    },
+    {
+      "label": "Cost — reviewed official scope and period",
+      "url": "https://ois.uic.edu/immigration/estimated-expenses/"
     }
   ],
   "verification": {
@@ -43154,7 +43332,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-11-01",
+  "lastVerified": "2026-11-02",
   "aliases": [
     "UIC",
     "University of Illinois at Chicago"
@@ -43252,7 +43430,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": null,
     "programs": "https://catalog.missouri.edu/degreesanddegreeprograms/",
-    "cost": null
+    "cost": "https://admissions.missouri.edu/costs-aid/costs/"
   },
   "admissions": {
     "platforms": [],
@@ -43370,14 +43548,53 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "status": "previous-cycle",
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "International undergraduate, 12-month estimate with fall/spring study and summer living",
+    "breakdown": {
+      "period": "year",
+      "includes": "Official scoped reference before aid; not a Fall 2027 price or guaranteed net cost"
+    },
+    "headline": "Previous-cycle cost reference — check programme and exclusions",
+    "items": [
+      {
+        "label": "International annual tuition and fees — programme tiers",
+        "min": 39688,
+        "max": 43816,
+        "group": "estimate"
+      },
+      {
+        "label": "Books and supplies",
+        "amount": 918,
+        "group": "estimate"
+      },
+      {
+        "label": "Housing and food — fall/spring",
+        "amount": 12734,
+        "group": "estimate"
+      },
+      {
+        "label": "Personal expenses — fall/spring",
+        "amount": 3466,
+        "group": "estimate"
+      },
+      {
+        "label": "Medical insurance including summer",
+        "amount": 2818,
+        "group": "estimate"
+      },
+      {
+        "label": "Summer living estimate",
+        "amount": 2500,
+        "group": "estimate"
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "totalText": "Published 12-month international estimate: USD 62,124–66,252 by tuition tier",
+    "note": "2026–2027 published international estimate for 12–18 credits per fall/spring term. Tuition depends on primary academic plan and on-campus/distance location; this is a genuine programme range, not a source conflict or average. Summer estimate excludes tuition, fees, books and supplies; spring insurance includes summer. One-time enrollment fee USD 300 is additional; USD 4,000 per dependent is additional. No universal Fall 2027 price, guaranteed aid or scholarship deduction.",
+    "source": "https://admissions.missouri.edu/costs-aid/costs/",
+    "verified": "2026-11-02"
   },
   "scholarships": {
     "fullRide": {
@@ -43446,6 +43663,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://catalog.missouri.edu/degreesanddegreeprograms/"
+    },
+    {
+      "label": "Cost — reviewed official scope and period",
+      "url": "https://admissions.missouri.edu/costs-aid/costs/"
     }
   ],
   "verification": {
@@ -43459,7 +43680,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-11-01",
+  "lastVerified": "2026-11-02",
   "aliases": [
     "University of Missouri-Columbia",
     "Mizzou"
@@ -43873,7 +44094,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": null,
     "programs": "https://cec.fiu.edu/degrees-programs/undergraduate/bs-in-computer-science/",
-    "cost": null
+    "cost": "https://onestop.fiu.edu/finances/estimate-your-costs/"
   },
   "admissions": {
     "platforms": [],
@@ -44003,14 +44224,62 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "status": "previous-cycle",
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "Non-Florida resident undergraduate, on-campus, fall/spring; rows are per semester",
+    "breakdown": {
+      "period": "semester",
+      "includes": "Official scoped reference before aid; not a Fall 2027 price or guaranteed net cost"
+    },
+    "headline": "Previous-cycle cost reference — check programme and exclusions",
+    "items": [
+      {
+        "label": "Tuition — one semester",
+        "amount": 10926,
+        "group": "billed"
+      },
+      {
+        "label": "Fees — one semester",
+        "amount": 199,
+        "group": "billed"
+      },
+      {
+        "label": "Conditional federal loan origination fee — one semester",
+        "amount": 25,
+        "group": "estimate"
+      },
+      {
+        "label": "Books and supplies — one semester",
+        "amount": 675,
+        "group": "estimate"
+      },
+      {
+        "label": "Housing — one semester",
+        "amount": 5025,
+        "group": "billed"
+      },
+      {
+        "label": "Food — one semester",
+        "amount": 2595,
+        "group": "billed"
+      },
+      {
+        "label": "Transportation — one semester",
+        "amount": 1515,
+        "group": "estimate"
+      },
+      {
+        "label": "Personal expenses — one semester",
+        "amount": 1784,
+        "group": "estimate"
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "totalText": "Published term estimate USD 22,744; fall/spring total USD 45,488",
+    "note": "2026–2027 nonresident standard undergraduate table, not online or graduate. Every component above is PER SEMESTER; the annual total is separately printed by FIU. The table does not establish programme-specific credit load or international health-insurance inclusion. The federal-loan fee is conditional and not automatically a charge for an international student. The old international admissions table has no established year; its lower rates are not substituted. No complete international Fall 2027 budget or aid deduction.",
+    "source": "https://onestop.fiu.edu/finances/estimate-your-costs/",
+    "verified": "2026-11-02"
   },
   "scholarships": {
     "fullRide": {
@@ -44079,6 +44348,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:FIU_MMC_campus.jpg"
+    },
+    {
+      "label": "Cost — reviewed official scope and period",
+      "url": "https://onestop.fiu.edu/finances/estimate-your-costs/"
     }
   ],
   "verification": {
@@ -44092,7 +44365,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-11-01",
+  "lastVerified": "2026-11-02",
   "aliases": [
     "FIU"
   ],
@@ -44145,7 +44418,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": null,
     "programs": "https://www.usf.edu/business/program-comparison.aspx",
-    "cost": null
+    "cost": "https://tup-ofa.forest.usf.edu/finaid/coa/2627_on_campus"
   },
   "admissions": {
     "platforms": [],
@@ -44345,14 +44618,52 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "status": "previous-cycle",
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
-    "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "studentCategory": "Non-Florida undergraduate, on-campus, 28 credits over fall/spring",
+    "breakdown": {
+      "period": "year",
+      "includes": "Official scoped reference before aid; not a Fall 2027 price or guaranteed net cost"
+    },
+    "headline": "Previous-cycle cost reference — check programme and exclusions",
+    "items": [
+      {
+        "label": "Tuition and fees — 28 credits/year",
+        "amount": 18846,
+        "group": "billed"
+      },
+      {
+        "label": "On-campus housing",
+        "amount": 9638,
+        "group": "billed"
+      },
+      {
+        "label": "Food",
+        "amount": 5770,
+        "group": "billed"
+      },
+      {
+        "label": "Books and supplies",
+        "amount": 728,
+        "group": "estimate"
+      },
+      {
+        "label": "Transportation",
+        "amount": 2176,
+        "group": "estimate"
+      },
+      {
+        "label": "Personal allowance",
+        "amount": 2976,
+        "group": "estimate"
+      }
+    ],
+    "billedSubtotal": 34254,
+    "totalText": "Published nonresident standard COA: USD 40,134 at 28 credits/year",
+    "note": "2026–2027 fall/spring nonresident table; published billable subtotal USD 34,254. Standard undergraduate load is 28 credits/year, not 30 credits, and shorter attendance changes the budget. No campus-specific room, higher programme load or international insurance price is established by this table; no full international Fall 2027 budget or competitive award is assumed.",
+    "source": "https://tup-ofa.forest.usf.edu/finaid/coa/2627_on_campus",
+    "verified": "2026-11-02"
   },
   "scholarships": {
     "fullRide": {
@@ -44421,6 +44732,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://www.usf.edu/business/program-comparison.aspx"
+    },
+    {
+      "label": "Cost — reviewed official scope and period",
+      "url": "https://tup-ofa.forest.usf.edu/finaid/coa/2627_on_campus"
     }
   ],
   "verification": {
@@ -44434,7 +44749,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-11-01",
+  "lastVerified": "2026-11-02",
   "aliases": [
     "USF Tampa"
   ],
@@ -44816,7 +45131,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": null,
     "programs": "https://catalog.colorado.edu/undergraduate/academic-offerings/",
-    "cost": null
+    "cost": "https://www.colorado.edu/bursar/costs/undergraduate"
   },
   "admissions": {
     "platforms": [],
@@ -44932,14 +45247,32 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "status": "previous-cycle",
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "New international undergraduate, named programme tiers, two semesters",
+    "breakdown": {
+      "period": "year",
+      "includes": "Official scoped reference before aid; not a Fall 2027 price or guaranteed net cost"
+    },
+    "headline": "Previous-cycle cost reference — check programme and exclusions",
+    "items": [
+      {
+        "label": "Books and supplies",
+        "amount": 1200,
+        "group": "billed"
+      },
+      {
+        "label": "Standard double room and 19-meal plan",
+        "amount": 19242,
+        "group": "billed"
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "totalText": "Published partial annual totals: base USD 68,664; CMDI 70,596; engineering/natural sciences 72,276; business 72,766",
+    "note": "2026–2027 INTERNATIONAL rates are distinct from domestic nonresident rates. Annual tuition plus undergraduate fees: base 48,222; CMDI 50,154; Engineering/Natural Sciences 51,834; Business 52,324 USD. Each includes separately listed books 1,200 and housing/19-meal plan 19,242 in the printed partial total. Do not use the base price for Business or Engineering. New international student fee USD 500 and immigration compliance USD 40/semester are excluded, as are medical insurance, transportation and personal expenses. This is not a full COA or Fall 2027 price; no scholarship deduction.",
+    "source": "https://www.colorado.edu/bursar/costs/undergraduate",
+    "verified": "2026-11-02"
   },
   "scholarships": {
     "fullRide": {
@@ -45012,6 +45345,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Teaching language — official campus statement",
       "url": "https://www.colorado.edu/oiec/sites/default/files/attached-files/cu_boulder_lep_plan_2022_4.pdf"
+    },
+    {
+      "label": "Cost — reviewed official scope and period",
+      "url": "https://www.colorado.edu/bursar/costs/undergraduate"
     }
   ],
   "verification": {
@@ -45140,7 +45477,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": null,
     "programs": "https://catalog.unh.edu/programs/",
-    "cost": null
+    "cost": "https://www.unh.edu/financialaid/resources/international-students-estimate-expenses"
   },
   "admissions": {
     "platforms": [],
@@ -45279,14 +45616,58 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "status": "previous-cycle",
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
-    "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "studentCategory": "International Durham undergraduate, 12–20 credits/semester, nine months",
+    "breakdown": {
+      "period": "year",
+      "includes": "Official scoped reference before aid; not a Fall 2027 price or guaranteed net cost",
+      "tuition": 37996
+    },
+    "headline": "Previous-cycle cost reference — check programme and exclusions",
+    "items": [
+      {
+        "label": "Base nonresident tuition",
+        "amount": 37996,
+        "group": "billed"
+      },
+      {
+        "label": "Mandatory and technology fees",
+        "amount": 3868,
+        "group": "billed"
+      },
+      {
+        "label": "Housing estimate",
+        "amount": 9410,
+        "group": "billed"
+      },
+      {
+        "label": "Food",
+        "amount": 5624,
+        "group": "billed"
+      },
+      {
+        "label": "Required F-1/J-1 student health plan",
+        "amount": 2554,
+        "group": "billed"
+      },
+      {
+        "label": "Books and supplies",
+        "amount": 1000,
+        "group": "estimate"
+      },
+      {
+        "label": "Miscellaneous expenses",
+        "amount": 3795,
+        "group": "estimate"
+      }
+    ],
+    "billedSubtotal": 59452,
+    "totalText": "Published base international nine-month COA: USD 64,247; programme additions apply",
+    "note": "2026–2027 Durham international table includes mandatory F-1/J-1 UNH health plan USD 2,554 and published direct subtotal USD 59,452. Add USD 1,504 for CEPS Engineering/CS or USD 1,452 for Paul Business/Economics. The separate Durham billing page lists one-time new-student administration USD 400, nursing/music supplements and course fees; they are not silently included in the base total. Manchester/online prices and graduate estimates are excluded. No guaranteed Fall 2027 full budget or competitive-aid deduction.",
+    "source": "https://www.unh.edu/financialaid/resources/international-students-estimate-expenses",
+    "verified": "2026-11-02"
   },
   "scholarships": {
     "fullRide": {
@@ -45351,6 +45732,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://catalog.unh.edu/programs/"
+    },
+    {
+      "label": "Cost — reviewed official scope and period",
+      "url": "https://www.unh.edu/financialaid/resources/international-students-estimate-expenses"
     }
   ],
   "verification": {

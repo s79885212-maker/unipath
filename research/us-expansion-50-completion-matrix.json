@@ -741,14 +741,14 @@
           "evidence": []
         },
         "cost": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
-            "status": null,
-            "academicYear": null,
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
             "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
           },
           "evidence": [
-            "https://finaid.vt.edu/undergraduate/coa.html"
+            "https://finaid.vt.edu/content/dam/finaid_vt_edu/Cost_of_Attendance/2627/UGNRON_UPDATED_008262026.pdf"
           ]
         },
         "awards": {
@@ -896,10 +896,10 @@
           ]
         },
         "cost": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
-            "status": null,
-            "academicYear": null,
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
             "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
           },
           "evidence": [
@@ -1151,11 +1151,13 @@
         "cost": {
           "status": "unknown",
           "notes": {
-            "status": null,
+            "status": "not-checked",
             "academicYear": null,
             "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
           },
-          "evidence": []
+          "evidence": [
+            "https://bloomington.iu.edu/cost-aid/cost-attendance/international/undergraduate.html"
+          ]
         },
         "awards": {
           "status": "unknown",
@@ -1634,13 +1636,15 @@
           ]
         },
         "cost": {
-          "status": "unknown",
+          "status": "conflict",
           "notes": {
-            "status": null,
-            "academicYear": null,
+            "status": "conflict",
+            "academicYear": "2026–2027",
             "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
           },
-          "evidence": []
+          "evidence": [
+            "https://financialaid.ucr.edu/cost"
+          ]
         },
         "awards": {
           "status": "partial",
@@ -2038,13 +2042,15 @@
           ]
         },
         "cost": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
-            "status": null,
-            "academicYear": null,
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
             "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
           },
-          "evidence": []
+          "evidence": [
+            "https://ois.uic.edu/immigration/estimated-expenses/"
+          ]
         },
         "awards": {
           "status": "unknown",
@@ -2116,13 +2122,15 @@
           ]
         },
         "cost": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
-            "status": null,
-            "academicYear": null,
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
             "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
           },
-          "evidence": []
+          "evidence": [
+            "https://admissions.missouri.edu/costs-aid/costs/"
+          ]
         },
         "awards": {
           "status": "unknown",
@@ -2271,13 +2279,15 @@
           ]
         },
         "cost": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
-            "status": null,
-            "academicYear": null,
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
             "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
           },
-          "evidence": []
+          "evidence": [
+            "https://onestop.fiu.edu/finances/estimate-your-costs/"
+          ]
         },
         "awards": {
           "status": "unknown",
@@ -2348,13 +2358,15 @@
           ]
         },
         "cost": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
-            "status": null,
-            "academicYear": null,
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
             "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
           },
-          "evidence": []
+          "evidence": [
+            "https://tup-ofa.forest.usf.edu/finaid/coa/2627_on_campus"
+          ]
         },
         "awards": {
           "status": "unknown",
@@ -2523,13 +2535,15 @@
           ]
         },
         "cost": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
-            "status": null,
-            "academicYear": null,
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
             "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
           },
-          "evidence": []
+          "evidence": [
+            "https://www.colorado.edu/bursar/costs/undergraduate"
+          ]
         },
         "awards": {
           "status": "unknown",
@@ -2600,13 +2614,15 @@
           ]
         },
         "cost": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
-            "status": null,
-            "academicYear": null,
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
             "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
           },
-          "evidence": []
+          "evidence": [
+            "https://www.unh.edu/financialaid/resources/international-students-estimate-expenses"
+          ]
         },
         "awards": {
           "status": "unknown",

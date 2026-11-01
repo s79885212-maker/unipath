@@ -9165,5 +9165,992 @@
     "quote": null,
     "facts": null,
     "unresolved": "Official page returns zero readable lines. Normal browser tool is disabled in Work settings. Department pages confirm degrees but do not establish teaching location; no match is added from a search preview."
+  },
+  {
+    "id": "virginia-tech",
+    "topic": "remaining-cost-review",
+    "source": "https://finaid.vt.edu/content/dam/finaid_vt_edu/Cost_of_Attendance/2627/UGNRON_UPDATED_008262026.pdf",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "out-of-state full-time undergraduate, on-campus; international additions unresolved",
+    "campus": "Blacksburg",
+    "access": "pdf-read",
+    "quote": "Total Freshman Cost of Attendance (COA) $66,906",
+    "facts": {
+      "page": 1,
+      "academicYear": "2026–2027",
+      "publishedDirect": 57402,
+      "publishedCOA": 64756,
+      "publishedFreshmanCOA": 66906,
+      "internationalInsurance": "not specified by this sheet",
+      "publicCost": {
+        "status": "previous-cycle",
+        "academicYear": "2026–2027",
+        "currency": "USD",
+        "studentCategory": {
+          "en": "Nonresident undergraduate, on-campus; international additions unresolved",
+          "ru": "Бакалавриат нерезидента в кампусе; международные дополнения не установлены"
+        },
+        "breakdown": {
+          "period": "year",
+          "includes": {
+            "en": "Official scoped reference before aid; not a Fall 2027 price or guaranteed net cost",
+            "ru": "Официальная справка с указанными условиями до помощи; не цена осени 2027 и не гарантированная стоимость после помощи"
+          }
+        },
+        "headline": {
+          "en": "Previous-cycle cost reference — check programme and exclusions",
+          "ru": "Справка предыдущего цикла — проверяйте программу и исключения"
+        },
+        "items": [
+          {
+            "label": {
+              "en": "Tuition",
+              "ru": "Обучение"
+            },
+            "amount": 36428,
+            "group": "billed"
+          },
+          {
+            "label": {
+              "en": "Mandatory fees",
+              "ru": "Обязательные сборы"
+            },
+            "amount": 3754,
+            "group": "billed"
+          },
+          {
+            "label": {
+              "en": "Housing",
+              "ru": "Жильё"
+            },
+            "amount": 10394,
+            "group": "billed"
+          },
+          {
+            "label": {
+              "en": "Food",
+              "ru": "Питание"
+            },
+            "amount": 6826,
+            "group": "billed"
+          },
+          {
+            "label": {
+              "en": "Course materials",
+              "ru": "Учебные материалы"
+            },
+            "amount": 1120,
+            "group": "estimate"
+          },
+          {
+            "label": {
+              "en": "Transportation",
+              "ru": "Транспорт"
+            },
+            "amount": 3014,
+            "group": "estimate"
+          },
+          {
+            "label": {
+              "en": "Personal expenses",
+              "ru": "Личные расходы"
+            },
+            "amount": 3150,
+            "group": "estimate"
+          },
+          {
+            "label": {
+              "en": "Conditional federal loan fee in published COA",
+              "ru": "Условный сбор федерального кредита в опубликованной COA"
+            },
+            "amount": 70,
+            "group": "estimate"
+          },
+          {
+            "label": {
+              "en": "New-student computer allowance — general rate",
+              "ru": "Компьютер для нового студента — общая норма"
+            },
+            "amount": 2150,
+            "group": "estimate"
+          }
+        ],
+        "billedSubtotal": 57402,
+        "totalText": {
+          "en": "Published general freshman COA: USD 66,906; not a complete international estimate",
+          "ru": "Опубликованная общая freshman COA: 66 906 USD; это не полная международная смета"
+        },
+        "note": {
+          "en": "2026–2027 out-of-state on-campus reference, not a complete international or Fall 2027 budget. Published direct costs are USD 57,402; general freshman COA is USD 66,906, including a USD 2,150 computer allowance and conditional USD 70 federal-loan fee. Engineering/architecture computer allowance is USD 3,140 instead. Published annual programme additions: Agriculture/Biochemistry 750, Architecture/Arts/Design 1,500, Building Construction/Engineering 2,000, Business 2,550, Science 1,000 USD. International insurance and any other international charges are not established by this sheet; no universal full budget is assigned. No scholarship is deducted.",
+          "ru": "Справка 2026–2027 для нерезидента с проживанием в кампусе, не полный международный бюджет и не цена осени 2027. Опубликованы прямые расходы 57 402 USD и общая freshman COA 66 906 USD, включающая компьютер 2 150 и условный сбор федерального кредита 70 USD. Для engineering/architecture компьютерная норма вместо этого 3 140 USD. Опубликованные годовые доплаты: Agriculture/Biochemistry 750, Architecture/Arts/Design 1 500, Building Construction/Engineering 2 000, Business 2 550, Science 1 000 USD. Международная страховка и другие специальные сборы этим документом не установлены; универсальный полный бюджет не присвоен. Стипендия не вычитается."
+        }
+      }
+    }
+  },
+  {
+    "id": "university-of-pittsburgh",
+    "topic": "remaining-cost-review",
+    "source": "https://www.tuition.pitt.edu/undergraduate/tuition/pittsburgh/school-business",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "School of Business full-time nonresident undergraduate; two terms; not university-wide",
+    "campus": "Pittsburgh; School of Business",
+    "access": "html-read",
+    "quote": "Full-time, Two Terms",
+    "facts": {
+      "academicYear": "2026–2027",
+      "tuitionTwoTerms": 48812,
+      "mandatoryFeesTwoTerms": 2152,
+      "otherExpensesTwoTerms": 20654,
+      "internationalServicesPerTerm": 500,
+      "healthInsurance": "not established",
+      "publicCost": {
+        "status": "previous-cycle",
+        "academicYear": "2026–2027",
+        "currency": "USD",
+        "studentCategory": {
+          "en": "School of Business example, nonresident full-time, two terms",
+          "ru": "Пример School of Business, нерезидент, полная нагрузка, два семестра"
+        },
+        "breakdown": {
+          "period": "year",
+          "includes": {
+            "en": "Official scoped reference before aid; not a Fall 2027 price or guaranteed net cost",
+            "ru": "Официальная справка с указанными условиями до помощи; не цена осени 2027 и не гарантированная стоимость после помощи"
+          }
+        },
+        "headline": {
+          "en": "Previous-cycle cost reference — check programme and exclusions",
+          "ru": "Справка предыдущего цикла — проверяйте программу и исключения"
+        },
+        "items": [
+          {
+            "label": {
+              "en": "School of Business nonresident tuition — two terms",
+              "ru": "Обучение нерезидента в School of Business — два семестра"
+            },
+            "amount": 48812,
+            "group": "billed"
+          },
+          {
+            "label": {
+              "en": "Mandatory fees — two terms",
+              "ru": "Обязательные сборы — два семестра"
+            },
+            "amount": 2152,
+            "group": "billed"
+          },
+          {
+            "label": {
+              "en": "Housing estimate",
+              "ru": "Смета жилья"
+            },
+            "amount": 10374,
+            "group": "estimate"
+          },
+          {
+            "label": {
+              "en": "Food estimate",
+              "ru": "Смета питания"
+            },
+            "amount": 6118,
+            "group": "estimate"
+          },
+          {
+            "label": {
+              "en": "Books and supplies",
+              "ru": "Книги и материалы"
+            },
+            "amount": 596,
+            "group": "estimate"
+          },
+          {
+            "label": {
+              "en": "Personal expenses",
+              "ru": "Личные расходы"
+            },
+            "amount": 2398,
+            "group": "estimate"
+          },
+          {
+            "label": {
+              "en": "Transportation",
+              "ru": "Транспорт"
+            },
+            "amount": 1088,
+            "group": "estimate"
+          },
+          {
+            "label": {
+              "en": "Conditional loan fees in published estimate",
+              "ru": "Условные кредитные сборы в опубликованной смете"
+            },
+            "amount": 80,
+            "group": "estimate"
+          }
+        ],
+        "billedSubtotal": null,
+        "totalText": {
+          "en": "School-specific tuition USD 48,812 and mandatory fees USD 2,152; living estimate USD 20,654",
+          "ru": "Обучение конкретной школы 48 812 USD и обязательные сборы 2 152 USD; смета жизни 20 654 USD"
+        },
+        "note": {
+          "en": "2026–2027 School of Business reference only, not the university-wide or Fall 2027 price. Full-time international undergraduates at Pittsburgh additionally pay USD 500 per fall/spring term in International Services Fees; UniPath would calculate USD 1,000 for two terms, which is not a separately printed annual university total. Health-insurance inclusion is unconfirmed; loan fees are conditional. No complete international total or budget fit is asserted and no competitive award is deducted.",
+          "ru": "Справка 2026–2027 только для School of Business, не общеуниверситетская цена и не осень 2027. Очные иностранные бакалавры Pittsburgh дополнительно платят International Services Fee по 500 USD за осенний/весенний семестр; 1 000 USD за два семестра были бы расчётом UniPath, а не отдельно напечатанным годовым итогом университета. Включение медицинской страховки не установлено; кредитные сборы условные. Полный международный итог и бюджетное совпадение не утверждаются, конкурсная помощь не вычтена."
+        }
+      }
+    }
+  },
+  {
+    "id": "indiana-university-bloomington",
+    "topic": "remaining-cost-review",
+    "source": "https://bloomington.iu.edu/cost-aid/cost-attendance/international/undergraduate.html",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "international undergraduate, nine months, fall/spring; academic year not stated",
+    "campus": "Bloomington",
+    "access": "html-read",
+    "quote": "Total for 9 months",
+    "facts": {
+      "academicYear": null,
+      "tuitionAndMandatory": 44339,
+      "housingFood": 12431,
+      "insurance": 1916,
+      "miscBooksLiving": 2470,
+      "totalNineMonths": 61156,
+      "load": "flat tuition up to 40 credits across fall/spring/intersessions",
+      "limitation": "Office opening/holiday dates are not proof of price year. Old OIS family page says 12–18 per semester; do not combine load assumptions.",
+      "publicCost": {
+        "status": "not-checked",
+        "academicYear": null,
+        "currency": "USD",
+        "studentCategory": {
+          "en": "International undergraduate; reference academic year not stated",
+          "ru": "Иностранный бакалавр; учебный год справки не указан"
+        },
+        "breakdown": null,
+        "items": [],
+        "billedSubtotal": null,
+        "headline": {
+          "en": "Academic year of the international estimate is unconfirmed",
+          "ru": "Учебный год международной сметы не подтверждён"
+        },
+        "totalText": null,
+        "note": {
+          "en": "The official international cost page was read on 2 November 2026, but its price table does not name an academic year. The date of viewing and office holiday dates do not establish the price year. The undated nine-month figures are retained in research, not assigned to Fall 2027 or used for a budget match. Programme/course extras and summer costs are separate.",
+          "ru": "Официальная международная страница стоимости прочитана 2 ноября 2026, но таблица цен не называет учебный год. Дата просмотра и календарь выходных офиса не подтверждают год цены. Недатированные суммы за девять месяцев сохранены в исследовании, не присвоены осени 2027 и не используются для бюджетного совпадения. Доплаты программы/курсов и летние расходы отдельные."
+        }
+      }
+    }
+  },
+  {
+    "id": "university-of-california-riverside",
+    "topic": "remaining-cost-review",
+    "source": "https://financialaid.ucr.edu/cost",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "international first-year entering 2026–2027, university housing; conflicting components/total",
+    "campus": "Riverside",
+    "access": "html-read",
+    "quote": "Out of State and International Undergraduates",
+    "facts": {
+      "academicYear": "2026–2027",
+      "publishedTotal": 85809,
+      "componentSumCalculatedByUniPath": 85284,
+      "unresolvedDifference": 525,
+      "firstTermExtras": {
+        "orientation": 300,
+        "records": 315
+      },
+      "publicCost": {
+        "status": "conflict",
+        "academicYear": "2026–2027",
+        "currency": "USD",
+        "studentCategory": {
+          "en": "International first-year entering 2026–2027, university housing",
+          "ru": "Иностранный первокурсник набора 2026–2027, университетское жильё"
+        },
+        "breakdown": {
+          "period": "year",
+          "includes": {
+            "en": "Official scoped reference before aid; not a Fall 2027 price or guaranteed net cost",
+            "ru": "Официальная справка с указанными условиями до помощи; не цена осени 2027 и не гарантированная стоимость после помощи"
+          }
+        },
+        "headline": {
+          "en": "Official rows and total conflict",
+          "ru": "Конфликт официальных строк и итога"
+        },
+        "items": [
+          {
+            "label": {
+              "en": "UC tuition and fees",
+              "ru": "Обучение и сборы UC"
+            },
+            "amount": 15588
+          },
+          {
+            "label": {
+              "en": "Nonresident supplemental tuition",
+              "ru": "Доплата нерезидента"
+            },
+            "amount": 39270
+          },
+          {
+            "label": {
+              "en": "Campus and technology fees",
+              "ru": "Кампусные и технологические сборы"
+            },
+            "amount": 1202
+          },
+          {
+            "label": {
+              "en": "Health insurance",
+              "ru": "Медицинская страховка"
+            },
+            "amount": 2824
+          },
+          {
+            "label": {
+              "en": "Housing",
+              "ru": "Жильё"
+            },
+            "amount": 13793
+          },
+          {
+            "label": {
+              "en": "Food",
+              "ru": "Питание"
+            },
+            "amount": 7282
+          },
+          {
+            "label": {
+              "en": "Books and supplies",
+              "ru": "Книги и материалы"
+            },
+            "amount": 1700
+          },
+          {
+            "label": {
+              "en": "Transportation",
+              "ru": "Транспорт"
+            },
+            "amount": 1100
+          },
+          {
+            "label": {
+              "en": "Personal expenses",
+              "ru": "Личные расходы"
+            },
+            "amount": 2525
+          }
+        ],
+        "billedSubtotal": null,
+        "totalText": {
+          "en": "University-printed international on-campus total: USD 85,809; component sum unresolved",
+          "ru": "Напечатанный международный итог для кампуса: 85 809 USD; сумма компонентов не согласована"
+        },
+        "note": {
+          "en": "Previous 2026–2027 cohort, not Fall 2027. Campus housing, first-term fees, insurance conditions and programme extras require separate review. Competitive merit is not deducted.",
+          "ru": "Предыдущий набор 2026–2027, не осень 2027. Кампусное жильё, сборы первого семестра, условия страховки и доплаты программ проверяются отдельно. Конкурсная помощь не вычитается."
+        },
+        "conflict": {
+          "text": {
+            "en": "The international on-campus rows add to USD 85,284 (UniPath calculation), while the university prints USD 85,809: unexplained difference USD 525. The resident first-year table uses different transportation/personal estimates; those values are not silently substituted. Additional first-term orientation USD 300 and records USD 315 are listed separately and do not reconcile that difference. Both printed rows and total are retained; no reconciled billed or full budget is assigned.",
+            "ru": "Сумма международных строк для кампуса — 85 284 USD (расчёт UniPath), университет печатает 85 809 USD: необъяснённая разница 525 USD. В резидентской таблице первого курса иные оценки транспорта/личных расходов; они не подставлены автоматически. Дополнительные сборы первого семестра за ориентацию 300 и записи 315 USD указаны отдельно и не объясняют эту разницу. Строки и итог сохранены; согласованный выставляемый или полный бюджет не присвоен."
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "university-of-illinois-chicago",
+    "topic": "remaining-cost-review",
+    "source": "https://ois.uic.edu/immigration/estimated-expenses/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "international F-1/J-1 undergraduate funding by named school; normally nine months",
+    "campus": "Chicago",
+    "access": "html-read",
+    "quote": "2026-27 estimated expenses by program",
+    "facts": {
+      "academicYear": "2026–2027",
+      "fundingBySchool": {
+        "general": 55570,
+        "business": 58370,
+        "engineering": 58266,
+        "listedLASsciencesPsychology": 57672
+      },
+      "living": 18125,
+      "booksOrientation": 1849,
+      "publicCost": {
+        "status": "previous-cycle",
+        "academicYear": "2026–2027",
+        "currency": "USD",
+        "studentCategory": {
+          "en": "International undergraduate funding estimate by programme, normally nine months",
+          "ru": "Международная финансовая смета бакалавриата по программе, обычно девять месяцев"
+        },
+        "breakdown": {
+          "period": "year",
+          "includes": {
+            "en": "Official scoped reference before aid; not a Fall 2027 price or guaranteed net cost",
+            "ru": "Официальная справка с указанными условиями до помощи; не цена осени 2027 и не гарантированная стоимость после помощи"
+          }
+        },
+        "headline": {
+          "en": "Previous-cycle cost reference — check programme and exclusions",
+          "ru": "Справка предыдущего цикла — проверяйте программу и исключения"
+        },
+        "items": [
+          {
+            "label": {
+              "en": "Living expenses — international funding estimate",
+              "ru": "Жизнь — международная финансовая смета"
+            },
+            "amount": 18125,
+            "group": "estimate"
+          },
+          {
+            "label": {
+              "en": "Books and orientation",
+              "ru": "Книги и ориентация"
+            },
+            "amount": 1849,
+            "group": "estimate"
+          }
+        ],
+        "billedSubtotal": null,
+        "totalText": {
+          "en": "Published I-20/DS-2019 funding: general USD 55,570; Business USD 58,370; Engineering USD 58,266",
+          "ru": "Опубликованные суммы финансового подтверждения I-20/DS-2019: общая 55 570; Business 58 370; Engineering 58 266 USD"
+        },
+        "note": {
+          "en": "2026–2027 international funding table, not an exact bill or Fall 2027 price. Annual tuition and fees: general programmes 35,596; Business 38,396; Engineering and CS/Linguistics 38,292; listed LAS sciences/Psychology 37,698 USD. Each adds living 18,125 and books/orientation 1,849 USD. Published corresponding totals: 55,570; 58,370; 58,266; 57,672 USD. Other listed schools differ. A general programme amount is not assigned to every major. Proof of funding does not establish complete personal spending or deduct a scholarship.",
+          "ru": "Международная таблица финансового подтверждения 2026–2027, не точный счёт и не цена осени 2027. Годовые обучение и сборы: общие программы 35 596; Business 38 396; Engineering и CS/Linguistics 38 292; указанные естественные науки LAS/Psychology 37 698 USD. Для каждой добавлены жизнь 18 125 и книги/ориентация 1 849 USD. Соответствующие опубликованные итоги: 55 570; 58 370; 58 266; 57 672 USD. Другие школы отличаются. Цена общей программы не присвоена всем направлениям. Финансовое подтверждение не устанавливает все личные расходы; стипендия не вычитается."
+        }
+      }
+    }
+  },
+  {
+    "id": "university-of-missouri",
+    "topic": "remaining-cost-review",
+    "source": "https://admissions.missouri.edu/costs-aid/costs/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "international full-time undergraduate; 12–18 credits each fall/spring term; summer living without summer tuition",
+    "campus": "Columbia",
+    "access": "html-read",
+    "quote": "Yearly Total** (12 months):",
+    "facts": {
+      "academicYear": "2026–2027",
+      "tuitionFeesAnnual": [
+        39688,
+        43816
+      ],
+      "fall": [
+        29585,
+        31649
+      ],
+      "spring": [
+        30039,
+        32103
+      ],
+      "summerLiving": 2500,
+      "year12months": [
+        62124,
+        66252
+      ],
+      "oneTimeEnrollment": 300,
+      "publicCost": {
+        "status": "previous-cycle",
+        "academicYear": "2026–2027",
+        "currency": "USD",
+        "studentCategory": {
+          "en": "International undergraduate, 12-month estimate with fall/spring study and summer living",
+          "ru": "Иностранный бакалавр, смета 12 месяцев с обучением осенью/весной и летней жизнью"
+        },
+        "breakdown": {
+          "period": "year",
+          "includes": {
+            "en": "Official scoped reference before aid; not a Fall 2027 price or guaranteed net cost",
+            "ru": "Официальная справка с указанными условиями до помощи; не цена осени 2027 и не гарантированная стоимость после помощи"
+          }
+        },
+        "headline": {
+          "en": "Previous-cycle cost reference — check programme and exclusions",
+          "ru": "Справка предыдущего цикла — проверяйте программу и исключения"
+        },
+        "items": [
+          {
+            "label": {
+              "en": "International annual tuition and fees — programme tiers",
+              "ru": "Годовые международные обучение и сборы — уровни программ"
+            },
+            "min": 39688,
+            "max": 43816,
+            "group": "estimate"
+          },
+          {
+            "label": {
+              "en": "Books and supplies",
+              "ru": "Книги и материалы"
+            },
+            "amount": 918,
+            "group": "estimate"
+          },
+          {
+            "label": {
+              "en": "Housing and food — fall/spring",
+              "ru": "Жильё и питание — осень/весна"
+            },
+            "amount": 12734,
+            "group": "estimate"
+          },
+          {
+            "label": {
+              "en": "Personal expenses — fall/spring",
+              "ru": "Личные расходы — осень/весна"
+            },
+            "amount": 3466,
+            "group": "estimate"
+          },
+          {
+            "label": {
+              "en": "Medical insurance including summer",
+              "ru": "Медицинская страховка, включая лето"
+            },
+            "amount": 2818,
+            "group": "estimate"
+          },
+          {
+            "label": {
+              "en": "Summer living estimate",
+              "ru": "Летняя смета жизни"
+            },
+            "amount": 2500,
+            "group": "estimate"
+          }
+        ],
+        "billedSubtotal": null,
+        "totalText": {
+          "en": "Published 12-month international estimate: USD 62,124–66,252 by tuition tier",
+          "ru": "Опубликованная международная смета 12 месяцев: 62 124–66 252 USD по уровню обучения"
+        },
+        "note": {
+          "en": "2026–2027 published international estimate for 12–18 credits per fall/spring term. Tuition depends on primary academic plan and on-campus/distance location; this is a genuine programme range, not a source conflict or average. Summer estimate excludes tuition, fees, books and supplies; spring insurance includes summer. One-time enrollment fee USD 300 is additional; USD 4,000 per dependent is additional. No universal Fall 2027 price, guaranteed aid or scholarship deduction.",
+          "ru": "Опубликованная международная смета 2026–2027 при 12–18 кредитах за осенний/весенний семестр. Плата зависит от основной программы и кампусного/дистанционного формата; это настоящий диапазон программ, не конфликт источников и не среднее. Летняя смета не включает обучение, сборы, книги и материалы; весенняя страховка включает лето. Разовый enrollment fee 300 USD и 4 000 USD на каждого иждивенца добавляются отдельно. Универсальная цена осени 2027, гарантированная помощь и вычет стипендии не утверждаются."
+        }
+      }
+    }
+  },
+  {
+    "id": "florida-international-university",
+    "topic": "remaining-cost-review",
+    "source": "https://onestop.fiu.edu/finances/estimate-your-costs/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "nonresident on-campus standard undergraduate; per-semester rows; published fall/spring annual total",
+    "campus": "FIU nonresident on-campus; exact teaching campus/programme checked separately",
+    "access": "html-read",
+    "quote": "Total Fall & Spring Cost: $45,488",
+    "facts": {
+      "academicYear": "2026–2027",
+      "semesterTuition": 10926,
+      "semesterFees": 199,
+      "semesterTotal": 22744,
+      "publishedAnnualTotal": 45488,
+      "insurance": "not specified",
+      "load": "not established",
+      "publicCost": {
+        "status": "previous-cycle",
+        "academicYear": "2026–2027",
+        "currency": "USD",
+        "studentCategory": {
+          "en": "Non-Florida resident undergraduate, on-campus, fall/spring; rows are per semester",
+          "ru": "Бакалавр-нерезидент Флориды в кампусе, осень/весна; строки за семестр"
+        },
+        "breakdown": {
+          "period": "semester",
+          "includes": {
+            "en": "Official scoped reference before aid; not a Fall 2027 price or guaranteed net cost",
+            "ru": "Официальная справка с указанными условиями до помощи; не цена осени 2027 и не гарантированная стоимость после помощи"
+          }
+        },
+        "headline": {
+          "en": "Previous-cycle cost reference — check programme and exclusions",
+          "ru": "Справка предыдущего цикла — проверяйте программу и исключения"
+        },
+        "items": [
+          {
+            "label": {
+              "en": "Tuition — one semester",
+              "ru": "Обучение — один семестр"
+            },
+            "amount": 10926,
+            "group": "billed"
+          },
+          {
+            "label": {
+              "en": "Fees — one semester",
+              "ru": "Сборы — один семестр"
+            },
+            "amount": 199,
+            "group": "billed"
+          },
+          {
+            "label": {
+              "en": "Conditional federal loan origination fee — one semester",
+              "ru": "Условный сбор федерального кредита — один семестр"
+            },
+            "amount": 25,
+            "group": "estimate"
+          },
+          {
+            "label": {
+              "en": "Books and supplies — one semester",
+              "ru": "Книги и материалы — один семестр"
+            },
+            "amount": 675,
+            "group": "estimate"
+          },
+          {
+            "label": {
+              "en": "Housing — one semester",
+              "ru": "Жильё — один семестр"
+            },
+            "amount": 5025,
+            "group": "billed"
+          },
+          {
+            "label": {
+              "en": "Food — one semester",
+              "ru": "Питание — один семестр"
+            },
+            "amount": 2595,
+            "group": "billed"
+          },
+          {
+            "label": {
+              "en": "Transportation — one semester",
+              "ru": "Транспорт — один семестр"
+            },
+            "amount": 1515,
+            "group": "estimate"
+          },
+          {
+            "label": {
+              "en": "Personal expenses — one semester",
+              "ru": "Личные расходы — один семестр"
+            },
+            "amount": 1784,
+            "group": "estimate"
+          }
+        ],
+        "billedSubtotal": null,
+        "totalText": {
+          "en": "Published term estimate USD 22,744; fall/spring total USD 45,488",
+          "ru": "Опубликованная смета семестра 22 744 USD; итог осени/весны 45 488 USD"
+        },
+        "note": {
+          "en": "2026–2027 nonresident standard undergraduate table, not online or graduate. Every component above is PER SEMESTER; the annual total is separately printed by FIU. The table does not establish programme-specific credit load or international health-insurance inclusion. The federal-loan fee is conditional and not automatically a charge for an international student. The old international admissions table has no established year; its lower rates are not substituted. No complete international Fall 2027 budget or aid deduction.",
+          "ru": "Таблица 2026–2027 для обычного бакалавриата нерезидента, не online и не graduate. Каждый компонент выше — ЗА СЕМЕСТР; годовой итог напечатан FIU отдельно. Таблица не устанавливает кредитную нагрузку конкретной программы и включение международной медицинской страховки. Сбор федерального кредита условный, он не считается автоматическим платежом иностранца. У старой международной страницы приёма не установлен год; её меньшие ставки не подставлены. Полный международный бюджет осени 2027 и вычет помощи не утверждаются."
+        }
+      }
+    }
+  },
+  {
+    "id": "university-of-south-florida",
+    "topic": "remaining-cost-review",
+    "source": "https://tup-ofa.forest.usf.edu/finaid/coa/2627_on_campus",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "non-Florida resident undergraduate on-campus; 28 credits/year, 14/semester",
+    "campus": "USF on-campus standard estimate; campus/room choice requires verification",
+    "access": "html-read",
+    "quote": "2026-27 STUDENTS LIVING ON CAMPUS",
+    "facts": {
+      "academicYear": "2026–2027",
+      "creditsPerYear": 28,
+      "publishedBilled": 34254,
+      "publishedCOA": 40134,
+      "internationalInsurance": "not separately established",
+      "publicCost": {
+        "status": "previous-cycle",
+        "academicYear": "2026–2027",
+        "currency": "USD",
+        "studentCategory": {
+          "en": "Non-Florida undergraduate, on-campus, 28 credits over fall/spring",
+          "ru": "Бакалавр-нерезидент Флориды в кампусе, 28 кредитов за осень/весну"
+        },
+        "breakdown": {
+          "period": "year",
+          "includes": {
+            "en": "Official scoped reference before aid; not a Fall 2027 price or guaranteed net cost",
+            "ru": "Официальная справка с указанными условиями до помощи; не цена осени 2027 и не гарантированная стоимость после помощи"
+          }
+        },
+        "headline": {
+          "en": "Previous-cycle cost reference — check programme and exclusions",
+          "ru": "Справка предыдущего цикла — проверяйте программу и исключения"
+        },
+        "items": [
+          {
+            "label": {
+              "en": "Tuition and fees — 28 credits/year",
+              "ru": "Обучение и сборы — 28 кредитов в год"
+            },
+            "amount": 18846,
+            "group": "billed"
+          },
+          {
+            "label": {
+              "en": "On-campus housing",
+              "ru": "Кампусное жильё"
+            },
+            "amount": 9638,
+            "group": "billed"
+          },
+          {
+            "label": {
+              "en": "Food",
+              "ru": "Питание"
+            },
+            "amount": 5770,
+            "group": "billed"
+          },
+          {
+            "label": {
+              "en": "Books and supplies",
+              "ru": "Книги и материалы"
+            },
+            "amount": 728,
+            "group": "estimate"
+          },
+          {
+            "label": {
+              "en": "Transportation",
+              "ru": "Транспорт"
+            },
+            "amount": 2176,
+            "group": "estimate"
+          },
+          {
+            "label": {
+              "en": "Personal allowance",
+              "ru": "Личные расходы"
+            },
+            "amount": 2976,
+            "group": "estimate"
+          }
+        ],
+        "billedSubtotal": 34254,
+        "totalText": {
+          "en": "Published nonresident standard COA: USD 40,134 at 28 credits/year",
+          "ru": "Опубликованная стандартная COA нерезидента: 40 134 USD при 28 кредитах в год"
+        },
+        "note": {
+          "en": "2026–2027 fall/spring nonresident table; published billable subtotal USD 34,254. Standard undergraduate load is 28 credits/year, not 30 credits, and shorter attendance changes the budget. No campus-specific room, higher programme load or international insurance price is established by this table; no full international Fall 2027 budget or competitive award is assumed.",
+          "ru": "Таблица нерезидента за осень/весну 2026–2027; опубликованный выставляемый подытог 34 254 USD. Стандартная нагрузка бакалавриата — 28, не 30 кредитов в год; меньший период меняет бюджет. Таблица не устанавливает цену конкретного жилья кампуса, большей нагрузки программы или международной страховки; полный международный бюджет осени 2027 и конкурсная награда не предполагаются."
+        }
+      }
+    }
+  },
+  {
+    "id": "university-of-colorado-boulder",
+    "topic": "remaining-cost-review",
+    "source": "https://www.colorado.edu/bursar/costs/undergraduate",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "incoming international undergraduate, Fall2026/Spring2027; named tuition tiers and partial billed-cost table",
+    "campus": "Boulder; international incoming cohort",
+    "access": "html-read",
+    "quote": "Undergraduate International Cost",
+    "facts": {
+      "academicYear": "2026–2027",
+      "internationalTuitionFeesAnnual": {
+        "base": 48222,
+        "CMDI": 50154,
+        "engineeringNaturalSciences": 51834,
+        "business": 52324
+      },
+      "publishedPartialTotals": {
+        "base": 68664,
+        "CMDI": 70596,
+        "engineeringNaturalSciences": 72276,
+        "business": 72766
+      },
+      "excludedNewStudent": 500,
+      "excludedImmigrationCompliancePerSemester": 40,
+      "publicCost": {
+        "status": "previous-cycle",
+        "academicYear": "2026–2027",
+        "currency": "USD",
+        "studentCategory": {
+          "en": "New international undergraduate, named programme tiers, two semesters",
+          "ru": "Новый иностранный бакалавр, уровни именованных программ, два семестра"
+        },
+        "breakdown": {
+          "period": "year",
+          "includes": {
+            "en": "Official scoped reference before aid; not a Fall 2027 price or guaranteed net cost",
+            "ru": "Официальная справка с указанными условиями до помощи; не цена осени 2027 и не гарантированная стоимость после помощи"
+          }
+        },
+        "headline": {
+          "en": "Previous-cycle cost reference — check programme and exclusions",
+          "ru": "Справка предыдущего цикла — проверяйте программу и исключения"
+        },
+        "items": [
+          {
+            "label": {
+              "en": "Books and supplies",
+              "ru": "Книги и материалы"
+            },
+            "amount": 1200,
+            "group": "billed"
+          },
+          {
+            "label": {
+              "en": "Standard double room and 19-meal plan",
+              "ru": "Стандартная двухместная комната и питание 19 раз в неделю"
+            },
+            "amount": 19242,
+            "group": "billed"
+          }
+        ],
+        "billedSubtotal": null,
+        "totalText": {
+          "en": "Published partial annual totals: base USD 68,664; CMDI 70,596; engineering/natural sciences 72,276; business 72,766",
+          "ru": "Опубликованные частичные годовые итоги: база 68 664; CMDI 70 596; engineering/natural sciences 72 276; business 72 766 USD"
+        },
+        "note": {
+          "en": "2026–2027 INTERNATIONAL rates are distinct from domestic nonresident rates. Annual tuition plus undergraduate fees: base 48,222; CMDI 50,154; Engineering/Natural Sciences 51,834; Business 52,324 USD. Each includes separately listed books 1,200 and housing/19-meal plan 19,242 in the printed partial total. Do not use the base price for Business or Engineering. New international student fee USD 500 and immigration compliance USD 40/semester are excluded, as are medical insurance, transportation and personal expenses. This is not a full COA or Fall 2027 price; no scholarship deduction.",
+          "ru": "МЕЖДУНАРОДНЫЕ ставки 2026–2027 отличаются от ставок внутренних нерезидентов. Годовые обучение плюс сборы: база 48 222; CMDI 50 154; Engineering/Natural Sciences 51 834; Business 52 324 USD. В напечатанный частичный итог для каждого входят отдельно указанные книги 1 200 и жильё/питание 19 раз в неделю 19 242 USD. Базовая цена не применяется к Business или Engineering. Исключены новый международный сбор 500 USD, immigration compliance 40 USD за семестр, медицинская страховка, транспорт и личные расходы. Это не полная COA и не цена осени 2027; стипендия не вычитается."
+        }
+      }
+    }
+  },
+  {
+    "id": "university-of-new-hampshire",
+    "topic": "remaining-cost-review",
+    "source": "https://www.unh.edu/financialaid/resources/international-students-estimate-expenses",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "international full-time Durham undergraduate, 12–20 credits, nine months; named programme supplements",
+    "campus": "Durham",
+    "access": "html-read",
+    "quote": "Durham Campus Estimate of Expenses - AY2026/2027",
+    "facts": {
+      "academicYear": "2026–2027",
+      "publishedDirect": 59452,
+      "publishedTotalNineMonths": 64247,
+      "engineeringCSAddition": 1504,
+      "businessEconomicsAddition": 1452,
+      "oneTimeNewStudentFeeSeparateSource": 400,
+      "publicCost": {
+        "status": "previous-cycle",
+        "academicYear": "2026–2027",
+        "currency": "USD",
+        "studentCategory": {
+          "en": "International Durham undergraduate, 12–20 credits/semester, nine months",
+          "ru": "Иностранный бакалавр Durham, 12–20 кредитов за семестр, девять месяцев"
+        },
+        "breakdown": {
+          "period": "year",
+          "includes": {
+            "en": "Official scoped reference before aid; not a Fall 2027 price or guaranteed net cost",
+            "ru": "Официальная справка с указанными условиями до помощи; не цена осени 2027 и не гарантированная стоимость после помощи"
+          },
+          "tuition": 37996
+        },
+        "headline": {
+          "en": "Previous-cycle cost reference — check programme and exclusions",
+          "ru": "Справка предыдущего цикла — проверяйте программу и исключения"
+        },
+        "items": [
+          {
+            "label": {
+              "en": "Base nonresident tuition",
+              "ru": "Базовое обучение нерезидента"
+            },
+            "amount": 37996,
+            "group": "billed"
+          },
+          {
+            "label": {
+              "en": "Mandatory and technology fees",
+              "ru": "Обязательные и технологические сборы"
+            },
+            "amount": 3868,
+            "group": "billed"
+          },
+          {
+            "label": {
+              "en": "Housing estimate",
+              "ru": "Смета жилья"
+            },
+            "amount": 9410,
+            "group": "billed"
+          },
+          {
+            "label": {
+              "en": "Food",
+              "ru": "Питание"
+            },
+            "amount": 5624,
+            "group": "billed"
+          },
+          {
+            "label": {
+              "en": "Required F-1/J-1 student health plan",
+              "ru": "Обязательная студенческая страховка F-1/J-1"
+            },
+            "amount": 2554,
+            "group": "billed"
+          },
+          {
+            "label": {
+              "en": "Books and supplies",
+              "ru": "Книги и материалы"
+            },
+            "amount": 1000,
+            "group": "estimate"
+          },
+          {
+            "label": {
+              "en": "Miscellaneous expenses",
+              "ru": "Прочие расходы"
+            },
+            "amount": 3795,
+            "group": "estimate"
+          }
+        ],
+        "billedSubtotal": 59452,
+        "totalText": {
+          "en": "Published base international nine-month COA: USD 64,247; programme additions apply",
+          "ru": "Опубликованная базовая международная COA девяти месяцев: 64 247 USD; действуют доплаты программы"
+        },
+        "note": {
+          "en": "2026–2027 Durham international table includes mandatory F-1/J-1 UNH health plan USD 2,554 and published direct subtotal USD 59,452. Add USD 1,504 for CEPS Engineering/CS or USD 1,452 for Paul Business/Economics. The separate Durham billing page lists one-time new-student administration USD 400, nursing/music supplements and course fees; they are not silently included in the base total. Manchester/online prices and graduate estimates are excluded. No guaranteed Fall 2027 full budget or competitive-aid deduction.",
+          "ru": "Международная таблица Durham 2026–2027 включает обязательный план UNH для F-1/J-1 2 554 USD и опубликованный прямой подытог 59 452 USD. Добавляются 1 504 USD для CEPS Engineering/CS или 1 452 USD для Paul Business/Economics. Отдельная страница счетов Durham указывает разовый административный сбор нового студента 400 USD, доплаты nursing/music и курсов; они не считаются автоматически включёнными в базовый итог. Цены Manchester/online и graduate исключены. Гарантированный полный бюджет осени 2027 и вычет конкурсной помощи не утверждаются."
+        }
+      }
+    }
+  },
+  {
+    "id": "university-of-california-santa-cruz",
+    "topic": "remaining-cost-access-review",
+    "source": "https://financialaid.ucsc.edu/managing-aid/budget-cost-to-attend/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "entering undergraduate 2026–2027 nonresident budget; direct source reading required",
+    "campus": "Santa Cruz",
+    "access": "502-unavailable",
+    "quote": null,
+    "facts": null,
+    "unresolved": "Search returned a detailed lead, but direct reading twice returned502. No source figures installed from the search summary; retry the official page or an accessible official document."
   }
 ]

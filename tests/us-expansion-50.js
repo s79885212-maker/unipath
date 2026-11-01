@@ -276,6 +276,19 @@ module.exports=function(env){
      day&&day.admissions.deadlines[0].date==='1 May',
      'undated Albany cost, blocked Pacific current policy and Dayton international May1 are not filled from unrelated routes');
   var clem=U.uniById('clemson-university'),aub=U.uniById('auburn-university'),conn=U.uniById('university-of-connecticut');
+  var riversideCost=U.uniById('university-of-california-riverside'),fiuCost=U.uniById('florida-international-university');
+  ok(U.costStatus(riversideCost)==='conflict'&&riversideCost.costs.items.reduce(function(n,x){return n+x.amount;},0)===85284&&
+     /85,809/.test(riversideCost.costs.totalText)&&/525/.test(riversideCost.costs.conflict.text)&&
+     [null,0,100000].every(function(b){return budget(riversideCost,b).status==='conflict';})&&!DB.match.annualCost[riversideCost.id],
+     'Riverside retains the printed international total and its conflicting rows at every budget, without substituting resident expense lines');
+  ok(fiuCost.costs.breakdown.period==='semester'&&fiuCost.costs.items[0].amount===10926&&
+     /45,488/.test(fiuCost.costs.totalText)&&!DB.match.annualCost[fiuCost.id]&&budget(fiuCost,100000).status==='unknown'&&
+     U.costStatus(U.uniById('indiana-university-bloomington'))==='not-checked'&&U.costYear(U.uniById('indiana-university-bloomington'))===null,
+     'FIU semester rows do not become annual tuition; IU undated cost table is not assigned a year from viewing or office holiday dates');
+  ok(/INTERNATIONAL rates/.test(boulder.costs.note)&&/48,222/.test(boulder.costs.note)&&/52,324/.test(boulder.costs.note)&&
+     U.budgetAmount(boulder)===null&&U.budgetAmount(U.uniById('university-of-illinois-chicago'))===null&&
+     U.uniById('university-of-new-hampshire').costs.billedSubtotal===59452&&/1,504/.test(U.uniById('university-of-new-hampshire').costs.note),
+     'Boulder international tiers differ from domestic nonresident pricing; UIC proof of funding and UNH programme additions stay scoped');
   ok([clem,aub].every(function(u){return U.costStatus(u)==='conflict'&&[null,0,100000].every(function(b){return budget(u,b).status==='conflict';});})&&
      /42,852/.test(clem.costs.conflict.text)&&/43,852/.test(clem.costs.conflict.text)&&/transportation/.test(aub.costs.conflict.text)&&
      DB.match.annualCost[aub.id].basis==='tuition'&&DB.match.annualCost[aub.id].min===39658,
