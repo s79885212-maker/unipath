@@ -11758,5 +11758,696 @@
         "ru": "Английский — указание кампуса Knoxville в официальном шаблоне бакалаврского обмена; курсы иностранных языков и индивидуальные условия проверяются отдельно"
       }
     }
+  },
+  {
+    "id": "north-carolina-state-university",
+    "topic": "remaining-award-review",
+    "source": "https://park.ncsu.edu/apply/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "Park first-year eligibility; residence/school-system restriction",
+    "campus": "Raleigh",
+    "access": "html-read",
+    "quote": "Be a United States citizen, permanent resident of the U.S., or graduating from a high school located in the U.S.",
+    "facts": {
+      "publicFullRideNote": {
+        "en": "Park requires US citizenship, permanent residency, or graduation from a US high school. Goodnight requires North Carolina residence or an international student living in North Carolina and graduating from a North Carolina school. Neither is assigned to a typical applicant completing school in Uzbekistan. Other international merit opportunities may exist; the largest applicable award is not established.",
+        "ru": "Park требует гражданство США, постоянное резидентство либо окончание школы в США. Goodnight требует резидентство Северной Каролины либо проживание иностранного ученика в штате и окончание местной школы. Они не присвоены обычному выпускнику школы Узбекистана. Другие международные merit-возможности возможны; крупнейшая применимая награда не установлена."
+      },
+      "supportingSources": [
+        "https://goodnight.ncsu.edu/frequently-asked-questions/"
+      ]
+    }
+  },
+  {
+    "id": "north-carolina-state-university",
+    "topic": "remaining-award-review",
+    "source": "https://goodnight.ncsu.edu/frequently-asked-questions/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "Goodnight geographic and school-system eligibility; not an ordinary Uzbekistan-school award",
+    "campus": "Raleigh",
+    "access": "html-read",
+    "quote": "international students who are living in North Carolina and will graduate from a North Carolina high school or community college",
+    "facts": {
+      "geographicRestriction": "North Carolina residence / living in North Carolina and graduating from a North Carolina school or community college",
+      "stacking": "Cannot hold both Park and Goodnight",
+      "amountConflict": "FAQ says up to USD23000/year, home/about page says USD25000/year; no amount assigned to the ordinary Uzbekistan-school applicant"
+    }
+  },
+  {
+    "id": "rutgers-university-newark",
+    "topic": "remaining-award-review",
+    "source": "https://admissions.rutgers.edu/costs-and-aid/scholarships",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "Newark international first-year merit consideration; no campus transfer of award",
+    "campus": "Newark",
+    "access": "html-read",
+    "quote": "Rutgers–Newark scholarships are renewable for four semesters for transfer students and eight semesters for first-year students",
+    "facts": {
+      "publicMerit": [
+        {
+          "id": "newark-international-merit-review",
+          "category": "merit",
+          "basis": "merit",
+          "name": {
+            "en": "Newark international merit consideration",
+            "ru": "Рассмотрение международной merit-помощи Newark"
+          },
+          "amount": null,
+          "eligibility": {
+            "en": "International first-year applicants are considered; individual awards have their own academic criteria. The page does not separately establish which named Newark award or maximum applies to every F-1 applicant.",
+            "ru": "Иностранные первокурсники рассматриваются; у отдельных наград собственные академические критерии. Страница отдельно не устанавливает конкретную именованную награду Newark и максимум для каждого абитуриента F-1."
+          },
+          "renewable": {
+            "en": "Up to eight semesters with continuous full-time Newark enrolment and the award-specific academic requirements",
+            "ru": "До восьми семестров при непрерывной полной нагрузке в Newark и выполнении академических условий конкретной награды"
+          },
+          "application": {
+            "en": "No separate merit application; annual December 1 admission priority, May 1 acceptance; cycle year not established here",
+            "ru": "Отдельной merit-заявки нет; ежегодный приоритет поступления 1 декабря, принятие предложения до 1 мая; год цикла здесь не установлен"
+          },
+          "note": {
+            "en": "Newark awards cannot transfer between its schools or to New Brunswick/Camden. Amount and stacking are unconfirmed; automatic consideration is not a guaranteed award.",
+            "ru": "Награды Newark не переносятся между его школами и в New Brunswick/Camden. Сумма и совместимость не подтверждены; автоматическое рассмотрение не гарантирует награду."
+          },
+          "deadlineScope": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "rutgers-university-camden",
+    "topic": "remaining-award-review",
+    "source": "https://admissions.rutgers.edu/international-chancellor-scholarship",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "Nonsponsored F-1 first-year applicants; amount conflict with central scholarship overview",
+    "campus": "Camden",
+    "access": "html-read",
+    "quote": "All Undergraduate International Chancellor’s Scholarships are renewable if the student maintains a 2.5 GPA at Rutgers–Camden.",
+    "facts": {
+      "publicMerit": [
+        {
+          "id": "camden-international-chancellor",
+          "category": "merit",
+          "basis": "merit",
+          "name": {
+            "en": "International Chancellor’s Scholarship — conflicting published maximum",
+            "ru": "International Chancellor’s Scholarship — противоречие опубликованных максимумов"
+          },
+          "amount": {
+            "en": "Official pages conflict: overview up to USD 17,000/year; detailed page USD 16,000 / USD 18,000 / USD 21,000/year",
+            "ru": "Официальные страницы расходятся: обзор до 17 000 USD в год; подробная страница 16 000 / 18 000 / 21 000 USD в год"
+          },
+          "eligibility": {
+            "en": "Nonsponsored, self-funded international F-1 students admitted full-time to Camden. Detailed first-year weighted GPA tiers are 2.8–3.19 / 3.2–3.69 / 3.7–4.0; equivalence to an Uzbek school scale is not established.",
+            "ru": "Иностранные студенты F-1 без внешнего спонсора, оплачивающие обучение самостоятельно и зачисленные с полной нагрузкой в Camden. Подробные диапазоны взвешенного GPA первокурсника: 2,8–3,19 / 3,2–3,69 / 3,7–4,0; соответствие узбекской школьной шкале не установлено."
+          },
+          "renewable": {
+            "en": "Renewable with at least 2.5 college GPA at Rutgers–Camden; maximum duration and other renewal conditions require verification",
+            "ru": "Продлевается при GPA в Rutgers–Camden не ниже 2,5; максимальная длительность и прочие условия требуют проверки"
+          },
+          "application": {
+            "en": "No separate scholarship application; qualifying admitted applicants are automatically considered",
+            "ru": "Отдельной стипендиальной заявки нет; подходящие зачисленные абитуриенты рассматриваются автоматически"
+          },
+          "note": {
+            "en": "The detailed amount table and central overview are both retained because neither establishes a replacement date. Stacking and a 2027 award year are unconfirmed; no amount is deducted from budget.",
+            "ru": "Подробная таблица и центральный обзор сохранены, поскольку дата замены тарифов не установлена. Совместимость и год награды 2027 не подтверждены; сумма не вычитается из бюджета."
+          },
+          "deadlineScope": "no-separate-application",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      ],
+      "supportingSources": [
+        "https://admissions.rutgers.edu/costs-and-aid/scholarships"
+      ],
+      "amountConflict": {
+        "overviewAnnualMaximum": 17000,
+        "detailedAnnualAmounts": [
+          16000,
+          18000,
+          21000
+        ]
+      }
+    }
+  },
+  {
+    "id": "university-of-connecticut",
+    "topic": "remaining-award-review",
+    "source": "https://admissions.uconn.edu/cost-aid/scholarship/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "International first-year merit alternatives; Stamps all-applicant heading, Storrs restriction",
+    "campus": "Storrs for Stamps; Global awards all campuses",
+    "access": "html-read",
+    "quote": "The Stamps Scholarship is a full cost-of-attendance scholarship renewable for four years",
+    "facts": {
+      "publicMerit": [
+        {
+          "id": "uconn-global-excellence",
+          "category": "merit",
+          "basis": "merit",
+          "name": {
+            "en": "Global Excellence Award",
+            "ru": "Global Excellence Award"
+          },
+          "amount": null,
+          "eligibility": {
+            "en": "International first-year applicants, all campuses; academic achievement and leadership reviewed competitively",
+            "ru": "Иностранные первокурсники, все кампусы; конкурсная оценка академических достижений и лидерства"
+          },
+          "renewable": {
+            "en": "Fixed award amount, up to four years/eight full-time semesters, annual SAP review and at least 2.5 college GPA",
+            "ru": "Фиксированная сумма, до четырёх лет/восьми семестров полной нагрузки, ежегодная проверка успеваемости SAP и GPA в университете не ниже 2,5"
+          },
+          "application": {
+            "en": "Automatic consideration; December 1 annual priority, no cycle year established for this priority",
+            "ru": "Автоматическое рассмотрение; ежегодный приоритет 1 декабря, год цикла для этого приоритета не установлен"
+          },
+          "note": {
+            "en": "Only one merit-based admissions scholarship may be received. Exact amount not printed here; award letter controls. Off-campus housing/food not associated with university plans is not covered.",
+            "ru": "Можно получать только одну merit-стипендию при поступлении. Точная сумма здесь не опубликована; действует письмо о награде. Внекампусное жильё/питание вне университетских планов не покрывается."
+          },
+          "deadlineScope": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null
+        },
+        {
+          "id": "uconn-global-distinction",
+          "category": "merit",
+          "basis": "merit",
+          "name": {
+            "en": "Global Distinction Award",
+            "ru": "Global Distinction Award"
+          },
+          "amount": null,
+          "eligibility": {
+            "en": "International first-year applicants, all campuses; academic achievement and leadership reviewed competitively",
+            "ru": "Иностранные первокурсники, все кампусы; конкурсная оценка академических достижений и лидерства"
+          },
+          "renewable": {
+            "en": "Fixed award amount, up to four years/eight full-time semesters, annual SAP review and at least 2.5 college GPA",
+            "ru": "Фиксированная сумма, до четырёх лет/восьми семестров полной нагрузки, ежегодная проверка успеваемости SAP и GPA в университете не ниже 2,5"
+          },
+          "application": {
+            "en": "Automatic consideration; December 1 annual priority, no cycle year established for this priority",
+            "ru": "Автоматическое рассмотрение; ежегодный приоритет 1 декабря, год цикла для этого приоритета не установлен"
+          },
+          "note": {
+            "en": "Only one merit-based admissions scholarship may be received. Exact amount not printed here; award letter controls. Off-campus housing/food not associated with university plans is not covered.",
+            "ru": "Можно получать только одну merit-стипендию при поступлении. Точная сумма здесь не опубликована; действует письмо о награде. Внекампусное жильё/питание вне университетских планов не покрывается."
+          },
+          "deadlineScope": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null
+        },
+        {
+          "id": "uconn-global-leader",
+          "category": "merit",
+          "basis": "merit",
+          "name": {
+            "en": "Global Leader Award",
+            "ru": "Global Leader Award"
+          },
+          "amount": null,
+          "eligibility": {
+            "en": "International first-year applicants, all campuses; academic achievement and leadership reviewed competitively",
+            "ru": "Иностранные первокурсники, все кампусы; конкурсная оценка академических достижений и лидерства"
+          },
+          "renewable": {
+            "en": "Fixed award amount, up to four years/eight full-time semesters, annual SAP review and at least 2.5 college GPA",
+            "ru": "Фиксированная сумма, до четырёх лет/восьми семестров полной нагрузки, ежегодная проверка успеваемости SAP и GPA в университете не ниже 2,5"
+          },
+          "application": {
+            "en": "Automatic consideration; December 1 annual priority, no cycle year established for this priority",
+            "ru": "Автоматическое рассмотрение; ежегодный приоритет 1 декабря, год цикла для этого приоритета не установлен"
+          },
+          "note": {
+            "en": "Only one merit-based admissions scholarship may be received. Exact amount not printed here; award letter controls. Off-campus housing/food not associated with university plans is not covered.",
+            "ru": "Можно получать только одну merit-стипендию при поступлении. Точная сумма здесь не опубликована; действует письмо о награде. Внекампусное жильё/питание вне университетских планов не покрывается."
+          },
+          "deadlineScope": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      ],
+      "publicFullRide": {
+        "available": true,
+        "internationalEligible": true,
+        "id": "uconn-stamps",
+        "category": "merit",
+        "name": {
+          "en": "Stamps Scholarship",
+          "ru": "Стипендия Stamps"
+        },
+        "basis": "merit",
+        "covers": {
+          "tuition": true,
+          "housing": true,
+          "meals": true,
+          "insurance": null,
+          "books": null
+        },
+        "renewable": true,
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "deadlineScope": "confirmed",
+        "competitiveness": {
+          "en": "Highly competitive selection and interview",
+          "ru": "Высокий конкурс и собеседование"
+        },
+        "howToApply": {
+          "en": "Fall 2027: admission application completed by 1 November 2026; separate Stamps supplement by 8 November 2026, résumé and two recommendations. The admission prerequisite has passed; the supplement is a separate event.",
+          "ru": "Осень 2027: заявление на поступление до 1 ноября 2026; отдельное дополнение Stamps до 8 ноября 2026, резюме и две рекомендации. Предварительный срок поступления прошёл; дополнение — отдельное событие."
+        },
+        "renewalConditions": {
+          "en": "Up to eight approved full-time semesters; annual SAP review and cumulative college GPA at least 3.0. Only one admissions merit award. Housing based on the university COA requires living on campus; Value Meal Plan limit. A tuition waiver does not produce a second tuition payout.",
+          "ru": "До восьми утверждённых семестров полной нагрузки; ежегодная проверка SAP и накопленный GPA в университете не ниже 3,0. Только одна merit-награда при поступлении. Жильё в пределах университетской оценки требует проживания на кампусе; питание ограничено Value Meal Plan. Освобождение от tuition не даёт повторную выплату tuition."
+        },
+        "note": {
+          "en": "Listed under available to all applicants, Storrs only: full cost-of-attendance scholarship plus a one-time USD 12,000 enrichment award. International Global awards are separate alternatives. Fall 2027 eligibility includes a recommended minimum 3.8/4.0 school GPA and top 10% rank if available; Uzbek-scale equivalence is unconfirmed. Tests optional for this award; submitted SAT 1420/ACT 32 is an award-specific criterion, not a general admission minimum. Off-campus housing is excluded; exact insurance/books treatment and tax residuals need verification. Competitive, not guaranteed or automatically deducted.",
+          "ru": "Указана для всех абитуриентов, только Storrs: стипендия полной стоимости COA и однократные 12 000 USD на образовательные проекты. Международные Global-награды — отдельные альтернативы. Условия осени 2027 включают рекомендуемый школьный GPA не ниже 3,8/4,0 и верхние 10% класса при наличии ранга; соответствие узбекской шкале не подтверждено. Экзамены для этой награды необязательны; при подаче SAT 1420/ACT 32 — критерий награды, а не общий минимум поступления. Внекампусное жильё исключено; точное покрытие страховки/книг и налоговые остатки требуют проверки. Конкурсная, не гарантируется и не вычитается автоматически."
+        }
+      },
+      "supportingSources": [
+        "https://admissions.uconn.edu/stamps-applicants/",
+        "https://admissions.uconn.edu/cost-aid/scholarship/policies/"
+      ]
+    }
+  },
+  {
+    "id": "university-of-connecticut",
+    "topic": "remaining-award-review",
+    "source": "https://admissions.uconn.edu/stamps-applicants/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "Stamps Fall 2027 application and separate supplement dates, not general admission deadlines",
+    "campus": "Storrs",
+    "access": "html-read",
+    "quote": "enroll at the University of Connecticut beginning fall semester 2027",
+    "facts": {
+      "publicDeadlines": [
+        {
+          "id": "uconn-stamps-2027-admission",
+          "name": {
+            "en": "Stamps admission application prerequisite",
+            "ru": "Заявление на поступление для участия в Stamps"
+          },
+          "kind": "admission",
+          "date": {
+            "en": "1 November 2026",
+            "ru": "1 ноября 2026"
+          },
+          "dateISO": "2026-11-01",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "status": "confirmed",
+          "binding": null,
+          "awardId": "uconn-stamps",
+          "awardCategory": "merit",
+          "appliesTo": {
+            "en": "Fall 2027 Stamps applicants at Storrs only",
+            "ru": "Только участники Stamps в Storrs на осень 2027"
+          },
+          "note": null,
+          "cycleEvidence": {
+            "basis": "explicit-date",
+            "entryTerm": "Autumn",
+            "entryYear": "2027",
+            "source": "https://admissions.uconn.edu/stamps-applicants/",
+            "verified": "2026-11-02",
+            "quote": "enroll at the University of Connecticut beginning fall semester 2027"
+          }
+        },
+        {
+          "id": "uconn-stamps-2027-supplement",
+          "name": {
+            "en": "Stamps scholarship supplement",
+            "ru": "Дополнение заявки на стипендию Stamps"
+          },
+          "kind": "scholarship",
+          "date": {
+            "en": "8 November 2026",
+            "ru": "8 ноября 2026"
+          },
+          "dateISO": "2026-11-08",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "status": "confirmed",
+          "binding": null,
+          "awardId": "uconn-stamps",
+          "awardCategory": "merit",
+          "appliesTo": {
+            "en": "Fall 2027 Stamps applicants at Storrs only",
+            "ru": "Только участники Stamps в Storrs на осень 2027"
+          },
+          "note": null,
+          "cycleEvidence": {
+            "basis": "explicit-date",
+            "entryTerm": "Autumn",
+            "entryYear": "2027",
+            "source": "https://admissions.uconn.edu/stamps-applicants/",
+            "verified": "2026-11-02",
+            "quote": "enroll at the University of Connecticut beginning fall semester 2027"
+          }
+        }
+      ],
+      "admissionDate": "2026-11-01",
+      "supplementDate": "2026-11-08",
+      "schoolGPAScale": "4.0; Uzbek equivalence unconfirmed"
+    }
+  },
+  {
+    "id": "university-of-connecticut",
+    "topic": "remaining-award-review",
+    "source": "https://admissions.uconn.edu/cost-aid/scholarship/policies/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "Admission-merit renewal, stacking and residence conditions",
+    "campus": "Storrs for Stamps; all eligible campuses for Global awards",
+    "access": "html-read",
+    "quote": "Students are eligible to receive a single merit-based admissions scholarship award.",
+    "facts": {
+      "globalCollegeGPA": 2.5,
+      "stampsCollegeGPA": 3.0,
+      "maxSemesters": 8,
+      "onCampusHousingOnly": true
+    }
+  },
+  {
+    "id": "clemson-university",
+    "topic": "remaining-award-review",
+    "source": "https://www.clemson.edu/admissions/undergraduate-admissions/apply/international.html",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "Ordinary nonresident international undergraduate admissions page; explicit institutional scholarship restriction",
+    "campus": "Clemson",
+    "access": "html-read",
+    "quote": "There are no scholarships for international undergraduates at Clemson.",
+    "facts": {
+      "publicFullRideNote": {
+        "en": "The international undergraduate admissions page explicitly states there are no scholarships for international undergraduates. The broader financial-aid page mentions some international aid types and outside-sponsored tuition support without confirming an institutional first-year award. General recruiting scholarships are not assigned to an F-1 applicant from Uzbekistan. No full-award promise; outside/private assistance is a separate question.",
+        "ru": "Страница международного бакалаврского приёма прямо сообщает об отсутствии стипендий для иностранных бакалавров. Более общая страница помощи упоминает отдельные виды международной помощи и внешнюю оплату tuition, но не подтверждает университетскую награду первокурснику. Общие recruiting-стипендии абитуриенту F-1 из Узбекистана не присвоены. Полная награда не обещается; внешняя/частная помощь рассматривается отдельно."
+      },
+      "supportingSources": [
+        "https://www.clemson.edu/financial-aid/how-aid-works/"
+      ]
+    }
+  },
+  {
+    "id": "colorado-school-of-mines",
+    "topic": "remaining-award-review",
+    "source": "https://finaid.mines.edu/scholarships/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "Published domestic merit eligibility section; not international eligibility of Presidents/Provost award",
+    "campus": "Golden",
+    "access": "html-read",
+    "quote": "Citizens or Permanent Residents",
+    "facts": {
+      "publicFullRideNote": {
+        "en": "The financial-aid scholarship page scopes automatic first-year admission awards to US citizens, permanent residents and eligible ASSET students. Its international page says students are generally not eligible for financial aid, while the general admissions-family FAQ says every applicant is considered for merit. These pages do not establish a named award or amount for an ordinary F-1 applicant completing school in Uzbekistan. Do not assign the domestic President’s/Provost amounts; international eligibility remains unresolved.",
+        "ru": "Страница стипендий финансового отдела ограничивает автоматические награды первокурсникам гражданами США, постоянными резидентами и подходящими студентами ASSET. Международная страница сообщает, что помощь обычно недоступна, а общее FAQ приёма говорит о рассмотрении каждого абитуриента на merit. Эти страницы не устанавливают конкретную награду и сумму для обычного абитуриента F-1, заканчивающего школу в Узбекистане. Суммы внутренних President’s/Provost не присвоены; международная применимость остаётся неясной."
+      },
+      "supportingSources": [
+        "https://finaid.mines.edu/international-students-financial-aid/",
+        "https://undergraduate-admissions.mines.edu/prospective-student-families/"
+      ]
+    }
+  },
+  {
+    "id": "new-jersey-institute-of-technology",
+    "topic": "remaining-award-review",
+    "source": "https://honors.njit.edu/content/scholarships",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "International first-year merit consideration; no confirmed universal Honors award amount",
+    "campus": "Newark",
+    "access": "html-read",
+    "quote": "International students are considered for merit aid at the time of admission to NJIT",
+    "facts": {
+      "publicMerit": [
+        {
+          "id": "njit-international-merit-review",
+          "category": "merit",
+          "basis": "merit",
+          "name": {
+            "en": "International merit review",
+            "ru": "Международное merit-рассмотрение"
+          },
+          "amount": null,
+          "eligibility": {
+            "en": "International applicants are considered at admission; notification follows completion of the visa process",
+            "ru": "Иностранные абитуриенты рассматриваются при поступлении; уведомление следует после завершения визового процесса"
+          },
+          "renewable": null,
+          "application": {
+            "en": "Considered at admission; no separately verified award application or 2027 scholarship deadline",
+            "ru": "Рассмотрение при поступлении; отдельная заявка и стипендиальный срок 2027 не подтверждены"
+          },
+          "note": {
+            "en": "The official page confirms consideration, not a guaranteed full Honors package. Amount, renewal, stacking and largest eligible award remain unconfirmed.",
+            "ru": "Официальная страница подтверждает рассмотрение, а не гарантированное полное покрытие Honors. Сумма, продление, совместимость и крупнейшая применимая награда не подтверждены."
+          },
+          "deadlineScope": "not-confirmed",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "university-at-buffalo",
+    "topic": "remaining-award-review",
+    "source": "https://www.buffalo.edu/admissions/costs/scholarships.html",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "International first-year/first-time Flagship; no completed postsecondary coursework or credits",
+    "campus": "Buffalo",
+    "access": "html-read",
+    "quote": "The Flagship Scholarship may be combined with other UB scholarships.",
+    "facts": {
+      "publicMerit": [
+        {
+          "id": "buffalo-flagship",
+          "category": "merit",
+          "basis": "merit",
+          "name": {
+            "en": "Flagship Scholarship",
+            "ru": "Стипендия Flagship"
+          },
+          "amount": null,
+          "eligibility": {
+            "en": "Incoming international first-year/first-time applicants with no completed postsecondary coursework or credits; fall or spring entry",
+            "ru": "Поступающие иностранные первокурсники без завершённых занятий или кредитов после школы; осенний или весенний приём"
+          },
+          "renewable": {
+            "en": "Up to four years; full-time on-campus degree, college GPA and cumulative GPA at least 3.0/4.0, timely progress toward graduation",
+            "ru": "До четырёх лет; очный диплом на кампусе с полной нагрузкой, семестровый и накопленный GPA не ниже 3,0/4,0, своевременное продвижение к выпуску"
+          },
+          "application": {
+            "en": "Automatic holistic review of admitted international applicants; no separately confirmed 2027 scholarship deadline",
+            "ru": "Автоматическое комплексное рассмотрение зачисленных иностранных абитуриентов; отдельный стипендиальный срок 2027 не подтверждён"
+          },
+          "note": {
+            "en": "Amount varies and is not printed here. Other UB scholarships may combine, but outside sponsorship may trigger recalculation; deferment cancels the offer. Presidential requires a separate application; its international eligibility/coverage is not established by the general heading alone.",
+            "ru": "Сумма различается и здесь не опубликована. Другие награды UB могут сочетаться, но внешнее финансирование может вызвать перерасчёт; отсрочка поступления аннулирует предложение. Presidential требует отдельную заявку; общий заголовок сам по себе не устанавливает международную применимость и покрытие."
+          },
+          "deadlineScope": "no-separate-application",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      ],
+      "supportingSources": [
+        "https://www.buffalo.edu/admissions/costs/scholarships/terms.html"
+      ]
+    }
+  },
+  {
+    "id": "university-at-buffalo",
+    "topic": "remaining-award-review",
+    "source": "https://www.buffalo.edu/admissions/costs/scholarships/terms.html",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "International Admissions Scholarship renewal and outside-award recalculation",
+    "campus": "Buffalo",
+    "access": "html-read",
+    "quote": "you must maintain a grade point average (GPA and CGPA) of at least 3.0 (out of 4.0)",
+    "facts": {
+      "minCollegeGPA": 3.0,
+      "onCampusFullTimeRequired": true,
+      "outsideSupportMayRecalculate": true
+    }
+  },
+  {
+    "id": "university-of-missouri",
+    "topic": "remaining-award-review",
+    "source": "https://admissions.missouri.edu/costs-aid/scholarships/international-student-scholarships/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "International on-campus first-year Honors/Merit; nonresident-tuition-only amounts and exclusions",
+    "campus": "Columbia",
+    "access": "html-read",
+    "quote": "AMOUNT PER YEAR (Academic Year 2027-28)",
+    "facts": {
+      "publicMerit": [
+        {
+          "id": "mizzou-honors",
+          "category": "merit",
+          "basis": "merit",
+          "name": {
+            "en": "International Honors Scholarship",
+            "ru": "Международная стипендия Honors"
+          },
+          "amount": {
+            "en": "USD 20,000 per year, academic year 2027–28",
+            "ru": "20,000 USD в год, учебный год 2027–28"
+          },
+          "eligibility": {
+            "en": "Degree-seeking international first-year applicants admitted for on-campus Columbia study; holistic review and English proficiency. SAT/ACT preferred but not required for these two awards.",
+            "ru": "Иностранные первокурсники дипломной программы, зачисленные очно в Columbia; комплексная оценка и знание английского. SAT/ACT предпочтительны, но не обязательны для этих двух наград."
+          },
+          "renewable": {
+            "en": "Continuous full-time fall/spring enrolment, minimum 12 credits and cumulative college GPA 2.75. The aid page labels its eight-semester paragraph as transfer; exact first-year maximum duration remains unconfirmed.",
+            "ru": "Непрерывная полная нагрузка осенью/весной, минимум 12 кредитов и накопленный GPA в университете 2,75. Абзац финансового отдела о восьми семестрах подписан transfer; точный максимальный срок первокурсника остаётся неподтверждённым."
+          },
+          "application": {
+            "en": "Complete admission file by 1 December 2026 for Fall 2027; reviewed through the admission application",
+            "ru": "Полное заявление на поступление до 1 декабря 2026 на осень 2027; рассмотрение через заявление на поступление"
+          },
+          "note": {
+            "en": "Nonresident tuition portion only, not housing or full ride. Awards generally cannot combine and may reduce for other tuition support/COA limits. Global Black & Gold requires a Mizzou-graduate parent and its own tests; Stamps is unavailable to applicants currently outside the US.",
+            "ru": "Только нерезидентская часть tuition, не жильё и не full ride. Награды обычно не суммируются и могут уменьшаться из-за иной оплаты tuition/лимита COA. Global Black & Gold требует родителя-выпускника Mizzou и собственные экзамены; Stamps недоступна находящимся за пределами США."
+          },
+          "deadlineScope": "confirmed",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        {
+          "id": "mizzou-merit",
+          "category": "merit",
+          "basis": "merit",
+          "name": {
+            "en": "International Merit Scholarship",
+            "ru": "Международная merit-стипендия"
+          },
+          "amount": {
+            "en": "USD 10,000 per year, academic year 2027–28",
+            "ru": "10,000 USD в год, учебный год 2027–28"
+          },
+          "eligibility": {
+            "en": "Degree-seeking international first-year applicants admitted for on-campus Columbia study; holistic review and English proficiency. SAT/ACT preferred but not required for these two awards.",
+            "ru": "Иностранные первокурсники дипломной программы, зачисленные очно в Columbia; комплексная оценка и знание английского. SAT/ACT предпочтительны, но не обязательны для этих двух наград."
+          },
+          "renewable": {
+            "en": "Continuous full-time fall/spring enrolment, minimum 12 credits and cumulative college GPA 2.75. The aid page labels its eight-semester paragraph as transfer; exact first-year maximum duration remains unconfirmed.",
+            "ru": "Непрерывная полная нагрузка осенью/весной, минимум 12 кредитов и накопленный GPA в университете 2,75. Абзац финансового отдела о восьми семестрах подписан transfer; точный максимальный срок первокурсника остаётся неподтверждённым."
+          },
+          "application": {
+            "en": "Complete admission file by 1 December 2026 for Fall 2027; reviewed through the admission application",
+            "ru": "Полное заявление на поступление до 1 декабря 2026 на осень 2027; рассмотрение через заявление на поступление"
+          },
+          "note": {
+            "en": "Nonresident tuition portion only, not housing or full ride. Awards generally cannot combine and may reduce for other tuition support/COA limits. Global Black & Gold requires a Mizzou-graduate parent and its own tests; Stamps is unavailable to applicants currently outside the US.",
+            "ru": "Только нерезидентская часть tuition, не жильё и не full ride. Награды обычно не суммируются и могут уменьшаться из-за иной оплаты tuition/лимита COA. Global Black & Gold требует родителя-выпускника Mizzou и собственные экзамены; Stamps недоступна находящимся за пределами США."
+          },
+          "deadlineScope": "confirmed",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        }
+      ],
+      "publicDeadlines": [
+        {
+          "id": "mizzou-honors-fall2027-admission",
+          "name": {
+            "en": "International Honors Scholarship admission consideration",
+            "ru": "Международная стипендия Honors — поступление для рассмотрения"
+          },
+          "kind": "admission",
+          "date": {
+            "en": "1 December 2026",
+            "ru": "1 декабря 2026"
+          },
+          "dateISO": "2026-12-01",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "status": "confirmed",
+          "binding": null,
+          "awardId": "mizzou-honors",
+          "awardCategory": "merit",
+          "appliesTo": {
+            "en": "International first-year Fall 2027 scholarship consideration",
+            "ru": "Рассмотрение международной стипендии первокурсника на осень 2027"
+          },
+          "note": null,
+          "cycleEvidence": {
+            "basis": "page-context",
+            "source": "https://admissions.missouri.edu/costs-aid/scholarships/international-student-scholarships/",
+            "verified": "2026-11-02",
+            "entryTerm": "Autumn",
+            "entryYear": "2027",
+            "quote": "Academic Year 2027-28"
+          }
+        },
+        {
+          "id": "mizzou-merit-fall2027-admission",
+          "name": {
+            "en": "International Merit Scholarship admission consideration",
+            "ru": "Международная merit-стипендия — поступление для рассмотрения"
+          },
+          "kind": "admission",
+          "date": {
+            "en": "1 December 2026",
+            "ru": "1 декабря 2026"
+          },
+          "dateISO": "2026-12-01",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "status": "confirmed",
+          "binding": null,
+          "awardId": "mizzou-merit",
+          "awardCategory": "merit",
+          "appliesTo": {
+            "en": "International first-year Fall 2027 scholarship consideration",
+            "ru": "Рассмотрение международной стипендии первокурсника на осень 2027"
+          },
+          "note": null,
+          "cycleEvidence": {
+            "basis": "page-context",
+            "source": "https://admissions.missouri.edu/costs-aid/scholarships/international-student-scholarships/",
+            "verified": "2026-11-02",
+            "entryTerm": "Autumn",
+            "entryYear": "2027",
+            "quote": "Academic Year 2027-28"
+          }
+        }
+      ],
+      "supportingSources": [
+        "https://financialaid.missouri.edu/scholarships/international/"
+      ]
+    }
+  },
+  {
+    "id": "university-of-missouri",
+    "topic": "remaining-award-review",
+    "source": "https://financialaid.missouri.edu/scholarships/international/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "International award receiving/renewal conditions; first-year duration ambiguity retained",
+    "campus": "Columbia",
+    "access": "html-read",
+    "quote": "Dec. 1, 2026 - Scholarship deadline for first-time college students",
+    "facts": {
+      "firstYearDeadline": "2026-12-01",
+      "honorsAndMeritCollegeGPA": 2.75,
+      "minimumFullTimeCredits": 12,
+      "firstYearDurationUnconfirmed": true
+    }
   }
 ]

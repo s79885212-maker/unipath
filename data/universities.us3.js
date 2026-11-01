@@ -39926,7 +39926,7 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Park requires US citizenship, permanent residency, or graduation from a US high school. Goodnight requires North Carolina residence or an international student living in North Carolina and graduating from a North Carolina school. Neither is assigned to a typical applicant completing school in Uzbekistan. Other international merit opportunities may exist; the largest applicable award is not established."
     },
     "merit": [],
     "needBased": {
@@ -39978,6 +39978,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://catalog.ncsu.edu/undergraduate/"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://park.ncsu.edu/apply/"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://goodnight.ncsu.edu/frequently-asked-questions/"
     }
   ],
   "verification": {
@@ -39991,7 +39999,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-11-01",
+  "lastVerified": "2026-11-02",
   "aliases": [
     "NC State",
     "North Carolina State University at Raleigh"
@@ -40280,7 +40288,24 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": null
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "newark-international-merit-review",
+        "category": "merit",
+        "basis": "merit",
+        "name": "Newark international merit consideration",
+        "amount": null,
+        "eligibility": "International first-year applicants are considered; individual awards have their own academic criteria. The page does not separately establish which named Newark award or maximum applies to every F-1 applicant.",
+        "renewable": "Up to eight semesters with continuous full-time Newark enrolment and the award-specific academic requirements",
+        "application": "No separate merit application; annual December 1 admission priority, May 1 acceptance; cycle year not established here",
+        "note": "Newark awards cannot transfer between its schools or to New Brunswick/Camden. Amount and stacking are unconfirmed; automatic consideration is not a guaranteed award.",
+        "deadlineScope": "annual-rule",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://admissions.rutgers.edu/costs-and-aid/scholarships",
+        "verified": "2026-11-02"
+      }
+    ],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,
@@ -40334,6 +40359,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://admissions.newark.rutgers.edu/costs-and-aid/tuition-fees"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://admissions.rutgers.edu/costs-and-aid/scholarships"
     }
   ],
   "verification": {
@@ -40347,7 +40376,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-11-01",
+  "lastVerified": "2026-11-02",
   "aliases": [
     "Rutgers Newark",
     "Rutgers University–Newark"
@@ -40511,6 +40540,56 @@ window.UNIPATH.universities.push(
           "entryTerm": null,
           "entryYear": null
         }
+      },
+      {
+        "id": "uconn-stamps-2027-admission",
+        "name": "Stamps admission application prerequisite",
+        "kind": "admission",
+        "date": "1 November 2026",
+        "dateISO": "2026-11-01",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
+        "binding": null,
+        "awardId": "uconn-stamps",
+        "awardCategory": "merit",
+        "appliesTo": "Fall 2027 Stamps applicants at Storrs only",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://admissions.uconn.edu/stamps-applicants/",
+          "verified": "2026-11-02",
+          "quote": "enroll at the University of Connecticut beginning fall semester 2027"
+        },
+        "source": "https://admissions.uconn.edu/stamps-applicants/",
+        "verified": "2026-11-02"
+      },
+      {
+        "id": "uconn-stamps-2027-supplement",
+        "name": "Stamps scholarship supplement",
+        "kind": "scholarship",
+        "date": "8 November 2026",
+        "dateISO": "2026-11-08",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
+        "binding": null,
+        "awardId": "uconn-stamps",
+        "awardCategory": "merit",
+        "appliesTo": "Fall 2027 Stamps applicants at Storrs only",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://admissions.uconn.edu/stamps-applicants/",
+          "verified": "2026-11-02",
+          "quote": "enroll at the University of Connecticut beginning fall semester 2027"
+        },
+        "source": "https://admissions.uconn.edu/stamps-applicants/",
+        "verified": "2026-11-02"
       }
     ],
     "applicationFee": {
@@ -40625,22 +40704,80 @@ window.UNIPATH.universities.push(
   },
   "scholarships": {
     "fullRide": {
-      "available": null,
-      "internationalEligible": null,
-      "basis": null,
+      "available": true,
+      "internationalEligible": true,
+      "basis": "merit",
       "covers": {
-        "tuition": null,
-        "housing": null,
-        "meals": null,
+        "tuition": true,
+        "housing": true,
+        "meals": true,
         "insurance": null,
         "books": null
       },
-      "renewable": null,
-      "competitiveness": null,
-      "howToApply": null,
-      "note": null
+      "renewable": true,
+      "competitiveness": "Highly competitive selection and interview",
+      "howToApply": "Fall 2027: admission application completed by 1 November 2026; separate Stamps supplement by 8 November 2026, résumé and two recommendations. The admission prerequisite has passed; the supplement is a separate event.",
+      "note": "Listed under available to all applicants, Storrs only: full cost-of-attendance scholarship plus a one-time USD 12,000 enrichment award. International Global awards are separate alternatives. Fall 2027 eligibility includes a recommended minimum 3.8/4.0 school GPA and top 10% rank if available; Uzbek-scale equivalence is unconfirmed. Tests optional for this award; submitted SAT 1420/ACT 32 is an award-specific criterion, not a general admission minimum. Off-campus housing is excluded; exact insurance/books treatment and tax residuals need verification. Competitive, not guaranteed or automatically deducted.",
+      "id": "uconn-stamps",
+      "category": "merit",
+      "name": "Stamps Scholarship",
+      "entryTerm": "Autumn",
+      "entryYear": "2027",
+      "deadlineScope": "confirmed",
+      "renewalConditions": "Up to eight approved full-time semesters; annual SAP review and cumulative college GPA at least 3.0. Only one admissions merit award. Housing based on the university COA requires living on campus; Value Meal Plan limit. A tuition waiver does not produce a second tuition payout.",
+      "source": "https://admissions.uconn.edu/cost-aid/scholarship/",
+      "verified": "2026-11-02"
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "uconn-global-excellence",
+        "category": "merit",
+        "basis": "merit",
+        "name": "Global Excellence Award",
+        "amount": null,
+        "eligibility": "International first-year applicants, all campuses; academic achievement and leadership reviewed competitively",
+        "renewable": "Fixed award amount, up to four years/eight full-time semesters, annual SAP review and at least 2.5 college GPA",
+        "application": "Automatic consideration; December 1 annual priority, no cycle year established for this priority",
+        "note": "Only one merit-based admissions scholarship may be received. Exact amount not printed here; award letter controls. Off-campus housing/food not associated with university plans is not covered.",
+        "deadlineScope": "annual-rule",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://admissions.uconn.edu/cost-aid/scholarship/",
+        "verified": "2026-11-02"
+      },
+      {
+        "id": "uconn-global-distinction",
+        "category": "merit",
+        "basis": "merit",
+        "name": "Global Distinction Award",
+        "amount": null,
+        "eligibility": "International first-year applicants, all campuses; academic achievement and leadership reviewed competitively",
+        "renewable": "Fixed award amount, up to four years/eight full-time semesters, annual SAP review and at least 2.5 college GPA",
+        "application": "Automatic consideration; December 1 annual priority, no cycle year established for this priority",
+        "note": "Only one merit-based admissions scholarship may be received. Exact amount not printed here; award letter controls. Off-campus housing/food not associated with university plans is not covered.",
+        "deadlineScope": "annual-rule",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://admissions.uconn.edu/cost-aid/scholarship/",
+        "verified": "2026-11-02"
+      },
+      {
+        "id": "uconn-global-leader",
+        "category": "merit",
+        "basis": "merit",
+        "name": "Global Leader Award",
+        "amount": null,
+        "eligibility": "International first-year applicants, all campuses; academic achievement and leadership reviewed competitively",
+        "renewable": "Fixed award amount, up to four years/eight full-time semesters, annual SAP review and at least 2.5 college GPA",
+        "application": "Automatic consideration; December 1 annual priority, no cycle year established for this priority",
+        "note": "Only one merit-based admissions scholarship may be received. Exact amount not printed here; award letter controls. Off-campus housing/food not associated with university plans is not covered.",
+        "deadlineScope": "annual-rule",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://admissions.uconn.edu/cost-aid/scholarship/",
+        "verified": "2026-11-02"
+      }
+    ],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,
@@ -40698,6 +40835,18 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://econ.uconn.edu/undergraduate/major/"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://admissions.uconn.edu/cost-aid/scholarship/"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://admissions.uconn.edu/stamps-applicants/"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://admissions.uconn.edu/cost-aid/scholarship/policies/"
     }
   ],
   "verification": {
@@ -40711,7 +40860,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-11-01",
+  "lastVerified": "2026-11-02",
   "aliases": [
     "UConn",
     "University of Connecticut Storrs"
@@ -40989,7 +41138,7 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "The international undergraduate admissions page explicitly states there are no scholarships for international undergraduates. The broader financial-aid page mentions some international aid types and outside-sponsored tuition support without confirming an institutional first-year award. General recruiting scholarships are not assigned to an F-1 applicant from Uzbekistan. No full-award promise; outside/private assistance is a separate question."
     },
     "merit": [],
     "needBased": {
@@ -41057,6 +41206,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://www.clemson.edu/cecas/departments/me/academics/undergraduate/bs-degree.html"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://www.clemson.edu/financial-aid/how-aid-works/"
     }
   ],
   "verification": {
@@ -41070,7 +41223,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-11-01",
+  "lastVerified": "2026-11-02",
   "aliases": [],
   "programsBasis": "evidence",
   "programsStatus": "partial",
@@ -41321,7 +41474,7 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "The financial-aid scholarship page scopes automatic first-year admission awards to US citizens, permanent residents and eligible ASSET students. Its international page says students are generally not eligible for financial aid, while the general admissions-family FAQ says every applicant is considered for merit. These pages do not establish a named award or amount for an ordinary F-1 applicant completing school in Uzbekistan. Do not assign the domestic President’s/Provost amounts; international eligibility remains unresolved."
     },
     "merit": [],
     "needBased": {
@@ -41373,6 +41526,18 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://www.mines.edu/academics/program-finder/"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://finaid.mines.edu/scholarships/"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://finaid.mines.edu/international-students-financial-aid/"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://undergraduate-admissions.mines.edu/prospective-student-families/"
     }
   ],
   "verification": {
@@ -41386,7 +41551,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-11-01",
+  "lastVerified": "2026-11-02",
   "aliases": [],
   "programsBasis": "evidence",
   "programsStatus": "partial",
@@ -42070,7 +42235,24 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": null
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "njit-international-merit-review",
+        "category": "merit",
+        "basis": "merit",
+        "name": "International merit review",
+        "amount": null,
+        "eligibility": "International applicants are considered at admission; notification follows completion of the visa process",
+        "renewable": null,
+        "application": "Considered at admission; no separately verified award application or 2027 scholarship deadline",
+        "note": "The official page confirms consideration, not a guaranteed full Honors package. Amount, renewal, stacking and largest eligible award remain unconfirmed.",
+        "deadlineScope": "not-confirmed",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://honors.njit.edu/content/scholarships",
+        "verified": "2026-11-02"
+      }
+    ],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,
@@ -42128,6 +42310,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://catalog.njit.edu/programs/"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://honors.njit.edu/content/scholarships"
     }
   ],
   "verification": {
@@ -42141,7 +42327,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-11-01",
+  "lastVerified": "2026-11-02",
   "aliases": [
     "NJIT"
   ],
@@ -42388,7 +42574,24 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": null
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "buffalo-flagship",
+        "category": "merit",
+        "basis": "merit",
+        "name": "Flagship Scholarship",
+        "amount": null,
+        "eligibility": "Incoming international first-year/first-time applicants with no completed postsecondary coursework or credits; fall or spring entry",
+        "renewable": "Up to four years; full-time on-campus degree, college GPA and cumulative GPA at least 3.0/4.0, timely progress toward graduation",
+        "application": "Automatic holistic review of admitted international applicants; no separately confirmed 2027 scholarship deadline",
+        "note": "Amount varies and is not printed here. Other UB scholarships may combine, but outside sponsorship may trigger recalculation; deferment cancels the offer. Presidential requires a separate application; its international eligibility/coverage is not established by the general heading alone.",
+        "deadlineScope": "no-separate-application",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://www.buffalo.edu/admissions/costs/scholarships.html",
+        "verified": "2026-11-02"
+      }
+    ],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,
@@ -42450,6 +42653,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://www.buffalo.edu/admissions/academics/programs/mathematics.html"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://www.buffalo.edu/admissions/costs/scholarships.html"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://www.buffalo.edu/admissions/costs/scholarships/terms.html"
     }
   ],
   "verification": {
@@ -42463,7 +42674,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-11-01",
+  "lastVerified": "2026-11-02",
   "aliases": [
     "SUNY Buffalo",
     "University at Buffalo, The State University of New York"
@@ -43094,7 +43305,24 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": null
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "camden-international-chancellor",
+        "category": "merit",
+        "basis": "merit",
+        "name": "International Chancellor’s Scholarship — conflicting published maximum",
+        "amount": "Official pages conflict: overview up to USD 17,000/year; detailed page USD 16,000 / USD 18,000 / USD 21,000/year",
+        "eligibility": "Nonsponsored, self-funded international F-1 students admitted full-time to Camden. Detailed first-year weighted GPA tiers are 2.8–3.19 / 3.2–3.69 / 3.7–4.0; equivalence to an Uzbek school scale is not established.",
+        "renewable": "Renewable with at least 2.5 college GPA at Rutgers–Camden; maximum duration and other renewal conditions require verification",
+        "application": "No separate scholarship application; qualifying admitted applicants are automatically considered",
+        "note": "The detailed amount table and central overview are both retained because neither establishes a replacement date. Stacking and a 2027 award year are unconfirmed; no amount is deducted from budget.",
+        "deadlineScope": "no-separate-application",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://admissions.rutgers.edu/international-chancellor-scholarship",
+        "verified": "2026-11-02"
+      }
+    ],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,
@@ -43156,6 +43384,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://camden.rutgers.edu/academics/undergraduate/programs/biology-ba-bs"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://admissions.rutgers.edu/international-chancellor-scholarship"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://admissions.rutgers.edu/costs-and-aid/scholarships"
     }
   ],
   "verification": {
@@ -43169,7 +43405,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-11-01",
+  "lastVerified": "2026-11-02",
   "aliases": [
     "Rutgers Camden",
     "Rutgers University–Camden"
@@ -43597,6 +43833,56 @@ window.UNIPATH.universities.push(
           "entryTerm": null,
           "entryYear": null
         }
+      },
+      {
+        "id": "mizzou-honors-fall2027-admission",
+        "name": "International Honors Scholarship admission consideration",
+        "kind": "admission",
+        "date": "1 December 2026",
+        "dateISO": "2026-12-01",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
+        "binding": null,
+        "awardId": "mizzou-honors",
+        "awardCategory": "merit",
+        "appliesTo": "International first-year Fall 2027 scholarship consideration",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://admissions.missouri.edu/costs-aid/scholarships/international-student-scholarships/",
+          "verified": "2026-11-02",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "quote": "Academic Year 2027-28"
+        },
+        "source": "https://admissions.missouri.edu/costs-aid/scholarships/international-student-scholarships/",
+        "verified": "2026-11-02"
+      },
+      {
+        "id": "mizzou-merit-fall2027-admission",
+        "name": "International Merit Scholarship admission consideration",
+        "kind": "admission",
+        "date": "1 December 2026",
+        "dateISO": "2026-12-01",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
+        "binding": null,
+        "awardId": "mizzou-merit",
+        "awardCategory": "merit",
+        "appliesTo": "International first-year Fall 2027 scholarship consideration",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://admissions.missouri.edu/costs-aid/scholarships/international-student-scholarships/",
+          "verified": "2026-11-02",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "quote": "Academic Year 2027-28"
+        },
+        "source": "https://admissions.missouri.edu/costs-aid/scholarships/international-student-scholarships/",
+        "verified": "2026-11-02"
       }
     ],
     "applicationFee": {
@@ -43755,7 +44041,40 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": null
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "mizzou-honors",
+        "category": "merit",
+        "basis": "merit",
+        "name": "International Honors Scholarship",
+        "amount": "USD 20,000 per year, academic year 2027–28",
+        "eligibility": "Degree-seeking international first-year applicants admitted for on-campus Columbia study; holistic review and English proficiency. SAT/ACT preferred but not required for these two awards.",
+        "renewable": "Continuous full-time fall/spring enrolment, minimum 12 credits and cumulative college GPA 2.75. The aid page labels its eight-semester paragraph as transfer; exact first-year maximum duration remains unconfirmed.",
+        "application": "Complete admission file by 1 December 2026 for Fall 2027; reviewed through the admission application",
+        "note": "Nonresident tuition portion only, not housing or full ride. Awards generally cannot combine and may reduce for other tuition support/COA limits. Global Black & Gold requires a Mizzou-graduate parent and its own tests; Stamps is unavailable to applicants currently outside the US.",
+        "deadlineScope": "confirmed",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "source": "https://admissions.missouri.edu/costs-aid/scholarships/international-student-scholarships/",
+        "verified": "2026-11-02"
+      },
+      {
+        "id": "mizzou-merit",
+        "category": "merit",
+        "basis": "merit",
+        "name": "International Merit Scholarship",
+        "amount": "USD 10,000 per year, academic year 2027–28",
+        "eligibility": "Degree-seeking international first-year applicants admitted for on-campus Columbia study; holistic review and English proficiency. SAT/ACT preferred but not required for these two awards.",
+        "renewable": "Continuous full-time fall/spring enrolment, minimum 12 credits and cumulative college GPA 2.75. The aid page labels its eight-semester paragraph as transfer; exact first-year maximum duration remains unconfirmed.",
+        "application": "Complete admission file by 1 December 2026 for Fall 2027; reviewed through the admission application",
+        "note": "Nonresident tuition portion only, not housing or full ride. Awards generally cannot combine and may reduce for other tuition support/COA limits. Global Black & Gold requires a Mizzou-graduate parent and its own tests; Stamps is unavailable to applicants currently outside the US.",
+        "deadlineScope": "confirmed",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "source": "https://admissions.missouri.edu/costs-aid/scholarships/international-student-scholarships/",
+        "verified": "2026-11-02"
+      }
+    ],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,
@@ -43809,6 +44128,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Cost — reviewed official scope and period",
       "url": "https://admissions.missouri.edu/costs-aid/costs/"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://admissions.missouri.edu/costs-aid/scholarships/international-student-scholarships/"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://financialaid.missouri.edu/scholarships/international/"
     }
   ],
   "verification": {

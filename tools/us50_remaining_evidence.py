@@ -35,12 +35,30 @@ for source in sources:
         facts = source['facts']
         for award in translate(facts.get('publicMerit', [])):
             assert award.get('id') and award.get('category') == 'merit'
-            assert award.get('deadlineScope') in ('not-confirmed', 'annual-rule', 'no-separate-application')
-            assert award.get('entryYear') is None and award.get('entryTerm') is None
+            assert award.get('deadlineScope') in ('not-confirmed', 'annual-rule', 'no-separate-application', 'confirmed')
+            if award['deadlineScope'] == 'confirmed':
+                assert any(d.get('awardId') == award['id'] and d.get('entryYear') == award.get('entryYear') and d.get('entryTerm') == award.get('entryTerm') and d.get('cycleEvidence', {}).get('quote') for d in facts.get('publicDeadlines', []))
+            else:
+                assert award.get('entryYear') is None and award.get('entryTerm') is None
             award.update(source=source['source'], verified=source['verified'])
             u['scholarships']['merit'] = [a for a in u['scholarships']['merit'] if a.get('id') != award['id']] + [award]
         if facts.get('publicNeedBased'):
             u['scholarships']['needBased'].update(translate(facts['publicNeedBased']))
+        if facts.get('publicFullRide'):
+            award = translate(facts['publicFullRide'])
+            assert award.get('id') and award.get('category') == 'merit'
+            assert award.get('available') is True and award.get('internationalEligible') is True
+            assert award.get('renewable') in (True, False, None)
+            award.update(source=source['source'], verified=source['verified'])
+            u['scholarships']['fullRide'].update(award)
+        for deadline in translate(facts.get('publicDeadlines', [])):
+            assert deadline.get('id') and deadline.get('awardId') and deadline.get('awardCategory') == 'merit'
+            assert deadline.get('kind') in ('admission', 'documents', 'scholarship')
+            assert deadline.get('status') == 'confirmed' and deadline.get('cycleEvidence', {}).get('quote')
+            assert deadline['entryYear'] == deadline['cycleEvidence']['entryYear']
+            assert deadline['entryTerm'] == deadline['cycleEvidence']['entryTerm']
+            deadline.update(source=source['source'], verified=source['verified'])
+            u['admissions']['deadlines'] = [d for d in u['admissions']['deadlines'] if d.get('id') != deadline['id']] + [deadline]
         if facts.get('publicFullRideNote'):
             assert u['scholarships']['fullRide'].get('available') is None
             u['scholarships']['fullRide']['note'] = translate(facts['publicFullRideNote'])

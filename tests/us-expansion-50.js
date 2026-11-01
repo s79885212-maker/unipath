@@ -319,6 +319,28 @@ module.exports=function(env){
      !DB.match.annualCost[stevens.id]&&budget(stevens,100000).status==='unknown'&&/federal loans/.test(stevens.costs.note),
      'Stevens previous-year COA keeps the federal-loan-only fee conditional and cannot confirm a Fall2027 budget');
   var wabashAward=U.uniById('wabash-college').scholarships.merit[0];
+  var connStamps=U.fullRide(conn),connDates=U.awardDates(conn,connStamps);
+  ok(connStamps.id==='uconn-stamps'&&connStamps.internationalEligible===true&&connStamps.entryYear==='2027'&&
+     connDates.length===2&&connDates.some(function(d){return d.kind==='admission'&&d.dateISO==='2026-11-01';})&&
+     connDates.some(function(d){return d.kind==='scholarship'&&d.dateISO==='2026-11-08';})&&
+     /off-campus/i.test(connStamps.note)&&/3.0/.test(connStamps.renewalConditions)&&budget(conn,100000).status==='unknown',
+     'UConn Stamps keeps separately linked Fall2027 admission/supplement dates, residence/renewal limits and no automatic competitive-aid deduction');
+  ok(conn.scholarships.merit.filter(function(a){return /^uconn-global-/.test(a.id);}).every(function(a){return a.amount===null&&a.entryYear===null&&a.deadlineScope==='annual-rule'&&/one merit-based/.test(a.note);})&&
+     conn.scholarships.merit.filter(function(a){return /^uconn-global-/.test(a.id);}).length===3,
+     'UConn Global awards have no invented amounts or2027 dates and cannot be stacked as three guaranteed admission awards');
+  var mizzouAwards=U.uniById('university-of-missouri').scholarships.merit.filter(function(a){return /^mizzou-(honors|merit)$/.test(a.id);});
+  ok(mizzouAwards.length===2&&mizzouAwards.every(function(a){return a.entryYear==='2027'&&a.deadlineScope==='confirmed'&&/Nonresident tuition portion only/.test(a.note)&&/first-year maximum duration remains unconfirmed/.test(a.renewable)&&
+       U.awardDates(U.uniById('university-of-missouri'),a).some(function(d){return d.dateISO==='2026-12-01'&&d.kind==='admission';});}),
+     'Mizzou2027 international awards keep tuition-only, stacking, test and residence scope without borrowing transfer duration');
+  var camdenAward=U.uniById('rutgers-university-camden').scholarships.merit.find(function(a){return a.id==='camden-international-chancellor';});
+  ok(camdenAward&&/17,000/.test(camdenAward.amount)&&/21,000/.test(camdenAward.amount)&&/conflict/i.test(camdenAward.name)&&
+     /Uzbek school scale is not established/.test(camdenAward.eligibility)&&U.uniById('rutgers-university-camden').scholarships.fullRide.available===null,
+     'Camden keeps conflicting official scholarship maxima and does not convert weighted admission GPA to an Uzbek school requirement');
+  var buffaloAward=U.uniById('university-at-buffalo').scholarships.merit.find(function(a){return a.id==='buffalo-flagship';});
+  ok(buffaloAward&&buffaloAward.amount===null&&/3.0/.test(buffaloAward.renewable)&&/recalculation/.test(buffaloAward.note)&&
+     /US high school/.test(U.fullRide(U.uniById('north-carolina-state-university')).note)&&
+     /eligibility remains unresolved/.test(U.fullRide(U.uniById('colorado-school-of-mines')).note),
+     'Buffalo outside-support recalculation and NC State/Mines international eligibility restrictions are retained instead of universal full awards');
   var mercedAid=U.uniById('university-of-california-merced'),mercedAward=mercedAid.scholarships.merit.find(function(a){return a.id==='merced-global-access';});
   ok(mercedAward&&/25,000/.test(mercedAward.amount)&&mercedAward.deadlineScope==='no-separate-application'&&
      /nonresident fee waiver/.test(mercedAward.note)&&/3.0/.test(mercedAward.renewable)&&

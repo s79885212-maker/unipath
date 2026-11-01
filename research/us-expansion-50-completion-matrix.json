@@ -1329,12 +1329,14 @@
           ]
         },
         "awards": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
             "namedLargest": null,
             "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
           },
-          "evidence": []
+          "evidence": [
+            "https://admissions.rutgers.edu/costs-and-aid/scholarships"
+          ]
         },
         "photo": {
           "status": "confirmed",
@@ -1409,12 +1411,14 @@
           ]
         },
         "awards": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
-            "namedLargest": null,
+            "namedLargest": "Stamps Scholarship",
             "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
           },
-          "evidence": []
+          "evidence": [
+            "https://admissions.uconn.edu/cost-aid/scholarship/"
+          ]
         },
         "photo": {
           "status": "confirmed",
@@ -1740,12 +1744,14 @@
           ]
         },
         "awards": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
             "namedLargest": null,
             "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
           },
-          "evidence": []
+          "evidence": [
+            "https://honors.njit.edu/content/scholarships"
+          ]
         },
         "photo": {
           "status": "confirmed",
@@ -1822,12 +1828,14 @@
           ]
         },
         "awards": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
             "namedLargest": null,
             "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
           },
-          "evidence": []
+          "evidence": [
+            "https://www.buffalo.edu/admissions/costs/scholarships.html"
+          ]
         },
         "photo": {
           "status": "confirmed",
@@ -1985,12 +1993,14 @@
           ]
         },
         "awards": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
             "namedLargest": null,
             "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
           },
-          "evidence": []
+          "evidence": [
+            "https://admissions.rutgers.edu/international-chancellor-scholarship"
+          ]
         },
         "photo": {
           "status": "confirmed",
@@ -2145,12 +2155,14 @@
           ]
         },
         "awards": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
             "namedLargest": null,
             "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
           },
-          "evidence": []
+          "evidence": [
+            "https://admissions.missouri.edu/costs-aid/scholarships/international-student-scholarships/"
+          ]
         },
         "photo": {
           "status": "confirmed",

@@ -1181,3 +1181,6 @@ FIU MMC Campus от Eduardo Merille CC BY-SA2.0 получен владельц�
 
 ### 2 ноября 2026 — v203: международные награды и ограничения
 491sources;397passed. Шесть merit/consideration записей,UIUCneedaid policy,исключения UIUC Stamps иPSUProvost. Merced25000/годнесталfullride;Austin5000/fallиIUFebruary1неполучиливыдуманныйцикл. KnoxvillePDFp3подтверждаетязык,неexchangeeligibilityпервокурсника. Фото50/исходные370/annualCostсохранены. Исследование продолжается;mainне менялась.
+
+## 2 ноября 2026 — v204: международная помощь и отдельные сроки наград
+Проверены UConn, Mizzou, Rutgers Newark/Camden, Buffalo, NC State, Mines, NJIT и ограничение Clemson. UConn Stamps привязан к подтверждённой осени 2027: поступление 1 ноября и отдельное дополнение 8 ноября, без придуманного времени. Global-награды не суммируются. Mizzou: 2027–28, только нерезидентская tuition, сроки и ограничения сохранены; transfer-длительность не перенесена первокурснику. Camden: обе противоречивые официальные суммы сохранены. Park/Goodnight и внутренние награды Mines не присвоены обычному выпускнику Узбекистана. 402 passed, 0 failed. Main не изменена; изменения локальные, публикация пока v198.
