@@ -985,11 +985,13 @@
     if (preField) selected.field = [preField];
     var preSchol = U.qs('scholarship');
     if (preSchol) selected.scholarship = [preSchol];
+    var entryContext = JSON.stringify([query, preField || '', preSchol || '', preCountry || '', lockCountry]);
 
     /* Coming back from a profile should land where the user left off. */
     var saved = readState(stateKey);
     var restoreScroll = 0;
-    if (saved && !U.qs('q') && !U.qs('field') && !U.qs('scholarship')) {
+    if (saved && (saved.entryContext === entryContext ||
+        (!saved.entryContext && !query && !preField && !preSchol))) {
       if (saved.selected) selected = saved.selected;
       if (lockCountry && preCountry) selected.country = [preCountry];
       query = saved.query || '';
@@ -997,7 +999,7 @@
       restoreScroll = saved.scrollY || 0;
     }
     function save() {
-      writeState(stateKey, { selected: selected, query: query, shown: shown, scrollY: global.scrollY || 0 });
+      writeState(stateKey, { selected: selected, query: query, shown: shown, scrollY: global.scrollY || 0, entryContext: entryContext });
     }
 
     var side = document.getElementById('filters');
@@ -1061,9 +1063,19 @@
         });
         html += '</div>';
       });
+      var focused = document.activeElement;
+      var focusGroup = focused && focused.getAttribute && side.contains(focused) ? focused.getAttribute('data-g') : null;
+      var focusOption = focusGroup ? focused.getAttribute('data-o') : null;
       side.innerHTML = '<details class="filters-box"' + (filtersOpen ? ' open' : '') + '>' +
         '<summary class="filters-summary">Filters' + (active ? ' <span class="filter-count">' + active + '</span>' : '') + '</summary>' +
         '<div class="filters-inner">' + html + '</div></details>';
+      if (focusGroup && focusOption) {
+        Array.prototype.some.call(side.querySelectorAll('[data-g]'), function (input) {
+          if (input.getAttribute('data-g') !== focusGroup || input.getAttribute('data-o') !== focusOption) return false;
+          input.focus({ preventScroll: true });
+          return true;
+        });
+      }
     }
 
     /* With a field filter on, institutions whose list of majors has not been

@@ -40,18 +40,27 @@ module.exports=function(env){
   var irvine=U.uniById('university-of-california-irvine'),rutgers=U.uniById('rutgers-university-new-brunswick');
   ok(irvine.programEvidence.business.program==='Business Administration, B.A.'&&
      !rutgers.programEvidence.business&&U.fieldUnverified(rutgers,['business'],false)&&
-     U.englishPrograms(irvine).length===0,
+     U.englishPrograms(rutgers).length===0,
      'catalogue majors broaden confirmed fields while Rutgers business minor and an English website cannot become confirmed degree/language matches');
   var noEnglish=U.optionById('language','english-no'),unknownEnglish=U.optionById('language','english-unknown');
-  ok(!noEnglish.test(irvine)&&unknownEnglish.test(irvine)&&
+  ok(!noEnglish.test(rutgers)&&unknownEnglish.test(rutgers)&&
      noEnglish.test({englishTaught:false})&&!unknownEnglish.test({englishTaught:false})&&
      !unknownEnglish.test(uiuc)&&!noEnglish.test(uiuc)&&unknownEnglish.test({}),
      'language filters separate explicit non-English route from null/missing teaching-language evidence');
   var santaBarbara=U.uniById('university-of-california-santa-barbara');
   ok(U.englishPrograms(santaBarbara).indexOf('computer-science')>=0&&U.englishPrograms(santaBarbara).indexOf('business')>=0&&
-     !U.optionById('field','business').test(irvine,{language:['english-yes']})&&
+     !U.optionById('field','economics').test(rutgers,{language:['english-yes']})&&
      U.optionById('field','business').test(santaBarbara,{language:['english-yes']}),
-     'UCSB Registrar language evidence enables its named accounting major in the strict English filter while Irvine remains unconfirmed');
+     'UCSB language evidence enables its named accounting major in the strict English filter while Rutgers teaching language remains unconfirmed');
+  ok(fresh.every(function(u){return U.englishPrograms(u).every(function(f){return sources.some(function(s){
+       return s.id===u.id&&s.topic==='instruction-language'&&s.access==='html-read'&&s.facts.appliesToProgrammes&&
+         s.facts.appliesToProgrammes[f]===u.programEvidence[f].program;
+     });});}), 'confirmed teaching language is bound to the named programme, so a new foreign-language major cannot inherit a tag-level policy');
+  var ucPolicy='https://reciprocity.uceap.universityofcalifornia.edu/plan-your-studies/examinations';
+  ok(['university-of-california-davis','university-of-california-irvine','university-of-california-merced',
+      'university-of-california-riverside','university-of-california-santa-cruz'].every(function(id){var u=U.uniById(id);
+       return U.englishPrograms(u).length>0&&(u.english.ielts||{}).source!==ucPolicy&&(u.english.toefl||{}).source!==ucPolicy;
+     }), 'UC-wide teaching-language statement applies to named majors without importing reciprocity English-test thresholds into first-year admission');
   var gaEntry=U.uniById('university-of-georgia'),sbEntry=U.uniById('university-of-california-santa-barbara');
   ok(/Mechanical Engineering/.test(gaEntry.programEvidence.engineering.program)&&
      gaEntry.admissions.notes.some(function(n){return /Intended Mechanical Engineering/.test(n)&&/university-course requirements/.test(n);})&&
@@ -66,6 +75,23 @@ module.exports=function(env){
   });});
   ok(!bad.length,'new confirmed dates cite the intake year, annual rules remain undated',bad.join(';'));
   function budget(u,b){return M.evaluate(u,{ielts:null,sat:null,gpa:null,budget:b,currency:'USD'}).budget;}
+  ok(U.costStatus(irvine)==='conflict'&&irvine.costs.academicYear==='2026–2027'&&
+     irvine.costs.items.reduce(function(n,i){return n+Math.round(i.amount*100);},0)===5980205&&
+     irvine.costs.billedSubtotal===null&&U.budgetAmount(irvine)===null&&
+     /59,375.05/.test(irvine.costs.totalText)&&/244/.test(irvine.costs.conflict.text)&&
+     /39,270/.test(irvine.costs.note)&&!DB.match.annualCost[irvine.id]&&
+     [null,0,100000].every(function(b){return budget(irvine,b).status==='conflict';}),
+     'Irvine retains every published annual component and unresolved total coverage, without asserting a reconciled subtotal or current budget');
+  var nbMerit=U.meritList(rutgers).filter(function(a){return a.id==='rutgers-nb-international';})[0];
+  ok(nbMerit&&/5,000–16,000/.test(nbMerit.amount)&&/Mason Gross/.test(nbMerit.eligibility)&&
+     /3.25 college GPA/.test(nbMerit.renewable)&&/does not guarantee/.test(nbMerit.note)&&
+     nbMerit.entryYear===null&&U.awardDates(rutgers,nbMerit).length===0&&budget(rutgers,100000).status==='unknown',
+     'Rutgers international merit retains campus/visa/school, college renewal and unconfirmed award date; no guaranteed net price');
+  var davis=U.uniById('university-of-california-davis'),davisMerit=U.meritList(davis).filter(function(a){return a.id==='davis-campus-scholarships';})[0];
+  ok(davisMerit&&davisMerit.amount===null&&davisMerit.entryYear===null&&
+     /each donor award/.test(davisMerit.eligibility)&&/continuing students/.test(davisMerit.note)&&
+     U.awardDates(davis,davisMerit).length===0&&!U.awardKind(davis),
+     'Davis general international scholarship scheme never promotes an unverified named award, continuing-student deadline or full coverage');
   ok(fresh.every(function(u){return U.costStatus(u)!=='previous-cycle'||
      (!DB.match.annualCost[u.id]&&[null,0,999999].every(function(b){return budget(u,b).status==='unknown';}));}),
      'new previous-cycle references never confirm budget coverage with empty, zero or large budgets');

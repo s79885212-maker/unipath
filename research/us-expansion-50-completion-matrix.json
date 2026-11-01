@@ -19,12 +19,23 @@
           ]
         },
         "language": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
-            "confirmedFields": [],
+            "confirmedFields": [
+              "computer-science",
+              "business",
+              "economics",
+              "mathematics",
+              "biology",
+              "engineering",
+              "psychology",
+              "humanities"
+            ],
             "remaining": "Не выводится из языка сайта или требований IELTS"
           },
-          "evidence": []
+          "evidence": [
+            "https://reciprocity.uceap.universityofcalifornia.edu/plan-your-studies/examinations"
+          ]
         },
         "admission": {
           "status": "partial",
@@ -63,12 +74,14 @@
           ]
         },
         "awards": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
             "namedLargest": null,
             "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
           },
-          "evidence": []
+          "evidence": [
+            "https://financialaid.ucdavis.edu/frequently-asked-questions/scholarships"
+          ]
         },
         "photo": {
           "status": "partial",
@@ -99,12 +112,25 @@
           ]
         },
         "language": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
-            "confirmedFields": [],
+            "confirmedFields": [
+              "computer-science",
+              "business",
+              "economics",
+              "mathematics",
+              "biology",
+              "engineering",
+              "psychology",
+              "humanities",
+              "arts",
+              "social-sciences"
+            ],
             "remaining": "Не выводится из языка сайта или требований IELTS"
           },
-          "evidence": []
+          "evidence": [
+            "https://reciprocity.uceap.universityofcalifornia.edu/plan-your-studies/examinations"
+          ]
         },
         "admission": {
           "status": "partial",
@@ -129,14 +155,14 @@
           "evidence": []
         },
         "cost": {
-          "status": "unknown",
+          "status": "conflict",
           "notes": {
-            "status": null,
-            "academicYear": null,
+            "status": "conflict",
+            "academicYear": "2026–2027",
             "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
           },
           "evidence": [
-            "https://www.ofas.uci.edu/cost/undergraduate-costs/new-students.php"
+            "https://www.reg.uci.edu/fees/2026-2027/undergrad_26.html"
           ]
         },
         "awards": {
@@ -466,12 +492,14 @@
           ]
         },
         "awards": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
             "namedLargest": null,
             "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
           },
-          "evidence": []
+          "evidence": [
+            "https://admissions.rutgers.edu/new-brunswick-scholarships"
+          ]
         },
         "photo": {
           "status": "partial",
@@ -914,12 +942,16 @@
           ]
         },
         "language": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
-            "confirmedFields": [],
+            "confirmedFields": [
+              "computer-science"
+            ],
             "remaining": "Не выводится из языка сайта или требований IELTS"
           },
-          "evidence": []
+          "evidence": [
+            "https://reciprocity.uceap.universityofcalifornia.edu/plan-your-studies/examinations"
+          ]
         },
         "admission": {
           "status": "partial",
@@ -1534,12 +1566,16 @@
           ]
         },
         "language": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
-            "confirmedFields": [],
+            "confirmedFields": [
+              "computer-science"
+            ],
             "remaining": "Не выводится из языка сайта или требований IELTS"
           },
-          "evidence": []
+          "evidence": [
+            "https://reciprocity.uceap.universityofcalifornia.edu/plan-your-studies/examinations"
+          ]
         },
         "admission": {
           "status": "partial",
@@ -2313,12 +2349,16 @@
           ]
         },
         "language": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
-            "confirmedFields": [],
+            "confirmedFields": [
+              "computer-science"
+            ],
             "remaining": "Не выводится из языка сайта или требований IELTS"
           },
-          "evidence": []
+          "evidence": [
+            "https://reciprocity.uceap.universityofcalifornia.edu/plan-your-studies/examinations"
+          ]
         },
         "admission": {
           "status": "partial",

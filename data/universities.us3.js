@@ -34045,8 +34045,8 @@ window.UNIPATH.universities.push(
     "initials": "CD"
   },
   "description": "Verified undergraduate programme: Computer Science, Bachelor of Science. Admission details below distinguish first-year applicants from transfer students; unverified conditions remain open.",
-  "englishTaught": null,
-  "languageOfInstruction": null,
+  "englishTaught": true,
+  "languageOfInstruction": "English — verified campus instruction statement",
   "programs": [
     "computer-science",
     "business",
@@ -34057,7 +34057,16 @@ window.UNIPATH.universities.push(
     "psychology",
     "humanities"
   ],
-  "englishTaughtPrograms": [],
+  "englishTaughtPrograms": [
+    "computer-science",
+    "business",
+    "economics",
+    "mathematics",
+    "biology",
+    "engineering",
+    "psychology",
+    "humanities"
+  ],
   "programNote": "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
   "links": {
     "website": "https://www.ucdavis.edu/",
@@ -34197,7 +34206,23 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": null
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "davis-campus-scholarships",
+        "category": "merit",
+        "basis": "merit",
+        "name": "Campus-based undergraduate scholarships",
+        "amount": null,
+        "renewable": null,
+        "deadlineScope": "not-confirmed",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://financialaid.ucdavis.edu/frequently-asked-questions/scholarships",
+        "verified": "2026-11-01",
+        "eligibility": "The official FAQ includes international undergraduates, subject to each donor award’s restrictions. Awards consider academic excellence; some add financial-need or other criteria. Eligibility for this general scheme does not prove eligibility for every named award.",
+        "note": "Entering students use the UC admission application; additional material is required only if requested. Awards are competitive and amounts/renewal depend on the specific award. General GPA wording is not converted into an Uzbek school threshold. January 7, 2026 concerns continuing students, not incoming Fall 2027 applicants. Named Regents/Provost international eligibility and largest applicable award remain under review; the yearless Regents December 2 statement is not installed as a 2027 deadline. No aid is deducted from cost."
+      }
+    ],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,
@@ -34261,6 +34286,22 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://catalog.ucdavis.edu/departments-programs-degrees/"
+    },
+    {
+      "label": "Teaching language — official campus statement",
+      "url": "https://reciprocity.uceap.universityofcalifornia.edu/plan-your-studies/examinations"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://financialaid.ucdavis.edu/frequently-asked-questions/scholarships"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://financialaid.ucdavis.edu/scholarships/campus/awards"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://financialaid.ucdavis.edu/scholarships/campus/awards/regents"
     }
   ],
   "verification": {
@@ -34286,7 +34327,7 @@ window.UNIPATH.universities.push(
     "computer-science": {
       "program": "Computer Science, Bachelor of Science",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Davis",
       "url": "https://www.ucdavis.edu/majors/computer-science",
       "checked": "2026-10-31"
@@ -34294,7 +34335,7 @@ window.UNIPATH.universities.push(
     "business": {
       "program": "Business, Bachelor of Science",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Davis",
       "url": "https://catalog.ucdavis.edu/departments-programs-degrees/",
       "checked": "2026-11-01"
@@ -34302,7 +34343,7 @@ window.UNIPATH.universities.push(
     "economics": {
       "program": "Economics, Bachelor of Arts",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Davis",
       "url": "https://catalog.ucdavis.edu/departments-programs-degrees/",
       "checked": "2026-11-01"
@@ -34310,7 +34351,7 @@ window.UNIPATH.universities.push(
     "mathematics": {
       "program": "Mathematics, Bachelor of Science",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Davis",
       "url": "https://catalog.ucdavis.edu/departments-programs-degrees/",
       "checked": "2026-11-01"
@@ -34318,7 +34359,7 @@ window.UNIPATH.universities.push(
     "biology": {
       "program": "Biological Sciences, Bachelor of Science",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Davis",
       "url": "https://catalog.ucdavis.edu/departments-programs-degrees/",
       "checked": "2026-11-01"
@@ -34326,7 +34367,7 @@ window.UNIPATH.universities.push(
     "engineering": {
       "program": "Mechanical Engineering, Bachelor of Science",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Davis",
       "url": "https://catalog.ucdavis.edu/departments-programs-degrees/",
       "checked": "2026-11-01"
@@ -34334,7 +34375,7 @@ window.UNIPATH.universities.push(
     "psychology": {
       "program": "Psychology, Bachelor of Science",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Davis",
       "url": "https://catalog.ucdavis.edu/departments-programs-degrees/",
       "checked": "2026-11-01"
@@ -34342,7 +34383,7 @@ window.UNIPATH.universities.push(
     "humanities": {
       "program": "History, Bachelor of Arts",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Davis",
       "url": "https://catalog.ucdavis.edu/departments-programs-degrees/",
       "checked": "2026-11-01"
@@ -34369,8 +34410,8 @@ window.UNIPATH.universities.push(
     "initials": "CI"
   },
   "description": "Verified undergraduate programme: Computer Science, B.S.. Admission details below distinguish first-year applicants from transfer students; unverified conditions remain open.",
-  "englishTaught": null,
-  "languageOfInstruction": null,
+  "englishTaught": true,
+  "languageOfInstruction": "English — verified campus instruction statement",
   "programs": [
     "computer-science",
     "business",
@@ -34383,7 +34424,18 @@ window.UNIPATH.universities.push(
     "arts",
     "social-sciences"
   ],
-  "englishTaughtPrograms": [],
+  "englishTaughtPrograms": [
+    "computer-science",
+    "business",
+    "economics",
+    "mathematics",
+    "biology",
+    "engineering",
+    "psychology",
+    "humanities",
+    "arts",
+    "social-sciences"
+  ],
   "programNote": "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
   "links": {
     "website": "https://www.uci.edu/",
@@ -34393,7 +34445,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": null,
     "programs": "https://catalogue.uci.edu/undergraduatedegrees/",
-    "cost": "https://www.ofas.uci.edu/cost/undergraduate-costs/new-students.php"
+    "cost": "https://www.reg.uci.edu/fees/2026-2027/undergrad_26.html"
   },
   "admissions": {
     "platforms": [
@@ -34487,16 +34539,92 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grades, subjects and any preparatory study have not been established. General international instructions do not confirm eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "status": "conflict",
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "Nonresident undergraduate entering Fall 2026 — Tuition Stability Plan cohort",
+    "source": "https://www.reg.uci.edu/fees/2026-2027/undergrad_26.html",
+    "verified": "2026-11-01",
+    "breakdown": {
+      "period": "year"
+    },
+    "headline": "Official component/total coverage is unresolved",
+    "items": [
+      {
+        "label": "Student services",
+        "amount": 1386
+      },
+      {
+        "label": "Base tuition",
+        "amount": 14202
+      },
+      {
+        "label": "Associated Student Fee",
+        "amount": 160.25
+      },
+      {
+        "label": "Student Center Fee",
+        "amount": 462.95
+      },
+      {
+        "label": "Bren Events Center Fee",
+        "amount": 69
+      },
+      {
+        "label": "Recreation Center Fee",
+        "amount": 264
+      },
+      {
+        "label": "Campus Spirit Fee",
+        "amount": 99
+      },
+      {
+        "label": "Measure S",
+        "amount": 24
+      },
+      {
+        "label": "TGIF Fee",
+        "amount": 10.5
+      },
+      {
+        "label": "Anteater Express Fee",
+        "amount": 164.99
+      },
+      {
+        "label": "Club Sports Fee",
+        "amount": 21
+      },
+      {
+        "label": "SOAR Fee",
+        "amount": 27.46
+      },
+      {
+        "label": "eTech Fee",
+        "amount": 189
+      },
+      {
+        "label": "Document fee — excluded from published total",
+        "amount": 183
+      },
+      {
+        "label": "Writing placement fee",
+        "amount": 55
+      },
+      {
+        "label": "Student health insurance",
+        "amount": 3213.9
+      },
+      {
+        "label": "Nonresident supplemental tuition",
+        "amount": 39270
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": null,
-    "note": "The separate UCI financial-aid new-student cost page could not be read (403). No amount or 2027–28 year is inferred from a search result or another Irvine institution. Current costs remain unconfirmed; this does not mean that the university has not published them.",
-    "source": "https://www.ofas.uci.edu/cost/undergraduate-costs/new-students.php",
-    "verified": "2026-11-01"
+    "totalText": "Published Total Nonresident: USD 59,375.05 for Fall/Winter/Spring 2026–2027; inclusions remain unresolved",
+    "conflict": {
+      "text": "The university prints USD 59,375.05. UniPath sums the listed annual components to USD 59,802.05, or USD 59,619.05 after removing the explicitly excluded USD 183 document fee: USD 244 still remains unexplained. These are UniPath calculations, not additional university-published totals. No coherent billed subtotal or full budget is asserted."
+    },
+    "note": "Previous available cohort and year, not Fall 2027 prices. Base tuition USD 14,202 and nonresident supplemental tuition USD 39,270 are separate components: the base alone is not the international tuition price. Housing, food, books, travel and personal expenses are not included in this table. Conditional summer health-insurance proration is not added to every applicant. Component inclusion is unresolved, so rows are not assigned to a reconciled billed group. Competitive aid is not deducted."
   },
   "scholarships": {
     "fullRide": {
@@ -34567,6 +34695,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://catalogue.uci.edu/undergraduatedegrees/"
+    },
+    {
+      "label": "Teaching language — official campus statement",
+      "url": "https://reciprocity.uceap.universityofcalifornia.edu/plan-your-studies/examinations"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.reg.uci.edu/fees/2026-2027/undergrad_26.html"
     }
   ],
   "verification": {
@@ -34592,7 +34728,7 @@ window.UNIPATH.universities.push(
     "computer-science": {
       "program": "Computer Science, B.S.",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Irvine",
       "url": "https://catalogue.uci.edu/donaldbrenschoolofinformationandcomputersciences/departmentofcomputerscience/computerscience_bs/",
       "checked": "2026-10-31"
@@ -34600,7 +34736,7 @@ window.UNIPATH.universities.push(
     "business": {
       "program": "Business Administration, B.A.",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Irvine",
       "url": "https://catalogue.uci.edu/undergraduatedegrees/",
       "checked": "2026-11-01"
@@ -34608,7 +34744,7 @@ window.UNIPATH.universities.push(
     "economics": {
       "program": "Economics, B.A.",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Irvine",
       "url": "https://catalogue.uci.edu/undergraduatedegrees/",
       "checked": "2026-11-01"
@@ -34616,7 +34752,7 @@ window.UNIPATH.universities.push(
     "mathematics": {
       "program": "Mathematics, B.S.",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Irvine",
       "url": "https://catalogue.uci.edu/undergraduatedegrees/",
       "checked": "2026-11-01"
@@ -34624,7 +34760,7 @@ window.UNIPATH.universities.push(
     "biology": {
       "program": "Biological Sciences, B.S.",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Irvine",
       "url": "https://catalogue.uci.edu/undergraduatedegrees/",
       "checked": "2026-11-01"
@@ -34632,7 +34768,7 @@ window.UNIPATH.universities.push(
     "engineering": {
       "program": "Mechanical Engineering, B.S.",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Irvine",
       "url": "https://catalogue.uci.edu/undergraduatedegrees/",
       "checked": "2026-11-01"
@@ -34640,7 +34776,7 @@ window.UNIPATH.universities.push(
     "psychology": {
       "program": "Psychology, B.A.",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Irvine",
       "url": "https://catalogue.uci.edu/undergraduatedegrees/",
       "checked": "2026-11-01"
@@ -34648,7 +34784,7 @@ window.UNIPATH.universities.push(
     "humanities": {
       "program": "History, B.A.",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Irvine",
       "url": "https://catalogue.uci.edu/undergraduatedegrees/",
       "checked": "2026-11-01"
@@ -34656,7 +34792,7 @@ window.UNIPATH.universities.push(
     "arts": {
       "program": "Art, B.A.",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Irvine",
       "url": "https://catalogue.uci.edu/undergraduatedegrees/",
       "checked": "2026-11-01"
@@ -34664,7 +34800,7 @@ window.UNIPATH.universities.push(
     "social-sciences": {
       "program": "Sociology, B.A.",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Irvine",
       "url": "https://catalogue.uci.edu/undergraduatedegrees/",
       "checked": "2026-11-01"
@@ -36151,7 +36287,23 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": null
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "rutgers-nb-international",
+        "category": "merit",
+        "basis": "merit",
+        "name": "International Student Scholarships",
+        "amount": "USD 5,000–16,000 per year",
+        "eligibility": "Admitted international first-year students on valid non-immigrant visas at New Brunswick; competitive review. School-specific conditions apply. Mason Gross uses a separate talent assessment and is not assigned this academic-award range.",
+        "renewable": "Four undergraduate years with at least 3.25 college GPA; full-time and individual school/award-offer conditions must be checked. This is not a school-leaving GPA conversion.",
+        "deadlineScope": "not-confirmed",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://admissions.rutgers.edu/new-brunswick-scholarships",
+        "verified": "2026-11-01",
+        "note": "Automatic consideration without a separate application does not guarantee an award. The international paragraph encourages Early Action or Regular Decision; an award-specific cutoff and Fall 2027 cycle are not established. A general first-year December 1 rule is not assigned to this award. Number of awards and stacking are unconfirmed. No amount is deducted from budget."
+      }
+    ],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,
@@ -36199,6 +36351,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://sasundergrad.sas.rutgers.edu/majors-and-core-curriculum/major/list-of-majors-and-minors"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://admissions.rutgers.edu/new-brunswick-scholarships"
     }
   ],
   "verification": {
@@ -38155,13 +38311,15 @@ window.UNIPATH.universities.push(
     "initials": "CM"
   },
   "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. The current campus opened to undergraduates in2005.",
-  "englishTaught": null,
-  "languageOfInstruction": null,
+  "englishTaught": true,
+  "languageOfInstruction": "English — verified campus instruction statement",
   "programs": [
     "computer-science"
   ],
-  "englishTaughtPrograms": [],
-  "programNote": "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+  "englishTaughtPrograms": [
+    "computer-science"
+  ],
+  "programNote": "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
   "links": {
     "website": "https://www.ucmerced.edu/",
     "admissions": "https://admissions.ucmerced.edu/apply",
@@ -38364,6 +38522,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://financialaid.ucmerced.edu/node/61"
+    },
+    {
+      "label": "Teaching language — official campus statement",
+      "url": "https://reciprocity.uceap.universityofcalifornia.edu/plan-your-studies/examinations"
     }
   ],
   "verification": {
@@ -38373,11 +38535,11 @@ window.UNIPATH.universities.push(
     ],
     "unconfirmed": [
       "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
-      "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+      "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [
     "UC Merced"
   ],
@@ -38387,7 +38549,7 @@ window.UNIPATH.universities.push(
     "computer-science": {
       "program": "Computer Science and Engineering, B.S.",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Merced",
       "url": "https://engr-advising.ucmerced.edu/node/6",
       "checked": "2026-10-31"
@@ -40249,13 +40411,15 @@ window.UNIPATH.universities.push(
     "initials": "CR"
   },
   "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. University campus founding1954 is separate from the1907 Citrus Experiment Station predecessor.",
-  "englishTaught": null,
-  "languageOfInstruction": null,
+  "englishTaught": true,
+  "languageOfInstruction": "English — verified campus instruction statement",
   "programs": [
     "computer-science"
   ],
-  "englishTaughtPrograms": [],
-  "programNote": "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+  "englishTaughtPrograms": [
+    "computer-science"
+  ],
+  "programNote": "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
   "links": {
     "website": "https://www.ucr.edu/",
     "admissions": "https://discover.ucr.edu/international",
@@ -40447,6 +40611,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:UC_Riverside_campus_as_viewed_from_Box_Spring_Mountain.jpg"
+    },
+    {
+      "label": "Teaching language — official campus statement",
+      "url": "https://reciprocity.uceap.universityofcalifornia.edu/plan-your-studies/examinations"
     }
   ],
   "verification": {
@@ -40456,11 +40624,11 @@ window.UNIPATH.universities.push(
     ],
     "unconfirmed": [
       "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
-      "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+      "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [
     "UC Riverside",
     "UCR"
@@ -40471,7 +40639,7 @@ window.UNIPATH.universities.push(
     "computer-science": {
       "program": "Computer Science, BS",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Riverside",
       "url": "https://www1.cs.ucr.edu/programs/undergraduate/computer-science",
       "checked": "2026-10-31"
@@ -42957,13 +43125,15 @@ window.UNIPATH.universities.push(
     "initials": "CSC"
   },
   "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open.",
-  "englishTaught": null,
-  "languageOfInstruction": null,
+  "englishTaught": true,
+  "languageOfInstruction": "English — verified campus instruction statement",
   "programs": [
     "computer-science"
   ],
-  "englishTaughtPrograms": [],
-  "programNote": "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+  "englishTaughtPrograms": [
+    "computer-science"
+  ],
+  "programNote": "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
   "links": {
     "website": "https://www.ucsc.edu/",
     "admissions": "https://admissions.ucsc.edu/international-first-year-students-admissions-requirements",
@@ -43130,6 +43300,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:McHenry_Library.jpg"
+    },
+    {
+      "label": "Teaching language — official campus statement",
+      "url": "https://reciprocity.uceap.universityofcalifornia.edu/plan-your-studies/examinations"
     }
   ],
   "verification": {
@@ -43139,11 +43313,11 @@ window.UNIPATH.universities.push(
     ],
     "unconfirmed": [
       "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
-      "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+      "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [
     "UC Santa Cruz",
     "UCSC"
@@ -43154,7 +43328,7 @@ window.UNIPATH.universities.push(
     "computer-science": {
       "program": "Computer Science, BA/BS",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Santa Cruz",
       "url": "https://admissions.ucsc.edu/programs/computer-science",
       "checked": "2026-10-31"

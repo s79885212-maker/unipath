@@ -414,10 +414,10 @@
         "Campus photo/licence",
         "Remaining cost, award, identity and application fields; see profile and sources"
       ],
-      "sourceEntries": 12,
+      "sourceEntries": 17,
       "completionReview": {
         "programmes": "partial-core-majors-reviewed",
-        "language": "in-progress-applicable-language-policy-not-established"
+        "language": "partial-named-majors-campus-policy"
       }
     },
     {
@@ -450,10 +450,10 @@
         "Campus photo/licence",
         "Remaining cost, award, identity and application fields; see profile and sources"
       ],
-      "sourceEntries": 13,
+      "sourceEntries": 16,
       "completionReview": {
         "programmes": "partial-core-majors-reviewed",
-        "language": "in-progress-applicable-language-policy-not-established"
+        "language": "partial-named-majors-campus-policy"
       }
     },
     {
@@ -490,7 +490,7 @@
       "sourceEntries": 13,
       "completionReview": {
         "programmes": "partial-core-majors-reviewed",
-        "language": "named-fields-confirmed-policy-scope"
+        "language": "partial-named-majors-campus-policy"
       }
     },
     {
@@ -597,7 +597,7 @@
         "Campus photo/licence",
         "Remaining cost, award, identity and application fields; see profile and sources"
       ],
-      "sourceEntries": 8,
+      "sourceEntries": 9,
       "completionReview": {
         "programmes": "partial-core-majors-reviewed",
         "language": "in-progress-applicable-language-policy-not-established"
@@ -637,7 +637,7 @@
       "sourceEntries": 14,
       "completionReview": {
         "programmes": "partial-core-majors-reviewed",
-        "language": "named-fields-confirmed-policy-scope"
+        "language": "partial-named-majors-campus-policy"
       }
     },
     {
@@ -811,7 +811,10 @@
         "Remaining costs/awards/history",
         "Campus photograph/licence"
       ],
-      "sourceEntries": 7
+      "sourceEntries": 8,
+      "completionReview": {
+        "language": "partial-named-majors-campus-policy"
+      }
     },
     {
       "number": 13,
@@ -1068,7 +1071,10 @@
         "Remaining costs/awards/history",
         "Campus photograph/licence"
       ],
-      "sourceEntries": 8
+      "sourceEntries": 9,
+      "completionReview": {
+        "language": "partial-named-majors-campus-policy"
+      }
     },
     {
       "number": 21,
@@ -1389,7 +1395,10 @@
         "Remaining costs/awards/history",
         "Campus photograph/licence"
       ],
-      "sourceEntries": 6
+      "sourceEntries": 7,
+      "completionReview": {
+        "language": "partial-named-majors-campus-policy"
+      }
     },
     {
       "number": 31,

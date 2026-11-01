@@ -6142,7 +6142,18 @@
         "psychology",
         "humanities",
         "arts"
-      ]
+      ],
+      "appliesToProgrammes": {
+        "computer-science": "Computer Science, BS",
+        "business": "Accountancy, BS",
+        "economics": "Economics, BALAS",
+        "mathematics": "Mathematics, BSLAS",
+        "biology": "Integrative Biology, BSLAS",
+        "engineering": "Mechanical Engineering, BS",
+        "psychology": "Psychology, BSLAS",
+        "humanities": "History, BALAS",
+        "arts": "Graphic Design, BFA"
+      }
     }
   },
   {
@@ -6587,7 +6598,366 @@
         "social-sciences"
       ],
       "scope": "General Registrar instruction-language confirmation; not an applicant English waiver or a claim about unverified foreign-language majors",
-      "notTransferred": "No graduate admission thresholds, CCS eligibility, other UC campus or unknown programme inferred"
+      "notTransferred": "No graduate admission thresholds, CCS eligibility, other UC campus or unknown programme inferred",
+      "appliesToProgrammes": {
+        "computer-science": "Computer Science — College of Engineering",
+        "economics": "Economics — undergraduate major (Letters & Science)",
+        "business": "Economics and Accounting — BA",
+        "mathematics": "Mathematics — undergraduate major (Letters & Science)",
+        "biology": "Biological Sciences — undergraduate major (Letters & Science)",
+        "engineering": "Mechanical Engineering — undergraduate major (Engineering)",
+        "psychology": "Psychological & Brain Sciences — undergraduate major (Letters & Science)",
+        "humanities": "History — undergraduate major (Letters & Science)",
+        "arts": "Art — undergraduate major (Letters & Science)",
+        "social-sciences": "Sociology — undergraduate major (Letters & Science)"
+      }
     }
+  },
+  {
+    "id": "university-of-california-davis",
+    "topic": "instruction-language",
+    "source": "https://reciprocity.uceap.universityofcalifornia.edu/plan-your-studies/examinations",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "UC-wide teaching-language statement; reciprocity admission scores are NOT first-year requirements",
+    "campus": "davis",
+    "access": "html-read",
+    "quote": "taught in English",
+    "facts": {
+      "language": "English",
+      "scopeType": "campus-instruction-policy",
+      "appliesToFields": [
+        "computer-science",
+        "business",
+        "economics",
+        "mathematics",
+        "biology",
+        "engineering",
+        "psychology",
+        "humanities"
+      ],
+      "exception": "Foreign-language courses excluded",
+      "exchangeThresholdsNotApplied": true,
+      "appliesToProgrammes": {
+        "computer-science": "Computer Science, Bachelor of Science",
+        "business": "Business, Bachelor of Science",
+        "economics": "Economics, Bachelor of Arts",
+        "mathematics": "Mathematics, Bachelor of Science",
+        "biology": "Biological Sciences, Bachelor of Science",
+        "engineering": "Mechanical Engineering, Bachelor of Science",
+        "psychology": "Psychology, Bachelor of Science",
+        "humanities": "History, Bachelor of Arts"
+      }
+    }
+  },
+  {
+    "id": "university-of-california-irvine",
+    "topic": "instruction-language",
+    "source": "https://reciprocity.uceap.universityofcalifornia.edu/plan-your-studies/examinations",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "UC-wide teaching-language statement; reciprocity admission scores are NOT first-year requirements",
+    "campus": "irvine",
+    "access": "html-read",
+    "quote": "taught in English",
+    "facts": {
+      "language": "English",
+      "scopeType": "campus-instruction-policy",
+      "appliesToFields": [
+        "computer-science",
+        "business",
+        "economics",
+        "mathematics",
+        "biology",
+        "engineering",
+        "psychology",
+        "humanities",
+        "arts",
+        "social-sciences"
+      ],
+      "exception": "Foreign-language courses excluded",
+      "exchangeThresholdsNotApplied": true,
+      "appliesToProgrammes": {
+        "computer-science": "Computer Science, B.S.",
+        "business": "Business Administration, B.A.",
+        "economics": "Economics, B.A.",
+        "mathematics": "Mathematics, B.S.",
+        "biology": "Biological Sciences, B.S.",
+        "engineering": "Mechanical Engineering, B.S.",
+        "psychology": "Psychology, B.A.",
+        "humanities": "History, B.A.",
+        "arts": "Art, B.A.",
+        "social-sciences": "Sociology, B.A."
+      }
+    }
+  },
+  {
+    "id": "university-of-california-merced",
+    "topic": "instruction-language",
+    "source": "https://reciprocity.uceap.universityofcalifornia.edu/plan-your-studies/examinations",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "UC-wide teaching-language statement; reciprocity admission scores are NOT first-year requirements",
+    "campus": "merced",
+    "access": "html-read",
+    "quote": "taught in English",
+    "facts": {
+      "language": "English",
+      "scopeType": "campus-instruction-policy",
+      "appliesToFields": [
+        "computer-science"
+      ],
+      "exception": "Foreign-language courses excluded",
+      "exchangeThresholdsNotApplied": true,
+      "appliesToProgrammes": {
+        "computer-science": "Computer Science and Engineering, B.S."
+      }
+    }
+  },
+  {
+    "id": "university-of-california-riverside",
+    "topic": "instruction-language",
+    "source": "https://reciprocity.uceap.universityofcalifornia.edu/plan-your-studies/examinations",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "UC-wide teaching-language statement; reciprocity admission scores are NOT first-year requirements",
+    "campus": "riverside",
+    "access": "html-read",
+    "quote": "taught in English",
+    "facts": {
+      "language": "English",
+      "scopeType": "campus-instruction-policy",
+      "appliesToFields": [
+        "computer-science"
+      ],
+      "exception": "Foreign-language courses excluded",
+      "exchangeThresholdsNotApplied": true,
+      "appliesToProgrammes": {
+        "computer-science": "Computer Science, BS"
+      }
+    }
+  },
+  {
+    "id": "university-of-california-santa-cruz",
+    "topic": "instruction-language",
+    "source": "https://reciprocity.uceap.universityofcalifornia.edu/plan-your-studies/examinations",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "UC-wide teaching-language statement; reciprocity admission scores are NOT first-year requirements",
+    "campus": "santa-cruz",
+    "access": "html-read",
+    "quote": "taught in English",
+    "facts": {
+      "language": "English",
+      "scopeType": "campus-instruction-policy",
+      "appliesToFields": [
+        "computer-science"
+      ],
+      "exception": "Foreign-language courses excluded",
+      "exchangeThresholdsNotApplied": true,
+      "appliesToProgrammes": {
+        "computer-science": "Computer Science, BA/BS"
+      }
+    }
+  },
+  {
+    "id": "university-of-california-irvine",
+    "topic": "cost-components-reference",
+    "source": "https://www.reg.uci.edu/fees/2026-2027/undergrad_26.html",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "international first-year bachelor; exact cohort/award scope in facts",
+    "campus": "Irvine",
+    "access": "html-read",
+    "quote": "Total Nonresident",
+    "facts": {
+      "academicYear": "2026–2027",
+      "cohort": "Fall2026 Tuition Stability Plan; nonresident undergraduate",
+      "period": "academic year, Fall/Winter/Spring",
+      "currency": "USD",
+      "annualRows": [
+        [
+          "Student Services Fee",
+          1386
+        ],
+        [
+          "Tuition",
+          14202
+        ],
+        [
+          "Associated Student Fee",
+          160.25
+        ],
+        [
+          "Student Center Fee",
+          462.95
+        ],
+        [
+          "Bren Events Center Fee",
+          69
+        ],
+        [
+          "Recreation Center Fee",
+          264
+        ],
+        [
+          "Campus Spirit Fee",
+          99
+        ],
+        [
+          "Measure S",
+          24
+        ],
+        [
+          "TGIF Fee",
+          10.5
+        ],
+        [
+          "Anteater Express Fee",
+          164.99
+        ],
+        [
+          "Club Sports Fee",
+          21
+        ],
+        [
+          "SOAR Fee",
+          27.46
+        ],
+        [
+          "eTech Fee",
+          189
+        ],
+        [
+          "Document Fee",
+          183
+        ],
+        [
+          "Writing Placement Fee",
+          55
+        ],
+        [
+          "Student Health Insurance",
+          3213.9
+        ],
+        [
+          "Nonresident Supplemental Tuition",
+          39270
+        ]
+      ],
+      "publishedTotal": 59375.05,
+      "unipathSumAllRows": 59802.05,
+      "documentFeeExplicitlyExcluded": 183,
+      "unipathSumWithoutDocument": 59619.05,
+      "unexplainedRemainingDifference": 244,
+      "calculation": "UniPath sum of listed annual rows; not university-published full cost",
+      "limitations": "Only document exclusion is explicit; other inclusion mismatch unresolved. eTech189 is required; placement55 assessed to all first-years. No housing/food/books/transport/personal COA. Summer proration conditional; not Fall2027 cohort. Do not underquote tuition by omitting39270 supplement."
+    }
+  },
+  {
+    "id": "rutgers-university-new-brunswick",
+    "topic": "international-merit-conditions",
+    "source": "https://admissions.rutgers.edu/new-brunswick-scholarships",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "international first-year bachelor; exact cohort/award scope in facts",
+    "campus": "New Brunswick",
+    "access": "html-read",
+    "quote": "No separate application is required.",
+    "facts": {
+      "name": "International Student Scholarships",
+      "basis": "merit",
+      "amountMin": 5000,
+      "amountMax": 16000,
+      "currency": "USD",
+      "period": "year",
+      "duration": "four undergraduate years",
+      "renewal": "minimum3.25 college GPA; full-time school/award-offer conditions",
+      "eligibility": "Admitted first-year international students on valid non-immigrant visas; NB school matters",
+      "process": "Automatic consideration, competitive selection, not guaranteed",
+      "deadline": "EA or RD encouraged; international award-specific cutoff and Fall2027 cycle unconfirmed",
+      "exceptions": "Mason Gross talent assessment uses separate award process; amount/renewal not inferred from academic international range",
+      "stacking": null,
+      "numberOfAwards": null
+    }
+  },
+  {
+    "id": "university-of-california-davis",
+    "topic": "campus-scholarship-scope",
+    "source": "https://financialaid.ucdavis.edu/frequently-asked-questions/scholarships",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "international first-year bachelor; exact cohort/award scope in facts",
+    "campus": "Davis",
+    "access": "html-read",
+    "quote": "The UC Application for Admission and Scholarships serves as your application",
+    "facts": {
+      "enteringProcess": "UC admission application is scholarship application; extra materials only if requested",
+      "international": "FAQ explicitly includes international undergraduates, subject to award-specific restrictions",
+      "gpa": "3.25 as printed; UC cumulative wording for general undergraduates does not establish conversion of Uzbek school grades",
+      "basis": "academic excellence; some donor awards add restrictions/need",
+      "amount": null,
+      "guaranteed": false,
+      "continuingCycle": "January7,2026 for2026–27 refers to continuing students, not upcoming first-year"
+    }
+  },
+  {
+    "id": "university-of-california-davis",
+    "topic": "named-awards-reference",
+    "source": "https://financialaid.ucdavis.edu/scholarships/campus/awards",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "international first-year bachelor; exact cohort/award scope in facts",
+    "campus": "Davis",
+    "access": "html-read",
+    "quote": "four-year scholarship",
+    "facts": {
+      "regents": "7500USD per academic year; selected first-years four years; college3.25/good standing renewal",
+      "provost": "Admitted first-years outside California; four years; amount not printed in current HTML",
+      "unconfirmed": "Award-specific international eligibility, Provost current amount and conditions; do not carry13250 from an old PDF snippet",
+      "largestInternationalAward": null
+    }
+  },
+  {
+    "id": "university-of-california-davis",
+    "topic": "regents-application-scope",
+    "source": "https://financialaid.ucdavis.edu/scholarships/campus/awards/regents",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "international first-year bachelor; exact cohort/award scope in facts",
+    "campus": "Davis",
+    "access": "html-read",
+    "quote": "December 2 deadline",
+    "facts": {
+      "process": "UC admission application; additional documents only if requested",
+      "date": "December2 has no established entry year; not assigned to Fall2027",
+      "renewal": "3.25 college GPA and good standing",
+      "internationalSpecificEligibility": null,
+      "linkedEligibilityPage": "Redirects to myadmissions; inaccessible; no login attempted"
+    }
+  },
+  {
+    "id": "university-of-california-davis",
+    "topic": "regents-eligibility-access",
+    "source": "https://admissions.ucdavis.edu/finances/regents_scholarship.cfm",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "international first-year bachelor; exact cohort/award scope in facts",
+    "campus": "Davis",
+    "access": "unavailable-redirect-to-myadmissions",
+    "quote": "",
+    "facts": null
+  },
+  {
+    "id": "university-of-california-irvine",
+    "topic": "chancellor-award-access",
+    "source": "https://ofas.uci.edu/scholarships/uci-scholarships/chancellors-scholarship.php",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "international first-year bachelor; exact cohort/award scope in facts",
+    "campus": "Irvine",
+    "access": "blocked-403",
+    "quote": "",
+    "facts": null
   }
 ]
