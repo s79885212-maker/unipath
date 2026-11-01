@@ -34212,6 +34212,7 @@ window.UNIPATH.universities.push(
         "category": "merit",
         "basis": "merit",
         "name": "Campus-based undergraduate scholarships",
+        "application": "UC admission application; additional materials only if requested",
         "amount": null,
         "renewable": null,
         "deadlineScope": "not-confirmed",
@@ -36293,6 +36294,7 @@ window.UNIPATH.universities.push(
         "category": "merit",
         "basis": "merit",
         "name": "International Student Scholarships",
+        "application": "Automatic consideration with the admission application; no separate scholarship application",
         "amount": "USD 5,000–16,000 per year",
         "eligibility": "Admitted international first-year students on valid non-immigrant visas at New Brunswick; competitive review. School-specific conditions apply. Mason Gross uses a separate talent assessment and is not assigned this academic-award range.",
         "renewable": "Four undergraduate years with at least 3.25 college GPA; full-time and individual school/award-offer conditions must be checked. This is not a school-leaving GPA conversion.",
@@ -38076,10 +38078,14 @@ window.UNIPATH.universities.push(
     "economics",
     "mathematics",
     "psychology",
-    "business"
+    "business",
+    "engineering",
+    "humanities",
+    "arts",
+    "social-sciences"
   ],
   "englishTaughtPrograms": [],
-  "programNote": "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+  "programNote": "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
   "links": {
     "website": "https://www.pitt.edu/",
     "admissions": "https://admissions.pitt.edu/international/international-first-year-students/",
@@ -38126,7 +38132,8 @@ window.UNIPATH.universities.push(
     "essay": null,
     "interview": null,
     "notes": [
-      "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
+      "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
+      "Pittsburgh has distinct first-year admitting schools. The selected Dietrich/CBA/Swanson/SCI majors do not imply direct first-year entry to junior-transfer professional schools; major-specific progression remains separate."
     ]
   },
   "english": {
@@ -38230,11 +38237,11 @@ window.UNIPATH.universities.push(
     ],
     "unconfirmed": [
       "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
-      "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+      "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [
     "Pitt"
   ],
@@ -38250,44 +38257,76 @@ window.UNIPATH.universities.push(
       "checked": "2026-10-31"
     },
     "biology": {
-      "program": "Biological Sciences, BS",
+      "program": "Biological Sciences, BS — Dietrich Arts and Sciences",
       "level": "bachelor",
       "language": null,
       "campus": "Pittsburgh",
       "url": "https://www.academics.pitt.edu/undergraduate-programs",
-      "checked": "2026-10-31"
+      "checked": "2026-11-01"
     },
     "economics": {
-      "program": "Economics, BA or BS",
+      "program": "Economics, BA or BS — Dietrich Arts and Sciences",
       "level": "bachelor",
       "language": null,
       "campus": "Pittsburgh",
       "url": "https://www.academics.pitt.edu/undergraduate-programs",
-      "checked": "2026-10-31"
+      "checked": "2026-11-01"
     },
     "mathematics": {
-      "program": "Mathematics, BS",
+      "program": "Mathematics, BS — Dietrich Arts and Sciences",
       "level": "bachelor",
       "language": null,
       "campus": "Pittsburgh",
       "url": "https://www.academics.pitt.edu/undergraduate-programs",
-      "checked": "2026-10-31"
+      "checked": "2026-11-01"
     },
     "psychology": {
-      "program": "Psychology, BS",
+      "program": "Psychology, BS — Dietrich Arts and Sciences",
       "level": "bachelor",
       "language": null,
       "campus": "Pittsburgh",
       "url": "https://www.academics.pitt.edu/undergraduate-programs",
-      "checked": "2026-10-31"
+      "checked": "2026-11-01"
     },
     "business": {
-      "program": "Marketing, BSBA",
+      "program": "Accounting, BSBA — College of Business Administration",
       "level": "bachelor",
       "language": null,
       "campus": "Pittsburgh",
       "url": "https://www.academics.pitt.edu/undergraduate-programs",
-      "checked": "2026-10-31"
+      "checked": "2026-11-01"
+    },
+    "engineering": {
+      "program": "Mechanical Engineering, BSE — Swanson School",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Pittsburgh",
+      "url": "https://www.academics.pitt.edu/undergraduate-programs",
+      "checked": "2026-11-01"
+    },
+    "humanities": {
+      "program": "History, BA — Dietrich Arts and Sciences",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Pittsburgh",
+      "url": "https://www.academics.pitt.edu/undergraduate-programs",
+      "checked": "2026-11-01"
+    },
+    "arts": {
+      "program": "Studio Arts, BA — Dietrich Arts and Sciences",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Pittsburgh",
+      "url": "https://www.academics.pitt.edu/undergraduate-programs",
+      "checked": "2026-11-01"
+    },
+    "social-sciences": {
+      "program": "Sociology, BA — Dietrich Arts and Sciences",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Pittsburgh",
+      "url": "https://www.academics.pitt.edu/undergraduate-programs",
+      "checked": "2026-11-01"
     }
   }
 },
@@ -38314,10 +38353,28 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English — verified campus instruction statement",
   "programs": [
-    "computer-science"
+    "computer-science",
+    "business",
+    "economics",
+    "mathematics",
+    "biology",
+    "engineering",
+    "psychology",
+    "humanities",
+    "arts",
+    "social-sciences"
   ],
   "englishTaughtPrograms": [
-    "computer-science"
+    "computer-science",
+    "business",
+    "economics",
+    "mathematics",
+    "biology",
+    "engineering",
+    "psychology",
+    "humanities",
+    "arts",
+    "social-sciences"
   ],
   "programNote": "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
   "links": {
@@ -38327,7 +38384,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": null,
     "scholarships": null,
     "financialAid": null,
-    "programs": "https://engr-advising.ucmerced.edu/node/6",
+    "programs": "https://admissions.ucmerced.edu/academics/majors-minors",
     "cost": null
   },
   "admissions": {
@@ -38526,6 +38583,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Teaching language — official campus statement",
       "url": "https://reciprocity.uceap.universityofcalifornia.edu/plan-your-studies/examinations"
+    },
+    {
+      "label": "Undergraduate majors — named campus programmes",
+      "url": "https://admissions.ucmerced.edu/academics/majors-minors"
     }
   ],
   "verification": {
@@ -38553,6 +38614,78 @@ window.UNIPATH.universities.push(
       "campus": "Merced",
       "url": "https://engr-advising.ucmerced.edu/node/6",
       "checked": "2026-10-31"
+    },
+    "business": {
+      "program": "Management and Business Economics, B.S.",
+      "level": "bachelor",
+      "language": "English",
+      "campus": "Merced",
+      "url": "https://admissions.ucmerced.edu/academics/majors-minors",
+      "checked": "2026-11-01"
+    },
+    "economics": {
+      "program": "Economics, B.A.",
+      "level": "bachelor",
+      "language": "English",
+      "campus": "Merced",
+      "url": "https://admissions.ucmerced.edu/academics/majors-minors",
+      "checked": "2026-11-01"
+    },
+    "mathematics": {
+      "program": "Applied Mathematical Sciences, B.S.",
+      "level": "bachelor",
+      "language": "English",
+      "campus": "Merced",
+      "url": "https://admissions.ucmerced.edu/academics/majors-minors",
+      "checked": "2026-11-01"
+    },
+    "biology": {
+      "program": "Biological Sciences, B.S.",
+      "level": "bachelor",
+      "language": "English",
+      "campus": "Merced",
+      "url": "https://admissions.ucmerced.edu/academics/majors-minors",
+      "checked": "2026-11-01"
+    },
+    "engineering": {
+      "program": "Mechanical Engineering, B.S.",
+      "level": "bachelor",
+      "language": "English",
+      "campus": "Merced",
+      "url": "https://admissions.ucmerced.edu/academics/majors-minors",
+      "checked": "2026-11-01"
+    },
+    "psychology": {
+      "program": "Psychology, B.A.",
+      "level": "bachelor",
+      "language": "English",
+      "campus": "Merced",
+      "url": "https://admissions.ucmerced.edu/academics/majors-minors",
+      "checked": "2026-11-01"
+    },
+    "humanities": {
+      "program": "History, B.A.",
+      "level": "bachelor",
+      "language": "English",
+      "campus": "Merced",
+      "url": "https://admissions.ucmerced.edu/academics/majors-minors",
+      "checked": "2026-11-01"
+    },
+    "arts": {
+      "program": "Global Arts Studies, B.A.",
+      "level": "bachelor",
+      "language": "English",
+      "campus": "Merced",
+      "url": "https://admissions.ucmerced.edu/academics/majors-minors",
+      "checked": "2026-11-01"
+    },
+    "social-sciences": {
+      "program": "Sociology, B.A.",
+      "level": "bachelor",
+      "language": "English",
+      "campus": "Merced",
+      "url": "https://admissions.ucmerced.edu/academics/majors-minors",
+      "checked": "2026-11-01"
     }
   }
 },
@@ -38579,10 +38712,17 @@ window.UNIPATH.universities.push(
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
-    "computer-science"
+    "computer-science",
+    "business",
+    "economics",
+    "mathematics",
+    "biology",
+    "engineering",
+    "humanities",
+    "arts"
   ],
   "englishTaughtPrograms": [],
-  "programNote": "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+  "programNote": "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
   "links": {
     "website": "https://www.binghamton.edu/",
     "admissions": "https://www.binghamton.edu/admissions/undergraduate/apply/international/first-year.html",
@@ -38590,7 +38730,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": null,
     "scholarships": null,
     "financialAid": null,
-    "programs": "https://www.binghamton.edu/apps/academics/program/ug/computer-science",
+    "programs": "https://www.binghamton.edu/academics/programs/",
     "cost": null
   },
   "admissions": {
@@ -38786,6 +38926,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.binghamton.edu/admissions/undergraduate/cost/"
+    },
+    {
+      "label": "Undergraduate majors — named campus programmes",
+      "url": "https://www.binghamton.edu/academics/programs/"
     }
   ],
   "verification": {
@@ -38795,11 +38939,11 @@ window.UNIPATH.universities.push(
     ],
     "unconfirmed": [
       "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
-      "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+      "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [
     "SUNY Binghamton",
     "State University of New York at Binghamton"
@@ -38814,6 +38958,62 @@ window.UNIPATH.universities.push(
       "campus": "Binghamton",
       "url": "https://www.binghamton.edu/apps/academics/program/ug/computer-science",
       "checked": "2026-10-31"
+    },
+    "business": {
+      "program": "Accounting, BS",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Binghamton",
+      "url": "https://www.binghamton.edu/academics/programs/",
+      "checked": "2026-11-01"
+    },
+    "economics": {
+      "program": "Economics, BA or BS",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Binghamton",
+      "url": "https://www.binghamton.edu/academics/programs/",
+      "checked": "2026-11-01"
+    },
+    "mathematics": {
+      "program": "Mathematical Sciences, BA or BS",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Binghamton",
+      "url": "https://www.binghamton.edu/academics/programs/",
+      "checked": "2026-11-01"
+    },
+    "biology": {
+      "program": "Biological Sciences, BA or BS",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Binghamton",
+      "url": "https://www.binghamton.edu/academics/programs/",
+      "checked": "2026-11-01"
+    },
+    "engineering": {
+      "program": "Mechanical Engineering, BS",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Binghamton",
+      "url": "https://www.binghamton.edu/academics/programs/",
+      "checked": "2026-11-01"
+    },
+    "humanities": {
+      "program": "History, BA",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Binghamton",
+      "url": "https://www.binghamton.edu/academics/programs/",
+      "checked": "2026-11-01"
+    },
+    "arts": {
+      "program": "Studio Art, BA or BFA",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Binghamton",
+      "url": "https://www.binghamton.edu/academics/programs/",
+      "checked": "2026-11-01"
     }
   }
 },
@@ -38840,10 +39040,15 @@ window.UNIPATH.universities.push(
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
-    "computer-science"
+    "computer-science",
+    "business",
+    "economics",
+    "mathematics",
+    "engineering",
+    "biology"
   ],
   "englishTaughtPrograms": [],
-  "programNote": "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+  "programNote": "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
   "links": {
     "website": "https://bloomington.iu.edu/",
     "admissions": "https://bloomington.iu.edu/admissions/apply/international/freshman/",
@@ -38851,7 +39056,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": null,
     "scholarships": null,
     "financialAid": null,
-    "programs": "https://luddy.iu.edu/academics/undergraduate/bs-computer-science.html",
+    "programs": "https://bloomington.iu.edu/academics/degrees-majors/programs.html",
     "cost": null
   },
   "admissions": {
@@ -38995,6 +39200,22 @@ window.UNIPATH.universities.push(
     {
       "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:Sample_Gates,_Indiana_University_Bloomington,_2010.jpg"
+    },
+    {
+      "label": "Undergraduate majors — named campus programmes",
+      "url": "https://academics.iu.edu/degrees/bloomington/bachelor-of-science-in-business/accounting.html"
+    },
+    {
+      "label": "Undergraduate majors — named campus programmes",
+      "url": "https://academics.iu.edu/degrees/bloomington/bachelor-of-arts/economics%2Bmathematics.html"
+    },
+    {
+      "label": "Undergraduate majors — named campus programmes",
+      "url": "https://academics.iu.edu/degrees/bloomington/bachelor-of-science-in-intelligent-systems-engineering.html"
+    },
+    {
+      "label": "Undergraduate majors — named campus programmes",
+      "url": "https://www.bio.indiana.edu/student-portal/undergraduate/biology/biology-ba.html"
     }
   ],
   "verification": {
@@ -39004,11 +39225,11 @@ window.UNIPATH.universities.push(
     ],
     "unconfirmed": [
       "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
-      "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+      "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [
     "IU Bloomington"
   ],
@@ -39022,6 +39243,46 @@ window.UNIPATH.universities.push(
       "campus": "Bloomington",
       "url": "https://luddy.iu.edu/academics/undergraduate/bs-computer-science.html",
       "checked": "2026-10-31"
+    },
+    "business": {
+      "program": "Accounting, Bachelor of Science in Business — Kelley",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Bloomington",
+      "url": "https://academics.iu.edu/degrees/bloomington/bachelor-of-science-in-business/accounting.html",
+      "checked": "2026-11-01"
+    },
+    "economics": {
+      "program": "Economics/Mathematics, B.A. — College of Arts and Sciences",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Bloomington",
+      "url": "https://academics.iu.edu/degrees/bloomington/bachelor-of-arts/economics%2Bmathematics.html",
+      "checked": "2026-11-01"
+    },
+    "mathematics": {
+      "program": "Economics/Mathematics, B.A. — College of Arts and Sciences",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Bloomington",
+      "url": "https://academics.iu.edu/degrees/bloomington/bachelor-of-arts/economics%2Bmathematics.html",
+      "checked": "2026-11-01"
+    },
+    "engineering": {
+      "program": "Intelligent Systems Engineering, BS — Luddy",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Bloomington",
+      "url": "https://academics.iu.edu/degrees/bloomington/bachelor-of-science-in-intelligent-systems-engineering.html",
+      "checked": "2026-11-01"
+    },
+    "biology": {
+      "program": "Biology, B.A. — College of Arts and Sciences",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Bloomington",
+      "url": "https://www.bio.indiana.edu/student-portal/undergraduate/biology/biology-ba.html",
+      "checked": "2026-11-01"
     }
   }
 },
@@ -39048,10 +39309,17 @@ window.UNIPATH.universities.push(
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
-    "computer-science"
+    "computer-science",
+    "business",
+    "economics",
+    "mathematics",
+    "biology",
+    "engineering",
+    "humanities",
+    "psychology"
   ],
   "englishTaughtPrograms": [],
-  "programNote": "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+  "programNote": "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
   "links": {
     "website": "https://www.ncsu.edu/",
     "admissions": "https://admissions.ncsu.edu/apply/international/first-year/",
@@ -39059,7 +39327,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": null,
     "scholarships": null,
     "financialAid": null,
-    "programs": "https://catalog.ncsu.edu/undergraduate/engineering/computer-science/computer-science-bs/",
+    "programs": "https://catalog.ncsu.edu/undergraduate/",
     "cost": "https://admissions.ncsu.edu/apply/international/first-year/"
   },
   "admissions": {
@@ -39263,6 +39531,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:The_Memorial_Belltower_in_NC_State,_September_2022.jpg"
+    },
+    {
+      "label": "Undergraduate majors — named campus programmes",
+      "url": "https://catalog.ncsu.edu/undergraduate/"
     }
   ],
   "verification": {
@@ -39272,11 +39544,11 @@ window.UNIPATH.universities.push(
     ],
     "unconfirmed": [
       "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
-      "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+      "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [
     "NC State",
     "North Carolina State University at Raleigh"
@@ -39291,6 +39563,62 @@ window.UNIPATH.universities.push(
       "campus": "Raleigh",
       "url": "https://catalog.ncsu.edu/undergraduate/engineering/computer-science/computer-science-bs/",
       "checked": "2026-10-31"
+    },
+    "business": {
+      "program": "Accounting, BS",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Raleigh",
+      "url": "https://catalog.ncsu.edu/undergraduate/",
+      "checked": "2026-11-01"
+    },
+    "economics": {
+      "program": "Economics, BA or BS",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Raleigh",
+      "url": "https://catalog.ncsu.edu/undergraduate/",
+      "checked": "2026-11-01"
+    },
+    "mathematics": {
+      "program": "Mathematics, BS",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Raleigh",
+      "url": "https://catalog.ncsu.edu/undergraduate/",
+      "checked": "2026-11-01"
+    },
+    "biology": {
+      "program": "Biological Sciences, BS",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Raleigh",
+      "url": "https://catalog.ncsu.edu/undergraduate/",
+      "checked": "2026-11-01"
+    },
+    "engineering": {
+      "program": "Mechanical Engineering, BS",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Raleigh",
+      "url": "https://catalog.ncsu.edu/undergraduate/",
+      "checked": "2026-11-01"
+    },
+    "humanities": {
+      "program": "History, BA",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Raleigh",
+      "url": "https://catalog.ncsu.edu/undergraduate/",
+      "checked": "2026-11-01"
+    },
+    "psychology": {
+      "program": "Psychology, BA — General Psychology",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Raleigh",
+      "url": "https://catalog.ncsu.edu/undergraduate/",
+      "checked": "2026-11-01"
     }
   }
 },
@@ -39320,10 +39648,14 @@ window.UNIPATH.universities.push(
     "computer-science",
     "biology",
     "mathematics",
-    "psychology"
+    "psychology",
+    "economics",
+    "humanities",
+    "arts",
+    "social-sciences"
   ],
   "englishTaughtPrograms": [],
-  "programNote": "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement. Additional confirmed degree programmes: Chemistry, B.A., Physics, B.A..",
+  "programNote": "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
   "links": {
     "website": "https://www.newark.rutgers.edu/",
     "admissions": "https://admissions.rutgers.edu/apply/first-year-applicants",
@@ -39396,7 +39728,8 @@ window.UNIPATH.universities.push(
     "essay": null,
     "interview": null,
     "notes": [
-      "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
+      "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
+      "The SAS-Newark listing identifies Pre-Engineering as a transfer programme and Data Science as a minor. Neither is displayed as a confirmed standalone bachelor major. Separate Rutgers business/engineering schools require their own evidence."
     ]
   },
   "english": {
@@ -39560,7 +39893,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [
     "Rutgers Newark",
     "Rutgers University–Newark"
@@ -39577,28 +39910,60 @@ window.UNIPATH.universities.push(
       "checked": "2026-10-31"
     },
     "biology": {
-      "program": "Biology, B.A./B.S.",
+      "program": "Biology, B.A. or B.S. — SAS-Newark",
       "level": "bachelor",
       "language": null,
       "campus": "Newark",
       "url": "https://sasn.rutgers.edu/academics/undergraduate-majors-minors",
-      "checked": "2026-10-31"
+      "checked": "2026-11-01"
     },
     "mathematics": {
-      "program": "Mathematics, B.A.",
+      "program": "Mathematics, B.A. — SAS-Newark",
       "level": "bachelor",
       "language": null,
       "campus": "Newark",
       "url": "https://sasn.rutgers.edu/academics/undergraduate-majors-minors",
-      "checked": "2026-10-31"
+      "checked": "2026-11-01"
     },
     "psychology": {
-      "program": "Psychology, B.A.",
+      "program": "Psychology, B.A. — SAS-Newark",
       "level": "bachelor",
       "language": null,
       "campus": "Newark",
       "url": "https://sasn.rutgers.edu/academics/undergraduate-majors-minors",
-      "checked": "2026-10-31"
+      "checked": "2026-11-01"
+    },
+    "economics": {
+      "program": "Economics, B.A. — SAS-Newark",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Newark",
+      "url": "https://sasn.rutgers.edu/academics/undergraduate-majors-minors",
+      "checked": "2026-11-01"
+    },
+    "humanities": {
+      "program": "History, B.A. — SAS-Newark",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Newark",
+      "url": "https://sasn.rutgers.edu/academics/undergraduate-majors-minors",
+      "checked": "2026-11-01"
+    },
+    "arts": {
+      "program": "Graphic Design, B.F.A. — SAS-Newark",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Newark",
+      "url": "https://sasn.rutgers.edu/academics/undergraduate-majors-minors",
+      "checked": "2026-11-01"
+    },
+    "social-sciences": {
+      "program": "Sociology, B.A. — SAS-Newark",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Newark",
+      "url": "https://sasn.rutgers.edu/academics/undergraduate-majors-minors",
+      "checked": "2026-11-01"
     }
   }
 },
@@ -39625,10 +39990,19 @@ window.UNIPATH.universities.push(
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
-    "computer-science"
+    "computer-science",
+    "business",
+    "mathematics",
+    "biology",
+    "engineering",
+    "humanities",
+    "arts",
+    "psychology",
+    "social-sciences",
+    "economics"
   ],
   "englishTaughtPrograms": [],
-  "programNote": "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+  "programNote": "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
   "links": {
     "website": "https://uconn.edu/",
     "admissions": "https://admissions.uconn.edu/apply/international/first-year/",
@@ -39636,7 +40010,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": null,
     "scholarships": null,
     "financialAid": null,
-    "programs": "https://computing.engineering.uconn.edu/undergraduate/major-programs/computer-science/",
+    "programs": "https://tme.uconn.edu/explore-majors/profiles-storrs/",
     "cost": null
   },
   "admissions": {
@@ -39701,7 +40075,8 @@ window.UNIPATH.universities.push(
     "essay": null,
     "interview": null,
     "notes": [
-      "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
+      "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
+      "UConn Economics offers BA and BS, but all entering Economics freshmen and transfers begin in the BA; a later change is possible. Other selected majors come from the Storrs-specific directory, not a combined campus list."
     ]
   },
   "english": {
@@ -39849,6 +40224,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:Wilbur_Cross_Library,_UConn,_Storrs_CT.jpg"
+    },
+    {
+      "label": "Undergraduate majors — named campus programmes",
+      "url": "https://tme.uconn.edu/explore-majors/profiles-storrs/"
+    },
+    {
+      "label": "Undergraduate majors — named campus programmes",
+      "url": "https://econ.uconn.edu/undergraduate/major/"
     }
   ],
   "verification": {
@@ -39858,11 +40241,11 @@ window.UNIPATH.universities.push(
     ],
     "unconfirmed": [
       "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
-      "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+      "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [
     "UConn",
     "University of Connecticut Storrs"
@@ -39877,6 +40260,78 @@ window.UNIPATH.universities.push(
       "campus": "Storrs",
       "url": "https://computing.engineering.uconn.edu/undergraduate/major-programs/computer-science/",
       "checked": "2026-10-31"
+    },
+    "business": {
+      "program": "Accounting — Storrs undergraduate major",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Storrs",
+      "url": "https://tme.uconn.edu/explore-majors/profiles-storrs/",
+      "checked": "2026-11-01"
+    },
+    "mathematics": {
+      "program": "Mathematics — Storrs undergraduate major",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Storrs",
+      "url": "https://tme.uconn.edu/explore-majors/profiles-storrs/",
+      "checked": "2026-11-01"
+    },
+    "biology": {
+      "program": "Biological Sciences — Storrs undergraduate major",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Storrs",
+      "url": "https://tme.uconn.edu/explore-majors/profiles-storrs/",
+      "checked": "2026-11-01"
+    },
+    "engineering": {
+      "program": "Mechanical Engineering — Storrs undergraduate major",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Storrs",
+      "url": "https://tme.uconn.edu/explore-majors/profiles-storrs/",
+      "checked": "2026-11-01"
+    },
+    "humanities": {
+      "program": "History — Storrs undergraduate major",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Storrs",
+      "url": "https://tme.uconn.edu/explore-majors/profiles-storrs/",
+      "checked": "2026-11-01"
+    },
+    "arts": {
+      "program": "Art — Storrs undergraduate major",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Storrs",
+      "url": "https://tme.uconn.edu/explore-majors/profiles-storrs/",
+      "checked": "2026-11-01"
+    },
+    "psychology": {
+      "program": "Psychological Sciences — Storrs undergraduate major",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Storrs",
+      "url": "https://tme.uconn.edu/explore-majors/profiles-storrs/",
+      "checked": "2026-11-01"
+    },
+    "social-sciences": {
+      "program": "Sociology — Storrs undergraduate major",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Storrs",
+      "url": "https://tme.uconn.edu/explore-majors/profiles-storrs/",
+      "checked": "2026-11-01"
+    },
+    "economics": {
+      "program": "Economics, B.A. — CLAS (BS change possible later)",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Storrs",
+      "url": "https://econ.uconn.edu/undergraduate/major/",
+      "checked": "2026-11-01"
     }
   }
 },
@@ -39903,10 +40358,15 @@ window.UNIPATH.universities.push(
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
-    "computer-science"
+    "computer-science",
+    "mathematics",
+    "biology",
+    "business",
+    "economics",
+    "engineering"
   ],
   "englishTaughtPrograms": [],
-  "programNote": "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+  "programNote": "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
   "links": {
     "website": "https://www.clemson.edu/",
     "admissions": "https://www.clemson.edu/admissions/undergraduate-admissions/apply/international.html",
@@ -39914,7 +40374,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": null,
     "scholarships": null,
     "financialAid": null,
-    "programs": "https://www.clemson.edu/cecas/departments/computing/academics/undergrad/degrees/cs-bs.html",
+    "programs": "https://www.clemson.edu/academics/",
     "cost": null
   },
   "admissions": {
@@ -39979,7 +40439,9 @@ window.UNIPATH.universities.push(
     "essay": null,
     "interview": null,
     "notes": [
-      "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
+      "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
+      "Clemson Accounting/Economics BS requires completion of Pre-Business courses and Clemson college GPA 2.0 for major admission; the separate 2026–27 change into Pre-Business has 12 Clemson credits and 2.5 college GPA. These are university progression rules, not Uzbek school GPA minima.",
+      "Clemson engineering students begin in General Engineering. Mechanical Engineering requires the first-year curriculum and college GPA at least 2.6 to progress; this is not an Uzbek school admission minimum. The separate junior-year 3.4 BS/MS rule is not applied to first-year applicants."
     ]
   },
   "english": {
@@ -40106,6 +40568,18 @@ window.UNIPATH.universities.push(
     {
       "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:Tillman_Hall-Clemson_University.jpg"
+    },
+    {
+      "label": "Undergraduate majors — named campus programmes",
+      "url": "https://www.clemson.edu/science/academics/undergraduate/majors.html"
+    },
+    {
+      "label": "Undergraduate majors — named campus programmes",
+      "url": "https://www.clemson.edu/business/students/advising/change-of-major.html"
+    },
+    {
+      "label": "Undergraduate majors — named campus programmes",
+      "url": "https://www.clemson.edu/cecas/departments/me/academics/undergraduate/bs-degree.html"
     }
   ],
   "verification": {
@@ -40115,11 +40589,11 @@ window.UNIPATH.universities.push(
     ],
     "unconfirmed": [
       "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
-      "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+      "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [],
   "programsBasis": "evidence",
   "programsStatus": "partial",
@@ -40131,6 +40605,46 @@ window.UNIPATH.universities.push(
       "campus": "Clemson",
       "url": "https://www.clemson.edu/cecas/departments/computing/academics/undergrad/degrees/cs-bs.html",
       "checked": "2026-10-31"
+    },
+    "mathematics": {
+      "program": "Mathematical Sciences, BA or BS — College of Science",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Clemson",
+      "url": "https://www.clemson.edu/science/academics/undergraduate/majors.html",
+      "checked": "2026-11-01"
+    },
+    "biology": {
+      "program": "Biological Sciences, BA or BS — College of Science",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Clemson",
+      "url": "https://www.clemson.edu/science/academics/undergraduate/majors.html",
+      "checked": "2026-11-01"
+    },
+    "business": {
+      "program": "Accounting, BS — Powers College of Business",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Clemson",
+      "url": "https://www.clemson.edu/business/students/advising/change-of-major.html",
+      "checked": "2026-11-01"
+    },
+    "economics": {
+      "program": "Economics, BS — Powers College of Business",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Clemson",
+      "url": "https://www.clemson.edu/business/students/advising/change-of-major.html",
+      "checked": "2026-11-01"
+    },
+    "engineering": {
+      "program": "Mechanical Engineering, BS — CECAS",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Clemson",
+      "url": "https://www.clemson.edu/cecas/departments/me/academics/undergraduate/bs-degree.html",
+      "checked": "2026-11-01"
     }
   }
 },
@@ -40157,10 +40671,14 @@ window.UNIPATH.universities.push(
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
-    "mathematics"
+    "mathematics",
+    "business",
+    "biology",
+    "engineering",
+    "computer-science"
   ],
   "englishTaughtPrograms": [],
-  "programNote": "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+  "programNote": "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
   "links": {
     "website": "https://www.mines.edu/",
     "admissions": "https://undergraduate-admissions.mines.edu/international-first-year-requirements/",
@@ -40168,7 +40686,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": null,
     "scholarships": null,
     "financialAid": null,
-    "programs": "https://www.mines.edu/academics/undergraduate-academics/majors/applied-mathematics-and-statistics-major/",
+    "programs": "https://www.mines.edu/academics/program-finder/",
     "cost": null
   },
   "admissions": {
@@ -40363,6 +40881,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://finaid.mines.edu/cost-of-attendance-undergraduate/"
+    },
+    {
+      "label": "Undergraduate majors — named campus programmes",
+      "url": "https://www.mines.edu/academics/program-finder/"
     }
   ],
   "verification": {
@@ -40372,11 +40894,11 @@ window.UNIPATH.universities.push(
     ],
     "unconfirmed": [
       "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
-      "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+      "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [],
   "programsBasis": "evidence",
   "programsStatus": "partial",
@@ -40388,6 +40910,38 @@ window.UNIPATH.universities.push(
       "campus": "Golden",
       "url": "https://www.mines.edu/academics/undergraduate-academics/majors/applied-mathematics-and-statistics-major/",
       "checked": "2026-10-31"
+    },
+    "business": {
+      "program": "Business Engineering and Management Science — undergraduate major",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Golden",
+      "url": "https://www.mines.edu/academics/program-finder/",
+      "checked": "2026-11-01"
+    },
+    "biology": {
+      "program": "Biochemistry — undergraduate major",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Golden",
+      "url": "https://www.mines.edu/academics/program-finder/",
+      "checked": "2026-11-01"
+    },
+    "engineering": {
+      "program": "Mechanical Engineering — undergraduate major",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Golden",
+      "url": "https://www.mines.edu/academics/program-finder/",
+      "checked": "2026-11-01"
+    },
+    "computer-science": {
+      "program": "Computer Science — undergraduate major",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Golden",
+      "url": "https://www.mines.edu/academics/program-finder/",
+      "checked": "2026-11-01"
     }
   }
 },
@@ -40414,10 +40968,28 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English — verified campus instruction statement",
   "programs": [
-    "computer-science"
+    "computer-science",
+    "business",
+    "economics",
+    "mathematics",
+    "biology",
+    "engineering",
+    "psychology",
+    "humanities",
+    "arts",
+    "social-sciences"
   ],
   "englishTaughtPrograms": [
-    "computer-science"
+    "computer-science",
+    "business",
+    "economics",
+    "mathematics",
+    "biology",
+    "engineering",
+    "psychology",
+    "humanities",
+    "arts",
+    "social-sciences"
   ],
   "programNote": "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
   "links": {
@@ -40427,7 +40999,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": null,
     "scholarships": null,
     "financialAid": null,
-    "programs": "https://www1.cs.ucr.edu/programs/undergraduate/computer-science",
+    "programs": "https://admissions.ucr.edu/majors",
     "cost": null
   },
   "admissions": {
@@ -40472,7 +41044,8 @@ window.UNIPATH.universities.push(
     "essay": null,
     "interview": null,
     "notes": [
-      "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
+      "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
+      "UCR Business Administration is a two-year upper-division major: students apply to the School of Business after completing requirements by the end of their second year. It is not direct first-year entry to that major. The medical school offers no undergraduate major; Biology is not a medical degree."
     ]
   },
   "english": {
@@ -40615,6 +41188,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Teaching language — official campus statement",
       "url": "https://reciprocity.uceap.universityofcalifornia.edu/plan-your-studies/examinations"
+    },
+    {
+      "label": "Undergraduate majors — named campus programmes",
+      "url": "https://admissions.ucr.edu/majors"
     }
   ],
   "verification": {
@@ -40643,6 +41220,78 @@ window.UNIPATH.universities.push(
       "campus": "Riverside",
       "url": "https://www1.cs.ucr.edu/programs/undergraduate/computer-science",
       "checked": "2026-10-31"
+    },
+    "business": {
+      "program": "Business Administration — upper-division major, School of Business",
+      "level": "bachelor",
+      "language": "English",
+      "campus": "Riverside",
+      "url": "https://admissions.ucr.edu/majors",
+      "checked": "2026-11-01"
+    },
+    "economics": {
+      "program": "Economics — CHASS undergraduate major",
+      "level": "bachelor",
+      "language": "English",
+      "campus": "Riverside",
+      "url": "https://admissions.ucr.edu/majors",
+      "checked": "2026-11-01"
+    },
+    "mathematics": {
+      "program": "Mathematics — CNAS undergraduate major",
+      "level": "bachelor",
+      "language": "English",
+      "campus": "Riverside",
+      "url": "https://admissions.ucr.edu/majors",
+      "checked": "2026-11-01"
+    },
+    "biology": {
+      "program": "Biology — CNAS undergraduate major",
+      "level": "bachelor",
+      "language": "English",
+      "campus": "Riverside",
+      "url": "https://admissions.ucr.edu/majors",
+      "checked": "2026-11-01"
+    },
+    "engineering": {
+      "program": "Mechanical Engineering — Bourns undergraduate major",
+      "level": "bachelor",
+      "language": "English",
+      "campus": "Riverside",
+      "url": "https://admissions.ucr.edu/majors",
+      "checked": "2026-11-01"
+    },
+    "psychology": {
+      "program": "Psychology — CHASS undergraduate major",
+      "level": "bachelor",
+      "language": "English",
+      "campus": "Riverside",
+      "url": "https://admissions.ucr.edu/majors",
+      "checked": "2026-11-01"
+    },
+    "humanities": {
+      "program": "History — CHASS undergraduate major",
+      "level": "bachelor",
+      "language": "English",
+      "campus": "Riverside",
+      "url": "https://admissions.ucr.edu/majors",
+      "checked": "2026-11-01"
+    },
+    "arts": {
+      "program": "Art (Studio) — CHASS undergraduate major",
+      "level": "bachelor",
+      "language": "English",
+      "campus": "Riverside",
+      "url": "https://admissions.ucr.edu/majors",
+      "checked": "2026-11-01"
+    },
+    "social-sciences": {
+      "program": "Sociology — CHASS undergraduate major",
+      "level": "bachelor",
+      "language": "English",
+      "campus": "Riverside",
+      "url": "https://admissions.ucr.edu/majors",
+      "checked": "2026-11-01"
     }
   }
 },

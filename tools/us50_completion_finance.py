@@ -32,6 +32,7 @@ u['links']['cost']=s['source'];link(u,s)
 
 u=byid['rutgers-university-new-brunswick'];s=evidence(u['id'],'international-merit-conditions')
 award=dict(id='rutgers-nb-international',category='merit',basis='merit',name=L('International Student Scholarships','Стипендии иностранных студентов'),
+ application=L('Automatic consideration with the admission application; no separate scholarship application','Автоматическое рассмотрение заявки на поступление; отдельной заявки на стипендию нет'),
  amount=L('USD 5,000–16,000 per year','5 000–16 000 USD в год'),
  eligibility=L('Admitted international first-year students on valid non-immigrant visas at New Brunswick; competitive review. School-specific conditions apply. Mason Gross uses a separate talent assessment and is not assigned this academic-award range.',
  'Принятые иностранные первокурсники New Brunswick с действующей неиммиграционной визой; конкурсный отбор. Действуют условия школы. Mason Gross использует отдельную оценку творческих способностей; этот диапазон академических наград к ней не отнесён.'),
@@ -44,6 +45,7 @@ u['scholarships']['merit']=[x for x in u['scholarships']['merit'] if x.get('id')
 
 u=byid['university-of-california-davis'];s=evidence(u['id'],'campus-scholarship-scope')
 award=dict(id='davis-campus-scholarships',category='merit',basis='merit',name=L('Campus-based undergraduate scholarships','Кампусные стипендии бакалавриата'),
+ application=L('UC admission application; additional materials only if requested','Заявка на поступление UC; дополнительные материалы только по запросу'),
  amount=None,renewable=None,deadlineScope='not-confirmed',entryTerm=None,entryYear=None,source=s['source'],verified=s['verified'],
  eligibility=L('The official FAQ includes international undergraduates, subject to each donor award’s restrictions. Awards consider academic excellence; some add financial-need or other criteria. Eligibility for this general scheme does not prove eligibility for every named award.',
  'Официальные ответы включают иностранных бакалавров с учётом ограничений каждой донорской награды. Учитываются академические достижения; некоторые награды добавляют нуждаемость или другие критерии. Допуск к общей системе не доказывает допуск к каждой именной награде.'),

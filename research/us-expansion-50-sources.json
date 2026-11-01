@@ -6705,12 +6705,30 @@
       "language": "English",
       "scopeType": "campus-instruction-policy",
       "appliesToFields": [
-        "computer-science"
+        "computer-science",
+        "business",
+        "economics",
+        "mathematics",
+        "biology",
+        "engineering",
+        "psychology",
+        "humanities",
+        "arts",
+        "social-sciences"
       ],
       "exception": "Foreign-language courses excluded",
       "exchangeThresholdsNotApplied": true,
       "appliesToProgrammes": {
-        "computer-science": "Computer Science and Engineering, B.S."
+        "computer-science": "Computer Science and Engineering, B.S.",
+        "business": "Management and Business Economics, B.S.",
+        "economics": "Economics, B.A.",
+        "mathematics": "Applied Mathematical Sciences, B.S.",
+        "biology": "Biological Sciences, B.S.",
+        "engineering": "Mechanical Engineering, B.S.",
+        "psychology": "Psychology, B.A.",
+        "humanities": "History, B.A.",
+        "arts": "Global Arts Studies, B.A.",
+        "social-sciences": "Sociology, B.A."
       }
     }
   },
@@ -6728,12 +6746,30 @@
       "language": "English",
       "scopeType": "campus-instruction-policy",
       "appliesToFields": [
-        "computer-science"
+        "computer-science",
+        "business",
+        "economics",
+        "mathematics",
+        "biology",
+        "engineering",
+        "psychology",
+        "humanities",
+        "arts",
+        "social-sciences"
       ],
       "exception": "Foreign-language courses excluded",
       "exchangeThresholdsNotApplied": true,
       "appliesToProgrammes": {
-        "computer-science": "Computer Science, BS"
+        "computer-science": "Computer Science, BS",
+        "business": "Business Administration — upper-division major, School of Business",
+        "economics": "Economics — CHASS undergraduate major",
+        "mathematics": "Mathematics — CNAS undergraduate major",
+        "biology": "Biology — CNAS undergraduate major",
+        "engineering": "Mechanical Engineering — Bourns undergraduate major",
+        "psychology": "Psychology — CHASS undergraduate major",
+        "humanities": "History — CHASS undergraduate major",
+        "arts": "Art (Studio) — CHASS undergraduate major",
+        "social-sciences": "Sociology — CHASS undergraduate major"
       }
     }
   },
@@ -6959,5 +6995,380 @@
     "access": "blocked-403",
     "quote": "",
     "facts": null
+  },
+  {
+    "id": "university-of-pittsburgh",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://www.academics.pitt.edu/undergraduate-programs",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "First-year undergraduate programme evidence; entry/progression limitations retained",
+    "campus": "Pittsburgh",
+    "access": "html-read",
+    "quote": "First-year admitting schools",
+    "facts": {
+      "programs": {
+        "business": "Accounting, BSBA — College of Business Administration",
+        "economics": "Economics, BA or BS — Dietrich Arts and Sciences",
+        "mathematics": "Mathematics, BS — Dietrich Arts and Sciences",
+        "biology": "Biological Sciences, BS — Dietrich Arts and Sciences",
+        "engineering": "Mechanical Engineering, BSE — Swanson School",
+        "psychology": "Psychology, BS — Dietrich Arts and Sciences",
+        "humanities": "History, BA — Dietrich Arts and Sciences",
+        "arts": "Studio Arts, BA — Dietrich Arts and Sciences",
+        "social-sciences": "Sociology, BA — Dietrich Arts and Sciences"
+      },
+      "academicYear": null,
+      "limitations": "Only Pittsburgh first-year schools CBA/Dietrich/Swanson/SCI are used; junior-transfer CGS/Pharmacy/SHRS routes and BPhil second-major conditions are not universal first-year degrees.",
+      "programmeEntryNote": {
+        "en": "Pittsburgh has distinct first-year admitting schools. The selected Dietrich/CBA/Swanson/SCI majors do not imply direct first-year entry to junior-transfer professional schools; major-specific progression remains separate.",
+        "ru": "В Pittsburgh отдельные школы принимают первокурсников. Выбранные программы Dietrich/CBA/Swanson/SCI не означают прямой приём на первый курс профессиональных школ, принимающих после университетской подготовки; переход на конкретную программу проверяется отдельно."
+      }
+    }
+  },
+  {
+    "id": "university-of-california-merced",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://admissions.ucmerced.edu/academics/majors-minors",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "First-year undergraduate programme evidence; entry/progression limitations retained",
+    "campus": "Merced",
+    "access": "html-read",
+    "quote": "Management and Business Economics",
+    "facts": {
+      "programs": {
+        "business": "Management and Business Economics, B.S.",
+        "economics": "Economics, B.A.",
+        "mathematics": "Applied Mathematical Sciences, B.S.",
+        "biology": "Biological Sciences, B.S.",
+        "engineering": "Mechanical Engineering, B.S.",
+        "psychology": "Psychology, B.A.",
+        "humanities": "History, B.A.",
+        "arts": "Global Arts Studies, B.A.",
+        "social-sciences": "Sociology, B.A."
+      },
+      "academicYear": null,
+      "limitations": "Accounting/Business Administration and new programmes with transfer-opening dates are not assumed first-year routes; established Management and Business Economics is used. Degree emphases and separate minors are not separate bachelor majors."
+    }
+  },
+  {
+    "id": "binghamton-university",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://www.binghamton.edu/academics/programs/",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "First-year undergraduate programme evidence; entry/progression limitations retained",
+    "campus": "Binghamton",
+    "access": "html-read",
+    "quote": "Academic Program Finder",
+    "facts": {
+      "programs": {
+        "business": "Accounting, BS",
+        "economics": "Economics, BA or BS",
+        "mathematics": "Mathematical Sciences, BA or BS",
+        "biology": "Biological Sciences, BA or BS",
+        "engineering": "Mechanical Engineering, BS",
+        "humanities": "History, BA",
+        "arts": "Studio Art, BA or BFA"
+      },
+      "academicYear": null,
+      "limitations": "Finder has mixed BA/BS, graduate and minor listings: only explicit undergraduate degrees retained; Data Analytics/Data Science and Statistics MS and Digital/Data Studies minor not promoted."
+    }
+  },
+  {
+    "id": "indiana-university-bloomington",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://academics.iu.edu/degrees/bloomington/bachelor-of-science-in-business/accounting.html",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "First-year undergraduate programme evidence; entry/progression limitations retained",
+    "campus": "Bloomington",
+    "access": "html-read",
+    "quote": "Bachelor of Science in Business",
+    "facts": {
+      "programs": {
+        "business": "Accounting, Bachelor of Science in Business — Kelley"
+      },
+      "academicYear": null,
+      "limitations": "Campus explicitly Bloomington; other IU campuses in Also Offered are not combined; no postgraduate CPA qualification inferred.",
+      "catalogueUrl": "https://bloomington.iu.edu/academics/degrees-majors/programs.html"
+    }
+  },
+  {
+    "id": "indiana-university-bloomington",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://academics.iu.edu/degrees/bloomington/bachelor-of-arts/economics%2Bmathematics.html",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "First-year undergraduate programme evidence; entry/progression limitations retained",
+    "campus": "Bloomington",
+    "access": "html-read",
+    "quote": "Interdepartmental Major",
+    "facts": {
+      "programs": {
+        "economics": "Economics/Mathematics, B.A. — College of Arts and Sciences",
+        "mathematics": "Economics/Mathematics, B.A. — College of Arts and Sciences"
+      },
+      "academicYear": null,
+      "limitations": "One joint major represented in both relevant broad filters; not two separate degrees or a claim of complete economics/mathematics coverage.",
+      "catalogueUrl": "https://bloomington.iu.edu/academics/degrees-majors/programs.html"
+    }
+  },
+  {
+    "id": "indiana-university-bloomington",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://academics.iu.edu/degrees/bloomington/bachelor-of-science-in-intelligent-systems-engineering.html",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "First-year undergraduate programme evidence; entry/progression limitations retained",
+    "campus": "Bloomington",
+    "access": "html-read",
+    "quote": "Intelligent Systems Engineering",
+    "facts": {
+      "programs": {
+        "engineering": "Intelligent Systems Engineering, BS — Luddy"
+      },
+      "academicYear": null,
+      "limitations": "Four named concentrations within one BS; optional pre-med is not a medical qualification; no mechanical-engineering claim.",
+      "catalogueUrl": "https://bloomington.iu.edu/academics/degrees-majors/programs.html"
+    }
+  },
+  {
+    "id": "indiana-university-bloomington",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://www.bio.indiana.edu/student-portal/undergraduate/biology/biology-ba.html",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "First-year undergraduate programme evidence; entry/progression limitations retained",
+    "campus": "Bloomington",
+    "access": "html-read",
+    "quote": "Biology B.A. requirements",
+    "facts": {
+      "programs": {
+        "biology": "Biology, B.A. — College of Arts and Sciences"
+      },
+      "academicYear": "2026–2027",
+      "limitations": "Department links explicit 2026–27 BA requirements, separate BS/minor and graduate options are not combined.",
+      "catalogueUrl": "https://bloomington.iu.edu/academics/degrees-majors/programs.html"
+    }
+  },
+  {
+    "id": "north-carolina-state-university",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://catalog.ncsu.edu/undergraduate/",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "First-year undergraduate programme evidence; entry/progression limitations retained",
+    "campus": "Raleigh",
+    "access": "html-read",
+    "quote": "University Catalog 2026-2027",
+    "facts": {
+      "programs": {
+        "business": "Accounting, BS",
+        "economics": "Economics, BA or BS",
+        "mathematics": "Mathematics, BS",
+        "biology": "Biological Sciences, BS",
+        "engineering": "Mechanical Engineering, BS",
+        "humanities": "History, BA",
+        "psychology": "Psychology, BA — General Psychology"
+      },
+      "academicYear": "2026–2027",
+      "limitations": "Undergraduate majors tab only; AAS, online variants, minors and one-year architecture professional degree excluded. Programme declaration/progression conditions remain separate."
+    }
+  },
+  {
+    "id": "rutgers-university-newark",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://sasn.rutgers.edu/academics/undergraduate-majors-minors",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "First-year undergraduate programme evidence; entry/progression limitations retained",
+    "campus": "Newark",
+    "access": "html-read",
+    "quote": "Programs of Study",
+    "facts": {
+      "programs": {
+        "economics": "Economics, B.A. — SAS-Newark",
+        "mathematics": "Mathematics, B.A. — SAS-Newark",
+        "biology": "Biology, B.A. or B.S. — SAS-Newark",
+        "psychology": "Psychology, B.A. — SAS-Newark",
+        "humanities": "History, B.A. — SAS-Newark",
+        "arts": "Graphic Design, B.F.A. — SAS-Newark",
+        "social-sciences": "Sociology, B.A. — SAS-Newark"
+      },
+      "academicYear": null,
+      "limitations": "Data Science is minor; Pre-Engineering is Transfer Program, not a standalone engineering bachelor. Combined BA/MA and American Studies MA/PhD are not bachelor majors.",
+      "programmeEntryNote": {
+        "en": "The SAS-Newark listing identifies Pre-Engineering as a transfer programme and Data Science as a minor. Neither is displayed as a confirmed standalone bachelor major. Separate Rutgers business/engineering schools require their own evidence.",
+        "ru": "В списке SAS-Newark Pre-Engineering обозначен как переводной маршрут, Data Science — как minor. Ни один не показан как подтверждённая самостоятельная программа бакалавриата. Для отдельных школ бизнеса/инженерии Rutgers нужны собственные доказательства."
+      }
+    }
+  },
+  {
+    "id": "university-of-connecticut",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://tme.uconn.edu/explore-majors/profiles-storrs/",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "First-year undergraduate programme evidence; entry/progression limitations retained",
+    "campus": "Storrs",
+    "access": "html-read",
+    "quote": "Major Profiles – Storrs",
+    "facts": {
+      "programs": {
+        "business": "Accounting — Storrs undergraduate major",
+        "mathematics": "Mathematics — Storrs undergraduate major",
+        "biology": "Biological Sciences — Storrs undergraduate major",
+        "engineering": "Mechanical Engineering — Storrs undergraduate major",
+        "humanities": "History — Storrs undergraduate major",
+        "arts": "Art — Storrs undergraduate major",
+        "psychology": "Psychological Sciences — Storrs undergraduate major",
+        "social-sciences": "Sociology — Storrs undergraduate major"
+      },
+      "academicYear": null,
+      "limitations": "Campus-specific majors directory, degree suffixes not inferred. Admissions page warns Business Administration/Business Data Analytics/Financial Management/Marketing Management/Marine Sciences/Maritime Studies/Social Work cannot be completed solely at Storrs; none of these used."
+    }
+  },
+  {
+    "id": "university-of-connecticut",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://econ.uconn.edu/undergraduate/major/",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "First-year undergraduate programme evidence; entry/progression limitations retained",
+    "campus": "Storrs",
+    "access": "html-read",
+    "quote": "will enter as a BA",
+    "facts": {
+      "programs": {
+        "economics": "Economics, B.A. — CLAS (BS change possible later)"
+      },
+      "academicYear": null,
+      "limitations": "CLAS department offers BA/BS, but explicitly all entering freshmen/transfer economics majors enter BA; no direct BS promise.",
+      "programmeEntryNote": {
+        "en": "UConn Economics offers BA and BS, but all entering Economics freshmen and transfers begin in the BA; a later change is possible. Other selected majors come from the Storrs-specific directory, not a combined campus list.",
+        "ru": "Экономика UConn имеет BA и BS, но все поступающие первокурсники и переводные студенты начинают с BA; позже возможна смена. Другие выбранные программы взяты из списка Storrs, не общего списка кампусов."
+      },
+      "catalogueUrl": "https://tme.uconn.edu/explore-majors/profiles-storrs/"
+    }
+  },
+  {
+    "id": "clemson-university",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://www.clemson.edu/science/academics/undergraduate/majors.html",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "First-year undergraduate programme evidence; entry/progression limitations retained",
+    "campus": "Clemson",
+    "access": "html-read",
+    "quote": "Eight Majors, Unlimited Opportunities",
+    "facts": {
+      "programs": {
+        "mathematics": "Mathematical Sciences, BA or BS — College of Science",
+        "biology": "Biological Sciences, BA or BS — College of Science"
+      },
+      "academicYear": null,
+      "limitations": "BA and BS undergraduate science options verified; professional health careers and combined masters are not undergraduate medicine.",
+      "catalogueUrl": "https://www.clemson.edu/academics/"
+    }
+  },
+  {
+    "id": "clemson-university",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://www.clemson.edu/business/students/advising/change-of-major.html",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "First-year undergraduate programme evidence; entry/progression limitations retained",
+    "campus": "Clemson",
+    "access": "html-read",
+    "quote": "Pre-Business curriculum",
+    "facts": {
+      "programs": {
+        "business": "Accounting, BS — Powers College of Business",
+        "economics": "Economics, BS — Powers College of Business"
+      },
+      "academicYear": null,
+      "limitations": "Progression requirements concern existing Clemson students, not first-year school qualifications. Pre-Business itself is non-degree. Additional major/course fees are not universal costs.",
+      "programmeEntryNote": {
+        "en": "Clemson Accounting/Economics BS requires completion of Pre-Business courses and Clemson college GPA 2.0 for major admission; the separate 2026–27 change into Pre-Business has 12 Clemson credits and 2.5 college GPA. These are university progression rules, not Uzbek school GPA minima.",
+        "ru": "Для перехода на Accounting/Economics BS в Clemson нужны курсы Pre-Business и университетский GPA Clemson 2,0; отдельная смена на Pre-Business в 2026–2027 требует 12 кредитов Clemson и университетского GPA 2,5. Это правила перехода внутри университета, не минимальные оценки узбекской школы."
+      },
+      "catalogueUrl": "https://www.clemson.edu/academics/"
+    }
+  },
+  {
+    "id": "clemson-university",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://www.clemson.edu/cecas/departments/me/academics/undergraduate/bs-degree.html",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "First-year undergraduate programme evidence; entry/progression limitations retained",
+    "campus": "Clemson",
+    "access": "html-read",
+    "quote": "first term in General Engineering",
+    "facts": {
+      "programs": {
+        "engineering": "Mechanical Engineering, BS — CECAS"
+      },
+      "academicYear": null,
+      "limitations": "Mechanical BS127 credits; General Engineering first-year curriculum and college2.6 progression; junior3.4 accelerated BS/MS threshold not school admission.",
+      "programmeEntryNote": {
+        "en": "Clemson engineering students begin in General Engineering. Mechanical Engineering requires the first-year curriculum and college GPA at least 2.6 to progress; this is not an Uzbek school admission minimum. The separate junior-year 3.4 BS/MS rule is not applied to first-year applicants.",
+        "ru": "Инженеры Clemson начинают с General Engineering. Для перехода на Mechanical Engineering нужны программа первого курса и университетский GPA не ниже 2,6; это не минимальная оценка узбекской школы при поступлении. Отдельное правило 3,4 для BS/MS после третьего курса не применяется к первокурсникам."
+      },
+      "catalogueUrl": "https://www.clemson.edu/academics/"
+    }
+  },
+  {
+    "id": "colorado-school-of-mines",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://www.mines.edu/academics/program-finder/",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "First-year undergraduate programme evidence; entry/progression limitations retained",
+    "campus": "Golden",
+    "access": "html-read",
+    "quote": "Undergraduate Mechanical Engineering Major",
+    "facts": {
+      "programs": {
+        "business": "Business Engineering and Management Science — undergraduate major",
+        "biology": "Biochemistry — undergraduate major",
+        "engineering": "Mechanical Engineering — undergraduate major",
+        "computer-science": "Computer Science — undergraduate major"
+      },
+      "academicYear": null,
+      "limitations": "Applied Mathematics/Statistics existing verified major retained. Biology, Economics, generic Business and Data Science entries in this finder are minors, not promoted as those bachelor majors. Business tag refers specifically to named engineering/management degree."
+    }
+  },
+  {
+    "id": "university-of-california-riverside",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://admissions.ucr.edu/majors",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "First-year undergraduate programme evidence; entry/progression limitations retained",
+    "campus": "Riverside",
+    "access": "html-read",
+    "quote": "two-year upper-division major",
+    "facts": {
+      "programs": {
+        "business": "Business Administration — upper-division major, School of Business",
+        "economics": "Economics — CHASS undergraduate major",
+        "mathematics": "Mathematics — CNAS undergraduate major",
+        "biology": "Biology — CNAS undergraduate major",
+        "engineering": "Mechanical Engineering — Bourns undergraduate major",
+        "psychology": "Psychology — CHASS undergraduate major",
+        "humanities": "History — CHASS undergraduate major",
+        "arts": "Art (Studio) — CHASS undergraduate major",
+        "social-sciences": "Sociology — CHASS undergraduate major"
+      },
+      "academicYear": null,
+      "limitations": "Business Administration requires applying after completing requirements by end of second year; concentrations not distinct degrees. School of Medicine explicitly has no undergraduate major.",
+      "programmeEntryNote": {
+        "en": "UCR Business Administration is a two-year upper-division major: students apply to the School of Business after completing requirements by the end of their second year. It is not direct first-year entry to that major. The medical school offers no undergraduate major; Biology is not a medical degree.",
+        "ru": "Business Administration в UCR — двухлетняя программа старших курсов: после выполнения требований к концу второго года подают заявку в School of Business. Это не прямой приём на эту программу с первого курса. Медицинская школа не имеет основной программы бакалавриата; Biology не медицинский диплом."
+      }
+    }
   }
 ]

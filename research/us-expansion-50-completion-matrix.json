@@ -858,7 +858,7 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "6 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "10 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
             "https://www.academics.pitt.edu/undergraduate-programs"
           ]
@@ -936,16 +936,26 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "10 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://engr-advising.ucmerced.edu/node/6"
+            "https://engr-advising.ucmerced.edu/node/6",
+            "https://admissions.ucmerced.edu/academics/majors-minors"
           ]
         },
         "language": {
           "status": "partial",
           "notes": {
             "confirmedFields": [
-              "computer-science"
+              "computer-science",
+              "business",
+              "economics",
+              "mathematics",
+              "biology",
+              "engineering",
+              "psychology",
+              "humanities",
+              "arts",
+              "social-sciences"
             ],
             "remaining": "Не выводится из языка сайта или требований IELTS"
           },
@@ -1018,9 +1028,10 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "8 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://www.binghamton.edu/apps/academics/program/ug/computer-science"
+            "https://www.binghamton.edu/apps/academics/program/ug/computer-science",
+            "https://www.binghamton.edu/academics/programs/"
           ]
         },
         "language": {
@@ -1096,9 +1107,13 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "6 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://luddy.iu.edu/academics/undergraduate/bs-computer-science.html"
+            "https://luddy.iu.edu/academics/undergraduate/bs-computer-science.html",
+            "https://academics.iu.edu/degrees/bloomington/bachelor-of-science-in-business/accounting.html",
+            "https://academics.iu.edu/degrees/bloomington/bachelor-of-arts/economics%2Bmathematics.html",
+            "https://academics.iu.edu/degrees/bloomington/bachelor-of-science-in-intelligent-systems-engineering.html",
+            "https://www.bio.indiana.edu/student-portal/undergraduate/biology/biology-ba.html"
           ]
         },
         "language": {
@@ -1172,9 +1187,10 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "8 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://catalog.ncsu.edu/undergraduate/engineering/computer-science/computer-science-bs/"
+            "https://catalog.ncsu.edu/undergraduate/engineering/computer-science/computer-science-bs/",
+            "https://catalog.ncsu.edu/undergraduate/"
           ]
         },
         "language": {
@@ -1250,7 +1266,7 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "4 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "8 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
             "https://sasn.rutgers.edu/academics/undergraduate-majors-minors"
           ]
@@ -1328,9 +1344,11 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "10 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://computing.engineering.uconn.edu/undergraduate/major-programs/computer-science/"
+            "https://computing.engineering.uconn.edu/undergraduate/major-programs/computer-science/",
+            "https://tme.uconn.edu/explore-majors/profiles-storrs/",
+            "https://econ.uconn.edu/undergraduate/major/"
           ]
         },
         "language": {
@@ -1406,9 +1424,12 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "6 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://www.clemson.edu/cecas/departments/computing/academics/undergrad/degrees/cs-bs.html"
+            "https://www.clemson.edu/cecas/departments/computing/academics/undergrad/degrees/cs-bs.html",
+            "https://www.clemson.edu/science/academics/undergraduate/majors.html",
+            "https://www.clemson.edu/business/students/advising/change-of-major.html",
+            "https://www.clemson.edu/cecas/departments/me/academics/undergraduate/bs-degree.html"
           ]
         },
         "language": {
@@ -1484,9 +1505,10 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "5 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://www.mines.edu/academics/undergraduate-academics/majors/applied-mathematics-and-statistics-major/"
+            "https://www.mines.edu/academics/undergraduate-academics/majors/applied-mathematics-and-statistics-major/",
+            "https://www.mines.edu/academics/program-finder/"
           ]
         },
         "language": {
@@ -1560,16 +1582,26 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "10 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://www1.cs.ucr.edu/programs/undergraduate/computer-science"
+            "https://www1.cs.ucr.edu/programs/undergraduate/computer-science",
+            "https://admissions.ucr.edu/majors"
           ]
         },
         "language": {
           "status": "partial",
           "notes": {
             "confirmedFields": [
-              "computer-science"
+              "computer-science",
+              "business",
+              "economics",
+              "mathematics",
+              "biology",
+              "engineering",
+              "psychology",
+              "humanities",
+              "arts",
+              "social-sciences"
             ],
             "remaining": "Не выводится из языка сайта или требований IELTS"
           },

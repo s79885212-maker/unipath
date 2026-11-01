@@ -43,6 +43,22 @@ module.exports=function(env){
      U.englishPrograms(rutgers).length===0,
      'catalogue majors broaden confirmed fields while Rutgers business minor and an English website cannot become confirmed degree/language matches');
   var noEnglish=U.optionById('language','english-no'),unknownEnglish=U.optionById('language','english-unknown');
+  var newarkMajors=U.uniById('rutgers-university-newark'),minesMajors=U.uniById('colorado-school-of-mines'),conn=U.uniById('university-of-connecticut');
+  ok(!newarkMajors.programEvidence.engineering&&/SAS-Newark/.test(newarkMajors.programEvidence.economics.program)&&
+     !minesMajors.programEvidence.economics&&/Business Engineering/.test(minesMajors.programEvidence.business.program)&&
+     /Biochemistry/.test(minesMajors.programEvidence.biology.program),
+     'Rutgers pre-engineering transfer and Mines economics/biology minors cannot replace the named confirmed bachelor majors');
+  ok(/will enter|begin in the BA/.test(conn.admissions.notes.join(' '))&&/Storrs/.test(conn.programEvidence.business.program)&&
+     /Economics, B.A./.test(conn.programEvidence.economics.program)&&
+     !/Business Administration/.test(conn.programEvidence.business.program),
+     'UConn campus-specific Accounting major and initial Economics BA do not promise a Storrs-only Business Administration or direct BS route');
+  var clemMajors=U.uniById('clemson-university'),riversideMajors=U.uniById('university-of-california-riverside');
+  ok(clemMajors.admissions.notes.some(function(n){return /General Engineering/.test(n)&&/college GPA/.test(n);})&&
+     (!clemMajors.academics.gpa||clemMajors.academics.gpa.min!==2.6)&&
+     /upper-division/.test(riversideMajors.programEvidence.business.program)&&
+     riversideMajors.admissions.notes.some(function(n){return /not direct first-year/.test(n);})&&
+     !riversideMajors.programEvidence.medicine,
+     'Clemson college progression and Riverside upper-division business remain scoped; medical-school pathways are not undergraduate medicine');
   ok(!noEnglish.test(rutgers)&&unknownEnglish.test(rutgers)&&
      noEnglish.test({englishTaught:false})&&!unknownEnglish.test({englishTaught:false})&&
      !unknownEnglish.test(uiuc)&&!noEnglish.test(uiuc)&&unknownEnglish.test({}),
@@ -149,8 +165,11 @@ module.exports=function(env){
      'Rutgers Newark retains its BA/MD exception, TOEFL4.0 and BA degree distinct from New Brunswick');
   var mines=U.uniById('colorado-school-of-mines');
   ok(mines&&mines.academics.sat.policy===null&&mines.admissions.applicationFee.amount===null&&
-     /403/.test(mines.academics.sat.note)&&mines.programs.join(',')==='mathematics',
-     'blocked Mines admissions snippets never become a fee, optional policy, English minimum or unverified CS match');
+     /403/.test(mines.academics.sat.note)&&U.ieltsMin(mines)===null&&U.englishPrograms(mines).length===0&&
+     mines.programEvidence['computer-science'].url==='https://www.mines.edu/academics/program-finder/'&&
+     sources.some(function(s){return s.id===mines.id&&s.topic==='undergraduate-major-coverage'&&s.access==='html-read'&&
+       s.facts.programs['computer-science']===mines.programEvidence['computer-science'].program;}),
+     'Mines separately read official CS major does not make blocked admission snippets a fee, optional testing policy, English minimum or confirmed teaching language');
   var rejected={id:'synthetic-rejected-ielts',english:{ielts:{accepted:false,min:1}},academics:{sat:{}},costs:{},scholarships:{}};
   var reject=M.evaluate(rejected,{ielts:9,sat:null,gpa:null,budget:null,currency:'USD'});
   ok(!reject.checks.some(function(c){return c.level==='ok'&&/IELTS/.test(c.text);})&&
