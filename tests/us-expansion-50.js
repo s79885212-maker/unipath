@@ -246,4 +246,13 @@ module.exports=function(env){
   var achievement=U.awardsAll(riverside).filter(function(a){return a.id==='achievement';})[0];
   ok(achievement.basis==='unknown'&&!U.meritList(riverside).some(function(a){return a.id==='achievement';})&&/Automatic consideration does not mean/.test(achievement.note),
      'Riverside automatic consideration is not relabelled as a guaranteed award to every eligible admitted student');
+  var gw=U.uniById('george-washington-university'),welcome=gw.scholarships.fullRide;
+  ok(U.awardKind(gw)==='full-tuition'&&welcome.id==='you-are-welcome-here'&&welcome.covers.housing===false&&
+     /Only one GW/.test(welcome.note)&&/UWC/.test(welcome.note)&&welcome.renewable===true&&
+     gw.scholarships.needBased.availableToInternational===null&&
+     U.awardDates(gw,welcome).some(function(d){return d.kind==='scholarship'&&d.status==='annual-rule'&&d.entryYear===null&&d.binding===null;}),
+     'GW two-place competitive tuition-only award retains school/CSS, non-stacking and annual scholarship scope; UWC exception is not general need eligibility');
+  ok(U.budgetAmount(gw)===95155&&U.billedAmount(gw)===90930&&U.costArithmetic(gw).length===0&&
+     gw.costs.status==='previous-cycle'&&!DB.match.annualCost[gw.id]&&budget(gw,100000).status==='unknown',
+     'GW standard-school historical new-student budget is neither a current full budget nor reduced by its competitive tuition award');
 };

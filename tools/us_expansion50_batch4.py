@@ -179,4 +179,33 @@ r['scholarships']['fullRide'].update(available=True,internationalEligible=True,b
   howToApply=L('Admission by annual 1 February, then separate Global Scholar application in the admitted-student portal, essay and activities/resume by annual 1 March; finalists video interview. The award date itself has no established 2027 cycle, despite the separate 2027–28 guide.',
     'Поступление к ежегодному 1 февраля, затем отдельная Global Scholar в кабинете принятого студента, эссе и список активности/резюме к ежегодному 1 марта; финалисты проходят видеоинтервью. Для самого срока награды цикл 2027 не установлен, несмотря на отдельное руководство 2027–28.'))
 event(r,L('Global Scholar — scholarship application','Global Scholar — заявка на стипендию'),'scholarship','1 March',topic='global-scholar',award='global-scholar')
+r=records[4];s=src(r['id'],'cost-reference')
+r['costs']=costs('2026–2027',s['source'],s['verified'],
+  L('New first-year, standard undergraduate schools, residence-hall estimate; full-time12–18 credits, engineering up to19',
+    'Новый первый курс стандартных школ бакалавриата, смета общежития; полная нагрузка12–18 кредитов, инженерные до19'),
+  [(L('Tuition','Обучение'),72000,'billed'),(L('Mandatory fees','Обязательные сборы'),420,'billed'),
+   (L('One-time matriculation fee','Однократный сбор за зачисление'),350,'billed'),
+   (L('Housing and food allowance','Смета жилья и питания'),18160,'billed'),
+   (L('Books and supplies','Книги и материалы'),1450,'estimate'),(L('Personal expenses','Личные расходы'),1700,'estimate'),
+   (L('Transportation','Транспорт'),1075,'estimate')],
+  L('Previous-cycle published COA: USD95,155','Опубликованная COA прошлого цикла: 95 155 USD'),
+  L('USD95,155 before aid; insurance separately reviewed','95 155 USD до помощи; страховка проверяется отдельно'),
+  L('Published new-student residence-hall estimate','Опубликованная смета нового студента в общежитии'),
+  tuition=72000,billed=90930,budget=95155,status='previous-cycle',
+  note=L('2026–27 only: standard Arts/Sciences, Business, Engineering/Applied Science, Elliott and Milken undergraduate schools. Specialty, accelerated, online and graduate programmes are separate. The standard table does not itemise SHIP medical insurance; coverage is mandatory and automatic enrolment applies unless waived. Exact premium/applicability needs review. This is not a confirmed Fall2027 budget and no competitive award is deducted.',
+    'Только2026–27: стандартный бакалавриат Arts/Sciences, Business, Engineering/Applied Science, Elliott и Milken. Специальные, ускоренные, онлайн- и последипломные программы отдельные. Стандартная таблица не выделяет страховку SHIP; медицинское покрытие обязательно, зачисление в SHIP автоматическое без освобождения. Точная премия/применимость ещё проверяется. Это не подтверждённый бюджет осени2027, конкурсная награда не вычитается.'))
+s=src(r['id'],'international-awards')
+r['scholarships']['needBased'].update(availableToInternational=None,source=s['source'],verified=s['verified'],
+  note=L('General international need-based aid is unavailable. A separate Davis UWC partnership offers need-based awards only to UWC graduates with CSS; this does not establish eligibility for an ordinary Uzbek-school applicant.',
+    'Общая международная помощь по нуждаемости недоступна. Отдельное партнёрство Davis UWC предоставляет такую помощь только выпускникам UWC с CSS; это не подтверждает право обычного выпускника узбекской школы.'))
+r['scholarships']['fullRide'].update(available=True,internationalEligible=True,basis='merit',id='you-are-welcome-here',category='merit',
+  name='You Are Welcome Here',entryTerm=None,entryYear=None,deadlineScope='annual-rule',source=s['source'],verified=s['verified'],
+  covers=dict(tuition=True,housing=False,meals=False,books=None,insurance=None),renewable=True,
+  note=L('Two competitive full-tuition awards each year for fall first-year applicants schooled outside the US who demonstrate intercultural initiative and submit CSS5246. Full tuition does not cover living costs. General need-based aid is unavailable except the separate Davis UWC partnership for UWC graduates with CSS; eligibility is not assumed for an ordinary Uzbek-school applicant. Presidential awards have variable amounts and automatic consideration, not guaranteed receipt. Only one GW merit scholarship may be awarded; employee benefits exclude these awards. Award cycle2027 and any larger numerical maximum remain unconfirmed.',
+    'Две конкурсные награды с полным покрытием обучения в год для осеннего первого курса: школа вне США, межкультурная инициатива и CSS5246. Жизнь этим не покрывается. Общая помощь по нуждаемости недоступна, кроме отдельного Davis UWC для выпускников UWC с CSS; право обычного выпускника узбекской школы не предполагается. Presidential имеют переменный размер и автоматическое рассмотрение, не гарантированное получение. Присуждается только одна академическая награда GW; получатели льгот сотрудника исключены. Цикл2027 и иной больший числовой максимум не подтверждены.'),
+  renewalConditions=L('Up to10 consecutive undergraduate semesters with continuous full-time enrolment and satisfactory academic progress. Tuition use only; exact SAP thresholds unreviewed.',
+    'До10 последовательных семестров бакалавриата при непрерывной полной нагрузке и удовлетворительной академической успеваемости. Только на обучение; точные пороги SAP ещё не проверены.'),
+  howToApply=L('After submitting the admission application, submit the separate scholarship application in the portal with an essay or video and CSS. January31 is an annual rule with no established entry year; no portal login was performed.',
+    'После заявки на поступление подайте отдельную стипендиальную заявку в кабинете с эссе или видео и CSS. 31января — ежегодное правило без установленного года набора; вход в кабинет не выполнялся.'))
+event(r,L('You Are Welcome Here — scholarship application','You Are Welcome Here — заявка на стипендию'),'scholarship','31 January',topic='international-awards',award='you-are-welcome-here')
 finish(records,4)

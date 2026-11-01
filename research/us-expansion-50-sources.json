@@ -6045,5 +6045,75 @@
       "selectionBasis": "Not explicitly established on this paragraph; do not classify as given to every eligible admitted student",
       "cycle": "Fall2027 award cycle not established"
     }
+  },
+  {
+    "id": "george-washington-university",
+    "topic": "international-awards",
+    "source": "https://undergraduate.admissions.gwu.edu/financial-aid/international-student-aid",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "international first-year bachelor; programme/cycle limitations in facts",
+    "campus": "Washington DC; standard undergraduate schools only",
+    "access": "html-read",
+    "quote": "two full-tuition scholarships each year",
+    "facts": {
+      "name": "You Are Welcome Here",
+      "coverage": "tuition only",
+      "annualRecipients": 2,
+      "eligibility": "Fall first-year; secondary school outside US; intercultural initiative; CSS5246",
+      "application": "After admission application, separate portal essay/video",
+      "deadline": "January31; annual, intake year unestablished",
+      "renewal": "Up to10 consecutive semesters, continuous full-time and SAP; tuition only",
+      "stacking": "Only one GW merit award; employee benefits excluded",
+      "otherAid": "Presidential amount variable/automatic consideration, not guaranteed; UWC partner need-based exception restricted to UWC graduates",
+      "unconfirmed": "largest numerical merit maximum beyond the verified full-tuition award; award cycle2027; insurance/residual costs"
+    }
+  },
+  {
+    "id": "george-washington-university",
+    "topic": "cost-reference",
+    "source": "https://www.gwu.edu/cost-gw-education",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "international first-year bachelor; programme/cycle limitations in facts",
+    "campus": "Washington DC; standard undergraduate schools only",
+    "access": "html-read",
+    "quote": "At a Glance: 2026-2027 Estimated Costs",
+    "facts": {
+      "academicYear": "2026–2027",
+      "cohort": "new first-year or transfer, standard five undergraduate schools, residence halls",
+      "period": "academic year",
+      "tuition": 72000,
+      "mandatoryFees": 420,
+      "matriculation": 350,
+      "housingFood": 18160,
+      "indirect": 4225,
+      "publishedTotal": 95155,
+      "scope": "Arts/Sciences,Business,Engineering/AppliedScience,Elliott,Milken; not accelerated/degree-completion/online or graduate",
+      "notCurrent2027": true
+    }
+  },
+  {
+    "id": "george-washington-university",
+    "topic": "cost-load-and-breakdown",
+    "source": "https://financialaid.gwu.edu/how-estimate-your-total-cost-attendance-gw",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "international first-year bachelor; programme/cycle limitations in facts",
+    "campus": "Washington DC; standard undergraduate schools only",
+    "access": "html-read",
+    "quote": "New First-Year or Transfer Students Entering Fall 2026 and Spring 2027",
+    "facts": {
+      "academicYear": "2026–2027",
+      "load": "12–18 credits/semester, engineering up to19; excess charged per credit",
+      "publishedDirect": 90930,
+      "publishedTotal": 95155,
+      "books": 1450,
+      "personal": 1700,
+      "transport": 1075,
+      "insurance": "Mandatory coverage, automatically enrolled unless waived; not itemised in standard undergraduate table, applicability/amount separate",
+      "excluded": "Continuing student table has mismatched year header; not used for incoming cohort",
+      "annualCost2027": null
+    }
   }
 ]

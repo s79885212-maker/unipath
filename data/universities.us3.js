@@ -43624,6 +43624,29 @@ window.UNIPATH.universities.push(
           "entryTerm": null,
           "entryYear": null
         }
+      },
+      {
+        "name": "You Are Welcome Here — scholarship application",
+        "kind": "scholarship",
+        "date": "31 January",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "binding": null,
+        "source": "https://undergraduate.admissions.gwu.edu/financial-aid/international-student-aid",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://undergraduate.admissions.gwu.edu/financial-aid/international-student-aid",
+          "verified": "2026-10-31",
+          "entryTerm": null,
+          "entryYear": null
+        },
+        "awardId": "you-are-welcome-here",
+        "awardCategory": "merit"
       }
     ],
     "applicationFee": {
@@ -43691,31 +43714,85 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": "Published new-student residence-hall estimate",
+      "tuition": 72000,
+      "billed": 90930,
+      "budget": 95155
+    },
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
-    "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "studentCategory": "New first-year, standard undergraduate schools, residence-hall estimate; full-time12–18 credits, engineering up to19",
+    "source": "https://www.gwu.edu/cost-gw-education",
+    "verified": "2026-11-01",
+    "headline": "Previous-cycle published COA: USD95,155",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 72000
+      },
+      {
+        "label": "Mandatory fees",
+        "group": "billed",
+        "amount": 420
+      },
+      {
+        "label": "One-time matriculation fee",
+        "group": "billed",
+        "amount": 350
+      },
+      {
+        "label": "Housing and food allowance",
+        "group": "billed",
+        "amount": 18160
+      },
+      {
+        "label": "Books and supplies",
+        "group": "estimate",
+        "amount": 1450
+      },
+      {
+        "label": "Personal expenses",
+        "group": "estimate",
+        "amount": 1700
+      },
+      {
+        "label": "Transportation",
+        "group": "estimate",
+        "amount": 1075
+      }
+    ],
+    "billedSubtotal": 90930,
+    "totalText": "USD95,155 before aid; insurance separately reviewed",
+    "note": "2026–27 only: standard Arts/Sciences, Business, Engineering/Applied Science, Elliott and Milken undergraduate schools. Specialty, accelerated, online and graduate programmes are separate. The standard table does not itemise SHIP medical insurance; coverage is mandatory and automatic enrolment applies unless waived. Exact premium/applicability needs review. This is not a confirmed Fall2027 budget and no competitive award is deducted.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
-      "available": null,
-      "internationalEligible": null,
-      "basis": null,
+      "available": true,
+      "internationalEligible": true,
+      "basis": "merit",
       "covers": {
-        "tuition": null,
-        "housing": null,
-        "meals": null,
-        "insurance": null,
-        "books": null
+        "tuition": true,
+        "housing": false,
+        "meals": false,
+        "books": null,
+        "insurance": null
       },
-      "renewable": null,
+      "renewable": true,
       "competitiveness": null,
-      "howToApply": null,
-      "note": null
+      "howToApply": "After submitting the admission application, submit the separate scholarship application in the portal with an essay or video and CSS. January31 is an annual rule with no established entry year; no portal login was performed.",
+      "note": "Two competitive full-tuition awards each year for fall first-year applicants schooled outside the US who demonstrate intercultural initiative and submit CSS5246. Full tuition does not cover living costs. General need-based aid is unavailable except the separate Davis UWC partnership for UWC graduates with CSS; eligibility is not assumed for an ordinary Uzbek-school applicant. Presidential awards have variable amounts and automatic consideration, not guaranteed receipt. Only one GW merit scholarship may be awarded; employee benefits exclude these awards. Award cycle2027 and any larger numerical maximum remain unconfirmed.",
+      "id": "you-are-welcome-here",
+      "category": "merit",
+      "name": "You Are Welcome Here",
+      "entryTerm": null,
+      "entryYear": null,
+      "deadlineScope": "annual-rule",
+      "source": "https://undergraduate.admissions.gwu.edu/financial-aid/international-student-aid",
+      "verified": "2026-11-01",
+      "renewalConditions": "Up to10 consecutive undergraduate semesters with continuous full-time enrolment and satisfactory academic progress. Tuition use only; exact SAP thresholds unreviewed."
     },
     "merit": [],
     "needBased": {
@@ -43724,7 +43801,9 @@ window.UNIPATH.universities.push(
       "needBlindInternational": null,
       "forms": [],
       "deadlines": null,
-      "note": null
+      "note": "General international need-based aid is unavailable. A separate Davis UWC partnership offers need-based awards only to UWC graduates with CSS; this does not establish eligibility for an ordinary Uzbek-school applicant.",
+      "source": "https://undergraduate.admissions.gwu.edu/financial-aid/international-student-aid",
+      "verified": "2026-11-01"
     }
   },
   "photos": {
@@ -43752,6 +43831,18 @@ window.UNIPATH.universities.push(
     {
       "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:University_Yard_George_Washington_University.JPG"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://undergraduate.admissions.gwu.edu/financial-aid/international-student-aid"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.gwu.edu/cost-gw-education"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://financialaid.gwu.edu/how-estimate-your-total-cost-attendance-gw"
     }
   ],
   "verification": {
