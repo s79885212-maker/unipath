@@ -7544,5 +7544,416 @@
       "downloaded": false,
       "visualStatus": "pending"
     }
+  },
+  {
+    "id": "new-jersey-institute-of-technology",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://catalog.njit.edu/programs/",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "first-year bachelor programme existence; programme progression and international school eligibility checked separately",
+    "campus": "Newark",
+    "access": "html-read",
+    "quote": "Mathematical Sciences - B.S.",
+    "facts": {
+      "academicYear": "2026–2027",
+      "programs": {
+        "business": "Business, B.S.",
+        "biology": "Biology, B.S.",
+        "engineering": "Mechanical Engineering, B.S.",
+        "mathematics": "Mathematical Sciences, B.S.",
+        "psychology": "Psychology, B.S."
+      },
+      "limitations": "Partial coverage; named undergraduate majors only, not admission eligibility or guaranteed Fall2027 availability. Teaching language separately verified. Only Bachelor rows used; accelerated, double-major and graduate rows excluded.",
+      "programmeNamesRu": {
+        "business": "Бизнес, B.S.",
+        "biology": "Биология, B.S.",
+        "engineering": "Машиностроение, B.S.",
+        "mathematics": "Математические науки, B.S.",
+        "psychology": "Психология, B.S."
+      }
+    }
+  },
+  {
+    "id": "university-at-buffalo",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://www.buffalo.edu/admissions/academics/programs/biological-sciences.html",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "first-year bachelor programme existence; programme progression and international school eligibility checked separately",
+    "campus": "Buffalo",
+    "access": "html-read",
+    "quote": "Biological Sciences BA",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "biology": "Biological Sciences, BA/BS"
+      },
+      "limitations": "Partial coverage; named undergraduate majors only, not admission eligibility or guaranteed Fall2027 availability. Teaching language separately verified. ",
+      "catalogueUrl": "https://www.buffalo.edu/admissions/academics/programs.html",
+      "programmeNamesRu": {
+        "biology": "Биологические науки, BA/BS"
+      }
+    }
+  },
+  {
+    "id": "university-at-buffalo",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://www.buffalo.edu/admissions/academics/programs/mathematics.html",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "first-year bachelor programme existence; programme progression and international school eligibility checked separately",
+    "campus": "Buffalo",
+    "access": "html-read",
+    "quote": "Mathematics BA",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "mathematics": "Mathematics, BA"
+      },
+      "limitations": "Partial coverage; named undergraduate majors only, not admission eligibility or guaranteed Fall2027 availability. Teaching language separately verified. Combined teacher-education master route not used.",
+      "catalogueUrl": "https://www.buffalo.edu/admissions/academics/programs.html",
+      "programmeNamesRu": {
+        "mathematics": "Математика, BA"
+      }
+    }
+  },
+  {
+    "id": "university-of-delaware",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://www.udel.edu/apply/undergraduate-admissions/major-finder/",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "first-year bachelor programme existence; programme progression and international school eligibility checked separately",
+    "campus": "Newark",
+    "access": "html-read",
+    "quote": "Explore 150+ majors",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "economics": "Economics",
+        "mathematics": "Applied Mathematics",
+        "biology": "Biological Sciences",
+        "engineering": "Mechanical Engineering",
+        "psychology": "Psychology",
+        "humanities": "History"
+      },
+      "limitations": "Partial coverage; named undergraduate majors only, not admission eligibility or guaranteed Fall2027 availability. Teaching language separately verified. Associate degrees, undeclared and teaching variants are not substituted for these named majors.",
+      "programmeNamesRu": {
+        "economics": "Экономика",
+        "mathematics": "Прикладная математика",
+        "biology": "Биологические науки",
+        "engineering": "Машиностроение",
+        "psychology": "Психология",
+        "humanities": "История"
+      }
+    }
+  },
+  {
+    "id": "university-of-delaware",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://www.udel.edu/apply/undergraduate-admissions/major-finder/accounting/",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "first-year bachelor programme existence; programme progression and international school eligibility checked separately",
+    "campus": "Newark",
+    "access": "html-read",
+    "quote": "Accounting",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "business": "Accounting"
+      },
+      "limitations": "Partial coverage; named undergraduate majors only, not admission eligibility or guaranteed Fall2027 availability. Teaching language separately verified. ",
+      "catalogueUrl": "https://www.udel.edu/apply/undergraduate-admissions/major-finder/",
+      "programmeNamesRu": {
+        "business": "Бухгалтерский учёт"
+      }
+    }
+  },
+  {
+    "id": "rutgers-university-camden",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://camden.rutgers.edu/academics/undergraduate/programs/accounting-bs",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "first-year bachelor programme existence; programme progression and international school eligibility checked separately",
+    "campus": "Camden",
+    "access": "html-read",
+    "quote": "Accounting, BS",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "business": "Accounting, BS"
+      },
+      "limitations": "Partial coverage; named undergraduate majors only, not admission eligibility or guaranteed Fall2027 availability. Teaching language separately verified. Separate from off-campus/online Business Administration and accelerated options.",
+      "catalogueUrl": "https://camden.rutgers.edu/academics/undergraduate/programs",
+      "programmeNamesRu": {
+        "business": "Бухгалтерский учёт, BS"
+      }
+    }
+  },
+  {
+    "id": "rutgers-university-camden",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://camden.rutgers.edu/academics/undergraduate/programs/biology-ba-bs",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "first-year bachelor programme existence; programme progression and international school eligibility checked separately",
+    "campus": "Camden",
+    "access": "html-read",
+    "quote": "Biology, BA or BS",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "biology": "Biology, BA/BS"
+      },
+      "limitations": "Partial coverage; named undergraduate majors only, not admission eligibility or guaranteed Fall2027 availability. Teaching language separately verified. ",
+      "catalogueUrl": "https://camden.rutgers.edu/academics/undergraduate/programs",
+      "programmeNamesRu": {
+        "biology": "Биология, BA/BS"
+      }
+    }
+  },
+  {
+    "id": "university-of-illinois-chicago",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://catalog.uic.edu/ucat/degree-programs/degree-minors/",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "first-year bachelor programme existence; programme progression and international school eligibility checked separately",
+    "campus": "Chicago",
+    "access": "html-read",
+    "quote": "Degree Program, Minor, and Certificate List",
+    "facts": {
+      "academicYear": "2026–2027",
+      "programs": {
+        "business": "Accounting, BS",
+        "economics": "Economics, BA with a Major",
+        "biology": "Biological Sciences, BS with a Major",
+        "engineering": "Mechanical Engineering, BS",
+        "mathematics": "Mathematics, BS with a Major"
+      },
+      "limitations": "Partial coverage; named undergraduate majors only, not admission eligibility or guaranteed Fall2027 availability. Teaching language separately verified. Degree column only; BBA completion programme and minor/certificate rows excluded.",
+      "programmeNamesRu": {
+        "business": "Бухгалтерский учёт, BS",
+        "economics": "Экономика, BA с основной специализацией",
+        "biology": "Биологические науки, BS с основной специализацией",
+        "engineering": "Машиностроение, BS",
+        "mathematics": "Математика, BS с основной специализацией"
+      }
+    }
+  },
+  {
+    "id": "university-of-missouri",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://catalog.missouri.edu/degreesanddegreeprograms/",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "first-year bachelor programme existence; programme progression and international school eligibility checked separately",
+    "campus": "Columbia",
+    "access": "html-read",
+    "quote": "2026-27 Edition",
+    "facts": {
+      "academicYear": "2026–2027",
+      "programs": {
+        "business": "Business Administration, BSBA",
+        "economics": "Economics, BA",
+        "biology": "Biological Sciences, BA",
+        "mathematics": "Mathematics, BA",
+        "engineering": "Mechanical Engineering, BSME"
+      },
+      "limitations": "Partial coverage; named undergraduate majors only, not admission eligibility or guaranteed Fall2027 availability. Teaching language separately verified. Undergraduate degree column only; Applied Mathematics MS and Business minor not treated as bachelor majors.",
+      "programmeNamesRu": {
+        "business": "Управление бизнесом, BSBA",
+        "economics": "Экономика, BA",
+        "biology": "Биологические науки, BA",
+        "mathematics": "Математика, BA",
+        "engineering": "Машиностроение, BSME"
+      }
+    }
+  },
+  {
+    "id": "auburn-university",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://bulletin.auburn.edu/undergraduate/majors/",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "first-year bachelor programme existence; programme progression and international school eligibility checked separately",
+    "campus": "Auburn",
+    "access": "html-read",
+    "quote": "Business Administration — On-Campus Option",
+    "facts": {
+      "academicYear": "2026–2027",
+      "programs": {
+        "business": "Business Administration — On-Campus Option, BSBA",
+        "economics": "Economics — Primary Track, BS",
+        "engineering": "Mechanical Engineering, BME",
+        "mathematics": "Mathematics, BS",
+        "biology": "Marine Biology, BS",
+        "psychology": "Psychology, BA",
+        "humanities": "History, BA"
+      },
+      "limitations": "Partial coverage; named undergraduate majors only, not admission eligibility or guaranteed Fall2027 availability. Teaching language separately verified. Online degree-completer and second-degree options excluded; Marine Biology not relabelled as a general Biology degree.",
+      "programmeNamesRu": {
+        "business": "Управление бизнесом — очная программа, BSBA",
+        "economics": "Экономика — основной трек, BS",
+        "engineering": "Машиностроение, BME",
+        "mathematics": "Математика, BS",
+        "biology": "Морская биология, BS",
+        "psychology": "Психология, BA",
+        "humanities": "История, BA"
+      }
+    }
+  },
+  {
+    "id": "university-of-south-florida",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://www.usf.edu/business/program-comparison.aspx",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "first-year bachelor programme existence; programme progression and international school eligibility checked separately",
+    "campus": "Tampa",
+    "access": "html-read",
+    "quote": "Major | Tampa | St. Petersburg",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "business": "Management (undergraduate major)"
+      },
+      "limitations": "Partial coverage; named undergraduate majors only, not admission eligibility or guaranteed Fall2027 availability. Teaching language separately verified. Management is ticked for Tampa and St.Petersburg and the Bachelor column. General Business Administration row has graduate degrees only; it is not used as a bachelor major.",
+      "programmeNamesRu": {
+        "business": "Менеджмент (основная программа бакалавриата)"
+      }
+    }
+  },
+  {
+    "id": "university-of-california-santa-cruz",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://admissions.ucsc.edu/programs/biology",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "first-year bachelor programme existence; programme progression and international school eligibility checked separately",
+    "campus": "Santa Cruz",
+    "access": "html-read",
+    "quote": "The Biology B.A. is offered",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "biology": "Biology, BA/BS"
+      },
+      "limitations": "Partial coverage; named undergraduate majors only, not admission eligibility or guaranteed Fall2027 availability. Teaching language separately verified. Transfer screening is not applied as a first-year school threshold; certificates are not majors.",
+      "catalogueUrl": "https://admissions.ucsc.edu/programs",
+      "programmeNamesRu": {
+        "biology": "Биология, BA/BS"
+      }
+    }
+  },
+  {
+    "id": "university-of-california-santa-cruz",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://admissions.ucsc.edu/programs/business",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "first-year bachelor programme existence; programme progression and international school eligibility checked separately",
+    "campus": "Santa Cruz",
+    "access": "html-read",
+    "quote": "Business Management Economics",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "business": "Business Management Economics"
+      },
+      "limitations": "Partial coverage; named undergraduate majors only, not admission eligibility or guaranteed Fall2027 availability. Teaching language separately verified. Transfer screening is not applied as a first-year school threshold; certificates are not majors.",
+      "catalogueUrl": "https://admissions.ucsc.edu/programs",
+      "programmeNamesRu": {
+        "business": "Экономика управления бизнесом"
+      }
+    }
+  },
+  {
+    "id": "university-of-california-santa-cruz",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://admissions.ucsc.edu/programs/economics",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "first-year bachelor programme existence; programme progression and international school eligibility checked separately",
+    "campus": "Santa Cruz",
+    "access": "html-read",
+    "quote": "Degrees Offered",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "economics": "Economics, B.A."
+      },
+      "limitations": "Partial coverage; named undergraduate majors only, not admission eligibility or guaranteed Fall2027 availability. Teaching language separately verified. Transfer screening is not applied as a first-year school threshold; certificates are not majors.",
+      "catalogueUrl": "https://admissions.ucsc.edu/programs",
+      "programmeNamesRu": {
+        "economics": "Экономика, B.A."
+      }
+    }
+  },
+  {
+    "id": "university-of-california-santa-cruz",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://admissions.ucsc.edu/programs/electrical-engineering",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "first-year bachelor programme existence; programme progression and international school eligibility checked separately",
+    "campus": "Santa Cruz",
+    "access": "html-read",
+    "quote": "Program Type",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "engineering": "Electrical Engineering (undergraduate major)"
+      },
+      "limitations": "Partial coverage; named undergraduate majors only, not admission eligibility or guaranteed Fall2027 availability. Teaching language separately verified. Transfer screening is not applied as a first-year school threshold; certificates are not majors.",
+      "catalogueUrl": "https://admissions.ucsc.edu/programs",
+      "programmeNamesRu": {
+        "engineering": "Электротехника (основная программа бакалавриата)"
+      }
+    }
+  },
+  {
+    "id": "university-of-california-santa-cruz",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://admissions.ucsc.edu/programs/mathematics-theory-and-computation",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "first-year bachelor programme existence; programme progression and international school eligibility checked separately",
+    "campus": "Santa Cruz",
+    "access": "html-read",
+    "quote": "Major",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "mathematics": "Mathematics Theory and Computation (undergraduate major)"
+      },
+      "limitations": "Partial coverage; named undergraduate majors only, not admission eligibility or guaranteed Fall2027 availability. Teaching language separately verified. Transfer screening is not applied as a first-year school threshold; certificates are not majors.",
+      "catalogueUrl": "https://admissions.ucsc.edu/programs",
+      "programmeNamesRu": {
+        "mathematics": "Теоретическая и вычислительная математика (основная программа бакалавриата)"
+      }
+    }
+  },
+  {
+    "id": "florida-international-university",
+    "topic": "undergraduate-major-campus-review",
+    "source": "https://business.fiu.edu/academics/undergraduate/bachelor-of-accounting/",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "international first-year bachelor; programme existence versus exact teaching campus",
+    "campus": null,
+    "access": "html-read",
+    "quote": "Bachelor of Accounting",
+    "facts": {
+      "programmeExists": true,
+      "exactTeachingCampus": null,
+      "appliedToPublicProgrammeFilter": false,
+      "limitations": "Official programme page read; contact address and university-wide directory alone do not establish the teaching campus. Separate progression/pre-core and campus confirmation remain open.",
+      "additionalOfficialLead": "https://mymajor.fiu.edu/",
+      "leadAccess": "Official directory open returned no readable lines; search result is a lead only and not accepted as campus evidence."
+    }
   }
 ]

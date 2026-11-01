@@ -23,6 +23,7 @@ for evidence in sources:
  u=byid[evidence['id']];facts=evidence['facts'];pr=u.setdefault('programEvidence',{})
  for field,name in facts['programs'].items():
   assert field in valid and isinstance(name,str) and name
+  if facts.get('programmeNamesRu',{}).get(field):L(name,facts['programmeNamesRu'][field])
   pr[field]=dict(program=name,level='bachelor',language=None,campus=evidence['campus'],url=evidence['source'],checked=evidence['verified'])
  u['programs']=list(pr);u['programsStatus']='partial';u['programsBasis']='evidence';u['links']['programs']=facts.get('catalogueUrl') or evidence['source'];u['lastVerified']=max(u.get('lastVerified') or '',evidence['verified'])
  partial_note(u)

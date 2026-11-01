@@ -1674,9 +1674,10 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "6 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://www.njit.edu/academics/degree/bs-computer-science"
+            "https://www.njit.edu/academics/degree/bs-computer-science",
+            "https://catalog.njit.edu/programs/"
           ]
         },
         "language": {
@@ -1752,9 +1753,11 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "3 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://www.buffalo.edu/admissions/academics/programs/computer-science.html"
+            "https://www.buffalo.edu/admissions/academics/programs/computer-science.html",
+            "https://www.buffalo.edu/admissions/academics/programs/biological-sciences.html",
+            "https://www.buffalo.edu/admissions/academics/programs/mathematics.html"
           ]
         },
         "language": {
@@ -1832,9 +1835,11 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "8 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://www.cis.udel.edu/academics/undergraduate-programs/"
+            "https://www.cis.udel.edu/academics/undergraduate-programs/",
+            "https://www.udel.edu/apply/undergraduate-admissions/major-finder/",
+            "https://www.udel.edu/apply/undergraduate-admissions/major-finder/accounting/"
           ]
         },
         "language": {
@@ -1912,9 +1917,11 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "3 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://camden.rutgers.edu/academics/programs?page=1&program_type=undergraduate"
+            "https://camden.rutgers.edu/academics/programs?page=1&program_type=undergraduate",
+            "https://camden.rutgers.edu/academics/undergraduate/programs/accounting-bs",
+            "https://camden.rutgers.edu/academics/undergraduate/programs/biology-ba-bs"
           ]
         },
         "language": {
@@ -1991,9 +1998,10 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "6 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://catalog.uic.edu/ucat/colleges-depts/engineering/cs/bs-cs/"
+            "https://catalog.uic.edu/ucat/colleges-depts/engineering/cs/bs-cs/",
+            "https://catalog.uic.edu/ucat/degree-programs/degree-minors/"
           ]
         },
         "language": {
@@ -2068,9 +2076,10 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "6 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://engineering.missouri.edu/degree/bachelor-of-science-in-computer-science/"
+            "https://engineering.missouri.edu/degree/bachelor-of-science-in-computer-science/",
+            "https://catalog.missouri.edu/degreesanddegreeprograms/"
           ]
         },
         "language": {
@@ -2145,9 +2154,10 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "8 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://eng.auburn.edu/cse/academics/undergraduate/computer-science.html"
+            "https://eng.auburn.edu/cse/academics/undergraduate/computer-science.html",
+            "https://bulletin.auburn.edu/undergraduate/majors/"
           ]
         },
         "language": {
@@ -2299,9 +2309,10 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "2 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://www.usf.edu/ai-cybersecurity-computing/academics/undergraduate/bscs.aspx"
+            "https://www.usf.edu/ai-cybersecurity-computing/academics/undergraduate/bscs.aspx",
+            "https://www.usf.edu/business/program-comparison.aspx"
           ]
         },
         "language": {
@@ -2375,9 +2386,14 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "6 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://admissions.ucsc.edu/programs/computer-science"
+            "https://admissions.ucsc.edu/programs/computer-science",
+            "https://admissions.ucsc.edu/programs/biology",
+            "https://admissions.ucsc.edu/programs/business",
+            "https://admissions.ucsc.edu/programs/economics",
+            "https://admissions.ucsc.edu/programs/electrical-engineering",
+            "https://admissions.ucsc.edu/programs/mathematics-theory-and-computation"
           ]
         },
         "language": {

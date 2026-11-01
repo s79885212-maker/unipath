@@ -43,6 +43,18 @@ module.exports=function(env){
      U.englishPrograms(rutgers).length===0,
      'catalogue majors broaden confirmed fields while Rutgers business minor and an English website cannot become confirmed degree/language matches');
   var noEnglish=U.optionById('language','english-no'),unknownEnglish=U.optionById('language','english-unknown');
+  var usfMajors=U.uniById('university-of-south-florida'),fiuMajors=U.uniById('florida-international-university');
+  ok(/Management/.test(usfMajors.programEvidence.business.program)&&
+     !/Business Administration/.test(usfMajors.programEvidence.business.program)&&
+     U.optionById('field','business').test(usfMajors,{})&&
+     !U.optionById('field','business').test(usfMajors,{language:['english-yes']})&&
+     !fiuMajors.programEvidence.business&&U.fieldUnverified(fiuMajors,['business'],false),
+     'USF bachelor Management matches separately from graduate Business Administration and unverified language; FIU accounting without campus evidence stays unverified');
+  ok(/Accounting/.test(uic.programEvidence.business.program)&&
+     !/Completion/.test(uic.programEvidence.business.program)&&uic.programEvidence.business.campus==='Chicago'&&
+     /Mathematical Sciences/.test(U.uniById('new-jersey-institute-of-technology').programEvidence.mathematics.program)&&
+     !/Applied Mathematics/.test(U.uniById('university-of-missouri').programEvidence.mathematics.program),
+     'UIC degree completion and Missouri Applied Mathematics master are not substituted for first-year bachelor majors');
   var newarkMajors=U.uniById('rutgers-university-newark'),minesMajors=U.uniById('colorado-school-of-mines'),conn=U.uniById('university-of-connecticut');
   ok(!newarkMajors.programEvidence.engineering&&/SAS-Newark/.test(newarkMajors.programEvidence.economics.program)&&
      !minesMajors.programEvidence.economics&&/Business Engineering/.test(minesMajors.programEvidence.business.program)&&
