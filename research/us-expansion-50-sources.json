@@ -4842,5 +4842,233 @@
       "documents": "STARS plus school credentials, application fee, SKMC questions; recommendations not used",
       "scope": "Programme-only; no global SAT minimum assigned"
     }
+  },
+  {
+    "id": "university-of-pittsburgh",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Learning_in_the_University_of_Pittsburgh_-_Mar_2025.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; no download or visual validation yet",
+    "campus": "Cathedral of Learning, University of Pittsburgh",
+    "access": "html-read",
+    "quote": "Tall building as part of a university campus in Pittsburgh, PA, US",
+    "facts": {
+      "author": "LR.127",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "subject": "Cathedral of Learning, University of Pittsburgh",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "university-of-california-merced",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:UC_Merced_COB1_and_COB2.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; no download or visual validation yet",
+    "campus": "Classroom and Office Buildings One and Two, UC Merced",
+    "access": "html-read",
+    "quote": "Classroom and Office Buildings One and Two",
+    "facts": {
+      "author": "Dr vulpes",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "subject": "Classroom and Office Buildings One and Two, UC Merced",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "binghamton-university",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:Couper_Building_at_Binghamton_University.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; no download or visual validation yet",
+    "campus": "Couper administration building, Binghamton University",
+    "access": "html-read",
+    "quote": "The Couper administration building at Binghamton University.",
+    "facts": {
+      "author": "Benjamin D. Esham",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "subject": "Couper administration building, Binghamton University",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "indiana-university-bloomington",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:Sample_Gates,_Indiana_University_Bloomington,_2010.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; no download or visual validation yet",
+    "campus": "Sample Gates, Indiana University Bloomington",
+    "access": "html-read",
+    "quote": "Sample Gates on the campus of Indiana University Bloomington",
+    "facts": {
+      "author": "Alan Mauro / IT Communications Office",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "subject": "Sample Gates, Indiana University Bloomington",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "north-carolina-state-university",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Memorial_Belltower_in_NC_State,_September_2022.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; no download or visual validation yet",
+    "campus": "Memorial Belltower, NC State University, Raleigh",
+    "access": "html-read",
+    "quote": "The Memorial Belltower Located in NC State University in Raleigh, North Carolina.",
+    "facts": {
+      "author": "DiscoA340",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "subject": "Memorial Belltower, NC State University, Raleigh",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "rutgers-university-newark",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:Rutgers-Newark.JPG",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; no download or visual validation yet",
+    "campus": "Rutgers Newark campus",
+    "access": "html-read",
+    "quote": "Photo of Rutgers-Newark campus, taken November 2005 by User:Darkcore.",
+    "facts": {
+      "author": "Darkcore",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
+      "subject": "Rutgers Newark campus",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "university-of-connecticut",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:Wilbur_Cross_Library,_UConn,_Storrs_CT.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; no download or visual validation yet",
+    "campus": "Wilbur Cross Library, University of Connecticut, Storrs",
+    "access": "html-read",
+    "quote": "Wilbur Cross Library, University of Connecticut, Storrs, CT.",
+    "facts": {
+      "author": "Jerry Dougherty",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
+      "subject": "Wilbur Cross Library, University of Connecticut, Storrs",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "clemson-university",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:Tillman_Hall-Clemson_University.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; no download or visual validation yet",
+    "campus": "Tillman Hall, Clemson University Historic District I",
+    "access": "html-read",
+    "quote": "Clemson University Historic District I",
+    "facts": {
+      "author": "Ckey11",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "subject": "Tillman Hall, Clemson University Historic District I",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "colorado-school-of-mines",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:GuggenheimHall_01Oct2017.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; no download or visual validation yet",
+    "campus": "Guggenheim Hall, Colorado School of Mines, Golden",
+    "access": "html-read",
+    "quote": "Guggenheim Hall, Colorado School of Mines, in Golden. Colorado, United States.",
+    "facts": {
+      "author": "Yassie",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "subject": "Guggenheim Hall, Colorado School of Mines, Golden",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "university-of-california-riverside",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:UC_Riverside_campus_as_viewed_from_Box_Spring_Mountain.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; no download or visual validation yet",
+    "campus": "UC Riverside campus viewed from Box Spring Mountain",
+    "access": "html-read",
+    "quote": "View of the University of California, Riverside campus from Box Spring Mountain.",
+    "facts": {
+      "author": "Advythr",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "subject": "UC Riverside campus viewed from Box Spring Mountain",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "new-jersey-institute-of-technology",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:NJIT-Eberhardt-Hall.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; no download or visual validation yet",
+    "campus": "Eberhardt Hall, NJIT, Newark",
+    "access": "html-read",
+    "quote": "A picture of the historical Eberhardt Hall on the campus of New Jersey Institute of Technology in Newark, New Jersey.",
+    "facts": {
+      "author": "Andrew nyr",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "subject": "Eberhardt Hall, NJIT, Newark",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "university-at-buffalo",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:Hayes_hall_on_UB_south_campus.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; no download or visual validation yet",
+    "campus": "Hayes Hall, University at Buffalo South Campus",
+    "access": "html-read",
+    "quote": "Hayes hall, the landmark building of the University at Buffalo on its south campus",
+    "facts": {
+      "author": "Davidhar",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "subject": "Hayes Hall, University at Buffalo South Campus",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
   }
 ]

@@ -32,7 +32,8 @@ for order,t in enumerate(targets,1):
  if year:cost+='; '+year
  fr=u['scholarships']['fullRide'];award=fr.get('name') or 'Крупнейшая ещё не установлена'
  if fr.get('available') is True:award+=' — конкурс, не гарантия'
- photo=manifest.get(uid);ph='Кандидат: '+photo['license']+'; разрешение на скачивание запрошено' if photo else 'Исследование снимка ещё не завершено; заглушка'
+ photo=manifest.get(uid)
+ ph=('Кандидат: '+photo['license']+('; разрешение на скачивание запрошено' if photo['permission']=='requested-awaiting-owner' else '; разрешение ещё не запрошено')) if photo else 'Исследование снимка ещё не завершено; заглушка'
  gaps='Полнота программ и язык; точные квалификации; условия наград/продления; фотография'
  if not year:gaps+='; год/состав стоимости'
  lines.append('| '+str(order)+' / ['+uid+']('+admission_url+') | ['+esc(programme)+']('+prog['source']+') | '+cred+' | '+cost+' | '+esc(award)+' | '+esc(ph)+' | '+gaps+' |')
