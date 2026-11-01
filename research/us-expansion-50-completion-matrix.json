@@ -502,12 +502,25 @@
           ]
         },
         "language": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
-            "confirmedFields": [],
+            "confirmedFields": [
+              "computer-science",
+              "economics",
+              "mathematics",
+              "biology",
+              "engineering",
+              "psychology",
+              "humanities",
+              "arts",
+              "social-sciences",
+              "business"
+            ],
             "remaining": "Не выводится из языка сайта или требований IELTS"
           },
-          "evidence": []
+          "evidence": [
+            "https://registrar.sa.ucsb.edu/student-records/custom-letters-form-completion"
+          ]
         },
         "admission": {
           "status": "partial",

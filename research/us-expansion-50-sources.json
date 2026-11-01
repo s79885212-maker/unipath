@@ -6560,5 +6560,34 @@
       "academicYear": "2026–2027",
       "limitations": "Each selected Baccalaureate Degree tile explicitly lists University Park as a completion campus. Scranton, World Campus and branch-specific versions are not copied into this profile; separate school progression/first-year campus allocation rules still apply."
     }
+  },
+  {
+    "id": "university-of-california-santa-barbara",
+    "topic": "instruction-language",
+    "source": "https://registrar.sa.ucsb.edu/student-records/custom-letters-form-completion",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "UCSB campus-wide Registrar language statement, applied only to named non-language bachelor majors",
+    "campus": "Santa Barbara",
+    "access": "html-read",
+    "quote": "Verifies English as UCSB’s official language of instruction.",
+    "facts": {
+      "language": "English",
+      "scopeType": "campus-instruction-policy",
+      "appliesToFields": [
+        "computer-science",
+        "economics",
+        "business",
+        "mathematics",
+        "biology",
+        "engineering",
+        "psychology",
+        "humanities",
+        "arts",
+        "social-sciences"
+      ],
+      "scope": "General Registrar instruction-language confirmation; not an applicant English waiver or a claim about unverified foreign-language majors",
+      "notTransferred": "No graduate admission thresholds, CCS eligibility, other UC campus or unknown programme inferred"
+    }
   }
 ]

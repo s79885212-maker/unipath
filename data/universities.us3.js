@@ -36308,8 +36308,8 @@ window.UNIPATH.universities.push(
     "initials": "CSB"
   },
   "description": "Verified undergraduate programme: Computer Science — College of Engineering. Admission details below distinguish first-year applicants from transfer students; unverified conditions remain open.",
-  "englishTaught": null,
-  "languageOfInstruction": null,
+  "englishTaught": true,
+  "languageOfInstruction": "English — verified campus instruction statement",
   "programs": [
     "computer-science",
     "economics",
@@ -36322,7 +36322,18 @@ window.UNIPATH.universities.push(
     "social-sciences",
     "business"
   ],
-  "englishTaughtPrograms": [],
+  "englishTaughtPrograms": [
+    "computer-science",
+    "economics",
+    "mathematics",
+    "biology",
+    "engineering",
+    "psychology",
+    "humanities",
+    "arts",
+    "social-sciences",
+    "business"
+  ],
   "programNote": "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
   "links": {
     "website": "https://www.ucsb.edu/",
@@ -36610,6 +36621,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://catalog.ucsb.edu/programs/BAECACC/program-requirements-kn5uw"
+    },
+    {
+      "label": "Teaching language — official campus statement",
+      "url": "https://registrar.sa.ucsb.edu/student-records/custom-letters-form-completion"
     }
   ],
   "verification": {
@@ -36636,7 +36651,7 @@ window.UNIPATH.universities.push(
     "computer-science": {
       "program": "Computer Science — College of Engineering",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Santa Barbara",
       "url": "https://admissions.sa.ucsb.edu/majors",
       "checked": "2026-10-31"
@@ -36644,7 +36659,7 @@ window.UNIPATH.universities.push(
     "economics": {
       "program": "Economics — undergraduate major (Letters & Science)",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Santa Barbara — Letters & Science / Engineering as named",
       "url": "https://admissions.sa.ucsb.edu/majors",
       "checked": "2026-11-01"
@@ -36652,7 +36667,7 @@ window.UNIPATH.universities.push(
     "mathematics": {
       "program": "Mathematics — undergraduate major (Letters & Science)",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Santa Barbara — Letters & Science / Engineering as named",
       "url": "https://admissions.sa.ucsb.edu/majors",
       "checked": "2026-11-01"
@@ -36660,7 +36675,7 @@ window.UNIPATH.universities.push(
     "biology": {
       "program": "Biological Sciences — undergraduate major (Letters & Science)",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Santa Barbara — Letters & Science / Engineering as named",
       "url": "https://admissions.sa.ucsb.edu/majors",
       "checked": "2026-11-01"
@@ -36668,7 +36683,7 @@ window.UNIPATH.universities.push(
     "engineering": {
       "program": "Mechanical Engineering — undergraduate major (Engineering)",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Santa Barbara — Letters & Science / Engineering as named",
       "url": "https://admissions.sa.ucsb.edu/majors",
       "checked": "2026-11-01"
@@ -36676,7 +36691,7 @@ window.UNIPATH.universities.push(
     "psychology": {
       "program": "Psychological & Brain Sciences — undergraduate major (Letters & Science)",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Santa Barbara — Letters & Science / Engineering as named",
       "url": "https://admissions.sa.ucsb.edu/majors",
       "checked": "2026-11-01"
@@ -36684,7 +36699,7 @@ window.UNIPATH.universities.push(
     "humanities": {
       "program": "History — undergraduate major (Letters & Science)",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Santa Barbara — Letters & Science / Engineering as named",
       "url": "https://admissions.sa.ucsb.edu/majors",
       "checked": "2026-11-01"
@@ -36692,7 +36707,7 @@ window.UNIPATH.universities.push(
     "arts": {
       "program": "Art — undergraduate major (Letters & Science)",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Santa Barbara — Letters & Science / Engineering as named",
       "url": "https://admissions.sa.ucsb.edu/majors",
       "checked": "2026-11-01"
@@ -36700,7 +36715,7 @@ window.UNIPATH.universities.push(
     "social-sciences": {
       "program": "Sociology — undergraduate major (Letters & Science)",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Santa Barbara — Letters & Science / Engineering as named",
       "url": "https://admissions.sa.ucsb.edu/majors",
       "checked": "2026-11-01"
@@ -36708,7 +36723,7 @@ window.UNIPATH.universities.push(
     "business": {
       "program": "Economics and Accounting — BA",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Santa Barbara — Letters & Science",
       "url": "https://catalog.ucsb.edu/programs/BAECACC/program-requirements-kn5uw",
       "checked": "2026-11-01"

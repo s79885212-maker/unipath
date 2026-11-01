@@ -1090,7 +1090,8 @@
       id: 'language', title: 'Language of study',
       options: [
         { id: 'english-yes', label: 'English-taught degree available', test: function (u) { return u.englishTaught === true; } },
-        { id: 'english-no', label: 'Not fully English-taught', test: function (u) { return u.englishTaught !== true; } }
+        { id: 'english-no', label: 'Not fully English-taught', test: function (u) { return u.englishTaught === false; } },
+        { id: 'english-unknown', label: 'Teaching language not confirmed', test: function (u) { return u.englishTaught !== true && u.englishTaught !== false; } }
       ]
     },
     {

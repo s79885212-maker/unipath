@@ -18,8 +18,14 @@ for evidence in sources:
   assert field in valid and isinstance(name,str) and name
   pr[field]=dict(program=name,level='bachelor',language='English' if language and language['facts'].get('scopeType')=='campus-instruction-policy' and field in language['facts'].get('appliesToFields',[]) else None,campus=evidence['campus'],url=evidence['source'],checked=evidence['verified'])
  u['programs']=list(pr);u['programsStatus']='partial';u['programsBasis']='evidence';u['links']['programs']=facts.get('catalogueUrl') or evidence['source'];u['lastVerified']=max(u.get('lastVerified') or '',evidence['verified'])
+ if language and language['facts'].get('scopeType')=='campus-instruction-policy':
+  for f in language['facts'].get('appliesToFields',[]):
+   if f in pr:pr[f]['language']='English'
+  label=L('Teaching language — official campus statement','Язык обучения — официальное указание кампуса')
+  if not any(x['url']==language['source'] for x in u['sources']):u['sources'].append(dict(label=label,url=language['source']))
  u['englishTaughtPrograms']=[f for f,p in pr.items() if p.get('language')=='English']
  u['englishTaught']=True if u['englishTaughtPrograms'] else None
+ if u['englishTaughtPrograms']:u['languageOfInstruction']=L('English — verified campus instruction statement','Английский — подтверждённое указание языка обучения кампуса')
  u['programNote']=L('The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.',
    'Указанные ниже основные программы бакалавриата подтверждены официальными источниками этого кампуса; список частичный, не полный каталог. Отсутствие направления не доказывает отсутствие программы. Отдельно проверяйте приём в школу, переход из pre-major и условия конкретной программы. Язык обучения подтверждён только там, где это прямо указано ниже.')
  if old_note:

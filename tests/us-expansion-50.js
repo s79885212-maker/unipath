@@ -42,6 +42,16 @@ module.exports=function(env){
      !rutgers.programEvidence.business&&U.fieldUnverified(rutgers,['business'],false)&&
      U.englishPrograms(irvine).length===0,
      'catalogue majors broaden confirmed fields while Rutgers business minor and an English website cannot become confirmed degree/language matches');
+  var noEnglish=U.optionById('language','english-no'),unknownEnglish=U.optionById('language','english-unknown');
+  ok(!noEnglish.test(irvine)&&unknownEnglish.test(irvine)&&
+     noEnglish.test({englishTaught:false})&&!unknownEnglish.test({englishTaught:false})&&
+     !unknownEnglish.test(uiuc)&&!noEnglish.test(uiuc)&&unknownEnglish.test({}),
+     'language filters separate explicit non-English route from null/missing teaching-language evidence');
+  var santaBarbara=U.uniById('university-of-california-santa-barbara');
+  ok(U.englishPrograms(santaBarbara).indexOf('computer-science')>=0&&U.englishPrograms(santaBarbara).indexOf('business')>=0&&
+     !U.optionById('field','business').test(irvine,{language:['english-yes']})&&
+     U.optionById('field','business').test(santaBarbara,{language:['english-yes']}),
+     'UCSB Registrar language evidence enables its named accounting major in the strict English filter while Irvine remains unconfirmed');
   var gaEntry=U.uniById('university-of-georgia'),sbEntry=U.uniById('university-of-california-santa-barbara');
   ok(/Mechanical Engineering/.test(gaEntry.programEvidence.engineering.program)&&
      gaEntry.admissions.notes.some(function(n){return /Intended Mechanical Engineering/.test(n)&&/university-course requirements/.test(n);})&&
