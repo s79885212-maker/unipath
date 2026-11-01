@@ -272,9 +272,10 @@ module.exports=function(env){
      'San Francisco separates preferred/minimum English and differs from Florida; UCF abroad deadline follows prior institution');
   var alb=U.uniById('university-at-albany-suny'),pac=U.uniById('university-of-the-pacific'),day=U.uniById('university-of-dayton');
   ok(alb&&!DB.match.annualCost[alb.id]&&budget(alb,100000).status==='unknown'&&
+     alb.costs.academicYear==='2026–2027'&&alb.costs.items[0].amount===35109.46&&
      pac&&pac.city==='Stockton'&&pac.academics.sat.policy===null&&U.ieltsMin(pac)===null&&
      day&&day.admissions.deadlines[0].date==='1 May',
-     'undated Albany cost, blocked Pacific current policy and Dayton international May1 are not filled from unrelated routes');
+     'newly dated Albany international table stays previous-cycle; blocked Pacific policy and Dayton international May1 are not filled from unrelated routes');
   var clem=U.uniById('clemson-university'),aub=U.uniById('auburn-university'),conn=U.uniById('university-of-connecticut');
   var riversideCost=U.uniById('university-of-california-riverside'),fiuCost=U.uniById('florida-international-university');
   ok(U.costStatus(riversideCost)==='conflict'&&riversideCost.costs.items.reduce(function(n,x){return n+x.amount;},0)===85284&&
@@ -289,6 +290,15 @@ module.exports=function(env){
      U.budgetAmount(boulder)===null&&U.budgetAmount(U.uniById('university-of-illinois-chicago'))===null&&
      U.uniById('university-of-new-hampshire').costs.billedSubtotal===59452&&/1,504/.test(U.uniById('university-of-new-hampshire').costs.note),
      'Boulder international tiers differ from domestic nonresident pricing; UIC proof of funding and UNH programme additions stay scoped');
+  var scCost=U.uniById('university-of-south-carolina');
+  ok([scCost,day].every(function(u){return U.costStatus(u)==='conflict'&&[null,0,100000].every(function(b){return budget(u,b).status==='conflict';});})&&
+     /38,098/.test(scCost.costs.conflict.text)&&/38,100/.test(scCost.costs.conflict.text)&&
+     /10 months/.test(day.costs.conflict.text)&&/12 months/.test(day.costs.conflict.text),
+     'Columbia annual versus semester tuition and Dayton miscellaneous-period conflicts remain visible for empty, zero and high budgets');
+  ok(hill.costs.billedSubtotal===49840&&U.budgetAmount(hill)===null&&budget(hill,100000).status==='unknown'&&
+     U.budgetAmount(wake)===null&&/excludes health insurance/.test(wake.costs.note)&&
+     /insurance USD4,477|insurance USD 4,477/.test(sf.costs.totalText),
+     'Hillsdale billed price and Wake/San Francisco insurance exclusions cannot confirm full international spending');
   ok([clem,aub].every(function(u){return U.costStatus(u)==='conflict'&&[null,0,100000].every(function(b){return budget(u,b).status==='conflict';});})&&
      /42,852/.test(clem.costs.conflict.text)&&/43,852/.test(clem.costs.conflict.text)&&/transportation/.test(aub.costs.conflict.text)&&
      DB.match.annualCost[aub.id].basis==='tuition'&&DB.match.annualCost[aub.id].min===39658,

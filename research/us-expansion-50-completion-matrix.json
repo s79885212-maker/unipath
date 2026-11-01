@@ -2695,13 +2695,15 @@
           ]
         },
         "cost": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
-            "status": null,
-            "academicYear": null,
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
             "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
           },
-          "evidence": []
+          "evidence": [
+            "https://onestop.utk.edu/billing-payments/cost-of-attending-ut-undergraduate-student/"
+          ]
         },
         "awards": {
           "status": "unknown",
@@ -2772,13 +2774,15 @@
           ]
         },
         "cost": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
-            "status": null,
-            "academicYear": null,
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
             "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
           },
-          "evidence": []
+          "evidence": [
+            "https://financialaid.wfu.edu/cost-of-attendance/undergraduate/"
+          ]
         },
         "awards": {
           "status": "partial",
@@ -3016,13 +3020,15 @@
           ]
         },
         "cost": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
-            "status": null,
-            "academicYear": null,
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
             "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
           },
-          "evidence": []
+          "evidence": [
+            "https://admissions.web.baylor.edu/costs-aid/tuition-fees"
+          ]
         },
         "awards": {
           "status": "unknown",
@@ -3174,13 +3180,15 @@
           ]
         },
         "cost": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
-            "status": null,
-            "academicYear": null,
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
             "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
           },
-          "evidence": []
+          "evidence": [
+            "https://www.yu.edu/osf/tuition-fees/undergraduate"
+          ]
         },
         "awards": {
           "status": "unknown",
@@ -3251,13 +3259,15 @@
           ]
         },
         "cost": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
-            "status": null,
-            "academicYear": null,
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
             "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
           },
-          "evidence": []
+          "evidence": [
+            "https://www.wabash.edu/admissions/finances/costs"
+          ]
         },
         "awards": {
           "status": "partial",
@@ -3331,13 +3341,15 @@
           ]
         },
         "cost": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
-            "status": null,
-            "academicYear": null,
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
             "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
           },
-          "evidence": []
+          "evidence": [
+            "https://www.hillsdale.edu/admissions-aid/financial-aid/tuition-and-costs/"
+          ]
         },
         "awards": {
           "status": "unknown",
@@ -3494,13 +3506,15 @@
           ]
         },
         "cost": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
-            "status": null,
-            "academicYear": null,
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
             "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
           },
-          "evidence": []
+          "evidence": [
+            "https://myusf.usfca.edu/billing-tuition/tuition-fees"
+          ]
         },
         "awards": {
           "status": "unknown",
@@ -3575,13 +3589,15 @@
           ]
         },
         "cost": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
-            "status": null,
-            "academicYear": null,
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
             "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
           },
-          "evidence": []
+          "evidence": [
+            "https://www.gmu.edu/admissions-aid/cost-attendance"
+          ]
         },
         "awards": {
           "status": "unknown",
@@ -3652,13 +3668,15 @@
           ]
         },
         "cost": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
-            "status": null,
-            "academicYear": null,
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
             "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
           },
-          "evidence": []
+          "evidence": [
+            "https://www.albany.edu/cost-aid/tuition-fees/international-students"
+          ]
         },
         "awards": {
           "status": "unknown",
@@ -3729,13 +3747,15 @@
           ]
         },
         "cost": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
-            "status": null,
-            "academicYear": null,
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
             "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
           },
-          "evidence": []
+          "evidence": [
+            "https://www.ucf.edu/admissions/undergraduate/tuition-aid/"
+          ]
         },
         "awards": {
           "status": "unknown",
@@ -3810,13 +3830,15 @@
           ]
         },
         "cost": {
-          "status": "unknown",
+          "status": "conflict",
           "notes": {
-            "status": null,
-            "academicYear": null,
+            "status": "conflict",
+            "academicYear": "2026–2027",
             "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
           },
-          "evidence": []
+          "evidence": [
+            "https://udayton.edu/tuition-aid/international/undergraduate.php"
+          ]
         },
         "awards": {
           "status": "unknown",
@@ -3887,13 +3909,15 @@
           ]
         },
         "cost": {
-          "status": "unknown",
+          "status": "conflict",
           "notes": {
-            "status": null,
-            "academicYear": null,
+            "status": "conflict",
+            "academicYear": "2026–2027",
             "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
           },
-          "evidence": []
+          "evidence": [
+            "https://www.sc.edu/about/offices_and_divisions/undergraduate_admissions/tuition_scholarships/index.php"
+          ]
         },
         "awards": {
           "status": "unknown",

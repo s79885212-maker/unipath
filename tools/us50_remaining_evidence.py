@@ -43,8 +43,10 @@ for source in sources:
     u['costs'] = cost
     u['links']['cost'] = source['source']
     u['lastVerified'] = max(u.get('lastVerified') or '', source['verified'])
-    if not any(s['url'] == source['source'] for s in u['sources']):
-        u['sources'].append(dict(label=L('Cost — reviewed official scope and period', 'Стоимость — проверенные официальные условия и период'), url=source['source']))
+    for url in [source['source']] + source['facts'].get('supportingSources', []):
+        assert url.startswith('https://')
+        if not any(s['url'] == url for s in u['sources']):
+            u['sources'].append(dict(label=L('Cost — reviewed official scope and period', 'Стоимость — проверенные официальные условия и период'), url=url))
     count += 1
 
 save(head, rows, tail, str(path))

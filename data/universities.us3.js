@@ -45865,7 +45865,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": null,
     "programs": "https://haslam.utk.edu/undergraduate/majors-minors/",
-    "cost": null
+    "cost": "https://onestop.utk.edu/billing-payments/cost-of-attending-ut-undergraduate-student/"
   },
   "admissions": {
     "platforms": [],
@@ -46027,14 +46027,62 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "status": "previous-cycle",
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "Nonresident undergraduate, on-campus, fall/spring reference",
+    "breakdown": {
+      "period": "year",
+      "includes": "Scoped published reference before aid, not a Fall 2027 budget"
+    },
+    "headline": "Previous-cycle cost reference — check programme and exclusions",
+    "items": [
+      {
+        "label": "Tuition",
+        "amount": 31672,
+        "group": "billed"
+      },
+      {
+        "label": "Fees",
+        "amount": 2806,
+        "group": "billed"
+      },
+      {
+        "label": "On-campus housing",
+        "amount": 9572,
+        "group": "billed"
+      },
+      {
+        "label": "Food",
+        "amount": 5166,
+        "group": "billed"
+      },
+      {
+        "label": "Books and materials",
+        "amount": 1598,
+        "group": "estimate"
+      },
+      {
+        "label": "Transportation",
+        "amount": 3500,
+        "group": "estimate"
+      },
+      {
+        "label": "Personal expenses",
+        "amount": 3042,
+        "group": "estimate"
+      },
+      {
+        "label": "Conditional federal loan fee",
+        "amount": 92,
+        "group": "estimate"
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "totalText": "Published on-campus COA USD 57,448; international insurance/programme extras not established",
+    "note": "2026–2027 on-campus reference, not a guaranteed international or Fall 2027 full budget. Architecture, Business, Natural Sciences, Agriculture, Engineering and Nursing can add per-credit fees; the federal-loan fee is conditional. International health-insurance coverage is not established here. The off-campus footnote prints a different total that does not reconcile by substituting the listed housing allowance; it is not installed as an alternative full budget. No aid is deducted.",
+    "source": "https://onestop.utk.edu/billing-payments/cost-of-attending-ut-undergraduate-student/",
+    "verified": "2026-11-02"
   },
   "scholarships": {
     "fullRide": {
@@ -46103,6 +46151,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://haslam.utk.edu/undergraduate/majors-minors/"
+    },
+    {
+      "label": "Cost — reviewed official scope and period",
+      "url": "https://onestop.utk.edu/billing-payments/cost-of-attending-ut-undergraduate-student/"
     }
   ],
   "verification": {
@@ -46241,7 +46293,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": null,
     "programs": "https://bulletin.wfu.edu/university/degrees-certificates-offered/",
-    "cost": null
+    "cost": "https://financialaid.wfu.edu/cost-of-attendance/undergraduate/"
   },
   "admissions": {
     "platforms": [],
@@ -46411,14 +46463,62 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "status": "previous-cycle",
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "Undergraduate on-campus estimate; insurance and new-student fee additional",
+    "breakdown": {
+      "period": "year",
+      "includes": "Scoped published reference before aid, not a Fall 2027 budget"
+    },
+    "headline": "Previous-cycle cost reference — check programme and exclusions",
+    "items": [
+      {
+        "label": "Tuition",
+        "amount": 71894,
+        "group": "billed"
+      },
+      {
+        "label": "Standard fees",
+        "amount": 1276,
+        "group": "billed"
+      },
+      {
+        "label": "Housing",
+        "amount": 12900,
+        "group": "billed"
+      },
+      {
+        "label": "Food",
+        "amount": 7396,
+        "group": "billed"
+      },
+      {
+        "label": "Books and materials",
+        "amount": 1720,
+        "group": "estimate"
+      },
+      {
+        "label": "Personal expenses",
+        "amount": 1930,
+        "group": "estimate"
+      },
+      {
+        "label": "Transportation",
+        "amount": 1550,
+        "group": "estimate"
+      },
+      {
+        "label": "Conditional federal loan average fee",
+        "amount": 64,
+        "group": "estimate"
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "totalText": "Published standard COA USD 98,730, excluding health insurance",
+    "note": "2026–2027 reference. The university explicitly excludes health insurance; inadequately insured students must buy it. New first-semester orientation USD 380 is additional. Federal-loan fee is conditional. Dependent care, disability and credential-related expenses can require adjustment. Existing competitive full scholarships do not automatically apply to an international applicant or reduce this price. No guaranteed Fall 2027 full budget.",
+    "source": "https://financialaid.wfu.edu/cost-of-attendance/undergraduate/",
+    "verified": "2026-11-02"
   },
   "scholarships": {
     "fullRide": {
@@ -46500,6 +46600,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Programme progression — official requirements",
       "url": "https://bulletin.wfu.edu/undergraduate/school-business/undergraduate-business-program-admission/"
+    },
+    {
+      "label": "Cost — reviewed official scope and period",
+      "url": "https://financialaid.wfu.edu/cost-of-attendance/undergraduate/"
     }
   ],
   "verification": {
@@ -47467,7 +47571,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": null,
     "programs": "https://admissions.web.baylor.edu/degrees/finance",
-    "cost": null
+    "cost": "https://admissions.web.baylor.edu/costs-aid/tuition-fees"
   },
   "admissions": {
     "platforms": [],
@@ -47604,14 +47708,27 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "status": "previous-cycle",
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "Full-time incoming undergraduate, regular tuition plan; optional higher guaranteed rate separate",
+    "breakdown": {
+      "period": "year",
+      "includes": "Scoped published reference before aid, not a Fall 2027 budget"
+    },
+    "headline": "Previous-cycle cost reference — check programme and exclusions",
+    "items": [
+      {
+        "label": "Regular full-time tuition — fall/spring",
+        "amount": 67756,
+        "group": "billed"
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "totalText": "Regular annual tuition USD 67,756; optional guaranteed annual tuition USD 75,556 — both exclude living costs",
+    "note": "2026–2027 tuition only for 12+ credits, fall/spring. Regular tuition is the default; the optional higher Guaranteed Tuition Option locks tuition for 48 months, not other charges. Its August 31,2026 election deadline belongs to the 2026 cohort and is not a 2027 admission/scholarship deadline. Housing, meals, new-student matriculation, books, personal expenses and travel are separate. International students must have health insurance. Summer uses separate rates. No complete budget or competitive-aid deduction.",
+    "source": "https://admissions.web.baylor.edu/costs-aid/tuition-fees",
+    "verified": "2026-11-02"
   },
   "scholarships": {
     "fullRide": {
@@ -47696,6 +47813,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://admissions.web.baylor.edu/degrees/finance"
+    },
+    {
+      "label": "Cost — reviewed official scope and period",
+      "url": "https://admissions.web.baylor.edu/costs-aid/tuition-fees"
     }
   ],
   "verification": {
@@ -48174,7 +48295,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": null,
     "programs": "https://www.yu.edu/academic-advising/undergraduate-men/sheets",
-    "cost": null
+    "cost": "https://www.yu.edu/osf/tuition-fees/undergraduate"
   },
   "admissions": {
     "platforms": [],
@@ -48291,14 +48412,37 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "status": "previous-cycle",
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "Full-time New York undergraduate, 12+ credits; college-specific housing/meal choices separate",
+    "breakdown": {
+      "period": "year",
+      "includes": "Scoped published reference before aid, not a Fall 2027 budget"
+    },
+    "headline": "Previous-cycle cost reference — check programme and exclusions",
+    "items": [
+      {
+        "label": "Full-time tuition, 12+ credits",
+        "amount": 49550,
+        "group": "estimate"
+      },
+      {
+        "label": "Mandatory undergraduate fees",
+        "amount": 4950,
+        "group": "estimate"
+      },
+      {
+        "label": "Student health insurance — listed annual rate",
+        "amount": 6654,
+        "group": "estimate"
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "totalText": "Published tuition and mandatory fees USD 54,500; insurance, residence and meals are separate",
+    "note": "2026–2027 tuition/fees reference. The printed USD 54,500 equals tuition 49,550 plus mandatory 4,950; it does not include listed insurance 6,654 or a housing/meal plan. Men residence halls:9,900–12,100 USD fall/spring; women residence halls:12,100–17,500 USD, selected room types. Resident meal plans are per semester 2,050/2,362.50/2,650 USD; the 1,380 annual nonresident meal plan is for full-time non-dorming students, not every international student. Lab and programme fees differ. Israel programme and transfer/accelerated nursing are separate. No consolidated full budget or aid deduction.",
+    "source": "https://www.yu.edu/osf/tuition-fees/undergraduate",
+    "verified": "2026-11-02"
   },
   "scholarships": {
     "fullRide": {
@@ -48371,6 +48515,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://www.yu.edu/academic-advising/undergraduate-men/sheets"
+    },
+    {
+      "label": "Cost — reviewed official scope and period",
+      "url": "https://www.yu.edu/osf/tuition-fees/undergraduate"
     }
   ],
   "verification": {
@@ -48481,7 +48629,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": null,
     "programs": "https://bulletin.wabash.edu/programsaz/",
-    "cost": null
+    "cost": "https://www.wabash.edu/admissions/finances/costs"
   },
   "admissions": {
     "platforms": [],
@@ -48624,14 +48772,67 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "status": "previous-cycle",
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "Standard undergraduate COA with Indiana-resident travel assumption",
+    "breakdown": {
+      "period": "year",
+      "includes": "Scoped published reference before aid, not a Fall 2027 budget"
+    },
+    "headline": "Previous-cycle cost reference — check programme and exclusions",
+    "items": [
+      {
+        "label": "Tuition",
+        "amount": 52900,
+        "group": "billed"
+      },
+      {
+        "label": "Student activities",
+        "amount": 500,
+        "group": "billed"
+      },
+      {
+        "label": "Health center",
+        "amount": 700,
+        "group": "billed"
+      },
+      {
+        "label": "Housing and 15-meal plan",
+        "amount": 14700,
+        "group": "billed"
+      },
+      {
+        "label": "Books and supplies",
+        "amount": 1300,
+        "group": "estimate"
+      },
+      {
+        "label": "Personal expenses",
+        "amount": 1600,
+        "group": "estimate"
+      },
+      {
+        "label": "Additional meals",
+        "amount": 750,
+        "group": "estimate"
+      },
+      {
+        "label": "Conditional federal loan fee",
+        "amount": 70,
+        "group": "estimate"
+      },
+      {
+        "label": "Indiana-resident travel assumption — not international travel",
+        "amount": 650,
+        "group": "estimate"
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "totalText": "Published standard COA USD 73,170; international travel/insurance not established",
+    "note": "2026–2027 standard fall/spring estimate. The USD 650 travel line is explicitly Indiana-resident travel; expenses vary outside Indiana and it is not assigned to a student from Uzbekistan. Health Center Fee is not proof of health-insurance coverage. Loan fee is conditional. Existing competitive merit maxima and earned work are not guaranteed aid or price deductions. No complete international or Fall 2027 budget.",
+    "source": "https://www.wabash.edu/admissions/finances/costs",
+    "verified": "2026-11-02"
   },
   "scholarships": {
     "fullRide": {
@@ -48716,6 +48917,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://bulletin.wabash.edu/programsaz/"
+    },
+    {
+      "label": "Cost — reviewed official scope and period",
+      "url": "https://www.wabash.edu/admissions/finances/costs"
     }
   ],
   "verification": {
@@ -48842,7 +49047,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": null,
     "programs": "https://www.hillsdale.edu/about/college-profile/",
-    "cost": null
+    "cost": "https://www.hillsdale.edu/admissions-aid/financial-aid/tuition-and-costs/"
   },
   "admissions": {
     "platforms": [],
@@ -48948,14 +49153,42 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "status": "previous-cycle",
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
-    "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "studentCategory": "Full-time undergraduate,12–17 credits/semester, standard double room and board",
+    "breakdown": {
+      "period": "year",
+      "includes": "Scoped published reference before aid, not a Fall 2027 budget"
+    },
+    "headline": "Previous-cycle cost reference — check programme and exclusions",
+    "items": [
+      {
+        "label": "Tuition",
+        "amount": 33710,
+        "group": "billed"
+      },
+      {
+        "label": "Double-occupancy room",
+        "amount": 7040,
+        "group": "billed"
+      },
+      {
+        "label": "Board, Knorr dining room",
+        "amount": 7630,
+        "group": "billed"
+      },
+      {
+        "label": "General fees",
+        "amount": 1460,
+        "group": "billed"
+      }
+    ],
+    "billedSubtotal": 49840,
+    "totalText": "Published full billed costs USD 49,840; other personal spending separate",
+    "note": "2026–2027 full billed cost, not full international spending or Fall 2027 price. Tuition covers fall/spring at 12–17 credits/semester. Extra credits, single/suite/townhouse rooms, meal-plan changes and Washington housing have separate rates. Books, travel and personal/insurance coverage are not established by this billed table. Average institutional aid is not a guaranteed international scholarship and is not deducted.",
+    "source": "https://www.hillsdale.edu/admissions-aid/financial-aid/tuition-and-costs/",
+    "verified": "2026-11-02"
   },
   "scholarships": {
     "fullRide": {
@@ -49016,6 +49249,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:Hillsdale_College-Central_Hall_Exterior.JPG"
+    },
+    {
+      "label": "Cost — reviewed official scope and period",
+      "url": "https://www.hillsdale.edu/admissions-aid/financial-aid/tuition-and-costs/"
     }
   ],
   "verification": {
@@ -49438,7 +49675,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": null,
     "programs": "https://www.usfca.edu/management/programs/undergraduate",
-    "cost": null
+    "cost": "https://myusf.usfca.edu/billing-tuition/tuition-fees"
   },
   "admissions": {
     "platforms": [],
@@ -49534,14 +49771,57 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "status": "previous-cycle",
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
-    "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "studentCategory": "Hilltop full-time undergraduate, on-campus,12–18 credits/semester",
+    "breakdown": {
+      "period": "year",
+      "includes": "Scoped published reference before aid, not a Fall 2027 budget"
+    },
+    "headline": "Previous-cycle cost reference — check programme and exclusions",
+    "items": [
+      {
+        "label": "Hilltop full-time tuition",
+        "amount": 63880,
+        "group": "billed"
+      },
+      {
+        "label": "Fees",
+        "amount": 612,
+        "group": "billed"
+      },
+      {
+        "label": "On-campus housing",
+        "amount": 12930,
+        "group": "billed"
+      },
+      {
+        "label": "Food",
+        "amount": 6220,
+        "group": "billed"
+      },
+      {
+        "label": "Books and materials",
+        "amount": 1306,
+        "group": "estimate"
+      },
+      {
+        "label": "Transportation",
+        "amount": 1076,
+        "group": "estimate"
+      },
+      {
+        "label": "Personal expenses",
+        "amount": 3274,
+        "group": "estimate"
+      }
+    ],
+    "billedSubtotal": 83642,
+    "totalText": "Published on-campus COA USD 89,298 before additional insurance USD 4,477",
+    "note": "2026–2027 fall/spring Hilltop undergraduate. Published direct costs 83,642 USD and total 89,298 USD exclude the undergraduate health plan 4,477 USD. International students are generally required to enrol; waiver eligibility must be checked. Nursing/BS-PH and specific courses can add fees. Online BAM degree completion, graduate insurance 4,585 USD and summer credit rates are different routes and not substituted. No complete Fall 2027 budget or scholarship deduction.",
+    "source": "https://myusf.usfca.edu/billing-tuition/tuition-fees",
+    "verified": "2026-11-02"
   },
   "scholarships": {
     "fullRide": {
@@ -49614,6 +49894,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://www.usfca.edu/management/programs/undergraduate"
+    },
+    {
+      "label": "Cost — reviewed official scope and period",
+      "url": "https://myusf.usfca.edu/billing-tuition/tuition-fees"
     }
   ],
   "verification": {
@@ -49745,7 +50029,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": null,
     "programs": "https://catalog.gmu.edu/colleges-schools/engineering-computing/engineering/mechanical/mechanical-engineering-bs/",
-    "cost": null
+    "cost": "https://www.gmu.edu/admissions-aid/cost-attendance"
   },
   "admissions": {
     "platforms": [],
@@ -49880,14 +50164,47 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "status": "previous-cycle",
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "Nonresident full-time undergraduate,12–15 credits/semester, on-campus estimate",
+    "breakdown": {
+      "period": "year",
+      "includes": "Scoped published reference before aid, not a Fall 2027 budget"
+    },
+    "headline": "Previous-cycle cost reference — check programme and exclusions",
+    "items": [
+      {
+        "label": "Out-of-state tuition and fees,12–15 credits/semester",
+        "amount": 39803,
+        "group": "estimate"
+      },
+      {
+        "label": "On-campus food and housing estimate",
+        "amount": 15020,
+        "group": "estimate"
+      },
+      {
+        "label": "On-campus transportation estimate",
+        "amount": 1380,
+        "group": "estimate"
+      },
+      {
+        "label": "On-campus personal expense estimate",
+        "amount": 2384,
+        "group": "estimate"
+      },
+      {
+        "label": "Books",
+        "amount": 1380,
+        "group": "estimate"
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "totalText": "Published annual tuition/fees USD 39,803; living, international insurance and new-student costs separate",
+    "note": "2026–2027 standard nonresident estimate. Housing/food 15,020 USD is the university average of traditional/suite double rooms, not a confirmed individual housing offer. New freshman fee 350 USD is one-time and additional. Programme/course fees, actual load and international insurance/funding requirements require separate confirmation. The old 2025–26 OIPS form is not combined with these 2026–27 components. No invented university-published total, full Fall 2027 budget or aid deduction.",
+    "source": "https://www.gmu.edu/admissions-aid/cost-attendance",
+    "verified": "2026-11-02"
   },
   "scholarships": {
     "fullRide": {
@@ -49972,6 +50289,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://catalog.gmu.edu/colleges-schools/engineering-computing/engineering/mechanical/mechanical-engineering-bs/"
+    },
+    {
+      "label": "Cost — reviewed official scope and period",
+      "url": "https://www.gmu.edu/admissions-aid/cost-attendance"
     }
   ],
   "verification": {
@@ -50074,7 +50395,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": null,
     "programs": "https://www.albany.edu/academics/undergraduate-majors-minors",
-    "cost": null
+    "cost": "https://www.albany.edu/cost-aid/tuition-fees/international-students"
   },
   "admissions": {
     "platforms": [],
@@ -50187,14 +50508,37 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "status": "previous-cycle",
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "International full-time undergraduate,12+credits/semester, standard Quads double and meal plan",
+    "breakdown": {
+      "period": "year",
+      "includes": "Scoped published reference before aid, not a Fall 2027 budget"
+    },
+    "headline": "Previous-cycle cost reference — check programme and exclusions",
+    "items": [
+      {
+        "label": "Published international tuition and fees — fall/spring",
+        "amount": 35109.46,
+        "group": "billed"
+      },
+      {
+        "label": "Quads Standard Double — fall/spring",
+        "amount": 10605,
+        "group": "billed"
+      },
+      {
+        "label": "myUnlimited Meal Plan 1 — fall/spring",
+        "amount": 6600,
+        "group": "billed"
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": null,
-    "note": "The page quotes international on-campus USD54,354 per year without establishing an academic year. USD45,008 off-campus applies only to juniors/seniors. Neither is installed as a verified Fall2027 annual budget. Global Excellence may reach USD20,500/year for four years; GPA2.5 and continuous full-time out-of-state enrolment for renewal. Competitive award is not deducted from cost; largest eligible award remains unconfirmed."
+    "totalText": "Published fall/spring international tuition/fees USD 35,109.46; housing/food USD 17,205 separate",
+    "note": "2026–2027 table directly read 2 November 2026. Fall tuition 14,565 plus fees 2,989.73 equals 17,554.73 USD; the university separately prints fall/spring 35,109.46 USD. An older search preview contains different amounts and is not the source. First-year one-time fee 265 USD and selected course/inclusive-access fees are additional; the optional 30 USD student-alumni fee may be opted out each semester. International health insurance is mandatory, but its exact inclusion/rate must be checked. QuadsDouble/myUnlimited 1 are examples, not every room/meal. No complete international total or Fall 2027 budget.",
+    "source": "https://www.albany.edu/cost-aid/tuition-fees/international-students",
+    "verified": "2026-11-02"
   },
   "scholarships": {
     "fullRide": {
@@ -50255,6 +50599,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://www.albany.edu/academics/undergraduate-majors-minors"
+    },
+    {
+      "label": "Cost — reviewed official scope and period",
+      "url": "https://www.albany.edu/cost-aid/tuition-fees/international-students"
     }
   ],
   "verification": {
@@ -50383,7 +50731,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": null,
     "programs": "https://www.ucf.edu/majors/",
-    "cost": null
+    "cost": "https://www.ucf.edu/admissions/undergraduate/tuition-aid/"
   },
   "admissions": {
     "platforms": [],
@@ -50478,14 +50826,52 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "status": "previous-cycle",
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "Nonresident undergraduate,28 credits/year, standard room and dining",
+    "breakdown": {
+      "period": "year",
+      "includes": "Scoped published reference before aid, not a Fall 2027 budget"
+    },
+    "headline": "Previous-cycle cost reference — check programme and exclusions",
+    "items": [
+      {
+        "label": "Tuition and fees at 28 credits/year",
+        "amount": 22482,
+        "group": "billed"
+      },
+      {
+        "label": "Housing",
+        "amount": 8750,
+        "group": "billed"
+      },
+      {
+        "label": "Food",
+        "amount": 6170,
+        "group": "billed"
+      },
+      {
+        "label": "Books",
+        "amount": 1200,
+        "group": "estimate"
+      },
+      {
+        "label": "Transportation",
+        "amount": 2126,
+        "group": "estimate"
+      },
+      {
+        "label": "Personal expenses",
+        "amount": 3104,
+        "group": "estimate"
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "totalText": "Published nonresident COA USD 43,832 at 28 credits/year; international extras unconfirmed",
+    "note": "2026–2027 fall/spring estimate at 28 credits, not 30. Standard housing and dining are assumptions; actual programme load, delivery/campus and international health-insurance charges must be checked separately. Graduate, online-only and second-degree costs are not substituted. No complete international Fall 2027 budget and no automatic merit award deduction.",
+    "source": "https://www.ucf.edu/admissions/undergraduate/tuition-aid/",
+    "verified": "2026-11-02"
   },
   "scholarships": {
     "fullRide": {
@@ -50546,6 +50932,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://www.ucf.edu/majors/"
+    },
+    {
+      "label": "Cost — reviewed official scope and period",
+      "url": "https://www.ucf.edu/admissions/undergraduate/tuition-aid/"
     }
   ],
   "verification": {
@@ -50665,7 +51055,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": null,
     "programs": "https://catalog.udayton.edu/undergraduate/schoolofengineering/programsofstudy/mechanicalandaerospaceengineering/",
-    "cost": null
+    "cost": "https://udayton.edu/tuition-aid/international/undergraduate.php"
   },
   "admissions": {
     "platforms": [],
@@ -50760,14 +51150,40 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "status": "conflict",
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "International undergraduate, Fall 2026 start; miscellaneous period unresolved",
+    "breakdown": {
+      "period": "year",
+      "includes": "Scoped published reference before aid, not a Fall 2027 budget"
+    },
+    "headline": "Official expense-period conflict",
+    "items": [
+      {
+        "label": "Tuition — fall/spring",
+        "amount": 51910,
+        "group": "billed"
+      },
+      {
+        "label": "Living expenses — housing and meal estimate",
+        "amount": 17990,
+        "group": "estimate"
+      },
+      {
+        "label": "Miscellaneous expenses — period conflict 10 vs 12 months",
+        "amount": 4320,
+        "group": "estimate"
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "totalText": "Published tuition USD 51,910; living USD 17,990; miscellaneous USD 4,320 with unresolved period",
+    "note": "2026–2027 reference, not Fall 2027. Miscellaneous includes insurance, travel, books but its 10/12 month description is contradictory. No published consolidated total is asserted. Merit consideration up to 34,000 USD/year is competitive, not automatically subtracted; the university explicitly does not offer full-tuition scholarships on this international page.",
+    "conflict": {
+      "text": "The official international page labels the USD 4,320 miscellaneous estimate as 10 months, then describes the same insurance/transport/books expenses as 12 months. The scope is unresolved. UniPath does not choose a period or publish a consolidated full total; tuition and living reference lines are retained."
+    },
+    "source": "https://udayton.edu/tuition-aid/international/undergraduate.php",
+    "verified": "2026-11-02"
   },
   "scholarships": {
     "fullRide": {
@@ -50848,6 +51264,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://catalog.udayton.edu/undergraduate/schoolofengineering/programsofstudy/mechanicalandaerospaceengineering/"
+    },
+    {
+      "label": "Cost — reviewed official scope and period",
+      "url": "https://udayton.edu/tuition-aid/international/undergraduate.php"
     }
   ],
   "verification": {
@@ -50966,7 +51386,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": null,
     "programs": "https://academicbulletins.sc.edu/undergraduate/programs-az/",
-    "cost": null
+    "cost": "https://www.sc.edu/about/offices_and_divisions/undergraduate_admissions/tuition_scholarships/index.php"
   },
   "admissions": {
     "platforms": [],
@@ -51121,14 +51541,45 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "status": "conflict",
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "Columbia nonresident undergraduate; admissions/Bursar rates unresolved",
+    "breakdown": {
+      "period": "year",
+      "includes": "Scoped published reference before aid, not a Fall 2027 budget"
+    },
+    "headline": "Official annual/semester tuition discrepancy",
+    "items": [
+      {
+        "label": "Admissions annual nonresident tuition reference",
+        "amount": 38098
+      },
+      {
+        "label": "Technology fee — admissions annual reference",
+        "amount": 400
+      },
+      {
+        "label": "Weighted average programme fee — not an individual programme price",
+        "amount": 1580
+      },
+      {
+        "label": "Housing — admissions annual estimate",
+        "amount": 11432
+      },
+      {
+        "label": "Food — admissions annual estimate",
+        "amount": 5902
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "totalText": "Admissions published direct estimate USD 57,412; tuition disagrees with Bursar semester rates",
+    "note": "2026–2027 admissions table is a direct-cost estimate, not a full COA. Programme fee 1,580 USD is a weighted average, not every major’s charge. Books, travel, personal spending are indirect and additional. Bursar also lists mandatory insurance 4,000 USD/year for specified student categories and full-time technology 200 USD/semester; special scholarship-reduced nonresident rows cannot be assumed for an international applicant. Source discrepancy is retained even though small. No Fall 2027 budget or aid deduction.",
+    "conflict": {
+      "text": "Admissions prints annual nonresident tuition USD 38,098; the 2026–27 Columbia Bursar prints USD 19,050 per full-time semester. Two such semesters would be USD 38,100 (UniPath calculation), USD 2 higher. The difference is not explained or replaced by a programme-price range. No reconciled billed/full budget or scholarship-reduced rate is assigned."
+    },
+    "source": "https://www.sc.edu/about/offices_and_divisions/undergraduate_admissions/tuition_scholarships/index.php",
+    "verified": "2026-11-02"
   },
   "scholarships": {
     "fullRide": {
@@ -51189,6 +51640,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://academicbulletins.sc.edu/undergraduate/programs-az/"
+    },
+    {
+      "label": "Cost — reviewed official scope and period",
+      "url": "https://www.sc.edu/about/offices_and_divisions/undergraduate_admissions/tuition_scholarships/index.php"
+    },
+    {
+      "label": "Cost — reviewed official scope and period",
+      "url": "https://www.sc.edu/about/offices_and_divisions/bursar/tuition_and_required_fees/index.php"
     }
   ],
   "verification": {
