@@ -2472,15 +2472,25 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "8 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://www.colorado.edu/cs/academics/undergraduate-programs/bachelor-science"
+            "https://www.colorado.edu/cs/academics/undergraduate-programs/bachelor-science",
+            "https://catalog.colorado.edu/undergraduate/academic-offerings/"
           ]
         },
         "language": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
-            "confirmedFields": [],
+            "confirmedFields": [
+              "computer-science",
+              "business",
+              "economics",
+              "mathematics",
+              "biology",
+              "engineering",
+              "psychology",
+              "arts"
+            ],
             "remaining": "Не выводится из языка сайта или требований IELTS"
           },
           "evidence": []
@@ -2549,9 +2559,10 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "8 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://www.unh.edu/program/bachelor-science/computer-science"
+            "https://www.unh.edu/program/bachelor-science/computer-science",
+            "https://catalog.unh.edu/programs/"
           ]
         },
         "language": {
@@ -2625,9 +2636,12 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "9 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://eecs.utk.edu/undergraduate/computer-science/"
+            "https://eecs.utk.edu/undergraduate/computer-science/",
+            "https://artsci.utk.edu/academics/undergraduate-programs/",
+            "https://tickle.utk.edu/mae/academics/",
+            "https://haslam.utk.edu/undergraduate/majors-minors/"
           ]
         },
         "language": {
@@ -2701,9 +2715,10 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "9 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://admissions.wfu.edu/academics/majors-minors/computer-science/"
+            "https://admissions.wfu.edu/academics/majors-minors/computer-science/",
+            "https://bulletin.wfu.edu/university/degrees-certificates-offered/"
           ]
         },
         "language": {
@@ -2779,9 +2794,12 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "9 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://cs.engineering.gwu.edu/bachelor-science-program"
+            "https://cs.engineering.gwu.edu/bachelor-science-program",
+            "https://bulletin.gwu.edu/arts-sciences/",
+            "https://bulletin.gwu.edu/business/",
+            "https://bulletin.gwu.edu/engineering-applied-science/"
           ]
         },
         "language": {
@@ -2860,9 +2878,11 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "6 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://www.stevens.edu/program/computer-science-bachelor-degree"
+            "https://www.stevens.edu/program/computer-science-bachelor-degree",
+            "https://www.stevens.edu/school-engineering-science/undergraduate-studies/programs",
+            "https://www.stevens.edu/school-business/undergraduate-programs"
           ]
         },
         "language": {
@@ -2938,9 +2958,11 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "8 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://www.ecs.baylor.edu/prospective-undergraduate-students/undergraduate-degree-programs/bscs-computer-science"
+            "https://www.ecs.baylor.edu/prospective-undergraduate-students/undergraduate-degree-programs/bscs-computer-science",
+            "https://admissions.web.baylor.edu/degrees/finance",
+            "https://admissions.web.baylor.edu/about-baylor/majors-minors"
           ]
         },
         "language": {
@@ -3014,9 +3036,10 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "6 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://bulletin.marquette.edu/arts-sciences/computer-science/computer-science-bs/"
+            "https://bulletin.marquette.edu/arts-sciences/computer-science/computer-science-bs/",
+            "https://bulletin.marquette.edu/programs/"
           ]
         },
         "language": {
@@ -3094,9 +3117,10 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "6 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://yu.smartcatalogiq.com/en/current/university-catalog/undergraduate-programs/yeshiva-college/copy-of-computer-science-artificial-intelligence-bs"
+            "https://yu.smartcatalogiq.com/en/current/university-catalog/undergraduate-programs/yeshiva-college/copy-of-computer-science-artificial-intelligence-bs",
+            "https://www.yu.edu/academic-advising/undergraduate-men/sheets"
           ]
         },
         "language": {
@@ -3170,9 +3194,10 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "8 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://www.wabash.edu/academics/computer_science/"
+            "https://www.wabash.edu/academics/computer_science/",
+            "https://bulletin.wabash.edu/programsaz/"
           ]
         },
         "language": {

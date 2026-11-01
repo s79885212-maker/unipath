@@ -43,6 +43,17 @@ module.exports=function(env){
      U.englishPrograms(rutgers).length===0,
      'catalogue majors broaden confirmed fields while Rutgers business minor and an English website cannot become confirmed degree/language matches');
   var noEnglish=U.optionById('language','english-no'),unknownEnglish=U.optionById('language','english-unknown');
+  var boulder=U.uniById('university-of-colorado-boulder'),wake=U.uniById('wake-forest-university');
+  ok(U.optionById('field','business').test(boulder,{language:['english-yes']})&&
+     /generally/.test(boulder.languageOfInstruction)&&/foreign-language/.test(boulder.languageOfInstruction)&&
+     sources.some(function(s){return s.id===boulder.id&&s.topic==='instruction-language'&&s.access==='pdf-read'&&s.facts.page===1;}),
+     'Boulder named majors use the actual PDF campus instruction statement with its general-rule and foreign-language caveats');
+  ok(/internal admission/.test(wake.programEvidence.business.program)&&
+     wake.admissions.notes.some(function(n){return /49 completed college credit hours/.test(n)&&/not Uzbek school grades/.test(n);})&&
+     !U.uniById('wabash-college').programEvidence.business&&
+     !/Business Administration/.test(U.uniById('baylor-university').programEvidence.business.program)&&
+     !U.uniById('yeshiva-university').programEvidence.engineering,
+     'Wake internal progression is not first-year eligibility; Wabash/Baylor minors and Yeshiva partner pre-engineering do not become ordinary bachelor routes');
   var usfMajors=U.uniById('university-of-south-florida'),fiuMajors=U.uniById('florida-international-university');
   ok(/Management/.test(usfMajors.programEvidence.business.program)&&
      !/Business Administration/.test(usfMajors.programEvidence.business.program)&&
@@ -81,7 +92,7 @@ module.exports=function(env){
      U.optionById('field','business').test(santaBarbara,{language:['english-yes']}),
      'UCSB language evidence enables its named accounting major in the strict English filter while Rutgers teaching language remains unconfirmed');
   ok(fresh.every(function(u){return U.englishPrograms(u).every(function(f){return sources.some(function(s){
-       return s.id===u.id&&s.topic==='instruction-language'&&s.access==='html-read'&&s.facts.appliesToProgrammes&&
+       return s.id===u.id&&s.topic==='instruction-language'&&(s.access==='html-read'||s.access==='pdf-read')&&s.facts.appliesToProgrammes&&
          s.facts.appliesToProgrammes[f]===u.programEvidence[f].program;
      });});}), 'confirmed teaching language is bound to the named programme, so a new foreign-language major cannot inherit a tag-level policy');
   var ucPolicy='https://reciprocity.uceap.universityofcalifornia.edu/plan-your-studies/examinations';
@@ -156,6 +167,7 @@ module.exports=function(env){
      'Rutgers New Brunswick keeps its campus-specific policy, English scale and billed reference');
   ok(fresh.every(function(u){return sources.some(function(s){return s.id===u.id&&s.access==='html-read'&&s.quote&&s.category&&s.verified;});}) &&
      sources.every(function(s){return allowed.has(s.id)&&/^https:\/\//.test(s.source)&&s.verified&&s.category&&(s.access==='html-read'?s.quote&&s.facts:
+       s.access==='pdf-read'?s.quote&&s.facts&&Number.isInteger(s.facts.page)&&s.facts.page>0&&/\.pdf(?:$|\?)/i.test(s.source):
        s.access==='commons-file-page-and-image-reviewed'?s.topic==='photo-file-reviewed-installed'&&/^https:\/\/commons\.wikimedia\.org\/wiki\/File:/.test(s.source)&&s.quote&&s.facts&&s.facts.author&&s.facts.license&&s.facts.licenseUrl&&s.facts.downloadedSha256&&s.facts.visualReview:s.facts===null);}),
      'new research distinguishes read primary evidence from blocked/unavailable facts');
   env.sandbox.location.search='?lang=ru';

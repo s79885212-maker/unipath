@@ -8032,5 +8032,540 @@
       "downloadedSha256": "3007593885108e93460ec62f6a4a3ee7e8968666ecedf18ecab0f0d61be42666",
       "visualReview": "Actual image visually reviewed: campus architecture and palms; object explicitly FIU MMC Campus in Commons description and EXIF title, not inferred from a generic FIU view. Eduardo Merille and CC BY-SA2.0 confirmed in file page and retrieved wikitext/Flickr licence review. Entire image preserved, no retouching."
     }
+  },
+  {
+    "id": "university-of-colorado-boulder",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://catalog.colorado.edu/undergraduate/academic-offerings/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "first-year undergraduate programme existence; programme-entry restrictions separate from school admission",
+    "campus": "Boulder",
+    "access": "html-read",
+    "quote": "2026-2027 University Catalog",
+    "facts": {
+      "academicYear": "2026–2027",
+      "programs": {
+        "business": "Business Administration, BSBA",
+        "economics": "Economics, BA",
+        "mathematics": "Mathematics, BS",
+        "biology": "Molecular, Cellular and Developmental Biology, BS",
+        "engineering": "Mechanical Engineering, BSME",
+        "psychology": "Psychology, BA",
+        "arts": "Art Practices, BFA"
+      },
+      "programmeNamesRu": {
+        "business": "Управление бизнесом, BSBA",
+        "economics": "Экономика, BA",
+        "mathematics": "Математика, BS",
+        "biology": "Молекулярная, клеточная биология и биология развития, BS",
+        "engineering": "Машиностроение, BSME",
+        "psychology": "Психология, BA",
+        "arts": "Художественные практики, BFA"
+      },
+      "limitations": "Partial list of named bachelor majors; minor/certificate/graduate/degree-completion and unverified campus routes excluded. Post-baccalaureate Applied Computer Science and actuarial certificate are not first bachelor majors."
+    }
+  },
+  {
+    "id": "university-of-new-hampshire",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://catalog.unh.edu/programs/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "first-year undergraduate programme existence; programme-entry restrictions separate from school admission",
+    "campus": "Durham",
+    "access": "html-read",
+    "quote": "Durham Undergraduate",
+    "facts": {
+      "academicYear": "2026–2027",
+      "programs": {
+        "business": "Business Administration, BS (Paul College, Durham)",
+        "economics": "Analytical Economics, BS",
+        "mathematics": "Applied Mathematics, BS",
+        "biology": "Biology, BS",
+        "engineering": "Mechanical Engineering, BS",
+        "psychology": "Psychology, BA (Durham)",
+        "humanities": "History, BA"
+      },
+      "programmeNamesRu": {
+        "business": "Управление бизнесом, BS (Paul College, Durham)",
+        "economics": "Аналитическая экономика, BS",
+        "mathematics": "Прикладная математика, BS",
+        "biology": "Биология, BS",
+        "engineering": "Машиностроение, BS",
+        "psychology": "Психология, BA (Durham)",
+        "humanities": "История, BA"
+      },
+      "limitations": "Partial list of named bachelor majors; minor/certificate/graduate/degree-completion and unverified campus routes excluded. Catalogue explicitly labels Durham/Bachelor rows. Manchester Psychology and online CPS Business/Applied Psychology are not imported. Paul accounting/finance are options within Business Administration."
+    }
+  },
+  {
+    "id": "university-of-tennessee-knoxville",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://artsci.utk.edu/academics/undergraduate-programs/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "first-year undergraduate programme existence; programme-entry restrictions separate from school admission",
+    "campus": "Knoxville",
+    "access": "html-read",
+    "quote": "Biological Sciences, BS",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "economics": "Economics, BA",
+        "mathematics": "Mathematics, BS",
+        "biology": "Biological Sciences, BS",
+        "psychology": "Psychology, BA",
+        "humanities": "History, BA",
+        "arts": "Studio Art, BFA"
+      },
+      "programmeNamesRu": {
+        "economics": "Экономика, BA",
+        "mathematics": "Математика, BS",
+        "biology": "Биологические науки, BS",
+        "psychology": "Психология, BA",
+        "humanities": "История, BA",
+        "arts": "Студийное искусство, BFA"
+      },
+      "limitations": "Partial list of named bachelor majors; minor/certificate/graduate/degree-completion and unverified campus routes excluded. College of Arts and Sciences subset; business/engineering school programmes remain a separate follow-up."
+    }
+  },
+  {
+    "id": "wake-forest-university",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://bulletin.wfu.edu/university/degrees-certificates-offered/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "first-year undergraduate programme existence; programme-entry restrictions separate from school admission",
+    "campus": "Winston-Salem",
+    "access": "html-read",
+    "quote": "Degrees and Certificates Offered",
+    "facts": {
+      "academicYear": "2026–2027",
+      "programs": {
+        "business": "Accountancy, BS (School of Business internal admission)",
+        "economics": "Economics, BA/BS",
+        "mathematics": "Mathematics, BA/BS",
+        "biology": "Biology, BA/BS",
+        "engineering": "Engineering, BS",
+        "psychology": "Psychology, BA",
+        "humanities": "History, BA",
+        "arts": "Studio Art, BA"
+      },
+      "programmeNamesRu": {
+        "business": "Бухгалтерский учёт, BS (внутренний отбор School of Business)",
+        "economics": "Экономика, BA/BS",
+        "mathematics": "Математика, BA/BS",
+        "biology": "Биология, BA/BS",
+        "engineering": "Инженерное дело, BS",
+        "psychology": "Психология, BA",
+        "humanities": "История, BA",
+        "arts": "Студийное искусство, BA"
+      },
+      "limitations": "Partial list of named bachelor majors; minor/certificate/graduate/degree-completion and unverified campus routes excluded. School of Business also names Finance, Business and Enterprise Management and Decision Analytics bachelor majors; Data Science is a certificate on this page, not an independent bachelor major.",
+      "programmeEntryNote": {
+        "en": "Wake Forest School of Business requires a later internal application after university admission:49 completed college credit hours and specified prerequisites graded at least C by the end of sophomore spring. Minimum eligibility does not guarantee a place. These are college progression rules, not Uzbek school grades or direct first-year business admission.",
+        "ru": "В Wake Forest School of Business позже подают отдельную внутреннюю заявку:49 завершённых университетских кредитов и установленные предметы с оценкой не ниже C к концу весны второго курса. Минимальная пригодность не гарантирует место. Это правила перехода внутри университета, не оценки узбекской школы и не прямой приём первокурсника на бизнес.",
+        "source": "https://bulletin.wfu.edu/undergraduate/school-business/undergraduate-business-program-admission/"
+      }
+    }
+  },
+  {
+    "id": "wake-forest-university",
+    "topic": "programme-progression",
+    "source": "https://bulletin.wfu.edu/undergraduate/school-business/undergraduate-business-program-admission/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "internal School of Business application after matriculation, not first-year school qualification",
+    "campus": "Winston-Salem",
+    "access": "html-read",
+    "quote": "Must have completed 49 hours",
+    "facts": {
+      "collegeCredits": 49,
+      "earliestYear": "by end of sophomore spring",
+      "prerequisiteGrade": "C or higher",
+      "guaranteedAdmission": false
+    }
+  },
+  {
+    "id": "stevens-institute-of-technology",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://www.stevens.edu/school-engineering-science/undergraduate-studies/programs",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "first-year undergraduate programme existence; programme-entry restrictions separate from school admission",
+    "campus": "Hoboken",
+    "access": "html-read",
+    "quote": "Bachelor of Engineering",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "engineering": "Mechanical Engineering, BE",
+        "biology": "Biology, BS",
+        "mathematics": "Mathematics, BS"
+      },
+      "programmeNamesRu": {
+        "engineering": "Машиностроение, BE",
+        "biology": "Биология, BS",
+        "mathematics": "Математика, BS"
+      },
+      "limitations": "Partial list of named bachelor majors; minor/certificate/graduate/degree-completion and unverified campus routes excluded. Pre-health advising is not a Medicine bachelor degree; accelerated Chemical Biology not substituted for the standard Biology programme."
+    }
+  },
+  {
+    "id": "stevens-institute-of-technology",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://www.stevens.edu/school-business/undergraduate-programs",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "first-year undergraduate programme existence; programme-entry restrictions separate from school admission",
+    "campus": "Hoboken",
+    "access": "html-read",
+    "quote": "Explore Our Undergraduate Majors",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "business": "Accounting & Analytics (undergraduate major)",
+        "economics": "Economics (undergraduate major)"
+      },
+      "programmeNamesRu": {
+        "business": "Бухгалтерский учёт и аналитика (основная программа бакалавриата)",
+        "economics": "Экономика (основная программа бакалавриата)"
+      },
+      "limitations": "Partial list of named bachelor majors; minor/certificate/graduate/degree-completion and unverified campus routes excluded. Also explicitly listed: Finance, Quantitative Finance, Business & Technology, Business & Artificial Intelligence, Management, Marketing Innovation & Analytics; no unconfirmed degree suffix assigned."
+    }
+  },
+  {
+    "id": "george-washington-university",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://bulletin.gwu.edu/arts-sciences/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "first-year undergraduate programme existence; programme-entry restrictions separate from school admission",
+    "campus": "Washington, DC",
+    "access": "html-read",
+    "quote": "Undergraduate Majors",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "economics": "Economics, BA/BS",
+        "mathematics": "Mathematics, BA/BS",
+        "biology": "Biology, BA/BS",
+        "psychology": "Psychological and Brain Sciences, BA/BS",
+        "humanities": "History, BA",
+        "arts": "Fine Arts, BFA"
+      },
+      "programmeNamesRu": {
+        "economics": "Экономика, BA/BS",
+        "mathematics": "Математика, BA/BS",
+        "biology": "Биология, BA/BS",
+        "psychology": "Психология и науки о мозге, BA/BS",
+        "humanities": "История, BA",
+        "arts": "Изящные искусства, BFA"
+      },
+      "limitations": "Partial list of named bachelor majors; minor/certificate/graduate/degree-completion and unverified campus routes excluded. Only Major programs list used; combined graduate, certificate and minor sections excluded."
+    }
+  },
+  {
+    "id": "george-washington-university",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://bulletin.gwu.edu/business/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "first-year undergraduate programme existence; programme-entry restrictions separate from school admission",
+    "campus": "Washington, DC",
+    "access": "html-read",
+    "quote": "Undergraduate Programs",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "business": "Accountancy, BS (GWSB)"
+      },
+      "programmeNamesRu": {
+        "business": "Бухгалтерский учёт, BS (GWSB)"
+      },
+      "limitations": "Partial list of named bachelor majors; minor/certificate/graduate/degree-completion and unverified campus routes excluded. School also offers BS majors in Business, Business Analytics, Finance, Information Systems, International Business and others; concentrations are not separate degrees."
+    }
+  },
+  {
+    "id": "marquette-university",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://bulletin.marquette.edu/programs/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "first-year undergraduate programme existence; programme-entry restrictions separate from school admission",
+    "campus": "Milwaukee",
+    "access": "html-read",
+    "quote": "Accounting, BS",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "business": "Accounting, BS",
+        "economics": "Economics, BA",
+        "mathematics": "Mathematics, BS",
+        "biology": "Biological Sciences, BS",
+        "engineering": "Mechanical Engineering, BME"
+      },
+      "programmeNamesRu": {
+        "business": "Бухгалтерский учёт, BS",
+        "economics": "Экономика, BA",
+        "mathematics": "Математика, BS",
+        "biology": "Биологические науки, BS",
+        "engineering": "Машиностроение, BME"
+      },
+      "limitations": "Partial list of named bachelor majors; minor/certificate/graduate/degree-completion and unverified campus routes excluded. Undergraduate Major-labelled rows only. Business Economics BS distinct from Economics BA; Data Science BS is listed, but no extra unrecognised field key added."
+    }
+  },
+  {
+    "id": "wabash-college",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://bulletin.wabash.edu/programsaz/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "first-year undergraduate programme existence; programme-entry restrictions separate from school admission",
+    "campus": "Crawfordsville",
+    "access": "html-read",
+    "quote": "Subject | Major | Minor",
+    "facts": {
+      "academicYear": "2026–2027",
+      "programs": {
+        "economics": "Economics / Financial Economics (bachelor majors)",
+        "mathematics": "Mathematics (bachelor major)",
+        "biology": "Biology (bachelor major)",
+        "psychology": "Psychology (bachelor major)",
+        "humanities": "History (bachelor major)",
+        "arts": "Art (bachelor major)",
+        "social-sciences": "Political Science (bachelor major)"
+      },
+      "programmeNamesRu": {
+        "economics": "Экономика / финансовая экономика (основные программы бакалавриата)",
+        "mathematics": "Математика (основная программа бакалавриата)",
+        "biology": "Биология (основная программа бакалавриата)",
+        "psychology": "Психология (основная программа бакалавриата)",
+        "humanities": "История (основная программа бакалавриата)",
+        "arts": "Искусство (основная программа бакалавриата)",
+        "social-sciences": "Политология (основная программа бакалавриата)"
+      },
+      "limitations": "Partial list of named bachelor majors; minor/certificate/graduate/degree-completion and unverified campus routes excluded. Business, Neuroscience, Global Health, Education Studies and Environmental Studies have no Major tick; not promoted into first-year major filters."
+    }
+  },
+  {
+    "id": "university-of-colorado-boulder",
+    "topic": "instruction-language",
+    "source": "https://www.colorado.edu/oiec/sites/default/files/attached-files/cu_boulder_lep_plan_2022_4.pdf",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "campus instruction policy for degree programmes; foreign-language courses excepted, not an English-test waiver",
+    "campus": "Boulder",
+    "access": "pdf-read",
+    "quote": "with the exception of foreign language courses, CU Boulder courses are generally taught in English",
+    "facts": {
+      "page": 1,
+      "policyDocumentDate": "2022 (current official hosting; policy does not guarantee every individual course)",
+      "scopeType": "campus-instruction-policy",
+      "appliesToFields": [
+        "business",
+        "economics",
+        "mathematics",
+        "biology",
+        "engineering",
+        "psychology",
+        "arts",
+        "computer-science"
+      ],
+      "appliesToProgrammes": {
+        "business": "Business Administration, BSBA",
+        "economics": "Economics, BA",
+        "mathematics": "Mathematics, BS",
+        "biology": "Molecular, Cellular and Developmental Biology, BS",
+        "engineering": "Mechanical Engineering, BSME",
+        "psychology": "Psychology, BA",
+        "arts": "Art Practices, BFA",
+        "computer-science": "Computer Science, B.S."
+      },
+      "profileLanguageNote": {
+        "en": "English — CU Boulder policy says courses are generally taught in English, except foreign-language courses",
+        "ru": "Английский — по политике CU Boulder курсы обычно ведутся на английском, кроме курсов иностранных языков"
+      },
+      "limitations": "Applies only to named non-foreign-language campus bachelor routes; no reciprocity/graduate English-test score imported. PDF text read, screenshot renderer unavailable."
+    }
+  },
+  {
+    "id": "baylor-university",
+    "topic": "programme-catalogue-access-review",
+    "source": "https://catalog.baylor.edu/undergraduate/programs-a-z/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "undergraduate catalogue access; alternate official documents still researched",
+    "campus": "Waco",
+    "access": "bot-check",
+    "quote": null,
+    "facts": null
+  },
+  {
+    "id": "baylor-university",
+    "topic": "programme-catalogue-access-review",
+    "source": "https://catalog.baylor.edu/undergraduate/programs-a-z/programs-a-z.pdf",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "undergraduate catalogue access; alternate official documents still researched",
+    "campus": "Waco",
+    "access": "bot-check",
+    "quote": null,
+    "facts": null
+  },
+  {
+    "id": "george-washington-university",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://bulletin.gwu.edu/engineering-applied-science/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "named undergraduate bachelor major and campus; no promise of direct admission or Fall2027 requirement continuity",
+    "campus": "Washington, DC",
+    "access": "html-read",
+    "quote": "Bachelor's programs",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "engineering": "Mechanical Engineering, BS"
+      },
+      "programmeNamesRu": {
+        "engineering": "Машиностроение, BS"
+      },
+      "limitations": "Only standard Bachelor programme list used, not dual graduate, minor or medical-preparation option."
+    }
+  },
+  {
+    "id": "university-of-tennessee-knoxville",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://tickle.utk.edu/mae/academics/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "named undergraduate bachelor major and campus; no promise of direct admission or Fall2027 requirement continuity",
+    "campus": "Knoxville",
+    "access": "html-read",
+    "quote": "Undergraduate Degrees",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "engineering": "Mechanical Engineering, BS"
+      },
+      "programmeNamesRu": {
+        "engineering": "Машиностроение, BS"
+      },
+      "limitations": "Separate undergraduate BS from MS/PhD/graduate certificate rows."
+    }
+  },
+  {
+    "id": "university-of-tennessee-knoxville",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://haslam.utk.edu/undergraduate/majors-minors/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "named undergraduate bachelor major and campus; no promise of direct admission or Fall2027 requirement continuity",
+    "campus": "Knoxville",
+    "access": "html-read",
+    "quote": "Accounting",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "business": "Accounting (Haslam undergraduate major)"
+      },
+      "programmeNamesRu": {
+        "business": "Бухгалтерский учёт (основная программа бакалавриата Haslam)"
+      },
+      "limitations": "Haslam undergraduate major list also includes Finance and Economics; Business Minor is explicitly separate. Exact degree suffix not assigned from this page."
+    }
+  },
+  {
+    "id": "baylor-university",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://admissions.web.baylor.edu/about-baylor/majors-minors",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "named undergraduate bachelor major and campus; no promise of direct admission or Fall2027 requirement continuity",
+    "campus": "Waco",
+    "access": "html-read",
+    "quote": "Majors & Minors",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "business": "Finance, BBA",
+        "economics": "Economics, BA/BS",
+        "mathematics": "Mathematics, BA/BS",
+        "biology": "Biology, BA/BS",
+        "engineering": "Mechanical Engineering, BSME",
+        "psychology": "Psychology, BA/BS",
+        "humanities": "History, BA"
+      },
+      "programmeNamesRu": {
+        "business": "Финансы, BBA",
+        "economics": "Экономика, BA/BS",
+        "mathematics": "Математика, BA/BS",
+        "biology": "Биология, BA/BS",
+        "engineering": "Машиностроение, BSME",
+        "psychology": "Психология, BA/BS",
+        "humanities": "История, BA"
+      },
+      "limitations": "Official admissions directory read as an ordinary alternative to bot-protected catalogue; only rows with Major=Yes used. Generic Business Administration row is minor-only; Finance BBA is a named major. Economics BA/BS selected separately from business pre-major BBA."
+    }
+  },
+  {
+    "id": "baylor-university",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://admissions.web.baylor.edu/degrees/finance",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "named undergraduate bachelor major and campus; no promise of direct admission or Fall2027 requirement continuity",
+    "campus": "Waco",
+    "access": "html-read",
+    "quote": "Finance",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "business": "Finance, BBA"
+      },
+      "programmeNamesRu": {
+        "business": "Финансы, BBA"
+      },
+      "limitations": "Specific degree page confirms BBA; no eligibility or guaranteed entry invented. Catalogue remains the relevant source for progression details."
+    }
+  },
+  {
+    "id": "yeshiva-university",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://www.yu.edu/academic-advising/undergraduate-men/sheets",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "named undergraduate bachelor major and campus; no promise of direct admission or Fall2027 requirement continuity",
+    "campus": "Yeshiva College, Wilf (men)",
+    "access": "html-read",
+    "quote": "For students coming to campus Fall 2025 and beyond",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "economics": "Economics (Yeshiva College major, Wilf)",
+        "mathematics": "Mathematics — Pure and Applied Mathematics (Yeshiva College major, Wilf)",
+        "biology": "Biology (Yeshiva College major, Wilf)",
+        "psychology": "Psychology (Yeshiva College major, Wilf)",
+        "humanities": "History (Yeshiva College major, Wilf)"
+      },
+      "programmeNamesRu": {
+        "economics": "Экономика (основная программа Yeshiva College, Wilf)",
+        "mathematics": "Математика — чистая и прикладная (основная программа Yeshiva College, Wilf)",
+        "biology": "Биология (основная программа Yeshiva College, Wilf)",
+        "psychology": "Психология (основная программа Yeshiva College, Wilf)",
+        "humanities": "История (основная программа Yeshiva College, Wilf)"
+      },
+      "limitations": "Major section only; minors and pre-engineering partner pathway excluded. No unverified degree suffix assigned.",
+      "programmeEntryNote": {
+        "en": "The named Yeshiva College programmes shown here belong to the Wilf campus undergraduate-men advising list for Fall2025 and beyond. They are not automatically Stern College/Beren or Sy Syms programmes. The Pre-Engineering/Columbia track is a separate partner pathway, not a standalone YU engineering bachelor.",
+        "ru": "Указанные программы Yeshiva College взяты из списка для мужчин кампуса Wilf, поступающих с осени2025 и далее. Они не назначаются автоматически Stern College/Beren или Sy Syms. Траектория Pre-Engineering/Columbia — отдельный партнёрский путь, не самостоятельный инженерный бакалавриат YU."
+      },
+      "profileProgrammeNote": {
+        "en": "The named bachelor programmes are a partial list, not a full catalogue. The verified Computer Science BS belongs to Yeshiva College for Men; the additional Biology, Economics, Mathematics, Psychology and History majors here are also scoped to Yeshiva College/Wilf. Stern College for Women and its programmes are separate: these degrees, campus and conditions are not automatically assigned to Stern or Sy Syms. Undergraduate Torah/Jewish studies requirements and teaching language need programme-specific review. An unlisted field may still exist.",
+        "ru": "Указанные программы бакалавриата составляют частичный список, не полный каталог. Подтверждённая Computer Science BS относится к Yeshiva College for Men; добавленные биология, экономика, математика, психология и история также ограничены Yeshiva College/Wilf. Stern College for Women и её программы рассматриваются отдельно: эти степени, кампус и условия не назначаются автоматически Stern или Sy Syms. Требования по Torah/Jewish studies и язык обучения нужно проверять по конкретной программе. Отсутствующее в списке направление может существовать."
+      }
+    }
   }
 ]
