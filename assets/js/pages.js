@@ -473,8 +473,8 @@
       '<dl class="deflist">' +
         row('Open to international students', yesNo(fr.internationalEligible)) +
         row('Need-based or merit-based', or(U.AWARD_BASIS[fr.basis] || fr.basis)) +
-        row('What it covers', coverRow(fr.covers)) +
-        (fr.available === true ? row('Costs that may remain', remainingCosts(fr.covers)) : '') +
+        row('What it covers', (fr.status === 'conflict' ? '<p class="small muted">The sources disagree on coverage; the individual cost items remain unconfirmed here.</p>' : '') + coverRow(fr.status === 'conflict' ? null : fr.covers)) +
+        (fr.available === true ? row('Costs that may remain', remainingCosts(fr.status === 'conflict' ? null : fr.covers)) : '') +
         row('Renewal', yesNo(fr.renewable) + (has(fr.renewalConditions) ? '<br><span class="small muted">' + esc(fr.renewalConditions) + '</span>' : '')) +
         row('How competitive', or(fr.competitiveness)) +
         row('Application and deadline', or(fr.howToApply)) +
@@ -811,7 +811,7 @@
           '<p class="small muted" style="margin-top:12px">' + (photoList.some(function (g) { return g.source; })
             ? 'No freely licensed photograph of this campus was found, so this one comes from the university’s own website and remains its copyright (©). It may not show the most recent state of the campus.'
             : 'Photographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.') + '</p>'
-        : '<div class="notice notice-info"><span class="ico">🖼️</span><div>No freely licensed photograph of this campus has been found yet, so a placeholder is shown instead.</div></div>' +
+        : '<div class="notice notice-info"><span class="ico">🖼️</span><div>A campus photograph is not available in this profile yet, so a placeholder is shown.</div></div>' +
           '<div style="margin-top:16px;max-width:420px">' + U.mediaBlock(u, 'media-sm') + '</div>') +
       '</section>';
 

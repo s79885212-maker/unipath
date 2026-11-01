@@ -326,6 +326,13 @@ group('profile rendering');
   });
   ok(broken.length === 0, 'all ' + DB.universities.length + ' profiles render without an error', broken.slice(0, 4).join('; '));
   function page(id) { main.innerHTML = ''; P.renderProfile(U.uniById(id)); return main.innerHTML; }
+  var disputedCovers=page('marquette-university').split('<div class="covers">')[1].split('</div>')[0];
+  ok(U.fullRide(U.uniById('marquette-university')).covers.housing===true&&
+     !/cover-yes/.test(disputedCovers)&&/\? Housing/.test(disputedCovers),
+     'conflicting award coverage never receives green item checks, while the source data remains intact');
+  var noPhoto=page('university-of-illinois-urbana-champaign').split('id="photos"')[1].split('</section>')[0];
+  ok(/A campus photograph is not available in this profile yet/.test(noPhoto)&&!/No freely licensed photograph/.test(noPhoto),
+     'a profile placeholder does not claim that no freely licensed candidate photograph was found');
   var masonEnglish = U.uniById('george-mason-university').english;
   var masonEnglishHTML = page('george-mason-university').split('id="english"')[1].split('</section>')[0];
   ok(masonEnglishHTML.split(masonEnglish.note).length === 2 && /College of Engineering/.test(masonEnglishHTML),
