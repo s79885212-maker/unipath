@@ -58,7 +58,13 @@
       "english": "TOEFL, IELTS, DET, ACT or SAT accepted for the stated route; results within two years of intended entry. No first-year numeric English minimum established on this page.",
       "satScope": "If SAT/ACT consideration is selected, the score is used throughout review, not only as English evidence.",
       "documents": "Self-report coursework and examinations; official transcripts only on enrolment.",
-      "scopeCaution": "Fall 2027 TOEFL Home Edition statement appears in transfer section; do not apply it automatically to first-year."
+      "scopeCaution": "Fall 2027 TOEFL Home Edition statement appears in transfer section; do not apply it automatically to first-year.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "Self-report coursework and external examinations when applying. Official transcripts are required only if enrolling; transfer rules are separate.",
+          "ru": "При подаче самостоятельно укажите предметы и внешние экзамены. Официальные табели нужны при зачислении; правила transfer отдельные."
+        }
+      ]
     }
   },
   {
@@ -155,7 +161,13 @@
       "documents": "Secondary transcripts equivalent to US grades 9–12; essay and short answers; programme-specific extras where required.",
       "recommendations": "Up to two, optional.",
       "english": "TOEFL/IELTS/DET if applicable; numeric requirements on a separate page.",
-      "uzbekistan": "Exact qualification and preparatory requirements not established here."
+      "uzbekistan": "Exact qualification and preparatory requirements not established here.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "Secondary school transcripts equivalent to US grades9–12, essay and short answers; additional materials depend on the chosen programme.",
+          "ru": "Школьные табели, соответствующие классам 9–12 США, эссе и короткие ответы; дополнительные материалы зависят от выбранной программы."
+        }
+      ]
     }
   },
   {
@@ -170,7 +182,13 @@
     "quote": "We must receive both the original non-English transcript and the official English translation to complete your application.",
     "facts": {
       "documents": "Official transcripts and graduation credentials establishing progression to higher education. Official translations by school or EducationUSA; original also needed. Unlisted curricula use equivalent US grades 9–12 and relevant leaving exams.",
-      "uzbekistan": "No exact Uzbek qualification established from the portions reviewed."
+      "uzbekistan": "No exact Uzbek qualification established from the portions reviewed.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "Official transcripts and graduation credentials, original non-English records plus official translations by the school/institution or EducationUSA. The separately named Uzbek credential route does not establish lyceum equivalence.",
+          "ru": "Официальные табели и документы об окончании школы, оригиналы и официальные переводы школы/учреждения или EducationUSA. Отдельно названный узбекский школьный документ не устанавливает соответствие диплома лицея."
+        }
+      ]
     }
   },
   {
@@ -228,7 +246,13 @@
       "documents": "STARS or copies of secondary transcripts/marksheets and exams; years 9–11 and courses in progress; graduates supply leaving diploma and final record for years 9–12.",
       "materialsDeadlines": "EA December 1; RD January 24, without cycle year on checklist.",
       "english": "Accepted exams include TOEFL, IELTS, PTE, DET; numeric requirements on separate requirements page.",
-      "uzbekistan": "Exact qualification/grade equivalency not established by general checklist."
+      "uzbekistan": "Exact qualification/grade equivalency not established by general checklist.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "STARS or copies of secondary transcripts/marksheets and examinations: years9–11 and current courses; school graduates supply leaving diploma and final years9–12 record. How an11-year Uzbek record meets this list remains unconfirmed.",
+          "ru": "STARS или копии школьных табелей и экзаменов: годы 9–11 и текущие предметы; выпускники подают диплом окончания и итоговые документы годов 9–12. Соответствие 11-летней узбекской школы этому списку не подтверждено."
+        }
+      ]
     }
   },
   {
@@ -341,7 +365,13 @@
       "deadline": "2026-11-30",
       "timezone": null,
       "documents": "Self-report grades without US conversion; transcripts only if requested during review, official records from each original institution after accepting offer.",
-      "uzbekistan": "Country-context evaluation described; exact Uzbek diploma/subjects/thresholds not established."
+      "uzbekistan": "Country-context evaluation described; exact Uzbek diploma/subjects/thresholds not established.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "Self-report grades as printed without US conversion. Transcripts during review only if requested; after accepting admission, official records from every original institution.",
+          "ru": "Укажите оценки как в оригинале, без перевода в шкалу США. При рассмотрении табели только по запросу; после принятия предложения официальные документы каждого исходного учреждения."
+        }
+      ]
     }
   },
   {
@@ -444,7 +474,13 @@
       },
       "documents": "STARS for first-year except specified South Korean route; non-English documents need literal line-by-line certified translation with original.",
       "uzbekistan": "Specific Uzbek credential equivalence not established; separate country records guidance needs review.",
-      "scope": "No named Fall 2027 SAT cycle stated on this page; no invented SAT statistic or IELTS average."
+      "scope": "No named Fall 2027 SAT cycle stated on this page; no invented SAT statistic or IELTS average.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "First-year STARS reporting; original non-English records plus certified literal line-by-line English translations. Final Uzbekistan-specific document instructions are separate and do not guarantee admission.",
+          "ru": "Самостоятельная отчётность первокурсника STARS; оригиналы неанглийских документов и заверенные дословные построчные переводы. Итоговые инструкции конкретно для Узбекистана отдельные и не гарантируют поступление."
+        }
+      ]
     }
   },
   {
@@ -622,7 +658,13 @@
       "englishMinimum": null,
       "documents": "Final English-translated records from every school; do not self-report grades; university calculates GPA. Complete schooling qualifying for university in home system.",
       "excluded": "Transfer-only IELTS 6.5, SAT EBRW 480 and other transfer requirements are not first-year minimums.",
-      "uzbekistan": "Exact credential, grades and preparatory-study route not stated."
+      "uzbekistan": "Exact credential, grades and preparatory-study route not stated.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "English-translated final records from every school; do not self-report grades. The university evaluates GPA and secondary completion allowing home-country university study.",
+          "ru": "Итоговые документы каждой школы с английским переводом; оценки не вводятся самостоятельно. Университет оценивает GPA и окончание школы, позволяющее учиться в вузе своей страны."
+        }
+      ]
     }
   },
   {
@@ -1013,7 +1055,13 @@
       "exceptions": "New Brunswick Pharmacy/Nursing TOEFL100/5.5 and DET130. Source uses Jan21 vs Jan22 cutoff; preserve its wording, do not silently harmonize.",
       "documents": "Self-report international education in STARS; official records on enrolment; non-English records need professional/qualified translation on letterhead.",
       "uzbekistan": "Exact Uzbek qualification not established.",
-      "waiver": "English-medium-school waiver assessed individually; not automatic."
+      "waiver": "English-medium-school waiver assessed individually; not automatic.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "Self-report international schooling in STARS; official records on enrolment. Non-English records need a qualified professional translation on letterhead.",
+          "ru": "Самостоятельно укажите международное школьное обучение в STARS; официальные документы нужны при зачислении. Для неанглийских документов нужен квалифицированный профессиональный перевод на бланке."
+        }
+      ]
     }
   },
   {
@@ -1444,7 +1492,13 @@
       "satAct": "Optional for admission; separate official English proof still needed; scores younger than2years. Four English-medium years can request a waiver, not automatic.",
       "englishStatistics": "Mid50% IELTS6.5–7.0, TOEFL80–95/4.0–5.0,DET110–120; these are not minima or means. SAT EBRW530–640 is a section, not composite.",
       "documents": "Official last3schoolyears with all courses/marks; original plus English translation, sent by school official.",
-      "rounds": "Annual EA November1; regularMarch15; lateapplications space-available. Decisions January15/April1 are not application deadlines."
+      "rounds": "Annual EA November1; regularMarch15; lateapplications space-available. Decisions January15/April1 are not application deadlines.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "Official records for the last three school years, all courses and marks, original plus English translation, sent by a school official.",
+          "ru": "Официальные документы последних трёх школьных лет со всеми предметами и оценками, оригинал и английский перевод, отправленные сотрудником школы."
+        }
+      ]
     }
   },
   {
@@ -1480,7 +1534,13 @@
       "satAct": "Optional for international first-year admission; no named policy expiry established.",
       "documents": "Equivalent uppersecondary completed, requiredcoursecomponents/exams;34credits recommendedrequiredpreparation listed acrosslanguages/math/science/socialscience. Substitution possible when school does not offer a subject.",
       "english": "Required proof withinlast2years; numeric requirement on separate linked page.",
-      "uzbekistan": "No exact Uzbek diploma established; do not use Kazakhstan/Kyrgyzstan/Russia table as Uzbekistan equivalence."
+      "uzbekistan": "No exact Uzbek diploma established; do not use Kazakhstan/Kyrgyzstan/Russia table as Uzbekistan equivalence.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "Complete equivalent upper-secondary education and applicable preparation/examinations. Course expectations and possible substitutions depend on the school system; exact Uzbek qualification/subject equivalence is unconfirmed.",
+          "ru": "Завершите эквивалент старшей школы и применимую подготовку/экзамены. Ожидания по предметам и возможные замены зависят от школьной системы; точное соответствие узбекского документа и предметов не подтверждено."
+        }
+      ]
     }
   },
   {
@@ -1523,7 +1583,13 @@
         "toeflPostSectionMin": 4.0,
         "detMin": 110
       },
-      "scope": "Conditional pathway IELTS5.0/TOEFL42or3.0/DET80 is separate from direct undergraduate entry. General Uzbek equivalence unconfirmed."
+      "scope": "Conditional pathway IELTS5.0/TOEFL42or3.0/DET80 is separate from direct undergraduate entry. General Uzbek equivalence unconfirmed.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "Official secondary records plus English translations certified by the issuing institution, Ministry or accepted translator. F-1/J-1 proof of funds is a separate financial document.",
+          "ru": "Официальные школьные документы и английские переводы, заверенные выдавшим учреждением, министерством или допустимым переводчиком. Подтверждение средств F-1/J-1 — отдельный финансовый документ."
+        }
+      ]
     }
   },
   {
@@ -1636,7 +1702,13 @@
       },
       "documents": "Officialsecondaryrecords/latestgrades/seniorcourses, directschoolsubmission plus certifiedEnglishtranslation; essayrequired,twolettersoptional.",
       "rounds": "Annual EDNovember1, StorrsgeneralJanuary15; specialprogramsMedicine/Dental/LawNovember1. Regionalcampus datesnotcopied.",
-      "scope": "UCAELI conditional entry distinct from directdegree; waiversexistwithspecificcriteria, notallEnglishschooling automatically."
+      "scope": "UCAELI conditional entry distinct from directdegree; waiversexistwithspecificcriteria, notallEnglishschooling automatically.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "Official secondary records, latest grades and senior courses sent directly by the school, with certified English translations. Essay required; two recommendation letters optional.",
+          "ru": "Официальные школьные документы, последние оценки и предметы выпускного года напрямую от школы, с заверенными английскими переводами. Эссе обязательно; два рекомендательных письма необязательны."
+        }
+      ]
     }
   },
   {
@@ -1668,7 +1740,13 @@
       "satAct": "Optional, superscores ifsubmitted; oldACTscienceformula onpage notinferredas2027policy.",
       "english": "IELTS6.5 with sections6.0; TOEFL80 oldscale printed, no newscale confirmed onreviewed page. Englishpathway/directdistinction stillreview.",
       "documents": "FirstyearSTARSselfreport; officialrecords beforeenrolment. WES/JosefSilnyevaluation statement here belongs TRANSFER, do notrequireitofallfirstyears.",
-      "rounds": "InternationalFall annualMay1application+credentials,June1I20/DS2019; noyearprinted. Domestic/earliermeritdeadlines needseparatereview."
+      "rounds": "InternationalFall annualMay1application+credentials,June1I20/DS2019; noyearprinted. Domestic/earliermeritdeadlines needseparatereview.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "First-year STARS self-report; official school records before enrolment. The WES/Josef Silny evaluation instruction in the transfer section is not a general first-year requirement.",
+          "ru": "Самостоятельная отчётность первокурсника STARS; официальные школьные документы до зачисления. Инструкция оценки WES/Josef Silny в разделе transfer не является общим требованием первокурсника."
+        }
+      ]
     }
   },
   {
@@ -2003,7 +2081,13 @@
       },
       "satAct": "The only dated optional policy is Fall2026; standing checklist says optional except Honors, dated paragraph also excludes accelerated programmes. Fall2027 not established; no current optional inference.",
       "documents": "Official secondary transcript in English or notarized copy; architecture/design portfolio. WES/NACES evaluation statement is in TRANSFER section, not assigned to all first-year students.",
-      "scope": "SAT average1285/ACT26 are enrolling-class statistics with no verified intake year, not minimums."
+      "scope": "SAT average1285/ACT26 are enrolling-class statistics with no verified intake year, not minimums.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "Official secondary transcript in English or accepted notarized copy; architecture/design applicants need a portfolio. The transfer credential-evaluation paragraph is not imposed on all school-only applicants.",
+          "ru": "Официальный школьный табель на английском или допустимая нотариальная копия; для архитектуры/дизайна нужно портфолио. Абзац оценки документов transfer не применяется ко всем абитуриентам только со школой."
+        }
+      ]
     }
   },
   {
@@ -2039,7 +2123,13 @@
       "feeUSD": 50,
       "rounds": "Annual Fall EarlyActionNovember1, RegularDecisioncompletionFebruary1. DepositMay1/housingMay7 separate.",
       "documents": "Evaluate school transcripts/state exams; non-English documents need English translation. Country widget did not expose an Uzbekistan result in text; exact Uzbek qualification remains unconfirmed.",
-      "gpa": "University expects equivalent3.0/4.0, B or83/100; university evaluates foreign scales. No automatic Uzbek GPA conversion or genericminimumassigned."
+      "gpa": "University expects equivalent3.0/4.0, B or83/100; university evaluates foreign scales. No automatic Uzbek GPA conversion or genericminimumassigned.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "School transcripts and state examination results as applicable, with English translations for non-English documents. The country widget did not establish a specific Uzbek credential result.",
+          "ru": "Школьные табели и применимые государственные экзамены, с английскими переводами неанглийских документов. Страновой виджет не установил конкретный результат для узбекской квалификации."
+        }
+      ]
     }
   },
   {
@@ -2096,7 +2186,13 @@
       },
       "rounds": "Annual direct first-year priorityJanuary15; HonorsNovember1; NursingDecember1; conditionalAcademicTransitionsJune1. No intake year established.",
       "documents": "Official secondary/postsecondary records and examinations; IERF evaluation for prior international COLLEGE study, WESnotacceptedthere. Not a blanket WES requirement for school-onlyfirstyear.",
-      "scope": "AcademicTransitions IELTS5.5–6.0/TOEFL65–78 or3–3.5 is conditional. A-UD for TOEFL79–89 is optional support, not conditional and no additionalcost/time. Exact Uzbekschool/lyceumrouteunconfirmed."
+      "scope": "AcademicTransitions IELTS5.5–6.0/TOEFL65–78 or3–3.5 is conditional. A-UD for TOEFL79–89 is optional support, not conditional and no additionalcost/time. Exact Uzbekschool/lyceumrouteunconfirmed.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "Official school records and examinations. IERF evaluation concerns prior international college coursework; it is not a blanket WES requirement for applicants with only school education.",
+          "ru": "Официальные школьные документы и экзамены. Оценка IERF относится к предшествующему международному обучению в колледже; это не общее требование WES для абитуриента только со школьным образованием."
+        }
+      ]
     }
   },
   {
@@ -2222,7 +2318,13 @@
       "satAct": "Optional foradmission, preferredforinternationalfreshmenscholarships, not universallyrequiredforaid.",
       "rounds": "Nofixedapplicationdeadlines, rolling; universityrecommends6–12monthsahead, not amandatorycutoff.",
       "documents": "Uploadschoolrecords/originalandEnglishtranslation; unofficialmayallowinitialdecisiondependingonsystem,officialfinalrequiredafteradmission. USschooldoesnotreplaceoriginalhomecountryrecords.",
-      "scope": "Columbia,Mizzou; notUMKC/UMSL. ExactUzbekattestat/lyceumequivalenceunconfirmed."
+      "scope": "Columbia,Mizzou; notUMKC/UMSL. ExactUzbekattestat/lyceumequivalenceunconfirmed.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "Upload school records in the original language and English translation. Initial unofficial review depends on the school system; final official records are required after admission. US schooling does not replace original home-country records.",
+          "ru": "Загрузите школьные документы в оригинале и английский перевод. Первичное рассмотрение неофициальных документов зависит от школьной системы; после поступления нужны итоговые официальные. Учёба в США не заменяет исходные документы своей страны."
+        }
+      ]
     }
   },
   {
@@ -2268,7 +2370,13 @@
       },
       "rounds": "AnnualFallfirstyearFebruary1; depositMay1or15daysfromacceptance. Source doesnotname2027cycle.",
       "documents": "Independentevaluationofforeignrecords includingGPA forfreshmanANDtransfer;WESpreferred,otherlistedevaluatorsaccepted. Affidavitandbankletterfinancialsupport. ExactUzbekcredentialequivalenceunconfirmed.",
-      "scope": "Directadmission differsfromAuburnGlobalroutewithlowerEnglishproficiency; oldCBT/PBTentriesnotnewTOEFLscale."
+      "scope": "Directadmission differsfromAuburnGlobalroutewithlowerEnglishproficiency; oldCBT/PBTentriesnotnewTOEFLscale.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "Independent evaluation of foreign records, including GPA, applies to international freshmen as well as transfers; WES preferred, other listed evaluators accepted. Financial affidavit and bank letter are separate.",
+          "ru": "Независимая оценка иностранных документов, включая GPA, применяется к международным первокурсникам и transfer; WES предпочтителен, другие перечисленные оценщики допустимы. Финансовый affidavit и банковское письмо отдельные."
+        }
+      ]
     }
   },
   {
@@ -2286,7 +2394,13 @@
       "satAct": "SAT/ACTorCLTusedforadmission; Englishreadiness throughrequiredadmissiontestsubsections, not IELTSrequirement.",
       "english": "TOEFL/IELTSnotrequiredfordirectfirst-time-in-collegeinternationalentry; thisdoesnotwaiveEnglishreadiness. ExactCLTlanguagecomponentthresholdnotestablishedhere.",
       "documents": "Officialsecondaryrecordsfromschool/counselor plusoriginalandofficialEnglishtranslation; completeCommonApp.",
-      "scope": "FallDirectAugust intake separatefromEarlyFallJuneandSpring/pathways. ExactUzbekqualificationsunconfirmed."
+      "scope": "FallDirectAugust intake separatefromEarlyFallJuneandSpring/pathways. ExactUzbekqualificationsunconfirmed.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "Official secondary records from the school/counselor, original and official English translation; complete the Common Application. English readiness uses the required admission-test route, not an inferred IELTS requirement.",
+          "ru": "Официальные школьные документы от школы/консультанта, оригинал и официальный английский перевод; заполните Common Application. Английский подтверждается обязательным маршрутом вступительного экзамена, а не придуманным требованием IELTS."
+        }
+      ]
     }
   },
   {
@@ -2323,7 +2437,13 @@
       "satAct": "SATorACTorCLTrequired, agencyreports, superscores. Do notputSATreading490ascompositemin.",
       "english": "RequiredEnglishproof:SATRW490;ACTEnglish17ANDReading19;CLTVerbalReasoningWriting38. TOEFL/IELTS/DETnotacceptedSUBSTITUTESfortheseroute-specificscores.",
       "documents": "STARSand/orofficialtranscriptsbasedonschooling; finaloriginal/certifiedschoolrecords/examresults andcertifiedEnglishtranslation.",
-      "scope": "SelectedTampaprofile; programme/campusavailabilitynotinferredforallUSFcampuses. Test-dateadvicebeforeDecemberisinhow-toapplypage;confirmforlateradmissionroundratherthaninventexacttestdeadline."
+      "scope": "SelectedTampaprofile; programme/campusavailabilitynotinferredforallUSFcampuses. Test-dateadvicebeforeDecemberisinhow-toapplypage;confirmforlateradmissionroundratherthaninventexacttestdeadline.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "STARS and/or official records depending on schooling; final original or certified school records and examinations, plus certified English translations.",
+          "ru": "STARS и/или официальные документы в зависимости от школы; итоговые оригиналы или заверенные школьные документы и экзамены, плюс заверенные английские переводы."
+        }
+      ]
     }
   },
   {
@@ -2365,7 +2485,13 @@
     "facts": {
       "satAct": "Notusedforadmissionorawards;eligibility/placementseparate.",
       "documents": "SelfreportforeigncourseworkwithoutUSconversion/agencyconversion; noextraacademicdocumentswithUCapplicationunlessrequested;finalofficialrecordsinstructionsafteradmission.",
-      "scope": "Firstyearfallentryonly, secondarycompletionallowinguniversitystudyathome. ExactUzbekdiploma/foundationnotestablished."
+      "scope": "Firstyearfallentryonly, secondarycompletionallowinguniversitystudyathome. ExactUzbekdiploma/foundationnotestablished.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "Self-report foreign coursework as printed, without US-grade or agency conversion. Do not add academic records to the UC application unless requested; final official instructions follow admission.",
+          "ru": "Укажите иностранные предметы как в оригинале, без перевода оценок в США или оценки агентством. Не добавляйте школьные документы к заявке UC без запроса; итоговые официальные инструкции следуют после поступления."
+        }
+      ]
     }
   },
   {
@@ -2650,7 +2776,13 @@
       "fee": 70,
       "sat": "SAT/ACT optional, self-report allowed.",
       "documents": "CommonApp, essay/short answer, one recommendation, transcripts initially unofficial; official on enrolment. Music separate audition.",
-      "identity": "Footer describes public research university since1876."
+      "identity": "Footer describes public research university since1876.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "Common Application, essay/short answer, one recommendation and transcripts. Unofficial transcripts may be used initially; official records on enrolment. Music has a separate audition.",
+          "ru": "Common Application, эссе/короткий ответ, одна рекомендация и табели. Первично допустимы неофициальные табели; при зачислении официальные. У музыки отдельное прослушивание."
+        }
+      ]
     }
   },
   {
@@ -2691,7 +2823,13 @@
       "det": 120,
       "documents": "School records+English translations; unofficial initially; official after confirmation by June30. One recommendation. Waivers case-by-case.",
       "deadlines": "Annual EA Nov15/application and Dec12/supporting documents, RD Feb1. No entry year established.",
-      "uzbekistan": "Exact qualification/grades/subjects/foundation unknown."
+      "uzbekistan": "Exact qualification/grades/subjects/foundation unknown.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "School records and English translations; unofficial initially, official after confirming enrolment. One recommendation; waiver requests assessed individually. Published June30 final-document rule has no confirmed intake year here.",
+          "ru": "Школьные документы и английские переводы; первично неофициальные, официальные после подтверждения зачисления. Одна рекомендация; освобождения оцениваются индивидуально. Опубликованное правило итоговых документов 30 июня здесь без подтверждённого года набора."
+        }
+      ]
     }
   },
   {
@@ -2715,7 +2853,13 @@
       "scope": "DET/Cambridge/PTE admission not placement: ELI110/EPE needed. Conditional English route separate; its math thresholds not global admission minima.",
       "documents": "Official school/ministry records and certified literal English translation. STARS required for US-school applicants, not school outsideUS.",
       "deadlines": "Annual EA appNov1/docsNov15, RD appJan5/docsJan20. Nursing/Architecture useEA. No Fall2027 named.",
-      "identity": "Public, founded1794."
+      "identity": "Public, founded1794.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "Official school/ministry records and certified literal English translation. STARS applies to applicants from US high schools, not automatically to school completed outside the US.",
+          "ru": "Официальные документы школы/министерства и заверенный дословный английский перевод. STARS относится к абитуриентам школ США, а не автоматически к окончившим школу за пределами США."
+        }
+      ]
     }
   },
   {
@@ -2735,7 +2879,13 @@
       "english": "IELTS/TOEFL/DET accepted; numerical minimum unprinted. English-school3years waiver conditional. Page TOEFL change Jan1,2026 wording not corrected by inference.",
       "deadlines": "Yearless EDI Nov15 binding, EA Nov15 first-generation only, EDII Jan1 binding, RD Jan1.",
       "documents": "Atleast4schoolyears certified records and original+Englishtranslation, schoolreport and one recommendation.",
-      "aid": "No need-based aid for foreign nationals; international first-years eligible most merit awards incl Carswell/Gordon/Reynolds/Stamps full-cost competitions. Exact coverage/renewal/largest pending."
+      "aid": "No need-based aid for foreign nationals; international first-years eligible most merit awards incl Carswell/Gordon/Reynolds/Stamps full-cost competitions. Exact coverage/renewal/largest pending.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "Certified records for at least four school years, originals plus English translations, school report and one recommendation.",
+          "ru": "Заверенные документы как минимум четырёх школьных лет, оригиналы и английские переводы, школьный отчёт и одна рекомендация."
+        }
+      ]
     }
   },
   {
@@ -2756,7 +2906,13 @@
       "det": 120,
       "scope": "Source uses Jan26,2026 TOEFL cutoff; discrepancy with established Jan21 noted, old minimum not installed as corrected date.",
       "deadlines": "Yearless EDI Nov1 binding, EDII/RD Jan5; EDIIbinding.",
-      "documents": "CommonApp/Coalition essay and one counselor/teacher recommendation. Exact Uzbek equivalence unconfirmed."
+      "documents": "CommonApp/Coalition essay and one counselor/teacher recommendation. Exact Uzbek equivalence unconfirmed.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "Common Application/Coalition essay and one counselor or teacher recommendation; additional school-record requirements and exact Uzbek qualification must be checked in the linked international instructions.",
+          "ru": "Эссе Common Application/Coalition и одна рекомендация консультанта или учителя; дополнительные школьные документы и точный узбекский документ проверяются по связанным международным инструкциям."
+        }
+      ]
     }
   },
   {
@@ -2793,7 +2949,13 @@
       "det": 105,
       "documents": "Essay, schoolofficialtranscript and2recommendations frominstitution notstudent. STEM recommendedcalculus notgenericadmissionminimum.",
       "statistics": "3.8averageGPA/SAT1380–1505 range notcompositeminimum; exactcohort/percentiles unestablished.",
-      "scope": "SAT550EBRW Englishproof notcompositemin;3USschoolyears waivercasebycase. PreMedicine1400SAT/32ACTwithscience single-sitting only."
+      "scope": "SAT550EBRW Englishproof notcompositemin;3USschoolyears waivercasebycase. PreMedicine1400SAT/32ACTwithscience single-sitting only.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "Essay, official school transcript and two recommendations sent by the institution rather than the student. Recommended calculus preparation is not a universal admission minimum.",
+          "ru": "Эссе, официальный школьный табель и две рекомендации, отправленные учреждением, а не самим студентом. Рекомендуемая подготовка по calculus не является всеобщим минимумом поступления."
+        }
+      ]
     }
   },
   {
@@ -2828,7 +2990,13 @@
       "det": 110,
       "scope": "TOEFLHome/MyBest andIELTSIndicatoraccepted;SAT520EBRW/ACTEnglish20 areEnglishalternatives. Individualholisticreviewpossiblebelowthresholds.",
       "documents": "6semestermarks+prior yearifonly3secondaryyears,original+literaltranslation;unofficialinitial/officialfinal. ECE/WES optionalnotmandatory. Provisionalresultwording internallyinconsistent,verifybeforeenrolment.",
-      "deadlines": "Yearless EDI/EA Nov1, RD Feb1;EDbindingothersnonbinding. AidFall2027BIFAA priorityNov1/finalFeb1 differswithinotherofficialpage."
+      "deadlines": "Yearless EDI/EA Nov1, RD Feb1;EDbindingothersnonbinding. AidFall2027BIFAA priorityNov1/finalFeb1 differswithinotherofficialpage.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "Six semesters of school marks, plus prior year if secondary school lasts only three years; original and literal translation. Unofficial records initially, final official records later. ECE/WES is optional; provisional-results wording needs individual confirmation.",
+          "ru": "Шесть семестров оценок, плюс предшествующий год при только трёх годах средней школы; оригинал и дословный перевод. Первично неофициальные документы, позже итоговые официальные. ECE/WES необязателен; формулировка о предварительных результатах требует индивидуального подтверждения."
+        }
+      ]
     }
   },
   {
@@ -2895,7 +3063,13 @@
       "det": 120,
       "detSubscore": "115 preferred, not minimum.",
       "documents": "Schoolrecords/examsinitialunofficial,officialbeforeI20andenrolment,exactEnglishtranslation. Credentialevaluationsectioniscollege/universitystudy,notallfirstyearschoolrecords.",
-      "scope": "SAT560English/ACTEnglish24Reading20 areEnglishproof notcomposites. ExactUzbekqualificationunknown."
+      "scope": "SAT560English/ACTEnglish24Reading20 areEnglishproof notcomposites. ExactUzbekqualificationunknown.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "School records and examinations may be unofficial initially; official records before I-20 and enrolment, with exact English translations. College-course evaluation requirements are not general requirements for school-only first-year applicants.",
+          "ru": "Школьные документы и экзамены первично могут быть неофициальными; официальные до I-20 и зачисления, с точным английским переводом. Оценка предметов колледжа не является общим требованием первокурсника только со школьным образованием."
+        }
+      ]
     }
   },
   {
@@ -2930,7 +3104,13 @@
       "toeflPost": null,
       "det": 115,
       "documents": "Officialschoolrecord,ifnotEnglishorHebrewcertifiedtranslation/evaluationNACESapproved;2recommendationspreferoneclergyman,essay/personalstatement/activitylist/interview.",
-      "aid": "Intlmeritandinstitutionalneedconsiderationpossible;USfederal/stateaidunavailable. Largestcoverageunconfirmed."
+      "aid": "Intlmeritandinstitutionalneedconsiderationpossible;USfederal/stateaidunavailable. Largestcoverageunconfirmed.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "Official school record; certified translation/accepted evaluation for records not in English or Hebrew. Two recommendations, preferably including a clergy member, essay/personal statement, activities and interview. College-specific eligibility remains separate.",
+          "ru": "Официальный школьный документ; заверенный перевод/допустимая оценка для документов не на английском или иврите. Две рекомендации, желательно одна от духовного лица, эссе/личное заявление, активности и интервью. Применимость конкретного колледжа отдельная."
+        }
+      ]
     }
   },
   {
@@ -2979,7 +3159,13 @@
       "english": "RecommendedIELTS6.5,oldTOEFL85/new4.5,DET115,PTE57;source explicitly recommends, not unambiguous mandatoryscore cutoffs.",
       "documents": "Officiallast4years(orlast3ifpupil)schoolrecordswithcertifiedEnglishtranslationdirectschool;schoolreport;graduationproofafteroffer;Englishscoresofficial.",
       "funding": "Needaware;24990USDminimumfundingdeclarationfirstyear, NOTgrossCOA/universityannualprice/guaranteednetcost. Degreecostmorethanfirstyear.",
-      "deadlines": "Yearless EDNov15, EADec1, regularJan15;bindingagreementnotread."
+      "deadlines": "Yearless EDNov15, EADec1, regularJan15;bindingagreementnotread.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "Official records for the last four school years, or last three for a current pupil, with certified English translation sent by the school; school report and final graduation proof after an offer. Official English scores separately.",
+          "ru": "Официальные документы последних четырёх школьных лет, либо трёх для текущего ученика, с заверенным английским переводом напрямую от школы; школьный отчёт и итоговое окончание после предложения. Официальные результаты английского отдельно."
+        }
+      ]
     }
   },
   {
@@ -3192,7 +3378,13 @@
       "sat": "ACT/CLT/SAT optional; highestsinglecomposite,no superscore.",
       "documents": "Originalschoolrecords+Englishtranslation,2academicrecommendations,essay/3shortanswers,resume. Internationalevaluationstronglyrecommendednotmandatory;TEC/NACESallowed.",
       "english": "TOEFL/equivalentproofrequired;numericIELTS/TOEFLminimumnotestablishedfrompage.",
-      "uzbekistan": "ExactAttestat/lyceumrequirementsunknown."
+      "uzbekistan": "ExactAttestat/lyceumrequirementsunknown.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "Original school records and English translations, two academic recommendations, essay/short answers and résumé. International credential evaluation is strongly recommended rather than automatically mandatory; TEC/NACES options are listed.",
+          "ru": "Оригинальные школьные документы и английские переводы, две академические рекомендации, эссе/короткие ответы и резюме. Международная оценка настоятельно рекомендуется, а не автоматически обязательна; перечислены варианты TEC/NACES."
+        }
+      ]
     }
   },
   {
@@ -3260,7 +3452,13 @@
       "documents": "Non-US-accreditedsecondaryeducationrequirespaidforeigncredentialevaluation. ExactUzbekqualificationnotestablished.",
       "english": "ApprovedEnglishexamrequiredifprimarylanguageotherthanEnglish;numericthresholdunconfirmed.",
       "conditions": "Minimumage17atstart;ecclesiasticalendorsement/HonorCodestandingandexceptionsprocess;do notsubmitforeligibilityautomatically.",
-      "deadlines": "Policyrequiresallmaterialsbytermdeadlinewithoutpublishingdate."
+      "deadlines": "Policyrequiresallmaterialsbytermdeadlinewithoutpublishingdate.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "Standing BYU policy requires a paid foreign credential evaluation for secondary education not accredited in the US. This does not establish the accepted Uzbek document, foundation route or current-cycle testing waiver.",
+          "ru": "Постоянная политика BYU требует платную оценку иностранного школьного образования без аккредитации США. Это не устанавливает принимаемый узбекский документ, подготовительный маршрут или освобождение от экзаменов текущего цикла."
+        }
+      ]
     }
   },
   {
@@ -3295,7 +3493,13 @@
       "documents": "Eachschoolofficialtranscript+certifiedEnglishtranslation,schoolreport,financesforF1/J1.",
       "fee": "Nonrefundfeeexists,amountnotprinted.",
       "deadlines": "Yearless fallJanuary15;EA/ED/RDroutesmentionedbutindividualdatesrequireseparateverification.",
-      "aid": "Automaticmeritconsiderationnotawardguarantee;largestamountunknown."
+      "aid": "Automaticmeritconsiderationnotawardguarantee;largestamountunknown.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "Official transcript from each school and certified English translation, school report and separate F-1/J-1 financial documentation.",
+          "ru": "Официальный табель каждой школы и заверенный английский перевод, школьный отчёт и отдельные финансовые документы F-1/J-1."
+        }
+      ]
     }
   },
   {
@@ -3333,7 +3537,13 @@
     "facts": {
       "sat": "ScoreOptionalconditionalforCS/Engineering:4mathyears,oneaboveAlgebraIIbysenioryear,equivalentB+all. NoautomaticUzbekmarkconversion.",
       "documents": "Officialoriginalschoolrecords/leavingcertificates+certifiedEnglishtranslation,schoolreport,2recommendationssuggested,essayencouraged,gapenrolmentresume.",
-      "fee": "Paidfeeexists,amountnotverified."
+      "fee": "Paidfeeexists,amountnotverified.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "Official original school records and leaving certificates with certified English translation, school report; two recommendations suggested, essay encouraged, résumé for education gaps as applicable.",
+          "ru": "Официальные оригинальные школьные документы и свидетельства окончания с заверенным английским переводом, школьный отчёт; две рекомендации предлагаются, эссе приветствуется, при применимых перерывах резюме."
+        }
+      ]
     }
   },
   {
@@ -3387,7 +3597,13 @@
       "documents": "Officialschoolrecords+certifiedEnglishtranslation,directschool;finalgraduationrecordafteroffer. Evaluation/Uzbekconditionsneedseparatereview.",
       "deadlines": "YearlessEA Nov1/RDMar1,rollingreview. TemporaryfreeweeksOct19–Nov2,2026notpermanentzero fee.",
       "cost": "54354oncampusannualestimateNOACADEMICYEAR;45008offcampusonlyjuniors/seniors. Notcurrent2027annualCost.",
-      "award": "GlobalExcellence max20500peryear/82000over4;renewGPA2.5continuousfulltimeout-of-statetuition. Meritcompetitive,notguaranteed/netprice;largestnotyetverified."
+      "award": "GlobalExcellence max20500peryear/82000over4;renewGPA2.5continuousfulltimeout-of-statetuition. Meritcompetitive,notguaranteed/netprice;largestnotyetverified.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "Official school records and certified English translations sent directly by the school; final graduation record after an offer. Exact Uzbek equivalence and evaluation requirements remain unconfirmed.",
+          "ru": "Официальные школьные документы и заверенные английские переводы напрямую от школы; итоговое окончание после предложения. Точное соответствие узбекского документа и требования оценки не подтверждены."
+        }
+      ]
     }
   },
   {
@@ -3408,7 +3624,13 @@
       "toeflPost": 4.0,
       "scope": "Englishalternatives SATRW520/ACTEnglish20/CLTverbalgrammar42,notcomposites. Englishpathwayseparate.",
       "deadlines": "YearlessFallAbroadApr1vsInternationalUSinstitutionMay1;citizenshipnotbasis. EAonotherpageDOMESTICnotapplied.",
-      "documents": "InternationalrecordsEnglishliteraltranslation;countrycredentialsunconfirmed,SPARKrulesdiffermixedinternationalwork."
+      "documents": "InternationalrecordsEnglishliteraltranslation;countrycredentialsunconfirmed,SPARKrulesdiffermixedinternationalwork.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "International academic records with literal English translations; SPARK instructions differ for mixed international coursework. Exact Uzbek country credentials are not established.",
+          "ru": "Международные академические документы с дословными английскими переводами; инструкции SPARK различаются при смешанном международном обучении. Точные узбекские квалификации не установлены."
+        }
+      ]
     }
   },
   {
@@ -3424,7 +3646,13 @@
     "facts": {
       "deadlines": "InternationalFallMay1/yearless,notdomesticFeb1.",
       "documents": "Originalallsecondaryrecords+certifiedEnglishtranslation/finalgraduationproofbeforearrival. TECcourseanalysisrequirementpostsecondaryTRANSFERnotuniversalschool-only.",
-      "finances": "F1J1proofyear1fundsdocumentunder6monthsold,notannualcostproof."
+      "finances": "F1J1proofyear1fundsdocumentunder6monthsold,notannualcostproof.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "All original secondary records and certified English translations; final graduation proof before arrival. TEC course-by-course evaluation in the transfer section is not imposed on every school-only first-year applicant.",
+          "ru": "Все исходные школьные документы и заверенные английские переводы; итоговое окончание до приезда. Предметная оценка TEC в разделе transfer не применяется ко всем первокурсникам только со школьным образованием."
+        }
+      ]
     }
   },
   {
@@ -3494,7 +3722,13 @@
       "det": 115,
       "scope": "SAT EBRW560/ACTEnglish22 languagealternativesnotcomposite;newTOEFL1–6notprinted.",
       "documents": "Originalschoolrecords+certifiedschooltranslation/finalaftergraduation.",
-      "deadlines": "YearlessEAOct15/docNov1;HonorsNov15/docDec1;RDDec1/docJan15. Explicit2027SATsectiondoesnotbyitselfdatetheyearlesscalendar."
+      "deadlines": "YearlessEAOct15/docNov1;HonorsNov15/docDec1;RDDec1/docJan15. Explicit2027SATsectiondoesnotbyitselfdatetheyearlesscalendar.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "Original school records and certified school translations; final documents after graduation. English and test-optional2027 rules remain distinct from untranslated yearless application-calendar rows.",
+          "ru": "Оригинальные школьные документы и заверенные школьные переводы; итоговые документы после окончания. Английский и test-optional 2027 отдельны от строк календаря подачи без года."
+        }
+      ]
     }
   },
   {
@@ -3570,7 +3804,13 @@
       "policy": "CatalogstandingFYrequiresSATACT;current2027admissionpageblocked,currentpolicyunsettled.",
       "documents": "Officialallrecords,graduationbeforeterm,Englishproficiencyandcertificationfunding. Pharmacy77/80/6.5EnglishrowsareprofessionalsectionNOTallFY.",
       "deadlines": "YearlessEA Nov15nonbinding,regularpriorityJan15. Predental/prepharmacy/PowellseparateNov15. NotSpring/transfer.",
-      "scope": "Stocktonbachelor,notPacificUniversityOregonandnotgraduateSF/Sacramento."
+      "scope": "Stocktonbachelor,notPacificUniversityOregonandnotgraduateSF/Sacramento.",
+      "publicAdmissionDocuments": [
+        {
+          "en": "Official academic records, graduation before the term, English proficiency and certification of funding. Pharmacy-specific English rows are not a university-wide first-year minimum.",
+          "ru": "Официальные академические документы, окончание школы до семестра, английский и подтверждение финансирования. Специальные строки английского Pharmacy не являются всеобщим минимумом первокурсника."
+        }
+      ]
     }
   },
   {
@@ -13739,6 +13979,105 @@
       "profileProgrammeNote": {
         "en": "Partial verified majors. FIU Biological Sciences explicitly identifies both MMC and Biscayne Bay; check the exact degree location and delivery. The separate BA has an online option and does not establish an on-campus F-1 route. Other programme-campus links remain under review.",
         "ru": "Частичный список проверенных направлений. FIU Biological Sciences прямо указывает MMC и Biscayne Bay; проверяйте точное место и формат конкретного диплома. У отдельного BA есть онлайн-вариант, который не устанавливает очный маршрут F-1. Другие связи программ с кампусами ещё проверяются."
+      }
+    }
+  },
+  {
+    "id": "george-mason-university",
+    "topic": "instruction-language",
+    "source": "https://registrar.gmu.edu/wp-content/uploads/VRF_supp.pdf",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "Registrar statement of language at all campuses/sites; dated2013, not first-year admission rules",
+    "campus": "Fairfax and all Mason campuses/site locations",
+    "access": "pdf-read",
+    "quote": "English is the language of instruction at all Mason campuses and site locations.",
+    "facts": {
+      "page": 1,
+      "scopeType": "campus-instruction-policy",
+      "appliesToFields": [
+        "computer-science",
+        "economics",
+        "biology",
+        "psychology",
+        "engineering"
+      ],
+      "appliesToProgrammes": {
+        "computer-science": "Computer Science, B.S.",
+        "economics": "Economics, BS",
+        "biology": "Biology, BS",
+        "psychology": "Psychology, BA",
+        "engineering": "Mechanical Engineering, BS"
+      },
+      "limitations": "Registrar verification supplement dated13September2013 and currently hosted. All-campus language statement used only for named bachelor programmes; delivery mode and exact class location remain separate. Does not confirm programme admission or future fees.",
+      "profileLanguageNote": {
+        "en": "English — all-campus Registrar statement in the verification supplement dated2013; individual course delivery and programme requirements remain separate",
+        "ru": "Английский — указание всех кампусов регистратора в приложении к подтверждению обучения от 2013; формат отдельных занятий и условия программы отдельные"
+      }
+    }
+  },
+  {
+    "id": "pennsylvania-state-university-university-park",
+    "topic": "instruction-language",
+    "source": "https://www.ed.psu.edu/academics/departments/department-curriculum-and-instruction/graduate/how-to-apply",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "Explicit university language statement hosted on College of Education graduate application page; graduate exam minima not applied to bachelors",
+    "campus": "University Park profile; statement names Penn State",
+    "access": "html-read",
+    "quote": "The language of instruction at Penn State is English.",
+    "facts": {
+      "scopeType": "campus-instruction-policy",
+      "appliesToFields": [
+        "computer-science",
+        "business",
+        "economics",
+        "mathematics",
+        "biology",
+        "engineering",
+        "psychology",
+        "humanities"
+      ],
+      "appliesToProgrammes": {
+        "computer-science": "Computer Science, B.S. — University Park ending campus",
+        "business": "Accounting — BS (Smeal College of Business)",
+        "economics": "Economics — BS (Liberal Arts)",
+        "mathematics": "Mathematics — BS (Eberly College of Science)",
+        "biology": "Biology — BS (Eberly College of Science)",
+        "engineering": "Mechanical Engineering — BS (Engineering)",
+        "psychology": "Psychology — BS (Liberal Arts)",
+        "humanities": "History — BA (Liberal Arts)"
+      },
+      "limitations": "The sentence describes Penn State rather than a foreign prior school. It is used as an institution language statement only for named non-foreign-language bachelor majors. Surrounding graduate TOEFL/IELTS/admission rules are not imported.",
+      "profileLanguageNote": {
+        "en": "English — explicit Penn State instruction-language statement; the source page concerns graduate applications, whose test/admission rules are not applied to these bachelor majors",
+        "ru": "Английский — прямое указание языка обучения Penn State; исходная страница о поступлении в магистратуру, её экзамены и правила не применяются к этим программам бакалавриата"
+      }
+    }
+  },
+  {
+    "id": "new-jersey-institute-of-technology",
+    "topic": "sat-act-cycle",
+    "source": "https://catalog.njit.edu/undergraduate/admissions-financial-aid/admissions/",
+    "verified": "2026-11-02",
+    "intake": "Spring/Fall2027",
+    "category": "General first-year standardised-examination requirements with Honors/accelerated exceptions",
+    "campus": "Newark",
+    "access": "html-read",
+    "quote": "test-optional admission policy for Fall 2026, Spring 2027, and Fall 2027",
+    "facts": {
+      "publicTestingPolicy": {
+        "policy": "conditional",
+        "cycle": "Spring and Fall2027",
+        "scopeQuote": "except for students applying to the Albert Dorman Honors College or accelerated programs",
+        "label": {
+          "en": "Optional except Honors and accelerated programmes —2027",
+          "ru": "Необязательно, кроме Honors и ускоренных программ — 2027"
+        },
+        "note": {
+          "en": "The2026–27 undergraduate catalogue explicitly includes Spring/Fall2027 test-optional admission, with required-test exceptions for Albert Dorman Honors College and accelerated programmes. The older international page still labels its dated paragraph Fall2026; the current catalogue provides the separate2027 basis. English proficiency is a separate requirement. No SAT/ACT minimum is inferred from admitted-student averages.",
+          "ru": "Каталог бакалавриата 2026–27 прямо включает test-optional весны/осени 2027, с обязательными экзаменами для Albert Dorman Honors College и ускоренных программ. Старая международная страница всё ещё подписывает датированный абзац Fall 2026; текущий каталог даёт отдельное основание 2027. Английский — отдельное требование. Минимум SAT/ACT не выводится из средних баллов поступивших."
+        }
       }
     }
   }

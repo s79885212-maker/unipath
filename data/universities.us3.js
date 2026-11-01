@@ -35039,7 +35039,8 @@ window.UNIPATH.universities.push(
       "waiver": null
     },
     "documents": [
-      "Self-report coursework and examinations. For a year11 school system, report completed or in-progress year11 and name the expected diploma in Common App. Official records are required for enrolment; no WES/ECE conversion is requested in these instructions."
+      "Self-report coursework and examinations. For a year11 school system, report completed or in-progress year11 and name the expected diploma in Common App. Official records are required for enrolment; no WES/ECE conversion is requested in these instructions.",
+      "Self-report coursework and external examinations when applying. Official transcripts are required only if enrolling; transfer rules are separate."
     ],
     "recommendations": null,
     "essay": null,
@@ -35491,7 +35492,8 @@ window.UNIPATH.universities.push(
       "verified": "2026-10-31"
     },
     "documents": [
-      "Secondary transcripts equivalent to US grades9–12; admission essay and short answers. Additional materials depend on the chosen major. The exact Uzbek qualification route is not established by these general instructions."
+      "Secondary transcripts equivalent to US grades9–12; admission essay and short answers. Additional materials depend on the chosen major. The exact Uzbek qualification route is not established by these general instructions.",
+      "Secondary school transcripts equivalent to US grades9–12, essay and short answers; additional materials depend on the chosen programme."
     ],
     "recommendations": "Up to two optional recommendations.",
     "essay": null,
@@ -35942,7 +35944,8 @@ window.UNIPATH.universities.push(
       "waiver": null
     },
     "documents": [
-      "Official school records and graduation credentials; original non-English record plus an official translation by the school/institution or EducationUSA. See the Uzbekistan-specific instructions below."
+      "Official school records and graduation credentials; original non-English record plus an official translation by the school/institution or EducationUSA. See the Uzbekistan-specific instructions below.",
+      "Official transcripts and graduation credentials, original non-English records plus official translations by the school/institution or EducationUSA. The separately named Uzbek credential route does not establish lyceum equivalence."
     ],
     "recommendations": null,
     "essay": null,
@@ -36322,7 +36325,8 @@ window.UNIPATH.universities.push(
       "verified": "2026-10-31"
     },
     "documents": [
-      "Self-report international schooling in STARS; official documents are required on enrolment. Non-English records need a qualified professional translation on the translator’s letterhead. Exact Uzbek diploma equivalence is unconfirmed."
+      "Self-report international schooling in STARS; official documents are required on enrolment. Non-English records need a qualified professional translation on the translator’s letterhead. Exact Uzbek diploma equivalence is unconfirmed.",
+      "Self-report international schooling in STARS; official records on enrolment. Non-English records need a qualified professional translation on letterhead."
     ],
     "recommendations": null,
     "essay": null,
@@ -36718,7 +36722,8 @@ window.UNIPATH.universities.push(
       "verified": "2026-10-31"
     },
     "documents": [
-      "Self-report school grades without US conversion. During review, submit transcripts only if requested. After accepting an offer, provide official records from every original institution attended."
+      "Self-report school grades without US conversion. During review, submit transcripts only if requested. After accepting an offer, provide official records from every original institution attended.",
+      "Self-report grades as printed without US conversion. Transcripts during review only if requested; after accepting admission, official records from every original institution."
     ],
     "recommendations": null,
     "essay": null,
@@ -37216,7 +37221,8 @@ window.UNIPATH.universities.push(
       "waiver": null
     },
     "documents": [
-      "Final school records in English from every school attended; do not self-report grades. UGA calculates the GPA."
+      "Final school records in English from every school attended; do not self-report grades. UGA calculates the GPA.",
+      "English-translated final records from every school; do not self-report grades. The university evaluates GPA and secondary completion allowing home-country university study."
     ],
     "recommendations": null,
     "essay": null,
@@ -37636,7 +37642,8 @@ window.UNIPATH.universities.push(
       "verified": "2026-10-31"
     },
     "documents": [
-      "STARS or copies of transcripts/marksheets and examinations for schooling outside the US; include years9–11 and planned courses, or final school record and leaving diploma if graduated. Exact Uzbek equivalence remains open."
+      "STARS or copies of transcripts/marksheets and examinations for schooling outside the US; include years9–11 and planned courses, or final school record and leaving diploma if graduated. Exact Uzbek equivalence remains open.",
+      "STARS or copies of secondary transcripts/marksheets and examinations: years9–11 and current courses; school graduates supply leaving diploma and final years9–12 record. How an11-year Uzbek record meets this list remains unconfirmed."
     ],
     "recommendations": "Ordinary recommendations are not considered. A letter explaining exceptional circumstances is a separate document.",
     "essay": null,
@@ -37971,8 +37978,8 @@ window.UNIPATH.universities.push(
     "initials": "PSP"
   },
   "description": "Verified undergraduate programme: Computer Science, B.S. — University Park ending campus. Admission details below distinguish first-year applicants from transfer students; unverified conditions remain open.",
-  "englishTaught": null,
-  "languageOfInstruction": null,
+  "englishTaught": true,
+  "languageOfInstruction": "English — explicit Penn State instruction-language statement; the source page concerns graduate applications, whose test/admission rules are not applied to these bachelor majors",
   "programs": [
     "computer-science",
     "business",
@@ -37983,7 +37990,16 @@ window.UNIPATH.universities.push(
     "psychology",
     "humanities"
   ],
-  "englishTaughtPrograms": [],
+  "englishTaughtPrograms": [
+    "computer-science",
+    "business",
+    "economics",
+    "mathematics",
+    "biology",
+    "engineering",
+    "psychology",
+    "humanities"
+  ],
   "programNote": "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
   "links": {
     "website": "https://www.psu.edu/",
@@ -38052,7 +38068,8 @@ window.UNIPATH.universities.push(
       "waiver": null
     },
     "documents": [
-      "First-year STARS record plus official final documents after admission; originals and separate certified line-by-line English translations. Follow the Uzbekistan-specific page, whose years9–12 wording remains unresolved for an 11-year school."
+      "First-year STARS record plus official final documents after admission; originals and separate certified line-by-line English translations. Follow the Uzbekistan-specific page, whose years9–12 wording remains unresolved for an 11-year school.",
+      "First-year STARS reporting; original non-English records plus certified literal line-by-line English translations. Final Uzbekistan-specific document instructions are separate and do not guarantee admission."
     ],
     "recommendations": null,
     "essay": null,
@@ -38236,6 +38253,10 @@ window.UNIPATH.universities.push(
     {
       "label": "International aid — reviewed eligibility and limits",
       "url": "https://www.psu.edu/costs-aid/types-of-aid/scholarships/provost-academic-award"
+    },
+    {
+      "label": "Teaching language — official campus statement",
+      "url": "https://www.ed.psu.edu/academics/departments/department-curriculum-and-instruction/graduate/how-to-apply"
     }
   ],
   "verification": {
@@ -38262,7 +38283,7 @@ window.UNIPATH.universities.push(
     "computer-science": {
       "program": "Computer Science, B.S. — University Park ending campus",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "University Park",
       "url": "https://bulletins.psu.edu/undergraduate/colleges/engineering/computer-science-bs/",
       "checked": "2026-10-31"
@@ -38270,7 +38291,7 @@ window.UNIPATH.universities.push(
     "business": {
       "program": "Accounting — BS (Smeal College of Business)",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "University Park — ending campus",
       "url": "https://bulletins.psu.edu/programs/",
       "checked": "2026-11-01"
@@ -38278,7 +38299,7 @@ window.UNIPATH.universities.push(
     "economics": {
       "program": "Economics — BS (Liberal Arts)",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "University Park — ending campus",
       "url": "https://bulletins.psu.edu/programs/",
       "checked": "2026-11-01"
@@ -38286,7 +38307,7 @@ window.UNIPATH.universities.push(
     "mathematics": {
       "program": "Mathematics — BS (Eberly College of Science)",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "University Park — ending campus",
       "url": "https://bulletins.psu.edu/programs/",
       "checked": "2026-11-01"
@@ -38294,7 +38315,7 @@ window.UNIPATH.universities.push(
     "biology": {
       "program": "Biology — BS (Eberly College of Science)",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "University Park — ending campus",
       "url": "https://bulletins.psu.edu/programs/",
       "checked": "2026-11-01"
@@ -38302,7 +38323,7 @@ window.UNIPATH.universities.push(
     "engineering": {
       "program": "Mechanical Engineering — BS (Engineering)",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "University Park — ending campus",
       "url": "https://bulletins.psu.edu/programs/",
       "checked": "2026-11-01"
@@ -38310,7 +38331,7 @@ window.UNIPATH.universities.push(
     "psychology": {
       "program": "Psychology — BS (Liberal Arts)",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "University Park — ending campus",
       "url": "https://bulletins.psu.edu/programs/",
       "checked": "2026-11-01"
@@ -38318,7 +38339,7 @@ window.UNIPATH.universities.push(
     "humanities": {
       "program": "History — BA (Liberal Arts)",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "University Park — ending campus",
       "url": "https://bulletins.psu.edu/programs/",
       "checked": "2026-11-01"
@@ -39153,7 +39174,8 @@ window.UNIPATH.universities.push(
       "verified": "2026-10-31"
     },
     "documents": [
-      "Official records for the most recent three school years, with all courses/grades; original plus English translation, sent directly by a school official."
+      "Official records for the most recent three school years, with all courses/grades; original plus English translation, sent directly by a school official.",
+      "Official records for the last three school years, all courses and marks, original plus English translation, sent by a school official."
     ],
     "recommendations": null,
     "essay": null,
@@ -39489,7 +39511,9 @@ window.UNIPATH.universities.push(
       "waiverAvailableToInternational": null,
       "waiver": null
     },
-    "documents": [],
+    "documents": [
+      "Complete equivalent upper-secondary education and applicable preparation/examinations. Course expectations and possible substitutions depend on the school system; exact Uzbek qualification/subject equivalence is unconfirmed."
+    ],
     "recommendations": null,
     "essay": null,
     "interview": null,
@@ -39818,7 +39842,8 @@ window.UNIPATH.universities.push(
       "verified": "2026-10-31"
     },
     "documents": [
-      "Official school transcripts and an English translation by the school, Ministry of Education or certified translator. F1/J1 applicants must prove financial ability. Studio majors and Music Technology have additional portfolios/essays."
+      "Official school transcripts and an English translation by the school, Ministry of Education or certified translator. F1/J1 applicants must prove financial ability. Studio majors and Music Technology have additional portfolios/essays.",
+      "Official secondary records plus English translations certified by the issuing institution, Ministry or accepted translator. F-1/J-1 proof of funds is a separate financial document."
     ],
     "recommendations": null,
     "essay": null,
@@ -40602,7 +40627,8 @@ window.UNIPATH.universities.push(
       "verified": "2026-10-31"
     },
     "documents": [
-      "Official school record with current/senior courses and latest marks, sent directly by the school; certified English translation if needed. The reviewed country list does not establish an Uzbek diploma route."
+      "Official school record with current/senior courses and latest marks, sent directly by the school; certified English translation if needed. The reviewed country list does not establish an Uzbek diploma route.",
+      "Official secondary records, latest grades and senior courses sent directly by the school, with certified English translations. Essay required; two recommendation letters optional."
     ],
     "recommendations": "Two recommendations are optional; the admission essay is required.",
     "essay": null,
@@ -41048,7 +41074,8 @@ window.UNIPATH.universities.push(
       "verified": "2026-10-31"
     },
     "documents": [
-      "First-year applicants self-report school records in STARS; official records are required before enrolment. WES/Josef Silny instructions on this source concern transfer applicants."
+      "First-year applicants self-report school records in STARS; official records are required before enrolment. WES/Josef Silny instructions on this source concern transfer applicants.",
+      "First-year STARS self-report; official school records before enrolment. The WES/Josef Silny evaluation instruction in the transfer section is not a general first-year requirement."
     ],
     "recommendations": null,
     "essay": null,
@@ -42129,7 +42156,8 @@ window.UNIPATH.universities.push(
       "verified": "2026-10-31"
     },
     "documents": [
-      "Official secondary transcript in English or a notarized copy; first-year Common Application. Exact Uzbek diploma/lyceum equivalence remains unconfirmed."
+      "Official secondary transcript in English or a notarized copy; first-year Common Application. Exact Uzbek diploma/lyceum equivalence remains unconfirmed.",
+      "Official secondary transcript in English or accepted notarized copy; architecture/design applicants need a portfolio. The transfer credential-evaluation paragraph is not imposed on all school-only applicants."
     ],
     "recommendations": null,
     "essay": null,
@@ -42174,16 +42202,20 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not checked for Fall 2027: the only dated optional policy on this source is Fall 2026, with Honors/accelerated-programme exceptions. The standing checklist also names an Honors exception. The previous policy is not carried forward automatically.",
-      "source": "https://www.njit.edu/admissions/how-apply-international-students",
-      "verified": "2026-10-31"
+      "policy": "conditional",
+      "note": "The2026–27 undergraduate catalogue explicitly includes Spring/Fall2027 test-optional admission, with required-test exceptions for Albert Dorman Honors College and accelerated programmes. The older international page still labels its dated paragraph Fall2026; the current catalogue provides the separate2027 basis. English proficiency is a separate requirement. No SAT/ACT minimum is inferred from admitted-student averages.",
+      "source": "https://catalog.njit.edu/undergraduate/admissions-financial-aid/admissions/",
+      "verified": "2026-11-02",
+      "label": "Optional except Honors and accelerated programmes —2027",
+      "cycle": "Spring and Fall2027"
     },
     "act": {
-      "policy": null,
-      "note": "Not checked for Fall 2027: the only dated optional policy on this source is Fall 2026, with Honors/accelerated-programme exceptions. The standing checklist also names an Honors exception. The previous policy is not carried forward automatically.",
-      "source": "https://www.njit.edu/admissions/how-apply-international-students",
-      "verified": "2026-10-31"
+      "policy": "conditional",
+      "note": "The2026–27 undergraduate catalogue explicitly includes Spring/Fall2027 test-optional admission, with required-test exceptions for Albert Dorman Honors College and accelerated programmes. The older international page still labels its dated paragraph Fall2026; the current catalogue provides the separate2027 basis. English proficiency is a separate requirement. No SAT/ACT minimum is inferred from admitted-student averages.",
+      "source": "https://catalog.njit.edu/undergraduate/admissions-financial-aid/admissions/",
+      "verified": "2026-11-02",
+      "label": "Optional except Honors and accelerated programmes —2027",
+      "cycle": "Spring and Fall2027"
     },
     "otherTests": null,
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
@@ -42314,6 +42346,10 @@ window.UNIPATH.universities.push(
     {
       "label": "International aid — reviewed eligibility and limits",
       "url": "https://honors.njit.edu/content/scholarships"
+    },
+    {
+      "label": "First-year documents and testing — reviewed scope",
+      "url": "https://catalog.njit.edu/undergraduate/admissions-financial-aid/admissions/"
     }
   ],
   "verification": {
@@ -42479,7 +42515,8 @@ window.UNIPATH.universities.push(
       "verified": "2026-10-31"
     },
     "documents": [
-      "School transcripts or state examination records, with English translation if needed. The country selector did not expose an Uzbekistan result in the reviewed text; exact equivalence remains unconfirmed."
+      "School transcripts or state examination records, with English translation if needed. The country selector did not expose an Uzbekistan result in the reviewed text; exact equivalence remains unconfirmed.",
+      "School transcripts and state examination results as applicable, with English translations for non-English documents. The country widget did not establish a specific Uzbek credential result."
     ],
     "recommendations": null,
     "essay": null,
@@ -42810,7 +42847,8 @@ window.UNIPATH.universities.push(
       "verified": "2026-10-31"
     },
     "documents": [
-      "Official secondary and postsecondary records/exam results. Prior international college study requires IERF evaluation; WES is not accepted for that evaluation. This is not a blanket evaluation requirement for school-only first-year applicants."
+      "Official secondary and postsecondary records/exam results. Prior international college study requires IERF evaluation; WES is not accepted for that evaluation. This is not a blanket evaluation requirement for school-only first-year applicants.",
+      "Official school records and examinations. IERF evaluation concerns prior international college coursework; it is not a blanket WES requirement for applicants with only school education."
     ],
     "recommendations": null,
     "essay": null,
@@ -43902,7 +43940,9 @@ window.UNIPATH.universities.push(
       "source": "https://admissions.missouri.edu/apply/international/how-to-apply/",
       "verified": "2026-10-31"
     },
-    "documents": [],
+    "documents": [
+      "Upload school records in the original language and English translation. Initial unofficial review depends on the school system; final official records are required after admission. US schooling does not replace original home-country records."
+    ],
     "recommendations": null,
     "essay": null,
     "interview": null,
@@ -44294,7 +44334,8 @@ window.UNIPATH.universities.push(
       "verified": "2026-10-31"
     },
     "documents": [
-      "Foreign records require independent credential evaluation including GPA for both first-year and transfer applicants. WES is preferred; other listed evaluators are allowed. Financial affidavit and supporting bank letter also required. Exact Uzbek equivalence remains unconfirmed."
+      "Foreign records require independent credential evaluation including GPA for both first-year and transfer applicants. WES is preferred; other listed evaluators are allowed. Financial affidavit and supporting bank letter also required. Exact Uzbek equivalence remains unconfirmed.",
+      "Independent evaluation of foreign records, including GPA, applies to international freshmen as well as transfers; WES preferred, other listed evaluators accepted. Financial affidavit and bank letter are separate."
     ],
     "recommendations": null,
     "essay": null,
@@ -44661,7 +44702,9 @@ window.UNIPATH.universities.push(
       "source": "https://admissions.fiu.edu/international/incoming-freshmen/index.html",
       "verified": "2026-10-31"
     },
-    "documents": [],
+    "documents": [
+      "Official secondary records from the school/counselor, original and official English translation; complete the Common Application. English readiness uses the required admission-test route, not an inferred IELTS requirement."
+    ],
     "recommendations": null,
     "essay": null,
     "interview": null,
@@ -45163,7 +45206,9 @@ window.UNIPATH.universities.push(
       "source": "https://www.usf.edu/admissions/international/admission-information/undergraduate/freshmen-how-to-apply.aspx",
       "verified": "2026-10-31"
     },
-    "documents": [],
+    "documents": [
+      "STARS and/or official records depending on schooling; final original or certified school records and examinations, plus certified English translations."
+    ],
     "recommendations": null,
     "essay": null,
     "interview": null,
@@ -45505,7 +45550,8 @@ window.UNIPATH.universities.push(
       "verified": "2026-10-31"
     },
     "documents": [
-      "Report all foreign coursework as printed without US-grade or agency conversion. Do not submit extra academic records with the UC application unless requested. Official final records follow admission instructions."
+      "Report all foreign coursework as printed without US-grade or agency conversion. Do not submit extra academic records with the UC application unless requested. Official final records follow admission instructions.",
+      "Self-report foreign coursework as printed, without US-grade or agency conversion. Do not add academic records to the UC application unless requested; final official instructions follow admission."
     ],
     "recommendations": null,
     "essay": null,
@@ -45860,7 +45906,9 @@ window.UNIPATH.universities.push(
       "source": "https://www.colorado.edu/admissions/process/first-year/apply",
       "verified": "2026-10-31"
     },
-    "documents": [],
+    "documents": [
+      "Common Application, essay/short answer, one recommendation and transcripts. Unofficial transcripts may be used initially; official records on enrolment. Music has a separate audition."
+    ],
     "recommendations": null,
     "essay": null,
     "interview": null,
@@ -46273,7 +46321,8 @@ window.UNIPATH.universities.push(
       "verified": "2026-10-31"
     },
     "documents": [
-      "School transcripts with English translation; unofficial records may complete the application, official copies after confirmation by the yearless June 30 date. One recommendation. Exact Uzbek qualification remains unconfirmed."
+      "School transcripts with English translation; unofficial records may complete the application, official copies after confirmation by the yearless June 30 date. One recommendation. Exact Uzbek qualification remains unconfirmed.",
+      "School records and English translations; unofficial initially, official after confirming enrolment. One recommendation; waiver requests assessed individually. Published June30 final-document rule has no confirmed intake year here."
     ],
     "recommendations": null,
     "essay": null,
@@ -46713,7 +46762,8 @@ window.UNIPATH.universities.push(
       "verified": "2026-10-31"
     },
     "documents": [
-      "Official school/ministry records with certified literal English translation. STARS is required for US-school applicants; applicants schooled outside the US do not complete it. Nursing and Architecture use Early Action dates."
+      "Official school/ministry records with certified literal English translation. STARS is required for US-school applicants; applicants schooled outside the US do not complete it. Nursing and Architecture use Early Action dates.",
+      "Official school/ministry records and certified literal English translation. STARS applies to applicants from US high schools, not automatically to school completed outside the US."
     ],
     "recommendations": null,
     "essay": null,
@@ -47188,7 +47238,9 @@ window.UNIPATH.universities.push(
       "source": "https://admissions.wfu.edu/become-a-deacon/international/",
       "verified": "2026-10-31"
     },
-    "documents": [],
+    "documents": [
+      "Certified records for at least four school years, originals plus English translations, school report and one recommendation."
+    ],
     "recommendations": null,
     "essay": null,
     "interview": null,
@@ -47613,7 +47665,9 @@ window.UNIPATH.universities.push(
       "source": "https://undergraduate.admissions.gwu.edu/apply/international-applicants",
       "verified": "2026-10-31"
     },
-    "documents": [],
+    "documents": [
+      "Common Application/Coalition essay and one counselor or teacher recommendation; additional school-record requirements and exact Uzbek qualification must be checked in the linked international instructions."
+    ],
     "recommendations": null,
     "essay": null,
     "interview": null,
@@ -48054,7 +48108,9 @@ window.UNIPATH.universities.push(
       "source": "https://www.stevens.edu/admission-aid/undergraduate-admissions/first-year-students",
       "verified": "2026-10-31"
     },
-    "documents": [],
+    "documents": [
+      "Essay, official school transcript and two recommendations sent by the institution rather than the student. Recommended calculus preparation is not a universal admission minimum."
+    ],
     "recommendations": null,
     "essay": null,
     "interview": null,
@@ -48443,7 +48499,9 @@ window.UNIPATH.universities.push(
       "source": "https://admissions.web.baylor.edu/ApplyTexas",
       "verified": "2026-10-31"
     },
-    "documents": [],
+    "documents": [
+      "Six semesters of school marks, plus prior year if secondary school lasts only three years; original and literal translation. Unofficial records initially, final official records later. ECE/WES is optional; provisional-results wording needs individual confirmation."
+    ],
     "recommendations": null,
     "essay": null,
     "interview": null,
@@ -48839,7 +48897,9 @@ window.UNIPATH.universities.push(
       "waiverAvailableToInternational": null,
       "waiver": null
     },
-    "documents": [],
+    "documents": [
+      "School records and examinations may be unofficial initially; official records before I-20 and enrolment, with exact English translations. College-course evaluation requirements are not general requirements for school-only first-year applicants."
+    ],
     "recommendations": null,
     "essay": null,
     "interview": null,
@@ -49176,7 +49236,9 @@ window.UNIPATH.universities.push(
       "source": "https://apply.yu.edu/international",
       "verified": "2026-10-31"
     },
-    "documents": [],
+    "documents": [
+      "Official school record; certified translation/accepted evaluation for records not in English or Hebrew. Two recommendations, preferably including a clergy member, essay/personal statement, activities and interview. College-specific eligibility remains separate."
+    ],
     "recommendations": null,
     "essay": null,
     "interview": null,
@@ -49556,7 +49618,8 @@ window.UNIPATH.universities.push(
       "verified": "2026-10-31"
     },
     "documents": [
-      "Official school records from the school, last four years or last three if still enrolled, certified English translation and school report. Recommendation is optional. No self-reported transcripts. Exact Uzbek qualification remains unknown."
+      "Official school records from the school, last four years or last three if still enrolled, certified English translation and school report. Recommendation is optional. No self-reported transcripts. Exact Uzbek qualification remains unknown.",
+      "Official records for the last four school years, or last three for a current pupil, with certified English translation sent by the school; school report and final graduation proof after an offer. Official English scores separately."
     ],
     "recommendations": null,
     "essay": null,
@@ -49953,7 +50016,8 @@ window.UNIPATH.universities.push(
       "verified": "2026-10-31"
     },
     "documents": [
-      "Official grades from every institution, English translations, two academic recommendations, essay and three short answers, activities resume. Exact Uzbek credential equivalence remains unconfirmed."
+      "Official grades from every institution, English translations, two academic recommendations, essay and three short answers, activities resume. Exact Uzbek credential equivalence remains unconfirmed.",
+      "Original school records and English translations, two academic recommendations, essay/short answers and résumé. International credential evaluation is strongly recommended rather than automatically mandatory; TEC/NACES options are listed."
     ],
     "recommendations": null,
     "essay": null,
@@ -50282,7 +50346,9 @@ window.UNIPATH.universities.push(
       "waiverAvailableToInternational": null,
       "waiver": null
     },
-    "documents": [],
+    "documents": [
+      "Standing BYU policy requires a paid foreign credential evaluation for secondary education not accredited in the US. This does not establish the accepted Uzbek document, foundation route or current-cycle testing waiver."
+    ],
     "recommendations": null,
     "essay": null,
     "interview": null,
@@ -50588,7 +50654,9 @@ window.UNIPATH.universities.push(
       "waiver": null,
       "note": "A non-refundable fee is required, but the reviewed international page does not state its amount. Fee-waiver options exist; unknown is not USD0."
     },
-    "documents": [],
+    "documents": [
+      "Official transcript from each school and certified English translation, school report and separate F-1/J-1 financial documentation."
+    ],
     "recommendations": null,
     "essay": null,
     "interview": null,
@@ -50910,8 +50978,8 @@ window.UNIPATH.universities.push(
     "initials": "GM"
   },
   "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. The University of Virginia branch opened in 1957; George Mason became an independent university on 7 April 1972. A single founding date is not selected between these different milestones.",
-  "englishTaught": null,
-  "languageOfInstruction": null,
+  "englishTaught": true,
+  "languageOfInstruction": "English — all-campus Registrar statement in the verification supplement dated2013; individual course delivery and programme requirements remain separate",
   "programs": [
     "computer-science",
     "economics",
@@ -50919,7 +50987,13 @@ window.UNIPATH.universities.push(
     "psychology",
     "engineering"
   ],
-  "englishTaughtPrograms": [],
+  "englishTaughtPrograms": [
+    "computer-science",
+    "economics",
+    "biology",
+    "psychology",
+    "engineering"
+  ],
   "programNote": "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
   "links": {
     "website": "https://www.gmu.edu/",
@@ -50983,7 +51057,9 @@ window.UNIPATH.universities.push(
       "waiverAvailableToInternational": null,
       "waiver": null
     },
-    "documents": [],
+    "documents": [
+      "Official original school records and leaving certificates with certified English translation, school report; two recommendations suggested, essay encouraged, résumé for education gaps as applicable."
+    ],
     "recommendations": null,
     "essay": null,
     "interview": null,
@@ -51214,6 +51290,10 @@ window.UNIPATH.universities.push(
     {
       "label": "International aid — reviewed eligibility and limits",
       "url": "https://www.gmu.edu/international/financial-aid"
+    },
+    {
+      "label": "Teaching language — official campus statement",
+      "url": "https://registrar.gmu.edu/wp-content/uploads/VRF_supp.pdf"
     }
   ],
   "verification": {
@@ -51235,7 +51315,7 @@ window.UNIPATH.universities.push(
     "computer-science": {
       "program": "Computer Science, B.S.",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Fairfax",
       "url": "https://www.gmu.edu/program/computer-science-bs",
       "checked": "2026-10-31"
@@ -51243,7 +51323,7 @@ window.UNIPATH.universities.push(
     "economics": {
       "program": "Economics, BS",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Fairfax",
       "url": "https://catalog.gmu.edu/colleges-schools/humanities-social-sciences/economics/economics-bs/",
       "checked": "2026-11-02"
@@ -51251,7 +51331,7 @@ window.UNIPATH.universities.push(
     "biology": {
       "program": "Biology, BS",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Fairfax",
       "url": "https://catalog.gmu.edu/colleges-schools/science/biology/biology-bs/",
       "checked": "2026-11-02"
@@ -51259,7 +51339,7 @@ window.UNIPATH.universities.push(
     "psychology": {
       "program": "Psychology, BA",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Fairfax",
       "url": "https://catalog.gmu.edu/colleges-schools/humanities-social-sciences/psychology/psychology-ba/",
       "checked": "2026-11-02"
@@ -51267,7 +51347,7 @@ window.UNIPATH.universities.push(
     "engineering": {
       "program": "Mechanical Engineering, BS",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Fairfax",
       "url": "https://catalog.gmu.edu/colleges-schools/engineering-computing/engineering/mechanical/mechanical-engineering-bs/",
       "checked": "2026-11-02"
@@ -51370,7 +51450,9 @@ window.UNIPATH.universities.push(
       "waiverAvailableToInternational": null,
       "waiver": null
     },
-    "documents": [],
+    "documents": [
+      "Official school records and certified English translations sent directly by the school; final graduation record after an offer. Exact Uzbek equivalence and evaluation requirements remain unconfirmed."
+    ],
     "recommendations": null,
     "essay": null,
     "interview": null,
@@ -51705,7 +51787,9 @@ window.UNIPATH.universities.push(
       "source": "https://www.ucf.edu/admissions/undergraduate/international/",
       "verified": "2026-10-31"
     },
-    "documents": [],
+    "documents": [
+      "International academic records with literal English translations; SPARK instructions differ for mixed international coursework. Exact Uzbek country credentials are not established."
+    ],
     "recommendations": null,
     "essay": null,
     "interview": null,
@@ -52033,7 +52117,9 @@ window.UNIPATH.universities.push(
       "source": "https://catalog.udayton.edu/undergraduate/generalinformation/admission/applicationforadmission/",
       "verified": "2026-10-31"
     },
-    "documents": [],
+    "documents": [
+      "All original secondary records and certified English translations; final graduation proof before arrival. TEC course-by-course evaluation in the transfer section is not imposed on every school-only first-year applicant."
+    ],
     "recommendations": null,
     "essay": null,
     "interview": null,
@@ -52444,7 +52530,9 @@ window.UNIPATH.universities.push(
       "source": "https://sc.edu/about/offices_and_divisions/undergraduate_admissions/apply/for_international_students/",
       "verified": "2026-10-31"
     },
-    "documents": [],
+    "documents": [
+      "Original school records and certified school translations; final documents after graduation. English and test-optional2027 rules remain distinct from untranslated yearless application-calendar rows."
+    ],
     "recommendations": null,
     "essay": null,
     "interview": null,
@@ -53110,7 +53198,9 @@ window.UNIPATH.universities.push(
       "waiverAvailableToInternational": null,
       "waiver": null
     },
-    "documents": [],
+    "documents": [
+      "Official academic records, graduation before the term, English proficiency and certification of funding. Pharmacy-specific English rows are not a university-wide first-year minimum."
+    ],
     "recommendations": null,
     "essay": null,
     "interview": null,

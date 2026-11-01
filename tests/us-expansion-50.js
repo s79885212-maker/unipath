@@ -228,8 +228,10 @@ module.exports=function(env){
   ok(uic&&uic.admissions.applicationFee.amount===170&&U.satPolicy(uic)==='optional'&&
      uic.admissions.deadlines[0].dateISO==='2026-11-02'&&uic.english.duolingo.min===120,
      'UIC keeps170USD total,2027 test-optional,November2 deadline and DET120 distinct from UIUC');
-  ok(njit&&njit.academics.sat.policy===null&&/Fall 2026/.test(njit.academics.sat.note)&&/Fall 2027/.test(njit.academics.sat.note),
-     'dated NJIT Fall2026 test policy is not silently extended to Fall2027');
+  ok(njit&&U.satPolicy(njit)==='conditional'&&!U.satNotRequired(njit)&&/2027/.test(njit.academics.sat.cycle)&&
+     /catalog.njit.edu/.test(njit.academics.sat.source)&&/Honors/.test(njit.academics.sat.note)&&
+     sources.some(function(s){return s.id===njit.id&&s.access==='html-read'&&s.facts&&s.facts.publicTestingPolicy&&/Fall2027/.test(s.facts.publicTestingPolicy.cycle);}),
+     'NJIT newly verified2027 catalogue policy keeps Honors/accelerated exceptions; an older2026 page alone still cannot establish the new cycle');
   var cam=U.uniById('rutgers-university-camden');
   ok(cam&&U.ieltsMin(cam)===6.0&&/BS\/DO/.test(U.satLabel(cam))&&/BA\/MD/.test(U.satLabel(nw))&&
      /BA\/BS/.test(cam.programEvidence['computer-science'].program),
@@ -319,6 +321,15 @@ module.exports=function(env){
      !DB.match.annualCost[stevens.id]&&budget(stevens,100000).status==='unknown'&&/federal loans/.test(stevens.costs.note),
      'Stevens previous-year COA keeps the federal-loan-only fee conditional and cannot confirm a Fall2027 budget');
   var wabashAward=U.uniById('wabash-college').scholarships.merit[0];
+  ok(U.uniById('clemson-university').admissions.documents.some(function(d){return /transfer section/.test(d)&&/not a general first-year requirement/.test(d);})&&
+     U.uniById('auburn-university').admissions.documents.some(function(d){return /evaluation/.test(d)&&/freshmen as well as transfers/.test(d);})&&
+     U.uniById('brigham-young-university').admissions.documents.some(function(d){return /paid foreign credential evaluation/.test(d);}),
+     'Displayed first-year records preserve Clemson transfer-only evaluation versus Auburn/BYU applicable evaluation requirements');
+  ok(U.uniById('virginia-tech').admissions.documents.some(function(d){return /11-year Uzbek record/.test(d)&&/unconfirmed/.test(d);})&&
+     U.uniById('university-of-illinois-urbana-champaign').admissions.documents.some(function(d){return /only if enrolling/.test(d);})&&
+     U.englishPrograms(U.uniById('george-mason-university')).includes('computer-science')&&
+     /dated2013/.test(U.uniById('george-mason-university').languageOfInstruction),
+     'School-record reporting and unresolved Uzbek equivalence remain separate; Mason language retains the dated Registrar policy scope');
   var hillInternational=hill.scholarships.merit.find(function(a){return a.id==='hillsdale-international-tuition';});
   ok(hillInternational&&/Up to tuition/.test(hillInternational.amount)&&/not automatically the renewal threshold/.test(hillInternational.renewable)&&
      /off-campus/.test(hillInternational.note)&&hill.scholarships.fullRide.available===null&&
