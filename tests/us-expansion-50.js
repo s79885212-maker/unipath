@@ -198,4 +198,21 @@ module.exports=function(env){
      !DB.match.annualCost[u.id]&&budget(u,100000).status==='unknown';})&&
      U.budgetAmount(merced)===87924&&U.budgetAmount(bing)===56504&&/SEVIS/.test(bing.costs.note)&&/at-home/.test(merced.costs.note),
      'Merced cohort/housing-specific and Binghamton international historical estimates preserve exclusions and never confirm Fall2027 budgets');
+  var sb=U.uniById('university-of-california-santa-barbara'),uga=U.uniById('university-of-georgia'),wis=U.uniById('university-of-wisconsin-madison');
+  ok([sb,uga,wis].every(function(u){return u.costs.status==='previous-cycle'&&U.costArithmetic(u).length===0&&
+     !DB.match.annualCost[u.id]&&budget(u,100000).status==='unknown'&&u.costs.verified==='2026-11-01';})&&
+     U.budgetAmount(sb)===90216&&U.budgetAmount(uga)===52156&&U.tuitionAmount(wis)===44232.12,
+     'UCSB cohort budget, UGA Athens subtotal and Wisconsin base tuition retain historical year, scope, read date and no automatic award deduction');
+  ok(DB.match.annualCost[pmm.id].basis==='tuition'&&DB.match.annualCost[pmm.id].min===46356&&
+     pmm.costs.academicYear==='2027–2028'&&U.tuitionAmount(pmm)===46356&&U.budgetAmount(pmm)===null&&
+     budget(pmm,0).status==='over'&&budget(pmm,46356).status==='fits-tuition'&&budget(pmm,100000).status==='fits-tuition'&&
+     /12–19 credits/.test(DB.match.annualCost[pmm.id].note)&&/330 per semester/.test(DB.match.annualCost[pmm.id].note),
+     'Penn State published2027–28 annual tuition uses University Park first-year load and never becomes full-budget coverage');
+  ok(fresh.every(function(u){return (u.sources||[]).every(function(s){return !/^https:\/\/commons\.wikimedia\.org\//.test(s.url)||/photo candidate/.test(s.label);});}),
+     'Commons candidate metadata is labelled as a not-installed photo source, never an official university admission page');
+  var nw=U.uniById('rutgers-university-newark'),cam=U.uniById('rutgers-university-camden');
+  ok(U.billedAmount(nw)===62049&&U.billedAmount(cam)===62603&&
+     [nw,cam].every(function(u){return u.costs.status==='previous-cycle'&&U.costArithmetic(u).length===0&&
+       !DB.match.annualCost[u.id]&&budget(u,100000).status==='unknown';})&&/School of Arts and Sciences/.test(nw.costs.studentCategory),
+     'Rutgers Newark and Camden preserve separate historical billed estimates, campus/school scope and unknown full international budgets');
 };

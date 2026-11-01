@@ -45,6 +45,9 @@ window.UNIPATH.match = {
   annualCost: {
 
     /* Approved USA +50, reviewed academic-year estimates */
+    "pennsylvania-state-university-university-park": {"currency": "USD", "basis": "tuition", "period": "year", "min": 46356, "max": 46356, "academicYear": "2027–2028", "source": "https://tuition.psu.edu/rates-effective-2027-fall-semester", "verified": "2026-11-01", "note": "2027–28 University Park nonresident first-year/lower-division tuition, 12–19 credits per semester. The university publishes USD46,356 per academic year, not a UniPath multiplication. This is tuition only: student fee USD330 per semester, housing, meals, insurance, books, travel and other charges are additional. Upper-division, other campuses and overload rates differ. Competitive awards are not deducted."},
+
+    /* Approved USA +50, reviewed academic-year estimates */
     "auburn-university": {"min": 39658, "max": 39658, "currency": "USD", "basis": "tuition", "period": "year", "academicYear": "2027–2028", "source": "https://www.auburn.edu/academic/international/isss/cost.php", "verified": "2026-10-31", "note": "Auburn publishes a2027–28 F/J estimate: tuition/feesUSD39,658, living15,000, insurance2,317, total56,975. Its introduction includes transportation but footnote1 explicitly excludes transportation; coverage is inconsistent. Footnote2 separates fall/spring tuition (nine months) and12-month living expenses. DependantsUSD6,000 each and professional fees may add costs. The gross total is not a verified complete budget; no scholarship is deducted."},
 
     /* Approved USA +50, reviewed academic-year estimates */

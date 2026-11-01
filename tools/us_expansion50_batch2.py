@@ -147,6 +147,20 @@ r['costs']=costs('2026–2027',s['source'],'2026-11-01',FY,
   tuition=29840,budget=56504,status='previous-cycle',note=L('Annual 2026–27 budget as of July 2026, subject to change; not a Fall 2027 quote. SEVIS fee is explicitly excluded. Books, travel and personal costs are not itemised in this three-line summary and are not assumed covered. The university-published estimate is not a guaranteed bill or net cost after scholarship.',
     'Годовой бюджет 2026–27 по состоянию на июль 2026, может меняться; не цена осени 2027. SEVIS явно исключён. Книги, дорога и личные расходы в трёхстрочной сводке не расписаны и не считаются покрытыми. Опубликованная университетом оценка — не гарантированный счёт и не остаточная цена после стипендии.'))
 
+r=records[5];s=src(r['id'],'cost-reference')
+r['costs']=costs('2026–2027',s['source'],s['verified'],
+  L('Non-New-Jersey undergraduate, School of Arts and Sciences–Newark base, living on campus','Бакалавр-нерезидент Нью-Джерси, базовые ставки School of Arts and Sciences–Newark, жильё в кампусе'),
+  [(L('Tuition','Обучение'),36831,'billed'),(L('Fees','Сборы'),3275,'billed'),(L('Food and housing','Питание и жильё'),21943,'billed')],
+  L('Previous-cycle three-item total: USD62,049','Итог трёх строк прошлого цикла:62 049USD'),
+  L('USD62,049 excludes additional international expenses','62 049USD без дополнительных международных расходов'),
+  L('Published Newark tuition, fees, food and housing only','Только опубликованные обучение, сборы, питание и жильё Newark'),
+  tuition=36831,billed=62049,status='previous-cycle',note=L('2026–27 academic-year Newark base, not New Brunswick or Camden and not full COA. F-1/J-1 students pay this nonresident rate plus SAF USD500, insurance/health fees, books, travel and other living costs. The SAF period is not stated in this summary and is not guessed. School/programme and housing choices may change charges. No Fall2027 annual cost is assigned.',
+    'База Newark за учебный2026–27, не New Brunswick или Camden и не полная COA. Иностранцы F-1/J-1 платят эту ставку нерезидента плюс SAF500USD, страховку/медицинские сборы, книги, дорогу и прочие расходы. Период SAF в сводке не указан и не угадан. Программа и жильё могут менять счёт. Годовая стоимость осени2027 не назначена.'))
+r=records[0];s=src(r['id'],'cost-business-scope')
+r['costs'].update(source=s['source'],verified=s['verified'],note=L('The official School of Business page lists nonresident full-time tuition USD48,812 for two terms, with international services USD500 per fall/spring term additional. That is one school, not a university-wide quote or a Computer Science rate. Its academic year was not established from the readable body; a search title alone is not used. No comparable annual cost is assigned to this profile.',
+  'Официальная страница School of Business указывает обучение очного нерезидента48 812USD за два семестра и международный сервис500USD за каждый осенний/весенний семестр дополнительно. Это один факультет, не общая цена университета и не ставка Computer Science. Учебный год не установлен по прочитанному тексту; одного названия в поиске недостаточно. Сопоставимая годовая сумма профилю не назначена.'))
+r['links']['cost']=s['source']
+
 # Cost references preserve the exact year, coverage and unresolved contradictions.
 r=records[3]
 r['costs']['note']=L('The international table publishes USD61,156 for nine months: tuition/mandatory fees44,339, housing/food12,431, insurance1,916 and miscellaneous2,470. Its academic year is not established on that table; the domestic page’s2026–27 heading is not transferred. Summer and extra programme/course costs are separate. No comparable Fall2027 annual cost is assigned.',

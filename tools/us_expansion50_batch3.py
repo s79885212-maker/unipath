@@ -120,4 +120,13 @@ r['costs']=costs('2027–2028',s['source'],DAY,FY,[(L('Tuition and fees','Обу
   L('Published estimate; transport coverage conflicts','Опубликованная оценка; противоречие покрытия транспорта'),None,L('Full cost coverage unresolved','Покрытие полной стоимости не разрешено'),tuition=39658,tuition_label=L('Tuition and fees','Обучение и сборы'),status='conflict',note=note)
 r['costs']['conflict']={'text':note}
 annual={r['id']:dict(min=39658,max=39658,currency='USD',basis='tuition',period='year',academicYear='2027–2028',source=s['source'],verified=DAY,note=note)}
+r=records[3];s=src(r['id'],'cost-reference')
+r['costs']=costs('2026–2027',s['source'],s['verified'],
+  L('Non-New-Jersey undergraduate, Camden on-campus estimate','Бакалавр-нерезидент Нью-Джерси, смета Camden с жильём в кампусе'),
+  [(L('Tuition','Обучение'),36831,'billed'),(L('Fees','Сборы'),3829,'billed'),(L('Food and housing','Питание и жильё'),21943,'billed')],
+  L('Previous-cycle three-item total: USD62,603','Итог трёх строк прошлого цикла:62 603USD'),
+  L('USD62,603 for the published2026–27 Camden estimate','62 603USD по опубликованной смете Camden2026–27'),
+  L('Camden tuition, fees, food and housing only','Только обучение, сборы, питание и жильё Camden'),
+  tuition=36831,billed=62603,status='previous-cycle',note=L('This is the Camden section of the official2026–27 campus table, not Newark62,049 or New Brunswick62,782. Programme/school and housing choices can change charges. Books, travel, insurance and other international expenses are not established as included in these three lines. No comparable Fall2027 total is assigned and no award is deducted.',
+    'Это раздел Camden официальной кампусной таблицы2026–27, не Newark62 049 или New Brunswick62 782. Программа/факультет и жильё могут менять счёт. Книги, дорога, страховка и прочие международные расходы не подтверждены как включённые в эти три строки. Сопоставимый итог осени2027 не назначен; награды не вычтены.'))
 finish(records,3,annual)

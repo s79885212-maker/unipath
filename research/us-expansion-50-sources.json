@@ -5649,5 +5649,240 @@
       "asOf": "July2026",
       "annualCost2027": null
     }
+  },
+  {
+    "id": "university-of-wisconsin-madison",
+    "topic": "cost-reference",
+    "source": "https://bursar.wisc.edu/tuition-and-fees/fall-2026-increase",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "undergraduate nonresident historical cost scope; not Fall2027 pricing",
+    "campus": null,
+    "access": "html-read",
+    "quote": "New Full-Time Non-Resident Tuition Rate: $44,232.12",
+    "facts": {
+      "academicYear": "2026–2027",
+      "period": "Academic year explicitly named in total row",
+      "tuition": 44232.12,
+      "segregatedFees": 1699.48,
+      "publishedTuitionFees": 45931.6,
+      "scope": "Nonresident full-time base; Engineering/Business/Nursing differential increases separate",
+      "excluded": "No housing/food/insurance/international services total established",
+      "annualCost2027": null
+    }
+  },
+  {
+    "id": "university-of-california-santa-barbara",
+    "topic": "cost-reference",
+    "source": "https://www.finaid.ucsb.edu/costs-estimated-aid/cost-attendance/ucsb-undergraduate-cost-attendance-budget",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "undergraduate nonresident historical cost scope; not Fall2027 pricing",
+    "campus": null,
+    "access": "html-read",
+    "quote": "2026-2027 - Undergraduate",
+    "facts": {
+      "academicYear": "2026–2027",
+      "cohort": "2026 new freshmen; residence halls",
+      "tuitionStudentServices": 15588,
+      "campusFees": 2085,
+      "books": 1515,
+      "rent": 13203,
+      "food": 10782,
+      "utilities": 0,
+      "transport": 789,
+      "healthcareAllowance": 4008,
+      "personal": 2652,
+      "telephone": 324,
+      "nonresidentSupplement": 39270,
+      "publishedNonresidentTotal": 90216,
+      "scope": "Sample published cohort/housing budget, not every programme or Fall2027 cohort",
+      "annualCost2027": null
+    }
+  },
+  {
+    "id": "university-of-georgia",
+    "topic": "cost-reference",
+    "source": "https://osfa.uga.edu/costs/",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "undergraduate nonresident historical cost scope; not Fall2027 pricing",
+    "campus": null,
+    "access": "html-read",
+    "quote": "Non-resident: Undergraduate (Fall 2026 & Spring 2027)",
+    "facts": {
+      "academicYear": "2026–2027",
+      "campus": "Athens standard undergraduate programmes",
+      "scope": "Nonresident on-campus full-time estimate; alternative programmes/housing separate",
+      "tuition": 31804,
+      "fees": 1494,
+      "housing": 7722,
+      "food": 4718,
+      "publishedDirectSubtotal": 45738,
+      "booksMaterials": 978,
+      "transport": 2150,
+      "misc": 3290,
+      "publishedCOA": 52156,
+      "exclusions": "Insurance not separately itemised; East Campus Village adds1376/year housing",
+      "annualCost2027": null
+    }
+  },
+  {
+    "id": "virginia-tech",
+    "topic": "cost-reference-html-only",
+    "source": "https://finaid.vt.edu/undergraduate/coa.html",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "undergraduate nonresident historical cost scope; not Fall2027 pricing",
+    "campus": null,
+    "access": "html-read",
+    "quote": "Cost of Attendance Estimate 2026-2027",
+    "facts": {
+      "availableHTML": "Separate in-state/out-of-state and on/off-campus/living-with-parent links for2026–27; amount tables are linked documents",
+      "numbers": null,
+      "note": "Numeric document tables not reviewed here; do not infer costs from in-state example, graduate page or scholarship.2027–28 comparable amount remains unconfirmed."
+    }
+  },
+  {
+    "id": "pennsylvania-state-university-university-park",
+    "topic": "cost-current-tuition",
+    "source": "https://tuition.psu.edu/rates-effective-2027-fall-semester",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "first-year bachelor costs; campus, period and category stated in facts",
+    "campus": null,
+    "access": "html-read",
+    "quote": "Freshmen & Sophomore",
+    "facts": {
+      "academicYear": "2027–2028",
+      "campus": "University Park",
+      "category": "Non-Pennsylvania lower-division freshmen/sophomores",
+      "publishedAnnualTuition": 46356,
+      "publishedSemesterTuition": 23178,
+      "partTimePerCredit": 1932,
+      "load": "12–19 credits flat rate; above19 adds per credit; under12 per credit",
+      "scope": "Not upper-division/graduate/other campuses; not full COA; no aid deducted"
+    }
+  },
+  {
+    "id": "pennsylvania-state-university-university-park",
+    "topic": "cost-residency-year",
+    "source": "https://tuition.psu.edu/tuition-schedules",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "first-year bachelor costs; campus, period and category stated in facts",
+    "campus": null,
+    "access": "html-read",
+    "quote": "Non-Pennsylvania (includes International)",
+    "facts": {
+      "academicYear": "2027–2028",
+      "scope": "Fall/Spring2027–28 University Park Non-PA schedule includes international students"
+    }
+  },
+  {
+    "id": "pennsylvania-state-university-university-park",
+    "topic": "cost-fee-current",
+    "source": "https://tuition.psu.edu/2027-28-student-initiated-fee-semester",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "first-year bachelor costs; campus, period and category stated in facts",
+    "campus": null,
+    "access": "html-read",
+    "quote": "University Park",
+    "facts": {
+      "academicYear": "2027–2028",
+      "feePerSemester": 330,
+      "load": "9 or more credits",
+      "includedInTuition": false,
+      "fullCOA": "Not established by fee table"
+    }
+  },
+  {
+    "id": "pennsylvania-state-university-university-park",
+    "topic": "cost-budget-approval",
+    "source": "https://www.psu.edu/news/administration/story/board-trustees-approves-2027-28-budget-and-tuition-plan",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "first-year bachelor costs; campus, period and category stated in facts",
+    "campus": null,
+    "access": "html-read",
+    "quote": "Last Updated July 17, 2026",
+    "facts": {
+      "academicYear": "2027–2028",
+      "publication": "Editor note confirms board approved2027–28 budget and tuition schedules at July17meeting; lastupdatedJuly17,2026",
+      "scope": "Approval context; use actual tuition schedule for amounts, not projected percentage calculations"
+    }
+  },
+  {
+    "id": "rutgers-university-newark",
+    "topic": "cost-reference",
+    "source": "https://admissions.newark.rutgers.edu/costs-and-aid/tuition-fees",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "first-year bachelor costs; campus, period and category stated in facts",
+    "campus": null,
+    "access": "html-read",
+    "quote": "Rutgers University–Newark",
+    "facts": {
+      "academicYear": "2026–2027",
+      "category": "Non-New-Jersey on-campus School of Arts and Sciences Newark base",
+      "tuition": 36831,
+      "fees": 3275,
+      "housingFood": 21943,
+      "publishedTotal": 62049,
+      "notTotalCOA": true,
+      "extras": "F1/J1 SAF500, insurance, health services, books, travel and other living costs additional; varies by school/housing",
+      "annualCost2027": null
+    }
+  },
+  {
+    "id": "rutgers-university-camden",
+    "topic": "cost-reference",
+    "source": "https://admissions.newark.rutgers.edu/costs-and-aid/tuition-fees",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "first-year bachelor costs; campus, period and category stated in facts",
+    "campus": null,
+    "access": "html-read",
+    "quote": "Rutgers University–Camden",
+    "facts": {
+      "academicYear": "2026–2027",
+      "category": "Non-New-Jersey on-campus Camden estimate",
+      "tuition": 36831,
+      "fees": 3829,
+      "housingFood": 21943,
+      "publishedTotal": 62603,
+      "scope": "Separate Camden category, not Newark62049 or NewBrunswick62782; school/campus/programme variation and other expenses remain",
+      "annualCost2027": null
+    }
+  },
+  {
+    "id": "university-of-california-irvine",
+    "topic": "cost-reference-unavailable",
+    "source": "https://www.ofas.uci.edu/cost/undergraduate-costs/new-students.php",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "first-year bachelor costs; campus, period and category stated in facts",
+    "campus": null,
+    "access": "403",
+    "quote": null,
+    "facts": null
+  },
+  {
+    "id": "university-of-pittsburgh",
+    "topic": "cost-business-scope",
+    "source": "https://www.tuition.pitt.edu/undergraduate/tuition/pittsburgh/school-business",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "first-year bachelor costs; campus, period and category stated in facts",
+    "campus": null,
+    "access": "html-read",
+    "quote": "School of Business Cost of Attendance",
+    "facts": {
+      "scope": "School of Business only; body does not establish academic year, search title alone not used for year",
+      "twoTermNonresidentTuition": 48812,
+      "internationalServiceFee": "500 per fall/spring term, additional to mandatory fees",
+      "application": "No university-wide amount or comparable Fall2027 annualCost assigned from one school"
+    }
   }
 ]

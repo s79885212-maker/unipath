@@ -8,6 +8,7 @@ from ca50_gaps import load, save
 from us200 import R, test, eng, toefl, fee, costs
 from us200_std import L, flush
 from newrec import nice
+from us_expansion50_common import write_annual
 
 ROOT=pathlib.Path(__file__).resolve().parent.parent
 DAY='2026-10-31'
@@ -83,7 +84,7 @@ def historical_cost(r,topic,items,total=None,hi=None,billed=None,note=None):
     s=source(r['id'],topic)
     headline=L('2026–2027 published cost reference — not a 2027–2028 quote',
                'Опубликованный ориентир стоимости 2026–2027 — не цена на 2027–2028')
-    c=costs('2026–2027',s['source'],DAY,FY,items,headline,headline,PREVIOUS,
+    c=costs('2026–2027',s['source'],s['verified'],FY,items,headline,headline,PREVIOUS,
             billed=billed,budget=total,budget_max=hi,status='previous-cycle',note=L(
                 str(PREVIOUS)+' '+note[0],str(PREVIOUS.ru)+' '+note[1]) if note else PREVIOUS)
     c['period']='year'; r['costs']=c; r['links']['cost']=s['source']
@@ -127,7 +128,8 @@ for target, cfg in zip(targets,configs):
     r['sources']=[]
     for s in read:
         if any(a['url']==s['source'] for a in r['sources']): continue
-        r['sources'].append(dict(label=L('Official university page','Официальная страница университета'),url=s['source']))
+        label=L('Campus photo candidate — file and licence, not installed','Кандидат фото кампуса — файл и лицензия, снимок не установлен') if s['topic'] in ('photo-candidate','campus-photo-candidate') else L('Official university page','Официальная страница университета')
+        r['sources'].append(dict(label=label,url=s['source']))
     new.append(r)
 
 for r in new:
@@ -268,6 +270,59 @@ d=event(L('Accelerated Premedical-Medical BS/MD — closed','Ускоренна�
 d.update(appliesTo=L('Current school seniors applying to the accelerated PMM programme only','Только выпускной класс школы и ускоренная программа PMM'),note=pmm_note)
 r['admissions']['deadlines'].append(d)
 
+# Additional published historical references: no Fall2027 comparison is inferred.
+r=new[4]
+historical_cost(r,'cost-reference',
+    [(L('Nonresident base tuition','Базовое обучение нерезидента'),44232.12,'billed'),
+     (L('Segregated fees','Университетские сборы segregated fees'),1699.48,'billed')],
+    note=('The official annual 2026–27 base tuition and segregated fee total is USD45,931.60. Engineering, Business and Nursing have separate differential increases. This is not a total cost of attendance or a complete international invoice; housing, meals, insurance and any international charges are not established here.',
+          'Официальный годовой базовый итог обучения и segregated fees 2026–27 —45 931,60USD. Для Engineering, Business и Nursing отдельно увеличены доплаты. Это не полная COA и не полный международный счёт: жильё, питание, страховка и дополнительные международные сборы здесь не установлены.'))
+r['costs']['breakdown']['tuition']=44232.12
+r['costs']['studentCategory']=L('Full-time nonresident undergraduate, base rate before programme differentials','Очный бакалавр-нерезидент, базовая ставка до доплат программы')
+r=new[6]
+historical_cost(r,'cost-reference',
+    [(L('Tuition and student services fee','Обучение и student services fee'),15588,'billed'),
+     (L('Campus-based fees','Кампусные сборы'),2085,'billed'),
+     (L('Additional nonresident tuition','Дополнительная плата нерезидента'),39270,'billed'),
+     (L('Books and supplies','Книги и материалы'),1515,'estimate'),(L('Rent','Жильё'),13203,'estimate'),
+     (L('Food','Питание'),10782,'estimate'),(L('Utilities','Коммунальные услуги'),0,'estimate'),
+     (L('Transportation','Транспорт'),789,'estimate'),(L('Health care allowance','Смета медицинских расходов'),4008,'estimate'),
+     (L('Personal expenses','Личные расходы'),2652,'estimate'),(L('Telephone / cell phone','Телефон / мобильная связь'),324,'estimate')],total=90216,
+    note=('Published sample budget for the 2026 cohort in residence halls, nonresident, 2026–27. This is not the Fall2027 cohort or every housing/programme option. Health care is an allowance; utilities USD0 is explicitly printed for this sample only. The combined tuition/student-services line is not treated as a tuition-only quote. No scholarship is deducted.',
+          'Опубликованная примерная смета нерезидента набора2026 в общежитии за2026–27. Это не набор осени2027 и не все варианты жилья/программ. Медицинская строка — сметная оценка; коммунальные0USD прямо напечатаны только для этого примера. Совмещённая строка tuition/student services не принята за цену только обучения. Стипендии не вычтены.'))
+r['costs']['studentCategory']=L('Nonresident new undergraduate, 2026 cohort, university residence halls','Новый бакалавр-нерезидент набора2026, университетское общежитие')
+r=new[7]
+historical_cost(r,'cost-reference',
+    [(L('Tuition','Обучение'),31804,'billed'),(L('Fees','Сборы'),1494,'billed'),
+     (L('Housing','Жильё'),7722,'billed'),(L('Food','Питание'),4718,'billed'),
+     (L('Books, materials, supplies and equipment','Книги, материалы и оборудование'),978,'estimate'),
+     (L('Transportation','Транспорт'),2150,'estimate'),(L('Miscellaneous living expenses','Прочие расходы на жизнь'),3290,'estimate')],total=52156,billed=45738,
+    note=('Athens standard undergraduate programmes, nonresident, on campus, Fall2026 plus Spring2027. East Campus Village housing adds USD1,376 for that year. Insurance is not separately itemised here. Other programme and housing categories differ. Foundation Fellowship is competitive; neither its maximum stipend nor its tuition waiver is automatically deducted.',
+          'Стандартные программы бакалавриата Athens, нерезидент, в кампусе, осень2026 плюс весна2027. Жильё East Campus Village добавляет1 376USD за этот год. Страховка отдельно здесь не расписана. Другие категории программ и жилья отличаются. Foundation Fellowship — конкурс; ни максимальный stipend, ни освобождение от tuition автоматически не вычитаются.'))
+r['costs']['breakdown']['tuition']=31804
+r['costs']['studentCategory']=L('Standard Athens undergraduate, nonresident, living on campus','Стандартный бакалавриат Athens, нерезидент, проживание в кампусе')
+r=new[8];s=source(r['id'],'cost-reference-html-only')
+r['costs'].update(source=s['source'],verified=s['verified'],note=L('The official cost page links separate 2026–27 in-state/out-of-state and housing-category tables. Numeric tables require further document review; no amount is inferred from an in-state example, graduate costs or an award. A comparable 2027–28 annual cost remains unconfirmed.',
+    'Официальная страница ведёт на отдельные таблицы2026–27 для резидентов/нерезидентов и вариантов проживания. Числовые таблицы требуют дальнейшего чтения документов; сумма не выведена из примера резидента, graduate-стоимости или награды. Сопоставимая годовая цена2027–28 не подтверждена.'))
+
+# A published annual tuition row needs no guessed multiplication of a semester.
+r=new[9];s=source(r['id'],'cost-current-tuition')
+psu_cost_scope=L('2027–28 University Park nonresident first-year/lower-division tuition, 12–19 credits per semester. The university publishes USD46,356 per academic year, not a UniPath multiplication. This is tuition only: student fee USD330 per semester, housing, meals, insurance, books, travel and other charges are additional. Upper-division, other campuses and overload rates differ. Competitive awards are not deducted.',
+    'Обучение 2027–28 в University Park для нерезидента первого курса/lower division, 12–19 кредитов за семестр. Университет публикует 46 356 USD за учебный год, это не умножение UniPath. Только обучение: сбор студента 330 USD за семестр, жильё, питание, страховка, книги, дорога и прочие расходы дополнительно. Старшие курсы, другие кампусы и перегрузка оплачиваются иначе. Конкурсные награды не вычтены.')
+r['costs']=costs('2027–2028',s['source'],s['verified'],
+    L('Non-Pennsylvania (including international), University Park freshmen/lower division, 12–19 credits per semester','Нерезидент Пенсильвании (включая иностранцев), первокурсник/lower division University Park, 12–19 кредитов за семестр'),
+    [(L('Published annual tuition','Опубликованное годовое обучение'),46356,'billed')],
+    L('Published 2027–28 annual tuition: USD46,356','Опубликованное годовое обучение 2027–28: 46 356 USD'),
+    L('Tuition only — full cost of attendance not established','Только обучение — полная стоимость COA не установлена'),
+    L('University Park nonresident lower-division base tuition','Базовое обучение нерезидента lower division в University Park'),tuition=46356,status='confirmed',note=psu_cost_scope)
+r['costs']['period']='year';r['links']['cost']=s['source']
+current_annual={r['id']:dict(currency='USD',basis='tuition',period='year',min=46356,max=46356,academicYear='2027–2028',source=s['source'],verified=s['verified'],note=psu_cost_scope)}
+
+r=new[1];s=next(x for x in evidence if x['id']==r['id'] and x['topic']=='cost-reference-unavailable')
+r['costs'].update(source=s['source'],verified=s['verified'],note=L('The separate UCI financial-aid new-student cost page could not be read (403). No amount or 2027–28 year is inferred from a search result or another Irvine institution. Current costs remain unconfirmed; this does not mean that the university has not published them.',
+    'Отдельная страница стоимости для новых студентов финансового отдела UCI не прочитана (403). Сумма и год2027–28 не выведены из поиска или другого учреждения Irvine. Текущая стоимость не подтверждена; это не означает, что университет её не опубликовал.'))
+r['links']['cost']=s['source']
+
 # Country-specific documents supplement the general route, without turning a
 # named final credential into a guaranteed admission/foundation equivalence.
 for r in (new[4],new[9]):
@@ -315,5 +370,6 @@ for e in registry['entries'][:10]:
     e['topics']['photo']='not-yet-researched-placeholder'
     e['unresolved']=['Full programme coverage and instruction language','Exact Uzbek credentials and conditions','Campus photo/licence','Remaining cost, award, identity and application fields; see profile and sources']
 registry_path.write_text(json.dumps(registry,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+write_annual(current_annual,batchids)
 flush()
-print('Appended first approved ten; explicit unknowns retained. No annualCost added from previous-cycle prices.')
+print('Rebuilt first approved ten; historical costs excluded, current annual tuition keeps its scope.')

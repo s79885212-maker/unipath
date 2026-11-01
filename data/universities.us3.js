@@ -34248,7 +34248,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.ucdavis.edu/about"
     },
     {
-      "label": "Official university page",
+      "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:University_of_California,_Davis_campus_1_2024-03-26.jpg"
     }
   ],
@@ -34317,7 +34317,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": null,
     "programs": "https://catalogue.uci.edu/donaldbrenschoolofinformationandcomputersciences/departmentofcomputerscience/computerscience_bs/",
-    "cost": null
+    "cost": "https://www.ofas.uci.edu/cost/undergraduate-costs/new-students.php"
   },
   "admissions": {
     "platforms": [
@@ -34418,7 +34418,9 @@ window.UNIPATH.universities.push(
     "items": [],
     "billedSubtotal": null,
     "totalText": null,
-    "note": null
+    "note": "The separate UCI financial-aid new-student cost page could not be read (403). No amount or 2027–28 year is inferred from a search result or another Irvine institution. Current costs remain unconfirmed; this does not mean that the university has not published them.",
+    "source": "https://www.ofas.uci.edu/cost/undergraduate-costs/new-students.php",
+    "verified": "2026-11-01"
   },
   "scholarships": {
     "fullRide": {
@@ -34483,7 +34485,7 @@ window.UNIPATH.universities.push(
       "url": "https://uci.edu/about/"
     },
     {
-      "label": "Official university page",
+      "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:Aldrich_Park,_UCI.jpg"
     }
   ],
@@ -34820,7 +34822,7 @@ window.UNIPATH.universities.push(
       "url": "https://illinois.edu/about/"
     },
     {
-      "label": "Official university page",
+      "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:Foellinger_Auditorium_-_UIUC_-_DSC09127.JPG"
     }
   ],
@@ -35129,7 +35131,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.utexas.edu/about-texas"
     },
     {
-      "label": "Official university page",
+      "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:University_of_texas_at_austin_main_building_2014.jpg"
     }
   ],
@@ -35199,7 +35201,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": null,
     "programs": "https://guide.wisc.edu/undergraduate/letters-science/computer-sciences/computer-sciences-bs/",
-    "cost": null
+    "cost": "https://bursar.wisc.edu/tuition-and-fees/fall-2026-increase"
   },
   "admissions": {
     "platforms": [],
@@ -35414,14 +35416,33 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Uzbekistan: current pupils submit official years8–10 transcripts and later the Attestat O’rta Ma’lumot To’g’risida Shahodtnoma (Certificate of Completed Upper Secondary Education); school graduates submit official years8–11 transcripts and that Attestat. Original documents and official English translation are required. Separate academic lyceum equivalence, minimum grades/subjects and any foundation requirement remain unconfirmed; this is not an admission guarantee."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": "Previous available cost year: 2026–2027. These figures are not confirmed prices for Fall 2027 entrants or 2027–2028 and are not used to confirm a budget match. Competitive scholarships have not been deducted.",
+      "tuition": 44232.12
+    },
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "Full-time nonresident undergraduate, base rate before programme differentials",
+    "source": "https://bursar.wisc.edu/tuition-and-fees/fall-2026-increase",
+    "verified": "2026-11-01",
+    "headline": "2026–2027 published cost reference — not a 2027–2028 quote",
+    "items": [
+      {
+        "label": "Nonresident base tuition",
+        "group": "billed",
+        "amount": 44232.12
+      },
+      {
+        "label": "Segregated fees",
+        "group": "billed",
+        "amount": 1699.48
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "totalText": "2026–2027 published cost reference — not a 2027–2028 quote",
+    "note": "Previous available cost year: 2026–2027. These figures are not confirmed prices for Fall 2027 entrants or 2027–2028 and are not used to confirm a budget match. Competitive scholarships have not been deducted. The official annual 2026–27 base tuition and segregated fee total is USD45,931.60. Engineering, Business and Nursing have separate differential increases. This is not a total cost of attendance or a complete international invoice; housing, meals, insurance and any international charges are not established here.",
+    "status": "previous-cycle",
+    "period": "year"
   },
   "scholarships": {
     "fullRide": {
@@ -35494,8 +35515,12 @@ window.UNIPATH.universities.push(
       "url": "https://www.wisc.edu/about/"
     },
     {
-      "label": "Official university page",
+      "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:University_of_Wisconsin–Madison_August_2022_09_(Bascom_Hall).jpg"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://bursar.wisc.edu/tuition-and-fees/fall-2026-increase"
     }
   ],
   "verification": {
@@ -35803,7 +35828,7 @@ window.UNIPATH.universities.push(
       "url": "https://newbrunswick.rutgers.edu/about"
     },
     {
-      "label": "Official university page",
+      "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:Old_Queens_Rutgers.jpg"
     }
   ],
@@ -35873,7 +35898,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": null,
     "programs": "https://admissions.sa.ucsb.edu/majors",
-    "cost": null
+    "cost": "https://www.finaid.ucsb.edu/costs-estimated-aid/cost-attendance/ucsb-undergraduate-cost-attendance-budget"
   },
   "admissions": {
     "platforms": [
@@ -35996,14 +36021,78 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grades, subjects and any preparatory study have not been established. General international instructions do not confirm eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": "Previous available cost year: 2026–2027. These figures are not confirmed prices for Fall 2027 entrants or 2027–2028 and are not used to confirm a budget match. Competitive scholarships have not been deducted.",
+      "budget": 90216
+    },
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "Nonresident new undergraduate, 2026 cohort, university residence halls",
+    "source": "https://www.finaid.ucsb.edu/costs-estimated-aid/cost-attendance/ucsb-undergraduate-cost-attendance-budget",
+    "verified": "2026-11-01",
+    "headline": "2026–2027 published cost reference — not a 2027–2028 quote",
+    "items": [
+      {
+        "label": "Tuition and student services fee",
+        "group": "billed",
+        "amount": 15588
+      },
+      {
+        "label": "Campus-based fees",
+        "group": "billed",
+        "amount": 2085
+      },
+      {
+        "label": "Additional nonresident tuition",
+        "group": "billed",
+        "amount": 39270
+      },
+      {
+        "label": "Books and supplies",
+        "group": "estimate",
+        "amount": 1515
+      },
+      {
+        "label": "Rent",
+        "group": "estimate",
+        "amount": 13203
+      },
+      {
+        "label": "Food",
+        "group": "estimate",
+        "amount": 10782
+      },
+      {
+        "label": "Utilities",
+        "group": "estimate",
+        "amount": 0
+      },
+      {
+        "label": "Transportation",
+        "group": "estimate",
+        "amount": 789
+      },
+      {
+        "label": "Health care allowance",
+        "group": "estimate",
+        "amount": 4008
+      },
+      {
+        "label": "Personal expenses",
+        "group": "estimate",
+        "amount": 2652
+      },
+      {
+        "label": "Telephone / cell phone",
+        "group": "estimate",
+        "amount": 324
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "totalText": "2026–2027 published cost reference — not a 2027–2028 quote",
+    "note": "Previous available cost year: 2026–2027. These figures are not confirmed prices for Fall 2027 entrants or 2027–2028 and are not used to confirm a budget match. Competitive scholarships have not been deducted. Published sample budget for the 2026 cohort in residence halls, nonresident, 2026–27. This is not the Fall2027 cohort or every housing/programme option. Health care is an allowance; utilities USD0 is explicitly printed for this sample only. The combined tuition/student-services line is not treated as a tuition-only quote. No scholarship is deducted.",
+    "status": "previous-cycle",
+    "period": "year"
   },
   "scholarships": {
     "fullRide": {
@@ -36076,8 +36165,12 @@ window.UNIPATH.universities.push(
       "url": "https://www.ucsb.edu/about/facts-and-figures"
     },
     {
-      "label": "Official university page",
+      "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:UC_Santa_Barbara_Library_(35399729253).jpg"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.finaid.ucsb.edu/costs-estimated-aid/cost-attendance/ucsb-undergraduate-cost-attendance-budget"
     }
   ],
   "verification": {
@@ -36146,7 +36239,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": null,
     "programs": "https://bulletin.uga.edu/Program/Details/73962",
-    "cost": null
+    "cost": "https://osfa.uga.edu/costs/"
   },
   "admissions": {
     "platforms": [],
@@ -36314,14 +36407,60 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grades, subjects and any preparatory study have not been established. General international instructions do not confirm eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": "Previous available cost year: 2026–2027. These figures are not confirmed prices for Fall 2027 entrants or 2027–2028 and are not used to confirm a budget match. Competitive scholarships have not been deducted.",
+      "billed": 45738,
+      "budget": 52156,
+      "tuition": 31804
+    },
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
-    "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "studentCategory": "Standard Athens undergraduate, nonresident, living on campus",
+    "source": "https://osfa.uga.edu/costs/",
+    "verified": "2026-11-01",
+    "headline": "2026–2027 published cost reference — not a 2027–2028 quote",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 31804
+      },
+      {
+        "label": "Fees",
+        "group": "billed",
+        "amount": 1494
+      },
+      {
+        "label": "Housing",
+        "group": "billed",
+        "amount": 7722
+      },
+      {
+        "label": "Food",
+        "group": "billed",
+        "amount": 4718
+      },
+      {
+        "label": "Books, materials, supplies and equipment",
+        "group": "estimate",
+        "amount": 978
+      },
+      {
+        "label": "Transportation",
+        "group": "estimate",
+        "amount": 2150
+      },
+      {
+        "label": "Miscellaneous living expenses",
+        "group": "estimate",
+        "amount": 3290
+      }
+    ],
+    "billedSubtotal": 45738,
+    "totalText": "2026–2027 published cost reference — not a 2027–2028 quote",
+    "note": "Previous available cost year: 2026–2027. These figures are not confirmed prices for Fall 2027 entrants or 2027–2028 and are not used to confirm a budget match. Competitive scholarships have not been deducted. Athens standard undergraduate programmes, nonresident, on campus, Fall2026 plus Spring2027. East Campus Village housing adds USD1,376 for that year. Insurance is not separately itemised here. Other programme and housing categories differ. Foundation Fellowship is competitive; neither its maximum stipend nor its tuition waiver is automatically deducted.",
+    "status": "previous-cycle",
+    "period": "year"
   },
   "scholarships": {
     "fullRide": {
@@ -36392,8 +36531,12 @@ window.UNIPATH.universities.push(
       "url": "https://honors.uga.edu/scholarships/prospective-students/foundation-fellowship/"
     },
     {
-      "label": "Official university page",
+      "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:UGA_Chapel.jpg"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://osfa.uga.edu/costs/"
     }
   ],
   "verification": {
@@ -36625,7 +36768,9 @@ window.UNIPATH.universities.push(
     "items": [],
     "billedSubtotal": null,
     "totalText": null,
-    "note": null
+    "note": "The official cost page links separate 2026–27 in-state/out-of-state and housing-category tables. Numeric tables require further document review; no amount is inferred from an in-state example, graduate costs or an award. A comparable 2027–28 annual cost remains unconfirmed.",
+    "source": "https://finaid.vt.edu/undergraduate/coa.html",
+    "verified": "2026-11-01"
   },
   "scholarships": {
     "fullRide": {
@@ -36690,8 +36835,12 @@ window.UNIPATH.universities.push(
       "url": "https://cired.vt.edu/About/history.html"
     },
     {
-      "label": "Official university page",
+      "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:Burruss_Hall,_Virginia_Tech.JPG"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://finaid.vt.edu/undergraduate/coa.html"
     }
   ],
   "verification": {
@@ -36759,7 +36908,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": null,
     "programs": "https://bulletins.psu.edu/undergraduate/colleges/engineering/computer-science-bs/",
-    "cost": null
+    "cost": "https://tuition.psu.edu/rates-effective-2027-fall-semester"
   },
   "admissions": {
     "platforms": [],
@@ -36879,14 +37028,28 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Uzbekistan: first-year applicants self-report the last three years and current courses in STARS. After accepting an offer, the country page requests official years9–12 transcripts and Attestat o Srednem Obrazovanii, each with a separate line-by-line English translation. The page does not resolve how an 11-year school record or academic lyceum diploma is handled, or the exact grades, subjects and preparatory-study requirements; eligibility is not guaranteed."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": "University Park nonresident lower-division base tuition",
+      "tuition": 46356
+    },
+    "academicYear": "2027–2028",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "Non-Pennsylvania (including international), University Park freshmen/lower division, 12–19 credits per semester",
+    "source": "https://tuition.psu.edu/rates-effective-2027-fall-semester",
+    "verified": "2026-11-01",
+    "headline": "Published 2027–28 annual tuition: USD46,356",
+    "items": [
+      {
+        "label": "Published annual tuition",
+        "group": "billed",
+        "amount": 46356
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "totalText": "Tuition only — full cost of attendance not established",
+    "note": "2027–28 University Park nonresident first-year/lower-division tuition, 12–19 credits per semester. The university publishes USD46,356 per academic year, not a UniPath multiplication. This is tuition only: student fee USD330 per semester, housing, meals, insurance, books, travel and other charges are additional. Upper-division, other campuses and overload rates differ. Competitive awards are not deducted.",
+    "status": "confirmed",
+    "period": "year"
   },
   "scholarships": {
     "fullRide": {
@@ -36947,12 +37110,28 @@ window.UNIPATH.universities.push(
       "url": "https://www.psu.edu/about/traditions"
     },
     {
-      "label": "Official university page",
+      "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:Penn_state_old_main_summer.jpg"
     },
     {
       "label": "Official university page",
       "url": "https://science.psu.edu/interdisciplinary-programs/premed-med-bsmd/admission-requirements"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://tuition.psu.edu/rates-effective-2027-fall-semester"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://tuition.psu.edu/tuition-schedules"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://tuition.psu.edu/2027-28-student-initiated-fee-semester"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.psu.edu/news/administration/story/board-trustees-approves-2027-28-budget-and-tuition-plan"
     }
   ],
   "verification": {
@@ -37027,7 +37206,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": null,
     "programs": "https://www.academics.pitt.edu/undergraduate-programs",
-    "cost": null
+    "cost": "https://www.tuition.pitt.edu/undergraduate/tuition/pittsburgh/school-business"
   },
   "admissions": {
     "platforms": [],
@@ -37100,7 +37279,9 @@ window.UNIPATH.universities.push(
     "items": [],
     "billedSubtotal": null,
     "totalText": null,
-    "note": null
+    "note": "The official School of Business page lists nonresident full-time tuition USD48,812 for two terms, with international services USD500 per fall/spring term additional. That is one school, not a university-wide quote or a Computer Science rate. Its academic year was not established from the readable body; a search title alone is not used. No comparable annual cost is assigned to this profile.",
+    "source": "https://www.tuition.pitt.edu/undergraduate/tuition/pittsburgh/school-business",
+    "verified": "2026-11-01"
   },
   "scholarships": {
     "fullRide": {
@@ -37152,8 +37333,12 @@ window.UNIPATH.universities.push(
       "url": "https://www.pitt.edu/about/history-and-achievements"
     },
     {
-      "label": "Official university page",
+      "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Learning_in_the_University_of_Pittsburgh_-_Mar_2025.jpg"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.tuition.pitt.edu/undergraduate/tuition/pittsburgh/school-business"
     }
   ],
   "verification": {
@@ -37447,7 +37632,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.ucmerced.edu/about"
     },
     {
-      "label": "Official university page",
+      "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:UC_Merced_COB1_and_COB2.jpg"
     },
     {
@@ -37707,7 +37892,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.binghamton.edu/about/"
     },
     {
-      "label": "Official university page",
+      "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:Couper_Building_at_Binghamton_University.jpg"
     },
     {
@@ -37920,7 +38105,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.oem.indiana.edu/about/oem-timeline/index.html"
     },
     {
-      "label": "Official university page",
+      "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:Sample_Gates,_Indiana_University_Bloomington,_2010.jpg"
     }
   ],
@@ -38188,7 +38373,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.lib.ncsu.edu/about"
     },
     {
-      "label": "Official university page",
+      "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:The_Memorial_Belltower_in_NC_State,_September_2022.jpg"
     }
   ],
@@ -38381,14 +38566,38 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": "Published Newark tuition, fees, food and housing only",
+      "tuition": 36831,
+      "billed": 62049
+    },
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
-    "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "studentCategory": "Non-New-Jersey undergraduate, School of Arts and Sciences–Newark base, living on campus",
+    "source": "https://admissions.newark.rutgers.edu/costs-and-aid/tuition-fees",
+    "verified": "2026-11-01",
+    "headline": "Previous-cycle three-item total: USD62,049",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 36831
+      },
+      {
+        "label": "Fees",
+        "group": "billed",
+        "amount": 3275
+      },
+      {
+        "label": "Food and housing",
+        "group": "billed",
+        "amount": 21943
+      }
+    ],
+    "billedSubtotal": 62049,
+    "totalText": "USD62,049 excludes additional international expenses",
+    "note": "2026–27 academic-year Newark base, not New Brunswick or Camden and not full COA. F-1/J-1 students pay this nonresident rate plus SAF USD500, insurance/health fees, books, travel and other living costs. The SAF period is not stated in this summary and is not guessed. School/programme and housing choices may change charges. No Fall2027 annual cost is assigned.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -38444,8 +38653,12 @@ window.UNIPATH.universities.push(
       "url": "https://www.rutgers.edu/about/our-revolutionary-roots-history"
     },
     {
-      "label": "Official university page",
+      "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:Rutgers-Newark.JPG"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://admissions.newark.rutgers.edu/costs-and-aid/tuition-fees"
     }
   ],
   "verification": {
@@ -38746,7 +38959,7 @@ window.UNIPATH.universities.push(
       "url": "https://uconn.edu/about-us/history/"
     },
     {
-      "label": "Official university page",
+      "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:Wilbur_Cross_Library,_UConn,_Storrs_CT.jpg"
     }
   ],
@@ -39003,7 +39216,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.clemson.edu/about/"
     },
     {
-      "label": "Official university page",
+      "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:Tillman_Hall-Clemson_University.jpg"
     }
   ],
@@ -39212,7 +39425,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.mines.edu/about/"
     },
     {
-      "label": "Official university page",
+      "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:GuggenheimHall_01Oct2017.jpg"
     }
   ],
@@ -39458,7 +39671,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.ucr.edu/about"
     },
     {
-      "label": "Official university page",
+      "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:UC_Riverside_campus_as_viewed_from_Box_Spring_Mountain.jpg"
     }
   ],
@@ -39722,6 +39935,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.njit.edu/njcep/about/key-facts"
+    },
+    {
+      "label": "Campus photo candidate — file and licence, not installed",
+      "url": "https://commons.wikimedia.org/wiki/File:NJIT-Eberhardt-Hall.jpg"
     }
   ],
   "verification": {
@@ -39966,6 +40183,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.buffalo.edu/advancement/work-with-us/about-the-university.html"
+    },
+    {
+      "label": "Campus photo candidate — file and licence, not installed",
+      "url": "https://commons.wikimedia.org/wiki/File:Hayes_hall_on_UB_south_campus.jpg"
     }
   ],
   "verification": {
@@ -40182,6 +40403,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.udel.edu/about/"
+    },
+    {
+      "label": "Campus photo candidate — file and licence, not installed",
+      "url": "https://commons.wikimedia.org/wiki/File:UDMemorialHall1.jpg"
     }
   ],
   "verification": {
@@ -40367,14 +40592,38 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": "Camden tuition, fees, food and housing only",
+      "tuition": 36831,
+      "billed": 62603
+    },
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
-    "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "studentCategory": "Non-New-Jersey undergraduate, Camden on-campus estimate",
+    "source": "https://admissions.newark.rutgers.edu/costs-and-aid/tuition-fees",
+    "verified": "2026-11-01",
+    "headline": "Previous-cycle three-item total: USD62,603",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 36831
+      },
+      {
+        "label": "Fees",
+        "group": "billed",
+        "amount": 3829
+      },
+      {
+        "label": "Food and housing",
+        "group": "billed",
+        "amount": 21943
+      }
+    ],
+    "billedSubtotal": 62603,
+    "totalText": "USD62,603 for the published2026–27 Camden estimate",
+    "note": "This is the Camden section of the official2026–27 campus table, not Newark62,049 or New Brunswick62,782. Programme/school and housing choices can change charges. Books, travel, insurance and other international expenses are not established as included in these three lines. No comparable Fall2027 total is assigned and no award is deducted.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -40428,6 +40677,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.rutgers.edu/about/our-revolutionary-roots-history"
+    },
+    {
+      "label": "Campus photo candidate — file and licence, not installed",
+      "url": "https://commons.wikimedia.org/wiki/File:Ru-camden-campus_walk.jpg"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://admissions.newark.rutgers.edu/costs-and-aid/tuition-fees"
     }
   ],
   "verification": {
@@ -40671,6 +40928,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://catalog.uic.edu/ucat/colleges-depts/engineering/cs/bs-cs/"
+    },
+    {
+      "label": "Campus photo candidate — file and licence, not installed",
+      "url": "https://commons.wikimedia.org/wiki/File:UIC_UniversityHall.jpg"
     }
   ],
   "verification": {
@@ -40912,6 +41173,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://missouri.edu/about"
+    },
+    {
+      "label": "Campus photo candidate — file and licence, not installed",
+      "url": "https://commons.wikimedia.org/wiki/File:Jesse_Hall_and_the_Columns_at_Mizzou.jpg"
     }
   ],
   "verification": {
@@ -41154,6 +41419,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://auburn.edu/about/"
+    },
+    {
+      "label": "Campus photo candidate — file and licence, not installed",
+      "url": "https://commons.wikimedia.org/wiki/File:Auburn_campus_with_Samford_Hall.jpg"
     }
   ],
   "verification": {
@@ -41404,6 +41673,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://president.fiu.edu/about/past-presidents/"
+    },
+    {
+      "label": "Campus photo candidate — file and licence, not installed",
+      "url": "https://commons.wikimedia.org/wiki/File:Eastward_view_of_FIU's_campus.jpg"
     }
   ],
   "verification": {
@@ -41726,6 +41999,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.usf.edu/about-usf/"
+    },
+    {
+      "label": "Campus photo candidate — file and licence, not installed",
+      "url": "https://commons.wikimedia.org/wiki/File:Marshallstudentcenter4_usf_tampa.jpg"
     }
   ],
   "verification": {
@@ -41945,6 +42222,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://admissions.ucsc.edu/programs/computer-science"
+    },
+    {
+      "label": "Campus photo candidate — file and licence, not installed",
+      "url": "https://commons.wikimedia.org/wiki/File:McHenry_Library.jpg"
     }
   ],
   "verification": {
@@ -42184,6 +42465,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.colorado.edu/cs/academics/undergraduate-programs/bachelor-science"
+    },
+    {
+      "label": "Campus photo candidate — file and licence, not installed",
+      "url": "https://commons.wikimedia.org/wiki/File:Old_Main_-_Colorado.jpg"
     }
   ],
   "verification": {
@@ -42441,6 +42726,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.unh.edu/provost/academic-administration/faculty-resource-guide/section-1-overview-university-new-hampshire"
+    },
+    {
+      "label": "Campus photo candidate — file and licence, not installed",
+      "url": "https://commons.wikimedia.org/wiki/File:Thompson_Hall,_UNH_1.jpg"
     }
   ],
   "verification": {
@@ -42717,6 +43006,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://eecs.utk.edu/undergraduate/computer-science/"
+    },
+    {
+      "label": "Campus photo candidate — file and licence, not installed",
+      "url": "https://commons.wikimedia.org/wiki/File:Ayres_Hall,_University_of_Tennessee_at_Knoxville,_Fort_Sanders,_Knoxville,_TN_-_52497742705.jpg"
     }
   ],
   "verification": {
@@ -43018,6 +43311,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://business.wfu.edu/online-mba/about-us/"
+    },
+    {
+      "label": "Campus photo candidate — file and licence, not installed",
+      "url": "https://commons.wikimedia.org/wiki/File:Wait.chapel.png"
     }
   ],
   "verification": {
@@ -43272,6 +43569,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.gwu.edu/traditions"
+    },
+    {
+      "label": "Campus photo candidate — file and licence, not installed",
+      "url": "https://commons.wikimedia.org/wiki/File:University_Yard_George_Washington_University.JPG"
     }
   ],
   "verification": {
@@ -43593,6 +43894,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.stevens.edu/admission-aid/tuition-financial-aid/undergraduate-costs-and-aid"
+    },
+    {
+      "label": "Campus photo candidate — file and licence, not installed",
+      "url": "https://commons.wikimedia.org/wiki/File:Stevens_Institute_of_Technology_campus.JPG"
     }
   ],
   "verification": {
@@ -43858,6 +44163,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://about.web.baylor.edu/heritage/commission/forward"
+    },
+    {
+      "label": "Campus photo candidate — file and licence, not installed",
+      "url": "https://commons.wikimedia.org/wiki/File:Patneffhallbaylor.jpg"
     }
   ],
   "verification": {
@@ -44148,6 +44457,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.marquette.edu/central/financial-aid/resources/award-information/award-information-2027-2028.php"
+    },
+    {
+      "label": "Campus photo candidate — file and licence, not installed",
+      "url": "https://commons.wikimedia.org/wiki/File:Marquette_University_campus.jpg"
     }
   ],
   "verification": {
@@ -44387,6 +44700,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.yu.edu/about/history"
+    },
+    {
+      "label": "Campus photo candidate — file and licence, not installed",
+      "url": "https://commons.wikimedia.org/wiki/File:Yeshiva_University_Zysman_Hall_from_south.jpg"
     }
   ],
   "verification": {
@@ -44889,6 +45206,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.hillsdale.edu/about/college-profile/"
+    },
+    {
+      "label": "Campus photo candidate — file and licence, not installed",
+      "url": "https://commons.wikimedia.org/wiki/File:Hillsdale_College-Central_Hall_Exterior.JPG"
     }
   ],
   "verification": {
@@ -45096,6 +45417,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://rsc.byu.edu/called-teach/beginnings-brigham-young-academy-1876-84"
+    },
+    {
+      "label": "Campus photo candidate — file and licence, not installed",
+      "url": "https://commons.wikimedia.org/wiki/File:Brigham_Young_University_Campus_-_BYU_-_Provo_-_Utah_in_Autumn.jpg"
     }
   ],
   "verification": {
@@ -45314,6 +45639,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.usfca.edu/who-we-are/san-franciscos-university/our-history"
+    },
+    {
+      "label": "Campus photo candidate — file and licence, not installed",
+      "url": "https://commons.wikimedia.org/wiki/File:USFCA_Lower_Campus.jpg"
     }
   ],
   "verification": {
@@ -45573,6 +45902,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://catalog.gmu.edu/about-mason/university/"
+    },
+    {
+      "label": "Campus photo candidate — file and licence, not installed",
+      "url": "https://commons.wikimedia.org/wiki/File:GMU_Fairfax_Campus.JPG"
     }
   ],
   "verification": {
@@ -45798,6 +46131,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.albany.edu/computer-science/programs/bs-computer-science"
+    },
+    {
+      "label": "Campus photo candidate — file and licence, not installed",
+      "url": "https://commons.wikimedia.org/wiki/File:UAlbany_Uptown_Campus.jpg"
     }
   ],
   "verification": {
@@ -46008,6 +46345,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.ucf.edu/degree/computer-science-bs/"
+    },
+    {
+      "label": "Campus photo candidate — file and licence, not installed",
+      "url": "https://commons.wikimedia.org/wiki/File:UCF_Campus_Pond.jpg"
     }
   ],
   "verification": {
@@ -46229,6 +46570,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://catalog.udayton.edu/undergraduate/schoolofengineering/programsofstudy/csci/"
+    },
+    {
+      "label": "Campus photo candidate — file and licence, not installed",
+      "url": "https://commons.wikimedia.org/wiki/File:UniversityofDayton.jpg"
     }
   ],
   "verification": {
@@ -46496,6 +46841,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.sc.edu/study/majors_and_degrees/computer-science-bscs.php"
+    },
+    {
+      "label": "Campus photo candidate — file and licence, not installed",
+      "url": "https://commons.wikimedia.org/wiki/File:University_of_South_Carolina_Horseshoe.jpg"
     }
   ],
   "verification": {
@@ -46716,6 +47065,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://catalog.utdallas.edu/2026/undergraduate/programs/ecs/computer-science"
+    },
+    {
+      "label": "Campus photo candidate — file and licence, not installed",
+      "url": "https://commons.wikimedia.org/wiki/File:Residence_Hall_(University_of_Texas_at_Dallas).jpg"
     }
   ],
   "verification": {
@@ -46932,6 +47285,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://catalog.pacific.edu/uop/schoolofengineeringandcomputerscience/computerscience/"
+    },
+    {
+      "label": "Campus photo candidate — file and licence, not installed",
+      "url": "https://commons.wikimedia.org/wiki/File:Burns_tower.jpg"
     }
   ],
   "verification": {

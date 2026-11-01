@@ -61,7 +61,8 @@ def record(uid,city,ru_city,state,website,admission_topic='international-first-y
     r['sources']=[]
     for s in EVIDENCE:
       if s['id']==uid and s['access']=='html-read' and not any(x['url']==s['source'] for x in r['sources']):
-        r['sources'].append(dict(label=L('Official university page','Официальная страница университета'),url=s['source']))
+        label=L('Campus photo candidate — file and licence, not installed','Кандидат фото кампуса — файл и лицензия, снимок не установлен') if s['topic'] in ('photo-candidate','campus-photo-candidate') else L('Official university page','Официальная страница университета')
+        r['sources'].append(dict(label=label,url=s['source']))
     return r
 
 def policy(r,p,note,topic='international-first-year-admission',cycle=None):
@@ -89,6 +90,22 @@ def event(r,name,kind,date,topic='international-first-year-admission',binding=No
     r['admissions']['deadlines'].append(d)
     return d
 
+def write_annual(annual,wanted):
+    """Add reviewed annual rows only; never overwrite unrelated records."""
+    if not annual:return
+    p=ROOT/'data/match.js';s=p.read_text(encoding='utf-8');lines=[]
+    for uid,c in annual.items():
+      assert uid in wanted
+      line='    '+json.dumps(uid)+': '+json.dumps(c,ensure_ascii=False)+','
+      existing=re.search(r'^\s*[\'"]'+re.escape(uid)+r'[\'"]\s*:.*$',s,re.M)
+      if existing:
+        assert existing.group(0).strip()==line.strip(), 'Existing budget changed; review manually: '+uid
+      else:lines.append(line)
+    if lines:
+      marker='\n  annualCost: {\n';assert marker in s
+      s=s.replace(marker,marker+'\n    /* Approved USA +50, reviewed academic-year estimates */\n'+'\n'.join(lines)+'\n',1)
+      p.write_text(s,encoding='utf-8')
+
 def finish(records,batch,annual=None):
     wanted={t['id'] for t in TARGETS[(batch-1)*10:batch*10]}
     assert len(records)==10 and {r['id'] for r in records}==wanted
@@ -107,17 +124,5 @@ def finish(records,batch,annual=None):
       e['topics']['photo']='not-yet-researched-placeholder'
       e['unresolved']=['Programme coverage/instruction language','Exact Uzbek qualifications/conditions','Remaining costs/awards/history','Campus photograph/licence']
     rp.write_text(json.dumps(registry,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    if annual:
-      p=ROOT/'data/match.js';s=p.read_text(encoding='utf-8');lines=[]
-      for uid,c in annual.items():
-        assert uid in wanted
-        line='    '+json.dumps(uid)+': '+json.dumps(c,ensure_ascii=False)+','
-        existing=re.search(r'^\s*[\'"]'+re.escape(uid)+r'[\'"]\s*:.*$',s,re.M)
-        if existing:
-          assert existing.group(0).strip()==line.strip(), 'Existing budget changed; review manually: '+uid
-        else:lines.append(line)
-      if lines:
-        marker='\n  annualCost: {\n';assert marker in s
-        s=s.replace(marker,marker+'\n    /* Approved USA +50, reviewed academic-year estimates */\n'+'\n'.join(lines)+'\n',1)
-        p.write_text(s,encoding='utf-8')
+    write_annual(annual,wanted)
     flush();print('Batch',batch,': ten scoped profiles; unresolved evidence retained')
