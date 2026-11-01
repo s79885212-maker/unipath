@@ -5260,5 +5260,394 @@
       "permission": "not-yet-requested",
       "downloaded": false
     }
+  },
+  {
+    "id": "university-of-tennessee-knoxville",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:Ayres_Hall,_University_of_Tennessee_at_Knoxville,_Fort_Sanders,_Knoxville,_TN_-_52497742705.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; visual acceptance pending",
+    "campus": "Ayres Hall, University of Tennessee Knoxville",
+    "access": "html-read",
+    "quote": "Ayres Hall, University of Tennessee at Knoxville",
+    "facts": {
+      "author": "Warren LeMay (w_lemay)",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "subject": "Ayres Hall, University of Tennessee Knoxville",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "wake-forest-university",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:Wait.chapel.png",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; visual acceptance pending",
+    "campus": "Wait Chapel, Wake Forest University",
+    "access": "html-read",
+    "quote": "Wait Chapel at Wake Forest University",
+    "facts": {
+      "author": "Fennec",
+      "license": "Public domain",
+      "licenseUrl": "https://en.wikipedia.org/wiki/Public_domain",
+      "subject": "Wait Chapel, Wake Forest University",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "george-washington-university",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:University_Yard_George_Washington_University.JPG",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; visual acceptance pending",
+    "campus": "University Yard, George Washington University",
+    "access": "html-read",
+    "quote": "University Yard at the George Washington University",
+    "facts": {
+      "author": "Pjn1990",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "subject": "University Yard, George Washington University",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "stevens-institute-of-technology",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:Stevens_Institute_of_Technology_campus.JPG",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; visual acceptance pending",
+    "campus": "Stevens campus with Hoboken in the background",
+    "access": "html-read",
+    "quote": "A view of the campus of Stevens Institute of Technology",
+    "facts": {
+      "author": "Sharkface217",
+      "license": "Public domain",
+      "licenseUrl": "https://en.wikipedia.org/wiki/Public_domain",
+      "subject": "Stevens campus with Hoboken in the background",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "baylor-university",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:Patneffhallbaylor.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; visual acceptance pending",
+    "campus": "Pat Neff Hall, Baylor University",
+    "access": "html-read",
+    "quote": "Pat Neff Hall on the Baylor University Campus",
+    "facts": {
+      "author": "Enoch Lai",
+      "license": "Public domain",
+      "licenseUrl": "https://en.wikipedia.org/wiki/Public_domain",
+      "subject": "Pat Neff Hall, Baylor University",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "marquette-university",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:Marquette_University_campus.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; visual acceptance pending",
+    "campus": "Marquette University campus",
+    "access": "html-read",
+    "quote": "Marquette University",
+    "facts": {
+      "author": "scottfeldstein",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "subject": "Marquette University campus",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "yeshiva-university",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:Yeshiva_University_Zysman_Hall_from_south.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; visual acceptance pending",
+    "campus": "Zysman Hall, Washington Heights, Manhattan",
+    "access": "html-read",
+    "quote": "Yeshiva University's David H. Zysman Hall",
+    "facts": {
+      "author": "Beyond My Ken",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "subject": "Zysman Hall, Washington Heights, Manhattan",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "hillsdale-college",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:Hillsdale_College-Central_Hall_Exterior.JPG",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; visual acceptance pending",
+    "campus": "Central Hall, Hillsdale College",
+    "access": "html-read",
+    "quote": "Exterior facade of Hilsdale College's clock tower (Central Hall) in April, 2016.",
+    "facts": {
+      "author": "Kingpin1000",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "subject": "Central Hall, Hillsdale College",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "brigham-young-university",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:Brigham_Young_University_Campus_-_BYU_-_Provo_-_Utah_in_Autumn.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; visual acceptance pending",
+    "campus": "BYU campus, Provo, Utah",
+    "access": "html-read",
+    "quote": "The Brigham Young University (BYU) campus in Provo, Utah.",
+    "facts": {
+      "author": "Tony Webster",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "subject": "BYU campus, Provo, Utah",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "university-of-san-francisco",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:USFCA_Lower_Campus.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; visual acceptance pending",
+    "campus": "University of San Francisco lower campus",
+    "access": "html-read",
+    "quote": "USF's lower campus",
+    "facts": {
+      "author": "Jallen8307",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "subject": "University of San Francisco lower campus",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "george-mason-university",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:GMU_Fairfax_Campus.JPG",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; visual acceptance pending",
+    "campus": "George Mason University Fairfax campus",
+    "access": "html-read",
+    "quote": "George Mason University Fairfax Campus",
+    "facts": {
+      "author": "Lucien Dalarun",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "subject": "George Mason University Fairfax campus",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "university-at-albany-suny",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:UAlbany_Uptown_Campus.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; visual acceptance pending",
+    "campus": "University at Albany uptown campus viewed from Collins Circle",
+    "access": "html-read",
+    "quote": "Picture of the uptown campus of The University at Albany taken from Collins Circle",
+    "facts": {
+      "author": "Doc352",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "subject": "University at Albany uptown campus viewed from Collins Circle",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "university-of-central-florida",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:UCF_Campus_Pond.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; visual acceptance pending",
+    "campus": "Reflection Pond and Millican Hall, UCF main campus",
+    "access": "html-read",
+    "quote": "ucf reflection pond and millican hall (University of Central Florida)",
+    "facts": {
+      "author": "Kelly Daacon (keone)",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "subject": "Reflection Pond and Millican Hall, UCF main campus",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "university-of-dayton",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:UniversityofDayton.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; visual acceptance pending",
+    "campus": "St. Mary's Hall and Immaculate Conception Chapel, University of Dayton",
+    "access": "html-read",
+    "quote": "Photograph taken from Roesch Library of St. Mary's Hall and the Immaculate Conception Chapel at the University of Dayton.",
+    "facts": {
+      "author": "Namtrofk",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "subject": "St. Mary's Hall and Immaculate Conception Chapel, University of Dayton",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "university-of-south-carolina",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:University_of_South_Carolina_Horseshoe.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; visual acceptance pending",
+    "campus": "Horseshoe, University of South Carolina, Columbia",
+    "access": "html-read",
+    "quote": "the historic Horseshoe is the center of the University of South Carolina campus",
+    "facts": {
+      "author": "Dfscgt21",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "subject": "Horseshoe, University of South Carolina, Columbia",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "university-of-texas-at-dallas",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:Residence_Hall_(University_of_Texas_at_Dallas).jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; visual acceptance pending",
+    "campus": "Residence Hall South, University of Texas at Dallas",
+    "access": "html-read",
+    "quote": "UT Dallas Residence Hall South.",
+    "facts": {
+      "author": "Stan9999",
+      "license": "Public domain",
+      "licenseUrl": "https://en.wikipedia.org/wiki/Public_domain",
+      "subject": "Residence Hall South, University of Texas at Dallas",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "university-of-the-pacific",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:Burns_tower.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; visual acceptance pending",
+    "campus": "Burns Tower, University of the Pacific, Stockton",
+    "access": "html-read",
+    "quote": "Burns Tower, UOP (University of the Pacific, Stockton, California.)",
+    "facts": {
+      "author": "maven imagery",
+      "license": "Public domain",
+      "licenseUrl": "https://en.wikipedia.org/wiki/Public_domain",
+      "subject": "Burns Tower, University of the Pacific, Stockton",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "wabash-college",
+    "topic": "photo-candidate-unavailable",
+    "source": "https://commons.wikimedia.org/wiki/File:WabashMall.JPG",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph candidate; file page inaccessible",
+    "campus": "Wabash College",
+    "access": "unavailable",
+    "quote": null,
+    "facts": null,
+    "note": "Listed by Commons Wabash College category, but file page could not be read. ChapelSing also unavailable. No author or licence inferred from category or search lead; placeholder remains."
+  },
+  {
+    "id": "university-of-california-merced",
+    "topic": "cost-reference",
+    "source": "https://financialaid.ucmerced.edu/node/61",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "international/nonresident bachelor; historical academic-year reference, not Fall2027 pricing",
+    "campus": null,
+    "access": "html-read",
+    "quote": "Undergraduates who first enrolled in Fall 2026",
+    "facts": {
+      "academicYear": "2026–2027",
+      "cohort": "First enrolled Fall2026",
+      "housing": "On-campus only",
+      "fees": 17024,
+      "housingCost": 15154,
+      "food": 8026,
+      "books": 1148,
+      "transport": 1412,
+      "personal": 2814,
+      "insurance": 2996,
+      "loanFee": 80,
+      "nonresidentTuition": 39270,
+      "publishedTotal": 87924,
+      "loanFeeApplicability": "Not established for international students by this table",
+      "otherHousingConflict": "At-home nonresident line38270, while published total75322 minus base36052 implies39270;1000 discrepancy. Different housing category, not used for on-campus record.",
+      "annualCost2027": null
+    }
+  },
+  {
+    "id": "binghamton-university",
+    "topic": "cost-reference",
+    "source": "https://www.binghamton.edu/admissions/undergraduate/cost/",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "international/nonresident bachelor; historical academic-year reference, not Fall2027 pricing",
+    "campus": null,
+    "access": "html-read",
+    "quote": "Annual budget (2026-2027)",
+    "facts": {
+      "academicYear": "2026–2027",
+      "category": "International resident",
+      "tuition": 29840,
+      "fees": 6485,
+      "housingMeals": 20179,
+      "publishedEstimateCOA": 56504,
+      "housing": "Standard double, average meal plan",
+      "excludes": "SEVIS fee explicitly excluded",
+      "notItemised": "Books, travel and personal costs not itemised in this three-line summary; do not assume covered",
+      "asOf": "July2026",
+      "annualCost2027": null
+    }
   }
 ]

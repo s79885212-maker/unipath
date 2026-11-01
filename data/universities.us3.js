@@ -37150,6 +37150,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.pitt.edu/about/history-and-achievements"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Learning_in_the_University_of_Pittsburgh_-_Mar_2025.jpg"
     }
   ],
   "verification": {
@@ -37327,14 +37331,67 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": "Nonresident undergraduate, first enrolled Fall 2026, living on campus",
+      "budget": 87924
+    },
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "International first-year bachelor applicants",
+    "source": "https://financialaid.ucmerced.edu/node/61",
+    "verified": "2026-11-01",
+    "headline": "Previous-cycle on-campus COA: USD 87,924",
+    "items": [
+      {
+        "label": "Published base fees",
+        "group": "billed",
+        "amount": 17024
+      },
+      {
+        "label": "Additional nonresident tuition",
+        "group": "billed",
+        "amount": 39270
+      },
+      {
+        "label": "Housing",
+        "group": "estimate",
+        "amount": 15154
+      },
+      {
+        "label": "Food",
+        "group": "estimate",
+        "amount": 8026
+      },
+      {
+        "label": "Books and supplies",
+        "group": "estimate",
+        "amount": 1148
+      },
+      {
+        "label": "Transportation",
+        "group": "estimate",
+        "amount": 1412
+      },
+      {
+        "label": "Personal expenses",
+        "group": "estimate",
+        "amount": 2814
+      },
+      {
+        "label": "Health insurance",
+        "group": "estimate",
+        "amount": 2996
+      },
+      {
+        "label": "Loan fee — applicability requires confirmation",
+        "group": "estimate",
+        "amount": 80
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "totalText": "USD 87,924 for the Fall 2026 cohort in 2026–27",
+    "note": "The table is for 2026–27 and the Fall 2026 cohort, not Fall 2027. Its base line is labelled Fees; no tuition-only total is inferred. The published total includes USD 80 loan fee whose applicability to an international student is not established. A separate at-home category has a USD 1,000 arithmetic discrepancy in its nonresident line; that category is not used for this on-campus reference. Competitive awards are not deducted.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -37388,6 +37445,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.ucmerced.edu/about"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://commons.wikimedia.org/wiki/File:UC_Merced_COB1_and_COB2.jpg"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://financialaid.ucmerced.edu/node/61"
     }
   ],
   "verification": {
@@ -37559,14 +37624,38 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": "International undergraduate, standard double housing and average meal plan",
+      "tuition": 29840,
+      "budget": 56504
+    },
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "International first-year bachelor applicants",
+    "source": "https://www.binghamton.edu/admissions/undergraduate/cost/",
+    "verified": "2026-11-01",
+    "headline": "Previous-cycle published estimate: USD 56,504",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 29840
+      },
+      {
+        "label": "Fees",
+        "group": "billed",
+        "amount": 6485
+      },
+      {
+        "label": "Housing and meals",
+        "group": "estimate",
+        "amount": 20179
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "totalText": "USD 56,504, international row for 2026–27",
+    "note": "Annual 2026–27 budget as of July 2026, subject to change; not a Fall 2027 quote. SEVIS fee is explicitly excluded. Books, travel and personal costs are not itemised in this three-line summary and are not assumed covered. The university-published estimate is not a guaranteed bill or net cost after scholarship.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -37616,6 +37705,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.binghamton.edu/about/"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://commons.wikimedia.org/wiki/File:Couper_Building_at_Binghamton_University.jpg"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.binghamton.edu/admissions/undergraduate/cost/"
     }
   ],
   "verification": {
@@ -37821,6 +37918,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.oem.indiana.edu/about/oem-timeline/index.html"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://commons.wikimedia.org/wiki/File:Sample_Gates,_Indiana_University_Bloomington,_2010.jpg"
     }
   ],
   "verification": {
@@ -38085,6 +38186,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.lib.ncsu.edu/about"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Memorial_Belltower_in_NC_State,_September_2022.jpg"
     }
   ],
   "verification": {
@@ -38337,6 +38442,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.rutgers.edu/about/our-revolutionary-roots-history"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://commons.wikimedia.org/wiki/File:Rutgers-Newark.JPG"
     }
   ],
   "verification": {
@@ -38635,6 +38744,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://uconn.edu/about-us/history/"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://commons.wikimedia.org/wiki/File:Wilbur_Cross_Library,_UConn,_Storrs_CT.jpg"
     }
   ],
   "verification": {
@@ -38888,6 +39001,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.clemson.edu/about/"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://commons.wikimedia.org/wiki/File:Tillman_Hall-Clemson_University.jpg"
     }
   ],
   "verification": {
@@ -39093,6 +39210,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.mines.edu/about/"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://commons.wikimedia.org/wiki/File:GuggenheimHall_01Oct2017.jpg"
     }
   ],
   "verification": {
@@ -39335,6 +39456,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.ucr.edu/about"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://commons.wikimedia.org/wiki/File:UC_Riverside_campus_as_viewed_from_Box_Spring_Mountain.jpg"
     }
   ],
   "verification": {

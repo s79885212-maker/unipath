@@ -1385,6 +1385,9 @@ main {
 .fullride-card {
   border-left: 4px solid var(--ok-600);
 }
+.fullride-card.is-conflict {
+  border-left-color: var(--warn-700);
+}
 .need-card {
   border-left: 4px solid var(--brand-600);
 }

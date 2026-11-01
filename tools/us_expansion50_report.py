@@ -34,6 +34,8 @@ for order,t in enumerate(targets,1):
  if fr.get('available') is True:award+=' — конкурс, не гарантия'
  photo=manifest.get(uid)
  ph=('Кандидат: '+photo['license']+('; разрешение на скачивание запрошено' if photo['permission']=='requested-awaiting-owner' else '; разрешение ещё не запрошено')) if photo else 'Исследование снимка ещё не завершено; заглушка'
+ if not photo and any(s['id']==uid and s['topic']=='photo-candidate-unavailable' for s in sources):
+  ph='Поиск выполнен, страница файла недоступна; автор/лицензия не подтверждены, заглушка'
  gaps='Полнота программ и язык; точные квалификации; условия наград/продления; фотография'
  if not year:gaps+='; год/состав стоимости'
  lines.append('| '+str(order)+' / ['+uid+']('+admission_url+') | ['+esc(programme)+']('+prog['source']+') | '+cred+' | '+cost+' | '+esc(award)+' | '+esc(ph)+' | '+gaps+' |')
@@ -47,6 +49,9 @@ else:text+='\n\n'+'\n'.join(lines)+'\n'
 p.write_text(text,encoding='utf-8')
 rp=ROOT/'research/us-expansion-50-registry.json';registry=json.loads(rp.read_text(encoding='utf-8'))
 for e in registry['entries']:
- if e['id'] in manifest:e['topics']['photo']='candidate-license-reviewed-owner-download-permission-pending'
+ if e['id'] in manifest:
+  e['topics']['photo']='candidate-license-reviewed-'+manifest[e['id']]['permission']
+ elif any(s['id']==e['id'] and s['topic']=='photo-candidate-unavailable' for s in sources):
+  e['topics']['photo']='searched-file-unavailable-placeholder'
 rp.write_text(json.dumps(registry,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print('Updated evidence inventory for',len(targets),'approved institutions')

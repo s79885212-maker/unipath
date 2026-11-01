@@ -124,6 +124,29 @@ for i,r in enumerate(records):
       'Сохраняйте GPA3,0 каждую четверть; дополнительные условия совместимости или продления ещё проверяются.'),deadlineScope='no-separate-application',entryTerm=None,entryYear=None,source=src(uid,'international-first-year-admission')['source'],verified=DAY,
     note=L('Standing published amount; a Fall2027-specific award cycle and largest-award comparison are not established. This is not full tuition or full ride and is not deducted from cost.',
       'Опубликованная сумма без отдельного установленного цикла Fall2027; сравнение с крупнейшей наградой не завершено. Это не полное покрытие обучения или full ride, из стоимости сумма не вычитается.'))]
+# These two references are explicitly historical and preserve housing/cohort scope.
+r=records[1];s=src(r['id'],'cost-reference')
+r['costs']=costs('2026–2027',s['source'],'2026-11-01',FY,
+  [(L('Published base fees','Опубликованные базовые сборы'),17024,'billed'),
+   (L('Additional nonresident tuition','Дополнительная плата нерезидента'),39270,'billed'),
+   (L('Housing','Жильё'),15154,'estimate'),(L('Food','Питание'),8026,'estimate'),
+   (L('Books and supplies','Книги и материалы'),1148,'estimate'),(L('Transportation','Транспорт'),1412,'estimate'),
+   (L('Personal expenses','Личные расходы'),2814,'estimate'),(L('Health insurance','Медицинская страховка'),2996,'estimate'),
+   (L('Loan fee — applicability requires confirmation','Кредитный сбор — применимость требует подтверждения'),80,'estimate')],
+  L('Previous-cycle on-campus COA: USD 87,924','COA прошлого цикла в кампусе: 87 924 USD'),
+  L('USD 87,924 for the Fall 2026 cohort in 2026–27','87 924 USD для набора осени 2026 в 2026–27 году'),
+  L('Nonresident undergraduate, first enrolled Fall 2026, living on campus','Бакалавр-нерезидент, впервые зачислен осенью 2026, проживает в кампусе'),
+  budget=87924,status='previous-cycle',note=L('The table is for 2026–27 and the Fall 2026 cohort, not Fall 2027. Its base line is labelled Fees; no tuition-only total is inferred. The published total includes USD 80 loan fee whose applicability to an international student is not established. A separate at-home category has a USD 1,000 arithmetic discrepancy in its nonresident line; that category is not used for this on-campus reference. Competitive awards are not deducted.',
+    'Таблица относится к 2026–27 и набору осени 2026, не осени 2027. Базовая строка названа Fees; отдельная общая цена только обучения не выведена. Опубликованный итог включает кредитный сбор 80 USD, применимость которого к иностранцу не установлена. В отдельной категории проживания дома есть арифметическое расхождение 1 000 USD в строке нерезидента; она не используется для этой сметы проживания в кампусе. Конкурсные награды не вычтены.'))
+r=records[2];s=src(r['id'],'cost-reference')
+r['costs']=costs('2026–2027',s['source'],'2026-11-01',FY,
+  [(L('Tuition','Обучение'),29840,'billed'),(L('Fees','Сборы'),6485,'billed'),(L('Housing and meals','Жильё и питание'),20179,'estimate')],
+  L('Previous-cycle published estimate: USD 56,504','Опубликованная оценка прошлого цикла: 56 504 USD'),
+  L('USD 56,504, international row for 2026–27','56 504 USD, международная категория 2026–27'),
+  L('International undergraduate, standard double housing and average meal plan','Иностранный бакалавр, стандартное двухместное жильё и средний план питания'),
+  tuition=29840,budget=56504,status='previous-cycle',note=L('Annual 2026–27 budget as of July 2026, subject to change; not a Fall 2027 quote. SEVIS fee is explicitly excluded. Books, travel and personal costs are not itemised in this three-line summary and are not assumed covered. The university-published estimate is not a guaranteed bill or net cost after scholarship.',
+    'Годовой бюджет 2026–27 по состоянию на июль 2026, может меняться; не цена осени 2027. SEVIS явно исключён. Книги, дорога и личные расходы в трёхстрочной сводке не расписаны и не считаются покрытыми. Опубликованная университетом оценка — не гарантированный счёт и не остаточная цена после стипендии.'))
+
 # Cost references preserve the exact year, coverage and unresolved contradictions.
 r=records[3]
 r['costs']['note']=L('The international table publishes USD61,156 for nine months: tuition/mandatory fees44,339, housing/food12,431, insurance1,916 and miscellaneous2,470. Its academic year is not established on that table; the domestic page’s2026–27 heading is not transferred. Summer and extra programme/course costs are separate. No comparable Fall2027 annual cost is assigned.',

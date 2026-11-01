@@ -464,7 +464,7 @@
       statsBlock(u.stats) + '</section>';
 
     /* Scholarships */
-    var frCard = '<article class="card fullride-card" style="margin-bottom:16px"><div class="card-body">' +
+    var frCard = '<article class="card fullride-card' + (fr.status === 'conflict' ? ' is-conflict' : '') + '" style="margin-bottom:16px"><div class="card-body">' +
       '<h3 style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">★ Largest award ' +
         (fr.available === true ? '<span class="badge ' + (U.awardKind(u) === 'full-ride' ? 'badge-ok' : 'badge-warn') + '">' + esc(U.awardLabel(u)) + '</span>'
          : fr.available === false ? '<span class="badge badge-warn">Not available</span>'

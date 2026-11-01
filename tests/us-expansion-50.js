@@ -193,4 +193,9 @@ module.exports=function(env){
      'Penn State closed PMM Fall2027 exception has programme-only1470/32 testing; no university-wide minimum');
   ok(fresh.every(function(u){var r=u.scholarships.fullRide;return r.renewable===null||r.renewable===undefined||typeof r.renewable==='boolean';}),
      'Full-level award renewal uses the existing boolean contract with conditions in the field the profile displays');
+  var merced=U.uniById('university-of-california-merced'),bing=U.uniById('binghamton-university');
+  ok([merced,bing].every(function(u){return u.costs.status==='previous-cycle'&&U.costArithmetic(u).length===0&&
+     !DB.match.annualCost[u.id]&&budget(u,100000).status==='unknown';})&&
+     U.budgetAmount(merced)===87924&&U.budgetAmount(bing)===56504&&/SEVIS/.test(bing.costs.note)&&/at-home/.test(merced.costs.note),
+     'Merced cohort/housing-specific and Binghamton international historical estimates preserve exclusions and never confirm Fall2027 budgets');
 };
