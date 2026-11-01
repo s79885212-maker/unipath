@@ -5,33 +5,81 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:University_of_California,_Davis_campus_1_2024-03-26.jpg",
     "author": "Fastily",
     "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "subject": "UC Davis campus",
-    "verified": "2026-10-31",
+    "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "Fastily, CC BY-SA 4.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "a2fe68a93f5e8e326901c736d57124b9d0c26933e720f1cd8d118b63bfbe4381",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/university-of-california-davis/1.jpg",
+    "installedThumb": "assets/img/universities/university-of-california-davis/thumb.jpg",
+    "originalSize": [
+      1920,
+      1440
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 231981,
+    "thumbBytes": 38071,
+    "contentBox": [
+      156,
+      117,
+      888,
+      666
+    ],
+    "mainSha256": "9264521ba6fa6455d055f7223ef9d10159f142f9fa008b8e586cbd53d0019147",
+    "thumbSha256": "118a9186ca65fdd2532dca68c0b3ae1203d91d791dccb0b2260d0470f1980d73"
   },
   {
     "id": "university-of-california-irvine",
     "file": "Aldrich Park, UCI.jpg",
     "filePage": "https://commons.wikimedia.org/wiki/File:Aldrich_Park,_UCI.jpg",
-    "author": "Florian Boyd",
+    "author": "Florian Boyd from Palm Springs, USA",
     "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "subject": "Aldrich Park on UC Irvine campus",
-    "verified": "2026-10-31",
+    "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
-    "attribution": "Florian Boyd, CC BY-SA 2.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "downloaded": true,
+    "attribution": "Florian Boyd from Palm Springs, USA, CC BY-SA 2.0, Wikimedia Commons",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "ed0f7aae7a7dd785267c7bc02c3f5e9284a489e37f7fc44ca769521892460f9d",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/university-of-california-irvine/1.jpg",
+    "installedThumb": "assets/img/universities/university-of-california-irvine/thumb.jpg",
+    "originalSize": [
+      1600,
+      1200
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 223539,
+    "thumbBytes": 42882,
+    "contentBox": [
+      156,
+      117,
+      888,
+      666
+    ],
+    "mainSha256": "99d9bcd6774a63cf40f275f71ca093eaf5358ff2f1ba52a2c53f628b55fe09ea",
+    "thumbSha256": "037b03152be172cae8cde132ba0f1f9b41c233fca4dcb1b0a52e68306ecb456b"
   },
   {
     "id": "university-of-illinois-urbana-champaign",
@@ -39,16 +87,40 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:Foellinger_Auditorium_-_UIUC_-_DSC09127.JPG",
     "author": "Daderot",
     "license": "Public domain",
-    "licenseUrl": "https://en.wikipedia.org/wiki/Public_domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Foellinger_Auditorium_-_UIUC_-_DSC09127.JPG#Licensing",
     "subject": "Foellinger Auditorium, UIUC",
-    "verified": "2026-10-31",
+    "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "Daderot, Public domain, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "6dc91394f19a2eb98f616ae5b6abcefb497c7c32d554aaaff77ba32886bb93ae",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/university-of-illinois-urbana-champaign/1.jpg",
+    "installedThumb": "assets/img/universities/university-of-illinois-urbana-champaign/thumb.jpg",
+    "originalSize": [
+      1920,
+      1440
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 163316,
+    "thumbBytes": 30566,
+    "contentBox": [
+      156,
+      117,
+      888,
+      666
+    ],
+    "mainSha256": "c6f3f4f21fc921a0cce5fd434d35f468c4e0aaadcc43c5d16b8d4c4f32d974aa",
+    "thumbSha256": "8cc01914c39924ff353335f4a41ad095632a3f121e6974971b03bbf0cedd92e2"
   },
   {
     "id": "university-of-texas-at-austin",
@@ -56,16 +128,40 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:University_of_texas_at_austin_main_building_2014.jpg",
     "author": "Larry D. Moore",
     "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "subject": "Main Building, UT Austin",
-    "verified": "2026-10-31",
+    "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "Larry D. Moore, CC BY 4.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "da5cd2bc27c37d815f915dc5072ff620172b43cf839e33241bc23c26f0b76e44",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/university-of-texas-at-austin/1.jpg",
+    "installedThumb": "assets/img/universities/university-of-texas-at-austin/thumb.jpg",
+    "originalSize": [
+      1920,
+      1536
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 108967,
+    "thumbBytes": 22065,
+    "contentBox": [
+      184,
+      117,
+      832,
+      666
+    ],
+    "mainSha256": "332dc7d6685e8fdfb518de2382d080ea94a43d84fcf98e7a1127dccf9fb8adab",
+    "thumbSha256": "22cf83acf1fa1bf7ec582061496b0a02ed5ede4dc9c46f3890a08f12999a6efc"
   },
   {
     "id": "university-of-wisconsin-madison",
@@ -73,33 +169,81 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:University_of_Wisconsin–Madison_August_2022_09_(Bascom_Hall).jpg",
     "author": "Michael Barera",
     "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "subject": "Bascom Hall, UW Madison",
-    "verified": "2026-10-31",
+    "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "Michael Barera, CC BY-SA 4.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "7bcf1e2064c11a5bb11ecb3f6f27a336f77b4434363cd8c03ca9b519cb5a0ab4",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/university-of-wisconsin-madison/1.jpg",
+    "installedThumb": "assets/img/universities/university-of-wisconsin-madison/thumb.jpg",
+    "originalSize": [
+      1920,
+      1280
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 145669,
+    "thumbBytes": 26792,
+    "contentBox": [
+      101,
+      117,
+      998,
+      666
+    ],
+    "mainSha256": "25885a86056a5827b6f92641488b3911c390fbd4a4b3e52a8709ea8c65c8f3a6",
+    "thumbSha256": "d02ef7da3ca97684cdfc865e56e90bbfcb6fca8b0b452ebcfec042f4278ebe61"
   },
   {
     "id": "rutgers-university-new-brunswick",
     "file": "Old Queens Rutgers.jpg",
     "filePage": "https://commons.wikimedia.org/wiki/File:Old_Queens_Rutgers.jpg",
-    "author": "Rickyrab",
+    "author": "Rickyrab at English Wikipedia",
     "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
     "subject": "Old Queens, Rutgers University, New Brunswick",
-    "verified": "2026-10-31",
+    "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
-    "attribution": "Rickyrab, CC BY-SA 3.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "downloaded": true,
+    "attribution": "Rickyrab at English Wikipedia, CC BY-SA 3.0, Wikimedia Commons",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "6c4c891a9e13a3f83ec86aa6f984d123e51cbef79e11cc72e985133d8a952dac",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/rutgers-university-new-brunswick/1.jpg",
+    "installedThumb": "assets/img/universities/rutgers-university-new-brunswick/thumb.jpg",
+    "originalSize": [
+      1546,
+      1132
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 170620,
+    "thumbBytes": 36888,
+    "contentBox": [
+      145,
+      117,
+      909,
+      666
+    ],
+    "mainSha256": "3c2b5eb0bf168e488108b44635f13e665447a8e9502dc98101f9e824371e1bd6",
+    "thumbSha256": "874ac575a37940e8357a25347d89e1b1504017a4befe4bcb04c82b03a4f11616"
   },
   {
     "id": "university-of-california-santa-barbara",
@@ -107,16 +251,40 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:UC_Santa_Barbara_Library_(35399729253).jpg",
     "author": "UCSB Library",
     "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "subject": "West entrance, UC Santa Barbara Library",
-    "verified": "2026-10-31",
+    "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "UCSB Library, CC BY-SA 2.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "9a8b211b6373a5380b6455307cb8f02e7d80670921abb68cb93419d8ac0e0831",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/university-of-california-santa-barbara/1.jpg",
+    "installedThumb": "assets/img/universities/university-of-california-santa-barbara/thumb.jpg",
+    "originalSize": [
+      1920,
+      1280
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 210155,
+    "thumbBytes": 40970,
+    "contentBox": [
+      101,
+      117,
+      998,
+      666
+    ],
+    "mainSha256": "d5fe6c6426da0fae1fdee0d7d626f87fc724ba59d69ca2daf2827a8c95d5c2a0",
+    "thumbSha256": "f49583e561c72a4f53ee6fadafc35d5c4972ba71fccab6b7879fb5bd9b095c08"
   },
   {
     "id": "university-of-georgia",
@@ -124,16 +292,40 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:UGA_Chapel.jpg",
     "author": "Coxonian",
     "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "subject": "University of Georgia Chapel",
-    "verified": "2026-10-31",
+    "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "Coxonian, CC BY-SA 4.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "6a0e7930bb0c9693b02bb614d8e407b527a8eb1544344f9b086e473c99352fe4",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/university-of-georgia/1.jpg",
+    "installedThumb": "assets/img/universities/university-of-georgia/thumb.jpg",
+    "originalSize": [
+      1080,
+      1080
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 150764,
+    "thumbBytes": 27609,
+    "contentBox": [
+      267,
+      117,
+      666,
+      666
+    ],
+    "mainSha256": "806ac26cd259fc098b118a86026556a05275b9d7cb77c6901a9479b95638e339",
+    "thumbSha256": "b8b27efa7cedd8d363cf8bc93265154dee569b29df14a92d5fa676ab74292f37"
   },
   {
     "id": "virginia-tech",
@@ -141,16 +333,40 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:Burruss_Hall,_Virginia_Tech.JPG",
     "author": "CBGator87",
     "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "subject": "Burruss Hall, Virginia Tech, Blacksburg",
-    "verified": "2026-10-31",
+    "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "CBGator87, CC BY-SA 3.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "6259aebffacf14e101ac4441c25940809ddf59491bc55c8d0e89a1f5181df40e",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/virginia-tech/1.jpg",
+    "installedThumb": "assets/img/universities/virginia-tech/thumb.jpg",
+    "originalSize": [
+      1920,
+      1246
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 201460,
+    "thumbBytes": 36051,
+    "contentBox": [
+      87,
+      117,
+      1026,
+      666
+    ],
+    "mainSha256": "91a2cc4a2b9d9c20dcbe09120db39716e5e0ebd8e713ff792ec6cbbfe5054a98",
+    "thumbSha256": "5b1b7b978c45e0a5bb3d9fc14a57ec66b158581a06134f260b734ef3076300ee"
   },
   {
     "id": "pennsylvania-state-university-university-park",
@@ -158,16 +374,40 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:Penn_state_old_main_summer.jpg",
     "author": "George Chriss",
     "license": "CC BY 2.5",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
     "subject": "Old Main, Penn State University Park",
-    "verified": "2026-10-31",
+    "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "George Chriss, CC BY 2.5, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "98cd1d1da8f53c97b14ad5bb10b27e557ddb04cc1a9568e3095160d5a52f70d5",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/pennsylvania-state-university-university-park/1.jpg",
+    "installedThumb": "assets/img/universities/pennsylvania-state-university-university-park/thumb.jpg",
+    "originalSize": [
+      1600,
+      1200
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 116509,
+    "thumbBytes": 23630,
+    "contentBox": [
+      156,
+      117,
+      888,
+      666
+    ],
+    "mainSha256": "1a757a6a8b9f13e7e49bd96af56070fd9a1eb901e0711e91c9602f79b50124c0",
+    "thumbSha256": "e43d043276b4af6aa54d4ad1100a4c0446855d7e5cc65a71765e26a6713a5bc2"
   },
   {
     "id": "university-of-pittsburgh",
@@ -175,16 +415,40 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Learning_in_the_University_of_Pittsburgh_-_Mar_2025.jpg",
     "author": "LR.127",
     "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "subject": "Cathedral of Learning, University of Pittsburgh",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "LR.127, CC BY 4.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "2043370b26a28ff26caed51e13e4573b4590f032ab972141d147a03db9271491",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/university-of-pittsburgh/1.jpg",
+    "installedThumb": "assets/img/universities/university-of-pittsburgh/thumb.jpg",
+    "originalSize": [
+      1920,
+      2880
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 50605,
+    "thumbBytes": 11633,
+    "contentBox": [
+      378,
+      117,
+      444,
+      666
+    ],
+    "mainSha256": "ee3184cd09ccc0fbdcd3f299f99746aaab9c866cf95cf241dd57779a4d13be83",
+    "thumbSha256": "f3b6b3011a1ddaea50b0ade2c7ee0387768a46a7a0c18e3fd24e944eb1ff133f"
   },
   {
     "id": "university-of-california-merced",
@@ -192,51 +456,123 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:UC_Merced_COB1_and_COB2.jpg",
     "author": "Dr vulpes",
     "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "subject": "Classroom and Office Buildings One and Two, UC Merced",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "Dr vulpes, CC BY-SA 4.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "c2d035bbd5bd81729ed60b1a3de9f3dd95f2c0c98a0b04821b5519de42a93a6d",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/university-of-california-merced/1.jpg",
+    "installedThumb": "assets/img/universities/university-of-california-merced/thumb.jpg",
+    "originalSize": [
+      1920,
+      419
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 67238,
+    "thumbBytes": 14462,
+    "contentBox": [
+      0,
+      319,
+      1200,
+      261
+    ],
+    "mainSha256": "c2296a0cdcfc21ac716d1f8ed11dd49b9f89a11fcef8186b2005aed125444757",
+    "thumbSha256": "5e9b48325ccef45bb7f834b03b9abfdcf7e8a578c238bdcc0bf8983eb3e88108"
   },
   {
     "id": "binghamton-university",
     "file": "Couper Building at Binghamton University.jpg",
     "filePage": "https://commons.wikimedia.org/wiki/File:Couper_Building_at_Binghamton_University.jpg",
-    "author": "Benjamin D. Esham",
+    "author": "Benjamin D. Esham (bdesham)",
     "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "subject": "Couper administration building, Binghamton University",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
-    "attribution": "Benjamin D. Esham / Wikimedia Commons, CC BY-SA 4.0",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "downloaded": true,
+    "attribution": "Benjamin D. Esham (bdesham), CC BY-SA 4.0, Wikimedia Commons",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "35978573fd94262746c27546a7b2809f4034b623f8e738b947584175416a29c6",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/binghamton-university/1.jpg",
+    "installedThumb": "assets/img/universities/binghamton-university/thumb.jpg",
+    "originalSize": [
+      1920,
+      1280
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 145150,
+    "thumbBytes": 28519,
+    "contentBox": [
+      101,
+      117,
+      998,
+      666
+    ],
+    "mainSha256": "f0daf7158d77f768b56719c174835d35002830867467fc62e79d4c49fd369c1a",
+    "thumbSha256": "d4b9dc2d96920db519a01363d807b7978e0992803fc06674cf9fcb3a157916d1"
   },
   {
     "id": "indiana-university-bloomington",
     "file": "Sample Gates, Indiana University Bloomington, 2010.jpg",
     "filePage": "https://commons.wikimedia.org/wiki/File:Sample_Gates,_Indiana_University_Bloomington,_2010.jpg",
-    "author": "Alan Mauro / IT Communications Office",
+    "author": "IT Communications Office",
     "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "subject": "Sample Gates, Indiana University Bloomington",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
-    "attribution": "Alan Mauro / IT Communications Office, CC BY 2.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "downloaded": true,
+    "attribution": "IT Communications Office, CC BY 2.0, Wikimedia Commons",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "metadataNote": "File author field credits IT Communications Office; embedded photographer credit Alan Mauro. Preserve both.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "b54328d54606f91b236efe06c6929ea5c1852261a280423f9e803da1c50ed543",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/indiana-university-bloomington/1.jpg",
+    "installedThumb": "assets/img/universities/indiana-university-bloomington/thumb.jpg",
+    "originalSize": [
+      1920,
+      1080
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 258714,
+    "thumbBytes": 47779,
+    "contentBox": [
+      8,
+      117,
+      1184,
+      666
+    ],
+    "mainSha256": "c91beea5d800e49858ca581a5dcebbf457e9b600211cad9ed13676f9410ae1b5",
+    "thumbSha256": "a6934f6ed2b27b60bbab9d85ab4f44d25d8ca197d2abb52b2f433ff1f248e034"
   },
   {
     "id": "north-carolina-state-university",
@@ -244,34 +580,82 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:The_Memorial_Belltower_in_NC_State,_September_2022.jpg",
     "author": "DiscoA340",
     "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "subject": "Memorial Belltower, NC State University, Raleigh",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "DiscoA340, CC BY-SA 4.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "221a3fdb2c3c2541c3ee5994ecd53c557e4e9c9d92386c4b5c8815750084120a",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/north-carolina-state-university/1.jpg",
+    "installedThumb": "assets/img/universities/north-carolina-state-university/thumb.jpg",
+    "originalSize": [
+      1920,
+      2560
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 47172,
+    "thumbBytes": 11597,
+    "contentBox": [
+      350,
+      117,
+      499,
+      666
+    ],
+    "mainSha256": "24995ebd9f00083b870f18fe882ec79f8b35ce42b50544b1518c7fdb1ac79fa7",
+    "thumbSha256": "753d77ced3ad0b7a1cdca5b913e7d877c8353f93c4e085630c584cf556032b7b"
   },
   {
     "id": "rutgers-university-newark",
     "file": "Rutgers-Newark.JPG",
     "filePage": "https://commons.wikimedia.org/wiki/File:Rutgers-Newark.JPG",
-    "author": "Darkcore",
+    "author": "Darkcore (Commons: Darkcore~commonswiki; credited in image description)",
     "license": "CC BY 2.5",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
     "subject": "Rutgers Newark campus",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
-    "attribution": "Darkcore, CC BY 2.5, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "downloaded": true,
+    "attribution": "Darkcore (Commons: Darkcore~commonswiki; credited in image description), CC BY 2.5, Wikimedia Commons",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "metadataNote": "Description credits Darkcore; machine author/source marked assumed. EXIF date differs from description. Do not present a precise photograph date.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "955a5ebb85fa2cc41e66bb1c3aab48ba686dbaa97d15c52e4b5df53b182acd78",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/rutgers-university-newark/1.jpg",
+    "installedThumb": "assets/img/universities/rutgers-university-newark/thumb.jpg",
+    "originalSize": [
+      1600,
+      1200
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 134407,
+    "thumbBytes": 26399,
+    "contentBox": [
+      156,
+      117,
+      888,
+      666
+    ],
+    "mainSha256": "62b16cc7d838ad1c2b2d902861d497f847af8b0d896cf719f621fa40f5f7205e",
+    "thumbSha256": "911b5924e3dc89febb54b692641687915ca3e85a5320cf0b207f9452697fe46d"
   },
   {
     "id": "university-of-connecticut",
@@ -279,16 +663,40 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:Wilbur_Cross_Library,_UConn,_Storrs_CT.jpg",
     "author": "Jerry Dougherty",
     "license": "CC BY 2.5",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
     "subject": "Wilbur Cross Library, University of Connecticut, Storrs",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "Jerry Dougherty, CC BY 2.5, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "17e202d29f9bbc84db70ef53961f68ad48bf1f9c166a75f1a53e0215ccec8048",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/university-of-connecticut/1.jpg",
+    "installedThumb": "assets/img/universities/university-of-connecticut/thumb.jpg",
+    "originalSize": [
+      750,
+      561
+    ],
+    "outputSize": [
+      1000,
+      750
+    ],
+    "mainBytes": 106899,
+    "thumbBytes": 26461,
+    "contentBox": [
+      129,
+      97,
+      741,
+      555
+    ],
+    "mainSha256": "5d188b16cff63fff9f23b153d3f14f7fa9cd89d7ec71c52645e587e259f3af33",
+    "thumbSha256": "c0236cfb9ef9c6ae9817e394f0c24297e2817cf9520568e335abd389b4d33466"
   },
   {
     "id": "clemson-university",
@@ -296,16 +704,40 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:Tillman_Hall-Clemson_University.jpg",
     "author": "Ckey11",
     "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "subject": "Tillman Hall, Clemson University Historic District I",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "Ckey11, CC BY-SA 3.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "42042cf8e333003d6e6857174ea45e7c350cfeb9d18984b590f0c8080c5be049",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/clemson-university/1.jpg",
+    "installedThumb": "assets/img/universities/clemson-university/thumb.jpg",
+    "originalSize": [
+      1920,
+      2560
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 70562,
+    "thumbBytes": 15810,
+    "contentBox": [
+      350,
+      117,
+      499,
+      666
+    ],
+    "mainSha256": "4d18624d65a427d755ebc50b023e0e331dfcd6198ba5057ef81e667ec98fb218",
+    "thumbSha256": "27db71e69c1d16c26a6c03ff177133d7f1920dc35775d630e5ddb03ba6cf576d"
   },
   {
     "id": "colorado-school-of-mines",
@@ -313,16 +745,40 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:GuggenheimHall_01Oct2017.jpg",
     "author": "Yassie",
     "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "subject": "Guggenheim Hall, Colorado School of Mines, Golden",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "Yassie, CC BY-SA 4.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "03404714801b20243785fee3e59f79d69f064170459f77d778f0dc81786e5580",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/colorado-school-of-mines/1.jpg",
+    "installedThumb": "assets/img/universities/colorado-school-of-mines/thumb.jpg",
+    "originalSize": [
+      1920,
+      1440
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 109483,
+    "thumbBytes": 22715,
+    "contentBox": [
+      156,
+      117,
+      888,
+      666
+    ],
+    "mainSha256": "2a27ae1b79bdb1f5ff89f2a2efc8cbb37a9f2b269aa4735bd062eac8ed03ed88",
+    "thumbSha256": "af0d5d9ae65ca5427e7944fa2744cc3eb7e77ab81806cf2fd071b5fa202faf8c"
   },
   {
     "id": "university-of-california-riverside",
@@ -330,16 +786,40 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:UC_Riverside_campus_as_viewed_from_Box_Spring_Mountain.jpg",
     "author": "Advythr",
     "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "subject": "UC Riverside campus viewed from Box Spring Mountain",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "Advythr, CC BY-SA 4.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "4d6b0edcef62ae3bc7662d505f600fcb42750b2ea9663b3569c24903b534a245",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/university-of-california-riverside/1.jpg",
+    "installedThumb": "assets/img/universities/university-of-california-riverside/thumb.jpg",
+    "originalSize": [
+      1920,
+      1440
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 117023,
+    "thumbBytes": 22937,
+    "contentBox": [
+      156,
+      117,
+      888,
+      666
+    ],
+    "mainSha256": "d9618fb03df9520a6c7c2bab68c56e281b153b32a673f590ffe011ade6d6f143",
+    "thumbSha256": "5048b6f3d68184c2bed38e82ca0be0c19a316671a87a2450357ff53a7a6b5c46"
   },
   {
     "id": "new-jersey-institute-of-technology",
@@ -347,16 +827,40 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:NJIT-Eberhardt-Hall.jpg",
     "author": "Andrew nyr",
     "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "subject": "Eberhardt Hall, NJIT, Newark",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "Andrew nyr, CC BY-SA 4.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "a1deef7f00c17cbb6dfe685fb0f4ce3bf16c57a2a0afda4adc1f6b6afc2de7ff",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/new-jersey-institute-of-technology/1.jpg",
+    "installedThumb": "assets/img/universities/new-jersey-institute-of-technology/thumb.jpg",
+    "originalSize": [
+      1920,
+      1440
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 182412,
+    "thumbBytes": 31650,
+    "contentBox": [
+      156,
+      117,
+      888,
+      666
+    ],
+    "mainSha256": "e28c1b5a1d7f5c5767568995d09a1dd20b9fd4fc876e4ee2e144ce623713431c",
+    "thumbSha256": "251d6a829ac0b0bca68cd9d825222fe1c524282d552cfb6a8561e49af86ecdbb"
   },
   {
     "id": "university-at-buffalo",
@@ -364,16 +868,40 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:Hayes_hall_on_UB_south_campus.jpg",
     "author": "Davidhar",
     "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "subject": "Hayes Hall, University at Buffalo South Campus",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "Davidhar, CC BY-SA 3.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "84376ad2328a24978e4df9a127705d64f05ed009cadd4817aeef11dd98638db1",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/university-at-buffalo/1.jpg",
+    "installedThumb": "assets/img/universities/university-at-buffalo/thumb.jpg",
+    "originalSize": [
+      1920,
+      1440
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 150745,
+    "thumbBytes": 27908,
+    "contentBox": [
+      156,
+      117,
+      888,
+      666
+    ],
+    "mainSha256": "37350c0897bd03b569c7f00c5d0e5ceaf93d88960aadafe7bab923e6261feef2",
+    "thumbSha256": "908d932934dbf16ed684b0aff282b22eef35f05fb8bbd888bbfb82b52082e0cf"
   },
   {
     "id": "university-of-delaware",
@@ -381,51 +909,123 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:UDMemorialHall1.jpg",
     "author": "Lowell Silverman",
     "license": "CC BY-SA 2.5",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
     "subject": "Memorial Hall, University of Delaware",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "Lowell Silverman, CC BY-SA 2.5, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "74bdebfc9c1a01e53a2ca6cb49746a087fc3639a438a40d2d249a16c89e6e5e6",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/university-of-delaware/1.jpg",
+    "installedThumb": "assets/img/universities/university-of-delaware/thumb.jpg",
+    "originalSize": [
+      768,
+      1024
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 58820,
+    "thumbBytes": 12011,
+    "contentBox": [
+      350,
+      117,
+      499,
+      666
+    ],
+    "mainSha256": "e887d34f3fc4407845e132fe356ded8470497f8adaef33e477cbc6fd8b0cbb4b",
+    "thumbSha256": "3473be2f6e62d0f0ce4f76ae5de0e57c7ecdda582f4dc977aa0777c2abf714ce"
   },
   {
     "id": "rutgers-university-camden",
     "file": "Ru-camden-campus walk.jpg",
     "filePage": "https://commons.wikimedia.org/wiki/File:Ru-camden-campus_walk.jpg",
-    "author": "Henry Montesino (Ears823)",
+    "author": "Henry Montesino",
     "license": "Public domain",
-    "licenseUrl": "https://en.wikipedia.org/wiki/Public_domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ru-camden-campus_walk.jpg#Licensing",
     "subject": "Rutgers Camden campus walking path",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
-    "attribution": "Henry Montesino (Ears823), Public domain, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "downloaded": true,
+    "attribution": "Henry Montesino, Public domain, Wikimedia Commons",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "b8cd1bd55772f30946cca0546beaaf0d759d3c5f6893e61d9aaa121c36cc37e6",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/rutgers-university-camden/1.jpg",
+    "installedThumb": "assets/img/universities/rutgers-university-camden/thumb.jpg",
+    "originalSize": [
+      500,
+      332
+    ],
+    "outputSize": [
+      592,
+      444
+    ],
+    "mainBytes": 77073,
+    "thumbBytes": 55681,
+    "contentBox": [
+      49,
+      58,
+      494,
+      328
+    ],
+    "mainSha256": "c8d1a0bd21fc603b129e1af69e68c7504d38a4f380be6307dab44ae7139df25f",
+    "thumbSha256": "14e25a40835fe28857c6b0a0c5d8eec70e403be7e740edef8bd34bdfdbbcfd30"
   },
   {
     "id": "university-of-illinois-chicago",
     "file": "UIC UniversityHall.jpg",
     "filePage": "https://commons.wikimedia.org/wiki/File:UIC_UniversityHall.jpg",
-    "author": "Onar Vikingstad",
+    "author": "Onar Vikingstad (credited in image description)",
     "license": "Public domain",
-    "licenseUrl": "https://en.wikipedia.org/wiki/Public_domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:UIC_UniversityHall.jpg#Licensing",
     "subject": "University Hall, UIC East Campus",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
-    "attribution": "Onar Vikingstad, Public domain, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "downloaded": true,
+    "attribution": "Onar Vikingstad (credited in image description), Public domain, Wikimedia Commons",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "metadataNote": "Description explicitly credits Onar Vikingstad; machine author is legacy/assumed. Ignore the unsourced ranking claim in the description.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "4c21e1520913046912f175fd47fd608a2b1f616a8df497b17ae69aee3f85e132",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/university-of-illinois-chicago/1.jpg",
+    "installedThumb": "assets/img/universities/university-of-illinois-chicago/thumb.jpg",
+    "originalSize": [
+      768,
+      1024
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 92019,
+    "thumbBytes": 19438,
+    "contentBox": [
+      350,
+      117,
+      499,
+      666
+    ],
+    "mainSha256": "934b61fa979eb90cd0f52b94ceee4e477debfbac9bf126fcb58931076a188c86",
+    "thumbSha256": "c1e7322a123e24e49d9f99ce21185d46d47020a2637a84a8a041135328d8ae02"
   },
   {
     "id": "university-of-missouri",
@@ -433,34 +1033,82 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:Jesse_Hall_and_the_Columns_at_Mizzou.jpg",
     "author": "Dylanchapell",
     "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "subject": "Jesse Hall and the Columns, Columbia, Missouri",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "Dylanchapell, CC BY-SA 4.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "0e97262cc08aa2118e0acf2238aab01d45031cd79857c91d19b1db0ad88920eb",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/university-of-missouri/1.jpg",
+    "installedThumb": "assets/img/universities/university-of-missouri/thumb.jpg",
+    "originalSize": [
+      1920,
+      2560
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 65876,
+    "thumbBytes": 13717,
+    "contentBox": [
+      350,
+      117,
+      499,
+      666
+    ],
+    "mainSha256": "77e9004460d5283f3a7a5a159a1053b1c7ab446f0d5c9d0873fcfb1fc26263b4",
+    "thumbSha256": "b4eecaea7f35cd2723c27be1c3c35019be93d214ed313e3ab3ba6a4cf8aa7c0d"
   },
   {
     "id": "auburn-university",
     "file": "Auburn campus with Samford Hall.jpg",
     "filePage": "https://commons.wikimedia.org/wiki/File:Auburn_campus_with_Samford_Hall.jpg",
-    "author": "dregsplod / carterse",
+    "author": "dregsplod from Tulsa, Oklahoma, USA (Flickr; uploaded by Gary Dee)",
     "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "subject": "Samford Hall, Auburn University",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
-    "attribution": "dregsplod / carterse, CC BY 2.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
-    "metadataNote": "Description credits dregsplod; structured creator name carterse. Preserve both until identity/credit checked visually against source.",
+    "downloaded": true,
+    "attribution": "dregsplod from Tulsa, Oklahoma, USA (Flickr; uploaded by Gary Dee), CC BY 2.0, Wikimedia Commons",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
+    "metadataNote": "Nov1 downloaded Commons API metadata names dregsplod from Tulsa as Artist, with original Flickr credit and uploaded by Gary Dee. Earlier carterse alias is not assumed to be the photographer.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "95c26cb6b107d20149e97d3eec908d3517c9bb7cfe8406fefa73458adc9a8d37",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/auburn-university/1.jpg",
+    "installedThumb": "assets/img/universities/auburn-university/thumb.jpg",
+    "originalSize": [
+      1920,
+      1180
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 232782,
+    "thumbBytes": 41123,
+    "contentBox": [
+      58,
+      117,
+      1083,
+      666
+    ],
+    "mainSha256": "ad32babca387c23b6ed49a4447c5e752a05868e85e75b0f3c6f05079d6978933",
+    "thumbSha256": "85cb78c11c5807ed5aebbd29332567d7fd333ab197ec08af0715190615f70e0a"
   },
   {
     "id": "florida-international-university",
@@ -472,13 +1120,15 @@
     "subject": "FIU campus, exact campus location requires visual confirmation",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "Eduardo Merille, CC BY-SA 2.0, Wikimedia Commons",
     "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
     "metadataNote": "Institution named in description; exact campus not established. Confirm location before accepting the image for this campus profile.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-held",
+    "downloadedSha256": "0aac5ce455c43db3b68330c73017e265635418789f742f49c910b5fdcda303de",
+    "reviewNote": "Exact campus not established by the downloaded description; verify MMC versus Biscayne before use."
   },
   {
     "id": "university-of-south-florida",
@@ -486,51 +1136,123 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:Marshallstudentcenter4_usf_tampa.jpg",
     "author": "FightingRaven531",
     "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "subject": "Marshall Student Center, USF Tampa",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "FightingRaven531, CC BY-SA 3.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "09aa48ad979a370bd0816555e455958a662a522ecc6988aa410b16c680b712a3",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/university-of-south-florida/1.jpg",
+    "installedThumb": "assets/img/universities/university-of-south-florida/thumb.jpg",
+    "originalSize": [
+      1024,
+      764
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 107064,
+    "thumbBytes": 24546,
+    "contentBox": [
+      154,
+      117,
+      892,
+      666
+    ],
+    "mainSha256": "c027be97b54b3f1f07f9b4206dd3bceb60e46603fac1b436da863330a78bc3f4",
+    "thumbSha256": "bc45920ceaa637b12ae07e6b8aaff64bc3b0170e3ab996c8b8f102f6e830819e"
   },
   {
     "id": "university-of-california-santa-cruz",
     "file": "McHenry Library.jpg",
     "filePage": "https://commons.wikimedia.org/wiki/File:McHenry_Library.jpg",
-    "author": "MKen",
+    "author": "MKen (Wikimedia Commons)",
     "license": "Public domain",
-    "licenseUrl": "https://en.wikipedia.org/wiki/Public_domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:McHenry_Library.jpg#Licensing",
     "subject": "McHenry Library entrance, UC Santa Cruz",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
-    "attribution": "MKen, Public domain, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "downloaded": true,
+    "attribution": "MKen (Wikimedia Commons), Public domain, Wikimedia Commons",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "metadataNote": "Author/source use legacy assumed metadata; file copyright holder explicitly released public domain. Photograph is historical, not a claim of current building condition.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "3ff34ee6831eba909f46ccdab90122dd2b8d50c3a02d8856c845f401c1db4b8b",
+    "reviewNote": "Nov1 actual Commons file page read: explicit PD-self worldwide release by copyright holder; sole upload history identifies MKen. Author field attributes MKen with an assumed qualifier, retained here rather than asserting another real-world identity. Actual downloaded McHenry Library entrance was visually checked.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/university-of-california-santa-cruz/1.jpg",
+    "installedThumb": "assets/img/universities/university-of-california-santa-cruz/thumb.jpg",
+    "originalSize": [
+      1024,
+      768
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 148927,
+    "thumbBytes": 31563,
+    "contentBox": [
+      156,
+      117,
+      888,
+      666
+    ],
+    "mainSha256": "68bf3a9511656e94d391a6f34c54768f2c351430c203062d1d2758771340f53b",
+    "thumbSha256": "aeda37dd00c573068ee86d460e8ce244713b14ed8c548345655cd80e9d55d4fe"
   },
   {
     "id": "university-of-colorado-boulder",
     "file": "Old Main - Colorado.jpg",
     "filePage": "https://commons.wikimedia.org/wiki/File:Old_Main_-_Colorado.jpg",
-    "author": "MECU",
+    "author": "MECU (MECU≈talk)",
     "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
     "subject": "Old Main, University of Colorado Boulder",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
-    "attribution": "MECU, CC BY-SA 3.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "downloaded": true,
+    "attribution": "MECU (MECU≈talk), CC BY-SA 3.0, Wikimedia Commons",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "9b770f9dcac45309b76d8287baf447d33afcd42f77e1e529ad9fc86800a2ca66",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/university-of-colorado-boulder/1.jpg",
+    "installedThumb": "assets/img/universities/university-of-colorado-boulder/thumb.jpg",
+    "originalSize": [
+      1920,
+      1440
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 267971,
+    "thumbBytes": 46083,
+    "contentBox": [
+      156,
+      117,
+      888,
+      666
+    ],
+    "mainSha256": "258d8aef1239282a59445ca3ca5770911ac89711ca0aa5150e52417a814bac98",
+    "thumbSha256": "9fd1463bba0067cba482482be0988f9eaf991e0d575ab8ecec528e6124d7ba7d"
   },
   {
     "id": "university-of-new-hampshire",
@@ -538,50 +1260,122 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:Thompson_Hall,_UNH_1.jpg",
     "author": "AcrossTheAtlantic",
     "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "subject": "Thompson Hall, University of New Hampshire",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "AcrossTheAtlantic, CC BY-SA 4.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "9b1c6144cb93c0c310c8d49c1cdec9741bf0adb29012f6b4e2ec10c1db52e069",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/university-of-new-hampshire/1.jpg",
+    "installedThumb": "assets/img/universities/university-of-new-hampshire/thumb.jpg",
+    "originalSize": [
+      1920,
+      2550
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 115873,
+    "thumbBytes": 22905,
+    "contentBox": [
+      349,
+      117,
+      501,
+      666
+    ],
+    "mainSha256": "5ceb69826dc2ea14b620a06c41029c328fc077f80ad97cd3878d62e00dd4e27c",
+    "thumbSha256": "f6632bfca32032a8e3ae57b29c213599387929fe18f924a95a21abcc987a6170"
   },
   {
     "id": "university-of-tennessee-knoxville",
     "file": "Ayres Hall, University of Tennessee at Knoxville, Fort Sanders, Knoxville, TN - 52497742705.jpg",
     "filePage": "https://commons.wikimedia.org/wiki/File:Ayres_Hall,_University_of_Tennessee_at_Knoxville,_Fort_Sanders,_Knoxville,_TN_-_52497742705.jpg",
-    "author": "Warren LeMay (w_lemay)",
+    "author": "w_lemay",
     "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "subject": "Ayres Hall, University of Tennessee Knoxville",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
-    "attribution": "Warren LeMay (w_lemay), CC BY-SA 2.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "downloaded": true,
+    "attribution": "w_lemay, CC BY-SA 2.0, Wikimedia Commons",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "2a8dc533792b22c25725dcfeafff6dbd7d5c3a68a554c41c18ef9bccc971ea56",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/university-of-tennessee-knoxville/1.jpg",
+    "installedThumb": "assets/img/universities/university-of-tennessee-knoxville/thumb.jpg",
+    "originalSize": [
+      1920,
+      2560
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 150897,
+    "thumbBytes": 26379,
+    "contentBox": [
+      350,
+      117,
+      499,
+      666
+    ],
+    "mainSha256": "e91a0340fbf6b88cca847b7075ca0987490e964d10d52f390d5ede07a625b7fd",
+    "thumbSha256": "1ce1cda4f52cf07b932b80026a6fb47f94c019396ada88e6c13f42696c36eeaf"
   },
   {
     "id": "wake-forest-university",
     "file": "Wait.chapel.png",
     "filePage": "https://commons.wikimedia.org/wiki/File:Wait.chapel.png",
-    "author": "Fennec",
+    "author": "Fennec at English Wikipedia",
     "license": "Public domain",
-    "licenseUrl": "https://en.wikipedia.org/wiki/Public_domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Wait.chapel.png#Licensing",
     "subject": "Wait Chapel, Wake Forest University",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
-    "attribution": "Fennec, Public domain, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "downloaded": true,
+    "attribution": "Fennec at English Wikipedia, Public domain, Wikimedia Commons",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "8f6d296b662d208fb291726cb8eddb38fd8e1d58628edf6b3cad35f635564aa8",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/wake-forest-university/1.jpg",
+    "installedThumb": "assets/img/universities/wake-forest-university/thumb.jpg",
+    "originalSize": [
+      486,
+      497
+    ],
+    "outputSize": [
+      884,
+      663
+    ],
+    "mainBytes": 32440,
+    "thumbBytes": 12349,
+    "contentBox": [
+      202,
+      86,
+      479,
+      490
+    ],
+    "mainSha256": "f3f49e5ba25182234cce30ce37ec3c4b1b6e585ea735544a69ecd93d2cac994f",
+    "thumbSha256": "3974baae25df0cd1e6bf91249cf9a5dbadd9c6e8519cc7e01e4d1659e909143f"
   },
   {
     "id": "george-washington-university",
@@ -589,16 +1383,40 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:University_Yard_George_Washington_University.JPG",
     "author": "Pjn1990",
     "license": "CC BY 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "subject": "University Yard, George Washington University",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "Pjn1990, CC BY 3.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "f105a2d314323814627e8266040ec3b6cfe93fdc59d14b7d9059d4bb81e42543",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/george-washington-university/1.jpg",
+    "installedThumb": "assets/img/universities/george-washington-university/thumb.jpg",
+    "originalSize": [
+      1600,
+      1200
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 128969,
+    "thumbBytes": 26182,
+    "contentBox": [
+      156,
+      117,
+      888,
+      666
+    ],
+    "mainSha256": "6c4075750db8ca7d8cf4bf3e3e65eac7bb249bc78642070901558edba9d0ac7b",
+    "thumbSha256": "2106e6d9d936e6172c062a8ac063d351b12cf7c56059729dfa1967bd9f6ef7d6"
   },
   {
     "id": "stevens-institute-of-technology",
@@ -606,16 +1424,40 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:Stevens_Institute_of_Technology_campus.JPG",
     "author": "Sharkface217",
     "license": "Public domain",
-    "licenseUrl": "https://en.wikipedia.org/wiki/Public_domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Stevens_Institute_of_Technology_campus.JPG#Licensing",
     "subject": "Stevens campus with Hoboken in the background",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "Sharkface217, Public domain, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "b0ffbc25725ae4bde6a14f7d7a418cc7bfcc7c64a3b342348dba6dfbec3987d1",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/stevens-institute-of-technology/1.jpg",
+    "installedThumb": "assets/img/universities/stevens-institute-of-technology/thumb.jpg",
+    "originalSize": [
+      1920,
+      1440
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 152621,
+    "thumbBytes": 26133,
+    "contentBox": [
+      156,
+      117,
+      888,
+      666
+    ],
+    "mainSha256": "2d33a42cc0a0546100853000157a0210f4864ca7832ee3b69c0b68c0091e2f07",
+    "thumbSha256": "de6ee4059f21c676a7e8e2ba0a08862cedda019d8e92659837c88275ec620e6d"
   },
   {
     "id": "baylor-university",
@@ -627,13 +1469,15 @@
     "subject": "Pat Neff Hall, Baylor University",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "Enoch Lai, Public domain, Wikimedia Commons",
     "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
     "metadataNote": "Original366x499; assess whether sharp enough for existing layout without upscaling. Placeholder acceptable if quality unsuitable.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-held",
+    "downloadedSha256": "3958e87af00ce5500ab5c30b32137427af8f92bdc54cbd09bae4df01ba432155",
+    "reviewNote": "366x499original held for quality. Higher-resolution candidate6000x4000, Michael Barera, CC BY-SA4.0, verified file page Nov1: https://commons.wikimedia.org/wiki/File:Baylor_University_June_2016_13_(Founders_Mall_and_Pat_Neff_Hall).jpg; download/visual review pending."
   },
   {
     "id": "marquette-university",
@@ -641,16 +1485,40 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:Marquette_University_campus.jpg",
     "author": "scottfeldstein",
     "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "subject": "Marquette University campus",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "scottfeldstein, CC BY 2.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "cf6dc3dd60b213980707b994075a19be8a9bf7ed6b83a503c7be0d9272328233",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/marquette-university/1.jpg",
+    "installedThumb": "assets/img/universities/marquette-university/thumb.jpg",
+    "originalSize": [
+      1920,
+      1021
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 143427,
+    "thumbBytes": 29436,
+    "contentBox": [
+      0,
+      131,
+      1200,
+      638
+    ],
+    "mainSha256": "76698de2b2d444c11b5f1eb71ce1493eef5fd3571e8a3637251dfd7bf8360dd2",
+    "thumbSha256": "7cc54cdb88dd5504a1f136a7711c9463ce0e437e636e997a5a0177d5a42c2ca5"
   },
   {
     "id": "yeshiva-university",
@@ -658,16 +1526,40 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:Yeshiva_University_Zysman_Hall_from_south.jpg",
     "author": "Beyond My Ken",
     "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "subject": "Zysman Hall, Washington Heights, Manhattan",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "Beyond My Ken, CC BY-SA 4.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "0c708d159d1f94a9eb97bdfb0ba00caba316924a262e15af48804c22f67dc7fd",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/yeshiva-university/1.jpg",
+    "installedThumb": "assets/img/universities/yeshiva-university/thumb.jpg",
+    "originalSize": [
+      1920,
+      1750
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 105178,
+    "thumbBytes": 23012,
+    "contentBox": [
+      235,
+      117,
+      730,
+      666
+    ],
+    "mainSha256": "354efe1a4f1ceab97833e06a74250e23014429600c8515bca9c955d92c1aa9bb",
+    "thumbSha256": "23f6366b42bc33ac2781201efd5e0709c500f4a3f8b7b6616ea2b62672c118e9"
   },
   {
     "id": "hillsdale-college",
@@ -675,16 +1567,40 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:Hillsdale_College-Central_Hall_Exterior.JPG",
     "author": "Kingpin1000",
     "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "subject": "Central Hall, Hillsdale College",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "Kingpin1000, CC BY-SA 4.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "d9db2665b804ea3d6bc4171765e56091dad5cc11eb997c25b5691a06413c9596",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/hillsdale-college/1.jpg",
+    "installedThumb": "assets/img/universities/hillsdale-college/thumb.jpg",
+    "originalSize": [
+      528,
+      960
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 74400,
+    "thumbBytes": 15668,
+    "contentBox": [
+      417,
+      117,
+      366,
+      666
+    ],
+    "mainSha256": "e7b5d5369b8e9baebaaded2e0b5ca99e8d51383ea02406bf058eea1ccd63f990",
+    "thumbSha256": "898cca56e14e10b174d09951b2ed14b12204022ebd7b8d1c0c09d3331eb0fb61"
   },
   {
     "id": "brigham-young-university",
@@ -692,16 +1608,40 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:Brigham_Young_University_Campus_-_BYU_-_Provo_-_Utah_in_Autumn.jpg",
     "author": "Tony Webster",
     "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "subject": "BYU campus, Provo, Utah",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "Tony Webster, CC BY 2.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "1adf71037934f919b77c86a3a2c561674091aef209aa5db95234bb76581a6416",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/brigham-young-university/1.jpg",
+    "installedThumb": "assets/img/universities/brigham-young-university/thumb.jpg",
+    "originalSize": [
+      1920,
+      1262
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 176184,
+    "thumbBytes": 33891,
+    "contentBox": [
+      93,
+      117,
+      1013,
+      666
+    ],
+    "mainSha256": "611e46943394043976ccdff854da7f5b57906315e25c7d800d5e7531fec5718b",
+    "thumbSha256": "6dbc37fc3fd8c243743b92631930760a8e4c302b239f93c6a2962ae3824a7de6"
   },
   {
     "id": "university-of-san-francisco",
@@ -709,16 +1649,40 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:USFCA_Lower_Campus.jpg",
     "author": "Jallen8307",
     "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "subject": "University of San Francisco lower campus",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "Jallen8307, CC BY-SA 4.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "3a80cc27dfc8597e16547a1828e5cb1ca61269248dc8bb25e4d9347bc3a5a414",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/university-of-san-francisco/1.jpg",
+    "installedThumb": "assets/img/universities/university-of-san-francisco/thumb.jpg",
+    "originalSize": [
+      1920,
+      1280
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 176091,
+    "thumbBytes": 35078,
+    "contentBox": [
+      101,
+      117,
+      998,
+      666
+    ],
+    "mainSha256": "d9bfb42c3b43349a484144654202be1c0be6c447ef574043cd0fb74200f1161d",
+    "thumbSha256": "d6e3b46c95b26fd1a46e30374d989a65fffd01128b791579d255eb2960af927a"
   },
   {
     "id": "george-mason-university",
@@ -726,16 +1690,40 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:GMU_Fairfax_Campus.JPG",
     "author": "Lucien Dalarun",
     "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "subject": "George Mason University Fairfax campus",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "Lucien Dalarun, CC BY-SA 3.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "23c73c95c7c3f1ce0cb6b0206e89111656c7ba9da3551e3148a7a9035642cde7",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/george-mason-university/1.jpg",
+    "installedThumb": "assets/img/universities/george-mason-university/thumb.jpg",
+    "originalSize": [
+      1920,
+      1440
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 133463,
+    "thumbBytes": 25001,
+    "contentBox": [
+      156,
+      117,
+      888,
+      666
+    ],
+    "mainSha256": "5f0e6ff12e1ab178efe8d6ce1ec1816fd964d3e580e019e04512d86375fce42a",
+    "thumbSha256": "b92ec54c015bc7f7fbb6e9065165c49f1b3c0781556a52eac6cd41d76eab21e2"
   },
   {
     "id": "university-at-albany-suny",
@@ -743,34 +1731,82 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:UAlbany_Uptown_Campus.jpg",
     "author": "Doc352",
     "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "subject": "University at Albany uptown campus viewed from Collins Circle",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "Doc352, CC BY-SA 3.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "5a789f2470f7dfdae4c86dfd4209b9ecd54b75d7d6be398a673a650aed1c1554",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/university-at-albany-suny/1.jpg",
+    "installedThumb": "assets/img/universities/university-at-albany-suny/thumb.jpg",
+    "originalSize": [
+      1920,
+      697
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 78415,
+    "thumbBytes": 16443,
+    "contentBox": [
+      0,
+      232,
+      1200,
+      435
+    ],
+    "mainSha256": "bd563c73fe51133a5ded6991c7395f35521495c7784671171c34b739aa85ced7",
+    "thumbSha256": "54f921d6bc2feca438b92e8c9d626b835ee390bdba2ab584fc73369ab9028253"
   },
   {
     "id": "university-of-central-florida",
     "file": "UCF Campus Pond.jpg",
     "filePage": "https://commons.wikimedia.org/wiki/File:UCF_Campus_Pond.jpg",
-    "author": "Kelly Daacon (keone)",
+    "author": "Kelly Daacon from Orlando, FL",
     "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "subject": "Reflection Pond and Millican Hall, UCF main campus",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
-    "attribution": "Kelly Daacon (keone), CC BY-SA 2.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "downloaded": true,
+    "attribution": "Kelly Daacon from Orlando, FL, CC BY-SA 2.0, Wikimedia Commons",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "metadataNote": "Author field Kelly Daacon; structured Flickr author keone. Preserve both credits.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "a784b318834878a72b36d254d677006bc5e474c8ef5c2dac43498c2c17fee25a",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/university-of-central-florida/1.jpg",
+    "installedThumb": "assets/img/universities/university-of-central-florida/thumb.jpg",
+    "originalSize": [
+      1024,
+      683
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 103727,
+    "thumbBytes": 22620,
+    "contentBox": [
+      101,
+      117,
+      998,
+      666
+    ],
+    "mainSha256": "14902c61b7a4eff25feb8c602ae9c7c1579e480adbf1429ef93e3bf1b6db16d5",
+    "thumbSha256": "1f24b45ada8de94ec38edec86200de2f379e30847dc30aadd314afac19fe6e4e"
   },
   {
     "id": "university-of-dayton",
@@ -778,16 +1814,40 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:UniversityofDayton.jpg",
     "author": "Namtrofk",
     "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
     "subject": "St. Mary's Hall and Immaculate Conception Chapel, University of Dayton",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
-    "attribution": "User:Namtrofk at English Wikipedia, CC BY-SA 3.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "downloaded": true,
+    "attribution": "Namtrofk, CC BY-SA 3.0, Wikimedia Commons",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "5f8a199199ac372e88fc715b8764783d9f2fb07c86a30bb643a9757c9dd0346c",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/university-of-dayton/1.jpg",
+    "installedThumb": "assets/img/universities/university-of-dayton/thumb.jpg",
+    "originalSize": [
+      1280,
+      960
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 103042,
+    "thumbBytes": 24758,
+    "contentBox": [
+      156,
+      117,
+      888,
+      666
+    ],
+    "mainSha256": "6d08b95459bf45b225ca7347c2207951096ceca17fa190df7cef1426f4614f81",
+    "thumbSha256": "ed6e12d091b03f4537066b0c3e7879af6214277772298ddbb1b413dab6576669"
   },
   {
     "id": "university-of-south-carolina",
@@ -795,16 +1855,40 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:University_of_South_Carolina_Horseshoe.jpg",
     "author": "Dfscgt21",
     "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "subject": "Horseshoe, University of South Carolina, Columbia",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "Dfscgt21, CC BY-SA 3.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "6597976fb2be885fadb407c99935ac270fc060f6f1eac5c9c1edb3bd5c6e8a19",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/university-of-south-carolina/1.jpg",
+    "installedThumb": "assets/img/universities/university-of-south-carolina/thumb.jpg",
+    "originalSize": [
+      1920,
+      1168
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 273042,
+    "thumbBytes": 47369,
+    "contentBox": [
+      53,
+      117,
+      1094,
+      666
+    ],
+    "mainSha256": "f2bd3685bd24205fe3774d164aa6704a3f7a5ee9480014a44c2192d0a4a5981d",
+    "thumbSha256": "9c3077eb82c760c86d3ae8b8d15b11c17de3877daf47399ed777dccbeb117b73"
   },
   {
     "id": "university-of-texas-at-dallas",
@@ -812,16 +1896,40 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:Residence_Hall_(University_of_Texas_at_Dallas).jpg",
     "author": "Stan9999",
     "license": "Public domain",
-    "licenseUrl": "https://en.wikipedia.org/wiki/Public_domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Residence_Hall_(University_of_Texas_at_Dallas).jpg#Licensing",
     "subject": "Residence Hall South, University of Texas at Dallas",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "Stan9999, Public domain, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "f298b3fad7e054c2ccbd85ae46761d43eb2bea0a5dca773e68f502d0762bc97c",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/university-of-texas-at-dallas/1.jpg",
+    "installedThumb": "assets/img/universities/university-of-texas-at-dallas/thumb.jpg",
+    "originalSize": [
+      1920,
+      1152
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 168320,
+    "thumbBytes": 31457,
+    "contentBox": [
+      45,
+      117,
+      1110,
+      666
+    ],
+    "mainSha256": "37402d0eaf61e72fc987867dbbad77ac5561c9f4326cd27e8d0808b3bbb7d0ec",
+    "thumbSha256": "e3fb64ca7bf1046c6a65d459994bed8b23a11922ddd8ce96cea5203b11b16059"
   },
   {
     "id": "university-of-the-pacific",
@@ -829,15 +1937,39 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:Burns_tower.jpg",
     "author": "maven imagery",
     "license": "Public domain",
-    "licenseUrl": "https://en.wikipedia.org/wiki/Public_domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Burns_tower.jpg#Licensing",
     "subject": "Burns Tower, University of the Pacific, Stockton",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
-    "downloaded": false,
+    "downloaded": true,
     "attribution": "maven imagery, Public domain, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
-    "downloadStatus": "pending-environment-dns-unavailable",
-    "visualStatus": "pending"
+    "downloadStatus": "downloaded-owner-powershell",
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "4ccdcbe27469c359000420eacfa7e73f3888dfe8825c5f0b4eefe0d937dcbbb3",
+    "reviewNote": "Downloaded image visually reviewed in contact sheets; the described campus building/view agrees with the picture and profile institution. Metadata author/licence preserved. No inference of programme location from photo.",
+    "installed": true,
+    "installedVersion": 195,
+    "installedMain": "assets/img/universities/university-of-the-pacific/1.jpg",
+    "installedThumb": "assets/img/universities/university-of-the-pacific/thumb.jpg",
+    "originalSize": [
+      1267,
+      1901
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 58828,
+    "thumbBytes": 14198,
+    "contentBox": [
+      378,
+      117,
+      443,
+      666
+    ],
+    "mainSha256": "e7c4948ad9e168983b9c0fa3a24724e985551ed915b207f86a9a3ebd5cd03f9a",
+    "thumbSha256": "861b9470f0c418d91c4504205fa8a53739420e0a1e8c284f14a575648c47a42d"
   }
 ]

@@ -89,7 +89,7 @@
       verifyBar(u) +
       (u.photos && u.photos.main && u.photos.gallery && u.photos.gallery.length
         ? '<figure class="hero-photo"><img src="' + esc(u.photos.main) + '" alt="' + esc(u.photos.gallery[0].title || u.name) + '" width="1200" height="675" decoding="async" onerror="this.closest(\'figure\').remove()">' +
-          '<figcaption>' + esc(u.photos.gallery[0].title) + ' · <a href="' + U.uniUrl(u) + '/photos">More photos &amp; credits</a></figcaption></figure>'
+          '<figcaption><span>' + esc(u.photos.gallery[0].title) + '</span> · <a href="' + U.uniUrl(u) + '/photos">More photos &amp; credits</a></figcaption></figure>'
         : '') +
       '<p style="margin-top:18px;font-size:1.05rem">' + or(u.description) + '</p>' +
       (U.isCommunityCollege(u) ? '<div class="notice notice-info"><span class="ico">ℹ️</span><div>' + esc(U.ccSummary(u)) + '</div></div>' : '') +

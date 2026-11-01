@@ -1,0 +1,45 @@
+[
+  {
+    "id": "baylor-university",
+    "file": "Baylor University June 2016 13 (Founders Mall and Pat Neff Hall).jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Baylor_University_June_2016_13_(Founders_Mall_and_Pat_Neff_Hall).jpg",
+    "author": "Michael Barera",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalSize": [
+      6000,
+      4000
+    ],
+    "subject": "Founders Mall and Pat Neff Hall, Baylor University, Waco",
+    "verified": "2026-11-01",
+    "access": "html-read",
+    "downloaded": false,
+    "visualStatus": "pending",
+    "permission": "owner-approved-2026-11-01",
+    "reason": "Replace366x499candidate; file page confirms object, author and CC BY-SA4.0 option; actual download and visual check still required"
+  },
+  {
+    "id": "wabash-college",
+    "file": "WabashMall.JPG",
+    "filePage": "https://commons.wikimedia.org/wiki/File:WabashMall.JPG",
+    "author": null,
+    "license": null,
+    "verified": "2026-11-01",
+    "access": "file-page-unavailable",
+    "downloaded": false,
+    "visualStatus": "pending",
+    "permission": "owner-approved-2026-11-01"
+  },
+  {
+    "id": "wabash-college",
+    "file": "ChapelSing.jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:ChapelSing.jpg",
+    "author": null,
+    "license": null,
+    "verified": "2026-11-01",
+    "access": "file-page-unavailable",
+    "downloaded": false,
+    "visualStatus": "pending",
+    "permission": "owner-approved-2026-11-01"
+  }
+]

@@ -2334,6 +2334,8 @@ html.is-gated body {
 .media img,
 .hero-photo img,
 .photo img {
+  /* Let the responsive aspect ratio override the HTML fallback height. */
+  height: auto;
   background: var(--surface-2, rgba(127, 127, 127, 0.08));
 }
 .media {

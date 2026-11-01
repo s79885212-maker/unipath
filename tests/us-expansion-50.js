@@ -291,8 +291,22 @@ module.exports=function(env){
      budget(pmm,0).status==='over'&&budget(pmm,46356).status==='fits-tuition'&&budget(pmm,100000).status==='fits-tuition'&&
      /12–19 credits/.test(DB.match.annualCost[pmm.id].note)&&/330 per semester/.test(DB.match.annualCost[pmm.id].note),
      'Penn State published2027–28 annual tuition uses University Park first-year load and never becomes full-budget coverage');
-  ok(fresh.every(function(u){return (u.sources||[]).every(function(s){return !/^https:\/\/commons\.wikimedia\.org\//.test(s.url)||/photo candidate/.test(s.label);});}),
-     'Commons candidate metadata is labelled as a not-installed photo source, never an official university admission page');
+  ok(fresh.every(function(u){return (u.sources||[]).every(function(s){if(!/^https:\/\/commons\.wikimedia\.org\//.test(s.url))return true;
+       var installed=(u.photos.gallery||[]).some(function(g){return g.page===s.url;});
+       return installed?/Campus photo — Commons file and licence/.test(s.label):/photo candidate/.test(s.label);
+     });}), 'Commons sources distinguish an installed credited photograph from a not-installed candidate and never claim to be admission evidence');
+  var photoReview=JSON.parse(fs.readFileSync(path.join(root,'research/us50-photo-install-review.json'),'utf8'));
+  var photoManifest=JSON.parse(fs.readFileSync(path.join(root,'research/us-expansion-50-photo-manifest.json'),'utf8'));
+  ok(photoReview.every(function(r){var u=U.uniById(r.id),g=(u.photos.gallery||[])[0],m=photoManifest.find(function(p){return p.id===r.id;});
+       return r.decision==='hold'?!g&&m.visualStatus==='reviewed-held':g&&g.page===r.filePage&&g.artist===r.author&&
+         g.license===r.license&&g.licenseUrl===r.licenseUrl&&/resized with borders/.test(g.title)&&
+         m.installed===true&&m.downloadedSha256===r.downloadedSha256&&g.src.indexOf('/'+r.id+'/')>0;
+     }), 'only individually approved campus/author/licence reviews install photographs; held candidates remain placeholders');
+  var crypto=require('crypto');
+  ok(photoManifest.filter(function(m){return m.installed;}).every(function(m){
+       return [m.installedMain,m.installedThumb].every(function(file,i){return crypto.createHash('sha256').update(fs.readFileSync(path.join(root,file))).digest('hex')===(i?m.thumbSha256:m.mainSha256);})&&
+         m.outputSize[0]<=1200&&m.contentBox[0]>=0&&m.contentBox[1]>=0&&m.contentBox[2]<=m.outputSize[0]&&m.contentBox[3]<=m.outputSize[1];
+     }), 'published photo bytes match reviewed encoded assets and recorded whole-image bounds; no review-original downloads are required in CI');
   var nw=U.uniById('rutgers-university-newark'),cam=U.uniById('rutgers-university-camden');
   ok(U.billedAmount(nw)===62049&&U.billedAmount(cam)===62603&&
      [nw,cam].every(function(u){return u.costs.status==='previous-cycle'&&U.costArithmetic(u).length===0&&

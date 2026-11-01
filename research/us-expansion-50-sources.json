@@ -7506,5 +7506,43 @@
     "access": "unavailable-cache-miss",
     "quote": "",
     "facts": null
+  },
+  {
+    "id": "university-of-california-santa-cruz",
+    "topic": "photo-licence-file-page-reviewed",
+    "source": "https://commons.wikimedia.org/wiki/File:McHenry_Library.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Image reuse and source attribution, not academic eligibility",
+    "campus": "Santa Cruz",
+    "access": "html-read",
+    "quote": "release this work into the public domain",
+    "facts": {
+      "basis": "explicit PD-self worldwide release; upload history MKen; author attribution qualified as assumed on file page",
+      "installedAuthor": "MKen (Wikimedia Commons)",
+      "limitations": "No real-world photographer identity asserted beyond attributed Commons username"
+    }
+  },
+  {
+    "id": "baylor-university",
+    "topic": "photo-replacement-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:Baylor_University_June_2016_13_(Founders_Mall_and_Pat_Neff_Hall).jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Image reuse and campus view; no academic eligibility inference",
+    "campus": "Waco",
+    "access": "html-read",
+    "quote": "Founders Mall and Pat Neff Hall",
+    "facts": {
+      "author": "Michael Barera",
+      "license": "CC BY-SA4.0 selectable on multi-licensed file page",
+      "originalSize": [
+        6000,
+        4000
+      ],
+      "photographed": "2016-06-25",
+      "downloaded": false,
+      "visualStatus": "pending"
+    }
   }
 ]

@@ -406,7 +406,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Full programme coverage and instruction language",
@@ -417,7 +417,8 @@
       "sourceEntries": 18,
       "completionReview": {
         "programmes": "partial-core-majors-reviewed",
-        "language": "partial-named-majors-campus-policy"
+        "language": "partial-named-majors-campus-policy",
+        "photo": "installed-reviewed"
       }
     },
     {
@@ -442,7 +443,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Full programme coverage and instruction language",
@@ -453,7 +454,8 @@
       "sourceEntries": 16,
       "completionReview": {
         "programmes": "partial-core-majors-reviewed",
-        "language": "partial-named-majors-campus-policy"
+        "language": "partial-named-majors-campus-policy",
+        "photo": "installed-reviewed"
       }
     },
     {
@@ -479,7 +481,7 @@
         "programs": "verified-partial-named-cs-language-confirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Full programme coverage and instruction language",
@@ -490,7 +492,8 @@
       "sourceEntries": 13,
       "completionReview": {
         "programmes": "partial-core-majors-reviewed",
-        "language": "partial-named-majors-campus-policy"
+        "language": "partial-named-majors-campus-policy",
+        "photo": "installed-reviewed"
       }
     },
     {
@@ -516,7 +519,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Full programme coverage and instruction language",
@@ -527,7 +530,8 @@
       "sourceEntries": 6,
       "completionReview": {
         "programmes": "partial-core-majors-reviewed",
-        "language": "in-progress-applicable-language-policy-not-established"
+        "language": "in-progress-applicable-language-policy-not-established",
+        "photo": "installed-reviewed"
       }
     },
     {
@@ -552,7 +556,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Full programme coverage and instruction language",
@@ -563,7 +567,8 @@
       "sourceEntries": 11,
       "completionReview": {
         "programmes": "partial-core-majors-reviewed",
-        "language": "in-progress-applicable-language-policy-not-established"
+        "language": "in-progress-applicable-language-policy-not-established",
+        "photo": "installed-reviewed"
       }
     },
     {
@@ -589,7 +594,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Full programme coverage and instruction language",
@@ -600,7 +605,8 @@
       "sourceEntries": 9,
       "completionReview": {
         "programmes": "partial-core-majors-reviewed",
-        "language": "in-progress-applicable-language-policy-not-established"
+        "language": "in-progress-applicable-language-policy-not-established",
+        "photo": "installed-reviewed"
       }
     },
     {
@@ -626,7 +632,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Full programme coverage and instruction language",
@@ -637,7 +643,8 @@
       "sourceEntries": 14,
       "completionReview": {
         "programmes": "partial-core-majors-reviewed",
-        "language": "partial-named-majors-campus-policy"
+        "language": "partial-named-majors-campus-policy",
+        "photo": "installed-reviewed"
       }
     },
     {
@@ -662,7 +669,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Full programme coverage and instruction language",
@@ -673,7 +680,8 @@
       "sourceEntries": 14,
       "completionReview": {
         "programmes": "partial-core-majors-reviewed",
-        "language": "in-progress-applicable-language-policy-not-established"
+        "language": "in-progress-applicable-language-policy-not-established",
+        "photo": "installed-reviewed"
       }
     },
     {
@@ -698,7 +706,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Full programme coverage and instruction language",
@@ -709,7 +717,8 @@
       "sourceEntries": 15,
       "completionReview": {
         "programmes": "partial-core-majors-reviewed",
-        "language": "in-progress-applicable-language-policy-not-established"
+        "language": "in-progress-applicable-language-policy-not-established",
+        "photo": "installed-reviewed"
       }
     },
     {
@@ -735,7 +744,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Full programme coverage and instruction language",
@@ -746,7 +755,8 @@
       "sourceEntries": 13,
       "completionReview": {
         "programmes": "partial-core-majors-reviewed",
-        "language": "in-progress-applicable-language-policy-not-established"
+        "language": "in-progress-applicable-language-policy-not-established",
+        "photo": "installed-reviewed"
       }
     },
     {
@@ -771,17 +781,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
       "sourceEntries": 8,
       "completionReview": {
-        "programmes": "partial-core-majors-reviewed"
+        "programmes": "partial-core-majors-reviewed",
+        "photo": "installed-reviewed"
       }
     },
     {
@@ -806,18 +816,18 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
       "sourceEntries": 9,
       "completionReview": {
         "language": "partial-named-majors-campus-policy",
-        "programmes": "partial-core-majors-reviewed"
+        "programmes": "partial-core-majors-reviewed",
+        "photo": "installed-reviewed"
       }
     },
     {
@@ -843,17 +853,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
       "sourceEntries": 7,
       "completionReview": {
-        "programmes": "partial-core-majors-reviewed"
+        "programmes": "partial-core-majors-reviewed",
+        "photo": "installed-reviewed"
       }
     },
     {
@@ -878,17 +888,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
       "sourceEntries": 12,
       "completionReview": {
-        "programmes": "partial-core-majors-reviewed"
+        "programmes": "partial-core-majors-reviewed",
+        "photo": "installed-reviewed"
       }
     },
     {
@@ -914,17 +924,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
       "sourceEntries": 7,
       "completionReview": {
-        "programmes": "partial-core-majors-reviewed"
+        "programmes": "partial-core-majors-reviewed",
+        "photo": "installed-reviewed"
       }
     },
     {
@@ -950,17 +960,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
       "sourceEntries": 8,
       "completionReview": {
-        "programmes": "partial-core-majors-reviewed"
+        "programmes": "partial-core-majors-reviewed",
+        "photo": "installed-reviewed"
       }
     },
     {
@@ -986,17 +996,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
       "sourceEntries": 9,
       "completionReview": {
-        "programmes": "partial-core-majors-reviewed"
+        "programmes": "partial-core-majors-reviewed",
+        "photo": "installed-reviewed"
       }
     },
     {
@@ -1019,17 +1029,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
       "sourceEntries": 10,
       "completionReview": {
-        "programmes": "partial-core-majors-reviewed"
+        "programmes": "partial-core-majors-reviewed",
+        "photo": "installed-reviewed"
       }
     },
     {
@@ -1052,17 +1062,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
       "sourceEntries": 9,
       "completionReview": {
-        "programmes": "partial-core-majors-reviewed"
+        "programmes": "partial-core-majors-reviewed",
+        "photo": "installed-reviewed"
       }
     },
     {
@@ -1088,18 +1098,18 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
       "sourceEntries": 10,
       "completionReview": {
         "language": "partial-named-majors-campus-policy",
-        "programmes": "partial-core-majors-reviewed"
+        "programmes": "partial-core-majors-reviewed",
+        "photo": "installed-reviewed"
       }
     },
     {
@@ -1124,15 +1134,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
-      "sourceEntries": 7
+      "sourceEntries": 7,
+      "completionReview": {
+        "photo": "installed-reviewed"
+      }
     },
     {
       "number": 22,
@@ -1157,15 +1169,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
-      "sourceEntries": 7
+      "sourceEntries": 7,
+      "completionReview": {
+        "photo": "installed-reviewed"
+      }
     },
     {
       "number": 23,
@@ -1187,15 +1201,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
-      "sourceEntries": 6
+      "sourceEntries": 6,
+      "completionReview": {
+        "photo": "installed-reviewed"
+      }
     },
     {
       "number": 24,
@@ -1220,15 +1236,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
-      "sourceEntries": 8
+      "sourceEntries": 8,
+      "completionReview": {
+        "photo": "installed-reviewed"
+      }
     },
     {
       "number": 25,
@@ -1253,15 +1271,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
-      "sourceEntries": 5
+      "sourceEntries": 5,
+      "completionReview": {
+        "photo": "installed-reviewed"
+      }
     },
     {
       "number": 26,
@@ -1286,15 +1306,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
-      "sourceEntries": 5
+      "sourceEntries": 5,
+      "completionReview": {
+        "photo": "installed-reviewed"
+      }
     },
     {
       "number": 27,
@@ -1316,15 +1338,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
-      "sourceEntries": 5
+      "sourceEntries": 5,
+      "completionReview": {
+        "photo": "installed-reviewed"
+      }
     },
     {
       "number": 28,
@@ -1348,7 +1372,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "downloaded-held-review"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1356,7 +1380,10 @@
         "Remaining costs/awards/history",
         "Campus photograph/licence"
       ],
-      "sourceEntries": 5
+      "sourceEntries": 5,
+      "completionReview": {
+        "photo": "hold-campus"
+      }
     },
     {
       "number": 29,
@@ -1380,15 +1407,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
-      "sourceEntries": 5
+      "sourceEntries": 5,
+      "completionReview": {
+        "photo": "installed-reviewed"
+      }
     },
     {
       "number": 30,
@@ -1413,17 +1442,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
-      "sourceEntries": 7,
+      "sourceEntries": 8,
       "completionReview": {
-        "language": "partial-named-majors-campus-policy"
+        "language": "partial-named-majors-campus-policy",
+        "photo": "installed-reviewed"
       }
     },
     {
@@ -1448,15 +1477,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
-      "sourceEntries": 5
+      "sourceEntries": 5,
+      "completionReview": {
+        "photo": "installed-reviewed"
+      }
     },
     {
       "number": 32,
@@ -1480,15 +1511,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
-      "sourceEntries": 4
+      "sourceEntries": 4,
+      "completionReview": {
+        "photo": "installed-reviewed"
+      }
     },
     {
       "number": 33,
@@ -1513,15 +1546,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
-      "sourceEntries": 3
+      "sourceEntries": 3,
+      "completionReview": {
+        "photo": "installed-reviewed"
+      }
     },
     {
       "number": 34,
@@ -1543,15 +1578,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
-      "sourceEntries": 5
+      "sourceEntries": 5,
+      "completionReview": {
+        "photo": "installed-reviewed"
+      }
     },
     {
       "number": 35,
@@ -1575,15 +1612,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
-      "sourceEntries": 8
+      "sourceEntries": 8,
+      "completionReview": {
+        "photo": "installed-reviewed"
+      }
     },
     {
       "number": 36,
@@ -1605,15 +1644,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
-      "sourceEntries": 6
+      "sourceEntries": 6,
+      "completionReview": {
+        "photo": "installed-reviewed"
+      }
     },
     {
       "number": 37,
@@ -1635,7 +1676,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "downloaded-held-review"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1643,7 +1684,10 @@
         "Remaining costs/awards/history",
         "Campus photograph/licence"
       ],
-      "sourceEntries": 7
+      "sourceEntries": 8,
+      "completionReview": {
+        "photo": "hold-image-quality"
+      }
     },
     {
       "number": 38,
@@ -1665,15 +1709,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
-      "sourceEntries": 9
+      "sourceEntries": 9,
+      "completionReview": {
+        "photo": "installed-reviewed"
+      }
     },
     {
       "number": 39,
@@ -1695,15 +1741,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
-      "sourceEntries": 6
+      "sourceEntries": 6,
+      "completionReview": {
+        "photo": "installed-reviewed"
+      }
     },
     {
       "number": 40,
@@ -1755,15 +1803,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
-      "sourceEntries": 4
+      "sourceEntries": 4,
+      "completionReview": {
+        "photo": "installed-reviewed"
+      }
     },
     {
       "number": 42,
@@ -1787,15 +1837,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
-      "sourceEntries": 6
+      "sourceEntries": 6,
+      "completionReview": {
+        "photo": "installed-reviewed"
+      }
     },
     {
       "number": 43,
@@ -1817,15 +1869,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
-      "sourceEntries": 5
+      "sourceEntries": 5,
+      "completionReview": {
+        "photo": "installed-reviewed"
+      }
     },
     {
       "number": 44,
@@ -1847,15 +1901,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
-      "sourceEntries": 6
+      "sourceEntries": 6,
+      "completionReview": {
+        "photo": "installed-reviewed"
+      }
     },
     {
       "number": 45,
@@ -1880,15 +1936,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
-      "sourceEntries": 3
+      "sourceEntries": 3,
+      "completionReview": {
+        "photo": "installed-reviewed"
+      }
     },
     {
       "number": 46,
@@ -1912,15 +1970,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
-      "sourceEntries": 3
+      "sourceEntries": 3,
+      "completionReview": {
+        "photo": "installed-reviewed"
+      }
     },
     {
       "number": 47,
@@ -1942,15 +2002,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
-      "sourceEntries": 6
+      "sourceEntries": 6,
+      "completionReview": {
+        "photo": "installed-reviewed"
+      }
     },
     {
       "number": 48,
@@ -1974,15 +2036,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
-      "sourceEntries": 3
+      "sourceEntries": 3,
+      "completionReview": {
+        "photo": "installed-reviewed"
+      }
     },
     {
       "number": 49,
@@ -2007,15 +2071,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
-      "sourceEntries": 5
+      "sourceEntries": 5,
+      "completionReview": {
+        "photo": "installed-reviewed"
+      }
     },
     {
       "number": 50,
@@ -2037,15 +2103,17 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
         "Exact Uzbek qualifications/conditions",
-        "Remaining costs/awards/history",
-        "Campus photograph/licence"
+        "Remaining costs/awards/history"
       ],
-      "sourceEntries": 4
+      "sourceEntries": 4,
+      "completionReview": {
+        "photo": "installed-reviewed"
+      }
     }
   ],
   "completionBase": "a8d5be9184207ed2eb2712f5b51a0850e1661f31",

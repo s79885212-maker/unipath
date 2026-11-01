@@ -34285,10 +34285,20 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
+    "main": "assets/img/universities/university-of-california-davis/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-california-davis/1.jpg",
+        "title": "UC Davis campus — resized with borders, no retouching",
+        "artist": "Fastily",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:University_of_California,_Davis_campus_1_2024-03-26.jpg"
+      }
+    ],
     "city": null,
-    "note": "Campus photograph and free licence have not yet been verified; a placeholder is shown."
+    "note": "Campus photograph and free licence have not yet been verified; a placeholder is shown.",
+    "thumb": "assets/img/universities/university-of-california-davis/thumb.jpg"
   },
   "sources": [
     {
@@ -34332,7 +34342,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.ucdavis.edu/about"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:University_of_California,_Davis_campus_1_2024-03-26.jpg"
     },
     {
@@ -34706,10 +34716,20 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
+    "main": "assets/img/universities/university-of-california-irvine/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-california-irvine/1.jpg",
+        "title": "Aldrich Park on UC Irvine campus — resized with borders, no retouching",
+        "artist": "Florian Boyd from Palm Springs, USA",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Aldrich_Park,_UCI.jpg"
+      }
+    ],
     "city": null,
-    "note": "Campus photograph and free licence have not yet been verified; a placeholder is shown."
+    "note": "Campus photograph and free licence have not yet been verified; a placeholder is shown.",
+    "thumb": "assets/img/universities/university-of-california-irvine/thumb.jpg"
   },
   "sources": [
     {
@@ -34741,7 +34761,7 @@ window.UNIPATH.universities.push(
       "url": "https://uci.edu/about/"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:Aldrich_Park,_UCI.jpg"
     },
     {
@@ -35133,10 +35153,20 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
+    "main": "assets/img/universities/university-of-illinois-urbana-champaign/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-illinois-urbana-champaign/1.jpg",
+        "title": "Foellinger Auditorium, UIUC — resized with borders, no retouching",
+        "artist": "Daderot",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Foellinger_Auditorium_-_UIUC_-_DSC09127.JPG#Licensing",
+        "page": "https://commons.wikimedia.org/wiki/File:Foellinger_Auditorium_-_UIUC_-_DSC09127.JPG"
+      }
+    ],
     "city": null,
-    "note": "Campus photograph and free licence have not yet been verified; a placeholder is shown."
+    "note": "Campus photograph and free licence have not yet been verified; a placeholder is shown.",
+    "thumb": "assets/img/universities/university-of-illinois-urbana-champaign/thumb.jpg"
   },
   "sources": [
     {
@@ -35180,7 +35210,7 @@ window.UNIPATH.universities.push(
       "url": "https://illinois.edu/about/"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:Foellinger_Auditorium_-_UIUC_-_DSC09127.JPG"
     },
     {
@@ -35545,10 +35575,20 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
+    "main": "assets/img/universities/university-of-texas-at-austin/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-texas-at-austin/1.jpg",
+        "title": "Main Building, UT Austin — resized with borders, no retouching",
+        "artist": "Larry D. Moore",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:University_of_texas_at_austin_main_building_2014.jpg"
+      }
+    ],
     "city": null,
-    "note": "Campus photograph and free licence have not yet been verified; a placeholder is shown."
+    "note": "Campus photograph and free licence have not yet been verified; a placeholder is shown.",
+    "thumb": "assets/img/universities/university-of-texas-at-austin/thumb.jpg"
   },
   "sources": [
     {
@@ -35568,7 +35608,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.utexas.edu/about-texas"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:University_of_texas_at_austin_main_building_2014.jpg"
     },
     {
@@ -35982,10 +36022,20 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
+    "main": "assets/img/universities/university-of-wisconsin-madison/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-wisconsin-madison/1.jpg",
+        "title": "Bascom Hall, UW Madison — resized with borders, no retouching",
+        "artist": "Michael Barera",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:University_of_Wisconsin–Madison_August_2022_09_(Bascom_Hall).jpg"
+      }
+    ],
     "city": null,
-    "note": "Campus photograph and free licence have not yet been verified; a placeholder is shown."
+    "note": "Campus photograph and free licence have not yet been verified; a placeholder is shown.",
+    "thumb": "assets/img/universities/university-of-wisconsin-madison/thumb.jpg"
   },
   "sources": [
     {
@@ -36017,7 +36067,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.wisc.edu/about/"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:University_of_Wisconsin–Madison_August_2022_09_(Bascom_Hall).jpg"
     },
     {
@@ -36367,10 +36417,20 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
+    "main": "assets/img/universities/rutgers-university-new-brunswick/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/rutgers-university-new-brunswick/1.jpg",
+        "title": "Old Queens, Rutgers University, New Brunswick — resized with borders, no retouching",
+        "artist": "Rickyrab at English Wikipedia",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "page": "https://commons.wikimedia.org/wiki/File:Old_Queens_Rutgers.jpg"
+      }
+    ],
     "city": null,
-    "note": "Campus photograph and free licence have not yet been verified; a placeholder is shown."
+    "note": "Campus photograph and free licence have not yet been verified; a placeholder is shown.",
+    "thumb": "assets/img/universities/rutgers-university-new-brunswick/thumb.jpg"
   },
   "sources": [
     {
@@ -36398,7 +36458,7 @@ window.UNIPATH.universities.push(
       "url": "https://newbrunswick.rutgers.edu/about"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:Old_Queens_Rutgers.jpg"
     },
     {
@@ -36777,10 +36837,20 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
+    "main": "assets/img/universities/university-of-california-santa-barbara/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-california-santa-barbara/1.jpg",
+        "title": "West entrance, UC Santa Barbara Library — resized with borders, no retouching",
+        "artist": "UCSB Library",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:UC_Santa_Barbara_Library_(35399729253).jpg"
+      }
+    ],
     "city": null,
-    "note": "Campus photograph and free licence have not yet been verified; a placeholder is shown."
+    "note": "Campus photograph and free licence have not yet been verified; a placeholder is shown.",
+    "thumb": "assets/img/universities/university-of-california-santa-barbara/thumb.jpg"
   },
   "sources": [
     {
@@ -36820,7 +36890,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.ucsb.edu/about/facts-and-figures"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:UC_Santa_Barbara_Library_(35399729253).jpg"
     },
     {
@@ -37241,10 +37311,20 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
+    "main": "assets/img/universities/university-of-georgia/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-georgia/1.jpg",
+        "title": "University of Georgia Chapel — resized with borders, no retouching",
+        "artist": "Coxonian",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:UGA_Chapel.jpg"
+      }
+    ],
     "city": null,
-    "note": "Campus photograph and free licence have not yet been verified; a placeholder is shown."
+    "note": "Campus photograph and free licence have not yet been verified; a placeholder is shown.",
+    "thumb": "assets/img/universities/university-of-georgia/thumb.jpg"
   },
   "sources": [
     {
@@ -37272,7 +37352,7 @@ window.UNIPATH.universities.push(
       "url": "https://honors.uga.edu/scholarships/prospective-students/foundation-fellowship/"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:UGA_Chapel.jpg"
     },
     {
@@ -37607,10 +37687,20 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
+    "main": "assets/img/universities/virginia-tech/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/virginia-tech/1.jpg",
+        "title": "Burruss Hall, Virginia Tech, Blacksburg — resized with borders, no retouching",
+        "artist": "CBGator87",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Burruss_Hall,_Virginia_Tech.JPG"
+      }
+    ],
     "city": null,
-    "note": "Campus photograph and free licence have not yet been verified; a placeholder is shown."
+    "note": "Campus photograph and free licence have not yet been verified; a placeholder is shown.",
+    "thumb": "assets/img/universities/virginia-tech/thumb.jpg"
   },
   "sources": [
     {
@@ -37642,7 +37732,7 @@ window.UNIPATH.universities.push(
       "url": "https://cired.vt.edu/About/history.html"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:Burruss_Hall,_Virginia_Tech.JPG"
     },
     {
@@ -37954,10 +38044,20 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
+    "main": "assets/img/universities/pennsylvania-state-university-university-park/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/pennsylvania-state-university-university-park/1.jpg",
+        "title": "Old Main, Penn State University Park — resized with borders, no retouching",
+        "artist": "George Chriss",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "page": "https://commons.wikimedia.org/wiki/File:Penn_state_old_main_summer.jpg"
+      }
+    ],
     "city": null,
-    "note": "Campus photograph and free licence have not yet been verified; a placeholder is shown."
+    "note": "Campus photograph and free licence have not yet been verified; a placeholder is shown.",
+    "thumb": "assets/img/universities/pennsylvania-state-university-university-park/thumb.jpg"
   },
   "sources": [
     {
@@ -37985,7 +38085,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.psu.edu/about/traditions"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:Penn_state_old_main_summer.jpg"
     },
     {
@@ -38251,9 +38351,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/university-of-pittsburgh/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-pittsburgh/1.jpg",
+        "title": "Cathedral of Learning, University of Pittsburgh — resized with borders, no retouching",
+        "artist": "LR.127",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Learning_in_the_University_of_Pittsburgh_-_Mar_2025.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/university-of-pittsburgh/thumb.jpg"
   },
   "sources": [
     {
@@ -38273,7 +38383,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.pitt.edu/about/history-and-achievements"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Learning_in_the_University_of_Pittsburgh_-_Mar_2025.jpg"
     },
     {
@@ -38598,9 +38708,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/university-of-california-merced/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-california-merced/1.jpg",
+        "title": "Classroom and Office Buildings One and Two, UC Merced — resized with borders, no retouching",
+        "artist": "Dr vulpes",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:UC_Merced_COB1_and_COB2.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/university-of-california-merced/thumb.jpg"
   },
   "sources": [
     {
@@ -38624,7 +38744,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.ucmerced.edu/about"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:UC_Merced_COB1_and_COB2.jpg"
     },
     {
@@ -38949,9 +39069,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/binghamton-university/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/binghamton-university/1.jpg",
+        "title": "Couper administration building, Binghamton University — resized with borders, no retouching",
+        "artist": "Benjamin D. Esham (bdesham)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Couper_Building_at_Binghamton_University.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/binghamton-university/thumb.jpg"
   },
   "sources": [
     {
@@ -38971,7 +39101,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.binghamton.edu/about/"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:Couper_Building_at_Binghamton_University.jpg"
     },
     {
@@ -39215,9 +39345,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/indiana-university-bloomington/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/indiana-university-bloomington/1.jpg",
+        "title": "Sample Gates, Indiana University Bloomington — resized with borders, no retouching",
+        "artist": "IT Communications Office",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Sample_Gates,_Indiana_University_Bloomington,_2010.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/indiana-university-bloomington/thumb.jpg"
   },
   "sources": [
     {
@@ -39249,7 +39389,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.oem.indiana.edu/about/oem-timeline/index.html"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:Sample_Gates,_Indiana_University_Bloomington,_2010.jpg"
     },
     {
@@ -39558,9 +39698,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/north-carolina-state-university/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/north-carolina-state-university/1.jpg",
+        "title": "Memorial Belltower, NC State University, Raleigh — resized with borders, no retouching",
+        "artist": "DiscoA340",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:The_Memorial_Belltower_in_NC_State,_September_2022.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/north-carolina-state-university/thumb.jpg"
   },
   "sources": [
     {
@@ -39580,7 +39730,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.lib.ncsu.edu/about"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:The_Memorial_Belltower_in_NC_State,_September_2022.jpg"
     },
     {
@@ -39899,9 +40049,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/rutgers-university-newark/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/rutgers-university-newark/1.jpg",
+        "title": "Rutgers Newark campus — resized with borders, no retouching",
+        "artist": "Darkcore (Commons: Darkcore~commonswiki; credited in image description)",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "page": "https://commons.wikimedia.org/wiki/File:Rutgers-Newark.JPG"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/rutgers-university-newark/thumb.jpg"
   },
   "sources": [
     {
@@ -39925,7 +40085,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.rutgers.edu/about/our-revolutionary-roots-history"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:Rutgers-Newark.JPG"
     },
     {
@@ -40248,9 +40408,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/university-of-connecticut/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-connecticut/1.jpg",
+        "title": "Wilbur Cross Library, University of Connecticut, Storrs — resized with borders, no retouching",
+        "artist": "Jerry Dougherty",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "page": "https://commons.wikimedia.org/wiki/File:Wilbur_Cross_Library,_UConn,_Storrs_CT.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/university-of-connecticut/thumb.jpg"
   },
   "sources": [
     {
@@ -40274,7 +40444,7 @@ window.UNIPATH.universities.push(
       "url": "https://uconn.edu/about-us/history/"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:Wilbur_Cross_Library,_UConn,_Storrs_CT.jpg"
     },
     {
@@ -40588,9 +40758,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/clemson-university/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/clemson-university/1.jpg",
+        "title": "Tillman Hall, Clemson University Historic District I — resized with borders, no retouching",
+        "artist": "Ckey11",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Tillman_Hall-Clemson_University.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/clemson-university/thumb.jpg"
   },
   "sources": [
     {
@@ -40618,7 +40798,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.clemson.edu/about/"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:Tillman_Hall-Clemson_University.jpg"
     },
     {
@@ -40909,9 +41089,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/colorado-school-of-mines/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/colorado-school-of-mines/1.jpg",
+        "title": "Guggenheim Hall, Colorado School of Mines, Golden — resized with borders, no retouching",
+        "artist": "Yassie",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:GuggenheimHall_01Oct2017.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/colorado-school-of-mines/thumb.jpg"
   },
   "sources": [
     {
@@ -40927,7 +41117,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.mines.edu/about/"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:GuggenheimHall_01Oct2017.jpg"
     },
     {
@@ -41204,9 +41394,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/university-of-california-riverside/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-california-riverside/1.jpg",
+        "title": "UC Riverside campus viewed from Box Spring Mountain — resized with borders, no retouching",
+        "artist": "Advythr",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:UC_Riverside_campus_as_viewed_from_Box_Spring_Mountain.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/university-of-california-riverside/thumb.jpg"
   },
   "sources": [
     {
@@ -41234,7 +41434,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.ucr.edu/about"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:UC_Riverside_campus_as_viewed_from_Box_Spring_Mountain.jpg"
     },
     {
@@ -41578,9 +41778,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/new-jersey-institute-of-technology/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/new-jersey-institute-of-technology/1.jpg",
+        "title": "Eberhardt Hall, NJIT, Newark — resized with borders, no retouching",
+        "artist": "Andrew nyr",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:NJIT-Eberhardt-Hall.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/new-jersey-institute-of-technology/thumb.jpg"
   },
   "sources": [
     {
@@ -41600,7 +41810,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.njit.edu/njcep/about/key-facts"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:NJIT-Eberhardt-Hall.jpg"
     },
     {
@@ -41623,7 +41833,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [
     "NJIT"
   ],
@@ -41839,9 +42049,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/university-at-buffalo/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-at-buffalo/1.jpg",
+        "title": "Hayes Hall, University at Buffalo South Campus — resized with borders, no retouching",
+        "artist": "Davidhar",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Hayes_hall_on_UB_south_campus.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/university-at-buffalo/thumb.jpg"
   },
   "sources": [
     {
@@ -41865,7 +42085,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.buffalo.edu/advancement/work-with-us/about-the-university.html"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:Hayes_hall_on_UB_south_campus.jpg"
     },
     {
@@ -41884,7 +42104,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [
     "SUNY Buffalo",
     "University at Buffalo, The State University of New York"
@@ -42152,9 +42372,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/university-of-delaware/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-delaware/1.jpg",
+        "title": "Memorial Hall, University of Delaware — resized with borders, no retouching",
+        "artist": "Lowell Silverman",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "page": "https://commons.wikimedia.org/wiki/File:UDMemorialHall1.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/university-of-delaware/thumb.jpg"
   },
   "sources": [
     {
@@ -42170,7 +42400,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.udel.edu/about/"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:UDMemorialHall1.jpg"
     },
     {
@@ -42193,7 +42423,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [],
   "programsBasis": "evidence",
   "programsStatus": "partial",
@@ -42426,9 +42656,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/rutgers-university-camden/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/rutgers-university-camden/1.jpg",
+        "title": "Rutgers Camden campus walking path — resized with borders, no retouching",
+        "artist": "Henry Montesino",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ru-camden-campus_walk.jpg#Licensing",
+        "page": "https://commons.wikimedia.org/wiki/File:Ru-camden-campus_walk.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/rutgers-university-camden/thumb.jpg"
   },
   "sources": [
     {
@@ -42452,7 +42692,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.rutgers.edu/about/our-revolutionary-roots-history"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:Ru-camden-campus_walk.jpg"
     },
     {
@@ -42471,7 +42711,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [
     "Rutgers Camden",
     "Rutgers University–Camden"
@@ -42681,9 +42921,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/university-of-illinois-chicago/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-illinois-chicago/1.jpg",
+        "title": "University Hall, UIC East Campus — resized with borders, no retouching",
+        "artist": "Onar Vikingstad (credited in image description)",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:UIC_UniversityHall.jpg#Licensing",
+        "page": "https://commons.wikimedia.org/wiki/File:UIC_UniversityHall.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/university-of-illinois-chicago/thumb.jpg"
   },
   "sources": [
     {
@@ -42703,7 +42953,7 @@ window.UNIPATH.universities.push(
       "url": "https://catalog.uic.edu/ucat/colleges-depts/engineering/cs/bs-cs/"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:UIC_UniversityHall.jpg"
     }
   ],
@@ -42718,7 +42968,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [
     "UIC",
     "University of Illinois at Chicago"
@@ -42926,9 +43176,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/university-of-missouri/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-missouri/1.jpg",
+        "title": "Jesse Hall and the Columns, Columbia, Missouri — resized with borders, no retouching",
+        "artist": "Dylanchapell",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Jesse_Hall_and_the_Columns_at_Mizzou.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/university-of-missouri/thumb.jpg"
   },
   "sources": [
     {
@@ -42948,7 +43208,7 @@ window.UNIPATH.universities.push(
       "url": "https://missouri.edu/about"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:Jesse_Hall_and_the_Columns_at_Mizzou.jpg"
     }
   ],
@@ -42963,7 +43223,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [
     "University of Missouri-Columbia",
     "Mizzou"
@@ -43172,9 +43432,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/auburn-university/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/auburn-university/1.jpg",
+        "title": "Samford Hall, Auburn University — resized with borders, no retouching",
+        "artist": "dregsplod from Tulsa, Oklahoma, USA (Flickr; uploaded by Gary Dee)",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Auburn_campus_with_Samford_Hall.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/auburn-university/thumb.jpg"
   },
   "sources": [
     {
@@ -43194,7 +43464,7 @@ window.UNIPATH.universities.push(
       "url": "https://auburn.edu/about/"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:Auburn_campus_with_Samford_Hall.jpg"
     }
   ],
@@ -43209,7 +43479,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [],
   "programsBasis": "evidence",
   "programsStatus": "partial",
@@ -43752,9 +44022,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/university-of-south-florida/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-south-florida/1.jpg",
+        "title": "Marshall Student Center, USF Tampa — resized with borders, no retouching",
+        "artist": "FightingRaven531",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Marshallstudentcenter4_usf_tampa.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/university-of-south-florida/thumb.jpg"
   },
   "sources": [
     {
@@ -43774,7 +44054,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.usf.edu/about-usf/"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:Marshallstudentcenter4_usf_tampa.jpg"
     }
   ],
@@ -43789,7 +44069,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [
     "USF Tampa"
   ],
@@ -43973,9 +44253,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/university-of-california-santa-cruz/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-california-santa-cruz/1.jpg",
+        "title": "McHenry Library entrance, UC Santa Cruz — resized with borders, no retouching",
+        "artist": "MKen (Wikimedia Commons)",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:McHenry_Library.jpg#Licensing",
+        "page": "https://commons.wikimedia.org/wiki/File:McHenry_Library.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/university-of-california-santa-cruz/thumb.jpg"
   },
   "sources": [
     {
@@ -43999,7 +44289,7 @@ window.UNIPATH.universities.push(
       "url": "https://admissions.ucsc.edu/programs/computer-science"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:McHenry_Library.jpg"
     },
     {
@@ -44224,9 +44514,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/university-of-colorado-boulder/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-colorado-boulder/1.jpg",
+        "title": "Old Main, University of Colorado Boulder — resized with borders, no retouching",
+        "artist": "MECU (MECU≈talk)",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "page": "https://commons.wikimedia.org/wiki/File:Old_Main_-_Colorado.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/university-of-colorado-boulder/thumb.jpg"
   },
   "sources": [
     {
@@ -44246,7 +44546,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.colorado.edu/cs/academics/undergraduate-programs/bachelor-science"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:Old_Main_-_Colorado.jpg"
     }
   ],
@@ -44261,7 +44561,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [
     "CU Boulder"
   ],
@@ -44489,9 +44789,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/university-of-new-hampshire/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-new-hampshire/1.jpg",
+        "title": "Thompson Hall, University of New Hampshire — resized with borders, no retouching",
+        "artist": "AcrossTheAtlantic",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Thompson_Hall,_UNH_1.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/university-of-new-hampshire/thumb.jpg"
   },
   "sources": [
     {
@@ -44507,7 +44817,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.unh.edu/provost/academic-administration/faculty-resource-guide/section-1-overview-university-new-hampshire"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:Thompson_Hall,_UNH_1.jpg"
     }
   ],
@@ -44522,7 +44832,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [
     "UNH Durham"
   ],
@@ -44773,9 +45083,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/university-of-tennessee-knoxville/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-tennessee-knoxville/1.jpg",
+        "title": "Ayres Hall, University of Tennessee Knoxville — resized with borders, no retouching",
+        "artist": "w_lemay",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Ayres_Hall,_University_of_Tennessee_at_Knoxville,_Fort_Sanders,_Knoxville,_TN_-_52497742705.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/university-of-tennessee-knoxville/thumb.jpg"
   },
   "sources": [
     {
@@ -44787,7 +45107,7 @@ window.UNIPATH.universities.push(
       "url": "https://eecs.utk.edu/undergraduate/computer-science/"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:Ayres_Hall,_University_of_Tennessee_at_Knoxville,_Fort_Sanders,_Knoxville,_TN_-_52497742705.jpg"
     }
   ],
@@ -44802,7 +45122,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [
     "UT Knoxville",
     "University of Tennessee-Knoxville"
@@ -45070,9 +45390,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/wake-forest-university/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/wake-forest-university/1.jpg",
+        "title": "Wait Chapel, Wake Forest University — resized with borders, no retouching",
+        "artist": "Fennec at English Wikipedia",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Wait.chapel.png#Licensing",
+        "page": "https://commons.wikimedia.org/wiki/File:Wait.chapel.png"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/wake-forest-university/thumb.jpg"
   },
   "sources": [
     {
@@ -45092,7 +45422,7 @@ window.UNIPATH.universities.push(
       "url": "https://business.wfu.edu/online-mba/about-us/"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:Wait.chapel.png"
     }
   ],
@@ -45107,7 +45437,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [],
   "programsBasis": "evidence",
   "programsStatus": "partial",
@@ -45407,9 +45737,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/george-washington-university/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/george-washington-university/1.jpg",
+        "title": "University Yard, George Washington University — resized with borders, no retouching",
+        "artist": "Pjn1990",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:University_Yard_George_Washington_University.JPG"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/george-washington-university/thumb.jpg"
   },
   "sources": [
     {
@@ -45429,7 +45769,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.gwu.edu/traditions"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:University_Yard_George_Washington_University.JPG"
     },
     {
@@ -45456,7 +45796,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [
     "The George Washington University"
   ],
@@ -45740,9 +46080,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/stevens-institute-of-technology/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/stevens-institute-of-technology/1.jpg",
+        "title": "Stevens campus with Hoboken in the background — resized with borders, no retouching",
+        "artist": "Sharkface217",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Stevens_Institute_of_Technology_campus.JPG#Licensing",
+        "page": "https://commons.wikimedia.org/wiki/File:Stevens_Institute_of_Technology_campus.JPG"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/stevens-institute-of-technology/thumb.jpg"
   },
   "sources": [
     {
@@ -45766,7 +46116,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.stevens.edu/admission-aid/tuition-financial-aid/undergraduate-costs-and-aid"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:Stevens_Institute_of_Technology_campus.JPG"
     }
   ],
@@ -45781,7 +46131,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [],
   "programsBasis": "evidence",
   "programsStatus": "partial",
@@ -46291,9 +46641,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/marquette-university/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/marquette-university/1.jpg",
+        "title": "Marquette University campus — resized with borders, no retouching",
+        "artist": "scottfeldstein",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Marquette_University_campus.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/marquette-university/thumb.jpg"
   },
   "sources": [
     {
@@ -46329,7 +46689,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.marquette.edu/central/financial-aid/resources/award-information/award-information-2027-2028.php"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:Marquette_University_campus.jpg"
     }
   ],
@@ -46344,7 +46704,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [],
   "programsBasis": "evidence",
   "programsStatus": "partial",
@@ -46547,9 +46907,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/yeshiva-university/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/yeshiva-university/1.jpg",
+        "title": "Zysman Hall, Washington Heights, Manhattan — resized with borders, no retouching",
+        "artist": "Beyond My Ken",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Yeshiva_University_Zysman_Hall_from_south.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/yeshiva-university/thumb.jpg"
   },
   "sources": [
     {
@@ -46573,7 +46943,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.yu.edu/about/history"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:Yeshiva_University_Zysman_Hall_from_south.jpg"
     }
   ],
@@ -46588,7 +46958,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [],
   "programsBasis": "evidence",
   "programsStatus": "partial",
@@ -47061,9 +47431,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/hillsdale-college/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/hillsdale-college/1.jpg",
+        "title": "Central Hall, Hillsdale College — resized with borders, no retouching",
+        "artist": "Kingpin1000",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Hillsdale_College-Central_Hall_Exterior.JPG"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/hillsdale-college/thumb.jpg"
   },
   "sources": [
     {
@@ -47079,7 +47459,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.hillsdale.edu/about/college-profile/"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:Hillsdale_College-Central_Hall_Exterior.JPG"
     }
   ],
@@ -47094,7 +47474,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [],
   "programsBasis": "evidence",
   "programsStatus": "partial",
@@ -47268,9 +47648,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/brigham-young-university/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/brigham-young-university/1.jpg",
+        "title": "BYU campus, Provo, Utah — resized with borders, no retouching",
+        "artist": "Tony Webster",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Brigham_Young_University_Campus_-_BYU_-_Provo_-_Utah_in_Autumn.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/brigham-young-university/thumb.jpg"
   },
   "sources": [
     {
@@ -47290,7 +47680,7 @@ window.UNIPATH.universities.push(
       "url": "https://rsc.byu.edu/called-teach/beginnings-brigham-young-academy-1876-84"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:Brigham_Young_University_Campus_-_BYU_-_Provo_-_Utah_in_Autumn.jpg"
     }
   ],
@@ -47305,7 +47695,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [
     "BYU Provo"
   ],
@@ -47490,9 +47880,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/university-of-san-francisco/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-san-francisco/1.jpg",
+        "title": "University of San Francisco lower campus — resized with borders, no retouching",
+        "artist": "Jallen8307",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:USFCA_Lower_Campus.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/university-of-san-francisco/thumb.jpg"
   },
   "sources": [
     {
@@ -47512,7 +47912,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.usfca.edu/who-we-are/san-franciscos-university/our-history"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:USFCA_Lower_Campus.jpg"
     }
   ],
@@ -47527,7 +47927,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [],
   "programsBasis": "evidence",
   "programsStatus": "partial",
@@ -47749,9 +48149,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/george-mason-university/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/george-mason-university/1.jpg",
+        "title": "George Mason University Fairfax campus — resized with borders, no retouching",
+        "artist": "Lucien Dalarun",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:GMU_Fairfax_Campus.JPG"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/george-mason-university/thumb.jpg"
   },
   "sources": [
     {
@@ -47775,7 +48185,7 @@ window.UNIPATH.universities.push(
       "url": "https://catalog.gmu.edu/about-mason/university/"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:GMU_Fairfax_Campus.JPG"
     }
   ],
@@ -47790,7 +48200,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [],
   "programsBasis": "evidence",
   "programsStatus": "partial",
@@ -47990,9 +48400,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/university-at-albany-suny/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-at-albany-suny/1.jpg",
+        "title": "University at Albany uptown campus viewed from Collins Circle — resized with borders, no retouching",
+        "artist": "Doc352",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:UAlbany_Uptown_Campus.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/university-at-albany-suny/thumb.jpg"
   },
   "sources": [
     {
@@ -48004,7 +48424,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.albany.edu/computer-science/programs/bs-computer-science"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:UAlbany_Uptown_Campus.jpg"
     }
   ],
@@ -48019,7 +48439,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [
     "University at Albany",
     "SUNY Albany"
@@ -48204,9 +48624,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/university-of-central-florida/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-central-florida/1.jpg",
+        "title": "Reflection Pond and Millican Hall, UCF main campus — resized with borders, no retouching",
+        "artist": "Kelly Daacon from Orlando, FL",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:UCF_Campus_Pond.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/university-of-central-florida/thumb.jpg"
   },
   "sources": [
     {
@@ -48218,7 +48648,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.ucf.edu/degree/computer-science-bs/"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:UCF_Campus_Pond.jpg"
     }
   ],
@@ -48233,7 +48663,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [
     "UCF"
   ],
@@ -48417,9 +48847,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/university-of-dayton/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-dayton/1.jpg",
+        "title": "St. Mary's Hall and Immaculate Conception Chapel, University of Dayton — resized with borders, no retouching",
+        "artist": "Namtrofk",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "page": "https://commons.wikimedia.org/wiki/File:UniversityofDayton.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/university-of-dayton/thumb.jpg"
   },
   "sources": [
     {
@@ -48443,7 +48883,7 @@ window.UNIPATH.universities.push(
       "url": "https://catalog.udayton.edu/undergraduate/schoolofengineering/programsofstudy/csci/"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:UniversityofDayton.jpg"
     }
   ],
@@ -48458,7 +48898,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [],
   "programsBasis": "evidence",
   "programsStatus": "partial",
@@ -48700,9 +49140,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/university-of-south-carolina/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-south-carolina/1.jpg",
+        "title": "Horseshoe, University of South Carolina, Columbia — resized with borders, no retouching",
+        "artist": "Dfscgt21",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:University_of_South_Carolina_Horseshoe.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/university-of-south-carolina/thumb.jpg"
   },
   "sources": [
     {
@@ -48714,7 +49164,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.sc.edu/study/majors_and_degrees/computer-science-bscs.php"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:University_of_South_Carolina_Horseshoe.jpg"
     }
   ],
@@ -48729,7 +49179,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [
     "University of South Carolina Columbia"
   ],
@@ -48920,9 +49370,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/university-of-texas-at-dallas/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-texas-at-dallas/1.jpg",
+        "title": "Residence Hall South, University of Texas at Dallas — resized with borders, no retouching",
+        "artist": "Stan9999",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Residence_Hall_(University_of_Texas_at_Dallas).jpg#Licensing",
+        "page": "https://commons.wikimedia.org/wiki/File:Residence_Hall_(University_of_Texas_at_Dallas).jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/university-of-texas-at-dallas/thumb.jpg"
   },
   "sources": [
     {
@@ -48938,7 +49398,7 @@ window.UNIPATH.universities.push(
       "url": "https://catalog.utdallas.edu/2026/undergraduate/programs/ecs/computer-science"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:Residence_Hall_(University_of_Texas_at_Dallas).jpg"
     }
   ],
@@ -48953,7 +49413,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [
     "The University of Texas at Dallas",
     "UT Dallas"
@@ -49144,9 +49604,19 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/university-of-the-pacific/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-the-pacific/1.jpg",
+        "title": "Burns Tower, University of the Pacific, Stockton — resized with borders, no retouching",
+        "artist": "maven imagery",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Burns_tower.jpg#Licensing",
+        "page": "https://commons.wikimedia.org/wiki/File:Burns_tower.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/university-of-the-pacific/thumb.jpg"
   },
   "sources": [
     {
@@ -49158,7 +49628,7 @@ window.UNIPATH.universities.push(
       "url": "https://catalog.pacific.edu/uop/schoolofengineeringandcomputerscience/computerscience/"
     },
     {
-      "label": "Campus photo candidate — file and licence, not installed",
+      "label": "Campus photo — Commons file and licence",
       "url": "https://commons.wikimedia.org/wiki/File:Burns_tower.jpg"
     }
   ],
@@ -49173,7 +49643,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [],
   "programsBasis": "evidence",
   "programsStatus": "partial",

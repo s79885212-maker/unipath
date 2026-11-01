@@ -34,9 +34,12 @@ for order,t in enumerate(targets,1):
  if fr.get('available') is True:award+=' — конкурс, не гарантия'
  photo=manifest.get(uid)
  ph=('Кандидат: '+photo['license']+('; разрешение на скачивание запрошено' if photo['permission']=='requested-awaiting-owner' else ('; разрешение получено, '+('установлено' if photo.get('installed') else 'не установлено') if photo['permission'].startswith('owner-approved') else '; разрешение ещё не запрошено'))) if photo else 'Исследование снимка ещё не завершено; заглушка'
- if not photo and any(s['id']==uid and s['topic']=='photo-candidate-unavailable' for s in sources):
+ if photo and photo.get('installed'):ph='Установлено: '+photo['author']+'; '+photo['license']+'; источник и изменения показаны в профиле'
+ elif photo and photo.get('downloaded'):ph='Скачано, отложено: '+('точный кампус FIU ещё не установлен' if uid=='florida-international-university' else 'нужен более качественный исходник' if uid=='baylor-university' else 'дополнительная проверка источника')
+ if not photo and any(s['id']==uid and s['topic'] in ('photo-candidate-unavailable','photo-search-review') for s in sources):
   ph='Поиск выполнен, страница файла недоступна; автор/лицензия не подтверждены, заглушка'
- gaps=('Полнота программ; язык подтверждён только для указанных направлений' if u.get('englishTaughtPrograms') else 'Полнота программ и язык')+'; точные квалификации; условия наград/продления; фотография'
+ gaps=('Полнота программ; язык подтверждён только для указанных направлений' if u.get('englishTaughtPrograms') else 'Полнота программ и язык')+'; точные квалификации; условия наград/продления'
+ if not photo or not photo.get('installed'):gaps+='; фотография'
  if not year:gaps+='; год/состав стоимости'
  lines.append('| '+str(order)+' / ['+uid+']('+admission_url+') | ['+esc(programme)+']('+prog['source']+') | '+cred+' | '+cost+' | '+esc(award)+' | '+esc(ph)+' | '+gaps+' |')
 lines+=['','Все программы в таблице — частичные списки. Английский язык программы не назначен по языку сайта. '
@@ -50,8 +53,9 @@ p.write_text(text,encoding='utf-8')
 rp=ROOT/'research/us-expansion-50-registry.json';registry=json.loads(rp.read_text(encoding='utf-8'))
 for e in registry['entries']:
  if e['id'] in manifest:
-  e['topics']['photo']='candidate-license-reviewed-'+manifest[e['id']]['permission']
- elif any(s['id']==e['id'] and s['topic']=='photo-candidate-unavailable' for s in sources):
+  m=manifest[e['id']]
+  e['topics']['photo']='installed-reviewed-free-licence' if m.get('installed') else 'downloaded-held-review' if m.get('downloaded') else 'candidate-license-reviewed-'+m['permission']
+ elif any(s['id']==e['id'] and s['topic'] in ('photo-candidate-unavailable','photo-search-review') for s in sources):
   e['topics']['photo']='searched-file-unavailable-placeholder'
 rp.write_text(json.dumps(registry,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print('Updated evidence inventory for',len(targets),'approved institutions')
