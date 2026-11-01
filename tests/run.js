@@ -330,7 +330,10 @@ group('profile rendering');
   ok(U.fullRide(U.uniById('marquette-university')).covers.housing===true&&
      !/cover-yes/.test(disputedCovers)&&/\? Housing/.test(disputedCovers),
      'conflicting award coverage never receives green item checks, while the source data remains intact');
+  var photoFixture=U.uniById('florida-international-university'), originalPhotos=photoFixture.photos;
+  photoFixture.photos={main:null,thumb:null,gallery:[]};
   var noPhoto=page('florida-international-university').split('id="photos"')[1].split('</section>')[0];
+  photoFixture.photos=originalPhotos;
   ok(/A campus photograph is not available in this profile yet/.test(noPhoto)&&!/No freely licensed photograph/.test(noPhoto),
      'a profile placeholder does not claim that no freely licensed candidate photograph was found');
   var masonEnglish = U.uniById('george-mason-university').english;

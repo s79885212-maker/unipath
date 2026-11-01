@@ -44040,9 +44040,20 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/florida-international-university/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/florida-international-university/1.jpg",
+        "title": "MMC campus, Florida International University — resized with borders, no retouching",
+        "artist": "Eduardo Merille",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:FIU_MMC_campus.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/florida-international-university/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -44064,6 +44075,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:Eastward_view_of_FIU's_campus.jpg"
+    },
+    {
+      "label": "Campus photo — Commons file and licence",
+      "url": "https://commons.wikimedia.org/wiki/File:FIU_MMC_campus.jpg"
     }
   ],
   "verification": {
@@ -44077,7 +44092,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [
     "FIU"
   ],

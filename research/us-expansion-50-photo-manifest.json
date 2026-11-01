@@ -1112,23 +1112,52 @@
   },
   {
     "id": "florida-international-university",
-    "file": "Eastward view of FIU's campus.jpg",
-    "filePage": "https://commons.wikimedia.org/wiki/File:Eastward_view_of_FIU's_campus.jpg",
+    "file": "FIU MMC campus.jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:FIU_MMC_campus.jpg",
     "author": "Eduardo Merille",
     "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
-    "subject": "FIU campus, exact campus location requires visual confirmation",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "subject": "MMC campus, Florida International University",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
     "downloaded": true,
     "attribution": "Eduardo Merille, CC BY-SA 2.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
-    "metadataNote": "Institution named in description; exact campus not established. Confirm location before accepting the image for this campus profile.",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
+    "metadataNote": "Actual image visually reviewed: campus architecture and palms; object explicitly FIU MMC Campus in Commons description and EXIF title, not inferred from a generic FIU view. Eduardo Merille and CC BY-SA2.0 confirmed in file page and retrieved wikitext/Flickr licence review. Entire image preserved, no retouching.",
     "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
     "downloadStatus": "downloaded-owner-powershell",
-    "visualStatus": "reviewed-held",
-    "downloadedSha256": "0aac5ce455c43db3b68330c73017e265635418789f742f49c910b5fdcda303de",
-    "reviewNote": "Exact campus not established by the downloaded description; verify MMC versus Biscayne before use."
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "3007593885108e93460ec62f6a4a3ee7e8968666ecedf18ecab0f0d61be42666",
+    "reviewNote": "Actual image visually reviewed: campus architecture and palms; object explicitly FIU MMC Campus in Commons description and EXIF title, not inferred from a generic FIU view. Eduardo Merille and CC BY-SA2.0 confirmed in file page and retrieved wikitext/Flickr licence review. Entire image preserved, no retouching.",
+    "supersededCandidate": {
+      "file": "Eastward view of FIU's campus.jpg",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Eastward_view_of_FIU's_campus.jpg",
+      "author": "Eduardo Merille",
+      "license": "CC BY-SA 2.0",
+      "reviewNote": "Exact campus not established by the downloaded description; verify MMC versus Biscayne before use."
+    },
+    "installed": true,
+    "installedVersion": 198,
+    "installedMain": "assets/img/universities/florida-international-university/1.jpg",
+    "installedThumb": "assets/img/universities/florida-international-university/thumb.jpg",
+    "originalSize": [
+      1920,
+      1274
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 189130,
+    "thumbBytes": 34793,
+    "contentBox": [
+      98,
+      117,
+      1003,
+      666
+    ],
+    "mainSha256": "061fbd0f98c47a9763136cb163316fa4641eb3b893d45965cb785e86efb25d7d",
+    "thumbSha256": "c23ab33b32d2ab9f6c3696f77083fdab3353e8d49e06bfea1a8315ca5c4f86d3"
   },
   {
     "id": "university-of-south-florida",

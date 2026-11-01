@@ -1372,7 +1372,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "downloaded-held-review"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1380,7 +1380,7 @@
         "Remaining costs/awards/history",
         "Campus photograph/licence"
       ],
-      "sourceEntries": 7,
+      "sourceEntries": 8,
       "completionReview": {
         "photo": "hold-campus"
       }

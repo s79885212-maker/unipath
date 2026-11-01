@@ -48,5 +48,20 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "downloadedSha256": "0ace2f98d28ffd4ab60fd6b0d7b62c3d0c2414215c095b51edb26a125a62abb5",
     "reason": "Reviewed; clear campus/chapel view WabashMall.JPG selected for the profile instead of close-up group portrait"
+  },
+  {
+    "id": "florida-international-university",
+    "file": "FIU MMC campus.jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:FIU_MMC_campus.jpg",
+    "author": "Eduardo Merille",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "verified": "2026-11-01",
+    "access": "commons-api-file-wikitext-and-image-read",
+    "downloaded": true,
+    "installed": true,
+    "visualStatus": "reviewed-approved-installed",
+    "downloadedSha256": "3007593885108e93460ec62f6a4a3ee7e8968666ecedf18ecab0f0d61be42666",
+    "reason": "Description and file EXIF explicitly identify MMC; actual image reviewed and chosen instead of generic-campus candidate."
   }
 ]

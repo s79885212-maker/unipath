@@ -8014,5 +8014,23 @@
       "installed": false,
       "limitations": "File-page description and EXIF title explicitly identify MMC; Flickr licence reviewed on Commons. Download and visual check remain required."
     }
+  },
+  {
+    "id": "florida-international-university",
+    "topic": "photo-file-reviewed-installed",
+    "source": "https://commons.wikimedia.org/wiki/File:FIU_MMC_campus.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph only; not admissions or programme-language evidence",
+    "campus": "Modesto A. Maidique (MMC)",
+    "access": "commons-file-page-and-image-reviewed",
+    "quote": "FIU MMC Campus",
+    "facts": {
+      "author": "Eduardo Merille",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "downloadedSha256": "3007593885108e93460ec62f6a4a3ee7e8968666ecedf18ecab0f0d61be42666",
+      "visualReview": "Actual image visually reviewed: campus architecture and palms; object explicitly FIU MMC Campus in Commons description and EXIF title, not inferred from a generic FIU view. Eduardo Merille and CC BY-SA2.0 confirmed in file page and retrieved wikitext/Flickr licence review. Entire image preserved, no retouching."
+    }
   }
 ]

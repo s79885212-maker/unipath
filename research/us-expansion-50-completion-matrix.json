@@ -2288,14 +2288,14 @@
           "evidence": []
         },
         "photo": {
-          "status": "partial",
+          "status": "confirmed",
           "notes": {
-            "installed": false,
+            "installed": true,
             "permission": "owner-approved-2026-11-01",
-            "remaining": "Подтверждение точного кампуса FIU"
+            "remaining": null
           },
           "evidence": [
-            "https://commons.wikimedia.org/wiki/File:Eastward_view_of_FIU's_campus.jpg"
+            "https://commons.wikimedia.org/wiki/File:FIU_MMC_campus.jpg"
           ]
         }
       }
