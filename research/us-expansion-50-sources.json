@@ -12449,5 +12449,767 @@
       "minimumFullTimeCredits": 12,
       "firstYearDurationUnconfirmed": true
     }
+  },
+  {
+    "id": "florida-international-university",
+    "topic": "remaining-award-review",
+    "source": "https://admissions.fiu.edu/cost-and-aid/scholarships/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "International F-1 FTIC merit; four-year amount and inconsistent entry-year wording",
+    "campus": "Miami; individual programme campus still needs verification",
+    "access": "html-read",
+    "quote": "Gold and Blue scholarships cannot be stacked with other forms of FIU merit aid.",
+    "facts": {
+      "publicMerit": [
+        {
+          "id": "fiu-gold-blue",
+          "category": "merit",
+          "basis": "merit",
+          "name": {
+            "en": "Gold and Blue Scholarship",
+            "ru": "Стипендия Gold and Blue"
+          },
+          "amount": {
+            "en": "USD 4,000–24,000 distributed over four years for non-Florida residents; not an annual amount",
+            "ru": "4 000–24 000 USD за четыре года для нерезидентов Флориды; не ежегодная сумма"
+          },
+          "eligibility": {
+            "en": "Admitted first-time-in-college non-Florida residents; international F-1 or other eligible visa. Official SAT/ACT/CLT required in the completed merit file.",
+            "ru": "Зачисленные впервые в колледж нерезиденты Флориды; иностранные F-1 или другая подходящая виза. Для полного merit-досье нужны официальные SAT/ACT/CLT."
+          },
+          "renewable": {
+            "en": "Usually first degree, 120 credits or four years, whichever first; programme-specific longer degree exception. Full-time 12 credits each fall/spring; earn 30 FIU credits per academic year and cumulative FIU GPA 3.00.",
+            "ru": "Обычно первый диплом, 120 кредитов или четыре года — что наступит раньше; исключение для более длинной программы. Полная нагрузка 12 кредитов осенью/весной; заработать 30 кредитов FIU за учебный год и накопленный GPA FIU 3,00."
+          },
+          "application": {
+            "en": "Automatic admission review, no additional merit application. Page prints overseas deadline 16 December 2026 but calls the entry term Early Fall/Fall 2026; cycle is inconsistent and not confirmed as Fall 2027.",
+            "ru": "Автоматическое рассмотрение при поступлении, без дополнительной merit-заявки. Страница печатает срок для зарубежных школ 16 декабря 2026, но называет набор Early Fall/Fall 2026; цикл противоречив и не подтверждён как Fall 2027."
+          },
+          "note": {
+            "en": "Cannot stack with other FIU merit aid. Amount depends on enrolment; no assumed full tuition or housing. Nonresident waiver cannot overlap another waiver of the same tuition portion.",
+            "ru": "Не суммируется с другой merit-помощью FIU. Сумма зависит от нагрузки; полное обучение и жильё не предполагаются. Нерезидентское освобождение не совмещается с другим освобождением от той же части tuition."
+          },
+          "deadlineScope": "not-confirmed",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      ],
+      "supportingSources": [
+        "https://scholarships.fiu.edu/browse-scholarships/merit-scholarships/policies-renewal/index.html"
+      ],
+      "deadlineCycleConflict": "Entry text Fall2026, deadline December16,2026; no auto-correction to2027"
+    }
+  },
+  {
+    "id": "florida-international-university",
+    "topic": "remaining-award-review",
+    "source": "https://scholarships.fiu.edu/browse-scholarships/merit-scholarships/policies-renewal/index.html",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "Institutional first-degree merit renewal, not transfer credit limit",
+    "campus": "Miami",
+    "access": "html-read",
+    "quote": "minimum of 30 FIU credit hours",
+    "facts": {
+      "annualCredits": 30,
+      "collegeGPA": 3.0,
+      "fullTimeSemesterCredits": 12,
+      "firstDegreeCreditLimit": 120,
+      "maxYears": 4
+    }
+  },
+  {
+    "id": "university-of-south-florida",
+    "topic": "remaining-award-review",
+    "source": "https://www.usf.edu/admissions/international/admission-information/cost-of-attendance/scholarships.aspx",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "International first-year Summer/Fall2027 nonresident tuition waivers",
+    "campus": "Tampa profile; university international freshman awards",
+    "access": "html-read",
+    "quote": "Green and Gold Presidential Waiver Award: ~$44,000 (up to $11,000 per year)",
+    "facts": {
+      "publicMerit": [
+        {
+          "id": "usf-green-gold-presidential",
+          "category": "merit",
+          "basis": "merit",
+          "name": {
+            "en": "Green and Gold Presidential Waiver Award",
+            "ru": "Green and Gold Presidential — уменьшение tuition"
+          },
+          "amount": {
+            "en": "Up to USD 11,000/year; approximately USD 44,000 total",
+            "ru": "До 11,000 USD в год; около 44,000 USD всего"
+          },
+          "eligibility": {
+            "en": "International Summer/Fall 2027 first-year applicants; competitive admission review, including required records, test scores and fee",
+            "ru": "Иностранные первокурсники лета/осени 2027; конкурсная оценка при поступлении, включая обязательные документы, экзамены и сбор"
+          },
+          "renewable": null,
+          "application": {
+            "en": "Complete admission application by 15 January 2027; no separate scholarship application",
+            "ru": "Полное заявление на поступление до 15 января 2027; отдельной стипендиальной заявки нет"
+          },
+          "note": {
+            "en": "Nonresident tuition reduction, not a cash full-ride award. Payment may decrease with fewer credits; cannot combine with another waiver of the same nonresident tuition. Exact 2027–28 GPA/credit renewal terms were not accessible; older 2026–27 terms are not silently carried forward.",
+            "ru": "Уменьшение нерезидентской tuition, не денежный full ride. Выплата может уменьшаться при меньшей нагрузке; нельзя совместить с другим освобождением от той же нерезидентской tuition. Точные условия GPA/кредитов продления 2027–28 недоступны; старые условия 2026–27 автоматически не перенесены."
+          },
+          "deadlineScope": "confirmed",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        {
+          "id": "usf-green-gold-directors",
+          "category": "merit",
+          "basis": "merit",
+          "name": {
+            "en": "Green and Gold Directors Waiver Award",
+            "ru": "Green and Gold Directors — уменьшение tuition"
+          },
+          "amount": {
+            "en": "Up to USD 9,000/year; approximately USD 36,000 total",
+            "ru": "До 9,000 USD в год; около 36,000 USD всего"
+          },
+          "eligibility": {
+            "en": "International Summer/Fall 2027 first-year applicants; competitive admission review, including required records, test scores and fee",
+            "ru": "Иностранные первокурсники лета/осени 2027; конкурсная оценка при поступлении, включая обязательные документы, экзамены и сбор"
+          },
+          "renewable": null,
+          "application": {
+            "en": "Complete admission application by 15 January 2027; no separate scholarship application",
+            "ru": "Полное заявление на поступление до 15 января 2027; отдельной стипендиальной заявки нет"
+          },
+          "note": {
+            "en": "Nonresident tuition reduction, not a cash full-ride award. Payment may decrease with fewer credits; cannot combine with another waiver of the same nonresident tuition. Exact 2027–28 GPA/credit renewal terms were not accessible; older 2026–27 terms are not silently carried forward.",
+            "ru": "Уменьшение нерезидентской tuition, не денежный full ride. Выплата может уменьшаться при меньшей нагрузке; нельзя совместить с другим освобождением от той же нерезидентской tuition. Точные условия GPA/кредитов продления 2027–28 недоступны; старые условия 2026–27 автоматически не перенесены."
+          },
+          "deadlineScope": "confirmed",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        {
+          "id": "usf-green-gold-scholars",
+          "category": "merit",
+          "basis": "merit",
+          "name": {
+            "en": "Green and Gold Scholars Waiver Award",
+            "ru": "Green and Gold Scholars — уменьшение tuition"
+          },
+          "amount": {
+            "en": "Up to USD 5,000/year; approximately USD 20,000 total",
+            "ru": "До 5,000 USD в год; около 20,000 USD всего"
+          },
+          "eligibility": {
+            "en": "International Summer/Fall 2027 first-year applicants; competitive admission review, including required records, test scores and fee",
+            "ru": "Иностранные первокурсники лета/осени 2027; конкурсная оценка при поступлении, включая обязательные документы, экзамены и сбор"
+          },
+          "renewable": null,
+          "application": {
+            "en": "Complete admission application by 15 January 2027; no separate scholarship application",
+            "ru": "Полное заявление на поступление до 15 января 2027; отдельной стипендиальной заявки нет"
+          },
+          "note": {
+            "en": "Nonresident tuition reduction, not a cash full-ride award. Payment may decrease with fewer credits; cannot combine with another waiver of the same nonresident tuition. Exact 2027–28 GPA/credit renewal terms were not accessible; older 2026–27 terms are not silently carried forward.",
+            "ru": "Уменьшение нерезидентской tuition, не денежный full ride. Выплата может уменьшаться при меньшей нагрузке; нельзя совместить с другим освобождением от той же нерезидентской tuition. Точные условия GPA/кредитов продления 2027–28 недоступны; старые условия 2026–27 автоматически не перенесены."
+          },
+          "deadlineScope": "confirmed",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        }
+      ],
+      "publicDeadlines": [
+        {
+          "id": "usf-green-gold-presidential-fall2027-admission",
+          "name": {
+            "en": "Green and Gold admission consideration",
+            "ru": "Поступление для рассмотрения Green and Gold"
+          },
+          "kind": "admission",
+          "date": {
+            "en": "15 January 2027",
+            "ru": "15 января 2027"
+          },
+          "dateISO": "2027-01-15",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "status": "confirmed",
+          "binding": null,
+          "awardId": "usf-green-gold-presidential",
+          "awardCategory": "merit",
+          "appliesTo": {
+            "en": "Fall 2027 international first-year scholarship consideration",
+            "ru": "Рассмотрение международной стипендии первокурсника осени 2027"
+          },
+          "note": null,
+          "cycleEvidence": {
+            "basis": "explicit-date",
+            "source": "https://www.usf.edu/admissions/international/admission-information/cost-of-attendance/scholarships.aspx",
+            "verified": "2026-11-02",
+            "entryTerm": "Autumn",
+            "entryYear": "2027",
+            "quote": "freshman application for Summer or Fall 2027 by January 15, 2027"
+          }
+        },
+        {
+          "id": "usf-green-gold-directors-fall2027-admission",
+          "name": {
+            "en": "Green and Gold admission consideration",
+            "ru": "Поступление для рассмотрения Green and Gold"
+          },
+          "kind": "admission",
+          "date": {
+            "en": "15 January 2027",
+            "ru": "15 января 2027"
+          },
+          "dateISO": "2027-01-15",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "status": "confirmed",
+          "binding": null,
+          "awardId": "usf-green-gold-directors",
+          "awardCategory": "merit",
+          "appliesTo": {
+            "en": "Fall 2027 international first-year scholarship consideration",
+            "ru": "Рассмотрение международной стипендии первокурсника осени 2027"
+          },
+          "note": null,
+          "cycleEvidence": {
+            "basis": "explicit-date",
+            "source": "https://www.usf.edu/admissions/international/admission-information/cost-of-attendance/scholarships.aspx",
+            "verified": "2026-11-02",
+            "entryTerm": "Autumn",
+            "entryYear": "2027",
+            "quote": "freshman application for Summer or Fall 2027 by January 15, 2027"
+          }
+        },
+        {
+          "id": "usf-green-gold-scholars-fall2027-admission",
+          "name": {
+            "en": "Green and Gold admission consideration",
+            "ru": "Поступление для рассмотрения Green and Gold"
+          },
+          "kind": "admission",
+          "date": {
+            "en": "15 January 2027",
+            "ru": "15 января 2027"
+          },
+          "dateISO": "2027-01-15",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "status": "confirmed",
+          "binding": null,
+          "awardId": "usf-green-gold-scholars",
+          "awardCategory": "merit",
+          "appliesTo": {
+            "en": "Fall 2027 international first-year scholarship consideration",
+            "ru": "Рассмотрение международной стипендии первокурсника осени 2027"
+          },
+          "note": null,
+          "cycleEvidence": {
+            "basis": "explicit-date",
+            "source": "https://www.usf.edu/admissions/international/admission-information/cost-of-attendance/scholarships.aspx",
+            "verified": "2026-11-02",
+            "entryTerm": "Autumn",
+            "entryYear": "2027",
+            "quote": "freshman application for Summer or Fall 2027 by January 15, 2027"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "university-of-south-florida",
+    "topic": "remaining-award-access-review",
+    "source": "https://www.usf.edu/financial-aid/scholarships/terms-and-conditions/2728-tc-fsa.aspx",
+    "verified": "2026-11-02",
+    "intake": "2027–2028",
+    "category": "international freshman merit renewal terms",
+    "campus": "Tampa",
+    "access": "not-accessible",
+    "quote": null,
+    "facts": null,
+    "unresolved": "2027–28 terms URL inaccessible; the2026–27 page exists but is not transferred to the new cohort."
+  },
+  {
+    "id": "university-of-california-santa-cruz",
+    "topic": "remaining-award-review",
+    "source": "https://admissions.ucsc.edu/posts/international-student-timeline",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "International incoming first-year Dean award; four-year amount, not annual",
+    "campus": "Santa Cruz",
+    "access": "html-read",
+    "quote": "split over four years for entering first-year students",
+    "facts": {
+      "publicMerit": [
+        {
+          "id": "ucsc-undergraduate-dean",
+          "category": "merit",
+          "basis": "merit",
+          "name": {
+            "en": "Undergraduate Dean’s Award",
+            "ru": "Награда Undergraduate Dean’s"
+          },
+          "amount": {
+            "en": "USD 12,000–100,000 total split over four first-year-entry years",
+            "ru": "12 000–100 000 USD всего, распределённые на четыре года после поступления"
+          },
+          "eligibility": {
+            "en": "New international first-year students; transfer has a separate two-year amount and is not applied here",
+            "ru": "Новые иностранные первокурсники; у transfer отдельная двухлетняя сумма, которая здесь не применяется"
+          },
+          "renewable": {
+            "en": "Four-year distribution stated; detailed GPA/credit renewal criteria not verified because linked financial-aid page returned 502",
+            "ru": "Указано распределение на четыре года; подробные GPA/кредиты продления не подтверждены, поскольку связанная финансовая страница вернула 502"
+          },
+          "application": {
+            "en": "International students are considered; no separate 2027 award application or deadline established by this page",
+            "ru": "Иностранные студенты рассматриваются; отдельная заявка и срок награды 2027 этой страницей не установлены"
+          },
+          "note": {
+            "en": "This is a four-year total, not USD 100,000 each year. Regents is separately listed at USD 20,000 over four years; detailed eligibility, stacking and entry-year values require verification. Neither is a guaranteed full ride.",
+            "ru": "Это сумма за четыре года, а не 100 000 USD ежегодно. Regents отдельно указана как 20 000 USD за четыре года; подробная применимость, совместимость и суммы конкретного набора требуют проверки. Ни одна не гарантирует full ride."
+          },
+          "deadlineScope": "not-confirmed",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "university-of-california-santa-cruz",
+    "topic": "remaining-award-access-review",
+    "source": "https://financialaid.ucsc.edu/types-of-aid/scholarships/non-resident-scholarships.html",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "nonresident Dean award renewal and terms",
+    "campus": "Santa Cruz",
+    "access": "502-unavailable",
+    "quote": null,
+    "facts": null,
+    "unresolved": "Direct linked official financial-aid terms unavailable; no renewal details inferred."
+  },
+  {
+    "id": "university-of-colorado-boulder",
+    "topic": "remaining-award-review",
+    "source": "https://www.colorado.edu/admissions/process/international/faqs",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "International eligibility of named Presidential and Chancellor awards",
+    "campus": "Boulder",
+    "access": "html-read",
+    "quote": "All international, first-year applications will be reviewed for automatic consideration scholarships",
+    "facts": {
+      "publicMerit": [
+        {
+          "id": "cu-boulder-presidential",
+          "category": "merit",
+          "basis": "merit",
+          "name": {
+            "en": "Presidential Scholarship",
+            "ru": "Стипендия Presidential"
+          },
+          "amount": {
+            "en": "USD 15,000/year for newly admitted students; USD 60,000 over four years",
+            "ru": "15,000 USD в год для вновь зачисленных; 60,000 USD за четыре года"
+          },
+          "eligibility": {
+            "en": "International nonresident first-year applicants; complete records including English proficiency by annual 15 January. SAT/ACT not considered for these automatic awards.",
+            "ru": "Иностранные первокурсники-нерезиденты; полные документы, включая английский, до ежегодного 15 января. SAT/ACT для этих автоматических наград не учитываются."
+          },
+          "renewable": {
+            "en": "Up to eight fall/spring semesters;12+ credits each semester and cumulative CU Boulder GPA 2.75",
+            "ru": "До восьми осенних/весенних семестров; 12+ кредитов каждый семестр и накопленный GPA CU Boulder 2,75"
+          },
+          "application": {
+            "en": "Automatic consideration with admission;15 January is annual, entry year not established in the FAQ",
+            "ru": "Автоматическое рассмотрение при поступлении; 15 января — ежегодное правило, год набора в FAQ не установлен"
+          },
+          "note": {
+            "en": "Presidential and Chancellor’s cannot combine. Presidential page distinguishes Fall 2026-or-earlier total USD 55,000 from newly admitted total USD 60,000. Other aid/Arts & Humanities may change the package; total cannot exceed COA. Partial support, not guaranteed total spending coverage.",
+            "ru": "Presidential и Chancellor’s не суммируются. Страница Presidential отличает 55 000 USD всего для поступивших осенью 2026 или ранее от 60 000 USD для вновь зачисленных. Другая помощь/Arts & Humanities может изменить пакет; итог не выше COA. Частичная помощь, а не гарантированная оплата всех расходов."
+          },
+          "deadlineScope": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null
+        },
+        {
+          "id": "cu-boulder-chancellors",
+          "category": "merit",
+          "basis": "merit",
+          "name": {
+            "en": "Chancellor’s Achievement Scholarship",
+            "ru": "Стипендия Chancellor’s Achievement"
+          },
+          "amount": {
+            "en": "USD 6,250/year for newly admitted students; USD 25,000 over four years",
+            "ru": "6,250 USD в год для вновь зачисленных; 25,000 USD за четыре года"
+          },
+          "eligibility": {
+            "en": "International nonresident first-year applicants; complete records including English proficiency by annual 15 January. SAT/ACT not considered for these automatic awards.",
+            "ru": "Иностранные первокурсники-нерезиденты; полные документы, включая английский, до ежегодного 15 января. SAT/ACT для этих автоматических наград не учитываются."
+          },
+          "renewable": {
+            "en": "Up to eight fall/spring semesters;12+ credits each semester and cumulative CU Boulder GPA 2.75",
+            "ru": "До восьми осенних/весенних семестров; 12+ кредитов каждый семестр и накопленный GPA CU Boulder 2,75"
+          },
+          "application": {
+            "en": "Automatic consideration with admission;15 January is annual, entry year not established in the FAQ",
+            "ru": "Автоматическое рассмотрение при поступлении; 15 января — ежегодное правило, год набора в FAQ не установлен"
+          },
+          "note": {
+            "en": "Presidential and Chancellor’s cannot combine. Presidential page distinguishes Fall 2026-or-earlier total USD 55,000 from newly admitted total USD 60,000. Other aid/Arts & Humanities may change the package; total cannot exceed COA. Partial support, not guaranteed total spending coverage.",
+            "ru": "Presidential и Chancellor’s не суммируются. Страница Presidential отличает 55 000 USD всего для поступивших осенью 2026 или ранее от 60 000 USD для вновь зачисленных. Другая помощь/Arts & Humanities может изменить пакет; итог не выше COA. Частичная помощь, а не гарантированная оплата всех расходов."
+          },
+          "deadlineScope": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      ],
+      "supportingSources": [
+        "https://www.colorado.edu/scholarships/presidential-scholarship",
+        "https://www.colorado.edu/scholarships/chancellors-achievement-scholarship"
+      ]
+    }
+  },
+  {
+    "id": "university-of-colorado-boulder",
+    "topic": "remaining-award-review",
+    "source": "https://www.colorado.edu/scholarships/presidential-scholarship",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "Presidential amount, renewal and mutually exclusive Chancellor award",
+    "campus": "Boulder",
+    "access": "html-read",
+    "quote": "If you’re selected to receive the Presidential Scholarship, you cannot receive the CU Boulder Chancellor’s Achievement Scholarship.",
+    "facts": {
+      "annualNewAmount": 15000,
+      "newFourYearTotal": 60000,
+      "fall2026OrEarlierFourYearTotal": 55000,
+      "collegeGPA": 2.75,
+      "maxSemesters": 8
+    }
+  },
+  {
+    "id": "university-of-colorado-boulder",
+    "topic": "remaining-award-review",
+    "source": "https://www.colorado.edu/scholarships/chancellors-achievement-scholarship",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "Chancellor amount and renewal",
+    "campus": "Boulder",
+    "access": "html-read",
+    "quote": "Maintain a minimum 2.75 cumulative CU Boulder GPA",
+    "facts": {
+      "annualAmount": 6250,
+      "fourYearTotal": 25000,
+      "collegeGPA": 2.75
+    }
+  },
+  {
+    "id": "university-of-new-hampshire",
+    "topic": "remaining-award-review",
+    "source": "https://www.unh.edu/financialaid/types-aid/scholarships",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "New and continuing F-1/J-1 undergraduate international scholarship; variable amount",
+    "campus": "Durham; international partial-award section",
+    "access": "html-read",
+    "quote": "These partial awards are based on both financial need and academic merit.",
+    "facts": {
+      "publicMerit": [
+        {
+          "id": "unh-international-student-scholarship",
+          "category": "merit",
+          "basis": "merit",
+          "name": {
+            "en": "International Student Scholarship",
+            "ru": "Международная студенческая стипендия"
+          },
+          "amount": null,
+          "eligibility": {
+            "en": "New and continuing undergraduate international students in valid F-1/J-1 status; financial need and academic merit; GPA 3.1 for invitation",
+            "ru": "Новые и продолжающие обучение иностранные бакалавры с действительным F-1/J-1; финансовая потребность и академические заслуги; GPA 3,1 для приглашения"
+          },
+          "renewable": null,
+          "application": {
+            "en": "Invitation by email early in spring, usually February; newly admitted students can apply. Exact cycle date not printed.",
+            "ru": "Приглашение по электронной почте в начале весны, обычно в феврале; зачисленные новые студенты могут участвовать. Точная дата цикла не опубликована."
+          },
+          "note": {
+            "en": "Variable partial awards. The general first-year USD 1,000–20,000 table is not automatically assigned to this separately described international scheme. GPA scale/evaluation for a new Uzbek school applicant, stacking and renewal remain unconfirmed.",
+            "ru": "Переменная частичная помощь. Общая таблица первокурсников 1 000–20 000 USD автоматически не присвоена этой отдельно описанной международной схеме. Шкала/оценка GPA нового выпускника узбекской школы, совместимость и продление не подтверждены."
+          },
+          "deadlineScope": "not-confirmed",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      ],
+      "publicNeedBased": {
+        "availableToInternational": true,
+        "note": {
+          "en": "Limited partial international awards combine need and merit; no promise to meet full demonstrated need. Exact amount and renewal require award-specific confirmation.",
+          "ru": "Ограниченные частичные международные награды сочетают потребность и заслуги; удовлетворение всей доказанной потребности не обещается. Точная сумма и продление требуют проверки конкретной награды."
+        }
+      }
+    }
+  },
+  {
+    "id": "university-of-tennessee-knoxville",
+    "topic": "remaining-award-review",
+    "source": "https://onestop.utk.edu/scholarships-financial-aid/scholarships/global-ambassador-scholarship/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "International first-year non-US-high-school Global Ambassador; historical cohort amounts",
+    "campus": "Knoxville",
+    "access": "html-read",
+    "quote": "Amounts shown are for the 2026-27 academic year",
+    "facts": {
+      "publicMerit": [
+        {
+          "id": "utk-global-ambassador",
+          "category": "merit",
+          "basis": "merit",
+          "name": {
+            "en": "Global Ambassador Scholarship",
+            "ru": "Стипендия Global Ambassador"
+          },
+          "amount": {
+            "en": "2026–27 only: USD 10,000 /12,500 /15,000 per year; not confirmed 2027–28 rates",
+            "ru": "Только 2026–27: 10 000 /12 500 /15 000 USD в год; тарифы 2027–28 не подтверждены"
+          },
+          "eligibility": {
+            "en": "Incoming first-year international nonresident visa holder not graduating from a US high school; fall immediately after school. UT-converted weighted core GPA tiers 3.0–3.49 /3.5–3.79 /3.8+; no direct Uzbek-scale conversion.",
+            "ru": "Иностранный первокурсник с нерезидентской визой, заканчивающий школу за пределами США; осень сразу после школы. Диапазоны взвешенного core GPA после пересчёта UT: 3,0–3,49 /3,5–3,79 /3,8+; прямого пересчёта узбекской шкалы нет."
+          },
+          "renewable": {
+            "en": "Up to four years; cumulative college GPA 3.0, good standing, full-time each semester and ambassador activities",
+            "ru": "До четырёх лет; накопленный GPA в университете 3,0, хорошая успеваемость, полная нагрузка каждый семестр и обязанности посла"
+          },
+          "application": {
+            "en": "Invitation to a separate application; applicants after annual May 1 are not considered. No confirmed 2027 deadline assigned.",
+            "ru": "Приглашение к отдельной заявке; подавшие после ежегодного 1 мая не рассматриваются. Подтверждённый срок 2027 не присвоен."
+          },
+          "note": {
+            "en": "Does not combine with other institutional scholarships. Award depends on UT-converted GPA and nonresident tuition status; competitive, not a guaranteed reduction for every international student.",
+            "ru": "Не суммируется с другими университетскими стипендиями. Награда зависит от пересчитанного UT GPA и нерезидентской tuition; конкурсная, не гарантированное уменьшение для каждого иностранца."
+          },
+          "deadlineScope": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "stevens-institute-of-technology",
+    "topic": "remaining-award-review",
+    "source": "https://www.stevens.edu/admission-aid/undergraduate-admissions/international-students",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "International undergraduate institutional merit consideration; required CSS Profile",
+    "campus": "Hoboken",
+    "access": "html-read",
+    "quote": "International students who wish to be considered for institutional scholarship must submit the College Scholarship Service Profile",
+    "facts": {
+      "publicMerit": [
+        {
+          "id": "stevens-international-merit",
+          "category": "merit",
+          "basis": "merit",
+          "name": {
+            "en": "International institutional merit consideration",
+            "ru": "Международное рассмотрение университетской merit-помощи"
+          },
+          "amount": null,
+          "eligibility": {
+            "en": "International undergraduate applicants; limited institutional merit awards, no federal funding",
+            "ru": "Иностранные бакалаврские абитуриенты; ограниченные университетские merit-награды, без федеральной помощи"
+          },
+          "renewable": null,
+          "application": {
+            "en": "CSS Profile is required for institutional scholarship consideration, school code 2819; deadline depends on the admission timeline",
+            "ru": "CSS Profile обязателен для рассмотрения университетской стипендии, код 2819; срок зависит от плана приёма"
+          },
+          "note": {
+            "en": "General automatic-merit language does not remove the explicit international CSS requirement. Amount, largest applicable award, renewal and stacking are not established on the international page.",
+            "ru": "Общие слова об автоматической merit-помощи не отменяют прямое международное требование CSS. Сумма, крупнейшая применимая награда, продление и совместимость на международной странице не установлены."
+          },
+          "deadlineScope": "not-confirmed",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "baylor-university",
+    "topic": "remaining-award-review",
+    "source": "https://admissions.web.baylor.edu/admission/international/financial-assistance-international-students",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "International first-time undergraduate merit and Fall2027 institutional need aid; not domestic FAFSA scope",
+    "campus": "Waco",
+    "access": "html-read",
+    "quote": "Beginning with the incoming Fall 2027 class, these students can apply through the BIFAA.",
+    "facts": {
+      "publicMerit": [
+        {
+          "id": "baylor-international-merit-review",
+          "category": "merit",
+          "basis": "merit",
+          "name": {
+            "en": "International freshman merit consideration",
+            "ru": "Международное merit-рассмотрение первокурсника"
+          },
+          "amount": null,
+          "eligibility": {
+            "en": "Admitted first-time international students, based on high school performance and completed admission file",
+            "ru": "Зачисленные впервые иностранные студенты, по школьной успеваемости и полному заявлению на поступление"
+          },
+          "renewable": {
+            "en": "Baylor cumulative college GPA at least 3.0; exact maximum duration and stacking require award terms",
+            "ru": "Накопленный GPA Baylor не ниже 3,0; точная максимальная длительность и совместимость требуют условий награды"
+          },
+          "application": {
+            "en": "Automatic consideration; no BIFAA required for merit, no additional merit application",
+            "ru": "Автоматическое рассмотрение; BIFAA для merit не нужен, отдельной merit-заявки нет"
+          },
+          "note": {
+            "en": "The 2027–28 first-year table lists President’s USD 32,000, Provost’s 28,000, Deans’25,000, Founders’20,000 and Independence 12,500. The first-year column does not explicitly state the payment period; these are not installed as confirmed annual amounts. Transfer amounts/criteria are separate. Largest full-coverage international award remains unverified.",
+            "ru": "Таблица первокурсников 2027–28 перечисляет President’s 32 000 USD, Provost’s 28 000, Deans’ 25 000, Founders’ 20 000 и Independence 12 500. Столбец первокурсников прямо не определяет период выплаты; суммы не установлены как подтверждённые ежегодные. Transfer-суммы/критерии отдельные. Крупнейшая международная награда полного покрытия не проверена."
+          },
+          "deadlineScope": "no-separate-application",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      ],
+      "publicNeedBased": {
+        "availableToInternational": true,
+        "forms": [
+          {
+            "en": "BIFAA — Baylor International Financial Aid Application, beginning Fall 2027",
+            "ru": "BIFAA — международная заявка финансовой помощи Baylor, начиная с осени 2027"
+          }
+        ],
+        "note": {
+          "en": "BIFAA is required for international institutional need-aid consideration from Fall 2027, but does not guarantee aid and is not required for merit. This page now prints priority November 15/final February 1. Earlier official November 1 priority evidence is retained as a conflict pending explicit reconciliation; no single confirmed priority is substituted. Domestic FAFSA/CSS instructions do not apply automatically to ordinary F-1 applicants.",
+          "ru": "С осени 2027 BIFAA обязателен для рассмотрения международной университетской помощи по потребности, но не гарантирует помощь и не требуется для merit. Эта страница сейчас печатает приоритет 15 ноября/финал 1 февраля. Ранее проверенное официальное указание приоритета 1 ноября сохранено как конфликт до явного согласования; единый подтверждённый приоритет не подставлен. Внутренние инструкции FAFSA/CSS автоматически не применяются к обычному F-1."
+        }
+      },
+      "supportingSources": [
+        "https://admissions.web.baylor.edu/costs-aid/scholarships-aid/merit-based-scholarships"
+      ]
+    }
+  },
+  {
+    "id": "baylor-university",
+    "topic": "remaining-award-review",
+    "source": "https://admissions.web.baylor.edu/costs-aid/scholarships-aid/merit-based-scholarships",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "First-year merit values; payment period not explicitly labelled; transfer tables not imported",
+    "campus": "Waco",
+    "access": "html-read",
+    "quote": "Freshman Merit-Based Scholarships 2027-2028",
+    "facts": {
+      "firstYearPrintedValues": [
+        32000,
+        28000,
+        25000,
+        20000,
+        12500
+      ],
+      "academicYear": "2027–2028",
+      "firstYearPeriodNotExplicit": true,
+      "collegeRenewalGPA": 3.0
+    }
+  },
+  {
+    "id": "yeshiva-university",
+    "topic": "remaining-award-review",
+    "source": "https://apply.yu.edu/international",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "International undergraduate merit and institutional need consideration, not Katz graduate awards",
+    "campus": "New York; undergraduate college eligibility remains programme-specific",
+    "access": "html-read",
+    "quote": "Yeshiva University offers merit-based scholarships to international students.",
+    "facts": {
+      "publicMerit": [
+        {
+          "id": "yu-international-merit-review",
+          "category": "merit",
+          "basis": "merit",
+          "name": {
+            "en": "International undergraduate merit consideration",
+            "ru": "Международное merit-рассмотрение бакалавра"
+          },
+          "amount": null,
+          "eligibility": {
+            "en": "International undergraduate applicants; Yeshiva College/Stern/Sy Syms and programme eligibility must be checked separately",
+            "ru": "Иностранные бакалаврские абитуриенты; применимость Yeshiva College/Stern/Sy Syms и программы проверяется отдельно"
+          },
+          "renewable": null,
+          "application": {
+            "en": "Admission application and portal; named Honors/leadership schemes can have separate applications",
+            "ru": "Заявление на поступление и портал; у именованных Honors/лидерских программ могут быть отдельные заявки"
+          },
+          "note": {
+            "en": "The general international page confirms merit and possible institutional need aid, not automatic eligibility for each named scholarship. Amount, largest award, renewal and stacking remain scheme-specific. Graduate Katz funding and three-year Israel-route awards are not assigned to an ordinary four-year first-year applicant.",
+            "ru": "Общая международная страница подтверждает merit и возможную университетскую помощь по потребности, а не автоматическую применимость каждой именованной стипендии. Сумма, крупнейшая награда, продление и совместимость зависят от схемы. Финансирование магистратуры Katz и трёхлетних маршрутов после Израиля не присвоено обычному первокурснику четырёхлетнего пути."
+          },
+          "deadlineScope": "not-confirmed",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      ],
+      "publicNeedBased": {
+        "availableToInternational": true,
+        "forms": [
+          {
+            "en": "International Student Aid Application in the admission portal",
+            "ru": "Международная заявка финансовой помощи в портале поступления"
+          }
+        ],
+        "note": {
+          "en": "International applicants may be considered for institutional need-based aid; no promise to meet full need. US federal/state aid is unavailable to ordinary international noncitizens.",
+          "ru": "Иностранные абитуриенты могут рассматриваться на университетскую помощь по потребности; удовлетворение всей потребности не обещается. Федеральная/штатная помощь США обычным иностранным негражданам недоступна."
+        }
+      },
+      "supportingSources": [
+        "https://apply.yu.edu/aid",
+        "https://go.yu.edu/merit-scholarships"
+      ]
+    }
+  },
+  {
+    "id": "brigham-young-university",
+    "topic": "remaining-award-access-review",
+    "source": "https://enrollment.byu.edu/financial-aid/applying-for-scholarships",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "First-year scholarship applications and renewal",
+    "campus": "Provo",
+    "access": "403-blocked",
+    "quote": null,
+    "facts": null,
+    "unresolved": "Official page blocked; do not import search previews, other BYU campuses or graduate sponsorship."
+  },
+  {
+    "id": "brigham-young-university",
+    "topic": "remaining-award-access-review",
+    "source": "https://enrollment.byu.edu/financial-aid/international-students",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "International undergraduate scholarship scope",
+    "campus": "Provo",
+    "access": "403-blocked",
+    "quote": null,
+    "facts": null,
+    "unresolved": "Official page blocked; do not import search previews, other BYU campuses or graduate sponsorship."
   }
 ]

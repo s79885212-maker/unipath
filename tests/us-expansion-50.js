@@ -319,6 +319,21 @@ module.exports=function(env){
      !DB.match.annualCost[stevens.id]&&budget(stevens,100000).status==='unknown'&&/federal loans/.test(stevens.costs.note),
      'Stevens previous-year COA keeps the federal-loan-only fee conditional and cannot confirm a Fall2027 budget');
   var wabashAward=U.uniById('wabash-college').scholarships.merit[0];
+  var fiuAid=U.uniById('florida-international-university').scholarships.merit.find(function(a){return a.id==='fiu-gold-blue';});
+  var ucscAid=U.uniById('university-of-california-santa-cruz').scholarships.merit.find(function(a){return a.id==='ucsc-undergraduate-dean';});
+  ok(fiuAid&&/over four years/.test(fiuAid.amount)&&fiuAid.entryYear===null&&/cycle is inconsistent/.test(fiuAid.application)&&
+     /30 FIU credits/.test(fiuAid.renewable)&&ucscAid&&/total split over four/.test(ucscAid.amount)&&/not USD100,000 each year|not USD 100,000 each year/.test(ucscAid.note),
+     'FIU and Santa Cruz multi-year awards cannot become annual maxima; FIU mismatched entry-year text never confirms2027');
+  var usfAid=U.uniById('university-of-south-florida').scholarships.merit.filter(function(a){return /^usf-green-gold-/.test(a.id);});
+  ok(usfAid.length===3&&usfAid.every(function(a){return a.entryYear==='2027'&&a.renewable===null&&/Nonresident tuition reduction/.test(a.note)&&
+     U.awardDates(U.uniById('university-of-south-florida'),a).some(function(d){return d.dateISO==='2027-01-15';});})&&
+     /2026–27 only/.test(U.uniById('university-of-tennessee-knoxville').scholarships.merit[0].amount),
+     'USF2027 tuition waivers keep a real dated prerequisite without inherited renewal terms; Knoxville historical award values stay historical');
+  ok(bay.scholarships.needBased.forms.some(function(f){return /BIFAA/.test(f);})&&
+     /not required for merit/.test(bay.scholarships.needBased.note)&&
+     /CSS Profile is required/.test(stevens.scholarships.merit[0].application)&&
+     boulder.scholarships.merit.filter(function(a){return /^cu-boulder-/.test(a.id);}).every(function(a){return /cannot combine/.test(a.note)&&/2.75/.test(a.renewable);}),
+     'Baylor international BIFAA and Stevens CSS requirements remain distinct; Boulder named alternatives preserve no-stacking and college renewal');
   var connStamps=U.fullRide(conn),connDates=U.awardDates(conn,connStamps);
   ok(connStamps.id==='uconn-stamps'&&connStamps.internationalEligible===true&&connStamps.entryYear==='2027'&&
      connDates.length===2&&connDates.some(function(d){return d.kind==='admission'&&d.dateISO==='2026-11-01';})&&

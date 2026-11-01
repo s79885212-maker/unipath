@@ -44767,7 +44767,24 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": null
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "fiu-gold-blue",
+        "category": "merit",
+        "basis": "merit",
+        "name": "Gold and Blue Scholarship",
+        "amount": "USD 4,000–24,000 distributed over four years for non-Florida residents; not an annual amount",
+        "eligibility": "Admitted first-time-in-college non-Florida residents; international F-1 or other eligible visa. Official SAT/ACT/CLT required in the completed merit file.",
+        "renewable": "Usually first degree, 120 credits or four years, whichever first; programme-specific longer degree exception. Full-time 12 credits each fall/spring; earn 30 FIU credits per academic year and cumulative FIU GPA 3.00.",
+        "application": "Automatic admission review, no additional merit application. Page prints overseas deadline 16 December 2026 but calls the entry term Early Fall/Fall 2026; cycle is inconsistent and not confirmed as Fall 2027.",
+        "note": "Cannot stack with other FIU merit aid. Amount depends on enrolment; no assumed full tuition or housing. Nonresident waiver cannot overlap another waiver of the same tuition portion.",
+        "deadlineScope": "not-confirmed",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://admissions.fiu.edu/cost-and-aid/scholarships/",
+        "verified": "2026-11-02"
+      }
+    ],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,
@@ -44821,6 +44838,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Cost — reviewed official scope and period",
       "url": "https://onestop.fiu.edu/finances/estimate-your-costs/"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://admissions.fiu.edu/cost-and-aid/scholarships/"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://scholarships.fiu.edu/browse-scholarships/merit-scholarships/policies-renewal/index.html"
     }
   ],
   "verification": {
@@ -45023,6 +45048,81 @@ window.UNIPATH.universities.push(
           "entryYear": "2027",
           "quote": "FALL/SUMMER 2027 SEMESTER START"
         }
+      },
+      {
+        "id": "usf-green-gold-presidential-fall2027-admission",
+        "name": "Green and Gold admission consideration",
+        "kind": "admission",
+        "date": "15 January 2027",
+        "dateISO": "2027-01-15",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
+        "binding": null,
+        "awardId": "usf-green-gold-presidential",
+        "awardCategory": "merit",
+        "appliesTo": "Fall 2027 international first-year scholarship consideration",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "source": "https://www.usf.edu/admissions/international/admission-information/cost-of-attendance/scholarships.aspx",
+          "verified": "2026-11-02",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "quote": "freshman application for Summer or Fall 2027 by January 15, 2027"
+        },
+        "source": "https://www.usf.edu/admissions/international/admission-information/cost-of-attendance/scholarships.aspx",
+        "verified": "2026-11-02"
+      },
+      {
+        "id": "usf-green-gold-directors-fall2027-admission",
+        "name": "Green and Gold admission consideration",
+        "kind": "admission",
+        "date": "15 January 2027",
+        "dateISO": "2027-01-15",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
+        "binding": null,
+        "awardId": "usf-green-gold-directors",
+        "awardCategory": "merit",
+        "appliesTo": "Fall 2027 international first-year scholarship consideration",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "source": "https://www.usf.edu/admissions/international/admission-information/cost-of-attendance/scholarships.aspx",
+          "verified": "2026-11-02",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "quote": "freshman application for Summer or Fall 2027 by January 15, 2027"
+        },
+        "source": "https://www.usf.edu/admissions/international/admission-information/cost-of-attendance/scholarships.aspx",
+        "verified": "2026-11-02"
+      },
+      {
+        "id": "usf-green-gold-scholars-fall2027-admission",
+        "name": "Green and Gold admission consideration",
+        "kind": "admission",
+        "date": "15 January 2027",
+        "dateISO": "2027-01-15",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
+        "binding": null,
+        "awardId": "usf-green-gold-scholars",
+        "awardCategory": "merit",
+        "appliesTo": "Fall 2027 international first-year scholarship consideration",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "source": "https://www.usf.edu/admissions/international/admission-information/cost-of-attendance/scholarships.aspx",
+          "verified": "2026-11-02",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "quote": "freshman application for Summer or Fall 2027 by January 15, 2027"
+        },
+        "source": "https://www.usf.edu/admissions/international/admission-information/cost-of-attendance/scholarships.aspx",
+        "verified": "2026-11-02"
       }
     ],
     "applicationFee": {
@@ -45151,7 +45251,56 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": null
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "usf-green-gold-presidential",
+        "category": "merit",
+        "basis": "merit",
+        "name": "Green and Gold Presidential Waiver Award",
+        "amount": "Up to USD 11,000/year; approximately USD 44,000 total",
+        "eligibility": "International Summer/Fall 2027 first-year applicants; competitive admission review, including required records, test scores and fee",
+        "renewable": null,
+        "application": "Complete admission application by 15 January 2027; no separate scholarship application",
+        "note": "Nonresident tuition reduction, not a cash full-ride award. Payment may decrease with fewer credits; cannot combine with another waiver of the same nonresident tuition. Exact 2027–28 GPA/credit renewal terms were not accessible; older 2026–27 terms are not silently carried forward.",
+        "deadlineScope": "confirmed",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "source": "https://www.usf.edu/admissions/international/admission-information/cost-of-attendance/scholarships.aspx",
+        "verified": "2026-11-02"
+      },
+      {
+        "id": "usf-green-gold-directors",
+        "category": "merit",
+        "basis": "merit",
+        "name": "Green and Gold Directors Waiver Award",
+        "amount": "Up to USD 9,000/year; approximately USD 36,000 total",
+        "eligibility": "International Summer/Fall 2027 first-year applicants; competitive admission review, including required records, test scores and fee",
+        "renewable": null,
+        "application": "Complete admission application by 15 January 2027; no separate scholarship application",
+        "note": "Nonresident tuition reduction, not a cash full-ride award. Payment may decrease with fewer credits; cannot combine with another waiver of the same nonresident tuition. Exact 2027–28 GPA/credit renewal terms were not accessible; older 2026–27 terms are not silently carried forward.",
+        "deadlineScope": "confirmed",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "source": "https://www.usf.edu/admissions/international/admission-information/cost-of-attendance/scholarships.aspx",
+        "verified": "2026-11-02"
+      },
+      {
+        "id": "usf-green-gold-scholars",
+        "category": "merit",
+        "basis": "merit",
+        "name": "Green and Gold Scholars Waiver Award",
+        "amount": "Up to USD 5,000/year; approximately USD 20,000 total",
+        "eligibility": "International Summer/Fall 2027 first-year applicants; competitive admission review, including required records, test scores and fee",
+        "renewable": null,
+        "application": "Complete admission application by 15 January 2027; no separate scholarship application",
+        "note": "Nonresident tuition reduction, not a cash full-ride award. Payment may decrease with fewer credits; cannot combine with another waiver of the same nonresident tuition. Exact 2027–28 GPA/credit renewal terms were not accessible; older 2026–27 terms are not silently carried forward.",
+        "deadlineScope": "confirmed",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "source": "https://www.usf.edu/admissions/international/admission-information/cost-of-attendance/scholarships.aspx",
+        "verified": "2026-11-02"
+      }
+    ],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,
@@ -45205,6 +45354,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Cost — reviewed official scope and period",
       "url": "https://tup-ofa.forest.usf.edu/finaid/coa/2627_on_campus"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://www.usf.edu/admissions/international/admission-information/cost-of-attendance/scholarships.aspx"
     }
   ],
   "verification": {
@@ -45404,7 +45557,24 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": null
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "ucsc-undergraduate-dean",
+        "category": "merit",
+        "basis": "merit",
+        "name": "Undergraduate Dean’s Award",
+        "amount": "USD 12,000–100,000 total split over four first-year-entry years",
+        "eligibility": "New international first-year students; transfer has a separate two-year amount and is not applied here",
+        "renewable": "Four-year distribution stated; detailed GPA/credit renewal criteria not verified because linked financial-aid page returned 502",
+        "application": "International students are considered; no separate 2027 award application or deadline established by this page",
+        "note": "This is a four-year total, not USD 100,000 each year. Regents is separately listed at USD 20,000 over four years; detailed eligibility, stacking and entry-year values require verification. Neither is a guaranteed full ride.",
+        "deadlineScope": "not-confirmed",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://admissions.ucsc.edu/posts/international-student-timeline",
+        "verified": "2026-11-02"
+      }
+    ],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,
@@ -45478,6 +45648,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://admissions.ucsc.edu/programs/mathematics-theory-and-computation"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://admissions.ucsc.edu/posts/international-student-timeline"
     }
   ],
   "verification": {
@@ -45491,7 +45665,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-11-01",
+  "lastVerified": "2026-11-02",
   "aliases": [
     "UC Santa Cruz",
     "UCSC"
@@ -45760,7 +45934,40 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": null
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "cu-boulder-presidential",
+        "category": "merit",
+        "basis": "merit",
+        "name": "Presidential Scholarship",
+        "amount": "USD 15,000/year for newly admitted students; USD 60,000 over four years",
+        "eligibility": "International nonresident first-year applicants; complete records including English proficiency by annual 15 January. SAT/ACT not considered for these automatic awards.",
+        "renewable": "Up to eight fall/spring semesters;12+ credits each semester and cumulative CU Boulder GPA 2.75",
+        "application": "Automatic consideration with admission;15 January is annual, entry year not established in the FAQ",
+        "note": "Presidential and Chancellor’s cannot combine. Presidential page distinguishes Fall 2026-or-earlier total USD 55,000 from newly admitted total USD 60,000. Other aid/Arts & Humanities may change the package; total cannot exceed COA. Partial support, not guaranteed total spending coverage.",
+        "deadlineScope": "annual-rule",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://www.colorado.edu/admissions/process/international/faqs",
+        "verified": "2026-11-02"
+      },
+      {
+        "id": "cu-boulder-chancellors",
+        "category": "merit",
+        "basis": "merit",
+        "name": "Chancellor’s Achievement Scholarship",
+        "amount": "USD 6,250/year for newly admitted students; USD 25,000 over four years",
+        "eligibility": "International nonresident first-year applicants; complete records including English proficiency by annual 15 January. SAT/ACT not considered for these automatic awards.",
+        "renewable": "Up to eight fall/spring semesters;12+ credits each semester and cumulative CU Boulder GPA 2.75",
+        "application": "Automatic consideration with admission;15 January is annual, entry year not established in the FAQ",
+        "note": "Presidential and Chancellor’s cannot combine. Presidential page distinguishes Fall 2026-or-earlier total USD 55,000 from newly admitted total USD 60,000. Other aid/Arts & Humanities may change the package; total cannot exceed COA. Partial support, not guaranteed total spending coverage.",
+        "deadlineScope": "annual-rule",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://www.colorado.edu/admissions/process/international/faqs",
+        "verified": "2026-11-02"
+      }
+    ],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,
@@ -45818,6 +46025,18 @@ window.UNIPATH.universities.push(
     {
       "label": "Cost — reviewed official scope and period",
       "url": "https://www.colorado.edu/bursar/costs/undergraduate"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://www.colorado.edu/admissions/process/international/faqs"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://www.colorado.edu/scholarships/presidential-scholarship"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://www.colorado.edu/scholarships/chancellors-achievement-scholarship"
     }
   ],
   "verification": {
@@ -46155,14 +46374,31 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": null
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "unh-international-student-scholarship",
+        "category": "merit",
+        "basis": "merit",
+        "name": "International Student Scholarship",
+        "amount": null,
+        "eligibility": "New and continuing undergraduate international students in valid F-1/J-1 status; financial need and academic merit; GPA 3.1 for invitation",
+        "renewable": null,
+        "application": "Invitation by email early in spring, usually February; newly admitted students can apply. Exact cycle date not printed.",
+        "note": "Variable partial awards. The general first-year USD 1,000–20,000 table is not automatically assigned to this separately described international scheme. GPA scale/evaluation for a new Uzbek school applicant, stacking and renewal remain unconfirmed.",
+        "deadlineScope": "not-confirmed",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://www.unh.edu/financialaid/types-aid/scholarships",
+        "verified": "2026-11-02"
+      }
+    ],
     "needBased": {
-      "availableToInternational": null,
+      "availableToInternational": true,
       "meetsFullNeed": null,
       "needBlindInternational": null,
       "forms": [],
       "deadlines": null,
-      "note": null
+      "note": "Limited partial international awards combine need and merit; no promise to meet full demonstrated need. Exact amount and renewal require award-specific confirmation."
     }
   },
   "photos": {
@@ -46205,6 +46441,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Cost — reviewed official scope and period",
       "url": "https://www.unh.edu/financialaid/resources/international-students-estimate-expenses"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://www.unh.edu/financialaid/types-aid/scholarships"
     }
   ],
   "verification": {
@@ -46580,7 +46820,24 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": null
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "utk-global-ambassador",
+        "category": "merit",
+        "basis": "merit",
+        "name": "Global Ambassador Scholarship",
+        "amount": "2026–27 only: USD 10,000 /12,500 /15,000 per year; not confirmed 2027–28 rates",
+        "eligibility": "Incoming first-year international nonresident visa holder not graduating from a US high school; fall immediately after school. UT-converted weighted core GPA tiers 3.0–3.49 /3.5–3.79 /3.8+; no direct Uzbek-scale conversion.",
+        "renewable": "Up to four years; cumulative college GPA 3.0, good standing, full-time each semester and ambassador activities",
+        "application": "Invitation to a separate application; applicants after annual May 1 are not considered. No confirmed 2027 deadline assigned.",
+        "note": "Does not combine with other institutional scholarships. Award depends on UT-converted GPA and nonresident tuition status; competitive, not a guaranteed reduction for every international student.",
+        "deadlineScope": "annual-rule",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://onestop.utk.edu/scholarships-financial-aid/scholarships/global-ambassador-scholarship/",
+        "verified": "2026-11-02"
+      }
+    ],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,
@@ -46638,6 +46895,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Teaching language — official campus statement",
       "url": "https://cge.utk.edu/wp-content/uploads/sites/84/2020/08/UG-Student-Exchange-Agreement.pdf"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://onestop.utk.edu/scholarships-financial-aid/scholarships/global-ambassador-scholarship/"
     }
   ],
   "verification": {
@@ -47886,7 +48147,24 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": null
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "stevens-international-merit",
+        "category": "merit",
+        "basis": "merit",
+        "name": "International institutional merit consideration",
+        "amount": null,
+        "eligibility": "International undergraduate applicants; limited institutional merit awards, no federal funding",
+        "renewable": null,
+        "application": "CSS Profile is required for institutional scholarship consideration, school code 2819; deadline depends on the admission timeline",
+        "note": "General automatic-merit language does not remove the explicit international CSS requirement. Amount, largest applicable award, renewal and stacking are not established on the international page.",
+        "deadlineScope": "not-confirmed",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://www.stevens.edu/admission-aid/undergraduate-admissions/international-students",
+        "verified": "2026-11-02"
+      }
+    ],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,
@@ -47944,6 +48222,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://www.stevens.edu/school-business/undergraduate-programs"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://www.stevens.edu/admission-aid/undergraduate-admissions/international-students"
     }
   ],
   "verification": {
@@ -48230,14 +48512,33 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": "Beginning Fall 2027, international need-based aid consideration uses BIFAA; it does not guarantee an award and is not required for merit. Official sources conflict on priority November 1 versus November 15, including two sections on one page. Final February 1 is consistent; no single priority deadline is presented as confirmed. Largest award/renewal remains unverified."
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "baylor-international-merit-review",
+        "category": "merit",
+        "basis": "merit",
+        "name": "International freshman merit consideration",
+        "amount": null,
+        "eligibility": "Admitted first-time international students, based on high school performance and completed admission file",
+        "renewable": "Baylor cumulative college GPA at least 3.0; exact maximum duration and stacking require award terms",
+        "application": "Automatic consideration; no BIFAA required for merit, no additional merit application",
+        "note": "The 2027–28 first-year table lists President’s USD 32,000, Provost’s 28,000, Deans’25,000, Founders’20,000 and Independence 12,500. The first-year column does not explicitly state the payment period; these are not installed as confirmed annual amounts. Transfer amounts/criteria are separate. Largest full-coverage international award remains unverified.",
+        "deadlineScope": "no-separate-application",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://admissions.web.baylor.edu/admission/international/financial-assistance-international-students",
+        "verified": "2026-11-02"
+      }
+    ],
     "needBased": {
       "availableToInternational": true,
       "meetsFullNeed": null,
       "needBlindInternational": null,
-      "forms": [],
+      "forms": [
+        "BIFAA — Baylor International Financial Aid Application, beginning Fall 2027"
+      ],
       "deadlines": null,
-      "note": null
+      "note": "BIFAA is required for international institutional need-aid consideration from Fall 2027, but does not guarantee aid and is not required for merit. This page now prints priority November 15/final February 1. Earlier official November 1 priority evidence is retained as a conflict pending explicit reconciliation; no single confirmed priority is substituted. Domestic FAFSA/CSS instructions do not apply automatically to ordinary F-1 applicants."
     }
   },
   "photos": {
@@ -48300,6 +48601,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Cost — reviewed official scope and period",
       "url": "https://admissions.web.baylor.edu/costs-aid/tuition-fees"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://admissions.web.baylor.edu/admission/international/financial-assistance-international-students"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://admissions.web.baylor.edu/costs-aid/scholarships-aid/merit-based-scholarships"
     }
   ],
   "verification": {
@@ -48944,14 +49253,33 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": null
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "yu-international-merit-review",
+        "category": "merit",
+        "basis": "merit",
+        "name": "International undergraduate merit consideration",
+        "amount": null,
+        "eligibility": "International undergraduate applicants; Yeshiva College/Stern/Sy Syms and programme eligibility must be checked separately",
+        "renewable": null,
+        "application": "Admission application and portal; named Honors/leadership schemes can have separate applications",
+        "note": "The general international page confirms merit and possible institutional need aid, not automatic eligibility for each named scholarship. Amount, largest award, renewal and stacking remain scheme-specific. Graduate Katz funding and three-year Israel-route awards are not assigned to an ordinary four-year first-year applicant.",
+        "deadlineScope": "not-confirmed",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://apply.yu.edu/international",
+        "verified": "2026-11-02"
+      }
+    ],
     "needBased": {
-      "availableToInternational": null,
+      "availableToInternational": true,
       "meetsFullNeed": null,
       "needBlindInternational": null,
-      "forms": [],
+      "forms": [
+        "International Student Aid Application in the admission portal"
+      ],
       "deadlines": null,
-      "note": null
+      "note": "International applicants may be considered for institutional need-based aid; no promise to meet full need. US federal/state aid is unavailable to ordinary international noncitizens."
     }
   },
   "photos": {
@@ -49002,6 +49330,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Cost — reviewed official scope and period",
       "url": "https://www.yu.edu/osf/tuition-fees/undergraduate"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://apply.yu.edu/aid"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://go.yu.edu/merit-scholarships"
     }
   ],
   "verification": {

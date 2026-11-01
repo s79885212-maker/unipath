@@ -2314,12 +2314,14 @@
           ]
         },
         "awards": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
             "namedLargest": null,
             "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
           },
-          "evidence": []
+          "evidence": [
+            "https://admissions.fiu.edu/cost-and-aid/scholarships/"
+          ]
         },
         "photo": {
           "status": "confirmed",
@@ -2393,12 +2395,14 @@
           ]
         },
         "awards": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
             "namedLargest": null,
             "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
           },
-          "evidence": []
+          "evidence": [
+            "https://www.usf.edu/admissions/international/admission-information/cost-of-attendance/scholarships.aspx"
+          ]
         },
         "photo": {
           "status": "confirmed",
@@ -2479,12 +2483,14 @@
           "evidence": []
         },
         "awards": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
             "namedLargest": null,
             "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
           },
-          "evidence": []
+          "evidence": [
+            "https://admissions.ucsc.edu/posts/international-student-timeline"
+          ]
         },
         "photo": {
           "status": "confirmed",
@@ -2570,12 +2576,14 @@
           ]
         },
         "awards": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
             "namedLargest": null,
             "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
           },
-          "evidence": []
+          "evidence": [
+            "https://www.colorado.edu/admissions/process/international/faqs"
+          ]
         },
         "photo": {
           "status": "confirmed",
@@ -2649,12 +2657,14 @@
           ]
         },
         "awards": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
             "namedLargest": null,
             "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
           },
-          "evidence": []
+          "evidence": [
+            "https://www.unh.edu/financialaid/types-aid/scholarships"
+          ]
         },
         "photo": {
           "status": "confirmed",
@@ -2742,12 +2752,14 @@
           ]
         },
         "awards": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
             "namedLargest": null,
             "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
           },
-          "evidence": []
+          "evidence": [
+            "https://onestop.utk.edu/scholarships-financial-aid/scholarships/global-ambassador-scholarship/"
+          ]
         },
         "photo": {
           "status": "confirmed",
@@ -2987,12 +2999,14 @@
           ]
         },
         "awards": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
             "namedLargest": null,
             "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
           },
-          "evidence": []
+          "evidence": [
+            "https://www.stevens.edu/admission-aid/undergraduate-admissions/international-students"
+          ]
         },
         "photo": {
           "status": "confirmed",
@@ -3067,12 +3081,14 @@
           ]
         },
         "awards": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
             "namedLargest": null,
             "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
           },
-          "evidence": []
+          "evidence": [
+            "https://admissions.web.baylor.edu/admission/international/financial-assistance-international-students"
+          ]
         },
         "photo": {
           "status": "confirmed",
@@ -3227,12 +3243,14 @@
           ]
         },
         "awards": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
             "namedLargest": null,
             "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
           },
-          "evidence": []
+          "evidence": [
+            "https://apply.yu.edu/international"
+          ]
         },
         "photo": {
           "status": "confirmed",
