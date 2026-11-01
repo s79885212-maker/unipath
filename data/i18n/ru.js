@@ -17376,4 +17376,7 @@ window.UNIPATH_I18N.ru = {
   "Economics, B.A.": "Экономика, B.A.",
   "Electrical Engineering (undergraduate major)": "Электротехника (основная программа бакалавриата)",
   "Mathematics Theory and Computation (undergraduate major)": "Теоретическая и вычислительная математика (основная программа бакалавриата)",
+  "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching.": "Фото кампуса, автор и свободная лицензия проверены по странице файла Commons. Уменьшено с полями; без ретуши.",
+  "Founders Mall and Pat Neff Hall, Baylor University — resized with borders, no retouching": "Founders Mall и Pat Neff Hall, Baylor — уменьшено с полями, без ретуши",
+  "Wabash Mall and chapel, Wabash College — resized with borders, no retouching": "Аллея Wabash Mall и часовня, Wabash College — уменьшено с полями, без ретуши",
 };

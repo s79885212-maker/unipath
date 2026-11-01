@@ -44,7 +44,7 @@ async function localArtifact(context){
   results.push({id:m.id,pass:hero.wholeImageVisible&&gallery.wholeImageVisible&&goodCredit&&mainBase&&thumb.lazy==='lazy'&&thumb.base&&translatedCaption,hero,gallery,goodCredit,thumb,translatedCaption});
  }
  // Portrait and panoramic new assets, plus the two protected existing photos.
- const controls=['university-of-pittsburgh','university-of-california-merced','olin-college-of-engineering','temple-university-japan'];
+ const controls=['university-of-pittsburgh','university-of-california-merced','olin-college-of-engineering','temple-university-japan','baylor-university','wabash-college'];
  for(const id of controls)for(const lang of ['ru','en'])for(const theme of ['light','dark'])for(const width of [360,390,768,1280]){
   await p.setViewportSize({width,height:850});await navigate('http://127.0.0.1:8778/unipath/staging/?lang='+lang+'#/university/'+id);await loaded('.hero-photo img');
   if(await p.getAttribute('html','data-theme')!==theme)await p.locator('[data-theme-toggle]').click();
@@ -60,5 +60,5 @@ async function localArtifact(context){
  const cardFallback=await p.locator('.uni-card .media-note').first().isVisible();
  await navigate(base+'?lang=en#/university/university-of-california-davis');await p.waitForSelector('main h1');await p.waitForFunction(()=>!document.querySelector('.hero-photo'));
  const errorFallback={cardFallback,heroRemoved:await p.locator('.hero-photo').count()===0};
- const out={artifactVersion:195,mode:'Local staging artifact via disk fulfillment; not live Pages',browser:b.version(),photos:manifest.length,checks:results.length,issues:results.filter(r=>!r.pass),errors,failed,errorFallback,results};fs.writeFileSync(path.resolve(process.env.PHOTO_QA_OUTPUT || path.join(root,'build/photos.browser.json')),JSON.stringify(out,null,2));console.log(JSON.stringify({...out,results:undefined},null,2));if(out.issues.length||errors.length||!cardFallback||!errorFallback.heroRemoved)process.exitCode=1;
+ const out={artifactVersion:+/\?v=(\d+)/.exec(fs.readFileSync(path.join(root,'index.html'),'utf8'))[1],mode:'Local staging artifact via disk fulfillment; not live Pages',browser:b.version(),photos:manifest.length,checks:results.length,issues:results.filter(r=>!r.pass),errors,failed,errorFallback,results};fs.writeFileSync(path.resolve(process.env.PHOTO_QA_OUTPUT || path.join(root,'build/photos.browser.json')),JSON.stringify(out,null,2));console.log(JSON.stringify({...out,results:undefined},null,2));if(out.issues.length||errors.length||!cardFallback||!errorFallback.heroRemoved)process.exitCode=1;
 }catch(e){fs.writeFileSync(path.resolve(process.env.PHOTO_QA_OUTPUT || path.join(root,'build/photos.browser.json')),JSON.stringify({status:'failed',checks:results.length,errors,failed,results,error:e.message},null,2));throw e;}finally{await b.close();}})().catch(e=>{console.error(e);process.exitCode=1});

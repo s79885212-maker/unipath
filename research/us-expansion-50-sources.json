@@ -7955,5 +7955,64 @@
       "additionalOfficialLead": "https://mymajor.fiu.edu/",
       "leadAccess": "Official directory open returned no readable lines; search result is a lead only and not accepted as campus evidence."
     }
+  },
+  {
+    "id": "baylor-university",
+    "topic": "photo-file-reviewed-installed",
+    "source": "https://commons.wikimedia.org/wiki/File:Baylor_University_June_2016_13_%28Founders_Mall_and_Pat_Neff_Hall%29.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph; not admissions evidence",
+    "campus": "Waco",
+    "access": "commons-file-page-and-image-reviewed",
+    "quote": "Founders Mall and Pat Neff Hall",
+    "facts": {
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "downloadedSha256": "d0f490eaf7b32a4cf5fed1ef480c9bc8c31b5b87f0a0411fe23b7fcd7e2ad268",
+      "visualReview": "Image visually reviewed Nov1; building/campus stated in Commons description/categories. Michael Barera own work; CC BY-SA4.0 selectable licence, full file page reviewed. 6000x4000 original; downloaded preview sharp enough without upscaling."
+    }
+  },
+  {
+    "id": "wabash-college",
+    "topic": "photo-file-reviewed-installed",
+    "source": "https://commons.wikimedia.org/wiki/File:WabashMall.JPG",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph; not admissions evidence",
+    "campus": "Crawfordsville",
+    "access": "commons-file-page-and-image-reviewed",
+    "quote": "Wabash Mall",
+    "facts": {
+      "author": "Wally",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:WabashMall.JPG#Licensing",
+      "downloadedSha256": "9807335764e922e863c7eaa41c6bf57efaea342675f4054f2c1e9d3800bd4e2b",
+      "visualReview": "Image visually reviewed Nov1; building/campus stated in Commons description/categories. Wally explicitly named as author; own-work source and PD-self declaration confirmed in retrieved Commons file wikitext. Campus buildings image preferred over close-up group portrait candidate ChapelSing.jpg."
+    }
+  },
+  {
+    "id": "florida-international-university",
+    "topic": "photo-replacement-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:FIU_MMC_campus.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photo candidate; no admissions claim; image still awaiting download/visual review",
+    "campus": "Modesto A. Maidique (MMC)",
+    "access": "html-read",
+    "quote": "FIU MMC Campus",
+    "facts": {
+      "author": "Eduardo Merille",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "originalSize": [
+        4239,
+        2813
+      ],
+      "downloaded": false,
+      "installed": false,
+      "limitations": "File-page description and EXIF title explicitly identify MMC; Flickr licence reviewed on Commons. Download and visual check remain required."
+    }
   }
 ]

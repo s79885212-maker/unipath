@@ -3,7 +3,8 @@ import datetime,hashlib,json,pathlib,time,urllib.request,urllib.parse,urllib.err
 ROOT=pathlib.Path(__file__).resolve().parent.parent
 DEST=ROOT/'build'/'us50-photo-review';DEST.mkdir(parents=True,exist_ok=True)
 rows=json.loads((ROOT/'research/us-expansion-50-photo-manifest.json').read_text(encoding='utf-8'))
-remaining='--remaining' in sys.argv
+fiu_only='--fiu-only' in sys.argv
+remaining='--remaining' in sys.argv or fiu_only
 if remaining:
  DEST=DEST/'extra';DEST.mkdir(exist_ok=True)
  rows=[dict(id=uid,file=file,filePage='https://commons.wikimedia.org/wiki/File:'+urllib.parse.quote(file.replace(' ','_')),metadataOnly=metadata_only) for uid,file,metadata_only in [
@@ -11,6 +12,10 @@ if remaining:
   ('wabash-college','WabashMall.JPG',False),('wabash-college','ChapelSing.jpg',False),
   ('florida-international-university',"Eastward view of FIU's campus.jpg",True),
   ('university-of-california-santa-cruz','McHenry Library.jpg',True)]]
+ if fiu_only:
+  DEST=DEST/'fiu-final';DEST.mkdir(exist_ok=True)
+  file='FIU MMC campus.jpg'
+  rows=[dict(id='florida-international-university',file=file,filePage='https://commons.wikimedia.org/wiki/File:'+file.replace(' ','_'),metadataOnly=False)]
 allowed={r['id'] for r in json.loads((ROOT/'research/us-expansion-50-targets.json').read_text(encoding='utf-8'))}
 UA='UniPathSourceReview/1.0 (https://github.com/s79885212-maker/unipath; owner-approved Commons campus photos)'
 report=[]

@@ -1380,7 +1380,7 @@
         "Remaining costs/awards/history",
         "Campus photograph/licence"
       ],
-      "sourceEntries": 6,
+      "sourceEntries": 7,
       "completionReview": {
         "photo": "hold-campus"
       }
@@ -1676,7 +1676,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "downloaded-held-review"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1684,7 +1684,7 @@
         "Remaining costs/awards/history",
         "Campus photograph/licence"
       ],
-      "sourceEntries": 8,
+      "sourceEntries": 9,
       "completionReview": {
         "photo": "hold-image-quality"
       }
@@ -1773,7 +1773,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "searched-file-unavailable-placeholder"
+        "photo": "installed-reviewed-free-licence"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1781,7 +1781,7 @@
         "Remaining costs/awards/history",
         "Campus photograph/licence"
       ],
-      "sourceEntries": 8
+      "sourceEntries": 9
     },
     {
       "number": 41,

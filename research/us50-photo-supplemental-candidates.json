@@ -3,43 +3,50 @@
     "id": "baylor-university",
     "file": "Baylor University June 2016 13 (Founders Mall and Pat Neff Hall).jpg",
     "filePage": "https://commons.wikimedia.org/wiki/File:Baylor_University_June_2016_13_(Founders_Mall_and_Pat_Neff_Hall).jpg",
-    "author": "Michael Barera",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Michael_Barera\" title=\"User:Michael Barera\">Michael Barera</a>",
     "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "originalSize": [
       6000,
       4000
     ],
     "subject": "Founders Mall and Pat Neff Hall, Baylor University, Waco",
     "verified": "2026-11-01",
-    "access": "html-read",
-    "downloaded": false,
-    "visualStatus": "pending",
+    "access": "commons-api-file-wikitext-and-image-read",
+    "downloaded": true,
+    "visualStatus": "reviewed-approved-installed",
     "permission": "owner-approved-2026-11-01",
-    "reason": "Replace366x499candidate; file page confirms object, author and CC BY-SA4.0 option; actual download and visual check still required"
+    "reason": "Reviewed and installed; attribution in profile",
+    "downloadedSha256": "d0f490eaf7b32a4cf5fed1ef480c9bc8c31b5b87f0a0411fe23b7fcd7e2ad268"
   },
   {
     "id": "wabash-college",
     "file": "WabashMall.JPG",
     "filePage": "https://commons.wikimedia.org/wiki/File:WabashMall.JPG",
-    "author": null,
-    "license": null,
+    "author": "Wally",
+    "license": "Public domain",
     "verified": "2026-11-01",
-    "access": "file-page-unavailable",
-    "downloaded": false,
-    "visualStatus": "pending",
-    "permission": "owner-approved-2026-11-01"
+    "access": "commons-api-file-wikitext-and-image-read",
+    "downloaded": true,
+    "visualStatus": "reviewed-approved-installed",
+    "permission": "owner-approved-2026-11-01",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:WabashMall.JPG#Licensing",
+    "downloadedSha256": "9807335764e922e863c7eaa41c6bf57efaea342675f4054f2c1e9d3800bd4e2b",
+    "reason": "Reviewed and installed; attribution in profile"
   },
   {
     "id": "wabash-college",
     "file": "ChapelSing.jpg",
     "filePage": "https://commons.wikimedia.org/wiki/File:ChapelSing.jpg",
-    "author": null,
-    "license": null,
+    "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Cleuters&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Cleuters (page does not exist)\">Cleuters</a>",
+    "license": "CC BY-SA 4.0",
     "verified": "2026-11-01",
-    "access": "file-page-unavailable",
-    "downloaded": false,
-    "visualStatus": "pending",
-    "permission": "owner-approved-2026-11-01"
+    "access": "commons-api-file-wikitext-and-image-read",
+    "downloaded": true,
+    "visualStatus": "reviewed-not-selected",
+    "permission": "owner-approved-2026-11-01",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "downloadedSha256": "0ace2f98d28ffd4ab60fd6b0d7b62c3d0c2414215c095b51edb26a125a62abb5",
+    "reason": "Reviewed; clear campus/chapel view WabashMall.JPG selected for the profile instead of close-up group portrait"
   }
 ]

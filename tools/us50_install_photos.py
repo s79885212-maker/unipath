@@ -1,8 +1,9 @@
 """Install explicitly reviewed Commons downloads; preserve entire photos, no network."""
-import hashlib,json,math,pathlib,sys
+import hashlib,json,math,pathlib,re,sys
 from ca50_gaps import load,save
 from us200_std import L,flush
 ROOT=pathlib.Path(__file__).resolve().parent.parent
+version=int(re.search(r'\?v=(\d+)',(ROOT/'index.html').read_text(encoding='utf-8')).group(1))
 reviews=json.loads((ROOT/'research/us50-photo-install-review.json').read_text(encoding='utf-8'))
 allowed={x['id'] for x in json.loads((ROOT/'research/us-expansion-50-targets.json').read_text(encoding='utf-8'))}
 mp=ROOT/'research/us-expansion-50-photo-manifest.json';manifest=json.loads(mp.read_text(encoding='utf-8'));byphoto={x['id']:x for x in manifest}
@@ -37,13 +38,15 @@ for r in reviews:
  subject=m['subject']
  title=L(subject+' — resized with borders, no retouching',r['subjectRu']+' — уменьшено с полями, без ретуши')
  gallery=dict(src=main.relative_to(ROOT).as_posix(),title=title,artist=r['author'],license=r['license'],licenseUrl=r['licenseUrl'],page=r['filePage'])
- u=byid[uid];u['photos'].update(main=gallery['src'],thumb=thumb.relative_to(ROOT).as_posix(),gallery=[gallery])
+ u=byid[uid];old_note=u['photos'].get('note');u['photos'].update(main=gallery['src'],thumb=thumb.relative_to(ROOT).as_posix(),gallery=[gallery])
+ if old_note:u['verification']['unconfirmed']=[n for n in u['verification']['unconfirmed'] if n!=old_note]
+ u['photos']['note']=L('Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching.','Фото кампуса, автор и свободная лицензия проверены по странице файла Commons. Уменьшено с полями; без ретуши.')
  u['lastVerified']=max(u.get('lastVerified') or '',r['reviewed'])
  # Only replace this file's not-installed candidate label; preserve all other sources.
  for s in u['sources']:
   if s['url']==r['filePage']:s['label']=L('Campus photo — Commons file and licence','Фото кампуса — файл Commons и лицензия')
  if not any(s['url']==r['filePage'] for s in u['sources']):u['sources'].append(dict(label=L('Campus photo — Commons file and licence','Фото кампуса — файл Commons и лицензия'),url=r['filePage']))
- m.update(installed=True,installedVersion=195,verified=r['reviewed'],author=r['author'],license=r['license'],licenseUrl=r['licenseUrl'],attribution=r['author']+', '+r['license']+', Wikimedia Commons',plannedChanges=r['changes'],installedMain=gallery['src'],installedThumb=u['photos']['thumb'],originalSize=list(originalSize),outputSize=[width,height],mainBytes=main.stat().st_size,thumbBytes=thumb.stat().st_size)
+ m.update(installed=True,installedVersion=m.get('installedVersion',version),verified=r['reviewed'],author=r['author'],license=r['license'],licenseUrl=r['licenseUrl'],attribution=r['author']+', '+r['license']+', Wikimedia Commons',plannedChanges=r['changes'],installedMain=gallery['src'],installedThumb=u['photos']['thumb'],originalSize=list(originalSize),outputSize=[width,height],mainBytes=main.stat().st_size,thumbBytes=thumb.stat().st_size)
  m.update(contentBox=box,mainSha256=hashlib.sha256(main.read_bytes()).hexdigest(),thumbSha256=hashlib.sha256(thumb.read_bytes()).hexdigest())
  installed+=1
 save(head,rows,tail,str(path));flush();mp.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

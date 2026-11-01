@@ -1461,23 +1461,52 @@
   },
   {
     "id": "baylor-university",
-    "file": "Patneffhallbaylor.jpg",
-    "filePage": "https://commons.wikimedia.org/wiki/File:Patneffhallbaylor.jpg",
-    "author": "Enoch Lai",
-    "license": "Public domain",
-    "licenseUrl": "https://en.wikipedia.org/wiki/Public_domain",
-    "subject": "Pat Neff Hall, Baylor University",
+    "file": "Baylor University June 2016 13 (Founders Mall and Pat Neff Hall).jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Baylor_University_June_2016_13_%28Founders_Mall_and_Pat_Neff_Hall%29.jpg",
+    "author": "Michael Barera",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "subject": "Founders Mall and Pat Neff Hall, Baylor University",
     "verified": "2026-11-01",
     "permission": "owner-approved-2026-11-01",
     "downloaded": true,
-    "attribution": "Enoch Lai, Public domain, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
-    "metadataNote": "Original366x499; assess whether sharp enough for existing layout without upscaling. Placeholder acceptable if quality unsuitable.",
-    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "attribution": "Michael Barera, CC BY-SA 4.0, Wikimedia Commons",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
+    "metadataNote": "Image visually reviewed Nov1; building/campus stated in Commons description/categories. Michael Barera own work; CC BY-SA4.0 selectable licence, full file page reviewed. 6000x4000 original; downloaded preview sharp enough without upscaling.",
+    "permissionSource": "Owner permission for all Commons campus photographs, 2026-11-01",
     "downloadStatus": "downloaded-owner-powershell",
-    "visualStatus": "reviewed-held",
-    "downloadedSha256": "3958e87af00ce5500ab5c30b32137427af8f92bdc54cbd09bae4df01ba432155",
-    "reviewNote": "366x499original held for quality. Higher-resolution candidate6000x4000, Michael Barera, CC BY-SA4.0, verified file page Nov1: https://commons.wikimedia.org/wiki/File:Baylor_University_June_2016_13_(Founders_Mall_and_Pat_Neff_Hall).jpg; download/visual review pending."
+    "visualStatus": "reviewed-approved",
+    "downloadedSha256": "d0f490eaf7b32a4cf5fed1ef480c9bc8c31b5b87f0a0411fe23b7fcd7e2ad268",
+    "reviewNote": "Image visually reviewed Nov1; building/campus stated in Commons description/categories. Michael Barera own work; CC BY-SA4.0 selectable licence, full file page reviewed. 6000x4000 original; downloaded preview sharp enough without upscaling.",
+    "supersededCandidate": {
+      "file": "Patneffhallbaylor.jpg",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Patneffhallbaylor.jpg",
+      "author": "Enoch Lai",
+      "license": "Public domain",
+      "reviewNote": "366x499original held for quality. Higher-resolution candidate6000x4000, Michael Barera, CC BY-SA4.0, verified file page Nov1: https://commons.wikimedia.org/wiki/File:Baylor_University_June_2016_13_(Founders_Mall_and_Pat_Neff_Hall).jpg; download/visual review pending."
+    },
+    "installed": true,
+    "installedVersion": 197,
+    "installedMain": "assets/img/universities/baylor-university/1.jpg",
+    "installedThumb": "assets/img/universities/baylor-university/thumb.jpg",
+    "originalSize": [
+      1920,
+      1280
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 172296,
+    "thumbBytes": 31605,
+    "contentBox": [
+      101,
+      117,
+      998,
+      666
+    ],
+    "mainSha256": "256fe464a7831fb48c7eeac654c07d4c0f63d0f6a8e6b7e5cd048ee93d09b17a",
+    "thumbSha256": "12fb8f17ffd7334fa76897a08a5dd85bd8ba416e9d808d25826cafe4d67f79e8"
   },
   {
     "id": "marquette-university",
@@ -1971,5 +2000,47 @@
     ],
     "mainSha256": "e7c4948ad9e168983b9c0fa3a24724e985551ed915b207f86a9a3ebd5cd03f9a",
     "thumbSha256": "861b9470f0c418d91c4504205fa8a53739420e0a1e8c284f14a575648c47a42d"
+  },
+  {
+    "id": "wabash-college",
+    "file": "WabashMall.JPG",
+    "filePage": "https://commons.wikimedia.org/wiki/File:WabashMall.JPG",
+    "author": "Wally",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:WabashMall.JPG#Licensing",
+    "subject": "Wabash Mall and chapel, Wabash College",
+    "verified": "2026-11-01",
+    "permission": "owner-approved-2026-11-01",
+    "metadataNote": "Image visually reviewed Nov1; building/campus stated in Commons description/categories. Wally explicitly named as author; own-work source and PD-self declaration confirmed in retrieved Commons file wikitext. Campus buildings image preferred over close-up group portrait candidate ChapelSing.jpg.",
+    "permissionSource": "Owner permission for all Commons campus photographs, 2026-11-01",
+    "downloaded": true,
+    "downloadStatus": "downloaded-owner-powershell",
+    "downloadedSha256": "9807335764e922e863c7eaa41c6bf57efaea342675f4054f2c1e9d3800bd4e2b",
+    "visualStatus": "reviewed-approved",
+    "reviewNote": "Image visually reviewed Nov1; building/campus stated in Commons description/categories. Wally explicitly named as author; own-work source and PD-self declaration confirmed in retrieved Commons file wikitext. Campus buildings image preferred over close-up group portrait candidate ChapelSing.jpg.",
+    "installed": true,
+    "installedVersion": 197,
+    "attribution": "Wally, Public domain, Wikimedia Commons",
+    "plannedChanges": "Resized, JPEG encoded and padded with a plain border to preserve the entire image in hero/card/gallery frames; no retouching.",
+    "installedMain": "assets/img/universities/wabash-college/1.jpg",
+    "installedThumb": "assets/img/universities/wabash-college/thumb.jpg",
+    "originalSize": [
+      1920,
+      1440
+    ],
+    "outputSize": [
+      1200,
+      900
+    ],
+    "mainBytes": 132662,
+    "thumbBytes": 25150,
+    "contentBox": [
+      156,
+      117,
+      888,
+      666
+    ],
+    "mainSha256": "1bf5df333dc38a20b404674a05f57ee2609fb344dd9e255500bea092c9922947",
+    "thumbSha256": "4cfb9fe0bbcef3b4ae579333bc952677767c05d7d6c00d92c29144b0cda9f285"
   }
 ]

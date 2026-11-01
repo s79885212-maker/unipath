@@ -155,7 +155,8 @@ module.exports=function(env){
   ok(nb.city==='New Brunswick'&&U.satPolicy(nb)==='optional'&&nb.english.toefl.scales[1].min===4.5&&nb.costs.billedSubtotal===62782,
      'Rutgers New Brunswick keeps its campus-specific policy, English scale and billed reference');
   ok(fresh.every(function(u){return sources.some(function(s){return s.id===u.id&&s.access==='html-read'&&s.quote&&s.category&&s.verified;});}) &&
-     sources.every(function(s){return allowed.has(s.id)&&/^https:\/\//.test(s.source)&&s.verified&&s.category&&(s.access==='html-read'?s.quote&&s.facts:s.facts===null);}),
+     sources.every(function(s){return allowed.has(s.id)&&/^https:\/\//.test(s.source)&&s.verified&&s.category&&(s.access==='html-read'?s.quote&&s.facts:
+       s.access==='commons-file-page-and-image-reviewed'?s.topic==='photo-file-reviewed-installed'&&/^https:\/\/commons\.wikimedia\.org\/wiki\/File:/.test(s.source)&&s.quote&&s.facts&&s.facts.author&&s.facts.license&&s.facts.licenseUrl&&s.facts.downloadedSha256&&s.facts.visualReview:s.facts===null);}),
      'new research distinguishes read primary evidence from blocked/unavailable facts');
   env.sandbox.location.search='?lang=ru';
   env.load('data/i18n/ru.js');env.load('assets/js/i18n.js');
@@ -312,7 +313,8 @@ module.exports=function(env){
   ok(photoReview.every(function(r){var u=U.uniById(r.id),g=(u.photos.gallery||[])[0],m=photoManifest.find(function(p){return p.id===r.id;});
        return r.decision==='hold'?!g&&m.visualStatus==='reviewed-held':g&&g.page===r.filePage&&g.artist===r.author&&
          g.license===r.license&&g.licenseUrl===r.licenseUrl&&/resized with borders/.test(g.title)&&
-         m.installed===true&&m.downloadedSha256===r.downloadedSha256&&g.src.indexOf('/'+r.id+'/')>0;
+         m.installed===true&&m.downloadedSha256===r.downloadedSha256&&g.src.indexOf('/'+r.id+'/')>0&&
+         !/not yet been verified|placeholder is shown/.test(u.photos.note||'')&&u.verification.unconfirmed.indexOf('Campus photograph and free licence have not yet been verified; a placeholder is shown.')<0;
      }), 'only individually approved campus/author/licence reviews install photographs; held candidates remain placeholders');
   var crypto=require('crypto');
   ok(photoManifest.filter(function(m){return m.installed;}).every(function(m){

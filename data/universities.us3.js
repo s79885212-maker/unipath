@@ -34297,7 +34297,7 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "note": "Campus photograph and free licence have not yet been verified; a placeholder is shown.",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching.",
     "thumb": "assets/img/universities/university-of-california-davis/thumb.jpg"
   },
   "sources": [
@@ -34375,7 +34375,6 @@ window.UNIPATH.universities.push(
     "unconfirmed": [
       "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grades, subjects and any preparatory study have not been established. General international instructions do not confirm eligibility.",
       "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
-      "Campus photograph and free licence have not yet been verified; a placeholder is shown.",
       "Complete programme catalogue, 2027–2028 costs and remaining award/renewal conditions are still under review."
     ]
   },
@@ -34728,7 +34727,7 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "note": "Campus photograph and free licence have not yet been verified; a placeholder is shown.",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching.",
     "thumb": "assets/img/universities/university-of-california-irvine/thumb.jpg"
   },
   "sources": [
@@ -34786,7 +34785,6 @@ window.UNIPATH.universities.push(
     "unconfirmed": [
       "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grades, subjects and any preparatory study have not been established. General international instructions do not confirm eligibility.",
       "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
-      "Campus photograph and free licence have not yet been verified; a placeholder is shown.",
       "Complete programme catalogue, 2027–2028 costs and remaining award/renewal conditions are still under review."
     ]
   },
@@ -35165,7 +35163,7 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "note": "Campus photograph and free licence have not yet been verified; a placeholder is shown.",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching.",
     "thumb": "assets/img/universities/university-of-illinois-urbana-champaign/thumb.jpg"
   },
   "sources": [
@@ -35231,7 +35229,6 @@ window.UNIPATH.universities.push(
     "unconfirmed": [
       "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grades, subjects and any preparatory study have not been established. General international instructions do not confirm eligibility.",
       "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
-      "Campus photograph and free licence have not yet been verified; a placeholder is shown.",
       "Complete programme catalogue, 2027–2028 costs and remaining award/renewal conditions are still under review."
     ]
   },
@@ -35587,7 +35584,7 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "note": "Campus photograph and free licence have not yet been verified; a placeholder is shown.",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching.",
     "thumb": "assets/img/universities/university-of-texas-at-austin/thumb.jpg"
   },
   "sources": [
@@ -35625,7 +35622,6 @@ window.UNIPATH.universities.push(
     "unconfirmed": [
       "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grades, subjects and any preparatory study have not been established. General international instructions do not confirm eligibility.",
       "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
-      "Campus photograph and free licence have not yet been verified; a placeholder is shown.",
       "Complete programme catalogue, 2027–2028 costs and remaining award/renewal conditions are still under review."
     ]
   },
@@ -36034,7 +36030,7 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "note": "Campus photograph and free licence have not yet been verified; a placeholder is shown.",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching.",
     "thumb": "assets/img/universities/university-of-wisconsin-madison/thumb.jpg"
   },
   "sources": [
@@ -36088,7 +36084,6 @@ window.UNIPATH.universities.push(
     ],
     "unconfirmed": [
       "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
-      "Campus photograph and free licence have not yet been verified; a placeholder is shown.",
       "Complete programme catalogue, 2027–2028 costs and remaining award/renewal conditions are still under review.",
       "Uzbekistan: current pupils submit official years8–10 transcripts and later the Attestat O’rta Ma’lumot To’g’risida Shahodtnoma (Certificate of Completed Upper Secondary Education); school graduates submit official years8–11 transcripts and that Attestat. Original documents and official English translation are required. Separate academic lyceum equivalence, minimum grades/subjects and any foundation requirement remain unconfirmed; this is not an admission guarantee."
     ]
@@ -36429,7 +36424,7 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "note": "Campus photograph and free licence have not yet been verified; a placeholder is shown.",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching.",
     "thumb": "assets/img/universities/rutgers-university-new-brunswick/thumb.jpg"
   },
   "sources": [
@@ -36479,7 +36474,6 @@ window.UNIPATH.universities.push(
     "unconfirmed": [
       "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grades, subjects and any preparatory study have not been established. General international instructions do not confirm eligibility.",
       "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
-      "Campus photograph and free licence have not yet been verified; a placeholder is shown.",
       "Complete programme catalogue, 2027–2028 costs and remaining award/renewal conditions are still under review."
     ]
   },
@@ -36849,7 +36843,7 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "note": "Campus photograph and free licence have not yet been verified; a placeholder is shown.",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching.",
     "thumb": "assets/img/universities/university-of-california-santa-barbara/thumb.jpg"
   },
   "sources": [
@@ -36915,7 +36909,6 @@ window.UNIPATH.universities.push(
     "unconfirmed": [
       "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grades, subjects and any preparatory study have not been established. General international instructions do not confirm eligibility.",
       "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
-      "Campus photograph and free licence have not yet been verified; a placeholder is shown.",
       "Complete programme catalogue, 2027–2028 costs and remaining award/renewal conditions are still under review."
     ]
   },
@@ -37323,7 +37316,7 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "note": "Campus photograph and free licence have not yet been verified; a placeholder is shown.",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching.",
     "thumb": "assets/img/universities/university-of-georgia/thumb.jpg"
   },
   "sources": [
@@ -37389,7 +37382,6 @@ window.UNIPATH.universities.push(
     "unconfirmed": [
       "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grades, subjects and any preparatory study have not been established. General international instructions do not confirm eligibility.",
       "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
-      "Campus photograph and free licence have not yet been verified; a placeholder is shown.",
       "Complete programme catalogue, 2027–2028 costs and remaining award/renewal conditions are still under review."
     ]
   },
@@ -37699,7 +37691,7 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "note": "Campus photograph and free licence have not yet been verified; a placeholder is shown.",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching.",
     "thumb": "assets/img/universities/virginia-tech/thumb.jpg"
   },
   "sources": [
@@ -37769,7 +37761,6 @@ window.UNIPATH.universities.push(
     "unconfirmed": [
       "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grades, subjects and any preparatory study have not been established. General international instructions do not confirm eligibility.",
       "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
-      "Campus photograph and free licence have not yet been verified; a placeholder is shown.",
       "Complete programme catalogue, 2027–2028 costs and remaining award/renewal conditions are still under review."
     ]
   },
@@ -38056,7 +38047,7 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "note": "Campus photograph and free licence have not yet been verified; a placeholder is shown.",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching.",
     "thumb": "assets/img/universities/pennsylvania-state-university-university-park/thumb.jpg"
   },
   "sources": [
@@ -38122,7 +38113,6 @@ window.UNIPATH.universities.push(
     ],
     "unconfirmed": [
       "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
-      "Campus photograph and free licence have not yet been verified; a placeholder is shown.",
       "Complete programme catalogue, 2027–2028 costs and remaining award/renewal conditions are still under review.",
       "Uzbekistan: first-year applicants self-report the last three years and current courses in STARS. After accepting an offer, the country page requests official years9–12 transcripts and Attestat o Srednem Obrazovanii, each with a separate line-by-line English translation. The page does not resolve how an 11-year school record or academic lyceum diploma is handled, or the exact grades, subjects and preparatory-study requirements; eligibility is not guaranteed."
     ]
@@ -38363,7 +38353,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/university-of-pittsburgh/thumb.jpg"
+    "thumb": "assets/img/universities/university-of-pittsburgh/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -38720,7 +38711,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/university-of-california-merced/thumb.jpg"
+    "thumb": "assets/img/universities/university-of-california-merced/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -39081,7 +39073,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/binghamton-university/thumb.jpg"
+    "thumb": "assets/img/universities/binghamton-university/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -39357,7 +39350,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/indiana-university-bloomington/thumb.jpg"
+    "thumb": "assets/img/universities/indiana-university-bloomington/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -39710,7 +39704,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/north-carolina-state-university/thumb.jpg"
+    "thumb": "assets/img/universities/north-carolina-state-university/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -40061,7 +40056,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/rutgers-university-newark/thumb.jpg"
+    "thumb": "assets/img/universities/rutgers-university-newark/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -40420,7 +40416,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/university-of-connecticut/thumb.jpg"
+    "thumb": "assets/img/universities/university-of-connecticut/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -40770,7 +40767,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/clemson-university/thumb.jpg"
+    "thumb": "assets/img/universities/clemson-university/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -41101,7 +41099,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/colorado-school-of-mines/thumb.jpg"
+    "thumb": "assets/img/universities/colorado-school-of-mines/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -41406,7 +41405,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/university-of-california-riverside/thumb.jpg"
+    "thumb": "assets/img/universities/university-of-california-riverside/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -41795,7 +41795,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/new-jersey-institute-of-technology/thumb.jpg"
+    "thumb": "assets/img/universities/new-jersey-institute-of-technology/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -42112,7 +42113,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/university-at-buffalo/thumb.jpg"
+    "thumb": "assets/img/universities/university-at-buffalo/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -42466,7 +42468,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/university-of-delaware/thumb.jpg"
+    "thumb": "assets/img/universities/university-of-delaware/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -42816,7 +42819,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/rutgers-university-camden/thumb.jpg"
+    "thumb": "assets/img/universities/rutgers-university-camden/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -43110,7 +43114,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/university-of-illinois-chicago/thumb.jpg"
+    "thumb": "assets/img/universities/university-of-illinois-chicago/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -43414,7 +43419,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/university-of-missouri/thumb.jpg"
+    "thumb": "assets/img/universities/university-of-missouri/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -43721,7 +43727,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/auburn-university/thumb.jpg"
+    "thumb": "assets/img/universities/auburn-university/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -44372,7 +44379,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/university-of-south-florida/thumb.jpg"
+    "thumb": "assets/img/universities/university-of-south-florida/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -44620,7 +44628,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/university-of-california-santa-cruz/thumb.jpg"
+    "thumb": "assets/img/universities/university-of-california-santa-cruz/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -44941,7 +44950,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/university-of-colorado-boulder/thumb.jpg"
+    "thumb": "assets/img/universities/university-of-colorado-boulder/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -45216,7 +45226,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/university-of-new-hampshire/thumb.jpg"
+    "thumb": "assets/img/universities/university-of-new-hampshire/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -45510,7 +45521,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/university-of-tennessee-knoxville/thumb.jpg"
+    "thumb": "assets/img/universities/university-of-tennessee-knoxville/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -45817,7 +45829,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/wake-forest-university/thumb.jpg"
+    "thumb": "assets/img/universities/wake-forest-university/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -46164,7 +46177,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/george-washington-university/thumb.jpg"
+    "thumb": "assets/img/universities/george-washington-university/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -46507,7 +46521,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/stevens-institute-of-technology/thumb.jpg"
+    "thumb": "assets/img/universities/stevens-institute-of-technology/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -46770,9 +46785,20 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/baylor-university/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/baylor-university/1.jpg",
+        "title": "Founders Mall and Pat Neff Hall, Baylor University — resized with borders, no retouching",
+        "artist": "Michael Barera",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Baylor_University_June_2016_13_%28Founders_Mall_and_Pat_Neff_Hall%29.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/baylor-university/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -46802,6 +46828,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:Patneffhallbaylor.jpg"
+    },
+    {
+      "label": "Campus photo — Commons file and licence",
+      "url": "https://commons.wikimedia.org/wiki/File:Baylor_University_June_2016_13_%28Founders_Mall_and_Pat_Neff_Hall%29.jpg"
     }
   ],
   "verification": {
@@ -46815,7 +46845,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [],
   "programsBasis": "evidence",
   "programsStatus": "partial",
@@ -47068,7 +47098,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/marquette-university/thumb.jpg"
+    "thumb": "assets/img/universities/marquette-university/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -47334,7 +47365,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/yeshiva-university/thumb.jpg"
+    "thumb": "assets/img/universities/yeshiva-university/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -47619,9 +47651,20 @@ window.UNIPATH.universities.push(
     }
   },
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/wabash-college/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/wabash-college/1.jpg",
+        "title": "Wabash Mall and chapel, Wabash College — resized with borders, no retouching",
+        "artist": "Wally",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:WabashMall.JPG#Licensing",
+        "page": "https://commons.wikimedia.org/wiki/File:WabashMall.JPG"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/wabash-college/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -47639,6 +47682,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.wabash.edu/admissions/international/scholarships"
+    },
+    {
+      "label": "Campus photo — Commons file and licence",
+      "url": "https://commons.wikimedia.org/wiki/File:WabashMall.JPG"
     }
   ],
   "verification": {
@@ -47652,7 +47699,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-01",
   "aliases": [],
   "programsBasis": "evidence",
   "programsStatus": "partial",
@@ -47858,7 +47905,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/hillsdale-college/thumb.jpg"
+    "thumb": "assets/img/universities/hillsdale-college/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -48075,7 +48123,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/brigham-young-university/thumb.jpg"
+    "thumb": "assets/img/universities/brigham-young-university/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -48307,7 +48356,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/university-of-san-francisco/thumb.jpg"
+    "thumb": "assets/img/universities/university-of-san-francisco/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -48576,7 +48626,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/george-mason-university/thumb.jpg"
+    "thumb": "assets/img/universities/george-mason-university/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -48827,7 +48878,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/university-at-albany-suny/thumb.jpg"
+    "thumb": "assets/img/universities/university-at-albany-suny/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -49051,7 +49103,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/university-of-central-florida/thumb.jpg"
+    "thumb": "assets/img/universities/university-of-central-florida/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -49274,7 +49327,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/university-of-dayton/thumb.jpg"
+    "thumb": "assets/img/universities/university-of-dayton/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -49567,7 +49621,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/university-of-south-carolina/thumb.jpg"
+    "thumb": "assets/img/universities/university-of-south-carolina/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -49797,7 +49852,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/university-of-texas-at-dallas/thumb.jpg"
+    "thumb": "assets/img/universities/university-of-texas-at-dallas/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
@@ -50031,7 +50087,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "city": null,
-    "thumb": "assets/img/universities/university-of-the-pacific/thumb.jpg"
+    "thumb": "assets/img/universities/university-of-the-pacific/thumb.jpg",
+    "note": "Campus photograph, author and free licence reviewed against the Commons file page. Resized with borders; no retouching."
   },
   "sources": [
     {
