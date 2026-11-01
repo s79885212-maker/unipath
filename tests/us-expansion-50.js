@@ -248,6 +248,16 @@ module.exports=function(env){
      stev&&/Pre-Law/.test(U.satLabel(stev))&&!stev.academics.sat.min&&stev.academics.sat.cycle==='Through Fall 2029',
      'Tennessee and Stevens retain named programme test exceptions without leaking special minima into general admission');
   var hill=U.uniById('hillsdale-college'),byu=U.uniById('brigham-young-university');
+  ok(byu.programEvidence.engineering.campus==='Provo'&&/professional-program acceptance required/.test(byu.programEvidence.engineering.program)&&
+     byu.admissions.notes.some(function(n){return /prerequisite college-course GPA/.test(n)&&/not a minimum Uzbek school GPA/.test(n);})&&
+     hill.programEvidence.business.program==='Financial Management (bachelor major)'&&!hill.programEvidence.engineering,
+     'BYU professional progression remains separate from school admission; Hillsdale minor and pre-professional routes do not become bachelor majors');
+  var pacificMajors=U.uniById('university-of-the-pacific'),daytonMajors=U.uniById('university-of-dayton'),sfMajors=U.uniById('university-of-san-francisco');
+  ok(pacificMajors.programEvidence.engineering.campus==='Stockton'&&pacificMajors.programEvidence.business.program==='Accounting, BS'&&
+     daytonMajors.programEvidence.engineering.program==='Mechanical Engineering, BME'&&sfMajors.programEvidence.business.program==='Finance, BSBA'&&
+     /fully online route/.test(U.uniById('university-of-central-florida').programNote)&&
+     !U.optionById('field','business').test(sfMajors,{language:['english-yes']}),
+     'Pacific Stockton, Dayton degree title, USF San Francisco BSBA and UCF delivery limitations stay explicit without inventing teaching language');
   ok(fresh.length===50&&DB.universities.length===420&&hill&&!hill.programs.includes('computer-science')&&
      hill.programs.includes('mathematics')&&/minor only/.test(hill.programNote),
      'all fifty approved institutions are present; Hillsdale CS minor never becomes a confirmed bachelor-major match');

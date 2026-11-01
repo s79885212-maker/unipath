@@ -8,7 +8,7 @@ photos={x['id']:x for x in json.loads((ROOT/'research/us-expansion-50-photo-mani
 _,rows,_=load(str(ROOT/'data/universities.us3.js'));byid={x['id']:x for x in rows}
 out=[]
 for order,t in enumerate(targets,1):
- u=byid[t['id']];e=[x for x in sources if x['id']==u['id'] and x['access']=='html-read']
+ u=byid[t['id']];e=[x for x in sources if x['id']==u['id'] and x['access'] in ('html-read','pdf-read')]
  def field(status,notes,urls):return dict(status=status,notes=notes,evidence=list(dict.fromkeys(x for x in urls if x)))
  pr=list(u.get('programEvidence',{}).values());c=u.get('costs',{});fr=u['scholarships']['fullRide'];p=photos.get(u['id'],{})
  photo_attempts=[x for x in sources if x['id']==u['id'] and x['topic']=='photo-search-review']

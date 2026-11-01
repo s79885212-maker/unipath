@@ -8567,5 +8567,603 @@
         "ru": "Указанные программы бакалавриата составляют частичный список, не полный каталог. Подтверждённая Computer Science BS относится к Yeshiva College for Men; добавленные биология, экономика, математика, психология и история также ограничены Yeshiva College/Wilf. Stern College for Women и её программы рассматриваются отдельно: эти степени, кампус и условия не назначаются автоматически Stern или Sy Syms. Требования по Torah/Jewish studies и язык обучения нужно проверять по конкретной программе. Отсутствующее в списке направление может существовать."
       }
     }
+  },
+  {
+    "id": "hillsdale-college",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://www.hillsdale.edu/about/college-profile/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "named undergraduate bachelor majors; campus and progression scope; no guarantee of direct first-year admission or unchanged Fall2027 requirements",
+    "campus": "Hillsdale",
+    "access": "html-read",
+    "quote": "Majors",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "business": "Financial Management (bachelor major)",
+        "economics": "Economics (bachelor major)",
+        "mathematics": "Applied Mathematics (bachelor major)",
+        "biology": "Biology (bachelor major)",
+        "psychology": "Psychology (bachelor major)",
+        "humanities": "History (bachelor major)",
+        "arts": "Art (bachelor major)",
+        "social-sciences": "Politics (bachelor major)"
+      },
+      "programmeNamesRu": {
+        "business": "Финансовый менеджмент (основная программа бакалавриата)",
+        "economics": "Экономика (основная программа бакалавриата)",
+        "mathematics": "Прикладная математика (основная программа бакалавриата)",
+        "biology": "Биология (основная программа бакалавриата)",
+        "psychology": "Психология (основная программа бакалавриата)",
+        "humanities": "История (основная программа бакалавриата)",
+        "arts": "Искусство (основная программа бакалавриата)",
+        "social-sciences": "Политология (основная программа бакалавриата)"
+      },
+      "limitations": "Computer Science, Entrepreneurship and General Business are minors. Pre-professional engineering/medicine are preparation, not standalone bachelor majors. BA/BS suffix of an individual major is not inferred from the general degree list.",
+      "profileProgrammeNote": {
+        "en": "Partial list of officially listed Hillsdale bachelor majors. Computer Science is a minor only, not a standalone bachelor major; pre-professional engineering and medicine are preparation pathways. Absence from this partial list does not establish absence of a programme. Teaching language and programme-specific admission must be checked separately.",
+        "ru": "Частичный список официально указанных основных программ бакалавриата Hillsdale. Computer Science — minor, а не самостоятельная основная программа бакалавриата; pre-professional engineering и medicine — подготовительные траектории. Отсутствие в частичном списке не доказывает отсутствие программы. Язык обучения и специальные условия приёма проверяются отдельно."
+      }
+    }
+  },
+  {
+    "id": "brigham-young-university",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://catalog.byu.edu/colleges/business",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "named undergraduate bachelor majors; campus and progression scope; no guarantee of direct first-year admission or unchanged Fall2027 requirements",
+    "campus": "Provo",
+    "access": "html-read",
+    "quote": "offers ten undergraduate majors",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "business": "Accounting (Marriott undergraduate major)"
+      },
+      "programmeNamesRu": {
+        "business": "Бухгалтерский учёт (основная программа бакалавриата Marriott)"
+      },
+      "limitations": "Finance and other undergraduate majors are listed separately; admission to BYU is not a guarantee of admission to a limited-enrolment major. BYU Idaho and Hawaii are excluded."
+    }
+  },
+  {
+    "id": "brigham-young-university",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://catalog.byu.edu/colleges/computational-mathematical-and-physical-sciences",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "named undergraduate bachelor majors; campus and progression scope; no guarantee of direct first-year admission or unchanged Fall2027 requirements",
+    "campus": "Provo",
+    "access": "html-read",
+    "quote": "Bachelor's degrees are offered",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "mathematics": "Mathematics (bachelor major)"
+      },
+      "programmeNamesRu": {
+        "mathematics": "Математика (основная программа бакалавриата)"
+      },
+      "limitations": "Bachelor list is separate from master/doctoral list. No individual degree suffix inferred."
+    }
+  },
+  {
+    "id": "brigham-young-university",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://catalog.byu.edu/pages/department-1441",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "named undergraduate bachelor majors; campus and progression scope; no guarantee of direct first-year admission or unchanged Fall2027 requirements",
+    "campus": "Provo",
+    "access": "html-read",
+    "quote": "Students in the Biology major",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "biology": "Biology (bachelor major)"
+      },
+      "programmeNamesRu": {
+        "biology": "Биология (основная программа бакалавриата)"
+      },
+      "limitations": "Open-enrolment department rule does not waive university admission, Honor Code or religious core."
+    }
+  },
+  {
+    "id": "brigham-young-university",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://catalog.byu.edu/pages/department-1384",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "named undergraduate bachelor majors; campus and progression scope; no guarantee of direct first-year admission or unchanged Fall2027 requirements",
+    "campus": "Provo",
+    "access": "html-read",
+    "quote": "All degree programs in the Department of Economics are open enrollment.",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "economics": "Economics (bachelor major)"
+      },
+      "programmeNamesRu": {
+        "economics": "Экономика (основная программа бакалавриата)"
+      },
+      "limitations": "Special limitations for teaching majors; no inferred BA/BS suffix or Uzbek equivalence."
+    }
+  },
+  {
+    "id": "brigham-young-university",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://catalog.byu.edu/pages/department-1379",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "named undergraduate bachelor majors; campus and progression scope; no guarantee of direct first-year admission or unchanged Fall2027 requirements",
+    "campus": "Provo",
+    "access": "html-read",
+    "quote": "All undergraduate degree programs in the Department of Psychology are open enrollment.",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "psychology": "Psychology (bachelor major)"
+      },
+      "programmeNamesRu": {
+        "psychology": "Психология (основная программа бакалавриата)"
+      },
+      "limitations": "Graduate professional licensure is not guaranteed by this bachelor."
+    }
+  },
+  {
+    "id": "brigham-young-university",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://catalog.byu.edu/pages/department-1135",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "named undergraduate bachelor majors; campus and progression scope; no guarantee of direct first-year admission or unchanged Fall2027 requirements",
+    "campus": "Provo",
+    "access": "html-read",
+    "quote": "The Mechanical Engineering BS program is accredited",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "engineering": "Mechanical Engineering, BS (professional-program acceptance required)"
+      },
+      "programmeNamesRu": {
+        "engineering": "Машиностроение, BS (требуется приём на профессиональный этап)"
+      },
+      "limitations": "Professional-program acceptance is separate from university admission; prerequisites and college application GPA apply, not a school GPA threshold.",
+      "programmeEntryNote": {
+        "en": "BYU Mechanical Engineering has a separate professional-program acceptance stage before professional ME core courses. The catalogue ranks applications by prerequisite college-course GPA; university admission alone does not guarantee progression. This is not a minimum Uzbek school GPA. Marriott business-major admission must also be checked separately.",
+        "ru": "В BYU Mechanical Engineering перед профессиональными курсами ME требуется отдельный приём на профессиональный этап. Каталог предусматривает отбор по GPA подготовительных университетских предметов; поступление в университет не гарантирует переход. Это не минимальный школьный GPA Узбекистана. Приём на основные программы Marriott также проверяется отдельно."
+      }
+    }
+  },
+  {
+    "id": "university-of-san-francisco",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://www.usfca.edu/arts-sciences/programs/undergraduate",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "named undergraduate bachelor majors; campus and progression scope; no guarantee of direct first-year admission or unchanged Fall2027 requirements",
+    "campus": "San Francisco",
+    "access": "html-read",
+    "quote": "Majors",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "economics": "Economics, BS",
+        "mathematics": "Mathematics, BS",
+        "biology": "Biology, BS",
+        "engineering": "Engineering, BS",
+        "psychology": "Psychology, BA",
+        "humanities": "History, BA",
+        "arts": "Fine Arts, BA"
+      },
+      "programmeNamesRu": {
+        "economics": "Экономика, BS",
+        "mathematics": "Математика, BS",
+        "biology": "Биология, BS",
+        "engineering": "Инженерное дело, BS",
+        "psychology": "Психология, BA",
+        "humanities": "История, BA",
+        "arts": "Изобразительное искусство, BA"
+      },
+      "limitations": "Main CAS bachelor majors, not the separate minors, 4+1 graduate awards, teaching credentials or University of South Florida programmes."
+    }
+  },
+  {
+    "id": "university-of-san-francisco",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://www.usfca.edu/management/programs/undergraduate",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "named undergraduate bachelor majors; campus and progression scope; no guarantee of direct first-year admission or unchanged Fall2027 requirements",
+    "campus": "San Francisco",
+    "access": "html-read",
+    "quote": "Bachelor of Science in Business Administration",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "business": "Finance, BSBA"
+      },
+      "programmeNamesRu": {
+        "business": "Финансы, BSBA"
+      },
+      "limitations": "Finance is one BSBA major. BAM is a separately labelled degree-continuation route; accelerated masters and minors are excluded."
+    }
+  },
+  {
+    "id": "george-mason-university",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://catalog.gmu.edu/colleges-schools/humanities-social-sciences/economics/economics-bs/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "named undergraduate bachelor majors; campus and progression scope; no guarantee of direct first-year admission or unchanged Fall2027 requirements",
+    "campus": "Fairfax",
+    "access": "html-read",
+    "quote": "Economics, BS",
+    "facts": {
+      "academicYear": "2026–2027",
+      "programs": {
+        "economics": "Economics, BS"
+      },
+      "programmeNamesRu": {
+        "economics": "Экономика, BS"
+      },
+      "limitations": "Named bachelor catalogue page explicitly identifies Fairfax Campus; accelerated masters do not guarantee a graduate place and Korea is not substituted. Other programme locations remain separately reviewed."
+    }
+  },
+  {
+    "id": "george-mason-university",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://catalog.gmu.edu/colleges-schools/science/biology/biology-bs/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "named undergraduate bachelor majors; campus and progression scope; no guarantee of direct first-year admission or unchanged Fall2027 requirements",
+    "campus": "Fairfax",
+    "access": "html-read",
+    "quote": "Biology, BS",
+    "facts": {
+      "academicYear": "2026–2027",
+      "programs": {
+        "biology": "Biology, BS"
+      },
+      "programmeNamesRu": {
+        "biology": "Биология, BS"
+      },
+      "limitations": "Named bachelor catalogue page explicitly identifies Fairfax Campus; accelerated masters do not guarantee a graduate place and Korea is not substituted. Other programme locations remain separately reviewed."
+    }
+  },
+  {
+    "id": "george-mason-university",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://catalog.gmu.edu/colleges-schools/humanities-social-sciences/psychology/psychology-ba/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "named undergraduate bachelor majors; campus and progression scope; no guarantee of direct first-year admission or unchanged Fall2027 requirements",
+    "campus": "Fairfax",
+    "access": "html-read",
+    "quote": "Psychology, BA",
+    "facts": {
+      "academicYear": "2026–2027",
+      "programs": {
+        "psychology": "Psychology, BA"
+      },
+      "programmeNamesRu": {
+        "psychology": "Психология, BA"
+      },
+      "limitations": "Named bachelor catalogue page explicitly identifies Fairfax Campus; accelerated masters do not guarantee a graduate place and Korea is not substituted. Other programme locations remain separately reviewed."
+    }
+  },
+  {
+    "id": "george-mason-university",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://catalog.gmu.edu/colleges-schools/engineering-computing/engineering/mechanical/mechanical-engineering-bs/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "named undergraduate bachelor majors; campus and progression scope; no guarantee of direct first-year admission or unchanged Fall2027 requirements",
+    "campus": "Fairfax",
+    "access": "html-read",
+    "quote": "Mechanical Engineering, BS",
+    "facts": {
+      "academicYear": "2026–2027",
+      "programs": {
+        "engineering": "Mechanical Engineering, BS"
+      },
+      "programmeNamesRu": {
+        "engineering": "Машиностроение, BS"
+      },
+      "limitations": "Named bachelor catalogue page explicitly identifies Fairfax Campus; accelerated masters do not guarantee a graduate place and Korea is not substituted. Other programme locations remain separately reviewed."
+    }
+  },
+  {
+    "id": "university-at-albany-suny",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://www.albany.edu/academics/undergraduate-majors-minors",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "named undergraduate bachelor majors; campus and progression scope; no guarantee of direct first-year admission or unchanged Fall2027 requirements",
+    "campus": "Albany",
+    "access": "html-read",
+    "quote": "Mechanical and Design Engineering - BS",
+    "facts": {
+      "academicYear": "2026–2027",
+      "programs": {
+        "business": "Business Administration, BS",
+        "economics": "Economics, BA",
+        "mathematics": "Mathematics, BS",
+        "biology": "Biology, BS",
+        "engineering": "Mechanical and Design Engineering, BS",
+        "psychology": "Psychology, BA",
+        "humanities": "History, BA"
+      },
+      "programmeNamesRu": {
+        "business": "Управление бизнесом, BS",
+        "economics": "Экономика, BA",
+        "mathematics": "Математика, BS",
+        "biology": "Биология, BS",
+        "engineering": "Механическое проектирование, BS",
+        "psychology": "Психология, BA",
+        "humanities": "История, BA"
+      },
+      "limitations": "2026–27 bulletin independently confirms approval of the new Mechanical & Design Engineering BS. RN completion, nursing 1+2+1, minors and advanced MS/MA options are excluded. College admission/progression and any online option require separate verification."
+    }
+  },
+  {
+    "id": "university-of-central-florida",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://www.ucf.edu/majors/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "named undergraduate bachelor majors; campus and progression scope; no guarantee of direct first-year admission or unchanged Fall2027 requirements",
+    "campus": "Orlando; check the individual programme location and delivery option",
+    "access": "html-read",
+    "quote": "Finance (BSBA)",
+    "facts": {
+      "academicYear": null,
+      "programs": {
+        "business": "Finance, BSBA",
+        "economics": "Economics, BS",
+        "mathematics": "Mathematics, BS",
+        "biology": "Biology, BS",
+        "engineering": "Mechanical Engineering, BSME",
+        "psychology": "Psychology, BS"
+      },
+      "programmeNamesRu": {
+        "business": "Финансы, BSBA",
+        "economics": "Экономика, BS",
+        "mathematics": "Математика, BS",
+        "biology": "Биология, BS",
+        "engineering": "Машиностроение, BSME",
+        "psychology": "Психология, BS"
+      },
+      "limitations": "Official bachelor directory and linked individual degree pages read. Psychology explicitly offers on-campus and fully online delivery; no blanket main-campus, visa, online or first-year guarantee. RN/second-degree nursing and accelerated graduate routes excluded.",
+      "profileProgrammeNote": {
+        "en": "Partial list of UCF bachelor majors. Check the exact teaching location and delivery option with each programme: Psychology also has a fully online route; this list does not confirm that every option is at the main campus or suitable for an F-1 first-year applicant. Business-major and engineering progression requirements are separate. Teaching language is not inferred from the English website.",
+        "ru": "Частичный список основных программ бакалавриата UCF. Проверяйте точное место и формат обучения у каждой программы: у Psychology есть также полностью онлайн-траектория; список не подтверждает, что каждый вариант проходит в главном кампусе или подходит абитуриенту первого курса с F-1. Условия перехода на бизнес- и инженерные программы отдельные. Язык обучения не выводится из английского сайта."
+      }
+    }
+  },
+  {
+    "id": "university-of-dayton",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://catalog.udayton.edu/undergraduate/collegeofartsandsciences/academicprograms/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "named undergraduate bachelor majors; campus and progression scope; no guarantee of direct first-year admission or unchanged Fall2027 requirements",
+    "campus": "Dayton",
+    "access": "html-read",
+    "quote": "The Bachelor of Arts is offered in:",
+    "facts": {
+      "academicYear": "2026–2027",
+      "programs": {
+        "economics": "Economics, BA",
+        "mathematics": "Mathematics, BA",
+        "psychology": "Psychology, BA",
+        "humanities": "History, BA"
+      },
+      "programmeNamesRu": {
+        "economics": "Экономика, BA",
+        "mathematics": "Математика, BA",
+        "psychology": "Психология, BA",
+        "humanities": "История, BA"
+      },
+      "limitations": "Named BA programmes, not graduate or 3+3 JD guarantee. Biology BS requires its own entry before adding."
+    }
+  },
+  {
+    "id": "university-of-dayton",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://catalog.udayton.edu/undergraduate/schoolofbusinessadministration/academicprograms/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "named undergraduate bachelor majors; campus and progression scope; no guarantee of direct first-year admission or unchanged Fall2027 requirements",
+    "campus": "Dayton",
+    "access": "html-read",
+    "quote": "Bachelor of Science in Business Administration",
+    "facts": {
+      "academicYear": "2026–2027",
+      "programs": {
+        "business": "Finance, BSBA"
+      },
+      "programmeNamesRu": {
+        "business": "Финансы, BSBA"
+      },
+      "limitations": "Finance is an undergraduate BSBA major; business administration minor for non-business students is not a major."
+    }
+  },
+  {
+    "id": "university-of-dayton",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://catalog.udayton.edu/undergraduate/schoolofengineering/programsofstudy/mechanicalandaerospaceengineering/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "named undergraduate bachelor majors; campus and progression scope; no guarantee of direct first-year admission or unchanged Fall2027 requirements",
+    "campus": "Dayton",
+    "access": "html-read",
+    "quote": "Bachelor of Mechanical Engineering",
+    "facts": {
+      "academicYear": "2026–2027",
+      "programs": {
+        "engineering": "Mechanical Engineering, BME"
+      },
+      "programmeNamesRu": {
+        "engineering": "Машиностроение, BME"
+      },
+      "limitations": "BME degree, not invented BS; Aerospace is a co-major/concentration and Engineering Technology is a different degree."
+    }
+  },
+  {
+    "id": "university-of-south-carolina",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://academicbulletins.sc.edu/undergraduate/programs-az/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "named undergraduate bachelor majors; campus and progression scope; no guarantee of direct first-year admission or unchanged Fall2027 requirements",
+    "campus": "Columbia",
+    "access": "html-read",
+    "quote": "Mechanical Engineering, B.S.E.",
+    "facts": {
+      "academicYear": "2026–2027",
+      "programs": {
+        "business": "Accounting, BSBA",
+        "economics": "Economics, BS",
+        "mathematics": "Mathematics, BS",
+        "biology": "Biological Sciences, BS",
+        "engineering": "Mechanical Engineering, BSE",
+        "psychology": "Psychology, BA",
+        "humanities": "History, BA"
+      },
+      "programmeNamesRu": {
+        "business": "Бухгалтерский учёт, BSBA",
+        "economics": "Экономика, BS",
+        "mathematics": "Математика, BS",
+        "biology": "Биологические науки, BS",
+        "engineering": "Машиностроение, BSE",
+        "psychology": "Психология, BA",
+        "humanities": "История, BA"
+      },
+      "limitations": "Main undergraduate bulletin, not branch campuses, minors or graduate degree list. Business Administration minor is not a standalone major; pre-health is not a medical degree."
+    }
+  },
+  {
+    "id": "university-of-texas-at-dallas",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://catalog.utdallas.edu/2026/undergraduate/programs",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "named undergraduate bachelor majors; campus and progression scope; no guarantee of direct first-year admission or unchanged Fall2027 requirements",
+    "campus": "Richardson",
+    "access": "html-read",
+    "quote": "Bachelor of Science in Mechanical Engineering",
+    "facts": {
+      "academicYear": "2026",
+      "programs": {
+        "business": "Finance, BS",
+        "economics": "Economics, BA",
+        "mathematics": "Mathematics, BS",
+        "biology": "Biology, BS",
+        "engineering": "Mechanical Engineering, BS",
+        "psychology": "Psychology, BS",
+        "humanities": "History, BA",
+        "arts": "Visual and Performing Arts, BA"
+      },
+      "programmeNamesRu": {
+        "business": "Финансы, BS",
+        "economics": "Экономика, BA",
+        "mathematics": "Математика, BS",
+        "biology": "Биология, BS",
+        "engineering": "Машиностроение, BS",
+        "psychology": "Психология, BS",
+        "humanities": "История, BA",
+        "arts": "Изобразительное и исполнительское искусство, BA"
+      },
+      "limitations": "Named single-degree bachelor entries; certificates and double-major combinations are not substituted. UT Dallas is distinct from UT Austin; programme load is not used to invent an annual price."
+    }
+  },
+  {
+    "id": "university-of-the-pacific",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://catalog.pacific.edu/uop/collegeofthepacific/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "named undergraduate bachelor majors; campus and progression scope; no guarantee of direct first-year admission or unchanged Fall2027 requirements",
+    "campus": "Stockton",
+    "access": "html-read",
+    "quote": "Applied Mathematics - BS (Stockton Campus)",
+    "facts": {
+      "academicYear": "2026–2027",
+      "programs": {
+        "economics": "Economics, BA/BS",
+        "mathematics": "Applied Mathematics, BS",
+        "biology": "Biological Sciences, BA/BS",
+        "psychology": "Psychology, BS",
+        "humanities": "History, BA",
+        "arts": "Art, BFA"
+      },
+      "programmeNamesRu": {
+        "economics": "Экономика, BA/BS",
+        "mathematics": "Прикладная математика, BS",
+        "biology": "Биологические науки, BA/BS",
+        "psychology": "Психология, BS",
+        "humanities": "История, BA",
+        "arts": "Искусство, BFA"
+      },
+      "limitations": "Stockton Campus explicitly listed for each chosen programme. MA/MS and pre-law/health preparation do not become bachelor law/medicine degrees; Sacramento/San Francisco programmes are excluded."
+    }
+  },
+  {
+    "id": "university-of-the-pacific",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://catalog.pacific.edu/uop/eberhardtschoolofbusiness/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "named undergraduate bachelor majors; campus and progression scope; no guarantee of direct first-year admission or unchanged Fall2027 requirements",
+    "campus": "Stockton",
+    "access": "html-read",
+    "quote": "Bachelor of Science in Accounting (Stockton Campus)",
+    "facts": {
+      "academicYear": "2026–2027",
+      "programs": {
+        "business": "Accounting, BS"
+      },
+      "programmeNamesRu": {
+        "business": "Бухгалтерский учёт, BS"
+      },
+      "limitations": "Single bachelor programme; Accounting/MAcc combined route and later junior standing are not direct first-year graduate admission."
+    }
+  },
+  {
+    "id": "university-of-the-pacific",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://catalog.pacific.edu/uop/schoolofengineeringandcomputerscience/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "named undergraduate bachelor majors; campus and progression scope; no guarantee of direct first-year admission or unchanged Fall2027 requirements",
+    "campus": "Stockton",
+    "access": "html-read",
+    "quote": "Bachelor of Science in Mechanical Engineering (Stockton Campus)",
+    "facts": {
+      "academicYear": "2026–2027",
+      "programs": {
+        "engineering": "Mechanical Engineering, BS"
+      },
+      "programmeNamesRu": {
+        "engineering": "Машиностроение, BS"
+      },
+      "limitations": "Stockton BS, distinct from graduate engineering or online graduate programmes."
+    }
+  },
+  {
+    "id": "florida-international-university",
+    "topic": "programme-campus-access-review",
+    "source": "https://mymajor.fiu.edu/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "first-year named bachelor programme and campus mapping",
+    "campus": "Miami; exact programme location unconfirmed",
+    "access": "dynamic-unreadable",
+    "quote": null,
+    "facts": null,
+    "unresolved": "Official page returns zero readable lines. Normal browser tool is disabled in Work settings. Department pages confirm degrees but do not establish teaching location; no match is added from a search preview."
   }
 ]

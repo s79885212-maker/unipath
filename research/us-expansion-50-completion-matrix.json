@@ -2493,7 +2493,9 @@
             ],
             "remaining": "Не выводится из языка сайта или требований IELTS"
           },
-          "evidence": []
+          "evidence": [
+            "https://www.colorado.edu/oiec/sites/default/files/attached-files/cu_boulder_lep_plan_2022_4.pdf"
+          ]
         },
         "admission": {
           "status": "partial",
@@ -3275,7 +3277,7 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "2 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "8 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
             "https://www.hillsdale.edu/about/college-profile/"
           ]
@@ -3351,9 +3353,15 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "7 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://catalog.byu.edu/programs/34712"
+            "https://catalog.byu.edu/programs/34712",
+            "https://catalog.byu.edu/colleges/business",
+            "https://catalog.byu.edu/colleges/computational-mathematical-and-physical-sciences",
+            "https://catalog.byu.edu/pages/department-1441",
+            "https://catalog.byu.edu/pages/department-1384",
+            "https://catalog.byu.edu/pages/department-1379",
+            "https://catalog.byu.edu/pages/department-1135"
           ]
         },
         "language": {
@@ -3429,9 +3437,11 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "9 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://www.usfca.edu/arts-sciences/programs/undergraduate/computer-science"
+            "https://www.usfca.edu/arts-sciences/programs/undergraduate/computer-science",
+            "https://www.usfca.edu/arts-sciences/programs/undergraduate",
+            "https://www.usfca.edu/management/programs/undergraduate"
           ]
         },
         "language": {
@@ -3506,9 +3516,13 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "5 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://www.gmu.edu/program/computer-science-bs"
+            "https://www.gmu.edu/program/computer-science-bs",
+            "https://catalog.gmu.edu/colleges-schools/humanities-social-sciences/economics/economics-bs/",
+            "https://catalog.gmu.edu/colleges-schools/science/biology/biology-bs/",
+            "https://catalog.gmu.edu/colleges-schools/humanities-social-sciences/psychology/psychology-ba/",
+            "https://catalog.gmu.edu/colleges-schools/engineering-computing/engineering/mechanical/mechanical-engineering-bs/"
           ]
         },
         "language": {
@@ -3583,9 +3597,10 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "8 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://www.albany.edu/computer-science/programs/bs-computer-science"
+            "https://www.albany.edu/computer-science/programs/bs-computer-science",
+            "https://www.albany.edu/academics/undergraduate-majors-minors"
           ]
         },
         "language": {
@@ -3659,9 +3674,10 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "7 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://www.ucf.edu/degree/computer-science-bs/"
+            "https://www.ucf.edu/degree/computer-science-bs/",
+            "https://www.ucf.edu/majors/"
           ]
         },
         "language": {
@@ -3735,9 +3751,12 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "7 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://catalog.udayton.edu/undergraduate/schoolofengineering/programsofstudy/csci/"
+            "https://catalog.udayton.edu/undergraduate/schoolofengineering/programsofstudy/csci/",
+            "https://catalog.udayton.edu/undergraduate/collegeofartsandsciences/academicprograms/",
+            "https://catalog.udayton.edu/undergraduate/schoolofbusinessadministration/academicprograms/",
+            "https://catalog.udayton.edu/undergraduate/schoolofengineering/programsofstudy/mechanicalandaerospaceengineering/"
           ]
         },
         "language": {
@@ -3813,9 +3832,10 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "8 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://www.sc.edu/study/majors_and_degrees/computer-science-bscs.php"
+            "https://www.sc.edu/study/majors_and_degrees/computer-science-bscs.php",
+            "https://academicbulletins.sc.edu/undergraduate/programs-az/"
           ]
         },
         "language": {
@@ -3889,9 +3909,10 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "9 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://catalog.utdallas.edu/2026/undergraduate/programs/ecs/computer-science"
+            "https://catalog.utdallas.edu/2026/undergraduate/programs/ecs/computer-science",
+            "https://catalog.utdallas.edu/2026/undergraduate/programs"
           ]
         },
         "language": {
@@ -3965,9 +3986,12 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "9 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://catalog.pacific.edu/uop/schoolofengineeringandcomputerscience/computerscience/"
+            "https://catalog.pacific.edu/uop/schoolofengineeringandcomputerscience/computerscience/",
+            "https://catalog.pacific.edu/uop/collegeofthepacific/",
+            "https://catalog.pacific.edu/uop/eberhardtschoolofbusiness/",
+            "https://catalog.pacific.edu/uop/schoolofengineeringandcomputerscience/"
           ]
         },
         "language": {
