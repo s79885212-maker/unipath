@@ -257,12 +257,14 @@
           ]
         },
         "awards": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
             "namedLargest": null,
             "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
           },
-          "evidence": []
+          "evidence": [
+            "https://www.osfa.illinois.edu/types-of-aid/other-aid/international-students/"
+          ]
         },
         "photo": {
           "status": "confirmed",
@@ -336,12 +338,14 @@
           ]
         },
         "awards": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
             "namedLargest": null,
             "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
           },
-          "evidence": []
+          "evidence": [
+            "https://global.utexas.edu/isss/advising-services/scholarships"
+          ]
         },
         "photo": {
           "status": "confirmed",
@@ -752,12 +756,14 @@
           ]
         },
         "awards": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
             "namedLargest": null,
             "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
           },
-          "evidence": []
+          "evidence": [
+            "https://finaid.vt.edu/undergraduate/international-students.html"
+          ]
         },
         "photo": {
           "status": "confirmed",
@@ -999,12 +1005,14 @@
           ]
         },
         "awards": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
             "namedLargest": null,
             "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
           },
-          "evidence": []
+          "evidence": [
+            "https://admissions.ucmerced.edu/node/5881"
+          ]
         },
         "photo": {
           "status": "confirmed",
@@ -1078,12 +1086,14 @@
           ]
         },
         "awards": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
             "namedLargest": null,
             "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
           },
-          "evidence": []
+          "evidence": [
+            "https://www.binghamton.edu/financial-aid/types-of-aid/scholarships/"
+          ]
         },
         "photo": {
           "status": "confirmed",
@@ -1160,12 +1170,14 @@
           ]
         },
         "awards": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
             "namedLargest": null,
             "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
           },
-          "evidence": []
+          "evidence": [
+            "https://bloomington.iu.edu/admissions/apply/international/deadlines.html"
+          ]
         },
         "photo": {
           "status": "confirmed",
@@ -2663,12 +2675,24 @@
           ]
         },
         "language": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
-            "confirmedFields": [],
+            "confirmedFields": [
+              "computer-science",
+              "economics",
+              "mathematics",
+              "biology",
+              "psychology",
+              "humanities",
+              "arts",
+              "engineering",
+              "business"
+            ],
             "remaining": "Не выводится из языка сайта или требований IELTS"
           },
-          "evidence": []
+          "evidence": [
+            "https://cge.utk.edu/wp-content/uploads/sites/84/2020/08/UG-Student-Exchange-Agreement.pdf"
+          ]
         },
         "admission": {
           "status": "partial",

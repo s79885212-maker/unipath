@@ -34702,7 +34702,7 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "The 2026–27 UCI catalogue names Regents, Chancellor’s Excellence and Directors’ Distinguished Scholarships selected through the UC application. It does not establish international F-1 eligibility or amounts for each named award. The detailed OFAS eligibility page is 403-blocked, so no scholarship or all-awards eligibility is assigned from a search preview. Federal/California-aid rules do not prove general international merit eligibility."
     },
     "merit": [],
     "needBased": {
@@ -34774,6 +34774,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://www.reg.uci.edu/fees/2026-2027/undergrad_26.html"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://catalogue.uci.edu/informationforprospectivestudents/financialaid/"
     }
   ],
   "verification": {
@@ -34788,7 +34792,7 @@ window.UNIPATH.universities.push(
       "Complete programme catalogue, 2027–2028 costs and remaining award/renewal conditions are still under review."
     ]
   },
-  "lastVerified": "2026-11-01",
+  "lastVerified": "2026-11-02",
   "aliases": [
     "UC Irvine"
   ],
@@ -35138,16 +35142,33 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "The Stamps Scholarship at Illinois is reviewed only for Illinois residents; it is not assigned to an ordinary F-1 applicant from Uzbekistan. General college/departmental merit opportunities remain possible, but the largest internationally applicable award and coverage are not established. No full-cost promise or automatic budget deduction."
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "illinois-international-college-review",
+        "category": "merit",
+        "basis": "merit",
+        "name": "College and departmental scholarships for international undergraduates",
+        "amount": null,
+        "eligibility": "International undergraduate applicants may be eligible for college/departmental scholarships. Each award has its own criteria.",
+        "renewable": null,
+        "application": "Generally no separate application; the college/department reviews the admission file and academic record",
+        "note": "The official international page confirms a limited scheme, not a named amount or award guarantee. Amount, renewal, stacking and the largest applicable first-year award remain unconfirmed. Graduate assistantships and emergency help for current students are not first-year bachelor scholarships. No aid is deducted from cost.",
+        "deadlineScope": "not-confirmed",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://www.osfa.illinois.edu/types-of-aid/other-aid/international-students/",
+        "verified": "2026-11-02"
+      }
+    ],
     "needBased": {
       "availableToInternational": false,
-      "meetsFullNeed": null,
+      "meetsFullNeed": false,
       "needBlindInternational": null,
       "forms": [],
       "deadlines": null,
-      "note": "International students are not eligible for need-based aid described here. Limited ISSS scholarships/loans may exist; international eligibility for the listed large merit awards has not yet been confirmed."
+      "note": "Illinois explicitly does not provide need-based financial aid for international undergraduates. Limited scholarships and loans are separate; this is not a claim that no merit scholarship exists."
     }
   },
   "photos": {
@@ -35218,6 +35239,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://catalog.illinois.edu/undergraduate/"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://www.osfa.illinois.edu/types-of-aid/other-aid/international-students/"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://stamps.illinois.edu/selection/"
     }
   ],
   "verification": {
@@ -35232,7 +35261,7 @@ window.UNIPATH.universities.push(
       "Complete programme catalogue, 2027–2028 costs and remaining award/renewal conditions are still under review."
     ]
   },
-  "lastVerified": "2026-11-01",
+  "lastVerified": "2026-11-02",
   "aliases": [
     "UIUC",
     "University of Illinois at Urbana-Champaign"
@@ -35561,7 +35590,24 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": null
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "ut-austin-iimura-peace",
+        "category": "merit",
+        "basis": "merit",
+        "name": "Iimura Peace Endowed Scholarship",
+        "amount": "USD 5,000 for the fall semester",
+        "eligibility": "Undergraduate, full-time at UT Austin in the award semester; attended high school in East Asia or Asia; minimum 2.0 GPA; intent to promote peace in Asia and a service project within one year. The page does not independently confirm how a new first-year applicant satisfies the GPA requirement.",
+        "renewable": null,
+        "application": "Texas Global scholarship application; published annual fall-award window 1 February–1 March",
+        "note": "USD 5,000 is a fall award, not a published annual renewable amount, full tuition or full ride. Year/cycle, renewal and stacking are unconfirmed. The GPA is not converted into an Uzbek school threshold. General ISSS need aid requires two completed UT semesters; Mexican/Western Hemisphere/African-region awards have separate restrictions and are not assigned to every Uzbek applicant. No scholarship is deducted.",
+        "deadlineScope": "annual-rule",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://global.utexas.edu/isss/advising-services/scholarships",
+        "verified": "2026-11-02"
+      }
+    ],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,
@@ -35611,6 +35657,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://catalog.utexas.edu/undergraduate/degree-programs/"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://global.utexas.edu/isss/advising-services/scholarships"
     }
   ],
   "verification": {
@@ -35625,7 +35675,7 @@ window.UNIPATH.universities.push(
       "Complete programme catalogue, 2027–2028 costs and remaining award/renewal conditions are still under review."
     ]
   },
-  "lastVerified": "2026-11-01",
+  "lastVerified": "2026-11-02",
   "aliases": [
     "UT Austin",
     "The University of Texas at Austin"
@@ -36818,7 +36868,7 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "UCSB OISS describes limited resources and an International Student Award for economic hardship during existing UCSB degree study, F-1/J-1, full-time; EAP reciprocity is excluded. This is not a confirmed incoming first-year full scholarship. Graduate fellowships and graduate study abroad awards are different routes. Current named Regents eligibility, amount and the largest applicable award still require direct evidence."
     },
     "merit": [],
     "needBased": {
@@ -36898,6 +36948,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Teaching language — official campus statement",
       "url": "https://registrar.sa.ucsb.edu/student-records/custom-letters-form-completion"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://oiss.ucsb.edu/resources/financial-resources"
     }
   ],
   "verification": {
@@ -36912,7 +36966,7 @@ window.UNIPATH.universities.push(
       "Complete programme catalogue, 2027–2028 costs and remaining award/renewal conditions are still under review."
     ]
   },
-  "lastVerified": "2026-11-01",
+  "lastVerified": "2026-11-02",
   "aliases": [
     "UC Santa Barbara",
     "UCSB"
@@ -37719,7 +37773,24 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": null
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "vt-international-college-scholarships",
+        "category": "merit",
+        "basis": "merit",
+        "name": "College and departmental scholarship applications",
+        "amount": null,
+        "eligibility": "International students may apply whether or not they can file FAFSA; each college/department determines individual award eligibility.",
+        "renewable": null,
+        "application": "After applying for admission, access Scholarship Central through the admission portal and complete relevant applications",
+        "note": "This confirms access to the scholarship process, not receipt, a university-wide amount or the largest award. Incoming/continuing rules, separate applications, renewal, stacking and deadlines vary by award; FAFSA-based general awards are not automatically international awards. No full tuition/full ride or budget deduction is inferred.",
+        "deadlineScope": "not-confirmed",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://finaid.vt.edu/undergraduate/international-students.html",
+        "verified": "2026-11-02"
+      }
+    ],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,
@@ -37805,6 +37876,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Cost — reviewed official scope and period",
       "url": "https://finaid.vt.edu/content/dam/finaid_vt_edu/Cost_of_Attendance/2627/UGNRON_UPDATED_008262026.pdf"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://finaid.vt.edu/undergraduate/international-students.html"
     }
   ],
   "verification": {
@@ -38077,7 +38152,7 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "The University Park Provost Academic Award requires U. S. citizenship or permanent residency and demonstrated need through FAFSA. Nonresident Pennsylvania status alone is insufficient: this award is not assigned to an ordinary F-1 applicant from Uzbekistan. Other college/department scholarships and the largest internationally applicable award remain under review. No full-cost promise."
     },
     "merit": [],
     "needBased": {
@@ -38157,6 +38232,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://bulletins.psu.edu/programs/"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://www.psu.edu/costs-aid/types-of-aid/scholarships/provost-academic-award"
     }
   ],
   "verification": {
@@ -38172,7 +38251,7 @@ window.UNIPATH.universities.push(
       "Uzbekistan: first-year applicants self-report the last three years and current courses in STARS. After accepting an offer, the country page requests official years9–12 transcripts and Attestat o Srednem Obrazovanii, each with a separate line-by-line English translation. The page does not resolve how an 11-year school record or academic lyceum diploma is handled, or the exact grades, subjects and preparatory-study requirements; eligibility is not guaranteed."
     ]
   },
-  "lastVerified": "2026-11-01",
+  "lastVerified": "2026-11-02",
   "aliases": [
     "Penn State University Park",
     "Pennsylvania State University"
@@ -38789,7 +38868,24 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": "Global Access Program Scholarship publishes USD25,000/year for eligible nonresidents with GPA3.25+, renewable with cumulative3.00, full-time enrolment and SAP. This is not established as full tuition or full ride; complete eligibility, award basis, stacking and application details still need review. The scholarship GPA is not the UC admission GPA."
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "merced-global-access",
+        "category": "merit",
+        "basis": "merit",
+        "name": "Global Access Program Scholarship",
+        "amount": "USD 25,000 per year; up to four consecutive years for first-year students",
+        "eligibility": "F-1 international or non-California domestic student, admitted and enrolling full-time at UC Merced, GPA at admission at least 3.25 as evaluated by the university. The policy is not an automatic conversion of Uzbek school marks.",
+        "renewable": "Up to four consecutive first-year years, maintaining full-time 12 credits/semester,3.0 college GPA, Satisfactory Academic Progress and non-California residency",
+        "application": "No separate application; eligible admitted candidates are automatically considered and notified upon admission",
+        "note": "Students receiving a nonresident fee waiver are ineligible for this award. Other stacking is not established. Automatic consideration does not by itself guarantee receipt or full tuition/full ride. The separate 2026–27 international scholarship USD 5,000–10,000 is for CONTINUING students and is not assigned to incoming first-years or Fall 2027. No amount is deducted from cost.",
+        "deadlineScope": "no-separate-application",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://admissions.ucmerced.edu/node/5881",
+        "verified": "2026-11-02"
+      }
+    ],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,
@@ -38851,6 +38947,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://admissions.ucmerced.edu/academics/majors-minors"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://admissions.ucmerced.edu/node/5881"
     }
   ],
   "verification": {
@@ -38864,7 +38964,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-11-01",
+  "lastVerified": "2026-11-02",
   "aliases": [
     "UC Merced"
   ],
@@ -39151,7 +39251,24 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": null
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "binghamton-international-admission-review",
+        "category": "merit",
+        "basis": "merit",
+        "name": "Limited international admission scholarships",
+        "amount": null,
+        "eligibility": "International applicants may be considered for limited scholarships through Undergraduate Admissions; individual donor/major/financial criteria apply",
+        "renewable": null,
+        "application": "Admission-process review; follow any additional award-specific instructions supplied by Admissions",
+        "note": "The international paragraph does not publish a named amount, renewal, stacking or 2027 award deadline. President/Provost/Dean conditions and FAFSA-based scholarships are not automatically assigned to every F-1 applicant. Current-student funding and graduate assistantships are separate. No largest award, full tuition/full ride or net-cost deduction is asserted.",
+        "deadlineScope": "not-confirmed",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://www.binghamton.edu/financial-aid/types-of-aid/scholarships/",
+        "verified": "2026-11-02"
+      }
+    ],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,
@@ -39205,6 +39322,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://www.binghamton.edu/academics/programs/"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://www.binghamton.edu/financial-aid/types-of-aid/scholarships/"
     }
   ],
   "verification": {
@@ -39218,7 +39339,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-11-01",
+  "lastVerified": "2026-11-02",
   "aliases": [
     "SUNY Binghamton",
     "State University of New York at Binghamton"
@@ -39432,7 +39553,24 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": null
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "iu-global-engagement",
+        "category": "merit",
+        "basis": "merit",
+        "name": "Global Engagement Scholarship consideration",
+        "amount": null,
+        "eligibility": "Qualified international first-year applicants; academic information supplied in the complete admission application",
+        "renewable": null,
+        "application": "Complete admission application by 1 February; no separate application for the international merit consideration described here",
+        "note": "The international page names Global Engagement consideration by 1 February and earlier November 1 maximum consideration for general IU scholarships. Neither annual rule establishes 2027 by itself. Amount, renewal, stacking and largest eligible award are not stated here; older generic family-page ranges are not assigned to this named award. Country-specific and continuing-student scholarships have separate restrictions. No guarantee or budget deduction.",
+        "deadlineScope": "annual-rule",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://bloomington.iu.edu/admissions/apply/international/deadlines.html",
+        "verified": "2026-11-02"
+      }
+    ],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,
@@ -39506,6 +39644,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://www.bio.indiana.edu/student-portal/undergraduate/biology/biology-ba.html"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://bloomington.iu.edu/admissions/apply/international/deadlines.html"
     }
   ],
   "verification": {
@@ -45842,8 +45984,8 @@ window.UNIPATH.universities.push(
     "initials": "TK"
   },
   "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open.",
-  "englishTaught": null,
-  "languageOfInstruction": null,
+  "englishTaught": true,
+  "languageOfInstruction": "English — Knoxville campus statement in the official undergraduate exchange template; foreign-language courses and individual requirements must be checked separately",
   "programs": [
     "computer-science",
     "economics",
@@ -45855,7 +45997,17 @@ window.UNIPATH.universities.push(
     "engineering",
     "business"
   ],
-  "englishTaughtPrograms": [],
+  "englishTaughtPrograms": [
+    "computer-science",
+    "economics",
+    "mathematics",
+    "biology",
+    "psychology",
+    "humanities",
+    "arts",
+    "engineering",
+    "business"
+  ],
   "programNote": "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
   "links": {
     "website": "https://www.utk.edu/",
@@ -46155,6 +46307,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Cost — reviewed official scope and period",
       "url": "https://onestop.utk.edu/billing-payments/cost-of-attending-ut-undergraduate-student/"
+    },
+    {
+      "label": "Teaching language — official campus statement",
+      "url": "https://cge.utk.edu/wp-content/uploads/sites/84/2020/08/UG-Student-Exchange-Agreement.pdf"
     }
   ],
   "verification": {
@@ -46179,7 +46335,7 @@ window.UNIPATH.universities.push(
     "computer-science": {
       "program": "Computer Science, B.S.",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Knoxville",
       "url": "https://eecs.utk.edu/undergraduate/computer-science/",
       "checked": "2026-10-31"
@@ -46187,7 +46343,7 @@ window.UNIPATH.universities.push(
     "economics": {
       "program": "Economics, BA",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Knoxville",
       "url": "https://artsci.utk.edu/academics/undergraduate-programs/",
       "checked": "2026-11-02"
@@ -46195,7 +46351,7 @@ window.UNIPATH.universities.push(
     "mathematics": {
       "program": "Mathematics, BS",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Knoxville",
       "url": "https://artsci.utk.edu/academics/undergraduate-programs/",
       "checked": "2026-11-02"
@@ -46203,7 +46359,7 @@ window.UNIPATH.universities.push(
     "biology": {
       "program": "Biological Sciences, BS",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Knoxville",
       "url": "https://artsci.utk.edu/academics/undergraduate-programs/",
       "checked": "2026-11-02"
@@ -46211,7 +46367,7 @@ window.UNIPATH.universities.push(
     "psychology": {
       "program": "Psychology, BA",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Knoxville",
       "url": "https://artsci.utk.edu/academics/undergraduate-programs/",
       "checked": "2026-11-02"
@@ -46219,7 +46375,7 @@ window.UNIPATH.universities.push(
     "humanities": {
       "program": "History, BA",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Knoxville",
       "url": "https://artsci.utk.edu/academics/undergraduate-programs/",
       "checked": "2026-11-02"
@@ -46227,7 +46383,7 @@ window.UNIPATH.universities.push(
     "arts": {
       "program": "Studio Art, BFA",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Knoxville",
       "url": "https://artsci.utk.edu/academics/undergraduate-programs/",
       "checked": "2026-11-02"
@@ -46235,7 +46391,7 @@ window.UNIPATH.universities.push(
     "engineering": {
       "program": "Mechanical Engineering, BS",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Knoxville",
       "url": "https://tickle.utk.edu/mae/academics/",
       "checked": "2026-11-02"
@@ -46243,7 +46399,7 @@ window.UNIPATH.universities.push(
     "business": {
       "program": "Accounting (Haslam undergraduate major)",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Knoxville",
       "url": "https://haslam.utk.edu/undergraduate/majors-minors/",
       "checked": "2026-11-02"

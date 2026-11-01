@@ -11320,5 +11320,443 @@
     "quote": null,
     "facts": null,
     "unresolved": "Detailed search lead found,but direct official page reading failed. Search figures are not installed. Seek another accessible official document; no access-protection bypass."
+  },
+  {
+    "id": "university-of-illinois-urbana-champaign",
+    "topic": "remaining-award-review",
+    "source": "https://www.admissions.illinois.edu/financial-aid/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "international degree-seeking undergraduate; institutional need-based aid policy",
+    "campus": "Urbana-Champaign",
+    "access": "html-read",
+    "quote": "Illinois does not provide need-based financial aid for international undergraduate students.",
+    "facts": {
+      "publicNeedBased": {
+        "availableToInternational": false,
+        "meetsFullNeed": false,
+        "note": {
+          "en": "Illinois explicitly does not provide need-based financial aid for international undergraduates. Limited scholarships and loans are separate; this is not a claim that no merit scholarship exists.",
+          "ru": "Illinois прямо не предоставляет помощь по нуждаемости иностранным бакалаврам. Ограниченные стипендии и кредиты отдельные; это не утверждение об отсутствии merit-стипендий."
+        }
+      }
+    }
+  },
+  {
+    "id": "university-of-illinois-urbana-champaign",
+    "topic": "remaining-award-review",
+    "source": "https://www.osfa.illinois.edu/types-of-aid/other-aid/international-students/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "international undergraduate admission-file review; not a guarantee of any named or largest award",
+    "campus": "Urbana-Champaign",
+    "access": "html-read",
+    "quote": "scholarships awarded by colleges or departments",
+    "facts": {
+      "publicMerit": [
+        {
+          "id": "illinois-international-college-review",
+          "category": "merit",
+          "basis": "merit",
+          "name": {
+            "en": "College and departmental scholarships for international undergraduates",
+            "ru": "Стипендии колледжей и кафедр для иностранных бакалавров"
+          },
+          "amount": null,
+          "eligibility": {
+            "en": "International undergraduate applicants may be eligible for college/departmental scholarships. Each award has its own criteria.",
+            "ru": "Иностранные абитуриенты бакалавриата могут соответствовать условиям стипендий колледжа/кафедры; критерии каждой награды отдельные."
+          },
+          "renewable": null,
+          "application": {
+            "en": "Generally no separate application; the college/department reviews the admission file and academic record",
+            "ru": "Обычно отдельной заявки нет; колледж/кафедра рассматривает заявку на поступление и академические документы"
+          },
+          "note": {
+            "en": "The official international page confirms a limited scheme, not a named amount or award guarantee. Amount, renewal, stacking and the largest applicable first-year award remain unconfirmed. Graduate assistantships and emergency help for current students are not first-year bachelor scholarships. No aid is deducted from cost.",
+            "ru": "Международная страница подтверждает ограниченную систему, не именную сумму или гарантию награды. Размер, продление, совместимость и крупнейшая применимая награда первого курса пока не установлены. Ассистентства graduate и экстренная помощь уже обучающимся не являются стипендиями поступающего бакалавра. Помощь из стоимости не вычитается."
+          },
+          "deadlineScope": "not-confirmed",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "university-of-illinois-urbana-champaign",
+    "topic": "remaining-award-review",
+    "source": "https://stamps.illinois.edu/selection/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "Stamps selection; Illinois-residency restriction, not an ordinary F-1 nonresident award",
+    "campus": "Urbana-Champaign",
+    "access": "html-read",
+    "quote": "Only Illinois residents are reviewed for the Stamps Scholarship.",
+    "facts": {
+      "eligibilityRestriction": "Illinois residents only",
+      "renewalCollegeGPA": 3.0,
+      "maxConsecutiveSemesters": 8,
+      "publicFullRideNote": {
+        "en": "The Stamps Scholarship at Illinois is reviewed only for Illinois residents; it is not assigned to an ordinary F-1 applicant from Uzbekistan. General college/departmental merit opportunities remain possible, but the largest internationally applicable award and coverage are not established. No full-cost promise or automatic budget deduction.",
+        "ru": "Stamps Scholarship в Illinois рассматривает только резидентов Иллинойса; обычному абитуриенту F-1 из Узбекистана она не присвоена. Общие merit-возможности колледжей/кафедр возможны, но крупнейшая международно применимая награда и её покрытие не установлены. Полное покрытие и автоматический вычет из бюджета не обещаны."
+      }
+    }
+  },
+  {
+    "id": "virginia-tech",
+    "topic": "remaining-award-review",
+    "source": "https://finaid.vt.edu/undergraduate/international-students.html",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "international undergraduate candidates, whether or not eligible for FAFSA; college-specific scholarships",
+    "campus": "Blacksburg",
+    "access": "html-read",
+    "quote": "college and departmental scholarships",
+    "facts": {
+      "publicMerit": [
+        {
+          "id": "vt-international-college-scholarships",
+          "category": "merit",
+          "basis": "merit",
+          "name": {
+            "en": "College and departmental scholarship applications",
+            "ru": "Заявки на стипендии колледжей и кафедр"
+          },
+          "amount": null,
+          "eligibility": {
+            "en": "International students may apply whether or not they can file FAFSA; each college/department determines individual award eligibility.",
+            "ru": "Иностранцы могут подавать независимо от возможности заполнить FAFSA; индивидуальный допуск определяет колледж/кафедра."
+          },
+          "renewable": null,
+          "application": {
+            "en": "After applying for admission, access Scholarship Central through the admission portal and complete relevant applications",
+            "ru": "После заявки на поступление открыть Scholarship Central через портал и заполнить применимые заявки"
+          },
+          "note": {
+            "en": "This confirms access to the scholarship process, not receipt, a university-wide amount or the largest award. Incoming/continuing rules, separate applications, renewal, stacking and deadlines vary by award; FAFSA-based general awards are not automatically international awards. No full tuition/full ride or budget deduction is inferred.",
+            "ru": "Подтверждён доступ к процессу, не получение, общеуниверситетская сумма или крупнейшая награда. Условия для поступающих/обучающихся, отдельные заявки, продление, совместимость и сроки зависят от награды; общие награды с FAFSA не становятся международными автоматически. Full tuition/full ride и вычет из бюджета не выводятся."
+          },
+          "deadlineScope": "not-confirmed",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "university-of-texas-at-austin",
+    "topic": "remaining-award-review",
+    "source": "https://global.utexas.edu/isss/advising-services/scholarships",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "international undergraduate aid; Iimura Asia-school scope; no automatic incoming first-year eligibility",
+    "campus": "Austin",
+    "access": "html-read",
+    "quote": "Iimura Peace Endowed Scholarship",
+    "facts": {
+      "amountFall": 5000,
+      "annualApplicationWindow": "February1–March1; no cycle year",
+      "collegeGPAMinimum": 2.0,
+      "serviceProjectWithinYears": 1,
+      "publicMerit": [
+        {
+          "id": "ut-austin-iimura-peace",
+          "category": "merit",
+          "basis": "merit",
+          "name": {
+            "en": "Iimura Peace Endowed Scholarship",
+            "ru": "Именная стипендия мира Iimura"
+          },
+          "amount": {
+            "en": "USD 5,000 for the fall semester",
+            "ru": "5 000 USD за осенний семестр"
+          },
+          "eligibility": {
+            "en": "Undergraduate, full-time at UT Austin in the award semester; attended high school in East Asia or Asia; minimum 2.0 GPA; intent to promote peace in Asia and a service project within one year. The page does not independently confirm how a new first-year applicant satisfies the GPA requirement.",
+            "ru": "Бакалавр с полной нагрузкой в UT Austin в семестр награды; школа в Восточной Азии или Азии; GPA не ниже 2,0; намерение содействовать миру в Азии и общественный проект в течение года. Страница отдельно не устанавливает, как новый первокурсник выполняет требование GPA."
+          },
+          "renewable": null,
+          "application": {
+            "en": "Texas Global scholarship application; published annual fall-award window 1 February–1 March",
+            "ru": "Заявка Texas Global; опубликованное ежегодное окно осенней награды 1 февраля — 1 марта"
+          },
+          "note": {
+            "en": "USD 5,000 is a fall award, not a published annual renewable amount, full tuition or full ride. Year/cycle, renewal and stacking are unconfirmed. The GPA is not converted into an Uzbek school threshold. General ISSS need aid requires two completed UT semesters; Mexican/Western Hemisphere/African-region awards have separate restrictions and are not assigned to every Uzbek applicant. No scholarship is deducted.",
+            "ru": "5 000 USD — награда осени, не опубликованная ежегодно продлеваемая сумма, full tuition или full ride. Год/цикл, продление и совместимость не подтверждены. GPA не переведён в порог узбекских школьных оценок. Общая помощь ISSS по нуждаемости требует двух завершённых семестров UT; награды для Мексики/Западного полушария/Африки имеют отдельные ограничения и не присваиваются каждому узбекскому абитуриенту. Стипендия не вычитается."
+          },
+          "deadlineScope": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "university-of-california-merced",
+    "topic": "remaining-award-review",
+    "source": "https://admissions.ucmerced.edu/node/5881",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "international F-1 first-year undergraduate, distinct from continuing-student scholarship",
+    "campus": "Merced",
+    "access": "html-read",
+    "quote": "Global Access Program Scholarship (First Year and Transfer)",
+    "facts": {
+      "amountPerYear": 25000,
+      "firstYearDurationYears": 4,
+      "entryGPA": 3.25,
+      "renewalCollegeGPA": 3.0,
+      "renewalCreditsPerSemester": 12,
+      "nonresidentFeeWaiverIncompatible": true,
+      "publicMerit": [
+        {
+          "id": "merced-global-access",
+          "category": "merit",
+          "basis": "merit",
+          "name": {
+            "en": "Global Access Program Scholarship",
+            "ru": "Стипендия Global Access Program"
+          },
+          "amount": {
+            "en": "USD 25,000 per year; up to four consecutive years for first-year students",
+            "ru": "25 000 USD в год; до четырёх последовательных лет для первокурсников"
+          },
+          "eligibility": {
+            "en": "F-1 international or non-California domestic student, admitted and enrolling full-time at UC Merced, GPA at admission at least 3.25 as evaluated by the university. The policy is not an automatic conversion of Uzbek school marks.",
+            "ru": "Иностранец F-1 или внутренний нерезидент Калифорнии, принятый и поступающий на полную нагрузку в UC Merced, GPA при приёме не ниже 3,25 по оценке университета. Политика не является автоматическим переводом узбекских школьных оценок."
+          },
+          "renewable": {
+            "en": "Up to four consecutive first-year years, maintaining full-time 12 credits/semester,3.0 college GPA, Satisfactory Academic Progress and non-California residency",
+            "ru": "До четырёх последовательных лет для первокурсника при полной нагрузке 12 кредитов/семестр, университетском GPA 3,0, Satisfactory Academic Progress и статусе нерезидента Калифорнии"
+          },
+          "application": {
+            "en": "No separate application; eligible admitted candidates are automatically considered and notified upon admission",
+            "ru": "Отдельной заявки нет; подходящих принятых кандидатов автоматически рассматривают и уведомляют при приёме"
+          },
+          "note": {
+            "en": "Students receiving a nonresident fee waiver are ineligible for this award. Other stacking is not established. Automatic consideration does not by itself guarantee receipt or full tuition/full ride. The separate 2026–27 international scholarship USD 5,000–10,000 is for CONTINUING students and is not assigned to incoming first-years or Fall 2027. No amount is deducted from cost.",
+            "ru": "Получатели освобождения от nonresident fee не имеют права на эту награду. Иная совместимость не установлена. Автоматическое рассмотрение само по себе не гарантирует получение, full tuition или full ride. Отдельная международная стипендия 2026–27 на 5 000–10 000 USD относится к УЖЕ ОБУЧАЮЩИМСЯ и не присвоена новым первокурсникам или осени 2027. Сумма из стоимости не вычитается."
+          },
+          "deadlineScope": "no-separate-application",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "indiana-university-bloomington",
+    "topic": "remaining-award-review",
+    "source": "https://bloomington.iu.edu/admissions/apply/international/deadlines.html",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "international first-year merit application; standing February1rule, no explicit2027cycle",
+    "campus": "Bloomington",
+    "access": "html-read",
+    "quote": "deadline for Global Engagement Scholarship consideration",
+    "facts": {
+      "annualDeadline": "1February",
+      "cycleYear": null,
+      "amount": null,
+      "publicMerit": [
+        {
+          "id": "iu-global-engagement",
+          "category": "merit",
+          "basis": "merit",
+          "name": {
+            "en": "Global Engagement Scholarship consideration",
+            "ru": "Рассмотрение на Global Engagement Scholarship"
+          },
+          "amount": null,
+          "eligibility": {
+            "en": "Qualified international first-year applicants; academic information supplied in the complete admission application",
+            "ru": "Подходящие иностранные абитуриенты первого курса; академические сведения полной заявки на поступление"
+          },
+          "renewable": null,
+          "application": {
+            "en": "Complete admission application by 1 February; no separate application for the international merit consideration described here",
+            "ru": "Полная заявка на поступление до 1 февраля; отдельной заявки на описанное международное merit-рассмотрение нет"
+          },
+          "note": {
+            "en": "The international page names Global Engagement consideration by 1 February and earlier November 1 maximum consideration for general IU scholarships. Neither annual rule establishes 2027 by itself. Amount, renewal, stacking and largest eligible award are not stated here; older generic family-page ranges are not assigned to this named award. Country-specific and continuing-student scholarships have separate restrictions. No guarantee or budget deduction.",
+            "ru": "Международная страница называет рассмотрение Global Engagement до 1 февраля и более раннее максимальное рассмотрение общих наград IU до 1 ноября. Ни одно ежегодное правило само по себе не устанавливает 2027. Размер, продление, совместимость и крупнейшая применимая награда здесь не указаны; старые общие диапазоны семейной страницы не присвоены именной награде. Страновые и continuing-стипендии имеют отдельные ограничения. Гарантия и вычет из бюджета не утверждаются."
+          },
+          "deadlineScope": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "binghamton-university",
+    "topic": "remaining-award-review",
+    "source": "https://www.binghamton.edu/financial-aid/types-of-aid/scholarships/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "international undergraduate admission-process scholarships; individual amount and named eligibility unconfirmed",
+    "campus": "Binghamton",
+    "access": "html-read",
+    "quote": "A limited number of scholarships are available via the admission process",
+    "facts": {
+      "publicMerit": [
+        {
+          "id": "binghamton-international-admission-review",
+          "category": "merit",
+          "basis": "merit",
+          "name": {
+            "en": "Limited international admission scholarships",
+            "ru": "Ограниченные международные стипендии при поступлении"
+          },
+          "amount": null,
+          "eligibility": {
+            "en": "International applicants may be considered for limited scholarships through Undergraduate Admissions; individual donor/major/financial criteria apply",
+            "ru": "Иностранцев могут рассматривать на ограниченные стипендии через Undergraduate Admissions; действуют индивидуальные донорские/программные/финансовые условия"
+          },
+          "renewable": null,
+          "application": {
+            "en": "Admission-process review; follow any additional award-specific instructions supplied by Admissions",
+            "ru": "Рассмотрение при поступлении; соблюдать дополнительные указания конкретной награды от Admissions"
+          },
+          "note": {
+            "en": "The international paragraph does not publish a named amount, renewal, stacking or 2027 award deadline. President/Provost/Dean conditions and FAFSA-based scholarships are not automatically assigned to every F-1 applicant. Current-student funding and graduate assistantships are separate. No largest award, full tuition/full ride or net-cost deduction is asserted.",
+            "ru": "Международный раздел не публикует именную сумму, продление, совместимость или стипендиальный срок 2027. Условия President/Provost/Dean и награды с FAFSA не присваиваются каждому F-1 автоматически. Помощь уже обучающимся и graduate-ассистентства отдельные. Крупнейшая награда, full tuition/full ride и вычет из стоимости не утверждаются."
+          },
+          "deadlineScope": "not-confirmed",
+          "entryTerm": null,
+          "entryYear": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "pennsylvania-state-university-university-park",
+    "topic": "remaining-award-review",
+    "source": "https://www.psu.edu/costs-aid/types-of-aid/scholarships/provost-academic-award",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "Provost Academic Award first-time first-year nonresident; citizenship restriction",
+    "campus": "University Park",
+    "access": "html-read",
+    "quote": "Be a U.S. Citizen or permanent resident",
+    "facts": {
+      "eligibleCitizenship": "US citizen or permanent resident",
+      "requiresFAFSA": true,
+      "transferEligible": false,
+      "publicFullRideNote": {
+        "en": "The University Park Provost Academic Award requires U. S. citizenship or permanent residency and demonstrated need through FAFSA. Nonresident Pennsylvania status alone is insufficient: this award is not assigned to an ordinary F-1 applicant from Uzbekistan. Other college/department scholarships and the largest internationally applicable award remain under review. No full-cost promise.",
+        "ru": "Provost Academic Award в University Park требует гражданство США или постоянный вид на жительство и нуждаемость по FAFSA. Одного статуса нерезидента Пенсильвании недостаточно: награда не присвоена обычному F-1 абитуриенту из Узбекистана. Другие стипендии колледжей/кафедр и крупнейшая международно применимая награда ещё проверяются. Полное покрытие не обещано."
+      }
+    }
+  },
+  {
+    "id": "university-of-california-santa-barbara",
+    "topic": "remaining-award-review",
+    "source": "https://oiss.ucsb.edu/resources/financial-resources",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "degree-seeking F-1/J-1 economic-hardship support; not an incoming scholarship guarantee",
+    "campus": "Santa Barbara",
+    "access": "html-read",
+    "quote": "during the course of their studies at UCSB",
+    "facts": {
+      "internationalStudentAward": "current full-time UCSB degree students; economic hardship; excludes EAP reciprocity",
+      "publicFullRideNote": {
+        "en": "UCSB OISS describes limited resources and an International Student Award for economic hardship during existing UCSB degree study, F-1/J-1, full-time; EAP reciprocity is excluded. This is not a confirmed incoming first-year full scholarship. Graduate fellowships and graduate study abroad awards are different routes. Current named Regents eligibility, amount and the largest applicable award still require direct evidence.",
+        "ru": "UCSB OISS описывает ограниченные ресурсы и International Student Award по экономическим трудностям в ходе уже начатого обучения на степень UCSB, F-1/J-1, полная нагрузка; EAP reciprocity исключён. Это не подтверждённая полная стипендия поступающего первокурсника. Graduate-fellowships и награды для зарубежной магистратуры — иные маршруты. Актуальные условия Regents, сумма и крупнейшая применимая награда ещё требуют прямых доказательств."
+      }
+    }
+  },
+  {
+    "id": "university-of-california-irvine",
+    "topic": "remaining-award-review",
+    "source": "https://catalogue.uci.edu/informationforprospectivestudents/financialaid/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "2026–27 catalogue general first-year/transfer scholarships; international-specific award eligibility unresolved",
+    "campus": "Irvine",
+    "access": "html-read",
+    "quote": "Distinguished Scholarships include the Regents’ Scholarship",
+    "facts": {
+      "namedAwards": [
+        "Regents",
+        "Chancellor Excellence",
+        "Directors"
+      ],
+      "generalApplication": "UC admission application; no additional distinguished-award application",
+      "publicFullRideNote": {
+        "en": "The 2026–27 UCI catalogue names Regents, Chancellor’s Excellence and Directors’ Distinguished Scholarships selected through the UC application. It does not establish international F-1 eligibility or amounts for each named award. The detailed OFAS eligibility page is 403-blocked, so no scholarship or all-awards eligibility is assigned from a search preview. Federal/California-aid rules do not prove general international merit eligibility.",
+        "ru": "Каталог UCI 2026–27 называет Regents, Chancellor’s Excellence и Directors’ Distinguished Scholarships с отбором по UC-заявке. Он не устанавливает допуск F-1 или суммы для каждой награды. Подробная страница условий OFAS недоступна с 403, поэтому стипендия и допуск ко всем наградам не присвоены из поискового preview. Правила федеральной/калифорнийской помощи не доказывают общий международный допуск merit."
+      }
+    }
+  },
+  {
+    "id": "university-of-california-irvine",
+    "topic": "remaining-award-access-review",
+    "source": "https://www.ofas.uci.edu/scholarships/applying-for-scholarships.php",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "named first-year international award eligibility and coverage",
+    "campus": "Irvine",
+    "access": "403-blocked",
+    "quote": null,
+    "facts": null,
+    "unresolved": "Direct OFAS eligibility page403; catalogue confirms names/application but not F-1 eligibility of each award. No figures/eligibility installed from search previews."
+  },
+  {
+    "id": "university-of-pittsburgh",
+    "topic": "remaining-award-historical-reference",
+    "source": "https://admissions.pitt.edu/wp-content/uploads/2024/09/InternationalRecruitmentBrochure_Digital-for-website-24-25.pdf",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "2024–25 international first-year brochure; not current2027award evidence",
+    "campus": "Pittsburgh",
+    "access": "pdf-page-verification-pending",
+    "quote": null,
+    "facts": null,
+    "unresolved": "Historical brochure text was readable through the PDF viewer,but a direct paginated fetch timed out. Current amount,physical page and updated official first-year award conditions still need verification; not installed as2027data."
+  },
+  {
+    "id": "university-of-tennessee-knoxville",
+    "topic": "instruction-language",
+    "source": "https://cge.utk.edu/wp-content/uploads/sites/84/2020/08/UG-Student-Exchange-Agreement.pdf",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "official undergraduate exchange agreement template; explicit Knoxville campus instruction statement, not degree-admission eligibility",
+    "campus": "Knoxville",
+    "access": "pdf-read",
+    "quote": "The language of instruction at UT is English",
+    "facts": {
+      "page": 3,
+      "scopeType": "campus-instruction-policy",
+      "appliesToFields": [
+        "computer-science",
+        "economics",
+        "mathematics",
+        "biology",
+        "psychology",
+        "humanities",
+        "arts",
+        "engineering",
+        "business"
+      ],
+      "appliesToProgrammes": {
+        "computer-science": "Computer Science, B.S.",
+        "economics": "Economics, BA",
+        "mathematics": "Mathematics, BS",
+        "biology": "Biological Sciences, BS",
+        "psychology": "Psychology, BA",
+        "humanities": "History, BA",
+        "arts": "Studio Art, BFA",
+        "engineering": "Mechanical Engineering, BS",
+        "business": "Accounting (Haslam undergraduate major)"
+      },
+      "limitations": "Official2020template still hosted by UT CGE explicitly defines UT as Knoxville on p1. It is not a signed partner agreement or evidence of current first-year test waivers,admission deadlines or access to exchange-restricted courses. Applied only to the named non-foreign-language bachelor majors.",
+      "profileLanguageNote": {
+        "en": "English — Knoxville campus statement in the official undergraduate exchange template; foreign-language courses and individual requirements must be checked separately",
+        "ru": "Английский — указание кампуса Knoxville в официальном шаблоне бакалаврского обмена; курсы иностранных языков и индивидуальные условия проверяются отдельно"
+      }
+    }
   }
 ]

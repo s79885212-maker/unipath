@@ -48,6 +48,10 @@ module.exports=function(env){
      /generally/.test(boulder.languageOfInstruction)&&/foreign-language/.test(boulder.languageOfInstruction)&&
      sources.some(function(s){return s.id===boulder.id&&s.topic==='instruction-language'&&s.access==='pdf-read'&&s.facts.page===1;}),
      'Boulder named majors use the actual PDF campus instruction statement with its general-rule and foreign-language caveats');
+  ok(U.optionById('field','engineering').test(U.uniById('university-of-tennessee-knoxville'),{language:['english-yes']})&&
+     sources.some(function(s){return s.id==='university-of-tennessee-knoxville'&&s.topic==='instruction-language'&&s.access==='pdf-read'&&s.facts.page===3;})&&
+     /official undergraduate exchange template/.test(U.uniById('university-of-tennessee-knoxville').languageOfInstruction),
+     'Knoxville instruction evidence retains the official template source and page without importing exchange admission rules');
   ok(/internal admission/.test(wake.programEvidence.business.program)&&
      wake.admissions.notes.some(function(n){return /49 completed college credit hours/.test(n)&&/not Uzbek school grades/.test(n);})&&
      !U.uniById('wabash-college').programEvidence.business&&
@@ -315,6 +319,19 @@ module.exports=function(env){
      !DB.match.annualCost[stevens.id]&&budget(stevens,100000).status==='unknown'&&/federal loans/.test(stevens.costs.note),
      'Stevens previous-year COA keeps the federal-loan-only fee conditional and cannot confirm a Fall2027 budget');
   var wabashAward=U.uniById('wabash-college').scholarships.merit[0];
+  var mercedAid=U.uniById('university-of-california-merced'),mercedAward=mercedAid.scholarships.merit.find(function(a){return a.id==='merced-global-access';});
+  ok(mercedAward&&/25,000/.test(mercedAward.amount)&&mercedAward.deadlineScope==='no-separate-application'&&
+     /nonresident fee waiver/.test(mercedAward.note)&&/3.0/.test(mercedAward.renewable)&&
+     mercedAid.scholarships.fullRide.available===null&&budget(mercedAid,100000).status==='unknown',
+     'Merced Global Access keeps the annual amount, college renewal and waiver exclusion without promising full tuition or deducting competitive aid');
+  ok(uiuc.scholarships.needBased.availableToInternational===false&&uiuc.scholarships.fullRide.available===null&&
+     /only for Illinois residents/.test(uiuc.scholarships.fullRide.note)&&
+     /citizenship or permanent residency/.test(U.uniById('pennsylvania-state-university-university-park').scholarships.fullRide.note)&&!U.optionById('scholarship','full-ride-intl').test(uiuc),
+     'Illinois Stamps residency and Penn State Provost citizenship restrictions do not become ordinary international full scholarships');
+  var austinAid=U.uniById('university-of-texas-at-austin').scholarships.merit.find(function(a){return a.id==='ut-austin-iimura-peace';}),iuAid=U.uniById('indiana-university-bloomington').scholarships.merit[0];
+  ok(austinAid&&/fall semester/.test(austinAid.amount)&&austinAid.deadlineScope==='annual-rule'&&austinAid.entryYear===null&&
+     /new first-year applicant/.test(austinAid.eligibility)&&iuAid.deadlineScope==='annual-rule'&&iuAid.amount===null&&iuAid.entryYear===null,
+     'Austin fall-only Iimura award and IU annual consideration preserve first-year/GPA uncertainty and unconfirmed cycle or amount');
   ok(wabashAward.id==='presidential-international'&&wabashAward.deadlineScope==='annual-rule'&&
      wabashAward.entryYear===null&&/48,000/.test(wabashAward.amount)&&/earned work/.test(wabashAward.note)&&
      budget(U.uniById('wabash-college'),100000).status==='unknown',

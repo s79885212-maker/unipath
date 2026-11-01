@@ -1,4 +1,4 @@
-"""Apply individually researched remaining cost records without inferring budgets.
+"""Apply individually researched remaining costs and awards without inferring budgets.
 
 Research facts carry the exact existing public cost shape. Bilingual text is
 registered in the normal dictionary. This writer never synthesises an annualCost
@@ -25,30 +25,46 @@ def translate(value):
         return [translate(v) for v in value]
     return value
 
-count = 0
+count = awards = 0
 for source in sources:
-    if source['topic'] != 'remaining-cost-review' or not (source.get('facts') or {}).get('publicCost'):
+    if source['topic'] not in ('remaining-cost-review', 'remaining-award-review') or not source.get('facts'):
         continue
     assert source['id'] in allowed and source['access'] in ('html-read', 'pdf-read')
-    cost = translate(source['facts']['publicCost'])
-    assert cost.get('status') in ('previous-cycle', 'conflict', 'not-checked', 'not-published')
-    assert cost['currency'] == 'USD'
-    if cost['status'] == 'conflict':
-        assert cost.get('conflict') and cost.get('billedSubtotal') is None
-        assert not (cost.get('breakdown') or {}).get('budget')
-    if cost.get('academicYear') is None:
-        assert cost['status'] == 'not-checked' and not cost.get('items')
-    cost.update(source=source['source'], verified=source['verified'])
     u = byid[source['id']]
-    u['costs'] = cost
-    u['links']['cost'] = source['source']
+    if source['topic'] == 'remaining-award-review':
+        facts = source['facts']
+        for award in translate(facts.get('publicMerit', [])):
+            assert award.get('id') and award.get('category') == 'merit'
+            assert award.get('deadlineScope') in ('not-confirmed', 'annual-rule', 'no-separate-application')
+            assert award.get('entryYear') is None and award.get('entryTerm') is None
+            award.update(source=source['source'], verified=source['verified'])
+            u['scholarships']['merit'] = [a for a in u['scholarships']['merit'] if a.get('id') != award['id']] + [award]
+        if facts.get('publicNeedBased'):
+            u['scholarships']['needBased'].update(translate(facts['publicNeedBased']))
+        if facts.get('publicFullRideNote'):
+            assert u['scholarships']['fullRide'].get('available') is None
+            u['scholarships']['fullRide']['note'] = translate(facts['publicFullRideNote'])
+        awards += 1
+    else:
+        cost = translate(source['facts']['publicCost'])
+        assert cost.get('status') in ('previous-cycle', 'conflict', 'not-checked', 'not-published')
+        assert cost['currency'] == 'USD'
+        if cost['status'] == 'conflict':
+            assert cost.get('conflict') and cost.get('billedSubtotal') is None
+            assert not (cost.get('breakdown') or {}).get('budget')
+        if cost.get('academicYear') is None:
+            assert cost['status'] == 'not-checked' and not cost.get('items')
+        cost.update(source=source['source'], verified=source['verified'])
+        u['costs'] = cost
+        u['links']['cost'] = source['source']
+        count += 1
     u['lastVerified'] = max(u.get('lastVerified') or '', source['verified'])
     for url in [source['source']] + source['facts'].get('supportingSources', []):
         assert url.startswith('https://')
         if not any(s['url'] == url for s in u['sources']):
-            u['sources'].append(dict(label=L('Cost — reviewed official scope and period', 'Стоимость — проверенные официальные условия и период'), url=url))
-    count += 1
+            label = L('Cost — reviewed official scope and period', 'Стоимость — проверенные официальные условия и период') if source['topic'] == 'remaining-cost-review' else L('International aid — reviewed eligibility and limits', 'Международная помощь — проверенные условия и ограничения')
+            u['sources'].append(dict(label=label, url=url))
 
 save(head, rows, tail, str(path))
 flush()
-print('Individually reviewed remaining cost profiles:', count, '; annualCost, awards and photos unchanged')
+print('Individually reviewed remaining cost profiles:', count, '; award reviews:', awards, '; annualCost and photos unchanged')

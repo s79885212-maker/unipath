@@ -1177,3 +1177,7 @@ FIU MMC Campus от Eduardo Merille CC BY-SA2.0 получен владельц�
 
 ### 2 ноября 2026 — v202: ещё12 индивидуальных стоимостей
 477sources,393passed. Сохранены scope/semester/insurance/billed; новые конфликтыDayton10/12месяцев иColumbia38098vs38100не скрыты. У четырёх пока нет установленного года: IUundated,UCSC502,UTD502,Pacific403; альтернативные документы ещё ищутся. V201локально собрана:426static,427noindex,13695links;v202ещёпредстоитбраузернаяпроверка. Mainне менялась,livev198.
+
+
+### 2 ноября 2026 — v203: международные награды и ограничения
+491sources;397passed. Шесть merit/consideration записей,UIUCneedaid policy,исключения UIUC Stamps иPSUProvost. Merced25000/годнесталfullride;Austin5000/fallиIUFebruary1неполучиливыдуманныйцикл. KnoxvillePDFp3подтверждаетязык,неexchangeeligibilityпервокурсника. Фото50/исходные370/annualCostсохранены. Исследование продолжается;mainне менялась.
