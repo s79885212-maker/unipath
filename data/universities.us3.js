@@ -34173,20 +34173,71 @@ window.UNIPATH.universities.push(
   },
   "costs": {
     "breakdown": {
-      "includes": "Previous available cost year: 2026–2027. These figures are not confirmed prices for Fall 2027 entrants or 2027–2028 and are not used to confirm a budget match. Competitive scholarships have not been deducted.",
+      "includes": "Published residence-hall COA before aid; subtotal calculated separately by UniPath",
       "budget": 88279,
       "period": "year"
     },
     "academicYear": "2026–2027",
     "currency": "USD",
-    "studentCategory": "International first-year bachelor applicants",
+    "studentCategory": "Nonresident first enrolled 2026–2027, university-managed residence hall, three academic quarters",
     "source": "https://financialaid.ucdavis.edu/undergraduate/cost/2627-entering",
-    "verified": "2026-10-31",
-    "headline": "2026–2027 published cost reference — not a 2027–2028 quote",
-    "items": [],
+    "verified": "2026-11-01",
+    "headline": "Previous-cohort residence-hall cost estimate",
+    "items": [
+      {
+        "label": "Systemwide tuition and fees",
+        "group": "billed",
+        "amount": 15588
+      },
+      {
+        "label": "Campus-based fees",
+        "group": "billed",
+        "amount": 2490
+      },
+      {
+        "label": "Nonresident supplemental tuition",
+        "group": "billed",
+        "amount": 39270
+      },
+      {
+        "label": "Residence hall housing",
+        "group": "billed",
+        "amount": 13957
+      },
+      {
+        "label": "Campus food",
+        "group": "billed",
+        "amount": 8200
+      },
+      {
+        "label": "Health insurance — estimated, waivable with qualifying cover",
+        "group": "billed",
+        "amount": 3924
+      },
+      {
+        "label": "Document fee",
+        "group": "billed",
+        "amount": 185
+      },
+      {
+        "label": "Books and supplies",
+        "group": "estimate",
+        "amount": 1240
+      },
+      {
+        "label": "Personal expenses",
+        "group": "estimate",
+        "amount": 2733
+      },
+      {
+        "label": "Transportation",
+        "group": "estimate",
+        "amount": 692
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": "2026–2027 published cost reference — not a 2027–2028 quote",
-    "note": "Previous available cost year: 2026–2027. These figures are not confirmed prices for Fall 2027 entrants or 2027–2028 and are not used to confirm a budget match. Competitive scholarships have not been deducted. Published nonresident residence-hall total already includes the USD39,270 supplement; three quarters, September–June. Other housing options have different totals; itemised lines still need transcription.",
+    "totalText": "Published nonresident COA: USD 88,279; resident direct costs: USD 44,344, plus USD 39,270 nonresident tuition",
+    "note": "The university publishes total nonresident COA USD 88,279 for the Fall 2026 cohort, three quarters from mid-September to mid-June. UniPath calculates the direct subtotal USD 83,614 as the published resident direct subtotal USD 44,344 plus USD 39,270 nonresident supplement; this subtotal is not separately printed by the university. The USD 15,588 line combines tuition and student services and is not tuition-only. Residence-hall housing requires an official university housing contract. Other housing choices differ. Insurance USD 3,924 is an estimate, may differ from the final approved rate and may be waived with qualifying coverage. Published/proposed rates are subject to final approval. No Fall 2027 price or current budget match is inferred; competitive aid is not deducted.",
     "status": "previous-cycle"
   },
   "scholarships": {
@@ -40011,7 +40062,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": null,
     "programs": "https://tme.uconn.edu/explore-majors/profiles-storrs/",
-    "cost": null
+    "cost": "https://international.global.uconn.edu/coa/"
   },
   "admissions": {
     "platforms": [],
@@ -40131,41 +40182,42 @@ window.UNIPATH.universities.push(
   },
   "costs": {
     "breakdown": {
-      "includes": "All undergraduate programmes except BGS; not a semester exchange price",
+      "includes": "International full-time I-20/DS-2019 funding estimate before aid, not an exact bill",
       "tuition": 39678,
-      "budget": 70649
+      "budget": 70649,
+      "period": "year"
     },
     "academicYear": "2026–2027",
     "currency": "USD",
-    "studentCategory": "International first-year bachelor applicants",
+    "studentCategory": "Full-time international undergraduate on UConn F/J sponsorship, BA/BS/BSE/BFA except BGS, nine months, no dependents",
     "source": "https://international.global.uconn.edu/coa/",
-    "verified": "2026-10-31",
-    "headline": "Previous-cycle published COA: USD70,649",
+    "verified": "2026-11-01",
+    "headline": "Previous-cycle international funding estimate",
     "items": [
       {
         "label": "Tuition",
-        "group": "billed",
+        "group": "estimate",
         "amount": 39678
       },
       {
-        "label": "Fees",
-        "group": "billed",
+        "label": "Fees including visa compliance",
+        "group": "estimate",
         "amount": 5224
       },
       {
-        "label": "Housing and meals",
+        "label": "Room and board",
         "group": "estimate",
         "amount": 17082
       },
       {
-        "label": "Books, travel, insurance and miscellaneous",
+        "label": "Books, travel, insurance and miscellaneous expenses",
         "group": "estimate",
         "amount": 8665
       }
     ],
     "billedSubtotal": null,
-    "totalText": "USD70,649 for the published2026–27 academic-year estimate",
-    "note": "Published financial-guarantee estimate for2026–27; not Fall2027–28. Other costs already include books, travel, insurance and miscellaneous. BGS47,981 and Storrs exchange12,248 per semester are different categories and are not substituted.",
+    "totalText": "Published CISS undergraduate COA: USD 70,649 for nine months",
+    "note": "Published 2026–2027 CISS estimate, not Fall 2027 pricing. Tuition and fees USD 44,902 plus living expenses USD 25,747 equals USD 70,649. Fees already include visa compliance USD 450 each semester; do not add it again. Books, travel, insurance and miscellaneous costs are already grouped in USD 8,665. All figures are funding estimates, not exact charges. Summer study and accompanying dependents require extra funding. The separate BGS USD 47,981 and exchange USD 12,248 per semester are not prices for the ordinary bachelor route. No stipend or competitive award is deducted, and this previous-cycle figure cannot confirm a Fall 2027 budget.",
     "status": "previous-cycle"
   },
   "scholarships": {

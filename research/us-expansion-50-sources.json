@@ -7370,5 +7370,141 @@
         "ru": "Business Administration в UCR — двухлетняя программа старших курсов: после выполнения требований к концу второго года подают заявку в School of Business. Это не прямой приём на эту программу с первого курса. Медицинская школа не имеет основной программы бакалавриата; Biology не медицинский диплом."
       }
     }
+  },
+  {
+    "id": "university-of-california-davis",
+    "source": "https://financialaid.ucdavis.edu/undergraduate/cost/2627-entering",
+    "campus": "Davis",
+    "topic": "cohort-cost-components",
+    "quote": "Total costs for nonresidents",
+    "facts": {
+      "academicYear": "2026–2027",
+      "cohort": "first enrolled2026–27",
+      "currency": "USD",
+      "period": "three quarters, mid-September to mid-June",
+      "housing": "university-managed residence hall with official housing contract",
+      "components": {
+        "systemwideTuitionFees": 15588,
+        "campusFees": 2490,
+        "housing": 13957,
+        "food": 8200,
+        "insuranceEstimateWaivable": 3924,
+        "documentFee": 185,
+        "nonresidentSupplement": 39270,
+        "books": 1240,
+        "personal": 2733,
+        "transport": 692
+      },
+      "publishedResidentDirect": 44344,
+      "calculatedNonresidentDirect": 83614,
+      "calculation": "UniPath:44344+39270, not an independently printed nonresident direct subtotal",
+      "publishedNonresidentTotal": 88279,
+      "indirect": 4665,
+      "limitations": "Estimated insurance may differ from final rate; rates may be approved/proposed; no Fall2027 cohort price. Other housing options differ; no scholarship deduction."
+    },
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "International first-year undergraduate; exact cohort, period and applicability in facts",
+    "access": "html-read"
+  },
+  {
+    "id": "university-of-connecticut",
+    "source": "https://international.global.uconn.edu/coa/",
+    "campus": "Storrs profile; CISS all-undergraduate except BGS scope",
+    "topic": "international-funding-cost",
+    "quote": "All Undergraduate Programs except BGS",
+    "facts": {
+      "academicYear": "2026–2027",
+      "currency": "USD",
+      "period": "nine-month academic year, full-time",
+      "category": "F/J sponsored international undergraduate BA/BS/BSE/BFA except BGS, no dependents",
+      "tuition": 39678,
+      "fees": 5224,
+      "tuitionFees": 44902,
+      "roomBoard": 17082,
+      "other": 8665,
+      "living": 25747,
+      "total": 70649,
+      "limitations": "Fees include visa-compliance450persemester; insurance/books/travel/misc already in Other; summer and dependents extra. BGS47981 and exchange12248persemester are separate, not alternatives for ordinary first-year. I20 funding estimate, not exact invoice."
+    },
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "International first-year undergraduate; exact cohort, period and applicability in facts",
+    "access": "html-read"
+  },
+  {
+    "id": "virginia-tech",
+    "source": "https://international.vt.edu/new_students/pre-departure_steps.html",
+    "campus": "Blacksburg",
+    "topic": "calendar-year-funding-cost-reference",
+    "quote": "Cost of Attendance Calendar Year 2026",
+    "facts": {
+      "year": "Calendar year2026; not labelled academic2026–27",
+      "currency": "USD",
+      "tuitionFees": 38914,
+      "roomBoard": 17442,
+      "miscellaneous": 11016,
+      "total": 67372,
+      "extraProgrammeFees": {
+        "Architecture and Design": 1500,
+        "Building Construction": 2000,
+        "Engineering": 2000,
+        "Pamplin Business": 2550
+      },
+      "limitations": "Separate graduate/veterinary tables not used. More current academic-year undergraduate PDF is a lead, not retrieved/installed. Calendar-year reference not a Fall2027 budget or all programme costs."
+    },
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "International first-year undergraduate; exact cohort, period and applicability in facts",
+    "access": "html-read"
+  },
+  {
+    "id": "wabash-college",
+    "topic": "photo-search-review",
+    "source": "https://commons.wikimedia.org/wiki/Category:Wabash_College",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus image search; metadata/visual/licence not verified",
+    "campus": "Crawfordsville",
+    "access": "html-read",
+    "quote": "WabashMall.JPG",
+    "facts": {
+      "candidateFiles": [
+        "File:WabashMall.JPG",
+        "File:ChapelSing.jpg"
+      ],
+      "dimensions": [
+        "3072x2304",
+        "3600x2400"
+      ],
+      "author": null,
+      "license": null,
+      "installed": false,
+      "limitations": "Category identifies potential modern campus photos, not permission/licence or actual visual verification. Both linked file pages returned cache miss; restricted shell cannot obtain image binaries. No absence-of-free-photo claim."
+    }
+  },
+  {
+    "id": "wabash-college",
+    "topic": "photo-search-review",
+    "source": "https://commons.wikimedia.org/wiki/File:WabashMall.JPG",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus image search; metadata/visual/licence not verified",
+    "campus": "Crawfordsville",
+    "access": "unavailable-cache-miss",
+    "quote": "",
+    "facts": null
+  },
+  {
+    "id": "wabash-college",
+    "topic": "photo-search-review",
+    "source": "https://commons.wikimedia.org/wiki/File:ChapelSing.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus image search; metadata/visual/licence not verified",
+    "campus": "Crawfordsville",
+    "access": "unavailable-cache-miss",
+    "quote": "",
+    "facts": null
   }
 ]

@@ -3215,9 +3215,13 @@
           "notes": {
             "installed": false,
             "permission": null,
-            "remaining": "Найти и проверить подходящий Commons-файл"
+            "remaining": "Кандидаты найдены в Commons, но страницы файлов недоступны: автор, лицензия и изображение не проверены"
           },
-          "evidence": []
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/Category:Wabash_College",
+            "https://commons.wikimedia.org/wiki/File:WabashMall.JPG",
+            "https://commons.wikimedia.org/wiki/File:ChapelSing.jpg"
+          ]
         }
       }
     },

@@ -104,6 +104,16 @@ module.exports=function(env){
      nbMerit.entryYear===null&&U.awardDates(rutgers,nbMerit).length===0&&budget(rutgers,100000).status==='unknown',
      'Rutgers international merit retains campus/visa/school, college renewal and unconfirmed award date; no guaranteed net price');
   var davis=U.uniById('university-of-california-davis'),davisMerit=U.meritList(davis).filter(function(a){return a.id==='davis-campus-scholarships';})[0];
+  ok(U.budgetAmount(davis)===88279&&U.billedAmount(davis)===null&&davis.costs.billedSubtotal===null&&U.tuitionAmount(davis)===null&&
+     davis.costs.status==='previous-cycle'&&U.costArithmetic(davis).length===0&&
+     /UniPath calculates/.test(davis.costs.note)&&/39,270/.test(davis.costs.note)&&
+     !DB.match.annualCost[davis.id]&&[null,0,100000].every(function(b){return budget(davis,b).status==='unknown';}),
+     'Davis cohort COA retains its supplement and historical status; a UniPath-calculated subtotal is not assigned to a university-published billing field');
+  ok(U.budgetAmount(conn)===70649&&U.tuitionAmount(conn)===39678&&conn.costs.billedSubtotal===null&&
+     conn.costs.status==='previous-cycle'&&U.costArithmetic(conn).length===0&&
+     /nine months/.test(conn.costs.studentCategory)&&/already include/.test(conn.costs.note)&&
+     /separate BGS/.test(conn.costs.note)&&!DB.match.annualCost[conn.id]&&budget(conn,100000).status==='unknown',
+     'UConn nine-month international funding estimate excludes BGS/exchange substitution and double-counted visa or insurance fees; it is not an exact current invoice');
   ok(davisMerit&&davisMerit.amount===null&&davisMerit.entryYear===null&&
      /each donor award/.test(davisMerit.eligibility)&&/continuing students/.test(davisMerit.note)&&
      U.awardDates(davis,davisMerit).length===0&&!U.awardKind(davis),

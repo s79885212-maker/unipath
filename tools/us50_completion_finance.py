@@ -2,6 +2,7 @@
 import json,pathlib
 from ca50_gaps import load,save
 from us200_std import L,flush
+from us200 import costs
 ROOT=pathlib.Path(__file__).resolve().parent.parent
 sources=json.loads((ROOT/'research/us-expansion-50-sources.json').read_text(encoding='utf-8'))
 path=ROOT/'data/universities.us3.js';head,rows,tail=load(str(path));byid={r['id']:r for r in rows}
@@ -53,5 +54,40 @@ award=dict(id='davis-campus-scholarships',category='merit',basis='merit',name=L(
  'Поступающие используют заявку UC; дополнительные материалы — только по запросу. Отбор конкурсный, суммы и продление зависят от конкретной награды. Общая формулировка GPA не переведена в порог узбекских школьных оценок. 7 января 2026 относится к продолжающим обучение, не к поступлению осенью 2027. Международная доступность Regents/Provost и крупнейшая применимая награда ещё проверяются; срок Regents 2 декабря без установленного года не записан как срок 2027. Помощь из стоимости не вычтена.'))
 u['scholarships']['merit']=[x for x in u['scholarships']['merit'] if x.get('id')!=award['id']]+[award];link(u,s)
 for topic in ('named-awards-reference','regents-application-scope'):link(u,evidence(u['id'],topic))
+
+u=byid['university-of-california-davis'];s=evidence(u['id'],'cohort-cost-components')
+u['costs']=costs('2026–2027',s['source'],s['verified'],
+ L('Nonresident first enrolled 2026–2027, university-managed residence hall, three academic quarters','Нерезидент, первое поступление в 2026–2027, университетское общежитие, три учебных квартала'),
+ [(L('Systemwide tuition and fees','Общесистемное обучение и сборы'),15588,'billed'),
+  (L('Campus-based fees','Кампусные сборы'),2490,'billed'),
+  (L('Nonresident supplemental tuition','Доплата за обучение для нерезидентов'),39270,'billed'),
+  (L('Residence hall housing','Жильё в общежитии'),13957,'billed'),
+  (L('Campus food','Питание в кампусе'),8200,'billed'),
+  (L('Health insurance — estimated, waivable with qualifying cover','Медицинская страховка — смета, возможен отказ при подходящем покрытии'),3924,'billed'),
+  (L('Document fee','Документальный сбор'),185,'billed'),
+  (L('Books and supplies','Книги и материалы'),1240,'estimate'),
+  (L('Personal expenses','Личные расходы'),2733,'estimate'),
+  (L('Transportation','Транспорт'),692,'estimate')],
+ L('Previous-cohort residence-hall cost estimate','Смета предыдущего набора с проживанием в общежитии'),
+ L('Published nonresident COA: USD 88,279; resident direct costs: USD 44,344, plus USD 39,270 nonresident tuition','Опубликованная COA нерезидента: 88 279 USD; прямые расходы резидента: 44 344 USD, плюс обучение нерезидента 39 270 USD'),
+ L('Published residence-hall COA before aid; subtotal calculated separately by UniPath','Опубликованная COA для общежития до помощи; подытог отдельно рассчитан UniPath'),
+ budget=88279,status='previous-cycle',
+ note=L('The university publishes total nonresident COA USD 88,279 for the Fall 2026 cohort, three quarters from mid-September to mid-June. UniPath calculates the direct subtotal USD 83,614 as the published resident direct subtotal USD 44,344 plus USD 39,270 nonresident supplement; this subtotal is not separately printed by the university. The USD 15,588 line combines tuition and student services and is not tuition-only. Residence-hall housing requires an official university housing contract. Other housing choices differ. Insurance USD 3,924 is an estimate, may differ from the final approved rate and may be waived with qualifying coverage. Published/proposed rates are subject to final approval. No Fall 2027 price or current budget match is inferred; competitive aid is not deducted.',
+ 'Университет публикует полную COA нерезидента 88 279 USD для набора осени 2026, за три квартала с середины сентября до середины июня. UniPath рассчитывает прямой подытог 83 614 USD: опубликованные прямые расходы резидента 44 344 плюс доплата нерезидента 39 270; университет не печатает этот подытог отдельно. Строка 15 588 объединяет обучение и студенческие услуги, это не только tuition. Для сметы общежития нужен официальный договор с университетским Housing. Другие варианты жилья отличаются. Страховка 3 924 USD — сметная, может отличаться от окончательной ставки; возможен отказ при подходящем покрытии. Опубликованные/предложенные ставки подлежат окончательному утверждению. Цена осени 2027 и текущее бюджетное совпадение не выводятся; конкурсная помощь не вычитается.'))
+u['costs']['breakdown']['period']='year';u['links']['cost']=s['source'];link(u,s)
+
+u=byid['university-of-connecticut'];s=evidence(u['id'],'international-funding-cost')
+u['costs']=costs('2026–2027',s['source'],s['verified'],
+ L('Full-time international undergraduate on UConn F/J sponsorship, BA/BS/BSE/BFA except BGS, nine months, no dependents','Очный иностранный бакалавр с визовым сопровождением UConn F/J, BA/BS/BSE/BFA кроме BGS, девять месяцев, без иждивенцев'),
+ [(L('Tuition','Обучение'),39678,'estimate'),(L('Fees including visa compliance','Сборы, включая визовое сопровождение'),5224,'estimate'),
+  (L('Room and board','Жильё и питание'),17082,'estimate'),
+  (L('Books, travel, insurance and miscellaneous expenses','Книги, дорога, страховка и прочие расходы'),8665,'estimate')],
+ L('Previous-cycle international funding estimate','Международная финансовая смета предыдущего цикла'),
+ L('Published CISS undergraduate COA: USD 70,649 for nine months','Опубликованная CISS COA бакалавриата: 70 649 USD за девять месяцев'),
+ L('International full-time I-20/DS-2019 funding estimate before aid, not an exact bill','Международная финансовая смета I-20/DS-2019 для полной нагрузки до помощи, не точный счёт'),
+ tuition=39678,budget=70649,status='previous-cycle',
+ note=L('Published 2026–2027 CISS estimate, not Fall 2027 pricing. Tuition and fees USD 44,902 plus living expenses USD 25,747 equals USD 70,649. Fees already include visa compliance USD 450 each semester; do not add it again. Books, travel, insurance and miscellaneous costs are already grouped in USD 8,665. All figures are funding estimates, not exact charges. Summer study and accompanying dependents require extra funding. The separate BGS USD 47,981 and exchange USD 12,248 per semester are not prices for the ordinary bachelor route. No stipend or competitive award is deducted, and this previous-cycle figure cannot confirm a Fall 2027 budget.',
+ 'Опубликованная смета CISS 2026–2027, не цены осени 2027. Обучение и сборы 44 902 плюс жизнь 25 747 дают 70 649 USD. Сборы уже включают визовое сопровождение по 450 USD за семестр; повторно не добавляется. Книги, дорога, страховка и прочее уже объединены в 8 665 USD. Все суммы — финансовая смета, не точные счета. Летнее обучение и иждивенцы требуют дополнительных средств. Отдельные BGS 47 981 и exchange 12 248 USD за семестр не являются ценами обычного бакалаврского маршрута. Стипендия и конкурсная награда не вычитаются; прошлый цикл не подтверждает бюджет осени 2027.'))
+u['costs']['breakdown']['period']='year';u['links']['cost']=s['source'];link(u,s)
 save(head,rows,tail,str(path));flush()
 print('Reviewed UCI component conflict and two scoped international scholarship schemes; annualCost unchanged')
