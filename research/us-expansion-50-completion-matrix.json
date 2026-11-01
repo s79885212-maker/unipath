@@ -1,0 +1,3906 @@
+{
+  "base": "a8d5be9184207ed2eb2712f5b51a0850e1661f31",
+  "branch": "codex/us50-completion",
+  "status": "in-progress",
+  "entries": [
+    {
+      "order": 1,
+      "id": "university-of-california-davis",
+      "name": "University of California, Davis",
+      "batch": 1,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "8 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://www.ucdavis.edu/majors/computer-science",
+            "https://catalog.ucdavis.edu/departments-programs-degrees/"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://www.ucdavis.edu/admissions/undergraduate/international"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://www.ucdavis.edu/admissions/undergraduate/international"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "not-used",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://www.ucdavis.edu/admissions/undergraduate/first-year/requirements",
+            "https://www.ucdavis.edu/admissions/undergraduate/international/exams-visas"
+          ]
+        },
+        "cost": {
+          "status": "partial",
+          "notes": {
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": [
+            "https://financialaid.ucdavis.edu/undergraduate/cost/2627-entering"
+          ]
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:University_of_California,_Davis_campus_1_2024-03-26.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 2,
+      "id": "university-of-california-irvine",
+      "name": "University of California, Irvine",
+      "batch": 1,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "10 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://catalogue.uci.edu/donaldbrenschoolofinformationandcomputersciences/departmentofcomputerscience/computerscience_bs/",
+            "https://catalogue.uci.edu/undergraduatedegrees/"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://catalogue.uci.edu/informationforprospectivestudents/undergraduateadmissions/"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://catalogue.uci.edu/informationforprospectivestudents/undergraduateadmissions/"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "not-used",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": []
+        },
+        "cost": {
+          "status": "unknown",
+          "notes": {
+            "status": null,
+            "academicYear": null,
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": [
+            "https://www.ofas.uci.edu/cost/undergraduate-costs/new-students.php"
+          ]
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Aldrich_Park,_UCI.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 3,
+      "id": "university-of-illinois-urbana-champaign",
+      "name": "University of Illinois Urbana-Champaign",
+      "batch": 1,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "9 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://catalog.illinois.edu/undergraduate/engineering/computer-science-bs/",
+            "https://catalog.illinois.edu/undergraduate/"
+          ]
+        },
+        "language": {
+          "status": "partial",
+          "notes": {
+            "confirmedFields": [
+              "computer-science",
+              "business",
+              "economics",
+              "mathematics",
+              "biology",
+              "engineering",
+              "psychology",
+              "humanities",
+              "arts"
+            ],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": [
+            "https://www.registrar.illinois.edu/customized-letter-requests/"
+          ]
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://www.admissions.illinois.edu/international-requirements/"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://www.admissions.illinois.edu/international-requirements/"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "optional",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://www.admissions.illinois.edu/international-requirements/"
+          ]
+        },
+        "cost": {
+          "status": "partial",
+          "notes": {
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": [
+            "https://www.admissions.illinois.edu/tuition/"
+          ]
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Foellinger_Auditorium_-_UIUC_-_DSC09127.JPG"
+          ]
+        }
+      }
+    },
+    {
+      "order": 4,
+      "id": "university-of-texas-at-austin",
+      "name": "University of Texas at Austin",
+      "batch": 1,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "8 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://www.cs.utexas.edu/undergraduate/core-degrees",
+            "https://catalog.utexas.edu/undergraduate/degree-programs/"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://admissions.utexas.edu/apply/international-students/"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://admissions.utexas.edu/apply/international-students/"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "required-alternatives",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://admissions.utexas.edu/apply/international-students/"
+          ]
+        },
+        "cost": {
+          "status": "partial",
+          "notes": {
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": [
+            "https://onestop.utexas.edu/managing-costs/cost-tuition-rates/cost-of-attendance/"
+          ]
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:University_of_texas_at_austin_main_building_2014.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 5,
+      "id": "university-of-wisconsin-madison",
+      "name": "University of Wisconsin-Madison",
+      "batch": 1,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "6 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://guide.wisc.edu/undergraduate/letters-science/computer-sciences/computer-sciences-bs/",
+            "https://guide.wisc.edu/undergraduate/"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://admissions.wisc.edu/international/"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "partial",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://admissions.wisc.edu/international/"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "optional",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": []
+        },
+        "cost": {
+          "status": "partial",
+          "notes": {
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": [
+            "https://bursar.wisc.edu/tuition-and-fees/fall-2026-increase"
+          ]
+        },
+        "awards": {
+          "status": "partial",
+          "notes": {
+            "namedLargest": "King-Morgridge Scholars Program",
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": [
+            "https://admissions.wisc.edu/international-scholarships/"
+          ]
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:University_of_Wisconsin–Madison_August_2022_09_(Bascom_Hall).jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 6,
+      "id": "rutgers-university-new-brunswick",
+      "name": "Rutgers University-New Brunswick",
+      "batch": 1,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "8 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://www.sasundergrad.rutgers.edu/majors-and-core-curriculum/major/major-minor-details/computer-science-b-s",
+            "https://sasundergrad.sas.rutgers.edu/majors-and-core-curriculum/major/list-of-majors-and-minors"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://admissions.rutgers.edu/apply/international-applicants"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://admissions.rutgers.edu/apply/international-applicants"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "optional",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": []
+        },
+        "cost": {
+          "status": "partial",
+          "notes": {
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": [
+            "https://admissions.newbrunswick.rutgers.edu/costs-and-aid/tuition-fees"
+          ]
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Old_Queens_Rutgers.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 7,
+      "id": "university-of-california-santa-barbara",
+      "name": "University of California, Santa Barbara",
+      "batch": 1,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "10 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://admissions.sa.ucsb.edu/majors",
+            "https://catalog.ucsb.edu/programs/BAECACC/program-requirements-kn5uw"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://admissions.sa.ucsb.edu/international"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://admissions.sa.ucsb.edu/international"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "not-used",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://admissions.sa.ucsb.edu/english-language-proficiency"
+          ]
+        },
+        "cost": {
+          "status": "partial",
+          "notes": {
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": [
+            "https://www.finaid.ucsb.edu/costs-estimated-aid/cost-attendance/ucsb-undergraduate-cost-attendance-budget"
+          ]
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:UC_Santa_Barbara_Library_(35399729253).jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 8,
+      "id": "university-of-georgia",
+      "name": "University of Georgia",
+      "batch": 1,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "6 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://bulletin.uga.edu/Program/Details/73962",
+            "https://www.terry.uga.edu/majors-and-minor/accounting/",
+            "https://www.terry.uga.edu/majors-and-minor/economics/",
+            "https://www.math.uga.edu/",
+            "https://bulletin.uga.edu/Program/Details/45780?IDc=ARTS",
+            "https://bulletin.uga.edu/Program/Details/20122?IDc=FENGR"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://admissions.uga.edu/apply/other-applicants/international-students/"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://admissions.uga.edu/apply/other-applicants/international-students/"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "required",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://admissions.uga.edu/apply/other-applicants/international-students/"
+          ]
+        },
+        "cost": {
+          "status": "partial",
+          "notes": {
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": [
+            "https://osfa.uga.edu/costs/"
+          ]
+        },
+        "awards": {
+          "status": "partial",
+          "notes": {
+            "namedLargest": "Foundation Fellowship",
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": [
+            "https://honors.uga.edu/scholarships/prospective-students/foundation-fellowship/"
+          ]
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:UGA_Chapel.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 9,
+      "id": "virginia-tech",
+      "name": "Virginia Tech",
+      "batch": 1,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "6 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://www.vt.edu/academics/majors/computer-science.html",
+            "https://www.vt.edu/academics/majors/accounting-and-information-systems.html",
+            "https://www.vt.edu/academics/majors/economics.html",
+            "https://www.vt.edu/academics/majors/mathematics.html",
+            "https://www.vt.edu/academics/majors/biological-sciences.html",
+            "https://www.vt.edu/academics/majors/mechanical-engineering.html"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://www.vt.edu/admissions/international/checklist.html"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://www.vt.edu/admissions/international/checklist.html"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "optional",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": []
+        },
+        "cost": {
+          "status": "unknown",
+          "notes": {
+            "status": null,
+            "academicYear": null,
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": [
+            "https://finaid.vt.edu/undergraduate/coa.html"
+          ]
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Burruss_Hall,_Virginia_Tech.JPG"
+          ]
+        }
+      }
+    },
+    {
+      "order": 10,
+      "id": "pennsylvania-state-university-university-park",
+      "name": "Pennsylvania State University-University Park",
+      "batch": 1,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "8 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://bulletins.psu.edu/undergraduate/colleges/engineering/computer-science-bs/",
+            "https://bulletins.psu.edu/programs/"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://www.psu.edu/resources/international-students/admission-requirements"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "partial",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://www.psu.edu/resources/international-students/admission-requirements"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "conditional",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": []
+        },
+        "cost": {
+          "status": "partial",
+          "notes": {
+            "status": "confirmed",
+            "academicYear": "2027–2028",
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": [
+            "https://tuition.psu.edu/rates-effective-2027-fall-semester"
+          ]
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Penn_state_old_main_summer.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 11,
+      "id": "university-of-pittsburgh",
+      "name": "University of Pittsburgh",
+      "batch": 2,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "6 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://www.academics.pitt.edu/undergraduate-programs"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://admissions.pitt.edu/international/international-first-year-students/"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://admissions.pitt.edu/international/international-first-year-students/"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": null,
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://admissions.pitt.edu/international/international-first-year-students/"
+          ]
+        },
+        "cost": {
+          "status": "unknown",
+          "notes": {
+            "status": null,
+            "academicYear": null,
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": [
+            "https://www.tuition.pitt.edu/undergraduate/tuition/pittsburgh/school-business"
+          ]
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Cathedral_of_Learning_in_the_University_of_Pittsburgh_-_Mar_2025.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 12,
+      "id": "university-of-california-merced",
+      "name": "University of California, Merced",
+      "batch": 2,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://engr-advising.ucmerced.edu/node/6"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://admissions.ucmerced.edu/apply"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://admissions.ucmerced.edu/apply"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "not-used",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://admissions.ucmerced.edu/apply"
+          ]
+        },
+        "cost": {
+          "status": "partial",
+          "notes": {
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": [
+            "https://financialaid.ucmerced.edu/node/61"
+          ]
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:UC_Merced_COB1_and_COB2.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 13,
+      "id": "binghamton-university",
+      "name": "Binghamton University",
+      "batch": 2,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://www.binghamton.edu/apps/academics/program/ug/computer-science"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://www.binghamton.edu/admissions/undergraduate/apply/international/first-year.html"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://www.binghamton.edu/admissions/undergraduate/apply/international/first-year.html"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "optional",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://www.binghamton.edu/admissions/undergraduate/apply/international/first-year.html"
+          ]
+        },
+        "cost": {
+          "status": "partial",
+          "notes": {
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": [
+            "https://www.binghamton.edu/admissions/undergraduate/cost/"
+          ]
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Couper_Building_at_Binghamton_University.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 14,
+      "id": "indiana-university-bloomington",
+      "name": "Indiana University Bloomington",
+      "batch": 2,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://luddy.iu.edu/academics/undergraduate/bs-computer-science.html"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://bloomington.iu.edu/admissions/apply/international/freshman/"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://bloomington.iu.edu/admissions/apply/international/freshman/"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "optional",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://bloomington.iu.edu/admissions/apply/international/freshman/"
+          ]
+        },
+        "cost": {
+          "status": "unknown",
+          "notes": {
+            "status": null,
+            "academicYear": null,
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": []
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Sample_Gates,_Indiana_University_Bloomington,_2010.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 15,
+      "id": "north-carolina-state-university",
+      "name": "North Carolina State University",
+      "batch": 2,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://catalog.ncsu.edu/undergraduate/engineering/computer-science/computer-science-bs/"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://admissions.ncsu.edu/apply/international/first-year/"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://admissions.ncsu.edu/apply/international/first-year/"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "conditional",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://admissions.ncsu.edu/apply/international/first-year/"
+          ]
+        },
+        "cost": {
+          "status": "partial",
+          "notes": {
+            "status": "confirmed",
+            "academicYear": "2027–2028",
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": [
+            "https://admissions.ncsu.edu/apply/international/first-year/"
+          ]
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:The_Memorial_Belltower_in_NC_State,_September_2022.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 16,
+      "id": "rutgers-university-newark",
+      "name": "Rutgers University-Newark",
+      "batch": 2,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "4 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://sasn.rutgers.edu/academics/undergraduate-majors-minors"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://admissions.rutgers.edu/apply/first-year-applicants"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://admissions.rutgers.edu/apply/first-year-applicants"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "conditional",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://admissions.rutgers.edu/apply/first-year-applicants"
+          ]
+        },
+        "cost": {
+          "status": "partial",
+          "notes": {
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": [
+            "https://admissions.newark.rutgers.edu/costs-and-aid/tuition-fees"
+          ]
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Rutgers-Newark.JPG"
+          ]
+        }
+      }
+    },
+    {
+      "order": 17,
+      "id": "university-of-connecticut",
+      "name": "University of Connecticut",
+      "batch": 2,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://computing.engineering.uconn.edu/undergraduate/major-programs/computer-science/"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://admissions.uconn.edu/apply/international/first-year/"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://admissions.uconn.edu/apply/international/first-year/"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "optional",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://admissions.uconn.edu/apply/international/first-year/"
+          ]
+        },
+        "cost": {
+          "status": "partial",
+          "notes": {
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": [
+            "https://international.global.uconn.edu/coa/"
+          ]
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Wilbur_Cross_Library,_UConn,_Storrs_CT.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 18,
+      "id": "clemson-university",
+      "name": "Clemson University",
+      "batch": 2,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://www.clemson.edu/cecas/departments/computing/academics/undergrad/degrees/cs-bs.html"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://www.clemson.edu/admissions/undergraduate-admissions/apply/international.html"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://www.clemson.edu/admissions/undergraduate-admissions/apply/international.html"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "optional",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://www.clemson.edu/admissions/undergraduate-admissions/apply/international.html"
+          ]
+        },
+        "cost": {
+          "status": "conflict",
+          "notes": {
+            "status": "conflict",
+            "academicYear": "2026–2027",
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": [
+            "https://www.clemson.edu/financial-aid/cost/estimated-cost-of-attendance.html"
+          ]
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Tillman_Hall-Clemson_University.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 19,
+      "id": "colorado-school-of-mines",
+      "name": "Colorado School of Mines",
+      "batch": 2,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://www.mines.edu/academics/undergraduate-academics/majors/applied-mathematics-and-statistics-major/"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://undergraduate-admissions.mines.edu/international-first-year-requirements/"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://undergraduate-admissions.mines.edu/international-first-year-requirements/"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": null,
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": []
+        },
+        "cost": {
+          "status": "partial",
+          "notes": {
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": [
+            "https://finaid.mines.edu/cost-of-attendance-undergraduate/"
+          ]
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:GuggenheimHall_01Oct2017.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 20,
+      "id": "university-of-california-riverside",
+      "name": "University of California, Riverside",
+      "batch": 2,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://www1.cs.ucr.edu/programs/undergraduate/computer-science"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://discover.ucr.edu/international"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://discover.ucr.edu/international"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "not-used",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://discover.ucr.edu/international"
+          ]
+        },
+        "cost": {
+          "status": "unknown",
+          "notes": {
+            "status": null,
+            "academicYear": null,
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": []
+        },
+        "awards": {
+          "status": "partial",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": [
+            "https://discover.ucr.edu/international"
+          ]
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:UC_Riverside_campus_as_viewed_from_Box_Spring_Mountain.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 21,
+      "id": "new-jersey-institute-of-technology",
+      "name": "New Jersey Institute of Technology",
+      "batch": 3,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://www.njit.edu/academics/degree/bs-computer-science"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://www.njit.edu/admissions/how-apply-international-students"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://www.njit.edu/admissions/how-apply-international-students"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": null,
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://www.njit.edu/admissions/how-apply-international-students"
+          ]
+        },
+        "cost": {
+          "status": "partial",
+          "notes": {
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": [
+            "https://catalog.njit.edu/undergraduate/admissions-financial-aid/tuition-fees/"
+          ]
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:NJIT-Eberhardt-Hall.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 22,
+      "id": "university-at-buffalo",
+      "name": "University at Buffalo",
+      "batch": 3,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://www.buffalo.edu/admissions/academics/programs/computer-science.html"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://www.buffalo.edu/admissions/apply/international/first-year.special-requirements.html"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://www.buffalo.edu/admissions/apply/international/first-year.special-requirements.html"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "optional",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://www.buffalo.edu/admissions/apply/international/first-year.special-requirements.html",
+            "https://www.buffalo.edu/admissions/apply/international/first-year.standardized-tests.html",
+            "https://www.buffalo.edu/admissions/apply/international/first-year.english-proficiency.html"
+          ]
+        },
+        "cost": {
+          "status": "conflict",
+          "notes": {
+            "status": "conflict",
+            "academicYear": null,
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": [
+            "https://www.buffalo.edu/international-student-services/for-new-students/request-your-i-20/estimated-expenses.html"
+          ]
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Hayes_hall_on_UB_south_campus.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 23,
+      "id": "university-of-delaware",
+      "name": "University of Delaware",
+      "batch": 3,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://www.cis.udel.edu/academics/undergraduate-programs/"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://www.udel.edu/apply/undergraduate-admissions/apply-to-ud/international-admissions/"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://www.udel.edu/apply/undergraduate-admissions/apply-to-ud/international-admissions/"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "optional",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://www.udel.edu/apply/undergraduate-admissions/apply-to-ud/international-admissions/"
+          ]
+        },
+        "cost": {
+          "status": "partial",
+          "notes": {
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": [
+            "https://www.udel.edu/apply/undergraduate-admissions/financing-your-degree/international-students/"
+          ]
+        },
+        "awards": {
+          "status": "partial",
+          "notes": {
+            "namedLargest": "Eugene du Pont Memorial Distinguished Scholar Scholarship",
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": [
+            "https://www.udel.edu/apply/undergraduate-admissions/explore-majors-and-enrichment/honors/"
+          ]
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:UDMemorialHall1.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 24,
+      "id": "rutgers-university-camden",
+      "name": "Rutgers University-Camden",
+      "batch": 3,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://camden.rutgers.edu/academics/programs?page=1&program_type=undergraduate"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://admissions.rutgers.edu/apply/first-year-applicants"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://admissions.rutgers.edu/apply/first-year-applicants"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "conditional",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://admissions.rutgers.edu/apply/first-year-applicants",
+            "https://admissions.rutgers.edu/apply/international-applicants"
+          ]
+        },
+        "cost": {
+          "status": "partial",
+          "notes": {
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": [
+            "https://admissions.newark.rutgers.edu/costs-and-aid/tuition-fees"
+          ]
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Ru-camden-campus_walk.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 25,
+      "id": "university-of-illinois-chicago",
+      "name": "University of Illinois Chicago",
+      "batch": 3,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://catalog.uic.edu/ucat/colleges-depts/engineering/cs/bs-cs/"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://admissions.uic.edu/undergraduate/requirements-deadlines/international-requirements"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://admissions.uic.edu/undergraduate/requirements-deadlines/international-requirements"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "optional",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://admissions.uic.edu/undergraduate/requirements-deadlines/international-requirements",
+            "https://admissions.uic.edu/undergraduate/requirements-deadlines/first-year-requirements/test-optional-faq"
+          ]
+        },
+        "cost": {
+          "status": "unknown",
+          "notes": {
+            "status": null,
+            "academicYear": null,
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": []
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:UIC_UniversityHall.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 26,
+      "id": "university-of-missouri",
+      "name": "University of Missouri",
+      "batch": 3,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://engineering.missouri.edu/degree/bachelor-of-science-in-computer-science/"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://admissions.missouri.edu/apply/international/how-to-apply/"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://admissions.missouri.edu/apply/international/how-to-apply/"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "optional",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://admissions.missouri.edu/apply/international/how-to-apply/",
+            "https://admissions.missouri.edu/apply/international/english-language-requirements/"
+          ]
+        },
+        "cost": {
+          "status": "unknown",
+          "notes": {
+            "status": null,
+            "academicYear": null,
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": []
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Jesse_Hall_and_the_Columns_at_Mizzou.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 27,
+      "id": "auburn-university",
+      "name": "Auburn University",
+      "batch": 3,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://eng.auburn.edu/cse/academics/undergraduate/computer-science.html"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://www.auburn.edu/admissions/prospective-students/international/index.php"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://www.auburn.edu/admissions/prospective-students/international/index.php"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "required",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://www.auburn.edu/admissions/prospective-students/international/index.php"
+          ]
+        },
+        "cost": {
+          "status": "conflict",
+          "notes": {
+            "status": "conflict",
+            "academicYear": "2027–2028",
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": [
+            "https://www.auburn.edu/academic/international/isss/cost.php"
+          ]
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Auburn_campus_with_Samford_Hall.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 28,
+      "id": "florida-international-university",
+      "name": "Florida International University",
+      "batch": 3,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://cec.fiu.edu/degrees-programs/undergraduate/bs-in-computer-science/"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://admissions.fiu.edu/international/incoming-freshmen/index.html"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://admissions.fiu.edu/international/incoming-freshmen/index.html"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "required-alternatives",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://admissions.fiu.edu/international/incoming-freshmen/index.html"
+          ]
+        },
+        "cost": {
+          "status": "unknown",
+          "notes": {
+            "status": null,
+            "academicYear": null,
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": []
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Eastward_view_of_FIU's_campus.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 29,
+      "id": "university-of-south-florida",
+      "name": "University of South Florida",
+      "batch": 3,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://www.usf.edu/ai-cybersecurity-computing/academics/undergraduate/bscs.aspx"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://www.usf.edu/admissions/international/admission-information/undergraduate/freshmen-how-to-apply.aspx"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://www.usf.edu/admissions/international/admission-information/undergraduate/freshmen-how-to-apply.aspx"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "required-alternatives",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://www.usf.edu/admissions/international/admission-information/undergraduate/freshmen-how-to-apply.aspx"
+          ]
+        },
+        "cost": {
+          "status": "unknown",
+          "notes": {
+            "status": null,
+            "academicYear": null,
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": []
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Marshallstudentcenter4_usf_tampa.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 30,
+      "id": "university-of-california-santa-cruz",
+      "name": "University of California, Santa Cruz",
+      "batch": 3,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://admissions.ucsc.edu/programs/computer-science"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://admissions.ucsc.edu/international-first-year-students-admissions-requirements"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://admissions.ucsc.edu/international-first-year-students-admissions-requirements"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "not-used",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://admissions.ucsc.edu/international-first-year-students-admissions-requirements",
+            "https://admissions.ucsc.edu/posts/english-proficiency-requirement"
+          ]
+        },
+        "cost": {
+          "status": "unknown",
+          "notes": {
+            "status": null,
+            "academicYear": null,
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": []
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:McHenry_Library.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 31,
+      "id": "university-of-colorado-boulder",
+      "name": "University of Colorado Boulder",
+      "batch": 4,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://www.colorado.edu/cs/academics/undergraduate-programs/bachelor-science"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://www.colorado.edu/admissions/process/international/apply"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://www.colorado.edu/admissions/process/international/apply"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "optional",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://www.colorado.edu/admissions/process/international/apply",
+            "https://www.colorado.edu/admissions/process/international/plan/english-proficiency"
+          ]
+        },
+        "cost": {
+          "status": "unknown",
+          "notes": {
+            "status": null,
+            "academicYear": null,
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": []
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Old_Main_-_Colorado.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 32,
+      "id": "university-of-new-hampshire",
+      "name": "University of New Hampshire",
+      "batch": 4,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://www.unh.edu/program/bachelor-science/computer-science"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://admissions.unh.edu/apply/international-students"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://admissions.unh.edu/apply/international-students"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "optional",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://admissions.unh.edu/apply/international-students"
+          ]
+        },
+        "cost": {
+          "status": "unknown",
+          "notes": {
+            "status": null,
+            "academicYear": null,
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": []
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Thompson_Hall,_UNH_1.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 33,
+      "id": "university-of-tennessee-knoxville",
+      "name": "University of Tennessee, Knoxville",
+      "batch": 4,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://eecs.utk.edu/undergraduate/computer-science/"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://admissions.utk.edu/undergraduate-application/international-students/"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://admissions.utk.edu/undergraduate-application/international-students/"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "conditional",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://admissions.utk.edu/undergraduate-application/international-students/"
+          ]
+        },
+        "cost": {
+          "status": "unknown",
+          "notes": {
+            "status": null,
+            "academicYear": null,
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": []
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Ayres_Hall,_University_of_Tennessee_at_Knoxville,_Fort_Sanders,_Knoxville,_TN_-_52497742705.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 34,
+      "id": "wake-forest-university",
+      "name": "Wake Forest University",
+      "batch": 4,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://admissions.wfu.edu/academics/majors-minors/computer-science/"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://admissions.wfu.edu/become-a-deacon/international/"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://admissions.wfu.edu/become-a-deacon/international/"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "optional",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://admissions.wfu.edu/become-a-deacon/international/"
+          ]
+        },
+        "cost": {
+          "status": "unknown",
+          "notes": {
+            "status": null,
+            "academicYear": null,
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": []
+        },
+        "awards": {
+          "status": "partial",
+          "notes": {
+            "namedLargest": "Stamps Scholarship",
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": [
+            "https://financialaid.wfu.edu/types-of-aid/scholarships/"
+          ]
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Wait.chapel.png"
+          ]
+        }
+      }
+    },
+    {
+      "order": 35,
+      "id": "george-washington-university",
+      "name": "George Washington University",
+      "batch": 4,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://cs.engineering.gwu.edu/bachelor-science-program"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://undergraduate.admissions.gwu.edu/apply/international-applicants"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://undergraduate.admissions.gwu.edu/apply/international-applicants"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "conditional",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://undergraduate.admissions.gwu.edu/apply/international-applicants",
+            "https://undergraduate.admissions.gwu.edu/apply/test-optional"
+          ]
+        },
+        "cost": {
+          "status": "partial",
+          "notes": {
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": [
+            "https://www.gwu.edu/cost-gw-education"
+          ]
+        },
+        "awards": {
+          "status": "partial",
+          "notes": {
+            "namedLargest": "You Are Welcome Here",
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": [
+            "https://undergraduate.admissions.gwu.edu/financial-aid/international-student-aid"
+          ]
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:University_Yard_George_Washington_University.JPG"
+          ]
+        }
+      }
+    },
+    {
+      "order": 36,
+      "id": "stevens-institute-of-technology",
+      "name": "Stevens Institute of Technology",
+      "batch": 4,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://www.stevens.edu/program/computer-science-bachelor-degree"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://www.stevens.edu/admission-aid/undergraduate-admissions/first-year-students"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://www.stevens.edu/admission-aid/undergraduate-admissions/first-year-students"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "conditional",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://www.stevens.edu/admission-aid/undergraduate-admissions/first-year-students"
+          ]
+        },
+        "cost": {
+          "status": "partial",
+          "notes": {
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": [
+            "https://www.stevens.edu/admission-aid/tuition-financial-aid/undergraduate-costs-and-aid"
+          ]
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Stevens_Institute_of_Technology_campus.JPG"
+          ]
+        }
+      }
+    },
+    {
+      "order": 37,
+      "id": "baylor-university",
+      "name": "Baylor University",
+      "batch": 4,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://www.ecs.baylor.edu/prospective-undergraduate-students/undergraduate-degree-programs/bscs-computer-science"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://admissions.web.baylor.edu/admission/international/application-process-international-students"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://admissions.web.baylor.edu/admission/international/application-process-international-students"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "optional",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://admissions.web.baylor.edu/admission/international/application-process-international-students"
+          ]
+        },
+        "cost": {
+          "status": "unknown",
+          "notes": {
+            "status": null,
+            "academicYear": null,
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": []
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Patneffhallbaylor.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 38,
+      "id": "marquette-university",
+      "name": "Marquette University",
+      "batch": 4,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://bulletin.marquette.edu/arts-sciences/computer-science/computer-science-bs/"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://www.marquette.edu/oie/prospective-students/application-materials.php"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://www.marquette.edu/oie/prospective-students/application-materials.php"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "optional",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://www.marquette.edu/oie/prospective-students/application-materials.php"
+          ]
+        },
+        "cost": {
+          "status": "partial",
+          "notes": {
+            "status": "not-published",
+            "academicYear": "2027–2028",
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": [
+            "https://www.marquette.edu/central/financial-aid/resources/undergraduate-cost-of-attendance.php"
+          ]
+        },
+        "awards": {
+          "status": "conflict",
+          "notes": {
+            "namedLargest": "Global Scholar Award",
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": [
+            "https://www.marquette.edu/tuition-financial-aid/scholarship-global-scholar.php"
+          ]
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Marquette_University_campus.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 39,
+      "id": "yeshiva-university",
+      "name": "Yeshiva University",
+      "batch": 4,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://yu.smartcatalogiq.com/en/current/university-catalog/undergraduate-programs/yeshiva-college/copy-of-computer-science-artificial-intelligence-bs"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://apply.yu.edu/international"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://apply.yu.edu/international"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "conditional",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://apply.yu.edu/international"
+          ]
+        },
+        "cost": {
+          "status": "unknown",
+          "notes": {
+            "status": null,
+            "academicYear": null,
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": []
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Yeshiva_University_Zysman_Hall_from_south.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 40,
+      "id": "wabash-college",
+      "name": "Wabash College",
+      "batch": 4,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://www.wabash.edu/academics/computer_science/"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://www.wabash.edu/admissions/international"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://www.wabash.edu/admissions/international"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "optional",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://www.wabash.edu/admissions/international"
+          ]
+        },
+        "cost": {
+          "status": "unknown",
+          "notes": {
+            "status": null,
+            "academicYear": null,
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": []
+        },
+        "awards": {
+          "status": "partial",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": [
+            "https://www.wabash.edu/admissions/international/scholarships"
+          ]
+        },
+        "photo": {
+          "status": "unknown",
+          "notes": {
+            "installed": false,
+            "permission": null,
+            "remaining": "Найти и проверить подходящий Commons-файл"
+          },
+          "evidence": []
+        }
+      }
+    },
+    {
+      "order": 41,
+      "id": "hillsdale-college",
+      "name": "Hillsdale College",
+      "batch": 5,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "2 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://www.hillsdale.edu/about/college-profile/"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://www.hillsdale.edu/admissions-aid/admissions-2/application-process-2/"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://www.hillsdale.edu/admissions-aid/admissions-2/application-process-2/"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "optional",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://www.hillsdale.edu/admissions-aid/admissions-2/application-process-2/"
+          ]
+        },
+        "cost": {
+          "status": "unknown",
+          "notes": {
+            "status": null,
+            "academicYear": null,
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": []
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Hillsdale_College-Central_Hall_Exterior.JPG"
+          ]
+        }
+      }
+    },
+    {
+      "order": 42,
+      "id": "brigham-young-university",
+      "name": "Brigham Young University",
+      "batch": 5,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://catalog.byu.edu/programs/34712"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://policy.byu.edu/view/admission-policy"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://policy.byu.edu/view/admission-policy"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": null,
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://policy.byu.edu/view/admission-policy"
+          ]
+        },
+        "cost": {
+          "status": "partial",
+          "notes": {
+            "status": "previous-cycle",
+            "academicYear": "2026–2027",
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": [
+            "https://catalog.byu.edu/policy/tuition-and-fees"
+          ]
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Brigham_Young_University_Campus_-_BYU_-_Provo_-_Utah_in_Autumn.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 43,
+      "id": "university-of-san-francisco",
+      "name": "University of San Francisco",
+      "batch": 5,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://www.usfca.edu/arts-sciences/programs/undergraduate/computer-science"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://www.usfca.edu/admission/undergraduate/international-first-year"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://www.usfca.edu/admission/undergraduate/international-first-year"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "optional",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://www.usfca.edu/admission/undergraduate/international-first-year",
+            "https://www.usfca.edu/admission/undergraduate/english-language-proficiency"
+          ]
+        },
+        "cost": {
+          "status": "unknown",
+          "notes": {
+            "status": null,
+            "academicYear": null,
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": []
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:USFCA_Lower_Campus.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 44,
+      "id": "george-mason-university",
+      "name": "George Mason University",
+      "batch": 5,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://www.gmu.edu/program/computer-science-bs"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://www.gmu.edu/freshman/requirements/international"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://www.gmu.edu/freshman/requirements/international"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "conditional",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://www.gmu.edu/freshman/requirements/international",
+            "https://www.gmu.edu/international/english-language-requirements"
+          ]
+        },
+        "cost": {
+          "status": "unknown",
+          "notes": {
+            "status": null,
+            "academicYear": null,
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": []
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:GMU_Fairfax_Campus.JPG"
+          ]
+        }
+      }
+    },
+    {
+      "order": 45,
+      "id": "university-at-albany-suny",
+      "name": "University at Albany, SUNY",
+      "batch": 5,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://www.albany.edu/computer-science/programs/bs-computer-science"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://www.albany.edu/international-admissions/apply-international-undergraduate-student"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://www.albany.edu/international-admissions/apply-international-undergraduate-student"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "optional",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://www.albany.edu/international-admissions/apply-international-undergraduate-student"
+          ]
+        },
+        "cost": {
+          "status": "unknown",
+          "notes": {
+            "status": null,
+            "academicYear": null,
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": []
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:UAlbany_Uptown_Campus.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 46,
+      "id": "university-of-central-florida",
+      "name": "University of Central Florida",
+      "batch": 5,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://www.ucf.edu/degree/computer-science-bs/"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://www.ucf.edu/admissions/undergraduate/international/"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://www.ucf.edu/admissions/undergraduate/international/"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "required-alternatives",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://www.ucf.edu/admissions/undergraduate/international/"
+          ]
+        },
+        "cost": {
+          "status": "unknown",
+          "notes": {
+            "status": null,
+            "academicYear": null,
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": []
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:UCF_Campus_Pond.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 47,
+      "id": "university-of-dayton",
+      "name": "University of Dayton",
+      "batch": 5,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://catalog.udayton.edu/undergraduate/schoolofengineering/programsofstudy/csci/"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://udayton.edu/apply/international/undergraduate/index.php"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://udayton.edu/apply/international/undergraduate/index.php"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "optional",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://udayton.edu/apply/international/undergraduate/index.php",
+            "https://udayton.edu/apply/international/undergraduate/english-proficiency.php",
+            "https://udayton.edu/apply/undergraduate/resources/test-optional.php"
+          ]
+        },
+        "cost": {
+          "status": "unknown",
+          "notes": {
+            "status": null,
+            "academicYear": null,
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": []
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:UniversityofDayton.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 48,
+      "id": "university-of-south-carolina",
+      "name": "University of South Carolina",
+      "batch": 5,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://www.sc.edu/study/majors_and_degrees/computer-science-bscs.php"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://sc.edu/about/offices_and_divisions/undergraduate_admissions/apply/for_international_students/"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://sc.edu/about/offices_and_divisions/undergraduate_admissions/apply/for_international_students/"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": "optional",
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://sc.edu/about/offices_and_divisions/undergraduate_admissions/apply/for_international_students/"
+          ]
+        },
+        "cost": {
+          "status": "unknown",
+          "notes": {
+            "status": null,
+            "academicYear": null,
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": []
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:University_of_South_Carolina_Horseshoe.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 49,
+      "id": "university-of-texas-at-dallas",
+      "name": "University of Texas at Dallas",
+      "batch": 5,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://catalog.utdallas.edu/2026/undergraduate/programs/ecs/computer-science"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://catalog.utdallas.edu/2026/undergraduate/policies/admission-policies"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://catalog.utdallas.edu/2026/undergraduate/policies/admission-policies"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": null,
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://catalog.utdallas.edu/2026/undergraduate/policies/admission-policies"
+          ]
+        },
+        "cost": {
+          "status": "unknown",
+          "notes": {
+            "status": null,
+            "academicYear": null,
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": []
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Residence_Hall_(University_of_Texas_at_Dallas).jpg"
+          ]
+        }
+      }
+    },
+    {
+      "order": 50,
+      "id": "university-of-the-pacific",
+      "name": "University of the Pacific",
+      "batch": 5,
+      "status": "in-progress",
+      "fields": {
+        "programmes": {
+          "status": "partial",
+          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "evidence": [
+            "https://catalog.pacific.edu/uop/schoolofengineeringandcomputerscience/computerscience/"
+          ]
+        },
+        "language": {
+          "status": "unknown",
+          "notes": {
+            "confirmedFields": [],
+            "remaining": "Не выводится из языка сайта или требований IELTS"
+          },
+          "evidence": []
+        },
+        "admission": {
+          "status": "partial",
+          "notes": "Общие international first-year инструкции прочитаны; актуальность цикла, waiver и специальные программы проверяются отдельно",
+          "evidence": [
+            "https://catalog.pacific.edu/uop/generalinformation/admissionrequirements/"
+          ]
+        },
+        "uzbekDocuments": {
+          "status": "unknown",
+          "notes": "Общие документы не доказывают точное соответствие аттестата/академического лицея; оценки/предметы/foundation открыты",
+          "evidence": [
+            "https://catalog.pacific.edu/uop/generalinformation/admissionrequirements/"
+          ]
+        },
+        "exams": {
+          "status": "partial",
+          "notes": {
+            "satPolicy": null,
+            "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
+          },
+          "evidence": [
+            "https://catalog.pacific.edu/uop/generalinformation/admissionrequirements/"
+          ]
+        },
+        "cost": {
+          "status": "unknown",
+          "notes": {
+            "status": null,
+            "academicYear": null,
+            "limitation": "Год/период/категория и полный состав проверяются; прошлогоднее не current2027"
+          },
+          "evidence": []
+        },
+        "awards": {
+          "status": "unknown",
+          "notes": {
+            "namedLargest": null,
+            "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
+          },
+          "evidence": []
+        },
+        "photo": {
+          "status": "partial",
+          "notes": {
+            "installed": false,
+            "permission": "owner-approved-2026-11-01",
+            "remaining": "Визуальная проверка/кампус/кредиты/лицензия/оптимизация/загрузка"
+          },
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Burns_tower.jpg"
+          ]
+        }
+      }
+    }
+  ]
+}

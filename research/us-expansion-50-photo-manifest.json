@@ -8,10 +8,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "subject": "UC Davis campus",
     "verified": "2026-10-31",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Fastily, CC BY-SA 4.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "university-of-california-irvine",
@@ -22,10 +25,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
     "subject": "Aldrich Park on UC Irvine campus",
     "verified": "2026-10-31",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Florian Boyd, CC BY-SA 2.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "university-of-illinois-urbana-champaign",
@@ -36,10 +42,13 @@
     "licenseUrl": "https://en.wikipedia.org/wiki/Public_domain",
     "subject": "Foellinger Auditorium, UIUC",
     "verified": "2026-10-31",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Daderot, Public domain, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "university-of-texas-at-austin",
@@ -50,10 +59,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "subject": "Main Building, UT Austin",
     "verified": "2026-10-31",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Larry D. Moore, CC BY 4.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "university-of-wisconsin-madison",
@@ -64,10 +76,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "subject": "Bascom Hall, UW Madison",
     "verified": "2026-10-31",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Michael Barera, CC BY-SA 4.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "rutgers-university-new-brunswick",
@@ -78,10 +93,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "subject": "Old Queens, Rutgers University, New Brunswick",
     "verified": "2026-10-31",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Rickyrab, CC BY-SA 3.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "university-of-california-santa-barbara",
@@ -92,10 +110,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
     "subject": "West entrance, UC Santa Barbara Library",
     "verified": "2026-10-31",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "UCSB Library, CC BY-SA 2.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "university-of-georgia",
@@ -106,10 +127,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "subject": "University of Georgia Chapel",
     "verified": "2026-10-31",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Coxonian, CC BY-SA 4.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "virginia-tech",
@@ -120,10 +144,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "subject": "Burruss Hall, Virginia Tech, Blacksburg",
     "verified": "2026-10-31",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "CBGator87, CC BY-SA 3.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "pennsylvania-state-university-university-park",
@@ -134,10 +161,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
     "subject": "Old Main, Penn State University Park",
     "verified": "2026-10-31",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "George Chriss, CC BY 2.5, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "university-of-pittsburgh",
@@ -148,10 +178,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "subject": "Cathedral of Learning, University of Pittsburgh",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "LR.127, CC BY 4.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "university-of-california-merced",
@@ -162,10 +195,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "subject": "Classroom and Office Buildings One and Two, UC Merced",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Dr vulpes, CC BY-SA 4.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "binghamton-university",
@@ -176,10 +212,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "subject": "Couper administration building, Binghamton University",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Benjamin D. Esham / Wikimedia Commons, CC BY-SA 4.0",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "indiana-university-bloomington",
@@ -190,11 +229,14 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
     "subject": "Sample Gates, Indiana University Bloomington",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Alan Mauro / IT Communications Office, CC BY 2.0, Wikimedia Commons",
     "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
-    "metadataNote": "File author field credits IT Communications Office; embedded photographer credit Alan Mauro. Preserve both."
+    "metadataNote": "File author field credits IT Communications Office; embedded photographer credit Alan Mauro. Preserve both.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "north-carolina-state-university",
@@ -205,10 +247,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "subject": "Memorial Belltower, NC State University, Raleigh",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "DiscoA340, CC BY-SA 4.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "rutgers-university-newark",
@@ -219,11 +264,14 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
     "subject": "Rutgers Newark campus",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Darkcore, CC BY 2.5, Wikimedia Commons",
     "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
-    "metadataNote": "Description credits Darkcore; machine author/source marked assumed. EXIF date differs from description. Do not present a precise photograph date."
+    "metadataNote": "Description credits Darkcore; machine author/source marked assumed. EXIF date differs from description. Do not present a precise photograph date.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "university-of-connecticut",
@@ -234,10 +282,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
     "subject": "Wilbur Cross Library, University of Connecticut, Storrs",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Jerry Dougherty, CC BY 2.5, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "clemson-university",
@@ -248,10 +299,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "subject": "Tillman Hall, Clemson University Historic District I",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Ckey11, CC BY-SA 3.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "colorado-school-of-mines",
@@ -262,10 +316,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "subject": "Guggenheim Hall, Colorado School of Mines, Golden",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Yassie, CC BY-SA 4.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "university-of-california-riverside",
@@ -276,10 +333,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "subject": "UC Riverside campus viewed from Box Spring Mountain",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Advythr, CC BY-SA 4.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "new-jersey-institute-of-technology",
@@ -290,10 +350,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "subject": "Eberhardt Hall, NJIT, Newark",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Andrew nyr, CC BY-SA 4.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "university-at-buffalo",
@@ -304,10 +367,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "subject": "Hayes Hall, University at Buffalo South Campus",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Davidhar, CC BY-SA 3.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "university-of-delaware",
@@ -318,10 +384,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
     "subject": "Memorial Hall, University of Delaware",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Lowell Silverman, CC BY-SA 2.5, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "rutgers-university-camden",
@@ -332,10 +401,13 @@
     "licenseUrl": "https://en.wikipedia.org/wiki/Public_domain",
     "subject": "Rutgers Camden campus walking path",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Henry Montesino (Ears823), Public domain, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "university-of-illinois-chicago",
@@ -346,11 +418,14 @@
     "licenseUrl": "https://en.wikipedia.org/wiki/Public_domain",
     "subject": "University Hall, UIC East Campus",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Onar Vikingstad, Public domain, Wikimedia Commons",
     "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
-    "metadataNote": "Description explicitly credits Onar Vikingstad; machine author is legacy/assumed. Ignore the unsourced ranking claim in the description."
+    "metadataNote": "Description explicitly credits Onar Vikingstad; machine author is legacy/assumed. Ignore the unsourced ranking claim in the description.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "university-of-missouri",
@@ -361,10 +436,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "subject": "Jesse Hall and the Columns, Columbia, Missouri",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Dylanchapell, CC BY-SA 4.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "auburn-university",
@@ -375,11 +453,14 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
     "subject": "Samford Hall, Auburn University",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "dregsplod / carterse, CC BY 2.0, Wikimedia Commons",
     "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
-    "metadataNote": "Description credits dregsplod; structured creator name carterse. Preserve both until identity/credit checked visually against source."
+    "metadataNote": "Description credits dregsplod; structured creator name carterse. Preserve both until identity/credit checked visually against source.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "florida-international-university",
@@ -390,11 +471,14 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
     "subject": "FIU campus, exact campus location requires visual confirmation",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Eduardo Merille, CC BY-SA 2.0, Wikimedia Commons",
     "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
-    "metadataNote": "Institution named in description; exact campus not established. Confirm location before accepting the image for this campus profile."
+    "metadataNote": "Institution named in description; exact campus not established. Confirm location before accepting the image for this campus profile.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "university-of-south-florida",
@@ -405,10 +489,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "subject": "Marshall Student Center, USF Tampa",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "FightingRaven531, CC BY-SA 3.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "university-of-california-santa-cruz",
@@ -419,11 +506,14 @@
     "licenseUrl": "https://en.wikipedia.org/wiki/Public_domain",
     "subject": "McHenry Library entrance, UC Santa Cruz",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "MKen, Public domain, Wikimedia Commons",
     "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
-    "metadataNote": "Author/source use legacy assumed metadata; file copyright holder explicitly released public domain. Photograph is historical, not a claim of current building condition."
+    "metadataNote": "Author/source use legacy assumed metadata; file copyright holder explicitly released public domain. Photograph is historical, not a claim of current building condition.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "university-of-colorado-boulder",
@@ -434,10 +524,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "subject": "Old Main, University of Colorado Boulder",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "MECU, CC BY-SA 3.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "university-of-new-hampshire",
@@ -448,10 +541,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "subject": "Thompson Hall, University of New Hampshire",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "AcrossTheAtlantic, CC BY-SA 4.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "university-of-tennessee-knoxville",
@@ -462,10 +558,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
     "subject": "Ayres Hall, University of Tennessee Knoxville",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Warren LeMay (w_lemay), CC BY-SA 2.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "wake-forest-university",
@@ -476,10 +575,13 @@
     "licenseUrl": "https://en.wikipedia.org/wiki/Public_domain",
     "subject": "Wait Chapel, Wake Forest University",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Fennec, Public domain, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "george-washington-university",
@@ -490,10 +592,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
     "subject": "University Yard, George Washington University",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Pjn1990, CC BY 3.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "stevens-institute-of-technology",
@@ -504,10 +609,13 @@
     "licenseUrl": "https://en.wikipedia.org/wiki/Public_domain",
     "subject": "Stevens campus with Hoboken in the background",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Sharkface217, Public domain, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "baylor-university",
@@ -518,11 +626,14 @@
     "licenseUrl": "https://en.wikipedia.org/wiki/Public_domain",
     "subject": "Pat Neff Hall, Baylor University",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Enoch Lai, Public domain, Wikimedia Commons",
     "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
-    "metadataNote": "Original366x499; assess whether sharp enough for existing layout without upscaling. Placeholder acceptable if quality unsuitable."
+    "metadataNote": "Original366x499; assess whether sharp enough for existing layout without upscaling. Placeholder acceptable if quality unsuitable.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "marquette-university",
@@ -533,10 +644,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
     "subject": "Marquette University campus",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "scottfeldstein, CC BY 2.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "yeshiva-university",
@@ -547,10 +661,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "subject": "Zysman Hall, Washington Heights, Manhattan",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Beyond My Ken, CC BY-SA 4.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "hillsdale-college",
@@ -561,10 +678,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "subject": "Central Hall, Hillsdale College",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Kingpin1000, CC BY-SA 4.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "brigham-young-university",
@@ -575,10 +695,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
     "subject": "BYU campus, Provo, Utah",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Tony Webster, CC BY 2.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "university-of-san-francisco",
@@ -589,10 +712,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "subject": "University of San Francisco lower campus",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Jallen8307, CC BY-SA 4.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "george-mason-university",
@@ -603,10 +729,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "subject": "George Mason University Fairfax campus",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Lucien Dalarun, CC BY-SA 3.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "university-at-albany-suny",
@@ -617,10 +746,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "subject": "University at Albany uptown campus viewed from Collins Circle",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Doc352, CC BY-SA 3.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "university-of-central-florida",
@@ -631,11 +763,14 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
     "subject": "Reflection Pond and Millican Hall, UCF main campus",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Kelly Daacon (keone), CC BY-SA 2.0, Wikimedia Commons",
     "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
-    "metadataNote": "Author field Kelly Daacon; structured Flickr author keone. Preserve both credits."
+    "metadataNote": "Author field Kelly Daacon; structured Flickr author keone. Preserve both credits.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "university-of-dayton",
@@ -646,10 +781,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "subject": "St. Mary's Hall and Immaculate Conception Chapel, University of Dayton",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "User:Namtrofk at English Wikipedia, CC BY-SA 3.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "university-of-south-carolina",
@@ -660,10 +798,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "subject": "Horseshoe, University of South Carolina, Columbia",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Dfscgt21, CC BY-SA 3.0, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "university-of-texas-at-dallas",
@@ -674,10 +815,13 @@
     "licenseUrl": "https://en.wikipedia.org/wiki/Public_domain",
     "subject": "Residence Hall South, University of Texas at Dallas",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "Stan9999, Public domain, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   },
   {
     "id": "university-of-the-pacific",
@@ -688,9 +832,12 @@
     "licenseUrl": "https://en.wikipedia.org/wiki/Public_domain",
     "subject": "Burns Tower, University of the Pacific, Stockton",
     "verified": "2026-11-01",
-    "permission": "requested-awaiting-owner",
+    "permission": "owner-approved-2026-11-01",
     "downloaded": false,
     "attribution": "maven imagery, Public domain, Wikimedia Commons",
-    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use."
+    "plannedChanges": "Resize/encode for the site; retain license and disclose changes. Visual inspection required before use.",
+    "permissionSource": "Owner conversation and UniPath_USA50_Completion_Prompt_2026-11-01.pdf section3",
+    "downloadStatus": "pending-environment-dns-unavailable",
+    "visualStatus": "pending"
   }
 ]

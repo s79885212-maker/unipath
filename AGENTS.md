@@ -43,3 +43,9 @@ Read this before changing anything. It applies to every agent (Codex, Claude Cod
 - Do not bypass CAPTCHAs, bot checks ("Just a moment…"), geo-blocks or "Access denied" pages — mark the item unconfirmed instead.
 - Do not submit forms with personal data; calculators may be used only to read published figures.
 - Do not log in to services for the owner, make purchases, or change repository or hosting settings.
+
+
+## Разрешение владельца на фотографии — 1 ноября 2026
+Владелец явно разрешил скачивать и добавлять свободно лицензированные фотографии Wikimedia Commons для всех университетских профилей и попросил учитывать разрешение в дальнейшей работе. Повторное разрешение на каждый такой снимок не требуется. Конкретное текущее задание USA50 Completion ограничено существующими 50 IDs: разрешены кандидаты из манифеста, проверенные замены и Wabash. Кампус/объект, автор, лицензия, условия, фактическое изображение и атрибуция всё равно проверяются перед установкой. Это исключение не разрешает скачивать произвольные PDF/архивы/платные изображения или добавлять вузы вне задания.
+
+При пересборке прежними tools/us_expansion50_batch*.py завершённые расширения направлений восстанавливаются tools/us50_completion_programmes.py, затем tools/us50_completion_matrix.py и tools/us_expansion50_report.py. Не терять evidence дополнений.

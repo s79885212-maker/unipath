@@ -33,7 +33,7 @@ for order,t in enumerate(targets,1):
  fr=u['scholarships']['fullRide'];award=fr.get('name') or 'Крупнейшая ещё не установлена'
  if fr.get('available') is True:award+=' — конкурс, не гарантия'
  photo=manifest.get(uid)
- ph=('Кандидат: '+photo['license']+('; разрешение на скачивание запрошено' if photo['permission']=='requested-awaiting-owner' else '; разрешение ещё не запрошено')) if photo else 'Исследование снимка ещё не завершено; заглушка'
+ ph=('Кандидат: '+photo['license']+('; разрешение на скачивание запрошено' if photo['permission']=='requested-awaiting-owner' else ('; разрешение получено, '+('установлено' if photo.get('installed') else 'не установлено') if photo['permission'].startswith('owner-approved') else '; разрешение ещё не запрошено'))) if photo else 'Исследование снимка ещё не завершено; заглушка'
  if not photo and any(s['id']==uid and s['topic']=='photo-candidate-unavailable' for s in sources):
   ph='Поиск выполнен, страница файла недоступна; автор/лицензия не подтверждены, заглушка'
  gaps=('Полнота программ; язык подтверждён только для указанных направлений' if u.get('englishTaughtPrograms') else 'Полнота программ и язык')+'; точные квалификации; условия наград/продления; фотография'

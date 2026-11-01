@@ -32,11 +32,23 @@ module.exports=function(env){
      fresh.every(function(u){return (u.englishTaughtPrograms||[]).every(function(f){return /English/.test(u.programEvidence[f].language||'');});}),
      'an English website alone never makes new majors English-taught');
   var uiuc=U.uniById('university-of-illinois-urbana-champaign'),uic=U.uniById('university-of-illinois-chicago');
-  ok(U.englishPrograms(uiuc).join('|')==='computer-science'&&uiuc.programEvidence['computer-science'].language==='English'&&
-     !U.fieldUnverified(uiuc,['computer-science'],true)&&U.fieldUnverified(uiuc,['engineering'],true)&&
+  ok(U.englishPrograms(uiuc).indexOf('computer-science')>=0&&U.englishPrograms(uiuc).indexOf('engineering')>=0&&uiuc.programEvidence['computer-science'].language==='English'&&
+     !U.fieldUnverified(uiuc,['computer-science'],true)&&U.fieldUnverified(uiuc,['medicine'],true)&&
      U.englishPrograms(uic).length===0&&
      sources.some(function(s){return s.id===uiuc.id&&s.topic==='instruction-language'&&s.access==='html-read'&&/registrar\.illinois\.edu/.test(s.source);}),
-     'UIUC Registrar instruction evidence supports its named CS bachelor only, without promoting an unverified field or UIC');
+     'UIUC Registrar campus instruction evidence supports named bachelor majors, without promoting an unverified field or UIC');
+  var irvine=U.uniById('university-of-california-irvine'),rutgers=U.uniById('rutgers-university-new-brunswick');
+  ok(irvine.programEvidence.business.program==='Business Administration, B.A.'&&
+     !rutgers.programEvidence.business&&U.fieldUnverified(rutgers,['business'],false)&&
+     U.englishPrograms(irvine).length===0,
+     'catalogue majors broaden confirmed fields while Rutgers business minor and an English website cannot become confirmed degree/language matches');
+  var gaEntry=U.uniById('university-of-georgia'),sbEntry=U.uniById('university-of-california-santa-barbara');
+  ok(/Mechanical Engineering/.test(gaEntry.programEvidence.engineering.program)&&
+     gaEntry.admissions.notes.some(function(n){return /Intended Mechanical Engineering/.test(n)&&/university-course requirements/.test(n);})&&
+     (!gaEntry.academics.gpa||gaEntry.academics.gpa.min!==2.75)&&
+     /Economics and Accounting/.test(sbEntry.programEvidence.business.program)&&
+     sbEntry.admissions.notes.some(function(n){return /pre-major/.test(n)&&/not a minimum Uzbek school GPA/.test(n);}),
+     'UGA intended-engineering and UCSB accounting pre-major college thresholds remain scoped notes, never Uzbek school GPA minima');
   var bad=[];
   fresh.forEach(function(u){U.roundsOf(u).forEach(function(d){
     if(d.status==='annual-rule'&&(d.dateISO||d.entryYear||U.roundState(d)!=='unknown'))bad.push(u.id+':annual');

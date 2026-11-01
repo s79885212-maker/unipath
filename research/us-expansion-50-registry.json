@@ -406,7 +406,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Full programme coverage and instruction language",
@@ -414,7 +414,11 @@
         "Campus photo/licence",
         "Remaining cost, award, identity and application fields; see profile and sources"
       ],
-      "sourceEntries": 11
+      "sourceEntries": 12,
+      "completionReview": {
+        "programmes": "partial-core-majors-reviewed",
+        "language": "in-progress-applicable-language-policy-not-established"
+      }
     },
     {
       "number": 2,
@@ -438,7 +442,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Full programme coverage and instruction language",
@@ -446,7 +450,11 @@
         "Campus photo/licence",
         "Remaining cost, award, identity and application fields; see profile and sources"
       ],
-      "sourceEntries": 12
+      "sourceEntries": 13,
+      "completionReview": {
+        "programmes": "partial-core-majors-reviewed",
+        "language": "in-progress-applicable-language-policy-not-established"
+      }
     },
     {
       "number": 3,
@@ -471,7 +479,7 @@
         "programs": "verified-partial-named-cs-language-confirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Full programme coverage and instruction language",
@@ -479,7 +487,11 @@
         "Campus photo/licence",
         "Remaining cost, award, identity and application fields; see profile and sources"
       ],
-      "sourceEntries": 12
+      "sourceEntries": 13,
+      "completionReview": {
+        "programmes": "partial-core-majors-reviewed",
+        "language": "named-fields-confirmed-policy-scope"
+      }
     },
     {
       "number": 4,
@@ -504,7 +516,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Full programme coverage and instruction language",
@@ -512,7 +524,11 @@
         "Campus photo/licence",
         "Remaining cost, award, identity and application fields; see profile and sources"
       ],
-      "sourceEntries": 5
+      "sourceEntries": 6,
+      "completionReview": {
+        "programmes": "partial-core-majors-reviewed",
+        "language": "in-progress-applicable-language-policy-not-established"
+      }
     },
     {
       "number": 5,
@@ -536,7 +552,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Full programme coverage and instruction language",
@@ -544,7 +560,11 @@
         "Campus photo/licence",
         "Remaining cost, award, identity and application fields; see profile and sources"
       ],
-      "sourceEntries": 10
+      "sourceEntries": 11,
+      "completionReview": {
+        "programmes": "partial-core-majors-reviewed",
+        "language": "in-progress-applicable-language-policy-not-established"
+      }
     },
     {
       "number": 6,
@@ -569,7 +589,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Full programme coverage and instruction language",
@@ -577,7 +597,11 @@
         "Campus photo/licence",
         "Remaining cost, award, identity and application fields; see profile and sources"
       ],
-      "sourceEntries": 7
+      "sourceEntries": 8,
+      "completionReview": {
+        "programmes": "partial-core-majors-reviewed",
+        "language": "in-progress-applicable-language-policy-not-established"
+      }
     },
     {
       "number": 7,
@@ -602,7 +626,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Full programme coverage and instruction language",
@@ -610,7 +634,11 @@
         "Campus photo/licence",
         "Remaining cost, award, identity and application fields; see profile and sources"
       ],
-      "sourceEntries": 11
+      "sourceEntries": 13,
+      "completionReview": {
+        "programmes": "partial-core-majors-reviewed",
+        "language": "in-progress-applicable-language-policy-not-established"
+      }
     },
     {
       "number": 8,
@@ -634,7 +662,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Full programme coverage and instruction language",
@@ -642,7 +670,11 @@
         "Campus photo/licence",
         "Remaining cost, award, identity and application fields; see profile and sources"
       ],
-      "sourceEntries": 9
+      "sourceEntries": 14,
+      "completionReview": {
+        "programmes": "partial-core-majors-reviewed",
+        "language": "in-progress-applicable-language-policy-not-established"
+      }
     },
     {
       "number": 9,
@@ -666,7 +698,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Full programme coverage and instruction language",
@@ -674,7 +706,11 @@
         "Campus photo/licence",
         "Remaining cost, award, identity and application fields; see profile and sources"
       ],
-      "sourceEntries": 9
+      "sourceEntries": 14,
+      "completionReview": {
+        "programmes": "partial-core-majors-reviewed",
+        "language": "in-progress-applicable-language-policy-not-established"
+      }
     },
     {
       "number": 10,
@@ -699,7 +735,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Full programme coverage and instruction language",
@@ -707,7 +743,11 @@
         "Campus photo/licence",
         "Remaining cost, award, identity and application fields; see profile and sources"
       ],
-      "sourceEntries": 12
+      "sourceEntries": 13,
+      "completionReview": {
+        "programmes": "partial-core-majors-reviewed",
+        "language": "in-progress-applicable-language-policy-not-established"
+      }
     },
     {
       "number": 11,
@@ -731,7 +771,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -763,7 +803,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -796,7 +836,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -828,7 +868,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -861,7 +901,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -894,7 +934,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -927,7 +967,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -957,7 +997,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -987,7 +1027,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1020,7 +1060,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1052,7 +1092,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1085,7 +1125,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1115,7 +1155,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1148,7 +1188,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1181,7 +1221,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1214,7 +1254,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1244,7 +1284,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1276,7 +1316,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1308,7 +1348,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1341,7 +1381,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1373,7 +1413,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1405,7 +1445,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1438,7 +1478,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1468,7 +1508,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1500,7 +1540,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1530,7 +1570,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1560,7 +1600,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1590,7 +1630,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1620,7 +1660,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1680,7 +1720,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1712,7 +1752,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1742,7 +1782,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1772,7 +1812,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1805,7 +1845,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1837,7 +1877,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1867,7 +1907,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1899,7 +1939,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1932,7 +1972,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1962,7 +2002,7 @@
         "programs": "verified-partial-language-unconfirmed",
         "cost": "pending",
         "aid": "pending",
-        "photo": "candidate-license-reviewed-requested-awaiting-owner"
+        "photo": "candidate-license-reviewed-owner-approved-2026-11-01"
       },
       "unresolved": [
         "Programme coverage/instruction language",
@@ -1972,5 +2012,8 @@
       ],
       "sourceEntries": 4
     }
-  ]
+  ],
+  "completionBase": "a8d5be9184207ed2eb2712f5b51a0850e1661f31",
+  "completionBranch": "codex/us50-completion",
+  "completionStatus": "in-progress"
 }

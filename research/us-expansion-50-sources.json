@@ -6130,7 +6130,435 @@
       "language": "English",
       "scope": "Registrar campus-wide instruction statement, except some foreign-language courses; applied only to the separately verified Computer Science BS",
       "notTransferred": "Not UIC, overseas partner or every unverified programme",
-      "notAdmissionsWaiver": "This does not waive applicant English testing or establish Uzbek qualification equivalence"
+      "notAdmissionsWaiver": "This does not waive applicant English testing or establish Uzbek qualification equivalence",
+      "scopeType": "campus-instruction-policy",
+      "appliesToFields": [
+        "computer-science",
+        "business",
+        "economics",
+        "mathematics",
+        "biology",
+        "engineering",
+        "psychology",
+        "humanities",
+        "arts"
+      ]
+    }
+  },
+  {
+    "id": "university-of-california-davis",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://catalog.ucdavis.edu/departments-programs-degrees/",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "on-campus first-year bachelor majors; existence does not promise admission to the major",
+    "campus": "Davis",
+    "access": "html-read",
+    "quote": "Departments, Programs, & Degrees",
+    "facts": {
+      "academicYear": "2026–2027",
+      "programs": {
+        "business": "Business, Bachelor of Science",
+        "economics": "Economics, Bachelor of Arts",
+        "mathematics": "Mathematics, Bachelor of Science",
+        "biology": "Biological Sciences, Bachelor of Science",
+        "engineering": "Mechanical Engineering, Bachelor of Science",
+        "psychology": "Psychology, Bachelor of Science",
+        "humanities": "History, Bachelor of Arts"
+      },
+      "limitations": "Partial coverage; minor/certificate/graduate/online and undeclared routes excluded; language separately verified"
+    }
+  },
+  {
+    "id": "university-of-california-irvine",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://catalogue.uci.edu/undergraduatedegrees/",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "on-campus first-year bachelor majors; existence does not promise admission to the major",
+    "campus": "Irvine",
+    "access": "html-read",
+    "quote": "UNDERGRADUATE MAJORS AND MINORS (organized alphabetically)",
+    "facts": {
+      "academicYear": "2026–2027",
+      "programs": {
+        "business": "Business Administration, B.A.",
+        "economics": "Economics, B.A.",
+        "mathematics": "Mathematics, B.S.",
+        "biology": "Biological Sciences, B.S.",
+        "engineering": "Mechanical Engineering, B.S.",
+        "psychology": "Psychology, B.A.",
+        "humanities": "History, B.A.",
+        "arts": "Art, B.A.",
+        "social-sciences": "Sociology, B.A."
+      },
+      "limitations": "Accounting, Management and Statistics listed as minors are not independent bachelor majors. Business Administration BA is a major; Data Science BS is a CS-area option. Language remains unconfirmed for these undergraduate programmes."
+    }
+  },
+  {
+    "id": "university-of-illinois-urbana-champaign",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://catalog.illinois.edu/undergraduate/",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "on-campus first-year bachelor majors; existence does not promise admission to the major",
+    "campus": "Urbana-Champaign",
+    "access": "html-read",
+    "quote": "Undergraduate Majors & Concentrations",
+    "facts": {
+      "academicYear": "2026–2027",
+      "programs": {
+        "business": "Accountancy, BS",
+        "economics": "Economics, BALAS",
+        "mathematics": "Mathematics, BSLAS",
+        "biology": "Integrative Biology, BSLAS",
+        "engineering": "Mechanical Engineering, BS",
+        "psychology": "Psychology, BSLAS",
+        "humanities": "History, BALAS",
+        "arts": "Graphic Design, BFA"
+      },
+      "limitations": "Campus Registrar instruction statement applies to these named non-language majors; some foreign-language courses are excepted. No UIC or undeclared/bachelor-plus-master route is inferred."
+    }
+  },
+  {
+    "id": "university-of-texas-at-austin",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://catalog.utexas.edu/undergraduate/degree-programs/",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "on-campus first-year bachelor majors; existence does not promise admission to the major",
+    "campus": "Austin",
+    "access": "html-read",
+    "quote": "The University offers the following undergraduate degrees.",
+    "facts": {
+      "academicYear": "2026–2027",
+      "programs": {
+        "business": "Accounting — BBA",
+        "economics": "Economics — BA",
+        "mathematics": "Mathematics — BSMath",
+        "biology": "Biology — BSBio",
+        "engineering": "Mechanical engineering — BSME",
+        "psychology": "Psychology — BSPsy",
+        "arts": "Art history — BAArtHist"
+      },
+      "limitations": "Only bachelor rows in the undergraduate colleges are used; integrated BBA/MPA, standalone MPA/MS and PharmD are not first-year bachelor majors. School-specific entry and instruction language still need review."
+    }
+  },
+  {
+    "id": "university-of-wisconsin-madison",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://guide.wisc.edu/undergraduate/",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "on-campus first-year bachelor majors; existence does not promise admission to the major",
+    "campus": "Madison",
+    "access": "html-read",
+    "quote": "The information in the Guide applies to all undergraduate students",
+    "facts": {
+      "academicYear": "2026–2027",
+      "programs": {
+        "business": "Business: Accounting, BBA",
+        "economics": "Economics, BS",
+        "mathematics": "Mathematics, BS",
+        "biology": "Biology, BS (L&S)",
+        "engineering": "Mechanical Engineering, BS"
+      },
+      "limitations": "Biology uses the L&S BS row, not the separate CALS programme; Business and Engineering schools have separate admission/progression rules and cost differentials. Certificate rows excluded; language not inferred."
+    }
+  },
+  {
+    "id": "rutgers-university-new-brunswick",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://sasundergrad.sas.rutgers.edu/majors-and-core-curriculum/major/list-of-majors-and-minors",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "on-campus first-year bachelor majors; existence does not promise admission to the major",
+    "campus": "New Brunswick",
+    "access": "html-read",
+    "quote": "School of Arts and Sciences offers more than 100 majors and minors",
+    "facts": {
+      "academicYear": "2026–2027",
+      "programs": {
+        "economics": "Economics — BA (SAS)",
+        "mathematics": "Mathematics — BA or BS (SAS)",
+        "biology": "Biological Sciences — BA (SAS)",
+        "psychology": "Psychology — BA (SAS)",
+        "humanities": "History — BA (SAS)",
+        "arts": "Art — BA (Mason Gross)",
+        "social-sciences": "Sociology — BA (SAS)"
+      },
+      "limitations": "Only rows explicitly marked Major and BA/BS are mapped. Business Administration on this page is a minor, not a bachelor major. RBS business and SOE engineering require separate evidence; campus Newark/Camden not inferred. Art belongs to Mason Gross and has separate entry conditions."
+    }
+  },
+  {
+    "id": "university-of-california-santa-barbara",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://admissions.sa.ucsb.edu/majors",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "international first-year bachelor; named school/campus major existence, not guaranteed entry",
+    "campus": "Santa Barbara — Letters & Science / Engineering as named",
+    "access": "html-read",
+    "quote": "UCSB will consider an applicant's second choice major when space is available.",
+    "facts": {
+      "programs": {
+        "economics": "Economics — undergraduate major (Letters & Science)",
+        "mathematics": "Mathematics — undergraduate major (Letters & Science)",
+        "biology": "Biological Sciences — undergraduate major (Letters & Science)",
+        "engineering": "Mechanical Engineering — undergraduate major (Engineering)",
+        "psychology": "Psychological & Brain Sciences — undergraduate major (Letters & Science)",
+        "humanities": "History — undergraduate major (Letters & Science)",
+        "arts": "Art — undergraduate major (Letters & Science)",
+        "social-sciences": "Sociology — undergraduate major (Letters & Science)"
+      },
+      "academicYear": null,
+      "limitations": "College of Creative Studies has separate application/entry; its majors are not assigned to Letters & Science. Technology Management is a certificate, not Business bachelor.",
+      "catalogueUrl": "https://admissions.sa.ucsb.edu/majors"
+    }
+  },
+  {
+    "id": "university-of-california-santa-barbara",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://catalog.ucsb.edu/programs/BAECACC/program-requirements-kn5uw",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "international first-year bachelor; named school/campus major existence, not guaranteed entry",
+    "campus": "Santa Barbara — Letters & Science",
+    "access": "html-read",
+    "quote": "Economics and Accounting - BA",
+    "facts": {
+      "programs": {
+        "business": "Economics and Accounting — BA"
+      },
+      "academicYear": "2026–2027",
+      "limitations": "Partial on-campus bachelor-major coverage; language and school entry conditions separate",
+      "catalogueUrl": "https://admissions.sa.ucsb.edu/majors",
+      "programmeEntryNote": {
+        "en": "UCSB Economics and Accounting BA uses a pre-major: prescribed UCSB Economics courses need a UC college GPA2.85 and no grade below C. This is university-course progression, not a minimum Uzbek school GPA; review all current course requirements on the linked programme page.",
+        "ru": "В UCSB Economics and Accounting BA есть pre-major: по установленным предметам Economics нужен GPA2,85 UC и ни одной оценки ниже C. Это переход после университетских предметов, не минимум GPA узбекской школы; полный актуальный список требований смотрите на странице программы."
+      }
+    }
+  },
+  {
+    "id": "virginia-tech",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://www.vt.edu/academics/majors/accounting-and-information-systems.html",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "international first-year bachelor; named school/campus major existence, not guaranteed entry",
+    "campus": "Blacksburg — Pamplin",
+    "access": "html-read",
+    "quote": "Available to First-Year Applicants",
+    "facts": {
+      "programs": {
+        "business": "Accounting and Information Systems — Bachelor of Science"
+      },
+      "academicYear": null,
+      "limitations": "Partial on-campus bachelor-major coverage; language and school entry conditions separate",
+      "catalogueUrl": "https://www.vt.edu/academics/majors.html"
+    }
+  },
+  {
+    "id": "virginia-tech",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://www.vt.edu/academics/majors/economics.html",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "international first-year bachelor; named school/campus major existence, not guaranteed entry",
+    "campus": "Blacksburg — College of Science",
+    "access": "html-read",
+    "quote": "Economics (College of Science)",
+    "facts": {
+      "programs": {
+        "economics": "Economics — Bachelor of Science"
+      },
+      "academicYear": null,
+      "limitations": "Partial on-campus bachelor-major coverage; language and school entry conditions separate",
+      "catalogueUrl": "https://www.vt.edu/academics/majors.html"
+    }
+  },
+  {
+    "id": "virginia-tech",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://www.vt.edu/academics/majors/mathematics.html",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "international first-year bachelor; named school/campus major existence, not guaranteed entry",
+    "campus": "Blacksburg — College of Science",
+    "access": "html-read",
+    "quote": "Bachelor of Science",
+    "facts": {
+      "programs": {
+        "mathematics": "Mathematics — Bachelor of Science"
+      },
+      "academicYear": null,
+      "limitations": "Partial on-campus bachelor-major coverage; language and school entry conditions separate",
+      "catalogueUrl": "https://www.vt.edu/academics/majors.html"
+    }
+  },
+  {
+    "id": "virginia-tech",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://www.vt.edu/academics/majors/biological-sciences.html",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "international first-year bachelor; named school/campus major existence, not guaranteed entry",
+    "campus": "Blacksburg — College of Science",
+    "access": "html-read",
+    "quote": "Bachelor of Science",
+    "facts": {
+      "programs": {
+        "biology": "Biological Sciences — Bachelor of Science"
+      },
+      "academicYear": null,
+      "limitations": "Partial on-campus bachelor-major coverage; language and school entry conditions separate",
+      "catalogueUrl": "https://www.vt.edu/academics/majors.html"
+    }
+  },
+  {
+    "id": "virginia-tech",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://www.vt.edu/academics/majors/mechanical-engineering.html",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "international first-year bachelor; named school/campus major existence, not guaranteed entry",
+    "campus": "Blacksburg — College of Engineering",
+    "access": "html-read",
+    "quote": "All students wishing to study this major should apply to General Engineering.",
+    "facts": {
+      "programs": {
+        "engineering": "Mechanical Engineering — Bachelor of Science"
+      },
+      "academicYear": null,
+      "limitations": "Partial on-campus bachelor-major coverage; language and school entry conditions separate",
+      "catalogueUrl": "https://www.vt.edu/academics/majors.html",
+      "programmeEntryNote": {
+        "en": "Virginia Tech Mechanical Engineering applicants apply to General Engineering first; a verified major is not a promise of direct entry into Mechanical Engineering.",
+        "ru": "Кандидаты Mechanical Engineering в Virginia Tech сначала подают в General Engineering; подтверждённая программа не обещает прямого зачисления в Mechanical Engineering."
+      }
+    }
+  },
+  {
+    "id": "university-of-georgia",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://www.terry.uga.edu/majors-and-minor/accounting/",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "international first-year bachelor; named school/campus major existence, not guaranteed entry",
+    "campus": "Athens — Terry",
+    "access": "html-read",
+    "quote": "A BBA from the J.M. Tull School of Accounting",
+    "facts": {
+      "programs": {
+        "business": "Accounting — BBA"
+      },
+      "academicYear": null,
+      "limitations": "Partial on-campus bachelor-major coverage; language and school entry conditions separate",
+      "catalogueUrl": "https://bulletin.uga.edu/Program/AdvancedSearch"
+    }
+  },
+  {
+    "id": "university-of-georgia",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://www.terry.uga.edu/majors-and-minor/economics/",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "international first-year bachelor; named school/campus major existence, not guaranteed entry",
+    "campus": "Athens — Terry",
+    "access": "html-read",
+    "quote": "Bachelor of Business Administration in Economics",
+    "facts": {
+      "programs": {
+        "economics": "Economics — AB or BBA"
+      },
+      "academicYear": null,
+      "limitations": "Partial on-campus bachelor-major coverage; language and school entry conditions separate",
+      "catalogueUrl": "https://bulletin.uga.edu/Program/AdvancedSearch"
+    }
+  },
+  {
+    "id": "university-of-georgia",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://www.math.uga.edu/",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "international first-year bachelor; named school/campus major existence, not guaranteed entry",
+    "campus": "Athens — Franklin",
+    "access": "html-read",
+    "quote": "Bachelor of Science (B.S.)",
+    "facts": {
+      "programs": {
+        "mathematics": "Mathematics — Bachelor of Science"
+      },
+      "academicYear": null,
+      "limitations": "Partial on-campus bachelor-major coverage; language and school entry conditions separate",
+      "catalogueUrl": "https://bulletin.uga.edu/Program/AdvancedSearch"
+    }
+  },
+  {
+    "id": "university-of-georgia",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://bulletin.uga.edu/Program/Details/45780?IDc=ARTS",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "international first-year bachelor; named school/campus major existence, not guaranteed entry",
+    "campus": "Athens — Franklin",
+    "access": "html-read",
+    "quote": "The Bachelor of Science (B.S.) degree with a major in biology",
+    "facts": {
+      "programs": {
+        "biology": "Biology — BS"
+      },
+      "academicYear": null,
+      "limitations": "Biology BS is not a professional medical degree; Double Dawgs graduate routes are not mapped as separate bachelor majors.",
+      "catalogueUrl": "https://bulletin.uga.edu/Program/AdvancedSearch"
+    }
+  },
+  {
+    "id": "university-of-georgia",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://bulletin.uga.edu/Program/Details/20122?IDc=FENGR",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "international first-year bachelor; named school/campus major existence, not guaranteed entry",
+    "campus": "Athens — Engineering",
+    "access": "html-read",
+    "quote": "Applicants are initially admitted as \"Intended Mechanical Engineering” majors.",
+    "facts": {
+      "programs": {
+        "engineering": "Mechanical Engineering — BSME"
+      },
+      "academicYear": null,
+      "limitations": "Partial on-campus bachelor-major coverage; language and school entry conditions separate",
+      "catalogueUrl": "https://bulletin.uga.edu/Program/AdvancedSearch",
+      "programmeEntryNote": {
+        "en": "UGA Mechanical Engineering begins as Intended Mechanical Engineering. Entry to the major requires prescribed UGA courses at C or better and GPA2.75 across ENGR1120/1140/2120. These are university-course requirements, not an Uzbek-school GPA cutoff or a guaranteed first-year place in the final major.",
+        "ru": "В UGA Mechanical Engineering сначала зачисляют в Intended Mechanical Engineering. Для перехода нужны установленные предметы UGA на C или выше и GPA2,75 по ENGR1120/1140/2120. Это университетские предметы, не порог GPA узбекской школы и не гарантия места в конечной программе при поступлении на первый курс."
+      }
+    }
+  },
+  {
+    "id": "pennsylvania-state-university-university-park",
+    "topic": "undergraduate-major-coverage",
+    "source": "https://bulletins.psu.edu/programs/",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "international first-year bachelor; named school/campus major existence, not guaranteed entry",
+    "campus": "University Park — ending campus",
+    "access": "html-read",
+    "quote": "Where can I complete this program?",
+    "facts": {
+      "programs": {
+        "business": "Accounting — BS (Smeal College of Business)",
+        "economics": "Economics — BS (Liberal Arts)",
+        "mathematics": "Mathematics — BS (Eberly College of Science)",
+        "biology": "Biology — BS (Eberly College of Science)",
+        "engineering": "Mechanical Engineering — BS (Engineering)",
+        "psychology": "Psychology — BS (Liberal Arts)",
+        "humanities": "History — BA (Liberal Arts)"
+      },
+      "academicYear": "2026–2027",
+      "limitations": "Each selected Baccalaureate Degree tile explicitly lists University Park as a completion campus. Scranton, World Campus and branch-specific versions are not copied into this profile; separate school progression/first-year campus allocation rules still apply."
     }
   }
 ]
