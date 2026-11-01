@@ -6115,5 +6115,22 @@
       "excluded": "Continuing student table has mismatched year header; not used for incoming cohort",
       "annualCost2027": null
     }
+  },
+  {
+    "id": "university-of-illinois-urbana-champaign",
+    "topic": "instruction-language",
+    "source": "https://www.registrar.illinois.edu/customized-letter-requests/",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "University of Illinois Urbana-Champaign campus instruction; named campus CS bachelor only in UniPath",
+    "campus": "Urbana-Champaign",
+    "access": "html-read",
+    "quote": "With the exception of some foreign language courses, instruction at the University of Illinois Urbana-Champaign campus is delivered in English.",
+    "facts": {
+      "language": "English",
+      "scope": "Registrar campus-wide instruction statement, except some foreign-language courses; applied only to the separately verified Computer Science BS",
+      "notTransferred": "Not UIC, overseas partner or every unverified programme",
+      "notAdmissionsWaiver": "This does not waive applicant English testing or establish Uzbek qualification equivalence"
+    }
   }
 ]

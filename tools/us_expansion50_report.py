@@ -36,7 +36,7 @@ for order,t in enumerate(targets,1):
  ph=('Кандидат: '+photo['license']+('; разрешение на скачивание запрошено' if photo['permission']=='requested-awaiting-owner' else '; разрешение ещё не запрошено')) if photo else 'Исследование снимка ещё не завершено; заглушка'
  if not photo and any(s['id']==uid and s['topic']=='photo-candidate-unavailable' for s in sources):
   ph='Поиск выполнен, страница файла недоступна; автор/лицензия не подтверждены, заглушка'
- gaps='Полнота программ и язык; точные квалификации; условия наград/продления; фотография'
+ gaps=('Полнота программ; язык подтверждён только для указанных направлений' if u.get('englishTaughtPrograms') else 'Полнота программ и язык')+'; точные квалификации; условия наград/продления; фотография'
  if not year:gaps+='; год/состав стоимости'
  lines.append('| '+str(order)+' / ['+uid+']('+admission_url+') | ['+esc(programme)+']('+prog['source']+') | '+cred+' | '+cost+' | '+esc(award)+' | '+esc(ph)+' | '+gaps+' |')
 lines+=['','Все программы в таблице — частичные списки. Английский язык программы не назначен по языку сайта. '

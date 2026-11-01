@@ -468,7 +468,7 @@
         "uzbekistan": "exact-qualification-not-confirmed",
         "tests": "pending",
         "english": "pending",
-        "programs": "verified-partial-language-unconfirmed",
+        "programs": "verified-partial-named-cs-language-confirmed",
         "cost": "pending",
         "aid": "pending",
         "photo": "candidate-license-reviewed-requested-awaiting-owner"
@@ -479,7 +479,7 @@
         "Campus photo/licence",
         "Remaining cost, award, identity and application fields; see profile and sources"
       ],
-      "sourceEntries": 11
+      "sourceEntries": 12
     },
     {
       "number": 4,

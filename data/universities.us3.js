@@ -34539,13 +34539,15 @@ window.UNIPATH.universities.push(
     "initials": "IUC"
   },
   "description": "Verified undergraduate programme: Computer Science, BS. Admission details below distinguish first-year applicants from transfer students; unverified conditions remain open.",
-  "englishTaught": null,
-  "languageOfInstruction": null,
+  "englishTaught": true,
+  "languageOfInstruction": "English — verified campus instruction statement",
   "programs": [
     "computer-science"
   ],
-  "englishTaughtPrograms": [],
-  "programNote": "Partial programme list: only the named undergraduate major was verified. Missing fields do not mean that a programme is absent. The language of this programme has not been independently confirmed.",
+  "englishTaughtPrograms": [
+    "computer-science"
+  ],
+  "programNote": "Only Computer Science BS is verified here; the programme list remains partial. The Urbana-Champaign Registrar explicitly states campus instruction is in English except some foreign-language courses. This does not waive applicant English requirements or establish the language of unverified programmes or UIC.",
   "links": {
     "website": "https://illinois.edu/",
     "admissions": "https://www.admissions.illinois.edu/international-requirements/",
@@ -34824,6 +34826,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:Foellinger_Auditorium_-_UIUC_-_DSC09127.JPG"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.registrar.illinois.edu/customized-letter-requests/"
     }
   ],
   "verification": {
@@ -34834,7 +34840,7 @@ window.UNIPATH.universities.push(
     ],
     "unconfirmed": [
       "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grades, subjects and any preparatory study have not been established. General international instructions do not confirm eligibility.",
-      "Partial programme list: only the named undergraduate major was verified. Missing fields do not mean that a programme is absent. The language of this programme has not been independently confirmed.",
+      "Only Computer Science BS is verified here; the programme list remains partial. The Urbana-Champaign Registrar explicitly states campus instruction is in English except some foreign-language courses. This does not waive applicant English requirements or establish the language of unverified programmes or UIC.",
       "Campus photograph and free licence have not yet been verified; a placeholder is shown.",
       "Complete programme catalogue, 2027–2028 costs and remaining award/renewal conditions are still under review."
     ]
@@ -34850,7 +34856,7 @@ window.UNIPATH.universities.push(
     "computer-science": {
       "program": "Computer Science, BS",
       "level": "bachelor",
-      "language": null,
+      "language": "English",
       "campus": "Urbana-Champaign",
       "url": "https://catalog.illinois.edu/undergraduate/engineering/computer-science-bs/",
       "checked": "2026-10-31"

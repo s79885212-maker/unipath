@@ -359,13 +359,20 @@ docs={
 }
 for i,text in docs.items(): new[i]['admissions']['documents']=[text]
 
+r=new[2]
+r.update(englishTaught=True,languageOfInstruction=L('English — verified campus instruction statement','Английский — подтверждённое указание языка обучения кампуса'),englishTaughtPrograms=['computer-science'])
+r['programEvidence']['computer-science']['language']='English'
+r['programNote']=L('Only Computer Science BS is verified here; the programme list remains partial. The Urbana-Champaign Registrar explicitly states campus instruction is in English except some foreign-language courses. This does not waive applicant English requirements or establish the language of unverified programmes or UIC.',
+  'Здесь проверена только Computer Science BS; список программ остаётся частичным. Регистратор Urbana-Champaign прямо указывает английский язык обучения кампуса, кроме отдельных языковых курсов. Это не отменяет английский для абитуриента и не устанавливает язык непроверенных программ или UIC.')
+r['verification']['unconfirmed']=[r['programNote'] if x==PROGRAM_NOTE else x for x in r['verification']['unconfirmed']]
+
 all_targets=json.loads((ROOT/'research/us-expansion-50-targets.json').read_text(encoding='utf-8'))
 all_target_ids={t['id'] for t in all_targets}
 by_id={r['id']:r for r in old};by_id.update({r['id']:r for r in new})
 save(head,[r for r in old if r['id'] not in all_target_ids]+[by_id[t['id']] for t in all_targets if t['id'] in by_id],tail,PATH)
 for e in registry['entries'][:10]:
     e['implementationStatus']='draft-profile-added'
-    e['topics']['programs']='verified-partial-language-unconfirmed'
+    e['topics']['programs']='verified-partial-named-cs-language-confirmed' if e['id']==new[2]['id'] else 'verified-partial-language-unconfirmed'
     e['topics']['uzbekistan']='document-name-verified-other-conditions-open' if e['id'] in (new[4]['id'],new[9]['id']) else 'exact-qualification-not-confirmed'
     e['topics']['photo']='not-yet-researched-placeholder'
     e['unresolved']=['Full programme coverage and instruction language','Exact Uzbek credentials and conditions','Campus photo/licence','Remaining cost, award, identity and application fields; see profile and sources']

@@ -31,6 +31,12 @@ module.exports=function(env){
   ok(fresh.every(function(u){return u.englishTaught!==true || (u.englishTaughtPrograms||[]).length>0;}) &&
      fresh.every(function(u){return (u.englishTaughtPrograms||[]).every(function(f){return /English/.test(u.programEvidence[f].language||'');});}),
      'an English website alone never makes new majors English-taught');
+  var uiuc=U.uniById('university-of-illinois-urbana-champaign'),uic=U.uniById('university-of-illinois-chicago');
+  ok(U.englishPrograms(uiuc).join('|')==='computer-science'&&uiuc.programEvidence['computer-science'].language==='English'&&
+     !U.fieldUnverified(uiuc,['computer-science'],true)&&U.fieldUnverified(uiuc,['engineering'],true)&&
+     U.englishPrograms(uic).length===0&&
+     sources.some(function(s){return s.id===uiuc.id&&s.topic==='instruction-language'&&s.access==='html-read'&&/registrar\.illinois\.edu/.test(s.source);}),
+     'UIUC Registrar instruction evidence supports its named CS bachelor only, without promoting an unverified field or UIC');
   var bad=[];
   fresh.forEach(function(u){U.roundsOf(u).forEach(function(d){
     if(d.status==='annual-rule'&&(d.dateISO||d.entryYear||U.roundState(d)!=='unknown'))bad.push(u.id+':annual');
