@@ -427,7 +427,9 @@ def university_page(u, country, fields):
     if fr.get("available") is True:
         who = " — open to international students" if fr.get("internationalEligible") is True else ""
         cov = fr.get("covers") or {}
-        if cov.get("tuition") is True and cov.get("housing") is True and cov.get("meals") is True:
+        if fr.get("status") == "conflict":
+            kind = "Official sources conflict — award coverage"
+        elif cov.get("tuition") is True and cov.get("housing") is True and cov.get("meals") is True:
             kind = "Full ride: tuition, housing and meals"
         elif cov.get("tuition") is True and cov.get("stipend") is True:
             kind = "Full tuition + living stipend"

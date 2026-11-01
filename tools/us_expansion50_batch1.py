@@ -39,6 +39,8 @@ PHOTO_GAP=L('Campus photograph and free licence have not yet been verified; a pl
 L('Required documents — {0}','Обязательные документы — {0}')
 L('{0}, 23:59 CT','{0}, 23:59 по центральному времени США')
 L('{0}, 23:59 Pacific Time','{0}, 23:59 по тихоокеанскому времени США')
+L('{0}, 23:59 EST','{0}, 23:59 EST (как указано источником)')
+L('Official sources conflict — award coverage','Официальные источники расходятся по покрытию награды')
 L('University of California application','Заявка University of California')
 L('Rutgers Application','Заявка Rutgers')
 L('Through 2027','До 2027 года включительно')

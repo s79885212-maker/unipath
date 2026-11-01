@@ -430,7 +430,7 @@
      never folded into these. */
   function awardKind(u) {
     var fr = fullRide(u);
-    if (fr.available !== true) return null;
+    if (fr.available !== true || fr.status === 'conflict') return null;
     var c = fr.covers || {};
     if (c.tuition === true && c.housing === true && c.meals === true) return 'full-ride';
     if (c.tuition === true && c.stipend === true) return 'tuition-stipend';
@@ -443,7 +443,10 @@
     'full-tuition': 'Full tuition covered',
     'full-funding': 'Full funding possible — coverage not itemised'
   };
-  function awardLabel(u) { var k = awardKind(u); return k ? AWARD_LABEL[k] : null; }
+  function awardLabel(u) {
+    if (fullRide(u).status === 'conflict') return 'Official sources conflict — award coverage';
+    var k = awardKind(u); return k ? AWARD_LABEL[k] : null;
+  }
   /* Named awards of a record. They are stored in one list (`merit`, the name
      the list had when every entry was a merit scholarship); each award says
      what it rests on. Only an award given for achievement or talent counts as
@@ -1057,9 +1060,9 @@
       options: [
         { id: 'full-ride', label: 'Full ride: tuition, housing and meals covered', test: function (u) { return awardKind(u) === 'full-ride'; } },
         { id: 'tuition-stipend', label: 'Full tuition plus a living stipend', test: function (u) { return awardKind(u) === 'tuition-stipend'; } },
-        { id: 'full-ride-intl', label: 'Any full-level award open to internationals', test: function (u) { return fullRide(u).available === true && fullRide(u).internationalEligible === true; } },
+        { id: 'full-ride-intl', label: 'Any full-level award open to internationals', test: function (u) { return fullRide(u).available === true && fullRide(u).internationalEligible === true && fullRide(u).status !== 'conflict'; } },
         { id: 'full-tuition', label: 'Full tuition covered', test: function (u) {
-            if (fullRide(u).covers && fullRide(u).covers.tuition === true) return true;
+            if (fullRide(u).status !== 'conflict' && fullRide(u).covers && fullRide(u).covers.tuition === true) return true;
             return awardsAll(u).some(function (m) { return /full tuition|value of tuition|100%|full dues|tuition exemption|full scholarship/i.test(String(m.amount || '')); });
           } },
         { id: 'merit', label: 'Merit scholarships', test: function (u) { return meritList(u).length > 0; } },
@@ -1325,7 +1328,7 @@
 
   function scholarBadge(u) {
     if (fullRide(u).available === true && fullRide(u).internationalEligible === true) {
-      return '<span class="badge badge-ok">★ <span>' + esc(awardLabel(u)) + '</span></span>';
+      return '<span class="badge ' + (fullRide(u).status === 'conflict' ? 'badge-warn' : 'badge-ok') + '">★ <span>' + esc(awardLabel(u)) + '</span></span>';
     }
     if (needBased(u).meetsFullNeed === true) {
       return '<span class="badge badge-ok">Meets full need</span>';

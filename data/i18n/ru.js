@@ -17143,4 +17143,6 @@ window.UNIPATH_I18N.ru = {
   "Up to eight semesters; full-time undergraduate, SAP, good academic standing and annual global engagement; online programmes excluded. Replaces any other Marquette scholarship or grant, not additional to them.": "До восьми семестров; очный бакалавриат, SAP, хорошая успеваемость и ежегодная международная активность; онлайн исключён. Заменяет любую другую стипендию или грант Marquette, не складывается с ними.",
   "Admission by annual 1 February, then separate Global Scholar application in the admitted-student portal, essay and activities/resume by annual 1 March; finalists video interview. The award date itself has no established 2027 cycle, despite the separate 2027–28 guide.": "Поступление к ежегодному 1 февраля, затем отдельная Global Scholar в кабинете принятого студента, эссе и список активности/резюме к ежегодному 1 марта; финалисты проходят видеоинтервью. Для самого срока награды цикл 2027 не установлен, несмотря на отдельное руководство 2027–28.",
   "Global Scholar — scholarship application": "Global Scholar — заявка на стипендию",
+  "{0}, 23:59 EST": "{0}, 23:59 EST (как указано источником)",
+  "Official sources conflict — award coverage": "Официальные источники расходятся по покрытию награды",
 };

@@ -5070,5 +5070,195 @@
       "permission": "not-yet-requested",
       "downloaded": false
     }
+  },
+  {
+    "id": "university-of-delaware",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:UDMemorialHall1.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; visual/location acceptance pending",
+    "campus": "Memorial Hall, University of Delaware",
+    "access": "html-read",
+    "quote": "University of Delaware's Memorial Hall",
+    "facts": {
+      "author": "Lowell Silverman",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+      "subject": "Memorial Hall, University of Delaware",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "rutgers-university-camden",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:Ru-camden-campus_walk.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; visual/location acceptance pending",
+    "campus": "Rutgers Camden campus walking path",
+    "access": "html-read",
+    "quote": "photo of rutgers camden campus walking path",
+    "facts": {
+      "author": "Henry Montesino (Ears823)",
+      "license": "Public domain",
+      "licenseUrl": "https://en.wikipedia.org/wiki/Public_domain",
+      "subject": "Rutgers Camden campus walking path",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "university-of-illinois-chicago",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:UIC_UniversityHall.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; visual/location acceptance pending",
+    "campus": "University Hall, UIC East Campus",
+    "access": "html-read",
+    "quote": "University of Illinois at Chicago - University Hall at East Campus",
+    "facts": {
+      "author": "Onar Vikingstad",
+      "license": "Public domain",
+      "licenseUrl": "https://en.wikipedia.org/wiki/Public_domain",
+      "subject": "University Hall, UIC East Campus",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "university-of-missouri",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:Jesse_Hall_and_the_Columns_at_Mizzou.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; visual/location acceptance pending",
+    "campus": "Jesse Hall and the Columns, Columbia, Missouri",
+    "access": "html-read",
+    "quote": "A photo taken on a sunny day in Columbia, MO of the Columns with Jesse Hall in the background",
+    "facts": {
+      "author": "Dylanchapell",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "subject": "Jesse Hall and the Columns, Columbia, Missouri",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "auburn-university",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:Auburn_campus_with_Samford_Hall.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; visual/location acceptance pending",
+    "campus": "Samford Hall, Auburn University",
+    "access": "html-read",
+    "quote": "Samford Hall predominant building, located at Auburn University in Auburn, Alabama, USA.",
+    "facts": {
+      "author": "dregsplod / carterse",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "subject": "Samford Hall, Auburn University",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "florida-international-university",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:Eastward_view_of_FIU's_campus.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; visual/location acceptance pending",
+    "campus": "FIU campus, exact campus location requires visual confirmation",
+    "access": "html-read",
+    "quote": "Eastward view of FIU's campus",
+    "facts": {
+      "author": "Eduardo Merille",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "subject": "FIU campus, exact campus location requires visual confirmation",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "university-of-south-florida",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:Marshallstudentcenter4_usf_tampa.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; visual/location acceptance pending",
+    "campus": "Marshall Student Center, USF Tampa",
+    "access": "html-read",
+    "quote": "Marshallstudentcenter4 usf tampa.jpg",
+    "facts": {
+      "author": "FightingRaven531",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "subject": "Marshall Student Center, USF Tampa",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "university-of-california-santa-cruz",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:McHenry_Library.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; visual/location acceptance pending",
+    "campus": "McHenry Library entrance, UC Santa Cruz",
+    "access": "html-read",
+    "quote": "Entrance to McHenry Library at UC Santa Cruz.",
+    "facts": {
+      "author": "MKen",
+      "license": "Public domain",
+      "licenseUrl": "https://en.wikipedia.org/wiki/Public_domain",
+      "subject": "McHenry Library entrance, UC Santa Cruz",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "university-of-colorado-boulder",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:Old_Main_-_Colorado.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; visual/location acceptance pending",
+    "campus": "Old Main, University of Colorado Boulder",
+    "access": "html-read",
+    "quote": "Old Main on the University of Colorado at Boulder campus",
+    "facts": {
+      "author": "MECU",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "subject": "Old Main, University of Colorado Boulder",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
+  },
+  {
+    "id": "university-of-new-hampshire",
+    "topic": "photo-candidate",
+    "source": "https://commons.wikimedia.org/wiki/File:Thompson_Hall,_UNH_1.jpg",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "Campus photograph metadata; visual/location acceptance pending",
+    "campus": "Thompson Hall, University of New Hampshire",
+    "access": "html-read",
+    "quote": "Thompson Hall, UNH",
+    "facts": {
+      "author": "AcrossTheAtlantic",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "subject": "Thompson Hall, University of New Hampshire",
+      "permission": "not-yet-requested",
+      "downloaded": false
+    }
   }
 ]

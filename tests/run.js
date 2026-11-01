@@ -330,6 +330,8 @@ group('profile rendering');
   var masonEnglishHTML = page('george-mason-university').split('id="english"')[1].split('</section>')[0];
   ok(masonEnglishHTML.split(masonEnglish.note).length === 2 && /College of Engineering/.test(masonEnglishHTML),
     'Mason English: shared conditions appear once, with programme-specific exceptions retained');
+  ok(/GPA3.40/.test(page('university-of-georgia')) && /Replaces any other Marquette/.test(page('marquette-university')),
+    'the profile actually displays Foundation Fellowship renewal conditions and Global Scholar no-stacking terms');
   var smuScoped = page('saint-marys-university');
   ok(U.satPolicy(U.uniById('saint-marys-university')) === 'conditional' &&
     U.uniById('saint-marys-university').academics.act.policy === null &&

@@ -179,7 +179,10 @@ module.exports=function(env){
      budget(U.uniById('wabash-college'),100000).status==='unknown',
      'Wabash competitive maximum, earned employment and annual priority are never a guaranteed budget award or confirmed2027 date');
   ok(marq.scholarships.fullRide.available===true&&marq.scholarships.fullRide.status==='conflict'&&
-     U.awardKind(marq)==='full-ride'&&marq.scholarships.fullRide.renewable===true&&
+     U.awardKind(marq)===null&&/conflict/.test(U.awardLabel(marq))&&
+     !U.optionById('scholarship','full-ride').test(marq)&&!U.optionById('scholarship','full-ride-intl').test(marq)&&
+     !U.optionById('scholarship','full-tuition').test(marq)&&
+     marq.scholarships.fullRide.renewable===true&&
      /Replaces any other/.test(marq.scholarships.fullRide.renewalConditions)&&
      marq.admissions.deadlines.some(function(d){return d.awardId==='global-scholar'&&d.status==='annual-rule'&&d.entryYear===null;})&&
      budget(marq,100000).status==='unknown',

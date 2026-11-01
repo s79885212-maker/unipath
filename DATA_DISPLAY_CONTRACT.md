@@ -125,3 +125,14 @@ category: 'merit', deadlineScope: 'annual-rule', entryTerm: null, entryYear: nul
 ## Расчёт годовой нагрузки по курсам
 
 calc=course-load: perCourseMin/perCourseMax — конечные положительные числовые ставки курса, coursesPerYear — положительное целое, min/max равны округлённым произведениям. basis=tuition, period=year, оба HTTPS source/workloadSource и даты verified/workloadVerified, academicYear совпадает с профилем, note обязательна и показывается у scoped-примера. Ряд без подтверждения нагрузки или с неверным произведением не сравнивается. Пример SMU: 3301–3334 за курс, 10 курсов = 33010–33340 CAD; example=true, scopeFields=[business]. Это не новый тип полного бюджета, не годовая конвертация любого тарифа за курс и не стоимость Engineering.
+
+
+## Конфликт покрытия конкретной крупной награды
+
+Существующее необязательное `scholarships.fullRide.status` может быть `conflict`, когда официальные источники расходятся по покрытию. Это не меняет факт существования награды: `available=true` допустимо при прямом подтверждении; опубликованные `covers` и ссылки сохраняются, а `note` объясняет обе стороны противоречия. Старые записи без этого значения работают как раньше.
+
+Пример: `{available:true, status:'conflict', id:'global-scholar', covers:{tuition:true,housing:true,meals:true}, source:'https://www.marquette.edu/tuition-financial-aid/scholarship-global-scholar.php', note:'См. обе официальные страницы и исследовательский отчёт'}`. Это пример контракта, не отдельный источник. Даты награды по прежнему связываются через id/category/intake.
+
+Конфликт показывается общей меткой вместо зелёного full ride в карточках, профиле, подборе, сравнении, избранном и статическом fallback. Он не проходит строгие фильтры full ride, full tuition или any full-level award на основании спорной записи. Независимая подтверждённая награда в списке merit может отдельно соответствовать своему фильтру. Конкурсная награда не вычитается из бюджета.
+
+Для fullRide поле `renewable` остаётся boolean/null, условия — текст `renewalConditions`. У обычной записи `merit[]` существующее текстовое `renewable` не меняется.
