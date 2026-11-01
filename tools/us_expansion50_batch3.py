@@ -129,4 +129,47 @@ r['costs']=costs('2026–2027',s['source'],s['verified'],
   L('Camden tuition, fees, food and housing only','Только обучение, сборы, питание и жильё Camden'),
   tuition=36831,billed=62603,status='previous-cycle',note=L('This is the Camden section of the official2026–27 campus table, not Newark62,049 or New Brunswick62,782. Programme/school and housing choices can change charges. Books, travel, insurance and other international expenses are not established as included in these three lines. No comparable Fall2027 total is assigned and no award is deducted.',
     'Это раздел Camden официальной кампусной таблицы2026–27, не Newark62 049 или New Brunswick62 782. Программа/факультет и жильё могут менять счёт. Книги, дорога, страховка и прочие международные расходы не подтверждены как включённые в эти три строки. Сопоставимый итог осени2027 не назначен; награды не вычтены.'))
+r=records[0];s=src(r['id'],'cost-reference-semester')
+r['costs']=costs('2026–2027',s['source'],s['verified'],
+  L('Out-of-state undergraduate, 12–17 credits per semester, Newark','Бакалавр-нерезидент, 12–17 кредитов за семестр, Newark'),
+  [(L('Tuition per semester','Обучение за семестр'),19113,'billed'),(L('Fees per semester','Сборы за семестр'),2037,'billed')],
+  L('Previous-cycle semester tuition and fees: USD21,150','Обучение и сборы прошлого цикла: 21 150 USD за семестр'),
+  L('USD21,150 per semester; additional costs separate','21 150 USD за семестр; дополнительные расходы отдельно'),
+  L('Published full-time tuition and mandatory fees only','Только опубликованные обучение и обязательные сборы полной нагрузки'),tuition=19113,billed=21150,status='previous-cycle',
+  note=L('The 2026–27 catalogue explicitly gives semester rates, not an annual total or Fall 2027 price. The annual health plan is USD2,028; F-1/J-1 cannot waive it under the catalogue rule, while the Bursar marks that rate pending state approval. International fee USD125 and first-year fee USD280 are additional; an unstated charging interval is not inferred. Newark, Jersey City and online graduate rates are distinct.',
+    'Каталог 2026–27 прямо даёт семестровые ставки, не годовой итог и не цену осени 2027. Годовой медицинский план — 2 028 USD; по правилу каталога F-1/J-1 не могут отказаться, а Bursar помечает ставку как ожидающую утверждения штата. Международный сбор 125 USD и сбор первого курса 280 USD дополнительно; неуказанный период взимания не угадан. Ставки Newark, Jersey City и онлайн graduate различаются.'))
+r['costs']['breakdown']['period']='semester'
+r=records[1];s=src(r['id'],'cost-scope-conflict')
+conflict=L('The I-20 undergraduate table publishes tuition/fees USD32,500, nine-month living USD25,000, separate insurance USD2,300 and total USD59,800; the twelve-month total is USD66,600. The introduction also says living expenses include health insurance. That is an unresolved coverage contradiction, not programme price variation: no insurance amount is automatically added or removed. The academic year is not established by this table; navigation update dates do not prove a Fall 2027 cycle. Neither total confirms a comparable budget.',
+  'Таблица I-20 для бакалавриата публикует обучение/сборы 32 500 USD, жизнь за девять месяцев 25 000, отдельную страховку 2 300 и итог 59 800; итог за двенадцать месяцев — 66 600 USD. Вводный текст также включает страховку в living expenses. Это неразрешённое противоречие состава, не различие цен программ: страховка автоматически не добавлена и не убрана. Учебный год таблицей не установлен; обновления навигации не доказывают цикл осени 2027. Ни один итог не подтверждает сопоставимый бюджет.')
+r['costs']=costs(None,s['source'],s['verified'],FY,[],
+  L('Conflict in scope of an undated I-20 estimate','Конфликт состава сметы I-20 с неустановленным учебным годом'),None,
+  L('Insurance coverage and academic year unresolved','Состав страховки и учебный год не установлены'),status='conflict',note=conflict)
+r['costs']['conflict']={'text':conflict}
+r=records[2];s=src(r['id'],'cost-and-international-award-scope')
+r['costs']=costs('2026–2027',s['source'],s['verified'],
+  L('International full-time undergraduate, Newark, standard housing/food, base before differentials','Иностранный очный бакалавр, Newark, стандартные жильё/питание, база до факультетских доплат'),
+  [(L('Tuition','Обучение'),42470,'billed'),(L('Mandatory fees including international service','Обязательные сборы, включая международный сервис'),2930,'billed'),
+   (L('First-year orientation fee','Ориентационный сбор первого курса'),260,'billed'),(L('Medical insurance','Медицинская страховка'),3888,'billed'),
+   (L('Housing','Жильё'),9286,'billed'),(L('Food','Питание'),7328,'billed'),(L('Indirect expenses','Косвенные расходы'),4250,'estimate')],
+  L('Previous-cycle international base COA: USD70,412','Международная базовая COA прошлого цикла: 70 412 USD'),
+  L('USD70,412 before programme differentials','70 412 USD до факультетских доплат'),
+  L('Published Newark international base estimate','Опубликованная международная базовая смета Newark'),tuition=42470,billed=66162,budget=70412,status='previous-cycle',
+  note=L('2026–27 only, not Fall 2027. The first-year orientation fee is already included. For Fall 2025+ cohorts the page separately lists annual differentials: Engineering USD4,000, Business3,000, Nursing2,500, Honors2,000 and Music1,250. Do not assign this base to every degree or automatically combine differential categories. CS BA and BS routes need their specific college scope. Merit awards are competitive and are not deducted.',
+    'Только 2026–27, не осень 2027. Ориентационный сбор первого курса уже включён. Для наборов с осени 2025 страница отдельно указывает годовые доплаты: Engineering 4 000 USD, Business 3 000, Nursing 2 500, Honors 2 000 и Music 1 250. База не назначается каждой степени; категории доплат автоматически не складываются. Для CS BA и BS нужен конкретный факультет. Академические награды конкурсные и не вычтены.'))
+r['scholarships']['needBased'].update(availableToInternational=False,source=s['source'],verified=s['verified'])
+award=src(r['id'],'eugene-du-pont-award')
+r['scholarships']['fullRide'].update(available=True,internationalEligible=True,basis='merit',
+  name='Eugene du Pont Memorial Distinguished Scholar Scholarship',id='eugene-du-pont',category='merit',
+  entryTerm=None,entryYear=None,deadlineScope='annual-rule',source=award['source'],verified=award['verified'],
+  detailsSource=s['source'],detailsVerified=s['verified'],covers=dict(tuition=True,housing=True,meals=True,books=None,insurance=None),
+  renewable=True,renewalConditions=L('Four years; the international page states a UD GPA of3.0 for continuation. Additional Honors standing and stacking rules remain under review; this is not an admission GPA minimum.',
+    'Четыре года; международная страница указывает GPA университета Delaware 3,0 для продолжения. Дополнительные правила Honors и совместимости ещё проверяются; это не минимум GPA для поступления.'),
+  competitiveness=L('The university calls this its premier scholarship; selected Honors admits are invited for campus interviews. Leadership and intellectual curiosity matter; a current award count has not been verified.',
+    'Университет называет её главной стипендией; отобранных принятых в Honors приглашают на интервью в кампус. Учитываются лидерство и интеллектуальная любознательность; текущее число наград не проверено.'),
+  howToApply=L('Complete the Common/Coalition Early Action application and all materials by annual1 November for Honors consideration. Distinguished Scholars interviews are by invitation. The international page says no separate scholarship application; the general January priority is not substituted. A Fall 2027-specific award cycle is not established.',
+    'Завершите Common/Coalition Early Action и все материалы к ежегодному 1 ноября для Honors. Интервью Distinguished Scholars — по приглашению. Международная страница не требует отдельной стипендиальной формы; общий январский приоритет не подставлен. Отдельный цикл награды осени 2027 не установлен.'),
+  note=L('International eligibility is stated on the international scholarship page; the named Honors page specifies full tuition, standard on-campus room/board and comprehensive health/student-center fees. Health service fees are not proof of medical insurance coverage. Published textbook allowance USD625 each fall/spring and one-time approved enrichment USD5,000 are separate from unlimited books or living support. This is competitive, not guaranteed to every applicant; no amount is deducted from the budget. Honors admitted-score statistics are not entry minima.',
+    'Международная доступность указана на международной странице, а страница конкретной Honors-награды покрывает полное обучение, стандартные жильё/питание в кампусе и comprehensive health/student-center fees. Медицинский сервисный сбор не доказывает покрытие страховки. Опубликованные 625 USD на книги каждый осенний/весенний семестр и однократные 5 000 на утверждённое развитие не означают безлимитные книги или содержание. Это конкурс, не гарантия каждому кандидату; сумма из бюджета не вычтена. Статистика баллов принятых Honors — не вступительные минимумы.'))
+event(r,L('Eugene du Pont — completed admission for Honors consideration','Eugene du Pont — завершённое поступление для рассмотрения Honors'),'admission','1 November',topic='eugene-du-pont-award',award='eugene-du-pont')
 finish(records,3,annual)

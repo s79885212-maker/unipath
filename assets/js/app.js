@@ -717,14 +717,14 @@
      the profile lists no application round for that intake at all. */
   function nextDeadline(u, intake) {
     if (intake === undefined) intake = intakeGet();
-    var all = roundsOf(u).filter(isApplicationDeadline);
+    var all = roundsOf(u).filter(function (d) { return isApplicationDeadline(d) && !d.programmeId; });
     var apps = all.filter(function (d) { return roundInIntake(d, u, intake); });
     if (!apps.length && all.length && intake !== 'all') return { state: 'none', intake: intake };
     var open = apps.filter(function (d) { return roundState(d) === 'upcoming'; })
       .sort(function (a, b) { return String(a.dateISO).localeCompare(String(b.dateISO)); });
     if (open.length) return { state: 'upcoming', round: open[0], label: APPLICATION_KINDS[open[0].kind] || '' };
     if (apps.some(function (d) { return roundState(d) === 'varies'; })) return { state: 'varies' };
-    if (apps.some(function (d) { return roundState(d) === 'closed'; })) return { state: 'closed' };
+    if (apps.length && apps.every(function (d) { return roundState(d) === 'closed'; })) return { state: 'closed' };
     return { state: 'unknown' };
   }
   function roundStatusLabel(d) { return ROUND_STATUS[roundStatus(d)]; }
@@ -1065,7 +1065,11 @@
             if (fullRide(u).status !== 'conflict' && fullRide(u).covers && fullRide(u).covers.tuition === true) return true;
             return awardsAll(u).some(function (m) { return /full tuition|value of tuition|100%|full dues|tuition exemption|full scholarship/i.test(String(m.amount || '')); });
           } },
-        { id: 'merit', label: 'Merit scholarships', test: function (u) { return meritList(u).length > 0; } },
+        { id: 'merit', label: 'Merit scholarships', test: function (u) {
+            var fr = fullRide(u);
+            return meritList(u).length > 0 || (fr.available === true && fr.internationalEligible === true &&
+              ['merit', 'need-merit', 'talent'].indexOf(fr.basis) > -1);
+          } },
         { id: 'need', label: 'Need-based aid for internationals', test: function (u) { return needBased(u).availableToInternational === true; } },
         { id: 'meets-need', label: 'Meets full demonstrated need', test: function (u) { return needBased(u).meetsFullNeed === true; } }
       ]

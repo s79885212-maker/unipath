@@ -34158,7 +34158,8 @@ window.UNIPATH.universities.push(
   "costs": {
     "breakdown": {
       "includes": "Previous available cost year: 2026–2027. These figures are not confirmed prices for Fall 2027 entrants or 2027–2028 and are not used to confirm a budget match. Competitive scholarships have not been deducted.",
-      "budget": 88279
+      "budget": 88279,
+      "period": "year"
     },
     "academicYear": "2026–2027",
     "currency": "USD",
@@ -34170,8 +34171,7 @@ window.UNIPATH.universities.push(
     "billedSubtotal": null,
     "totalText": "2026–2027 published cost reference — not a 2027–2028 quote",
     "note": "Previous available cost year: 2026–2027. These figures are not confirmed prices for Fall 2027 entrants or 2027–2028 and are not used to confirm a budget match. Competitive scholarships have not been deducted. Published nonresident residence-hall total already includes the USD39,270 supplement; three quarters, September–June. Other housing options have different totals; itemised lines still need transcription.",
-    "status": "previous-cycle",
-    "period": "year"
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -34710,7 +34710,8 @@ window.UNIPATH.universities.push(
     "breakdown": {
       "includes": "Previous available cost year: 2026–2027. These figures are not confirmed prices for Fall 2027 entrants or 2027–2028 and are not used to confirm a budget match. Competitive scholarships have not been deducted.",
       "budget": 62146,
-      "budgetMax": 72976
+      "budgetMax": 72976,
+      "period": "year"
     },
     "academicYear": "2026–2027",
     "currency": "USD",
@@ -34744,8 +34745,7 @@ window.UNIPATH.universities.push(
     "billedSubtotal": null,
     "totalText": "2026–2027 published cost reference — not a 2027–2028 quote",
     "note": "Previous available cost year: 2026–2027. These figures are not confirmed prices for Fall 2027 entrants or 2027–2028 and are not used to confirm a budget match. Competitive scholarships have not been deducted. International published range varies with major, housing and lifestyle; it is not a conflict of official sources.",
-    "status": "previous-cycle",
-    "period": "year"
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -35037,7 +35037,8 @@ window.UNIPATH.universities.push(
     "breakdown": {
       "includes": "Previous available cost year: 2026–2027. These figures are not confirmed prices for Fall 2027 entrants or 2027–2028 and are not used to confirm a budget match. Competitive scholarships have not been deducted.",
       "budget": 64204,
-      "budgetMax": 72916
+      "budgetMax": 72916,
+      "period": "year"
     },
     "academicYear": "2026–2027",
     "currency": "USD",
@@ -35077,8 +35078,7 @@ window.UNIPATH.universities.push(
     "billedSubtotal": null,
     "totalText": "2026–2027 published cost reference — not a 2027–2028 quote",
     "note": "Previous available cost year: 2026–2027. These figures are not confirmed prices for Fall 2027 entrants or 2027–2028 and are not used to confirm a budget match. Competitive scholarships have not been deducted. Nonresident full-time undergraduate reference, fall and spring; verify programme-specific rates and international insurance separately.",
-    "status": "previous-cycle",
-    "period": "year"
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -35418,6 +35418,7 @@ window.UNIPATH.universities.push(
   "costs": {
     "breakdown": {
       "includes": "Previous available cost year: 2026–2027. These figures are not confirmed prices for Fall 2027 entrants or 2027–2028 and are not used to confirm a budget match. Competitive scholarships have not been deducted.",
+      "period": "year",
       "tuition": 44232.12
     },
     "academicYear": "2026–2027",
@@ -35441,8 +35442,7 @@ window.UNIPATH.universities.push(
     "billedSubtotal": null,
     "totalText": "2026–2027 published cost reference — not a 2027–2028 quote",
     "note": "Previous available cost year: 2026–2027. These figures are not confirmed prices for Fall 2027 entrants or 2027–2028 and are not used to confirm a budget match. Competitive scholarships have not been deducted. The official annual 2026–27 base tuition and segregated fee total is USD45,931.60. Engineering, Business and Nursing have separate differential increases. This is not a total cost of attendance or a complete international invoice; housing, meals, insurance and any international charges are not established here.",
-    "status": "previous-cycle",
-    "period": "year"
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -35738,7 +35738,8 @@ window.UNIPATH.universities.push(
   "costs": {
     "breakdown": {
       "includes": "Previous available cost year: 2026–2027. These figures are not confirmed prices for Fall 2027 entrants or 2027–2028 and are not used to confirm a budget match. Competitive scholarships have not been deducted.",
-      "billed": 62782
+      "billed": 62782,
+      "period": "year"
     },
     "academicYear": "2026–2027",
     "currency": "USD",
@@ -35766,8 +35767,7 @@ window.UNIPATH.universities.push(
     "billedSubtotal": 62782,
     "totalText": "2026–2027 published cost reference — not a 2027–2028 quote",
     "note": "Previous available cost year: 2026–2027. These figures are not confirmed prices for Fall 2027 entrants or 2027–2028 and are not used to confirm a budget match. Competitive scholarships have not been deducted. New Brunswick nonresident on-campus billed example only, not full cost. F-1/J-1 SAF500, insurance, health services, books and travel/living extras are excluded. Newark/Camden totals differ.",
-    "status": "previous-cycle",
-    "period": "year"
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -36023,7 +36023,8 @@ window.UNIPATH.universities.push(
   "costs": {
     "breakdown": {
       "includes": "Previous available cost year: 2026–2027. These figures are not confirmed prices for Fall 2027 entrants or 2027–2028 and are not used to confirm a budget match. Competitive scholarships have not been deducted.",
-      "budget": 90216
+      "budget": 90216,
+      "period": "year"
     },
     "academicYear": "2026–2027",
     "currency": "USD",
@@ -36091,8 +36092,7 @@ window.UNIPATH.universities.push(
     "billedSubtotal": null,
     "totalText": "2026–2027 published cost reference — not a 2027–2028 quote",
     "note": "Previous available cost year: 2026–2027. These figures are not confirmed prices for Fall 2027 entrants or 2027–2028 and are not used to confirm a budget match. Competitive scholarships have not been deducted. Published sample budget for the 2026 cohort in residence halls, nonresident, 2026–27. This is not the Fall2027 cohort or every housing/programme option. Health care is an allowance; utilities USD0 is explicitly printed for this sample only. The combined tuition/student-services line is not treated as a tuition-only quote. No scholarship is deducted.",
-    "status": "previous-cycle",
-    "period": "year"
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -36411,6 +36411,7 @@ window.UNIPATH.universities.push(
       "includes": "Previous available cost year: 2026–2027. These figures are not confirmed prices for Fall 2027 entrants or 2027–2028 and are not used to confirm a budget match. Competitive scholarships have not been deducted.",
       "billed": 45738,
       "budget": 52156,
+      "period": "year",
       "tuition": 31804
     },
     "academicYear": "2026–2027",
@@ -36459,8 +36460,7 @@ window.UNIPATH.universities.push(
     "billedSubtotal": 45738,
     "totalText": "2026–2027 published cost reference — not a 2027–2028 quote",
     "note": "Previous available cost year: 2026–2027. These figures are not confirmed prices for Fall 2027 entrants or 2027–2028 and are not used to confirm a budget match. Competitive scholarships have not been deducted. Athens standard undergraduate programmes, nonresident, on campus, Fall2026 plus Spring2027. East Campus Village housing adds USD1,376 for that year. Insurance is not separately itemised here. Other programme and housing categories differ. Foundation Fellowship is competitive; neither its maximum stipend nor its tuition waiver is automatically deducted.",
-    "status": "previous-cycle",
-    "period": "year"
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -36956,7 +36956,8 @@ window.UNIPATH.universities.push(
           "quote": "Admission Cycle for Fall 2027."
         },
         "time": "23:59",
-        "timezone": "EST"
+        "timezone": "EST",
+        "programmeId": "pmm-bsmd"
       }
     ],
     "applicationFee": {
@@ -37030,7 +37031,8 @@ window.UNIPATH.universities.push(
   "costs": {
     "breakdown": {
       "includes": "University Park nonresident lower-division base tuition",
-      "tuition": 46356
+      "tuition": 46356,
+      "period": "year"
     },
     "academicYear": "2027–2028",
     "currency": "USD",
@@ -37048,8 +37050,7 @@ window.UNIPATH.universities.push(
     "billedSubtotal": null,
     "totalText": "Tuition only — full cost of attendance not established",
     "note": "2027–28 University Park nonresident first-year/lower-division tuition, 12–19 credits per semester. The university publishes USD46,356 per academic year, not a UniPath multiplication. This is tuition only: student fee USD330 per semester, housing, meals, insurance, books, travel and other charges are additional. Upper-division, other campuses and overload rates differ. Competitive awards are not deducted.",
-    "status": "confirmed",
-    "period": "year"
+    "status": "confirmed"
   },
   "scholarships": {
     "fullRide": {
@@ -39370,14 +39371,58 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": "Published nonresident on-campus budget before aid",
+      "tuition": 44790,
+      "budget": 71470
+    },
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "Nonresident undergraduate, 15–19 credits, on-campus double room and average meal plan",
+    "source": "https://finaid.mines.edu/cost-of-attendance-undergraduate/",
+    "verified": "2026-11-01",
+    "headline": "Previous-cycle published COA: USD71,470, excluding SHIP",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 44790
+      },
+      {
+        "label": "Mandatory fees",
+        "group": "billed",
+        "amount": 3206
+      },
+      {
+        "label": "Housing and food allowance",
+        "group": "billed",
+        "amount": 18900
+      },
+      {
+        "label": "Books and supplies",
+        "group": "estimate",
+        "amount": 1500
+      },
+      {
+        "label": "Personal expenses",
+        "group": "estimate",
+        "amount": 1618
+      },
+      {
+        "label": "Transportation",
+        "group": "estimate",
+        "amount": 1400
+      },
+      {
+        "label": "Federal loan origination fee — conditional",
+        "group": "estimate",
+        "amount": 56
+      }
+    ],
     "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "totalText": "USD71,470; health insurance and other charges may add costs",
+    "note": "2026–27 reference, not Fall 2027. SHIP health insurance is explicitly not automatically included in COA. The USD56 loan fee is a federal-loan origination charge and is not assumed applicable to a foreign student. Mandatory-fee allowance excludes some other charges. Summer/field session costs are separate; the Colorado resident COF allowance is not deducted from this nonresident price.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -39427,6 +39472,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:GuggenheimHall_01Oct2017.jpg"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://finaid.mines.edu/cost-of-attendance-undergraduate/"
     }
   ],
   "verification": {
@@ -39619,7 +39668,7 @@ window.UNIPATH.universities.push(
         "id": "achievement",
         "category": "merit",
         "name": "Achievement Scholarship",
-        "basis": "automatic",
+        "basis": "unknown",
         "amount": "Up to USD89,100 over four years",
         "eligibility": "International first-year students: confirmed nonresidency, UC eligibility and submitted SIR. Considered automatically; an award is not guaranteed.",
         "renewable": "Maintain a3.0 GPA each quarter; further stacking or renewal conditions still require review.",
@@ -39628,7 +39677,7 @@ window.UNIPATH.universities.push(
         "entryYear": null,
         "source": "https://discover.ucr.edu/international",
         "verified": "2026-10-31",
-        "note": "Standing published amount; a Fall2027-specific award cycle and largest-award comparison are not established. This is not full tuition or full ride and is not deducted from cost."
+        "note": "Standing published amount; a Fall2027-specific award cycle and largest-award comparison are not established. Automatic consideration does not mean an award to every eligible admitted student; the selection basis is not explicitly established here. This is not full tuition or full ride and is not deducted from cost."
       }
     ],
     "needBased": {
@@ -39878,14 +39927,34 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": "Published full-time tuition and mandatory fees only",
+      "tuition": 19113,
+      "billed": 21150,
+      "period": "semester"
+    },
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
-    "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "studentCategory": "Out-of-state undergraduate, 12–17 credits per semester, Newark",
+    "source": "https://catalog.njit.edu/undergraduate/admissions-financial-aid/tuition-fees/",
+    "verified": "2026-11-01",
+    "headline": "Previous-cycle semester tuition and fees: USD21,150",
+    "items": [
+      {
+        "label": "Tuition per semester",
+        "group": "billed",
+        "amount": 19113
+      },
+      {
+        "label": "Fees per semester",
+        "group": "billed",
+        "amount": 2037
+      }
+    ],
+    "billedSubtotal": 21150,
+    "totalText": "USD21,150 per semester; additional costs separate",
+    "note": "The 2026–27 catalogue explicitly gives semester rates, not an annual total or Fall 2027 price. The annual health plan is USD2,028; F-1/J-1 cannot waive it under the catalogue rule, while the Bursar marks that rate pending state approval. International fee USD125 and first-year fee USD280 are additional; an unstated charging interval is not inferred. Newark, Jersey City and online graduate rates are distinct.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -39939,6 +40008,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:NJIT-Eberhardt-Hall.jpg"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://catalog.njit.edu/undergraduate/admissions-financial-aid/tuition-fees/"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.njit.edu/bursar/tuition-and-fee-schedule"
     }
   ],
   "verification": {
@@ -40122,14 +40199,23 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
+    "breakdown": {
+      "includes": "Insurance coverage and academic year unresolved"
+    },
     "academicYear": null,
     "currency": "USD",
-    "headline": null,
+    "studentCategory": "International first-year bachelor applicants",
+    "source": "https://www.buffalo.edu/international-student-services/for-new-students/request-your-i-20/estimated-expenses.html",
+    "verified": "2026-11-01",
+    "headline": "Conflict in scope of an undated I-20 estimate",
     "items": [],
     "billedSubtotal": null,
     "totalText": null,
-    "note": null
+    "note": "The I-20 undergraduate table publishes tuition/fees USD32,500, nine-month living USD25,000, separate insurance USD2,300 and total USD59,800; the twelve-month total is USD66,600. The introduction also says living expenses include health insurance. That is an unresolved coverage contradiction, not programme price variation: no insurance amount is automatically added or removed. The academic year is not established by this table; navigation update dates do not prove a Fall 2027 cycle. Neither total confirms a comparable budget.",
+    "status": "conflict",
+    "conflict": {
+      "text": "The I-20 undergraduate table publishes tuition/fees USD32,500, nine-month living USD25,000, separate insurance USD2,300 and total USD59,800; the twelve-month total is USD66,600. The introduction also says living expenses include health insurance. That is an unresolved coverage contradiction, not programme price variation: no insurance amount is automatically added or removed. The academic year is not established by this table; navigation update dates do not prove a Fall 2027 cycle. Neither total confirms a comparable budget."
+    }
   },
   "scholarships": {
     "fullRide": {
@@ -40187,6 +40273,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:Hayes_hall_on_UB_south_campus.jpg"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.buffalo.edu/international-student-services/for-new-students/request-your-i-20/estimated-expenses.html"
     }
   ],
   "verification": {
@@ -40278,6 +40368,29 @@ window.UNIPATH.universities.push(
           "entryTerm": null,
           "entryYear": null
         }
+      },
+      {
+        "name": "Eugene du Pont — completed admission for Honors consideration",
+        "kind": "admission",
+        "date": "1 November",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "binding": null,
+        "source": "https://www.udel.edu/apply/undergraduate-admissions/explore-majors-and-enrichment/honors/",
+        "verified": "2026-10-31",
+        "appliesTo": "International first-year bachelor applicants",
+        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.udel.edu/apply/undergraduate-admissions/explore-majors-and-enrichment/honors/",
+          "verified": "2026-10-31",
+          "entryTerm": null,
+          "entryYear": null
+        },
+        "awardId": "eugene-du-pont",
+        "awardCategory": "merit"
       }
     ],
     "applicationFee": {
@@ -40350,40 +40463,98 @@ window.UNIPATH.universities.push(
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": "Published Newark international base estimate",
+      "tuition": 42470,
+      "billed": 66162,
+      "budget": 70412
+    },
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
-    "billedSubtotal": null,
-    "totalText": null,
-    "note": null
+    "studentCategory": "International full-time undergraduate, Newark, standard housing/food, base before differentials",
+    "source": "https://www.udel.edu/apply/undergraduate-admissions/financing-your-degree/international-students/",
+    "verified": "2026-11-01",
+    "headline": "Previous-cycle international base COA: USD70,412",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 42470
+      },
+      {
+        "label": "Mandatory fees including international service",
+        "group": "billed",
+        "amount": 2930
+      },
+      {
+        "label": "First-year orientation fee",
+        "group": "billed",
+        "amount": 260
+      },
+      {
+        "label": "Medical insurance",
+        "group": "billed",
+        "amount": 3888
+      },
+      {
+        "label": "Housing",
+        "group": "billed",
+        "amount": 9286
+      },
+      {
+        "label": "Food",
+        "group": "billed",
+        "amount": 7328
+      },
+      {
+        "label": "Indirect expenses",
+        "group": "estimate",
+        "amount": 4250
+      }
+    ],
+    "billedSubtotal": 66162,
+    "totalText": "USD70,412 before programme differentials",
+    "note": "2026–27 only, not Fall 2027. The first-year orientation fee is already included. For Fall 2025+ cohorts the page separately lists annual differentials: Engineering USD4,000, Business3,000, Nursing2,500, Honors2,000 and Music1,250. Do not assign this base to every degree or automatically combine differential categories. CS BA and BS routes need their specific college scope. Merit awards are competitive and are not deducted.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
-      "available": null,
-      "internationalEligible": null,
-      "basis": null,
+      "available": true,
+      "internationalEligible": true,
+      "basis": "merit",
       "covers": {
-        "tuition": null,
-        "housing": null,
-        "meals": null,
-        "insurance": null,
-        "books": null
+        "tuition": true,
+        "housing": true,
+        "meals": true,
+        "books": null,
+        "insurance": null
       },
-      "renewable": null,
-      "competitiveness": null,
-      "howToApply": null,
-      "note": null
+      "renewable": true,
+      "competitiveness": "The university calls this its premier scholarship; selected Honors admits are invited for campus interviews. Leadership and intellectual curiosity matter; a current award count has not been verified.",
+      "howToApply": "Complete the Common/Coalition Early Action application and all materials by annual1 November for Honors consideration. Distinguished Scholars interviews are by invitation. The international page says no separate scholarship application; the general January priority is not substituted. A Fall 2027-specific award cycle is not established.",
+      "note": "International eligibility is stated on the international scholarship page; the named Honors page specifies full tuition, standard on-campus room/board and comprehensive health/student-center fees. Health service fees are not proof of medical insurance coverage. Published textbook allowance USD625 each fall/spring and one-time approved enrichment USD5,000 are separate from unlimited books or living support. This is competitive, not guaranteed to every applicant; no amount is deducted from the budget. Honors admitted-score statistics are not entry minima.",
+      "name": "Eugene du Pont Memorial Distinguished Scholar Scholarship",
+      "id": "eugene-du-pont",
+      "category": "merit",
+      "entryTerm": null,
+      "entryYear": null,
+      "deadlineScope": "annual-rule",
+      "source": "https://www.udel.edu/apply/undergraduate-admissions/explore-majors-and-enrichment/honors/",
+      "verified": "2026-11-01",
+      "detailsSource": "https://www.udel.edu/apply/undergraduate-admissions/financing-your-degree/international-students/",
+      "detailsVerified": "2026-11-01",
+      "renewalConditions": "Four years; the international page states a UD GPA of3.0 for continuation. Additional Honors standing and stacking rules remain under review; this is not an admission GPA minimum."
     },
     "merit": [],
     "needBased": {
-      "availableToInternational": null,
+      "availableToInternational": false,
       "meetsFullNeed": null,
       "needBlindInternational": null,
       "forms": [],
       "deadlines": null,
-      "note": null
+      "note": null,
+      "source": "https://www.udel.edu/apply/undergraduate-admissions/financing-your-degree/international-students/",
+      "verified": "2026-11-01"
     }
   },
   "photos": {
@@ -40407,6 +40578,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Campus photo candidate — file and licence, not installed",
       "url": "https://commons.wikimedia.org/wiki/File:UDMemorialHall1.jpg"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.udel.edu/apply/undergraduate-admissions/financing-your-degree/international-students/"
+    },
+    {
+      "label": "Official university page",
+      "url": "https://www.udel.edu/apply/undergraduate-admissions/explore-majors-and-enrichment/honors/"
     }
   ],
   "verification": {
@@ -44562,7 +44741,7 @@ window.UNIPATH.universities.push(
         "binding": null,
         "source": "https://apply.yu.edu/deadlines",
         "verified": "2026-10-31",
-        "appliesTo": "International first-year bachelor applicants",
+        "appliesTo": "Honors programme applicants only",
         "note": "Honors route; its binding agreement has not been verified separately. Do not infer the terms from the round name alone.",
         "cycleEvidence": {
           "basis": "page-context",
@@ -44571,7 +44750,8 @@ window.UNIPATH.universities.push(
           "entryTerm": "Autumn",
           "entryYear": "2027",
           "quote": "Fall 2027"
-        }
+        },
+        "programmeId": "honors"
       }
     ],
     "applicationFee": {

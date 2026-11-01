@@ -116,14 +116,14 @@ for i,r in enumerate(records):
   english(r,6.5,80,4.5,115,L('First-year English thresholds from the campus page; no IELTS One Skill Retake or TOEFL MyBest. Digital SAT Reading/Writing is not an approved English-proof route. Campus selection may be more competitive than these minimum conditions.',
     'Пороги английского первого курса со страницы кампуса; IELTS One Skill Retake и TOEFL MyBest не принимаются. Digital SAT Reading/Writing не является утверждённой заменой английского. Отбор кампуса может быть конкурснее этих минимальных условий.'))
   r['admissions']['platforms']=['University of California application']
-  r['scholarships']['merit']=[dict(id='achievement',category='merit',name='Achievement Scholarship',basis='automatic',
+  r['scholarships']['merit']=[dict(id='achievement',category='merit',name='Achievement Scholarship',basis='unknown',
     amount=L('Up to USD89,100 over four years','До89 100USD за четыре года'),
     eligibility=L('International first-year students: confirmed nonresidency, UC eligibility and submitted SIR. Considered automatically; an award is not guaranteed.',
       'Иностранные первокурсники: подтверждённое нерезидентство, выполнение условий UC и поданный SIR. Рассмотрение автоматическое; получение не гарантировано.'),
     renewable=L('Maintain a3.0 GPA each quarter; further stacking or renewal conditions still require review.',
       'Сохраняйте GPA3,0 каждую четверть; дополнительные условия совместимости или продления ещё проверяются.'),deadlineScope='no-separate-application',entryTerm=None,entryYear=None,source=src(uid,'international-first-year-admission')['source'],verified=DAY,
-    note=L('Standing published amount; a Fall2027-specific award cycle and largest-award comparison are not established. This is not full tuition or full ride and is not deducted from cost.',
-      'Опубликованная сумма без отдельного установленного цикла Fall2027; сравнение с крупнейшей наградой не завершено. Это не полное покрытие обучения или full ride, из стоимости сумма не вычитается.'))]
+    note=L('Standing published amount; a Fall2027-specific award cycle and largest-award comparison are not established. Automatic consideration does not mean an award to every eligible admitted student; the selection basis is not explicitly established here. This is not full tuition or full ride and is not deducted from cost.',
+      'Опубликованная сумма без отдельного установленного цикла Fall2027; сравнение с крупнейшей наградой не завершено. Автоматическое рассмотрение не означает награду каждому подходящему принятому студенту; основание отбора здесь прямо не установлено. Это не полное покрытие обучения или full ride, из стоимости сумма не вычитается.'))]
 # These two references are explicitly historical and preserve housing/cohort scope.
 r=records[1];s=src(r['id'],'cost-reference')
 r['costs']=costs('2026–2027',s['source'],'2026-11-01',FY,
@@ -177,4 +177,16 @@ conflict=L('Both pages label2026–27 non-South-Carolina undergraduate costs. Ad
   'Обе страницы называют2026–27 и бакалавриат нерезидента Южной Каролины. Приём указывает tuition/fees42 852USD; Financial Aid — обучение42 020 плюс сборы1 832 =43 852USD (сумма UniPath). Разница1 000USD не разрешена и не названа различием программ. Итог приёма60 308 исключает прочие расходы и несопоставим с полной COA66 180 (68 704 с ноутбуком). Это прошлогодние справочные суммы, не тарифы осени2027; достаточность бюджета не подтверждается.')
 r['costs']=costs('2026–2027',s['source'],DAY,FY,[],L('Conflict in previous-year official tuition/fee figures','Конфликт прошлогодних официальных сумм обучения/сборов'),None,L('Comparable scope unresolved','Сопоставимость области не разрешена'),status='conflict',note=conflict)
 r['costs']['conflict']={'text':conflict}
+r=records[8];s=src(r['id'],'cost-reference')
+r['costs']=costs('2026–2027',s['source'],s['verified'],
+  L('Nonresident undergraduate, 15–19 credits, on-campus double room and average meal plan','Бакалавр-нерезидент, 15–19 кредитов, двухместное общежитие и средний план питания'),
+  [(L('Tuition','Обучение'),44790,'billed'),(L('Mandatory fees','Обязательные сборы'),3206,'billed'),
+   (L('Housing and food allowance','Смета жилья и питания'),18900,'billed'),(L('Books and supplies','Книги и материалы'),1500,'estimate'),
+   (L('Personal expenses','Личные расходы'),1618,'estimate'),(L('Transportation','Транспорт'),1400,'estimate'),
+   (L('Federal loan origination fee — conditional','Сбор федерального кредита — условный'),56,'estimate')],
+  L('Previous-cycle published COA: USD71,470, excluding SHIP','Опубликованная COA прошлого цикла: 71 470 USD без SHIP'),
+  L('USD71,470; health insurance and other charges may add costs','71 470 USD; страховка и другие сборы могут добавлять расходы'),
+  L('Published nonresident on-campus budget before aid','Опубликованная смета нерезидента в кампусе до помощи'),tuition=44790,budget=71470,status='previous-cycle',
+  note=L('2026–27 reference, not Fall 2027. SHIP health insurance is explicitly not automatically included in COA. The USD56 loan fee is a federal-loan origination charge and is not assumed applicable to a foreign student. Mandatory-fee allowance excludes some other charges. Summer/field session costs are separate; the Colorado resident COF allowance is not deducted from this nonresident price.',
+    'Ориентир 2026–27, не осени 2027. Страховка SHIP прямо не включается в COA автоматически. Сбор 56 USD относится к выдаче федерального кредита и не считается автоматически применимым к иностранцу. Смета обязательных сборов исключает часть других платежей. Лето/полевая сессия отдельно; льгота COF резидента Колорадо из этой цены нерезидента не вычитается.'))
 finish(records,2,annual)

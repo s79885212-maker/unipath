@@ -87,7 +87,7 @@ def historical_cost(r,topic,items,total=None,hi=None,billed=None,note=None):
     c=costs('2026–2027',s['source'],s['verified'],FY,items,headline,headline,PREVIOUS,
             billed=billed,budget=total,budget_max=hi,status='previous-cycle',note=L(
                 str(PREVIOUS)+' '+note[0],str(PREVIOUS.ru)+' '+note[1]) if note else PREVIOUS)
-    c['period']='year'; r['costs']=c; r['links']['cost']=s['source']
+    c['breakdown']['period']='year'; r['costs']=c; r['links']['cost']=s['source']
 
 # A short description states the verified admission/programme scope, not a
 # guessed institutional history, ranking, comprehensive language or aid promise.
@@ -267,7 +267,7 @@ policy(r,'pmm-cycle-exception','conditional',pmm_note)
 for key in ('sat','act'):
     r['academics'][key]['label']=L('Optional except accelerated Premedical-Medical BS/MD','Необязательны, кроме ускоренной Premedical-Medical BS/MD')
 d=event(L('Accelerated Premedical-Medical BS/MD — closed','Ускоренная Premedical-Medical BS/MD — приём закрыт'),'admission','2026-10-13',pmm,confirmed=True,time='23:59',zone='EST')
-d.update(appliesTo=L('Current school seniors applying to the accelerated PMM programme only','Только выпускной класс школы и ускоренная программа PMM'),note=pmm_note)
+d.update(programmeId='pmm-bsmd',appliesTo=L('Current school seniors applying to the accelerated PMM programme only','Только выпускной класс школы и ускоренная программа PMM'),note=pmm_note)
 r['admissions']['deadlines'].append(d)
 
 # Additional published historical references: no Fall2027 comparison is inferred.
@@ -315,7 +315,7 @@ r['costs']=costs('2027–2028',s['source'],s['verified'],
     L('Published 2027–28 annual tuition: USD46,356','Опубликованное годовое обучение 2027–28: 46 356 USD'),
     L('Tuition only — full cost of attendance not established','Только обучение — полная стоимость COA не установлена'),
     L('University Park nonresident lower-division base tuition','Базовое обучение нерезидента lower division в University Park'),tuition=46356,status='confirmed',note=psu_cost_scope)
-r['costs']['period']='year';r['links']['cost']=s['source']
+r['costs']['breakdown']['period']='year';r['links']['cost']=s['source']
 current_annual={r['id']:dict(currency='USD',basis='tuition',period='year',min=46356,max=46356,academicYear='2027–2028',source=s['source'],verified=s['verified'],note=psu_cost_scope)}
 
 r=new[1];s=next(x for x in evidence if x['id']==r['id'] and x['topic']=='cost-reference-unavailable')

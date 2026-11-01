@@ -215,4 +215,35 @@ module.exports=function(env){
      [nw,cam].every(function(u){return u.costs.status==='previous-cycle'&&U.costArithmetic(u).length===0&&
        !DB.match.annualCost[u.id]&&budget(u,100000).status==='unknown';})&&/School of Arts and Sciences/.test(nw.costs.studentCategory),
      'Rutgers Newark and Camden preserve separate historical billed estimates, campus/school scope and unknown full international budgets');
+  ok(U.nextDeadline(pmm,'all').state==='unknown'&&U.roundsOf(pmm).some(function(d){return d.programmeId==='pmm-bsmd'&&d.status==='confirmed';}),
+     'a closed PMM-only application remains in the profile but cannot mark Penn State general admission closed');
+  var uncertainRounds=JSON.parse(JSON.stringify(pmm));
+  uncertainRounds.admissions.deadlines.forEach(function(d){delete d.programmeId;});
+  ok(U.nextDeadline(uncertainRounds,'all').state==='unknown',
+     'one closed round alongside an unconfirmed general round cannot claim all admission is closed');
+  var yu=U.uniById('yeshiva-university');
+  ok(U.roundsOf(yu).some(function(d){return d.programmeId==='honors'&&d.dateISO==='2026-11-02';})&&
+     U.nextDeadline(yu,'all').round.dateISO==='2027-02-01',
+     'Yeshiva Honors application keeps its own scope and does not replace the general February deadline');
+  var njit=U.uniById('new-jersey-institute-of-technology'),ub=U.uniById('university-at-buffalo'),mines=U.uniById('colorado-school-of-mines');
+  ok(njit.costs.breakdown.period==='semester'&&U.tuitionAmount(njit)===19113&&/semester/.test(U.cardCost(njit).suffix)&&
+     !DB.match.annualCost[njit.id]&&budget(njit,100000).status==='unknown'&&U.costArithmetic(njit).length===0,
+     'NJIT historical semester tuition/fees is never displayed or compared as annual cost');
+  ok(U.costStatus(ub)==='conflict'&&[null,0,100000].every(function(b){return budget(ub,b).status==='conflict';})&&
+     !DB.match.annualCost[ub.id]&&/academic year is not established/.test(ub.costs.conflict.text),
+     'Buffalo undated insurance/living coverage conflict is visible with empty, zero and high budgets');
+  ok(U.budgetAmount(mines)===71470&&mines.costs.status==='previous-cycle'&&U.costArithmetic(mines).length===0&&
+     /SHIP/.test(mines.costs.note)&&!DB.match.annualCost[mines.id]&&budget(mines,100000).status==='unknown',
+     'Mines historical published COA keeps excluded SHIP and conditional federal-loan fee, not a confirmed2027 budget');
+  var del=U.uniById('university-of-delaware'),dup=del.scholarships.fullRide;
+  ok(U.awardKind(del)==='full-ride'&&dup.id==='eugene-du-pont'&&dup.internationalEligible===true&&dup.renewable===true&&
+     dup.covers.books===null&&dup.covers.insurance===null&&U.awardDates(del,dup).every(function(d){return d.status==='annual-rule'&&d.entryYear===null&&d.kind==='admission';})&&
+     del.scholarships.needBased.availableToInternational===false&&budget(del,100000).status==='unknown',
+     'Delaware named premier award has Honors/international scope, allowance versus insurance distinctions and linked annual admission priority, never guaranteed net cost');
+  ok(U.optionById('scholarship','merit').test(del),
+     'verified international merit at the largest-award level is included in the merit filter');
+  var riverside=U.uniById('university-of-california-riverside');
+  var achievement=U.awardsAll(riverside).filter(function(a){return a.id==='achievement';})[0];
+  ok(achievement.basis==='unknown'&&!U.meritList(riverside).some(function(a){return a.id==='achievement';})&&/Automatic consideration does not mean/.test(achievement.note),
+     'Riverside automatic consideration is not relabelled as a guaranteed award to every eligible admitted student');
 };

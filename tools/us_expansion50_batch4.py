@@ -110,8 +110,9 @@ for i,r in enumerate(records):
   english(r,7,82,None,115,L('Published IELTS7, TOEFL82 on the old scale and DET115. A new TOEFL1–6 threshold is not printed and is not guessed. If records are not in English or Hebrew, the source calls for certified translation/evaluation by a NACES-approved agency.',
     'Опубликованы IELTS7, TOEFL82 старой шкалы и DET115. Новый порог TOEFL1–6 не напечатан и не угадан. Для документов не на английском или иврите источник требует заверенный перевод/оценку агентства NACES.'))
   event(r,'Regular Decision','RD','2027-02-01',topic='admission-deadlines',cycle_quote='Fall 2027')
-  event(r,L('Early Decision Honors','Early Decision Honors'),'ED','2026-11-02',topic='admission-deadlines',cycle_quote='Fall 2027',note=L('Honors route; its binding agreement has not been verified separately. Do not infer the terms from the round name alone.',
+  honors=event(r,L('Early Decision Honors','Early Decision Honors'),'ED','2026-11-02',topic='admission-deadlines',cycle_quote='Fall 2027',note=L('Honors route; its binding agreement has not been verified separately. Do not infer the terms from the round name alone.',
     'Маршрут Honors; условия обязательности отдельно не проверены. Они не выводятся только из названия раунда.'))
+  honors.update(programmeId='honors',appliesTo=L('Honors programme applicants only','Только кандидаты программы Honors'))
   scope=L('The verified Computer Science BS belongs to Yeshiva College for Men. Stern College for Women and its programmes are separate; this degree, campus and conditions are not automatically assigned to Stern. Undergraduate Torah/Jewish studies requirements also need programme-specific review.',
     'Проверенная Computer Science BS относится к Yeshiva College for Men. Stern College for Women и его программы отдельные; эта степень, кампус и условия не назначены Stern автоматически. Требования Torah/Jewish studies также проверяются по конкретной программе.')
   r['programNote']=L(str(PARTIAL)+' '+str(scope),PARTIAL.ru+' '+scope.ru)

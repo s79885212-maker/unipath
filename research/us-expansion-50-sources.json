@@ -5884,5 +5884,166 @@
       "internationalServiceFee": "500 per fall/spring term, additional to mandatory fees",
       "application": "No university-wide amount or comparable Fall2027 annualCost assigned from one school"
     }
+  },
+  {
+    "id": "new-jersey-institute-of-technology",
+    "topic": "cost-reference-semester",
+    "source": "https://catalog.njit.edu/undergraduate/admissions-financial-aid/tuition-fees/",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "international first-year bachelor; exact campus/year/award scope in facts",
+    "campus": null,
+    "access": "html-read",
+    "quote": "Tuition and Fees Assessed (per Semester)",
+    "facts": {
+      "academicYear": "2026–2027",
+      "category": "Out-of-state undergraduate full-time12–17 credits",
+      "period": "semester",
+      "tuition": 19113,
+      "fees": 2037,
+      "publishedSemesterTotal": 21150,
+      "healthInsurance": "2028 annual; F1/J1 cannot waive according to catalogue",
+      "otherFees": "International125 and first-year280, interval not inferred",
+      "annualCost2027": null
+    }
+  },
+  {
+    "id": "new-jersey-institute-of-technology",
+    "topic": "cost-bursar-scope",
+    "source": "https://www.njit.edu/bursar/tuition-and-fee-schedule",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "international first-year bachelor; exact campus/year/award scope in facts",
+    "campus": null,
+    "access": "html-read",
+    "quote": "For Undergraduates, a flat rate applies to tuition charges for 12–17 credits.",
+    "facts": {
+      "academicYear": "FY2026–FY2027",
+      "period": "Fall/Spring flat-rate12–17 credits",
+      "insurance": "Annual2028 marked pending state approval, subject to change",
+      "scope": "Newark undergraduate, not Jersey City/online graduate; amount images not read here"
+    }
+  },
+  {
+    "id": "university-at-buffalo",
+    "topic": "cost-scope-conflict",
+    "source": "https://www.buffalo.edu/international-student-services/for-new-students/request-your-i-20/estimated-expenses.html",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "international first-year bachelor; exact campus/year/award scope in facts",
+    "campus": null,
+    "access": "html-read",
+    "quote": "Undergraduate: Full-Time Estimate (12 credits per semester)",
+    "facts": {
+      "academicYear": null,
+      "publishedEstimate": "I20 undergraduate twelve credits/semester",
+      "nineMonths": {
+        "tuitionFees": 32500,
+        "living": 25000,
+        "insurance": 2300,
+        "total": 59800
+      },
+      "twelveMonths": {
+        "tuitionFees": 32500,
+        "living": 31800,
+        "insurance": 2300,
+        "total": 66600
+      },
+      "conflict": "Intro says living expenses include health insurance, while insurance also appears separately. Do not remove/add2300 automatically; coverage unresolved.",
+      "scope": "Published I20 estimate, academic year not established; nav review dates do not establish a cohort",
+      "annualCost2027": null
+    }
+  },
+  {
+    "id": "university-of-delaware",
+    "topic": "cost-and-international-award-scope",
+    "source": "https://www.udel.edu/apply/undergraduate-admissions/financing-your-degree/international-students/",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "international first-year bachelor; exact campus/year/award scope in facts",
+    "campus": null,
+    "access": "html-read",
+    "quote": "2026-2027 International Student Newark Campus Rates",
+    "facts": {
+      "academicYear": "2026–2027",
+      "campus": "Newark",
+      "category": "International undergraduate12+ credits, standard housing/food",
+      "tuition": 42470,
+      "mandatoryFees": 2930,
+      "orientationFirstYear": 260,
+      "insurance": 3888,
+      "housing": 9286,
+      "food": 7328,
+      "publishedBilled": 66162,
+      "indirect": 4250,
+      "publishedCOA": 70412,
+      "differentials": "Engineering4000/year; Business3000/Nursing2500/Honors2000/Music1250 for Fall2025+ cohorts",
+      "aid": "No international need-based aid; competitive Distinguished Scholars open internationally, four years with3.0UD GPA; all foreign freshmen considered automatically, no extra scholarship application",
+      "annualCost2027": null
+    }
+  },
+  {
+    "id": "university-of-delaware",
+    "topic": "eugene-du-pont-award",
+    "source": "https://www.udel.edu/apply/undergraduate-admissions/explore-majors-and-enrichment/honors/",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "international first-year bachelor; exact campus/year/award scope in facts",
+    "campus": null,
+    "access": "html-read",
+    "quote": "This is the premier scholarship offered by UD.",
+    "facts": {
+      "name": "Eugene du Pont Memorial Distinguished Scholar Scholarship",
+      "coverage": "Four years tuition, standard on-campus room/board, comprehensive health and student center fees; health fee is not proof of insurance coverage",
+      "allowances": "625 each fall/spring for textbooks; one-time5000 approved enrichment",
+      "process": "Complete Common/Coalition with Early Action by annualNov1 for Honors consideration; selected Honors admits invited to campus interviews for Distinguished Scholars",
+      "intakeYear": null,
+      "statistics": "Honors admitted mid50GPA/SAT and derived ACT not general entry minima",
+      "stacking": "not reviewed"
+    }
+  },
+  {
+    "id": "colorado-school-of-mines",
+    "topic": "cost-reference",
+    "source": "https://finaid.mines.edu/cost-of-attendance-undergraduate/",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "international first-year bachelor; exact campus/year/award scope in facts",
+    "campus": null,
+    "access": "html-read",
+    "quote": "2026-2027 Cost of Attendance: Non-Resident Undergraduates",
+    "facts": {
+      "academicYear": "2026–2027",
+      "category": "On-campus nonresident undergraduate15–19credits, nine-month living estimate",
+      "tuition": 44790,
+      "mandatoryFees": 3206,
+      "housingFood": 18900,
+      "books": 1500,
+      "personal": 1618,
+      "transport": 1400,
+      "federalLoanOriginationFee": 56,
+      "publishedCOA": 71470,
+      "excluded": "SHIP insurance not automatically included; orientation/other fees may add. Federal-loan fee not assumed applicable to foreign student. COF resident allowance not subtracted from nonresident price.",
+      "annualCost2027": null
+    }
+  },
+  {
+    "id": "university-of-california-riverside",
+    "topic": "award-consideration-scope",
+    "source": "https://discover.ucr.edu/international",
+    "verified": "2026-11-01",
+    "intake": null,
+    "category": "international first-year Achievement Scholarship; consideration versus entitlement",
+    "campus": "Riverside",
+    "access": "html-read",
+    "quote": "are automatically considered to receive the Achievement Scholarship",
+    "facts": {
+      "consideration": "Automatic with acceptance, not guaranteed award",
+      "amount": "Up to89100over4years, not annual and not guaranteed",
+      "eligibility": "Confirmed nonresident, UC eligibility, SIR",
+      "renewal": "UCR college GPA3.0 each academic quarter, not high-school admission minimum",
+      "selectionBasis": "Not explicitly established on this paragraph; do not classify as given to every eligible admitted student",
+      "cycle": "Fall2027 award cycle not established"
+    }
   }
 ]
