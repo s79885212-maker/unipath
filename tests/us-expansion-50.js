@@ -319,6 +319,15 @@ module.exports=function(env){
      !DB.match.annualCost[stevens.id]&&budget(stevens,100000).status==='unknown'&&/federal loans/.test(stevens.costs.note),
      'Stevens previous-year COA keeps the federal-loan-only fee conditional and cannot confirm a Fall2027 budget');
   var wabashAward=U.uniById('wabash-college').scholarships.merit[0];
+  var hillInternational=hill.scholarships.merit.find(function(a){return a.id==='hillsdale-international-tuition';});
+  ok(hillInternational&&/Up to tuition/.test(hillInternational.amount)&&/not automatically the renewal threshold/.test(hillInternational.renewable)&&
+     /off-campus/.test(hillInternational.note)&&hill.scholarships.fullRide.available===null&&
+     sf.scholarships.needBased.availableToInternational===false&&sf.scholarships.merit[0].amount===null&&/explicit first-year payment period/.test(sf.scholarships.merit[0].note),
+     'Hillsdale mixed-basis tuition maximum does not inherit merit-only renewal or become full ride; San Francisco does not borrow a transfer amount period');
+  ok(fiuMajors.programEvidence.biology&&/Maidique and Biscayne Bay/.test(fiuMajors.programEvidence.biology.campus)&&
+     /Biological Sciences, B.S./.test(fiuMajors.programEvidence.biology.program)&&!fiuMajors.programEvidence.business&&
+     !U.optionById('field','biology').test(fiuMajors,{language:['english-yes']}),
+     'FIU department explicitly supports its two-campus biology degree but not unrelated accounting campus or an inferred English match');
   var fiuAid=U.uniById('florida-international-university').scholarships.merit.find(function(a){return a.id==='fiu-gold-blue';});
   var ucscAid=U.uniById('university-of-california-santa-cruz').scholarships.merit.find(function(a){return a.id==='ucsc-undergraduate-dean';});
   ok(fiuAid&&/over four years/.test(fiuAid.amount)&&fiuAid.entryYear===null&&/cycle is inconsistent/.test(fiuAid.application)&&

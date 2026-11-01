@@ -2265,9 +2265,10 @@
       "fields": {
         "programmes": {
           "status": "partial",
-          "notes": "1 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
+          "notes": "2 подтверждённых областей; полный каталог/ограничения приёма ещё проверяются",
           "evidence": [
-            "https://cec.fiu.edu/degrees-programs/undergraduate/bs-in-computer-science/"
+            "https://cec.fiu.edu/degrees-programs/undergraduate/bs-in-computer-science/",
+            "https://case.fiu.edu/biology/students/undergraduate-programs/index.html"
           ]
         },
         "language": {
@@ -3406,12 +3407,14 @@
           ]
         },
         "awards": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
             "namedLargest": null,
             "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
           },
-          "evidence": []
+          "evidence": [
+            "https://catalog.hillsdale.edu/welcome-to-hillsdale-college/financial-aid-without-regard-to-need"
+          ]
         },
         "photo": {
           "status": "confirmed",
@@ -3571,12 +3574,14 @@
           ]
         },
         "awards": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
             "namedLargest": null,
             "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
           },
-          "evidence": []
+          "evidence": [
+            "https://www.usfca.edu/admission/undergraduate/international-cost-scholarship"
+          ]
         },
         "photo": {
           "status": "confirmed",
@@ -3654,12 +3659,14 @@
           ]
         },
         "awards": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
             "namedLargest": null,
             "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
           },
-          "evidence": []
+          "evidence": [
+            "https://www.gmu.edu/international/financial-aid"
+          ]
         },
         "photo": {
           "status": "confirmed",
@@ -3733,12 +3740,14 @@
           ]
         },
         "awards": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
             "namedLargest": null,
             "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
           },
-          "evidence": []
+          "evidence": [
+            "https://www.albany.edu/international-admissions/apply-international-undergraduate-student"
+          ]
         },
         "photo": {
           "status": "confirmed",
@@ -3895,12 +3904,14 @@
           ]
         },
         "awards": {
-          "status": "unknown",
+          "status": "partial",
           "notes": {
             "namedLargest": null,
             "limitation": "Ключевые merit/need программы, ограничения, renewal/stacking и сроки ещё исследуются"
           },
-          "evidence": []
+          "evidence": [
+            "https://udayton.edu/tuition-aid/international/undergraduate.php"
+          ]
         },
         "photo": {
           "status": "confirmed",

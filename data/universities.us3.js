@@ -43641,7 +43641,7 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "UIC’s nonresident merit tuition award explicitly requires US citizenship or permanent residence. Chancellor’s Fellows Fall 2027 requires an Illinois high-school graduating senior and FAFSA/RISE eligibility. These are not assigned to an ordinary F-1 applicant finishing school in Uzbekistan. Other college/Honors awards may have different rules; the largest eligible international first-year award is not established."
     },
     "merit": [],
     "needBased": {
@@ -43697,6 +43697,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Cost — reviewed official scope and period",
       "url": "https://ois.uic.edu/immigration/estimated-expenses/"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://scholarships.uic.edu/scholarships/uic-scholarships/scholarships-for-first-year-students/"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://ois.uic.edu/programs/scholarships-and-awards/"
     }
   ],
   "verification": {
@@ -44392,7 +44400,7 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "Direct international admission and Auburn Global are separate routes. The direct admissions page mentions AUSOM general/departmental scholarships but does not establish a particular award or amount; it prints annual February 12 while the current general FAQ prints February 16. Auburn Global separately restricts its students to the award made during Global admission. Do not assign general nonresident merit maxima or pathway-only restrictions to all international students. Largest eligible award and renewal remain unresolved."
     },
     "merit": [],
     "needBased": {
@@ -44444,6 +44452,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://bulletin.auburn.edu/undergraduate/majors/"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://global.auburn.edu/student-resources/"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://www.auburn.edu/admissions/faq.php"
     }
   ],
   "verification": {
@@ -44457,7 +44473,7 @@ window.UNIPATH.universities.push(
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
-  "lastVerified": "2026-11-01",
+  "lastVerified": "2026-11-02",
   "aliases": [],
   "programsBasis": "evidence",
   "programsStatus": "partial",
@@ -44551,10 +44567,11 @@ window.UNIPATH.universities.push(
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
-    "computer-science"
+    "computer-science",
+    "biology"
   ],
   "englishTaughtPrograms": [],
-  "programNote": "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+  "programNote": "Partial verified majors. FIU Biological Sciences explicitly identifies both MMC and Biscayne Bay; check the exact degree location and delivery. The separate BA has an online option and does not establish an on-campus F-1 route. Other programme-campus links remain under review.",
   "links": {
     "website": "https://www.fiu.edu/",
     "admissions": "https://admissions.fiu.edu/international/incoming-freshmen/index.html",
@@ -44562,7 +44579,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": null,
     "scholarships": null,
     "financialAid": null,
-    "programs": "https://cec.fiu.edu/degrees-programs/undergraduate/bs-in-computer-science/",
+    "programs": "https://case.fiu.edu/biology/students/undergraduate-programs/index.html",
     "cost": "https://onestop.fiu.edu/finances/estimate-your-costs/"
   },
   "admissions": {
@@ -44846,6 +44863,10 @@ window.UNIPATH.universities.push(
     {
       "label": "International aid — reviewed eligibility and limits",
       "url": "https://scholarships.fiu.edu/browse-scholarships/merit-scholarships/policies-renewal/index.html"
+    },
+    {
+      "label": "Undergraduate majors — named campus programmes",
+      "url": "https://case.fiu.edu/biology/students/undergraduate-programs/index.html"
     }
   ],
   "verification": {
@@ -44855,7 +44876,7 @@ window.UNIPATH.universities.push(
     ],
     "unconfirmed": [
       "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
-      "Only the named bachelor programmes have been verified. The list is partial; an unlisted field may still exist. Programme language has not been confirmed from an explicit statement.",
+      "Partial verified majors. FIU Biological Sciences explicitly identifies both MMC and Biscayne Bay; check the exact degree location and delivery. The separate BA has an online option and does not establish an on-campus F-1 route. Other programme-campus links remain under review.",
       "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
     ]
   },
@@ -44873,6 +44894,14 @@ window.UNIPATH.universities.push(
       "campus": "Miami",
       "url": "https://cec.fiu.edu/degrees-programs/undergraduate/bs-in-computer-science/",
       "checked": "2026-10-31"
+    },
+    "biology": {
+      "program": "Biological Sciences, B.S.",
+      "level": "bachelor",
+      "language": null,
+      "campus": "Modesto A. Maidique and Biscayne Bay; programme-level location and delivery must be checked",
+      "url": "https://case.fiu.edu/biology/students/undergraduate-programs/index.html",
+      "checked": "2026-11-02"
     }
   }
 },
@@ -50026,14 +50055,33 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": null
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "hillsdale-international-tuition",
+        "category": "merit",
+        "basis": "merit",
+        "name": "International tuition scholarship",
+        "amount": "Up to tuition; limited number of awards",
+        "eligibility": "Foreign students; academic achievement and financial need. General academic-merit awards are considered automatically at acceptance, but the international mixed-basis process must be checked separately.",
+        "renewable": "General aid up to eight full-time semesters if criteria met. Non-need merit requires cumulative college GPA 3.0; this is not automatically the renewal threshold of the mixed need/international award.",
+        "application": "Need assessment uses Hillsdale Confidential Family Financial Statement; CSS Profile may also be submitted. Exact international scheme deadline and application requirements need confirmation.",
+        "note": "2026–27 catalogue, not a confirmed 2027–28 amount. Up to tuition is not guaranteed full tuition or housing. Scholarships/grants exclude off-campus room/board, single-room premium, discretionary fees and books unless specifically included. Stacking not established.",
+        "deadlineScope": "not-confirmed",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://catalog.hillsdale.edu/welcome-to-hillsdale-college/financial-aid-without-regard-to-need",
+        "verified": "2026-11-02"
+      }
+    ],
     "needBased": {
-      "availableToInternational": null,
+      "availableToInternational": true,
       "meetsFullNeed": null,
       "needBlindInternational": null,
-      "forms": [],
+      "forms": [
+        "Hillsdale Confidential Family Financial Statement; CSS Profile may also be submitted"
+      ],
       "deadlines": null,
-      "note": null
+      "note": "Limited international tuition awards consider financial need and academic achievement. No federal or state aid is accepted by Hillsdale; this does not mean international institutional aid is absent. Full demonstrated need is not promised."
     }
   },
   "photos": {
@@ -50072,6 +50120,18 @@ window.UNIPATH.universities.push(
     {
       "label": "Cost — reviewed official scope and period",
       "url": "https://www.hillsdale.edu/admissions-aid/financial-aid/tuition-and-costs/"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://catalog.hillsdale.edu/welcome-to-hillsdale-college/financial-aid-without-regard-to-need"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://catalog.hillsdale.edu/welcome-to-hillsdale-college/financial-aid"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://www.hillsdale.edu/admissions-aid/financial-aid/scholarships/"
     }
   ],
   "verification": {
@@ -50659,14 +50719,31 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": null
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "usfca-international-first-year-merit",
+        "category": "merit",
+        "basis": "merit",
+        "name": "International first-year merit awards",
+        "amount": null,
+        "eligibility": "Fall 2027 international first-year applicants, evaluated using USF-calculated core GPA. Hilltop nursing and Fresh Start have alternative award processes.",
+        "renewable": "Renewable each year for up to four years with Satisfactory Academic Progress; specific GPA threshold and stacking not established here",
+        "application": "First-year merit selection based on admission credentials; exact 2027 scholarship deadline not established here",
+        "note": "The Fall 2027 table prints University USD 36,000, Presidential 34,000, Provost 32,000, Hilltop 30,000, Ignatius 27,000, Dons 20,000 under Amount, without an explicit first-year payment period. The transfer table explicitly says per year and is not borrowed. Merit is tuition-only; no full tuition for international students. The USD 94,6922027–28 Certification of Finances is an immigration estimate, not an actual bill or budget match.",
+        "deadlineScope": "not-confirmed",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://www.usfca.edu/admission/undergraduate/international-cost-scholarship",
+        "verified": "2026-11-02"
+      }
+    ],
     "needBased": {
-      "availableToInternational": null,
-      "meetsFullNeed": null,
+      "availableToInternational": false,
+      "meetsFullNeed": false,
       "needBlindInternational": null,
       "forms": [],
       "deadlines": null,
-      "note": null
+      "note": "Official international page states that international students are not eligible for need-based financial aid. Merit and external funding are separate."
     }
   },
   "photos": {
@@ -50717,6 +50794,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Cost — reviewed official scope and period",
       "url": "https://myusf.usfca.edu/billing-tuition/tuition-fees"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://www.usfca.edu/admission/undergraduate/international-cost-scholarship"
     }
   ],
   "verification": {
@@ -51042,7 +51123,24 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": null
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "mason-international-merit",
+        "category": "merit",
+        "basis": "merit",
+        "name": "International freshman merit consideration",
+        "amount": null,
+        "eligibility": "Highly qualified nonimmigrant, nonresident, degree-seeking international first-year students studying full-time on F-1",
+        "renewable": "Up to four years for freshmen, based on good academic standing; exact GPA/credit conditions not printed here",
+        "application": "Automatic review of admitted applicants; no separate scholarship application",
+        "note": "Limited competitive awards; amount, stacking and cycle-specific priority require further evidence. Mason Korea entrance awards are not Fairfax funding. No federal aid for ordinary international noncitizens.",
+        "deadlineScope": "no-separate-application",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://www.gmu.edu/international/financial-aid",
+        "verified": "2026-11-02"
+      }
+    ],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,
@@ -51112,6 +51210,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Cost — reviewed official scope and period",
       "url": "https://www.gmu.edu/admissions-aid/cost-attendance"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://www.gmu.edu/international/financial-aid"
     }
   ],
   "verification": {
@@ -51376,7 +51478,24 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": null
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "albany-global-excellence",
+        "category": "merit",
+        "basis": "merit",
+        "name": "Global Excellence Scholarship",
+        "amount": "Up to USD 20,500/year; potential USD 82,000 over four years",
+        "eligibility": "Incoming international first-year students selected by academic achievement and other admissions-committee criteria",
+        "renewable": "College GPA 2.5 or higher, continuous full-time enrolment and out-of-state tuition status",
+        "application": "Admission-committee selection; exact separate application or Fall 2027 scholarship deadline not established here",
+        "note": "Year of the amount table and stacking not established. The transfer maximum USD 14,500 and generic domestic awards are not used for this first-year award. Conditional maximum, not guaranteed funding.",
+        "deadlineScope": "not-confirmed",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://www.albany.edu/international-admissions/apply-international-undergraduate-student",
+        "verified": "2026-11-02"
+      }
+    ],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,
@@ -51707,7 +51826,7 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "UCF Student Financial Assistance says its office does not award scholarships for non-US citizens, while general admissions material says first-year applicants are considered for merit. This does not establish Pegasus/Provost eligibility or a guaranteed award for an ordinary F-1 applicant. International private/external scholarships and their tax review remain separate. Named eligible award, amount, renewal and stacking are unresolved."
     },
     "merit": [],
     "needBased": {
@@ -51755,6 +51874,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Cost — reviewed official scope and period",
       "url": "https://www.ucf.edu/admissions/undergraduate/tuition-aid/"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://www.ucf.edu/financial-aid/apply/international/"
     }
   ],
   "verification": {
@@ -52021,7 +52144,24 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": null
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "dayton-international-merit",
+        "category": "merit",
+        "basis": "merit",
+        "name": "International merit scholarship",
+        "amount": "Up to USD 34,000/year toward tuition",
+        "eligibility": "International undergraduate applicants; complete admission application and required documents",
+        "renewable": null,
+        "application": "Automatically considered when application and required documents are received",
+        "note": "The university explicitly does not offer full tuition scholarships. Amount is a competitive maximum; current page places costs under Fall 2026, but does not independently label this award amount 2027–28. Renewal, stacking and cycle-specific deadline remain unconfirmed. No aid is deducted from conflicting gross costs.",
+        "deadlineScope": "no-separate-application",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://udayton.edu/tuition-aid/international/undergraduate.php",
+        "verified": "2026-11-02"
+      }
+    ],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,
@@ -52415,7 +52555,7 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "The nonresident table describes Stamps/McNair/Horseshoe and Academic Scholar awards, but nonresident is not independent proof of international F-1 eligibility. Stamps/McNair include an in-state tuition reduction plus a stipend, not an automatic full-cost grant to every applicant. General FAQ allows specific supplements/Provost stacking, with COA limits. A named international first-year award, exact cycle and applicable renewal remain unconfirmed; no nonresident maximum is assigned without that link."
     },
     "merit": [],
     "needBased": {
@@ -52467,6 +52607,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Cost — reviewed official scope and period",
       "url": "https://www.sc.edu/about/offices_and_divisions/bursar/tuition_and_required_fees/index.php"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://www.sc.edu/about/offices_and_divisions/financial_aid/scholarships/scholarships_for_nonresidents/index.php"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://www.sc.edu/about/offices_and_divisions/undergraduate_admissions/tuition_scholarships/scholarship_faqs/index.php"
     }
   ],
   "verification": {
@@ -53033,7 +53181,7 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "The accessible 2026–27 catalogue lists Powell USD 40,000/year and separate academic merit awards, full-time renewal and only the most advantageous academic award when several apply. It does not itself confirm international first-year eligibility of each scheme. The linked international FAQ returned 403, so Powell international eligibility,2027 amounts, deadline and detailed renewal are not installed from search previews. Unknown aid is not recorded as no scholarships."
     },
     "merit": [],
     "needBased": {
@@ -53085,6 +53233,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://catalog.pacific.edu/uop/schoolofengineeringandcomputerscience/"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://catalog.pacific.edu/uop/generalinformation/scholarshipsandgrants/"
     }
   ],
   "verification": {
