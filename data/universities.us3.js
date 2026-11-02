@@ -34567,7 +34567,9 @@ window.UNIPATH.universities.push(
       "source": "https://admission.universityofcalifornia.edu/apply-now.html",
       "verified": "2026-10-31"
     },
-    "documents": [],
+    "documents": [
+      "Apply through UC. Official certificates and detailed academic records are sent directly to Undergraduate Admissions only when requested. The catalogue includes old2021/2022 exam alternatives; they are not projected onto2027. The exact Uzbek Attestat/lyceum equivalence is not established."
+    ],
     "recommendations": null,
     "essay": null,
     "interview": null,
@@ -40199,7 +40201,9 @@ window.UNIPATH.universities.push(
       "source": "https://admissions.rutgers.edu/apply/first-year-applicants",
       "verified": "2026-10-31"
     },
-    "documents": [],
+    "documents": [
+      "Current international high-school students self-report courses, grades, GPA and class rank in STARS. Official documents are required for admitted students to enrol. Non-English records need a translation verified by a language professor or professional translator on professional letterhead. Transfer and nontraditional school-leaving routes have separate rules; exact Uzbek qualification is not named here."
+    ],
     "recommendations": null,
     "essay": null,
     "interview": null,
@@ -41395,12 +41399,17 @@ window.UNIPATH.universities.push(
       }
     ],
     "applicationFee": {
-      "amount": null,
+      "amount": 75,
       "currency": "USD",
       "waiverAvailableToInternational": null,
-      "waiver": null
+      "waiver": null,
+      "note": "International first-year application fee. Common App/Golden App waiver eligibility depends on the application questions; no blanket waiver is assumed.",
+      "source": "https://undergraduate-admissions.mines.edu/prospective-student-families/",
+      "verified": "2026-11-02"
     },
-    "documents": [],
+    "documents": [
+      "High-school transcript/marksheets: school may send official records or an unofficial copy may be uploaded initially. Study outside the US requires a credential evaluation with certified English translation, subject to listed exceptions. On enrolling, final original-language and English records must come from the school. Personal statement and recommendations optional. Financial proof is required only after admission and commitment, through ISSS. Exact Uzbek diploma/lyceum equivalence is not established."
+    ],
     "recommendations": null,
     "essay": null,
     "interview": null,
@@ -41409,25 +41418,58 @@ window.UNIPATH.universities.push(
     ]
   },
   "english": {
-    "ielts": null,
-    "toefl": null,
-    "duolingo": null,
-    "waiver": null,
-    "note": null
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "sections": "No band below6.0",
+      "note": "Official IELTS/Indicator; published superscoring and two-year validity rules apply"
+    },
+    "toefl": {
+      "min": null,
+      "recommended": null,
+      "status": "conflict",
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 79,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": null,
+          "recommended": null,
+          "status": "conflict"
+        }
+      ],
+      "note": "Official requirements conflict on the new scale: introductory paragraph minimum4.5, detailed table total4.0 (Listening4.5, Reading/Writing/Speaking4.0). No single new-scale minimum is selected. Old table prints79 with Reading20, Listening21, Writing17, Speaking21. The page labels tables before/after20January2026; this wording is preserved rather than silently corrected. Two-year validity and no expiry during the application process; official results before immigration-document issue."
+    },
+    "duolingo": {
+      "min": 105,
+      "recommended": null,
+      "sections": "No subscore below100"
+    },
+    "waiver": "Four US-high-school years, or junior/senior US years with SAT Verbal550/ACT English23; listed citizenship exemptions. Prior English-medium schooling elsewhere is not a blanket waiver.",
+    "note": "General international first-year English proof is required on admission/enrolment unless a published exception applies. IELTS6.5/sections6.0 and DET105/subscores100 are distinct confirmed requirements. TOEFL new-scale total conflicts within the same official page; see both versions below. These exam requirements do not establish teaching language.",
+    "detailsSource": "https://undergraduate-admissions.mines.edu/international-first-year-requirements/",
+    "detailsVerified": "2026-11-02"
   },
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not checked: the official international admissions page returns403 and the fee FAQ could not be read. Search snippets are leads only; SAT/ACT, English thresholds and the international application fee remain unconfirmed.",
+      "policy": "conditional",
+      "note": "Directly read international first-year rule: SAT/ACT not required unless planning NCAA sport. This does not remove English proof, school-record evaluation or NCAA eligibility requirements. No general SAT minimum is inferred.",
       "source": "https://undergraduate-admissions.mines.edu/international-first-year-requirements/",
-      "verified": "2026-10-31"
+      "verified": "2026-11-02",
+      "label": "SAT/ACT not required except NCAA sports participation",
+      "cycle": "Standing international first-year rule; Fall2027 application page context"
     },
     "act": {
-      "policy": null,
-      "note": "Not checked: the official international admissions page returns403 and the fee FAQ could not be read. Search snippets are leads only; SAT/ACT, English thresholds and the international application fee remain unconfirmed.",
+      "policy": "conditional",
+      "note": "Directly read international first-year rule: SAT/ACT not required unless planning NCAA sport. This does not remove English proof, school-record evaluation or NCAA eligibility requirements. No general SAT minimum is inferred.",
       "source": "https://undergraduate-admissions.mines.edu/international-first-year-requirements/",
-      "verified": "2026-10-31"
+      "verified": "2026-11-02",
+      "label": "SAT/ACT not required except NCAA sports participation",
+      "cycle": "Standing international first-year rule; Fall2027 application page context"
     },
     "otherTests": null,
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
@@ -41565,6 +41607,10 @@ window.UNIPATH.universities.push(
     {
       "label": "International aid — reviewed eligibility and limits",
       "url": "https://undergraduate-admissions.mines.edu/prospective-student-families/"
+    },
+    {
+      "label": "First-year documents and testing — reviewed scope",
+      "url": "https://undergraduate-admissions.mines.edu/international-first-year-requirements/"
     }
   ],
   "verification": {
@@ -43230,7 +43276,9 @@ window.UNIPATH.universities.push(
       "source": "https://admissions.rutgers.edu/apply/first-year-applicants",
       "verified": "2026-10-31"
     },
-    "documents": [],
+    "documents": [
+      "Current international high-school students self-report courses, grades, GPA and class rank in STARS. Official documents are required for admitted students to enrol. Non-English records need a translation verified by a language professor or professional translator on professional letterhead. Transfer and nontraditional school-leaving routes have separate rules; exact Uzbek qualification is not named here."
+    ],
     "recommendations": null,
     "essay": null,
     "interview": null,

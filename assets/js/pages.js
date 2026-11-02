@@ -250,7 +250,7 @@
     function testRow(label, t) {
       if (!t) return row(label, UNKNOWN);
       var v = [];
-      if (U.testVaries(t)) {
+      if (U.testVaries(t) && t.status !== 'conflict') {
         v.push('<strong class="req-varies">' + esc(U.variesLabel(t)) + '</strong>');
         if (has(t.min)) v.push('<span>University-wide minimum: <strong>' + esc(band(t.min)) + '</strong></span>');
         if (t.profiles && t.profiles.length) v.push(profileList(t));
@@ -265,7 +265,9 @@
         if (label !== 'TOEFL' || typeof x !== 'number') return '';
         return x <= 6 ? ' <span class="small muted">(1–6 scale, tests from 21 Jan 2026)</span>' : ' <span class="small muted">(0–120 scale, tests before 21 Jan 2026)</span>';
       }
-      if (t.accepted === false || t.status === 'not-accepted') {
+      if (t.status === 'conflict' && !(t.scales && t.scales.length)) {
+        v.push('<strong class="warn-text">' + esc(U.testStatusLabel(t)) + '</strong>');
+      } else if (t.accepted === false || t.status === 'not-accepted') {
         v.push('<strong class="warn-text">Not accepted</strong>');
       } else if (t.scales && t.scales.length) {
         v = U.toeflLines(u).map(function (l) { return '<strong>' + esc(l) + '</strong>'; });

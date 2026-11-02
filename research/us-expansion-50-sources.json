@@ -14080,5 +14080,181 @@
         }
       }
     }
+  },
+  {
+    "id": "colorado-school-of-mines",
+    "topic": "remaining-first-year-review",
+    "source": "https://undergraduate-admissions.mines.edu/international-first-year-requirements/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "Direct international first-year; credential evaluation, NCAA testing exception and TOEFL internal conflict",
+    "campus": "Golden",
+    "access": "html-read",
+    "quote": "Mines does not require SAT/ACT results for international students unless you are planning to play a NCAA sport.",
+    "facts": {
+      "publicAdmissionDocuments": [
+        {
+          "en": "High-school transcript/marksheets: school may send official records or an unofficial copy may be uploaded initially. Study outside the US requires a credential evaluation with certified English translation, subject to listed exceptions. On enrolling, final original-language and English records must come from the school. Personal statement and recommendations optional. Financial proof is required only after admission and commitment, through ISSS. Exact Uzbek diploma/lyceum equivalence is not established.",
+          "ru": "Школьный табель: школа может отправить официальный документ либо первично допустима загрузка неофициальной копии. Учёба за пределами США требует оценки документов и заверенного английского перевода с перечисленными исключениями. При зачислении итоговые оригинал и английская версия должны поступить от школы. Личное заявление и рекомендации необязательны. Финансовое подтверждение нужно только после поступления и решения зачислиться, через ISSS. Точное соответствие узбекского аттестата/лицея не установлено."
+        }
+      ],
+      "publicTestingPolicy": {
+        "policy": "conditional",
+        "cycle": "Standing international first-year rule; Fall2027 application page context",
+        "scopeQuote": "unless you are planning to play a NCAA sport",
+        "label": {
+          "en": "SAT/ACT not required except NCAA sports participation",
+          "ru": "SAT/ACT не нужны, кроме участия в спорте NCAA"
+        },
+        "note": {
+          "en": "Directly read international first-year rule: SAT/ACT not required unless planning NCAA sport. This does not remove English proof, school-record evaluation or NCAA eligibility requirements. No general SAT minimum is inferred.",
+          "ru": "Прямо прочитанное международное правило первокурсника: SAT/ACT не нужны, кроме планирования спорта NCAA. Это не отменяет английский, оценку школьных документов и требования NCAA. Общий минимум SAT не выведен."
+        }
+      },
+      "publicEnglish": {
+        "ielts": {
+          "min": 6.5,
+          "recommended": null,
+          "sections": {
+            "en": "No band below6.0",
+            "ru": "Ни одна секция не ниже 6,0"
+          },
+          "note": {
+            "en": "Official IELTS/Indicator; published superscoring and two-year validity rules apply",
+            "ru": "Официальный IELTS/Indicator; применяются опубликованные правила superscoring и двухлетней действительности"
+          }
+        },
+        "toefl": {
+          "min": null,
+          "recommended": null,
+          "status": "conflict",
+          "scales": [
+            {
+              "period": "pre2026",
+              "min": 79,
+              "recommended": null
+            },
+            {
+              "period": "post2026",
+              "min": null,
+              "recommended": null,
+              "status": "conflict"
+            }
+          ],
+          "note": {
+            "en": "Official requirements conflict on the new scale: introductory paragraph minimum4.5, detailed table total4.0 (Listening4.5, Reading/Writing/Speaking4.0). No single new-scale minimum is selected. Old table prints79 with Reading20, Listening21, Writing17, Speaking21. The page labels tables before/after20January2026; this wording is preserved rather than silently corrected. Two-year validity and no expiry during the application process; official results before immigration-document issue.",
+            "ru": "Официальные требования новой шкалы противоречат: вводный абзац минимум 4,5, подробная таблица итог 4,0 (Listening 4,5, Reading/Writing/Speaking 4,0). Единый минимум новой шкалы не выбран. Старая таблица печатает 79: Reading 20, Listening 21, Writing 17, Speaking 21. Страница подписывает таблицы «до/после 20 января 2026»; формулировка сохранена, а не молча исправлена. Действительность два года без истечения при рассмотрении; официальные результаты до выдачи иммиграционного документа."
+          }
+        },
+        "duolingo": {
+          "min": 105,
+          "recommended": null,
+          "sections": {
+            "en": "No subscore below100",
+            "ru": "Ни один подраздел не ниже 100"
+          }
+        },
+        "waiver": {
+          "en": "Four US-high-school years, or junior/senior US years with SAT Verbal550/ACT English23; listed citizenship exemptions. Prior English-medium schooling elsewhere is not a blanket waiver.",
+          "ru": "Четыре года школы США либо выпускные два года США с SAT Verbal 550/ACT English 23; перечисленные исключения по гражданству. Предшествующая англоязычная школа в другой стране не является всеобщим освобождением."
+        },
+        "note": {
+          "en": "General international first-year English proof is required on admission/enrolment unless a published exception applies. IELTS6.5/sections6.0 and DET105/subscores100 are distinct confirmed requirements. TOEFL new-scale total conflicts within the same official page; see both versions below. These exam requirements do not establish teaching language.",
+          "ru": "Общее международное подтверждение английского нужно при поступлении/зачислении, если не действует опубликованное исключение. IELTS 6,5/секции 6,0 и DET 105/подразделы 100 — отдельные подтверждённые требования. Итог TOEFL новой шкалы противоречит сам себе на официальной странице; обе версии ниже. Требования экзаменов не устанавливают язык обучения."
+        }
+      },
+      "toeflNewScaleConflict": {
+        "introduction": 4.5,
+        "tableTotal": 4.0
+      },
+      "evaluationExceptions": [
+        "Only grade9 internationally, grades10–12 US",
+        "IB schools in US/abroad",
+        "Fully sponsored eligible embassy/organisation agreement"
+      ],
+      "generalFall2027Dates": {
+        "priority": "2026-11-01",
+        "regular": "2027-01-15",
+        "basis": "Fall2027 heading immediately before same-page deadline section"
+      }
+    }
+  },
+  {
+    "id": "colorado-school-of-mines",
+    "topic": "remaining-first-year-review",
+    "source": "https://undergraduate-admissions.mines.edu/prospective-student-families/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "International first-year application fee, not domestic60",
+    "campus": "Golden",
+    "access": "html-read",
+    "quote": "$75 for international first-year applicants",
+    "facts": {
+      "publicApplicationFee": {
+        "amount": 75,
+        "currency": "USD",
+        "note": {
+          "en": "International first-year application fee. Common App/Golden App waiver eligibility depends on the application questions; no blanket waiver is assumed.",
+          "ru": "Сбор международного первокурсника. Право на освобождение Common App/Golden App зависит от вопросов заявки; всеобщее освобождение не предполагается."
+        }
+      }
+    }
+  },
+  {
+    "id": "rutgers-university-newark",
+    "topic": "remaining-first-year-review",
+    "source": "https://admissions.rutgers.edu/apply/international-applicants",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "Current international high-school students; not transfer credential paragraph",
+    "campus": "Newark",
+    "access": "html-read",
+    "quote": "Official documents are required for admitted students to enroll.",
+    "facts": {
+      "publicAdmissionDocuments": [
+        {
+          "en": "Current international high-school students self-report courses, grades, GPA and class rank in STARS. Official documents are required for admitted students to enrol. Non-English records need a translation verified by a language professor or professional translator on professional letterhead. Transfer and nontraditional school-leaving routes have separate rules; exact Uzbek qualification is not named here.",
+          "ru": "Текущие ученики международных школ указывают предметы, оценки, GPA и ранг класса в STARS. Официальные документы нужны зачисленным для начала обучения. Для неанглийских документов нужен перевод, проверенный преподавателем языка или профессиональным переводчиком на профессиональном бланке. У transfer и нетрадиционных окончаний школы отдельные правила; точный узбекский документ здесь не назван."
+        }
+      ]
+    }
+  },
+  {
+    "id": "rutgers-university-camden",
+    "topic": "remaining-first-year-review",
+    "source": "https://admissions.rutgers.edu/apply/international-applicants",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "Current international high-school students; not transfer credential paragraph",
+    "campus": "Camden",
+    "access": "html-read",
+    "quote": "Official documents are required for admitted students to enroll.",
+    "facts": {
+      "publicAdmissionDocuments": [
+        {
+          "en": "Current international high-school students self-report courses, grades, GPA and class rank in STARS. Official documents are required for admitted students to enrol. Non-English records need a translation verified by a language professor or professional translator on professional letterhead. Transfer and nontraditional school-leaving routes have separate rules; exact Uzbek qualification is not named here.",
+          "ru": "Текущие ученики международных школ указывают предметы, оценки, GPA и ранг класса в STARS. Официальные документы нужны зачисленным для начала обучения. Для неанглийских документов нужен перевод, проверенный преподавателем языка или профессиональным переводчиком на профессиональном бланке. У transfer и нетрадиционных окончаний школы отдельные правила; точный узбекский документ здесь не назван."
+        }
+      ]
+    }
+  },
+  {
+    "id": "university-of-california-irvine",
+    "topic": "remaining-first-year-review",
+    "source": "https://catalogue.uci.edu/informationforprospectivestudents/undergraduateadmissions/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "2026–27 catalogue international undergraduate records; old dated exam alternatives not projected",
+    "campus": "Irvine",
+    "access": "html-read",
+    "quote": "Official certificates and detailed transcripts of records should be submitted directly to the UCI Office of Undergraduate Admissions only when requested.",
+    "facts": {
+      "publicAdmissionDocuments": [
+        {
+          "en": "Apply through UC. Official certificates and detailed academic records are sent directly to Undergraduate Admissions only when requested. The catalogue includes old2021/2022 exam alternatives; they are not projected onto2027. The exact Uzbek Attestat/lyceum equivalence is not established.",
+          "ru": "Подача через UC. Официальные свидетельства и подробные академические документы отправляются напрямую Undergraduate Admissions только по запросу. Каталог содержит старые экзаменационные альтернативы 2021/2022; они не перенесены на 2027. Точное соответствие узбекского аттестата/лицея не установлено."
+        }
+      ]
+    }
   }
 ]

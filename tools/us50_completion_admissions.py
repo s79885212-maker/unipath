@@ -21,9 +21,18 @@ def text(value):
     assert set(value) == {'en', 'ru'}
     return L(value['en'], value['ru'])
 
+def translate(value):
+    if isinstance(value, dict):
+        if set(value) == {'en', 'ru'}:
+            return text(value)
+        return {key: translate(item) for key, item in value.items()}
+    if isinstance(value, list):
+        return [translate(item) for item in value]
+    return value
+
 for evidence in sources:
     facts = evidence.get('facts') or {}
-    if not any(k in facts for k in ('publicAdmissionDocuments', 'publicTestingPolicy')):
+    if not any(k in facts for k in ('publicAdmissionDocuments', 'publicTestingPolicy', 'publicEnglish', 'publicApplicationFee')):
         continue
     assert evidence['id'] in allowed and evidence['access'] in ('html-read', 'pdf-read')
     u = byid[evidence['id']]
@@ -45,6 +54,18 @@ for evidence in sources:
                             source=evidence['source'], verified=evidence['verified'])
             u['academics'][exam] = previous
         testing.add(u['id'])
+    if facts.get('publicEnglish'):
+        english = translate(facts['publicEnglish'])
+        for test in ('ielts', 'toefl', 'duolingo'):
+            if test in english:
+                assert english[test] is None or isinstance(english[test], dict)
+        u['english'].update(english)
+        u['english'].update(detailsSource=evidence['source'], detailsVerified=evidence['verified'])
+    if facts.get('publicApplicationFee'):
+        fee = translate(facts['publicApplicationFee'])
+        assert fee['currency'] == 'USD' and (fee['amount'] is None or fee['amount'] >= 0)
+        fee.update(source=evidence['source'], verified=evidence['verified'])
+        u['admissions']['applicationFee'].update(fee)
     if not any(s['url'] == evidence['source'] for s in u['sources']):
         u['sources'].append(dict(label=L('First-year documents and testing — reviewed scope', 'Документы и экзамены первокурсника — проверенные условия'), url=evidence['source']))
     u['lastVerified'] = max(u.get('lastVerified') or '', evidence['verified'])

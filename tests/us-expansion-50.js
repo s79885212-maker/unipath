@@ -203,12 +203,23 @@ module.exports=function(env){
      nw.english.toefl.scales[1].min===4.0&&nw.programEvidence['computer-science'].program==='Computer Science, B.A.',
      'Rutgers Newark retains its BA/MD exception, TOEFL4.0 and BA degree distinct from New Brunswick');
   var mines=U.uniById('colorado-school-of-mines');
-  ok(mines&&mines.academics.sat.policy===null&&mines.admissions.applicationFee.amount===null&&
-     /403/.test(mines.academics.sat.note)&&U.ieltsMin(mines)===null&&U.englishPrograms(mines).length===0&&
+  ok(mines&&U.satPolicy(mines)==='conditional'&&mines.admissions.applicationFee.amount===75&&
+     /NCAA/.test(mines.academics.sat.note)&&U.ieltsMin(mines)===6.5&&U.englishPrograms(mines).length===0&&
      mines.programEvidence['computer-science'].url==='https://www.mines.edu/academics/program-finder/'&&
      sources.some(function(s){return s.id===mines.id&&s.topic==='undergraduate-major-coverage'&&s.access==='html-read'&&
        s.facts.programs['computer-science']===mines.programEvidence['computer-science'].program;}),
-     'Mines separately read official CS major does not make blocked admission snippets a fee, optional testing policy, English minimum or confirmed teaching language');
+     'Mines now directly read admissions/fee pages establish75USD and NCAA testing exception, while named CS and English exams still do not establish teaching language');
+  ok(U.testStatus(mines.english.toefl)==='conflict'&&U.toeflMin(mines)===null&&
+     mines.english.toefl.scales[0].min===79&&mines.english.toefl.scales[1].min===null&&
+     U.toeflLines(mines)[1].includes('Conflicting official requirements')&&/minimum4.5|minimum 4.5/.test(mines.english.toefl.note)&&/total4.0|total 4.0/.test(mines.english.toefl.note),
+     'Mines new TOEFL scale retains both official conflicting totals, excludes a chosen minimum and preserves the independently confirmed older scale');
+  var conflictingEnglish=JSON.parse(JSON.stringify(mines));
+  conflictingEnglish.english.ielts={status:'conflict',min:4,recommended:5,varies:true,profiles:[{overall:6}]};
+  ok(U.ieltsMin(conflictingEnglish)===null&&!U.ieltsPublished(conflictingEnglish)&&
+     U.ieltsLabel(conflictingEnglish)==='Conflicting official requirements'&&
+     M.evaluate(conflictingEnglish,{ielts:9,sat:null,gpa:null,budget:null,currency:'USD'}).checks.some(function(c){return c.level==='info'&&/requirements conflict/.test(c.text);})&&
+     !M.evaluate(conflictingEnglish,{ielts:9,sat:null,gpa:null,budget:null,currency:'USD'}).checks.some(function(c){return (c.level==='ok'||c.level==='hard')&&/IELTS/.test(c.text);}),
+     'An English-source conflict overrides stale numbers and programme profiles in labels, strict publication filtering and match evaluation');
   var rejected={id:'synthetic-rejected-ielts',english:{ielts:{accepted:false,min:1}},academics:{sat:{}},costs:{},scholarships:{}};
   var reject=M.evaluate(rejected,{ielts:9,sat:null,gpa:null,budget:null,currency:'USD'});
   ok(!reject.checks.some(function(c){return c.level==='ok'&&/IELTS/.test(c.text);})&&

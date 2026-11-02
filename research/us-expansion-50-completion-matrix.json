@@ -1565,7 +1565,7 @@
         "exams": {
           "status": "partial",
           "notes": {
-            "satPolicy": null,
+            "satPolicy": "conditional",
             "scope": "Прочитанные правила применяются только к их категории/циклу; остаточные исключения открыты"
           },
           "evidence": []

@@ -58,7 +58,10 @@
         .map(function (p) { return p.overall; });
       var comp = prof.filter(function (p) { return p.kind === 'competitive' && typeof p.overall === 'number'; })
         .map(function (p) { return p.overall; });
-      if (U.testStatus(t) === 'not-accepted') {
+      if (U.testStatus(t) === 'conflict') {
+        checks.push({level:'info', text:'Official English requirements conflict. Your IELTS score was not compared with a confirmed minimum.'});
+        unchecked.push('English requirements conflict');
+      } else if (U.testStatus(t) === 'not-accepted') {
         checks.push({ level: 'info', text: 'IELTS is not accepted for this admission route. Your score was not compared and does not satisfy its published English-proof requirement.' });
       } else if (U.testVaries(t) && has(t.min) && input.ielts < t.min) {
         checks.push({ level: 'hard', basis: 'minimum', text: 'IELTS ' + Number(input.ielts).toFixed(1) + ' is below the university-wide minimum of ' + Number(t.min).toFixed(1) + '.' });

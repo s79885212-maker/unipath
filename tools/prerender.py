@@ -150,7 +150,9 @@ def english_lines(t, name):
     """Plain-text lines for one English test — mirrors the site's display."""
     if not t:
         return []
-    if t.get("varies"):
+    if t.get('status') == 'conflict' and not t.get('scales'):
+        return ['Conflicting official requirements']
+    if t.get("varies") and t.get('status') != 'conflict':
         out = ["Depends on applicant group" if t.get("variesBy") == "applicant" else "Varies by programme"]
         if has(t.get("min")):
             out.append(f"University-wide minimum: {float(t['min']):.1f}")
@@ -173,7 +175,9 @@ def english_lines(t, name):
         out = []
         for sc in t["scales"]:
             label = TOEFL_PERIOD.get(sc.get("period"), sc.get("period"))
-            if sc.get("accepted") is False:
+            if sc.get('status') == 'conflict':
+                out.append(f'{label}: Conflicting official requirements')
+            elif sc.get("accepted") is False:
                 out.append(f"{label}: not accepted")
             else:
                 out.append(f"{label}: {score_parts(sc, t.get('lowestLevel')) or 'not published'}")

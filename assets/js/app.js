@@ -254,7 +254,7 @@
      recommended score — a UniPath estimate alone does not count. */
   function ieltsPublished(u) {
     var t = u.english && u.english.ielts;
-    return !!t && (has(t.min) || has(t.recommended) || (ieltsVaries(u) && !!(t.profiles && t.profiles.length)));
+    return !!t && t.status !== 'conflict' && (has(t.min) || has(t.recommended) || (ieltsVaries(u) && !!(t.profiles && t.profiles.length)));
   }
   /* Requirement set per programme, language profile or band. `profiles` lists
      each published level with its scope, source and check date; `min` is kept
@@ -264,7 +264,7 @@
   /* Big label for a varying requirement: by programme (default) or by applicant group. */
   function variesLabel(t) { return t && t.variesBy === 'applicant' ? 'Depends on applicant group' : 'Varies by programme'; }
   function ieltsMin(u) {
-    return (u.english && u.english.ielts && has(u.english.ielts.min)) ? u.english.ielts.min : null;
+    return (u.english && u.english.ielts && u.english.ielts.status !== 'conflict' && has(u.english.ielts.min)) ? u.english.ielts.min : null;
   }
   /* A published figure that is not a minimum is one of several different
      things, and they are not interchangeable:
@@ -296,6 +296,7 @@
   function ieltsLabel(u) {
     var t = u.english && u.english.ielts;
     if (!t) return null;
+    if (t.status === 'conflict') return TEST_STATUS.conflict;
     if (testVaries(t)) return has(t.min) ? 'University minimum ' + (typeof t.min === 'number' ? t.min.toFixed(1) : t.min) + ', varies by programme' : variesLabel(t);
     if (has(t.min)) return 'Min ' + (typeof t.min === 'number' && t.min < 10 ? t.min.toFixed(1) : t.min);
     if (has(t.recommended)) return typeof t.recommended === 'number' ? t.recommended + '+ ' + recInfo(t).card : String(t.recommended);
@@ -318,10 +319,12 @@
     'no-minimum': 'Accepted — no minimum stated by the university',
     'not-required': 'Not required',
     'not-accepted': 'Not accepted',
+    'conflict': 'Conflicting official requirements',
     'not-confirmed': 'Not checked'
   };
   function testStatus(t) {
     if (!t) return 'not-confirmed';
+    if (t.status === 'conflict') return 'conflict';
     if (t.accepted === false || t.status === 'not-accepted') return 'not-accepted';
     if (testVaries(t)) return 'varies';
     if (has(t.min)) return 'minimum';
@@ -331,7 +334,7 @@
   function testStatusLabel(t) { return testStatus(t) === 'recommended' ? recInfo(t).label : TEST_STATUS[testStatus(t)]; }
   function statsOf(u) { return u.stats || null; }
   function toeflMin(u) {
-    return (u.english && u.english.toefl && has(u.english.toefl.min)) ? u.english.toefl.min : null;
+    return (u.english && u.english.toefl && u.english.toefl.status !== 'conflict' && has(u.english.toefl.min)) ? u.english.toefl.min : null;
   }
   /* TOEFL changed to a 1–6 scale for tests taken from 21 January 2026, so
      universities may publish two sets of scores. Each line is plain text
@@ -349,10 +352,12 @@
   function toeflLines(u) {
     var t = u.english && u.english.toefl;
     if (!t) return [];
-    if (testVaries(t)) return [variesLabel(t)];
+    if (t.status === 'conflict' && !(t.scales && t.scales.length)) return [TEST_STATUS.conflict];
+    if (testVaries(t) && t.status !== 'conflict') return [variesLabel(t)];
     if (t.scales && t.scales.length) {
       return t.scales.map(function (sc) {
         var label = TOEFL_PERIOD[sc.period] || sc.period;
+        if (sc.status === 'conflict') return label + ': ' + TEST_STATUS.conflict;
         if (sc.accepted === false) return label + ': not accepted';
         var parts = scoreParts(sc, t.lowestLevel, t);
         return parts ? label + ': ' + parts : label + ': not stated by the source';
