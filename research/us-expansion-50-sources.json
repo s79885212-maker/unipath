@@ -14256,5 +14256,300 @@
         }
       ]
     }
+  },
+  {
+    "id": "university-of-california-davis",
+    "topic": "remaining-first-year-review",
+    "source": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/filling-out-the-application.html",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "UC system first-year application academic-history reporting; exact Uzbek qualification not established",
+    "campus": "Davis",
+    "access": "html-read",
+    "quote": "report all of your schools, courses and grades exactly as they would appear on official transcripts or academic records",
+    "facts": {
+      "publicAdmissionDocuments": [
+        {
+          "en": "UC first-year application: use transcripts/academic records to report every high school, course and grade exactly as printed, including applicable school-level courses in earlier years and college courses taken during school. This is a self-reporting instruction, not a confirmed equivalence of an Uzbek Attestat or academic lyceum diploma. Final official-record submission follows the individual campus instructions.",
+          "ru": "Заявка UC первокурсника: по табелям/академическим документам укажите каждую школу, предмет и оценку точно как в оригинале, включая применимые школьные предметы ранних лет и курсы колледжа во время школы. Это инструкция самостоятельного заполнения, а не подтверждённое соответствие узбекского аттестата или диплома лицея. Итоговые официальные документы подаются по инструкциям конкретного кампуса."
+        }
+      ]
+    }
+  },
+  {
+    "id": "university-of-california-merced",
+    "topic": "remaining-first-year-review",
+    "source": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/filling-out-the-application.html",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "UC system first-year application academic-history reporting; exact Uzbek qualification not established",
+    "campus": "Merced",
+    "access": "html-read",
+    "quote": "report all of your schools, courses and grades exactly as they would appear on official transcripts or academic records",
+    "facts": {
+      "publicAdmissionDocuments": [
+        {
+          "en": "UC first-year application: use transcripts/academic records to report every high school, course and grade exactly as printed, including applicable school-level courses in earlier years and college courses taken during school. This is a self-reporting instruction, not a confirmed equivalence of an Uzbek Attestat or academic lyceum diploma. Final official-record submission follows the individual campus instructions.",
+          "ru": "Заявка UC первокурсника: по табелям/академическим документам укажите каждую школу, предмет и оценку точно как в оригинале, включая применимые школьные предметы ранних лет и курсы колледжа во время школы. Это инструкция самостоятельного заполнения, а не подтверждённое соответствие узбекского аттестата или диплома лицея. Итоговые официальные документы подаются по инструкциям конкретного кампуса."
+        }
+      ]
+    }
+  },
+  {
+    "id": "university-of-california-riverside",
+    "topic": "remaining-first-year-review",
+    "source": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/filling-out-the-application.html",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "UC system first-year application academic-history reporting; exact Uzbek qualification not established",
+    "campus": "Riverside",
+    "access": "html-read",
+    "quote": "report all of your schools, courses and grades exactly as they would appear on official transcripts or academic records",
+    "facts": {
+      "publicAdmissionDocuments": [
+        {
+          "en": "UC first-year application: use transcripts/academic records to report every high school, course and grade exactly as printed, including applicable school-level courses in earlier years and college courses taken during school. This is a self-reporting instruction, not a confirmed equivalence of an Uzbek Attestat or academic lyceum diploma. Final official-record submission follows the individual campus instructions.",
+          "ru": "Заявка UC первокурсника: по табелям/академическим документам укажите каждую школу, предмет и оценку точно как в оригинале, включая применимые школьные предметы ранних лет и курсы колледжа во время школы. Это инструкция самостоятельного заполнения, а не подтверждённое соответствие узбекского аттестата или диплома лицея. Итоговые официальные документы подаются по инструкциям конкретного кампуса."
+        }
+      ]
+    }
+  },
+  {
+    "id": "university-of-illinois-chicago",
+    "topic": "remaining-first-year-review",
+    "source": "https://admissions.uic.edu/undergraduate/requirements-deadlines/first-year-requirements",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "General first-year school records; international credential widget remains unresolved for Uzbekistan",
+    "campus": "Chicago",
+    "access": "html-read",
+    "quote": "Send official high school transcripts.",
+    "facts": {
+      "publicAdmissionDocuments": [
+        {
+          "en": "Send official high-school transcripts. International academic credentials and qualifications must also be checked through the country-specific instructions; the Uzbekistan widget result was not available in the text reviewed. Non-English academic records require the international page’s specified certified translation. Do not apply postsecondary-course syllabi requirements to every school-only applicant.",
+          "ru": "Отправьте официальные школьные табели. Международные документы и квалификации дополнительно проверяются по страновым инструкциям; результат виджета Узбекистана в прочитанном тексте недоступен. Для неанглийских академических документов нужен указанный международной страницей заверенный перевод. Требование силлабусов послешкольных курсов не применяется ко всем абитуриентам только со школой."
+        }
+      ],
+      "supportingSources": [
+        "https://admissions.uic.edu/undergraduate/requirements-deadlines/international-requirements"
+      ]
+    }
+  },
+  {
+    "id": "university-of-pittsburgh",
+    "topic": "remaining-source-access-review",
+    "source": "https://admissions.pitt.edu/international/international-first-year-students/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "Remaining current first-year information or official cost alternative; see unresolved",
+    "campus": "Pittsburgh",
+    "access": "page-shell-only",
+    "quote": null,
+    "facts": null,
+    "unresolved": "Current direct page exposed navigation/cookie text without the substantive checklist to the reader. Historical2024–25 brochure not substituted for2027 requirements."
+  },
+  {
+    "id": "university-of-texas-at-dallas",
+    "topic": "remaining-source-access-review",
+    "source": "https://enroll.utdallas.edu/apply/international-applicants/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "Remaining current first-year information or official cost alternative; see unresolved",
+    "campus": "Richardson",
+    "access": "502-unavailable",
+    "quote": null,
+    "facts": null,
+    "unresolved": "International first-year requirements page remains502. The generic2026 catalogue does not settle Fall2027 testing/English or exact Uzbek credential requirements."
+  },
+  {
+    "id": "university-of-california-santa-cruz",
+    "topic": "remaining-source-access-review",
+    "source": "https://registrar.ucsc.edu/fees-residency-veterans/undergraduate-tuition-fees/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "Remaining current first-year information or official cost alternative; see unresolved",
+    "campus": "Santa Cruz",
+    "access": "502-unavailable",
+    "quote": null,
+    "facts": null,
+    "unresolved": "Accessible official alternative sought for blocked cost table; Registrar page also returned502. No price installed from cached search preview."
+  },
+  {
+    "id": "university-of-texas-at-dallas",
+    "topic": "remaining-source-access-review",
+    "source": "https://bursar.utdallas.edu/tuition/tuition-rates/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "Remaining current first-year information or official cost alternative; see unresolved",
+    "campus": "Richardson",
+    "access": "502-unavailable",
+    "quote": null,
+    "facts": null,
+    "unresolved": "Final direct tuition-table recheck still502; no preview rates installed."
+  },
+  {
+    "id": "university-of-the-pacific",
+    "topic": "remaining-cost-alternative-review",
+    "source": "https://catalog.pacific.edu/uop/generalinformation/tuitionandfees/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "2026–27 Stockton undergraduate tuition link only; other-campus professional tables not substituted",
+    "campus": "Stockton",
+    "access": "html-read",
+    "quote": "Tuition and fees are the same for students regardless of their state or country of residence.",
+    "facts": {
+      "outcome": "reviewed-not-found-in-accessible-catalogue",
+      "scope": "Stockton undergraduate tuition amount is linked to the inaccessible main financial-aid page. SF dental/dental-hygiene and graduate/professional fees not used as Stockton bachelor pricing."
+    }
+  },
+  {
+    "id": "university-of-illinois-urbana-champaign",
+    "topic": "remaining-first-year-fee-review",
+    "source": "https://www.admissions.illinois.edu/first-year-apply/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "Current published undergraduate application fee; no automatic future-cycle guarantee",
+    "campus": "Urbana-Champaign",
+    "access": "html-read",
+    "quote": "The application fee is $75.",
+    "facts": {
+      "publicApplicationFee": {
+        "amount": 75,
+        "currency": "USD",
+        "waiverAvailableToInternational": false,
+        "note": {
+          "en": "General first-year process explicitly links the international requirements; no separate international application. The counselor-forms page explicitly excludes international fee waivers.",
+          "ru": "Общий процесс первокурсника прямо ссылается на международные требования; отдельной международной заявки нет. Страница форм консультанта прямо исключает международное освобождение от сбора."
+        }
+      },
+      "supportingSources": [
+        "https://www.admissions.illinois.edu/counselor-forms/"
+      ]
+    }
+  },
+  {
+    "id": "university-of-wisconsin-madison",
+    "topic": "remaining-first-year-fee-review",
+    "source": "https://admissions.wisc.edu/apply-as-a-freshman/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "Current published undergraduate application fee; no automatic future-cycle guarantee",
+    "campus": "Madison",
+    "access": "html-read",
+    "quote": "The application fee is $80.00 US and is non-refundable.",
+    "facts": {
+      "publicApplicationFee": {
+        "amount": 80,
+        "currency": "USD",
+        "waiverAvailableToInternational": null,
+        "note": {
+          "en": "This first-year page states that its deadlines and requirements apply to domestic and international applicants. Hardship waivers require eligibility review; a waiver is not automatically granted.",
+          "ru": "Страница первокурсника сообщает, что её сроки и требования относятся к внутренним и международным абитуриентам. Освобождение по финансовым обстоятельствам требует проверки права; автоматически оно не предоставляется."
+        }
+      }
+    }
+  },
+  {
+    "id": "university-of-georgia",
+    "topic": "remaining-first-year-fee-review",
+    "source": "https://admissions.uga.edu/apply/start-application/application-fee-fee-waivers/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "Current published undergraduate application fee; no automatic future-cycle guarantee",
+    "campus": "Athens",
+    "access": "html-read",
+    "quote": "The First-Year application fee is $70 for US Citizens and $85 for International Students.",
+    "facts": {
+      "publicApplicationFee": {
+        "amount": 85,
+        "currency": "USD",
+        "waiverAvailableToInternational": false,
+        "note": {
+          "en": "International first-year fee; international applicants explicitly ineligible for an application-fee waiver on this page. Domestic USD70 is not substituted.",
+          "ru": "Международный сбор первокурсника; эта страница прямо исключает право международного абитуриента на освобождение. Внутренние 70 USD не подставляются."
+        }
+      }
+    }
+  },
+  {
+    "id": "pennsylvania-state-university-university-park",
+    "topic": "remaining-first-year-fee-review",
+    "source": "https://www.psu.edu/resources/international-students/steps-to-apply",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "Current published undergraduate application fee; no automatic future-cycle guarantee",
+    "campus": "University Park profile; university international undergraduate process",
+    "access": "html-read",
+    "quote": "nonrefundable application fee of $75",
+    "facts": {
+      "publicApplicationFee": {
+        "amount": 75,
+        "currency": "USD",
+        "waiverAvailableToInternational": null,
+        "note": {
+          "en": "University international undergraduate application fee. A regional campus waiver or graduate fee is not automatically applied to University Park first-year admission.",
+          "ru": "Университетский международный сбор бакалаврской заявки. Освобождение регионального кампуса и сбор магистратуры автоматически не применяются к первокурснику University Park."
+        }
+      }
+    }
+  },
+  {
+    "id": "indiana-university-bloomington",
+    "topic": "remaining-first-year-fee-review",
+    "source": "https://bloomington.iu.edu/admissions/apply/steps.html",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "Current published undergraduate application fee; no automatic future-cycle guarantee",
+    "campus": "Bloomington",
+    "access": "html-read",
+    "quote": "When you submit your application, you must pay a $65 nonrefundable application fee.",
+    "facts": {
+      "publicApplicationFee": {
+        "amount": 65,
+        "currency": "USD",
+        "waiverAvailableToInternational": null,
+        "note": {
+          "en": "The undergraduate application-fee paragraphs print USD65. The USD70 paragraph explicitly concerns most graduate programmes and is not substituted. International waiver eligibility is not established here.",
+          "ru": "Абзацы сбора бакалаврской заявки печатают 65 USD. Абзац 70 USD прямо относится к большинству магистерских программ и не подставляется. Международное право на освобождение здесь не установлено."
+        }
+      }
+    }
+  },
+  {
+    "id": "university-at-albany-suny",
+    "topic": "remaining-first-year-fee-review",
+    "source": "https://www.albany.edu/college-application",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "Current published undergraduate application fee; no automatic future-cycle guarantee",
+    "campus": "Albany",
+    "access": "html-read",
+    "quote": "The non-refundable application fee is $50.",
+    "facts": {
+      "publicApplicationFee": {
+        "amount": 50,
+        "currency": "USD",
+        "waiverAvailableToInternational": null,
+        "note": {
+          "en": "General first-year application fee. The separate international page advertises SUNY Free Application Weeks19October–2November2026; that temporary promotion is not a permanent zero fee. Check current promotion/waiver eligibility before payment.",
+          "ru": "Общий сбор заявки первокурсника. Отдельная международная страница рекламирует SUNY Free Application Weeks 19 октября–2 ноября 2026; временная акция не является постоянным нулевым сбором. Перед оплатой проверьте текущую акцию/право на освобождение."
+        }
+      }
+    }
+  },
+  {
+    "id": "university-of-illinois-urbana-champaign",
+    "topic": "remaining-first-year-fee-waiver",
+    "source": "https://www.admissions.illinois.edu/counselor-forms/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "Counselor submitted fee waivers; explicit international exclusion",
+    "campus": "Urbana-Champaign",
+    "access": "html-read",
+    "quote": "International students are not eligible for fee waivers",
+    "facts": {
+      "internationalWaiver": false
+    }
   }
 ]

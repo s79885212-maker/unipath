@@ -34138,7 +34138,8 @@ window.UNIPATH.universities.push(
       "verified": "2026-10-31"
     },
     "documents": [
-      "Report international school grades as printed, without conversion or credential evaluation. Final official records are required after accepting admission; exact Uzbek diploma equivalence remains unconfirmed."
+      "Report international school grades as printed, without conversion or credential evaluation. Final official records are required after accepting admission; exact Uzbek diploma equivalence remains unconfirmed.",
+      "UC first-year application: use transcripts/academic records to report every high school, course and grade exactly as printed, including applicable school-level courses in earlier years and college courses taken during school. This is a self-reporting instruction, not a confirmed equivalence of an Uzbek Attestat or academic lyceum diploma. Final official-record submission follows the individual campus instructions."
     ],
     "recommendations": null,
     "essay": null,
@@ -34364,6 +34365,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Official university page",
       "url": "https://financialaid.ucdavis.edu/scholarships/campus/awards/regents"
+    },
+    {
+      "label": "First-year documents and testing — reviewed scope",
+      "url": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/filling-out-the-application.html"
     }
   ],
   "verification": {
@@ -34378,7 +34383,7 @@ window.UNIPATH.universities.push(
       "Complete programme catalogue, 2027–2028 costs and remaining award/renewal conditions are still under review."
     ]
   },
-  "lastVerified": "2026-11-01",
+  "lastVerified": "2026-11-02",
   "aliases": [
     "UC Davis"
   ],
@@ -35035,10 +35040,13 @@ window.UNIPATH.universities.push(
       }
     ],
     "applicationFee": {
-      "amount": null,
+      "amount": 75,
       "currency": "USD",
-      "waiverAvailableToInternational": null,
-      "waiver": null
+      "waiverAvailableToInternational": false,
+      "waiver": null,
+      "note": "General first-year process explicitly links the international requirements; no separate international application. The counselor-forms page explicitly excludes international fee waivers.",
+      "source": "https://www.admissions.illinois.edu/first-year-apply/",
+      "verified": "2026-11-02"
     },
     "documents": [
       "Self-report coursework and examinations. For a year11 school system, report completed or in-progress year11 and name the expected diploma in Common App. Official records are required for enrolment; no WES/ECE conversion is requested in these instructions.",
@@ -35250,6 +35258,14 @@ window.UNIPATH.universities.push(
     {
       "label": "International aid — reviewed eligibility and limits",
       "url": "https://stamps.illinois.edu/selection/"
+    },
+    {
+      "label": "First-year documents and testing — reviewed scope",
+      "url": "https://www.admissions.illinois.edu/first-year-apply/"
+    },
+    {
+      "label": "First-year documents and testing — reviewed scope",
+      "url": "https://www.admissions.illinois.edu/counselor-forms/"
     }
   ],
   "verification": {
@@ -35940,10 +35956,13 @@ window.UNIPATH.universities.push(
       }
     ],
     "applicationFee": {
-      "amount": null,
+      "amount": 80,
       "currency": "USD",
       "waiverAvailableToInternational": null,
-      "waiver": null
+      "waiver": null,
+      "note": "This first-year page states that its deadlines and requirements apply to domestic and international applicants. Hardship waivers require eligibility review; a waiver is not automatically granted.",
+      "source": "https://admissions.wisc.edu/apply-as-a-freshman/",
+      "verified": "2026-11-02"
     },
     "documents": [
       "Official school records and graduation credentials; original non-English record plus an official translation by the school/institution or EducationUSA. See the Uzbekistan-specific instructions below.",
@@ -36128,6 +36147,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://guide.wisc.edu/undergraduate/"
+    },
+    {
+      "label": "First-year documents and testing — reviewed scope",
+      "url": "https://admissions.wisc.edu/apply-as-a-freshman/"
     }
   ],
   "verification": {
@@ -36143,7 +36166,7 @@ window.UNIPATH.universities.push(
       "Uzbekistan: current pupils submit official years8–10 transcripts and later the Attestat O’rta Ma’lumot To’g’risida Shahodtnoma (Certificate of Completed Upper Secondary Education); school graduates submit official years8–11 transcripts and that Attestat. Original documents and official English translation are required. Separate academic lyceum equivalence, minimum grades/subjects and any foundation requirement remain unconfirmed; this is not an admission guarantee."
     ]
   },
-  "lastVerified": "2026-11-01",
+  "lastVerified": "2026-11-02",
   "aliases": [
     "UW-Madison"
   ],
@@ -37217,10 +37240,13 @@ window.UNIPATH.universities.push(
       }
     ],
     "applicationFee": {
-      "amount": null,
+      "amount": 85,
       "currency": "USD",
-      "waiverAvailableToInternational": null,
-      "waiver": null
+      "waiverAvailableToInternational": false,
+      "waiver": null,
+      "note": "International first-year fee; international applicants explicitly ineligible for an application-fee waiver on this page. Domestic USD70 is not substituted.",
+      "source": "https://admissions.uga.edu/apply/start-application/application-fee-fee-waivers/",
+      "verified": "2026-11-02"
     },
     "documents": [
       "Final school records in English from every school attended; do not self-report grades. UGA calculates the GPA.",
@@ -37433,6 +37459,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://bulletin.uga.edu/Program/Details/20122?IDc=FENGR"
+    },
+    {
+      "label": "First-year documents and testing — reviewed scope",
+      "url": "https://admissions.uga.edu/apply/start-application/application-fee-fee-waivers/"
     }
   ],
   "verification": {
@@ -37447,7 +37477,7 @@ window.UNIPATH.universities.push(
       "Complete programme catalogue, 2027–2028 costs and remaining award/renewal conditions are still under review."
     ]
   },
-  "lastVerified": "2026-11-01",
+  "lastVerified": "2026-11-02",
   "aliases": [
     "UGA"
   ],
@@ -38064,10 +38094,13 @@ window.UNIPATH.universities.push(
       }
     ],
     "applicationFee": {
-      "amount": null,
+      "amount": 75,
       "currency": "USD",
       "waiverAvailableToInternational": null,
-      "waiver": null
+      "waiver": null,
+      "note": "University international undergraduate application fee. A regional campus waiver or graduate fee is not automatically applied to University Park first-year admission.",
+      "source": "https://www.psu.edu/resources/international-students/steps-to-apply",
+      "verified": "2026-11-02"
     },
     "documents": [
       "First-year STARS record plus official final documents after admission; originals and separate certified line-by-line English translations. Follow the Uzbekistan-specific page, whose years9–12 wording remains unresolved for an 11-year school.",
@@ -38259,6 +38292,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Teaching language — official campus statement",
       "url": "https://www.ed.psu.edu/academics/departments/department-curriculum-and-instruction/graduate/how-to-apply"
+    },
+    {
+      "label": "First-year documents and testing — reviewed scope",
+      "url": "https://www.psu.edu/resources/international-students/steps-to-apply"
     }
   ],
   "verification": {
@@ -38779,7 +38816,9 @@ window.UNIPATH.universities.push(
       "source": "https://admissions.ucmerced.edu/apply",
       "verified": "2026-10-31"
     },
-    "documents": [],
+    "documents": [
+      "UC first-year application: use transcripts/academic records to report every high school, course and grade exactly as printed, including applicable school-level courses in earlier years and college courses taken during school. This is a self-reporting instruction, not a confirmed equivalence of an Uzbek Attestat or academic lyceum diploma. Final official-record submission follows the individual campus instructions."
+    ],
     "recommendations": null,
     "essay": null,
     "interview": null,
@@ -39508,10 +39547,13 @@ window.UNIPATH.universities.push(
       }
     ],
     "applicationFee": {
-      "amount": null,
+      "amount": 65,
       "currency": "USD",
       "waiverAvailableToInternational": null,
-      "waiver": null
+      "waiver": null,
+      "note": "The undergraduate application-fee paragraphs print USD65. The USD70 paragraph explicitly concerns most graduate programmes and is not substituted. International waiver eligibility is not established here.",
+      "source": "https://bloomington.iu.edu/admissions/apply/steps.html",
+      "verified": "2026-11-02"
     },
     "documents": [
       "Complete equivalent upper-secondary education and applicable preparation/examinations. Course expectations and possible substitutions depend on the school system; exact Uzbek qualification/subject equivalence is unconfirmed."
@@ -39674,6 +39716,10 @@ window.UNIPATH.universities.push(
     {
       "label": "International aid — reviewed eligibility and limits",
       "url": "https://bloomington.iu.edu/admissions/apply/international/deadlines.html"
+    },
+    {
+      "label": "First-year documents and testing — reviewed scope",
+      "url": "https://bloomington.iu.edu/admissions/apply/steps.html"
     }
   ],
   "verification": {
@@ -41765,7 +41811,9 @@ window.UNIPATH.universities.push(
       "source": "https://admission.universityofcalifornia.edu/apply-now.html",
       "verified": "2026-10-31"
     },
-    "documents": [],
+    "documents": [
+      "UC first-year application: use transcripts/academic records to report every high school, course and grade exactly as printed, including applicable school-level courses in earlier years and college courses taken during school. This is a self-reporting instruction, not a confirmed equivalence of an Uzbek Attestat or academic lyceum diploma. Final official-record submission follows the individual campus instructions."
+    ],
     "recommendations": null,
     "essay": null,
     "interview": null,
@@ -41980,6 +42028,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Cost — reviewed official scope and period",
       "url": "https://financialaid.ucr.edu/cost"
+    },
+    {
+      "label": "First-year documents and testing — reviewed scope",
+      "url": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/filling-out-the-application.html"
     }
   ],
   "verification": {
@@ -43624,7 +43676,9 @@ window.UNIPATH.universities.push(
       "source": "https://admissions.uic.edu/undergraduate/requirements-deadlines/international-requirements",
       "verified": "2026-10-31"
     },
-    "documents": [],
+    "documents": [
+      "Send official high-school transcripts. International academic credentials and qualifications must also be checked through the country-specific instructions; the Uzbekistan widget result was not available in the text reviewed. Non-English academic records require the international page’s specified certified translation. Do not apply postsecondary-course syllabi requirements to every school-only applicant."
+    ],
     "recommendations": null,
     "essay": null,
     "interview": null,
@@ -43791,6 +43845,10 @@ window.UNIPATH.universities.push(
     {
       "label": "International aid — reviewed eligibility and limits",
       "url": "https://ois.uic.edu/programs/scholarships-and-awards/"
+    },
+    {
+      "label": "First-year documents and testing — reviewed scope",
+      "url": "https://admissions.uic.edu/undergraduate/requirements-deadlines/first-year-requirements"
     }
   ],
   "verification": {
@@ -51493,10 +51551,13 @@ window.UNIPATH.universities.push(
       }
     ],
     "applicationFee": {
-      "amount": null,
+      "amount": 50,
       "currency": "USD",
       "waiverAvailableToInternational": null,
-      "waiver": null
+      "waiver": null,
+      "note": "General first-year application fee. The separate international page advertises SUNY Free Application Weeks19October–2November2026; that temporary promotion is not a permanent zero fee. Check current promotion/waiver eligibility before payment.",
+      "source": "https://www.albany.edu/college-application",
+      "verified": "2026-11-02"
     },
     "documents": [
       "Official school records and certified English translations sent directly by the school; final graduation record after an offer. Exact Uzbek equivalence and evaluation requirements remain unconfirmed."
@@ -51671,6 +51732,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Cost — reviewed official scope and period",
       "url": "https://www.albany.edu/cost-aid/tuition-fees/international-students"
+    },
+    {
+      "label": "First-year documents and testing — reviewed scope",
+      "url": "https://www.albany.edu/college-application"
     }
   ],
   "verification": {

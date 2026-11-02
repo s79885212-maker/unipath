@@ -66,8 +66,10 @@ for evidence in sources:
         assert fee['currency'] == 'USD' and (fee['amount'] is None or fee['amount'] >= 0)
         fee.update(source=evidence['source'], verified=evidence['verified'])
         u['admissions']['applicationFee'].update(fee)
-    if not any(s['url'] == evidence['source'] for s in u['sources']):
-        u['sources'].append(dict(label=L('First-year documents and testing — reviewed scope', 'Документы и экзамены первокурсника — проверенные условия'), url=evidence['source']))
+    for url in [evidence['source']] + facts.get('supportingSources', []):
+        assert url.startswith('https://')
+        if not any(s['url'] == url for s in u['sources']):
+            u['sources'].append(dict(label=L('First-year documents and testing — reviewed scope', 'Документы и экзамены первокурсника — проверенные условия'), url=url))
     u['lastVerified'] = max(u.get('lastVerified') or '', evidence['verified'])
 
 save(head, rows, tail, str(path))

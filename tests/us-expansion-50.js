@@ -332,6 +332,16 @@ module.exports=function(env){
      !DB.match.annualCost[stevens.id]&&budget(stevens,100000).status==='unknown'&&/federal loans/.test(stevens.costs.note),
      'Stevens previous-year COA keeps the federal-loan-only fee conditional and cannot confirm a Fall2027 budget');
   var wabashAward=U.uniById('wabash-college').scholarships.merit[0];
+  ok(uiuc.admissions.applicationFee.amount===75&&uiuc.admissions.applicationFee.waiverAvailableToInternational===false&&
+     U.uniById('university-of-wisconsin-madison').admissions.applicationFee.amount===80&&
+     U.uniById('university-of-georgia').admissions.applicationFee.amount===85&&
+     U.uniById('pennsylvania-state-university-university-park').admissions.applicationFee.amount===75,
+     'Individually read current first-year fees preserve Illinois international waiver exclusion and differ from domestic/graduate amounts');
+  ok(U.uniById('indiana-university-bloomington').admissions.applicationFee.amount===65&&
+     U.uniById('university-at-albany-suny').admissions.applicationFee.amount===50&&
+     /not a permanent zero fee/.test(U.uniById('university-at-albany-suny').admissions.applicationFee.note)&&
+     uic.admissions.documents.some(function(d){return /Uzbekistan widget result was not available/.test(d);}),
+     'IU graduate fee and Albany temporary promotion never replace ordinary undergraduate fees; UIC school records do not confirm unseen country qualifications');
   ok(U.uniById('clemson-university').admissions.documents.some(function(d){return /transfer section/.test(d)&&/not a general first-year requirement/.test(d);})&&
      U.uniById('auburn-university').admissions.documents.some(function(d){return /evaluation/.test(d)&&/freshmen as well as transfers/.test(d);})&&
      U.uniById('brigham-young-university').admissions.documents.some(function(d){return /paid foreign credential evaluation/.test(d);}),
