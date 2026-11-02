@@ -14551,5 +14551,223 @@
     "facts": {
       "internationalWaiver": false
     }
+  },
+  {
+    "id": "baylor-university",
+    "topic": "remaining-award-review",
+    "source": "https://honors.baylor.edu/current-students/getterman-fellows/scholarship-funding-opportunities/getterman-scholars-funding",
+    "verified": "2026-11-02",
+    "intake": "Fall 2027 selection; standing funding and renewal rules",
+    "category": "International first-time undergraduate; competitive Honors College Getterman selection",
+    "campus": "Waco, Texas; Honors Residential College",
+    "access": "html-read",
+    "quote": "Parking fees and other non-related coursework fees are not included.",
+    "facts": {
+      "coverage": "Tuition less admission merit; books allowance; course fees; HRC housing and food; eight undergraduate semesters; enrichment cap 20000 total. Insurance and tax residuals not established."
+    }
+  },
+  {
+    "id": "baylor-university",
+    "topic": "remaining-award-review",
+    "source": "https://honors.baylor.edu/current-students/getterman-scholars/annual-renewal-getterman-scholar",
+    "verified": "2026-11-02",
+    "intake": "Fall 2027 selection; standing funding and renewal rules",
+    "category": "International first-time undergraduate; competitive Honors College Getterman selection",
+    "campus": "Waco, Texas; Honors Residential College",
+    "access": "html-read",
+    "quote": "Only those Getterman Scholars who reside in the Honors Residential College and utilize university dining are eligible for housing and food benefits.",
+    "facts": {
+      "renewal": "College GPA 3.5, active Honors programme; eight semesters undergraduate only; HRC residence and university dining for room and board."
+    }
+  },
+  {
+    "id": "baylor-university",
+    "topic": "remaining-award-review",
+    "source": "https://admissions.web.baylor.edu/costs-aid/freshman-scholarship-events",
+    "verified": "2026-11-02",
+    "intake": "Fall 2027 selection; standing funding and renewal rules",
+    "category": "International first-time undergraduate; competitive Honors College Getterman selection",
+    "campus": "Waco, Texas; Honors Residential College",
+    "access": "html-read",
+    "quote": "Test-optional students with high academic GPAs and high class rankings are eligible for consideration.",
+    "facts": {
+      "selection": "Honors and scholarship applications, video essay, mandatory Waco finalist attendance; Getterman replaces I2E participation/Fellows awards. Typical SAT1500/ACT34/CLT103 are not minima."
+    }
+  },
+  {
+    "id": "baylor-university",
+    "topic": "remaining-award-review",
+    "source": "https://honors.baylor.edu/admissions/getterman-scholars-program/application-process",
+    "verified": "2026-11-02",
+    "intake": "Fall 2027 selection; standing funding and renewal rules",
+    "category": "International first-time undergraduate; competitive Honors College Getterman selection",
+    "campus": "Waco, Texas; Honors Residential College",
+    "access": "html-read",
+    "quote": "Getterman Scholarship Program Application Deadline November 12, 2026 (11:59 p.m. CST)",
+    "facts": {
+      "publicDeadlines": [
+        {
+          "id": "baylor-getterman-2027-admission",
+          "name": {
+            "en": "Getterman admission application prerequisite",
+            "ru": "Предварительная заявка на поступление для Getterman"
+          },
+          "kind": "admission",
+          "date": {
+            "en": "1 November 2026",
+            "ru": "1 ноября 2026"
+          },
+          "dateISO": "2026-11-01",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "status": "confirmed",
+          "binding": null,
+          "awardId": "baylor-getterman",
+          "awardCategory": "merit",
+          "appliesTo": {
+            "en": "Getterman selection only; January 2027 finalist event",
+            "ru": "Только отбор Getterman; мероприятие финалистов в январе 2027"
+          },
+          "note": null,
+          "cycleEvidence": {
+            "basis": "explicit-date",
+            "entryTerm": "Autumn",
+            "entryYear": "2027",
+            "source": "https://honors.baylor.edu/admissions/getterman-scholars-program/application-process",
+            "verified": "2026-11-02",
+            "quote": "Candidate Interviews with Honors College Faculty (In-Person Event) January 22, 2027"
+          }
+        },
+        {
+          "id": "baylor-getterman-2027-supplement",
+          "name": {
+            "en": "Getterman and Honors College applications",
+            "ru": "Заявки Getterman и Honors College"
+          },
+          "kind": "scholarship",
+          "date": {
+            "en": "12 November 2026, 23:59 CST",
+            "ru": "12 ноября 2026, 23:59 CST"
+          },
+          "dateISO": "2026-11-12",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "status": "confirmed",
+          "binding": null,
+          "awardId": "baylor-getterman",
+          "awardCategory": "merit",
+          "appliesTo": {
+            "en": "Getterman selection only; January 2027 finalist event",
+            "ru": "Только отбор Getterman; мероприятие финалистов в январе 2027"
+          },
+          "note": null,
+          "cycleEvidence": {
+            "basis": "explicit-date",
+            "entryTerm": "Autumn",
+            "entryYear": "2027",
+            "source": "https://honors.baylor.edu/admissions/getterman-scholars-program/application-process",
+            "verified": "2026-11-02",
+            "quote": "Candidate Interviews with Honors College Faculty (In-Person Event) January 22, 2027"
+          }
+        }
+      ],
+      "calendar": "Admission Nov1 2026; supplements Nov12 2026; finalist event Jan22–23 2027. No time assigned to admission prerequisite."
+    }
+  },
+  {
+    "id": "baylor-university",
+    "topic": "remaining-award-review",
+    "source": "https://honors.baylor.edu/prospective-students/getterman-scholars-program/getterman-faqs",
+    "verified": "2026-11-02",
+    "intake": "Fall 2027 selection; standing funding and renewal rules",
+    "category": "International first-time undergraduate; competitive Honors College Getterman selection",
+    "campus": "Waco, Texas; Honors Residential College",
+    "access": "html-read",
+    "quote": "International students are welcome to participate in the Getterman Scholars selection process.",
+    "facts": {
+      "publicFullRide": {
+        "id": "baylor-getterman",
+        "category": "merit",
+        "name": "Getterman Scholars Program",
+        "available": true,
+        "internationalEligible": true,
+        "basis": "merit",
+        "covers": {
+          "tuition": true,
+          "housing": true,
+          "meals": true,
+          "books": null,
+          "insurance": null
+        },
+        "renewable": true,
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "deadlineScope": "confirmed",
+        "competitiveness": {
+          "en": "Highly competitive Honors College selection, video essay and in-person finalist interview",
+          "ru": "Высококонкурсный отбор Honors College: видеоэссе и очное собеседование финалистов"
+        },
+        "howToApply": {
+          "en": "Complete the Baylor admission application by 1 November 2026, then the Honors College and separate Scholarship Events applications by 12 November 2026, 23:59 CST. Finalists must attend in Waco on 22–23 January 2027. The admission prerequisite has already passed; the later supplement does not reopen it.",
+          "ru": "Подать полную заявку на поступление до 1 ноября 2026, затем заявки Honors College и Scholarship Events до 12 ноября 2026, 23:59 CST. Финалистам необходимо приехать в Уэйко 22–23 января 2027. Срок предварительной заявки на поступление уже прошёл; более поздняя дополнительная заявка не открывает его заново."
+        },
+        "renewalConditions": {
+          "en": "Eight undergraduate semesters; active Honors College programme and cumulative college GPA at least 3.5, with probation process. Housing and food require residence in the Honors Residential College and university dining. Graduate coursework is excluded.",
+          "ru": "Восемь семестров бакалавриата; участие в программе Honors College и накопленный GPA университета не ниже 3,5, с процедурой испытательного срока. Проживание и питание покрываются только в Honors Residential College с университетским планом питания. Магистерские курсы не покрываются."
+        },
+        "note": {
+          "en": "International applicants are explicitly eligible for selection. Tuition is reduced by the admission merit award, rather than paid twice; includes a book allowance and course-related fees plus HRC housing and food. Replaces the Invitation to Excellence participation and Getterman Fellows awards. Parking and non-course-related fees are excluded. Health insurance, travel to the finalist event, personal expenses and tax residuals are not confirmed as covered. Summer enrichment support has a combined USD 20,000 career cap and separate approvals. Typical selected SAT/ACT/CLT scores are not minimum admission requirements; test-optional applicants remain eligible. Competitive, not guaranteed or automatically deducted from a budget.",
+          "ru": "Международные абитуриенты прямо допущены к отбору. Покрытие tuition уменьшается на уже назначенную вступительную merit-стипендию, а не оплачивается дважды; предусмотрены пособие на книги, учебные сборы, проживание и питание в HRC. Заменяет награды за участие Invitation to Excellence и Getterman Fellows. Парковка и неучебные сборы исключены. Покрытие медстраховки, поездки на отбор, личных расходов и возможных налогов не подтверждено. Летние дополнительные возможности ограничены суммарными 20 000 USD за обучение и отдельным согласованием. Типичные баллы отобранных SAT/ACT/CLT не являются минимумами поступления; test-optional абитуриенты также допускаются. Конкурсная помощь не гарантирована и автоматически из бюджета не вычитается."
+        }
+      },
+      "supportingSources": [
+        "https://honors.baylor.edu/current-students/getterman-fellows/scholarship-funding-opportunities/getterman-scholars-funding",
+        "https://honors.baylor.edu/current-students/getterman-scholars/annual-renewal-getterman-scholar",
+        "https://admissions.web.baylor.edu/costs-aid/freshman-scholarship-events",
+        "https://honors.baylor.edu/admissions/getterman-scholars-program/application-process"
+      ],
+      "internationalEligibility": "Explicit FAQ; mandatory in-person Waco final selection event; award coverage verified separately."
+    }
+  },
+  {
+    "id": "north-carolina-state-university",
+    "topic": "remaining-award-review",
+    "source": "https://admissions.ncsu.edu/apply/international/first-year/",
+    "verified": "2026-11-02",
+    "intake": "Standing international first-year merit process; no award-specific 2027 deadline established",
+    "category": "International first-year, secondary school outside the US",
+    "campus": "Raleigh, North Carolina",
+    "access": "html-read",
+    "quote": "a limited number of competitive merit-based scholarships are available to international students.",
+    "facts": {
+      "publicMerit": [
+        {
+          "id": "ncsu-international-packassist",
+          "category": "merit",
+          "name": {
+            "en": "International merit opportunities — PACKASSIST",
+            "ru": "Международные merit-стипендии — PACKASSIST"
+          },
+          "amount": null,
+          "deadlineScope": "not-confirmed",
+          "entryTerm": null,
+          "entryYear": null,
+          "renewable": null,
+          "eligibility": {
+            "en": "International admitted first-year students; each award has separate criteria.",
+            "ru": "Зачисленные международные первокурсники; у каждой награды отдельные условия."
+          },
+          "howToApply": {
+            "en": "After admission, apply in PACKASSIST. Access is available only to admitted students.",
+            "ru": "После зачисления подать заявку в PACKASSIST. Доступ открывается только зачисленным."
+          },
+          "note": {
+            "en": "Limited competitive consideration, not automatic funding. Amounts, largest applicable award, renewal, stacking and a specific 2027 deadline are not established. Park/Goodnight restrictions remain separate.",
+            "ru": "Ограниченный конкурс, не автоматическое финансирование. Суммы, крупнейшая применимая награда, продление, совмещение и точный срок 2027 не установлены. Ограничения Park и Goodnight сохраняются отдельно."
+          },
+          "basis": "merit"
+        }
+      ]
+    }
   }
 ]

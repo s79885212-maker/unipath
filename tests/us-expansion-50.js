@@ -12,6 +12,14 @@ module.exports=function(env){
      'USA +50 preserves every original institution, including all 370 baseline IDs');
   ok(targets.length===50 && allowed.size===50 && fresh.every(function(u){return u.country==='us'&&allowed.has(u.id);}) && DB.countries.length===6,
      'USA +50 adds only approved IDs and keeps six countries');
+  var getterman=U.uniById('baylor-university'),ga=getterman.scholarships.fullRide;
+  ok(ga.id==='baylor-getterman'&&ga.internationalEligible===true&&ga.renewable===true&&
+     ga.covers.housing===true&&ga.covers.books===null&&ga.covers.insurance===null&&
+     /3.5/.test(ga.renewalConditions)&&/take|Replaces/.test(ga.note)&&
+     U.awardDates(getterman,ga).length===2&&U.awardDates(getterman,ga).some(function(d){return d.kind==='admission'&&d.dateISO==='2026-11-01';})&&
+     U.awardDates(getterman,ga).some(function(d){return d.kind==='scholarship'&&d.dateISO==='2026-11-12';})&&
+     budget(getterman,0).status==='unknown',
+     'Baylor Getterman preserves explicit international eligibility, HRC and college-renewal scope, allowance/insurance uncertainty and separate admission/supplement deadlines, never guaranteed budget coverage');
   var firstMissing=targets.findIndex(function(t){return !U.uniById(t.id);});
   ok(firstMissing===-1 || (firstMissing%10===0 && targets.slice(firstMissing).every(function(t){return !U.uniById(t.id);})),
      'approved expansion is an ordered prefix of complete ten-institution batches');
@@ -253,7 +261,7 @@ module.exports=function(env){
      /college for men/.test(wab.admissions.notes.join(' ')),
      'Wabash keeps men-only scope, recommended English and financial declaration separate from admission minima and annual price');
   ok(bay&&bay.admissions.applicationFee.amount===0&&U.needBased(bay).availableToInternational===true&&
-     /November 1 versus November 15/.test(bay.scholarships.fullRide.note)&&
+     /November 15/.test(bay.scholarships.needBased.note)&&/November 1 priority/.test(bay.scholarships.needBased.note)&&/conflict/.test(bay.scholarships.needBased.note)&&
      !bay.admissions.deadlines.some(function(d){return d.kind==='aid'&&d.status==='confirmed';}),
      'Baylor aid reaches the display/filter helper; verified free application differs from unknown fee; conflicting BIFAA priority does not become confirmed aid date');
   ok(yu&&/Honors/.test(U.satLabel(yu))&&/Yeshiva College for Men/.test(yu.programNote)&&

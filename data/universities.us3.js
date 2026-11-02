@@ -40001,7 +40001,24 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": "Park requires US citizenship, permanent residency, or graduation from a US high school. Goodnight requires North Carolina residence or an international student living in North Carolina and graduating from a North Carolina school. Neither is assigned to a typical applicant completing school in Uzbekistan. Other international merit opportunities may exist; the largest applicable award is not established."
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "ncsu-international-packassist",
+        "category": "merit",
+        "name": "International merit opportunities — PACKASSIST",
+        "amount": null,
+        "deadlineScope": "not-confirmed",
+        "entryTerm": null,
+        "entryYear": null,
+        "renewable": null,
+        "eligibility": "International admitted first-year students; each award has separate criteria.",
+        "howToApply": "After admission, apply in PACKASSIST. Access is available only to admitted students.",
+        "note": "Limited competitive consideration, not automatic funding. Amounts, largest applicable award, renewal, stacking and a specific 2027 deadline are not established. Park/Goodnight restrictions remain separate.",
+        "basis": "merit",
+        "source": "https://admissions.ncsu.edu/apply/international/first-year/",
+        "verified": "2026-11-02"
+      }
+    ],
     "needBased": {
       "availableToInternational": false,
       "meetsFullNeed": null,
@@ -48594,6 +48611,56 @@ window.UNIPATH.universities.push(
           "entryTerm": null,
           "entryYear": null
         }
+      },
+      {
+        "id": "baylor-getterman-2027-admission",
+        "name": "Getterman admission application prerequisite",
+        "kind": "admission",
+        "date": "1 November 2026",
+        "dateISO": "2026-11-01",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
+        "binding": null,
+        "awardId": "baylor-getterman",
+        "awardCategory": "merit",
+        "appliesTo": "Getterman selection only; January 2027 finalist event",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://honors.baylor.edu/admissions/getterman-scholars-program/application-process",
+          "verified": "2026-11-02",
+          "quote": "Candidate Interviews with Honors College Faculty (In-Person Event) January 22, 2027"
+        },
+        "source": "https://honors.baylor.edu/admissions/getterman-scholars-program/application-process",
+        "verified": "2026-11-02"
+      },
+      {
+        "id": "baylor-getterman-2027-supplement",
+        "name": "Getterman and Honors College applications",
+        "kind": "scholarship",
+        "date": "12 November 2026, 23:59 CST",
+        "dateISO": "2026-11-12",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
+        "binding": null,
+        "awardId": "baylor-getterman",
+        "awardCategory": "merit",
+        "appliesTo": "Getterman selection only; January 2027 finalist event",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://honors.baylor.edu/admissions/getterman-scholars-program/application-process",
+          "verified": "2026-11-02",
+          "quote": "Candidate Interviews with Honors College Faculty (In-Person Event) January 22, 2027"
+        },
+        "source": "https://honors.baylor.edu/admissions/getterman-scholars-program/application-process",
+        "verified": "2026-11-02"
       }
     ],
     "applicationFee": {
@@ -48690,20 +48757,29 @@ window.UNIPATH.universities.push(
   },
   "scholarships": {
     "fullRide": {
-      "available": null,
-      "internationalEligible": null,
-      "basis": null,
+      "available": true,
+      "internationalEligible": true,
+      "basis": "merit",
       "covers": {
-        "tuition": null,
-        "housing": null,
-        "meals": null,
-        "insurance": null,
-        "books": null
+        "tuition": true,
+        "housing": true,
+        "meals": true,
+        "books": null,
+        "insurance": null
       },
-      "renewable": null,
-      "competitiveness": null,
-      "howToApply": null,
-      "note": "Beginning Fall 2027, international need-based aid consideration uses BIFAA; it does not guarantee an award and is not required for merit. Official sources conflict on priority November 1 versus November 15, including two sections on one page. Final February 1 is consistent; no single priority deadline is presented as confirmed. Largest award/renewal remains unverified."
+      "renewable": true,
+      "competitiveness": "Highly competitive Honors College selection, video essay and in-person finalist interview",
+      "howToApply": "Complete the Baylor admission application by 1 November 2026, then the Honors College and separate Scholarship Events applications by 12 November 2026, 23:59 CST. Finalists must attend in Waco on 22–23 January 2027. The admission prerequisite has already passed; the later supplement does not reopen it.",
+      "note": "International applicants are explicitly eligible for selection. Tuition is reduced by the admission merit award, rather than paid twice; includes a book allowance and course-related fees plus HRC housing and food. Replaces the Invitation to Excellence participation and Getterman Fellows awards. Parking and non-course-related fees are excluded. Health insurance, travel to the finalist event, personal expenses and tax residuals are not confirmed as covered. Summer enrichment support has a combined USD 20,000 career cap and separate approvals. Typical selected SAT/ACT/CLT scores are not minimum admission requirements; test-optional applicants remain eligible. Competitive, not guaranteed or automatically deducted from a budget.",
+      "id": "baylor-getterman",
+      "category": "merit",
+      "name": "Getterman Scholars Program",
+      "entryTerm": "Autumn",
+      "entryYear": "2027",
+      "deadlineScope": "confirmed",
+      "renewalConditions": "Eight undergraduate semesters; active Honors College programme and cumulative college GPA at least 3.5, with probation process. Housing and food require residence in the Honors Residential College and university dining. Graduate coursework is excluded.",
+      "source": "https://honors.baylor.edu/prospective-students/getterman-scholars-program/getterman-faqs",
+      "verified": "2026-11-02"
     },
     "merit": [
       {
@@ -48802,6 +48878,26 @@ window.UNIPATH.universities.push(
     {
       "label": "International aid — reviewed eligibility and limits",
       "url": "https://admissions.web.baylor.edu/costs-aid/scholarships-aid/merit-based-scholarships"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://honors.baylor.edu/current-students/getterman-fellows/scholarship-funding-opportunities/getterman-scholars-funding"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://honors.baylor.edu/current-students/getterman-scholars/annual-renewal-getterman-scholar"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://admissions.web.baylor.edu/costs-aid/freshman-scholarship-events"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://honors.baylor.edu/admissions/getterman-scholars-program/application-process"
+    },
+    {
+      "label": "International aid — reviewed eligibility and limits",
+      "url": "https://honors.baylor.edu/prospective-students/getterman-scholars-program/getterman-faqs"
     }
   ],
   "verification": {
