@@ -14109,7 +14109,8 @@
         "note": {
           "en": "Directly read international first-year rule: SAT/ACT not required unless planning NCAA sport. This does not remove English proof, school-record evaluation or NCAA eligibility requirements. No general SAT minimum is inferred.",
           "ru": "Прямо прочитанное международное правило первокурсника: SAT/ACT не нужны, кроме планирования спорта NCAA. Это не отменяет английский, оценку школьных документов и требования NCAA. Общий минимум SAT не выведен."
-        }
+        },
+        "cycleRu": "Действующее правило для международного первого курса; страница заявок Fall 2027"
       },
       "publicEnglish": {
         "ielts": {
@@ -14769,5 +14770,127 @@
         }
       ]
     }
+  },
+  {
+    "id": "marquette-university",
+    "topic": "international-first-year-fee",
+    "source": "https://bulletin.marquette.edu/admission-costs/undergrad-admission/",
+    "verified": "2026-11-02",
+    "intake": "Current standing undergraduate first-year fee; no separate 2027 pricing announcement",
+    "category": "International first-year undergraduate, not graduate/professional",
+    "campus": "Milwaukee",
+    "access": "html-read",
+    "quote": "There is no application fee for undergraduate applicants.",
+    "facts": {
+      "publicApplicationFee": {
+        "amount": 0,
+        "currency": "USD",
+        "note": {
+          "en": "Undergraduate admission application has no fee. The separate USD 200 tuition and USD 300 housing reservation deposits are not application fees. This does not apply to law, dentistry or graduate applications.",
+          "ru": "Плата за подачу на бакалавриат отсутствует. Отдельные депозиты 200 USD за обучение и 300 USD за жильё не являются сбором подачи. Это правило не распространяется на право, стоматологию и магистратуру."
+        },
+        "waiverAvailableToInternational": null
+      },
+      "supportingSources": []
+    }
+  },
+  {
+    "id": "george-mason-university",
+    "topic": "international-first-year-fee",
+    "source": "https://www.gmu.edu/freshman/apply",
+    "verified": "2026-11-02",
+    "intake": "Current standing undergraduate first-year fee; no separate 2027 pricing announcement",
+    "category": "International first-year undergraduate, not graduate/professional",
+    "campus": "Fairfax, Virginia",
+    "access": "html-read",
+    "quote": "George Mason's freshman application fee is $75.",
+    "facts": {
+      "publicApplicationFee": {
+        "amount": 75,
+        "currency": "USD",
+        "note": {
+          "en": "Published first-year application fee. The international freshman checklist also requires the paid application fee. Possible waivers require their own eligibility review; the old USD 80 graduate fee and Mason Korea rules are not substituted.",
+          "ru": "Опубликованный сбор подачи на первый курс. Международный checklist также требует оплаты сбора. Возможность освобождения проверяется отдельно; прежний сбор 80 USD для магистратуры и правила Mason Korea не подставляются."
+        },
+        "waiverAvailableToInternational": null
+      },
+      "supportingSources": [
+        "https://www.gmu.edu/freshman/requirements/international",
+        "https://catalog.gmu.edu/admissions/international-students/"
+      ]
+    }
+  },
+  {
+    "id": "florida-international-university",
+    "topic": "programme-campus-followup",
+    "source": "https://business.fiu.edu/academics/undergraduate/bachelor-of-accounting/index.html",
+    "verified": "2026-11-02",
+    "intake": "Standing programme descriptions; Fall2027 campus/course availability not established",
+    "category": "Undergraduate programme review; not graduate, certificate or online eligibility",
+    "campus": "Programme-level campus unresolved; do not infer from department address",
+    "access": "html-read",
+    "quote": "60 credits of lower division coursework",
+    "facts": {
+      "degree": "Bachelor of Accounting",
+      "creditsLower": 60,
+      "creditsUpper": 60,
+      "scope": "Undergraduate; campus not specified on degree page; summer offerings limited. Extra CPA credits not part of the bachelor. No business tag installed until programme-campus link is verified."
+    }
+  },
+  {
+    "id": "florida-international-university",
+    "topic": "programme-campus-followup",
+    "source": "https://business.fiu.edu/academics/undergraduate/admissions/admission-requirements/index.html",
+    "verified": "2026-11-02",
+    "intake": "Standing programme descriptions; Fall2027 campus/course availability not established",
+    "category": "Undergraduate programme review; not graduate, certificate or online eligibility",
+    "campus": "Programme-level campus unresolved; do not infer from department address",
+    "access": "html-read",
+    "quote": "Incoming high school applicants must adhere to university admission requirements and deadlines.",
+    "facts": {
+      "route": "Freshman follows university admission; transfer/change-plan 2.5/2.75 and 60-credit rules are separate and are not Uzbek school minima. Old continuing-student deadlines not Fall2027."
+    }
+  },
+  {
+    "id": "florida-international-university",
+    "topic": "programme-campus-followup",
+    "source": "https://case.fiu.edu/mathstat/students/undergraduate-programs/bs-in-mathematical-sciences-mathematics/index.html",
+    "verified": "2026-11-02",
+    "intake": "Standing programme descriptions; Fall2027 campus/course availability not established",
+    "category": "Undergraduate programme review; not graduate, certificate or online eligibility",
+    "campus": "Programme-level campus unresolved; do not infer from department address",
+    "access": "html-read",
+    "quote": "Bachelor of Science (B.S.) in Mathematical Sciences: Major in Mathematics",
+    "facts": {
+      "degree": "BS Mathematical Sciences, Mathematics major",
+      "scope": "Comprehensive, applied and other tracks within this major; mathematics-business/economics track is not automatically a separate Business or Economics degree. Freshman route linked, but department address alone does not establish exact course campus."
+    }
+  },
+  {
+    "id": "florida-international-university",
+    "topic": "programme-campus-followup",
+    "source": "https://business.fiu.edu/about/",
+    "verified": "2026-11-02",
+    "intake": "Standing programme descriptions; Fall2027 campus/course availability not established",
+    "category": "Undergraduate programme review; not graduate, certificate or online eligibility",
+    "campus": "Programme-level campus unresolved; do not infer from department address",
+    "access": "html-read",
+    "quote": "We also offer programs at the waterfront",
+    "facts": {
+      "scope": "College based MMC but also BBC/I75/Downtown; therefore headquarters alone is insufficient for exact bachelor campus."
+    }
+  },
+  {
+    "id": "florida-international-university",
+    "topic": "programme-campus-followup",
+    "source": "https://mymajor.fiu.edu/",
+    "verified": "2026-11-02",
+    "intake": null,
+    "category": "Official programme-campus map; search-preview lead not promoted",
+    "campus": "Unconfirmed",
+    "access": "no-readable-lines",
+    "quote": null,
+    "facts": null,
+    "unresolved": "Official direct page returned no readable lines; cached search labels do not establish a reviewed map."
   }
 ]

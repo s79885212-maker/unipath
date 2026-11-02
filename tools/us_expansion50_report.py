@@ -6,6 +6,8 @@ ROOT=Path(__file__).resolve().parent.parent
 targets=json.loads((ROOT/'research/us-expansion-50-targets.json').read_text(encoding='utf-8'))
 sources=json.loads((ROOT/'research/us-expansion-50-sources.json').read_text(encoding='utf-8'))
 photos=json.loads((ROOT/'research/us-expansion-50-photo-manifest.json').read_text(encoding='utf-8'))
+matrix=json.loads((ROOT/'research/us-expansion-50-completion-matrix.json').read_text(encoding='utf-8'))
+matrix_by_id={r['id']:r for r in matrix['entries']}
 _,data,_=load(str(ROOT/'data/universities.us3.js'));by_id={u['id']:u for u in data}
 manifest={p['id']:p for p in photos}
 def esc(x):return str(x).replace('|',' / ').replace('\n',' ')
@@ -21,7 +23,7 @@ lines=['<!-- us50-current-inventory:start -->','',
 for order,t in enumerate(targets,1):
  uid=t['id'];u=by_id.get(uid)
  if not u:continue
- read=[s for s in sources if s['id']==uid and s['access']=='html-read']
+ read=[s for s in sources if s['id']==uid and s['access'] in ('html-read','pdf-read')]
  admission_url=u['links']['admissions']
  prog=next(s for s in read if s['topic'] in ('programs','program-computer-science'))
  evidence=list(u.get('programEvidence',{}).values())
@@ -38,7 +40,10 @@ for order,t in enumerate(targets,1):
  elif photo and photo.get('downloaded'):ph='Скачано, отложено: '+('точный кампус FIU ещё не установлен' if uid=='florida-international-university' else 'нужен более качественный исходник' if uid=='baylor-university' else 'дополнительная проверка источника')
  if not photo and any(s['id']==uid and s['topic'] in ('photo-candidate-unavailable','photo-search-review') for s in sources):
   ph='Поиск выполнен, страница файла недоступна; автор/лицензия не подтверждены, заглушка'
- gaps=('Полнота программ; язык подтверждён только для указанных направлений' if u.get('englishTaughtPrograms') else 'Полнота программ и язык')+'; точные квалификации; условия наград/продления'
+ reviewed=matrix_by_id[uid]['fields']
+ labels={'verified':'проверено','verified-partial':'частично подтверждено','reviewed-not-found':'в исследованных источниках не найдено','source-unavailable':'источник недоступен','not-published-for-cycle':'нужный цикл не опубликован','conflict':'официальный конфликт','not-researched':'ещё не исследовано'}
+ gaps='; '.join(k+': '+labels[v['review']['state']] for k,v in reviewed.items() if k!='photo')
+ gaps+='; незавершённые пункты: '+str(sum(len(v['review']['unfinishedResearch']) for v in reviewed.values()))+' (см. JSON-матрицу)'
  if not photo or not photo.get('installed'):gaps+='; фотография'
  if not year:gaps+='; год/состав стоимости'
  lines.append('| '+str(order)+' / ['+uid+']('+admission_url+') | ['+esc(programme)+']('+prog['source']+') | '+cred+' | '+cost+' | '+esc(award)+' | '+esc(ph)+' | '+gaps+' |')
@@ -52,6 +57,7 @@ else:text+='\n\n'+'\n'.join(lines)+'\n'
 p.write_text(text,encoding='utf-8')
 rp=ROOT/'research/us-expansion-50-registry.json';registry=json.loads(rp.read_text(encoding='utf-8'))
 for e in registry['entries']:
+ e['sourceEntries']=sum(s['id']==e['id'] for s in sources)
  if e['id'] in manifest:
   m=manifest[e['id']]
   e['topics']['photo']='installed-reviewed-free-licence' if m.get('installed') else 'downloaded-held-review' if m.get('downloaded') else 'candidate-license-reviewed-'+m['permission']

@@ -6,6 +6,17 @@ module.exports=function(env){
   var registry=JSON.parse(fs.readFileSync(path.join(root,'research/us-expansion-50-registry.json'),'utf8'));
   var sources=JSON.parse(fs.readFileSync(path.join(root,'research/us-expansion-50-sources.json'),'utf8'));
   var targets=JSON.parse(fs.readFileSync(path.join(root,'research/us-expansion-50-targets.json'),'utf8'));
+  var completion=JSON.parse(fs.readFileSync(path.join(root,'research/us-expansion-50-completion-matrix.json'),'utf8'));
+  var reviewStates=new Set(['verified','verified-partial','reviewed-not-found','source-unavailable','not-published-for-cycle','conflict','not-researched']);
+  ok(completion.entries.length===50&&completion.status==='in-progress'&&completion.entries.every(function(row){
+       var u=U.uniById(row.id),f=row.fields;
+       return Object.keys(f).length===8&&Object.values(f).every(function(v){return v.review&&reviewStates.has(v.review.state)&&
+         v.review.checked&&v.review.scope&&Array.isArray(v.review.remaining)&&Array.isArray(v.review.unfinishedResearch);})&&
+         (f.admission.review.state==='source-unavailable')===!u.admissions.documents.length&&
+         (f.cost.review.state==='conflict')===(u.costs.status==='conflict')&&
+         (f.language.review.state==='verified-partial')===!!(u.englishTaughtPrograms||[]).length;
+     })&&registry.entries.every(function(row){return row.sourceEntries===sources.filter(function(s){return s.id===row.id;}).length;}),
+     'research inventory distinguishes scoped review, unavailable content and unfinished work; actual document/language/cost states and evidence counts remain consistent');
   var base=new Set(registry.baselineIds),allowed=new Set(targets.map(function(t){return t.id;}));
   var fresh=DB.universities.filter(function(u){return !base.has(u.id);});
   ok(base.size===370 && registry.baselineIds.every(function(id){return !!U.uniById(id);}),
@@ -21,6 +32,11 @@ module.exports=function(env){
      budget(getterman,0).status==='unknown',
      'Baylor Getterman preserves explicit international eligibility, HRC and college-renewal scope, allowance/insurance uncertainty and separate admission/supplement deadlines, never guaranteed budget coverage');
   var firstMissing=targets.findIndex(function(t){return !U.uniById(t.id);});
+  ok(U.uniById('marquette-university').admissions.applicationFee.amount===0&&
+     /200 tuition/.test(U.uniById('marquette-university').admissions.applicationFee.note)&&
+     U.uniById('george-mason-university').admissions.applicationFee.amount===75&&
+     /80 graduate/.test(U.uniById('george-mason-university').admissions.applicationFee.note),
+     'Marquette verified free undergraduate application excludes reservation deposits; Mason freshman fee is 75, not an old graduate fee');
   ok(firstMissing===-1 || (firstMissing%10===0 && targets.slice(firstMissing).every(function(t){return !U.uniById(t.id);})),
      'approved expansion is an ordered prefix of complete ten-institution batches');
   ok(fresh.map(function(u){return u.id;}).join('|')===targets.slice(0,fresh.length).map(function(t){return t.id;}).join('|'),

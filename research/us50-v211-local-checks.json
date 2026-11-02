@@ -1,0 +1,52 @@
+{
+  "version": 211,
+  "date": "2026-11-02",
+  "mode": "Local built staging artifact through disk route fulfillment; not live Pages",
+  "browser": "156.0.8078.74",
+  "unit": {
+    "passed": 416,
+    "failed": 0
+  },
+  "build": {
+    "base": "/unipath/staging/",
+    "staticPages": 426,
+    "noindexPages": 427
+  },
+  "links": {
+    "pages": 427,
+    "internal": 13695,
+    "passed": true
+  },
+  "browserChecks": {
+    "responsiveRoutes": 896,
+    "directProfilesWithReload": 50,
+    "changedData": 144,
+    "languageFilterCombinations": 16,
+    "photoChecks": 162,
+    "photoProfiles": 50,
+    "interactionControls": 9,
+    "issues": 0,
+    "javascriptErrors": 0
+  },
+  "sourceHashes": {
+    "index.html": "ff9c7053070d88ba3cd9dd7da72e04cf559fe1c2690a8323beb30fd77548968a",
+    "data/universities.us3.js": "c40915431c533bbc104c6443991b7005bc03cf69ca27daabfedd1b3b2c487988",
+    "data/i18n/ru.js": "08eec7ff911020f6a66a4b4afb90930833b1b55ae6c4226e71f274ecdbbd9c5b",
+    "assets/js/app.js": "46175540a758f4957f765c534c4642b7f135d3b9b9083be27fa74f482cee3e61",
+    "assets/js/pages.js": "8fd570c9ab4eaf812c683d2ac8c7afae481f8978a00625c03746a12f0d1d8f5d",
+    "assets/js/match.js": "f0c7bbdd277cf9fcdd0cc45598362dc7c2429f8ec388b83580825291c67d4827",
+    "tools/prerender.py": "37d09e3cb432b1bd2bf2224f41956efb37231632261a1a19380973e803e63552"
+  },
+  "verificationNotes": [
+    "896 responsive scenarios preceded the final two fee values and Mines RU cycle label; 144 focused cases and photo/interaction scenarios repeated after that final rebuild.",
+    "Institution and award names, licence names, acronyms and literal source URLs are intentionally allowed in i18n collection; descriptive labels are not exempt.",
+    "Photo error fallback intentionally aborts Davis main/thumb; this is a test fixture, not a genuine missing asset.",
+    "Final cleanup removed two unused null fee metadata keys; existing waiverAvailableToInternational contract retained. No visible content or filter predicate changed."
+  ],
+  "limitations": [
+    "Live Pages unavailable from this environment.",
+    "External flag font and Turnstile script failed DNS; live challenge behaviour is unverified.",
+    "Safari and physical phones not checked.",
+    "Git network blocked by DNS; these checks do not prove publication or complete research."
+  ]
+}

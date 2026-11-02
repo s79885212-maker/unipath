@@ -46,6 +46,8 @@ for evidence in sources:
         policy = facts['publicTestingPolicy']
         assert policy['policy'] in ('required', 'optional', 'conditional', 'not-applicable', 'not-used')
         assert policy.get('cycle') and policy.get('scopeQuote')
+        if policy.get('cycleRu'):
+            L(policy['cycle'], policy['cycleRu'])
         for exam in ('sat', 'act'):
             previous = u['academics'].get(exam) or {}
             # Preserve existing independent statistics; this changes admission policy only.

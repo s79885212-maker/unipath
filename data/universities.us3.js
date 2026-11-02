@@ -49094,10 +49094,13 @@ window.UNIPATH.universities.push(
       }
     ],
     "applicationFee": {
-      "amount": null,
+      "amount": 0,
       "currency": "USD",
       "waiverAvailableToInternational": null,
-      "waiver": null
+      "waiver": null,
+      "note": "Undergraduate admission application has no fee. The separate USD 200 tuition and USD 300 housing reservation deposits are not application fees. This does not apply to law, dentistry or graduate applications.",
+      "source": "https://bulletin.marquette.edu/admission-costs/undergrad-admission/",
+      "verified": "2026-11-02"
     },
     "documents": [
       "School records and examinations may be unofficial initially; official records before I-20 and enrolment, with exact English translations. College-course evaluation requirements are not general requirements for school-only first-year applicants."
@@ -49270,6 +49273,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate majors — named campus programmes",
       "url": "https://bulletin.marquette.edu/programs/"
+    },
+    {
+      "label": "First-year documents and testing — reviewed scope",
+      "url": "https://bulletin.marquette.edu/admission-costs/undergrad-admission/"
     }
   ],
   "verification": {
@@ -51254,10 +51261,13 @@ window.UNIPATH.universities.push(
       }
     ],
     "applicationFee": {
-      "amount": null,
+      "amount": 75,
       "currency": "USD",
       "waiverAvailableToInternational": null,
-      "waiver": null
+      "waiver": null,
+      "note": "Published first-year application fee. The international freshman checklist also requires the paid application fee. Possible waivers require their own eligibility review; the old USD 80 graduate fee and Mason Korea rules are not substituted.",
+      "source": "https://www.gmu.edu/freshman/apply",
+      "verified": "2026-11-02"
     },
     "documents": [
       "Official original school records and leaving certificates with certified English translation, school report; two recommendations suggested, essay encouraged, résumé for education gaps as applicable."
@@ -51496,6 +51506,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Teaching language — official campus statement",
       "url": "https://registrar.gmu.edu/wp-content/uploads/VRF_supp.pdf"
+    },
+    {
+      "label": "First-year documents and testing — reviewed scope",
+      "url": "https://www.gmu.edu/freshman/apply"
+    },
+    {
+      "label": "First-year documents and testing — reviewed scope",
+      "url": "https://catalog.gmu.edu/admissions/international-students/"
     }
   ],
   "verification": {
