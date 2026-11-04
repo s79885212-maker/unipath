@@ -1207,3 +1207,6 @@ Baylor FAQ прямо допускает international applicants к Getterman. 
 
 ## 2 ноября 2026 — v211: честная матрица и локальная передача
 Матрица50×8 отделяет публичный status от research state, фиксирует remaining и unfinishedResearch; число источников пересчитано (580). Проверены дополнительные fees Marquette0/Mason75, не депозиты/graduate80; исправлена RU-подпись Mines. Все50фото сохранены. 416passed/0failed; staging build426static/427noindex;13695внутренних ссылок. Chrome156:896responsive+50direct/reload,16filter combinations, после финальных fee/RU изменений144targeted+162photo+9interaction controls — без UI/JS ошибок. Внешние флаговый шрифт/Turnstile DNS-unavailable, Safari/реальные телефоны/livePages не проверены. Исходные370 записей сохранены; workflows/main не менялись. Remote dev/branch остаютсяb64829d/v198,mainafa5a19/v169; shell Git DNS-blocked. Локальнаяv211 не объявлена опубликованной, исследования языка/FIU campus/named awards остаются открыты. См.report/matrix/method/local-checks.
+
+## 4 ноября 2026 — v212: тестовая копия без проверки на ботов
+- По просьбе владельца проверка Cloudflare Turnstile отключена на тестовой копии (`/staging/`, страницы с `noindex`): `assets/js/gate.js` пропускает её. На основном сайте проверка работает как раньше (там нет `/staging/` и `noindex`).

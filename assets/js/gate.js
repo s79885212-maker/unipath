@@ -52,7 +52,12 @@
     try { global.localStorage.setItem(CONFIG.STORAGE_KEY, String(now())); } catch (e) {}
   }
 
-  if (!CONFIG.ENABLED ||
+  /* The test copy (/staging/, marked noindex by the build) is not checked:
+     the owner and the agents reviewing it need to open it freely. */
+  var isStaging = /\/staging\//.test(global.location.pathname) ||
+    !!doc.querySelector('meta[name="robots"][content*="noindex"]');
+
+  if (!CONFIG.ENABLED || isStaging ||
       global.location.protocol === 'file:' ||      /* Turnstile needs a real web origin */
       CRAWLERS.test(global.navigator.userAgent || '') ||
       passedRecently()) return;
