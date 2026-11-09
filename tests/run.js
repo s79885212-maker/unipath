@@ -817,6 +817,8 @@ require('./loading.js')(ok);
 require('./loading-gate.js')(ok);
 group('approved USA +50 expansion regressions');
 require('./us-expansion-50.js')({U:U,M:M,DB:DB,ok:ok,sandbox:sandbox,load:load});
+group('release check regressions (November 2026)');
+require('./release-qa.js')(ok);
 console.log('\n' + passed + ' passed, ' + failed + ' failed');
 /* Exit with a status only when run directly; tests/links.js loads this file for the data. */
 if (require.main === module) process.exit(failed ? 1 : 0);

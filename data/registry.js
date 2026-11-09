@@ -142,6 +142,15 @@ window.UNIPATH.applyLayers = function () {
         return copy;
       });
       u.photos = { main: gallery[0].src, thumb: gallery[0].src.replace(/[^/]+$/, 'thumb.jpg'), gallery: gallery };
+    } else if (u.photos && root) {
+      /* Photos stored in the record itself (the USA expansion of November 2026)
+         are relative to the site root too: on a static page they need the same prefix. */
+      if (u.photos.main) u.photos.main = at(u.photos.main);
+      if (u.photos.thumb) u.photos.thumb = at(u.photos.thumb);
+      (u.photos.gallery || []).forEach(function (g) {
+        if (g.src) g.src = at(g.src);
+        if (g.thumb) g.thumb = at(g.thumb);
+      });
     }
   });
 };

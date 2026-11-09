@@ -1562,6 +1562,8 @@ window.UNIPATH_I18N.ru = {
   "≈ ₩7,800,000 per semester": "≈ ₩7,800,000 за семестр",
   "≈ ₩9.3m – ₩12.9m per year in tuition, depending on college": "≈ ₩9,3–12,9 млн за обучение в год, в зависимости от колледжа",
   "⊕ Add to comparison": "⊕ Добавить к сравнению",
+  "✓ Added to comparison": "✓ Добавлено к сравнению",
+  "✓ Comparing": "✓ В сравнении",
   "★ Full scholarship for internationals": "★ Полная стипендия для иностранцев",
   "★ Full-ride / full scholarship": "★ Полная стипендия (full ride)",
   "⚖️ Law & Policy": "⚖️ Право и политика",
