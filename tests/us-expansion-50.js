@@ -184,7 +184,7 @@ module.exports=function(env){
      'UGA admitted-student IELTS7.5 average is neither first-year minimum nor recommendation');
   var uw=U.uniById('university-of-wisconsin-madison'),king=U.fullRide(uw);
   var psu=U.uniById('pennsylvania-state-university-university-park');
-  ok(/years8–11/.test(uw.academics.internationalQualifications)&&/years9–12/.test(psu.academics.internationalQualifications)&&
+  ok(/years 8–11/.test(uw.academics.internationalQualifications)&&/years 9–12/.test(psu.academics.internationalQualifications)&&
      /11-year/.test(psu.academics.internationalQualifications)&&/academic lyceum/.test(uw.academics.internationalQualifications),
      'Uzbekistan country instructions keep Wisconsin/PennState school-year differences and unresolved lyceum equivalence');
   ok(king.id==='king-morgridge'&&/COUNTRY OF THE SECONDARY SCHOOL/.test(king.note)&&/Uzbekistan is not listed/.test(king.note)&&
@@ -208,7 +208,7 @@ module.exports=function(env){
      /ноября/.test(tr('1 November, 23:59 CT')||'')&&/тихоокеанскому/.test(tr('22 January, 23:59 Pacific Time')||''),
      'new composed document titles and dates with published US time zones translate in Russian');
   var bing=U.uniById('binghamton-university');
-  ok(bing&&U.ieltsMin(bing)===null&&bing.english.ielts.recommended===null&&/Mid50%/.test(bing.english.note)&&
+  ok(bing&&U.ieltsMin(bing)===null&&bing.english.ielts.recommended===null&&/Mid 50%/.test(bing.english.note)&&
      /section range/.test(bing.english.note),
      'Binghamton Mid50 IELTS/TOEFL and SAT EBRW statistics are not minima, averages or SAT composite');
   var nc=U.uniById('north-carolina-state-university');
@@ -373,7 +373,7 @@ module.exports=function(env){
   ok(U.uniById('virginia-tech').admissions.documents.some(function(d){return /11-year Uzbek record/.test(d)&&/unconfirmed/.test(d);})&&
      U.uniById('university-of-illinois-urbana-champaign').admissions.documents.some(function(d){return /only if enrolling/.test(d);})&&
      U.englishPrograms(U.uniById('george-mason-university')).includes('computer-science')&&
-     /dated2013/.test(U.uniById('george-mason-university').languageOfInstruction),
+     /dated 2013/.test(U.uniById('george-mason-university').languageOfInstruction),
      'School-record reporting and unresolved Uzbek equivalence remain separate; Mason language retains the dated Registrar policy scope');
   var hillInternational=hill.scholarships.merit.find(function(a){return a.id==='hillsdale-international-tuition';});
   ok(hillInternational&&/Up to tuition/.test(hillInternational.amount)&&/not automatically the renewal threshold/.test(hillInternational.renewable)&&

@@ -47,4 +47,30 @@ module.exports = function (ok) {
     var untranslated = labels.filter(function (l) { return !Object.prototype.hasOwnProperty.call(ru, l); });
     ok(labels.length >= 4 && !untranslated.length, 'compare and save button labels shown after a click have Russian translations', untranslated.join(' | '));
   })();
+
+  /* The 50 USA profiles of November 2026 were written with spaces missing around numbers
+     and between words ("IELTS6.5", "Fall2027", "Открылся1946как"); tools/us50_text_spacing.py
+     restores them. Every displayed English string and its Russian translation stays spaced. */
+  (function () {
+    var box = { window: {} }; box.window = box; vm.createContext(box);
+    ['data/registry.js', 'data/universities.us3.js', 'data/i18n/ru.js'].forEach(function (rel) {
+      vm.runInContext(fs.readFileSync(path.join(ROOT, rel), 'utf8'), box, { filename: rel });
+    });
+    var ids = JSON.parse(fs.readFileSync(path.join(ROOT, 'research/us-expansion-50-targets.json'), 'utf8')).map(function (t) { return t.id; });
+    var ru = box.UNIPATH_I18N.ru;
+    var skip = /^(id|source|url|page|licenseUrl|src|main|thumb|website|apply|dateISO|period|status|basis|level|verified|checked|lastVerified|programsBasis|programsStatus|institutionKind|policy|kind|c1|c2|initials|currency|entryTerm|entryYear|country|access|category|artist)$/;
+    var GLUE = /[A-Za-z]{2}[0-9]|[0-9][A-Za-z]{3}|[а-яё][A-Za-z0-9]|[A-Za-z0-9][а-яё]|\b(?:in|to|for|from|by|as|and|or|the)[0-9]/;
+    var hits = [], strings = 0;
+    function check(lang, s) { var m = s.replace(/https?:\/\/\S+/g, '').match(GLUE); if (m) hits.push(lang + ' "' + m[0] + '"'); }
+    function walk(o, key, parent) {
+      if (typeof o === 'string') {
+        if (skip.test(key) || parent === 'links' || parent === 'brand' || /^https?:/.test(o)) return;
+        strings++; check('EN', o); if (ru[o]) check('RU', ru[o]);
+      } else if (Array.isArray(o)) o.forEach(function (v) { walk(v, key, parent); });
+      else if (o && typeof o === 'object') for (var k in o) walk(o[k], k, key);
+    }
+    var recs = box.UNIPATH.universities.filter(function (u) { return ids.indexOf(u.id) > -1; });
+    recs.forEach(function (u) { walk(u, '', ''); });
+    ok(recs.length === 50 && strings > 4000 && !hits.length, 'texts of the 50 new USA profiles and their Russian keep the spaces around numbers and between words (' + strings + ' strings)', hits.slice(0, 8).join('; '));
+  })();
 };

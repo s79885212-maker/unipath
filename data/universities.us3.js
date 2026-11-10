@@ -34133,7 +34133,7 @@ window.UNIPATH.universities.push(
       "currency": "USD",
       "waiverAvailableToInternational": null,
       "waiver": null,
-      "note": "USD 95 per campus for international and non-immigrant applicants. Non-refundable. Ordinary waivers require US citizenship, permanent residence or AB540 eligibility.",
+      "note": "USD 95 per campus for international and non-immigrant applicants. Non-refundable. Ordinary waivers require US citizenship, permanent residence or AB 540 eligibility.",
       "source": "https://admission.universityofcalifornia.edu/apply-now.html",
       "verified": "2026-10-31"
     },
@@ -34568,12 +34568,12 @@ window.UNIPATH.universities.push(
       "currency": "USD",
       "waiverAvailableToInternational": null,
       "waiver": null,
-      "note": "USD 95 per campus for international and non-immigrant applicants. Non-refundable. Ordinary waivers require US citizenship, permanent residence or AB540 eligibility.",
+      "note": "USD 95 per campus for international and non-immigrant applicants. Non-refundable. Ordinary waivers require US citizenship, permanent residence or AB 540 eligibility.",
       "source": "https://admission.universityofcalifornia.edu/apply-now.html",
       "verified": "2026-10-31"
     },
     "documents": [
-      "Apply through UC. Official certificates and detailed academic records are sent directly to Undergraduate Admissions only when requested. The catalogue includes old2021/2022 exam alternatives; they are not projected onto2027. The exact Uzbek Attestat/lyceum equivalence is not established."
+      "Apply through UC. Official certificates and detailed academic records are sent directly to Undergraduate Admissions only when requested. The catalogue includes old 2021/2022 exam alternatives; they are not projected onto 2027. The exact Uzbek Attestat/lyceum equivalence is not established."
     ],
     "recommendations": null,
     "essay": null,
@@ -35049,7 +35049,7 @@ window.UNIPATH.universities.push(
       "verified": "2026-11-02"
     },
     "documents": [
-      "Self-report coursework and examinations. For a year11 school system, report completed or in-progress year11 and name the expected diploma in Common App. Official records are required for enrolment; no WES/ECE conversion is requested in these instructions.",
+      "Self-report coursework and examinations. For a year 11 school system, report completed or in-progress year 11 and name the expected diploma in Common App. Official records are required for enrolment; no WES/ECE conversion is requested in these instructions.",
       "Self-report coursework and external examinations when applying. Official transcripts are required only if enrolling; transfer rules are separate."
     ],
     "recommendations": null,
@@ -35063,20 +35063,20 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": null,
       "recommended": null,
-      "note": "No first-year numerical minimum established. IELTS 7.5 with 6.5 sections, TOEFL100/5.0 and DET130 on this source apply to TRANSFER applicants, not first-year. No IELTS General, One Skill Retake or TOEFL MyBest."
+      "note": "No first-year numerical minimum established. IELTS 7.5 with 6.5 sections, TOEFL 100/5.0 and DET 130 on this source apply to TRANSFER applicants, not first-year. No IELTS General, One Skill Retake or TOEFL MyBest."
     },
     "toefl": {
       "min": null,
       "recommended": null,
-      "note": "No first-year numerical minimum established. IELTS 7.5 with 6.5 sections, TOEFL100/5.0 and DET130 on this source apply to TRANSFER applicants, not first-year. No IELTS General, One Skill Retake or TOEFL MyBest."
+      "note": "No first-year numerical minimum established. IELTS 7.5 with 6.5 sections, TOEFL 100/5.0 and DET 130 on this source apply to TRANSFER applicants, not first-year. No IELTS General, One Skill Retake or TOEFL MyBest."
     },
     "duolingo": {
       "min": null,
       "recommended": null,
-      "note": "No first-year numerical minimum established. IELTS 7.5 with 6.5 sections, TOEFL100/5.0 and DET130 on this source apply to TRANSFER applicants, not first-year. No IELTS General, One Skill Retake or TOEFL MyBest."
+      "note": "No first-year numerical minimum established. IELTS 7.5 with 6.5 sections, TOEFL 100/5.0 and DET 130 on this source apply to TRANSFER applicants, not first-year. No IELTS General, One Skill Retake or TOEFL MyBest."
     },
     "waiver": null,
-    "note": "No first-year numerical minimum established. IELTS 7.5 with 6.5 sections, TOEFL100/5.0 and DET130 on this source apply to TRANSFER applicants, not first-year. No IELTS General, One Skill Retake or TOEFL MyBest.",
+    "note": "No first-year numerical minimum established. IELTS 7.5 with 6.5 sections, TOEFL 100/5.0 and DET 130 on this source apply to TRANSFER applicants, not first-year. No IELTS General, One Skill Retake or TOEFL MyBest.",
     "detailsSource": "https://www.admissions.illinois.edu/general-admission-policies/",
     "detailsVerified": "2026-10-31"
   },
@@ -35510,8 +35510,8 @@ window.UNIPATH.universities.push(
       "verified": "2026-10-31"
     },
     "documents": [
-      "Secondary transcripts equivalent to US grades9–12; admission essay and short answers. Additional materials depend on the chosen major. The exact Uzbek qualification route is not established by these general instructions.",
-      "Secondary school transcripts equivalent to US grades9–12, essay and short answers; additional materials depend on the chosen programme."
+      "Secondary transcripts equivalent to US grades 9–12; admission essay and short answers. Additional materials depend on the chosen major. The exact Uzbek qualification route is not established by these general instructions.",
+      "Secondary school transcripts equivalent to US grades 9–12, essay and short answers; additional materials depend on the chosen programme."
     ],
     "recommendations": "Up to two optional recommendations.",
     "essay": null,
@@ -35972,7 +35972,7 @@ window.UNIPATH.universities.push(
     "essay": null,
     "interview": null,
     "notes": [
-      "Uzbekistan: current pupils submit official years8–10 transcripts and later the Attestat O’rta Ma’lumot To’g’risida Shahodtnoma (Certificate of Completed Upper Secondary Education); school graduates submit official years8–11 transcripts and that Attestat. Original documents and official English translation are required. Separate academic lyceum equivalence, minimum grades/subjects and any foundation requirement remain unconfirmed; this is not an admission guarantee."
+      "Uzbekistan: current pupils submit official years 8–10 transcripts and later the Attestat O’rta Ma’lumot To’g’risida Shahodtnoma (Certificate of Completed Upper Secondary Education); school graduates submit official years 8–11 transcripts and that Attestat. Original documents and official English translation are required. Separate academic lyceum equivalence, minimum grades/subjects and any foundation requirement remain unconfirmed; this is not an admission guarantee."
     ]
   },
   "english": {
@@ -36025,7 +36025,7 @@ window.UNIPATH.universities.push(
       "verified": "2026-10-31"
     },
     "otherTests": null,
-    "internationalQualifications": "Uzbekistan: current pupils submit official years8–10 transcripts and later the Attestat O’rta Ma’lumot To’g’risida Shahodtnoma (Certificate of Completed Upper Secondary Education); school graduates submit official years8–11 transcripts and that Attestat. Original documents and official English translation are required. Separate academic lyceum equivalence, minimum grades/subjects and any foundation requirement remain unconfirmed; this is not an admission guarantee."
+    "internationalQualifications": "Uzbekistan: current pupils submit official years 8–10 transcripts and later the Attestat O’rta Ma’lumot To’g’risida Shahodtnoma (Certificate of Completed Upper Secondary Education); school graduates submit official years 8–11 transcripts and that Attestat. Original documents and official English translation are required. Separate academic lyceum equivalence, minimum grades/subjects and any foundation requirement remain unconfirmed; this is not an admission guarantee."
   },
   "costs": {
     "breakdown": {
@@ -36053,7 +36053,7 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": null,
     "totalText": "2026–2027 published cost reference — not a 2027–2028 quote",
-    "note": "Previous available cost year: 2026–2027. These figures are not confirmed prices for Fall 2027 entrants or 2027–2028 and are not used to confirm a budget match. Competitive scholarships have not been deducted. The official annual 2026–27 base tuition and segregated fee total is USD45,931.60. Engineering, Business and Nursing have separate differential increases. This is not a total cost of attendance or a complete international invoice; housing, meals, insurance and any international charges are not established here.",
+    "note": "Previous available cost year: 2026–2027. These figures are not confirmed prices for Fall 2027 entrants or 2027–2028 and are not used to confirm a budget match. Competitive scholarships have not been deducted. The official annual 2026–27 base tuition and segregated fee total is USD 45,931.60. Engineering, Business and Nursing have separate differential increases. This is not a total cost of attendance or a complete international invoice; housing, meals, insurance and any international charges are not established here.",
     "status": "previous-cycle"
   },
   "scholarships": {
@@ -36163,7 +36163,7 @@ window.UNIPATH.universities.push(
     "unconfirmed": [
       "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
       "Complete programme catalogue, 2027–2028 costs and remaining award/renewal conditions are still under review.",
-      "Uzbekistan: current pupils submit official years8–10 transcripts and later the Attestat O’rta Ma’lumot To’g’risida Shahodtnoma (Certificate of Completed Upper Secondary Education); school graduates submit official years8–11 transcripts and that Attestat. Original documents and official English translation are required. Separate academic lyceum equivalence, minimum grades/subjects and any foundation requirement remain unconfirmed; this is not an admission guarantee."
+      "Uzbekistan: current pupils submit official years 8–10 transcripts and later the Attestat O’rta Ma’lumot To’g’risida Shahodtnoma (Certificate of Completed Upper Secondary Education); school graduates submit official years 8–11 transcripts and that Attestat. Original documents and official English translation are required. Separate academic lyceum equivalence, minimum grades/subjects and any foundation requirement remain unconfirmed; this is not an admission guarantee."
     ]
   },
   "lastVerified": "2026-11-02",
@@ -36364,12 +36364,12 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": 6.5,
       "recommended": null,
-      "note": "New Brunswick general thresholds. Pharmacy/Nursing require TOEFL100/5.5 and DET130. The source uses January21/January22 scale cutoffs; consult it for the exact test date. English-medium waiver is assessed individually."
+      "note": "New Brunswick general thresholds. Pharmacy/Nursing require TOEFL 100/5.5 and DET 130. The source uses January 21/January 22 scale cutoffs; consult it for the exact test date. English-medium waiver is assessed individually."
     },
     "toefl": {
       "min": 79,
       "recommended": null,
-      "note": "New Brunswick general thresholds. Pharmacy/Nursing require TOEFL100/5.5 and DET130. The source uses January21/January22 scale cutoffs; consult it for the exact test date. English-medium waiver is assessed individually.",
+      "note": "New Brunswick general thresholds. Pharmacy/Nursing require TOEFL 100/5.5 and DET 130. The source uses January 21/January 22 scale cutoffs; consult it for the exact test date. English-medium waiver is assessed individually.",
       "scales": [
         {
           "period": "pre2026",
@@ -36386,10 +36386,10 @@ window.UNIPATH.universities.push(
     "duolingo": {
       "min": 115,
       "recommended": null,
-      "note": "New Brunswick general thresholds. Pharmacy/Nursing require TOEFL100/5.5 and DET130. The source uses January21/January22 scale cutoffs; consult it for the exact test date. English-medium waiver is assessed individually."
+      "note": "New Brunswick general thresholds. Pharmacy/Nursing require TOEFL 100/5.5 and DET 130. The source uses January 21/January 22 scale cutoffs; consult it for the exact test date. English-medium waiver is assessed individually."
     },
     "waiver": null,
-    "note": "New Brunswick general thresholds. Pharmacy/Nursing require TOEFL100/5.5 and DET130. The source uses January21/January22 scale cutoffs; consult it for the exact test date. English-medium waiver is assessed individually.",
+    "note": "New Brunswick general thresholds. Pharmacy/Nursing require TOEFL 100/5.5 and DET 130. The source uses January 21/January 22 scale cutoffs; consult it for the exact test date. English-medium waiver is assessed individually.",
     "detailsSource": "https://admissions.rutgers.edu/apply/international-applicants",
     "detailsVerified": "2026-10-31"
   },
@@ -36443,7 +36443,7 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": 62782,
     "totalText": "2026–2027 published cost reference — not a 2027–2028 quote",
-    "note": "Previous available cost year: 2026–2027. These figures are not confirmed prices for Fall 2027 entrants or 2027–2028 and are not used to confirm a budget match. Competitive scholarships have not been deducted. New Brunswick nonresident on-campus billed example only, not full cost. F-1/J-1 SAF500, insurance, health services, books and travel/living extras are excluded. Newark/Camden totals differ.",
+    "note": "Previous available cost year: 2026–2027. These figures are not confirmed prices for Fall 2027 entrants or 2027–2028 and are not used to confirm a budget match. Competitive scholarships have not been deducted. New Brunswick nonresident on-campus billed example only, not full cost. F-1/J-1 SAF 500, insurance, health services, books and travel/living extras are excluded. Newark/Camden totals differ.",
     "status": "previous-cycle"
   },
   "scholarships": {
@@ -36742,7 +36742,7 @@ window.UNIPATH.universities.push(
       "currency": "USD",
       "waiverAvailableToInternational": null,
       "waiver": null,
-      "note": "USD 95 per campus for international and non-immigrant applicants. Non-refundable. Ordinary waivers require US citizenship, permanent residence or AB540 eligibility.",
+      "note": "USD 95 per campus for international and non-immigrant applicants. Non-refundable. Ordinary waivers require US citizenship, permanent residence or AB 540 eligibility.",
       "source": "https://admission.universityofcalifornia.edu/apply-now.html",
       "verified": "2026-10-31"
     },
@@ -36755,8 +36755,8 @@ window.UNIPATH.universities.push(
     "interview": null,
     "notes": [
       "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grades, subjects and any preparatory study have not been established. General international instructions do not confirm eligibility.",
-      "Institutional history traces a predecessor to1891; joined UC in1944, moved to Goleta in1954 and became a general UC campus in1958. No single founding year is inferred.",
-      "UCSB Economics and Accounting BA uses a pre-major: prescribed UCSB Economics courses need a UC college GPA2.85 and no grade below C. This is university-course progression, not a minimum Uzbek school GPA; review all current course requirements on the linked programme page."
+      "Institutional history traces a predecessor to 1891; joined UC in 1944, moved to Goleta in 1954 and became a general UC campus in 1958. No single founding year is inferred.",
+      "UCSB Economics and Accounting BA uses a pre-major: prescribed UCSB Economics courses need a UC college GPA 2.85 and no grade below C. This is university-course progression, not a minimum Uzbek school GPA; review all current course requirements on the linked programme page."
     ]
   },
   "english": {
@@ -36880,7 +36880,7 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": null,
     "totalText": "2026–2027 published cost reference — not a 2027–2028 quote",
-    "note": "Previous available cost year: 2026–2027. These figures are not confirmed prices for Fall 2027 entrants or 2027–2028 and are not used to confirm a budget match. Competitive scholarships have not been deducted. Published sample budget for the 2026 cohort in residence halls, nonresident, 2026–27. This is not the Fall2027 cohort or every housing/programme option. Health care is an allowance; utilities USD0 is explicitly printed for this sample only. The combined tuition/student-services line is not treated as a tuition-only quote. No scholarship is deducted.",
+    "note": "Previous available cost year: 2026–2027. These figures are not confirmed prices for Fall 2027 entrants or 2027–2028 and are not used to confirm a budget match. Competitive scholarships have not been deducted. Published sample budget for the 2026 cohort in residence halls, nonresident, 2026–27. This is not the Fall 2027 cohort or every housing/programme option. Health care is an allowance; utilities USD 0 is explicitly printed for this sample only. The combined tuition/student-services line is not treated as a tuition-only quote. No scholarship is deducted.",
     "status": "previous-cycle"
   },
   "scholarships": {
@@ -37244,7 +37244,7 @@ window.UNIPATH.universities.push(
       "currency": "USD",
       "waiverAvailableToInternational": false,
       "waiver": null,
-      "note": "International first-year fee; international applicants explicitly ineligible for an application-fee waiver on this page. Domestic USD70 is not substituted.",
+      "note": "International first-year fee; international applicants explicitly ineligible for an application-fee waiver on this page. Domestic USD 70 is not substituted.",
       "source": "https://admissions.uga.edu/apply/start-application/application-fee-fee-waivers/",
       "verified": "2026-11-02"
     },
@@ -37257,27 +37257,27 @@ window.UNIPATH.universities.push(
     "interview": null,
     "notes": [
       "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grades, subjects and any preparatory study have not been established. General international instructions do not confirm eligibility.",
-      "UGA Mechanical Engineering begins as Intended Mechanical Engineering. Entry to the major requires prescribed UGA courses at C or better and GPA2.75 across ENGR1120/1140/2120. These are university-course requirements, not an Uzbek-school GPA cutoff or a guaranteed first-year place in the final major."
+      "UGA Mechanical Engineering begins as Intended Mechanical Engineering. Entry to the major requires prescribed UGA courses at C or better and GPA 2.75 across ENGR 1120/1140/2120. These are university-course requirements, not an Uzbek-school GPA cutoff or a guaranteed first-year place in the final major."
     ]
   },
   "english": {
     "ielts": {
       "min": null,
       "recommended": null,
-      "note": "The source reports admitted international students’ average IELTS7.5 and TOEFL102 for 2019–2023. These are statistics, not minimum requirements. Transfer-only IELTS6.5 is not used as the first-year minimum."
+      "note": "The source reports admitted international students’ average IELTS 7.5 and TOEFL 102 for 2019–2023. These are statistics, not minimum requirements. Transfer-only IELTS 6.5 is not used as the first-year minimum."
     },
     "toefl": {
       "min": null,
       "recommended": null,
-      "note": "The source reports admitted international students’ average IELTS7.5 and TOEFL102 for 2019–2023. These are statistics, not minimum requirements. Transfer-only IELTS6.5 is not used as the first-year minimum."
+      "note": "The source reports admitted international students’ average IELTS 7.5 and TOEFL 102 for 2019–2023. These are statistics, not minimum requirements. Transfer-only IELTS 6.5 is not used as the first-year minimum."
     },
     "duolingo": {
       "min": null,
       "recommended": null,
-      "note": "The source reports admitted international students’ average IELTS7.5 and TOEFL102 for 2019–2023. These are statistics, not minimum requirements. Transfer-only IELTS6.5 is not used as the first-year minimum."
+      "note": "The source reports admitted international students’ average IELTS 7.5 and TOEFL 102 for 2019–2023. These are statistics, not minimum requirements. Transfer-only IELTS 6.5 is not used as the first-year minimum."
     },
     "waiver": null,
-    "note": "The source reports admitted international students’ average IELTS7.5 and TOEFL102 for 2019–2023. These are statistics, not minimum requirements. Transfer-only IELTS6.5 is not used as the first-year minimum.",
+    "note": "The source reports admitted international students’ average IELTS 7.5 and TOEFL 102 for 2019–2023. These are statistics, not minimum requirements. Transfer-only IELTS 6.5 is not used as the first-year minimum.",
     "detailsSource": "https://admissions.uga.edu/apply/other-applicants/international-students/",
     "detailsVerified": "2026-10-31"
   },
@@ -37351,7 +37351,7 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": 45738,
     "totalText": "2026–2027 published cost reference — not a 2027–2028 quote",
-    "note": "Previous available cost year: 2026–2027. These figures are not confirmed prices for Fall 2027 entrants or 2027–2028 and are not used to confirm a budget match. Competitive scholarships have not been deducted. Athens standard undergraduate programmes, nonresident, on campus, Fall2026 plus Spring2027. East Campus Village housing adds USD1,376 for that year. Insurance is not separately itemised here. Other programme and housing categories differ. Foundation Fellowship is competitive; neither its maximum stipend nor its tuition waiver is automatically deducted.",
+    "note": "Previous available cost year: 2026–2027. These figures are not confirmed prices for Fall 2027 entrants or 2027–2028 and are not used to confirm a budget match. Competitive scholarships have not been deducted. Athens standard undergraduate programmes, nonresident, on campus, Fall 2026 plus Spring 2027. East Campus Village housing adds USD 1,376 for that year. Insurance is not separately itemised here. Other programme and housing categories differ. Foundation Fellowship is competitive; neither its maximum stipend nor its tuition waiver is automatically deducted.",
     "status": "previous-cycle"
   },
   "scholarships": {
@@ -37369,15 +37369,15 @@ window.UNIPATH.universities.push(
       },
       "renewable": true,
       "competitiveness": null,
-      "howToApply": "Separate Morehead Honors College/Foundation Fellowship application, due November1 each year; Fall2027 cycle has not been established.",
-      "note": "Foundation Fellowship is the university’s top academic scholarship. The standing international package lists USD30,000 annual stipend plus a Presidential waiver valued at USD21,740, with no academic year established. The university says the stipend APPROXIMATES attendance cost; individual housing, meals, insurance and residual costs are not guaranteed covered. Travel/research grants are separate. Exact Fall2027 amounts and stacking remain unconfirmed.",
+      "howToApply": "Separate Morehead Honors College/Foundation Fellowship application, due November 1 each year; Fall 2027 cycle has not been established.",
+      "note": "Foundation Fellowship is the university’s top academic scholarship. The standing international package lists USD 30,000 annual stipend plus a Presidential waiver valued at USD 21,740, with no academic year established. The university says the stipend APPROXIMATES attendance cost; individual housing, meals, insurance and residual costs are not guaranteed covered. Travel/research grants are separate. Exact Fall 2027 amounts and stacking remain unconfirmed.",
       "name": "Foundation Fellowship",
       "id": "foundation-fellowship",
       "category": "merit",
       "entryTerm": null,
       "entryYear": null,
       "deadlineScope": "annual-rule",
-      "renewalConditions": "Programme page: cumulative UGA GPA3.40, at least12 credits per semester, Honors good standing, programme participation/reports, four-year graduation and first-year Myers Hall residence. Recheck any individual award-letter terms; stacking is unconfirmed.",
+      "renewalConditions": "Programme page: cumulative UGA GPA 3.40, at least 12 credits per semester, Honors good standing, programme participation/reports, four-year graduation and first-year Myers Hall residence. Recheck any individual award-letter terms; stacking is unconfirmed.",
       "source": "https://honors.uga.edu/scholarships/prospective-students/foundation-fellowship/",
       "verified": "2026-10-31"
     },
@@ -37674,8 +37674,8 @@ window.UNIPATH.universities.push(
       "verified": "2026-10-31"
     },
     "documents": [
-      "STARS or copies of transcripts/marksheets and examinations for schooling outside the US; include years9–11 and planned courses, or final school record and leaving diploma if graduated. Exact Uzbek equivalence remains open.",
-      "STARS or copies of secondary transcripts/marksheets and examinations: years9–11 and current courses; school graduates supply leaving diploma and final years9–12 record. How an11-year Uzbek record meets this list remains unconfirmed."
+      "STARS or copies of transcripts/marksheets and examinations for schooling outside the US; include years 9–11 and planned courses, or final school record and leaving diploma if graduated. Exact Uzbek equivalence remains open.",
+      "STARS or copies of secondary transcripts/marksheets and examinations: years 9–11 and current courses; school graduates supply leaving diploma and final years 9–12 record. How an 11-year Uzbek record meets this list remains unconfirmed."
     ],
     "recommendations": "Ordinary recommendations are not considered. A letter explaining exceptional circumstances is a separate document.",
     "essay": null,
@@ -37689,12 +37689,12 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": 6.5,
       "recommended": null,
-      "note": "IELTS6.5 with every section at least6.5; new-scale TOEFL4.5 with every section4.0. Source labels both old/new TOEFL rows as on/after January21,2026: the old-scale cutoff remains unresolved. VTLCI pathway is separate from direct entry."
+      "note": "IELTS 6.5 with every section at least 6.5; new-scale TOEFL 4.5 with every section 4.0. Source labels both old/new TOEFL rows as on/after January 21, 2026: the old-scale cutoff remains unresolved. VTLCI pathway is separate from direct entry."
     },
     "toefl": {
       "min": null,
       "recommended": null,
-      "note": "IELTS6.5 with every section at least6.5; new-scale TOEFL4.5 with every section4.0. Source labels both old/new TOEFL rows as on/after January21,2026: the old-scale cutoff remains unresolved. VTLCI pathway is separate from direct entry.",
+      "note": "IELTS 6.5 with every section at least 6.5; new-scale TOEFL 4.5 with every section 4.0. Source labels both old/new TOEFL rows as on/after January 21, 2026: the old-scale cutoff remains unresolved. VTLCI pathway is separate from direct entry.",
       "scales": [
         {
           "period": "post2026",
@@ -37706,10 +37706,10 @@ window.UNIPATH.universities.push(
     "duolingo": {
       "min": null,
       "recommended": null,
-      "note": "IELTS6.5 with every section at least6.5; new-scale TOEFL4.5 with every section4.0. Source labels both old/new TOEFL rows as on/after January21,2026: the old-scale cutoff remains unresolved. VTLCI pathway is separate from direct entry."
+      "note": "IELTS 6.5 with every section at least 6.5; new-scale TOEFL 4.5 with every section 4.0. Source labels both old/new TOEFL rows as on/after January 21, 2026: the old-scale cutoff remains unresolved. VTLCI pathway is separate from direct entry."
     },
     "waiver": null,
-    "note": "IELTS6.5 with every section at least6.5; new-scale TOEFL4.5 with every section4.0. Source labels both old/new TOEFL rows as on/after January21,2026: the old-scale cutoff remains unresolved. VTLCI pathway is separate from direct entry.",
+    "note": "IELTS 6.5 with every section at least 6.5; new-scale TOEFL 4.5 with every section 4.0. Source labels both old/new TOEFL rows as on/after January 21, 2026: the old-scale cutoff remains unresolved. VTLCI pathway is separate from direct entry.",
     "detailsSource": "https://www.vt.edu/admissions/international/requirements.html",
     "detailsVerified": "2026-10-31"
   },
@@ -38103,26 +38103,26 @@ window.UNIPATH.universities.push(
       "verified": "2026-11-02"
     },
     "documents": [
-      "First-year STARS record plus official final documents after admission; originals and separate certified line-by-line English translations. Follow the Uzbekistan-specific page, whose years9–12 wording remains unresolved for an 11-year school.",
+      "First-year STARS record plus official final documents after admission; originals and separate certified line-by-line English translations. Follow the Uzbekistan-specific page, whose years 9–12 wording remains unresolved for an 11-year school.",
       "First-year STARS reporting; original non-English records plus certified literal line-by-line English translations. Final Uzbekistan-specific document instructions are separate and do not guarantee admission."
     ],
     "recommendations": null,
     "essay": null,
     "interview": null,
     "notes": [
-      "Uzbekistan: first-year applicants self-report the last three years and current courses in STARS. After accepting an offer, the country page requests official years9–12 transcripts and Attestat o Srednem Obrazovanii, each with a separate line-by-line English translation. The page does not resolve how an 11-year school record or academic lyceum diploma is handled, or the exact grades, subjects and preparatory-study requirements; eligibility is not guaranteed."
+      "Uzbekistan: first-year applicants self-report the last three years and current courses in STARS. After accepting an offer, the country page requests official years 9–12 transcripts and Attestat o Srednem Obrazovanii, each with a separate line-by-line English translation. The page does not resolve how an 11-year school record or academic lyceum diploma is handled, or the exact grades, subjects and preparatory-study requirements; eligibility is not guaranteed."
     ]
   },
   "english": {
     "ielts": {
       "min": 6.5,
       "recommended": null,
-      "note": "IELTS Academic6.5; TOEFL80 before January21,2026 or4.5 from that date; DET120. No TOEFL MyBest. Language alternatives do not turn SAT/ACT into a general admission requirement."
+      "note": "IELTS Academic 6.5; TOEFL 80 before January 21, 2026 or 4.5 from that date; DET 120. No TOEFL MyBest. Language alternatives do not turn SAT/ACT into a general admission requirement."
     },
     "toefl": {
       "min": 80,
       "recommended": null,
-      "note": "IELTS Academic6.5; TOEFL80 before January21,2026 or4.5 from that date; DET120. No TOEFL MyBest. Language alternatives do not turn SAT/ACT into a general admission requirement.",
+      "note": "IELTS Academic 6.5; TOEFL 80 before January 21, 2026 or 4.5 from that date; DET 120. No TOEFL MyBest. Language alternatives do not turn SAT/ACT into a general admission requirement.",
       "scales": [
         {
           "period": "pre2026",
@@ -38139,10 +38139,10 @@ window.UNIPATH.universities.push(
     "duolingo": {
       "min": 120,
       "recommended": null,
-      "note": "IELTS Academic6.5; TOEFL80 before January21,2026 or4.5 from that date; DET120. No TOEFL MyBest. Language alternatives do not turn SAT/ACT into a general admission requirement."
+      "note": "IELTS Academic 6.5; TOEFL 80 before January 21, 2026 or 4.5 from that date; DET 120. No TOEFL MyBest. Language alternatives do not turn SAT/ACT into a general admission requirement."
     },
     "waiver": null,
-    "note": "IELTS Academic6.5; TOEFL80 before January21,2026 or4.5 from that date; DET120. No TOEFL MyBest. Language alternatives do not turn SAT/ACT into a general admission requirement.",
+    "note": "IELTS Academic 6.5; TOEFL 80 before January 21, 2026 or 4.5 from that date; DET 120. No TOEFL MyBest. Language alternatives do not turn SAT/ACT into a general admission requirement.",
     "detailsSource": "https://www.psu.edu/resources/international-students/admission-requirements",
     "detailsVerified": "2026-10-31"
   },
@@ -38163,7 +38163,7 @@ window.UNIPATH.universities.push(
       "label": "Optional except accelerated Premedical-Medical BS/MD"
     },
     "otherTests": null,
-    "internationalQualifications": "Uzbekistan: first-year applicants self-report the last three years and current courses in STARS. After accepting an offer, the country page requests official years9–12 transcripts and Attestat o Srednem Obrazovanii, each with a separate line-by-line English translation. The page does not resolve how an 11-year school record or academic lyceum diploma is handled, or the exact grades, subjects and preparatory-study requirements; eligibility is not guaranteed."
+    "internationalQualifications": "Uzbekistan: first-year applicants self-report the last three years and current courses in STARS. After accepting an offer, the country page requests official years 9–12 transcripts and Attestat o Srednem Obrazovanii, each with a separate line-by-line English translation. The page does not resolve how an 11-year school record or academic lyceum diploma is handled, or the exact grades, subjects and preparatory-study requirements; eligibility is not guaranteed."
   },
   "costs": {
     "breakdown": {
@@ -38176,7 +38176,7 @@ window.UNIPATH.universities.push(
     "studentCategory": "Non-Pennsylvania (including international), University Park freshmen/lower division, 12–19 credits per semester",
     "source": "https://tuition.psu.edu/rates-effective-2027-fall-semester",
     "verified": "2026-11-01",
-    "headline": "Published 2027–28 annual tuition: USD46,356",
+    "headline": "Published 2027–28 annual tuition: USD 46,356",
     "items": [
       {
         "label": "Published annual tuition",
@@ -38186,7 +38186,7 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": null,
     "totalText": "Tuition only — full cost of attendance not established",
-    "note": "2027–28 University Park nonresident first-year/lower-division tuition, 12–19 credits per semester. The university publishes USD46,356 per academic year, not a UniPath multiplication. This is tuition only: student fee USD330 per semester, housing, meals, insurance, books, travel and other charges are additional. Upper-division, other campuses and overload rates differ. Competitive awards are not deducted.",
+    "note": "2027–28 University Park nonresident first-year/lower-division tuition, 12–19 credits per semester. The university publishes USD 46,356 per academic year, not a UniPath multiplication. This is tuition only: student fee USD 330 per semester, housing, meals, insurance, books, travel and other charges are additional. Upper-division, other campuses and overload rates differ. Competitive awards are not deducted.",
     "status": "confirmed"
   },
   "scholarships": {
@@ -38308,7 +38308,7 @@ window.UNIPATH.universities.push(
     "unconfirmed": [
       "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
       "Complete programme catalogue, 2027–2028 costs and remaining award/renewal conditions are still under review.",
-      "Uzbekistan: first-year applicants self-report the last three years and current courses in STARS. After accepting an offer, the country page requests official years9–12 transcripts and Attestat o Srednem Obrazovanii, each with a separate line-by-line English translation. The page does not resolve how an 11-year school record or academic lyceum diploma is handled, or the exact grades, subjects and preparatory-study requirements; eligibility is not guaranteed."
+      "Uzbekistan: first-year applicants self-report the last three years and current courses in STARS. After accepting an offer, the country page requests official years 9–12 transcripts and Attestat o Srednem Obrazovanii, each with a separate line-by-line English translation. The page does not resolve how an 11-year school record or academic lyceum diploma is handled, or the exact grades, subjects and preparatory-study requirements; eligibility is not guaranteed."
     ]
   },
   "lastVerified": "2026-11-02",
@@ -38404,7 +38404,7 @@ window.UNIPATH.universities.push(
     "c2": "#1f1f2e",
     "initials": "P"
   },
-  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. The university explicitly dates its foundation to1787 as Pittsburgh Academy; later institutional names are not treated as new foundations.",
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. The university explicitly dates its foundation to 1787 as Pittsburgh Academy; later institutional names are not treated as new foundations.",
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
@@ -38577,7 +38577,7 @@ window.UNIPATH.universities.push(
       "needBlindInternational": null,
       "forms": [],
       "deadlines": null,
-      "note": "International financial aid is unavailable under the stated policy, but international first-year scholarships are separately described. Annual February1 completed-application priority gives automatic competitive consideration; award amounts and complete conditions remain unconfirmed."
+      "note": "International financial aid is unavailable under the stated policy, but international first-year scholarships are separately described. Annual February 1 completed-application priority gives automatic competitive consideration; award amounts and complete conditions remain unconfirmed."
     }
   },
   "photos": {
@@ -38741,7 +38741,7 @@ window.UNIPATH.universities.push(
     "c2": "#2e0f17",
     "initials": "CM"
   },
-  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. The current campus opened to undergraduates in2005.",
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. The current campus opened to undergraduates in 2005.",
   "englishTaught": true,
   "languageOfInstruction": "English — verified campus instruction statement",
   "programs": [
@@ -38812,7 +38812,7 @@ window.UNIPATH.universities.push(
       "currency": "USD",
       "waiverAvailableToInternational": null,
       "waiver": null,
-      "note": "International and nonimmigrant fee per UC campus. The general USD80 figure is not the international category. Ordinary waivers have citizenship/residence/AB540 restrictions.",
+      "note": "International and nonimmigrant fee per UC campus. The general USD 80 figure is not the international category. Ordinary waivers have citizenship/residence/AB 540 restrictions.",
       "source": "https://admissions.ucmerced.edu/apply",
       "verified": "2026-10-31"
     },
@@ -38928,7 +38928,7 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": "Global Access Program Scholarship publishes USD25,000/year for eligible nonresidents with GPA3.25+, renewable with cumulative3.00, full-time enrolment and SAP. This is not established as full tuition or full ride; complete eligibility, award basis, stacking and application details still need review. The scholarship GPA is not the UC admission GPA."
+      "note": "Global Access Program Scholarship publishes USD 25,000/year for eligible nonresidents with GPA 3.25+, renewable with cumulative 3.00, full-time enrolment and SAP. This is not established as full tuition or full ride; complete eligibility, award basis, stacking and application details still need review. The scholarship GPA is not the UC admission GPA."
     },
     "merit": [
       {
@@ -38938,7 +38938,7 @@ window.UNIPATH.universities.push(
         "name": "Global Access Program Scholarship",
         "amount": "USD 25,000 per year; up to four consecutive years for first-year students",
         "eligibility": "F-1 international or non-California domestic student, admitted and enrolling full-time at UC Merced, GPA at admission at least 3.25 as evaluated by the university. The policy is not an automatic conversion of Uzbek school marks.",
-        "renewable": "Up to four consecutive first-year years, maintaining full-time 12 credits/semester,3.0 college GPA, Satisfactory Academic Progress and non-California residency",
+        "renewable": "Up to four consecutive first-year years, maintaining full-time 12 credits/semester, 3.0 college GPA, Satisfactory Academic Progress and non-California residency",
         "application": "No separate application; eligible admitted candidates are automatically considered and notified upon admission",
         "note": "Students receiving a nonresident fee waiver are ineligible for this award. Other stacking is not established. Automatic consideration does not by itself guarantee receipt or full tuition/full ride. The separate 2026–27 international scholarship USD 5,000–10,000 is for CONTINUING students and is not assigned to incoming first-years or Fall 2027. No amount is deducted from cost.",
         "deadlineScope": "no-separate-application",
@@ -39134,7 +39134,7 @@ window.UNIPATH.universities.push(
     "c2": "#0f2a1f",
     "initials": "B"
   },
-  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. Opened1946 as Triple Cities College inEndicott, then SUNY/Harpur1950 and moved toVestal1961. Founding, system membership and campus move are distinct.",
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. Opened 1946 as Triple Cities College in Endicott, then SUNY/Harpur 1950 and moved to Vestal 1961. Founding, system membership and campus move are distinct.",
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
@@ -39210,7 +39210,7 @@ window.UNIPATH.universities.push(
       "currency": "USD",
       "waiverAvailableToInternational": false,
       "waiver": null,
-      "note": "USD50; international applicants are not eligible for application fee waivers.",
+      "note": "USD 50; international applicants are not eligible for application fee waivers.",
       "source": "https://www.binghamton.edu/admissions/undergraduate/apply/international/first-year.html",
       "verified": "2026-10-31"
     },
@@ -39229,20 +39229,20 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": null,
       "recommended": null,
-      "note": "The published English-score table is labelled Mid50%: IELTS6.5–7.0, TOEFL80–95 or4.0–5.0, DET110–120. These are neither minima nor means. SAT EBRW530–640 is a section range, not SAT composite. No numerical minimum is inferred."
+      "note": "The published English-score table is labelled Mid 50%: IELTS 6.5–7.0, TOEFL 80–95 or 4.0–5.0, DET 110–120. These are neither minima nor means. SAT EBRW 530–640 is a section range, not SAT composite. No numerical minimum is inferred."
     },
     "toefl": {
       "min": null,
       "recommended": null,
-      "note": "The published English-score table is labelled Mid50%: IELTS6.5–7.0, TOEFL80–95 or4.0–5.0, DET110–120. These are neither minima nor means. SAT EBRW530–640 is a section range, not SAT composite. No numerical minimum is inferred."
+      "note": "The published English-score table is labelled Mid 50%: IELTS 6.5–7.0, TOEFL 80–95 or 4.0–5.0, DET 110–120. These are neither minima nor means. SAT EBRW 530–640 is a section range, not SAT composite. No numerical minimum is inferred."
     },
     "duolingo": {
       "min": null,
       "recommended": null,
-      "note": "The published English-score table is labelled Mid50%: IELTS6.5–7.0, TOEFL80–95 or4.0–5.0, DET110–120. These are neither minima nor means. SAT EBRW530–640 is a section range, not SAT composite. No numerical minimum is inferred."
+      "note": "The published English-score table is labelled Mid 50%: IELTS 6.5–7.0, TOEFL 80–95 or 4.0–5.0, DET 110–120. These are neither minima nor means. SAT EBRW 530–640 is a section range, not SAT composite. No numerical minimum is inferred."
     },
     "waiver": null,
-    "note": "The published English-score table is labelled Mid50%: IELTS6.5–7.0, TOEFL80–95 or4.0–5.0, DET110–120. These are neither minima nor means. SAT EBRW530–640 is a section range, not SAT composite. No numerical minimum is inferred.",
+    "note": "The published English-score table is labelled Mid 50%: IELTS 6.5–7.0, TOEFL 80–95 or 4.0–5.0, DET 110–120. These are neither minima nor means. SAT EBRW 530–640 is a section range, not SAT composite. No numerical minimum is inferred.",
     "detailsSource": "https://www.binghamton.edu/admissions/undergraduate/apply/international/first-year.html",
     "detailsVerified": "2026-10-31"
   },
@@ -39495,7 +39495,7 @@ window.UNIPATH.universities.push(
     "c2": "#2c1a4d",
     "initials": "IB"
   },
-  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. History begins with the1820 state seminary; this is Bloomington, not Indianapolis.",
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. History begins with the 1820 state seminary; this is Bloomington, not Indianapolis.",
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
@@ -39551,7 +39551,7 @@ window.UNIPATH.universities.push(
       "currency": "USD",
       "waiverAvailableToInternational": null,
       "waiver": null,
-      "note": "The undergraduate application-fee paragraphs print USD65. The USD70 paragraph explicitly concerns most graduate programmes and is not substituted. International waiver eligibility is not established here.",
+      "note": "The undergraduate application-fee paragraphs print USD 65. The USD 70 paragraph explicitly concerns most graduate programmes and is not substituted. International waiver eligibility is not established here.",
       "source": "https://bloomington.iu.edu/admissions/apply/steps.html",
       "verified": "2026-11-02"
     },
@@ -39904,12 +39904,12 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": 6.5,
       "recommended": null,
-      "note": "Direct entry: IELTS6.5 with sections6.0; TOEFL80 with sections18 before21January2026, or4.5 with sections4.0 afterwards; DET110. Lower conditional-programme scores (IELTS5.0/TOEFL42 or3.0/DET80) are not direct-degree minima."
+      "note": "Direct entry: IELTS 6.5 with sections 6.0; TOEFL 80 with sections 18 before 21 January 2026, or 4.5 with sections 4.0 afterwards; DET 110. Lower conditional-programme scores (IELTS 5.0/TOEFL 42 or 3.0/DET 80) are not direct-degree minima."
     },
     "toefl": {
       "min": 80,
       "recommended": null,
-      "note": "Direct entry: IELTS6.5 with sections6.0; TOEFL80 with sections18 before21January2026, or4.5 with sections4.0 afterwards; DET110. Lower conditional-programme scores (IELTS5.0/TOEFL42 or3.0/DET80) are not direct-degree minima.",
+      "note": "Direct entry: IELTS 6.5 with sections 6.0; TOEFL 80 with sections 18 before 21 January 2026, or 4.5 with sections 4.0 afterwards; DET 110. Lower conditional-programme scores (IELTS 5.0/TOEFL 42 or 3.0/DET 80) are not direct-degree minima.",
       "scales": [
         {
           "period": "pre2026",
@@ -39926,10 +39926,10 @@ window.UNIPATH.universities.push(
     "duolingo": {
       "min": 110,
       "recommended": null,
-      "note": "Direct entry: IELTS6.5 with sections6.0; TOEFL80 with sections18 before21January2026, or4.5 with sections4.0 afterwards; DET110. Lower conditional-programme scores (IELTS5.0/TOEFL42 or3.0/DET80) are not direct-degree minima."
+      "note": "Direct entry: IELTS 6.5 with sections 6.0; TOEFL 80 with sections 18 before 21 January 2026, or 4.5 with sections 4.0 afterwards; DET 110. Lower conditional-programme scores (IELTS 5.0/TOEFL 42 or 3.0/DET 80) are not direct-degree minima."
     },
     "waiver": null,
-    "note": "Direct entry: IELTS6.5 with sections6.0; TOEFL80 with sections18 before21January2026, or4.5 with sections4.0 afterwards; DET110. Lower conditional-programme scores (IELTS5.0/TOEFL42 or3.0/DET80) are not direct-degree minima.",
+    "note": "Direct entry: IELTS 6.5 with sections 6.0; TOEFL 80 with sections 18 before 21 January 2026, or 4.5 with sections 4.0 afterwards; DET 110. Lower conditional-programme scores (IELTS 5.0/TOEFL 42 or 3.0/DET 80) are not direct-degree minima.",
     "detailsSource": "https://admissions.ncsu.edu/apply/international/first-year/",
     "detailsVerified": "2026-10-31"
   },
@@ -39937,13 +39937,13 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": "conditional",
-      "note": "School-system condition: applicants attending school outside the US do not need SAT/ACT/CLT. At US schools, weighted GPA2.5–2.79 requires SAT/ACT; at2.8+ submission is optional. This condition follows school location and GPA, not citizenship. An Uzbek GPA is not converted into this US weighted scale.",
+      "note": "School-system condition: applicants attending school outside the US do not need SAT/ACT/CLT. At US schools, weighted GPA 2.5–2.79 requires SAT/ACT; at 2.8+ submission is optional. This condition follows school location and GPA, not citizenship. An Uzbek GPA is not converted into this US weighted scale.",
       "source": "https://admissions.ncsu.edu/apply/international/",
       "verified": "2026-10-31"
     },
     "act": {
       "policy": "conditional",
-      "note": "School-system condition: applicants attending school outside the US do not need SAT/ACT/CLT. At US schools, weighted GPA2.5–2.79 requires SAT/ACT; at2.8+ submission is optional. This condition follows school location and GPA, not citizenship. An Uzbek GPA is not converted into this US weighted scale.",
+      "note": "School-system condition: applicants attending school outside the US do not need SAT/ACT/CLT. At US schools, weighted GPA 2.5–2.79 requires SAT/ACT; at 2.8+ submission is optional. This condition follows school location and GPA, not citizenship. An Uzbek GPA is not converted into this US weighted scale.",
       "source": "https://admissions.ncsu.edu/apply/international/",
       "verified": "2026-10-31"
     },
@@ -39952,7 +39952,7 @@ window.UNIPATH.universities.push(
   },
   "costs": {
     "breakdown": {
-      "includes": "2027–2028, international F1 estimated academic-year school expenses: tuition/fees, living and health insurance. This is the university’s financial-guarantee estimate, not a fixed programme invoice. Summer in the US is excluded and estimated at another USD6,070. Competitive scholarships are not deducted.",
+      "includes": "2027–2028, international F1 estimated academic-year school expenses: tuition/fees, living and health insurance. This is the university’s financial-guarantee estimate, not a fixed programme invoice. Summer in the US is excluded and estimated at another USD 6,070. Competitive scholarships are not deducted.",
       "budget": 58423
     },
     "academicYear": "2027–2028",
@@ -39960,7 +39960,7 @@ window.UNIPATH.universities.push(
     "studentCategory": "International first-year bachelor applicants",
     "source": "https://admissions.ncsu.edu/apply/international/first-year/",
     "verified": "2026-10-31",
-    "headline": "USD58,423 estimated academic-year financial requirement",
+    "headline": "USD 58,423 estimated academic-year financial requirement",
     "items": [
       {
         "label": "Tuition and fees",
@@ -39979,8 +39979,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "billedSubtotal": null,
-    "totalText": "USD58,423 — university-published estimated total, summer excluded",
-    "note": "2027–2028, international F1 estimated academic-year school expenses: tuition/fees, living and health insurance. This is the university’s financial-guarantee estimate, not a fixed programme invoice. Summer in the US is excluded and estimated at another USD6,070. Competitive scholarships are not deducted.",
+    "totalText": "USD 58,423 — university-published estimated total, summer excluded",
+    "note": "2027–2028, international F1 estimated academic-year school expenses: tuition/fees, living and health insurance. This is the university’s financial-guarantee estimate, not a fixed programme invoice. Summer in the US is excluded and estimated at another USD 6,070. Competitive scholarships are not deducted.",
     "status": "confirmed",
     "period": "year"
   },
@@ -40182,7 +40182,7 @@ window.UNIPATH.universities.push(
     "c2": "#1f1f2e",
     "initials": "RN"
   },
-  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. Rutgers’ university timeline names1946 for Newark.1766 belongs to the original Rutgers founding, not this campus.",
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. Rutgers’ university timeline names 1946 for Newark. 1766 belongs to the original Rutgers founding, not this campus.",
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
@@ -40279,12 +40279,12 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": 6.5,
       "recommended": null,
-      "note": "Use Newark column, not New Brunswick: general IELTS6.5, old TOEFL79/new4.0, DET115. Pharmacy/Nursing exceptions include TOEFL100/5.5 and DET130; confirm the selected school. Exact test-date cutoff wording is January21/22 on the source."
+      "note": "Use Newark column, not New Brunswick: general IELTS 6.5, old TOEFL 79/new 4.0, DET 115. Pharmacy/Nursing exceptions include TOEFL 100/5.5 and DET 130; confirm the selected school. Exact test-date cutoff wording is January 21/22 on the source."
     },
     "toefl": {
       "min": 79,
       "recommended": null,
-      "note": "Use Newark column, not New Brunswick: general IELTS6.5, old TOEFL79/new4.0, DET115. Pharmacy/Nursing exceptions include TOEFL100/5.5 and DET130; confirm the selected school. Exact test-date cutoff wording is January21/22 on the source.",
+      "note": "Use Newark column, not New Brunswick: general IELTS 6.5, old TOEFL 79/new 4.0, DET 115. Pharmacy/Nursing exceptions include TOEFL 100/5.5 and DET 130; confirm the selected school. Exact test-date cutoff wording is January 21/22 on the source.",
       "scales": [
         {
           "period": "pre2026",
@@ -40301,10 +40301,10 @@ window.UNIPATH.universities.push(
     "duolingo": {
       "min": 115,
       "recommended": null,
-      "note": "Use Newark column, not New Brunswick: general IELTS6.5, old TOEFL79/new4.0, DET115. Pharmacy/Nursing exceptions include TOEFL100/5.5 and DET130; confirm the selected school. Exact test-date cutoff wording is January21/22 on the source."
+      "note": "Use Newark column, not New Brunswick: general IELTS 6.5, old TOEFL 79/new 4.0, DET 115. Pharmacy/Nursing exceptions include TOEFL 100/5.5 and DET 130; confirm the selected school. Exact test-date cutoff wording is January 21/22 on the source."
     },
     "waiver": null,
-    "note": "Use Newark column, not New Brunswick: general IELTS6.5, old TOEFL79/new4.0, DET115. Pharmacy/Nursing exceptions include TOEFL100/5.5 and DET130; confirm the selected school. Exact test-date cutoff wording is January21/22 on the source.",
+    "note": "Use Newark column, not New Brunswick: general IELTS 6.5, old TOEFL 79/new 4.0, DET 115. Pharmacy/Nursing exceptions include TOEFL 100/5.5 and DET 130; confirm the selected school. Exact test-date cutoff wording is January 21/22 on the source.",
     "detailsSource": "https://admissions.rutgers.edu/apply/international-applicants",
     "detailsVerified": "2026-10-31"
   },
@@ -40340,7 +40340,7 @@ window.UNIPATH.universities.push(
     "studentCategory": "Non-New-Jersey undergraduate, School of Arts and Sciences–Newark base, living on campus",
     "source": "https://admissions.newark.rutgers.edu/costs-and-aid/tuition-fees",
     "verified": "2026-11-01",
-    "headline": "Previous-cycle three-item total: USD62,049",
+    "headline": "Previous-cycle three-item total: USD 62,049",
     "items": [
       {
         "label": "Tuition",
@@ -40359,8 +40359,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "billedSubtotal": 62049,
-    "totalText": "USD62,049 excludes additional international expenses",
-    "note": "2026–27 academic-year Newark base, not New Brunswick or Camden and not full COA. F-1/J-1 students pay this nonresident rate plus SAF USD500, insurance/health fees, books, travel and other living costs. The SAF period is not stated in this summary and is not guessed. School/programme and housing choices may change charges. No Fall2027 annual cost is assigned.",
+    "totalText": "USD 62,049 excludes additional international expenses",
+    "note": "2026–27 academic-year Newark base, not New Brunswick or Camden and not full COA. F-1/J-1 students pay this nonresident rate plus SAF USD 500, insurance/health fees, books, travel and other living costs. The SAF period is not stated in this summary and is not guessed. School/programme and housing choices may change charges. No Fall 2027 annual cost is assigned.",
     "status": "previous-cycle"
   },
   "scholarships": {
@@ -40561,7 +40561,7 @@ window.UNIPATH.universities.push(
     "c2": "#062b3b",
     "initials": "C"
   },
-  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. Storrs Agricultural School established in1881; later University of Connecticut name is separate.",
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. Storrs Agricultural School established in 1881; later University of Connecticut name is separate.",
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
@@ -41157,12 +41157,12 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": 6.5,
       "recommended": null,
-      "note": "IELTS6.5 with every section at least6.0; old-scale TOEFL80 is printed. A new-scale TOEFL threshold is not confirmed here. Transfer English-composition and credential-evaluation conditions are not applied to all first-year applicants."
+      "note": "IELTS 6.5 with every section at least 6.0; old-scale TOEFL 80 is printed. A new-scale TOEFL threshold is not confirmed here. Transfer English-composition and credential-evaluation conditions are not applied to all first-year applicants."
     },
     "toefl": {
       "min": 80,
       "recommended": null,
-      "note": "IELTS6.5 with every section at least6.0; old-scale TOEFL80 is printed. A new-scale TOEFL threshold is not confirmed here. Transfer English-composition and credential-evaluation conditions are not applied to all first-year applicants.",
+      "note": "IELTS 6.5 with every section at least 6.0; old-scale TOEFL 80 is printed. A new-scale TOEFL threshold is not confirmed here. Transfer English-composition and credential-evaluation conditions are not applied to all first-year applicants.",
       "scales": [
         {
           "period": "pre2026",
@@ -41174,10 +41174,10 @@ window.UNIPATH.universities.push(
     "duolingo": {
       "min": null,
       "recommended": null,
-      "note": "IELTS6.5 with every section at least6.0; old-scale TOEFL80 is printed. A new-scale TOEFL threshold is not confirmed here. Transfer English-composition and credential-evaluation conditions are not applied to all first-year applicants."
+      "note": "IELTS 6.5 with every section at least 6.0; old-scale TOEFL 80 is printed. A new-scale TOEFL threshold is not confirmed here. Transfer English-composition and credential-evaluation conditions are not applied to all first-year applicants."
     },
     "waiver": null,
-    "note": "IELTS6.5 with every section at least6.0; old-scale TOEFL80 is printed. A new-scale TOEFL threshold is not confirmed here. Transfer English-composition and credential-evaluation conditions are not applied to all first-year applicants.",
+    "note": "IELTS 6.5 with every section at least 6.0; old-scale TOEFL 80 is printed. A new-scale TOEFL threshold is not confirmed here. Transfer English-composition and credential-evaluation conditions are not applied to all first-year applicants.",
     "detailsSource": "https://www.clemson.edu/admissions/undergraduate-admissions/apply/international.html",
     "detailsVerified": "2026-10-31"
   },
@@ -41185,13 +41185,13 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": "optional",
-      "note": "International first-year SAT/ACT optional; superscores if submitted. No named Fall2027 expiry established on the page.",
+      "note": "International first-year SAT/ACT optional; superscores if submitted. No named Fall 2027 expiry established on the page.",
       "source": "https://www.clemson.edu/admissions/undergraduate-admissions/apply/international.html",
       "verified": "2026-10-31"
     },
     "act": {
       "policy": "optional",
-      "note": "International first-year SAT/ACT optional; superscores if submitted. No named Fall2027 expiry established on the page.",
+      "note": "International first-year SAT/ACT optional; superscores if submitted. No named Fall 2027 expiry established on the page.",
       "source": "https://www.clemson.edu/admissions/undergraduate-admissions/apply/international.html",
       "verified": "2026-10-31"
     },
@@ -41211,10 +41211,10 @@ window.UNIPATH.universities.push(
     "items": [],
     "billedSubtotal": null,
     "totalText": null,
-    "note": "Both pages label2026–27 non-South-Carolina undergraduate costs. Admissions lists tuition/feesUSD42,852; Financial Aid lists tuition42,020 plus fees1,832 = USD43,852 (sum by UniPath). The USD1,000 discrepancy is unresolved and is not described as programme variation. Admissions60,308 excludes other expenses and is not comparable to the full COA66,180 (68,704 with laptop). These are previous-year references, not Fall2027 rates; no budget sufficiency is confirmed.",
+    "note": "Both pages label 2026–27 non-South-Carolina undergraduate costs. Admissions lists tuition/fees USD 42,852; Financial Aid lists tuition 42,020 plus fees 1,832 = USD 43,852 (sum by UniPath). The USD 1,000 discrepancy is unresolved and is not described as programme variation. Admissions 60,308 excludes other expenses and is not comparable to the full COA 66,180 (68,704 with laptop). These are previous-year references, not Fall 2027 rates; no budget sufficiency is confirmed.",
     "status": "conflict",
     "conflict": {
-      "text": "Both pages label2026–27 non-South-Carolina undergraduate costs. Admissions lists tuition/feesUSD42,852; Financial Aid lists tuition42,020 plus fees1,832 = USD43,852 (sum by UniPath). The USD1,000 discrepancy is unresolved and is not described as programme variation. Admissions60,308 excludes other expenses and is not comparable to the full COA66,180 (68,704 with laptop). These are previous-year references, not Fall2027 rates; no budget sufficiency is confirmed."
+      "text": "Both pages label 2026–27 non-South-Carolina undergraduate costs. Admissions lists tuition/fees USD 42,852; Financial Aid lists tuition 42,020 plus fees 1,832 = USD 43,852 (sum by UniPath). The USD 1,000 discrepancy is unresolved and is not described as programme variation. Admissions 60,308 excludes other expenses and is not comparable to the full COA 66,180 (68,704 with laptop). These are previous-year references, not Fall 2027 rates; no budget sufficiency is confirmed."
     }
   },
   "scholarships": {
@@ -41484,7 +41484,7 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": 6.5,
       "recommended": null,
-      "sections": "No band below6.0",
+      "sections": "No band below 6.0",
       "note": "Official IELTS/Indicator; published superscoring and two-year validity rules apply"
     },
     "toefl": {
@@ -41504,15 +41504,15 @@ window.UNIPATH.universities.push(
           "status": "conflict"
         }
       ],
-      "note": "Official requirements conflict on the new scale: introductory paragraph minimum4.5, detailed table total4.0 (Listening4.5, Reading/Writing/Speaking4.0). No single new-scale minimum is selected. Old table prints79 with Reading20, Listening21, Writing17, Speaking21. The page labels tables before/after20January2026; this wording is preserved rather than silently corrected. Two-year validity and no expiry during the application process; official results before immigration-document issue."
+      "note": "Official requirements conflict on the new scale: introductory paragraph minimum 4.5, detailed table total 4.0 (Listening 4.5, Reading/Writing/Speaking 4.0). No single new-scale minimum is selected. Old table prints 79 with Reading 20, Listening 21, Writing 17, Speaking 21. The page labels tables before/after 20 January 2026; this wording is preserved rather than silently corrected. Two-year validity and no expiry during the application process; official results before immigration-document issue."
     },
     "duolingo": {
       "min": 105,
       "recommended": null,
-      "sections": "No subscore below100"
+      "sections": "No subscore below 100"
     },
-    "waiver": "Four US-high-school years, or junior/senior US years with SAT Verbal550/ACT English23; listed citizenship exemptions. Prior English-medium schooling elsewhere is not a blanket waiver.",
-    "note": "General international first-year English proof is required on admission/enrolment unless a published exception applies. IELTS6.5/sections6.0 and DET105/subscores100 are distinct confirmed requirements. TOEFL new-scale total conflicts within the same official page; see both versions below. These exam requirements do not establish teaching language.",
+    "waiver": "Four US-high-school years, or junior/senior US years with SAT Verbal 550/ACT English 23; listed citizenship exemptions. Prior English-medium schooling elsewhere is not a blanket waiver.",
+    "note": "General international first-year English proof is required on admission/enrolment unless a published exception applies. IELTS 6.5/sections 6.0 and DET 105/subscores 100 are distinct confirmed requirements. TOEFL new-scale total conflicts within the same official page; see both versions below. These exam requirements do not establish teaching language.",
     "detailsSource": "https://undergraduate-admissions.mines.edu/international-first-year-requirements/",
     "detailsVerified": "2026-11-02"
   },
@@ -41524,7 +41524,7 @@ window.UNIPATH.universities.push(
       "source": "https://undergraduate-admissions.mines.edu/international-first-year-requirements/",
       "verified": "2026-11-02",
       "label": "SAT/ACT not required except NCAA sports participation",
-      "cycle": "Standing international first-year rule; Fall2027 application page context"
+      "cycle": "Standing international first-year rule; Fall 2027 application page context"
     },
     "act": {
       "policy": "conditional",
@@ -41532,7 +41532,7 @@ window.UNIPATH.universities.push(
       "source": "https://undergraduate-admissions.mines.edu/international-first-year-requirements/",
       "verified": "2026-11-02",
       "label": "SAT/ACT not required except NCAA sports participation",
-      "cycle": "Standing international first-year rule; Fall2027 application page context"
+      "cycle": "Standing international first-year rule; Fall 2027 application page context"
     },
     "otherTests": null,
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
@@ -41548,7 +41548,7 @@ window.UNIPATH.universities.push(
     "studentCategory": "Nonresident undergraduate, 15–19 credits, on-campus double room and average meal plan",
     "source": "https://finaid.mines.edu/cost-of-attendance-undergraduate/",
     "verified": "2026-11-01",
-    "headline": "Previous-cycle published COA: USD71,470, excluding SHIP",
+    "headline": "Previous-cycle published COA: USD 71,470, excluding SHIP",
     "items": [
       {
         "label": "Tuition",
@@ -41587,8 +41587,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "billedSubtotal": null,
-    "totalText": "USD71,470; health insurance and other charges may add costs",
-    "note": "2026–27 reference, not Fall 2027. SHIP health insurance is explicitly not automatically included in COA. The USD56 loan fee is a federal-loan origination charge and is not assumed applicable to a foreign student. Mandatory-fee allowance excludes some other charges. Summer/field session costs are separate; the Colorado resident COF allowance is not deducted from this nonresident price.",
+    "totalText": "USD 71,470; health insurance and other charges may add costs",
+    "note": "2026–27 reference, not Fall 2027. SHIP health insurance is explicitly not automatically included in COA. The USD 56 loan fee is a federal-loan origination charge and is not assumed applicable to a foreign student. Mandatory-fee allowance excludes some other charges. Summer/field session costs are separate; the Colorado resident COF allowance is not deducted from this nonresident price.",
     "status": "previous-cycle"
   },
   "scholarships": {
@@ -41753,7 +41753,7 @@ window.UNIPATH.universities.push(
     "c2": "#062b3b",
     "initials": "CR"
   },
-  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. University campus founding1954 is separate from the1907 Citrus Experiment Station predecessor.",
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. University campus founding 1954 is separate from the 1907 Citrus Experiment Station predecessor.",
   "englishTaught": true,
   "languageOfInstruction": "English — verified campus instruction statement",
   "programs": [
@@ -41824,7 +41824,7 @@ window.UNIPATH.universities.push(
       "currency": "USD",
       "waiverAvailableToInternational": null,
       "waiver": null,
-      "note": "Current international UC fee per campus, rather than the old general USD80 value on the campus page. Standard waiver restrictions apply.",
+      "note": "Current international UC fee per campus, rather than the old general USD 80 value on the campus page. Standard waiver restrictions apply.",
       "source": "https://admission.universityofcalifornia.edu/apply-now.html",
       "verified": "2026-10-31"
     },
@@ -41969,15 +41969,15 @@ window.UNIPATH.universities.push(
         "category": "merit",
         "name": "Achievement Scholarship",
         "basis": "unknown",
-        "amount": "Up to USD89,100 over four years",
+        "amount": "Up to USD 89,100 over four years",
         "eligibility": "International first-year students: confirmed nonresidency, UC eligibility and submitted SIR. Considered automatically; an award is not guaranteed.",
-        "renewable": "Maintain a3.0 GPA each quarter; further stacking or renewal conditions still require review.",
+        "renewable": "Maintain a 3.0 GPA each quarter; further stacking or renewal conditions still require review.",
         "deadlineScope": "no-separate-application",
         "entryTerm": null,
         "entryYear": null,
         "source": "https://discover.ucr.edu/international",
         "verified": "2026-10-31",
-        "note": "Standing published amount; a Fall2027-specific award cycle and largest-award comparison are not established. Automatic consideration does not mean an award to every eligible admitted student; the selection basis is not explicitly established here. This is not full tuition or full ride and is not deducted from cost."
+        "note": "Standing published amount; a Fall 2027-specific award cycle and largest-award comparison are not established. Automatic consideration does not mean an award to every eligible admitted student; the selection basis is not explicitly established here. This is not full tuition or full ride and is not deducted from cost."
       }
     ],
     "needBased": {
@@ -42171,7 +42171,7 @@ window.UNIPATH.universities.push(
     "c2": "#062b3b",
     "initials": "NJI"
   },
-  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. Founded as Newark Technical School in1881; renamed NJIT in1975.",
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. Founded as Newark Technical School in 1881; renamed NJIT in 1975.",
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
@@ -42318,19 +42318,19 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": "conditional",
-      "note": "The2026–27 undergraduate catalogue explicitly includes Spring/Fall2027 test-optional admission, with required-test exceptions for Albert Dorman Honors College and accelerated programmes. The older international page still labels its dated paragraph Fall2026; the current catalogue provides the separate2027 basis. English proficiency is a separate requirement. No SAT/ACT minimum is inferred from admitted-student averages.",
+      "note": "The 2026–27 undergraduate catalogue explicitly includes Spring/Fall 2027 test-optional admission, with required-test exceptions for Albert Dorman Honors College and accelerated programmes. The older international page still labels its dated paragraph Fall 2026; the current catalogue provides the separate 2027 basis. English proficiency is a separate requirement. No SAT/ACT minimum is inferred from admitted-student averages.",
       "source": "https://catalog.njit.edu/undergraduate/admissions-financial-aid/admissions/",
       "verified": "2026-11-02",
-      "label": "Optional except Honors and accelerated programmes —2027",
-      "cycle": "Spring and Fall2027"
+      "label": "Optional except Honors and accelerated programmes — 2027",
+      "cycle": "Spring and Fall 2027"
     },
     "act": {
       "policy": "conditional",
-      "note": "The2026–27 undergraduate catalogue explicitly includes Spring/Fall2027 test-optional admission, with required-test exceptions for Albert Dorman Honors College and accelerated programmes. The older international page still labels its dated paragraph Fall2026; the current catalogue provides the separate2027 basis. English proficiency is a separate requirement. No SAT/ACT minimum is inferred from admitted-student averages.",
+      "note": "The 2026–27 undergraduate catalogue explicitly includes Spring/Fall 2027 test-optional admission, with required-test exceptions for Albert Dorman Honors College and accelerated programmes. The older international page still labels its dated paragraph Fall 2026; the current catalogue provides the separate 2027 basis. English proficiency is a separate requirement. No SAT/ACT minimum is inferred from admitted-student averages.",
       "source": "https://catalog.njit.edu/undergraduate/admissions-financial-aid/admissions/",
       "verified": "2026-11-02",
-      "label": "Optional except Honors and accelerated programmes —2027",
-      "cycle": "Spring and Fall2027"
+      "label": "Optional except Honors and accelerated programmes — 2027",
+      "cycle": "Spring and Fall 2027"
     },
     "otherTests": null,
     "internationalQualifications": "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility."
@@ -42347,7 +42347,7 @@ window.UNIPATH.universities.push(
     "studentCategory": "Out-of-state undergraduate, 12–17 credits per semester, Newark",
     "source": "https://catalog.njit.edu/undergraduate/admissions-financial-aid/tuition-fees/",
     "verified": "2026-11-01",
-    "headline": "Previous-cycle semester tuition and fees: USD21,150",
+    "headline": "Previous-cycle semester tuition and fees: USD 21,150",
     "items": [
       {
         "label": "Tuition per semester",
@@ -42361,8 +42361,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "billedSubtotal": 21150,
-    "totalText": "USD21,150 per semester; additional costs separate",
-    "note": "The 2026–27 catalogue explicitly gives semester rates, not an annual total or Fall 2027 price. The annual health plan is USD2,028; F-1/J-1 cannot waive it under the catalogue rule, while the Bursar marks that rate pending state approval. International fee USD125 and first-year fee USD280 are additional; an unstated charging interval is not inferred. Newark, Jersey City and online graduate rates are distinct.",
+    "totalText": "USD 21,150 per semester; additional costs separate",
+    "note": "The 2026–27 catalogue explicitly gives semester rates, not an annual total or Fall 2027 price. The annual health plan is USD 2,028; F-1/J-1 cannot waive it under the catalogue rule, while the Bursar marks that rate pending state approval. International fee USD 125 and first-year fee USD 280 are additional; an unstated charging interval is not inferred. Newark, Jersey City and online graduate rates are distinct.",
     "status": "previous-cycle"
   },
   "scholarships": {
@@ -42554,7 +42554,7 @@ window.UNIPATH.universities.push(
     "c2": "#1f1f2e",
     "initials": "B"
   },
-  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. Initially private medical college1846; joined SUNY in1962. Historical private origin is not its current classification.",
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. Initially private medical college 1846; joined SUNY in 1962. Historical private origin is not its current classification.",
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
@@ -42703,10 +42703,10 @@ window.UNIPATH.universities.push(
     "items": [],
     "billedSubtotal": null,
     "totalText": null,
-    "note": "The I-20 undergraduate table publishes tuition/fees USD32,500, nine-month living USD25,000, separate insurance USD2,300 and total USD59,800; the twelve-month total is USD66,600. The introduction also says living expenses include health insurance. That is an unresolved coverage contradiction, not programme price variation: no insurance amount is automatically added or removed. The academic year is not established by this table; navigation update dates do not prove a Fall 2027 cycle. Neither total confirms a comparable budget.",
+    "note": "The I-20 undergraduate table publishes tuition/fees USD 32,500, nine-month living USD 25,000, separate insurance USD 2,300 and total USD 59,800; the twelve-month total is USD 66,600. The introduction also says living expenses include health insurance. That is an unresolved coverage contradiction, not programme price variation: no insurance amount is automatically added or removed. The academic year is not established by this table; navigation update dates do not prove a Fall 2027 cycle. Neither total confirms a comparable budget.",
     "status": "conflict",
     "conflict": {
-      "text": "The I-20 undergraduate table publishes tuition/fees USD32,500, nine-month living USD25,000, separate insurance USD2,300 and total USD59,800; the twelve-month total is USD66,600. The introduction also says living expenses include health insurance. That is an unresolved coverage contradiction, not programme price variation: no insurance amount is automatically added or removed. The academic year is not established by this table; navigation update dates do not prove a Fall 2027 cycle. Neither total confirms a comparable budget."
+      "text": "The I-20 undergraduate table publishes tuition/fees USD 32,500, nine-month living USD 25,000, separate insurance USD 2,300 and total USD 59,800; the twelve-month total is USD 66,600. The introduction also says living expenses include health insurance. That is an unresolved coverage contradiction, not programme price variation: no insurance amount is automatically added or removed. The academic year is not established by this table; navigation update dates do not prove a Fall 2027 cycle. Neither total confirms a comparable budget."
     }
   },
   "scholarships": {
@@ -42879,7 +42879,7 @@ window.UNIPATH.universities.push(
     "c2": "#2e0f17",
     "initials": "D"
   },
-  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. University states founded1743 and chartered1833; state assistance and private governance are both explicit, not simplified to an unqualified public/private category.",
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. University states founded 1743 and chartered 1833; state assistance and private governance are both explicit, not simplified to an unqualified public/private category.",
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
@@ -43034,7 +43034,7 @@ window.UNIPATH.universities.push(
     "studentCategory": "International full-time undergraduate, Newark, standard housing/food, base before differentials",
     "source": "https://www.udel.edu/apply/undergraduate-admissions/financing-your-degree/international-students/",
     "verified": "2026-11-01",
-    "headline": "Previous-cycle international base COA: USD70,412",
+    "headline": "Previous-cycle international base COA: USD 70,412",
     "items": [
       {
         "label": "Tuition",
@@ -43073,8 +43073,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "billedSubtotal": 66162,
-    "totalText": "USD70,412 before programme differentials",
-    "note": "2026–27 only, not Fall 2027. The first-year orientation fee is already included. For Fall 2025+ cohorts the page separately lists annual differentials: Engineering USD4,000, Business3,000, Nursing2,500, Honors2,000 and Music1,250. Do not assign this base to every degree or automatically combine differential categories. CS BA and BS routes need their specific college scope. Merit awards are competitive and are not deducted.",
+    "totalText": "USD 70,412 before programme differentials",
+    "note": "2026–27 only, not Fall 2027. The first-year orientation fee is already included. For Fall 2025+ cohorts the page separately lists annual differentials: Engineering USD 4,000, Business 3,000, Nursing 2,500, Honors 2,000 and Music 1,250. Do not assign this base to every degree or automatically combine differential categories. CS BA and BS routes need their specific college scope. Merit awards are competitive and are not deducted.",
     "status": "previous-cycle"
   },
   "scholarships": {
@@ -43091,8 +43091,8 @@ window.UNIPATH.universities.push(
       },
       "renewable": true,
       "competitiveness": "The university calls this its premier scholarship; selected Honors admits are invited for campus interviews. Leadership and intellectual curiosity matter; a current award count has not been verified.",
-      "howToApply": "Complete the Common/Coalition Early Action application and all materials by annual1 November for Honors consideration. Distinguished Scholars interviews are by invitation. The international page says no separate scholarship application; the general January priority is not substituted. A Fall 2027-specific award cycle is not established.",
-      "note": "International eligibility is stated on the international scholarship page; the named Honors page specifies full tuition, standard on-campus room/board and comprehensive health/student-center fees. Health service fees are not proof of medical insurance coverage. Published textbook allowance USD625 each fall/spring and one-time approved enrichment USD5,000 are separate from unlimited books or living support. This is competitive, not guaranteed to every applicant; no amount is deducted from the budget. Honors admitted-score statistics are not entry minima.",
+      "howToApply": "Complete the Common/Coalition Early Action application and all materials by annual 1 November for Honors consideration. Distinguished Scholars interviews are by invitation. The international page says no separate scholarship application; the general January priority is not substituted. A Fall 2027-specific award cycle is not established.",
+      "note": "International eligibility is stated on the international scholarship page; the named Honors page specifies full tuition, standard on-campus room/board and comprehensive health/student-center fees. Health service fees are not proof of medical insurance coverage. Published textbook allowance USD 625 each fall/spring and one-time approved enrichment USD 5,000 are separate from unlimited books or living support. This is competitive, not guaranteed to every applicant; no amount is deducted from the budget. Honors admitted-score statistics are not entry minima.",
       "name": "Eugene du Pont Memorial Distinguished Scholar Scholarship",
       "id": "eugene-du-pont",
       "category": "merit",
@@ -43103,7 +43103,7 @@ window.UNIPATH.universities.push(
       "verified": "2026-11-01",
       "detailsSource": "https://www.udel.edu/apply/undergraduate-admissions/financing-your-degree/international-students/",
       "detailsVerified": "2026-11-01",
-      "renewalConditions": "Four years; the international page states a UD GPA of3.0 for continuation. Additional Honors standing and stacking rules remain under review; this is not an admission GPA minimum."
+      "renewalConditions": "Four years; the international page states a UD GPA of 3.0 for continuation. Additional Honors standing and stacking rules remain under review; this is not an admission GPA minimum."
     },
     "merit": [],
     "needBased": {
@@ -43268,7 +43268,7 @@ window.UNIPATH.universities.push(
     "c2": "#062b3b",
     "initials": "RC"
   },
-  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. System timeline calls Rutgers–Camden founded1950. Its own centennial archive describes1950 as merger with Rutgers; predecessor origins are distinct. No single founding year is inferred here;1766 is not assigned toCamden.",
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. System timeline calls Rutgers–Camden founded 1950. Its own centennial archive describes 1950 as merger with Rutgers; predecessor origins are distinct. No single founding year is inferred here; 1766 is not assigned to Camden.",
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
@@ -43420,7 +43420,7 @@ window.UNIPATH.universities.push(
     "studentCategory": "Non-New-Jersey undergraduate, Camden on-campus estimate",
     "source": "https://admissions.newark.rutgers.edu/costs-and-aid/tuition-fees",
     "verified": "2026-11-01",
-    "headline": "Previous-cycle three-item total: USD62,603",
+    "headline": "Previous-cycle three-item total: USD 62,603",
     "items": [
       {
         "label": "Tuition",
@@ -43439,8 +43439,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "billedSubtotal": 62603,
-    "totalText": "USD62,603 for the published2026–27 Camden estimate",
-    "note": "This is the Camden section of the official2026–27 campus table, not Newark62,049 or New Brunswick62,782. Programme/school and housing choices can change charges. Books, travel, insurance and other international expenses are not established as included in these three lines. No comparable Fall2027 total is assigned and no award is deducted.",
+    "totalText": "USD 62,603 for the published 2026–27 Camden estimate",
+    "note": "This is the Camden section of the official 2026–27 campus table, not Newark 62,049 or New Brunswick 62,782. Programme/school and housing choices can change charges. Books, travel, insurance and other international expenses are not established as included in these three lines. No comparable Fall 2027 total is assigned and no award is deducted.",
     "status": "previous-cycle"
   },
   "scholarships": {
@@ -44397,7 +44397,7 @@ window.UNIPATH.universities.push(
     "c2": "#062b3b",
     "initials": "A"
   },
-  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. Chartered1856 as East Alabama Male College; opened1859. Founding and first teaching are distinct; historic private status is not current public classification.",
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. Chartered 1856 as East Alabama Male College; opened 1859. Founding and first teaching are distinct; historic private status is not current public classification.",
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
@@ -44543,10 +44543,10 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": null,
     "totalText": null,
-    "note": "Auburn publishes a2027–28 F/J estimate: tuition/feesUSD39,658, living15,000, insurance2,317, total56,975. Its introduction includes transportation but footnote1 explicitly excludes transportation; coverage is inconsistent. Footnote2 separates fall/spring tuition (nine months) and12-month living expenses. DependantsUSD6,000 each and professional fees may add costs. The gross total is not a verified complete budget; no scholarship is deducted.",
+    "note": "Auburn publishes a 2027–28 F/J estimate: tuition/fees USD 39,658, living 15,000, insurance 2,317, total 56,975. Its introduction includes transportation but footnote 1 explicitly excludes transportation; coverage is inconsistent. Footnote 2 separates fall/spring tuition (nine months) and 12-month living expenses. Dependants USD 6,000 each and professional fees may add costs. The gross total is not a verified complete budget; no scholarship is deducted.",
     "status": "conflict",
     "conflict": {
-      "text": "Auburn publishes a2027–28 F/J estimate: tuition/feesUSD39,658, living15,000, insurance2,317, total56,975. Its introduction includes transportation but footnote1 explicitly excludes transportation; coverage is inconsistent. Footnote2 separates fall/spring tuition (nine months) and12-month living expenses. DependantsUSD6,000 each and professional fees may add costs. The gross total is not a verified complete budget; no scholarship is deducted."
+      "text": "Auburn publishes a 2027–28 F/J estimate: tuition/fees USD 39,658, living 15,000, insurance 2,317, total 56,975. Its introduction includes transportation but footnote 1 explicitly excludes transportation; coverage is inconsistent. Footnote 2 separates fall/spring tuition (nine months) and 12-month living expenses. Dependants USD 6,000 each and professional fees may add costs. The gross total is not a verified complete budget; no scholarship is deducted."
     }
   },
   "scholarships": {
@@ -45090,7 +45090,7 @@ window.UNIPATH.universities.push(
     "c2": "#3d1d09",
     "initials": "SF"
   },
-  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. University founded1956; the profile remains scoped toTampa, not an automatic claim for every campus programme.",
+  "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. University founded 1956; the profile remains scoped to Tampa, not an automatic claim for every campus programme.",
   "englishTaught": null,
   "languageOfInstruction": null,
   "programs": [
@@ -45668,7 +45668,7 @@ window.UNIPATH.universities.push(
       "currency": "USD",
       "waiverAvailableToInternational": null,
       "waiver": null,
-      "note": "International/nonimmigrant fee per UC campus; standard waivers have citizenship, residence or AB540 restrictions.",
+      "note": "International/nonimmigrant fee per UC campus; standard waivers have citizenship, residence or AB 540 restrictions.",
       "source": "https://admission.universityofcalifornia.edu/apply-now.html",
       "verified": "2026-10-31"
     },
@@ -46142,8 +46142,8 @@ window.UNIPATH.universities.push(
         "name": "Presidential Scholarship",
         "amount": "USD 15,000/year for newly admitted students; USD 60,000 over four years",
         "eligibility": "International nonresident first-year applicants; complete records including English proficiency by annual 15 January. SAT/ACT not considered for these automatic awards.",
-        "renewable": "Up to eight fall/spring semesters;12+ credits each semester and cumulative CU Boulder GPA 2.75",
-        "application": "Automatic consideration with admission;15 January is annual, entry year not established in the FAQ",
+        "renewable": "Up to eight fall/spring semesters; 12+ credits each semester and cumulative CU Boulder GPA 2.75",
+        "application": "Automatic consideration with admission; 15 January is annual, entry year not established in the FAQ",
         "note": "Presidential and Chancellor’s cannot combine. Presidential page distinguishes Fall 2026-or-earlier total USD 55,000 from newly admitted total USD 60,000. Other aid/Arts & Humanities may change the package; total cannot exceed COA. Partial support, not guaranteed total spending coverage.",
         "deadlineScope": "annual-rule",
         "entryTerm": null,
@@ -46158,8 +46158,8 @@ window.UNIPATH.universities.push(
         "name": "Chancellor’s Achievement Scholarship",
         "amount": "USD 6,250/year for newly admitted students; USD 25,000 over four years",
         "eligibility": "International nonresident first-year applicants; complete records including English proficiency by annual 15 January. SAT/ACT not considered for these automatic awards.",
-        "renewable": "Up to eight fall/spring semesters;12+ credits each semester and cumulative CU Boulder GPA 2.75",
-        "application": "Automatic consideration with admission;15 January is annual, entry year not established in the FAQ",
+        "renewable": "Up to eight fall/spring semesters; 12+ credits each semester and cumulative CU Boulder GPA 2.75",
+        "application": "Automatic consideration with admission; 15 January is annual, entry year not established in the FAQ",
         "note": "Presidential and Chancellor’s cannot combine. Presidential page distinguishes Fall 2026-or-earlier total USD 55,000 from newly admitted total USD 60,000. Other aid/Arts & Humanities may change the package; total cannot exceed COA. Partial support, not guaranteed total spending coverage.",
         "deadlineScope": "annual-rule",
         "entryTerm": null,
@@ -46445,7 +46445,7 @@ window.UNIPATH.universities.push(
     },
     "documents": [
       "School transcripts with English translation; unofficial records may complete the application, official copies after confirmation by the yearless June 30 date. One recommendation. Exact Uzbek qualification remains unconfirmed.",
-      "School records and English translations; unofficial initially, official after confirming enrolment. One recommendation; waiver requests assessed individually. Published June30 final-document rule has no confirmed intake year here."
+      "School records and English translations; unofficial initially, official after confirming enrolment. One recommendation; waiver requests assessed individually. Published June 30 final-document rule has no confirmed intake year here."
     ],
     "recommendations": null,
     "essay": null,
@@ -47369,7 +47369,7 @@ window.UNIPATH.universities.push(
     "interview": null,
     "notes": [
       "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
-      "Wake Forest School of Business requires a later internal application after university admission:49 completed college credit hours and specified prerequisites graded at least C by the end of sophomore spring. Minimum eligibility does not guarantee a place. These are college progression rules, not Uzbek school grades or direct first-year business admission."
+      "Wake Forest School of Business requires a later internal application after university admission: 49 completed college credit hours and specified prerequisites graded at least C by the end of sophomore spring. Minimum eligibility does not guarantee a place. These are college progression rules, not Uzbek school grades or direct first-year business admission."
     ]
   },
   "english": {
@@ -47482,8 +47482,8 @@ window.UNIPATH.universities.push(
       },
       "renewable": null,
       "competitiveness": null,
-      "howToApply": "Complete the admission application by annual November15; no ordinary separate award form. Finalists are invited to campus interviews. Fall2027 cycle not confirmed for this date.",
-      "note": "Stamps is a highly competitive full-cost Signature award, around15 entering recipients. It covers tuition, fees, room and board, plus USD3,400 for books/personal expenses; up to USD15,000 total approved travel/study across four years. International first-year eligibility is explicitly confirmed on the admissions page. Insurance, exact renewal GPA, stacking and award-year amounts remain unconfirmed; this is not guaranteed aid for every international applicant.",
+      "howToApply": "Complete the admission application by annual November 15; no ordinary separate award form. Finalists are invited to campus interviews. Fall 2027 cycle not confirmed for this date.",
+      "note": "Stamps is a highly competitive full-cost Signature award, around 15 entering recipients. It covers tuition, fees, room and board, plus USD 3,400 for books/personal expenses; up to USD 15,000 total approved travel/study across four years. International first-year eligibility is explicitly confirmed on the admissions page. Insurance, exact renewal GPA, stacking and award-year amounts remain unconfirmed; this is not guaranteed aid for every international applicant.",
       "name": "Stamps Scholarship",
       "id": "stamps",
       "category": "merit",
@@ -47854,10 +47854,10 @@ window.UNIPATH.universities.push(
     },
     "academicYear": "2026–2027",
     "currency": "USD",
-    "studentCategory": "New first-year, standard undergraduate schools, residence-hall estimate; full-time12–18 credits, engineering up to19",
+    "studentCategory": "New first-year, standard undergraduate schools, residence-hall estimate; full-time 12–18 credits, engineering up to 19",
     "source": "https://www.gwu.edu/cost-gw-education",
     "verified": "2026-11-01",
-    "headline": "Previous-cycle published COA: USD95,155",
+    "headline": "Previous-cycle published COA: USD 95,155",
     "items": [
       {
         "label": "Tuition",
@@ -47896,8 +47896,8 @@ window.UNIPATH.universities.push(
       }
     ],
     "billedSubtotal": 90930,
-    "totalText": "USD95,155 before aid; insurance separately reviewed",
-    "note": "2026–27 only: standard Arts/Sciences, Business, Engineering/Applied Science, Elliott and Milken undergraduate schools. Specialty, accelerated, online and graduate programmes are separate. The standard table does not itemise SHIP medical insurance; coverage is mandatory and automatic enrolment applies unless waived. Exact premium/applicability needs review. This is not a confirmed Fall2027 budget and no competitive award is deducted.",
+    "totalText": "USD 95,155 before aid; insurance separately reviewed",
+    "note": "2026–27 only: standard Arts/Sciences, Business, Engineering/Applied Science, Elliott and Milken undergraduate schools. Specialty, accelerated, online and graduate programmes are separate. The standard table does not itemise SHIP medical insurance; coverage is mandatory and automatic enrolment applies unless waived. Exact premium/applicability needs review. This is not a confirmed Fall 2027 budget and no competitive award is deducted.",
     "status": "previous-cycle"
   },
   "scholarships": {
@@ -47914,8 +47914,8 @@ window.UNIPATH.universities.push(
       },
       "renewable": true,
       "competitiveness": null,
-      "howToApply": "After submitting the admission application, submit the separate scholarship application in the portal with an essay or video and CSS. January31 is an annual rule with no established entry year; no portal login was performed.",
-      "note": "Two competitive full-tuition awards each year for fall first-year applicants schooled outside the US who demonstrate intercultural initiative and submit CSS5246. Full tuition does not cover living costs. General need-based aid is unavailable except the separate Davis UWC partnership for UWC graduates with CSS; eligibility is not assumed for an ordinary Uzbek-school applicant. Presidential awards have variable amounts and automatic consideration, not guaranteed receipt. Only one GW merit scholarship may be awarded; employee benefits exclude these awards. Award cycle2027 and any larger numerical maximum remain unconfirmed.",
+      "howToApply": "After submitting the admission application, submit the separate scholarship application in the portal with an essay or video and CSS. January 31 is an annual rule with no established entry year; no portal login was performed.",
+      "note": "Two competitive full-tuition awards each year for fall first-year applicants schooled outside the US who demonstrate intercultural initiative and submit CSS 5246. Full tuition does not cover living costs. General need-based aid is unavailable except the separate Davis UWC partnership for UWC graduates with CSS; eligibility is not assumed for an ordinary Uzbek-school applicant. Presidential awards have variable amounts and automatic consideration, not guaranteed receipt. Only one GW merit scholarship may be awarded; employee benefits exclude these awards. Award cycle 2027 and any larger numerical maximum remain unconfirmed.",
       "id": "you-are-welcome-here",
       "category": "merit",
       "name": "You Are Welcome Here",
@@ -47924,7 +47924,7 @@ window.UNIPATH.universities.push(
       "deadlineScope": "annual-rule",
       "source": "https://undergraduate.admissions.gwu.edu/financial-aid/international-student-aid",
       "verified": "2026-11-01",
-      "renewalConditions": "Up to10 consecutive undergraduate semesters with continuous full-time enrolment and satisfactory academic progress. Tuition use only; exact SAP thresholds unreviewed."
+      "renewalConditions": "Up to 10 consecutive undergraduate semesters with continuous full-time enrolment and satisfactory academic progress. Tuition use only; exact SAP thresholds unreviewed."
     },
     "merit": [],
     "needBased": {
@@ -48751,7 +48751,7 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": null,
     "totalText": "Regular annual tuition USD 67,756; optional guaranteed annual tuition USD 75,556 — both exclude living costs",
-    "note": "2026–2027 tuition only for 12+ credits, fall/spring. Regular tuition is the default; the optional higher Guaranteed Tuition Option locks tuition for 48 months, not other charges. Its August 31,2026 election deadline belongs to the 2026 cohort and is not a 2027 admission/scholarship deadline. Housing, meals, new-student matriculation, books, personal expenses and travel are separate. International students must have health insurance. Summer uses separate rates. No complete budget or competitive-aid deduction.",
+    "note": "2026–2027 tuition only for 12+ credits, fall/spring. Regular tuition is the default; the optional higher Guaranteed Tuition Option locks tuition for 48 months, not other charges. Its August 31, 2026 election deadline belongs to the 2026 cohort and is not a 2027 admission/scholarship deadline. Housing, meals, new-student matriculation, books, personal expenses and travel are separate. International students must have health insurance. Summer uses separate rates. No complete budget or competitive-aid deduction.",
     "source": "https://admissions.web.baylor.edu/costs-aid/tuition-fees",
     "verified": "2026-11-02"
   },
@@ -49116,13 +49116,13 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": 6.5,
       "recommended": null,
-      "note": "IELTS at least 6.5 IN EACH SECTION. Old TOEFL 86 with every section20; new total4.5. DET120 total and subscore115 PREFERRED, not a hard minimum. Credential evaluation is in the college/university-study section, not a universal school-only first-year requirement.",
+      "note": "IELTS at least 6.5 IN EACH SECTION. Old TOEFL 86 with every section 20; new total 4.5. DET 120 total and subscore 115 PREFERRED, not a hard minimum. Credential evaluation is in the college/university-study section, not a universal school-only first-year requirement.",
       "sections": "At least 6.5 in each section"
     },
     "toefl": {
       "min": 86,
       "recommended": null,
-      "note": "IELTS at least 6.5 IN EACH SECTION. Old TOEFL 86 with every section20; new total4.5. DET120 total and subscore115 PREFERRED, not a hard minimum. Credential evaluation is in the college/university-study section, not a universal school-only first-year requirement.",
+      "note": "IELTS at least 6.5 IN EACH SECTION. Old TOEFL 86 with every section 20; new total 4.5. DET 120 total and subscore 115 PREFERRED, not a hard minimum. Credential evaluation is in the college/university-study section, not a universal school-only first-year requirement.",
       "scales": [
         {
           "period": "pre2026",
@@ -49139,10 +49139,10 @@ window.UNIPATH.universities.push(
     "duolingo": {
       "min": 120,
       "recommended": null,
-      "note": "IELTS at least 6.5 IN EACH SECTION. Old TOEFL 86 with every section20; new total4.5. DET120 total and subscore115 PREFERRED, not a hard minimum. Credential evaluation is in the college/university-study section, not a universal school-only first-year requirement."
+      "note": "IELTS at least 6.5 IN EACH SECTION. Old TOEFL 86 with every section 20; new total 4.5. DET 120 total and subscore 115 PREFERRED, not a hard minimum. Credential evaluation is in the college/university-study section, not a universal school-only first-year requirement."
     },
     "waiver": null,
-    "note": "IELTS at least 6.5 IN EACH SECTION. Old TOEFL 86 with every section20; new total4.5. DET120 total and subscore115 PREFERRED, not a hard minimum. Credential evaluation is in the college/university-study section, not a universal school-only first-year requirement.",
+    "note": "IELTS at least 6.5 IN EACH SECTION. Old TOEFL 86 with every section 20; new total 4.5. DET 120 total and subscore 115 PREFERRED, not a hard minimum. Credential evaluation is in the college/university-study section, not a universal school-only first-year requirement.",
     "detailsSource": "https://www.marquette.edu/oie/prospective-students/application-materials.php",
     "detailsVerified": "2026-10-31"
   },
@@ -49453,19 +49453,19 @@ window.UNIPATH.universities.push(
     "interview": null,
     "notes": [
       "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
-      "The named Yeshiva College programmes shown here belong to the Wilf campus undergraduate-men advising list for Fall2025 and beyond. They are not automatically Stern College/Beren or Sy Syms programmes. The Pre-Engineering/Columbia track is a separate partner pathway, not a standalone YU engineering bachelor."
+      "The named Yeshiva College programmes shown here belong to the Wilf campus undergraduate-men advising list for Fall 2025 and beyond. They are not automatically Stern College/Beren or Sy Syms programmes. The Pre-Engineering/Columbia track is a separate partner pathway, not a standalone YU engineering bachelor."
     ]
   },
   "english": {
     "ielts": {
       "min": 7,
       "recommended": null,
-      "note": "Published IELTS7, TOEFL82 on the old scale and DET115. A new TOEFL1–6 threshold is not printed and is not guessed. If records are not in English or Hebrew, the source calls for certified translation/evaluation by a NACES-approved agency."
+      "note": "Published IELTS 7, TOEFL 82 on the old scale and DET 115. A new TOEFL 1–6 threshold is not printed and is not guessed. If records are not in English or Hebrew, the source calls for certified translation/evaluation by a NACES-approved agency."
     },
     "toefl": {
       "min": 82,
       "recommended": null,
-      "note": "Published IELTS7, TOEFL82 on the old scale and DET115. A new TOEFL1–6 threshold is not printed and is not guessed. If records are not in English or Hebrew, the source calls for certified translation/evaluation by a NACES-approved agency.",
+      "note": "Published IELTS 7, TOEFL 82 on the old scale and DET 115. A new TOEFL 1–6 threshold is not printed and is not guessed. If records are not in English or Hebrew, the source calls for certified translation/evaluation by a NACES-approved agency.",
       "scales": [
         {
           "period": "pre2026",
@@ -49477,10 +49477,10 @@ window.UNIPATH.universities.push(
     "duolingo": {
       "min": 115,
       "recommended": null,
-      "note": "Published IELTS7, TOEFL82 on the old scale and DET115. A new TOEFL1–6 threshold is not printed and is not guessed. If records are not in English or Hebrew, the source calls for certified translation/evaluation by a NACES-approved agency."
+      "note": "Published IELTS 7, TOEFL 82 on the old scale and DET 115. A new TOEFL 1–6 threshold is not printed and is not guessed. If records are not in English or Hebrew, the source calls for certified translation/evaluation by a NACES-approved agency."
     },
     "waiver": null,
-    "note": "Published IELTS7, TOEFL82 on the old scale and DET115. A new TOEFL1–6 threshold is not printed and is not guessed. If records are not in English or Hebrew, the source calls for certified translation/evaluation by a NACES-approved agency.",
+    "note": "Published IELTS 7, TOEFL 82 on the old scale and DET 115. A new TOEFL 1–6 threshold is not printed and is not guessed. If records are not in English or Hebrew, the source calls for certified translation/evaluation by a NACES-approved agency.",
     "detailsSource": "https://apply.yu.edu/international",
     "detailsVerified": "2026-10-31"
   },
@@ -49532,7 +49532,7 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": null,
     "totalText": "Published tuition and mandatory fees USD 54,500; insurance, residence and meals are separate",
-    "note": "2026–2027 tuition/fees reference. The printed USD 54,500 equals tuition 49,550 plus mandatory 4,950; it does not include listed insurance 6,654 or a housing/meal plan. Men residence halls:9,900–12,100 USD fall/spring; women residence halls:12,100–17,500 USD, selected room types. Resident meal plans are per semester 2,050/2,362.50/2,650 USD; the 1,380 annual nonresident meal plan is for full-time non-dorming students, not every international student. Lab and programme fees differ. Israel programme and transfer/accelerated nursing are separate. No consolidated full budget or aid deduction.",
+    "note": "2026–2027 tuition/fees reference. The printed USD 54,500 equals tuition 49,550 plus mandatory 4,950; it does not include listed insurance 6,654 or a housing/meal plan. Men residence halls: 9,900–12,100 USD fall/spring; women residence halls: 12,100–17,500 USD, selected room types. Resident meal plans are per semester 2,050/2,362.50/2,650 USD; the 1,380 annual nonresident meal plan is for full-time non-dorming students, not every international student. Lab and programme fees differ. Israel programme and transfer/accelerated nursing are separate. No consolidated full budget or aid deduction.",
     "source": "https://www.yu.edu/osf/tuition-fees/undergraduate",
     "verified": "2026-11-02"
   },
@@ -49835,20 +49835,20 @@ window.UNIPATH.universities.push(
     "interview": null,
     "notes": [
       "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
-      "The source RECOMMENDS these scores: IELTS6.5, old TOEFL85/new4.5 and DET115; they are not installed as hard admission minima. English evidence must be official; waiver decisions are individual. Wabash is a college for men. USD24,990 required financial declaration is neither gross annual cost nor a guaranteed net price after scholarship."
+      "The source RECOMMENDS these scores: IELTS 6.5, old TOEFL 85/new 4.5 and DET 115; they are not installed as hard admission minima. English evidence must be official; waiver decisions are individual. Wabash is a college for men. USD 24,990 required financial declaration is neither gross annual cost nor a guaranteed net price after scholarship."
     ]
   },
   "english": {
     "ielts": {
       "min": null,
       "recommended": 6.5,
-      "note": "The source RECOMMENDS these scores: IELTS6.5, old TOEFL85/new4.5 and DET115; they are not installed as hard admission minima. English evidence must be official; waiver decisions are individual. Wabash is a college for men. USD24,990 required financial declaration is neither gross annual cost nor a guaranteed net price after scholarship.",
+      "note": "The source RECOMMENDS these scores: IELTS 6.5, old TOEFL 85/new 4.5 and DET 115; they are not installed as hard admission minima. English evidence must be official; waiver decisions are individual. Wabash is a college for men. USD 24,990 required financial declaration is neither gross annual cost nor a guaranteed net price after scholarship.",
       "recBasis": "University-published recommended English scores"
     },
     "toefl": {
       "min": null,
       "recommended": 85,
-      "note": "The source RECOMMENDS these scores: IELTS6.5, old TOEFL85/new4.5 and DET115; they are not installed as hard admission minima. English evidence must be official; waiver decisions are individual. Wabash is a college for men. USD24,990 required financial declaration is neither gross annual cost nor a guaranteed net price after scholarship.",
+      "note": "The source RECOMMENDS these scores: IELTS 6.5, old TOEFL 85/new 4.5 and DET 115; they are not installed as hard admission minima. English evidence must be official; waiver decisions are individual. Wabash is a college for men. USD 24,990 required financial declaration is neither gross annual cost nor a guaranteed net price after scholarship.",
       "scales": [
         {
           "period": "pre2026",
@@ -49866,11 +49866,11 @@ window.UNIPATH.universities.push(
     "duolingo": {
       "min": null,
       "recommended": 115,
-      "note": "The source RECOMMENDS these scores: IELTS6.5, old TOEFL85/new4.5 and DET115; they are not installed as hard admission minima. English evidence must be official; waiver decisions are individual. Wabash is a college for men. USD24,990 required financial declaration is neither gross annual cost nor a guaranteed net price after scholarship.",
+      "note": "The source RECOMMENDS these scores: IELTS 6.5, old TOEFL 85/new 4.5 and DET 115; they are not installed as hard admission minima. English evidence must be official; waiver decisions are individual. Wabash is a college for men. USD 24,990 required financial declaration is neither gross annual cost nor a guaranteed net price after scholarship.",
       "recBasis": "University-published recommended English scores"
     },
     "waiver": null,
-    "note": "The source RECOMMENDS these scores: IELTS6.5, old TOEFL85/new4.5 and DET115; they are not installed as hard admission minima. English evidence must be official; waiver decisions are individual. Wabash is a college for men. USD24,990 required financial declaration is neither gross annual cost nor a guaranteed net price after scholarship.",
+    "note": "The source RECOMMENDS these scores: IELTS 6.5, old TOEFL 85/new 4.5 and DET 115; they are not installed as hard admission minima. English evidence must be official; waiver decisions are individual. Wabash is a college for men. USD 24,990 required financial declaration is neither gross annual cost nor a guaranteed net price after scholarship.",
     "detailsSource": "https://www.wabash.edu/admissions/international",
     "detailsVerified": "2026-10-31"
   },
@@ -50277,7 +50277,7 @@ window.UNIPATH.universities.push(
     "status": "previous-cycle",
     "academicYear": "2026–2027",
     "currency": "USD",
-    "studentCategory": "Full-time undergraduate,12–17 credits/semester, standard double room and board",
+    "studentCategory": "Full-time undergraduate, 12–17 credits/semester, standard double room and board",
     "breakdown": {
       "period": "year",
       "includes": "Scoped published reference before aid, not a Fall 2027 budget"
@@ -50563,7 +50563,7 @@ window.UNIPATH.universities.push(
     "interview": null,
     "notes": [
       "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
-      "Provo campus only. Ecclesiastical endorsement and Honor Code standing/exception rules apply; minimum age17 at enrolment. Non-US-accredited secondary education requires a paid foreign credential evaluation. Exact Uzbek equivalence is unconfirmed. Tuition2026–27 for12+credits per Fall/Winter semester: Latter-day SaintUSD3,548; non-Latter-day SaintUSD7,096. Religious membership is not citizenship; neither amount is annual or full cost. Fall2027–28 rates and residual expenses remain unknown.",
+      "Provo campus only. Ecclesiastical endorsement and Honor Code standing/exception rules apply; minimum age 17 at enrolment. Non-US-accredited secondary education requires a paid foreign credential evaluation. Exact Uzbek equivalence is unconfirmed. Tuition 2026–27 for 12+ credits per Fall/Winter semester: Latter-day Saint USD 3,548; non-Latter-day Saint USD 7,096. Religious membership is not citizenship; neither amount is annual or full cost. Fall 2027–28 rates and residual expenses remain unknown.",
       "BYU Mechanical Engineering has a separate professional-program acceptance stage before professional ME core courses. The catalogue ranks applications by prerequisite college-course GPA; university admission alone does not guarantee progression. This is not a minimum Uzbek school GPA. Marriott business-major admission must also be checked separately."
     ]
   },
@@ -50592,13 +50592,13 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": null,
-      "note": "Not checked: Fall 2027 testing status is not confirmed. The standing university policy requires SAT/ACT unless 24 graded post-school college credits, but explicitly allows suspension for an applicant pool. The current international admissions page returned403; no optional or required policy is inferred for this cohort.",
+      "note": "Not checked: Fall 2027 testing status is not confirmed. The standing university policy requires SAT/ACT unless 24 graded post-school college credits, but explicitly allows suspension for an applicant pool. The current international admissions page returned 403; no optional or required policy is inferred for this cohort.",
       "source": "https://policy.byu.edu/view/admission-policy",
       "verified": "2026-10-31"
     },
     "act": {
       "policy": null,
-      "note": "Not checked: Fall 2027 testing status is not confirmed. The standing university policy requires SAT/ACT unless 24 graded post-school college credits, but explicitly allows suspension for an applicant pool. The current international admissions page returned403; no optional or required policy is inferred for this cohort.",
+      "note": "Not checked: Fall 2027 testing status is not confirmed. The standing university policy requires SAT/ACT unless 24 graded post-school college credits, but explicitly allows suspension for an applicant pool. The current international admissions page returned 403; no optional or required policy is inferred for this cohort.",
       "source": "https://policy.byu.edu/view/admission-policy",
       "verified": "2026-10-31"
     },
@@ -50618,7 +50618,7 @@ window.UNIPATH.universities.push(
     "items": [],
     "billedSubtotal": null,
     "totalText": null,
-    "note": "Provo campus only. Ecclesiastical endorsement and Honor Code standing/exception rules apply; minimum age17 at enrolment. Non-US-accredited secondary education requires a paid foreign credential evaluation. Exact Uzbek equivalence is unconfirmed. Tuition2026–27 for12+credits per Fall/Winter semester: Latter-day SaintUSD3,548; non-Latter-day SaintUSD7,096. Religious membership is not citizenship; neither amount is annual or full cost. Fall2027–28 rates and residual expenses remain unknown.",
+    "note": "Provo campus only. Ecclesiastical endorsement and Honor Code standing/exception rules apply; minimum age 17 at enrolment. Non-US-accredited secondary education requires a paid foreign credential evaluation. Exact Uzbek equivalence is unconfirmed. Tuition 2026–27 for 12+ credits per Fall/Winter semester: Latter-day Saint USD 3,548; non-Latter-day Saint USD 7,096. Religious membership is not citizenship; neither amount is annual or full cost. Fall 2027–28 rates and residual expenses remain unknown.",
     "status": "previous-cycle"
   },
   "scholarships": {
@@ -50861,7 +50861,7 @@ window.UNIPATH.universities.push(
       "currency": "USD",
       "waiverAvailableToInternational": null,
       "waiver": null,
-      "note": "A non-refundable fee is required, but the reviewed international page does not state its amount. Fee-waiver options exist; unknown is not USD0."
+      "note": "A non-refundable fee is required, but the reviewed international page does not state its amount. Fee-waiver options exist; unknown is not USD 0."
     },
     "documents": [
       "Official transcript from each school and certified English translation, school report and separate F-1/J-1 financial documentation."
@@ -50877,13 +50877,13 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": 6.0,
       "recommended": 6.5,
-      "note": "Minimum and preferred columns differ: IELTS6.0/6.5, oldTOEFL65/80, newTOEFL3.5/4.5, DET100/125. The preferred score is not the minimum. Additional support/route conditions should be checked; an English threshold does not guarantee direct programme eligibility.",
+      "note": "Minimum and preferred columns differ: IELTS 6.0/6.5, old TOEFL 65/80, new TOEFL 3.5/4.5, DET 100/125. The preferred score is not the minimum. Additional support/route conditions should be checked; an English threshold does not guarantee direct programme eligibility.",
       "recBasis": "Official preferred-score column, separate from the minimum column"
     },
     "toefl": {
       "min": 65,
       "recommended": 80,
-      "note": "Minimum and preferred columns differ: IELTS6.0/6.5, oldTOEFL65/80, newTOEFL3.5/4.5, DET100/125. The preferred score is not the minimum. Additional support/route conditions should be checked; an English threshold does not guarantee direct programme eligibility.",
+      "note": "Minimum and preferred columns differ: IELTS 6.0/6.5, old TOEFL 65/80, new TOEFL 3.5/4.5, DET 100/125. The preferred score is not the minimum. Additional support/route conditions should be checked; an English threshold does not guarantee direct programme eligibility.",
       "scales": [
         {
           "period": "pre2026",
@@ -50901,11 +50901,11 @@ window.UNIPATH.universities.push(
     "duolingo": {
       "min": 100,
       "recommended": 125,
-      "note": "Minimum and preferred columns differ: IELTS6.0/6.5, oldTOEFL65/80, newTOEFL3.5/4.5, DET100/125. The preferred score is not the minimum. Additional support/route conditions should be checked; an English threshold does not guarantee direct programme eligibility.",
+      "note": "Minimum and preferred columns differ: IELTS 6.0/6.5, old TOEFL 65/80, new TOEFL 3.5/4.5, DET 100/125. The preferred score is not the minimum. Additional support/route conditions should be checked; an English threshold does not guarantee direct programme eligibility.",
       "recBasis": "Official preferred-score column, separate from the minimum column"
     },
     "waiver": null,
-    "note": "Minimum and preferred columns differ: IELTS6.0/6.5, oldTOEFL65/80, newTOEFL3.5/4.5, DET100/125. The preferred score is not the minimum. Additional support/route conditions should be checked; an English threshold does not guarantee direct programme eligibility.",
+    "note": "Minimum and preferred columns differ: IELTS 6.0/6.5, old TOEFL 65/80, new TOEFL 3.5/4.5, DET 100/125. The preferred score is not the minimum. Additional support/route conditions should be checked; an English threshold does not guarantee direct programme eligibility.",
     "detailsSource": "https://www.usfca.edu/admission/undergraduate/english-language-proficiency",
     "detailsVerified": "2026-10-31"
   },
@@ -50930,7 +50930,7 @@ window.UNIPATH.universities.push(
     "status": "previous-cycle",
     "academicYear": "2026–2027",
     "currency": "USD",
-    "studentCategory": "Hilltop full-time undergraduate, on-campus,12–18 credits/semester",
+    "studentCategory": "Hilltop full-time undergraduate, on-campus, 12–18 credits/semester",
     "breakdown": {
       "period": "year",
       "includes": "Scoped published reference before aid, not a Fall 2027 budget"
@@ -51188,7 +51188,7 @@ window.UNIPATH.universities.push(
   },
   "description": "This profile covers the named campus and the undergraduate programmes supported by the linked official evidence. Unverified information remains explicitly open. The University of Virginia branch opened in 1957; George Mason became an independent university on 7 April 1972. A single founding date is not selected between these different milestones.",
   "englishTaught": true,
-  "languageOfInstruction": "English — all-campus Registrar statement in the verification supplement dated2013; individual course delivery and programme requirements remain separate",
+  "languageOfInstruction": "English — all-campus Registrar statement in the verification supplement dated 2013; individual course delivery and programme requirements remain separate",
   "programs": [
     "computer-science",
     "economics",
@@ -51283,7 +51283,7 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": 6.5,
       "recommended": null,
-      "note": "General IELTS6.5 with each section6.0; Engineering/Computing has the same overall score but no section minimum. General TOEFLold80/sections18, new4.5/sections4.0; CEC has no section minima. Two-year validity, Home/MyBest and IELTS One Skill Retake accepted; Indicator not accepted. Mason Korea and Gateway are separate.",
+      "note": "General IELTS 6.5 with each section 6.0; Engineering/Computing has the same overall score but no section minimum. General TOEFLold 80/sections 18, new 4.5/sections 4.0; CEC has no section minima. Two-year validity, Home/MyBest and IELTS One Skill Retake accepted; Indicator not accepted. Mason Korea and Gateway are separate.",
       "varies": true,
       "profilesComplete": false,
       "profiles": [
@@ -51308,7 +51308,7 @@ window.UNIPATH.universities.push(
     "toefl": {
       "min": 80,
       "recommended": null,
-      "note": "General IELTS6.5 with each section6.0; Engineering/Computing has the same overall score but no section minimum. General TOEFLold80/sections18, new4.5/sections4.0; CEC has no section minima. Two-year validity, Home/MyBest and IELTS One Skill Retake accepted; Indicator not accepted. Mason Korea and Gateway are separate.",
+      "note": "General IELTS 6.5 with each section 6.0; Engineering/Computing has the same overall score but no section minimum. General TOEFLold 80/sections 18, new 4.5/sections 4.0; CEC has no section minima. Two-year validity, Home/MyBest and IELTS One Skill Retake accepted; Indicator not accepted. Mason Korea and Gateway are separate.",
       "scales": [
         {
           "period": "pre2026",
@@ -51325,10 +51325,10 @@ window.UNIPATH.universities.push(
     "duolingo": {
       "min": 110,
       "recommended": null,
-      "note": "General IELTS6.5 with each section6.0; Engineering/Computing has the same overall score but no section minimum. General TOEFLold80/sections18, new4.5/sections4.0; CEC has no section minima. Two-year validity, Home/MyBest and IELTS One Skill Retake accepted; Indicator not accepted. Mason Korea and Gateway are separate."
+      "note": "General IELTS 6.5 with each section 6.0; Engineering/Computing has the same overall score but no section minimum. General TOEFLold 80/sections 18, new 4.5/sections 4.0; CEC has no section minima. Two-year validity, Home/MyBest and IELTS One Skill Retake accepted; Indicator not accepted. Mason Korea and Gateway are separate."
     },
     "waiver": null,
-    "note": "General IELTS6.5 with each section6.0; Engineering/Computing has the same overall score but no section minimum. General TOEFLold80/sections18, new4.5/sections4.0; CEC has no section minima. Two-year validity, Home/MyBest and IELTS One Skill Retake accepted; Indicator not accepted. Mason Korea and Gateway are separate.",
+    "note": "General IELTS 6.5 with each section 6.0; Engineering/Computing has the same overall score but no section minimum. General TOEFLold 80/sections 18, new 4.5/sections 4.0; CEC has no section minima. Two-year validity, Home/MyBest and IELTS One Skill Retake accepted; Indicator not accepted. Mason Korea and Gateway are separate.",
     "detailsSource": "https://www.gmu.edu/international/english-language-requirements",
     "detailsVerified": "2026-10-31"
   },
@@ -51336,14 +51336,14 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": "conditional",
-      "note": "Score Optional has conditions. CS/Engineering applicants may be considered without SAT/ACT after four years of mathematics, including one course above AlgebraII by the senior year, all with equivalent B or higher. Uzbek marks are not automatically converted to B.",
+      "note": "Score Optional has conditions. CS/Engineering applicants may be considered without SAT/ACT after four years of mathematics, including one course above Algebra II by the senior year, all with equivalent B or higher. Uzbek marks are not automatically converted to B.",
       "source": "https://www.gmu.edu/freshman/requirements/international",
       "verified": "2026-10-31",
       "label": "Score Optional with mathematics conditions for CS/Engineering"
     },
     "act": {
       "policy": "conditional",
-      "note": "Score Optional has conditions. CS/Engineering applicants may be considered without SAT/ACT after four years of mathematics, including one course above AlgebraII by the senior year, all with equivalent B or higher. Uzbek marks are not automatically converted to B.",
+      "note": "Score Optional has conditions. CS/Engineering applicants may be considered without SAT/ACT after four years of mathematics, including one course above Algebra II by the senior year, all with equivalent B or higher. Uzbek marks are not automatically converted to B.",
       "source": "https://www.gmu.edu/freshman/requirements/international",
       "verified": "2026-10-31",
       "label": "Score Optional with mathematics conditions for CS/Engineering"
@@ -51355,7 +51355,7 @@ window.UNIPATH.universities.push(
     "status": "previous-cycle",
     "academicYear": "2026–2027",
     "currency": "USD",
-    "studentCategory": "Nonresident full-time undergraduate,12–15 credits/semester, on-campus estimate",
+    "studentCategory": "Nonresident full-time undergraduate, 12–15 credits/semester, on-campus estimate",
     "breakdown": {
       "period": "year",
       "includes": "Scoped published reference before aid, not a Fall 2027 budget"
@@ -51363,7 +51363,7 @@ window.UNIPATH.universities.push(
     "headline": "Previous-cycle cost reference — check programme and exclusions",
     "items": [
       {
-        "label": "Out-of-state tuition and fees,12–15 credits/semester",
+        "label": "Out-of-state tuition and fees, 12–15 credits/semester",
         "amount": 39803,
         "group": "estimate"
       },
@@ -51669,7 +51669,7 @@ window.UNIPATH.universities.push(
       "currency": "USD",
       "waiverAvailableToInternational": null,
       "waiver": null,
-      "note": "General first-year application fee. The separate international page advertises SUNY Free Application Weeks19October–2November2026; that temporary promotion is not a permanent zero fee. Check current promotion/waiver eligibility before payment.",
+      "note": "General first-year application fee. The separate international page advertises SUNY Free Application Weeks 19 October–2 November 2026; that temporary promotion is not a permanent zero fee. Check current promotion/waiver eligibility before payment.",
       "source": "https://www.albany.edu/college-application",
       "verified": "2026-11-02"
     },
@@ -51687,12 +51687,12 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": 6.0,
       "recommended": null,
-      "note": "Published English thresholds. Conditional IELP admission is a separate route. SAT ERWS400/Reading22 and ACT English/Reading19 are language alternatives, not composite cut-offs."
+      "note": "Published English thresholds. Conditional IELP admission is a separate route. SAT ERWS 400/Reading 22 and ACT English/Reading 19 are language alternatives, not composite cut-offs."
     },
     "toefl": {
       "min": 70,
       "recommended": null,
-      "note": "Published English thresholds. Conditional IELP admission is a separate route. SAT ERWS400/Reading22 and ACT English/Reading19 are language alternatives, not composite cut-offs.",
+      "note": "Published English thresholds. Conditional IELP admission is a separate route. SAT ERWS 400/Reading 22 and ACT English/Reading 19 are language alternatives, not composite cut-offs.",
       "scales": [
         {
           "period": "pre2026",
@@ -51709,10 +51709,10 @@ window.UNIPATH.universities.push(
     "duolingo": {
       "min": 95,
       "recommended": null,
-      "note": "Published English thresholds. Conditional IELP admission is a separate route. SAT ERWS400/Reading22 and ACT English/Reading19 are language alternatives, not composite cut-offs."
+      "note": "Published English thresholds. Conditional IELP admission is a separate route. SAT ERWS 400/Reading 22 and ACT English/Reading 19 are language alternatives, not composite cut-offs."
     },
     "waiver": null,
-    "note": "Published English thresholds. Conditional IELP admission is a separate route. SAT ERWS400/Reading22 and ACT English/Reading19 are language alternatives, not composite cut-offs.",
+    "note": "Published English thresholds. Conditional IELP admission is a separate route. SAT ERWS 400/Reading 22 and ACT English/Reading 19 are language alternatives, not composite cut-offs.",
     "detailsSource": "https://www.albany.edu/international-admissions/apply-international-undergraduate-student",
     "detailsVerified": "2026-10-31"
   },
@@ -51737,7 +51737,7 @@ window.UNIPATH.universities.push(
     "status": "previous-cycle",
     "academicYear": "2026–2027",
     "currency": "USD",
-    "studentCategory": "International full-time undergraduate,12+credits/semester, standard Quads double and meal plan",
+    "studentCategory": "International full-time undergraduate, 12+ credits/semester, standard Quads double and meal plan",
     "breakdown": {
       "period": "year",
       "includes": "Scoped published reference before aid, not a Fall 2027 budget"
@@ -51755,14 +51755,14 @@ window.UNIPATH.universities.push(
         "group": "billed"
       },
       {
-        "label": "myUnlimited Meal Plan 1 — fall/spring",
+        "label": "my Unlimited Meal Plan 1 — fall/spring",
         "amount": 6600,
         "group": "billed"
       }
     ],
     "billedSubtotal": null,
     "totalText": "Published fall/spring international tuition/fees USD 35,109.46; housing/food USD 17,205 separate",
-    "note": "2026–2027 table directly read 2 November 2026. Fall tuition 14,565 plus fees 2,989.73 equals 17,554.73 USD; the university separately prints fall/spring 35,109.46 USD. An older search preview contains different amounts and is not the source. First-year one-time fee 265 USD and selected course/inclusive-access fees are additional; the optional 30 USD student-alumni fee may be opted out each semester. International health insurance is mandatory, but its exact inclusion/rate must be checked. QuadsDouble/myUnlimited 1 are examples, not every room/meal. No complete international total or Fall 2027 budget.",
+    "note": "2026–2027 table directly read 2 November 2026. Fall tuition 14,565 plus fees 2,989.73 equals 17,554.73 USD; the university separately prints fall/spring 35,109.46 USD. An older search preview contains different amounts and is not the source. First-year one-time fee 265 USD and selected course/inclusive-access fees are additional; the optional 30 USD student-alumni fee may be opted out each semester. International health insurance is mandatory, but its exact inclusion/rate must be checked. Quads Double/my Unlimited 1 are examples, not every room/meal. No complete international total or Fall 2027 budget.",
     "source": "https://www.albany.edu/cost-aid/tuition-fees/international-students",
     "verified": "2026-11-02"
   },
@@ -51995,7 +51995,7 @@ window.UNIPATH.universities.push(
         "source": "https://www.ucf.edu/admissions/undergraduate/international/",
         "verified": "2026-10-31",
         "appliesTo": "International first-year bachelor applicants",
-        "note": "International abroad means entering directly from an institution outside the US, not citizenship. International applicants entering from a US institution have a different May1 deadline. Entry year remains unconfirmed.",
+        "note": "International abroad means entering directly from an institution outside the US, not citizenship. International applicants entering from a US institution have a different May 1 deadline. Entry year remains unconfirmed.",
         "cycleEvidence": {
           "basis": "annual-rule",
           "source": "https://www.ucf.edu/admissions/undergraduate/international/",
@@ -52061,13 +52061,13 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": "required-alternatives",
-      "note": "Official SAT, ACT or CLT required. SAT/ACT within five years; CLT July1,2023 or later. SAT English520, ACT English20 and CLT verbal/grammar42 are English-proof section alternatives, not admission composite minima.",
+      "note": "Official SAT, ACT or CLT required. SAT/ACT within five years; CLT July 1, 2023 or later. SAT English 520, ACT English 20 and CLT verbal/grammar 42 are English-proof section alternatives, not admission composite minima.",
       "source": "https://www.ucf.edu/admissions/undergraduate/international/",
       "verified": "2026-10-31"
     },
     "act": {
       "policy": "required-alternatives",
-      "note": "Official SAT, ACT or CLT required. SAT/ACT within five years; CLT July1,2023 or later. SAT English520, ACT English20 and CLT verbal/grammar42 are English-proof section alternatives, not admission composite minima.",
+      "note": "Official SAT, ACT or CLT required. SAT/ACT within five years; CLT July 1, 2023 or later. SAT English 520, ACT English 20 and CLT verbal/grammar 42 are English-proof section alternatives, not admission composite minima.",
       "source": "https://www.ucf.edu/admissions/undergraduate/international/",
       "verified": "2026-10-31"
     },
@@ -52078,7 +52078,7 @@ window.UNIPATH.universities.push(
     "status": "previous-cycle",
     "academicYear": "2026–2027",
     "currency": "USD",
-    "studentCategory": "Nonresident undergraduate,28 credits/year, standard room and dining",
+    "studentCategory": "Nonresident undergraduate, 28 credits/year, standard room and dining",
     "breakdown": {
       "period": "year",
       "includes": "Scoped published reference before aid, not a Fall 2027 budget"
@@ -52325,7 +52325,7 @@ window.UNIPATH.universities.push(
         "source": "https://udayton.edu/apply/international/undergraduate/index.php",
         "verified": "2026-10-31",
         "appliesTo": "International first-year bachelor applicants",
-        "note": "International fall application deadline; the general catalogue February1 date is not substituted. Entry year remains unconfirmed.",
+        "note": "International fall application deadline; the general catalogue February 1 date is not substituted. Entry year remains unconfirmed.",
         "cycleEvidence": {
           "basis": "annual-rule",
           "source": "https://udayton.edu/apply/international/undergraduate/index.php",
@@ -52391,13 +52391,13 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": "optional",
-      "note": "Optional SAT/ACT also for merit scholarships; English proof remains separate. SAT ERW480 and ACT English21 language alternatives are not composite minima.",
+      "note": "Optional SAT/ACT also for merit scholarships; English proof remains separate. SAT ERW 480 and ACT English 21 language alternatives are not composite minima.",
       "source": "https://udayton.edu/apply/undergraduate/resources/test-optional.php",
       "verified": "2026-10-31"
     },
     "act": {
       "policy": "optional",
-      "note": "Optional SAT/ACT also for merit scholarships; English proof remains separate. SAT ERW480 and ACT English21 language alternatives are not composite minima.",
+      "note": "Optional SAT/ACT also for merit scholarships; English proof remains separate. SAT ERW 480 and ACT English 21 language alternatives are not composite minima.",
       "source": "https://udayton.edu/apply/undergraduate/resources/test-optional.php",
       "verified": "2026-10-31"
     },
@@ -52758,7 +52758,7 @@ window.UNIPATH.universities.push(
       "verified": "2026-10-31"
     },
     "documents": [
-      "Original school records and certified school translations; final documents after graduation. English and test-optional2027 rules remain distinct from untranslated yearless application-calendar rows."
+      "Original school records and certified school translations; final documents after graduation. English and test-optional 2027 rules remain distinct from untranslated yearless application-calendar rows."
     ],
     "recommendations": null,
     "essay": null,
@@ -52771,12 +52771,12 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": 6.5,
       "recommended": null,
-      "note": "Published English thresholds. New TOEFL1–6 minimum is not printed and not guessed. SAT EBRW560 and ACT English22 are language alternatives, not general composite requirements."
+      "note": "Published English thresholds. New TOEFL 1–6 minimum is not printed and not guessed. SAT EBRW 560 and ACT English 22 are language alternatives, not general composite requirements."
     },
     "toefl": {
       "min": 77,
       "recommended": null,
-      "note": "Published English thresholds. New TOEFL1–6 minimum is not printed and not guessed. SAT EBRW560 and ACT English22 are language alternatives, not general composite requirements.",
+      "note": "Published English thresholds. New TOEFL 1–6 minimum is not printed and not guessed. SAT EBRW 560 and ACT English 22 are language alternatives, not general composite requirements.",
       "scales": [
         {
           "period": "pre2026",
@@ -52788,10 +52788,10 @@ window.UNIPATH.universities.push(
     "duolingo": {
       "min": 115,
       "recommended": null,
-      "note": "Published English thresholds. New TOEFL1–6 minimum is not printed and not guessed. SAT EBRW560 and ACT English22 are language alternatives, not general composite requirements."
+      "note": "Published English thresholds. New TOEFL 1–6 minimum is not printed and not guessed. SAT EBRW 560 and ACT English 22 are language alternatives, not general composite requirements."
     },
     "waiver": null,
-    "note": "Published English thresholds. New TOEFL1–6 minimum is not printed and not guessed. SAT EBRW560 and ACT English22 are language alternatives, not general composite requirements.",
+    "note": "Published English thresholds. New TOEFL 1–6 minimum is not printed and not guessed. SAT EBRW 560 and ACT English 22 are language alternatives, not general composite requirements.",
     "detailsSource": "https://sc.edu/about/offices_and_divisions/undergraduate_admissions/apply/for_international_students/",
     "detailsVerified": "2026-10-31"
   },
@@ -52799,14 +52799,14 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": "optional",
-      "note": "International freshmen in fall, spring and summer2027 are test-optional. ACT superscore uses English, Math and Reading; science is excluded. English proficiency remains required unless exemption applies.",
+      "note": "International freshmen in fall, spring and summer 2027 are test-optional. ACT superscore uses English, Math and Reading; science is excluded. English proficiency remains required unless exemption applies.",
       "cycle": "Fall/Spring/Summer 2027",
       "source": "https://sc.edu/about/offices_and_divisions/undergraduate_admissions/apply/for_international_students/",
       "verified": "2026-10-31"
     },
     "act": {
       "policy": "optional",
-      "note": "International freshmen in fall, spring and summer2027 are test-optional. ACT superscore uses English, Math and Reading; science is excluded. English proficiency remains required unless exemption applies.",
+      "note": "International freshmen in fall, spring and summer 2027 are test-optional. ACT superscore uses English, Math and Reading; science is excluded. English proficiency remains required unless exemption applies.",
       "cycle": "Fall/Spring/Summer 2027",
       "source": "https://sc.edu/about/offices_and_divisions/undergraduate_admissions/apply/for_international_students/",
       "verified": "2026-10-31"
@@ -53112,7 +53112,7 @@ window.UNIPATH.universities.push(
       "currency": "USD",
       "waiverAvailableToInternational": null,
       "waiver": null,
-      "note": "The2026 catalogue lists USD50 timely application plus USD50 one-time evaluation for international academic documents, with USD75 additional late fee. Applicability to Fall2027 is not established; no current amount is assigned."
+      "note": "The 2026 catalogue lists USD 50 timely application plus USD 50 one-time evaluation for international academic documents, with USD 75 additional late fee. Applicability to Fall 2027 is not established; no current amount is assigned."
     },
     "documents": [],
     "recommendations": null,
@@ -53147,13 +53147,13 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": null,
-      "note": "Not checked: Fall2027 SAT/ACT policy not confirmed. The2026 catalogue lists test scores among review factors and Texas automatic-admission criteria, but does not establish current international test-optional eligibility. The international admissions page was unavailable; University of Dallas and UT Arlington are different institutions.",
+      "note": "Not checked: Fall 2027 SAT/ACT policy not confirmed. The 2026 catalogue lists test scores among review factors and Texas automatic-admission criteria, but does not establish current international test-optional eligibility. The international admissions page was unavailable; University of Dallas and UT Arlington are different institutions.",
       "source": "https://catalog.utdallas.edu/2026/undergraduate/policies/admission-policies",
       "verified": "2026-10-31"
     },
     "act": {
       "policy": null,
-      "note": "Not checked: Fall2027 SAT/ACT policy not confirmed. The2026 catalogue lists test scores among review factors and Texas automatic-admission criteria, but does not establish current international test-optional eligibility. The international admissions page was unavailable; University of Dallas and UT Arlington are different institutions.",
+      "note": "Not checked: Fall 2027 SAT/ACT policy not confirmed. The 2026 catalogue lists test scores among review factors and Texas automatic-admission criteria, but does not establish current international test-optional eligibility. The international admissions page was unavailable; University of Dallas and UT Arlington are different institutions.",
       "source": "https://catalog.utdallas.edu/2026/undergraduate/policies/admission-policies",
       "verified": "2026-10-31"
     },
@@ -53439,20 +53439,20 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": null,
       "recommended": null,
-      "note": "English proficiency is required, but campus-wide numerical first-year minima have not been confirmed. TOEFL80/IELTS6.5 rows in the catalogue’s professional Pharmacy section are not assigned to every bachelor applicant. This profile covers Stockton, not graduate San Francisco/Sacramento or Pacific University in Oregon."
+      "note": "English proficiency is required, but campus-wide numerical first-year minima have not been confirmed. TOEFL 80/IELTS 6.5 rows in the catalogue’s professional Pharmacy section are not assigned to every bachelor applicant. This profile covers Stockton, not graduate San Francisco/Sacramento or Pacific University in Oregon."
     },
     "toefl": {
       "min": null,
       "recommended": null,
-      "note": "English proficiency is required, but campus-wide numerical first-year minima have not been confirmed. TOEFL80/IELTS6.5 rows in the catalogue’s professional Pharmacy section are not assigned to every bachelor applicant. This profile covers Stockton, not graduate San Francisco/Sacramento or Pacific University in Oregon."
+      "note": "English proficiency is required, but campus-wide numerical first-year minima have not been confirmed. TOEFL 80/IELTS 6.5 rows in the catalogue’s professional Pharmacy section are not assigned to every bachelor applicant. This profile covers Stockton, not graduate San Francisco/Sacramento or Pacific University in Oregon."
     },
     "duolingo": {
       "min": null,
       "recommended": null,
-      "note": "English proficiency is required, but campus-wide numerical first-year minima have not been confirmed. TOEFL80/IELTS6.5 rows in the catalogue’s professional Pharmacy section are not assigned to every bachelor applicant. This profile covers Stockton, not graduate San Francisco/Sacramento or Pacific University in Oregon."
+      "note": "English proficiency is required, but campus-wide numerical first-year minima have not been confirmed. TOEFL 80/IELTS 6.5 rows in the catalogue’s professional Pharmacy section are not assigned to every bachelor applicant. This profile covers Stockton, not graduate San Francisco/Sacramento or Pacific University in Oregon."
     },
     "waiver": null,
-    "note": "English proficiency is required, but campus-wide numerical first-year minima have not been confirmed. TOEFL80/IELTS6.5 rows in the catalogue’s professional Pharmacy section are not assigned to every bachelor applicant. This profile covers Stockton, not graduate San Francisco/Sacramento or Pacific University in Oregon.",
+    "note": "English proficiency is required, but campus-wide numerical first-year minima have not been confirmed. TOEFL 80/IELTS 6.5 rows in the catalogue’s professional Pharmacy section are not assigned to every bachelor applicant. This profile covers Stockton, not graduate San Francisco/Sacramento or Pacific University in Oregon.",
     "detailsSource": "https://catalog.pacific.edu/uop/generalinformation/admissionrequirements/",
     "detailsVerified": "2026-10-31"
   },
@@ -53460,13 +53460,13 @@ window.UNIPATH.universities.push(
     "gpa": null,
     "sat": {
       "policy": null,
-      "note": "Not checked: current Fall2027 SAT/ACT policy remains unconfirmed. The catalogue says freshman scores are required; the current admissions/test pages were blocked and search snippets cannot resolve this. Do not replace unknown with optional.",
+      "note": "Not checked: current Fall 2027 SAT/ACT policy remains unconfirmed. The catalogue says freshman scores are required; the current admissions/test pages were blocked and search snippets cannot resolve this. Do not replace unknown with optional.",
       "source": "https://catalog.pacific.edu/uop/generalinformation/admissionrequirements/",
       "verified": "2026-10-31"
     },
     "act": {
       "policy": null,
-      "note": "Not checked: current Fall2027 SAT/ACT policy remains unconfirmed. The catalogue says freshman scores are required; the current admissions/test pages were blocked and search snippets cannot resolve this. Do not replace unknown with optional.",
+      "note": "Not checked: current Fall 2027 SAT/ACT policy remains unconfirmed. The catalogue says freshman scores are required; the current admissions/test pages were blocked and search snippets cannot resolve this. Do not replace unknown with optional.",
       "source": "https://catalog.pacific.edu/uop/generalinformation/admissionrequirements/",
       "verified": "2026-10-31"
     },
@@ -53498,7 +53498,7 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": "The accessible 2026–27 catalogue lists Powell USD 40,000/year and separate academic merit awards, full-time renewal and only the most advantageous academic award when several apply. It does not itself confirm international first-year eligibility of each scheme. The linked international FAQ returned 403, so Powell international eligibility,2027 amounts, deadline and detailed renewal are not installed from search previews. Unknown aid is not recorded as no scholarships."
+      "note": "The accessible 2026–27 catalogue lists Powell USD 40,000/year and separate academic merit awards, full-time renewal and only the most advantageous academic award when several apply. It does not itself confirm international first-year eligibility of each scheme. The linked international FAQ returned 403, so Powell international eligibility, 2027 amounts, deadline and detailed renewal are not installed from search previews. Unknown aid is not recorded as no scholarships."
     },
     "merit": [],
     "needBased": {
