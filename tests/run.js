@@ -810,6 +810,8 @@ group('Canada');
 
 group('site quality regressions');
 require('./site-quality.js')({ U: U, M: M, DB: DB, ok: ok, sandbox: sandbox, load: load });
+group('budget and grant filter regressions');
+require('./budget-grant-filters.js')({ U: U, M: M, DB: DB, ok: ok });
 group('data integration regressions');
 require('./data-integration.js')({ U: U, DB: DB, ok: ok });
 group('loading failure regressions');

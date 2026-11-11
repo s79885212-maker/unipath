@@ -11,7 +11,7 @@
     return {
       unis: all.length,
       countries: U.DB.countries.length,
-      fullRide: all.filter(function (u) { return U.fullRide(u).available === true; }).length,
+      fullRide: all.filter(U.hasInternationalFullLevelAward).length,
       english: all.filter(function (u) { return u.englishTaught === true; }).length,
       sources: all.reduce(function (n, u) { return n + (u.sources || []).length; }, 0),
       merit: all.reduce(function (n, u) { return n + U.meritList(u).length; }, 0)

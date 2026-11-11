@@ -58,7 +58,7 @@
           '<p class="sub">' + c.flag + ' <span>' + esc(u.city) + '</span>' + (has(u.region) ? ', <span>' + esc(u.region) + '</span>' : '') + ' · <span>' + esc(u.type) + '</span>' +
             (has(u.founded) ? ' · <span>Founded</span> ' + esc(u.founded) : '') + '</p>' +
           '<div class="pill-row">' +
-            (fr.available === true && fr.internationalEligible === true ? '<span class="badge">★ <span>' + esc(U.awardLabel(u)) + '</span></span>' : '') +
+            (U.internationalFirstYearAward(fr) ? '<span class="badge">★ <span>' + esc(U.awardLabel(u)) + '</span></span>' : '') +
             (need.meetsFullNeed === true ? '<span class="badge">Meets full demonstrated need</span>' : '') +
             (U.englishLabel(u) ? '<span class="badge">' + esc(U.englishLabel(u)) + '</span>' : '') +
             '<span class="badge">' + esc(U.satLabel(u)) + '</span>' +
@@ -1278,7 +1278,7 @@
     }
     document.title = c.name + ' — UniPath';
 
-    var withFullRide = list.filter(function (u) { return U.fullRide(u).available === true; }).length;
+    var withFullRide = list.filter(U.hasInternationalFullLevelAward).length;
     var englishTaught = list.filter(function (u) { return u.englishTaught === true; }).length;
     var freeTuition = list.filter(function (u) { return U.tuitionAmount(u) === 0; }).length;
 

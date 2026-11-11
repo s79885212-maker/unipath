@@ -433,6 +433,8 @@ def university_page(u, country, fields):
         cov = fr.get("covers") or {}
         if fr.get("status") == "conflict":
             kind = "Official sources conflict — award coverage"
+        elif fr.get("basis") == "need-based" and fr.get("guaranteed") is not True:
+            kind = "Need-based aid depends on assessed need"
         elif cov.get("tuition") is True and cov.get("housing") is True and cov.get("meals") is True:
             kind = "Full ride: tuition, housing and meals"
         elif cov.get("tuition") is True and cov.get("stipend") is True:

@@ -10050,6 +10050,7 @@ window.UNIPATH_I18N.ru = {
   "Full ride: tuition, housing and meals": "Полная стипендия: обучение, жильё и питание",
   "Full tuition only": "Только плата за обучение",
   "Full tuition + living stipend": "Всё обучение + стипендия на жизнь",
+  "Need-based aid depends on assessed need": "Размер помощи зависит от подтверждённой финансовой потребности",
   "Full funding possible — coverage not itemised": "Возможно полное финансирование — состав не расписан",
   "Community college · some bachelor’s programmes": "Community college · есть отдельные бакалаврские программы",
   "Community college · associate degrees": "Community college · associate degrees",

@@ -251,10 +251,13 @@
 
   function budget(u, input) {
     var c = costOf(u);
-    /* A documented textual conflict must survive missing comparable totals. */
-    if (U.costStatus(u) === 'conflict' && !(c && c.conflict) && u.costs.conflict &&
-        typeof u.costs.conflict.text === 'string' && u.costs.conflict.text.trim()) {
-      return { status: 'conflict', text: u.costs.conflict.text, html: '<p>' + esc(u.costs.conflict.text) + '</p>' };
+    /* A conflict status is authoritative even when an older annualCost exists. */
+    if (U.costStatus(u) === 'conflict' && !(c && c.conflict)) {
+      var conflict = u.costs.conflict || {};
+      if (typeof conflict.text === 'string' && conflict.text.trim()) {
+        return { status: 'conflict', text: conflict.text, html: '<p>' + esc(conflict.text) + '</p>' };
+      }
+      return { status: 'conflict', text: 'No comparable yearly cost is recorded' };
     }
     if (!c) {
       /* A figure for an earlier year is shown for what it is and is not compared. */
@@ -724,7 +727,7 @@
       '<div class="match-head"><div><div class="loc small muted">' + c.flag + ' <span>' + esc(u.city) + '</span>, <span>' + esc(c.name) + '</span></div>' +
         '<h3><a href="' + U.uniUrl(u) + '">' + esc(u.name) + '</a></h3></div>' +
         '<div class="pill-row">' + BUDGET_BADGE[r.budget.status] +
-          (fr.available === true && fr.internationalEligible === true ? '<span class="badge">★ <span>' + esc(U.awardLabel(u)) + '</span></span>' : '') + '</div></div>' +
+          (U.internationalFirstYearAward(fr) ? '<span class="badge">★ <span>' + esc(U.awardLabel(u)) + '</span></span>' : '') + '</div></div>' +
       (checks ? '<ul class="match-checks">' + checks + '</ul>' : '') + unchecked +
       (r.budget.html
         ? '<div class="small match-conflict" style="margin:8px 0 0">' + r.budget.html + '</div>'

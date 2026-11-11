@@ -432,10 +432,11 @@
        full-funding    — the university describes full funding or meeting full
                          need, without an itemised list of what is covered
      "Meets full demonstrated need" is a separate, need-based promise and is
-     never folded into these. */
+     never folded into these unless coverage is explicitly guaranteed. */
   function awardKind(u) {
     var fr = fullRide(u);
     if (fr.available !== true || fr.status === 'conflict') return null;
+    if (fr.basis === 'need-based' && fr.guaranteed !== true) return 'need-based';
     var c = fr.covers || {};
     if (c.tuition === true && c.housing === true && c.meals === true) return 'full-ride';
     if (c.tuition === true && c.stipend === true) return 'tuition-stipend';
@@ -446,7 +447,8 @@
     'full-ride': 'Full ride: tuition, housing and meals',
     'tuition-stipend': 'Full tuition + living stipend',
     'full-tuition': 'Full tuition covered',
-    'full-funding': 'Full funding possible — coverage not itemised'
+    'full-funding': 'Full funding possible — coverage not itemised',
+    'need-based': 'Need-based aid depends on assessed need'
   };
   function awardLabel(u) {
     if (fullRide(u).status === 'conflict') return 'Official sources conflict — award coverage';
@@ -476,6 +478,21 @@
   function meritList(u) { return awardsAll(u).filter(isMeritAward); }
   function otherAwards(u) { return awardsAll(u).filter(function (a) { return !isMeritAward(a); }); }
   function needBased(u) { return (u.scholarships && u.scholarships.needBased) || {}; }
+
+  function eligibleFirstYearAward(a) {
+    return a.available !== false && a.status !== 'conflict' && a.firstYearEligible !== false &&
+      (a.internationalEligible === true || a.internationalEligible === undefined);
+  }
+  function internationalFirstYearAward(a) {
+    return a.available === true && a.internationalEligible === true && eligibleFirstYearAward(a);
+  }
+  function hasInternationalFullLevelAward(u) {
+    return internationalFirstYearAward(fullRide(u)) && awardKind(u) !== 'need-based';
+  }
+  function hasInternationalNeedAid(u) {
+    var aid = needBased(u);
+    return aid.availableToInternational === true && aid.firstYearEligible !== false && aid.status !== 'conflict';
+  }
 
   function feeAmount(u) {
     var f = u.admissions && u.admissions.applicationFee;
@@ -993,6 +1010,7 @@
   }
 
   var index = DB.universities.map(function (u) {
+    var kind = awardKind(u), fullLevel = hasInternationalFullLevelAward(u);
     var parts = [
       u.name, u.shortName || '', u.city, u.region || '',
       /* earlier and alternative names, so a search for the old name finds the record */
@@ -1002,7 +1020,7 @@
       hasIelts(u) ? 'IELTS ' + (ieltsVaries(u) ? variesLabel(u.english.ielts).toLowerCase() : (ieltsMin(u) || (ieltsPublished(u) ? u.english.ielts.recommended : 'accepted'))) : '',
       toeflMin(u) ? 'TOEFL ' + toeflMin(u) : '',
       u.englishTaught === true ? 'English-taught english taught' : '',
-      awardKind(u) === 'full-ride' ? 'full ride full scholarship full funding' : awardKind(u) ? 'full tuition scholarship full funding' : '',
+      fullLevel ? (kind === 'full-ride' ? 'full ride full scholarship full funding' : 'full tuition scholarship full funding') : '',
       needBased(u).availableToInternational === true ? 'need-based financial aid need based' : '',
       meritList(u).length ? 'merit scholarship' : '',
       (u.programs || []).map(function (p) { return field(p).label; }).join(' '),
@@ -1017,7 +1035,7 @@
       var facets = [country(u.country).name, u.city, satLabel(u)];
       (u.programs || []).forEach(function (p) { facets.push(field(p).label); });
       if (u.englishTaught === true) facets.push('English-taught');
-      if (awardKind(u)) facets.push(AWARD_LABEL[awardKind(u)], 'Full scholarship');
+      if (fullLevel) facets.push(AWARD_LABEL[kind], 'Full scholarship');
       if (needBased(u).availableToInternational === true) facets.push('Need-based aid');
       if (meritList(u).length) facets.push('Merit scholarships');
       text += ' · ' + parts.concat(facets).map(tr).join(' · ');
@@ -1063,20 +1081,23 @@
     {
       id: 'scholarship', title: 'Scholarships & aid',
       options: [
-        { id: 'full-ride', label: 'Full ride: tuition, housing and meals covered', test: function (u) { return awardKind(u) === 'full-ride'; } },
-        { id: 'tuition-stipend', label: 'Full tuition plus a living stipend', test: function (u) { return awardKind(u) === 'tuition-stipend'; } },
-        { id: 'full-ride-intl', label: 'Any full-level award open to internationals', test: function (u) { return fullRide(u).available === true && fullRide(u).internationalEligible === true && fullRide(u).status !== 'conflict'; } },
+        { id: 'full-ride', label: 'Full ride: tuition, housing and meals covered', test: function (u) { return hasInternationalFullLevelAward(u) && awardKind(u) === 'full-ride'; } },
+        { id: 'tuition-stipend', label: 'Full tuition plus a living stipend', test: function (u) { return hasInternationalFullLevelAward(u) && awardKind(u) === 'tuition-stipend'; } },
+        { id: 'full-ride-intl', label: 'Any full-level award open to internationals', test: hasInternationalFullLevelAward },
         { id: 'full-tuition', label: 'Full tuition covered', test: function (u) {
-            if (fullRide(u).status !== 'conflict' && fullRide(u).covers && fullRide(u).covers.tuition === true) return true;
-            return awardsAll(u).some(function (m) { return /full tuition|value of tuition|100%|full dues|tuition exemption|full scholarship/i.test(String(m.amount || '')); });
+            var fr = fullRide(u);
+            if (hasInternationalFullLevelAward(u) && fr.covers && fr.covers.tuition === true) return true;
+            return awardsAll(u).some(function (m) {
+              return eligibleFirstYearAward(m) && /full tuition|value of tuition|100%|full dues|tuition exemption|full scholarship/i.test(String(m.amount || ''));
+            });
           } },
         { id: 'merit', label: 'Merit scholarships', test: function (u) {
             var fr = fullRide(u);
-            return meritList(u).length > 0 || (fr.available === true && fr.internationalEligible === true &&
+            return meritList(u).some(eligibleFirstYearAward) || (internationalFirstYearAward(fr) &&
               ['merit', 'need-merit', 'talent'].indexOf(fr.basis) > -1);
           } },
-        { id: 'need', label: 'Need-based aid for internationals', test: function (u) { return needBased(u).availableToInternational === true; } },
-        { id: 'meets-need', label: 'Meets full demonstrated need', test: function (u) { return needBased(u).meetsFullNeed === true; } }
+        { id: 'need', label: 'Need-based aid for internationals', test: hasInternationalNeedAid },
+        { id: 'meets-need', label: 'Meets full demonstrated need', test: function (u) { return hasInternationalNeedAid(u) && needBased(u).meetsFullNeed === true; } }
       ]
     },
     {
@@ -1337,14 +1358,19 @@
   }
 
   function scholarBadge(u) {
-    if (fullRide(u).available === true && fullRide(u).internationalEligible === true) {
-      return '<span class="badge ' + (fullRide(u).status === 'conflict' ? 'badge-warn' : 'badge-ok') + '">★ <span>' + esc(awardLabel(u)) + '</span></span>';
+    var fr = fullRide(u);
+    if (fr.available === true && fr.internationalEligible === true && fr.firstYearEligible !== false && fr.status === 'conflict') {
+      return '<span class="badge badge-warn">★ <span>' + esc(awardLabel(u)) + '</span></span>';
     }
-    if (needBased(u).meetsFullNeed === true) {
+    if (hasInternationalFullLevelAward(u)) {
+      return '<span class="badge badge-ok">★ <span>' + esc(awardLabel(u)) + '</span></span>';
+    }
+    if (hasInternationalNeedAid(u) && needBased(u).meetsFullNeed === true) {
       return '<span class="badge badge-ok">Meets full need</span>';
     }
-    if (meritList(u).length) {
-      return '<span class="badge badge-accent">' + meritList(u).length + ' merit scholarship' + (meritList(u).length > 1 ? 's' : '') + '</span>';
+    var merit = meritList(u).filter(eligibleFirstYearAward);
+    if (merit.length) {
+      return '<span class="badge badge-accent">' + merit.length + ' merit scholarship' + (merit.length > 1 ? 's' : '') + '</span>';
     }
     return '<span class="badge">Aid not checked</span>';
   }
@@ -1746,7 +1772,7 @@
     testStatus: testStatus, testStatusLabel: testStatusLabel,
     institutionKind: institutionKind, institutionKindLabel: function (u) { return INSTITUTION_KINDS[institutionKind(u)]; }, isCommunityCollege: isCommunityCollege, degreesOf: degreesOf, degreesLabel: degreesLabel,
     satPolicy: satPolicy, satLabel: satLabel, satNotRequired: satNotRequired, hasIelts: hasIelts, ieltsPublished: ieltsPublished, englishPrograms: englishPrograms, englishLabel: englishLabel, ieltsMin: ieltsMin, ieltsVaries: ieltsVaries, testVaries: testVaries, variesLabel: variesLabel, toeflLines: toeflLines, ieltsLabel: ieltsLabel, statsOf: statsOf, toeflMin: toeflMin,
-    fullRide: fullRide, awardKind: awardKind, awardLabel: awardLabel, meritList: meritList, awardsAll: awardsAll, otherAwards: otherAwards, awardBasis: awardBasis, awardBasisLabel: awardBasisLabel, AWARD_BASIS: AWARD_BASIS, needBased: needBased,
+    fullRide: fullRide, internationalFirstYearAward: internationalFirstYearAward, hasInternationalFullLevelAward: hasInternationalFullLevelAward, awardKind: awardKind, awardLabel: awardLabel, meritList: meritList, awardsAll: awardsAll, otherAwards: otherAwards, awardBasis: awardBasis, awardBasisLabel: awardBasisLabel, AWARD_BASIS: AWARD_BASIS, needBased: needBased,
     feeAmount: feeAmount, feeWaiver: feeWaiver, feeWaiverLabel: feeWaiverLabel, feeLabel: feeLabel,
     firstDeadline: firstDeadline, deadlineInfo: deadlineInfo, deadlineHtml: deadlineHtml, nextDeadline: nextDeadline, deadlineCardText: deadlineCardText,
     deadlinePassed: deadlinePassed, deadlineEnd: deadlineEnd, roundState: roundState, roundStateLabel: roundStateLabel, isApplicationDeadline: isApplicationDeadline, otherDateLabel: otherDateLabel,
