@@ -390,5 +390,86 @@
   "quote": "Starting Fall 2027, Berea College will guarantee 100% of tuition, housing, food, fees, and supplies are covered without loans for all students.",
   "cycle": "Autumn 2027",
   "read": "2026-11-11"
+ },
+ {
+  "id": "george-washington-university",
+  "field": "award: Presidential Academic Scholarships; no need-based aid",
+  "source": "https://undergraduate.admissions.gwu.edu/financial-aid/international-student-aid",
+  "quote": "GW is unable to offer need-based or U.S. government aid to international applicants. … International applicants, like domestic applicants, are automatically considered for Presidential Academic Scholarships, which are awarded to first-year undergraduate applicants for the fall semester",
+  "cycle": null,
+  "read": "2026-11-11",
+  "access": "browser"
+ },
+ {
+  "id": "george-washington-university",
+  "field": "award: You Are Welcome Here (re-read)",
+  "source": "https://undergraduate.admissions.gwu.edu/financial-aid/international-student-aid",
+  "quote": "We are excited to offer two full-tuition scholarships each year to first-year fall applicants … also required to submit a CSS Profile … Applications are due January 31.",
+  "cycle": null,
+  "read": "2026-11-11",
+  "access": "browser"
+ },
+ {
+  "id": "baylor-university",
+  "field": "aid: BIFAA Fall 2027 priority and final",
+  "source": "https://admissions.web.baylor.edu/admission/international/financial-assistance-international-students",
+  "quote": "Beginning with the incoming Fall 2027 class, these students can apply through the BIFAA. The priority deadline to submit the BIFAA is November 15, meaning you’ll receive your aid package sooner. The final deadline to submit the BIFAA is February 1.",
+  "cycle": "Autumn 2027",
+  "read": "2026-11-11",
+  "access": "browser"
+ },
+ {
+  "id": "baylor-university",
+  "field": "aid: BIFAA (same text)",
+  "source": "https://admissions.web.baylor.edu/costs-aid/scholarships-aid",
+  "quote": "Beginning with the incoming Fall 2027 class, these students can apply through the BIFAA. The priority deadline to submit the BIFAA is November 15, meaning you’ll receive your aid package sooner. The final deadline to submit the BIFAA is February 1.",
+  "cycle": "Autumn 2027",
+  "read": "2026-11-11",
+  "access": "browser"
+ },
+ {
+  "id": "baylor-university",
+  "field": "award: international merit (re-read)",
+  "source": "https://admissions.web.baylor.edu/admission/international/financial-assistance-international-students",
+  "quote": "Admitted first-time international students are automatically considered for merit-based scholarships based on a complete review of their high school academic performance.",
+  "cycle": null,
+  "read": "2026-11-11",
+  "access": "browser"
+ },
+ {
+  "id": "baylor-university",
+  "field": "award: Getterman international eligibility (re-read)",
+  "source": "https://honors.baylor.edu/prospective-students/getterman-scholars-program/getterman-faqs",
+  "quote": "Are international students eligible to participate in the Getterman Scholars program? International students are welcome to participate in the Getterman Scholars selection process.",
+  "cycle": null,
+  "read": "2026-11-11",
+  "access": "browser"
+ },
+ {
+  "id": "university-of-california-davis",
+  "field": "award: campus scholarships (re-read in browser)",
+  "source": "https://financialaid.ucdavis.edu/frequently-asked-questions/scholarships",
+  "quote": "All undergraduate students – national, international, undocumented, AB540 – are eligible for scholarships as long as they have at least a 3.25 UC cumulative GPA. … Entering Students: The UC Application for Admission and Scholarships serves as your application for campus-based scholarships at UC Davis.",
+  "cycle": null,
+  "read": "2026-11-11",
+  "access": "browser"
+ },
+ {
+  "id": "university-of-california-davis",
+  "field": "award: tests not used for freshman scholarships",
+  "source": "https://financialaid.ucdavis.edu/frequently-asked-questions/scholarships",
+  "quote": "How will freshman scholarships be selected since SAT/ACT scores will no longer be used? … we will remove the test scores from our method and instead move to solely using a holistic evaluation",
+  "cycle": null,
+  "read": "2026-11-11",
+  "access": "browser"
+ },
+ {
+  "id": "university-of-california-merced",
+  "field": "award: Global Access Program (re-read in browser)",
+  "source": "https://admissions.ucmerced.edu/node/5881",
+  "quote": "The Global Access Program Scholarship is open to first year and transfer students and provides $25,000 a year for eligible international and non-resident students … Students do not need to apply for the Global Access Program Scholarship.",
+  "cycle": null,
+  "read": "2026-11-11",
+  "access": "browser"
  }
 ]

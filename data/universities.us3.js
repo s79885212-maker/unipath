@@ -34271,11 +34271,11 @@ window.UNIPATH.universities.push(
         "entryTerm": null,
         "entryYear": null,
         "source": "https://financialaid.ucdavis.edu/frequently-asked-questions/scholarships",
-        "verified": "2026-11-01",
-        "eligibility": "The official FAQ includes international undergraduates, subject to each donor award’s restrictions. Awards consider academic excellence; some add financial-need or other criteria. Eligibility for this general scheme does not prove eligibility for every named award.",
-        "note": "Entering students use the UC admission application; additional material is required only if requested. Awards are competitive and amounts/renewal depend on the specific award. General GPA wording is not converted into an Uzbek school threshold. January 7, 2026 concerns continuing students, not incoming Fall 2027 applicants. Named Regents/Provost international eligibility and largest applicable award remain under review; the yearless Regents December 2 statement is not installed as a 2027 deadline. No aid is deducted from cost.",
+        "verified": "2026-11-11",
+        "eligibility": "All undergraduates — national, international, undocumented and AB 540 — are eligible with at least a 3.25 GPA (UC calculation); each donor award can add its own restrictions. The 3.25 is not converted into an Uzbek school mark.",
+        "note": "Entering students are considered through the UC Application for Admission and Scholarships, with no extra material unless requested. Freshman scholarships no longer use SAT/ACT scores; selection is a holistic review of the admission application. Awards are competitive and amounts depend on the specific award; the 7 January date is for continuing students. No aid is deducted from cost.",
         "internationalEligible": true,
-        "firstYearEligible": null
+        "firstYearEligible": true
       }
     ],
     "needBased": {
@@ -38958,7 +38958,7 @@ window.UNIPATH.universities.push(
         "entryTerm": null,
         "entryYear": null,
         "source": "https://admissions.ucmerced.edu/node/5881",
-        "verified": "2026-11-02",
+        "verified": "2026-11-11",
         "internationalEligible": true,
         "firstYearEligible": true
       }
@@ -48047,19 +48047,39 @@ window.UNIPATH.universities.push(
       "entryYear": null,
       "deadlineScope": "annual-rule",
       "source": "https://undergraduate.admissions.gwu.edu/financial-aid/international-student-aid",
-      "verified": "2026-11-01",
-      "renewalConditions": "Up to 10 consecutive undergraduate semesters with continuous full-time enrolment and satisfactory academic progress. Tuition use only; exact SAP thresholds unreviewed."
+      "verified": "2026-11-11",
+      "renewalConditions": "Up to 10 consecutive undergraduate semesters with continuous full-time enrolment and satisfactory academic progress. Tuition use only; exact SAP thresholds unreviewed.",
+      "firstYearEligible": true
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "gwu-presidential-academic",
+        "category": "merit",
+        "basis": "merit",
+        "name": "Presidential Academic Scholarships",
+        "amount": null,
+        "internationalEligible": true,
+        "firstYearEligible": true,
+        "eligibility": "First-year fall applicants with strong academic credentials; international applicants are considered automatically, like domestic ones.",
+        "application": "Automatic during the admission review; any award is stated in the offer of admission.",
+        "renewable": "Up to 10 consecutive semesters with continuous full-time enrolment and satisfactory academic progress",
+        "note": "The value varies and is not published. Awards apply to undergraduate tuition only, and a student can hold only one GW merit scholarship. GW offers no need-based aid to international applicants.",
+        "deadlineScope": "no-separate-application",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://undergraduate.admissions.gwu.edu/financial-aid/international-student-aid",
+        "verified": "2026-11-11"
+      }
+    ],
     "needBased": {
-      "availableToInternational": null,
+      "availableToInternational": false,
       "meetsFullNeed": null,
       "needBlindInternational": null,
       "forms": [],
       "deadlines": null,
       "note": "General international need-based aid is unavailable. A separate Davis UWC partnership offers need-based awards only to UWC graduates with CSS; this does not establish eligibility for an ordinary Uzbek-school applicant.",
       "source": "https://undergraduate.admissions.gwu.edu/financial-aid/international-student-aid",
-      "verified": "2026-11-01"
+      "verified": "2026-11-11"
     }
   },
   "photos": {
@@ -48787,6 +48807,50 @@ window.UNIPATH.universities.push(
         },
         "source": "https://honors.baylor.edu/admissions/getterman-scholars-program/application-process",
         "verified": "2026-11-02"
+      },
+      {
+        "name": "BIFAA priority deadline",
+        "kind": "aid",
+        "date": "15 November 2026",
+        "dateISO": "2026-11-15",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
+        "binding": null,
+        "appliesTo": "International applicants seeking Baylor institutional need-based aid (not needed for merit scholarships)",
+        "note": "Submitting by the priority date means the aid package arrives sooner; packages are sent to admitted students on a rolling basis. A bank statement is uploaded with the BIFAA. Aid is not guaranteed.",
+        "source": "https://admissions.web.baylor.edu/admission/international/financial-assistance-international-students",
+        "verified": "2026-11-11",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://admissions.web.baylor.edu/admission/international/financial-assistance-international-students",
+          "verified": "2026-11-11",
+          "quote": "Beginning with the incoming Fall 2027 class, these students can apply through the BIFAA. The priority deadline to submit the BIFAA is November 15, meaning you’ll receive your aid package sooner. The final deadline to submit the BIFAA is February 1."
+        }
+      },
+      {
+        "name": "BIFAA final deadline",
+        "kind": "aid",
+        "date": "1 February 2027",
+        "dateISO": "2027-02-01",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
+        "binding": null,
+        "appliesTo": "International applicants seeking Baylor institutional need-based aid (not needed for merit scholarships)",
+        "note": "Submitting by the priority date means the aid package arrives sooner; packages are sent to admitted students on a rolling basis. A bank statement is uploaded with the BIFAA. Aid is not guaranteed.",
+        "source": "https://admissions.web.baylor.edu/admission/international/financial-assistance-international-students",
+        "verified": "2026-11-11",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://admissions.web.baylor.edu/admission/international/financial-assistance-international-students",
+          "verified": "2026-11-11",
+          "quote": "Beginning with the incoming Fall 2027 class, these students can apply through the BIFAA. The priority deadline to submit the BIFAA is November 15, meaning you’ll receive your aid package sooner. The final deadline to submit the BIFAA is February 1."
+        }
       }
     ],
     "applicationFee": {
@@ -48905,7 +48969,8 @@ window.UNIPATH.universities.push(
       "deadlineScope": "confirmed",
       "renewalConditions": "Eight undergraduate semesters; active Honors College programme and cumulative college GPA at least 3.5, with probation process. Housing and food require residence in the Honors Residential College and university dining. Graduate coursework is excluded.",
       "source": "https://honors.baylor.edu/prospective-students/getterman-scholars-program/getterman-faqs",
-      "verified": "2026-11-02"
+      "verified": "2026-11-11",
+      "firstYearEligible": true
     },
     "merit": [
       {
@@ -48922,7 +48987,7 @@ window.UNIPATH.universities.push(
         "entryTerm": null,
         "entryYear": null,
         "source": "https://admissions.web.baylor.edu/admission/international/financial-assistance-international-students",
-        "verified": "2026-11-02",
+        "verified": "2026-11-11",
         "internationalEligible": true,
         "firstYearEligible": true
       }
@@ -48935,7 +49000,9 @@ window.UNIPATH.universities.push(
         "BIFAA — Baylor International Financial Aid Application, beginning Fall 2027"
       ],
       "deadlines": null,
-      "note": "BIFAA is required for international institutional need-aid consideration from Fall 2027, but does not guarantee aid and is not required for merit. This page now prints priority November 15/final February 1. Earlier official November 1 priority evidence is retained as a conflict pending explicit reconciliation; no single confirmed priority is substituted. Domestic FAFSA/CSS instructions do not apply automatically to ordinary F-1 applicants."
+      "note": "BIFAA is required for international institutional aid consideration from the Fall 2027 class; it does not guarantee aid and is not required for merit scholarships, which follow the admission application. Both official pages read on 11 November 2026 (international financial assistance and Scholarships & Aid) print priority 15 November and final 1 February; the 1 November priority read earlier no longer appears, so the dates are installed for Fall 2027. FAFSA/CSS instructions do not apply to ordinary F-1 applicants.",
+      "source": "https://admissions.web.baylor.edu/admission/international/financial-assistance-international-students",
+      "verified": "2026-11-11"
     }
   },
   "photos": {

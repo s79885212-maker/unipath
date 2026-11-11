@@ -277,9 +277,10 @@ module.exports=function(env){
      /college for men/.test(wab.admissions.notes.join(' ')),
      'Wabash keeps men-only scope, recommended English and financial declaration separate from admission minima and annual price');
   ok(bay&&bay.admissions.applicationFee.amount===0&&U.needBased(bay).availableToInternational===true&&
-     /November 15/.test(bay.scholarships.needBased.note)&&/November 1 priority/.test(bay.scholarships.needBased.note)&&/conflict/.test(bay.scholarships.needBased.note)&&
-     !bay.admissions.deadlines.some(function(d){return d.kind==='aid'&&d.status==='confirmed';}),
-     'Baylor aid reaches the display/filter helper; verified free application differs from unknown fee; conflicting BIFAA priority does not become confirmed aid date');
+     /15 November/.test(bay.scholarships.needBased.note)&&/1 November priority read earlier no longer appears/.test(bay.scholarships.needBased.note)&&
+     bay.admissions.deadlines.filter(function(d){return d.kind==='aid'&&d.status==='confirmed';}).length===2&&
+     bay.admissions.deadlines.every(function(d){return d.kind!=='aid'||d.status!=='confirmed'||(d.entryYear==='2027'&&/Fall 2027 class/.test(d.cycleEvidence.quote));}),
+     'Baylor aid reaches the display/filter helper; verified free application differs from unknown fee; BIFAA dates are confirmed only from the Fall 2027 class wording once both official pages agree');
   ok(yu&&/Honors/.test(U.satLabel(yu))&&/Yeshiva College for Men/.test(yu.programNote)&&
      /Stern College for Women/.test(yu.programNote)&&yu.english.toefl.scales.every(function(s){return s.period!=='post2026';})&&
      yu.admissions.deadlines[0].dateISO==='2027-02-01',
@@ -524,7 +525,7 @@ module.exports=function(env){
   var gw=U.uniById('george-washington-university'),welcome=gw.scholarships.fullRide;
   ok(U.awardKind(gw)==='full-tuition'&&welcome.id==='you-are-welcome-here'&&welcome.covers.housing===false&&
      /Only one GW/.test(welcome.note)&&/UWC/.test(welcome.note)&&welcome.renewable===true&&
-     gw.scholarships.needBased.availableToInternational===null&&
+     gw.scholarships.needBased.availableToInternational===false&&
      U.awardDates(gw,welcome).some(function(d){return d.kind==='scholarship'&&d.status==='annual-rule'&&d.entryYear===null&&d.binding===null;}),
      'GW two-place competitive tuition-only award retains school/CSS, non-stacking and annual scholarship scope; UWC exception is not general need eligibility');
   ok(U.budgetAmount(gw)===95155&&U.billedAmount(gw)===90930&&U.costArithmetic(gw).length===0&&
