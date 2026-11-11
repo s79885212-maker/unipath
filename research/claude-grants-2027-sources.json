@@ -1,0 +1,394 @@
+[
+ {
+  "id": "university-of-connecticut",
+  "field": "deadline: Early Decision",
+  "source": "https://admissions.uconn.edu/apply/deadlines/",
+  "quote": "Applying for Fall 2027 | November 1 | Early Decision Application Deadline",
+  "cycle": "Autumn 2027",
+  "read": "2026-11-11"
+ },
+ {
+  "id": "university-of-connecticut",
+  "field": "deadline: Storrs campus application",
+  "source": "https://admissions.uconn.edu/apply/deadlines/",
+  "quote": "Applying for Fall 2027 … January 15 | Storrs Campus Application Deadline",
+  "cycle": "Autumn 2027",
+  "read": "2026-11-11"
+ },
+ {
+  "id": "university-of-connecticut",
+  "field": "deadline: merit & Honors priority",
+  "source": "https://admissions.uconn.edu/apply/deadlines/",
+  "quote": "December 1 | Priority Application Deadline for Merit & Honors Consideration",
+  "cycle": "Autumn 2027",
+  "read": "2026-11-11"
+ },
+ {
+  "id": "university-of-connecticut",
+  "field": "awards: Global Excellence / Distinction / Leader",
+  "source": "https://admissions.uconn.edu/cost-aid/scholarship/",
+  "quote": "Available to International Applicants | Global Excellence Award | Available to international applicants; all campuses",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "george-mason-university",
+  "field": "deadline: Early Action",
+  "source": "https://www.gmu.edu/freshman/dates-deadlines",
+  "quote": "George Mason's early action application deadline for fall 2027 has been extended. Apply by November 15 to receive an early admissions decision and priority consideration for the Honors College and merit-based scholarships.",
+  "cycle": "Autumn 2027",
+  "read": "2026-11-11"
+ },
+ {
+  "id": "george-mason-university",
+  "field": "award: international merit",
+  "source": "https://www.gmu.edu/international/financial-aid",
+  "quote": "Merit-based scholarships are open to qualified incoming international freshman and transfer students studying full-time on an F1-visa. … While GPA and test scores are the most important criteria, they are not the only criteria",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "wake-forest-university",
+  "field": "deadlines: Class of 2031 page (no year printed)",
+  "source": "https://admissions.wfu.edu/apply/first-year/",
+  "quote": "Information for First-Year Applicants | Class of 2031: Everything you need to know. … Early Decision I | November 15",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "university-of-pittsburgh",
+  "field": "deadline: Rolling admission — fall completion",
+  "source": "https://admissions.pitt.edu/international/international-first-year-students/",
+  "quote": "The Fall 2027 Application is open! Apply Today. … Fall term (August)—complete your application by April 1",
+  "cycle": "Autumn 2027",
+  "read": "2026-11-11"
+ },
+ {
+  "id": "pennsylvania-state-university-university-park",
+  "field": "deadline: Early Action materials",
+  "source": "https://admissions.psu.edu/apply/deadlines/",
+  "quote": "Penn State must receive your additional materials by November 5, 2026, at 11:59 p.m. ET to be considered for Early Action.",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "brigham-young-university",
+  "field": "deadlines: Fall 2027 priority and final",
+  "source": "https://enrollment.byu.edu/admissions/application-deadlines",
+  "quote": "Fall 2027 | Aug 26, 2026 | Nov 2, 2026 | Dec 15, 2026 | Feb 15, 2027",
+  "cycle": "Autumn 2027",
+  "read": "2026-11-11"
+ },
+ {
+  "id": "brigham-young-university",
+  "field": "award: general scholarships, international eligibility",
+  "source": "https://enrollment.byu.edu/financial-aid/international-student-scholarships",
+  "quote": "International students are eligible for general scholarships offered through the Financial Aid Office. … New freshman entering BYU beginning spring term, summer term, or fall semester must submit the scholarship application by January 2.",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "university-of-illinois-urbana-champaign",
+  "field": "award fields: illinois-international-college-review",
+  "source": "https://www.osfa.illinois.edu/types-of-aid/other-aid/international-students/",
+  "quote": "For international students, financial aid is generally limited to institutional aid programs … may be eligible for scholarships awarded by colleges or departments. Generally, there’s no separate application needed",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "university-of-texas-at-austin",
+  "field": "award fields: ut-austin-iimura-peace",
+  "source": "https://global.utexas.edu/isss/advising-services/scholarships",
+  "quote": "Scholarships for International Students … Iimura Peace Endowed Scholarship … You must be registered as a full-time student at UT Austin during the semester in which the scholarship is awarded.",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "rutgers-university-new-brunswick",
+  "field": "award fields: rutgers-nb-international",
+  "source": "https://admissions.rutgers.edu/new-brunswick-scholarships",
+  "quote": "All admitted first-year international students (on valid non-immigrant visas) are automatically considered for Rutgers international scholarships. No separate application is required.",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "virginia-tech",
+  "field": "award fields: vt-international-college-scholarships",
+  "source": "https://finaid.vt.edu/undergraduate/international-students.html",
+  "quote": "International students, whether they are eligible to complete a FAFSA or not, are still able to apply for both college and departmental scholarships at Virginia Tech. After submitting their application for admission, students can access Scholarship Central",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "binghamton-university",
+  "field": "award fields: binghamton-international-admission-review",
+  "source": "https://www.binghamton.edu/financial-aid/types-of-aid/scholarships/",
+  "quote": "International Students | A limited number of scholarships are available via the admission process",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "indiana-university-bloomington",
+  "field": "award fields: iu-global-engagement",
+  "source": "https://bloomington.iu.edu/admissions/apply/international/deadlines.html",
+  "quote": "To be considered for IU Scholarships, you must submit your complete application for admission to IU by November 1.",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "north-carolina-state-university",
+  "field": "award fields: ncsu-international-packassist",
+  "source": "https://admissions.ncsu.edu/apply/international/first-year/",
+  "quote": "International applicants are not eligible for financial aid. However, a limited number of competitive merit-based scholarships are available to international students.",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "rutgers-university-newark",
+  "field": "award fields: newark-international-merit-review",
+  "source": "https://admissions.rutgers.edu/costs-and-aid/scholarships",
+  "quote": "Are international students considered for scholarships? International students are considered for scholarships each year. … international students should apply no later than the December 1 due date for the following fall semester.",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "university-of-california-riverside",
+  "field": "award fields: achievement",
+  "source": "https://discover.ucr.edu/international",
+  "quote": "International first-year and transfer students are automatically considered to receive the Achievement Scholarship with their acceptance to UCR.",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "new-jersey-institute-of-technology",
+  "field": "award fields: njit-international-merit-review",
+  "source": "https://honors.njit.edu/content/scholarships",
+  "quote": "International students are considered for merit aid at the time of admission to NJIT",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "university-at-buffalo",
+  "field": "award fields: buffalo-flagship",
+  "source": "https://www.buffalo.edu/admissions/costs/scholarships.html",
+  "quote": "The University at Buffalo offers scholarships in varying amounts to qualified incoming international first-year … All admitted international students are automatically considered for scholarships",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "rutgers-university-camden",
+  "field": "award fields: camden-international-chancellor",
+  "source": "https://admissions.rutgers.edu/international-chancellor-scholarship",
+  "quote": "Earning a world-class Rutgers–Camden degree is possible for international first-year or transfer students. … There is no separate application for the scholarship.",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "university-of-missouri",
+  "field": "award fields: mizzou-honors",
+  "source": "https://admissions.missouri.edu/costs-aid/scholarships/international-student-scholarships/",
+  "quote": "Awards for International Freshman Students | Your application will be reviewed holistically in consideration of the international scholarships below. SAT/ACT scores are not required but are preferred.",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "university-of-missouri",
+  "field": "award fields: mizzou-merit",
+  "source": "https://admissions.missouri.edu/costs-aid/scholarships/international-student-scholarships/",
+  "quote": "International Merit Scholarship | $10,000 | Application materials | English proficiency | SAT/ACT preferred",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "florida-international-university",
+  "field": "award fields: fiu-gold-blue",
+  "source": "https://admissions.fiu.edu/cost-and-aid/scholarships/",
+  "quote": "students must be a citizen of the United States, a U.S. lawful permanent resident, or an international student to receive the F-1 visa … $4,000 to $24,000 for non-Florida residents (deadline December 16, 2026)",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "university-of-south-florida",
+  "field": "award fields: usf-green-gold-presidential",
+  "source": "https://www.usf.edu/admissions/international/admission-information/cost-of-attendance/scholarships.aspx",
+  "quote": "International Scholarships Summer/Fall 2027 … submit and complete the freshman application for Summer or Fall 2027 by January 15, 2027.",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "university-of-south-florida",
+  "field": "award fields: usf-green-gold-directors",
+  "source": "https://www.usf.edu/admissions/international/admission-information/cost-of-attendance/scholarships.aspx",
+  "quote": "International Scholarships Summer/Fall 2027 … All accepted students are automatically considered for our admissions merit scholarships.",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "university-of-south-florida",
+  "field": "award fields: usf-green-gold-scholars",
+  "source": "https://www.usf.edu/admissions/international/admission-information/cost-of-attendance/scholarships.aspx",
+  "quote": "International Scholarships Summer/Fall 2027 … All accepted students are automatically considered for our admissions merit scholarships.",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "university-of-colorado-boulder",
+  "field": "award fields: cu-boulder-presidential",
+  "source": "https://www.colorado.edu/admissions/process/international/faqs",
+  "quote": "All international, first-year applications will be reviewed for automatic consideration scholarships … reviewed for the Chancellor’s Achievement Scholarship as well as the Presidential Scholarship.",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "university-of-colorado-boulder",
+  "field": "award fields: cu-boulder-chancellors",
+  "source": "https://www.colorado.edu/admissions/process/international/faqs",
+  "quote": "Do I need to take the SAT or ACT to be considered for a scholarship? No. Test scores are not required or considered for automatic consideration scholarships.",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "university-of-new-hampshire",
+  "field": "award fields: unh-international-student-scholarship",
+  "source": "https://www.unh.edu/financialaid/types-aid/scholarships",
+  "quote": "The University of New Hampshire offers limited scholarships each year to international students in valid F-1/J-1 status. … Newly admitted and continuing international undergraduate students with a GPA of 3.1 or higher will receive an email invitation to apply",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "university-of-tennessee-knoxville",
+  "field": "award fields: utk-global-ambassador",
+  "source": "https://onestop.utk.edu/scholarships-financial-aid/scholarships/global-ambassador-scholarship/",
+  "quote": "Available To : First-Year; International … International students who meet the above criteria will receive an invitation with a separate application for the Global Ambassador Scholarship.",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "stevens-institute-of-technology",
+  "field": "award fields: stevens-international-merit",
+  "source": "https://www.stevens.edu/admission-aid/undergraduate-admissions/international-students",
+  "quote": "Stevens awards a limited number of merit scholarships to international students. International students who wish to be considered for institutional scholarship must submit the College Scholarship Service Profile (CSS PROFILE)",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "yeshiva-university",
+  "field": "award fields: yu-international-merit-review",
+  "source": "https://apply.yu.edu/international",
+  "quote": "Yeshiva University offers merit-based scholarships to international students.",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "wabash-college",
+  "field": "award fields: presidential-international",
+  "source": "https://www.wabash.edu/admissions/international/scholarships",
+  "quote": "Presidential International Scholarships | Merit-based scholarships up to $48,000 per year. … If awarded the Presidential International Scholarship, it will be included on your admission letter at the time of admission.",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "hillsdale-college",
+  "field": "award fields: hillsdale-international-tuition",
+  "source": "https://catalog.hillsdale.edu/welcome-to-hillsdale-college/financial-aid-without-regard-to-need",
+  "quote": "INTERNATIONAL SCHOLARSHIPS A limited number of tuition scholarships are available for foreign students. Awards are based on academic achievement and financial need. These scholarships may cover up to the cost of tuition.",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "university-of-san-francisco",
+  "field": "award fields: usfca-international-first-year-merit",
+  "source": "https://www.usfca.edu/admission/undergraduate/international-cost-scholarship",
+  "quote": "Fall 2027 international first-year merit scholarships | Merit Award* | Amount** | University Scholarship | $36,000",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "university-at-albany-suny",
+  "field": "award fields: albany-global-excellence",
+  "source": "https://www.albany.edu/international-admissions/apply-international-undergraduate-student",
+  "quote": "The University at Albany Global Excellence Scholarships are awarded to incoming international students … The maximum scholarship award is $20,500 per year for first-year (freshmen) applicants",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "university-of-dayton",
+  "field": "award fields: dayton-international-merit",
+  "source": "https://udayton.edu/tuition-aid/international/undergraduate.php",
+  "quote": "The majority of international undergraduate students receive an international merit scholarship from the University of Dayton upon admission. Merit scholarships are worth up to $34,000 per year towards tuition costs.",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "university-of-california-riverside",
+  "field": "award: tests not used",
+  "source": "https://discover.ucr.edu/international",
+  "quote": "UC Riverside will not consider SAT or ACT test scores when making admissions decisions or awarding scholarships.",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "university-of-missouri",
+  "field": "awards: test preference, 1 December",
+  "source": "https://admissions.missouri.edu/costs-aid/scholarships/international-student-scholarships/",
+  "quote": "SAT/ACT scores are not required but are preferred. … Fall applicants must apply and submit all required application materials by December 1 to be considered for scholarships.",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "university-of-delaware",
+  "field": "award: international scholarships",
+  "source": "https://www.udel.edu/apply/undergraduate-admissions/financing-your-degree/international-students/",
+  "quote": "we’re proud to support international students with scholarships.* Awards range from $10,000 - $15,000 per year. … All freshman international students who apply are automatically considered for all possible scholarships. There is no additional scholarship application.",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "rutgers-university-camden",
+  "field": "award: #YouAreWelcomeHere",
+  "source": "https://admissions.rutgers.edu/costs-and-aid/scholarships",
+  "quote": "#YouAreWelcomeHere Scholarship | First-year international students who are dedicated to advancing intercultural learning and understanding at Rutgers–Camden are eligible for a scholarship that covers a minimum of 50% tuition.",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "university-of-california-santa-barbara",
+  "field": "aid: international statement",
+  "source": "https://admissions.sa.ucsb.edu/international",
+  "quote": "Financial aid and scholarships for international students are very limited. As a public university in California, we primarily award financial aid to U.S. residents",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "university-of-texas-at-dallas",
+  "field": "award: AES review",
+  "source": "https://enroll.utdallas.edu/affordability/freshman-scholarships/",
+  "quote": "Students who complete the application process by the December 1 priority deadline are automatically reviewed for the Academic Excellence Scholarship. No additional information or scholarship submission is required.",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "auburn-university",
+  "field": "costs: 2027–28 F/J estimate, transportation conflict",
+  "source": "https://www.auburn.edu/academic/international/isss/cost.php",
+  "quote": "This covers the cost of tuition and fees, housing and food, books and supplies, personal items, transportation, and health insurance … (1) … These figures do not include transportation expenses. (2) Cost figures include tuition expenses for fall and spring semesters (nine months) and living expenses for 12 months.",
+  "cycle": "2027–2028",
+  "read": "2026-11-11"
+ },
+ {
+  "id": "berea-college",
+  "field": "funding of international students",
+  "source": "https://www.berea.edu/admissions/admission-information/apply/checklist-items/international-faqs",
+  "quote": "All admitted international students receive financial aid and scholarships that cover 100% of tuition, housing, food, and fees.",
+  "cycle": null,
+  "read": "2026-11-11"
+ },
+ {
+  "id": "berea-college",
+  "field": "Fall 2027 guarantee",
+  "source": "https://www.berea.edu/student-financial-aid/cost-of-attendance",
+  "quote": "Starting Fall 2027, Berea College will guarantee 100% of tuition, housing, food, fees, and supplies are covered without loans for all students.",
+  "cycle": "Autumn 2027",
+  "read": "2026-11-11"
+ }
+]

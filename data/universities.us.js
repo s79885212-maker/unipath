@@ -1836,7 +1836,9 @@ window.UNIPATH.universities.push(
           "Guaranteed once admitted — but admission is the bottleneck, with about 40 or fewer new international students per year against applications from around the world.",
         howToApply:
           "Apply for admission; the funding follows admission automatically.",
-        note: 'Berea states it is "the only school in the United States that provides 100% funding to 100% of enrolled international students," and that admitted international students receive aid covering 100% of tuition, housing, food and fees. Students still pay a one-off $2,200 deposit and their own personal expenses. Health insurance and books are not explicitly listed as covered.',
+        note: "Berea’s international FAQ says all admitted international students receive financial aid and scholarships covering 100% of tuition, housing, food and fees each year; it describes no different terms for the first year and for later years. Students pay a one-off USD 2,200 deposit (usable for certain expenses over the four years; extra aid if it cannot be paid) and are encouraged to save from campus work for personal expenses. The cost page adds that from Fall 2027 Berea guarantees 100% of tuition, housing, food, fees and supplies without loans for all students. Health insurance and books are not listed separately.",
+        source: "https://www.berea.edu/admissions/admission-information/apply/checklist-items/international-faqs",
+        verified: "2026-11-11",
       },
       merit: [
         {
@@ -1847,6 +1849,10 @@ window.UNIPATH.universities.push(
           application: "Automatic with admission",
           renewable: true,
           note: "Berea states this scholarship, combined with grants and scholarships, guarantees that a student will never pay tuition from personal income.",
+          internationalEligible: true,
+          firstYearEligible: true,
+          source: "https://www.berea.edu/student-financial-aid/cost-of-attendance",
+          verified: "2026-11-11",
         },
       ],
       needBased: {

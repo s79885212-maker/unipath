@@ -342,8 +342,8 @@ module.exports=function(env){
      'Hillsdale billed price and Wake/San Francisco insurance exclusions cannot confirm full international spending');
   ok([clem,aub].every(function(u){return U.costStatus(u)==='conflict'&&[null,0,100000].every(function(b){return budget(u,b).status==='conflict';});})&&
      /42,852/.test(clem.costs.conflict.text)&&/43,852/.test(clem.costs.conflict.text)&&/transportation/.test(aub.costs.conflict.text)&&
-     DB.match.annualCost[aub.id].basis==='tuition'&&DB.match.annualCost[aub.id].min===39658,
-     'Clemson tuition discrepancy and Auburn transport-coverage contradiction remain conflicts at every budget, never programme price ranges');
+     !DB.match.annualCost[aub.id]&&aub.costs.items.some(function(i){return i.amount===39658&&/nine months/.test(i.note||'');}),
+     'Clemson tuition discrepancy and Auburn transport-coverage contradiction remain conflicts at every budget, never programme price ranges; Auburn has no confirmed yearly cost and its tuition line keeps its period');
   ok(conn.costs.academicYear==='2026–2027'&&U.costArithmetic(conn).length===0&&
      U.budgetAmount(conn)===70649&&!DB.match.annualCost[conn.id]&&budget(conn,100000).status==='unknown',
      'UConn correctly itemised2026–27 COA excludes BGS/exchange and never confirms a Fall2027 budget');

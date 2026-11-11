@@ -34273,7 +34273,9 @@ window.UNIPATH.universities.push(
         "source": "https://financialaid.ucdavis.edu/frequently-asked-questions/scholarships",
         "verified": "2026-11-01",
         "eligibility": "The official FAQ includes international undergraduates, subject to each donor award’s restrictions. Awards consider academic excellence; some add financial-need or other criteria. Eligibility for this general scheme does not prove eligibility for every named award.",
-        "note": "Entering students use the UC admission application; additional material is required only if requested. Awards are competitive and amounts/renewal depend on the specific award. General GPA wording is not converted into an Uzbek school threshold. January 7, 2026 concerns continuing students, not incoming Fall 2027 applicants. Named Regents/Provost international eligibility and largest applicable award remain under review; the yearless Regents December 2 statement is not installed as a 2027 deadline. No aid is deducted from cost."
+        "note": "Entering students use the UC admission application; additional material is required only if requested. Awards are competitive and amounts/renewal depend on the specific award. General GPA wording is not converted into an Uzbek school threshold. January 7, 2026 concerns continuing students, not incoming Fall 2027 applicants. Named Regents/Provost international eligibility and largest applicable award remain under review; the yearless Regents December 2 statement is not installed as a 2027 deadline. No aid is deducted from cost.",
+        "internationalEligible": true,
+        "firstYearEligible": null
       }
     ],
     "needBased": {
@@ -35170,7 +35172,9 @@ window.UNIPATH.universities.push(
         "entryTerm": null,
         "entryYear": null,
         "source": "https://www.osfa.illinois.edu/types-of-aid/other-aid/international-students/",
-        "verified": "2026-11-02"
+        "verified": "2026-11-11",
+        "internationalEligible": true,
+        "firstYearEligible": null
       }
     ],
     "needBased": {
@@ -35625,7 +35629,9 @@ window.UNIPATH.universities.push(
         "entryTerm": null,
         "entryYear": null,
         "source": "https://global.utexas.edu/isss/advising-services/scholarships",
-        "verified": "2026-11-02"
+        "verified": "2026-11-11",
+        "internationalEligible": true,
+        "firstYearEligible": null
       }
     ],
     "needBased": {
@@ -36477,8 +36483,10 @@ window.UNIPATH.universities.push(
         "entryTerm": null,
         "entryYear": null,
         "source": "https://admissions.rutgers.edu/new-brunswick-scholarships",
-        "verified": "2026-11-01",
-        "note": "Automatic consideration without a separate application does not guarantee an award. The international paragraph encourages Early Action or Regular Decision; an award-specific cutoff and Fall 2027 cycle are not established. A general first-year December 1 rule is not assigned to this award. Number of awards and stacking are unconfirmed. No amount is deducted from budget."
+        "verified": "2026-11-11",
+        "note": "Automatic consideration without a separate application does not guarantee an award. The international paragraph encourages Early Action or Regular Decision; an award-specific cutoff and Fall 2027 cycle are not established. A general first-year December 1 rule is not assigned to this award. Number of awards and stacking are unconfirmed. No amount is deducted from budget.",
+        "internationalEligible": true,
+        "firstYearEligible": true
       }
     ],
     "needBased": {
@@ -36907,7 +36915,9 @@ window.UNIPATH.universities.push(
       "needBlindInternational": null,
       "forms": [],
       "deadlines": null,
-      "note": null
+      "note": "UCSB says financial aid and scholarships for international students are very limited: as a public university in California it awards financial aid primarily to US residents, and international students must show funding for the full cost of attendance. No named international award is recorded.",
+      "source": "https://admissions.sa.ucsb.edu/international",
+      "verified": "2026-11-11"
     }
   },
   "photos": {
@@ -37827,7 +37837,9 @@ window.UNIPATH.universities.push(
         "entryTerm": null,
         "entryYear": null,
         "source": "https://finaid.vt.edu/undergraduate/international-students.html",
-        "verified": "2026-11-02"
+        "verified": "2026-11-11",
+        "internationalEligible": true,
+        "firstYearEligible": true
       }
     ],
     "needBased": {
@@ -38056,15 +38068,15 @@ window.UNIPATH.universities.push(
         "status": "annual-rule",
         "binding": null,
         "appliesTo": "International first-year bachelor applicants",
-        "source": "https://www.psu.edu/resources/international-students/deadlines",
-        "verified": "2026-10-31",
-        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "source": "https://admissions.psu.edu/apply/deadlines/",
+        "verified": "2026-11-11",
+        "note": "Penn State’s first-year deadline page prints the Early Action materials date as 5 November 2026 (11:59 p.m. ET); the international page says international deadlines are the same as domestic ones. The page does not name the entry term, so 1 November is kept as a standing rule. After 1 November applications are reviewed on a rolling basis; 1 December is the recommended submission date.",
         "cycleEvidence": {
           "basis": "annual-rule",
           "entryTerm": null,
           "entryYear": null,
           "source": "https://www.psu.edu/resources/international-students/deadlines",
-          "verified": "2026-10-31"
+          "verified": "2026-11-11"
         }
       },
       {
@@ -38437,22 +38449,23 @@ window.UNIPATH.universities.push(
       {
         "name": "Rolling admission — fall completion",
         "kind": "rolling",
-        "date": "1 April",
-        "dateISO": null,
-        "entryTerm": null,
-        "entryYear": null,
-        "status": "annual-rule",
+        "date": "1 April 2027",
+        "dateISO": "2027-04-01",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
         "binding": null,
         "source": "https://admissions.pitt.edu/international/international-first-year-students/",
-        "verified": "2026-10-31",
+        "verified": "2026-11-11",
         "appliesTo": "International first-year bachelor applicants",
-        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "note": "Rolling review from August; the page states the Fall 2027 application is open and fall applications must be complete by 1 April. Scholarship priority (completed application by 1 February) is described separately and has no year printed.",
         "cycleEvidence": {
-          "basis": "annual-rule",
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
           "source": "https://admissions.pitt.edu/international/international-first-year-students/",
-          "verified": "2026-10-31",
-          "entryTerm": null,
-          "entryYear": null
+          "verified": "2026-11-11",
+          "quote": "The Fall 2027 Application is open! Apply Today. … Fall term (August)—complete your application by April 1"
         }
       }
     ],
@@ -38945,7 +38958,9 @@ window.UNIPATH.universities.push(
         "entryTerm": null,
         "entryYear": null,
         "source": "https://admissions.ucmerced.edu/node/5881",
-        "verified": "2026-11-02"
+        "verified": "2026-11-02",
+        "internationalEligible": true,
+        "firstYearEligible": true
       }
     ],
     "needBased": {
@@ -39329,7 +39344,9 @@ window.UNIPATH.universities.push(
         "entryTerm": null,
         "entryYear": null,
         "source": "https://www.binghamton.edu/financial-aid/types-of-aid/scholarships/",
-        "verified": "2026-11-02"
+        "verified": "2026-11-11",
+        "internationalEligible": true,
+        "firstYearEligible": true
       }
     ],
     "needBased": {
@@ -39636,7 +39653,9 @@ window.UNIPATH.universities.push(
         "entryTerm": null,
         "entryYear": null,
         "source": "https://bloomington.iu.edu/admissions/apply/international/deadlines.html",
-        "verified": "2026-11-02"
+        "verified": "2026-11-11",
+        "internationalEligible": true,
+        "firstYearEligible": true
       }
     ],
     "needBased": {
@@ -40016,7 +40035,9 @@ window.UNIPATH.universities.push(
         "note": "Limited competitive consideration, not automatic funding. Amounts, largest applicable award, renewal, stacking and a specific 2027 deadline are not established. Park/Goodnight restrictions remain separate.",
         "basis": "merit",
         "source": "https://admissions.ncsu.edu/apply/international/first-year/",
-        "verified": "2026-11-02"
+        "verified": "2026-11-11",
+        "internationalEligible": true,
+        "firstYearEligible": true
       }
     ],
     "needBased": {
@@ -40395,7 +40416,9 @@ window.UNIPATH.universities.push(
         "entryTerm": null,
         "entryYear": null,
         "source": "https://admissions.rutgers.edu/costs-and-aid/scholarships",
-        "verified": "2026-11-02"
+        "verified": "2026-11-11",
+        "internationalEligible": true,
+        "firstYearEligible": true
       }
     ],
     "needBased": {
@@ -40594,43 +40617,45 @@ window.UNIPATH.universities.push(
       {
         "name": "Early Decision",
         "kind": "ED",
-        "date": "1 November",
-        "dateISO": null,
-        "entryTerm": null,
-        "entryYear": null,
-        "status": "annual-rule",
+        "date": "1 November 2026",
+        "dateISO": "2026-11-01",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
         "binding": null,
-        "source": "https://admissions.uconn.edu/apply/international/first-year/",
-        "verified": "2026-10-31",
+        "source": "https://admissions.uconn.edu/apply/deadlines/",
+        "verified": "2026-11-11",
         "appliesTo": "International first-year bachelor applicants",
-        "note": "Early Decision is listed; binding agreement and special-programme conditions still need a separate check.",
+        "note": "Fall 2027 date from UConn’s first-year deadline page; the international first-year page lists the same date. Early Decision is binding; the special programmes in medicine, dental medicine and law share the 1 November deadline without requiring Early Decision.",
         "cycleEvidence": {
-          "basis": "annual-rule",
-          "source": "https://admissions.uconn.edu/apply/international/first-year/",
-          "verified": "2026-10-31",
-          "entryTerm": null,
-          "entryYear": null
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://admissions.uconn.edu/apply/deadlines/",
+          "verified": "2026-11-11",
+          "quote": "Applying for Fall 2027 | November 1 | Early Decision Application Deadline"
         }
       },
       {
         "name": "Storrs campus application",
         "kind": "RD",
-        "date": "15 January",
-        "dateISO": null,
-        "entryTerm": null,
-        "entryYear": null,
-        "status": "annual-rule",
+        "date": "15 January 2027",
+        "dateISO": "2027-01-15",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
         "binding": null,
-        "source": "https://admissions.uconn.edu/apply/international/first-year/",
-        "verified": "2026-10-31",
+        "source": "https://admissions.uconn.edu/apply/deadlines/",
+        "verified": "2026-11-11",
         "appliesTo": "International first-year bachelor applicants",
-        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "note": "Fall 2027 date from UConn’s first-year deadline page; regional campuses take applications until 1 May.",
         "cycleEvidence": {
-          "basis": "annual-rule",
-          "source": "https://admissions.uconn.edu/apply/international/first-year/",
-          "verified": "2026-10-31",
-          "entryTerm": null,
-          "entryYear": null
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://admissions.uconn.edu/apply/deadlines/",
+          "verified": "2026-11-11",
+          "quote": "Applying for Fall 2027 … January 15 | Storrs Campus Application Deadline"
         }
       },
       {
@@ -40682,6 +40707,29 @@ window.UNIPATH.universities.push(
         },
         "source": "https://admissions.uconn.edu/stamps-applicants/",
         "verified": "2026-11-02"
+      },
+      {
+        "id": "uconn-merit-honors-priority-2027",
+        "name": "Priority deadline for merit scholarship and Honors consideration",
+        "kind": "priority",
+        "date": "1 December 2026",
+        "dateISO": "2026-12-01",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
+        "binding": null,
+        "appliesTo": "First-year applicants; the scholarship page applies the same 1 December priority to the international Global awards",
+        "note": "Earlier than the 15 January Storrs deadline: an application completed after 1 December is still reviewed for admission, but merit and Honors consideration is given to applications completed by this date.",
+        "source": "https://admissions.uconn.edu/apply/deadlines/",
+        "verified": "2026-11-11",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://admissions.uconn.edu/apply/deadlines/",
+          "verified": "2026-11-11",
+          "quote": "Applying for Fall 2027 … December 1 | Priority Application Deadline for Merit & Honors Consideration"
+        }
       }
     ],
     "applicationFee": {
@@ -40836,7 +40884,9 @@ window.UNIPATH.universities.push(
         "entryTerm": null,
         "entryYear": null,
         "source": "https://admissions.uconn.edu/cost-aid/scholarship/",
-        "verified": "2026-11-02"
+        "verified": "2026-11-11",
+        "internationalEligible": true,
+        "firstYearEligible": true
       },
       {
         "id": "uconn-global-distinction",
@@ -40852,7 +40902,9 @@ window.UNIPATH.universities.push(
         "entryTerm": null,
         "entryYear": null,
         "source": "https://admissions.uconn.edu/cost-aid/scholarship/",
-        "verified": "2026-11-02"
+        "verified": "2026-11-11",
+        "internationalEligible": true,
+        "firstYearEligible": true
       },
       {
         "id": "uconn-global-leader",
@@ -40868,7 +40920,9 @@ window.UNIPATH.universities.push(
         "entryTerm": null,
         "entryYear": null,
         "source": "https://admissions.uconn.edu/cost-aid/scholarship/",
-        "verified": "2026-11-02"
+        "verified": "2026-11-11",
+        "internationalEligible": true,
+        "firstYearEligible": true
       }
     ],
     "needBased": {
@@ -41976,8 +42030,10 @@ window.UNIPATH.universities.push(
         "entryTerm": null,
         "entryYear": null,
         "source": "https://discover.ucr.edu/international",
-        "verified": "2026-10-31",
-        "note": "Standing published amount; a Fall 2027-specific award cycle and largest-award comparison are not established. Automatic consideration does not mean an award to every eligible admitted student; the selection basis is not explicitly established here. This is not full tuition or full ride and is not deducted from cost."
+        "verified": "2026-11-11",
+        "note": "Up to USD 89,100 over four years for first-year students (USD 44,550 over two years for transfers); to qualify, admitted students must confirm nonresidency, meet UC eligibility and submit the SIR, then keep a 3.0 GPA each quarter. UC Riverside does not consider SAT or ACT scores when awarding scholarships. Automatic consideration does not mean an award to every eligible admitted student; this is not full tuition or full ride and is not deducted from cost.",
+        "internationalEligible": true,
+        "firstYearEligible": true
       }
     ],
     "needBased": {
@@ -42397,7 +42453,9 @@ window.UNIPATH.universities.push(
         "entryTerm": null,
         "entryYear": null,
         "source": "https://honors.njit.edu/content/scholarships",
-        "verified": "2026-11-02"
+        "verified": "2026-11-11",
+        "internationalEligible": true,
+        "firstYearEligible": true
       }
     ],
     "needBased": {
@@ -42741,7 +42799,9 @@ window.UNIPATH.universities.push(
         "entryTerm": null,
         "entryYear": null,
         "source": "https://www.buffalo.edu/admissions/costs/scholarships.html",
-        "verified": "2026-11-02"
+        "verified": "2026-11-11",
+        "internationalEligible": true,
+        "firstYearEligible": true
       }
     ],
     "needBased": {
@@ -43105,7 +43165,26 @@ window.UNIPATH.universities.push(
       "detailsVerified": "2026-11-01",
       "renewalConditions": "Four years; the international page states a UD GPA of 3.0 for continuation. Additional Honors standing and stacking rules remain under review; this is not an admission GPA minimum."
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "udel-international-scholarships",
+        "category": "merit",
+        "basis": "merit",
+        "name": "International student scholarships",
+        "amount": "USD 10,000–15,000 per year",
+        "internationalEligible": true,
+        "firstYearEligible": true,
+        "eligibility": "Freshman international applicants; awards are subject to availability.",
+        "application": "Automatic: all freshman international applicants are considered; no additional scholarship application.",
+        "renewable": null,
+        "note": "Competitive and subject to availability, not guaranteed. Delaware cannot offer need-based aid to international students. The Honors scholarships (Eugene du Pont, Valencia, 1743) are separate and also open to international applicants.",
+        "deadlineScope": "no-separate-application",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://www.udel.edu/apply/undergraduate-admissions/financing-your-degree/international-students/",
+        "verified": "2026-11-11"
+      }
+    ],
     "needBased": {
       "availableToInternational": false,
       "meetsFullNeed": null,
@@ -43475,7 +43554,27 @@ window.UNIPATH.universities.push(
         "entryTerm": null,
         "entryYear": null,
         "source": "https://admissions.rutgers.edu/international-chancellor-scholarship",
-        "verified": "2026-11-02"
+        "verified": "2026-11-11",
+        "internationalEligible": true,
+        "firstYearEligible": true
+      },
+      {
+        "id": "camden-youarewelcomehere",
+        "category": "merit",
+        "basis": "merit",
+        "name": "#YouAreWelcomeHere Scholarship",
+        "amount": "At least 50% of tuition",
+        "internationalEligible": true,
+        "firstYearEligible": true,
+        "eligibility": "First-year international students dedicated to advancing intercultural learning and understanding at Rutgers–Camden.",
+        "application": null,
+        "renewable": null,
+        "note": "Selection process, number of awards, renewal and stacking with the International Chancellor’s Scholarship are not stated on the page read. Covers part of tuition only; it is not full tuition or full ride.",
+        "deadlineScope": "not-confirmed",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://admissions.rutgers.edu/costs-and-aid/scholarships",
+        "verified": "2026-11-11"
       }
     ],
     "needBased": {
@@ -44221,13 +44320,15 @@ window.UNIPATH.universities.push(
         "amount": "USD 20,000 per year, academic year 2027–28",
         "eligibility": "Degree-seeking international first-year applicants admitted for on-campus Columbia study; holistic review and English proficiency. SAT/ACT preferred but not required for these two awards.",
         "renewable": "Continuous full-time fall/spring enrolment, minimum 12 credits and cumulative college GPA 2.75. The aid page labels its eight-semester paragraph as transfer; exact first-year maximum duration remains unconfirmed.",
-        "application": "Complete admission file by 1 December 2026 for Fall 2027; reviewed through the admission application",
+        "application": "No separate application: apply and submit all required materials by 1 December for fall consideration; offers by late January. SAT/ACT are preferred but not required.",
         "note": "Nonresident tuition portion only, not housing or full ride. Awards generally cannot combine and may reduce for other tuition support/COA limits. Global Black & Gold requires a Mizzou-graduate parent and its own tests; Stamps is unavailable to applicants currently outside the US.",
         "deadlineScope": "confirmed",
         "entryTerm": "Autumn",
         "entryYear": "2027",
         "source": "https://admissions.missouri.edu/costs-aid/scholarships/international-student-scholarships/",
-        "verified": "2026-11-02"
+        "verified": "2026-11-11",
+        "internationalEligible": true,
+        "firstYearEligible": true
       },
       {
         "id": "mizzou-merit",
@@ -44237,13 +44338,15 @@ window.UNIPATH.universities.push(
         "amount": "USD 10,000 per year, academic year 2027–28",
         "eligibility": "Degree-seeking international first-year applicants admitted for on-campus Columbia study; holistic review and English proficiency. SAT/ACT preferred but not required for these two awards.",
         "renewable": "Continuous full-time fall/spring enrolment, minimum 12 credits and cumulative college GPA 2.75. The aid page labels its eight-semester paragraph as transfer; exact first-year maximum duration remains unconfirmed.",
-        "application": "Complete admission file by 1 December 2026 for Fall 2027; reviewed through the admission application",
+        "application": "No separate application: apply and submit all required materials by 1 December for fall consideration; offers by late January. SAT/ACT are preferred but not required.",
         "note": "Nonresident tuition portion only, not housing or full ride. Awards generally cannot combine and may reduce for other tuition support/COA limits. Global Black & Gold requires a Mizzou-graduate parent and its own tests; Stamps is unavailable to applicants currently outside the US.",
         "deadlineScope": "confirmed",
         "entryTerm": "Autumn",
         "entryYear": "2027",
         "source": "https://admissions.missouri.edu/costs-aid/scholarships/international-student-scholarships/",
-        "verified": "2026-11-02"
+        "verified": "2026-11-11",
+        "internationalEligible": true,
+        "firstYearEligible": true
       }
     ],
     "needBased": {
@@ -44522,31 +44625,34 @@ window.UNIPATH.universities.push(
     "currency": "USD",
     "studentCategory": "International first-year bachelor applicants",
     "source": "https://www.auburn.edu/academic/international/isss/cost.php",
-    "verified": "2026-10-31",
+    "verified": "2026-11-11",
     "headline": "Published estimate; transport coverage conflicts",
     "items": [
       {
         "label": "Tuition and fees",
         "group": "billed",
-        "amount": 39658
+        "amount": 39658,
+        "note": "2027–28 estimate for F/J undergraduates; fall and spring semesters (nine months)"
       },
       {
         "label": "Living expenses",
         "group": "estimate",
-        "amount": 15000
+        "amount": 15000,
+        "note": "2027–28 estimate for 12 months"
       },
       {
         "label": "Health insurance",
         "group": "estimate",
-        "amount": 2317
+        "amount": 2317,
+        "note": "Mandatory Auburn insurance for F-1/J-1 students; 2027–28 estimate"
       }
     ],
     "billedSubtotal": null,
     "totalText": null,
-    "note": "Auburn publishes a 2027–28 F/J estimate: tuition/fees USD 39,658, living 15,000, insurance 2,317, total 56,975. Its introduction includes transportation but footnote 1 explicitly excludes transportation; coverage is inconsistent. Footnote 2 separates fall/spring tuition (nine months) and 12-month living expenses. Dependants USD 6,000 each and professional fees may add costs. The gross total is not a verified complete budget; no scholarship is deducted.",
+    "note": "One official page (estimates as of October 2026 for 2027–28, F/J undergraduates): tuition and fees USD 39,658 for fall and spring (nine months), living expenses USD 15,000 for 12 months, health insurance USD 2,317, total USD 56,975. The page contradicts itself on what the total includes: its introduction lists transportation, footnote 1 says the figures do not include transportation. The total is therefore not used as a confirmed yearly cost and Auburn has no entry in the budget comparison; the tuition line is tuition only, not a full budget. Dependants add USD 6,000 each; some programmes add professional fees. No scholarship is deducted.",
     "status": "conflict",
     "conflict": {
-      "text": "Auburn publishes a 2027–28 F/J estimate: tuition/fees USD 39,658, living 15,000, insurance 2,317, total 56,975. Its introduction includes transportation but footnote 1 explicitly excludes transportation; coverage is inconsistent. Footnote 2 separates fall/spring tuition (nine months) and 12-month living expenses. Dependants USD 6,000 each and professional fees may add costs. The gross total is not a verified complete budget; no scholarship is deducted."
+      "text": "One official page (estimates as of October 2026 for 2027–28, F/J undergraduates): tuition and fees USD 39,658 for fall and spring (nine months), living expenses USD 15,000 for 12 months, health insurance USD 2,317, total USD 56,975. The page contradicts itself on what the total includes: its introduction lists transportation, footnote 1 says the figures do not include transportation. The total is therefore not used as a confirmed yearly cost and Auburn has no entry in the budget comparison; the tuition line is tuition only, not a full budget. Dependants add USD 6,000 each; some programmes add professional fees. No scholarship is deducted."
     }
   },
   "scholarships": {
@@ -44965,7 +45071,9 @@ window.UNIPATH.universities.push(
         "entryTerm": null,
         "entryYear": null,
         "source": "https://admissions.fiu.edu/cost-and-aid/scholarships/",
-        "verified": "2026-11-02"
+        "verified": "2026-11-11",
+        "internationalEligible": true,
+        "firstYearEligible": true
       }
     ],
     "needBased": {
@@ -45463,7 +45571,9 @@ window.UNIPATH.universities.push(
         "entryTerm": "Autumn",
         "entryYear": "2027",
         "source": "https://www.usf.edu/admissions/international/admission-information/cost-of-attendance/scholarships.aspx",
-        "verified": "2026-11-02"
+        "verified": "2026-11-11",
+        "internationalEligible": true,
+        "firstYearEligible": true
       },
       {
         "id": "usf-green-gold-directors",
@@ -45479,7 +45589,9 @@ window.UNIPATH.universities.push(
         "entryTerm": "Autumn",
         "entryYear": "2027",
         "source": "https://www.usf.edu/admissions/international/admission-information/cost-of-attendance/scholarships.aspx",
-        "verified": "2026-11-02"
+        "verified": "2026-11-11",
+        "internationalEligible": true,
+        "firstYearEligible": true
       },
       {
         "id": "usf-green-gold-scholars",
@@ -45495,7 +45607,9 @@ window.UNIPATH.universities.push(
         "entryTerm": "Autumn",
         "entryYear": "2027",
         "source": "https://www.usf.edu/admissions/international/admission-information/cost-of-attendance/scholarships.aspx",
-        "verified": "2026-11-02"
+        "verified": "2026-11-11",
+        "internationalEligible": true,
+        "firstYearEligible": true
       }
     ],
     "needBased": {
@@ -45770,7 +45884,9 @@ window.UNIPATH.universities.push(
         "entryTerm": null,
         "entryYear": null,
         "source": "https://admissions.ucsc.edu/posts/international-student-timeline",
-        "verified": "2026-11-02"
+        "verified": "2026-11-02",
+        "internationalEligible": true,
+        "firstYearEligible": true
       }
     ],
     "needBased": {
@@ -46143,13 +46259,15 @@ window.UNIPATH.universities.push(
         "amount": "USD 15,000/year for newly admitted students; USD 60,000 over four years",
         "eligibility": "International nonresident first-year applicants; complete records including English proficiency by annual 15 January. SAT/ACT not considered for these automatic awards.",
         "renewable": "Up to eight fall/spring semesters; 12+ credits each semester and cumulative CU Boulder GPA 2.75",
-        "application": "Automatic consideration with admission; 15 January is annual, entry year not established in the FAQ",
+        "application": "Automatic consideration for international first-year applications complete by 15 January, including proof of English proficiency; awards are announced with the admission decision. SAT/ACT are not required or considered.",
         "note": "Presidential and Chancellor’s cannot combine. Presidential page distinguishes Fall 2026-or-earlier total USD 55,000 from newly admitted total USD 60,000. Other aid/Arts & Humanities may change the package; total cannot exceed COA. Partial support, not guaranteed total spending coverage.",
         "deadlineScope": "annual-rule",
         "entryTerm": null,
         "entryYear": null,
         "source": "https://www.colorado.edu/admissions/process/international/faqs",
-        "verified": "2026-11-02"
+        "verified": "2026-11-11",
+        "internationalEligible": true,
+        "firstYearEligible": true
       },
       {
         "id": "cu-boulder-chancellors",
@@ -46159,13 +46277,15 @@ window.UNIPATH.universities.push(
         "amount": "USD 6,250/year for newly admitted students; USD 25,000 over four years",
         "eligibility": "International nonresident first-year applicants; complete records including English proficiency by annual 15 January. SAT/ACT not considered for these automatic awards.",
         "renewable": "Up to eight fall/spring semesters; 12+ credits each semester and cumulative CU Boulder GPA 2.75",
-        "application": "Automatic consideration with admission; 15 January is annual, entry year not established in the FAQ",
+        "application": "Automatic consideration for international first-year applications complete by 15 January, including proof of English proficiency; awards are announced with the admission decision. SAT/ACT are not required or considered.",
         "note": "Presidential and Chancellor’s cannot combine. Presidential page distinguishes Fall 2026-or-earlier total USD 55,000 from newly admitted total USD 60,000. Other aid/Arts & Humanities may change the package; total cannot exceed COA. Partial support, not guaranteed total spending coverage.",
         "deadlineScope": "annual-rule",
         "entryTerm": null,
         "entryYear": null,
         "source": "https://www.colorado.edu/admissions/process/international/faqs",
-        "verified": "2026-11-02"
+        "verified": "2026-11-11",
+        "internationalEligible": true,
+        "firstYearEligible": true
       }
     ],
     "needBased": {
@@ -46590,7 +46710,9 @@ window.UNIPATH.universities.push(
         "entryTerm": null,
         "entryYear": null,
         "source": "https://www.unh.edu/financialaid/types-aid/scholarships",
-        "verified": "2026-11-02"
+        "verified": "2026-11-11",
+        "internationalEligible": true,
+        "firstYearEligible": true
       }
     ],
     "needBased": {
@@ -47037,7 +47159,9 @@ window.UNIPATH.universities.push(
         "entryTerm": null,
         "entryYear": null,
         "source": "https://onestop.utk.edu/scholarships-financial-aid/scholarships/global-ambassador-scholarship/",
-        "verified": "2026-11-02"
+        "verified": "2026-11-11",
+        "internationalEligible": true,
+        "firstYearEligible": true
       }
     ],
     "needBased": {
@@ -47253,14 +47377,14 @@ window.UNIPATH.universities.push(
         "entryYear": null,
         "status": "annual-rule",
         "binding": true,
-        "source": "https://admissions.wfu.edu/become-a-deacon/international/",
-        "verified": "2026-10-31",
+        "source": "https://admissions.wfu.edu/apply/first-year/",
+        "verified": "2026-11-11",
         "appliesTo": "International first-year bachelor applicants",
-        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "note": "The first-year page is headed “Class of 2031” (students entering in autumn 2027) and lists this date, but it prints no year, so the date is kept as a standing rule rather than a confirmed Fall 2027 deadline.",
         "cycleEvidence": {
           "basis": "annual-rule",
           "source": "https://admissions.wfu.edu/become-a-deacon/international/",
-          "verified": "2026-10-31",
+          "verified": "2026-11-11",
           "entryTerm": null,
           "entryYear": null
         }
@@ -47274,14 +47398,14 @@ window.UNIPATH.universities.push(
         "entryYear": null,
         "status": "annual-rule",
         "binding": null,
-        "source": "https://admissions.wfu.edu/become-a-deacon/international/",
-        "verified": "2026-10-31",
+        "source": "https://admissions.wfu.edu/apply/first-year/",
+        "verified": "2026-11-11",
         "appliesTo": "International first-year bachelor applicants",
-        "note": "Only first-generation college applicants meeting Wake Forest’s stated parent/guardian education criteria. The entry year remains unconfirmed.",
+        "note": "Only for first-generation college applicants who meet Wake Forest’s parent/guardian education criteria; non-binding, decision by 15 January. The page is headed “Class of 2031” but prints no year, so the date stays a standing rule.",
         "cycleEvidence": {
           "basis": "annual-rule",
           "source": "https://admissions.wfu.edu/become-a-deacon/international/",
-          "verified": "2026-10-31",
+          "verified": "2026-11-11",
           "entryTerm": null,
           "entryYear": null
         }
@@ -47295,14 +47419,14 @@ window.UNIPATH.universities.push(
         "entryYear": null,
         "status": "annual-rule",
         "binding": true,
-        "source": "https://admissions.wfu.edu/become-a-deacon/international/",
-        "verified": "2026-10-31",
+        "source": "https://admissions.wfu.edu/apply/first-year/",
+        "verified": "2026-11-11",
         "appliesTo": "International first-year bachelor applicants",
-        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "note": "The first-year page is headed “Class of 2031” (students entering in autumn 2027) and lists this date, but it prints no year, so the date is kept as a standing rule rather than a confirmed Fall 2027 deadline.",
         "cycleEvidence": {
           "basis": "annual-rule",
           "source": "https://admissions.wfu.edu/become-a-deacon/international/",
-          "verified": "2026-10-31",
+          "verified": "2026-11-11",
           "entryTerm": null,
           "entryYear": null
         }
@@ -47316,14 +47440,14 @@ window.UNIPATH.universities.push(
         "entryYear": null,
         "status": "annual-rule",
         "binding": null,
-        "source": "https://admissions.wfu.edu/become-a-deacon/international/",
-        "verified": "2026-10-31",
+        "source": "https://admissions.wfu.edu/apply/first-year/",
+        "verified": "2026-11-11",
         "appliesTo": "International first-year bachelor applicants",
-        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "note": "The first-year page is headed “Class of 2031” (students entering in autumn 2027) and lists this date, but it prints no year, so the date is kept as a standing rule rather than a confirmed Fall 2027 deadline.",
         "cycleEvidence": {
           "basis": "annual-rule",
           "source": "https://admissions.wfu.edu/become-a-deacon/international/",
-          "verified": "2026-10-31",
+          "verified": "2026-11-11",
           "entryTerm": null,
           "entryYear": null
         }
@@ -48370,7 +48494,9 @@ window.UNIPATH.universities.push(
         "entryTerm": null,
         "entryYear": null,
         "source": "https://www.stevens.edu/admission-aid/undergraduate-admissions/international-students",
-        "verified": "2026-11-02"
+        "verified": "2026-11-11",
+        "internationalEligible": true,
+        "firstYearEligible": true
       }
     ],
     "needBased": {
@@ -48796,7 +48922,9 @@ window.UNIPATH.universities.push(
         "entryTerm": null,
         "entryYear": null,
         "source": "https://admissions.web.baylor.edu/admission/international/financial-assistance-international-students",
-        "verified": "2026-11-02"
+        "verified": "2026-11-02",
+        "internationalEligible": true,
+        "firstYearEligible": true
       }
     ],
     "needBased": {
@@ -49568,7 +49696,9 @@ window.UNIPATH.universities.push(
         "entryTerm": null,
         "entryYear": null,
         "source": "https://apply.yu.edu/international",
-        "verified": "2026-11-02"
+        "verified": "2026-11-11",
+        "internationalEligible": true,
+        "firstYearEligible": true
       }
     ],
     "needBased": {
@@ -49984,8 +50114,10 @@ window.UNIPATH.universities.push(
         "entryTerm": null,
         "entryYear": null,
         "source": "https://www.wabash.edu/admissions/international/scholarships",
-        "verified": "2026-10-31",
-        "note": "Priority completed application by 15 January is an annual rule, not a confirmed Fall 2027 deadline. Separate ED and virtual-event awards are USD 2,000 per year each; stacking has not been confirmed. WISE up to USD 4,500 per year is earned work, not guaranteed scholarship. This maximum is not deducted from cost and is not labelled full tuition or full ride."
+        "verified": "2026-11-11",
+        "note": "Priority completed application by 15 January is an annual rule, not a confirmed Fall 2027 deadline. Separate ED and virtual-event awards are USD 2,000 per year each; stacking has not been confirmed. WISE up to USD 4,500 per year is earned work, not guaranteed scholarship. This maximum is not deducted from cost and is not labelled full tuition or full ride.",
+        "internationalEligible": true,
+        "firstYearEligible": true
       }
     ],
     "needBased": {
@@ -50343,7 +50475,9 @@ window.UNIPATH.universities.push(
         "entryTerm": null,
         "entryYear": null,
         "source": "https://catalog.hillsdale.edu/welcome-to-hillsdale-college/financial-aid-without-regard-to-need",
-        "verified": "2026-11-02"
+        "verified": "2026-11-11",
+        "internationalEligible": true,
+        "firstYearEligible": null
       }
     ],
     "needBased": {
@@ -50536,17 +50670,74 @@ window.UNIPATH.universities.push(
     "platforms": [],
     "deadlines": [
       {
-        "name": "Fall first-year application",
+        "name": "Priority deadline",
+        "kind": "priority",
+        "date": "2 November 2026",
+        "dateISO": "2026-11-02",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
+        "binding": null,
+        "appliesTo": "First-year applicants, including international applicants (the international admissions page links to this table)",
+        "time": "23:59",
+        "timezone": "Mountain Time",
+        "note": "Meeting the priority deadline gives extra consideration in the holistic review but no earlier decision; decisions for Fall 2027 are released 15 February 2027. All deadlines are 11:59 p.m. Mountain Time.",
+        "source": "https://enrollment.byu.edu/admissions/application-deadlines",
+        "verified": "2026-11-11",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://enrollment.byu.edu/admissions/application-deadlines",
+          "verified": "2026-11-11",
+          "quote": "Fall 2027 | Aug 26, 2026 | Nov 2, 2026 | Dec 15, 2026 | Feb 15, 2027"
+        }
+      },
+      {
+        "name": "Application deadline",
         "kind": "RD",
-        "date": null,
+        "date": "15 December 2026",
+        "dateISO": "2026-12-15",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
+        "binding": null,
+        "appliesTo": "First-year applicants, including international applicants (the international admissions page links to this table)",
+        "time": "23:59",
+        "timezone": "Mountain Time",
+        "note": "Final Fall 2027 application deadline, 11:59 p.m. Mountain Time; decisions 15 February 2027. Applicants younger than 17 on the first day of class are not admitted.",
+        "source": "https://enrollment.byu.edu/admissions/application-deadlines",
+        "verified": "2026-11-11",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://enrollment.byu.edu/admissions/application-deadlines",
+          "verified": "2026-11-11",
+          "quote": "Fall 2027 | Aug 26, 2026 | Nov 2, 2026 | Dec 15, 2026 | Feb 15, 2027"
+        }
+      },
+      {
+        "name": "BYU scholarship application",
+        "kind": "scholarship",
+        "date": "2 January",
         "dateISO": null,
         "entryTerm": null,
         "entryYear": null,
-        "status": "not-confirmed",
+        "status": "annual-rule",
         "binding": null,
-        "source": "https://policy.byu.edu/view/admission-policy",
-        "verified": "2026-10-31",
-        "note": "The policy requires all materials by the term deadline but does not publish its date. The route label is descriptive, not a verified named decision plan."
+        "awardId": "byu-general-scholarships",
+        "awardCategory": "merit",
+        "appliesTo": "New freshmen, including international students",
+        "note": "Standing rule without a printed year; not shown as a confirmed Fall 2027 date.",
+        "source": "https://enrollment.byu.edu/financial-aid/international-student-scholarships",
+        "verified": "2026-11-11",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://enrollment.byu.edu/financial-aid/international-student-scholarships",
+          "verified": "2026-11-11",
+          "quote": "New freshman entering BYU beginning spring term, summer term, or fall semester must submit the scholarship application by January 2."
+        }
       }
     ],
     "applicationFee": {
@@ -50638,7 +50829,26 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": null
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "byu-general-scholarships",
+        "category": "merit",
+        "basis": "merit",
+        "name": "BYU general scholarships (Financial Aid Office)",
+        "amount": null,
+        "internationalEligible": true,
+        "firstYearEligible": true,
+        "eligibility": "International students are eligible for the general scholarships of the Financial Aid Office; new freshmen entering in spring, summer or fall.",
+        "application": "Separate BYU scholarship application, due 2 January for new freshmen (no year printed)",
+        "renewable": null,
+        "note": "Amounts, selection criteria and renewal are not published on the international page; an award is not guaranteed. The 2 January date is a standing rule without a printed year.",
+        "deadlineScope": "annual-rule",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://enrollment.byu.edu/financial-aid/international-student-scholarships",
+        "verified": "2026-11-11"
+      }
+    ],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,
@@ -51011,7 +51221,9 @@ window.UNIPATH.universities.push(
         "entryTerm": null,
         "entryYear": null,
         "source": "https://www.usfca.edu/admission/undergraduate/international-cost-scholarship",
-        "verified": "2026-11-02"
+        "verified": "2026-11-11",
+        "internationalEligible": true,
+        "firstYearEligible": true
       }
     ],
     "needBased": {
@@ -51220,22 +51432,23 @@ window.UNIPATH.universities.push(
       {
         "name": "Early Action",
         "kind": "EA",
-        "date": "1 November",
-        "dateISO": null,
-        "entryTerm": null,
-        "entryYear": null,
-        "status": "annual-rule",
+        "date": "15 November 2026",
+        "dateISO": "2026-11-15",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
         "binding": false,
         "source": "https://www.gmu.edu/freshman/dates-deadlines",
-        "verified": "2026-10-31",
+        "verified": "2026-11-11",
         "appliesTo": "International first-year bachelor applicants",
-        "note": "Recurring date; the reviewed source does not establish the entry year. It is not a confirmed upcoming deadline for Fall 2027.",
+        "note": "Extended for Fall 2027 from the standing 1 November date. Applying by this date gives priority consideration for the Honors College, University Scholars and merit-based scholarships; international freshmen are reviewed for merit awards with the admission application.",
         "cycleEvidence": {
-          "basis": "annual-rule",
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
           "source": "https://www.gmu.edu/freshman/dates-deadlines",
-          "verified": "2026-10-31",
-          "entryTerm": null,
-          "entryYear": null
+          "verified": "2026-11-11",
+          "quote": "George Mason's early action application deadline for fall 2027 has been extended. Apply by November 15 to receive an early admissions decision and priority consideration for the Honors College and merit-based scholarships."
         }
       },
       {
@@ -51421,12 +51634,14 @@ window.UNIPATH.universities.push(
         "eligibility": "Highly qualified nonimmigrant, nonresident, degree-seeking international first-year students studying full-time on F-1",
         "renewable": "Up to four years for freshmen, based on good academic standing; exact GPA/credit conditions not printed here",
         "application": "Automatic review of admitted applicants; no separate scholarship application",
-        "note": "Limited competitive awards; amount, stacking and cycle-specific priority require further evidence. Mason Korea entrance awards are not Fairfax funding. No federal aid for ordinary international noncitizens.",
+        "note": "Limited competitive awards. Mason says GPA and test scores are the most important criteria, though not the only ones, so SAT/ACT results count where submitted. For Fall 2027 the extended 15 November Early Action date gives priority consideration. Amount and stacking are not published; Mason Korea awards are not Fairfax funding. No federal aid for international students.",
         "deadlineScope": "no-separate-application",
         "entryTerm": null,
         "entryYear": null,
         "source": "https://www.gmu.edu/international/financial-aid",
-        "verified": "2026-11-02"
+        "verified": "2026-11-11",
+        "internationalEligible": true,
+        "firstYearEligible": true
       }
     ],
     "needBased": {
@@ -51798,7 +52013,9 @@ window.UNIPATH.universities.push(
         "entryTerm": null,
         "entryYear": null,
         "source": "https://www.albany.edu/international-admissions/apply-international-undergraduate-student",
-        "verified": "2026-11-02"
+        "verified": "2026-11-11",
+        "internationalEligible": true,
+        "firstYearEligible": true
       }
     ],
     "needBased": {
@@ -52472,7 +52689,9 @@ window.UNIPATH.universities.push(
         "entryTerm": null,
         "entryYear": null,
         "source": "https://udayton.edu/tuition-aid/international/undergraduate.php",
-        "verified": "2026-11-02"
+        "verified": "2026-11-11",
+        "internationalEligible": true,
+        "firstYearEligible": true
       }
     ],
     "needBased": {
@@ -53185,7 +53404,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": null
+      "note": "UT Dallas reviews first-time freshmen who complete the application by the 1 December priority deadline for the Academic Excellence Scholarship automatically, with no separate submission; criteria and amounts vary by class. The pages read do not say whether international freshmen are eligible, and the scholarship office site did not respond, so no international award is recorded.",
+      "source": "https://enroll.utdallas.edu/affordability/freshman-scholarships/",
+      "verified": "2026-11-11"
     },
     "merit": [],
     "needBased": {
