@@ -1,0 +1,12 @@
+{
+ "batch": "uk-2027-batch-1",
+ "read": "2026-11-12",
+ "ids": [
+  "university-of-greenwich",
+  "coventry-university",
+  "university-of-westminster",
+  "sheffield-hallam-university",
+  "oxford-brookes-university"
+ ],
+ "note": "UK 2027/28 batch 1, built by tools/claude_uk_batch1.py from official university pages; see research/claude-uk-batch1-report.md."
+}

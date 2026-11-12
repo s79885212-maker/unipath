@@ -18,7 +18,11 @@ module.exports=function(env){
      })&&registry.entries.every(function(row){return row.sourceEntries===sources.filter(function(s){return s.id===row.id;}).length;}),
      'research inventory distinguishes scoped review, unavailable content and unfinished work; actual document/language/cost states and evidence counts remain consistent');
   var base=new Set(registry.baselineIds),allowed=new Set(targets.map(function(t){return t.id;}));
-  var fresh=DB.universities.filter(function(u){return !base.has(u.id);});
+  /* Later, separately approved batches in other countries (e.g. the UK 2027/28 batch) are listed
+     in their own registry and are not part of the USA +50 expansion. */
+  var otherBatches=new Set(JSON.parse(fs.readFileSync(path.join(root,'research/claude-uk-batch1-2027.json'),'utf8')).ids);
+  var fresh=DB.universities.filter(function(u){return !base.has(u.id)&&!otherBatches.has(u.id);});
+  ok(DB.universities.every(function(u){return !otherBatches.has(u.id)||u.country==='uk';}),'separately registered batches outside the USA expansion are UK records only');
   ok(base.size===370 && registry.baselineIds.every(function(id){return !!U.uniById(id);}),
      'USA +50 preserves every original institution, including all 370 baseline IDs');
   ok(targets.length===50 && allowed.size===50 && fresh.every(function(u){return u.country==='us'&&allowed.has(u.id);}) && DB.countries.length===6,
@@ -300,7 +304,7 @@ module.exports=function(env){
      /fully online route/.test(U.uniById('university-of-central-florida').programNote)&&
      !U.optionById('field','business').test(sfMajors,{language:['english-yes']}),
      'Pacific Stockton, Dayton degree title, USF San Francisco BSBA and UCF delivery limitations stay explicit without inventing teaching language');
-  ok(fresh.length===50&&DB.universities.length===420&&hill&&!hill.programs.includes('computer-science')&&
+  ok(fresh.length===50&&DB.universities.length===420+otherBatches.size&&hill&&!hill.programs.includes('computer-science')&&
      hill.programs.includes('mathematics')&&/minor only/.test(hill.programNote),
      'all fifty approved institutions are present; Hillsdale CS minor never becomes a confirmed bachelor-major match');
   ok(byu&&byu.city==='Provo'&&byu.academics.sat.policy===null&&U.costStatus(byu)==='previous-cycle'&&
