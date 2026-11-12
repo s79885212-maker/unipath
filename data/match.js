@@ -44,6 +44,8 @@ window.UNIPATH.match = {
   },
   annualCost: {
 
+    'wheaton-college-massachusetts': { currency: 'USD', basis: 'tuition', period: 'year', min: 39000, max: 39000, academicYear: '2027–2028', source: 'https://wheatoncollege.edu/news/wheaton-announces-new-tuition-pricing-for-fall-2027/', verified: '2026-11-12', note: 'Tuition only. Housing, meals and other expenses are additional.' },
+
     /* Approved USA +50, reviewed academic-year estimates */
     "pennsylvania-state-university-university-park": {"currency": "USD", "basis": "tuition", "period": "year", "min": 46356, "max": 46356, "academicYear": "2027–2028", "source": "https://tuition.psu.edu/rates-effective-2027-fall-semester", "verified": "2026-11-01", "note": "2027–28 University Park nonresident first-year/lower-division tuition, 12–19 credits per semester. The university publishes USD 46,356 per academic year, not a UniPath multiplication. This is tuition only: student fee USD 330 per semester, housing, meals, insurance, books, travel and other charges are additional. Upper-division, other campuses and overload rates differ. Competitive awards are not deducted."},
 
