@@ -333,6 +333,10 @@ window.UNIPATH.match = {
     /* Added with the October 2026 expansion — tuition only */
     'university-of-sussex': { currency: 'GBP', basis: 'tuition', min: 24200, max: 24200, note: 'BSc Economics example for September 2027; each course is priced separately' },
     'university-of-strathclyde': { currency: 'GBP', basis: 'tuition', min: 23200, max: 23200, note: 'BA Economics example for 2027/28; each course is priced separately' },
+    'de-montfort-university': { currency: 'GBP', basis: 'tuition', min: 17600, max: 17600, note: 'BA (Hons) Business Management example for 2027/28; each course is priced separately' },
+    'university-of-portsmouth': { currency: 'GBP', basis: 'tuition', min: 18800, max: 18800, note: 'BA (Hons) Business and Management example for 2027/28; each course is priced separately' },
+    'university-of-hertfordshire': { currency: 'GBP', basis: 'tuition', min: 17970, max: 17970, note: 'BA (Hons) Business Administration example for 2027/28; each course is priced separately' },
+    'middlesex-university': { currency: 'GBP', basis: 'tuition', min: 18300, max: 18300, note: 'International Business BA Honours example for 2027/28; each course is priced separately' },
     'university-of-greenwich': { currency: 'GBP', basis: 'tuition', min: 18525, max: 18525, note: 'Business Management, BA (Hons) example for 2027/28; each course is priced separately' },
     'coventry-university': { currency: 'GBP', basis: 'tuition', min: 18045, max: 18045, note: 'BA (Hons) Business Management example for 2027/28; each course is priced separately' },
     'university-of-westminster': { currency: 'GBP', basis: 'tuition', min: 19000, max: 19000, note: 'Business Management BA Honours example for 2027/28; each course is priced separately' },

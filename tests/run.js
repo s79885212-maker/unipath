@@ -55,8 +55,8 @@ var US_NOW = 300, US_TARGET = 350;
 var CA_NOW = 50, CA_TARGET = 50;
 ok(byCountry.us === US_NOW && US_NOW <= US_TARGET, US_NOW + ' United States records (target ' + US_TARGET + ')', 'found ' + byCountry.us);
 ok(byCountry.ca === CA_NOW && CA_NOW <= CA_TARGET, CA_NOW + ' Canadian records (target ' + CA_TARGET + ')', 'found ' + byCountry.ca);
-/* United Kingdom: 30 records plus the 2027/28 batch 1 (November 2026). */
-var UK_NOW = 35;
+/* United Kingdom: 30 records plus the 2027/28 batches 1–2 (November 2026). */
+var UK_NOW = 40;
 ok(DB.universities.length === US_NOW + 90 + UK_NOW + CA_NOW, (US_NOW + 90 + UK_NOW + CA_NOW) + ' institutions in all', 'found ' + DB.universities.length);
 ok(byCountry.uk === UK_NOW && byCountry.de === 30 && byCountry.jp === 30 && byCountry.kr === 30,
   UK_NOW + ' / 30 / 30 / 30 in the UK, Germany, Japan and Korea', JSON.stringify(byCountry));
@@ -825,6 +825,8 @@ require('./us100-batch1.js')({U:U,M:M,DB:DB,ok:ok});
 require('./us100-batch2.js')({U:U,M:M,DB:DB,ok:ok});
 group('release check regressions (November 2026)');
 require('./release-qa.js')(ok);
+group('UK 2027/28 batches');
+require('./uk-batches.js')({U:U,M:M,DB:DB,ok:ok});
 console.log('\n' + passed + ' passed, ' + failed + ' failed');
 /* Exit with a status only when run directly; tests/links.js loads this file for the data. */
 if (require.main === module) process.exit(failed ? 1 : 0);

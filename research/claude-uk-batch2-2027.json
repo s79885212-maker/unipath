@@ -1,0 +1,12 @@
+{
+ "batch": "uk-2027-batch-2",
+ "read": "2026-11-13",
+ "ids": [
+  "de-montfort-university",
+  "university-of-portsmouth",
+  "university-of-hertfordshire",
+  "university-of-huddersfield",
+  "middlesex-university"
+ ],
+ "note": "UK 2027/28 batch 2, built by tools/claude_uk_batch2.py; see research/claude-uk-batch2-report.md."
+}

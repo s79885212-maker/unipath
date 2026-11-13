@@ -1248,3 +1248,7 @@ Baylor FAQ прямо допускает international applicants к Getterman. 
 - PR #2 (`codex/us100-batch2`, 50 новых профилей США, v220) слит в dev обычным merge-коммитом по просьбе владельца; тесты 435/435.
 - Британская партия 1 пересобрана поверх нового dev генератором `tools/claude_uk_batch1.py` (Greenwich, Coventry, Westminster, Sheffield Hallam, Oxford Brookes): IELTS прямого приёма 6.0 только в профилях, Foundation/pathway отдельно, плата 2027/28 и `annualCost`, правило для Узбекистана, подтверждённые гранты. Отчёт `research/claude-uk-batch1-report.md`. Великобритания 35. 436 passed, 0 failed.
 - v222: перевод подписи нового направления «📊 Data Science» → «📊 Наука о данных». На staging v221 проверены все 55 новых профилей (50 США + 5 Великобритании): открываются в RU без ошибок JS; непереведёнными остались только официальные названия наград.
+
+## 13 ноября 2026 — v223: Великобритания 2027/28, партия 2 (ветка claude/uk-batch-2-2027, Claude)
+- Добавлены De Montfort, Portsmouth, Hertfordshire, Huddersfield, Middlesex (Великобритания 40). NTU заменён (IELTS 6.5 для бизнеса), Northumbria не взят (страница недоступна без обхода защиты). Отчёт `research/claude-uk-batch2-report.md`.
+- Общий генератор `tools/claude_uk_common.py`: профили IELTS только для прямого приёма; цена не 2027/28 подписывается годом, получает `previous-cycle` и не попадает в `annualCost` (Huddersfield). Новый тест `tests/uk-batches.js`: IELTS 5.5 в подборе никогда не «проходит» прямой приём этих вузов. 437 passed, 0 failed.
