@@ -35,8 +35,8 @@ def make_records(batch, details):
     for row in rows[1:]:
         uid, name, city, city_ru, state, kind, website, admissions, programs, field, major, major_ru = row.split('\t')
         region, region_ru = STATES[state]
-        facts = details.get(uid, {})
-        unconfirmed = []
+        facts = dict(details.get(uid, {}))
+        unconfirmed = list(facts.pop('unconfirmed', ()))
         if not facts.get('cost') or facts['cost'].get('status') == 'previous-cycle':
             unconfirmed.append(COST_UNKNOWN)
         if not (facts.get('awards') or facts.get('need')):

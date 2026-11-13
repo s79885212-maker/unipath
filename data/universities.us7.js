@@ -507,14 +507,35 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "id": "gcsu-fall-international",
+        "kind": "admission",
+        "name": "Fall admission",
+        "date": "April 1",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "source": "https://www.gcsu.edu/international/application-checklist-deadlines",
+        "verified": "2026-11-13",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.gcsu.edu/international/application-checklist-deadlines",
+          "verified": "2026-11-13"
+        }
+      }
+    ],
     "applicationFee": {
       "amount": null,
       "currency": "USD",
       "waiverAvailableToInternational": null,
       "waiver": null
     },
-    "documents": [],
+    "documents": [
+      "Secondary school records",
+      "Certified English translation of non-English documents"
+    ],
     "recommendations": null,
     "essay": null,
     "interview": null,
@@ -2103,10 +2124,10 @@ window.UNIPATH.universities.push(
     "admissions": "https://www.augie.edu/admission/applying-augustana/international-students",
     "internationalAdmissions": "https://www.augie.edu/admission/applying-augustana/international-students",
     "applicationPortal": null,
-    "scholarships": null,
+    "scholarships": "https://www.augie.edu/admission-financial-aid/financial-aid-costs-scholarships/comprehensive-costs/international-student",
     "financialAid": null,
     "programs": "https://www.augie.edu/academics/undergraduate-programs/computer-science-software-engineering",
-    "cost": null
+    "cost": "https://www.augie.edu/admission-financial-aid/financial-aid-costs-scholarships/comprehensive-costs/international-student"
   },
   "admissions": {
     "platforms": [],
@@ -2164,14 +2185,58 @@ window.UNIPATH.universities.push(
     "internationalQualifications": null
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": null,
+      "tuition": 41986,
+      "period": "year"
+    },
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "Full-time international undergraduate, double room",
+    "source": "https://www.augie.edu/admission-financial-aid/financial-aid-costs-scholarships/comprehensive-costs/international-student",
+    "verified": "2026-11-13",
+    "headline": "$57,322 I-20 estimate",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 41986
+      },
+      {
+        "label": "Housing",
+        "group": "estimate",
+        "amount": 4580
+      },
+      {
+        "label": "Meals",
+        "group": "estimate",
+        "amount": 5810
+      },
+      {
+        "label": "Student fees and housing deposit",
+        "group": "billed",
+        "amount": 1246
+      },
+      {
+        "label": "One-time international center fee",
+        "group": "billed",
+        "amount": 500
+      },
+      {
+        "label": "Books (estimate)",
+        "group": "estimate",
+        "amount": 1000
+      },
+      {
+        "label": "Health insurance",
+        "group": "estimate",
+        "amount": 2200
+      }
+    ],
     "billedSubtotal": null,
     "totalText": null,
-    "note": null
+    "note": "Published rates are for 2026–2027. Fall 2027 costs are not confirmed.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -2190,7 +2255,24 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": null
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "augustana-admission-scholarships",
+        "name": "Augustana admission scholarships",
+        "basis": "merit",
+        "amount": null,
+        "internationalEligible": true,
+        "renewable": true,
+        "note": "Full-time international undergraduates receive scholarships. The amount varies. Renewal requires full-time enrollment and good academic standing.",
+        "coverage": "Partial funding",
+        "source": "https://www.augie.edu/admission-financial-aid/financial-aid-costs-scholarships/comprehensive-costs/international-student",
+        "verified": "2026-11-13",
+        "application": "Automatic consideration with the admission application.",
+        "deadline": null,
+        "deadlineScope": "no-separate-application",
+        "firstYearEligible": true
+      }
+    ],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,
@@ -2213,20 +2295,29 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate programs",
       "url": "https://www.augie.edu/academics/undergraduate-programs/computer-science-software-engineering"
+    },
+    {
+      "label": "Scholarships",
+      "url": "https://www.augie.edu/admission-financial-aid/financial-aid-costs-scholarships/comprehensive-costs/international-student"
+    },
+    {
+      "label": "Published costs",
+      "url": "https://www.augie.edu/admission-financial-aid/financial-aid-costs-scholarships/comprehensive-costs/international-student"
     }
   ],
   "verification": {
     "level": "partial",
     "checked": [
       "International admissions",
-      "Undergraduate programs"
+      "Undergraduate programs",
+      "Scholarships",
+      "Published costs"
     ],
     "unconfirmed": [
       "Fall 2027 details require separate confirmation.",
       "A Fall 2027 application deadline for this applicant route has not been confirmed.",
       "Requirements specific to secondary qualifications from Uzbekistan were not confirmed.",
-      "A comparable full cost for the 2027–2028 academic year has not been confirmed.",
-      "Scholarship coverage for incoming international first-year students has not been confirmed."
+      "A comparable full cost for the 2027–2028 academic year has not been confirmed."
     ]
   },
   "lastVerified": "2026-11-13",
@@ -3225,7 +3316,7 @@ window.UNIPATH.universities.push(
       "note": "Not confirmed on the pages read."
     },
     "otherTests": null,
-    "internationalQualifications": null
+    "internationalQualifications": "Uzbekistan: O’rta Ma’lumot To’g’risida Shahodatnoma (Certificate of Secondary Education); minimum cumulative grade 4 (B) in secondary academic subjects. The page does not list individual required subjects."
   },
   "costs": {
     "breakdown": null,
@@ -3277,18 +3368,23 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate programs",
       "url": "https://catalog.uni.edu/chas/computerscience/"
+    },
+    {
+      "label": "Admission requirements for Uzbekistan",
+      "url": "https://admissions.uni.edu/international/undergraduate-students/country-specific-requirements/uzbekistan"
     }
   ],
   "verification": {
     "level": "partial",
     "checked": [
       "International admissions",
-      "Undergraduate programs"
+      "Undergraduate programs",
+      "Admission requirements for Uzbekistan"
     ],
     "unconfirmed": [
       "Fall 2027 details require separate confirmation.",
       "A Fall 2027 application deadline for this applicant route has not been confirmed.",
-      "Requirements specific to secondary qualifications from Uzbekistan were not confirmed.",
+      "The Uzbekistan requirements page does not identify a Fall 2027 cycle.",
       "A comparable full cost for the 2027–2028 academic year has not been confirmed.",
       "Scholarship coverage for incoming international first-year students has not been confirmed."
     ]

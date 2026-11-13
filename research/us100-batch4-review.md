@@ -13,4 +13,11 @@
 
 Источники Evansville — [международный приём](https://www.evansville.edu/intladmission/admission-requirements.cfm), [смета 2027–2028](https://www.evansville.edu/student-financial-services/tuition-and-direct-costs-international-2027-2028.cfm), [стипендии Fall 2027](https://www.evansville.edu/student-financial-services/scholarships-for-international-students-fall-2027.cfm).
 
-У всех 25 профилей пока без подтверждённых отдельных требований к документам Узбекистана и без проверенных фотографий. Суммы из прошлых циклов не участвуют в подборе. Полный бюджет Evansville считается до конкурсной помощи. Ни одна стипендия этой партии не помечена как full ride.
+Для остальных 24 вузов отдельные требования к документам Узбекистана остаются открытыми. Для 25 вузов партии проверенные фотографии пока отсутствуют. Суммы из прошлых циклов не участвуют в подборе. Полный бюджет Evansville считается до конкурсной помощи. Ни одна стипендия этой партии не помечена как full ride.
+
+
+### Дополнительная проверка
+
+- University of Northern Iowa указывает O’rta Ma’lumot To’g’risida Shahodatnoma и средний балл 4 (B) по школьным академическим предметам. Конкретные предметы и цикл Fall 2027 не указаны. [Требования для Узбекистана](https://admissions.uni.edu/international/undergraduate-students/country-specific-requirements/uzbekistan).
+- Augustana University (South Dakota) публикует смету I-20 $57 322 за 2026–2027. Стипендия при поступлении возобновляется при очном обучении и хорошей успеваемости. Индивидуальная сумма не гарантирована. [Международная смета и помощь](https://www.augie.edu/admission-financial-aid/financial-aid-costs-scholarships/comprehensive-costs/international-student).
+- Georgia College & State University указывает 1 апреля как ежегодный срок осеннего набора. [Международный приём](https://www.gcsu.edu/international/application-checklist-deadlines).

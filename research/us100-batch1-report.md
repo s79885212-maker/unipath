@@ -54,3 +54,8 @@
 ## Проверки
 
 Набор проверок `node tests/run.js` включает точный список 25 ID, разделение похожих вузов, статус даты, частичное покрытие программ, отличие частичной помощи от full ride и смету только на обучение. В браузере проверяется локальная сборка по путям тестовой версии.
+
+
+### Фото кампусов · 13 ноября 2026
+
+Установлены снимки [Creighton](https://commons.wikimedia.org/wiki/File:Creighton_University,_Omaha,_Nebraska_(31424784467).jpg), [Saint Louis](https://commons.wikimedia.org/wiki/File:DuBourg_Hall,_Saint_Louis_University,_Grand_Avenue,_Midtown,_St._Louis,_MO_-_53228574127.jpg) и [Drake](https://commons.wikimedia.org/wiki/File:Collier-Scripps_Hall_West_Face.png). Автор, лицензия, ссылка на страницу файла и изменения размера указаны в карточках. При попытке получить дополнительные снимки Commons вернул HTTP 429.

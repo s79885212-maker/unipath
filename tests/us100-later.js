@@ -22,7 +22,28 @@ module.exports = function ({ U, M, DB, ok }) {
         M.evaluate(u, { budget, currency: 'USD' }).budget.status === 'unknown'))),
       'US batch ' + batch + ' partial aid and unknown costs do not qualify for full coverage');
   }
+  const csudh = U.uniById('cal-state-dominguez-hills');
+  const csudhDates = U.roundsOf(csudh);
+  ok(csudh.admissions.applicationFee.amount === 70 &&
+     csudhDates.length === 2 && csudhDates.some(round => round.kind === 'documents') &&
+     csudhDates.every(round => round.status === 'annual-rule' && !round.dateISO),
+    'CSUDH fee and annual application/document deadlines preserve their scope');
   if (batches.includes(4)) {
+    const uni = U.uniById('university-of-northern-iowa');
+    const augie = U.uniById('augustana-university-south-dakota');
+    ok(uni.academics.internationalQualifications.includes('4 (B)') &&
+       uni.sources.some(source => source.url.endsWith('/country-specific-requirements/uzbekistan')) &&
+       uni.academics.gpa === null,
+      'Northern Iowa preserves the Uzbekistan qualification and local grade without treating it as a US GPA');
+    ok(augie.costs.status === 'previous-cycle' && augie.costs.academicYear === '2026–2027' &&
+       !DB.match.annualCost[augie.id] && U.awardKind(augie) !== 'full-ride',
+      'Augustana prior-year I-20 estimate and variable scholarship stay outside full-budget matches');
+    const photoIds = ['creighton-university', 'drake-university', 'saint-louis-university'];
+    ok(photoIds.every(id => {
+      const photo = U.uniById(id).photos.gallery[0];
+      return photo && photo.artist && photo.licenseUrl && /^https:\/\/commons\.wikimedia\.org\//.test(photo.page) &&
+        ['1.jpg', 'thumb.jpg'].every(file => fs.existsSync(path.join(__dirname, '../assets/img/universities', id, file)));
+    }), 'three reviewed campus photos include main image, thumbnail and Commons attribution');
     const ue = U.uniById('university-of-evansville');
     ok(M.evaluate(ue, { budget: 50000, currency: 'USD' }).budget.status === 'over' &&
        M.evaluate(ue, { budget: 70894, currency: 'USD' }).budget.status === 'fits',

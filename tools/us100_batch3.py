@@ -1,8 +1,9 @@
 """Verified admissions and aid details for USA expansion batch 3."""
 import us100_batch1 as b
 from us100_batch2 import CSU_TESTING
-from us200_std import L
+from us200_std import L, dm
 
+CSUDH = 'https://www.csudh.edu/future-students/international/application-checklist'
 RISD = 'https://www.risd.edu/admissions/first-year/apply-risd'
 RISD_AID = 'https://www.risd.edu/admissions/first-year/financing-your-education'
 BRYANT = 'https://www.bryant.edu/undergraduate/undergraduate-admission/applying-bryant/international-students'
@@ -39,7 +40,14 @@ def details():
     bryant['firstYearEligible'] = True
     return {
         'cal-poly-humboldt': {'testing': b.BLIND, 'test_source': CSU_TESTING, 'ielts': 6, 'ibt': (71, 4)},
-        'cal-state-dominguez-hills': {'testing': b.BLIND, 'test_source': CSU_TESTING},
+        'cal-state-dominguez-hills': {
+            'testing': b.BLIND, 'test_source': CSU_TESTING, 'application_fee': 70,
+            'rounds': [
+                b.deadline('csudh-fall-application', L(*dm('05-01')), CSUDH),
+                b.deadline('csudh-fall-documents', L(*dm('06-01')), CSUDH, kind='documents',
+                           name=L('Fall document submission', 'Подача документов на осень')),
+            ],
+        },
         'rhode-island-school-of-design': {
             'testing': b.OPTIONAL, 'test_source': RISD, 'english_source': RISD, 'ielts': 7,
             'ibt': (93, 5), 'det': 120, 'application_fee': 60, 'fee_source': RISD,
@@ -69,7 +77,7 @@ def details():
         'john-jay-college': {
             'ibt': (61, None),
             'rounds': [b.deadline('john-jay-fall-priority', L('February 1', '1 февраля'), JOHN_JAY,
-                                 name=L('Fall priorityawhpplication', 'Приоритетная подача на осень'))],
+                                 name=L('Fall priority application', 'Приоритетная подача на осень'))],
         },
         'le-moyne-college': {'ielts': 6.5, 'ibt': (79, None)},
         'embry-riddle-daytona-beach': {'ielts': 6, 'ibt': (79, 4)},

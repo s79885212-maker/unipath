@@ -221,12 +221,50 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "id": "csudh-fall-application",
+        "kind": "admission",
+        "name": "Fall admission",
+        "date": "1 May",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "source": "https://www.csudh.edu/future-students/international/application-checklist",
+        "verified": "2026-11-13",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.csudh.edu/future-students/international/application-checklist",
+          "verified": "2026-11-13"
+        }
+      },
+      {
+        "id": "csudh-fall-documents",
+        "kind": "documents",
+        "name": "Fall document submission",
+        "date": "1 June",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "source": "https://www.csudh.edu/future-students/international/application-checklist",
+        "verified": "2026-11-13",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.csudh.edu/future-students/international/application-checklist",
+          "verified": "2026-11-13"
+        }
+      }
+    ],
     "applicationFee": {
-      "amount": null,
+      "amount": 70,
       "currency": "USD",
       "waiverAvailableToInternational": null,
-      "waiver": null
+      "waiver": null,
+      "note": null,
+      "source": "https://www.csudh.edu/future-students/international/application-checklist",
+      "verified": "2026-11-13"
     },
     "documents": [],
     "recommendations": null,
@@ -1825,7 +1863,7 @@ window.UNIPATH.universities.push(
       {
         "id": "john-jay-fall-priority",
         "kind": "admission",
-        "name": "Fall priorityawhpplication",
+        "name": "Fall priority application",
         "date": "February 1",
         "dateISO": null,
         "entryTerm": null,
