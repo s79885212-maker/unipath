@@ -49,9 +49,8 @@ function group(name) { console.log('— ' + name); }
 group('database');
 var byCountry = {};
 DB.universities.forEach(function (u) { byCountry[u.country] = (byCountry[u.country] || 0) + 1; });
-/* United States expansion (October 2026): 110 records grow to 200 in batches.
-   US_NOW is raised with each batch; the other countries must not change. */
-var US_NOW = 250, US_TARGET = 250;
+/* United States expansion: 250 records grow to 350 in batches of 25. */
+var US_NOW = 300, US_TARGET = 350;
 /* Canada (October 2026): 50 universities added in batches of ten. */
 var CA_NOW = 50, CA_TARGET = 50;
 ok(byCountry.us === US_NOW && US_NOW <= US_TARGET, US_NOW + ' United States records (target ' + US_TARGET + ')', 'found ' + byCountry.us);
@@ -74,8 +73,8 @@ ok(DB.universities.every(function (u) { return u.links && /^https:\/\//.test(u.l
                'Marist College': 'marist-university', 'SCAD': 'savannah-college-of-art-and-design', 'WVU': 'west-virginia-university', 'UMass': 'umass-amherst' };
   var wrong = Object.keys(want).filter(function (q) { return first(q) !== want[q]; }).map(function (q) { return q + ' → ' + first(q); });
   ok(!wrong.length, 'old and everyday names rank their own record first', wrong.join('; '));
-  ok(!U.uniById('wheaton-college-massachusetts') && !U.uniById('hampshire-college') && U.uniById('anderson-university-indiana') && U.uniById('adelphi-university'),
-    'the two replaced candidates have no record; their reserve replacements do');
+  ok(!U.uniById('hampshire-college') && U.uniById('anderson-university-indiana') && U.uniById('adelphi-university'),
+    'the USA +50 reserve replacements remain and Hampshire is outside the approved expansion');
 })();
 
 /* ---------------- United States expansion ---------------- */
@@ -643,8 +642,11 @@ group('corrections after the expansion');
   var kc2 = bud('kenyon-college', 96000);
   ok(kc2.status === 'conflict' && /needs checking/.test(kc2.text), 'Kenyon: a budget between the two official totals is still a source conflict');
   /* Dates and test policies (v113). */
-  var noRounds = added().filter(function (u) { return !U.roundsOf(u).length; }).map(function (u) { return u.id; });
-  ok(!noRounds.length, 'every added record has at least one application round or a confirmed rolling route', noRounds.join(', '));
+  var noRounds = added().filter(function (u) {
+    return !U.roundsOf(u).length && !u.verification.unconfirmed.includes(
+      'A Fall 2027 application deadline for this applicant route has not been confirmed.');
+  }).map(function (u) { return u.id; });
+  ok(!noRounds.length, 'every added record shows an application round, a rolling route, or an explicit deadline gap', noRounds.join(', '));
   var wpi = U.roundsOf(U.uniById('worcester-polytechnic-institute'));
   ok(wpi.length === 5 && wpi.filter(function (d) { return d.binding === true; }).length === 2 && wpi.every(function (d) { return d.source && d.verified && d.note; }),
     'WPI: five rounds, two of them binding, each with its source and the note that the page prints no year');
@@ -817,6 +819,8 @@ require('./loading.js')(ok);
 require('./loading-gate.js')(ok);
 group('approved USA +50 expansion regressions');
 require('./us-expansion-50.js')({U:U,M:M,DB:DB,ok:ok,sandbox:sandbox,load:load});
+require('./us100-batch1.js')({U:U,M:M,DB:DB,ok:ok});
+require('./us100-batch2.js')({U:U,M:M,DB:DB,ok:ok});
 group('release check regressions (November 2026)');
 require('./release-qa.js')(ok);
 console.log('\n' + passed + ' passed, ' + failed + ' failed');

@@ -21,6 +21,7 @@ window.UNIPATH = window.UNIPATH || {
     { id: 'business',         label: 'Business',          icon: '📊' },
     { id: 'economics',        label: 'Economics',         icon: '📈' },
     { id: 'computer-science', label: 'Computer Science',  icon: '💻' },
+    { id: 'data-science',     label: 'Data Science',      icon: '📊' },
     { id: 'engineering',      label: 'Engineering',       icon: '⚙️' },
     { id: 'psychology',       label: 'Psychology',        icon: '🧠' },
     { id: 'biology',          label: 'Biology',           icon: '🧬' },
