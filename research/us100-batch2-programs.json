@@ -1,0 +1,498 @@
+{
+  "thomas-aquinas-college": {
+    "catalog": "https://www.thomasaquinas.edu/a-liberating-education/degree",
+    "confirmed": {}
+  },
+  "saint-anselm-college": {
+    "catalog": "https://www.anselm.edu/academics/areas-study",
+    "confirmed": {
+      "economics": {
+        "program": "Economics (BA)",
+        "url": "https://www.anselm.edu/academics/areas-study"
+      },
+      "business": {
+        "program": "Business Administration (BA)",
+        "url": "https://www.anselm.edu/academics/areas-study"
+      },
+      "computer-science": {
+        "program": "Computer Science (BA)",
+        "url": "https://www.anselm.edu/academics/areas-study"
+      },
+      "data-science": {
+        "program": "Data Science and Analytics (BA)",
+        "url": "https://www.anselm.edu/academics/areas-study"
+      }
+    }
+  },
+  "principia-college": {
+    "catalog": "https://catalog.principiacollege.edu/majors-minors/",
+    "confirmed": {
+      "economics": {
+        "program": "Economics",
+        "url": "https://catalog.principiacollege.edu/majors-minors/"
+      },
+      "business": {
+        "program": "Business Administration (BA)",
+        "url": "https://catalog.principiacollege.edu/majors-minors/"
+      },
+      "computer-science": {
+        "program": "Computer Science (BS)",
+        "url": "https://catalog.principiacollege.edu/majors-minors/"
+      }
+    }
+  },
+  "lycoming-college": {
+    "catalog": "https://www.lycoming.edu/academics/",
+    "confirmed": {
+      "economics": {
+        "program": "Economics",
+        "url": "https://www.lycoming.edu/academics/"
+      },
+      "business": {
+        "program": "Business Administration",
+        "url": "https://www.lycoming.edu/academics/"
+      },
+      "computer-science": {
+        "program": "Computer Science",
+        "url": "https://www.lycoming.edu/academics/"
+      },
+      "data-science": {
+        "program": "Data Science",
+        "url": "https://www.lycoming.edu/academics/"
+      },
+      "engineering": {
+        "program": "Applied and Engineering Physics (BS)",
+        "url": "https://www.lycoming.edu/catalog/astronomy-physics.aspx"
+      }
+    }
+  },
+  "saint-marys-college-california": {
+    "catalog": "https://www.stmarys-ca.edu/academics/undergraduate/programs",
+    "confirmed": {
+      "economics": {
+        "program": "Economics (BA or BS)",
+        "url": "https://www.stmarys-ca.edu/academics/business/economics-department/economics-degree"
+      },
+      "business": {
+        "program": "Business Administration (BS)",
+        "url": "https://www.stmarys-ca.edu/academics/undergraduate/programs"
+      },
+      "computer-science": {
+        "program": "Computer Science (BA or BS)",
+        "url": "https://www.stmarys-ca.edu/academics/undergraduate/programs"
+      },
+      "data-science": {
+        "program": "Data Science (BS)",
+        "url": "https://www.stmarys-ca.edu/academics/undergraduate/programs"
+      }
+    }
+  },
+  "university-of-redlands": {
+    "catalog": "https://www.redlands.edu/academics/browse-all-programs",
+    "confirmed": {
+      "economics": {
+        "program": "Economics (BS)",
+        "url": "https://catalog.redlands.edu/programs/BS.ECON"
+      },
+      "business": {
+        "program": "Business Administration (BS)",
+        "url": "https://www.redlands.edu/academics/undergraduate-programs/bachelor-of-science-in-business-administration"
+      },
+      "computer-science": {
+        "program": "Computer Science (BS)",
+        "url": "https://www.redlands.edu/academics/undergraduate-programs/bachelor-of-science-in-computer-science"
+      },
+      "data-science": {
+        "program": "Data Science (BA)",
+        "url": "https://www.redlands.edu/academics/undergraduate-programs/bachelor-of-arts-in-data-science"
+      }
+    }
+  },
+  "university-of-washington-bothell": {
+    "catalog": "https://www.uwb.edu/degrees",
+    "confirmed": {
+      "economics": {
+        "program": "Economics (BS)",
+        "url": "https://www.uwb.edu/degrees"
+      },
+      "business": {
+        "program": "Business Administration (BA)",
+        "url": "https://www.uwb.edu/degrees"
+      },
+      "computer-science": {
+        "program": "Computer Science & Software Engineering (BS)",
+        "url": "https://www.uwb.edu/degrees"
+      },
+      "engineering": {
+        "program": "Mechanical Engineering (BS)",
+        "url": "https://www.uwb.edu/degrees"
+      }
+    }
+  },
+  "st-edwards-university": {
+    "catalog": "https://www.stedwards.edu/academics/programs",
+    "confirmed": {
+      "economics": {
+        "program": "Applied Economics (BBA)",
+        "url": "https://www.stedwards.edu/academics/programs"
+      },
+      "business": {
+        "program": "Business Administration (BBA)",
+        "url": "https://www.stedwards.edu/academics/programs"
+      },
+      "computer-science": {
+        "program": "Computer Science (BA or BS)",
+        "url": "https://www.stedwards.edu/academics/programs"
+      },
+      "data-science": {
+        "program": "Applied Data Science (BS)",
+        "url": "https://www.stedwards.edu/academics/programs"
+      }
+    }
+  },
+  "dominican-university-of-california": {
+    "catalog": "https://www.dominican.edu/academics/undergraduate-programs",
+    "confirmed": {
+      "business": {
+        "program": "Business Administration (BA)",
+        "url": "https://www.dominican.edu/academics/undergraduate-programs/business-administration"
+      },
+      "computer-science": {
+        "program": "Applied Computer Science (BS)",
+        "url": "https://www.dominican.edu/academics/undergraduate-programs/applied-computer-science-acs"
+      }
+    }
+  },
+  "university-of-washington-tacoma": {
+    "catalog": "https://www.tacoma.uw.edu/catalog/degree-programs",
+    "confirmed": {
+      "economics": {
+        "program": "Economics and Policy Analysis (BA)",
+        "url": "https://www.tacoma.uw.edu/catalog/degree-programs"
+      },
+      "business": {
+        "program": "Business Administration (BABA)",
+        "url": "https://www.tacoma.uw.edu/catalog/degree-programs"
+      },
+      "computer-science": {
+        "program": "Computer Science and Systems (BS)",
+        "url": "https://www.tacoma.uw.edu/catalog/degree-programs"
+      },
+      "data-science": {
+        "program": "Statistics and Data Sciences (major declaration starts Autumn 2027)",
+        "url": "https://www.tacoma.uw.edu/catalog/degree-programs"
+      },
+      "engineering": {
+        "program": "Civil Engineering (BS)",
+        "url": "https://www.tacoma.uw.edu/catalog/degree-programs"
+      }
+    }
+  },
+  "point-loma-nazarene-university": {
+    "catalog": "https://www.pointloma.edu/undergraduate/programs/z-programs-list",
+    "confirmed": {
+      "business": {
+        "program": "Business Administration (BA)",
+        "url": "https://www.pointloma.edu/undergraduate/programs/z-programs-list"
+      },
+      "computer-science": {
+        "program": "Computer Science: Technical Applications (BS)",
+        "url": "https://www.pointloma.edu/undergraduate/programs/z-programs-list"
+      },
+      "data-science": {
+        "program": "Data Science (BS)",
+        "url": "https://www.pointloma.edu/undergraduate/programs/z-programs-list"
+      },
+      "engineering": {
+        "program": "Engineering (BSE)",
+        "url": "https://www.pointloma.edu/undergraduate/programs/z-programs-list"
+      }
+    }
+  },
+  "new-mexico-tech": {
+    "catalog": "https://www.nmt.edu/academics/",
+    "confirmed": {
+      "business": {
+        "program": "Management of Technology (BS)",
+        "url": "https://catalog.nmt.edu/programs/BS-MGTT/program-overview-aoYks"
+      },
+      "computer-science": {
+        "program": "Computer Science (BS)",
+        "url": "https://www.nmt.edu/academics/compsci/undergrad.php"
+      },
+      "engineering": {
+        "program": "Mechanical Engineering",
+        "url": "https://www.nmt.edu/academics/"
+      }
+    }
+  },
+  "university-of-dallas": {
+    "catalog": "https://udallas.edu/academics/programs/",
+    "confirmed": {
+      "economics": {
+        "program": "Economics (BS)",
+        "url": "https://udallas.edu/academics/programs/economics-bs/"
+      },
+      "business": {
+        "program": "Business",
+        "url": "https://udallas.edu/academics/programs/business/"
+      },
+      "computer-science": {
+        "program": "Computer Science (BS)",
+        "url": "https://udallas.edu/academics/programs/computer-science/degree-requirements/bs-computer-science.php"
+      }
+    }
+  },
+  "cal-state-monterey-bay": {
+    "catalog": "https://csumb.edu/academics/academic-outcomes/data-user-support/majors-documentation/",
+    "confirmed": {
+      "business": {
+        "program": "Business Administration (BS)",
+        "url": "https://csumb.edu/business/sb/bs-business-administration/"
+      },
+      "computer-science": {
+        "program": "Computer Science (BS)",
+        "url": "https://csumb.edu/academics/academic-outcomes/data-user-support/majors-documentation/"
+      },
+      "data-science": {
+        "program": "Statistics & Data Science (BS)",
+        "url": "https://csumb.edu/academics/academic-outcomes/data-user-support/majors-documentation/"
+      },
+      "engineering": {
+        "program": "Mechatronics Engineering (BS)",
+        "url": "https://csumb.edu/academics/academic-outcomes/data-user-support/majors-documentation/"
+      }
+    }
+  },
+  "stanislaus-state": {
+    "catalog": "https://www.csustan.edu/majors-programs",
+    "confirmed": {
+      "economics": {
+        "program": "Economics (BA)",
+        "url": "https://www.csustan.edu/economics/economics-major"
+      },
+      "business": {
+        "program": "Business Administration",
+        "url": "https://www.csustan.edu/majors-programs"
+      },
+      "computer-science": {
+        "program": "Computer Science (BS)",
+        "url": "https://www.csustan.edu/computer-science"
+      }
+    }
+  },
+  "st-marys-university-texas": {
+    "catalog": "https://catalog.stmarytx.edu/undergraduate/majors-programs/",
+    "confirmed": {
+      "economics": {
+        "program": "Economics (BS)",
+        "url": "https://catalog.stmarytx.edu/undergraduate/majors-programs/"
+      },
+      "business": {
+        "program": "Accounting (BBA)",
+        "url": "https://catalog.stmarytx.edu/undergraduate/majors-programs/"
+      },
+      "computer-science": {
+        "program": "Computer Science (BS)",
+        "url": "https://catalog.stmarytx.edu/undergraduate/majors-programs/"
+      },
+      "engineering": {
+        "program": "Computer Engineering (BS)",
+        "url": "https://catalog.stmarytx.edu/undergraduate/majors-programs/"
+      }
+    }
+  },
+  "westminster-university-utah": {
+    "catalog": "https://westminsteru.edu/academics/programs/index.html",
+    "confirmed": {
+      "economics": {
+        "program": "Economics",
+        "url": "https://westminsteru.edu/academics/programs/index.html"
+      },
+      "business": {
+        "program": "Management (BA or BS)",
+        "url": "https://catalog.westminsteru.edu/current/undergraduate/programs/business/management.html"
+      },
+      "computer-science": {
+        "program": "Computer Science",
+        "url": "https://westminsteru.edu/academics/programs/index.html"
+      }
+    }
+  },
+  "chico-state": {
+    "catalog": "https://www.csuchico.edu/academics/majors-programs/",
+    "confirmed": {
+      "economics": {
+        "program": "Economics (BS)",
+        "url": "https://www.csuchico.edu/academics/majors-programs/economics-bs.shtml"
+      },
+      "business": {
+        "program": "Business Information Systems (BS)",
+        "url": "https://www.csuchico.edu/academics/majors-programs/business-information-systems-bs.shtml"
+      },
+      "computer-science": {
+        "program": "Computer Science (BS)",
+        "url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml"
+      },
+      "engineering": {
+        "program": "Mechanical Engineering (BS)",
+        "url": "https://www.csuchico.edu/academics/majors-programs/mechanical-engineering-bs.shtml"
+      }
+    }
+  },
+  "cal-state-northridge": {
+    "catalog": "https://catalog.csun.edu/undergraduate/",
+    "confirmed": {
+      "economics": {
+        "program": "Economics (BA)",
+        "url": "https://catalog.csun.edu/academics/econ/programs/ba-economics/"
+      },
+      "business": {
+        "program": "Business Administration (BS)",
+        "url": "https://catalog.csun.edu/academics/cobae/programs/"
+      },
+      "computer-science": {
+        "program": "Computer Science (BS)",
+        "url": "https://catalog.csun.edu/academics/comp/programs/bs-computer-science/"
+      },
+      "engineering": {
+        "program": "Mechanical Engineering (BS)",
+        "url": "https://catalog.csun.edu/resource/road-map-prgms/cecs/"
+      }
+    }
+  },
+  "cal-state-san-bernardino": {
+    "catalog": "https://catalog.csusb.edu/undergraduate-degree-programs/undergraduate-degrees/",
+    "confirmed": {
+      "economics": {
+        "program": "Quantitative Economics (BS)",
+        "url": "https://catalog.csusb.edu/undergraduate-degree-programs/undergraduate-degrees/"
+      },
+      "business": {
+        "program": "Administration (BA)",
+        "url": "https://catalog.csusb.edu/colleges-schools-departments/business-public-administration/administration-ba/"
+      },
+      "computer-science": {
+        "program": "Computer Science (BS)",
+        "url": "https://catalog.csusb.edu/undergraduate-degree-programs/undergraduate-degrees/"
+      },
+      "data-science": {
+        "program": "Data Science (BS)",
+        "url": "https://catalog.csusb.edu/colleges-schools-departments/natural-sciences/computer-science-engineering/data-science-bs/"
+      },
+      "engineering": {
+        "program": "Computer Engineering (BS)",
+        "url": "https://catalog.csusb.edu/undergraduate-degree-programs/undergraduate-degrees/"
+      }
+    }
+  },
+  "cal-state-san-marcos": {
+    "catalog": "https://www.csusm.edu/academicadvising/colleges/index.html",
+    "confirmed": {
+      "economics": {
+        "program": "Economics (BA)",
+        "url": "https://www.csusm.edu/academicadvising/colleges/index.html"
+      },
+      "business": {
+        "program": "Business Administration (BS)",
+        "url": "https://www.csusm.edu/coba/degrees/bsba/index.html"
+      },
+      "computer-science": {
+        "program": "Computer Science (BS)",
+        "url": "https://www.csusm.edu/cse/degree_programs/bs_cs/index.html"
+      },
+      "engineering": {
+        "program": "Electrical Engineering",
+        "url": "https://www.csusm.edu/academicadvising/colleges/index.html"
+      }
+    }
+  },
+  "western-washington-university": {
+    "catalog": "https://www.wwu.edu/majors",
+    "confirmed": {
+      "economics": {
+        "program": "Economics",
+        "url": "https://www.wwu.edu/majors/economics"
+      },
+      "business": {
+        "program": "Business Administration",
+        "url": "https://www.wwu.edu/majors/business-administration"
+      },
+      "computer-science": {
+        "program": "Computer Science",
+        "url": "https://www.wwu.edu/majors/computer-science"
+      },
+      "data-science": {
+        "program": "Data Science (BS)",
+        "url": "https://cs.wwu.edu/data-science-bs"
+      },
+      "engineering": {
+        "program": "Electrical & Computer Engineering",
+        "url": "https://www.wwu.edu/majors/engineering"
+      }
+    }
+  },
+  "sonoma-state-university": {
+    "catalog": "https://www.sonoma.edu/programs",
+    "confirmed": {
+      "business": {
+        "program": "Business Administration",
+        "url": "https://www.sonoma.edu/programs"
+      },
+      "computer-science": {
+        "program": "Computer Science",
+        "url": "https://www.sonoma.edu/programs"
+      },
+      "engineering": {
+        "program": "Electrical Engineering",
+        "url": "https://www.sonoma.edu/programs"
+      }
+    }
+  },
+  "cal-state-east-bay": {
+    "catalog": "https://www.csueastbay.edu/futurestudents/majors/index.html",
+    "confirmed": {
+      "economics": {
+        "program": "Economics",
+        "url": "https://www.csueastbay.edu/futurestudents/majors/index.html"
+      },
+      "business": {
+        "program": "Business Administration",
+        "url": "https://www.csueastbay.edu/futurestudents/majors/index.html"
+      },
+      "computer-science": {
+        "program": "Computer Science",
+        "url": "https://www.csueastbay.edu/futurestudents/majors/index.html"
+      },
+      "data-science": {
+        "program": "Data Science",
+        "url": "https://www.csueastbay.edu/futurestudents/majors/index.html"
+      },
+      "engineering": {
+        "program": "Civil Engineering",
+        "url": "https://www.csueastbay.edu/futurestudents/majors/index.html"
+      }
+    }
+  },
+  "cal-state-bakersfield": {
+    "catalog": "https://catalog.csub.edu/academic-degrees-programs/undergraduate-majors/",
+    "confirmed": {
+      "economics": {
+        "program": "Economics (BS)",
+        "url": "https://catalog.csub.edu/academic-degrees-programs/undergraduate-majors/"
+      },
+      "business": {
+        "program": "Business Administration (BS)",
+        "url": "https://catalog.csub.edu/academic-degrees-programs/undergraduate-majors/"
+      },
+      "computer-science": {
+        "program": "Computer Science (BS)",
+        "url": "https://catalog.csub.edu/academic-degrees-programs/undergraduate-majors/computer-science-bs/"
+      },
+      "engineering": {
+        "program": "Computer Engineering (BS)",
+        "url": "https://catalog.csub.edu/academic-degrees-programs/undergraduate-majors/"
+      }
+    }
+  }
+}

@@ -165,6 +165,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Published costs",
       "url": "https://www.thomasaquinas.edu/financialaid/cost-attendance"
+    },
+    {
+      "label": "Targeted undergraduate program review",
+      "url": "https://www.thomasaquinas.edu/a-liberating-education/degree"
     }
   ],
   "verification": {
@@ -215,10 +219,18 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science",
+    "data-science"
   ],
   "englishTaughtPrograms": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science",
+    "data-science"
   ],
   "programNote": "Selected undergraduate fields from the official catalog.",
   "links": {
@@ -392,6 +404,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Published costs",
       "url": "https://www.anselm.edu/about/offices-centers-institutes/finance-administration/student-accounts-billing/tuition-and-expenses"
+    },
+    {
+      "label": "Targeted undergraduate program review",
+      "url": "https://www.anselm.edu/academics/areas-study"
     }
   ],
   "verification": {
@@ -416,6 +432,30 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.anselm.edu/academics/majors-minors/biology",
       "checked": "2026-11-13"
+    },
+    "economics": {
+      "program": "Economics (BA)",
+      "url": "https://www.anselm.edu/academics/areas-study",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "business": {
+      "program": "Business Administration (BA)",
+      "url": "https://www.anselm.edu/academics/areas-study",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "computer-science": {
+      "program": "Computer Science (BA)",
+      "url": "https://www.anselm.edu/academics/areas-study",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "data-science": {
+      "program": "Data Science and Analytics (BA)",
+      "url": "https://www.anselm.edu/academics/areas-study",
+      "checked": "2026-11-13",
+      "language": "English"
     }
   }
 },
@@ -441,10 +481,16 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science"
   ],
   "programNote": "Selected undergraduate fields from the official catalog.",
   "links": {
@@ -607,6 +653,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate programs",
       "url": "https://catalog.principiacollege.edu/majors-minors/"
+    },
+    {
+      "label": "Targeted undergraduate program review",
+      "url": "https://catalog.principiacollege.edu/majors-minors/"
     }
   ],
   "verification": {
@@ -628,6 +678,24 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://catalog.principiacollege.edu/majors-minors/",
       "checked": "2026-11-13"
+    },
+    "economics": {
+      "program": "Economics",
+      "url": "https://catalog.principiacollege.edu/majors-minors/",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "business": {
+      "program": "Business Administration (BA)",
+      "url": "https://catalog.principiacollege.edu/majors-minors/",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "computer-science": {
+      "program": "Computer Science (BS)",
+      "url": "https://catalog.principiacollege.edu/majors-minors/",
+      "checked": "2026-11-13",
+      "language": "English"
     }
   }
 },
@@ -653,10 +721,20 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science",
+    "data-science",
+    "engineering"
   ],
   "englishTaughtPrograms": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science",
+    "data-science",
+    "engineering"
   ],
   "programNote": "Selected undergraduate fields from the official catalog.",
   "links": {
@@ -826,6 +904,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Published costs",
       "url": "https://www.lycoming.edu/catalog/financial.aspx"
+    },
+    {
+      "label": "Targeted undergraduate program review",
+      "url": "https://www.lycoming.edu/academics/"
     }
   ],
   "verification": {
@@ -849,6 +931,36 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.lycoming.edu/biology/",
       "checked": "2026-11-13"
+    },
+    "economics": {
+      "program": "Economics",
+      "url": "https://www.lycoming.edu/academics/",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "business": {
+      "program": "Business Administration",
+      "url": "https://www.lycoming.edu/academics/",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "url": "https://www.lycoming.edu/academics/",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "data-science": {
+      "program": "Data Science",
+      "url": "https://www.lycoming.edu/academics/",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "engineering": {
+      "program": "Applied and Engineering Physics (BS)",
+      "url": "https://www.lycoming.edu/catalog/astronomy-physics.aspx",
+      "checked": "2026-11-13",
+      "language": "English"
     }
   }
 },
@@ -874,10 +986,18 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science",
+    "data-science"
   ],
   "englishTaughtPrograms": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science",
+    "data-science"
   ],
   "programNote": "Selected undergraduate fields from the official catalog.",
   "links": {
@@ -1005,6 +1125,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Scholarships",
       "url": "https://www.stmarys-ca.edu/financial-aid/scholarships/international-undergraduate-scholarships"
+    },
+    {
+      "label": "Targeted undergraduate program review",
+      "url": "https://www.stmarys-ca.edu/academics/undergraduate/programs"
     }
   ],
   "verification": {
@@ -1028,6 +1152,30 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.stmarys-ca.edu/arts-sciences/biology/biology-bs",
       "checked": "2026-11-13"
+    },
+    "economics": {
+      "program": "Economics (BA or BS)",
+      "url": "https://www.stmarys-ca.edu/academics/business/economics-department/economics-degree",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "business": {
+      "program": "Business Administration (BS)",
+      "url": "https://www.stmarys-ca.edu/academics/undergraduate/programs",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "computer-science": {
+      "program": "Computer Science (BA or BS)",
+      "url": "https://www.stmarys-ca.edu/academics/undergraduate/programs",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "data-science": {
+      "program": "Data Science (BS)",
+      "url": "https://www.stmarys-ca.edu/academics/undergraduate/programs",
+      "checked": "2026-11-13",
+      "language": "English"
     }
   }
 },
@@ -1053,10 +1201,18 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science",
+    "data-science"
   ],
   "englishTaughtPrograms": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science",
+    "data-science"
   ],
   "programNote": "Selected undergraduate fields from the official catalog.",
   "links": {
@@ -1202,6 +1358,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Scholarships",
       "url": "https://www.redlands.edu/admissions-and-aid/international/tuition-and-fees"
+    },
+    {
+      "label": "Targeted undergraduate program review",
+      "url": "https://www.redlands.edu/academics/browse-all-programs"
     }
   ],
   "verification": {
@@ -1225,6 +1385,30 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://catalog.redlands.edu/programs/BS.BIOL",
       "checked": "2026-11-13"
+    },
+    "economics": {
+      "program": "Economics (BS)",
+      "url": "https://catalog.redlands.edu/programs/BS.ECON",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "business": {
+      "program": "Business Administration (BS)",
+      "url": "https://www.redlands.edu/academics/undergraduate-programs/bachelor-of-science-in-business-administration",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "computer-science": {
+      "program": "Computer Science (BS)",
+      "url": "https://www.redlands.edu/academics/undergraduate-programs/bachelor-of-science-in-computer-science",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "data-science": {
+      "program": "Data Science (BA)",
+      "url": "https://www.redlands.edu/academics/undergraduate-programs/bachelor-of-arts-in-data-science",
+      "checked": "2026-11-13",
+      "language": "English"
     }
   }
 },
@@ -1250,10 +1434,18 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science",
+    "engineering"
   ],
   "englishTaughtPrograms": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science",
+    "engineering"
   ],
   "programNote": "Selected undergraduate fields from the official catalog.",
   "links": {
@@ -1450,6 +1642,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Published costs",
       "url": "https://www.uwb.edu/catalog/tuition-fees-financial-aid"
+    },
+    {
+      "label": "Targeted undergraduate program review",
+      "url": "https://www.uwb.edu/degrees"
     }
   ],
   "verification": {
@@ -1475,6 +1671,30 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.uwb.edu/stem/undergraduate/majors/biology",
       "checked": "2026-11-13"
+    },
+    "economics": {
+      "program": "Economics (BS)",
+      "url": "https://www.uwb.edu/degrees",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "business": {
+      "program": "Business Administration (BA)",
+      "url": "https://www.uwb.edu/degrees",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "computer-science": {
+      "program": "Computer Science & Software Engineering (BS)",
+      "url": "https://www.uwb.edu/degrees",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "engineering": {
+      "program": "Mechanical Engineering (BS)",
+      "url": "https://www.uwb.edu/degrees",
+      "checked": "2026-11-13",
+      "language": "English"
     }
   }
 },
@@ -1500,10 +1720,18 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science",
+    "data-science"
   ],
   "englishTaughtPrograms": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science",
+    "data-science"
   ],
   "programNote": "Selected undergraduate fields from the official catalog.",
   "links": {
@@ -1614,6 +1842,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Scholarships",
       "url": "https://www.stedwards.edu/cost-aid/financial-aid/international-students"
+    },
+    {
+      "label": "Targeted undergraduate program review",
+      "url": "https://www.stedwards.edu/academics/programs"
     }
   ],
   "verification": {
@@ -1637,6 +1869,30 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.stedwards.edu/academics/majors-programs/biology",
       "checked": "2026-11-13"
+    },
+    "economics": {
+      "program": "Applied Economics (BBA)",
+      "url": "https://www.stedwards.edu/academics/programs",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "business": {
+      "program": "Business Administration (BBA)",
+      "url": "https://www.stedwards.edu/academics/programs",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "computer-science": {
+      "program": "Computer Science (BA or BS)",
+      "url": "https://www.stedwards.edu/academics/programs",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "data-science": {
+      "program": "Applied Data Science (BS)",
+      "url": "https://www.stedwards.edu/academics/programs",
+      "checked": "2026-11-13",
+      "language": "English"
     }
   }
 },
@@ -1662,10 +1918,14 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "biology"
+    "biology",
+    "business",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
-    "biology"
+    "biology",
+    "business",
+    "computer-science"
   ],
   "programNote": "Selected undergraduate fields from the official catalog.",
   "links": {
@@ -1788,6 +2048,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Scholarships",
       "url": "https://www.dominican.edu/admissions/tuition-and-financial-aid/scholarships-and-grants/undergraduate-scholarships-and-grants"
+    },
+    {
+      "label": "Targeted undergraduate program review",
+      "url": "https://www.dominican.edu/academics/undergraduate-programs"
     }
   ],
   "verification": {
@@ -1811,6 +2075,18 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.dominican.edu/academics/undergraduate-programs/biological-sciences",
       "checked": "2026-11-13"
+    },
+    "business": {
+      "program": "Business Administration (BA)",
+      "url": "https://www.dominican.edu/academics/undergraduate-programs/business-administration",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "computer-science": {
+      "program": "Applied Computer Science (BS)",
+      "url": "https://www.dominican.edu/academics/undergraduate-programs/applied-computer-science-acs",
+      "checked": "2026-11-13",
+      "language": "English"
     }
   }
 },
@@ -1836,10 +2112,20 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science",
+    "data-science",
+    "engineering"
   ],
   "englishTaughtPrograms": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science",
+    "data-science",
+    "engineering"
   ],
   "programNote": "Selected undergraduate fields from the official catalog.",
   "links": {
@@ -1850,7 +2136,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": null,
     "programs": "https://www.tacoma.uw.edu/sias/sam/biomedical-sciences",
-    "cost": null
+    "cost": "https://www.tacoma.uw.edu/oga/isss-tuition"
   },
   "admissions": {
     "platforms": [],
@@ -1917,14 +2203,58 @@ window.UNIPATH.universities.push(
     "internationalQualifications": null
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": null,
+      "comprehensive": true,
+      "budget": 67548
+    },
+    "academicYear": "2025–2026",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "International first-year applicants",
+    "source": "https://www.tacoma.uw.edu/oga/isss-tuition",
+    "verified": "2026-11-13",
+    "headline": "$67,548 published international estimate",
+    "items": [
+      {
+        "label": "Tuition and fees",
+        "group": "billed",
+        "amount": 45111
+      },
+      {
+        "label": "Housing and meals",
+        "group": "estimate",
+        "amount": 16371
+      },
+      {
+        "label": "Health insurance",
+        "group": "estimate",
+        "amount": 1374
+      },
+      {
+        "label": "International student programming fee",
+        "group": "estimate",
+        "amount": 210
+      },
+      {
+        "label": "Books and supplies",
+        "group": "estimate",
+        "amount": 900
+      },
+      {
+        "label": "Transportation",
+        "group": "estimate",
+        "amount": 1074
+      },
+      {
+        "label": "Personal expenses",
+        "group": "estimate",
+        "amount": 2508
+      }
+    ],
     "billedSubtotal": null,
     "totalText": null,
-    "note": null
+    "note": "Published international undergraduate estimate for 2025–2026.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -1970,6 +2300,14 @@ window.UNIPATH.universities.push(
     {
       "label": "English proficiency requirements",
       "url": "https://www.tacoma.uw.edu/catalog/english-proficiency-requirements"
+    },
+    {
+      "label": "Targeted undergraduate program review",
+      "url": "https://www.tacoma.uw.edu/catalog/degree-programs"
+    },
+    {
+      "label": "Published costs",
+      "url": "https://www.tacoma.uw.edu/oga/isss-tuition"
     }
   ],
   "verification": {
@@ -1993,6 +2331,36 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.tacoma.uw.edu/sias/sam/biomedical-sciences",
       "checked": "2026-11-13"
+    },
+    "economics": {
+      "program": "Economics and Policy Analysis (BA)",
+      "url": "https://www.tacoma.uw.edu/catalog/degree-programs",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "business": {
+      "program": "Business Administration (BABA)",
+      "url": "https://www.tacoma.uw.edu/catalog/degree-programs",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "computer-science": {
+      "program": "Computer Science and Systems (BS)",
+      "url": "https://www.tacoma.uw.edu/catalog/degree-programs",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "data-science": {
+      "program": "Statistics and Data Sciences (major declaration starts Autumn 2027)",
+      "url": "https://www.tacoma.uw.edu/catalog/degree-programs",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "engineering": {
+      "program": "Civil Engineering (BS)",
+      "url": "https://www.tacoma.uw.edu/catalog/degree-programs",
+      "checked": "2026-11-13",
+      "language": "English"
     }
   }
 },
@@ -2018,10 +2386,18 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "biology"
+    "biology",
+    "business",
+    "computer-science",
+    "data-science",
+    "engineering"
   ],
   "englishTaughtPrograms": [
-    "biology"
+    "biology",
+    "business",
+    "computer-science",
+    "data-science",
+    "engineering"
   ],
   "programNote": "Selected undergraduate fields from the official catalog.",
   "links": {
@@ -2129,6 +2505,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Scholarships",
       "url": "https://www.pointloma.edu/undergraduate/cost-financial-aid/scholarships"
+    },
+    {
+      "label": "Targeted undergraduate program review",
+      "url": "https://www.pointloma.edu/undergraduate/programs/z-programs-list"
     }
   ],
   "verification": {
@@ -2152,6 +2532,30 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.pointloma.edu/schools-departments-colleges/department-biology",
       "checked": "2026-11-13"
+    },
+    "business": {
+      "program": "Business Administration (BA)",
+      "url": "https://www.pointloma.edu/undergraduate/programs/z-programs-list",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "computer-science": {
+      "program": "Computer Science: Technical Applications (BS)",
+      "url": "https://www.pointloma.edu/undergraduate/programs/z-programs-list",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "data-science": {
+      "program": "Data Science (BS)",
+      "url": "https://www.pointloma.edu/undergraduate/programs/z-programs-list",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "engineering": {
+      "program": "Engineering (BSE)",
+      "url": "https://www.pointloma.edu/undergraduate/programs/z-programs-list",
+      "checked": "2026-11-13",
+      "language": "English"
     }
   }
 },
@@ -2177,10 +2581,16 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "biology"
+    "biology",
+    "business",
+    "computer-science",
+    "engineering"
   ],
   "englishTaughtPrograms": [
-    "biology"
+    "biology",
+    "business",
+    "computer-science",
+    "engineering"
   ],
   "programNote": "Selected undergraduate fields from the official catalog.",
   "links": {
@@ -2299,6 +2709,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate programs",
       "url": "https://www.nmt.edu/academics/biology/undergrad.php"
+    },
+    {
+      "label": "Targeted undergraduate program review",
+      "url": "https://www.nmt.edu/academics/"
     }
   ],
   "verification": {
@@ -2321,6 +2735,24 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.nmt.edu/academics/biology/undergrad.php",
       "checked": "2026-11-13"
+    },
+    "business": {
+      "program": "Management of Technology (BS)",
+      "url": "https://catalog.nmt.edu/programs/BS-MGTT/program-overview-aoYks",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "computer-science": {
+      "program": "Computer Science (BS)",
+      "url": "https://www.nmt.edu/academics/compsci/undergrad.php",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "engineering": {
+      "program": "Mechanical Engineering",
+      "url": "https://www.nmt.edu/academics/",
+      "checked": "2026-11-13",
+      "language": "English"
     }
   }
 },
@@ -2346,10 +2778,16 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science"
   ],
   "programNote": "Selected undergraduate fields from the official catalog.",
   "links": {
@@ -2480,6 +2918,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate programs",
       "url": "https://udallas.edu/academics/programs/biology-bs/"
+    },
+    {
+      "label": "Targeted undergraduate program review",
+      "url": "https://udallas.edu/academics/programs/"
     }
   ],
   "verification": {
@@ -2502,6 +2944,24 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://udallas.edu/academics/programs/biology-bs/",
       "checked": "2026-11-13"
+    },
+    "economics": {
+      "program": "Economics (BS)",
+      "url": "https://udallas.edu/academics/programs/economics-bs/",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "business": {
+      "program": "Business",
+      "url": "https://udallas.edu/academics/programs/business/",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "computer-science": {
+      "program": "Computer Science (BS)",
+      "url": "https://udallas.edu/academics/programs/computer-science/degree-requirements/bs-computer-science.php",
+      "checked": "2026-11-13",
+      "language": "English"
     }
   }
 },
@@ -2527,10 +2987,18 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "biology"
+    "biology",
+    "business",
+    "computer-science",
+    "data-science",
+    "engineering"
   ],
   "englishTaughtPrograms": [
-    "biology"
+    "biology",
+    "business",
+    "computer-science",
+    "data-science",
+    "engineering"
   ],
   "programNote": "Selected undergraduate fields from the official catalog.",
   "links": {
@@ -2541,7 +3009,7 @@ window.UNIPATH.universities.push(
     "scholarships": "https://csumb.edu/international/student-resources/scholarships/",
     "financialAid": null,
     "programs": "https://csumb.edu/biologychemistry/biology-bs/",
-    "cost": null
+    "cost": "https://csumb.edu/international/program-options/bachelors-degree/international-student-tuition--fees-at-cal-state-monterey-bay/"
   },
   "admissions": {
     "platforms": [],
@@ -2600,14 +3068,43 @@ window.UNIPATH.universities.push(
     "internationalQualifications": null
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": null,
+      "comprehensive": true,
+      "budget": 43386
+    },
+    "academicYear": "2025–2026",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "International first-year applicants",
+    "source": "https://csumb.edu/international/program-options/bachelors-degree/international-student-tuition--fees-at-cal-state-monterey-bay/",
+    "verified": "2026-11-13",
+    "headline": "$43,386 published international estimate",
+    "items": [
+      {
+        "label": "Tuition and fees",
+        "group": "billed",
+        "amount": 19200
+      },
+      {
+        "label": "Estimated living expenses",
+        "group": "estimate",
+        "amount": 17448
+      },
+      {
+        "label": "Personal expenses including books",
+        "group": "estimate",
+        "amount": 5038
+      },
+      {
+        "label": "Health insurance",
+        "group": "estimate",
+        "amount": 1700
+      }
+    ],
     "billedSubtotal": null,
     "totalText": null,
-    "note": null
+    "note": "2025–2026 international undergraduate estimate at 12 units per semester. Summer is excluded.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -2674,6 +3171,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Scholarships",
       "url": "https://csumb.edu/international/student-resources/scholarships/"
+    },
+    {
+      "label": "Targeted undergraduate program review",
+      "url": "https://csumb.edu/academics/academic-outcomes/data-user-support/majors-documentation/"
+    },
+    {
+      "label": "Published costs",
+      "url": "https://csumb.edu/international/program-options/bachelors-degree/international-student-tuition--fees-at-cal-state-monterey-bay/"
     }
   ],
   "verification": {
@@ -2699,6 +3204,30 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://csumb.edu/biologychemistry/biology-bs/",
       "checked": "2026-11-13"
+    },
+    "business": {
+      "program": "Business Administration (BS)",
+      "url": "https://csumb.edu/business/sb/bs-business-administration/",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "computer-science": {
+      "program": "Computer Science (BS)",
+      "url": "https://csumb.edu/academics/academic-outcomes/data-user-support/majors-documentation/",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "data-science": {
+      "program": "Statistics & Data Science (BS)",
+      "url": "https://csumb.edu/academics/academic-outcomes/data-user-support/majors-documentation/",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "engineering": {
+      "program": "Mechatronics Engineering (BS)",
+      "url": "https://csumb.edu/academics/academic-outcomes/data-user-support/majors-documentation/",
+      "checked": "2026-11-13",
+      "language": "English"
     }
   }
 },
@@ -2724,10 +3253,16 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science"
   ],
   "programNote": "Selected undergraduate fields from the official catalog.",
   "links": {
@@ -2855,6 +3390,10 @@ window.UNIPATH.universities.push(
     {
       "label": "SAT and ACT",
       "url": "https://www.calstate.edu/apply/freshman/getting_into_the_csu/pages/testing-requirements.aspx"
+    },
+    {
+      "label": "Targeted undergraduate program review",
+      "url": "https://www.csustan.edu/majors-programs"
     }
   ],
   "verification": {
@@ -2878,6 +3417,24 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.csustan.edu/biology/biological-sciences-major",
       "checked": "2026-11-13"
+    },
+    "economics": {
+      "program": "Economics (BA)",
+      "url": "https://www.csustan.edu/economics/economics-major",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "business": {
+      "program": "Business Administration",
+      "url": "https://www.csustan.edu/majors-programs",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "computer-science": {
+      "program": "Computer Science (BS)",
+      "url": "https://www.csustan.edu/computer-science",
+      "checked": "2026-11-13",
+      "language": "English"
     }
   }
 },
@@ -2903,10 +3460,18 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science",
+    "engineering"
   ],
   "englishTaughtPrograms": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science",
+    "engineering"
   ],
   "programNote": "Selected undergraduate fields from the official catalog.",
   "links": {
@@ -3025,6 +3590,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate programs",
       "url": "https://www.stmarytx.edu/academics/programs/biology/"
+    },
+    {
+      "label": "Targeted undergraduate program review",
+      "url": "https://catalog.stmarytx.edu/undergraduate/majors-programs/"
     }
   ],
   "verification": {
@@ -3047,6 +3616,30 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.stmarytx.edu/academics/programs/biology/",
       "checked": "2026-11-13"
+    },
+    "economics": {
+      "program": "Economics (BS)",
+      "url": "https://catalog.stmarytx.edu/undergraduate/majors-programs/",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "business": {
+      "program": "Accounting (BBA)",
+      "url": "https://catalog.stmarytx.edu/undergraduate/majors-programs/",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "computer-science": {
+      "program": "Computer Science (BS)",
+      "url": "https://catalog.stmarytx.edu/undergraduate/majors-programs/",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "engineering": {
+      "program": "Computer Engineering (BS)",
+      "url": "https://catalog.stmarytx.edu/undergraduate/majors-programs/",
+      "checked": "2026-11-13",
+      "language": "English"
     }
   }
 },
@@ -3072,10 +3665,16 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science"
   ],
   "englishTaughtPrograms": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science"
   ],
   "programNote": "Selected undergraduate fields from the official catalog.",
   "links": {
@@ -3198,6 +3797,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Scholarships",
       "url": "https://westminsteru.edu/admissions/international-admissions/international-student-financial-aid.html"
+    },
+    {
+      "label": "Targeted undergraduate program review",
+      "url": "https://westminsteru.edu/academics/programs/index.html"
     }
   ],
   "verification": {
@@ -3221,6 +3824,24 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://westminsteru.edu/academics/programs/biology/index.html",
       "checked": "2026-11-13"
+    },
+    "economics": {
+      "program": "Economics",
+      "url": "https://westminsteru.edu/academics/programs/index.html",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "business": {
+      "program": "Management (BA or BS)",
+      "url": "https://catalog.westminsteru.edu/current/undergraduate/programs/business/management.html",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "url": "https://westminsteru.edu/academics/programs/index.html",
+      "checked": "2026-11-13",
+      "language": "English"
     }
   }
 },
@@ -3246,10 +3867,18 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science",
+    "engineering"
   ],
   "englishTaughtPrograms": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science",
+    "engineering"
   ],
   "programNote": "Selected undergraduate fields from the official catalog.",
   "links": {
@@ -3372,6 +4001,10 @@ window.UNIPATH.universities.push(
     {
       "label": "SAT and ACT",
       "url": "https://www.calstate.edu/apply/freshman/getting_into_the_csu/pages/testing-requirements.aspx"
+    },
+    {
+      "label": "Targeted undergraduate program review",
+      "url": "https://www.csuchico.edu/academics/majors-programs/"
     }
   ],
   "verification": {
@@ -3396,6 +4029,30 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.csuchico.edu/academics/majors-programs/biological-sciences-bs.shtml",
       "checked": "2026-11-13"
+    },
+    "economics": {
+      "program": "Economics (BS)",
+      "url": "https://www.csuchico.edu/academics/majors-programs/economics-bs.shtml",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "business": {
+      "program": "Business Information Systems (BS)",
+      "url": "https://www.csuchico.edu/academics/majors-programs/business-information-systems-bs.shtml",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "computer-science": {
+      "program": "Computer Science (BS)",
+      "url": "https://www.csuchico.edu/academics/majors-programs/computer-science-bs.shtml",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "engineering": {
+      "program": "Mechanical Engineering (BS)",
+      "url": "https://www.csuchico.edu/academics/majors-programs/mechanical-engineering-bs.shtml",
+      "checked": "2026-11-13",
+      "language": "English"
     }
   }
 },
@@ -3421,10 +4078,18 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science",
+    "engineering"
   ],
   "englishTaughtPrograms": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science",
+    "engineering"
   ],
   "programNote": "Selected undergraduate fields from the official catalog.",
   "links": {
@@ -3453,12 +4118,32 @@ window.UNIPATH.universities.push(
     "notes": []
   },
   "english": {
-    "ielts": null,
-    "toefl": null,
+    "ielts": {
+      "min": 6,
+      "recommended": null,
+      "note": null
+    },
+    "toefl": {
+      "min": 61,
+      "recommended": null,
+      "note": null,
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 61,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 3.5,
+          "recommended": null
+        }
+      ]
+    },
     "duolingo": null,
     "waiver": null,
     "note": null,
-    "detailsSource": "https://www.csun.edu/international-first-time-freshman",
+    "detailsSource": "https://www.csun.edu/admissions-financial-aid/how-to-apply/international-students/international-first-time-freshmen",
     "detailsVerified": "2026-11-13"
   },
   "academics": {
@@ -3536,6 +4221,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Scholarships",
       "url": "https://www.csun.edu/international/international-students/scholarship-opportunities-international-students"
+    },
+    {
+      "label": "Targeted undergraduate program review",
+      "url": "https://catalog.csun.edu/undergraduate/"
+    },
+    {
+      "label": "English proficiency requirements",
+      "url": "https://www.csun.edu/admissions-financial-aid/how-to-apply/international-students/international-first-time-freshmen"
     }
   ],
   "verification": {
@@ -3560,6 +4253,30 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.csun.edu/science-mathematics/biology/programs/bachelors-programs",
       "checked": "2026-11-13"
+    },
+    "economics": {
+      "program": "Economics (BA)",
+      "url": "https://catalog.csun.edu/academics/econ/programs/ba-economics/",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "business": {
+      "program": "Business Administration (BS)",
+      "url": "https://catalog.csun.edu/academics/cobae/programs/",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "computer-science": {
+      "program": "Computer Science (BS)",
+      "url": "https://catalog.csun.edu/academics/comp/programs/bs-computer-science/",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "engineering": {
+      "program": "Mechanical Engineering (BS)",
+      "url": "https://catalog.csun.edu/resource/road-map-prgms/cecs/",
+      "checked": "2026-11-13",
+      "language": "English"
     }
   }
 },
@@ -3585,10 +4302,20 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science",
+    "data-science",
+    "engineering"
   ],
   "englishTaughtPrograms": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science",
+    "data-science",
+    "engineering"
   ],
   "programNote": "Selected undergraduate fields from the official catalog.",
   "links": {
@@ -3599,11 +4326,52 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": null,
     "programs": "https://www.csusb.edu/join-the-pack/program-finder/biology-bs",
-    "cost": null
+    "cost": "https://www.csusb.edu/international-education/international-admissions/tuition-and-fees"
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "id": "cal-state-san-bernardino-admission-2027",
+        "kind": "admission",
+        "name": "Fall admission",
+        "date": "1 June 2027",
+        "dateISO": "2027-06-01",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
+        "source": "https://www.csusb.edu/international-education/international-admissions/application-document-deadlines",
+        "verified": "2026-11-13",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "source": "https://www.csusb.edu/international-education/international-admissions/application-document-deadlines",
+          "verified": "2026-11-13",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "quote": "Fall 2027 — international undergraduate admission: 1 June 2027"
+        }
+      },
+      {
+        "id": "cal-state-san-bernardino-documents-2027",
+        "kind": "documents",
+        "name": "International admissions documents",
+        "date": "30 June 2027",
+        "dateISO": "2027-06-30",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
+        "source": "https://www.csusb.edu/international-education/international-admissions/application-document-deadlines",
+        "verified": "2026-11-13",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "source": "https://www.csusb.edu/international-education/international-admissions/application-document-deadlines",
+          "verified": "2026-11-13",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "quote": "Fall 2027 — international undergraduate documents: 30 June 2027"
+        }
+      }
+    ],
     "applicationFee": {
       "amount": 70,
       "currency": "USD",
@@ -3670,14 +4438,51 @@ window.UNIPATH.universities.push(
     "internationalQualifications": null
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": null
+    },
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "International first-year applicants",
+    "source": "https://www.csusb.edu/international-education/international-admissions/tuition-and-fees",
+    "verified": "2026-11-13",
+    "headline": "$50,944 published international estimate",
+    "items": [
+      {
+        "label": "Tuition and fees",
+        "group": "billed",
+        "amount": 20652
+      },
+      {
+        "label": "Estimated living expenses",
+        "group": "estimate",
+        "amount": 20138
+      },
+      {
+        "label": "Books and supplies",
+        "group": "estimate",
+        "amount": 880
+      },
+      {
+        "label": "Transportation",
+        "group": "estimate",
+        "amount": 2904
+      },
+      {
+        "label": "Health insurance",
+        "group": "estimate",
+        "amount": 1956
+      },
+      {
+        "label": "Personal expenses",
+        "group": "estimate",
+        "amount": 4414
+      }
+    ],
     "billedSubtotal": null,
     "totalText": null,
-    "note": null
+    "note": "Published 2026–2027 estimate for international undergraduates. Insurance may cost more for students over 24.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -3723,6 +4528,14 @@ window.UNIPATH.universities.push(
     {
       "label": "SAT and ACT",
       "url": "https://www.calstate.edu/apply/freshman/getting_into_the_csu/pages/testing-requirements.aspx"
+    },
+    {
+      "label": "Targeted undergraduate program review",
+      "url": "https://catalog.csusb.edu/undergraduate-degree-programs/undergraduate-degrees/"
+    },
+    {
+      "label": "Published costs",
+      "url": "https://www.csusb.edu/international-education/international-admissions/tuition-and-fees"
     }
   ],
   "verification": {
@@ -3734,7 +4547,6 @@ window.UNIPATH.universities.push(
     ],
     "unconfirmed": [
       "Fall 2027 details require separate confirmation.",
-      "A Fall 2027 application deadline for this applicant route has not been confirmed.",
       "Requirements specific to secondary qualifications from Uzbekistan were not confirmed."
     ]
   },
@@ -3746,6 +4558,36 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.csusb.edu/join-the-pack/program-finder/biology-bs",
       "checked": "2026-11-13"
+    },
+    "economics": {
+      "program": "Quantitative Economics (BS)",
+      "url": "https://catalog.csusb.edu/undergraduate-degree-programs/undergraduate-degrees/",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "business": {
+      "program": "Administration (BA)",
+      "url": "https://catalog.csusb.edu/colleges-schools-departments/business-public-administration/administration-ba/",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "computer-science": {
+      "program": "Computer Science (BS)",
+      "url": "https://catalog.csusb.edu/undergraduate-degree-programs/undergraduate-degrees/",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "data-science": {
+      "program": "Data Science (BS)",
+      "url": "https://catalog.csusb.edu/colleges-schools-departments/natural-sciences/computer-science-engineering/data-science-bs/",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "engineering": {
+      "program": "Computer Engineering (BS)",
+      "url": "https://catalog.csusb.edu/undergraduate-degree-programs/undergraduate-degrees/",
+      "checked": "2026-11-13",
+      "language": "English"
     }
   }
 },
@@ -3771,10 +4613,18 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science",
+    "engineering"
   ],
   "englishTaughtPrograms": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science",
+    "engineering"
   ],
   "programNote": "Selected undergraduate fields from the official catalog.",
   "links": {
@@ -3785,11 +4635,32 @@ window.UNIPATH.universities.push(
     "scholarships": "https://www.csusm.edu/global/intstudents/finaid.html",
     "financialAid": null,
     "programs": "https://www.csusm.edu/biology/bsbiol/index.html",
-    "cost": null
+    "cost": "https://www.csusm.edu/global/admissions/tuitionandfees.html"
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "id": "cal-state-san-marcos-admission-2027",
+        "kind": "admission",
+        "name": "Fall admission",
+        "date": "1 June 2027",
+        "dateISO": "2027-06-01",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
+        "source": "https://www.csusm.edu/global/admissions/ugadmiss/wanttoapply.html",
+        "verified": "2026-11-13",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "source": "https://www.csusm.edu/global/admissions/ugadmiss/wanttoapply.html",
+          "verified": "2026-11-13",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "quote": "Fall 2027 — international undergraduate admission: 1 June 2027"
+        }
+      }
+    ],
     "applicationFee": {
       "amount": null,
       "currency": "USD",
@@ -3803,12 +4674,27 @@ window.UNIPATH.universities.push(
     "notes": []
   },
   "english": {
-    "ielts": null,
-    "toefl": null,
+    "ielts": {
+      "min": 5.5,
+      "recommended": null,
+      "note": null
+    },
+    "toefl": {
+      "min": 61,
+      "recommended": null,
+      "note": null,
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 61,
+          "recommended": null
+        }
+      ]
+    },
     "duolingo": null,
     "waiver": null,
-    "note": null,
-    "detailsSource": "https://www.csusm.edu/global/admissions/ugadmiss/bachdegrees.html",
+    "note": "IELTS writing: 5.5; every section: at least 5.0. TOEFL iBT writing: at least 19; every section: at least 14.",
+    "detailsSource": "https://www.csusm.edu/global/admissions/english-proficiency/freshman-and-transfer-students.html",
     "detailsVerified": "2026-11-13"
   },
   "academics": {
@@ -3829,14 +4715,36 @@ window.UNIPATH.universities.push(
     "internationalQualifications": null
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": null
+    },
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
+    "studentCategory": "International first-year applicants",
+    "source": "https://www.csusm.edu/global/admissions/tuitionandfees.html",
+    "verified": "2026-11-13",
+    "headline": "$48,696 published international estimate",
+    "items": [
+      {
+        "label": "Tuition and fees",
+        "group": "billed",
+        "amount": 20638
+      },
+      {
+        "label": "Housing and meals",
+        "group": "extra",
+        "amount": 19245
+      },
+      {
+        "label": "Insurance, books and personal expenses",
+        "group": "extra",
+        "amount": 8813
+      }
+    ],
     "billedSubtotal": null,
     "totalText": null,
-    "note": null
+    "note": "The 2026–2027 estimate uses 12 credits per semester and includes mandatory health insurance.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -3886,6 +4794,18 @@ window.UNIPATH.universities.push(
     {
       "label": "Scholarships",
       "url": "https://www.csusm.edu/global/intstudents/finaid.html"
+    },
+    {
+      "label": "Targeted undergraduate program review",
+      "url": "https://www.csusm.edu/academicadvising/colleges/index.html"
+    },
+    {
+      "label": "English proficiency requirements",
+      "url": "https://www.csusm.edu/global/admissions/english-proficiency/freshman-and-transfer-students.html"
+    },
+    {
+      "label": "Published costs",
+      "url": "https://www.csusm.edu/global/admissions/tuitionandfees.html"
     }
   ],
   "verification": {
@@ -3898,7 +4818,6 @@ window.UNIPATH.universities.push(
     ],
     "unconfirmed": [
       "Fall 2027 details require separate confirmation.",
-      "A Fall 2027 application deadline for this applicant route has not been confirmed.",
       "Requirements specific to secondary qualifications from Uzbekistan were not confirmed."
     ]
   },
@@ -3910,6 +4829,30 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.csusm.edu/biology/bsbiol/index.html",
       "checked": "2026-11-13"
+    },
+    "economics": {
+      "program": "Economics (BA)",
+      "url": "https://www.csusm.edu/academicadvising/colleges/index.html",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "business": {
+      "program": "Business Administration (BS)",
+      "url": "https://www.csusm.edu/coba/degrees/bsba/index.html",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "computer-science": {
+      "program": "Computer Science (BS)",
+      "url": "https://www.csusm.edu/cse/degree_programs/bs_cs/index.html",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "engineering": {
+      "program": "Electrical Engineering",
+      "url": "https://www.csusm.edu/academicadvising/colleges/index.html",
+      "checked": "2026-11-13",
+      "language": "English"
     }
   }
 },
@@ -3935,10 +4878,20 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science",
+    "data-science",
+    "engineering"
   ],
   "englishTaughtPrograms": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science",
+    "data-science",
+    "engineering"
   ],
   "programNote": "Selected undergraduate fields from the official catalog.",
   "links": {
@@ -3953,7 +4906,25 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "id": "wwu-international-rd",
+        "kind": "admission",
+        "name": "Regular Decision",
+        "date": "31 January",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "source": "https://admissions.wwu.edu/international/apply",
+        "verified": "2026-11-13",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://admissions.wwu.edu/international/apply",
+          "verified": "2026-11-13"
+        }
+      }
+    ],
     "applicationFee": {
       "amount": 70,
       "currency": "USD",
@@ -3975,7 +4946,23 @@ window.UNIPATH.universities.push(
       "recommended": null,
       "note": null
     },
-    "toefl": null,
+    "toefl": {
+      "min": 79,
+      "recommended": null,
+      "note": null,
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 79,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4,
+          "recommended": null
+        }
+      ]
+    },
     "duolingo": {
       "min": 105,
       "recommended": null,
@@ -4086,9 +5073,10 @@ window.UNIPATH.universities.push(
         "coverage": "Partial funding",
         "source": "https://admissions.wwu.edu/international/tuition-scholarships",
         "verified": "2026-11-13",
-        "application": "Automatic consideration with the admission application.",
+        "application": "Use Western’s own admission application. No separate IAA application.",
         "deadline": null,
-        "deadlineScope": "no-separate-application"
+        "deadlineScope": "no-separate-application",
+        "firstYearEligible": true
       }
     ],
     "needBased": {
@@ -4121,6 +5109,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Published costs",
       "url": "https://admissions.wwu.edu/international/tuition-scholarships"
+    },
+    {
+      "label": "Targeted undergraduate program review",
+      "url": "https://www.wwu.edu/majors"
     }
   ],
   "verification": {
@@ -4145,6 +5137,36 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.wwu.edu/majors/biology",
       "checked": "2026-11-13"
+    },
+    "economics": {
+      "program": "Economics",
+      "url": "https://www.wwu.edu/majors/economics",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "business": {
+      "program": "Business Administration",
+      "url": "https://www.wwu.edu/majors/business-administration",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "url": "https://www.wwu.edu/majors/computer-science",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "data-science": {
+      "program": "Data Science (BS)",
+      "url": "https://cs.wwu.edu/data-science-bs",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "engineering": {
+      "program": "Electrical & Computer Engineering",
+      "url": "https://www.wwu.edu/majors/engineering",
+      "checked": "2026-11-13",
+      "language": "English"
     }
   }
 },
@@ -4170,10 +5192,16 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "biology"
+    "biology",
+    "business",
+    "computer-science",
+    "engineering"
   ],
   "englishTaughtPrograms": [
-    "biology"
+    "biology",
+    "business",
+    "computer-science",
+    "engineering"
   ],
   "programNote": "Selected undergraduate fields from the official catalog.",
   "links": {
@@ -4188,7 +5216,28 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "id": "sonoma-state-university-admission-2027",
+        "kind": "admission",
+        "name": "Fall admission",
+        "date": "30 April 2027",
+        "dateISO": "2027-04-30",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
+        "source": "https://admissions.sonoma.edu/application-deadlines",
+        "verified": "2026-11-13",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "source": "https://admissions.sonoma.edu/application-deadlines",
+          "verified": "2026-11-13",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "quote": "Fall 2027 — international undergraduate admission: 30 April 2027"
+        }
+      }
+    ],
     "applicationFee": {
       "amount": null,
       "currency": "USD",
@@ -4202,12 +5251,27 @@ window.UNIPATH.universities.push(
     "notes": []
   },
   "english": {
-    "ielts": null,
-    "toefl": null,
+    "ielts": {
+      "min": 6,
+      "recommended": null,
+      "note": null
+    },
+    "toefl": {
+      "min": 61,
+      "recommended": null,
+      "note": null,
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 61,
+          "recommended": null
+        }
+      ]
+    },
     "duolingo": null,
     "waiver": null,
     "note": null,
-    "detailsSource": "https://international.sonoma.edu/future-international-student",
+    "detailsSource": "https://admissions.sonoma.edu/apply/international",
     "detailsVerified": "2026-11-13"
   },
   "academics": {
@@ -4285,6 +5349,14 @@ window.UNIPATH.universities.push(
     {
       "label": "Scholarships",
       "url": "https://international.sonoma.edu/international-students/tuition-fees-scholarships"
+    },
+    {
+      "label": "Targeted undergraduate program review",
+      "url": "https://www.sonoma.edu/programs"
+    },
+    {
+      "label": "English proficiency requirements",
+      "url": "https://admissions.sonoma.edu/apply/international"
     }
   ],
   "verification": {
@@ -4297,7 +5369,6 @@ window.UNIPATH.universities.push(
     ],
     "unconfirmed": [
       "Fall 2027 details require separate confirmation.",
-      "A Fall 2027 application deadline for this applicant route has not been confirmed.",
       "Requirements specific to secondary qualifications from Uzbekistan were not confirmed."
     ]
   },
@@ -4309,6 +5380,24 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://biology.sonoma.edu/programs/bachelor-science",
       "checked": "2026-11-13"
+    },
+    "business": {
+      "program": "Business Administration",
+      "url": "https://www.sonoma.edu/programs",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "url": "https://www.sonoma.edu/programs",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "engineering": {
+      "program": "Electrical Engineering",
+      "url": "https://www.sonoma.edu/programs",
+      "checked": "2026-11-13",
+      "language": "English"
     }
   }
 },
@@ -4334,10 +5423,20 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science",
+    "data-science",
+    "engineering"
   ],
   "englishTaughtPrograms": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science",
+    "data-science",
+    "engineering"
   ],
   "programNote": "Selected undergraduate fields from the official catalog.",
   "links": {
@@ -4503,6 +5602,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Scholarships",
       "url": "https://www.csueastbay.edu/iao/future-students/scholarships.html"
+    },
+    {
+      "label": "Targeted undergraduate program review",
+      "url": "https://www.csueastbay.edu/futurestudents/majors/index.html"
     }
   ],
   "verification": {
@@ -4527,6 +5630,36 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.csueastbay.edu/biology/undergraduate-degrees-offered/",
       "checked": "2026-11-13"
+    },
+    "economics": {
+      "program": "Economics",
+      "url": "https://www.csueastbay.edu/futurestudents/majors/index.html",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "business": {
+      "program": "Business Administration",
+      "url": "https://www.csueastbay.edu/futurestudents/majors/index.html",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "computer-science": {
+      "program": "Computer Science",
+      "url": "https://www.csueastbay.edu/futurestudents/majors/index.html",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "data-science": {
+      "program": "Data Science",
+      "url": "https://www.csueastbay.edu/futurestudents/majors/index.html",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "engineering": {
+      "program": "Civil Engineering",
+      "url": "https://www.csueastbay.edu/futurestudents/majors/index.html",
+      "checked": "2026-11-13",
+      "language": "English"
     }
   }
 },
@@ -4552,10 +5685,18 @@ window.UNIPATH.universities.push(
   "englishTaught": true,
   "languageOfInstruction": "English",
   "programs": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science",
+    "engineering"
   ],
   "englishTaughtPrograms": [
-    "biology"
+    "biology",
+    "economics",
+    "business",
+    "computer-science",
+    "engineering"
   ],
   "programNote": "Selected undergraduate fields from the official catalog.",
   "links": {
@@ -4731,6 +5872,10 @@ window.UNIPATH.universities.push(
     {
       "label": "SAT and ACT",
       "url": "https://www.calstate.edu/apply/freshman/getting_into_the_csu/pages/testing-requirements.aspx"
+    },
+    {
+      "label": "Targeted undergraduate program review",
+      "url": "https://catalog.csub.edu/academic-degrees-programs/undergraduate-majors/"
     }
   ],
   "verification": {
@@ -4753,6 +5898,30 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.csub.edu/biology/programs/",
       "checked": "2026-11-13"
+    },
+    "economics": {
+      "program": "Economics (BS)",
+      "url": "https://catalog.csub.edu/academic-degrees-programs/undergraduate-majors/",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "business": {
+      "program": "Business Administration (BS)",
+      "url": "https://catalog.csub.edu/academic-degrees-programs/undergraduate-majors/",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "computer-science": {
+      "program": "Computer Science (BS)",
+      "url": "https://catalog.csub.edu/academic-degrees-programs/undergraduate-majors/computer-science-bs/",
+      "checked": "2026-11-13",
+      "language": "English"
+    },
+    "engineering": {
+      "program": "Computer Engineering (BS)",
+      "url": "https://catalog.csub.edu/academic-degrees-programs/undergraduate-majors/",
+      "checked": "2026-11-13",
+      "language": "English"
     }
   }
 }

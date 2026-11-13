@@ -41,3 +41,37 @@
 | Sonoma State University | [Поступление](https://international.sonoma.edu/future-international-student) · [Программа](https://biology.sonoma.edu/programs/bachelor-science) |
 | California State University, East Bay | [Поступление](https://www.csueastbay.edu/iao/how-to-apply/first-time-freshman/admission-requirements.html) · [Программа](https://www.csueastbay.edu/biology/undergraduate-degrees-offered/) |
 | California State University, Bakersfield | [Поступление](https://www.csub.edu/isp/earn-a-degree/admission-requirements.shtml) · [Программа](https://www.csub.edu/biology/programs/) |
+
+## Ревью подбора по всем 25 профилям
+
+E — Economics, B — Business, CS — Computer Science, DS — Data Science, Eng — Engineering. В таблице перечислены только подтверждённые направления этой проверки. Пропуск означает, что отдельный бакалавриат этого кампуса не подтверждён в рамках проверки. Каталоги проверены по пяти направлениям, профили по-прежнему содержат частичные списки. У большинства вузов не подтверждены полный бюджет на 2027–2028, срок Fall 2027 или условия отдельных наград. Цифры TOEFL показывают шкалы 0–120 и 1–6 по порядку. «—» означает неизвестное значение.
+
+| Вуз | Направления | IELTS / TOEFL старая → новая | Стоимость в профиле | Подтверждённые сроки Fall 2027 | Уточнение |
+| --- | --- | --- | --- | --- | --- |
+| [Thomas Aquinas College](https://www.thomasaquinas.edu/a-liberating-education/degree) | — | — / — → — | 2026–2027, $43,700 in direct costs | — | Единый BA Liberal Arts. Помощь по нуждаемости учитывает взносы и предполагаемый заём. |
+| [Saint Anselm College](https://www.anselm.edu/academics/areas-study) | E, B, CS, DS | 6.5 / 80 → — | 2026–2027, $70,630 published institutional estimate | — | Engineering Physics указан как 3+2. Merit рассматривается автоматически. |
+| [Principia College](https://catalog.principiacollege.edu/majors-minors/) | E, B, CS | 6.5 / 80 → — | — | 2027-03-15 | Merit доступна, сумма и продление не подтверждены. |
+| [Lycoming College](https://www.lycoming.edu/academics/) | E, B, CS, DS, Eng | 6 / 70 → — | 2026–2027, $67,306 for tuition, standard housing and food | — | Merit $38–42 тыс./год, помощь по нуждаемости иностранцам не предоставляется. |
+| [Saint Mary’s College of California](https://www.stmarys-ca.edu/academics/undergraduate/programs) | E, B, CS, DS | 6.5 / 80 → 4 | — | — | Инженерный маршрут совместный с партнёром. |
+| [University of Redlands](https://www.redlands.edu/academics/browse-all-programs) | E, B, CS, DS | 6.5 / 80 → 4 | — | — | Engineering — маршрут с вузом-партнёром. |
+| [University of Washington Bothell](https://www.uwb.edu/degrees) | E, B, CS, Eng | 6.5 / 83 → 4 | 2026–2027, $45,822 in nonresident tuition | 2026-11-15, 2027-01-15 | $45 822 за обучение нерезидента, без полного бюджета. |
+| [St. Edward’s University](https://www.stedwards.edu/academics/programs) | E, B, CS, DS | — / — → — | — | — | Английский экзамен требуется при указанных условиях. Числовые пороги не подтверждены. |
+| [Dominican University of California](https://www.dominican.edu/academics/undergraduate-programs) | B, CS | 6.5 / 80 → — | — | — | Applied CS опубликован с очным вариантом. Остальные направления проверены частично. |
+| [University of Washington Tacoma](https://www.tacoma.uw.edu/catalog/degree-programs) | E, B, CS, DS, Eng | 6.5 / 76 → 4 | 2025–2026, $67,548 published international estimate | — | Объявление специальности Statistics and Data Sciences начинается осенью 2027. |
+| [Point Loma Nazarene University](https://www.pointloma.edu/undergraduate/programs/z-programs-list) | B, CS, DS, Eng | — / — → — | — | — | Economics подтверждён как minor. |
+| [New Mexico Institute of Mining and Technology](https://www.nmt.edu/academics/) | B, CS, Eng | 6.5 / 79 → — | — | — | Проверены самостоятельные степени по управлению, CS и инженерии. |
+| [University of Dallas](https://udallas.edu/academics/programs/) | E, B, CS | 6.5 / 80 → 4.5 | — | — | Требуется SAT, ACT или CLT. Новый TOEFL подтверждён. |
+| [California State University, Monterey Bay](https://csumb.edu/academics/academic-outcomes/data-user-support/majors-documentation/) | B, CS, DS, Eng | 6 / 61 → — | 2025–2026, $43 386 по международной смете | — | Грант на доплату нерезидента. Право участия до первого зачисления и продление не подтверждены. |
+| [California State University, Stanislaus](https://www.csustan.edu/majors-programs) | E, B, CS | 6 / 61 → 3.5 | — | — | Проверен Тёрлок. Данные Stockton не переносились. |
+| [St. Mary’s University (Texas)](https://catalog.stmarytx.edu/undergraduate/majors-programs/) | E, B, CS, Eng | 6 / 80 → — | — | — | Data Science указан как трек Computer Science. |
+| [Westminster University (Utah)](https://westminsteru.edu/academics/programs/index.html) | E, B, CS | 6.5 / 79 → — | — | — | Data Science — minor. Engineering — партнёрский маршрут. |
+| [California State University, Chico](https://www.csuchico.edu/academics/majors-programs/) | E, B, CS, Eng | 6 / — → — | — | — | Найденная отдельная Data Science and Analytics относится к магистратуре. |
+| [California State University, Northridge](https://catalog.csun.edu/undergraduate/) | E, B, CS, Eng | 6 / 61 → 3.5 | — | — | Data Science подтверждён как minor. |
+| [California State University, San Bernardino](https://catalog.csusb.edu/undergraduate-degree-programs/undergraduate-degrees/) | E, B, CS, DS, Eng | 5.5 / 61 → 3.5 | 2026–2027, $50 944 по международной смете | 2027-06-01, 2027-06-30 (док.) | Для международного бакалавриата заявка до 1 июня, документы до 30 июня. |
+| [California State University San Marcos](https://www.csusm.edu/academicadvising/colleges/index.html) | E, B, CS, Eng | 5.5 / 61 → — | 2026–2027, $48,696 published international estimate | 2027-06-01 | Смета $48 696 при 12 кредитах за семестр, со страховкой. |
+| [Western Washington University](https://www.wwu.edu/majors) | E, B, CS, DS, Eng | 6 / 79 → 4 | 2026–2027, $54,419 published annual attendance estimate | — | IAA частично снижает плату нерезидента. Нужна форма Western, отдельной заявки на IAA нет. |
+| [Sonoma State University](https://www.sonoma.edu/programs) | B, CS, Eng | 6 / 61 → — | — | 2027-04-30 | Data Science BS в разработке. |
+| [California State University, East Bay](https://www.csueastbay.edu/futurestudents/majors/index.html) | E, B, CS, DS, Eng | 5.5 / 61 → — | — | — | Data Science — самостоятельный BS. Сроки без года оставлены ежегодным правилом. |
+| [California State University, Bakersfield](https://catalog.csub.edu/academic-degrees-programs/undergraduate-majors/) | E, B, CS, Eng | 5.5 / 61 → 3.5 | — | 2027-06-01, 2027-06-01 (док.) | Statistical Data Science указан как концентрация Mathematics BS. Заявка и документы до 1 июня. |
+
+Во всех 25 профилях полный бюджет Fall 2027 остаётся неизвестным. Суммы прежнего цикла и частичные сметы не участвуют в положительном сравнении годового бюджета. Все 25 исключены из Full ride по имеющимся данным.

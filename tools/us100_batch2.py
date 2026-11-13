@@ -29,7 +29,23 @@ def make_records():
     previous_review_date = b.REVIEWED
     b.REVIEWED = REVIEWED
     try:
-        return build_profiles()
+        records = build_profiles()
+        evidence = json.loads((ROOT / 'research/us100-batch2-programs.json').read_text(encoding='utf-8'))
+        if set(evidence) != {record['id'] for record in records}:
+            raise ValueError('Program evidence must cover every batch 2 institution')
+        L('Data Science', 'Наука о данных')
+        for record in records:
+            reviewed = evidence[record['id']]
+            record['sources'].append({
+                'label': L('Targeted undergraduate program review', 'Проверка выбранных направлений бакалавриата'),
+                'url': reviewed['catalog'],
+            })
+            for field, program in reviewed['confirmed'].items():
+                record['programs'].append(field)
+                record['englishTaughtPrograms'].append(field)
+                record['programEvidence'][field] = dict(program, checked=REVIEWED, language='English')
+        apply_admissions_review({record['id']: record for record in records})
+        return records
     finally:
         b.REVIEWED = previous_review_date
 
@@ -303,6 +319,105 @@ def western_merit(source):
         L('Competitive partial nonresident tuition waiver. Apply by the priority deadline using Western’s own application. Annual renewal requires a 3.0 GPA, for up to four years.',
           'Конкурсное частичное освобождение от платы за обучение для нерезидентов. Нужна собственная заявка Western к приоритетному сроку. Для ежегодного продления до четырёх лет требуется GPA 3,0.'),
         separate=False, renewable=True)
+
+
+def apply_admissions_review(records):
+    language = {
+        'cal-state-northridge': (
+            'https://www.csun.edu/admissions-financial-aid/how-to-apply/international-students/international-first-time-freshmen',
+            6, (61, 3.5), None),
+        'cal-state-san-marcos': (
+            'https://www.csusm.edu/global/admissions/english-proficiency/freshman-and-transfer-students.html',
+            5.5, (61, None), L('IELTS writing: 5.5; every section: at least 5.0. TOEFL iBT writing: at least 19; every section: at least 14.',
+                               'IELTS: письмо от 5,5, каждая секция от 5,0. TOEFL iBT: письмо от 19, каждая секция от 14.')),
+        'sonoma-state-university': (
+            'https://admissions.sonoma.edu/apply/international', 6, (61, None), None),
+    }
+    for uid, (url, ielts, ibt, note) in language.items():
+        records[uid]['english'].update(ielts=b.eng(minimum=ielts), toefl=b.toefl(*ibt),
+                                       detailsSource=url, detailsVerified=REVIEWED, note=note)
+        records[uid]['sources'].append({
+            'label': L('English proficiency requirements', 'Требования к знанию английского языка'), 'url': url})
+    deadlines = {
+        'cal-state-san-bernardino': (
+            'https://www.csusb.edu/international-education/international-admissions/application-document-deadlines',
+            [('admission', '1 June 2027', '1 июня 2027', '2027-06-01'),
+             ('documents', '30 June 2027', '30 июня 2027', '2027-06-30')],
+        ),
+        'cal-state-san-marcos': (
+            'https://www.csusm.edu/global/admissions/ugadmiss/wanttoapply.html',
+            [('admission', '1 June 2027', '1 июня 2027', '2027-06-01')],
+        ),
+        'sonoma-state-university': (
+            'https://admissions.sonoma.edu/application-deadlines',
+            [('admission', '30 April 2027', '30 апреля 2027', '2027-04-30')],
+        ),
+    }
+    for uid, (url, dates) in deadlines.items():
+        record = records[uid]
+        for kind, date, date_ru, iso in dates:
+            name = b.FALL_ADMISSION if kind == 'admission' else L(
+                'International admissions documents', 'Документы для международного приёма')
+            record['admissions']['deadlines'].append(
+                b.deadline(f'{uid}-{kind}-2027', L(date, date_ru), url, kind=kind, iso=iso,
+                           evidence=f'Fall 2027 — international undergraduate {kind}: {date}', name=name))
+        record['verification']['unconfirmed'].remove(b.DEADLINE_UNKNOWN)
+    western = records['western-washington-university']
+    western['english']['toefl'] = b.toefl(79, 4)
+    western['scholarships']['merit'][0]['firstYearEligible'] = True
+    western['scholarships']['merit'][0]['application'] = L(
+        'Use Western’s own admission application. No separate IAA application.',
+        'Используйте собственную форму поступления Western. Отдельной заявки на IAA нет.')
+    western['admissions']['deadlines'].append(b.deadline(
+        'wwu-international-rd', L('31 January', '31 января'), western['links']['internationalAdmissions'],
+        name=L('Regular Decision', 'Regular Decision')))
+
+    tacoma = records['university-of-washington-tacoma']
+    tacoma['costs'] = b.costs(
+        '2025–2026', 'https://www.tacoma.uw.edu/oga/isss-tuition', REVIEWED, b.PROSPECTIVE,
+        [(b.TUITION_FEES, 45111, 'billed'), (b.FOOD_HOUSING, 16371, 'estimate'),
+         (b.INSURANCE, 1374, 'estimate'), (L('International student programming fee', 'Сбор за программы для иностранных студентов'), 210, 'estimate'),
+         (L('Books and supplies', 'Учебники и материалы'), 900, 'estimate'),
+         (L('Transportation', 'Транспорт'), 1074, 'estimate'),
+         (L('Personal expenses', 'Личные расходы'), 2508, 'estimate')],
+        L('$67,548 published international estimate', '$67 548 по международной смете'), None, None,
+        budget=67548, comprehensive=True, status='previous-cycle',
+        note=L('Published international undergraduate estimate for 2025–2026.',
+               'Опубликованная смета для иностранных студентов бакалавриата на 2025–2026 год.'))
+    san_marcos = records['cal-state-san-marcos']
+    san_marcos['costs'] = b.published_cost(
+        'https://www.csusm.edu/global/admissions/tuitionandfees.html', b.PROSPECTIVE,
+        L('$48,696 published international estimate', '$48 696 по международной смете'),
+        [(b.TUITION_FEES, 20638, 'billed'), (b.FOOD_HOUSING, 19245, 'extra'),
+         (L('Insurance, books and personal expenses', 'Страховка, учебники и личные расходы'), 8813, 'extra')],
+        note=L('The 2026–2027 estimate uses 12 credits per semester and includes mandatory health insurance.',
+               'Смета на 2026–2027 год рассчитана для 12 кредитов за семестр и включает обязательную страховку.'))
+    monterey = records['cal-state-monterey-bay']
+    monterey['costs'] = b.costs(
+        '2025–2026',
+        'https://csumb.edu/international/program-options/bachelors-degree/international-student-tuition--fees-at-cal-state-monterey-bay/',
+        REVIEWED, b.PROSPECTIVE,
+        [(b.TUITION_FEES, 19200, 'billed'), (L('Estimated living expenses', 'Оценка расходов на проживание'), 17448, 'estimate'),
+         (L('Personal expenses including books', 'Личные расходы, включая учебники'), 5038, 'estimate'),
+         (b.INSURANCE, 1700, 'estimate')],
+        L('$43,386 published international estimate', '$43 386 по международной смете'), None, None,
+        budget=43386, comprehensive=True, status='previous-cycle',
+        note=L('2025–2026 international undergraduate estimate at 12 units per semester. Summer is excluded.',
+               'Смета для иностранных студентов бакалавриата на 2025–2026 год при 12 кредитах за семестр. Летний семестр не включён.'))
+    san_bernardino = records['cal-state-san-bernardino']
+    san_bernardino['costs'] = b.published_cost(
+        'https://www.csusb.edu/international-education/international-admissions/tuition-and-fees',
+        b.PROSPECTIVE, L('$50,944 published international estimate', '$50 944 по международной смете'),
+        [(b.TUITION_FEES, 20652, 'billed'), (L('Estimated living expenses', 'Оценка расходов на проживание'), 20138, 'estimate'),
+         (L('Books and supplies', 'Учебники и материалы'), 880, 'estimate'),
+         (L('Transportation', 'Транспорт'), 2904, 'estimate'), (b.INSURANCE, 1956, 'estimate'),
+         (L('Personal expenses', 'Личные расходы'), 4414, 'estimate')],
+        note=L('Published 2026–2027 estimate for international undergraduates. Insurance may cost more for students over 24.',
+               'Опубликованная смета для иностранных студентов бакалавриата на 2026–2027 год. Для студентов старше 24 лет страховка может стоить дороже.'))
+    for record in (tacoma, san_marcos, monterey, san_bernardino):
+        url = record['costs']['source']
+        record['links']['cost'] = url
+        record['sources'].append({'label': L('Published costs', 'Опубликованная стоимость'), 'url': url})
 
 
 def principia_deadline(source):
