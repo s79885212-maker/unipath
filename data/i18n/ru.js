@@ -18121,6 +18121,7 @@ window.UNIPATH_I18N.ru = {
   "Bakersfield": "Бейкерсфилд",
   "IELTS requires at least 5.5 in each section.": "Для IELTS требуется не менее 5,5 за каждую секцию.",
   "Data Science": "Наука о данных",
+  "📊 Data Science": "📊 Наука о данных",
   "Targeted undergraduate program review": "Проверка выбранных направлений бакалавриата",
   "30 April 2027": "30 апреля 2027",
   "Use Western’s own admission application. No separate IAA application.": "Используйте собственную форму поступления Western. Отдельной заявки на IAA нет.",

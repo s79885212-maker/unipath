@@ -1247,3 +1247,4 @@ Baylor FAQ прямо допускает international applicants к Getterman. 
 ## 13 ноября 2026 — v221: слиты US100 (PR #2) и Великобритания 2027/28, партия 1 (Claude)
 - PR #2 (`codex/us100-batch2`, 50 новых профилей США, v220) слит в dev обычным merge-коммитом по просьбе владельца; тесты 435/435.
 - Британская партия 1 пересобрана поверх нового dev генератором `tools/claude_uk_batch1.py` (Greenwich, Coventry, Westminster, Sheffield Hallam, Oxford Brookes): IELTS прямого приёма 6.0 только в профилях, Foundation/pathway отдельно, плата 2027/28 и `annualCost`, правило для Узбекистана, подтверждённые гранты. Отчёт `research/claude-uk-batch1-report.md`. Великобритания 35. 436 passed, 0 failed.
+- v222: перевод подписи нового направления «📊 Data Science» → «📊 Наука о данных». На staging v221 проверены все 55 новых профилей (50 США + 5 Великобритании): открываются в RU без ошибок JS; непереведёнными остались только официальные названия наград.
