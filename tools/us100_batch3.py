@@ -4,6 +4,7 @@ from us100_batch2 import CSU_TESTING
 from us200_std import L, dm
 
 CSUDH = 'https://www.csudh.edu/future-students/international/application-checklist'
+BONAVENTURE = 'https://www.sbu.edu/admissions/international-students'
 TCNJ = 'https://admissions.tcnj.edu/applications/international-applicants/'
 BERRY_AID = 'https://www.berry.edu/admission/faq/international'
 SALVE_AID = 'https://admissions.salve.edu/register/?id=9eabcc1e-0dd6-4ea2-b34d-38d0b2e6ec52'
@@ -132,6 +133,14 @@ def details():
                             'Официальные школьные ведомости, отправленные учебным заведением напрямую'),
                           L('Certified English translation with notarization, or an official evaluation, for non-English transcripts',
                             'Для ведомостей на другом языке требуется заверенный нотариусом перевод на английский или официальная оценка документов')],
+        },
+        'st-bonaventure-university': {
+            'english_note': L('Recommended scores: TOEFL 80 or IELTS 6.0. SAT/ACT may be accepted in place of an English test if the published waiver requirements are met.',
+                              'Рекомендуемые баллы: TOEFL 80 или IELTS 6,0. SAT/ACT могут заменить языковой экзамен при выполнении опубликованных условий освобождения.'),
+            'documents': [L('Official high school transcript translated into English',
+                            'Официальная школьная ведомость с переводом на английский')],
+            'rounds': [b.deadline('bonaventure-fall-preferred', L(*dm('07-01')), BONAVENTURE,
+                                 name=L('Preferred fall application date', 'Рекомендуемый срок подачи на осень'))],
         },
         'le-moyne-college': {'ielts': 6.5, 'ibt': (79, None)},
         'embry-riddle-daytona-beach': {'ielts': 6, 'ibt': (79, 4)},

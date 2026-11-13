@@ -18522,4 +18522,12 @@ window.UNIPATH_I18N.ru = {
   "Caine Conservatory at High Point University. Resized and encoded as JPEG.": "Оранжерея Caine, High Point University. Размер уменьшен, формат JPEG.",
   "Jackson Library at Indiana Wesleyan University, Marion. Resized and encoded as JPEG.": "Библиотека Jackson, Indiana Wesleyan University, Марион. Размер уменьшен, формат JPEG.",
   "Walter Stiern Library at Cal State Bakersfield. Resized and encoded as JPEG.": "Библиотека Walter Stiern, Cal State Bakersfield. Размер уменьшен, формат JPEG.",
+  "Long Hall at Lycoming College. Resized and encoded as JPEG.": "Корпус Long Hall, Lycoming College. Размер уменьшен, формат JPEG.",
+  "Growney Stadium at St. John Fisher University. Resized and encoded as JPEG.": "Стадион Growney, St. John Fisher University. Размер уменьшен, формат JPEG.",
+  "Historic campus of Union University’s predecessor in Jackson, Tennessee, 1906. Resized and encoded as JPEG.": "Исторический кампус предшественника Union University, Джэксон, Теннесси, 1906. Размер уменьшен, формат JPEG.",
+  "Old Main at Elmhurst University, Illinois. Resized and encoded as JPEG.": "Корпус Old Main, Elmhurst University, Иллинойс. Размер уменьшен, формат JPEG.",
+  "Recommended scores: TOEFL 80 or IELTS 6.0. SAT/ACT may be accepted in place of an English test if the published waiver requirements are met.": "Рекомендуемые баллы: TOEFL 80 или IELTS 6,0. SAT/ACT могут заменить языковой экзамен при выполнении опубликованных условий освобождения.",
+  "Official high school transcript translated into English": "Официальная школьная ведомость с переводом на английский",
+  "1 July": "1 июля",
+  "Preferred fall application date": "Рекомендуемый срок подачи на осень",
 };

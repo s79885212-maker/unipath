@@ -2,7 +2,7 @@
 
 Все 100 учреждений из согласованного списка входят в четыре партии. Тире означает, что в профиле нет подтверждённого значения для этой колонки. Для стоимости указанный год сам по себе не означает полного бюджета. Программы в карточках подтверждены частично.
 
-Фотографии установлены у 95 вузов. Подтверждённая дата подачи цикла 2027 есть у 12, сбор у 43, данные стоимости с названным годом у 23, сведения о финансовой помощи у 31, требования к узбекской квалификации у 1.
+Фотографии установлены у 99 вузов. Подтверждённая дата подачи цикла 2027 есть у 12, сбор у 43, данные стоимости с названным годом у 23, сведения о финансовой помощи у 31, требования к узбекской квалификации у 1.
 
 | Вуз | Источник | Направлений | Дата заявки 2027 | Сбор USD | Английский | Стоимость | Помощь | Документы Узбекистана | Фото |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -34,7 +34,7 @@
 | Thomas Aquinas College | [приём](https://www.thomasaquinas.edu/admissions/apply) | 1 | — | 0 | — | 2026–2027 (прошлый цикл) | Есть данные | — | Есть |
 | Saint Anselm College | [приём](https://www.anselm.edu/admission/apply/international-applicants/international-first-year-applicants) | 5 | — | 50 | Есть данные | 2026–2027 (прошлый цикл) | Есть данные | — | Есть |
 | Principia College | [приём](https://www.principiacollege.edu/admissions/apply/international-students) | 4 | 2027-03-15 | 75 | Есть данные | — | Есть данные | — | Есть |
-| Lycoming College | [приём](https://www.lycoming.edu/admissions/apply/international/) | 6 | — | — | Есть данные | 2026–2027 (прошлый цикл) | Есть данные | — | Поиск Commons, подходящий файл не установлен |
+| Lycoming College | [приём](https://www.lycoming.edu/admissions/apply/international/) | 6 | — | — | Есть данные | 2026–2027 (прошлый цикл) | Есть данные | — | Есть |
 | Saint Mary’s College of California | [приём](https://www.stmarys-ca.edu/admissions-aid/undergraduate/international-admissions) | 5 | — | — | Есть данные | — | — | — | Есть |
 | University of Redlands | [приём](https://www.redlands.edu/admissions-and-aid/international/how-to-apply) | 5 | — | — | Есть данные | — | — | — | Есть |
 | University of Washington Bothell | [приём](https://www.uwb.edu/admissions/apply/international/first-year) | 5 | 2026-11-15, 2027-01-15 | 85 | Есть данные | 2026–2027 (прошлый цикл) | — | — | Есть |
@@ -72,7 +72,7 @@
 | St. Bonaventure University | [приём](https://www.sbu.edu/admissions/international-students) | 1 | — | — | — | — | — | — | Поиск Commons, подходящий файл не установлен |
 | Stockton University | [приём](https://stockton.edu/global-engagement/international/freshman-students.html) | 1 | — | 50 | Есть данные | 2026–2027 (прошлый цикл) | — | — | Есть |
 | Manhattan University | [приём](https://manhattan.edu/admissions/international/requirements) | 1 | 2027-03-01 | 75 | — | — | — | — | Есть |
-| St. John Fisher University | [приём](https://www.sjf.edu/student-life/international-student-services/admissions/first-year-admissions/) | 1 | — | — | — | — | — | — | Поиск Commons, подходящий файл не установлен |
+| St. John Fisher University | [приём](https://www.sjf.edu/student-life/international-student-services/admissions/first-year-admissions/) | 1 | — | — | — | — | — | — | Есть |
 | Wentworth Institute of Technology | [приём](https://wit.edu/admissions/undergraduate/international) | 1 | — | 50 | — | — | — | — | Есть |
 | Berry College | [приём](https://www.berry.edu/admission/how-to-apply/international) | 1 | — | 50 | — | — | Есть данные | — | Есть |
 | Embry–Riddle Aeronautical University (Daytona Beach) | [приём](https://erau.edu/admissions/international-admissions/international-students) | 1 | — | — | Есть данные | — | — | — | Есть |
@@ -81,7 +81,7 @@
 | Tuskegee University | [приём](https://www.tuskegee.edu/admissions/criteria-for-international-students.html) | 1 | — | 35 | — | — | — | — | Есть |
 | College of Charleston | [приём](https://charleston.edu/admission/index.php) | 1 | — | — | — | — | — | — | Есть |
 | Hampton University | [приём](https://home.hamptonu.edu/admissions/international-students/) | 1 | — | 60 | — | — | — | — | Есть |
-| Union University | [приём](https://www.uu.edu/admissions/undergraduate/international/) | 1 | — | 35 | Есть данные | — | — | — | Поиск Commons, подходящий файл не установлен |
+| Union University | [приём](https://www.uu.edu/admissions/undergraduate/international/) | 1 | — | 35 | Есть данные | — | — | — | Есть |
 | Loyola University New Orleans | [приём](https://www.loyno.edu/admissions/how-apply/international-undergraduate-students) | 1 | — | — | — | — | — | — | Есть |
 | University of Tampa | [приём](https://www.ut.edu/apply/international-students) | 1 | — | 40 | — | — | — | — | Есть |
 | Georgia College & State University | [приём](https://www.gcsu.edu/international/application-checklist-deadlines) | 1 | — | — | — | — | — | — | Есть |
@@ -97,7 +97,7 @@
 | Augustana University | [приём](https://www.augie.edu/admission/applying-augustana/international-students) | 1 | — | 0 | Есть данные | 2026–2027 (прошлый цикл) | Есть данные | — | Есть |
 | Dordt University | [приём](https://www.dordt.edu/admissions-and-aid/apply-now/international-applicant) | 1 | — | — | — | — | — | — | Есть |
 | Valparaiso University | [приём](https://www.valpo.edu/admission/) | 1 | — | — | — | — | — | — | Есть |
-| Elmhurst University | [приём](https://www.elmhurst.edu/admission/international-students/admission-requirements/first-year/) | 1 | — | — | — | — | — | — | Поиск Commons, подходящий файл не установлен |
+| Elmhurst University | [приём](https://www.elmhurst.edu/admission/international-students/admission-requirements/first-year/) | 1 | — | — | — | — | — | — | Есть |
 | Rockhurst University | [приём](https://www.rockhurst.edu/admissions/international) | 1 | — | — | — | — | — | — | Есть |
 | Baldwin Wallace University | [приём](https://www.bw.edu/admission/international/) | 1 | — | — | — | — | — | — | Есть |
 | Indiana Wesleyan University | [приём](https://www.indwes.edu/pathways/international/international-campus) | 1 | — | — | — | — | — | — | Есть |

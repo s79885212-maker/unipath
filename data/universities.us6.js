@@ -2456,14 +2456,34 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "id": "bonaventure-fall-preferred",
+        "kind": "admission",
+        "name": "Preferred fall application date",
+        "date": "1 July",
+        "dateISO": null,
+        "entryTerm": null,
+        "entryYear": null,
+        "status": "annual-rule",
+        "source": "https://www.sbu.edu/admissions/international-students",
+        "verified": "2026-11-13",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.sbu.edu/admissions/international-students",
+          "verified": "2026-11-13"
+        }
+      }
+    ],
     "applicationFee": {
       "amount": null,
       "currency": "USD",
       "waiverAvailableToInternational": null,
       "waiver": null
     },
-    "documents": [],
+    "documents": [
+      "Official high school transcript translated into English"
+    ],
     "recommendations": null,
     "essay": null,
     "interview": null,
@@ -2474,7 +2494,7 @@ window.UNIPATH.universities.push(
     "toefl": null,
     "duolingo": null,
     "waiver": null,
-    "note": null,
+    "note": "Recommended scores: TOEFL 80 or IELTS 6.0. SAT/ACT may be accepted in place of an English test if the published waiver requirements are met.",
     "detailsSource": "https://www.sbu.edu/admissions/international-students",
     "detailsVerified": "2026-11-13"
   },
