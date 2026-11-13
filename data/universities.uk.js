@@ -4278,5 +4278,1357 @@ window.UNIPATH.universities.push(
     "gallery": [],
     "city": null
   }
+},
+{
+  "id": "university-of-greenwich",
+  "name": "University of Greenwich",
+  "shortName": "Greenwich",
+  "country": "uk",
+  "city": "London",
+  "region": "England",
+  "founded": null,
+  "type": "Public university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#1F2A44",
+    "c2": "#0f1626",
+    "initials": "UoG"
+  },
+  "description": "A public university in London. Applications go through UCAS. This profile is built from one named Business programme with its 2027/28 international fee, the direct-entry IELTS level, the Uzbekistan entry rule where the university publishes one, and the Foundation or pathway route kept separate.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business"
+  ],
+  "englishTaughtPrograms": [
+    "business"
+  ],
+  "programsBasis": "evidence",
+  "programsStatus": "partial",
+  "programEvidence": {
+    "business": {
+      "program": "Business Management, BA (Hons)",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.gre.ac.uk/undergraduate-courses/business-school/business-management-ba-hons/2027",
+      "checked": "2026-11-12"
+    }
+  },
+  "programNote": "Only one programme was checked in this batch (UCAS code N210); other subjects are not recorded yet, which does not mean the university does not offer them.",
+  "links": {
+    "website": "https://www.gre.ac.uk/",
+    "internationalAdmissions": "https://www.gre.ac.uk/international/countries/uzbekistan",
+    "applicationPortal": "https://www.ucas.com/",
+    "programs": "https://www.gre.ac.uk/undergraduate-courses/business-school/business-management-ba-hons/2027",
+    "cost": "https://www.gre.ac.uk/undergraduate-courses/business-school/business-management-ba-hons/2027"
+  },
+  "admissions": {
+    "platforms": [
+      "UCAS (required for all undergraduate courses)"
+    ],
+    "deadlines": [
+      {
+        "name": "UCAS equal consideration deadline (2027 entry)",
+        "kind": "ucas-main",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-13",
+        "date": "13 January 2027",
+        "time": "18:00",
+        "timezone": "UK time",
+        "binding": false,
+        "appliesTo": "All undergraduate courses except those with a 15 October deadline",
+        "conditions": "Applications received by this time must be considered equally",
+        "status": "confirmed",
+        "source": "https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546",
+        "verified": "2026-09-23",
+        "note": null
+      },
+      {
+        "name": "UCAS: register and start the application (2027 entry)",
+        "kind": "opens",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-05-12",
+        "date": "12 May 2026",
+        "binding": false,
+        "appliesTo": "All applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications",
+        "verified": "2026-09-23",
+        "note": "One UCAS application holds up to five course choices"
+      },
+      {
+        "name": "UCAS: completed applications can be sent (2027 entry)",
+        "kind": "opens",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-09-01",
+        "date": "1 September 2026",
+        "binding": false,
+        "appliesTo": "All applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications",
+        "verified": "2026-10-11",
+        "note": "A reference is needed before the application can be sent"
+      }
+    ],
+    "applicationFee": {
+      "amount": 34.5,
+      "currency": "GBP",
+      "waiverAvailableToInternational": false,
+      "waiver": null,
+      "note": "The £34.50 is the UCAS fee for the whole 2027-cycle application (up to five choices), not a university fee. UCAS waives it only for UK free-school-meal recipients and care leavers."
+    },
+    "documents": [
+      "UCAS application with personal statement",
+      "Academic reference",
+      "Predicted or achieved school-leaving grades",
+      "Proof of English where required"
+    ],
+    "recommendations": "One academic reference through UCAS",
+    "essay": "UCAS personal statement",
+    "interview": null,
+    "notes": [
+      "Start dates for this programme: September or January.",
+      "Foundation route: Business Management with Foundation Year, BA (UCAS N203, 4 years, 64 UCAS points). Its page shows an international fee of £17,975 a year, the same as the 2026/27 rate of the three-year degree, so the year of that figure is not confirmed. The page states no separate IELTS level for the Foundation Year."
+    ]
+  },
+  "english": {
+    "ielts": {
+      "min": null,
+      "recommended": null,
+      "varies": true,
+      "profilesComplete": false,
+      "note": "Direct entry to Year 1 of the bachelor’s degree only. Foundation, International Year One and pre-sessional English have their own, lower levels and are described in the admission notes, not here.",
+      "profiles": [
+        {
+          "name": "Direct entry — Business Management, BA (Hons)",
+          "overall": 6.0,
+          "sections": "Minimum 5.5 in each skill",
+          "scope": "Year 1 of this bachelor’s programme (direct entry)",
+          "source": "https://www.gre.ac.uk/international/support-and-help/courses",
+          "verified": "2026-11-12"
+        }
+      ]
+    },
+    "toefl": {
+      "min": null,
+      "recommended": null,
+      "note": "Not confirmed during this check."
+    },
+    "duolingo": {
+      "min": null,
+      "recommended": null,
+      "note": "Not confirmed during this check."
+    },
+    "waiver": null,
+    "note": "Pre-sessional English is offered for applicants below the required level; it is preparation, not a lower entry threshold."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "not-applicable",
+      "note": "Admission is on school-leaving qualifications rather than the SAT or ACT."
+    },
+    "act": {
+      "policy": "not-applicable",
+      "note": "The US test-optional classification does not apply to this admission route."
+    },
+    "otherTests": null,
+    "internationalQualifications": "Greenwich’s Uzbekistan page lists for undergraduate entry: Diploma of Academic Lyceum (Akademik Litsey Diplomi) with GPA 4.0 or above, or Diploma of Professional College (Kasb-Hunar Kolleji Diplomi) with GPA 4.0 or above / minimum 60%. The general-school certificate (attestat) is not named, so its acceptance for direct entry is not confirmed. Course pages may set higher or subject-specific requirements."
+  },
+  "costs": {
+    "breakdown": {
+      "tuition": 18525,
+      "tuitionText": "£18,525 a year for Business Management, BA (Hons) in 2027/28 — one confirmed course example",
+      "includes": "the international rate published on the course page; living costs are extra",
+      "published": true
+    },
+    "academicYear": "2027–2028",
+    "currency": "GBP",
+    "headline": "£18,525 tuition a year (Business Management, BA (Hons) example)",
+    "items": [
+      {
+        "label": "International tuition — Business Management BA, 2027/28",
+        "amount": 18525
+      },
+      {
+        "label": "International tuition — Business Management BA, 2026/27",
+        "amount": 17975
+      },
+      {
+        "label": "Business Management with Foundation Year — international fee shown on the page (year not confirmed)",
+        "amount": 17975
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "£18,525 a year in tuition for this course in 2027/28; living costs are extra",
+    "note": "Fees are annual; other courses are priced differently. The 2026/27 international fee for this course was £17,975. No scholarship is deducted.",
+    "source": "https://www.gre.ac.uk/undergraduate-courses/business-school/business-management-ba-hons/2027",
+    "verified": "2026-11-12"
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "Greenwich’s Uzbekistan page says eligible students can apply for a scholarship or bursary of up to £5,000 towards tuition, but it names no award, conditions or 2027/28 deadline, so no scholarship is recorded."
+    },
+    "merit": [],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Not confirmed during this check."
+    }
+  },
+  "sources": [
+    {
+      "label": "Business Management BA — 2027/28 course page",
+      "url": "https://www.gre.ac.uk/undergraduate-courses/business-school/business-management-ba-hons/2027"
+    },
+    {
+      "label": "English language requirements",
+      "url": "https://www.gre.ac.uk/international/support-and-help/courses"
+    },
+    {
+      "label": "Uzbekistan — entry requirements",
+      "url": "https://www.gre.ac.uk/international/countries/uzbekistan"
+    },
+    {
+      "label": "Business Management with Foundation Year — 2027/28 view",
+      "url": "https://www.gre.ac.uk/undergraduate-courses/business-school/business-management-ba-hons-ext/2027"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "UCAS 2027 dates",
+      "direct-entry IELTS",
+      "2027/28 international tuition (one course)",
+      "Foundation or pathway route",
+      "international scholarships"
+    ],
+    "unconfirmed": [
+      "founding year",
+      "TOEFL and Duolingo levels",
+      "living costs",
+      "programmes other than the one named",
+      "named international scholarship for 2027/28",
+      "acceptance of the school attestat for direct entry"
+    ]
+  },
+  "lastVerified": "2026-11-12",
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  }
+},
+{
+  "id": "coventry-university",
+  "name": "Coventry University",
+  "shortName": "Coventry",
+  "country": "uk",
+  "city": "Coventry",
+  "region": "England",
+  "founded": null,
+  "type": "Public university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#003B5C",
+    "c2": "#00233a",
+    "initials": "CU"
+  },
+  "description": "A public university in Coventry. Applications go through UCAS. This profile is built from one named Business programme with its 2027/28 international fee, the direct-entry IELTS level, the Uzbekistan entry rule where the university publishes one, and the Foundation or pathway route kept separate.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business"
+  ],
+  "englishTaughtPrograms": [
+    "business"
+  ],
+  "programsBasis": "evidence",
+  "programsStatus": "partial",
+  "programEvidence": {
+    "business": {
+      "program": "BA (Hons) Business Management",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.coventry.ac.uk/course-structure/ug/fbl/business-management-ba-hons/?term=2027-28",
+      "checked": "2026-11-12"
+    }
+  },
+  "programNote": "Only one programme was checked in this batch (UCAS code N221); other subjects are not recorded yet, which does not mean the university does not offer them.",
+  "links": {
+    "website": "https://www.coventry.ac.uk/",
+    "internationalAdmissions": "https://www.coventry.ac.uk/international-students-hub/entry-requirements/?region=erca&country=Uzbekistan",
+    "applicationPortal": "https://www.ucas.com/",
+    "programs": "https://www.coventry.ac.uk/course-structure/ug/fbl/business-management-ba-hons/?term=2027-28",
+    "cost": "https://www.coventry.ac.uk/course-structure/ug/fbl/business-management-ba-hons/?term=2027-28"
+  },
+  "admissions": {
+    "platforms": [
+      "UCAS (required for all undergraduate courses)"
+    ],
+    "deadlines": [
+      {
+        "name": "UCAS equal consideration deadline (2027 entry)",
+        "kind": "ucas-main",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-13",
+        "date": "13 January 2027",
+        "time": "18:00",
+        "timezone": "UK time",
+        "binding": false,
+        "appliesTo": "All undergraduate courses except those with a 15 October deadline",
+        "conditions": "Applications received by this time must be considered equally",
+        "status": "confirmed",
+        "source": "https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546",
+        "verified": "2026-09-23",
+        "note": null
+      },
+      {
+        "name": "UCAS: register and start the application (2027 entry)",
+        "kind": "opens",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-05-12",
+        "date": "12 May 2026",
+        "binding": false,
+        "appliesTo": "All applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications",
+        "verified": "2026-09-23",
+        "note": "One UCAS application holds up to five course choices"
+      },
+      {
+        "name": "UCAS: completed applications can be sent (2027 entry)",
+        "kind": "opens",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-09-01",
+        "date": "1 September 2026",
+        "binding": false,
+        "appliesTo": "All applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications",
+        "verified": "2026-10-11",
+        "note": "A reference is needed before the application can be sent"
+      }
+    ],
+    "applicationFee": {
+      "amount": 34.5,
+      "currency": "GBP",
+      "waiverAvailableToInternational": false,
+      "waiver": null,
+      "note": "The £34.50 is the UCAS fee for the whole 2027-cycle application (up to five choices), not a university fee. UCAS waives it only for UK free-school-meal recipients and care leavers."
+    },
+    "documents": [
+      "UCAS application with personal statement",
+      "Academic reference",
+      "Predicted or achieved school-leaving grades",
+      "Proof of English where required"
+    ],
+    "recommendations": "One academic reference through UCAS",
+    "essay": "UCAS personal statement",
+    "interview": null,
+    "notes": [
+      "Start dates for this programme: September 2027 to July 2028 (six intakes).",
+      "Foundation route: the integrated foundation-year version of this degree (UCAS N7DF) is “not currently available” to international or EU students for 2027-28. Uzbek applicants therefore need a separate recognised foundation programme; its provider and fee are not stated on the pages read."
+    ]
+  },
+  "english": {
+    "ielts": {
+      "min": null,
+      "recommended": null,
+      "varies": true,
+      "profilesComplete": false,
+      "note": "Direct entry to Year 1 of the bachelor’s degree only. Foundation, International Year One and pre-sessional English have their own, lower levels and are described in the admission notes, not here.",
+      "profiles": [
+        {
+          "name": "Direct entry — BA (Hons) Business Management",
+          "overall": 6.0,
+          "sections": "At least 5.5 in each component area",
+          "scope": "Year 1 of this bachelor’s programme (direct entry)",
+          "source": "https://www.coventry.ac.uk/course-structure/ug/fbl/business-management-ba-hons/?term=2027-28",
+          "verified": "2026-11-12"
+        }
+      ]
+    },
+    "toefl": {
+      "min": null,
+      "recommended": null,
+      "note": "Not confirmed during this check."
+    },
+    "duolingo": {
+      "min": null,
+      "recommended": null,
+      "note": "Not confirmed during this check."
+    },
+    "waiver": null,
+    "note": "Pre-sessional English is offered for applicants below the required level; it is preparation, not a lower entry threshold."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "not-applicable",
+      "note": "Admission is on school-leaving qualifications rather than the SAT or ACT."
+    },
+    "act": {
+      "policy": "not-applicable",
+      "note": "The US test-optional classification does not apply to this admission route."
+    },
+    "otherTests": null,
+    "internationalQualifications": "Coventry’s Uzbekistan requirements: the Diploma of Specialised Secondary Education (Shahodatnoma) with an overall average of 4.5 or above (grades of 4 in key subjects) AND a recognised foundation programme. So an Uzbek school or lyceum diploma alone does not give direct entry to Year 1; two or three years of a relevant degree at a listed university may allow Year 2 or top-up entry at the School’s discretion."
+  },
+  "costs": {
+    "breakdown": {
+      "tuition": 18045,
+      "tuitionText": "£18,045 a year for BA (Hons) Business Management in 2027/28 — one confirmed course example",
+      "includes": "the international rate published on the course page; living costs are extra",
+      "published": true
+    },
+    "academicYear": "2027–2028",
+    "currency": "GBP",
+    "headline": "£18,045 tuition a year (BA (Hons) Business Management example)",
+    "items": [
+      {
+        "label": "International tuition — BA (Hons) Business Management, 2027-28",
+        "amount": 18045
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "£18,045 a year in tuition for this course in 2027/28; living costs are extra",
+    "note": "Fees are annual and Coventry may raise them each year by no more than 5% above inflation; other courses are priced differently. The Group Scholarship below is not deducted here.",
+    "source": "https://www.coventry.ac.uk/course-structure/ug/fbl/business-management-ba-hons/?term=2027-28",
+    "verified": "2026-11-12"
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "No award at the level of full tuition was found on the international scholarship page."
+    },
+    "merit": [
+      {
+        "id": "coventry-group-scholarship",
+        "category": "merit",
+        "basis": "unknown",
+        "name": "Coventry University Group Scholarship",
+        "amount": "£2,000 off the tuition fee each year (£6,000 over a three-year bachelor’s)",
+        "internationalEligible": true,
+        "firstYearEligible": true,
+        "eligibility": "Self-funded international students (excluding EU) starting a bachelor’s or master’s degree in any intake of 2026/27 or 2027/28 at a Coventry University Group UK campus; online courses excluded.",
+        "application": null,
+        "renewable": "Applies to each year of the degree",
+        "note": "Coventry says all scholarships are subject to availability, visa requirements, specific criteria and competitive application; the application route and deadline are on a separate “full details” page that was not read. Whether it applies after a separate foundation programme is not stated.",
+        "deadlineScope": "not-confirmed",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://www.coventry.ac.uk/international-students-hub/apply-for-a-scholarship/",
+        "verified": "2026-11-12"
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Not confirmed during this check."
+    }
+  },
+  "sources": [
+    {
+      "label": "BA (Hons) Business Management — 2027-28 course page",
+      "url": "https://www.coventry.ac.uk/course-structure/ug/fbl/business-management-ba-hons/?term=2027-28"
+    },
+    {
+      "label": "Uzbekistan — entry requirements",
+      "url": "https://www.coventry.ac.uk/international-students-hub/entry-requirements/?region=erca&country=Uzbekistan"
+    },
+    {
+      "label": "Foundation-year option — 2027-28",
+      "url": "https://www.coventry.ac.uk/course-structure/ug/fbl/business-management-ba-hons/?term=2027-28&type=foundation"
+    },
+    {
+      "label": "International scholarships, bursaries and discounts",
+      "url": "https://www.coventry.ac.uk/international-students-hub/apply-for-a-scholarship/"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "UCAS 2027 dates",
+      "direct-entry IELTS",
+      "2027/28 international tuition (one course)",
+      "Foundation or pathway route",
+      "international scholarships"
+    ],
+    "unconfirmed": [
+      "founding year",
+      "TOEFL and Duolingo levels",
+      "living costs",
+      "programmes other than the one named",
+      "fee of the external foundation programme",
+      "Group Scholarship application route and deadline"
+    ]
+  },
+  "lastVerified": "2026-11-12",
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  }
+},
+{
+  "id": "university-of-westminster",
+  "name": "University of Westminster",
+  "shortName": "Westminster",
+  "country": "uk",
+  "city": "London",
+  "region": "England",
+  "founded": null,
+  "type": "Public university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#4B2A7B",
+    "c2": "#2a1745",
+    "initials": "UoW"
+  },
+  "description": "A public university in London. Applications go through UCAS. This profile is built from one named Business programme with its 2027/28 international fee, the direct-entry IELTS level, the Uzbekistan entry rule where the university publishes one, and the Foundation or pathway route kept separate.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business"
+  ],
+  "englishTaughtPrograms": [
+    "business"
+  ],
+  "programsBasis": "evidence",
+  "programsStatus": "partial",
+  "programEvidence": {
+    "business": {
+      "program": "Business Management BA Honours",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.westminster.ac.uk/business-and-management-courses/2027-28/september/full-time/business-management-ba-honours",
+      "checked": "2026-11-12"
+    }
+  },
+  "programNote": "Only one programme was checked in this batch (UCAS code N900); other subjects are not recorded yet, which does not mean the university does not offer them.",
+  "links": {
+    "website": "https://www.westminster.ac.uk/",
+    "internationalAdmissions": "https://www.westminster.ac.uk/international/your-country/uzbekistan",
+    "applicationPortal": "https://www.ucas.com/",
+    "programs": "https://www.westminster.ac.uk/business-and-management-courses/2027-28/september/full-time/business-management-ba-honours",
+    "cost": "https://www.westminster.ac.uk/business-and-management-courses/2027-28/september/full-time/business-management-ba-honours"
+  },
+  "admissions": {
+    "platforms": [
+      "UCAS (required for all undergraduate courses)"
+    ],
+    "deadlines": [
+      {
+        "name": "UCAS equal consideration deadline (2027 entry)",
+        "kind": "ucas-main",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-13",
+        "date": "13 January 2027",
+        "time": "18:00",
+        "timezone": "UK time",
+        "binding": false,
+        "appliesTo": "All undergraduate courses except those with a 15 October deadline",
+        "conditions": "Applications received by this time must be considered equally",
+        "status": "confirmed",
+        "source": "https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546",
+        "verified": "2026-09-23",
+        "note": null
+      },
+      {
+        "name": "UCAS: register and start the application (2027 entry)",
+        "kind": "opens",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-05-12",
+        "date": "12 May 2026",
+        "binding": false,
+        "appliesTo": "All applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications",
+        "verified": "2026-09-23",
+        "note": "One UCAS application holds up to five course choices"
+      },
+      {
+        "name": "UCAS: completed applications can be sent (2027 entry)",
+        "kind": "opens",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-09-01",
+        "date": "1 September 2026",
+        "binding": false,
+        "appliesTo": "All applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications",
+        "verified": "2026-10-11",
+        "note": "A reference is needed before the application can be sent"
+      }
+    ],
+    "applicationFee": {
+      "amount": 34.5,
+      "currency": "GBP",
+      "waiverAvailableToInternational": false,
+      "waiver": null,
+      "note": "The £34.50 is the UCAS fee for the whole 2027-cycle application (up to five choices), not a university fee. UCAS waives it only for UK free-school-meal recipients and care leavers."
+    },
+    "documents": [
+      "UCAS application with personal statement",
+      "Academic reference",
+      "Predicted or achieved school-leaving grades",
+      "Proof of English where required"
+    ],
+    "recommendations": "One academic reference through UCAS",
+    "essay": "UCAS personal statement",
+    "interview": null,
+    "notes": [
+      "Start dates for this programme: September 2027.",
+      "Foundation route: Westminster’s partner Kaplan International College London offers the International Foundation Certificate (and an International Year One) for students who do not meet direct entry; successful completion leads to Westminster degrees. The Kaplan fee is not published on the Westminster pages read."
+    ]
+  },
+  "english": {
+    "ielts": {
+      "min": null,
+      "recommended": null,
+      "varies": true,
+      "profilesComplete": false,
+      "note": "Direct entry to Year 1 of the bachelor’s degree only. Foundation, International Year One and pre-sessional English have their own, lower levels and are described in the admission notes, not here.",
+      "profiles": [
+        {
+          "name": "Direct entry — Business Management BA Honours",
+          "overall": 6.0,
+          "sections": "5.5 in each component",
+          "scope": "Year 1 of this bachelor’s programme (direct entry)",
+          "source": "https://www.westminster.ac.uk/business-and-management-courses/2027-28/september/full-time/business-management-ba-honours",
+          "verified": "2026-11-12"
+        }
+      ]
+    },
+    "toefl": {
+      "min": null,
+      "recommended": null,
+      "note": "Not confirmed during this check."
+    },
+    "duolingo": {
+      "min": null,
+      "recommended": null,
+      "note": "Not confirmed during this check."
+    },
+    "waiver": null,
+    "note": "Pre-sessional English is offered for applicants below the required level; it is preparation, not a lower entry threshold."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "not-applicable",
+      "note": "Admission is on school-leaving qualifications rather than the SAT or ACT."
+    },
+    "act": {
+      "policy": "not-applicable",
+      "note": "The US test-optional classification does not apply to this admission route."
+    },
+    "otherTests": null,
+    "internationalQualifications": "Westminster’s Uzbekistan page: the Certificate of Completed Secondary Education (O‘rta Ma’lumot To‘g‘risida Shahodatnoma) with at least 56% gives entry to foundation courses only. Year 1 of a bachelor’s normally needs a recognised International Foundation course from a UK institution (usually 60–65%) or A Levels/IB, so the Uzbek certificate alone does not give direct entry."
+  },
+  "costs": {
+    "breakdown": {
+      "tuition": 19000,
+      "tuitionText": "£19,000 a year for Business Management BA Honours in 2027/28 — one confirmed course example",
+      "includes": "the international rate published on the course page; living costs are extra",
+      "published": true
+    },
+    "academicYear": "2027–2028",
+    "currency": "GBP",
+    "headline": "£19,000 tuition a year (Business Management BA Honours example)",
+    "items": [
+      {
+        "label": "International tuition — Business Management BA, September 2027",
+        "amount": 19000
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "£19,000 a year in tuition for this course in 2027/28; living costs are extra",
+    "note": "Westminster states that international tuition fees stay the same throughout the course once enrolled; other courses are priced differently. No scholarship is deducted.",
+    "source": "https://www.westminster.ac.uk/business-and-management-courses/2027-28/september/full-time/business-management-ba-honours",
+    "verified": "2026-11-12"
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "A full-cost Westminster scholarship for applicants from developing countries is advertised separately, but its page refused the reader, so it is not recorded."
+    },
+    "merit": [
+      {
+        "id": "westminster-iea-2027",
+        "category": "merit",
+        "basis": "merit",
+        "name": "International Undergraduate Excellence Award (IEA) — September 2027",
+        "amount": "£3,000 towards first-year tuition only",
+        "internationalEligible": true,
+        "firstYearEligible": true,
+        "eligibility": "Overseas fee status and an offer for a full-time bachelor’s course starting September 2027; grades significantly above the course minimum and passion for the subject. Not for programmes with an integrated foundation year, sponsored students or those with another fee discount.",
+        "application": "Separate application on the award page",
+        "renewable": "First year only; full fees in later years",
+        "note": "The page prints two deadlines: “7 June 2026” in the table and “Monday 7 June 2027 at 5PM” under the apply button. 7 June 2027 is a Monday and matches the September 2027 cycle, but the conflict is kept and the date is not shown as confirmed. Number of awards variable; not guaranteed.",
+        "deadlineScope": "not-confirmed",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://www.westminster.ac.uk/study/fees-and-funding/scholarships/international-undergraduate-excellence-award-iea-september-2027",
+        "verified": "2026-11-12"
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Not confirmed during this check."
+    }
+  },
+  "sources": [
+    {
+      "label": "Business Management BA — September 2027 course page",
+      "url": "https://www.westminster.ac.uk/business-and-management-courses/2027-28/september/full-time/business-management-ba-honours"
+    },
+    {
+      "label": "Uzbekistan — entry requirements",
+      "url": "https://www.westminster.ac.uk/international/your-country/uzbekistan"
+    },
+    {
+      "label": "International Undergraduate Excellence Award — September 2027",
+      "url": "https://www.westminster.ac.uk/study/fees-and-funding/scholarships/international-undergraduate-excellence-award-iea-september-2027"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "UCAS 2027 dates",
+      "direct-entry IELTS",
+      "2027/28 international tuition (one course)",
+      "Foundation or pathway route",
+      "international scholarships"
+    ],
+    "unconfirmed": [
+      "founding year",
+      "TOEFL and Duolingo levels",
+      "living costs",
+      "programmes other than the one named",
+      "Kaplan foundation fee",
+      "full international scholarship terms"
+    ]
+  },
+  "lastVerified": "2026-11-12",
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  }
+},
+{
+  "id": "sheffield-hallam-university",
+  "name": "Sheffield Hallam University",
+  "shortName": "Sheffield Hallam",
+  "country": "uk",
+  "city": "Sheffield",
+  "region": "England",
+  "founded": null,
+  "type": "Public university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#5B2C6F",
+    "c2": "#331840",
+    "initials": "SHU"
+  },
+  "description": "A public university in Sheffield. Applications go through UCAS. This profile is built from one named Business programme with its 2027/28 international fee, the direct-entry IELTS level, the Uzbekistan entry rule where the university publishes one, and the Foundation or pathway route kept separate.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business"
+  ],
+  "englishTaughtPrograms": [
+    "business"
+  ],
+  "programsBasis": "evidence",
+  "programsStatus": "partial",
+  "programEvidence": {
+    "business": {
+      "program": "BA (Honours) Business Management",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.shu.ac.uk/courses/business-and-management/ba-honours-business-management/full-time",
+      "checked": "2026-11-12"
+    }
+  },
+  "programNote": "Only one programme was checked in this batch (UCAS code A097); other subjects are not recorded yet, which does not mean the university does not offer them.",
+  "links": {
+    "website": "https://www.shu.ac.uk/",
+    "internationalAdmissions": "https://www.shu.ac.uk/study-here/international",
+    "applicationPortal": "https://www.ucas.com/",
+    "programs": "https://www.shu.ac.uk/courses/business-and-management/ba-honours-business-management/full-time",
+    "cost": "https://www.shu.ac.uk/courses/business-and-management/ba-honours-business-management/full-time"
+  },
+  "admissions": {
+    "platforms": [
+      "UCAS (required for all undergraduate courses)"
+    ],
+    "deadlines": [
+      {
+        "name": "UCAS equal consideration deadline (2027 entry)",
+        "kind": "ucas-main",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-13",
+        "date": "13 January 2027",
+        "time": "18:00",
+        "timezone": "UK time",
+        "binding": false,
+        "appliesTo": "All undergraduate courses except those with a 15 October deadline",
+        "conditions": "Applications received by this time must be considered equally",
+        "status": "confirmed",
+        "source": "https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546",
+        "verified": "2026-09-23",
+        "note": null
+      },
+      {
+        "name": "UCAS: register and start the application (2027 entry)",
+        "kind": "opens",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-05-12",
+        "date": "12 May 2026",
+        "binding": false,
+        "appliesTo": "All applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications",
+        "verified": "2026-09-23",
+        "note": "One UCAS application holds up to five course choices"
+      },
+      {
+        "name": "UCAS: completed applications can be sent (2027 entry)",
+        "kind": "opens",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-09-01",
+        "date": "1 September 2026",
+        "binding": false,
+        "appliesTo": "All applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications",
+        "verified": "2026-10-11",
+        "note": "A reference is needed before the application can be sent"
+      }
+    ],
+    "applicationFee": {
+      "amount": 34.5,
+      "currency": "GBP",
+      "waiverAvailableToInternational": false,
+      "waiver": null,
+      "note": "The £34.50 is the UCAS fee for the whole 2027-cycle application (up to five choices), not a university fee. UCAS waives it only for UK free-school-meal recipients and care leavers."
+    },
+    "documents": [
+      "UCAS application with personal statement",
+      "Academic reference",
+      "Predicted or achieved school-leaving grades",
+      "Proof of English where required"
+    ],
+    "recommendations": "One academic reference through UCAS",
+    "essay": "UCAS personal statement",
+    "interview": null,
+    "notes": [
+      "Start dates for this programme: September 2027.",
+      "Pathway route: International Year One Business Management — a one-year pathway leading into Year Two of the degree (3 years in total), pathway tuition £17,000, IELTS 5.5 with no less than 5.5 in each component. The figures are labelled “Key information 2026/27” for a January 2027 start; a September 2027 start is also listed. This IELTS 5.5 applies to the pathway only, not to direct entry.",
+      "The degree page also mentions a foundation year for applicants who do not yet meet the requirements; its international fee and IELTS level were not confirmed."
+    ]
+  },
+  "english": {
+    "ielts": {
+      "min": null,
+      "recommended": null,
+      "varies": true,
+      "profilesComplete": false,
+      "note": "Direct entry to Year 1 of the bachelor’s degree only. Foundation, International Year One and pre-sessional English have their own, lower levels and are described in the admission notes, not here.",
+      "profiles": [
+        {
+          "name": "Direct entry — BA (Honours) Business Management",
+          "overall": 6.0,
+          "sections": "Minimum of 5.5 in all skills",
+          "scope": "Year 1 of this bachelor’s programme (direct entry)",
+          "source": "https://www.shu.ac.uk/courses/business-and-management/ba-honours-business-management/full-time",
+          "verified": "2026-11-12"
+        }
+      ]
+    },
+    "toefl": {
+      "min": null,
+      "recommended": null,
+      "note": "Not confirmed during this check."
+    },
+    "duolingo": {
+      "min": null,
+      "recommended": null,
+      "note": "Not confirmed during this check."
+    },
+    "waiver": null,
+    "note": "Pre-sessional English is offered for applicants below the required level; it is preparation, not a lower entry threshold."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "not-applicable",
+      "note": "Admission is on school-leaving qualifications rather than the SAT or ACT."
+    },
+    "act": {
+      "policy": "not-applicable",
+      "note": "The US test-optional classification does not apply to this admission route."
+    },
+    "otherTests": null,
+    "internationalQualifications": "No Uzbekistan-specific requirements were found. The course page refers international applicants to the country qualifications page; acceptance of an Uzbek school or lyceum diploma for direct entry is not confirmed."
+  },
+  "costs": {
+    "breakdown": {
+      "tuition": 18900,
+      "tuitionText": "£18,900 a year for BA (Honours) Business Management in 2027/28 — one confirmed course example",
+      "includes": "the international rate published on the course page; living costs are extra",
+      "published": true
+    },
+    "academicYear": "2027–2028",
+    "currency": "GBP",
+    "headline": "£18,900 tuition a year (BA (Honours) Business Management example)",
+    "items": [
+      {
+        "label": "International tuition — BA Business Management, 2027/28",
+        "amount": 18900
+      },
+      {
+        "label": "International Year One Business Management — pathway fee (2026/27 information, January 2027 start)",
+        "amount": 17000
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "£18,900 a year in tuition for this course in 2027/28; living costs are extra",
+    "note": "Fees are annual; other courses are priced differently. No scholarship is deducted.",
+    "source": "https://www.shu.ac.uk/courses/business-and-management/ba-honours-business-management/full-time",
+    "verified": "2026-11-12"
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "The Vice-Chancellor’s Award (up to £4,000 in the first year) is limited to students domiciled in listed countries of South and South-East Asia, Nigeria and Ghana; Uzbekistan is not among them, so no scholarship is recorded for Uzbek applicants."
+    },
+    "merit": [],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Not confirmed during this check."
+    }
+  },
+  "sources": [
+    {
+      "label": "BA (Honours) Business Management — 2027/28",
+      "url": "https://www.shu.ac.uk/courses/business-and-management/ba-honours-business-management/full-time"
+    },
+    {
+      "label": "International Year One",
+      "url": "https://www.shu.ac.uk/study-here/international/shucie/international-year-one"
+    },
+    {
+      "label": "Vice-Chancellor’s Awards",
+      "url": "https://www.shu.ac.uk/funding/scholarships-and-bursaries/vice-chancellors-awards"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "UCAS 2027 dates",
+      "direct-entry IELTS",
+      "2027/28 international tuition (one course)",
+      "Foundation or pathway route",
+      "international scholarships"
+    ],
+    "unconfirmed": [
+      "founding year",
+      "TOEFL and Duolingo levels",
+      "living costs",
+      "programmes other than the one named",
+      "Uzbek qualifications for direct entry",
+      "foundation year fee and IELTS"
+    ]
+  },
+  "lastVerified": "2026-11-12",
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  }
+},
+{
+  "id": "oxford-brookes-university",
+  "name": "Oxford Brookes University",
+  "shortName": "Oxford Brookes",
+  "country": "uk",
+  "city": "Oxford",
+  "region": "England",
+  "founded": null,
+  "type": "Public university",
+  "institutionKind": "public",
+  "degrees": [
+    "bachelor"
+  ],
+  "brand": {
+    "c1": "#1E1E1E",
+    "c2": "#0d0d0d",
+    "initials": "OBU"
+  },
+  "description": "A public university in Oxford. Applications go through UCAS. This profile is built from one named Business programme with its 2027/28 international fee, the direct-entry IELTS level, the Uzbekistan entry rule where the university publishes one, and the Foundation or pathway route kept separate.",
+  "englishTaught": true,
+  "languageOfInstruction": "English",
+  "programs": [
+    "business"
+  ],
+  "englishTaughtPrograms": [
+    "business"
+  ],
+  "programsBasis": "evidence",
+  "programsStatus": "partial",
+  "programEvidence": {
+    "business": {
+      "program": "BA (Hons) Business and Management",
+      "level": "bachelor",
+      "language": "English",
+      "url": "https://www.brookes.ac.uk/courses/undergraduate/business-and-management",
+      "checked": "2026-11-12"
+    }
+  },
+  "programNote": "Only one programme was checked in this batch (UCAS code N200); other subjects are not recorded yet, which does not mean the university does not offer them.",
+  "links": {
+    "website": "https://www.brookes.ac.uk/",
+    "internationalAdmissions": "https://www.brookes.ac.uk/study/international-students/your-country/other-countries",
+    "applicationPortal": "https://www.ucas.com/",
+    "programs": "https://www.brookes.ac.uk/courses/undergraduate/business-and-management",
+    "cost": "https://www.brookes.ac.uk/courses/undergraduate/business-and-management"
+  },
+  "admissions": {
+    "platforms": [
+      "UCAS (required for all undergraduate courses)"
+    ],
+    "deadlines": [
+      {
+        "name": "UCAS equal consideration deadline (2027 entry)",
+        "kind": "ucas-main",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-13",
+        "date": "13 January 2027",
+        "time": "18:00",
+        "timezone": "UK time",
+        "binding": false,
+        "appliesTo": "All undergraduate courses except those with a 15 October deadline",
+        "conditions": "Applications received by this time must be considered equally",
+        "status": "confirmed",
+        "source": "https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546",
+        "verified": "2026-09-23",
+        "note": null
+      },
+      {
+        "name": "UCAS: register and start the application (2027 entry)",
+        "kind": "opens",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-05-12",
+        "date": "12 May 2026",
+        "binding": false,
+        "appliesTo": "All applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications",
+        "verified": "2026-09-23",
+        "note": "One UCAS application holds up to five course choices"
+      },
+      {
+        "name": "UCAS: completed applications can be sent (2027 entry)",
+        "kind": "opens",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-09-01",
+        "date": "1 September 2026",
+        "binding": false,
+        "appliesTo": "All applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications",
+        "verified": "2026-10-11",
+        "note": "A reference is needed before the application can be sent"
+      }
+    ],
+    "applicationFee": {
+      "amount": 34.5,
+      "currency": "GBP",
+      "waiverAvailableToInternational": false,
+      "waiver": null,
+      "note": "The £34.50 is the UCAS fee for the whole 2027-cycle application (up to five choices), not a university fee. UCAS waives it only for UK free-school-meal recipients and care leavers."
+    },
+    "documents": [
+      "UCAS application with personal statement",
+      "Academic reference",
+      "Predicted or achieved school-leaving grades",
+      "Proof of English where required"
+    ],
+    "recommendations": "One academic reference through UCAS",
+    "essay": "UCAS personal statement",
+    "interview": null,
+    "notes": [
+      "Start dates for this programme: January 2027 or September 2027.",
+      "Foundation route: Oxford Brookes runs its own foundation courses for applicants who do not meet direct entry; their fee and IELTS level for this pathway were not confirmed in this check.",
+      "Oxford Brookes has paused Student-route visa sponsorship for some countries and programme levels (listed on its other-countries page); Uzbekistan is not named there."
+    ]
+  },
+  "english": {
+    "ielts": {
+      "min": null,
+      "recommended": null,
+      "varies": true,
+      "profilesComplete": false,
+      "note": "Direct entry to Year 1 of the bachelor’s degree only. Foundation, International Year One and pre-sessional English have their own, lower levels and are described in the admission notes, not here.",
+      "profiles": [
+        {
+          "name": "Direct entry — BA (Hons) Business and Management",
+          "overall": 6.0,
+          "sections": "6.0 in reading and writing, 5.5 in listening and speaking",
+          "scope": "Year 1 of this bachelor’s programme (direct entry)",
+          "source": "https://www.brookes.ac.uk/study/international-students/applying-to-arriving/how-to-apply/english-language-requirements",
+          "verified": "2026-11-12"
+        }
+      ]
+    },
+    "toefl": {
+      "min": null,
+      "recommended": null,
+      "note": "Not confirmed during this check."
+    },
+    "duolingo": {
+      "min": null,
+      "recommended": null,
+      "note": "Not confirmed during this check."
+    },
+    "waiver": null,
+    "note": "Pre-sessional English is offered for applicants below the required level; it is preparation, not a lower entry threshold."
+  },
+  "academics": {
+    "gpa": null,
+    "sat": {
+      "policy": "not-applicable",
+      "note": "Admission is on school-leaving qualifications rather than the SAT or ACT."
+    },
+    "act": {
+      "policy": "not-applicable",
+      "note": "The US test-optional classification does not apply to this admission route."
+    },
+    "otherTests": null,
+    "internationalQualifications": "Oxford Brookes has no page for Uzbekistan; its general rule is A-levels, the IB, a recognised foundation programme or equivalent qualifications from the applicant’s country, judged case by case. Acceptance of an Uzbek diploma for direct entry is not confirmed."
+  },
+  "costs": {
+    "breakdown": {
+      "tuition": 20800,
+      "tuitionText": "£20,800 a year for BA (Hons) Business and Management in 2027/28 — one confirmed course example",
+      "includes": "the international rate published on the course page; living costs are extra",
+      "published": true
+    },
+    "academicYear": "2027–2028",
+    "currency": "GBP",
+    "headline": "£20,800 tuition a year (BA (Hons) Business and Management example)",
+    "items": [
+      {
+        "label": "International tuition — BA Business and Management, 2027/28",
+        "amount": 20800
+      },
+      {
+        "label": "International tuition — BA Business and Management, 2026/27",
+        "amount": 19700
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "£20,800 a year in tuition for this course in 2027/28; living costs are extra",
+    "note": "Fees are annual; the 2026/27 international fee for this course was £19,700. Other courses are priced differently. No scholarship is deducted.",
+    "source": "https://www.brookes.ac.uk/courses/undergraduate/business-and-management",
+    "verified": "2026-11-12"
+  },
+  "scholarships": {
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "No award at the level of full tuition was found."
+    },
+    "merit": [
+      {
+        "id": "obu-business-school-international",
+        "category": "merit",
+        "basis": "unknown",
+        "name": "Oxford Brookes Business School International Student Scholarship",
+        "amount": "£2,000 in each academic year of the degree",
+        "internationalEligible": true,
+        "firstYearEligible": true,
+        "eligibility": "Self-funded international students with an offer for an undergraduate Business School degree (BA/BSc) starting in January 2027 who pay the tuition deposit by 4 December 2026.",
+        "application": "No separate application: paying the deposit by the deadline qualifies",
+        "renewable": "Each academic year of the degree",
+        "note": "Only for January 2027 entry; not for a September 2027 start. The general £2,000 International Student Scholarship for September entry is published only for the 2026 cycle, so nothing is recorded for September 2027.",
+        "deadlineScope": "not-confirmed",
+        "entryTerm": null,
+        "entryYear": null,
+        "source": "https://www.brookes.ac.uk/study/funding/obbs-international-student-scholarship",
+        "verified": "2026-11-12"
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Not confirmed during this check."
+    }
+  },
+  "sources": [
+    {
+      "label": "BA (Hons) Business and Management — fees 2026/27 and 2027/28",
+      "url": "https://www.brookes.ac.uk/courses/undergraduate/business-and-management"
+    },
+    {
+      "label": "English language requirements",
+      "url": "https://www.brookes.ac.uk/study/international-students/applying-to-arriving/how-to-apply/english-language-requirements"
+    },
+    {
+      "label": "Entry requirements — other countries",
+      "url": "https://www.brookes.ac.uk/study/international-students/your-country/other-countries"
+    },
+    {
+      "label": "Business School International Student Scholarship (January 2027)",
+      "url": "https://www.brookes.ac.uk/study/funding/obbs-international-student-scholarship"
+    },
+    {
+      "label": "International Student Scholarship — September entry (2026 cycle)",
+      "url": "https://www.brookes.ac.uk/study/funding/international-student-scholarship-september-entry"
+    }
+  ],
+  "verification": {
+    "level": "partial",
+    "checked": [
+      "UCAS 2027 dates",
+      "direct-entry IELTS",
+      "2027/28 international tuition (one course)",
+      "Foundation or pathway route",
+      "international scholarships"
+    ],
+    "unconfirmed": [
+      "founding year",
+      "TOEFL and Duolingo levels",
+      "living costs",
+      "programmes other than the one named",
+      "Uzbek qualifications for direct entry",
+      "foundation course fee and IELTS",
+      "scholarship for September 2027 entry"
+    ]
+  },
+  "lastVerified": "2026-11-12",
+  "photos": {
+    "main": null,
+    "gallery": [],
+    "city": null
+  }
 }
 );

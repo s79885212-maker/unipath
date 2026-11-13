@@ -73,4 +73,25 @@ module.exports = function (ok) {
     recs.forEach(function (u) { walk(u, '', ''); });
     ok(recs.length === 50 && strings > 4000 && !hits.length, 'texts of the 50 new USA profiles and their Russian keep the spaces around numbers and between words (' + strings + ' strings)', hits.slice(0, 8).join('; '));
   })();
+  /* UK 2027/28 batch 1: IELTS profiles hold direct entry only; Foundation/pathway levels stay in
+     notes and separately labelled cost lines, so the match page never reads them as a degree threshold. */
+  (function () {
+    var box = { console: console, document: { querySelector: function () { return null; } } };
+    box.window = box; vm.createContext(box);
+    dataScripts.forEach(function (rel) { vm.runInContext(fs.readFileSync(path.join(ROOT, rel), 'utf8'), box, { filename: rel }); });
+    var ids = JSON.parse(fs.readFileSync(path.join(ROOT, 'research/claude-uk-batch1-2027.json'), 'utf8')).ids;
+    var recs = ids.map(function (id) { return box.UNIPATH.universities.filter(function (u) { return u.id === id; })[0]; });
+    var bad = [];
+    recs.forEach(function (u, i) {
+      if (!u) { bad.push(ids[i] + ': missing'); return; }
+      var t = u.english.ielts, ac = box.UNIPATH.match.annualCost[u.id];
+      if (u.country !== 'uk' || t.min !== null || !t.varies) bad.push(u.id + ': ielts shape');
+      if (!t.profiles.length || !t.profiles.every(function (p) { return p.overall >= 6 && /direct entry/.test(p.scope) && p.source && p.verified; })) bad.push(u.id + ': profile');
+      if (u.costs.academicYear !== '2027–2028' || !ac || ac.min !== u.costs.breakdown.tuition || ac.basis !== 'tuition') bad.push(u.id + ': cost');
+      if (!/Uzbek/.test(u.academics.internationalQualifications)) bad.push(u.id + ': Uzbekistan');
+      if (!u.admissions.notes.some(function (n) { return /Foundation route|Pathway route/.test(n); })) bad.push(u.id + ': route');
+      (u.scholarships.merit || []).forEach(function (a) { if (a.internationalEligible !== true || !a.source || !a.verified) bad.push(u.id + ': award ' + a.id); });
+    });
+    ok(recs.length === 5 && !bad.length, 'UK 2027/28 batch: direct-entry IELTS only in profiles, Foundation kept apart, 2027/28 fee matches annualCost, Uzbek rule and sourced awards', bad.join('; '));
+  })();
 };
