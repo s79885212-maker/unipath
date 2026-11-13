@@ -50,7 +50,7 @@ group('database');
 var byCountry = {};
 DB.universities.forEach(function (u) { byCountry[u.country] = (byCountry[u.country] || 0) + 1; });
 /* United States expansion: 250 records grow to 350 in batches of 25. */
-var US_NOW = 325, US_TARGET = 350;
+var US_NOW = 350, US_TARGET = 350;
 /* Canada (October 2026): 50 universities added in batches of ten. */
 var CA_NOW = 50, CA_TARGET = 50;
 ok(byCountry.us === US_NOW && US_NOW <= US_TARGET, US_NOW + ' United States records (target ' + US_TARGET + ')', 'found ' + byCountry.us);

@@ -62,6 +62,7 @@ DATA_FILES = [
     "data/universities.us4.js",
     "data/universities.us5.js",
     "data/universities.us6.js",
+    "data/universities.us7.js",
     "data/universities.jp.js",
     "data/universities.kr.js",
     "data/universities.uk.js",

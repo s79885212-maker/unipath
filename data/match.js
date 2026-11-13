@@ -43,6 +43,7 @@ window.UNIPATH.match = {
     perEUR: { EUR: 1, USD: 1.1195, CAD: 1.5918, GBP: 0.84385, JPY: 177.39, KRW: 1496.54 }
   },
   annualCost: {
+    'university-of-evansville': { currency: 'USD', basis: 'total', period: 'year', min: 70894, max: 70894, academicYear: '2027–2028', source: 'https://www.evansville.edu/student-financial-services/tuition-and-direct-costs-international-2027-2028.cfm', verified: '2026-11-13' },
 
     'wheaton-college-massachusetts': { currency: 'USD', basis: 'tuition', period: 'year', min: 39000, max: 39000, academicYear: '2027–2028', source: 'https://wheatoncollege.edu/news/wheaton-announces-new-tuition-pricing-for-fall-2027/', verified: '2026-11-12', note: 'Tuition only. Housing, meals and other expenses are additional.' },
 
