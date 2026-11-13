@@ -35,6 +35,22 @@ module.exports = function ({ U, M, DB, ok }) {
      stockton.admissions.applicationFee.amount === 50 && U.ieltsMin(stockton) === 6.5,
     'RISD preserves the documented 2027 cycle and Stockton uses the international applicant requirements');
   if (batches.includes(4)) {
+    const fees = require('../research/us100-fees.json');
+    ok(fees.every(item => {
+      const fee = U.uniById(item.id).admissions.applicationFee;
+      return fee.amount === item.amount && fee.source === item.source &&
+        fee.verified === item.verified && Boolean(item.evidence);
+    }), 'reviewed international first-year fees retain the correct amount and source');
+    const towson = U.uniById('towson-university');
+    const manhattan = U.uniById('manhattan-university');
+    ok(U.roundsOf(towson).some(round => round.dateISO === '2027-06-01' && round.status === 'confirmed') &&
+       U.roundsOf(manhattan).some(round => round.dateISO === '2027-03-01' && /priority/.test(round.name)),
+      'Towson international deadline and Manhattan priority date preserve their scope');
+    const berry = U.uniById('berry-college');
+    ok(berry.scholarships.needBased.availableToInternational === false &&
+       U.awardKind(berry) !== 'full-ride' &&
+       M.evaluate(U.uniById('stockton-university'), { budget: 100000, currency: 'USD' }).budget.status === 'unknown',
+      'Berry merit remains separate from need aid and Stockton prior-cycle costs do not match budgets');
     const jcu = U.uniById('john-carroll-university');
     ok(U.roundsOf(jcu).some(round => round.dateISO === '2027-04-15' &&
          round.status === 'confirmed' && round.cycleEvidence.basis === 'page-context') &&
@@ -49,12 +65,8 @@ module.exports = function ({ U, M, DB, ok }) {
     ok(augie.costs.status === 'previous-cycle' && augie.costs.academicYear === '2026–2027' &&
        !DB.match.annualCost[augie.id] && U.awardKind(augie) !== 'full-ride',
       'Augustana prior-year I-20 estimate and variable scholarship stay outside full-budget matches');
-    const photoIds = [
-      'creighton-university', 'drake-university', 'saint-louis-university', 'elon-university',
-      'cal-poly-san-luis-obispo', 'hampton-university', 'rhode-island-school-of-design',
-      'cal-poly-pomona', 'university-of-evansville',
-    ];
-    ok(photoIds.every(id => {
+    const photoIds = us.slice(250).filter(u => u.photos.gallery.length).map(u => u.id);
+    ok(photoIds.length >= 90 && photoIds.every(id => {
       const photo = U.uniById(id).photos.gallery[0];
       return photo && photo.artist && (photo.license === 'Public domain' || photo.licenseUrl) && /^https:\/\/commons\.wikimedia\.org\//.test(photo.page) &&
         ['1.jpg', 'thumb.jpg'].every(file => fs.existsSync(path.join(__dirname, '../assets/img/universities', id, file)));

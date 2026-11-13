@@ -2,6 +2,8 @@
 import us100_batch1 as b
 from us200_std import L, dm
 
+MSOE_AID = 'https://www.msoe.edu/admissions-aid/financial-aid-scholarships/scholarships-and-grants/msoe-scholarships-grants/international-student-scholarships/'
+UNI_AID = 'https://admissions.uni.edu/international/undergraduate-students/scholarships'
 UNI_UZ = 'https://admissions.uni.edu/international/undergraduate-students/country-specific-requirements/uzbekistan'
 JCU = 'https://www.jcu.edu/admission-aid/undergraduate/how-to-apply/international-students'
 JCU_FIRST_YEAR = 'https://www.jcu.edu/admission-aid/undergraduate/how-to-apply/undergraduate'
@@ -50,8 +52,23 @@ def details():
          (L('Books (estimate)', 'Учебники (смета)'), 1000, 'estimate'), (b.INSURANCE, 2200, 'estimate')],
         tuition=41986)
     aug_cost['breakdown']['period'] = 'year'
+    uni_merit = b.award(
+        'uni-international-scholars', L('International Scholars Award', 'Стипендия International Scholars Award'),
+        UNI_AID, L('$2,000–$5,000 per year', '$2 000–5 000 в год'),
+        L('Available to eligible international first-year and transfer applicants for Fall 2027. Renewable with continuous full-time enrollment and good academic standing.',
+          'Доступна иностранным первокурсникам и переводящимся студентам осени 2027 при соблюдении условий. Продлевается при непрерывном очном обучении и хорошей успеваемости.'),
+        separate=False, renewable=True)
+    uni_merit.update(firstYearEligible=True, entryYear='2027', entryTerm='Autumn')
+    msoe_merit = b.award(
+        'msoe-international-academic', L('International Student Academic Scholarships', 'Академические стипендии для иностранных студентов'),
+        MSOE_AID, None,
+        L('Tuition award for incoming international students based on academic grades. Renewable up to six years or 12 full-time terms subject to full-time enrollment and academic progress.',
+          'Стипендия на обучение для поступающих иностранных студентов по академическим оценкам. Продлевается до шести лет или 12 периодов очного обучения при соблюдении требований к нагрузке и успеваемости.'),
+        renewable=True)
+    msoe_merit['firstYearEligible'] = True
     return {
         'university-of-northern-iowa': {
+            'aid_source': UNI_AID, 'awards': [uni_merit],
             'qualifications': L('Uzbekistan: O’rta Ma’lumot To’g’risida Shahodatnoma (Certificate of Secondary Education); minimum cumulative grade 4 (B) in secondary academic subjects. The page does not list individual required subjects.',
                                 'Узбекистан: O’rta Ma’lumot To’g’risida Shahodatnoma (аттестат о среднем образовании); минимальный средний балл по школьным академическим предметам — 4 (B). Отдельные обязательные предметы на странице не перечислены.'),
             'extra_sources': [(L('Admission requirements for Uzbekistan', 'Требования для абитуриентов из Узбекистана'), UNI_UZ)],
@@ -76,6 +93,7 @@ def details():
                                  name=L('International fall application', 'Международная заявка на осень'))],
         },
         'milwaukee-school-of-engineering': {
+            'aid_source': MSOE_AID, 'awards': [msoe_merit],
             'ielts': 6.5, 'ibt': (82, 4.5), 'det': 115,
             'english_note': L('Section minima: IELTS 6.0, TOEFL iBT 19 on the old scale or 4 on the new scale, and Duolingo 100.',
                               'Минимумы по разделам: IELTS 6,0, TOEFL iBT 19 по прежней шкале или 4 по новой шкале и Duolingo 100.'),

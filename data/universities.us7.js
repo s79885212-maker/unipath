@@ -357,10 +357,13 @@ window.UNIPATH.universities.push(
     "platforms": [],
     "deadlines": [],
     "applicationFee": {
-      "amount": null,
+      "amount": 40,
       "currency": "USD",
       "waiverAvailableToInternational": null,
-      "waiver": null
+      "waiver": null,
+      "note": null,
+      "source": "https://www.ut.edu/apply/international-students",
+      "verified": "2026-11-13"
     },
     "documents": [],
     "recommendations": null,
@@ -986,10 +989,13 @@ window.UNIPATH.universities.push(
     "platforms": [],
     "deadlines": [],
     "applicationFee": {
-      "amount": null,
+      "amount": 30,
       "currency": "USD",
       "waiverAvailableToInternational": null,
-      "waiver": null
+      "waiver": null,
+      "note": null,
+      "source": "https://intered.mtsu.edu/admission/",
+      "verified": "2026-11-13"
     },
     "documents": [],
     "recommendations": null,
@@ -1314,10 +1320,13 @@ window.UNIPATH.universities.push(
     "platforms": [],
     "deadlines": [],
     "applicationFee": {
-      "amount": null,
+      "amount": 100,
       "currency": "USD",
       "waiverAvailableToInternational": null,
-      "waiver": null
+      "waiver": null,
+      "note": null,
+      "source": "https://www.murraystate.edu/admissions/international/Admissions/index.aspx",
+      "verified": "2026-11-13"
     },
     "documents": [],
     "recommendations": null,
@@ -1666,7 +1675,7 @@ window.UNIPATH.universities.push(
     "admissions": "https://www.msoe.edu/admissions-aid/international-admissions/future-international-students/undergraduate-students/requirements/",
     "internationalAdmissions": "https://www.msoe.edu/admissions-aid/international-admissions/future-international-students/undergraduate-students/requirements/",
     "applicationPortal": null,
-    "scholarships": null,
+    "scholarships": "https://www.msoe.edu/admissions-aid/financial-aid-scholarships/scholarships-and-grants/msoe-scholarships-grants/international-student-scholarships/",
     "financialAid": null,
     "programs": "https://www.msoe.edu/academics/undergraduate-degrees/",
     "cost": null
@@ -1759,7 +1768,24 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": null
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "msoe-international-academic",
+        "name": "International Student Academic Scholarships",
+        "basis": "merit",
+        "amount": null,
+        "internationalEligible": true,
+        "renewable": true,
+        "note": "Tuition award for incoming international students based on academic grades. Renewable up to six years or 12 full-time terms subject to full-time enrollment and academic progress.",
+        "coverage": "Partial funding",
+        "source": "https://www.msoe.edu/admissions-aid/financial-aid-scholarships/scholarships-and-grants/msoe-scholarships-grants/international-student-scholarships/",
+        "verified": "2026-11-13",
+        "application": null,
+        "deadline": null,
+        "deadlineScope": null,
+        "firstYearEligible": true
+      }
+    ],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,
@@ -1782,20 +1808,24 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate programs",
       "url": "https://www.msoe.edu/academics/undergraduate-degrees/"
+    },
+    {
+      "label": "Scholarships",
+      "url": "https://www.msoe.edu/admissions-aid/financial-aid-scholarships/scholarships-and-grants/msoe-scholarships-grants/international-student-scholarships/"
     }
   ],
   "verification": {
     "level": "partial",
     "checked": [
       "International admissions",
-      "Undergraduate programs"
+      "Undergraduate programs",
+      "Scholarships"
     ],
     "unconfirmed": [
       "Fall 2027 details require separate confirmation.",
       "A Fall 2027 application deadline for this applicant route has not been confirmed.",
       "Requirements specific to secondary qualifications from Uzbekistan were not confirmed.",
-      "A comparable full cost for the 2027–2028 academic year has not been confirmed.",
-      "Scholarship coverage for incoming international first-year students has not been confirmed."
+      "A comparable full cost for the 2027–2028 academic year has not been confirmed."
     ]
   },
   "lastVerified": "2026-11-13",
@@ -3313,7 +3343,7 @@ window.UNIPATH.universities.push(
     "admissions": "https://admissions.uni.edu/international/undergraduate-students/admission-policies",
     "internationalAdmissions": "https://admissions.uni.edu/international/undergraduate-students/admission-policies",
     "applicationPortal": null,
-    "scholarships": null,
+    "scholarships": "https://admissions.uni.edu/international/undergraduate-students/scholarships",
     "financialAid": null,
     "programs": "https://catalog.uni.edu/chas/computerscience/",
     "cost": null
@@ -3322,10 +3352,13 @@ window.UNIPATH.universities.push(
     "platforms": [],
     "deadlines": [],
     "applicationFee": {
-      "amount": null,
+      "amount": 50,
       "currency": "USD",
       "waiverAvailableToInternational": null,
-      "waiver": null
+      "waiver": null,
+      "note": null,
+      "source": "https://admissions.uni.edu/international/undergraduate-students/admission-policies",
+      "verified": "2026-11-13"
     },
     "documents": [],
     "recommendations": null,
@@ -3382,7 +3415,26 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": null
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "uni-international-scholars",
+        "name": "International Scholars Award",
+        "basis": "merit",
+        "amount": "$2,000–$5,000 per year",
+        "internationalEligible": true,
+        "renewable": true,
+        "note": "Available to eligible international first-year and transfer applicants for Fall 2027. Renewable with continuous full-time enrollment and good academic standing.",
+        "coverage": "Partial funding",
+        "source": "https://admissions.uni.edu/international/undergraduate-students/scholarships",
+        "verified": "2026-11-13",
+        "application": "Automatic consideration with the admission application.",
+        "deadline": null,
+        "deadlineScope": "no-separate-application",
+        "firstYearEligible": true,
+        "entryYear": "2027",
+        "entryTerm": "Autumn"
+      }
+    ],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,
@@ -3407,6 +3459,10 @@ window.UNIPATH.universities.push(
       "url": "https://catalog.uni.edu/chas/computerscience/"
     },
     {
+      "label": "Scholarships",
+      "url": "https://admissions.uni.edu/international/undergraduate-students/scholarships"
+    },
+    {
       "label": "Admission requirements for Uzbekistan",
       "url": "https://admissions.uni.edu/international/undergraduate-students/country-specific-requirements/uzbekistan"
     }
@@ -3416,14 +3472,14 @@ window.UNIPATH.universities.push(
     "checked": [
       "International admissions",
       "Undergraduate programs",
+      "Scholarships",
       "Admission requirements for Uzbekistan"
     ],
     "unconfirmed": [
       "Fall 2027 details require separate confirmation.",
       "A Fall 2027 application deadline for this applicant route has not been confirmed.",
       "The Uzbekistan requirements page does not identify a Fall 2027 cycle.",
-      "A comparable full cost for the 2027–2028 academic year has not been confirmed.",
-      "Scholarship coverage for incoming international first-year students has not been confirmed."
+      "A comparable full cost for the 2027–2028 academic year has not been confirmed."
     ]
   },
   "lastVerified": "2026-11-13",
@@ -3479,10 +3535,13 @@ window.UNIPATH.universities.push(
     "platforms": [],
     "deadlines": [],
     "applicationFee": {
-      "amount": null,
+      "amount": 0,
       "currency": "USD",
       "waiverAvailableToInternational": null,
-      "waiver": null
+      "waiver": null,
+      "note": "The official admissions page states there is no application fee.",
+      "source": "https://www.gvsu.edu/admissions/international-application-14",
+      "verified": "2026-11-13"
     },
     "documents": [],
     "recommendations": null,

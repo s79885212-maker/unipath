@@ -641,7 +641,7 @@ window.UNIPATH.universities.push(
     "admissions": "https://admissions.tcnj.edu/applications/international-applicants/",
     "internationalAdmissions": "https://admissions.tcnj.edu/applications/international-applicants/",
     "applicationPortal": null,
-    "scholarships": null,
+    "scholarships": "https://admissions.tcnj.edu/applications/international-applicants/",
     "financialAid": null,
     "programs": "https://programs.tcnj.edu/biology",
     "cost": null
@@ -650,10 +650,13 @@ window.UNIPATH.universities.push(
     "platforms": [],
     "deadlines": [],
     "applicationFee": {
-      "amount": null,
+      "amount": 65,
       "currency": "USD",
       "waiverAvailableToInternational": null,
-      "waiver": null
+      "waiver": null,
+      "note": null,
+      "source": "https://admissions.tcnj.edu/applications/international-applicants/",
+      "verified": "2026-11-13"
     },
     "documents": [],
     "recommendations": null,
@@ -710,7 +713,24 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": null
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "tcnj-first-year-f1",
+        "name": "First-year F-1 merit scholarships",
+        "basis": "merit",
+        "amount": null,
+        "internationalEligible": true,
+        "renewable": true,
+        "note": "Admitted fall first-year F-1 students are automatically considered. Awards can be renewed for up to four years.",
+        "coverage": "Partial funding",
+        "source": "https://admissions.tcnj.edu/applications/international-applicants/",
+        "verified": "2026-11-13",
+        "application": "Automatic consideration with the admission application.",
+        "deadline": null,
+        "deadlineScope": "no-separate-application",
+        "firstYearEligible": true
+      }
+    ],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,
@@ -733,20 +753,24 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate programs",
       "url": "https://programs.tcnj.edu/biology"
+    },
+    {
+      "label": "Scholarships",
+      "url": "https://admissions.tcnj.edu/applications/international-applicants/"
     }
   ],
   "verification": {
     "level": "partial",
     "checked": [
       "International admissions",
-      "Undergraduate programs"
+      "Undergraduate programs",
+      "Scholarships"
     ],
     "unconfirmed": [
       "Fall 2027 details require separate confirmation.",
       "A Fall 2027 application deadline for this applicant route has not been confirmed.",
       "Requirements specific to secondary qualifications from Uzbekistan were not confirmed.",
-      "A comparable full cost for the 2027–2028 academic year has not been confirmed.",
-      "Scholarship coverage for incoming international first-year students has not been confirmed."
+      "A comparable full cost for the 2027–2028 academic year has not been confirmed."
     ]
   },
   "lastVerified": "2026-11-13",
@@ -1348,12 +1372,36 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "id": "towson-international-fall",
+        "kind": "admission",
+        "name": "International freshman application",
+        "date": "1 June 2027",
+        "dateISO": "2027-06-01",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
+        "source": "https://www.towson.edu/admissions/undergrad/freshmen/",
+        "verified": "2026-11-13",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "source": "https://www.towson.edu/admissions/undergrad/freshmen/",
+          "verified": "2026-11-13",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "quote": "Fall 2027 — International Freshman Deadline — June 1, 2027"
+        }
+      }
+    ],
     "applicationFee": {
-      "amount": null,
+      "amount": 50,
       "currency": "USD",
       "waiverAvailableToInternational": null,
-      "waiver": null
+      "waiver": null,
+      "note": null,
+      "source": "https://www.towson.edu/admissions/undergrad/freshmen/",
+      "verified": "2026-11-13"
     },
     "documents": [],
     "recommendations": null,
@@ -1452,6 +1500,10 @@ window.UNIPATH.universities.push(
       "url": "https://www.towson.edu/academics/undergraduate/majors/"
     },
     {
+      "label": "Application fee",
+      "url": "https://www.towson.edu/admissions/undergrad/freshmen/"
+    },
+    {
       "label": "Scholarships",
       "url": "https://www.towson.edu/admissions/financialaid/programs/scholarships/international.html"
     }
@@ -1461,11 +1513,11 @@ window.UNIPATH.universities.push(
     "checked": [
       "International admissions",
       "Undergraduate programs",
+      "Application fee",
       "Scholarships"
     ],
     "unconfirmed": [
       "Fall 2027 details require separate confirmation.",
-      "A Fall 2027 application deadline for this applicant route has not been confirmed.",
       "Requirements specific to secondary qualifications from Uzbekistan were not confirmed.",
       "A comparable full cost for the 2027–2028 academic year has not been confirmed."
     ]
@@ -1881,10 +1933,13 @@ window.UNIPATH.universities.push(
       }
     ],
     "applicationFee": {
-      "amount": null,
+      "amount": 65,
       "currency": "USD",
       "waiverAvailableToInternational": null,
-      "waiver": null
+      "waiver": null,
+      "note": null,
+      "source": "https://www.jjay.cuny.edu/admissions/undergraduate-admissions/apply/international-student-application",
+      "verified": "2026-11-13"
     },
     "documents": [],
     "recommendations": null,
@@ -2236,7 +2291,7 @@ window.UNIPATH.universities.push(
     "admissions": "https://salve.edu/admissions/international-applicants",
     "internationalAdmissions": "https://salve.edu/admissions/international-applicants",
     "applicationPortal": null,
-    "scholarships": null,
+    "scholarships": "https://admissions.salve.edu/register/?id=9eabcc1e-0dd6-4ea2-b34d-38d0b2e6ec52",
     "financialAid": null,
     "programs": "https://salve.edu/academics/find-your-program/business-administration-major",
     "cost": null
@@ -2328,18 +2383,24 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate programs",
       "url": "https://salve.edu/academics/find-your-program/business-administration-major"
+    },
+    {
+      "label": "Scholarships",
+      "url": "https://admissions.salve.edu/register/?id=9eabcc1e-0dd6-4ea2-b34d-38d0b2e6ec52"
     }
   ],
   "verification": {
     "level": "partial",
     "checked": [
       "International admissions",
-      "Undergraduate programs"
+      "Undergraduate programs",
+      "Scholarships"
     ],
     "unconfirmed": [
       "Fall 2027 details require separate confirmation.",
       "A Fall 2027 application deadline for this applicant route has not been confirmed.",
       "Requirements specific to secondary qualifications from Uzbekistan were not confirmed.",
+      "Salve Regina accepts an additional aid application for 2027–2028 international entrants. Eligibility and coverage are not confirmed.",
       "A comparable full cost for the 2027–2028 academic year has not been confirmed.",
       "Scholarship coverage for incoming international first-year students has not been confirmed."
     ]
@@ -2543,7 +2604,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": null,
     "programs": "https://stockton.edu/academic-affairs/academic-schools-programs.html",
-    "cost": null
+    "cost": "https://www2.stockton.edu/admissions/international-cost-of-attendance.html"
   },
   "admissions": {
     "platforms": [],
@@ -2609,14 +2670,49 @@ window.UNIPATH.universities.push(
     "internationalQualifications": null
   },
   "costs": {
-    "breakdown": null,
-    "academicYear": null,
+    "breakdown": {
+      "includes": null,
+      "tuition": 23196,
+      "billed": 26016,
+      "period": "year"
+    },
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": null,
-    "items": [],
-    "billedSubtotal": null,
+    "studentCategory": "Full-time international undergraduate, on campus",
+    "source": "https://www2.stockton.edu/admissions/international-cost-of-attendance.html",
+    "verified": "2026-11-13",
+    "headline": "$48,620 estimated I-20 cost on campus",
+    "items": [
+      {
+        "label": "Tuition",
+        "group": "billed",
+        "amount": 23196
+      },
+      {
+        "label": "Mandatory fees",
+        "group": "billed",
+        "amount": 2820
+      },
+      {
+        "label": "Housing",
+        "group": "estimate",
+        "amount": 11564
+      },
+      {
+        "label": "Meals",
+        "group": "estimate",
+        "amount": 4055
+      },
+      {
+        "label": "Books, supplies, transportation and health insurance",
+        "group": "estimate",
+        "amount": 6985
+      }
+    ],
+    "billedSubtotal": 26016,
     "totalText": null,
-    "note": null
+    "note": "2026–2027 estimate for fall and spring, 12–20 credits per semester. Visual Arts students need an additional $2,000 for supplies. Fall 2027 costs are unconfirmed.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -2666,6 +2762,10 @@ window.UNIPATH.universities.push(
     {
       "label": "Application fee",
       "url": "https://stockton.edu/admissions/international-admission-application.html"
+    },
+    {
+      "label": "Published costs",
+      "url": "https://www2.stockton.edu/admissions/international-cost-of-attendance.html"
     }
   ],
   "verification": {
@@ -2674,7 +2774,8 @@ window.UNIPATH.universities.push(
       "International admissions",
       "Undergraduate programs",
       "English proficiency requirements",
-      "Application fee"
+      "Application fee",
+      "Published costs"
     ],
     "unconfirmed": [
       "Fall 2027 details require separate confirmation.",
@@ -2735,12 +2836,36 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "id": "manhattan-fall-priority",
+        "kind": "admission",
+        "name": "Fall priority application",
+        "date": "1 March 2027",
+        "dateISO": "2027-03-01",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
+        "source": "https://manhattan.edu/admissions/undergraduate/apply",
+        "verified": "2026-11-13",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://manhattan.edu/admissions/undergraduate/apply",
+          "verified": "2026-11-13",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "quote": "priority consideration for applications received by March 1 for fall 2027 enrollment"
+        }
+      }
+    ],
     "applicationFee": {
-      "amount": null,
+      "amount": 75,
       "currency": "USD",
       "waiverAvailableToInternational": null,
-      "waiver": null
+      "waiver": null,
+      "note": null,
+      "source": "https://manhattan.edu/admissions/international/requirements",
+      "verified": "2026-11-13"
     },
     "documents": [],
     "recommendations": null,
@@ -2830,7 +2955,6 @@ window.UNIPATH.universities.push(
     ],
     "unconfirmed": [
       "Fall 2027 details require separate confirmation.",
-      "A Fall 2027 application deadline for this applicant route has not been confirmed.",
       "Requirements specific to secondary qualifications from Uzbekistan were not confirmed.",
       "A comparable full cost for the 2027–2028 academic year has not been confirmed.",
       "Scholarship coverage for incoming international first-year students has not been confirmed."
@@ -3187,7 +3311,7 @@ window.UNIPATH.universities.push(
     "admissions": "https://www.berry.edu/admission/how-to-apply/international",
     "internationalAdmissions": "https://www.berry.edu/admission/how-to-apply/international",
     "applicationPortal": null,
-    "scholarships": null,
+    "scholarships": "https://www.berry.edu/admission/faq/international",
     "financialAid": null,
     "programs": "https://www.berry.edu/academics/majors/",
     "cost": null
@@ -3196,10 +3320,13 @@ window.UNIPATH.universities.push(
     "platforms": [],
     "deadlines": [],
     "applicationFee": {
-      "amount": null,
+      "amount": 50,
       "currency": "USD",
       "waiverAvailableToInternational": null,
-      "waiver": null
+      "waiver": null,
+      "note": null,
+      "source": "https://www.berry.edu/admission/how-to-apply/international",
+      "verified": "2026-11-13"
     },
     "documents": [],
     "recommendations": null,
@@ -3256,14 +3383,33 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": null
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "berry-international-merit",
+        "name": "International merit scholarships",
+        "basis": "merit",
+        "amount": null,
+        "internationalEligible": true,
+        "renewable": null,
+        "note": "Competitive merit award based on secondary school transcripts.",
+        "coverage": "Partial funding",
+        "source": "https://www.berry.edu/admission/faq/international",
+        "verified": "2026-11-13",
+        "application": "Automatic consideration with the admission application.",
+        "deadline": null,
+        "deadlineScope": "no-separate-application",
+        "firstYearEligible": true
+      }
+    ],
     "needBased": {
-      "availableToInternational": null,
+      "availableToInternational": false,
       "meetsFullNeed": null,
       "needBlindInternational": null,
       "forms": [],
       "deadlines": null,
-      "note": null
+      "note": null,
+      "source": "https://www.berry.edu/admission/faq/international",
+      "verified": "2026-11-13"
     }
   },
   "photos": {
@@ -3279,20 +3425,24 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate programs",
       "url": "https://www.berry.edu/academics/majors/"
+    },
+    {
+      "label": "Scholarships",
+      "url": "https://www.berry.edu/admission/faq/international"
     }
   ],
   "verification": {
     "level": "partial",
     "checked": [
       "International admissions",
-      "Undergraduate programs"
+      "Undergraduate programs",
+      "Scholarships"
     ],
     "unconfirmed": [
       "Fall 2027 details require separate confirmation.",
       "A Fall 2027 application deadline for this applicant route has not been confirmed.",
       "Requirements specific to secondary qualifications from Uzbekistan were not confirmed.",
-      "A comparable full cost for the 2027–2028 academic year has not been confirmed.",
-      "Scholarship coverage for incoming international first-year students has not been confirmed."
+      "A comparable full cost for the 2027–2028 academic year has not been confirmed."
     ]
   },
   "lastVerified": "2026-11-13",
@@ -3520,10 +3670,13 @@ window.UNIPATH.universities.push(
     "platforms": [],
     "deadlines": [],
     "applicationFee": {
-      "amount": null,
+      "amount": 65,
       "currency": "USD",
       "waiverAvailableToInternational": null,
-      "waiver": null
+      "waiver": null,
+      "note": null,
+      "source": "https://admissions.appstate.edu/apply/international-student",
+      "verified": "2026-11-13"
     },
     "documents": [],
     "recommendations": null,
@@ -3850,10 +4003,13 @@ window.UNIPATH.universities.push(
     "platforms": [],
     "deadlines": [],
     "applicationFee": {
-      "amount": null,
+      "amount": 35,
       "currency": "USD",
       "waiverAvailableToInternational": null,
-      "waiver": null
+      "waiver": null,
+      "note": null,
+      "source": "https://www.tuskegee.edu/admissions/criteria-for-international-students.html",
+      "verified": "2026-11-13"
     },
     "documents": [],
     "recommendations": null,

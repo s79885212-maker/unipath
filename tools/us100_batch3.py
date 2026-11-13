@@ -4,6 +4,10 @@ from us100_batch2 import CSU_TESTING
 from us200_std import L, dm
 
 CSUDH = 'https://www.csudh.edu/future-students/international/application-checklist'
+TCNJ = 'https://admissions.tcnj.edu/applications/international-applicants/'
+BERRY_AID = 'https://www.berry.edu/admission/faq/international'
+SALVE_AID = 'https://admissions.salve.edu/register/?id=9eabcc1e-0dd6-4ea2-b34d-38d0b2e6ec52'
+STOCKTON_COST = 'https://www2.stockton.edu/admissions/international-cost-of-attendance.html'
 STOCKTON = 'https://stockton.edu/admissions/international-admission-application.html'
 RISD = 'https://www.risd.edu/admissions/first-year/apply-risd'
 RISD_AID = 'https://www.risd.edu/admissions/first-year/financing-your-education'
@@ -11,6 +15,8 @@ BRYANT = 'https://www.bryant.edu/undergraduate/undergraduate-admission/applying-
 ESF = 'https://www.esf.edu/admissions/apply/international-students/'
 SIENA = 'https://www.siena.edu/offices/admissions/international-students/how-to-apply/'
 JOHN_JAY = 'https://www.jjay.cuny.edu/admissions/undergraduate-admissions/apply/international-student-application'
+TOWSON_FRESHMEN = 'https://www.towson.edu/admissions/undergrad/freshmen/'
+MANHATTAN_FRESHMEN = 'https://manhattan.edu/admissions/undergraduate/apply'
 TOWSON = 'https://www.towson.edu/admissions/financialaid/programs/scholarships/international.html'
 NEW_PALTZ = 'https://www.newpaltz.edu/youarewelcomehere/'
 HAMPTON = 'https://home.hamptonu.edu/admissions/international-students/'
@@ -39,7 +45,33 @@ def details():
                      L('Amounts vary with academic merit.', 'Сумма зависит от академических результатов.'),
                      separate=False, renewable=True)
     bryant['firstYearEligible'] = True
+    tcnj_merit = b.award('tcnj-first-year-f1', L('First-year F-1 merit scholarships', 'Академические стипендии первокурсникам с визой F-1'),
+                          TCNJ, None, L('Admitted fall first-year F-1 students are automatically considered. Awards can be renewed for up to four years.',
+                                        'Зачисленных на осень первокурсников с визой F-1 рассматривают автоматически. Стипендии могут продлеваться до четырёх лет.'),
+                          separate=False, renewable=True)
+    berry_merit = b.award('berry-international-merit', L('International merit scholarships', 'Академические стипендии для иностранцев'),
+                           BERRY_AID, None, L('Competitive merit award based on secondary school transcripts.',
+                                             'Конкурсная стипендия по школьным оценкам.'),
+                           separate=False)
+    for award in (tcnj_merit, berry_merit):
+        award['firstYearEligible'] = True
+    stockton_cost = b.published_cost(
+        STOCKTON_COST, L('Full-time international undergraduate, on campus', 'Иностранный студент очного бакалавриата, проживание в кампусе'),
+        L('$48,620 estimated I-20 cost on campus', 'Смета I-20 с проживанием в кампусе — $48 620'),
+        [(b.TUITION, 23196, 'billed'), (b.FEES, 2820, 'billed'), (b.HOUSING, 11564, 'estimate'),
+         (b.MEALS, 4055, 'estimate'),
+         (L('Books, supplies, transportation and health insurance', 'Учебники, материалы, транспорт и медицинская страховка'),
+          6985, 'estimate')], tuition=23196, billed=26016,
+        note=L('2026–2027 estimate for fall and spring, 12–20 credits per semester. Visual Arts students need an additional $2,000 for supplies. Fall 2027 costs are unconfirmed.',
+               'Смета на осень и весну 2026–2027, 12–20 кредитов в семестр. Студентам Visual Arts нужно дополнительно $2 000 на материалы. Стоимость на осень 2027 не подтверждена.'))
+    stockton_cost['breakdown']['period'] = 'year'
     return {
+        'the-college-of-new-jersey': {'aid_source': TCNJ, 'awards': [tcnj_merit]},
+        'berry-college': {'aid_source': BERRY_AID, 'awards': [berry_merit],
+            'need': {'availableToInternational': False, 'source': BERRY_AID, 'verified': b.REVIEWED}},
+        'salve-regina-university': {'aid_source': SALVE_AID,
+            'unconfirmed': [L('Salve Regina accepts an additional aid application for 2027–2028 international entrants. Eligibility and coverage are not confirmed.',
+                              'Salve Regina принимает дополнительную заявку на помощь от иностранных абитуриентов 2027–2028. Право на помощь и покрытие не подтверждены.')]},
         'cal-poly-humboldt': {'testing': b.BLIND, 'test_source': CSU_TESTING, 'ielts': 6, 'ibt': (71, 4)},
         'cal-state-dominguez-hills': {
             'testing': b.BLIND, 'test_source': CSU_TESTING, 'application_fee': 70,
@@ -75,7 +107,18 @@ def details():
             'rounds': [b.deadline('siena-rd', L('February 15', '15 февраля'), SIENA,
                                  name=L('Regular Decision', 'Основной раунд'))],
         },
-        'towson-university': {'aid_source': TOWSON, 'awards': [towson]},
+        'towson-university': {
+            'aid_source': TOWSON, 'awards': [towson], 'application_fee': 50, 'fee_source': TOWSON_FRESHMEN,
+            'rounds': [b.deadline('towson-international-fall', L(*dm('2027-06-01')), TOWSON_FRESHMEN,
+                                 iso='2027-06-01', evidence='Fall 2027 — International Freshman Deadline — June 1, 2027',
+                                 name=L('International freshman application', 'Заявка иностранного первокурсника'))],
+        },
+        'manhattan-university': {
+            'rounds': [b.deadline('manhattan-fall-priority', L(*dm('2027-03-01')), MANHATTAN_FRESHMEN,
+                                 iso='2027-03-01', basis='page-context',
+                                 evidence='priority consideration for applications received by March 1 for fall 2027 enrollment',
+                                 name=L('Fall priority application', 'Приоритетная подача на осень'))],
+        },
         'suny-esf': {'english_source': ESF, 'ibt': (79, 4)},
         'john-jay-college': {
             'ibt': (61, None),
@@ -84,7 +127,7 @@ def details():
         },
         'stockton-university': {
             'ielts': 6.5, 'ibt': (79, 4), 'application_fee': 50,
-            'fee_source': STOCKTON, 'english_source': STOCKTON,
+            'fee_source': STOCKTON, 'english_source': STOCKTON, 'cost': stockton_cost,
             'documents': [L('Official secondary school transcripts sent directly by the school',
                             'Официальные школьные ведомости, отправленные учебным заведением напрямую'),
                           L('Certified English translation with notarization, or an official evaluation, for non-English transcripts',
