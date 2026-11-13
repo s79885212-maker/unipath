@@ -28,7 +28,18 @@ module.exports = function ({ U, M, DB, ok }) {
      csudhDates.length === 2 && csudhDates.some(round => round.kind === 'documents') &&
      csudhDates.every(round => round.status === 'annual-rule' && !round.dateISO),
     'CSUDH fee and annual application/document deadlines preserve their scope');
+  const risd = U.uniById('rhode-island-school-of-design');
+  const stockton = U.uniById('stockton-university');
+  ok(U.roundsOf(risd).some(round => round.dateISO === '2027-01-20' &&
+       round.status === 'confirmed' && round.cycleEvidence.basis === 'page-context') &&
+     stockton.admissions.applicationFee.amount === 50 && U.ieltsMin(stockton) === 6.5,
+    'RISD preserves the documented 2027 cycle and Stockton uses the international applicant requirements');
   if (batches.includes(4)) {
+    const jcu = U.uniById('john-carroll-university');
+    ok(U.roundsOf(jcu).some(round => round.dateISO === '2027-04-15' &&
+         round.status === 'confirmed' && round.cycleEvidence.basis === 'page-context') &&
+       U.satPolicy(jcu) === 'conditional' && jcu.admissions.applicationFee.amount === 0,
+      'John Carroll uses the international deadline and a conditional SAT/ACT policy');
     const uni = U.uniById('university-of-northern-iowa');
     const augie = U.uniById('augustana-university-south-dakota');
     ok(uni.academics.internationalQualifications.includes('4 (B)') &&
@@ -38,12 +49,16 @@ module.exports = function ({ U, M, DB, ok }) {
     ok(augie.costs.status === 'previous-cycle' && augie.costs.academicYear === '2026–2027' &&
        !DB.match.annualCost[augie.id] && U.awardKind(augie) !== 'full-ride',
       'Augustana prior-year I-20 estimate and variable scholarship stay outside full-budget matches');
-    const photoIds = ['creighton-university', 'drake-university', 'saint-louis-university'];
+    const photoIds = [
+      'creighton-university', 'drake-university', 'saint-louis-university', 'elon-university',
+      'cal-poly-san-luis-obispo', 'hampton-university', 'rhode-island-school-of-design',
+      'cal-poly-pomona', 'university-of-evansville',
+    ];
     ok(photoIds.every(id => {
       const photo = U.uniById(id).photos.gallery[0];
-      return photo && photo.artist && photo.licenseUrl && /^https:\/\/commons\.wikimedia\.org\//.test(photo.page) &&
+      return photo && photo.artist && (photo.license === 'Public domain' || photo.licenseUrl) && /^https:\/\/commons\.wikimedia\.org\//.test(photo.page) &&
         ['1.jpg', 'thumb.jpg'].every(file => fs.existsSync(path.join(__dirname, '../assets/img/universities', id, file)));
-    }), 'three reviewed campus photos include main image, thumbnail and Commons attribution');
+    }), 'reviewed campus photos include main image, thumbnail and Commons attribution');
     const ue = U.uniById('university-of-evansville');
     ok(M.evaluate(ue, { budget: 50000, currency: 'USD' }).budget.status === 'over' &&
        M.evaluate(ue, { budget: 70894, currency: 'USD' }).budget.status === 'fits',

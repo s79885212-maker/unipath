@@ -1464,12 +1464,36 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "id": "jcu-international-fall",
+        "kind": "admission",
+        "name": "International fall application",
+        "date": "15 April 2027",
+        "dateISO": "2027-04-15",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
+        "source": "https://www.jcu.edu/admission-aid/undergraduate/how-to-apply/international-students",
+        "verified": "2026-11-13",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://www.jcu.edu/admission-aid/undergraduate/how-to-apply/international-students",
+          "verified": "2026-11-13",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "quote": "The application for Fall 2027 is now available; Applying for the fall semester: April 15"
+        }
+      }
+    ],
     "applicationFee": {
-      "amount": null,
+      "amount": 0,
       "currency": "USD",
       "waiverAvailableToInternational": null,
-      "waiver": null
+      "waiver": null,
+      "note": "The official admissions page states there is no application fee.",
+      "source": "https://www.jcu.edu/admission-aid/undergraduate/how-to-apply/undergraduate",
+      "verified": "2026-11-13"
     },
     "documents": [],
     "recommendations": null,
@@ -1509,12 +1533,16 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "conditional",
+      "note": "Non-U.S. citizens who attended school outside the U.S. are asked for at least one accepted test. TOEFL and IELTS are accepted alternatives to SAT or ACT. Check StartJCU for individual requirements.",
+      "source": "https://www.jcu.edu/admission-aid/undergraduate/how-to-apply/international-students",
+      "verified": "2026-11-13"
     },
     "act": {
-      "policy": null,
-      "note": "Not confirmed on the pages read."
+      "policy": "conditional",
+      "note": "Non-U.S. citizens who attended school outside the U.S. are asked for at least one accepted test. TOEFL and IELTS are accepted alternatives to SAT or ACT. Check StartJCU for individual requirements.",
+      "source": "https://www.jcu.edu/admission-aid/undergraduate/how-to-apply/international-students",
+      "verified": "2026-11-13"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -1569,17 +1597,26 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate programs",
       "url": "https://www.jcu.edu/academics/undergraduate-programs/majors/computer-science"
+    },
+    {
+      "label": "SAT and ACT",
+      "url": "https://www.jcu.edu/admission-aid/undergraduate/how-to-apply/international-students"
+    },
+    {
+      "label": "Application fee",
+      "url": "https://www.jcu.edu/admission-aid/undergraduate/how-to-apply/undergraduate"
     }
   ],
   "verification": {
     "level": "partial",
     "checked": [
       "International admissions",
-      "Undergraduate programs"
+      "Undergraduate programs",
+      "SAT and ACT",
+      "Application fee"
     ],
     "unconfirmed": [
       "Fall 2027 details require separate confirmation.",
-      "A Fall 2027 application deadline for this applicant route has not been confirmed.",
       "Requirements specific to secondary qualifications from Uzbekistan were not confirmed.",
       "A comparable full cost for the 2027–2028 academic year has not been confirmed.",
       "Scholarship coverage for incoming international first-year students has not been confirmed."

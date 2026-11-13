@@ -425,17 +425,20 @@ window.UNIPATH.universities.push(
         "id": "risd-rd",
         "kind": "admission",
         "name": "Regular Decision",
-        "date": "January 20",
-        "dateISO": null,
-        "entryTerm": null,
-        "entryYear": null,
-        "status": "annual-rule",
+        "date": "20 January 2027",
+        "dateISO": "2027-01-20",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
         "source": "https://www.risd.edu/admissions/first-year/apply-risd",
         "verified": "2026-11-13",
         "cycleEvidence": {
-          "basis": "annual-rule",
+          "basis": "page-context",
           "source": "https://www.risd.edu/admissions/first-year/apply-risd",
-          "verified": "2026-11-13"
+          "verified": "2026-11-13",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "quote": "2027 application requirements; Regular decision application deadline: January 20"
         }
       }
     ],
@@ -590,7 +593,6 @@ window.UNIPATH.universities.push(
     ],
     "unconfirmed": [
       "Fall 2027 details require separate confirmation.",
-      "A Fall 2027 application deadline for this applicant route has not been confirmed.",
       "Requirements specific to secondary qualifications from Uzbekistan were not confirmed.",
       "A comparable full cost for the 2027–2028 academic year has not been confirmed."
     ]
@@ -2547,24 +2549,50 @@ window.UNIPATH.universities.push(
     "platforms": [],
     "deadlines": [],
     "applicationFee": {
-      "amount": null,
+      "amount": 50,
       "currency": "USD",
       "waiverAvailableToInternational": null,
-      "waiver": null
+      "waiver": null,
+      "note": null,
+      "source": "https://stockton.edu/admissions/international-admission-application.html",
+      "verified": "2026-11-13"
     },
-    "documents": [],
+    "documents": [
+      "Official secondary school transcripts sent directly by the school",
+      "Certified English translation with notarization, or an official evaluation, for non-English transcripts"
+    ],
     "recommendations": null,
     "essay": null,
     "interview": null,
     "notes": []
   },
   "english": {
-    "ielts": null,
-    "toefl": null,
+    "ielts": {
+      "min": 6.5,
+      "recommended": null,
+      "note": null
+    },
+    "toefl": {
+      "min": 79,
+      "recommended": null,
+      "note": null,
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 79,
+          "recommended": null
+        },
+        {
+          "period": "post2026",
+          "min": 4,
+          "recommended": null
+        }
+      ]
+    },
     "duolingo": null,
     "waiver": null,
     "note": null,
-    "detailsSource": "https://stockton.edu/global-engagement/international/freshman-students.html",
+    "detailsSource": "https://stockton.edu/admissions/international-admission-application.html",
     "detailsVerified": "2026-11-13"
   },
   "academics": {
@@ -2630,13 +2658,23 @@ window.UNIPATH.universities.push(
     {
       "label": "Undergraduate programs",
       "url": "https://stockton.edu/academic-affairs/academic-schools-programs.html"
+    },
+    {
+      "label": "English proficiency requirements",
+      "url": "https://stockton.edu/admissions/international-admission-application.html"
+    },
+    {
+      "label": "Application fee",
+      "url": "https://stockton.edu/admissions/international-admission-application.html"
     }
   ],
   "verification": {
     "level": "partial",
     "checked": [
       "International admissions",
-      "Undergraduate programs"
+      "Undergraduate programs",
+      "English proficiency requirements",
+      "Application fee"
     ],
     "unconfirmed": [
       "Fall 2027 details require separate confirmation.",

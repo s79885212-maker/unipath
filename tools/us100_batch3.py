@@ -4,6 +4,7 @@ from us100_batch2 import CSU_TESTING
 from us200_std import L, dm
 
 CSUDH = 'https://www.csudh.edu/future-students/international/application-checklist'
+STOCKTON = 'https://stockton.edu/admissions/international-admission-application.html'
 RISD = 'https://www.risd.edu/admissions/first-year/apply-risd'
 RISD_AID = 'https://www.risd.edu/admissions/first-year/financing-your-education'
 BRYANT = 'https://www.bryant.edu/undergraduate/undergraduate-admission/applying-bryant/international-students'
@@ -56,7 +57,9 @@ def details():
             'documents': [b.SECONDARY, L('English translation of non-English credentials',
                                          'Перевод документов на английский'),
                           L('Portfolio', 'Портфолио')],
-            'rounds': [b.deadline('risd-rd', L('January 20', '20 января'), RISD,
+            'rounds': [b.deadline('risd-rd', L(*dm('2027-01-20')), RISD,
+                                 iso='2027-01-20', basis='page-context',
+                                 evidence='2027 application requirements; Regular decision application deadline: January 20',
                                  name=L('Regular Decision', 'Основной раунд'))],
             'aid_source': RISD_AID,
             'need': {'availableToInternational': True, 'source': RISD_AID, 'verified': b.REVIEWED,
@@ -78,6 +81,14 @@ def details():
             'ibt': (61, None),
             'rounds': [b.deadline('john-jay-fall-priority', L('February 1', '1 февраля'), JOHN_JAY,
                                  name=L('Fall priority application', 'Приоритетная подача на осень'))],
+        },
+        'stockton-university': {
+            'ielts': 6.5, 'ibt': (79, 4), 'application_fee': 50,
+            'fee_source': STOCKTON, 'english_source': STOCKTON,
+            'documents': [L('Official secondary school transcripts sent directly by the school',
+                            'Официальные школьные ведомости, отправленные учебным заведением напрямую'),
+                          L('Certified English translation with notarization, or an official evaluation, for non-English transcripts',
+                            'Для ведомостей на другом языке требуется заверенный нотариусом перевод на английский или официальная оценка документов')],
         },
         'le-moyne-college': {'ielts': 6.5, 'ibt': (79, None)},
         'embry-riddle-daytona-beach': {'ielts': 6, 'ibt': (79, 4)},

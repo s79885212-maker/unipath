@@ -1,8 +1,10 @@
 """Verified admissions, aid and costs for USA expansion batch 4."""
 import us100_batch1 as b
-from us200_std import L
+from us200_std import L, dm
 
 UNI_UZ = 'https://admissions.uni.edu/international/undergraduate-students/country-specific-requirements/uzbekistan'
+JCU = 'https://www.jcu.edu/admission-aid/undergraduate/how-to-apply/international-students'
+JCU_FIRST_YEAR = 'https://www.jcu.edu/admission-aid/undergraduate/how-to-apply/undergraduate'
 GCSU = 'https://www.gcsu.edu/international/application-checklist-deadlines'
 AUG_AID = 'https://www.augie.edu/admission-financial-aid/financial-aid-costs-scholarships/comprehensive-costs/international-student'
 UE = 'https://www.evansville.edu/intladmission/admission-requirements.cfm'
@@ -63,7 +65,16 @@ def details():
         },
         'union-university-tennessee': {'ielts': 6.5, 'application_fee': 35, 'det': 105},
         'university-of-west-florida': {'ielts': 6, 'ibt': (79, 4.5), 'det': 110},
-        'john-carroll-university': {'ielts': 6.5, 'ibt': (80, 4.5)},
+        'john-carroll-university': {
+            'ielts': 6.5, 'ibt': (80, 4.5), 'application_fee': 0, 'fee_source': JCU_FIRST_YEAR,
+            'testing': ('conditional', L('Non-U.S. citizens who attended school outside the U.S. are asked for at least one accepted test. TOEFL and IELTS are accepted alternatives to SAT or ACT. Check StartJCU for individual requirements.',
+                                         'Абитуриентам без гражданства США, учившимся за пределами США, требуется хотя бы один из принимаемых экзаменов. TOEFL и IELTS принимаются вместо SAT или ACT. Индивидуальные требования указаны в StartJCU.')),
+            'test_source': JCU,
+            'rounds': [b.deadline('jcu-international-fall', L(*dm('2027-04-15')), JCU,
+                                 iso='2027-04-15', basis='page-context',
+                                 evidence='The application for Fall 2027 is now available; Applying for the fall semester: April 15',
+                                 name=L('International fall application', 'Международная заявка на осень'))],
+        },
         'milwaukee-school-of-engineering': {
             'ielts': 6.5, 'ibt': (82, 4.5), 'det': 115,
             'english_note': L('Section minima: IELTS 6.0, TOEFL iBT 19 on the old scale or 4 on the new scale, and Duolingo 100.',
