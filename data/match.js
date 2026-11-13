@@ -333,6 +333,11 @@ window.UNIPATH.match = {
     /* Added with the October 2026 expansion — tuition only */
     'university-of-sussex': { currency: 'GBP', basis: 'tuition', min: 24200, max: 24200, note: 'BSc Economics example for September 2027; each course is priced separately' },
     'university-of-strathclyde': { currency: 'GBP', basis: 'tuition', min: 23200, max: 23200, note: 'BA Economics example for 2027/28; each course is priced separately' },
+    'university-of-greenwich': { currency: 'GBP', basis: 'tuition', min: 18525, max: 18525, note: 'Business Management, BA (Hons) example for 2027/28; each course is priced separately' },
+    'coventry-university': { currency: 'GBP', basis: 'tuition', min: 18045, max: 18045, note: 'BA (Hons) Business Management example for 2027/28; each course is priced separately' },
+    'university-of-westminster': { currency: 'GBP', basis: 'tuition', min: 19000, max: 19000, note: 'Business Management BA Honours example for 2027/28; each course is priced separately' },
+    'sheffield-hallam-university': { currency: 'GBP', basis: 'tuition', min: 18900, max: 18900, note: 'BA (Honours) Business Management example for 2027/28; each course is priced separately' },
+    'oxford-brookes-university': { currency: 'GBP', basis: 'tuition', min: 20800, max: 20800, note: 'BA (Hons) Business and Management example for 2027/28; each course is priced separately' },
     'technische-hochschule-ingolstadt': { currency: 'EUR', basis: 'tuition', min: 1600, max: 1600, note: 'Two semesters at €800 for students from outside the EU/EEA; the student union fee is extra' },
     'kuehne-logistics-university': { currency: 'EUR', basis: 'tuition', min: 15800, max: 17700, note: 'Two semesters; the higher figure is the intensive track' },
     'dongseo-university': { currency: 'KRW', basis: 'tuition', min: 8333000, max: 8333000, note: 'First year for the English-track majors open to first-year applicants (engineering and arts fields): first semester plus one later semester' },
