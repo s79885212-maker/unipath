@@ -1,0 +1,26 @@
+{
+  "verified": "2026-11-14",
+  "batches": [
+    [
+      "de-montfort-university",
+      "university-of-portsmouth",
+      "university-of-hertfordshire",
+      "nottingham-trent-university",
+      "university-of-huddersfield"
+    ],
+    [
+      "middlesex-university",
+      "university-of-salford",
+      "university-of-derby",
+      "birmingham-city-university",
+      "bournemouth-university"
+    ],
+    [
+      "northumbria-university",
+      "university-of-reading",
+      "university-of-chester",
+      "ulster-university",
+      "aberystwyth-university"
+    ]
+  ]
+}
