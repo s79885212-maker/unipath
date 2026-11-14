@@ -3691,10 +3691,13 @@ window.UNIPATH.universities.push(
     "platforms": [],
     "deadlines": [],
     "applicationFee": {
-      "amount": null,
+      "amount": 0,
       "currency": "USD",
       "waiverAvailableToInternational": null,
-      "waiver": null
+      "waiver": null,
+      "note": "The official admissions page states there is no application fee.",
+      "source": "https://westminsteru.edu/admissions/international-admissions/index.html",
+      "verified": "2026-11-13"
     },
     "documents": [],
     "recommendations": null,

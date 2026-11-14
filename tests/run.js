@@ -50,7 +50,7 @@ group('database');
 var byCountry = {};
 DB.universities.forEach(function (u) { byCountry[u.country] = (byCountry[u.country] || 0) + 1; });
 /* United States expansion: 250 records grow to 350 in batches of 25. */
-var US_NOW = 300, US_TARGET = 350;
+var US_NOW = 350, US_TARGET = 350;
 /* Canada (October 2026): 50 universities added in batches of ten. */
 var CA_NOW = 50, CA_TARGET = 50;
 ok(byCountry.us === US_NOW && US_NOW <= US_TARGET, US_NOW + ' United States records (target ' + US_TARGET + ')', 'found ' + byCountry.us);
@@ -508,15 +508,16 @@ DB.universities.forEach(function (u) {
   var g = (u.photos && u.photos.gallery) || [];
   g.forEach(function (x) {
     if (!fs.existsSync(path.join(ROOT, x.src))) missingFiles.push(x.src);
-    if (!x.title || !x.artist || !x.license || !x.page) noCredit.push(u.id);
+    if (!x.title || (!x.providedByProject && (!x.artist || !x.license || !x.page))) noCredit.push(u.id);
   });
   if (g.length && !fs.existsSync(path.join(ROOT, u.photos.thumb))) missingFiles.push(u.photos.thumb);
 });
 ok(!missingFiles.length, 'every listed photo and thumbnail exists on disk', missingFiles.slice(0, 5).join(', '));
-ok(!noCredit.length, 'every photo has a title, author, licence and source page', noCredit.slice(0, 5).join(', '));
+ok(!noCredit.length, 'every photo has a title and either attribution or project provenance', noCredit.slice(0, 5).join(', '));
 var offCommons = [];
 DB.universities.forEach(function (u) {
   ((u.photos && u.photos.gallery) || []).forEach(function (x) {
+    if (x.providedByProject) return;
     var commons = /^https:\/\/commons\.wikimedia\.org\//.test(x.page);
     if (commons ? x.source : !(x.source && /^©/.test(x.license))) offCommons.push(u.id);
   });
@@ -823,6 +824,7 @@ group('approved USA +50 expansion regressions');
 require('./us-expansion-50.js')({U:U,M:M,DB:DB,ok:ok,sandbox:sandbox,load:load});
 require('./us100-batch1.js')({U:U,M:M,DB:DB,ok:ok});
 require('./us100-batch2.js')({U:U,M:M,DB:DB,ok:ok});
+require('./us100-later.js')({U:U,M:M,DB:DB,ok:ok});
 group('release check regressions (November 2026)');
 require('./release-qa.js')(ok);
 console.log('\n' + passed + ' passed, ' + failed + ' failed');

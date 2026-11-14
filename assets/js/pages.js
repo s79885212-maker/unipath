@@ -797,6 +797,7 @@
 
     /* Photos — every image carries its attribution: Wikimedia Commons, or (g.source) the university's own website */
     function credit(g) {
+      if (g.providedByProject) return '<span class="credit">Photo provided by the UniPath project owner</span>';
       return '<span class="credit"><span>Photo:</span> ' + (g.artist ? '<span data-no-i18n>' + esc(g.artist) + '</span>' : '<span>Unknown author</span>') +
         (g.page ? ' · <a href="' + esc(g.page) + '" target="_blank" rel="noopener">' + (g.source ? '<span>' + esc(g.source) + '</span>' : 'Wikimedia Commons') + '</a>' : '') +
         ' · ' + (g.licenseUrl ? '<a href="' + esc(g.licenseUrl) + '" target="_blank" rel="noopener">' + esc(g.license) + '</a>' : esc(g.license)) +
@@ -810,7 +811,9 @@
               '<img src="' + esc(g.src) + '" alt="' + esc(g.title || u.name) + '" loading="lazy" decoding="async" width="1200" height="900" onerror="this.closest(\'figure\').remove()"></a>' +
               '<figcaption><strong>' + esc(g.title) + '</strong>' + credit(g) + '</figcaption></figure>';
           }).join('') + '</div>' +
-          '<p class="small muted" style="margin-top:12px">' + (photoList.some(function (g) { return g.source; })
+          '<p class="small muted" style="margin-top:12px">' + (photoList.every(function (g) { return g.providedByProject; })
+            ? 'Campus photographs may have been taken in earlier years.'
+            : photoList.some(function (g) { return g.source; })
             ? 'No freely licensed photograph of this campus was found, so this one comes from the university’s own website and remains its copyright (©). It may not show the most recent state of the campus.'
             : 'Photographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.') + '</p>'
         : '<div class="notice notice-info"><span class="ico">🖼️</span><div>A campus photograph is not available in this profile yet, so a placeholder is shown.</div></div>' +
