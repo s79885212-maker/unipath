@@ -184,7 +184,7 @@ def refine_reused(records):
     campuses = {
         'de-montfort-university': 'Leicester City Centre',
         'university-of-portsmouth': 'Portsmouth',
-        'university-of-hertfordshire': 'Hatfield',
+        'university-of-hertfordshire': 'de Havilland, Hatfield',
         'university-of-huddersfield': 'Huddersfield',
         'middlesex-university': 'Hendon',
     }
@@ -209,6 +209,17 @@ def refine_reused(records):
         for item in rec['costs'].get('items', []):
             if 'source' not in item:
                 item.update(source=rec['costs']['source'], verified=rec['lastVerified'])
+        if uid == 'middlesex-university':
+            foundation_url = 'https://www.mdx.ac.uk/courses/undergraduate/foundation-year-in-business/'
+            rec['admissions']['notes'][1] = L(
+                'Foundation Year in Business leads to BA International Business at Hendon, with a September 2027 start and international tuition of £18,300 for 2027/28. Its IELTS overall and section minima and acceptance of Uzbek school, lyceum and college documents remain unconfirmed.',
+                'Foundation Year in Business ведёт на BA International Business в Hendon, стартует в сентябре 2027 и стоит иностранцам £18,300 в 2027/28. Минимумы IELTS overall и по секциям, а также приём узбекских аттестата, дипломов лицея и колледжа не подтверждены.')
+            rec['sources'].append(dict(src('Foundation Year in Business — September 2027',
+                                          'Foundation Year in Business — сентябрь 2027', foundation_url),
+                                       verified='2026-11-14'))
+            rec['costs']['items'].append(dict(label=L('Foundation Year in Business, 2027/28',
+                                                      'Foundation Year in Business, 2027/28'),
+                                             amount=18300, source=foundation_url, verified='2026-11-14'))
         if uid in options:
             course, campus, fee, url = options[uid]
             rec['programs'].append('data-science')

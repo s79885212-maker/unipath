@@ -18767,4 +18767,7 @@ window.UNIPATH_I18N.ru = {
   "Computer Science BSc (Hons) example for 2027/28; each course is priced separately": "Пример Computer Science BSc (Hons) на 2027/28; каждая программа стоит по-своему",
   "Economics BSc (Hons) example for 2027/28; each course is priced separately": "Пример Economics BSc (Hons) на 2027/28; каждая программа стоит по-своему",
   "Economics BSc example for 2027/28; each course is priced separately": "Пример Economics BSc на 2027/28; каждая программа стоит по-своему",
+  "Foundation Year in Business leads to BA International Business at Hendon, with a September 2027 start and international tuition of £18,300 for 2027/28. Its IELTS overall and section minima and acceptance of Uzbek school, lyceum and college documents remain unconfirmed.": "Foundation Year in Business ведёт на BA International Business в Hendon, стартует в сентябре 2027 и стоит иностранцам £18,300 в 2027/28. Минимумы IELTS overall и по секциям, а также приём узбекских аттестата, дипломов лицея и колледжа не подтверждены.",
+  "Foundation Year in Business — September 2027": "Foundation Year in Business — сентябрь 2027",
+  "Campus for the named degree: de Havilland, Hatfield.": "Кампус указанной программы: de Havilland, Hatfield.",
 };

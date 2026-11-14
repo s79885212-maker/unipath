@@ -1,5 +1,7 @@
 # Великобритания 2027/28 — 15 профилей к ревью
 
+Черновой PR — https://github.com/s79885212-maker/unipath/pull/4.
+
 Проверка 14 ноября 2026. Исходная dev — ea60f614429c14bc3ba0a330ffc67967aab3d93e. Рабочая ветка codex/uk2027-expansion. Великобритания 35 → 50; всего 525 → 540; США 350, Канада 50, Германия/Япония/Корея по 30.
 
 Использованы пять записей Claude из claude/uk-batch-2-2027, 26c712f9cec7aab7f277a3b93bdc72477d65510a. Программы, цены и стипендии перечитаны на официальных страницах. Исходный отчёт Claude сохранён. Его исключение NTU по IELTS 6.5 больше не применяется. Для импортированных фактов сохранена исходная дата 13 ноября. Новые факты датированы 14 ноября. Portsmouth/Hertfordshire дополнены Data Science.
@@ -12,9 +14,9 @@ Kent после исследования заменён Reading, чтобы из
 
 | Партия / вуз | Программа и кампус | IELTS прямого приёма | Обучение / год | Стипендии и неизвестные сведения |
 |---|---|---|---|---|
-| 1. De Montfort University | [BA (Hons) Business Management](https://www.dmu.ac.uk/study/courses/undergraduate-courses/business-management/business-management.aspx); Leicester City Centre | 6; 5.5 in each band | £17,600, 2027–2028 | Global Access Scholarship (undergraduate): £2,000 in each year of study, plus a £500 first-year discount for paying full fees before the deposit deadline; собственный срок вуза и проживание не подтверждены |
-| 1. University of Portsmouth | [BA (Hons) Business and Management](https://www.port.ac.uk/study/courses/undergraduate/ba-hons-business-and-management); Portsmouth | 6; No component score below 5.5 | £18,800, 2027–2028 | Vice Chancellor’s Global Development Scholarship: £2,500 off the first year’s tuition; собственный срок вуза и проживание не подтверждены |
-| 1. University of Hertfordshire | [BA (Hons) Business Administration](https://www.herts.ac.uk/courses/undergraduate/ba-hons-business-administration); Hatfield | 6; Minimum 5.5 in each band | £17,970, 2027–2028 | Chancellor’s International Scholarship: £500 to £4,000 (variable); UG Tri Annual Scholarship: £2,000 off tuition each year (up to £6,000 over three years); собственный срок вуза и проживание не подтверждены |
+| 1. De Montfort University | [BA (Hons) Business Management](https://www.dmu.ac.uk/study/courses/undergraduate-courses/business-management/business-management.aspx); Leicester City Centre | 6; 5.5 in each band | £17,600, 2027–2028 | Только цикл 2026/27; сентябрь 2027 не подтверждён. Global Access Scholarship (undergraduate): £2,000 in each year of study, plus a £500 first-year discount for paying full fees before the deposit deadline; собственный срок вуза и проживание не подтверждены |
+| 1. University of Portsmouth | [BA (Hons) Business and Management](https://www.port.ac.uk/study/courses/undergraduate/ba-hons-business-and-management); Portsmouth | 6; No component score below 5.5 | £18,800, 2027–2028 | Только январь/май 2027; сентябрь 2027 не подтверждён. Vice Chancellor’s Global Development Scholarship: £2,500 off the first year’s tuition; собственный срок вуза и проживание не подтверждены |
+| 1. University of Hertfordshire | [BA (Hons) Business Administration](https://www.herts.ac.uk/courses/undergraduate/ba-hons-business-administration); de Havilland, Hatfield | 6; Minimum 5.5 in each band | £17,970, 2027–2028 | Только январь 2027; сентябрь 2027 не подтверждён. Chancellor’s International Scholarship: £500 to £4,000 (variable); UG Tri Annual Scholarship: £2,000 off tuition each year (up to £6,000 over three years); собственный срок вуза и проживание не подтверждены |
 | 1. Nottingham Trent University | [Business BA (Hons)](https://www.ntu.ac.uk/course/nottingham-business-school/ug/ba-hons-business?year=2027); City Campus | 6.5; Minimum 5.5 in each section | £19,150, 2027–2028 | NTU Excellence Scholarship: 50% of first-year tuition; £3,000 off each subsequent eligible year; собственный срок вуза и проживание не подтверждены |
 | 1. University of Huddersfield | [Business Management BA (Hons)](https://courses.hud.ac.uk/2027-28/undergraduate/business-management-ba-hons/); Huddersfield | 6; No element lower than 5.5 | £17,600, 2026–2027 | International merit-based scholarship (undergraduate): £4,000 (AAB A-level equivalent), £2,500 (ABB) or £1,500 (general entry requirements) each year; собственный срок вуза и проживание не подтверждены |
 | 2. Middlesex University | [International Business BA Honours](https://www.mdx.ac.uk/courses/undergraduate/international-business-ba-honours/); Hendon | 6; 5.5 in each component | £18,300, 2027–2028 | На сентябрь 2027 условия не подтверждены; собственный срок вуза и проживание не подтверждены |
@@ -76,7 +78,7 @@ Hertfordshire’s Uzbekistan page: Year 1 requires the Diploma of Academic Lyceu
 
 Start dates for this programme: September 2027.
 Foundation route: with the school certificate (Shahodatnoma) an Uzbek applicant enters the Foundation with IELTS 4.5 and no band below 4.0 (Hertfordshire’s Uzbekistan page). International Foundation courses are run with Hertfordshire International College; their fee was not confirmed. This IELTS 4.5 is for the Foundation only, not for the degree.
-Campus for the named degree: Hatfield.
+Campus for the named degree: de Havilland, Hatfield.
 
 Оставшиеся неизвестные сведения — founding year; TOEFL and Duolingo levels; living costs; Subjects beyond the named programmes; Hertfordshire International College foundation fee; scholarship for September 2027 entry.
 
@@ -136,7 +138,7 @@ Campus for the named degree: Huddersfield.
 No Uzbekistan country page was found; Middlesex assesses foreign qualifications case by case. Acceptance of an Uzbek school certificate, lyceum or college diploma for direct entry is not confirmed.
 
 Start dates for this programme: September 2027.
-Foundation route: the course page mentions only a Pre-sessional English course for applicants below the English level; a foundation route for this degree and its fee were not confirmed.
+Foundation Year in Business leads to BA International Business at Hendon, with a September 2027 start and international tuition of £18,300 for 2027/28. Its IELTS overall and section minima and acceptance of Uzbek school, lyceum and college documents remain unconfirmed.
 The course page shows code N121 in its summary but asks to apply via UCAS with code N281; check the code on UCAS before applying.
 Campus for the named degree: Hendon.
 
@@ -147,6 +149,7 @@ Campus for the named degree: Hendon.
 
 - [International Business BA Honours — 2027/28](https://www.mdx.ac.uk/courses/undergraduate/international-business-ba-honours/), просмотр 2026-11-13.
 - [English language requirements for international students](https://www.mdx.ac.uk/international/entry-requirements-for-international-students/english-language-requirements-for-international-students/), просмотр 2026-11-13.
+- [Foundation Year in Business — September 2027](https://www.mdx.ac.uk/courses/undergraduate/foundation-year-in-business/), просмотр 2026-11-14.
 
 ### University of Salford
 
@@ -357,4 +360,4 @@ node tests/run.js — **498 passed, 0 failed**. Сборка build-artifact.py �
 
 Локальная браузерная проверка — Chrome 157.0.8103.51, RU/EN, ширины 360 и 1280 px. Все 15 прямых ссылок в каждом варианте открылись. Проверены карточки, фильтры UK + Data Science, IELTS 5.5, tuition-only/неизвестный бюджет, Full ride. Ошибок JavaScript и горизонтального переполнения не обнаружено. Сторонние сетевые запросы блокировались в локальном harness. Живой staging и реальные телефоны/Safari не проверялись.
 
-Общий staging и основной сайт не обновлялись. Черновой PR и итоговый SHA указываются в ответе владельцу.
+Общий staging и основной сайт не обновлялись. Черновой PR — https://github.com/s79885212-maker/unipath/pull/4. Базовый коммит расширения — 9505e83b7025fec20efb7c8eaf8899887747de6d. Итоговый коммит содержит также уточнение Foundation Middlesex и кампуса Hertfordshire. Версия ветки v230.

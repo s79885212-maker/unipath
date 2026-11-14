@@ -6260,7 +6260,7 @@ window.UNIPATH.universities.push(
       "language": "English",
       "url": "https://www.herts.ac.uk/courses/undergraduate/ba-hons-business-administration",
       "checked": "2026-11-13",
-      "campus": "Hatfield",
+      "campus": "de Havilland, Hatfield",
       "entryYear": "2027"
     },
     "data-science": {
@@ -6353,7 +6353,7 @@ window.UNIPATH.universities.push(
     "notes": [
       "Start dates for this programme: September 2027.",
       "Foundation route: with the school certificate (Shahodatnoma) an Uzbek applicant enters the Foundation with IELTS 4.5 and no band below 4.0 (Hertfordshire’s Uzbekistan page). International Foundation courses are run with Hertfordshire International College; their fee was not confirmed. This IELTS 4.5 is for the Foundation only, not for the degree.",
-      "Campus for the named degree: Hatfield."
+      "Campus for the named degree: de Havilland, Hatfield."
     ]
   },
   "english": {
@@ -6949,7 +6949,7 @@ window.UNIPATH.universities.push(
     "interview": null,
     "notes": [
       "Start dates for this programme: September 2027.",
-      "Foundation route: the course page mentions only a Pre-sessional English course for applicants below the English level; a foundation route for this degree and its fee were not confirmed.",
+      "Foundation Year in Business leads to BA International Business at Hendon, with a September 2027 start and international tuition of £18,300 for 2027/28. Its IELTS overall and section minima and acceptance of Uzbek school, lyceum and college documents remain unconfirmed.",
       "The course page shows code N121 in its summary but asks to apply via UCAS with code N281; check the code on UCAS before applying.",
       "Campus for the named degree: Hendon."
     ]
@@ -7014,6 +7014,12 @@ window.UNIPATH.universities.push(
         "amount": 18300,
         "source": "https://www.mdx.ac.uk/courses/undergraduate/international-business-ba-honours/",
         "verified": "2026-11-13"
+      },
+      {
+        "label": "Foundation Year in Business, 2027/28",
+        "amount": 18300,
+        "source": "https://www.mdx.ac.uk/courses/undergraduate/foundation-year-in-business/",
+        "verified": "2026-11-14"
       }
     ],
     "billedSubtotal": null,
@@ -7059,6 +7065,11 @@ window.UNIPATH.universities.push(
       "label": "English language requirements for international students",
       "url": "https://www.mdx.ac.uk/international/entry-requirements-for-international-students/english-language-requirements-for-international-students/",
       "verified": "2026-11-13"
+    },
+    {
+      "label": "Foundation Year in Business — September 2027",
+      "url": "https://www.mdx.ac.uk/courses/undergraduate/foundation-year-in-business/",
+      "verified": "2026-11-14"
     }
   ],
   "verification": {
