@@ -1,8 +1,8 @@
-# США, 100 новых профилей · состояние на 13 ноября 2026
+# США, 100 новых профилей · состояние на 14 ноября 2026
 
 Все 100 учреждений из согласованного списка входят в четыре партии. Тире означает, что в профиле нет подтверждённого значения для этой колонки. Для стоимости указанный год сам по себе не означает полного бюджета. Программы в карточках подтверждены частично.
 
-Фотографии установлены у 99 вузов. Подтверждённая дата подачи цикла 2027 есть у 12, сбор у 43, данные стоимости с названным годом у 23, сведения о финансовой помощи у 31, требования к узбекской квалификации у 1.
+Фотографии установлены у 100 вузов. Подтверждённая дата подачи цикла 2027 есть у 12, сбор у 43, данные стоимости с названным годом у 23, сведения о финансовой помощи у 31, требования к узбекской квалификации у 1.
 
 | Вуз | Источник | Направлений | Дата заявки 2027 | Сбор USD | Английский | Стоимость | Помощь | Документы Узбекистана | Фото |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -69,7 +69,7 @@
 | John Jay College of Criminal Justice | [приём](https://www.jjay.cuny.edu/admissions/undergraduate-admissions/apply/international-student-application) | 1 | — | 65 | Есть данные | — | — | — | Есть |
 | SUNY New Paltz | [приём](https://www.newpaltz.edu/admissions/international/undergraduate.html) | 1 | — | 50 | Есть данные | — | Есть данные | — | Есть |
 | Salve Regina University | [приём](https://salve.edu/admissions/international-applicants) | 1 | — | — | — | — | — | — | Есть |
-| St. Bonaventure University | [приём](https://www.sbu.edu/admissions/international-students) | 1 | — | — | — | — | — | — | Поиск Commons, подходящий файл не установлен |
+| St. Bonaventure University | [приём](https://www.sbu.edu/admissions/international-students) | 1 | — | — | — | — | — | — | Есть |
 | Stockton University | [приём](https://stockton.edu/global-engagement/international/freshman-students.html) | 1 | — | 50 | Есть данные | 2026–2027 (прошлый цикл) | — | — | Есть |
 | Manhattan University | [приём](https://manhattan.edu/admissions/international/requirements) | 1 | 2027-03-01 | 75 | — | — | — | — | Есть |
 | St. John Fisher University | [приём](https://www.sjf.edu/student-life/international-student-services/admissions/first-year-admissions/) | 1 | — | — | — | — | — | — | Есть |

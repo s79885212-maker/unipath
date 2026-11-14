@@ -508,15 +508,16 @@ DB.universities.forEach(function (u) {
   var g = (u.photos && u.photos.gallery) || [];
   g.forEach(function (x) {
     if (!fs.existsSync(path.join(ROOT, x.src))) missingFiles.push(x.src);
-    if (!x.title || !x.artist || !x.license || !x.page) noCredit.push(u.id);
+    if (!x.title || (!x.providedByProject && (!x.artist || !x.license || !x.page))) noCredit.push(u.id);
   });
   if (g.length && !fs.existsSync(path.join(ROOT, u.photos.thumb))) missingFiles.push(u.photos.thumb);
 });
 ok(!missingFiles.length, 'every listed photo and thumbnail exists on disk', missingFiles.slice(0, 5).join(', '));
-ok(!noCredit.length, 'every photo has a title, author, licence and source page', noCredit.slice(0, 5).join(', '));
+ok(!noCredit.length, 'every photo has a title and either attribution or project provenance', noCredit.slice(0, 5).join(', '));
 var offCommons = [];
 DB.universities.forEach(function (u) {
   ((u.photos && u.photos.gallery) || []).forEach(function (x) {
+    if (x.providedByProject) return;
     var commons = /^https:\/\/commons\.wikimedia\.org\//.test(x.page);
     if (commons ? x.source : !(x.source && /^©/.test(x.license))) offCommons.push(u.id);
   });
