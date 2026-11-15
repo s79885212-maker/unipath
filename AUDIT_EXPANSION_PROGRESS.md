@@ -1281,3 +1281,8 @@ Baylor FAQ прямо допускает international applicants к Getterman. 
 В отдельной ветке codex/uk2027-expansion от dev ea60f61 собраны три партии по пять профилей. Использованы пять профилей Claude из 26c712f после проверки источников; добавлен NTU с IELTS 6.5 и ещё девять вузов. Отдельные Foundation и International Year One не используются как прямой приём. У Kent учтено объединение с Greenwich; выбран Reading. Подтверждённых вариантов прямого поступления с IELTS 5.5 нет. Общий каталог — 540, США 350 без изменений. Проверки — 498 passed, 0 failed; сборка, 19 723 внутренних ссылки; Chrome RU/EN 360/1280. Подробная таблица и источники — research/codex-uk2027-report.md. Ветка готовится как draft PR в dev, общий staging и main не обновляются. Версия ветки v229.
 
 Уточнение v230 — у Middlesex подтверждены Foundation Year in Business, сентябрь 2027 и £18,300 на 2027/28; отдельный IELTS этого маршрута неизвестен. Для Business Hertfordshire уточнён кампус de Havilland, для Data Science сохранён College Lane. Черновой PR №4 открыт в dev; публикация не выполняется.
+
+
+## 15 ноября 2026 — новый срок UBC International Scholars
+
+Срок обеих заявок на набор сентября 2027 перенесён на 2 декабря 2026, 12:00 PCT (Ванкувер, UTC−7). Обновлены таблица сроков и инструкция к стипендии. Общий срок поступления — 15 января 2027. [Календарь UBC](https://you.ubc.ca/applying-ubc/dates-deadlines/) · [International Scholars Program](https://you.ubc.ca/financial-planning/scholarships-awards-international-students/international-scholars/).
