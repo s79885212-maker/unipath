@@ -1133,7 +1133,19 @@ window.UNIPATH.universities.push(
     deadlines: [
       { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. All required materials are due with the application; decisions by mid-December.', status: 'confirmed', source: 'https://admissions.vanderbilt.edu/apply/decision-plans.php', verified: '2026-09-23', note: null },
       { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Decisions by mid-February.', status: 'confirmed', source: 'https://admissions.vanderbilt.edu/apply/decision-plans.php', verified: '2026-09-23', note: null },
-      { name: 'Regular Decision (priority deadline)', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-02-15', date: '15 February 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Vanderbilt publishes 15 February 2027 as the priority deadline for a completed Regular Decision application.', status: 'confirmed', source: 'https://admissions.vanderbilt.edu/apply/decision-plans.php', verified: '2026-09-23', note: null },
+      {
+        name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027',
+        dateISO: '2027-01-01', date: '1 January 2027', binding: false, appliesTo: 'First-year applicants',
+        conditions: 'Submit the completed first-year application.', status: 'confirmed', source: 'https://admissions.vanderbilt.edu/apply/', verified: '2026-11-15',
+        cycleEvidence: { basis: 'explicit-date', source: 'https://admissions.vanderbilt.edu/apply/', verified: '2026-11-15', quote: 'January 1, 2027 — Deadline for completed application', entryTerm: 'Autumn', entryYear: '2027' }
+      },
+      {
+        name: 'Merit scholarship applications', kind: 'scholarship', entryTerm: 'Autumn', entryYear: '2027',
+        dateISO: '2026-12-01', date: '1 December 2026', appliesTo: 'First-year applicants',
+        conditions: 'Submit the merit scholarship application by this date for Early Decision I, Early Decision II or Regular Decision.',
+        status: 'confirmed', source: 'https://www.vanderbilt.edu/scholarships/', verified: '2026-11-15',
+        cycleEvidence: { basis: 'page-context', source: 'https://admissions.vanderbilt.edu/apply/', verified: '2026-11-15', quote: 'December 1, 2026 — Deadline for completed merit scholarship applications', entryTerm: 'Autumn', entryYear: '2027' }
+      },
     ],
     applicationFee: { amount: 50, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Vanderbilt accepts every fee waiver request submitted through the Common or Coalition Application' },
     documents: ['Common or Coalition Application', 'Official secondary school transcript', 'Counsellor letter', 'Two academic teacher letters', 'CSS Profile or ISFAA for aid applicants'],
@@ -1198,7 +1210,9 @@ window.UNIPATH.universities.push(
     { label: 'International costs and finances', url: 'https://admissions.vanderbilt.edu/affordability/international-costs-and-finances/' },
     { label: 'Affordability — estimated costs 2026-27', url: 'https://admissions.vanderbilt.edu/affordability/' },
     { label: 'First-year application process', url: 'https://admissions.vanderbilt.edu/apply/first-year-process/' },
-    { label: 'International students — Office of Financial Aid', url: 'https://www.vanderbilt.edu/financialaid/undergraduate/international/' }
+    { label: 'International students — Office of Financial Aid', url: 'https://www.vanderbilt.edu/financialaid/undergraduate/international/' },
+    { label: 'First-year admission dates', url: 'https://admissions.vanderbilt.edu/apply/' },
+    { label: 'Merit scholarship applications', url: 'https://www.vanderbilt.edu/scholarships/' }
   ],
   lastVerified: '2026-09-20'
 },
@@ -1730,7 +1744,22 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants to Emory College or Oxford College', conditions: 'Binding. Financial aid deadline 2 December; decisions by 15 December.', status: 'confirmed', source: 'https://apply.emory.edu/apply/first-year/plans-deadlines/index.html', verified: '2026-10-01', note: null },
       { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: true, appliesTo: 'First-year applicants to Emory College or Oxford College', conditions: 'Binding. Financial aid deadline 6 January; decisions by 15 February.', status: 'confirmed', source: 'https://apply.emory.edu/apply/first-year/plans-deadlines/index.html', verified: '2026-10-01', note: null },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: false, appliesTo: 'First-year applicants to Emory College or Oxford College', conditions: 'Not binding. Financial aid deadline 10 February; decisions by 1 April.', status: 'confirmed', source: 'https://apply.emory.edu/apply/first-year/plans-deadlines/index.html', verified: '2026-10-01', note: 'Emory’s current deadlines table lists these dates without a year.' },
-      { name: 'Scholar programs consideration', kind: 'scholarship', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: false, appliesTo: 'Applicants who want to be considered for Emory Scholar programs', conditions: 'Emory’s Scholar Programs deadline is 15 November, with decisions by 1 March.', status: 'confirmed', source: 'https://apply.emory.edu/apply/first-year/plans-deadlines/index.html', verified: '2026-10-01', note: null }
+      {
+        name: 'Scholar Programs — Early Decision I', kind: 'scholarship', entryTerm: 'Autumn', entryYear: '2027',
+        dateISO: '2026-11-01', date: '1 November 2026',
+        appliesTo: 'Applicants who want to be considered for Emory Scholar programs',
+        conditions: 'Submit all required application materials and answer Yes to the Scholar Programs question.',
+        awardId: 'emory-scholar-programs', awardCategory: 'merit', status: 'confirmed', source: 'https://apply.emory.edu/financial-aid/scholar-program', verified: '2026-11-15',
+        cycleEvidence: { basis: 'page-context', source: 'https://apply.emory.edu/apply/first-year', verified: '2026-11-15', quote: '2026–2027 application cycle', entryTerm: 'Autumn', entryYear: '2027' }
+      },
+      {
+        name: 'Scholar Programs — Early Decision II and Regular Decision', kind: 'scholarship', entryTerm: 'Autumn', entryYear: '2027',
+        dateISO: '2026-11-15', date: '15 November 2026',
+        appliesTo: 'Applicants who want to be considered for Emory Scholar programs',
+        conditions: 'Submit all required application materials and answer Yes to the Scholar Programs question.',
+        awardId: 'emory-scholar-programs', awardCategory: 'merit', status: 'confirmed', source: 'https://apply.emory.edu/financial-aid/scholar-program', verified: '2026-11-15',
+        cycleEvidence: { basis: 'page-context', source: 'https://apply.emory.edu/apply/first-year', verified: '2026-11-15', quote: '2026–2027 application cycle', entryTerm: 'Autumn', entryYear: '2027' }
+      }
     ],
     applicationFee: { amount: 75, currency: 'USD', waiverAvailableToInternational: null, waiver: 'A fee waiver can be requested instead of the $75 fee' },
     documents: ['Common or Coalition Application', 'School transcript and reports', 'Teacher recommendation', 'CSS Profile and IDOC documents for aid applicants'],
@@ -1739,7 +1768,6 @@ window.UNIPATH.universities.push(
     interview: null,
     notes: [
       'Emory advises international applicants who need financial aid to apply under Regular Decision.',
-      'The Emory University Scholar Programs deadline is 15 November, with decisions by 1 March.',
       'Only students who apply for and receive aid in their first year can receive it in later years.'
     ]
   },
@@ -1790,11 +1818,13 @@ window.UNIPATH.universities.push(
     },
     merit: [
       {
+        id: 'emory-scholar-programs', category: 'merit', entryTerm: 'Autumn', entryYear: '2027',
         name: 'Emory University Scholar Programs',
         amount: 'Partial to full merit scholarships',
         internationalEligible: true,
         criteria: 'Academic and personal achievement; highly competitive with limited funding.',
-        note: 'Emory offers these merit scholarships to a limited number of international students each year; the deadline is 15 November.'
+        note: 'Scholar Programs applications are due 1 November 2026 for ED I and 15 November 2026 for ED II and RD.',
+        source: 'https://apply.emory.edu/financial-aid/scholar-program', verified: '2026-11-15'
       }
     ],
     needBased: {
@@ -1809,6 +1839,7 @@ window.UNIPATH.universities.push(
     { label: 'Undergraduate aid for international students', url: 'https://studentaid.emory.edu/undergraduate/apply/new-students/international.html' },
     { label: 'International applicants', url: 'https://apply.emory.edu/apply/international-applicants.html' },
     { label: 'Plans and deadlines', url: 'https://apply.emory.edu/apply/first-year/plans-deadlines/index.html' },
+    { label: 'Emory University Scholar Programs', url: 'https://apply.emory.edu/financial-aid/scholar-program' },
     { label: 'Cost of attendance worksheet 2026-2027', url: 'https://studentaid.emory.edu/_includes/documents/sections/undergraduate/apply/cost-of-attendance-worksheet.pdf' },
     { label: 'Standardized exam policies', url: 'https://apply.emory.edu/apply/requirements/exams' }
   ],
