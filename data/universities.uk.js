@@ -4538,9 +4538,19 @@ window.UNIPATH.universities.push(
   },
   "lastVerified": "2026-11-12",
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/university-of-greenwich/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-greenwich/1.jpg",
+        "title": "Queen Anne Court, University of Greenwich Greenwich Campus (resized)",
+        "artist": "Robert Lamb",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:View_of_Queen_Anne_Court,_University_of_Greenwich_from_the_university_grounds_-_geograph.org.uk_-_5481000.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/university-of-greenwich/thumb.jpg"
   }
 },
 {
@@ -4813,9 +4823,19 @@ window.UNIPATH.universities.push(
   },
   "lastVerified": "2026-11-12",
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/coventry-university/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/coventry-university/1.jpg",
+        "title": "Coventry University Library, Coventry campus (resized)",
+        "artist": "A J Paxton",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Coventry_University_Library_-_geograph.org.uk_-_7120782.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/coventry-university/thumb.jpg"
   }
 },
 {
@@ -5084,9 +5104,19 @@ window.UNIPATH.universities.push(
   },
   "lastVerified": "2026-11-12",
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/university-of-westminster/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-westminster/1.jpg",
+        "title": "Regent Campus entrance, University of Westminster (resized)",
+        "artist": "Chemical Engineer",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:The_Polytechnic_309_Regent_Street_entrance.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/university-of-westminster/thumb.jpg"
   }
 },
 {
@@ -5341,9 +5371,19 @@ window.UNIPATH.universities.push(
   },
   "lastVerified": "2026-11-12",
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/sheffield-hallam-university/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/sheffield-hallam-university/1.jpg",
+        "title": "Sheffield Hallam University City Campus (resized)",
+        "artist": "P L Chadwick",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Sheffield_Hallam_University_City_Campus,_Sheffield_-_geograph.org.uk_-_5398770.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/sheffield-hallam-university/thumb.jpg"
   }
 },
 {
@@ -5626,9 +5666,19 @@ window.UNIPATH.universities.push(
   },
   "lastVerified": "2026-11-12",
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/oxford-brookes-university/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/oxford-brookes-university/1.jpg",
+        "title": "Headington Campus, Oxford Brookes University (resized)",
+        "artist": "Oxford Brookes University",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Oxford_Brookes_University_campus.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/oxford-brookes-university/thumb.jpg"
   }
 },
 {
@@ -5906,9 +5956,19 @@ window.UNIPATH.universities.push(
   },
   "lastVerified": "2026-11-13",
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/de-montfort-university/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/de-montfort-university/1.jpg",
+        "title": "Vijay Patel Building, De Montfort University, Leicester (resized)",
+        "artist": "Oliver Mills",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Vijay_Patel_Building_Leicester_geograph-5539356-by-Oliver-Mills.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/de-montfort-university/thumb.jpg"
   }
 },
 {
@@ -6217,9 +6277,19 @@ window.UNIPATH.universities.push(
   },
   "lastVerified": "2026-11-13",
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/university-of-portsmouth/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-portsmouth/1.jpg",
+        "title": "Richmond Building, University of Portsmouth (resized)",
+        "artist": "Editor5807",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:University_of_Portsmouth_Richmond_building.JPG"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/university-of-portsmouth/thumb.jpg"
   }
 },
 {
@@ -6544,9 +6614,19 @@ window.UNIPATH.universities.push(
   },
   "lastVerified": "2026-11-13",
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/university-of-hertfordshire/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-hertfordshire/1.jpg",
+        "title": "University of Hertfordshire, de Havilland campus in Hatfield (resized)",
+        "artist": "GualdimG",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:University_of_Hertfordshire_de_Havilland_Campus,_Hatfield_01.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/university-of-hertfordshire/thumb.jpg"
   }
 },
 {
@@ -6825,9 +6905,19 @@ window.UNIPATH.universities.push(
   },
   "lastVerified": "2026-11-13",
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/university-of-huddersfield/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-huddersfield/1.jpg",
+        "title": "University of Huddersfield, Queensgate campus (resized)",
+        "artist": "Kay Williams",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Huddersfield_University_Queensgate_Campus_-_geograph.org.uk_-_3958338.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/university-of-huddersfield/thumb.jpg"
   }
 },
 {
@@ -7093,9 +7183,19 @@ window.UNIPATH.universities.push(
   },
   "lastVerified": "2026-11-13",
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/middlesex-university/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/middlesex-university/1.jpg",
+        "title": "Middlesex University, Hendon campus (resized)",
+        "artist": "David Howard",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:New_building_at_Middlesex_University,_Hendon_-_geograph.org.uk_-_6866232.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/middlesex-university/thumb.jpg"
   }
 },
 {
@@ -7386,9 +7486,19 @@ window.UNIPATH.universities.push(
   },
   "lastVerified": "2026-11-14",
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/nottingham-trent-university/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/nottingham-trent-university/1.jpg",
+        "title": "Nottingham Trent University, City Campus (resized)",
+        "artist": "Jdhauwers",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Nottingham_Trent_University,_Newton_Campus.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/nottingham-trent-university/thumb.jpg"
   }
 },
 {
@@ -7653,9 +7763,19 @@ window.UNIPATH.universities.push(
   },
   "lastVerified": "2026-11-14",
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/university-of-salford/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-salford/1.jpg",
+        "title": "Peel Building, University of Salford Peel Park Campus (resized)",
+        "artist": "Alan Murray-Rust",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Peel_Building,_Salford_University_%E2%80%93_1_-_geograph.org.uk_-_7869607.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/university-of-salford/thumb.jpg"
   }
 },
 {
@@ -7932,9 +8052,19 @@ window.UNIPATH.universities.push(
   },
   "lastVerified": "2026-11-14",
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/university-of-derby/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-derby/1.jpg",
+        "title": "University of Derby, Markeaton Street site (resized)",
+        "artist": "Fredlakeclark",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "page": "https://commons.wikimedia.org/wiki/File:Markeaton_Street.JPG"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/university-of-derby/thumb.jpg"
   }
 },
 {
@@ -8199,9 +8329,19 @@ window.UNIPATH.universities.push(
   },
   "lastVerified": "2026-11-14",
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/birmingham-city-university/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/birmingham-city-university/1.jpg",
+        "title": "Curzon Building, Birmingham City University City Centre Campus (resized)",
+        "artist": "Rwendland",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Birmingham_City_University,_Curzon_Building,_from_south-west.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/birmingham-city-university/thumb.jpg"
   }
 },
 {
@@ -8472,9 +8612,19 @@ window.UNIPATH.universities.push(
   },
   "lastVerified": "2026-11-14",
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/bournemouth-university/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/bournemouth-university/1.jpg",
+        "title": "Fusion Building, Bournemouth University Talbot Campus (resized)",
+        "artist": "Jonathan Hutchins",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:The_Fusion_Building,_Bournemouth_University_-_geograph.org.uk_-_5874554.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/bournemouth-university/thumb.jpg"
   }
 },
 {
@@ -8686,9 +8836,19 @@ window.UNIPATH.universities.push(
   },
   "lastVerified": "2026-11-14",
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/northumbria-university/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/northumbria-university/1.jpg",
+        "title": "Squires Building, Northumbria University City Campus (resized)",
+        "artist": "David Dixon",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Northumbria_University_Squires_Building_-_geograph.org.uk_-_7264335.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/northumbria-university/thumb.jpg"
   }
 },
 {
@@ -8980,9 +9140,19 @@ window.UNIPATH.universities.push(
   },
   "lastVerified": "2026-11-14",
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/university-of-reading/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-reading/1.jpg",
+        "title": "University of Reading, Whiteknights campus (resized)",
+        "artist": "Andrew Smith",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:The_University_of_Reading.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/university-of-reading/thumb.jpg"
   }
 },
 {
@@ -9247,9 +9417,19 @@ window.UNIPATH.universities.push(
   },
   "lastVerified": "2026-11-14",
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/university-of-chester/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-chester/1.jpg",
+        "title": "Senate House, University of Chester Exton Park (resized)",
+        "artist": "secretlondon123",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:University_of_Chester_Senate_House.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/university-of-chester/thumb.jpg"
   }
 },
 {
@@ -9535,9 +9715,19 @@ window.UNIPATH.universities.push(
   },
   "lastVerified": "2026-11-14",
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/ulster-university/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/ulster-university/1.jpg",
+        "title": "Ulster University, Magee campus in Derry~Londonderry (resized)",
+        "artist": "Conradder",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Magee_Main_Building.jpg"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/ulster-university/thumb.jpg"
   }
 },
 {
@@ -9823,9 +10013,19 @@ window.UNIPATH.universities.push(
   },
   "lastVerified": "2026-11-14",
   "photos": {
-    "main": null,
-    "gallery": [],
-    "city": null
+    "main": "assets/img/universities/aberystwyth-university/1.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/aberystwyth-university/1.jpg",
+        "title": "Old College, Aberystwyth University (resized)",
+        "artist": "GerritR",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Aberystwyth_Old_College.JPG"
+      }
+    ],
+    "city": null,
+    "thumb": "assets/img/universities/aberystwyth-university/thumb.jpg"
   }
 }
 );
