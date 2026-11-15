@@ -1296,3 +1296,8 @@ Baylor FAQ прямо допускает international applicants к Getterman. 
 ## 15 ноября 2026 — русский текст стипендиальных сроков Эмори
 
 В блоке стипендий переведены название программы, подписи раундов и пояснения. Даты для первого раунда раннего решения и для второго раунда раннего решения и основного раунда сверены на опубликованной карточке v233 перед исправлением.
+
+
+## 15 ноября 2026 — стипендии Boston University и Washington and Lee
+
+Presidential выделена отдельно. Подача полной заявки до 1 декабря указана как ежегодный срок. Доступность Trustee для новых абитуриентов осени 2027 не подтверждена. У Johnson отдельно показаны заявка с эссе до 1 декабря и дополнительные материалы до 15 декабря 2026. [BU](https://www.bu.edu/admissions/tuition-aid/scholarships-financial-aid/first-year-merit/) · [Календарь W&L](https://www.wlu.edu/admissions/apply) · [Инструкции Johnson](https://www.wlu.edu/admissions/the-johnson-scholarship/application-instructions).
