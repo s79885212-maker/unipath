@@ -65,12 +65,13 @@ module.exports = function ({ U, M, DB, ok }) {
     ok(augie.costs.status === 'previous-cycle' && augie.costs.academicYear === '2026–2027' &&
        !DB.match.annualCost[augie.id] && U.awardKind(augie) !== 'full-ride',
       'Augustana prior-year I-20 estimate and variable scholarship stay outside full-budget matches');
-    const photoIds = us.slice(250).filter(u => u.photos.gallery.length).map(u => u.id);
-    ok(photoIds.length === 100 && photoIds.every(id => {
+    const bonaventure = U.uniById('st-bonaventure-university');
+    ok(!bonaventure.photos.main && bonaventure.photos.gallery.length === 0,
+      'St. Bonaventure uses the placeholder until a reusable campus photo is verified');
+    const photoIds = us.slice(250).filter(u => u.id !== bonaventure.id).map(u => u.id);
+    ok(photoIds.length === 99 && photoIds.every(id => {
       const photo = U.uniById(id).photos.gallery[0];
-      const credited = id === 'st-bonaventure-university'
-        ? photo.providedByProject === true
-        : photo.artist && (photo.license === 'Public domain' || photo.licenseUrl) && /^https:\/\/commons\.wikimedia\.org\//.test(photo.page);
+      const credited = photo && photo.artist && (photo.license === 'Public domain' || photo.licenseUrl) && /^https:\/\/commons\.wikimedia\.org\//.test(photo.page);
       return credited &&
         ['1.jpg', 'thumb.jpg'].every(file => fs.existsSync(path.join(__dirname, '../assets/img/universities', id, file)));
     }), 'reviewed campus photos include main image, thumbnail and Commons attribution');
