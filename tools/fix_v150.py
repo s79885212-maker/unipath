@@ -26,7 +26,12 @@ r=u['university-of-british-columbia'];fr=r['scholarships']['fullRide']
 fr.update({'id':'international-scholars','category':'need','entryTerm':'Autumn','entryYear':'2027'})
 for d in r['admissions']['deadlines']:
     assert d['source']==src
-    d.update({'verified':D,'cycleEvidence':{'basis':'page-context','source':src,'verified':D,'quote':'September 2027','entryTerm':'Autumn','entryYear':'2027'}})
+    if d['kind']=='scholarship':
+        d['cycleEvidence'] = {'basis':'page-context','source':fr['source'],'verified':d['verified'],
+                              'quote':'Applications for the September 2027 are now open.','entryTerm':'Autumn','entryYear':'2027'}
+    else:
+        verified = max(d['verified'], D)
+        d.update({'verified':verified,'cycleEvidence':{'basis':'page-context','source':src,'verified':verified,'quote':'September 2027','entryTerm':'Autumn','entryYear':'2027'}})
     if d['kind']=='scholarship' or d['dateISO']=='2027-01-31':
         d.update({'awardId':'international-scholars','awardCategory':'need'})
         d.pop('binding',None)
