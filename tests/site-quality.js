@@ -101,6 +101,12 @@ module.exports = function (env) {
     /both your UBC admission application and your International Scholars Program application/.test(ubcAward.howToApply) &&
     U.roundsOf(ubc).some(function (d) { return U.isApplicationDeadline(d) && d.dateISO === '2027-01-15'; }),
     'UBC: both International Scholars applications close at noon Vancouver time (19:00 UTC), with the general January deadline separate');
+  var ubcGeneral = U.roundsOf(ubc).find(U.isApplicationDeadline);
+  var ubcGeneralClose = Date.UTC(2027, 0, 16, 6, 59);
+  ok(ubcGeneral && U.roundWhen(ubcGeneral) === '15 January 2027, 23:59 PCT' &&
+    U.deadlineEnd(ubcGeneral).at === ubcGeneralClose && U.deadlineEnd(ubcGeneral).precise &&
+    !U.deadlinePassed(ubcGeneral, ubcGeneralClose - 1) && U.deadlinePassed(ubcGeneral, ubcGeneralClose + 1),
+    'UBC: the general application closes at 23:59 Vancouver time (06:59 UTC on January 16)');
   ok(/link not verified/.test(U.awardDeadlineHtml(acadia, Object.assign({}, additional, { id: null }))), 'an unlinked Acadia-style award explains the missing relation instead of contradicting the date table');
   ok(/no separate scholarship application/.test(U.awardDeadlineHtml(acadia, U.awardsAll(acadia)[0])),
     'Acadia automatic initial offer explains that no separate application is required');

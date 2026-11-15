@@ -1286,3 +1286,4 @@ Baylor FAQ прямо допускает international applicants к Getterman. 
 ## 15 ноября 2026 — новый срок UBC International Scholars
 
 Срок обеих заявок на набор сентября 2027 перенесён на 2 декабря 2026, 12:00 PCT (Ванкувер, UTC−7). Обновлены таблица сроков и инструкция к стипендии. Общий срок поступления — 15 января 2027. [Календарь UBC](https://you.ubc.ca/applying-ubc/dates-deadlines/) · [International Scholars Program](https://you.ubc.ca/financial-planning/scholarships-awards-international-students/international-scholars/).
+Уточнение по PR №5: календарь UBC указывает для общего срока 15 января 2027, 23:59 PCT. Обновлены данные и генератор. Проверка расчёта подтверждает 16 января, 06:59 UTC.

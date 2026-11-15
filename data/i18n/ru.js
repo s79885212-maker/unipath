@@ -15637,7 +15637,7 @@ window.UNIPATH_I18N.ru = {
   "The Creative School": "The Creative School",
   "C$500–C$5,000": "C$500–C$5,000",
   "Laurier — Inspiring Lives Scholarship": "Laurier — Inspiring Lives Scholarship",
-  "15 January 2027, 23:59 PT": "15 января 2027, 23:59 по тихоокеанскому времени (Ванкувер)",
+  "15 January 2027, 23:59 PCT": "15 января 2027, 23:59 по времени Ванкувера",
   "2 December 2026, 12:00 PCT": "2 декабря 2026, 12:00 по времени Ванкувера",
   "1 March 2027, 23:59 MT": "1 марта 2027, 23:59 по горному времени (Эдмонтон)",
   "10 January 2027, 23:59 MT": "10 января 2027, 23:59 по горному времени (Эдмонтон)",
