@@ -3,12 +3,31 @@
    {0} matches any text, {#0} matches a number. Missing entries fall back to English.
    Official names — universities, programmes, scholarships, tests — stay in English
    on purpose, so students can find them on the universities' own websites. */
-window.UNIPATH_I18N = window.UNIPATH_I18N || {
+window.UNIPATH_I18N = window.UNIPATH_I18N || {};
+window.UNIPATH_I18N.ru = {
+  "Additional application documents \u2014 College Station" : "Дополнительные документы — College Station",
+  "Fall 2027 first-year applicants to College Station" : "Первокурсники College Station, осень 2027 года",
+  "Apply for admission and get an application ID, then submit the separate Think Big form. The 2027 terms require an offer before 8 April. The award reduces tuition; housing and living costs are separate.": "Подайте заявку на поступление и получите её номер, затем отправьте отдельную форму Think Big. По правилам 2027 года нужно получить предложение о зачислении до 8 апреля. Стипендия уменьшает плату за обучение. Жильё и остальные расходы оплачиваются отдельно.",
+  "Think Big undergraduate scholarship — application": "Стипендия Think Big для бакалавров — заявка",
+  "Overseas-fee applicants for an eligible full-time undergraduate course": "Абитуриенты очного бакалавриата по подходящей программе с международной ставкой обучения",
+  "Think Big terms and conditions": "Условия Think Big",
   "English-basis first-year applicants, April or September 2027. IELTS General Training is not accepted.": "Первокурсники, поступающие на англоязычный маршрут в апреле или сентябре 2027 года. IELTS General Training не принимается.",
   "At least 5.5 in each section.": "Не менее 5,5 по каждой секции.",
   "First-year tuition is ¥1,455,000 before scholarships. Admission, housing, insurance and other living expenses are separate.": "Плата за обучение на первом курсе до стипендий — 1 455 000 иен. Вступительный сбор, жильё, страховка и прочие расходы оплачиваются отдельно.",
-};
-window.UNIPATH_I18N.ru = {
+  "International first-year applicants: submit the application and supporting credentials by 1 December per the international instructions. The general instructions list 10 January for supporting credentials. Follow the earlier date for international applicants unless CMC confirms otherwise. No separate merit application.": "Иностранным первокурсникам инструкция предписывает подать заявку и документы до 1 декабря. В общей инструкции срок документов — 10 января. Иностранным абитуриентам следует ориентироваться на ранний срок, если вуз прямо не подтвердит иной. Отдельная заявка на стипендию за достижения не нужна.",
+  "First-year Chancellor’s Scholarship candidates": "Первокурсники, претендующие на Chancellor’s Scholarship",
+  "Both the TCU admission application and the Roach Honors College application are required. The scholarship covers tuition for up to eight semesters; housing, food and other expenses are separate.": "Нужны две заявки: на поступление в TCU и в Roach Honors College. Стипендия покрывает обучение до восьми семестров. Жильё, питание и остальные расходы оплачиваются отдельно.",
+  "USC recommends IELTS 7; applicants can be admitted with a lower score.": "USC рекомендует IELTS 7. Поступление возможно и с более низким баллом.",
+  "Duolingo is an alternative if you cannot take a USC-approved exam. If admitted using Duolingo alone, you must take the International Student Exam upon enrolment.": "Duolingo — запасной вариант, если вы не можете сдать один из экзаменов, одобренных USC. Если вас зачислили только с Duolingo, при поступлении нужно сдать International Student Exam.",
+  "USC asks for proof of funding for the first academic year. Upload the financial statement and, if required, submit official English scores within two weeks of your application deadline. Unawarded merit scholarships cannot count as proof of funding.": "USC требует подтверждение средств на первый учебный год. Загрузите финансовую декларацию и, если требуется, отправьте официальные результаты по английскому в течение двух недель после срока подачи. Ещё не присуждённая стипендия не подтверждает наличие средств.",
+  "Full tuition for up to eight semesters": "Полная оплата обучения до восьми семестров",
+  "Chancellor’s Scholarship — Honors application": "Заявка в Honors College для Chancellor’s Scholarship",
+  "Chancellor’s Scholarship — TCU application": "Заявка в TCU для Chancellor’s Scholarship",
+  "Presidential Scholars — semifinalist video responses": "Presidential Scholars — видеоответы полуфиналистов",
+  "Invited Presidential Scholars semifinalists only": "Только приглашённые полуфиналисты Presidential Scholars",
+  "Submit video responses to two prompts to be considered for the finalist stage.": "Отправьте видеоответы на два вопроса для рассмотрения на этапе финалистов.",
+  "International first-year merit instructions": "Инструкция по стипендиям для иностранных первокурсников",
+  "General first-year merit instructions": "Общая инструкция по стипендиям для первокурсников",
   "No confirmed country-specific updates.": "Подтверждённых новостей по этой стране пока нет.",
   "General updates that may apply to this country are shown below when available.": "Ниже могут отображаться общие новости, применимые и к этой стране.",
   "All confirmed fields taught in English — programme list incomplete": "Все подтверждённые направления доступны на английском — список программ неполный",

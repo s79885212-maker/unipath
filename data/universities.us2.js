@@ -3502,7 +3502,7 @@ window.UNIPATH.universities.push(
   programNote: 'USC has more than twenty schools, including the School of Cinematic Arts, Marshall (business), Viterbi (engineering) and Annenberg (communication). The Law & Policy tag reflects undergraduate programmes in law, history and culture and public policy.',
   links: {
     website: 'https://www.usc.edu/',
-    admissions: 'https://admission.usc.edu/',
+    admissions: 'https://admission.usc.edu/prospective-students/how-to-apply/first-year-students/',
     internationalAdmissions: 'https://admission.usc.edu/prospective-students/how-to-apply/international-students/',
     applicationPortal: 'https://www.commonapp.org/',
     scholarships: 'https://admission.usc.edu/cost-and-financial-aid/scholarships/',
@@ -3513,10 +3513,10 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision (most majors)', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants, except performing arts programmes', conditions: 'Binding: an ED agreement is required, and admitted students must enrol and withdraw other applications. Notification by mid-December. ED applicants are considered for USC merit scholarships. Financial aid deadline 1 November 2026.', status: 'confirmed', source: 'https://admission.usc.edu/prospective-students/first-year-students/', verified: '2026-10-01', note: null },
-      { name: 'Early Action (most majors)', kind: 'EA', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: false, appliesTo: 'First-year applicants, except performing arts programmes', conditions: 'Non-binding and non-restrictive; notification in late January. EA applicants are considered for USC merit scholarships. Financial aid deadline 15 November 2026. World Bachelor in Business applicants must use the 1 November deadline.', status: 'confirmed', source: 'https://admission.usc.edu/prospective-students/first-year-students/', verified: '2026-10-01', note: null },
-      { name: 'Regular Decision (performing arts majors)', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-12-01', date: '1 December 2026', binding: false, appliesTo: 'Applicants to the Kaufman School of Dance, School of Dramatic Arts and Thornton School of Music', conditions: 'The only deadline for these schools; applicants are considered for USC merit scholarships. Notification by 1 April.', status: 'confirmed', source: 'https://admission.usc.edu/prospective-students/first-year-students/', verified: '2026-10-01', note: null },
-      { name: 'Regular Decision (most majors)', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-10', date: '10 January 2027', binding: false, appliesTo: 'First-year applicants to majors without a 1 December deadline', conditions: 'Final first-year deadline; notification by 1 April. Financial aid deadline 3 February 2027.', status: 'confirmed', source: 'https://admission.usc.edu/prospective-students/first-year-students/', verified: '2026-10-01', note: null }
+      { name: 'Early Decision (most majors)', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants, except performing arts programmes', conditions: 'Binding: an ED agreement is required, and admitted students must enrol and withdraw other applications. Notification by mid-December. ED applicants are considered for USC merit scholarships.', status: 'confirmed', source: 'https://admission.usc.edu/prospective-students/how-to-apply/first-year-students/', verified: '2026-10-01', note: null },
+      { name: 'Early Action (most majors)', kind: 'EA', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: false, appliesTo: 'First-year applicants, except performing arts programmes', conditions: 'Non-binding and non-restrictive; notification in late January. EA applicants are considered for USC merit scholarships. World Bachelor in Business applicants must use the 1 November deadline.', status: 'confirmed', source: 'https://admission.usc.edu/prospective-students/how-to-apply/first-year-students/', verified: '2026-10-01', note: null },
+      { name: 'Regular Decision (performing arts majors)', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-12-01', date: '1 December 2026', binding: false, appliesTo: 'Applicants to the Kaufman School of Dance, School of Dramatic Arts and Thornton School of Music', conditions: 'The only deadline for these schools; applicants are considered for USC merit scholarships. Notification by 1 April.', status: 'confirmed', source: 'https://admission.usc.edu/prospective-students/how-to-apply/first-year-students/', verified: '2026-10-01', note: null },
+      { name: 'Regular Decision (most majors)', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-10', date: '10 January 2027', binding: false, appliesTo: 'First-year applicants to majors without a 1 December deadline', conditions: 'Final first-year deadline; notification by 1 April.', status: 'confirmed', source: 'https://admission.usc.edu/prospective-students/how-to-apply/first-year-students/', verified: '2026-10-01', note: null }
     ],
     applicationFee: { amount: 85, currency: 'USD', waiverAvailableToInternational: null, waiver: 'The Common Data Set says the fee can be waived for applicants with financial need; whether that covers international applicants was not checked.', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://oir.usc.edu/wp-content/uploads/sites/3/2026/10/CDS_2025-26_FINAL.pdf', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application with USC questions', 'Official records from all secondary schools, with certified English translations', 'External exam results or predictions (IB, A-Levels, national exams)', 'Financial Statement of Personal or Family Support', 'Copy of passport', 'English proficiency score'],
@@ -3524,14 +3524,14 @@ window.UNIPATH.universities.push(
     essay: 'Common Application essay plus USC’s supplement',
     interview: null,
     notes: [
-      'International applicants upload the Financial Statement of Personal or Family Support within two weeks of their deadline, proving funds for at least the first year; bank documents must be dated August 2026 or later.',
+      "USC asks for proof of funding for the first academic year. Upload the financial statement and, if required, submit official English scores within two weeks of your application deadline. Unawarded merit scholarships cannot count as proof of funding.",
       'USC does not work with, and is not represented by, recruitment agents.'
     ]
   },
   english: {
-    ielts: { min: 7, recommended: null, note: 'IELTS (or IELTS Indicator) 7 is the recommended minimum.' },
+    ielts: { min: null, recommended: 7, note: "USC recommends IELTS 7; applicants can be admitted with a lower score.", source: 'https://admission.usc.edu/prospective-students/how-to-apply/international-students/', verified: '2026-11-15' },
     toefl: { min: 100, recommended: null, scales: [{ period: 'pre2026', min: 100, recommended: null }, { period: 'post2026', min: 5, recommended: null }], note: 'TOEFL 100 with at least 20 in each section before 21 January 2026; 5 overall with at least 4 in each section from that date. TOEFL ITP Plus for China is not accepted.' },
-    duolingo: { min: null, recommended: null, note: 'The Duolingo English Test is not on USC’s published list of approved exams.' },
+    duolingo: { min: 130, recommended: null, note: "Duolingo is an alternative if you cannot take a USC-approved exam. If admitted using Duolingo alone, you must take the International Student Exam upon enrolment.", source: 'https://admission.usc.edu/prospective-students/how-to-apply/international-students/', verified: '2026-11-15' },
     waiver: 'USC grants no waivers: every international applicant whose native language is not English must submit an approved exam.',
     note: 'Also accepted: Cambridge C1 Advanced 185 (169 in each skill), PTE 68, SAT Evidence-Based Reading and Writing 650 or ACT English 27.'
   },
@@ -13300,6 +13300,56 @@ window.UNIPATH.universities.push(
     ],
     "deadlines": [
       {
+        "id": "tcu-chancellor-admission",
+        "name": "Chancellor’s Scholarship — TCU application",
+        "kind": "admission",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": false,
+        "appliesTo": "First-year Chancellor’s Scholarship candidates",
+        "conditions": "Both the TCU admission application and the Roach Honors College application are required. The scholarship covers tuition for up to eight semesters; housing, food and other expenses are separate.",
+        "status": "confirmed",
+        "source": "https://admissions.tcu.edu/chancellors-scholars.php",
+        "verified": "2026-11-15",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://admissions.tcu.edu/chancellors-scholars.php",
+          "verified": "2026-11-15",
+          "quote": "November 1 Early Action/Early Decision deadline"
+        },
+        "awardId": "tcu-chancellor",
+        "awardCategory": "merit"
+      },
+      {
+        "id": "tcu-chancellor-honors",
+        "name": "Chancellor’s Scholarship — Honors application",
+        "kind": "scholarship",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-15",
+        "date": "15 November 2026",
+        "binding": false,
+        "appliesTo": "First-year Chancellor’s Scholarship candidates",
+        "conditions": "Both the TCU admission application and the Roach Honors College application are required. The scholarship covers tuition for up to eight semesters; housing, food and other expenses are separate.",
+        "status": "confirmed",
+        "source": "https://admissions.tcu.edu/chancellors-scholars.php",
+        "verified": "2026-11-15",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://admissions.tcu.edu/chancellors-scholars.php",
+          "verified": "2026-11-15",
+          "quote": "Honors College application by the November 15 deadline"
+        },
+        "awardId": "tcu-chancellor",
+        "awardCategory": "merit"
+      },
+      {
         "name": "Early Action",
         "kind": "EA",
         "entryTerm": "Autumn",
@@ -13490,11 +13540,12 @@ window.UNIPATH.universities.push(
       "note": "TCU offers scholarships and need-based aid to incoming international students but does not state that full need is met, so no full-scholarship route is claimed."
     },
     "merit": [
+      {"id": "tcu-chancellor", "category": "merit", "entryTerm": "Autumn", "entryYear": "2027", "name": "Chancellor’s Scholarship", "amount": "Full tuition for up to eight semesters", "internationalEligible": true, "application": "Both the TCU admission application and the Roach Honors College application are required. The scholarship covers tuition for up to eight semesters; housing, food and other expenses are separate.", "source": "https://admissions.tcu.edu/chancellors-scholars.php", "verified": "2026-11-15"},
       {
         "name": "Academic scholarships",
         "amount": null,
         "internationalEligible": true,
-        "deadline": "1 November is recommended for Chancellor’s Scholarship candidates",
+        "deadline": null,
         "note": "Competitive; based on curriculum strength, test scores and other criteria."
       }
     ],
@@ -16234,6 +16285,33 @@ window.UNIPATH.universities.push(
       "Common Application"
     ],
     "deadlines": [
+      {
+        "id": "fsu-presidential-semifinal-video",
+        "name": "Presidential Scholars — semifinalist video responses",
+        "kind": "documents",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-28",
+        "date": "28 February 2027, 23:59 EST",
+        "binding": false,
+        "appliesTo": "Invited Presidential Scholars semifinalists only",
+        "conditions": "Submit video responses to two prompts to be considered for the finalist stage.",
+        "status": "confirmed",
+        "source": "https://presidentialscholars.fsu.edu/application-process",
+        "verified": "2026-11-15",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://presidentialscholars.fsu.edu/application-process",
+          "verified": "2026-11-15",
+          "quote": "Feb. 28, 2027, by 11:59 p.m. EST"
+        },
+        "awardId": "fsu-presidential",
+        "awardCategory": "merit",
+        "time": "23:59",
+        "timezone": "EST"
+      },
       {
         "name": "Regular Decision",
         "kind": "RD",

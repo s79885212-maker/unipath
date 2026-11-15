@@ -842,6 +842,24 @@ ok(yonsei2027.english.ielts.min === null &&
   /proof of English is REQUIRED/.test(yonsei2027.english.waiver),
   'Yonsei UIC requires evidence of English for 2027 and publishes no IELTS minimum');
 
+
+const awardsAudit = [
+  ['texas-christian-university', 'tcu-chancellor-honors', '2026-11-15'],
+  ['florida-state-university', 'fsu-presidential-semifinal-video', '2027-02-28'],
+  ['university-of-oxford', 'reach-oxford', '2027-01-26'],
+  ['university-of-bristol', 'bristol-think-big-application', '2027-03-19']
+];
+ok(awardsAudit.every(([id, event, date]) => U.roundsOf(U.uniById(id)).some(d =>
+  (d.id === event || d.awardId === event) && d.dateISO === date && U.roundStatus(d) === 'confirmed')),
+  'new award calendar events use current-cycle evidence');
+const usc2027 = U.uniById('university-of-southern-california');
+ok(usc2027.english.ielts.min === null && usc2027.english.ielts.recommended === 7 &&
+  usc2027.english.duolingo.min === 130,
+  'USC IELTS guidance is a recommendation; the Duolingo alternative preserves its own threshold');
+const ruSource = fs.readFileSync(path.join(ROOT, 'data/i18n/ru.js'), 'utf8');
+ok(ruSource.slice(ruSource.indexOf('window.UNIPATH_I18N.ru = {')).includes('"At least 5.5 in each section.":'),
+  'APU IELTS sections are registered in the Russian dictionary that the packer reads');
+
 console.log('\n' + passed + ' passed, ' + failed + ' failed');
 
 /* Exit with a status only when run directly; tests/links.js loads this file for the data. */
