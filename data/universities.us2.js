@@ -3518,7 +3518,7 @@ window.UNIPATH.universities.push(
   founded: 1839,
   type: 'Private research university',
   brand: { c1: '#CC0000', c2: '#8a0000', initials: 'BU' },
-  description: 'A large private research university stretched along the Charles River in Boston, with strong communication, business, engineering and health programmes. International students cannot receive BU need-based aid, but they compete for merit awards, including the Trustee Scholarship, BU’s top award.',
+  description: 'A large private research university along the Charles River in Boston. The Presidential Scholarship is open to international first-year applicants. BU need-based aid is unavailable to international students.',
   englishTaught: true,
   languageOfInstruction: 'English',
   programs: ['business','engineering','computer-science','economics','social-sciences','humanities','arts','biology','psychology','medicine','education','mathematics'],
@@ -3540,7 +3540,13 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-02', date: '2 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. The application and the aid forms (CSS Profile and FAFSA) share this date; decision 15 December.', status: 'confirmed', source: 'https://www.bu.edu/admissions/apply/deadlines/', verified: '2026-09-23', note: null },
       { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decision 9 February.', status: 'confirmed', source: 'https://www.bu.edu/admissions/apply/deadlines/', verified: '2026-09-23', note: null },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Decision 28 March; enrolment deposit 1 May.', status: 'confirmed', source: 'https://www.bu.edu/admissions/apply/deadlines/', verified: '2026-09-23', note: null },
-      { name: 'Merit scholarship consideration', kind: 'scholarship', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-12-01', date: '1 December 2026', binding: false, appliesTo: 'Applicants for certain BU merit scholarships', conditions: 'Some merit scholarships require submission by this date.', status: 'confirmed', source: 'https://www.bu.edu/admissions/apply/deadlines/', verified: '2026-09-23', note: null },
+      {
+        name: 'Presidential Scholarship — application', kind: 'scholarship', date: '1 December',
+        appliesTo: 'First-year applicants, including international students',
+        awardId: 'bu-presidential', awardCategory: 'merit',
+        status: 'annual-rule', source: 'https://www.bu.edu/admissions/tuition-aid/scholarships-financial-aid/first-year-merit/', verified: '2026-11-15',
+        cycleEvidence: { basis: 'annual-rule', source: 'https://www.bu.edu/admissions/tuition-aid/scholarships-financial-aid/first-year-merit/', verified: '2026-11-15', quote: 'Deadline: December 1' }
+      },
     ],
     applicationFee: { amount: 80, currency: 'USD', waiverAvailableToInternational: null, waiver: 'The Common Data Set says the fee can be waived for applicants with financial need; whether that covers international applicants was not checked.', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://www.bu.edu/asir/files/2026/07/CDS-2025-2026-C-updated.pdf', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations'],
@@ -3592,11 +3598,18 @@ window.UNIPATH.universities.push(
     },
     merit: [
       {
-        name: 'Trustee Scholarship and Presidential Scholarship',
-        amount: 'Merit awards; the Trustee Scholarship is BU’s top award',
-        internationalEligible: true,
-        criteria: 'Outstanding academic records; competitive. Apply for admission by 1 December.',
-        note: 'Trustee Scholars must keep a 3.00 GPA each year and live in BU housing on the Charles River or Fenway campus.'
+        id: 'bu-presidential', category: 'merit', basis: 'merit',
+        name: 'Presidential Scholarship', amount: 'Half of tuition per year',
+        internationalEligible: true, firstYearEligible: true,
+        eligibility: 'First-year applicants, including international students',
+        application: 'Submit a complete application for admission by 1 December for automatic consideration. No separate scholarship form or essay is required.',
+        deadlineScope: 'annual-rule', source: 'https://www.bu.edu/admissions/tuition-aid/scholarships-financial-aid/first-year-merit/', verified: '2026-11-15'
+      },
+      {
+        id: 'bu-trustee', category: 'merit', name: 'Trustee Scholarship',
+        internationalEligible: null, firstYearEligible: null,
+        eligibility: 'Availability to new applicants for Fall 2027 is unconfirmed.',
+        deadlineScope: 'not-confirmed', source: 'https://www.bu.edu/finaid/status_documents/award_base_award_description.htm', verified: '2026-11-15'
       }
     ],
     needBased: {
@@ -3611,6 +3624,7 @@ window.UNIPATH.universities.push(
     { label: 'International students — financial assistance', url: 'https://www.bu.edu/finaid/undergraduate-students/international/' },
     { label: 'Cost of attendance 2026/2027', url: 'https://www.bu.edu/admissions/tuition-aid/tuition/' },
     { label: 'Merit scholarships for first-year students', url: 'https://www.bu.edu/admissions/tuition-aid/scholarships-financial-aid/first-year-merit/' },
+    { label: 'Trustee Scholarship — award description', url: 'https://www.bu.edu/finaid/status_documents/award_base_award_description.htm' },
     { label: 'BU’s standardized test policy', url: 'https://www.bu.edu/admissions/apply/first-year/test-policy/' },
     { label: 'International applicants', url: 'https://www.bu.edu/admissions/apply/international/' },
     { label: 'Boston University Common Data Set 2025–26 (section C13)', url: 'https://www.bu.edu/asir/files/2026/07/CDS-2025-2026-C-updated.pdf' }
@@ -4805,7 +4819,22 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', time: '23:59', timezone: 'applicant’s local time', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Supplemental materials due 15 November; notification 20 December.', status: 'confirmed', source: 'https://www.wlu.edu/admissions/apply', verified: '2026-09-23', note: null },
       { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', time: '23:59', timezone: 'applicant’s local time', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Supplemental materials due 15 January; notification 1 February.', status: 'confirmed', source: 'https://www.wlu.edu/admissions/apply', verified: '2026-09-23', note: null },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', time: '23:59', timezone: 'applicant’s local time', binding: false, appliesTo: 'First-year applicants', conditions: 'Supplemental materials due 1 February; notification 1 April.', status: 'confirmed', source: 'https://www.wlu.edu/admissions/apply', verified: '2026-09-23', note: null },
-      { name: 'Johnson Scholarship essay', kind: 'scholarship', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-12-01', date: '1 December 2026', time: '23:59', timezone: 'applicant’s local time', binding: false, appliesTo: 'Applicants for the Johnson Scholarship', conditions: 'W&L’s main merit award: full tuition, housing and meals for up to 10% of the entering class, plus $10,000 for a summer experience or study abroad. Supporting materials should arrive by 15 December.', status: 'confirmed', source: 'https://www.wlu.edu/admissions/apply', verified: '2026-09-23', note: null },
+      {
+        name: 'Johnson Scholarship — application and essay', kind: 'scholarship', entryTerm: 'Autumn', entryYear: '2027',
+        dateISO: '2026-12-01', date: '1 December 2026, 23:59 applicant’s local time',
+        time: '23:59', timezone: 'applicant’s local time',
+        appliesTo: 'Applicants for the Johnson Scholarship',
+        conditions: 'Submit the complete admission application and Johnson Scholarship essay by 1 December. QuestBridge Finalists are considered automatically.',
+        awardId: 'wlu-johnson', awardCategory: 'merit', status: 'confirmed', source: 'https://www.wlu.edu/admissions/apply', verified: '2026-11-15',
+        cycleEvidence: { basis: 'explicit-date', source: 'https://www.wlu.edu/admissions/apply', verified: '2026-11-15', quote: 'Dec. 1, 2026', entryTerm: 'Autumn', entryYear: '2027' }
+      },
+      {
+        name: 'Johnson Scholarship — supplemental materials', kind: 'documents', entryTerm: 'Autumn', entryYear: '2027',
+        dateISO: '2026-12-15', date: '15 December 2026', appliesTo: 'Applicants for the Johnson Scholarship',
+        conditions: 'Supplemental materials in support of the scholarship application should arrive by this date.',
+        awardId: 'wlu-johnson', awardCategory: 'merit', status: 'confirmed', source: 'https://www.wlu.edu/admissions/apply', verified: '2026-11-15',
+        cycleEvidence: { basis: 'explicit-date', source: 'https://www.wlu.edu/admissions/apply', verified: '2026-11-15', quote: 'Dec. 15, 2026', entryTerm: 'Autumn', entryYear: '2027' }
+      },
     ],
     applicationFee: { amount: 60, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Some applicants qualify to have the Common or Coalition Application fee waived', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://my.wlu.edu/document/2025-common-data-set', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common or Coalition Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile for need-based aid', 'Johnson Scholarship application for merit consideration'],
@@ -4854,12 +4883,16 @@ window.UNIPATH.universities.push(
       covers: { tuition: true, housing: true, meals: true, insurance: null, books: null },
       renewable: true,
       competitiveness: 'The Johnson Scholarship goes to up to 44 first-year students; finalists are invited to a selection event in March.',
-      howToApply: 'Submit the Johnson Scholarship application by 1 December; all of W&L’s merit aid is awarded through it.',
+      id: 'wlu-johnson', category: 'merit', entryTerm: 'Autumn', entryYear: '2027',
+      howToApply: 'Submit the complete admission application and Johnson Scholarship essay by 1 December. QuestBridge Finalists are considered automatically.',
+      source: 'https://www.wlu.edu/admissions/the-johnson-scholarship/application-instructions', verified: '2026-11-15',
       note: 'The Johnson Scholarship covers at least tuition, housing and food, plus $10,000 of summer funding, worth about $95,000 a year. Separately, W&L says it is need-blind and meets 100% of demonstrated need without loans for every admitted student, with international grants ranging from several thousand dollars to the full cost of attendance.'
     },
     merit: [
       {
+        id: 'wlu-johnson', category: 'merit', entryTerm: 'Autumn', entryYear: '2027',
         name: 'The Johnson Scholarship',
+        application: 'Submit the complete admission application and Johnson Scholarship essay by 1 December. QuestBridge Finalists are considered automatically.', source: 'https://www.wlu.edu/admissions/the-johnson-scholarship/application-instructions', verified: '2026-11-15',
         amount: 'At least tuition, housing and food, plus $10,000 for summer research, travel or internships',
         internationalEligible: true,
         criteria: 'Up to 44 first-year students a year; application by 1 December.',
@@ -4877,6 +4910,7 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'International student aid', url: 'https://www.wlu.edu/admissions/financial-aid/types-of-aid/international-student-aid' },
     { label: 'The Johnson Scholarship', url: 'https://www.wlu.edu/admissions/the-johnson-scholarship' },
+    { label: 'Johnson Scholarship application instructions', url: 'https://www.wlu.edu/admissions/the-johnson-scholarship/application-instructions' },
     { label: 'Tuition and fees 2026-2027', url: 'https://my.wlu.edu/business-office/parents-and-students/tuition-information/tuition-and-fees' },
     { label: 'Apply to W&L', url: 'https://www.wlu.edu/admissions/apply' },
     { label: 'Test-optional admissions policy', url: 'https://www.wlu.edu/admissions/apply/test-optional-policy' },
