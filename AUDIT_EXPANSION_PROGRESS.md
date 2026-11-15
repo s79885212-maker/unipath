@@ -1287,3 +1287,8 @@ Baylor FAQ прямо допускает international applicants к Getterman. 
 
 Срок обеих заявок на набор сентября 2027 перенесён на 2 декабря 2026, 12:00 PCT (Ванкувер, UTC−7). Обновлены таблица сроков и инструкция к стипендии. Общий срок поступления — 15 января 2027. [Календарь UBC](https://you.ubc.ca/applying-ubc/dates-deadlines/) · [International Scholars Program](https://you.ubc.ca/financial-planning/scholarships-awards-international-students/international-scholars/).
 Уточнение по PR №5: календарь UBC указывает для общего срока 15 января 2027, 23:59 PCT. Обновлены данные и генератор. Проверка расчёта подтверждает 16 января, 06:59 UTC.
+
+
+## 15 ноября 2026 — сроки Vanderbilt и Emory на осень 2027
+
+Исправлен Regular Decision Vanderbilt для первокурсников на 1 января 2027. Для merit scholarships добавлена отдельная дата 1 декабря 2026. У Emory Scholar Programs указаны 1 ноября 2026 для ED I и 15 ноября 2026 для ED II и RD. [Приём Vanderbilt](https://admissions.vanderbilt.edu/apply/) · [Стипендии Vanderbilt](https://www.vanderbilt.edu/scholarships/) · [Scholar Programs Emory](https://apply.emory.edu/financial-aid/scholar-program).
