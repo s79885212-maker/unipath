@@ -68,7 +68,7 @@ nomination, scholarship, aid (или financial-aid), deposit, reply — отде
 Событие связывается только при точном совпадении `awardId` ↔ `id`,
 `awardCategory` ↔ `category`, `entryTerm` и `entryYear`. `kind` события должен быть
 scholarship/nomination/aid/financial-aid. Допускаются также явно связанные
-`documents` и `admission`: например, ранняя заявка на поступление для участия
+`documents`, `deposit` и `admission`: например, ранняя заявка на поступление для участия
 в конкретном конкурсе Pearson. Любое событие с `awardId` относится к этому
 award и не выбирается как общий ближайший срок поступления в вуз. Метка
 admission сохраняется, дата не переименовывается в scholarship. Названия не

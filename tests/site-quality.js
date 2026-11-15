@@ -37,9 +37,11 @@ module.exports = function (env) {
   var scholarship = Object.assign({}, nomination, { kind: 'scholarship', dateISO: '2099-03-01' });
   var uni = { admissions: { deadlines: [nomination, scholarship,
     Object.assign({}, scholarship, { awardId: 'different' }), Object.assign({}, scholarship, { awardCategory: 'need' }),
-    Object.assign({}, scholarship, { entryYear: '2098' }), Object.assign({}, scholarship, { kind: 'deposit' })] } };
-  ok(U.awardDates(uni, award).length === 2 && !U.awardDates(uni, { name: 'entrance' }).length,
-    'award dates match identity, category and intake, never name similarity or arbitrary aid');
+    Object.assign({}, scholarship, { entryYear: '2098' }), Object.assign({}, scholarship, { kind: 'deposit', awardId: 'different' })] } };
+  var linkedDeposit = Object.assign({}, scholarship, { kind: 'deposit' });
+  uni.admissions.deadlines.push(linkedDeposit);
+  ok(U.awardDates(uni, award).length === 3 && U.awardDates(uni, award).indexOf(linkedDeposit) > -1 && !U.isApplicationDeadline(linkedDeposit) && !U.awardDates(uni, { name: 'entrance' }).length,
+    'award dates match identity, category and intake, including a deposit explicitly linked to that award');
   ok(U.roundState(nomination) === 'closed' && U.roundState(scholarship) === 'upcoming', 'closed nomination and future scholarship remain independent');
   ok(!U.firstDeadline(uni), 'nomination, scholarship and deposit never become an admission deadline');
   var html = U.awardDeadlineHtml(uni, award);

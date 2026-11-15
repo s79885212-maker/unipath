@@ -768,7 +768,7 @@
     if (!annual && (!award.entryTerm || !award.entryYear)) return [];
     return roundsOf(u).filter(function (d) {
       return d.awardId === award.id && d.awardCategory === award.category &&
-        (d.kind === 'scholarship' || d.kind === 'nomination' || d.kind === 'aid' || d.kind === 'financial-aid' || d.kind === 'admission' || d.kind === 'documents') &&
+        (d.kind === 'scholarship' || d.kind === 'nomination' || d.kind === 'aid' || d.kind === 'financial-aid' || d.kind === 'admission' || d.kind === 'documents' || d.kind === 'deposit') &&
         (annual ? d.status === 'annual-rule' && d.cycleEvidence && d.cycleEvidence.basis === 'annual-rule' &&
           d.entryTerm == null && d.entryYear == null && d.dateISO == null :
           d.entryTerm === award.entryTerm && String(d.entryYear) === String(award.entryYear));
