@@ -1292,3 +1292,7 @@ Baylor FAQ прямо допускает international applicants к Getterman. 
 ## 15 ноября 2026 — сроки Vanderbilt и Emory на осень 2027
 
 Исправлен Regular Decision Vanderbilt для первокурсников на 1 января 2027. Для merit scholarships добавлена отдельная дата 1 декабря 2026. У Emory Scholar Programs указаны 1 ноября 2026 для ED I и 15 ноября 2026 для ED II и RD. [Приём Vanderbilt](https://admissions.vanderbilt.edu/apply/) · [Стипендии Vanderbilt](https://www.vanderbilt.edu/scholarships/) · [Scholar Programs Emory](https://apply.emory.edu/financial-aid/scholar-program).
+
+## 15 ноября 2026 — русский текст стипендиальных сроков Эмори
+
+В блоке стипендий переведены название программы, подписи раундов и пояснения. Даты для первого раунда раннего решения и для второго раунда раннего решения и основного раунда сверены на опубликованной карточке v233 перед исправлением.
