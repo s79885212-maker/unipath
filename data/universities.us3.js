@@ -24026,7 +24026,7 @@ window.UNIPATH.universities.push(
   "programNote": "From the Texas A&M University Undergraduate Catalog 2026–2027. Law: “Society, Ethics, and Law” is a bachelor’s degree in the philosophy department; the School of Law itself is a graduate school.",
   "links": {
     "website": "https://www.tamu.edu/",
-    "admissions": "https://admissions.tamu.edu/apply/freshman",
+    "admissions": "https://admissions.tamu.edu/apply/international/international-freshman.html",
     "internationalAdmissions": "https://admissions.tamu.edu/apply/international/international-freshman.html",
     "applicationPortal": "https://www.commonapp.org/",
     "scholarships": null,

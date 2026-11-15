@@ -3,7 +3,11 @@
    {0} matches any text, {#0} matches a number. Missing entries fall back to English.
    Official names — universities, programmes, scholarships, tests — stay in English
    on purpose, so students can find them on the universities' own websites. */
-window.UNIPATH_I18N = window.UNIPATH_I18N || {};
+window.UNIPATH_I18N = window.UNIPATH_I18N || {
+  "English-basis first-year applicants, April or September 2027. IELTS General Training is not accepted.": "Первокурсники, поступающие на англоязычный маршрут в апреле или сентябре 2027 года. IELTS General Training не принимается.",
+  "At least 5.5 in each section.": "Не менее 5,5 по каждой секции.",
+  "First-year tuition is ¥1,455,000 before scholarships. Admission, housing, insurance and other living expenses are separate.": "Плата за обучение на первом курсе до стипендий — 1 455 000 иен. Вступительный сбор, жильё, страховка и прочие расходы оплачиваются отдельно.",
+};
 window.UNIPATH_I18N.ru = {
   "No confirmed country-specific updates.": "Подтверждённых новостей по этой стране пока нет.",
   "General updates that may apply to this country are shown below when available.": "Ниже могут отображаться общие новости, применимые и к этой стране.",

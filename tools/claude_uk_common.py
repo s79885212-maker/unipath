@@ -134,9 +134,10 @@ def write(recs, s):
     for r in recs:
         if r['costs']['academicYear'] != '2027–2028':
             continue
-        prog = r['programEvidence'][r['programs'][0]]['program']
+        field = r['programs'][0]
+        prog = r['programEvidence'][field]['program']
         note = L('%s example for 2027/28; each course is priced separately' % prog, 'Пример %s на 2027/28; каждая программа стоит по-своему' % prog)
-        rows += "\n    '%s': { currency: 'GBP', basis: 'tuition', min: %d, max: %d, note: '%s' }," % (
-            r['id'], r['costs']['breakdown']['tuition'], r['costs']['breakdown']['tuition'], str(note).replace("'", "\\'"))
+        rows += "\n    '%s': { currency: 'GBP', basis: 'tuition', example: true, academicYear: '2027–2028', scopeFields: ['%s'], min: %d, max: %d, note: '%s' }," % (
+            r['id'], field, r['costs']['breakdown']['tuition'], r['costs']['breakdown']['tuition'], str(note).replace("'", "\\'"))
     io.open(MATCH, 'w', encoding='utf-8').write(m[:j] + rows + m[j:])
     flush()
