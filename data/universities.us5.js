@@ -4323,8 +4323,8 @@ window.UNIPATH.universities.push(
   "programNote": "Selected undergraduate fields from the official catalog.",
   "links": {
     "website": "https://www.csusb.edu/",
-    "admissions": "https://www.csusb.edu/international-education/international-admissions/first-year-students",
-    "internationalAdmissions": "https://www.csusb.edu/international-education/international-admissions/first-year-students",
+    "admissions": "https://www.csusb.edu/international-education/international-admissions/apply/first-year-admissions-requirements",
+    "internationalAdmissions": "https://www.csusb.edu/international-education/international-admissions/apply/first-year-admissions-requirements",
     "applicationPortal": null,
     "scholarships": null,
     "financialAid": null,

@@ -1314,3 +1314,8 @@ Baylor FAQ прямо допускает international applicants к Getterman. 
 ## 15 ноября 2026 — стипендии Boston University и Washington and Lee
 
 Presidential выделена отдельно. Подача полной заявки до 1 декабря указана как ежегодный срок. Доступность Trustee для новых абитуриентов осени 2027 не подтверждена. У Johnson отдельно показаны заявка с эссе до 1 декабря и дополнительные материалы до 15 декабря 2026. [BU](https://www.bu.edu/admissions/tuition-aid/scholarships-financial-aid/first-year-merit/) · [Календарь W&L](https://www.wlu.edu/admissions/apply) · [Инструкции Johnson](https://www.wlu.edu/admissions/the-johnson-scholarship/application-instructions).
+
+## 15 ноября 2026 — проверка релиза v238
+
+- В подборе ограничили 26 британских примера стоимости обучения тем направлением, к которому относится опубликованная ставка. Проверка Portsmouth воспроизводит бюджет £20 000 для Business и Data Science. Проживание по-прежнему учитывается отдельно.
+- Актуализировали ссылки на поступление Texas A&M и CSU San Bernardino. По справочнику APU для 2027 года исправили минимум IELTS с 5,5 на 6,0, подтвердили циклы дедлайнов и разделили цену обучения и расходы на жизнь. Действующие условия Yonsei UIC сверили без правок.

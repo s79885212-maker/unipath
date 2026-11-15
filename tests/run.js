@@ -828,6 +828,21 @@ require('./us100-later.js')({U:U,M:M,DB:DB,ok:ok});
 group('release check regressions (November 2026)');
 require('./release-qa.js')(ok);
 require('./uk2027-expansion.js')({ U: U, DB: DB, M: M, ok: ok });
+
+const apu2027 = U.uniById('ritsumeikan-apu');
+const apuRounds = U.roundsOf(apu2027).filter(round => round.entryTerm === 'September');
+ok(apuRounds.length === 4 && apuRounds.every(round => U.roundStatus(round) === 'confirmed') &&
+  apuRounds.some(round => round.dateISO === '2026-12-09' && round.timezone === 'JST'),
+  'APU September 2027 rounds use dated evidence from the current handbook');
+ok(apu2027.english.ielts.min === 6 && apu2027.english.toefl.scales.map(scale => scale.min).join(',') === '75,4' &&
+  DB.match.annualCost[apu2027.id].basis === 'tuition' && U.awardKind(apu2027) !== 'full-ride',
+  'APU language requirements preserve each TOEFL scale and its tuition award stays separate from full ride');
+const yonsei2027 = U.uniById('yonsei-university');
+ok(yonsei2027.english.ielts.min === null &&
+  /proof of English is REQUIRED/.test(yonsei2027.english.waiver),
+  'Yonsei UIC requires evidence of English for 2027 and publishes no IELTS minimum');
+
 console.log('\n' + passed + ' passed, ' + failed + ' failed');
+
 /* Exit with a status only when run directly; tests/links.js loads this file for the data. */
 if (require.main === module) process.exit(failed ? 1 : 0);

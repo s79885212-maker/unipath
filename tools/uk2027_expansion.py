@@ -252,4 +252,3 @@ if __name__ == '__main__':
     manifest = {'verified': DAY, 'batches': [first, rest[:5], rest[5:]]}
     Path(ROOT, 'research/uk2027-expansion.json').write_text(
         json.dumps(manifest, indent=2) + '\n', encoding='utf-8')
-

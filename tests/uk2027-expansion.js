@@ -32,5 +32,14 @@ module.exports = function ({ U, DB, M, ok }) {
       ok(record.costs.status === 'previous-cycle' && !cost, id + ': earlier tuition is excluded from budget matching');
     }
   }
+  const portsmouth = U.uniById('university-of-portsmouth');
+  const applicant = { ielts: null, gpa: null, sat: null, budget: 20000, country: 'uk', currency: 'GBP' };
+  const business = M.evaluate(portsmouth, { ...applicant, field: 'business' }).budget;
+  const dataScience = M.evaluate(portsmouth, { ...applicant, field: 'data-science' }).budget;
+  ok(business.status === 'fits-tuition' && dataScience.status === 'unknown',
+    'Portsmouth business tuition must not be matched against a Data Science budget');
+  const examples = Object.values(DB.match.annualCost).filter(cost =>
+    cost.currency === 'GBP' && /each course is priced separately/.test(cost.note || ''));
+  ok(examples.length > 0 && examples.every(cost => cost.scopeFields?.length === 1),
+    'UK tuition for a named course has an explicit match field');
 };
-
