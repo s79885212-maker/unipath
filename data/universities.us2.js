@@ -187,6 +187,8 @@ window.UNIPATH.universities.push(
       {
         "name": "Regular Decision",
         "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
         "date": "Date for Fall 2027 not confirmed",
         "binding": false,
         "appliesTo": "First-year applicants",

@@ -954,7 +954,8 @@ ok([['ED2','2027-01-04'],['RD','2027-01-04'],['documents','2027-01-11'],['docume
     tuftsJanuary.some(d => d.kind === kind && d.dateISO === iso && U.roundStatus(d) === 'confirmed' &&
       U.isApplicationDeadline(d) === (kind === 'ED2' || kind === 'RD'))),
   'Tufts: round-specific school reports, international CSS and tax files never replace application dates');
-ok(januaryRounds('dartmouth-college').some(d => d.kind === 'RD' && !d.dateISO && !d.time && U.roundStatus(d) === 'not-confirmed') &&
+ok(januaryRounds('dartmouth-college').some(d => d.kind === 'RD' && !d.dateISO && !d.time && U.roundStatus(d) === 'not-confirmed' &&
+  U.roundInIntake(d, U.uniById('dartmouth-college'), 'fall-2027')) &&
   januaryRounds('bowdoin-college').filter(d => ['ED2','RD'].includes(d.kind)).every(d => !d.dateISO && U.roundStatus(d) === 'annual-rule'),
   'A conflict or an undated published rule cannot become an exact Fall 2027 application deadline');
 ok(januaryRounds('johns-hopkins-university').some(d => d.kind === 'decision' && d.dateISO === '2027-03-24' && !U.isApplicationDeadline(d)) &&
