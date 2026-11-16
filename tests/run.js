@@ -970,6 +970,34 @@ ok(januaryRounds('johns-hopkins-university').some(d => d.kind === 'decision' && 
   'JHU decision release is not a submission deadline, and Princeton lists its own PFAA');
 
 
+group('Fall 2027 US funding audit');
+const fundingHistorical = [
+  'foothill-college','de-anza-college','santa-monica-college','sinclair-community-college','green-river-college',
+  'university-of-miami','centre-college','clark-university','american-university','university-of-alabama',
+  'tulane-university','rhodes-college','depauw-university','illinois-wesleyan-university'
+];
+const fundingBudget = (u, dollars) => M.evaluate(u, {budget:dollars, currency:'USD'}).budget.status;
+ok(fundingHistorical.every(id => {
+  const u = U.uniById(id);
+  return U.costStatus(u) === 'previous-cycle' && !DB.match.annualCost[id] &&
+    [0, 35000, 100000].every(budget => fundingBudget(u,budget) === 'unknown');
+}), 'Earlier-cycle totals never confirm a Fall 2027 budget, even where aid is available');
+ok(U.budgetRange(U.uniById('sinclair-community-college')) === null &&
+  /\$20,000 for the I-20/.test(U.uniById('sinclair-community-college').costs.note),
+  'Sinclair separates I-20 financial evidence from the full academic-year cost');
+const fall27WV = U.uniById('west-virginia-university');
+ok(U.costYear(fall27WV) === '2027–2028' && DB.match.annualCost[fall27WV.id].min === 33528 &&
+  fundingBudget(fall27WV,35000) === 'fits-tuition' && fundingBudget(fall27WV,20000) === 'over',
+  'WVU uses the approved base before scholarship and cannot confirm a complete budget');
+const auditedAwardKinds = [['university-of-alabama','full-tuition'],['centre-college','full-ride'],
+  ['tulane-university','full-ride'],['depauw-university','full-tuition']];
+ok(auditedAwardKinds.every(([id,kind]) => {
+  const u = U.uniById(id);
+  return U.awardKind(u) === kind && !U.costAfterAid(u) && fundingBudget(u,0) === 'unknown';
+}) && U.fullRide(U.uniById('university-of-alabama')).basis === 'automatic' &&
+    U.needBased(U.uniById('depauw-university')).meetsFullNeed === true,
+  'Automatic tuition, selective full cost and demonstrated need stay distinct from a guaranteed budget reduction');
+
 console.log('\n' + passed + ' passed, ' + failed + ' failed');
 
 /* Exit with a status only when run directly; tests/links.js loads this file for the data. */

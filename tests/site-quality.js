@@ -59,12 +59,12 @@ module.exports = function (env) {
   var american = U.uniById('american-university');
   ok(american.costs.academicYear === '2026–2027' && U.budgetRange(american).min === 87374 &&
     U.budgetWithExtras(american).min === 90133 && U.costExtras(american)[0].amount === 2759 &&
-    M.evaluate(american, { ielts: null, sat: null, gpa: null, budget: 87374, currency: 'USD' }).budget.status === 'fits-no-extras',
-    'American: the published 2026–27 total stays distinct from required insurance and the calculated combined budget');
+    M.evaluate(american, { ielts: null, sat: null, gpa: null, budget: 87374, currency: 'USD' }).budget.status === 'unknown',
+    'American: the published 2026–27 total stays distinct from required insurance and the calculated combined budget, and is historical for Fall 2027');
   var egl = U.awardsAll(american).filter(function (a) { return a.id === 'au-egls'; })[0];
   ok(U.fullRide(american).covers.insurance === false && U.awardDates(american, egl).length === 1 &&
     U.roundStatus(U.awardDates(american, egl)[0]) === 'confirmed' && !U.costAfterAid(american) &&
-    M.evaluate(american, { ielts: null, sat: null, gpa: null, budget: 4000, currency: 'USD' }).budget.status === 'over',
+    M.evaluate(american, { ielts: null, sat: null, gpa: null, budget: 4000, currency: 'USD' }).budget.status === 'unknown',
     'AU EGL: the linked 2027 scholarship never turns competitive maximum aid into a guaranteed $4,000 budget');
   var ufvActual = U.uniById('university-of-the-fraser-valley');
   var sfuActual = U.uniById('simon-fraser-university');

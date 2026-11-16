@@ -5278,45 +5278,100 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'International qualifications are accepted and read in context.'
   },
   costs: {
-    breakdown: { tuition: 70622, billed: 95674, includes: "tuition, fees, housing and dining; health insurance is charged on top" },
-    academicYear: '2026–2027',
-    currency: 'USD',
-    headline: '$75,136 in tuition and mandatory fees',
-    items: [
-      { label: 'Tuition', amount: 70622 },
-      { label: 'Academic support, health centre, activity and recreation fees', amount: 4514 },
-      { label: 'Housing (weighted first-year average)', amount: 11758 },
-      { label: 'Dining plan (first-year minimum)', amount: 8780 },
-      { label: 'Tulane Student Health Insurance Plan', amount: 3381 },
-      { label: 'New student orientation fee (one-time)', amount: 300 }
-    ],
-    billedSubtotal: 95674,
-    totalText: 'About $95,674 for tuition, fees, housing and dining, plus health insurance',
-    note: 'Non-US citizens are enrolled in Tulane’s student health insurance plan.'
-  },
-  scholarships: {
-    fullRide: {
-      available: true, internationalEligible: true, basis: 'merit',
-      covers: { tuition: true, housing: null, meals: null, insurance: null, books: null },
-      renewable: null,
-      competitiveness: 'Global Scholarships are competitive; applicants in the top 20% academically are the strongest candidates.',
-      howToApply: 'Apply Early Decision or Early Action to be competitive; all applicants are considered for partial merit awards through the Common Application.',
-      note: 'Tulane says its Global Scholarships "may cover your full tuition and fees or may even cover your full cost of attendance".'
+    "breakdown": {
+      "tuition": 70622,
+      "billed": 95674,
+      "includes": "tuition, fees, housing and dining; health insurance is charged on top",
+      "budget": 98710
     },
-    merit: [
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "headline": "$75,136 in tuition and mandatory fees",
+    "items": [
       {
-        name: 'Tulane Global Scholarships and merit awards',
-        amount: 'From $1,000 up to full tuition or the full cost of attendance',
-        internationalEligible: true,
-        criteria: 'Academic record; early applicants are the most competitive.',
-        note: 'Every Common Application is considered for partial merit scholarships.'
+        "label": "Tuition",
+        "amount": 70622
+      },
+      {
+        "label": "Academic support, health centre, activity and recreation fees",
+        "amount": 4514
+      },
+      {
+        "label": "Housing (weighted first-year average)",
+        "amount": 11758
+      },
+      {
+        "label": "Dining plan (first-year minimum)",
+        "amount": 8780
+      },
+      {
+        "label": "Tulane Student Health Insurance Plan",
+        "amount": 3381
+      },
+      {
+        "label": "New student orientation fee (one-time)",
+        "amount": 300
       }
     ],
-    needBased: {
-      availableToInternational: true, meetsFullNeed: false, needBlindInternational: null,
-      forms: ['CSS Profile', 'Tulane Declaration & Certification of Finances'],
-      deadlines: 'CSS Profile recommended by 15 February',
-      note: 'Need-based aid for international students is capped at $30,000 a year and is not given to those who already hold at least that much in merit scholarship.'
+    "billedSubtotal": 95674,
+    "totalText": "About $95,674 for tuition, fees, housing and dining, plus health insurance",
+    "note": "The 2026–27 on-campus total is $98,710 before travel and aid. Health insurance may be charged separately.",
+    "status": "previous-cycle",
+    "source": "https://financialaid.tulane.edu/NTC/Prospective/Undergraduate",
+    "verified": "2026-11-16"
+  },
+  scholarships: {
+    "fullRide": {
+      "available": true,
+      "internationalEligible": true,
+      "basis": "merit",
+      "covers": {
+        "tuition": true,
+        "housing": true,
+        "meals": true,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": "Highly competitive; around ten awards each year.",
+      "howToApply": "Follow Tulane’s merit scholarship instructions. Semifinalists are invited to submit supplements and finalists are interviewed.",
+      "note": "Tulane’s Stamps Scholarship covers the published cost of attendance and includes restricted enrichment funding. Check health insurance, travel and expenses beyond university allowances.",
+      "testRequirement": "Not required, but Tulane says submitting scores is preferred and may strengthen scholarship consideration.",
+      "renewalConditions": "Tulane describes most merit awards as renewable. The specific Stamps renewal threshold for Fall 2027 is unconfirmed.",
+      "detailsSource": "https://admission.tulane.edu/tuition-aid/merit-scholarships",
+      "detailsVerified": "2026-11-16",
+      "name": "Stamps Scholarship"
+    },
+    "merit": [
+      {
+        "name": "Tulane Global Scholarships and merit awards",
+        "amount": "From $1,000 up to full tuition or the full cost of attendance",
+        "internationalEligible": true,
+        "criteria": "Academic record; early applicants are the most competitive.",
+        "note": "Every Common Application is considered for partial merit scholarships."
+      },
+      {
+        "name": "Stamps Scholarship",
+        "internationalEligible": true,
+        "firstYearEligible": true,
+        "basis": "merit",
+        "amount": "Full published cost of attendance plus approved enrichment expenses",
+        "application": "Follow Tulane’s merit scholarship instructions. Semifinalists are invited to submit supplements and finalists are interviewed.",
+        "note": "Tulane’s Stamps Scholarship covers the published cost of attendance and includes restricted enrichment funding. Check health insurance, travel and expenses beyond university allowances.",
+        "source": "https://admission.tulane.edu/tuition-aid/merit-scholarships",
+        "verified": "2026-11-16"
+      }
+    ],
+    "needBased": {
+      "availableToInternational": true,
+      "meetsFullNeed": false,
+      "needBlindInternational": null,
+      "forms": [
+        "CSS Profile",
+        "Tulane Declaration & Certification of Finances"
+      ],
+      "deadlines": "CSS Profile recommended by 15 February",
+      "note": "International need-based aid is capped at $30,000 per year, is unavailable when merit awards already reach that amount, and requires a new application each year."
     }
   },
   photos: { main: null, gallery: [], city: null },
@@ -7248,61 +7303,94 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Tuition and fees are the same for domestic and international students.'
   },
   costs: {
-    status: 'confirmed',
-    breakdown: { tuition: 66312, billed: 94700, includes: 'tuition, required fees and on-campus food and housing; books, travel, personal expenses and health insurance are extra', published: true },
-    academicYear: '2026–2027',
-    currency: 'USD',
-    headline: '$66,312 tuition · $94,700 with required fees, food and housing',
-    items: [
-      { label: 'Tuition', amount: 66312 },
-      { label: 'Required fees', amount: 2030 },
-      { label: 'Housing (on campus)', amount: 16958 },
-      { label: 'Meals (on campus)', amount: 9400 }
-    ],
-    billedSubtotal: 94700,
-    totalText: '$94,700 for tuition, required fees and on-campus food and housing',
-    note: 'Estimated direct costs for 2026–2027 from the University of Miami cost of attendance page: tuition $66,312, fees $2,030, on-campus housing $16,958 and meals $9,400. The page lists a further $4,172 of indirect costs (books, personal expenses, transportation, loan fees). The same figures appear in section G1 of the 2025–26 Common Data Set.',
-    source: 'https://finaid.miami.edu/cost/index.html',
-    verified: '2026-10-06',
-    studentCategory: 'Full-time first-year undergraduates living on campus'
-  },
-  scholarships: {
-    fullRide: {
-      available: true, internationalEligible: true, basis: 'merit',
-      covers: { tuition: true, housing: true, meals: true, insurance: null, books: null },
-      renewable: true,
-      competitiveness: 'Premier Scholarships are highly selective and only considered for applicants who apply by 1 November.',
-      howToApply: 'Apply Early Decision I or Early Action by 1 November; merit consideration is automatic.',
-      note: 'The Stamps Scholarship covers the full cost of attendance plus an enrichment stipend and is open to international students. The Isaac Bashevis Singer Scholarship covers full tuition and is also open to them. Other premier awards (Hammond, Weeks, Jenkins) are for US citizens and permanent residents only.'
+    "status": "previous-cycle",
+    "breakdown": {
+      "tuition": 66312,
+      "billed": 94700,
+      "includes": "tuition, required fees and on-campus food and housing; books, travel, personal expenses and health insurance are extra",
+      "published": true
     },
-    merit: [
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "headline": "$66,312 tuition · $94,700 with required fees, food and housing",
+    "items": [
       {
-        name: 'The Stamps Scholarship',
-        amount: 'Full cost of attendance plus an enrichment fund stipend',
-        internationalEligible: true,
-        criteria: 'All incoming first-year students; apply by 1 November.',
-        note: 'Premier Scholarship.'
+        "label": "Tuition",
+        "amount": 66312
       },
       {
-        name: 'The Isaac Bashevis Singer Scholarship',
-        amount: 'Full tuition',
-        internationalEligible: true,
-        criteria: 'All incoming first-year students; apply by 1 November.',
-        note: 'Premier Scholarship.'
+        "label": "Required fees",
+        "amount": 2030
       },
       {
-        name: 'President’s Scholarship and Canes Achievement Award',
-        amount: 'Up to $30,000 and up to $20,000 a year',
-        internationalEligible: true,
-        criteria: 'Automatic consideration for all applicants, regardless of citizenship.',
-        note: 'Awarded on academic achievement.'
+        "label": "Housing (on campus)",
+        "amount": 16958
+      },
+      {
+        "label": "Meals (on campus)",
+        "amount": 9400
       }
     ],
-    needBased: {
-      availableToInternational: true, meetsFullNeed: null, needBlindInternational: null,
-      forms: ['CSS Profile'],
-      deadlines: 'By the stated deadlines for your round',
-      note: 'UM says it offers international students both merit and need-based aid; the pages consulted do not say whether full need is met or how admission treats aid requests.'
+    "billedSubtotal": 94700,
+    "totalText": "$94,700 for tuition, required fees and on-campus food and housing",
+    "note": "Estimated direct costs for 2026–2027 from the University of Miami cost of attendance page: tuition $66,312, fees $2,030, on-campus housing $16,958 and meals $9,400. The page lists a further $4,172 of indirect costs (books, personal expenses, transportation, loan fees). The same figures appear in section G1 of the 2025–26 Common Data Set.",
+    "source": "https://finaid.miami.edu/cost/index.html",
+    "verified": "2026-11-16",
+    "studentCategory": "Full-time first-year undergraduates living on campus"
+  },
+  scholarships: {
+    "fullRide": {
+      "available": true,
+      "internationalEligible": null,
+      "basis": "merit",
+      "covers": {
+        "tuition": true,
+        "housing": true,
+        "meals": true,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": true,
+      "competitiveness": "Premier Scholarships are highly selective and only considered for applicants who apply by 1 November.",
+      "howToApply": "Apply Early Decision I or Early Action by 1 November; merit consideration is automatic.",
+      "note": "The Stamps programme partner describes full cost of attendance for eight semesters. The university’s Fall 2027 international eligibility, renewal rules and treatment of expenses above the award allowance could not be rechecked.",
+      "detailsSource": "https://www.stampsscholars.org/2012/11/20/university-of-miami-coral-gables-fl/",
+      "detailsVerified": "2026-11-16"
+    },
+    "merit": [
+      {
+        "name": "The Stamps Scholarship",
+        "amount": "Full cost of attendance plus an enrichment fund stipend",
+        "internationalEligible": null,
+        "criteria": "All incoming first-year students; apply by 1 November.",
+        "note": "The Stamps programme partner describes full cost of attendance for eight semesters. The university’s Fall 2027 international eligibility, renewal rules and treatment of expenses above the award allowance could not be rechecked.",
+        "source": "https://www.stampsscholars.org/2012/11/20/university-of-miami-coral-gables-fl/",
+        "verified": "2026-11-16"
+      },
+      {
+        "name": "The Isaac Bashevis Singer Scholarship",
+        "amount": "Full tuition",
+        "internationalEligible": true,
+        "criteria": "All incoming first-year students; apply by 1 November.",
+        "note": "Premier Scholarship."
+      },
+      {
+        "name": "President’s Scholarship and Canes Achievement Award",
+        "amount": "Up to $30,000 and up to $20,000 a year",
+        "internationalEligible": true,
+        "criteria": "Automatic consideration for all applicants, regardless of citizenship.",
+        "note": "Awarded on academic achievement."
+      }
+    ],
+    "needBased": {
+      "availableToInternational": true,
+      "meetsFullNeed": null,
+      "needBlindInternational": null,
+      "forms": [
+        "CSS Profile"
+      ],
+      "deadlines": "By the stated deadlines for your round",
+      "note": "UM says it offers international students both merit and need-based aid; the pages consulted do not say whether full need is met or how admission treats aid requests."
     }
   },
   photos: { main: null, gallery: [], city: null },
@@ -10144,7 +10232,7 @@ window.UNIPATH.universities.push(
       "billed": 77856,
       "includes": "tuition, mandatory fees, housing and the meal plan, and international health insurance"
     },
-    "academicYear": null,
+    "academicYear": "2026–2027",
     "currency": "USD",
     "headline": "$77,856 for an international student",
     "items": [
@@ -10166,9 +10254,12 @@ window.UNIPATH.universities.push(
       }
     ],
     "totalText": "$77,856 including international health insurance",
-    "note": "Published on Rhodes’s page for international financial aid; the page does not print the academic year. Books, travel and personal costs are extra.",
+    "note": "The 2026–27 international charges include health insurance. Transportation, books, SEVIS fees, break housing and personal expenses are outside the charged amount.",
     "billedSubtotal": 77856,
-    "studentCategory": "International students"
+    "studentCategory": "International students",
+    "status": "previous-cycle",
+    "source": "https://www.rhodes.edu/admission-aid/international-student-admission/international-student-financial-aid",
+    "verified": "2026-11-16"
   },
   "scholarships": {
     "fullRide": {
@@ -10185,7 +10276,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": "Admission is need-aware and extremely competitive for international students seeking significant financial aid.",
       "howToApply": "Complete the Rhodes Non-US Citizen Financial Information Form in the applicant portal; the CSS Profile is not required.",
-      "note": "Rhodes states that it meets the demonstrated need of admitted international students on student visas, usually through merit scholarships, institutional aid and work study; merit scholarships go up to full tuition. Housing and meals are not named as covered by a single award."
+      "note": "Rhodes states that it meets the demonstrated need of admitted international students on student visas, usually through merit scholarships, institutional aid and work study; merit scholarships go up to full tuition. Housing and meals are not named as covered by a single award.",
+      "detailsSource": "https://www.rhodes.edu/admission-aid/international-student-admission/international-student-financial-aid",
+      "detailsVerified": "2026-11-16"
     },
     "merit": [
       {
@@ -10193,7 +10286,9 @@ window.UNIPATH.universities.push(
         "amount": "US$20,000 per year up to full tuition",
         "internationalEligible": true,
         "deadline": null,
-        "note": "International applicants are considered; named awards include the Cambridge ($45,000), Presidential ($40,000) and Founders ($38,000) scholarships."
+        "note": "International applicants are considered; named awards include the Cambridge ($45,000), Presidential ($40,000) and Founders ($38,000) scholarships.",
+        "source": "https://www.rhodes.edu/admission-aid/international-student-admission/international-student-financial-aid",
+        "verified": "2026-11-16"
       }
     ],
     "needBased": {
@@ -10204,7 +10299,7 @@ window.UNIPATH.universities.push(
         "Rhodes Non-US Citizen Financial Information Form"
       ],
       "deadlines": "With the application",
-      "note": "Rhodes does not require the CSS Profile from international students and offers no CSS fee waivers."
+      "note": "Rhodes meets calculated need for admitted students on student visas through awards, grants and student employment. Renewal requires satisfactory academic progress. Travel, books, SEVIS fees, break housing and personal expenses remain outside the aid calculation."
     }
   },
   "sources": [
@@ -10431,11 +10526,12 @@ window.UNIPATH.universities.push(
     "breakdown": {
       "tuition": 57500,
       "billed": 73990,
-      "includes": "tuition, housing, food and the student fee"
+      "includes": "tuition, housing, food and the student fee",
+      "budget": 79455
     },
     "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": "$73,990 cost of attendance",
+    "headline": "$73,990 billed; $79,455 estimated total in 2026–27",
     "items": [
       {
         "label": "Tuition",
@@ -10455,8 +10551,11 @@ window.UNIPATH.universities.push(
       }
     ],
     "totalText": "$73,990 for tuition, housing, food and the student fee",
-    "note": "Centre sets its cost as a comprehensive fee; books, travel and personal costs are extra.",
-    "billedSubtotal": 73990
+    "note": "Centre publishes $79,455 for international students in 2026–27. The $73,990 comprehensive fee is the billed portion. These historical figures are before aid.",
+    "billedSubtotal": 73990,
+    "status": "previous-cycle",
+    "source": "https://www.centre.edu/admission-aid/international-applicants/international-student-financial-aid",
+    "verified": "2026-11-16"
   },
   "scholarships": {
     "fullRide": {
@@ -10473,7 +10572,10 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": "Ten incoming students are chosen for each premier scholarship programme.",
       "howToApply": "Submit the separate Lincoln Scholars application along with the Common Application.",
-      "note": "The Lincoln Scholars Program covers full tuition, fees, room and board plus additional funds, and Centre names it as the only way to secure full funding as an international student. Centre does not offer full need-based funding."
+      "note": "The Lincoln Scholars Program covers full tuition, fees, room and board plus additional funds, and Centre names it as the only way to secure full funding as an international student. Centre does not offer full need-based funding.",
+      "renewalConditions": "Centre states that all merit, premier and special-interest scholarships renew annually.",
+      "detailsSource": "https://www.centre.edu/admission-aid/scholarships-fellowships/lincoln-scholars-program",
+      "detailsVerified": "2026-11-16"
     },
     "merit": [
       {
@@ -10481,14 +10583,18 @@ window.UNIPATH.universities.push(
         "amount": "Full tuition, fees, room and board, plus wraparound funds",
         "internationalEligible": true,
         "deadline": null,
-        "note": "Separate application required; the deadline was not confirmed during this check."
+        "note": "Separate application required; the deadline was not confirmed during this check.",
+        "source": "https://www.centre.edu/admission-aid/scholarships-fellowships/lincoln-scholars-program",
+        "verified": "2026-11-16"
       },
       {
         "name": "General merit scholarships",
         "amount": "$20,000–$45,000 per academic year",
         "internationalEligible": true,
         "deadline": null,
-        "note": "International applicants are considered automatically."
+        "note": "International applicants are considered automatically.",
+        "source": "https://www.centre.edu/admission-aid/international-applicants/international-student-financial-aid",
+        "verified": "2026-11-16"
       }
     ],
     "needBased": {
@@ -13160,12 +13266,13 @@ window.UNIPATH.universities.push(
   "costs": {
     "breakdown": {
       "tuition": 62070,
-      "billed": 77570,
-      "includes": "tuition, the activity and health fees, a standard double room and the standard meal plan"
+      "billed": 77970,
+      "includes": "tuition, the activity and health fees, a standard double room and the standard meal plan",
+      "budget": 82753
     },
-    "academicYear": null,
+    "academicYear": "2026–2027",
     "currency": "USD",
-    "headline": "$77,570 in tuition, fees, room and food",
+    "headline": "$77,970 billed; $82,753 estimated total in 2026–27",
     "items": [
       {
         "label": "Tuition",
@@ -13174,6 +13281,10 @@ window.UNIPATH.universities.push(
       {
         "label": "Student activity and program fee",
         "amount": 460
+      },
+      {
+        "label": "Orientation fee",
+        "amount": 400
       },
       {
         "label": "Health and wellness fee",
@@ -13188,9 +13299,12 @@ window.UNIPATH.universities.push(
         "amount": 5780
       }
     ],
-    "totalText": "$77,570 for tuition, fees, a standard double room and the standard meal plan",
-    "note": "The page read does not print the academic year. One-time fees, books and travel are extra.",
-    "billedSubtotal": 77570
+    "totalText": null,
+    "note": "The university dates this estimate to 2026–27. The total includes $2,833 for health insurance, which may be waived with comparable coverage.",
+    "billedSubtotal": 77970,
+    "status": "previous-cycle",
+    "source": "https://www.clarku.edu/undergraduate-admissions/cost-and-financial-aid/",
+    "verified": "2026-11-16"
   },
   "scholarships": {
     "fullRide": {
@@ -13207,7 +13321,10 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": "Awarded to 3–5 students a year; finalists are invited to interview.",
       "howToApply": "No separate application: all admitted students are considered on the strength of the admission application.",
-      "note": "Clark’s Presidential Scholarship covers tuition, room and board; recipients still pay about $12,000–$15,000 a year in other costs. For most international students Clark says aid may not cover everything — they typically pay around $40,000 a year — and admission is need-aware."
+      "note": "Clark’s Presidential Scholarship covers tuition, room and board; recipients still pay about $12,000–$15,000 a year in other costs. For most international students Clark says aid may not cover everything — they typically pay around $40,000 a year — and admission is need-aware.",
+      "renewalConditions": "Coverage is stated for four years. Detailed renewal conditions for Fall 2027 are not confirmed.",
+      "detailsSource": "https://www.clarku.edu/undergraduate-admissions/apply/international-students/",
+      "detailsVerified": "2026-11-16"
     },
     "merit": [
       {
@@ -13215,7 +13332,9 @@ window.UNIPATH.universities.push(
         "amount": "Tuition, room and board",
         "internationalEligible": true,
         "deadline": null,
-        "note": "Highly competitive; 3–5 students a year. Recipients are responsible for about $12,000–$15,000 a year in additional costs."
+        "note": "Highly competitive; 3–5 students a year. Recipients are responsible for about $12,000–$15,000 a year in additional costs.",
+        "source": "https://www.clarku.edu/undergraduate-admissions/apply/international-students/",
+        "verified": "2026-11-16"
       },
       {
         "name": "Merit scholarships",
@@ -18966,7 +19085,10 @@ window.UNIPATH.universities.push(
     ],
     "totalText": "$27,189 total estimated cost for three quarters",
     "note": "Fall, winter and spring quarters; summer costs extra. Rate of $284 per unit effective 1 July 2026. About $55 a quarter in small campus fees is not included.",
-    "studentCategory": "International (F-1) students"
+    "studentCategory": "International (F-1) students",
+    "status": "previous-cycle",
+    "source": "https://www.foothill.edu/international/resources/tuition-and-fees.html",
+    "verified": "2026-11-16"
   },
   "scholarships": {
     "fullRide": {
@@ -19305,7 +19427,10 @@ window.UNIPATH.universities.push(
     ],
     "totalText": "$27,189 total estimated cost",
     "note": "Three quarters — fall, winter and spring; rate effective 1 July 2026. The bank letter must show the full total even if you will live with relatives.",
-    "studentCategory": "International (F-1) students"
+    "studentCategory": "International (F-1) students",
+    "status": "previous-cycle",
+    "source": "https://www.deanza.edu/international/future-students/cost.html",
+    "verified": "2026-11-16"
   },
   "scholarships": {
     "fullRide": {
@@ -19322,7 +19447,10 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": "Scholarships for international students were not described on the De Anza pages read, so nothing is claimed."
+      "note": "De Anza directs international students to apply for certain scholarships after starting their first quarter. Aid before enrolment, award amounts and renewal have not been verified.",
+      "status": "not-published",
+      "detailsSource": "https://www.deanza.edu/international/future-students/faqs_applicants.html",
+      "detailsVerified": "2026-11-16"
     },
     "merit": [],
     "needBased": {
@@ -19624,7 +19752,10 @@ window.UNIPATH.universities.push(
     ],
     "totalText": "$34,000 estimated total expenses, fall 2026 to spring 2027",
     "note": "The total is SMC’s own rounded figure and the amount required on the bank statement. Students with free room and board near Santa Monica may deduct $13,869. Taking more than 12 units a semester costs more.",
-    "studentCategory": "International (F-1) students"
+    "studentCategory": "International (F-1) students",
+    "status": "previous-cycle",
+    "source": "https://www.smc.edu/admission-aid/apply/international-students/tuition-fees.php",
+    "verified": "2026-11-16"
   },
   "scholarships": {
     "fullRide": {
@@ -19646,10 +19777,15 @@ window.UNIPATH.universities.push(
     "merit": [
       {
         "name": "SMC Foundation scholarships",
-        "amount": "$250–$50,000 across all awards",
+        "amount": null,
         "internationalEligible": true,
         "deadline": null,
-        "note": "International students who meet the minimum qualifications may be considered for scholarships that do not require financial need; the application is for enrolled SMC students."
+        "note": "Eligible international students may apply for awards without a financial-need requirement. International advising lists 12 completed SMC units for F-1 students. Amounts and eligibility before enrolment are not confirmed.",
+        "firstYearEligible": null,
+        "basis": "merit",
+        "application": "Use the separate SMC Foundation scholarship application when eligible.",
+        "source": "https://www.smc.edu/admission-aid/financial-aid-scholarships/types-of-aid/scholarships/how-to-apply.php",
+        "verified": "2026-11-16"
       }
     ],
     "needBased": {
@@ -19894,21 +20030,25 @@ window.UNIPATH.universities.push(
     "internationalQualifications": null
   },
   "costs": {
-      "breakdown": {
-        "budget": 17500,
-        "includes": "tuition, living expenses and books, by the college’s own estimate"
-      },
-      "academicYear": "2026–2027",
-      "currency": "USD",
-      "headline": "$359.40 per credit hour · about $17,500 a year by Sinclair’s estimate",
-      items: [
-        {"label": "Tuition and fees per credit hour", "amount": 156.03, "group": "rate"},
-        {"label": "Out-of-state surcharge per credit hour", "amount": 203.37, "group": "rate"}
-      ],
-      "totalText": "About $17,500 for one year including tuition, living expenses and books",
-      "note": "Per-credit rate effective fall 2026 for out-of-state and international students; an $85 auxiliary services fee is charged each term. Sinclair’s $17,500 figure is its own estimate, while the bank document for the I-20 must show at least $20,000.",
-      "studentCategory": "International (F-1) students"
+    "breakdown": {
+      "includes": "Spring 2027 per-credit tuition and fees; no Fall 2027 total verified."
     },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "headline": "$374.40 per credit in Spring 2027",
+    "items": [
+      {
+        "label": "Spring 2027 tuition and fees per credit, out-of-state and international",
+        "amount": 374.4
+      }
+    ],
+    "totalText": null,
+    "note": "Sinclair requires bank evidence of at least $20,000 for the I-20. This is an immigration funding requirement. Fall 2027 tuition, housing, insurance and the full yearly budget have not been verified.",
+    "studentCategory": "International (F-1) students",
+    "status": "previous-cycle",
+    "source": "https://www.sinclair.edu/services/welcome/bursar/tuition-fee-schedule/",
+    "verified": "2026-11-16"
+  },
   "scholarships": {
     "fullRide": {
       "available": null,
@@ -19924,9 +20064,26 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": "Scholarships for international students were not described on the pages read, so nothing is claimed."
+      "note": "Sinclair offers limited tuition awards to qualifying international students. No funding covering housing and meals is stated.",
+      "status": "not-published",
+      "detailsSource": "https://www.sinclair.edu/services/enrollment/international-student-services/new-students/scholarship-opportunities/",
+      "detailsVerified": "2026-11-16"
     },
-    "merit": [],
+    "merit": [
+      {
+        "name": "New International Student Scholarship",
+        "amount": "$500 towards tuition for two semesters",
+        "eligibility": "New F-1 students who have not studied in the United States before",
+        "internationalEligible": true,
+        "firstYearEligible": true,
+        "basis": "merit",
+        "application": "Apply separately after admission.",
+        "renewable": true,
+        "note": "Maintain a GPA of at least 2.0 to continue receiving the award. Competition and housing costs are separate from the published tuition award.",
+        "source": "https://www.sinclair.edu/services/enrollment/international-student-services/new-students/scholarship-opportunities/",
+        "verified": "2026-11-16"
+      }
+    ],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,
@@ -19970,7 +20127,7 @@ window.UNIPATH.universities.push(
     "unconfirmed": [
       "Fall 2027 deadline",
       "application fee",
-      "scholarships for international students",
+      "Fall 2027 total cost",
       "housing options",
       "whether F-1 students can enter the bachelor’s programmes"
     ]
@@ -20251,7 +20408,10 @@ window.UNIPATH.universities.push(
     ],
     "totalText": "$23,475 total for the academic year (three terms)",
     "note": "Fall 2026 to summer 2027 estimate. Health insurance is $402 a term and there is a one-time $200 class fee for new students; Bachelor of Applied Science tuition is $7,545 a term.",
-    "studentCategory": "International (F-1) students"
+    "studentCategory": "International (F-1) students",
+    "status": "previous-cycle",
+    "source": "https://www.greenriver.edu/international/costs-payments.html",
+    "verified": "2026-11-16"
   },
   "scholarships": {
     "fullRide": {
@@ -20276,14 +20436,20 @@ window.UNIPATH.universities.push(
         "amount": "$200–$500",
         "internationalEligible": true,
         "deadline": "15 August (fall), 15 November (winter), 15 February (spring)",
-        "note": "Tuition waivers; application form and transcript copy required."
+        "note": "Tuition waivers; application form and transcript copy required.",
+        "firstYearEligible": true,
+        "basis": "merit",
+        "renewable": null,
+        "source": "https://www.greenriver.edu/international/scholarships.html",
+        "verified": "2026-11-16"
       },
       {
         "name": "International Student Ambassador work grant",
         "amount": "About $5,500 a year in earnings",
         "internationalEligible": true,
         "deadline": "10 April",
-        "note": "Four paid campus leadership positions for current students. These are wages for work, not guaranteed funding."
+        "note": "Four paid campus leadership positions for current students. These are wages for work, not guaranteed funding.",
+        "firstYearEligible": false
       }
     ],
     "needBased": {
