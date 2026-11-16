@@ -7277,9 +7277,19 @@ window.UNIPATH.universities.push(
         "appliesTo": "First-year applicants",
         "conditions": "The only application round; applications are reviewed in January. Due by 11:59 p.m. in the applicant’s time zone.",
         "status": "confirmed",
-        "source": "https://www.olin.edu/admission/apply/admission-process",
-        "verified": "2026-10-12",
-        "note": null
+        "source": "https://olin.edu/admission/apply/admission-process",
+        "verified": "2026-11-16",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://olin.edu/admission/apply/admission-process",
+          "verified": "2026-11-16",
+          "quote": "December 15, 2026 · 11:59 PM in the applicant’s local time zone",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "time": "23:59",
+        "timezone": "applicant’s local time"
       },
       {
         "name": "Applicants told whether they are candidates",
@@ -7488,9 +7498,13 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": true,
-        "note": "For a maximum of eight semesters of required full-time study.",
+        "note": "The published tuition scholarship is $10,000 per year for up to eight full-time semesters. Remaining tuition, fees, housing and food are separate.",
         "basis": "automatic",
-        "basisNote": "Every admitted student receives it; it is not a competition."
+        "basisNote": "Every admitted student receives it; it is not a competition.",
+        "internationalEligible": true,
+        "deadlineScope": "no-separate-application",
+        "source": "https://www.olin.edu/admission-financial-aid-afford/aid-scholarships",
+        "verified": "2026-11-16"
       }
     ],
     "needBased": {
@@ -27160,13 +27174,15 @@ window.UNIPATH.universities.push(
     "merit": [
       {
         "name": "Ursinus merit awards",
-        "amount": "At least $35,000 a year for admitted first-year students, as the scholarships page states",
+        "amount": "International applicants are eligible; the Fall 2027 award amount is unconfirmed",
         "eligibility": "All qualified, admitted international students",
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": null,
-        "note": "Eligibility for each specialty scholarship is set separately.",
-        "basis": "merit"
+        "note": "Ursinus confirms academic merit eligibility for qualified admitted international students. Verify specialty awards and amounts separately.",
+        "basis": "merit",
+        "source": "https://www.ursinus.edu/admission/applying/international-applicants/costs-and-scholarships/",
+        "verified": "2026-11-16"
       }
     ],
     "needBased": {
@@ -30098,17 +30114,37 @@ window.UNIPATH.universities.push(
       {
         "name": "Priority deadline",
         "kind": "priority",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2026-12-01",
-        "date": "1 December 2026",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "December 1 (annual priority)",
         "binding": false,
         "appliesTo": "International applicants",
         "conditions": "College decision day, with the deposit, is 1 May; financial documentation must be complete by 1 July to secure a visa.",
-        "status": "confirmed",
+        "status": "annual-rule",
         "source": "https://www.cornellcollege.edu/admissions/international-students/index.shtml",
-        "verified": "2026-10-12",
-        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-11-16",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.cornellcollege.edu/admissions/international-students/index.shtml",
+          "verified": "2026-11-16",
+          "quote": "December 1 - priority deadline"
+        }
+      },
+      {
+        "name": "Visa financial documentation",
+        "kind": "documents",
+        "date": "July 1 (annual rule)",
+        "status": "annual-rule",
+        "source": "https://www.cornellcollege.edu/admissions/international-students/index.shtml",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.cornellcollege.edu/admissions/international-students/index.shtml",
+          "verified": "2026-11-16",
+          "quote": "July 1 - financial documentation must be complete"
+        }
       }
     ],
     "applicationFee": {
@@ -32433,9 +32469,17 @@ window.UNIPATH.universities.push(
         "appliesTo": "First-year applicants",
         "conditions": "Not binding. Decisions by 31 January.",
         "status": "confirmed",
-        "source": "https://admissions.tc.umn.edu/apply/freshman-application-deadlines",
-        "verified": "2026-10-12",
-        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+        "source": "https://admissions.tc.umn.edu/hs-counselor-guidebook/how-apply",
+        "verified": "2026-11-16",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://admissions.tc.umn.edu/hs-counselor-guidebook/how-apply",
+          "verified": "2026-11-16",
+          "quote": "The fall 2027 application launched on August 1",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        }
       },
       {
         "name": "Early Action II",
@@ -32448,9 +32492,17 @@ window.UNIPATH.universities.push(
         "appliesTo": "First-year applicants",
         "conditions": "Not binding. Decisions by 28 February.",
         "status": "confirmed",
-        "source": "https://admissions.tc.umn.edu/apply/freshman-application-deadlines",
-        "verified": "2026-10-12",
-        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+        "source": "https://admissions.tc.umn.edu/hs-counselor-guidebook/how-apply",
+        "verified": "2026-11-16",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://admissions.tc.umn.edu/hs-counselor-guidebook/how-apply",
+          "verified": "2026-11-16",
+          "quote": "The fall 2027 application launched on August 1",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        }
       },
       {
         "name": "Regular deadline",
@@ -32463,9 +32515,17 @@ window.UNIPATH.universities.push(
         "appliesTo": "First-year applicants",
         "conditions": "Decisions by 31 March.",
         "status": "confirmed",
-        "source": "https://admissions.tc.umn.edu/apply/freshman-application-deadlines",
-        "verified": "2026-10-12",
-        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+        "source": "https://admissions.tc.umn.edu/hs-counselor-guidebook/how-apply",
+        "verified": "2026-11-16",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://admissions.tc.umn.edu/hs-counselor-guidebook/how-apply",
+          "verified": "2026-11-16",
+          "quote": "The fall 2027 application launched on August 1",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        }
       }
     ],
     "applicationFee": {
@@ -32512,23 +32572,25 @@ window.UNIPATH.universities.push(
       "note": "120 overall and 120 in writing, effective from the spring 2027 application period."
     },
     "waiver": null,
-    "note": "Also accepted: PTE Academic 59 (59 in writing) and Cambridge C1 Advanced 180 (180 in writing). Conditional admission is possible from TOEFL 3.5, IELTS 5.5, PTE 42, Cambridge 160 or Duolingo 95. Scores are not superscored.",
+    "note": "IELTS Academic minimum is 6.5 overall and 6.5 in writing. The AZ Hold table lists IELTS 6.0 and TOEFL 4.0; conditional admission is a separate route.",
     "detailsSource": "https://admissions.tc.umn.edu/admissions/international-admission/english-proficiency-information",
-    "detailsVerified": "2026-10-12"
+    "detailsVerified": "2026-11-16"
   },
   "academics": {
     "gpa": null,
     "sat": {
       "policy": "optional",
       "note": "The international freshman checklist marks ACT and SAT scores “Not Required”; applicants who have them may self-report.",
-      "source": "https://admissions.tc.umn.edu/apply/application-checklist/application-checklist-international-freshman",
-      "verified": "2026-10-12"
+      "source": "https://admissions.tc.umn.edu/admissions/international-admission/english-proficiency-information",
+      "verified": "2026-11-16",
+      "cycle": "Fall 2027"
     },
     "act": {
       "policy": "optional",
       "note": "The international freshman checklist marks ACT and SAT scores “Not Required”; applicants who have them may self-report.",
-      "source": "https://admissions.tc.umn.edu/apply/application-checklist/application-checklist-international-freshman",
-      "verified": "2026-10-12"
+      "source": "https://admissions.tc.umn.edu/admissions/international-admission/english-proficiency-information",
+      "verified": "2026-11-16",
+      "cycle": "Fall 2027"
     },
     "otherTests": null,
     "internationalQualifications": null
@@ -32598,7 +32660,11 @@ window.UNIPATH.universities.push(
         "application": "Automatic with the application for admission; no separate application",
         "renewable": true,
         "note": "Competitive and merit-based; for up to four years; a tuition waiver that cannot be used for other costs.",
-        "basis": "merit"
+        "basis": "merit",
+        "internationalEligible": true,
+        "deadlineScope": "no-separate-application",
+        "source": "https://admissions.tc.umn.edu/global-excellence-scholarships",
+        "verified": "2026-11-16"
       }
     ],
     "needBased": {
@@ -35900,11 +35966,32 @@ window.UNIPATH.universities.push(
     ]
   },
   "english": {
-    "ielts": null,
-    "toefl": null,
-    "duolingo": null,
-    "waiver": null,
-    "note": null
+    "ielts": {
+      "min": 6.5,
+      "recommended": null
+    },
+    "toefl": {
+      "min": 79,
+      "recommended": null,
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 79
+        },
+        {
+          "period": "post2026",
+          "min": 4
+        }
+      ]
+    },
+    "duolingo": {
+      "min": 115,
+      "recommended": null
+    },
+    "waiver": "Check the official qualifying-country list and school attendance exception.",
+    "note": "IELTS Academic 6.5 overall is the published minimum; no section minimum is stated.",
+    "detailsSource": "https://admissions.utexas.edu/info-for/international-students/",
+    "detailsVerified": "2026-11-16"
   },
   "academics": {
     "gpa": null,

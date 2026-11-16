@@ -748,10 +748,13 @@ group('Canada');
   var engBad = ['st-francis-xavier-university', 'university-of-lethbridge', 'thompson-rivers-university'].filter(function (id) {
     var u = U.uniById(id); return U.ieltsMin(u) !== 6.5 || !u.english.source || u.verification.unconfirmed.some(function (x) { return /English/.test(x); }); });
   ok(!feeBad.length && !engBad.length, 'gaps filled on 20 October 2026: application fees of nine universities and English minimums of StFX, Lethbridge and TRU, each with its page', feeBad.concat(engBad).join(', '));
-  var satNow = { 'university-of-british-columbia': 'conditional', 'university-of-manitoba': 'not-used', 'trent-university': 'accepted', 'queens-university': 'optional', 'university-of-victoria': 'optional', 'st-francis-xavier-university': 'optional' };
+  var satNow = { 'university-of-british-columbia': 'conditional', 'university-of-manitoba': 'not-used', 'trent-university': 'accepted', 'queens-university': 'optional', 'st-francis-xavier-university': 'optional' };
   var satBad = Object.keys(satNow).filter(function (id) { var s = U.uniById(id).academics.sat; return s.policy !== satNow[id] || s.verified !== '2026-10-20' || !/^https:/.test(s.source); });
   ok(!satBad.length && U.satNotRequired(U.uniById('university-of-manitoba')) && !U.satNotRequired(U.uniById('trent-university')),
     'SAT/ACT policies read on 20 October 2026 keep the university’s wording: UBC differs by campus, Manitoba does not use them, Trent recommends them (never treated as not required)', satBad.join(', '));
+  ok(['sat','act'].every(k => uv.academics[k].policy === 'conditional' &&
+    /U.S. high schools/.test(uv.academics[k].note)) && !U.satNotRequired(uv),
+    'Victoria: evidence for U.S. school graduates does not create a universal test-optional rule');
   var uzNow = ['universite-de-montreal', 'university-of-waterloo', 'university-of-calgary', 'universite-laval', 'trent-university', 'lakehead-university',
     'ontario-tech-university', 'university-of-victoria', 'laurentian-university', 'mount-royal-university', 'university-of-winnipeg'];
   var uzBad = uzNow.filter(function (id) { var u = U.uniById(id); return !/^Uzbekistan: /.test(u.academics.internationalQualifications || '') || u.verification.unconfirmed.indexOf('requirements for Uzbekistan') > -1; });
@@ -899,6 +902,41 @@ ok(['uc-berkeley', 'ucla', 'uc-san-diego'].every(id =>
     !d.time && !d.timezone && U.roundStatus(d) === 'confirmed' && d.cycleEvidence.entryYear === '2027')),
   'The selected UC dates use the official Fall 2027 calendar without an invented closing time');
 
+const earlham2027 = U.roundsOf(U.uniById('earlham-college'));
+ok(earlham2027.some(d => d.name === 'Early Action 2' && d.dateISO === '2026-12-01' && U.roundStatus(d) === 'confirmed') &&
+  !earlham2027.some(d => d.kind === 'EA' && d.dateISO === '2026-12-15'),
+  'Earlham 2027: the Early Action II notification date is never used as an application deadline');
+ok(U.roundsOf(U.uniById('arizona-state-university')).filter(d => d.dateISO === '2026-12-01').every(d => d.entryTerm === 'Spring'),
+  'Arizona State December deposit applies to spring intake, not fall');
+ok(['sophia-university','kyushu-university'].every((id,i) => {
+  const dates = U.roundsOf(U.uniById(id));
+  const specs = [['2026-12-04','2026-12-11','23:59'],['2026-12-11','2026-12-17','17:00']][i];
+  return specs.slice(0,2).every((date,index) => dates.some(d => d.dateISO === date &&
+    (d.kind === 'documents') === Boolean(index) && d.time === specs[2] &&
+    d.timezone === 'JST' && U.roundStatus(d) === 'confirmed'));
+}), 'Sophia and Kyushu show separate application and document deadlines in JST');
+ok(['arizona-state-university','case-western-reserve-university','kyushu-university','sewanee-university-of-the-south','ursinus-college','university-of-manitoba'].every(id => {
+  const u = U.uniById(id);
+  const result = M.evaluate(u, { ielts: null, sat: null, gpa: null, budget: 0, currency: U.costCurrency(u) });
+  return !U.costAfterAid(u) && !['core-covered','fits','fits-billed','fits-tuition','fits-no-extras'].includes(result.budget.status);
+}), 'New competitive, conditional or unconfirmed awards do not become a zero-budget match');
+
+const wave2DecisionDates = [
+  ['earlham-college', '2026-12-15', null],
+  ['sophia-university', '2027-02-05', '10:00'],
+  ['kyushu-university', '2027-03-23', '11:00']
+];
+ok(wave2DecisionDates.every(([id,date,time]) => U.roundsOf(U.uniById(id)).some(d =>
+  d.dateISO === date && d.kind === 'decision' && (d.time || null) === time &&
+  (!time || d.timezone === 'JST') && U.roundStatus(d) === 'confirmed' && !U.isApplicationDeadline(d))),
+  'Decision announcements stay separate from application deadlines in the profile and saved calendar');
+const camdenAwardReview = U.uniById('rutgers-university-camden');
+ok(camdenAwardReview.scholarships.merit.some(a => /conflict/i.test(a.name)) &&
+  [0,17000,21000].every(budget => {
+    const input = {budget, currency: 'USD', ielts: null, sat: null, gpa: null};
+    const withoutAid = {...camdenAwardReview, scholarships: {}};
+    return JSON.stringify(M.evaluate(camdenAwardReview,input).budget) === JSON.stringify(M.evaluate(withoutAid,input).budget);
+  }), 'Rutgers Camden disputed scholarship maxima do not feed the budget comparison');
 console.log('\n' + passed + ' passed, ' + failed + ' failed');
 
 /* Exit with a status only when run directly; tests/links.js loads this file for the data. */

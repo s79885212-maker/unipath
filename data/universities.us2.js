@@ -3317,9 +3317,11 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
+      {"name": "Drama — Acceptd supplement", "kind": "portfolio", "entryTerm": "Autumn", "entryYear": "2027", "dateISO": "2026-12-01", "date": "1 December 2026", "status": "confirmed", "source": "https://drama.cmu.edu/admission/undergraduate-admission/", "verified": "2026-11-16", "cycleEvidence": {"basis": "page-context", "source": "https://drama.cmu.edu/admission/undergraduate-admission/", "verified": "2026-11-16", "quote": "The Acceptd application opens September 1 and is due on December 1.", "entryTerm": "Autumn", "entryYear": "2027"}},
+      {"name": "Music — Acceptd supplement", "kind": "portfolio", "entryTerm": "Autumn", "entryYear": "2027", "dateISO": "2026-12-01", "date": "1 December 2026", "status": "confirmed", "source": "https://www.cmu.edu/cfa/music/apply/undergraduate_admission/", "verified": "2026-11-16", "cycleEvidence": {"basis": "page-context", "source": "https://www.cmu.edu/cfa/music/apply/undergraduate_admission/", "verified": "2026-11-16", "quote": "DECEMBER 1: CMU Common App and Acceptd applications close", "entryTerm": "Autumn", "entryYear": "2027"}},
       { name: 'Early Decision', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-02', date: '2 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; notification by 15 December and enrolment by 1 February. Not available for the School of Drama, BXA Design programmes or the School of Music.', status: 'confirmed', source: 'https://www.cmu.edu/admission/admission/application-plans-deadlines', verified: '2026-10-01', note: null },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'The main round for most applicants; notification no later than 1 April, enrolment by 1 May.', status: 'confirmed', source: 'https://www.cmu.edu/admission/admission/application-plans-deadlines', verified: '2026-10-01', note: null },
-      { name: 'Music and Drama applicants', kind: 'portfolio', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-12-01', date: '1 December 2026', binding: false, appliesTo: 'Applicants to Music and Drama programmes', conditions: 'Earlier deadline so auditions can be scheduled.', status: 'confirmed', source: 'https://www.cmu.edu/admission/admission/application-plans-deadlines', verified: '2026-10-01', note: null },
+      { name: 'Music and Drama applicants', kind: "admission", entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-12-01', date: '1 December 2026', binding: false, appliesTo: 'Applicants to Music and Drama programmes', conditions: "Music and Drama Regular Decision applications and supporting admission materials are due December 1.", status: 'confirmed', source: "https://coursecatalog.web.cmu.edu/aboutcmu/undergraduateadmission/", verified: "2026-11-16", note: null, cycleEvidence: {"basis": "page-context", "source": "https://coursecatalog.web.cmu.edu/aboutcmu/undergraduateadmission/", "verified": "2026-11-16", "quote": "first-year undergraduate student entering in fall 2027", "entryTerm": "Autumn", "entryYear": "2027"} },
     ],
     applicationFee: { amount: 75, currency: 'USD', waiverAvailableToInternational: null, waiver: null },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendation', 'English proficiency score for non-native speakers', 'Portfolio or audition for arts programmes'],
@@ -3949,11 +3951,14 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application', 'Coalition on Scoir'],
     deadlines: [
+      {"name": "Theater Scholarship — admission application prerequisite", "kind": "admission", "dateISO": "2027-01-15", "date": "15 January 2027", "entryTerm": "Autumn", "entryYear": "2027", "status": "confirmed", "source": "https://theater.case.edu/academic-programs/undergraduate-scholarships/", "verified": "2026-11-16", "cycleEvidence": {"basis": "page-context", "source": "https://theater.case.edu/academic-programs/undergraduate-scholarships/", "verified": "2026-11-16", "quote": "January 15, 2027: Deadline to submit your CWRU application", "entryTerm": "Autumn", "entryYear": "2027"}, "awardId": "case-theater-2027", "awardCategory": "merit"},
+      {"name": "Theater Scholarship — in-person audition or portfolio", "kind": "scholarship", "dateISO": "2027-02-20", "date": "20 February 2027", "entryTerm": "Autumn", "entryYear": "2027", "status": "confirmed", "source": "https://theater.case.edu/academic-programs/undergraduate-scholarships/", "verified": "2026-11-16", "cycleEvidence": {"basis": "page-context", "source": "https://theater.case.edu/academic-programs/undergraduate-scholarships/", "verified": "2026-11-16", "quote": "February 20, 2027: deadline for in-person auditions and portfolio submissions.", "entryTerm": "Autumn", "entryYear": "2027"}, "awardId": "case-theater-2027", "awardCategory": "merit"},
+      {"name": "Theater Scholarship — online Arts Supplement", "kind": "scholarship", "entryTerm": "Autumn", "entryYear": "2027", "dateISO": "2027-02-01", "date": "1 February 2027", "status": "confirmed", "source": "https://theater.case.edu/academic-programs/undergraduate-scholarships/", "verified": "2026-11-16", "cycleEvidence": {"basis": "page-context", "source": "https://theater.case.edu/academic-programs/undergraduate-scholarships/", "verified": "2026-11-16", "quote": "February 1, 2027: Deadline to submit CWRU Theater Scholarship application materials", "entryTerm": "Autumn", "entryYear": "2027"}, "conditions": "For the online route, submit the Arts Supplement. In-person auditions and portfolios have a separate deadline.", "awardId": "case-theater-2027", "awardCategory": "merit"},
       { name: 'Early Action', kind: 'EA', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: false, appliesTo: 'First-year applicants', conditions: 'Not binding. Financial aid documents by 15 November; notification 19 December; enrolment decision by 1 May.', status: 'confirmed', source: 'https://case.edu/admission/apply/dates-deadlines', verified: '2026-09-23', note: null },
       { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Financial aid documents by 15 November; notification 5 December; enrolment by 12 December.', status: 'confirmed', source: 'https://case.edu/admission/apply/dates-deadlines', verified: '2026-09-23', note: null },
       { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Financial aid documents by 22 January; notification 6 February; enrolment one week after admission.', status: 'confirmed', source: 'https://case.edu/admission/apply/dates-deadlines', verified: '2026-09-23', note: null },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Financial aid documents by 1 February; notification 20 March; enrolment by 1 May.', status: 'confirmed', source: 'https://case.edu/admission/apply/dates-deadlines', verified: '2026-09-23', note: null },
-      { name: 'Pre-Professional Scholars Program', kind: 'scholarship', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-12-01', date: '1 December 2026', binding: false, appliesTo: 'Applicants to the Pre-Professional Scholars Program', conditions: 'Separate programme deadline; notification 30 January.', status: 'confirmed', source: 'https://case.edu/admission/apply/dates-deadlines', verified: '2026-09-23', note: null },
+      { name: 'Pre-Professional Scholars Program', kind: "admission", entryTerm: null, entryYear: null, dateISO: null, date: "December 1 (first-year program application)", binding: false, appliesTo: 'Applicants to the Pre-Professional Scholars Program', conditions: "Conditional admission to medicine or dentistry. The published December 15 date is for financial aid documents, subject to applicant eligibility.", status: "annual-rule", source: "https://case.edu/admission/apply/deadlines-and-requirements", verified: "2026-11-16", note: null },
     ],
     applicationFee: { amount: 75, currency: 'USD', waiverAvailableToInternational: null, waiver: 'The Common Data Set says the fee can be waived for applicants with financial need; whether that covers international applicants was not checked.', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://case.edu/ir/sites/default/files/2026-02/CDS%202025-26%20Adjusted%20Final.pdf', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application or Coalition on Scoir', 'School transcript and reports, with English translations', 'Recommendations with English translations', 'English language exam score for non-native speakers', 'CSS Profile (code 1105) for aid applicants'],
@@ -4002,6 +4007,7 @@ window.UNIPATH.universities.push(
       note: 'CWRU says it offers a limited amount of need-based aid to international first-year applicants, and scholarships including full-tuition awards. A full-cost award for international students is not described on the pages consulted.'
     },
     merit: [
+      {"id": "case-theater-2027", "category": "merit", "basis": "talent", "entryTerm": "Autumn", "entryYear": "2027", "name": "CWRU Theater Scholarship", "internationalEligible": true, "amount": "Full tuition for four years; housing and meals excluded", "eligibility": "Prospective theater majors, including international applicants; competitive award", "application": "For the online route, submit the Arts Supplement. In-person auditions and portfolios have a separate deadline.", "source": "https://theater.case.edu/academic-programs/undergraduate-scholarships/", "verified": "2026-11-16"},
       {
         name: 'CWRU scholarship competitions',
         amount: 'Up to full tuition',
@@ -5489,11 +5495,13 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
+      {"name": "Conservatory — Regular Decision financial aid materials", "kind": "aid", "entryTerm": "Autumn", "entryYear": "2027", "dateISO": "2027-01-15", "date": "15 January 2027", "status": "confirmed", "source": "https://www.oberlin.edu/admissions-and-aid/conservatory/undergraduate-applicants", "verified": "2026-11-16", "cycleEvidence": {"basis": "page-context", "source": "https://www.oberlin.edu/admissions-and-aid/conservatory/undergraduate-applicants", "verified": "2026-11-16", "quote": "Financial Aid Materials · January 15", "entryTerm": "Autumn", "entryYear": "2027"}, "appliesTo": "Conservatory applicants requesting financial aid", "conditions": "International applicants complete portal forms and submit CSS Profile or ISAFA plus supporting financial documents."},
+      {"name": "Conservatory — final audition recordings", "kind": "portfolio", "entryTerm": "Autumn", "entryYear": "2027", "dateISO": "2027-02-01", "date": "1 February 2027", "status": "confirmed", "source": "https://www.oberlin.edu/admissions-and-aid/conservatory/undergraduate-applicants", "verified": "2026-11-16", "cycleEvidence": {"basis": "page-context", "source": "https://www.oberlin.edu/admissions-and-aid/conservatory/undergraduate-applicants", "verified": "2026-11-16", "quote": "Final Audition Recordings · February 1", "entryTerm": "Autumn", "entryYear": "2027"}, "appliesTo": "Conservatory applicants for whom the recording applies"},
       { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants to the College of Arts and Sciences', conditions: 'Binding. The financial aid deadline is the same day. Notification by mid-December; reply due 2 January.', status: 'confirmed', source: 'https://www.oberlin.edu/admissions-and-aid/arts-and-sciences/first-year-applicants', verified: '2026-09-30', note: "Oberlin's current first-year page (which already reports the Fall 2026 international admit rate) lists these dates without a year." },
       { name: 'Early Action', kind: 'EA', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: false, appliesTo: 'First-year applicants to the College of Arts and Sciences only', conditions: 'Not binding. The financial aid deadline is the same day. Notification by mid-January; reply due 1 May.', status: 'confirmed', source: 'https://www.oberlin.edu/admissions-and-aid/arts-and-sciences/first-year-applicants', verified: '2026-09-30', note: "Oberlin's current first-year page (which already reports the Fall 2026 international admit rate) lists these dates without a year." },
       { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: true, appliesTo: 'First-year applicants to the College of Arts and Sciences', conditions: 'Binding. The financial aid deadline is the same day. Notification by 1 February; reply due 15 February.', status: 'confirmed', source: 'https://www.oberlin.edu/admissions-and-aid/arts-and-sciences/first-year-applicants', verified: '2026-09-30', note: "Oberlin's current first-year page (which already reports the Fall 2026 international admit rate) lists these dates without a year." },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'First-year applicants to the College of Arts and Sciences', conditions: 'The financial aid deadline is the same day. Notification by 1 April; reply due 1 May.', status: 'confirmed', source: 'https://www.oberlin.edu/admissions-and-aid/arts-and-sciences/first-year-applicants', verified: '2026-09-30', note: "Oberlin's current first-year page (which already reports the Fall 2026 international admit rate) lists these dates without a year." },
-      { name: 'Conservatory of Music application', kind: 'portfolio', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-12-01', date: '1 December 2026', binding: false, appliesTo: 'Applicants to the Conservatory of Music', conditions: 'Separate, earlier deadline for Conservatory applicants because of auditions.', status: 'confirmed', source: 'https://www.oberlin.edu/admissions-and-aid/conservatory/undergraduate-applicants', verified: '2026-09-23', note: null }
+      { name: 'Conservatory of Music application', kind: "RD", entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-12-01', date: '1 December 2026', binding: false, appliesTo: "Conservatory Regular Decision applicants", conditions: 'Separate, earlier deadline for Conservatory applicants because of auditions.', status: 'confirmed', source: "https://www.oberlin.edu/admissions-and-aid/conservatory/undergraduate-applicants", verified: "2026-11-16", note: null, cycleEvidence: {"basis": "page-context", "source": "https://www.oberlin.edu/admissions-and-aid/conservatory/undergraduate-applicants", "verified": "2026-11-16", "quote": "fall 2027 · Common Application · December 1", "entryTerm": "Autumn", "entryYear": "2027"} }
     ],
     applicationFee: { amount: 0, currency: 'USD', waiverAvailableToInternational: null, waiver: null, note: 'The 2025–26 Common Data Set (section C13) says there is no application fee.', source: 'https://www.oberlin.edu/media/37695/download?inline', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile (code 1587) or ISAFA with parental income documents for aid applicants'],
@@ -8640,6 +8648,21 @@ window.UNIPATH.universities.push(
         "source": "https://new.sewanee.edu/admission-aid/application-process/application-options-deadlines/",
         "verified": "2026-10-01",
         "note": null
+      },
+      {
+        "name": "Early Action — international supporting documents",
+        "kind": "documents",
+        "date": "December 6 (published recurring date)",
+        "status": "annual-rule",
+        "source": "https://new.sewanee.edu/admission-aid/application-process/application-review/international-applicant/",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://new.sewanee.edu/admission-aid/application-process/application-review/international-applicant/",
+          "verified": "2026-11-16",
+          "quote": "Early Action · Supporting documents deadline · Dec. 6"
+        },
+        "conditions": "Includes the CSS Profile for need-based aid applicants. Confirm the date for your intake in the portal."
       }
     ],
     "applicationFee": {
@@ -8748,14 +8771,29 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": "Aid for international students was not confirmed on the pages read, so nothing is claimed."
     },
-    "merit": [],
+    "merit": [
+      {
+        "name": "Sewanee Global Scholarship",
+        "basis": "need-merit",
+        "internationalEligible": true,
+        "firstYearEligible": true,
+        "renewable": true,
+        "amount": "Tuition, housing, meals and fees for four years",
+        "application": "Apply for need-based financial aid using the CSS Profile with the international admission materials.",
+        "note": "Seven competitive awards for admitted international students; first-year applicants receive priority. Travel, insurance and other indirect expenses are separate.",
+        "source": "https://new.sewanee.edu/admission-aid/application-process/application-review/international-applicant/international-aid/",
+        "verified": "2026-11-16"
+      }
+    ],
     "needBased": {
-      "availableToInternational": null,
+      "availableToInternational": true,
       "meetsFullNeed": null,
       "needBlindInternational": null,
-      "forms": [],
+      "forms": [
+        "CSS Profile"
+      ],
       "deadlines": null,
-      "note": "Not confirmed for international students. The published need-based deadlines (CSS Profile and FAFSA) are 1 December, 1 January, 1 February and 1 March by round."
+      "note": "Request need-based aid at admission. International packages can include grants and student employment, and do not include loans."
     }
   },
   "sources": [
@@ -10921,60 +10959,152 @@ window.UNIPATH.universities.push(
         "kind": "ED",
         "entryTerm": "Autumn",
         "entryYear": "2027",
-        "dateISO": "2026-11-15",
-        "date": "15 November 2026",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
         "binding": true,
         "appliesTo": "International first-year applicants",
-        "conditions": "Binding. Early applicants can apply for additional scholarships and are invited to Scholarship Day.",
+        "conditions": "The 2027–28 calendar expressly includes international first-year applicants.",
         "status": "confirmed",
-        "source": "https://earlham.edu/admissions/how-to-apply/international-admissions/",
-        "verified": "2026-10-01",
-        "note": "Earlham’s international admissions page lists these dates without a year; its general page gives different dates (1 November, 1 December and 1 February) for other applicants."
+        "source": "https://earlham.edu/admissions/how-to-apply/",
+        "verified": "2026-11-16",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://earlham.edu/admissions/how-to-apply/",
+          "verified": "2026-11-16",
+          "quote": "Early Decision & Early Action I · November 1",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        }
       },
       {
         "name": "Early Action 1",
         "kind": "EA",
         "entryTerm": "Autumn",
         "entryYear": "2027",
-        "dateISO": "2026-11-15",
-        "date": "15 November 2026",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
         "binding": false,
         "appliesTo": "International first-year applicants",
-        "conditions": "Not binding.",
+        "conditions": "The 2027–28 calendar expressly includes international first-year applicants.",
         "status": "confirmed",
-        "source": "https://earlham.edu/admissions/how-to-apply/international-admissions/",
-        "verified": "2026-10-01",
-        "note": null
+        "source": "https://earlham.edu/admissions/how-to-apply/",
+        "verified": "2026-11-16",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://earlham.edu/admissions/how-to-apply/",
+          "verified": "2026-11-16",
+          "quote": "Early Decision & Early Action I · November 1",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        }
       },
       {
         "name": "Early Action 2",
         "kind": "EA",
         "entryTerm": "Autumn",
         "entryYear": "2027",
-        "dateISO": "2026-12-15",
-        "date": "15 December 2026",
+        "dateISO": "2026-12-01",
+        "date": "1 December 2026",
         "binding": false,
         "appliesTo": "International first-year applicants",
-        "conditions": "Not binding.",
+        "conditions": "The 2027–28 calendar expressly includes international first-year applicants.",
         "status": "confirmed",
-        "source": "https://earlham.edu/admissions/how-to-apply/international-admissions/",
-        "verified": "2026-10-01",
-        "note": null
+        "source": "https://earlham.edu/admissions/how-to-apply/",
+        "verified": "2026-11-16",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://earlham.edu/admissions/how-to-apply/",
+          "verified": "2026-11-16",
+          "quote": "Early Action II · December 1",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        }
       },
       {
         "name": "Regular Decision",
         "kind": "RD",
         "entryTerm": "Autumn",
         "entryYear": "2027",
-        "dateISO": "2027-01-15",
-        "date": "15 January 2027",
+        "dateISO": "2027-02-01",
+        "date": "1 February 2027",
         "binding": false,
         "appliesTo": "International first-year applicants",
-        "conditions": "The last round for international applicants.",
+        "conditions": "The 2027–28 calendar expressly includes international first-year applicants.",
         "status": "confirmed",
-        "source": "https://earlham.edu/admissions/how-to-apply/international-admissions/",
-        "verified": "2026-10-01",
-        "note": null
+        "source": "https://earlham.edu/admissions/how-to-apply/",
+        "verified": "2026-11-16",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://earlham.edu/admissions/how-to-apply/",
+          "verified": "2026-11-16",
+          "quote": "Regular Decision · February 1",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        }
+      },
+      {
+        "name": "Early Decision and Early Action I — decision notification",
+        "kind": "decision",
+        "dateISO": "2026-12-01",
+        "date": "1 December 2026",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
+        "source": "https://earlham.edu/admissions/how-to-apply/",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://earlham.edu/admissions/how-to-apply/",
+          "verified": "2026-11-16",
+          "quote": "Early Decision & Early Action I · Decision Notification · December 1",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "appliesTo": "International first-year applicants"
+      },
+      {
+        "name": "Early Action II — decision notification",
+        "kind": "decision",
+        "dateISO": "2026-12-15",
+        "date": "15 December 2026",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
+        "source": "https://earlham.edu/admissions/how-to-apply/",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://earlham.edu/admissions/how-to-apply/",
+          "verified": "2026-11-16",
+          "quote": "Early Action II · Decision Notification · December 15",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "appliesTo": "International first-year applicants"
+      },
+      {
+        "name": "Regular Decision — decision notification",
+        "kind": "decision",
+        "dateISO": "2027-03-01",
+        "date": "1 March 2027",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
+        "source": "https://earlham.edu/admissions/how-to-apply/",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://earlham.edu/admissions/how-to-apply/",
+          "verified": "2026-11-16",
+          "quote": "Regular Decision · Decision Notification · March 1",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "appliesTo": "International first-year applicants"
       }
     ],
     "applicationFee": {
@@ -11093,7 +11223,9 @@ window.UNIPATH.universities.push(
         "amount": null,
         "internationalEligible": true,
         "deadline": null,
-        "note": "The International Financial Aid Committee sets the level of merit scholarship and institutional aid."
+        "note": "For non-UWC international students, Earlham says scholarships and grants do not cover housing, food and other expenses. Families must be able to contribute at least $25,000 in the first year.",
+        "source": "https://earlham.edu/admissions/how-to-apply/international-admissions/",
+        "verified": "2026-11-16"
       },
       {
         "name": "Davis UWC Scholars Program",
