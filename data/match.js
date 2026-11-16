@@ -130,7 +130,7 @@ window.UNIPATH.match = {
     'university-of-minnesota-twin-cities': { currency: 'USD', basis: 'total', min: 67085, max: 67085 },
     'university-of-oregon': { currency: 'USD', basis: 'total', min: 71256, max: 71256 },
     'university-of-oklahoma': { currency: 'USD', basis: 'total', min: 56311, max: 56311 },
-    'west-virginia-university': {"currency": "USD", "basis": "tuition", "min": 33528, "max": 33528, "academicYear": "2027–2028", "period": "year", "calc": "two-semesters", "source": "https://wvutoday.wvu.edu/files/d/3cc20bd0-bf20-4031-9f21-5297c21fc0ff/public-agenda-book-bog-regular-meeting-november-13-2026.pdf", "verified": "2026-11-16"},
+    'west-virginia-university': {"currency": "USD", "basis": "tuition", "min": 33528, "max": 33528, "academicYear": "2027–2028", "period": "year", "calc": "two-semesters", "note": "Morgantown, 2027–28: base tuition and university fees. Programme charges and living expenses are separate.", "source": "https://wvutoday.wvu.edu/files/d/3cc20bd0-bf20-4031-9f21-5297c21fc0ff/public-agenda-book-bog-regular-meeting-november-13-2026.pdf", "verified": "2026-11-16"},
     'anderson-university-indiana': { currency: 'USD', basis: 'billed', min: 52620, max: 52620 },
 
     /* United States expansion, October 2026 */

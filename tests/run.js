@@ -989,6 +989,14 @@ const fall27WV = U.uniById('west-virginia-university');
 ok(U.costYear(fall27WV) === '2027–2028' && DB.match.annualCost[fall27WV.id].min === 33528 &&
   fundingBudget(fall27WV,35000) === 'fits-tuition' && fundingBudget(fall27WV,20000) === 'over',
   'WVU uses the approved base before scholarship and cannot confirm a complete budget');
+const fundingInput = {ielts:null,sat:null,gpa:null,budget:35000,currency:'USD'};
+const wvBudgetResult = M.evaluate(fall27WV, fundingInput);
+ok(wvBudgetResult.category === 'unknown' && /Morgantown, 2027–28: base tuition and university fees/.test(wvBudgetResult.budget.text),
+  'WVU tuition-only result carries the campus and fee scope without a full match');
+const evansvilleFundingControl = U.uniById('university-of-evansville');
+ok(U.costYear(evansvilleFundingControl) === '2027–2028' && fundingBudget(evansvilleFundingControl,70894) === 'fits' &&
+  fundingBudget(evansvilleFundingControl,70893) === 'over',
+  'Evansville full-year 2027–28 estimate still matches at its exact amount');
 const auditedAwardKinds = [['university-of-alabama','full-tuition'],['centre-college','full-ride'],
   ['tulane-university','full-ride'],['depauw-university','full-tuition']];
 ok(auditedAwardKinds.every(([id,kind]) => {
