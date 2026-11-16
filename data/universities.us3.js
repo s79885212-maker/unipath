@@ -20849,7 +20849,7 @@ window.UNIPATH.universities.push(
       "howToApply": null,
       "note": "International applicants are considered for merit scholarships. A full-cost award is unconfirmed."
     },
-    "merit": [{"name": "Muhlenberg merit scholarships", "basis": "merit", "deadlineScope": "no-separate-application", "amount": "$38,000–$50,000 published range; individual offers vary", "internationalEligible": true, "application": "Automatic consideration with a complete admission application.", "renewable": true, "note": "Competitive aid applied to billed charges. Any remaining tuition, fees, housing, meals and personal expenses must be covered separately.", "source": "https://www.muhlenberg.edu/admissions-aid/scholarships-and-financial-aid/scholarships-and-grants/merit-scholarship/", "verified": "2026-11-16"}],
+    "merit": [{"name": "Muhlenberg merit scholarships", "basis": "merit", "deadlineScope": "no-separate-application", "amount": "$38,000–$50,000 published range; Fall 2027 amount unconfirmed", "internationalEligible": true, "application": "Automatic consideration with a complete admission application.", "renewable": true, "note": "Competitive aid applied to billed charges. Any remaining tuition, fees, housing, meals and personal expenses must be covered separately.", "source": "https://www.muhlenberg.edu/admissions-aid/scholarships-and-financial-aid/scholarships-and-grants/merit-scholarship/", "verified": "2026-11-16"}],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,

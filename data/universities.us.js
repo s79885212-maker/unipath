@@ -2092,7 +2092,7 @@ window.UNIPATH.universities.push(
         competitiveness:
           "Extremely narrow. The only Berkeley award that reaches the full cost of attendance for international students is the Swaniker Scholars Program, which requires nomination by ALX or African Leadership Academy.",
         howToApply:
-          "You cannot apply directly — candidates must be nominated by ALX or ALA. All other admitted international students are automatically considered for the scholarships they are eligible for.",
+          "Swaniker candidates must be nominated by ALX or ALA.",
         note: "The Swaniker Scholars Program covers \"up to the full cost of attendance for four years\" for talented students from across the African continent. Berkeley also lists institutional awards for international students; federal and state aid are generally unavailable.",
       },
       merit: [
@@ -2104,7 +2104,7 @@ window.UNIPATH.universities.push(
             "Exceptional admitted students showing creativity, leadership, service and strong convictions",
           deadline: null,
           application:
-            "All admitted international students are automatically considered",
+            "The UC Berkeley admission application is used to consider first-year international applicants for Regents’ & Chancellor’s.",
           renewable: true,
           internationalEligible: true,
           deadlineScope: "no-separate-application",
@@ -2146,12 +2146,12 @@ window.UNIPATH.universities.push(
         },
       ],
       needBased: {
-        availableToInternational: false,
+        availableToInternational: true,
         meetsFullNeed: false,
         needBlindInternational: false,
         forms: [],
         deadlines: null,
-        note: 'Berkeley states: "International students are ineligible for federal, state, and need-based university financial aid." Only US citizens, eligible non-citizens and AB 540 students can receive it. Plan on paying the full nonresident cost unless you win one of the named scholarships above.',
+        note: "Berkeley lists two competitive need-based awards for eligible international students: Robinson International Scholars and International Leaders Scholarship. General federal and state aid is usually unavailable to international students.",
       },
     },
     photos: { main: null, gallery: [], city: null },

@@ -15625,7 +15625,7 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": "International students are not eligible for federal or state financial aid; institutional funding for them was not found, so nothing is claimed."
+      "note": "Triton Scholars is listed for incoming first-year nonresidents. Eligibility for F-1 first-year students is unconfirmed."
     },
     "merit": [],
     "needBased": {
@@ -15649,6 +15649,11 @@ window.UNIPATH.universities.push(
     {
       "label": "First-year application timeline",
       "url": "https://admissions.ucsd.edu/first-year/application-timeline.html"
+    },
+    {
+      "label": "Triton Scholars eligibility",
+      "url": "https://fas.ucsd.edu/types/scholarships/entering-freshmen.html",
+      "verified": "2026-11-16"
     },
     {
       "label": "Cost and aid",
@@ -15678,7 +15683,7 @@ window.UNIPATH.universities.push(
       "application fee"
     ],
     "unconfirmed": [
-      "institutional aid for international students",
+      "Triton Scholars eligibility for F-1 first-year students",
       "decision dates"
     ]
   },

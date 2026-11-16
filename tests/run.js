@@ -878,6 +878,18 @@ ok(['2026-11-19', '2027-01-21'].every(date =>
   U.roundsOf(nagoyaAudit).some(d => d.dateISO === date && d.time === '12:00' && d.timezone === 'JST' && U.roundStatus(d) === 'confirmed')) &&
   U.meritList(nagoyaAudit).some(a => a.basis === 'need-merit' && a.internationalEligible) && !U.awardKind(nagoyaAudit),
   'Nagoya noon closures and competitive scholarship do not imply a full ride');
+const g30Award = U.meritList(nagoyaAudit).find(a => a.id === 'nagoya-g30-undergraduate-scholarship');
+ok(g30Award && ['2026-11-19', '2027-01-21'].every(date =>
+  U.awardDates(nagoyaAudit, g30Award).some(d => d.kind === 'scholarship' && d.dateISO === date &&
+    d.time === '12:00' && d.timezone === 'JST' && U.roundStatus(d) === 'confirmed')) &&
+  ['2027-03-08', '2027-04-16'].every(date => U.roundsOf(nagoyaAudit).some(d => d.kind === 'documents' &&
+    d.dateISO === date && d.time === '16:00' && d.timezone === 'JST' && U.roundStatus(d) === 'confirmed')),
+  'Nagoya links both scholarship rounds and records the separate official-document deadlines');
+ok(['nagoya-university', 'university-of-tsukuba', 'hokkaido-university', 'uc-berkeley', 'uc-san-diego', 'muhlenberg-college'].every(id => {
+  const u = U.uniById(id);
+  const result = M.evaluate(u, { ielts: null, sat: null, gpa: null, budget: 0, currency: U.costCurrency(u) });
+  return !U.costAfterAid(u) && !['core-covered', 'fits', 'fits-billed', 'fits-tuition', 'fits-no-extras'].includes(result.budget.status);
+}), 'Competitive, unconfirmed and first-semester awards do not create guaranteed aid or a zero-budget match');
 const hokkaidoAudit = U.uniById('hokkaido-university');
 ok(U.awardsAll(hokkaidoAudit).some(a => a.entryYear === '2027' && a.basis === 'automatic' &&
   a.deadlineScope === 'no-separate-application' && /first-semester/.test(a.amount)) && !U.awardKind(hokkaidoAudit),
