@@ -945,15 +945,22 @@ ok(cornellJanuary.some(d => d.kind === 'RD' && d.dateISO === '2027-01-02' && U.r
   cornellJanuary.some(d => d.kind === 'documents' && d.dateISO === '2027-01-19' && !U.isApplicationDeadline(d)),
   'Cornell: RD, international priority CSS and later admission documents are distinct');
 const lehighJanuary = januaryRounds('lehigh-university');
-ok(lehighJanuary.some(d => d.kind === 'aid' && /Early Decision II/.test(d.name) && d.dateISO === '2027-01-15' && /January 1 for ED II/.test(d.conditions) && U.roundStatus(d) === 'confirmed') &&
+ok(lehighJanuary.some(d => d.kind === 'aid' && /Early Decision II/.test(d.name) && !d.dateISO &&
+    /January 1/.test(d.conditions) && /January 15/.test(d.conditions) &&
+    /international-students$/.test(d.source) && /how-apply-financial-aid$/.test(d.relatedSource) &&
+    U.roundStatus(d) === 'not-confirmed' && !U.isApplicationDeadline(d)) &&
   lehighJanuary.some(d => d.kind === 'aid' && /Regular Decision/.test(d.name) && d.dateISO === '2027-01-15'),
-  'Lehigh: international CSS keeps the scoped January 15 date and discloses the general ED II conflict');
+  'Lehigh: international CSS leaves the ED II conflict unconfirmed and links both official instructions');
 const tuftsJanuary = januaryRounds('tufts-university');
 ok([['ED2','2027-01-04'],['RD','2027-01-04'],['documents','2027-01-11'],['documents','2027-01-17'],
     ['aid','2027-01-15'],['aid','2027-02-01'],['documents','2027-02-01'],['documents','2027-02-15']].every(([kind, iso]) =>
     tuftsJanuary.some(d => d.kind === kind && d.dateISO === iso && U.roundStatus(d) === 'confirmed' &&
       U.isApplicationDeadline(d) === (kind === 'ED2' || kind === 'RD'))),
   'Tufts: round-specific school reports, international CSS and tax files never replace application dates');
+ok(tuftsJanuary.filter(d => ['ED2', 'RD'].includes(d.kind)).every(d =>
+  /must indicate it on the admission application/.test(d.conditions) &&
+  /prospective-undergraduate-students$/.test(d.relatedSource)),
+  'Tufts: both application rows immediately show the international financial aid disclosure requirement');
 ok(januaryRounds('dartmouth-college').some(d => d.kind === 'RD' && !d.dateISO && !d.time && U.roundStatus(d) === 'not-confirmed' &&
   U.roundInIntake(d, U.uniById('dartmouth-college'), 'fall-2027')) &&
   januaryRounds('bowdoin-college').filter(d => ['ED2','RD'].includes(d.kind)).every(d => !d.dateISO && U.roundStatus(d) === 'annual-rule'),

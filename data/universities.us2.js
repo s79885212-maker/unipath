@@ -2480,7 +2480,9 @@ window.UNIPATH.universities.push(
         },
         "dateISO": "2027-01-04",
         "entryYear": "2027",
-        "entryTerm": "Autumn"
+        "entryTerm": "Autumn",
+        "conditions": "International applicants seeking financial aid must indicate it on the admission application.",
+        "relatedSource": "https://students.tufts.edu/financial-services/undergrad-aid/prospectiveadmitted-students/apply-aid-prospective-undergraduate-students"
       },
       {
         "name": "Regular Decision",
@@ -2501,7 +2503,9 @@ window.UNIPATH.universities.push(
         },
         "dateISO": "2027-01-04",
         "entryYear": "2027",
-        "entryTerm": "Autumn"
+        "entryTerm": "Autumn",
+        "conditions": "International applicants seeking financial aid must indicate it on the admission application.",
+        "relatedSource": "https://students.tufts.edu/financial-services/undergrad-aid/prospectiveadmitted-students/apply-aid-prospective-undergraduate-students"
       },
       {
         "name": "Early Decision II — admission documents",
@@ -7095,21 +7099,15 @@ window.UNIPATH.universities.push(
         "name": "Early Decision II — CSS Profile",
         "kind": "aid",
         "source": "https://www2.lehigh.edu/admissions/international-students",
+        "sourceLabel": "International aid instructions ↗",
+        "relatedSource": "https://www2.lehigh.edu/admissions/tuition-affording-college/how-apply-financial-aid",
+        "relatedSourceLabel": "General financial aid schedule ↗",
         "verified": "2026-11-16",
-        "status": "confirmed",
-        "cycleEvidence": {
-          "basis": "page-context",
-          "source": "https://www2.lehigh.edu/admissions/international-students",
-          "verified": "2026-11-16",
-          "quote": "INTLwaiver2027 · Early Decision II or Regular Decision: January 15",
-          "entryTerm": "Autumn",
-          "entryYear": "2027"
-        },
-        "date": "15 January 2027",
-        "dateISO": "2027-01-15",
+        "status": "not-confirmed",
+        "date": "January 1 or January 15 — conflicting official sources",
         "entryYear": "2027",
         "entryTerm": "Autumn",
-        "conditions": "The international checklist lists January 15 for CSS Profile. The general 2027–28 financial aid calendar lists January 1 for ED II; ask Lehigh to confirm which cutoff applies to your file.",
+        "conditions": "The international instructions specify January 15 for the CSS Profile. The general aid table lists January 1 for ED II, while the CSS Profile instructions on that same page say January 15. The applicable Fall 2027 cutoff has not been resolved.",
         "appliesTo": "International first-year applicants requesting aid"
       },
       {
