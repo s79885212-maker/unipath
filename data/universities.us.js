@@ -1179,37 +1179,9 @@ window.UNIPATH.universities.push(
     admissions: {
       platforms: ["ASU application", "Common Application"],
       deadlines: [
-        {
-          name: "Priority application deadline",
-          kind: "priority",
-          entryTerm: "Autumn",
-          entryYear: "2027",
-          dateISO: "2026-11-01",
-          date: "1 November 2026",
-          binding: false,
-          appliesTo: "International first-year applicants",
-          conditions:
-            "ASU publishes this as the priority date for the following intake; the enrolment deposit follows on 1 December.",
-          status: "confirmed",
-          source: "https://admission.asu.edu/apply/international/first-year",
-          verified: "2026-09-23",
-          note: null,
-        },
-        {
-          name: "Enrolment deposit",
-          kind: "reply",
-          entryTerm: "Autumn",
-          entryYear: "2027",
-          dateISO: "2026-12-01",
-          date: "1 December 2026",
-          binding: false,
-          appliesTo: "Admitted students",
-          conditions: "Deposit date tied to the priority round.",
-          status: "confirmed",
-          source: "https://admission.asu.edu/apply/international/first-year",
-          verified: "2026-09-23",
-          note: null,
-        },
+        {"name": "Fall 2027 priority application", "kind": "priority", "entryTerm": "Autumn", "entryYear": "2027", "dateISO": "2026-11-01", "date": "1 November 2026", "status": "confirmed", "source": "https://yourfuture.asu.edu/importantdeadlines", "verified": "2026-11-16", "cycleEvidence": {"basis": "page-context", "source": "https://yourfuture.asu.edu/importantdeadlines", "verified": "2026-11-16", "quote": "fall 2027 admission by the Nov. 1 priority admission date", "entryTerm": "Autumn", "entryYear": "2027"}, "appliesTo": "General first-year admissions calendar"},
+        {"name": "Spring 2027 priority application", "kind": "priority", "entryTerm": "Spring", "entryYear": "2027", "dateISO": "2026-11-01", "date": "1 November 2026", "status": "confirmed", "source": "https://admission.asu.edu/apply/international/first-year", "verified": "2026-11-16", "cycleEvidence": {"basis": "page-context", "source": "https://admission.asu.edu/apply/international/first-year", "verified": "2026-11-16", "quote": "Spring 2027 · Nov. 1, 2026", "entryTerm": "Spring", "entryYear": "2027"}},
+        {"name": "Spring 2027 enrolment deposit", "kind": "reply", "entryTerm": "Spring", "entryYear": "2027", "dateISO": "2026-12-01", "date": "1 December 2026", "status": "confirmed", "source": "https://admission.asu.edu/apply/international/first-year", "verified": "2026-11-16", "cycleEvidence": {"basis": "page-context", "source": "https://admission.asu.edu/apply/international/first-year", "verified": "2026-11-16", "quote": "Spring 2027 · Dec. 1, 2026", "entryTerm": "Spring", "entryYear": "2027"}, "appliesTo": "Admitted international first-year students"}
       ],
       applicationFee: {
         amount: 90,
@@ -1314,14 +1286,15 @@ window.UNIPATH.universities.push(
       merit: [
         {
           name: "New American University (NAMU) Scholarship",
-          amount: null,
+          amount: "$10,000–$17,500 in the published planning table; Fall 2027 awards may vary",
           eligibility:
             "International first-year and transfer F-1 students who demonstrate high academic achievement",
           deadline: null,
           application:
             "Automatic — you are considered when you apply for admission, with no separate application",
           renewable: null,
-          note: 'ASU describes this as a merit-based scholarship that "helps with college expenses" but does not publish the dollar amounts on the international cost and aid page.',
+          note: 'International first-year awards vary by GPA, English proficiency and campus. They are not guaranteed; renewal is conditional for up to eight semesters. Remaining costs are separate.',
+          source: "https://tuition.asu.edu/new-american-university/international", verified: "2026-11-16", internationalEligible: true, deadlineScope: "no-separate-application"
         },
         {
           name: "College and departmental scholarships",

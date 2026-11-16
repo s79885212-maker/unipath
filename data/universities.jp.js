@@ -478,10 +478,12 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Sophia online application'],
     deadlines: [
+      {"name": "FLA / SPSF — supporting documents, round 1", "kind": "documents", "entryTerm": "September", "entryYear": "2027", "dateISO": "2026-12-11", "date": "11 December 2026", "status": "confirmed", "source": "https://adm.sophia.ac.jp/eng/admissions/ug_p/en_ug/fla/w_h/", "verified": "2026-11-16", "cycleEvidence": {"basis": "page-context", "source": "https://adm.sophia.ac.jp/eng/admissions/ug_p/en_ug/fla/w_h/", "verified": "2026-11-16", "quote": "December 11, 2026, 11:59 p.m. (JST)", "entryTerm": "September", "entryYear": "2027"}, "appliesTo": "Faculty of Liberal Arts and Sophia Program for Sustainable Futures applicants", "time": "23:59", "timezone": "JST"},
+      {"name": "FLA / SPSF — supporting documents, round 2", "kind": "documents", "entryTerm": "September", "entryYear": "2027", "dateISO": "2027-04-07", "date": "7 April 2027", "status": "confirmed", "source": "https://adm.sophia.ac.jp/eng/admissions/ug_p/en_ug/fla/w_h/", "verified": "2026-11-16", "cycleEvidence": {"basis": "page-context", "source": "https://adm.sophia.ac.jp/eng/admissions/ug_p/en_ug/fla/w_h/", "verified": "2026-11-16", "quote": "April 7, 2027, 11:59 p.m. (JST)", "entryTerm": "September", "entryYear": "2027"}, "appliesTo": "Faculty of Liberal Arts and Sophia Program for Sustainable Futures applicants", "time": "23:59", "timezone": "JST"},
       { name: 'Spring (April) 2027 — first period', kind: 'round-1', entryTerm: 'April', entryYear: '2027', dateISO: '2026-09-09', date: '1–9 September 2026', binding: false, appliesTo: 'Applicants to the English-taught programmes (FLA, SPSF, FST)', conditions: 'Documents due by 16 September 2026. Sophia publishes the full 2027-intake procedure booklets on the programme pages.', status: 'confirmed', source: 'https://adm.sophia.ac.jp/eng/admissions/ug_p/en_ug/', verified: '2026-09-24', note: null },
       { name: 'Spring (April) 2027 — second period', kind: 'round-2', entryTerm: 'April', entryYear: '2027', dateISO: '2026-12-04', date: '11 November – 4 December 2026', binding: false, appliesTo: 'English-taught programme applicants', conditions: 'Documents due by 11 December 2026.', status: 'confirmed', source: 'https://adm.sophia.ac.jp/eng/admissions/ug_p/en_ug/', verified: '2026-09-24', note: null },
-      { name: 'Autumn (September) 2027 — first period', kind: 'round-1', entryTerm: 'September', entryYear: '2027', dateISO: '2026-12-04', date: '11 November – 4 December 2026', binding: false, appliesTo: 'English-taught programme applicants', conditions: 'Documents due by 11 December 2026.', status: 'confirmed', source: 'https://adm.sophia.ac.jp/eng/admissions/ug_p/en_ug/', verified: '2026-09-24', note: null },
-      { name: 'Autumn (September) 2027 — second period', kind: 'round-2', entryTerm: 'September', entryYear: '2027', dateISO: '2027-03-31', date: '10–31 March 2027', binding: false, appliesTo: 'English-taught programme applicants', conditions: 'Documents due by 7 April 2027.', status: 'confirmed', source: 'https://adm.sophia.ac.jp/eng/admissions/ug_p/en_ug/', verified: '2026-09-24', note: null },
+      { name: 'Autumn (September) 2027 — first period', kind: 'round-1', entryTerm: 'September', entryYear: '2027', dateISO: '2026-12-04', date: '11 November – 4 December 2026', binding: false, appliesTo: "Faculty of Liberal Arts and Sophia Program for Sustainable Futures applicants", conditions: 'Documents due by 11 December 2026.', status: 'confirmed', source: "https://adm.sophia.ac.jp/eng/admissions/ug_p/en_ug/fla/w_h/", verified: "2026-11-16", note: null, time: "23:59", timezone: "JST", cycleEvidence: {"basis": "page-context", "source": "https://adm.sophia.ac.jp/eng/admissions/ug_p/en_ug/fla/w_h/", "verified": "2026-11-16", "quote": "For Autumn (September) 2027 Intake", "entryTerm": "September", "entryYear": "2027"} },
+      { name: 'Autumn (September) 2027 — second period', kind: 'round-2', entryTerm: 'September', entryYear: '2027', dateISO: '2027-03-31', date: '10–31 March 2027', binding: false, appliesTo: "Faculty of Liberal Arts and Sophia Program for Sustainable Futures applicants", conditions: 'Documents due by 7 April 2027.', status: 'confirmed', source: "https://adm.sophia.ac.jp/eng/admissions/ug_p/en_ug/fla/w_h/", verified: "2026-11-16", note: null, time: "23:59", timezone: "JST", cycleEvidence: {"basis": "page-context", "source": "https://adm.sophia.ac.jp/eng/admissions/ug_p/en_ug/fla/w_h/", "verified": "2026-11-16", "quote": "For Autumn (September) 2027 Intake", "entryTerm": "September", "entryYear": "2027"} },
     ],
     applicationFee: { amount: null, currency: 'JPY', waiverAvailableToInternational: null, waiver: null },
     documents: ['Evidence of 12 or more years of formal education, or an International Baccalaureate Diploma, A-Levels or equivalent'],
@@ -525,8 +527,8 @@ window.UNIPATH.universities.push(
       note: 'Sophia\'s Benefactors\' (Adachi) Scholarship covers full tuition and the education enhancement fee for the FIRST YEAR of study only. That is a full-tuition award for one year, not a four-year full ride — do not budget as if it were.'
     },
     merit: [
-      { name: 'Sophia University New Student Scholarship', amount: 'One-third, one-half, or full tuition for the first year of study', eligibility: 'New students', deadline: null, application: 'Apply before enrolment', renewable: null, note: 'Covers the first year of study.' },
-      { name: 'Sophia University Benefactors\' (Adachi) Scholarship', amount: 'Full tuition and the education enhancement fee for the first year of study', eligibility: 'Students whose first-choice university is Sophia, with excellent grades and financial hardship', deadline: null, application: 'Apply before enrolment', renewable: null, note: 'Covers the first year of study.' },
+      { name: 'Sophia University New Student Scholarship', amount: 'One-third, one-half, or full tuition for the first year of study', eligibility: 'New students', deadline: null, application: "Apply for the scholarship when applying for admission.", renewable: null, note: "Competitive tuition support for the first year. Housing, meals and other costs are separate.", source: "https://adm.sophia.ac.jp/eng/admissions/ug_p/en_ug/fla/pay_aid/", verified: "2026-11-16", internationalEligible: true },
+      { name: 'Sophia University Benefactors\' (Adachi) Scholarship', amount: 'Full tuition and the education enhancement fee for the first year of study', eligibility: "Applicants from Southeast Asia or Africa whose first-choice university is Sophia; academic merit and financial hardship are considered.", source: "https://adm.sophia.ac.jp/eng/admissions/ug_p/en_ug/fla/pay_aid/", verified: "2026-11-16", deadline: null, application: 'Apply before enrolment', renewable: null, note: 'Covers the first year of study.' },
       { name: 'Scholarships for privately financed international students', amount: 'Varies', eligibility: 'Privately financed international students with excellent grades and character who need financial assistance to continue their studies', deadline: null, application: null, renewable: null, note: null }
     ],
     needBased: {
@@ -1051,7 +1053,8 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Kyushu University international undergraduate application'],
     deadlines: [
-      { name: 'International Undergraduate Programs — online application (October 2027 enrolment)', kind: 'application-window', entryTerm: 'October', entryYear: '2027', dateISO: '2026-12-11', date: '7–11 December 2026', binding: false, appliesTo: 'International undergraduate applicants (School of Interdisciplinary Science and Innovation, Engineering, and Bioresource and Bioenvironment programmes)', conditions: 'The online system is open only during this period; all required documents must also be sent by post. Minimum standardized test scores are set in each programme’s application instructions.', status: 'confirmed', source: 'https://www.kyushu-u.ac.jp/en/admission/faculty/foreign/foreign10/', verified: '2026-09-30', note: 'The closing time is given in the application instructions PDF, which was not read during this check.' }
+      {"name": "October 2027 — receipt of postal documents", "kind": "documents", "entryTerm": "October", "entryYear": "2027", "dateISO": "2026-12-17", "date": "17 December 2026", "status": "confirmed", "source": "https://www.kyushu-u.ac.jp/f/66827/ENG_2027_Application%20Instruction.pdf", "verified": "2026-11-16", "cycleEvidence": {"basis": "page-context", "source": "https://www.kyushu-u.ac.jp/f/66827/ENG_2027_Application%20Instruction.pdf", "verified": "2026-11-16", "quote": "Required documents must be received by December 17, 2026.", "entryTerm": "October", "entryYear": "2027"}, "appliesTo": "Engineering, Interdisciplinary Science and Innovation, or Bioresource and Bioenvironment Type B", "conditions": "The university must receive the required documents by the deadline.", "time": "17:00", "timezone": "JST"},
+      { name: 'International Undergraduate Programs — online application (October 2027 enrolment)', kind: 'application-window', entryTerm: 'October', entryYear: '2027', dateISO: '2026-12-11', date: '7–11 December 2026', binding: false, appliesTo: "Engineering, Interdisciplinary Science and Innovation, or Bioresource and Bioenvironment Type B", conditions: 'The online system is open only during this period; all required documents must also be sent by post. Minimum standardized test scores are set in each programme’s application instructions.', status: 'confirmed', source: "https://www.kyushu-u.ac.jp/f/66827/ENG_2027_Application%20Instruction.pdf", verified: "2026-11-16", note: 'The closing time is given in the application instructions PDF, which was not read during this check.', time: "17:00", timezone: "JST", cycleEvidence: {"basis": "page-context", "source": "https://www.kyushu-u.ac.jp/f/66827/ENG_2027_Application%20Instruction.pdf", "verified": "2026-11-16", "quote": "December 11, 2026, 5 p.m.", "entryTerm": "October", "entryYear": "2027"} }
     ],
     applicationFee: { amount: 17000, currency: 'JPY', waiverAvailableToInternational: null, waiver: null, note: 'Application fee for undergraduate schools. The official fees page gives its amounts as of 1 April 2020.', source: 'https://www.kyushu-u.ac.jp/en/admission/fees/expenses', verified: '2026-10-06', status: 'previous-cycle', cycle: 'As of 1 April 2020' },
     documents: ['School transcripts and graduation certificate', 'English proficiency evidence', 'Application form and supporting documents listed in the application instructions'],
@@ -1061,7 +1064,7 @@ window.UNIPATH.universities.push(
     notes: ['Kyushu states that students on the international programmes can receive an exemption of half the tuition for the first year if they meet the conditions.']
   },
   english: {
-    ielts: { min: 6, recommended: null, note: 'Kyushu accepts IELTS 6.0 for its English-taught undergraduate programmes.' },
+    ielts: {"min": null, "recommended": null, "note": "Engineering requires IELTS 6.5 overall when IELTS is used. Consult the separate handbook for the intended programme.", "source": "https://www.kyushu-u.ac.jp/f/66827/ENG_2027_Application%20Instruction.pdf", "verified": "2026-11-16"},
     toefl: { min: 79, recommended: null, scales: [{ period: 'pre2026', min: 79, note: 'TOEFL iBT 79. Kyushu accepts scores from a single test date only, not MyBest scores.' }], note: 'TOEFL iBT 79, from a single test date; MyBest scores are not accepted.' },
     duolingo: { min: null, recommended: null, note: 'Not listed among the accepted tests.' },
     waiver: null,
@@ -1092,8 +1095,8 @@ window.UNIPATH.universities.push(
   scholarships: {
     fullRide: { available: true, internationalEligible: true, basis: 'merit', covers: { tuition: true, housing: false, meals: false, insurance: false, books: false, stipend: true }, renewable: true, competitiveness: 'MEXT places are limited and awarded to the strongest applicants.', howToApply: 'Applicants to the international undergraduate programmes can be recommended for the MEXT scholarship through the admission process.', note: 'The MEXT scholarship runs four years, pays ¥117,000 a month, exempts the enrolment and tuition fees and includes flights. Housing and food come out of the stipend.' },
     merit: [
-      { name: 'Kyushu University International Undergraduate Scholarship', amount: '¥48,000 a month for six months', eligibility: 'Up to ten successful applicants for October admission who live outside Japan and do not hold a MEXT scholarship', deadline: null, application: 'Considered through the admission process', renewable: false, note: 'This is a short-term stipend, not a tuition waiver.' },
-      { name: 'First-year tuition exemption', amount: 'Half of the tuition for the first two semesters', eligibility: 'Students in the international undergraduate programmes who meet the published conditions', deadline: null, application: 'Applied through the university', renewable: false, note: 'Confirmed on the admissions pages; the detailed conditions were not read during this check.' }
+      { name: 'Kyushu University International Undergraduate Scholarship', amount: "Engineering: ¥60,000 per month; annual selection for later years", eligibility: "Competitive; eligible foreign-only applicants with a qualification from outside Japan, residence abroad at application, and a new student visa; MEXT recipients excluded.", deadline: null, application: "Complete the scholarship section of the application form.", renewable: true, note: "Living allowance; tuition and other expenses are separate. The ¥48,000 six-month allowance is a distinct Monbukagakusho Honors Scholarship.", source: "https://www.kyushu-u.ac.jp/f/66827/ENG_2027_Application%20Instruction.pdf", verified: "2026-11-16", internationalEligible: true },
+      { name: 'First-year tuition exemption', amount: 'Half of the tuition for the first two semesters', eligibility: "Engineering: only foreign nationality, qualification obtained abroad, residence abroad when applying, and a new student visa.", deadline: null, application: 'Applied through the university', renewable: false, note: "Half tuition for the first two semesters for eligible students. Enrolment fee, housing and other expenses remain.", source: "https://www.kyushu-u.ac.jp/f/66827/ENG_2027_Application%20Instruction.pdf", verified: "2026-11-16" }
     ],
     needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
   },
@@ -2676,8 +2679,16 @@ window.UNIPATH.universities.push(
         "conditions": "Application period 5–15 October 2026. Documents are screened and shortlisted applicants are interviewed online.",
         "status": "confirmed",
         "source": "https://www.nucba.ac.jp/en/admission/schedule/",
-        "verified": "2026-10-02",
-        "note": null
+        "verified": "2026-11-16",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://www.nucba.ac.jp/en/admission/schedule/",
+          "verified": "2026-11-16",
+          "quote": "Admission for 2027 · Stage · Autumn",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        }
       },
       {
         "name": "Global BBA — stage 2 (autumn 2027 entry)",
@@ -2691,8 +2702,16 @@ window.UNIPATH.universities.push(
         "conditions": "Application period 2–12 November 2026. Documents are screened and shortlisted applicants are interviewed online.",
         "status": "confirmed",
         "source": "https://www.nucba.ac.jp/en/admission/schedule/",
-        "verified": "2026-10-02",
-        "note": null
+        "verified": "2026-11-16",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://www.nucba.ac.jp/en/admission/schedule/",
+          "verified": "2026-11-16",
+          "quote": "Admission for 2027 · Stage · Autumn",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        }
       },
       {
         "name": "Global BBA — stage 3 (autumn 2027 entry)",
@@ -2706,8 +2725,16 @@ window.UNIPATH.universities.push(
         "conditions": "Application period 23 November – 3 December 2026. Documents are screened and shortlisted applicants are interviewed online.",
         "status": "confirmed",
         "source": "https://www.nucba.ac.jp/en/admission/schedule/",
-        "verified": "2026-10-02",
-        "note": null
+        "verified": "2026-11-16",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://www.nucba.ac.jp/en/admission/schedule/",
+          "verified": "2026-11-16",
+          "quote": "Admission for 2027 · Stage · Autumn",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        }
       },
       {
         "name": "Global BBA — stage 4 (autumn 2027 entry)",
@@ -2721,8 +2748,16 @@ window.UNIPATH.universities.push(
         "conditions": "Application period 11–21 January 2027. Documents are screened and shortlisted applicants are interviewed online.",
         "status": "confirmed",
         "source": "https://www.nucba.ac.jp/en/admission/schedule/",
-        "verified": "2026-10-02",
-        "note": null
+        "verified": "2026-11-16",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://www.nucba.ac.jp/en/admission/schedule/",
+          "verified": "2026-11-16",
+          "quote": "Admission for 2027 · Stage · Autumn",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        }
       },
       {
         "name": "Global BBA — stage 5 (autumn 2027 entry)",
@@ -2736,8 +2771,16 @@ window.UNIPATH.universities.push(
         "conditions": "Application period 1–11 February 2027. Documents are screened and shortlisted applicants are interviewed online.",
         "status": "confirmed",
         "source": "https://www.nucba.ac.jp/en/admission/schedule/",
-        "verified": "2026-10-02",
-        "note": null
+        "verified": "2026-11-16",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://www.nucba.ac.jp/en/admission/schedule/",
+          "verified": "2026-11-16",
+          "quote": "Admission for 2027 · Stage · Autumn",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        }
       },
       {
         "name": "Global BBA — stage 6 (autumn 2027 entry)",
@@ -2751,8 +2794,16 @@ window.UNIPATH.universities.push(
         "conditions": "Application period 1–11 March 2027. Documents are screened and shortlisted applicants are interviewed online.",
         "status": "confirmed",
         "source": "https://www.nucba.ac.jp/en/admission/schedule/",
-        "verified": "2026-10-02",
-        "note": null
+        "verified": "2026-11-16",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://www.nucba.ac.jp/en/admission/schedule/",
+          "verified": "2026-11-16",
+          "quote": "Admission for 2027 · Stage · Autumn",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        }
       },
       {
         "name": "Global BBA — stage 7 (autumn 2027 entry)",
@@ -2766,8 +2817,16 @@ window.UNIPATH.universities.push(
         "conditions": "Application period 29 March – 8 April 2027. Documents are screened and shortlisted applicants are interviewed online.",
         "status": "confirmed",
         "source": "https://www.nucba.ac.jp/en/admission/schedule/",
-        "verified": "2026-10-02",
-        "note": null
+        "verified": "2026-11-16",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://www.nucba.ac.jp/en/admission/schedule/",
+          "verified": "2026-11-16",
+          "quote": "Admission for 2027 · Stage · Autumn",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        }
       }
     ],
     "applicationFee": {
