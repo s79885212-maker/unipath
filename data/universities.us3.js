@@ -4844,7 +4844,7 @@ window.UNIPATH.universities.push(
     "currency": "USD",
     "studentCategory": "Undergraduates living on campus",
     "source": "https://www.depauw.edu/admission-aid/scholarships-aid/tuition-and-fees/",
-    "verified": "2026-10-12",
+    "verified": "2026-11-16",
     "headline": "$80,120 in tuition, housing, meals and fees",
     "items": [
       {
@@ -4885,7 +4885,8 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": 80120,
     "totalText": "$80,120 in total direct expenses; the indirect costs are listed without a combined total",
-    "note": "The introduction of the page calls $80,120 the estimated total cost of attendance, including indirect costs, while its table shows $80,120 as direct costs alone and lists $3,570 of indirect costs separately."
+    "note": "The introduction of the page calls $80,120 the estimated total cost of attendance, including indirect costs, while its table shows $80,120 as direct costs alone and lists $3,570 of indirect costs separately.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -4905,7 +4906,9 @@ window.UNIPATH.universities.push(
       "howToApply": "No application beyond the application for admission.",
       "note": "The Rector Scholarship provides a full-tuition scholarship and appears in DePauw’s list of awards available to international students. Merit scholarships are renewable for each year the student is in good standing. Housing, meals and fees ($17,410 in 2026–27) remain payable.",
       "quote": "the Rector scholarship provides full tuition scholarship",
-      "quoteSource": "https://www.depauw.edu/admission-aid/apply/international-applicants/international-students/scholarships-and-financial-aid-for-international-students/"
+      "quoteSource": "https://www.depauw.edu/admission-aid/apply/international-applicants/international-students/scholarships-and-financial-aid-for-international-students/",
+      "detailsSource": "https://www.depauw.edu/admission-aid/apply/international-applicants/international-students/scholarships-and-financial-aid-for-international-students/",
+      "detailsVerified": "2026-11-16"
     },
     "merit": [
       {
@@ -4932,13 +4935,13 @@ window.UNIPATH.universities.push(
     ],
     "needBased": {
       "availableToInternational": true,
-      "meetsFullNeed": null,
+      "meetsFullNeed": true,
       "needBlindInternational": null,
       "forms": [
         "DePauw University Student Certification of Finances"
       ],
       "deadlines": null,
-      "note": "DePauw’s pages disagree on the form: the checklist for international applicants says no other form, such as the ISFAA or CSS Profile, is accepted, while the scholarships page says international students seeking need-based aid must complete the CSS Profile. DePauw’s promise to meet full calculated need is stated for the incoming class in general; the pages read do not say that it covers international students."
+      "note": "The DePauw Promise covers calculated need for incoming first-year students starting in Fall 2026 and names an international finances form. The international checklist requires that form from everyone and differs from the scholarship page about CSS Profile. Coverage depends on the university’s assessment, and campus employment may be part of the package."
     }
   },
   "photos": {
@@ -19602,7 +19605,7 @@ window.UNIPATH.universities.push(
     "currency": "USD",
     "studentCategory": "International students, projected first-year budget",
     "source": "https://www.iwu.edu/international/costs.html",
-    "verified": "2026-10-12",
+    "verified": "2026-11-16",
     "headline": "$78,514 total cost of attendance",
     "items": [
       {
@@ -19654,7 +19657,7 @@ window.UNIPATH.universities.push(
   "scholarships": {
     "fullRide": {
       "available": true,
-      "internationalEligible": true,
+      "internationalEligible": null,
       "basis": "merit",
       "covers": {
         "tuition": true,
@@ -19667,9 +19670,11 @@ window.UNIPATH.universities.push(
       "name": "Presidential Scholarship",
       "competitiveness": "The pages read do not say how many are awarded. Illinois Wesleyan practises need-sensitive admission for international applicants.",
       "howToApply": "No extra steps: merit scholarships are assigned automatically with the application.",
-      "note": "Illinois Wesleyan states that there is no full-ride scholarship. Recipients of the full-tuition Presidential Scholarship still bear the rest of the cost, including housing, meals, health insurance, visa expenses and international travel.",
+      "note": "The international FAQ describes a full-tuition Presidential Scholarship; current materials do not establish availability for Fall 2027. Housing, food, insurance, visa expenses and travel are outside the award.",
       "quote": "There is NO full ride/full-funded scholarship at IWU",
-      "quoteSource": "https://www.iwu.edu/international/admission-faq.html"
+      "quoteSource": "https://www.iwu.edu/international/admission-faq.html",
+      "detailsSource": "https://www.iwu.edu/international/admission-faq.html",
+      "detailsVerified": "2026-11-16"
     },
     "merit": [
       {
@@ -19680,7 +19685,9 @@ window.UNIPATH.universities.push(
         "application": "Automatic with the application for admission; no separate application",
         "renewable": true,
         "note": "Renewable for up to four years.",
-        "basis": "merit"
+        "basis": "merit",
+        "source": "https://www.iwu.edu/international/scholarships.html",
+        "verified": "2026-11-16"
       }
     ],
     "needBased": {
@@ -31230,8 +31237,8 @@ window.UNIPATH.universities.push(
     "academicYear": "2026–2027",
     "currency": "USD",
     "studentCategory": "First-year students living on campus, full-time (12–17 credits a semester), nine months",
-    "source": "https://www.american.edu/financialaid/cost-of-attendance/undergraduate-first-year-students.cfm",
-    "verified": "2026-10-24",
+    "source": "https://www.american.edu/financialaid/",
+    "verified": "2026-11-16",
     "headline": "$87,374 published cost of attendance for 2026–27; health insurance extra",
     "items": [
       {
@@ -31292,7 +31299,8 @@ window.UNIPATH.universities.push(
         "verified": "2026-10-24",
         "academicYear": "2026–2027"
       }
-    ]
+    ],
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -31313,8 +31321,8 @@ window.UNIPATH.universities.push(
       "source": "https://www.american.edu/admissions/international/au-egls-apply.cfm",
       "verified": "2026-10-24",
       "renewalConditions": "Up to four undergraduate years, subject to continued satisfactory academic performance",
-      "detailsSource": "https://www.american.edu/admissions/international/au-egls-apply.cfm",
-      "detailsVerified": "2026-10-24",
+      "detailsSource": "https://american.edu/admissions/international/au-egls-apply.cfm",
+      "detailsVerified": "2026-11-16",
       "id": "au-egls",
       "category": "need-merit",
       "entryTerm": "Autumn",
@@ -31346,6 +31354,19 @@ window.UNIPATH.universities.push(
         "note": "Applicants completing this process may also be considered for partial EGL awards of up to $40,000 a year; additional proof of funds is required for the uncovered difference. No award is subtracted automatically in budget matching.",
         "source": "https://www.american.edu/admissions/international/au-egls-apply.cfm",
         "verified": "2026-10-24"
+      },
+      {
+        "name": "AU EGL Partial Scholarship",
+        "amount": "Up to $40,000 per year",
+        "eligibility": "International first-year AU EGLS applicants; competitive",
+        "internationalEligible": true,
+        "firstYearEligible": true,
+        "basis": "need-merit",
+        "application": "Submit the separate AU EGLS application and essays.",
+        "renewable": null,
+        "note": "The partial award amount varies. Confirm renewal terms for the partial scholarship in the award offer. Remaining charges and living costs must be budgeted.",
+        "source": "https://american.edu/admissions/international/au-egls-apply.cfm",
+        "verified": "2026-11-16"
       }
     ],
     "needBased": {
@@ -33823,31 +33844,27 @@ window.UNIPATH.universities.push(
   },
   "costs": {
     "breakdown": {
-      "includes": "tuition and fees only. Housing, food, books, insurance and personal expenses are extra",
-      "tuition": 32256,
-      "tuitionLabel": "Tuition and fees"
+      "includes": "Morgantown base tuition and university fees for two semesters. Programme fees, housing, meals, insurance, travel and other expenses are separate.",
+      "tuition": 33528,
+      "tuitionLabel": "Tuition and fees",
+      "period": "year"
     },
-    "academicYear": "2026–2027",
+    "academicYear": "2027–2028",
     "currency": "USD",
     "studentCategory": "Out-of-state undergraduates",
-    "source": "https://www.wvu.edu/admissions/undergraduate/cost-and-aid",
-    "verified": "2026-10-12",
-    "headline": "$32,256 in tuition and fees",
+    "source": "https://wvutoday.wvu.edu/files/d/3cc20bd0-bf20-4031-9f21-5297c21fc0ff/public-agenda-book-bog-regular-meeting-november-13-2026.pdf",
+    "verified": "2026-11-16",
+    "headline": "$33,528 in base tuition and fees for two semesters",
     "items": [
       {
         "label": "Tuition and fees",
-        "group": "billed",
-        "amount": 32256
-      },
-      {
-        "label": "Housing expenses, as the page calls them",
-        "group": "billed",
-        "amount": 15028
+        "amount": 33528
       }
     ],
     "billedSubtotal": null,
     "totalText": "$32,256 out-of-state tuition and fees and $15,028 housing expenses for 2026–27, printed separately; the page gives no total",
-    "note": "A $250 athletics fee per term is billed separately, and some colleges charge additional tuition."
+    "note": "Calculated as two semesters at the approved non-resident base rate of $16,764 for Morgantown. Programme charges and remaining costs are separate. No scholarship is deducted.",
+    "status": "confirmed"
   },
   "scholarships": {
     "fullRide": {
@@ -33864,7 +33881,10 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": "The largest Climb Higher award at Morgantown is $18,000 a year, against out-of-state tuition and fees of $32,256."
+      "note": "Climb Higher is a partial award. Its highest Morgantown tier is $18,000 per year. Housing, meals and other costs remain payable.",
+      "status": "not-published",
+      "detailsSource": "https://hub.wvu.edu/types-of-aid/scholarships/institutional/climb-higher/2728",
+      "detailsVerified": "2026-11-16"
     },
     "merit": [
       {
@@ -33874,8 +33894,12 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": true,
-        "note": "Morgantown campus, per year for up to eight semesters: $18,000 with a grade average of 3.8 and ACT 30 or SAT 1360; $16,000 with 3.8; $13,000 with 3.5–3.79; $10,000 with 3.0–3.49. Students in online programmes are not eligible.",
-        "basis": "merit"
+        "note": "Morgantown, up to eight semesters. Annual tiers: $18,000 at GPA 3.8 with ACT 30 or SAT 1360; $16,000 at 3.8; $13,000 at 3.5–3.79; $10,000 at 3.0–3.49. Online programmes are excluded. Renewal requires a cumulative 2.75 GPA and earning 30 credits per year. Full-time enrolment is required for payment.",
+        "basis": "merit",
+        "internationalEligible": true,
+        "firstYearEligible": true,
+        "source": "https://hub.wvu.edu/types-of-aid/scholarships/institutional/climb-higher/2728",
+        "verified": "2026-11-16"
       }
     ],
     "needBased": {
@@ -33893,6 +33917,10 @@ window.UNIPATH.universities.push(
     "city": null
   },
   "sources": [
+    {
+      "label": "WVU scholarship renewal requirements",
+      "url": "https://hub.wvu.edu/types-of-aid/scholarships/renewal-reqs"
+    },
     {
       "label": "WVU — international applicants",
       "url": "https://www.wvu.edu/admissions/undergraduate/how-to-apply/international-students/"

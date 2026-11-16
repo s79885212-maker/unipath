@@ -733,6 +733,8 @@
       (r.budget.html
         ? '<div class="small match-conflict" style="margin:8px 0 0">' + r.budget.html + '</div>'
         : '<p class="small muted" style="margin:8px 0 0">' + esc(r.budget.text) + '</p>') +
+      (r.budget.status === 'fits-tuition'
+        ? '<p class="small muted match-budget-partial">Affordability of the full year has not been confirmed.</p>' : '') +
       '</div></article>';
   }
 

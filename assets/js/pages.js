@@ -695,6 +695,8 @@
       '<div class="notice notice-info" style="margin-top:12px"><span class="ico">↓</span><div>' +
         (U.fullRide(u).available === true && U.fullRide(u).guaranteed === true
           ? '<strong>Aid that follows admission.</strong> The university states that every admitted international student receives this award, so it is not a separate competition. The scholarships section says what it covers and on what conditions; costs it does not cover stay with the student.'
+          : U.fullRide(u).available === true && U.fullRide(u).basis === 'automatic'
+            ? '<strong>Conditional automatic award.</strong> The published award is automatic only for applicants who meet its conditions. The figures above are before aid; confirm eligibility and remaining expenses before using an award in your budget.'
           : U.fullRide(u).available === true && U.fullRide(u).basis === 'need-based'
             ? '<strong>Need-based aid.</strong> The figures above are before financial aid. Need-based aid is calculated from a family’s finances rather than won in a competition, so the amount depends on the need the university assesses — and asking for aid can make admission itself harder where the scholarships section says so. Plan with the full amount until an aid offer is in hand.'
             : U.fullRide(u).available === true
