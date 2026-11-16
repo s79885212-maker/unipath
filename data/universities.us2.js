@@ -42,7 +42,51 @@ window.UNIPATH.universities.push(
     platforms: ['Common Application'],
     deadlines: [
       { name: 'Early Decision', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', time: '23:59', timezone: 'applicant’s local time', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Decision letters are available online in mid-December.', status: 'confirmed', source: 'https://admission.brown.edu/first-year/early-decision', verified: '2026-09-23', note: null },
-      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', time: '23:59', timezone: 'applicant’s local time', binding: false, appliesTo: 'First-year applicants', conditions: 'Decision letters are available online in late March.', status: 'confirmed', source: 'https://admission.brown.edu/first-year/regular-decision', verified: '2026-09-23', note: null },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "date": "5 January 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "status": "confirmed",
+        "source": "https://admission.brown.edu/apply/how-apply",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://admission.brown.edu/apply/how-apply",
+          "verified": "2026-11-16",
+          "quote": "2026–2027 application cycle · January 5 for Regular Decision",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "dateISO": "2027-01-05",
+        "entryYear": "2027",
+        "entryTerm": "Autumn",
+        "conditions": "The midyear report is submitted when grades become available.",
+        "time": "23:59",
+        "timezone": "applicant’s local time"
+      },
+      {
+        "name": "Regular Decision — CSS Profile",
+        "kind": "aid",
+        "source": "https://finaid.brown.edu/apply/first-year-international",
+        "verified": "2026-11-16",
+        "status": "confirmed",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://finaid.brown.edu/apply/first-year-international",
+          "verified": "2026-11-16",
+          "quote": "Regular Decision: February 1, 2027",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "date": "1 February 2027",
+        "dateISO": "2027-02-01",
+        "entryYear": "2027",
+        "entryTerm": "Autumn",
+        "conditions": "Submit required materials by this date for a provisional aid decision with admission. Send additional IDOC documents only if requested.",
+        "appliesTo": "International first-year applicants requesting aid"
+      },
     ],
     applicationFee: { amount: 80, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waiver available in place of the $80 non-refundable fee' },
     documents: ['Common Application with Brown’s writing supplement', 'School transcript and school report', 'Teacher recommendations'],
@@ -96,7 +140,7 @@ window.UNIPATH.universities.push(
     needBased: {
       availableToInternational: true, meetsFullNeed: true, needBlindInternational: true,
       forms: ['CSS Profile'],
-      deadlines: 'By the published financial aid deadlines for your admission round',
+      deadlines: null,
       note: 'Students admitted before autumn 2025 remain under the previous need-aware policy. Aid materials must still be submitted on time to receive scholarship assistance.'
     }
   },
@@ -140,7 +184,61 @@ window.UNIPATH.universities.push(
     platforms: ['Common Application'],
     deadlines: [
       { name: 'Early Decision', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Last SAT sitting is November and last ACT sitting October. Decision emails go out in mid-December.', status: 'confirmed', source: 'https://admissions.dartmouth.edu/apply-dartmouth', verified: '2026-09-23', note: null },
-      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', time: '23:59', timezone: 'applicant’s local time', binding: false, appliesTo: 'First-year applicants', conditions: 'Last SAT and ACT sittings are in December. Decision emails go out in late March.', status: 'confirmed', source: 'https://admissions.dartmouth.edu/apply-dartmouth', verified: '2026-09-23', note: null },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "date": "Date for Fall 2027 not confirmed",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "status": "not-confirmed",
+        "source": "https://admissions.dartmouth.edu/apply-dartmouth",
+        "verified": "2026-11-16",
+        "conditions": "Dartmouth admissions pages list both January 1 and January 2. The first-year Fall 2027 date has not been verified."
+      },
+      {
+        "name": "Regular Decision — CSS Profile",
+        "kind": "aid",
+        "source": "https://admissions.dartmouth.edu/estimate-your-cost/apply-financial-aid",
+        "verified": "2026-11-16",
+        "status": "confirmed",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://admissions.dartmouth.edu/estimate-your-cost/apply-financial-aid",
+          "verified": "2026-11-16",
+          "quote": "2027-2028 · Regular Decision · February 1st",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "date": "1 February 2027",
+        "dateISO": "2027-02-01",
+        "entryYear": "2027",
+        "entryTerm": "Autumn",
+        "conditions": "Use the ISFAA if the CSS Profile fee presents serious financial hardship.",
+        "appliesTo": "International first-year applicants requesting aid"
+      },
+      {
+        "name": "Regular Decision — financial aid documents",
+        "kind": "documents",
+        "source": "https://admissions.dartmouth.edu/estimate-your-cost/apply-financial-aid",
+        "verified": "2026-11-16",
+        "status": "confirmed",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://admissions.dartmouth.edu/estimate-your-cost/apply-financial-aid",
+          "verified": "2026-11-16",
+          "quote": "Regular Decision · February 1st · Income Tax Statements",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "date": "1 February 2027",
+        "dateISO": "2027-02-01",
+        "entryYear": "2027",
+        "entryTerm": "Autumn",
+        "conditions": "Submit the signed 2025 foreign tax returns to the Financial Aid Office.",
+        "appliesTo": "International first-year applicants requesting aid"
+      },
     ],
     applicationFee: { amount: 85, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waivers available' },
     documents: ['Common Application', 'School transcript and counsellor report', 'Teacher recommendations', 'Standardized test results'],
@@ -205,7 +303,7 @@ window.UNIPATH.universities.push(
     needBased: {
       availableToInternational: true, meetsFullNeed: true, needBlindInternational: true,
       forms: ['CSS Profile'],
-      deadlines: 'Same as the admission round',
+      deadlines: null,
       note: 'Dartmouth extended need-blind admission to all international citizens from the class of 2026.'
     }
   },
@@ -249,7 +347,22 @@ window.UNIPATH.universities.push(
     platforms: ['Common Application'],
     deadlines: [
       { name: 'Early Decision', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding: an admitted applicant must enrol and withdraw other applications. Decisions are released on or before 15 December.', status: 'confirmed', source: 'https://undergrad.admissions.columbia.edu/apply/firstyear/early-decision', verified: '2026-09-23', note: null },
-      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Decisions are released on or before 15 April.', status: 'confirmed', source: 'https://undergrad.admissions.columbia.edu/apply/firstyear', verified: '2026-09-23', note: null },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "date": "1 January",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "status": "annual-rule",
+        "source": "https://undergrad.admissions.columbia.edu/apply/firstyear",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://undergrad.admissions.columbia.edu/apply/firstyear",
+          "verified": "2026-11-16",
+          "quote": "Regular Decision · 1 January 2027"
+        }
+      },
       { name: 'Financial aid application', kind: 'aid', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: false, appliesTo: 'Applicants asking for financial aid', conditions: 'Separate from the admission deadline; Columbia collects family income, assets and circumstances.', status: 'confirmed', source: 'https://undergrad.admissions.columbia.edu/afford', verified: '2026-09-23', note: null },
     ],
     applicationFee: { amount: 85, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waivers available through the application' },
@@ -304,7 +417,7 @@ window.UNIPATH.universities.push(
     needBased: {
       availableToInternational: true, meetsFullNeed: true, needBlindInternational: false,
       forms: ['CSS Profile'],
-      deadlines: 'Same round as the admission application',
+      deadlines: "Request aid on the admission application. The Fall 2027 CSS Profile and financial document deadlines are not confirmed.",
       note: 'The average award for international aid recipients is $79,375, usually a Columbia grant plus a work-study job.'
     }
   },
@@ -446,8 +559,71 @@ window.UNIPATH.universities.push(
     deadlines: [
       { name: 'Early Decision — application', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. The application, fee or waiver and any portfolio are due on this date.', status: 'confirmed', source: 'https://admissions.cornell.edu/how-to-apply/first-year-applicants', verified: '2026-10-01', note: null },
       { name: 'Early Decision — supporting materials', kind: 'documents', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-13', date: '13 November 2026', binding: false, appliesTo: 'Early Decision applicants', conditions: 'All other required materials. Decisions are available mid-December.', status: 'confirmed', source: 'https://admissions.cornell.edu/how-to-apply/first-year-applicants', verified: '2026-10-01', note: null },
-      { name: 'Regular Decision — application', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-02', date: '2 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'The application, fee or waiver and any portfolio are due on this date.', status: 'confirmed', source: 'https://admissions.cornell.edu/how-to-apply/first-year-applicants', verified: '2026-10-01', note: null },
-      { name: 'Regular Decision — supporting materials', kind: 'documents', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-19', date: '19 January 2027', binding: false, appliesTo: 'Regular Decision applicants', conditions: 'All other required materials. Decisions are available in late March.', status: 'confirmed', source: 'https://admissions.cornell.edu/how-to-apply/first-year-applicants', verified: '2026-10-01', note: null },
+      {
+        "name": "Regular Decision — application",
+        "kind": "RD",
+        "date": "2 January 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "status": "confirmed",
+        "source": "https://admissions.cornell.edu/community/blog/preparing-for-your-cornell-application",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://admissions.cornell.edu/community/blog/preparing-for-your-cornell-application",
+          "verified": "2026-11-16",
+          "quote": "Fall 2027 · Regular Decision: January 2 · Supporting materials deadline: January 19",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "dateISO": "2027-01-02",
+        "entryYear": "2027",
+        "entryTerm": "Autumn",
+        "conditions": "Submit the application and fee or fee waiver by this date. Check your college’s portfolio instructions; required portfolios may also be due with the application."
+      },
+      {
+        "name": "Regular Decision — supporting materials",
+        "kind": "documents",
+        "date": "19 January 2027",
+        "binding": false,
+        "appliesTo": "Regular Decision applicants",
+        "status": "confirmed",
+        "source": "https://admissions.cornell.edu/community/blog/preparing-for-your-cornell-application",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://admissions.cornell.edu/community/blog/preparing-for-your-cornell-application",
+          "verified": "2026-11-16",
+          "quote": "Fall 2027 · Regular Decision: January 2 · Supporting materials deadline: January 19",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "dateISO": "2027-01-19",
+        "entryYear": "2027",
+        "entryTerm": "Autumn",
+        "conditions": "General supporting admission materials. Programme-specific portfolios or supplements may be due earlier."
+      },
+      {
+        "name": "Regular Decision — CSS Profile (priority)",
+        "kind": "aid",
+        "source": "https://finaid.cornell.edu/first-year-and-transfer-students-international",
+        "verified": "2026-11-16",
+        "status": "confirmed",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://finaid.cornell.edu/first-year-and-transfer-students-international",
+          "verified": "2026-11-16",
+          "quote": "Fall 2027 · Financial Aid Application Priority Dates · January 2",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "date": "2 January 2027",
+        "dateISO": "2027-01-02",
+        "entryYear": "2027",
+        "entryTerm": "Autumn",
+        "conditions": "Apply when you apply for admission. Submit additional documents promptly if Cornell requests them.",
+        "appliesTo": "International first-year applicants requesting aid"
+      },
     ],
     applicationFee: { amount: 85, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waiver available for applicants for whom the fee is a burden and who apply for financial aid' },
     documents: ['Common Application with Cornell’s college-specific questions', 'School transcript and reports', 'Teacher recommendations', 'English proficiency evidence'],
@@ -497,7 +673,7 @@ window.UNIPATH.universities.push(
     needBased: {
       availableToInternational: true, meetsFullNeed: true, needBlindInternational: false,
       forms: ['CSS Profile'],
-      deadlines: 'Complete the CSS Profile as soon as possible after 1 October; check the exact deadline for your round',
+      deadlines: null,
       note: 'Cornell states admission decisions for international applicants are need-aware.'
     }
   },
@@ -731,8 +907,40 @@ window.UNIPATH.universities.push(
     platforms: ['Common Application'],
     deadlines: [
       { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decisions in mid-December.', status: 'confirmed', source: 'https://www.bowdoin.edu/admissions/apply/dates-deadlines/index.html', verified: '2026-09-23', note: null },
-      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decisions by early February.', status: 'confirmed', source: 'https://www.bowdoin.edu/admissions/apply/dates-deadlines/index.html', verified: '2026-09-23', note: null },
-      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Bowdoin has been test-optional since 1969. Decisions in mid-March.', status: 'confirmed', source: 'https://www.bowdoin.edu/admissions/apply/dates-deadlines/index.html', verified: '2026-09-23', note: null },
+      {
+        "name": "Early Decision II",
+        "kind": "ED2",
+        "date": "5 January",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "status": "annual-rule",
+        "source": "https://www.bowdoin.edu/admissions/apply/dates-deadlines/index.html",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.bowdoin.edu/admissions/apply/dates-deadlines/index.html",
+          "verified": "2026-11-16",
+          "quote": "Early Decision II · 5 January 2027"
+        },
+        "conditions": "Send any outstanding admission supporting materials as soon as possible."
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "date": "5 January",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "status": "annual-rule",
+        "source": "https://www.bowdoin.edu/admissions/apply/dates-deadlines/index.html",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.bowdoin.edu/admissions/apply/dates-deadlines/index.html",
+          "verified": "2026-11-16",
+          "quote": "Regular Decision · 5 January 2027"
+        },
+        "conditions": "Send any outstanding admission supporting materials as soon as possible."
+      },
     ],
     applicationFee: { amount: 70, currency: 'USD', waiverAvailableToInternational: null, waiver: 'The $70 fee is waived automatically for applicants for financial aid and first-generation applicants' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations'],
@@ -785,8 +993,8 @@ window.UNIPATH.universities.push(
     merit: [],
     needBased: {
       availableToInternational: true, meetsFullNeed: true, needBlindInternational: true,
-      forms: ['Submitted after admission, on Bowdoin’s instructions'],
-      deadlines: 'Within seven days of the admission offer for international students',
+      forms: ["CSS Profile", "Supporting financial documents"],
+      deadlines: "International applicants other than Canadian citizens submit aid materials within seven days of the admission offer. Canadian citizens follow the separately published aid schedule.",
       note: 'The need-blind policy does not extend to waitlisted or transfer applicants.'
     }
   },
@@ -921,7 +1129,28 @@ window.UNIPATH.universities.push(
     platforms: ['Common Application'],
     deadlines: [
       { name: 'Early Decision', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decision by 15 December.', status: 'confirmed', source: 'https://www.williams.edu/admission-aid/apply/deadlines/', verified: '2026-09-23', note: null },
-      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Decision by 1 April; admitted students reply by 1 May. Applicants state on the application whether they are applying test-optional and can change that choice until their round’s deadline.', status: 'confirmed', source: 'https://www.williams.edu/admission-aid/apply/deadlines/', verified: '2026-09-23', note: null },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "date": "4 January 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "status": "confirmed",
+        "source": "https://www.williams.edu/admission-aid/tuition-aid/requirements-and-deadlines/",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://www.williams.edu/admission-aid/tuition-aid/requirements-and-deadlines/",
+          "verified": "2026-11-16",
+          "quote": "2027–2028 · Regular Decision · January 4",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "dateISO": "2027-01-04",
+        "entryYear": "2027",
+        "entryTerm": "Autumn",
+        "conditions": "The midyear report is submitted when grades become available."
+      },
     ],
     applicationFee: { amount: 65, currency: 'USD', waiverAvailableToInternational: null, waiver: 'The Common Data Set says the fee can be waived for applicants with financial need; whether that covers international applicants was not checked.', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://hub.williams.edu/institutional-research/files/2026/04/Williams-CDS-2025-2026-V2.pdf', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations'],
@@ -979,8 +1208,8 @@ window.UNIPATH.universities.push(
     merit: [],
     needBased: {
       availableToInternational: true, meetsFullNeed: true, needBlindInternational: false,
-      forms: ['Indicate intent on the admission application; documents requested after admission'],
-      deadlines: 'Financial aid application deadlines follow the admission round',
+      forms: ["International aid forms specified after admission"],
+      deadlines: "Indicate interest in aid on the admission application. International applicants submit the aid materials after admission, following portal instructions.",
       note: 'Williams says plainly that it is not need-blind for international applicants.'
     }
   },
@@ -1246,8 +1475,132 @@ window.UNIPATH.universities.push(
     platforms: ['Common Application'],
     deadlines: [
       { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding.', status: 'confirmed', source: 'https://admission.rice.edu/apply/first-year-international-applicants', verified: '2026-09-23', note: null },
-      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding.', status: 'confirmed', source: 'https://admission.rice.edu/apply/first-year-international-applicants', verified: '2026-09-23', note: null },
-      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Not binding. Decisions are released by 1 April.', status: 'confirmed', source: 'https://admission.rice.edu/apply/first-year-international-applicants', verified: '2026-09-23', note: null },
+      {
+        "name": "Early Decision II",
+        "kind": "ED2",
+        "date": "4 January 2027",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "status": "confirmed",
+        "source": "https://admission.rice.edu/apply/first-year-international-applicants",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://admission.rice.edu/apply/first-year-international-applicants",
+          "verified": "2026-11-16",
+          "quote": "2026-2027 application cycle · January 4",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "dateISO": "2027-01-04",
+        "entryYear": "2027",
+        "entryTerm": "Autumn",
+        "conditions": "The International Student Financial Statement is part of the admission application."
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "date": "4 January 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "status": "confirmed",
+        "source": "https://admission.rice.edu/apply/first-year-international-applicants",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://admission.rice.edu/apply/first-year-international-applicants",
+          "verified": "2026-11-16",
+          "quote": "2026-2027 application cycle · January 4",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "dateISO": "2027-01-04",
+        "entryYear": "2027",
+        "entryTerm": "Autumn",
+        "conditions": "The International Student Financial Statement is part of the admission application."
+      },
+      {
+        "name": "Early Decision II — CSS Profile",
+        "kind": "aid",
+        "source": "https://financialaid.rice.edu/apply-aid/international-students",
+        "verified": "2026-11-16",
+        "status": "confirmed",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://financialaid.rice.edu/apply-aid/international-students",
+          "verified": "2026-11-16",
+          "quote": "2027-2028 CSS Profile · Early Decision II",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "date": "4 January 2027",
+        "dateISO": "2027-01-04",
+        "entryYear": "2027",
+        "entryTerm": "Autumn",
+        "appliesTo": "International first-year applicants requesting aid"
+      },
+      {
+        "name": "Early Decision II — financial aid documents",
+        "kind": "documents",
+        "source": "https://financialaid.rice.edu/apply-aid/international-students",
+        "verified": "2026-11-16",
+        "status": "confirmed",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://financialaid.rice.edu/apply-aid/international-students",
+          "verified": "2026-11-16",
+          "quote": "2025 tax documents · Early Decision II",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "date": "4 January 2027",
+        "dateISO": "2027-01-04",
+        "entryYear": "2027",
+        "entryTerm": "Autumn",
+        "conditions": "Upload translated foreign tax documents or income evidence via the Rice applicant portal.",
+        "appliesTo": "International first-year applicants requesting aid"
+      },
+      {
+        "name": "Regular Decision — CSS Profile",
+        "kind": "aid",
+        "source": "https://financialaid.rice.edu/apply-aid/international-students",
+        "verified": "2026-11-16",
+        "status": "confirmed",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://financialaid.rice.edu/apply-aid/international-students",
+          "verified": "2026-11-16",
+          "quote": "2027-2028 CSS Profile · Regular Decision",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "date": "1 February 2027",
+        "dateISO": "2027-02-01",
+        "entryYear": "2027",
+        "entryTerm": "Autumn",
+        "appliesTo": "International first-year applicants requesting aid"
+      },
+      {
+        "name": "Regular Decision — financial aid documents",
+        "kind": "documents",
+        "source": "https://financialaid.rice.edu/apply-aid/international-students",
+        "verified": "2026-11-16",
+        "status": "confirmed",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://financialaid.rice.edu/apply-aid/international-students",
+          "verified": "2026-11-16",
+          "quote": "2025 tax documents · Regular Decision",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "date": "1 February 2027",
+        "dateISO": "2027-02-01",
+        "entryYear": "2027",
+        "entryTerm": "Autumn",
+        "conditions": "Upload translated foreign tax documents or income evidence via the Rice applicant portal.",
+        "appliesTo": "International first-year applicants requesting aid"
+      },
     ],
     applicationFee: { amount: 75, currency: 'USD', waiverAvailableToInternational: false, waiver: 'International applicants cannot request a fee waiver for the $75 fee' },
     documents: ['Common Application and the Rice writing supplement', 'Official school transcript in English', 'Counsellor and two teacher recommendations', 'Evidence of English proficiency', 'International Student Financial Statement'],
@@ -1296,8 +1649,8 @@ window.UNIPATH.universities.push(
     merit: [],
     needBased: {
       availableToInternational: true, meetsFullNeed: true, needBlindInternational: false,
-      forms: ['Documents listed on Rice’s international aid page'],
-      deadlines: 'With the admission round',
+      forms: ["CSS Profile", "Tax documents via the Rice applicant portal"],
+      deadlines: "Request financial aid on the admission application.",
       note: 'Rice writes that its international policy "for both admission and financial aid is need aware".'
     }
   },
@@ -1339,7 +1692,48 @@ window.UNIPATH.universities.push(
     platforms: ['Common Application'],
     deadlines: [
       { name: 'Early Decision', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Test-optional: October or November scores may be self-reported until 30 November 2026. Decisions by mid-December.', status: 'confirmed', source: 'https://admissions.northwestern.edu/apply/application-deadlines.html', verified: '2026-09-23', note: null },
-      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional: December scores may be self-reported until 15 February 2027. Decisions by the end of March.', status: 'confirmed', source: 'https://admissions.northwestern.edu/apply/application-deadlines.html', verified: '2026-09-23', note: null },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "date": "4 January 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "status": "confirmed",
+        "source": "https://admissions.northwestern.edu/apply/",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://admissions.northwestern.edu/apply/",
+          "verified": "2026-11-16",
+          "quote": "Regular Decision First-Year Applicant · January 4, 2027",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "dateISO": "2027-01-04",
+        "entryYear": "2027",
+        "entryTerm": "Autumn"
+      },
+      {
+        "name": "Regular Decision — CSS Profile or ISAFA",
+        "kind": "aid",
+        "source": "https://admissions.northwestern.edu/apply/",
+        "verified": "2026-11-16",
+        "status": "confirmed",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://admissions.northwestern.edu/apply/",
+          "verified": "2026-11-16",
+          "quote": "Regular Decision First-Year Applicant · Financial Aid Due Date · February 1, 2027",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "date": "1 February 2027",
+        "dateISO": "2027-02-01",
+        "entryYear": "2027",
+        "entryTerm": "Autumn",
+        "conditions": "The dated admissions calendar lists February 1. The international aid page lists February 2 without a cycle year. Submit CSS Profile or ISAFA and follow the international tax-document instructions.",
+        "appliesTo": "International first-year applicants requesting aid"
+      },
     ],
     applicationFee: { amount: 75, currency: 'USD', waiverAvailableToInternational: null, waiver: 'A fee waiver can be requested instead of the $75 fee' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendation', 'English proficiency score where required'],
@@ -1389,7 +1783,7 @@ window.UNIPATH.universities.push(
     needBased: {
       availableToInternational: true, meetsFullNeed: true, needBlindInternational: false,
       forms: ['CSS Profile', 'ISAFA (International Student Application for Financial Assistance)'],
-      deadlines: 'With the admission round',
+      deadlines: "Request financial aid on the admission application.",
       note: 'Northwestern states: "We are need-aware for international students, meaning that a request for financial aid consideration and the amount of financial aid you require may factor into your admission decision."'
     }
   },
@@ -1434,8 +1828,80 @@ window.UNIPATH.universities.push(
     deadlines: [
       { name: 'Early Action', kind: 'EA', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-02', date: '2 November 2026', binding: false, appliesTo: 'First-year applicants', conditions: 'Not binding; decision in mid-December. October ACT and November SAT scores are accepted for this round.', status: 'confirmed', source: 'https://collegeadmissions.uchicago.edu/apply/application/', verified: '2026-09-23', note: null },
       { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-02', date: '2 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decision in mid-December.', status: 'confirmed', source: 'https://collegeadmissions.uchicago.edu/apply/application/', verified: '2026-09-23', note: null },
-      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decision in mid-February. December SAT and ACT scores are accepted.', status: 'confirmed', source: 'https://collegeadmissions.uchicago.edu/apply/application/', verified: '2026-09-23', note: null },
-      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Decision in late March. January SAT and February ACT scores are accepted. UChicago is test-optional and applies a "no harm" rule to any scores sent.', status: 'confirmed', source: 'https://collegeadmissions.uchicago.edu/apply/application/', verified: '2026-09-23', note: null },
+      {
+        "name": "Early Decision II",
+        "kind": "ED2",
+        "date": "4 January 2027",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "status": "confirmed",
+        "source": "https://collegeadmissions.uchicago.edu/apply/application/",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://collegeadmissions.uchicago.edu/apply/application/",
+          "verified": "2026-11-16",
+          "quote": "January 4, 2027 · Early Decision II and Regular Decision",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "dateISO": "2027-01-04",
+        "entryYear": "2027",
+        "entryTerm": "Autumn"
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "date": "4 January 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "status": "confirmed",
+        "source": "https://collegeadmissions.uchicago.edu/apply/application/",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://collegeadmissions.uchicago.edu/apply/application/",
+          "verified": "2026-11-16",
+          "quote": "January 4, 2027 · Early Decision II and Regular Decision",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "dateISO": "2027-01-04",
+        "entryYear": "2027",
+        "entryTerm": "Autumn"
+      },
+      {
+        "name": "Early Decision II — financial aid application",
+        "kind": "aid",
+        "source": "https://collegeadmissions.uchicago.edu/financial-support/financial-overview/",
+        "verified": "2026-11-16",
+        "status": "annual-rule",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://collegeadmissions.uchicago.edu/financial-support/financial-overview/",
+          "verified": "2026-11-16",
+          "quote": "Early Decision II · financial aid deadline"
+        },
+        "date": "15 January",
+        "conditions": "Use the International Student Financial Aid Worksheet and supporting income documents. A date on a weekend or holiday rolls to the next business day.",
+        "appliesTo": "International first-year applicants requesting aid"
+      },
+      {
+        "name": "Regular Decision — financial aid application",
+        "kind": "aid",
+        "source": "https://collegeadmissions.uchicago.edu/financial-support/financial-overview/",
+        "verified": "2026-11-16",
+        "status": "annual-rule",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://collegeadmissions.uchicago.edu/financial-support/financial-overview/",
+          "verified": "2026-11-16",
+          "quote": "Regular Decision · financial aid deadline"
+        },
+        "date": "15 February",
+        "conditions": "Use the International Student Financial Aid Worksheet and supporting income documents. A date on a weekend or holiday rolls to the next business day.",
+        "appliesTo": "International first-year applicants requesting aid"
+      },
     ],
     applicationFee: { amount: 90, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waivers are available; the fee was $90 for autumn 2026 entry' },
     documents: ['Application with the UChicago supplement', 'School transcript and reports', 'Teacher recommendations', 'Student Financial Aid Worksheet for international aid applicants'],
@@ -1505,7 +1971,7 @@ window.UNIPATH.universities.push(
     needBased: {
       availableToInternational: true, meetsFullNeed: true, needBlindInternational: null,
       forms: ['UChicago Student Financial Aid Worksheet', 'Income and asset documentation'],
-      deadlines: 'With the admission application',
+      deadlines: "Request financial aid on the admission application.",
       note: 'The pages consulted do not say whether admission is need-blind or need-aware for international applicants. Financial aid is not available to international transfer students.'
     }
   },
@@ -1549,8 +2015,128 @@ window.UNIPATH.universities.push(
     platforms: ['Common Application', 'Coalition on Scoir'],
     deadlines: [
       { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Hopkins requires standardized testing and advises finishing tests by October for ED.', status: 'confirmed', source: 'https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/early-decision/', verified: '2026-09-23', note: null },
-      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-02', date: '2 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding second early round.', status: 'confirmed', source: 'https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/early-decision/', verified: '2026-09-23', note: null },
-      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-02', date: '2 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Testing is required; Hopkins advises finishing tests by December.', status: 'confirmed', source: 'https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/', verified: '2026-09-23', note: null },
+      {
+        "name": "Early Decision II",
+        "kind": "ED2",
+        "date": "2 January 2027",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "status": "confirmed",
+        "source": "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
+          "verified": "2026-11-16",
+          "quote": "2026–2027 · Early Decision II and Regular Decision · January 2",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "dateISO": "2027-01-02",
+        "entryYear": "2027",
+        "entryTerm": "Autumn"
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "date": "2 January 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "status": "confirmed",
+        "source": "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
+          "verified": "2026-11-16",
+          "quote": "2026–2027 · Early Decision II and Regular Decision · January 2",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "dateISO": "2027-01-02",
+        "entryYear": "2027",
+        "entryTerm": "Autumn"
+      },
+      {
+        "name": "Early Decision II — CSS Profile",
+        "kind": "aid",
+        "source": "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
+        "verified": "2026-11-16",
+        "status": "confirmed",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
+          "verified": "2026-11-16",
+          "quote": "Financial Aid Submission Deadline · January 15",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "date": "15 January 2027",
+        "dateISO": "2027-01-15",
+        "entryYear": "2027",
+        "entryTerm": "Autumn",
+        "conditions": "The JHU ISFAA is an alternative if the CSS Profile cannot be completed.",
+        "appliesTo": "International first-year applicants requesting aid"
+      },
+      {
+        "name": "Early Decision II — admission decision",
+        "kind": "decision",
+        "source": "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
+        "verified": "2026-11-16",
+        "status": "confirmed",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
+          "verified": "2026-11-16",
+          "quote": "Decision Release · Early Decision II",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "date": "12 February 2027",
+        "dateISO": "2027-02-12",
+        "entryYear": "2027",
+        "entryTerm": "Autumn"
+      },
+      {
+        "name": "Regular Decision — CSS Profile",
+        "kind": "aid",
+        "source": "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
+        "verified": "2026-11-16",
+        "status": "confirmed",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
+          "verified": "2026-11-16",
+          "quote": "Financial Aid Submission Deadline · January 15",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "date": "15 January 2027",
+        "dateISO": "2027-01-15",
+        "entryYear": "2027",
+        "entryTerm": "Autumn",
+        "conditions": "The JHU ISFAA is an alternative if the CSS Profile cannot be completed.",
+        "appliesTo": "International first-year applicants requesting aid"
+      },
+      {
+        "name": "Regular Decision — admission decision",
+        "kind": "decision",
+        "source": "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
+        "verified": "2026-11-16",
+        "status": "confirmed",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
+          "verified": "2026-11-16",
+          "quote": "Decision Release · Regular Decision",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "date": "24 March 2027",
+        "dateISO": "2027-03-24",
+        "entryYear": "2027",
+        "entryTerm": "Autumn"
+      },
     ],
     applicationFee: { amount: 70, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waivers through the Common Application or Coalition on Scoir, or by Hopkins’ own request form' },
     documents: ['Common or Coalition application', 'Hopkins supplemental essay (350 words)', 'School transcript and secondary school report', 'Two teacher evaluations', 'SAT or ACT scores', 'Mid-year school report'],
@@ -1598,8 +2184,8 @@ window.UNIPATH.universities.push(
     merit: [],
     needBased: {
       availableToInternational: true, meetsFullNeed: true, needBlindInternational: false,
-      forms: ['CSS Profile', 'Certification of Finances'],
-      deadlines: '15 November 2026 (ED I) or 15 January 2027 (ED II and Regular Decision)',
+      forms: ["CSS Profile", "JHU ISFAA", "Certification of Finances where required"],
+      deadlines: null,
       note: 'Merit scholarships exist but are limited for international applicants.'
     }
   },
@@ -1875,8 +2461,216 @@ window.UNIPATH.universities.push(
     platforms: ['Common Application', 'Coalition on Scoir', 'QuestBridge Application'],
     deadlines: [
       { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-02', date: '2 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decisions in mid-December.', status: 'confirmed', source: 'https://admissions.tufts.edu/apply/applying-to-tufts/checklist-and-deadlines/', verified: '2026-09-23', note: null },
-      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decisions in mid-February.', status: 'confirmed', source: 'https://admissions.tufts.edu/apply/applying-to-tufts/checklist-and-deadlines/', verified: '2026-09-23', note: null },
-      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional; decisions by 1 April.', status: 'confirmed', source: 'https://admissions.tufts.edu/apply/applying-to-tufts/checklist-and-deadlines/', verified: '2026-09-23', note: null },
+      {
+        "name": "Early Decision II",
+        "kind": "ED2",
+        "date": "4 January 2027",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "status": "confirmed",
+        "source": "https://admissions.tufts.edu/apply/applying-to-tufts/checklist-and-deadlines/",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://admissions.tufts.edu/apply/applying-to-tufts/checklist-and-deadlines/",
+          "verified": "2026-11-16",
+          "quote": "Application Deadline · January 4, 2027",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "dateISO": "2027-01-04",
+        "entryYear": "2027",
+        "entryTerm": "Autumn",
+        "conditions": "International applicants seeking financial aid must indicate it on the admission application.",
+        "relatedSource": "https://students.tufts.edu/financial-services/undergrad-aid/prospectiveadmitted-students/apply-aid-prospective-undergraduate-students"
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "date": "4 January 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "status": "confirmed",
+        "source": "https://admissions.tufts.edu/apply/applying-to-tufts/checklist-and-deadlines/",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://admissions.tufts.edu/apply/applying-to-tufts/checklist-and-deadlines/",
+          "verified": "2026-11-16",
+          "quote": "Application Deadline · January 4, 2027",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "dateISO": "2027-01-04",
+        "entryYear": "2027",
+        "entryTerm": "Autumn",
+        "conditions": "International applicants seeking financial aid must indicate it on the admission application.",
+        "relatedSource": "https://students.tufts.edu/financial-services/undergrad-aid/prospectiveadmitted-students/apply-aid-prospective-undergraduate-students"
+      },
+      {
+        "name": "Early Decision II — admission documents",
+        "kind": "documents",
+        "source": "https://admissions.tufts.edu/apply/applying-to-tufts/checklist-and-deadlines/",
+        "verified": "2026-11-16",
+        "status": "confirmed",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://admissions.tufts.edu/apply/applying-to-tufts/checklist-and-deadlines/",
+          "verified": "2026-11-16",
+          "quote": "Secondary School Report and Letters of Recommendation · Early Decision II",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "date": "11 January 2027",
+        "dateISO": "2027-01-11",
+        "entryYear": "2027",
+        "entryTerm": "Autumn",
+        "conditions": "This date covers the school report and recommendations."
+      },
+      {
+        "name": "Early Decision II — CSS Profile",
+        "kind": "aid",
+        "source": "https://students.tufts.edu/financial-services/undergrad-aid/prospectiveadmitted-students/apply-aid-prospective-undergraduate-students",
+        "verified": "2026-11-16",
+        "status": "confirmed",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://students.tufts.edu/financial-services/undergrad-aid/prospectiveadmitted-students/apply-aid-prospective-undergraduate-students",
+          "verified": "2026-11-16",
+          "quote": "International Early Decision II · 2027-2028 CSS Profile",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "date": "15 January 2027",
+        "dateISO": "2027-01-15",
+        "entryYear": "2027",
+        "entryTerm": "Autumn",
+        "conditions": "If College Board does not allow online CSS submission, upload the ISFAA and supporting documents in the Tufts portal. If admitted through this route, submit CSS within 5–7 days of the decision.",
+        "appliesTo": "International first-year applicants requesting aid"
+      },
+      {
+        "name": "Early Decision II — financial aid documents",
+        "kind": "documents",
+        "source": "https://students.tufts.edu/financial-services/undergrad-aid/prospectiveadmitted-students/apply-aid-prospective-undergraduate-students",
+        "verified": "2026-11-16",
+        "status": "confirmed",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://students.tufts.edu/financial-services/undergrad-aid/prospectiveadmitted-students/apply-aid-prospective-undergraduate-students",
+          "verified": "2026-11-16",
+          "quote": "International Early Decision II · 2025 foreign tax returns",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "date": "1 February 2027",
+        "dateISO": "2027-02-01",
+        "entryYear": "2027",
+        "entryTerm": "Autumn",
+        "conditions": "Translate the foreign returns into English and convert amounts to US dollars.",
+        "appliesTo": "International first-year applicants requesting aid"
+      },
+      {
+        "name": "Regular Decision — admission documents",
+        "kind": "documents",
+        "source": "https://admissions.tufts.edu/apply/applying-to-tufts/checklist-and-deadlines/",
+        "verified": "2026-11-16",
+        "status": "confirmed",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://admissions.tufts.edu/apply/applying-to-tufts/checklist-and-deadlines/",
+          "verified": "2026-11-16",
+          "quote": "Secondary School Report and Letters of Recommendation · Regular Decision",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "date": "17 January 2027",
+        "dateISO": "2027-01-17",
+        "entryYear": "2027",
+        "entryTerm": "Autumn",
+        "conditions": "This date covers the school report and recommendations."
+      },
+      {
+        "name": "Regular Decision — CSS Profile",
+        "kind": "aid",
+        "source": "https://students.tufts.edu/financial-services/undergrad-aid/prospectiveadmitted-students/apply-aid-prospective-undergraduate-students",
+        "verified": "2026-11-16",
+        "status": "confirmed",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://students.tufts.edu/financial-services/undergrad-aid/prospectiveadmitted-students/apply-aid-prospective-undergraduate-students",
+          "verified": "2026-11-16",
+          "quote": "International Regular Decision · 2027-2028 CSS Profile",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "date": "1 February 2027",
+        "dateISO": "2027-02-01",
+        "entryYear": "2027",
+        "entryTerm": "Autumn",
+        "conditions": "If College Board does not allow online CSS submission, upload the ISFAA and supporting documents in the Tufts portal. If admitted through this route, submit CSS within 5–7 days of the decision.",
+        "appliesTo": "International first-year applicants requesting aid"
+      },
+      {
+        "name": "Regular Decision — financial aid documents",
+        "kind": "documents",
+        "source": "https://students.tufts.edu/financial-services/undergrad-aid/prospectiveadmitted-students/apply-aid-prospective-undergraduate-students",
+        "verified": "2026-11-16",
+        "status": "confirmed",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://students.tufts.edu/financial-services/undergrad-aid/prospectiveadmitted-students/apply-aid-prospective-undergraduate-students",
+          "verified": "2026-11-16",
+          "quote": "International Regular Decision · 2025 foreign tax returns",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "date": "15 February 2027",
+        "dateISO": "2027-02-15",
+        "entryYear": "2027",
+        "entryTerm": "Autumn",
+        "conditions": "Translate the foreign returns into English and convert amounts to US dollars.",
+        "appliesTo": "International first-year applicants requesting aid"
+      },
+      {
+        "name": "ED II and RD — visual art portfolio",
+        "kind": "portfolio",
+        "source": "https://admissions.tufts.edu/apply/applying-to-tufts/checklist-and-deadlines/",
+        "verified": "2026-11-16",
+        "status": "confirmed",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://admissions.tufts.edu/apply/applying-to-tufts/checklist-and-deadlines/",
+          "verified": "2026-11-16",
+          "quote": "Visual Art Portfolio · January 6, 2027",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "date": "6 January 2027",
+        "dateISO": "2027-01-06",
+        "entryYear": "2027",
+        "entryTerm": "Autumn",
+        "appliesTo": "BFA / BFA+BA/BS"
+      },
+      {
+        "name": "ED II / RD — admission documents",
+        "kind": "documents",
+        "source": "https://admissions.tufts.edu/apply/applying-to-tufts/checklist-and-deadlines/",
+        "verified": "2026-11-16",
+        "status": "confirmed",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://admissions.tufts.edu/apply/applying-to-tufts/checklist-and-deadlines/",
+          "verified": "2026-11-16",
+          "quote": "Mid-Year Grades · February 15, 2027",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "date": "15 February 2027",
+        "dateISO": "2027-02-15",
+        "entryYear": "2027",
+        "entryTerm": "Autumn",
+        "conditions": "The midyear grades are due on this date for both rounds."
+      },
     ],
     applicationFee: { amount: 75, currency: 'USD', waiverAvailableToInternational: true, waiver: 'Tufts waives the admission application fee for international citizens seeking need-based aid.', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://provost.tufts.edu/institutionalresearch/wp-content/uploads/sites/5/CDS_2025-2026.pdf', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application, Coalition on Scoir or QuestBridge application', 'School transcript', 'Letters of recommendation', 'ISFAA or CSS Profile for aid applicants'],
@@ -1931,8 +2725,8 @@ window.UNIPATH.universities.push(
     merit: [],
     needBased: {
       availableToInternational: true, meetsFullNeed: true, needBlindInternational: null,
-      forms: ['ISFAA (free)', 'CSS Profile'],
-      deadlines: 'With the admission application; CSS Profile within 5–7 days of an admission decision',
+      forms: ["CSS Profile", "ISFAA if online submission is unavailable"],
+      deadlines: "Request financial aid on the admission application.",
       note: 'The pages consulted do not say whether admission is need-blind or need-aware for international applicants.'
     }
   },
@@ -2180,8 +2974,38 @@ window.UNIPATH.universities.push(
     platforms: ['Common Application', 'Coalition on Scoir', 'QuestBridge Application'],
     deadlines: [
       { name: 'Fall Early Decision', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding.', status: 'confirmed', source: 'https://www.swarthmore.edu/admissions-aid/application-materials-deadlines', verified: '2026-09-23', note: null },
-      { name: 'Winter Early Decision', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Swarthmore recommends completing any testing by mid-December.', status: 'confirmed', source: 'https://www.swarthmore.edu/admissions-aid/application-materials-deadlines', verified: '2026-09-23', note: null },
-      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-04', date: '4 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional; decisions are released online by 1 April. Swarthmore does not consider the SAT or ACT writing sections.', status: 'confirmed', source: 'https://www.swarthmore.edu/admissions-aid/application-materials-deadlines', verified: '2026-09-23', note: null },
+      {
+        "name": "Winter Early Decision",
+        "kind": "ED2",
+        "date": "4 January",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "status": "annual-rule",
+        "source": "https://digital.swarthmore.edu/viewbook/",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://digital.swarthmore.edu/viewbook/",
+          "verified": "2026-11-16",
+          "quote": "Winter Early Decision · 4 January 2027"
+        }
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "date": "4 January",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "status": "annual-rule",
+        "source": "https://digital.swarthmore.edu/viewbook/",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://digital.swarthmore.edu/viewbook/",
+          "verified": "2026-11-16",
+          "quote": "Regular Decision · 4 January 2027"
+        }
+      },
     ],
     applicationFee: { amount: 60, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Fee waivers are decided by Swarthmore, the Common Application, NACAC, the College Board or the ACT; anyone with financial need can check eligibility through SwatPass.', note: 'Stated on Swarthmore’s application materials page: a $60 application fee or a fee waiver.', source: 'https://www.swarthmore.edu/admissions-aid/application-materials-deadlines', verified: '2026-10-06', status: 'confirmed' },
     documents: ['Common Application, Coalition on Scoir or QuestBridge application', 'Swarthmore short answer', 'School transcript and reports', 'Two academic teacher recommendations'],
@@ -2234,8 +3058,8 @@ window.UNIPATH.universities.push(
     merit: [],
     needBased: {
       availableToInternational: true, meetsFullNeed: true, needBlindInternational: false,
-      forms: ['Submitted after admission, on Swarthmore’s instructions'],
-      deadlines: 'Within seven days of the admission offer',
+      forms: [],
+      deadlines: "Indicate interest in aid on the admission application. The Fall 2027 financial aid forms and dates for international applicants are not confirmed; check the admissions portal.",
       note: 'Permanent residents, dual US citizens, DACA and undocumented students and those in the asylee or refugee process graduating from a US high school are read need-blind instead.'
     }
   },
@@ -2887,8 +3711,120 @@ window.UNIPATH.universities.push(
     platforms: ['Common Application', 'Coalition Application'],
     deadlines: [
       { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. If scores are submitted, the latest test date is November.', status: 'confirmed', source: 'https://www.vassar.edu/admission/apply/requirements/', verified: '2026-09-23', note: null },
-      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Latest test date December.', status: 'confirmed', source: 'https://www.vassar.edu/admission/apply/requirements/', verified: '2026-09-23', note: null },
-      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional; latest test date December.', status: 'confirmed', source: 'https://www.vassar.edu/admission/apply/requirements/', verified: '2026-09-23', note: null },
+      {
+        "name": "Early Decision II",
+        "kind": "ED2",
+        "date": "1 January",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "status": "annual-rule",
+        "source": "https://www.vassar.edu/admission/apply/requirements/",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.vassar.edu/admission/apply/requirements/",
+          "verified": "2026-11-16",
+          "quote": "Early Decision II · 1 January 2027"
+        }
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "date": "1 January",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "status": "annual-rule",
+        "source": "https://www.vassar.edu/admission/apply/requirements/",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.vassar.edu/admission/apply/requirements/",
+          "verified": "2026-11-16",
+          "quote": "Regular Decision · 1 January 2027"
+        }
+      },
+      {
+        "name": "Early Decision II — CSS Profile",
+        "kind": "aid",
+        "source": "https://offices.vassar.edu/student-financial-services/financial-aid/prospective-students/",
+        "verified": "2026-11-16",
+        "status": "confirmed",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://offices.vassar.edu/student-financial-services/financial-aid/prospective-students/",
+          "verified": "2026-11-16",
+          "quote": "2027–2028 · CSS Profile · Early Decision II",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "date": "1 January 2027",
+        "dateISO": "2027-01-01",
+        "entryYear": "2027",
+        "entryTerm": "Autumn",
+        "appliesTo": "International first-year applicants requesting aid"
+      },
+      {
+        "name": "Early Decision II — financial aid documents",
+        "kind": "documents",
+        "source": "https://offices.vassar.edu/student-financial-services/financial-aid/prospective-students/",
+        "verified": "2026-11-16",
+        "status": "confirmed",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://offices.vassar.edu/student-financial-services/financial-aid/prospective-students/",
+          "verified": "2026-11-16",
+          "quote": "2027–2028 · IDOC · Early Decision II",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "date": "1 January 2027",
+        "dateISO": "2027-01-01",
+        "entryYear": "2027",
+        "entryTerm": "Autumn",
+        "conditions": "Submit the documents required for your family circumstances through IDOC.",
+        "appliesTo": "International first-year applicants requesting aid"
+      },
+      {
+        "name": "Regular Decision — CSS Profile",
+        "kind": "aid",
+        "source": "https://offices.vassar.edu/student-financial-services/financial-aid/prospective-students/",
+        "verified": "2026-11-16",
+        "status": "confirmed",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://offices.vassar.edu/student-financial-services/financial-aid/prospective-students/",
+          "verified": "2026-11-16",
+          "quote": "2027–2028 · CSS Profile · Regular Decision",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "date": "1 February 2027",
+        "dateISO": "2027-02-01",
+        "entryYear": "2027",
+        "entryTerm": "Autumn",
+        "appliesTo": "International first-year applicants requesting aid"
+      },
+      {
+        "name": "Regular Decision — financial aid documents",
+        "kind": "documents",
+        "source": "https://offices.vassar.edu/student-financial-services/financial-aid/prospective-students/",
+        "verified": "2026-11-16",
+        "status": "confirmed",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://offices.vassar.edu/student-financial-services/financial-aid/prospective-students/",
+          "verified": "2026-11-16",
+          "quote": "2027–2028 · IDOC · Regular Decision",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "date": "1 February 2027",
+        "dateISO": "2027-02-01",
+        "entryYear": "2027",
+        "entryTerm": "Autumn",
+        "conditions": "Submit the documents required for your family circumstances through IDOC.",
+        "appliesTo": "International first-year applicants requesting aid"
+      },
     ],
     applicationFee: { amount: 65, currency: 'USD', waiverAvailableToInternational: null, waiver: 'A fee waiver can be requested on the Common Application or the Coalition Application', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://offices.vassar.edu/institutional-research/wp-content/uploads/sites/23/2026/03/Vassar_College_CDS_2025-2026.pdf', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common or Coalition Application', 'School transcript and reports', 'Teacher recommendations', 'Financial aid forms for aid applicants'],
@@ -2939,8 +3875,8 @@ window.UNIPATH.universities.push(
     merit: [],
     needBased: {
       availableToInternational: true, meetsFullNeed: true, needBlindInternational: false,
-      forms: ['Financial aid forms listed on Vassar’s international aid schedule'],
-      deadlines: '15 November (ED I), 1 January (ED II), 1 February (Regular Decision)',
+      forms: ["CSS Profile", "IDOC"],
+      deadlines: "Request financial aid on the admission application.",
       note: 'Aid cannot be requested after admission.'
     }
   },
@@ -4652,8 +5588,83 @@ window.UNIPATH.universities.push(
     platforms: ['Common Application'],
     deadlines: [
       { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decision in late December.', status: 'confirmed', source: 'https://www.brynmawr.edu/admissions-aid/apply', verified: '2026-10-06', note: null },
-      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decision in mid-February.', status: 'confirmed', source: 'https://www.brynmawr.edu/admissions-aid/apply', verified: '2026-10-06', note: 'Bryn Mawr’s Apply page lists the date for the current cycle without the year. The older admission-plans page returned “access denied” on 6 October 2026.' },
-      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Decision in mid-March.', status: 'confirmed', source: 'https://www.brynmawr.edu/admissions-aid/apply', verified: '2026-10-06', note: 'Bryn Mawr’s Apply page lists the date for the current cycle without the year. The older admission-plans page returned “access denied” on 6 October 2026.' },
+      {
+        "name": "Early Decision II",
+        "kind": "ED2",
+        "date": "1 January",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "status": "annual-rule",
+        "source": "https://www.brynmawr.edu/admissions-aid/apply",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.brynmawr.edu/admissions-aid/apply",
+          "verified": "2026-11-16",
+          "quote": "Early Decision II · 1 January 2027"
+        }
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "date": "15 January",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "status": "annual-rule",
+        "source": "https://www.brynmawr.edu/admissions-aid/apply",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.brynmawr.edu/admissions-aid/apply",
+          "verified": "2026-11-16",
+          "quote": "Regular Decision · 15 January 2027"
+        }
+      },
+      {
+        "name": "Early Decision II — CSS Profile",
+        "kind": "aid",
+        "source": "https://www.brynmawr.edu/admissions-aid/apply",
+        "verified": "2026-11-16",
+        "status": "annual-rule",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.brynmawr.edu/admissions-aid/apply",
+          "verified": "2026-11-16",
+          "quote": "Complete your financial aid application at the same time as your admissions application."
+        },
+        "date": "1 January",
+        "appliesTo": "International first-year applicants requesting aid"
+      },
+      {
+        "name": "Regular Decision — CSS Profile",
+        "kind": "aid",
+        "source": "https://www.brynmawr.edu/admissions-aid/apply",
+        "verified": "2026-11-16",
+        "status": "annual-rule",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.brynmawr.edu/admissions-aid/apply",
+          "verified": "2026-11-16",
+          "quote": "Complete your financial aid application at the same time as your admissions application."
+        },
+        "date": "15 January",
+        "appliesTo": "International first-year applicants requesting aid"
+      },
+      {
+        "name": "Regular Decision — admission documents",
+        "kind": "documents",
+        "source": "https://www.brynmawr.edu/admissions-aid/apply",
+        "verified": "2026-11-16",
+        "status": "annual-rule",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.brynmawr.edu/admissions-aid/apply",
+          "verified": "2026-11-16",
+          "quote": "we will need your mid-year report by February 15"
+        },
+        "date": "15 February",
+        "conditions": "This is the later date for the midyear report if it was unavailable by January 15."
+      },
     ],
     applicationFee: { amount: 0, currency: 'USD', waiverAvailableToInternational: null, waiver: null, note: 'The 2025–26 Common Data Set (section C13) says there is no application fee.', source: 'https://www.brynmawr.edu/sites/default/files/media/documents/2026-04/CDS%202025-26%20Bryn%20Mawr%20Read%20Only.pdf', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application with the Bryn Mawr Writing Supplement', 'Official transcripts and national exam results (IB, A-Level, etc.)', 'Counsellor recommendation and two teacher recommendations', 'Evidence of English proficiency', 'Mid-year grade report', 'Declaration of Finances form', 'CSS Profile for aid applicants'],
@@ -4715,7 +5726,7 @@ window.UNIPATH.universities.push(
     needBased: {
       availableToInternational: true, meetsFullNeed: true, needBlindInternational: false,
       forms: ['CSS Profile', 'Additional verification documents', 'Declaration of Finances'],
-      deadlines: 'Same as the admission deadline for your round',
+      deadlines: null,
       note: 'The average aid package for a need-eligible student is over $70,000.'
     }
   },
@@ -4949,8 +5960,38 @@ window.UNIPATH.universities.push(
     platforms: ['Common Application', 'Coalition Application'],
     deadlines: [
       { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Financial aid deadline the same day; notification in mid-December.', status: 'confirmed', source: 'https://www.wesleyan.edu/admission/application-process.html', verified: '2026-10-01', note: null },
-      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Financial aid deadline the same day; notification in mid-February.', status: 'confirmed', source: 'https://www.wesleyan.edu/admission/application-process.html', verified: '2026-10-01', note: null },
-      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional: scores are considered if sent and ignored if not. Financial aid deadline the same day; notification in late March.', status: 'confirmed', source: 'https://www.wesleyan.edu/admission/application-process.html', verified: '2026-10-01', note: null },
+      {
+        "name": "Early Decision II",
+        "kind": "ED2",
+        "date": "1 January",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "status": "annual-rule",
+        "source": "https://www.wesleyan.edu/admission/application-process.html",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.wesleyan.edu/admission/application-process.html",
+          "verified": "2026-11-16",
+          "quote": "Early Decision II · 1 January 2027"
+        }
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "date": "1 January",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "status": "annual-rule",
+        "source": "https://www.wesleyan.edu/admission/application-process.html",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.wesleyan.edu/admission/application-process.html",
+          "verified": "2026-11-16",
+          "quote": "Regular Decision · 1 January 2027"
+        }
+      },
     ],
     applicationFee: { amount: 65, currency: 'USD', waiverAvailableToInternational: null, waiver: 'The Common Data Set says the fee can be waived for applicants with financial need; whether that covers international applicants was not checked.', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://www.wesleyan.edu/ir/common-data-sets.html', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common or Coalition Application', 'School Report with actual or predicted exam results (A-Level, IB, French Baccalaureate and others)', 'Certified English translations of any documents not in English', 'International Student Certification of Finances', 'CSS Profile or ISFAA for aid applicants'],
@@ -5010,7 +6051,7 @@ window.UNIPATH.universities.push(
     needBased: {
       availableToInternational: true, meetsFullNeed: true, needBlindInternational: null,
       forms: ['CSS Profile', 'CSS Noncustodial Parent Profile where applicable', 'ISFAA if the CSS Profile is unavailable'],
-      deadlines: '15 November (ED I), 1 January (ED II), 15 January (Regular Decision)',
+      deadlines: "The published general aid schedule lists January 1 (ED II) and January 15 (RD). The international aid deadlines for Fall 2027 are not confirmed.",
       note: 'The pages consulted do not say in so many words whether admission is need-aware for international applicants.'
     }
   },
@@ -6022,8 +7063,74 @@ window.UNIPATH.universities.push(
     platforms: ['Common Application'],
     deadlines: [
       { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Lehigh is test-optional indefinitely for first-year and transfer applicants.', status: 'confirmed', source: 'https://www2.lehigh.edu/admissions/apply', verified: '2026-09-23', note: null },
-      { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding.', status: 'confirmed', source: 'https://www2.lehigh.edu/admissions/apply', verified: '2026-09-23', note: null },
-      { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional; decisions in late March.', status: 'confirmed', source: 'https://www2.lehigh.edu/admissions/apply', verified: '2026-10-01', note: 'Lehigh’s current page lists the dates without a year.' },
+      {
+        "name": "Early Decision II",
+        "kind": "ED2",
+        "date": "1 January",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "status": "annual-rule",
+        "source": "https://www2.lehigh.edu/admissions/apply",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www2.lehigh.edu/admissions/apply",
+          "verified": "2026-11-16",
+          "quote": "Early Decision II · 1 January 2027"
+        }
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "date": "1 January",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "status": "annual-rule",
+        "source": "https://www2.lehigh.edu/admissions/apply",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www2.lehigh.edu/admissions/apply",
+          "verified": "2026-11-16",
+          "quote": "Regular Decision · 1 January 2027"
+        }
+      },
+      {
+        "name": "Early Decision II — CSS Profile",
+        "kind": "aid",
+        "source": "https://www2.lehigh.edu/admissions/international-students",
+        "sourceLabel": "International aid instructions ↗",
+        "relatedSource": "https://www2.lehigh.edu/admissions/tuition-affording-college/how-apply-financial-aid",
+        "relatedSourceLabel": "General financial aid schedule ↗",
+        "verified": "2026-11-16",
+        "status": "not-confirmed",
+        "date": "January 1 or January 15 — conflicting official sources",
+        "entryYear": "2027",
+        "entryTerm": "Autumn",
+        "conditions": "The international instructions specify January 15 for the CSS Profile. The general aid table lists January 1 for ED II, while the CSS Profile instructions on that same page say January 15. The applicable Fall 2027 cutoff has not been resolved.",
+        "appliesTo": "International first-year applicants requesting aid"
+      },
+      {
+        "name": "Regular Decision — CSS Profile",
+        "kind": "aid",
+        "source": "https://www2.lehigh.edu/admissions/international-students",
+        "verified": "2026-11-16",
+        "status": "confirmed",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://www2.lehigh.edu/admissions/international-students",
+          "verified": "2026-11-16",
+          "quote": "INTLwaiver2027 · Early Decision II or Regular Decision: January 15",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "date": "15 January 2027",
+        "dateISO": "2027-01-15",
+        "entryYear": "2027",
+        "entryTerm": "Autumn",
+        "conditions": "Submit the CSS Profile or, in case of significant financial hardship, follow the instructions for submitting the ISAFA.",
+        "appliesTo": "International first-year applicants requesting aid"
+      },
     ],
     applicationFee: { amount: 75, currency: 'USD', waiverAvailableToInternational: null, waiver: 'The Common Data Set says the fee can be waived for applicants with financial need; whether that covers international applicants was not checked.', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://data.lehigh.edu/sites/data.lehigh.edu/files/1302026-CDS-2025-2026-FINAL.pdf', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'International Undergraduate Financial Certification Form', 'CSS Profile for aid applicants'],
@@ -6071,7 +7178,7 @@ window.UNIPATH.universities.push(
     needBased: {
       availableToInternational: true, meetsFullNeed: false, needBlindInternational: false,
       forms: ['CSS Profile', 'International Undergraduate Financial Certification Form'],
-      deadlines: '1 November (ED I) or 15 January (ED II and Regular Decision)',
+      deadlines: "Lehigh uses the FinAid Doc Center or mail for tax and supplemental documents. A separate Fall 2027 cutoff for international tax documents was not verified.",
       note: 'Full need is not guaranteed for every admitted international student.'
     }
   },
@@ -12272,32 +13379,62 @@ window.UNIPATH.universities.push(
       {
         "name": "Early Decision II",
         "kind": "ED2",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-01-01",
-        "date": "1 January 2027",
+        "date": "1 January",
         "binding": true,
         "appliesTo": "First-year applicants",
-        "conditions": "Binding. Interview recording by 15 January.",
-        "status": "confirmed",
-        "source": "https://www.northeastern.edu/admissions/",
-        "verified": "2026-10-01",
-        "note": null
+        "status": "annual-rule",
+        "source": "https://admissions.northeastern.edu/academics/specialized-entry-programs/admissions-deadlines-decisions/",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://admissions.northeastern.edu/academics/specialized-entry-programs/admissions-deadlines-decisions/",
+          "verified": "2026-11-16",
+          "quote": "Early Decision II · 1 January 2027"
+        }
       },
       {
         "name": "Regular Decision",
         "kind": "RD",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-01-01",
-        "date": "1 January 2027",
+        "date": "1 January",
         "binding": false,
         "appliesTo": "First-year applicants",
-        "conditions": "Interview recording by 1 February.",
-        "status": "confirmed",
-        "source": "https://www.northeastern.edu/admissions/",
-        "verified": "2026-10-01",
-        "note": null
+        "status": "annual-rule",
+        "source": "https://admissions.northeastern.edu/academics/specialized-entry-programs/admissions-deadlines-decisions/",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://admissions.northeastern.edu/academics/specialized-entry-programs/admissions-deadlines-decisions/",
+          "verified": "2026-11-16",
+          "quote": "Regular Decision · 1 January 2027"
+        }
+      },
+      {
+        "name": "Early Decision II — admission documents",
+        "kind": "documents",
+        "source": "https://admissions.northeastern.edu/academics/specialized-entry-programs/admissions-deadlines-decisions/",
+        "verified": "2026-11-16",
+        "status": "annual-rule",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://admissions.northeastern.edu/academics/specialized-entry-programs/admissions-deadlines-decisions/",
+          "verified": "2026-11-16",
+          "quote": "Application materials deadline · January 15"
+        },
+        "date": "15 January"
+      },
+      {
+        "name": "Regular Decision — admission documents",
+        "kind": "documents",
+        "source": "https://admissions.northeastern.edu/academics/specialized-entry-programs/admissions-deadlines-decisions/",
+        "verified": "2026-11-16",
+        "status": "annual-rule",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://admissions.northeastern.edu/academics/specialized-entry-programs/admissions-deadlines-decisions/",
+          "verified": "2026-11-16",
+          "quote": "Application materials deadline · February 1"
+        },
+        "date": "1 February"
       }
     ],
     "applicationFee": {
@@ -12438,7 +13575,7 @@ window.UNIPATH.universities.push(
       "meetsFullNeed": false,
       "needBlindInternational": null,
       "forms": [],
-      "deadlines": null,
+      "deadlines": "The institutional need-based aid schedule applies to eligible applicants. International applicants on F-1 visas are considered for merit awards with their admission application.",
       "note": "International students must show they can fully finance their studies through the Declaration and Certification of Finances."
     }
   },
