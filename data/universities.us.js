@@ -1957,9 +1957,9 @@ window.UNIPATH.universities.push(
           conditions:
             "One UC application covers all nine campuses. You can start work on it from 1 August; the filing period is 1 October – 30 November.",
           status: "confirmed",
-          source:
-            "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-freshman/",
-          verified: "2026-10-01",
+          source: "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/dates-and-deadlines.html",
+          verified: "2026-11-16",
+          cycleEvidence: {"basis": "page-context", "source": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/dates-and-deadlines.html", "verified": "2026-11-16", "quote": "Fall 2027 admission application filing period.", "entryTerm": "Autumn", "entryYear": "2027"},
           note: null,
         },
         {
@@ -2092,20 +2092,24 @@ window.UNIPATH.universities.push(
         competitiveness:
           "Extremely narrow. The only Berkeley award that reaches the full cost of attendance for international students is the Swaniker Scholars Program, which requires nomination by ALX or African Leadership Academy.",
         howToApply:
-          "You cannot apply directly — candidates must be nominated by ALX or ALA. All other admitted international students are automatically considered for the scholarships they are eligible for.",
-        note: 'The Swaniker Scholars Program covers "up to the full cost of attendance for four years" for talented students from across the African continent. For everyone else, Berkeley states plainly that international students are ineligible for federal, state and need-based university aid.',
+          "Swaniker candidates must be nominated by ALX or ALA.",
+        note: "The Swaniker Scholars Program covers \"up to the full cost of attendance for four years\" for talented students from across the African continent. Berkeley also lists institutional awards for international students; federal and state aid are generally unavailable.",
       },
       merit: [
         {
           name: "Regents' and Chancellor's Scholarship",
           amount:
-            "A monetary award plus additional benefits; Berkeley does not publish the amount on the international scholarships page",
+            "Minimum award of $2,500 per year; individual awards may be higher",
           eligibility:
             "Exceptional admitted students showing creativity, leadership, service and strong convictions",
           deadline: null,
           application:
-            "All admitted international students are automatically considered",
-          renewable: null,
+            "The UC Berkeley admission application is used to consider first-year international applicants for Regents’ & Chancellor’s.",
+          renewable: true,
+          internationalEligible: true,
+          deadlineScope: "no-separate-application",
+          source: "https://financialaid.berkeley.edu/types-of-aid-at-berkeley/scholarships/regents-and-chancellors-scholarship/",
+          verified: "2026-11-16",
           note: "Berkeley calls this its most prestigious undergraduate scholarship.",
         },
         {
@@ -2142,12 +2146,12 @@ window.UNIPATH.universities.push(
         },
       ],
       needBased: {
-        availableToInternational: false,
+        availableToInternational: true,
         meetsFullNeed: false,
         needBlindInternational: false,
         forms: [],
         deadlines: null,
-        note: 'Berkeley states: "International students are ineligible for federal, state, and need-based university financial aid." Only US citizens, eligible non-citizens and AB 540 students can receive it. Plan on paying the full nonresident cost unless you win one of the named scholarships above.',
+        note: "Berkeley lists two competitive need-based awards for eligible international students: Robinson International Scholars and International Leaders Scholarship. General federal and state aid is usually unavailable to international students.",
       },
     },
     photos: { main: null, gallery: [], city: null },

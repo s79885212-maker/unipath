@@ -867,6 +867,38 @@ const ruSource = fs.readFileSync(path.join(ROOT, 'data/i18n/ru.js'), 'utf8');
 ok(ruSource.slice(ruSource.indexOf('window.UNIPATH_I18N.ru = {')).includes('"At least 5.5 in each section.":'),
   'APU IELTS sections are registered in the Russian dictionary that the packer reads');
 
+const tsukubaAudit = U.uniById('university-of-tsukuba');
+const tsukubaAward = U.meritList(tsukubaAudit).find(a => a.id === 'tsukuba-student-support');
+ok(tsukubaAward && U.awardDates(tsukubaAudit, tsukubaAward).some(d =>
+  d.dateISO === '2027-02-22' && d.time === '17:00' && d.timezone === 'JST' && U.roundStatus(d) === 'confirmed') &&
+  U.roundsOf(tsukubaAudit).some(d => d.kind === 'documents' && d.dateISO === '2027-08-31') && !U.awardKind(tsukubaAudit),
+  'Tsukuba links the competitive scholarship to its own deadline and keeps the originals separate');
+const nagoyaAudit = U.uniById('nagoya-university');
+ok(['2026-11-19', '2027-01-21'].every(date =>
+  U.roundsOf(nagoyaAudit).some(d => d.dateISO === date && d.time === '12:00' && d.timezone === 'JST' && U.roundStatus(d) === 'confirmed')) &&
+  U.meritList(nagoyaAudit).some(a => a.basis === 'need-merit' && a.internationalEligible) && !U.awardKind(nagoyaAudit),
+  'Nagoya noon closures and competitive scholarship do not imply a full ride');
+const g30Award = U.meritList(nagoyaAudit).find(a => a.id === 'nagoya-g30-undergraduate-scholarship');
+ok(g30Award && ['2026-11-19', '2027-01-21'].every(date =>
+  U.awardDates(nagoyaAudit, g30Award).some(d => d.kind === 'scholarship' && d.dateISO === date &&
+    d.time === '12:00' && d.timezone === 'JST' && U.roundStatus(d) === 'confirmed')) &&
+  ['2027-03-08', '2027-04-16'].every(date => U.roundsOf(nagoyaAudit).some(d => d.kind === 'documents' &&
+    d.dateISO === date && d.time === '16:00' && d.timezone === 'JST' && U.roundStatus(d) === 'confirmed')),
+  'Nagoya links both scholarship rounds and records the separate official-document deadlines');
+ok(['nagoya-university', 'university-of-tsukuba', 'hokkaido-university', 'uc-berkeley', 'uc-san-diego', 'muhlenberg-college'].every(id => {
+  const u = U.uniById(id);
+  const result = M.evaluate(u, { ielts: null, sat: null, gpa: null, budget: 0, currency: U.costCurrency(u) });
+  return !U.costAfterAid(u) && !['core-covered', 'fits', 'fits-billed', 'fits-tuition', 'fits-no-extras'].includes(result.budget.status);
+}), 'Competitive, unconfirmed and first-semester awards do not create guaranteed aid or a zero-budget match');
+const hokkaidoAudit = U.uniById('hokkaido-university');
+ok(U.awardsAll(hokkaidoAudit).some(a => a.entryYear === '2027' && a.basis === 'automatic' &&
+  a.deadlineScope === 'no-separate-application' && /first-semester/.test(a.amount)) && !U.awardKind(hokkaidoAudit),
+  'Hokkaido automatic 2027 fee waiver covers only the initial semester of tuition');
+ok(['uc-berkeley', 'ucla', 'uc-san-diego'].every(id =>
+  U.roundsOf(U.uniById(id)).some(d => d.dateISO === '2026-11-30' &&
+    !d.time && !d.timezone && U.roundStatus(d) === 'confirmed' && d.cycleEvidence.entryYear === '2027')),
+  'The selected UC dates use the official Fall 2027 calendar without an invented closing time');
+
 console.log('\n' + passed + ' passed, ' + failed + ' failed');
 
 /* Exit with a status only when run directly; tests/links.js loads this file for the data. */
