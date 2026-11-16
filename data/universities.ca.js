@@ -6532,6 +6532,72 @@ window.UNIPATH.universities.push(
         "source": "https://umanitoba.ca/financial-aid-and-awards/entrance-awards",
         "verified": "2026-10-15",
         "note": "The page prints “Mar. 1, 2027” but labels the line “(Fall 2026)”; the intake this date belongs to is not clear, so it is shown as not confirmed."
+      },
+      {
+        "name": "International Excellence — admission application and fee",
+        "kind": "admission",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-12-01",
+        "date": "1 December 2026",
+        "status": "confirmed",
+        "source": "https://www.umanitoba.ca/financial-aid-and-awards/entrance-awards/international-excellence-entrance-scholarship",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://www.umanitoba.ca/financial-aid-and-awards/entrance-awards/international-excellence-entrance-scholarship",
+          "verified": "2026-11-16",
+          "quote": "application for admission and have references submitted by December 1",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "appliesTo": "International Excellence Entrance Scholarship applicants",
+        "awardId": "international-excellence",
+        "awardCategory": "merit"
+      },
+      {
+        "name": "International Excellence — recommendation",
+        "kind": "documents",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-12-01",
+        "date": "1 December 2026",
+        "status": "confirmed",
+        "source": "https://www.umanitoba.ca/financial-aid-and-awards/entrance-awards/international-excellence-entrance-scholarship",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://www.umanitoba.ca/financial-aid-and-awards/entrance-awards/international-excellence-entrance-scholarship",
+          "verified": "2026-11-16",
+          "quote": "submit their recommendation of the applicant by December 1",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "appliesTo": "International Excellence Entrance Scholarship applicants",
+        "awardId": "international-excellence",
+        "awardCategory": "merit"
+      },
+      {
+        "name": "International Excellence — interim grades",
+        "kind": "documents",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-03-01",
+        "date": "1 March 2027",
+        "status": "confirmed",
+        "source": "https://www.umanitoba.ca/financial-aid-and-awards/entrance-awards/international-excellence-entrance-scholarship",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://www.umanitoba.ca/financial-aid-and-awards/entrance-awards/international-excellence-entrance-scholarship",
+          "verified": "2026-11-16",
+          "quote": "predicted or interim grades/transcripts submitted by March 1",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "appliesTo": "International Excellence Entrance Scholarship applicants",
+        "awardId": "international-excellence",
+        "awardCategory": "merit"
       }
     ],
     "applicationFee": {
@@ -6671,14 +6737,15 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Scholarship application with one teacher or principal reference, and the admission application with fee, by 1 December 2026",
         "renewable": null,
-        "note": "The award pages do not state renewal. Decisions are released in mid-March 2027.",
+        "note": "Competitive entrance award. Remaining tuition, fees, housing and meals must be budgeted independently. Renewal is unconfirmed.",
         "basis": "merit",
-        "source": "https://umanitoba.ca/financial-aid-and-awards/entrance-awards/international-excellence-entrance-scholarship",
-        "verified": "2026-10-27",
+        "source": "https://www.umanitoba.ca/financial-aid-and-awards/entrance-awards/international-excellence-entrance-scholarship",
+        "verified": "2026-11-16",
         "id": "international-excellence",
         "category": "merit",
         "entryTerm": "Autumn",
-        "entryYear": "2027"
+        "entryYear": "2027",
+        "internationalEligible": true
       },
       {
         "name": "University of Manitoba General Entrance Scholarships",
@@ -19363,19 +19430,25 @@ window.UNIPATH.universities.push(
     ],
     "deadlines": [
       {
-        "name": "Grades for early admission (high school applicants)",
+        "name": "Early admission — grades or transcripts",
         "kind": "priority",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2026-12-01",
-        "date": "1 December 2026",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "Early December (general guidance)",
         "binding": false,
         "appliesTo": "First-year applicants",
-        "conditions": "Applicants who submit grades by early December can be considered for early admission; the page gives no exact day.",
-        "status": "not-confirmed",
+        "conditions": "December 1 is specifically published for U.S. high school applicants with a qualifying GPA.",
+        "status": "annual-rule",
         "source": "https://www.uvic.ca/undergraduate/admissions/application-deadlines/index.php",
-        "verified": "2026-10-19",
-        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry."
+        "verified": "2026-11-16",
+        "note": "The page prints this date without a year; it was read in October 2026, during the cycle for autumn 2027 entry.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "source": "https://www.uvic.ca/undergraduate/admissions/application-deadlines/index.php",
+          "verified": "2026-11-16",
+          "quote": "submit grades/transcripts by early December"
+        }
       },
       {
         "name": "Application deadline, September entry (most degree programmes)",
@@ -19452,14 +19525,16 @@ window.UNIPATH.universities.push(
   "academics": {
     "gpa": null,
     "sat": {
-      "policy": "optional",
-      "note": "Standardized tests (SAT, ACT) are not required but will be considered if submitted. Some programme pages give guideline scores.",
+      "policy": "conditional",
+      "note": "Optional for applicants from U.S. high schools. The cited policy does not establish the rule for other school systems.",
       "source": "https://www.uvic.ca/undergraduate/info-for/us-students/index.php",
-      "verified": "2026-10-20"
+      "verified": "2026-11-16"
     },
     "act": {
-      "policy": null,
-      "note": "Not checked on the pages read."
+      "policy": "conditional",
+      "note": "Optional for applicants from U.S. high schools. The cited policy does not establish the rule for other school systems.",
+      "source": "https://www.uvic.ca/undergraduate/info-for/us-students/index.php",
+      "verified": "2026-11-16"
     },
     "otherTests": null,
     "internationalQualifications": "Uzbekistan: Attestat o srednem obrazovanii (at Grade 11).",
