@@ -820,7 +820,11 @@
   function cardCost(u) {
     if (costAfterAid(u)) return { kind: 'covered', label: 'After guaranteed aid', text: 'Main costs covered', suffix: ' — other expenses remain', known: true };
     var t = tuitionText(u);
-    if (t) return { kind: 'tuition', label: tuitionLabel(u), text: t, suffix: perPeriod(u), known: true };
+    if (t) {
+      var historicalYear = costStatus(u) === 'previous-cycle' ? costYear(u) : null;
+      return { kind: 'tuition', label: tuitionLabel(u), text: t,
+        suffix: perPeriod(u) + (historicalYear ? ' · ' + historicalYear : ''), known: true };
+    }
     if (costStatus(u) === 'confirmed') {
       if (billedAmount(u) !== null) return { kind: 'billed', label: billedLabel(u), text: money(billedAmount(u), costCurrency(u)), suffix: ' per year', known: true };
       if (budgetText(u)) return { kind: 'budget', label: 'Full yearly budget', text: budgetText(u), suffix: '', known: true };

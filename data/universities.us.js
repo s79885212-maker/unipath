@@ -1614,122 +1614,182 @@ window.UNIPATH.universities.push(
         "Transcripts must be evaluated by a NACES member credential evaluation agency.",
     },
     costs: {
-      breakdown: {
-        tuition: 36724,
-        billed: 52202,
-        budget: 60400,
-        includes:
-          "out-of-state tuition and fees, on-campus housing and food, books, transportation, miscellaneous expenses and a loan fee estimate",
+      "breakdown": {
+        "tuition": 36724,
+        "billed": 52202,
+        "budget": 60400,
+        "includes": "out-of-state tuition and fees, on-campus housing and food, books, transportation, miscellaneous expenses and a loan fee estimate"
       },
-      academicYear: "2026–2027",
-      currency: "USD",
-      headline: "$60,400 total (out-of-state, on campus)",
-      items: [
-        { label: "Tuition and fees (out-of-state)", amount: 36724 },
-        { label: "Housing (on campus)", amount: 10000 },
-        { label: "Food", amount: 5478 },
-        { label: "Books", amount: 700 },
-        { label: "Transportation", amount: 3354 },
-        { label: "Miscellaneous", amount: 4064 },
-        { label: "Loan fee estimate", amount: 80 },
+      "academicYear": "2026–2027",
+      "currency": "USD",
+      "headline": "$60,400 total (out-of-state, on campus)",
+      "items": [
+        {
+          "label": "Tuition and fees (out-of-state)",
+          "amount": 36724
+        },
+        {
+          "label": "Housing (on campus)",
+          "amount": 10000
+        },
+        {
+          "label": "Food",
+          "amount": 5478
+        },
+        {
+          "label": "Books",
+          "amount": 700
+        },
+        {
+          "label": "Transportation",
+          "amount": 3354
+        },
+        {
+          "label": "Miscellaneous",
+          "amount": 4064
+        },
+        {
+          "label": "Loan fee estimate",
+          "amount": 80
+        }
       ],
-      billedSubtotal: 52202,
-      totalText: "$60,400 estimated cost of attendance for the year",
-      note: "UA's on-campus budget for an out-of-state, full-time undergraduate; the page was last updated in July 2026 and does not print the academic year. International students pay the out-of-state rate. Direct (UA-billed) costs are $52,202.",
+      "billedSubtotal": 52202,
+      "totalText": "$60,400 estimated cost of attendance for the year",
+      "note": "The university labels the $60,400 on-campus non-resident estimate as 2026–27. It is before scholarships.",
+      "status": "previous-cycle",
+      "source": "https://afford.ua.edu/cost/",
+      "verified": "2026-11-16"
     },
     scholarships: {
-      fullRide: {
-        available: true,
-        internationalEligible: true,
-        basis: "merit",
-        covers: {
-          tuition: true,
-          housing: true,
-          meals: false,
-          insurance: false,
-          books: null,
+      "fullRide": {
+        "available": true,
+        "internationalEligible": true,
+        "basis": "automatic",
+        "covers": {
+          "tuition": true,
+          "housing": true,
+          "meals": false,
+          "insurance": false,
+          "books": null
         },
-        renewable: true,
-        competitiveness:
-          "Requires a 4.0+ GPA together with a 36 ACT or 1600 SAT — an extremely narrow band, but it is an automatic award rather than a competition: hit the numbers and you receive it.",
-        howToApply:
-          "Automatic. Apply for admission by the deadline and have official ACT/SAT scores sent by the testing agency.",
-        note: "The Presidential Elite Scholar award covers the value of tuition for up to four years (eight semesters), the first year of on-campus housing at the regular room rate, a $1,500 per year supplemental scholarship for four years, and a $2,000 one-time allowance for research or international study after one year at UA. It does not include meals or health insurance, so it is close to but not literally a full ride.",
+        "renewable": true,
+        "competitiveness": "Requires a 4.0+ GPA together with a 36 ACT or 1600 SAT — an extremely narrow band, but it is an automatic award rather than a competition: hit the numbers and you receive it.",
+        "howToApply": "Automatic. Apply for admission by the deadline and have official ACT/SAT scores sent by the testing agency.",
+        "note": "The Presidential Elite Scholar award covers the value of tuition for up to four years (eight semesters), the first year of on-campus housing at the regular room rate, a $1,500 per year supplemental scholarship for four years, and a $2,000 one-time allowance for research or international study after one year at UA. It does not include meals or health insurance, so it is close to but not literally a full ride.",
+        "testRequirement": "Official ACT or SAT scores are needed: Alabama awards its automatic merit scholarships on standardized test scores and GPA.",
+        "renewalConditions": "Up to eight semesters of tuition. Maintain a cumulative 3.0 UA GPA and earn at least 67% of attempted UA credit hours.",
+        "detailsSource": "https://afford.ua.edu/scholarships/oos-international-freshman/",
+        "detailsVerified": "2026-11-16",
+        "name": "Presidential Elite Scholar"
       },
-      merit: [
+      "merit": [
         {
-          name: "Crimson Legends Scholarship",
-          amount: "$6,000 per year",
-          eligibility: "GPA 3.50+ with ACT 25–26 or SAT 1200–1250",
-          deadline: "2 November (spring) / 4 December (summer & fall)",
-          application: "Automatic with admission application",
-          renewable: null,
-          note: "Values are identical for out-of-state and international students.",
+          "name": "Crimson Legends Scholarship",
+          "amount": "$6,000 per year",
+          "eligibility": "GPA 3.50+ with ACT 25–26 or SAT 1200–1250",
+          "deadline": "2 November (spring) / 4 December (summer & fall)",
+          "application": "Automatic with admission application",
+          "renewable": null,
+          "note": "Values are identical for out-of-state and international students.",
+          "basis": "automatic",
+          "internationalEligible": true,
+          "firstYearEligible": true,
+          "source": "https://afford.ua.edu/scholarships/oos-international-freshman/",
+          "verified": "2026-11-16"
         },
         {
-          name: "Capstone Scholarship",
-          amount: "$8,000 per year",
-          eligibility: "GPA 3.50+ with ACT 27 or SAT 1260–1290",
-          deadline: "2 November (spring) / 4 December (summer & fall)",
-          application: "Automatic with admission application",
-          renewable: null,
-          note: null,
+          "name": "Capstone Scholarship",
+          "amount": "$8,000 per year",
+          "eligibility": "GPA 3.50+ with ACT 27 or SAT 1260–1290",
+          "deadline": "2 November (spring) / 4 December (summer & fall)",
+          "application": "Automatic with admission application",
+          "renewable": null,
+          "note": null,
+          "basis": "automatic",
+          "internationalEligible": true,
+          "firstYearEligible": true,
+          "source": "https://afford.ua.edu/scholarships/oos-international-freshman/",
+          "verified": "2026-11-16"
         },
         {
-          name: "Collegiate Scholarship",
-          amount: "$10,000 per year",
-          eligibility: "GPA 3.50+ with ACT 28 or SAT 1300–1320",
-          deadline: "2 November (spring) / 4 December (summer & fall)",
-          application: "Automatic with admission application",
-          renewable: null,
-          note: null,
+          "name": "Collegiate Scholarship",
+          "amount": "$10,000 per year",
+          "eligibility": "GPA 3.50+ with ACT 28 or SAT 1300–1320",
+          "deadline": "2 November (spring) / 4 December (summer & fall)",
+          "application": "Automatic with admission application",
+          "renewable": null,
+          "note": null,
+          "basis": "automatic",
+          "internationalEligible": true,
+          "firstYearEligible": true,
+          "source": "https://afford.ua.edu/scholarships/oos-international-freshman/",
+          "verified": "2026-11-16"
         },
         {
-          name: "Foundation in Excellence Scholarship",
-          amount: "$15,000 per year",
-          eligibility: "GPA 3.50+ with ACT 29 or SAT 1330–1350",
-          deadline: "2 November (spring) / 4 December (summer & fall)",
-          application: "Automatic with admission application",
-          renewable: null,
-          note: null,
+          "name": "Foundation in Excellence Scholarship",
+          "amount": "$15,000 per year",
+          "eligibility": "GPA 3.50+ with ACT 29 or SAT 1330–1350",
+          "deadline": "2 November (spring) / 4 December (summer & fall)",
+          "application": "Automatic with admission application",
+          "renewable": null,
+          "note": null,
+          "basis": "automatic",
+          "internationalEligible": true,
+          "firstYearEligible": true,
+          "source": "https://afford.ua.edu/scholarships/oos-international-freshman/",
+          "verified": "2026-11-16"
         },
         {
-          name: "UA Scholar",
-          amount: "$24,000 per year",
-          eligibility: "GPA 3.50+ with ACT 30–31 or SAT 1360–1410",
-          deadline: "2 November (spring) / 4 December (summer & fall)",
-          application: "Automatic with admission application",
-          renewable: null,
-          note: null,
+          "name": "UA Scholar",
+          "amount": "$24,000 per year",
+          "eligibility": "GPA 3.50+ with ACT 30–31 or SAT 1360–1410",
+          "deadline": "2 November (spring) / 4 December (summer & fall)",
+          "application": "Automatic with admission application",
+          "renewable": null,
+          "note": null,
+          "basis": "automatic",
+          "internationalEligible": true,
+          "firstYearEligible": true,
+          "source": "https://afford.ua.edu/scholarships/oos-international-freshman/",
+          "verified": "2026-11-16"
         },
         {
-          name: "Presidential Scholarship",
-          amount: "$28,000 per year",
-          eligibility: "GPA 3.50+ with ACT 32–36 or SAT 1420–1600",
-          deadline: "2 November (spring) / 4 December (summer & fall)",
-          application: "Automatic with admission application",
-          renewable: null,
-          note: null,
+          "name": "Presidential Scholarship",
+          "amount": "$28,000 per year",
+          "eligibility": "GPA 3.50+ with ACT 32–36 or SAT 1420–1600",
+          "deadline": "2 November (spring) / 4 December (summer & fall)",
+          "application": "Automatic with admission application",
+          "renewable": null,
+          "note": null,
+          "basis": "automatic",
+          "internationalEligible": true,
+          "firstYearEligible": true,
+          "source": "https://afford.ua.edu/scholarships/oos-international-freshman/",
+          "verified": "2026-11-16"
         },
         {
-          name: "Presidential Elite Scholar",
-          amount:
-            "Value of tuition for up to 4 years, plus first-year housing, $1,500/year supplement and a $2,000 research/study-abroad allowance",
-          eligibility: "GPA 4.0+ with ACT 36 or SAT 1600",
-          deadline: "2 November (spring) / 4 December (summer & fall)",
-          application: "Automatic with admission application",
-          renewable: true,
-          note: "The most valuable tier on UA's published table.",
-        },
+          "name": "Presidential Elite Scholar",
+          "amount": "Value of tuition for up to 4 years, plus first-year housing, $1,500/year supplement and a $2,000 research/study-abroad allowance",
+          "eligibility": "GPA 4.0+ with ACT 36 or SAT 1600",
+          "deadline": "2 November (spring) / 4 December (summer & fall)",
+          "application": "Automatic with admission application",
+          "renewable": true,
+          "note": "The most valuable tier on UA's published table.",
+          "basis": "automatic",
+          "internationalEligible": true,
+          "firstYearEligible": true,
+          "source": "https://afford.ua.edu/scholarships/oos-international-freshman/",
+          "verified": "2026-11-16"
+        }
       ],
-      needBased: {
-        availableToInternational: null,
-        meetsFullNeed: false,
-        needBlindInternational: null,
-        forms: [],
-        deadlines: null,
-        note: "UA's automatic awards are merit-based. Need-based aid policy for international students was not confirmed on the pages consulted.",
-      },
+      "needBased": {
+        "availableToInternational": null,
+        "meetsFullNeed": false,
+        "needBlindInternational": null,
+        "forms": [],
+        "deadlines": null,
+        "note": "UA's automatic awards are merit-based. Need-based aid policy for international students was not confirmed on the pages consulted."
+      }
     },
     photos: { main: null, gallery: [], city: null },
     sources: [
