@@ -15234,9 +15234,10 @@ window.UNIPATH.universities.push(
         "appliesTo": "All first-year applicants",
         "conditions": "One UC application covers all campuses. Applications are accepted from 1 October and must be submitted by 30 November.",
         "status": "confirmed",
-        "source": "https://admission.ucla.edu/apply",
-        "verified": "2026-10-01",
-        "note": null
+        "source": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/dates-and-deadlines.html",
+        "verified": "2026-11-16",
+        "note": null,
+        "cycleEvidence": {"basis": "page-context", "source": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/dates-and-deadlines.html", "verified": "2026-11-16", "quote": "Fall 2027 admission application filing period.", "entryTerm": "Autumn", "entryYear": "2027"}
       },
       {
         "name": "First-year decisions",
@@ -15514,9 +15515,10 @@ window.UNIPATH.universities.push(
         "appliesTo": "All first-year applicants",
         "conditions": "One UC application covers all campuses. Applications are accepted from 1 October and must be submitted by 30 November.",
         "status": "confirmed",
-        "source": "https://admissions.ucsd.edu/first-year/application-timeline.html",
-        "verified": "2026-10-01",
-        "note": null
+        "source": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/dates-and-deadlines.html",
+        "verified": "2026-11-16",
+        "note": null,
+        "cycleEvidence": {"basis": "page-context", "source": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/dates-and-deadlines.html", "verified": "2026-11-16", "quote": "Fall 2027 admission application filing period.", "entryTerm": "Autumn", "entryYear": "2027"}
       }
     ],
     "applicationFee": {
