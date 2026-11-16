@@ -896,7 +896,7 @@ window.UNIPATH.universities.push(
         "date": "1 December 2026",
         "binding": false,
         "appliesTo": "First-year applicants",
-        "conditions": "Submit the admission application and all supporting credentials by this date. No separate merit application.",
+        "conditions": "International first-year applicants: submit the application and supporting credentials by 1 December per the international instructions. The general instructions list 10 January for supporting credentials. Follow the earlier date for international applicants unless CMC confirms otherwise. No separate merit application.",
         "status": "confirmed",
         "source": "https://www.cmc.edu/financial-aid/applications-and-deadlines-prospective-and-new-students",
         "verified": "2026-11-15",
@@ -1120,6 +1120,8 @@ window.UNIPATH.universities.push(
     "city": null
   },
   "sources": [
+    {"label": "International first-year merit instructions", "url": "https://www.cmc.edu/admission/international", "verified": "2026-11-15"},
+    {"label": "General first-year merit instructions", "url": "https://www.cmc.edu/admission/first-year-application-instructions", "verified": "2026-11-15"},
     {
       "label": "CMC — first-year international applicants",
       "url": "https://www.cmc.edu/admission/international"
@@ -24026,8 +24028,8 @@ window.UNIPATH.universities.push(
   "programNote": "From the Texas A&M University Undergraduate Catalog 2026–2027. Law: “Society, Ethics, and Law” is a bachelor’s degree in the philosophy department; the School of Law itself is a graduate school.",
   "links": {
     "website": "https://www.tamu.edu/",
-    "admissions": "https://admissions.tamu.edu/apply/international/international-freshman.html",
-    "internationalAdmissions": "https://admissions.tamu.edu/apply/international/international-freshman.html",
+    "admissions": "https://www.tamu.edu/admissions/how-to-apply/apply-as-international.html",
+    "internationalAdmissions": "https://www.tamu.edu/admissions/how-to-apply/apply-as-international.html",
     "applicationPortal": "https://www.commonapp.org/",
     "scholarships": null,
     "financialAid": "https://aggie.tamu.edu/paying-for-college/apply-for-financial-aid/international-student-financial-aid.html",
@@ -24051,9 +24053,17 @@ window.UNIPATH.universities.push(
         "appliesTo": "First-year applicants",
         "conditions": null,
         "status": "confirmed",
-        "source": "https://admissions.tamu.edu/apply/freshman",
-        "verified": "2026-10-12",
-        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+        "source": "https://www.tamu.edu/admissions/how-to-apply/apply-as-freshman.html",
+        "verified": "2026-11-15",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "source": "https://www.tamu.edu/admissions/how-to-apply/apply-as-freshman.html",
+          "verified": "2026-11-15",
+          "quote": "College Station Fall 2027: Aug. 1, 2026 – Dec. 1, 2026",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        }
       },
       {
         "name": "Application deadline — College Station",
@@ -24066,9 +24076,39 @@ window.UNIPATH.universities.push(
         "appliesTo": "First-year applicants",
         "conditions": "The autumn application deadline for College Station; additional documents by 15 December. The timeline is the same for international and domestic first-year applicants.",
         "status": "confirmed",
-        "source": "https://admissions.tamu.edu/apply/freshman",
-        "verified": "2026-10-12",
-        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+        "source": "https://www.tamu.edu/admissions/how-to-apply/apply-as-freshman.html",
+        "verified": "2026-11-15",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "source": "https://www.tamu.edu/admissions/how-to-apply/apply-as-freshman.html",
+          "verified": "2026-11-15",
+          "quote": "College Station Fall 2027: Aug. 1, 2026 – Dec. 1, 2026",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        }
+      },
+      {
+        "id": "tamu-college-station-documents",
+        "name": "Additional application documents — College Station",
+        "kind": "documents",
+        "dateISO": "2026-12-15",
+        "date": "15 December 2026",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "appliesTo": "Fall 2027 first-year applicants to College Station",
+        "status": "confirmed",
+        "binding": false,
+        "source": "https://www.tamu.edu/admissions/how-to-apply/apply-as-freshman.html",
+        "verified": "2026-11-15",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "source": "https://www.tamu.edu/admissions/how-to-apply/apply-as-freshman.html",
+          "verified": "2026-11-15",
+          "quote": "All additional required documents are due by Dec. 15, 2026.",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        }
       }
     ],
     "applicationFee": {
