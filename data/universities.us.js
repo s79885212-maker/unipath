@@ -79,22 +79,25 @@ window.UNIPATH.universities.push(
           note: null,
         },
         {
-          name: "Regular Decision",
-          kind: "RD",
-          entryTerm: "Autumn",
-          entryYear: "2027",
-          dateISO: "2027-01-01",
-          date: "1 January 2027",
-          time: "23:59",
-          timezone: "applicant’s local time",
-          binding: false,
-          appliesTo: "First-year applicants",
-          conditions: "Decisions are released at the end of March.",
-          status: "confirmed",
-          source:
-            "https://college.harvard.edu/admissions/apply/application-timeline",
-          verified: "2026-09-23",
-          note: null,
+          "name": "Regular Decision",
+          "kind": "RD",
+          "date": "1 January 2027",
+          "binding": false,
+          "appliesTo": "First-year applicants",
+          "status": "confirmed",
+          "source": "https://college.harvard.edu/sites/default/files/2026-08/Harvard_FY_supplement_2026-2027.pdf",
+          "verified": "2026-11-16",
+          "cycleEvidence": {
+            "basis": "page-context",
+            "source": "https://college.harvard.edu/sites/default/files/2026-08/Harvard_FY_supplement_2026-2027.pdf",
+            "verified": "2026-11-16",
+            "quote": "2026–2027 First-Year Supplement · January 1",
+            "entryTerm": "Autumn",
+            "entryYear": "2027"
+          },
+          "dateISO": "2027-01-01",
+          "entryYear": "2027",
+          "entryTerm": "Autumn"
         },
         {
           name: "Financial aid application — Early Action",
@@ -114,21 +117,62 @@ window.UNIPATH.universities.push(
           note: null,
         },
         {
-          name: "Financial aid application — Regular Decision",
-          kind: "aid",
-          entryTerm: "Autumn",
-          entryYear: "2027",
-          dateISO: "2027-02-01",
-          date: "1 February 2027",
-          binding: false,
-          appliesTo: "Regular Decision applicants asking for aid",
-          conditions:
-            "Aid information arrives in late March with the decision.",
-          status: "confirmed",
-          source:
-            "https://college.harvard.edu/admissions/apply/application-timeline",
-          verified: "2026-09-23",
-          note: null,
+          "name": "Regular Decision — CSS Profile (priority)",
+          "kind": "aid",
+          "date": "1 February 2027",
+          "binding": false,
+          "appliesTo": "Regular Decision applicants asking for aid",
+          "conditions": "Submit by this date to receive an aid estimate with your admission decision.",
+          "status": "confirmed",
+          "source": "https://college.harvard.edu/financial-aid/apply-financial-aid/prospective-students",
+          "verified": "2026-11-16",
+          "cycleEvidence": {
+            "basis": "page-context",
+            "source": "https://college.harvard.edu/financial-aid/apply-financial-aid/prospective-students",
+            "verified": "2026-11-16",
+            "quote": "2027–2028 · Regular Decision · February 1",
+            "entryTerm": "Autumn",
+            "entryYear": "2027"
+          },
+          "dateISO": "2027-02-01",
+          "entryYear": "2027",
+          "entryTerm": "Autumn"
+        },
+        {
+          "name": "Regular Decision — financial aid documents",
+          "kind": "documents",
+          "source": "https://college.harvard.edu/financial-aid/apply-financial-aid/prospective-students",
+          "verified": "2026-11-16",
+          "status": "confirmed",
+          "cycleEvidence": {
+            "basis": "page-context",
+            "source": "https://college.harvard.edu/financial-aid/apply-financial-aid/prospective-students",
+            "verified": "2026-11-16",
+            "quote": "Regular Decision · February 1 · IDOC",
+            "entryTerm": "Autumn",
+            "entryYear": "2027"
+          },
+          "date": "1 February 2027",
+          "dateISO": "2027-02-01",
+          "entryYear": "2027",
+          "entryTerm": "Autumn",
+          "conditions": "Priority date for IDOC income and tax documents.",
+          "appliesTo": "International first-year applicants requesting aid"
+        },
+        {
+          "name": "Regular Decision — school counselor materials",
+          "kind": "documents",
+          "source": "https://college.harvard.edu/admissions/apply/application-requirements",
+          "verified": "2026-11-16",
+          "status": "annual-rule",
+          "date": "Up to one week after the application deadline",
+          "conditions": "Harvard allows school counselors one additional week after the applicant deadline.",
+          "cycleEvidence": {
+            "basis": "annual-rule",
+            "source": "https://college.harvard.edu/admissions/apply/application-requirements",
+            "verified": "2026-11-16",
+            "quote": "one additional week"
+          }
         },
       ],
       applicationFee: {
@@ -735,37 +779,108 @@ window.UNIPATH.universities.push(
           note: "NYU’s current first-year page lists the dates without a year.",
         },
         {
-          name: "Early Decision II",
-          kind: "ED2",
-          entryTerm: "Autumn",
-          entryYear: "2027",
-          dateISO: "2027-01-01",
-          date: "1 January 2027",
-          binding: true,
-          appliesTo: "First-year applicants",
-          conditions: "Binding. CSS Profile for aid by 10 January.",
-          status: "confirmed",
-          source:
-            "https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply/all-freshmen-applicants.html",
-          verified: "2026-09-23",
-          note: null,
+          "name": "Early Decision II",
+          "kind": "ED2",
+          "date": "1 January",
+          "binding": true,
+          "appliesTo": "First-year applicants",
+          "status": "annual-rule",
+          "source": "https://connect.nyu.edu/register/ugadmfaq",
+          "verified": "2026-11-16",
+          "cycleEvidence": {
+            "basis": "annual-rule",
+            "source": "https://connect.nyu.edu/register/ugadmfaq",
+            "verified": "2026-11-16",
+            "quote": "Early Decision II · 1 January 2027"
+          }
         },
         {
-          name: "Regular Decision",
-          kind: "RD",
-          entryTerm: "Autumn",
-          entryYear: "2027",
-          dateISO: "2027-01-05",
-          date: "5 January 2027",
-          binding: false,
-          appliesTo: "First-year applicants",
-          conditions:
-            "Testing is optional for this cycle. CSS Profile for aid by 1 February.",
-          status: "confirmed",
-          source:
-            "https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply/all-freshmen-applicants.html",
-          verified: "2026-09-23",
-          note: null,
+          "name": "Regular Decision",
+          "kind": "RD",
+          "date": "5 January",
+          "binding": false,
+          "appliesTo": "First-year applicants",
+          "status": "annual-rule",
+          "source": "https://connect.nyu.edu/register/ugadmfaq",
+          "verified": "2026-11-16",
+          "cycleEvidence": {
+            "basis": "annual-rule",
+            "source": "https://connect.nyu.edu/register/ugadmfaq",
+            "verified": "2026-11-16",
+            "quote": "Regular Decision · 5 January 2027"
+          }
+        },
+        {
+          "name": "Early Decision II — NYU Tisch Dance prescreen",
+          "kind": "portfolio",
+          "source": "https://tisch.nyu.edu/dance/application-requirements.html",
+          "verified": "2026-11-16",
+          "status": "confirmed",
+          "cycleEvidence": {
+            "basis": "page-context",
+            "source": "https://tisch.nyu.edu/dance/application-requirements.html",
+            "verified": "2026-11-16",
+            "quote": "2026–27 Audition Dates · Prescreen Deadline",
+            "entryTerm": "Autumn",
+            "entryYear": "2027"
+          },
+          "date": "4 January 2027",
+          "dateISO": "2027-01-04",
+          "entryYear": "2027",
+          "entryTerm": "Autumn",
+          "conditions": "Submit the Common App before the prescreen: January 1 for ED II or January 5 for Regular Decision.",
+          "appliesTo": "NYU Tisch Dance BFA, New York"
+        },
+        {
+          "name": "Regular Decision — NYU Tisch Dance prescreen",
+          "kind": "portfolio",
+          "source": "https://tisch.nyu.edu/dance/application-requirements.html",
+          "verified": "2026-11-16",
+          "status": "confirmed",
+          "cycleEvidence": {
+            "basis": "page-context",
+            "source": "https://tisch.nyu.edu/dance/application-requirements.html",
+            "verified": "2026-11-16",
+            "quote": "2026–27 Audition Dates · Prescreen Deadline",
+            "entryTerm": "Autumn",
+            "entryYear": "2027"
+          },
+          "date": "18 January 2027",
+          "dateISO": "2027-01-18",
+          "entryYear": "2027",
+          "entryTerm": "Autumn",
+          "conditions": "Submit the Common App before the prescreen: January 1 for ED II or January 5 for Regular Decision.",
+          "appliesTo": "NYU Tisch Dance BFA, New York"
+        },
+        {
+          "name": "Early Decision II — CSS Profile",
+          "kind": "aid",
+          "source": "https://bulletins.nyu.edu/undergraduate/arts/cost-attendance/financial-aid/",
+          "verified": "2026-11-16",
+          "status": "annual-rule",
+          "cycleEvidence": {
+            "basis": "annual-rule",
+            "source": "https://bulletins.nyu.edu/undergraduate/arts/cost-attendance/financial-aid/",
+            "verified": "2026-11-16",
+            "quote": "CSS Profile · Early Decision II"
+          },
+          "date": "10 January",
+          "appliesTo": "International first-year applicants requesting aid"
+        },
+        {
+          "name": "Regular Decision — CSS Profile",
+          "kind": "aid",
+          "source": "https://bulletins.nyu.edu/undergraduate/arts/cost-attendance/financial-aid/",
+          "verified": "2026-11-16",
+          "status": "annual-rule",
+          "cycleEvidence": {
+            "basis": "annual-rule",
+            "source": "https://bulletins.nyu.edu/undergraduate/arts/cost-attendance/financial-aid/",
+            "verified": "2026-11-16",
+            "quote": "CSS Profile · Regular Decision"
+          },
+          "date": "1 February",
+          "appliesTo": "International first-year applicants requesting aid"
         },
       ],
       applicationFee: {
@@ -2230,21 +2345,21 @@ window.UNIPATH.universities.push(
           note: null,
         },
         {
-          name: "Regular Decision",
-          kind: "RD",
-          entryTerm: "Autumn",
-          entryYear: "2027",
-          dateISO: "2027-01-01",
-          date: "1 January 2027",
-          binding: false,
-          appliesTo: "First-year applicants",
-          conditions:
-            "The graded written paper is due the same day; the optional arts supplement by 8 January. Decisions in late March.",
-          status: "confirmed",
-          source:
-            "https://admission.princeton.edu/apply/first-year-application-dates-deadlines",
-          verified: "2026-09-23",
-          note: null,
+          "name": "Regular Decision",
+          "kind": "RD",
+          "date": "1 January",
+          "binding": false,
+          "appliesTo": "First-year applicants",
+          "status": "annual-rule",
+          "source": "https://admission.princeton.edu/apply/first-year-application-dates-deadlines",
+          "verified": "2026-11-16",
+          "cycleEvidence": {
+            "basis": "annual-rule",
+            "source": "https://admission.princeton.edu/apply/first-year-application-dates-deadlines",
+            "verified": "2026-11-16",
+            "quote": "Regular Decision · 1 January 2027"
+          },
+          "conditions": "The midyear report is submitted when grades become available."
         },
         {
           name: "Financial aid application — Early Action",
@@ -2262,19 +2377,21 @@ window.UNIPATH.universities.push(
           note: null,
         },
         {
-          name: "Financial aid application — Regular Decision",
-          kind: "aid",
-          entryTerm: "Autumn",
-          entryYear: "2027",
-          dateISO: "2027-02-01",
-          date: "1 February 2027",
-          binding: false,
-          appliesTo: "Regular Decision applicants asking for aid",
-          status: "confirmed",
-          source:
-            "https://admission.princeton.edu/apply/first-year-application-dates-deadlines",
-          verified: "2026-09-23",
-          note: null,
+          "name": "Regular Decision — Princeton Financial Aid Application",
+          "kind": "aid",
+          "date": "1 February",
+          "binding": false,
+          "appliesTo": "Regular Decision applicants asking for aid",
+          "status": "annual-rule",
+          "source": "https://admission.princeton.edu/apply/first-year-application-dates-deadlines",
+          "verified": "2026-11-16",
+          "cycleEvidence": {
+            "basis": "annual-rule",
+            "source": "https://admission.princeton.edu/apply/first-year-application-dates-deadlines",
+            "verified": "2026-11-16",
+            "quote": "Regular Decision · Princeton Financial Aid Application · Feb. 1"
+          },
+          "conditions": "Use the university’s own form and upload income documentation as instructed."
         },
         {
           name: "Reply deadline",
@@ -2291,6 +2408,20 @@ window.UNIPATH.universities.push(
             "https://admission.princeton.edu/apply/first-year-application-dates-deadlines",
           verified: "2026-09-23",
           note: null,
+        },
+        {
+          "name": "Regular Decision — optional arts supplement",
+          "kind": "portfolio",
+          "source": "https://admission.princeton.edu/apply/first-year-application-dates-deadlines",
+          "verified": "2026-11-16",
+          "status": "annual-rule",
+          "cycleEvidence": {
+            "basis": "annual-rule",
+            "source": "https://admission.princeton.edu/apply/first-year-application-dates-deadlines",
+            "verified": "2026-11-16",
+            "quote": "Regular Decision · Optional Arts Supplement · Jan. 8"
+          },
+          "date": "8 January"
         },
       ],
       applicationFee: {
@@ -2397,12 +2528,8 @@ window.UNIPATH.universities.push(
         availableToInternational: true,
         meetsFullNeed: true,
         needBlindInternational: true,
-        forms: [
-          "Princeton Financial Aid Application",
-          "CSS Profile or equivalent documentation",
-        ],
-        deadlines:
-          "9 November for Single-Choice Early Action; 1 February for Regular Decision",
+        forms: ["Princeton Financial Aid Application and income documentation"],
+        deadlines: null,
         note: "Princeton states that admission is need-blind and there is no disadvantage for aid applicants. Its published contribution examples — $0 at $150,000 of income, $12,500 at $200,000, $37,500 at $300,000 — apply to families with assets under $175,000 living in the United States with one child in college, so an international family's result can differ.",
       },
     },

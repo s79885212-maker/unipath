@@ -124,10 +124,18 @@
       return '<span class="round-status round-status-' + esc(st) + '">' + esc(U.roundStatusLabel(d)) + '</span>' +
         (state ? '<br><span class="small muted">' + esc(state) + '</span>' : '');
     }
+    function roundSourceLinks(d, separator) {
+      var links = [];
+      if (has(d.source)) links.push('<a href="' + esc(d.source) + '" target="_blank" rel="noopener">' +
+        esc(d.sourceLabel || 'Official page ↗') + '</a>');
+      if (has(d.relatedSource)) links.push('<a href="' + esc(d.relatedSource) + '" target="_blank" rel="noopener">' +
+        esc(d.relatedSourceLabel || 'Related official page ↗') + '</a>');
+      return links.join(separator);
+    }
     function sourceCell(d) {
-      return has(d.source)
-        ? '<a href="' + esc(d.source) + '" target="_blank" rel="noopener">Official page ↗</a>' +
-          (has(d.verified) ? '<br><span class="small muted">Checked ' + esc(d.verified) + '</span>' : '')
+      var links = roundSourceLinks(d, '<br>');
+      return links
+        ? links + (has(d.verified) ? '<br><span class="small muted">Checked ' + esc(d.verified) + '</span>' : '')
         : '<span class="unknown">Not linked</span>';
     }
     function roundRows(list, first) {
@@ -552,13 +560,14 @@
       if (!rows.length) return '';
       return rows.map(function (d) {
         var intake = U.roundIntake(d);
+        var links = roundSourceLinks(d, ' · ');
         return '<div class="kind-date"><strong>' + esc(U.roundWhen(d)) + '</strong> — <span>' + esc(d.name) + '</span>' +
           '<br><span class="small muted">' +
             (intake ? 'Intake: <span>' + esc(intake) + '</span> · ' : '') +
             (has(d.appliesTo) ? '<span>' + esc(d.appliesTo) + '</span> · ' : '') +
             '<span>' + esc(U.roundStatusLabel(d)) + '</span>' +
             (U.roundStateLabel(d) ? ' · <span>' + esc(U.roundStateLabel(d)) + '</span>' : '') +
-            (has(d.source) ? ' · <a href="' + esc(d.source) + '" target="_blank" rel="noopener">Official page ↗</a>' : '') +
+            (links ? ' · ' + links : '') +
           '</span>' +
           (has(d.conditions) ? '<br><span class="small">' + esc(d.conditions) + '</span>' : '') + '</div>';
       }).join('');
