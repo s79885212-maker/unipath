@@ -3951,7 +3951,9 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application', 'Coalition on Scoir'],
     deadlines: [
-      {"name": "Theater Scholarship — application materials", "kind": "scholarship", "entryTerm": "Autumn", "entryYear": "2027", "dateISO": "2027-02-01", "date": "1 February 2027", "status": "confirmed", "source": "https://theater.case.edu/academic-programs/undergraduate-scholarships/", "verified": "2026-11-16", "cycleEvidence": {"basis": "page-context", "source": "https://theater.case.edu/academic-programs/undergraduate-scholarships/", "verified": "2026-11-16", "quote": "February 1, 2027: Deadline to submit CWRU Theater Scholarship application materials", "entryTerm": "Autumn", "entryYear": "2027"}, "conditions": "Submit the Theater Scholarship materials in the Arts Supplement.", "awardId": "case-theater-2027", "awardCategory": "merit"},
+      {"name": "Theater Scholarship — admission application prerequisite", "kind": "admission", "dateISO": "2027-01-15", "date": "15 January 2027", "entryTerm": "Autumn", "entryYear": "2027", "status": "confirmed", "source": "https://theater.case.edu/academic-programs/undergraduate-scholarships/", "verified": "2026-11-16", "cycleEvidence": {"basis": "page-context", "source": "https://theater.case.edu/academic-programs/undergraduate-scholarships/", "verified": "2026-11-16", "quote": "January 15, 2027: Deadline to submit your CWRU application", "entryTerm": "Autumn", "entryYear": "2027"}, "awardId": "case-theater-2027", "awardCategory": "merit"},
+      {"name": "Theater Scholarship — in-person audition or portfolio", "kind": "scholarship", "dateISO": "2027-02-20", "date": "20 February 2027", "entryTerm": "Autumn", "entryYear": "2027", "status": "confirmed", "source": "https://theater.case.edu/academic-programs/undergraduate-scholarships/", "verified": "2026-11-16", "cycleEvidence": {"basis": "page-context", "source": "https://theater.case.edu/academic-programs/undergraduate-scholarships/", "verified": "2026-11-16", "quote": "February 20, 2027: deadline for in-person auditions and portfolio submissions.", "entryTerm": "Autumn", "entryYear": "2027"}, "awardId": "case-theater-2027", "awardCategory": "merit"},
+      {"name": "Theater Scholarship — online Arts Supplement", "kind": "scholarship", "entryTerm": "Autumn", "entryYear": "2027", "dateISO": "2027-02-01", "date": "1 February 2027", "status": "confirmed", "source": "https://theater.case.edu/academic-programs/undergraduate-scholarships/", "verified": "2026-11-16", "cycleEvidence": {"basis": "page-context", "source": "https://theater.case.edu/academic-programs/undergraduate-scholarships/", "verified": "2026-11-16", "quote": "February 1, 2027: Deadline to submit CWRU Theater Scholarship application materials", "entryTerm": "Autumn", "entryYear": "2027"}, "conditions": "For the online route, submit the Arts Supplement. In-person auditions and portfolios have a separate deadline.", "awardId": "case-theater-2027", "awardCategory": "merit"},
       { name: 'Early Action', kind: 'EA', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: false, appliesTo: 'First-year applicants', conditions: 'Not binding. Financial aid documents by 15 November; notification 19 December; enrolment decision by 1 May.', status: 'confirmed', source: 'https://case.edu/admission/apply/dates-deadlines', verified: '2026-09-23', note: null },
       { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Financial aid documents by 15 November; notification 5 December; enrolment by 12 December.', status: 'confirmed', source: 'https://case.edu/admission/apply/dates-deadlines', verified: '2026-09-23', note: null },
       { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-15', date: '15 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Financial aid documents by 22 January; notification 6 February; enrolment one week after admission.', status: 'confirmed', source: 'https://case.edu/admission/apply/dates-deadlines', verified: '2026-09-23', note: null },
@@ -4005,7 +4007,7 @@ window.UNIPATH.universities.push(
       note: 'CWRU says it offers a limited amount of need-based aid to international first-year applicants, and scholarships including full-tuition awards. A full-cost award for international students is not described on the pages consulted.'
     },
     merit: [
-      {"id": "case-theater-2027", "category": "merit", "basis": "talent", "entryTerm": "Autumn", "entryYear": "2027", "name": "CWRU Theater Scholarship", "internationalEligible": true, "amount": "Full tuition for four years; housing and meals excluded", "eligibility": "Prospective theater majors, including international applicants; competitive award", "application": "Submit the Theater Scholarship materials in the Arts Supplement.", "source": "https://theater.case.edu/academic-programs/undergraduate-scholarships/", "verified": "2026-11-16"},
+      {"id": "case-theater-2027", "category": "merit", "basis": "talent", "entryTerm": "Autumn", "entryYear": "2027", "name": "CWRU Theater Scholarship", "internationalEligible": true, "amount": "Full tuition for four years; housing and meals excluded", "eligibility": "Prospective theater majors, including international applicants; competitive award", "application": "For the online route, submit the Arts Supplement. In-person auditions and portfolios have a separate deadline.", "source": "https://theater.case.edu/academic-programs/undergraduate-scholarships/", "verified": "2026-11-16"},
       {
         name: 'CWRU scholarship competitions',
         amount: 'Up to full tuition',
@@ -11043,6 +11045,66 @@ window.UNIPATH.universities.push(
           "entryTerm": "Autumn",
           "entryYear": "2027"
         }
+      },
+      {
+        "name": "Early Decision and Early Action I — decision notification",
+        "kind": "decision",
+        "dateISO": "2026-12-01",
+        "date": "1 December 2026",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
+        "source": "https://earlham.edu/admissions/how-to-apply/",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://earlham.edu/admissions/how-to-apply/",
+          "verified": "2026-11-16",
+          "quote": "Early Decision & Early Action I · Decision Notification · December 1",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "appliesTo": "International first-year applicants"
+      },
+      {
+        "name": "Early Action II — decision notification",
+        "kind": "decision",
+        "dateISO": "2026-12-15",
+        "date": "15 December 2026",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
+        "source": "https://earlham.edu/admissions/how-to-apply/",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://earlham.edu/admissions/how-to-apply/",
+          "verified": "2026-11-16",
+          "quote": "Early Action II · Decision Notification · December 15",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "appliesTo": "International first-year applicants"
+      },
+      {
+        "name": "Regular Decision — decision notification",
+        "kind": "decision",
+        "dateISO": "2027-03-01",
+        "date": "1 March 2027",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "status": "confirmed",
+        "source": "https://earlham.edu/admissions/how-to-apply/",
+        "verified": "2026-11-16",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "source": "https://earlham.edu/admissions/how-to-apply/",
+          "verified": "2026-11-16",
+          "quote": "Regular Decision · Decision Notification · March 1",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        },
+        "appliesTo": "International first-year applicants"
       }
     ],
     "applicationFee": {

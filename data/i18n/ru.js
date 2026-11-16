@@ -5,6 +5,19 @@
    on purpose, so students can find them on the universities' own websites. */
 window.UNIPATH_I18N = window.UNIPATH_I18N || {};
 window.UNIPATH_I18N.ru = {
+  "Early Decision and Early Action I — decision notification": "Early Decision и Early Action I — уведомление о решении",
+  "Early Action II — decision notification": "Early Action II — уведомление о решении",
+  "Regular Decision — decision notification": "Regular Decision — уведомление о решении",
+  "FLA and SPSF first-year applicants only": "Только абитуриенты первого курса FLA и SPSF",
+  "FLA and SPSF first-year and eligible third-year transfer applicants": "Абитуриенты первого курса и подходящие кандидаты на перевод на третий курс FLA и SPSF",
+  "FLA / SPSF — decision notification, round 1": "FLA / SPSF — уведомление о решении, раунд 1",
+  "FLA / SPSF — decision notification, round 2": "FLA / SPSF — уведомление о решении, раунд 2",
+  "The required postal documents must reach Kyushu University by December 17, 2026 at 17:00 JST. Allow time for delivery.": "Документы, отправленные по почте, должны поступить в Kyushu University до 17:00 по японскому времени 17 декабря 2026 года. Заложите время на доставку.",
+  "October 2027 — admission decision announcement": "Октябрь 2027 — публикация решения о зачислении",
+  "Theater Scholarship — online Arts Supplement": "Theater Scholarship — онлайн-материалы Arts Supplement",
+  "For the online route, submit the Arts Supplement. In-person auditions and portfolios have a separate deadline.": "Для онлайн-маршрута подайте материалы в Arts Supplement. У очного прослушивания и портфолио свой срок.",
+  "Theater Scholarship — admission application prerequisite": "Theater Scholarship — срок заявки на поступление",
+  "Theater Scholarship — in-person audition or portfolio": "Theater Scholarship — очное прослушивание или портфолио",
   "International first-year awards vary by GPA, English proficiency and campus. They are not guaranteed; renewal is conditional for up to eight semesters. Remaining costs are separate.": "Награда для иностранного первокурсника зависит от GPA, английского и кампуса. Получение не гарантировано. При соблюдении условий её можно продлевать до восьми семестров. Остальные расходы оплачиваются отдельно.",
   "Fall 2027 priority application": "Приоритетный срок подачи на осень 2027",
   "General first-year admissions calendar": "Общий календарь приёма первокурсников",

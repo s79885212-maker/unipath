@@ -921,6 +921,22 @@ ok(['arizona-state-university','case-western-reserve-university','kyushu-univers
   return !U.costAfterAid(u) && !['core-covered','fits','fits-billed','fits-tuition','fits-no-extras'].includes(result.budget.status);
 }), 'New competitive, conditional or unconfirmed awards do not become a zero-budget match');
 
+const wave2DecisionDates = [
+  ['earlham-college', '2026-12-15', null],
+  ['sophia-university', '2027-02-05', '10:00'],
+  ['kyushu-university', '2027-03-23', '11:00']
+];
+ok(wave2DecisionDates.every(([id,date,time]) => U.roundsOf(U.uniById(id)).some(d =>
+  d.dateISO === date && d.kind === 'decision' && (d.time || null) === time &&
+  (!time || d.timezone === 'JST') && U.roundStatus(d) === 'confirmed' && !U.isApplicationDeadline(d))),
+  'Decision announcements stay separate from application deadlines in the profile and saved calendar');
+const camdenAwardReview = U.uniById('rutgers-university-camden');
+ok(camdenAwardReview.scholarships.merit.some(a => /conflict/i.test(a.name)) &&
+  [0,17000,21000].every(budget => {
+    const input = {budget, currency: 'USD', ielts: null, sat: null, gpa: null};
+    const withoutAid = {...camdenAwardReview, scholarships: {}};
+    return JSON.stringify(M.evaluate(camdenAwardReview,input).budget) === JSON.stringify(M.evaluate(withoutAid,input).budget);
+  }), 'Rutgers Camden disputed scholarship maxima do not feed the budget comparison');
 console.log('\n' + passed + ' passed, ' + failed + ' failed');
 
 /* Exit with a status only when run directly; tests/links.js loads this file for the data. */
