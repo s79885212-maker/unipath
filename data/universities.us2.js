@@ -15234,9 +15234,10 @@ window.UNIPATH.universities.push(
         "appliesTo": "All first-year applicants",
         "conditions": "One UC application covers all campuses. Applications are accepted from 1 October and must be submitted by 30 November.",
         "status": "confirmed",
-        "source": "https://admission.ucla.edu/apply",
-        "verified": "2026-10-01",
-        "note": null
+        "source": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/dates-and-deadlines.html",
+        "verified": "2026-11-16",
+        "note": null,
+        "cycleEvidence": {"basis": "page-context", "source": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/dates-and-deadlines.html", "verified": "2026-11-16", "quote": "Fall 2027 admission application filing period.", "entryTerm": "Autumn", "entryYear": "2027"}
       },
       {
         "name": "First-year decisions",
@@ -15514,9 +15515,10 @@ window.UNIPATH.universities.push(
         "appliesTo": "All first-year applicants",
         "conditions": "One UC application covers all campuses. Applications are accepted from 1 October and must be submitted by 30 November.",
         "status": "confirmed",
-        "source": "https://admissions.ucsd.edu/first-year/application-timeline.html",
-        "verified": "2026-10-01",
-        "note": null
+        "source": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/dates-and-deadlines.html",
+        "verified": "2026-11-16",
+        "note": null,
+        "cycleEvidence": {"basis": "page-context", "source": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/dates-and-deadlines.html", "verified": "2026-11-16", "quote": "Fall 2027 admission application filing period.", "entryTerm": "Autumn", "entryYear": "2027"}
       }
     ],
     "applicationFee": {
@@ -15623,7 +15625,7 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": "International students are not eligible for federal or state financial aid; institutional funding for them was not found, so nothing is claimed."
+      "note": "Triton Scholars is listed for incoming first-year nonresidents. Eligibility for F-1 first-year students is unconfirmed."
     },
     "merit": [],
     "needBased": {
@@ -15647,6 +15649,11 @@ window.UNIPATH.universities.push(
     {
       "label": "First-year application timeline",
       "url": "https://admissions.ucsd.edu/first-year/application-timeline.html"
+    },
+    {
+      "label": "Triton Scholars eligibility",
+      "url": "https://fas.ucsd.edu/types/scholarships/entering-freshmen.html",
+      "verified": "2026-11-16"
     },
     {
       "label": "Cost and aid",
@@ -15676,7 +15683,7 @@ window.UNIPATH.universities.push(
       "application fee"
     ],
     "unconfirmed": [
-      "institutional aid for international students",
+      "Triton Scholars eligibility for F-1 first-year students",
       "decision dates"
     ]
   },

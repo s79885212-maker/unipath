@@ -20637,10 +20637,10 @@ window.UNIPATH.universities.push(
   "programNote": null,
   "links": {
     "website": "https://www.muhlenberg.edu/",
-    "admissions": "https://muhlenberg.edu/admissions-aid/application-instructions-for-first-year-students/",
+    "admissions": "https://www.muhlenberg.edu/admissions-aid/application-instructions-for-first-year-students/",
     "internationalAdmissions": null,
     "applicationPortal": "https://www.commonapp.org/",
-    "scholarships": null,
+    "scholarships": "https://www.muhlenberg.edu/admissions-aid/scholarships-and-financial-aid/scholarships-and-grants/merit-scholarship/",
     "financialAid": "https://www.muhlenberg.edu/admissions-aid/scholarships-and-financial-aid/",
     "programs": "https://www.muhlenberg.edu/academics/program-finder/",
     "cost": "https://www.muhlenberg.edu/admissions-aid/tuition-and-fees/"
@@ -20661,9 +20661,10 @@ window.UNIPATH.universities.push(
         "appliesTo": "First-year applicants",
         "conditions": "Binding. Decisions by 1 December.",
         "status": "confirmed",
-        "source": "https://muhlenberg.edu/admissions-aid/application-instructions-for-first-year-students/",
-        "verified": "2026-10-12",
-        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+        "source": "https://www.muhlenberg.edu/admissions-aid/application-instructions-for-first-year-students/",
+        "verified": "2026-11-16",
+        "note": null,
+        "cycleEvidence": {"basis": "page-context", "source": "https://www.muhlenberg.edu/admissions-aid/application-instructions-for-first-year-students/", "verified": "2026-11-16", "quote": "Early Decision: November 16", "entryTerm": "Autumn", "entryYear": "2027"}
       },
       {
         "name": "Early Action",
@@ -20676,9 +20677,10 @@ window.UNIPATH.universities.push(
         "appliesTo": "First-year applicants",
         "conditions": "Not binding. Decisions by January.",
         "status": "confirmed",
-        "source": "https://muhlenberg.edu/admissions-aid/application-instructions-for-first-year-students/",
-        "verified": "2026-10-12",
-        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+        "source": "https://www.muhlenberg.edu/admissions-aid/application-instructions-for-first-year-students/",
+        "verified": "2026-11-16",
+        "note": null,
+        "cycleEvidence": {"basis": "page-context", "source": "https://www.muhlenberg.edu/admissions-aid/application-instructions-for-first-year-students/", "verified": "2026-11-16", "quote": "Early Action: December 1", "entryTerm": "Autumn", "entryYear": "2027"}
       },
       {
         "name": "Regular Decision",
@@ -20691,9 +20693,10 @@ window.UNIPATH.universities.push(
         "appliesTo": "First-year applicants",
         "conditions": "Rolling decisions, beginning in mid-January.",
         "status": "confirmed",
-        "source": "https://muhlenberg.edu/admissions-aid/application-instructions-for-first-year-students/",
-        "verified": "2026-10-12",
-        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+        "source": "https://www.muhlenberg.edu/admissions-aid/application-instructions-for-first-year-students/",
+        "verified": "2026-11-16",
+        "note": null,
+        "cycleEvidence": {"basis": "page-context", "source": "https://www.muhlenberg.edu/admissions-aid/application-instructions-for-first-year-students/", "verified": "2026-11-16", "quote": "Regular Decision: February 1", "entryTerm": "Autumn", "entryYear": "2027"}
       }
     ],
     "applicationFee": {
@@ -20702,7 +20705,7 @@ window.UNIPATH.universities.push(
       "waiverAvailableToInternational": null,
       "waiver": null,
       "note": "There is no fee to complete the application.",
-      "source": "https://muhlenberg.edu/admissions-aid/application-instructions-for-first-year-students/",
+      "source": "https://www.muhlenberg.edu/admissions-aid/application-instructions-for-first-year-students/",
       "verified": "2026-10-12"
     },
     "documents": [
@@ -20740,7 +20743,7 @@ window.UNIPATH.universities.push(
     },
     "waiver": "Not needed if the native or first language is English, or if the high school’s primary language of instruction is English and the applicant has attended it for the required period.",
     "note": "Muhlenberg does not offer ESL coursework.",
-    "detailsSource": "https://muhlenberg.edu/admissions-aid/application-instructions-for-first-year-students/",
+    "detailsSource": "https://www.muhlenberg.edu/admissions-aid/application-instructions-for-first-year-students/",
     "detailsVerified": "2026-10-12"
   },
   "academics": {
@@ -20748,13 +20751,13 @@ window.UNIPATH.universities.push(
     "sat": {
       "policy": "optional",
       "note": "Muhlenberg has been test-optional for admission since 1996, with no extra requirements for test-optional applicants to be considered for admission or merit scholarships.",
-      "source": "https://muhlenberg.edu/admissions-aid/application-instructions-for-first-year-students/",
+      "source": "https://www.muhlenberg.edu/admissions-aid/application-instructions-for-first-year-students/",
       "verified": "2026-10-12"
     },
     "act": {
       "policy": "optional",
       "note": "Muhlenberg has been test-optional for admission since 1996, with no extra requirements for test-optional applicants to be considered for admission or merit scholarships.",
-      "source": "https://muhlenberg.edu/admissions-aid/application-instructions-for-first-year-students/",
+      "source": "https://www.muhlenberg.edu/admissions-aid/application-instructions-for-first-year-students/",
       "verified": "2026-10-12"
     },
     "otherTests": null,
@@ -20844,9 +20847,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": "The pages read say nothing about scholarships or aid for international students."
+      "note": "International applicants are considered for merit scholarships. A full-cost award is unconfirmed."
     },
-    "merit": [],
+    "merit": [{"name": "Muhlenberg merit scholarships", "basis": "merit", "deadlineScope": "no-separate-application", "amount": "$38,000–$50,000 published range; Fall 2027 amount unconfirmed", "internationalEligible": true, "application": "Automatic consideration with a complete admission application.", "renewable": true, "note": "Competitive aid applied to billed charges. Any remaining tuition, fees, housing, meals and personal expenses must be covered separately.", "source": "https://www.muhlenberg.edu/admissions-aid/scholarships-and-financial-aid/scholarships-and-grants/merit-scholarship/", "verified": "2026-11-16"}],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,
@@ -20862,9 +20865,10 @@ window.UNIPATH.universities.push(
     "city": null
   },
   "sources": [
+    {"label": "Merit scholarship terms", "url": "https://www.muhlenberg.edu/admissions-aid/scholarships-and-financial-aid/scholarship-and-aid-offer-terms-and-conditions/", "verified": "2026-11-16"},
     {
       "label": "Muhlenberg — application instructions for first-year students",
-      "url": "https://muhlenberg.edu/admissions-aid/application-instructions-for-first-year-students/"
+      "url": "https://www.muhlenberg.edu/admissions-aid/application-instructions-for-first-year-students/"
     },
     {
       "label": "Muhlenberg — cost of attendance 2026–2027",
