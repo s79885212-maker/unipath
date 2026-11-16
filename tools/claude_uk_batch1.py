@@ -307,7 +307,7 @@ io.open(UK, 'w', encoding='utf-8').write(s2)
 m = io.open(MATCH, encoding='utf-8').read()
 anchor = "    'university-of-strathclyde':"
 i = m.index(anchor); j = m.index('\n', i)
-rows = ''.join("\n    '%s': { currency: 'GBP', basis: 'tuition', min: %d, max: %d, note: '%s' }," % (r['id'], r['costs']['breakdown']['tuition'], r['costs']['breakdown']['tuition'],
+rows = ''.join("\n    '%s': { currency: 'GBP', basis: 'tuition', example: true, academicYear: '2027–2028', scopeFields: ['business'], min: %d, max: %d, note: '%s' }," % (r['id'], r['costs']['breakdown']['tuition'], r['costs']['breakdown']['tuition'],
                                                                                                   L('%s example for 2027/28; each course is priced separately' % r['programEvidence']['business']['program'], 'Пример %s на 2027/28; каждая программа стоит по-своему' % r['programEvidence']['business']['program']))
                for r in recs)
 io.open(MATCH, 'w', encoding='utf-8').write(m[:j] + rows + m[j:])

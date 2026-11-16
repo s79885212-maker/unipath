@@ -1133,7 +1133,19 @@ window.UNIPATH.universities.push(
     deadlines: [
       { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. All required materials are due with the application; decisions by mid-December.', status: 'confirmed', source: 'https://admissions.vanderbilt.edu/apply/decision-plans.php', verified: '2026-09-23', note: null },
       { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Decisions by mid-February.', status: 'confirmed', source: 'https://admissions.vanderbilt.edu/apply/decision-plans.php', verified: '2026-09-23', note: null },
-      { name: 'Regular Decision (priority deadline)', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-02-15', date: '15 February 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Vanderbilt publishes 15 February 2027 as the priority deadline for a completed Regular Decision application.', status: 'confirmed', source: 'https://admissions.vanderbilt.edu/apply/decision-plans.php', verified: '2026-09-23', note: null },
+      {
+        name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027',
+        dateISO: '2027-01-01', date: '1 January 2027', binding: false, appliesTo: 'First-year applicants',
+        conditions: 'Submit the completed first-year application.', status: 'confirmed', source: 'https://admissions.vanderbilt.edu/apply/', verified: '2026-11-15',
+        cycleEvidence: { basis: 'explicit-date', source: 'https://admissions.vanderbilt.edu/apply/', verified: '2026-11-15', quote: 'January 1, 2027 — Deadline for completed application', entryTerm: 'Autumn', entryYear: '2027' }
+      },
+      {
+        name: 'Merit scholarship applications', kind: 'scholarship', entryTerm: 'Autumn', entryYear: '2027',
+        dateISO: '2026-12-01', date: '1 December 2026', appliesTo: 'First-year applicants',
+        conditions: 'Submit the merit scholarship application by this date for Early Decision I, Early Decision II or Regular Decision.',
+        status: 'confirmed', source: 'https://www.vanderbilt.edu/scholarships/', verified: '2026-11-15',
+        cycleEvidence: { basis: 'page-context', source: 'https://admissions.vanderbilt.edu/apply/', verified: '2026-11-15', quote: 'December 1, 2026 — Deadline for completed merit scholarship applications', entryTerm: 'Autumn', entryYear: '2027' }
+      },
     ],
     applicationFee: { amount: 50, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Vanderbilt accepts every fee waiver request submitted through the Common or Coalition Application' },
     documents: ['Common or Coalition Application', 'Official secondary school transcript', 'Counsellor letter', 'Two academic teacher letters', 'CSS Profile or ISFAA for aid applicants'],
@@ -1198,7 +1210,9 @@ window.UNIPATH.universities.push(
     { label: 'International costs and finances', url: 'https://admissions.vanderbilt.edu/affordability/international-costs-and-finances/' },
     { label: 'Affordability — estimated costs 2026-27', url: 'https://admissions.vanderbilt.edu/affordability/' },
     { label: 'First-year application process', url: 'https://admissions.vanderbilt.edu/apply/first-year-process/' },
-    { label: 'International students — Office of Financial Aid', url: 'https://www.vanderbilt.edu/financialaid/undergraduate/international/' }
+    { label: 'International students — Office of Financial Aid', url: 'https://www.vanderbilt.edu/financialaid/undergraduate/international/' },
+    { label: 'First-year admission dates', url: 'https://admissions.vanderbilt.edu/apply/' },
+    { label: 'Merit scholarship applications', url: 'https://www.vanderbilt.edu/scholarships/' }
   ],
   lastVerified: '2026-09-20'
 },
@@ -1730,7 +1744,22 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants to Emory College or Oxford College', conditions: 'Binding. Financial aid deadline 2 December; decisions by 15 December.', status: 'confirmed', source: 'https://apply.emory.edu/apply/first-year/plans-deadlines/index.html', verified: '2026-10-01', note: null },
       { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: true, appliesTo: 'First-year applicants to Emory College or Oxford College', conditions: 'Binding. Financial aid deadline 6 January; decisions by 15 February.', status: 'confirmed', source: 'https://apply.emory.edu/apply/first-year/plans-deadlines/index.html', verified: '2026-10-01', note: null },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: false, appliesTo: 'First-year applicants to Emory College or Oxford College', conditions: 'Not binding. Financial aid deadline 10 February; decisions by 1 April.', status: 'confirmed', source: 'https://apply.emory.edu/apply/first-year/plans-deadlines/index.html', verified: '2026-10-01', note: 'Emory’s current deadlines table lists these dates without a year.' },
-      { name: 'Scholar programs consideration', kind: 'scholarship', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-15', date: '15 November 2026', binding: false, appliesTo: 'Applicants who want to be considered for Emory Scholar programs', conditions: 'Emory’s Scholar Programs deadline is 15 November, with decisions by 1 March.', status: 'confirmed', source: 'https://apply.emory.edu/apply/first-year/plans-deadlines/index.html', verified: '2026-10-01', note: null }
+      {
+        name: 'Scholar Programs — Early Decision I', kind: 'scholarship', entryTerm: 'Autumn', entryYear: '2027',
+        dateISO: '2026-11-01', date: '1 November 2026',
+        appliesTo: 'Applicants who want to be considered for Emory Scholar programs',
+        conditions: 'Submit all required application materials and answer Yes to the Scholar Programs question.',
+        awardId: 'emory-scholar-programs', awardCategory: 'merit', status: 'confirmed', source: 'https://apply.emory.edu/financial-aid/scholar-program', verified: '2026-11-15',
+        cycleEvidence: { basis: 'page-context', source: 'https://apply.emory.edu/apply/first-year', verified: '2026-11-15', quote: '2026–2027 application cycle', entryTerm: 'Autumn', entryYear: '2027' }
+      },
+      {
+        name: 'Scholar Programs — Early Decision II and Regular Decision', kind: 'scholarship', entryTerm: 'Autumn', entryYear: '2027',
+        dateISO: '2026-11-15', date: '15 November 2026',
+        appliesTo: 'Applicants who want to be considered for Emory Scholar programs',
+        conditions: 'Submit all required application materials and answer Yes to the Scholar Programs question.',
+        awardId: 'emory-scholar-programs', awardCategory: 'merit', status: 'confirmed', source: 'https://apply.emory.edu/financial-aid/scholar-program', verified: '2026-11-15',
+        cycleEvidence: { basis: 'page-context', source: 'https://apply.emory.edu/apply/first-year', verified: '2026-11-15', quote: '2026–2027 application cycle', entryTerm: 'Autumn', entryYear: '2027' }
+      }
     ],
     applicationFee: { amount: 75, currency: 'USD', waiverAvailableToInternational: null, waiver: 'A fee waiver can be requested instead of the $75 fee' },
     documents: ['Common or Coalition Application', 'School transcript and reports', 'Teacher recommendation', 'CSS Profile and IDOC documents for aid applicants'],
@@ -1739,7 +1768,6 @@ window.UNIPATH.universities.push(
     interview: null,
     notes: [
       'Emory advises international applicants who need financial aid to apply under Regular Decision.',
-      'The Emory University Scholar Programs deadline is 15 November, with decisions by 1 March.',
       'Only students who apply for and receive aid in their first year can receive it in later years.'
     ]
   },
@@ -1790,11 +1818,13 @@ window.UNIPATH.universities.push(
     },
     merit: [
       {
+        id: 'emory-scholar-programs', category: 'merit', entryTerm: 'Autumn', entryYear: '2027',
         name: 'Emory University Scholar Programs',
         amount: 'Partial to full merit scholarships',
         internationalEligible: true,
         criteria: 'Academic and personal achievement; highly competitive with limited funding.',
-        note: 'Emory offers these merit scholarships to a limited number of international students each year; the deadline is 15 November.'
+        note: 'Scholar Programs applications are due 1 November 2026 for ED I and 15 November 2026 for ED II and RD.',
+        source: 'https://apply.emory.edu/financial-aid/scholar-program', verified: '2026-11-15'
       }
     ],
     needBased: {
@@ -1809,6 +1839,7 @@ window.UNIPATH.universities.push(
     { label: 'Undergraduate aid for international students', url: 'https://studentaid.emory.edu/undergraduate/apply/new-students/international.html' },
     { label: 'International applicants', url: 'https://apply.emory.edu/apply/international-applicants.html' },
     { label: 'Plans and deadlines', url: 'https://apply.emory.edu/apply/first-year/plans-deadlines/index.html' },
+    { label: 'Emory University Scholar Programs', url: 'https://apply.emory.edu/financial-aid/scholar-program' },
     { label: 'Cost of attendance worksheet 2026-2027', url: 'https://studentaid.emory.edu/_includes/documents/sections/undergraduate/apply/cost-of-attendance-worksheet.pdf' },
     { label: 'Standardized exam policies', url: 'https://apply.emory.edu/apply/requirements/exams' }
   ],
@@ -1948,7 +1979,81 @@ window.UNIPATH.universities.push(
       { name: 'Early Action', kind: 'EA', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: false, appliesTo: 'First-year applicants', conditions: 'Not binding. Decisions around 23 January; financial aid notification around 15 February. All Early Action applications are considered for Richmond Scholars.', status: 'confirmed', source: 'https://admission.richmond.edu/process/early-action.html', verified: '2026-10-01', note: null },
       { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Applicants can switch between Regular Decision and Early Decision II until 1 January.', status: 'confirmed', source: 'https://admission.richmond.edu/process/early-decision.html', verified: '2026-10-01', note: null },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-01', date: '1 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Not binding; decisions in mid-March and reply by 1 May. Richmond is test-optional for students entering in 2027.', status: 'confirmed', source: 'https://admission.richmond.edu/process/regular-decision.html', verified: '2026-10-01', note: 'Richmond’s current round pages list these dates without a year.' },
-      { name: 'Richmond Scholars consideration', kind: 'scholarship', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-12-01', date: '1 December 2026', binding: false, appliesTo: 'Early Decision II and Regular Decision applicants who want to be considered for Richmond Scholars', conditions: 'All applications on file by 1 December are considered automatically for Richmond Scholars, the university’s largest merit scholarship.', status: 'confirmed', source: 'https://admission.richmond.edu/process/early-decision.html', verified: '2026-10-01', note: null }
+      { name: 'Richmond Scholars consideration', kind: 'scholarship', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-12-01', date: '1 December 2026', binding: false, appliesTo: "First-year applicants, including international students", conditions: "Automatic consideration through the admission application; no separate scholarship application.", status: 'confirmed', source: "https://www.admissions.richmond.edu/process/materials/index.html", verified: "2026-11-15", note: null,
+        "id": "richmond-scholars-2027",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.admissions.richmond.edu/process/materials/index.html",
+          "verified": "2026-11-15",
+          "quote": "All applications on file by December 1"
+        },
+        "awardId": "richmond-scholars",
+        "awardCategory": "merit"
+      },
+      {
+        "id": "richmond-ea-credentials",
+        "name": "Early Action — admission credentials",
+        "kind": "documents",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "date": "1 December 2026",
+        "dateISO": "2026-12-01",
+        "status": "confirmed",
+        "source": "https://www.admissions.richmond.edu/process/materials/index.html",
+        "verified": "2026-11-15",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.admissions.richmond.edu/process/materials/index.html",
+          "verified": "2026-11-15",
+          "quote": "Early Action  | November 1  | December 1"
+        }
+      },
+      {
+        "id": "richmond-aid-early",
+        "name": "International need-based aid — Early Action and Early Decision I",
+        "kind": "aid",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "date": "15 November 2026",
+        "dateISO": "2026-11-15",
+        "status": "confirmed",
+        "source": "https://financialaid.richmond.edu/applying/international.html",
+        "verified": "2026-11-15",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://financialaid.richmond.edu/applying/international.html",
+          "verified": "2026-11-15",
+          "quote": "November 15, 2026"
+        },
+        "appliesTo": "International first-year applicants"
+      },
+      {
+        "id": "richmond-aid-regular",
+        "name": "International need-based aid — Early Decision II and Regular Decision",
+        "kind": "aid",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "date": "1 February 2027",
+        "dateISO": "2027-02-01",
+        "status": "confirmed",
+        "source": "https://financialaid.richmond.edu/applying/international.html",
+        "verified": "2026-11-15",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://financialaid.richmond.edu/applying/international.html",
+          "verified": "2026-11-15",
+          "quote": "February 1, 2027"
+        },
+        "appliesTo": "International first-year applicants"
+      }
     ],
     applicationFee: { amount: 50, currency: 'USD', waiverAvailableToInternational: true, waiver: 'Richmond waives the application fee for international students and other applicants living abroad.', note: 'Stated in section C13 of the 2025–26 Common Data Set for the Fall 2027 admission cycle.', source: 'https://ifx.richmond.edu/pdfs/CDS2025-2026SectionC.pdf', verified: '2026-10-06', cycle: '2025–26 Common Data Set, section C13 (Fall 2027 admission cycle)', status: 'confirmed' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'Certification of Financial Responsibility', 'CSS Profile for aid applicants'],
@@ -2000,23 +2105,34 @@ window.UNIPATH.universities.push(
       covers: { tuition: true, housing: true, meals: true, insurance: null, books: null },
       renewable: true,
       competitiveness: 'Need-aware admission for non-US citizens: strong Early Decision applicants may be admitted with aid, while others are deferred to Regular Decision so that Richmond can still meet their full need if it admits them.',
-      howToApply: 'Apply for aid when you apply for admission, and submit the Certification of Financial Responsibility with the CSS Profile.',
-      note: 'Richmond states that it is "committed to providing financial aid awards that meet every admitted student’s full demonstrated need" and that the Office of Admission is need-aware for applicants who are not US citizens or permanent residents.'
+      howToApply: "Submit the 2027–28 CSS Profile by your aid deadline. The Certification of Financial Responsibility is also required for admission for applicants who are neither U.S. citizens nor permanent residents.",
+      note: 'Richmond states that it is "committed to providing financial aid awards that meet every admitted student’s full demonstrated need" and that the Office of Admission is need-aware for applicants who are not US citizens or permanent residents.',
+      "source": "https://financialaid.richmond.edu/applying/international.html",
+      "verified": "2026-11-15"
     },
     merit: [
       {
-        name: 'Richmond Scholars and other university merit scholarships',
+        name: "Richmond Scholars",
         amount: 'Not published on the pages consulted',
         internationalEligible: true,
         criteria: 'Academic and personal achievement; applications are due 1 December.',
-        note: 'Richmond states that all applicants, regardless of citizenship, may compete for university-funded merit scholarships.'
+        note: 'Richmond states that all applicants, regardless of citizenship, may compete for university-funded merit scholarships.',
+        "id": "richmond-scholars",
+        "category": "merit",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "application": "Automatic consideration through the admission application; no separate scholarship application.",
+        "source": "https://financialaid.richmond.edu/applying/international.html",
+        "verified": "2026-11-15"
       }
     ],
     needBased: {
       availableToInternational: true, meetsFullNeed: true, needBlindInternational: false,
       forms: ['Certification of Financial Responsibility', 'CSS Profile'],
-      deadlines: 'With the admission round; apply as early as possible',
-      note: 'Need-based aid for non-US citizens is limited, and Richmond says the earlier you apply, the stronger your chances of receiving it.'
+      deadlines: "Early Action / Early Decision I: 15 November 2026. Early Decision II / Regular Decision: 1 February 2027.",
+      note: 'Need-based aid for non-US citizens is limited, and Richmond says the earlier you apply, the stronger your chances of receiving it.',
+      "source": "https://financialaid.richmond.edu/applying/international.html",
+      "verified": "2026-11-15"
     }
   },
   photos: { main: null, gallery: [], city: null },
@@ -3386,7 +3502,7 @@ window.UNIPATH.universities.push(
   programNote: 'USC has more than twenty schools, including the School of Cinematic Arts, Marshall (business), Viterbi (engineering) and Annenberg (communication). The Law & Policy tag reflects undergraduate programmes in law, history and culture and public policy.',
   links: {
     website: 'https://www.usc.edu/',
-    admissions: 'https://admission.usc.edu/',
+    admissions: 'https://admission.usc.edu/prospective-students/how-to-apply/first-year-students/',
     internationalAdmissions: 'https://admission.usc.edu/prospective-students/how-to-apply/international-students/',
     applicationPortal: 'https://www.commonapp.org/',
     scholarships: 'https://admission.usc.edu/cost-and-financial-aid/scholarships/',
@@ -3397,10 +3513,10 @@ window.UNIPATH.universities.push(
   admissions: {
     platforms: ['Common Application'],
     deadlines: [
-      { name: 'Early Decision (most majors)', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants, except performing arts programmes', conditions: 'Binding: an ED agreement is required, and admitted students must enrol and withdraw other applications. Notification by mid-December. ED applicants are considered for USC merit scholarships. Financial aid deadline 1 November 2026.', status: 'confirmed', source: 'https://admission.usc.edu/prospective-students/first-year-students/', verified: '2026-10-01', note: null },
-      { name: 'Early Action (most majors)', kind: 'EA', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: false, appliesTo: 'First-year applicants, except performing arts programmes', conditions: 'Non-binding and non-restrictive; notification in late January. EA applicants are considered for USC merit scholarships. Financial aid deadline 15 November 2026. World Bachelor in Business applicants must use the 1 November deadline.', status: 'confirmed', source: 'https://admission.usc.edu/prospective-students/first-year-students/', verified: '2026-10-01', note: null },
-      { name: 'Regular Decision (performing arts majors)', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-12-01', date: '1 December 2026', binding: false, appliesTo: 'Applicants to the Kaufman School of Dance, School of Dramatic Arts and Thornton School of Music', conditions: 'The only deadline for these schools; applicants are considered for USC merit scholarships. Notification by 1 April.', status: 'confirmed', source: 'https://admission.usc.edu/prospective-students/first-year-students/', verified: '2026-10-01', note: null },
-      { name: 'Regular Decision (most majors)', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-10', date: '10 January 2027', binding: false, appliesTo: 'First-year applicants to majors without a 1 December deadline', conditions: 'Final first-year deadline; notification by 1 April. Financial aid deadline 3 February 2027.', status: 'confirmed', source: 'https://admission.usc.edu/prospective-students/first-year-students/', verified: '2026-10-01', note: null }
+      { name: 'Early Decision (most majors)', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants, except performing arts programmes', conditions: 'Binding: an ED agreement is required, and admitted students must enrol and withdraw other applications. Notification by mid-December. ED applicants are considered for USC merit scholarships.', status: 'confirmed', source: 'https://admission.usc.edu/prospective-students/how-to-apply/first-year-students/', verified: '2026-10-01', note: null },
+      { name: 'Early Action (most majors)', kind: 'EA', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: false, appliesTo: 'First-year applicants, except performing arts programmes', conditions: 'Non-binding and non-restrictive; notification in late January. EA applicants are considered for USC merit scholarships. World Bachelor in Business applicants must use the 1 November deadline.', status: 'confirmed', source: 'https://admission.usc.edu/prospective-students/how-to-apply/first-year-students/', verified: '2026-10-01', note: null },
+      { name: 'Regular Decision (performing arts majors)', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-12-01', date: '1 December 2026', binding: false, appliesTo: 'Applicants to the Kaufman School of Dance, School of Dramatic Arts and Thornton School of Music', conditions: 'The only deadline for these schools; applicants are considered for USC merit scholarships. Notification by 1 April.', status: 'confirmed', source: 'https://admission.usc.edu/prospective-students/how-to-apply/first-year-students/', verified: '2026-10-01', note: null },
+      { name: 'Regular Decision (most majors)', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-10', date: '10 January 2027', binding: false, appliesTo: 'First-year applicants to majors without a 1 December deadline', conditions: 'Final first-year deadline; notification by 1 April.', status: 'confirmed', source: 'https://admission.usc.edu/prospective-students/how-to-apply/first-year-students/', verified: '2026-10-01', note: null }
     ],
     applicationFee: { amount: 85, currency: 'USD', waiverAvailableToInternational: null, waiver: 'The Common Data Set says the fee can be waived for applicants with financial need; whether that covers international applicants was not checked.', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://oir.usc.edu/wp-content/uploads/sites/3/2026/10/CDS_2025-26_FINAL.pdf', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application with USC questions', 'Official records from all secondary schools, with certified English translations', 'External exam results or predictions (IB, A-Levels, national exams)', 'Financial Statement of Personal or Family Support', 'Copy of passport', 'English proficiency score'],
@@ -3408,14 +3524,14 @@ window.UNIPATH.universities.push(
     essay: 'Common Application essay plus USC’s supplement',
     interview: null,
     notes: [
-      'International applicants upload the Financial Statement of Personal or Family Support within two weeks of their deadline, proving funds for at least the first year; bank documents must be dated August 2026 or later.',
+      "USC asks for proof of funding for the first academic year. Upload the financial statement and, if required, submit official English scores within two weeks of your application deadline. Unawarded merit scholarships cannot count as proof of funding.",
       'USC does not work with, and is not represented by, recruitment agents.'
     ]
   },
   english: {
-    ielts: { min: 7, recommended: null, note: 'IELTS (or IELTS Indicator) 7 is the recommended minimum.' },
+    ielts: { min: null, recommended: 7, note: "USC recommends IELTS 7; applicants can be admitted with a lower score.", source: 'https://admission.usc.edu/prospective-students/how-to-apply/international-students/', verified: '2026-11-15' },
     toefl: { min: 100, recommended: null, scales: [{ period: 'pre2026', min: 100, recommended: null }, { period: 'post2026', min: 5, recommended: null }], note: 'TOEFL 100 with at least 20 in each section before 21 January 2026; 5 overall with at least 4 in each section from that date. TOEFL ITP Plus for China is not accepted.' },
-    duolingo: { min: null, recommended: null, note: 'The Duolingo English Test is not on USC’s published list of approved exams.' },
+    duolingo: { min: 130, recommended: null, note: "Duolingo is an alternative if you cannot take a USC-approved exam. If admitted using Duolingo alone, you must take the International Student Exam upon enrolment.", source: 'https://admission.usc.edu/prospective-students/how-to-apply/international-students/', verified: '2026-11-15' },
     waiver: 'USC grants no waivers: every international applicant whose native language is not English must submit an approved exam.',
     note: 'Also accepted: Cambridge C1 Advanced 185 (169 in each skill), PTE 68, SAT Evidence-Based Reading and Writing 650 or ACT English 27.'
   },
@@ -3487,7 +3603,7 @@ window.UNIPATH.universities.push(
   founded: 1839,
   type: 'Private research university',
   brand: { c1: '#CC0000', c2: '#8a0000', initials: 'BU' },
-  description: 'A large private research university stretched along the Charles River in Boston, with strong communication, business, engineering and health programmes. International students cannot receive BU need-based aid, but they compete for merit awards, including the Trustee Scholarship, BU’s top award.',
+  description: 'A large private research university along the Charles River in Boston. The Presidential Scholarship is open to international first-year applicants. BU need-based aid is unavailable to international students.',
   englishTaught: true,
   languageOfInstruction: 'English',
   programs: ['business','engineering','computer-science','economics','social-sciences','humanities','arts','biology','psychology','medicine','education','mathematics'],
@@ -3509,7 +3625,13 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-02', date: '2 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. The application and the aid forms (CSS Profile and FAFSA) share this date; decision 15 December.', status: 'confirmed', source: 'https://www.bu.edu/admissions/apply/deadlines/', verified: '2026-09-23', note: null },
       { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; decision 9 February.', status: 'confirmed', source: 'https://www.bu.edu/admissions/apply/deadlines/', verified: '2026-09-23', note: null },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Decision 28 March; enrolment deposit 1 May.', status: 'confirmed', source: 'https://www.bu.edu/admissions/apply/deadlines/', verified: '2026-09-23', note: null },
-      { name: 'Merit scholarship consideration', kind: 'scholarship', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-12-01', date: '1 December 2026', binding: false, appliesTo: 'Applicants for certain BU merit scholarships', conditions: 'Some merit scholarships require submission by this date.', status: 'confirmed', source: 'https://www.bu.edu/admissions/apply/deadlines/', verified: '2026-09-23', note: null },
+      {
+        name: 'Presidential Scholarship — application', kind: 'scholarship', date: '1 December',
+        appliesTo: 'First-year applicants, including international students',
+        awardId: 'bu-presidential', awardCategory: 'merit',
+        status: 'annual-rule', source: 'https://www.bu.edu/admissions/tuition-aid/scholarships-financial-aid/first-year-merit/', verified: '2026-11-15',
+        cycleEvidence: { basis: 'annual-rule', source: 'https://www.bu.edu/admissions/tuition-aid/scholarships-financial-aid/first-year-merit/', verified: '2026-11-15', quote: 'Deadline: December 1' }
+      },
     ],
     applicationFee: { amount: 80, currency: 'USD', waiverAvailableToInternational: null, waiver: 'The Common Data Set says the fee can be waived for applicants with financial need; whether that covers international applicants was not checked.', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://www.bu.edu/asir/files/2026/07/CDS-2025-2026-C-updated.pdf', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations'],
@@ -3561,11 +3683,18 @@ window.UNIPATH.universities.push(
     },
     merit: [
       {
-        name: 'Trustee Scholarship and Presidential Scholarship',
-        amount: 'Merit awards; the Trustee Scholarship is BU’s top award',
-        internationalEligible: true,
-        criteria: 'Outstanding academic records; competitive. Apply for admission by 1 December.',
-        note: 'Trustee Scholars must keep a 3.00 GPA each year and live in BU housing on the Charles River or Fenway campus.'
+        id: 'bu-presidential', category: 'merit', basis: 'merit',
+        name: 'Presidential Scholarship', amount: 'Half of tuition per year',
+        internationalEligible: true, firstYearEligible: true,
+        eligibility: 'First-year applicants, including international students',
+        application: 'Submit a complete application for admission by 1 December for automatic consideration. No separate scholarship form or essay is required.',
+        deadlineScope: 'annual-rule', source: 'https://www.bu.edu/admissions/tuition-aid/scholarships-financial-aid/first-year-merit/', verified: '2026-11-15'
+      },
+      {
+        id: 'bu-trustee', category: 'merit', name: 'Trustee Scholarship',
+        internationalEligible: null, firstYearEligible: null,
+        eligibility: 'Availability to new applicants for Fall 2027 is unconfirmed.',
+        deadlineScope: 'not-confirmed', source: 'https://www.bu.edu/finaid/status_documents/award_base_award_description.htm', verified: '2026-11-15'
       }
     ],
     needBased: {
@@ -3580,6 +3709,7 @@ window.UNIPATH.universities.push(
     { label: 'International students — financial assistance', url: 'https://www.bu.edu/finaid/undergraduate-students/international/' },
     { label: 'Cost of attendance 2026/2027', url: 'https://www.bu.edu/admissions/tuition-aid/tuition/' },
     { label: 'Merit scholarships for first-year students', url: 'https://www.bu.edu/admissions/tuition-aid/scholarships-financial-aid/first-year-merit/' },
+    { label: 'Trustee Scholarship — award description', url: 'https://www.bu.edu/finaid/status_documents/award_base_award_description.htm' },
     { label: 'BU’s standardized test policy', url: 'https://www.bu.edu/admissions/apply/first-year/test-policy/' },
     { label: 'International applicants', url: 'https://www.bu.edu/admissions/apply/international/' },
     { label: 'Boston University Common Data Set 2025–26 (section C13)', url: 'https://www.bu.edu/asir/files/2026/07/CDS-2025-2026-C-updated.pdf' }
@@ -3929,8 +4059,128 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; notification in mid-December.', status: 'confirmed', source: 'https://admissions.rochester.edu/applying/dates-and-deadlines/', verified: '2026-09-23', note: null },
       { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding; notification in early February.', status: 'confirmed', source: 'https://admissions.rochester.edu/applying/dates-and-deadlines/', verified: '2026-09-23', note: null },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: false, appliesTo: 'First-year applicants', conditions: 'Test-optional; Rochester states that omitting scores does not affect review or scholarship consideration.', status: 'confirmed', source: 'https://admissions.rochester.edu/applying/dates-and-deadlines/', verified: '2026-09-23', note: null },
-      { name: 'Financial aid documents — Early Decision I', kind: 'aid', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-12-01', date: '1 December 2026', binding: false, appliesTo: 'ED I applicants asking for aid', status: 'confirmed', source: 'https://admissions.rochester.edu/applying/dates-and-deadlines/', verified: '2026-09-23', note: null },
-      { name: 'Financial aid documents — Early Decision II', kind: 'aid', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', binding: false, appliesTo: 'ED II applicants asking for aid', status: 'confirmed', source: 'https://admissions.rochester.edu/applying/dates-and-deadlines/', verified: '2026-09-23', note: null },
+      { name: "International CSS Profile — Early Decision I", kind: 'aid', entryTerm: 'Autumn', entryYear: '2027', dateISO: "2026-11-01", date: "1 November 2026, 00:00 ET", binding: false, appliesTo: "International first-year applicants", status: 'confirmed', source: "https://www.rochester.edu/financial-aid/international-undergraduates/", verified: "2026-11-15", note: null,
+        "id": "rochester-intl-css-ed1",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.rochester.edu/financial-aid/international-undergraduates/",
+          "verified": "2026-11-15",
+          "quote": "Early decision (ED) students (applying for fall 2027)"
+        },
+        "conditions": "Rochester lists midnight (12:00 a.m. ET) on the stated date. Further instructions are emailed separately.",
+        "time": "00:00",
+        "timezone": "ET"
+      },
+      { name: "International CSS Profile — Early Decision II and Regular Decision", kind: 'aid', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: "5 January 2027, 00:00 ET", binding: false, appliesTo: "International first-year applicants", status: 'confirmed', source: "https://www.rochester.edu/financial-aid/international-undergraduates/", verified: "2026-11-15", note: null,
+        "id": "rochester-intl-css-ed2-rd",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.rochester.edu/financial-aid/international-undergraduates/",
+          "verified": "2026-11-15",
+          "quote": "Early Decision II and Regular decision students (applying for fall 2027)"
+        },
+        "conditions": "Rochester lists midnight (12:00 a.m. ET) on the stated date. Further instructions are emailed separately.",
+        "time": "00:00",
+        "timezone": "ET"
+      },
+      {
+        "id": "rochester-handler-application",
+        "name": "Handler Scholarship — admission application",
+        "kind": "admission",
+        "entryTerm": null,
+        "entryYear": null,
+        "date": "1 December",
+        "dateISO": null,
+        "status": "annual-rule",
+        "source": "https://admissions.rochester.edu/handler-scholarship/",
+        "verified": "2026-11-15",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://admissions.rochester.edu/handler-scholarship/",
+          "verified": "2026-11-15",
+          "quote": "should be submitted by December 1"
+        },
+        "appliesTo": "Domestic and international first-year applicants for fall entry.",
+        "conditions": "Submit the admission application and applicable financial aid forms. No separate scholarship application. Counselors, teachers and community officials may nominate a student; the published nomination cutoff is 30 November.",
+        "awardId": "rochester-handler",
+        "awardCategory": "merit"
+      },
+      {
+        "id": "rochester-handler-nomination",
+        "name": "Handler Scholarship — nomination",
+        "kind": "nomination",
+        "entryTerm": null,
+        "entryYear": null,
+        "date": "30 November",
+        "dateISO": null,
+        "status": "annual-rule",
+        "source": "https://admissions.rochester.edu/handler-scholarship/",
+        "verified": "2026-11-15",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://admissions.rochester.edu/handler-scholarship/",
+          "verified": "2026-11-15",
+          "quote": "close November 30"
+        },
+        "appliesTo": "Domestic and international first-year applicants for fall entry.",
+        "conditions": "Submit the admission application and applicable financial aid forms. No separate scholarship application. Counselors, teachers and community officials may nominate a student; the published nomination cutoff is 30 November.",
+        "awardId": "rochester-handler",
+        "awardCategory": "merit"
+      },
+      {
+        "id": "rochester-merit-priority",
+        "name": "Merit scholarships — priority consideration",
+        "kind": "scholarship",
+        "entryTerm": null,
+        "entryYear": null,
+        "date": "1 December",
+        "dateISO": null,
+        "status": "annual-rule",
+        "source": "https://admissions.rochester.edu/applying/dates-and-deadlines/",
+        "verified": "2026-11-15",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://admissions.rochester.edu/applying/dates-and-deadlines/",
+          "verified": "2026-11-15",
+          "quote": "submit your completed application by December 1"
+        },
+        "conditions": "Submit the complete admission application by this date. No separate scholarship application; the Eastman dual-degree route may have different rules.",
+        "awardId": "rochester-merit",
+        "awardCategory": "merit"
+      },
+      {
+        "id": "rochester-domestic-aid-ed1",
+        "name": "FAFSA and CSS Profile — Early Decision I, FAFSA-eligible applicants",
+        "kind": "aid",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "date": "1 December 2026, 00:00 ET",
+        "dateISO": "2026-12-01",
+        "status": "confirmed",
+        "source": "https://www.rochester.edu/financial-aid/prospective-undergraduates/",
+        "verified": "2026-11-15",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.rochester.edu/financial-aid/prospective-undergraduates/",
+          "verified": "2026-11-15",
+          "quote": "Applying for Fall 2027"
+        },
+        "time": "00:00",
+        "timezone": "ET",
+        "appliesTo": "U.S. citizens and federally eligible noncitizens"
+      }
     ],
     applicationFee: { amount: 50, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Application Fee Waiver Request Form for applicants facing hardship' },
     documents: ['Common Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile for international aid applicants'],
@@ -3975,8 +4225,10 @@ window.UNIPATH.universities.push(
       covers: { tuition: true, housing: true, meals: true, insurance: null, books: null },
       renewable: true,
       competitiveness: 'Rochester is need-aware for non-US citizens and says only a small number of international applicants will qualify for need-based aid.',
-      howToApply: 'Submit the CSS Profile by 1 November with your application.',
-      note: 'Rochester states it is committed to meeting the full demonstrated need of all admitted students regardless of citizenship, using a combination of merit and need-based aid.'
+      howToApply: "Fall 2027: CSS Profile by 1 November 2026 for ED I or 5 January 2027 for ED II / Regular Decision.",
+      note: 'Rochester states it is committed to meeting the full demonstrated need of all admitted students regardless of citizenship, using a combination of merit and need-based aid.',
+      "source": "https://www.rochester.edu/financial-aid/international-undergraduates/",
+      "verified": "2026-11-15"
     },
     merit: [
       {
@@ -3984,14 +4236,37 @@ window.UNIPATH.universities.push(
         amount: 'Average about $20,000 a year',
         internationalEligible: true,
         criteria: 'All applicants are considered automatically, regardless of citizenship; no extra documents are needed.',
-        note: 'About 75% of students admitted for 2026–27 received a merit scholarship.'
+        note: 'About 75% of students admitted for 2026–27 received a merit scholarship.',
+        "id": "rochester-merit",
+        "category": "merit",
+        "entryTerm": null,
+        "entryYear": null,
+        "deadlineScope": "annual-rule",
+        "application": "Automatic consideration through the admission application; no separate scholarship application.",
+        "source": "https://admissions.rochester.edu/applying/dates-and-deadlines/",
+        "verified": "2026-11-15"
+      },
+      {
+        "id": "rochester-handler",
+        "category": "merit",
+        "entryTerm": null,
+        "entryYear": null,
+        "deadlineScope": "annual-rule",
+        "name": "Alan and Jane Handler Scholarship",
+        "internationalEligible": true,
+        "eligibility": "Domestic and international first-year applicants for fall entry.",
+        "application": "Submit the admission application and applicable financial aid forms. No separate scholarship application. Counselors, teachers and community officials may nominate a student; the published nomination cutoff is 30 November.",
+        "source": "https://admissions.rochester.edu/handler-scholarship/",
+        "verified": "2026-11-15"
       }
     ],
     needBased: {
       availableToInternational: true, meetsFullNeed: true, needBlindInternational: false,
       forms: ['CSS Profile'],
-      deadlines: '1 November',
-      note: 'Rochester has bought a limited number of CSS Profile fee waivers; first-year applicants request one by 15 January.'
+      deadlines: "Fall 2027: CSS Profile by 1 November 2026 for ED I or 5 January 2027 for ED II / Regular Decision.",
+      note: 'Rochester has bought a limited number of CSS Profile fee waivers; first-year applicants request one by 15 January.',
+      "source": "https://www.rochester.edu/financial-aid/international-undergraduates/",
+      "verified": "2026-11-15"
     }
   },
   photos: { main: null, gallery: [], city: null },
@@ -4774,7 +5049,22 @@ window.UNIPATH.universities.push(
       { name: 'Early Decision I', kind: 'ED', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-11-01', date: '1 November 2026', time: '23:59', timezone: 'applicant’s local time', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Supplemental materials due 15 November; notification 20 December.', status: 'confirmed', source: 'https://www.wlu.edu/admissions/apply', verified: '2026-09-23', note: null },
       { name: 'Early Decision II', kind: 'ED2', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', time: '23:59', timezone: 'applicant’s local time', binding: true, appliesTo: 'First-year applicants', conditions: 'Binding. Supplemental materials due 15 January; notification 1 February.', status: 'confirmed', source: 'https://www.wlu.edu/admissions/apply', verified: '2026-09-23', note: null },
       { name: 'Regular Decision', kind: 'RD', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-05', date: '5 January 2027', time: '23:59', timezone: 'applicant’s local time', binding: false, appliesTo: 'First-year applicants', conditions: 'Supplemental materials due 1 February; notification 1 April.', status: 'confirmed', source: 'https://www.wlu.edu/admissions/apply', verified: '2026-09-23', note: null },
-      { name: 'Johnson Scholarship essay', kind: 'scholarship', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-12-01', date: '1 December 2026', time: '23:59', timezone: 'applicant’s local time', binding: false, appliesTo: 'Applicants for the Johnson Scholarship', conditions: 'W&L’s main merit award: full tuition, housing and meals for up to 10% of the entering class, plus $10,000 for a summer experience or study abroad. Supporting materials should arrive by 15 December.', status: 'confirmed', source: 'https://www.wlu.edu/admissions/apply', verified: '2026-09-23', note: null },
+      {
+        name: 'Johnson Scholarship — application and essay', kind: 'scholarship', entryTerm: 'Autumn', entryYear: '2027',
+        dateISO: '2026-12-01', date: '1 December 2026, 23:59 applicant’s local time',
+        time: '23:59', timezone: 'applicant’s local time',
+        appliesTo: 'Applicants for the Johnson Scholarship',
+        conditions: 'Submit the complete admission application and Johnson Scholarship essay by 1 December. QuestBridge Finalists are considered automatically.',
+        awardId: 'wlu-johnson', awardCategory: 'merit', status: 'confirmed', source: 'https://www.wlu.edu/admissions/apply', verified: '2026-11-15',
+        cycleEvidence: { basis: 'explicit-date', source: 'https://www.wlu.edu/admissions/apply', verified: '2026-11-15', quote: 'Dec. 1, 2026', entryTerm: 'Autumn', entryYear: '2027' }
+      },
+      {
+        name: 'Johnson Scholarship — supplemental materials', kind: 'documents', entryTerm: 'Autumn', entryYear: '2027',
+        dateISO: '2026-12-15', date: '15 December 2026', appliesTo: 'Applicants for the Johnson Scholarship',
+        conditions: 'Supplemental materials in support of the scholarship application should arrive by this date.',
+        awardId: 'wlu-johnson', awardCategory: 'merit', status: 'confirmed', source: 'https://www.wlu.edu/admissions/apply', verified: '2026-11-15',
+        cycleEvidence: { basis: 'explicit-date', source: 'https://www.wlu.edu/admissions/apply', verified: '2026-11-15', quote: 'Dec. 15, 2026', entryTerm: 'Autumn', entryYear: '2027' }
+      },
     ],
     applicationFee: { amount: 60, currency: 'USD', waiverAvailableToInternational: null, waiver: 'Some applicants qualify to have the Common or Coalition Application fee waived', note: 'Stated in section C13 of the 2025–26 Common Data Set.', source: 'https://my.wlu.edu/document/2025-common-data-set', verified: '2026-10-05', cycle: '2025–26 Common Data Set' },
     documents: ['Common or Coalition Application', 'School transcript and reports', 'Teacher recommendations', 'CSS Profile for need-based aid', 'Johnson Scholarship application for merit consideration'],
@@ -4823,12 +5113,16 @@ window.UNIPATH.universities.push(
       covers: { tuition: true, housing: true, meals: true, insurance: null, books: null },
       renewable: true,
       competitiveness: 'The Johnson Scholarship goes to up to 44 first-year students; finalists are invited to a selection event in March.',
-      howToApply: 'Submit the Johnson Scholarship application by 1 December; all of W&L’s merit aid is awarded through it.',
+      id: 'wlu-johnson', category: 'merit', entryTerm: 'Autumn', entryYear: '2027',
+      howToApply: 'Submit the complete admission application and Johnson Scholarship essay by 1 December. QuestBridge Finalists are considered automatically.',
+      source: 'https://www.wlu.edu/admissions/the-johnson-scholarship/application-instructions', verified: '2026-11-15',
       note: 'The Johnson Scholarship covers at least tuition, housing and food, plus $10,000 of summer funding, worth about $95,000 a year. Separately, W&L says it is need-blind and meets 100% of demonstrated need without loans for every admitted student, with international grants ranging from several thousand dollars to the full cost of attendance.'
     },
     merit: [
       {
+        id: 'wlu-johnson', category: 'merit', entryTerm: 'Autumn', entryYear: '2027',
         name: 'The Johnson Scholarship',
+        application: 'Submit the complete admission application and Johnson Scholarship essay by 1 December. QuestBridge Finalists are considered automatically.', source: 'https://www.wlu.edu/admissions/the-johnson-scholarship/application-instructions', verified: '2026-11-15',
         amount: 'At least tuition, housing and food, plus $10,000 for summer research, travel or internships',
         internationalEligible: true,
         criteria: 'Up to 44 first-year students a year; application by 1 December.',
@@ -4846,6 +5140,7 @@ window.UNIPATH.universities.push(
   sources: [
     { label: 'International student aid', url: 'https://www.wlu.edu/admissions/financial-aid/types-of-aid/international-student-aid' },
     { label: 'The Johnson Scholarship', url: 'https://www.wlu.edu/admissions/the-johnson-scholarship' },
+    { label: 'Johnson Scholarship application instructions', url: 'https://www.wlu.edu/admissions/the-johnson-scholarship/application-instructions' },
     { label: 'Tuition and fees 2026-2027', url: 'https://my.wlu.edu/business-office/parents-and-students/tuition-information/tuition-and-fees' },
     { label: 'Apply to W&L', url: 'https://www.wlu.edu/admissions/apply' },
     { label: 'Test-optional admissions policy', url: 'https://www.wlu.edu/admissions/apply/test-optional-policy' },
@@ -6023,11 +6318,22 @@ window.UNIPATH.universities.push(
         "date": "1 December 2026",
         "binding": false,
         "appliesTo": "Applicants who want priority scholarship consideration",
-        "conditions": "Applications submitted by 1 December receive priority consideration for scholarships.",
+        "conditions": "Automatic consideration through the admission application; no separate scholarship application.",
         "status": "confirmed",
-        "source": "https://www.union.edu/admissions/apply",
-        "verified": "2026-10-01",
-        "note": null
+        "source": "https://www.union.edu/news/calendar/202612/priority-application-deadline-scholarship-consideration",
+        "verified": "2026-11-15",
+        "note": null,
+        "id": "union-merit-priority",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.union.edu/news/calendar/202612/priority-application-deadline-scholarship-consideration",
+          "verified": "2026-11-15",
+          "quote": "December 1, 2026 12:00 AM-11:59 PM"
+        },
+        "awardId": "union-merit",
+        "awardCategory": "merit"
       }
     ],
     "applicationFee": {
@@ -6128,8 +6434,10 @@ window.UNIPATH.universities.push(
       },
       "renewable": null,
       "competitiveness": "Admission is need-aware for international students.",
-      "howToApply": "Submit the Certification of Finances and the aid forms with the application.",
-      "note": "Union describes generous merit scholarships and grant aid for international students but does not state that it meets their full need, so no full-scholarship route is claimed."
+      "howToApply": "Submit the Certification of Finances by the admission application deadline. Union requires it from all international applicants.",
+      "note": "Union describes generous merit scholarships and grant aid for international students but does not state that it meets their full need, so no full-scholarship route is claimed.",
+      "source": "https://www.union.edu/admissions/finaid",
+      "verified": "2026-11-15"
     },
     "merit": [
       {
@@ -6137,7 +6445,14 @@ window.UNIPATH.universities.push(
         "amount": null,
         "internationalEligible": true,
         "deadline": "Priority consideration for applications submitted by 1 December",
-        "note": "Amounts are not published on the pages read."
+        "note": "Amounts are not published on the pages read.",
+        "id": "union-merit",
+        "category": "merit",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "application": "Automatic consideration through the admission application; no separate scholarship application.",
+        "source": "https://www.union.edu/admissions/finaid",
+        "verified": "2026-11-15"
       }
     ],
     "needBased": {
@@ -12985,6 +13300,56 @@ window.UNIPATH.universities.push(
     ],
     "deadlines": [
       {
+        "id": "tcu-chancellor-admission",
+        "name": "Chancellor’s Scholarship — TCU application",
+        "kind": "admission",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": false,
+        "appliesTo": "First-year Chancellor’s Scholarship candidates",
+        "conditions": "Both the TCU admission application and the Roach Honors College application are required. The scholarship covers tuition for up to eight semesters; housing, food and other expenses are separate.",
+        "status": "confirmed",
+        "source": "https://admissions.tcu.edu/chancellors-scholars.php",
+        "verified": "2026-11-15",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://admissions.tcu.edu/chancellors-scholars.php",
+          "verified": "2026-11-15",
+          "quote": "November 1 Early Action/Early Decision deadline"
+        },
+        "awardId": "tcu-chancellor",
+        "awardCategory": "merit"
+      },
+      {
+        "id": "tcu-chancellor-honors",
+        "name": "Chancellor’s Scholarship — Honors application",
+        "kind": "scholarship",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-15",
+        "date": "15 November 2026",
+        "binding": false,
+        "appliesTo": "First-year Chancellor’s Scholarship candidates",
+        "conditions": "Both the TCU admission application and the Roach Honors College application are required. The scholarship covers tuition for up to eight semesters; housing, food and other expenses are separate.",
+        "status": "confirmed",
+        "source": "https://admissions.tcu.edu/chancellors-scholars.php",
+        "verified": "2026-11-15",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://admissions.tcu.edu/chancellors-scholars.php",
+          "verified": "2026-11-15",
+          "quote": "Honors College application by the November 15 deadline"
+        },
+        "awardId": "tcu-chancellor",
+        "awardCategory": "merit"
+      },
+      {
         "name": "Early Action",
         "kind": "EA",
         "entryTerm": "Autumn",
@@ -13175,11 +13540,12 @@ window.UNIPATH.universities.push(
       "note": "TCU offers scholarships and need-based aid to incoming international students but does not state that full need is met, so no full-scholarship route is claimed."
     },
     "merit": [
+      {"id": "tcu-chancellor", "category": "merit", "entryTerm": "Autumn", "entryYear": "2027", "name": "Chancellor’s Scholarship", "amount": "Full tuition for up to eight semesters", "internationalEligible": true, "application": "Both the TCU admission application and the Roach Honors College application are required. The scholarship covers tuition for up to eight semesters; housing, food and other expenses are separate.", "source": "https://admissions.tcu.edu/chancellors-scholars.php", "verified": "2026-11-15"},
       {
         "name": "Academic scholarships",
         "amount": null,
         "internationalEligible": true,
-        "deadline": "1 November is recommended for Chancellor’s Scholarship candidates",
+        "deadline": null,
         "note": "Competitive; based on curriculum strength, test scores and other criteria."
       }
     ],
@@ -15920,6 +16286,33 @@ window.UNIPATH.universities.push(
     ],
     "deadlines": [
       {
+        "id": "fsu-presidential-semifinal-video",
+        "name": "Presidential Scholars — semifinalist video responses",
+        "kind": "documents",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-28",
+        "date": "28 February 2027, 23:59 EST",
+        "binding": false,
+        "appliesTo": "Invited Presidential Scholars semifinalists only",
+        "conditions": "Submit video responses to two prompts to be considered for the finalist stage.",
+        "status": "confirmed",
+        "source": "https://presidentialscholars.fsu.edu/application-process",
+        "verified": "2026-11-15",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://presidentialscholars.fsu.edu/application-process",
+          "verified": "2026-11-15",
+          "quote": "Feb. 28, 2027, by 11:59 p.m. EST"
+        },
+        "awardId": "fsu-presidential",
+        "awardCategory": "merit",
+        "time": "23:59",
+        "timezone": "EST"
+      },
+      {
         "name": "Regular Decision",
         "kind": "RD",
         "entryTerm": "Autumn",
@@ -15928,7 +16321,7 @@ window.UNIPATH.universities.push(
         "date": "1 December 2026",
         "binding": false,
         "appliesTo": "All first-year applicants, including international",
-        "conditions": "Open to all students. Materials by 8 December; additional test scores by 1 January; decisions released 18 February; deposit by 1 May.",
+        "conditions": "Open to all students. Additional test scores by 1 January; decisions released 18 February; deposit by 1 May.",
         "status": "confirmed",
         "source": "https://admissions.fsu.edu/first-year/apply",
         "verified": "2026-10-01",
@@ -15950,19 +16343,53 @@ window.UNIPATH.universities.push(
         "note": null
       },
       {
-        "name": "Honors / Presidential Scholars supplemental application",
+        "name": "Presidential Scholars — Honors supplemental essay",
         "kind": "scholarship",
         "entryTerm": "Autumn",
         "entryYear": "2027",
         "dateISO": "2026-12-01",
-        "date": "1 December 2026",
+        "date": "1 December 2026, 23:59 EST",
         "binding": false,
-        "appliesTo": "Applicants seeking Honors or Presidential Scholars",
-        "conditions": "Deadline to complete the supplemental application.",
+        "appliesTo": "Incoming first-year applicants; eligibility for international students is unconfirmed.",
+        "conditions": "Submit the FSU application with Honors selected and complete the Honors essay in Application Status Check. Presidential Scholars and Stamps use that same essay. FSU’s scholarship overview also asks for all required admission materials by 1 December.",
+        "status": "confirmed",
+        "source": "https://presidentialscholars.fsu.edu/application-process",
+        "verified": "2026-11-15",
+        "note": null,
+        "id": "fsu-presidential-honors-essay",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://presidentialscholars.fsu.edu/application-process",
+          "verified": "2026-11-15",
+          "quote": "11:59 p.m. EST on Dec. 1, 2026"
+        },
+        "time": "23:59",
+        "timezone": "EST",
+        "awardId": "fsu-presidential",
+        "awardCategory": "merit"
+      },
+      {
+        "id": "fsu-rd-materials",
+        "name": "Regular Decision — admission materials",
+        "kind": "documents",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "date": "8 December 2026",
+        "dateISO": "2026-12-08",
         "status": "confirmed",
         "source": "https://admissions.fsu.edu/first-year/apply",
-        "verified": "2026-10-01",
-        "note": null
+        "verified": "2026-11-15",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://admissions.fsu.edu/first-year/apply",
+          "verified": "2026-11-15",
+          "quote": "Materials Deadline  | October 22  | October 22  | December 8"
+        },
+        "conditions": "Submit at least one required admission test score with the materials. The Honors essay has its own earlier deadline."
       }
     ],
     "applicationFee": {
@@ -16106,6 +16533,18 @@ window.UNIPATH.universities.push(
         "internationalEligible": null,
         "deadline": null,
         "note": "Automatic consideration for IB Diploma candidates."
+      },
+      {
+        "id": "fsu-presidential",
+        "category": "merit",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "name": "FSU Presidential Scholars",
+        "eligibility": "Incoming first-year applicants; eligibility for international students is unconfirmed.",
+        "internationalEligible": null,
+        "application": "Submit the FSU application with Honors selected and complete the Honors essay in Application Status Check. Presidential Scholars and Stamps use that same essay. FSU’s scholarship overview also asks for all required admission materials by 1 December.",
+        "source": "https://presidentialscholars.fsu.edu/application-process",
+        "verified": "2026-11-15"
       }
     ],
     "needBased": {

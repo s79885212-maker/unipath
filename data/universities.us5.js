@@ -3691,10 +3691,13 @@ window.UNIPATH.universities.push(
     "platforms": [],
     "deadlines": [],
     "applicationFee": {
-      "amount": null,
+      "amount": 0,
       "currency": "USD",
       "waiverAvailableToInternational": null,
-      "waiver": null
+      "waiver": null,
+      "note": "The official admissions page states there is no application fee.",
+      "source": "https://westminsteru.edu/admissions/international-admissions/index.html",
+      "verified": "2026-11-13"
     },
     "documents": [],
     "recommendations": null,
@@ -4320,8 +4323,8 @@ window.UNIPATH.universities.push(
   "programNote": "Selected undergraduate fields from the official catalog.",
   "links": {
     "website": "https://www.csusb.edu/",
-    "admissions": "https://www.csusb.edu/international-education/international-admissions/first-year-students",
-    "internationalAdmissions": "https://www.csusb.edu/international-education/international-admissions/first-year-students",
+    "admissions": "https://www.csusb.edu/international-education/international-admissions/apply/first-year-admissions-requirements",
+    "internationalAdmissions": "https://www.csusb.edu/international-education/international-admissions/apply/first-year-admissions-requirements",
     "applicationPortal": null,
     "scholarships": null,
     "financialAid": null,

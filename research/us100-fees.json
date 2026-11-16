@@ -1,0 +1,98 @@
+[
+  {
+    "id": "westminster-university-utah",
+    "amount": 0,
+    "source": "https://westminsteru.edu/admissions/international-admissions/index.html",
+    "verified": "2026-11-13",
+    "evidence": "There’s never an application fee.",
+    "category": "international first-year undergraduate"
+  },
+  {
+    "id": "the-college-of-new-jersey",
+    "amount": 65,
+    "source": "https://admissions.tcnj.edu/applications/international-applicants/",
+    "verified": "2026-11-13",
+    "evidence": "$65 application fee",
+    "category": "international first-year undergraduate"
+  },
+  {
+    "id": "john-jay-college",
+    "amount": 65,
+    "source": "https://www.jjay.cuny.edu/admissions/undergraduate-admissions/apply/international-student-application",
+    "verified": "2026-11-13",
+    "evidence": "$65 freshman application fee",
+    "category": "international first-year undergraduate"
+  },
+  {
+    "id": "manhattan-university",
+    "amount": 75,
+    "source": "https://manhattan.edu/admissions/international/requirements",
+    "verified": "2026-11-13",
+    "evidence": "There is a $75 non-refundable application fee.",
+    "category": "international first-year undergraduate"
+  },
+  {
+    "id": "berry-college",
+    "amount": 50,
+    "source": "https://www.berry.edu/admission/how-to-apply/international",
+    "verified": "2026-11-13",
+    "evidence": "1. Application Fee: $50",
+    "category": "international first-year undergraduate"
+  },
+  {
+    "id": "appalachian-state-university",
+    "amount": 65,
+    "source": "https://admissions.appstate.edu/apply/international-student",
+    "verified": "2026-11-13",
+    "evidence": "* A non-refundable application fee of $65 (USD)",
+    "category": "international first-year undergraduate"
+  },
+  {
+    "id": "tuskegee-university",
+    "amount": 35,
+    "source": "https://www.tuskegee.edu/admissions/criteria-for-international-students.html",
+    "verified": "2026-11-13",
+    "evidence": "2. Submit your $35 non-refundable application fee",
+    "category": "international first-year undergraduate"
+  },
+  {
+    "id": "university-of-tampa",
+    "amount": 40,
+    "source": "https://www.ut.edu/apply/international-students",
+    "verified": "2026-11-13",
+    "evidence": "* $40 nonrefundable application fee",
+    "category": "international first-year undergraduate"
+  },
+  {
+    "id": "middle-tennessee-state-university",
+    "amount": 30,
+    "source": "https://intered.mtsu.edu/admission/",
+    "verified": "2026-11-13",
+    "evidence": "The application has a non-refundable fee of $30 USD.",
+    "category": "international first-year undergraduate"
+  },
+  {
+    "id": "murray-state-university",
+    "amount": 100,
+    "source": "https://www.murraystate.edu/admissions/international/Admissions/index.aspx",
+    "verified": "2026-11-13",
+    "evidence": "Submit the $100 online application.",
+    "category": "international first-year undergraduate"
+  },
+  {
+    "id": "university-of-northern-iowa",
+    "amount": 50,
+    "source": "https://admissions.uni.edu/international/undergraduate-students/admission-policies",
+    "verified": "2026-11-13",
+    "evidence": "* $50 non-refundable application fee",
+    "category": "international first-year undergraduate"
+  },
+  {
+    "id": "grand-valley-state-university",
+    "amount": 0,
+    "source": "https://www.gvsu.edu/admissions/international-application-14",
+    "verified": "2026-11-13",
+    "evidence": "* There is NO application fee when applying as an undergraduate student",
+    "category": "international first-year undergraduate"
+  }
+]

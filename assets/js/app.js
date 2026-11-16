@@ -589,7 +589,8 @@
      instant is used; with only a date, the deadline counts as passed only once
      that day has ended everywhere on Earth (UTC−12), so a date is never closed
      early on the strength of the device's own calendar. */
-  var FIXED_ZONES = { 'JST': 540, 'KST': 540, 'Japan time': 540, 'UTC': 0, 'GMT': 0, 'EST': -300, 'EDT': -240 };
+  /* British Columbia uses Pacific Time (PCT, UTC−7) year-round from 2026. */
+  var FIXED_ZONES = { 'PCT': -420, 'JST': 540, 'KST': 540, 'Japan time': 540, 'UTC': 0, 'GMT': 0, 'EST': -300, 'EDT': -240 };
   var IANA_ZONES = { 'UK time': 'Europe/London', 'CET': 'Europe/Berlin', 'CEST': 'Europe/Berlin', 'German time': 'Europe/Berlin',
     'ET': 'America/New_York', 'Eastern Time': 'America/New_York', 'CT': 'America/Chicago', 'Central Time': 'America/Chicago',
     'MT': 'America/Denver', 'PT': 'America/Los_Angeles', 'Pacific Time': 'America/Los_Angeles',
@@ -767,7 +768,7 @@
     if (!annual && (!award.entryTerm || !award.entryYear)) return [];
     return roundsOf(u).filter(function (d) {
       return d.awardId === award.id && d.awardCategory === award.category &&
-        (d.kind === 'scholarship' || d.kind === 'nomination' || d.kind === 'aid' || d.kind === 'financial-aid' || d.kind === 'admission' || d.kind === 'documents') &&
+        (d.kind === 'scholarship' || d.kind === 'nomination' || d.kind === 'aid' || d.kind === 'financial-aid' || d.kind === 'admission' || d.kind === 'documents' || d.kind === 'deposit') &&
         (annual ? d.status === 'annual-rule' && d.cycleEvidence && d.cycleEvidence.basis === 'annual-rule' &&
           d.entryTerm == null && d.entryYear == null && d.dateISO == null :
           d.entryTerm === award.entryTerm && String(d.entryYear) === String(award.entryYear));

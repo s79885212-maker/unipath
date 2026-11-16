@@ -2376,7 +2376,7 @@ window.UNIPATH.universities.push(
     "scholarships": "https://wheatoncollege.edu/about-wheaton-college/offices-services/student-financial-services/financing-options/information-for-international-students/",
     "financialAid": null,
     "programs": "https://www.wheatoncollege.edu/academics/programs/",
-    "cost": "https://wheatoncollege.edu/news/wheaton-announces-new-tuition-pricing-for-fall-2027/"
+    "cost": "https://wheatoncollege.edu/wp-content/uploads/2026/11/Wheaton-College-2027-2028-Payment-Worksheet.pdf"
   },
   "admissions": {
     "platforms": [],
@@ -2423,19 +2423,44 @@ window.UNIPATH.universities.push(
     "academicYear": "2027–2028",
     "currency": "USD",
     "studentCategory": "Full-time first-year undergraduate",
-    "source": "https://wheatoncollege.edu/news/wheaton-announces-new-tuition-pricing-for-fall-2027/",
-    "verified": "2026-11-12",
-    "headline": "$39,000 in tuition",
+    "source": "https://wheatoncollege.edu/wp-content/uploads/2026/11/Wheaton-College-2027-2028-Payment-Worksheet.pdf",
+    "verified": "2026-11-13",
+    "headline": "2027–2028 payment worksheet",
     "items": [
       {
         "label": "Tuition",
         "group": "billed",
         "amount": 39000
+      },
+      {
+        "label": "Student activity fee",
+        "group": "billed",
+        "amount": 600
+      },
+      {
+        "label": "Technology fee",
+        "group": "billed",
+        "amount": 300
+      },
+      {
+        "label": "Housing",
+        "group": "estimate",
+        "amount": 10200
+      },
+      {
+        "label": "Meals",
+        "group": "estimate",
+        "amount": 8300
+      },
+      {
+        "label": "Health insurance",
+        "group": "estimate",
+        "amount": 5000
       }
     ],
     "billedSubtotal": null,
     "totalText": null,
-    "note": "Tuition only. Housing, meals and other expenses are additional."
+    "note": "Housing and meals apply to the on-campus worksheet scenario. The college plan is an estimated $5,000 and may be waived with comparable coverage. The worksheet leaves total charges blank."
   },
   "scholarships": {
     "fullRide": {
@@ -2484,7 +2509,7 @@ window.UNIPATH.universities.push(
     },
     {
       "label": "Published costs",
-      "url": "https://wheatoncollege.edu/news/wheaton-announces-new-tuition-pricing-for-fall-2027/"
+      "url": "https://wheatoncollege.edu/wp-content/uploads/2026/11/Wheaton-College-2027-2028-Payment-Worksheet.pdf"
     }
   ],
   "verification": {

@@ -161,7 +161,7 @@ window.UNIPATH.englishDetails = {
   "ritsumeikan-apu": {
     ielts: { variants: "IELTS Online accepted." },
     toefl: { variants: "TOEFL iBT Home Edition and TOEFL ITP not accepted." },
-    detailsSource: "https://admissions.apu.ac.jp/admissions/application_eligibility/", detailsVerified: '2026-10-06' },
+    detailsSource: "https://s3-ap-northeast-1.amazonaws.com/apumate-doc/international/ApplicationHandbook_UG_ENG_27_5_revised_linked%20(1).pdf", detailsVerified: '2026-11-15' },
   "tohoku-university": {
     toefl: { variants: "TOEFL iBT, including Home Edition." },
     detailsSource: "https://www.insc.tohoku.ac.jp/english/degree/undergraduate-english-future-global-leadership-program/", detailsVerified: '2026-10-06' },

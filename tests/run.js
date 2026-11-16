@@ -50,13 +50,13 @@ group('database');
 var byCountry = {};
 DB.universities.forEach(function (u) { byCountry[u.country] = (byCountry[u.country] || 0) + 1; });
 /* United States expansion: 250 records grow to 350 in batches of 25. */
-var US_NOW = 300, US_TARGET = 350;
+var US_NOW = 350, US_TARGET = 350;
 /* Canada (October 2026): 50 universities added in batches of ten. */
 var CA_NOW = 50, CA_TARGET = 50;
 ok(byCountry.us === US_NOW && US_NOW <= US_TARGET, US_NOW + ' United States records (target ' + US_TARGET + ')', 'found ' + byCountry.us);
 ok(byCountry.ca === CA_NOW && CA_NOW <= CA_TARGET, CA_NOW + ' Canadian records (target ' + CA_TARGET + ')', 'found ' + byCountry.ca);
-/* United Kingdom: 30 records plus the 2027/28 batch 1 (November 2026). */
-var UK_NOW = 35;
+/* United Kingdom: 30 records plus 20 for 2027/28 (November 2026). */
+var UK_NOW = 50;
 ok(DB.universities.length === US_NOW + 90 + UK_NOW + CA_NOW, (US_NOW + 90 + UK_NOW + CA_NOW) + ' institutions in all', 'found ' + DB.universities.length);
 ok(byCountry.uk === UK_NOW && byCountry.de === 30 && byCountry.jp === 30 && byCountry.kr === 30,
   UK_NOW + ' / 30 / 30 / 30 in the UK, Germany, Japan and Korea', JSON.stringify(byCountry));
@@ -508,15 +508,16 @@ DB.universities.forEach(function (u) {
   var g = (u.photos && u.photos.gallery) || [];
   g.forEach(function (x) {
     if (!fs.existsSync(path.join(ROOT, x.src))) missingFiles.push(x.src);
-    if (!x.title || !x.artist || !x.license || !x.page) noCredit.push(u.id);
+    if (!x.title || (!x.providedByProject && (!x.artist || !x.license || !x.page))) noCredit.push(u.id);
   });
   if (g.length && !fs.existsSync(path.join(ROOT, u.photos.thumb))) missingFiles.push(u.photos.thumb);
 });
 ok(!missingFiles.length, 'every listed photo and thumbnail exists on disk', missingFiles.slice(0, 5).join(', '));
-ok(!noCredit.length, 'every photo has a title, author, licence and source page', noCredit.slice(0, 5).join(', '));
+ok(!noCredit.length, 'every photo has a title and either attribution or project provenance', noCredit.slice(0, 5).join(', '));
 var offCommons = [];
 DB.universities.forEach(function (u) {
   ((u.photos && u.photos.gallery) || []).forEach(function (x) {
+    if (x.providedByProject) return;
     var commons = /^https:\/\/commons\.wikimedia\.org\//.test(x.page);
     if (commons ? x.source : !(x.source && /^©/.test(x.license))) offCommons.push(u.id);
   });
@@ -823,8 +824,50 @@ group('approved USA +50 expansion regressions');
 require('./us-expansion-50.js')({U:U,M:M,DB:DB,ok:ok,sandbox:sandbox,load:load});
 require('./us100-batch1.js')({U:U,M:M,DB:DB,ok:ok});
 require('./us100-batch2.js')({U:U,M:M,DB:DB,ok:ok});
+require('./us100-later.js')({U:U,M:M,DB:DB,ok:ok});
 group('release check regressions (November 2026)');
 require('./release-qa.js')(ok);
+require('./uk2027-expansion.js')({ U: U, DB: DB, M: M, ok: ok });
+
+const apu2027 = U.uniById('ritsumeikan-apu');
+const apuRounds = U.roundsOf(apu2027).filter(round => round.entryTerm === 'September');
+ok(apuRounds.length === 4 && apuRounds.every(round => U.roundStatus(round) === 'confirmed') &&
+  apuRounds.some(round => round.dateISO === '2026-12-09' && round.timezone === 'JST'),
+  'APU September 2027 rounds use dated evidence from the current handbook');
+ok(apu2027.english.ielts.min === 6 && apu2027.english.toefl.scales.map(scale => scale.min).join(',') === '75,4' &&
+  DB.match.annualCost[apu2027.id].basis === 'tuition' && U.awardKind(apu2027) !== 'full-ride',
+  'APU language requirements preserve each TOEFL scale and its tuition award stays separate from full ride');
+const apuLanguageInput = { ielts: 5.5, budget: null, sat: null, gpa: null, country: 'jp', currency: 'JPY' };
+const apuBelow = M.evaluate(apu2027, apuLanguageInput);
+const apuAtMinimum = M.evaluate(apu2027, { ...apuLanguageInput, ielts: 6 });
+ok(apuBelow.category === 'below' && apuAtMinimum.checks.some(check =>
+    check.level === 'ok' && /overall minimum/.test(check.text)) &&
+    apuAtMinimum.checks.some(check => check.level === 'info' && /each IELTS section separately/.test(check.text)),
+  'APU compares the IELTS overall score and leaves section minimums for separate checking');
+const yonsei2027 = U.uniById('yonsei-university');
+ok(yonsei2027.english.ielts.min === null &&
+  /proof of English is REQUIRED/.test(yonsei2027.english.waiver),
+  'Yonsei UIC requires evidence of English for 2027 and publishes no IELTS minimum');
+
+
+const awardsAudit = [
+  ['texas-christian-university', 'tcu-chancellor-honors', '2026-11-15'],
+  ['florida-state-university', 'fsu-presidential-semifinal-video', '2027-02-28'],
+  ['university-of-oxford', 'reach-oxford', '2027-01-26'],
+  ['university-of-bristol', 'bristol-think-big-application', '2027-03-19']
+];
+ok(awardsAudit.every(([id, event, date]) => U.roundsOf(U.uniById(id)).some(d =>
+  (d.id === event || d.awardId === event) && d.dateISO === date && U.roundStatus(d) === 'confirmed')),
+  'new award calendar events use current-cycle evidence');
+const usc2027 = U.uniById('university-of-southern-california');
+ok(usc2027.english.ielts.min === null && usc2027.english.ielts.recommended === 7 &&
+  usc2027.english.duolingo.min === 130,
+  'USC IELTS guidance is a recommendation; the Duolingo alternative preserves its own threshold');
+const ruSource = fs.readFileSync(path.join(ROOT, 'data/i18n/ru.js'), 'utf8');
+ok(ruSource.slice(ruSource.indexOf('window.UNIPATH_I18N.ru = {')).includes('"At least 5.5 in each section.":'),
+  'APU IELTS sections are registered in the Russian dictionary that the packer reads');
+
 console.log('\n' + passed + ' passed, ' + failed + ' failed');
+
 /* Exit with a status only when run directly; tests/links.js loads this file for the data. */
 if (require.main === module) process.exit(failed ? 1 : 0);

@@ -1468,15 +1468,15 @@
 
   P['ritsumeikan-apu'] = {
     english: {
-      ielts: { min: 5.5, recommended: null, note: 'A minimum of 5.5 in each section. The General Training module is not accepted.' },
-      toefl: { min: 75, recommended: null, scales: [{ period: 'pre2026', min: 75, recommended: null }, { period: 'post2026', min: 4, recommended: null }], note: 'A total of 75+ (tests before 21 January 2026) or 4.0+ (tests on or after 21 January 2026). Home Edition and ITP are not accepted.' },
+      ielts: { min: 6, recommended: null, sections: "At least 5.5 in each section.", note: "English-basis first-year applicants, April or September 2027. IELTS General Training is not accepted.", source: 'https://s3-ap-northeast-1.amazonaws.com/apumate-doc/international/ApplicationHandbook_UG_ENG_27_5_revised_linked%20(1).pdf', verified: '2026-11-15' },
+      toefl: { min: 75, recommended: null, scales: [{ period: 'pre2026', min: 75, recommended: null }, { period: 'post2026', min: 4, recommended: null }], note: 'A total of 75+ (tests before 21 January 2026) or 4.0+ (tests on or after 21 January 2026). Home Edition and ITP are not accepted.', source: 'https://s3-ap-northeast-1.amazonaws.com/apumate-doc/international/ApplicationHandbook_UG_ENG_27_5_revised_linked%20(1).pdf', verified: '2026-11-15' },
       duolingo: { min: null, recommended: null, note: 'Accepted by APU — see the Application Handbook for the required score.' },
       waiver: 'Applicants who meet certain conditions may choose not to submit a language test — see the Application Handbook.'
     },
-    sources: [{ label: 'APU application eligibility (English minimums)', url: 'https://admissions.apu.ac.jp/admissions/application_eligibility/' }],
+    sources: [{ label: 'APU application eligibility (English minimums)', url: 'https://s3-ap-northeast-1.amazonaws.com/apumate-doc/international/ApplicationHandbook_UG_ENG_27_5_revised_linked%20(1).pdf' }],
     stats: {
       term: 'English-basis undergraduate admission',
-      source: { label: 'APU — application eligibility', url: 'https://admissions.apu.ac.jp/admissions/application_eligibility/' },
+      source: { label: 'APU — application eligibility', url: 'https://s3-ap-northeast-1.amazonaws.com/apumate-doc/international/ApplicationHandbook_UG_ENG_27_5_revised_linked%20(1).pdf' },
       official: { admitRate: null, note: 'APU publishes minimum English scores but no SAT or GPA averages.' },
       targets: {
         sat: 'Not usually required',

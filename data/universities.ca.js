@@ -583,21 +583,21 @@ window.UNIPATH.universities.push(
         "kind": "scholarship",
         "entryTerm": "Autumn",
         "entryYear": "2027",
-        "dateISO": "2026-11-15",
-        "date": "15 November 2026",
-        "time": "23:59",
-        "timezone": "PT",
+        "dateISO": "2026-12-02",
+        "date": "2 December 2026, 12:00 PCT",
+        "time": "12:00",
+        "timezone": "PCT",
         "appliesTo": "First-year applicants",
         "conditions": "Requires a school nomination and a teacher reference; for applicants with significant financial need.",
         "status": "confirmed",
         "source": "https://you.ubc.ca/applying-ubc/dates-deadlines/",
-        "verified": "2026-10-24",
+        "verified": "2026-11-15",
         "note": null,
         "cycleEvidence": {
           "basis": "page-context",
-          "source": "https://you.ubc.ca/applying-ubc/dates-deadlines/",
-          "verified": "2026-10-24",
-          "quote": "September 2027",
+          "source": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/international-scholars/",
+          "verified": "2026-11-15",
+          "quote": "Applications for the September 2027 are now open.",
           "entryTerm": "Autumn",
           "entryYear": "2027"
         },
@@ -610,20 +610,20 @@ window.UNIPATH.universities.push(
         "entryTerm": "Autumn",
         "entryYear": "2027",
         "dateISO": "2027-01-15",
-        "date": "15 January 2027",
+        "date": "15 January 2027, 23:59 PCT",
         "time": "23:59",
-        "timezone": "PT",
+        "timezone": "PCT",
         "binding": false,
         "appliesTo": "First-year applicants",
         "conditions": "Winter Session September 2027 to April 2028. Applying by this date also brings automatic consideration for merit awards.",
         "status": "confirmed",
         "source": "https://you.ubc.ca/applying-ubc/dates-deadlines/",
-        "verified": "2026-10-24",
+        "verified": "2026-11-15",
         "note": null,
         "cycleEvidence": {
           "basis": "page-context",
           "source": "https://you.ubc.ca/applying-ubc/dates-deadlines/",
-          "verified": "2026-10-24",
+          "verified": "2026-11-15",
           "quote": "September 2027",
           "entryTerm": "Autumn",
           "entryYear": "2027"
@@ -791,10 +791,10 @@ window.UNIPATH.universities.push(
       },
       "renewable": null,
       "competitiveness": "Nominated applicants with significant financial need and leadership",
-      "howToApply": "School nomination, then award application by 15 November 2026",
+      "howToApply": "Ask your school for a nomination and submit both your UBC admission application and your International Scholars Program application by 2 December 2026 at 12:00 Vancouver time.",
       "name": "International Scholars Program (Karen McKellin International Leader of Tomorrow Award; Donald A. Wehrung International Student Award)",
       "source": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/international-scholars/",
-      "verified": "2026-10-15",
+      "verified": "2026-11-15",
       "note": "UBC says these awards “range in value up to the full cost of a student’s academic program and living expenses” and are set by the financial need it assesses. Applicants are considered either for these need-based awards or for the merit awards, not both.",
       "id": "international-scholars",
       "category": "need",
@@ -5245,23 +5245,25 @@ window.UNIPATH.universities.push(
         "entryTerm": "Autumn",
         "entryYear": "2027",
         "dateISO": "2026-12-15",
-        "date": "15 December 2026",
+        "date": "15 December 2026, 23:59 PCT",
         "appliesTo": "First-year applicants",
-        "conditions": "Supporting documents by 31 January 2027.",
+        "conditions": "Apply to SFU first to obtain a student number. Then submit the separate USES application with a 500-word essay, activities and two referee contacts.",
         "status": "confirmed",
         "source": "https://www.sfu.ca/students/financial-aid/entrance/highschool/uses.html",
-        "verified": "2026-10-24",
-        "note": "Deadline confirmed; the application form is temporarily unavailable according to the official page. An upcoming deadline does not mean the portal is currently accessible.",
+        "verified": "2026-11-15",
+        "note": null,
         "cycleEvidence": {
-          "basis": "page-context",
+          "basis": "explicit-date",
           "entryTerm": "Autumn",
           "entryYear": "2027",
           "source": "https://www.sfu.ca/students/financial-aid/entrance/highschool/uses.html",
-          "verified": "2026-10-24",
-          "quote": "Fall 2027"
+          "verified": "2026-11-15",
+          "quote": "December 15, 2026 (11:59pm PCT)"
         },
         "awardId": "uses-international",
-        "awardCategory": "merit"
+        "awardCategory": "merit",
+        "time": "23:59",
+        "timezone": "PCT"
       },
       {
         "name": "Application deadline",
@@ -5358,22 +5360,25 @@ window.UNIPATH.universities.push(
         "entryTerm": "Autumn",
         "entryYear": "2027",
         "dateISO": "2027-01-31",
-        "date": "31 January 2027",
+        "date": "31 January 2027, 23:59 PCT",
         "appliesTo": "International USES applicants; both references and admission To-Do List items",
-        "conditions": null,
+        "conditions": "Both online references and all admission To-Do List items are due by this time.",
         "status": "confirmed",
         "source": "https://www.sfu.ca/students/financial-aid/entrance/highschool/uses.html",
-        "verified": "2026-10-24",
+        "verified": "2026-11-15",
         "awardId": "uses-international",
         "awardCategory": "merit",
         "cycleEvidence": {
-          "basis": "page-context",
+          "basis": "explicit-date",
           "entryTerm": "Autumn",
           "entryYear": "2027",
           "source": "https://www.sfu.ca/students/financial-aid/entrance/highschool/uses.html",
-          "verified": "2026-10-24",
-          "quote": "Fall 2027"
-        }
+          "verified": "2026-11-15",
+          "quote": "January 31, 2027 (11:59pm PCT)"
+        },
+        "time": "23:59",
+        "timezone": "PCT",
+        "note": null
       }
     ],
     "applicationFee": {
@@ -5507,16 +5512,17 @@ window.UNIPATH.universities.push(
         "amount": "C$140,000 in eight C$17,500 payments for the selected international award",
         "eligibility": "International high-school applicants for Fall 2027: 90% in programme admission courses or 31 IB points excluding bonus points; graduate in the entry year or previous year without postsecondary enrolment.",
         "deadline": null,
-        "application": "Separate application, scheduled 1 October–15 December 2026. The official page reports the Fall 2027 form temporarily unavailable; expected portal return 2 November 2026.",
+        "application": "Apply to SFU first to obtain a student number. Then submit the separate USES application with a 500-word essay, activities and two referee contacts.",
         "renewable": true,
         "note": "Competitive award, not guaranteed funding or full-cost coverage. In limited cases an additional C$8,000 per term living allowance may be offered for demonstrated need. Renewal conditions must be checked separately.",
         "basis": "merit",
         "source": "https://www.sfu.ca/students/financial-aid/entrance/highschool/uses.html",
-        "verified": "2026-10-24",
+        "verified": "2026-11-15",
         "id": "uses-international",
         "category": "merit",
         "entryTerm": "Autumn",
-        "entryYear": "2027"
+        "entryYear": "2027",
+        "internationalEligible": true
       }
     ],
     "needBased": {
@@ -17712,27 +17718,77 @@ window.UNIPATH.universities.push(
     ],
     "deadlines": [
       {
-        "name": "International Entrance & Performance Award, Fall 2027: complete application",
-        "kind": "scholarship",
+        "name": "IEPA — complete the admission application",
+        "kind": "admission",
         "entryTerm": "Autumn",
         "entryYear": "2027",
         "dateISO": "2026-11-30",
         "date": "30 November 2026",
         "binding": false,
-        "appliesTo": "First-year applicants",
-        "conditions": "Then pay the tuition deposit by 4 December 2026 and submit the study permit application to IRCC by 31 December 2026. The award may close earlier if funds run out.",
+        "appliesTo": "International first-year applicants",
+        "conditions": "No separate award application. Complete the CapU admission application, pay the deposit, submit proof of the study permit application and register by 30 July 2027. The award may close early if funds run out.",
         "status": "confirmed",
         "source": "https://www.capilanou.ca/admissions/fees--finances/financial-aid--awards/funding-for-international-students/",
-        "verified": "2026-10-27",
+        "verified": "2026-11-15",
         "note": null,
         "cycleEvidence": {
           "basis": "explicit-date",
           "entryTerm": "Autumn",
           "entryYear": "2027",
           "source": "https://www.capilanou.ca/admissions/fees--finances/financial-aid--awards/funding-for-international-students/",
-          "verified": "2026-10-27",
-          "quote": "Fall 2027 term Complete application by November 30, 2026"
-        }
+          "verified": "2026-11-15",
+          "quote": "Complete application by November 30, 2026"
+        },
+        "id": "capu-iepa-admission",
+        "awardId": "capu-iepa",
+        "awardCategory": "merit"
+      },
+      {
+        "id": "capu-iepa-deposit",
+        "name": "IEPA — pay the tuition deposit",
+        "kind": "deposit",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "date": "4 December 2026",
+        "dateISO": "2026-12-04",
+        "status": "confirmed",
+        "source": "https://www.capilanou.ca/admissions/fees--finances/financial-aid--awards/funding-for-international-students/",
+        "verified": "2026-11-15",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.capilanou.ca/admissions/fees--finances/financial-aid--awards/funding-for-international-students/",
+          "verified": "2026-11-15",
+          "quote": "Pay the Tuition Deposit by Dec 4, 2026"
+        },
+        "appliesTo": "International first-year applicants",
+        "awardId": "capu-iepa",
+        "awardCategory": "merit"
+      },
+      {
+        "id": "capu-iepa-study-permit",
+        "name": "IEPA — study permit application and proof",
+        "kind": "documents",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "date": "31 December 2026",
+        "dateISO": "2026-12-31",
+        "status": "confirmed",
+        "source": "https://www.capilanou.ca/admissions/fees--finances/financial-aid--awards/funding-for-international-students/",
+        "verified": "2026-11-15",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.capilanou.ca/admissions/fees--finances/financial-aid--awards/funding-for-international-students/",
+          "verified": "2026-11-15",
+          "quote": "Study Permit Application submitted to IRCC by December 31, 2026."
+        },
+        "appliesTo": "International first-year applicants",
+        "conditions": "File the study permit application with IRCC by 31 December. CapU requires proof before the deadline.",
+        "awardId": "capu-iepa",
+        "awardCategory": "merit"
       }
     ],
     "applicationFee": {
@@ -17840,9 +17896,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": "Largest award on the page read: the International Entrance & Performance Award, a tuition discount of C$1,800 a semester for 12 credits, up to C$18,000 over a four-year degree; for Fall 2027 the application must be complete by 30 November 2026 and the deposit paid by 4 December 2026. No award at the level of full tuition is described.",
+      "note": "IEPA reduces tuition by C$150 per credit for eligible students. At 12 credits it is C$1,800 per semester, with a published maximum of C$18,000 over a four-year degree.",
       "source": "https://www.capilanou.ca/admissions/fees--finances/financial-aid--awards/funding-for-international-students/",
-      "verified": "2026-10-27"
+      "verified": "2026-11-15"
     },
     "merit": [
       {
@@ -17850,12 +17906,17 @@ window.UNIPATH.universities.push(
         "amount": "C$1,800 a semester for 12 credits; up to C$18,000 for a four-year degree",
         "eligibility": "New international students admitted for Spring, Summer or Fall 2027 with an admission GPA of 2.50 or higher",
         "deadline": null,
-        "application": "Meet the qualifying dates: application by 30 November 2026, deposit by 4 December 2026, study permit filed by 31 December 2026",
+        "application": "No separate award application. Complete the CapU admission application, pay the deposit, submit proof of the study permit application and register by 30 July 2027. The award may close early if funds run out.",
         "renewable": true,
         "note": "A tuition reduction; kept with a 3.50 term GPA and 12 credits a term. Subject to availability.",
         "basis": "automatic",
         "source": "https://www.capilanou.ca/admissions/fees--finances/financial-aid--awards/funding-for-international-students/",
-        "verified": "2026-10-27"
+        "verified": "2026-11-15",
+        "id": "capu-iepa",
+        "category": "merit",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "internationalEligible": true
       }
     ],
     "needBased": {

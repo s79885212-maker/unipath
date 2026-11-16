@@ -37,9 +37,11 @@ module.exports = function (env) {
   var scholarship = Object.assign({}, nomination, { kind: 'scholarship', dateISO: '2099-03-01' });
   var uni = { admissions: { deadlines: [nomination, scholarship,
     Object.assign({}, scholarship, { awardId: 'different' }), Object.assign({}, scholarship, { awardCategory: 'need' }),
-    Object.assign({}, scholarship, { entryYear: '2098' }), Object.assign({}, scholarship, { kind: 'deposit' })] } };
-  ok(U.awardDates(uni, award).length === 2 && !U.awardDates(uni, { name: 'entrance' }).length,
-    'award dates match identity, category and intake, never name similarity or arbitrary aid');
+    Object.assign({}, scholarship, { entryYear: '2098' }), Object.assign({}, scholarship, { kind: 'deposit', awardId: 'different' })] } };
+  var linkedDeposit = Object.assign({}, scholarship, { kind: 'deposit' });
+  uni.admissions.deadlines.push(linkedDeposit);
+  ok(U.awardDates(uni, award).length === 3 && U.awardDates(uni, award).indexOf(linkedDeposit) > -1 && !U.isApplicationDeadline(linkedDeposit) && !U.awardDates(uni, { name: 'entrance' }).length,
+    'award dates match identity, category and intake, including a deposit explicitly linked to that award');
   ok(U.roundState(nomination) === 'closed' && U.roundState(scholarship) === 'upcoming', 'closed nomination and future scholarship remain independent');
   ok(!U.firstDeadline(uni), 'nomination, scholarship and deposit never become an admission deadline');
   var html = U.awardDeadlineHtml(uni, award);
@@ -90,9 +92,23 @@ module.exports = function (env) {
     U.isApplicationDeadline({ kind: 'regular' }),
     'the Pearson-specific admission prerequisite never replaces the university-wide admission deadline');
   var ubc = U.uniById('university-of-british-columbia');
+  var ubcAward = U.fullRide(ubc), ubcDates = U.awardDates(ubc, ubcAward);
   ok(U.roundsOf(ubc).every(function (d) { return U.roundStatus(d) === 'confirmed'; }) &&
-    U.awardDates(ubc, U.fullRide(ubc)).map(function (d) { return d.kind; }).join() === 'scholarship,documents',
+    ubcDates.map(function (d) { return d.kind; }).join() === 'scholarship,documents',
     'UBC: International Scholars award and documents link to that award only, with verified 2027 context');
+  var ubcDeadline = ubcDates[0], ubcNoon = Date.UTC(2026, 11, 2, 19);
+  ok(ubcDeadline && U.roundWhen(ubcDeadline) === '2 December 2026, 12:00 PCT' &&
+    U.deadlineEnd(ubcDeadline).at === ubcNoon && U.deadlineEnd(ubcDeadline).precise &&
+    !U.deadlinePassed(ubcDeadline, ubcNoon - 1) && U.deadlinePassed(ubcDeadline, ubcNoon + 1) &&
+    /both your UBC admission application and your International Scholars Program application/.test(ubcAward.howToApply) &&
+    U.roundsOf(ubc).some(function (d) { return U.isApplicationDeadline(d) && d.dateISO === '2027-01-15'; }),
+    'UBC: both International Scholars applications close at noon Vancouver time (19:00 UTC), with the general January deadline separate');
+  var ubcGeneral = U.roundsOf(ubc).find(U.isApplicationDeadline);
+  var ubcGeneralClose = Date.UTC(2027, 0, 16, 6, 59);
+  ok(ubcGeneral && U.roundWhen(ubcGeneral) === '15 January 2027, 23:59 PCT' &&
+    U.deadlineEnd(ubcGeneral).at === ubcGeneralClose && U.deadlineEnd(ubcGeneral).precise &&
+    !U.deadlinePassed(ubcGeneral, ubcGeneralClose - 1) && U.deadlinePassed(ubcGeneral, ubcGeneralClose + 1),
+    'UBC: the general application closes at 23:59 Vancouver time (06:59 UTC on January 16)');
   ok(/link not verified/.test(U.awardDeadlineHtml(acadia, Object.assign({}, additional, { id: null }))), 'an unlinked Acadia-style award explains the missing relation instead of contradicting the date table');
   ok(/no separate scholarship application/.test(U.awardDeadlineHtml(acadia, U.awardsAll(acadia)[0])),
     'Acadia automatic initial offer explains that no separate application is required');

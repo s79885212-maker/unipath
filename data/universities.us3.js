@@ -896,11 +896,22 @@ window.UNIPATH.universities.push(
         "date": "1 December 2026",
         "binding": false,
         "appliesTo": "First-year applicants",
-        "conditions": "The application and all supporting credentials must be in by this date for priority consideration; there is no separate scholarship application.",
+        "conditions": "International first-year applicants: submit the application and supporting credentials by 1 December per the international instructions. The general instructions list 10 January for supporting credentials. Follow the earlier date for international applicants unless CMC confirms otherwise. No separate merit application.",
         "status": "confirmed",
-        "source": "https://www.cmc.edu/admission/international",
-        "verified": "2026-10-12",
-        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+        "source": "https://www.cmc.edu/financial-aid/applications-and-deadlines-prospective-and-new-students",
+        "verified": "2026-11-15",
+        "note": null,
+        "id": "cmc-merit-priority",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.cmc.edu/financial-aid/applications-and-deadlines-prospective-and-new-students",
+          "verified": "2026-11-15",
+          "quote": "The Merit Scholarship admission application deadline is December 1"
+        },
+        "awardId": "cmc-merit",
+        "awardCategory": "merit"
       },
       {
         "name": "Financial aid application for international students",
@@ -1079,10 +1090,17 @@ window.UNIPATH.universities.push(
         "amount": null,
         "eligibility": "All first-year applicants",
         "deadline": "1 December for priority consideration",
-        "application": "No separate application",
+        "application": "Automatic consideration through the admission application; no separate scholarship application.",
         "renewable": null,
         "note": "Award amounts were not read on this check.",
-        "basis": "merit"
+        "basis": "merit",
+        "id": "cmc-merit",
+        "category": "merit",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "internationalEligible": true,
+        "source": "https://online.cmc.edu/admission/international",
+        "verified": "2026-11-15"
       }
     ],
     "needBased": {
@@ -1102,6 +1120,8 @@ window.UNIPATH.universities.push(
     "city": null
   },
   "sources": [
+    {"label": "International first-year merit instructions", "url": "https://www.cmc.edu/admission/international", "verified": "2026-11-15"},
+    {"label": "General first-year merit instructions", "url": "https://www.cmc.edu/admission/first-year-application-instructions", "verified": "2026-11-15"},
     {
       "label": "CMC — first-year international applicants",
       "url": "https://www.cmc.edu/admission/international"
@@ -6921,34 +6941,96 @@ window.UNIPATH.universities.push(
         "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
       },
       {
-        "name": "FAFSA and CSS Profile — Early Action and Early Decision I",
+        "name": "FAFSA and CSS Profile — Early Action / Early Decision I",
         "kind": "aid",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2026-12-01",
-        "date": "1 December 2026",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 December",
         "binding": false,
-        "appliesTo": "Applicants asking for aid",
-        "conditions": "The page does not say which of the two forms international applicants file.",
-        "status": "confirmed",
-        "source": "https://www.fairfield.edu/admission-and-aid/apply/first-year-applicants/index.html",
-        "verified": "2026-10-12",
-        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+        "appliesTo": "U.S. citizens and federally eligible noncitizens",
+        "conditions": null,
+        "status": "annual-rule",
+        "source": "https://www.fairfield.edu/admission-and-aid/financial-aid/undergraduate-aid-programs/",
+        "verified": "2026-11-15",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry.",
+        "id": "fairfield-css-fafsa-4",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.fairfield.edu/admission-and-aid/financial-aid/undergraduate-aid-programs/",
+          "verified": "2026-11-15",
+          "quote": "Submit CSS Profile by December 1"
+        }
       },
       {
-        "name": "FAFSA and CSS Profile — Early Decision II and Regular Decision",
+        "name": "FAFSA and CSS Profile — Early Decision II / Regular Decision",
         "kind": "aid",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-01-15",
-        "date": "15 January 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 January",
         "binding": false,
-        "appliesTo": "Applicants asking for aid",
-        "conditions": "The page does not say which of the two forms international applicants file.",
-        "status": "confirmed",
-        "source": "https://www.fairfield.edu/admission-and-aid/apply/first-year-applicants/index.html",
-        "verified": "2026-10-12",
-        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+        "appliesTo": "U.S. citizens and federally eligible noncitizens",
+        "conditions": null,
+        "status": "annual-rule",
+        "source": "https://www.fairfield.edu/admission-and-aid/financial-aid/undergraduate-aid-programs/",
+        "verified": "2026-11-15",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry.",
+        "id": "fairfield-css-fafsa-5",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.fairfield.edu/admission-and-aid/financial-aid/undergraduate-aid-programs/",
+          "verified": "2026-11-15",
+          "quote": "Submit CSS Profile & FAFSA by January 15"
+        }
+      },
+      {
+        "id": "fairfield-intl-css-4",
+        "name": "International CSS Profile — Early Action / Early Decision I",
+        "kind": "aid",
+        "entryTerm": null,
+        "entryYear": null,
+        "date": "1 December",
+        "dateISO": null,
+        "status": "annual-rule",
+        "source": "https://www.fairfield.edu/admission-and-aid/financial-aid/policies/",
+        "verified": "2026-11-15",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.fairfield.edu/admission-and-aid/financial-aid/policies/",
+          "verified": "2026-11-15",
+          "quote": "using the College Board's CSS Profile"
+        },
+        "appliesTo": "Full-time day undergraduate international students",
+        "conditions": "Fairfield’s international policy refers to the published round deadline. The calendar gives no year."
+      },
+      {
+        "id": "fairfield-intl-css-5",
+        "name": "International CSS Profile — Early Decision II / Regular Decision",
+        "kind": "aid",
+        "entryTerm": null,
+        "entryYear": null,
+        "date": "15 January",
+        "dateISO": null,
+        "status": "annual-rule",
+        "source": "https://www.fairfield.edu/admission-and-aid/financial-aid/policies/",
+        "verified": "2026-11-15",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.fairfield.edu/admission-and-aid/financial-aid/policies/",
+          "verified": "2026-11-15",
+          "quote": "using the College Board's CSS Profile"
+        },
+        "appliesTo": "Full-time day undergraduate international students",
+        "conditions": "Fairfield’s international policy refers to the published round deadline. The calendar gives no year."
       }
     ],
     "applicationFee": {
@@ -7081,16 +7163,22 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": "The pages read say nothing about scholarships or financial aid for international first-year students."
+      "note": "Fairfield lists institutional need-based aid and automatic merit consideration for international students. Full-cost coverage for international first-year students was not confirmed.",
+      "source": "https://www.fairfield.edu/admission-and-aid/financial-aid/policies/",
+      "verified": "2026-11-15"
     },
     "merit": [],
     "needBased": {
-      "availableToInternational": null,
+      "availableToInternational": true,
       "meetsFullNeed": null,
       "needBlindInternational": null,
-      "forms": [],
-      "deadlines": null,
-      "note": "Not stated for international students on the pages read."
+      "forms": [
+        "CSS Profile"
+      ],
+      "deadlines": "CSS Profile: 1 December for EA / ED I or 15 January for ED II / RD. Fairfield lists these dates without a year.",
+      "note": "Institutional aid for full-time day undergraduates. Merit consideration is automatic through the admission application.",
+      "source": "https://www.fairfield.edu/admission-and-aid/financial-aid/policies/",
+      "verified": "2026-11-15"
     }
   },
   "photos": {
@@ -10963,32 +11051,130 @@ window.UNIPATH.universities.push(
       {
         "name": "Presidential Scholarship — application",
         "kind": "scholarship",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2026-11-01",
-        "date": "1 November 2026",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 November",
         "binding": false,
         "appliesTo": "First-year applicants",
-        "conditions": null,
-        "status": "confirmed",
-        "source": "https://www.ithaca.edu/admission/undergraduate-admission/apply-ic/application-deadlines",
-        "verified": "2026-10-12",
-        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+        "conditions": "Submit a separate scholarship application. International applicants also submit the Ithaca College financial aid form by 1 November.",
+        "status": "annual-rule",
+        "source": "https://www.ithaca.edu/tuition-financial-aid/undergraduate-financial-aid/types-financial-aid/scholarships/ithaca-scholarships-new-students",
+        "verified": "2026-11-15",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry.",
+        "id": "ithaca-presidential",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.ithaca.edu/tuition-financial-aid/undergraduate-financial-aid/types-financial-aid/scholarships/ithaca-scholarships-new-students",
+          "verified": "2026-11-15",
+          "quote": "International citizens must submit the Ithaca College Financial Aid application by the same deadline, November 1."
+        },
+        "awardId": "ithaca-presidential",
+        "awardCategory": "merit"
       },
       {
-        "name": "Scholar Programs (Innovation, Leadership, MLK, Park) — application",
+        "name": "Park Scholar Program",
+        "basis": "merit",
         "kind": "scholarship",
         "entryTerm": "Autumn",
         "entryYear": "2027",
         "dateISO": "2026-12-01",
         "date": "1 December 2026",
         "binding": false,
-        "appliesTo": "First-year applicants",
-        "conditions": null,
+        "appliesTo": "U.S. citizens and federally eligible noncitizens",
+        "conditions": "First-year applicants to an undergraduate major in the Park School of Communications. Submit the separate IC Connect application with three essays, two additional references and a personal history.",
         "status": "confirmed",
-        "source": "https://www.ithaca.edu/admission/undergraduate-admission/apply-ic/application-deadlines",
-        "verified": "2026-10-12",
-        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+        "source": "https://www.ithaca.edu/academics/roy-h-park-school-communications/park-scholar-program/how-apply",
+        "verified": "2026-11-15",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry.",
+        "id": "ithaca-park",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.ithaca.edu/academics/roy-h-park-school-communications/park-scholar-program/how-apply",
+          "verified": "2026-11-15",
+          "quote": "Complete the Park Scholar Award application in IC Connect by December 1, 2026"
+        },
+        "awardId": "ithaca-park",
+        "awardCategory": "merit"
+      },
+      {
+        "id": "ithaca-innovation",
+        "name": "Innovation Scholar Program",
+        "basis": "merit",
+        "kind": "scholarship",
+        "entryTerm": null,
+        "entryYear": null,
+        "date": "1 December",
+        "dateISO": null,
+        "status": "annual-rule",
+        "source": "https://www.ithaca.edu/academics/school-humanities-and-sciences/innovation-scholar-program/innovation-scholar-program-how-apply",
+        "verified": "2026-11-15",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.ithaca.edu/academics/school-humanities-and-sciences/innovation-scholar-program/innovation-scholar-program-how-apply",
+          "verified": "2026-11-15",
+          "quote": "Complete the Innovation Scholar Program application* in IC Connect by December 1."
+        },
+        "conditions": "Apply to an eligible Humanities and Sciences or cross-school program and submit the separate Innovation application in IC Connect by this date.",
+        "appliesTo": "First-year applicants, including international students",
+        "awardId": "ithaca-innovation",
+        "awardCategory": "merit"
+      },
+      {
+        "id": "ithaca-leadership",
+        "name": "Leadership Scholar Program",
+        "basis": "merit",
+        "kind": "scholarship",
+        "entryTerm": null,
+        "entryYear": null,
+        "date": "1 December",
+        "dateISO": null,
+        "status": "annual-rule",
+        "source": "https://www.ithaca.edu/admission/undergraduate-admission/leadership-scholar-program",
+        "verified": "2026-11-15",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.ithaca.edu/admission/undergraduate-admission/leadership-scholar-program",
+          "verified": "2026-11-15",
+          "quote": "The deadline to apply to the Leadership Scholar Program is December 1."
+        },
+        "conditions": "Submit the admission application first, then complete the separate program application in IC Connect.",
+        "appliesTo": "Fall applicants; international eligibility is unconfirmed.",
+        "awardId": "ithaca-leadership",
+        "awardCategory": "merit"
+      },
+      {
+        "id": "ithaca-mlk",
+        "name": "MLK Scholar Program",
+        "basis": "merit",
+        "kind": "scholarship",
+        "entryTerm": null,
+        "entryYear": null,
+        "date": "1 December",
+        "dateISO": null,
+        "status": "annual-rule",
+        "source": "https://www.ithaca.edu/unity-center/martin-luther-king-scholar-program/applying",
+        "verified": "2026-11-15",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.ithaca.edu/unity-center/martin-luther-king-scholar-program/applying",
+          "verified": "2026-11-15",
+          "quote": "MLK Scholar Program Application Deadline:"
+        },
+        "conditions": "Submit the admission application first, then complete the separate program application in IC Connect.",
+        "appliesTo": "U.S. citizens and permanent residents",
+        "awardId": "ithaca-mlk",
+        "awardCategory": "merit"
       }
     ],
     "applicationFee": {
@@ -11119,11 +11305,12 @@ window.UNIPATH.universities.push(
   },
   "scholarships": {
     "fullRide": {
-      "available": null,
-      "internationalEligible": null,
-      "basis": null,
+      "available": true,
+      "internationalEligible": true,
+      "basis": "merit",
+      "name": "Presidential Scholarship",
       "covers": {
-        "tuition": null,
+        "tuition": true,
         "housing": null,
         "meals": null,
         "insurance": null,
@@ -11132,7 +11319,9 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": "Ithaca says international undergraduates may qualify for institutional scholarships, grants and campus employment; the pages read give no amounts and describe no award at the level of full tuition."
+      "note": "Competitive award covering tuition and mandatory fees. Verify housing and other expenses separately.",
+      "source": "https://www.ithaca.edu/tuition-financial-aid/undergraduate-financial-aid/types-financial-aid/scholarships/ithaca-scholarships-new-students",
+      "verified": "2026-11-15"
     },
     "merit": [
       {
@@ -11150,10 +11339,73 @@ window.UNIPATH.universities.push(
         "amount": null,
         "eligibility": "First-year applicants who apply by 1 November",
         "deadline": "1 November",
-        "application": "Separate application",
+        "application": "Submit a separate scholarship application. International applicants also submit the Ithaca College financial aid form by 1 November.",
         "renewable": null,
-        "note": "The pages read give no amount.",
-        "basis": "merit"
+        "note": "Competitive award covering tuition and mandatory fees. Verify housing and other expenses separately.",
+        "basis": "merit",
+        "id": "ithaca-presidential",
+        "category": "merit",
+        "entryTerm": null,
+        "entryYear": null,
+        "deadlineScope": "annual-rule",
+        "internationalEligible": true,
+        "source": "https://www.ithaca.edu/tuition-financial-aid/undergraduate-financial-aid/types-financial-aid/scholarships/ithaca-scholarships-new-students",
+        "verified": "2026-11-15"
+      },
+      {
+        "id": "ithaca-park",
+        "category": "merit",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "name": "Park Scholar Program",
+        "basis": "merit",
+        "internationalEligible": false,
+        "eligibility": "U.S. citizens and federally eligible noncitizens",
+        "application": "First-year applicants to an undergraduate major in the Park School of Communications. Submit the separate IC Connect application with three essays, two additional references and a personal history.",
+        "source": "https://www.ithaca.edu/academics/roy-h-park-school-communications/park-scholar-program/how-apply",
+        "verified": "2026-11-15"
+      },
+      {
+        "id": "ithaca-innovation",
+        "category": "merit",
+        "entryTerm": null,
+        "entryYear": null,
+        "deadlineScope": "annual-rule",
+        "name": "Innovation Scholar Program",
+        "basis": "merit",
+        "internationalEligible": true,
+        "eligibility": "First-year applicants, including international students",
+        "application": "Apply to an eligible Humanities and Sciences or cross-school program and submit the separate Innovation application in IC Connect by this date.",
+        "source": "https://www.ithaca.edu/academics/school-humanities-and-sciences/innovation-scholar-program",
+        "verified": "2026-11-15"
+      },
+      {
+        "id": "ithaca-leadership",
+        "category": "merit",
+        "entryTerm": null,
+        "entryYear": null,
+        "deadlineScope": "annual-rule",
+        "name": "Leadership Scholar Program",
+        "basis": "merit",
+        "internationalEligible": null,
+        "eligibility": "Fall applicants; international eligibility is unconfirmed.",
+        "application": "Submit the admission application first, then complete the separate program application in IC Connect.",
+        "source": "https://www.ithaca.edu/admission/undergraduate-admission/leadership-scholar-program",
+        "verified": "2026-11-15"
+      },
+      {
+        "id": "ithaca-mlk",
+        "category": "merit",
+        "entryTerm": null,
+        "entryYear": null,
+        "deadlineScope": "annual-rule",
+        "name": "MLK Scholar Program",
+        "basis": "merit",
+        "internationalEligible": false,
+        "eligibility": "U.S. citizens and permanent residents",
+        "application": "Submit the admission application first, then complete the separate program application in IC Connect.",
+        "source": "https://www.ithaca.edu/unity-center/martin-luther-king-scholar-program/applying",
+        "verified": "2026-11-15"
       }
     ],
     "needBased": {
@@ -23776,8 +24028,8 @@ window.UNIPATH.universities.push(
   "programNote": "From the Texas A&M University Undergraduate Catalog 2026–2027. Law: “Society, Ethics, and Law” is a bachelor’s degree in the philosophy department; the School of Law itself is a graduate school.",
   "links": {
     "website": "https://www.tamu.edu/",
-    "admissions": "https://admissions.tamu.edu/apply/freshman",
-    "internationalAdmissions": "https://admissions.tamu.edu/apply/international/international-freshman.html",
+    "admissions": "https://www.tamu.edu/admissions/how-to-apply/apply-as-international.html",
+    "internationalAdmissions": "https://www.tamu.edu/admissions/how-to-apply/apply-as-international.html",
     "applicationPortal": "https://www.commonapp.org/",
     "scholarships": null,
     "financialAid": "https://aggie.tamu.edu/paying-for-college/apply-for-financial-aid/international-student-financial-aid.html",
@@ -23801,9 +24053,17 @@ window.UNIPATH.universities.push(
         "appliesTo": "First-year applicants",
         "conditions": null,
         "status": "confirmed",
-        "source": "https://admissions.tamu.edu/apply/freshman",
-        "verified": "2026-10-12",
-        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+        "source": "https://www.tamu.edu/admissions/how-to-apply/apply-as-freshman.html",
+        "verified": "2026-11-15",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "source": "https://www.tamu.edu/admissions/how-to-apply/apply-as-freshman.html",
+          "verified": "2026-11-15",
+          "quote": "College Station Fall 2027: Aug. 1, 2026 – Dec. 1, 2026",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        }
       },
       {
         "name": "Application deadline — College Station",
@@ -23816,9 +24076,39 @@ window.UNIPATH.universities.push(
         "appliesTo": "First-year applicants",
         "conditions": "The autumn application deadline for College Station; additional documents by 15 December. The timeline is the same for international and domestic first-year applicants.",
         "status": "confirmed",
-        "source": "https://admissions.tamu.edu/apply/freshman",
-        "verified": "2026-10-12",
-        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+        "source": "https://www.tamu.edu/admissions/how-to-apply/apply-as-freshman.html",
+        "verified": "2026-11-15",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "source": "https://www.tamu.edu/admissions/how-to-apply/apply-as-freshman.html",
+          "verified": "2026-11-15",
+          "quote": "College Station Fall 2027: Aug. 1, 2026 – Dec. 1, 2026",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        }
+      },
+      {
+        "id": "tamu-college-station-documents",
+        "name": "Additional application documents — College Station",
+        "kind": "documents",
+        "dateISO": "2026-12-15",
+        "date": "15 December 2026",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "appliesTo": "Fall 2027 first-year applicants to College Station",
+        "status": "confirmed",
+        "binding": false,
+        "source": "https://www.tamu.edu/admissions/how-to-apply/apply-as-freshman.html",
+        "verified": "2026-11-15",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "source": "https://www.tamu.edu/admissions/how-to-apply/apply-as-freshman.html",
+          "verified": "2026-11-15",
+          "quote": "All additional required documents are due by Dec. 15, 2026.",
+          "entryTerm": "Autumn",
+          "entryYear": "2027"
+        }
       }
     ],
     "applicationFee": {
@@ -28160,32 +28450,95 @@ window.UNIPATH.universities.push(
       {
         "name": "Preferred scholarship deadline",
         "kind": "scholarship",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2026-12-01",
-        "date": "1 December 2026",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 December",
         "binding": false,
         "appliesTo": "First-year applicants",
-        "conditions": "Applicants are reviewed automatically for institutional merit-based awards.",
-        "status": "confirmed",
-        "source": "https://www.xula.edu/international-ed/applying-undergrad-students.html",
-        "verified": "2026-10-12",
-        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+        "conditions": "Automatic consideration through the admission application; no separate scholarship application.",
+        "status": "annual-rule",
+        "source": "https://www.xula.edu/admissions/undergraduate-admission/firsttimefreshmen/",
+        "verified": "2026-11-15",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry.",
+        "id": "xula-merit-priority",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.xula.edu/admissions/undergraduate-admission/firsttimefreshmen/",
+          "verified": "2026-11-15",
+          "quote": "preferred scholarship deadline – December 1st"
+        },
+        "awardId": "xula-merit",
+        "awardCategory": "merit"
       },
       {
         "name": "Preferred application deadline",
         "kind": "priority",
-        "entryTerm": "Autumn",
-        "entryYear": "2027",
-        "dateISO": "2027-03-01",
-        "date": "1 March 2027",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 March",
         "binding": false,
         "appliesTo": "First-year applicants",
-        "conditions": "The preferred application deadline for autumn enrolment.",
+        "conditions": "General first-year admissions guidance. The international office lists a separate Fall 2027 deadline.",
+        "status": "annual-rule",
+        "source": "https://www.xula.edu/admissions/undergraduate-admission/firsttimefreshmen/",
+        "verified": "2026-11-15",
+        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry.",
+        "id": "xula-admission-preferred",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.xula.edu/admissions/undergraduate-admission/firsttimefreshmen/",
+          "verified": "2026-11-15",
+          "quote": "The preferred application deadline is March 1st for consideration of fall enrollment."
+        }
+      },
+      {
+        "id": "xula-intl-admission",
+        "name": "Fall 2027 admission — international first-year applicants",
+        "kind": "admission",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "date": "15 May 2027",
+        "dateISO": "2027-05-15",
         "status": "confirmed",
-        "source": "https://www.xula.edu/international-ed/applying-undergrad-students.html",
-        "verified": "2026-10-12",
-        "note": "The page prints this date without a year; it was read on 12 October 2026, during the cycle for autumn 2027 entry."
+        "source": "https://www.xula.edu/international-ed/department-of-center-for-intercultural-and-international-programs/international-students.html",
+        "verified": "2026-11-15",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.xula.edu/international-ed/department-of-center-for-intercultural-and-international-programs/international-students.html",
+          "verified": "2026-11-15",
+          "quote": "Fall 2027  | May 15  | July 1"
+        },
+        "appliesTo": "International first-year applicants",
+        "conditions": "Submit the application and the course-by-course evaluation of international coursework by this date."
+      },
+      {
+        "id": "xula-intl-deposit",
+        "name": "Fall 2027 enrollment deposit — international students",
+        "kind": "deposit",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "date": "1 July 2027",
+        "dateISO": "2027-07-01",
+        "status": "confirmed",
+        "source": "https://www.xula.edu/international-ed/department-of-center-for-intercultural-and-international-programs/international-students.html",
+        "verified": "2026-11-15",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.xula.edu/international-ed/department-of-center-for-intercultural-and-international-programs/international-students.html",
+          "verified": "2026-11-15",
+          "quote": "Fall 2027  | May 15  | July 1"
+        },
+        "appliesTo": "International first-year applicants"
       }
     ],
     "applicationFee": {
@@ -28335,9 +28688,27 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": "The pages read give no scholarship amounts and no terms of aid for international students; the funding page for them describes study-abroad scholarships."
+      "note": "Xavier lists room and board for the Board of Trustees Scholarship and names it on its international guidance. The Fall 2027 international admissions page describes merit awards up to full tuition. International Fall 2027 availability of the room-and-board award is unconfirmed.",
+      "source": "https://www.xula.edu/international-ed/department-of-center-for-intercultural-and-international-programs/international-students.html",
+      "verified": "2026-11-15"
     },
-    "merit": [],
+    "merit": [
+      {
+        "id": "xula-merit",
+        "category": "merit",
+        "entryTerm": null,
+        "entryYear": null,
+        "deadlineScope": "annual-rule",
+        "name": "Xavier institutional merit scholarships",
+        "basis": "merit",
+        "internationalEligible": true,
+        "eligibility": "International first-year applicants",
+        "application": "Automatic consideration through the admission application; no separate scholarship application.",
+        "note": "Xavier lists room and board for the Board of Trustees Scholarship and names it on its international guidance. The Fall 2027 international admissions page describes merit awards up to full tuition. International Fall 2027 availability of the room-and-board award is unconfirmed.",
+        "source": "https://www.xula.edu/international-ed/department-of-center-for-intercultural-and-international-programs/international-students.html",
+        "verified": "2026-11-15"
+      }
+    ],
     "needBased": {
       "availableToInternational": null,
       "meetsFullNeed": null,
