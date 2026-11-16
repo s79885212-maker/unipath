@@ -837,6 +837,13 @@ ok(apuRounds.length === 4 && apuRounds.every(round => U.roundStatus(round) === '
 ok(apu2027.english.ielts.min === 6 && apu2027.english.toefl.scales.map(scale => scale.min).join(',') === '75,4' &&
   DB.match.annualCost[apu2027.id].basis === 'tuition' && U.awardKind(apu2027) !== 'full-ride',
   'APU language requirements preserve each TOEFL scale and its tuition award stays separate from full ride');
+const apuLanguageInput = { ielts: 5.5, budget: null, sat: null, gpa: null, country: 'jp', currency: 'JPY' };
+const apuBelow = M.evaluate(apu2027, apuLanguageInput);
+const apuAtMinimum = M.evaluate(apu2027, { ...apuLanguageInput, ielts: 6 });
+ok(apuBelow.category === 'below' && apuAtMinimum.checks.some(check =>
+    check.level === 'ok' && /overall minimum/.test(check.text)) &&
+    apuAtMinimum.checks.some(check => check.level === 'info' && /each IELTS section separately/.test(check.text)),
+  'APU compares the IELTS overall score and leaves section minimums for separate checking');
 const yonsei2027 = U.uniById('yonsei-university');
 ok(yonsei2027.english.ielts.min === null &&
   /proof of English is REQUIRED/.test(yonsei2027.english.waiver),

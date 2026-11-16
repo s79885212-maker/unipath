@@ -5,6 +5,8 @@
    on purpose, so students can find them on the universities' own websites. */
 window.UNIPATH_I18N = window.UNIPATH_I18N || {};
 window.UNIPATH_I18N.ru = {
+  "IELTS overall {0} meets the published overall minimum of {1}.": "Общий балл IELTS {0} соответствует опубликованному общему минимуму {1}.",
+  "Check the minimum for each IELTS section separately. The matcher checks only the overall score.": "Сверьте минимум по каждой секции IELTS отдельно. Подбор проверяет только общий балл.",
   "Additional application documents \u2014 College Station" : "Дополнительные документы — College Station",
   "Fall 2027 first-year applicants to College Station" : "Первокурсники College Station, осень 2027 года",
   "Apply for admission and get an application ID, then submit the separate Think Big form. The 2027 terms require an offer before 8 April. The award reduces tuition; housing and living costs are separate.": "Подайте заявку на поступление и получите её номер, затем отправьте отдельную форму Think Big. По правилам 2027 года нужно получить предложение о зачислении до 8 апреля. Стипендия уменьшает плату за обучение. Жильё и остальные расходы оплачиваются отдельно.",

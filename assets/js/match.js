@@ -85,7 +85,11 @@
         checks.push({ level: 'info', text: 'The IELTS requirement varies by programme. Check the level for your course.' });
       } else if (t && has(t.min)) {
         if (input.ielts < t.min) checks.push({ level: 'hard', basis: 'minimum', text: 'IELTS ' + input.ielts + ' is below the published minimum of ' + t.min + '.' });
+        else if (has(t.sections)) checks.push({ level: 'ok', basis: 'minimum',
+          text: 'IELTS overall ' + input.ielts + ' meets the published overall minimum of ' + t.min + '.' });
         else checks.push({ level: 'ok', basis: 'minimum', text: 'IELTS ' + input.ielts + ' meets the published minimum of ' + t.min + '.' });
+        if (has(t.sections)) checks.push({ level: 'info',
+          text: 'Check the minimum for each IELTS section separately. The matcher checks only the overall score.' });
       } else if (t && typeof t.recommended === 'number') {
         /* What the figure is decides the wording: an average or a typical
            score describes past applicants and is never a requirement that
