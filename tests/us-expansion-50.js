@@ -503,9 +503,9 @@ module.exports=function(env){
      U.nextDeadline(yu,'all').round.dateISO==='2027-02-01',
      'Yeshiva Honors application keeps its own scope and does not replace the general February deadline');
   var njit=U.uniById('new-jersey-institute-of-technology'),ub=U.uniById('university-at-buffalo'),mines=U.uniById('colorado-school-of-mines');
-  ok(njit.costs.breakdown.period==='semester'&&U.tuitionAmount(njit)===19113&&/semester/.test(U.cardCost(njit).suffix)&&
+  ok(U.costStatus(njit)==='previous-cycle'&&U.tuitionAmount(njit)===38226&&U.budgetAmount(njit)===71878&&
      !DB.match.annualCost[njit.id]&&budget(njit,100000).status==='unknown'&&U.costArithmetic(njit).length===0,
-     'NJIT historical semester tuition/fees is never displayed or compared as annual cost');
+     'NJIT historical annual international estimate is displayed but excluded from budget comparison');
   ok(U.costStatus(ub)==='conflict'&&[null,0,100000].every(function(b){return budget(ub,b).status==='conflict';})&&
      !DB.match.annualCost[ub.id]&&/academic year is not established/.test(ub.costs.conflict.text),
      'Buffalo undated insurance/living coverage conflict is visible with empty, zero and high budgets');

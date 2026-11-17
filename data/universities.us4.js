@@ -1391,26 +1391,25 @@ window.UNIPATH.universities.push(
   },
   "costs": {
     "breakdown": {
-      "includes": null,
-      "tuition": 27289,
-      "period": "semester"
+      "tuition": 54578,
+      "period": "year"
     },
     "academicYear": "2027–2028",
     "currency": "USD",
     "studentCategory": "Full-time first-year undergraduate",
     "source": "https://www.drake.edu/about/offices/accounts/tuitionfees",
-    "verified": "2026-11-12",
-    "headline": "$27,289 per semester in tuition",
+    "verified": "2026-11-17",
+    "headline": "Tuition for two semesters: $54,578",
     "items": [
       {
         "label": "Tuition per semester",
-        "group": "billed",
-        "amount": 27289
+        "amount": 27289,
+        "group": "billed"
       }
     ],
     "billedSubtotal": null,
     "totalText": null,
-    "note": "Des Moines, 12–18 credits per semester. The Fall 2027 room and board rates are pending on the same page."
+    "note": "Des Moines, 12–18 credits each semester for the 2027–28 entering class. Two semesters of tuition cost $54,578 (calculated by UniPath from $27,289 per semester). The full international yearly estimate, including fees, living expenses and insurance, remains unconfirmed."
   },
   "scholarships": {
     "fullRide": {
@@ -1440,8 +1439,8 @@ window.UNIPATH.universities.push(
         "note": "Apply separately after applying for admission. When this grant is awarded, combined aid is capped at 40% of cost of attendance. Renewal requires full-time enrollment and satisfactory academic progress.",
         "coverage": "Partial funding",
         "source": "https://www.drake.edu/admission-aid/financial-aid/scholarships/international-student-grant",
-        "verified": "2026-11-12",
-        "application": null,
+        "verified": "2026-11-17",
+        "application": "Apply for admission, then submit the grant application linked in your Drake admission application.",
         "deadline": null,
         "deadlineScope": null
       }
@@ -2417,50 +2416,51 @@ window.UNIPATH.universities.push(
   },
   "costs": {
     "breakdown": {
-      "includes": null,
-      "tuition": 39000
+      "tuition": 39000,
+      "billed": 58400,
+      "period": "year"
     },
     "academicYear": "2027–2028",
     "currency": "USD",
     "studentCategory": "Full-time first-year undergraduate",
-    "source": "https://wheatoncollege.edu/wp-content/uploads/2026/11/Wheaton-College-2027-2028-Payment-Worksheet.pdf",
-    "verified": "2026-11-13",
-    "headline": "2027–2028 payment worksheet",
+    "source": "https://www.wheatoncollege.edu/admission/tuition-fees/new-tuition-pricing/",
+    "verified": "2026-11-17",
+    "headline": "2027–28 tuition, fees, housing and food: $58,400",
     "items": [
       {
         "label": "Tuition",
-        "group": "billed",
-        "amount": 39000
+        "amount": 39000,
+        "group": "billed"
       },
       {
         "label": "Student activity fee",
-        "group": "billed",
-        "amount": 600
+        "amount": 600,
+        "group": "billed"
       },
       {
         "label": "Technology fee",
-        "group": "billed",
-        "amount": 300
+        "amount": 300,
+        "group": "billed"
       },
       {
         "label": "Housing",
-        "group": "estimate",
-        "amount": 10200
+        "amount": 10200,
+        "group": "billed"
       },
       {
         "label": "Meals",
-        "group": "estimate",
-        "amount": 8300
+        "amount": 8300,
+        "group": "billed"
       },
       {
         "label": "Health insurance",
-        "group": "estimate",
-        "amount": 5000
+        "amount": 5000,
+        "group": "estimate"
       }
     ],
-    "billedSubtotal": null,
+    "billedSubtotal": 58400,
     "totalText": null,
-    "note": "Housing and meals apply to the on-campus worksheet scenario. The college plan is an estimated $5,000 and may be waived with comparable coverage. The worksheet leaves total charges blank."
+    "note": "Norton, Massachusetts, 2027–28. Wheaton publishes $58,400 for tuition, fees, on-campus housing and food. The payment worksheet separately estimates $5,000 for the college health plan, which may be waived with comparable coverage. A complete international budget including other expenses is unconfirmed."
   },
   "scholarships": {
     "fullRide": {
