@@ -23,18 +23,18 @@ def details():
                     separate=False, renewable=True)
     merit.update(firstYearEligible=True, entryYear='2027', entryTerm='Autumn')
     cost = b.costs(
-        '2027–2028', UE_COST, b.REVIEWED,
+        '2027–2028', UE_COST, '2026-11-17',
         L('Full-time international undergraduate living on campus', 'Иностранный студент очного бакалавриата с проживанием в кампусе'),
         [(b.TUITION_FEES, 49244, 'billed'), (b.HOUSING, 8130, 'estimate'),
          (b.MEALS, 8350, 'estimate'), (b.INSURANCE, 2000, 'estimate'),
          (L('Transportation', 'Транспорт'), 920, 'estimate'),
          (L('Personal expenses', 'Личные расходы'), 1330, 'estimate'),
-         (L('Book rental, supplies and equipment', 'Аренда учебников, материалы и оборудование'), 920, 'estimate')],
-        L('$70,894 estimated annual cost before scholarships', 'Годовая смета до вычета стипендий — $70 894'),
-        L('$70,894 estimated annual cost before scholarships', 'Годовая смета до вычета стипендий — $70 894'),
+         (L('Book rental, supplies and equipment', 'Аренда учебников, материалы и оборудование'), 930, 'estimate')],
+        L('$70,904 estimated annual cost before scholarships', 'Годовая смета до вычета стипендий — $70 904'),
+        L('$70,904 estimated annual cost before scholarships', 'Годовая смета до вычета стипендий — $70 904'),
         L('Fall and spring, 12–18 credits per semester, plus a 12-month insurance estimate. Summer study is excluded.',
           'Осень и весна, 12–18 кредитов в семестр, плюс смета на 12 месяцев страховки. Летнее обучение не входит.'),
-        tuition=47590, budget=70894, comprehensive=True, status='confirmed')
+        tuition=47590, budget=70904, comprehensive=True, status='confirmed')
     cost['breakdown']['period'] = 'year'
     aug_award = b.award(
         'augustana-admission-scholarships', L('Augustana admission scholarships', 'Стипендии Augustana при поступлении'),

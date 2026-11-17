@@ -77,7 +77,7 @@ module.exports = function ({ U, M, DB, ok }) {
     }), 'reviewed campus photos include main image, thumbnail and Commons attribution');
     const ue = U.uniById('university-of-evansville');
     ok(M.evaluate(ue, { budget: 50000, currency: 'USD' }).budget.status === 'over' &&
-       M.evaluate(ue, { budget: 70894, currency: 'USD' }).budget.status === 'fits',
+       M.evaluate(ue, { budget: 70904, currency: 'USD' }).budget.status === 'fits',
       'Evansville uses its published full cost before competitive merit aid');
   }
 };

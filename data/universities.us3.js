@@ -28469,7 +28469,7 @@ window.UNIPATH.universities.push(
     "scholarships": "https://www.xula.edu/financialaid/scholarships/index.html",
     "financialAid": "https://www.xula.edu/international-ed/scholarship-and-funding-options.html",
     "programs": "https://catalog.xula.edu/content.php?catoid=46&navoid=2520",
-    "cost": "https://www.xula.edu/fiscal-services/office-of-student-accounts/office-of-student-accounts-tuition-fees-residential-housing-and-other-costs.html"
+    "cost": "https://www.xula.edu/international-ed/department-of-center-for-intercultural-and-international-programs/freshmen-estimated-tuition-and-fees-2026_2027.pdf"
   },
   "admissions": {
     "platforms": [],
@@ -28636,69 +28636,93 @@ window.UNIPATH.universities.push(
   },
   "costs": {
     "breakdown": {
-      "includes": "the charges of one semester. The annual student health insurance ($2,327), the orientation fee of the first semester ($173), the yearbook ($29), course-specific fees and personal expenses are extra",
       "tuition": 13835,
-      "tuitionText": "$13,835 per semester",
-      "period": "semester"
+      "tuitionText": "$13,835 tuition for Fall 2026",
+      "period": "semester",
+      "billed": 22584.5,
+      "includes": "Fall 2026 only: tuition, fees, insurance, room and board for the stated housing option."
     },
     "academicYear": "2026–2027",
     "currency": "USD",
-    "studentCategory": "Full-time students (12–18 hours) of the College of Arts and Sciences and Pre-Pharmacy living on campus",
+    "studentCategory": "International first-year students in Fall 2026, with a double room in St. Mike or K.D.",
     "source": "https://www.xula.edu/international-ed/department-of-center-for-intercultural-and-international-programs/freshmen-estimated-tuition-and-fees-2026_2027.pdf",
     "verified": "2026-11-17",
-    "headline": "$13,835 tuition per semester for full-time students",
+    "headline": "Fall 2026 estimate with housing: $22,584.50",
     "items": [
       {
-        "label": "Tuition, full time (12–18 hours), per semester",
+        "label": "Tuition",
         "group": "billed",
         "amount": 13835
       },
       {
-        "label": "Information technology fee, per semester",
+        "label": "Information technology fee",
         "group": "billed",
         "amount": 462
       },
       {
-        "label": "XU Gold Book Bundle, per semester",
+        "label": "Health insurance",
         "group": "billed",
-        "amount": 350
+        "amount": 1674
       },
       {
-        "label": "Health and wellness fee, per semester",
+        "label": "Engagement Meal Plan",
+        "group": "billed",
+        "amount": 345
+      },
+      {
+        "label": "XU Gold Book Bundle",
+        "group": "billed",
+        "amount": 338
+      },
+      {
+        "label": "Health and wellness fee",
         "group": "billed",
         "amount": 214
       },
       {
-        "label": "Student activity fee, per semester",
+        "label": "Student activity fee",
         "group": "billed",
         "amount": 144
       },
       {
-        "label": "ID system maintenance fee, per semester",
+        "label": "Yearbook",
+        "group": "billed",
+        "amount": 29
+      },
+      {
+        "label": "New student orientation fee",
+        "group": "billed",
+        "amount": 173
+      },
+      {
+        "label": "ID system maintenance fee",
         "group": "billed",
         "amount": 11
       },
       {
-        "label": "Room and board: a room for two students, by residence hall, per semester",
+        "label": "St. Mike or K.D. double room and board",
         "group": "billed",
-        "min": 5564.5,
-        "max": 6597,
-        "text": "$5,564.50–$6,597"
+        "amount": 5564.5
       },
       {
-        "label": "Housing fee, per semester",
+        "label": "Less: Engagement Meal Plan (housing adjustment)",
+        "group": "billed",
+        "amount": -338
+      },
+      {
+        "label": "Housing fee",
         "group": "billed",
         "amount": 88
       },
       {
-        "label": "Laundry, per semester",
+        "label": "Laundry fee",
         "group": "billed",
         "amount": 45
       }
     ],
     "billedSubtotal": null,
-    "totalText": "Published per semester for autumn 2026 and spring 2027: tuition $13,835 and five standing fees ($1,181 together), a room for two with board $5,564.50 to $6,597, housing fee and laundry $133. Two semesters come to $41,427–$43,492 — calculated by UniPath; the schedules print no yearly total",
-    "note": "The published international estimate is for Fall 2026. Student health insurance, orientation, course-specific fees and personal costs are separate. No Fall 2027 annual price has been verified.",
+    "totalText": "Fall 2026: $17,225 for tuition and mandatory fees; $22,584.50 including housing.",
+    "note": "The Fall 2026 international first-year memo lists $345 for the Engagement Meal Plan and subtracts $338 in the housing calculation. It excludes $92 per lab. Eligible students covered by family health insurance may waive the university plan. No Fall 2027 annual estimate is confirmed.",
     "status": "previous-cycle"
   },
   "scholarships": {

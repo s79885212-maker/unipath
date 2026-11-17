@@ -626,7 +626,11 @@ group('corrections after the expansion');
   var mar = U.uniById('marist-university'), xl = U.uniById('xavier-university-of-louisiana');
   ok(U.budgetAmount(mar) === 76875 && U.billedAmount(mar) === 72040 && bud('marist-university', 76875).status === 'fits', 'Marist: the 2026–27 cost of attendance and its billable part are as printed');
   var xb = bud('xavier-university-of-louisiana', 50000);
-  ok(U.costPeriod(xl) === 'semester' && /per semester/.test(U.cardCost(xl).text) && xb.status === 'unknown' && U.costStatus(xl) === 'previous-cycle' && !DB.match.annualCost[xl.id],
+  ok(U.costPeriod(xl) === 'semester' && /Fall 2026/.test(U.cardCost(xl).text) && xb.status === 'unknown' &&
+    U.costStatus(xl) === 'previous-cycle' && !DB.match.annualCost[xl.id] &&
+    U.billedAmount(xl) === 22584.5 && xl.costs.items[2].amount === 1674 &&
+    xl.costs.items.slice(0, 10).reduce((sum, item) => sum + item.amount, 0) === 17225 &&
+    xl.costs.items.reduce((sum, item) => sum + item.amount, 0) === 22584.5,
     'Xavier of Louisiana: historical semester charges stay visible outside Fall 2027 budget comparisons', xb.status + ' / ' + xb.text);
   var bare = added().filter(function (u) { var c = u.costs || {}; return (c.items || []).length && !(c.academicYear && c.studentCategory && c.source && c.verified); }).map(function (u) { return u.id; });
   /* Deep Springs has no year by nature (aid, not a price list); the others are
@@ -994,8 +998,8 @@ const wvBudgetResult = M.evaluate(fall27WV, fundingInput);
 ok(wvBudgetResult.category === 'unknown' && /Morgantown, 2027–28: base tuition and university fees/.test(wvBudgetResult.budget.text),
   'WVU tuition-only result carries the campus and fee scope without a full match');
 const evansvilleFundingControl = U.uniById('university-of-evansville');
-ok(U.costYear(evansvilleFundingControl) === '2027–2028' && fundingBudget(evansvilleFundingControl,70894) === 'fits' &&
-  fundingBudget(evansvilleFundingControl,70893) === 'over',
+ok(U.costYear(evansvilleFundingControl) === '2027–2028' && fundingBudget(evansvilleFundingControl,70904) === 'fits' &&
+  fundingBudget(evansvilleFundingControl,70894) === 'over',
   'Evansville full-year 2027–28 estimate still matches at its exact amount');
 group('Fall 2027 international cost audit');
 const costAuditFixture = {

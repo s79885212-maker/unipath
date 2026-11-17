@@ -3779,15 +3779,15 @@ window.UNIPATH.universities.push(
       "includes": "Fall and spring, 12–18 credits per semester, plus a 12-month insurance estimate. Summer study is excluded.",
       "tuition": 47590,
       "comprehensive": true,
-      "budget": 70894,
+      "budget": 70904,
       "period": "year"
     },
     "academicYear": "2027–2028",
     "currency": "USD",
     "studentCategory": "Full-time international undergraduate living on campus",
     "source": "https://www.evansville.edu/student-financial-services/tuition-and-direct-costs-international-2027-2028.cfm",
-    "verified": "2026-11-13",
-    "headline": "$70,894 estimated annual cost before scholarships",
+    "verified": "2026-11-17",
+    "headline": "$70,904 estimated annual cost before scholarships",
     "items": [
       {
         "label": "Tuition and fees",
@@ -3822,11 +3822,11 @@ window.UNIPATH.universities.push(
       {
         "label": "Book rental, supplies and equipment",
         "group": "estimate",
-        "amount": 920
+        "amount": 930
       }
     ],
     "billedSubtotal": null,
-    "totalText": "$70,894 estimated annual cost before scholarships",
+    "totalText": "$70,904 estimated annual cost before scholarships",
     "note": null,
     "status": "confirmed"
   },
