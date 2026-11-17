@@ -433,6 +433,9 @@
                          need, without an itemised list of what is covered
      "Meets full demonstrated need" is a separate, need-based promise and is
      never folded into these. */
+  function internationalFirstYearAward(a) {
+    return !!a && a.internationalEligible === true && a.firstYearEligible !== false && a.status !== 'conflict';
+  }
   function awardKind(u) {
     var fr = fullRide(u);
     if (fr.available !== true || fr.status === 'conflict') return null;
@@ -1068,20 +1071,20 @@
     {
       id: 'scholarship', title: 'Scholarships & aid',
       options: [
-        { id: 'full-ride', label: 'Full ride: tuition, housing and meals covered', test: function (u) { return awardKind(u) === 'full-ride'; } },
-        { id: 'tuition-stipend', label: 'Full tuition plus a living stipend', test: function (u) { return awardKind(u) === 'tuition-stipend'; } },
-        { id: 'full-ride-intl', label: 'Any full-level award open to internationals', test: function (u) { return fullRide(u).available === true && fullRide(u).internationalEligible === true && fullRide(u).status !== 'conflict'; } },
+        { id: 'full-ride', label: 'Full ride: tuition, housing and meals covered', test: function (u) { return internationalFirstYearAward(fullRide(u)) && awardKind(u) === 'full-ride'; } },
+        { id: 'tuition-stipend', label: 'Full tuition plus a living stipend', test: function (u) { return internationalFirstYearAward(fullRide(u)) && awardKind(u) === 'tuition-stipend'; } },
+        { id: 'full-ride-intl', label: 'Any full-level award open to internationals', test: function (u) { return fullRide(u).available === true && internationalFirstYearAward(fullRide(u)); } },
         { id: 'full-tuition', label: 'Full tuition covered', test: function (u) {
-            if (fullRide(u).status !== 'conflict' && fullRide(u).covers && fullRide(u).covers.tuition === true) return true;
-            return awardsAll(u).some(function (m) { return /full tuition|value of tuition|100%|full dues|tuition exemption|full scholarship/i.test(String(m.amount || '')); });
+            if (fullRide(u).available === true && internationalFirstYearAward(fullRide(u)) && fullRide(u).covers && fullRide(u).covers.tuition === true) return true;
+            return awardsAll(u).some(function (m) { return internationalFirstYearAward(m) && /full tuition|value of tuition|100%|full dues|tuition exemption|full scholarship/i.test(String(m.amount || '')); });
           } },
         { id: 'merit', label: 'Merit scholarships', test: function (u) {
             var fr = fullRide(u);
-            return meritList(u).length > 0 || (fr.available === true && fr.internationalEligible === true &&
+            return meritList(u).some(internationalFirstYearAward) || (fr.available === true && internationalFirstYearAward(fr) &&
               ['merit', 'need-merit', 'talent'].indexOf(fr.basis) > -1);
           } },
         { id: 'need', label: 'Need-based aid for internationals', test: function (u) { return needBased(u).availableToInternational === true; } },
-        { id: 'meets-need', label: 'Meets full demonstrated need', test: function (u) { return needBased(u).meetsFullNeed === true; } }
+        { id: 'meets-need', label: 'Meets full demonstrated need', test: function (u) { return needBased(u).availableToInternational === true && needBased(u).meetsFullNeed === true; } }
       ]
     },
     {

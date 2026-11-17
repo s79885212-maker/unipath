@@ -88,8 +88,7 @@
         else if (has(t.sections)) checks.push({ level: 'ok', basis: 'minimum',
           text: 'IELTS overall ' + input.ielts + ' meets the published overall minimum of ' + t.min + '.' });
         else checks.push({ level: 'ok', basis: 'minimum', text: 'IELTS ' + input.ielts + ' meets the published minimum of ' + t.min + '.' });
-        if (has(t.sections)) checks.push({ level: 'info',
-          text: 'Check the minimum for each IELTS section separately. The matcher checks only the overall score.' });
+
       } else if (t && typeof t.recommended === 'number') {
         /* What the figure is decides the wording: an average or a typical
            score describes past applicants and is never a requirement that
@@ -99,6 +98,11 @@
         else checks.push({ level: 'ok', basis: kind, text: 'IELTS ' + input.ielts + ' is at or above ' + what + ' (' + t.recommended + ').' + (kind === 'statistic' ? ' This is a statistic, not a requirement met.' : '') });
       } else {
         checks.push({ level: 'info', text: 'No official IELTS figure is recorded for this institution, so your score was not compared.' });
+      }
+      if (t && (has(t.sections) || prof.some(function (p) { return has(p.sections); }))) {
+        checks.push({ level: 'info',
+          text: 'Check the minimum for each IELTS section separately. The matcher checks only the overall score.' });
+        unchecked.push('IELTS section scores');
       }
     } else {
       unchecked.push('English test score — not entered');
@@ -272,6 +276,16 @@
     if (c.conflict) return { status: 'conflict', text: costText(c, c.currency), html: conflictHtml(c, c.currency) };
     if (input.field && c.scopeFields && c.scopeFields.indexOf(input.field) < 0) return { status: 'unknown',
       text: 'The recorded yearly cost is for a different field of study. No comparable cost is confirmed for your selected field.' };
+    var intake = input.intake || U.intakeGet();
+    if (intake !== 'all') {
+      var entry = /^(fall|spring|winter|summer)-(20\d\d)$/.exec(intake);
+      var year = c.academicYear || U.costYear(u) || '';
+      var start = /^(20\d\d)/.exec(year);
+      if (entry && (!start || Number(start[1]) !== Number(entry[2]))) {
+        return { status: 'unknown',
+          text: 'The recorded cost is not confirmed for the selected intake. Check the published year and programme before comparing a budget.' };
+      }
+    }
     if (input.budget === null) return { status: 'none', text: costText(c, c.currency) };
     var lo = convert(c.min, c.currency, input.currency), hi = convert(c.max, c.currency, input.currency);
     if (lo === null || hi === null || lo < 0 || hi < lo) return { status: 'unknown', text: 'No comparable yearly cost is recorded' };
@@ -612,6 +626,7 @@
         '<div class="notice notice-warn"><span class="ico">⚠️</span><div>This is a comparison of the numbers you enter with official figures, not a prediction and not a check of all requirements. Falling inside the score range of past students is not a requirement met and says nothing certain about admission. Grades, school subjects, essays, portfolios and programme rules are not checked. Always confirm on the official page.</div></div>' +
         '<form class="card match-form" id="match-form" autocomplete="off" onsubmit="return false"><div class="card-body">' +
           '<div class="match-grid">' +
+            U.intakeSelectHtml('m-intake') +
             field('m-ielts', 'IELTS (overall)', 'type="number" inputmode="decimal" min="0" max="9" step="0.5" placeholder="e.g. 7.0"', s.ielts, null) +
             field('m-gpa', 'GPA (4.0 scale)', 'type="number" inputmode="decimal" min="0" max="4" step="0.01" placeholder="e.g. 3.8"', s.gpa, 'Unweighted, from 0 to 4.0. Compared only with a published average on the same scale; school grades are never converted.') +
             field('m-sat', 'SAT (total)', 'type="number" inputmode="numeric" min="400" max="1600" step="10" placeholder="optional"', s.sat, null) +
@@ -640,6 +655,7 @@
   function readInput() {
     var val = function (id) { var el = document.getElementById(id); return el ? el.value : ''; };
     var input = {
+      intake: U.intakeGet(),
       currency: val('m-currency') || 'USD',
       country: val('m-country'), field: val('m-field'),
       englishOnly: !!(document.getElementById('m-english') || {}).checked,
@@ -737,6 +753,10 @@
         ? '<p class="small muted match-budget-partial">Affordability of the full year has not been confirmed.</p>' : '') +
       '</div></article>';
   }
+
+  document.addEventListener('unipath:intake', function () {
+    if (document.getElementById('match-form')) update();
+  });
 
   global.UPMatch = { render: render, evaluate: evaluate, checkField: checkField, costOf: costOf };
 })(window);

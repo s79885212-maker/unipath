@@ -114,7 +114,7 @@ window.UNIPATH.universities.push(
   founded: 1971,
   type: 'National research university (science and technology)',
   brand: { c1: '#004191', c2: '#00214a', initials: 'KAIST' },
-  description: 'Korea\'s premier science and technology institute, and the single most generous option in this database for a STEM applicant: KAIST states it offers a full scholarship — tuition, a monthly allowance of about US$300 and national health insurance — to every admitted international student.',
+  description: "A science and technology university in Daejeon offering admitted international undergraduates tuition support, KRW 350,000 per month and medical insurance under its scholarship rules.",
   englishTaught: true,
   languageOfInstruction: 'English (most undergraduate courses are taught in English by policy)',
   programs: ['engineering','computer-science','mathematics','biology','business','economics','social-sciences'],
@@ -131,18 +131,105 @@ window.UNIPATH.universities.push(
     cost: 'https://admission.kaist.ac.kr/intl-undergraduate'
   },
   admissions: {
-    platforms: ['KAIST international application portal (univapply.kaist.ac.kr)'],
-    deadlines: [
-      { name: 'Early admission — application period', kind: 'round-1', entryTerm: 'Spring', entryYear: '2027', dateISO: '2026-10-22', date: '22 September – 22 October 2026', time: '18:00', timezone: 'KST', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'Closes at 18:00 KST. Recommendation letters by 29 October; interviews, if needed, on 22 December 2026; decision on 7 January 2027 at 10:00 KST; reply before February.', status: 'confirmed', source: 'https://admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline', verified: '2026-09-24', note: null },
-      { name: 'Regular admission — application period', kind: 'round-2', entryTerm: 'Spring', entryYear: '2027', dateISO: '2027-01-14', date: '10 November 2026 – 14 January 2027', time: '18:00', timezone: 'KST', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'Closes at 18:00 KST. Recommendation letters by 21 January; interviews, if needed, on 3 March 2027; decision on 25 March 2027 at 10:00 KST; reply before May.', status: 'confirmed', source: 'https://admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline', verified: '2026-09-24', note: null },
-      { name: 'Academic year start', kind: 'notice', entryTerm: 'Spring', entryYear: '2027', date: 'End of February 2027 (spring track) or end of August 2027 (fall track)', binding: false, appliesTo: 'Admitted students', conditions: 'KAIST admits to a spring or a fall track.', status: 'confirmed', source: 'https://admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline', verified: '2026-09-24', note: null },
+    "platforms": [
+      "KAIST international application portal (univapply.kaist.ac.kr)"
     ],
-    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: false, waiver: 'The fee is not waivable (2023 admission guideline — the latest published online).', note: 'KRW 80,000 or US$80, non-refundable.' },
-    documents: ['Academic transcripts', 'English proficiency test taken within two years of the online application deadline'],
-    recommendations: null,
-    essay: null,
-    interview: null,
-    notes: ['Your English proficiency test must be taken within two years prior to the online application deadline.']
+    "deadlines": [
+      {
+        "name": "Early admission — application period",
+        "kind": "round-1",
+        "entryTerm": "Spring",
+        "entryYear": "2027",
+        "dateISO": "2026-10-22",
+        "date": "22 September – 22 October 2026",
+        "time": "18:00",
+        "timezone": "KST",
+        "binding": false,
+        "appliesTo": "International undergraduate applicants",
+        "conditions": "Closes at 18:00 KST. Recommendation letters by 29 October; interviews, if needed, on 22 December 2026; decision on 7 January 2027 at 10:00 KST; reply before February.",
+        "status": "confirmed",
+        "source": "https://admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline",
+        "verified": "2026-09-24",
+        "note": null
+      },
+      {
+        "name": "Regular admission — application period",
+        "kind": "round-2",
+        "entryTerm": "Fall",
+        "entryYear": "2027",
+        "dateISO": "2027-01-14",
+        "date": "10 November 2026 – 14 January 2027",
+        "time": "18:00",
+        "timezone": "KST",
+        "binding": false,
+        "appliesTo": "International undergraduate applicants",
+        "conditions": "Fall track only. Application and documents by 14 January 2027, 18:00 KST. Recommendation letters by 21 January, 18:00 KST. The 25 March result is an admission announcement.",
+        "status": "confirmed",
+        "source": "https://admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline",
+        "verified": "2026-11-17",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Fall",
+          "entryYear": "2027",
+          "source": "https://admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline",
+          "verified": "2026-11-17",
+          "quote": "Application Timeline for 2027 Admissions"
+        }
+      },
+      {
+        "name": "Academic year start",
+        "kind": "notice",
+        "entryTerm": "Spring",
+        "entryYear": "2027",
+        "date": "End of February 2027 (spring track) or end of August 2027 (fall track)",
+        "binding": false,
+        "appliesTo": "Admitted students",
+        "conditions": "KAIST admits to a spring or a fall track.",
+        "status": "confirmed",
+        "source": "https://admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline",
+        "verified": "2026-09-24",
+        "note": null
+      },
+      {
+        "name": "KAIST Regular — recommendation letter",
+        "kind": "documents",
+        "entryTerm": "Fall",
+        "entryYear": "2027",
+        "dateISO": "2027-01-21",
+        "date": "21 January 2027",
+        "time": "18:00",
+        "timezone": "KST",
+        "status": "confirmed",
+        "source": "https://admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline",
+        "verified": "2026-11-17",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Fall",
+          "entryYear": "2027",
+          "source": "https://admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline",
+          "verified": "2026-11-17",
+          "quote": "Application Timeline for 2027 Admissions"
+        }
+      }
+    ],
+    "applicationFee": {
+      "amount": 80000,
+      "currency": "KRW",
+      "waiverAvailableToInternational": false,
+      "waiver": "The fee is not waivable (2023 admission guideline — the latest published online).",
+      "note": "KRW 80,000 or US$80, non-refundable."
+    },
+    "documents": [
+      "Academic transcripts",
+      "English proficiency test taken within two years of the online application deadline"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": [
+      "Your English proficiency test must be taken within two years prior to the online application deadline."
+    ]
   },
   english: {
     ielts: { min: null, recommended: null, note: 'KAIST does not publish the undergraduate minimum on the pages consulted. For reference, its graduate programmes list IELTS 6.5.' },
@@ -169,35 +256,79 @@ window.UNIPATH.universities.push(
     note: 'Because KAIST states it offers a full scholarship to every admitted international student, tuition is not the planning constraint here. Living costs in Daejeon are additional, partly offset by the monthly allowance.'
   },
   scholarships: {
-    fullRide: {
-      available: true,
-      internationalEligible: true,
-      basis: 'merit',
-      covers: { tuition: true, housing: false, meals: false, insurance: true, books: false, stipend: true },
-      renewable: true,
-      guaranteed: true,
-      competitiveness: 'Not a separate competition — KAIST states the scholarship goes to every admitted international student. Admission itself is highly selective.',
-      howToApply: 'Automatic on admission — no separate scholarship application.',
-      note: 'KAIST states it offers a full scholarship covering the tuition fee, approximately US$300 per month in allowances, and national health insurance, to every admitted international student. Students must maintain good grades to keep it. Housing and meals are not separately named as covered — the monthly allowance contributes toward living costs.'
+    "fullRide": {
+      "available": true,
+      "internationalEligible": true,
+      "basis": "merit",
+      "covers": {
+        "tuition": true,
+        "housing": false,
+        "meals": false,
+        "insurance": true,
+        "books": false,
+        "stipend": true
+      },
+      "renewable": true,
+      "guaranteed": true,
+      "competitiveness": "Not a separate competition — KAIST states the scholarship goes to every admitted international student. Admission itself is highly selective.",
+      "howToApply": "Select KAIST scholarship in the Statement of Financial Resources of the admission application. No separate process.",
+      "note": "The undergraduate scholarship covers tuition for eight semesters, KRW 350,000 per month and medical insurance. After the freshman year, retain a GPA above 2.7/4.3. Housing and meals are paid from the allowance and are not separately promised.",
+      "source": "https://admission.kaist.ac.kr/intl-undergraduate/support/scholarships/kaist",
+      "verified": "2026-11-17"
     },
-    merit: [
-      { name: 'KAIST international student scholarship', amount: 'Tuition fee, approximately US$300/month allowance, and national health insurance', eligibility: 'Every admitted international student', deadline: null, application: 'Automatic on admission', renewable: true, note: 'KAIST states students must receive good grades at KAIST to maintain the scholarship.' },
-      { name: 'Academic Promotion Scholarships', amount: 'KRW 250,000/month (valedictorian) or KRW 200,000/month (salutatorian and honours)', eligibility: 'Department honours recipients', deadline: null, application: null, renewable: null, note: 'Awarded to enrolled students on academic performance.' }
+    "merit": [
+      {
+        "name": "KAIST international student scholarship",
+        "amount": "Eight semesters of tuition, KRW 350,000/month and medical insurance",
+        "eligibility": "Every admitted international student",
+        "deadline": null,
+        "application": "Select KAIST scholarship in the Statement of Financial Resources of the admission application. No separate process.",
+        "renewable": true,
+        "note": "The undergraduate scholarship covers tuition for eight semesters, KRW 350,000 per month and medical insurance. After the freshman year, retain a GPA above 2.7/4.3. Housing and meals are paid from the allowance and are not separately promised.",
+        "source": "https://admission.kaist.ac.kr/intl-undergraduate/support/scholarships/kaist",
+        "verified": "2026-11-17"
+      },
+      {
+        "name": "Academic Promotion Scholarships",
+        "amount": "KRW 250,000/month (valedictorian) or KRW 200,000/month (salutatorian and honours)",
+        "eligibility": "Department honours recipients",
+        "deadline": null,
+        "application": null,
+        "renewable": null,
+        "note": "Awarded to enrolled students on academic performance."
+      }
     ],
-    needBased: {
-      availableToInternational: null,
-      meetsFullNeed: false,
-      needBlindInternational: null,
-      forms: [],
-      deadlines: null,
-      note: 'KAIST also runs labour scholarships (KRW 200,000–300,000/month, with the highest tier for low-income families) and financial aid of KRW 135,000/month for undergraduates, paid for four months per semester within an eight-semester limit. Whether international undergraduates are eligible for these was not confirmed.'
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": false,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "KAIST also runs labour scholarships (KRW 200,000–300,000/month, with the highest tier for low-income families) and financial aid of KRW 135,000/month for undergraduates, paid for four months per semester within an eight-semester limit. Whether international undergraduates are eligible for these was not confirmed."
     }
   },
   photos: { main: null, gallery: [], city: null },
   sources: [
-    { label: 'International undergraduate admission', url: 'https://admission.kaist.ac.kr/intl-undergraduate' },
-    { label: 'Scholarship types', url: 'https://www.kaist.ac.kr/en/html/edu/03100502.html' },
-    { label: 'Scholarship basic rules', url: 'https://www.kaist.ac.kr/en/html/edu/03100501.html' }
+    {
+      "label": "International undergraduate admission",
+      "url": "https://admission.kaist.ac.kr/intl-undergraduate"
+    },
+    {
+      "label": "Scholarship types",
+      "url": "https://www.kaist.ac.kr/en/html/edu/03100502.html"
+    },
+    {
+      "label": "Scholarship basic rules",
+      "url": "https://www.kaist.ac.kr/en/html/edu/03100501.html"
+    },
+    {
+      "label": "KAIST international undergraduate admission (2023 admission guideline)",
+      "url": "https://admission.kaist.ac.kr/intl-undergraduate"
+    },
+    {
+      "label": "KAIST undergraduate scholarship",
+      "url": "https://admission.kaist.ac.kr/intl-undergraduate/support/scholarships/kaist"
+    }
   ],
   lastVerified: '2026-09-16'
 },
@@ -259,20 +390,42 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A high school diploma or recognised equivalency certificate is required before matriculation.'
   },
   costs: {
-    breakdown: { tuition: 8202000, period: "semester", billed: 8258000, includes: "tuition and miscellaneous fees per semester on the International Students Track" },
-    academicYear: '2026',
-    currency: 'KRW',
-    headline: '₩8,258,000 per semester',
-    items: [
-      { label: 'Tuition per semester — International Students Track', amount: 8202000 },
-      { label: 'Miscellaneous fees per semester', amount: 56000 },
-      { label: 'Total per semester — International Students Track', amount: 8258000 },
-      { label: 'First semester total — International Students Track', amount: 8416000, note: 'The first semester is higher; miscellaneous fees are ₩61,000' },
-      { label: 'Total per semester — Korean Students Track (for comparison)', amount: 7454000 }
+    "breakdown": {
+      "tuition": 8202000,
+      "period": "semester",
+      "billed": 8258000,
+      "includes": "tuition and miscellaneous fees per semester on the International Students Track"
+    },
+    "academicYear": "2026",
+    "currency": "KRW",
+    "headline": "₩8,258,000 per semester",
+    "items": [
+      {
+        "label": "Tuition per semester — International Students Track",
+        "amount": 8202000
+      },
+      {
+        "label": "Miscellaneous fees per semester",
+        "amount": 56000
+      },
+      {
+        "label": "Total per semester — International Students Track",
+        "amount": 8258000
+      },
+      {
+        "label": "First semester total — International Students Track",
+        "amount": 8416000,
+        "note": "The first semester is higher; miscellaneous fees are ₩61,000"
+      },
+      {
+        "label": "Total per semester — Korean Students Track (for comparison)",
+        "amount": 7454000
+      }
     ],
-    billedSubtotal: null,
-    totalText: '₩8,258,000 per semester (≈ ₩16.5m per year) on the International Students Track',
-    note: 'Yonsei notes the total does not include personal expenses and that exchange rates change. The rates above apply across UIC divisions; no separate entrance fee is listed.'
+    "billedSubtotal": null,
+    "totalText": "₩8,258,000 per semester (≈ ₩16.5m per year) on the International Students Track",
+    "note": "Yonsei notes the total does not include personal expenses and that exchange rates change. The rates above apply across UIC divisions; no separate entrance fee is listed.",
+    "status": "previous-cycle"
   },
   scholarships: {
     fullRide: {
@@ -360,13 +513,38 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Admission decisions about major course enrolment take account of TOPIK scores or Korean levels completed at Korea University\'s Korean Language Center or other domestic IEQAS-certified universities.'
   },
   costs: {
-    breakdown: { published: false },
-    academicYear: null,
-    currency: 'KRW',
-    headline: null,
-    items: [],
-    totalText: null,
-    note: 'Korea University\'s tuition figures were not captured from an official page during verification. Check the Office of International Affairs site and the current Application Guide PDF.'
+    "academicYear": "2026 academic year",
+    "currency": "KRW",
+    "headline": "≈ ₩5.8m–7.8m per semester",
+    "items": [
+      {
+        "label": "Humanities & Social Sciences",
+        "text": "≈ ₩5,800,000 per semester"
+      },
+      {
+        "label": "Natural Sciences",
+        "text": "≈ ₩6,700,000 per semester"
+      },
+      {
+        "label": "Engineering",
+        "text": "≈ ₩7,700,000 per semester"
+      },
+      {
+        "label": "Art",
+        "text": "≈ ₩7,800,000 per semester"
+      },
+      {
+        "label": "Interdisciplinary Studies, Global Open Major, University College",
+        "text": "≈ ₩7,700,000 per semester"
+      },
+      {
+        "label": "Miscellaneous fees (optional)",
+        "text": "≈ ₩30,000"
+      }
+    ],
+    "totalText": "≈ ₩11.6m–15.6m per year in tuition",
+    "note": "Approximate per-semester figures published by Korea University's Office of International Education for 2026, subject to change.",
+    "status": "previous-cycle"
   },
   scholarships: {
     fullRide: {
@@ -454,13 +632,42 @@ window.UNIPATH.universities.push(
     internationalQualifications: null
   },
   costs: {
-    breakdown: { published: false },
-    academicYear: null,
-    currency: 'KRW',
-    headline: null,
-    items: [],
-    totalText: null,
-    note: 'SKKU\'s tuition figures were not captured from an official page during verification. Note that scholarship tiers are expressed as percentages of tuition, so the base figure matters — check the official admissions site.'
+    "academicYear": "First semester 2026 (freshmen)",
+    "currency": "KRW",
+    "headline": "≈ ₩5.4m–8.3m first semester",
+    "items": [
+      {
+        "label": "Humanities / Social Sciences / Business / Human Science & Society",
+        "amount": 5380000
+      },
+      {
+        "label": "Global Business Administration",
+        "amount": 8264000
+      },
+      {
+        "label": "Global Economics",
+        "amount": 7412000
+      },
+      {
+        "label": "Film, TV & Multimedia / Fashion Design / Theatre",
+        "amount": 6990000
+      },
+      {
+        "label": "Natural Sciences / Sport Science",
+        "amount": 6212000
+      },
+      {
+        "label": "Engineering / Electrical / Biomedical / Computer Science & Engineering",
+        "amount": 6990000
+      },
+      {
+        "label": "Exploratory Studies",
+        "amount": 7219000
+      }
+    ],
+    "totalText": "First-semester totals including the ₩198,000 entrance fee",
+    "note": "From SKKU's 2026 Fall / 2027 Spring admission guide; the figures include the one-time entrance fee and may change for 2027 entrants.",
+    "status": "previous-cycle"
   },
   scholarships: {
     fullRide: {
@@ -1016,30 +1223,107 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Applicants normally need 12 years of school education completed outside Korea (or an equivalent qualification); Korean universities also set separate rules for applicants of overseas Korean descent.'
   },
   costs: {
-    breakdown: { tuition: 4023000, tuitionText: '\u20a94,023,000 for the first semester, then \u20a93,171,000\u2013\u20a94,068,000 depending on the area of study', period: 'semester', includes: 'tuition for one semester; housing, food and living costs in Pohang are extra', published: true },
-    academicYear: '2025\u20132026',
-    currency: 'KRW',
-    headline: '\u20a94,023,000 tuition in the first semester',
-    items: [
-      { label: 'Tuition \u2014 freshman, first semester', amount: 4023000 },
-      { label: 'Tuition \u2014 freshman, second semester', amount: 3843000 },
-      { label: 'Tuition \u2014 humanities and social science', amount: 3171000 },
-      { label: 'Tuition \u2014 engineering and arts', amount: 4068000 },
-      { label: 'Tuition \u2014 combined humanities and engineering track', amount: 3618000 }
+    "breakdown": {
+      "tuition": 4023000,
+      "tuitionText": "₩4,023,000 for the first semester, then ₩3,171,000–₩4,068,000 depending on the area of study",
+      "period": "semester",
+      "includes": "tuition for one semester; housing, food and living costs in Pohang are extra",
+      "published": true
+    },
+    "academicYear": "2025–2026",
+    "currency": "KRW",
+    "headline": "₩4,023,000 tuition in the first semester",
+    "items": [
+      {
+        "label": "Tuition — freshman, first semester",
+        "amount": 4023000
+      },
+      {
+        "label": "Tuition — freshman, second semester",
+        "amount": 3843000
+      },
+      {
+        "label": "Tuition — humanities and social science",
+        "amount": 3171000
+      },
+      {
+        "label": "Tuition — engineering and arts",
+        "amount": 4068000
+      },
+      {
+        "label": "Tuition — combined humanities and engineering track",
+        "amount": 3618000
+      }
     ],
-    billedSubtotal: null,
-    totalText: 'About \u20a97,866,000 in the first year for a freshman, before any scholarship',
-    note: 'These are the Fall 2025 rates published by Handong, which states that tuition is decided every January and is subject to change. The Cornerstone Scholarship can cover tuition and the dormitory fee for four years.',
-    source: 'https://www.handong.edu/eng/admission/undergraduate/tuition/',
-    verified: '2026-09-24'
+    "billedSubtotal": null,
+    "totalText": "About ₩7,866,000 in the first year for a freshman, before any scholarship",
+    "note": "These are the Fall 2025 rates published by Handong, which states that tuition is decided every January and is subject to change. The Cornerstone Scholarship can cover tuition and the dormitory fee for four years.",
+    "source": "https://www.handong.edu/eng/admission/undergraduate/tuition/",
+    "verified": "2026-09-24",
+    "status": "previous-cycle"
   },
   scholarships: {
-    fullRide: { available: true, internationalEligible: true, basis: 'merit', covers: { tuition: true, housing: true, meals: false, insurance: false, books: false }, renewable: true, competitiveness: 'Awarded to selected international applicants; the number of awards was not published on the pages read.', howToApply: 'Applied for with the admission application.', note: 'The Cornerstone Scholarship covers 100% of tuition and the dormitory fee for four years, and requires a GPA of at least 3.0 each semester. Food, insurance and personal costs are not included, so it is close to but not literally a full ride.' },
-    merit: [
-      { name: 'Cornerstone Scholarship', amount: '100% of tuition and the dormitory fee for four years', eligibility: 'International applicants holding a non-Korean nationality who graduated from a high school outside Korea', deadline: null, application: 'With the admission application', renewable: true, note: 'A GPA of at least 3.0 each semester is needed to keep it.' },
-      { name: 'Scholarship for Academic Performance', amount: 'Continued tuition support based on GPA and English score', eligibility: 'From the second semester onwards', deadline: null, application: null, renewable: true, note: null }
+    "fullRide": {
+      "available": true,
+      "internationalEligible": true,
+      "basis": "merit",
+      "covers": {
+        "tuition": true,
+        "housing": true,
+        "meals": true,
+        "insurance": false,
+        "books": false
+      },
+      "renewable": true,
+      "competitiveness": "Cornerstone is limited to 15 selected recipients, including freshmen and transfers.",
+      "howToApply": "Applied for with the admission application.",
+      "note": "Cornerstone Type A covers admission, tuition, dormitory and meals during semesters, plus about KRW 200,000/month. Vacation housing and two meals a day apply only to the first two vacations of year one. Insurance remains the student’s expense. Renewal requires GPA at least 3.0, dormitory residence and TOPIK 2 from semester five; maximum eight semesters for freshmen.",
+      "source": "https://www.handong.edu/eng/admission/undergraduate/scholarship/new/",
+      "verified": "2026-11-17"
+    },
+    "merit": [
+      {
+        "name": "Cornerstone Scholarship",
+        "amount": "Selected Cornerstone Type A: tuition, dormitory, meals and semester allowance",
+        "eligibility": "International applicants holding a non-Korean nationality who graduated from a high school outside Korea",
+        "deadline": null,
+        "application": "With the admission application",
+        "renewable": true,
+        "note": "Cornerstone Type A covers admission, tuition, dormitory and meals during semesters, plus about KRW 200,000/month. Vacation housing and two meals a day apply only to the first two vacations of year one. Insurance remains the student’s expense. Renewal requires GPA at least 3.0, dormitory residence and TOPIK 2 from semester five; maximum eight semesters for freshmen.",
+        "source": "https://www.handong.edu/eng/admission/undergraduate/scholarship/new/",
+        "verified": "2026-11-17",
+        "internationalEligible": true,
+        "firstYearEligible": true
+      },
+      {
+        "name": "Scholarship for Academic Performance",
+        "amount": "Continued tuition support based on GPA and English score",
+        "eligibility": "From the second semester onwards",
+        "deadline": null,
+        "application": null,
+        "renewable": true,
+        "note": null
+      },
+      {
+        "name": "English-score entrance scholarship",
+        "amount": "50% tuition for the first semester only",
+        "internationalEligible": true,
+        "firstYearEligible": true,
+        "basis": "merit",
+        "eligibility": "Valid IELTS 5.5 or TOEFL iBT 85; countries with English as a first language are excluded. This is a scholarship threshold, not a published bachelor admission minimum.",
+        "note": "From semester two, different GPA and English rules apply, including IELTS 6.0. The first-semester waiver does not establish annual funding.",
+        "source": "https://www.handong.edu/eng/admission/undergraduate/scholarship/new/",
+        "verified": "2026-11-17"
+      }
     ],
-    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": false,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Not confirmed during this check."
+    }
   },
   photos: { main: null, gallery: [], city: null },
   sources: [
@@ -1075,23 +1359,64 @@ window.UNIPATH.universities.push(
     cost: 'https://www.gist.ac.kr/iadm/html/sub04/0401.html'
   },
   admissions: {
-    platforms: ['GIST international undergraduate application'],
-    deadlines: [
-      { name: 'International undergraduate admission (Fall 2027)', kind: 'application-window', entryTerm: 'Fall', entryYear: '2027', dateISO: '2027-01-29', date: '1 December 2026 – 29 January 2027', timezone: 'KST', binding: false, appliesTo: 'International undergraduate applicants', conditions: 'GIST announced this application period with its 2027 Fall Undergraduate Admission Guideline; applications go through the GIST application system. No changes are allowed after the deadline.', status: 'confirmed', source: 'https://www.gist.ac.kr/iuadm/html/sub04/0401.html?mode=V&no=222779', verified: '2026-10-01', note: 'The closing time is given in the guideline PDF, which was not read during this check.' }
+    "platforms": [
+      "GIST international undergraduate application"
     ],
-    applicationFee: { amount: null, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'Not confirmed during this check.' },
-    documents: ['School transcripts and graduation certificate', 'Official English test score unless exempt', 'Documents listed in the admission guideline'],
-    recommendations: null,
-    essay: null,
-    interview: null,
-    notes: ['Applicants from countries without an official English test, or in unavoidable circumstances, can be admitted conditionally and have six months to submit the score.']
+    "deadlines": [
+      {
+        "name": "International undergraduate admission (Fall 2027)",
+        "kind": "application-window",
+        "entryTerm": "Fall",
+        "entryYear": "2027",
+        "dateISO": "2027-01-29",
+        "date": "1 December 2026 – 29 January 2027",
+        "timezone": "KST",
+        "binding": false,
+        "appliesTo": "International undergraduate applicants",
+        "conditions": "GIST announced this application period with its 2027 Fall Undergraduate Admission Guideline; applications go through the GIST application system. No changes are allowed after the deadline.",
+        "status": "confirmed",
+        "source": "https://www.gist.ac.kr/iuadm/html/sub04/0401.html?mode=V&no=222779",
+        "verified": "2026-10-01",
+        "note": "The closing time is given in the guideline PDF, which was not read during this check."
+      }
+    ],
+    "applicationFee": {
+      "amount": null,
+      "currency": "KRW",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Not confirmed during this check."
+    },
+    "documents": [
+      "School transcripts and graduation certificate",
+      "Official English test score unless exempt",
+      "Documents listed in the admission guideline"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": [
+      "The IELTS 6.5 / TOEFL 80 source belongs to International Graduate Admissions. Its waiver and conditional-score rules cannot establish requirements for a first-year bachelor applicant. The Fall 2027 undergraduate English minimum remains unconfirmed."
+    ]
   },
   english: {
-    ielts: { min: 6.5, recommended: null, note: 'IELTS 6.5 is listed as the minimum accepted English score for international applicants.' },
-    toefl: { min: 80, recommended: null, scales: [{ period: 'pre2026', min: 80, recommended: null }], note: 'TOEFL iBT 80 (or PBT 550) is the published minimum; TOEIC 750 and TEPS 285 are also accepted.' },
-    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    waiver: 'Applicants holding a bachelor degree or higher from a university in Australia, Canada, Ireland, New Zealand, the UK or the USA can be exempted with prior GIST approval.',
-    note: 'Conditional admission is possible where an official test is unavailable, with six months to provide the score.'
+    "ielts": {
+      "min": null,
+      "recommended": null,
+      "status": "not-checked",
+      "note": "The IELTS 6.5 / TOEFL 80 source belongs to International Graduate Admissions. Its waiver and conditional-score rules cannot establish requirements for a first-year bachelor applicant. The Fall 2027 undergraduate English minimum remains unconfirmed.",
+      "source": "https://www.gist.ac.kr/iadm/html/sub02/0203.html",
+      "verified": "2026-11-17"
+    },
+    "toefl": {
+      "min": null,
+      "recommended": null,
+      "status": "not-checked",
+      "scales": [],
+      "note": "The IELTS 6.5 / TOEFL 80 source belongs to International Graduate Admissions. Its waiver and conditional-score rules cannot establish requirements for a first-year bachelor applicant. The Fall 2027 undergraduate English minimum remains unconfirmed."
+    },
+    "waiver": null,
+    "note": "The IELTS 6.5 / TOEFL 80 source belongs to International Graduate Admissions. Its waiver and conditional-score rules cannot establish requirements for a first-year bachelor applicant. The Fall 2027 undergraduate English minimum remains unconfirmed."
   },
   academics: {
     gpa: null,
@@ -1101,28 +1426,74 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Applicants normally need 12 years of school education completed outside Korea, or an equivalent qualification.'
   },
   costs: {
-    breakdown: { tuition: 7214000, includes: 'tuition of ₩3,607,000 per semester, which GIST states is fully supported for admitted international students; a one-time matriculation fee of ₩680,000 applies to new students unless exempt' },
-    academicYear: '2026–2027',
-    currency: 'KRW',
-    headline: '₩3,607,000 tuition per semester — fully supported',
-    items: [
-      { label: 'Tuition (per semester)', amount: 3607000 },
-      { label: 'Matriculation fee (one-time, new students)', amount: 680000 }
-    ],
-    billedSubtotal: null,
-    totalText: '₩7,214,000 a year in tuition, which GIST states is fully supported for admitted international students',
-    note: 'Full tuition support does not cover housing, food or personal costs.'
+    "breakdown": {},
+    "academicYear": "2026–2027",
+    "currency": "KRW",
+    "headline": "Undergraduate annual cost not confirmed",
+    "items": [],
+    "billedSubtotal": null,
+    "totalText": null,
+    "note": "The previous ₩3,607,000 per-semester tuition and ₩680,000 matriculation figures came from the graduate financial-support page. They are retained here as graduate-context figures and cannot price a Fall 2027 bachelor year. Undergraduate scholarship coverage requires the undergraduate guide.",
+    "status": "not-checked",
+    "source": "https://www.gist.ac.kr/iadm/html/sub04/0401.html",
+    "verified": "2026-11-17"
   },
   scholarships: {
-    fullRide: { available: false, internationalEligible: true, basis: 'merit', covers: { tuition: true, housing: false, meals: false, insurance: false, books: false }, renewable: true, competitiveness: 'GIST states that all admitted international undergraduates are selected as government-funded scholars.', howToApply: 'Applied through the admission process.', note: 'Tuition is fully supported and supplementary scholarships exist, but housing, food and personal costs are not confirmed as covered, so this is not stated as a full ride.' },
-    merit: [ { name: 'Government-funded scholar status for admitted international undergraduates', amount: 'Full tuition support (₩3,607,000 per semester)', eligibility: 'All admitted international undergraduate students', deadline: null, application: 'Automatic on admission', renewable: true, note: 'GIST also lists supplementary scholarships.' } ],
-    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": "merit",
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": true,
+      "competitiveness": "GIST states that all admitted international undergraduates are selected as government-funded scholars.",
+      "howToApply": "Applied through the admission process.",
+      "note": "The previous ₩3,607,000 per-semester tuition and ₩680,000 matriculation figures came from the graduate financial-support page. They are retained here as graduate-context figures and cannot price a Fall 2027 bachelor year. Undergraduate scholarship coverage requires the undergraduate guide."
+    },
+    "merit": [
+      {
+        "name": "Government-funded scholar status for admitted international undergraduates",
+        "amount": "Undergraduate coverage not confirmed",
+        "eligibility": "All admitted international undergraduate students",
+        "deadline": null,
+        "application": "Check the undergraduate guide",
+        "renewable": true,
+        "note": "The previous ₩3,607,000 per-semester tuition and ₩680,000 matriculation figures came from the graduate financial-support page. They are retained here as graduate-context figures and cannot price a Fall 2027 bachelor year. Undergraduate scholarship coverage requires the undergraduate guide.",
+        "internationalEligible": null
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": false,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Not confirmed during this check."
+    }
   },
   photos: { main: null, gallery: [], city: null },
   sources: [
-    { label: 'GIST scholarships and financial support', url: 'https://www.gist.ac.kr/iadm/html/sub04/0401.html' },
-    { label: '2026 Fall undergraduate admission guideline (PDF)', url: 'https://ipa.gist.ac.kr/iuadm/img/main/2026_Fall_Undergraduate_Admission_Guideline.pdf' },
-    { label: 'International admissions', url: 'https://ewww.gist.ac.kr/iadm/main.html' }
+    {
+      "label": "GIST scholarships and financial support",
+      "url": "https://www.gist.ac.kr/iadm/html/sub04/0401.html"
+    },
+    {
+      "label": "2026 Fall undergraduate admission guideline (PDF)",
+      "url": "https://ipa.gist.ac.kr/iuadm/img/main/2026_Fall_Undergraduate_Admission_Guideline.pdf"
+    },
+    {
+      "label": "International admissions",
+      "url": "https://ewww.gist.ac.kr/iadm/main.html"
+    },
+    {
+      "label": "Graduate scope of the former English source",
+      "url": "https://www.gist.ac.kr/iadm/html/sub02/0203.html"
+    }
   ],
   verification: { level: 'partial', checked: ['English requirements and exemptions','tuition and its support','matriculation fee'], unconfirmed: ['2027 application dates','application fee','what scholarships cover beyond tuition'] },
   lastVerified: '2026-09-23'
@@ -1694,12 +2065,12 @@ window.UNIPATH.universities.push(
   englishTaughtPrograms: [],
   programNote: 'DGIST describes itself as a convergence university with a single undergraduate school; how much of the degree is taught in English was not confirmed during this check.',
   links: {
-    website: 'https://www.dgist.ac.kr/eng/',
-    admissions: 'https://www.dgist.ac.kr/iuadm/index.do',
-    applicationPortal: 'https://www.dgist.ac.kr/iuadm/index.do',
-    scholarships: 'https://ibom.dgist.ac.kr/iuadm/sub04_01.do',
-    cost: 'https://www.dgist.ac.kr/eng/sub05_03_02_02.do',
-    programs: 'https://www.dgist.ac.kr/en_college/sub06_05.do'
+    "website": "https://www.dgist.ac.kr/eng/",
+    "admissions": "https://www.dgist.ac.kr/iuadm/index.do",
+    "applicationPortal": "https://www.dgist.ac.kr/iuadm/index.do",
+    "scholarships": "https://www.dgist.ac.kr/iuadm/sub04_01.do",
+    "cost": "https://www.dgist.ac.kr/eng/sub05_03_02_02.do",
+    "programs": "https://www.dgist.ac.kr/en_college/sub06_05.do"
   },
   admissions: {
     platforms: ['DGIST international undergraduate application'],
@@ -1759,10 +2130,22 @@ window.UNIPATH.universities.push(
   },
   photos: { main: null, gallery: [], city: null },
   sources: [
-    { label: 'DGIST international undergraduate admissions', url: 'https://www.dgist.ac.kr/iuadm/index.do' },
-    { label: 'Scholarships and student support', url: 'https://ibom.dgist.ac.kr/iuadm/sub04_01.do' },
-    { label: 'Undergraduate financial aid and scholarships', url: 'https://www.dgist.ac.kr/eng/sub05_03_02_02.do' },
-    { label: 'About — history and facts', url: 'https://www.dgist.ac.kr/eng/sub01_02_02.do' }
+    {
+      "label": "DGIST international undergraduate admissions",
+      "url": "https://www.dgist.ac.kr/iuadm/index.do"
+    },
+    {
+      "label": "Scholarships and student support",
+      "url": "https://www.dgist.ac.kr/iuadm/sub04_01.do"
+    },
+    {
+      "label": "Undergraduate financial aid and scholarships",
+      "url": "https://www.dgist.ac.kr/eng/sub05_03_02_02.do"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.dgist.ac.kr/eng/sub01_02_02.do"
+    }
   ],
   verification: { level: 'partial', checked: ['tuition per semester and per year','full tuition waiver for international students','monthly scholarships and conditions'], unconfirmed: ['language of instruction share','English requirements','deadlines'] },
   lastVerified: '2026-09-23'
@@ -2560,7 +2943,8 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": null,
     "totalText": "$11,775 per semester as listed for Fall 2026; course fees, dormitory and living costs are extra",
-    "note": "SUNY Korea’s tuition installment plan gives the Fall 2026 semester balance as $11,775, so the listed figure is for one semester. Dormitory rates are published by the Incheon Global Campus."
+    "note": "SUNY Korea’s tuition installment plan gives the Fall 2026 semester balance as $11,775, so the listed figure is for one semester. Dormitory rates are published by the Incheon Global Campus.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {

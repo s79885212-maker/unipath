@@ -1,9 +1,11 @@
 """Read official pages in the selected profiles. Store text for field-level review."""
 from pathlib import Path
 from html.parser import HTMLParser
-import json,urllib.request,urllib.error,concurrent.futures as cf,hashlib,re,time
+import json,urllib.request,urllib.error,concurrent.futures as cf,hashlib,re,time,gzip,subprocess
 ROOT=Path('research/six-country-audit')
-rows=json.loads(Path('../six-country-selected.json').read_text(encoding='utf-8'))
+selected=set(' '.join(json.loads((ROOT/'selection.json').read_text(encoding='utf-8')).values()).split())
+loader="""const fs=require('fs'),vm=require('vm'),path=require('path');const mod={exports:{}};const pre=fs.readFileSync('tests/run.js','utf8').split('var failed = 0, passed = 0;')[0];vm.runInNewContext(pre,{require,__dirname:path.resolve('tests'),module:mod,console,process,setTimeout,clearTimeout});process.stdout.write(JSON.stringify(mod.exports.DB.universities));"""
+rows=[u for u in json.loads(subprocess.check_output(['node','-e',loader],text=True,encoding='utf-8')) if u['id'] in selected]
 class Text(HTMLParser):
     def __init__(self):super().__init__();self.depth=0;self.parts=[]
     def handle_starttag(self,t,a):
@@ -39,7 +41,8 @@ def read(url):
     try:
         req=urllib.request.Request(url,headers={'User-Agent':'UniPath official-source audit'})
         with urllib.request.urlopen(req,timeout=14) as f:
-            content=f.read(6000000);out.update(status=f.status,final=f.url)
+            content=f.read(16000000);out.update(status=f.status,final=f.url)
+            if content.startswith(b'\x1f\x8b'):content=gzip.decompress(content)
             pdf=content.startswith(b'%PDF')
             if pdf:
                 import io

@@ -10725,7 +10725,15 @@ window.UNIPATH.universities.push(
         "status": "confirmed",
         "source": "https://wooster.edu/admissions/international-students",
         "verified": "2026-10-01",
-        "note": null
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://wooster.edu/admissions/international-students",
+          "verified": "2026-11-17",
+          "quote": "Fall 2027 start"
+        }
       },
       {
         "name": "Early Action",
@@ -10740,7 +10748,15 @@ window.UNIPATH.universities.push(
         "status": "confirmed",
         "source": "https://wooster.edu/admissions/international-students",
         "verified": "2026-10-01",
-        "note": null
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://wooster.edu/admissions/international-students",
+          "verified": "2026-11-17",
+          "quote": "Fall 2027 start"
+        }
       },
       {
         "name": "Early Decision II",
@@ -10755,7 +10771,15 @@ window.UNIPATH.universities.push(
         "status": "confirmed",
         "source": "https://wooster.edu/admissions/international-students",
         "verified": "2026-10-01",
-        "note": null
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://wooster.edu/admissions/international-students",
+          "verified": "2026-11-17",
+          "quote": "Fall 2027 start"
+        }
       },
       {
         "name": "Regular Decision",
@@ -10770,7 +10794,15 @@ window.UNIPATH.universities.push(
         "status": "confirmed",
         "source": "https://wooster.edu/admissions/international-students",
         "verified": "2026-10-01",
-        "note": null
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://wooster.edu/admissions/international-students",
+          "verified": "2026-11-17",
+          "quote": "Fall 2027 start"
+        }
       },
       {
         "name": "Regular Decision — spring 2027 start",
@@ -10785,7 +10817,15 @@ window.UNIPATH.universities.push(
         "status": "confirmed",
         "source": "https://wooster.edu/admissions/international-students",
         "verified": "2026-10-01",
-        "note": null
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Spring",
+          "entryYear": "2027",
+          "source": "https://wooster.edu/admissions/international-students",
+          "verified": "2026-11-17",
+          "quote": "Spring 2027 start"
+        }
       }
     ],
     "applicationFee": {
@@ -10843,30 +10883,34 @@ window.UNIPATH.universities.push(
   },
   "costs": {
     "breakdown": {
-      "tuition": 66290,
-      "billed": 82340,
-      "includes": "tuition and fees, a standard double room and the meal plan"
+      "tuition": 67730,
+      "tuitionLabel": "Tuition and fees",
+      "billed": 84462,
+      "period": "year"
     },
-    "academicYear": "2026–2027",
+    "academicYear": "2027–2028",
     "currency": "USD",
-    "headline": "$82,340 comprehensive fee",
+    "headline": "$84,462 comprehensive fee for 2027–28",
     "items": [
       {
         "label": "Tuition and fees",
-        "amount": 66290
+        "amount": 67730
       },
       {
-        "label": "Housing (standard double)",
-        "amount": 7835
+        "label": "Standard double room",
+        "amount": 8188
       },
       {
         "label": "Meal plan",
-        "amount": 8215
+        "amount": 8544
       }
     ],
-    "totalText": "$82,340 comprehensive fee before aid",
-    "note": "Books, travel and personal costs are extra.",
-    "billedSubtotal": 82340
+    "totalText": null,
+    "note": "The 2027–28 published comprehensive fee covers tuition, fees, a standard double room and the meal plan. Insurance, books, travel and personal costs require a separate budget. Scholarships depend on the admission review.",
+    "billedSubtotal": null,
+    "source": "https://wooster.edu/admissions/scholarship-aid",
+    "verified": "2026-11-17",
+    "status": "confirmed"
   },
   "scholarships": {
     "fullRide": {
@@ -11398,33 +11442,71 @@ window.UNIPATH.universities.push(
     "internationalQualifications": null
   },
   "costs": {
-      "breakdown": {
-        "tuition": 61998,
-        "billed": 74757,
-        "budget": 78217,
-        "includes": "tuition, room and board and fees are charged by Knox; the estimate adds books, transportation and personal expenses"
-      },
-      "academicYear": "2026–2027",
-      "currency": "USD",
-      "headline": "$74,757 in tuition, room, board and fees",
-      source: "https://www.knox.edu/admission/cost-and-financial-aid",
-      verified: "2026-10-11",
-      studentCategory: "Full-time undergraduates living on campus",
-      items: [
-        {"label": "Tuition", "amount": 61998, "group": "billed"},
-        {"label": "Room and board", "amount": 11862, "group": "billed"},
-        {"label": "Fees", "amount": 897, "group": "billed"},
-        {"label": "Books, materials and equipment", "amount": 1200, "group": "estimate"},
-        {"label": "Average transportation", "amount": 750, "group": "estimate"},
-        {"label": "Miscellaneous personal expenses", "amount": 1000, "group": "estimate"},
-        {"label": "Average loan fees", "amount": 78, "group": "estimate", "note": "Counted in the published total; it applies to students who borrow."},
-        {"label": "Additional food allowance", "amount": 152, "group": "estimate"},
-        {"label": "Additional average housing", "amount": 280, "group": "estimate"}
-      ],
-      "totalText": "$74,757 charged by Knox; $78,217 estimated cost of attendance on campus",
-      "note": "Knox advises families to expect annual increases of 4% to 6%.",
-      "billedSubtotal": 74757
+    "breakdown": {
+      "tuition": 61998,
+      "billed": 74757,
+      "budget": 78217,
+      "includes": "tuition, room and board and fees are charged by Knox; the estimate adds books, transportation and personal expenses"
     },
+    "academicYear": "2026–2027",
+    "currency": "USD",
+    "headline": "$74,757 in tuition, room, board and fees",
+    "source": "https://www.knox.edu/admission/cost-and-financial-aid",
+    "verified": "2026-10-11",
+    "studentCategory": "Full-time undergraduates living on campus",
+    "items": [
+      {
+        "label": "Tuition",
+        "amount": 61998,
+        "group": "billed"
+      },
+      {
+        "label": "Room and board",
+        "amount": 11862,
+        "group": "billed"
+      },
+      {
+        "label": "Fees",
+        "amount": 897,
+        "group": "billed"
+      },
+      {
+        "label": "Books, materials and equipment",
+        "amount": 1200,
+        "group": "estimate"
+      },
+      {
+        "label": "Average transportation",
+        "amount": 750,
+        "group": "estimate"
+      },
+      {
+        "label": "Miscellaneous personal expenses",
+        "amount": 1000,
+        "group": "estimate"
+      },
+      {
+        "label": "Average loan fees",
+        "amount": 78,
+        "group": "estimate",
+        "note": "Counted in the published total; it applies to students who borrow."
+      },
+      {
+        "label": "Additional food allowance",
+        "amount": 152,
+        "group": "estimate"
+      },
+      {
+        "label": "Additional average housing",
+        "amount": 280,
+        "group": "estimate"
+      }
+    ],
+    "totalText": "$74,757 charged by Knox; $78,217 estimated cost of attendance on campus",
+    "note": "Knox advises families to expect annual increases of 4% to 6%.",
+    "billedSubtotal": 74757,
+    "status": "previous-cycle"
+  },
   "scholarships": {
     "fullRide": {
       "available": null,
@@ -11671,51 +11753,53 @@ window.UNIPATH.universities.push(
   },
   "costs": {
     "breakdown": {
-      "tuition": 63792,
-      "billed": 77532,
-      "budget": 83620,
-      "includes": "tuition, the activity fee, housing, food and health fees are direct costs; the total adds health insurance, books and personal expenses"
+      "tuition": 65578,
+      "billed": 80542,
+      "period": "year"
     },
-    "academicYear": "2026–2027",
+    "academicYear": "2027–2028",
     "currency": "USD",
-    "headline": "$77,532 direct costs · $83,620 with indirect costs",
+    "headline": "2027–28 direct costs: $80,542",
     "items": [
       {
         "label": "Tuition",
-        "amount": 63792
+        "amount": 65578
       },
       {
         "label": "Student activity fee",
         "amount": 280
       },
       {
-        "label": "Housing (double occupancy)",
-        "amount": 6882
+        "label": "Housing",
+        "amount": 7158
       },
       {
-        "label": "Food (full meal plan, required in the first year)",
-        "amount": 6314
+        "label": "Food",
+        "amount": 7262
       },
       {
-        "label": "Health and wellness fees",
+        "label": "Health and wellness fee",
         "amount": 264
       },
       {
         "label": "Health insurance",
-        "amount": 2556
+        "amount": 2900
       },
       {
-        "label": "Books, course materials, supplies and equipment (estimate)",
-        "amount": 1221
+        "label": "Books and supplies",
+        "amount": 1222
       },
       {
-        "label": "Personal expenses (estimate)",
-        "amount": 2311
+        "label": "Personal expenses",
+        "amount": 1738
       }
     ],
-    "totalText": "$77,532 in direct costs, plus $6,088 in indirect costs",
-    "note": "All international students must purchase the college’s health insurance.",
-    "billedSubtotal": 77532
+    "totalText": null,
+    "note": "The college publishes $80,542 direct costs and $5,860 indirect costs for 2027–28. Transportation adds a separate $300–$2,600 estimate. These amounts are before individual scholarships and do not establish a confirmed full international budget.",
+    "billedSubtotal": null,
+    "source": "https://www.beloit.edu/offices/financial-aid/cost-of-attendance/",
+    "verified": "2026-11-17",
+    "status": "confirmed"
   },
   "scholarships": {
     "fullRide": {

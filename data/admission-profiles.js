@@ -1447,8 +1447,8 @@
       waiver: 'No Japanese is required to apply, but ELBA students must complete the Japanese Language Program and take some Japanese-taught courses to graduate.'
     },
     academics: {
-      sat: { policy: 'required', note: 'Type A applicants must submit SAT or ACT scores (no published minimum). Type B applicants are interviewed instead.' },
-      act: { policy: 'required', note: 'Type A applicants: SAT or ACT required.' },
+      sat: { policy: 'conditional', note: 'Type A applicants must submit SAT or ACT scores (no published minimum). Type B applicants are interviewed instead.' },
+      act: { policy: 'conditional', note: 'Type A applicants: SAT or ACT required.' },
       otherTests: 'Only the full IB Diploma is accepted — IB Course Certificates and the IBCP are not.'
     },
     admissions: {
@@ -1791,15 +1791,6 @@
       note: 'Waseda publishes exact fees per school in a PDF on its International Admissions "Tuition and Visa" page. The range above is the university\'s own summary. All Waseda scholarships are partial.'
     },
     sources: [{ label: 'Waseda International Admissions — Tuition and Visa', url: 'https://www.waseda.jp/inst/admission/en/other/tuition/' }]
-  });
-
-  patch('keio-university', {
-    admissions: {},
-    academics: {
-      sat: { policy: 'required-alternatives', note: 'Applicants submit IB, SAT or ACT scores (or national exam results such as A-Levels or the Abitur). Keio states there are no cut-off IB, SAT or ACT scores; paper and digital SAT count equally.' },
-      act: { policy: 'accepted', note: 'Accepted; no cut-off score.' }
-    },
-    sources: [{ label: 'Keio PEARL application guidebook (PDF)', url: 'https://www.keio.ac.jp/en/admissions/undergraduate/pearl/application_guidebook.pdf' }]
   });
 
   patch('sophia-university', {
