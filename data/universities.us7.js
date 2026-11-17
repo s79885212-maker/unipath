@@ -2312,7 +2312,7 @@ window.UNIPATH.universities.push(
       }
     ],
     "billedSubtotal": 57863,
-    "totalText": "$62,463 before aid (calculated by UniPath)",
+    "totalText": null,
     "note": "2027–28 international undergraduate estimate before scholarships, with a double room and a full meal plan. UniPath adds the university’s $57,863 direct and $4,600 indirect costs. The refundable housing deposit and programme-specific charges may affect initial cash needs.",
     "status": "confirmed"
   },

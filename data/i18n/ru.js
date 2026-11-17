@@ -19146,7 +19146,6 @@ window.UNIPATH_I18N.ru = {
   "WVU scholarship renewal requirements": "Требования WVU к продлению стипендии",
   "Morgantown, 2027–28: base tuition and university fees. Programme charges and living expenses are separate.": "Morgantown, 2027/28: базовая плата за обучение и университетские сборы. Сборы программы и расходы на жизнь оплачиваются отдельно.",
   "Affordability of the full year has not been confirmed.": "Доступность полного года по бюджету не подтверждена.",
-  "$62,463 before aid (calculated by UniPath)": "$62 463 до помощи (расчёт UniPath)",
   "2026–27 international undergraduate estimate: $71,878": "Смета для иностранного бакалавриата на 2026/27 — $71 878",
   "2027–28 estimate: $56,975 before transportation": "Оценка на 2027/28 — $56 975 без проезда",
   "2027–28 international undergraduate estimate before aid": "Смета для иностранного бакалавриата на 2027/28 до помощи",
