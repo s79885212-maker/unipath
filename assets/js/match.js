@@ -247,6 +247,9 @@
       both.max = figures[figures.length - 1].amount;
       return both;
     }
+    if (!has(c.academicYear) && has(U.costYear(u))) {
+      c = Object.assign({}, c, { academicYear: U.costYear(u) });
+    }
     var ex = c.basis === 'total' && !c.label ? U.costExtras(u) : [];
     if (!ex.length) return c;
     var out = {};
@@ -369,6 +372,7 @@
     if (has(c.academicYear) && has(c.note)) {
       label += '. Scope: ' + c.note;
     }
+    if (has(c.academicYear)) label += '. Academic year: ' + c.academicYear;
     return label;
   }
 

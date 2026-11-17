@@ -1,5 +1,7 @@
 module.exports = function (env) {
   const {U,DB,M,ok}=env;
+  ok(['korea-university','sungkyunkwan-university'].every(id=>U.costStatus(U.uniById(id))==='previous-cycle'),
+     'Admission-profile overlays retain the historical status of Korean 2026 fee tables');
   const keio=U.uniById('keio-university');
   ok(keio.academics.act.policy==='not-used' && /IB Diploma/.test(keio.academics.sat.note) &&
      U.roundsOf(keio).filter(d=>/PEARL 2027 application/.test(d.name)).every(d=>d.time==='15:00' && d.timezone==='JST' && U.roundStatus(d)==='confirmed'),
@@ -23,6 +25,8 @@ module.exports = function (env) {
     ok(M.evaluate(u,input).budget.status==='unknown','A cost from a different academic year cannot confirm a selected Fall 2027 budget');
     price.academicYear=u.costs.academicYear='2027–2028';
     ok(M.evaluate(u,input).budget.status==='fits','Same-year full cost matches exactly at the cap');
+    ok(M.evaluate(u,input).budget.text.includes('Academic year: 2027–2028'),
+       'A numeric cost keeps its academic year in the matching explanation without needing a scope note');
     price.min=price.max=35001;
     ok(M.evaluate(u,input).budget.status==='over','A same-year full cost above the cap is rejected');
     price.min=price.max=30000;price.basis='tuition';

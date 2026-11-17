@@ -1899,6 +1899,7 @@
   patch('korea-university', {
     admissions: {},
     costs: {
+      status: 'previous-cycle',
       academicYear: '2026 academic year',
       currency: 'KRW',
       headline: '≈ ₩5.8m–7.8m per semester',
@@ -1959,6 +1960,7 @@
       act: { policy: 'accepted', note: 'Accepted as an academic reference.' }
     },
     costs: {
+      status: 'previous-cycle',
       academicYear: 'First semester 2026 (freshmen)',
       currency: 'KRW',
       headline: '≈ ₩5.4m–8.3m first semester',

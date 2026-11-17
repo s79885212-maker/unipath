@@ -138,7 +138,7 @@ window.UNIPATH.universities.push(
       {
         "name": "Early admission — application period",
         "kind": "round-1",
-        "entryTerm": "Spring",
+        "entryTerm": "Spring or Fall",
         "entryYear": "2027",
         "dateISO": "2026-10-22",
         "date": "22 September – 22 October 2026",
@@ -149,8 +149,16 @@ window.UNIPATH.universities.push(
         "conditions": "Closes at 18:00 KST. Recommendation letters by 29 October; interviews, if needed, on 22 December 2026; decision on 7 January 2027 at 10:00 KST; reply before February.",
         "status": "confirmed",
         "source": "https://admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline",
-        "verified": "2026-09-24",
-        "note": null
+        "verified": "2026-11-17",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Spring or Fall",
+          "entryYear": "2027",
+          "source": "https://admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline",
+          "verified": "2026-11-17",
+          "quote": "Application Timeline for 2027 Admissions"
+        }
       },
       {
         "name": "Regular admission — application period",
@@ -1133,33 +1141,114 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Applicants normally need 12 years of school education completed outside Korea (or an equivalent qualification); Korean universities also set separate rules for applicants of overseas Korean descent.'
   },
   costs: {
-    breakdown: { tuition: 3316500, tuitionText: '\u20a93,316,500 per semester for engineering (\u20a92,795,500 for business), fully waived for new international students', period: 'semester', includes: 'the published semester tuition before the waiver; accommodation, food and insurance are handled by the separate living scholarships', published: true },
-    academicYear: '2026\u20132027',
-    currency: 'KRW',
-    headline: '\u20a93,316,500 per semester, waived for new international students',
-    items: [
-      { label: 'Tuition \u2014 engineering (per semester)', amount: 3316500 },
-      { label: 'Tuition \u2014 business (per semester)', amount: 2795500 },
-      { label: 'Tuition actually paid by a new international student', amount: 0 }
+    "breakdown": {
+      "tuition": 3316500,
+      "tuitionText": "₩3,316,500 per semester for engineering (₩2,795,500 for business), fully waived for new international students",
+      "period": "semester",
+      "includes": "the published semester tuition before the waiver; accommodation, food and insurance are handled by the separate living scholarships",
+      "published": true
+    },
+    "academicYear": "2026–2027",
+    "currency": "KRW",
+    "headline": "₩3,316,500 per semester, waived for new international students",
+    "items": [
+      {
+        "label": "Tuition — engineering (per semester)",
+        "amount": 3316500
+      },
+      {
+        "label": "Tuition — business (per semester)",
+        "amount": 2795500
+      },
+      {
+        "label": "Tuition actually paid by a new international student",
+        "amount": 0
+      }
     ],
-    billedSubtotal: null,
-    totalText: 'Published tuition is \u20a93,316,500 a semester for engineering and \u20a92,795,500 for business, and every freshman international student receives a full tuition scholarship',
-    note: 'From the second year the waiver is full with 12 or more credits and a GPA of 2.7 or above, and half with a GPA of 2.0 or above. UNIST separately pays a living scholarship of \u20a9130,000 to \u20a9630,000 a month with meals, and reimburses health insurance of \u20a975,000 a month. Other living costs in Ulsan are extra.',
-    source: 'http://admu-intl.unist.ac.kr/admission-eng/life/scholarships.do',
-    verified: '2026-09-24'
+    "billedSubtotal": null,
+    "totalText": "Published tuition is ₩3,316,500 a semester for engineering and ₩2,795,500 for business, and every freshman international student receives a full tuition scholarship",
+    "note": "All international freshmen receive a full tuition waiver in their first semester. For their second semester, the published freshman exception requires 12 credits and GPA 2.0 for full tuition support. After that, 12 credits and GPA 2.7 qualify for a full waiver, while GPA 2.0 qualifies for half. Living-scholarship tiers are assigned on admission and have their own renewal criteria. Meals mean two per day during the semester. Health-insurance payments of KRW 75,000/month are reimbursed against proof. Housing and personal costs remain separate.",
+    "source": "https://admu-intl.unist.ac.kr/admission-eng/life/scholarships.do",
+    "verified": "2026-11-17"
   },
   scholarships: {
-    fullRide: { available: false, internationalEligible: true, basis: 'merit', covers: { tuition: true, housing: false, meals: true, insurance: true, books: false }, renewable: true, competitiveness: 'Every freshman receives the full tuition scholarship; the living scholarship tier is set by UNIST on acceptance.', howToApply: 'Applied automatically to admitted international students.', note: 'Tuition, two meals a day and health insurance are covered, and a monthly stipend is paid, but accommodation and other personal costs are not listed as covered, so UNIST does not describe this as a full ride.' },
-    merit: [
-      { name: 'International undergraduate tuition waiver', amount: 'Full tuition in the first year; later full or half by results', eligibility: 'Newly admitted international undergraduates; from the second year, 12+ credits with GPA 2.7+ for a full waiver or GPA 2.0+ for a half waiver', deadline: null, application: 'Automatic', renewable: true, note: null },
-      { name: 'Global Uni-Star Scholarship (Gold)', amount: '\u20a9630,000 a month with meals', eligibility: 'Tier set by UNIST when the offer is made', deadline: null, application: 'Automatic', renewable: true, note: 'Renewal needs at least 12 credits and a GPA between 2.0 and 2.7 depending on the tier.' },
-      { name: 'Global Uni-Star Scholarship (Silver)', amount: '\u20a9330,000 a month with meals', eligibility: 'Tier set by UNIST when the offer is made', deadline: null, application: 'Automatic', renewable: true, note: null },
-      { name: 'Global Dream Scholarship', amount: '\u20a9130,000 a month with meals', eligibility: 'Tier set by UNIST when the offer is made', deadline: null, application: 'Automatic', renewable: true, note: null },
-      { name: 'Health insurance reimbursement', amount: '\u20a975,000 a month, reimbursed on proof of payment', eligibility: 'International undergraduate students', deadline: null, application: null, renewable: true, note: null }
+    "fullRide": {
+      "available": false,
+      "internationalEligible": true,
+      "basis": "merit",
+      "covers": {
+        "tuition": true,
+        "housing": false,
+        "meals": true,
+        "insurance": true,
+        "books": false
+      },
+      "renewable": true,
+      "competitiveness": "Every freshman receives the full tuition scholarship; the living scholarship tier is set by UNIST on acceptance.",
+      "howToApply": "Applied automatically to admitted international students.",
+      "note": "All international freshmen receive a full tuition waiver in their first semester. For their second semester, the published freshman exception requires 12 credits and GPA 2.0 for full tuition support. After that, 12 credits and GPA 2.7 qualify for a full waiver, while GPA 2.0 qualifies for half. Living-scholarship tiers are assigned on admission and have their own renewal criteria. Meals mean two per day during the semester. Health-insurance payments of KRW 75,000/month are reimbursed against proof. Housing and personal costs remain separate.",
+      "source": "https://admu-intl.unist.ac.kr/admission-eng/life/scholarships.do",
+      "verified": "2026-11-17"
+    },
+    "merit": [
+      {
+        "name": "International undergraduate tuition waiver",
+        "amount": "Full tuition in semester one; conditional renewal from semester two",
+        "eligibility": "All international freshmen receive a full tuition waiver in their first semester. For their second semester, the published freshman exception requires 12 credits and GPA 2.0 for full tuition support. After that, 12 credits and GPA 2.7 qualify for a full waiver, while GPA 2.0 qualifies for half. Living-scholarship tiers are assigned on admission and have their own renewal criteria. Meals mean two per day during the semester. Health-insurance payments of KRW 75,000/month are reimbursed against proof. Housing and personal costs remain separate.",
+        "deadline": null,
+        "application": "Automatic",
+        "renewable": true,
+        "note": "All international freshmen receive a full tuition waiver in their first semester. For their second semester, the published freshman exception requires 12 credits and GPA 2.0 for full tuition support. After that, 12 credits and GPA 2.7 qualify for a full waiver, while GPA 2.0 qualifies for half. Living-scholarship tiers are assigned on admission and have their own renewal criteria. Meals mean two per day during the semester. Health-insurance payments of KRW 75,000/month are reimbursed against proof. Housing and personal costs remain separate.",
+        "source": "https://admu-intl.unist.ac.kr/admission-eng/life/scholarships.do",
+        "verified": "2026-11-17"
+      },
+      {
+        "name": "Global Uni-Star Scholarship (Gold)",
+        "amount": "₩630,000 a month with meals",
+        "eligibility": "Tier set by UNIST when the offer is made",
+        "deadline": null,
+        "application": "Automatic",
+        "renewable": true,
+        "note": "Renewal needs at least 12 credits and a GPA between 2.0 and 2.7 depending on the tier."
+      },
+      {
+        "name": "Global Uni-Star Scholarship (Silver)",
+        "amount": "₩330,000 a month with meals",
+        "eligibility": "Tier set by UNIST when the offer is made",
+        "deadline": null,
+        "application": "Automatic",
+        "renewable": true,
+        "note": null
+      },
+      {
+        "name": "Global Dream Scholarship",
+        "amount": "₩130,000 a month with meals",
+        "eligibility": "Tier set by UNIST when the offer is made",
+        "deadline": null,
+        "application": "Automatic",
+        "renewable": true,
+        "note": null
+      },
+      {
+        "name": "Health insurance reimbursement",
+        "amount": "₩75,000 a month, reimbursed on proof of payment",
+        "eligibility": "International undergraduate students",
+        "deadline": null,
+        "application": null,
+        "renewable": true,
+        "note": null
+      }
     ],
-    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'UNIST awards these on admission and academic results rather than on financial need.' },
-    source: 'http://admu-intl.unist.ac.kr/admission-eng/life/scholarships.do',
-    verified: '2026-09-24'
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": false,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "UNIST awards these on admission and academic results rather than on financial need."
+    },
+    "source": "http://admu-intl.unist.ac.kr/admission-eng/life/scholarships.do",
+    "verified": "2026-09-24"
   },
   photos: { main: null, gallery: [], city: null },
   sources: [
@@ -1345,7 +1434,7 @@ window.UNIPATH.universities.push(
   region: 'Gwangju',
   type: 'National research university (science and engineering)',
   brand: { c1: '#00539b', c2: '#002b52', initials: 'GIS' },
-  description: 'A national science and engineering institute in Gwangju with a small English-taught undergraduate school, where admitted international students are selected as government-funded scholars.',
+  description: "A national science and engineering institute in Gwangju. The bachelor admission route has its own guide; graduate funding and English-score rules do not establish undergraduate eligibility.",
   englishTaught: true,
   languageOfInstruction: 'English',
   programs: ['engineering','computer-science','biology','mathematics'],
@@ -1451,15 +1540,15 @@ window.UNIPATH.universities.push(
         "books": null
       },
       "renewable": true,
-      "competitiveness": "GIST states that all admitted international undergraduates are selected as government-funded scholars.",
+      "competitiveness": "Undergraduate scholarship eligibility and coverage require the current undergraduate guide.",
       "howToApply": "Applied through the admission process.",
       "note": "The previous ₩3,607,000 per-semester tuition and ₩680,000 matriculation figures came from the graduate financial-support page. They are retained here as graduate-context figures and cannot price a Fall 2027 bachelor year. Undergraduate scholarship coverage requires the undergraduate guide."
     },
     "merit": [
       {
-        "name": "Government-funded scholar status for admitted international undergraduates",
+        "name": "Undergraduate funding \u2014 coverage not confirmed",
         "amount": "Undergraduate coverage not confirmed",
-        "eligibility": "All admitted international undergraduate students",
+        "eligibility": "Undergraduate applicants; funding conditions not confirmed",
         "deadline": null,
         "application": "Check the undergraduate guide",
         "renewable": true,

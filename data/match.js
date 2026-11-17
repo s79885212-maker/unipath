@@ -423,7 +423,6 @@ window.UNIPATH.match = {
     'university-of-manchester':{ currency: 'GBP', basis: 'tuition', min: 37800, max: 37800, example: true },
     'university-of-warwick':   { currency: 'GBP', basis: 'tuition', min: 21950, max: 37310 },
     /* Germany */
-    'fau-erlangen-nurnberg':   { currency: 'EUR', basis: 'tuition', min: 2000, max: 6000, note: 'From summer semester 2027' },
     'university-of-freiburg':  { currency: 'EUR', basis: 'tuition', min: 3000, max: 3000 },
     'university-of-cologne':   { currency: 'EUR', basis: 'tuition', min: 0, max: 0 },
     'rhine-waal-university':   { currency: 'EUR', basis: 'tuition', min: 0, max: 0 },

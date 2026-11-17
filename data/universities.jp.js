@@ -1585,23 +1585,47 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Applicants normally need 12 years of school education completed outside Japan, or an equivalent qualification such as the IB, A-levels or a recognised national school-leaving certificate.'
   },
   costs: {
-    breakdown: { tuition: 1100000, tuitionText: '\u00a51,100,000\u2013\u00a51,400,000 depending on the major', billed: 1670000, includes: 'tuition, the operations fee and, in the first year, the \u00a5250,000 enrollment fee; a one-time \u00a540,000 alumni association fee is added to the first invoice and accommodation is extra', published: true },
-    academicYear: '2027\u20132028',
-    currency: 'JPY',
-    headline: '\u00a51,670,000\u2013\u00a51,970,000 in the first year',
-    items: [
-      { label: 'Tuition \u2014 Business Economics and International Relations', amount: 1100000 },
-      { label: 'Tuition \u2014 Digital Business and Innovation', amount: 1300000 },
-      { label: 'Tuition \u2014 Data Science and AI', amount: 1400000 },
-      { label: 'Operations fee (per year)', amount: 320000 },
-      { label: 'Enrollment fee (one-time)', amount: 250000 },
-      { label: 'Alumni association fee (one-time)', amount: 40000 }
+    "breakdown": {
+      "tuition": 1100000,
+      "tuitionText": "¥1,100,000–¥1,400,000 depending on the major",
+      "billed": 1670000,
+      "includes": "tuition, the operations fee and, in the first year, the ¥250,000 enrollment fee; a one-time ¥40,000 alumni association fee is added to the first invoice and accommodation is extra",
+      "published": true
+    },
+    "academicYear": "2027–2028",
+    "currency": "JPY",
+    "headline": "¥1,670,000–¥1,970,000 in the first year",
+    "items": [
+      {
+        "label": "Tuition — Business Economics and International Relations",
+        "amount": 1100000
+      },
+      {
+        "label": "Tuition — Digital Business and Innovation",
+        "amount": 1300000
+      },
+      {
+        "label": "Tuition — Data Science and AI",
+        "amount": 1400000
+      },
+      {
+        "label": "Operations fee (per year)",
+        "amount": 320000
+      },
+      {
+        "label": "Enrollment fee (one-time)",
+        "amount": 250000
+      },
+      {
+        "label": "Alumni association fee (one-time)",
+        "amount": 40000
+      }
     ],
-    billedSubtotal: 1670000,
-    totalText: '\u00a51,670,000 in the first year for Business Economics and International Relations, \u00a51,870,000 for Digital Business and Innovation and \u00a51,970,000 for Data Science and AI',
-    note: 'From the second year the totals fall to \u00a51,620,000, \u00a51,820,000 and \u00a51,920,000 because the enrollment fee is only charged once. Accommodation is charged separately.',
-    source: 'https://www.tiu.ac.jp/etrack/admissions/tuition.html',
-    verified: '2026-09-24'
+    "billedSubtotal": 1670000,
+    "totalText": "¥1,670,000 in the first year for Business Economics and International Relations, ¥1,870,000 for Digital Business and Innovation and ¥1,970,000 for Data Science and AI",
+    "note": "The official 2027 table separately lists subsequent-year totals of JPY 1,620,000, JPY 1,820,000 and JPY 1,920,000. Those figures are not derived here by subtracting the entrance fee from the first-year total. The one-time JPY 40,000 alumni fee is added to the first invoice. Housing and other living costs remain separate.",
+    "source": "https://www.tiu.ac.jp/etrack/admissions/tuition.html",
+    "verified": "2026-11-17"
   },
   scholarships: {
     fullRide: { available: true, internationalEligible: true, basis: 'merit', covers: { tuition: true, housing: false, meals: false, insurance: false, books: false }, renewable: true, competitiveness: 'Awards of 30%, 50%, 80% or 100% are decided on the strength of the application; a 100% award is the top band rather than the norm.', howToApply: 'All E-Track applicants are considered automatically - admission and scholarship screening happen together.', note: 'A 100% TIU Tuition Reduction Scholarship covers tuition only. Housing, food, insurance and travel are not covered. It runs up to four years for first-year students if academic requirements are met.' },

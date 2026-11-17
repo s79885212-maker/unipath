@@ -191,17 +191,29 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A school certificate from outside Germany must be recognised as a German university entrance qualification (HZB); check the DAAD admission database for your country.'
   },
   costs: {
-    breakdown: { tuitionText: "€1,000–€3,000 per semester from 2027", period: "semester", includes: "tuition per semester for new non-EU students from summer semester 2027" },
-    academicYear: 'From summer semester 2027 (for new non-EU students)',
-    currency: 'EUR',
-    headline: '€1,000–€3,000 tuition per semester from 2027',
-    items: [
-      { label: 'Tuition for new students from outside the EU (per semester)', text: '€1,000, €2,000 or €3,000, depending on the programme' },
-      { label: 'Tuition for students already enrolled before summer semester 2027', text: 'None, unless they change subject' }
+    "breakdown": {
+      "tuitionText": "€1,000–€3,000 per semester from 2027",
+      "period": "semester",
+      "includes": "tuition per semester for new non-EU students from summer semester 2027"
+    },
+    "academicYear": "From summer semester 2027 (for new non-EU students)",
+    "currency": "EUR",
+    "headline": "€1,000–€3,000 tuition per semester from 2027",
+    "items": [
+      {
+        "label": "Tuition for new students from outside the EU (per semester)",
+        "text": "€1,000, €2,000 or €3,000, depending on the programme"
+      },
+      {
+        "label": "Tuition for students already enrolled before summer semester 2027",
+        "text": "None, unless they change subject"
+      }
     ],
-    billedSubtotal: null,
-    totalText: '€2,000–€6,000 tuition a year for new non-EU students, plus living costs',
-    note: 'FAU charges students from outside the EU/EEA who enrol for the first time, or change subject, from summer semester 2027. EU/EEA citizens, holders of a German university entrance qualification and people with established ties to Germany are exempt. FAU says information on scholarships and waivers will follow.'
+    "billedSubtotal": null,
+    "totalText": "For two charged semesters, EUR 2,000–6,000 tuition — calculated by UniPath; contribution and living costs extra",
+    "note": "From summer semester 2027, new non-EU/EEA students without a German entrance qualification or established ties generally pay tuition. The full-time BSc Artificial Intelligence rate is EUR 1,000 per semester; other bachelor programmes have their own EUR 1,000–3,000 rates. The page currently lists an additional EUR 82 semester contribution. The annual tuition illustration multiplies two charged semesters and is not a university-published full budget. Exemptions and waivers require the applicable rules.",
+    "source": "https://www.fau.eu/studying/international-students/application-and-enrollment-for-international-applicants/tuition-fees-for-students-from-non-eu-states/",
+    "verified": "2026-11-17"
   },
   scholarships: {
     fullRide: {
@@ -507,7 +519,7 @@ window.UNIPATH.universities.push(
       "tuition": 0,
       "includes": "The official page gives €484.24 for the semester contribution in one section and €452.94 in another. Neither amount is confirmed for winter 2027/28. Regular bachelor tuition remains zero; living expenses are separate."
     },
-    "academicYear": "Current",
+    "academicYear": null,
     "currency": "EUR",
     "headline": "No regular bachelor tuition; semester contribution needs verification",
     "items": [
@@ -1685,7 +1697,7 @@ window.UNIPATH.universities.push(
     admissions: 'https://www.th-deg.de/en/apply',
     applicationPortal: 'https://www.th-deg.de/en/apply',
     scholarships: 'https://www.th-deg.de/en/study-with-us/funding',
-    cost: 'https://www.th-deg.de/en/study-with-us/apply/fees',
+    cost: 'https://www.th-deg.de/en/apply',
     programs: 'https://www.th-deg.de/studying-in-english'
   },
   admissions: {
@@ -1767,7 +1779,7 @@ window.UNIPATH.universities.push(
   },
   photos: { main: null, gallery: [], city: null },
   sources: [
-    { label: 'Application and service fees for non-EU/EEA applicants', url: 'https://www.th-deg.de/en/study-with-us/apply/fees' },
+    { label: 'Application and service fees for non-EU/EEA applicants', url: 'https://www.th-deg.de/en/apply' },
     { label: 'Degrees taught in English', url: 'https://www.th-deg.de/studying-in-english' },
     { label: 'Applications', url: 'https://www.th-deg.de/en/apply' },
     { label: 'About — history and facts', url: 'https://www.th-deg.de/en/dit/profile' }
@@ -2151,9 +2163,9 @@ window.UNIPATH.universities.push(
   costs: {
     "breakdown": {
       "tuition": 0,
-      "includes": "no tuition for regular bachelor and master programmes; a semester contribution of about €125 applies"
+      "includes": "Regular bachelor tuition is zero. The current semester contribution is EUR 145; living costs are separate and no 2027 full budget is confirmed."
     },
-    "academicYear": "Current",
+    "academicYear": null,
     "currency": "EUR",
     "headline": "Regular bachelor tuition: €0; semester fee currently €145",
     "items": [
