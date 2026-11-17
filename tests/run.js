@@ -626,8 +626,12 @@ group('corrections after the expansion');
   var mar = U.uniById('marist-university'), xl = U.uniById('xavier-university-of-louisiana');
   ok(U.budgetAmount(mar) === 76875 && U.billedAmount(mar) === 72040 && bud('marist-university', 76875).status === 'fits', 'Marist: the 2026–27 cost of attendance and its billable part are as printed');
   var xb = bud('xavier-university-of-louisiana', 50000);
-  ok(U.costPeriod(xl) === 'semester' && /per semester/.test(U.cardCost(xl).text) && xb.status === 'fits-billed' && /calculated by UniPath/.test(xb.text),
-    'Xavier of Louisiana: charges stay per semester; the two-semester sum is marked as calculated', xb.status + ' / ' + xb.text);
+  ok(U.costPeriod(xl) === 'semester' && /Fall 2026/.test(U.cardCost(xl).text) && xb.status === 'unknown' &&
+    U.costStatus(xl) === 'previous-cycle' && !DB.match.annualCost[xl.id] &&
+    U.billedAmount(xl) === 22584.5 && xl.costs.items[2].amount === 1674 &&
+    xl.costs.items.slice(0, 10).reduce((sum, item) => sum + item.amount, 0) === 17225 &&
+    xl.costs.items.reduce((sum, item) => sum + item.amount, 0) === 22584.5,
+    'Xavier of Louisiana: historical semester charges stay visible outside Fall 2027 budget comparisons', xb.status + ' / ' + xb.text);
   var bare = added().filter(function (u) { var c = u.costs || {}; return (c.items || []).length && !(c.academicYear && c.studentCategory && c.source && c.verified); }).map(function (u) { return u.id; });
   /* Deep Springs has no year by nature (aid, not a price list); the others are
      records whose page gave figures without naming the academic year — a gap
@@ -994,9 +998,38 @@ const wvBudgetResult = M.evaluate(fall27WV, fundingInput);
 ok(wvBudgetResult.category === 'unknown' && /Morgantown, 2027–28: base tuition and university fees/.test(wvBudgetResult.budget.text),
   'WVU tuition-only result carries the campus and fee scope without a full match');
 const evansvilleFundingControl = U.uniById('university-of-evansville');
-ok(U.costYear(evansvilleFundingControl) === '2027–2028' && fundingBudget(evansvilleFundingControl,70894) === 'fits' &&
-  fundingBudget(evansvilleFundingControl,70893) === 'over',
+ok(U.costYear(evansvilleFundingControl) === '2027–2028' && fundingBudget(evansvilleFundingControl,70904) === 'fits' &&
+  fundingBudget(evansvilleFundingControl,70894) === 'over',
   'Evansville full-year 2027–28 estimate still matches at its exact amount');
+group('Fall 2027 international cost audit');
+const costAuditFixture = {
+  ...evansvilleFundingControl,
+  id: 'test-fall-2027-cost-audit',
+  costs: {currency: 'USD', academicYear: '2027–2028', status: 'confirmed'}
+};
+const fixtureCosts = DB.match.annualCost;
+try {
+  fixtureCosts[costAuditFixture.id] = {currency: 'USD', basis: 'total', min: 35000, max: 35000};
+  ok(fundingBudget(costAuditFixture, 35000) === 'fits', 'Full 2027–28 cost of $35,000 matches exactly');
+  fixtureCosts[costAuditFixture.id].min = 35001;
+  fixtureCosts[costAuditFixture.id].max = 35001;
+  ok(fundingBudget(costAuditFixture, 35000) === 'over', 'Full cost $1 above the cap does not match');
+  fixtureCosts[costAuditFixture.id] = {currency: 'USD', basis: 'tuition', min: 35000, max: 35000};
+  ok(fundingBudget(costAuditFixture, 35000) === 'fits-tuition', 'Tuition at the cap is only a partial match');
+  fixtureCosts[costAuditFixture.id].basis = 'total';
+  costAuditFixture.costs.status = 'previous-cycle';
+  costAuditFixture.costs.academicYear = '2026–2027';
+  ok(fundingBudget(costAuditFixture, 35000) === 'unknown', 'A prior-year total at the cap does not match');
+} finally {
+  delete fixtureCosts[costAuditFixture.id];
+}
+ok(fundingBudget(U.uniById('augustana-university-south-dakota'), 35000) === 'over' &&
+  fundingBudget(U.uniById('augustana-university-south-dakota'), 62463) === 'fits' &&
+  !U.costAfterAid(U.uniById('augustana-university-south-dakota')),
+  'Augustana uses the gross cost even where all international students receive a variable award');
+ok(['florida-state-university','xavier-university-of-louisiana','purdue-university','new-jersey-institute-of-technology']
+  .every(id => !fixtureCosts[id] && fundingBudget(U.uniById(id), 35000) === 'unknown'),
+  'No Fall 2027 full budget from an I-20 planning minimum or from last year');
 const auditedAwardKinds = [['university-of-alabama','full-tuition'],['centre-college','full-ride'],
   ['tulane-university','full-ride'],['depauw-university','full-tuition']];
 ok(auditedAwardKinds.every(([id,kind]) => {

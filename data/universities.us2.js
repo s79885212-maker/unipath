@@ -17856,46 +17856,35 @@ window.UNIPATH.universities.push(
   },
   "costs": {
     "breakdown": {
-      "tuition": 22232,
-      "budget": 43916,
-      "includes": "tuition, fees, on-campus housing, food, books, transportation and personal expenses"
+      "includes": "For Fall 2027, the Center for Global Engagement publishes $54,673 as a 12-month first-year minimum estimate for I-20 planning: 26 credits without summer classes, modest summer living costs, and no major personal expenses. A comparable 2027–28 full academic-year international cost has not been verified.",
+      "period": "year"
     },
-    "academicYear": "2026–2027",
+    "academicYear": "2027–2028",
     "currency": "USD",
-    "headline": "$22,282 out-of-state tuition and fees · $43,916 estimated total on campus",
+    "headline": "Fall 2027 minimum estimate for I-20 planning",
     "items": [
       {
-        "label": "Tuition (out-of-state, 13 credits per term)",
-        "amount": 22232
+        "label": "Tuition and fees",
+        "amount": 22282,
+        "group": "estimate"
       },
       {
-        "label": "Fees",
-        "amount": 50
+        "label": "Housing, food, personal expenses and health insurance",
+        "amount": 31011,
+        "group": "estimate"
       },
       {
-        "label": "Housing (on campus)",
-        "amount": 8420
-      },
-      {
-        "label": "Food",
-        "amount": 5740
-      },
-      {
-        "label": "Books, course materials, supplies and equipment",
-        "amount": 1380
-      },
-      {
-        "label": "Transportation",
-        "amount": 3590
-      },
-      {
-        "label": "Personal",
-        "amount": 2504
+        "label": "Books and supplies",
+        "amount": 1380,
+        "group": "estimate"
       }
     ],
-    "totalText": "$43,916 total, out-of-state student living on campus",
-    "note": "Fall 2026 and spring 2027 estimate for the main campus in Tallahassee.",
-    "studentCategory": "Out-of-state (international) students"
+    "totalText": null,
+    "note": "For Fall 2027, the Center for Global Engagement publishes $54,673 as a 12-month first-year minimum estimate for I-20 planning: 26 credits without summer classes, modest summer living costs, and no major personal expenses. A comparable 2027–28 full academic-year international cost has not been verified.",
+    "studentCategory": "Out-of-state (international) students",
+    "verified": "2026-11-17",
+    "status": "not-checked",
+    "source": "https://cge.fsu.edu/international-students/new-students/step-2-obtain-your-form-i-20"
   },
   "scholarships": {
     "fullRide": {
@@ -18486,9 +18475,12 @@ window.UNIPATH.universities.push(
       }
     ],
     "totalText": null,
-    "note": "Base rate; computer science, data science, engineering, business and some other programmes add a differential fee.",
+    "note": "The 2026–27 West Lafayette international tuition and campus charges are historical. Purdue approved 2027–28 housing and meal-plan rates separately. A complete international first-year estimate for 2027–28 has not been verified.",
     "billedSubtotal": 48838,
-    "studentCategory": "International students"
+    "studentCategory": "International students",
+    "verified": "2026-11-17",
+    "status": "previous-cycle",
+    "source": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2026-2027/undergraduate-tuition-and-fees-2026-2027/"
   },
   "scholarships": {
     "fullRide": {

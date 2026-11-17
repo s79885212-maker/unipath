@@ -43,9 +43,11 @@ window.UNIPATH.match = {
     perEUR: { EUR: 1, USD: 1.1195, CAD: 1.5918, GBP: 0.84385, JPY: 177.39, KRW: 1496.54 }
   },
   annualCost: {
-    'university-of-evansville': { currency: 'USD', basis: 'total', period: 'year', min: 70894, max: 70894, academicYear: '2027–2028', source: 'https://www.evansville.edu/student-financial-services/tuition-and-direct-costs-international-2027-2028.cfm', verified: '2026-11-13' },
+    'drake-university': {"currency": "USD", "basis": "tuition", "period": "year", "min": 54578, "max": 54578, "academicYear": "2027–2028", "source": "https://www.drake.edu/about/offices/accounts/tuitionfees", "verified": "2026-11-17", "note": "Des Moines, 12–18 credits each semester for the 2027–28 entering class. Two semesters of tuition cost $54,578 (calculated by UniPath from $27,289 per semester). The full international yearly estimate, including fees, living expenses and insurance, remains unconfirmed.", "calc": "two-semesters"},
+    'augustana-university-south-dakota': {"currency": "USD", "basis": "total", "period": "year", "min": 62463, "max": 62463, "academicYear": "2027–2028", "source": "https://www.augie.edu/admission-financial-aid/financial-aid-costs-scholarships/comprehensive-costs/international-student", "verified": "2026-11-17", "note": "2027–28 international undergraduate estimate before scholarships, with a double room and a full meal plan. UniPath adds the university’s $57,863 direct and $4,600 indirect costs. The refundable housing deposit and programme-specific charges may affect initial cash needs."},
+    'wheaton-college-massachusetts': {"currency": "USD", "basis": "billed", "period": "year", "min": 58400, "max": 58400, "academicYear": "2027–2028", "source": "https://www.wheatoncollege.edu/admission/tuition-fees/new-tuition-pricing/", "verified": "2026-11-17", "note": "Norton, Massachusetts, 2027–28. Wheaton publishes $58,400 for tuition, fees, on-campus housing and food. The payment worksheet separately estimates $5,000 for the college health plan, which may be waived with comparable coverage. A complete international budget including other expenses is unconfirmed."},
+    'university-of-evansville': { currency: 'USD', basis: 'total', period: 'year', min: 70904, max: 70904, academicYear: '2027–2028', source: 'https://www.evansville.edu/student-financial-services/tuition-and-direct-costs-international-2027-2028.cfm', verified: '2026-11-17' },
 
-    'wheaton-college-massachusetts': { currency: 'USD', basis: 'tuition', period: 'year', min: 39000, max: 39000, academicYear: '2027–2028', source: 'https://wheatoncollege.edu/news/wheaton-announces-new-tuition-pricing-for-fall-2027/', verified: '2026-11-12', note: 'Tuition only. Housing, meals and other expenses are additional.' },
 
     /* Approved USA +50, reviewed academic-year estimates */
     "pennsylvania-state-university-university-park": {"currency": "USD", "basis": "tuition", "period": "year", "min": 46356, "max": 46356, "academicYear": "2027–2028", "source": "https://tuition.psu.edu/rates-effective-2027-fall-semester", "verified": "2026-11-01", "note": "2027–28 University Park nonresident first-year/lower-division tuition, 12–19 credits per semester. The university publishes USD 46,356 per academic year, not a UniPath multiplication. This is tuition only: student fee USD 330 per semester, housing, meals, insurance, books, travel and other charges are additional. Upper-division, other campuses and overload rates differ. Competitive awards are not deducted."},
@@ -111,7 +113,6 @@ window.UNIPATH.match = {
     'university-of-calgary': { currency: 'CAD', basis: 'total', min: 43081.8, max: 52582.8, note: 'University estimator, two terms 2026–27: tuition, general fees, residence and meal plan (Arts to Engineering); books extra' },
     'texas-a-and-m-university': { currency: 'USD', calc: 'two-semesters', basis: 'total', min: 60215, max: 62272 },
     'marist-university': { currency: 'USD', basis: 'total', min: 76875, max: 76875 },
-    'xavier-university-of-louisiana': { currency: 'USD', calc: 'two-semesters', basis: 'billed', min: 41427, max: 43492 },
     'drew-university': { currency: 'USD', basis: 'tuition', min: 49550, max: 49550 },
     'goucher-college': { currency: 'USD', calc: 'two-semesters', basis: 'billed', min: 75660, max: 75660, note: 'Two semesters at the published full-time rates — calculated by UniPath, not printed by the university' },
     'lesley-university': { currency: 'USD', calc: 'two-semesters', basis: 'billed', min: 59820, max: 59820, note: 'Two semesters at the published full-time rates — calculated by UniPath, not printed by the university' },
@@ -315,9 +316,7 @@ window.UNIPATH.match = {
     'ucla': { currency: 'USD', basis: 'total', min: 84770, max: 84770, note: 'Nonresident, living in residence halls' },
     'university-of-virginia': { currency: 'USD', basis: 'total', min: 83286, max: 84976, note: 'First-year non-Virginian, College of Arts and Sciences' },
     'university-of-florida': { currency: 'USD', basis: 'total', min: 54010, max: 54010, note: 'Out-of-state budget' },
-    'florida-state-university': { currency: 'USD', basis: 'total', min: 43916, max: 43916, note: 'Out-of-state, on campus' },
     'michigan-state-university': { currency: 'USD', basis: 'total', min: 70725, max: 70725, note: 'International first-year estimate at 2025–26 rates' },
-    'purdue-university': { currency: 'USD', basis: 'billed', min: 48838, max: 48838, note: 'International tuition, fees, housing and food; books and personal expenses extra' },
     'ohio-state-university': { currency: 'USD', basis: 'total', min: 68054, max: 68054, note: 'International, living on campus' },
     /* Added with the October 2026 expansion — tuition only */
     'university-of-sussex': { currency: 'GBP', basis: 'tuition', example: true, academicYear: '2027–2028', scopeFields: ['economics'], min: 24200, max: 24200, note: 'BSc Economics example for September 2027; each course is priced separately' },
