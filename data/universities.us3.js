@@ -28644,8 +28644,8 @@ window.UNIPATH.universities.push(
     "academicYear": "2026–2027",
     "currency": "USD",
     "studentCategory": "Full-time students (12–18 hours) of the College of Arts and Sciences and Pre-Pharmacy living on campus",
-    "source": "https://www.xula.edu/fiscal-services/office-of-student-accounts/office-of-student-accounts-tuition-fees-residential-housing-and-other-costs.html",
-    "verified": "2026-10-13",
+    "source": "https://www.xula.edu/international-ed/department-of-center-for-intercultural-and-international-programs/freshmen-estimated-tuition-and-fees-2026_2027.pdf",
+    "verified": "2026-11-17",
     "headline": "$13,835 tuition per semester for full-time students",
     "items": [
       {
@@ -28698,7 +28698,8 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": null,
     "totalText": "Published per semester for autumn 2026 and spring 2027: tuition $13,835 and five standing fees ($1,181 together), a room for two with board $5,564.50 to $6,597, housing fee and laundry $133. Two semesters come to $41,427–$43,492 — calculated by UniPath; the schedules print no yearly total",
-    "note": "Read from the two PDF schedules for 2026–2027 linked from this page: “College of Arts and Science & Pre-Pharmacy Tuition and Fees” and “Room and Board Cost & Fees”. A room reservation deposit of $300 ($100 of it a non-refundable application fee) is paid once. The schedules do not say whether the health insurance is compulsory for international students."
+    "note": "The published international estimate is for Fall 2026. Student health insurance, orientation, course-specific fees and personal costs are separate. No Fall 2027 annual price has been verified.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -42883,32 +42884,41 @@ window.UNIPATH.universities.push(
   },
   "costs": {
     "breakdown": {
-      "includes": "Published full-time tuition and mandatory fees only",
-      "tuition": 19113,
-      "billed": 21150,
-      "period": "semester"
+      "tuition": 38226,
+      "budget": 71878,
+      "period": "year"
     },
     "academicYear": "2026–2027",
     "currency": "USD",
     "studentCategory": "Out-of-state undergraduate, 12–17 credits per semester, Newark",
-    "source": "https://catalog.njit.edu/undergraduate/admissions-financial-aid/tuition-fees/",
-    "verified": "2026-11-01",
-    "headline": "Previous-cycle semester tuition and fees: USD 21,150",
+    "source": "https://prod-content.njit.edu/admissions/tuition-costs",
+    "verified": "2026-11-17",
+    "headline": "2026–27 international undergraduate estimate: $71,878",
     "items": [
       {
-        "label": "Tuition per semester",
-        "group": "billed",
-        "amount": 19113
+        "label": "Tuition",
+        "amount": 38226,
+        "group": "billed"
       },
       {
-        "label": "Fees per semester",
-        "group": "billed",
-        "amount": 2037
+        "label": "Fees",
+        "amount": 4074,
+        "group": "billed"
+      },
+      {
+        "label": "Housing and food",
+        "amount": 18900,
+        "group": "estimate"
+      },
+      {
+        "label": "Insurance, books and other expenses",
+        "amount": 10678,
+        "group": "estimate"
       }
     ],
-    "billedSubtotal": 21150,
-    "totalText": "USD 21,150 per semester; additional costs separate",
-    "note": "The 2026–27 catalogue explicitly gives semester rates, not an annual total or Fall 2027 price. The annual health plan is USD 2,028; F-1/J-1 cannot waive it under the catalogue rule, while the Bursar marks that rate pending state approval. International fee USD 125 and first-year fee USD 280 are additional; an unstated charging interval is not inferred. Newark, Jersey City and online graduate rates are distinct.",
+    "billedSubtotal": 42300,
+    "totalText": null,
+    "note": "Newark, 2026–27, full-time international undergraduate (12–17 credits per semester). The university groups insurance, books and other expenses. A Fall 2027 estimate is not yet confirmed.",
     "status": "previous-cycle"
   },
   "scholarships": {
@@ -45115,8 +45125,8 @@ window.UNIPATH.universities.push(
     "currency": "USD",
     "studentCategory": "International first-year bachelor applicants",
     "source": "https://www.auburn.edu/academic/international/isss/cost.php",
-    "verified": "2026-11-11",
-    "headline": "Published estimate; transport coverage conflicts",
+    "verified": "2026-11-17",
+    "headline": "2027–28 estimate: $56,975 before transportation",
     "items": [
       {
         "label": "Tuition and fees",
@@ -45139,10 +45149,10 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": null,
     "totalText": null,
-    "note": "One official page (estimates as of October 2026 for 2027–28, F/J undergraduates): tuition and fees USD 39,658 for fall and spring (nine months), living expenses USD 15,000 for 12 months, health insurance USD 2,317, total USD 56,975. The page contradicts itself on what the total includes: its introduction lists transportation, footnote 1 says the figures do not include transportation. The total is therefore not used as a confirmed yearly cost and Auburn has no entry in the budget comparison; the tuition line is tuition only, not a full budget. Dependants add USD 6,000 each; some programmes add professional fees. No scholarship is deducted.",
+    "note": "Auburn publishes a 2027–28 F/J undergraduate estimate of $56,975. The table explicitly excludes transportation even though the page lists transportation in its description of the costs for which students must prove financial support. Programme fees may also apply. The published subtotal is useful for planning; a full figure including transport is unconfirmed.",
     "status": "conflict",
     "conflict": {
-      "text": "One official page (estimates as of October 2026 for 2027–28, F/J undergraduates): tuition and fees USD 39,658 for fall and spring (nine months), living expenses USD 15,000 for 12 months, health insurance USD 2,317, total USD 56,975. The page contradicts itself on what the total includes: its introduction lists transportation, footnote 1 says the figures do not include transportation. The total is therefore not used as a confirmed yearly cost and Auburn has no entry in the budget comparison; the tuition line is tuition only, not a full budget. Dependants add USD 6,000 each; some programmes add professional fees. No scholarship is deducted."
+      "text": "Auburn publishes a 2027–28 F/J undergraduate estimate of $56,975. The table explicitly excludes transportation even though the page lists transportation in its description of the costs for which students must prove financial support. Programme fees may also apply. The published subtotal is useful for planning; a full figure including transport is unconfirmed."
     }
   },
   "scholarships": {

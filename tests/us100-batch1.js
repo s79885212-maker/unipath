@@ -57,12 +57,14 @@ module.exports = function ({ U, M, DB, ok }) {
      U.awardDates(puget, puget.scholarships.fullRide).some(d => d.status === 'annual-rule') &&
      U.awardKind(drake) === null && drake.scholarships.merit.some(a => a.basis === 'need'),
     'Matelich is competitive full ride with a separate date rule and Drake is partial need-based aid');
-  ok(U.costPeriod(drake) === 'semester' && U.costYear(drake) === '2027–2028' &&
+  ok(U.costPeriod(drake) === 'year' && U.costYear(drake) === '2027–2028' &&
      U.feeAmount(drake) === null && /\$50/.test(drake.admissions.applicationFee.note) &&
-     !DB.match.annualCost[drake.id],
-    'Drake preserves its semester tuition and the unresolved international fee');
+     drake.costs.items[0].amount === 27289 && DB.match.annualCost[drake.id].min === 54578 &&
+     DB.match.annualCost[drake.id].basis === 'tuition',
+    'Drake keeps the semester rate and compares only tuition for two semesters');
   var budget = u => M.evaluate(u, { budget: 50000, currency: 'USD' }).budget.status;
-  ok(budget(byId('wheaton-college-massachusetts')) === 'fits-tuition' &&
+  ok(budget(byId('wheaton-college-massachusetts')) === 'over' &&
+     DB.match.annualCost['wheaton-college-massachusetts'].basis === 'billed' &&
      budget(byId('cal-poly-pomona')) === 'unknown' && budget(puget) === 'unknown',
-    'Wheaton tuition is not a total budget, earlier Pomona costs are not compared, and Matelich is never guaranteed');
+    'Wheaton direct costs exceed $50,000, earlier Pomona costs are not compared, and Matelich is never guaranteed');
 };

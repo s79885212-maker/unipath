@@ -2253,57 +2253,68 @@ window.UNIPATH.universities.push(
   },
   "costs": {
     "breakdown": {
-      "includes": null,
-      "tuition": 41986,
+      "tuition": 43350,
+      "billed": 57863,
+      "budget": 62463,
       "period": "year"
     },
-    "academicYear": "2026–2027",
+    "academicYear": "2027–2028",
     "currency": "USD",
     "studentCategory": "Full-time international undergraduate, double room",
     "source": "https://www.augie.edu/admission-financial-aid/financial-aid-costs-scholarships/comprehensive-costs/international-student",
-    "verified": "2026-11-13",
-    "headline": "$57,322 I-20 estimate",
+    "verified": "2026-11-17",
+    "headline": "2027–28 international undergraduate estimate before aid",
     "items": [
       {
         "label": "Tuition",
-        "group": "billed",
-        "amount": 41986
+        "amount": 43350,
+        "group": "billed"
+      },
+      {
+        "label": "Student fees",
+        "amount": 1246,
+        "group": "billed"
       },
       {
         "label": "Housing",
-        "group": "estimate",
-        "amount": 4580
+        "amount": 4672,
+        "group": "billed"
       },
       {
         "label": "Meals",
-        "group": "estimate",
-        "amount": 5810
+        "amount": 6040,
+        "group": "billed"
       },
       {
-        "label": "Student fees and housing deposit",
-        "group": "billed",
-        "amount": 1246
-      },
-      {
-        "label": "One-time international center fee",
-        "group": "billed",
-        "amount": 500
-      },
-      {
-        "label": "Books (estimate)",
-        "group": "estimate",
-        "amount": 1000
+        "label": "International student matriculation fee",
+        "amount": 575,
+        "group": "billed"
       },
       {
         "label": "Health insurance",
-        "group": "estimate",
-        "amount": 2200
+        "amount": 1980,
+        "group": "billed"
+      },
+      {
+        "label": "Books and supplies",
+        "amount": 1000,
+        "group": "estimate"
+      },
+      {
+        "label": "Transportation",
+        "amount": 1600,
+        "group": "estimate"
+      },
+      {
+        "label": "Personal and other expenses",
+        "amount": 2000,
+        "group": "estimate"
       }
     ],
-    "billedSubtotal": null,
-    "totalText": null,
-    "note": "Published rates are for 2026–2027. Fall 2027 costs are not confirmed.",
-    "status": "previous-cycle"
+    "billedSubtotal": 57863,
+    "totalText": "$62,463 before aid (calculated by UniPath)",
+    "note": "2027–28 international undergraduate estimate before scholarships, with a double room and a full meal plan. UniPath adds the university’s $57,863 direct and $4,600 indirect costs. The refundable housing deposit and programme-specific charges may affect initial cash needs.",
+    "status": "confirmed"
   },
   "scholarships": {
     "fullRide": {

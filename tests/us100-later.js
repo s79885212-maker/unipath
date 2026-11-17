@@ -18,7 +18,7 @@ module.exports = function ({ U, M, DB, ok }) {
         u.programEvidence[field].checked === u.lastVerified && U.englishPrograms(u).includes(field))),
       'US batch ' + batch + ' filters use dated evidence for a named undergraduate program');
     ok(schools.every(u => U.awardKind(u) !== 'full-ride' &&
-      (u.id === 'university-of-evansville' || [0, 100000].every(budget =>
+      (['university-of-evansville','augustana-university-south-dakota'].includes(u.id) || [0, 100000].every(budget =>
         M.evaluate(u, { budget, currency: 'USD' }).budget.status === 'unknown'))),
       'US batch ' + batch + ' partial aid and unknown costs do not qualify for full coverage');
   }
@@ -62,9 +62,9 @@ module.exports = function ({ U, M, DB, ok }) {
        uni.sources.some(source => source.url.endsWith('/country-specific-requirements/uzbekistan')) &&
        uni.academics.gpa === null,
       'Northern Iowa preserves the Uzbekistan qualification and local grade without treating it as a US GPA');
-    ok(augie.costs.status === 'previous-cycle' && augie.costs.academicYear === '2026–2027' &&
-       !DB.match.annualCost[augie.id] && U.awardKind(augie) !== 'full-ride',
-      'Augustana prior-year I-20 estimate and variable scholarship stay outside full-budget matches');
+    ok(augie.costs.status === 'confirmed' && augie.costs.academicYear === '2027–2028' &&
+       DB.match.annualCost[augie.id].min === 62463 && U.awardKind(augie) !== 'full-ride',
+      'Augustana uses the new gross estimate, with variable scholarships kept separate');
     const bonaventure = U.uniById('st-bonaventure-university');
     ok(!bonaventure.photos.main && bonaventure.photos.gallery.length === 0,
       'St. Bonaventure uses the placeholder until a reusable campus photo is verified');
