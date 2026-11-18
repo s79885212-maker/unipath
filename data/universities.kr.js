@@ -1584,7 +1584,7 @@ window.UNIPATH.universities.push(
       "url": "https://www.gist.ac.kr/iadm/html/sub02/0203.html"
     }
   ],
-  verification: { level: 'partial', checked: ['English requirements and exemptions','tuition and its support','matriculation fee'], unconfirmed: ['2027 application dates','application fee','what scholarships cover beyond tuition'] },
+  verification: { level: 'partial', checked: ['Graduate scope of the former English and fee source'], unconfirmed: ['Fall 2027 undergraduate English minimum','Undergraduate tuition and scholarship coverage','2027 application dates','application fee'] },
   lastVerified: '2026-09-23'
 },
 

@@ -27,5 +27,5 @@ for(const u of after){
   if(fields.length)changes.push({id:u.id,country:u.country,fields});
 }
 if(before.size!==after.length)throw Error('Catalogue count changed');
-fs.writeFileSync('research/six-country-audit/field-changes.json',JSON.stringify({base,checked:'2026-11-17',changes},null,2)+'\n');
+fs.writeFileSync('research/six-country-audit/field-changes.json',JSON.stringify({base,generatedAt:new Date().toISOString(),changes},null,2)+'\n');
 console.log('Changed runtime profiles',changes.length);

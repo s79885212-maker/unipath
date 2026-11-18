@@ -1,5 +1,19 @@
 module.exports = function (env) {
   const {U,DB,M,ok}=env;
+  const fs=require('fs'),path=require('path');
+  const css=fs.readFileSync(path.join(__dirname,'../assets/css/styles.css'),'utf8').replace(/\/\*[\s\S]*?\*\//g,'');
+  let coverHeight;
+  for(const rule of css.matchAll(/([^{}]+)\{([^{}]*)\}/g)){
+    if(!rule[1].split(',').some(selector=>selector.trim()==='.media img'))continue;
+    const height=/(?:^|;)\s*height\s*:\s*([^;]+)/.exec(rule[2]);
+    if(height)coverHeight=height[1].trim();
+  }
+  ok(coverHeight==='100%','A loaded card image fills its cover instead of exposing the fallback below a short thumbnail');
+  const liverpool=U.uniById('university-of-liverpool');
+  const economicsDate=U.roundsOf(liverpool).find(d=>d.id==='liverpool-economics-international-2027');
+  const courseOnly={...liverpool,admissions:{deadlines:[economicsDate]}};
+  ok(economicsDate.programmeId==='liverpool-bsc-economics' && U.nextDeadline(courseOnly,'fall-2027').state==='unknown',
+     'A checked Economics deadline does not become Liverpool’s university-wide next application date');
   ok(['korea-university','sungkyunkwan-university'].every(id=>U.costStatus(U.uniById(id))==='previous-cycle'),
      'Admission-profile overlays retain the historical status of Korean 2026 fee tables');
   const keio=U.uniById('keio-university');
@@ -56,8 +70,6 @@ module.exports = function (env) {
        'Tuition coverage stays separate from full ride');
 
     u.english={ielts:{varies:true,profiles:[{kind:'required',overall:6.5,sections:'6.0 in each section'}]}};
-    // The renderer's established status field activates the varying-program route.
-    u.english.ielts.status='varies';
     const result=M.evaluate(u,{...input,ielts:7});
     ok(result.checks.some(c=>/section separately/.test(c.text))&&result.unchecked.includes('IELTS section scores'),
        'A programme IELTS profile with band minima keeps section checks explicitly incomplete');

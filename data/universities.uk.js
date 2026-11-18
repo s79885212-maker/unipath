@@ -3715,6 +3715,7 @@ window.UNIPATH.universities.push(
       },
       {
         "id": "liverpool-economics-international-2027",
+        "programmeId": "liverpool-bsc-economics",
         "name": "BSc Economics international application",
         "kind": "admission",
         "entryTerm": "Autumn",

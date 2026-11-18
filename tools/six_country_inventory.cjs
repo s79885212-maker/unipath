@@ -3,7 +3,7 @@ const fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
 const prefix=fs.readFileSync('tests/run.js','utf8').split('var failed = 0, passed = 0;')[0], mod={exports:{}};
 vm.runInNewContext(prefix,{require,__dirname:path.resolve('tests'),module:mod,console,process,setTimeout,clearTimeout});
 const {U,DB,M}=mod.exports, schools=DB.universities;
-const out={date:'2026-11-17',total:schools.length,countries:{},coverage:{},duplicates:{ids:[],routes:[],names:[],domains:[]},issues:[],externalLinks:[]};
+const out={date:new Date().toISOString().slice(0,10),total:schools.length,countries:{},coverage:{},duplicates:{ids:[],routes:[],names:[],domains:[]},issues:[],externalLinks:[]};
 const locale={window:{}};
 vm.runInNewContext(fs.readFileSync('data/i18n/ru.js','utf8'),locale);
 const ru=locale.window.UNIPATH_I18N.ru;
