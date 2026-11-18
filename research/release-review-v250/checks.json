@@ -1,0 +1,40 @@
+{
+  "version": 251,
+  "unitTests": {
+    "passed": 588,
+    "failed": 0
+  },
+  "production": {
+    "build": "passed",
+    "pages": 547,
+    "profiles": 540,
+    "internalLinks": 19723,
+    "noindex": false,
+    "canonical": "https://s79885212-maker.github.io/unipath/"
+  },
+  "browser": "Chrome 157.0.8103.51",
+  "productionProfileChecks": 54,
+  "productionScenarioRecords": 24,
+  "webkit": "executable unavailable",
+  "stagingLocal": {
+    "scenarios": 28,
+    "profileOpens": 56,
+    "errors": 0,
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "widths": [
+      360,
+      390,
+      1280
+    ],
+    "locales": [
+      "ru",
+      "en"
+    ],
+    "finalSourceManifest": "candidate-inputs.json"
+  },
+  "stagingLive": "pending",
+  "productionProtocolsScope": "Production protocols precede the final POSTECH/TAMU data-only clarification; final production rebuild and link check passed on the source manifest. Final browser retest uses the staging build from the same sources."
+}

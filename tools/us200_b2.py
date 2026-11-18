@@ -266,7 +266,7 @@ records.append(R(
     L('A private liberal arts college in Conway, Arkansas, founded in 1876. International applicants submit a CSS Profile and are considered for international student scholarships; the pages read give no scholarship amounts.',
       'Частный колледж свободных искусств в Конуэе, штат Арканзас, основан в 1876 году. Иностранные абитуриенты подают CSS Profile и рассматриваются на стипендии для иностранных студентов; размеров стипендий на прочитанных страницах нет.'),
     ['business', 'economics', 'computer-science', 'psychology', 'biology', 'mathematics', 'social-sciences', 'humanities', 'arts'],
-    {'website': 'https://www.hendrix.edu/', 'programs': 'https://via.hendrix.edu/academics/departments-and-majors/', 'admissions': G, 'international': S, 'portal': 'http://apply.hendrix.edu/apply', 'aid': 'https://www.hendrix.edu/admission-aid/financial-aid',
+    {'website': 'https://www.hendrix.edu/', 'programs': 'https://via.hendrix.edu/academics/departments-and-majors/', 'admissions': G, 'international': S, 'portal': 'http://apply.hendrix.edu/apply', 'aid': 'https://www.hendrix.edu/financialaid/',
      'scholarships': 'https://www.hendrix.edu/financialaid/scholarships/', 'cost': T},
     verified=V, founded=1876,
     rounds=[

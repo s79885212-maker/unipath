@@ -434,6 +434,13 @@ window.UNIPATH.universities.push(
 
 {
   id: 'university-of-pennsylvania',
+  "verification": {
+    "level": "partial",
+    "checked": [],
+    "unconfirmed": [
+      "Past enrolled-student statistics and degree-area figures: the Box page loads only its shell; the document could not be read."
+    ]
+  },
   name: 'University of Pennsylvania',
   shortName: 'Penn',
   country: 'us',
@@ -1981,7 +1988,7 @@ window.UNIPATH.universities.push(
     { label: 'International applicants', url: 'https://collegeadmissions.uchicago.edu/apply/international-applicants/' },
     { label: 'College historical cost of attendance', url: 'https://csl.uchicago.edu/college-historical-cost-of-attendance/' },
     { label: 'UChicago will offer free tuition for families with incomes below $250,000', url: 'https://news.uchicago.edu/story/uchicago-will-offer-free-tuition-families-incomes-below-250000-greatly-expanding' },
-    { label: 'UChicago launches test-optional admissions process', url: 'https://college.uchicago.edu/news/academic-stories/uchicago-launches-test-optional-admissions-process-expanded-financial-aid' }
+    { label: 'UChicago launches test-optional admissions process', url: 'https://collegeadmissions.uchicago.edu/apply/application/required-materials/' }
   ],
   lastVerified: '2026-09-20'
 },
@@ -4325,6 +4332,13 @@ window.UNIPATH.universities.push(
 
 {
   id: 'georgetown-university',
+  "verification": {
+    "level": "partial",
+    "checked": [],
+    "unconfirmed": [
+      "Historical application fee, enrolled-student statistics and degree-area figures: the Box document could not be read."
+    ]
+  },
   name: 'Georgetown University',
   country: 'us',
   city: 'Washington',
@@ -5222,6 +5236,13 @@ window.UNIPATH.universities.push(
 
 {
   id: 'tulane-university',
+  "verification": {
+    "level": "partial",
+    "checked": [],
+    "unconfirmed": [
+      "Historical application fee, enrolled-student statistics and degree-area figures: the Box document could not be read."
+    ]
+  },
   name: 'Tulane University',
   country: 'us',
   city: 'New Orleans',
@@ -8028,7 +8049,7 @@ window.UNIPATH.universities.push(
     "applicationPortal": "https://www.commonapp.org/",
     "scholarships": "https://www.trincoll.edu/admissions/finaid/",
     "financialAid": "https://www.trincoll.edu/admissions/finaid/international-students/",
-    "programs": "https://www.trincoll.edu/academics/majors",
+    "programs": "https://www.trincoll.edu/dean-of-faculty/academic-programs-and-centers/curriculum/",
     "cost": "https://www.trincoll.edu/student-accounts/tuition-and-fees/"
   },
   "admissions": {
@@ -8245,7 +8266,7 @@ window.UNIPATH.universities.push(
     },
     {
       "label": "About — history and facts",
-      "url": "https://www.trincoll.edu/about"
+      "url": "https://www.trincoll.edu/AboutTrinity/"
     }
   ],
   "verification": {
@@ -9133,7 +9154,8 @@ window.UNIPATH.universities.push(
       "founding year"
     ],
     "unconfirmed": [
-      "whether the English scores are minimums"
+      "whether the English scores are minimums",
+      "Fall 2025 CDS statistics, degree-area figures and its historical application-fee reference: the old PDF is missing; the CDS index links back to itself and does not verify the figures."
     ]
   },
   "lastVerified": "2026-10-04",
@@ -9772,7 +9794,7 @@ window.UNIPATH.universities.push(
   "links": {
     "website": "https://new.sewanee.edu/",
     "admissions": "https://new.sewanee.edu/admission-aid/",
-    "internationalAdmissions": "https://new.sewanee.edu/admission-aid/application-process/application-review/international-applicants/",
+    "internationalAdmissions": "https://new.sewanee.edu/admission-aid/application-process/application-review/international-applicant/",
     "applicationPortal": "https://www.commonapp.org/",
     "scholarships": "https://new.sewanee.edu/admission-aid/cost-financial-aid/",
     "financialAid": "https://new.sewanee.edu/admission-aid/cost-financial-aid/need-based-aid/",
@@ -12913,7 +12935,7 @@ window.UNIPATH.universities.push(
     "website": "https://www.soka.edu/",
     "admissions": "https://www.soka.edu/admissions-aid/how-apply",
     "internationalAdmissions": "https://www.soka.edu/admissions-aid/how-apply",
-    "applicationPortal": "https://www.soka.edu/apply",
+    "applicationPortal": "https://www.soka.edu/admissions-aid/how-apply",
     "scholarships": "https://www.soka.edu/admissions-aid/financial-aid/soka-opportunity-plan",
     "financialAid": "https://www.soka.edu/admissions-aid/aid-international-undergraduate-students",
     "programs": "https://www.soka.edu/academics",
@@ -13151,7 +13173,8 @@ window.UNIPATH.universities.push(
     ],
     "unconfirmed": [
       "whether housing and food can be covered by aid",
-      "merit scholarship amounts"
+      "merit scholarship amounts",
+      "Past enrolled-student statistics: the Box page loads only its shell; the document could not be read."
     ]
   },
   "lastVerified": "2026-10-01",

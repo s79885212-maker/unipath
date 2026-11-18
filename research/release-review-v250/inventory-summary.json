@@ -1,0 +1,73 @@
+{
+  "total": 540,
+  "countries": {
+    "us": 350,
+    "jp": 30,
+    "kr": 30,
+    "uk": 50,
+    "de": 30,
+    "ca": 50
+  },
+  "coverage": {
+    "us": {
+      "noFullCost": 251,
+      "tuitionOnly": 11,
+      "noIeltsMinimum": 170,
+      "noPhoto": 1
+    },
+    "jp": {
+      "noFullCost": 29,
+      "tuitionOnly": 21,
+      "noIeltsMinimum": 16,
+      "noPhoto": 0
+    },
+    "kr": {
+      "noFullCost": 30,
+      "tuitionOnly": 13,
+      "noIeltsMinimum": 21,
+      "noPhoto": 0
+    },
+    "uk": {
+      "noFullCost": 50,
+      "tuitionOnly": 44,
+      "noIeltsMinimum": 42,
+      "noPhoto": 0
+    },
+    "de": {
+      "noFullCost": 29,
+      "tuitionOnly": 23,
+      "noIeltsMinimum": 11,
+      "noPhoto": 2
+    },
+    "ca": {
+      "noFullCost": 44,
+      "tuitionOnly": 31,
+      "noIeltsMinimum": 5,
+      "noPhoto": 0
+    }
+  },
+  "duplicates": {
+    "ids": [],
+    "routes": [],
+    "names": [],
+    "domains": [
+      {
+        "domain": "csbsju.edu",
+        "ids": [
+          "college-of-saint-benedict",
+          "saint-johns-university-minnesota"
+        ]
+      }
+    ]
+  },
+  "issues": {
+    "annual-period-implicit": 312,
+    "historical-cost-matching": 227,
+    "annual-rule-cycle-unconfirmed": 183,
+    "locale-numeric-suspect": 117,
+    "guarantee-review": 4,
+    "cost-year-missing": 9,
+    "deadline-timezone-missing": 8
+  },
+  "uniqueExternalLinks": 5945
+}

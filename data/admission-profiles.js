@@ -1625,18 +1625,7 @@
     }
   };
 
-  P['sungkyunkwan-university'] = {
-    stats: {
-      term: 'International undergraduate admission',
-      source: { label: 'SKKU undergraduate scholarships', url: 'https://admission-global.skku.edu/eng/grad/scholarship_undergrad.html' },
-      official: { admitRate: null, note: 'SKKU publishes English scholarship thresholds (IELTS 7.0 → 50% of tuition, IELTS 8.0 → 100%, first semester) but no admission averages.' },
-      targets: {
-        sat: 'Not a standard requirement',
-        gpa: '3.4+ (3.5+ is needed to keep the Global Leader Scholarship)',
-        basis: 'The scholarship thresholds are official. The admission targets are estimates.'
-      }
-    }
-  };
+  P['sungkyunkwan-university'] = {};
 
   P['hanyang-university'] = {
     stats: {
@@ -1921,40 +1910,6 @@
     admissions: {
       applicationFee: { amount: 150000, currency: 'KRW', waiverAvailableToInternational: null, waiver: null, note: 'KRW 30,000 if a candidate with a preliminary offer reapplies to the same admission unit. Otherwise non-refundable except as Korean law requires.' }
     },
-    english: {
-      ielts: {
-      min: null,
-      recommended: null,
-      varies: true,
-      profilesComplete: false,
-      profiles: [
-        {
-          name: 'English-track major selection',
-          overall: 6.5,
-          scope: 'Required before choosing an English-track major at the end of the first year',
-          source: 'https://admission-global.skku.edu/eng/etc/bbs_list.html?bbsid=global_notice_re_eng&ctg_cd=&page=1&skey=&keyword=&mode=view&bltn_seq=53774',
-          verified: '2026-09-18'
-        }
-      ],
-      note: 'Scholarship thresholds are separate from this requirement: IELTS 7.0 earns 50% and IELTS 8.0 earns 100% of first-semester tuition.'
-    },
-      toefl: {
-      min: null,
-      recommended: null,
-      varies: true,
-      profilesComplete: false,
-      profiles: [
-        {
-          name: 'English-track major selection',
-          overall: '80 (before 21 Jan 2026) · 4.5 (new scale)',
-          scope: 'Required before choosing an English-track major at the end of the first year',
-          source: 'https://admission-global.skku.edu/eng/etc/bbs_list.html?bbsid=global_notice_re_eng&ctg_cd=&page=1&skey=&keyword=&mode=view&bltn_seq=53774',
-          verified: '2026-09-18'
-        }
-      ],
-      note: 'Scholarship thresholds are separate: TOEFL iBT 95 earns 50% and 110 (5.5) earns 100% of first-semester tuition.'
-    }
-    },
     academics: {
       sat: { policy: 'accepted', note: 'IB, A-Level, AP, SAT and national exams can be submitted as academic references.' },
       act: { policy: 'accepted', note: 'Accepted as an academic reference.' }
@@ -1976,7 +1931,7 @@
       totalText: 'First-semester totals including the ₩198,000 entrance fee',
       note: 'From SKKU\'s 2026 Fall / 2027 Spring admission guide; the figures include the one-time entrance fee and may change for 2027 entrants.'
     },
-    sources: [{ label: 'SKKU 2026 Fall / 2027 Spring Admission Guide for International Students (Undergraduate)', url: 'https://admission-global.skku.edu/eng/etc/bbs_list.html?bbsid=global_notice_re_eng&ctg_cd=&page=1&skey=&keyword=&mode=view&bltn_seq=53774' }],
+    sources: [{ label: 'SKKU 2026 Fall / 2027 Spring Admission Guide for International Students (Undergraduate)', url: 'https://admission-global.skku.edu/common/download.php?fname=%5BEN%5D+Undergraduate+Freshmen+Admission+Guide_2027+Spring.pdf&fpath=board%2F202611041634513HFFN9.pdf' }],
     statsNote: 'SKKU publishes English thresholds (IELTS 6.5 for English-track majors; 7.0/8.0 for scholarships) but no admission averages.'
   });
 

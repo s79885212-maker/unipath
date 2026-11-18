@@ -1,0 +1,252 @@
+[
+  {
+    "id": "university-of-pennsylvania",
+    "country": "us",
+    "fields": [
+      "verification"
+    ]
+  },
+  {
+    "id": "university-of-chicago",
+    "country": "us",
+    "fields": [
+      "sources"
+    ]
+  },
+  {
+    "id": "georgetown-university",
+    "country": "us",
+    "fields": [
+      "verification"
+    ]
+  },
+  {
+    "id": "tulane-university",
+    "country": "us",
+    "fields": [
+      "verification"
+    ]
+  },
+  {
+    "id": "trinity-college-hartford",
+    "country": "us",
+    "fields": [
+      "links",
+      "sources"
+    ]
+  },
+  {
+    "id": "gettysburg-college",
+    "country": "us",
+    "fields": [
+      "verification",
+      "fieldNotes"
+    ]
+  },
+  {
+    "id": "sewanee-university-of-the-south",
+    "country": "us",
+    "fields": [
+      "links"
+    ]
+  },
+  {
+    "id": "soka-university-of-america",
+    "country": "us",
+    "fields": [
+      "links",
+      "verification"
+    ]
+  },
+  {
+    "id": "hendrix-college",
+    "country": "us",
+    "fields": [
+      "links"
+    ]
+  },
+  {
+    "id": "santa-clara-university",
+    "country": "us",
+    "fields": [
+      "links"
+    ]
+  },
+  {
+    "id": "texas-a-and-m-university",
+    "country": "us",
+    "fields": [
+      "scholarships"
+    ]
+  },
+  {
+    "id": "willamette-university",
+    "country": "us",
+    "fields": [
+      "programEvidence"
+    ]
+  },
+  {
+    "id": "university-of-tennessee-knoxville",
+    "country": "us",
+    "fields": [
+      "verification"
+    ]
+  },
+  {
+    "id": "cal-state-san-bernardino",
+    "country": "us",
+    "fields": [
+      "links",
+      "admissions",
+      "english",
+      "costs",
+      "sources"
+    ]
+  },
+  {
+    "id": "kyushu-university",
+    "country": "jp",
+    "fields": [
+      "links",
+      "scholarships",
+      "sources",
+      "verification"
+    ]
+  },
+  {
+    "id": "kwansei-gakuin-university",
+    "country": "jp",
+    "fields": [
+      "english",
+      "sources"
+    ]
+  },
+  {
+    "id": "toyo-university",
+    "country": "jp",
+    "fields": [
+      "sources",
+      "verification"
+    ]
+  },
+  {
+    "id": "seoul-national-university",
+    "country": "kr",
+    "fields": [
+      "verification",
+      "scholarships"
+    ]
+  },
+  {
+    "id": "sungkyunkwan-university",
+    "country": "kr",
+    "fields": [
+      "verification",
+      "stats",
+      "links",
+      "english",
+      "scholarships",
+      "sources"
+    ]
+  },
+  {
+    "id": "postech",
+    "country": "kr",
+    "fields": [
+      "links",
+      "costs",
+      "sources"
+    ]
+  },
+  {
+    "id": "unist",
+    "country": "kr",
+    "fields": [
+      "scholarships"
+    ]
+  },
+  {
+    "id": "inha-university",
+    "country": "kr",
+    "fields": [
+      "verification"
+    ]
+  },
+  {
+    "id": "chung-ang-university",
+    "country": "kr",
+    "fields": [
+      "sources",
+      "verification"
+    ]
+  },
+  {
+    "id": "pusan-national-university",
+    "country": "kr",
+    "fields": [
+      "sources",
+      "verification"
+    ]
+  },
+  {
+    "id": "sejong-university",
+    "country": "kr",
+    "fields": [
+      "verification"
+    ]
+  },
+  {
+    "id": "imperial-college-london",
+    "country": "uk",
+    "fields": [
+      "links"
+    ]
+  },
+  {
+    "id": "university-college-london",
+    "country": "uk",
+    "fields": [
+      "links",
+      "sources"
+    ]
+  },
+  {
+    "id": "university-of-glasgow",
+    "country": "uk",
+    "fields": [
+      "links"
+    ]
+  },
+  {
+    "id": "university-of-leeds",
+    "country": "uk",
+    "fields": [
+      "links"
+    ]
+  },
+  {
+    "id": "frankfurt-school",
+    "country": "de",
+    "fields": [
+      "links",
+      "scholarships",
+      "sources"
+    ]
+  },
+  {
+    "id": "university-of-europe-applied-sciences",
+    "country": "de",
+    "fields": [
+      "photos",
+      "verification"
+    ]
+  },
+  {
+    "id": "university-of-windsor",
+    "country": "ca",
+    "fields": [
+      "programEvidence"
+    ]
+  }
+]

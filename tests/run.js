@@ -331,6 +331,13 @@ group('profile rendering');
   ok(U.fullRide(U.uniById('marquette-university')).covers.housing===true&&
      !/cover-yes/.test(disputedCovers)&&/\? Housing/.test(disputedCovers),
      'conflicting award coverage never receives green item checks, while the source data remains intact');
+  var oldSnuCovers=page('seoul-national-university').split('<div class="covers">')[1].split('</div>')[0];
+  ok(!/cover-yes/.test(oldSnuCovers)&&/\? Tuition/.test(oldSnuCovers),
+     'Historical SNU coverage remains unknown in the profile instead of receiving confirmed item checks');
+  load('assets/js/views.js');
+  var snuAwardList=sandbox.UPViews.scholarships().split('<a href="'+U.uniUrl(U.uniById('seoul-national-university'))+'">')[1].split('</article>')[0];
+  ok(!/cover-yes/.test(snuAwardList)&&/\? Tuition/.test(snuAwardList),
+     'The scholarships overview also leaves historical award coverage unknown');
   var photoFixture=U.uniById('florida-international-university'), originalPhotos=photoFixture.photos;
   photoFixture.photos={main:null,thumb:null,gallery:[]};
   var noPhoto=page('florida-international-university').split('id="photos"')[1].split('</section>')[0];

@@ -1177,11 +1177,11 @@ window.UNIPATH.universities.push(
   englishTaughtPrograms: ['engineering','biology'],
   programNote: 'Kyushu states it runs five English-taught undergraduate programmes, in the School of Engineering and the School of Agriculture; all classes except Japanese language classes are in English.',
   links: {
-    website: 'https://www.kyushu-u.ac.jp/en/',
-    admissions: 'https://www.kyushu-u.ac.jp/en/admission/faculty/foreign/foreign10/',
-    applicationPortal: 'https://www.kyushu-u.ac.jp/en/admission/faculty/foreign/foreign10/',
-    scholarships: 'https://www.kyushu-u.ac.jp/en/admission/fees/scholarships/',
-    cost: 'https://www.kyushu-u.ac.jp/en/admission/fees/expenses'
+    "website": "https://www.kyushu-u.ac.jp/en/",
+    "admissions": "https://www.kyushu-u.ac.jp/en/admission/faculty/foreign/foreign10/",
+    "applicationPortal": "https://www.kyushu-u.ac.jp/en/admission/faculty/foreign/foreign10/",
+    "scholarships": "https://www.kyushu-u.ac.jp/f/66827/ENG_2027_Application%20Instruction.pdf",
+    "cost": "https://www.kyushu-u.ac.jp/en/admission/fees/expenses"
   },
   admissions: {
     platforms: ['Kyushu University international undergraduate application'],
@@ -1227,21 +1227,94 @@ window.UNIPATH.universities.push(
     note: 'These are the standard national-university rates in Japan; individual universities can differ, and fee waivers or exemptions are awarded separately.'
   },
   scholarships: {
-    fullRide: { available: true, internationalEligible: true, basis: 'merit', covers: { tuition: true, housing: false, meals: false, insurance: false, books: false, stipend: true }, renewable: true, competitiveness: 'MEXT places are limited and awarded to the strongest applicants.', howToApply: 'Applicants to the international undergraduate programmes can be recommended for the MEXT scholarship through the admission process.', note: 'The MEXT scholarship runs four years, pays ¥117,000 a month, exempts the enrolment and tuition fees and includes flights. Housing and food come out of the stipend.' },
-    merit: [
-      { name: 'Kyushu University International Undergraduate Scholarship', amount: "Engineering: ¥60,000 per month; annual selection for later years", eligibility: "Competitive; eligible foreign-only applicants with a qualification from outside Japan, residence abroad at application, and a new student visa; MEXT recipients excluded.", deadline: null, application: "Complete the scholarship section of the application form.", renewable: true, note: "Living allowance; tuition and other expenses are separate. The ¥48,000 six-month allowance is a distinct Monbukagakusho Honors Scholarship.", source: "https://www.kyushu-u.ac.jp/f/66827/ENG_2027_Application%20Instruction.pdf", verified: "2026-11-16", internationalEligible: true },
-      { name: 'First-year tuition exemption', amount: 'Half of the tuition for the first two semesters', eligibility: "Engineering: only foreign nationality, qualification obtained abroad, residence abroad when applying, and a new student visa.", deadline: null, application: 'Applied through the university', renewable: false, note: "Half tuition for the first two semesters for eligible students. Enrolment fee, housing and other expenses remain.", source: "https://www.kyushu-u.ac.jp/f/66827/ENG_2027_Application%20Instruction.pdf", verified: "2026-11-16" }
+    "fullRide": {
+      "available": true,
+      "internationalEligible": true,
+      "basis": "merit",
+      "covers": {
+        "tuition": true,
+        "housing": false,
+        "meals": false,
+        "insurance": false,
+        "books": false,
+        "stipend": true
+      },
+      "renewable": true,
+      "competitiveness": "MEXT places are limited and awarded to the strongest applicants.",
+      "howToApply": "Applicants to the international undergraduate programmes can be recommended for the MEXT scholarship through the admission process.",
+      "note": "Engineering October 2027, MEXT: selection and university nomination are conditional on Japanese government approval of Kyushu’s new scholarship proposal. Approval is not confirmed here. If approved and awarded, the published terms are four years, JPY 117,000 per month, entrance and tuition exemptions and flights. Housing, meals and personal costs are paid from the allowance. This is not guaranteed aid or a confirmed budget reduction.",
+      "status": "not-confirmed",
+      "source": "https://www.kyushu-u.ac.jp/f/66827/ENG_2027_Application%20Instruction.pdf",
+      "verified": "2026-11-18",
+      "guaranteed": false
+    },
+    "merit": [
+      {
+        "name": "Kyushu University International Undergraduate Scholarship",
+        "amount": "Engineering: ¥60,000 per month; annual selection for later years",
+        "eligibility": "Competitive; eligible foreign-only applicants with a qualification from outside Japan, residence abroad at application, and a new student visa; MEXT recipients excluded.",
+        "deadline": null,
+        "application": "Complete the scholarship section of the application form.",
+        "renewable": true,
+        "note": "Living allowance; tuition and other expenses are separate. The ¥48,000 six-month allowance is a distinct Monbukagakusho Honors Scholarship.",
+        "source": "https://www.kyushu-u.ac.jp/f/66827/ENG_2027_Application%20Instruction.pdf",
+        "verified": "2026-11-16",
+        "internationalEligible": true
+      },
+      {
+        "name": "First-year tuition exemption",
+        "amount": "Half of the tuition for the first two semesters",
+        "eligibility": "Engineering: only foreign nationality, qualification obtained abroad, residence abroad when applying, and a new student visa.",
+        "deadline": null,
+        "application": "Applied through the university",
+        "renewable": false,
+        "note": "Half tuition for the first two semesters for eligible students. Enrolment fee, housing and other expenses remain.",
+        "source": "https://www.kyushu-u.ac.jp/f/66827/ENG_2027_Application%20Instruction.pdf",
+        "verified": "2026-11-16"
+      }
     ],
-    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": false,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Not confirmed during this check."
+    }
   },
   photos: { main: null, gallery: [], city: null },
   sources: [
-    { label: 'Enrolling in undergraduate school (language of instruction: English)', url: 'https://www.kyushu-u.ac.jp/en/admission/faculty/foreign/foreign10/' },
-    { label: 'Scholarships', url: 'https://www.kyushu-u.ac.jp/en/admission/fees/scholarships/' },
-    { label: 'Tuition and fees', url: 'https://www.kyushu-u.ac.jp/en/admission/fees/expenses' },
-    { label: 'About — history and facts', url: 'https://www.kyushu-u.ac.jp/en/university' }
+    {
+      "label": "Enrolling in undergraduate school (language of instruction: English)",
+      "url": "https://www.kyushu-u.ac.jp/en/admission/faculty/foreign/foreign10/"
+    },
+    {
+      "label": "Engineering October 2027: financial aid, pages 16–17",
+      "url": "https://www.kyushu-u.ac.jp/f/66827/ENG_2027_Application%20Instruction.pdf"
+    },
+    {
+      "label": "Tuition and fees",
+      "url": "https://www.kyushu-u.ac.jp/en/admission/fees/expenses"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.kyushu-u.ac.jp/en/university"
+    }
   ],
-  verification: { level: 'partial', checked: ['English-taught programmes','scholarships','previous-cycle application window','english (IELTS and TOEFL minimums)'], unconfirmed: ['2027 application dates','application fee'] },
+  verification: {
+    "level": "partial",
+    "checked": [
+      "English-taught programmes",
+      "scholarships",
+      "previous-cycle application window",
+      "english (IELTS and TOEFL minimums)"
+    ],
+    "unconfirmed": [
+      "2027 application dates",
+      "application fee",
+      "MEXT government approval for Engineering October 2027 is not established by the conditional application guide."
+    ]
+  },
   lastVerified: '2026-09-23'
 },
 
@@ -2478,14 +2551,33 @@ window.UNIPATH.universities.push(
     notes: ['Kwansei Gakuin states that tuition for 2027 entrants had not been finalised when this was checked.']
   },
   english: {
-    ielts: { min: 6, recommended: null, note: 'The School of International Studies asks for IELTS 6.0 or higher from applicants whose first language is not English.' },
-    toefl: { min: 71, recommended: null, scales: [{ period: 'pre2026', min: 71, note: 'TOEFL iBT 71 or higher. The TOEFL iBT Home Edition is not accepted.' }], note: 'TOEFL iBT 71 or higher; the Home Edition is not accepted.' },
-    duolingo: { min: null, recommended: null, note: 'Not listed among the accepted tests.' },
-    otherTests: 'TOEIC L&R 730 or higher, and EIKEN pre-first grade or higher.',
-    waiver: 'Applicants who graduated, or expect to graduate, from an institution teaching in English are exempt, provided they had at least three years of education there.',
-    note: 'Scores must be from a test taken within two years before the application, except for EIKEN.',
-    source: 'https://www.kwansei.ac.jp/en/assets/International_Admission_2026_Application_Handbook.pdf',
-    verified: '2026-09-24'
+    "ielts": {
+      "min": 6,
+      "recommended": null,
+      "note": "The School of International Studies asks for IELTS 6.0 or higher from applicants whose first language is not English."
+    },
+    "toefl": {
+      "min": 71,
+      "recommended": null,
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 71,
+          "note": "TOEFL iBT 71 or higher. The TOEFL iBT Home Edition is not accepted."
+        }
+      ],
+      "note": "For SIS International Admission 2027, TOEFL iBT 71 or higher; Home Edition is not accepted. For tests from 21 January 2026, eligibility is determined using the previous scale printed alongside the new score."
+    },
+    "duolingo": {
+      "min": null,
+      "recommended": null,
+      "note": "Not listed among the accepted tests."
+    },
+    "otherTests": "TOEIC L&R 730 or higher, and EIKEN pre-first grade or higher.",
+    "waiver": "For SIS International Admission 2027, applicants whose first language is English are exempt. Otherwise, graduates or expected graduates need at least three years of education in English at the most recently attended institution, proved by official transcripts or a letter from its principal.",
+    "note": "Scores must be from a test taken within two years before the application, except for EIKEN.",
+    "source": "https://www.kwansei.ac.jp/en/assets/List_of_Application_Documents2027.pdf",
+    "verified": "2026-11-18"
   },
   academics: {
     gpa: null,
@@ -2513,7 +2605,7 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'Admission and tuition fees - School of International Studies', url: 'https://www.kwansei.ac.jp/en/academics/undergraduate/international-studies/admission.html' },
-    { label: 'International Admission application handbook 2026 (PDF)', url: 'https://www.kwansei.ac.jp/en/assets/International_Admission_2026_Application_Handbook.pdf' },
+    { label: 'International Admission application handbook 2026 (PDF)', url: 'https://www.kwansei.ac.jp/en/assets/List_of_Application_Documents2027.pdf' },
     { label: 'About — history and facts', url: 'https://www.kwansei.ac.jp/en/about/facts.html' }
   ],
   verification: { level: 'partial', checked: ['English-based degree route','compulsory Japanese course','fee publication status','english (IELTS, TOEFL, TOEIC and EIKEN minimums and waiver)'], unconfirmed: ['tuition amounts','2027 dates','scholarships','application fee'] },
@@ -2587,12 +2679,43 @@ window.UNIPATH.universities.push(
   },
   photos: { main: null, gallery: [], city: null },
   sources: [
-    { label: 'Admissions for international students', url: 'https://www.toyo.ac.jp/nyushi/en/admission/' },
-    { label: 'Online entrance examination guide - Global Innovation Studies (PDF)', url: 'https://www.toyo.ac.jp/nyushi/content/dam/toyowebstyle/admission/admission-data/international-student/requirements-online/online-entry-exam_dgis_2026_sep_en.pdf' },
-    { label: 'Payment of tuition and fees (PDF)', url: 'https://www.toyo.ac.jp/nyushi/content/dam/toyowebstyle/international-student/payment-of-tuition-and-fees_en.pdf' },
-    { label: 'About — history and facts', url: 'https://www.toyo.ac.jp/about/gakuhou/backnumber/en/268_07/' }
+    {
+      "label": "Admissions for international students",
+      "url": "https://www.toyo.ac.jp/nyushi/en/admission/"
+    },
+    {
+      "label": "Online entrance examination guide - Global Innovation Studies (PDF)",
+      "url": "https://www.toyo.ac.jp/nyushi/content/dam/toyowebstyle/admission/admission-data/international-student/requirements-online/online-entry-exam_dgis_2026_sep_en.pdf"
+    },
+    {
+      "label": "Payment of tuition and fees (PDF)",
+      "url": "https://www.toyo.ac.jp/nyushi/content/dam/toyowebstyle/international-student/payment-of-tuition-and-fees_en.pdf"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.toyo.ac.jp/about/gakuhou/backnumber/en/268_07/"
+    },
+    {
+      "label": "Current admissions reference — not a replacement confirmation of the unavailable cycle",
+      "url": "https://www.toyo.ac.jp/nyushi/admission/admission-data/international-student/application-guide/"
+    }
   ],
-  verification: { level: 'partial', checked: ['English-based route','TOEFL requirement','selection method','tuition reduction'], unconfirmed: ['tuition amounts','2027 dates','IELTS acceptance','application fee'] },
+  verification: {
+    "level": "partial",
+    "checked": [
+      "English-based route",
+      "TOEFL requirement",
+      "selection method",
+      "tuition reduction"
+    ],
+    "unconfirmed": [
+      "tuition amounts",
+      "2027 dates",
+      "IELTS acceptance",
+      "application fee",
+      "The September 2026 Global Innovation Studies guide is missing. The current application index covers April 2027 and says the September 2027 guide is pending; it does not verify the old September document."
+    ]
+  },
   lastVerified: '2026-09-23'
 },
 

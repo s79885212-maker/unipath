@@ -339,7 +339,7 @@ records.append(R(
       'Частный иезуитский университет в Санта-Кларе, штат Калифорния. Баллы ACT и SAT для приёма больше не требуются; абитуриентов рассматривают на приём и стипендии за успехи одинаково, есть баллы или нет. Сумм платы за обучение и условий помощи иностранным студентам на прочитанных страницах нет.'),
     ['business', 'engineering', 'psychology', 'law', 'education'],
     {'website': 'https://www.scu.edu/', 'admissions': 'https://www.scu.edu/admission/undergraduate/first-year-students/', 'international': 'https://www.scu.edu/admission/undergraduate/international-students/', 'portal': 'https://www.commonapp.org/',
-     'aid': 'https://www.scu.edu/admission/financial-aid/', 'programs': 'https://www.scu.edu/academics/', 'cost': 'https://www.scu.edu/finance/bursar/tuition/'},
+     'aid': 'https://www.scu.edu/financialaid/international/', 'programs': 'https://www.scu.edu/academics/', 'cost': 'https://www.scu.edu/finance/bursar/tuition/'},
     verified=V, platforms=[COMMON], aliases=['SCU'],
     programNote=L('Only the fields named on the academics page read are listed.', 'Указаны только направления, названные на прочитанной странице об учёбе.'),
     rounds=[

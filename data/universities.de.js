@@ -786,11 +786,11 @@ window.UNIPATH.universities.push(
   links: {
     website: 'https://www.frankfurt-school.de/en',
     admissions: 'https://www.frankfurt-school.de/en/study/bachelor',
-    internationalAdmissions: 'https://www.frankfurt-school.de/en/study/bachelor/bachelor-science',
+    internationalAdmissions: 'https://www.frankfurt-school.de/en/home/study/bachelor/bachelor-in-business-administration',
     applicationPortal: 'https://www.frankfurt-school.de/en/study/bachelor',
-    scholarships: 'https://www.frankfurt-school.de/en/home/programmes/financing',
-    financialAid: 'https://www.frankfurt-school.de/en/home/programmes/financing',
-    programs: 'https://www.frankfurt-school.de/en/study/bachelor/bachelor-science',
+    scholarships: 'https://www.frankfurt-school.de/en/home/students-alumni/financing',
+    financialAid: 'https://www.frankfurt-school.de/en/home/students-alumni/financing',
+    programs: 'https://www.frankfurt-school.de/en/home/study/bachelor/bachelor-in-business-administration',
     cost: 'https://www.frankfurt-school.de/cms/dam/jcr:5a373f8b-d6cf-4175-9681-7b36eb573471/COA.Website%202026_27.pdf'
   },
   admissions: {
@@ -845,26 +845,51 @@ window.UNIPATH.universities.push(
     note: 'Frankfurt School\'s published cost of attendance for its BSc programmes in 2026/27 (Business Administration, Computational Business Analytics, Management, Philosophy & Economics). For the September 2027 start the programme pages list tuition of €8,600 per semester.'
   },
   scholarships: {
-    fullRide: {
-      available: false, internationalEligible: null, basis: 'merit',
-      covers: { tuition: true, housing: false, meals: false, insurance: false, books: false },
-      renewable: null, competitiveness: null, howToApply: null,
-      note: 'The highest awards remove tuition entirely, but no award listed covers living costs, so this is not a full ride.'
+    "fullRide": {
+      "available": false,
+      "internationalEligible": null,
+      "basis": "merit",
+      "covers": {
+        "tuition": null,
+        "housing": false,
+        "meals": false,
+        "insurance": false,
+        "books": false
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "The general and diversity awards apply to the full-time bachelor route and may include partner-university exchange semesters. Selection considers academic results and personal background. The separate 75% Studienstiftung route requires German Abitur and a school nomination; it is not a general international award. No 100% award for Fall 2027 is established by this page. Living costs are extra."
     },
-    merit: [
-      { name: 'Frankfurt School merit scholarships', amount: '15%, 25%, 50%, 75% or 100% tuition reduction', eligibility: 'Students with excellent grades and a strong performance in the admissions process; background, motivation, financial need and engagement are also considered', deadline: null, application: 'Considered through the admissions process', renewable: null, note: null }
+    "merit": [
+      {
+        "name": "General FS and Diversity Scholarships",
+        "amount": "15%, 25% or 50% tuition reduction",
+        "eligibility": "Students with excellent grades and a strong performance in the admissions process; background, motivation, financial need and engagement are also considered",
+        "deadline": null,
+        "application": "Considered through the admissions process",
+        "renewable": null,
+        "note": "The general and diversity awards apply to the full-time bachelor route and may include partner-university exchange semesters. Selection considers academic results and personal background. The separate 75% Studienstiftung route requires German Abitur and a school nomination; it is not a general international award. No 100% award for Fall 2027 is established by this page. Living costs are extra.",
+        "internationalEligible": true,
+        "firstYearEligible": true,
+        "source": "https://www.frankfurt-school.de/en/home/students-alumni/financing",
+        "verified": "2026-11-18"
+      }
     ],
-    needBased: {
-      availableToInternational: null, meetsFullNeed: false, needBlindInternational: null,
-      forms: [], deadlines: null,
-      note: 'Financial need is one of the factors in the merit scholarships; a separate need-based scheme was not confirmed.'
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": false,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Financial need is one of the factors in the merit scholarships; a separate need-based scheme was not confirmed."
     }
   },
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'Cost of attendance 2026/2027 — BSc programmes (PDF)', url: 'https://www.frankfurt-school.de/cms/dam/jcr:5a373f8b-d6cf-4175-9681-7b36eb573471/COA.Website%202026_27.pdf' },
     { label: 'Bachelor programmes', url: 'https://www.frankfurt-school.de/en/study/bachelor' },
-    { label: 'Financing your studies', url: 'https://www.frankfurt-school.de/en/home/programmes/financing' },
+    { label: 'Financing your studies', url: 'https://www.frankfurt-school.de/en/home/students-alumni/financing' },
     { label: 'BSc Business Administration — deadline and fees', url: 'https://www.frankfurt-school.de/en/study/bachelor/bachelor-in-business-administration' },
     { label: 'BSc Management, Philosophy & Economics', url: 'https://www.frankfurt-school.de/en/study/bachelor/bachelor-in-management-philosophy-economics' },
     { label: 'BSc Artificial Intelligence & Data Engineering', url: 'https://www.frankfurt-school.de/en/study/bachelor/bachelor-in-artificial-intelligence-and-data-engineering' }
@@ -1665,14 +1690,42 @@ window.UNIPATH.universities.push(
     merit: [],
     needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
   },
-  photos: { main: null, gallery: [], city: null },
+  photos: {
+    "main": "assets/img/universities/university-of-europe-applied-sciences/1.jpg",
+    "thumb": "assets/img/universities/university-of-europe-applied-sciences/thumb.jpg",
+    "gallery": [
+      {
+        "src": "assets/img/universities/university-of-europe-applied-sciences/1.jpg",
+        "title": "University of Applied Sciences Europe - Campus Berlin",
+        "caption": "This is the front of campus building of the University of Applied Sciences Europe in Berlin, Germany",
+        "artist": "Jacob Ferguson",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AUniversity_of_Applied_Sciences_Europe_-_Campus_Berlin.jpg"
+      }
+    ]
+  },
   sources: [
     { label: 'Admission requirements', url: 'https://www.ue-germany.com/admission-requirements' },
     { label: 'Tuition fees and funding', url: 'https://www.ue-germany.com/study-with-us/fees-and-finance' },
     { label: 'How to apply — bachelor', url: 'https://www.ue-germany.com/study-with-us/how-to-apply/bachelor' },
     { label: 'About — history and facts', url: 'https://www.ue-germany.com/news-centre/press/university-of-applied-sciences-europe' }
   ],
-  verification: { level: 'partial', checked: ['english (IELTS 5.5 undergraduate)','language of instruction','reservation fee','application documents','tuition (published bachelor starting rate)'], unconfirmed: ['deadlines','scholarships'] },
+  verification: {
+    "level": "partial",
+    "checked": [
+      "english (IELTS 5.5 undergraduate)",
+      "language of instruction",
+      "reservation fee",
+      "application documents",
+      "tuition (published bachelor starting rate)"
+    ],
+    "unconfirmed": [
+      "deadlines",
+      "scholarships",
+      "A second Berlin image was removed because its original page and reuse licence could not be verified. The first credited campus image remains."
+    ]
+  },
   lastVerified: '2026-09-23'
 },
 

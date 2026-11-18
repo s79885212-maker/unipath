@@ -434,11 +434,24 @@
      "Meets full demonstrated need" is a separate, need-based promise and is
      never folded into these. */
   function internationalFirstYearAward(a) {
-    return !!a && a.internationalEligible === true && a.firstYearEligible !== false && a.status !== 'conflict';
+    return !!a && a.internationalEligible === true && a.firstYearEligible !== false &&
+      (!a.status || a.status === 'confirmed');
+  }
+  function internationalFirstYearNeed(a) {
+    return needFirstYearEligibility(a) === true;
+  }
+  function needFirstYearEligibility(a) {
+    if (!a) return null;
+    if (a.firstYearEligible === false) return false;
+    if (a.status && a.status !== 'confirmed') return null;
+    return typeof a.availableToInternational === 'boolean' ? a.availableToInternational : null;
+  }
+  function needFirstYearEligible(u) {
+    return needFirstYearEligibility(needBased(u));
   }
   function awardKind(u) {
     var fr = fullRide(u);
-    if (fr.available !== true || fr.status === 'conflict') return null;
+    if (fr.available !== true || (fr.status && fr.status !== 'confirmed')) return null;
     var c = fr.covers || {};
     if (c.tuition === true && c.housing === true && c.meals === true) return 'full-ride';
     if (c.tuition === true && c.stipend === true) return 'tuition-stipend';
@@ -453,6 +466,7 @@
   };
   function awardLabel(u) {
     if (fullRide(u).status === 'conflict') return 'Official sources conflict — award coverage';
+    if (fullRide(u).status && fullRide(u).status !== 'confirmed') return statusLabel(fullRide(u).status);
     var k = awardKind(u); return k ? AWARD_LABEL[k] : null;
   }
   /* Named awards of a record. They are stored in one list (`merit`, the name
@@ -1011,7 +1025,7 @@
       toeflMin(u) ? 'TOEFL ' + toeflMin(u) : '',
       u.englishTaught === true ? 'English-taught english taught' : '',
       awardKind(u) === 'full-ride' ? 'full ride full scholarship full funding' : awardKind(u) ? 'full tuition scholarship full funding' : '',
-      needBased(u).availableToInternational === true ? 'need-based financial aid need based' : '',
+      needFirstYearEligible(u) === true ? 'need-based financial aid need based' : '',
       meritList(u).length ? 'merit scholarship' : '',
       (u.programs || []).map(function (p) { return field(p).label; }).join(' '),
       awardsAll(u).map(function (m) { return m.name + ' ' + (m.amount || ''); }).join(' '),
@@ -1026,7 +1040,7 @@
       (u.programs || []).forEach(function (p) { facets.push(field(p).label); });
       if (u.englishTaught === true) facets.push('English-taught');
       if (awardKind(u)) facets.push(AWARD_LABEL[awardKind(u)], 'Full scholarship');
-      if (needBased(u).availableToInternational === true) facets.push('Need-based aid');
+      if (needFirstYearEligible(u) === true) facets.push('Need-based aid');
       if (meritList(u).length) facets.push('Merit scholarships');
       text += ' · ' + parts.concat(facets).map(tr).join(' · ');
     }
@@ -1083,8 +1097,8 @@
             return meritList(u).some(internationalFirstYearAward) || (fr.available === true && internationalFirstYearAward(fr) &&
               ['merit', 'need-merit', 'talent'].indexOf(fr.basis) > -1);
           } },
-        { id: 'need', label: 'Need-based aid for internationals', test: function (u) { return needBased(u).availableToInternational === true; } },
-        { id: 'meets-need', label: 'Meets full demonstrated need', test: function (u) { return needBased(u).availableToInternational === true && needBased(u).meetsFullNeed === true; } }
+        { id: 'need', label: 'Need-based aid for internationals', test: function (u) { return internationalFirstYearNeed(needBased(u)); } },
+        { id: 'meets-need', label: 'Meets full demonstrated need', test: function (u) { return internationalFirstYearNeed(needBased(u)) && needBased(u).meetsFullNeed === true; } }
       ]
     },
     {
@@ -1754,7 +1768,7 @@
     testStatus: testStatus, testStatusLabel: testStatusLabel,
     institutionKind: institutionKind, institutionKindLabel: function (u) { return INSTITUTION_KINDS[institutionKind(u)]; }, isCommunityCollege: isCommunityCollege, degreesOf: degreesOf, degreesLabel: degreesLabel,
     satPolicy: satPolicy, satLabel: satLabel, satNotRequired: satNotRequired, hasIelts: hasIelts, ieltsPublished: ieltsPublished, englishPrograms: englishPrograms, englishLabel: englishLabel, ieltsMin: ieltsMin, ieltsVaries: ieltsVaries, testVaries: testVaries, variesLabel: variesLabel, toeflLines: toeflLines, ieltsLabel: ieltsLabel, statsOf: statsOf, toeflMin: toeflMin,
-    fullRide: fullRide, awardKind: awardKind, awardLabel: awardLabel, meritList: meritList, awardsAll: awardsAll, otherAwards: otherAwards, awardBasis: awardBasis, awardBasisLabel: awardBasisLabel, AWARD_BASIS: AWARD_BASIS, needBased: needBased,
+    fullRide: fullRide, awardKind: awardKind, awardLabel: awardLabel, meritList: meritList, awardsAll: awardsAll, otherAwards: otherAwards, awardBasis: awardBasis, awardBasisLabel: awardBasisLabel, AWARD_BASIS: AWARD_BASIS, needBased: needBased, needFirstYearEligible: needFirstYearEligible,
     feeAmount: feeAmount, feeWaiver: feeWaiver, feeWaiverLabel: feeWaiverLabel, feeLabel: feeLabel,
     firstDeadline: firstDeadline, deadlineInfo: deadlineInfo, deadlineHtml: deadlineHtml, nextDeadline: nextDeadline, deadlineCardText: deadlineCardText,
     deadlinePassed: deadlinePassed, deadlineEnd: deadlineEnd, roundState: roundState, roundStateLabel: roundStateLabel, isApplicationDeadline: isApplicationDeadline, otherDateLabel: otherDateLabel,

@@ -59,7 +59,7 @@
             (has(u.founded) ? ' · <span>Founded</span> ' + esc(u.founded) : '') + '</p>' +
           '<div class="pill-row">' +
             (fr.available === true && fr.internationalEligible === true ? '<span class="badge">★ <span>' + esc(U.awardLabel(u)) + '</span></span>' : '') +
-            (need.meetsFullNeed === true ? '<span class="badge">Meets full demonstrated need</span>' : '') +
+            (U.needFirstYearEligible(u) === true && need.meetsFullNeed === true ? '<span class="badge">Meets full demonstrated need</span>' : '') +
             (U.englishLabel(u) ? '<span class="badge">' + esc(U.englishLabel(u)) + '</span>' : '') +
             '<span class="badge">' + esc(U.satLabel(u)) + '</span>' +
             (merit.length ? '<span class="badge">' + merit.length + ' merit scholarship' + (merit.length > 1 ? 's' : '') + '</span>' : '') +
@@ -483,8 +483,8 @@
       '<dl class="deflist">' +
         row('Open to international students', yesNo(fr.internationalEligible)) +
         row('Need-based or merit-based', or(U.AWARD_BASIS[fr.basis] || fr.basis)) +
-        row('What it covers', (fr.status === 'conflict' ? '<p class="small muted">The sources disagree on coverage; the individual cost items remain unconfirmed here.</p>' : '') + coverRow(fr.status === 'conflict' ? null : fr.covers)) +
-        (fr.available === true ? row('Costs that may remain', remainingCosts(fr.status === 'conflict' ? null : fr.covers)) : '') +
+        row('What it covers', (fr.status === 'conflict' ? '<p class="small muted">The sources disagree on coverage; the individual cost items remain unconfirmed here.</p>' : '') + coverRow(fr.status && fr.status !== 'confirmed' ? null : fr.covers)) +
+        (fr.available === true ? row('Costs that may remain', remainingCosts(fr.status && fr.status !== 'confirmed' ? null : fr.covers)) : '') +
         row('Renewal', yesNo(fr.renewable) + (has(fr.renewalConditions) ? '<br><span class="small muted">' + esc(fr.renewalConditions) + '</span>' : '')) +
         row('How competitive', or(fr.competitiveness)) +
         row('Application and deadline', or(fr.howToApply)) +
@@ -576,8 +576,8 @@
     var needCard = '<article class="card need-card"><div class="card-body">' +
       '<h3>Need-based financial aid</h3>' +
       '<dl class="deflist">' +
-        row('Available to international students', yesNo(need.availableToInternational)) +
-        row('Meets full demonstrated need for internationals', yesNo(need.meetsFullNeed) +
+        row('Available to international first-year applicants', yesNo(U.needFirstYearEligible(u))) +
+        row('Meets full demonstrated need for internationals', yesNo(need.meetsFullNeed === false ? false : U.needFirstYearEligible(u) === true ? need.meetsFullNeed : U.needFirstYearEligible(u)) +
           (need.meetsFullNeed === true ? '<br><span class="small muted">“Need” is the amount the university itself calculates a family cannot pay. Meeting it in full does not mean a zero family contribution, and the package can include work or loans unless the university says otherwise.</span>' : '')) +
         row('Need-blind for international applicants', yesNo(need.needBlindInternational)) +
         row('Required forms', has(need.forms) ? need.forms.map(esc).join(', ') : UNKNOWN) +
@@ -1353,7 +1353,7 @@
       (noTuition.length ? '<p class="small muted">No tuition figure is recorded for ' + noTuition.length + ' of these institutions; their cards show the status of the figure and their profiles link to the official cost page.</p>' : '');
 
     var aidBody = '<p>' + withFullRide + ' of ' + list.length + ' universities list a full-scholarship route, and ' +
-      list.filter(function (u) { return U.needBased(u).availableToInternational === true; }).length +
+      list.filter(function (u) { return U.needFirstYearEligible(u) === true; }).length +
       ' confirm need-based aid for international students. A scholarship is only called a full ride where the university states what it covers.</p>' +
       '<p class="small muted">An award you might win is not the same as a guaranteed cost of zero. Each profile lists the conditions.</p>' +
       '<p><a class="btn btn-ghost btn-sm" href="#/universities?c=' + c.code + '&scholarship=full-ride-intl">Show institutions with a full-level award</a></p>';
@@ -1486,8 +1486,8 @@
         return m.length ? m.map(function (x) { return '• ' + esc(x.name) + (has(x.amount) ? ' — ' + esc(x.amount) : '') +
           '<br><span class="small muted">' + esc(U.awardBasisLabel(x)) + '</span>'; }).join('<br>') : '<span class="muted">None listed</span>';
       }],
-      ['Need-based aid for internationals', function (u) { return yesNo(U.needBased(u).availableToInternational); }],
-      ['Meets full demonstrated need', function (u) { return yesNo(U.needBased(u).meetsFullNeed); }],
+      ['Need-based aid for international first-year applicants', function (u) { return yesNo(U.needFirstYearEligible(u)); }],
+      ['Meets full demonstrated need', function (u) { var need = U.needBased(u); return yesNo(need.meetsFullNeed === false ? false : U.needFirstYearEligible(u) === true ? need.meetsFullNeed : U.needFirstYearEligible(u)); }],
       ['group', 'Programs & applying'],
       ['Business (field area)', function (u) { return (u.programs || []).indexOf('business') > -1 ? '<span class="badge badge-ok">Yes</span>' : !U.programsChecked(u) ? '<span class="unknown">Not checked</span>' : U.programsPartial(u) ? '<span class="unknown">List only partly read</span>' : '<span class="badge">Not listed</span>'; }],
       ['Economics (field area)', function (u) { return (u.programs || []).indexOf('economics') > -1 ? '<span class="badge badge-ok">Yes</span>' : !U.programsChecked(u) ? '<span class="unknown">Not checked</span>' : U.programsPartial(u) ? '<span class="unknown">List only partly read</span>' : '<span class="badge">Not listed</span>'; }],

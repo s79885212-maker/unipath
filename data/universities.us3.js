@@ -8715,7 +8715,7 @@ window.UNIPATH.universities.push(
     "internationalAdmissions": "https://via.hendrix.edu/admission-aid/international-applicants",
     "applicationPortal": "http://apply.hendrix.edu/apply",
     "scholarships": "https://www.hendrix.edu/financialaid/scholarships/",
-    "financialAid": "https://www.hendrix.edu/admission-aid/financial-aid",
+    "financialAid": "https://www.hendrix.edu/financialaid/",
     "programs": "https://via.hendrix.edu/academics/departments-and-majors/",
     "cost": "https://www.hendrix.edu/financialaid/default.aspx?id=236"
   },
@@ -21413,7 +21413,7 @@ window.UNIPATH.universities.push(
     "internationalAdmissions": "https://www.scu.edu/admission/undergraduate/international-students/",
     "applicationPortal": "https://www.commonapp.org/",
     "scholarships": null,
-    "financialAid": "https://www.scu.edu/admission/financial-aid/",
+    "financialAid": "https://www.scu.edu/financialaid/international/",
     "programs": "https://www.scu.edu/academics/undergraduate-programs/",
     "cost": "https://www.scu.edu/financialaid/cost-of-attendance/"
   },
@@ -24270,7 +24270,8 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": "Texas A&M says aid for international students is need-based, supplements the student’s own funds, does not cover all educational costs and is limited and not guaranteed."
+      "note": "Texas A&M says aid for international students is need-based, supplements the student’s own funds, does not cover all educational costs and is limited and not guaranteed.",
+      "status": "not-published"
     },
     "merit": [],
     "needBased": {
@@ -24281,7 +24282,11 @@ window.UNIPATH.universities.push(
         "Texas Application for State Financial Aid (TASFA)"
       ],
       "deadlines": null,
-      "note": "From the 2026–2027 academic year the TASFA replaces the ISFAA for international students at Texas A&M; it is filed once for each academic year."
+      "note": "ITPEG is unavailable to F-1 students during their first academic year (Fall and Spring), and J-1 students are excluded. The separate Mexican Citizens waiver is restricted by nationality and residence. TASFA alone does not make an Uzbek international first-year applicant eligible for these programmes. No Fall 2027 aid deadline is confirmed here.",
+      "firstYearEligible": null,
+      "source": "https://aggie.tamu.edu/paying-for-college/apply-for-financial-aid/international-student-financial-aid.html",
+      "verified": "2026-11-18",
+      "status": "not-checked"
     }
   },
   "photos": {
@@ -27638,7 +27643,7 @@ window.UNIPATH.universities.push(
       "program": "Industrial Engineering and Operations Research (BS)",
       "level": "bachelor",
       "language": "English",
-      "url": "https://catalog.willamette.edu/programs/BS.IEOR",
+      "url": "https://willamette.edu/academics/college/industrial-engineering/requirements",
       "checked": "2026-10-14"
     },
     "psychology": {
@@ -47758,7 +47763,8 @@ window.UNIPATH.universities.push(
     "unconfirmed": [
       "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
       "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
-      "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
+      "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below.",
+      "The archived exchange agreement used for the teaching-language note could not be recovered. It does not independently verify a degree route."
     ]
   },
   "lastVerified": "2026-11-02",

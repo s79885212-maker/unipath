@@ -9808,36 +9808,36 @@ window.UNIPATH.universities.push(
       "program": "Business",
       "level": "bachelor",
       "language": "English",
-      "url": "https://future.uwindsor.ca/student-awards",
-      "checked": "2026-10-16"
+      "url": "https://future.uwindsor.ca/business",
+      "checked": "2026-11-18"
     },
     "computer-science": {
       "program": "Computer Science",
       "level": "bachelor",
       "language": "English",
-      "url": "https://future.uwindsor.ca/student-awards",
-      "checked": "2026-10-16"
+      "url": "https://www.uwindsor.ca/science/computerscience/",
+      "checked": "2026-11-18"
     },
     "engineering": {
       "program": "Engineering",
       "level": "bachelor",
       "language": "English",
-      "url": "https://future.uwindsor.ca/student-awards",
-      "checked": "2026-10-16"
+      "url": "https://future.uwindsor.ca/engineering",
+      "checked": "2026-11-18"
     },
     "medicine": {
       "program": "Nursing",
       "level": "bachelor",
       "language": "English",
-      "url": "https://future.uwindsor.ca/student-awards",
-      "checked": "2026-10-16"
+      "url": "https://future.uwindsor.ca/nursing",
+      "checked": "2026-11-18"
     },
     "education": {
-      "program": "Education",
+      "program": "Concurrent Psychology (BA) / Education (BEd) / Early Childhood Education",
       "level": "bachelor",
       "language": "English",
-      "url": "https://future.uwindsor.ca/student-awards",
-      "checked": "2026-10-16"
+      "url": "https://future.uwindsor.ca/education",
+      "checked": "2026-11-18"
     },
     "economics": {
       "program": "Economics (BA, BSc)",

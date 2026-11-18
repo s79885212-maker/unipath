@@ -1,0 +1,16 @@
+{
+  "total": 54,
+  "counts": {
+    "unresolved-explicit-warning": 11,
+    "replaced-content-source": 23,
+    "original-content-readable": 16,
+    "read-official-web-index": 3,
+    "unverified-photo-removed": 1
+  },
+  "restoredOrReadable": 39,
+  "replacementURLs": 23,
+  "originalReadable": 16,
+  "webOnlyDisagreement": 3,
+  "unresolved": 11,
+  "removedPhoto": 1
+}

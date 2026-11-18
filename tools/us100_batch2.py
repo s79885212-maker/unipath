@@ -242,9 +242,9 @@ def build_profiles():
         make_profile(
             "cal-state-san-bernardino", "California State University, San Bernardino", "San Bernardino", "Сан-Бернардино", "California", "Калифорния",
             "https://www.csusb.edu/",
-            "https://www.csusb.edu/international-education/international-admissions/first-year-students",
+            "https://www.csusb.edu/international-education/international-admissions/apply/first-year-admissions-requirements",
             "https://www.csusb.edu/join-the-pack/program-finder/biology-bs", "Biology (BS)", "biology",
-            short="Cal State San Bernardino", kind="csu", application_fee=70, ielts=5.5, ibt=(61, 3.5), det=95),
+            short="Cal State San Bernardino", kind="csu", application_fee=None, ielts=5.5, ibt=(61, 3.5), det=95),
         make_profile(
             "cal-state-san-marcos", "California State University San Marcos", "San Marcos", "Сан-Маркос", "California", "Калифорния",
             "https://www.csusm.edu/",
@@ -340,7 +340,7 @@ def apply_admissions_review(records):
             'label': L('English proficiency requirements', 'Требования к знанию английского языка'), 'url': url})
     deadlines = {
         'cal-state-san-bernardino': (
-            'https://www.csusb.edu/international-education/international-admissions/application-document-deadlines',
+            'https://www.csusb.edu/international-education/international-admissions/future-international-students/application-and',
             [('admission', '1 June 2027', '1 июня 2027', '2027-06-01'),
              ('documents', '30 June 2027', '30 июня 2027', '2027-06-30')],
         ),
@@ -406,7 +406,7 @@ def apply_admissions_review(records):
                'Смета для иностранных студентов бакалавриата на 2025–2026 год при 12 кредитах за семестр. Летний семестр не включён.'))
     san_bernardino = records['cal-state-san-bernardino']
     san_bernardino['costs'] = b.published_cost(
-        'https://www.csusb.edu/international-education/international-admissions/tuition-and-fees',
+        'https://www.csusb.edu/sites/default/files/upload/file/2026/CSUSB%20Affidavit%20Of%20Support_261027_1.pdf',
         b.PROSPECTIVE, L('$50,944 published international estimate', '$50 944 по международной смете'),
         [(b.TUITION_FEES, 20652, 'billed'), (L('Estimated living expenses', 'Оценка расходов на проживание'), 20138, 'estimate'),
          (L('Books and supplies', 'Учебники и материалы'), 880, 'estimate'),

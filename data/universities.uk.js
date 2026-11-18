@@ -263,7 +263,7 @@ window.UNIPATH.universities.push(
     admissions: 'https://www.imperial.ac.uk/study/apply/undergraduate/',
     internationalAdmissions: 'https://www.imperial.ac.uk/study/international-students/',
     applicationPortal: 'https://www.ucas.com/',
-    scholarships: 'https://www.imperial.ac.uk/study/fees-and-funding/undergraduate/scholarships/',
+    scholarships: 'https://www.imperial.ac.uk/study/fees-and-funding/undergraduate/bursaries-grants-scholarships/',
     financialAid: 'https://www.imperial.ac.uk/study/fees-and-funding/undergraduate/',
     programs: 'https://www.imperial.ac.uk/study/courses/',
     cost: 'https://www.imperial.ac.uk/study/fees-and-funding/undergraduate/tuition-fees/'
@@ -445,7 +445,7 @@ window.UNIPATH.universities.push(
     scholarships: 'https://www.ucl.ac.uk/scholarships/ucl-global-undergraduate-scholarship',
     financialAid: 'https://www.ucl.ac.uk/prospective-students/undergraduate/scholarships',
     programs: 'https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses',
-    cost: 'https://www.ucl.ac.uk/study/undergraduate-fees-2027-2028'
+    cost: 'https://www.ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028'
   },
   admissions: {
     platforms: ['UCAS (required)'],
@@ -590,7 +590,7 @@ window.UNIPATH.universities.push(
   },
   photos: { main: null, gallery: [], city: null },
   sources: [
-    { label: 'Undergraduate fees for 2027 to 2028', url: 'https://www.ucl.ac.uk/study/undergraduate-fees-2027-2028' },
+    { label: 'Undergraduate fees for 2027 to 2028', url: 'https://www.ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028' },
     { label: 'Computer Science BSc — key information and fees', url: 'https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/computer-science-bsc' },
     { label: 'English language requirements', url: 'https://www.ucl.ac.uk/study/prospective-students/undergraduate/how-apply/english-language-requirements' },
     { label: 'UCL Global Undergraduate Scholarship', url: 'https://www.ucl.ac.uk/scholarships/ucl-global-undergraduate-scholarship' }
@@ -1460,7 +1460,7 @@ window.UNIPATH.universities.push(
     website: 'https://www.gla.ac.uk/',
     admissions: 'https://www.gla.ac.uk/undergraduate/',
     applicationPortal: 'https://www.ucas.com/',
-    scholarships: 'https://www.gla.ac.uk/undergraduate/fees/scholarships/',
+    scholarships: 'https://www.gla.ac.uk/scholarships/worldchangersglobalexcellencescholarship/',
     cost: 'https://www.gla.ac.uk/undergraduate/fees/intlfees/',
     english: 'https://www.gla.ac.uk/international/englishlanguage/requirements/'
   },
@@ -1963,7 +1963,7 @@ window.UNIPATH.universities.push(
     admissions: 'https://www.leeds.ac.uk/undergraduate',
     applicationPortal: 'https://www.ucas.com/',
     scholarships: 'https://www.leeds.ac.uk/international-fees-costs',
-    cost: 'https://www.leeds.ac.uk/undergraduate-fees',
+    cost: 'https://www.leeds.ac.uk/undergraduate-fees/doc/fees-undergraduate-fees',
     english: 'https://www.leeds.ac.uk/international-applying/doc/entry-requirements'
   },
   admissions: {
