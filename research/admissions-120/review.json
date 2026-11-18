@@ -2,65 +2,105 @@
   {
     "id": "savannah-college-of-art-and-design",
     "country": "us",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.scad.edu/sites/default/files/PDF/Admission-information-Freshman-international.pdf"
+    ],
+    "unknown": [
+      "Exact IELTS variant and Fall 2027-specific guide not established."
+    ]
   },
   {
     "id": "university-of-pittsburgh",
     "country": "us",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://admissions.pitt.edu/test-optional/",
+      "https://admissions.pitt.edu/international/"
+    ],
+    "unknown": [
+      "Undergraduate English minima, section scores and waiver conditions still need a readable first-year requirements document."
+    ]
   },
   {
     "id": "university-of-virginia",
     "country": "us",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://admission.virginia.edu/i-am/international",
+      "https://admission.virginia.edu/admission/deadlines-instructions"
+    ],
+    "unknown": [
+      "IELTS/TOEFL numeric minimum and section thresholds not published on the reviewed pages."
+    ]
   },
   {
     "id": "university-of-florida",
     "country": "us",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://admissions.ufl.edu/apply/freshman/international",
+      "https://catalog.ufl.edu/UGRD/admission/"
+    ],
+    "unknown": [
+      "English cut-offs/waivers and the conflicting NACES/record-year instructions remain unresolved."
+    ]
   },
   {
     "id": "dillard-university",
     "country": "us",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.dillard.edu/admissions-aid/admission-requirements/international-students/"
+    ],
+    "unknown": [
+      "Fall 2027 cycle, IELTS/DET acceptance, TOEFL new scale and detailed waivers not established."
+    ]
   },
   {
     "id": "elmira-college",
     "country": "us",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.elmira.edu/admissions/undergraduate-admissions/international-admissions/international-undergraduate-students"
+    ],
+    "unknown": [
+      "SAT/ACT policy, Fall 2027-specific language rules, section minima and the IELTS 6.5 ELL boundary remain unconfirmed."
+    ]
   },
   {
     "id": "marist-university",
     "country": "us",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.marist.edu/admission/intl/apply"
+    ],
+    "unknown": [
+      "Section minima, exact IELTS variant, updated TOEFL scale and a Fall 2027-labelled language policy not established."
+    ]
   },
   {
     "id": "bentley-university",
     "country": "us",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.bentley.edu/undergraduate/apply/first-year-applicant"
+    ],
+    "unknown": [
+      "Exact IELTS/online variant and detailed IB/AP/A-Level waiver grade conditions require the linked specific rules."
+    ]
   },
   {
     "id": "university-of-washington",
     "country": "us",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://admit.washington.edu/apply/first-year/how-to-apply/english-proficiency/",
+      "https://admit.washington.edu/apply/first-year/how-to-apply/test-scores/"
+    ],
+    "unknown": [
+      "Fall 2027-labelled policy and IELTS section minima not published in the reviewed sections."
+    ]
   },
   {
     "id": "university-of-california-davis",
@@ -86,16 +126,26 @@
   {
     "id": "indiana-university-bloomington",
     "country": "us",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://bloomington.iu.edu/admissions/apply/international/english-proficiency.html",
+      "https://bloomington.iu.edu/admissions/apply/international/freshman/admission-standards.html"
+    ],
+    "unknown": [
+      "Fall 2027-specific rules and new TOEFL 1–6 threshold not established."
+    ]
   },
   {
     "id": "brigham-young-university",
     "country": "us",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://enrollment.byu.edu/admissions/english-proficiency-requirement",
+      "https://enrollment.byu.edu/admissions/act-sat-test-scores"
+    ],
+    "unknown": [
+      "Detailed Cambridge and waiver-country conditions must be checked for the applicant."
+    ]
   },
   {
     "id": "university-of-texas-at-dallas",
@@ -107,9 +157,15 @@
   {
     "id": "university-of-the-pacific",
     "country": "us",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.pacific.edu/admission/undergraduate/english-language-proficiency",
+      "https://www.pacific.edu/admission/undergraduate/test-scores",
+      "https://catalog.pacific.edu/uop/generalinformation/admissionrequirements/"
+    ],
+    "unknown": [
+      "Fall 2027 academic-test conflict, English section minima and exact IELTS variant remain unresolved."
+    ]
   },
   {
     "id": "wheaton-college-illinois",
@@ -121,9 +177,13 @@
   {
     "id": "saint-marys-college-indiana",
     "country": "us",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.saintmarys.edu/admission-aid/first-year-students/international-students/international-requirements"
+    ],
+    "unknown": [
+      "Fall 2027-specific academic-test policy and IELTS section minima not established."
+    ]
   },
   {
     "id": "wheaton-college-massachusetts",
@@ -135,9 +195,13 @@
   {
     "id": "stonehill-college",
     "country": "us",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.stonehill.edu/apply-for-admission/international-applicants/how-to-apply/"
+    ],
+    "unknown": [
+      "Fall 2027 academic policy, English waivers, section minima and updated TOEFL scale not established."
+    ]
   },
   {
     "id": "the-college-of-new-jersey",
@@ -170,9 +234,13 @@
   {
     "id": "john-jay-college",
     "country": "us",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.jjay.cuny.edu/admissions/undergraduate-admissions/apply/international-student-application"
+    ],
+    "unknown": [
+      "Fall 2027 SAT policy, IELTS sections and new TOEFL scale not established."
+    ]
   },
   {
     "id": "salve-regina-university",
@@ -184,9 +252,13 @@
   {
     "id": "st-bonaventure-university",
     "country": "us",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.sbu.edu/admissions/international-students"
+    ],
+    "unknown": [
+      "Fall 2027-labelled rules, IELTS sections and new TOEFL scale not established."
+    ]
   },
   {
     "id": "manhattan-university",
@@ -422,23 +494,35 @@
   {
     "id": "universite-de-montreal",
     "country": "ca",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://admission.umontreal.ca/exigence-de-francais/"
+    ],
+    "unknown": [
+      "Exact programme/qualification and Fall 2027-specific requirements need individual confirmation; no universal SAT policy inferred."
+    ]
   },
   {
     "id": "universite-laval",
     "country": "ca",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.ulaval.ca/en/admission/prepare-your-application/french-proficiency"
+    ],
+    "unknown": [
+      "Exact programme/qualification and Fall 2027-specific requirements need individual confirmation; no universal SAT policy inferred."
+    ]
   },
   {
     "id": "universite-du-quebec-a-montreal",
     "country": "ca",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://etudier.uqam.ca/tests-francais-reconnus"
+    ],
+    "unknown": [
+      "Exact programme/qualification and Fall 2027-specific requirements need individual confirmation; no universal SAT policy inferred."
+    ]
   },
   {
     "id": "universite-de-sherbrooke",
@@ -464,16 +548,26 @@
   {
     "id": "wilfrid-laurier-university",
     "country": "ca",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.wlu.ca/admissions-toolkits/international/step-1-how-to-apply/english-proficiency.html",
+      "https://www.wlu.ca/future-students/undergraduate/admissions/assets/resources/sat-act-curriculum.html"
+    ],
+    "unknown": [
+      "Fall 2027-specific applicability and academic requirements for the exact school qualification require confirmation."
+    ]
   },
   {
     "id": "trent-university",
     "country": "ca",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.trentu.ca/futurestudents/admissions/international-students/english-proficiency",
+      "https://www.trentu.ca/futurestudents/admissions/admission-requirements/united-states-secondary-school"
+    ],
+    "unknown": [
+      "Fall 2027-specific applicability and academic requirements for the exact school qualification require confirmation."
+    ]
   },
   {
     "id": "acadia-university",
@@ -492,9 +586,13 @@
   {
     "id": "laurentian-university",
     "country": "ca",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://laurentian.ca/academics/admissions/language-requirements"
+    ],
+    "unknown": [
+      "Fall 2027-specific applicability and academic requirements for the exact school qualification require confirmation."
+    ]
   },
   {
     "id": "university-of-ottawa",
@@ -506,23 +604,38 @@
   {
     "id": "york-university",
     "country": "ca",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://futurestudents.yorku.ca/requirements/language-tests",
+      "https://futurestudents.yorku.ca/your-application/how-apply/international-student"
+    ],
+    "unknown": [
+      "Fall 2027-specific applicability and academic requirements for the exact school qualification require confirmation."
+    ]
   },
   {
     "id": "carleton-university",
     "country": "ca",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://admissions.carleton.ca/esl/",
+      "https://admissions.carleton.ca/applicant-type/united-states-high-school-students/"
+    ],
+    "unknown": [
+      "Fall 2027-specific applicability and academic requirements for the exact school qualification require confirmation."
+    ]
   },
   {
     "id": "dalhousie-university",
     "country": "ca",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.dal.ca/admissions/how-to-apply/undergraduate-admissions/international-applicants/english-language-requirements.html",
+      "https://www.dal.ca/admissions/how-to-apply/undergraduate-admissions/international-applicants/us-applicants.html"
+    ],
+    "unknown": [
+      "Fall 2027-specific applicability and academic requirements for the exact school qualification require confirmation."
+    ]
   },
   {
     "id": "university-of-sussex",
@@ -702,16 +815,24 @@
   {
     "id": "osaka-university",
     "country": "jp",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://iudp.hus.osaka-u.ac.jp/wp-content/uploads/2026/07/2027-HUS-Application-Guidelines.pdf"
+    ],
+    "unknown": [
+      "Other Osaka undergraduate routes, detailed programme prerequisites and applicant qualification equivalence remain outside this reviewed route."
+    ]
   },
   {
     "id": "nagoya-university",
     "country": "jp",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://admissions.g30.nagoya-u.ac.jp/upload/2027_admission_requirements_en.pdf"
+    ],
+    "unknown": [
+      "IELTS section minima are not stated in Appendix 1; individual major recommendations and school-equivalence review remain applicant-specific."
+    ]
   },
   {
     "id": "hitotsubashi-university",
@@ -723,9 +844,13 @@
   {
     "id": "meiji-university",
     "country": "jp",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.meiji.ac.jp/cip/english/undergraduate/nippon/englishtrack/glqts00000002hta-att/a1793259032270.pdf"
+    ],
+    "unknown": [
+      "IELTS section minima are not stated; other Meiji schools and the Japanese Track are separate."
+    ]
   },
   {
     "id": "hosei-university",
@@ -744,16 +869,25 @@
   {
     "id": "tohoku-university",
     "country": "jp",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://admissions.tohoku.ac.jp/en/adcms/wp-content/uploads/2026/08/ApplicationGuideGWC2027Fall.pdf",
+      "https://www.insc.tohoku.ac.jp/english/degree/undergraduate-english/"
+    ],
+    "unknown": [
+      "Exact track subjects and acceptable school qualification must be checked; Japanese-taught general admission is a separate route."
+    ]
   },
   {
     "id": "institute-of-science-tokyo",
     "country": "jp",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://admissions.isct.ac.jp/en/013/undergraduate/programs/gsep"
+    ],
+    "unknown": [
+      "Fall 2027 GSEP entry is not established by this April guide; precise second-stage subject examinations need the full programme guide."
+    ]
   },
   {
     "id": "rikkyo-university",
@@ -765,9 +899,13 @@
   {
     "id": "okayama-university",
     "country": "jp",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://discovery.okayama-u.ac.jp/en/prospective_students/admission/international-application/"
+    ],
+    "unknown": [
+      "IELTS variant, detailed programme choices and Japanese access requirements for individual faculties require the guide/course confirmation."
+    ]
   },
   {
     "id": "handong-global-university",

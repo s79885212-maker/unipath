@@ -335,6 +335,9 @@
       (U.satPolicy(u) === 'optional' ? '<p class="small muted" style="margin-top:10px">Test-optional for the SAT/ACT does not remove the English language requirement above.</p>' : '') +
       '</section>';
 
+    var reviewedRoutes = U.requirements && U.requirements.routes(u).length;
+    if (reviewedRoutes) english = '<section class="profile-section" id="english"><h2>Admission requirements by route</h2>' + U.requirements.html(u) + englishStats() + '</section>';
+
     /* Academics */
     var gpa = ac.gpa;
     /* Point to the statistics below only when a figure is really there. */
@@ -436,6 +439,7 @@
     }
 
     function satPolicySummary() {
+      if (reviewedRoutes) return '<a href="#english">See the verified route-specific academic test rules above.</a>';
       var pol = U.satPolicy(u);
       var SUMMARY = {
         optional: ['Test-optional', 'You can apply without SAT or ACT scores.'],
@@ -466,8 +470,7 @@
       '<dl class="deflist" style="margin-top:18px">' +
         row('SAT/ACT policy', satPolicySummary()) +
         row('GPA', gpaText) +
-        testPolicyRow('SAT', ac.sat) +
-        testPolicyRow('ACT', ac.act) +
+        (reviewedRoutes ? '' : testPolicyRow('SAT', ac.sat) + testPolicyRow('ACT', ac.act)) +
         row('Other standardized tests', or(ac.otherTests)) +
         row('International qualifications', or(ac.internationalQualifications)) +
       '</dl>' + ((u.country === 'us' || (u.stats && u.stats.official && (u.stats.official.sat || u.stats.official.act))) ? testingStatsCard(u) : '') +
