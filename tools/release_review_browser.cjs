@@ -62,6 +62,9 @@ async function profiles(browser,lang,width){
         untranslated:window.I18N?.missing?[...window.I18N.missing]:[]
       }));
       if(id==='sungkyunkwan-university') {
+        const summary=await page.locator('main').innerText();
+        assert.doesNotMatch(summary,/genuine four-year full-cost award|настоящая четырёхлетняя стипендия на все расходы/);
+        assert.match(summary,lang==='ru'?/Кампусы SKKU находятся в Сеуле и Сувоне/:/SKKU has campuses in Seoul and Suwon/);
         assert.match(detail.awardText||'',/3[ ,\u202f]?400[ ,\u202f]?000/);
         assert.doesNotMatch(detail.awardText||'',/570[ ,]?000/);
         if(lang==='ru')assert.match(detail.awardText||'',/семестр/);
