@@ -1,5 +1,17 @@
 from us200_std import L,flush
 PAIRS={
+ 'Academic test acceptance is scoped; obligation not established':'Приём академического теста ограничен указанной областью; обязательность не установлена',
+'Degree admission with stated conditions':'Приём на степень с указанными условиями',
+'A wholly English-taught route is not established here. IELTS alone does not confirm the teaching-language requirements.':'Полностью англоязычный маршрут здесь не установлен. Один IELTS не подтверждает требования к языку обучения.',
+'October / Fall 2027':'Октябрь / осень 2027','September 2027':'Сентябрь 2027','April 2027':'Апрель 2027',
+'Fall 2025–2028':'Осенние наборы 2025–2028','Fall 2027':'Осень 2027','Fall 2026':'Осень 2026',
+'An ACT composite was entered. Programme requirements and ACT section minima are not automatically verified.':'Введён общий ACT. Требования программы и минимумы секций ACT автоматически не проверяются.',
+'ACT programme and section requirements':'Требования программы и секций ACT',
+'Language-score submission is optional in the reviewed checklist':'В проверенном списке документов языковой результат необязателен',
+'English is assessed by the institution; a certificate is not required with this application':'Английский проверяет сам университет; сертификат не нужен с этой заявкой',
+'The checklist accepts language or academic test alternatives; see the exact conditions':'Список допускает языковые или академические альтернативы тестов; см. точные условия',
+'Teaching language not confirmed':'Язык преподавания не подтверждён',
+'Selecting a route or teaching language limits results to reviewed routes. Missing routes do not mean that a university offers no suitable programme.':'Выбор маршрута или языка ограничивает выдачу проверенными маршрутами. Отсутствие маршрута не означает, что подходящих программ в университете нет.',
 'Accepted; the university explicitly publishes no numerical minimum.':'Принимается; университет прямо указывает отсутствие числового минимума.',
 'Language proof required unless an applicable exemption is approved':'Требуется подтверждение языка, если подходящее освобождение не одобрено',
 'Language proof depends on the published applicant category':'Подтверждение языка зависит от опубликованной категории кандидата',

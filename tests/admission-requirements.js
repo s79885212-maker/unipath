@@ -7,6 +7,7 @@ module.exports=function (env) {
   function evaluate(route,extra) {return U.requirements.evaluate({admissionRequirements:[route]},input(extra));}
   function level(r,l) {return r.checks.some(function (c) {return c.level === l;});}
   var r=evaluate(testRoute());
+  ok(M.scopeInput({studyLanguage:'fr',englishOnly:true}).englishOnly===false && M.scopeInput({studyLanguage:'en',englishOnly:true}).englishOnly===true,'Local-language selection clears the mutually contradictory English-only state');
   ok(!level(r,'hard') && r.unchecked.indexOf('IELTS section scores')>=0,'Route: sufficient overall never confirms missing sections');
   r=evaluate(testRoute(),{ieltsSections:{reading:6,writing:5.5,listening:6,speaking:6}});
   ok(level(r,'hard'),'Route: one section below its actual minimum fails independently of overall');

@@ -57,4 +57,5 @@ for uid in ['dillard-university','marist-university','elmira-college']:
 uf=records['university-of-florida']['routes'][0]
 uf['english']['applicability']={'label':'Undergraduate catalogue 2026–27','entryYears':[2026],'status':'previous-cycle'}
 uf['documents']=[L('The current international page requires four school years and a NACES course-by-course/GPA evaluation; the 2026–27 catalogue describes three school years and encouraged evaluation. Confirm which document rule applies to the intended cycle.','Текущая международная страница требует четыре школьных года и оценку NACES по предметам/GPA; каталог 2026–27 описывает три года и рекомендуемую оценку. Уточните правило документов для нужного цикла.')]
+records['brigham-young-university']['routes'][0]['universityWide']=True
 finish()

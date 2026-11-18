@@ -32,8 +32,11 @@ module.exports = function ({ U, M, DB, ok }) {
   const stockton = U.uniById('stockton-university');
   ok(U.roundsOf(risd).some(round => round.dateISO === '2027-01-20' &&
        round.status === 'confirmed' && round.cycleEvidence.basis === 'page-context') &&
-     stockton.admissions.applicationFee.amount === 50 && U.ieltsMin(stockton) === 6.5,
-    'RISD preserves the documented 2027 cycle and Stockton uses the international applicant requirements');
+     stockton.admissions.applicationFee.amount === 50 &&
+     U.requirements.routes(stockton)[0].english.ielts.min === 6.5 &&
+     U.ieltsMin(stockton) === null &&
+     U.requirements.routes(stockton)[0].academic.satPolicy === 'conflict',
+    'RISD preserves its 2027 deadline; Stockton retains the official 6.5 reference without presenting an undated language rule or contradictory SAT sources as current eligibility');
   if (batches.includes(4)) {
     const fees = require('../research/us100-fees.json');
     ok(fees.every(item => {

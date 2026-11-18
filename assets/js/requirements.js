@@ -8,10 +8,10 @@
     'not-used': 'SAT/ACT not considered', 'not-applicable': 'SAT/ACT not part of this route',
     conditional: 'SAT/ACT depends on applicant qualifications',
     'required-alternatives': 'An academic test is required; alternatives accepted',
-    accepted: 'SAT/ACT accepted; obligation not established',
+    accepted: 'Academic test acceptance is scoped; obligation not established',
     conflict: 'Official SAT/ACT sources disagree', unknown: 'SAT/ACT policy not established'
   };
-  var LANG = {en:'English',de:'German',fr:'French',ja:'Japanese',ko:'Korean',multiple:'Multiple teaching languages'};
+  var LANG = {en:'English',de:'German',fr:'French',ja:'Japanese',ko:'Korean',multiple:'Multiple teaching languages',unknown:'Teaching language not confirmed'};
   function routes(u) { return u.admissionRequirements || []; }
   function scope(c) { return c && c.label || 'Intake year not stated'; }
   function confirmed(c, input) {
@@ -52,9 +52,9 @@
   function html(u) {
     return '<div class="admission-routes">' + routes(u).map(function (r) {
       var e=r.english || {}, a=r.academic || {};
-      var requirement={'required-unless-exempt':'Language proof required unless an applicable exemption is approved','required-by-language-country':'Language proof depends on the published applicant category',recommended:'Language testing is recommended, not a universal test minimum','placement-or-waiver':'Scores determine language-course placement or exemption'}[e.requirement];
+      var requirement={'required-unless-exempt':'Language proof required unless an applicable exemption is approved','required-by-language-country':'Language proof depends on the published applicant category',recommended:'Language testing is recommended, not a universal test minimum',optional:'Language-score submission is optional in the reviewed checklist','internal-assessment':'English is assessed by the institution; a certificate is not required with this application','alternatives-with-academic':'The checklist accepts language or academic test alternatives; see the exact conditions','placement-or-waiver':'Scores determine language-course placement or exemption'}[e.requirement];
       return '<article class="card admission-route"><div class="card-body"><h3>' + esc(r.label) + '</h3>' +
-        '<p><span>Teaching language</span>: <strong>' + esc(LANG[r.language] || r.language) + '</strong> · <span>' + esc(r.kind === 'foundation' ? 'Foundation' : r.kind === 'international-year-one' ? 'International Year One' : r.kind === 'degree-with-esl' ? 'Degree with compulsory ESL' : 'Direct admission') + '</span></p>' +
+        '<p><span>Teaching language</span>: <strong>' + esc(LANG[r.language] || r.language) + '</strong> · <span>' + esc(r.kind === 'foundation' ? 'Foundation' : r.kind === 'international-year-one' ? 'International Year One' : r.kind === 'degree-with-esl' ? 'Degree with compulsory ESL' : r.kind === 'degree-with-conditions' ? 'Degree admission with stated conditions' : 'Direct admission') + '</span></p>' +
         '<p><span>Published scope</span>: ' + esc(scope(r.applicability)) + '</p>' + text(r.note) +
         '<h3>Language requirements for this route</h3>' + '<p><span>Published scope</span>: ' + esc(scope(e.applicability || r.applicability)) + '</p>' +
         text(requirement) + testHtml('IELTS',e.ielts) + testHtml('TOEFL',e.toefl) + text(e.alternatives) +
@@ -87,7 +87,7 @@
       unchecked.push('Language rules for selected intake');
     }
     if (r.language !== 'en') {
-      check('info','This route is not taught wholly in English. IELTS alone does not establish readiness for its teaching language.');
+      check('info','A wholly English-taught route is not established here. IELTS alone does not confirm the teaching-language requirements.');
       (r.localLanguage || []).forEach(function (x) { check('info',x.name + ': ' + x.requirement); });
       unchecked.push('Local-language examinations and route qualifications');
     }
@@ -134,6 +134,8 @@
   function policy(u) {
     var rs=routes(u), policies=rs.map(function (r) {return (r.academic || {}).satPolicy || 'unknown';});
     if (!rs.length || policies.some(function (p) {return p === 'unknown' || p === 'conflict';})) return 'unknown';
+    /* Acceptance alone makes no current-cycle waiver or ACT-alternative claim. */
+    if (policies.every(function (p) {return p === 'accepted';})) return 'accepted';
     if (policies.some(function (p) {return p !== policies[0];}) || rs.some(function (r) {return !confirmed((r.academic || {}).applicability || r.applicability,{});})) return 'conditional';
     return policies[0];
   }

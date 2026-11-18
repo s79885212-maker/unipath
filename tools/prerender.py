@@ -96,7 +96,9 @@ def requirements_html(routes):
     for route in routes:
         eng, academic = route.get("english") or {}, route.get("academic") or {}
         parts.append(f'<h3>{e(route["label"])}</h3>')
-        parts.append(f'<p>Teaching language: {e(route["language"])} · {e(route["kind"])}</p>')
+        language = {"en":"English", "fr":"French", "de":"German", "ja":"Japanese", "ko":"Korean", "multiple":"Multiple teaching languages", "unknown":"Teaching language not confirmed"}.get(route["language"], "Teaching language not confirmed")
+        kind = {"direct":"Direct admission", "foundation":"Foundation", "international-year-one":"International Year One", "degree-with-esl":"Degree with compulsory ESL", "degree-with-conditions":"Degree admission with stated conditions"}.get(route["kind"], "Check the published route")
+        parts.append(f'<p>Teaching language: {e(language)} · {e(kind)}</p>')
         parts.append(f'<p>Published scope: {e((route.get("applicability") or {}).get("label"))}</p>')
         if route.get("note"):
             parts.append(f'<p>{e(route["note"])}</p>')
@@ -131,7 +133,8 @@ def requirements_html(routes):
                 parts.append(f'<p>{e(eng[key])}</p>')
         for local in route.get("localLanguage") or []:
             parts.append(f'<h4>{e(local["name"])}</h4><p>{e(local["requirement"])}</p>')
-        parts.append(f'<h4>Academic examinations for this route</h4><p>{e(academic.get("satPolicy") or "unknown")}</p>')
+        policy = {"required":"SAT or ACT required", "optional":"SAT/ACT optional", "not-used":"SAT/ACT not considered", "not-applicable":"SAT/ACT not part of this route", "conditional":"SAT/ACT depends on applicant qualifications", "required-alternatives":"An academic test is required; alternatives accepted", "accepted":"SAT/ACT accepted; obligation not established", "conflict":"Official SAT/ACT sources disagree", "unknown":"SAT/ACT policy not established"}.get(academic.get("satPolicy"), "SAT/ACT policy not established")
+        parts.append(f'<h4>Academic examinations for this route</h4><p>{e(policy)}</p>')
         parts.append(f'<p>Published scope: {e((academic.get("applicability") or route.get("applicability") or {}).get("label"))}</p>')
         if academic.get("note"):
             parts.append(f'<p>{e(academic["note"])}</p>')
