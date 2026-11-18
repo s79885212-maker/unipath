@@ -2331,7 +2331,6 @@ html.is-gated body {
 .cost-figure dd .small {
   margin-left: 4px;
 }
-.media img,
 .hero-photo img,
 .photo img {
   /* Let the responsive aspect ratio override the HTML fallback height. */

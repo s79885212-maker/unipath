@@ -130,6 +130,9 @@ module.exports = function (env) {
     ok(guelphWithin.status === 'fits-tuition' && /Cohort 2026/.test(guelphWithin.text) && budget('university-of-guelph', 70000, 'CAD').status === 'unknown',
       'Guelph: current two-semester tuition never promises the full budget, and previous-cycle costs remain incomparable');
   } finally { guelphCost.status = 'confirmed'; }
+  var unbcHistorical = U.uniById('university-of-northern-british-columbia').costs.status;
+  ok(budget('university-of-northern-british-columbia', 31204.5, 'CAD').status === 'unknown', 'UNBC historical cost cannot confirm the current full budget');
+  U.uniById('university-of-northern-british-columbia').costs.status = 'confirmed';
   var unbcResult = budget('university-of-northern-british-columbia', 31204.5, 'CAD');
   ok(unbcCost && unbcResult.status === 'fits-tuition' && /2026–27/.test(unbcResult.text) && /30 credits/.test(unbcResult.text) && /calculated by UniPath/.test(unbcResult.text),
     'UNBC: sourced 30-credit calculation is labelled and can cover tuition only, never the full budget');
@@ -168,7 +171,11 @@ module.exports = function (env) {
     U.awardKind(U.uniById('university-of-toronto')) === 'full-tuition' &&
     U.awardLabel(U.uniById('university-of-toronto')) === 'Full tuition covered',
     'Pearson tuition badge does not deny confirmed housing or invent meals coverage');
+  U.uniById('university-of-northern-british-columbia').costs.status = unbcHistorical;
   var pe = U.uniById('university-of-prince-edward-island');
+  var peHistorical = pe.costs.status;
+  ok(M.evaluate(pe, {budget:17848, currency:'CAD', field:'business', intake:'fall-2027', ielts:null, sat:null, gpa:null}).budget.status === 'unknown', 'UPEI 2026/27 example cannot confirm Fall 2027');
+  pe.costs.status = 'confirmed';
   function peBudget(field, b) { return M.evaluate(pe, { ielts: null, sat: null, gpa: null, budget: b, currency: 'CAD', field: field }).budget; }
   ok(peBudget('business', 17848).status === 'fits-tuition' && peBudget('business', 17847).status === 'over' &&
     peBudget('', 17848).text.indexOf('one programme') > -1,
@@ -180,6 +187,7 @@ module.exports = function (env) {
     DB.match.annualCost[pe.id].scopeFields = ['unknown-field'];
     ok(M.costOf(pe) === null, 'a scoped example with an unrecognised field cannot be compared');
   } finally { DB.match.annualCost[pe.id].scopeFields = peScope; }
+  pe.costs.status = peHistorical;
   var york = U.uniById('york-university'), pise = york.scholarships.merit[0], yd = U.awardDates(york, pise);
   ok(yd.length === 2 && yd.some(function (d) { return d.kind === 'nomination' && d.dateISO === '2027-02-04'; }) &&
     yd.every(function (d) { return U.roundStatus(d) === 'confirmed' && d.binding == null; }),
@@ -199,10 +207,14 @@ module.exports = function (env) {
   ok(scopedBudget('concordia-university', 'business', 42000).status === 'fits-tuition' &&
     scopedBudget('concordia-university', 'engineering', 1000000).status === 'unknown',
     'Concordia normal Business load never pays for a different engineering workload');
+  var smuHistorical = U.uniById('saint-marys-university').costs.status;
+  ok(scopedBudget('saint-marys-university', 'business', 33340).status === 'unknown', 'SMU historical tuition cannot confirm a current budget');
+  U.uniById('saint-marys-university').costs.status = 'confirmed';
   ok(scopedBudget('saint-marys-university', 'business', 33010).status === 'maybe' &&
     scopedBudget('saint-marys-university', 'business', 33340).status === 'fits-tuition' &&
     scopedBudget('saint-marys-university', 'engineering', 1000000).status === 'unknown',
     'SMU elective price range needs the upper tuition bound and stays scoped to the sourced BComm workload');
+  U.uniById('saint-marys-university').costs.status = smuHistorical;
   var smc = DB.match.annualCost['saint-marys-university'], smLoad = smc.workloadSource;
   try { smc.workloadSource = null; ok(M.costOf(U.uniById('saint-marys-university')) === null,
     'per-course prices without the annual workload source cannot become annual costs'); }

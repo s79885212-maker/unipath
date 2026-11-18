@@ -1447,8 +1447,8 @@
       waiver: 'No Japanese is required to apply, but ELBA students must complete the Japanese Language Program and take some Japanese-taught courses to graduate.'
     },
     academics: {
-      sat: { policy: 'required', note: 'Type A applicants must submit SAT or ACT scores (no published minimum). Type B applicants are interviewed instead.' },
-      act: { policy: 'required', note: 'Type A applicants: SAT or ACT required.' },
+      sat: { policy: 'conditional', note: 'Type A applicants must submit SAT or ACT scores (no published minimum). Type B applicants are interviewed instead.' },
+      act: { policy: 'conditional', note: 'Type A applicants: SAT or ACT required.' },
       otherTests: 'Only the full IB Diploma is accepted — IB Course Certificates and the IBCP are not.'
     },
     admissions: {
@@ -1793,15 +1793,6 @@
     sources: [{ label: 'Waseda International Admissions — Tuition and Visa', url: 'https://www.waseda.jp/inst/admission/en/other/tuition/' }]
   });
 
-  patch('keio-university', {
-    admissions: {},
-    academics: {
-      sat: { policy: 'required-alternatives', note: 'Applicants submit IB, SAT or ACT scores (or national exam results such as A-Levels or the Abitur). Keio states there are no cut-off IB, SAT or ACT scores; paper and digital SAT count equally.' },
-      act: { policy: 'accepted', note: 'Accepted; no cut-off score.' }
-    },
-    sources: [{ label: 'Keio PEARL application guidebook (PDF)', url: 'https://www.keio.ac.jp/en/admissions/undergraduate/pearl/application_guidebook.pdf' }]
-  });
-
   patch('sophia-university', {
     admissions: {
       applicationFee: { amount: 35000, currency: 'JPY', waiverAvailableToInternational: null, waiver: null, note: 'An online payment handling fee of ¥1,100 is added. Overseas applicants without a Japanese bank account must pay by credit card.' }
@@ -1908,6 +1899,7 @@
   patch('korea-university', {
     admissions: {},
     costs: {
+      status: 'previous-cycle',
       academicYear: '2026 academic year',
       currency: 'KRW',
       headline: '≈ ₩5.8m–7.8m per semester',
@@ -1968,6 +1960,7 @@
       act: { policy: 'accepted', note: 'Accepted as an academic reference.' }
     },
     costs: {
+      status: 'previous-cycle',
       academicYear: 'First semester 2026 (freshmen)',
       currency: 'KRW',
       headline: '≈ ₩5.4m–8.3m first semester',

@@ -1651,7 +1651,10 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": 6.5,
       "recommended": null,
-      "note": "Required overall score of 6.5 or higher, with no band below 6."
+      "note": "Required overall score of 6.5 or higher, with no band below 6.",
+      "sections": "No IELTS band below 6.0.",
+      "source": "https://admission.kzoo.edu/how-to-apply-2/international-students/english-language-proficiency/",
+      "verified": "2026-11-17"
     },
     "toefl": {
       "min": null,
@@ -1720,7 +1723,8 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": 80111,
     "totalText": "$66,308 in tuition and fees and $13,803 in food and housing",
-    "note": "Kalamazoo prints the two figures without a total; $80,111 is their sum."
+    "note": "Kalamazoo prints the two figures without a total; $80,111 is their sum.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -5974,7 +5978,8 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": 70668,
     "totalText": "$70,668 charged for the year; the page prints no figure for the full cost of attendance",
-    "note": "The page for international students still shows 2025–26 and estimates other expenses, including $1,567 for health insurance, on top of the charges."
+    "note": "The page for international students still shows 2025–26 and estimates other expenses, including $1,567 for health insurance, on top of the charges.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -6286,7 +6291,8 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": 55530,
     "totalText": "$40,560 in tuition and fee plus $14,970 for room and board, as printed; $55,530 is the two added together",
-    "note": "Elmira prints the tuition-and-fee total and the room-and-board total separately. Books, travel, personal costs and health insurance are not listed."
+    "note": "Elmira prints the tuition-and-fee total and the room-and-board total separately. Books, travel, personal costs and health insurance are not listed.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -8825,62 +8831,54 @@ window.UNIPATH.universities.push(
   },
   "costs": {
     "breakdown": {
-      "includes": "tuition, fees, housing and food (billed), plus the university’s estimates for books, transportation and personal expenses",
-      "tuition": 40572,
-      "billed": 56400,
-      "budget": 61880
+      "tuition": 41990,
+      "billed": 58620,
+      "period": "year"
     },
-    "academicYear": "2026–2027",
+    "academicYear": "2027–2028",
     "currency": "USD",
     "studentCategory": "Students living on campus for nine months",
     "source": "https://www.hendrix.edu/financialaid/default.aspx?id=236",
-    "verified": "2026-10-12",
-    "headline": "$61,880 total cost of attendance",
+    "verified": "2026-11-17",
+    "headline": "2027–28 direct costs for a new student: $58,620",
     "items": [
       {
         "label": "Tuition",
-        "group": "billed",
-        "amount": 40572
+        "amount": 41990
       },
       {
-        "label": "Fees",
-        "group": "billed",
-        "amount": 550
+        "label": "Mandatory fees",
+        "amount": 740
       },
       {
-        "label": "Housing — double occupancy",
-        "group": "billed",
-        "amount": 7678
+        "label": "Housing, first-year median",
+        "amount": 8030
       },
       {
-        "label": "Food plan — unlimited",
-        "group": "billed",
-        "amount": 7600
-      },
-      {
-        "label": "Loan fees",
-        "group": "estimate",
-        "amount": 60
+        "label": "Unlimited meal plan",
+        "amount": 7860
       },
       {
         "label": "Books",
-        "group": "estimate",
         "amount": 900
       },
       {
         "label": "Transportation",
-        "group": "estimate",
-        "amount": 1520
+        "amount": 1232
       },
       {
-        "label": "Personal",
-        "group": "estimate",
+        "label": "Personal expenses",
         "amount": 3000
+      },
+      {
+        "label": "Loan fees in the general COA",
+        "amount": 56
       }
     ],
-    "billedSubtotal": 56400,
-    "totalText": "$61,880 total cost of attendance, of which $56,400 is billed by the university",
-    "note": "Hendrix marks its 2026–27 tuition and fees as pending Board approval and subject to change. Health insurance is not in the table."
+    "billedSubtotal": null,
+    "totalText": null,
+    "note": "Hendrix publishes $63,808 as the general 2027–28 on-campus cost of attendance for a new student, including $56 in loan fees. International health insurance is not itemised in that table. The international page asks applicants to demonstrate at least $35,000 after an average scholarship; that amount is not an individual net-cost guarantee.",
+    "status": "confirmed"
   },
   "scholarships": {
     "fullRide": {
@@ -20438,7 +20436,8 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": 74702,
     "totalText": "$74,702 total tuition and charges for the year, as printed",
-    "note": "All full-time undergraduates are enrolled in and billed for the Student Health Insurance Plan unless they show comparable cover; its price is not on this page."
+    "note": "All full-time undergraduates are enrolled in and billed for the Student Health Insurance Plan unless they show comparable cover; its price is not on this page.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {

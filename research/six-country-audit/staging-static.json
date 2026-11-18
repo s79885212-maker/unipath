@@ -1,0 +1,11 @@
+{
+  "profiles": 540,
+  "allPages": 547,
+  "noindexPages": 547,
+  "noindex": true,
+  "versions": [
+    "250"
+  ],
+  "basePath": "/unipath/staging/",
+  "canonical": true
+}

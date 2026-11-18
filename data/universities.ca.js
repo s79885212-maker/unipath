@@ -6146,7 +6146,10 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": 6.5,
       "recommended": null,
-      "note": "Academic; 6 in each band."
+      "note": "Academic; 6 in each band.",
+      "sections": "At least 6.0 in every section.",
+      "source": "https://admissions.usask.ca/requirements/english-language-proficiency.php",
+      "verified": "2026-11-17"
     },
     "toefl": {
       "min": 86,
@@ -6235,7 +6238,8 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": null,
     "totalText": "Tuition estimates for a first-year full course load from C$39,007 (Arts) to C$59,383 (Engineering); PharmD C$73,618; student fees C$1,331.66",
-    "note": null
+    "note": null,
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -8856,7 +8860,10 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": 6.5,
       "recommended": null,
-      "note": "Academic or Academic for UKVI; at least 6 in reading and writing. Engineering asks for more."
+      "note": "Academic or Academic for UKVI; at least 6 in reading and writing. Engineering asks for more.",
+      "sections": "Reading and writing at least 6.0.",
+      "source": "https://www.mun.ca/undergrad/admissions/i-want-to-apply/english-proficiency-tests/",
+      "verified": "2026-11-17"
     },
     "toefl": {
       "min": 83,
@@ -8941,7 +8948,8 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": null,
     "totalText": "Tuition C$22,500 for two semesters for international students starting in fall 2026, plus fees and insurance of about C$945; residence with meals from C$5,237 a semester",
-    "note": "Fees approved by the Board of Regents as of June 2026. Residence rates are per semester (Winter 2027: C$5,357 for the same room)."
+    "note": "Fees approved by the Board of Regents as of June 2026. Residence rates are per semester (Winter 2027: C$5,357 for the same room).",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -9316,7 +9324,8 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": null,
     "totalText": "UNB’s 2026–2027 fee tables (effective 1 September 2026) give C$22,754 for Arts, C$24,365 for Computer Science and C$27,722 for Engineering for an international student attending both terms; housing and food are extra",
-    "note": "Each total includes mandatory fees (C$831.50), Student Union health (C$235) and dental (C$140) plans, the international bus pass (C$180), UNB emergency health insurance (C$400) and travel health insurance (C$64.50). Online or web-based courses cost C$150 extra per course; first-year orientation C$80. Other programmes and the Saint John campus have their own tables."
+    "note": "Each total includes mandatory fees (C$831.50), Student Union health (C$235) and dental (C$140) plans, the international bus pass (C$180), UNB emergency health insurance (C$400) and travel health insurance (C$64.50). Online or web-based courses cost C$150 extra per course; first-year orientation C$80. Other programmes and the Saint John campus have their own tables.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -10003,7 +10012,10 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": 6.5,
       "recommended": null,
-      "note": "Academic; no band lower than 6.0. One Skill Retake accepted from October 2025 to July 2026."
+      "note": "Academic; no band lower than 6.0. One Skill Retake accepted from October 2025 to July 2026.",
+      "sections": "At least 6.0 in every section.",
+      "source": "https://www.uregina.ca/admissions/undergraduate/english-language-proficiency.html",
+      "verified": "2026-11-17"
     },
     "toefl": {
       "min": 83,
@@ -10080,7 +10092,8 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": null,
     "totalText": "The university estimates C$47,000 for a year: tuition and fees C$32,500, books C$1,500, housing C$7,000, food and fun C$6,000",
-    "note": "Tuition is the average for 10 classes in 2026–2027 and varies by faculty. An enrolment deposit of C$1,000 is required."
+    "note": "Tuition is the average for 10 classes in 2026–2027 and varies by faculty. An enrolment deposit of C$1,000 is required.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -10097,22 +10110,25 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": "The highest-value award is the International Student of Distinction Scholarship, Tier 1: on-campus housing and a meal plan worth about C$90,000 over four years (Tier 2: housing, about C$45,000), automatic for applicants from high school with 90% or more. It is not a tuition credit. Tuition support is smaller: C$5,000 in the first term and a bursary of up to C$20,000 over four years. No award at the level of full tuition is described.",
+      "note": "ISD Tier 1 is selected housing and meal-plan support, valued at C$90,000 over four years, with no tuition credit. Tier 2 issuance for the 2027 academic year is suspended. Tier 1 Fall 2027 consideration remains open under the published conditions.",
       "source": "https://www.uregina.ca/ur-international/scholarships.html",
-      "verified": "2026-10-27"
+      "verified": "2026-10-27",
+      "status": "not-published"
     },
     "merit": [
       {
         "name": "International Entrance Scholarship",
-        "amount": "C$5,000 tuition credit, first term",
+        "amount": "C$12,000 tuition credit over four years: C$2,000, C$2,000, C$4,000, C$4,000",
         "eligibility": "International applicants to a degree programme with an admission average of 83% or higher",
         "deadline": null,
         "application": "Automatic with the application for admission; no separate application",
         "renewable": false,
-        "note": null,
+        "note": "Automatic consideration for international undergraduate applicants with an admission average of at least 83%. The first C$2,000 is guaranteed for eligible students. Later payments require 24 credits per 12 months and good academic and financial standing. A three-year BA/Science programme receives at most C$8,000. This does not cover living costs.",
         "basis": "automatic",
         "source": "https://www.uregina.ca/ur-international/scholarships.html",
-        "verified": "2026-10-27"
+        "verified": "2026-11-17",
+        "internationalEligible": true,
+        "firstYearEligible": true
       },
       {
         "name": "International Student of Distinction Scholarship",
@@ -10121,7 +10137,7 @@ window.UNIPATH.universities.push(
         "deadline": null,
         "application": "Automatic consideration from the admission application and required documents by 30 April for Fall 2027; no separate scholarship form. Winter and Spring/Summer 2027 places are already filled.",
         "renewable": true,
-        "note": "Housing/meal benefits are not a tuition credit. Renewal requires 24 credits per calendar year and 80% UGPA; up to three further years (3.5 in Engineering). Limited places.",
+        "note": "ISD Tier 1 is selected housing and meal-plan support, valued at C$90,000 over four years, with no tuition credit. Tier 2 issuance for the 2027 academic year is suspended. Tier 1 Fall 2027 consideration remains open under the published conditions.",
         "basis": "merit",
         "source": "https://www.uregina.ca/ur-international/scholarships.html",
         "verified": "2026-10-27",
@@ -12757,7 +12773,10 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": 6.5,
       "recommended": null,
-      "note": "Academic; no band below 6. Nursing, Radiography, Veterinary Medicine and Education: 7 with 7 in writing and speaking."
+      "note": "Academic; no band below 6. Nursing, Radiography, Veterinary Medicine and Education: 7 with 7 in writing and speaking.",
+      "sections": "At least 6.0 in every section.",
+      "source": "https://www.upei.ca/admission-requirements/english-language-proficiency-requirements/undergraduate-programs",
+      "verified": "2026-11-17"
     },
     "toefl": {
       "min": null,
@@ -12830,7 +12849,8 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": null,
     "totalText": "The calendar lists C$813 per three-credit course and C$9,718 international fee per year. The current Business selector separately publishes C$17,848 yearly tuition plus international fee; other fees and living expenses are additional.",
-    "note": "Business only, international full-time undergraduates, 2026–27: C$17,848 per year is published for tuition plus the international fee. Other mandatory fees, the C$200 business service fee, insurance, co-op, housing and meals are extra. This is not a full budget or a price for other faculties or 2027–28 entry."
+    "note": "Business only, international full-time undergraduates, 2026–27: C$17,848 per year is published for tuition plus the international fee. Other mandatory fees, the C$200 business service fee, insurance, co-op, housing and meals are extra. This is not a full budget or a price for other faculties or 2027–28 entry.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -14284,7 +14304,10 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": 6.5,
       "recommended": null,
-      "note": "Academic or IELTS Online Indicator; no individual score below 6.0."
+      "note": "Academic or IELTS Online Indicator; no individual score below 6.0.",
+      "sections": "At least 6.0 in every section.",
+      "source": "https://www.smu.ca/future-students/admissions/importantdates/",
+      "verified": "2026-11-17"
     },
     "toefl": {
       "min": 83,
@@ -14343,15 +14366,15 @@ window.UNIPATH.universities.push(
     "items": [
       {
         "label": "Arts, per course",
-        "amount": 3301.0
+        "amount": 3301
       },
       {
         "label": "Commerce, per course",
-        "amount": 3301.0
+        "amount": 3301
       },
       {
         "label": "Science & Engineering, per course",
-        "amount": 3334.0
+        "amount": 3334
       },
       {
         "label": "Business annual tuition at ten courses, calculated by UniPath",
@@ -14365,7 +14388,8 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": null,
     "totalText": "Tuition for new international students is C$3,301 per course in Arts and Commerce and C$3,334 in Science and Engineering, including per-course mandatory fees; no yearly total is printed",
-    "note": "Business (BComm) only, new 2026–27 international cohort: five courses per term, ten across Fall/Winter. Arts/Commerce courses cost C$3,301; Science courses C$3,334. Ten courses give C$33,010–C$33,340 tuition, calculated by UniPath; ancillary fees, insurance, co-op and living expenses are additional. Engineering has a different normal workload and is not compared with this example. Graduates of some partner programmes (NBISP, NISEP, PEI-ISP, CAIS, UWC, CIS, IB) get C$1,000 off per course; this does not apply to applicants from Uzbekistan’s national schools."
+    "note": "Business (BComm) only, new 2026–27 international cohort: five courses per term, ten across Fall/Winter. Arts/Commerce courses cost C$3,301; Science courses C$3,334. Ten courses give C$33,010–C$33,340 tuition, calculated by UniPath; ancillary fees, insurance, co-op and living expenses are additional. Engineering has a different normal workload and is not compared with this example. Graduates of some partner programmes (NBISP, NISEP, PEI-ISP, CAIS, UWC, CIS, IB) get C$1,000 off per course; this does not apply to applicants from Uzbekistan’s national schools.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -15049,7 +15073,10 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": 6.5,
       "recommended": null,
-      "note": "Academic or IELTS Online; at least 6.0 in each band; One Skill Retake accepted."
+      "note": "Academic or IELTS Online; at least 6.0 in each band; One Skill Retake accepted.",
+      "sections": "At least 6.0 in every section.",
+      "source": "https://www.ulethbridge.ca/ross/admissions/elp",
+      "verified": "2026-11-17"
     },
     "toefl": {
       "min": 86,
@@ -15119,7 +15146,7 @@ window.UNIPATH.universities.push(
       },
       {
         "label": "Fine Arts access fee",
-        "amount": 29.0
+        "amount": 29
       },
       {
         "label": "Sport and recreation fee",
@@ -15131,12 +15158,13 @@ window.UNIPATH.universities.push(
       },
       {
         "label": "Student magazine",
-        "amount": 10.0
+        "amount": 10
       }
     ],
     "billedSubtotal": 26390.98,
     "totalText": "ULethbridge lists C$26,390.98 a year for international students in 2026/2027: tuition C$24,662.20 plus fees including health insurance and transit; books about C$1,500 and off-campus living about C$1,450 a month are extra",
-    "note": "“Costs are subject to change.”"
+    "note": "“Costs are subject to change.”",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -16876,7 +16904,10 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": 6.5,
       "recommended": null,
-      "note": "Academic; not less than 6.0 in any module."
+      "note": "Academic; not less than 6.0 in any module.",
+      "sections": "At least 6.0 in every section.",
+      "source": "https://www.unbc.ca/programs-and-admissions/undergraduate/undergraduate-application-deadlines",
+      "verified": "2026-11-17"
     },
     "toefl": {
       "min": 90,
@@ -16949,7 +16980,8 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": null,
     "totalText": "International tuition is C$1,040.15 per credit hour, with per-semester international and medical insurance fees; a C$9,000 deposit is paid after admission",
-    "note": "The finance page explicitly gives the 2026–27 international rate of C$1,040.15 per credit. For the university’s first-year planning example of 30 credits per academic year, tuition is C$31,204.50 — calculated by UniPath, not a published annual total. Mandatory fees, insurance, housing and food are additional. The C$125 semester fee above retains its earlier calendar source and review date; it is not included in this tuition-only comparison. The admissions-page overall estimate mixes housing-year information and is not used as a current total."
+    "note": "The finance page explicitly gives the 2026–27 international rate of C$1,040.15 per credit. For the university’s first-year planning example of 30 credits per academic year, tuition is C$31,204.50 — calculated by UniPath, not a published annual total. Mandatory fees, insurance, housing and food are additional. The C$125 semester fee above retains its earlier calendar source and review date; it is not included in this tuition-only comparison. The admissions-page overall estimate mixes housing-year information and is not used as a current total.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -17203,7 +17235,10 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": 6.5,
       "recommended": null,
-      "note": "Academic; no band below 6.0."
+      "note": "Academic; no band below 6.0.",
+      "sections": "At least 6.0 in every section.",
+      "source": "https://international.viu.ca/admissions",
+      "verified": "2026-11-17"
     },
     "toefl": {
       "min": 88,
@@ -17269,7 +17304,8 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": null,
     "totalText": "International undergraduate tuition is C$832.09 per credit; no yearly total is printed",
-    "note": "“Fees are effective April 1” (students’ union fees shown as of 1 April 2026); VIU may amend the schedule without notice."
+    "note": "“Fees are effective April 1” (students’ union fees shown as of 1 April 2026); VIU may amend the schedule without notice.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -17528,7 +17564,10 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": 6.5,
       "recommended": null,
-      "note": "Academic; minimum band 6.0. IELTS Indicator is not accepted."
+      "note": "Academic; minimum band 6.0. IELTS Indicator is not accepted.",
+      "sections": "At least 6.0 in every section.",
+      "source": "https://international.ufv.ca/future-students/apply-to-ufv/english-language-requirements/",
+      "verified": "2026-11-17"
     },
     "toefl": {
       "min": 88,
@@ -17594,7 +17633,8 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": 7658,
     "totalText": "Tuition and fees are C$7,658 a semester for 9 credits for students starting from September 2026; the first semester adds a C$1,450 administration fee. UFV estimates about C$30,000 for a first year with living costs",
-    "note": "Nine credits is the minimum full-time load; a typical load is about 15 credits, which costs more."
+    "note": "Nine credits is the minimum full-time load; a typical load is about 15 credits, which costs more.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {

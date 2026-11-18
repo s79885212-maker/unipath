@@ -78,18 +78,27 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A school certificate from outside Germany must be recognised as a German university entrance qualification (HZB). Check the DAAD admission database for your country; if your certificate does not qualify, a foundation course (Studienkolleg) or some university study at home is needed first.'
   },
   costs: {
-    breakdown: { tuition: 2000, tuitionText: "€2,000–€3,000 per semester", period: "semester", includes: "tuition per semester for new students from outside the EU; the semester fee is extra" },
-    academicYear: 'From winter semester 2024/25 (for new non-EU students)',
-    currency: 'EUR',
-    headline: '€2,000–€3,000 tuition per semester',
-    items: [
-      { label: 'Tuition for students from outside the EU (per semester)', text: '€2,000 or €3,000, depending on the programme' },
-      { label: 'Tuition — Management & Technology (per semester)', amount: 2000 },
-      { label: 'Semester fee (student union contribution)', text: 'Varies by campus' }
+    "breakdown": {
+      "tuition": 2300,
+      "tuitionText": "€2,300 or €3,400 per semester by programme",
+      "period": "semester"
+    },
+    "academicYear": "2027–2028",
+    "currency": "EUR",
+    "headline": "Non-EU bachelor tuition from winter 2027/28: €2,300 or €3,400 per semester",
+    "items": [
+      {
+        "label": "Bachelor tuition per semester, by programme",
+        "min": 2300,
+        "max": 3400
+      }
     ],
-    billedSubtotal: null,
-    totalText: '€4,000–€6,000 tuition a year, plus the semester fee and living costs',
-    note: 'TUM charges tuition to students from outside the EU/EEA who newly enrol from winter semester 2024/25; students who gained their school-leaving qualification in the German system are exempt. Every student also pays a semester fee. DAAD estimates student living costs in Germany at €900–€1,200 a month.'
+    "billedSubtotal": null,
+    "totalText": null,
+    "note": "The increased rates apply to fee-paying international bachelor students from winter 2027/28. Programme pages set the exact fee. A separate campus semester contribution and all living costs remain. Waivers require an application and individual approval.",
+    "source": "https://www.tum.de/en/studies/fees/tuition",
+    "verified": "2026-11-17",
+    "status": "confirmed"
   },
   scholarships: {
     fullRide: {
@@ -182,17 +191,29 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A school certificate from outside Germany must be recognised as a German university entrance qualification (HZB); check the DAAD admission database for your country.'
   },
   costs: {
-    breakdown: { tuitionText: "€1,000–€3,000 per semester from 2027", period: "semester", includes: "tuition per semester for new non-EU students from summer semester 2027" },
-    academicYear: 'From summer semester 2027 (for new non-EU students)',
-    currency: 'EUR',
-    headline: '€1,000–€3,000 tuition per semester from 2027',
-    items: [
-      { label: 'Tuition for new students from outside the EU (per semester)', text: '€1,000, €2,000 or €3,000, depending on the programme' },
-      { label: 'Tuition for students already enrolled before summer semester 2027', text: 'None, unless they change subject' }
+    "breakdown": {
+      "tuitionText": "€1,000–€3,000 per semester from 2027",
+      "period": "semester",
+      "includes": "tuition per semester for new non-EU students from summer semester 2027"
+    },
+    "academicYear": "From summer semester 2027 (for new non-EU students)",
+    "currency": "EUR",
+    "headline": "€1,000–€3,000 tuition per semester from 2027",
+    "items": [
+      {
+        "label": "Tuition for new students from outside the EU (per semester)",
+        "text": "€1,000, €2,000 or €3,000, depending on the programme"
+      },
+      {
+        "label": "Tuition for students already enrolled before summer semester 2027",
+        "text": "None, unless they change subject"
+      }
     ],
-    billedSubtotal: null,
-    totalText: '€2,000–€6,000 tuition a year for new non-EU students, plus living costs',
-    note: 'FAU charges students from outside the EU/EEA who enrol for the first time, or change subject, from summer semester 2027. EU/EEA citizens, holders of a German university entrance qualification and people with established ties to Germany are exempt. FAU says information on scholarships and waivers will follow.'
+    "billedSubtotal": null,
+    "totalText": "For two charged semesters, EUR 2,000–6,000 tuition — calculated by UniPath; contribution and living costs extra",
+    "note": "From summer semester 2027, new non-EU/EEA students without a German entrance qualification or established ties generally pay tuition. The full-time BSc Artificial Intelligence rate is EUR 1,000 per semester; other bachelor programmes have their own EUR 1,000–3,000 rates. The page currently lists an additional EUR 82 semester contribution. The annual tuition illustration multiplies two charged semesters and is not a university-published full budget. Exemptions and waivers require the applicable rules.",
+    "source": "https://www.fau.eu/studying/international-students/application-and-enrollment-for-international-applicants/tuition-fees-for-students-from-non-eu-states/",
+    "verified": "2026-11-17"
   },
   scholarships: {
     fullRide: {
@@ -430,20 +451,53 @@ window.UNIPATH.universities.push(
     cost: 'https://www.leuphana.de/en/study/studying-in-germany/how-to-study-in-germany/tuition-fee.html'
   },
   admissions: {
-    platforms: ['Leuphana online application (uni-assist route for certificates from outside the EU)'],
-    deadlines: [
-      { name: 'Bachelor’s application — winter semester 2027/28', kind: 'application-window', entryTerm: 'Winter', entryYear: '2027', dateISO: '2027-07-15', date: 'Mid-May – 15 July 2027', binding: false, appliesTo: 'First-year international applicants', conditions: 'Leuphana states that first-year students can apply from mid-May to 15 July 2027 for a start in October 2027. For the summer semester 2027 only applications for higher semesters are possible.', status: 'confirmed', source: 'https://www.leuphana.de/en/college/application/international-applications.html', verified: '2026-10-01', note: null }
+    "platforms": [
+      "Leuphana online application (uni-assist route for certificates from outside the EU)"
     ],
-    applicationFee: { amount: 75, currency: 'EUR', waiverAvailableToInternational: null, waiver: null, note: 'Paid to uni-assist, not to the university: applicants with a certificate from outside the EU/EEA apply through uni-assist, which charges 75 euros for the first application and 30 euros for each further one.', source: 'https://www.leuphana.de/en/college/application/international-applications/online-application/applying-with-non-eu-eea-certificates.html', verified: '2026-10-06', status: 'confirmed' },
-    documents: [
-      'University entrance qualification',
-      'Proof of English for an English-taught major'
+    "deadlines": [
+      {
+        "name": "Bachelor’s application — winter semester 2027/28",
+        "kind": "application-window",
+        "entryTerm": "Winter",
+        "entryYear": "2027",
+        "dateISO": "2027-07-15",
+        "date": "Mid-May – 15 July 2027",
+        "binding": false,
+        "appliesTo": "First-year international applicants",
+        "conditions": "Leuphana states that first-year students can apply from mid-May to 15 July 2027 for a start in October 2027. For the summer semester 2027 only applications for higher semesters are possible.",
+        "status": "confirmed",
+        "source": "https://www.leuphana.de/en/college/application/international-applications.html",
+        "verified": "2026-10-01",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Winter",
+          "entryYear": "2027",
+          "source": "https://www.leuphana.de/en/college/application/international-applications.html",
+          "verified": "2026-11-17",
+          "quote": "15 July 2027"
+        }
+      }
     ],
-    recommendations: null,
-    essay: null,
-    interview: null,
-    notes: [
-      'Applicants from abroad do not need German for an English-taught major.'
+    "applicationFee": {
+      "amount": 75,
+      "currency": "EUR",
+      "waiverAvailableToInternational": null,
+      "waiver": null,
+      "note": "Paid to uni-assist, not to the university: applicants with a certificate from outside the EU/EEA apply through uni-assist, which charges 75 euros for the first application and 30 euros for each further one.",
+      "source": "https://www.leuphana.de/en/college/application/international-applications/online-application/applying-with-non-eu-eea-certificates.html",
+      "verified": "2026-10-06",
+      "status": "confirmed"
+    },
+    "documents": [
+      "University entrance qualification",
+      "Proof of English for an English-taught major"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": [
+      "Applicants from abroad do not need German for an English-taught major."
     ]
   },
   english: {
@@ -461,18 +515,32 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A school certificate from outside Germany must be recognised as a German university entrance qualification (HZB); check the DAAD admission database for your country.'
   },
   costs: {
-    breakdown: { tuition: 0, includes: "no tuition; the semester fee is about €453 per semester" },
-    academicYear: 'Current',
-    currency: 'EUR',
-    headline: 'No tuition; semester fee about €453',
-    items: [
-      { label: 'Tuition', text: 'None' },
-      { label: 'Semester fee (per semester)', text: 'About €452.94 (subject to change)' },
-      { label: 'Living costs (DAAD estimate for Germany)', text: '€900 – €1,200 per month' }
+    "breakdown": {
+      "tuition": 0,
+      "includes": "The official page gives €484.24 for the semester contribution in one section and €452.94 in another. Neither amount is confirmed for winter 2027/28. Regular bachelor tuition remains zero; living expenses are separate."
+    },
+    "academicYear": null,
+    "currency": "EUR",
+    "headline": "No regular bachelor tuition; semester contribution needs verification",
+    "items": [
+      {
+        "label": "Tuition",
+        "amount": 0
+      },
+      {
+        "label": "Semester contribution",
+        "text": "The official page gives €484.24 for the semester contribution in one section and €452.94 in another. Neither amount is confirmed for winter 2027/28. Regular bachelor tuition remains zero; living expenses are separate."
+      }
     ],
-    billedSubtotal: null,
-    totalText: 'About €906 in semester fees a year, plus living costs',
-    note: 'Leuphana charges no tuition for its regular bachelor\'s programmes, for German and international students alike.'
+    "billedSubtotal": null,
+    "totalText": null,
+    "note": "The official page gives €484.24 for the semester contribution in one section and €452.94 in another. Neither amount is confirmed for winter 2027/28. Regular bachelor tuition remains zero; living expenses are separate.",
+    "source": "https://www.leuphana.de/en/study/studying-in-germany/how-to-study-in-germany/tuition-fee.html",
+    "verified": "2026-11-17",
+    "status": "conflict",
+    "conflict": {
+      "text": "The official page gives €484.24 for the semester contribution in one section and €452.94 in another. Neither amount is confirmed for winter 2027/28. Regular bachelor tuition remains zero; living expenses are separate."
+    }
   },
   scholarships: {
     fullRide: {
@@ -1138,7 +1206,11 @@ window.UNIPATH.universities.push(
 
 {
   id: 'berlin-international-university',
-  name: 'Whitecliffe University of Applied Sciences (formerly Berlin International)',
+  "aliases": [
+    "Whitecliffe University of Applied Sciences (formerly Berlin International)",
+    "Berlin International University of Applied Sciences"
+  ],
+  name: "Whitecliffe University of Applied Sciences",
   shortName: 'Whitecliffe Berlin',
   country: 'de',
   city: 'Berlin',
@@ -1146,7 +1218,7 @@ window.UNIPATH.universities.push(
   founded: 2014,
   type: 'Private university of applied sciences',
   brand: { c1: '#1d3557', c2: '#0d1b2a', initials: 'WUAS' },
-  description: 'A small private university in Berlin teaching bachelor degrees entirely in English in business administration, architecture, design and related fields. Until 2025 it was called Berlin International University of Applied Sciences.',
+  description: "Whitecliffe University of Applied Sciences, formerly Berlin International, offers English-taught bachelor programmes in business, architecture and design in Berlin. The profile keeps the existing campus and route.",
   englishTaught: true,
   languageOfInstruction: 'English',
   programs: ['business','arts','engineering','economics'],
@@ -1212,9 +1284,22 @@ window.UNIPATH.universities.push(
   },
   photos: { main: null, gallery: [], city: null },
   sources: [
-    { label: 'International admission', url: 'https://www.berlin-international.de/en/admission/international-admission/' },
-    { label: 'Apply for your studies', url: 'https://www.berlin-international.de/en/university/apply-your-studies-berlin/' },
-    { label: 'About — history and facts', url: 'https://www.berlin-international.de/en/university/our-story/' }
+    {
+      "label": "International admission",
+      "url": "https://www.berlin-international.de/en/admission/international-admission/"
+    },
+    {
+      "label": "Apply for your studies",
+      "url": "https://www.berlin-international.de/en/university/apply-your-studies-berlin/"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.berlin-international.de/en/university/our-story/"
+    },
+    {
+      "label": "Official university identity",
+      "url": "https://www.berlin-international.de/en/"
+    }
   ],
   verification: { level: 'partial', checked: ['tuition','language of instruction','entry qualification','English exemption rules','english (IELTS, TOEFL and waiver rules)'], unconfirmed: ['deadlines','scholarships','application fee'] },
   lastVerified: '2026-09-23'
@@ -1612,7 +1697,7 @@ window.UNIPATH.universities.push(
     admissions: 'https://www.th-deg.de/en/apply',
     applicationPortal: 'https://www.th-deg.de/en/apply',
     scholarships: 'https://www.th-deg.de/en/study-with-us/funding',
-    cost: 'https://www.th-deg.de/en/study-with-us/apply/fees',
+    cost: 'https://www.th-deg.de/en/apply',
     programs: 'https://www.th-deg.de/studying-in-english'
   },
   admissions: {
@@ -1694,7 +1779,7 @@ window.UNIPATH.universities.push(
   },
   photos: { main: null, gallery: [], city: null },
   sources: [
-    { label: 'Application and service fees for non-EU/EEA applicants', url: 'https://www.th-deg.de/en/study-with-us/apply/fees' },
+    { label: 'Application and service fees for non-EU/EEA applicants', url: 'https://www.th-deg.de/en/apply' },
     { label: 'Degrees taught in English', url: 'https://www.th-deg.de/studying-in-english' },
     { label: 'Applications', url: 'https://www.th-deg.de/en/apply' },
     { label: 'About — history and facts', url: 'https://www.th-deg.de/en/dit/profile' }
@@ -2076,18 +2161,33 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Recognition of the foreign school-leaving certificate decides direct entry; applicants whose certificate is not recognised take a Studienkolleg assessment.'
   },
   costs: {
-    breakdown: { tuition: 0, includes: 'no tuition for regular bachelor and master programmes; a semester contribution of about €125 applies' },
-    academicYear: 'Current',
-    currency: 'EUR',
-    headline: 'No tuition fee; about €125 semester contribution',
-    items: [
-      { label: 'Tuition — regular bachelor programmes', text: 'None' },
-      { label: 'Semester contribution', text: 'About €125 per semester' },
-      { label: 'Graduate School programmes', text: 'Charged separately — tuition applies there' }
+    "breakdown": {
+      "tuition": 0,
+      "includes": "Regular bachelor tuition is zero. The current semester contribution is EUR 145; living costs are separate and no 2027 full budget is confirmed."
+    },
+    "academicYear": null,
+    "currency": "EUR",
+    "headline": "Regular bachelor tuition: €0; semester fee currently €145",
+    "items": [
+      {
+        "label": "Tuition",
+        "amount": 0
+      },
+      {
+        "label": "Semester fee",
+        "amount": 145
+      },
+      {
+        "label": "Monthly living-cost estimate",
+        "min": 820,
+        "max": 1020
+      }
     ],
-    billedSubtotal: null,
-    totalText: 'About €250 a year in semester contributions, plus living costs',
-    note: 'This is the standard public price rather than a scholarship.'
+    "billedSubtotal": null,
+    "totalText": null,
+    "note": "Hof lists a current €145 semester fee and an estimated €820–€1,020 per month, including housing, insurance, food and personal costs. These are undated planning figures, not a confirmed Fall 2027 full budget. New residents may need a €100 permit and a €300–€400 rent deposit.",
+    "source": "https://www.hof-university.com/studying-at-hof-university/preparing-your-stay/how-to-finance-your-studies.html",
+    "verified": "2026-11-17"
   },
   scholarships: {
     fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },

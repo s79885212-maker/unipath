@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://admission.kaist.ac.kr/intl-undergraduate/support/scholarships/kaist",
+    "checked": "2026-11-17",
+    "ids": [
+      "kaist"
+    ],
+    "kind": "transport-error",
+    "error": "URLError: <urlopen error timed out>",
+    "seconds": 14.45
+  },
+  {
+    "url": "https://www.gist.ac.kr/iadm/html/sub02/0203.html",
+    "checked": "2026-11-17",
+    "ids": [
+      "gist"
+    ],
+    "kind": "transport-error",
+    "error": "URLError: <urlopen error timed out>",
+    "seconds": 14.44
+  }
+]

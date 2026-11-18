@@ -43,6 +43,31 @@ window.UNIPATH.match = {
     perEUR: { EUR: 1, USD: 1.1195, CAD: 1.5918, GBP: 0.84385, JPY: 177.39, KRW: 1496.54 }
   },
   annualCost: {
+    'knox-college': { currency: 'USD', basis: 'total', min: 78217, max: 78217 },
+    'kalamazoo-college': { currency: 'USD', basis: 'billed', min: 80111, max: 80111 },
+    'lake-forest-college': { currency: 'USD', basis: 'billed', min: 74702, max: 74702 },
+    'elmira-college': { currency: 'USD', basis: 'billed', min: 55530, max: 55530 },
+    'eckerd-college': { currency: 'USD', basis: 'billed', min: 70668, max: 70668 },
+    'memorial-university-of-newfoundland': { currency: 'CAD', basis: 'tuition', min: 22500, max: 22500, note: 'Tuition for two semesters for international students starting in fall 2026; fees, insurance, housing and food extra' },
+    'university-of-regina': { currency: 'CAD', basis: 'total', min: 47000, max: 47000, note: 'University estimate 2026–27: average tuition and fees, books, on-campus housing, food and personal costs' },
+    'university-of-lethbridge': { currency: 'CAD', basis: 'billed', min: 26390.98, max: 26390.98, note: 'Tuition and mandatory fees 2026/2027 incl. health insurance and UPass; books, housing and food extra' },
+    'university-of-new-brunswick': { currency: 'CAD', basis: 'billed', min: 22754, max: 27722, note: 'Tuition and fees 2026–27 for an international student attending both terms, Fredericton (Arts to Engineering); housing and food extra' },
+    'university-of-prince-edward-island': {"currency": "CAD", "basis": "tuition", "period": "year", "min": 17848, "max": 17848, "example": true, "scopeFields": ["business"], "academicYear": "2026–2027", "source": "https://www.upei.ca/fees?field_fee_faculty_target_id=190&field_type_value=international&field_time_value=fulltime&field_level_value=undergraduate", "verified": "2026-10-26", "note": "Business only, international full-time undergraduates, 2026–27: C$17,848 per year is published for tuition plus the international fee. Other mandatory fees, the C$200 business service fee, insurance, co-op, housing and meals are extra. This is not a full budget or a price for other faculties or 2027–28 entry."},
+    'saint-marys-university': {"currency": "CAD", "basis": "tuition", "calc": "course-load", "period": "year", "min": 33010, "max": 33340, "perCourseMin": 3301, "perCourseMax": 3334, "coursesPerYear": 10, "academicYear": "2026–2027", "source": "https://www.smu.ca/academics/undergraduate-tuition-and-fees.html", "verified": "2026-10-26", "workloadSource": "https://smu-ca-public.courseleaf.com/undergraduate/faculties/sobey-school-business/bachelor-commerce/", "workloadVerified": "2026-10-26", "example": true, "scopeFields": ["business"], "note": "Business (BComm) only, new 2026–27 international cohort: five courses per term, ten across Fall/Winter. Arts/Commerce courses cost C$3,301; Science courses C$3,334. Ten courses give C$33,010–C$33,340 tuition, calculated by UniPath; ancillary fees, insurance, co-op and living expenses are additional. Engineering has a different normal workload and is not compared with this example."},
+    'university-of-northern-british-columbia': {"currency": "CAD", "basis": "tuition", "calc": "credit-load", "period": "year", "min": 31204.5, "max": 31204.5, "perCredit": 1040.15, "creditsPerYear": 30, "academicYear": "2026–2027", "source": "https://www.unbc.ca/finance/accounts-receivable/tuition-and-fees", "verified": "2026-10-24", "workloadSource": "https://www.unbc.ca/programs-and-admissions/undergraduate/tuition-and-fees", "workloadVerified": "2026-10-24", "note": "2026–27 tuition-only scenario for the official 30-credit annual workload; calculated by UniPath. Mandatory fees and living costs are additional."},
+    'university-of-the-fraser-valley': { currency: 'CAD', calc: 'two-semesters', basis: 'tuition', min: 14346, max: 14346, note: 'Tuition for two semesters of 9 credits at the 2026–27 rate — calculated by UniPath, not printed by the university; fees, first-semester administration fee, housing and food extra' },
+    'temple-university-japan': { currency: 'JPY', basis: 'total', min: 3500000, max: 3500000, note: 'University estimate including living costs for two semesters' },
+    'yonsei-university':       { currency: 'KRW', basis: 'tuition', min: 16516000, max: 16516000 },
+    'korea-university':        { currency: 'KRW', basis: 'tuition', min: 11600000, max: 15600000 },
+    'handong-global-university': { currency: 'KRW', basis: 'tuition', min: 6342000, max: 8136000, note: 'Two semesters at the Fall 2025 rates, by area of study' },
+    'suny-korea': { currency: 'USD', basis: 'tuition', min: 23550, max: 23550, note: 'Two semesters at the Fall 2026 rate of $11,775 for students from outside New York State; course fees and the dormitory are extra' },
+    'college-of-wooster': {"currency": "USD", "basis": "billed", "period": "year", "min": 84462, "max": 84462, "academicYear": "2027–2028", "source": "https://wooster.edu/admissions/scholarship-aid", "verified": "2026-11-17"},
+    'beloit-college': {"currency": "USD", "basis": "billed", "period": "year", "min": 80542, "max": 80542, "academicYear": "2027–2028", "source": "https://www.beloit.edu/offices/financial-aid/cost-of-attendance/", "verified": "2026-11-17"},
+    'hendrix-college': {"currency": "USD", "basis": "billed", "period": "year", "min": 58620, "max": 58620, "academicYear": "2027–2028", "source": "https://www.hendrix.edu/financialaid/default.aspx?id=236", "verified": "2026-11-17"},
+    'university-of-york': {"currency": "GBP", "basis": "tuition", "period": "year", "min": 28600, "max": 28600, "academicYear": "2027–2028", "source": "https://www.york.ac.uk/study/undergraduate/courses/bsc-economics/", "verified": "2026-11-17", "example": true, "scopeFields": ["economics"]},
+    'university-of-liverpool': {"currency": "GBP", "basis": "tuition", "period": "year", "min": 28000, "max": 28000, "academicYear": "2027–2028", "source": "https://www.liverpool.ac.uk/courses/2027/economics-bsc-hons", "verified": "2026-11-17", "example": true, "scopeFields": ["economics"]},
+    'international-christian-university': {"currency": "JPY", "basis": "billed", "period": "year", "min": 1857000, "max": 1857000, "academicYear": "2027–2028", "source": "https://www.icu.ac.jp/en/admissions/tuition/", "verified": "2026-11-17"},
+    'ritsumeikan-university': {"currency": "JPY", "basis": "tuition", "period": "year", "min": 1469200, "max": 1469200, "academicYear": "2027–2028", "source": "https://en.ritsumei.ac.jp/e-ug/financial_info/fees.html/", "verified": "2026-11-17", "example": true, "scopeFields": ["social-sciences"]},
     'drake-university': {"currency": "USD", "basis": "tuition", "period": "year", "min": 54578, "max": 54578, "academicYear": "2027–2028", "source": "https://www.drake.edu/about/offices/accounts/tuitionfees", "verified": "2026-11-17", "note": "Des Moines, 12–18 credits each semester for the 2027–28 entering class. Two semesters of tuition cost $54,578 (calculated by UniPath from $27,289 per semester). The full international yearly estimate, including fees, living expenses and insurance, remains unconfirmed.", "calc": "two-semesters"},
     'augustana-university-south-dakota': {"currency": "USD", "basis": "total", "period": "year", "min": 62463, "max": 62463, "academicYear": "2027–2028", "source": "https://www.augie.edu/admission-financial-aid/financial-aid-costs-scholarships/comprehensive-costs/international-student", "verified": "2026-11-17", "note": "2027–28 international undergraduate estimate before scholarships, with a double room and a full meal plan. UniPath adds the university’s $57,863 direct and $4,600 indirect costs. The refundable housing deposit and programme-specific charges may affect initial cash needs."},
     'wheaton-college-massachusetts': {"currency": "USD", "basis": "billed", "period": "year", "min": 58400, "max": 58400, "academicYear": "2027–2028", "source": "https://www.wheatoncollege.edu/admission/tuition-fees/new-tuition-pricing/", "verified": "2026-11-17", "note": "Norton, Massachusetts, 2027–28. Wheaton publishes $58,400 for tuition, fees, on-campus housing and food. The payment worksheet separately estimates $5,000 for the college health plan, which may be waived with comparable coverage. A complete international budget including other expenses is unconfirmed."},
@@ -56,23 +81,18 @@ window.UNIPATH.match = {
 
     /* Approved USA +50, reviewed academic-year estimates */
     "north-carolina-state-university": {"currency": "USD", "basis": "total", "period": "year", "min": 58423, "max": 58423, "academicYear": "2027–2028", "note": "2027–2028, international F1 estimated academic-year school expenses: tuition/fees, living and health insurance. This is the university’s financial-guarantee estimate, not a fixed programme invoice. Summer in the US is excluded and estimated at another USD 6,070. Competitive scholarships are not deducted.", "source": "https://admissions.ncsu.edu/apply/international/first-year/", "verified": "2026-10-31"},
-    'saint-marys-university': {"currency": "CAD", "basis": "tuition", "calc": "course-load", "period": "year", "min": 33010, "max": 33340, "perCourseMin": 3301, "perCourseMax": 3334, "coursesPerYear": 10, "academicYear": "2026–2027", "source": "https://www.smu.ca/academics/undergraduate-tuition-and-fees.html", "verified": "2026-10-26", "workloadSource": "https://smu-ca-public.courseleaf.com/undergraduate/faculties/sobey-school-business/bachelor-commerce/", "workloadVerified": "2026-10-26", "example": true, "scopeFields": ["business"], "note": "Business (BComm) only, new 2026–27 international cohort: five courses per term, ten across Fall/Winter. Arts/Commerce courses cost C$3,301; Science courses C$3,334. Ten courses give C$33,010–C$33,340 tuition, calculated by UniPath; ancillary fees, insurance, co-op and living expenses are additional. Engineering has a different normal workload and is not compared with this example."},
     'concordia-university': {"currency": "CAD", "basis": "tuition", "calc": "credit-load", "period": "year", "min": 42000, "max": 42000, "perCredit": 1400, "creditsPerYear": 30, "academicYear": "2026–2027", "source": "https://www.concordia.ca/students/financial/tuition-fees/rates/undergrad.html", "verified": "2026-10-26", "workloadSource": "https://www.concordia.ca/academics/undergraduate/calendar/current/section-16-academic-information-definitions-and-regulations/section-16-1-general-information.html", "workloadVerified": "2026-10-26", "example": true, "scopeFields": ["business"], "note": "John Molson Business only, Fall 2026/Winter 2027: 30 credits at C$1,400 = C$42,000 tuition, calculated by UniPath. Compulsory fees, insurance and living expenses are extra. Engineering may require more than 30 credits and is outside this example. Exemption eligibility is not assumed."},
-    'university-of-prince-edward-island': {"currency": "CAD", "basis": "tuition", "period": "year", "min": 17848, "max": 17848, "example": true, "scopeFields": ["business"], "academicYear": "2026–2027", "source": "https://www.upei.ca/fees?field_fee_faculty_target_id=190&field_type_value=international&field_time_value=fulltime&field_level_value=undergraduate", "verified": "2026-10-26", "note": "Business only, international full-time undergraduates, 2026–27: C$17,848 per year is published for tuition plus the international fee. Other mandatory fees, the C$200 business service fee, insurance, co-op, housing and meals are extra. This is not a full budget or a price for other faculties or 2027–28 entry."},
     'university-of-guelph': {"currency": "CAD", "basis": "tuition", "calc": "two-semesters", "period": "year", "min": 44552.2, "max": 62950.98, "academicYear": "2026–2027", "source": "https://www.uoguelph.ca/registrar/finances-fees/tuition-fees/guelph-undergrad", "verified": "2026-10-24", "note": "Cohort 2026, two full Fall/Winter semesters in standard bachelor’s programmes; calculated by UniPath. DVM, diplomas, other cohorts and all fees/living expenses excluded."},
-    'university-of-northern-british-columbia': {"currency": "CAD", "basis": "tuition", "calc": "credit-load", "period": "year", "min": 31204.5, "max": 31204.5, "perCredit": 1040.15, "creditsPerYear": 30, "academicYear": "2026–2027", "source": "https://www.unbc.ca/finance/accounts-receivable/tuition-and-fees", "verified": "2026-10-24", "workloadSource": "https://www.unbc.ca/programs-and-admissions/undergraduate/tuition-and-fees", "workloadVerified": "2026-10-24", "note": "2026–27 tuition-only scenario for the official 30-credit annual workload; calculated by UniPath. Mandatory fees and living costs are additional."},
 
     /* Canada, October 2026 */
     'university-of-victoria': { currency: 'CAD', basis: 'tuition', min: 37576, max: 42618, note: 'Year-1 tuition 2026–27 for two terms (most programmes to Engineering & Computer Science); ancillary fees, housing and food extra' },
 
     /* Canada, October 2026 */
     'mount-royal-university': { currency: 'CAD', basis: 'tuition', min: 24277, max: 24277, note: 'Year-1 maximum international tuition 2026–27 (all degrees listed); mandatory fees C$2,432.68, housing and food extra' },
-    'university-of-the-fraser-valley': { currency: 'CAD', calc: 'two-semesters', basis: 'tuition', min: 14346, max: 14346, note: 'Tuition for two semesters of 9 credits at the 2026–27 rate — calculated by UniPath, not printed by the university; fees, first-semester administration fee, housing and food extra' },
     'laurentian-university': { currency: 'CAD', basis: 'tuition', min: 30052, max: 41041.6, note: 'Tuition 2026–27 by programme (Computer Science to Engineering); incidental fees, UHIP, housing and food extra' },
     'universite-du-quebec-a-montreal': { currency: 'CAD', basis: 'tuition', min: 29415, max: 29415, note: 'University estimate of yearly tuition and fees 2026–27 for an international bachelor’s student (approximate); insurance, housing and food extra' },
     'universite-de-sherbrooke': { currency: 'CAD', calc: 'two-semesters', basis: 'billed', min: 23950, max: 32140, note: 'Two 15-credit terms at the autumn 2026 per-term totals — calculated by UniPath, not printed by the university; insurance, housing and food extra' },
     'university-of-windsor': { currency: 'CAD', calc: 'two-semesters', basis: 'tuition', min: 33000, max: 37500, note: 'Base tuition for two terms (Fall and Winter) at the 2026–27 rates for Arts and Computer Science — calculated by UniPath, not printed by the university; fees, health insurance, housing and food extra' },
-    'university-of-new-brunswick': { currency: 'CAD', basis: 'billed', min: 22754, max: 27722, note: 'Tuition and fees 2026–27 for an international student attending both terms, Fredericton (Arts to Engineering); housing and food extra' },
     'universite-de-moncton': { currency: 'CAD', basis: 'billed', min: 17839, max: 17839, note: 'Tuition, related fees and health and dental plans 2026–27 (indicative), Moncton campus; housing and food extra' },
 
     /* Canada, October 2026 */
@@ -81,11 +101,8 @@ window.UNIPATH.match = {
     'st-francis-xavier-university': { currency: 'CAD', basis: 'billed', min: 24958.1, max: 24958.1, note: 'Tuition, international fee and mandatory fees 2026–27 (not Nursing); housing and food extra' },
     'mount-allison-university': { currency: 'CAD', basis: 'total', min: 44070, max: 44070, note: 'University estimate 2026–27: tuition, residence and meals, fees, medical coverage and books' },
     'bishops-university': { currency: 'CAD', basis: 'tuition', min: 29510.43, max: 29510.43, note: 'Tuition for 30 credits, 2026 cohort; compulsory fees, insurance, housing and food extra' },
-    'university-of-lethbridge': { currency: 'CAD', basis: 'billed', min: 26390.98, max: 26390.98, note: 'Tuition and mandatory fees 2026/2027 incl. health insurance and UPass; books, housing and food extra' },
 
     /* Canada, October 2026 */
-    'memorial-university-of-newfoundland': { currency: 'CAD', basis: 'tuition', min: 22500, max: 22500, note: 'Tuition for two semesters for international students starting in fall 2026; fees, insurance, housing and food extra' },
-    'university-of-regina': { currency: 'CAD', basis: 'total', min: 47000, max: 47000, note: 'University estimate 2026–27: average tuition and fees, books, on-campus housing, food and personal costs' },
     'ontario-tech-university': { currency: 'CAD', basis: 'tuition', min: 34148.27, max: 46561.31, note: 'Tuition 2026–27 by programme (30 credit hours); ancillary fees, housing and food extra' },
     'toronto-metropolitan-university': { currency: 'CAD', basis: 'tuition', min: 38693, max: 44675, note: 'International fees 2026–27 by faculty; housing, food and books extra' },
     'brock-university': { currency: 'CAD', basis: 'tuition', min: 39834.95, max: 41645.6, note: 'Flat-fee tuition for 2026 entry (pending Board approval); ancillary, provincial fee and UHIP extra' },
@@ -161,7 +178,6 @@ window.UNIPATH.match = {
     'allegheny-college': { currency: 'USD', basis: 'billed', min: 74664, max: 74664 },
     'bentley-university': { currency: 'USD', basis: 'total', min: 94270, max: 94270, note: 'First-year international students, with the required health insurance' },
     'iowa-state-university': { currency: 'USD', basis: 'total', min: 50960, max: 50960, note: 'The required medical insurance plan is not in this total' },
-    'lake-forest-college': { currency: 'USD', basis: 'billed', min: 74702, max: 74702 },
     'muhlenberg-college': { currency: 'USD', basis: 'total', min: 87696, max: 87696 },
     'pitzer-college': { currency: 'USD', basis: 'total', min: 96706, max: 96706 },
     'seattle-university': { currency: 'USD', basis: 'total', min: 82726, max: 82726, note: 'The page does not name the academic year' },
@@ -192,7 +208,6 @@ window.UNIPATH.match = {
     'georgia-institute-of-technology': { currency: 'USD', basis: 'total', min: 56194, max: 56194, note: 'Estimate for 2027–2028, out-of-country rate' },
     'adelphi-university': { currency: 'USD', basis: 'tuition', min: 52110, max: 52110 },
     'harvey-mudd-college': { currency: 'USD', basis: 'total', min: 104512, max: 104512, note: 'Transportation and the required health insurance plan are not in this total' },
-    'hendrix-college': { currency: 'USD', basis: 'total', min: 61880, max: 61880 },
     'hobart-and-william-smith-colleges': { currency: 'USD', basis: 'billed', min: 87082, max: 87082 },
     'howard-university': { currency: 'USD', basis: 'total', min: 66182, max: 66182 },
     'illinois-institute-of-technology': { currency: 'USD', basis: 'billed', min: 73596, max: 73596 },
@@ -203,15 +218,12 @@ window.UNIPATH.match = {
     'chapman-university': { currency: 'USD', basis: 'total', min: 94376, max: 94376 },
     'william-and-mary': { currency: 'USD', basis: 'total', min: 75652, max: 75652, note: 'Out-of-state rate' },
     'depaul-university': { currency: 'USD', basis: 'tuition', min: 48180, max: 48180 },
-    'eckerd-college': { currency: 'USD', basis: 'billed', min: 70668, max: 70668 },
-    'elmira-college': { currency: 'USD', basis: 'billed', min: 55530, max: 55530 },
     'endicott-college': { currency: 'USD', basis: 'total', min: 66582, max: 66582 },
 
     /* United States expansion, October 2026 */
     'bard-college': { currency: 'USD', basis: 'billed', min: 93472, max: 93472 },
     'bennington-college': { currency: 'USD', basis: 'billed', min: 95500, max: 95500, note: 'International students, with the health insurance estimate' },
     'claremont-mckenna-college': { currency: 'USD', basis: 'total', min: 101990, max: 101990 },
-    'kalamazoo-college': { currency: 'USD', basis: 'billed', min: 80111, max: 80111 },
     'reed-college': { currency: 'USD', basis: 'total', min: 92198, max: 93948, note: '2025–26 figures, the latest published' },
     'sarah-lawrence-college': { currency: 'USD', basis: 'total', min: 102364, max: 102364, note: 'International students; health insurance is included in this total' },
 
@@ -231,7 +243,6 @@ window.UNIPATH.match = {
     'macromedia-university':   { currency: 'EUR', basis: 'tuition', min: 12000, max: 12000 },
     'reutlingen-university':   { currency: 'EUR', basis: 'tuition', min: 3399, max: 3399, note: 'Non-EU tuition plus semester fees' },
     'deggendorf-institute-of-technology': { currency: 'EUR', basis: 'tuition', min: 1000, max: 1000, note: 'Service fee for non-EU students; no tuition' },
-    'hof-university':          { currency: 'EUR', basis: 'tuition', min: 250, max: 250, note: 'Semester contributions only' },
     'neu-ulm-university':      { currency: 'EUR', basis: 'tuition', min: 0, max: 0, note: 'No tuition in Bavaria; semester fee only' },
     'anhalt-university':       { currency: 'EUR', basis: 'tuition', min: 0, max: 0, note: 'No tuition for a first degree' },
     'stralsund-university':    { currency: 'EUR', basis: 'tuition', min: 0, max: 0, note: 'No tuition; semester contribution only' },
@@ -243,10 +254,7 @@ window.UNIPATH.match = {
     'university-of-tsukuba':   { currency: 'JPY', basis: 'tuition', min: 535800, max: 535800 },
     'okayama-university':      { currency: 'JPY', basis: 'tuition', min: 535800, max: 535800 },
     'hitotsubashi-university': { currency: 'JPY', basis: 'tuition', min: 535800, max: 535800, note: 'Standard national-university rate' },
-    'ritsumeikan-university':  { currency: 'JPY', basis: 'tuition', min: 1439200, max: 1439200 },
-    'temple-university-japan': { currency: 'JPY', basis: 'total', min: 3500000, max: 3500000, note: 'University estimate including living costs for two semesters' },
     'miyazaki-international-college': { currency: 'JPY', basis: 'tuition', min: 680000, max: 680000, note: 'Published 2022–23 figures, before international waivers' },
-    'gist':                    { currency: 'KRW', basis: 'tuition', min: 7214000, max: 7214000, note: 'Fully supported for admitted international students' },
 
     /* Added 2026-09-24 after confirming the figure on the university's own pages. */
     'lse':                     { currency: 'GBP', basis: 'tuition', min: 30400, max: 41900, note: '2027/28 Overseas rate, fixed at the year-of-entry level' },
@@ -256,12 +264,10 @@ window.UNIPATH.match = {
     'doshisha-university':     { currency: 'JPY', basis: 'tuition', min: 1194000, max: 1194000, note: 'ILA tuition and facilities fee for 2027 entry' },
     'kyoto-university-advanced-science': { currency: 'JPY', basis: 'tuition', min: 2045000, max: 2045000, note: 'School fees from the 2027 academic year' },
     'tokyo-international-university': { currency: 'JPY', basis: 'tuition', min: 1420000, max: 1720000, note: 'E-Track tuition plus the operations fee, by major' },
-    'handong-global-university': { currency: 'KRW', basis: 'tuition', min: 6342000, max: 8136000, note: 'Two semesters at the Fall 2025 rates, by area of study' },
     'queens-university-belfast': { currency: 'GBP', basis: 'tuition', min: 24600, max: 28500, note: '2027/28 classroom and laboratory fee rates; pre-clinical medicine is £39,990' },
     'university-of-exeter':    { currency: 'GBP', basis: 'tuition', min: 25700, max: 32150, note: 'Autumn 2027 subject-area rates; BMBS Medicine is £49,300' },
     'university-of-bath':      { currency: 'GBP', basis: 'tuition', min: 26150, max: 32950, note: '2027 fee bands' },
     'university-of-southampton': { currency: 'GBP', basis: 'tuition', min: 26800, max: 35900, note: 'Published course fee table; the clinical years of medicine are £64,900' },
-    'university-of-liverpool': { currency: 'GBP', basis: 'tuition', example: true, academicYear: '2026–2027', scopeFields: ['economics'], min: 27000, max: 27000, note: 'BSc Economics example; each course is priced separately' },
     'queen-mary-university-of-london': { currency: 'GBP', basis: 'tuition', example: true, academicYear: '2027–2028', scopeFields: ['economics'], min: 30950, max: 30950, note: 'BSc Economics example for September 2027; each course is priced separately' },
     'newcastle-university':    { currency: 'GBP', basis: 'tuition', example: true, academicYear: '2027–2028', scopeFields: ['economics'], min: 25750, max: 25750, note: 'BSc Economics example for 2027 entry; each course is priced separately' },
     'university-of-leeds':     { currency: 'GBP', basis: 'tuition', example: true, academicYear: '2027–2028', scopeFields: ['economics'], min: 29000, max: 29000, note: 'BSc Economics example for 2027/28; each course is priced separately' },
@@ -296,10 +302,7 @@ window.UNIPATH.match = {
     'macalester-college': { currency: 'USD', basis: 'billed', min: 87338, max: 87338, note: 'Tuition, required fees and on-campus food and housing; books, travel and personal expenses extra' },
     'lafayette-college': { currency: 'USD', basis: 'billed', min: 92492, max: 92492, note: 'Tuition, required fees and on-campus food and housing; books, travel and personal expenses extra' },
     'sewanee-university-of-the-south': { currency: 'USD', basis: 'billed', min: 78210, max: 78210, note: 'Comprehensive fee; international students should budget roughly $6,000 more' },
-    'college-of-wooster': { currency: 'USD', basis: 'billed', min: 82340, max: 82340, note: 'Billed charges; books, travel and personal expenses extra' },
     'st-olaf-college': { currency: 'USD', basis: 'billed', min: 81200, max: 81200, note: 'Billed charges; books, travel and personal expenses extra' },
-    'knox-college': { currency: 'USD', basis: 'total', min: 78217, max: 78217 },
-    'beloit-college': { currency: 'USD', basis: 'total', min: 83620, max: 83620 },
     'lawrence-university': { currency: 'USD', basis: 'billed', min: 75558, max: 75558, note: 'Billed charges; books, travel and personal expenses extra' },
     'earlham-college': { currency: 'USD', basis: 'billed', min: 73526, max: 73526, note: 'Billed charges; books, travel and personal expenses extra' },
     'whitman-college': { currency: 'USD', basis: 'total', min: 86620, max: 86620 },
@@ -342,7 +345,6 @@ window.UNIPATH.match = {
     'technische-hochschule-ingolstadt': { currency: 'EUR', basis: 'tuition', min: 1600, max: 1600, note: 'Two semesters at €800 for students from outside the EU/EEA; the student union fee is extra' },
     'kuehne-logistics-university': { currency: 'EUR', basis: 'tuition', min: 15800, max: 17700, note: 'Two semesters; the higher figure is the intensive track' },
     'dongseo-university': { currency: 'KRW', basis: 'tuition', min: 8333000, max: 8333000, note: 'First year for the English-track majors open to first-year applicants (engineering and arts fields): first semester plus one later semester' },
-    'suny-korea': { currency: 'USD', basis: 'tuition', min: 23550, max: 23550, note: 'Two semesters at the Fall 2026 rate of $11,775 for students from outside New York State; course fees and the dormitory are extra' },
     'yamanashi-gakuin-university': { currency: 'JPY', basis: 'tuition', min: 1696000, max: 1896000, note: 'Tuition and facility fee; the higher figure is the first year with the enrolment fee. Residence hall and meals add about ¥1,000,000 a year' },
     /* United States — cost of attendance for 2026–27 */
     'harvard-university':      { currency: 'USD', basis: 'total', min: 95134, max: 100134 },
@@ -406,14 +408,11 @@ window.UNIPATH.match = {
     'university-of-tokyo':     { currency: 'JPY', basis: 'tuition', min: 642960, max: 642960 },
     'waseda-university':       { currency: 'JPY', basis: 'tuition', min: 1200000, max: 1800000 },
     'sophia-university':       { currency: 'JPY', basis: 'tuition', min: 1442000, max: 1668650 },
-    'international-christian-university': { currency: 'JPY', basis: 'tuition', min: 1521000, max: 1521000 },
     'ritsumeikan-apu':         { currency: 'JPY', basis: 'tuition', min: 1455000, max: 1655000, note: 'Before any tuition-reduction scholarship' },
     'tohoku-university':       { currency: 'JPY', basis: 'tuition', min: 535800, max: 535800 },
     /* South Korea — tuition per year (two semesters) */
     'seoul-national-university': { currency: 'KRW', basis: 'tuition', min: 4900000, max: 6000000 },
     'kaist':                   { currency: 'KRW', basis: 'tuition', min: 0, max: 0, note: 'Tuition is covered for every admitted international student' },
-    'yonsei-university':       { currency: 'KRW', basis: 'tuition', min: 16516000, max: 16516000 },
-    'korea-university':        { currency: 'KRW', basis: 'tuition', min: 11600000, max: 15600000 },
     'hanyang-university':      { currency: 'KRW', basis: 'tuition', min: 10600000, max: 15600000 },
     'ewha-womans-university':  { currency: 'KRW', basis: 'tuition', min: 9300000, max: 12900000 },
     /* United Kingdom — international tuition per year */
@@ -424,11 +423,8 @@ window.UNIPATH.match = {
     'university-of-manchester':{ currency: 'GBP', basis: 'tuition', min: 37800, max: 37800, example: true },
     'university-of-warwick':   { currency: 'GBP', basis: 'tuition', min: 21950, max: 37310 },
     /* Germany */
-    'technical-university-of-munich': { currency: 'EUR', basis: 'tuition', min: 4000, max: 6000 },
-    'fau-erlangen-nurnberg':   { currency: 'EUR', basis: 'tuition', min: 2000, max: 6000, note: 'From summer semester 2027' },
     'university-of-freiburg':  { currency: 'EUR', basis: 'tuition', min: 3000, max: 3000 },
     'university-of-cologne':   { currency: 'EUR', basis: 'tuition', min: 0, max: 0 },
-    'leuphana-university-luneburg': { currency: 'EUR', basis: 'tuition', min: 0, max: 0 },
     'rhine-waal-university':   { currency: 'EUR', basis: 'tuition', min: 0, max: 0 },
     'constructor-university':  { currency: 'EUR', basis: 'tuition', min: 23850, max: 23850, note: 'Two semesters of €11,925 for 2027/2028; fees, the one-time enrolment fee, housing and meals are extra' },
     'frankfurt-school':        { currency: 'EUR', basis: 'total', min: 39120, max: 39120 }

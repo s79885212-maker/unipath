@@ -1,0 +1,33 @@
+{
+  "version": 250,
+  "tests": {
+    "passed": 564,
+    "failed": 0
+  },
+  "production": {
+    "profiles": 540,
+    "noindex": false,
+    "sitemap_profiles": 540,
+    "versions": [
+      "250"
+    ],
+    "canonical": true
+  },
+  "staging": {
+    "profiles": 540,
+    "allPages": 547,
+    "noindexPages": 547,
+    "noindex": true,
+    "versions": [
+      "250"
+    ],
+    "basePath": "/unipath/staging/",
+    "canonical": true
+  },
+  "browser": "Chrome 157.0.8103.51 headless",
+  "webkit": false,
+  "realPhone": false,
+  "sourceReviewed": 60,
+  "runtimeProfilesChanged": 41,
+  "automaticallyInventoried": 540
+}
