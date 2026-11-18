@@ -1,0 +1,596 @@
+[
+  {
+    "url": "https://upenn.box.com/s/woo7d85yxpol6j9e2o121aucjc6dc1k5",
+    "checked": "2026-11-17",
+    "ids": [
+      "university-of-pennsylvania"
+    ],
+    "status": 404,
+    "final": "https://upenn.box.com/s/woo7d85yxpol6j9e2o121aucjc6dc1k5",
+    "kind": "not-found",
+    "seconds": 1.28
+  },
+  {
+    "url": "https://college.uchicago.edu/news/academic-stories/uchicago-launches-test-optional-admissions-process-expanded-financial-aid",
+    "checked": "2026-11-17",
+    "ids": [
+      "university-of-chicago"
+    ],
+    "status": 404,
+    "final": "https://college.uchicago.edu/news/academic-stories/uchicago-launches-test-optional-admissions-process-expanded-financial-aid",
+    "kind": "not-found",
+    "seconds": 0.56
+  },
+  {
+    "url": "https://georgetown.box.com/s/0r8akn4cbm52zjkll6i7uttlb9k36px2",
+    "checked": "2026-11-17",
+    "ids": [
+      "georgetown-university"
+    ],
+    "status": 404,
+    "final": "https://georgetown.box.com/s/0r8akn4cbm52zjkll6i7uttlb9k36px2",
+    "kind": "not-found",
+    "seconds": 0.84
+  },
+  {
+    "url": "https://tulane.box.com/s/1dgaxpa2x2ie24zgglrg0puwm1h7xrt5",
+    "checked": "2026-11-17",
+    "ids": [
+      "tulane-university"
+    ],
+    "status": 404,
+    "final": "https://tulane.box.com/s/1dgaxpa2x2ie24zgglrg0puwm1h7xrt5",
+    "kind": "not-found",
+    "seconds": 2.16
+  },
+  {
+    "url": "https://www.trincoll.edu/academics/majors",
+    "checked": "2026-11-17",
+    "ids": [
+      "trinity-college-hartford"
+    ],
+    "status": 404,
+    "final": "https://www.trincoll.edu/academics/majors",
+    "kind": "not-found",
+    "seconds": 1.78
+  },
+  {
+    "url": "https://www.trincoll.edu/about",
+    "checked": "2026-11-17",
+    "ids": [
+      "trinity-college-hartford"
+    ],
+    "status": 404,
+    "final": "https://www.trincoll.edu/about",
+    "kind": "not-found",
+    "seconds": 1.98
+  },
+  {
+    "url": "https://www.gettysburg.edu/offices/institutional-research/pdfs/2026/CDS_2025-2026.pdf",
+    "checked": "2026-11-17",
+    "ids": [
+      "gettysburg-college"
+    ],
+    "status": 404,
+    "final": "https://www.gettysburg.edu/offices/institutional-research/pdfs/2026/CDS_2025-2026.pdf",
+    "kind": "not-found",
+    "seconds": 6.94
+  },
+  {
+    "url": "https://www.gettysburg.edu/academic-programs/physics/programs/engineering-dual-degree",
+    "checked": "2026-11-17",
+    "ids": [
+      "gettysburg-college"
+    ],
+    "status": 404,
+    "final": "https://www.gettysburg.edu/academic-programs/physics/programs/engineering-dual-degree",
+    "kind": "not-found",
+    "seconds": 7.62
+  },
+  {
+    "url": "https://new.sewanee.edu/admission-aid/application-process/application-review/international-applicants/",
+    "checked": "2026-11-17",
+    "ids": [
+      "sewanee-university-of-the-south"
+    ],
+    "status": 404,
+    "final": "https://new.sewanee.edu/admission-aid/application-process/application-review/international-applicants/",
+    "kind": "not-found",
+    "seconds": 4.0
+  },
+  {
+    "url": "https://www.soka.edu/apply",
+    "checked": "2026-11-17",
+    "ids": [
+      "soka-university-of-america"
+    ],
+    "status": 404,
+    "final": "https://admissions.soka.edu/portal/apply",
+    "kind": "not-found",
+    "seconds": 2.53
+  },
+  {
+    "url": "https://soka.box.com/s/mftw5w4m97uccmsolzra4wd4frs8acpf",
+    "checked": "2026-11-17",
+    "ids": [
+      "soka-university-of-america"
+    ],
+    "status": 404,
+    "final": "https://soka.box.com/s/mftw5w4m97uccmsolzra4wd4frs8acpf",
+    "kind": "not-found",
+    "seconds": 0.55
+  },
+  {
+    "url": "https://edge.sitecorecloud.io/michiganstab57e-msustrategi129d-prod9868-7e5e/media/project/msu/ir/docs/cds/cds-2025-2026.pdf",
+    "checked": "2026-11-17",
+    "ids": [
+      "michigan-state-university"
+    ],
+    "status": 404,
+    "final": "https://edge.sitecorecloud.io/michiganstab57e-msustrategi129d-prod9868-7e5e/media/project/msu/ir/docs/cds/cds-2025-2026.pdf",
+    "kind": "not-found",
+    "seconds": 0.45
+  },
+  {
+    "url": "https://www.hendrix.edu/admission-aid/financial-aid",
+    "checked": "2026-11-17",
+    "ids": [
+      "hendrix-college"
+    ],
+    "status": 404,
+    "final": "https://www.hendrix.edu/admission-aid/financial-aid/",
+    "kind": "not-found",
+    "seconds": 1.38
+  },
+  {
+    "url": "https://www.scu.edu/admission/financial-aid/",
+    "checked": "2026-11-17",
+    "ids": [
+      "santa-clara-university"
+    ],
+    "status": 404,
+    "final": "https://www.scu.edu/404?targetURL=https%3A%2F%2Fwww.scu.edu%2Fadmission%2Ffinancial-aid%2F",
+    "kind": "not-found",
+    "seconds": 3.17
+  },
+  {
+    "url": "https://aggie.tamu.edu/paying-for-college/apply-for-financial-aid/international-student-financial-aid.html",
+    "checked": "2026-11-17",
+    "ids": [
+      "texas-a-and-m-university"
+    ],
+    "status": 404,
+    "final": "https://aggie.tamu.edu/paying-for-college/apply-for-financial-aid/international-student-financial-aid.html",
+    "kind": "not-found",
+    "seconds": 1.14
+  },
+  {
+    "url": "https://admissions.tamu.edu/apply/international/international-freshman.html",
+    "checked": "2026-11-17",
+    "ids": [
+      "texas-a-and-m-university"
+    ],
+    "status": 404,
+    "final": "https://admissions.tamu.edu/apply/international/international-freshman.html",
+    "kind": "not-found",
+    "seconds": 1.75
+  },
+  {
+    "url": "https://admissions.tamu.edu/apply/freshman",
+    "checked": "2026-11-17",
+    "ids": [
+      "texas-a-and-m-university"
+    ],
+    "status": 404,
+    "final": "https://admissions.tamu.edu/apply/freshman",
+    "kind": "not-found",
+    "seconds": 1.45
+  },
+  {
+    "url": "https://catalog.willamette.edu/programs/BS.IEOR",
+    "checked": "2026-11-17",
+    "ids": [
+      "willamette-university"
+    ],
+    "status": 404,
+    "final": "https://catalog.willamette.edu/programs/BS.IEOR",
+    "kind": "not-found",
+    "seconds": 4.88
+  },
+  {
+    "url": "https://cge.utk.edu/wp-content/uploads/sites/84/2020/08/UG-Student-Exchange-Agreement.pdf",
+    "checked": "2026-11-17",
+    "ids": [
+      "university-of-tennessee-knoxville"
+    ],
+    "status": 404,
+    "final": "http://global.utk.edu/wp-content/uploads/sites/84/2020/08/UG-Student-Exchange-Agreement.pdf",
+    "kind": "not-found",
+    "seconds": 1.53
+  },
+  {
+    "url": "https://www.csusb.edu/international-education/international-admissions/tuition-and-fees",
+    "checked": "2026-11-17",
+    "ids": [
+      "cal-state-san-bernardino"
+    ],
+    "status": 404,
+    "final": "https://www.csusb.edu/international-education/international-admissions/tuition-and-fees",
+    "kind": "not-found",
+    "seconds": 0.55
+  },
+  {
+    "url": "https://www.csusb.edu/international-education/international-admissions/application-document-deadlines",
+    "checked": "2026-11-17",
+    "ids": [
+      "cal-state-san-bernardino"
+    ],
+    "status": 404,
+    "final": "https://www.csusb.edu/international-education/international-admissions/application-document-deadlines",
+    "kind": "not-found",
+    "seconds": 1.34
+  },
+  {
+    "url": "https://www.csusb.edu/international-education/international-admissions/first-year-students",
+    "checked": "2026-11-17",
+    "ids": [
+      "cal-state-san-bernardino"
+    ],
+    "status": 404,
+    "final": "https://www.csusb.edu/international-education/international-admissions/first-year-students",
+    "kind": "not-found",
+    "seconds": 1.8
+  },
+  {
+    "url": "https://www.kyushu-u.ac.jp/en/admission/fees/scholarships/",
+    "checked": "2026-11-17",
+    "ids": [
+      "kyushu-university"
+    ],
+    "status": 404,
+    "final": "https://www.kyushu-u.ac.jp/en/admission/fees/scholarships/",
+    "kind": "not-found",
+    "seconds": 1.23
+  },
+  {
+    "url": "https://www.kwansei.ac.jp/en/assets/International_Admission_2026_Application_Handbook.pdf",
+    "checked": "2026-11-17",
+    "ids": [
+      "kwansei-gakuin-university"
+    ],
+    "status": 404,
+    "final": "https://www.kwansei.ac.jp/en/assets/International_Admission_2026_Application_Handbook.pdf",
+    "kind": "not-found",
+    "seconds": 6.42
+  },
+  {
+    "url": "https://www.toyo.ac.jp/nyushi/content/dam/toyowebstyle/admission/admission-data/international-student/requirements-online/online-entry-exam_dgis_2026_sep_en.pdf",
+    "checked": "2026-11-17",
+    "ids": [
+      "toyo-university"
+    ],
+    "status": 404,
+    "final": "https://www.toyo.ac.jp/nyushi/content/dam/toyowebstyle/admission/admission-data/international-student/requirements-online/online-entry-exam_dgis_2026_sep_en.pdf",
+    "kind": "not-found",
+    "seconds": 0.89
+  },
+  {
+    "url": "https://en.snu.ac.kr/",
+    "checked": "2026-11-17",
+    "ids": [
+      "seoul-national-university"
+    ],
+    "status": 404,
+    "final": "https://en.snu.ac.kr/",
+    "kind": "not-found",
+    "seconds": 1.78
+  },
+  {
+    "url": "https://en.snu.ac.kr/admission",
+    "checked": "2026-11-17",
+    "ids": [
+      "seoul-national-university"
+    ],
+    "status": 404,
+    "final": "https://en.snu.ac.kr/admission",
+    "kind": "not-found",
+    "seconds": 1.7
+  },
+  {
+    "url": "https://en.snu.ac.kr/admission/undergraduate/application",
+    "checked": "2026-11-17",
+    "ids": [
+      "seoul-national-university"
+    ],
+    "status": 404,
+    "final": "https://en.snu.ac.kr/admission/undergraduate/application",
+    "kind": "not-found",
+    "seconds": 3.03
+  },
+  {
+    "url": "https://en.snu.ac.kr/admission/undergraduate/scholarships/before_admission",
+    "checked": "2026-11-17",
+    "ids": [
+      "seoul-national-university"
+    ],
+    "status": 404,
+    "final": "https://en.snu.ac.kr/admission/undergraduate/scholarships/before_admission",
+    "kind": "not-found",
+    "seconds": 2.91
+  },
+  {
+    "url": "https://en.snu.ac.kr/academics/programs/undergraduate",
+    "checked": "2026-11-17",
+    "ids": [
+      "seoul-national-university"
+    ],
+    "status": 404,
+    "final": "https://en.snu.ac.kr/academics/programs/undergraduate",
+    "kind": "not-found",
+    "seconds": 3.02
+  },
+  {
+    "url": "https://en.snu.ac.kr/admission/overview/faq/admission",
+    "checked": "2026-11-17",
+    "ids": [
+      "seoul-national-university"
+    ],
+    "status": 404,
+    "final": "https://en.snu.ac.kr/admission/overview/faq/admission",
+    "kind": "not-found",
+    "seconds": 2.69
+  },
+  {
+    "url": "https://en.snu.ac.kr/admission/overview/notice?md=v&bbsidx=170606",
+    "checked": "2026-11-17",
+    "ids": [
+      "seoul-national-university"
+    ],
+    "status": 404,
+    "final": "https://en.snu.ac.kr/admission/overview/notice?md=v&bbsidx=170606",
+    "kind": "not-found",
+    "seconds": 2.69
+  },
+  {
+    "url": "https://admission-global.skku.edu/eng/grad/scholarship_undergrad.html",
+    "checked": "2026-11-17",
+    "ids": [
+      "sungkyunkwan-university"
+    ],
+    "status": 404,
+    "final": "https://admission-global.skku.edu/eng/grad/scholarship_undergrad.html",
+    "kind": "not-found",
+    "seconds": 0.44
+  },
+  {
+    "url": "https://admission-global.skku.edu/eng/etc/bbs_list.html?bbsid=global_notice_re_eng&ctg_cd=&page=1&skey=&keyword=&mode=view&bltn_seq=53774",
+    "checked": "2026-11-17",
+    "ids": [
+      "sungkyunkwan-university"
+    ],
+    "status": 404,
+    "final": "https://admission-global.skku.edu/eng/etc/bbs_list.html?bbsid=global_notice_re_eng&ctg_cd=&page=1&skey=&keyword=&mode=view&bltn_seq=53774",
+    "kind": "not-found",
+    "seconds": 0.66
+  },
+  {
+    "url": "https://eng.inha.ac.kr/eng/",
+    "checked": "2026-11-17",
+    "ids": [
+      "inha-university"
+    ],
+    "status": 404,
+    "final": "https://eng.inha.ac.kr/eng/",
+    "kind": "not-found",
+    "seconds": 1.53
+  },
+  {
+    "url": "https://oia.cau.ac.kr/sub06/sub03_2.php",
+    "checked": "2026-11-17",
+    "ids": [
+      "chung-ang-university"
+    ],
+    "status": 404,
+    "final": "https://oia.cau.ac.kr/sub06/sub03_2.php",
+    "kind": "not-found",
+    "seconds": 2.11
+  },
+  {
+    "url": "http://bulletin.konkuk.ac.kr/news/articleView.html?idxno=700",
+    "checked": "2026-11-17",
+    "ids": [
+      "konkuk-university"
+    ],
+    "status": 404,
+    "final": "http://bulletin.konkuk.ac.kr/news/articleView.html?idxno=700",
+    "kind": "not-found",
+    "seconds": 1.16
+  },
+  {
+    "url": "https://international.pusan.ac.kr/sites/international/download/brochure/005-Admissons%20For%20International%20Student(English).pdf",
+    "checked": "2026-11-17",
+    "ids": [
+      "pusan-national-university"
+    ],
+    "status": 404,
+    "final": "https://international.pusan.ac.kr/sites/international/download/brochure/005-Admissons%20For%20International%20Student(English).pdf",
+    "kind": "not-found",
+    "seconds": 0.53
+  },
+  {
+    "url": "https://channelpnu.pusan.ac.kr/news/articleView.html?idxno=38735",
+    "checked": "2026-11-17",
+    "ids": [
+      "pusan-national-university"
+    ],
+    "status": 404,
+    "final": "https://channelpnu.pusan.ac.kr/news/articleView.html?idxno=38735",
+    "kind": "not-found",
+    "seconds": 0.72
+  },
+  {
+    "url": "https://sos.sejong.ac.kr/pdf/409094/",
+    "checked": "2026-11-17",
+    "ids": [
+      "sejong-university"
+    ],
+    "status": 404,
+    "final": "https://sos.sejong.ac.kr/pdf/409094/",
+    "kind": "not-found",
+    "seconds": 1.5
+  },
+  {
+    "url": "https://www.imperial.ac.uk/study/fees-and-funding/undergraduate/scholarships/",
+    "checked": "2026-11-17",
+    "ids": [
+      "imperial-college-london"
+    ],
+    "status": 404,
+    "final": "https://www.imperial.ac.uk/study/fees-and-funding/undergraduate/scholarships/",
+    "kind": "not-found",
+    "seconds": 0.98
+  },
+  {
+    "url": "https://www.ucl.ac.uk/study/undergraduate-fees-2027-2028",
+    "checked": "2026-11-17",
+    "ids": [
+      "university-college-london"
+    ],
+    "status": 404,
+    "final": "https://www.ucl.ac.uk/study/undergraduate-fees-2027-2028",
+    "kind": "not-found",
+    "seconds": 3.44
+  },
+  {
+    "url": "https://www.gla.ac.uk/undergraduate/fees/scholarships/",
+    "checked": "2026-11-17",
+    "ids": [
+      "university-of-glasgow"
+    ],
+    "status": 404,
+    "final": "https://www.gla.ac.uk/undergraduate/fees/scholarships/",
+    "kind": "not-found",
+    "seconds": 1.72
+  },
+  {
+    "url": "https://www.leeds.ac.uk/undergraduate-fees",
+    "checked": "2026-11-17",
+    "ids": [
+      "university-of-leeds"
+    ],
+    "status": 404,
+    "final": "https://www.leeds.ac.uk/undergraduate-fees",
+    "kind": "not-found",
+    "seconds": 2.73
+  },
+  {
+    "url": "https://www.frankfurt-school.de/en/study/bachelor/bachelor-science",
+    "checked": "2026-11-17",
+    "ids": [
+      "frankfurt-school"
+    ],
+    "status": 404,
+    "final": "https://www.frankfurt-school.de/en/study/bachelor/bachelor-science",
+    "kind": "not-found",
+    "seconds": 2.02
+  },
+  {
+    "url": "https://www.frankfurt-school.de/en/home/programmes/financing",
+    "checked": "2026-11-17",
+    "ids": [
+      "frankfurt-school"
+    ],
+    "status": 404,
+    "final": "https://www.frankfurt-school.de/en/study/financing",
+    "kind": "not-found",
+    "seconds": 1.34
+  },
+  {
+    "url": "https://commons.wikimedia.org/wiki/File%3AUniversity_of_Europe_for_Applied_Sciences_Campus_Berlin.png",
+    "checked": "2026-11-17",
+    "ids": [
+      "university-of-europe-applied-sciences"
+    ],
+    "status": 404,
+    "final": "https://commons.wikimedia.org/wiki/File%3AUniversity_of_Europe_for_Applied_Sciences_Campus_Berlin.png",
+    "kind": "not-found",
+    "seconds": 0.66
+  },
+  {
+    "url": "https://www.th-deg.de/en/study-with-us/apply/fees",
+    "checked": "2026-11-17",
+    "ids": [
+      "deggendorf-institute-of-technology"
+    ],
+    "status": 404,
+    "final": "https://www.th-deg.de/en-alt/students-alt/documents/application-and-service-fees",
+    "kind": "not-found",
+    "seconds": 0.86
+  },
+  {
+    "url": "https://future.uwindsor.ca/apply-international",
+    "checked": "2026-11-17",
+    "ids": [
+      "university-of-windsor"
+    ],
+    "status": 404,
+    "final": "https://future.uwindsor.ca/apply-international",
+    "kind": "not-found",
+    "seconds": 1.03
+  },
+  {
+    "url": "https://images.e.uwindsor.ca/Web/UniversityofWindsor/%7Bb8e808b0-fabe-43af-828a-0a549a702830%7D_English_Language_Proficiency_Requirements.pdf",
+    "checked": "2026-11-17",
+    "ids": [
+      "university-of-windsor"
+    ],
+    "status": 404,
+    "final": "https://images.e.uwindsor.ca/Web/UniversityofWindsor/%7Bb8e808b0-fabe-43af-828a-0a549a702830%7D_English_Language_Proficiency_Requirements.pdf",
+    "kind": "not-found",
+    "seconds": 2.12
+  },
+  {
+    "url": "https://future.uwindsor.ca/student-awards",
+    "checked": "2026-11-17",
+    "ids": [
+      "university-of-windsor"
+    ],
+    "status": 404,
+    "final": "https://future.uwindsor.ca/student-awards",
+    "kind": "not-found",
+    "seconds": 0.55
+  },
+  {
+    "url": "https://future.uwindsor.ca/economics",
+    "checked": "2026-11-17",
+    "ids": [
+      "university-of-windsor"
+    ],
+    "status": 404,
+    "final": "https://future.uwindsor.ca/economics",
+    "kind": "not-found",
+    "seconds": 0.58
+  },
+  {
+    "url": "https://future.uwindsor.ca/psychology",
+    "checked": "2026-11-17",
+    "ids": [
+      "university-of-windsor"
+    ],
+    "status": 404,
+    "final": "https://future.uwindsor.ca/psychology",
+    "kind": "not-found",
+    "seconds": 0.74
+  },
+  {
+    "url": "https://future.uwindsor.ca/mathematics-statistics",
+    "checked": "2026-11-17",
+    "ids": [
+      "university-of-windsor"
+    ],
+    "status": 404,
+    "final": "https://future.uwindsor.ca/mathematics-statistics",
+    "kind": "not-found",
+    "seconds": 0.53
+  }
+]

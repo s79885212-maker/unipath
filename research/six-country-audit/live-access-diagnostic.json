@@ -1,0 +1,14 @@
+{
+  "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+  "gated": false,
+  "gateWidget": false,
+  "storageKeys": [
+    "unipath.lang"
+  ],
+  "turnstileAPI": "undefined",
+  "script": [
+    "https://s79885212-maker.github.io/unipath/staging/assets/js/gate.js?v=250"
+  ],
+  "searchWorks": true,
+  "events": []
+}

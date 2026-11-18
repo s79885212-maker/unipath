@@ -141,13 +141,13 @@
     var out = [];
     U.DB.countries.forEach(function (c) {
       var list = U.unisByCountry(c.code).filter(function (u) {
-        return U.fullRide(u).available === true || U.awardsAll(u).length || U.needBased(u).availableToInternational === true;
+        return U.fullRide(u).available === true || U.awardsAll(u).length || U.needFirstYearEligible(u) === true;
       });
       if (!list.length) return;
       out.push('<div class="section-head" style="margin-top:34px"><h2>' + c.flag + ' <span>' + esc(c.name) + '</span></h2></div>');
       list.forEach(function (u) {
         var fr = U.fullRide(u), merit = U.awardsAll(u), need = U.needBased(u);
-        var covers = fr.covers || {};
+        var covers = fr.status && fr.status !== 'confirmed' ? {} : fr.covers || {};
         var coverHtml = [['tuition', 'Tuition'], ['housing', 'Housing'], ['meals', 'Meals'],
           ['insurance', 'Health insurance'], ['books', 'Books & other'], ['stipend', 'Living stipend']].filter(function (m) {
           return m[0] !== 'stipend' || (covers.stipend !== undefined && covers.stipend !== null);
@@ -170,8 +170,8 @@
             '<h3 style="margin:0"><a href="' + U.uniUrl(u) + '">' + esc(u.name) + '</a></h3>' +
             '<div class="pill-row">' +
               (fr.available === true ? '<span class="badge ' + (U.awardKind(u) === 'full-ride' ? 'badge-ok' : 'badge-warn') + '">' + U.esc(U.awardLabel(u)) + '</span>' : '') +
-              (need.meetsFullNeed === true ? '<span class="badge badge-ok">Meets full need</span>' : '') +
-              (need.availableToInternational === true ? '<span class="badge badge-info">Need-based aid</span>' : '') +
+              (U.needFirstYearEligible(u) === true && need.meetsFullNeed === true ? '<span class="badge badge-ok">Meets full need</span>' : '') +
+              (U.needFirstYearEligible(u) === true ? '<span class="badge badge-info">Need-based aid</span>' : '') +
             '</div></div>' +
           (fr.available === true || fr.available === false
             ? '<p class="small" style="margin:12px 0 8px"><strong>What the largest award covers:</strong></p><div class="covers">' + coverHtml + '</div>' +

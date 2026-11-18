@@ -1,0 +1,42 @@
+[
+  {
+    "id": "unist",
+    "source": "https://admu-intl.unist.ac.kr/admission-eng/life/scholarships.do",
+    "checked": "2026-11-18",
+    "scope": "First term automatic full tuition, second term 12 credits/GPA 2.0; subsequent 12 credits/GPA 2.7.",
+    "before": "annualCost tuition=0 could give fits-tuition for Any intake or matching old year",
+    "after": "Unsupported annual zero removed. Semester benefit and renewal retained in profile. Budget unknown without full annual figure."
+  },
+  {
+    "id": "postech",
+    "source": "https://adm-iu.postech.ac.kr/user/comm/menu/e2afb97fa1b8f43c574be0dabef78f87/content/index.do",
+    "checked": "2026-11-18",
+    "scope": "First term unconditional; from semester two tuition requires previous GPA>=3.0/4.3; KRW 500,000/month living allowance separate.",
+    "before": "annualCost tuition=0 despite future-semester performance condition",
+    "after": "Unsupported annual zero removed. Original tuition waiver and renewal conditions preserved. Cost table and 2026 footnote disagree; preserve both, no reconciled tuition or full budget. Vacation housing and extras excluded.",
+    "costSource": "https://adm-iu.postech.ac.kr/user/comm/menu/4a69b7aee6a156d3c2ddb7413544ab2c/content/index.do",
+    "components2026": {
+      "tuitionTable": 5580000,
+      "tuitionFootnoteFirstTerm": 2924000,
+      "healthInsurance12Months": 951840,
+      "housing8Months": 1400000,
+      "phone12Months": 360000,
+      "food365Days": 5475000,
+      "publishedEssentialSubtotal": 13766840
+    }
+  },
+  {
+    "id": "kaist",
+    "source": "https://admission.kaist.ac.kr/intl-undergraduate/support/scholarships/kaist",
+    "checked": "2026-11-18",
+    "scope": "Eight semesters tuition; GPA condition begins after freshman year.",
+    "after": "No analogous one-semester error. Missing academic year independently prevents a budget comparison."
+  },
+  {
+    "id": "dgist",
+    "source": "https://www.dgist.ac.kr/iuadm/sub04_01.do",
+    "checked": "2026-11-18",
+    "scope": "Eight semesters tuition for all international students without special conditions; living stipends have separate GPA/credit conditions.",
+    "after": "No analogous tuition-duration error; no upgrade of undated policy to Fall 2027 pricing."
+  }
+]

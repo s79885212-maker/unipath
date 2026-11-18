@@ -1,0 +1,5 @@
+<workspace>\build\unipath.html  —  15355 KB, pure ASCII: True
+minify_data: 22 files, 6.31 MB -> 5.47 MB, data identical
+i18n_pack: ru from 4473 KB → ru.js 701 KB, ca 282 KB, de 141 KB, jp 193 KB, kr 159 KB, uk 206 KB, us 1320 KB
+prerender: 546 static pages
+<workspace>\dist/  (upload this folder)  +  <workspace>\build\unipath-site.zip

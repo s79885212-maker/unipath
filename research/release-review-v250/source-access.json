@@ -1,0 +1,807 @@
+[
+  {
+    "url": "https://upenn.box.com/s/woo7d85yxpol6j9e2o121aucjc6dc1k5",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://upenn.app.box.com/s/woo7d85yxpol6j9e2o121aucjc6dc1k5",
+    "access": "shell-only; document not read",
+    "textSha256": "512fd3c6042cd1d9150d46fa59b5911a1f97b8275d73eb0a841daa31e93bd349"
+  },
+  {
+    "url": "https://college.uchicago.edu/news/academic-stories/uchicago-launches-test-optional-admissions-process-expanded-financial-aid",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://georgetown.box.com/s/0r8akn4cbm52zjkll6i7uttlb9k36px2",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://georgetown.app.box.com/s/0r8akn4cbm52zjkll6i7uttlb9k36px2",
+    "access": "shell-only; document not read",
+    "textSha256": "512fd3c6042cd1d9150d46fa59b5911a1f97b8275d73eb0a841daa31e93bd349"
+  },
+  {
+    "url": "https://tulane.box.com/s/1dgaxpa2x2ie24zgglrg0puwm1h7xrt5",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://tulane.app.box.com/s/1dgaxpa2x2ie24zgglrg0puwm1h7xrt5",
+    "access": "shell-only; document not read",
+    "textSha256": "512fd3c6042cd1d9150d46fa59b5911a1f97b8275d73eb0a841daa31e93bd349"
+  },
+  {
+    "url": "https://www.trincoll.edu/academics/majors",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.trincoll.edu/about",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "TimeoutError: The read operation timed out"
+  },
+  {
+    "url": "https://www.gettysburg.edu/offices/institutional-research/pdfs/2026/CDS_2025-2026.pdf",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.gettysburg.edu/academic-programs/physics/programs/engineering-dual-degree",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://new.sewanee.edu/admission-aid/application-process/application-review/international-applicants/",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.soka.edu/apply",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://soka.box.com/s/mftw5w4m97uccmsolzra4wd4frs8acpf",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://soka.app.box.com/s/mftw5w4m97uccmsolzra4wd4frs8acpf",
+    "access": "shell-only; document not read",
+    "textSha256": "512fd3c6042cd1d9150d46fa59b5911a1f97b8275d73eb0a841daa31e93bd349"
+  },
+  {
+    "url": "https://edge.sitecorecloud.io/michiganstab57e-msustrategi129d-prod9868-7e5e/media/project/msu/ir/docs/cds/cds-2025-2026.pdf",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://edge.sitecorecloud.io/michiganstab57e-msustrategi129d-prod9868-7e5e/media/project/msu/ir/docs/cds/cds-2025-2026.pdf",
+    "access": "pdf-read",
+    "textSha256": "3890f392f05f124e9c0b0693c7c85c95569b84d2a73556f7cc2c91b2aa4cbaf2"
+  },
+  {
+    "url": "https://www.hendrix.edu/admission-aid/financial-aid",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: File Not Found"
+  },
+  {
+    "url": "https://www.scu.edu/admission/financial-aid/",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://aggie.tamu.edu/paying-for-college/apply-for-financial-aid/international-student-financial-aid.html",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://admissions.tamu.edu/apply/international/international-freshman.html",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://admissions.tamu.edu/apply/freshman",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://catalog.willamette.edu/programs/BS.IEOR",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Program not found"
+  },
+  {
+    "url": "https://cge.utk.edu/wp-content/uploads/sites/84/2020/08/UG-Student-Exchange-Agreement.pdf",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.csusb.edu/international-education/international-admissions/tuition-and-fees",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.csusb.edu/international-education/international-admissions/application-document-deadlines",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.csusb.edu/international-education/international-admissions/first-year-students",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.kyushu-u.ac.jp/en/admission/fees/scholarships/",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.kwansei.ac.jp/en/assets/International_Admission_2026_Application_Handbook.pdf",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.toyo.ac.jp/nyushi/content/dam/toyowebstyle/admission/admission-data/international-student/requirements-online/online-entry-exam_dgis_2026_sep_en.pdf",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://en.snu.ac.kr/",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://en.snu.ac.kr/index.html",
+    "access": "html-read",
+    "textSha256": "de5334aa3bdf4f01b0e0015f2ea132dfefc2060178ccb07d503764819c91c91d"
+  },
+  {
+    "url": "https://en.snu.ac.kr/admission",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://en.snu.ac.kr/admission",
+    "access": "html-read",
+    "textSha256": "79569fd1306fa5851b9e137140184dcddc40637b694dd6af214031599445c274"
+  },
+  {
+    "url": "https://en.snu.ac.kr/admission/undergraduate/application",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://en.snu.ac.kr/admission/undergraduate/application",
+    "access": "html-read",
+    "textSha256": "11726eee6d5cf4cd5410342b778eeccce8189ecc58f0c559d90deda6abfb0118"
+  },
+  {
+    "url": "https://en.snu.ac.kr/admission/undergraduate/scholarships/before_admission",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://en.snu.ac.kr/admission/undergraduate/scholarships/before_admission",
+    "access": "html-read",
+    "textSha256": "baa0592f8513af6f4780973f9af2efe27ae9c02d1c11304046a4674b8cfa7ccc"
+  },
+  {
+    "url": "https://en.snu.ac.kr/academics/programs/undergraduate",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://en.snu.ac.kr/academics/programs/undergraduate",
+    "access": "html-read",
+    "textSha256": "67ccf2c69d517d91b66c64a9b04d6786b59547b07f33d70136cd3cfe972fb88e"
+  },
+  {
+    "url": "https://en.snu.ac.kr/admission/overview/faq/admission",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://en.snu.ac.kr/admission/overview/faq/admission",
+    "access": "html-read",
+    "textSha256": "45d8eb9474718ae375c8d125a4dc2ece2e5ab50557a750b0eccd96af12e9086d"
+  },
+  {
+    "url": "https://en.snu.ac.kr/admission/overview/notice?md=v&bbsidx=170606",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://en.snu.ac.kr/admission/overview/notice?md=v&bbsidx=170606",
+    "access": "html-read",
+    "textSha256": "a121ccd413f8147cbc45c980e82cf2fa07a704eec50c5b84cfea2b29fd7187fb"
+  },
+  {
+    "url": "https://admission-global.skku.edu/eng/grad/scholarship_undergrad.html",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://admission-global.skku.edu/eng/etc/bbs_list.html?bbsid=global_notice_re_eng&ctg_cd=&page=1&skey=&keyword=&mode=view&bltn_seq=53774",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://eng.inha.ac.kr/eng/",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "URLError: <urlopen error timed out>"
+  },
+  {
+    "url": "https://oia.cau.ac.kr/sub06/sub03_2.php",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: "
+  },
+  {
+    "url": "http://bulletin.konkuk.ac.kr/news/articleView.html?idxno=700",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "http://bulletin.konkuk.ac.kr/news/articleView.html?idxno=700",
+    "access": "html-read",
+    "textSha256": "2a9943fcbb7ce79804523d85d777a587fb82f83c3a4e0a7f01bcce9af8f090d8"
+  },
+  {
+    "url": "https://international.pusan.ac.kr/sites/international/download/brochure/005-Admissons%20For%20International%20Student(English).pdf",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://channelpnu.pusan.ac.kr/news/articleView.html?idxno=38735",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://channelpnu.pusan.ac.kr/news/articleView.html?idxno=38735",
+    "access": "html-read",
+    "textSha256": "8257ae19c869e7f693765f32712aa78096174b60cf963e323dbd3efbe54e0a70"
+  },
+  {
+    "url": "https://sos.sejong.ac.kr/pdf/409094/",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.imperial.ac.uk/study/fees-and-funding/undergraduate/scholarships/",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.ucl.ac.uk/study/undergraduate-fees-2027-2028",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.gla.ac.uk/undergraduate/fees/scholarships/",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.leeds.ac.uk/undergraduate-fees",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.frankfurt-school.de/en/study/bachelor/bachelor-science",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.frankfurt-school.de/en/home/programmes/financing",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://commons.wikimedia.org/wiki/File%3AUniversity_of_Europe_for_Applied_Sciences_Campus_Berlin.png",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.th-deg.de/en/study-with-us/apply/fees",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://future.uwindsor.ca/apply-international",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://future.uwindsor.ca/apply-international",
+    "access": "html-read",
+    "textSha256": "b330323324f32f30a19ddc862e4f20f684a185322451249ed1758ccb9ba55504"
+  },
+  {
+    "url": "https://images.e.uwindsor.ca/Web/UniversityofWindsor/%7Bb8e808b0-fabe-43af-828a-0a549a702830%7D_English_Language_Proficiency_Requirements.pdf",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://images.e.uwindsor.ca/Web/UniversityofWindsor/%7Bb8e808b0-fabe-43af-828a-0a549a702830%7D_English_Language_Proficiency_Requirements.pdf",
+    "access": "pdf-read",
+    "textSha256": "d3872275b6253fa59bb0492c0068438f13e51a9476c51d36f81551f90df2d236"
+  },
+  {
+    "url": "https://future.uwindsor.ca/student-awards",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://future.uwindsor.ca/student-awards",
+    "access": "html-read",
+    "textSha256": "6e30300ac1acc7ddca1157256f2456b9c3606a7824085fbe37e9dd546b916fe1"
+  },
+  {
+    "url": "https://future.uwindsor.ca/economics",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://future.uwindsor.ca/economics",
+    "access": "html-read",
+    "textSha256": "0e93f7e8779dbac42afe67e2e4c31de92b9b74be442c46cda91f9fa01e2bddc6"
+  },
+  {
+    "url": "https://future.uwindsor.ca/psychology",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://future.uwindsor.ca/psychology",
+    "access": "html-read",
+    "textSha256": "cad3a2a29a81c1a0c5f6a9c388dd2d899e66071843d2a6a749db8a582d21f912"
+  },
+  {
+    "url": "https://future.uwindsor.ca/mathematics-statistics",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://future.uwindsor.ca/mathematics-statistics",
+    "access": "html-read",
+    "textSha256": "097c8690c4cddbba2b942129d644ec8691e2d25c425df96719311462d4e399fa"
+  },
+  {
+    "url": "https://collegeadmissions.uchicago.edu/apply/application/required-materials/",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://collegeadmissions.uchicago.edu/apply/application/required-materials/",
+    "access": "html-read",
+    "textSha256": "6b9b5931f4873c24125934d7b3aa21fa27f51b3f5eada1c70fefa306a60b1f33"
+  },
+  {
+    "url": "https://www.trincoll.edu/dean-of-faculty/academic-programs-and-centers/curriculum/",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://www.trincoll.edu/dean-of-faculty/academic-programs-and-centers/curriculum/",
+    "access": "html-read",
+    "textSha256": "166544cc200a68531378cd16f60f853d5a7275cf545e931d7f4d73d0a4ddda7b"
+  },
+  {
+    "url": "https://www.trincoll.edu/AboutTrinity/",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://www.trincoll.edu/AboutTrinity/",
+    "access": "html-read",
+    "textSha256": "0cd837c1ea3a617d908130b8cf11a50a84ae433cbabf0abe4e6f74910b10ff75"
+  },
+  {
+    "url": "https://www.gettysburg.edu/offices/institutional-research/common-data-set",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://www.gettysburg.edu/offices/institutional-research/common-data-set",
+    "access": "html-read",
+    "textSha256": "89607baa4412e5914b43728fe8f80904dc3e4ef421efcd69bbe307e48710ff03"
+  },
+  {
+    "url": "https://www.gettysburg.edu/academics/all-programs/physics/curriculum",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://www.gettysburg.edu/academics/all-programs/physics/curriculum",
+    "access": "html-read",
+    "textSha256": "b05b85a9fc27b42849d7960c1dc3818de442b181fe3720900721c1759af28a90"
+  },
+  {
+    "url": "https://new.sewanee.edu/admission-aid/application-process/application-review/international-applicant/",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://new.sewanee.edu/admission-aid/application-process/application-review/international-applicant/",
+    "access": "html-read",
+    "textSha256": "572611c4d6daf22d3904743c5a7845cb3a926682f53a9b0ce07c625be34cbb74"
+  },
+  {
+    "url": "https://www.soka.edu/admissions-aid/how-apply",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://www.soka.edu/admissions-aid/how-apply",
+    "access": "html-read",
+    "textSha256": "34d16e173828098d0597a9b08d283e483d73870088d4c5da266c223780e462d2"
+  },
+  {
+    "url": "https://www.hendrix.edu/financialaid/",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://via.hendrix.edu/admission-aid/financial-aid/",
+    "access": "html-read",
+    "textSha256": "abf986367c9542cc35cc962cdca8cbf84408f875418061b001810cb8a3360f7c"
+  },
+  {
+    "url": "https://www.scu.edu/financialaid/international/",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://www.scu.edu/financialaid/international/",
+    "access": "html-read",
+    "textSha256": "de52df3842dd8de5b9ac85dd664f7fa64bc14604da3f0bb27c7cda544b54cc58"
+  },
+  {
+    "url": "https://aggie.tamu.edu/paying-for-college/apply-for-financial-aid/international-student-financial-aid",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.tamu.edu/admissions/how-to-apply/apply-as-international.html",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://www.tamu.edu/admissions/how-to-apply/apply-as-international.html",
+    "access": "html-read",
+    "textSha256": "65c17546f4a6765b7e3f058301345e3c94ca533786108f595973dc2f7ef099be"
+  },
+  {
+    "url": "https://admissions.tamu.edu/apply/freshman/index.html",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://willamette.edu/academics/college/industrial-engineering/requirements",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://willamette.edu/academics/college/industrial-engineering/requirements",
+    "access": "html-read",
+    "textSha256": "367b0308c0e98d84820061c03fc760dbf9e913072e03857938c0e2c4f93c88b8"
+  },
+  {
+    "url": "https://www.csusb.edu/international-education/international-student-services/new-international-students/tuition-fees",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.csusb.edu/international-education/international-admissions/apply/first-year-admissions-requirements",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://www.csusb.edu/international-education/international-admissions/apply/first-year-admissions-requirements",
+    "access": "html-read",
+    "textSha256": "cc169c2329385a629c820c6d232df2ba715301146591cbb68a76c69adb1784af"
+  },
+  {
+    "url": "https://www.isc.kyushu-u.ac.jp/financialaid.html",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://www.isc.kyushu-u.ac.jp/financialaid.html",
+    "access": "challenge; substantive page not read",
+    "textSha256": "97e89968fd3a2ddb0d49b05470f91040a4e518a4d07407974bcc878fe51b89f0"
+  },
+  {
+    "url": "https://www.kwansei.ac.jp/en/academics/undergraduate/international-studies/admission.html",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://www.kwansei.ac.jp/en/academics/undergraduate/international-studies/admission.html",
+    "access": "html-read",
+    "textSha256": "9475e2674722c867de79389fb51eed8d2041d2b83576349cb4593394a2f69631"
+  },
+  {
+    "url": "https://www.toyo.ac.jp/nyushi/admission/admission-data/international-student/application-guide/",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://www.toyo.ac.jp/nyushi/admission/admission-data/international-student/application-guide/",
+    "access": "html-read",
+    "textSha256": "58578fde1bb63f81abc84f219ce5b72078d8444f1a069cd939dc528c200b6492"
+  },
+  {
+    "url": "https://admission-global.skku.edu/eng/under/scholarship.html",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://admission-global.skku.edu/eng/etc/bbs_list.html?bbsid=global_notice_re_eng&bltn_seq=53782&ctg_cd=&keyword=&mode=view&page=7&skey=",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://oias.cau.ac.kr/cauoie/under/recruitment-guidelines.do",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://oias.cau.ac.kr/cauoie/under/recruitment-guidelines.do",
+    "access": "html-read",
+    "textSha256": "54c8477ece662f15600c7dd57bf4668eb9c3886161f986111d828bec24ec18b2"
+  },
+  {
+    "url": "https://international.pusan.ac.kr/international/15210/subview.do",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://international.pusan.ac.kr/international/15210/subview.do",
+    "access": "html-read",
+    "textSha256": "8e6e290a8fa2b84373039724fbff9ecd489a02eefb3f8d3c76d71a2216b40c25"
+  },
+  {
+    "url": "https://sos.sejong.ac.kr/eng/admission/univ/index.do",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://sos.sejong.ac.kr/eng/admission/univ/index.do",
+    "access": "html-read",
+    "textSha256": "5520770eab181d99ba7ddd42f5eff8d211a6c996599521f2464d4631b79c3cde"
+  },
+  {
+    "url": "https://www.imperial.ac.uk/study/fees-and-funding/undergraduate/bursaries-grants-scholarships/",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://www.imperial.ac.uk/study/fees-and-funding/undergraduate/bursaries-grants-scholarships/",
+    "access": "html-read",
+    "textSha256": "0003d15577a9d100ebf11e2ab07a9a0c1951fa3b138b2fc1d5e26d6a10381a8e"
+  },
+  {
+    "url": "https://www.ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://www.ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028",
+    "access": "html-read",
+    "textSha256": "c38790f33aa5e81f5f183dde768b87f10368eb045f9a24f61c24530c10520ea3"
+  },
+  {
+    "url": "https://www.gla.ac.uk/scholarships/worldchangersglobalexcellencescholarship/",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://www.gla.ac.uk/scholarships/worldchangersglobalexcellencescholarship/",
+    "access": "html-read",
+    "textSha256": "9d2260fdff891e86a0db9447ba36a31ec99419f6b9c80b682f704796f4c463f0"
+  },
+  {
+    "url": "https://www.leeds.ac.uk/undergraduate-fees/doc/fees-undergraduate-fees",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://www.leeds.ac.uk/undergraduate-fees/doc/fees-undergraduate-fees",
+    "access": "html-read",
+    "textSha256": "7a7898ef1464cd6c3c7fd46911dd1c37d7dfc88cee1789b9e0abf1be7700cc64"
+  },
+  {
+    "url": "https://www.frankfurt-school.de/en/home/study/bachelor/bachelor-in-business-administration",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://www.frankfurt-school.de/en/home/study/bachelor/bachelor-in-business-administration",
+    "access": "html-read",
+    "textSha256": "c4fbbde85b65260089ea88c4c34982d42809b5d15c894448a081c7add7185c8e"
+  },
+  {
+    "url": "https://www.frankfurt-school.de/en/home/students-alumni/financing",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://www.frankfurt-school.de/en/home/students-alumni/financing",
+    "access": "html-read",
+    "textSha256": "bc44e6b09e8d9230f96582093d039aafc49350f26c9591719025097decfe8f22"
+  },
+  {
+    "url": "https://www.th-deg.de/en/apply",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://www.th-deg.de/en/apply",
+    "access": "html-read",
+    "textSha256": "98673a28eee135b9554be7732808e45ad99f495bb95e7596e643dbbe524104d0"
+  },
+  {
+    "url": "https://wooster.edu/admissions/scholarship-aid",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://wooster.edu/admissions/financial-aid",
+    "access": "html-read",
+    "textSha256": "4b4208ee653ef0c79e659e5c58424e1b53dcab3244fb4236f6d588f309af459e"
+  },
+  {
+    "url": "https://www.beloit.edu/offices/financial-aid/cost-of-attendance/",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://www.beloit.edu/offices/financial-aid/cost-of-attendance/",
+    "access": "html-read",
+    "textSha256": "488db0d8eea4a67b943f3c2e8580ec3a7a8fa9e15561445aa25fb39f614e6a1e"
+  },
+  {
+    "url": "https://www.uregina.ca/ur-international/scholarships.html",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://www.uregina.ca/ur-international/scholarships.html",
+    "access": "html-read",
+    "textSha256": "bd36ec15c78a85b99015ca8d1e7bbd77f1525b572bd9e66cd7695857df162079"
+  },
+  {
+    "url": "https://www.mun.ca/undergrad/money-matters/",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://www.mun.ca/undergrad/money-matters/",
+    "access": "html-read",
+    "textSha256": "de486e30615db4782c9d6cb14e357d3fa6d3aee0b58241e6da9c78f846b6feb2"
+  },
+  {
+    "url": "https://www.bath.ac.uk/guides/bath-international-excellence-scholarship/",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://www.bath.ac.uk/guides/bath-international-excellence-scholarship/",
+    "access": "html-read",
+    "textSha256": "56e2015504a22fcbc9d2ba5f801dcd966afab078271d4cfd696252e9016e7b11"
+  },
+  {
+    "url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://www.liverpool.ac.uk/courses/economics-bsc-hons",
+    "access": "html-read",
+    "textSha256": "a4b5a805cdbf147d4c34a942e45e9f4bbe970c9112716be9417f60f862cd4827"
+  },
+  {
+    "url": "https://www.tum.de/en/studies/fees/tuition",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://www.tum.de/en/studies/fees/tuition",
+    "access": "html-read",
+    "textSha256": "d0b510d675fba2d8ca751348599ab6d06841c8254a93cd8a55a9701e3e4c762e"
+  },
+  {
+    "url": "https://www.hof-university.com/studying-at-hof-university/preparing-your-stay/how-to-finance-your-studies.html",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://www.hof-university.com/studying-at-hof-university/preparing-your-stay/how-to-finance-your-studies.html",
+    "access": "html-read",
+    "textSha256": "9212a35dbc69ffccc3c85e1ad2985419130223527adc7baf7fe259b3828a840f"
+  },
+  {
+    "url": "https://www.icu.ac.jp/en/admissions/tuition/",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://www.icu.ac.jp/en/admissions/tuition/",
+    "access": "html-read",
+    "textSha256": "e0684410fd195acaf5a36751af127de9c7151b3e7adecd8e30dbf51a7e1695ad"
+  },
+  {
+    "url": "https://www.keio.ac.jp/en/admissions/faculty/examinations/pearl/",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://www.keio.ac.jp/en/admissions/faculty/examinations/pearl/",
+    "access": "html-read",
+    "textSha256": "7cc53def7f84112162fe297d398e1ddf730031eca7304f08454d4aefbb5914d8"
+  },
+  {
+    "url": "https://admission.kaist.ac.kr/intl-undergraduate/support/scholarships/kaist",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "URLError: <urlopen error timed out>"
+  },
+  {
+    "url": "https://admu-intl.unist.ac.kr/admission-eng/life/scholarships.do",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "URLError: <urlopen error timed out>"
+  },
+  {
+    "url": "https://admission-global.skku.edu/eng/undergraduate_view.html?idx=59069",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://admission-global.skku.edu/eng/undergraduate_view.html?idx=59069",
+    "access": "html-read",
+    "textSha256": "db24912df6af4364611078da9d61cb8fcd51799f29a030e44a1d967e8c8d8b79"
+  },
+  {
+    "url": "https://admission-global.skku.edu/common/download.php?fname=%5BEN%5D+Undergraduate+Freshmen+Admission+Guide_2027+Spring.pdf&fpath=board%2F202611041634513HFFN9.pdf",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://admission-global.skku.edu/common/download.php?fname=%5BEN%5D+Undergraduate+Freshmen+Admission+Guide_2027+Spring.pdf&fpath=board%2F202611041634513HFFN9.pdf",
+    "access": "pdf-read",
+    "textSha256": "d62be513717d599ad66bd9afa065245a7866c98c032d4d312d61493d953efd9b"
+  },
+  {
+    "url": "https://admission-global.skku.edu/common/download.php?fname=%28ENG%29+SKKU+Global+Leader+Scholarship+Type+A_List+of+Eligible+Countries_2027.pdf&fpath=board%2F2026110510192036SXXC.pdf",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://admission-global.skku.edu/common/download.php?fname=%28ENG%29+SKKU+Global+Leader+Scholarship+Type+A_List+of+Eligible+Countries_2027.pdf&fpath=board%2F2026110510192036SXXC.pdf",
+    "access": "pdf-read",
+    "textSha256": "7aecde33eb63fadb528328e141a5e86317992d49e0aaa83761cb0025a663d62d"
+  },
+  {
+    "url": "https://www.tamu.edu/admissions/how-to-apply/apply-as-freshman.html",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://www.tamu.edu/admissions/how-to-apply/apply-as-freshman.html",
+    "access": "html-read",
+    "textSha256": "16a4af9f0c94ee158b3de3aa3011cc3a6c766fb577de8f9eb8aac0a4c0b16266"
+  },
+  {
+    "url": "https://www.uwindsor.ca/science/computerscience/",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://www.uwindsor.ca/science/computerscience/",
+    "access": "html-read",
+    "textSha256": "5baf64eea893db9756d012ae73534a79fcfb48751e8c1f7a51679b16206ed05f"
+  },
+  {
+    "url": "https://future.uwindsor.ca/business",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://future.uwindsor.ca/business-odette",
+    "access": "html-read",
+    "textSha256": "8d7e4087d36980b697dbcd7061d0e90e2103ad31d704ac4708fe5e3a271fee1b"
+  },
+  {
+    "url": "https://future.uwindsor.ca/engineering",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://future.uwindsor.ca/engineering-faculty",
+    "access": "html-read",
+    "textSha256": "3b34647060573f3ed04c5a1917811b8f7cd43c758e5201904666e40c8a53a4c8"
+  },
+  {
+    "url": "https://future.uwindsor.ca/nursing",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://future.uwindsor.ca/nursing",
+    "access": "html-read",
+    "textSha256": "ae4f353374238dda82f704a7dfa1f88cfe22c6fce6bd0656c6ae17161de117ec"
+  },
+  {
+    "url": "https://future.uwindsor.ca/education",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://future.uwindsor.ca/education",
+    "access": "html-read",
+    "textSha256": "57546f299c2b37a38cc561908bcfba65e615fa3f562f4c7e760f401caf94302d"
+  },
+  {
+    "url": "https://www.kwansei.ac.jp/en/assets/List_of_Application_Documents2027.pdf",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://www.kwansei.ac.jp/en/assets/List_of_Application_Documents2027.pdf",
+    "access": "pdf-read",
+    "textSha256": "ecb3d2dd3cfd6e0d823180a0db1331b2df7c7ca1ccbb5c73235d971cd45607ac"
+  },
+  {
+    "url": "https://www.inha.ac.kr/eng/index.do",
+    "checked": "2026-11-18",
+    "access": "unavailable",
+    "error": "URLError: <urlopen error timed out>"
+  },
+  {
+    "url": "https://sos.sejong.ac.kr/content/05sub/style0007/file/(ENG)%202026_UNDERGRADUATE_Application%20Guide.pdf",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://sos.sejong.ac.kr/content/05sub/style0007/file/(ENG)%202026_UNDERGRADUATE_Application%20Guide.pdf",
+    "access": "pdf-read",
+    "textSha256": "96c21b0de5c81bf2597da0cdb696c203f93053e437e5f4ceb9ab12ca984e2fd7",
+    "scope": "43-page online application tutorial, not admissions-policy evidence"
+  },
+  {
+    "url": "https://www.csusb.edu/international-education/international-admissions/future-international-students/application-and",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://www.csusb.edu/international-education/international-admissions/future-international-students/application-and",
+    "access": "html-read",
+    "textSha256": "6b07e0b96f7352de97a0e923f2dfbbae2198c2384c301c18469827e6ed16b203"
+  },
+  {
+    "url": "https://www.csusb.edu/international-education/international-admissions/future-international-students/english-proficiency",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://www.csusb.edu/international-education/international-admissions/future-international-students/english-proficiency",
+    "access": "html-read",
+    "textSha256": "715f25fee072fbbcdc48fba7238909c2cab983b854f38330bb9426b20db9d111"
+  },
+  {
+    "url": "https://www.csusb.edu/sites/default/files/upload/file/2026/CSUSB%20Affidavit%20Of%20Support_261027_1.pdf",
+    "checked": "2026-11-18",
+    "status": 200,
+    "final": "https://www.csusb.edu/sites/default/files/upload/file/2026/CSUSB%20Affidavit%20Of%20Support_261027_1.pdf",
+    "access": "pdf-read",
+    "textSha256": "d996314b25679def9730d64bd0cbc82048c917d2b1d29df68908e11dedd46d9f"
+  }
+]

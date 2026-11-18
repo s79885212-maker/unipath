@@ -290,6 +290,8 @@
       }
     }
     if (input.budget === null) return { status: 'none', text: costText(c, c.currency) };
+    if (!has(c.academicYear)) return { status: 'unknown',
+      text: 'The academic year of this cost is not confirmed. It is not compared with your budget.' };
     var lo = convert(c.min, c.currency, input.currency), hi = convert(c.max, c.currency, input.currency);
     if (lo === null || hi === null || lo < 0 || hi < lo) return { status: 'unknown', text: 'No comparable yearly cost is recorded' };
     /* A full cost of zero is not a published figure: nobody studies for nothing. */

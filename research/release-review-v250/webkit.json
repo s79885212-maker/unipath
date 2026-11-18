@@ -1,0 +1,7 @@
+{
+  "checked": "2026-11-18",
+  "attempt": "Playwright webkit.launch({headless:true})",
+  "result": "unavailable: executable not installed",
+  "realSafari": false,
+  "realIPhone": false
+}
