@@ -1,0 +1,33 @@
+{
+  "version": 252,
+  "tests": {
+    "passed": 589,
+    "failed": 0
+  },
+  "builds": [
+    "production",
+    "staging"
+  ],
+  "internalLinksPerBuild": 19723,
+  "pages": 547,
+  "profiles": 540,
+  "localDirectOpens": 56,
+  "browser": "Chrome 157.0.8103.51",
+  "locales": [
+    "ru",
+    "en"
+  ],
+  "widths": [
+    360,
+    1280
+  ],
+  "errors": 0,
+  "sourceHashes": {
+    "index.html": "c68d1b732b8d647a67615324b77c508a08a60e826927f46f79398ccc5be7d59f",
+    "data/universities.kr.js": "20046ec0a58d257ca5976f0d19a46f901c0ecfd7f2260e1183dbe2d2f607ed4e",
+    "data/i18n/ru.js": "97411973e81855ae6cee7d163deb5e398737087e14ca946ea7b551e501345499",
+    "tests/six-country-audit.js": "98ee602567a441faa64a77aa0ec660aad78dde6684f67ec3504bbc995edb76ac",
+    "tools/release_review_browser.cjs": "8c83146998c6f3be3665f4974ce02d7782e09791653bd36a976c3fbc4332744c"
+  },
+  "stagingLive": "Final deployment SHA and live protocols are published in the PR comments."
+}

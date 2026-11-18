@@ -670,7 +670,7 @@ window.UNIPATH.universities.push(
   founded: 1398,
   type: 'Private research university',
   brand: { c1: '#00563F', c2: '#002b20', initials: 'SKKU' },
-  description: 'The most transparent scholarship ladder in Korea for international applicants — SKKU publishes exactly which IELTS and TOEFL scores earn a 50% or 100% tuition waiver. It also runs the Samsung Global Sungkyun Scholarship, a genuine four-year full-cost award.',
+  description: 'SKKU has campuses in Seoul and Suwon. Its Spring 2027 guide distinguishes tuition-based awards from the Samsung Global Type A support package. Scholarship selection and renewal conditions apply; Fall 2027 terms require separate confirmation.',
   englishTaught: true,
   languageOfInstruction: 'Korean and English',
   programs: ['business','economics','engineering','computer-science','social-sciences','humanities','biology','mathematics','medicine','arts','education','law'],

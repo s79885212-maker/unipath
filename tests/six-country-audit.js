@@ -45,6 +45,8 @@ module.exports = function (env) {
   ok(U.costStatus(U.uniById('postech'))==='conflict' && !U.cardCost(U.uniById('postech')).known && M.evaluate(U.uniById('postech'),{budget:35000,currency:'USD',intake:'fall-2027'}).budget.status==='conflict',
      'POSTECH 2026 table and footnote disagreement stays explicit and never becomes a zero annual price');
   const skku=U.uniById('sungkyunkwan-university');
+  ok(!/full-cost award/.test(skku.description) && /Spring 2027/.test(skku.description) && /Fall 2027 terms require separate confirmation/.test(skku.description),
+     'SKKU summary cannot contradict the conditional, cycle-specific scholarship coverage in its detail');
   ok(!M.evaluate(skku,{ielts:7,sat:null,gpa:null,budget:null,currency:'USD',intake:'fall-2027'}).checks.some(c=>c.basis==='minimum'&&c.level==='ok'),
      'SKKU later major-selection IELTS is not an admission minimum met');
   ok(/3,400,000/.test(skku.scholarships.merit[0].amount) && !/570,000/.test(JSON.stringify(skku.scholarships)),
