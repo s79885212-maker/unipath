@@ -1,0 +1,842 @@
+[
+  {
+    "id": "savannah-college-of-art-and-design",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "university-of-pittsburgh",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "university-of-virginia",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "university-of-florida",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "dillard-university",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "elmira-college",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "marist-university",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "bentley-university",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "university-of-washington",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "university-of-california-davis",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "university-of-california-irvine",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "university-of-california-merced",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "indiana-university-bloomington",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "brigham-young-university",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "university-of-texas-at-dallas",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "university-of-the-pacific",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "wheaton-college-illinois",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "saint-marys-college-indiana",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "wheaton-college-massachusetts",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "stonehill-college",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "the-college-of-new-jersey",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "baruch-college",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "towson-university",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "suny-esf",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "john-jay-college",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "salve-regina-university",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "st-bonaventure-university",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "manhattan-university",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "st-john-fisher-university",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "wentworth-institute-of-technology",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "berry-college",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "appalachian-state-university",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "tuskegee-university",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "college-of-charleston",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "loyola-university-new-orleans",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "university-of-tampa",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "georgia-college-state-university",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "western-carolina-university",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "louisiana-tech-university",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "middle-tennessee-state-university",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "murray-state-university",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "calvin-university",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "dordt-university",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "valparaiso-university",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "elmhurst-university",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "rockhurst-university",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "baldwin-wallace-university",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "indiana-wesleyan-university",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "university-of-northern-iowa",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "grand-valley-state-university",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "rhode-island-school-of-design",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "bryant-university",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "siena-university",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "le-moyne-college",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "suny-new-paltz",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "stockton-university",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "high-point-university",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "hampton-university",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "university-of-west-florida",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "milwaukee-school-of-engineering",
+    "country": "us",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "universite-de-montreal",
+    "country": "ca",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "universite-laval",
+    "country": "ca",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "universite-du-quebec-a-montreal",
+    "country": "ca",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "universite-de-sherbrooke",
+    "country": "ca",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "universite-de-moncton",
+    "country": "ca",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "brock-university",
+    "country": "ca",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "wilfrid-laurier-university",
+    "country": "ca",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "trent-university",
+    "country": "ca",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "acadia-university",
+    "country": "ca",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "mount-royal-university",
+    "country": "ca",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "laurentian-university",
+    "country": "ca",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "university-of-ottawa",
+    "country": "ca",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "york-university",
+    "country": "ca",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "carleton-university",
+    "country": "ca",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "dalhousie-university",
+    "country": "ca",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "university-of-sussex",
+    "country": "uk",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "university-of-strathclyde",
+    "country": "uk",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "university-of-greenwich",
+    "country": "uk",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "coventry-university",
+    "country": "uk",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "university-of-westminster",
+    "country": "uk",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "sheffield-hallam-university",
+    "country": "uk",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "oxford-brookes-university",
+    "country": "uk",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "de-montfort-university",
+    "country": "uk",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "university-of-hertfordshire",
+    "country": "uk",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "university-of-huddersfield",
+    "country": "uk",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "middlesex-university",
+    "country": "uk",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "nottingham-trent-university",
+    "country": "uk",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "university-of-salford",
+    "country": "uk",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "university-of-derby",
+    "country": "uk",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "birmingham-city-university",
+    "country": "uk",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "frankfurt-school",
+    "country": "de",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "technical-university-of-munich",
+    "country": "de",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "fau-erlangen-nurnberg",
+    "country": "de",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "university-of-freiburg",
+    "country": "de",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "leuphana-university-luneburg",
+    "country": "de",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "rhine-waal-university",
+    "country": "de",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "anhalt-university",
+    "country": "de",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "technische-hochschule-ingolstadt",
+    "country": "de",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "university-of-cologne",
+    "country": "de",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "deggendorf-institute-of-technology",
+    "country": "de",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "osaka-university",
+    "country": "jp",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "nagoya-university",
+    "country": "jp",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "hitotsubashi-university",
+    "country": "jp",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "meiji-university",
+    "country": "jp",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "hosei-university",
+    "country": "jp",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "waseda-university",
+    "country": "jp",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "tohoku-university",
+    "country": "jp",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "institute-of-science-tokyo",
+    "country": "jp",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "rikkyo-university",
+    "country": "jp",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "okayama-university",
+    "country": "jp",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "handong-global-university",
+    "country": "kr",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "gist",
+    "country": "kr",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "inha-university",
+    "country": "kr",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "konkuk-university",
+    "country": "kr",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "pusan-national-university",
+    "country": "kr",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "dgist",
+    "country": "kr",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "sejong-university",
+    "country": "kr",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "kyungpook-national-university",
+    "country": "kr",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "dongguk-university",
+    "country": "kr",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  },
+  {
+    "id": "soongsil-university",
+    "country": "kr",
+    "stage": "selected",
+    "sources": [],
+    "unknown": []
+  }
+]
