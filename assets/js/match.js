@@ -49,8 +49,14 @@
     var checks = [];   /* { level: 'ok' | 'soft' | 'hard' | 'info', basis: 'minimum' | 'recommended' | 'statistic' | null, text } */
     var unchecked = [];
     var st = u.stats || {}, off = st.official || {};
+    var routeAssessment = U.requirements && U.requirements.evaluate(u, input);
+    if (routeAssessment) {
+      checks = checks.concat(routeAssessment.checks);
+      unchecked = unchecked.concat(routeAssessment.unchecked);
+    }
 
     /* English */
+    if (!routeAssessment) {
     var t = u.english && u.english.ielts;
     if (input.ielts !== null) {
       var prof = (U.testVaries(t) && t.profiles) || [];
@@ -130,18 +136,23 @@
         checks.push({ level: 'info', text: 'The SAT/ACT policy of this institution is not confirmed, so your score was not compared.' });
       }
       if (policy === 'optional') checks.push({ level: 'info', text: 'Test-optional for admission. A scholarship or a particular programme may still ask for a score.' });
-    } else if (policy === 'required') {
+    } else if (policy === 'required' && !Number.isFinite(input.act)) {
       checks.push({ level: 'soft', basis: 'minimum', text: 'SAT or ACT is required, and no score was entered.' });
     } else if (policy === 'conditional') {
       checks.push({ level: 'info', text: 'Testing requirements depend on your school system and programme; see the scoped evidence in the profile.' });
       unchecked.push('SAT/ACT — school-system requirements need individual checking');
     } else if (policy === 'required-alternatives') {
       checks.push({ level: 'info', text: 'Testing is required, but other exams can replace the SAT/ACT in the cases the university lists.' });
-      unchecked.push('Required test (SAT/ACT or an accepted alternative) — not entered');
+      unchecked.push(Number.isFinite(input.act) ? 'ACT programme and section requirements' : 'Required test (SAT/ACT or an accepted alternative) — not entered');
     } else if (policy === 'unknown' || policy === 'accepted') {
       unchecked.push('SAT/ACT — the policy is not confirmed');
     }
 
+    }
+    if (Number.isFinite(input.act)) {
+      checks.push({level:'info',text:'An ACT composite was entered. Programme requirements and ACT section minima are not automatically verified.'});
+      unchecked.push('ACT programme and section requirements');
+    }
     /* A community college is a different degree route, not an easier bachelor’s.
        What it awards is read from its own record. */
     if (U.isCommunityCollege(u)) {
@@ -423,6 +434,10 @@
     'm-sat': { key: 'sat', min: 400, max: 1600, error: 'Enter a total SAT score from 400 to 1600. This value is not used.' },
     'm-budget': { key: 'budget', min: 0, max: Infinity, error: 'Enter a budget of 0 or more. This value is not used.' }
   };
+  LIMITS['m-act'] = {key:'act',min:1,max:36,error:'Enter an ACT composite from 1 to 36. This value is not used.'};
+  ['reading','writing','listening','speaking'].forEach(function (section) {
+    LIMITS['m-ielts-'+section]={key:'ielts_'+section,min:0,max:9,error:'Enter an IELTS band from 0 to 9. This value is not used.'};
+  });
   /* raw → { value: number | null, invalid: boolean } */
   function checkField(id, raw) {
     var lim = LIMITS[id], text = String(raw === null || raw === undefined ? '' : raw).trim();
@@ -623,6 +638,12 @@
       return '<option value="' + c + '"' + ((s.currency || 'USD') === c ? ' selected' : '') + '>' + c + '</option>';
     }).join('');
     var r = data().rates || {};
+    function scopeSelect(id,label,values,value) {
+      return '<label class="match-field"><span>' + label + '</span><select id="' + id + '">' + values.map(function (v) {return '<option value="'+v[0]+'"'+(value === v[0] ? ' selected' : '')+'>'+v[1]+'</option>';}).join('')+'</select></label>';
+    }
+    var scopeFields=scopeSelect('m-route','Admission route',[['','Any reviewed route'],['direct','Direct admission'],['foundation','Foundation'],['international-year-one','International Year One'],['degree-with-esl','Degree with compulsory ESL'],['degree-with-conditions','Degree admission with stated conditions']],s.admissionRoute || '') +
+      scopeSelect('m-study-language','Teaching language',[['','Any teaching language'],['en','English'],['de','German'],['fr','French'],['ja','Japanese'],['ko','Korean']],s.studyLanguage || '');
+    var sectionFields=['reading','writing','listening','speaking'].map(function (k) {return field('m-ielts-'+k,'IELTS '+k,'type="number" inputmode="decimal" min="0" max="9" step="0.5"', (s.ieltsSections || {})[k],null);}).join('');
 
     main.innerHTML =
       '<section class="page-head"><div class="wrap"><h1>Find my match</h1>' +
@@ -633,9 +654,11 @@
         '<form class="card match-form" id="match-form" autocomplete="off" onsubmit="return false"><div class="card-body">' +
           '<div class="match-grid">' +
             U.intakeSelectHtml('m-intake') +
+            scopeFields +
             field('m-ielts', 'IELTS (overall)', 'type="number" inputmode="decimal" min="0" max="9" step="0.5" placeholder="e.g. 7.0"', s.ielts, null) +
             field('m-gpa', 'GPA (4.0 scale)', 'type="number" inputmode="decimal" min="0" max="4" step="0.01" placeholder="e.g. 3.8"', s.gpa, 'Unweighted, from 0 to 4.0. Compared only with a published average on the same scale; school grades are never converted.') +
             field('m-sat', 'SAT (total)', 'type="number" inputmode="numeric" min="400" max="1600" step="10" placeholder="optional"', s.sat, null) +
+            field('m-act', 'ACT (composite)', 'type="number" inputmode="numeric" min="1" max="36" step="1" placeholder="optional"', s.act, null) +
             '<label class="match-field"><span>Budget per year</span><div class="match-budget">' +
               '<input id="m-budget" type="number" inputmode="numeric" min="0" step="100" placeholder="e.g. 30000" aria-describedby="m-budget-err" value="' + esc(has(s.budget) ? s.budget : '') + '">' +
               '<select id="m-currency" aria-label="Currency">' + curOpts + '</select></div>' +
@@ -644,6 +667,8 @@
             '<label class="match-field"><span id="m-country-l">Country</span><select id="m-country">' + countryOpts + '</select></label>' +
             '<label class="match-field"><span id="m-field-l">Field of study</span><select id="m-field">' + fieldOpts + '</select></label>' +
           '</div>' +
+          '<p class="small muted">Selecting a route or teaching language limits results to reviewed routes. Missing routes do not mean that a university offers no suitable programme.</p>' +
+          '<details class="match-sections"><summary>IELTS section scores (optional)</summary><p class="small muted">Enter sections to check published section minima. Leaving them blank does not confirm they are met.</p><div class="match-grid">' + sectionFields + '</div></details>' +
           '<label class="match-check"><input id="m-english" type="checkbox"' + (s.englishOnly === false ? '' : ' checked') + '> <span>Only fields taught fully in English</span></label>' +
         '</div></form>' +
         '<div id="match-out" style="margin-top:26px"></div>' +
@@ -664,6 +689,7 @@
       intake: U.intakeGet(),
       currency: val('m-currency') || 'USD',
       country: val('m-country'), field: val('m-field'),
+      admissionRoute:val('m-route'),studyLanguage:val('m-study-language'),
       englishOnly: !!(document.getElementById('m-english') || {}).checked,
       invalid: []
     };
@@ -678,16 +704,30 @@
       if (err) { err.hidden = !r.invalid; err.textContent = r.invalid ? LIMITS[id].error : ''; }
       if (el && el.setAttribute) el.setAttribute('aria-invalid', r.invalid ? 'true' : 'false');
     });
+    input.ieltsSections={};
+    ['reading','writing','listening','speaking'].forEach(function (k) {input.ieltsSections[k]=input['ielts_'+k];});
+    return scopeInput(input);
+  }
+
+  function scopeInput(input) {
+    if (input.studyLanguage && input.studyLanguage !== 'en') input.englishOnly = false;
     return input;
   }
 
   function update() {
     var input = readInput();
+    var englishChoice=document.getElementById('m-english');
+    if (englishChoice) {
+      englishChoice.checked=input.englishOnly;
+      englishChoice.disabled=!!(input.studyLanguage && input.studyLanguage !== 'en');
+    }
     save({ ielts: input.ielts, gpa: input.gpa, sat: input.sat, budget: input.budget, currency: input.currency,
-           country: input.country, field: input.field, englishOnly: input.englishOnly });
+           country: input.country, field: input.field, englishOnly: input.englishOnly, act:input.act,
+           admissionRoute:input.admissionRoute,studyLanguage:input.studyLanguage,ieltsSections:input.ieltsSections });
 
     var list = U.DB.universities.filter(function (u) {
       if (input.country && u.country !== input.country) return false;
+      if ((input.studyLanguage || input.admissionRoute) && (!u.admissionRequirements || !U.requirements.choose(u,input).length)) return false;
       if (input.englishOnly && u.englishTaught !== true) return false;
       if (input.field) {
         var fields = input.englishOnly ? U.englishPrograms(u) : (u.programs || []);
@@ -701,7 +741,7 @@
     var fieldNote = input.field ? U.unverifiedFieldsHtml(U.DB.universities.filter(function (u) {
       return (!input.country || u.country === input.country) && (!input.englishOnly || u.englishTaught === true);
     }), [input.field], input.englishOnly) : '';
-    if (input.ielts === null && input.gpa === null && input.sat === null && input.budget === null) {
+    if (input.ielts === null && input.gpa === null && input.sat === null && input.act === null && input.budget === null) {
       out.innerHTML = input.invalid.length
         ? '<div class="empty-state"><h3>No valid score or budget to compare</h3><p>Correct the fields marked above. A value outside the allowed range is not used.</p></div>'
         : '<div class="empty-state"><h3>Enter at least one score or a budget</h3><p>Results appear as you type.</p></div>';
@@ -717,6 +757,7 @@
     var entered = [], missing = [];
     (input.ielts !== null ? entered : missing).push('IELTS');
     (input.sat !== null ? entered : missing).push('SAT');
+    (input.act !== null ? entered : missing).push('ACT');
     (input.gpa !== null ? entered : missing).push('GPA');
     var html = '<p class="muted small" style="margin-bottom:6px">' + rows.length + ' institutions compared</p>' +
       fieldNote +
@@ -764,5 +805,5 @@
     if (document.getElementById('match-form')) update();
   });
 
-  global.UPMatch = { render: render, evaluate: evaluate, checkField: checkField, costOf: costOf };
+  global.UPMatch = { render: render, evaluate: evaluate, checkField: checkField, costOf: costOf, scopeInput:scopeInput };
 })(window);

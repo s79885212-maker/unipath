@@ -34,6 +34,7 @@ var index = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
 var scripts = (index.match(/<script[^>]+src="([^"]+)"/g) || []).map(function (s) { return /src="([^"?]+)/.exec(s)[1]; });
 scripts.filter(function (s) { return /^data\//.test(s) && !/i18n/.test(s); }).forEach(load);
 load('assets/js/app.js');
+load('assets/js/requirements.js');
 load('assets/js/match.js');
 
 var U = sandbox.UP, DB = sandbox.UNIPATH, M = sandbox.UPMatch;
@@ -1047,6 +1048,7 @@ ok(auditedAwardKinds.every(([id,kind]) => {
   'Automatic tuition, selective full cost and demonstrated need stay distinct from a guaranteed budget reduction');
 
 require('./six-country-audit')({U:U, DB:DB, M:M, ok:ok});
+require('./admission-requirements')({U:U, DB:DB, M:M, ok:ok});
 
 console.log('\n' + passed + ' passed, ' + failed + ' failed');
 

@@ -1,0 +1,189 @@
+[
+  {
+    "id": "wheaton-college-massachusetts",
+    "country": "us",
+    "checked": "2026-11-19",
+    "result": "Scoped facts agree with read official sections; remaining questions retained",
+    "comparison": "6.5 is recommended; academic SAT/ACT optional; four-year school waiver is conditional.",
+    "sources": [
+      "https://wheatoncollege.edu/admission/apply/firstyear/",
+      "https://www.wheatoncollege.edu/admission/apply/international/"
+    ]
+  },
+  {
+    "id": "wheaton-college-illinois",
+    "country": "us",
+    "checked": "2026-11-19",
+    "result": "Scoped facts agree with read official sections; remaining questions retained",
+    "comparison": "Undergraduate PDF 1–4: unresolved 7–8 range is not reduced to an invented universal cutoff; homeschool academic condition remains.",
+    "sources": [
+      "https://catalog.wheaton.edu/undergraduate/admissions/admissions.pdf"
+    ]
+  },
+  {
+    "id": "the-college-of-new-jersey",
+    "country": "us",
+    "checked": "2026-11-19",
+    "result": "Scoped facts agree with read official sections; remaining questions retained",
+    "comparison": "2026–27 testing page retains Nursing/7-year exceptions; IELTS 7 is recommended; calculus placement is not admission.",
+    "sources": [
+      "https://admissions.tcnj.edu/applications/international-applicants/",
+      "https://admissions.tcnj.edu/applications/test-optional/"
+    ]
+  },
+  {
+    "id": "brock-university",
+    "country": "ca",
+    "checked": "2026-11-19",
+    "result": "Scoped facts agree with read official sections; remaining questions retained",
+    "comparison": "General 6.5/6 versus BAcc 7/6.5, and inconsistent January TOEFL wording remain scoped.",
+    "sources": [
+      "https://brocku.ca/admissions/english-proficiency/",
+      "https://brocku.ca/university-secretariat/faculty-handbook/section-3/"
+    ]
+  },
+  {
+    "id": "mount-royal-university",
+    "country": "ca",
+    "checked": "2026-11-19",
+    "result": "Scoped facts agree with read official sections; remaining questions retained",
+    "comparison": "6.5/5.5, school English prerequisite independent, two-year qualifying school route.",
+    "sources": [
+      "https://www.mtroyal.ca/Admission/AdmissionRequirements/english-language-proficiency-requirement-institutional.htm"
+    ]
+  },
+  {
+    "id": "wilfrid-laurier-university",
+    "country": "ca",
+    "checked": "2026-11-19",
+    "result": "Scoped facts agree with read official sections; remaining questions retained",
+    "comparison": "6.5/6, three recent non-ESL English years; conditional offer is not unconditional entry.",
+    "sources": [
+      "https://www.wlu.ca/admissions-toolkits/international/step-1-how-to-apply/english-proficiency.html",
+      "https://www.wlu.ca/future-students/undergraduate/admissions/assets/resources/sat-act-curriculum.html"
+    ]
+  },
+  {
+    "id": "middlesex-university",
+    "country": "uk",
+    "checked": "2026-11-19",
+    "result": "Scoped facts agree with read official sections; remaining questions retained",
+    "comparison": "Undergraduate 6/5.5 column, professional exceptions; PTE Academic 59 in the full table, not another test 51.",
+    "sources": [
+      "https://www.mdx.ac.uk/international/entry-requirements-for-international-students/english-language-requirements-for-international-students/"
+    ]
+  },
+  {
+    "id": "coventry-university",
+    "country": "uk",
+    "checked": "2026-11-19",
+    "result": "Scoped facts agree with read official sections; remaining questions retained",
+    "comparison": "Computer Science BSc Coventry 2027/28, 6/5.5; pre-sessional and integrated Foundation separate.",
+    "sources": [
+      "https://www.coventry.ac.uk/course-structure/ug/eec/computer-science-mscibsc-hons/?term=2027-28",
+      "https://www.coventry.ac.uk/international-students-hub/apply/english-requirements/"
+    ]
+  },
+  {
+    "id": "de-montfort-university",
+    "country": "uk",
+    "checked": "2026-11-19",
+    "result": "Scoped facts agree with read official sections; remaining questions retained",
+    "comparison": "Computing/Engineering/Art reference category 6; national pages and other faculties differ, not universal 6.",
+    "sources": [
+      "https://www.dmu.ac.uk/international/en/entry-requirements.aspx",
+      "https://www.dmu.ac.uk/international/en/accepted-english-language-proficiency-tests.aspx"
+    ]
+  },
+  {
+    "id": "rhine-waal-university",
+    "country": "de",
+    "checked": "2026-11-19",
+    "result": "Scoped facts agree with read official sections; remaining questions retained",
+    "comparison": "One-page B2/C1 table: IELTS 5.5 vs 7, legacy TOEFL72 vs95; B2 bachelor scope stays undated.",
+    "sources": [
+      "https://www.hochschule-rhein-waal.de/en/study/before-starting-university/overview-for-prospective-students",
+      "https://www.hochschule-rhein-waal.de/fileadmin/upload_redaktion/Dezernate/Studierendenangelegenheiten/ZSB/_Dokumente/Accepted_English_Language_Proofs-40.pdf"
+    ]
+  },
+  {
+    "id": "technical-university-of-munich",
+    "country": "de",
+    "checked": "2026-11-19",
+    "result": "Scoped facts agree with read official sections; remaining questions retained",
+    "comparison": "DSH2/TestDaF4 each, named Aerospace/Information exceptions; six bachelor aptitude-assessed English exceptions, not universal IELTS6.5.",
+    "sources": [
+      "https://www.tum.de/en/studies/application/application-info-portal/admission-requirements/language-certificates"
+    ]
+  },
+  {
+    "id": "anhalt-university",
+    "country": "de",
+    "checked": "2026-11-19",
+    "result": "Scoped facts agree with read official sections; remaining questions retained",
+    "comparison": "International Business BA Bernburg: separate English 6.5/TOEFL88 and German-language branch; not every Anhalt course.",
+    "sources": [
+      "https://www.hs-anhalt.de/en/degree-programs/ibs.html"
+    ]
+  },
+  {
+    "id": "osaka-university",
+    "country": "jp",
+    "checked": "2026-11-19",
+    "result": "Scoped facts agree with read official sections; remaining questions retained",
+    "comparison": "Human Sciences October2027: overall6.5, generally sections6 remains qualified; no SISC or university-wide claim.",
+    "sources": [
+      "https://iudp.hus.osaka-u.ac.jp/wp-content/uploads/2026/07/2027-HUS-Application-Guidelines.pdf"
+    ]
+  },
+  {
+    "id": "nagoya-university",
+    "country": "jp",
+    "checked": "2026-11-19",
+    "result": "Scoped facts agree with read official sections; remaining questions retained",
+    "comparison": "AY2027 Appendix1 p30: Academic6, OSR allowed, TOEFL80/4, DET110; academic eligibility exceptions independent.",
+    "sources": [
+      "https://admissions.g30.nagoya-u.ac.jp/upload/2027_admission_requirements_en.pdf"
+    ]
+  },
+  {
+    "id": "hosei-university",
+    "country": "jp",
+    "checked": "2026-11-19",
+    "result": "Scoped facts agree with read official sections; remaining questions retained",
+    "comparison": "GBP2027: Academic6, noOSR/Online/Indicator, academic alternatives compulsory. No spread to GIS/SCOPE.",
+    "sources": [
+      "https://www.guide.52school.com/export/sites/default/guidance/net-hosei-ebdp/gid/pdf/2027_GBP_0_Application-Guidelines_20261030.pdf"
+    ]
+  },
+  {
+    "id": "kaist",
+    "country": "kr",
+    "checked": "2026-11-19",
+    "result": "Scoped facts agree with read official sections; remaining questions retained",
+    "comparison": "2027 guide: 6.5 recommended while report required; separate compulsory SAT/ACT/other academic alternative.",
+    "sources": [
+      "https://admission.kaist.ac.kr/wz/api/common/files/view/intl-undergraduate/pdf/Admissions_Guide_for_2027_admission.pdf"
+    ]
+  },
+  {
+    "id": "sejong-university",
+    "country": "kr",
+    "checked": "2026-11-19",
+    "result": "Scoped facts agree with read official sections; remaining questions retained",
+    "comparison": "Spring2027 guide: English5.5 and citizenship waiver restriction; TOPIK levels by department, not Fall2027 confirmation.",
+    "sources": [
+      "https://www.sejong.ac.kr/_res/sejong/eng/etc/2027_Spring_Semester_Undergraduate_Admission_Guide_for_International_Students(eng)_20260903.pdf"
+    ]
+  },
+  {
+    "id": "pusan-national-university",
+    "country": "kr",
+    "checked": "2026-11-19",
+    "result": "Scoped facts agree with read official sections; remaining questions retained",
+    "comparison": "Spring2027 English Global Studies, nationality exceptions7 and Korean AI not an English track; no universal5.5.",
+    "sources": [
+      "https://international.pusan.ac.kr/bbs/international/2089/1533745/download.do"
+    ]
+  }
+]

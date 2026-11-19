@@ -178,6 +178,7 @@
      short `label` when the university's wording needs it. */
   var SAT_POLICIES = ['required', 'required-alternatives', 'conditional', 'optional', 'not-used', 'accepted', 'not-applicable'];
   function satPolicy(u) {
+    if (global.UP && global.UP.requirements && u.admissionRequirements) return global.UP.requirements.policy(u);
     var p = u.academics && u.academics.sat ? u.academics.sat.policy : null;
     return SAT_POLICIES.indexOf(p) > -1 ? p : 'unknown';
   }
@@ -192,6 +193,7 @@
     'unknown': 'SAT/ACT policy not checked'
   };
   function satLabel(u) {
+    if (u.admissionRequirements) return 'Route-specific SAT/ACT rules — see profile';
     var t = u.academics && u.academics.sat;
     if (t && has(t.label)) return t.label;
     return SAT_LABELS[satPolicy(u)];
@@ -253,6 +255,7 @@
   /* True only when the university itself publishes an IELTS minimum or
      recommended score — a UniPath estimate alone does not count. */
   function ieltsPublished(u) {
+    if (u.admissionRequirements) return u.admissionRequirements.some(function (r) { var t=(r.english || {}).ielts || {}; return t.accepted === true && (typeof t.min === 'number' || typeof t.recommended === 'number'); });
     var t = u.english && u.english.ielts;
     return !!t && t.status !== 'conflict' && (has(t.min) || has(t.recommended) || (ieltsVaries(u) && !!(t.profiles && t.profiles.length)));
   }
@@ -264,6 +267,7 @@
   /* Big label for a varying requirement: by programme (default) or by applicant group. */
   function variesLabel(t) { return t && t.variesBy === 'applicant' ? 'Depends on applicant group' : 'Varies by programme'; }
   function ieltsMin(u) {
+    if (global.UP && global.UP.requirements && u.admissionRequirements) return global.UP.requirements.minimum(u);
     return (u.english && u.english.ielts && u.english.ielts.status !== 'conflict' && has(u.english.ielts.min)) ? u.english.ielts.min : null;
   }
   /* A published figure that is not a minimum is one of several different
@@ -294,6 +298,7 @@
   function recInfo(t) { return REC_BASIS[recBasis(t)]; }
   /* Short IELTS label for cards/compare: minimum, else the published level with what it is. */
   function ieltsLabel(u) {
+    if (u.admissionRequirements) return 'Route-specific IELTS — see profile';
     var t = u.english && u.english.ielts;
     if (!t) return null;
     if (t.status === 'conflict') return TEST_STATUS.conflict;
@@ -1021,8 +1026,8 @@
       (u.aliases || []).join(' '),
       country(u.country).name, u.type, u.description || '',
       satLabel(u),
-      hasIelts(u) ? 'IELTS ' + (ieltsVaries(u) ? variesLabel(u.english.ielts).toLowerCase() : (ieltsMin(u) || (ieltsPublished(u) ? u.english.ielts.recommended : 'accepted'))) : '',
-      toeflMin(u) ? 'TOEFL ' + toeflMin(u) : '',
+      !u.admissionRequirements && hasIelts(u) ? 'IELTS ' + (ieltsVaries(u) ? variesLabel(u.english.ielts).toLowerCase() : (ieltsMin(u) || (ieltsPublished(u) ? u.english.ielts.recommended : 'accepted'))) : '',
+      !u.admissionRequirements && toeflMin(u) ? 'TOEFL ' + toeflMin(u) : '',
       u.englishTaught === true ? 'English-taught english taught' : '',
       awardKind(u) === 'full-ride' ? 'full ride full scholarship full funding' : awardKind(u) ? 'full tuition scholarship full funding' : '',
       needFirstYearEligible(u) === true ? 'need-based financial aid need based' : '',
@@ -1031,6 +1036,15 @@
       awardsAll(u).map(function (m) { return m.name + ' ' + (m.amount || ''); }).join(' '),
       costHeadline(u) || ''
     ];
+    /* This index is built before the requirements module starts. Read the
+       scoped records directly, rather than retaining superseded legacy numbers. */
+    (u.admissionRequirements || []).forEach(function (r) {
+      var e=r.english || {}, a=r.academic || {}, i=e.ielts || {};
+      parts.push(r.label,r.note || '',e.alternatives || '',e.waiver || '',e.note || '',a.satPolicy || '',a.note || '');
+      if (typeof i.min === 'number') parts.push('IELTS ' + i.min);
+      if (typeof i.recommended === 'number') parts.push('Recommended IELTS ' + i.recommended);
+      (r.localLanguage || []).forEach(function (t) {parts.push(t.name,t.requirement,t.note || '');});
+    });
     var text = parts.join(' · ');
     /* In a translated UI, visitors search in that language too. */
     if (global.I18N && global.I18N.lang !== 'en') {

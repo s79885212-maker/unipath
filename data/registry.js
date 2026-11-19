@@ -58,6 +58,7 @@ window.UNIPATH.applyLayers = function () {
   var root = rootMeta ? rootMeta.getAttribute('content') || '' : '';
   function at(path) { return root && !/^(\/|[a-z]+:)/i.test(path) ? root + path : path; }
   DB.universities.forEach(function (u) {
+    if ((DB.admissionRequirements || {})[u.id]) u.admissionRequirements = DB.admissionRequirements[u.id];
     var p = profiles[u.id];
     if (p) {
       ['english', 'academics', 'admissions', 'costs'].forEach(function (key) {

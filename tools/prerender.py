@@ -73,6 +73,7 @@ DATA_FILES = [
     "data/degrees.js",
     "data/test-policy.js",
     "data/english-details.js",
+    "data/requirements.js",
     "data/award-details.js",
 ]
 
@@ -87,6 +88,62 @@ TOEFL_PERIOD = {
 
 
 # ---------------------------------------------------------------- data ----
+
+def requirements_html(routes):
+    """Same evidence as the interactive route block; never fall back to a
+    legacy university-wide score when a reviewed route exists."""
+    parts = []
+    for route in routes:
+        eng, academic = route.get("english") or {}, route.get("academic") or {}
+        parts.append(f'<h3>{e(route["label"])}</h3>')
+        language = {"en":"English", "fr":"French", "de":"German", "ja":"Japanese", "ko":"Korean", "multiple":"Multiple teaching languages", "unknown":"Teaching language not confirmed"}.get(route["language"], "Teaching language not confirmed")
+        kind = {"direct":"Direct admission", "foundation":"Foundation", "international-year-one":"International Year One", "degree-with-esl":"Degree with compulsory ESL", "degree-with-conditions":"Degree admission with stated conditions"}.get(route["kind"], "Check the published route")
+        parts.append(f'<p>Teaching language: {e(language)} · {e(kind)}</p>')
+        parts.append(f'<p>Published scope: {e((route.get("applicability") or {}).get("label"))}</p>')
+        if route.get("note"):
+            parts.append(f'<p>{e(route["note"])}</p>')
+        for name in ["ielts", "toefl"]:
+            test = eng.get(name)
+            if not test:
+                continue
+            parts.append(f'<h4>{name.upper()}: {e(test.get("variant") or "")}</h4>')
+            if test.get("accepted") is False:
+                parts.append('<p>Not accepted for this route</p>')
+            elif test.get("accepted") is None:
+                parts.append('<p>Acceptance not established for this route</p>')
+            if has(test.get("min")):
+                parts.append(f'<p>Published minimum: {e(test["min"])}</p>')
+            if has(test.get("recommended")):
+                parts.append(f'<p>Recommended score: {e(test["recommended"])}. Not an admission cutoff.</p>')
+            if test.get("noMinimum"):
+                parts.append('<p>Accepted; the university explicitly publishes no numerical minimum.</p>')
+            if test.get("sections"):
+                parts.append('<p>Section minima: ' + e(" · ".join(f"{k}: {v}" for k,v in test["sections"].items())) + '</p>')
+            for scale in test.get("scales") or []:
+                label = TOEFL_PERIOD.get(scale.get("period"), "Legacy test scale; new-scale threshold not established")
+                parts.append(f'<p>{e(label)}' + (f' · Published minimum: {e(scale["min"])}' if has(scale.get("min")) else "") + (f' · Recommended score: {e(scale["recommended"])}' if has(scale.get("recommended")) else "") + '</p>')
+                if scale.get("sections"):
+                    parts.append('<p>Section minima: ' + e(" · ".join(f"{k}: {v}" for k,v in scale["sections"].items())) + '</p>')
+            if test.get("role") in ["esl-waiver", "ell-placement"]:
+                parts.append('<p>These scores concern language-course placement or exemption, not an unrestricted admission minimum.</p>')
+            if test.get("note"):
+                parts.append(f'<p>{e(test["note"])}</p>')
+        for key in ["alternatives", "waiver", "note"]:
+            if eng.get(key):
+                parts.append(f'<p>{e(eng[key])}</p>')
+        for local in route.get("localLanguage") or []:
+            parts.append(f'<h4>{e(local["name"])}</h4><p>{e(local["requirement"])}</p>')
+        policy = {"required":"SAT or ACT required", "optional":"SAT/ACT optional", "not-used":"SAT/ACT not considered", "not-applicable":"SAT/ACT not part of this route", "conditional":"SAT/ACT depends on applicant qualifications", "required-alternatives":"An academic test is required; alternatives accepted", "accepted":"Academic test acceptance is scoped; obligation not established", "conflict":"Official SAT/ACT sources disagree", "unknown":"SAT/ACT policy not established"}.get(academic.get("satPolicy"), "SAT/ACT policy not established")
+        parts.append(f'<h4>Academic examinations for this route</h4><p>{e(policy)}</p>')
+        parts.append(f'<p>Published scope: {e((academic.get("applicability") or route.get("applicability") or {}).get("label"))}</p>')
+        if academic.get("note"):
+            parts.append(f'<p>{e(academic["note"])}</p>')
+        for doc in route.get("documents") or []:
+            parts.append(f'<p>{e(doc)}</p>')
+        for source in route.get("sources") or []:
+            parts.append(f'<p><a href="{e(source["url"])}" rel="noopener">{e(source["label"])}</a> · Checked {e(source["verified"])}</p>')
+    return "".join(parts)
+
 
 def load_data(root: pathlib.Path):
     """Evaluate the data files and return the merged database as a dict.
@@ -414,21 +471,24 @@ def university_page(u, country, fields):
         if others:
             row("Other dates in the cycle", "<br>".join(one(d) for d in others))
     row("Application fee", e(fee_text(u)))
-    for key, name in (("ielts", "IELTS"), ("toefl", "TOEFL"), ("duolingo", "Duolingo English Test")):
-        lines = english_lines(eng.get(key), name)
-        if lines:
-            test_note = (eng.get(key) or {}).get("note")
-            if has(test_note) and test_note != eng.get("note"):
-                lines.append(test_note)
-            row(name, "<br>".join(e(x) for x in lines))
-    for key, label in (("note", "Notes"), ("waiver", "Waiver / exemption"),
-                       ("conditional", "Conditional admission"), ("detailsNote", "Also stated")):
-        if has(eng.get(key)):
-            row(label, e(eng[key]))
-    if eng.get("detailsSource"):
-        row("Test versions and conditions", f'<a href="{e(eng["detailsSource"])}" rel="noopener">Official page ↗</a>' +
-            (f' — {e(eng["detailsVerified"])}' if eng.get("detailsVerified") else ""))
-    row("SAT / ACT", e(sat_label(u)))
+    if u.get("admissionRequirements"):
+        row("Admission requirements by route", requirements_html(u["admissionRequirements"]))
+    else:
+        for key, name in (("ielts", "IELTS"), ("toefl", "TOEFL"), ("duolingo", "Duolingo English Test")):
+            lines = english_lines(eng.get(key), name)
+            if lines:
+                test_note = (eng.get(key) or {}).get("note")
+                if has(test_note) and test_note != eng.get("note"):
+                    lines.append(test_note)
+                row(name, "<br>".join(e(x) for x in lines))
+        for key, label in (("note", "Notes"), ("waiver", "Waiver / exemption"),
+                           ("conditional", "Conditional admission"), ("detailsNote", "Also stated")):
+            if has(eng.get(key)):
+                row(label, e(eng[key]))
+        if eng.get("detailsSource"):
+            row("Test versions and conditions", f'<a href="{e(eng["detailsSource"])}" rel="noopener">Official page ↗</a>' +
+                (f' — {e(eng["detailsVerified"])}' if eng.get("detailsVerified") else ""))
+        row("SAT / ACT", e(sat_label(u)))
     sat_stats = sat_stats_line(u)
     if sat_stats:
         row("SAT statistics", sat_stats)

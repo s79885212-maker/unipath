@@ -1,0 +1,22 @@
+{
+  "main": "d2f275a6e39af6be3f25febf4fca434039ea5ea9",
+  "dev": "892b29b6e83dd581e0c0ee23c0fd066f5634a846",
+  "devProtected": false,
+  "pr": {
+    "number": 28,
+    "draft": true,
+    "state": "open",
+    "mergeable": true,
+    "mergeable_state": "clean"
+  },
+  "head": "0454952c2623f1d7156d43654c137a620396a718",
+  "base": "892b29b6e83dd581e0c0ee23c0fd066f5634a846",
+  "checks": {
+    "total": 0,
+    "runs": []
+  },
+  "protection": {
+    "httpStatus": 404
+  },
+  "rulesets": []
+}
