@@ -52,6 +52,8 @@ module.exports=function (env) {
   ok(ma.recommended===6.5 && ma.min===null,'Wheaton MA: recommended 6.5 never becomes a required cutoff');
   var ni=U.requirements.routes(U.uniById('university-of-northern-iowa'));
   ok(ni[0].english.ielts.min===6 && ni[1].english.ielts.min===5.5 && ni[1].kind==='degree-with-esl','UNI: unrestricted 6.0 and required-support 5.5 remain separate');
+  ok(U.search('Northern Iowa IELTS 6',540).some(function (u) {return u.id==='university-of-northern-iowa';}),'Search indexes the reviewed UNI direct-entry IELTS number before the requirements module starts');
+  ok(U.search('Sejong TOPIK',540).some(function (u) {return u.id==='sejong-university';}),'Search indexes reviewed local-language qualifications independently from English');
   var ka=U.requirements.routes(U.uniById('kaist'))[0];
   ok(ka.english.ielts.recommended===6.5 && ka.english.ielts.min===null && ka.academic.satPolicy==='required-alternatives','KAIST 2027: recommended language score is independent from compulsory academic alternatives');
   var pu=U.requirements.routes(U.uniById('pusan-national-university'))[0];

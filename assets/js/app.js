@@ -1026,8 +1026,8 @@
       (u.aliases || []).join(' '),
       country(u.country).name, u.type, u.description || '',
       satLabel(u),
-      hasIelts(u) ? 'IELTS ' + (ieltsVaries(u) ? variesLabel(u.english.ielts).toLowerCase() : (ieltsMin(u) || (ieltsPublished(u) ? u.english.ielts.recommended : 'accepted'))) : '',
-      toeflMin(u) ? 'TOEFL ' + toeflMin(u) : '',
+      !u.admissionRequirements && hasIelts(u) ? 'IELTS ' + (ieltsVaries(u) ? variesLabel(u.english.ielts).toLowerCase() : (ieltsMin(u) || (ieltsPublished(u) ? u.english.ielts.recommended : 'accepted'))) : '',
+      !u.admissionRequirements && toeflMin(u) ? 'TOEFL ' + toeflMin(u) : '',
       u.englishTaught === true ? 'English-taught english taught' : '',
       awardKind(u) === 'full-ride' ? 'full ride full scholarship full funding' : awardKind(u) ? 'full tuition scholarship full funding' : '',
       needFirstYearEligible(u) === true ? 'need-based financial aid need based' : '',
@@ -1036,6 +1036,15 @@
       awardsAll(u).map(function (m) { return m.name + ' ' + (m.amount || ''); }).join(' '),
       costHeadline(u) || ''
     ];
+    /* This index is built before the requirements module starts. Read the
+       scoped records directly, rather than retaining superseded legacy numbers. */
+    (u.admissionRequirements || []).forEach(function (r) {
+      var e=r.english || {}, a=r.academic || {}, i=e.ielts || {};
+      parts.push(r.label,r.note || '',e.alternatives || '',e.waiver || '',e.note || '',a.satPolicy || '',a.note || '');
+      if (typeof i.min === 'number') parts.push('IELTS ' + i.min);
+      if (typeof i.recommended === 'number') parts.push('Recommended IELTS ' + i.recommended);
+      (r.localLanguage || []).forEach(function (t) {parts.push(t.name,t.requirement,t.note || '');});
+    });
     var text = parts.join(' · ');
     /* In a translated UI, visitors search in that language too. */
     if (global.I18N && global.I18N.lang !== 'en') {
