@@ -72378,12 +72378,6 @@
               "label": "York qualification-specific international admission requirements",
               "verified": "2026-11-18",
               "access": "html-read"
-            },
-            {
-              "url": "https://futurestudents.yorku.ca/your-application/how-apply/international-student",
-              "label": "York qualification-specific international admission requirements",
-              "verified": "2026-11-18",
-              "access": "html-read"
             }
           ],
           "note": null
@@ -72427,12 +72421,6 @@
             {
               "url": "https://futurestudents.yorku.ca/requirements/language-tests",
               "label": "York undergraduate language requirements and IYO",
-              "verified": "2026-11-18",
-              "access": "html-read"
-            },
-            {
-              "url": "https://futurestudents.yorku.ca/your-application/how-apply/international-student",
-              "label": "York qualification-specific international admission requirements",
               "verified": "2026-11-18",
               "access": "html-read"
             },
@@ -73747,12 +73735,6 @@
               "label": "Brock Faculty Handbook 3.3.3(c): US diploma and SAT",
               "verified": "2026-11-18",
               "access": "web-html-read"
-            },
-            {
-              "url": "https://brocku.ca/university-secretariat/faculty-handbook/section-3/",
-              "label": "Brock Faculty Handbook 3.3.3(c): US diploma and SAT",
-              "verified": "2026-11-18",
-              "access": "web-html-read"
             }
           ],
           "note": null
@@ -73797,12 +73779,6 @@
             {
               "url": "https://brocku.ca/admissions/english-proficiency/",
               "label": "Brock undergraduate English proficiency and exceptions",
-              "verified": "2026-11-18",
-              "access": "web-html-read"
-            },
-            {
-              "url": "https://brocku.ca/university-secretariat/faculty-handbook/section-3/",
-              "label": "Brock Faculty Handbook 3.3.3(c): US diploma and SAT",
               "verified": "2026-11-18",
               "access": "web-html-read"
             },

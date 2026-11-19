@@ -20,6 +20,7 @@ async function context(browser,lang,width,dark=false) {
 }
 async function loaded(p,lang){
  await p.waitForFunction(l=>window.UP?.requirements&&window.UPPages&&window.UPMatch&&document.documentElement.lang===l,lang,{timeout:45000});
+ if(!local && await p.locator('#human-gate').isVisible())throw Error('Turnstile blocks this live visitor session; no access settings were changed');
  out.version=await p.locator('script[src*="assets/js/app.js"]').getAttribute('src');
 }
 async function profiles(browser,lang,width,dark){

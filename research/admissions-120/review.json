@@ -2,7 +2,7 @@
   {
     "id": "savannah-college-of-art-and-design",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.scad.edu/sites/default/files/PDF/Admission-information-Freshman-international.pdf"
     ],
@@ -14,13 +14,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "university-of-pittsburgh",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://admissions.pitt.edu/test-optional/",
       "https://admissions.pitt.edu/international/"
@@ -33,13 +35,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "university-of-virginia",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://admission.virginia.edu/i-am/international",
       "https://admission.virginia.edu/admission/deadlines-instructions"
@@ -52,13 +56,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "university-of-florida",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://admissions.ufl.edu/apply/freshman/international",
       "https://catalog.ufl.edu/UGRD/admission/"
@@ -71,13 +77,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "dillard-university",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.dillard.edu/admissions-aid/admission-requirements/international-students/"
     ],
@@ -89,13 +97,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "elmira-college",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.elmira.edu/admissions/undergraduate-admissions/international-admissions/international-undergraduate-students"
     ],
@@ -107,13 +117,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "marist-university",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.marist.edu/admission/intl/apply"
     ],
@@ -125,13 +137,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "bentley-university",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.bentley.edu/undergraduate/apply/first-year-applicant"
     ],
@@ -143,13 +157,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "university-of-washington",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://admit.washington.edu/apply/first-year/how-to-apply/english-proficiency/",
       "https://admit.washington.edu/apply/first-year/how-to-apply/test-scores/"
@@ -162,13 +178,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "university-of-california-davis",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.ucdavis.edu/admissions/undergraduate/international/exams-visas",
       "https://admission.universityofcalifornia.edu/admission-requirements/international-applicants/english-language-proficiency-toefl-ielts.html",
@@ -182,13 +200,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "university-of-california-irvine",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.admissions.uci.edu/apply/international-students.php",
       "https://admission.universityofcalifornia.edu/admission-requirements/international-applicants/english-language-proficiency-toefl-ielts.html",
@@ -202,13 +222,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "university-of-california-merced",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://admissions.ucmerced.edu/international/english-language-proficiency",
       "https://admission.universityofcalifornia.edu/admission-requirements/international-applicants/english-language-proficiency-toefl-ielts.html",
@@ -222,13 +244,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "indiana-university-bloomington",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://bloomington.iu.edu/admissions/apply/international/english-proficiency.html",
       "https://bloomington.iu.edu/admissions/apply/international/freshman/admission-standards.html"
@@ -241,13 +265,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "brigham-young-university",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://enrollment.byu.edu/admissions/english-proficiency-requirement",
       "https://enrollment.byu.edu/admissions/act-sat-test-scores"
@@ -260,13 +286,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "university-of-texas-at-dallas",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://catalog.utdallas.edu/2026/undergraduate/admission/international-student-admission"
     ],
@@ -278,13 +306,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "university-of-the-pacific",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.pacific.edu/admission/undergraduate/english-language-proficiency",
       "https://www.pacific.edu/admission/undergraduate/test-scores",
@@ -298,13 +328,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "wheaton-college-illinois",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://catalog.wheaton.edu/undergraduate/admissions/admissions.pdf"
     ],
@@ -316,13 +348,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "saint-marys-college-indiana",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.saintmarys.edu/admission-aid/first-year-students/international-students/international-requirements"
     ],
@@ -334,13 +368,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "wheaton-college-massachusetts",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://wheatoncollege.edu/admission/apply/firstyear/",
       "https://www.wheatoncollege.edu/admission/apply/international/"
@@ -353,13 +389,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "stonehill-college",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.stonehill.edu/apply-for-admission/international-applicants/how-to-apply/"
     ],
@@ -371,13 +409,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "the-college-of-new-jersey",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://admissions.tcnj.edu/applications/international-applicants/",
       "https://admissions.tcnj.edu/applications/test-optional/"
@@ -390,13 +430,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "baruch-college",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.cuny.edu/admissions/undergraduate/apply/toefl/",
       "https://www.cuny.edu/admissions/undergraduate/apply/"
@@ -409,13 +451,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "towson-university",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.towson.edu/admissions/international/english-proficiency.html"
     ],
@@ -427,13 +471,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "suny-esf",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.esf.edu/admissions/apply/international-students/",
       "https://www.esf.edu/admissions/apply/first-year/index.php"
@@ -446,13 +492,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "john-jay-college",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.jjay.cuny.edu/admissions/undergraduate-admissions/apply/international-student-application"
     ],
@@ -464,13 +512,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "salve-regina-university",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://salve.edu/admissions/first-year-applicants",
       "https://salve.edu/our-mission/campus-offices-and-services/center-global-education-and-fellowships/international-student-support/english-academic-purposes"
@@ -483,13 +533,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "st-bonaventure-university",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.sbu.edu/admissions/international-students"
     ],
@@ -501,13 +553,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "manhattan-university",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://manhattan.edu/admissions/international/requirements"
     ],
@@ -519,13 +573,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "st-john-fisher-university",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.sjf.edu/student-life/international-student-services/admissions/first-year-admissions/"
     ],
@@ -537,13 +593,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "wentworth-institute-of-technology",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://wit.edu/admissions/undergraduate/international",
       "https://wit.edu/admissions/international/english-proficiency-requirement"
@@ -556,13 +614,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "berry-college",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.berry.edu/admission/how-to-apply/international"
     ],
@@ -574,13 +634,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "appalachian-state-university",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://admissions.appstate.edu/apply/international-student"
     ],
@@ -592,13 +654,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "tuskegee-university",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.tuskegee.edu/admissions/criteria-for-international-students.html"
     ],
@@ -610,13 +674,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "college-of-charleston",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.charleston.edu/policy/documents/12.1.6.pdf"
     ],
@@ -628,13 +694,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "loyola-university-new-orleans",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://css.loyno.edu/admissions/how-apply/international-undergraduate-students"
     ],
@@ -646,13 +714,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "university-of-tampa",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.ut.edu/apply/international-students"
     ],
@@ -664,13 +734,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "georgia-college-state-university",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.gcsu.edu/international/application-checklist-deadlines"
     ],
@@ -682,13 +754,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "western-carolina-university",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.wcu.edu/learn/office-of-global-engagement/international-students/index.aspx"
     ],
@@ -700,13 +774,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "louisiana-tech-university",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.latech.edu/student-life/international-affairs/undergaduate-admissions.php"
     ],
@@ -718,13 +794,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "middle-tennessee-state-university",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://intered.mtsu.edu/admission/"
     ],
@@ -736,13 +814,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "murray-state-university",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.murraystate.edu/admissions/international/Admissions/index.aspx"
     ],
@@ -754,13 +834,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "calvin-university",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://calvin.edu/admissions/international/process",
       "https://calvin.edu/admissions/international/english-language-proficiency"
@@ -773,13 +855,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "university-of-dallas",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://udallas.edu/admissions-aid/undergraduate/international-students/"
     ],
@@ -792,13 +876,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "valparaiso-university",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.valpo.edu/admission/international/undergraduate/"
     ],
@@ -810,13 +896,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "elmhurst-university",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.elmhurst.edu/admission/international-students/admission-requirements/first-year/"
     ],
@@ -828,13 +916,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "rockhurst-university",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.rockhurst.edu/admissions/international",
       "https://www.rockhurst.edu/freshman"
@@ -847,13 +937,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "baldwin-wallace-university",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.bw.edu/admission/international/"
     ],
@@ -865,13 +957,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "indiana-wesleyan-university",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.indwes.edu/pathways/international/international-campus"
     ],
@@ -883,13 +977,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "university-of-northern-iowa",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://admissions.uni.edu/international/english-proficiency",
       "https://admissions.uni.edu/international/undergraduate-students/admission-policies"
@@ -902,13 +998,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "grand-valley-state-university",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.gvsu.edu/admissions/international-application-14"
     ],
@@ -920,13 +1018,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "rhode-island-school-of-design",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.risd.edu/admissions/first-year/international-applicants"
     ],
@@ -938,13 +1038,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "bryant-university",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.bryant.edu/undergraduate/undergraduate-admission/applying-bryant/international-students"
     ],
@@ -956,13 +1058,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "siena-university",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.siena.edu/offices/admissions/international-students/how-to-apply/"
     ],
@@ -974,13 +1078,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "le-moyne-college",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.lemoyne.edu/admission-financial-aid/apply/",
       "https://www.lemoyne.edu/admission-financial-aid/international-admission/"
@@ -993,13 +1099,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "suny-new-paltz",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.newpaltz.edu/admissions/international/undergraduate.html",
       "https://www.system.suny.edu/attend/apply-to-suny/testing-requirements/"
@@ -1012,13 +1120,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "stockton-university",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://stockton.edu/admissions/international-admission-application.html",
       "https://stockton.edu/global-engagement/international/freshman-students.html"
@@ -1031,13 +1141,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "high-point-university",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.highpoint.edu/admissions/international-admissions/"
     ],
@@ -1049,13 +1161,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "hampton-university",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://home.hamptonu.edu/admissions/international-students/"
     ],
@@ -1067,13 +1181,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "university-of-west-florida",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://uwf.edu/admissions/undergraduate/apply/international/requirements/"
     ],
@@ -1085,13 +1201,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "milwaukee-school-of-engineering",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.msoe.edu/admissions-aid/international-admissions/future-international-students/undergraduate-students/requirements/"
     ],
@@ -1103,13 +1221,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "universite-de-montreal",
     "country": "ca",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://admission.umontreal.ca/exigence-de-francais/"
     ],
@@ -1121,13 +1241,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "universite-laval",
     "country": "ca",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.ulaval.ca/en/admission/prepare-your-application/french-proficiency"
     ],
@@ -1139,13 +1261,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "universite-du-quebec-a-montreal",
     "country": "ca",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://etudier.uqam.ca/tests-francais-reconnus"
     ],
@@ -1157,13 +1281,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "universite-de-sherbrooke",
     "country": "ca",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.usherbrooke.ca/admission/da/exigences-linguistiques/exigences-relatives-a-la-langue-francaise-pour-admission"
     ],
@@ -1175,13 +1301,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "universite-de-moncton",
     "country": "ca",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.umoncton.ca/gouvernance/sites/gouvernance.prod.umoncton.ca/files/politiques/UMoncton-politique-linguistique-mai-2025.pdf"
     ],
@@ -1193,13 +1321,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "brock-university",
     "country": "ca",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://brocku.ca/admissions/english-proficiency/",
       "https://brocku.ca/university-secretariat/faculty-handbook/section-3/"
@@ -1212,13 +1342,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "wilfrid-laurier-university",
     "country": "ca",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.wlu.ca/admissions-toolkits/international/step-1-how-to-apply/english-proficiency.html",
       "https://www.wlu.ca/future-students/undergraduate/admissions/assets/resources/sat-act-curriculum.html"
@@ -1231,13 +1363,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "trent-university",
     "country": "ca",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.trentu.ca/futurestudents/admissions/international-students/english-proficiency",
       "https://www.trentu.ca/futurestudents/admissions/admission-requirements/united-states-secondary-school"
@@ -1250,13 +1384,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "acadia-university",
     "country": "ca",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www2.acadiau.ca/admissions/application-process/international-students.html"
     ],
@@ -1268,13 +1404,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "mount-royal-university",
     "country": "ca",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.mtroyal.ca/Admission/AdmissionRequirements/english-language-proficiency-requirement-institutional.htm"
     ],
@@ -1286,13 +1424,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "laurentian-university",
     "country": "ca",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://laurentian.ca/academics/admissions/language-requirements"
     ],
@@ -1304,13 +1444,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "university-of-ottawa",
     "country": "ca",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.uottawa.ca/study/undergraduate-studies/language-requirements"
     ],
@@ -1322,13 +1464,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "york-university",
     "country": "ca",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://futurestudents.yorku.ca/requirements/language-tests",
       "https://futurestudents.yorku.ca/your-application/how-apply/international-student"
@@ -1341,13 +1485,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "carleton-university",
     "country": "ca",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://admissions.carleton.ca/esl/",
       "https://admissions.carleton.ca/applicant-type/united-states-high-school-students/"
@@ -1360,13 +1506,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "dalhousie-university",
     "country": "ca",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.dal.ca/admissions/how-to-apply/undergraduate-admissions/international-applicants/english-language-requirements.html",
       "https://www.dal.ca/admissions/how-to-apply/undergraduate-admissions/international-applicants/us-applicants.html"
@@ -1379,13 +1527,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "university-of-sussex",
     "country": "uk",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.sussex.ac.uk/study/undergraduate/apply/international-qualifications/english-language-requirements"
     ],
@@ -1397,13 +1547,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "university-of-strathclyde",
     "country": "uk",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.strath.ac.uk/studywithus/englishlanguagerequirements/"
     ],
@@ -1415,13 +1567,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "university-of-greenwich",
     "country": "uk",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.gre.ac.uk/international/support-and-help/courses"
     ],
@@ -1433,13 +1587,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "coventry-university",
     "country": "uk",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.coventry.ac.uk/course-structure/ug/eec/computer-science-mscibsc-hons/?term=2027-28",
       "https://www.coventry.ac.uk/international-students-hub/apply/english-requirements/"
@@ -1452,13 +1608,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "university-of-westminster",
     "country": "uk",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.westminster.ac.uk/study/english-language-requirements"
     ],
@@ -1470,13 +1628,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "sheffield-hallam-university",
     "country": "uk",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.shu.ac.uk/study-here/international/english-language-requirements"
     ],
@@ -1488,13 +1648,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "oxford-brookes-university",
     "country": "uk",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.brookes.ac.uk/study/international-students/applying-to-arriving/how-to-apply/english-language-requirements"
     ],
@@ -1506,13 +1668,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "de-montfort-university",
     "country": "uk",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.dmu.ac.uk/international/en/entry-requirements.aspx",
       "https://www.dmu.ac.uk/international/en/accepted-english-language-proficiency-tests.aspx"
@@ -1525,13 +1689,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "university-of-hertfordshire",
     "country": "uk",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.herts.ac.uk/international/apply/application-requirements"
     ],
@@ -1543,13 +1709,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "university-of-huddersfield",
     "country": "uk",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.hud.ac.uk/international/courses-and-entry-requirements/international-entry-requirements/"
     ],
@@ -1561,13 +1729,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "middlesex-university",
     "country": "uk",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.mdx.ac.uk/international/entry-requirements-for-international-students/english-language-requirements-for-international-students/"
     ],
@@ -1579,13 +1749,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "nottingham-trent-university",
     "country": "uk",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.ntu.ac.uk/international/your-application/entry-requirements/english-language-requirements"
     ],
@@ -1597,13 +1769,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "university-of-salford",
     "country": "uk",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.salford.ac.uk/international/english-language-requirements"
     ],
@@ -1615,13 +1789,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "university-of-derby",
     "country": "uk",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.derby.ac.uk/life/international-students/applicants/english-language-tests/"
     ],
@@ -1633,13 +1809,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "birmingham-city-university",
     "country": "uk",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.bcu.ac.uk/international/your-application/english-language-and-english-tests/accepted-qualifications"
     ],
@@ -1651,13 +1829,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "frankfurt-school",
     "country": "de",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.frankfurt-school.de/en/home/study/bachelor/bachelor-in-business-administration"
     ],
@@ -1669,13 +1849,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "technical-university-of-munich",
     "country": "de",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.tum.de/en/studies/application/application-info-portal/admission-requirements/language-certificates"
     ],
@@ -1687,13 +1869,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "fau-erlangen-nurnberg",
     "country": "de",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.fau.eu/studying/international-students/application-and-enrollment-for-international-applicants/german-language-courses-german-language-proficiency-and-language-certificates/"
     ],
@@ -1705,13 +1889,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "university-of-freiburg",
     "country": "de",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://uni-freiburg.de/ucf/las/apply/",
       "https://uni-freiburg.de/en/studies/applying/language-certificates/?set_language=en"
@@ -1724,13 +1910,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "leuphana-university-luneburg",
     "country": "de",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.leuphana.de/en/college/application/international-applications/requirements/language-proficiency/eng-maj2.html",
       "https://www.leuphana.de/en/college/application/international-applications/requirements/language-proficiency/ger-maj2.html"
@@ -1743,13 +1931,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "rhine-waal-university",
     "country": "de",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.hochschule-rhein-waal.de/en/study/before-starting-university/overview-for-prospective-students",
       "https://www.hochschule-rhein-waal.de/fileadmin/upload_redaktion/Dezernate/Studierendenangelegenheiten/ZSB/_Dokumente/Accepted_English_Language_Proofs-40.pdf"
@@ -1762,13 +1952,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "anhalt-university",
     "country": "de",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.hs-anhalt.de/en/degree-programs/ibs.html"
     ],
@@ -1780,13 +1972,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "technische-hochschule-ingolstadt",
     "country": "de",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.thi.de/en/studies/application/bachelors-degree-application/",
       "https://www.thi.de/fileadmin/daten/recht/Allgemeine_Satzungen/Sprachkenntnisse/2026_03_09_Anerkannte_Englischtests_B2_en-GB.pdf"
@@ -1799,13 +1993,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "university-of-cologne",
     "country": "de",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://uni-koeln.de/en/studium-lehre/international/studium-in-koeln/internationale-bewerbungen/bachelor-studium-staatsexamen/bewerbungsverfahren-fuer-nicht-eu-buergerinnen/application-procedure-for-non-eu-citizens-with-formal-university-entrance-qualification-studienstart-international-integrale"
     ],
@@ -1817,13 +2013,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "deggendorf-institute-of-technology",
     "country": "de",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.th-deg.de/ain-b-en"
     ],
@@ -1835,13 +2033,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "osaka-university",
     "country": "jp",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://iudp.hus.osaka-u.ac.jp/wp-content/uploads/2026/07/2027-HUS-Application-Guidelines.pdf"
     ],
@@ -1853,13 +2053,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "nagoya-university",
     "country": "jp",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://admissions.g30.nagoya-u.ac.jp/upload/2027_admission_requirements_en.pdf"
     ],
@@ -1871,13 +2073,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "hitotsubashi-university",
     "country": "jp",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://juken.hit-u.ac.jp/admission/info/guidelines/files/R9ryuugaku_youkou.pdf"
     ],
@@ -1889,13 +2093,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "meiji-university",
     "country": "jp",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.meiji.ac.jp/cip/english/undergraduate/nippon/englishtrack/glqts00000002hta-att/a1793259032270.pdf"
     ],
@@ -1907,13 +2113,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "hosei-university",
     "country": "jp",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.guide.52school.com/export/sites/default/guidance/net-hosei-ebdp/gid/pdf/2027_GBP_0_Application-Guidelines_20261030.pdf"
     ],
@@ -1925,13 +2133,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "waseda-university",
     "country": "jp",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.waseda.jp/fire/sils/en/applicants/faq/",
       "https://www.waseda.jp/fire/sils/assets/uploads/2025/03/Change-in-Exemption-Requirements-for-Submission-of-English-Proficiency-Test-Score.pdf",
@@ -1945,13 +2155,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "tohoku-university",
     "country": "jp",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://admissions.tohoku.ac.jp/en/adcms/wp-content/uploads/2026/08/ApplicationGuideGWC2027Fall.pdf",
       "https://www.insc.tohoku.ac.jp/english/degree/undergraduate-english/"
@@ -1964,13 +2176,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "institute-of-science-tokyo",
     "country": "jp",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://admissions.isct.ac.jp/en/013/undergraduate/programs/gsep"
     ],
@@ -1982,13 +2196,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "rikkyo-university",
     "country": "jp",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://en.admission.rikkyo.ac.jp/browse/admissions-requirements/",
       "https://en.admission.rikkyo.ac.jp/"
@@ -2001,13 +2217,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "okayama-university",
     "country": "jp",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://discovery.okayama-u.ac.jp/en/prospective_students/admission/international-application/"
     ],
@@ -2019,13 +2237,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "handong-global-university",
     "country": "kr",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.handong.edu/ext/bbs/download.dcp?id=16397"
     ],
@@ -2037,13 +2257,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "gist",
     "country": "kr",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://ewww.gist.ac.kr/iuadm/img/main/2026_Fall_Undergraduate_Admission_Guideline.pdf"
     ],
@@ -2055,13 +2277,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "kaist",
     "country": "kr",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://admission.kaist.ac.kr/wz/api/common/files/view/intl-undergraduate/pdf/Admissions_Guide_for_2027_admission.pdf"
     ],
@@ -2074,13 +2298,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "unist",
     "country": "kr",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://admu-intl.unist.ac.kr/admission-eng/admissions/admissions.do?articleNo=306812&attachNo=591437&mode=download"
     ],
@@ -2093,13 +2319,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "pusan-national-university",
     "country": "kr",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://international.pusan.ac.kr/bbs/international/2089/1533745/download.do"
     ],
@@ -2111,13 +2339,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "dgist",
     "country": "kr",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.dgist.ac.kr/iuadm/sub02_04.do",
       "https://www.studyinkorea.go.kr/ko/search/universityInfo.do?tab=univ-basic-info&univCd=100122"
@@ -2130,13 +2360,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "sejong-university",
     "country": "kr",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://www.sejong.ac.kr/_res/sejong/eng/etc/2027_Spring_Semester_Undergraduate_Admission_Guide_for_International_Students(eng)_20260903.pdf"
     ],
@@ -2148,13 +2380,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "kyungpook-national-university",
     "country": "kr",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://home.knu.ac.kr/HOME/global/sub.htm?nav_code=glo1549935033"
     ],
@@ -2166,13 +2400,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "dongguk-university",
     "country": "kr",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://en.dongguk.edu/article/INTSTUNOTICE/detail/26766179"
     ],
@@ -2184,13 +2420,15 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   },
   {
     "id": "soongsil-university",
     "country": "kr",
-    "stage": "requirements-checked",
+    "stage": "browser-checked",
     "sources": [
       "https://admission.ssu.ac.kr/upload/SSU%281%29_26102292916.pdf"
     ],
@@ -2202,7 +2440,9 @@
       "sourcesFound": true,
       "requirementsChecked": true,
       "cardUpdated": true,
-      "browserChecked": false
-    }
+      "browserChecked": true
+    },
+    "browserEvidence": "browser-staging-v259.json",
+    "browserSourceCommit": "0454952c2623f1d7156d43654c137a620396a718"
   }
 ]

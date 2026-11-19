@@ -1,0 +1,15 @@
+{
+  "sourceCommit": "0454952c2623f1d7156d43654c137a620396a718",
+  "version": 260,
+  "normalization": "UTF-8 text, CRLF normalized to LF",
+  "files": {
+    "assets/js/app.js": "c9a7848061d310191a3e4c1a5975fd5d5609ee701c30a608c1e47f4e65d7219d",
+    "assets/js/requirements.js": "feba7f310c09ec6605abef4bcb34b57e51eebcf8e2b2e7a0e9180921248dfd3a",
+    "assets/js/match.js": "209e0e8b5893281ad2e52364321ca0e97451eae0d235ba85a9443d1cbba59fcc",
+    "assets/js/pages.js": "05c64da41823d8907553f7aa45a7df5cba1f962d71a4a2b12477729ee1f01404",
+    "data/requirements.js": "d0d68bf1e2784ffa30895ac811e75ee319e7ddffbd2fa97d57565d4d5784b813",
+    "data/registry.js": "22115993869477b97a8f7a05c05a5db66dc8c11bdc275587c8f78c27c97e4fc2"
+  },
+  "testedCodeVersion": 259,
+  "changeSinceFullBrowserQA": "Cache-buster and public verification reports only; six site code/data fingerprints are identical."
+}
