@@ -651,5 +651,272 @@
       "conditional"
     ],
     "remaining": "The chosen degree subjects, exact school-document equivalence and selected cycle need confirmation; a universal SAT/ACT rule is not inferred."
+  },
+  "frankfurt-school": {
+    "id": "frankfurt-school",
+    "country": "de",
+    "status": "resolved-scoped",
+    "academicEntry": "The reviewed BSc Business Administration requires a recognised school-leaving qualification and successful online Assessment Centre: quantitative/cognitive reasoning, English assessment and interview. The initial application can use the two latest upper-secondary reports before the final certificate arrives. English is assessed internally; a certificate is not required with this application. An unlisted national school diploma needs recognition assessment.",
+    "source": "https://www.frankfurt-school.de/en/home/study/bachelor/bachelor-in-business-administration",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "unknown"
+    ],
+    "afterPolicy": [
+      "unknown"
+    ],
+    "remaining": "The exact foreign diploma recognition, other degrees and whether SAT/ACT can substitute for any Assessment Centre component remain unestablished. Do not infer a SAT waiver from an absent mention."
+  },
+  "leuphana-university-luneburg": {
+    "id": "leuphana-university-luneburg",
+    "country": "de",
+    "status": "resolved-scoped",
+    "academicEntry": "A recognised higher-education entrance qualification is required. Non-EU/EEA applications with foreign qualifications are normally checked by uni-assist and then ranked; IB, European Baccalaureate and Feststellungsprüfung have specified direct-application routes. TestAS is voluntary for additional selection points, with its language matched to the major. Recognition of the qualification only admits the applicant to selection; it does not award a study place.",
+    "source": "https://www.leuphana.de/en/college/application/international-applications/admission/admission-non-eu-eea-applicants.html",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "unknown",
+      "unknown"
+    ],
+    "afterPolicy": [
+      "unknown",
+      "unknown"
+    ],
+    "remaining": "The exact school-qualification equivalence, major subjects and language conditions need individual assessment; a universal SAT/ACT rule is not established."
+  },
+  "rhine-waal-university": {
+    "id": "rhine-waal-university",
+    "country": "de",
+    "status": "resolved-scoped",
+    "academicEntry": "Applicants with a university entrance qualification obtained outside Germany apply through uni-assist, which assesses the documents. Restricted-admission programmes then have a separate selection process. English and German degree-language certificates are distinct; English-taught programmes do not require German proof under this guide. An English B2 certificate alone does not establish the school qualification needed for degree entry.",
+    "source": "https://www.hochschule-rhein-waal.de/en/study/before-starting-university/application-process/guide-for-international-applicants",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "unknown"
+    ],
+    "afterPolicy": [
+      "unknown"
+    ],
+    "remaining": "The diploma’s general/subject-bound university access, any needed preparatory assessment and chosen degree prerequisites must be checked; SAT/ACT obligation is not inferred."
+  },
+  "technical-university-of-munich": {
+    "id": "technical-university-of-munich",
+    "country": "de",
+    "status": "resolved-scoped",
+    "academicEntry": "Bachelor entry requires a recognised higher-education entrance qualification. Foreign school certificates may grant general or subject-bound access; otherwise Studienkolleg and its assessment examination may be necessary. The international qualification page requires uni-assist VPD assessment before the TUM application. Each degree has its own aptitude/admission procedure; IELTS or German proof is not a substitute for academic access.",
+    "source": "https://www.tum.de/en/studies/application/application-info-portal/higher-education-entrance-qualification/international-higher-education-entrance-qualification",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "unknown"
+    ],
+    "afterPolicy": [
+      "unknown"
+    ],
+    "remaining": "Need the exact diploma/VPD result and selected degree’s aptitude process, documents and deadlines; no universal SAT/ACT exemption or requirement is established."
+  },
+  "anhalt-university": {
+    "id": "anhalt-university",
+    "country": "de",
+    "status": "resolved-scoped",
+    "academicEntry": "A bachelor requires an HZB (recognised university entrance qualification), which may be general or subject-specific. Foreign qualifications are evaluated rather than accepted merely because the document is called a high-school diploma. Degree-specific admission/examination regulations add conditions. The English International Business route and German-language degrees retain separate language rules.",
+    "source": "https://www.hs-anhalt.de/en/study/paths-to-university/admission-requirements.html",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "unknown",
+      "unknown"
+    ],
+    "afterPolicy": [
+      "unknown",
+      "unknown"
+    ],
+    "remaining": "Need the exact foreign HZB/subject recognition, possible Studienkolleg route and selected International Business regulations; the general page does not establish a SAT/ACT policy."
+  },
+  "university-of-freiburg": {
+    "id": "university-of-freiburg",
+    "country": "de",
+    "status": "resolved-scoped",
+    "academicEntry": "Foreign school qualifications may give direct general access, subject-restricted access, or require prior university study/Studienkolleg plus assessment. Freiburg does not accept a Studienkolleg assessment limited to universities of applied sciences as university access. General TestAS participation is voluntary: Medicine/Dentistry may use scores in selection, while other subjects may use it instead of the orientation test. LAS retains its separate programme selection requirements.",
+    "source": "https://uni-freiburg.de/en/studies/applying/international-applicants/full-time-studies/",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "unknown"
+    ],
+    "afterPolicy": [
+      "unknown"
+    ],
+    "remaining": "The exact school certificate, chosen LAS or other degree selection/orientation requirements and applicable language certificates must be checked; a universal SAT/ACT rule is not established."
+  },
+  "fau-erlangen-nurnberg": {
+    "id": "fau-erlangen-nurnberg",
+    "country": "de",
+    "status": "resolved-scoped",
+    "academicEntry": "FAU distinguishes direct and subject-restricted HZB from qualifications requiring an assessment examination. Where required, the one-year Studienkolleg is in Munich, not an FAU-owned college; German B2 and an entrance test are required for this preparatory route. After the assessment, a new degree application is needed. In some qualification groups one or two university years can support subject-related direct access.",
+    "source": "https://www.fau.eu/studying/international-students/application-and-enrollment-for-international-applicants/evaluation-of-international-qualifications/",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "unknown"
+    ],
+    "afterPolicy": [
+      "unknown"
+    ],
+    "remaining": "The applicant’s credential group, subject restriction, current application documents and exact degree procedure remain to be established; preparatory German B2 is not a universal degree-language minimum."
+  },
+  "technische-hochschule-ingolstadt": {
+    "id": "technische-hochschule-ingolstadt",
+    "country": "de",
+    "status": "resolved-scoped",
+    "academicEntry": "A foreign higher-education entrance qualification normally needs uni-assist VPD before the THI application, with specified exemptions for German/recognised prior documentation. If recognition requires FSP, the guide points to the preparatory Studienkolleg route rather than unconditional direct entry. Architecture has a named aptitude test. Other degree-specific rules and separate English/German language evidence must be checked.",
+    "source": "https://www.thi.de/en/studies/application/applications-for-bachelors-degree-programmes-from-abroad/",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "unknown"
+    ],
+    "afterPolicy": [
+      "unknown"
+    ],
+    "remaining": "Need the exact VPD, selected degree prerequisites and any applicable aptitude examination; SAT/ACT is not declared universally optional or required."
+  },
+  "university-of-cologne": {
+    "id": "university-of-cologne",
+    "country": "de",
+    "status": "resolved-scoped",
+    "academicEntry": "The reviewed non-EU route with formal HZB requires recognised academic access, German proof and a valid TestAS certificate with the relevant subject module. Programme/faculty percentile conditions apply and do not guarantee selection. EU-equivalent applicants use another procedure; the page names dual Clinical Nursing and Midwifery as no-TestAS exceptions. Studienstart International integrale is compulsory alongside the first semester for its applicable route, with further named exceptions.",
+    "source": "https://uni-koeln.de/en/studium-lehre/international/studium-in-koeln/internationale-bewerbungen/bachelor-studium-staatsexamen/bewerbungsverfahren-fuer-nicht-eu-buergerinnen/application-procedure-for-non-eu-citizens-with-formal-university-entrance-qualification-studienstart-international-integrale",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "unknown"
+    ],
+    "afterPolicy": [
+      "unknown"
+    ],
+    "remaining": "The exact faculty/module percentile, HZB recognition and whether an EU-equivalent or programme exception applies must be checked; SAT/ACT is not substituted for TestAS."
+  },
+  "deggendorf-institute-of-technology": {
+    "id": "deggendorf-institute-of-technology",
+    "country": "de",
+    "status": "resolved-scoped",
+    "academicEntry": "For the reviewed Applied Artificial Intelligence bachelor, a recognised university entrance qualification AND an admission test are required. The test covers upper-secondary mathematics (calculus, linear algebra, probability), logic and computer science, and the FAQ also describes a 200–300 word essay. These requirements belong to this degree, not all DIT programmes. English B2 and German A2 by graduation are separate language conditions.",
+    "source": "https://www.th-deg.de/ain-b-en",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "unknown"
+    ],
+    "afterPolicy": [
+      "unknown"
+    ],
+    "remaining": "The foreign diploma recognition, exact selected-cycle admission-test arrangements and any SAT/ACT substitution not stated by the degree page remain unestablished."
+  },
+  "dgist": {
+    "id": "dgist",
+    "country": "kr",
+    "status": "resolved-scoped",
+    "academicEntry": "International freshmen must finish high school by registration and satisfy the applicable foreign-citizenship/parental or Korean-origin full-education-abroad category. Dual Korean citizenship and GED/home-school/alternative qualifications are excluded under the eligibility page. The checklist requires school diploma/transcript, applicant/parent passports and family-relationship proof; English and standardised official test reports are listed as optional documents. Exact SAT/ACT versions are not named.",
+    "source": "https://www.dgist.ac.kr/iuadm/sub02_01.do",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "unknown"
+    ],
+    "afterPolicy": [
+      "unknown"
+    ],
+    "remaining": "Need the current named-intake guide, exact accepted SAT/ACT test definitions, programme selection and complete teaching-language mix; optional generic test reports are not a universal verified SAT rule."
+  },
+  "dongguk-university": {
+    "id": "dongguk-university",
+    "country": "kr",
+    "status": "resolved-scoped",
+    "academicEntry": "The Seoul Spring 2027 notice requires the applicant and both parents to be foreign nationals. First-year applicants must graduate from regular high school by February 2027 or meet a legally recognised equivalent. Transfer-year credit rules are separate. Korean proof has named alternatives and arts programmes have separate practical assessments; language qualification alone does not certify academic admission.",
+    "source": "https://en.dongguk.edu/article/INTSTUNOTICE/detail/26766179",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "unknown"
+    ],
+    "afterPolicy": [
+      "unknown"
+    ],
+    "remaining": "Need the complete applicable major guide/checklist for exact equivalence, selection and SAT/ACT policy; the teaching-language mix and Fall 2027 rules remain unestablished."
+  },
+  "sejong-university": {
+    "id": "sejong-university",
+    "country": "kr",
+    "status": "resolved-scoped",
+    "academicEntry": "Spring 2027 first-year eligibility requires the applicable non-Korean applicant/parent nationality category and completed or expected primary/secondary education. Education across multiple countries normally totals at least 12 years. Admission comprehensively evaluates academic achievement and major aptitude, with interviews if requested. Required authenticated/notarised scans are uploaded during application; physical originals are posted only by admitted students during registration. These stages are not one deadline.",
+    "source": "https://www.sejong.ac.kr/_res/sejong/eng/etc/2027_Spring_Semester_Undergraduate_Admission_Guide_for_International_Students(eng)_20260903.pdf",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "unknown",
+      "unknown"
+    ],
+    "afterPolicy": [
+      "unknown",
+      "unknown"
+    ],
+    "remaining": "Nationality-change/dual-citizenship exceptions, school-system equivalence and major-specific conditions need individual review. No independent SAT/ACT obligation or Fall 2027 rule is established."
+  },
+  "pusan-national-university": {
+    "id": "pusan-national-university",
+    "country": "kr",
+    "status": "resolved-scoped",
+    "academicEntry": "Spring 2027 freshmen must satisfy the foreign-applicant/parent nationality rules and complete recognised formal secondary education. The guide includes specific equivalence rules for shorter school systems, including an 11-year system with its last three years in one country; do not reject every non-12-year system automatically. Home schooling, distance learning and qualification examinations are not recognised. Selection includes document screening and interview under the degree’s rules.",
+    "source": "https://international.pusan.ac.kr/bbs/international/2089/1533745/download.do",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "unknown",
+      "unknown"
+    ],
+    "afterPolicy": [
+      "unknown",
+      "unknown"
+    ],
+    "remaining": "The exact nationality-acquisition timing, education history and degree-specific interview conditions require assessment. SAT/ACT obligation and Fall 2027 rules remain unestablished."
+  },
+  "soongsil-university": {
+    "id": "soongsil-university",
+    "country": "kr",
+    "status": "resolved-scoped",
+    "academicEntry": "Spring 2027 freshmen require the applicable foreign nationality of applicant/parents and completion of the recognised elementary/secondary curriculum. Schools must be officially regulated; home-school/lifelong/online-school qualifications have stated exclusions. Most programmes use document evaluation; Film Arts uses document review and an interview. Transfer-specific credit and examination exclusions are not automatically applied to freshmen.",
+    "source": "https://admission.ssu.ac.kr/upload/SSU%281%29_26102292916.pdf",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "unknown"
+    ],
+    "afterPolicy": [
+      "unknown"
+    ],
+    "remaining": "The individual school-equivalence category, first-year applicability of any qualification-exam exclusion and exact major language/selection rules need review. No universal SAT/ACT policy or Fall 2027 applicability is established."
+  },
+  "kyungpook-national-university": {
+    "id": "kyungpook-national-university",
+    "country": "kr",
+    "status": "resolved-scoped",
+    "academicEntry": "International first-year eligibility requires the published foreign nationality of applicant and parents and full recognised primary/secondary education with high-school graduation before the semester. GED, home schooling and the listed non-regular education categories are excluded. Required documents distinguish school graduation/transcripts, language proof, passports and parental nationality/relationship evidence. The general language alternatives have departmental exceptions such as CSE TOPIK 4; they do not prove a wholly English-taught degree.",
+    "source": "https://home.knu.ac.kr/HOME/global/sub.htm?nav_code=glo1549935033",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "unknown",
+      "unknown"
+    ],
+    "afterPolicy": [
+      "unknown",
+      "unknown"
+    ],
+    "remaining": "Need the selected semester’s full admission guide, actual programme teaching-language statement and any academic SAT/ACT rule. Published 2027 schedule does not by itself date every generic requirement.",
+    "correction": "Removed inferred ko teaching-language label; retained the explicit TOPIK requirement and unknown exact programme language."
   }
 }

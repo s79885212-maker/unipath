@@ -2186,16 +2186,22 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "A recognised school-leaving qualification and successful Assessment Centre are required. The centre tests quantitative, verbal and figural reasoning plus interview. A universal SAT/ACT substitute rule is not established."
+        "note": "A recognised school-leaving qualification and successful Assessment Centre are required. The centre tests quantitative, verbal and figural reasoning plus interview. A universal SAT/ACT substitute rule is not established.",
+        "entryRequirements": "The reviewed BSc Business Administration requires a recognised school-leaving qualification and successful online Assessment Centre: quantitative/cognitive reasoning, English assessment and interview. The initial application can use the two latest upper-secondary reports before the final certificate arrives. English is assessed internally; a certificate is not required with this application. An unlisted national school diploma needs recognition assessment.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
       "sources": [
         {
           "url": "https://www.frankfurt-school.de/en/home/study/bachelor/bachelor-in-business-administration",
-          "label": "Frankfurt School BBA September 2027 requirements",
-          "verified": "2026-11-18",
-          "access": "web-html-read"
+          "label": "Frankfurt School: BBA school qualification and Assessment Centre",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": "Start in English or German; from semester 4 all courses are English. Corporate-partner CompactTrack requires German C1; it is not the same as the general English starting route."
@@ -2259,7 +2265,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "The applicable academic entrance qualification must be checked separately. Absence of SAT on a language page does not establish test-optional admission."
+        "note": "The applicable academic entrance qualification must be checked separately. Absence of SAT on a language page does not establish test-optional admission.",
+        "entryRequirements": "A recognised higher-education entrance qualification is required. Non-EU/EEA applications with foreign qualifications are normally checked by uni-assist and then ranked; IB, European Baccalaureate and Feststellungsprüfung have specified direct-application routes. TestAS is voluntary for additional selection points, with its language matched to the major. Recognition of the qualification only admits the applicant to selection; it does not award a study place.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -2269,6 +2281,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Leuphana English-major language requirements",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.leuphana.de/en/college/application/international-applications/admission/admission-non-eu-eea-applicants.html",
+          "label": "Leuphana: non-EU qualification review and voluntary TestAS",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -2298,7 +2316,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "The applicable academic entrance qualification must be checked separately. Absence of SAT on a language page does not establish test-optional admission."
+        "note": "The applicable academic entrance qualification must be checked separately. Absence of SAT on a language page does not establish test-optional admission.",
+        "entryRequirements": "A recognised higher-education entrance qualification is required. Non-EU/EEA applications with foreign qualifications are normally checked by uni-assist and then ranked; IB, European Baccalaureate and Feststellungsprüfung have specified direct-application routes. TestAS is voluntary for additional selection points, with its language matched to the major. Recognition of the qualification only admits the applicant to selection; it does not award a study place.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [
         {
@@ -2313,6 +2337,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Leuphana German-major language requirements",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.leuphana.de/en/college/application/international-applications/admission/admission-non-eu-eea-applicants.html",
+          "label": "Leuphana: non-EU qualification review and voluntary TestAS",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -2354,7 +2384,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "The applicable academic entrance qualification must be checked separately. Absence of SAT on a language page does not establish test-optional admission."
+        "note": "The applicable academic entrance qualification must be checked separately. Absence of SAT on a language page does not establish test-optional admission.",
+        "entryRequirements": "Applicants with a university entrance qualification obtained outside Germany apply through uni-assist, which assesses the documents. Restricted-admission programmes then have a separate selection process. English and German degree-language certificates are distinct; English-taught programmes do not require German proof under this guide. An English B2 certificate alone does not establish the school qualification needed for degree entry.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -2374,6 +2410,12 @@ window.UNIPATH.admissionRequirements = {
             1
           ],
           "quote": "minimum score 5.5"
+        },
+        {
+          "url": "https://www.hochschule-rhein-waal.de/en/study/before-starting-university/application-process/guide-for-international-applicants",
+          "label": "Rhine-Waal: foreign university entrance qualification and application route",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": "The official overview links this B2 certificate list for bachelor applicants. This is not a C1/master threshold and does not confirm every programme or Fall 2027 policy."
@@ -2398,7 +2440,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "The applicable academic entrance qualification must be checked separately. Absence of SAT on a language page does not establish test-optional admission."
+        "note": "The applicable academic entrance qualification must be checked separately. Absence of SAT on a language page does not establish test-optional admission.",
+        "entryRequirements": "Bachelor entry requires a recognised higher-education entrance qualification. Foreign school certificates may grant general or subject-bound access; otherwise Studienkolleg and its assessment examination may be necessary. The international qualification page requires uni-assist VPD assessment before the TUM application. Each degree has its own aptitude/admission procedure; IELTS or German proof is not a substitute for academic access.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [
         {
@@ -2413,6 +2461,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "TUM language certificates and bachelor exceptions",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.tum.de/en/studies/application/application-info-portal/higher-education-entrance-qualification/international-higher-education-entrance-qualification",
+          "label": "TUM: foreign qualification, subject restrictions and VPD",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": "For six named bachelor programmes, English is checked through aptitude assessment and an English certificate is not required with the application. Confirm the exact degree, campus and its German/English combination."
@@ -3057,7 +3111,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "Standardised official test reports are optional in the university checklist. Exact accepted SAT/ACT versions and the 2027 guide details were not recovered, so no universal SAT rule is inferred."
+        "note": "Standardised official test reports are optional in the university checklist. Exact accepted SAT/ACT versions and the 2027 guide details were not recovered, so no universal SAT rule is inferred.",
+        "entryRequirements": "International freshmen must finish high school by registration and satisfy the applicable foreign-citizenship/parental or Korean-origin full-education-abroad category. Dual Korean citizenship and GED/home-school/alternative qualifications are excluded under the eligibility page. The checklist requires school diploma/transcript, applicant/parent passports and family-relationship proof; English and standardised official test reports are listed as optional documents. Exact SAT/ACT versions are not named.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [
@@ -3075,6 +3135,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Official Study in Korea: DGIST undergraduate department record",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.dgist.ac.kr/iuadm/sub02_01.do",
+          "label": "DGIST: international freshman eligibility and school credentials",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": "The official undergraduate department table says above 90% of courses are English. It does not guarantee every required course can be completed in English."
@@ -3104,7 +3170,18 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "The public notice does not establish a SAT/ACT policy; its undergraduate guide must be checked for the specific major."
+        "note": "The public notice does not establish a SAT/ACT policy; its undergraduate guide must be checked for the specific major.",
+        "entryRequirements": "The Seoul Spring 2027 notice requires the applicant and both parents to be foreign nationals. First-year applicants must graduate from regular high school by February 2027 or meet a legally recognised equivalent. Transfer-year credit rules are separate. Korean proof has named alternatives and arts programmes have separate practical assessments; language qualification alone does not certify academic admission.",
+        "applicability": {
+          "label": "Spring 2027",
+          "entryYears": [
+            2027
+          ],
+          "status": "confirmed",
+          "intakes": [
+            "spring-2027"
+          ]
+        }
       },
       "localLanguage": [
         {
@@ -3116,9 +3193,9 @@ window.UNIPATH.admissionRequirements = {
       "sources": [
         {
           "url": "https://en.dongguk.edu/article/INTSTUNOTICE/detail/26766179",
-          "label": "Dongguk Seoul international undergraduate Spring 2027 notice",
-          "verified": "2026-11-18",
-          "access": "web-html-read"
+          "label": "Dongguk Seoul: Spring 2027 nationality and first-year education",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": "This review establishes a Korean-proof admission route, not a verified wholly English programme. The exact degree teaching language and Fall 2027 rules remain unconfirmed."
@@ -6132,7 +6209,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "Academic eligibility depends on recognition of the school qualification and programme selection. No universal SAT/ACT exemption is inferred from a language page."
+        "note": "Academic eligibility depends on recognition of the school qualification and programme selection. No universal SAT/ACT exemption is inferred from a language page.",
+        "entryRequirements": "A bachelor requires an HZB (recognised university entrance qualification), which may be general or subject-specific. Foreign qualifications are evaluated rather than accepted merely because the document is called a high-school diploma. Degree-specific admission/examination regulations add conditions. The English International Business route and German-language degrees retain separate language rules.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [
@@ -6144,6 +6227,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Anhalt International Business BA, Bernburg: two language branches",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.hs-anhalt.de/en/study/paths-to-university/admission-requirements.html",
+          "label": "Anhalt: general and degree-specific bachelor admission",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -6167,7 +6256,13 @@ window.UNIPATH.admissionRequirements = {
       "english": {},
       "academic": {
         "satPolicy": "unknown",
-        "note": "Academic eligibility depends on recognition of the school qualification and programme selection. No universal SAT/ACT exemption is inferred from a language page."
+        "note": "Academic eligibility depends on recognition of the school qualification and programme selection. No universal SAT/ACT exemption is inferred from a language page.",
+        "entryRequirements": "A bachelor requires an HZB (recognised university entrance qualification), which may be general or subject-specific. Foreign qualifications are evaluated rather than accepted merely because the document is called a high-school diploma. Degree-specific admission/examination regulations add conditions. The English International Business route and German-language degrees retain separate language rules.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [
         {
@@ -6182,6 +6277,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Anhalt International Business BA, Bernburg: two language branches",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.hs-anhalt.de/en/study/paths-to-university/admission-requirements.html",
+          "label": "Anhalt: general and degree-specific bachelor admission",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -6214,7 +6315,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "Academic eligibility depends on recognition of the school qualification and programme selection. No universal SAT/ACT exemption is inferred from a language page."
+        "note": "Academic eligibility depends on recognition of the school qualification and programme selection. No universal SAT/ACT exemption is inferred from a language page.",
+        "entryRequirements": "Foreign school qualifications may give direct general access, subject-restricted access, or require prior university study/Studienkolleg plus assessment. Freiburg does not accept a Studienkolleg assessment limited to universities of applied sciences as university access. General TestAS participation is voluntary: Medicine/Dentistry may use scores in selection, while other subjects may use it instead of the orientation test. LAS retains its separate programme selection requirements.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [
@@ -6232,6 +6339,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Freiburg accepted B2 English certificates",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://uni-freiburg.de/en/studies/applying/international-applicants/full-time-studies/",
+          "label": "Freiburg: HZB routes and programme-specific use of TestAS",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -6254,7 +6367,13 @@ window.UNIPATH.admissionRequirements = {
       "english": {},
       "academic": {
         "satPolicy": "unknown",
-        "note": "Academic eligibility depends on recognition of the school qualification and programme selection. No universal SAT/ACT exemption is inferred from a language page."
+        "note": "Academic eligibility depends on recognition of the school qualification and programme selection. No universal SAT/ACT exemption is inferred from a language page.",
+        "entryRequirements": "FAU distinguishes direct and subject-restricted HZB from qualifications requiring an assessment examination. Where required, the one-year Studienkolleg is in Munich, not an FAU-owned college; German B2 and an entrance test are required for this preparatory route. After the assessment, a new degree application is needed. In some qualification groups one or two university years can support subject-related direct access.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [
         {
@@ -6269,6 +6388,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "FAU German bachelor proficiency and English degree exceptions",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.fau.eu/studying/international-students/application-and-enrollment-for-international-applicants/evaluation-of-international-qualifications/",
+          "label": "FAU: qualification categories and Munich Studienkolleg",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": "Autonomy Technologies, Clean Energy Processes, International Business Studies, Artificial Intelligence and International Economic Studies are named fully English bachelor exceptions. Their own English/academic entry rules still require programme verification; German DSH is not assigned to them."
@@ -6307,7 +6432,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "Academic eligibility depends on recognition of the school qualification and programme selection. No universal SAT/ACT exemption is inferred from a language page."
+        "note": "Academic eligibility depends on recognition of the school qualification and programme selection. No universal SAT/ACT exemption is inferred from a language page.",
+        "entryRequirements": "A foreign higher-education entrance qualification normally needs uni-assist VPD before the THI application, with specified exemptions for German/recognised prior documentation. If recognition requires FSP, the guide points to the preparatory Studienkolleg route rather than unconditional direct entry. Architecture has a named aptitude test. Other degree-specific rules and separate English/German language evidence must be checked.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [
         {
@@ -6332,6 +6463,12 @@ window.UNIPATH.admissionRequirements = {
             1,
             2
           ]
+        },
+        {
+          "url": "https://www.thi.de/en/studies/application/applications-for-bachelors-degree-programmes-from-abroad/",
+          "label": "THI: VPD, FSP and programme aptitude requirements",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -6354,7 +6491,13 @@ window.UNIPATH.admissionRequirements = {
       "english": {},
       "academic": {
         "satPolicy": "unknown",
-        "note": "TestAS is required for this non-EU procedure, with core and relevant subject module. Paper/digital accepted; rank thresholds vary by faculty. Nursing/Midwifery dual degrees have named exceptions. SAT/ACT are not established substitutes."
+        "note": "TestAS is required for this non-EU procedure, with core and relevant subject module. Paper/digital accepted; rank thresholds vary by faculty. Nursing/Midwifery dual degrees have named exceptions. SAT/ACT are not established substitutes.",
+        "entryRequirements": "The reviewed non-EU route with formal HZB requires recognised academic access, German proof and a valid TestAS certificate with the relevant subject module. Programme/faculty percentile conditions apply and do not guarantee selection. EU-equivalent applicants use another procedure; the page names dual Clinical Nursing and Midwifery as no-TestAS exceptions. Studienstart International integrale is compulsory alongside the first semester for its applicable route, with further named exceptions.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [
         {
@@ -6368,9 +6511,9 @@ window.UNIPATH.admissionRequirements = {
       "sources": [
         {
           "url": "https://uni-koeln.de/en/studium-lehre/international/studium-in-koeln/internationale-bewerbungen/bachelor-studium-staatsexamen/bewerbungsverfahren-fuer-nicht-eu-buergerinnen/application-procedure-for-non-eu-citizens-with-formal-university-entrance-qualification-studienstart-international-integrale",
-          "label": "Cologne non-EU direct-HZB undergraduate procedure",
-          "verified": "2026-11-18",
-          "access": "web-html-read"
+          "label": "Cologne: non-EU HZB and mandatory TestAS with exceptions",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -6403,7 +6546,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "A recognised entrance qualification plus the programme admission test is required: advanced-school mathematics, logic/computer science multiple choice and a 200–300-word essay. No SAT/ACT substitution is established."
+        "note": "A recognised entrance qualification plus the programme admission test is required: advanced-school mathematics, logic/computer science multiple choice and a 200–300-word essay. No SAT/ACT substitution is established.",
+        "entryRequirements": "For the reviewed Applied Artificial Intelligence bachelor, a recognised university entrance qualification AND an admission test are required. The test covers upper-secondary mathematics (calculus, linear algebra, probability), logic and computer science, and the FAQ also describes a 200–300 word essay. These requirements belong to this degree, not all DIT programmes. English B2 and German A2 by graduation are separate language conditions.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [
         {
@@ -6415,9 +6564,9 @@ window.UNIPATH.admissionRequirements = {
       "sources": [
         {
           "url": "https://www.th-deg.de/ain-b-en",
-          "label": "DIT English Artificial Intelligence bachelor: entry and language conditions",
-          "verified": "2026-11-18",
-          "access": "web-html-read"
+          "label": "DIT Applied AI: school qualification and programme admission test",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -7099,7 +7248,18 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "The read eligibility and document sections do not establish an independent SAT/ACT policy. Recognised school completion remains compulsory."
+        "note": "The read eligibility and document sections do not establish an independent SAT/ACT policy. Recognised school completion remains compulsory.",
+        "entryRequirements": "Spring 2027 first-year eligibility requires the applicable non-Korean applicant/parent nationality category and completed or expected primary/secondary education. Education across multiple countries normally totals at least 12 years. Admission comprehensively evaluates academic achievement and major aptitude, with interviews if requested. Required authenticated/notarised scans are uploaded during application; physical originals are posted only by admitted students during registration. These stages are not one deadline.",
+        "applicability": {
+          "label": "Spring 2027 only; Fall rules not established",
+          "entryYears": [
+            2027
+          ],
+          "status": "confirmed",
+          "intakes": [
+            "spring-2027"
+          ]
+        }
       },
       "localLanguage": [],
       "documents": [
@@ -7108,17 +7268,13 @@ window.UNIPATH.admissionRequirements = {
       "sources": [
         {
           "url": "https://www.sejong.ac.kr/_res/sejong/eng/etc/2027_Spring_Semester_Undergraduate_Admission_Guide_for_International_Students(eng)_20260903.pdf",
-          "label": "Sejong Spring 2027 undergraduate guide: eligibility and documents",
+          "label": "Sejong: Spring 2027 first-year eligibility and separate document stages",
           "verified": "2026-11-19",
           "access": "pdf-read",
           "pages": [
             4,
             5,
-            6,
-            9,
-            10,
-            11,
-            17
+            9
           ]
         }
       ],
@@ -7145,7 +7301,18 @@ window.UNIPATH.admissionRequirements = {
       "english": {},
       "academic": {
         "satPolicy": "unknown",
-        "note": "The read eligibility and document sections do not establish an independent SAT/ACT policy. Recognised school completion remains compulsory."
+        "note": "The read eligibility and document sections do not establish an independent SAT/ACT policy. Recognised school completion remains compulsory.",
+        "entryRequirements": "Spring 2027 first-year eligibility requires the applicable non-Korean applicant/parent nationality category and completed or expected primary/secondary education. Education across multiple countries normally totals at least 12 years. Admission comprehensively evaluates academic achievement and major aptitude, with interviews if requested. Required authenticated/notarised scans are uploaded during application; physical originals are posted only by admitted students during registration. These stages are not one deadline.",
+        "applicability": {
+          "label": "Spring 2027 only; Fall rules not established",
+          "entryYears": [
+            2027
+          ],
+          "status": "confirmed",
+          "intakes": [
+            "spring-2027"
+          ]
+        }
       },
       "localLanguage": [
         {
@@ -7160,17 +7327,13 @@ window.UNIPATH.admissionRequirements = {
       "sources": [
         {
           "url": "https://www.sejong.ac.kr/_res/sejong/eng/etc/2027_Spring_Semester_Undergraduate_Admission_Guide_for_International_Students(eng)_20260903.pdf",
-          "label": "Sejong Spring 2027 undergraduate guide: eligibility and documents",
+          "label": "Sejong: Spring 2027 first-year eligibility and separate document stages",
           "verified": "2026-11-19",
           "access": "pdf-read",
           "pages": [
             4,
             5,
-            6,
-            9,
-            10,
-            11,
-            17
+            9
           ]
         }
       ],
@@ -7212,20 +7375,30 @@ window.UNIPATH.admissionRequirements = {
         "waiver": "The guide lists US, UK, Australia, Canada, Ireland, New Zealand and South Africa; confirm the required school-history evidence with admissions."
       },
       "academic": {
-        "satPolicy": "unknown"
+        "satPolicy": "unknown",
+        "entryRequirements": "Spring 2027 freshmen must satisfy the foreign-applicant/parent nationality rules and complete recognised formal secondary education. The guide includes specific equivalence rules for shorter school systems, including an 11-year system with its last three years in one country; do not reject every non-12-year system automatically. Home schooling, distance learning and qualification examinations are not recognised. Selection includes document screening and interview under the degree’s rules.",
+        "applicability": {
+          "label": "Spring 2027 only; Fall rules not established",
+          "entryYears": [
+            2027
+          ],
+          "status": "confirmed",
+          "intakes": [
+            "spring-2027"
+          ]
+        }
       },
       "localLanguage": [],
       "documents": [],
       "sources": [
         {
           "url": "https://international.pusan.ac.kr/bbs/international/2089/1533745/download.do",
-          "label": "Pusan Spring 2027 undergraduate guide: English section",
+          "label": "Pusan: Spring 2027 school-system equivalence and academic selection",
           "verified": "2026-11-19",
           "access": "pdf-read",
           "pages": [
             32,
-            33,
-            34
+            33
           ]
         }
       ],
@@ -7253,7 +7426,18 @@ window.UNIPATH.admissionRequirements = {
       },
       "english": {},
       "academic": {
-        "satPolicy": "unknown"
+        "satPolicy": "unknown",
+        "entryRequirements": "Spring 2027 freshmen must satisfy the foreign-applicant/parent nationality rules and complete recognised formal secondary education. The guide includes specific equivalence rules for shorter school systems, including an 11-year system with its last three years in one country; do not reject every non-12-year system automatically. Home schooling, distance learning and qualification examinations are not recognised. Selection includes document screening and interview under the degree’s rules.",
+        "applicability": {
+          "label": "Spring 2027 only; Fall rules not established",
+          "entryYears": [
+            2027
+          ],
+          "status": "confirmed",
+          "intakes": [
+            "spring-2027"
+          ]
+        }
       },
       "localLanguage": [
         {
@@ -7266,13 +7450,12 @@ window.UNIPATH.admissionRequirements = {
       "sources": [
         {
           "url": "https://international.pusan.ac.kr/bbs/international/2089/1533745/download.do",
-          "label": "Pusan Spring 2027 undergraduate guide: English section",
+          "label": "Pusan: Spring 2027 school-system equivalence and academic selection",
           "verified": "2026-11-19",
           "access": "pdf-read",
           "pages": [
             32,
-            33,
-            34
+            33
           ]
         }
       ],
@@ -7527,7 +7710,18 @@ window.UNIPATH.admissionRequirements = {
       },
       "english": {},
       "academic": {
-        "satPolicy": "unknown"
+        "satPolicy": "unknown",
+        "entryRequirements": "Spring 2027 freshmen require the applicable foreign nationality of applicant/parents and completion of the recognised elementary/secondary curriculum. Schools must be officially regulated; home-school/lifelong/online-school qualifications have stated exclusions. Most programmes use document evaluation; Film Arts uses document review and an interview. Transfer-specific credit and examination exclusions are not automatically applied to freshmen.",
+        "applicability": {
+          "label": "Spring 2027 only",
+          "entryYears": [
+            2027
+          ],
+          "status": "confirmed",
+          "intakes": [
+            "spring-2027"
+          ]
+        }
       },
       "localLanguage": [
         {
@@ -7542,18 +7736,12 @@ window.UNIPATH.admissionRequirements = {
       "sources": [
         {
           "url": "https://admission.ssu.ac.kr/upload/SSU%281%29_26102292916.pdf",
-          "label": "Soongsil Spring 2027 international undergraduate guide",
+          "label": "Soongsil: Spring 2027 first-year eligibility and selection",
           "verified": "2026-11-19",
           "access": "pdf-read",
           "pages": [
             6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            14,
-            15
+            7
           ]
         }
       ],
@@ -8618,16 +8806,22 @@ window.UNIPATH.admissionRequirements = {
         "alternatives": "General eligibility accepts English evidence OR Korean alternatives: CEFR B2, New TEPS 202; or TOPIK 3, university Korean course level 3, specified KIIP or overseas King Sejong Intermediate 1. This does not establish a wholly English degree."
       },
       "academic": {
-        "satPolicy": "unknown"
+        "satPolicy": "unknown",
+        "entryRequirements": "International first-year eligibility requires the published foreign nationality of applicant and parents and full recognised primary/secondary education with high-school graduation before the semester. GED, home schooling and the listed non-regular education categories are excluded. Required documents distinguish school graduation/transcripts, language proof, passports and parental nationality/relationship evidence. The general language alternatives have departmental exceptions such as CSE TOPIK 4; they do not prove a wholly English-taught degree.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
       "sources": [
         {
           "url": "https://home.knu.ac.kr/HOME/global/sub.htm?nav_code=glo1549935033",
-          "label": "Kyungpook current international undergraduate eligibility",
+          "label": "Kyungpook: first-year education, nationality and departmental exceptions",
           "verified": "2026-11-19",
-          "access": "web-html-read"
+          "access": "html-read"
         }
       ],
       "note": "The page publishes a Fall 2027 schedule but says the semester-specific department guide will be announced in March. General language rules are not therefore confirmed for every Fall 2027 major."
@@ -8635,7 +8829,7 @@ window.UNIPATH.admissionRequirements = {
     {
       "id": "korean-computing",
       "label": "Computer Science and Engineering — Korean qualification exception",
-      "language": "ko",
+      "language": "unknown",
       "kind": "direct",
       "level": "bachelor",
       "applicant": "international-first-year",
@@ -8649,7 +8843,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "english": {},
       "academic": {
-        "satPolicy": "unknown"
+        "satPolicy": "unknown",
+        "entryRequirements": "International first-year eligibility requires the published foreign nationality of applicant and parents and full recognised primary/secondary education with high-school graduation before the semester. GED, home schooling and the listed non-regular education categories are excluded. Required documents distinguish school graduation/transcripts, language proof, passports and parental nationality/relationship evidence. The general language alternatives have departmental exceptions such as CSE TOPIK 4; they do not prove a wholly English-taught degree.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [
         {
@@ -8662,12 +8862,12 @@ window.UNIPATH.admissionRequirements = {
       "sources": [
         {
           "url": "https://home.knu.ac.kr/HOME/global/sub.htm?nav_code=glo1549935033",
-          "label": "Kyungpook current international undergraduate eligibility",
+          "label": "Kyungpook: first-year education, nationality and departmental exceptions",
           "verified": "2026-11-19",
-          "access": "web-html-read"
+          "access": "html-read"
         }
       ],
-      "note": null
+      "note": "The department-specific TOPIK requirement is confirmed on the general page. The exact teaching-language mix is not stated there; neither an English-taught nor a wholly Korean-taught degree is inferred from the test requirement."
     }
   ]
 };

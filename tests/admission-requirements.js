@@ -15,6 +15,8 @@ module.exports=function (env) {
   ok(pit.english.ielts.min===6.5 && /placement/.test(pit.english.note) && !U.requirements.confirmed(pit.english.applicability || pit.applicability,input()),'Pittsburgh: institutional baseline is separate from placement and is not silently dated Fall 2027');
   var cov=U.requirements.routes(U.uniById('coventry-university'))[0];
   ok(cov.academic.applicability.status==='year-not-stated' && !U.requirements.confirmed(cov.academic.applicability,input()),'An undated country academic policy does not inherit the 2027 cycle from a programme language requirement');
+  var knu=U.requirements.routes(U.uniById('kyungpook-national-university')).filter(function (r) {return r.id==='korean-computing';})[0];
+  ok(knu.language==='unknown' && knu.localLanguage.some(function (t) {return t.name==='TOPIK' && /4/.test(t.requirement);}), 'A departmental TOPIK minimum is retained without inventing the programme teaching-language mix');
   ok(M.scopeInput({studyLanguage:'fr',englishOnly:true}).englishOnly===false && M.scopeInput({studyLanguage:'en',englishOnly:true}).englishOnly===true,'Local-language selection clears the mutually contradictory English-only state');
   ok(!level(r,'hard') && r.unchecked.indexOf('IELTS section scores')>=0,'Route: sufficient overall never confirms missing sections');
   r=evaluate(testRoute(),{ieltsSections:{reading:6,writing:5.5,listening:6,speaking:6}});
