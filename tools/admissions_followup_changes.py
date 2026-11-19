@@ -1,5 +1,5 @@
 """Explicit, field-level follow-up facts; source contents reviewed by the author."""
-from admissions_records import records,L,S,flush_ru
+from admissions_records import records,L,S,flush_ru,TR
 from pathlib import Path
 import json
 OUT=Path('research/admissions-followup')
@@ -25,6 +25,13 @@ def finish():
  Path('research/admissions-120/requirements.json').write_text(json.dumps(records,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
  Path('data/requirements.js').write_text('/* Verified admission routes. Authoring facts and scope: research/admissions-120/requirements.json. Optional, backward-compatible layer. */\nwindow.UNIPATH.admissionRequirements = '+json.dumps({k:v['routes'] for k,v in records.items()},ensure_ascii=False,indent=2)+';\n',encoding='utf8')
  (OUT/'reviews.json').write_text(json.dumps(reviews,ensure_ascii=False,indent=2)+'\n',encoding='utf8');flush_ru()
+ # flush() only adds absent keys. Repair accidental English identity entries
+ # from this follow-up without overwriting any existing Russian translation.
+ p=Path('data/i18n/ru.js');dictionary=p.read_text(encoding='utf8')
+ for key,value in TR.items():
+  if key!=value:
+   dictionary=dictionary.replace('  '+json.dumps(key,ensure_ascii=False)+': '+json.dumps(key,ensure_ascii=False)+',','  '+json.dumps(key,ensure_ascii=False)+': '+json.dumps(value,ensure_ascii=False)+',')
+ p.write_text(dictionary,encoding='utf8')
 if __name__=='__main__':
  # Published Provost procedure explicitly includes undergraduate applicants;
  # 7.0 concerns post-admission placement, not the admission minimum.

@@ -135,5 +135,263 @@
       "optional"
     ],
     "remaining": "Specific programme prerequisites and named Fall 2027 applicability remain to be confirmed; English waiver conditions require individual assessment."
+  },
+  "laurentian-university": {
+    "id": "laurentian-university",
+    "country": "ca",
+    "status": "resolved-scoped",
+    "academicEntry": "Admission depends on both the school credential and programme subjects. The American-curriculum route lists a High School Diploma with B average or better; the full IB diploma requires at least 24 points and three Higher Level subjects. British-pattern qualifications require five distinct subjects including two A Levels, or the specified four-AS combination, at C or better. These are curriculum-specific examples, not universal GPA or SAT rules.",
+    "source": "https://laurentian.ca/academics/admissions/international/undergraduate-admissions",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "unknown",
+      "unknown"
+    ],
+    "afterPolicy": [
+      "unknown",
+      "unknown"
+    ],
+    "remaining": "The country-specific credential and chosen programme prerequisites must be selected; a universal SAT/ACT obligation or Fall 2027-specific cycle is not established."
+  },
+  "universite-de-montreal": {
+    "id": "universite-de-montreal",
+    "country": "ca",
+    "status": "framework-established-qualification-open",
+    "academicEntry": "Foreign qualifications may lead to direct degree admission, an Année préparatoire, or the first year of a participating four-year bachelor. The route depends on the recognised country/diploma equivalence and programme prerequisites. French baccalaureate and full IB applicants may be directly eligible subject to programme rules; preparatory eligibility is not direct bachelor admission.",
+    "source": "https://admission.umontreal.ca/admission/preparation-de-la-demande/verifier-les-conditions-dadmissibilite/",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "unknown"
+    ],
+    "afterPolicy": [
+      "unknown"
+    ],
+    "remaining": "The selected country/diploma equivalence, preparatory syllabus and exact degree prerequisites must be checked; no universal SAT/ACT waiver is established."
+  },
+  "universite-laval": {
+    "id": "universite-laval",
+    "country": "ca",
+    "status": "resolved-scoped",
+    "academicEntry": "International bachelor admission normally requires a diploma equivalent to the Quebec DEC after 13 years of education. A 12-year pre-university diploma normally leads to a 30-credit qualifying year. French/IB/Belgian qualifications have named direct-entry exceptions and some faculties still require preparation, including Science and Engineering. Programme prerequisites and selective admission remain separate.",
+    "source": "https://www.ulaval.ca/en/admission/prepare-your-application/admission-requirements-for-each-type-of-applicant",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "unknown"
+    ],
+    "afterPolicy": [
+      "unknown"
+    ],
+    "remaining": "The precise diploma equivalence, faculty exception and required qualifying courses in the individual offer remain to be established; SAT/ACT is not declared universally optional."
+  },
+  "universite-du-quebec-a-montreal": {
+    "id": "universite-du-quebec-a-montreal",
+    "country": "ca",
+    "status": "resolved-scoped",
+    "academicEntry": "The outside-Quebec route normally requires an appropriate diploma after at least 13 years of schooling or equivalent. Certain four-year bachelor pathways accept a terminal secondary diploma after 12 years. Prior university study is a different basis; programme descriptions determine prerequisites. French proof does not itself establish academic eligibility.",
+    "source": "https://etudier.uqam.ca/bases-admissibilite",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "unknown"
+    ],
+    "afterPolicy": [
+      "unknown"
+    ],
+    "remaining": "The selected diploma equivalence and whether the chosen programme participates in the four-year route must be established; no universal SAT/ACT policy is inferred."
+  },
+  "brock-university": {
+    "id": "brock-university",
+    "country": "ca",
+    "status": "resolved-scoped",
+    "academicEntry": "Qualifications outside Ontario are evaluated against recognised equivalent certificates and the chosen programme prerequisites. The Handbook accepts a US Grade 12 diploma and says SAT may help borderline US cases. The British route uses five GCE/GCSE/IGCSE subjects including two A Levels, with the stated four-AS alternative. All official records must show subject grades; the US SAT statement is not applied to other school systems.",
+    "source": "https://brocku.ca/university-secretariat/faculty-handbook/section-3/",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "accepted",
+      "accepted"
+    ],
+    "afterPolicy": [
+      "accepted",
+      "accepted"
+    ],
+    "remaining": "The exact country qualification, current programme subject equivalence and Fall 2027-specific course requirements remain applicant-specific; ACT equivalence is not inferred."
+  },
+  "mount-royal-university": {
+    "id": "mount-royal-university",
+    "country": "ca",
+    "status": "framework-established-programme-open",
+    "academicEntry": "Country-specific secondary credentials and all official school/postsecondary transcripts are required; non-English records need a certified English translation. The credential chart lists the US High School Diploma transcript and, for Uzbekistan, the completed upper-secondary certificate with exams and grades. Programme subjects and competitive/general averages must also be met; a listed document alone does not guarantee direct entry.",
+    "source": "https://www.mtroyal.ca/Admission/InternationalCredentials/",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "unknown"
+    ],
+    "afterPolicy": [
+      "unknown"
+    ],
+    "remaining": "The exact programme subject equivalencies and competitive averages must be checked; whether SAT/ACT is required for a particular qualification is not established."
+  },
+  "acadia-university": {
+    "id": "acadia-university",
+    "country": "ca",
+    "status": "resolved-scoped",
+    "academicEntry": "Academic conditions depend on school system and intended degree. The country guide lists the Uzbekistan Attestat with 4/5; this is not a universal rule for every country. The American page asks for Grade 12 English, at least four additional Grade 12 preparatory courses and overall B, with degree-specific subjects such as mathematics for Business. SAT/ACT obligation is not inferred from its absence on these pages.",
+    "source": "https://www2.acadiau.ca/admissions/application-process/international-students.html",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "unknown"
+    ],
+    "afterPolicy": [
+      "unknown"
+    ],
+    "remaining": "The exact current qualification/curriculum and degree prerequisites must be checked; an explicit academic SAT/ACT policy for the selected applicant category was not found."
+  },
+  "university-of-ottawa": {
+    "id": "university-of-ottawa",
+    "country": "ca",
+    "status": "resolved-scoped",
+    "academicEntry": "Eligibility depends on the completed school curriculum and programme prerequisites. In the American high-school route, applicants complete Grade 12, normally reach at least 75% and pass the chosen programme prerequisites. That route requests grades from the last school years and certified translations where needed. Its threshold is not assigned to IB, GCE, French lycée or every international diploma.",
+    "source": "https://www.uottawa.ca/study/undergraduate-studies/international-applicants/usa",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "unknown",
+      "unknown",
+      "unknown"
+    ],
+    "afterPolicy": [
+      "unknown",
+      "unknown",
+      "unknown"
+    ],
+    "remaining": "Each non-US curriculum needs its own country/qualification assessment and programme prerequisites. The reviewed American page does not establish a universal SAT/ACT obligation or exemption."
+  },
+  "universite-de-sherbrooke": {
+    "id": "universite-de-sherbrooke",
+    "country": "ca",
+    "status": "framework-established-qualification-open",
+    "academicEntry": "For the engineering route reviewed here, foreign/other-Canadian qualifications that do not meet direct bachelor entry may require a preparatory year on the Sherbrooke campus to meet engineering accreditation requirements. Applicants apply to the intended engineering bachelor so the file can be assessed. This is not unconditional direct admission after any school diploma.",
+    "source": "https://www.usherbrooke.ca/admission/da/planifier-demande/infos-candidats-hors-quebec",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "unknown"
+    ],
+    "afterPolicy": [
+      "unknown"
+    ],
+    "remaining": "The specific diploma equivalence, engineering degree prerequisites, preparatory subjects and selected intake must be checked; academic SAT/ACT policy is not generalised."
+  },
+  "universite-de-moncton": {
+    "id": "universite-de-moncton",
+    "country": "ca",
+    "status": "threshold-scope-unresolved",
+    "academicEntry": "The current Conditions page requires a secondary diploma, five eligible programme subjects and a minimum average of 70% across those five. The 2026–27 prospectus instead prints a 65% general threshold and says non-listed school systems need an equivalence decision. Do not treat the older 65% or Canadian course codes as confirmed international eligibility for Fall 2027.",
+    "source": "https://www.umoncton.ca/conditions",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "unknown"
+    ],
+    "afterPolicy": [
+      "unknown"
+    ],
+    "remaining": "The international credential/subject equivalence and which threshold applies to the selected intake need the current international admission decision. SAT/ACT obligation is not established."
+  },
+  "elmira-college": {
+    "id": "elmira-college",
+    "country": "us",
+    "status": "testing-obligation-unresolved",
+    "academicEntry": "International first-year applicants provide school records with English translations and at least one academic recommendation. The published language bands concern ELL support/exemption and do not themselves settle academic testing. The international checklist does not explicitly state whether SAT/ACT can be omitted.",
+    "source": "https://www.elmira.edu/admissions/undergraduate-admissions/international-admissions/international-undergraduate-students",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "unknown"
+    ],
+    "afterPolicy": [
+      "unknown"
+    ],
+    "remaining": "Need a current explicit international-first-year SAT/ACT policy, programme prerequisites and clarification of the overlapping IELTS 6.5 ELL/exemption boundary."
+  },
+  "grand-valley-state-university": {
+    "id": "grand-valley-state-university",
+    "country": "us",
+    "status": "testing-obligation-unresolved",
+    "academicEntry": "The international undergraduate process requires official academic transcripts from the issuing school, with official English translation where necessary; West African applicants have a separate WAEC verification process. SAT Reading/Writing and ACT English are listed as language-proof alternatives, not a universal academic-test requirement. The separate general application wording limits its no-SAT statement to domestic undergraduates.",
+    "source": "https://www.gvsu.edu/admissions/international-application-14",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "unknown"
+    ],
+    "afterPolicy": [
+      "unknown"
+    ],
+    "remaining": "Need an explicit current academic-test obligation/waiver for international freshmen, plus chosen-degree school subject requirements; the domestic no-SAT statement is not generalised."
+  },
+  "towson-university": {
+    "id": "towson-university",
+    "country": "us",
+    "status": "resolved-scoped",
+    "academicEntry": "Freshman applicants submit official high-school transcripts; early school graduation additionally needs a school official’s completion plan. SAT/ACT are explicitly optional for admissions review. Schooling outside the US may separately require English proof. The page names 2027 freshman deadlines; programme/qualification-specific additional requirements still apply.",
+    "source": "https://www.towson.edu/admissions/undergrad/freshmen/",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "unknown"
+    ],
+    "afterPolicy": [
+      "optional"
+    ],
+    "remaining": "Selected programme prerequisites, school-qualification equivalence and English waiver applicability require individual checking."
+  },
+  "elmhurst-university": {
+    "id": "elmhurst-university",
+    "country": "us",
+    "status": "resolved-scoped",
+    "academicEntry": "First-year academic review considers secondary grade trends, curriculum rigour and preparation in the intended major. Applicants explicitly choose test-optional or score-submitting review, with the same scholarship opportunities. International F-1 applicants separately submit English proof; a language SAT alternative does not create an independently mandatory academic SAT.",
+    "source": "https://www.elmhurst.edu/admission/first-year-students/admission-requirements/",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "unknown"
+    ],
+    "afterPolicy": [
+      "optional"
+    ],
+    "remaining": "Exact school-diploma equivalence and degree prerequisites remain unassessed; listed language-waiver categories require the applicant to satisfy their stated conditions."
+  },
+  "valparaiso-university": {
+    "id": "valparaiso-university",
+    "country": "us",
+    "status": "resolved-scoped",
+    "academicEntry": "The undergraduate application page explicitly offers test-optional first-year review, including a Fall 2027 application route. International applicants separately provide secondary records and acceptable English proof. Optional SAT/ACT for admission does not waive English evidence or establish equivalence of every foreign secondary diploma.",
+    "source": "https://www.valpo.edu/admission/apply/",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "unknown"
+    ],
+    "afterPolicy": [
+      "optional"
+    ],
+    "remaining": "The chosen programme and school credential need individual assessment; international English proof and waivers remain independent."
+  },
+  "university-of-texas-at-dallas": {
+    "id": "university-of-texas-at-dallas",
+    "country": "us",
+    "status": "source-unavailable",
+    "source": "https://enroll.utdallas.edu/freshman/application-process/",
+    "checked": "2026-11-19",
+    "change": "Bounded attempts made on official freshman page and alternative catalogue; no new academic policy inferred from snippets.",
+    "remaining": "Need readable current freshman academic admission/checklist and international credential rules for Fall 2027. The enrollment page returned 502 and the alternative 2026 catalogue route was unavailable; indexed optional wording alone was not treated as verified content.",
+    "contentReviewed": false
   }
 }

@@ -375,7 +375,8 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "The international checklist does not state a SAT/ACT policy; omission is not treated as test-optional."
+        "note": "The international checklist does not state a SAT/ACT policy; omission is not treated as test-optional.",
+        "entryRequirements": "International first-year applicants provide school records with English translations and at least one academic recommendation. The published language bands concern ELL support/exemption and do not themselves settle academic testing. The international checklist does not explicitly state whether SAT/ACT can be omitted."
       },
       "localLanguage": [],
       "documents": [
@@ -384,9 +385,9 @@ window.UNIPATH.admissionRequirements = {
       "sources": [
         {
           "url": "https://www.elmira.edu/admissions/undergraduate-admissions/international-admissions/international-undergraduate-students",
-          "label": "Elmira international undergraduate requirements",
-          "verified": "2026-11-18",
-          "access": "web-html-read"
+          "label": "Elmira: international first-year academic checklist",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -1500,7 +1501,8 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "Academic SAT/ACT rules for all international school qualifications were not established. A US-curriculum rule is not applied to every international applicant."
+        "note": "Academic SAT/ACT rules for all international school qualifications were not established. A US-curriculum rule is not applied to every international applicant.",
+        "entryRequirements": "Admission depends on both the school credential and programme subjects. The American-curriculum route lists a High School Diploma with B average or better; the full IB diploma requires at least 24 points and three Higher Level subjects. British-pattern qualifications require five distinct subjects including two A Levels, or the specified four-AS combination, at C or better. These are curriculum-specific examples, not universal GPA or SAT rules."
       },
       "localLanguage": [],
       "documents": [],
@@ -1509,6 +1511,12 @@ window.UNIPATH.admissionRequirements = {
           "url": "https://laurentian.ca/academics/admissions/language-requirements",
           "label": "Laurentian English and French language requirements",
           "verified": "2026-11-18",
+          "access": "html-read"
+        },
+        {
+          "url": "https://laurentian.ca/academics/admissions/international/undergraduate-admissions",
+          "label": "Laurentian: international academic credentials",
+          "verified": "2026-11-19",
           "access": "html-read"
         }
       ],
@@ -1532,7 +1540,8 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "Academic SAT/ACT rules for all international school qualifications were not established. A US-curriculum rule is not applied to every international applicant."
+        "note": "Academic SAT/ACT rules for all international school qualifications were not established. A US-curriculum rule is not applied to every international applicant.",
+        "entryRequirements": "Admission depends on both the school credential and programme subjects. The American-curriculum route lists a High School Diploma with B average or better; the full IB diploma requires at least 24 points and three Higher Level subjects. British-pattern qualifications require five distinct subjects including two A Levels, or the specified four-AS combination, at C or better. These are curriculum-specific examples, not universal GPA or SAT rules."
       },
       "localLanguage": [
         {
@@ -1546,6 +1555,12 @@ window.UNIPATH.admissionRequirements = {
           "url": "https://laurentian.ca/academics/admissions/language-requirements",
           "label": "Laurentian English and French language requirements",
           "verified": "2026-11-18",
+          "access": "html-read"
+        },
+        {
+          "url": "https://laurentian.ca/academics/admissions/international/undergraduate-admissions",
+          "label": "Laurentian: international academic credentials",
+          "verified": "2026-11-19",
           "access": "html-read"
         }
       ],
@@ -1571,7 +1586,8 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "Academic SAT/ACT rules for all international school qualifications were not established. A US-curriculum rule is not applied to every international applicant."
+        "note": "Academic SAT/ACT rules for all international school qualifications were not established. A US-curriculum rule is not applied to every international applicant.",
+        "entryRequirements": "Foreign qualifications may lead to direct degree admission, an Année préparatoire, or the first year of a participating four-year bachelor. The route depends on the recognised country/diploma equivalence and programme prerequisites. French baccalaureate and full IB applicants may be directly eligible subject to programme rules; preparatory eligibility is not direct bachelor admission."
       },
       "localLanguage": [
         {
@@ -1586,6 +1602,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "UdeM French admission requirement since Winter 2026",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://admission.umontreal.ca/admission/preparation-de-la-demande/verifier-les-conditions-dadmissibilite/",
+          "label": "UdeM: diploma equivalence and preparatory versus direct routes",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -1610,7 +1632,8 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "Academic SAT/ACT rules for all international school qualifications were not established. A US-curriculum rule is not applied to every international applicant."
+        "note": "Academic SAT/ACT rules for all international school qualifications were not established. A US-curriculum rule is not applied to every international applicant.",
+        "entryRequirements": "International bachelor admission normally requires a diploma equivalent to the Quebec DEC after 13 years of education. A 12-year pre-university diploma normally leads to a 30-credit qualifying year. French/IB/Belgian qualifications have named direct-entry exceptions and some faculties still require preparation, including Science and Engineering. Programme prerequisites and selective admission remain separate."
       },
       "localLanguage": [
         {
@@ -1625,6 +1648,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Laval French proficiency policy",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.ulaval.ca/en/admission/prepare-your-application/admission-requirements-for-each-type-of-applicant",
+          "label": "Laval: international diploma and qualifying-year requirements",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -1649,7 +1678,8 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "Academic SAT/ACT rules for all international school qualifications were not established. A US-curriculum rule is not applied to every international applicant."
+        "note": "Academic SAT/ACT rules for all international school qualifications were not established. A US-curriculum rule is not applied to every international applicant.",
+        "entryRequirements": "The outside-Quebec route normally requires an appropriate diploma after at least 13 years of schooling or equivalent. Certain four-year bachelor pathways accept a terminal secondary diploma after 12 years. Prior university study is a different basis; programme descriptions determine prerequisites. French proof does not itself establish academic eligibility."
       },
       "localLanguage": [
         {
@@ -1664,6 +1694,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "UQAM recognised French tests for undergraduate admission",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://etudier.uqam.ca/bases-admissibilite",
+          "label": "UQAM: undergraduate admission bases",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -3556,7 +3592,8 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "accepted",
-        "note": "Faculty Handbook 3.3.3(c): SAT can support borderline US Grade 12 diploma applications. This establishes SAT acceptance in that scope, not an ACT alternative, a universal test-optional rule or a Fall 2027 requirement."
+        "note": "Faculty Handbook 3.3.3(c): SAT can support borderline US Grade 12 diploma applications. This establishes SAT acceptance in that scope, not an ACT alternative, a universal test-optional rule or a Fall 2027 requirement.",
+        "entryRequirements": "Qualifications outside Ontario are evaluated against recognised equivalent certificates and the chosen programme prerequisites. The Handbook accepts a US Grade 12 diploma and says SAT may help borderline US cases. The British route uses five GCE/GCSE/IGCSE subjects including two A Levels, with the stated four-AS alternative. All official records must show subject grades; the US SAT statement is not applied to other school systems."
       },
       "localLanguage": [],
       "documents": [],
@@ -3569,9 +3606,9 @@ window.UNIPATH.admissionRequirements = {
         },
         {
           "url": "https://brocku.ca/university-secretariat/faculty-handbook/section-3/",
-          "label": "Brock Faculty Handbook 3.3.3(c): US diploma and SAT",
-          "verified": "2026-11-18",
-          "access": "web-html-read"
+          "label": "Brock: equivalent secondary certificates and US borderline SAT scope",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -3608,7 +3645,8 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "accepted",
-        "note": "Faculty Handbook 3.3.3(c): SAT can support borderline US Grade 12 diploma applications. This establishes SAT acceptance in that scope, not an ACT alternative, a universal test-optional rule or a Fall 2027 requirement."
+        "note": "Faculty Handbook 3.3.3(c): SAT can support borderline US Grade 12 diploma applications. This establishes SAT acceptance in that scope, not an ACT alternative, a universal test-optional rule or a Fall 2027 requirement.",
+        "entryRequirements": "Qualifications outside Ontario are evaluated against recognised equivalent certificates and the chosen programme prerequisites. The Handbook accepts a US Grade 12 diploma and says SAT may help borderline US cases. The British route uses five GCE/GCSE/IGCSE subjects including two A Levels, with the stated four-AS alternative. All official records must show subject grades; the US SAT statement is not applied to other school systems."
       },
       "localLanguage": [],
       "documents": [],
@@ -3621,9 +3659,9 @@ window.UNIPATH.admissionRequirements = {
         },
         {
           "url": "https://brocku.ca/university-secretariat/faculty-handbook/section-3/",
-          "label": "Brock Faculty Handbook 3.3.3(c): US diploma and SAT",
-          "verified": "2026-11-18",
-          "access": "web-html-read"
+          "label": "Brock: equivalent secondary certificates and US borderline SAT scope",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -3688,7 +3726,8 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "The applicable SAT/ACT policy for the applicant’s school qualification remains unconfirmed. Language-test alternatives do not establish an academic-test waiver."
+        "note": "The applicable SAT/ACT policy for the applicant’s school qualification remains unconfirmed. Language-test alternatives do not establish an academic-test waiver.",
+        "entryRequirements": "Country-specific secondary credentials and all official school/postsecondary transcripts are required; non-English records need a certified English translation. The credential chart lists the US High School Diploma transcript and, for Uzbekistan, the completed upper-secondary certificate with exams and grades. Programme subjects and competitive/general averages must also be met; a listed document alone does not guarantee direct entry."
       },
       "localLanguage": [],
       "documents": [],
@@ -3698,6 +3737,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Mount Royal institutional undergraduate English proficiency",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.mtroyal.ca/Admission/InternationalCredentials/",
+          "label": "Mount Royal: international secondary credentials",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -3761,16 +3806,23 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "The applicable SAT/ACT policy for the applicant’s school qualification remains unconfirmed. Language-test alternatives do not establish an academic-test waiver."
+        "note": "The applicable SAT/ACT policy for the applicant’s school qualification remains unconfirmed. Language-test alternatives do not establish an academic-test waiver.",
+        "entryRequirements": "Academic conditions depend on school system and intended degree. The country guide lists the Uzbekistan Attestat with 4/5; this is not a universal rule for every country. The American page asks for Grade 12 English, at least four additional Grade 12 preparatory courses and overall B, with degree-specific subjects such as mathematics for Business. SAT/ACT obligation is not inferred from its absence on these pages."
       },
       "localLanguage": [],
       "documents": [],
       "sources": [
         {
           "url": "https://www2.acadiau.ca/admissions/application-process/international-students.html",
-          "label": "Acadia international undergraduate English requirements",
-          "verified": "2026-11-18",
-          "access": "web-html-read"
+          "label": "Acadia: country-specific secondary qualifications",
+          "verified": "2026-11-19",
+          "access": "html-read"
+        },
+        {
+          "url": "https://www2.acadiau.ca/admissions/application-process/american-students.html",
+          "label": "Acadia: American Grade 12 preparation",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -3825,7 +3877,8 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "The applicable SAT/ACT policy for the applicant’s school qualification remains unconfirmed. Language-test alternatives do not establish an academic-test waiver."
+        "note": "The applicable SAT/ACT policy for the applicant’s school qualification remains unconfirmed. Language-test alternatives do not establish an academic-test waiver.",
+        "entryRequirements": "Eligibility depends on the completed school curriculum and programme prerequisites. In the American high-school route, applicants complete Grade 12, normally reach at least 75% and pass the chosen programme prerequisites. That route requests grades from the last school years and certified translations where needed. Its threshold is not assigned to IB, GCE, French lycée or every international diploma."
       },
       "localLanguage": [],
       "documents": [],
@@ -3835,6 +3888,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Ottawa English/French undergraduate language routes",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.uottawa.ca/study/undergraduate-studies/international-applicants/usa",
+          "label": "Ottawa: American-school qualification scope",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -3864,7 +3923,8 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "The applicable SAT/ACT policy for the applicant’s school qualification remains unconfirmed. Language-test alternatives do not establish an academic-test waiver."
+        "note": "The applicable SAT/ACT policy for the applicant’s school qualification remains unconfirmed. Language-test alternatives do not establish an academic-test waiver.",
+        "entryRequirements": "Eligibility depends on the completed school curriculum and programme prerequisites. In the American high-school route, applicants complete Grade 12, normally reach at least 75% and pass the chosen programme prerequisites. That route requests grades from the last school years and certified translations where needed. Its threshold is not assigned to IB, GCE, French lycée or every international diploma."
       },
       "localLanguage": [],
       "documents": [],
@@ -3874,6 +3934,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Ottawa English/French undergraduate language routes",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.uottawa.ca/study/undergraduate-studies/international-applicants/usa",
+          "label": "Ottawa: American-school qualification scope",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": "The 6.0 category requires extra English courses; it does not meet the 6.5 overall/Writing unconditional rule. Other EIP preparatory categories have separate band conditions."
@@ -3894,7 +3960,8 @@ window.UNIPATH.admissionRequirements = {
       "english": {},
       "academic": {
         "satPolicy": "unknown",
-        "note": "The applicable SAT/ACT policy for the applicant’s school qualification remains unconfirmed. Language-test alternatives do not establish an academic-test waiver."
+        "note": "The applicable SAT/ACT policy for the applicant’s school qualification remains unconfirmed. Language-test alternatives do not establish an academic-test waiver.",
+        "entryRequirements": "Eligibility depends on the completed school curriculum and programme prerequisites. In the American high-school route, applicants complete Grade 12, normally reach at least 75% and pass the chosen programme prerequisites. That route requests grades from the last school years and certified translations where needed. Its threshold is not assigned to IB, GCE, French lycée or every international diploma."
       },
       "localLanguage": [
         {
@@ -3909,6 +3976,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Ottawa English/French undergraduate language routes",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.uottawa.ca/study/undergraduate-studies/international-applicants/usa",
+          "label": "Ottawa: American-school qualification scope",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -3933,7 +4006,8 @@ window.UNIPATH.admissionRequirements = {
       "english": {},
       "academic": {
         "satPolicy": "unknown",
-        "note": "The applicable SAT/ACT policy for the applicant’s school qualification remains unconfirmed. Language-test alternatives do not establish an academic-test waiver."
+        "note": "The applicable SAT/ACT policy for the applicant’s school qualification remains unconfirmed. Language-test alternatives do not establish an academic-test waiver.",
+        "entryRequirements": "For the engineering route reviewed here, foreign/other-Canadian qualifications that do not meet direct bachelor entry may require a preparatory year on the Sherbrooke campus to meet engineering accreditation requirements. Applicants apply to the intended engineering bachelor so the file can be assessed. This is not unconditional direct admission after any school diploma."
       },
       "localLanguage": [
         {
@@ -3948,6 +4022,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Sherbrooke programme-specific French admission table",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.usherbrooke.ca/admission/da/planifier-demande/infos-candidats-hors-quebec",
+          "label": "Sherbrooke: engineering preparatory versus direct entry",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -3970,7 +4050,8 @@ window.UNIPATH.admissionRequirements = {
       "english": {},
       "academic": {
         "satPolicy": "unknown",
-        "note": "The applicable SAT/ACT policy for the applicant’s school qualification remains unconfirmed. Language-test alternatives do not establish an academic-test waiver."
+        "note": "The applicable SAT/ACT policy for the applicant’s school qualification remains unconfirmed. Language-test alternatives do not establish an academic-test waiver.",
+        "entryRequirements": "The current Conditions page requires a secondary diploma, five eligible programme subjects and a minimum average of 70% across those five. The 2026–27 prospectus instead prints a 65% general threshold and says non-listed school systems need an equivalence decision. Do not treat the older 65% or Canadian course codes as confirmed international eligibility for Fall 2027."
       },
       "localLanguage": [
         {
@@ -3991,6 +4072,23 @@ window.UNIPATH.admissionRequirements = {
             7,
             16
           ]
+        },
+        {
+          "url": "https://www.umoncton.ca/conditions",
+          "label": "Moncton: current five-subject requirements and earlier prospectus",
+          "verified": "2026-11-19",
+          "access": "html-read"
+        },
+        {
+          "url": "https://www.umoncton.ca/sites/choisir.prod.umoncton.ca/files/guidesetudiants/uMoncton-Renseignements-generaux-2026.pdf",
+          "label": "Moncton: 2026–27 prospectus academic conditions",
+          "verified": "2026-11-19",
+          "access": "pdf-read",
+          "pages": [
+            16,
+            17
+          ],
+          "quote": "avoir une moyenne minimale de 65 %"
         }
       ],
       "note": null
@@ -7109,7 +7207,9 @@ window.UNIPATH.admissionRequirements = {
         "waiver": "At least three years of education in a listed country; starred countries additionally require an English-language school system. This is not a universal school-MOI waiver."
       },
       "academic": {
-        "satPolicy": "unknown"
+        "satPolicy": "optional",
+        "entryRequirements": "Freshman applicants submit official high-school transcripts; early school graduation additionally needs a school official’s completion plan. SAT/ACT are explicitly optional for admissions review. Schooling outside the US may separately require English proof. The page names 2027 freshman deadlines; programme/qualification-specific additional requirements still apply.",
+        "note": null
       },
       "localLanguage": [],
       "documents": [],
@@ -7119,6 +7219,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Towson undergraduate English table and exemptions",
           "verified": "2026-11-19",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.towson.edu/admissions/undergrad/freshmen/",
+          "label": "Towson: freshman academic requirements and optional tests",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -7487,16 +7593,17 @@ window.UNIPATH.admissionRequirements = {
         "alternatives": "DET 105, PTE 53, Cambridge C1/C2 180, MET 52; SAT EBRW 470 or ACT English 15 are English alternatives. TOEFL Home accepted; MyBest/Essentials not accepted."
       },
       "academic": {
-        "satPolicy": "unknown"
+        "satPolicy": "unknown",
+        "entryRequirements": "The international undergraduate process requires official academic transcripts from the issuing school, with official English translation where necessary; West African applicants have a separate WAEC verification process. SAT Reading/Writing and ACT English are listed as language-proof alternatives, not a universal academic-test requirement. The separate general application wording limits its no-SAT statement to domestic undergraduates."
       },
       "localLanguage": [],
       "documents": [],
       "sources": [
         {
           "url": "https://www.gvsu.edu/admissions/international-application-14",
-          "label": "GVSU undergraduate application language section",
+          "label": "GVSU: international undergraduate academic records",
           "verified": "2026-11-19",
-          "access": "web-html-read"
+          "access": "html-read"
         }
       ],
       "note": null
@@ -7540,7 +7647,9 @@ window.UNIPATH.admissionRequirements = {
         "waiver": "The country option requires both citizenship and high-school attendance in a listed country, not citizenship alone."
       },
       "academic": {
-        "satPolicy": "unknown"
+        "satPolicy": "optional",
+        "entryRequirements": "First-year academic review considers secondary grade trends, curriculum rigour and preparation in the intended major. Applicants explicitly choose test-optional or score-submitting review, with the same scholarship opportunities. International F-1 applicants separately submit English proof; a language SAT alternative does not create an independently mandatory academic SAT.",
+        "note": null
       },
       "localLanguage": [],
       "documents": [],
@@ -7550,6 +7659,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Elmhurst international first-year English alternatives",
           "verified": "2026-11-19",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.elmhurst.edu/admission/first-year-students/admission-requirements/",
+          "label": "Elmhurst: first-year academic review options",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -7747,7 +7862,9 @@ window.UNIPATH.admissionRequirements = {
         "waiver": "Two consecutive US high-school years plus graduation, specified college credits or listed permanent-residence countries may qualify. Admissions may still require a test."
       },
       "academic": {
-        "satPolicy": "unknown"
+        "satPolicy": "optional",
+        "entryRequirements": "The undergraduate application page explicitly offers test-optional first-year review, including a Fall 2027 application route. International applicants separately provide secondary records and acceptable English proof. Optional SAT/ACT for admission does not waive English evidence or establish equivalence of every foreign secondary diploma.",
+        "note": null
       },
       "localLanguage": [],
       "documents": [],
@@ -7757,6 +7874,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Valpo international undergraduate language alternatives",
           "verified": "2026-11-19",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.valpo.edu/admission/apply/",
+          "label": "Valparaiso: undergraduate first-year application and test-optional rule",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
