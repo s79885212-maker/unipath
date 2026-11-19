@@ -99,15 +99,21 @@ window.UNIPATH.admissionRequirements = {
       "english": {
         "requirement": "required-unless-exempt",
         "ielts": {
-          "accepted": null,
-          "min": null,
+          "accepted": true,
+          "min": 6.5,
           "role": "admission"
         },
         "toefl": {
-          "accepted": null,
-          "min": null
+          "accepted": true,
+          "scales": [
+            {
+              "period": "legacy",
+              "min": 80
+            }
+          ]
         },
-        "alternatives": "The international admissions office also names Duolingo. Undergraduate cut-offs and waiver conditions were not established from the accessible undergraduate pages; graduate rules were not reused."
+        "waiver": "The Provost procedure permits proof through citizenship of a country with English as an official language, a degree at a regionally accredited US institution, or a degree taught in English in a country whose official national language is English. Exceptions need Provost approval.",
+        "note": "The active Provost procedure publishes baseline IELTS 6.5 and legacy TOEFL iBT 80. Below IELTS 7.0 / TOEFL 100, admitted undergraduates take an additional English placement test. Schools may require higher scores: Nursing policy revised August 2025 states IELTS 7.5, Speaking 7 and other sections 6. These are not universal thresholds. The procedure has a 2010 revision date and no named 2027 intake."
       },
       "academic": {
         "satPolicy": "optional",
@@ -137,6 +143,18 @@ window.UNIPATH.admissionRequirements = {
           "label": "Pitt undergraduate international admissions",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.provost.pitt.edu/assessment-english-language-proficiency-procedure",
+          "label": "Pittsburgh: undergraduate scope of Provost language procedure",
+          "verified": "2026-11-19",
+          "access": "html-read"
+        },
+        {
+          "url": "https://www.nursing.pitt.edu/policies/365/",
+          "label": "Pittsburgh Nursing: programme-specific language exception",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -756,7 +774,8 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "conflict",
-        "note": "Current undergraduate admissions explicitly says test-optional, but the 2026–27 catalogue states SAT/ACT required. Confirm the applicable Fall 2027 rule; neither source establishes an unambiguous cycle-specific requirement."
+        "note": null,
+        "entryRequirements": "Secondary completion and all school/college transcripts are required. Admissions Test Scores says SAT/ACT optional, including direct-admit international applicants; the active academic catalogue still says freshmen must submit them. Neither source establishes which rule governs Fall 2027."
       },
       "localLanguage": [],
       "documents": [],
@@ -775,8 +794,8 @@ window.UNIPATH.admissionRequirements = {
         },
         {
           "url": "https://catalog.pacific.edu/uop/generalinformation/admissionrequirements/",
-          "label": "Pacific 2026–27 catalogue admission requirements",
-          "verified": "2026-11-18",
+          "label": "Pacific: academic catalogue freshman checklist",
+          "verified": "2026-11-19",
           "access": "html-read"
         }
       ],
@@ -822,8 +841,9 @@ window.UNIPATH.admissionRequirements = {
         "waiver": "A waiver request is reviewed for English education/residence conditions; it is not granted to all international applicants."
       },
       "academic": {
-        "satPolicy": "unknown",
-        "note": "SAT/ACT listed as English proof does not establish an academic SAT/ACT requirement. Published enrolled-score ranges are not admission cutoffs."
+        "satPolicy": "conditional",
+        "note": null,
+        "entryRequirements": "International applicants submit translated detailed secondary records, a recommendation, essay and financial certification. The catalogue specifically allows non-native English speakers to submit TOEFL, IELTS or Duolingo instead of SAT; its general testing paragraph retains an international-test exception. A separate mandatory SAT is not inferred for applicants using the named language-test alternative."
       },
       "localLanguage": [],
       "documents": [],
@@ -832,6 +852,12 @@ window.UNIPATH.admissionRequirements = {
           "url": "https://www.saintmarys.edu/admission-aid/first-year-students/international-students/international-requirements",
           "label": "Saint Mary’s Indiana international requirements",
           "verified": "2026-11-18",
+          "access": "html-read"
+        },
+        {
+          "url": "https://catalog.saintmarys.edu/undergraduate/admission/",
+          "label": "Saint Mary’s Indiana: international checklist and testing exceptions",
+          "verified": "2026-11-19",
           "access": "html-read"
         }
       ],
@@ -979,16 +1005,17 @@ window.UNIPATH.admissionRequirements = {
         "waiver": "US accredited English composition with grade C or higher; SAT verbal 530 can also waive English proof. Confirm modern SAT equivalence."
       },
       "academic": {
-        "satPolicy": "unknown",
-        "note": "This international page highly recommends SAT/ACT for specified applicants; it does not establish a Fall 2027 required/optional policy. A language-waiver SAT score is not an academic admission minimum."
+        "satPolicy": "accepted",
+        "note": null,
+        "entryRequirements": "International freshmen submit secondary transcripts, graduation diplomas and official English translations directly to CUNY; this checklist says external evaluations are not required. It strongly recommends SAT/ACT for non-English-country applicants or those without school Math/English; a recommendation is not a mandatory test rule."
       },
       "localLanguage": [],
       "documents": [],
       "sources": [
         {
           "url": "https://www.jjay.cuny.edu/admissions/undergraduate-admissions/apply/international-student-application",
-          "label": "John Jay international application requirements",
-          "verified": "2026-11-18",
+          "label": "John Jay: international freshman academic documents",
+          "verified": "2026-11-19",
           "access": "html-read"
         }
       ],
@@ -3065,8 +3092,9 @@ window.UNIPATH.admissionRequirements = {
         "alternatives": "Duolingo 115 with minimum band 100; PTE 56. These are full-admission requirements; a universal waiver was not established."
       },
       "academic": {
-        "satPolicy": "unknown",
-        "note": "The international document checklist does not state a SAT/ACT rule. This omission is not treated as proof of optional admission."
+        "satPolicy": "optional",
+        "note": null,
+        "entryRequirements": "Official secondary records are required. Pre-calculus or higher, Physics and Chemistry form the recommended preparation; 3.2 cumulative GPA is recommended, not an automatic eligibility guarantee. SAT/ACT are optional initially, but available scores may be requested after academic review."
       },
       "localLanguage": [],
       "documents": [
@@ -3077,6 +3105,12 @@ window.UNIPATH.admissionRequirements = {
           "url": "https://www.msoe.edu/admissions-aid/international-admissions/future-international-students/undergraduate-students/requirements/",
           "label": "MSOE international undergraduate requirements",
           "verified": "2026-11-18",
+          "access": "html-read"
+        },
+        {
+          "url": "https://www.msoe.edu/admissions-aid/undergraduate-admissions/undergraduate-admission-requirements/",
+          "label": "MSOE: preparation and test-optional first-year review",
+          "verified": "2026-11-19",
           "access": "html-read"
         }
       ],
@@ -4171,7 +4205,8 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "conflict",
-        "note": "The Admissions first-year checklist says SAT/ACT optional except specialty programmes. The Global Engagement page also requests them from English-speaking-country applicants. Both official scopes remain visible; no universal optional or required claim is made."
+        "note": null,
+        "entryRequirements": "Secondary completion, translated records and qualification evaluation are required. Admissions permits test-optional outside Accelerated Medical, Pharmacy and Nursing. Global Engagement additionally requires SAT/ACT for applicants from English-speaking educational countries. The overlapping applicant scope remains contradictory."
       },
       "localLanguage": [],
       "documents": [],
@@ -4186,6 +4221,12 @@ window.UNIPATH.admissionRequirements = {
           "url": "https://stockton.edu/global-engagement/international/freshman-students.html",
           "label": "Stockton Global Engagement first-year checklist",
           "verified": "2026-11-18",
+          "access": "html-read"
+        },
+        {
+          "url": "https://stockton.edu/admissions/test-optional.html",
+          "label": "Stockton: test-optional programme exceptions",
+          "verified": "2026-11-19",
           "access": "html-read"
         }
       ],
@@ -4226,8 +4267,9 @@ window.UNIPATH.admissionRequirements = {
         "waiver": "Four years of US high school, one US university year, GCSE English A/B or IB Higher Level English 5 may qualify; English-medium college study is assessed individually."
       },
       "academic": {
-        "satPolicy": "unknown",
-        "note": "The reviewed English-proof alternatives do not establish the academic SAT/ACT policy for every programme and qualification."
+        "satPolicy": "optional",
+        "note": null,
+        "entryRequirements": "First-year applicants submit an official secondary transcript, recommendation and essay. SAT/ACT are explicitly optional; academic record and chosen-programme preparation remain part of holistic review. English-proof alternatives on the international page are a separate requirement."
       },
       "localLanguage": [],
       "documents": [],
@@ -4236,6 +4278,12 @@ window.UNIPATH.admissionRequirements = {
           "url": "https://manhattan.edu/admissions/international/requirements",
           "label": "Manhattan international undergraduate requirements",
           "verified": "2026-11-18",
+          "access": "html-read"
+        },
+        {
+          "url": "https://manhattan.edu/admissions/undergraduate/requirements",
+          "label": "Manhattan: first-year academic application requirements",
+          "verified": "2026-11-19",
           "access": "html-read"
         }
       ],
@@ -6107,7 +6155,8 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "optional",
-        "note": "The first-year checklist explicitly makes SAT/ACT optional and considers submitted scores only if they benefit the applicant. This does not establish a language-test exemption."
+        "note": null,
+        "entryRequirements": "First-year checklist: application, essay, one academic recommendation and official secondary transcript. SAT/ACT are explicitly optional on the current undergraduate application page. The international page puts IELTS 6.5 under graduate admission, so it is not copied to this bachelor route."
       },
       "localLanguage": [],
       "documents": [
@@ -6116,9 +6165,9 @@ window.UNIPATH.admissionRequirements = {
       "sources": [
         {
           "url": "https://www.lemoyne.edu/admission-financial-aid/apply/",
-          "label": "Le Moyne first-year application requirements",
-          "verified": "2026-11-18",
-          "access": "web-html-read"
+          "label": "Le Moyne: first-year required and optional materials",
+          "verified": "2026-11-19",
+          "access": "html-read"
         },
         {
           "url": "https://www.lemoyne.edu/admission-financial-aid/international-admission/",
@@ -6145,23 +6194,26 @@ window.UNIPATH.admissionRequirements = {
         "status": "year-not-stated"
       },
       "english": {
+        "requirement": "alternatives-with-academic",
         "ielts": {
-          "accepted": null
+          "accepted": null,
+          "min": null
         },
-        "note": "For fewer than 60 college credits, the page says English proof is met through the ACT/SAT admission requirements in Regulation 3.042. Its IELTS 6.0/TOEFL 79 or 4.5 table is specifically an alternative for 60+ credit transfers and is not assigned as a first-year route. Listed country exemptions still need individual assessment."
+        "note": "For international freshmen (0–11 college credits), the admissions page says English proficiency is met by ACT or SAT admission-test requirements. Its IELTS 6.0 / TOEFL table is for transfer applicants with 60+ credits, not a verified freshman IELTS alternative. Regulation 3.042 lists broader English-proof options; their application to an individual freshman must be confirmed."
       },
       "academic": {
         "satPolicy": "required-alternatives",
-        "note": "Freshman applicants submit SAT, ACT or CLT and must meet the admission regulations. College-course substitution belongs to the separately specified transfer categories. The exact regulatory subscore thresholds still require verification."
+        "note": null,
+        "entryRequirements": "Freshmen submit secondary records and credential evaluation. SAT, ACT or CLT admission-score rules apply; the page links Regulations 3.001 and 3.042. An English-test table for 60+ transfer credits is not a freshman admission route."
       },
       "localLanguage": [],
       "documents": [],
       "sources": [
         {
           "url": "https://uwf.edu/admissions/undergraduate/apply/international/requirements/",
-          "label": "UWF international first-year versus transfer requirement matrix",
-          "verified": "2026-11-18",
-          "access": "web-html-read"
+          "label": "UWF: international undergraduate requirements by credit category",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null

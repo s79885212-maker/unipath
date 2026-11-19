@@ -1,0 +1,139 @@
+{
+  "university-of-pittsburgh": {
+    "id": "university-of-pittsburgh",
+    "country": "us",
+    "status": "language-baseline-established",
+    "source": "https://www.provost.pitt.edu/assessment-english-language-proficiency-procedure",
+    "checked": "2026-11-19",
+    "change": "Established undergraduate English proof, baseline and placement distinction; Nursing exception stays school-specific.",
+    "remaining": "Current school-specific and Fall 2027 language rules, IELTS variant/sections for the general route and new TOEFL scale remain unestablished."
+  },
+  "university-of-west-florida": {
+    "id": "university-of-west-florida",
+    "country": "us",
+    "status": "resolved-scoped",
+    "academicEntry": "Freshmen submit secondary records and credential evaluation. SAT, ACT or CLT admission-score rules apply; the page links Regulations 3.001 and 3.042. An English-test table for 60+ transfer credits is not a freshman admission route.",
+    "source": "https://uwf.edu/admissions/undergraduate/apply/international/requirements/",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "required-alternatives"
+    ],
+    "afterPolicy": [
+      "required-alternatives"
+    ],
+    "remaining": "Exact current admission-test section thresholds, any freshman IELTS-only exception and Fall 2027-specific revision remain to be established."
+  },
+  "le-moyne-college": {
+    "id": "le-moyne-college",
+    "country": "us",
+    "status": "language-open-academics-established",
+    "academicEntry": "First-year checklist: application, essay, one academic recommendation and official secondary transcript. SAT/ACT are explicitly optional on the current undergraduate application page. The international page puts IELTS 6.5 under graduate admission, so it is not copied to this bachelor route.",
+    "source": "https://www.lemoyne.edu/admission-financial-aid/apply/",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "optional"
+    ],
+    "afterPolicy": [
+      "optional"
+    ],
+    "remaining": "A current international undergraduate English-proof checklist, numerical minima, section rules and waiver conditions are still needed; graduate IELTS 6.5 is not evidence."
+  },
+  "university-of-the-pacific": {
+    "id": "university-of-the-pacific",
+    "country": "us",
+    "status": "conflict-retained",
+    "academicEntry": "Secondary completion and all school/college transcripts are required. Admissions Test Scores says SAT/ACT optional, including direct-admit international applicants; the active academic catalogue still says freshmen must submit them. Neither source establishes which rule governs Fall 2027.",
+    "source": "https://catalog.pacific.edu/uop/generalinformation/admissionrequirements/",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "conflict"
+    ],
+    "afterPolicy": [
+      "conflict"
+    ],
+    "remaining": "Admission must resolve the conflict between the catalogue and the Test Scores page for the selected programme/intake; no confirmed SAT waiver is used."
+  },
+  "stockton-university": {
+    "id": "stockton-university",
+    "country": "us",
+    "status": "conflict-retained",
+    "academicEntry": "Secondary completion, translated records and qualification evaluation are required. Admissions permits test-optional outside Accelerated Medical, Pharmacy and Nursing. Global Engagement additionally requires SAT/ACT for applicants from English-speaking educational countries. The overlapping applicant scope remains contradictory.",
+    "source": "https://stockton.edu/admissions/test-optional.html",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "conflict"
+    ],
+    "afterPolicy": [
+      "conflict"
+    ],
+    "remaining": "Admissions must clarify the English-speaking-applicant requirement versus test-optional and the exact chosen specialty. The undated pages do not explicitly confirm Fall 2027."
+  },
+  "saint-marys-college-indiana": {
+    "id": "saint-marys-college-indiana",
+    "country": "us",
+    "status": "resolved-scoped",
+    "academicEntry": "International applicants submit translated detailed secondary records, a recommendation, essay and financial certification. The catalogue specifically allows non-native English speakers to submit TOEFL, IELTS or Duolingo instead of SAT; its general testing paragraph retains an international-test exception. A separate mandatory SAT is not inferred for applicants using the named language-test alternative.",
+    "source": "https://catalog.saintmarys.edu/undergraduate/admission/",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "conditional"
+    ],
+    "afterPolicy": [
+      "conditional"
+    ],
+    "remaining": "The exact applicant language category, programme and selected-cycle requirements must be confirmed; catalogue and international-page score guidance are not universal admission cutoffs."
+  },
+  "john-jay-college": {
+    "id": "john-jay-college",
+    "country": "us",
+    "status": "resolved-scoped",
+    "academicEntry": "International freshmen submit secondary transcripts, graduation diplomas and official English translations directly to CUNY; this checklist says external evaluations are not required. It strongly recommends SAT/ACT for non-English-country applicants or those without school Math/English; a recommendation is not a mandatory test rule.",
+    "source": "https://www.jjay.cuny.edu/admissions/undergraduate-admissions/apply/international-student-application",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "accepted"
+    ],
+    "afterPolicy": [
+      "accepted"
+    ],
+    "remaining": "The exact Fall 2027 CUNY-wide score-consideration policy and programme-specific exceptions need the current CUNY applicant guide."
+  },
+  "milwaukee-school-of-engineering": {
+    "id": "milwaukee-school-of-engineering",
+    "country": "us",
+    "status": "resolved-scoped",
+    "academicEntry": "Official secondary records are required. Pre-calculus or higher, Physics and Chemistry form the recommended preparation; 3.2 cumulative GPA is recommended, not an automatic eligibility guarantee. SAT/ACT are optional initially, but available scores may be requested after academic review.",
+    "source": "https://www.msoe.edu/admissions-aid/undergraduate-admissions/undergraduate-admission-requirements/",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "optional"
+    ],
+    "afterPolicy": [
+      "optional"
+    ],
+    "remaining": "Exact programme prerequisites, any individual request for scores and the named Fall 2027 cycle remain applicant-specific."
+  },
+  "manhattan-university": {
+    "id": "manhattan-university",
+    "country": "us",
+    "status": "resolved-scoped",
+    "academicEntry": "First-year applicants submit an official secondary transcript, recommendation and essay. SAT/ACT are explicitly optional; academic record and chosen-programme preparation remain part of holistic review. English-proof alternatives on the international page are a separate requirement.",
+    "source": "https://manhattan.edu/admissions/undergraduate/requirements",
+    "checked": "2026-11-19",
+    "scope": "International first-year bachelor; programme/qualification exceptions remain explicit; an undated active page does not by itself confirm Fall 2027.",
+    "beforePolicy": [
+      "optional"
+    ],
+    "afterPolicy": [
+      "optional"
+    ],
+    "remaining": "Specific programme prerequisites and named Fall 2027 applicability remain to be confirmed; English waiver conditions require individual assessment."
+  }
+}

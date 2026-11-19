@@ -328,6 +328,8 @@ group('profile rendering');
   });
   ok(broken.length === 0, 'all ' + DB.universities.length + ' profiles render without an error', broken.slice(0, 4).join('; '));
   function page(id) { main.innerHTML = ''; P.renderProfile(U.uniById(id)); return main.innerHTML; }
+  var qualificationBlock=page('university-of-west-florida').split('id="academics"')[1].split('</section>')[0];
+  ok(qualificationBlock.includes('See the verified route-specific academic entry requirements above.') && !qualificationBlock.includes('International qualifications</dt>') && !qualificationBlock.includes('Other standardized tests</dt>'),'A reviewed academic-entry block replaces stale duplicate qualification/test placeholders in the profile');
   var disputedCovers=page('marquette-university').split('<div class="covers">')[1].split('</div>')[0];
   ok(U.fullRide(U.uniById('marquette-university')).covers.housing===true&&
      !/cover-yes/.test(disputedCovers)&&/\? Housing/.test(disputedCovers),

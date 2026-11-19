@@ -7,6 +7,12 @@ module.exports=function (env) {
   function evaluate(route,extra) {return U.requirements.evaluate({admissionRequirements:[route]},input(extra));}
   function level(r,l) {return r.checks.some(function (c) {return c.level === l;});}
   var r=evaluate(testRoute());
+  var qualification=evaluate(testRoute({academic:{satPolicy:'optional',entryRequirements:'School diploma and programme-specific mathematics required'}}),{ieltsSections:{reading:6,writing:6,listening:6,speaking:6}});
+  ok(qualification.unchecked.indexOf('School-leaving qualification, subjects and programme eligibility')>=0 && !level(qualification,'hard'),'Passing language minima and optional SAT do not certify uncollected school qualification or programme subjects');
+  var uwf=U.requirements.routes(U.uniById('university-of-west-florida'))[0];
+  ok(uwf.english.ielts.min===null && uwf.academic.satPolicy==='required-alternatives' && /60\+/.test(uwf.english.note),'UWF: IELTS 6.0 from the 60+ transfer-credit table is not a freshman cutoff');
+  var pit=U.requirements.routes(U.uniById('university-of-pittsburgh'))[0];
+  ok(pit.english.ielts.min===6.5 && /placement/.test(pit.english.note) && !U.requirements.confirmed(pit.english.applicability || pit.applicability,input()),'Pittsburgh: institutional baseline is separate from placement and is not silently dated Fall 2027');
   ok(M.scopeInput({studyLanguage:'fr',englishOnly:true}).englishOnly===false && M.scopeInput({studyLanguage:'en',englishOnly:true}).englishOnly===true,'Local-language selection clears the mutually contradictory English-only state');
   ok(!level(r,'hard') && r.unchecked.indexOf('IELTS section scores')>=0,'Route: sufficient overall never confirms missing sections');
   r=evaluate(testRoute(),{ieltsSections:{reading:6,writing:5.5,listening:6,speaking:6}});

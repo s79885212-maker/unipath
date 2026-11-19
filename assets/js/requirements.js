@@ -60,7 +60,7 @@
         text(requirement) + testHtml('IELTS',e.ielts) + testHtml('TOEFL',e.toefl) + text(e.alternatives) +
         (e.waiver ? '<h4>Waiver / exemption</h4>' + text(e.waiver) : '') + text(e.note) +
         (r.localLanguage || []).map(function (x) { return '<h4>' + esc(x.name) + '</h4>' + text(x.requirement) + text(x.note); }).join('') +
-        '<h3>Academic examinations for this route</h3><p><strong>' + esc(POLICY[a.satPolicy] || POLICY.unknown) + '</strong></p>' +
+        '<h3>Academic entry requirements for this route</h3>' + text(a.entryRequirements) + '<p><strong>' + esc(POLICY[a.satPolicy] || POLICY.unknown) + '</strong></p>' +
         '<p><span>Published scope</span>: <span>' + esc(scope(a.applicability || r.applicability)) + '</span></p>' + text(a.note) +
         (r.documents || []).map(text).join('') +
         '<ul class="requirements-sources">' + r.sources.map(function (s) { return '<li><a href="' + esc(s.url) + '" target="_blank" rel="noopener"><span>' + esc(s.label) + '</span> ↗</a> · <span>Checked</span> ' + esc(s.verified) + '</li>'; }).join('') + '</ul></div></article>';
@@ -77,6 +77,10 @@
     }
     var r=selected[0], e=r.english || {}, a=r.academic || {}, t=e.ielts || {};
     check('info',r.label); if (r.note) check('info',r.note);
+    if (a.entryRequirements) {
+      check('info',a.entryRequirements);
+      unchecked.push('School-leaving qualification, subjects and programme eligibility');
+    }
     if (r.programmeIds.length && !input.field) {
       check('info','The verified rule is programme-specific. Select the relevant field and confirm your exact course.');
       unchecked.push('Exact degree programme');
