@@ -7,6 +7,16 @@ module.exports=function (env) {
   function evaluate(route,extra) {return U.requirements.evaluate({admissionRequirements:[route]},input(extra));}
   function level(r,l) {return r.checks.some(function (c) {return c.level === l;});}
   var r=evaluate(testRoute());
+  var qualification=evaluate(testRoute({academic:{satPolicy:'optional',entryRequirements:'School diploma and programme-specific mathematics required'}}),{ieltsSections:{reading:6,writing:6,listening:6,speaking:6}});
+  ok(qualification.unchecked.indexOf('School-leaving qualification, subjects and programme eligibility')>=0 && !level(qualification,'hard'),'Passing language minima and optional SAT do not certify uncollected school qualification or programme subjects');
+  var uwf=U.requirements.routes(U.uniById('university-of-west-florida'))[0];
+  ok(uwf.english.ielts.min===null && uwf.academic.satPolicy==='required-alternatives' && /60\+/.test(uwf.english.note),'UWF: IELTS 6.0 from the 60+ transfer-credit table is not a freshman cutoff');
+  var pit=U.requirements.routes(U.uniById('university-of-pittsburgh'))[0];
+  ok(pit.english.ielts.min===6.5 && /placement/.test(pit.english.note) && !U.requirements.confirmed(pit.english.applicability || pit.applicability,input()),'Pittsburgh: institutional baseline is separate from placement and is not silently dated Fall 2027');
+  var cov=U.requirements.routes(U.uniById('coventry-university'))[0];
+  ok(cov.academic.applicability.status==='year-not-stated' && !U.requirements.confirmed(cov.academic.applicability,input()),'An undated country academic policy does not inherit the 2027 cycle from a programme language requirement');
+  var knu=U.requirements.routes(U.uniById('kyungpook-national-university')).filter(function (r) {return r.id==='korean-computing';})[0];
+  ok(knu.language==='unknown' && knu.localLanguage.some(function (t) {return t.name==='TOPIK' && /4/.test(t.requirement);}), 'A departmental TOPIK minimum is retained without inventing the programme teaching-language mix');
   ok(M.scopeInput({studyLanguage:'fr',englishOnly:true}).englishOnly===false && M.scopeInput({studyLanguage:'en',englishOnly:true}).englishOnly===true,'Local-language selection clears the mutually contradictory English-only state');
   ok(!level(r,'hard') && r.unchecked.indexOf('IELTS section scores')>=0,'Route: sufficient overall never confirms missing sections');
   r=evaluate(testRoute(),{ieltsSections:{reading:6,writing:5.5,listening:6,speaking:6}});
@@ -54,6 +64,9 @@ module.exports=function (env) {
   ok(ni[0].english.ielts.min===6 && ni[1].english.ielts.min===5.5 && ni[1].kind==='degree-with-esl','UNI: unrestricted 6.0 and required-support 5.5 remain separate');
   ok(U.search('Northern Iowa IELTS 6',540).some(function (u) {return u.id==='university-of-northern-iowa';}),'Search indexes the reviewed UNI direct-entry IELTS number before the requirements module starts');
   ok(U.search('Sejong TOPIK',540).some(function (u) {return u.id==='sejong-university';}),'Search indexes reviewed local-language qualifications independently from English');
+  ok(U.search('Frankfurt cognitive',540).some(function (u) {return u.id==='frankfurt-school';}),'Search finds academic entrance examinations stored in the reviewed qualification block');
+  var wb=U.requirements.routes(U.uniById('berlin-international-university'))[0];
+  ok(wb && wb.english.ielts.min===null && wb.academic.satPolicy==='unknown' && /B2/.test(wb.english.note),'Whitecliffe current programme confirms CEFR B2, not an inferred IELTS score or universal SAT waiver');
   var ka=U.requirements.routes(U.uniById('kaist'))[0];
   ok(ka.english.ielts.recommended===6.5 && ka.english.ielts.min===null && ka.academic.satPolicy==='required-alternatives','KAIST 2027: recommended language score is independent from compulsory academic alternatives');
   var pu=U.requirements.routes(U.uniById('pusan-national-university'))[0];

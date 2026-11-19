@@ -99,15 +99,21 @@ window.UNIPATH.admissionRequirements = {
       "english": {
         "requirement": "required-unless-exempt",
         "ielts": {
-          "accepted": null,
-          "min": null,
+          "accepted": true,
+          "min": 6.5,
           "role": "admission"
         },
         "toefl": {
-          "accepted": null,
-          "min": null
+          "accepted": true,
+          "scales": [
+            {
+              "period": "legacy",
+              "min": 80
+            }
+          ]
         },
-        "alternatives": "The international admissions office also names Duolingo. Undergraduate cut-offs and waiver conditions were not established from the accessible undergraduate pages; graduate rules were not reused."
+        "waiver": "The Provost procedure permits proof through citizenship of a country with English as an official language, a degree at a regionally accredited US institution, or a degree taught in English in a country whose official national language is English. Exceptions need Provost approval.",
+        "note": "The active Provost procedure publishes baseline IELTS 6.5 and legacy TOEFL iBT 80. Below IELTS 7.0 / TOEFL 100, admitted undergraduates take an additional English placement test. Schools may require higher scores: Nursing policy revised August 2025 states IELTS 7.5, Speaking 7 and other sections 6. These are not universal thresholds. The procedure has a 2010 revision date and no named 2027 intake."
       },
       "academic": {
         "satPolicy": "optional",
@@ -137,6 +143,18 @@ window.UNIPATH.admissionRequirements = {
           "label": "Pitt undergraduate international admissions",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.provost.pitt.edu/assessment-english-language-proficiency-procedure",
+          "label": "Pittsburgh: undergraduate scope of Provost language procedure",
+          "verified": "2026-11-19",
+          "access": "html-read"
+        },
+        {
+          "url": "https://www.nursing.pitt.edu/policies/365/",
+          "label": "Pittsburgh Nursing: programme-specific language exception",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -357,7 +375,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "The international checklist does not state a SAT/ACT policy; omission is not treated as test-optional."
+        "note": "The international checklist does not state a SAT/ACT policy; omission is not treated as test-optional.",
+        "entryRequirements": "International first-year applicants provide school records with English translations and at least one academic recommendation. The published language bands concern ELL support/exemption and do not themselves settle academic testing. The international checklist does not explicitly state whether SAT/ACT can be omitted.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [
@@ -366,9 +390,9 @@ window.UNIPATH.admissionRequirements = {
       "sources": [
         {
           "url": "https://www.elmira.edu/admissions/undergraduate-admissions/international-admissions/international-undergraduate-students",
-          "label": "Elmira international undergraduate requirements",
-          "verified": "2026-11-18",
-          "access": "web-html-read"
+          "label": "Elmira: international first-year academic checklist",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -756,7 +780,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "conflict",
-        "note": "Current undergraduate admissions explicitly says test-optional, but the 2026–27 catalogue states SAT/ACT required. Confirm the applicable Fall 2027 rule; neither source establishes an unambiguous cycle-specific requirement."
+        "note": null,
+        "entryRequirements": "Secondary completion and all school/college transcripts are required. Admissions Test Scores says SAT/ACT optional, including direct-admit international applicants; the active academic catalogue still says freshmen must submit them. Neither source establishes which rule governs Fall 2027.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -775,8 +805,8 @@ window.UNIPATH.admissionRequirements = {
         },
         {
           "url": "https://catalog.pacific.edu/uop/generalinformation/admissionrequirements/",
-          "label": "Pacific 2026–27 catalogue admission requirements",
-          "verified": "2026-11-18",
+          "label": "Pacific: academic catalogue freshman checklist",
+          "verified": "2026-11-19",
           "access": "html-read"
         }
       ],
@@ -822,8 +852,14 @@ window.UNIPATH.admissionRequirements = {
         "waiver": "A waiver request is reviewed for English education/residence conditions; it is not granted to all international applicants."
       },
       "academic": {
-        "satPolicy": "unknown",
-        "note": "SAT/ACT listed as English proof does not establish an academic SAT/ACT requirement. Published enrolled-score ranges are not admission cutoffs."
+        "satPolicy": "conditional",
+        "note": null,
+        "entryRequirements": "International applicants submit translated detailed secondary records, a recommendation, essay and financial certification. The catalogue specifically allows non-native English speakers to submit TOEFL, IELTS or Duolingo instead of SAT; its general testing paragraph retains an international-test exception. A separate mandatory SAT is not inferred for applicants using the named language-test alternative.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -832,6 +868,12 @@ window.UNIPATH.admissionRequirements = {
           "url": "https://www.saintmarys.edu/admission-aid/first-year-students/international-students/international-requirements",
           "label": "Saint Mary’s Indiana international requirements",
           "verified": "2026-11-18",
+          "access": "html-read"
+        },
+        {
+          "url": "https://catalog.saintmarys.edu/undergraduate/admission/",
+          "label": "Saint Mary’s Indiana: international checklist and testing exceptions",
+          "verified": "2026-11-19",
           "access": "html-read"
         }
       ],
@@ -979,16 +1021,22 @@ window.UNIPATH.admissionRequirements = {
         "waiver": "US accredited English composition with grade C or higher; SAT verbal 530 can also waive English proof. Confirm modern SAT equivalence."
       },
       "academic": {
-        "satPolicy": "unknown",
-        "note": "This international page highly recommends SAT/ACT for specified applicants; it does not establish a Fall 2027 required/optional policy. A language-waiver SAT score is not an academic admission minimum."
+        "satPolicy": "accepted",
+        "note": null,
+        "entryRequirements": "International freshmen submit secondary transcripts, graduation diplomas and official English translations directly to CUNY; this checklist says external evaluations are not required. It strongly recommends SAT/ACT for non-English-country applicants or those without school Math/English; a recommendation is not a mandatory test rule.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
       "sources": [
         {
           "url": "https://www.jjay.cuny.edu/admissions/undergraduate-admissions/apply/international-student-application",
-          "label": "John Jay international application requirements",
-          "verified": "2026-11-18",
+          "label": "John Jay: international freshman academic documents",
+          "verified": "2026-11-19",
           "access": "html-read"
         }
       ],
@@ -1473,7 +1521,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "Academic SAT/ACT rules for all international school qualifications were not established. A US-curriculum rule is not applied to every international applicant."
+        "note": "Academic SAT/ACT rules for all international school qualifications were not established. A US-curriculum rule is not applied to every international applicant.",
+        "entryRequirements": "Admission depends on both the school credential and programme subjects. The American-curriculum route lists a High School Diploma with B average or better; the full IB diploma requires at least 24 points and three Higher Level subjects. British-pattern qualifications require five distinct subjects including two A Levels, or the specified four-AS combination, at C or better. These are curriculum-specific examples, not universal GPA or SAT rules.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -1482,6 +1536,12 @@ window.UNIPATH.admissionRequirements = {
           "url": "https://laurentian.ca/academics/admissions/language-requirements",
           "label": "Laurentian English and French language requirements",
           "verified": "2026-11-18",
+          "access": "html-read"
+        },
+        {
+          "url": "https://laurentian.ca/academics/admissions/international/undergraduate-admissions",
+          "label": "Laurentian: international academic credentials",
+          "verified": "2026-11-19",
           "access": "html-read"
         }
       ],
@@ -1505,7 +1565,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "Academic SAT/ACT rules for all international school qualifications were not established. A US-curriculum rule is not applied to every international applicant."
+        "note": "Academic SAT/ACT rules for all international school qualifications were not established. A US-curriculum rule is not applied to every international applicant.",
+        "entryRequirements": "Admission depends on both the school credential and programme subjects. The American-curriculum route lists a High School Diploma with B average or better; the full IB diploma requires at least 24 points and three Higher Level subjects. British-pattern qualifications require five distinct subjects including two A Levels, or the specified four-AS combination, at C or better. These are curriculum-specific examples, not universal GPA or SAT rules.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [
         {
@@ -1519,6 +1585,12 @@ window.UNIPATH.admissionRequirements = {
           "url": "https://laurentian.ca/academics/admissions/language-requirements",
           "label": "Laurentian English and French language requirements",
           "verified": "2026-11-18",
+          "access": "html-read"
+        },
+        {
+          "url": "https://laurentian.ca/academics/admissions/international/undergraduate-admissions",
+          "label": "Laurentian: international academic credentials",
+          "verified": "2026-11-19",
           "access": "html-read"
         }
       ],
@@ -1544,7 +1616,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "Academic SAT/ACT rules for all international school qualifications were not established. A US-curriculum rule is not applied to every international applicant."
+        "note": "Academic SAT/ACT rules for all international school qualifications were not established. A US-curriculum rule is not applied to every international applicant.",
+        "entryRequirements": "Foreign qualifications may lead to direct degree admission, an Année préparatoire, or the first year of a participating four-year bachelor. The route depends on the recognised country/diploma equivalence and programme prerequisites. French baccalaureate and full IB applicants may be directly eligible subject to programme rules; preparatory eligibility is not direct bachelor admission.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [
         {
@@ -1559,6 +1637,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "UdeM French admission requirement since Winter 2026",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://admission.umontreal.ca/admission/preparation-de-la-demande/verifier-les-conditions-dadmissibilite/",
+          "label": "UdeM: diploma equivalence and preparatory versus direct routes",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -1583,7 +1667,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "Academic SAT/ACT rules for all international school qualifications were not established. A US-curriculum rule is not applied to every international applicant."
+        "note": "Academic SAT/ACT rules for all international school qualifications were not established. A US-curriculum rule is not applied to every international applicant.",
+        "entryRequirements": "International bachelor admission normally requires a diploma equivalent to the Quebec DEC after 13 years of education. A 12-year pre-university diploma normally leads to a 30-credit qualifying year. French/IB/Belgian qualifications have named direct-entry exceptions and some faculties still require preparation, including Science and Engineering. Programme prerequisites and selective admission remain separate.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [
         {
@@ -1598,6 +1688,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Laval French proficiency policy",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.ulaval.ca/en/admission/prepare-your-application/admission-requirements-for-each-type-of-applicant",
+          "label": "Laval: international diploma and qualifying-year requirements",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -1622,7 +1718,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "Academic SAT/ACT rules for all international school qualifications were not established. A US-curriculum rule is not applied to every international applicant."
+        "note": "Academic SAT/ACT rules for all international school qualifications were not established. A US-curriculum rule is not applied to every international applicant.",
+        "entryRequirements": "The outside-Quebec route normally requires an appropriate diploma after at least 13 years of schooling or equivalent. Certain four-year bachelor pathways accept a terminal secondary diploma after 12 years. Prior university study is a different basis; programme descriptions determine prerequisites. French proof does not itself establish academic eligibility.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [
         {
@@ -1637,6 +1739,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "UQAM recognised French tests for undergraduate admission",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://etudier.uqam.ca/bases-admissibilite",
+          "label": "UQAM: undergraduate admission bases",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -2078,16 +2186,22 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "A recognised school-leaving qualification and successful Assessment Centre are required. The centre tests quantitative, verbal and figural reasoning plus interview. A universal SAT/ACT substitute rule is not established."
+        "note": "A recognised school-leaving qualification and successful Assessment Centre are required. The centre tests quantitative, verbal and figural reasoning plus interview. A universal SAT/ACT substitute rule is not established.",
+        "entryRequirements": "The reviewed BSc Business Administration requires a recognised school-leaving qualification and successful online Assessment Centre: quantitative/cognitive reasoning, English assessment and interview. The initial application can use the two latest upper-secondary reports before the final certificate arrives. English is assessed internally; a certificate is not required with this application. An unlisted national school diploma needs recognition assessment.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
       "sources": [
         {
           "url": "https://www.frankfurt-school.de/en/home/study/bachelor/bachelor-in-business-administration",
-          "label": "Frankfurt School BBA September 2027 requirements",
-          "verified": "2026-11-18",
-          "access": "web-html-read"
+          "label": "Frankfurt School: BBA school qualification and Assessment Centre",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": "Start in English or German; from semester 4 all courses are English. Corporate-partner CompactTrack requires German C1; it is not the same as the general English starting route."
@@ -2151,7 +2265,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "The applicable academic entrance qualification must be checked separately. Absence of SAT on a language page does not establish test-optional admission."
+        "note": "The applicable academic entrance qualification must be checked separately. Absence of SAT on a language page does not establish test-optional admission.",
+        "entryRequirements": "A recognised higher-education entrance qualification is required. Non-EU/EEA applications with foreign qualifications are normally checked by uni-assist and then ranked; IB, European Baccalaureate and Feststellungsprüfung have specified direct-application routes. TestAS is voluntary for additional selection points, with its language matched to the major. Recognition of the qualification only admits the applicant to selection; it does not award a study place.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -2161,6 +2281,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Leuphana English-major language requirements",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.leuphana.de/en/college/application/international-applications/admission/admission-non-eu-eea-applicants.html",
+          "label": "Leuphana: non-EU qualification review and voluntary TestAS",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -2190,7 +2316,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "The applicable academic entrance qualification must be checked separately. Absence of SAT on a language page does not establish test-optional admission."
+        "note": "The applicable academic entrance qualification must be checked separately. Absence of SAT on a language page does not establish test-optional admission.",
+        "entryRequirements": "A recognised higher-education entrance qualification is required. Non-EU/EEA applications with foreign qualifications are normally checked by uni-assist and then ranked; IB, European Baccalaureate and Feststellungsprüfung have specified direct-application routes. TestAS is voluntary for additional selection points, with its language matched to the major. Recognition of the qualification only admits the applicant to selection; it does not award a study place.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [
         {
@@ -2205,6 +2337,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Leuphana German-major language requirements",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.leuphana.de/en/college/application/international-applications/admission/admission-non-eu-eea-applicants.html",
+          "label": "Leuphana: non-EU qualification review and voluntary TestAS",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -2246,7 +2384,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "The applicable academic entrance qualification must be checked separately. Absence of SAT on a language page does not establish test-optional admission."
+        "note": "The applicable academic entrance qualification must be checked separately. Absence of SAT on a language page does not establish test-optional admission.",
+        "entryRequirements": "Applicants with a university entrance qualification obtained outside Germany apply through uni-assist, which assesses the documents. Restricted-admission programmes then have a separate selection process. English and German degree-language certificates are distinct; English-taught programmes do not require German proof under this guide. An English B2 certificate alone does not establish the school qualification needed for degree entry.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -2266,6 +2410,12 @@ window.UNIPATH.admissionRequirements = {
             1
           ],
           "quote": "minimum score 5.5"
+        },
+        {
+          "url": "https://www.hochschule-rhein-waal.de/en/study/before-starting-university/application-process/guide-for-international-applicants",
+          "label": "Rhine-Waal: foreign university entrance qualification and application route",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": "The official overview links this B2 certificate list for bachelor applicants. This is not a C1/master threshold and does not confirm every programme or Fall 2027 policy."
@@ -2290,7 +2440,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "The applicable academic entrance qualification must be checked separately. Absence of SAT on a language page does not establish test-optional admission."
+        "note": "The applicable academic entrance qualification must be checked separately. Absence of SAT on a language page does not establish test-optional admission.",
+        "entryRequirements": "Bachelor entry requires a recognised higher-education entrance qualification. Foreign school certificates may grant general or subject-bound access; otherwise Studienkolleg and its assessment examination may be necessary. The international qualification page requires uni-assist VPD assessment before the TUM application. Each degree has its own aptitude/admission procedure; IELTS or German proof is not a substitute for academic access.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [
         {
@@ -2305,6 +2461,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "TUM language certificates and bachelor exceptions",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.tum.de/en/studies/application/application-info-portal/higher-education-entrance-qualification/international-higher-education-entrance-qualification",
+          "label": "TUM: foreign qualification, subject restrictions and VPD",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": "For six named bachelor programmes, English is checked through aptitude assessment and an English certificate is not required with the application. Confirm the exact degree, campus and its German/English combination."
@@ -2502,8 +2664,14 @@ window.UNIPATH.admissionRequirements = {
         "note": "Some courses require different scores. This is the published standard, not a verified minimum for every course. Preparation courses have separate entry requirements."
       },
       "academic": {
-        "satPolicy": "unknown",
-        "note": "Academic entry depends on the school qualification and course. This language policy does not establish a universal SAT/ACT requirement or exemption."
+        "satPolicy": "conditional",
+        "note": null,
+        "entryRequirements": "Academic entry is qualification-specific. The USA section is test-flexible: High School Diploma GPA 3.0 may be assessed without standardised tests, while some degrees require AP/Honors subject preparation. The Uzbekistan section instead lists a recognised Foundation or at least one university year; IB/A Levels use the course requirements. The US test-flexible rule does not waive preparation for other school systems.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -2512,6 +2680,12 @@ window.UNIPATH.admissionRequirements = {
           "url": "https://www.strath.ac.uk/studywithus/englishlanguagerequirements/",
           "label": "Strathclyde standard and faculty English requirements",
           "verified": "2026-11-18",
+          "access": "html-read"
+        },
+        {
+          "url": "https://www.strath.ac.uk/studywithus/internationalstudents/entryrequirements/",
+          "label": "Strathclyde: country and school-curriculum entry requirements",
+          "verified": "2026-11-19",
           "access": "html-read"
         }
       ],
@@ -2553,8 +2727,14 @@ window.UNIPATH.admissionRequirements = {
         "note": "Faculty standard only: verify your individual course. Science postgraduate research uses 6.5, not this undergraduate reference."
       },
       "academic": {
-        "satPolicy": "unknown",
-        "note": "Academic entry depends on the school qualification and course. This language policy does not establish a universal SAT/ACT requirement or exemption."
+        "satPolicy": "conditional",
+        "note": null,
+        "entryRequirements": "Academic entry is qualification-specific. The USA section is test-flexible: High School Diploma GPA 3.0 may be assessed without standardised tests, while some degrees require AP/Honors subject preparation. The Uzbekistan section instead lists a recognised Foundation or at least one university year; IB/A Levels use the course requirements. The US test-flexible rule does not waive preparation for other school systems.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -2563,6 +2743,12 @@ window.UNIPATH.admissionRequirements = {
           "url": "https://www.strath.ac.uk/studywithus/englishlanguagerequirements/",
           "label": "Strathclyde standard and faculty English requirements",
           "verified": "2026-11-18",
+          "access": "html-read"
+        },
+        {
+          "url": "https://www.strath.ac.uk/studywithus/internationalstudents/entryrequirements/",
+          "label": "Strathclyde: country and school-curriculum entry requirements",
+          "verified": "2026-11-19",
           "access": "html-read"
         }
       ],
@@ -2617,8 +2803,14 @@ window.UNIPATH.admissionRequirements = {
         "waiver": "Approved English-taught and assessed degree with NARIC/evidence; specified majority-English nationality with demonstrated competence; or approved pre-sessional completion. An arbitrary school MOI letter alone is not a blanket waiver."
       },
       "academic": {
-        "satPolicy": "unknown",
-        "note": "Academic entry depends on the school qualification and course. This language policy does not establish a universal SAT/ACT requirement or exemption."
+        "satPolicy": "conditional",
+        "note": null,
+        "entryRequirements": "For the US High School Diploma route, GPA 3.2+ is test-optional unless the programme has a subject requirement, which may be met by two relevant APs. GPA 2.8–3.1 requires SAT 550 per part, ACT composite 23 or two APs at 3+. GPA 2.7 or lower is considered for Foundation, not unrestricted degree entry. Other qualifications are assessed separately.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -2627,6 +2819,12 @@ window.UNIPATH.admissionRequirements = {
           "url": "https://www.mdx.ac.uk/international/entry-requirements-for-international-students/english-language-requirements-for-international-students/",
           "label": "Middlesex undergraduate column and exceptional courses",
           "verified": "2026-11-18",
+          "access": "html-read"
+        },
+        {
+          "url": "https://www.mdx.ac.uk/international/support-in-your-countries-and-regions/usa/",
+          "label": "Middlesex: GPA-dependent American-curriculum routes",
+          "verified": "2026-11-19",
           "access": "html-read"
         }
       ],
@@ -2666,8 +2864,14 @@ window.UNIPATH.admissionRequirements = {
         "waiver": "Specified GCSE/GCE and country qualifications may satisfy English, assessed case by case. Visa applicants on pre-sessional/Foundation or a course below IELTS 6.0 need an approved UKVI SELT."
       },
       "academic": {
-        "satPolicy": "unknown",
-        "note": "Academic entry depends on the school qualification and course. This language policy does not establish a universal SAT/ACT requirement or exemption."
+        "satPolicy": "conditional",
+        "note": null,
+        "entryRequirements": "US qualifications are mapped to each course’s A-level offer using a High School Diploma GPA plus the stated SAT, ACT or AP alternative. Subject requirements may use relevant Grade 12 honors, AP or college credits. Lower-entry and Foundation rows are distinct; no single SAT/GPA combination establishes eligibility for every course. Other countries use their own equivalency rules.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -2676,6 +2880,12 @@ window.UNIPATH.admissionRequirements = {
           "url": "https://www.brookes.ac.uk/study/international-students/applying-to-arriving/how-to-apply/english-language-requirements",
           "label": "Oxford Brookes undergraduate and Foundation English requirements",
           "verified": "2026-11-18",
+          "access": "html-read"
+        },
+        {
+          "url": "https://www.brookes.ac.uk/study/international-students/your-country/usa/entry-requirements",
+          "label": "Oxford Brookes: course-specific US qualification equivalencies",
+          "verified": "2026-11-19",
           "access": "html-read"
         }
       ],
@@ -2718,8 +2928,14 @@ window.UNIPATH.admissionRequirements = {
         "note": "Foundation, not direct bachelor admission. Built Environment and Life Sciences Foundation have a different 6.0 rule; visa SELT conditions also apply."
       },
       "academic": {
-        "satPolicy": "unknown",
-        "note": "Academic entry depends on the school qualification and course. This language policy does not establish a universal SAT/ACT requirement or exemption."
+        "satPolicy": "conditional",
+        "note": null,
+        "entryRequirements": "US qualifications are mapped to each course’s A-level offer using a High School Diploma GPA plus the stated SAT, ACT or AP alternative. Subject requirements may use relevant Grade 12 honors, AP or college credits. Lower-entry and Foundation rows are distinct; no single SAT/GPA combination establishes eligibility for every course. Other countries use their own equivalency rules.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -2728,6 +2944,12 @@ window.UNIPATH.admissionRequirements = {
           "url": "https://www.brookes.ac.uk/study/international-students/applying-to-arriving/how-to-apply/english-language-requirements",
           "label": "Oxford Brookes undergraduate and Foundation English requirements",
           "verified": "2026-11-18",
+          "access": "html-read"
+        },
+        {
+          "url": "https://www.brookes.ac.uk/study/international-students/your-country/usa/entry-requirements",
+          "label": "Oxford Brookes: course-specific US qualification equivalencies",
+          "verified": "2026-11-19",
           "access": "html-read"
         }
       ],
@@ -2889,7 +3111,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "Standardised official test reports are optional in the university checklist. Exact accepted SAT/ACT versions and the 2027 guide details were not recovered, so no universal SAT rule is inferred."
+        "note": "Standardised official test reports are optional in the university checklist. Exact accepted SAT/ACT versions and the 2027 guide details were not recovered, so no universal SAT rule is inferred.",
+        "entryRequirements": "International freshmen must finish high school by registration and satisfy the applicable foreign-citizenship/parental or Korean-origin full-education-abroad category. Dual Korean citizenship and GED/home-school/alternative qualifications are excluded under the eligibility page. The checklist requires school diploma/transcript, applicant/parent passports and family-relationship proof; English and standardised official test reports are listed as optional documents. Exact SAT/ACT versions are not named.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [
@@ -2907,6 +3135,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Official Study in Korea: DGIST undergraduate department record",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.dgist.ac.kr/iuadm/sub02_01.do",
+          "label": "DGIST: international freshman eligibility and school credentials",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": "The official undergraduate department table says above 90% of courses are English. It does not guarantee every required course can be completed in English."
@@ -2936,7 +3170,18 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "The public notice does not establish a SAT/ACT policy; its undergraduate guide must be checked for the specific major."
+        "note": "The public notice does not establish a SAT/ACT policy; its undergraduate guide must be checked for the specific major.",
+        "entryRequirements": "The Seoul Spring 2027 notice requires the applicant and both parents to be foreign nationals. First-year applicants must graduate from regular high school by February 2027 or meet a legally recognised equivalent. Transfer-year credit rules are separate. Korean proof has named alternatives and arts programmes have separate practical assessments; language qualification alone does not certify academic admission.",
+        "applicability": {
+          "label": "Spring 2027",
+          "entryYears": [
+            2027
+          ],
+          "status": "confirmed",
+          "intakes": [
+            "spring-2027"
+          ]
+        }
       },
       "localLanguage": [
         {
@@ -2948,9 +3193,9 @@ window.UNIPATH.admissionRequirements = {
       "sources": [
         {
           "url": "https://en.dongguk.edu/article/INTSTUNOTICE/detail/26766179",
-          "label": "Dongguk Seoul international undergraduate Spring 2027 notice",
-          "verified": "2026-11-18",
-          "access": "web-html-read"
+          "label": "Dongguk Seoul: Spring 2027 nationality and first-year education",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": "This review establishes a Korean-proof admission route, not a verified wholly English programme. The exact degree teaching language and Fall 2027 rules remain unconfirmed."
@@ -3065,8 +3310,14 @@ window.UNIPATH.admissionRequirements = {
         "alternatives": "Duolingo 115 with minimum band 100; PTE 56. These are full-admission requirements; a universal waiver was not established."
       },
       "academic": {
-        "satPolicy": "unknown",
-        "note": "The international document checklist does not state a SAT/ACT rule. This omission is not treated as proof of optional admission."
+        "satPolicy": "optional",
+        "note": null,
+        "entryRequirements": "Official secondary records are required. Pre-calculus or higher, Physics and Chemistry form the recommended preparation; 3.2 cumulative GPA is recommended, not an automatic eligibility guarantee. SAT/ACT are optional initially, but available scores may be requested after academic review.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [
@@ -3077,6 +3328,12 @@ window.UNIPATH.admissionRequirements = {
           "url": "https://www.msoe.edu/admissions-aid/international-admissions/future-international-students/undergraduate-students/requirements/",
           "label": "MSOE international undergraduate requirements",
           "verified": "2026-11-18",
+          "access": "html-read"
+        },
+        {
+          "url": "https://www.msoe.edu/admissions-aid/undergraduate-admissions/undergraduate-admission-requirements/",
+          "label": "MSOE: preparation and test-optional first-year review",
+          "verified": "2026-11-19",
           "access": "html-read"
         }
       ],
@@ -3522,7 +3779,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "accepted",
-        "note": "Faculty Handbook 3.3.3(c): SAT can support borderline US Grade 12 diploma applications. This establishes SAT acceptance in that scope, not an ACT alternative, a universal test-optional rule or a Fall 2027 requirement."
+        "note": "Faculty Handbook 3.3.3(c): SAT can support borderline US Grade 12 diploma applications. This establishes SAT acceptance in that scope, not an ACT alternative, a universal test-optional rule or a Fall 2027 requirement.",
+        "entryRequirements": "Qualifications outside Ontario are evaluated against recognised equivalent certificates and the chosen programme prerequisites. The Handbook accepts a US Grade 12 diploma and says SAT may help borderline US cases. The British route uses five GCE/GCSE/IGCSE subjects including two A Levels, with the stated four-AS alternative. All official records must show subject grades; the US SAT statement is not applied to other school systems.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -3535,9 +3798,9 @@ window.UNIPATH.admissionRequirements = {
         },
         {
           "url": "https://brocku.ca/university-secretariat/faculty-handbook/section-3/",
-          "label": "Brock Faculty Handbook 3.3.3(c): US diploma and SAT",
-          "verified": "2026-11-18",
-          "access": "web-html-read"
+          "label": "Brock: equivalent secondary certificates and US borderline SAT scope",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -3574,7 +3837,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "accepted",
-        "note": "Faculty Handbook 3.3.3(c): SAT can support borderline US Grade 12 diploma applications. This establishes SAT acceptance in that scope, not an ACT alternative, a universal test-optional rule or a Fall 2027 requirement."
+        "note": "Faculty Handbook 3.3.3(c): SAT can support borderline US Grade 12 diploma applications. This establishes SAT acceptance in that scope, not an ACT alternative, a universal test-optional rule or a Fall 2027 requirement.",
+        "entryRequirements": "Qualifications outside Ontario are evaluated against recognised equivalent certificates and the chosen programme prerequisites. The Handbook accepts a US Grade 12 diploma and says SAT may help borderline US cases. The British route uses five GCE/GCSE/IGCSE subjects including two A Levels, with the stated four-AS alternative. All official records must show subject grades; the US SAT statement is not applied to other school systems.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -3587,9 +3856,9 @@ window.UNIPATH.admissionRequirements = {
         },
         {
           "url": "https://brocku.ca/university-secretariat/faculty-handbook/section-3/",
-          "label": "Brock Faculty Handbook 3.3.3(c): US diploma and SAT",
-          "verified": "2026-11-18",
-          "access": "web-html-read"
+          "label": "Brock: equivalent secondary certificates and US borderline SAT scope",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -3654,7 +3923,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "The applicable SAT/ACT policy for the applicant’s school qualification remains unconfirmed. Language-test alternatives do not establish an academic-test waiver."
+        "note": "The applicable SAT/ACT policy for the applicant’s school qualification remains unconfirmed. Language-test alternatives do not establish an academic-test waiver.",
+        "entryRequirements": "Country-specific secondary credentials and all official school/postsecondary transcripts are required; non-English records need a certified English translation. The credential chart lists the US High School Diploma transcript and, for Uzbekistan, the completed upper-secondary certificate with exams and grades. Programme subjects and competitive/general averages must also be met; a listed document alone does not guarantee direct entry.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -3664,6 +3939,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Mount Royal institutional undergraduate English proficiency",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.mtroyal.ca/Admission/InternationalCredentials/",
+          "label": "Mount Royal: international secondary credentials",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -3727,16 +4008,28 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "The applicable SAT/ACT policy for the applicant’s school qualification remains unconfirmed. Language-test alternatives do not establish an academic-test waiver."
+        "note": "The applicable SAT/ACT policy for the applicant’s school qualification remains unconfirmed. Language-test alternatives do not establish an academic-test waiver.",
+        "entryRequirements": "Academic conditions depend on school system and intended degree. The country guide lists the Uzbekistan Attestat with 4/5; this is not a universal rule for every country. The American page asks for Grade 12 English, at least four additional Grade 12 preparatory courses and overall B, with degree-specific subjects such as mathematics for Business. SAT/ACT obligation is not inferred from its absence on these pages.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
       "sources": [
         {
           "url": "https://www2.acadiau.ca/admissions/application-process/international-students.html",
-          "label": "Acadia international undergraduate English requirements",
-          "verified": "2026-11-18",
-          "access": "web-html-read"
+          "label": "Acadia: country-specific secondary qualifications",
+          "verified": "2026-11-19",
+          "access": "html-read"
+        },
+        {
+          "url": "https://www2.acadiau.ca/admissions/application-process/american-students.html",
+          "label": "Acadia: American Grade 12 preparation",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -3791,7 +4084,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "The applicable SAT/ACT policy for the applicant’s school qualification remains unconfirmed. Language-test alternatives do not establish an academic-test waiver."
+        "note": "The applicable SAT/ACT policy for the applicant’s school qualification remains unconfirmed. Language-test alternatives do not establish an academic-test waiver.",
+        "entryRequirements": "Eligibility depends on the completed school curriculum and programme prerequisites. In the American high-school route, applicants complete Grade 12, normally reach at least 75% and pass the chosen programme prerequisites. That route requests grades from the last school years and certified translations where needed. Its threshold is not assigned to IB, GCE, French lycée or every international diploma.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -3801,6 +4100,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Ottawa English/French undergraduate language routes",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.uottawa.ca/study/undergraduate-studies/international-applicants/usa",
+          "label": "Ottawa: American-school qualification scope",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -3830,7 +4135,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "The applicable SAT/ACT policy for the applicant’s school qualification remains unconfirmed. Language-test alternatives do not establish an academic-test waiver."
+        "note": "The applicable SAT/ACT policy for the applicant’s school qualification remains unconfirmed. Language-test alternatives do not establish an academic-test waiver.",
+        "entryRequirements": "Eligibility depends on the completed school curriculum and programme prerequisites. In the American high-school route, applicants complete Grade 12, normally reach at least 75% and pass the chosen programme prerequisites. That route requests grades from the last school years and certified translations where needed. Its threshold is not assigned to IB, GCE, French lycée or every international diploma.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -3840,6 +4151,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Ottawa English/French undergraduate language routes",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.uottawa.ca/study/undergraduate-studies/international-applicants/usa",
+          "label": "Ottawa: American-school qualification scope",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": "The 6.0 category requires extra English courses; it does not meet the 6.5 overall/Writing unconditional rule. Other EIP preparatory categories have separate band conditions."
@@ -3860,7 +4177,13 @@ window.UNIPATH.admissionRequirements = {
       "english": {},
       "academic": {
         "satPolicy": "unknown",
-        "note": "The applicable SAT/ACT policy for the applicant’s school qualification remains unconfirmed. Language-test alternatives do not establish an academic-test waiver."
+        "note": "The applicable SAT/ACT policy for the applicant’s school qualification remains unconfirmed. Language-test alternatives do not establish an academic-test waiver.",
+        "entryRequirements": "Eligibility depends on the completed school curriculum and programme prerequisites. In the American high-school route, applicants complete Grade 12, normally reach at least 75% and pass the chosen programme prerequisites. That route requests grades from the last school years and certified translations where needed. Its threshold is not assigned to IB, GCE, French lycée or every international diploma.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [
         {
@@ -3875,6 +4198,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Ottawa English/French undergraduate language routes",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.uottawa.ca/study/undergraduate-studies/international-applicants/usa",
+          "label": "Ottawa: American-school qualification scope",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -3899,7 +4228,13 @@ window.UNIPATH.admissionRequirements = {
       "english": {},
       "academic": {
         "satPolicy": "unknown",
-        "note": "The applicable SAT/ACT policy for the applicant’s school qualification remains unconfirmed. Language-test alternatives do not establish an academic-test waiver."
+        "note": "The applicable SAT/ACT policy for the applicant’s school qualification remains unconfirmed. Language-test alternatives do not establish an academic-test waiver.",
+        "entryRequirements": "For the engineering route reviewed here, foreign/other-Canadian qualifications that do not meet direct bachelor entry may require a preparatory year on the Sherbrooke campus to meet engineering accreditation requirements. Applicants apply to the intended engineering bachelor so the file can be assessed. This is not unconditional direct admission after any school diploma.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [
         {
@@ -3914,6 +4249,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Sherbrooke programme-specific French admission table",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.usherbrooke.ca/admission/da/planifier-demande/infos-candidats-hors-quebec",
+          "label": "Sherbrooke: engineering preparatory versus direct entry",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -3936,7 +4277,13 @@ window.UNIPATH.admissionRequirements = {
       "english": {},
       "academic": {
         "satPolicy": "unknown",
-        "note": "The applicable SAT/ACT policy for the applicant’s school qualification remains unconfirmed. Language-test alternatives do not establish an academic-test waiver."
+        "note": "The applicable SAT/ACT policy for the applicant’s school qualification remains unconfirmed. Language-test alternatives do not establish an academic-test waiver.",
+        "entryRequirements": "The current Conditions page requires a secondary diploma, five eligible programme subjects and a minimum average of 70% across those five. The 2026–27 prospectus instead prints a 65% general threshold and says non-listed school systems need an equivalence decision. Do not treat the older 65% or Canadian course codes as confirmed international eligibility for Fall 2027.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [
         {
@@ -3957,6 +4304,23 @@ window.UNIPATH.admissionRequirements = {
             7,
             16
           ]
+        },
+        {
+          "url": "https://www.umoncton.ca/conditions",
+          "label": "Moncton: current five-subject requirements and earlier prospectus",
+          "verified": "2026-11-19",
+          "access": "html-read"
+        },
+        {
+          "url": "https://www.umoncton.ca/sites/choisir.prod.umoncton.ca/files/guidesetudiants/uMoncton-Renseignements-generaux-2026.pdf",
+          "label": "Moncton: 2026–27 prospectus academic conditions",
+          "verified": "2026-11-19",
+          "access": "pdf-read",
+          "pages": [
+            16,
+            17
+          ],
+          "quote": "avoir une moyenne minimale de 65 %"
         }
       ],
       "note": null
@@ -4171,7 +4535,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "conflict",
-        "note": "The Admissions first-year checklist says SAT/ACT optional except specialty programmes. The Global Engagement page also requests them from English-speaking-country applicants. Both official scopes remain visible; no universal optional or required claim is made."
+        "note": null,
+        "entryRequirements": "Secondary completion, translated records and qualification evaluation are required. Admissions permits test-optional outside Accelerated Medical, Pharmacy and Nursing. Global Engagement additionally requires SAT/ACT for applicants from English-speaking educational countries. The overlapping applicant scope remains contradictory.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -4186,6 +4556,12 @@ window.UNIPATH.admissionRequirements = {
           "url": "https://stockton.edu/global-engagement/international/freshman-students.html",
           "label": "Stockton Global Engagement first-year checklist",
           "verified": "2026-11-18",
+          "access": "html-read"
+        },
+        {
+          "url": "https://stockton.edu/admissions/test-optional.html",
+          "label": "Stockton: test-optional programme exceptions",
+          "verified": "2026-11-19",
           "access": "html-read"
         }
       ],
@@ -4226,8 +4602,14 @@ window.UNIPATH.admissionRequirements = {
         "waiver": "Four years of US high school, one US university year, GCSE English A/B or IB Higher Level English 5 may qualify; English-medium college study is assessed individually."
       },
       "academic": {
-        "satPolicy": "unknown",
-        "note": "The reviewed English-proof alternatives do not establish the academic SAT/ACT policy for every programme and qualification."
+        "satPolicy": "optional",
+        "note": null,
+        "entryRequirements": "First-year applicants submit an official secondary transcript, recommendation and essay. SAT/ACT are explicitly optional; academic record and chosen-programme preparation remain part of holistic review. English-proof alternatives on the international page are a separate requirement.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -4236,6 +4618,12 @@ window.UNIPATH.admissionRequirements = {
           "url": "https://manhattan.edu/admissions/international/requirements",
           "label": "Manhattan international undergraduate requirements",
           "verified": "2026-11-18",
+          "access": "html-read"
+        },
+        {
+          "url": "https://manhattan.edu/admissions/undergraduate/requirements",
+          "label": "Manhattan: first-year academic application requirements",
+          "verified": "2026-11-19",
           "access": "html-read"
         }
       ],
@@ -4274,8 +4662,14 @@ window.UNIPATH.admissionRequirements = {
         "alternatives": "TOEFL iBT including Home Edition, Cambridge, Duolingo, PTE Academic in person and specified SELT alternatives are accepted at the course’s level. Approved qualifications, published exemptions or pre-sessional completion can also satisfy English."
       },
       "academic": {
-        "satPolicy": "unknown",
-        "note": "Academic entry is assessed against the applicant’s school qualification and course. This English policy does not establish a university-wide SAT/ACT requirement or exemption."
+        "satPolicy": "conditional",
+        "note": null,
+        "entryRequirements": "For US qualification holders, Year 1 normally uses a High School Graduation Diploma plus three AP tests, with a typical AP offer of 5,4,4 and course-specific subjects. SAT does not replace AP for Year 1; the country page says SAT can support Foundation entry only. The Foundation diploma/GPA rule is a different route and is not direct bachelor entry.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -4285,6 +4679,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Sussex undergraduate course language levels",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.sussex.ac.uk/study/international-students/information-by-country/usa",
+          "label": "Sussex: Year 1 AP and Foundation SAT distinction",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -4320,8 +4720,14 @@ window.UNIPATH.admissionRequirements = {
         "alternatives": "TOEFL iBT including Home Edition, Cambridge, Duolingo, PTE Academic in person and specified SELT alternatives are accepted at the course’s level. Approved qualifications, published exemptions or pre-sessional completion can also satisfy English."
       },
       "academic": {
-        "satPolicy": "unknown",
-        "note": "Academic entry is assessed against the applicant’s school qualification and course. This English policy does not establish a university-wide SAT/ACT requirement or exemption."
+        "satPolicy": "conditional",
+        "note": null,
+        "entryRequirements": "For US qualification holders, Year 1 normally uses a High School Graduation Diploma plus three AP tests, with a typical AP offer of 5,4,4 and course-specific subjects. SAT does not replace AP for Year 1; the country page says SAT can support Foundation entry only. The Foundation diploma/GPA rule is a different route and is not direct bachelor entry.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -4331,6 +4737,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Sussex undergraduate course language levels",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.sussex.ac.uk/study/international-students/information-by-country/usa",
+          "label": "Sussex: Year 1 AP and Foundation SAT distinction",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -4366,8 +4778,14 @@ window.UNIPATH.admissionRequirements = {
         "alternatives": "TOEFL iBT including Home Edition, Cambridge, Duolingo, PTE Academic in person and specified SELT alternatives are accepted at the course’s level. Approved qualifications, published exemptions or pre-sessional completion can also satisfy English."
       },
       "academic": {
-        "satPolicy": "unknown",
-        "note": "Academic entry is assessed against the applicant’s school qualification and course. This English policy does not establish a university-wide SAT/ACT requirement or exemption."
+        "satPolicy": "conditional",
+        "note": null,
+        "entryRequirements": "For US qualification holders, Year 1 normally uses a High School Graduation Diploma plus three AP tests, with a typical AP offer of 5,4,4 and course-specific subjects. SAT does not replace AP for Year 1; the country page says SAT can support Foundation entry only. The Foundation diploma/GPA rule is a different route and is not direct bachelor entry.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -4377,6 +4795,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Sussex undergraduate course language levels",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.sussex.ac.uk/study/international-students/information-by-country/usa",
+          "label": "Sussex: Year 1 AP and Foundation SAT distinction",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -4440,8 +4864,14 @@ window.UNIPATH.admissionRequirements = {
         "note": "General BA/BSc/BEng rule excludes listed Architecture, Criminology, English, nutrition, nursing, midwifery, social work and speech-therapy exceptions. A 5.5-equivalence table is not a direct-entry rule for all degrees."
       },
       "academic": {
-        "satPolicy": "unknown",
-        "note": "Academic entry is assessed against the applicant’s school qualification and course. This English policy does not establish a university-wide SAT/ACT requirement or exemption."
+        "satPolicy": "conditional",
+        "note": null,
+        "entryRequirements": "The US school route is test-flexible: standard entry lists High School Diploma GPA 3.2 or GED 175. Below those levels, within the stated GPA/GED band, one additional ACT, AP, SAT or IB option is required. Programme subjects may differ. This GPA-dependent rule does not apply to an unrelated national school certificate.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -4451,6 +4881,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Greenwich undergraduate language table and exceptions",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.gre.ac.uk/international/countries/usa",
+          "label": "Greenwich: qualification-dependent test-flexible US admission",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -4489,8 +4925,14 @@ window.UNIPATH.admissionRequirements = {
         "note": "Published standard bachelor rule; some course pages require higher overall or section scores. Pre-sessional admission uses separate SELT rules."
       },
       "academic": {
-        "satPolicy": "unknown",
-        "note": "Academic entry is assessed against the applicant’s school qualification and course. This English policy does not establish a university-wide SAT/ACT requirement or exemption."
+        "satPolicy": "conditional",
+        "note": null,
+        "entryRequirements": "Typical US Year 1 entry uses High School Diploma GPA 3.0 plus a stated SAT, ACT, AP or IB-course combination; a year of college/university at GPA 2.8 is another listed basis. AP/subject evidence may be necessary for degrees with A-level subject requirements. These are country-page guidelines, not guarantees or rules for every international qualification.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -4500,6 +4942,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Westminster bachelor English tests, waivers and exceptions",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.westminster.ac.uk/international/your-country/united-states-of-america",
+          "label": "Westminster: US qualification and academic alternatives",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -4543,8 +4991,14 @@ window.UNIPATH.admissionRequirements = {
         "note": "BSc Computer Science at Coventry campus, September 2027. A foundation option and pre-sessional preparation exist but do not share this direct-entry rule. CEFR B2 for a visa is not a substitute for the course’s IELTS condition."
       },
       "academic": {
-        "satPolicy": "unknown",
-        "note": "Academic entry is assessed against the applicant’s school qualification and course. This English policy does not establish a university-wide SAT/ACT requirement or exemption."
+        "satPolicy": "conditional",
+        "note": null,
+        "entryRequirements": "The UK university’s country table separates US High School Diploma/AP/SAT/ACT qualifications from other national routes. For the Uzbekistan school route it explicitly requires the specialised-secondary Shahodatnoma at 4.5 overall (4 in key subjects) AND a recognised Foundation. The US ACT wording says 25 in each band; that is not silently converted to a composite threshold. A Computer Science English minimum does not establish academic eligibility with every school diploma.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -4560,6 +5014,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Coventry degree versus preparatory visa English rules",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.coventry.ac.uk/international-students-hub/entry-requirements/",
+          "label": "Coventry UK: national qualifications and foundation conditions",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -4612,8 +5072,14 @@ window.UNIPATH.admissionRequirements = {
         "note": "General undergraduate standard excludes higher-requirement Humanities, Nursing, Social Work, Nutrition, Pharmaceutical Science and specified health courses. A visa equivalence table including IELTS General is not degree acceptance of IELTS General. Pre-sessional requires separate approved SELT evidence."
       },
       "academic": {
-        "satPolicy": "unknown",
-        "note": "Academic entry depends on the school qualification and exact course. The language page does not establish a universal SAT/ACT policy."
+        "satPolicy": "conditional",
+        "note": null,
+        "entryRequirements": "For US qualifications, Year 1 normally requires High School Diploma GPA 3.0 plus two APs at 3, SAT 1100 or ACT 23. Subject-specific degrees additionally need the relevant honors/college-credit class. Foundation uses a different diploma GPA 2.0 threshold. These US qualification routes do not establish direct entry for other national certificates.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -4623,6 +5089,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Hertfordshire undergraduate language standard and professional exceptions",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.herts.ac.uk/international/guidance-for-your-region/americas/usa",
+          "label": "Hertfordshire: US Year 1 versus Foundation qualifications",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -4677,7 +5149,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "Academic entry depends on the school qualification and exact course. The language page does not establish a universal SAT/ACT policy."
+        "note": "Academic entry depends on the school qualification and exact course. The language page does not establish a universal SAT/ACT policy.",
+        "entryRequirements": "The university accepts several Level 3 qualification types, including A Levels, BTEC and Access to HE, but the course sets grades and subjects. International applicants must use the international-specific course requirements, which can differ from UK qualifications. A Foundation year has separate, potentially lower entry rules; a generic Level 3 list does not certify a foreign school diploma.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -4687,6 +5165,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Huddersfield standard language table, research differences and MOI limits",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.hud.ac.uk/undergraduate/how-to-apply/entry-requirements/",
+          "label": "Huddersfield: qualification types and international course scope",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -4749,8 +5233,14 @@ window.UNIPATH.admissionRequirements = {
         "note": "Course pages can require higher scores. Oxford ELLT uploads from 9 October 2026 are not accepted; earlier uploads by 8 October may still be considered. Pre-sessional English from UKVI IELTS 4.0 is preparation, not degree entry."
       },
       "academic": {
-        "satPolicy": "unknown",
-        "note": "Academic entry depends on the school qualification and exact course. The language page does not establish a universal SAT/ACT policy."
+        "satPolicy": "conditional",
+        "note": null,
+        "entryRequirements": "The US entry page lists alternative academic bases: SAT, ACT, three subject APs, or legacy SAT II subject tests. The programme can require particular subjects; these alternatives belong to the US school system, not every international route. The page still mentions discontinued SAT II and does not name a 2027 cycle, so no modern test conversion or universally current subject-test route is inferred.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -4760,6 +5250,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Salford undergraduate English and October 2026 test restriction",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.salford.ac.uk/international/your-country-or-region/salford-and-the-usa",
+          "label": "Salford: US academic alternatives and legacy subject tests",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -4797,8 +5293,14 @@ window.UNIPATH.admissionRequirements = {
         "waiver": "Study in a country where English is the first language may qualify for individual assessment. Approved country qualifications can also provide evidence."
       },
       "academic": {
-        "satPolicy": "unknown",
-        "note": "Academic entry depends on the school qualification and exact course. The language page does not establish a universal SAT/ACT policy."
+        "satPolicy": "conditional",
+        "note": null,
+        "entryRequirements": "The US page separates Foundation (Grade 12 diploma with its stated lower grades) from bachelor entry, which lists High School Diploma/GED GPA 3.0 plus academic-test/AP evidence. It explicitly accepts three AP subjects at 3, but its SAT wording still uses 1600/2400 and old subject tests. That obsolete-scale statement is not converted into a confirmed 1600-scale threshold or applied to Fall 2027.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -4808,6 +5310,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Derby degree language categories and preparation restrictions",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.derby.ac.uk/life/international-students/usa/",
+          "label": "Derby: Foundation/degree qualification distinction and legacy SAT scale",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -4843,8 +5351,14 @@ window.UNIPATH.admissionRequirements = {
         "waiver": "Study in a country where English is the first language may qualify for individual assessment. Approved country qualifications can also provide evidence."
       },
       "academic": {
-        "satPolicy": "unknown",
-        "note": "Academic entry depends on the school qualification and exact course. The language page does not establish a universal SAT/ACT policy."
+        "satPolicy": "conditional",
+        "note": null,
+        "entryRequirements": "The US page separates Foundation (Grade 12 diploma with its stated lower grades) from bachelor entry, which lists High School Diploma/GED GPA 3.0 plus academic-test/AP evidence. It explicitly accepts three AP subjects at 3, but its SAT wording still uses 1600/2400 and old subject tests. That obsolete-scale statement is not converted into a confirmed 1600-scale threshold or applied to Fall 2027.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -4854,6 +5368,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Derby degree language categories and preparation restrictions",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.derby.ac.uk/life/international-students/usa/",
+          "label": "Derby: Foundation/degree qualification distinction and legacy SAT scale",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -4889,8 +5409,14 @@ window.UNIPATH.admissionRequirements = {
         "waiver": "Study in a country where English is the first language may qualify for individual assessment. Approved country qualifications can also provide evidence."
       },
       "academic": {
-        "satPolicy": "unknown",
-        "note": "Academic entry depends on the school qualification and exact course. The language page does not establish a universal SAT/ACT policy."
+        "satPolicy": "conditional",
+        "note": null,
+        "entryRequirements": "The US page separates Foundation (Grade 12 diploma with its stated lower grades) from bachelor entry, which lists High School Diploma/GED GPA 3.0 plus academic-test/AP evidence. It explicitly accepts three AP subjects at 3, but its SAT wording still uses 1600/2400 and old subject tests. That obsolete-scale statement is not converted into a confirmed 1600-scale threshold or applied to Fall 2027.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -4900,6 +5426,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Derby degree language categories and preparation restrictions",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.derby.ac.uk/life/international-students/usa/",
+          "label": "Derby: Foundation/degree qualification distinction and legacy SAT scale",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -4935,8 +5467,14 @@ window.UNIPATH.admissionRequirements = {
         "waiver": "Study in a country where English is the first language may qualify for individual assessment. Approved country qualifications can also provide evidence."
       },
       "academic": {
-        "satPolicy": "unknown",
-        "note": "Academic entry depends on the school qualification and exact course. The language page does not establish a universal SAT/ACT policy."
+        "satPolicy": "conditional",
+        "note": null,
+        "entryRequirements": "The US page separates Foundation (Grade 12 diploma with its stated lower grades) from bachelor entry, which lists High School Diploma/GED GPA 3.0 plus academic-test/AP evidence. It explicitly accepts three AP subjects at 3, but its SAT wording still uses 1600/2400 and old subject tests. That obsolete-scale statement is not converted into a confirmed 1600-scale threshold or applied to Fall 2027.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -4946,6 +5484,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Derby degree language categories and preparation restrictions",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.derby.ac.uk/life/international-students/usa/",
+          "label": "Derby: Foundation/degree qualification distinction and legacy SAT scale",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -4986,8 +5530,14 @@ window.UNIPATH.admissionRequirements = {
         "note": "Nottingham Business School bachelor entry for a Student visa. Other schools, year-two entry and professional courses have separate requirements. Generic MOI letters are not accepted except named cases; PEAP preparation uses its own UKVI rules."
       },
       "academic": {
-        "satPolicy": "unknown",
-        "note": "Academic entry depends on the school qualification and exact course. The language page does not establish a universal SAT/ACT policy."
+        "satPolicy": "conditional",
+        "note": null,
+        "entryRequirements": "For most US school applicants, NTU lists High School Diploma GPA 3.0 plus two additional qualifications from SAT/ACT/AP/IB/college-credit/dual-enrolment/Honors options. Art and Design with portfolio normally needs one additional qualification. Foundation has separate GPA 2.7 and lower test/subject alternatives; those do not establish direct degree entry.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -4997,6 +5547,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "NTU faculty/year/visa language table and accepted tests",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.ntu.ac.uk/international/countries/americas/usa",
+          "label": "NTU: US diploma and alternative qualification combinations",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -5033,8 +5589,14 @@ window.UNIPATH.admissionRequirements = {
         "note": "The course page must specify this category. Accepted alternatives include TOEFL iBT/Home, Duolingo, PTE, Oxford ELLT and LanguageCert with category-specific section minima. This equivalence table alone does not assign a level to every bachelor programme. Preparatory courses below degree level require SELT."
       },
       "academic": {
-        "satPolicy": "unknown",
-        "note": "Academic entry depends on the school qualification and exact course. The language page does not establish a universal SAT/ACT policy."
+        "satPolicy": "conditional",
+        "note": null,
+        "entryRequirements": "The America entry page recognises two GCE/VCE A-level passes, a High School Graduation Diploma with AP/SAT/ACT evidence, or other international qualifications after 13 years of secondary/further education. Full IB is another basis. Course conditions and international qualification equivalence apply; applicants below direct-entry academic/language rules may use a separate International Foundation Programme.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -5044,6 +5606,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Sheffield Hallam course-assigned English equivalence table",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.shu.ac.uk/study-here/international/entry-requirements/entry-requirements-for-america",
+          "label": "Sheffield Hallam: academic entry qualification alternatives",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -5078,8 +5646,14 @@ window.UNIPATH.admissionRequirements = {
         "note": "The course page must specify this category. Accepted alternatives include TOEFL iBT/Home, Duolingo, PTE, Oxford ELLT and LanguageCert with category-specific section minima. This equivalence table alone does not assign a level to every bachelor programme. Preparatory courses below degree level require SELT."
       },
       "academic": {
-        "satPolicy": "unknown",
-        "note": "Academic entry depends on the school qualification and exact course. The language page does not establish a universal SAT/ACT policy."
+        "satPolicy": "conditional",
+        "note": null,
+        "entryRequirements": "The America entry page recognises two GCE/VCE A-level passes, a High School Graduation Diploma with AP/SAT/ACT evidence, or other international qualifications after 13 years of secondary/further education. Full IB is another basis. Course conditions and international qualification equivalence apply; applicants below direct-entry academic/language rules may use a separate International Foundation Programme.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -5089,6 +5663,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Sheffield Hallam course-assigned English equivalence table",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.shu.ac.uk/study-here/international/entry-requirements/entry-requirements-for-america",
+          "label": "Sheffield Hallam: academic entry qualification alternatives",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -5123,8 +5703,14 @@ window.UNIPATH.admissionRequirements = {
         "note": "The course page must specify this category. Accepted alternatives include TOEFL iBT/Home, Duolingo, PTE, Oxford ELLT and LanguageCert with category-specific section minima. This equivalence table alone does not assign a level to every bachelor programme. Preparatory courses below degree level require SELT."
       },
       "academic": {
-        "satPolicy": "unknown",
-        "note": "Academic entry depends on the school qualification and exact course. The language page does not establish a universal SAT/ACT policy."
+        "satPolicy": "conditional",
+        "note": null,
+        "entryRequirements": "The America entry page recognises two GCE/VCE A-level passes, a High School Graduation Diploma with AP/SAT/ACT evidence, or other international qualifications after 13 years of secondary/further education. Full IB is another basis. Course conditions and international qualification equivalence apply; applicants below direct-entry academic/language rules may use a separate International Foundation Programme.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -5134,6 +5720,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Sheffield Hallam course-assigned English equivalence table",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.shu.ac.uk/study-here/international/entry-requirements/entry-requirements-for-america",
+          "label": "Sheffield Hallam: academic entry qualification alternatives",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -5197,8 +5789,14 @@ window.UNIPATH.admissionRequirements = {
         "note": "Most courses use 6.0/5.5; some require higher scores. Direct entry, online pre-sessional and on-campus pre-sessional accept different test variants."
       },
       "academic": {
-        "satPolicy": "unknown",
-        "note": "Academic entry depends on the school qualification and exact course. The language page does not establish a universal SAT/ACT policy."
+        "satPolicy": "conditional",
+        "note": null,
+        "entryRequirements": "The US undergraduate section lists High School Graduation Diploma GPA 2.6/75%, specified Grade 12 English/Math grades, PLUS ACT composite 21, PLUS three APs at 3; the published PLUS wording is not changed to interchangeable alternatives. Engineering/technology subject requirements may include AP Calculus. BCU International College is a separate pathway when direct academic requirements are not met.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -5208,6 +5806,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "BCU direct-entry versus pre-sessional test acceptance",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.bcu.ac.uk/international/bcu-in-your-country/usa",
+          "label": "Birmingham City: US academic combination and subject requirements",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -5249,17 +5853,23 @@ window.UNIPATH.admissionRequirements = {
         "note": "The international page gives 6.0 for Computing/Engineering/Art & Design in many country sections; programme-specific confirmation is still required. Business and Science vary across country sections and are not assigned this rule. International Year Zero with pre-sessional IELTS 4.5 is a different route."
       },
       "academic": {
-        "satPolicy": "unknown",
-        "note": "Academic entry depends on the school qualification and exact course. The language page does not establish a universal SAT/ACT policy."
+        "satPolicy": "conditional",
+        "note": null,
+        "entryRequirements": "DMU Leicester’s USA section lists High School Diploma GPA 3.0 and two AP subjects from the stated groups at grade 3+. Its Uzbekistan section says the completed-secondary Shahodatnoma is not direct Year 1 entry: a recognised Foundation or successful university year is needed. The American requirements printed under other countries are not substituted for the USA section; DMU Dubai is a different campus.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
       "sources": [
         {
           "url": "https://www.dmu.ac.uk/international/en/entry-requirements.aspx",
-          "label": "DMU international undergraduate faculty language rules",
-          "verified": "2026-11-18",
-          "access": "web-html-read"
+          "label": "DMU Leicester: country-specific direct and preparatory entry",
+          "verified": "2026-11-19",
+          "access": "html-read"
         },
         {
           "url": "https://www.dmu.ac.uk/international/en/accepted-english-language-proficiency-tests.aspx",
@@ -5599,7 +6209,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "Academic eligibility depends on recognition of the school qualification and programme selection. No universal SAT/ACT exemption is inferred from a language page."
+        "note": "Academic eligibility depends on recognition of the school qualification and programme selection. No universal SAT/ACT exemption is inferred from a language page.",
+        "entryRequirements": "A bachelor requires an HZB (recognised university entrance qualification), which may be general or subject-specific. Foreign qualifications are evaluated rather than accepted merely because the document is called a high-school diploma. Degree-specific admission/examination regulations add conditions. The English International Business route and German-language degrees retain separate language rules.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [
@@ -5611,6 +6227,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Anhalt International Business BA, Bernburg: two language branches",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.hs-anhalt.de/en/study/paths-to-university/admission-requirements.html",
+          "label": "Anhalt: general and degree-specific bachelor admission",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -5634,7 +6256,13 @@ window.UNIPATH.admissionRequirements = {
       "english": {},
       "academic": {
         "satPolicy": "unknown",
-        "note": "Academic eligibility depends on recognition of the school qualification and programme selection. No universal SAT/ACT exemption is inferred from a language page."
+        "note": "Academic eligibility depends on recognition of the school qualification and programme selection. No universal SAT/ACT exemption is inferred from a language page.",
+        "entryRequirements": "A bachelor requires an HZB (recognised university entrance qualification), which may be general or subject-specific. Foreign qualifications are evaluated rather than accepted merely because the document is called a high-school diploma. Degree-specific admission/examination regulations add conditions. The English International Business route and German-language degrees retain separate language rules.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [
         {
@@ -5649,6 +6277,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Anhalt International Business BA, Bernburg: two language branches",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.hs-anhalt.de/en/study/paths-to-university/admission-requirements.html",
+          "label": "Anhalt: general and degree-specific bachelor admission",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -5681,7 +6315,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "Academic eligibility depends on recognition of the school qualification and programme selection. No universal SAT/ACT exemption is inferred from a language page."
+        "note": "Academic eligibility depends on recognition of the school qualification and programme selection. No universal SAT/ACT exemption is inferred from a language page.",
+        "entryRequirements": "Foreign school qualifications may give direct general access, subject-restricted access, or require prior university study/Studienkolleg plus assessment. Freiburg does not accept a Studienkolleg assessment limited to universities of applied sciences as university access. General TestAS participation is voluntary: Medicine/Dentistry may use scores in selection, while other subjects may use it instead of the orientation test. LAS retains its separate programme selection requirements.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [
@@ -5699,6 +6339,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Freiburg accepted B2 English certificates",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://uni-freiburg.de/en/studies/applying/international-applicants/full-time-studies/",
+          "label": "Freiburg: HZB routes and programme-specific use of TestAS",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -5721,7 +6367,13 @@ window.UNIPATH.admissionRequirements = {
       "english": {},
       "academic": {
         "satPolicy": "unknown",
-        "note": "Academic eligibility depends on recognition of the school qualification and programme selection. No universal SAT/ACT exemption is inferred from a language page."
+        "note": "Academic eligibility depends on recognition of the school qualification and programme selection. No universal SAT/ACT exemption is inferred from a language page.",
+        "entryRequirements": "FAU distinguishes direct and subject-restricted HZB from qualifications requiring an assessment examination. Where required, the one-year Studienkolleg is in Munich, not an FAU-owned college; German B2 and an entrance test are required for this preparatory route. After the assessment, a new degree application is needed. In some qualification groups one or two university years can support subject-related direct access.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [
         {
@@ -5736,6 +6388,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "FAU German bachelor proficiency and English degree exceptions",
           "verified": "2026-11-18",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.fau.eu/studying/international-students/application-and-enrollment-for-international-applicants/evaluation-of-international-qualifications/",
+          "label": "FAU: qualification categories and Munich Studienkolleg",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": "Autonomy Technologies, Clean Energy Processes, International Business Studies, Artificial Intelligence and International Economic Studies are named fully English bachelor exceptions. Their own English/academic entry rules still require programme verification; German DSH is not assigned to them."
@@ -5774,7 +6432,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "Academic eligibility depends on recognition of the school qualification and programme selection. No universal SAT/ACT exemption is inferred from a language page."
+        "note": "Academic eligibility depends on recognition of the school qualification and programme selection. No universal SAT/ACT exemption is inferred from a language page.",
+        "entryRequirements": "A foreign higher-education entrance qualification normally needs uni-assist VPD before the THI application, with specified exemptions for German/recognised prior documentation. If recognition requires FSP, the guide points to the preparatory Studienkolleg route rather than unconditional direct entry. Architecture has a named aptitude test. Other degree-specific rules and separate English/German language evidence must be checked.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [
         {
@@ -5799,6 +6463,12 @@ window.UNIPATH.admissionRequirements = {
             1,
             2
           ]
+        },
+        {
+          "url": "https://www.thi.de/en/studies/application/applications-for-bachelors-degree-programmes-from-abroad/",
+          "label": "THI: VPD, FSP and programme aptitude requirements",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -5821,7 +6491,13 @@ window.UNIPATH.admissionRequirements = {
       "english": {},
       "academic": {
         "satPolicy": "unknown",
-        "note": "TestAS is required for this non-EU procedure, with core and relevant subject module. Paper/digital accepted; rank thresholds vary by faculty. Nursing/Midwifery dual degrees have named exceptions. SAT/ACT are not established substitutes."
+        "note": "TestAS is required for this non-EU procedure, with core and relevant subject module. Paper/digital accepted; rank thresholds vary by faculty. Nursing/Midwifery dual degrees have named exceptions. SAT/ACT are not established substitutes.",
+        "entryRequirements": "The reviewed non-EU route with formal HZB requires recognised academic access, German proof and a valid TestAS certificate with the relevant subject module. Programme/faculty percentile conditions apply and do not guarantee selection. EU-equivalent applicants use another procedure; the page names dual Clinical Nursing and Midwifery as no-TestAS exceptions. Studienstart International integrale is compulsory alongside the first semester for its applicable route, with further named exceptions.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [
         {
@@ -5835,9 +6511,9 @@ window.UNIPATH.admissionRequirements = {
       "sources": [
         {
           "url": "https://uni-koeln.de/en/studium-lehre/international/studium-in-koeln/internationale-bewerbungen/bachelor-studium-staatsexamen/bewerbungsverfahren-fuer-nicht-eu-buergerinnen/application-procedure-for-non-eu-citizens-with-formal-university-entrance-qualification-studienstart-international-integrale",
-          "label": "Cologne non-EU direct-HZB undergraduate procedure",
-          "verified": "2026-11-18",
-          "access": "web-html-read"
+          "label": "Cologne: non-EU HZB and mandatory TestAS with exceptions",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -5870,7 +6546,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "A recognised entrance qualification plus the programme admission test is required: advanced-school mathematics, logic/computer science multiple choice and a 200–300-word essay. No SAT/ACT substitution is established."
+        "note": "A recognised entrance qualification plus the programme admission test is required: advanced-school mathematics, logic/computer science multiple choice and a 200–300-word essay. No SAT/ACT substitution is established.",
+        "entryRequirements": "For the reviewed Applied Artificial Intelligence bachelor, a recognised university entrance qualification AND an admission test are required. The test covers upper-secondary mathematics (calculus, linear algebra, probability), logic and computer science, and the FAQ also describes a 200–300 word essay. These requirements belong to this degree, not all DIT programmes. English B2 and German A2 by graduation are separate language conditions.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [
         {
@@ -5882,9 +6564,9 @@ window.UNIPATH.admissionRequirements = {
       "sources": [
         {
           "url": "https://www.th-deg.de/ain-b-en",
-          "label": "DIT English Artificial Intelligence bachelor: entry and language conditions",
-          "verified": "2026-11-18",
-          "access": "web-html-read"
+          "label": "DIT Applied AI: school qualification and programme admission test",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -6107,7 +6789,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "optional",
-        "note": "The first-year checklist explicitly makes SAT/ACT optional and considers submitted scores only if they benefit the applicant. This does not establish a language-test exemption."
+        "note": null,
+        "entryRequirements": "First-year checklist: application, essay, one academic recommendation and official secondary transcript. SAT/ACT are explicitly optional on the current undergraduate application page. The international page puts IELTS 6.5 under graduate admission, so it is not copied to this bachelor route.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [
@@ -6116,9 +6804,9 @@ window.UNIPATH.admissionRequirements = {
       "sources": [
         {
           "url": "https://www.lemoyne.edu/admission-financial-aid/apply/",
-          "label": "Le Moyne first-year application requirements",
-          "verified": "2026-11-18",
-          "access": "web-html-read"
+          "label": "Le Moyne: first-year required and optional materials",
+          "verified": "2026-11-19",
+          "access": "html-read"
         },
         {
           "url": "https://www.lemoyne.edu/admission-financial-aid/international-admission/",
@@ -6145,23 +6833,31 @@ window.UNIPATH.admissionRequirements = {
         "status": "year-not-stated"
       },
       "english": {
+        "requirement": "alternatives-with-academic",
         "ielts": {
-          "accepted": null
+          "accepted": null,
+          "min": null
         },
-        "note": "For fewer than 60 college credits, the page says English proof is met through the ACT/SAT admission requirements in Regulation 3.042. Its IELTS 6.0/TOEFL 79 or 4.5 table is specifically an alternative for 60+ credit transfers and is not assigned as a first-year route. Listed country exemptions still need individual assessment."
+        "note": "For international freshmen (0–11 college credits), the admissions page says English proficiency is met by ACT or SAT admission-test requirements. Its IELTS 6.0 / TOEFL table is for transfer applicants with 60+ credits, not a verified freshman IELTS alternative. Regulation 3.042 lists broader English-proof options; their application to an individual freshman must be confirmed."
       },
       "academic": {
         "satPolicy": "required-alternatives",
-        "note": "Freshman applicants submit SAT, ACT or CLT and must meet the admission regulations. College-course substitution belongs to the separately specified transfer categories. The exact regulatory subscore thresholds still require verification."
+        "note": null,
+        "entryRequirements": "Freshmen submit secondary records and credential evaluation. SAT, ACT or CLT admission-score rules apply; the page links Regulations 3.001 and 3.042. An English-test table for 60+ transfer credits is not a freshman admission route.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
       "sources": [
         {
           "url": "https://uwf.edu/admissions/undergraduate/apply/international/requirements/",
-          "label": "UWF international first-year versus transfer requirement matrix",
-          "verified": "2026-11-18",
-          "access": "web-html-read"
+          "label": "UWF: international undergraduate requirements by credit category",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -6552,7 +7248,18 @@ window.UNIPATH.admissionRequirements = {
       },
       "academic": {
         "satPolicy": "unknown",
-        "note": "The read eligibility and document sections do not establish an independent SAT/ACT policy. Recognised school completion remains compulsory."
+        "note": "The read eligibility and document sections do not establish an independent SAT/ACT policy. Recognised school completion remains compulsory.",
+        "entryRequirements": "Spring 2027 first-year eligibility requires the applicable non-Korean applicant/parent nationality category and completed or expected primary/secondary education. Education across multiple countries normally totals at least 12 years. Admission comprehensively evaluates academic achievement and major aptitude, with interviews if requested. Required authenticated/notarised scans are uploaded during application; physical originals are posted only by admitted students during registration. These stages are not one deadline.",
+        "applicability": {
+          "label": "Spring 2027 only; Fall rules not established",
+          "entryYears": [
+            2027
+          ],
+          "status": "confirmed",
+          "intakes": [
+            "spring-2027"
+          ]
+        }
       },
       "localLanguage": [],
       "documents": [
@@ -6561,17 +7268,13 @@ window.UNIPATH.admissionRequirements = {
       "sources": [
         {
           "url": "https://www.sejong.ac.kr/_res/sejong/eng/etc/2027_Spring_Semester_Undergraduate_Admission_Guide_for_International_Students(eng)_20260903.pdf",
-          "label": "Sejong Spring 2027 undergraduate guide: eligibility and documents",
+          "label": "Sejong: Spring 2027 first-year eligibility and separate document stages",
           "verified": "2026-11-19",
           "access": "pdf-read",
           "pages": [
             4,
             5,
-            6,
-            9,
-            10,
-            11,
-            17
+            9
           ]
         }
       ],
@@ -6598,7 +7301,18 @@ window.UNIPATH.admissionRequirements = {
       "english": {},
       "academic": {
         "satPolicy": "unknown",
-        "note": "The read eligibility and document sections do not establish an independent SAT/ACT policy. Recognised school completion remains compulsory."
+        "note": "The read eligibility and document sections do not establish an independent SAT/ACT policy. Recognised school completion remains compulsory.",
+        "entryRequirements": "Spring 2027 first-year eligibility requires the applicable non-Korean applicant/parent nationality category and completed or expected primary/secondary education. Education across multiple countries normally totals at least 12 years. Admission comprehensively evaluates academic achievement and major aptitude, with interviews if requested. Required authenticated/notarised scans are uploaded during application; physical originals are posted only by admitted students during registration. These stages are not one deadline.",
+        "applicability": {
+          "label": "Spring 2027 only; Fall rules not established",
+          "entryYears": [
+            2027
+          ],
+          "status": "confirmed",
+          "intakes": [
+            "spring-2027"
+          ]
+        }
       },
       "localLanguage": [
         {
@@ -6613,17 +7327,13 @@ window.UNIPATH.admissionRequirements = {
       "sources": [
         {
           "url": "https://www.sejong.ac.kr/_res/sejong/eng/etc/2027_Spring_Semester_Undergraduate_Admission_Guide_for_International_Students(eng)_20260903.pdf",
-          "label": "Sejong Spring 2027 undergraduate guide: eligibility and documents",
+          "label": "Sejong: Spring 2027 first-year eligibility and separate document stages",
           "verified": "2026-11-19",
           "access": "pdf-read",
           "pages": [
             4,
             5,
-            6,
-            9,
-            10,
-            11,
-            17
+            9
           ]
         }
       ],
@@ -6665,20 +7375,30 @@ window.UNIPATH.admissionRequirements = {
         "waiver": "The guide lists US, UK, Australia, Canada, Ireland, New Zealand and South Africa; confirm the required school-history evidence with admissions."
       },
       "academic": {
-        "satPolicy": "unknown"
+        "satPolicy": "unknown",
+        "entryRequirements": "Spring 2027 freshmen must satisfy the foreign-applicant/parent nationality rules and complete recognised formal secondary education. The guide includes specific equivalence rules for shorter school systems, including an 11-year system with its last three years in one country; do not reject every non-12-year system automatically. Home schooling, distance learning and qualification examinations are not recognised. Selection includes document screening and interview under the degree’s rules.",
+        "applicability": {
+          "label": "Spring 2027 only; Fall rules not established",
+          "entryYears": [
+            2027
+          ],
+          "status": "confirmed",
+          "intakes": [
+            "spring-2027"
+          ]
+        }
       },
       "localLanguage": [],
       "documents": [],
       "sources": [
         {
           "url": "https://international.pusan.ac.kr/bbs/international/2089/1533745/download.do",
-          "label": "Pusan Spring 2027 undergraduate guide: English section",
+          "label": "Pusan: Spring 2027 school-system equivalence and academic selection",
           "verified": "2026-11-19",
           "access": "pdf-read",
           "pages": [
             32,
-            33,
-            34
+            33
           ]
         }
       ],
@@ -6706,7 +7426,18 @@ window.UNIPATH.admissionRequirements = {
       },
       "english": {},
       "academic": {
-        "satPolicy": "unknown"
+        "satPolicy": "unknown",
+        "entryRequirements": "Spring 2027 freshmen must satisfy the foreign-applicant/parent nationality rules and complete recognised formal secondary education. The guide includes specific equivalence rules for shorter school systems, including an 11-year system with its last three years in one country; do not reject every non-12-year system automatically. Home schooling, distance learning and qualification examinations are not recognised. Selection includes document screening and interview under the degree’s rules.",
+        "applicability": {
+          "label": "Spring 2027 only; Fall rules not established",
+          "entryYears": [
+            2027
+          ],
+          "status": "confirmed",
+          "intakes": [
+            "spring-2027"
+          ]
+        }
       },
       "localLanguage": [
         {
@@ -6719,13 +7450,12 @@ window.UNIPATH.admissionRequirements = {
       "sources": [
         {
           "url": "https://international.pusan.ac.kr/bbs/international/2089/1533745/download.do",
-          "label": "Pusan Spring 2027 undergraduate guide: English section",
+          "label": "Pusan: Spring 2027 school-system equivalence and academic selection",
           "verified": "2026-11-19",
           "access": "pdf-read",
           "pages": [
             32,
-            33,
-            34
+            33
           ]
         }
       ],
@@ -6980,7 +7710,18 @@ window.UNIPATH.admissionRequirements = {
       },
       "english": {},
       "academic": {
-        "satPolicy": "unknown"
+        "satPolicy": "unknown",
+        "entryRequirements": "Spring 2027 freshmen require the applicable foreign nationality of applicant/parents and completion of the recognised elementary/secondary curriculum. Schools must be officially regulated; home-school/lifelong/online-school qualifications have stated exclusions. Most programmes use document evaluation; Film Arts uses document review and an interview. Transfer-specific credit and examination exclusions are not automatically applied to freshmen.",
+        "applicability": {
+          "label": "Spring 2027 only",
+          "entryYears": [
+            2027
+          ],
+          "status": "confirmed",
+          "intakes": [
+            "spring-2027"
+          ]
+        }
       },
       "localLanguage": [
         {
@@ -6995,18 +7736,12 @@ window.UNIPATH.admissionRequirements = {
       "sources": [
         {
           "url": "https://admission.ssu.ac.kr/upload/SSU%281%29_26102292916.pdf",
-          "label": "Soongsil Spring 2027 international undergraduate guide",
+          "label": "Soongsil: Spring 2027 first-year eligibility and selection",
           "verified": "2026-11-19",
           "access": "pdf-read",
           "pages": [
             6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            14,
-            15
+            7
           ]
         }
       ],
@@ -7057,7 +7792,14 @@ window.UNIPATH.admissionRequirements = {
         "waiver": "At least three years of education in a listed country; starred countries additionally require an English-language school system. This is not a universal school-MOI waiver."
       },
       "academic": {
-        "satPolicy": "unknown"
+        "satPolicy": "optional",
+        "entryRequirements": "Freshman applicants submit official high-school transcripts; early school graduation additionally needs a school official’s completion plan. SAT/ACT are explicitly optional for admissions review. Schooling outside the US may separately require English proof. The page names 2027 freshman deadlines; programme/qualification-specific additional requirements still apply.",
+        "note": null,
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -7067,6 +7809,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Towson undergraduate English table and exemptions",
           "verified": "2026-11-19",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.towson.edu/admissions/undergrad/freshmen/",
+          "label": "Towson: freshman academic requirements and optional tests",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -7435,16 +8183,22 @@ window.UNIPATH.admissionRequirements = {
         "alternatives": "DET 105, PTE 53, Cambridge C1/C2 180, MET 52; SAT EBRW 470 or ACT English 15 are English alternatives. TOEFL Home accepted; MyBest/Essentials not accepted."
       },
       "academic": {
-        "satPolicy": "unknown"
+        "satPolicy": "unknown",
+        "entryRequirements": "The international undergraduate process requires official academic transcripts from the issuing school, with official English translation where necessary; West African applicants have a separate WAEC verification process. SAT Reading/Writing and ACT English are listed as language-proof alternatives, not a universal academic-test requirement. The separate general application wording limits its no-SAT statement to domestic undergraduates.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
       "sources": [
         {
           "url": "https://www.gvsu.edu/admissions/international-application-14",
-          "label": "GVSU undergraduate application language section",
+          "label": "GVSU: international undergraduate academic records",
           "verified": "2026-11-19",
-          "access": "web-html-read"
+          "access": "html-read"
         }
       ],
       "note": null
@@ -7488,7 +8242,14 @@ window.UNIPATH.admissionRequirements = {
         "waiver": "The country option requires both citizenship and high-school attendance in a listed country, not citizenship alone."
       },
       "academic": {
-        "satPolicy": "unknown"
+        "satPolicy": "optional",
+        "entryRequirements": "First-year academic review considers secondary grade trends, curriculum rigour and preparation in the intended major. Applicants explicitly choose test-optional or score-submitting review, with the same scholarship opportunities. International F-1 applicants separately submit English proof; a language SAT alternative does not create an independently mandatory academic SAT.",
+        "note": null,
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -7498,6 +8259,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Elmhurst international first-year English alternatives",
           "verified": "2026-11-19",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.elmhurst.edu/admission/first-year-students/admission-requirements/",
+          "label": "Elmhurst: first-year academic review options",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -7695,7 +8462,14 @@ window.UNIPATH.admissionRequirements = {
         "waiver": "Two consecutive US high-school years plus graduation, specified college credits or listed permanent-residence countries may qualify. Admissions may still require a test."
       },
       "academic": {
-        "satPolicy": "unknown"
+        "satPolicy": "optional",
+        "entryRequirements": "The undergraduate application page explicitly offers test-optional first-year review, including a Fall 2027 application route. International applicants separately provide secondary records and acceptable English proof. Optional SAT/ACT for admission does not waive English evidence or establish equivalence of every foreign secondary diploma.",
+        "note": null,
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
@@ -7705,6 +8479,12 @@ window.UNIPATH.admissionRequirements = {
           "label": "Valpo international undergraduate language alternatives",
           "verified": "2026-11-19",
           "access": "web-html-read"
+        },
+        {
+          "url": "https://www.valpo.edu/admission/apply/",
+          "label": "Valparaiso: undergraduate first-year application and test-optional rule",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null
@@ -8026,16 +8806,22 @@ window.UNIPATH.admissionRequirements = {
         "alternatives": "General eligibility accepts English evidence OR Korean alternatives: CEFR B2, New TEPS 202; or TOPIK 3, university Korean course level 3, specified KIIP or overseas King Sejong Intermediate 1. This does not establish a wholly English degree."
       },
       "academic": {
-        "satPolicy": "unknown"
+        "satPolicy": "unknown",
+        "entryRequirements": "International first-year eligibility requires the published foreign nationality of applicant and parents and full recognised primary/secondary education with high-school graduation before the semester. GED, home schooling and the listed non-regular education categories are excluded. Required documents distinguish school graduation/transcripts, language proof, passports and parental nationality/relationship evidence. The general language alternatives have departmental exceptions such as CSE TOPIK 4; they do not prove a wholly English-taught degree.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [],
       "documents": [],
       "sources": [
         {
           "url": "https://home.knu.ac.kr/HOME/global/sub.htm?nav_code=glo1549935033",
-          "label": "Kyungpook current international undergraduate eligibility",
+          "label": "Kyungpook: first-year education, nationality and departmental exceptions",
           "verified": "2026-11-19",
-          "access": "web-html-read"
+          "access": "html-read"
         }
       ],
       "note": "The page publishes a Fall 2027 schedule but says the semester-specific department guide will be announced in March. General language rules are not therefore confirmed for every Fall 2027 major."
@@ -8043,7 +8829,7 @@ window.UNIPATH.admissionRequirements = {
     {
       "id": "korean-computing",
       "label": "Computer Science and Engineering — Korean qualification exception",
-      "language": "ko",
+      "language": "unknown",
       "kind": "direct",
       "level": "bachelor",
       "applicant": "international-first-year",
@@ -8057,7 +8843,13 @@ window.UNIPATH.admissionRequirements = {
       },
       "english": {},
       "academic": {
-        "satPolicy": "unknown"
+        "satPolicy": "unknown",
+        "entryRequirements": "International first-year eligibility requires the published foreign nationality of applicant and parents and full recognised primary/secondary education with high-school graduation before the semester. GED, home schooling and the listed non-regular education categories are excluded. Required documents distinguish school graduation/transcripts, language proof, passports and parental nationality/relationship evidence. The general language alternatives have departmental exceptions such as CSE TOPIK 4; they do not prove a wholly English-taught degree.",
+        "applicability": {
+          "label": "Published academic entry policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        }
       },
       "localLanguage": [
         {
@@ -8070,9 +8862,73 @@ window.UNIPATH.admissionRequirements = {
       "sources": [
         {
           "url": "https://home.knu.ac.kr/HOME/global/sub.htm?nav_code=glo1549935033",
-          "label": "Kyungpook current international undergraduate eligibility",
+          "label": "Kyungpook: first-year education, nationality and departmental exceptions",
           "verified": "2026-11-19",
-          "access": "web-html-read"
+          "access": "html-read"
+        }
+      ],
+      "note": "The department-specific TOPIK requirement is confirmed on the general page. The exact teaching-language mix is not stated there; neither an English-taught nor a wholly Korean-taught degree is inferred from the test requirement."
+    }
+  ],
+  "berlin-international-university": [
+    {
+      "id": "ba-international-management-marketing",
+      "label": "BA International Management & Marketing, Berlin",
+      "language": "en",
+      "kind": "direct",
+      "level": "bachelor",
+      "applicant": "international-first-year",
+      "programmeIds": [
+        "business"
+      ],
+      "applicability": {
+        "label": "March / October 2027 — BA International Management & Marketing",
+        "entryYears": [
+          2027
+        ],
+        "status": "confirmed",
+        "intakes": [
+          "spring-2027",
+          "fall-2027"
+        ]
+      },
+      "english": {
+        "requirement": "required-unless-exempt",
+        "ielts": {
+          "accepted": null,
+          "min": null
+        },
+        "note": "This English-taught BA requires English at CEFR B2 or higher; German is not required. The current programme and FAQ do not publish an IELTS/TOEFL numerical equivalence or the former country/degree waiver list. Earlier UniPath listed IELTS 6.0 and TOEFL 74 from the old Berlin International page, which now redirects; these numbers are not used as current admission cutoffs. The English Preparatory School is a separate route before degree study."
+      },
+      "academic": {
+        "satPolicy": "unknown",
+        "entryRequirements": "BA Business Administration — International Management & Marketing requires German Abitur/Fachabitur or an equivalent international qualification assessed under German ZAB equivalence criteria. Submit passport, school diploma/transcript, applicable university records and certified English/German translations. Admission eligibility is followed by faculty selection. The current programme/checklist does not establish a universal SAT/ACT waiver.",
+        "applicability": {
+          "label": "March / October 2027 — BA International Management & Marketing",
+          "entryYears": [
+            2027
+          ],
+          "status": "confirmed",
+          "intakes": [
+            "spring-2027",
+            "fall-2027"
+          ]
+        }
+      },
+      "localLanguage": [],
+      "documents": [],
+      "sources": [
+        {
+          "url": "https://whitecliffe.de/en/programs/ba-business-administration-international-management-marketing/",
+          "label": "Whitecliffe Berlin: BA programme, qualifications and CEFR B2",
+          "verified": "2026-11-19",
+          "access": "html-read"
+        },
+        {
+          "url": "https://whitecliffe.de/en/faq/",
+          "label": "Whitecliffe Berlin: current bachelor application checklist",
+          "verified": "2026-11-19",
+          "access": "html-read"
         }
       ],
       "note": null

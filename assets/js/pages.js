@@ -471,8 +471,9 @@
         row('SAT/ACT policy', satPolicySummary()) +
         row('GPA', gpaText) +
         (reviewedRoutes ? '' : testPolicyRow('SAT', ac.sat) + testPolicyRow('ACT', ac.act)) +
-        row('Other standardized tests', or(ac.otherTests)) +
-        row('International qualifications', or(ac.internationalQualifications)) +
+        (reviewedRoutes && U.requirements.routes(u).some(function (r) {return (r.academic || {}).entryRequirements;})
+          ? row('Academic qualifications and other examinations', '<a href="#english">See the verified route-specific academic entry requirements above.</a>')
+          : row('Other standardized tests', or(ac.otherTests)) + row('International qualifications', or(ac.internationalQualifications))) +
       '</dl>' + ((u.country === 'us' || (u.stats && u.stats.official && (u.stats.official.sat || u.stats.official.act))) ? testingStatsCard(u) : '') +
       statsBlock(u.stats) + '</section>';
 

@@ -1,0 +1,1827 @@
+{
+  "mainSHA": "d2f275a6e39af6be3f25febf4fca434039ea5ea9",
+  "baseDevSHA": "30cc0a9a1a828279bcb3865123c0120955fb68a0",
+  "sourceHeadBeforeFinalReport": "187b734ffeb2e66ca16b5d62a6734a78c391a531",
+  "version": "267",
+  "catalogue": 540,
+  "counts": {
+    "us": 350,
+    "jp": 30,
+    "kr": 30,
+    "uk": 50,
+    "de": 30,
+    "ca": 50
+  },
+  "idsCountriesUnchanged": true,
+  "nameChanges": [
+    {
+      "id": "berlin-international-university",
+      "before": "Whitecliffe University of Applied Sciences (formerly Berlin International)",
+      "after": "Whitecliffe University of Applied Sciences",
+      "aliases": [
+        "Whitecliffe University of Applied Sciences (formerly Berlin International)",
+        "Berlin International University of Applied Sciences"
+      ]
+    }
+  ],
+  "mainOnlyContentFiles": [],
+  "changedCards": 177,
+  "topFields": {
+    "verification": 16,
+    "sources": 21,
+    "links": 16,
+    "fieldNotes": 1,
+    "admissions": 8,
+    "costs": 37,
+    "admissionRequirements": 121,
+    "english": 15,
+    "scholarships": 12,
+    "programEvidence": 2,
+    "academics": 2,
+    "description": 4,
+    "stats": 1,
+    "name": 1,
+    "aliases": 1,
+    "photos": 1
+  },
+  "changed": [
+    {
+      "id": "university-of-pennsylvania",
+      "country": "us",
+      "fields": [
+        "verification"
+      ]
+    },
+    {
+      "id": "university-of-chicago",
+      "country": "us",
+      "fields": [
+        "sources.4.url"
+      ]
+    },
+    {
+      "id": "georgetown-university",
+      "country": "us",
+      "fields": [
+        "verification"
+      ]
+    },
+    {
+      "id": "tulane-university",
+      "country": "us",
+      "fields": [
+        "verification"
+      ]
+    },
+    {
+      "id": "trinity-college-hartford",
+      "country": "us",
+      "fields": [
+        "links.programs",
+        "sources.5.url"
+      ]
+    },
+    {
+      "id": "gettysburg-college",
+      "country": "us",
+      "fields": [
+        "verification.unconfirmed.1",
+        "fieldNotes.engineering.url"
+      ]
+    },
+    {
+      "id": "sewanee-university-of-the-south",
+      "country": "us",
+      "fields": [
+        "links.internationalAdmissions"
+      ]
+    },
+    {
+      "id": "college-of-wooster",
+      "country": "us",
+      "fields": [
+        "admissions.deadlines.0.cycleEvidence",
+        "admissions.deadlines.1.cycleEvidence",
+        "admissions.deadlines.2.cycleEvidence",
+        "admissions.deadlines.3.cycleEvidence",
+        "admissions.deadlines.4.cycleEvidence",
+        "costs.breakdown.tuition",
+        "costs.breakdown.billed",
+        "costs.breakdown.includes",
+        "costs.breakdown.tuitionLabel",
+        "costs.breakdown.period",
+        "costs.academicYear",
+        "costs.headline",
+        "costs.items.0.amount",
+        "costs.items.1.label",
+        "costs.items.1.amount",
+        "costs.items.2.amount",
+        "costs.totalText",
+        "costs.note",
+        "costs.billedSubtotal",
+        "costs.source",
+        "costs.verified",
+        "costs.status"
+      ]
+    },
+    {
+      "id": "knox-college",
+      "country": "us",
+      "fields": [
+        "costs.status"
+      ]
+    },
+    {
+      "id": "beloit-college",
+      "country": "us",
+      "fields": [
+        "costs.breakdown.tuition",
+        "costs.breakdown.billed",
+        "costs.breakdown.budget",
+        "costs.breakdown.includes",
+        "costs.breakdown.period",
+        "costs.academicYear",
+        "costs.headline",
+        "costs.items.0.amount",
+        "costs.items.2.label",
+        "costs.items.2.amount",
+        "costs.items.3.label",
+        "costs.items.3.amount",
+        "costs.items.4.label",
+        "costs.items.5.amount",
+        "costs.items.6.label",
+        "costs.items.6.amount",
+        "costs.items.7.label",
+        "costs.items.7.amount",
+        "costs.totalText",
+        "costs.note",
+        "costs.billedSubtotal",
+        "costs.source",
+        "costs.verified",
+        "costs.status"
+      ]
+    },
+    {
+      "id": "soka-university-of-america",
+      "country": "us",
+      "fields": [
+        "links.applicationPortal",
+        "verification.unconfirmed.2"
+      ]
+    },
+    {
+      "id": "university-of-virginia",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "university-of-florida",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "kalamazoo-college",
+      "country": "us",
+      "fields": [
+        "english.ielts.sections",
+        "english.ielts.source",
+        "english.ielts.verified",
+        "costs.status"
+      ]
+    },
+    {
+      "id": "dillard-university",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "eckerd-college",
+      "country": "us",
+      "fields": [
+        "costs.status"
+      ]
+    },
+    {
+      "id": "elmira-college",
+      "country": "us",
+      "fields": [
+        "costs.status",
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "hendrix-college",
+      "country": "us",
+      "fields": [
+        "links.financialAid",
+        "costs.breakdown.includes",
+        "costs.breakdown.tuition",
+        "costs.breakdown.billed",
+        "costs.breakdown.budget",
+        "costs.breakdown.period",
+        "costs.academicYear",
+        "costs.verified",
+        "costs.headline",
+        "costs.items.0.group",
+        "costs.items.0.amount",
+        "costs.items.1.label",
+        "costs.items.1.group",
+        "costs.items.1.amount",
+        "costs.items.2.label",
+        "costs.items.2.group",
+        "costs.items.2.amount",
+        "costs.items.3.label",
+        "costs.items.3.group",
+        "costs.items.3.amount",
+        "costs.items.4.label",
+        "costs.items.4.group",
+        "costs.items.4.amount",
+        "costs.items.5.label",
+        "costs.items.5.group",
+        "costs.items.5.amount",
+        "costs.items.6.label",
+        "costs.items.6.group",
+        "costs.items.6.amount",
+        "costs.items.7.label",
+        "costs.items.7.group",
+        "costs.items.7.amount",
+        "costs.billedSubtotal",
+        "costs.totalText",
+        "costs.note",
+        "costs.status"
+      ]
+    },
+    {
+      "id": "marist-university",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "bentley-university",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "lake-forest-college",
+      "country": "us",
+      "fields": [
+        "costs.status"
+      ]
+    },
+    {
+      "id": "santa-clara-university",
+      "country": "us",
+      "fields": [
+        "links.financialAid"
+      ]
+    },
+    {
+      "id": "texas-a-and-m-university",
+      "country": "us",
+      "fields": [
+        "scholarships.needBased.note",
+        "scholarships.needBased.firstYearEligible",
+        "scholarships.needBased.source",
+        "scholarships.needBased.verified",
+        "scholarships.needBased.status"
+      ]
+    },
+    {
+      "id": "university-of-washington",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "willamette-university",
+      "country": "us",
+      "fields": [
+        "programEvidence.engineering.url"
+      ]
+    },
+    {
+      "id": "savannah-college-of-art-and-design",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "university-of-california-davis",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "university-of-california-irvine",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "university-of-pittsburgh",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "university-of-california-merced",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "indiana-university-bloomington",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "university-of-tennessee-knoxville",
+      "country": "us",
+      "fields": [
+        "verification.unconfirmed.3"
+      ]
+    },
+    {
+      "id": "brigham-young-university",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "university-of-texas-at-dallas",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "university-of-the-pacific",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "wheaton-college-illinois",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "saint-marys-college-indiana",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "wheaton-college-massachusetts",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "stonehill-college",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "university-of-dallas",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "cal-state-san-bernardino",
+      "country": "us",
+      "fields": [
+        "links.cost",
+        "admissions.deadlines.0.source",
+        "admissions.deadlines.0.verified",
+        "admissions.deadlines.0.cycleEvidence.source",
+        "admissions.deadlines.0.cycleEvidence.verified",
+        "admissions.deadlines.1.source",
+        "admissions.deadlines.1.verified",
+        "admissions.deadlines.1.cycleEvidence.source",
+        "admissions.deadlines.1.cycleEvidence.verified",
+        "admissions.applicationFee.amount",
+        "admissions.applicationFee.note",
+        "admissions.applicationFee.source",
+        "english.detailsSource",
+        "english.detailsVerified",
+        "costs.source",
+        "costs.headline",
+        "costs.note",
+        "sources.0.url",
+        "sources.4.url"
+      ]
+    },
+    {
+      "id": "rhode-island-school-of-design",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "the-college-of-new-jersey",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "bryant-university",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "baruch-college",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "siena-university",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "towson-university",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "le-moyne-college",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "suny-esf",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "john-jay-college",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "suny-new-paltz",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "salve-regina-university",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "st-bonaventure-university",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "stockton-university",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "manhattan-university",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "st-john-fisher-university",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "wentworth-institute-of-technology",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "berry-college",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "appalachian-state-university",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "high-point-university",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "tuskegee-university",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "college-of-charleston",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "hampton-university",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "loyola-university-new-orleans",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "university-of-tampa",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "georgia-college-state-university",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "western-carolina-university",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "louisiana-tech-university",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "middle-tennessee-state-university",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "university-of-west-florida",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "murray-state-university",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "milwaukee-school-of-engineering",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "calvin-university",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "valparaiso-university",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "elmhurst-university",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "rockhurst-university",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "baldwin-wallace-university",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "indiana-wesleyan-university",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "university-of-northern-iowa",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "grand-valley-state-university",
+      "country": "us",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "waseda-university",
+      "country": "jp",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "keio-university",
+      "country": "jp",
+      "fields": [
+        "admissions.deadlines.0.name",
+        "admissions.deadlines.0.kind",
+        "admissions.deadlines.0.entryTerm",
+        "admissions.deadlines.0.date",
+        "admissions.deadlines.0.binding",
+        "admissions.deadlines.0.appliesTo",
+        "admissions.deadlines.0.conditions",
+        "admissions.deadlines.0.verified",
+        "admissions.deadlines.0.cycleEvidence.basis",
+        "admissions.deadlines.0.cycleEvidence.verified",
+        "admissions.deadlines.0.cycleEvidence.quote",
+        "admissions.deadlines.0.cycleEvidence.entryTerm",
+        "admissions.deadlines.0.note",
+        "admissions.deadlines.1.name",
+        "admissions.deadlines.1.kind",
+        "admissions.deadlines.1.entryTerm",
+        "admissions.deadlines.1.date",
+        "admissions.deadlines.1.binding",
+        "admissions.deadlines.1.appliesTo",
+        "admissions.deadlines.1.conditions",
+        "admissions.deadlines.1.verified",
+        "admissions.deadlines.1.cycleEvidence.basis",
+        "admissions.deadlines.1.cycleEvidence.verified",
+        "admissions.deadlines.1.cycleEvidence.quote",
+        "admissions.deadlines.1.cycleEvidence.entryTerm",
+        "admissions.deadlines.1.note",
+        "admissions.deadlines.2.name",
+        "admissions.deadlines.2.kind",
+        "admissions.deadlines.2.entryTerm",
+        "admissions.deadlines.2.date",
+        "admissions.deadlines.2.binding",
+        "admissions.deadlines.2.appliesTo",
+        "admissions.deadlines.2.conditions",
+        "admissions.deadlines.2.verified",
+        "admissions.deadlines.2.cycleEvidence.basis",
+        "admissions.deadlines.2.cycleEvidence.verified",
+        "admissions.deadlines.2.cycleEvidence.quote",
+        "admissions.deadlines.2.cycleEvidence.entryTerm",
+        "admissions.deadlines.2.note",
+        "academics.sat.note",
+        "academics.sat.source",
+        "academics.sat.verified",
+        "academics.act.policy",
+        "academics.act.note",
+        "academics.act.source",
+        "academics.act.verified",
+        "sources.5",
+        "sources.6"
+      ]
+    },
+    {
+      "id": "international-christian-university",
+      "country": "jp",
+      "fields": [
+        "academics.sat.policy",
+        "academics.act.policy",
+        "costs.breakdown.tuition",
+        "costs.breakdown.billed",
+        "costs.breakdown.includes",
+        "costs.breakdown.period",
+        "costs.academicYear",
+        "costs.headline",
+        "costs.items.0.label",
+        "costs.items.0.amount",
+        "costs.items.1.label",
+        "costs.items.1.amount",
+        "costs.items.2.label",
+        "costs.items.2.amount",
+        "costs.items.3",
+        "costs.items.4",
+        "costs.items.5",
+        "costs.billedSubtotal",
+        "costs.totalText",
+        "costs.note",
+        "costs.source",
+        "costs.verified",
+        "costs.status"
+      ]
+    },
+    {
+      "id": "tohoku-university",
+      "country": "jp",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "institute-of-science-tokyo",
+      "country": "jp",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "nagoya-university",
+      "country": "jp",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "kyushu-university",
+      "country": "jp",
+      "fields": [
+        "links.scholarships",
+        "scholarships.fullRide.note",
+        "scholarships.fullRide.status",
+        "scholarships.fullRide.source",
+        "scholarships.fullRide.verified",
+        "scholarships.fullRide.guaranteed",
+        "sources.1.label",
+        "sources.1.url",
+        "verification.unconfirmed.2"
+      ]
+    },
+    {
+      "id": "osaka-university",
+      "country": "jp",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "tokyo-international-university",
+      "country": "jp",
+      "fields": [
+        "costs.note",
+        "costs.verified"
+      ]
+    },
+    {
+      "id": "rikkyo-university",
+      "country": "jp",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "ritsumeikan-university",
+      "country": "jp",
+      "fields": [
+        "english.ielts.profiles.1",
+        "english.ielts.profiles.2",
+        "english.ielts.profiles.3",
+        "english.ielts.note",
+        "costs.breakdown.tuition",
+        "costs.breakdown.includes",
+        "costs.breakdown.billed",
+        "costs.breakdown.period",
+        "costs.academicYear",
+        "costs.headline",
+        "costs.items.0.label",
+        "costs.items.0.amount",
+        "costs.items.1.label",
+        "costs.items.1.amount",
+        "costs.totalText",
+        "costs.note",
+        "costs.source",
+        "costs.verified",
+        "costs.status",
+        "scholarships.merit.0.amount",
+        "scholarships.merit.0.note",
+        "scholarships.merit.0.internationalEligible",
+        "scholarships.merit.0.firstYearEligible",
+        "scholarships.merit.0.source",
+        "scholarships.merit.0.verified"
+      ]
+    },
+    {
+      "id": "hitotsubashi-university",
+      "country": "jp",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "temple-university-japan",
+      "country": "jp",
+      "fields": [
+        "costs.status"
+      ]
+    },
+    {
+      "id": "meiji-university",
+      "country": "jp",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "okayama-university",
+      "country": "jp",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "kwansei-gakuin-university",
+      "country": "jp",
+      "fields": [
+        "english.toefl.note",
+        "english.waiver",
+        "english.source",
+        "english.verified",
+        "sources.1.url"
+      ]
+    },
+    {
+      "id": "toyo-university",
+      "country": "jp",
+      "fields": [
+        "sources.4",
+        "verification.unconfirmed.4"
+      ]
+    },
+    {
+      "id": "hosei-university",
+      "country": "jp",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "seoul-national-university",
+      "country": "kr",
+      "fields": [
+        "scholarships.fullRide.note",
+        "scholarships.fullRide.status",
+        "scholarships.fullRide.source",
+        "scholarships.fullRide.verified",
+        "scholarships.fullRide.guaranteed",
+        "scholarships.merit.0.note",
+        "scholarships.merit.0.status",
+        "scholarships.merit.1.note",
+        "scholarships.merit.1.status",
+        "scholarships.merit.2.note",
+        "scholarships.merit.2.status",
+        "scholarships.merit.2.firstYearEligible",
+        "scholarships.merit.3.note",
+        "scholarships.merit.3.status",
+        "verification"
+      ]
+    },
+    {
+      "id": "kaist",
+      "country": "kr",
+      "fields": [
+        "description",
+        "admissions.deadlines.0.entryTerm",
+        "admissions.deadlines.0.verified",
+        "admissions.deadlines.0.cycleEvidence",
+        "admissions.deadlines.1.entryTerm",
+        "admissions.deadlines.1.conditions",
+        "admissions.deadlines.1.verified",
+        "admissions.deadlines.1.cycleEvidence",
+        "admissions.deadlines.3",
+        "scholarships.fullRide.howToApply",
+        "scholarships.fullRide.note",
+        "scholarships.fullRide.source",
+        "scholarships.fullRide.verified",
+        "scholarships.merit.0.amount",
+        "scholarships.merit.0.application",
+        "scholarships.merit.0.note",
+        "scholarships.merit.0.source",
+        "scholarships.merit.0.verified",
+        "sources.4",
+        "sources.5",
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "yonsei-university",
+      "country": "kr",
+      "fields": [
+        "costs.status"
+      ]
+    },
+    {
+      "id": "korea-university",
+      "country": "kr",
+      "fields": [
+        "costs.status"
+      ]
+    },
+    {
+      "id": "sungkyunkwan-university",
+      "country": "kr",
+      "fields": [
+        "description",
+        "links.scholarships",
+        "english.ielts.profiles.0",
+        "english.ielts.note",
+        "english.ielts.source",
+        "english.ielts.verified",
+        "english.toefl.profiles.0",
+        "english.toefl.note",
+        "english.toefl.source",
+        "english.toefl.verified",
+        "english.note",
+        "costs.status",
+        "scholarships.fullRide.note",
+        "scholarships.fullRide.source",
+        "scholarships.fullRide.verified",
+        "scholarships.fullRide.guaranteed",
+        "scholarships.fullRide.status",
+        "scholarships.merit.0.amount",
+        "scholarships.merit.0.note",
+        "scholarships.merit.0.source",
+        "scholarships.merit.0.verified",
+        "scholarships.merit.0.status",
+        "scholarships.merit.1.source",
+        "scholarships.merit.1.verified",
+        "scholarships.merit.1.status",
+        "scholarships.merit.2.amount",
+        "scholarships.merit.2.source",
+        "scholarships.merit.2.verified",
+        "scholarships.merit.2.status",
+        "scholarships.merit.3.source",
+        "scholarships.merit.3.verified",
+        "scholarships.merit.3.status",
+        "scholarships.merit.4.amount",
+        "scholarships.merit.4.source",
+        "scholarships.merit.4.verified",
+        "scholarships.merit.4.firstYearEligible",
+        "scholarships.merit.4.status",
+        "sources.0.url",
+        "sources.2.url",
+        "stats",
+        "verification"
+      ]
+    },
+    {
+      "id": "postech",
+      "country": "kr",
+      "fields": [
+        "links.cost",
+        "costs.breakdown.tuition",
+        "costs.breakdown.tuitionText",
+        "costs.breakdown.includes",
+        "costs.breakdown.period",
+        "costs.academicYear",
+        "costs.headline",
+        "costs.items.0.label",
+        "costs.items.0.amount",
+        "costs.items.0.text",
+        "costs.items.1.label",
+        "costs.items.1.amount",
+        "costs.items.2",
+        "costs.items.3",
+        "costs.items.4",
+        "costs.totalText",
+        "costs.note",
+        "costs.source",
+        "costs.verified",
+        "costs.status",
+        "costs.conflict",
+        "sources.4"
+      ]
+    },
+    {
+      "id": "unist",
+      "country": "kr",
+      "fields": [
+        "costs.note",
+        "costs.source",
+        "costs.verified",
+        "scholarships.fullRide.note",
+        "scholarships.fullRide.source",
+        "scholarships.fullRide.verified",
+        "scholarships.merit.0.amount",
+        "scholarships.merit.0.eligibility",
+        "scholarships.merit.0.note",
+        "scholarships.merit.0.source",
+        "scholarships.merit.0.verified",
+        "scholarships.merit.0.internationalEligible",
+        "scholarships.merit.0.firstYearEligible",
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "handong-global-university",
+      "country": "kr",
+      "fields": [
+        "costs.status",
+        "scholarships.fullRide.covers.meals",
+        "scholarships.fullRide.competitiveness",
+        "scholarships.fullRide.note",
+        "scholarships.fullRide.source",
+        "scholarships.fullRide.verified",
+        "scholarships.merit.0.amount",
+        "scholarships.merit.0.note",
+        "scholarships.merit.0.source",
+        "scholarships.merit.0.verified",
+        "scholarships.merit.0.internationalEligible",
+        "scholarships.merit.0.firstYearEligible",
+        "scholarships.merit.2",
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "gist",
+      "country": "kr",
+      "fields": [
+        "description",
+        "admissions.notes.0",
+        "english.ielts.min",
+        "english.ielts.note",
+        "english.ielts.status",
+        "english.ielts.source",
+        "english.ielts.verified",
+        "english.toefl.min",
+        "english.toefl.scales.0",
+        "english.toefl.note",
+        "english.toefl.status",
+        "english.duolingo",
+        "english.waiver",
+        "english.note",
+        "costs.breakdown.tuition",
+        "costs.breakdown.includes",
+        "costs.headline",
+        "costs.items.0",
+        "costs.items.1",
+        "costs.totalText",
+        "costs.note",
+        "costs.status",
+        "costs.source",
+        "costs.verified",
+        "scholarships.fullRide.available",
+        "scholarships.fullRide.internationalEligible",
+        "scholarships.fullRide.covers.tuition",
+        "scholarships.fullRide.covers.housing",
+        "scholarships.fullRide.covers.meals",
+        "scholarships.fullRide.covers.insurance",
+        "scholarships.fullRide.covers.books",
+        "scholarships.fullRide.competitiveness",
+        "scholarships.fullRide.note",
+        "scholarships.merit.0.name",
+        "scholarships.merit.0.amount",
+        "scholarships.merit.0.eligibility",
+        "scholarships.merit.0.application",
+        "scholarships.merit.0.note",
+        "scholarships.merit.0.internationalEligible",
+        "sources.3",
+        "verification.checked.0",
+        "verification.checked.1",
+        "verification.checked.2",
+        "verification.unconfirmed.0",
+        "verification.unconfirmed.1",
+        "verification.unconfirmed.2",
+        "verification.unconfirmed.3",
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "inha-university",
+      "country": "kr",
+      "fields": [
+        "verification.unconfirmed.4"
+      ]
+    },
+    {
+      "id": "chung-ang-university",
+      "country": "kr",
+      "fields": [
+        "sources.4",
+        "verification.unconfirmed.3"
+      ]
+    },
+    {
+      "id": "pusan-national-university",
+      "country": "kr",
+      "fields": [
+        "sources.4",
+        "verification.unconfirmed.4",
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "dgist",
+      "country": "kr",
+      "fields": [
+        "links.scholarships",
+        "sources.1.url",
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "sejong-university",
+      "country": "kr",
+      "fields": [
+        "verification.unconfirmed.4",
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "kyungpook-national-university",
+      "country": "kr",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "dongguk-university",
+      "country": "kr",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "soongsil-university",
+      "country": "kr",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "suny-korea",
+      "country": "kr",
+      "fields": [
+        "costs.status"
+      ]
+    },
+    {
+      "id": "imperial-college-london",
+      "country": "uk",
+      "fields": [
+        "links.scholarships"
+      ]
+    },
+    {
+      "id": "university-college-london",
+      "country": "uk",
+      "fields": [
+        "links.cost",
+        "sources.0.url"
+      ]
+    },
+    {
+      "id": "university-of-glasgow",
+      "country": "uk",
+      "fields": [
+        "links.scholarships"
+      ]
+    },
+    {
+      "id": "university-of-leeds",
+      "country": "uk",
+      "fields": [
+        "links.cost"
+      ]
+    },
+    {
+      "id": "university-of-york",
+      "country": "uk",
+      "fields": [
+        "costs.status",
+        "costs.breakdown.published",
+        "costs.breakdown.includes",
+        "costs.breakdown.tuition",
+        "costs.breakdown.period",
+        "costs.headline",
+        "costs.items.0.label",
+        "costs.items.0.text",
+        "costs.items.0.amount",
+        "costs.totalText",
+        "costs.note",
+        "costs.verified",
+        "sources.3"
+      ]
+    },
+    {
+      "id": "university-of-bath",
+      "country": "uk",
+      "fields": [
+        "admissions.deadlines.3",
+        "admissions.deadlines.4",
+        "scholarships.merit.0",
+        "sources.3"
+      ]
+    },
+    {
+      "id": "university-of-liverpool",
+      "country": "uk",
+      "fields": [
+        "admissions.deadlines.4",
+        "costs.breakdown.tuition",
+        "costs.breakdown.tuitionText",
+        "costs.breakdown.includes",
+        "costs.breakdown.published",
+        "costs.breakdown.period",
+        "costs.academicYear",
+        "costs.headline",
+        "costs.items.0.label",
+        "costs.items.0.amount",
+        "costs.items.1",
+        "costs.items.2",
+        "costs.totalText",
+        "costs.note",
+        "costs.verified",
+        "costs.status",
+        "sources.3"
+      ]
+    },
+    {
+      "id": "university-of-sussex",
+      "country": "uk",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "university-of-strathclyde",
+      "country": "uk",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "university-of-greenwich",
+      "country": "uk",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "coventry-university",
+      "country": "uk",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "university-of-westminster",
+      "country": "uk",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "sheffield-hallam-university",
+      "country": "uk",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "oxford-brookes-university",
+      "country": "uk",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "de-montfort-university",
+      "country": "uk",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "university-of-hertfordshire",
+      "country": "uk",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "university-of-huddersfield",
+      "country": "uk",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "middlesex-university",
+      "country": "uk",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "nottingham-trent-university",
+      "country": "uk",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "university-of-salford",
+      "country": "uk",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "university-of-derby",
+      "country": "uk",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "birmingham-city-university",
+      "country": "uk",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "technical-university-of-munich",
+      "country": "de",
+      "fields": [
+        "costs.breakdown.tuition",
+        "costs.breakdown.tuitionText",
+        "costs.breakdown.includes",
+        "costs.academicYear",
+        "costs.headline",
+        "costs.items.0.label",
+        "costs.items.0.text",
+        "costs.items.0.min",
+        "costs.items.0.max",
+        "costs.items.1",
+        "costs.items.2",
+        "costs.totalText",
+        "costs.note",
+        "costs.source",
+        "costs.verified",
+        "costs.status",
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "fau-erlangen-nurnberg",
+      "country": "de",
+      "fields": [
+        "costs.totalText",
+        "costs.note",
+        "costs.source",
+        "costs.verified",
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "university-of-freiburg",
+      "country": "de",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "university-of-cologne",
+      "country": "de",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "leuphana-university-luneburg",
+      "country": "de",
+      "fields": [
+        "admissions.deadlines.0.cycleEvidence",
+        "costs.breakdown.includes",
+        "costs.academicYear",
+        "costs.headline",
+        "costs.items.0.text",
+        "costs.items.0.amount",
+        "costs.items.1.label",
+        "costs.items.1.text",
+        "costs.items.2",
+        "costs.totalText",
+        "costs.note",
+        "costs.source",
+        "costs.verified",
+        "costs.status",
+        "costs.conflict",
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "rhine-waal-university",
+      "country": "de",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "frankfurt-school",
+      "country": "de",
+      "fields": [
+        "links.internationalAdmissions",
+        "links.scholarships",
+        "links.financialAid",
+        "links.programs",
+        "scholarships.fullRide.covers.tuition",
+        "scholarships.fullRide.note",
+        "scholarships.merit.0.name",
+        "scholarships.merit.0.amount",
+        "scholarships.merit.0.note",
+        "scholarships.merit.0.internationalEligible",
+        "scholarships.merit.0.firstYearEligible",
+        "scholarships.merit.0.source",
+        "scholarships.merit.0.verified",
+        "sources.2.url",
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "anhalt-university",
+      "country": "de",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "berlin-international-university",
+      "country": "de",
+      "fields": [
+        "name",
+        "description",
+        "sources.3",
+        "aliases",
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "university-of-europe-applied-sciences",
+      "country": "de",
+      "fields": [
+        "photos.gallery.1",
+        "verification.unconfirmed.2"
+      ]
+    },
+    {
+      "id": "deggendorf-institute-of-technology",
+      "country": "de",
+      "fields": [
+        "links.cost",
+        "sources.0.url",
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "hof-university",
+      "country": "de",
+      "fields": [
+        "costs.breakdown.includes",
+        "costs.academicYear",
+        "costs.headline",
+        "costs.items.0.label",
+        "costs.items.0.text",
+        "costs.items.0.amount",
+        "costs.items.1.label",
+        "costs.items.1.text",
+        "costs.items.1.amount",
+        "costs.items.2.label",
+        "costs.items.2.text",
+        "costs.items.2.min",
+        "costs.items.2.max",
+        "costs.totalText",
+        "costs.note",
+        "costs.source",
+        "costs.verified"
+      ]
+    },
+    {
+      "id": "technische-hochschule-ingolstadt",
+      "country": "de",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "universite-de-montreal",
+      "country": "ca",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "university-of-ottawa",
+      "country": "ca",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "dalhousie-university",
+      "country": "ca",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "universite-laval",
+      "country": "ca",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "university-of-saskatchewan",
+      "country": "ca",
+      "fields": [
+        "english.ielts.sections",
+        "english.ielts.source",
+        "english.ielts.verified",
+        "costs.status"
+      ]
+    },
+    {
+      "id": "carleton-university",
+      "country": "ca",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "york-university",
+      "country": "ca",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "memorial-university-of-newfoundland",
+      "country": "ca",
+      "fields": [
+        "english.ielts.sections",
+        "english.ielts.source",
+        "english.ielts.verified",
+        "costs.status"
+      ]
+    },
+    {
+      "id": "university-of-new-brunswick",
+      "country": "ca",
+      "fields": [
+        "costs.status"
+      ]
+    },
+    {
+      "id": "university-of-windsor",
+      "country": "ca",
+      "fields": [
+        "programEvidence.business.url",
+        "programEvidence.business.checked",
+        "programEvidence.computer-science.url",
+        "programEvidence.computer-science.checked",
+        "programEvidence.engineering.url",
+        "programEvidence.engineering.checked",
+        "programEvidence.medicine.url",
+        "programEvidence.medicine.checked",
+        "programEvidence.education.program",
+        "programEvidence.education.url",
+        "programEvidence.education.checked"
+      ]
+    },
+    {
+      "id": "university-of-regina",
+      "country": "ca",
+      "fields": [
+        "english.ielts.sections",
+        "english.ielts.source",
+        "english.ielts.verified",
+        "costs.status",
+        "scholarships.fullRide.note",
+        "scholarships.merit.0.amount",
+        "scholarships.merit.0.note",
+        "scholarships.merit.0.verified",
+        "scholarships.merit.0.internationalEligible",
+        "scholarships.merit.0.firstYearEligible",
+        "scholarships.merit.1.note"
+      ]
+    },
+    {
+      "id": "brock-university",
+      "country": "ca",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "wilfrid-laurier-university",
+      "country": "ca",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "trent-university",
+      "country": "ca",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "university-of-prince-edward-island",
+      "country": "ca",
+      "fields": [
+        "english.ielts.sections",
+        "english.ielts.source",
+        "english.ielts.verified",
+        "costs.status"
+      ]
+    },
+    {
+      "id": "acadia-university",
+      "country": "ca",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "saint-marys-university",
+      "country": "ca",
+      "fields": [
+        "english.ielts.sections",
+        "english.ielts.source",
+        "english.ielts.verified",
+        "costs.status"
+      ]
+    },
+    {
+      "id": "university-of-lethbridge",
+      "country": "ca",
+      "fields": [
+        "english.ielts.sections",
+        "english.ielts.source",
+        "english.ielts.verified",
+        "costs.status"
+      ]
+    },
+    {
+      "id": "mount-royal-university",
+      "country": "ca",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "university-of-northern-british-columbia",
+      "country": "ca",
+      "fields": [
+        "english.ielts.sections",
+        "english.ielts.source",
+        "english.ielts.verified",
+        "costs.status"
+      ]
+    },
+    {
+      "id": "vancouver-island-university",
+      "country": "ca",
+      "fields": [
+        "english.ielts.sections",
+        "english.ielts.source",
+        "english.ielts.verified",
+        "costs.status"
+      ]
+    },
+    {
+      "id": "university-of-the-fraser-valley",
+      "country": "ca",
+      "fields": [
+        "english.ielts.sections",
+        "english.ielts.source",
+        "english.ielts.verified",
+        "costs.status"
+      ]
+    },
+    {
+      "id": "laurentian-university",
+      "country": "ca",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "universite-du-quebec-a-montreal",
+      "country": "ca",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "universite-de-sherbrooke",
+      "country": "ca",
+      "fields": [
+        "admissionRequirements"
+      ]
+    },
+    {
+      "id": "universite-de-moncton",
+      "country": "ca",
+      "fields": [
+        "admissionRequirements"
+      ]
+    }
+  ],
+  "accessMechanismChanged": false,
+  "note": "Effective full main-to-candidate data diff. Field presence or a source URL is not a new content verification; official re-review is documented separately."
+}
